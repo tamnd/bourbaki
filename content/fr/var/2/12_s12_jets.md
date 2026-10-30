@@ -40,7 +40,7 @@ subsections:
       pdf_page: 150
 statements: 1
 exercises: 0
-content_sha256: 3cef1d15729f7411300863edad308e8143c54cc5db300a69be7628ab5c76eb0f
+content_sha256: 24194664e65b2b68db0c7d190b749dc96f4c568379032e5e1e881eb00963df53
 ---
 
 ## § 12. Jets
@@ -237,7 +237,7 @@ Soit $U$ un ouvert de $X$, et soit $f \in \mathscr{S}_E^r(U)$ une section de cla
 
 12.6.2. Si $F$ est un espace de Banach, l’identification (12.5.2) de $P^k(F_X)$ avec $J^k(X, F)$ munit cette dernière variété d’une structure de fibré vectoriel de classe $C^{r-k}$, de base $X$. Lorsque $F = K$, on écrit $P^k(X)$ au lieu de $P^k(K_X)$.
 
-#### Exemple {#var-2-s12-n6-exa-1 .statement}
+#### Exemple {#var-2-s12-n6-exa-1 .statement tag=0EEK}
 
 Prenons $X = K^n$, et notons $u_1, \ldots, u_n$ les fonctions coordonnées sur $K^n$; alors la fibre $P^k_0(X)$ de $P^k(X)$ en 0 admet pour base la famille des jets d’ordre $k$ des monômes $u_1^{m_1} \ldots u_n^{m_n}$, avec $m_i \geqslant 0, \sum_{i=0}^n m_i \leqslant k$.
 

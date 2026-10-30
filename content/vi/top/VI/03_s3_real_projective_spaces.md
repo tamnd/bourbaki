@@ -36,7 +36,7 @@ subsections:
       pdf_page: 59
 statements: 14
 exercises: 10
-content_sha256: 25cd6d9889467a5e0b53d1aa6540cb1ed516f3bc7c81e65d6ec57ff5f3ac90fe
+content_sha256: d0fd49220d2ff14f3b9b9c6d52fa51c2d0f6a2681be72d4948ad005465581e7f
 translated_from: content/en/top/VI/03_s3_real_projective_spaces.md
 source_content_sha256: cdbfaa0529c2d9178477ff39ba5fa15f3824e5ea0e5baf56c3673f8c85549196
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
@@ -52,13 +52,13 @@ Trong mục này chúng ta sẽ cần thường xuyên viện dẫn các khái n
 
 Cho $E$ là một không gian tôpô, $R$ một quan hệ tương đương trên $E$, $A$ một tập con của $E$, $R_A$ là quan hệ tương đương cảm sinh trên $A$ bởi $R$ và cho $f$ là ánh xạ chính tắc của $E$ lên $E/R$. Khi đó:
 
-#### Bổ đề 1 {#top-vi-s3-lem-1 .statement}
+#### Bổ đề 1 {#top-vi-s3-lem-1 .statement tag=0BXG}
 
 *Nếu mọi tập hợp mở (tương ứng đóng) trong $A$ bão hòa đối với $R_A$ là vết trên $A$ của một tập hợp mở (tương ứng đóng) trong $E$ bão hòa đối với $R$, thì không gian thương $A/R_A$ là đồng phôi với không gian con $f(A)$ của $E/R$. Điều này đặc biệt đúng nếu $A$ là mở hoặc đóng trong $E$ và bão hòa đối với $R$.*
 
 Điều này suy ra từ Mệnh đề 10 của Chương I, § 3, no. 6.
 
-#### Bổ đề 2 {#top-vi-s3-lem-2 .statement}
+#### Bổ đề 2 {#top-vi-s3-lem-2 .statement tag=0BXH}
 
 *Nếu có một ánh xạ liên tục* g *của* E *lên* A *sao cho, với mọi* x ∈ E, g(x) *thuộc lớp tương đương của* x, *thì không gian thương* A/R_A *là đồng phôi với* E/R.
 
@@ -74,7 +74,7 @@ Với mỗi số nguyên p sao cho −1 ≤ p ≤ n, ảnh chính tắc trong P_
 
 Khi K là trường R, các không gian xạ ảnh tương ứng có thể được trang bị tôpô, và đó là những không gian mà chúng ta sẽ nghiên cứu.
 
-#### Định nghĩa 1 {#top-vi-s3-def-1 .statement}
+#### Định nghĩa 1 {#top-vi-s3-def-1 .statement tag=0BXI}
 
 *Không gian xạ ảnh* P_n(R) *được trang bị tôpô thương của tôpô của* R_{n+1}^* *bởi quan hệ tương đương* Δ_n(R) *được gọi là không gian xạ ảnh thực chiều n.*
 
@@ -82,7 +82,7 @@ Không gian xạ ảnh P_1(R) được gọi là *đường xạ ảnh thực*, 
 
 Khi không có nguy cơ nhầm lẫn, chúng ta sẽ viết P_n và Δ_n thay cho P_n(R) và Δ_n(R).
 
-#### Mệnh đề 1 {#top-vi-s3-prop-1 .statement}
+#### Mệnh đề 1 {#top-vi-s3-prop-1 .statement tag=0BXJ}
 
 Không gian xạ ảnh $P_n$ là Hausdorff.
 
@@ -90,13 +90,13 @@ Ta bắt đầu bằng việc chỉ ra rằng quan hệ $\Delta_n$ là mở (Ch�
 
 Theo Mệnh đề 8 của Chương I, § 8, no. 3, mệnh đề sẽ được chứng minh nếu ta chỉ ra rằng tập con $M$ của $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ được xác định bởi quan hệ $\Delta_n$ là đóng. Khi đó cho $(x, y)$ là một điểm của $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ nằm trong bao đóng của $M$. Nếu $x = (x_i)$, có một chỉ số $i$ sao cho $x_i \neq 0$; do đó có một lân cận $V$ của $(x, y)$ sao cho với mọi điểm $(x', y') \in M \cap V$ tọa độ thứ i $x'_i$ của $x'$ không là 0. Khi $(x', y')$ tiến tới $(x, y)$ trong khi vẫn thuộc $M$, $y'_i {x'}^{-1}_i$ tiến tới $t = y_i x_i^{-1}$; vì $y' = (y'_i {x'}^{-1}_i) x'$, ta thấy bằng cách chuyển qua giới hạn rằng $y = x$, điều này chỉ ra rằng $(x, y) \in M$.
 
-#### Mệnh đề 2 {#top-vi-s3-prop-2 .statement}
+#### Mệnh đề 2 {#top-vi-s3-prop-2 .statement tag=0BXK}
 
 Không gian xạ ảnh $P_n$ là compact và liên thông, và là đồng phôi với thương của mặt cầu $S_n$ bởi quan hệ tương đương cảm sinh trên mặt cầu bởi $\Delta_n$.
 
 Cho $\Delta'_n$ là quan hệ tương đương cảm sinh trên $S_n$ bởi $\Delta_n$ (các lớp tương đương của $\Delta'_n$ là các cặp điểm đối xứng diametrically của $S_n$). Ánh xạ $x \to x/||x||$ của $\mathbf{R}_{n+1}^*$ lên $S_n$ là liên tục, do đó (Bổ đề 2) $P_n$ là đồng phôi với $S_n / \Delta'_n$. Vì $S_n$ là compact và liên thông, mọi không gian thương Hausdorff của $S_n$ cũng compact và liên thông (Chương I, § 9, no. 4, Định lý 2, Hệ quả 1; § 11, no. 3, Mệnh đề 7).
 
-#### Mệnh đề 3 {#top-vi-s3-prop-3 .statement}
+#### Mệnh đề 3 {#top-vi-s3-prop-3 .statement tag=0BXL}
 
 Nếu $n \geq 0$, không gian xạ ảnh $P_n$ là đồng phôi với không gian thương của quả cầu $B_n$ thu được bằng cách đồng nhất mỗi điểm của $S_{n-1}$ với điểm đối xứng diametrically của nó.
 
@@ -110,7 +110,7 @@ Mọi ánh xạ tuyến tính đơn ánh $f$ từ $\mathbf{R}^{n+1}$ vào $\math
 
 Ta cũng nhắc lại rằng, nếu V và V' là hai đa tạp tuyến tính xạ ảnh có p chiều trong $P_n$, thì tồn tại một biến đổi tuyến tính xạ ảnh của $P_n$ biến V thành V'. Đặc biệt, nếu $p \geq 0$, tồn tại một biến đổi tuyến tính xạ ảnh biến V thành một đa tạp tuyến tính xạ ảnh *tọa độ*, tức là ảnh chính tắc của một đa tạp tọa độ W' có $p + 1$ chiều (không có điểm o) của $\mathbf{R}^{n+1}$. Nếu đồng nhất W' với $\mathbf{R}_{p+1}^*$, quan hệ cảm sinh bởi $\Delta_n$ trên W' chính xác là $\Delta_p$; vì W' đóng và bão hòa đối với $\Delta_n$, Bổ đề 1 cho thấy rằng V' đồng phôi với $P_p$ và đóng trong $P_n$; hơn nữa, nếu $p < n$, phần bù của nó trù mật trong $P_n$ ($\S$ 1, no. 4, Hệ quả của Mệnh đề 3). Suy ra:
 
-#### Mệnh đề 4 {#top-vi-s3-prop-4 .statement}
+#### Mệnh đề 4 {#top-vi-s3-prop-4 .statement tag=0BXM}
 
 *Mỗi đa tạp tuyến tính xạ ảnh có p chiều trong một không gian xạ ảnh $P_n$ đều đóng trong $P_n$ và đồng phôi với $P_p$; nếu $p < n$ thì phần bù của nó trù mật trong $P_n$.*
 
@@ -120,13 +120,13 @@ Hình 4.
 
 tọa độ thuần nhất thỏa mãn một quan hệ dạng $\sum_{i=0}^{n} a_i x_i = 0$, trong đó các $a_i$ không đồng thời bằng không ("phương trình" của siêu phẳng).
 
-#### Mệnh đề 5 {#top-vi-s3-prop-5 .statement}
+#### Mệnh đề 5 {#top-vi-s3-prop-5 .statement tag=0BXN}
 
 *Trong một không gian xạ ảnh* $\mathbf{P}_n$ ($n \geq 0$), *phần bù của một siêu phẳng xạ ảnh* $\mathbf{H}$ *đồng phôi với* $\mathbf{R}^n$.
 
 Bằng cách thực hiện một phép biến đổi tuyến tính xạ ảnh, ta có thể giả sử rằng $\mathbf{H}$ là siêu phẳng có phương trình là $x_0 = 0$. Tập hợp $A$ các điểm $x = (x_i)$ của $\mathbf{R}_{n+1}^*$ sao cho $x_0 \neq 0$ là mở và bão hòa đối với $\Delta_n$; ảnh chính tắc $C$ của nó trong $\mathbf{P}_n$, là phần bù của $\mathbf{H}$ trong $\mathbf{P}_n$, do đó là đồng phôi với thương của $A$ bởi quan hệ tương đương $\Theta$ cảm sinh trên $A$ bởi $\Delta_n$ (Bổ đề 1). Gọi $B$ là siêu phẳng có phương trình là $x_0 = 1$ trong $\mathbf{R}^{n+1}$. Với mỗi điểm $x \in A$ tương ứng điểm $x_0^{-1} x$ là nơi đường thẳng đi qua $0$ và $x$ cắt $B$ (Hình 4); theo cách này ta định nghĩa một ánh xạ liên tục $g$ của $A$ lên $B$ sao cho $g(x)$ là điểm duy nhất của $B$ đồng dư với $x$ modulo $\Theta$. Suy ra rằng $B$ là đồng phôi với $A/\Theta$ (Bổ đề 2), do đó với $C$; vì $B$ là đồng phôi với $\mathbf{R}^n$, chứng minh được hoàn tất.
 
-#### Hệ quả {#top-vi-s3-n2-cor-1 .statement}
+#### Hệ quả {#top-vi-s3-n2-cor-1 .statement tag=0BXO}
 
 *Mọi điểm của* $\mathbf{P}_n$ *đều có một lân cận mở đồng phôi với* $\mathbf{R}^n$.
 
@@ -170,7 +170,7 @@ Giả sử $K$ là một vành chia, tập $\mathbf{P}_{n,p}(K)$ các đa tạp 
 
 Trong phần sau, ta sẽ lấy $K$ là trường $\mathbf{R}$, và sẽ bỏ chữ $K$ trong ký hiệu ở trên. Ta có thể định nghĩa một tôpô trên $P_{n,\ p}$ bằng một quá trình khái quát hóa định nghĩa tôpô của các không gian xạ ảnh thực. Cụ thể, $L_{n+1,\ p+1}$ được chứa trong không gian $M_{p+1,\ n+1}$ của tất cả các ma trận có $p + 1$ hàng và $n + 1$ cột với phần tử thực; ta trang bị cho $L_{n+1,\ p+1}$ tôpô cảm sinh bởi tôpô của không gian ma trận này ($\S \ 1$, no. 6).
 
-#### Định nghĩa 2 {#top-vi-s3-def-2 .statement}
+#### Định nghĩa 2 {#top-vi-s3-def-2 .statement tag=0BXP}
 
 *Không gian $P_{n,\ p}$, là thương của không gian tôpô $L_{n+1,\ p+1}$ bởi quan hệ tương đương $\Delta_{n,\ p}$, được gọi là không gian các đa tạp tuyến tính xạ ảnh có số chiều $p \geq 0$ trong không gian xạ ảnh thực $P_n$.*
 
@@ -184,7 +184,7 @@ của $p + 1$ chỉ số thuộc khoảng $[0, n]$ của $\mathbf{N}$, ta ký hi
 
 Một diễn giải hình học của tập $A_\sigma$ như sau: gọi $E_\sigma$ là không gian con vectơ của $\mathbf{R}^{n+1}$ sinh bởi các vectơ $e_i$ của cơ sở chính tắc sao cho $i \in \sigma$, và gọi $E'_\sigma$ là không gian con bổ sung sinh bởi các $e_i$ sao cho $i \notin \sigma$; khi đó nói rằng một ma trận $x$ thuộc $A_\sigma$ có nghĩa là các hình chiếu trên $E_\sigma$ của $p + 1$ hàng của nó $x_k$ tạo thành một hệ tự do, hoặc cũng có nghĩa là không gian con vectơ sinh bởi các $x_k$ là một *phần bù* của $E'_\sigma$ (hoặc rằng giao của nó với $E'_\sigma$ chỉ gồm 0).
 
-#### Mệnh đề 6 {#top-vi-s3-prop-6 .statement}
+#### Mệnh đề 6 {#top-vi-s3-prop-6 .statement tag=0BXQ}
 
 *Không gian $P_{n,\ p}$ là Hausdorff.*
 
@@ -192,7 +192,7 @@ Trước hết ta chứng minh rằng quan hệ $\Delta_{n,p}$ là mở. Nếu $
 
 Theo Mệnh đề 8 của Chương I, § 8, no. 3, chứng minh sẽ hoàn tất nếu ta chứng minh rằng tập con $N$ của $L_{n+1,p+1} \times L_{n+1,p+1}$, được xác định bởi $\Delta_{n,p}$, là đóng. Gọi $(X, Y)$ là một điểm của không gian tích nằm trong bao đóng của $N$, và gọi $\sigma$ là một dãy chỉ số sao cho $X_\sigma$ không suy biến: vì $A_\sigma$ là mở, tồn tại một lân cận $V$ của $(X, Y)$ sao cho, với mỗi cặp $(X', Y') \in N \cap V$, ma trận $X'_\sigma$ không suy biến; khi $(X', Y')$ tiến tới $(X, Y)$ trong khi vẫn ở trong $N$, ma trận $Y'_\sigma {X'_\sigma}^{-1}$ do đó tiến tới $T = Y_\sigma X_\sigma^{-1}$; vì ta có $Y' = (Y'_\sigma {X'_\sigma}^{-1}) X'$, suy ra khi chuyển qua giới hạn rằng $Y = T.X$, và chứng minh hoàn tất.
 
-#### Mệnh đề 7 {#top-vi-s3-prop-7 .statement}
+#### Mệnh đề 7 {#top-vi-s3-prop-7 .statement tag=0BXR}
 
 *Không gian $P_{n,p}$ là compact.*
 
@@ -209,7 +209,7 @@ $$
 
 vì thế chúng tạo thành một tập *đóng* trong $M_{p+1,n+1}$; và vì các hệ thức này suy ra rằng $|x_{ij}| \leq 1$ đối với mỗi cặp chỉ số $(i, j)$, nên tập này *bị chặn* và do đó *compact*.
 
-#### Mệnh đề 8 {#top-vi-s3-prop-8 .statement}
+#### Mệnh đề 8 {#top-vi-s3-prop-8 .statement tag=0BXS}
 
 $P_{n,p}$ *liên thông và liên thông địa phương, và mọi điểm đều có một lân cận mở đồng phôi với* $\mathbf{R}^{(p+1)(n-p)}$.
 
@@ -239,7 +239,7 @@ $$
 
 Khi $K$ là trường $\mathbf{R}$, ánh xạ $f$ này hiển nhiên là *liên tục*. Ánh xạ nghịch đảo $g$ cũng liên tục; vì các phần tử của một ma trận thuộc $B_{\sigma}$ là các hàm hữu tỉ của các tọa độ thuần nhất của điểm của Grassmannian mà nó tương ứng với; vì $f(B_{\sigma}) = B'_{\sigma}$ là tập các điểm của $G_{n,p}$ có tọa độ thuần nhất với chỉ số $\sigma$ khác 0, nên đó là một tập mở trong $G_{n,p}$; do đó $g$ liên tục tại mọi điểm của $B'_{\sigma}$, và vì mọi điểm của $G_{n,p}$ thuộc về ít nhất một tập $B'_{\sigma}$, nên $g$ liên tục tại mọi điểm. Vậy:
 
-#### Mệnh đề 9 {#top-vi-s3-prop-9 .statement}
+#### Mệnh đề 9 {#top-vi-s3-prop-9 .statement tag=0BXT}
 
 *Grassmannian* $G_{n,p}$ *đồng phôi với không gian* $P_{n,p}$.
 

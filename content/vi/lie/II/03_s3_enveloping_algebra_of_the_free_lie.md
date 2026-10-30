@@ -25,9 +25,9 @@ subsections:
       pdf_page: 158
 statements: 11
 exercises: 4
-content_sha256: 6583bdf369bae7069b33281f48af051800563ad58900a8b467940eb94b41d60d
+content_sha256: 5484875c232a2242ffd7ea6551689f8a4382d5341eb45b62a835c28b63adb24b
 translated_from: content/en/lie/II/03_s3_enveloping_algebra_of_the_free_lie.md
-source_content_sha256: 9132123acdc022535dc3e655ef1016236c6b0beebc316f3a60900b058de3ac4a
+source_content_sha256: 1d39611cf30ae9228e327035d9d7254aba6ff04ead058f79653b16b5bbbadc54
 translation_model: gpt-5.4
 translation_run: translate-vi-82c9aeec
 glossary_version: 34
@@ -41,7 +41,7 @@ Trong tiết này, $A(X) = A_K(X)$ ký hiệu đại số kết hợp tự do Li
 
 ### 1. ĐẠI SỐ BAO CỦA $L(X)$
 
-#### Định lý 1 {#lie-ii-s3-thm-1 .statement}
+#### Định lý 1 {#lie-ii-s3-thm-1 .statement tag=0A42}
 
 *Cho* $\alpha : L(X) \to A(X)$ *là đồng cấu đại số Lie duy nhất kéo dài đơn ánh chính tắc của* $X$ *vào* $A(X)$ *(§ 2, no. 2, Mệnh đề 1)*. *Cho* $\sigma : L(X) \to U(L(X))$ là ánh xạ chính tắc của $L(X)$ vào đại số bao của nó và $\beta : U(L(X)) \to A(X)$ là đồng cấu đại số có đơn vị duy nhất sao cho $\beta \circ \sigma = \alpha$ (Chương I, § 2, no. 1, Mệnh đề 1). Khi đó:
 (a) $\alpha$ là đơn ánh và $\alpha(L(X))$ là một môđun con hạng tử trực tiếp của $A(X)$.
@@ -51,7 +51,7 @@ Cho B là một K-đại số có đơn vị và $\phi$ là một ánh xạ từ
 
 Sau cùng, vì $L(X)$ là một K-môđun tự do (§ 2, no. 11, Hệ quả của Định lý 1), $\sigma$ là đơn ánh và $\sigma(L(X))$ là một môđun con hạng tử trực tiếp của $U(L(X))$ (Chương I, § 2, no. 7, Hệ quả 3 của Định lý 1). Theo (b), điều này chứng minh (a).
 
-#### Hệ quả 1 {#lie-ii-s3-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-ii-s3-thm-1-cor-1 .statement tag=0A43}
 
 Tồn tại trên đại số $A(X)$ một đồng tích duy nhất biến $A(X)$ thành một đại số kép sao cho các phần tử của X là nguyên thủy. Hơn nữa, $\beta$ là một đẳng cấu từ đại số kép $U(L(X))$ lên $A(X)$ được trang bị cấu trúc đại số kép này.
 
@@ -59,13 +59,13 @@ Tồn tại trên đại số $A(X)$ một đồng tích duy nhất biến $A(X)
 
 Từ nay, $A(X)$ được trang bị cấu trúc đại số kép này và $L(X)$ được đồng nhất với ảnh của nó dưới $\alpha$, tức là với đại số con Lie của $A(X)$ sinh bởi X.
 
-#### Hệ quả 2 {#lie-ii-s3-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-ii-s3-thm-1-cor-2 .statement tag=0A44}
 
 Nếu $K$ là một trường có đặc số 0, thì $L(X)$ là đại số Lie của các phần tử nguyên thủy của $A(X)$.
 
 Điều này suy ra từ Hệ quả 1 và Hệ quả của Mệnh đề 9 của § 1, no. 5.
 
-#### Nhận xét {#lie-ii-s3-n1-rem-1 .statement}
+#### Nhận xét {#lie-ii-s3-n1-rem-1 .statement tag=0A45}
 
 (1) Cho $K'$ là một vành giao hoán chứa K. Nếu $A(X)$, $L(X)$ và $L_{K'}(X)$ được đồng nhất với các tập con của $A_{K'}(X)$, thì từ phần (a) của Định lý 1 ta suy ra quan hệ
 
@@ -103,7 +103,7 @@ $$
 
 với $n > 0, x_1, \ldots, x_n$ trong $X$.
 
-#### Mệnh đề 1 {#lie-ii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#lie-ii-s3-prop-1 .statement tag=0A46}
 
 (a) *Hạn chế $\pi_0$ của $\pi$ lên $L(X)$ là một đạo hàm của $L(X)$.*
 (b) *Với mọi số nguyên $n \geq 1$ và mọi $u$ trong $L^n(X)$, $\pi(u) = n.u$.*
@@ -133,7 +133,7 @@ vậy $\pi_0$ là một đạo hàm của $L(X)$.
 
 (b) Cho $\pi_1$ là tự đồng cấu của môđun $L(X)$ trùng trên $L^n(X)$ với phép nhân bởi số nguyên $n \geq 1$. Công thức $[L^n(X), L^m(X)] \subset L^{n+m}(X)$ cho thấy rằng $\pi_1$ là một đạo hàm (*Đại số*, Chương III, § 10, no. 3, *Ví dụ* 6). Đạo hàm $\pi_1 - \pi_0$ của $L(X)$ bằng không trên $X$ và, vì $X$ sinh ra $L(X)$, nên $\pi_0 = \pi_1$, do đó suy ra (b).
 
-#### Hệ quả {#lie-ii-s3-n2-cor-1 .statement}
+#### Hệ quả {#lie-ii-s3-n2-cor-1 .statement tag=0A47}
 
 *Giả sử K là một Q-đại số. Cho P là ánh xạ tuyến tính của $A^+(X)$ vào chính nó sao cho*
 
@@ -151,7 +151,7 @@ $$
 
 ta thấy hạn chế của P lên $L(X)$ là đồng nhất.
 
-#### Nhận xét {#lie-ii-s3-n2-rem-1 .statement}
+#### Nhận xét {#lie-ii-s3-n2-rem-1 .statement tag=0A48}
 
 Giả sử rằng K là một trường có đặc số không và gọi Q là phép chiếu của $A(X) = U(L(X))$ lên $L(X)$ liên kết với phân bậc chính tắc của $U(L(X))$, xem § 1, no. 5. *Với $\alpha \in \mathbf{N}^{(X)}$, $Q(A^\alpha(X)) \subset L^\alpha(X)$.* Thật vậy, chỉ cần kiểm tra rằng ảnh và hạt nhân của Q là các môđun con phân bậc của $A(X)$ đối với phân bậc kiểu $\mathbf{N}^{(X)}$. Điều này là hiển nhiên đối với ảnh, vốn bằng $L(X)$. Mặt khác, gọi $n$ là một số nguyên $\geq 1$. Không gian con vectơ của $A(X)$ sinh bởi các $y^n$, trong đó $y \in L(X)$, bằng không gian con vectơ của $A(X)$ sinh bởi các $\sum_{\sigma \in S_n} y_{\sigma(1)} y_{\sigma(2)} \cdots y_{\sigma(n)}$, trong đó $y_1, y_2, \ldots, y_n$ là các phần tử thuần nhất của $L(X)$; do đó không gian con này là một môđun con phân bậc của $A(X)$.
 
@@ -167,7 +167,7 @@ Khi đó $Q(z) = 0$ và $P(z) = \frac{1}{3}[x, [x, y]] \neq 0$, xem § 2, no. 10
 
 Cho X là một tập hợp, $\alpha$ là một phần tử của $\mathbf{N}^{(X)}$ và d là một số nguyên > 0. Ta viết $d|\alpha$ nếu tồn tại $\beta \in \mathbf{N}^{(X)}$ sao cho $\alpha = d\beta$. Phần tử $\beta$, là duy nhất, khi đó được ký hiệu là $\alpha/d$.
 
-#### Bổ đề 1 {#lie-ii-s3-lem-1 .statement}
+#### Bổ đề 1 {#lie-ii-s3-lem-1 .statement tag=0A49}
 
 Cho n là một số nguyên > 0, $T_1, \ldots, T_n$ là các bất định và $u_1, \ldots, u_n$ là các phần tử của $\mathbf{Z}$. Cho $(c(\alpha))_{\alpha \in \mathbf{N}^n - \{0\}}$ là một họ các phần tử của $\mathbf{Z}$ sao cho
 
@@ -230,7 +230,7 @@ $$
 
 với mọi $\lambda \in \Lambda$ và mọi $m \geqslant 1$.
 
-#### Định lý 2 {#lie-ii-s3-thm-2 .statement}
+#### Định lý 2 {#lie-ii-s3-thm-2 .statement tag=0A4A}
 
 *Cho $X$ là một tập hợp hữu hạn và $n = \mathrm{Card}(X)$.*
 
@@ -297,7 +297,7 @@ $$
 $$
 Áp dụng Bổ đề 1 một lần nữa, ta suy ra (a).
 
-#### Ví dụ {#lie-ii-s3-n3-exa-1 .statement}
+#### Ví dụ {#lie-ii-s3-n3-exa-1 .statement tag=0A4B}
 
 Ta có
 $$
@@ -307,7 +307,7 @@ c(4) &= \frac{1}{4}(n^4 - n^2), & c(5) &= \frac{1}{5}(n^5 - n), & c(6) &= \frac{
 \end{align*}
 $$
 
-#### Nhận xét {#lie-ii-s3-n3-rem-1 .statement}
+#### Nhận xét {#lie-ii-s3-n3-rem-1 .statement tag=0A4C}
 
 Cho $X$ là một tập hợp và cho $\alpha \in \mathbf{N}^{(X)}$; hạng của $K$-môđun tự do $L^\alpha(X)$ cũng được cho bởi công thức (16). Điều này suy ra ngay lập tức từ Định lý 2 (b) và Mệnh đề 4 của § 2, no. 6.
 

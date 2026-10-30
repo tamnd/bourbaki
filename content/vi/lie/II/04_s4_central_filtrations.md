@@ -36,9 +36,9 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: e8e3cd20eb168abffc3b7b73e3025f28a51fd28631c22e4e9adb52c4531be1a6
+content_sha256: b07d6a4a3cd1fd0d00ecda74ea40dc8a687248a5fb29a1af551d612f41089b0d
 translated_from: content/en/lie/II/04_s4_central_filtrations.md
-source_content_sha256: 5b8b11c50520f8ccfea99780d11840f43d7572ba4b6ee75c9508548dd842e65d
+source_content_sha256: 6dd2b136d04753cfdf0792754a0655d7811d3c21519c55e6a5ca6b7546279e90
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-5f92d445
 glossary_version: 34
@@ -50,7 +50,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC LỌC THỰC
 
-#### Định nghĩa 1 {#lie-ii-s4-def-1 .statement}
+#### Định nghĩa 1 {#lie-ii-s4-def-1 .statement tag=0A4H}
 
 Cho $G$ là một nhóm. Một lọc thực trên $G$ là một họ $(G_\alpha)_{\alpha \in \mathbf{R}}$ của các nhóm con của $G$ sao cho
 $$
@@ -59,7 +59,7 @@ $$
 
 Công thức (1) suy ra $G_\alpha \subset G_\beta$ với $\beta < \alpha$ và do đó họ $(G_\alpha)$ là *giảm*. Lọc $(G_\alpha)$ được gọi là *tách* nếu $\bigcap_\alpha G_\alpha$ thu gọn thành phần tử đơn vị và được gọi là *tràn* nếu $G = \bigcup_\alpha G_\alpha$.
 
-#### Nhận xét {#lie-ii-s4-n1-rem-1 .statement}
+#### Nhận xét {#lie-ii-s4-n1-rem-1 .statement tag=0A4I}
 
 Cho $(G_n)_{n \in \mathbf{Z}}$ là một dãy giảm các nhóm con của $G$. Nó là một lọc giảm theo nghĩa của *Đại số giao hoán*, Chương III, § 2, no. 1, Định nghĩa 1. Với mỗi số nguyên $n$ và mọi $\alpha$ trong khoảng $]n-1, n]$ của $\mathbf{R}$, ta viết $H_\alpha = G_n$, đặc biệt $H_n = G_n$. Hiển nhiên là bằng cách đó ta thu được một lọc thực $(H_\alpha)_{\alpha \in \mathbf{R}}$ trên $G$; một lọc như vậy sẽ được gọi là một *lọc nguyên*. Do đó các lọc giảm theo nghĩa của *Đại số giao hoán*, Chương III, § 2, có thể được đồng nhất với các lọc nguyên.
 
@@ -103,7 +103,7 @@ xác định một song ánh từ tập hợp các lọc thực toàn phần $(A
 (7) $$v(xy) \geq v(x) + v(y) \qquad (x, y \text{ trong } A)$$
 (8) $$v(1) \geq 0.$$
 
-#### Nhận xét {#lie-ii-s4-n2-rem-1 .statement}
+#### Nhận xét {#lie-ii-s4-n2-rem-1 .statement tag=0A4J}
 
 Nếu $v(x)$ không đồng nhất bằng $+\infty$, các điều kiện (7) và (8) kéo theo $v(1) = 0$.
 
@@ -123,7 +123,7 @@ $$
 
 *Nhóm phân bậc liên kết với nhóm có lọc* $G$ là nhóm $\operatorname{gr}(G)$ với phép phân bậc tự nhiên kiểu $\mathbf{R}$.
 
-#### Nhận xét {#lie-ii-s4-n3-rem-1 .statement}
+#### Nhận xét {#lie-ii-s4-n3-rem-1 .statement tag=0A4K}
 
 Khi lọc $(G_\alpha)$ là nguyên, $\operatorname{gr}_\alpha(G) = \{0\}$ đối với $\alpha$ không nguyên và $\operatorname{gr}_n(G) = G_n / G_{n-1}$ đối với mọi số nguyên $n$. Định nghĩa của nhóm phân bậc liên kết do đó về cơ bản trùng với định nghĩa trong *Đại số giao hoán*, chương III, § 2, no. 3.
 
@@ -143,7 +143,7 @@ Ta suy ra một ánh xạ song tuyến tính từ gr(A) × gr(A) vào gr(A), là
 
 ### 4. CÁC LỌC TRUNG TÂM TRÊN MỘT NHÓM
 
-#### Định nghĩa 2 {#lie-ii-s4-def-2 .statement}
+#### Định nghĩa 2 {#lie-ii-s4-def-2 .statement tag=0A4L}
 
 Cho G là một nhóm. Một lọc thực $(G_\alpha)$ trên G được gọi là trung tâm nếu $G = \bigcup_{\alpha > 0} G_\alpha$ và giao hoán tử $(x, y) = x^{-1}y^{-1}xy$ của một phần tử x của $G_\alpha$ và một phần tử y của $G_\beta$ thuộc về $G_{\alpha + \beta}$.
 
@@ -173,7 +173,7 @@ $$
 $$
 Theo (14), $G_\alpha^+$ là một nhóm con chuẩn của $G_\alpha$ đối với mọi $\alpha \in \mathbf{R}$ và nhóm thương $\mathrm{gr}_\alpha(G) = G_\alpha / G_\alpha^+$ là giao hoán. Ta viết $\mathrm{gr}(G) = \bigoplus_{\alpha \in \mathbf{R}} \mathrm{gr}_\alpha(G)$ và trang bị cho nhóm này phép phân bậc kiểu $\mathbf{R}$ trong đó $\mathrm{gr}_\alpha(G)$ gồm các phần tử có bậc $\alpha$. Khi đó $\mathrm{gr}_\alpha(G) = \{0\}$ đối với $\alpha \leq 0$.
 
-#### Mệnh đề 1 {#lie-ii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#lie-ii-s4-prop-1 .statement tag=0A4M}
 
 (i) Cho $\alpha, \beta$ thuộc $\mathbf{R}$. Tồn tại một ánh xạ song cộng
 $$
@@ -218,7 +218,7 @@ $$(x^y, (y, z)).(y^z, (z, x)).(z^x, (x, y)) = e.$$
 
 Cho $A$ là một đại số kết hợp có đơn vị với một lọc đại số có đơn vị $(A_\alpha)$ sao cho $A_0 = A$; khi đó $A_\alpha$ là một iđêan hai phía của $A$ với mọi $\alpha \in \mathbf{R}$. Gọi $A^*$ là nhóm nhân của các phần tử khả nghịch của $A$. Với mọi $\alpha > 0$, gọi $\Gamma_\alpha$ là tập hợp các $x \in A^*$ sao cho $x - 1 \in A_\alpha$; ta viết $\Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha$ và $\Gamma_\beta = \Gamma$ với $\beta \leq 0$.
 
-#### Mệnh đề 2 {#lie-ii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#lie-ii-s4-prop-2 .statement tag=0A4N}
 
 *Tập hợp $\Gamma$ là một nhóm con của $A^*$ và $(\Gamma_\alpha)$ là một lọc trung tâm trên $\Gamma$.*
 
@@ -241,7 +241,7 @@ $$
 $$
 theo giả thiết, $\xi \in A_\alpha$ và $\eta \in A_\beta$, do đó $\xi \eta - \eta \xi \in A_{\alpha + \beta}$. Vì $A_{\alpha + \beta}$ là một iđêan hai phía của $A$, $(x, y) - 1 \in A_{\alpha + \beta}$, do đó $(x, y) \in \Gamma_{\alpha + \beta}$.
 
-#### Nhận xét {#lie-ii-s4-n5-rem-1 .statement}
+#### Nhận xét {#lie-ii-s4-n5-rem-1 .statement tag=0A4O}
 
 Cho $\alpha \geq 0, \beta \geq 0$ và $x \in \Gamma_\alpha, y \in \Gamma_\beta$. Theo các công thức (21), (22) và (23),
 $$
@@ -262,7 +262,7 @@ Bây giờ $[\xi, \eta] \in A_{\alpha + \beta}$, $(x^{-1} - 1) \in A_\alpha$, $(
 
 Cho $G$ là một nhóm và $\rho : G \to \Gamma$ là một đồng cấu. Với mọi $\alpha$ thực, ta viết $G_\alpha = \rho^{-1}(\Gamma_\alpha)$. Vì $(\Gamma_\alpha)$ là một lọc trung tâm trên $\Gamma$, hiển nhiên rằng $(G_\alpha)$ là một lọc trung tâm trên $G$.
 
-#### Mệnh đề 3 {#lie-ii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#lie-ii-s4-prop-3 .statement tag=0A4P}
 
 (i) *Với mọi $\alpha \in \mathbf{R}$, tồn tại một đồng cấu nhóm duy nhất $g_\alpha : \mathrm{gr}_\alpha(G) \to \mathrm{gr}_\alpha(A)$ biến lớp modulo $G_\alpha^+$ của một phần tử $a \in G_\alpha$ thành lớp modulo $A_\alpha^+$ của $\rho(a) - 1$.*
 
@@ -298,7 +298,7 @@ $$
 
 Lọc tương ứng được gọi là lọc trung tâm dưới của G.
 
-#### Mệnh đề 4 {#lie-ii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#lie-ii-s4-prop-4 .statement tag=0A4Q}
 
 (i) Chuỗi trung tâm dưới của G là một lọc trung tâm nguyên trên G.
 
@@ -312,7 +312,7 @@ $$
 C^nG = (G, C^{n-1}G) \subset (G, G_{n-1}) \subset G_n.
 $$
 
-#### Mệnh đề 5 {#lie-ii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#lie-ii-s4-prop-5 .statement tag=0A4R}
 
 Cho G là một nhóm và gr(G) là đại số Lie phân bậc $\mathbf{Z}$ liên kết với lọc trung tâm dưới trên G. Khi đó gr(G) được sinh bởi $\mathrm{gr}_1(G) = G/(G, G)$.
 
@@ -328,7 +328,7 @@ $$
 \mathscr{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).
 $$
 
-#### Nhận xét {#lie-ii-s4-n6-rem-1 .statement}
+#### Nhận xét {#lie-ii-s4-n6-rem-1 .statement tag=0A4S}
 
 Cho k là một vành, n là một số nguyên $> 0$ và A là tập hợp các ma trận tam giác dưới với n hàng và n cột và các phần tử trong k. Với $p \geq 0$, cho $A_p$ là tập hợp các $(x_{ij}) \in A$ sao cho $x_{ij} = 0$ đối với $i - j < p$. Khi đó $A_0 = A$ và $A_pA_q \subset A_{p+q}$. Cho $\Gamma_p = 1 + A_p$. Khi đó $\Gamma_1$ là một nhóm con của $\mathbf{GL}(n, k)$ được gọi là nhóm tam giác dưới ngặt cấp n trên k. Theo Mệnh đề 2 của no. 5, $(\Gamma_p)$ là một lọc nguyên trên $\Gamma_1$. Vì $\Gamma_n = \{1\}$, ta thấy rằng nhóm $\Gamma_1$ là lũy linh (Đại số, Chương I, § 6, no. 3, Định nghĩa 6).
 

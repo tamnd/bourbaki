@@ -29,9 +29,9 @@ subsections:
       pdf_page: 370
 statements: 17
 exercises: 9
-content_sha256: e7d58b4e4e69f98632edf29b17faa5e67cae16512c9dde5f446d0bb6957ef24d
+content_sha256: 1c626b17f326cf3a0abd4af7303ad7fbbc0e0439a011821e2abe14d8f62ef843
 translated_from: content/en/ac/V/03_s3_finitely_generated_algebras_over_a_field.md
-source_content_sha256: badf2bc4cb748da842f275e255d9318b86b98b0069385cfdb864427619fa9e85
+source_content_sha256: 6de44311d5d60b730fb626da1cd69b9f44af23562467fb568b226b7a0a3a5d4c
 translation_model: gpt-5.4
 translation_run: translate-vi-2b45e66a
 glossary_version: 34
@@ -45,7 +45,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Trong số này và số tiếp theo, k ký hiệu một trường giao hoán.
 
-#### Định lý 1 (Bổ đề chuẩn hóa) {#ac-v-s3-thm-1 .statement}
+#### Định lý 1 (Bổ đề chuẩn hóa) {#ac-v-s3-thm-1 .statement tag=04R8}
 
 Cho A là một đại số trên k sinh hữu hạn và cho $a_1 \subset a_2 \subset \ldots \subset a_p$ là một dãy hữu hạn tăng các iđêan của A sao cho $p \geq 1$ và $a_p \neq A$. Tồn tại một dãy hữu hạn $(x_i)_{1 \leq i \leq n}$ các phần tử của A, độc lập đại số trên k (Chương III, § 1, no. 1), sao cho:
 (a) A là nguyên trên vành $B = k[x_1, \ldots, x_n]$.
@@ -76,7 +76,7 @@ a_j \cap k[x_1, \ldots, x_r, t_{r+1}, \ldots, t_m]
 $$
 theo giả thiết là tập hợp các đa thức theo $x_1, \ldots, x_r, t_{r+1}, \ldots, t_m$ mà mọi đơn thức của chúng đều chứa một trong các phần tử $x_1, \ldots, x_{h(j)}$; vì $x_{r+1}, \ldots, x_m$ là các đa thức theo $t_{r+1}, \ldots, t$, với các hệ số trong $k$, nên ngay lập tức thấy rằng một đa thức theo $x_1, \ldots, x_r, x_{r+1}, \ldots, x_s$ (với các hệ số trong $k$) chỉ có thể thuộc $a_j$ nếu mọi đơn thức của nó đều chứa một trong các phần tử $x_1, \ldots, x_{h(j)}$. Sau cùng, vì $x_1, \ldots, x_r$ thuộc $a_{p-1}$, và do đó cũng thuộc $a_p$, nên $a_p \cap B'[x_1, \ldots, x_r]$ gồm các đa thức theo $x_1, \ldots, x_r$ với hệ số trong $B'$ mà số hạng hằng thuộc $a_p \cap B'$; vậy iđêan này được sinh bởi $x_1, \ldots, x_r, x_{r+1}, \ldots, x_t$.
 
-#### Hệ quả 1 {#ac-v-s3-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s3-thm-1-cor-1 .statement tag=04R9}
 
 Cho $A$ là một miền nguyên và $B$ là một $A$-đại số sinh hữu hạn chứa $A$ như một vành con. Khi đó tồn tại một phần tử $s \neq 0$ của $A$ và một đại số con $B'$ của $B$ đẳng cấu với một đại số đa thức $A[Y_1, \ldots, Y_n]$ sao cho $B[s^{-1}]$ (Chương II, § 2, no. 1) là nguyên trên $B'[s^{-1}]$.
 
@@ -94,13 +94,13 @@ $$
 
 trong đó các $Q_{hj}$ là những đa thức theo $y_1, \ldots, y_n$ với hệ số trong $A$; nếu ta viết $z'_j = sz_j$, thì thấy rằng, bằng cách nhân (6) với $s^{a_j-1}$, $z'_j$ là nguyên trên $B' = A[y_1, \ldots, y_n]$. Ta chứng minh rằng các $y_i$ độc lập đại số trên $A$; nếu có một quan hệ dạng $\sum_p a_p y_1^{p_1} \ldots y_n^{p_n} = 0$ trong đó $a_p \in A$ với mọi $p$, ta suy ra rằng $\sum_p a'_p x_1^{p_1} \ldots x_n^{p_n} = 0$ trong $S^{-1}B$, trong đó $a'_p = a_p s^{p_1 + \cdots + p_n}$ trong $k$; do giả thiết nên $a'_p = 0$ với mọi $p$, do đó $a_p = 0$ với mọi $p$. Hơn nữa, trong vành $B[s^{-1}]$ mỗi $z'_j/1$ là nguyên trên $B'[s^{-1}]$ (§ 1, no. 1, Mệnh đề 2) và, vì $z_j/1 = (z'_j/1)(1/s)$ trong $B[s^{-1}]$, nên thấy rằng các $z_j/1$ là nguyên trên $B'[s^{-1}]$, điều này hoàn tất chứng minh (§ 1, no. 1, Mệnh đề 4).
 
-#### Hệ quả 2 {#ac-v-s3-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s3-thm-1-cor-2 .statement tag=04RA}
 
 Cho $K$ là một trường, $A$ là một vành con của $K$ và $L$ là trường phân thức của $A$. Nếu $K$ là một $A$-đại số sinh hữu hạn, thì $[K:L]$ là hữu hạn và tồn tại $a \neq 0$ trong $A$ sao cho $L = A[a^{-1}]$.
 
 Từ Hệ quả 1 suy ra rằng tồn tại các phần tử $x_1, \ldots, x_n$ của $K$ và một phần tử $a \neq 0$ của $A$ sao cho $x_1, \ldots, x_n$ độc lập đại số trên $A$ (và do đó trên L) và $K$ là nguyên trên vành con $A[x_1, \ldots, x_n, a^{-1}]$. Khi đó, theo §2, no.1, Bổ đề 2, $A[x_1, \ldots, x_n, a^{-1}]$ là một trường. Nhưng các phần tử khả nghịch duy nhất của một vành đa thức $C[Y_1, \ldots, Y_n]$ trên một miền nguyên C là các phần tử khả nghịch của C; áp dụng nhận xét này cho $C = A[a^{-1}]$, ta thấy tất yếu $n = 0$ và $A[a^{-1}]$ là một trường bằng L theo định nghĩa của trường này. Vì K là nguyên trên L và là một L-đại số sinh hữu hạn, nên bậc [K:L] là hữu hạn (§ 1, no. 1, Mệnh đề 4).
 
-#### Hệ quả 3 {#ac-v-s3-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#ac-v-s3-thm-1-cor-3 .statement tag=04RB}
 
 Cho A là một miền nguyên, B là một A-đại số sinh hữu hạn và b là một phần tử của B sao cho $zb^n \neq 0$ với mọi $z \neq 0$ trong A và mọi số nguyên $n > 0$. Gọi $\varphi : A \to B$ là đồng cấu chính tắc; tồn tại $a \neq 0$ trong A sao cho, với mọi đồng cấu f từ A vào một trường đóng đại số L thỏa mãn $f(a) \neq 0$, tồn tại một đồng cấu g từ B vào L sao cho $g(b) \neq 0$ và $f = g \circ \varphi$.
 
@@ -116,7 +116,7 @@ Chú ý rằng, nếu trong Hệ quả 3, B được giả thiết là một mi�
 
 ### 2. BAO ĐÓNG NGUYÊN CỦA MỘT ĐẠI SỐ HỮU HẠN SINH TRÊN MỘT TRƯỜNG
 
-#### Định lý 2 {#ac-v-s3-thm-2 .statement}
+#### Định lý 2 {#ac-v-s3-thm-2 .statement tag=04RC}
 
 Cho A là một đại số nguyên trên k sinh hữu hạn, K trường phân thức của nó và $A'$ là bao đóng nguyên của A trong một trường K' là một mở rộng đại số hữu hạn của K. Khi đó $A'$ là một A-môđun hữu hạn sinh và một đại số trên k sinh hữu hạn.
 
@@ -126,7 +126,7 @@ Do đó ta thấy rằng ta có thể chỉ cần xét trường hợp $A = k[X_
 
 ### 3. NULLSTELLENSATZ
 
-#### Mệnh đề 1 {#ac-v-s3-prop-1 .statement}
+#### Mệnh đề 1 {#ac-v-s3-prop-1 .statement tag=04RD}
 
 Cho $A$ là một đại số sinh hữu hạn trên một trường $k$ và $L$ là bao đóng đại số của $k$.
 
@@ -154,7 +154,7 @@ $$
 
 với mọi $P \in r$.
 
-#### Bổ đề 1 {#ac-v-s3-lem-1 .statement}
+#### Bổ đề 1 {#ac-v-s3-lem-1 .statement tag=04RE}
 
 Cho $A$ là một đại số sinh hữu hạn trên một trường $k$, $(a_i)_{1 \leq i \leq n}$ là một hệ sinh của đại số này và $c$ là iđêan các quan hệ đại số giữa các $a_i$ với hệ số trong $k$ (Đại số, Chương IV, § 2, no. 1). Với mọi trường mở rộng $L$ của $k$, ánh xạ $f \mapsto (f(a_i))_{1 \leq i \leq n}$ là một song ánh từ tập hợp các đồng cấu trên k từ $A$ đến $L$ lên tập hợp các không điểm của $r$ trong $L^n$.
 
@@ -162,7 +162,7 @@ Tồn tại duy nhất một đồng cấu đại số trên k $h$ từ $k[X_1, 
 
 Nếu áp dụng Mệnh đề 1 cho đại số $A = k[X_1, \ldots, X_n]/r$, trong đó c là một iđêan của $k[X_1, \ldots, X_n]$ phân biệt với toàn bộ vành, thì theo Bổ đề 1 ta thu được mệnh đề sau:
 
-#### Mệnh đề 2 (Định lý không điểm của Hilbert) {#ac-v-s3-prop-2 .statement}
+#### Mệnh đề 2 (Định lý không điểm của Hilbert) {#ac-v-s3-prop-2 .statement tag=04RF}
 
 Cho k là một trường và L là một bao đóng đại số của k.
 
@@ -176,7 +176,7 @@ Cho k là một trường và L là một bao đóng đại số của k.
 
 ### 4. CÁC VÀNH JACOBSON
 
-#### Định nghĩa 1 {#ac-v-s3-def-1 .statement}
+#### Định nghĩa 1 {#ac-v-s3-def-1 .statement tag=04RG}
 
 Một vành A được gọi là một vành Jacobson nếu mọi iđêan nguyên tố của A là giao của một họ các iđêan cực đại.
 
@@ -186,31 +186,31 @@ Ví dụ
 (2) Vành $\mathbf{Z}$ là một vành Jacobson, iđêan nguyên tố duy nhất không cực đại là (0) là giao của các iđêan cực đại $(p)$ của $\mathbf{Z}$, trong đó $p$ chạy qua tập các số nguyên tố (xem Mệnh đề 4).
 (3) Cho A là một vành Jacobson và cho a là một iđêan của A. Khi đó $A/a$ là một vành Jacobson, vì các iđêan của $A/a$ có dạng $b/a$, trong đó b là một iđêan của A chứa a, và $b/a$ là nguyên tố (tương ứng, cực đại) khi và chỉ khi b là như vậy.
 
-#### Mệnh đề 3 {#ac-v-s3-prop-3 .statement}
+#### Mệnh đề 3 {#ac-v-s3-prop-3 .statement tag=04RH}
 
 Để một vành A là một vành Jacobson, điều kiện cần và đủ là, với mọi iđêan a của A, căn Jacobson của $A/a$ bằng căn lũy linh của nó (Chương II, § 2, no. 6).
 
 Căn Jacobson (tương ứng, căn nil) của $A/a$ là giao của các iđêan cực đại (tương ứng, nguyên tố) của $A/a$ (*Đại số*, Chương VIII, § 6, no. 3, Định nghĩa 3 và *Đại số giao hoán*, Chương II, § 2, no. 6, Mệnh đề 13). Do đó điều kiện đã nêu có nghĩa là với mọi iđêan $a$ của $A$, giao của các iđêan nguyên tố chứa $a$ bằng giao của các iđêan cực đại chứa $a$. Điều kiện này hiển nhiên đúng với mọi iđêan $a$ của $A$ nếu $A$ là một vành Jacobson; ngược lại, nếu nó đúng với mọi iđêan nguyên tố của $A$, thì theo định nghĩa $A$ là một vành Jacobson.
 
-#### Hệ quả {#ac-v-s3-n4-cor-1 .statement}
+#### Hệ quả {#ac-v-s3-n4-cor-1 .statement tag=04RI}
 
 *Cho $A$ là một vành Jacobson; với mọi iđêan $a$ của $A$, căn của $a$ là giao của các iđêan cực đại của $A$ chứa $a$.*
 
 Chỉ cần chú ý rằng $A/a$ là một vành Jacobson.
 
-#### Mệnh đề 4 {#ac-v-s3-prop-4 .statement}
+#### Mệnh đề 4 {#ac-v-s3-prop-4 .statement tag=04RJ}
 
 *Cho $A$ là một miền iđêan chính và $(\mathbf{p}_\lambda)_{\lambda \in L}$ là một hệ đại diện các phần tử cực biên của $A$ (*Đại số*, Chương VII, § 1, no. 3, Định nghĩa 2). Để $A$ là một vành Jacobson, điều kiện cần và đủ là $L$ vô hạn.*
 
 Các iđêan cực đại của $A$ là các $A\mathbf{p}_\lambda$ (*loc. cit.*, no. 2, Mệnh đề 2). Nếu $L$ hữu hạn, giao của chúng là iđêan $Ax$, trong đó $x = \prod_{\lambda \in L} \mathbf{p}_\lambda$ (*ibid.*) và do đó khác $(0)$; mặt khác, nếu $L$ vô hạn, giao của các $A\mathbf{p}_\lambda$ là $(0)$, mỗi phần tử $\neq 0$ của $A$ chỉ chia hết cho một số hữu hạn phần tử cực biên (*loc. cit.*, no. 3, Định lý 2). Khi đó mệnh đề suy ra từ sự kiện rằng $(0)$ là iđêan nguyên tố duy nhất không cực đại trong $A$ (*Đại số*, Chương VI, § 1, no. 13, Mệnh đề 14 (DIV)).
 
-#### Mệnh đề 5 {#ac-v-s3-prop-5 .statement}
+#### Mệnh đề 5 {#ac-v-s3-prop-5 .statement tag=04RK}
 
 *Cho $A$ là một vành và $B$ là một $A$-đại số nguyên trên $A$. Nếu $A$ là một vành Jacobson thì $B$ cũng vậy.*
 
 Thay thế $A$ bởi ảnh chính tắc của nó trong $B$, ta có thể giả sử rằng $A \subset B$. Cho $\mathfrak{p}'$ là một iđêan nguyên tố của $B$ và đặt $\mathfrak{p} = A \cap \mathfrak{p}'$. Theo giả thiết tồn tại một họ $(\mathfrak{m}_\lambda)_{\lambda \in L}$ các iđêan cực đại của $A$ mà giao của chúng bằng p. Với mọi $\lambda \in L$ tồn tại một iđêan cực đại $\mathfrak{m}'_\lambda$ của $B$ nằm trên $\mathfrak{m}_\lambda$ và chứa $\mathfrak{p}'$ (§ 2, no. 1, Mệnh đề 1 và Hệ quả 2 của Định lý 1). Nếu đặt $\mathfrak{q}' = \bigcap_{\lambda \in L} \mathfrak{m}'_\lambda$, thì $\mathfrak{q}' \cap A = \bigcap_{\lambda \in L} \mathfrak{m}_\lambda = \mathfrak{p}$ và $\mathfrak{q}' \supset \mathfrak{p}'$, do đó $\mathfrak{q}' = \mathfrak{p}'$ ($2$, no. 1, Hệ quả 1 của Mệnh đề 1).
 
-#### Định lý 3 {#ac-v-s3-thm-3 .statement}
+#### Định lý 3 {#ac-v-s3-thm-3 .statement tag=04RL}
 
 *Cho $A$ là một vành Jacobson, $B$ là một $A$-đại số sinh hữu hạn và $\varphi : A \to B$ là đồng cấu chính tắc. Khi đó:*
 (i) *$B$ là một vành Jacobson.*
@@ -232,19 +232,19 @@ $$
 
 do đó $g(B/p')$ là một trường con của $K$ (Đại số, Chương V, § 3, no. 2, Mệnh đề 3) và vì thế hạt nhân của $g$ là một iđêan cực đại của $B/p'$ không chứa $v$. Vậy ta thấy rằng giao của các iđêan cực đại của $B/p'$ thu về 0, điều này chứng minh rằng $B$ là một vành Jacobson. Hơn nữa, nếu $p'$ là cực đại, thì $g$ tất yếu là đơn ánh và do đó $p = m$ là cực đại; sau cùng $B/p'$ khi đó là một đại số sinh hữu hạn trên trường $A/m$ và vì thế là một mở rộng hữu hạn của $A/m$ (no. 1, Hệ quả 2 của Định lý 1).
 
-#### Hệ quả 1 {#ac-v-s3-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s3-thm-3-cor-1 .statement tag=04RM}
 
 *Mọi đại số sinh hữu hạn $A$ trên $\mathbf{Z}$ đều là một vành Jacobson; để một iđêan nguyên tố $p \subset A$ là cực đại, điều kiện cần và đủ là vành $A/p$ là hữu hạn.*
 
 Nếu miền nguyên $A/p$ là hữu hạn, thì nó là một trường, vì, với mọi $u \neq 0$ trong $A/p$, ánh xạ $v \mapsto uv$ của $A/p$ vào chính nó là đơn ánh và do đó song ánh vì $A/p$ là hữu hạn. Ngược lại, với mọi iđêan cực đại $m$ của $A$, ảnh ngược của $m$ trong $A$ là một iđêan cực đại $(p)$ và $A/m$ là hữu hạn trên trường nguyên tố $\mathbf{Z}/(p) = \mathbf{F}_p$ theo Định lý 3.
 
-#### Hệ quả 2 {#ac-v-s3-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s3-thm-3-cor-2 .statement tag=04RN}
 
 *Cho $(P_\lambda)_{\lambda \in L}$ là một họ các đa thức trong $\mathbf{Z}[X_1, \ldots, X_n]$ và $Q$ là một đa thức trong $\mathbf{Z}[X_1, \ldots, X_n]$ sao cho, với mọi hệ các phần tử $(x_i)_{1 \leq i \leq n}$ thuộc một trường hữu hạn và thỏa mãn $P_\lambda(x_1, \ldots, x_n) = 0$ với mọi $\lambda$, thì cũng có $Q(x_1, \ldots, x_n) = 0$. Khi đó, nếu $a$ là iđêan của $\mathbf{Z}[X_1, \ldots, X_n]$ sinh bởi các $P_\lambda$, thì tồn tại một số nguyên $m > 0$ sao cho $Q^m \in a$. Hơn nữa, với mọi vành rút gọn $R$ và mọi hệ $(y_i)_{1 \leq i \leq n}$ các phần tử của $R$ sao cho $P_\lambda(y_1, \ldots, y_n) = 0$ với mọi $\lambda$, thì cũng có $Q(y_1, \ldots, y_n) = 0$.
 
 Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất vì iđêan của $\mathbf{Z}[X_1, \ldots, X_n]$ gồm các đa thức $P$ sao cho $P(y_1, \ldots, y_n) = 0$ chứa $a$. Để chứng minh mệnh đề thứ nhất, chỉ cần chú ý rằng, với mọi iđêan cực đại $m$ của $A = \mathbf{Z}[X_1, \ldots, X_n]$ chứa $a$, $A/m$ là một trường hữu hạn (Hệ quả 1) và giả thiết kéo theo rằng ảnh chính tắc của $Q$ trong $A/m$ bằng không; khi đó $Q$ thuộc giao của các iđêan cực đại của $A$ chứa $a$, giao này là căn của $a$ (Hệ quả của Mệnh đề 3).
 
-#### Hệ quả 3 {#ac-v-s3-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-v-s3-thm-3-cor-3 .statement tag=04RO}
 
 *Cho $A$ là một vành Jacobson. Nếu tồn tại một $A$-đại số sinh hữu hạn $B$ chứa $A$ và là một trường, thì $A$ là một trường và $B$ là một mở rộng đại số của $A$.*
 

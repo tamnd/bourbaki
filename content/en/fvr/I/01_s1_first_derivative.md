@@ -41,7 +41,7 @@ subsections:
       pdf_page: 25
 statements: 36
 exercises: 9
-content_sha256: 6a91d7f87a83dc1e977d5e372ee4fbb9c5f767b14c46505a1f79fd7cc01befa0
+content_sha256: 5dea356d12e98a054923f53371a9f84b313b2a5f5dd6646107d466573ef4a73f
 ---
 
 ## § 1. FIRST DERIVATIVE
@@ -54,7 +54,7 @@ We shall indicate these generalizations in passing (see in particular I, p. 10, 
 
 ### 1. DERIVATIVE OF A VECTOR FUNCTION
 
-#### Definition 1 {#fvr-i-s1-def-1 .statement}
+#### Definition 1 {#fvr-i-s1-def-1 .statement tag=082P}
 
 *Let $f$ be a vector function defined on an interval $I \subset \mathbf{R}$ which does not reduce to a single point. We say that $f$ is differentiable at a point $x_0 \in I$ if*
 $$
@@ -66,15 +66,15 @@ If $f$ is differentiable at the point $x_0$, so is the *restriction* of $f$ to a
 
 We summarise these properties by saying that the concept of derivative is a local concept.
 
-#### Remark 1 {#fvr-i-s1-n1-rem-1 .statement}
+#### Remark 1 {#fvr-i-s1-n1-rem-1 .statement tag=082Q}
 
 In Kinematics, if the point $\mathbf{f}(t)$ is the position of a moving point in the space $\mathbf{R}^3$ at time $t$, then $\frac{\mathbf{f}(t) - \mathbf{f}(t_0)}{t - t_0}$ is termed the average velocity between the instants $t_0$ and $t$, and its limit $\mathbf{f}'(t_0)$ is the instantaneous velocity (or simply velocity) at the time $t_0$ (when this limit exists).*
 
-#### Remark 2 {#fvr-i-s1-n1-rem-2 .statement}
+#### Remark 2 {#fvr-i-s1-n1-rem-2 .statement tag=082R}
 
 If a function $\mathbf{f}$, defined on $I$, is differentiable at a point $x_0 \in I$, it is necessarily continuous relative to $I$ at this point.
 
-#### Definition 2 {#fvr-i-s1-def-2 .statement}
+#### Definition 2 {#fvr-i-s1-def-2 .statement tag=082S}
 
 *Let $\mathbf{f}$ be a vector function defined on an interval $I \subset \mathbf{R}$, and let $x_0$ be a point of $I$ such that the interval $I \cap [x_0, +\infty[$ (resp. $I \cap ]-\infty, x_0]$) does not reduce to a single point. We say that $\mathbf{f}$ is differentiable on the right (resp. on the left) at the point $x_0$ if the restriction of $\mathbf{f}$ to the interval $I \cap [x_0, +\infty[$ (resp. $I \cap ]-\infty, x_0]$) is differentiable at the point $x_0$; the value of the derivative of this restriction at the point $x_0$ is called the right (resp. left) derivative of $\mathbf{f}$ at the point $x_0$ and is denoted by $\mathbf{f}'_d(x_0)$ (resp. $\mathbf{f}'_g(x_0)$).*
 
@@ -84,69 +84,69 @@ $$
 \mathbf{f}'(x_0) = \mathbf{f}'_d(x_0) = \mathbf{f}'_g(x_0).
 $$
 
-#### Example 1 {#fvr-i-s1-n1-exa-1 .statement}
+#### Example 1 {#fvr-i-s1-n1-exa-1 .statement tag=082T}
 
 A constant function has zero derivative at every point.
 
-#### Example 2 {#fvr-i-s1-n1-exa-2 .statement}
+#### Example 2 {#fvr-i-s1-n1-exa-2 .statement tag=082U}
 
 An affine linear function $x \mapsto ax + b$ has derivative equal to $a$ at every point.
 
-#### Example 3 {#fvr-i-s1-n1-exa-3 .statement}
+#### Example 3 {#fvr-i-s1-n1-exa-3 .statement tag=082V}
 
 The real function $1/x$ (defined for $x \neq 0$) is differentiable at each point $x_0 \neq 0$, for we have $\left( \frac{1}{x} - \frac{1}{x_0} \right) / (x - x_0) = -\frac{1}{x x_0}$, and, since $1/x$ is continuous at $x_0$, the limit of the preceding expression is $-1/x_0^2$.
 
-#### Example 4 {#fvr-i-s1-n1-exa-4 .statement}
+#### Example 4 {#fvr-i-s1-n1-exa-4 .statement tag=082W}
 
 The scalar function $|x|$, defined on $\mathbf{R}$, has right derivative $+1$ and left derivative $-1$ at $x = 0$; it is not differentiable at this point.
 
-#### Example 5 {#fvr-i-s1-n1-exa-5 .statement}
+#### Example 5 {#fvr-i-s1-n1-exa-5 .statement tag=082X}
 
 The real function equal to 0 for $x = 0$, and to $x \sin 1/x$ for $x \neq 0$, is defined and continuous on $\mathbf{R}$, but has neither right nor left derivative at the point $x \neq 0$.* One can give examples of functions which are continuous on an interval and fail to have a derivative at every point of the interval (I, p. 35, exerc. 2 and 3).
 
-#### Definition 3 {#fvr-i-s1-def-3 .statement}
+#### Definition 3 {#fvr-i-s1-def-3 .statement tag=082Y}
 
 *We say that a vector function $\mathbf{f}$ defined on an interval $I \subset \mathbf{R}$ is differentiable (resp. right differentiable, left differentiable) on $I$ if it is differentiable (resp. right differentiable, left differentiable) at each point of $I$; the function $x \mapsto \mathbf{f}'(x)$ (resp. $x \mapsto \mathbf{f}'_d(x)$, $x \mapsto \mathbf{f}'_g(x)$) defined on $I$, is called the derived function, or (by abuse of language) the derivative (resp. right derivative, left derivative) of $\mathbf{f}$, and is denoted by $\mathbf{f}'$ or $\mathrm{Df}$ or $d\mathbf{f}/dx$ (resp. $\mathbf{f}'_d, \mathbf{f}'_g$).*
 
-#### Remark {#fvr-i-s1-n1-rem-3 .statement}
+#### Remark {#fvr-i-s1-n1-rem-3 .statement tag=082Z}
 
 A function may be differentiable on an interval without its derivative being continuous at every point of the interval (*cf.* I, p. 36, exerc. 5); *this is shown by the example of the function equal to 0 for $x = 0$ and to $x^2 \sin 1/x$ for $x \neq 0$; it has a derivative everywhere, but this derivative is discontinuous at the point $x = 0$.
 
 ### 2. LINEARITY OF DIFFERENTIATION
 
-#### Proposition 1 {#fvr-i-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-i-s1-prop-1 .statement tag=0830}
 
 *The set of vector functions defined on an interval $I \subset \mathbf{R}$, taking values in a given topological vector space $E$, and differentiable at the point $x_0$, is a vector space over $\mathbf{R}$, and the map $f \mapsto Df(x_0)$ is a linear mapping of this space into $E$.*
 
 In other words, if $f$ and $g$ are defined on $I$ and differentiable at the point $x_0$, then $f + g$ and $fa$ ($a$ an arbitrary scalar) are differentiable at $x_0$ and their derivatives there are $f'(x_0) + g'(x_0)$ and $f'(x_0)a$ respectively. This follows immediately from the continuity of $x + y$ and of $xa$ on $E \times E$ and $E$ respectively.
 
-#### Corollary {#fvr-i-s1-n2-cor-1 .statement}
+#### Corollary {#fvr-i-s1-n2-cor-1 .statement tag=0831}
 
 *The set of vector functions defined on an interval $I$, taking values in a given topological vector space $E$, and differentiable on $I$, is a vector space over $\mathbf{R}$, and the map $f \mapsto Df$ is a linear mapping of this space into the vector space of mappings from $I$ into $E$.*
 
-#### Remark {#fvr-i-s1-n2-rem-1 .statement}
+#### Remark {#fvr-i-s1-n2-rem-1 .statement tag=0832}
 
 If one endows the vector space of mappings from $I$ into $E$ and its subspace of differentiable mappings (*cf. Gen. Top.*, X, p. 277) with the topology of simple convergence (or the topology of uniform convergence), the linear mapping $f \mapsto Df$ *is not continuous* (in general) *for example, the sequence of functions* $f_n(x) = \sin n^2 x / n$ *converges uniformly to* 0 *on* $\mathbf{R}$, *but the sequence of derivatives* $f'_n(x) = n \cos n^2 x$ *does not converge even simply to* 0.
 
-#### Proposition 2 {#fvr-i-s1-prop-2 .statement}
+#### Proposition 2 {#fvr-i-s1-prop-2 .statement tag=0833}
 
 *Let $E$ and $F$ be two topological vector spaces over $\mathbf{R}$, and $u$ a continuous linear map from $E$ into $F$. If $f$ is a vector function defined on an interval $I \subset \mathbf{R}$, taking values in $E$, and differentiable at the point $x_0 \in I$, then the composite function $u \circ f$ has a derivative equal to $u(f'(x_0))$ at $x_0$.*
 
 Indeed, since $\frac{u(f(x)) - u(f(x_0))}{x - x_0} = u \left( \frac{f(x) - f(x_0)}{x - x_0} \right)$, this follows from the continuity of $u$.
 
-#### Corollary {#fvr-i-s1-n2-cor-2 .statement}
+#### Corollary {#fvr-i-s1-n2-cor-2 .statement tag=0834}
 
 *If $\varphi$ is a continuous linear form on $E$, then the real function $\varphi \circ f$ has a derivative equal to $\varphi(f'(x_0))$ at the point $x_0$.*
 
-#### Example 1 {#fvr-i-s1-n2-exa-1 .statement}
+#### Example 1 {#fvr-i-s1-n2-exa-1 .statement tag=0835}
 
 Let $f = (f_i)_{1 \leq i \leq n}$ be a function with values in $\mathbf{R}^n$, defined on an interval $I \subset \mathbf{R}$; each real function $f_i$ is none other than the composite function $\mathrm{pr}_i \circ f$, so is differentiable at the point $x_0$ if $f$ is, and, if so, $f'(x_0) = (f'_i(x_0))_{1 \leq i \leq n}$.
 
-#### Example 2 {#fvr-i-s1-n2-exa-2 .statement}
+#### Example 2 {#fvr-i-s1-n2-exa-2 .statement tag=0836}
 
 In Kinematics, if $f(t)$ is the position of a moving point $M$ at time $t$, if $g(t)$ is the position at the same instant of the projection $M'$ of $M$ onto a plane $P$ (resp. a line $D$) with kernel a line (resp. a plane) not parallel to $P$ (resp. $D$), then $g$ is the composition of the projection $u$ of $\mathbf{R}^3$ onto $P$ (resp. $D$) and of $f$; since $u$ is a (continuous) linear mapping one sees that the projection of the velocity of a moving point onto a plane (resp. a line) is equal to the velocity of the projection of the moving point onto the plane (resp. line).*
 
-#### Example 3 {#fvr-i-s1-n2-exa-3 .statement}
+#### Example 3 {#fvr-i-s1-n2-exa-3 .statement tag=0837}
 
 Let $f$ be a complex-valued function defined on an interval $I \subset \mathbf{R}$, and let $a$ be an arbitrary complex number; prop. 2 shows that if $f$ is differentiable at a point $x_0$ then so is $af$, and the derivative of this function at $x_0$ is equal to $af'(x_0)$.
 
@@ -160,7 +160,7 @@ $$
 
 of $E_1 \times E_2 \times \cdots \times E_p$ into a topological vector space F over $\mathbf{R}$.
 
-#### Proposition 3 {#fvr-i-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-i-s1-prop-3 .statement tag=0838}
 
 *For each index $i$ ($1 \leq i \leq p$) let $f_i$ be a function defined on an interval $I \subset \mathbf{R}$, taking values in $E_i$, and differentiable at the point $x_0 \in I$. Then the function
 
@@ -216,11 +216,11 @@ $$
 
 (2)
 
-#### Example 1 {#fvr-i-s1-n3-exa-1 .statement}
+#### Example 1 {#fvr-i-s1-n3-exa-1 .statement tag=0839}
 
 Let $f$ be a real function, $\mathbf{g}$ a vector function, both differentiable at a point $x_0$; the function $\mathbf{g}f$ has a derivative equal to $\mathbf{g}'(x_0)f(x_0) + \mathbf{g}(x_0)f'(x_0)$ at $x_0$. In particular, if $\mathbf{a}$ is constant, then $\mathbf{a}f$ has derivative $\mathbf{a}f'(x_0)$. This last remark, in conjunction with example 1 of I, p. 5, proves that if $\mathbf{f} = (f_i)_{1 \leq i \leq n}$ is a vector function with values in $\mathbf{R}^n$, then for $\mathbf{f}$ to be differentiable at the point $x_0$ it is necessary and sufficient that each of the real functions $f_i$ ($1 \leq i \leq n$) be differentiable there: for, if $(\mathbf{e}_i)_{1 \leq i \leq n}$ is the canonical basis of $\mathbf{R}^n$, we can write $\mathbf{f} = \sum_{i=1}^n \mathbf{e}_i f_i$.
 
-#### Example 2 {#fvr-i-s1-n3-exa-2 .statement}
+#### Example 2 {#fvr-i-s1-n3-exa-2 .statement tag=083A}
 
 The real function $x^n$ arises from the multilinear function
 
@@ -236,17 +236,17 @@ $$
 
 when the $\mathbf{a}_i$ are real numbers this function coincides with the derivative of a polynomial function as defined in Algebra (A, IV).
 
-#### Example 3 {#fvr-i-s1-n3-exa-3 .statement}
+#### Example 3 {#fvr-i-s1-n3-exa-3 .statement tag=083B}
 
 The euclidean scalar product $(\mathbf{x}| \mathbf{y})$ (Gen. Top , VI, p. 40) is a bilinear map (necessarily continuous) of $\mathbf{R}^n \times \mathbf{R}^n$ into $\mathbf{R}$. If $\mathbf{f}$ and $\mathbf{g}$ are two vector functions with values in $\mathbf{R}^n$, and differentiable at the point $x_0$, then the real function $x \mapsto (\mathbf{f}(x)|\mathbf{g}(x))$ has a derivative equal to $(\mathbf{f}'(x_0)|\mathbf{g}(x_0)) + (\mathbf{f}(x_0)|\mathbf{g}'(x_0))$ at the point $x_0$. There is an analogous result for the hermitian scalar product on $\mathbf{C}^n$, this space being considered as a vector space over $\mathbf{R}$.
 
 Let us consider in particular the case where the euclidean norm $\| \mathbf{f}(x) \|$ is constant, so that $(\mathbf{f}(x)|\mathbf{f}(x)) = \| \mathbf{f}(x) \|^2$ is also constant; on writing that the derivative of $(\mathbf{f}(x)|\mathbf{f}(x))$ vanishes at $x_0$ we obtain $(\mathbf{f}(x_0)|\mathbf{f}'(x_0)) = 0$; in other words, $\mathbf{f}'(x_0)$ is orthogonal to $\mathbf{f}(x_0)$.
 
-#### Example 4 {#fvr-i-s1-n3-exa-4 .statement}
+#### Example 4 {#fvr-i-s1-n3-exa-4 .statement tag=083C}
 
 If $E$ is a topological algebra over $\mathbf{R}$ (cf. Introduction), the product $xy$ of two elements of $E$ is a continuous bilinear function of $(x, y)$; if $\mathbf{f}$ and $\mathbf{g}$ have their values in $E$ and are differentiable at the point $x_0$, then the function $x \mapsto \mathbf{f}(x)\mathbf{g}(x)$ has a derivative equal to $\mathbf{f}'(x_0)\mathbf{g}(x_0) + \mathbf{f}(x_0)\mathbf{g}'(x_0)$ at $x_0$. In particular, if $U(x) = (\alpha_{ij}(x))$ and $V(x) = (\beta_{ij}(x))$ are two square matrices of order $n$, differentiable at $x_0$, their product $UV$ has a derivative equal to $U'(x_0)V(x_0) + U(x_0)V'(x_0)$ at $x_0$ (where $U'(x) = (\alpha'_{ij}(x))$ and $V'(x) = (\beta'_{ij}(x))$).
 
-#### Example 5 {#fvr-i-s1-n3-exa-5 .statement}
+#### Example 5 {#fvr-i-s1-n3-exa-5 .statement tag=083D}
 
 The determinant $\det(\mathbf{x}_1, \mathbf{x}_2, \ldots, \mathbf{x}_n)$ of $n$ vectors $\mathbf{x}_i = (x_{ij})_{1 \leq i \leq n}$ from the space $\mathbf{R}^n$ (Alg., III, p. 522) being a (continuous) multilinear function of the $\mathbf{x}_i$, one sees that if the $n^2$ real functions $f_{ij}$ are differentiable at $x_0$, then their determinant $g(x) = \det(f_{ij}(x))$ has a derivative equal to
 $$
@@ -254,7 +254,7 @@ $$
 $$
 at $x_0$, where $\mathbf{f}_i(x) = (f_{ij}(x))_{1 \leq j \leq n}$; in other words, one obtains the derivative of a determinant of order $n$ by taking the sum of the $n$ determinants formed by replacing, for each $i$, the terms of the $i^{th}$ column by their derivatives.
 
-#### Remark {#fvr-i-s1-n3-rem-1 .statement}
+#### Remark {#fvr-i-s1-n3-rem-1 .statement tag=083E}
 
 If $U(x)$ is a square matrix which is differentiable and invertible at the point $x_0$, then the derivative of its determinant $\Delta(x) = \det(U(x))$ can be expressed through the derivative of $U(x)$ by the formula
 $$
@@ -268,7 +268,7 @@ Now $\det(I + h X) = 1 + h \operatorname{Tr}(X) + \sum_{k=2}^n \lambda_k h^k$, t
 
 ### 4. DERIVATIVE OF THE INVERSE OF A FUNCTION
 
-#### Proposition 4 {#fvr-i-s1-prop-4 .statement}
+#### Proposition 4 {#fvr-i-s1-prop-4 .statement tag=083F}
 
 *Let E be a complete normed algebra with a unit element over $\mathbf{R}$ and let $\mathbf{f}$ be a function defined on an interval $I \subset \mathbf{R}$, taking values in E, and differentiable at the point $x_0 \in I$. If $y_0 = \mathbf{f}(x_0)$ is invertible $^2$ in E, then the function $x \mapsto (\mathbf{f}(x))^{-1}$ is defined on a neighbourhood of $x_0$ (relative to I), and has a derivative equal to $-(\mathbf{f}(x_0))^{-1} \mathbf{f}'(x_0) (\mathbf{f}(x_0))^{-1}$ at $x_0$.*
 
@@ -280,17 +280,17 @@ The proposition thus follows from the continuity of $y^{-1}$ on a neighbourhood 
 
 $^2$ Recall from (*Alg.*, I, p. 15) that an element $z \in E$ is said to be *invertible* if there exists an element of $E$, denoted by $z^{-1}$, such that $zz^{-1} = z^{-1}z = e$ (e being the unit element of $E$).
 
-#### Example 1 {#fvr-i-s1-n4-exa-1 .statement}
+#### Example 1 {#fvr-i-s1-n4-exa-1 .statement tag=083G}
 
 The most important particular case is that where E is one of the fields $\mathbf{R}$ or $\mathbf{C}$: if $f$ is a function with real or complex values, differentiable at the point $x_0$, and such that $f(x_0) \neq 0$, then $1/f$ has derivative equal to $-f'(x_0)/(f(x_0))^2$ at $x_0$.
 
-#### Example 2 {#fvr-i-s1-n4-exa-2 .statement}
+#### Example 2 {#fvr-i-s1-n4-exa-2 .statement tag=083H}
 
 If $U = (\alpha_{ij}(x))$ is a square matrix of order $n$, differentiable at $x_0$ and invertible at this point, then $U^{-1}$ has derivative equal to $-U^{-1} U' U^{-1}$ at $x_0$.
 
 ### 5. DERIVATIVE OF A COMPOSITE FUNCTION
 
-#### Proposition 5 {#fvr-i-s1-prop-5 .statement}
+#### Proposition 5 {#fvr-i-s1-prop-5 .statement tag=083I}
 
 *Let $f$ be a real function defined on an interval $I \subset \mathbf{R}$, and $g$ a vector function defined on an interval of $\mathbf{R}$ containing $f(I)$. If $f$ is differentiable at the point $x_0$ and $g$ is differentiable at the point $f(x_0)$ then the composite function $g \circ f$ has a derivative equal to $g'(f(x_0)) f'(x_0)$ at $x_0$.*
 
@@ -302,7 +302,7 @@ where we set $u(x) = \frac{g(f(x)) - g(f(x_0))}{f(x) - f(x_0)}$ if $f(x) \neq f(
 
 ### 6. DERIVATIVE OF AN INVERSE FUNCTION
 
-#### Proposition 6 {#fvr-i-s1-prop-6 .statement}
+#### Proposition 6 {#fvr-i-s1-prop-6 .statement tag=083J}
 
 *Let $f$ be a homeomorphism of an interval $I \subset \mathbf{R}$ onto an interval $J = f(I) \subset \mathbf{R}$, and let $g$ be the inverse homeomorphism$^3$. If $f$ is differentiable at the point $x_0 \in I$, and if $f'(x_0) \neq 0$, then $g$ has a derivative equal to $1/f'(x_0)$ at $y_0 = f(x_0)$.*
 
@@ -312,7 +312,7 @@ $$
 $$
 for $y \neq y_0$. When $y$ tends to $y_0$ while remaining in $J$ and $\neq y_0$, then $g(y)$ tends to $x_0$ remaining in $I$ and $\neq x_0$, and the right-hand side in the preceding formula thus has limit $1/f'(x_0)$, since by hypothesis $f'(x_0) \neq 0$.
 
-#### Corollary {#fvr-i-s1-n6-cor-1 .statement}
+#### Corollary {#fvr-i-s1-n6-cor-1 .statement tag=083K}
 
 *If $f$ is differentiable on $I$ and if $f'(x) \neq 0$ on $I$, then $g$ is differentiable on $J$ and its derivative at each point $y \in J$ is $1/f'(g(y))$.*
 
@@ -322,11 +322,11 @@ One deduces easily, from prop. 5, that for every rational number $r = p/q > 0$ t
 
 $^3$ For $f$ to be a homeomorphism of $I$ onto a subset of $\mathbf{R}$ we know that it is necessary and sufficient that $f$ be continuous and strictly monotone on $I$ (*Gen. Top.*, IV, p. 338, th. 5).
 
-#### Remark 1 {#fvr-i-s1-n6-rem-1 .statement}
+#### Remark 1 {#fvr-i-s1-n6-rem-1 .statement tag=083L}
 
 All the preceding propositions, stated for functions differentiable at a point $x_0$, immediately yield propositions for functions which are right (resp. left) differentiable at $x_0$, when, instead of the functions themselves, one considers their restrictions to the intersection of their intervals of definition with the interval $[x_0, +\infty[$ (resp. ]$-\infty, x_0$]); we leave it to the reader to state them.
 
-#### Remark 2 {#fvr-i-s1-n6-rem-2 .statement}
+#### Remark 2 {#fvr-i-s1-n6-rem-2 .statement tag=083M}
 
 The preceding definitions and propositions (except for those concerning right and left derivatives) extend easily to the case where one replaces $\mathbf{R}$ by an arbitrary *commutative non-discrete topological field* $K$, and the topological vector spaces (resp. topological algebras) over $\mathbf{R}$ by topological vector spaces (resp. topological algebras) over $K$. In def. 1 and props. 1, 2 and 3 it is enough to replace I by a *neighbourhood* of $x_0$ in $K$; in prop. 4 one must assume further that the map $y \mapsto y'$ is defined and continuous on a neighbourhood of $f(x_0)$ in E. Prop. 5 generalizes in the following manner: let $K'$ be a non-discrete subfield of the topological field $K$, let E be a topological vector space *over* $K$; let $f$ be a function defined on a neighbourhood $V \subset K'$ of $x_0 \in K'$, with values in $K$ (considered as a topological vector space over $K'$), differentiable at $x_0$, and let g be a function defined on a neighbourhood of $f(x_0) \in K$, with values in E, and differentiable at the point $f(x_0)$; then the map $g \circ f$ is differentiable at $x_0$ and has derivative $g'(f(x_0))f'(x_0)$ there (E being then considered as a topological vector space *over* $K'$).
 
@@ -340,7 +340,7 @@ The preceding definitions and propositions may be augmented in several respects 
 
 In the first place, if $f$ is such a function, defined on an interval $I \subset \mathbf{R}$, and continuous relative to I at a point $x_0 \in I$, it can happen that when $x$ tends to $x_0$ while remaining in I and $\neq x_0$, that $\frac{f(x) - f(x_0)}{x - x_0}$ has a limit equal to $+\infty$ or to $-\infty$; one then says that $f$ is differentiable at $x_0$ and has derivative $+\infty$ (resp. $-\infty$) there; if the function $f$ has a derivative $f'(x)$ (finite or infinite) at every point $x$ of I, then the function $f'$ (with values in $\overline{\mathbf{R}}$) is again called the derived function (or simply the derivative) of $f$. One generalizes the definitions of right and left derivative similarly.
 
-#### Example {#fvr-i-s1-n7-exa-1 .statement}
+#### Example {#fvr-i-s1-n7-exa-1 .statement tag=083N}
 
 At the point $x = 0$ the function $x^{1/3}$ (the inverse function of $x^3$, a homeomorphism of $\mathbf{R}$ onto itself) has a derivative, equal to $+\infty$; at $x = 0$ the function $|x|^{1/3}$ has right derivative $+\infty$ and left derivative $-\infty$.
 
@@ -356,7 +356,7 @@ When the tangent at $M_{x_0}$ exists it is the limit of the line passing through
 
 The concepts of tangent and half-tangent to a graph are particular cases of general concepts which will be defined in the part of this Series devoted to differentiable varieties.
 
-#### Definition 4 {#fvr-i-s1-def-4 .statement}
+#### Definition 4 {#fvr-i-s1-def-4 .statement tag=083O}
 
 We say that a real function $f$, defined on a subset A of a topological space E, has a relative maximum (resp. strict relative maximum, relative minimum, strict relative minimum) at a point $x_0 \in A$, relative to A, if there is a neighbourhood $V$ of $x_0$ in E such that at every point $x \in V \cap A$ distinct from $x_0$ one has $f(x) \leq f(x_0)$ (resp. $f(x) < f(x_0)$, $f(x) \geq f(x_0)$, $f(x) > f(x_0)$).
 
@@ -364,7 +364,7 @@ It is clear that if $f$ attains its least upper bound (resp. greatest lower boun
 
 Note that if $B \subset A$, and if $f$ admits (for example) a relative maximum at a point $x_0 \in B$ relative to B, then $f$ does not necessarily have a relative maximum relative to A at this point.
 
-#### Proposition 7 {#fvr-i-s1-prop-7 .statement}
+#### Proposition 7 {#fvr-i-s1-prop-7 .statement tag=083P}
 
 Let $f$ be a finite real function, defined on an interval $I \subset \mathbf{R}$. If $f$ admits a relative maximum (resp. relative minimum) at a point $x_0$ interior to I, and has both right and left derivatives at this point, then one has $f'_d(x_0) \leq 0$ and $f'_g(x_0) \geq 0$ (resp. $f'_d(x_0) \geq 0$ and $f'_g(x_0) \leq 0$); in particular, if $f$ is differentiable at the point $x_0$, then $f'(x_0) = 0$.
 

@@ -12,7 +12,7 @@ pdf_pages: 0069-0071, 0092-0092
 extraction: ocr
 statements: 1
 exercises: 2
-content_sha256: 50394ceb619d8b370d5388fb9364a8494f0bff50bd6fb54ee4604515552d338c
+content_sha256: 9c33ce2745a6f33a64b242f358a0e8de951d1389e67638d73203a127888e7c42
 ---
 
 ### APPENDICE Fonction de Möbius
@@ -21,7 +21,7 @@ Soit $n$ un entier $\geqslant 1$. Si $n$ est divisible par le carré d’un nomb
 
 Rappelons qu’étant donnés deux entiers $n_1 \geqslant 1, n_2 \geqslant 1$, on écrit $n_1 \mid n_2$ si $n_1$ divise $n_2$.
 
-#### Proposition {#lie-ii-a0-n0-prop-1 .statement}
+#### Proposition {#lie-ii-a0-n0-prop-1 .statement tag=0A73}
 
 (i) La fonction $\mu$ est l’unique application de $\mathbf{N}^*$ dans $\mathbf{Z}$ telle que $\mu(1) = 1$ et que
 

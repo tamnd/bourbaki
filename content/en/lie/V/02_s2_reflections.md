@@ -32,7 +32,7 @@ subsections:
       pdf_page: 87
 statements: 16
 exercises: 3
-content_sha256: 39c7ebc3b044da26c284dd6d790d3e5d350ccc31db5ffb0f9a476cf4c313cf2e
+content_sha256: 20ad7df5949cc7ad56e714010f088695fe6bb28788d70b393710f3d5f45836d3
 ---
 
 ## § 2. REFLECTIONS
@@ -41,7 +41,7 @@ In this paragraph, K denotes a commutative field, assumed not to be a characteri
 
 ### 1. PSEUDO-REFLECTIONS
 
-#### Definition 1 {#lie-v-s2-def-1 .statement}
+#### Definition 1 {#lie-v-s2-def-1 .statement tag=0APJ}
 
 An endomorphism s of the vector space V is said to be a pseudo-reflection if $1 - s$ is of rank 1.
 
@@ -61,7 +61,7 @@ $$
 
 If a is a non-zero vector, a *pseudo-reflection with vector a* is any pseudo-reflection s such that a belongs to the image of $1 - s$. The *hyperplane of a pseudo-reflection s* is the kernel of $1 - s$, the set of vectors x such that $s(x) = x$.
 
-#### Proposition 1 {#lie-v-s2-prop-1 .statement}
+#### Proposition 1 {#lie-v-s2-prop-1 .statement tag=0APK}
 
 Let G be a group and $\rho$ an irreducible linear representation of G on a vector space V; assume that there exists an element g of G such that $\rho(g)$ is a pseudo-reflection.
 
@@ -92,7 +92,7 @@ In particular, we can apply this to the bilinear form $B'(x, y) = B(y, x)$; then
 
 Recall that from now on, unless stated otherwise, the field K is assumed to be of characteristic different from 2. A reflection in V is a pseudo-reflection s such that $s^2 = 1$; if s is a reflection, we denote by $V_s^+$ the kernel of $s - 1$ and by $V_s^-$ that of $s + 1$.
 
-#### Proposition 2 {#lie-v-s2-prop-2 .statement}
+#### Proposition 2 {#lie-v-s2-prop-2 .statement tag=0APL}
 
 Let s be an endomorphism of V.
 
@@ -104,13 +104,13 @@ Let s be an endomorphism of V.
 
 (ii) Under the stated hypotheses, every element of V can be written uniquely in the form $v = x + y$ with $x \in H$ and $y \in D$ and we have $s(v) = x - y$; assertion (ii) follows immediately from this.
 
-#### Corollary {#lie-v-s2-n2-cor-1 .statement}
+#### Corollary {#lie-v-s2-n2-cor-1 .statement tag=0APM}
 
 *If V is finite dimensional, every reflection is of determinant −1.*
 
 Let s be a reflection in V. Prop. 2, (i) shows that there exists a basis $(e_1, \ldots, e_n)$ of V such that $s(e_1) = e_1, \ldots, s(e_{n-1}) = e_{n-1}$ and $s(e_n) = -e_n$, hence $\det(s) = -1$.
 
-#### Proposition 3 {#lie-v-s2-prop-3 .statement}
+#### Proposition 3 {#lie-v-s2-prop-3 .statement tag=0APN}
 
 *Let s be a reflection in V.*
 
@@ -122,7 +122,7 @@ Let s be a reflection in V. Prop. 2, (i) shows that there exists a basis $(e_1, 
 
 (ii) Assume first that $u$ commutes with $s$. If $x$ is a vector such that $s(x) = \varepsilon.x$ (where $\varepsilon = \pm 1$), then $s(u(x)) = u(s(x)) = \varepsilon.u(x)$, so $V_s^+$ and $V_s^-$ are stable under $u$. Conversely, assume that $V_s^+$ and $V_s^-$ are stable under $u$; it is clear that $us - su$ vanishes on $V_s^+$ and on $V_s^-$, and since V is the direct sum of $V_s^+$ and $V_s^-$, we have $us - su = 0$.
 
-#### Corollary {#lie-v-s2-n2-cor-2 .statement}
+#### Corollary {#lie-v-s2-n2-cor-2 .statement tag=0APO}
 
 *Two distinct reflections s and u commute if and only if $V_s^- \subset V_u^+$ and $V_u^- \subset V_s^+$.*
 
@@ -134,7 +134,7 @@ a) We have $V_u^- \subset V_s^-$: since they are both of dimension 1, these spac
 
 b) We have $V_s^- \subset V_u^+$: the image of $1 - s$ is thus contained in the kernel of $1 - u$, so $(1 - u).(1 - s) = 0$. Since $s$ and $u$ commute, we have $(1 - s).(1 - u) = 0$, in other words $V_u^- \subset V_s^+$.
 
-#### Remark {#lie-v-s2-n2-rem-1 .statement}
+#### Remark {#lie-v-s2-n2-rem-1 .statement tag=0APP}
 
 Let $a \neq 0$ be in V and let $a^*$ be a non-zero linear form on V: it follows from formula (1) that
 
@@ -154,7 +154,7 @@ $$
 
 by Algebra, Chap. IX, § 6, no. 4, formula (6). The reflection s is also called the orthogonal reflection with respect to H.
 
-#### Proposition 4 {#lie-v-s2-prop-4 .statement}
+#### Proposition 4 {#lie-v-s2-prop-4 .statement tag=0APQ}
 
 Assume that V is finite dimensional. Let B be a non-degenerate symmetric bilinear form on V, X a subspace of V and $X^0$ the orthogonal complement of X with respect to B; finally, let s be the orthogonal reflection with respect to a non-isotropic hyperplane H of V. The following conditions are equivalent:
 
@@ -176,7 +176,7 @@ $$
 s_H(h + v) = h - v.
 $$
 
-#### Proposition 5 {#lie-v-s2-prop-5 .statement}
+#### Proposition 5 {#lie-v-s2-prop-5 .statement tag=0APR}
 
 *Let $H$ and $H'$ be two parallel, non-isotropic hyperplanes of $E$. There exists a unique vector $v \in V$ orthogonal to $H$ and such that $H' = H + v$. The displacement $s_{H'} s_H$ is the translation by the vector $2v$.
 
@@ -188,13 +188,13 @@ $$
 
 showing that $s_{H'} s_H$ is the translation by the vector $2v$.
 
-#### Corollary {#lie-v-s2-n4-cor-1 .statement}
+#### Corollary {#lie-v-s2-n4-cor-1 .statement tag=0APS}
 
 *Let $H$ and $H'$ be two distinct, parallel, non-isotropic hyperplanes. If $K$ is of characteristic zero (resp. $p > 0$, with $p \neq 2$), the group of displacements of $E$ generated by $s_H$ and $s_{H'}$ is an infinite dihedral group (resp. a dihedral group of order $2p$).
 
 Indeed, by Prop. 2 of Chap. IV, § 1, no. 2, it suffices to show that $s_{H'} s_H$ is of infinite order (resp. order $2p$), which is clear.
 
-#### Remark {#lie-v-s2-n4-rem-1 .statement}
+#### Remark {#lie-v-s2-n4-rem-1 .statement tag=0APT}
 
 We retain the notation of Prop. 5 and assume in addition that $K = \mathbf{R}$. Put $s = s_H$ and $s' = s_{H'}$. Let $H_n$ be the hyperplane $H + n.v$ and let $C_n$ be the set of points of $E$ of the form $a + \xi.v$ with $a \in H$ and $n < \xi < n + 1$. The $C_n$ are connected open sets forming a partition of $E - \bigcup_n H_n$. They are therefore the *chambers* defined by the system $\mathfrak{H} = (H_n)_{n \in \mathbf{Z}}$ in $E$. The translation $(s's)^n$ transforms the chamber $C = C_0$ into the chamber $C_{2n}$, and since $s(C_0) = C_{-1}$, we have $(s's)^n s(C) = C_{2n-1}$. It follows that *the dihedral group W generated by s and s' permutes the chambers C_n simply-transitively*. Moreover, as we shall now show, *if the chambers C and w(C) are on opposite sides of H* (for $w \in W$), *we have l(sw) = l(w) - 1* (the lengths being taken with respect to $S = \{s, s'\}$ (Chap. IV, § 1, no. 1)). Indeed, we then have $w(C) = C_n$ for some $n < 0$. If $n = -2k$, then $w = (ss')^k$ and $sw = (s's)^{k-1}s'$, so $l(w) = 2k$ and $l(sw) = 2k - 1$ (Chap. IV, § 1, no. 2, Remark). If $n = -2k - 1$, then $w = (ss')^k s$ and $sw = (s's)^k$, so $l(w) = 2k + 1$ and $l(sw) = 2k$.
 
@@ -202,7 +202,7 @@ We retain the notation of Prop. 5 and assume in addition that $K = \mathbf{R}$. 
 
 In this no., $V$ denotes a real vector space of dimension 2, provided with a *scalar product* (that is, a *non-degenerate*, positive, symmetric bilinear form) and an *orientation*. The measures of angles will be taken with respect to the base $2\pi$; the principal measure of an angle between half-lines (resp. lines) is thus a real number $\theta$ such that $0 \leq \theta < 2\pi$ (resp. $0 \leq \theta < \pi$) (*General Topology*, Chap. VIII, § 2, no. 3 and no. 6). By abuse of language, for any real number $\theta$, we shall use $\theta$ to denote an angle whose measure is $\theta$ and denote by $\rho_\theta$ the rotation with angle $\theta$ (*Algebra*, Chap. IX, § 10, no. 3).
 
-#### Proposition 6 {#lie-v-s2-prop-6 .statement}
+#### Proposition 6 {#lie-v-s2-prop-6 .statement tag=0APU}
 
 *Let s be the orthogonal reflection with respect to a line D of V. If $\Delta$ and $\Delta'$ are two half-lines starting at the origin (resp. two lines passing through the origin) of V, we have*
 
@@ -212,7 +212,7 @@ $$
 
 Let $u$ be a rotation transforming $\Delta$ into $\Delta'$. Since $su$ is an orthogonal transformation of V of determinant $-1$, it is a reflection and thus $(su)^2 = 1$. Consequently, $u^{-1} = sus^{-1}$ transforms $s(\Delta)$ into $s(\Delta')$, hence the proposition.
 
-#### Corollary {#lie-v-s2-n5-cor-1 .statement}
+#### Corollary {#lie-v-s2-n5-cor-1 .statement tag=0APV}
 
 *Let D and D' be two lines of V and let $\theta$ be a measure of the angle $(\widehat{D}, \widehat{D'})$. Then $s_{D'} s_D = \rho_{2\theta}$.
 
@@ -234,13 +234,13 @@ $$
 $$
 and let s and $s'$ be the orthogonal reflections with respect to the lines D and D' containing $\Delta$ and $\Delta'$. Let $\theta$ be the principal measure of the angle $(\widehat{D}, \widehat{D'})$. If $\theta \in \pi \mathbf{Q}$, denote by m the smallest integer $\geq 1$ such that $m\theta \in \pi \mathbf{Z}$. If $\theta \notin \pi \mathbf{Q}$, put $m = \infty$. Let W be the group generated by s and $s'$.
 
-#### Proposition 7 {#lie-v-s2-prop-7 .statement}
+#### Proposition 7 {#lie-v-s2-prop-7 .statement tag=0APW}
 
 *The group W is dihedral* (Chap. IV, § 1, no. 2) *of order $2m$. It consists of the rotations $\rho_{2n\theta}$ and the products $\rho_{2n\theta} s$ for $n \in \mathbf{Z}$. The transforms of D and D' by the elements of W are the transforms of D by the rotations $\rho_{n\theta}$ for $n \in \mathbf{Z}$.
 
 The Corollary to Prop. 6 shows that $s's$ is of order m, which gives the first assertion. The elements of W are thus of the form $(s's)^n = \rho_{2n\theta}$ or $(s's)^n s = \rho_{2n\theta} s$; the last assertion follows from this, since $D' = \rho_\theta(D)$.
 
-#### Corollary {#lie-v-s2-n5-cor-2 .statement}
+#### Corollary {#lie-v-s2-n5-cor-2 .statement tag=0APX}
 
 *Let C be the open angular sector formed by the union of the open half-lines $\Delta_1$ starting at the origin and such that $0 < (\widehat{\Delta}, \widehat{\Delta_1}) < \theta$. Then* no transform of D or D' by an element of W meets C if and only if m is finite and
 
@@ -250,7 +250,7 @@ $$
 
 If $m = \infty$, the image of the set $n \theta$ ($n \in \mathbf{Z}$) is dense in $\mathbf{R}/2\pi \mathbf{Z}$ (General Topology, Chap. VII, § 1, Prop. 11); the union of the transforms of D by the elements of W is thus dense in V and meets C. If m is finite and if $\theta = k \pi / m$ with $1 < k < m$, the integers k and m being relatively prime, there exists an integer h such that $hk \equiv 1$ mod. m; then $(D, \rho_{h \theta}(D)) \equiv \pi / m$ (mod. $\pi$), and $\rho_{h \theta}(D)$ meets C. This shows that the condition is necessary. The converse is immediate.
 
-#### Remark {#lie-v-s2-n5-rem-1 .statement}
+#### Remark {#lie-v-s2-n5-rem-1 .statement tag=0APY}
 
 Assume that m is finite and that $\theta = \pi / m$. If $n \in \mathbf{Z}$, let $C_n$ be the union of the open half-lines $\Delta_1$ starting at 0 such that
 

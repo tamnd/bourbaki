@@ -53,7 +53,7 @@ subsections:
       pdf_page: 245
 statements: 46
 exercises: 31
-content_sha256: 51d200134d1b68ad4718785e16fe1c4b0160b229bcac32c40a663ff38aabee6b
+content_sha256: e351a0c8f9f899d8ea24b29a23597820504f125d5656802211af972ada8b6d78
 ---
 
 ## 2. SUBGROUPS, QUOTIENT GROUPS, HOMOMORPHISMS, HOMOGENEOUS SPACES, PRODUCT GROUPS
@@ -62,7 +62,7 @@ content_sha256: 51d200134d1b68ad4718785e16fe1c4b0160b229bcac32c40a663ff38aabee6b
 
 Let G be a topological group and let H be a subgroup of G. By (GT'), the topology induced on H by the topology of G is compatible with the group structure of H. The structure of a topological group thus defined on $H$ is said to be *induced* by that of $G$. Whenever we consider a subgroup $H$ of $G$ as a topological group, it is always this induced structure which is under consideration, unless the contrary is expressly stated.
 
-#### Proposition 1 {#top-iii-s2-prop-1 .statement}
+#### Proposition 1 {#top-iii-s2-prop-1 .statement tag=0BHS}
 
 *The closure $\overline{H}$ of a subgroup $H$ of a topological group $G$ is a subgroup of $G$. If $H$ is a normal subgroup of $G$, then so is $\overline{H}$.*
 
@@ -70,37 +70,37 @@ If $a, b \in \overline{H}$ then $ab^{-1} \in \overline{H}$, because the mapping 
 
 In particular, the closure $N$ of the set $\{ e \}$ consisting only of the identity element of $G$, is a *normal subgroup* of $G$; and $N = \{ e \}$ if and only if $G$ is *Hausdorff* ($\S$ 1, no. 2, Proposition 2).
 
-#### Proposition 2 {#top-iii-s2-prop-2 .statement}
+#### Proposition 2 {#top-iii-s2-prop-2 .statement tag=0BHT}
 
 *If $G$ is a Hausdorff topological group, then the closure of a commutative subgroup of $G$ is a commutative subgroup of $G$.*
 
 By reason of Proposition 1, we may limit ourselves to the case where $H$ is dense in $G$. The continuous functions $xy$ and $yx$ are equal on $H \times H$, and are therefore equal on $G \times G$, by virtue of the principle of extension of identities (Chapter I, § 8, no. 1, Proposition 2, Corollary 1).
 
-#### Proposition 3 {#top-iii-s2-prop-3 .statement}
+#### Proposition 3 {#top-iii-s2-prop-3 .statement tag=0BHU}
 
 *Let $G$ be a Hausdorff topological group and let $M$ be any subset of $G$. Then the set $M'$ of elements of $G$ which commute with each element of $M$ is a closed subgroup of $G$. In particular, the centre of $G$ is closed in $G$.*
 
 For $M'$ is the intersection of the sets $F_m (m \in M)$, where $F_m$ is the set of all $x \in G$ such that $xm = mx$; and $F_m$ is closed (Chapter I, § 8, no. 1, Proposition 2).
 
-#### Proposition 4 {#top-iii-s2-prop-4 .statement}
+#### Proposition 4 {#top-iii-s2-prop-4 .statement tag=0BHV}
 
 *Let $G$ be a topological group and let $H$ be a subgroup of $G$ which is locally closed at one point of $H$ (Chapter I, § 3, no. 3, Definition 2). Then $H$ is closed in $G$.*
 
 By translation, $H$ is locally closed at each of its points, i.e. $H$ is locally closed in $G$. Let $V$ be a symmetric open neighbourhood of $e$ in $G$ such that $V \cap H$ is closed in $V$. If $x \in \overline{H}$, then $xV$ meets $H$; if $y \in xV \cap H$, we have $x \in yV$, and $y(V \cap H) = (yV) \cap H$ is closed in $yV$. But $x$ lies in the closure of $(yV) \cap H$, hence $x \in H$.
 
-#### Corollary {#top-iii-s2-n1-cor-1 .statement}
+#### Corollary {#top-iii-s2-n1-cor-1 .statement tag=0BHW}
 
 *A subgroup of a topological group is open if and only if it has an interior point. Every open subgroup is closed.*
 
 If a subgroup $H$ has an interior point, then by translation all the points of $H$ are interior and so $H$ is open. The second assertion of the corollary is a particular case of Proposition 4.
 
-#### Proposition 5 {#top-iii-s2-prop-5 .statement}
+#### Proposition 5 {#top-iii-s2-prop-5 .statement tag=0BHX}
 
 *A subgroup $H$ of a topological group $G$ is discrete if and only if $H$ has an isolated point. Every discrete subgroup of a Hausdorff group is closed.*
 
 If $H$ is discrete, every point of $H$ is isolated. Conversely if $H$ has an isolated point, then by translation every point of $H$ is isolated and therefore $H$ is discrete. If $H$ is discrete and $G$ is Hausdorff, then there is a neighbourhood $V$ of $e$ such that $V \cap H = \{e\}$; $\{e\}$ is closed in $G$ and therefore *a fortiori* in $V$, so that $H$ is locally closed at $e$. Hence $H$ is closed in $G$ by Proposition 4.
 
-#### Remark {#top-iii-s2-n1-rem-1 .statement}
+#### Remark {#top-iii-s2-n1-rem-1 .statement tag=0BHY}
 
 Let $H$ be any subgroup of a topological group $G$. For each $x \in \overline{H}$ we have $x \overline{H} = x$. $\overline{H} = \overline{H}$, since translation by $x$ is a homeomorphism of $G$ onto $G$. In other words, for each $x \in \overline{H}$, $xH$ is *dense* in $\overline{H}$. It follows that if $H$ is not closed, then $\overline{H} \cap CH$ is *dense* in $\overline{H}$.
 
@@ -108,7 +108,7 @@ Let $H$ be any subgroup of a topological group $G$. For each $x \in \overline{H}
 
 Let $V$ be a *symmetric* neighbourhood of $e$ in $G$. The subgroup generated by $V$, which is denoted by $V^\infty$ consists of all products $\prod_{i=1}^n x_i$ of finite sequences of elements of $V$. $V^\infty$ is *open*, since it has $e$ as an interior point, and is therefore *closed* by Proposition 4 of no. 1. It follows that:
 
-#### Proposition 6 {#top-iii-s2-prop-6 .statement}
+#### Proposition 6 {#top-iii-s2-prop-6 .statement tag=0BHZ}
 
 *A connected topological group is generated by every neighbourhood of the identity element.*
 
@@ -116,7 +116,7 @@ The converse of this proposition is in general false, as we shall see in Chapter
 
 \* As an example of a non-connected group $G$ which has an open subgroup distinct from $G$, we may cite the *multiplicative group* $\mathbf{R}^*$ of non-zero real numbers, in which the subgroup $\mathbf{R}_+^*$ of real numbers $> 0$ is both open and closed (see Chapter IV, § 3, no. 2). \*
 
-#### Proposition 7 {#top-iii-s2-prop-7 .statement}
+#### Proposition 7 {#top-iii-s2-prop-7 .statement tag=0BI0}
 
 *In a topological group $G$, the component $K$ of the identity element $e$ is a closed normal subgroup. The component of any point $x \in G$ is the coset $x.K = K.x$.*
 
@@ -128,13 +128,13 @@ The component of the identity element $e$ of $G$ is called the *identity compone
 
 The following Proposition generalizes Proposition 1 of no. 1:
 
-#### Proposition 8 {#top-iii-s2-prop-8 .statement}
+#### Proposition 8 {#top-iii-s2-prop-8 .statement tag=0BI1}
 
 *Let $H$ be a dense subgroup of a topological group $G$, and let $K$ be a normal subgroup of $H$. Then the closure $\overline{K}$ of $K$ in $G$ is a normal subgroup of $G$.*
 
 For the mapping $(z, x) \to zxz^{-1}$ is continuous on $G \times G$, and maps $H \times K$ into $K$; hence (Chapter I, § 2, no. 1, Theorem 1) it maps $G \times \overline{K} = \overline{H} \times K$ into $\overline{K}$.
 
-#### Proposition 9 {#top-iii-s2-prop-9 .statement}
+#### Proposition 9 {#top-iii-s2-prop-9 .statement tag=0BI2}
 
 *Let $H$ be a dense subgroup of a topological group $G$. If $H$ is generated by every neighbourhood of the identity element in $H$, then $G$ is generated by every neighbourhood of the identity element in $G$.*
 
@@ -148,7 +148,7 @@ Let $X$ be a topological space and let $G$ be a topological group. $G$ is said t
 
 2) The mapping $(s, x) \to s.x$ of $G \times X$ into $X$ is *continuous*.
 
-#### Lemma 1 {#top-iii-s2-lem-1 .statement}
+#### Lemma 1 {#top-iii-s2-lem-1 .statement tag=0BI3}
 
 *If a topological group* $G$ *operates continuously on a topological space* $X$, *then for each* $s \in G$ *the mapping* $x \to s.x$ *is a homeomorphism of* $X$ *onto* $X$.
 
@@ -156,25 +156,25 @@ For this mapping is a continuous bijection whose inverse $x \to s^{-1}.x$ is als
 
 We recall that for each $x \in X$ the set $G.x$ of transforms $s.x$ of $x$ by the elements $s$ of $G$ is called the *orbit* of $x$ (with respect to the group of operators $G$), and that the set of all $s \in G$ such that $s.x = x$ is a subgroup of $G$ called the *stabilizer* of $x$. The relation $R(x, y) : "y$ belongs to the orbit of $x"$ is an equivalence relation on $X$, called the equivalence relation *defined by* $G$; the equivalence classes with respect to this relation are the orbits of the points of $X$. The topological space $X/R$ is called the *orbit space* of $X$ (with respect to $G$), or the *quotient space of* $X$ *by the group* $G$, and is denoted by $X/G$; and the topology of $X/G$ is said to be the *quotient of the topology of* $X$ *by* $G$.
 
-#### Lemma 2 {#top-iii-s2-lem-2 .statement}
+#### Lemma 2 {#top-iii-s2-lem-2 .statement tag=0BI4}
 
 *If a topological group* $G$ *operates continuously on a topological space* $X$, *then the equivalence relation* $R$ *defined by* $G$ *is open*.
 
 For the saturation with respect to $R$ of an open subset $U$ of $X$ is the set $\bigcup_{s \in G} s.U$, and each $s.U$ is open by Lemma 1.
 
-#### Example 1 {#top-iii-s2-n4-exa-1 .statement}
+#### Example 1 {#top-iii-s2-n4-exa-1 .statement tag=0BI5}
 
 Let $H$ be a subgroup of a topological group $G$. $H$ operates continuously on $G$ by the external law $(s, x) \to sx$. $H$ also operates continuously on $G$ by the external law $(x, s) \to sxs^{-1}$.
 
-#### Example 2 {#top-iii-s2-n4-exa-2 .statement}
+#### Example 2 {#top-iii-s2-n4-exa-2 .statement tag=0BI6}
 
 \* If $K$ is a topological division ring ($§ 6$, no. 7), the multiplicative group $K^*$ operates continuously on $K$ by the external law $(s, x) \to sx$. \*
 
-#### Example 3 {#top-iii-s2-n4-exa-3 .statement}
+#### Example 3 {#top-iii-s2-n4-exa-3 .statement tag=0BI7}
 
 Let $G$ be a topological group, $X$ a topological space. Then the mapping $(s, x) \to x$ of $G \times X$ into $X$ is an external law of composition on $X$, and $G$ operates continuously on $X$ with respect to this law; $G$ is then said to operate *trivially* on $X$.
 
-#### Remark {#top-iii-s2-n4-rem-1 .statement}
+#### Remark {#top-iii-s2-n4-rem-1 .statement tag=0BI8}
 
 Instead of saying that a topological group $G$ operates continuously on a topological space $X$, it is often said that $G$ operates continuously *on the left* on $X$. When the topological group $G^0$ opposite to $G$ operates continuously on $X$, we say that $G$ operates continuously *on the right* on $X$. It comes to the same thing to say that $X$ has a continuous external law of composition $(s, x) \to s.x$ with $G$ as set of operators, such that $s.(t.x) = (ts).x$ and $e.x = x$. Such a law is often written *on the right* : $(s, x) \to x.s$ (whence the terminology), and we have then $(x.t).s = x.(ts)$. If $G$ operates continuously on the right on $X$ by the law $(s, x) \to x.s$, then also $G$ operates continuously on the left on $X$ according to the external law $(s, x) \to x.s^{-1}$, by virtue of axiom (GT$_{II}$).
 
@@ -182,13 +182,13 @@ Let $X$ (resp. $X'$) be a set with a group of operators $G$ (resp. $G'$) and let
 
 Let $G$ be a topological group operating continuously on a topological space $X$, and let $\varphi$ be the canonical mapping of $X$ onto the orbit space $X/G$. Let $A$ be any subset of $X$, and let $A'$ be the subspace of $X$ which is the saturation of $A$ with respect to the equivalence relation $R$ defined by $G$ (thus $A'$ is the union of the orbits of points of $A$, and is said to be the *saturation of $A$ with respect to $G$*). $G$ operates continuously on $A'$ by the restriction of $(s, x) \to s.x$ to $G \times A'$. Moreover, since $R$ is open (Lemma 2) and $A'$ is saturated, it follows from Proposition 4 of Chapter I, § 5, no. 2, and from the relation $\varphi(A) = \varphi(A')$, that:
 
-#### Proposition 10 {#top-iii-s2-prop-10 .statement}
+#### Proposition 10 {#top-iii-s2-prop-10 .statement tag=0BI9}
 
 *The canonical bijection of the subspace $\varphi(A)$ of $X/G$ onto the orbit space $A'/G$ is a homeomorphism.*
 
 Now let $S$ be an equivalence relation on $X$ such that, for each $s \in G$, the mapping $x \to s.x$ is *compatible* with $S$ [in other words, such that the relation $x \equiv y \pmod{S}$ implies $s.x \equiv s.y \pmod{S}$]; for the sake of brevity we shall say that the relation $S$ is *compatible with the group* $G$. If $\psi$ is the canonical mapping of $X$ onto $X/S$, and if $s.\psi(x)$ denotes the class mod $S$ of $s.x$, then $X/S$ has $G$ as groups of operators with respect to the external law $(s, \psi(x)) \to s.\psi(x) = \psi(s.x)$. Moreover:
 
-#### Proposition 11 {#top-iii-s2-prop-11 .statement}
+#### Proposition 11 {#top-iii-s2-prop-11 .statement tag=0BIA}
 
 *If the equivalence relation $S$ on $X$ is open and compatible with $G$, then $G$ operates continuously on $X/S$.*
 
@@ -198,7 +198,7 @@ $$
 (s, x) \to s.x.
 $$
 
-#### Remark {#top-iii-s2-n4-rem-2 .statement}
+#### Remark {#top-iii-s2-n4-rem-2 .statement tag=0BIB}
 
 Let $G'$ be another topological group operating continuously on $X$, and suppose that $s.(s'x) = s'(s.x)$ for all $s \in G, s' \in G'$ and x \in X. Then the equivalence relation S defined by G' is compatible with G, and since S is open (Lemma 2) it follows that G operates continuously on X/G'. Similarly, G' operates continuously on X/G. In these circumstances the two operations of the two groups G and G' on X are said to commute.
 
@@ -206,19 +206,19 @@ Let $G'$ be another topological group operating continuously on $X$, and suppose
 
 Let G be a topological group and H a subgroup of G. H operates continuously on the right on G according to the external law $(t, x) \to xt$, and the orbit of a point $x \in G$ is the left coset $xH$. The set of orbits is therefore what we have called in algebra the homogeneous space $G/H$. Whenever we speak of $G/H$ as a topological space, we shall always mean the orbit space of G (with respect to H) unless the contrary is expressly stated; i.e. the quotient space of G by the equivalence relation $x^{-1}y \in H$. In conformity with the general definitions, we say that the topology of this space is the quotient by H of the topology of G.
 
-#### Proposition 12 {#top-iii-s2-prop-12 .statement}
+#### Proposition 12 {#top-iii-s2-prop-12 .statement tag=0BIC}
 
 The group G operates continuously on every homogeneous space $G/H$.
 
 Since the equivalence relation $x^{-1}y \in H$ is open (no. 4, Lemma 2) this is a particular case of Proposition 11 of no. 4.
 
-#### Proposition 13 {#top-iii-s2-prop-13 .statement}
+#### Proposition 13 {#top-iii-s2-prop-13 .statement tag=0BID}
 
 Let G be a topological group and let H be a subgroup of G. Then the homogeneous space $G/H$ is Hausdorff if and only if H is closed in G.
 
 H is an equivalence class for the relation $x^{-1}y \in H$ and therefore, if $G/H$ is Hausdorff, H is closed in G. Conversely, if H is closed, then the graph of this relation is closed in $G \times G$, since it is the inverse image of H under the continuous mapping $(x, y) \to x^{-1}y$. Since the relation $x^{-1}y \in H$ is open, it follows from Chapter I, § 8, no. 3, Proposition 8 that $G/H$ is Hausdorff.
 
-#### Proposition 14 {#top-iii-s2-prop-14 .statement}
+#### Proposition 14 {#top-iii-s2-prop-14 .statement tag=0BIE}
 
 Let G be a topological group and let H be a subgroup of G. Then the homogeneous space $G/H$ is discrete if and only if H is open in G.
 
@@ -232,7 +232,7 @@ $$
 
 where f_x is the canonical mapping of G onto the homogeneous space G/H_x, and g_x is the bijection s.H_x → s.x of G/H_x onto X; moreover (Chapter I, § 3, no. 4, Proposition 6) g_x is a continuous mapping. But g_x is not necessarily a homeomorphism of G/H_x onto X (Exercise 29). If g_x is a homeomorphism for each x ∈ X, then we say that X is a topological homogeneous space (of the topological group G); for this to be so it is necessary and sufficient that, for each x ∈ E, the mapping s → s.x of G into X should be open.
 
-#### Proposition 15 {#top-iii-s2-prop-15 .statement}
+#### Proposition 15 {#top-iii-s2-prop-15 .statement tag=0BIF}
 
 Let X be a topological space on which a topological group G operates continuously and transitively. For X to be a topological homogeneous space (relative to G) it is sufficient that for some point x_0 ∈ X the mapping s → s.x_0 transforms each neighbourhood of e in G into a neighbourhood of x_0 in X.
 
@@ -240,7 +240,7 @@ Every x ∈ X can be written as x = t.x_0 for some t ∈ G. If V is a neighbourh
 
 ### 6. QUOTIENT GROUPS
 
-#### Proposition 16 {#top-iii-s2-prop-16 .statement}
+#### Proposition 16 {#top-iii-s2-prop-16 .statement tag=0BIG}
 
 Let G be a topological group and let H be a normal subgroup of G. Then the quotient by H of the topology of G is compatible with the group structure of G/H.
 
@@ -248,7 +248,7 @@ If x → x̂ is the canonical mapping of G onto G/H, then we have to show that (
 
 Whenever in the sequel we consider a quotient group $G/H$ of a topological group $G$ as a topological group, it is always to be understood that the topology of $G/H$ is the quotient by $H$ of the topology of $G$, unless the contrary is expressly stated.
 
-#### Proposition 17 {#top-iii-s2-prop-17 .statement}
+#### Proposition 17 {#top-iii-s2-prop-17 .statement tag=0BIH}
 
 *Let $\varphi$ be the canonical mapping of a topological group $G$ onto a quotient group $G/H$. If $\mathfrak{B}$ is a fundamental system of neighbourhoods of $e$ in $G$, then $\varphi(\mathfrak{B})$ is a fundamental system of neighbourhoods of the identity element $\varphi(e)$ of $G/H$.*
 
@@ -256,7 +256,7 @@ This is a particular case of Proposition 5 of Chapter I, § 5, no. 3.
 
 Propositions 13 and 14 give in particular, for quotient groups:
 
-#### Proposition 18 {#top-iii-s2-prop-18 .statement}
+#### Proposition 18 {#top-iii-s2-prop-18 .statement tag=0BII}
 
 *Let $G$ be a topological group and let $H$ be a normal subgroup of $G$.
 a) *The quotient group $G/H$ is Hausdorff if and only if $H$ is closed in $G$.
@@ -264,7 +264,7 @@ b) *The quotient group $G/H$ is discrete if and only if $H$ is open in $G$.*
 
 If $G$ is a topological group and $N$ is the closure of $\{e\}$ in $G$, then $N$ is a closed normal subgroup of $G$ (no. 1, Proposition 1), hence $G/N$ is Hausdorff; $G/N$ is called the *Hausdorff group associated with* $G$.
 
-#### Proposition 19 {#top-iii-s2-prop-19 .statement}
+#### Proposition 19 {#top-iii-s2-prop-19 .statement tag=0BIJ}
 
 *If $H$ is a discrete normal subgroup of a topological group $G$, then $G/H$ is locally isomorphic to $G$.*
 
@@ -274,7 +274,7 @@ Let $V$ be a neighbourhood of $e$ in $G$ which does not contain any point of $H$
 
 Let $G$ be a topological group, let $H$ be a normal subgroup of $G$, and let $\varphi : G \to G/H$ be the canonical mapping. We know that if $A'$ is a subgroup of $G/H$, then $\overline{\varphi}(A')$ is a subgroup of $G$ which contains $H$. Conversely, if $A$ is a subgroup of $G$, then $\varphi(A)$ is a subgroup of $G/H$; moreover, there is a canonical bijection of the quotient group $A/(A \cap H)$ onto the subgroup $\varphi(A)$ of $G/H$, and a canonical bijection of $\varphi(A)$ onto the quotient group $AH/H$, and both these bijections are isomorphisms *for the group structures*.
 
-#### Proposition 20 {#top-iii-s2-prop-20 .statement}
+#### Proposition 20 {#top-iii-s2-prop-20 .statement tag=0BIK}
 
 Let $A$ be a subgroup of a topological group $G$, let $H$ be a normal subgroup of $G$, and let $\varphi$ denote the canonical mapping of $G$ onto $G/H$. Then the canonical bijection of $\varphi(A)$ onto $AH/H$ is an isomorphism of topological groups.
 
@@ -286,7 +286,7 @@ The canonical bijection of $A/(A \cap H)$ onto $\varphi(A)$ is a continuous homo
 
 Nevertheless, we have the following proposition:
 
-#### Proposition 21 {#top-iii-s2-prop-21 .statement}
+#### Proposition 21 {#top-iii-s2-prop-21 .statement tag=0BIL}
 
 Let $G$ be a topological group, $G_0$ a dense subgroup of $G$, $H_0$ a normal subgroup of $G_0$, $H$ the closure of $H_0$ in $G$ and $\varphi$ the canonical mapping $G \to G/H$. Then the canonical bijection $G_0/H_0 \to \varphi(G_0)$ is an isomorphism of the topological group $G_0/H_0$ onto a dense subgroup of $G/H$.
 
@@ -304,11 +304,11 @@ $$(s, \psi(x)) \to \psi(s.x)$$
 
 (no. 4, Proposition 11). Moreover, the group H is contained in the stabilizer of each of the points of X/S; as we have seen above, G/H operates continuously on $X/S = X/H$ with respect to the external law $(s', \psi(x)) \to \psi(s.x)$. If R denotes the equivalence relation on X defined by G, then the relation S implies R, and the equivalence relation R/S on X/S is that defined by the group G/H. Hence (Chapter I, § 3, no. 4, Proposition 7):
 
-#### Proposition 22 {#top-iii-s2-prop-22 .statement}
+#### Proposition 22 {#top-iii-s2-prop-22 .statement tag=0BIM}
 
 *Let G be a topological group operating continuously on a topological space X, and let H be a normal subgroup of G. Then the canonical bijection of X/G onto $(X/H)/(G/H)$ is a homeomorphism.*
 
-#### Corollary {#top-iii-s2-n7-cor-1 .statement}
+#### Corollary {#top-iii-s2-n7-cor-1 .statement tag=0BIN}
 
 *Let G be a topological group, H a normal subgroup of G, and K a normal subgroup of G which contains H. Then the canonical bijection of G/K onto $(G/H)/(K/H)$ is an isomorphism of topological groups.*
 
@@ -316,7 +316,7 @@ We know already that this bijection is an isomorphism of groups, and Proposition
 
 ### 8. CONTINUOUS HOMOMORPHISMS AND STRICT MORPHISMS
 
-#### Proposition 23 {#top-iii-s2-prop-23 .statement}
+#### Proposition 23 {#top-iii-s2-prop-23 .statement tag=0BIO}
 
 *A homomorphism f of a topological group G into a topological group $G'$ is continuous on G if and only if it is continuous at one point of G.*
 
@@ -332,13 +332,13 @@ Let $f$ be a continuous homomorphism of a topological group $G$ into a topologic
 
 For example, let $G'$ be a non-discrete topological group, and $G$ the topological group obtained by giving $G'$ the discrete topology; then the identity mapping of $G$ into $G'$ is a continuous bijective homomorphism, but is not bicontinuous.
 
-#### Definition 1 {#top-iii-s2-def-1 .statement}
+#### Definition 1 {#top-iii-s2-def-1 .statement tag=0BIP}
 
 *A continuous homomorphism of a topological group $G$ into a topological group $G'$ is said to be a strict morphism of $G$ into $G'$ if the bijective homomorphism $\dot{f}$ of $G/\overline{f^{-1}}(e')$ onto $f(G)$, associated with $f$, is an isomorphism of topological groups (in other words, if $\dot{f}$ is bicontinuous).*
 
 An isomorphism of a topological group $G$ onto a topological group $G'$ is therefore a bijective strict morphism of $G$ onto $G'$.
 
-#### Proposition 24 {#top-iii-s2-prop-24 .statement}
+#### Proposition 24 {#top-iii-s2-prop-24 .statement tag=0BIQ}
 
 *Let $f$ be a continuous homomorphism of a topological group $G$ into a topological group $G'$. Then the following three statements are equivalent:*
 a) $f$ *is a strict morphism.*
@@ -347,17 +347,17 @@ c) *The image under $f$ of every neighbourhood of the identity element in $G$ is
 
 In view of Lemma 2 of no. 4, the equivalence of a) and b) follows immediately from the definitions (Chapter I, § 5, no. 3, Proposition 5). The equivalence of b) and c) is a particular case of Proposition 15 of no. 5, if we observe that $G$ operates continuously on $f(G)$ by the external law $(s, f(t)) \to f(st)$.
 
-#### Remark 1 {#top-iii-s2-n8-rem-1 .statement}
+#### Remark 1 {#top-iii-s2-n8-rem-1 .statement tag=0BIR}
 
 From condition b) of Proposition 24 it follows that every continuous homomorphism of a topological group into a discrete group is a strict morphism.
 
 If G is compact and $f(G)$ is Hausdorff, then the bijective homomorphism $f$ associated with $f$ is bicontinuous (Chapter I, § 10, no. 2, Theorem 1, Corollary 2, and no. 1, Proposition 5, Corollary 4). Hence every continuous homomorphism of a compact group into a Hausdorff group is a strict morphism.
 
-#### Remark 2 {#top-iii-s2-n8-rem-2 .statement}
+#### Remark 2 {#top-iii-s2-n8-rem-2 .statement tag=0BIS}
 
 Let $f$ be a strict morphism of G into $G'$ and let $g$ be a strict morphism of $G'$ into $G''$. If $f$ is surjective or if $g$ is injective, it follows immediately from Proposition 24 that $g \circ f$ is a strict morphism of G into $G''$. But this conclusion is no longer necessarily valid if neither of the two preceding conditions is satisfied, even if $f$ is injective and $g$ surjective (Exercise 19).
 
-#### Remark 3 {#top-iii-s2-n8-rem-3 .statement}
+#### Remark 3 {#top-iii-s2-n8-rem-3 .statement tag=0BIT}
 
 Let $f$ be a continuous homomorphism of a topological group G into a topological group $G'$, and let H be a normal subgroup of G. $f$ induces a homomorphism $g$ of the group $G/H$ onto the quotient group $f(G)/f(H)$. This homomorphism $g$ is continuous. Moreover, if $f$ is a strict morphism of G into $G'$, then $g$ is a strict morphism of $G/H$ onto $f(G)/f(H)$; for if U is open in $G/H$, and if $\varphi$ (resp. $\varphi'$) denotes the canonical mapping of G onto $G/H$ [resp. of $f(G)$ onto $f(G)/f(H)$], then we have $g(u) = \varphi'(f(\overline{\varphi}^{-1}(u)))$, and since $\overline{\varphi}^{-1}(u)$ is open in G, it follows that $g(u)$ is open in $f(G)/f(H)$, which proves our assertion.
 
@@ -383,7 +383,7 @@ $$
 
 and both these mappings are continuous (Chapter I, § 4, no. 1, Corollary 1 of Proposition 1, and Proposition 2).
 
-#### Definition 2 {#top-iii-s2-def-2 .statement}
+#### Definition 2 {#top-iii-s2-def-2 .statement tag=0BIU}
 
 *The topological group obtained by giving the product set*
 
@@ -397,7 +397,7 @@ If $(J_x)_{x \in K}$ is a *partition* of $I$, then $G$ is isomorphic to the prod
 
 If $H_i$ is a subgroup of $G_i$, then the product of the topological groups $H_i$ is isomorphic to the subgroup $\prod_{i \in J} H_i$ of $\prod_{i \in I} G_i$. In particular, if $J$ is any subset of $I$, and $J' = C J$, then the topological group $\prod_{i \in J} G_i$ is isomorphic to the normal subgroup $G'_J = (\prod_{i \in J} G_i) \times (\prod_{i \in J'} \{e_i\})$ of $G$. Since the projection of every open set is an open set, the projection $\mathrm{pr}_J$ of $G$ onto $\prod_{i \in J} G_i$ is a *strict morphism*, and consequently the quotient group $G/G'$ is isomorphic to $G'_J$; $G$ is isomorphic to the product $G'_J \times (G/G'_J)$.
 
-#### Proposition 25 {#top-iii-s2-prop-25 .statement}
+#### Proposition 25 {#top-iii-s2-prop-25 .statement tag=0BIV}
 
 *Let $(G_i)_{i \in I}$ be a family of topological groups, and let $H$ be the normal subgroup of $G = \prod_{i \in I} G_i$ consisting of all $x = (x_i)$ such that the $x_i$ are equal to the identity element $e_i$ of $G_i$ except for a finite number of indices. Then the subgroup $H$ is dense in $G$.*
 
@@ -411,17 +411,17 @@ $$
 
 (Chapter I, § 4, no. 1, Proposition 1, Corollary 1, and Proposition 2). Moreover the orbit under $G$ of a point $x = (x_i)$ of $X$ is the product of the orbits of the $x_i$ (with respect to the groups $G_i$). Let $\varphi_i$ be the canonical mapping of $X_i$ onto $X_i/G_i$, and let $\varphi = (\varphi_i)$ be the product mapping of $X$ onto $\prod_{i \in I} (X_i/G_i)$; then the preceding remark shows that the bijection canonically associated with $\varphi$ maps the orbit space $X/G$ onto $\prod_{i \in I} (X_i/G_i)$. Moreover:
 
-#### Proposition 26 {#top-iii-s2-prop-26 .statement}
+#### Proposition 26 {#top-iii-s2-prop-26 .statement tag=0BIW}
 
 *The bijection of* $X/G$ *onto* $\prod_{i \in I} (X_i/G_i)$ *canonically associated with* $(\varphi_i)$ *is a homeomorphism.* For since the $\varphi_i$ are surjective and open, it follows that $\varphi = (\varphi_i)$ is an open mapping (Chapter I, , no. 3, Corollary to Proposition 8)
 
-#### Corollary {#top-iii-s2-n9-cor-1 .statement}
+#### Corollary {#top-iii-s2-n9-cor-1 .statement tag=0BIX}
 
 *Let* $(G_i)_{i \in I}$ *be a family of topological groups, and for each* $i \in I$ *let* $H_i$ *be a normal subgroup of* $G_i$; *let* $\varphi_i$ *denote the canonical mapping of* $G_i$ *onto* $G_i/H_i$. *Let* $G = \prod_{i \in I} G_i, \ H = \prod_{i \in I} H_i$. *Then the bijective homomorphism of* $G/H$ *onto* $\prod_{i \in I} (G_i/H_i)$ *associated with the continuous homomorphism* $(x_i) \to (\varphi_i(x_i))$ *is an isomorphism of topological groups.*
 
 For this homomorphism is an isomorphism of group structures.
 
-#### Remark {#top-iii-s2-n9-rem-1 .statement}
+#### Remark {#top-iii-s2-n9-rem-1 .statement tag=0BIY}
 
 If $G$ is a *commutative* topological group, written additively, then the mapping $(x, y) \to x + y$ of $G \times G$ onto $G$ is a *strict morphism*. For since $(x + x') + (y + y') = (x + y) + (x' + y')$ it is a *homomorphism* of $G \times G$ onto $G$; also it is continuous, and the image of a neighbourhood $V \times V$ of the origin in $G \times G$ under this mapping is the neighbourhood $V + V$ of the origin in $G$.
 
@@ -449,7 +449,7 @@ $$(xy)(x'y') = (x\sigma_y(x'))(yy').$$
 
 Conversely:
 
-#### Proposition 27 {#top-iii-s2-prop-27 .statement}
+#### Proposition 27 {#top-iii-s2-prop-27 .statement tag=0BIZ}
 
 *Let $\mathbf{N}$ and $\mathbf{L}$ be two groups, $e'$ and $e''$ their respective identity elements. Suppose that we are given a homomorphism $y \to \sigma_y$ of $\mathbf{L}$ into the group $\Gamma$ of automorphisms of $\mathbf{N}$. Then:*
 
@@ -482,7 +482,7 @@ $$f(x\sigma_y(x'))g(yy') = f(x)g(y)f(x')g(y^{-1})g(y)g(y') = f(x)g(y)f(x')g(y')$
 
 which shows that $(x, y) \to f(x)g(y)$ is indeed a homomorphism of S into G satisfying the conditions of 2).
 
-#### Corollary {#top-iii-s2-n10-cor-1 .statement}
+#### Corollary {#top-iii-s2-n10-cor-1 .statement tag=0BJ0}
 
 *The homomorphism h defined in 2) of Proposition 27 is injective if and only if f and g are injective and $f(N) \cap g(L) = \{e\}$; and h is surjective if and only if $f(N)g(L) = G$.
 
@@ -492,7 +492,7 @@ The group S defined in Proposition 27 is said to be the *external semi-direct pr
 
 Now let G be a group, and let L and N be two subgroups of G such that LN = NL and such that N is *normal* in NL, so that for each $y \in L$, $\sigma_y : x \to yxy^{-1}$ is an automorphism of N, and $y \to \sigma_y$ is a homomorphism of L into the automorphism group $\Gamma$ of N. It follows then from Proposition 27 that if S is the external semi-direct product of N and L (relative to $\sigma$), then $h : (x, y) \to xy$ is a *homomorphism* of S into G. h is bijective if and only if we have $N \cap L = \{e\}$ and $NL = G$ (Corollary to Proposition 27); G is then said to be the *semi-direct product* of its normal subgroup N and its subgroup L, and we often identify G with S by means of h.
 
-#### Proposition 28 {#top-iii-s2-prop-28 .statement}
+#### Proposition 28 {#top-iii-s2-prop-28 .statement tag=0BJ1}
 
 *Let L, N be two topological groups, let $y \to \sigma_y$ be a homomorphism of L into the group of automorphisms $\Gamma$ of the (non-topological) group structure of N; and suppose that the mapping $(x, y) \to \sigma_y(x)$ of $N \times L$ into N is continuous. Then:
 

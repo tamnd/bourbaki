@@ -37,20 +37,20 @@ subsections:
       pdf_page: 63
 statements: 21
 exercises: 7
-content_sha256: 444b03acef8e730637c03dec598bde80629fba835a9c0fcd025b0cc442986ac0
+content_sha256: 38906b20d7f8d26193cb96479d5a32fb5fc373c3d29b4b55bead62a22c231212
 ---
 
 ## § 7. LIMITES
 
 ### 1. Limite d’un filtre
 
-#### Définition 1 {#top-i-s7-def-1 .statement}
+#### Définition 1 {#top-i-s7-def-1 .statement tag=0B5B}
 
 Soient $X$ un espace topologique, $\mathfrak{F}$ un filtre sur $X$. On dit qu’un point $x \in X$ est point limite (ou simplement limite) de $\mathfrak{F}$, si $\mathfrak{F}$ est plus fin que le filtre $\mathfrak{V}(x)$ des voisinages de $x$; on dit aussi alors que $\mathfrak{F}$ converge (ou est convergent) vers $x$. On dit que $x$ est limite d’une base de filtre $\mathfrak{B}$ sur $X$ (ou que $\mathfrak{B}$ converge vers $x$) si le filtre de base $\mathfrak{B}$ converge vers $x$.
 
 Cette définition et la prop. 4 de I, p. 38, donnent le critère suivant:
 
-#### Proposition 1 {#top-i-s7-prop-1 .statement}
+#### Proposition 1 {#top-i-s7-prop-1 .statement tag=0B5C}
 
 Pour qu’une base de filtre $\mathfrak{B}$ sur un espace topologique $X$ converge vers $x \in X$, il faut et il suffit que tout ensemble d’un système fondamental de voisinages de $x$ contienne un ensemble de $\mathfrak{B}$.
 
@@ -64,7 +64,7 @@ Soit $\Phi$ un ensemble de filtres sur $X$, qui convergent tous vers un même po
 
 LIMITES
 
-#### Proposition 2 {#top-i-s7-prop-2 .statement}
+#### Proposition 2 {#top-i-s7-prop-2 .statement tag=0B5D}
 
 Pour qu’un filtre $\mathfrak{F}$ sur un espace topologique $X$ converge vers un point $x$, il faut et il suffit que tout ultrafiltre plus fin que $\mathfrak{F}$ converge vers $x$.
 
@@ -74,26 +74,26 @@ On notera qu’en général un filtre peut avoir plusieurs points limites distin
 
 ### 2. Point adhérent à une base de filtre
 
-#### Définition 2 {#top-i-s7-def-2 .statement}
+#### Définition 2 {#top-i-s7-def-2 .statement tag=0B5E}
 
 Dans un espace topologique $X$, on dit qu’un point $x$ est adhérent à une base de filtre $\mathfrak{B}$ sur $X$, s’il est adhérent à tous les ensembles de $\mathfrak{B}$.
 
 Si $x$ est adhérent à une base de filtre $\mathfrak{B}$, il est aussi adhérent à toute base de filtre équivalente à $\mathfrak{B}$ en vertu de I, p. 38, corollaire, et en particulier au filtre de base $\mathfrak{B}$.
 
-#### Proposition 3 {#top-i-s7-prop-3 .statement}
+#### Proposition 3 {#top-i-s7-prop-3 .statement tag=0B5F}
 
 Pour qu’un point $x$ soit adhérent à une base de filtre $\mathfrak{B}$, il faut et il suffit que tout ensemble d’un système fondamental de voisinages de $x$ rencontre chacun des ensembles de $\mathfrak{B}$.
 
 Cela résulte immédiatement des définitions.
 
 Cette proposition et le cor. 1 de I, p. 37 montrent que la propriété « $x$ est adhérent au filtre $\mathfrak{F}$ » est équivalente à la propriété « il existe un filtre plus fin que $\mathfrak{F}$ et que le filtre des voisinages de $x$ ». Autrement dit :
-#### Proposition 4 {#top-i-s7-prop-4 .statement}
+#### Proposition 4 {#top-i-s7-prop-4 .statement tag=0B5G}
 
 Pour qu’un point $x$ soit adhérent à un filtre $\mathfrak{F}$, il faut et il suffit qu’il existe un filtre plus fin que $\mathfrak{F}$ et qui converge vers $x$.
 
 En particulier, tout point limite d’un filtre $\mathfrak{F}$ est un point adhérent à $\mathfrak{F}$.
 
-#### Corollaire {#top-i-s7-n2-cor-1 .statement}
+#### Corollaire {#top-i-s7-n2-cor-1 .statement tag=0B5H}
 
 Pour qu’un ultrafiltre $\mathfrak{U}$ soit convergent vers un point $x$, il faut et il suffit que $x$ soit adhérent à $\mathfrak{U}$.
 
@@ -101,23 +101,23 @@ Si $x$ est adhérent à un filtre $\mathfrak{F}$, il est aussi adhérent à tout
 
 L’ensemble des points adhérents à une base de filtre $\mathfrak{B}$ sur $X$ est par définition l’ensemble $\bigcap_{M \in \mathfrak{B}} \overline{M}$; d’où :
 
-#### Proposition 5 {#top-i-s7-prop-5 .statement}
+#### Proposition 5 {#top-i-s7-prop-5 .statement tag=0B5I}
 
 L’ensemble des points adhérents à une base de filtre sur un espace topologique $X$ est fermé dans $X$.
 
-#### Proposition 6 {#top-i-s7-prop-6 .statement}
+#### Proposition 6 {#top-i-s7-prop-6 .statement tag=0B5J}
 
 Soit $\mathfrak{B}$ une base de filtre sur une partie $A$ d’un espace topologique $X$. Tout point adhérent à $\mathfrak{B}$ dans $X$ appartient à $\overline{A}$. Inversement, tout point de $\overline{A}$ est limite dans $X$ d’un filtre sur $A$.
 
 La première assertion est évidente. D’autre part, si $x \in \overline{A}$, la trace sur $A$ du filtre des voisinages de $x$ dans $X$ est un filtre sur $A$ qui converge évidemment vers $x$.
 
-#### Remarque {#top-i-s7-n2-rem-1 .statement}
+#### Remarque {#top-i-s7-n2-rem-1 .statement tag=0B5K}
 
 Un filtre sur un espace topologique n’a pas nécessairement de point adhérent (ni a fortiori de point limite) : par exemple, sur un espace discret infini, le filtre des complémentaires des parties finies n’a pas de point adhérent. Les espaces dans lesquels tout filtre admet un point adhérent jouent un rôle très important en Mathématique ; nous les étudierons au § 9.
 
 ### 3. Valeur limite et valeur d’adhérence d’une fonction
 
-#### Définition 3 {#top-i-s7-def-3 .statement}
+#### Définition 3 {#top-i-s7-def-3 .statement tag=0B5L}
 
 Soit $f$ une application d’un ensemble $X$ dans un espace topologique $Y$, et soit $\mathfrak{F}$ un filtre sur $X$; on dit qu’un point $y \in Y$ est valeur limite (ou simplement limite) de $f$ suivant le filtre $\mathfrak{F}$ si la base de filtre $f(\mathfrak{F})$ converge vers $y$. On dit que $y$ est valeur d’adhérence de $f$ suivant le filtre $\mathfrak{F}$ si $y$ est un point adhérent à la base de filtre $f(\mathfrak{F})$.
 
@@ -125,13 +125,13 @@ La relation « $y$ est limite de $f$ suivant le filtre $\mathfrak{F}$ » s’éc
 
 De la déf. 3 et des prop. 1 (I, p. 46) et 3 (I, p. 47) on déduit les critères suivants :
 
-#### Proposition 7 {#top-i-s7-prop-7 .statement}
+#### Proposition 7 {#top-i-s7-prop-7 .statement tag=0B5M}
 
 Pour que $y \in Y$ soit limite de $f$ suivant le filtre $\mathfrak{F}$, il faut et il suffit que, pour tout voisinage $V$ de $y$ dans $Y$, il existe un ensemble $M \in \mathfrak{F}$ tel que $f(M) \subset V$ (ou encore, que $\overset{-1}{f}(V) \in \mathfrak{F}$ pour tout voisinage $V$ de $y$).
 
 Pour que $y$ soit valeur d’adhérence de $f$ suivant $\mathfrak{F}$, il faut et il suffit que pour tout voisinage $V$ de $y$ et tout ensemble $M \in \mathfrak{F}$, il existe $x \in M$ tel que $f(x) \in V$.
 
-#### Exemple 1 {#top-i-s7-n3-exa-1 .statement}
+#### Exemple 1 {#top-i-s7-n3-exa-1 .statement tag=0B5N}
 
 Une suite de points $(x_n)_{n \in \mathbf{N}}$ d’un espace topologique X est une application $n \mapsto x_n$ de $\mathbf{N}$ dans X. On a souvent à considérer, en Analyse, la notion de valeur limite ou de valeur d’adhérence d’une telle application suivant le filtre de Fréchet (I, p. 36) sur $\mathbf{N}$; si y est limite de $n \mapsto x_n$ suivant le filtre de Fréchet, on dit que y est limite de la suite $(x_n)$ lorsque n croît indéfiniment (ou que $x_n$ tend vers y lorsque n croît indéfiniment) et l’on écrit $\lim_{n \to \infty} x_n = y$. On appelle de même valeur d’adhérence de la suite $(x_n)$ toute valeur d’adhérence de l’application $n \mapsto x_n$ suivant le filtre de Fréchet.
 
@@ -141,7 +141,7 @@ Pour que y soit limite d’une suite $(x_n)$ dans X, il faut et il suffit que, p
 
 Il importe de distinguer soigneusement la notion de valeur d’adhérence d’une suite de celle de point adhérent à l’ensemble des points de la suite ; toute valeur d’adhérence est un point adhérent à l’ensemble des points de la suite, mais la réciproque est inexacte.
 
-#### Exemple 2 {#top-i-s7-n3-exa-2 .statement}
+#### Exemple 2 {#top-i-s7-n3-exa-2 .statement tag=0B5O}
 
 Plus généralement, soit $f$ une application d’un ensemble filtrant $A$ dans un espace topologique $X$. Si $x \in X$ est valeur limite (resp. valeur d’adhérence) de $f$ suivant le filtre des sections de $A$ (I, p. 38), on dit que $x$ est limite (resp. valeur d’adhérence) de $f$ suivant l’ensemble filtrant $A$, et on écrit $x = \lim_{z \in A} f(z)$.
 
@@ -149,7 +149,7 @@ Si $y$ est valeur limite (resp. valeur d’adhérence) d’une application $f : 
 
 De même, si $y$ est limite (resp. valeur d’adhérence) de $f$ suivant le filtre $\mathfrak{F}$, $y$ est encore limite (resp. valeur d’adhérence) de $f$ suivant tout filtre plus fin (resp. moins fin) que $\mathfrak{F}$.
 
-#### Proposition 8 {#top-i-s7-prop-8 .statement}
+#### Proposition 8 {#top-i-s7-prop-8 .statement tag=0B5P}
 
 Soit $f$ une application d’un ensemble $X$ dans un espace topologique $Y$; pour que $y \in Y$ soit valeur d’adhérence de $f$ suivant $\mathfrak{F}$, il faut et il suffit qu’il existe sur $X$ un filtre $\mathfrak{G}$ plus fin que $\mathfrak{F}$ et tel que $y$ soit limite de $f$ suivant $\mathfrak{G}$.
 
@@ -157,7 +157,7 @@ En effet, si $y$ est valeur d’adhérence de $f$ suivant $\mathfrak{F}$, et si 
 
 Notons enfin que si $f$ est une application d’un ensemble $X$ dans un espace topologique $Y$, l’ensemble des valeurs d’adhérence de $f$ suivant un filtre $\mathfrak{F}$ sur $X$ est fermé dans $Y$ (I, p. 47, prop. 5) (et éventuellement vide).
 
-#### Remarque {#top-i-s7-n3-rem-1 .statement}
+#### Remarque {#top-i-s7-n3-rem-1 .statement tag=0B5Q}
 
 Si $y \in Y$ est limite (resp. valeur d’adhérence) d’une application $f : X \to Y$ suivant un filtre $\mathfrak{F}$ sur $X$, $y$ est aussi limite (resp. valeur d’adhérence) de toute fonction $g : X \to Y$ ayant même germe suivant $\mathfrak{F}$ (I, p. 44); on dit aussi que $y$ est limite (resp. valeur d’adhérence) du germe $\tilde{f}$ de $f$ suivant $\mathfrak{F}$.
 
@@ -172,17 +172,17 @@ $$
 et on dit que $y$ est limite de $f$ au point $a$ ou que $f(x)$ tend vers $y$ lorsque $x$ tend vers $a$. De même, au lieu de dire que $y$ est valeur d’adhérence de $f$ suivant $\mathfrak{V}$, on dit que $y$ est valeur d’adhérence de $f$ au point $a$.
 
 Compte tenu de la définition de la continuité (I, p. 8, déf. 1), la prop. 7 de I, p. 48 montre que:
-#### Proposition 9 {#top-i-s7-prop-9 .statement}
+#### Proposition 9 {#top-i-s7-prop-9 .statement tag=0B5R}
 
 *Pour qu’une application f d’un espace topologique X dans un espace topologique Y soit continue en un point a ∈ X, il faut et il suffit que* $\lim_{x \to a} f(x) = f(a)$.
 
-#### Corollaire 1 {#top-i-s7-prop-8-cor-1 .statement}
+#### Corollaire 1 {#top-i-s7-prop-8-cor-1 .statement tag=0E9A}
 
 *Soient X, Y deux espaces topologiques, f une application de X dans Y. Supposons f continue en un point a ∈ X; alors, pour toute base de filtre B sur X qui converge vers a, la base de filtre f(B) converge vers f(a). Inversement, si, pour tout ultrafiltre U sur X qui converge vers a, la base d’ultrafiltre f(U) converge vers f(a), f est continue au point a.*
 
 La première assertion est une conséquence immédiate de la prop. 9. Pour démontrer la seconde, supposons que f ne soit pas continue au point a; il existe alors un voisinage W de f(a) dans Y tel que $f^{-1}(W)$ n’appartienne pas au filtre $\mathfrak{V}$ des voisinages de a dans X. Alors (I, p. 39, prop. 7) il existe un ultrafiltre U plus fin que $\mathfrak{V}$ et ne contenant pas $f^{-1}(W)$, donc contenant son complémentaire $A = X - f^{-1}(W)$ (I, p. 39, prop. 5); comme $f(A) \cap W = \varnothing, f(U)$ ne converge pas vers $f(a)$.
 
-#### Corollaire 2 {#top-i-s7-prop-8-cor-2 .statement}
+#### Corollaire 2 {#top-i-s7-prop-8-cor-2 .statement tag=0E9B}
 
 *Soit g une application d’un ensemble Z dans un espace topologique X, admettant une limite a suivant un filtre $\mathfrak{F}$ sur Z; si l’application f : X → Y est continue au point a, la fonction composée f ∘ g admet la limite f(a) suivant le filtre $\mathfrak{F}$.*
 
@@ -208,21 +208,21 @@ Soit $a$ un point de $X$ non isolé, donc adhérent à $C\{a\}$. Pour qu’une a
 
 ### 6. Limites dans les espaces produits et les espaces quotients
 
-#### Proposition 10 {#top-i-s7-prop-10 .statement}
+#### Proposition 10 {#top-i-s7-prop-10 .statement tag=0B5U}
 
 Soient $X$ un ensemble, $(Y_i)_{i \in I}$ une famille d’espaces topologiques, et pour chaque $i \in I$, soit $f_i$ une application de $X$ dans $Y_i$. On munit $X$ de la topologie $\mathscr{T}$ la moins fine rendant continues les $f_i$. Pour qu’un filtre $\mathfrak{F}$ sur $X$ converge vers $a \in X$, il faut et il suffit que pour tout $i \in I$, la base de filtre $f_i(\mathfrak{F})$ converge vers $f_i(a)$ dans $Y_i$.
 
 La condition est nécessaire puisque les $f_i$ sont continues (I, p. 50, cor. 1). Inversement, supposons-la vérifiée, et soit $V$ un voisinage ouvert de $a$ dans $X$. Par définition de $\mathscr{T}$ (I, p. 12, prop. 4), il existe une partie finie $J$ de $I$ et, pour chaque $i \in J$, une partie ouverte $U_i$ de $Y_i$, telle que $f_i(a) \in U_i$ pour $i \in J$ et que $V$ contienne l’ensemble $\bigcap_{i \in J} f_i^{-1}(U_i)$. L’hypothèse entraîne que $f_i^{-1}(U_i) \in \mathfrak{F}$ (I, p. 48, prop. 7); comme $J$ est fini, $M = \bigcap_{i \in J} f_i^{-1}(U_i)$ appartient à $\mathfrak{F}$, et on a $M \subset V$, ce qui achève la démonstration.
 
-#### Corollaire 1 {#top-i-s7-prop-10-cor-1 .statement}
+#### Corollaire 1 {#top-i-s7-prop-10-cor-1 .statement tag=0B5V}
 
 Pour qu’un filtre $\mathfrak{F}$ sur un espace produit $X = \prod_{i \in I} X_i$ converge vers un point $x$, il faut et il suffit que, pour tout $i \in I$, la base de filtre $\operatorname{pr}_i(\mathfrak{F})$ converge vers $\operatorname{pr}_i x$.
 
-#### Corollaire 2 {#top-i-s7-prop-10-cor-2 .statement}
+#### Corollaire 2 {#top-i-s7-prop-10-cor-2 .statement tag=0B5W}
 
 Soit $f = (f_i)$ une application d’un ensemble $X$ dans un espace produit $Y = \prod_{i \in I} Y_i$. Pour que $f$ ait une limite $y = (y_i)$ suivant un filtre $\mathfrak{F}$ sur $X$, il faut et il suffit que, pour tout $i \in I$, $f_i$ ait pour limite $y_i$ suivant $\mathfrak{F}$.
 
-#### Proposition 11 {#top-i-s7-prop-11 .statement}
+#### Proposition 11 {#top-i-s7-prop-11 .statement tag=0B5X}
 
 Soient $R$ une relation d’équivalence ouverte dans un espace topologique $X$, $\varphi$ l’application canonique $X \to X/R$. Pour tout $x \in X$ et toute base de filtre $\mathfrak{B}'$ sur $X/R$ qui converge vers $\varphi(x)$, il existe une base de filtre $\mathfrak{B}$ sur $X$ qui converge vers $x$ et est telle que $\varphi(\mathfrak{B})$ soit équivalente à $\mathfrak{B}'$.
 

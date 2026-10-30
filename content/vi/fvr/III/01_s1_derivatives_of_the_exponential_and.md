@@ -48,9 +48,9 @@ subsections:
       pdf_page: 117
 statements: 9
 exercises: 39
-content_sha256: 28cbe11b252d71dc8870b701bd4371ba2365ca17ece34aee4ca664f8fc2036bb
+content_sha256: 441163e818af6c660cd19f00905139283f09ed0199fcb7f9f86e1d03d7dbe914
 translated_from: content/en/fvr/III/01_s1_derivatives_of_the_exponential_and.md
-source_content_sha256: 48d4a4374acf58428afbb78f3e9c41e6dac3708ffdd9a6f0048e5d86f02a3b2c
+source_content_sha256: 4ac8e46f4200ac7e7f332753e43fe2ec6dc6c4857b2b82b1a42df8d051c7b1e2
 translation_model: gpt-5.4
 translation_run: translate-vi-bf7718f9
 glossary_version: 34
@@ -66,7 +66,7 @@ Ta biết rằng mọi đồng cấu liên tục của nhóm cộng $\mathbf{R}$
 
 Ta sẽ thấy rằng hàm $f(x) = a^x$ có, với mọi $x \in \mathbf{R}$, một đạo hàm dạng $c.a^x$ (trong đó rõ ràng $c = f'(0)$). Điều này là hệ quả của định lý tổng quát sau:
 
-#### Định lý 1 {#fvr-iii-s1-thm-1 .statement}
+#### Định lý 1 {#fvr-iii-s1-thm-1 .statement tag=089Q}
 
 *Cho E là một đại số chuẩn đầy đủ trên trường $\mathbf{R}$, có một phần tử đơn vị $\mathbf{e}$, và cho $\mathbf{f}$ là một đồng cấu nhóm liên tục của nhóm cộng $\mathbf{R}$ vào nhóm nhân G các phần tử khả nghịch của E. Khi đó ánh xạ $\mathbf{f}$ khả vi tại mọi $x \in \mathbf{R}$, và*
 
@@ -90,7 +90,7 @@ Suy ra $f'(x) = g'(x)b^{-1} = f(x)c$, trong đó $c = (f(a) - e)b^{-1}$, và rõ
 
 Ngược lại, có thể chứng minh, hoặc trực tiếp (III, p. 115, exerc. 1), hoặc bằng lý thuyết các phương trình vi phân tuyến tính (IV, p. 188), rằng mọi ánh xạ khả vi f từ $\mathbf{R}$ vào một đại số chuẩn đầy đủ E, sao cho $f'(x) = f(x)c$ và $f(0) = e$, đều là một đồng cấu của nhóm cộng $\mathbf{R}$ vào nhóm nhân G.
 
-#### Mệnh đề 1 {#fvr-iii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-iii-s1-prop-1 .statement tag=089R}
 
 *Với mọi số $a > 0$ và $\neq 1$ hàm số mũ $a^\lambda$ có tại mọi điểm $x \in \mathbf{R}$ một đạo hàm bằng $(\log_e a)a^\lambda$ trong đó e là một số $> 1$ (độc lập với $a$).*
 
@@ -114,7 +114,7 @@ $$ (3)
 
 Trong §2 (III, p. 105) ta sẽ thấy cách tính các giá trị gần đúng của e tùy ý sát.
 
-#### Định nghĩa 1 {#fvr-iii-s1-def-1 .statement}
+#### Định nghĩa 1 {#fvr-iii-s1-def-1 .statement tag=089S}
 
 *Các lôgarit cơ sở e được gọi là lôgarit Naper (hoặc lôgarit tự nhiên).*
 
@@ -134,7 +134,7 @@ $$
 
 Đặc biệt, với $a > 0$ và $\neq 1$ ta có $D^2(a^x) > 0$ với mọi $x \in \mathbf{R}$, và do đó $a^x$ là *lồi ngặt* trên $\mathbf{R}$ (I, p. 31, hệ quả). Từ đó suy ra mệnh đề sau:
 
-#### Mệnh đề 2 ("bất đẳng thức trung bình nhân") {#fvr-iii-s1-prop-2 .statement}
+#### Mệnh đề 2 ("bất đẳng thức trung bình nhân") {#fvr-iii-s1-prop-2 .statement tag=089T}
 
 *Với mọi số* $z_i > 0$ ($1 \leq i \leq n$) *và các số* $p_i > 0$ *sao cho* $\sum_{i=1}^n p_i = 1$, *ta có*
 $$
@@ -179,7 +179,7 @@ D(x^{\alpha}) = \alpha x^{\alpha-1} \qquad (\alpha \text{ là một số thực 
 $$
 mà đã được chứng minh bằng một phương pháp khác (II, p. 69).
 
-#### Ví dụ {#fvr-iii-s1-n2-exa-1 .statement}
+#### Ví dụ {#fvr-iii-s1-n2-exa-1 .statement tag=089U}
 
 Nếu $u$ là một hàm $\neq 0$ trên một khoảng $I$, và $v$ là một hàm thực tùy ý, thì $\log(|u|^v) = v \cdot \log |u|$, nên nếu $u$ và $v$ khả vi thì
 $$
@@ -190,7 +190,7 @@ $$
 
 Ta đã định nghĩa, trong Tôpô đại cương (*Gen. Top.*, VIII, p. 106), đồng cấu liên tục $x \mapsto \mathbf{e}(x)$ từ nhóm cộng $\mathbf{R}$ lên nhóm nhân $\mathbf{U}$ các số phức có giá trị tuyệt đối bằng 1; đó là một hàm tuần hoàn có chu kỳ chính bằng 1, và $\mathbf{e}\left(\frac{1}{4}\right) = i$. Ta biết (*loc. cit.*) rằng mọi đồng cấu liên tục từ $\mathbf{R}$ lên $\mathbf{U}$ đều có dạng $x \mapsto \mathbf{e}(x/a)$, và ta đặt $\cos_a x = \mathscr{R}(\mathbf{e}(x/a)), \sin_a x = \mathscr{I}(\mathbf{e}(x/a))$ (*các hàm lượng giác*, hay *các hàm tròn*, cơ sở $a$); các hàm sau cùng này là các ánh xạ liên tục từ $\mathbf{R}$ vào $[-1, +1]$ có chu kỳ chính bằng $a$. Ta có $\sin_a(x + a/4) = \cos_a x, \quad \cos_a(x + a/4) = -\sin_a x$, và hàm $\sin_a x$ tăng trên khoảng $[-a/4, a/4]$.
 
-#### Mệnh đề 3 {#fvr-iii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-iii-s1-prop-3 .statement tag=089V}
 
 *Hàm* $\mathbf{e}(x)$ *có đạo hàm bằng* $2\pi i \mathbf{e}(x)$ *tại mọi điểm của* $\mathbf{R}$, *trong đó* $\pi$ *là một hằng số* $> 0$.
 
@@ -327,7 +327,7 @@ $$
 
 Tính chất này thiết lập mối liên hệ giữa $f_0$ và hàm $e^z$, mà hơn nữa còn là hạn chế của $f_0$ lên trục thực; vì lý do đó chúng ta đưa ra định nghĩa sau:
 
-#### Định nghĩa 2 {#fvr-iii-s1-def-2 .statement}
+#### Định nghĩa 2 {#fvr-iii-s1-def-2 .statement tag=089W}
 
 *Đồng cấu* $x + iy \mapsto e^z \mathbf{e}(y/2\pi)$ *từ* $\mathbf{C}$ *lên* $\mathbf{C}^*$ *được gọi là hàm mũ phức; giá trị của nó tại một số phức tùy ý* $z$ *được ký hiệu là* $e^z$ *hoặc* $\exp z$.
 
@@ -368,7 +368,7 @@ $$
 \mathrm{D}(e^{a z}) = a\, e^{a z}.
 $$
 
-#### Nhận xét {#fvr-iii-s1-n6-rem-1 .statement}
+#### Nhận xét {#fvr-iii-s1-n6-rem-1 .statement tag=089X}
 
 Nếu, trong công thức (27), ta hạn chế hàm $e^{a z}$ ($a$ phức) vào trục thực, thì với $x$ thực ta lại thu được
 $$
@@ -387,7 +387,7 @@ e^{(\alpha + i \beta)x} \left[ \frac{x^n}{\alpha + i \beta} - \frac{n x^{n-1}}{(
 $$
 Mặt khác, nhờ các công thức Euler, ta có thể biểu thị mọi lũy thừa nguyên dương của $\cos x$ hoặc của $\sin x$ như một tổ hợp tuyến tính của các hàm mũ $e^{ip x}$ ($p$ là một số nguyên dương hoặc âm). Bởi công thức (28), do đó ta có thể biểu thị một nguyên hàm của một hàm có dạng $x^n e^{\alpha x} (\cos \beta x)' (\sin \gamma x)^s$ như một tổ hợp tuyến tính của các hàm có dạng $x^p e^{\alpha x} \cos \lambda x$ và $x^p e^{\alpha x} \sin \mu x$ và ($n, p, r, s$ là các số nguyên, $\alpha, \beta, \gamma, \lambda, \mu$ thực).
 
-#### Ví dụ {#fvr-iii-s1-n6-exa-1 .statement}
+#### Ví dụ {#fvr-iii-s1-n6-exa-1 .statement tag=089Y}
 
 Ta có
 
@@ -568,7 +568,7 @@ $$
 \operatorname{Arg} \tanh x = \frac{1}{2} \log \frac{1 + x}{1 - x}.
 $$
 
-#### Nhận xét {#fvr-iii-s1-n9-rem-1 .statement}
+#### Nhận xét {#fvr-iii-s1-n9-rem-1 .statement tag=089Z}
 
 Đối với $z$ phức, đôi khi người ta viết
 

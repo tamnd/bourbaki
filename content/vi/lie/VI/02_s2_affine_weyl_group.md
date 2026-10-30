@@ -32,7 +32,7 @@ subsections:
       pdf_page: 204
 statements: 19
 exercises: 5
-content_sha256: 8b2f3acdb1457b98a34a3f0a2248a0964dea6fe6799b520bf8002be245048dd5
+content_sha256: 2ae7f073a8a98396c00ae6af2dcecaf4cdee9c5a4a0b55ddcd6464b257e5533c
 translated_from: content/en/lie/VI/02_s2_affine_weyl_group.md
 source_content_sha256: 1978cc974387bf8b9e781b404ac2914ce724bcabf4fb37f1e7228f474742ca5e
 translation_model: gpt-5.4
@@ -70,11 +70,11 @@ trong đó $s_\alpha$ là phép đối xứng trực giao qua siêu phẳng $L_\
 
 Công thức (1) cho thấy rằng $s_{\alpha,k}$ không phụ thuộc vào lựa chọn tích vô hướng.
 
-#### Định nghĩa 1 {#lie-vi-s2-def-1 .statement}
+#### Định nghĩa 1 {#lie-vi-s2-def-1 .statement tag=0AWZ}
 
 *Nhóm các phép biến đổi afin của E được sinh bởi các phép đối xứng $s_{\alpha,k}$ với $\alpha \in \mathbf{R}$ và $k \in \mathbf{Z}$ được gọi là nhóm Weyl afin của hệ nghiệm R và được ký hiệu bởi $W_a(\mathbf{R})$ (hoặc đơn giản là $W_a$).*
 
-#### Mệnh đề 1 {#lie-vi-s2-prop-1 .statement}
+#### Mệnh đề 1 {#lie-vi-s2-prop-1 .statement tag=0AX0}
 
 *Nhóm $W_a$ là tích nửa trực tiếp của W bởi Q.*
 
@@ -82,7 +82,7 @@ Vì W được sinh bởi các phép đối xứng $s_\alpha$, nó được ch�
 
 Vì W làm cho $Q(\mathbf{R}^\sim)$ ổn định (§ 1, no. 9), nên nhóm G các phép biến đổi afin sinh bởi W và Q là tích nửa trực tiếp của W bởi Q. Theo trên, $G \subseteq W_a$ và $s_{\alpha,k} \in G$ với mọi $\alpha \in \mathbf{R}$ và $k \in \mathbf{Z}$ theo (1). Suy ra $W_a = G$.
 
-#### Mệnh đề 2 {#lie-vi-s2-prop-2 .statement}
+#### Mệnh đề 2 {#lie-vi-s2-prop-2 .statement tag=0AX1}
 
 *Nhóm $W_a$, với tôpô rời rạc, tác động đúng lên E và hoán vị các siêu phẳng $L_{\alpha,k}$ (với $\alpha \in \mathbf{R}$ và $k \in \mathbf{Z}$).*
 
@@ -103,20 +103,20 @@ Cũng chú ý rằng Hệ quả của Định lý 1 của Chương V, § 3, no. 
 
 ### 2. TRỌNG SỐ VÀ TRỌNG SỐ ĐẶC BIỆT
 
-#### Mệnh đề 3 {#lie-vi-s2-prop-3 .statement}
+#### Mệnh đề 3 {#lie-vi-s2-prop-3 .statement tag=0AX2}
 
 Các điểm đặc biệt (Chương V, § 3, no. 10, Định nghĩa 1) của W_a là các trọng số của R'.
 
 Cho x_0 \in E và cho \alpha \in R. Siêu phẳng L song song với Ker \alpha và đi qua x_0 có phương trình \langle \alpha, x \rangle = \langle \alpha, x_0 \rangle. Để bằng một siêu phẳng nào đó L_{\beta,k}, một mặt cần rằng \alpha và \beta tỉ lệ với nhau, và do đó, vì R là rút gọn, rằng \beta = \pm \alpha, và mặt khác cần rằng \langle \alpha, x_0 \rangle là một số nguyên. Ngay lập tức suy ra rằng x_0 là một điểm đặc biệt của W_a khi và chỉ khi \langle \alpha, x_0 \rangle \in \mathbf{Z} với mọi \alpha \in R, nói cách khác, khi và chỉ khi x_0 \in P(R') (§ 1, no. 9).
 
-#### Hệ quả {#lie-vi-s2-n2-cor-1 .statement}
+#### Hệ quả {#lie-vi-s2-n2-cor-1 .statement tag=0AX3}
 
 (i) Nếu \overline{\omega} \in P(R'), tồn tại một ngách C sao cho \overline{\omega} là một đỉnh của \overline{C}.
 (ii) Nếu C là một ngách, \overline{C} \cap Q(R') thu về một điểm duy nhất và đó là một đỉnh của \overline{C}.
 
 Điều này suy ra từ Mệnh đề 3, xét đến Hệ quả của Mệnh đề 11 của Chương V, § 3, no. 10 và Mệnh đề 12 của Chương V, § 3, no. 10.
 
-#### Mệnh đề 4 {#lie-vi-s2-prop-4 .statement}
+#### Mệnh đề 4 {#lie-vi-s2-prop-4 .statement tag=0AX4}
 
 Cho C' là một buồng của R'.
 
@@ -134,7 +134,7 @@ $$
 
 là nghiệm cao nhất của R (§ 1, no. 8), và gọi J là tập hợp các i \in I sao cho n_i = 1.
 
-#### Mệnh đề 5 {#lie-vi-s2-prop-5 .statement}
+#### Mệnh đề 5 {#lie-vi-s2-prop-5 .statement tag=0AX5}
 
 Cho C là ngách được chứa trong C' và chứa 0 trong bao đóng của nó (Mệnh đề 4).
 
@@ -146,7 +146,7 @@ Gọi $D$ là tập hợp các $x \in E$ sao cho $\langle \tilde{\alpha}, x \ran
 
 Bây giờ, cho $\overline{\omega} \in P(R^-)$. Khi đó $\overline{\omega} = \sum_i p_i \overline{\omega}_i$, với $p_i \in \mathbf{Z}$ (§ 1, no. 10), và $\overline{\omega} \in \overline{C'}$ khi và chỉ khi các số nguyên $p_i$ là dương. Nếu $\overline{\omega} \in \overline{C'}$, thì $\overline{\omega} \in \overline{C}$ khi và chỉ khi $\langle \tilde{\alpha}, \overline{\omega} \rangle = \sum_i n_i p_i$ là $\leq 1$, do đó được (ii).
 
-#### Hệ quả {#lie-vi-s2-n2-cor-2 .statement}
+#### Hệ quả {#lie-vi-s2-n2-cor-2 .statement tag=0AX6}
 
 Miền phòng $C$ là một đơn hình mở có các đỉnh là 0 và các $\overline{\omega}_i / n_i, i \in I$.
 
@@ -170,7 +170,7 @@ Bây giờ cho C là một alcôve của E, và gọi $G_C$ là nhóm con gồm 
 
 Giả sử R là bất khả quy, và giữ ký hiệu của Mệnh đề 5 ở no. 2. Đặt $R_0 = R$, và gọi $R_i$ ($i \in I$) là hệ nghiệm sinh bởi các $a_j$, với $j \neq i$. Với $i = 0$ (resp. $i \in I$), gọi $w_i$ là phần tử duy nhất của $W(R_i)$ (đồng nhất với một nhóm con của W) biến các nghiệm dương của $R_i$ đối với cơ sở $(\alpha_j)_{j \neq i}$ thành các nghiệm âm ($\S$ 1, no. 6, Hệ quả 3 của Mệnh đề 17).
 
-#### Mệnh đề 6 {#lie-vi-s2-prop-6 .statement}
+#### Mệnh đề 6 {#lie-vi-s2-prop-6 .statement tag=0AX7}
 
 *Với mọi $i \in J$, phần tử $\gamma_i = t(\overline{\omega}_i)w_iw_0$ thuộc $\Gamma_C$ và ánh xạ $i \mapsto \gamma_i$ là một song ánh từ J lên $\Gamma_C - \{1\}$.*
 
@@ -195,29 +195,29 @@ $$
 $$
 vì $w_0(a) \in -C'$ và $w_i(\tilde{\alpha})$ là một nghiệm dương. Khi đó các hệ thức (2), (3) và (4) suy ra rằng $b \in C$, và do đó $\gamma_i \in \Gamma_C$. Rõ ràng ánh xạ $i \mapsto \gamma_i$ là *đơn ánh*, vì $\gamma_i(0) = \overline{\omega}_i$. Cuối cùng, cho $\gamma \in \Gamma_C$ với $\gamma \neq 1$, và đặt $\gamma = tw$ với $t \in P$ và $w \in W$. Khi đó $t \neq 1$ vì $\Gamma_C \cap W = \{1\}$. Mặt khác, $t(0) = \gamma(0) \in \overline{C} \cap P(R^-)$ và Mệnh đề 5 suy ra rằng tồn tại $i \in J$ sao cho $t(0) = \overline{\omega}_i$. Khi đó $\gamma_i^{-1}\gamma(0) = 0$, nên $\gamma = \gamma_i$ vì $\Gamma_C \cap W = \{1\}$. Điều này kết thúc chứng minh.
 
-#### Hệ quả {#lie-vi-s2-n3-cor-1 .statement}
+#### Hệ quả {#lie-vi-s2-n3-cor-1 .statement tag=0AX8}
 
 *Các $(\overline{\omega}_i)_{i \in J}$ tạo thành một hệ đại diện trong $P(R^-)$ của các phần tử khác không của $P(R^-)/Q(R^-)$.*
 
 Thật vậy, nếu ta đồng nhất $\Gamma_c$ với $P(R^-)/Q(R^-)$, thì phần tử $\gamma_i$ được đồng nhất với lớp của $\overline{\omega}_i$ mod. $Q(R^-)$.
 
-#### Nhận xét 1 {#lie-vi-s2-n3-rem-1 .statement}
+#### Nhận xét 1 {#lie-vi-s2-n3-rem-1 .statement tag=0AX9}
 
 Ánh xạ $\gamma \mapsto \gamma(0)$ là một song ánh từ $\Gamma_C$ lên $\overline{C} \cap P(R^-)$.
 
-#### Nhận xét 2 {#lie-vi-s2-n3-rem-2 .statement}
+#### Nhận xét 2 {#lie-vi-s2-n3-rem-2 .statement tag=0AXA}
 
 Nhóm $G$ cũng là chuẩn hoá tử của $W_a$ trong nhóm các tự đẳng cấu của $E$ khi chỉ xét cấu trúc afin của nó (xem Bài tập 3).
 
 ### 4. ỨNG DỤNG: CẤP CỦA NHÓM WEYL
 
-#### Bổ đề 1 {#lie-vi-s2-lem-1 .statement}
+#### Bổ đề 1 {#lie-vi-s2-lem-1 .statement tag=0AXB}
 
 Cho $X$ là một không gian địa phương compact đếm được ở vô cùng, $G$ là một nhóm tác động liên tục và đúng trên $X$, $\mu$ là một độ đo trên $X$ bất biến dưới $G$, $G'$ là một nhóm con của $G$, $U$ và $U'$ là hai tập con mở của $X$ có độ đo hữu hạn khác không. Giả sử rằng các $sU$ với $s \in G$ (tương ứng, các $s'U'$ với $s' \in G'$) đôi một rời nhau và hợp của chúng có phần bù không đáng kể. Khi đó $G'$ có chỉ số hữu hạn trong $G$ và $(G : G') = \mu(U')/\mu(U)$.
 
 Cho $(s_\lambda)_{\lambda \in \Lambda}$ là một họ các đại diện của các lớp kề phải của $G'$ trong $G$. Gọi $U_1$ là hợp của các $s_\lambda U$. Khi đó các $s'U_1$, với $s' \in G'$, rời nhau từng đôi một và có hợp là $M = \bigcup_{s \in G} sU$. Đặt $M' = \bigcup_{s' \in G'} s'U'$. Hợp của $U'$ (tương ứng $U_1$) với một tập con thích hợp của $X - M'$ (tương ứng $X - M$) là một miền cơ bản, hiển nhiên $\mu$-đo được, đối với $G'$. Theo Tích phân, Chương VII, § 2, no. 10, Hệ quả của Định lý 4, $\mu(U') = \mu(U_1)$. Điều này chứng tỏ rằng Card $\Lambda = (G : G')$ là hữu hạn, và $\mu(U') = (\text{Card } \Lambda)\mu(U)$.
 
-#### Mệnh đề 7 {#lie-vi-s2-prop-7 .statement}
+#### Mệnh đề 7 {#lie-vi-s2-prop-7 .statement tag=0AXC}
 
 Giả sử $R$ là bất khả quy. Cho $B = \{ \alpha_1, \ldots, \alpha_l \}$ là một cơ sở của $R$, $f$ là chỉ số liên thông của $R$ (§ 1, no. 9) và $\tilde{\alpha} = n_1 \alpha_1 + \cdots + n_l \alpha_l$ là nghiệm cao nhất của $R$ (đối với thứ tự được xác định bởi $B$). Khi đó cấp của $W$ bằng
 $$
@@ -247,7 +247,7 @@ Mệnh đề nay suy ra bằng cách so sánh các công thức (5), (6) và (7)
 
 ### 5. HỆ NGHIỆM VÀ NHÓM SINH BỞI CÁC PHÉP PHẢN XẠ
 
-#### Mệnh đề 8 {#lie-vi-s2-prop-8 .statement}
+#### Mệnh đề 8 {#lie-vi-s2-prop-8 .statement tag=0AXD}
 
 Cho F là một không gian Hilbert thực có số chiều hữu hạn l. Gọi $\mathfrak{H}$ là tập hợp các siêu phẳng afin của F và G là nhóm sinh bởi các phép phản xạ trực giao $s_H$ đối với các siêu phẳng $H \in \mathfrak{H}$. Giả sử rằng các điều kiện của Ch. V, § 3 được thỏa mãn (tức là $g(H) \in \mathfrak{H}$ với mọi $H \in \mathfrak{H}$ và $g \in G$, và rằng G tác động một cách proper trên F). Cũng giả sử rằng 0 là một điểm đặc biệt đối với G và nhóm T các phép tịnh tiến thuộc G có hạng l. Khi đó tồn tại một hệ căn rút gọn R duy nhất trong $V = F^*$ sao cho đẳng cấu chính tắc từ F lên $V^*$ biến G thành nhóm Weyl afin $W_a$ của R.
 
@@ -305,13 +305,13 @@ vì phép tịnh tiến $t(\alpha^\sim)$ theo vectơ $\alpha^\sim$ là tích $s_
 
 d) Cuối cùng, hiển nhiên là R là giảm được, vì nếu $H, H' \in \mathscr{H}_0, H \neq H'$, thì các dạng tuyến tính $\alpha_H$ và $\alpha_{H'}$ không tỉ lệ.
 
-#### Nhận xét 1 {#lie-vi-s2-n5-rem-1 .statement}
+#### Nhận xét 1 {#lie-vi-s2-n5-rem-1 .statement tag=0AXE}
 
 Giả thiết rằng T có hạng l được thỏa mãn đặc biệt khi G là bất khả quy và vô hạn. Thật vậy, không gian vectơ sinh bởi các vectơ tương ứng với các phép tịnh tiến trong T là bất biến dưới ảnh chính tắc của G trong nhóm tuyến tính của F. Nó khác $\{0\}$ nếu G vô hạn, và do đó bằng toàn thể F nếu G vô hạn và bất khả quy.
 
 Một nhóm hữu hạn sinh bởi các phản xạ không phải lúc nào cũng là nhóm Weyl của một hệ nghiệm. Chính xác hơn:
 
-#### Mệnh đề 9 {#lie-vi-s2-prop-9 .statement}
+#### Mệnh đề 9 {#lie-vi-s2-prop-9 .statement tag=0AXF}
 
 Cho V là một không gian vectơ thực có số chiều hữu hạn l, và G là một nhóm con hữu hạn của $\mathbf{GL}(V)$, sinh bởi các phản xạ và cốt yếu. Trang bị cho V một tích vô hướng bất biến dưới G. Các điều kiện sau là tương đương:
 
@@ -327,11 +327,11 @@ Cho V là một không gian vectơ thực có số chiều hữu hạn l, và G 
 
 (i) $\Longrightarrow$ (iv): giả sử rằng G để ổn định một nhóm con rời rạc M của V, hạng l. Với mọi phép đối xứng $s \in G$, ta có $s(x) - x \in M$ với mọi $x \in M$, nên đường thẳng $D_s$ trực giao với $H_s$ cắt M; gọi $\alpha_s, -\alpha_s$ là các phần tử sinh của nhóm cyclic $D_s \cap M$; tập hợp A của các $\alpha_s$ và $-\alpha_s$ là ổn định dưới tác dụng của G, do đó sinh ra một nhóm con $M'$ của M ổn định dưới tác dụng của G; nhóm rời rạc $M'$ có hạng l vì G là cốt yếu. Gọi $G'$ là nhóm các phép biến đổi afin của V là tích nửa trực tiếp của G và nhóm các phép tịnh tiến có vectơ thuộc $M'$. Gọi $G'_1$ là nhóm con của $G'$ được sinh bởi các phép đối xứng của $G'$. Ta sẽ chỉ ra rằng $G'_1 = G'$, điều này sẽ hoàn tất chứng minh. Trước hết, $G'_1 \supseteq G$ vì G được sinh bởi các phép đối xứng. Mặt khác, với mọi phép đối xứng s của G, gọi $t_s$ là phép tịnh tiến có vectơ $\alpha_s$. Phép biến đổi $s \circ t_s$ là một phép đối xứng, và $s \circ t_s \in G'$; do đó $t_s$ là một tích của hai phép đối xứng của $G'$; điều này đúng với mọi phép đối xứng s của G, nên các phép tịnh tiến có vectơ thuộc $M'$ đều nằm trong $G'_1$.
 
-#### Định nghĩa 2 {#lie-vi-s2-def-2 .statement}
+#### Định nghĩa 2 {#lie-vi-s2-def-2 .statement tag=0AXG}
 
 Một nhóm G thỏa mãn các điều kiện tương đương của Mệnh đề 9 được gọi là một nhóm tinh thể.
 
-#### Nhận xét 2 {#lie-vi-s2-n5-rem-2 .statement}
+#### Nhận xét 2 {#lie-vi-s2-n5-rem-2 .statement tag=0AXH}
 
 Cho G là một nhóm hữu hạn sinh bởi các phép phản xạ và cốt yếu. Khi đó G là tinh thể nếu và chỉ nếu mọi phần tử của ma trận Coxeter của nó là một trong các số nguyên $1, 2, 3, 4, 6$. Thật vậy, điều kiện này là cần thiết theo *Nhận xét 3*) của § 1, no. 5. Việc nó là đủ sẽ suy ra từ phân loại các nhóm Coxeter hữu hạn được cho trong § 4 (để có một chứng minh trực tiếp, xem Chương V, § 4, Bài tập 6).
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 110
 statements: 9
 exercises: 5
-content_sha256: bc1873021864b2343367c3ab8d0df23970959e92caf74159ab24e9f10cf32bae
+content_sha256: e5059e22ac4891308f9c35de29452c98d7b526ede462c73990757938a2903d64
 ---
 
 ## 1. COMPLEX NUMBERS, QUATERNIONS
@@ -37,13 +37,13 @@ content_sha256: bc1873021864b2343367c3ab8d0df23970959e92caf74159ab24e9f10cf32bae
 
 The polynomial $X^2 + 1$ has no root in $\mathbf{R}$, because $x^2 + 1 \geq 1$ for all $x \in \mathbf{R}$; it is therefore irreducible over $\mathbf{R}$. [This is a particular case of the analogous result which applies to any ordered field.]
 
-#### Definition 1 {#top-viii-s1-def-1 .statement}
+#### Definition 1 {#top-viii-s1-def-1 .statement tag=0BZV}
 
 *The field* $\mathbf{R}[X]/(X^2 + 1)$ *is called the field of complex numbers and is denoted by* $\mathbf{C}$. *The canonical image of* $X$ *in* $\mathbf{C}$ *is denoted by* $i$, *so that* $\mathbf{C}$ *is obtained from the field* $\mathbf{R}$ *by algebraic adjunction of the root* $i$ *of the polynomial* $X^2 + 1$. *The elements of* $\mathbf{C}$ *are called complex numbers*.
 
 From an algebraic point of view the importance of the field $\mathbf{C}$ is due to the following fundamental theorem:
 
-#### Theorem 1 {#top-viii-s1-thm-1 .statement}
+#### Theorem 1 {#top-viii-s1-thm-1 .statement tag=0BZW}
 
 (d'Alembert-Gauss). *The field* $\mathbf{C}$ *of complex numbers is algebraically closed*.
 
@@ -57,11 +57,11 @@ tends to $+1$ as $x$ tends to $+\infty$ or $-\infty$. Hence there is a number $a
 
 and so by Bolzano’s theorem (Chapter IV, § 6, no. 1, Theorem 2), $f$ has at least one root in $[—a, a]$.
 
-#### Remark 1 {#top-viii-s1-n1-rem-1 .statement}
+#### Remark 1 {#top-viii-s1-n1-rem-1 .statement tag=0BZX}
 
 Theorem 1 can be proved without invoking the theory of ordered fields by using properties of the topology of the field $\mathbf{C}$, which will be defined below (no. 2); see § 2, Exercise 2 and also the part of this series devoted to algebraic topology, where the theorem of d’Alembert-Gauss will appear as a consequence of results on the degree of a mapping.
 
-#### Remark 2 {#top-viii-s1-n1-rem-2 .statement}
+#### Remark 2 {#top-viii-s1-n1-rem-2 .statement tag=0BZY}
 
 Since $\mathbf{C}$ is of degree 2 over $\mathbf{R}$, it follows that $\mathbf{C}$ is, up to isomorphism, the only algebraic extension of $\mathbf{R}$ other than $\mathbf{R}$ itself, and that there is no field contained in $\mathbf{C}$ which contains $\mathbf{R}$, other than $\mathbf{R}$ and $\mathbf{C}$.
 
@@ -133,7 +133,7 @@ $$
 
 We know from Chapter III, § 6, no. 7 that the topology induced on the multiplicative group $\mathbf{C}^*$ of non-zero complex numbers is compatible with the group structure of $\mathbf{C}^*$. Since $\mathbf{C}^*$ is open in $\mathbf{C}$, it follows that $\mathbf{C}^*$ is a locally compact topological group (Chapter I, § 9, no. 7, Proposition 13) and therefore complete (with respect to the multiplicative uniformity; cf. Chapter III, § 6, no. 8, Proposition 8). The multiplicative group $\mathbf{R}_+^*$ of real numbers $> 0$ is a closed subgroup of $\mathbf{C}^*$. Another subgroup is the set $\mathbf{U}$ of complex numbers of absolute value 1, which is identified with the unit circle $S_1$ of $\mathbf{R}^2$, and is therefore a compact group. Moreover:
 
-#### Proposition 1 {#top-viii-s1-prop-1 .statement}
+#### Proposition 1 {#top-viii-s1-prop-1 .statement tag=0BZZ}
 
 *The topological group $\mathbf{C}^*$ is isomorphic to the product of the topological groups $\mathbf{R}^*$ and $\mathbf{U}$.*
 
@@ -170,21 +170,21 @@ $$
 
 it follows that the set of all quaternions of norm 1, which is identical with the sphere $S_3$, forms a compact subgroup of the multiplicative group $\mathbf{H}^*$ of non-zero quaternions.
 
-#### Proposition 2 {#top-viii-s1-prop-2 .statement}
+#### Proposition 2 {#top-viii-s1-prop-2 .statement tag=0C00}
 
 The multiplicative group $\mathbf{H}^*$ of non-zero quaternions is a topological group isomorphic to the product of its subgroups $\mathbf{R}_+^*$ and $S_3$.
 
 Every quaternion $x / o$ can be written as $x \cdot z$ where $z$ is a quaternion with norm 1; since $\|xx'\| = \|x\|\cdot\|x'\|$, the mapping $x \to (\|x\|, x_1, x_2)$ of $H^*$ onto $\mathbf{R}_+^* \times S_2$ is an isomorphism of the group structures, and from Chapter VI, § 2, no. 2, Proposition 2, it is a homomorphism of $H^*$ onto $\mathbf{R}_+^* \times S_2$.
 
-#### Remark 1 {#top-viii-s1-n4-rem-1 .statement}
+#### Remark 1 {#top-viii-s1-n4-rem-1 .statement tag=0C01}
 
 With the use of the relations $\|x + y\| = \|x\| + \|y\|$ and $\|xy\| = \|x\|\cdot\|y\|$ it can be proved directly, as with the field of complex numbers in no. 2, that the topology of $\mathbf{R}^4$ is compatible with the division ring structure of $H$ (cf. Chapter IX, § 3, no. 2).
 
-#### Remark 2 {#top-viii-s1-n4-rem-2 .statement}
+#### Remark 2 {#top-viii-s1-n4-rem-2 .statement tag=0C02}
 
 From what has been proved it follows that the spheres $S_1$ and $S_n$ can carry a group structure compatible with their topology. We shall see later that, for each integer $n$ other than 1 and 3, there exists no group structure on $S_n$ compatible with the topology of $S_n$.
 
-#### Remark 3 {#top-viii-s1-n4-rem-3 .statement}
+#### Remark 3 {#top-viii-s1-n4-rem-3 .statement tag=0C03}
 
 Every point of the group $S_2$ has a neighbourhood homeomorphic to $\mathbf{R}^3$ (Chapter VI, § 2, no. 4, Proposition 5) but $S_4$ is not locally isomorphic to $\mathbf{R}^3$; for if it were it would be abelian, since it is connected (Chapter VII, § 2, no. 2, Theorem 1), and this is not the case, since $i$ and $j$ belong to $S_3$ and $ij \neq ji$ (cf. Chapter V, § 3).
 

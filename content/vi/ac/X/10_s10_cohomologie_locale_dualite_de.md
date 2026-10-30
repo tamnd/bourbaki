@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: 093a5a4a4461d87015f2c0960ab755071c4b82fe142e88519ecd2e5a478253a6
+content_sha256: 0e2207041ba5c4831af94e68d84ea30505cd2b179dc50d000723041bdce6da11
 translated_from: content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md
 source_lang: en-mt
 translation_method: machine
@@ -46,7 +46,7 @@ Cho $M$ là một $A$-môđun. Với mỗi iđêan định nghĩa $a$ của $A$,
 
 Các iđêan $m_A^n$ với $n \geq 1$ tạo thành một tập con đồng tận của $\mathscr{D}$; do đó có một đẳng cấu chính tắc của các môđun phân bậc $\varprojlim_n \mathrm{Ext}_A(A/m_A^n, M) \longrightarrow H_A(M)$. Suy ra rằng mọi phần tử của $H_A(M)$ đều bị triệt tiêu bởi một lũy thừa của $m_A$.
 
-#### Nhận xét 1 {#ac-x-s10-n1-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s10-n1-rem-1 .statement tag=0DCM}
 
 Cho $X$ là không gian tôpô $\mathrm{Spec}(A)$, $\mathscr{O}_X$ bó cấu trúc các vành và $\widetilde{M}$ môđun $\mathscr{O}_X$ liên kết với $M$. A-môđun phân bậc $H_A(M)$ được đồng nhất với môđun $H_{\{m_A\}}(X, \widetilde{M})$ của đối đồng điều có giá trong điểm đóng $m_A$ của $X$.
 
@@ -68,19 +68,19 @@ là khớp.
 
 Cho M là một A-môđun. Với mọi iđêan $\alpha$ của A, A-môđun $\mathrm{Hom}_A(A/\alpha, M)$ được đồng nhất một cách chính tắc với môđun con của M gồm các phần tử bị triệt tiêu bởi $\alpha$. Do đó $H_A^0(M)$ được đồng nhất với môđun con của M gồm các phần tử $m$ bị triệt tiêu bởi một lũy thừa của $\mathfrak{m}_A$, nghĩa là sao cho $\mathrm{long}_A(Am) < +\infty$. Đặc biệt có $H_A^0(M) = M$ khi M là Artin.
 
-#### Ví dụ 1 {#ac-x-s10-n1-exa-1 .statement}
+#### Ví dụ 1 {#ac-x-s10-n1-exa-1 .statement tag=0DCN}
 
 Nếu M là nội xạ, A-môđun $H_A^i(M)$ bằng không với $i > 0$ và nội xạ với $i = 0$ (§ 8, No. 2, bổ đề 1, c)).
 
-#### Ví dụ 2 {#ac-x-s10-n1-exa-2 .statement}
+#### Ví dụ 2 {#ac-x-s10-n1-exa-2 .statement tag=0DCO}
 
 Nếu $H_A^0(M) = M$ (chẳng hạn nếu M là Artin), thì $H_A^i(M)$ bằng không với $i > 0$. Thật vậy, gọi (I, e) là một bao nội xạ của M. Môđun con $H_A^0(I)$ của I là nội xạ (ví dụ 1) và chứa $e(M)$, nên bằng I. Đặt $N = \mathrm{Coker}\,e$ và xét dãy khớp $0 \to M \xrightarrow{e} I \xrightarrow{p} N \to 0$. Vì $I = H_A^0(I)$, nên có $N = H_A^0(N)$ và đồng cấu $H_A^0(p)$ là toàn ánh. Vì $H_A^i(I)$ bằng không với $i > 0$ (ví dụ 1), $H_A^1(M)$ bằng không và $H_A^i(M)$ đẳng cấu với $H_A^{i-1}(N)$ với $i > 1$; kết luận bằng lập luận quy nạp theo số nguyên $i$.
 
-#### Ví dụ 3 {#ac-x-s10-n1-exa-3 .statement}
+#### Ví dụ 3 {#ac-x-s10-n1-exa-3 .statement tag=0DCP}
 
 Cho $\Omega$ là một A-môđun đối ngẫu hóa. Với $i \neq \dim(A)$, có $\mathrm{Ext}_A^i(A/\alpha, \Omega) = 0$ với mọi iđêan định nghĩa $\alpha$ của A (§ 8, No. 5, ví dụ 3), do đó $H_A^i(\Omega) = 0$; với $i = \dim(A)$, A-môđun $H_A^i(\Omega)$, đẳng cấu với $\varprojlim \mathrm{Ext}_A^i(A/\mathfrak{m}_A^n, \Omega)$, là một môđun Matlis (*loc. cit.*, ví dụ 6).
 
-#### Ví dụ 4 {#ac-x-s10-n1-exa-4 .statement}
+#### Ví dụ 4 {#ac-x-s10-n1-exa-4 .statement tag=0DCQ}
 
 Cho A là một vành địa phương nguyên Noether; gọi K là trường phân thức của nó, và giả sử rằng $A \neq K$. Nó là một A-môđun nội xạ (A, X, p. 18, ví dụ 1), nên môđun $H_A(K)$ bằng không (ví dụ 1). Từ dãy khớp $0 \to A \to K \to K/A \to 0$, ta thu được với mọi $i$ một đẳng cấu $H_A^i(K/A) \to H_A^{i+1}(A)$.
 
@@ -92,7 +92,7 @@ $$
 
 ta suy ra một đẳng cấu $H_A^i((K/A) \otimes_A M) \to H_A^{i+1}(M)$.
 
-#### Ví dụ 5 {#ac-x-s10-n1-exa-5 .statement}
+#### Ví dụ 5 {#ac-x-s10-n1-exa-5 .statement tag=0DCR}
 
 Giữ các giả thiết của ví dụ trước và giả sử thêm rằng $\dim(A) = 1$. Cho N là một A-môđun xoắn; vì mọi iđêan khác không của A phân biệt với A đều là một iđêan định nghĩa (VIII, § 1, No. 3, mệnh đề 6, e)), nên có $H_A^0(N) = N$, và do đó $H_A^i(N) = 0$ với $i > 0$ (ví dụ 2).
 
@@ -108,7 +108,7 @@ $$
 H_A^0(M) \to T(M) , \qquad H_A^1(M) \to (K/A) \otimes_A M .
 $$
 
-#### Mệnh đề 1 {#ac-x-s10-prop-1 .statement}
+#### Mệnh đề 1 {#ac-x-s10-prop-1 .statement tag=0DCS}
 
 Cho $A$ là một vành địa phương Noether và $M$ là một $A$-môđun sinh hữu hạn.
 
@@ -142,11 +142,11 @@ Ta có $\operatorname{prof}(M/xM) = \operatorname{prof}(M) - 1$ (§ 1, No. 4, pr
 
 Có thể chứng minh rằng môđun $H_A^{\dim(M)}(M)$ khác không khi $M$ khác không (bài tập 4; xem No. 3, hệ quả của định lý 2).
 
-#### Hệ quả {#ac-x-s10-n1-cor-1 .statement}
+#### Hệ quả {#ac-x-s10-n1-cor-1 .statement tag=0DCT}
 
 **Cho $M$ là một $A$-môđun Macaulay khác không, kiểu hữu hạn. $A$-môđun $H_A^i(M)$ bằng không với $i \neq \dim(M)$ và khác không với $i = \dim(M)$.**
 
-#### Nhận xét 2 {#ac-x-s10-n1-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s10-n1-rem-2 .statement tag=0DCU}
 
 Với mọi iđêan định nghĩa $\alpha$ của $A$, $A$-môđun $\mathrm{Ext}_A(A/\alpha, M)$ bị triệt tiêu bởi $\alpha$, và $A/\alpha$ được đồng nhất với $\widehat{A}/\alpha \widehat{A}$; do đó, $A$-môđun phân bậc $\mathrm{Ext}_A(A/\alpha, M)$ được đồng nhất với $\widehat{A} \otimes_A \mathrm{Ext}_A(A/\alpha, M)$, vì thế cũng với $\mathrm{Ext}_{\widehat{A}}(\widehat{A}/\alpha \widehat{A}, \widehat{A} \otimes_A M)$ (A, X, p. 111, prop. 10). Tập hợp các iđêan $\alpha \widehat{A}$, với $\alpha \in \mathscr{D}$, chứa các lũy thừa của $m_{\widehat{A}}$, nên là đồng cuối trong tập hợp các iđêan định nghĩa của $\widehat{A}$; do đó từ những điều trên ta suy ra một đẳng cấu chính tắc của các $A$-môđun phân bậc
 
@@ -215,7 +215,7 @@ $$
 
 Với $M = A$, $\tau^d(A)$ là đẳng cấu chính tắc từ $A \otimes_A H_A^d(A)$ lên $H_A^d(A)$.
 
-#### Nhận xét 1 {#ac-x-s10-n2-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s10-n2-rem-1 .statement tag=0DCV}
 
 Cho $f : M \to N$ là một đồng cấu của các a-môđun. Dùng A, X, p. 103, mệnh đề 2, ta chứng minh được rằng các biểu đồ sau là giao hoán:
 
@@ -227,7 +227,7 @@ $$
 \end{array}
 $$
 
-#### Nhận xét 2 {#ac-x-s10-n2-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s10-n2-rem-2 .statement tag=0DCW}
 
 Cho
 $$
@@ -243,7 +243,7 @@ $$
 \end{array}
 $$
 
-#### Nhận xét 3 {#ac-x-s10-n2-rem-3 .statement}
+#### Nhận xét 3 {#ac-x-s10-n2-rem-3 .statement tag=0DCX}
 
 Xét đẳng cấu
 $$
@@ -261,7 +261,7 @@ Ta vẫn giả sử rằng A là một vành Macaulay địa phương, có chi�
 
 Xét đẳng cấu $\tau^d(\Omega) : \Omega \otimes H_A^d(A) \to H_A^d(\Omega)$ (No. 2). Từ đó suy ra một đồng cấu $\omega : H_A^d(A) \to \mathrm{Hom}_A(\Omega, H_A^d(\Omega))$ gán cho một phần tử $u$ của $H_A^d(A)$ đồng cấu $x \mapsto H_A^d(f_x)(u)$ (nhận xét 3 ở trên).
 
-#### Mệnh đề 2 {#ac-x-s10-prop-2 .statement}
+#### Mệnh đề 2 {#ac-x-s10-prop-2 .statement tag=0DCY}
 
 *Cho A là một vành Macaulay địa phương, có chiều d*, và cho $\Omega$ *là một A-môđun đối ngẫu hóa*. *Đồng cấu* $\omega : H_A^d(A) \to D(\Omega)$ *là song ánh*.
 
@@ -290,7 +290,7 @@ trong đó $f_x$ là đồng cấu suy ra từ $f_x$ bằng cách chuyển qua c
 
 Hãy đồng nhất song đối ngẫu Matlis $D(D(\Omega))$ với $\widehat{\Omega}$ bởi đẳng cấu $\widehat{\alpha}_\Omega$ (§ 8, No. 3, định lý 2, b)).
 
-#### Hệ quả {#ac-x-s10-n3-cor-1 .statement}
+#### Hệ quả {#ac-x-s10-n3-cor-1 .statement tag=0DCZ}
 
 *Đồng cấu* $D(\omega) : \widehat{\Omega} \to D(H^d_A(A))$ *là một đẳng cấu*.
 
@@ -312,7 +312,7 @@ $$
 \delta^i(M) : \mathrm{Ext}_A^{d-i}(M, \widehat{\Omega}) \longrightarrow D(H^i_A(M)) .
 $$
 
-#### Định lý 1 (Grothendieck Duality) {#ac-x-s10-thm-1 .statement}
+#### Định lý 1 (Grothendieck Duality) {#ac-x-s10-thm-1 .statement tag=0DD0}
 
 Cho $A$ là một vành Macaulay địa phương, có chiều $d$, và $\Omega$ là một $A$-môđun đối ngẫu hóa.
 
@@ -332,17 +332,17 @@ là một đẳng cấu của các $\widehat{A}$-môđun.
 
 Điều này suy ra từ mệnh đề 6 của § 8, No. 7.
 
-#### Hệ quả {#ac-x-s10-n3-cor-2 .statement}
+#### Hệ quả {#ac-x-s10-n3-cor-2 .statement tag=0DD1}
 
 Cho $A$ là một vành Macaulay địa phương, và $M$ là một $A$-môđun sinh hữu hạn khác không, có chiều $e$. $A$-môđun $H_A^e(M)$ khác không.
 
 Theo Nhận xét 2 của No. 1, có thể giả sử rằng vành địa phương $A$ là đầy đủ. Trong trường hợp này $A$ có một môđun đối ngẫu hóa $\Omega$ ($§ 9$, No. 3, Hệ quả 3 của Mệnh đề 6); nếu $H_A^e(M)$ bằng không thì điều tương tự cũng đúng với đối ngẫu Matlis của nó $\mathrm{Ext}_A^{d-e}(M, \Omega)$, điều này mâu thuẫn với Mệnh đề 3, b) của $§ 9$, No. 1.
 
-#### Nhận xét 1 {#ac-x-s10-n3-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s10-n3-rem-1 .statement tag=0DD2}
 
 Khi A-môđun $M$ là sinh hữu hạn, $\widehat{A}$-môđun $\mathrm{Ext}_A^{d-i}(M, \widehat{\Omega})$ được đồng nhất với $\widehat{A} \otimes_A \mathrm{Ext}_A^{d-i}(M, \Omega)$ ($A$, X, p. 108, Mệnh đề 7, c)), và $\delta^i(M)$ cũng có thể thu được bằng cách hợp thành $D(\gamma^i(M))$ với đẳng cấu song đối ngẫu.
 
-#### Nhận xét 2 {#ac-x-s10-n3-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s10-n3-rem-2 .statement tag=0DD3}
 
 Cho $u : M \to M'$ là một đồng cấu của các A-môđun. Theo Nhận xét 1 của No. 2 và Nhận xét của $§ 8$, No. 7, các biểu đồ sau là giao hoán:
 
@@ -362,7 +362,7 @@ $$
 \end{array}
 $$
 
-#### Nhận xét 3 {#ac-x-s10-n3-rem-3 .statement}
+#### Nhận xét 3 {#ac-x-s10-n3-rem-3 .statement tag=0DD4}
 
 Cho
 
@@ -387,7 +387,7 @@ $$
 \end{array}
 $$
 
-#### Ví dụ {#ac-x-s10-n3-exa-1 .statement}
+#### Ví dụ {#ac-x-s10-n3-exa-1 .statement tag=0DD5}
 
 Cho $A$ là một vành địa phương Noether nguyên có chiều 1; gọi $K$ là trường phân thức của nó. Cho $\Omega$ là một A-môđun đối ngẫu hóa, và cho $M$ là một A-môđun sinh hữu hạn. Các A-môđun $H_A^0(M)$ và $H_A^1(M)$ được đồng nhất một cách chính tắc với $T(M)$ và $(K/A) \otimes_A M$ (No. 1, Ví dụ 5). Với các sự đồng nhất này, các đẳng cấu đối ngẫu
 

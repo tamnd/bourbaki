@@ -34,9 +34,9 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 33ce52bd84cfdc18dcb947dc09faf1f47114ff8f3efb5fb604e861b3abae30bc
+content_sha256: c42c10890f3bd47333af9b5e16355c9181117ecd514d0b73d2e64ff19c86feb3
 translated_from: content/en/ens/III/04_s4_natural_integers_finite_sets.md
-source_content_sha256: b6197df9a8aa019ce7bbd53439ae89b52be171c24e2b80a5ca96af38b9e1b237
+source_content_sha256: b07b7ce28c5ec4cebf51e51a369145ff5f0d99cab971bd69c71b3b417b968e57
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-a06056d0
 glossary_version: 34
@@ -140,7 +140,7 @@ $$(n \text{ là một số nguyên và } R\{n\}) \Rightarrow R\{n+1\}.$$
 
 Với mục đích này, phương pháp của giả thiết phụ trợ (Chương I, § 3, no. 3) thường được sử dụng, và chính vì lý do đó mà quan hệ "$n$ là một số nguyên và $R\{n\}$" (hoặc thậm chí $R\{n\}$) được gọi là *giả thiết quy nạp*.
 
-#### Nhận xét {#ens-iii-s4-n3-rem-1 .statement}
+#### Nhận xét {#ens-iii-s4-n3-rem-1 .statement tag=077T}
 
 Có nhiều tiêu chuẩn thường được sử dụng dưới tên gọi "nguyên lý quy nạp". Tất cả chúng đều có thể dễ dàng suy ra từ C61, và chúng tôi nêu ra ở đây những tiêu chuẩn quan trọng nhất:
 

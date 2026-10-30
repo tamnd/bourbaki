@@ -37,24 +37,24 @@ subsections:
       pdf_page: 100
 statements: 5
 exercises: 4
-content_sha256: 7af2f1113aa40dd0f856e2d62cf7eac25802cc4d44d0d40aa19b02293326400c
+content_sha256: 32d2b3b1aeb3a05dc43dfd7bda69ac4b91badba78fa0de1919a605fcef7e6755
 ---
 
 ## § 2. MESURE DES ANGLES; FONCTIONS TRIGONOMÉTRIQUES
 
 ### 1. Le groupe multiplicatif U
 
-#### Théorème 1 {#top-viii-s2-thm-1 .statement}
+#### Théorème 1 {#top-viii-s2-thm-1 .statement tag=0C09}
 
 Le groupe topologique (multiplicatif) $\mathbf{U}$ des nombres complexes de valeur absolue 1 est isomorphe au groupe topologique (additif) $\mathbf{T}$ des nombres réels modulo 1.
 
 En effet, $\mathbf{U} = S_1$ est compact et connexe, et possède un voisinage de l’élément neutre $+1$ homéomorphe à un intervalle ouvert de $\mathbf{R}$ (VI, p. 11, cor. 2); le théorème est donc une conséquence de la caractérisation topologique de $\mathbf{T}$ donnée dans V, p. 11, th. 2.
 
-#### Corollaire {#top-viii-s2-n1-cor-1 .statement}
+#### Corollaire {#top-viii-s2-n1-cor-1 .statement tag=0C0A}
 
 Le groupe multiplicatif $\mathbf{C}^*$ des nombres complexes $\neq 0$ est isomorphe au groupe $\mathbf{R} \times \mathbf{T}$ (cf. VIII, p. 4, prop. 1).
 
-#### Remarque {#top-viii-s2-n1-rem-1 .statement}
+#### Remarque {#top-viii-s2-n1-rem-1 .statement tag=0C0B}
 
 L’isomorphie des groupes $\mathbf{C}^*$ et $\mathbf{R} \times \mathbf{T}$ entraîne l’existence des racines de toute « équation binôme » $z^n = a$ dans le corps $\mathbf{C}$; en s’appuyant sur cette propriété (et sur la compacité locale de $\mathbf{C}$) on peut obtenir une nouvelle démonstration du th. de d’Alembert-Gauss (VIII, p. 26, exerc. 2).
 
@@ -80,7 +80,7 @@ $$
 $$
 La fonction $\mathbf{e}(x)$ est périodique et 1 est période principale de cette fonction.
 
-#### Remarque {#top-viii-s2-n1-rem-2 .statement}
+#### Remarque {#top-viii-s2-n1-rem-2 .statement tag=0C0C}
 
 L’application $x + iy \mapsto e^x \mathbf{e}(y)$ est un morphisme strict du groupe additif $\mathbf{C}$ sur le groupe multiplicatif $\mathbf{C}^*$, et sa restriction à un voisinage convenable de 0 est un isomorphisme local de $\mathbf{C}$ à $\mathbf{C}^*$. Par suite (VII, p. 14, remarque), tout morphisme strict de $\mathbf{C}$ sur $\mathbf{C}^*$ est de la forme $x + iy \mapsto e^{\alpha x + \beta y} \mathbf{e}(\gamma x + \delta y)$, où $\alpha, \beta, \gamma, \delta$ sont des nombres réels quelconques tels que $\alpha \delta - \beta \gamma \neq 0$. Nous verrons plus tard (FVR, III, § 1, n° 5) qu’il existe un seul de ces homomorphismes, qu’on note $z \mapsto e^z$, tel que $\lim_{z \to 0} (e^z - 1)/z = 1$; la restriction de cet homomorphisme à l’axe réel est identique à $e^x$ (d’où la notation).
 
@@ -237,7 +237,7 @@ Si on compose l’homomorphisme $\varphi$ de $\mathscr{A}$ sur $\mathscr{A}_0$ e
 
 Ici encore, une fois choisie la base $a$, lorsqu’on parle d’un angle de droites, on entend le plus souvent, par abus de langage, une mesure de cet angle relativement à la base $a$.
 
-#### Remarque {#top-viii-s2-n6-rem-1 .statement}
+#### Remarque {#top-viii-s2-n6-rem-1 .statement tag=0C0D}
 
 On définit un homomorphisme de $\mathbf{C}^*$ sur $\mathfrak{A}_0$ en faisant correspondre à tout nombre complexe $z \neq 0$ l’angle que fait la droite passant par 0 et $z$ avec l’axe réel; il est clair que cet homomorphisme est composé de $\varphi$ et de l’homomorphisme $z \mapsto \mathrm{Am}(z)$ de $\mathbf{C}^*$ sur $\mathfrak{A}$; c’est donc un morphisme strict du groupe topologique $\mathbf{C}^*$ sur le groupe topologique $\mathfrak{A}_0$, et la représentation bijective associée est un isomorphisme du groupe quotient $\mathbf{C}^*/\mathbf{R}^*$ sur $\mathfrak{A}_0$.
 

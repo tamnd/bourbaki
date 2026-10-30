@@ -52,7 +52,7 @@ subsections:
       pdf_page: 74
 statements: 30
 exercises: 20
-content_sha256: 0e1b36f7b0166cb57127ef03672727c35be9fb6cf53112bbf1a6e3f7526c8e92
+content_sha256: d42d9cba03aaaeeb54d1cc57d49f1834906e6323175ab761dfa1e79aabf13e17
 translated_from: content/en/top/I/06_s6_filters.md
 source_content_sha256: 54903b12f1214819204dc115618903fd7e1aeb96fd97f4bae7277a5d03b880ff
 translation_model: gpt-5-6-mini
@@ -66,7 +66,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA MỘT BỘ LỌC
 
-#### Định nghĩa 1 {#top-i-s6-def-1 .statement}
+#### Định nghĩa 1 {#top-i-s6-def-1 .statement tag=0B3X}
 
 *Một bộ lọc trên một tập hợp $X$ là một tập hợp $\mathfrak{F}$ gồm các tập con của $X$ có các tính chất sau:*
 
@@ -94,7 +94,7 @@ Các tiên đề $(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$ và $(\mathrm{F}_\math
 
 ### 2. SO SÁNH CÁC BỘ LỌC
 
-#### Định nghĩa 2 {#top-i-s6-def-2 .statement}
+#### Định nghĩa 2 {#top-i-s6-def-2 .statement tag=0B3Y}
 
 Cho hai lọc $\mathfrak{F}, \mathfrak{F}'$ trên cùng một tập hợp $X$, ta nói $\mathfrak{F}'$ mịn hơn $\mathfrak{F}$, hoặc $\mathfrak{F}$ thô hơn $\mathfrak{F}'$, nếu $\mathfrak{F} \subset \mathfrak{F}$. Nếu còn có $\mathfrak{F} \neq \mathfrak{F}'$, thì ta nói $\mathfrak{F}'$ mịn hơn thực sự $\mathfrak{F}$, hoặc $\mathfrak{F}$ thô hơn thực sự $\mathfrak{F}'$.
 
@@ -112,27 +112,27 @@ Lọc được tạo bởi tập hợp duy nhất $X$ là phần tử nhỏ nh�
 
 Cho một tập hợp $\mathfrak{G}$ các tập con của một tập hợp $X$, ta hãy xét xem có những lọc nào trên $X$ chứa $\mathfrak{G}$ hay không. Nếu tồn tại một lọc như vậy thì theo $(F_{II})$ nó cũng chứa tập hợp $\mathfrak{G}'$ gồm các giao hữu hạn của các tập hợp của $\mathfrak{G}$ (bao gồm $X$, là giao của tập con rỗng của $\mathfrak{G}$); do đó điều kiện cần để một lọc như vậy tồn tại là tập con rỗng của $X$ không thuộc $\mathfrak{G}'$. Điều kiện này cũng đủ, vì theo $(F_I)$ mọi lọc chứa $\mathfrak{G}'$ cũng chứa tập hợp $\mathfrak{G}''$ gồm các tập con của $X$ chứa một tập hợp của $\mathfrak{G}'$. Hiện nay $\mathfrak{G}''$ rõ ràng thỏa mãn $(F_I)$; nó thỏa mãn $(F_{II})$ do định nghĩa của $\mathfrak{G}'$; và cuối cùng nó thỏa mãn $(F_{III})$ vì tập con rỗng của $X$ không thuộc $\mathfrak{G}'$. Vậy $\mathfrak{G}''$ là lọc thô nhất chứa $\mathfrak{G}$, và ta đã chứng minh:
 
-#### Mệnh đề 1 {#top-i-s6-prop-1 .statement}
+#### Mệnh đề 1 {#top-i-s6-prop-1 .statement tag=0B3Z}
 
 Một điều kiện cần và đủ để tồn tại một lọc trên $X$ chứa một tập hợp $\mathfrak{G}$ các tập con của $X$ là không có tập con hữu hạn nào của $\mathfrak{G}$ có giao rỗng.
 
 Bộ lọc $\mathfrak{G}''$ được định nghĩa ở trên được nói là được sinh bởi $\mathfrak{G}$, và $\mathfrak{G}$ được nói là một cơ sở con của $\mathfrak{G}''$.
 
-#### Ví dụ {#top-i-s6-n2-exa-1 .statement}
+#### Ví dụ {#top-i-s6-n2-exa-1 .statement tag=0B40}
 
 Cho $\mathscr{S}$ là một tập hợp bất kỳ các tập con của một tập hợp $X$, và cho $\mathfrak{T}$ là tôpô trên $X$ được sinh bởi $\mathscr{S}$ ($\S$ 2, no. 3, Ví dụ II). Vì tập hợp các giao hữu hạn của các tập hợp của $\mathscr{S}$ là một cơ sở của $\mathfrak{T}$, nên suy ra từ chứng minh của Mệnh đề 1 ở trên và từ Mệnh đề 3 của $\S$ 1, no. 3 rằng với mỗi x \in X \text{ bộ lọc lân cận của } x \text{ đối với } \mathfrak{T} \text{ được sinh bởi tập hợp } \mathfrak{G}(x) \text{ gồm các tập hợp của } \mathscr{S} \text{ chứa } x.
 
-#### Hệ quả 1 {#top-i-s6-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#top-i-s6-prop-1-cor-1 .statement tag=0B41}
 
 Cho $\mathfrak{F}$ là một bộ lọc trên một tập hợp $X$, và $A$ là một tập con của $X$. Khi đó tồn tại một bộ lọc $\mathfrak{F}'$ mịn hơn $\mathfrak{F}$ và sao cho $A \in \mathfrak{F}'$, khi và chỉ khi $A$ giao với mọi tập hợp của $\mathfrak{F}$.
 
-#### Hệ quả 2 {#top-i-s6-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#top-i-s6-prop-1-cor-2 .statement tag=0B42}
 
 Một tập hợp $\Phi$ các bộ lọc trên một tập hợp không rỗng $X$ có một cận trên bé nhất trong tập hợp tất cả các bộ lọc trên $X$ khi và chỉ khi, với mọi dãy hữu hạn $(\mathfrak{F}_i)_{1 \leq i \leq n}$ các phần tử của $\Phi$ và mọi $A_i \in \mathfrak{F}_i$ ($1 \leq i \leq n$), giao $A_1 \cap \cdots \cap A_n$ không rỗng.
 
 Vì điều kiện này biểu thị rằng hợp $\mathfrak{G}$ của các bộ lọc $\mathfrak{F} \in \Phi$ thỏa mãn điều kiện của Mệnh đề 1.
 
-#### Hệ quả 3 {#top-i-s6-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#top-i-s6-prop-1-cor-3 .statement tag=0B43}
 
 Tập hợp có thứ tự của tất cả các bộ lọc trên một tập hợp không rỗng $X$ là quy nạp.
 
@@ -142,31 +142,31 @@ Mọi tập hợp có thứ tự tuyến tính $\Phi$ các bộ lọc trên $X$ 
 
 Nếu $\mathfrak{G}$ là một cơ sở con của một bộ lọc $\mathfrak{F}$ trên $X$ (no. 2), thì $\mathfrak{F}$ nói chung không phải là tập hợp các tập con của $X$ chứa một tập hợp của $\mathfrak{G}$; để $\mathfrak{G}$ có tính chất này thì điều kiện cần và đủ là mọi giao hữu hạn của các tập hợp của $\mathfrak{G}$ đều chứa một tập hợp của $\mathfrak{G}$. Do đó có mệnh đề sau:
 
-#### Mệnh đề 2 {#top-i-s6-prop-2 .statement}
+#### Mệnh đề 2 {#top-i-s6-prop-2 .statement tag=0B44}
 
 Cho $\mathfrak{B}$ là một tập hợp các tập con của một tập hợp $X$. Khi đó tập hợp các tập con của $X$ chứa một tập hợp của $\mathfrak{B}$ là một bộ lọc khi và chỉ khi $\mathfrak{B}$ có hai tính chất sau:
 (B_I) Giao của hai tập hợp của $\mathfrak{B}$ chứa một tập hợp của $\mathfrak{B}$.
 (B_{II}) $\mathfrak{B}$ không rỗng, và tập con rỗng của $X$ không thuộc $\mathfrak{B}$.
 
-#### Định nghĩa 3 {#top-i-s6-def-3 .statement}
+#### Định nghĩa 3 {#top-i-s6-def-3 .statement tag=0B45}
 
 Một tập hợp $\mathfrak{B}$ các tập con của một tập hợp $X$ thỏa mãn các tiên đề (B_I) và (B_{II}) được gọi là một cơ sở của bộ lọc mà nó sinh ra. Hai cơ sở bộ lọc được nói là tương đương nếu chúng sinh ra cùng một bộ lọc.
 
 Nếu $\mathfrak{G}$ là một dưới cơ sở của một lọc $\mathfrak{F}$, thì tập $\mathfrak{G}'$ gồm các giao hữu hạn của các tập của $\mathfrak{G}$ là một cơ sở của $\mathfrak{F}$ (no. 2).
 
-#### Mệnh đề 3 {#top-i-s6-prop-3 .statement}
+#### Mệnh đề 3 {#top-i-s6-prop-3 .statement tag=0B46}
 
 Một tập con $\mathfrak{B}$ của một lọc $\mathfrak{F}$ trên $X$ là một cơ sở của $\mathfrak{F}$ khi và chỉ khi mọi tập của $\mathfrak{F}$ chứa một tập của $\mathfrak{B}$.
 
 Nếu $\mathfrak{B}$ là một cơ sở của $\mathfrak{F}$, thì rõ ràng mọi tập của $\mathfrak{F}$ chứa một tập của $\mathfrak{B}$; ngược lại, nếu mọi tập của $\mathfrak{F}$ chứa một tập của $\mathfrak{B}$, thì tập hợp các tập con của $X$ chứa một tập của $\mathfrak{B}$ trùng với $\mathfrak{F}$ theo tính chất của $(\mathrm{F}_1)$.
 
-#### Mệnh đề 4 {#top-i-s6-prop-4 .statement}
+#### Mệnh đề 4 {#top-i-s6-prop-4 .statement tag=0B47}
 
 Trên một tập $X$, một lọc $\mathfrak{F}'$ với cơ sở $\mathfrak{B}'$ mịn hơn một lọc $\mathfrak{F}$ với cơ sở $\mathfrak{B}$ khi và chỉ khi mọi tập của $\mathfrak{B}$ chứa một tập của $\mathfrak{B}'$.
 
 Đây là một hệ quả ngay lập tức của các Định nghĩa 2 và 3.
 
-#### Hệ quả {#top-i-s6-n3-cor-1 .statement}
+#### Hệ quả {#top-i-s6-n3-cor-1 .statement tag=0B48}
 
 Hai cơ sở lọc $\mathfrak{B}, \mathfrak{B}'$ trên một tập $X$ là tương đương khi và chỉ khi mọi tập của $\mathfrak{B}$ chứa một tập của $\mathfrak{B}'$ và mọi tập của $\mathfrak{B}'$ chứa một tập của $\mathfrak{B}$.
 
@@ -183,23 +183,23 @@ Cho $\mathfrak{F}$ là một lọc trên một tập hợp $Z$. Vì $\mathfrak{F
 
 ### 4. CÁC LỌC SIÊU
 
-#### Định nghĩa 4 {#top-i-s6-def-4 .statement}
+#### Định nghĩa 4 {#top-i-s6-def-4 .statement tag=0B49}
 
 Một lọc siêu trên một tập hợp $X$ là một lọc $\mathfrak{F}$ sao cho không có lọc nào trên $X$ mịn hơn thực sự $\mathfrak{F}$ (nói cách khác, là một phần tử cực đại trong tập hợp có thứ tự của tất cả các lọc trên $X$).
 
 Vì tập hợp có thứ tự của tất cả các lọc trên $X$ là quy nạp (no. 2, Mệnh đề 1, Hệ quả 3), bổ đề Zorn (Lý thuyết tập hợp, R, § 6, no. 10) chỉ ra rằng:
 
-#### Định lý 1 {#top-i-s6-thm-1 .statement}
+#### Định lý 1 {#top-i-s6-thm-1 .statement tag=0B4A}
 
 Nếu $\mathfrak{F}$ là một lọc bất kỳ trên một tập hợp $X$, thì có một lọc siêu mịn hơn $\mathfrak{F}$.
 
-#### Mệnh đề 5 {#top-i-s6-prop-5 .statement}
+#### Mệnh đề 5 {#top-i-s6-prop-5 .statement tag=0B4B}
 
 Cho $\mathfrak{F}$ là một lọc siêu trên một tập hợp $X$. Nếu $A$ và $B$ là hai tập con của $X$ sao cho $A \cup B \in \mathfrak{F}$, thì hoặc $A \in \mathfrak{F}$ hoặc $B \in \mathfrak{F}$.
 
 Nếu mệnh đề này sai, tồn tại các tập con $A$ và $B$ của $X$ sao cho $A \notin \mathfrak{F}$ và $B \notin \mathfrak{F}$ và $A \cup B \in \mathfrak{F}$. Cho $\mathfrak{G}$ là tập hợp các tập con $M$ của $X$ sao cho $A \cup M \in \mathfrak{F}$. Dễ dàng kiểm tra rằng $\mathfrak{G}$ là một lọc trên $X$, và $\mathfrak{G}$ mịn hơn thực sự $\mathfrak{F}$, vì $B \in \mathfrak{G}$; nhưng điều này mâu thuẫn với giả thiết rằng $\mathfrak{F}$ là một lọc siêu.
 
-#### Hệ quả {#top-i-s6-n4-cor-1 .statement}
+#### Hệ quả {#top-i-s6-n4-cor-1 .statement tag=0B4C}
 
 *Nếu hợp của một dãy hữu hạn* $(A_i)_{1 \leq i \leq n}$ *các tập con của* $X$ *thuộc một lọc siêu* $\mathfrak{F}$, *thì ít nhất một trong các* $A_i$ *thuộc* $\mathfrak{F}$.
 
@@ -207,7 +207,7 @@ Chứng minh được thực hiện bằng quy nạp theo $n$.
 Đặc biệt, nếu $(A_i)_{1 \leq i \leq n}$ là một *phủ* của $X$, thì ít nhất một trong các $A_i$ thuộc $\mathfrak{F}$.
 Mệnh đề 5 *đặc trưng* các lọc siêu; tổng quát hơn, ta có:
 
-#### Mệnh đề 6 {#top-i-s6-prop-6 .statement}
+#### Mệnh đề 6 {#top-i-s6-prop-6 .statement tag=0B4D}
 
 *Cho* $\mathfrak{G}$ *là một cơ sở phụ của một bộ lọc trên một tập hợp* $X$. *Nếu với mỗi tập con* $Y$ *của* $X$ *ta có hoặc là* $Y \in \mathfrak{G}$ *hoặc là* $\complement Y \in \mathfrak{G}$, *thì* $\mathfrak{G}$ *là một siêu lọc trên* $X$.
 
@@ -217,11 +217,11 @@ Cho $\mathfrak{F}$ là một bộ lọc chứa $\mathfrak{G}$ (có một bộ l�
 
 Ngoài ví dụ này, ta sẽ không bao giờ chứng minh sự tồn tại của một siêu lọc (ngay cả trên một tập vô hạn đếm được) trừ khi sử dụng Định lý 1 (và do đó tiên đề lựa chọn).
 
-#### Nhận xét {#top-i-s6-n4-rem-1 .statement}
+#### Nhận xét {#top-i-s6-n4-rem-1 .statement tag=0B4E}
 
 Nếu $X$ chứa ít nhất hai phần tử, thì có ít nhất hai siêu lọc phân biệt trên $X$, và do đó tập hợp có thứ tự của các bộ lọc trên $X$ không có phần tử lớn nhất.
 
-#### Mệnh đề 7 {#top-i-s6-prop-7 .statement}
+#### Mệnh đề 7 {#top-i-s6-prop-7 .statement tag=0B4F}
 
 *Mọi bộ lọc* $\mathfrak{F}$ *trên một tập hợp* $X$ *là giao của các siêu lọc mịn hơn* $\mathfrak{F}$.
 
@@ -229,7 +229,7 @@ Rõ ràng giao này chứa $\mathfrak{F}$. Ngược lại, cho $A$ là một t�
 
 ### 5. BỘ LỌC CẢM SINH
 
-#### Mệnh đề 8 {#top-i-s6-prop-8 .statement}
+#### Mệnh đề 8 {#top-i-s6-prop-8 .statement tag=0B4G}
 
 *Cho* $\mathfrak{F}$ *là một bộ lọc trên một tập hợp* $X$ *và* $A$ *là một tập con của* $X$. *Khi đó vết* $\mathfrak{F}_A$ *của* $\mathfrak{F}$ *trên* $A$ *là một bộ lọc khi và chỉ khi mỗi tập hợp của* $\mathfrak{F}$ *giao với* $A$.
 
@@ -237,19 +237,19 @@ Vì $(M \cap N) \cap A = (M \cap A) \cap (N \cap A)$ ta thấy rằng $\mathfrak
 
 Đặc biệt, nếu $A \in \mathfrak{F}$ thì $\mathfrak{F}_A$ là một lọc trên $A$, theo $(\mathrm{F}_{\mathrm{II}})$ và $(\mathrm{F}_{\mathrm{III}})$.
 
-#### Định nghĩa 5 {#top-i-s6-def-5 .statement}
+#### Định nghĩa 5 {#top-i-s6-def-5 .statement tag=0B4H}
 
 *Cho $A$ là một tập con của một tập hợp $X$ và $\mathfrak{F}$ là một lọc trên $X$. Nếu vết của $\mathfrak{F}$ trên $A$ là một lọc trên $A$, thì lọc này được gọi là cảm sinh bởi $\mathfrak{F}$ trên $A$.*
 
 Nếu một lọc $\mathfrak{F}$ trên $X$ cảm sinh một lọc trên $A \subset X$, thì vết trên $A$ của một cơ sở của $\mathfrak{F}$ là một cơ sở của $\mathfrak{F}_A$, do Mệnh đề 3 của no. 3.
 
-#### Ví dụ {#top-i-s6-n5-exa-1 .statement}
+#### Ví dụ {#top-i-s6-n5-exa-1 .statement tag=0B4I}
 
 Cho $X$ là một không gian tôpô, $A$ một tập con của $X$, $x$ một điểm của $X$. Để vết trên $A$ của *lọc lân cận* $\mathfrak{B}$ của $x$ là một lọc trên $A$, điều kiện cần và đủ là mọi lân cận của $x$ đều giao với $A$, nghĩa là $x$ nằm trong *bao đóng* của $A$ (§ 1, no. 6, Định nghĩa 10).
 
 Ví dụ này về một lọc cảm sinh có ý nghĩa vì hai lý do: trước hết vì nó đóng một vai trò quan trọng trong lý thuyết về giới hạn (§ 7, no. 5) và thứ hai vì *mọi lọc đều có thể được định nghĩa theo cách này*. Thật vậy, cho $\mathfrak{F}$ là một lọc trên một tập hợp $X$ và cho $X'$ là tập hợp nhận được bằng cách *ghép thêm* một phần tử mới $\omega$ vào $X$, $X$ được đồng nhất với phần bù của $\{ \omega \}$ trong $X'$ (*Lý thuyết tập hợp*, R, § 4, no. 5); cho $\mathfrak{F}'$ là lọc trên $X'$ gồm các tập hợp $M \cup \{ \omega \}$ trong đó $M$ chạy qua $\mathfrak{F}$. Với mỗi điểm $x \neq \omega$ của $X'$, cho $\mathfrak{B}(x)$ là tập hợp tất cả các tập con của $X'$ chứa $x$, và cho $\mathfrak{B}(\omega)$ là $\mathfrak{F}'$; khi đó các $\mathfrak{B}(x)$ với $x \in X'$ hiển nhiên thỏa mãn các tiên đề $(\mathrm{V}_1), (\mathrm{V}_{\mathrm{II}}), (\mathrm{V}_{\mathrm{III}})$ và $(\mathrm{V}_{\mathrm{IV}})$ và do đó định nghĩa một tôpô trên $X'$ mà đối với nó chúng là các lọc lân cận của các điểm. Cuối cùng $\omega$ nằm trong *bao đóng* của $X$ trong tôpô này, và $\mathfrak{F}$ được cảm sinh bởi $\mathfrak{F}' = \mathfrak{B}(\omega)$ trên $X$. Tôpô được định nghĩa như vậy trên $X'$ (tương ứng tập hợp $X'$ với tôpô này) được gọi là *tôpô* (tương ứng *không gian tôpô*) *liên kết với* $\mathfrak{F}$.
 
-#### Mệnh đề 9 {#top-i-s6-prop-9 .statement}
+#### Mệnh đề 9 {#top-i-s6-prop-9 .statement tag=0B4J}
 
 *Một lọc cực đại $U$ trên một tập hợp $X$ cảm sinh một lọc trên một tập con $A$ của $X$ khi và chỉ khi $A \in U$; và nếu điều kiện này được thỏa mãn thì $U_A$ là một lọc cực đại trên $A$.*
 
@@ -259,7 +259,7 @@ Ví dụ này về một lọc cảm sinh có ý nghĩa vì hai lý do: trước
 
 Cho $\mathfrak{B}$ là một cơ sở lọc trên một tập hợp $X$, và cho $f$ là một ánh xạ từ $X$ vào một tập hợp $X'$; khi đó $f(\mathfrak{B})$ là một *cơ sở lọc* trên $X'$, vì quan hệ $M \neq \emptyset$ kéo theo $f(M) \neq \emptyset$, và ta có $f(M \cap N) \subset f(M) \cap f(N)$. Nếu $\mathfrak{B}_1$ là một cơ sở của một lọc *mịn hơn* lọc có cơ sở $\mathfrak{B}$, thì $f(\mathfrak{B}_1)$ là một cơ sở của một lọc *mịn hơn* lọc có cơ sở $f(\mathfrak{B})$ (no. 3, Mệnh đề 4).
 
-#### Mệnh đề 10 {#top-i-s6-prop-10 .statement}
+#### Mệnh đề 10 {#top-i-s6-prop-10 .statement tag=0B4K}
 
 *Nếu $\mathfrak{B}$ là một cơ sở lọc siêu lọc trên một tập hợp $X$ và nếu $f$ là một ánh xạ của $X$ vào một tập hợp $X'$, thì $f(\mathfrak{B})$ là một cơ sở lọc siêu lọc trên $X'$.*
 
@@ -282,7 +282,7 @@ $$
 \overline{\mathrm{pr}}_x^{-1}(M_x) = M_x \times \prod_{i \neq x} X_i.
 $$
 
-#### Định nghĩa 6 {#top-i-s6-def-6 .statement}
+#### Định nghĩa 6 {#top-i-s6-def-6 .statement tag=0B4L}
 
 *Một lọc $\mathfrak{F}_i$ trên mỗi tập hợp $X_i$ của một họ các tập hợp $(X_i)_{i \in I}$ được cho, tích của các lọc $\mathfrak{F}_i$ là lọc trên $X = \prod_{i \in I} X_i$ có một cơ sở là tập hợp các tập con của $X$ có dạng $\prod_{i \in I} M_i$, trong đó $M_i \in \mathfrak{F}_i$ với mỗi $i \in I$ và $M_i = X_i$ với mọi chỉ số trừ một số hữu hạn. Lọc tích được ký hiệu bởi $\prod_{i \in I} \mathfrak{F}_i$.*
 
@@ -300,7 +300,7 @@ thay cho $\prod_{i \in I} \mathfrak{F}_i$.
 
 ### 8. CÁC BỘ LỌC SƠ CẤP
 
-#### Định nghĩa 7 {#top-i-s6-def-7 .statement}
+#### Định nghĩa 7 {#top-i-s6-def-7 .statement tag=0B4M}
 
 *Cho $(x_n)_{n \in \mathbf{N}}$ là một dãy vô hạn các phần tử của một tập hợp $X$. Bộ lọc sơ cấp liên kết với dãy $(x_n)$ là bộ lọc sinh bởi ảnh của bộ lọc Fréchet (no. 1) qua ánh xạ $n \to x_n$ từ $\mathbf{N}$ vào $X$.*
 
@@ -310,7 +310,7 @@ Bộ lọc sơ cấp liên kết với một *dãy con* vô hạn của một d�
 
 Theo định nghĩa, mọi bộ lọc sơ cấp đều có một cơ sở đếm được. Ngược lại:
 
-#### Mệnh đề 11 {#top-i-s6-prop-11 .statement}
+#### Mệnh đề 11 {#top-i-s6-prop-11 .statement tag=0B4N}
 
 *Nếu một bộ lọc $\mathfrak{F}$ có một cơ sở đếm được, thì nó là giao của các bộ lọc sơ cấp mịn hơn $\mathfrak{F}$.*
 
@@ -322,7 +322,7 @@ $$
 
 thì các $B_n$ lại tạo thành một cơ sở của $\mathfrak{F}$ (no. 3, Mệnh đề 3) và ta có $B_{n+1} \subset B_n$ với mỗi $n$. Cho $a_n$ là một phần tử bất kỳ của $B_n$ với mỗi $n \in \mathbf{N}$; khi đó rõ ràng rằng $\mathfrak{F}$ thô hơn bộ lọc sơ cấp liên kết với $(a_n)$. Do đó giao $\mathfrak{J}$ của các bộ lọc sơ cấp mịn hơn $\mathfrak{F}$ tồn tại và mịn hơn $\mathfrak{F}$; nếu $\mathfrak{J}$ *thực sự mịn hơn* $\mathfrak{F}$ thì tồn tại một tập hợp $M \in \mathfrak{J}$ sao cho $B_n \cap \complement M \neq \varnothing$ với mỗi $n$; nếu $b_n \in B_n \cap \complement M$, thì bộ lọc sơ cấp liên kết với dãy $(b_n)$ mịn hơn $\mathfrak{F}$ và không chứa $M$. Điều này mâu thuẫn với định nghĩa của $\mathfrak{J}$.
 
-#### Nhận xét {#top-i-s6-n8-rem-1 .statement}
+#### Nhận xét {#top-i-s6-n8-rem-1 .statement tag=0B4O}
 
 Một bộ lọc *thô hơn* một bộ lọc có một cơ sở đếm được không nhất thiết phải có một cơ sở đếm được; ví dụ, nếu $X$ là một tập hợp vô hạn không đếm được, thì bộ lọc gồm các phần bù của các tập con hữu hạn của $X$ không có cơ sở đếm được (nếu không thì tập hợp các tập con hữu hạn của $X$ sẽ là đếm được, trái với giả thiết); tuy nhiên bộ lọc này thô hơn mọi bộ lọc sơ cấp liên kết với một dãy vô hạn các phần tử phân biệt của $X$.
 
@@ -364,11 +364,11 @@ Bây giờ cho $X'$ là một tập hợp khác, và cho $\Phi$ là tập hợp 
 
 giữa $f$ và $g$ là một quan hệ tương đương $S$; hiển nhiên rằng $S$ là phản xạ và đối xứng, và nếu $f, g, h$ là ba phần tử của $\Phi$ sao cho $f$ và $g$ được xác định trên $V \in \mathfrak{F}$, còn $g$ và $h$ được xác định và trùng nhau trên $W \in \mathfrak{F}$, thì $f$ và $h$ được xác định và trùng nhau trên $V \cap W \in \mathfrak{F}$, do đó $S$ là bắc cầu. Lớp tương đương mod $S$ của một ánh xạ $f$ của một tập hợp $V \in \mathfrak{F}$ vào $X'$ được gọi là mầm của $f$ (đối với $\mathfrak{F}$), và tập thương $\tilde{\Phi} = \Phi/S$ được gọi là tập hợp các mầm của các ánh xạ từ $X$ vào $X'$ (đối với $\mathfrak{F}$).
 
-#### Nhận xét 1 {#top-i-s6-n9-rem-1 .statement}
+#### Nhận xét 1 {#top-i-s6-n9-rem-1 .statement tag=0B4P}
 
 Mọi ánh xạ $f$ của một tập con $M$ của $X$ vào $X'$, trong đó $M$ thuộc về $\mathfrak{F}$, đều tương đương mod $S$ với một ánh xạ $f_1$ của $X$ vào $X'$ (điều này biện minh cho thuật ngữ trên đây): chỉ cần mở rộng $f$ lên $X$, chẳng hạn bằng cách gán cho nó một giá trị hằng trên $X - M$.
 
-#### Nhận xét 2 {#top-i-s6-n9-rem-2 .statement}
+#### Nhận xét 2 {#top-i-s6-n9-rem-2 .statement tag=0B4Q}
 
 Các hàm đặc trưng $\varphi_M$ và $\varphi_N$ của hai tập con $M$ và $N$ của $X$ có cùng một mầm đối với $\mathfrak{F}$ khi và chỉ khi $M$ và $N$ có cùng một mầm đối với $\mathfrak{F}$.
 

@@ -20,9 +20,9 @@ subsections:
       pdf_page: 135
 statements: 14
 exercises: 4
-content_sha256: ffa7b042d4efd7703c7535ce155922e60e99eab54c906bf554532bce572a6c77
+content_sha256: 8e349c9a4ac43ae02ff3be7f2951f05030f0563c5bc6b95ace2ddfdc46d22983
 translated_from: content/en/lie/V/06_s6_the_coxeter_transformation.md
-source_content_sha256: cab0e0d8377d2232e2f513f553de240c04da93a18b0865f0c5a3c7d31c45afd4
+source_content_sha256: 19ad160f8bb3a5e67893a9745099b7c2d4ac7603fdf337e2de8f9063ffcb53bc
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-1ef9ec52
 glossary_version: 34
@@ -38,17 +38,17 @@ Trong đoạn này, V ký hiệu một không gian vectơ thực có số chiề
 
 Một buồng có thứ tự đối với W là một cặp gồm một buồng C được xác định bởi $\mathfrak{H}$ và một song ánh $i \mapsto H_i$ từ $\{1, 2, \ldots, l\}$ lên tập hợp các mặt của C (xem § 3, no. 9, Mệnh đề 7).
 
-#### Định nghĩa 1 {#lie-v-s6-def-1 .statement}
+#### Định nghĩa 1 {#lie-v-s6-def-1 .statement tag=0ATH}
 
 *Phép biến đổi Coxeter được xác định bởi một buồng có thứ tự* $(C, (H_i)_{1 \leq i \leq l})$ *là phần tử* $c = s_{H_1} s_{H_2} \cdots s_{H_l}$ *của W*.
 
-#### Mệnh đề 1 {#lie-v-s6-prop-1 .statement}
+#### Mệnh đề 1 {#lie-v-s6-prop-1 .statement tag=0ATI}
 
 *Tất cả các phép biến đổi Coxeter đều liên hợp trong W*.
 
 Vì W hoán vị các buồng được xác định bởi $\mathfrak{H}$ một cách bắc cầu (§ 3, no. 2, Định lý 1), nên ta được quy về việc chứng minh điều sau: cho $(C, (H_i)_{1 \leq i \leq l})$ là một buồng có thứ tự và $\pi \in S_l$; khi đó $s_{H_1} s_{H_2} \cdots s_{H_l}$ và $s_{H_{\pi(1)}} s_{H_{\pi(2)}} \cdots s_{H_{\pi(l)}}$ là liên hợp trong W. Có tính đến § 4, no. 8, Mệnh đề 8, điều này sẽ suy ra ngay lập tức từ bổ đề sau:
 
-#### Bổ đề 1 {#lie-v-s6-lem-1 .statement}
+#### Bổ đề 1 {#lie-v-s6-lem-1 .statement tag=0ATJ}
 
 *Cho X là một rừng hữu hạn, và* $x \mapsto g_x$ *một ánh xạ từ X vào một nhóm* $\Gamma$ *sao cho* $g_x$ *và* $g_y$ *liên hợp với nhau mỗi khi* $x$ *và* $y$ *không được nối với nhau trong X. Gọi* $\mathscr{T}$ *là tập hợp các thứ tự toàn phần trên X. Với mọi* $\xi \in \mathscr{T}$, *gọi* $p_\xi$ *là tích trong* $\Gamma$ *của dãy* $(g_x)_{x \in X}$ *được xác định bởi* $\xi$. *Khi đó các phần tử* $p_\xi$ *liên hợp với nhau trong* $\Gamma$.*
 
@@ -68,7 +68,7 @@ và phần tử này liên hợp với $p_{\xi_2} p_{\xi_1} g_b g_a$. Do đó ta
 
 Suy ra từ Mệnh đề 1 rằng tất cả các phép biến đổi Coxeter đều có cùng một cấp $h = h(W)$. Số này được gọi là *số Coxeter* của $W$.
 
-#### Nhận xét {#lie-v-s6-n1-rem-1 .statement}
+#### Nhận xét {#lie-v-s6-n1-rem-1 .statement tag=0ATK}
 
 Cho $W_1, \ldots, W_m$ là các nhóm hữu hạn cốt yếu tác động trong các không gian $V_1, \ldots, V_m$ và sinh bởi các phép phản xạ. Cho $C_j$ là một buồng đối với $W_j$. Cho $W$ là nhóm $W_1 \times \cdots \times W_m$ tác động trong không gian $V_1 \times \cdots \times V_m$. Khi đó $C_1 \times \cdots \times C_m$ là một buồng đối với $W$. Các phép biến đổi Coxeter của $W$ được xác định bởi $C$ là các tích $c_1 c_2 \ldots c_m$, trong đó $c_j$ là một phép biến đổi Coxeter của $W_j$ được xác định bởi $C_j$.
 
@@ -86,7 +86,7 @@ $$
 0 \leq m_1 \leq m_2 \leq \cdots \leq m_l < h.
 $$
 
-#### Định nghĩa 2 {#lie-v-s6-def-2 .statement}
+#### Định nghĩa 2 {#lie-v-s6-def-2 .statement tag=0ATL}
 
 *Các số nguyên* $m_1, m_2, \ldots, m_l$ *được gọi là các số mũ của* W.
 
@@ -124,7 +124,7 @@ $$
 m_1 + m_2 + \cdots + m_l = \frac{1}{2} lh.
 $$ (3)
 
-#### Bổ đề 2 {#lie-v-s6-lem-2 .statement}
+#### Bổ đề 2 {#lie-v-s6-lem-2 .statement tag=0ATM}
 
 *Giả sử rằng* W *là bất khả quy và* $\dim V \geq 2$. *Với ký hiệu trên, tồn tại hai vectơ độc lập tuyến tính* $z', z''$ *sao cho*
 (i) *mặt phẳng* P *sinh bởi* $z', z''$ *ổn định dưới* s' *và* s'';
@@ -162,7 +162,7 @@ $$
 
 Do đó, $(a-1)z'' + z'$ trực giao với $e^1, \ldots, e^r$, tức là với $V''$. Suy ra $s''$ giữ ổn định mặt phẳng sinh bởi $z''$ và $(a-1)z'' + z'$, tức là $P$. Tương tự, $s'$ giữ $P$ ổn định. Vì $z' \in P \cap V'$ và $z'' \in P \cap V''$, $s'|P$ và $s''|P$ là các phép đối xứng qua $Rz'$ và $Rz''$.
 
-#### Định lý 1 {#lie-v-s6-thm-1 .statement}
+#### Định lý 1 {#lie-v-s6-thm-1 .statement tag=0ATN}
 
 *Giả sử rằng W là bất khả quy. Khi đó:*
 (i) $m_1 = 1, m_l = h-1$.
@@ -188,11 +188,11 @@ và các tọa độ của $s_1(e_H)$ sẽ không cùng dấu, điều này là 
 
 Vì thế, số phần tử của $\mathfrak{H}$ chứa $Rz'$ hoặc $Rz''$ là $l$. Nếu $h$ chẵn thì $\mathrm{Card}(\mathfrak{H})$ do đó bằng $\frac{h}{2} l$. Nếu $h$ lẻ thì $\mathrm{Card}(\mathfrak{H})$ bằng $\frac{h-1}{2} l + r$, và cũng bằng $\frac{h-1}{2} l + (l - r)$; suy ra $r = l - r$, nên $r = \frac{l}{2}$, và $\mathrm{Card}(\mathfrak{H}) = \frac{h-1}{2} l + \frac{l}{2} = \frac{h}{2} l$.
 
-#### Nhận xét {#lie-v-s6-n2-rem-1 .statement}
+#### Nhận xét {#lie-v-s6-n2-rem-1 .statement tag=0ATO}
 
 Giữ lại ký hiệu của chứng minh trước. Gọi $c'$ là mở rộng $\mathbf{C}$-tuyến tính của $c$ lên $V \otimes_{\mathbf{R}} \mathbf{C}$, và $c''$ là hạn chế của $c'$ lên $P \otimes_{\mathbf{R}} \mathbf{C}$. Từ việc nghiên cứu $c|P$, $c''$ có một vectơ riêng $x$ tương ứng với trị riêng $\exp \frac{2i\pi}{h}$, và vectơ riêng này không thuộc bất kỳ tập hợp nào trong các tập hợp $D \otimes_{\mathbf{R}} \mathbf{C}$, trong đó D ký hiệu một đường thẳng của P (vì D không ổn định dưới c). Bây giờ, với mọi $H \in \mathfrak{H}$, ta đã thấy rằng $H \cap P$ là một đường thẳng; do đó, $x \notin H \otimes_{\mathbf{R}} \mathbf{C}$.
 
-#### Hệ quả {#lie-v-s6-n2-cor-1 .statement}
+#### Hệ quả {#lie-v-s6-n2-cor-1 .statement tag=0ATP}
 
 *Cho $R_0$ là tập hợp các vectơ đơn vị của $V$ trực giao với một phần tử của $\mathfrak{H}$. Nếu $W$ là bất khả quy,*
 
@@ -211,13 +211,13 @@ $$
 $$
 Vậy $\beta = h$, điều này chứng minh (4).
 
-#### Mệnh đề 2 {#lie-v-s6-prop-2 .statement}
+#### Mệnh đề 2 {#lie-v-s6-prop-2 .statement tag=0ATQ}
 
 *Nếu W là bất khả quy và h là chẵn, thì phần tử duy nhất của W biến đổi C thành −C là $c^{h/2}$*.
 
 Ta dùng ký hiệu trong chứng minh của Định lý 1. Vì $c|P$ là một phép quay qua góc $\frac{2\pi}{h}$, $c^{h/2}$ biến đổi $z'$ thành $-z'$, $z''$ thành $-z''$, và do đó $z' + z'' = z$ thành $-z$. Bây giờ $z \in C$, nên buồng $c^{h/2}(C)$ tất yếu là $-C$.
 
-#### Mệnh đề 3 {#lie-v-s6-prop-3 .statement}
+#### Mệnh đề 3 {#lie-v-s6-prop-3 .statement tag=0ATR}
 
 *Giả sử rằng W là bất khả quy. Gọi $u_1, \ldots, u_l$ là các phần tử thuần nhất của đại số đối xứng $S = S(V)$, độc lập đại số trên $\mathbf{R}$ và sinh đại số các phần tử của S bất biến dưới W (§ 5, no. 3, Đl. 3). Nếu $p_j$ là bậc của $u_j$, thì các số mũ của W là $p_1 - 1, \ldots, p_l - 1$*.
 
@@ -233,13 +233,13 @@ $$
 
 Có tính đến công thức (3) và Định lý 1 (ii), ta thu được $h \sum_{j=1}^{l} \mu_j = 0$, nên $\mu_j = 0$ với mọi $j$, và cuối cùng $p_j - 1 = m_j$ với mọi $j$.
 
-#### Hệ quả 1 {#lie-v-s6-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#lie-v-s6-prop-3-cor-1 .statement tag=0ATS}
 
 *Nếu* $(m_i)_{1 \leq i \leq l}$ *là dãy tăng các số mũ của* W, *thì cấp của* W *bằng* $(m_1 + 1)(m_2 + 1) \ldots (m_l + 1)$.
 
 Điều này suy ra từ các hệ thức $m_j + 1 = p_j$ và § 5, Hệ quả của Định lý 3.
 
-#### Hệ quả 2 {#lie-v-s6-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#lie-v-s6-prop-3-cor-2 .statement tag=0ATT}
 
 *Nếu* c *là một phép biến đổi Coxeter của* W,
 
@@ -251,7 +251,7 @@ $$
 
 Nếu không, sẽ tồn tại hai bất biến thuần nhất bậc 2 trong S không tỉ lệ với nhau, và do đó hai dạng toàn phương trên V* không tỉ lệ với nhau và bất biến dưới W, trái với § 2, no. 1, Mệnh đề 1.
 
-#### Hệ quả 3 {#lie-v-s6-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#lie-v-s6-prop-3-cor-3 .statement tag=0ATU}
 
 *Phép vị tự tỉ số* −1 *của* V *thuộc* W *khi và chỉ khi mọi số mũ của* W *đều lẻ. Trong trường hợp đó, h chẵn và* $c^{h/2} = -1$ *đối với mọi phép biến đổi Coxeter* c *của* W.
 

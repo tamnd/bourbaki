@@ -50,9 +50,9 @@ subsections:
       pdf_page: 543
 statements: 31
 exercises: 15
-content_sha256: 392227cd45eb4ce8542ebdf8c40371c1fda09d6c6d3a9b32894e8cde9a438215
+content_sha256: 4fa9395bf1fc93c1688826ea518c988cc6395dc14594718f347bb83c0dff4e94
 translated_from: content/en/alg/III/07_s7_exterior_algebras.md
-source_content_sha256: a65164e0213b01ccd25a9de8102ce235ce980145680f285182c0cfa7cdce4ac7
+source_content_sha256: 2ecded72dc27d27759b8e68470e35ec8930215e63753cc4598f26151e19c86fa
 translation_model: gpt-5.4
 translation_run: translate-vi-ad8b440c
 glossary_version: 34
@@ -64,13 +64,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA ĐẠI SỐ NGOÀI CỦA MỘT MÔĐUN
 
-#### Định nghĩa 1 {#alg-iii-s7-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s7-def-1 .statement tag=062S}
 
 Cho $A$ là một vành giao hoán và $M$ là một $A$-môđun. Đại số ngoài của $M$, ký hiệu bởi $\bigwedge(M)$ hoặc $\mathrm{Alt}(M)$ hoặc $\bigwedge_A(M)$, là đại số trên $A$ bằng thương của đại số tenxơ $T(M)$ theo iđêan hai phía $\mathfrak{J}''$ (cũng ký hiệu là $\mathfrak{J}_{M}''$) sinh bởi các phần tử $x \otimes x$, trong đó $x$ chạy qua $M$.
 
 Vì iđêan $\mathfrak{J}''$ được sinh bởi các phần tử thuần nhất bậc 2, nó là một iđêan phân bậc (II, § 11, no. 3, Mệnh đề 2); ta viết $\mathfrak{J}_n'' = \mathfrak{J}'' \cap T^n(M)$; do đó đại số $\bigwedge(M)$ được phân bậc bởi phân bậc (gọi là chính tắc) gồm các $\bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$. Khi đó $\mathfrak{J}_0'' = \mathfrak{J}_1'' = \{0\}$ và vì thế $\bigwedge^0(M)$ được đồng nhất với $A$ và $\bigwedge^1(M)$ với $T^1(M) = M$; trong phần tiếp theo, ta sẽ luôn thực hiện các sự đồng nhất này và đơn ánh chính tắc $M \to \bigwedge(M)$ sẽ được ký hiệu bởi $\phi''$ hoặc $\phi_M''$.
 
-#### Mệnh đề 1 {#alg-iii-s7-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s7-prop-1 .statement tag=062T}
 
 Cho $E$ là một $A$-đại số và $f : M \to E$ là một ánh xạ $A$-tuyến tính sao cho
 $$
@@ -86,7 +86,7 @@ p : T(M) \to \bigwedge(M) = T(M)/\mathfrak{J}''
 $$
 là đồng cấu chính tắc, ta có thể viết $g_1 = g \circ p$, trong đó $g : \bigwedge(M) \to E$ là một đồng cấu đại số và kết luận sẽ suy ra từ việc $p \circ \phi = \phi''$. Thật vậy, hạt nhân của $g_1$ là một iđêan hai phía mà, theo (1) và quan hệ $g_1 \circ \phi = f$, chứa các phần tử $x \otimes x$ với $x \in M$. Điều này hoàn tất chứng minh.
 
-#### Nhận xét {#alg-iii-s7-n1-rem-1 .statement}
+#### Nhận xét {#alg-iii-s7-n1-rem-1 .statement tag=062U}
 
 (1) Giả sử E là một đại số trên A phân bậc kiểu $\mathbf{Z}$, có phân bậc $(E_n)$, và giả sử thêm rằng ánh xạ tuyến tính $f$ (được giả thiết thỏa mãn (1)) sao cho
 $$
@@ -98,7 +98,7 @@ Khi đó quan hệ $g(x_1 x_2 \ldots x_p) = f(x_1) f(x_2) \ldots f(x_p)$ với $
 
 ### 2. Các tính chất hàm tử của đại số ngoài
 
-#### Mệnh đề 2 {#alg-iii-s7-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-s7-prop-2 .statement tag=062V}
 
 *Cho $A$ là một vành giao hoán, $M$ và $N$ là hai $A$-môđun và $u : M \to N$ là một ánh xạ $A$-tuyến tính. Tồn tại một và chỉ một đồng cấu đại số trên $A$*
 $$
@@ -140,7 +140,7 @@ $$
 $$
 với $x_i \in M$, vì $\Lambda(u)$ là một đồng cấu đại số và $\Lambda^1(u) = u$; hạn chế $\Lambda^0(u)$ trên $A$ là ánh xạ đồng nhất. Chú ý rằng $\Lambda^n(u)$ thu được từ $T^n(u): T^n(M) \to T^n(N)$ bằng cách chuyển qua các thương.
 
-#### Mệnh đề 3 {#alg-iii-s7-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-s7-prop-3 .statement tag=062W}
 
 *Nếu $u: M \to N$ là một ánh xạ $A$-tuyến tính toàn ánh, thì đồng cấu $\Lambda(u): \Lambda(M) \to \Lambda(N)$ là toàn ánh và hạt nhân của nó là iđêan hai phía của $\Lambda(M)$ sinh bởi hạt nhân $P \subset M \subset \Lambda(M)$ của $u$.
 
@@ -148,7 +148,7 @@ Chứng minh được dẫn xuất từ chứng minh của § 6, no. 2, Mệnh �
 
 Nếu $u: M \to N$ là một ánh xạ tuyến tính đơn ánh, thì không phải bao giờ cũng đúng rằng $\Lambda(u)$ là một ánh xạ đơn ánh (§ 6, Bài tập 3) (tuy nhiên xem dưới đây no. 9, Hệ quả của Mệnh đề 12). Tuy nhiên điều đó đúng khi $u$ là một đơn ánh sao cho $u(M)$ là một nhân tử trực tiếp của $N$, và khi đó ảnh của $\Lambda(u)$ (đẳng cấu với $\Lambda(M)$) là một nhân tử trực tiếp của $\Lambda(N)$; chứng minh giống như chứng minh của các khẳng định tương tự đối với $T(u)$ (§ 5, no. 2), thay thế $T$ bằng $\Lambda$.
 
-#### Mệnh đề 4 {#alg-iii-s7-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-s7-prop-4 .statement tag=062X}
 
 *Cho $N$ và $P$ là hai môđun con của một $A$-môđun $M$ sao cho tổng của chúng $N + P$ là một nhân tử trực tiếp trong $M$ và giao của chúng $N \cap P$ là một nhân tử trực tiếp trong $N$ và trong $P$. Khi đó các đồng cấu $\Lambda(N) \to \Lambda(M)$, $\Lambda(P) \to \Lambda(M)$ và $\Lambda(N \cap P) \to \Lambda(M)$, là các mở rộng chính tắc của các đơn ánh chính tắc, đều là đơn ánh; nếu $\Lambda(N)$, $\Lambda(P)$ và $\Lambda(N \cap P)$ được đồng nhất với các đại số con của $\Lambda(M)$ bằng các đồng cấu ấy, thì*
 $$
@@ -156,7 +156,7 @@ $$
 $$
 Chứng minh được dẫn xuất từ chứng minh của § 5, no. 2, Mệnh đề 4 bằng cách thay thế $T$ bởi $\Lambda$ ở mọi chỗ. Các giả thiết của Mệnh đề 4 luôn được thỏa mãn đối với các môđun con tùy ý $N, P$ của $M$ khi $A$ là một trường.
 
-#### Hệ quả {#alg-iii-s7-n2-cor-1 .statement}
+#### Hệ quả {#alg-iii-s7-n2-cor-1 .statement tag=062Y}
 
 *Cho $K$ là một trường giao hoán và $M$ là một không gian vectơ trên $K$. Với mọi phần tử $z \in \Lambda(M)$, tồn tại một không gian con vectơ nhỏ nhất $N$ của $M$ sao cho $z \in \Lambda(N)$ và $N$ là hữu hạn chiều.*
 
@@ -166,7 +166,7 @@ $N$ được gọi là không gian con vectơ của $M$ liên kết với phần
 
 ### 3. TÍNH PHẢN GIAO HOÁN CỦA ĐẠI SỐ NGOẠI
 
-#### Mệnh đề 5 {#alg-iii-s7-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iii-s7-prop-5 .statement tag=062Z}
 
 (i) Cho $(x_i)_{1 \leq i \leq n}$ là một dãy hữu hạn các phần tử của môđun $M$; với mọi phép hoán vị $\sigma$ trong nhóm đối xứng $S_n$,
 
@@ -194,7 +194,7 @@ $$
 
 (ii) Dưới giả thiết của (ii), tồn tại một phép hoán vị $\sigma \in S_n$ sao cho $\sigma(1) = i$ và $\sigma(2) = j$; khi đó vế trái của (6) bằng không đối với phép hoán vị này và vì thế vế phải cũng vậy.
 
-#### Hệ quả 1 {#alg-iii-s7-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-iii-s7-prop-5-cor-1 .statement tag=0630}
 
 Cho $H, K$ là hai tập hợp con bù nhau của khoảng $[1, n]$ của $\mathbf{N}$ và cho $(i_h)_{1 \leq h \leq p}, (j_k)_{1 \leq k \leq n-p}$ là các dãy phần tử của $H$ và $K$ tương ứng, được sắp theo thứ tự tăng; ta viết
 
@@ -212,19 +212,19 @@ trong đó $\nu$ là số các cặp có thứ tự $(i, j) \in H \times K$ sao 
 
 Theo Mệnh đề 5, việc này quy về chứng minh
 
-#### Bổ đề 1 {#alg-iii-s7-lem-1 .statement}
+#### Bổ đề 1 {#alg-iii-s7-lem-1 .statement tag=0631}
 
 Nếu $\sigma \in S_n$ là phép hoán vị sao cho $\sigma(h) = i_h$ với $1 \leq h \leq p$, $\sigma(h) = j_{n-p}$ với $p + 1 \leq h \leq n$, thì $\varepsilon_\sigma = (-1)^\nu$.
 
 Với $1 \leq h < h' \leq p$ hoặc $p + 1 \leq h < h' \leq n$, ta có $\sigma(h') > \sigma(h)$ và số các cặp có thứ tự $(h, h')$ sao cho $1 \leq h \leq p < h' \leq n$ và $\sigma(h) > \sigma(h')$ bằng $\nu$.
 
-#### Hệ quả 2 {#alg-iii-s7-lem-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-iii-s7-lem-1-cor-2 .statement tag=0632}
 
 Đại số phân bậc $\bigwedge(M)$ là phản xứng ($§ 4$, no. 9).
 
 Chỉ cần áp dụng Mệnh đề 13 của $§ 4$, no. 9 cho $\bigwedge(M)$, lấy làm hệ sinh tập hợp $M$ và dùng Mệnh đề 5.
 
-#### Mệnh đề 6 {#alg-iii-s7-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iii-s7-prop-6 .statement tag=0633}
 
 *Nếu M là một A-môđun hữu hạn sinh, thì $\bigwedge(M)$ là một A-môđun hữu hạn sinh; hơn nữa, nếu M thừa nhận một hệ sinh gồm n phần tử, thì $\bigwedge^p(M) = \{0\}$ với $p > n$.*
 
@@ -242,7 +242,7 @@ f(u_1, \ldots, u_p, x, x, v_1, \ldots, v_{n-p-2}) = 0
 $$
 với mọi x, các $u_i$ ($1 \leq i \leq p$) và các $v_j$ ($1 \leq j \leq n - p - 2$) trong M.
 
-#### Mệnh đề 7 {#alg-iii-s7-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iii-s7-prop-7 .statement tag=0634}
 
 *Cho A là một vành giao hoán và M và N là hai A-môđun. Nếu với mỗi ánh xạ A-tuyến tính* $g : \bigwedge^n(M) \to N$ ($n \geq 2$) *ta liên kết ánh xạ n-tuyến tính*
 $$
@@ -271,7 +271,7 @@ $$
 $$
 trùng với $\bigwedge(u)$ trên $\bigwedge^n(M)$ được gọi là *lũy thừa ngoài bậc n của u*.
 
-#### Hệ quả 1 {#alg-iii-s7-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#alg-iii-s7-prop-7-cor-1 .statement tag=0635}
 
 *Với mọi ánh xạ n-tuyến tính phản xứng* $g : M^n \to N$, *với mọi phép hoán vị* $\sigma \in \mathfrak{S}_n$,
 $$
@@ -283,7 +283,7 @@ g(x_1, x_2, \ldots, x_n) = 0.
 $$
 Đây là một hệ quả hiển nhiên của Mệnh đề 7 và no. 3, Mệnh đề 5.
 
-#### Hệ quả 2 {#alg-iii-s7-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#alg-iii-s7-prop-7-cor-2 .statement tag=0636}
 
 *Cho* $(x_i)_{1 \leq i \leq n}$ *là một dãy gồm n phần tử của M sao cho*
 $$
@@ -291,7 +291,7 @@ x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0;
 $$
 *khi đó, với mọi ánh xạ n-tuyến tính phản xứng* $g : M^n \to N$, $g(x_1, \ldots, x_n) = 0$.
 
-#### Hệ quả 3 {#alg-iii-s7-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#alg-iii-s7-prop-7-cor-3 .statement tag=0637}
 
 *Cho* $f : M^{n-1} \to A$ *là một dạng* $(n-1)$*-tuyến tính phản xứng*. *Nếu* $(x_i)_{1 \leq i \leq n}$ *là một dãy gồm n phần tử của M sao cho* $x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0$, *thì*
 $$
@@ -310,7 +310,7 @@ $$
 
 và hệ số của $x_{i+1}$ là $(-1)^{i+1} f(x_1, \ldots, x_i, x_{i+2}, \ldots, x_n)$, và theo giả thiết chúng đối nhau.
 
-#### Nhận xét {#alg-iii-s7-n4-rem-1 .statement}
+#### Nhận xét {#alg-iii-s7-n4-rem-1 .statement tag=0638}
 
 Một phần tử $z$ của $T^n(M)$ được gọi là một tenxơ *phản đối xứng bậc* $n$ (phản biến) nếu $\sigma.z = \varepsilon_\sigma z$ với mọi phép hoán vị $\sigma \in S_n$ (x. § 6, no. 3, Nhận xét); các phần tử ấy tạo thành một A-môđun con $A'_n(M)$ của $T^n(M)$. Với mọi $z \in T^n(M)$, ta đặt $a.z = \sum_{\sigma \in S_n} \varepsilon_\sigma(\sigma.z)$ và gọi $a.z$ là *phản đối xứng hóa* của $z$; do $\varepsilon_{\sigma\tau} = \varepsilon_\sigma \varepsilon_\tau$, thấy ngay lập tức rằng $a.z$ là một tenxơ phản đối xứng và vì vậy $z \mapsto a.z$ là một tự đồng cấu của $T^n(M)$ mà ảnh $A''_n(M)$ của nó được chứa trong $A'_n(M)$; nói chung $A''_n(M) \neq A'_n(M)$ (Bài tập 8). Nếu $z$ là một tenxơ phản đối xứng, thì $a.z = n!z$; do đó, *khi* $n!$ *khả nghịch trong* $A$, tự đồng cấu $z \mapsto (n!)^{-1}a.z$ là một *phép chiếu* của $T^n(M)$ mà ảnh là
 
@@ -354,7 +354,7 @@ $$
 
 tương ứng với $A$-đồng cấu hợp thành $g \circ f : M \to M''$ (đối với $\sigma \circ \rho$).
 
-#### Mệnh đề 8 {#alg-iii-s7-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iii-s7-prop-8 .statement tag=0639}
 
 *Cho $A, B$ là hai vành giao hoán, $\rho : A \to B$ là một đồng cấu vành và $M$ là một $A$-môđun. Mở rộng chính tắc*
 
@@ -370,7 +370,7 @@ Chứng minh được dẫn xuất từ chứng minh của § 5, no. 4, Mệnh �
 
 Cho $(A_\alpha, \phi_{\beta \alpha})$ là một hệ trực tiếp có hướng các vành giao hoán, $(M_\alpha, f_{\beta \alpha})$ là một hệ trực tiếp các $A_\alpha$-môđun, $A = \lim \to A_\alpha$ và $M = \lim \to M_\alpha$. Với $\alpha \leq \beta$, từ đồng cấu $A_\alpha$-môđun $f_{\beta \alpha} : M_\alpha \to M_\beta$ ta suy ra một cách chính tắc một đồng cấu đại số $A_\alpha$ (no. 5, công thức (12)) $f_{\beta \alpha}' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_{A_\beta}(M_\beta)$ và từ (13) suy ra rằng $(\bigwedge_{A_\alpha}(M_\alpha), f_{\beta \alpha}')$ là một *hệ trực tiếp các* $A_\alpha$*-môđun phân bậc*. Mặt khác, cho $f_\alpha : M_\alpha \to M$ là đồng cấu chính tắc $A_\alpha$; ta suy ra (no. 5, công thức (12)) một đồng cấu đại số phân bậc $A_\alpha$ $f_\alpha'' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_A(M)$ và từ (13) cũng suy ra rằng các $f_\alpha''$ cấu thành một hệ trực tiếp các đồng cấu $A_\alpha$.
 
-#### Mệnh đề 9 {#alg-iii-s7-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iii-s7-prop-9 .statement tag=063A}
 
 *Đồng cấu A* $f'' = \varprojlim f''_\alpha : \varprojlim \Lambda_{A_\alpha}(M_\alpha) \to \Lambda_A(M)$ *là một đẳng cấu đại số phân bậc*.
 
@@ -392,7 +392,7 @@ $$
 
 ký hiệu đồng cấu chính tắc.
 
-#### Mệnh đề 10 {#alg-iii-s7-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iii-s7-prop-10 .statement tag=063B}
 
 *Đồng cấu chính tắc* g (*công thức (14)*) *là một đẳng cấu đại số phân bậc*.
 
@@ -416,7 +416,7 @@ $$
 
 sao cho $h \circ \phi''_M = u$. Việc kiểm tra rằng $g \circ h$ và $h \circ g$ là các ánh xạ đồng nhất khi đó được thực hiện như trong § 6, no. 6, Mệnh đề 9, thay $S$ bằng $\Lambda$ và $\phi'$ bằng $\phi''$.
 
-#### Nhận xét {#alg-iii-s7-n7-rem-1 .statement}
+#### Nhận xét {#alg-iii-s7-n7-rem-1 .statement tag=063C}
 
 Cho $N = \bigoplus_{\lambda \in L} N_\lambda$ là tổng trực tiếp của một họ khác các $A$-môđun với L làm tập hợp chỉ số và, với mọi $\lambda \in L$, cho $v_\lambda : M_\lambda \to N_\lambda$ là một ánh xạ $A$-tuyến tính, do đó có một ánh xạ $A$-tuyến tính $v = \bigoplus_\lambda v_\lambda : M \to N$ (II, § 1, no. 6, Mệnh đề 7). Khi đó biểu đồ
 
@@ -454,13 +454,13 @@ $$
 
 thì thấy rằng, có lưu ý đến II, § 6, no. 2, Mệnh đề 5, ta có:
 
-#### Hệ quả {#alg-iii-s7-n7-cor-1 .statement}
+#### Hệ quả {#alg-iii-s7-n7-cor-1 .statement tag=063D}
 
 *A-môđun* $\bigwedge^n(M)$ *là ảnh qua đẳng cấu (14) của môđun con của* $\bigotimes_{\lambda \in L} \bigwedge(M_\lambda)$* là tổng trực tiếp của các môđun con* $\bigwedge^\nu(M)$* với mọi họ* $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$* sao cho* $\sum_{\lambda \in L} n_\lambda = n$; *nếu* $J$* là giá của* $\nu$, $\bigwedge^\nu(M)$* đẳng cấu chính tắc với* $\bigotimes_{\lambda \in J} \bigwedge^{n_\lambda}(M_\lambda)$.
 
 Nói chung $\bigwedge^\nu(M)$, $\bigotimes_{\lambda \in J} \bigwedge^{n_\lambda}(M_\lambda)$ và ảnh của chúng trong $\bigwedge^n(M)$ được đồng nhất. Với quy ước này:
 
-#### Mệnh đề 11 {#alg-iii-s7-prop-11 .statement}
+#### Mệnh đề 11 {#alg-iii-s7-prop-11 .statement tag=063E}
 
 *Cho* $\Delta$ *là một monoïde giao hoán, $M$ là một A-môđun phân bậc kiểu $\Delta$ và* $(M_\alpha)_{\alpha \in \Delta}$* *phân bậc của nó. Với mọi cặp có thứ tự* $(\alpha, n) \in \Delta \times \mathbf{N}$, *đặt* $\bigwedge^{\alpha,n}(M)$* *là môđun con của* $\bigwedge^n(M)$* *bằng tổng trực tiếp của các môđun con* $\bigotimes_{\lambda \in J} \bigwedge^{n_\lambda}(M_{\alpha_\lambda})$, *trong đó* $(n_\lambda)_{\lambda \in L}$* *chạy qua tập các họ số nguyên* $\geq 0$* *sao cho* $\sum_{\lambda \in L} n_\lambda = n$, $J$* *là giá của nó và, với mỗi* $(n_\lambda)$, $(\alpha_\lambda)_{\lambda \in J}$* *chạy qua tập các họ của* $\Delta^J$* *sao cho* $\sum_{\lambda \in J} \alpha_\lambda = \alpha$. *Khi đó* $(\bigwedge^{\alpha,n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$* *là phân bậc duy nhất kiểu* $\Delta \times \mathbf{N}$* *tương thích với cấu trúc đại số trên* $\bigwedge(M)$* *và cảm sinh trên* $M = \bigwedge^1(M)$* *phân bậc đã cho.*
 
@@ -468,7 +468,7 @@ Việc $\bigwedge(M)$ là tổng trực tiếp của các $\bigwedge^{\alpha,n}(
 
 ### 8. ĐẠI SỐ NGOÀI CỦA MỘT MÔĐUN TỰ DO
 
-#### Định lý 1 {#alg-iii-s7-thm-1 .statement}
+#### Định lý 1 {#alg-iii-s7-thm-1 .statement tag=063F}
 
 *Cho* $M$* *là một A-môđun có một cơ sở* $(e_\lambda)_{\lambda \in L}$. *Giả sử* $L$* *được trang bị cấu trúc của một tập hợp sắp thứ tự toàn phần* (Lý thuyết tập hợp, III, § 2, no. 3, Định lý 1)* *và với mọi tập con hữu hạn* $J$* *của* $L$* *ta viết*
 
@@ -488,7 +488,7 @@ $$
 
 trong đó hoặc $u_i = 1$ hoặc $u_i = e_i$; nếu J là tập hợp các chỉ số i sao cho $u_i = e_i$, thì $u_1 \otimes u_2 \otimes \cdots \otimes u_m$ đồng nhất với $e_J$, điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 {#alg-iii-s7-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-iii-s7-thm-1-cor-1 .statement tag=063G}
 
 Giả sử rằng $L = \{1, m\}$; khi đó cơ sở $(e_J)_{J \in \mathscr{P}(L)}$ của $\bigwedge(M)$ có $2^m$ phần tử. Với $p > m$, $\bigwedge^p(M) = \{0\}$; $\bigwedge^m(M)$ có một cơ sở gồm một phần tử duy nhất $e_L$; với $0 \leq p \leq m$ số phần tử trong cơ sở $(e_J)$ của $\bigwedge^p(M)$ gồm các $e_J$ sao cho $\mathrm{Card}(J) = p$ là
 
@@ -515,13 +515,13 @@ $$
 $$
 khi $J \cap K = \varnothing, j = \mathrm{Card}(J), k = \mathrm{Card}(K)$ (no. 3, Hệ quả 2 của Mệnh đề 5.)
 
-#### Hệ quả 2 {#alg-iii-s7-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-iii-s7-thm-1-cor-2 .statement tag=063H}
 
 *Nếu M là một A-môđun xạ ảnh, $\bigwedge(M)$ là một A-môđun xạ ảnh.*
 
 Chứng minh giống như chứng minh của § 5, no. 5, Hệ quả của Định lý 1 khi thay T bằng $\bigwedge$.
 
-#### Hệ quả 3 {#alg-iii-s7-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-iii-s7-thm-1-cor-3 .statement tag=063I}
 
 *Cho M là một A-môđun xạ ảnh và $(x_i)_{1 \leq i \leq n}$ một dãy hữu hạn các phần tử của M. Để tồn tại trên M một dạng phản xứng n-tuyến tính f sao cho*
 $$
@@ -541,7 +541,7 @@ là đơn ánh (II, § 2, no. 7, Hệ quả 4 của Mệnh đề 13); ta kết l
 
 ### 9. CÁC TIÊU CHUẨN VỀ TÍNH PHỤ THUỘC TUYẾN TÍNH
 
-#### Mệnh đề 12 {#alg-iii-s7-prop-12 .statement}
+#### Mệnh đề 12 {#alg-iii-s7-prop-12 .statement tag=063J}
 
 *Cho M là một A-môđun xạ ảnh. Để các phần tử $x_1, x_2, \ldots, x_n$ của M phụ thuộc tuyến tính, điều kiện cần và đủ là tồn tại $\lambda \neq 0$ trong A sao cho*
 $$
@@ -558,7 +558,7 @@ x_1 \wedge (\lambda x_2) \wedge \cdots \wedge x_n = 0,
 $$
 nên từ no. 8, Hệ quả 3 của Định lý 1 suy ra rằng $\mu x_1$ là một tổ hợp tuyến tính của $\lambda x_2, x_3, \ldots, x_n$; do đó $x_1, x_2, \ldots, x_n$ phụ thuộc tuyến tính.
 
-#### Hệ quả {#alg-iii-s7-n9-cor-1 .statement}
+#### Hệ quả {#alg-iii-s7-n9-cor-1 .statement tag=063K}
 
 *Cho M và N là hai A-môđun xạ ảnh và $f : M \to N$ là một ánh xạ A-tuyến tính. Nếu f là đơn ánh, thì $\Lambda(f) : \Lambda(M) \to \Lambda(N)$ cũng là đơn ánh.*
 
@@ -591,7 +591,7 @@ $$
 
 nên ta kết luận rằng $\Lambda(f)$ là đơn ánh.
 
-#### Mệnh đề 13 {#alg-iii-s7-prop-13 .statement}
+#### Mệnh đề 13 {#alg-iii-s7-prop-13 .statement tag=063L}
 
 *Cho $M$ là một $A$-môđun, $N$ là một môđun con hạng tử trực tiếp của $M$ tự do có chiều $p$ và $\{u\}$ là một cơ sở của $\Lambda^p(N)$. Để một phần tử $x \in M$ thuộc $N$, điều kiện cần và đủ là $u \wedge x = 0$.*
 
@@ -603,7 +603,7 @@ $$
 
 là đơn ánh. Do đó ánh xạ $\psi \circ \phi$ là đơn ánh, do đó mệnh đề được chứng minh.
 
-#### Định lý 2 {#alg-iii-s7-thm-2 .statement}
+#### Định lý 2 {#alg-iii-s7-thm-2 .statement tag=063M}
 
 *Cho $M$ là một $A$-môđun có một cơ sở hữu hạn $(e_i)_{1 \leq i \leq n}$. Để một dãy $(x_i)_{1 \leq i \leq n}$ gồm $n$ phần tử của $M$ lập thành một cơ sở của $M$, điều kiện cần và đủ là phần tử $\lambda \in A$ sao cho
 

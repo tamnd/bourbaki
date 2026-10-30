@@ -32,7 +32,7 @@ subsections:
       pdf_page: 223
 statements: 15
 exercises: 22
-content_sha256: 0bf4b89ff6f396b5bf8440b22b75e82b18dc143a4310e5228be60325d35a40e7
+content_sha256: 795159128f717acb997d86460da2ece317e99ca119c95a8dbe4c58e987892dfa
 ---
 
 ## § 2. Anneaux de Dedekind
@@ -44,7 +44,7 @@ a) les idéaux premiers non nuls de $A$ sont deux à deux non comparables pour l
 b) les idéaux premiers non nuls de $A$ sont maximaux ;
 c) les idéaux premiers non nuls de $A$ sont de hauteur 1.
 
-#### Définition 1 {#ac-vii-s2-def-1 .statement}
+#### Définition 1 {#ac-vii-s2-def-1 .statement tag=050M}
 
 On appelle anneau de Dedekind un anneau de Krull dont tous les idéaux premiers non nuls sont maximaux.
 
@@ -58,7 +58,7 @@ Exemples d’anneaux de Dedekind. — 1) Tout anneau principal est un anneau de 
 
 ### 2. Caractérisations des anneaux de Dedekind
 
-#### Théorème 1 {#ac-vii-s2-thm-1 .statement}
+#### Théorème 1 {#ac-vii-s2-thm-1 .statement tag=050N}
 
 Soient A un anneau intègre, K son corps des fractions. Les conditions suivantes sont équivalentes :
 
@@ -91,7 +91,7 @@ Montrons enfin que g) implique a). Comme $A$ est l’intersection des $A_m$, où
 
 C.Q.F.D.
 
-#### Proposition 1 {#ac-vii-s2-prop-1 .statement}
+#### Proposition 1 {#ac-vii-s2-prop-1 .statement tag=050O}
 
 *Un anneau de Dedekind semi-local est principal.*
 
@@ -131,7 +131,7 @@ Lorsque A est principal, les résultats ci-dessus redonnent ceux d’Alg., chap.
 
 Dans les anneaux de Dedekind, on a un « théorème d’approximation » qui améliore à la fois le th. 1 du chap. VI, § 7, n° 2 et la prop. 9 du § 1, n° 5:
 
-#### Proposition 2 {#ac-vii-s2-prop-2 .statement}
+#### Proposition 2 {#ac-vii-s2-prop-2 .statement tag=050P}
 
 *Soient A un anneau de Dedekind, K son corps des fractions, et P l’ensemble des idéaux premiers non nuls de A; pour $p \in P$, notons $v_p$ la valuation essentielle correspondante de A. Soient $p_1, \ldots, p_q$ des éléments deux à deux distincts de P, $n_1, \ldots, n_q$ des entiers rationnels, et $x_1, \ldots, x_q$ des éléments de K. Il existe alors $x \in K$ tel que $v_{p_i}(x - x_i) \geq n_i$ pour $1 \leq i \leq q$, et que $v_p(x) \geq 0$ pour tout $p \in P$ distinct des $p_i$.*
 
@@ -147,7 +147,7 @@ La proposition 2 peut s’interpréter comme un théorème de densité. De faço
 
 Pour tout $x \in K$, soit $\Delta(x)$ l’élément $(x_p) \in \prod_{p \in P} \hat{K}_p$ tel que $x_p = x$ pour tout $p \in P$; comme $x_p \in \hat{A}_p$ sauf pour un nombre fini de valeurs de $p$, on a $\Delta(x) \in A$; on définit donc ainsi un homomorphisme $\Delta : K \to A$, qui est injectif si $P \neq \emptyset$ (c’est-à-dire si $A$ n’est pas un corps); les éléments de $\Delta(K)$ sont dits adèles restreints principaux, et il est clair que $\Delta(A) \subset A_0$. Dans la suite de ce numéro, nous supposerons que $A$ n’est pas un corps.
 
-#### Proposition 3 {#ac-vii-s2-prop-3 .statement}
+#### Proposition 3 {#ac-vii-s2-prop-3 .statement tag=050Q}
 
 L’anneau $A_0$ (resp. $A$) s’identifie au complété de $A$ (resp. $K$) pour la topologie d’anneau dont un système fondamental de voisinages de 0 est formé de tous les idéaux entiers $\neq (0)$ de $A$.
 
@@ -157,7 +157,7 @@ On pourrait naturellement aussi prouver que $\Delta(K)$ est dense dans $A$ en ut
 
 Considérons maintenant le groupe multiplicatif $SL(n, A)$, formé des matrices $U \in M_n(A)$ telles que $\det(U) = 1$; si on munit $M_n(A) = A^{n^2}$ de la topologie produit, elle induit sur $SL(n, A)$ une topologie compatible avec la structure de groupe de $SL(n, A)$. En effet, il suffit de voir que l’application $U \to U^{-1}$ est continue dans $SL(n, A)$; mais comme $U$ est unimodulaire, on sait (Alg., chap. III, § 6, n° 5, formule (17)) que les éléments de $U^{-1}$ sont des mineurs de $U$, donc des polynômes en les éléments de $U$, ce qui prouve notre assertion. Si on identifie $K$ à un sous-anneau de $A$ au moyen de $\Delta$, le groupe $SL(n, K)$ est un sous-groupe de $SL(n, A)$.
 
-#### Proposition 4 {#ac-vii-s2-prop-4 .statement}
+#### Proposition 4 {#ac-vii-s2-prop-4 .statement tag=050R}
 
 *Le groupe $SL(n, K)$ est dense dans $SL(n, A)$*.
 
@@ -165,23 +165,23 @@ Soit $G$ l’adhérence de $SL(n, K)$ dans $SL(n, A)$; comme $K$ est dense dans 
 
 ### 5. Le théorème de Krull–Akizuki.
 
-#### Lemme 1 {#ac-vii-s2-lem-1 .statement}
+#### Lemme 1 {#ac-vii-s2-lem-1 .statement tag=050S}
 
 Soient $A$ un anneau noethérien intègre dans lequel tout idéal premier non nul est maximal, et $M$ un $A$-module de torsion de type fini. Alors la longueur $\operatorname{long}_A(M)$ de $M$ est finie.
 
 En effet, comme $M$ est un module de torsion, tout idéal premier associé à $M$ est $\neq (0)$, donc maximal. Le lemme résulte alors du chap. IV, § 2, n° 5, prop. 7.
 
-#### Lemme 2 {#ac-vii-s2-lem-2 .statement}
+#### Lemme 2 {#ac-vii-s2-lem-2 .statement tag=050T}
 
 Soient $A$ un anneau, $T$ un $A$-module, $(T_j)$ une famille filtrante croissante de sous-modules de $T$, de réunion $T$. Alors $\operatorname{long}_A(T) = \sup (\operatorname{long}_A(T_j))$.
 
 On a $\operatorname{long}_A(T_j) \leq \operatorname{long}_A(T)$ pour tout $j$. Le lemme est évident si aucun entier ne majore les $\operatorname{long}_A(T_j)$, les deux membres étant alors infinis. Sinon, soit $i_0$ un indice pour lequel $\operatorname{long}_A(T_{i_0})$ prenne sa plus grande valeur; on a $T_{i_0} = T$ puisque la famille $(T_j)$ est filtrante; d’où notre assertion dans ce cas.
 
-#### Remarque {#ac-vii-s2-n5-rem-1 .statement}
+#### Remarque {#ac-vii-s2-n5-rem-1 .statement tag=050U}
 
 Cette démonstration ne suppose pas $A$ commutatif.
 
-#### Lemme 3 {#ac-vii-s2-lem-3 .statement}
+#### Lemme 3 {#ac-vii-s2-lem-3 .statement tag=050V}
 
 Soient $A$ un anneau intègre noethérien tel que tout idéal premier non nul de $A$ soit maximal, $M$ un $A$-module sans torsion de rang fini $r$, et $a$ un élément non nul de $A$. Alors $A/Aa$ est un $A$-module de longueur finie, et on a:
 
@@ -228,7 +228,7 @@ d’après le lemme 2.
 
 C.Q.F.D.
 
-#### Proposition 5 (Krull-Akizuki) {#ac-vii-s2-prop-5 .statement}
+#### Proposition 5 (Krull-Akizuki) {#ac-vii-s2-prop-5 .statement tag=050W}
 
 Soient $A$ un anneau intègre noethérien dont tout idéal premier non nul est maximal, $K$ son corps des fractions, $L$ une extension de degré fini de $K$, et $B$ un sous-anneau de $L$ contenant $A$. Alors $B$ est noethérien, et tout idéal premier non nul de $B$ est maximal. En outre, pour tout idéal $b \neq (0)$ de $B$, $B/b$ est un $A$-module de type fini.
 
@@ -246,13 +246,13 @@ Ce qui précède montre d’abord que $B$ est noethérien. D’autre part, si $p
 
 C.Q.F.D.
 
-#### Corollaire 1 {#ac-vii-s2-prop-5-cor-1 .statement}
+#### Corollaire 1 {#ac-vii-s2-prop-5-cor-1 .statement tag=050X}
 
 Pour tout idéal premier $p$ de $A$, l’ensemble des idéaux premiers de $B$ au-dessus de $p$ est fini.
 
 Supposons d’abord $p = (0)$; alors le seul idéal premier $q$ de $B$ tel que $q \cap A = (0)$ est $(0)$; sinon, en posant $S = A - \{0\}$, $S^{-1}q$ serait un idéal premier non nul de $S^{-1}B$ (chap. II, § 2, no 5, prop. 11), et $S^{-1}B$ n’est autre que le corps des fractions de $B$, car c’est un sous-anneau de $L$ contenant $K$ (Alg., chap. V, § 3, no 2, prop. 3); d’où une conclusion absurde. Si maintenant $p \neq (0)$, il résulte de la prop. 5 que $B/pB$ est un espace vectoriel de dimension finie sur le corps $A/p$, donc un anneau artinien, et par suite n’a qu’un nombre fini d’idéaux premiers (chap. IV, § 2, no 5, prop. 9), ce qui prouve qu’il n’y a qu’un nombre fini d’idéaux premiers de $B$ contenant $p$.
 
-#### Corollaire 2 {#ac-vii-s2-prop-5-cor-2 .statement}
+#### Corollaire 2 {#ac-vii-s2-prop-5-cor-2 .statement tag=050Y}
 
 La fermeture intégrale de $A$ dans $L$ est un anneau de Dedekind.
 
@@ -260,11 +260,11 @@ Cette fermeture intégrale est, en effet, un anneau noethérien intégralement c
 
 En particulier :
 
-#### Corollaire 3 {#ac-vii-s2-prop-5-cor-3 .statement}
+#### Corollaire 3 {#ac-vii-s2-prop-5-cor-3 .statement tag=050Z}
 
 La fermeture intégrale d’un anneau de Dedekind dans une extension de degré fini de son corps des fractions est un anneau de Dedekind.
 
-#### Proposition 6 {#ac-vii-s2-prop-6 .statement}
+#### Proposition 6 {#ac-vii-s2-prop-6 .statement tag=0510}
 
 Soient $A$ un anneau de Dedekind, $K$ son corps des fractions, $L$ une extension de degré fini de $K$, et $B$ la fermeture intégrale de $A$ dans $L$. Soient $p$ un idéal premier non nul de $A$, $v$ la valuation essentielle de $K$ correspondante, et
 

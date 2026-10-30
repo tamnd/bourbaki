@@ -29,7 +29,7 @@ subsections:
       pdf_page: 23
 statements: 32
 exercises: 18
-content_sha256: ec5f5ee7ab2d50521a3dffdf01308cb0f163b9c7ab87830e3f0a6f147a5b53a9
+content_sha256: 371d31a15a93b5eec314c8e34ebb45efc318df30c28a0f9362db54312720581c
 translated_from: content/en-mt/ac/VIII/02_s2_dimension_des_algebres.md
 source_lang: en-mt
 translation_method: machine
@@ -48,19 +48,19 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 Cho $\rho : A \to B$ là một đồng cấu các vành. Ta ký hiệu bởi (PM) điều kiện sau:
 (PM) Tồn tại một B-môđun N phẳng trung thành trên A sao cho, với mọi iđêan nguyên tố q của B, ta có $N \otimes_B \kappa(q) \neq 0$.
 
-#### Nhận xét 1 {#ac-viii-s2-n1-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s2-n1-rem-1 .statement tag=0CL9}
 
 Điều kiện (PM) được thỏa mãn khi tồn tại một B-môđun sinh hữu hạn, phẳng trung thành trên A và có giá bằng Spec(B). Đặc biệt, đây là trường hợp nếu A-môđun B là phẳng trung thành.
 
-#### Nhận xét 2 {#ac-viii-s2-n1-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s2-n1-rem-2 .statement tag=0CLA}
 
 Sự tồn tại của một B-môđun N phẳng trung thành trên A kéo theo tính đơn ánh của ρ (I, § 3, No. 5, mệnh đề 8), và tính toàn ánh của ánh xạ “ρ : Spec(B) → Spec(A) (II, § 2, No. 5, hệ quả 4 của mệnh đề 11).
 
-#### Nhận xét 3 {#ac-viii-s2-n1-rem-3 .statement}
+#### Nhận xét 3 {#ac-viii-s2-n1-rem-3 .statement tag=0CLB}
 
 Giả sử rằng ρ : A → B là một đồng cấu địa phương của các vành địa phương và rằng tồn tại một B-môđun N phẳng trên A sao cho N ⊗_B κ(q) ≠ 0 với mọi iđêan nguyên tố q của B. Khi đó N là phẳng trung thành trên A và vì vậy ρ có tính chất (PM): thật vậy ta có N/m_B N = N ⊗_B κ(m_B) ≠ 0, do đó N ≠ m_B N và a fortiori N ≠ m_A N, và kết luận suy ra từ mệnh đề 1 của I, § 3, No. 1.
 
-#### Mệnh đề 1 {#ac-viii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#ac-viii-s2-prop-1 .statement tag=0CLC}
 
 Cho ρ : A → B là một đồng cấu các vành thỏa mãn điều kiện (PM).
 
@@ -82,7 +82,7 @@ Chứng minh b). Theo các mệnh đề 13 và 14 của II, § 3, No. 4, A_p-mô
 
 Chứng minh c). Đồng cấu địa phương ρ_q : A_p → B_q suy ra từ ρ thỏa mãn điều kiện (PM) theo b). Do đó ánh xạ Spec(B_q) → Spec(A_p) là toàn ánh (Nhận xét 2), điều phải chứng minh.
 
-#### Hệ quả {#ac-viii-s2-n1-cor-1 .statement}
+#### Hệ quả {#ac-viii-s2-n1-cor-1 .statement tag=0CLD}
 
 Cho F là một tập con đóng của Spec(A). Nếu Y là một thành phần bất khả quy của ảnh ngược của F bởi ánh xạ “ρ : Spec(B) → Spec(A), thì bao đóng của “ρ(Y) là một thành phần bất khả quy của F.
 
@@ -90,7 +90,7 @@ Thật vậy, cho a là một iđêan của A sao cho F = V(a) và q là iđêan
 
 Vấn đề là chứng minh rằng nếu q là cực tiểu trong số các iđêan nguyên tố của B chứa $\rho(a)$, thì $\rho^{-1}(q)$ là cực tiểu trong số các iđêan nguyên tố của A chứa a. Nếu không, sẽ tồn tại một iđêan nguyên tố $p'$ của A sao cho $a \subset p' \subset \rho^{-1}(q)$ và $p' \neq \rho^{-1}(q)$; theo mệnh đề 1, c), sẽ tồn tại một iđêan nguyên tố $q'$ của B sao cho $q' \subset q$ và $p' = \rho^{-1}(q')$, do đó $\rho(a) \subset q' \subset q$ và $q' \neq q$, trái với giả thiết đặt ra trên q.
 
-#### Mệnh đề 2 {#ac-viii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#ac-viii-s2-prop-2 .statement tag=0CLE}
 
 Cho $\rho : A \to B$ là một đồng cấu của các vành khác không có tính chất (PM). Ta có bất đẳng thức
 
@@ -114,23 +114,23 @@ $$
 $$
 nếu $p_0 \subset ... \subset p_n$ là một dây chuyền các iđêan nguyên tố của A được chứa trong m và $\overline{q}_0 \subset ... \subset \overline{q}_r$ là một dây chuyền các iđêan nguyên tố của B/mB. Với $0 \leq i \leq r$, tồn tại một iđêan nguyên tố $q_{n+i}$ của B nằm trên m sao cho $\overline{q}_i = q_{n+i}/mB$, và $q_n \subset ... \subset q_{n+r}$ là một dây chuyền các iđêan nguyên tố của B. Đặt $p'_i = p_i$ với $0 \leq i \leq n-1$ và $p'_n = m$, sao cho $p'_0 \subset ... \subset p'_n$ là một dây chuyền các iđêan nguyên tố của A và q_n nằm trên $p'_n$. Nếu $q_i$ là một iđêan nguyên tố của B nằm trên $p'_i$ ($1 \leq i \leq n$), mệnh đề 1, c) chứng minh rằng tồn tại một iđêan nguyên tố $q_{i-1}$ của B nằm trên $p'_{i-1}$ và được chứa trong $q_i$. Bằng quy nạp đi xuống, do đó ta xây dựng được một dây chuyền $q_0 \subset ... \subset q_n$ các iđêan nguyên tố của B sao cho $q_i$ nằm trên $p_i$ với $0 \leq i \leq n$. Vì $q_0 \subset ... \subset q_{n+r}$ là một dây chuyền các iđêan nguyên tố của B, ta đã chứng minh bất đẳng thức (3).
 
-#### Nhận xét 4 {#ac-viii-s2-n1-rem-4 .statement}
+#### Nhận xét 4 {#ac-viii-s2-n1-rem-4 .statement tag=0CLF}
 
 Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether thỏa mãn điều kiện (PM). Ta sẽ thấy về sau (§ 3, no 4, mệnh đề 7) rằng trong trường hợp này có đẳng thức trong (1). Trong trường hợp tổng quát có thể có bất đẳng thức ngặt (p. 84, bài tập 1).
 
-#### Hệ quả {#ac-viii-s2-n1-cor-2 .statement}
+#### Hệ quả {#ac-viii-s2-n1-cor-2 .statement tag=0CLG}
 
 Với mọi iđêan a của A, ta có $\mathrm{ht}(a) \leq \mathrm{ht}(\rho(a)B)$.
 
 Cho q là một iđêan nguyên tố của B chứa $\rho(a)B$, và $p = \rho^{-1}(q)$. Theo mệnh đề 1, đồng cấu địa phương $\rho_q : A_p \to B_q$ suy ra từ $\rho$ thỏa mãn (PM), và do đó ta có $\dim(A_p) \leq \dim(B_q)$ theo mệnh đề 2. Theo mệnh đề 7 của § 7, số 3, ta có $\mathrm{ht}(a) \leq \dim(A_p)$ vì p chứa a, do đó $\mathrm{ht}(a) \leq \dim(B_q)$ đối với mọi iđêan nguyên tố q của B chứa $\rho(a)B$. Khi đó hệ quả được suy ra từ loc. cit.
 
-#### Bổ đề 1 {#ac-viii-s2-lem-1 .statement}
+#### Bổ đề 1 {#ac-viii-s2-lem-1 .statement tag=0CLH}
 
 Cho $\rho : A \to B$ là một đồng cấu vành và p là một iđêan nguyên tố của A. Ánh xạ liên tục $^a h : \mathrm{Spec}(B \otimes_A \kappa(p)) \to \mathrm{Spec}(B)$, liên kết với đồng cấu chính tắc $h : B \to B \otimes_A \kappa(p)$, *cảm sinh một đồng phôi của* $\mathrm{Spec}(B \otimes_A \kappa(p))$ *lên không gian con* $(\alpha\rho)^{-1}(p)$ *của* $\mathrm{Spec}(B)$ *được tạo thành bởi các iđêan nguyên tố của* $B$ *nằm trên* $p$.
 
 Đồng cấu $h$ là hợp thành của đồng cấu chuyển qua thương từ $B$ vào $B/\rho(p)$ $B$ và của đồng cấu chính tắc từ $B/\rho(p)$ $B$ vào vành phân thức của nó $(\rho(A - p))^{-1}(B/\rho(p) \ B)$. Theo nhận xét và hệ quả của mệnh đề 13 của II, § 4, số 3, do đó $^a h$ cảm sinh một đồng phôi của $\mathrm{Spec}(B \otimes_A \kappa(p))$ lên không gian con của $\mathrm{Spec}(B)$ được tạo thành bởi các iđêan nguyên tố $q$ của $B$ chứa $\rho(p)$ và rời nhau với $\rho(A - p)$, tức là những iđêan nằm trên $p$.
 
-#### Nhận xét 5 {#ac-viii-s2-n1-rem-5 .statement}
+#### Nhận xét 5 {#ac-viii-s2-n1-rem-5 .statement tag=0CLI}
 
 Theo mệnh đề 2 và Bổ đề 1, do đó ta có, dưới các giả thiết của mệnh đề 2, bất đẳng thức
 $$
@@ -139,7 +139,7 @@ $$
 
 ### 2. Chiều của một đại số kiểu hữu hạn
 
-#### Mệnh đề 3 {#ac-viii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#ac-viii-s2-prop-3 .statement tag=0CLJ}
 
 *Cho* $\rho : A \to B$ *là một đồng cấu vành*. *Đặt*
 $n = \sup_{p \in \mathrm{Spec}(A)} \dim(B \otimes_A \kappa(p))$. *Ta có bất đẳng thức*
@@ -149,15 +149,15 @@ $$
 
 Ta có thể giả sử $\dim(A) \neq -\infty$ và $n < +\infty$. Cho $q_0 \subset ... \subset q_m$ là một dãy các iđêan nguyên tố của B; đặt $p_i = \rho^{-1}(q_i)$. Dãy các $p_i$ là tăng, vì thế tập hợp các giá trị của nó có lực lượng $\leq \dim(A) + 1$. Với mỗi $p \in \mathrm{Spec}(A)$, tập hợp các $q_j$ sao cho $p_j = p$ là một dãy của tập con $^a\rho^{-1}(p)$ của $\mathrm{Spec}(B)$, do đó có lực lượng nhỏ hơn $\dim(B \otimes_A \kappa(p)) + 1$ (số 1, Bổ đề 1), và do đó nhỏ hơn hoặc bằng $(n + 1)$. Suy ra $m + 1 \leq (\dim(A) + 1)(n + 1)$, do đó có mệnh đề.
 
-#### Nhận xét 1 {#ac-viii-s2-n2-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s2-n2-rem-1 .statement tag=0CLK}
 
 Nếu các vành $A$ và $B$ là Noether, ta sẽ thấy dưới đây (§ 3, số 4, hệ quả 2 của mệnh đề 7) rằng ta có bất đẳng thức $\dim(B) \leq \dim(A) + n$, mạnh hơn bất đẳng thức của mệnh đề 3.
 
-#### Hệ quả 1 {#ac-viii-s2-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-viii-s2-prop-3-cor-1 .statement tag=0CLL}
 
 *Giả sử rằng ta có* $\dim(A) < +\infty$ *và rằng tồn tại một số nguyên* $n$ *sao cho* $\dim(B \otimes_A \kappa(p)) \leq n$ *với mọi* $p \in \mathrm{Spec}(A)$. *Khi đó ta có* $\dim(B) < +\infty$.
 
-#### Hệ quả 2 {#ac-viii-s2-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-viii-s2-prop-3-cor-2 .statement tag=0CLM}
 
 *Cho* $A$ *là một vành và* $B = A[X]$ *là vành các đa thức theo một bất định với hệ số trong* $A$. *Ta có* :
 $$
@@ -168,7 +168,7 @@ Bất đẳng thức thứ nhất đã được chứng minh (§ 1, No. 3, ví d
 
 Tuy nhiên, dù các số nguyên n và q với n + 1 ≤ q ≤ 2n + 1 là thế nào, vẫn tồn tại một vành A có chiều n sao cho dim(A[X]) = q (xem p. 84, bài tập 7).
 
-#### Hệ quả 3 {#ac-viii-s2-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-viii-s2-prop-3-cor-3 .statement tag=0CLO}
 
 Nếu A có số chiều hữu hạn, thì mọi đại số trên A sinh hữu hạn khác không đều có số chiều hữu hạn.
 
@@ -176,13 +176,13 @@ Thật vậy, từ hệ quả 2, bằng quy nạp theo n, suy ra rằng vành A[
 
 ### 3. Chiều của một đại số nguyên
 
-#### Bổ đề 2 {#ac-viii-s2-lem-2 .statement}
+#### Bổ đề 2 {#ac-viii-s2-lem-2 .statement tag=0CLP}
 
 Cho ρ : A → B là một đồng cấu vành sao cho, với mọi iđêan nguyên tố p của A, đại số trên $\kappa(p)$ B ⊗ₓₐ κ(p) là nguyên (V, § 1, No. 1, định nghĩa 2). Gọi q và q’ là hai iđêan nguyên tố của B sao cho q ⊂ q’ và q ≠ q’. Khi đó ρ⁻¹(q) ≠ ρ⁻¹(q’).
 
 Thật vậy, nếu q và q’ nằm trên cùng một iđêan nguyên tố p của A, thì ta có dim(B ⊗ₓₐ κ(p)) ≥ 1 theo Bổ đề 1 của No. 1, điều này mâu thuẫn với việc dim(B ⊗ₓₐ κ(p)) ≤ 0 (§ 1, No. 3, ví dụ 6).
 
-#### Định lý 1 {#ac-viii-s2-thm-1 .statement}
+#### Định lý 1 {#ac-viii-s2-thm-1 .statement tag=0CLQ}
 
 Cho ρ : A → B là một đồng cấu vành biến B thành một đại số nguyên trên A.
 
@@ -208,13 +208,13 @@ theo Mệnh đề 6 của § 1, No. 3 và mệnh đề $a$ ở trên. Như vậy
 
 Cuối cùng, $c$ suy ra từ $b$ áp dụng cho linh hóa tử $b$ của $N$.
 
-#### Định lý 2 {#ac-viii-s2-thm-2 .statement}
+#### Định lý 2 {#ac-viii-s2-thm-2 .statement tag=0CLR}
 
 Cho $A$ là một vành nguyên đóng, và $B$ là một vành chứa $A$, nguyên trên $A$. Giả sử rằng $B$ là một A-môđun không xoắn. Với mọi iđêan $a$ của $A$, ta có $\operatorname{ht}(a) = \operatorname{ht}(aB)$. Cho $b$ là một iđêan của $B$ và $a = b \cap A$; khi đó ta có $\operatorname{ht}(a) = \operatorname{ht}(b)$.
 
 Gọi $\rho$ là ánh xạ chính tắc từ $A$ vào $B$. Gọi $a$ là một iđêan của $A$. Nếu $a = A$, đẳng thức thứ nhất là hiển nhiên. Giả sử $a \neq A$. Vì $\rho$ là đơn ánh, $^a\rho$ là toàn ánh (V, § 2, No. 1, Định lý 1). Do đó $aB \neq B$. Khi ấy lấy $q$ là một iđêan nguyên tố của $B$ chứa $aB$. Đặt $p = q \cap A$. Ta có $a \subset p$, suy ra $\operatorname{ht}(a) \leq \operatorname{ht}(p)$. Gọi $p_0 \subset ... \subset p_n$ là một chuỗi iđêan nguyên tố của $A$ với $p_n = p$. Theo định lý tồn tại thứ hai (V, § 2, No. 4, Định lý 3), ta xây dựng bằng quy nạp một chuỗi $q_0 \subset ... \subset q_n$ các iđêan nguyên tố của $B$ sao cho $q_n = q$ và $q_i$ nằm trên $p_i$ với $0 \leq i \leq n$. Ta có $n \leq \operatorname{ht}(q)$, suy ra $\operatorname{ht}(a) \leq \operatorname{ht}(q)$. Lấy cận dưới, ta được $\operatorname{ht}(a) \leq \operatorname{ht}(aB)$ ($§ 1$, No. 3, Mệnh đề 7). Bất đẳng thức $\operatorname{ht}(aB) \leq \operatorname{ht}(a)$ suy ra từ Định lý 1, do đó có đẳng thức thứ nhất. Gọi $b$ là một iđêan của $B$. Đặt $a = \rho^{-1}(b)$. Ta có $aB \subset b$, suy ra $\operatorname{ht}(a) = \operatorname{ht}(aB) \leq \operatorname{ht}(b)$. Bất đẳng thức $\operatorname{ht}(b) \leq \operatorname{ht}(a)$ suy ra từ Định lý 1, do đó được định lý.
 
-#### Nhận xét {#ac-viii-s2-n3-rem-1 .statement}
+#### Nhận xét {#ac-viii-s2-n3-rem-1 .statement tag=0CLS}
 
 Gọi $A$ là một miền nguyên và $B$ là một vành chứa $A$, nguyên trên $A$. Gọi $p$ là một iđêan nguyên tố của $A$ sao cho bao đóng nguyên của $A_p$ là một vành địa phương. Có thể chứng minh rằng, với mọi iđêan nguyên tố $q$ của $B$ nằm trên $p$, ta có $\operatorname{ht}(p) = \operatorname{ht}(q)$ (p. 85, Exer. 9) khi $B$ là một miền nguyên.
 
@@ -222,7 +222,7 @@ Gọi $A$ là một miền nguyên và $B$ là một vành chứa $A$, nguyên t
 
 Trong số này, $k$ ký hiệu một trường.
 
-#### Bổ đề 3 {#ac-viii-s2-lem-3 .statement}
+#### Bổ đề 3 {#ac-viii-s2-lem-3 .statement tag=0CLT}
 
 Cho $A$ là một $k$-đại số kiểu hữu hạn và $p_0 \subset ... \subset p_m$ là một dãy cực đại các iđêan nguyên tố của $A$. Tồn tại một số nguyên $n \geq m$, một dãy $(x_1, ..., x_n)$ các phần tử của $A$, tự do đại số trên $k$ (A, IV, p. 4), và sao cho :
 a) $A$ là nguyên trên vành $B = k[x_1, ..., x_n]$;
@@ -236,7 +236,7 @@ $$
 
 Suy ra $h(j+1) \leq h(j) + 1$ và $q_{j+1} \neq q_j$, do đó $h(j+1) = h(j) + 1$. Nhưng ta có $h(m) = n$ vì $q_m$ là cực đại (V, § 2, No. 1, Prop. 1), do đó cuối cùng $h(j) = n - m + j$.
 
-#### Định lý 3 {#ac-viii-s2-thm-3 .statement}
+#### Định lý 3 {#ac-viii-s2-thm-3 .statement tag=0CLU}
 
 Cho $A$ là một $k$-đại số kiểu hữu hạn.
 a) Với mọi iđêan nguyên tố cực tiểu $p$ của $A$, mọi dãy tối đại các iđêan nguyên tố của $A$ có gốc $p$ đều có độ dài bằng số nguyên $\deg.\mathrm{tr}_k \kappa(p)$.
@@ -245,7 +245,7 @@ c) Nếu $A$ là nguyên, thì mọi dãy tối đại các iđêan nguyên tố
 
 Giả sử $A$ là nguyên và xét một dãy tối đại $p_0 \subset ... \subset p_m$ các iđêan nguyên tố của $A$. Ta có $p_0 = 0$. Khi đó, từ Bổ đề 3 ta suy ra sự tồn tại của một đơn cấu $\varphi : k[X_1, ..., X_m] \to A$ của các $k$-đại số, khiến $A$ trở thành một $k[X_1, ..., X_m]$-đại số hữu hạn. Do đó, bậc siêu việt trên $k$ của trường phân thức của $A$ bằng $m$, do đó suy ra c). Mệnh đề a) suy ra từ mệnh đề c) áp dụng cho vành $A/p$ và mệnh đề b) là một hệ quả ngay lập tức của a) và của Mệnh đề 5 của § 1, No. 2.
 
-#### Hệ quả 1 {#ac-viii-s2-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-viii-s2-thm-3-cor-1 .statement tag=0CLV}
 
 Cho $n$ là một số nguyên dương. Ta có
 
@@ -257,7 +257,7 @@ $$
 
 Điều này suy ra từ định lý 3, từ bổ đề chuẩn hóa (V, § 3, No. 1, định lý 1) và từ định lý 1, a) của No. 3.
 
-#### Hệ quả 2 {#ac-viii-s2-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-viii-s2-thm-3-cor-2 .statement tag=0CLW}
 
 Cho A là một k-đại số nguyên kiểu hữu hạn. Với mọi iđêan nguyên tố p của A, ta có
 
@@ -272,13 +272,13 @@ $$
 
 Điều này suy ra từ định lý 3 và Nhận xét 4 của § 1, No. 3.
 
-#### Hệ quả 3 {#ac-viii-s2-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-viii-s2-thm-3-cor-3 .statement tag=0CLX}
 
 Cho A là một k-đại số kiểu hữu hạn và cho f là một phần tử của A không thuộc iđêan nguyên tố cực tiểu nào của A (chẳng hạn một phần tử của A không phải là ước của không, xem IV, § 1, No. 1, Hệ quả 3 của Mệnh đề 2 và No. 3, Hệ quả 1 của Mệnh đề 7). Ta có $\dim(A) = \dim(A_f)$.
 
 Ánh xạ $p \mapsto pA_f$ là một song ánh từ tập hợp các iđêan nguyên tố cực tiểu của A lên tập hợp các iđêan nguyên tố cực tiểu của $A_f$. Hơn nữa, các vành $A/p$ và $A_f/pA_f = (A/p)_f$ có cùng trường phân thức. Vì vậy chỉ cần áp dụng định lý 3, b).
 
-#### Hệ quả 4 {#ac-viii-s2-thm-3-cor-4 .statement}
+#### Hệ quả 4 {#ac-viii-s2-thm-3-cor-4 .statement tag=0CLY}
 
 Cho A là một k-đại số kiểu hữu hạn và cho p là một iđêan nguyên tố của A.
 
@@ -290,7 +290,7 @@ Nếu p là một iđêan cực đại của A, thì $A/p$ là một trường, 
 
 Mệnh đề a) của Hệ quả 4 là một dạng của định lý không điểm (V, § 3, No. 3, Mệnh đề 1).
 
-#### Hệ quả 5 {#ac-viii-s2-thm-3-cor-5 .statement}
+#### Hệ quả 5 {#ac-viii-s2-thm-3-cor-5 .statement tag=0CLZ}
 
 Cho A là một k-đại số kiểu hữu hạn, p một iđêan nguyên tố của A và $(\mathfrak{p}_i)_{i \in I}$ là họ các iđêan nguyên tố cực tiểu của A được chứa trong p. Ta có:
 
@@ -308,7 +308,7 @@ Ta có $\dim_p(A) = \sup_{i \in I} \dim_{p/p_i}(A/p_i)$ (§ 1, No. 3, Mệnh đ�
 
 Vậy $\dim_p(A)$ là cận trên đúng của các độ dài của các dãy iđêan nguyên tố của $A$ mà p là một phần tử.
 
-#### Hệ quả 6 {#ac-viii-s2-thm-3-cor-6 .statement}
+#### Hệ quả 6 {#ac-viii-s2-thm-3-cor-6 .statement tag=0CM0}
 
 *Cho A là một đại số trên k sinh hữu hạn không bằng 0, và cho n là một số nguyên $\geqslant 0$. Các điều kiện sau là tương đương:*
 
@@ -322,11 +322,11 @@ Sự tương đương của a) và b) là ngay lập tức. Ta hãy chứng minh
 
 Ngược lại, giả sử rằng điều kiện c) được thỏa mãn. Với mọi iđêan nguyên tố $p \in \operatorname{Ass}(A)$, đồng cấu $k[X_1, ..., X_n] \to A/p$ suy ra từ $\varphi$ là đơn ánh (*loc. cit.*). Do đó ta có $\dim(A/p) = n$ theo hệ quả 1.
 
-#### Nhận xét 1 {#ac-viii-s2-n4-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s2-n4-rem-1 .statement tag=0CM1}
 
 Theo hệ quả 5, các điều kiện a), b), c) của hệ quả 6 suy ra rằng ta có $\dim_p(A) = \dim(A)$ với mọi iđêan nguyên tố $p$ của A.
 
-#### Mệnh đề 4 {#ac-viii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#ac-viii-s2-prop-4 .statement tag=0CM2}
 
 *Cho A và B là hai đại số trên k sinh hữu hạn và $\rho : A \to B$ là một đồng cấu đại số. Giả sử rằng A là nguyên và A-môđun B là không xoắn, và ký hiệu K là trường các phân thức của A. Ta có*
 
@@ -353,19 +353,19 @@ do đó có kết quả trong trường hợp này.
 
 Ta chuyển sang trường hợp tổng quát. Mọi iđêan nguyên tố cực tiểu $p$ của $B$ đều được tạo thành bởi các ước của không trong $B$, và vì thế nằm trên iđêan 0 của $A$. Suy ra rằng ánh xạ $p \mapsto p . (B \otimes_A K)$ là một song ánh từ tập hợp các iđêan nguyên tố cực tiểu của $B$ lên tập hợp các iđêan nguyên tố cực tiểu của $B \otimes_A K$. Vậy mệnh đề được suy ra từ phần đầu của chứng minh và từ mệnh đề 6, c) của § 1, no 3.
 
-#### Hệ quả {#ac-viii-s2-n4-cor-1 .statement}
+#### Hệ quả {#ac-viii-s2-n4-cor-1 .statement tag=0CM3}
 
 *Cho $\rho : A \to B$ là một đồng cấu đơn ánh của các đại số trên k sinh hữu hạn.* *Ta có* $\dim(A) \leq \dim(B)$.
 
 Thật vậy, cho $p$ là một iđêan nguyên tố cực tiểu của $A$ sao cho $\dim(A) = \dim(A/p)$. Tồn tại một iđêan nguyên tố $q$ của $B$ nằm trên $p$ (II, § 2, no 6, mệnh đề 16). Theo mệnh đề 4 áp dụng cho $A/p$ và $B/q$, ta có $\dim(A) = \dim(A/p) \leq \dim(B/q) \leq \dim(B)$, do đó có hệ quả.
 
-#### Bổ đề 4 {#ac-viii-s2-lem-4 .statement}
+#### Bổ đề 4 {#ac-viii-s2-lem-4 .statement tag=0CM4}
 
 *Cho $A$ và $B$ là hai đại số trên k nguyên, $M$ là một A-môđun không xoắn, $N$ là một B-môđun không xoắn. Nếu vành $A \otimes_k B$ là nguyên, thì $M \otimes_k N$ là một môđun không xoắn trên $A \otimes_k B$.*
 
 Cho $K$ (resp. $L$) là trường các phân thức của $A$ (resp. $B$). Tồn tại một tập hợp $I$ (resp. $J$) sao cho $M$ (resp. $N$) đẳng cấu với một môđun con của $K^{(I)}$ (resp. $L^{(J)}$). Do đó $(A \otimes_k B)$-môđun $M \otimes_k N$ đẳng cấu với một môđun con của $K^{(I)} \otimes_k L^{(J)}$, môđun này đẳng cấu với $(K \otimes_k L)^{(I \times J)}$. Vì $K \otimes_k L$ là một vành phân thức của vành nguyên $A \otimes_k B$, nên nó là một môđun không xoắn trên $A \otimes_k B$, do đó suy ra bổ đề.
 
-#### Mệnh đề 5 {#ac-viii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#ac-viii-s2-prop-5 .statement tag=0CM5}
 
 *Cho $k'$ là một mở rộng của $k$, $A$ là một đại số trên k kiểu hữu hạn và $B$ là một đại số trên $k'$ kiểu hữu hạn.*
 
@@ -415,7 +415,7 @@ $$
 
 điều này hoàn tất chứng minh.
 
-#### Hệ quả {#ac-viii-s2-n4-cor-2 .statement}
+#### Hệ quả {#ac-viii-s2-n4-cor-2 .statement tag=0CM6}
 
 *Cho A là một đại số trên K sinh hữu hạn, k' là một mở rộng của k, và A' là đại số trên K A \otimes_k k'.*
 
@@ -431,7 +431,7 @@ $$
 \dim(A'/p') = \dim_{p'}(A') = \dim_p(A) = \dim(A/p).
 $$
 
-#### Nhận xét 2 {#ac-viii-s2-n4-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s2-n4-rem-2 .statement tag=0CM7}
 
 *Giả sử rằng mở rộng k' của k là radicial. Khi đó ánh xạ chính tắc $f : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ là một đồng phôi.*
 

@@ -33,11 +33,11 @@ subsections:
       pdf_page: 138
 statements: 30
 exercises: 17
-content_sha256: b0cf5f771ca28d434ad4bd0ead558583c2cc1278989a711a205235bc04102e87
+content_sha256: 2e27485f6ecf74a6643aaec056acba3ae3f61796a9d04d4f0f8d871e6657b7a2
 translated_from: content/fr/ac/IX/02_s2_anneaux_de_cohen.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 511c29706c762ba8fdab3d1f6cb000587c55f6e3242d752934b1a3e4fb436071
+source_content_sha256: 63e59069ffaeb7491aeb4009f8d3a480b95712b0cae81c394b8df68a9e76ac16
 translation_model: gpt-5.4
 translation_run: translate-en-mt-eb8fbb4e
 glossary_version: 34
@@ -51,13 +51,13 @@ Throughout this paragraph, $p$ denotes a prime number.
 
 ### 1. $p$-rings
 
-#### Definition 1 {#ac-ix-s2-def-1 .statement}
+#### Definition 1 {#ac-ix-s2-def-1 .statement tag=0CWA}
 
 A ring $C$ is said to be a $p$-ring if the ideal $pC$ of $C$ is maximal, and if $C$ is separated and complete for the $pC$-adic topology.
 
 Let $C$ be a ring; if $p1_C$ is nilpotent and if the ideal $pC$ of $C$ is maximal, $C$ is a $p$-ring, for the $pC$-adic topology of $C$ is discrete. In particular, every field of characteristic $p$ is a $p$-ring.
 
-#### Proposition 1 {#ac-ix-s2-prop-1 .statement}
+#### Proposition 1 {#ac-ix-s2-prop-1 .statement tag=0CWB}
 
 Let $C$ be a $p$-ring.
 
@@ -88,13 +88,13 @@ $$
 
 contrary to the hypothesis $p^{d-1} 1_C \neq 0$. Therefore the elements of the sequence (E) are pairwise distinct. Let $a$ be an ideal of $C$ and let $k$ be the smallest positive integer such that $a \supset p^k C$. Let $x$ be a nonzero element of $a$; we have seen that $x$ is of the form $p^m u$ with $m \geqslant 0$ and $u$ invertible in $C$. Hence $p^m C \subset a$, whence $m \geqslant k$, and finally $x \in p^k C$. In conclusion, one has $a = p^k C$. The sequence (E) is then a Jordan-Hölder sequence of the $C$-module $C$, which is of length $d$.
 
-#### Corollary 1 {#ac-ix-s2-prop-1-cor-1 .statement}
+#### Corollary 1 {#ac-ix-s2-prop-1-cor-1 .statement tag=0CWC}
 
 If the $p$-ring $C$ is an integral domain, it is a discrete valuation ring, or a field of characteristic $p$.
 
 Suppose $C$ is an integral domain. If $p 1_C$ is nilpotent, one has $p 1_C = 0$, and $\{0\}$ is a maximal ideal of $C$, hence $C$ is a field of characteristic $p$. If $p 1_C$ is not nilpotent, then $C$ is a discrete valuation ring by Prop. 1, c).
 
-#### Corollary 2 {#ac-ix-s2-prop-1-cor-2 .statement}
+#### Corollary 2 {#ac-ix-s2-prop-1-cor-2 .statement tag=0CWD}
 
 Let $C$ be a $p$-ring and $a$ an ideal of $C$ distinct from $C$. The ring $C/a$ is a $p$-ring.
 
@@ -102,11 +102,11 @@ One may suppose $a \neq \{0\}$. There then exists an integer $i \geqslant 1$ suc
 
 Let $C$ be a $p$-ring. The *length of* $C$, denoted by $l(C)$, is the least upper bound in $\overline{\mathbf{R}}$ of the set of integers $n \geqslant 1$ such that $p^{n-1} 1_C \neq 0$. When $l(C)$ is finite, it is the length of the $C$-module $C$, and when $l(C)$ is equal to $+ \infty$, the $C$-module $C$ is not of finite length (prop. 1).
 
-#### Example 1 {#ac-ix-s2-n1-exa-1 .statement}
+#### Example 1 {#ac-ix-s2-n1-exa-1 .statement tag=0CWE}
 
 For every integer $n \geqslant 1$, the ring $\mathbf{Z}/p^n\mathbf{Z}$ is a $p$-ring of length $n$. The ring $\mathbf{Z}_p$ of $p$-adic integers is a $p$-ring of infinite length.
 
-#### Example 2 {#ac-ix-s2-n1-exa-2 .statement}
+#### Example 2 {#ac-ix-s2-n1-exa-2 .statement tag=0CWF}
 
 Let $K$ be a perfect field of characteristic $p$. By prop. 8 of § 1, No. 8, the ring $W(K)$ of Witt vectors is a $p$-ring of infinite length. The mapping $(a_n)_{n \in \mathbf{N}} \mapsto a_0$ induces, by passing to quotients, an isomorphism of $W(K)/pW(K)$ onto the field $K$ (loc. cit., prop. 7). For every integer $n \geqslant 1$, the ring
 $$
@@ -114,7 +114,7 @@ W_n(K) = W(K)/p^nW(K)
 $$
 is a $p$-ring of length $n$.
 
-#### Proposition 2 {#ac-ix-s2-prop-2 .statement}
+#### Proposition 2 {#ac-ix-s2-prop-2 .statement tag=0CWG}
 
 Let $C$ and $C'$ be two $p$-rings and $u$ a homomorphism of $C$ into $C'$. Let $v$ be the homomorphism of $\kappa_C = C/pC$ into $\kappa_{C'} = C'/pC'$ deduced from $u$ by passing to quotients.
 
@@ -130,7 +130,7 @@ Since $\kappa_C$ and $\kappa_{C'}$ are fields, the homomorphism $v$ is injective
 
 Finally, c) follows from a) and b).
 
-#### Proposition 3 {#ac-ix-s2-prop-3 .statement}
+#### Proposition 3 {#ac-ix-s2-prop-3 .statement tag=0CWH}
 
 Let $(C_n, \pi_{n,m})$ be a projective system of rings relative to the set of indices $\mathbf{N}$. Suppose that $C_n$ is a $p$-ring for every $n \in \mathbf{N}$ and that the homomorphisms $\pi_{n,m}$ are surjective. Then $C = \varprojlim C_n$ is a $p$-ring, and for every $n \in \mathbf{N}$, the canonical homomorphism $\pi_n : C \to C_n$ is surjective and induces an isomorphism of $\kappa_C$ onto $\kappa_{C_n}$.
 
@@ -142,17 +142,17 @@ Let k be an integer $\geqslant 1$. We have $p^k C \subset \varprojlim (p^k C_n)$
 
 ### 2. Cohen Rings
 
-#### Definition 2 {#ac-ix-s2-def-2 .statement}
+#### Definition 2 {#ac-ix-s2-def-2 .statement tag=0CWI}
 
 Let A be a separated and complete local ring, whose residue field is of characteristic p. A Cohen subring of A means a subring C of A which is a $p$-ring such that $A = m_A + C$ (i.e. $A/m_A = C/(m_A \cap C)$).
 
 If C is a Cohen subring of A, the ideal $m_A \cap C$ of C is maximal, hence equal to $pC$. The canonical mapping of $\kappa_C = C/pC$ onto $\kappa_A = A/m_A$ is therefore a field isomorphism.
 
-#### Example {#ac-ix-s2-n2-exa-1 .statement}
+#### Example {#ac-ix-s2-n2-exa-1 .statement tag=0CWJ}
 
 Let C be a $p$-ring. The ring of formal series $A = C[[T_1, ..., T_n]]$ is a noetherian, local, separated and complete ring, whose maximal ideal is generated by the sequence $(p, T_1, ..., T_n)$. It is immediate that C is a Cohen subring of A. This applies in particular when C is equal to $\mathbf{Z}_p$, to $\mathbf{Z}/p^n \mathbf{Z}$ or to a field of characteristic $p$.
 
-#### Theorem 1 {#ac-ix-s2-thm-1 .statement}
+#### Theorem 1 {#ac-ix-s2-thm-1 .statement tag=0CWK}
 
 Let A be a local, separated and complete ring, whose residue field k is of characteristic p. Let $\pi$ be the canonical mapping of A onto k, and let S be a subset of A, such that $\pi$ induces a bijection of S onto a $p$-basis of k (A, V, p. 95).
 a) There exists one and only one Cohen subring C of A containing S.
@@ -163,7 +163,7 @@ A) Particular case: $m_A$ nilpotent
 
 Let n be a positive integer such that $m_A^{n+1} = \{0\}$. If $\Phi_n$ is the nth Witt polynomial ($§ 1$, No. 1), the mapping $u : [a_0, ..., a_n] \mapsto \Phi_n(a_0, ..., a_n)$ is a ring homomorphism of $W_{n+1}(A)$ into A ($§ 1$, No. 7). Let $B_n$ be the image of $u$ and let $C_n$ be the subring of A generated by $B_n \cup S$.
 
-#### Lemma 1 {#ac-ix-s2-lem-1 .statement}
+#### Lemma 1 {#ac-ix-s2-lem-1 .statement tag=0CWL}
 
 Let $A'$ be a subring of $A$ containing $S$. In order that $A'$ contain $C_n$, it is necessary and sufficient that one have $A' + m_A = A$.
 
@@ -179,7 +179,7 @@ In the set $S$ of subrings $A'$ of $A$ containing $S$ and such that $A' + m_A = 
 
 One has $C + m_A = A$ by construction and $p1_C$ is nilpotent. One obviously has $pC \subset C \cap m_A$ and lemma 2 below therefore shows that $pC$ is a maximal ideal of $C$ and consequently that $C$ is a Cohen subring of $A$.
 
-#### Lemma 2 {#ac-ix-s2-lem-2 .statement}
+#### Lemma 2 {#ac-ix-s2-lem-2 .statement tag=0CWM}
 
 One has $C \cap m_A \subset pC$.
 
@@ -205,13 +205,13 @@ For every integer $n \geqslant 0$, put $J_n = C \cap m_A^n$. Since the local rin
 
 Let $A'$ be a closed subring of $A$, containing $S$ and such that $A' + m_A = A$. Since $A'$ is closed, one has $A' = \bigcap_{n \in \mathbf{N}} \pi_n^{-1}(\pi_n(A'))$. One has $\pi_n(A') \supset \pi_n(S)$ and $\pi_n(A') + m_n = A_n$, whence $\pi_n(A') \supset C_n$ by what was seen in A). Finally, one has $\pi_n^{-1}(\pi_n(A')) \supset \pi_n^{-1}(C_n)$, whence $A' \supset C$. This proves c). One deduces the uniqueness of a Cohen subring as in A).
 
-#### Remark {#ac-ix-s2-n2-rem-1 .statement}
+#### Remark {#ac-ix-s2-n2-rem-1 .statement tag=0CWN}
 
 Suppose that $p1_A$ is not nilpotent (this takes place in particular when $A$ is an integral ring whose field of fractions is of characteristic 0). Then $C$ is a discrete valuation ring whose field of fractions is of characteristic 0.
 
 ### 3. Existence and uniqueness of $p$-rings
 
-#### Proposition 4 {#ac-ix-s2-prop-4 .statement}
+#### Proposition 4 {#ac-ix-s2-prop-4 .statement tag=0CWO}
 
 *Let $C$ and $C'$ be two $p$-rings such that $l(C) \geqslant l(C')$, and let $\pi$ (resp. $\pi'$) be the canonical homomorphism of $C$ (resp. $C'$) onto $\kappa_C$ (resp. $\kappa_{C'}$). Let $(x_\lambda)_{\lambda \in \Lambda}$ (resp. $(x'_\lambda)_{\lambda \in \Lambda}$) be a family of elements of $C$ (resp. $C'$) whose image under $\pi$ (resp. $\pi'$) is a $p$-basis of $\kappa_C$ (resp. $\kappa_{C'}$). Let $v$ be an isomorphism of $\kappa_C$ onto $\kappa_{C'}$ such that $v(\pi(x_\lambda)) = \pi'(x'_\lambda)$ for every $\lambda \in \Lambda$. Then there exists a unique homomorphism $u$ of $C$ into $C'$, such that $v \circ \pi = \pi' \circ u$ and $u(x_\lambda) = x'_\lambda$ for every $\lambda \in \Lambda$. It is surjective. If $l(C) = l(C')$, it is an isomorphism.*
 
@@ -219,21 +219,21 @@ Let us prove the existence of $u$. Let $A$ be the subring of $C \times C'$ forme
 
 Let us prove the uniqueness of $u$. Let $u_1$ be a homomorphism of C into $C'$ such that $v \circ \pi = \pi' \circ u_1$ and $u_1(x_\lambda) = x'_\lambda$ for every $\lambda \in \Lambda$, and let $C_1$ be the graph of $u_1$. It is immediate that $C_1$ is a Cohen subring of A, containing $(x_\lambda, x'_\lambda)$ for every $\lambda \in \Lambda$, whence $C_1 = C''$ (theorem 1 of No. 2) and finally $u_1 = u$.
 
-#### Proposition 5 {#ac-ix-s2-prop-5 .statement}
+#### Proposition 5 {#ac-ix-s2-prop-5 .statement tag=0CWP}
 
 Let k be a field of characteristic p, and let n be an integer $\geq 1$, or $+ \infty$. There exists a p-ring of length n whose residue field is isomorphic to k.
 
 The ring $W(k)$ of Witt vectors with coefficients in k is an integral separated complete local ring whose residue field is isomorphic to k ($§ 1$, no. 8, prop. 8), and one has $p \cdot 1_{W(k)} \neq 0$ (loc. cit., formula (52)). Let C be a Cohen subring of $W(k)$ (no. 2, th. 1). Then C is a p-ring of length $+ \infty$ whose residue field is isomorphic to k, and, if n is an integer $\geq 1$, the quotient $C/p^nC$ is a p-ring of length n whose residue field is isomorphic to k.
 
-#### Remark 1 {#ac-ix-s2-n3-rem-1 .statement}
+#### Remark 1 {#ac-ix-s2-n3-rem-1 .statement tag=0CWQ}
 
 Let n be an integer $\geq 1$ and S a p-basis of k. One can prove that the subring of $W_n(k)$ generated by $W_n(k^{p^n})$ and by the elements $[\xi, 0, ..., 0]$ ($\xi \in S$), is a p-ring of length n whose residue field is isomorphic to k (cf. p. 72, exerc. 10).
 
-#### Remark 2 {#ac-ix-s2-n3-rem-2 .statement}
+#### Remark 2 {#ac-ix-s2-n3-rem-2 .statement tag=0CWR}
 
 The reader will find in the Appendix a proof of prop. 5 which uses neither the results of $§ 1$, nor the existence theorem for Cohen subrings (no. 2, th. 1).
 
-#### Corollary {#ac-ix-s2-n3-cor-1 .statement}
+#### Corollary {#ac-ix-s2-n3-cor-1 .statement tag=0CWS}
 
 Let C be a p-ring of finite length n. There exists a p-ring $C'$ of infinite length such that C is isomorphic to $C'/p^nC'$.
 
@@ -241,13 +241,13 @@ By prop. 5, there exists a p-ring $C'$ of infinite length such that $\kappa_{C'}
 
 ### 4. Multiplicative Representatives
 
-#### Proposition 6 {#ac-ix-s2-prop-6 .statement}
+#### Proposition 6 {#ac-ix-s2-prop-6 .statement tag=0CWT}
 
 Let C be a p-ring, whose residue field k be perfect. Suppose that C is of finite length n (resp. infinite). There exists a unique isomorphism $u : W_n(k) \to C$ (resp. $u : W(k) \to C$) which induces, by passing to quotients, the identical mapping of k.
 
 Since $W_n(k)$ (resp. $W(k)$) is a p-ring with residue field k, and of length n (resp. of infinite length) (No. 1, Example 2), and since $\varnothing$ is a p-basis of the perfect field k, prop. 6 is a particular case of prop. 4 of No. 3.
 
-#### Theorem 2 {#ac-ix-s2-thm-2 .statement}
+#### Theorem 2 {#ac-ix-s2-thm-2 .statement tag=0CWU}
 
 Let A be a separated complete local ring, k its residue field and $\pi$ the canonical homomorphism of A onto k. It is assumed that k is a perfect field of characteristic p.
 
@@ -259,7 +259,7 @@ By th. 1 of No. 2, there exists a unique Cohen subring of A; let us denote it by
 
 For a direct construction of u, see p. 70, exerc. 6.
 
-#### Proposition 7 {#ac-ix-s2-prop-7 .statement}
+#### Proposition 7 {#ac-ix-s2-prop-7 .statement tag=0CWV}
 
 Let us retain the hypotheses and notations of th. 2. There exists a unique multiplicative subset S of A such that $\pi$ induces a bijection of S onto k. In order that an element a of A belong to S, it is necessary and sufficient that for every $n \in \mathbf{N}$, there exist an element $a_n$ of A such that $a = a_n^{p^n}$. The set S is the set of elements of the form $u(x, 0, 0, ...)$.
 
@@ -288,7 +288,7 @@ It is clear that the mapping $\pi \circ \varphi$ is the identity mapping of $k$.
 
 The elements of S are often called the multiplicative (or Teichmüller) representatives of A.
 
-#### Remark 1 {#ac-ix-s2-n4-rem-1 .statement}
+#### Remark 1 {#ac-ix-s2-n4-rem-1 .statement tag=0CWW}
 
 Let us retain the preceding hypotheses and notation. We have
 $$
@@ -301,19 +301,19 @@ u(a) = \sum_{n=0}^{\infty} p^n \varphi(a_n^{p^{-n}})
 $$
 for every $a = (a_n)_{n \in \mathbf{N}}$ in $\mathbf{W}(k)$, since $u$ is continuous (Theorem 2, b)). By formula (4), the unique Cohen subring of A consists of the elements of the form $\sum_{n=0}^{\infty} p^n s_n$ with $s_n \in S$ for every integer $n \geq 0$.
 
-#### Remark 2 {#ac-ix-s2-n4-rem-2 .statement}
+#### Remark 2 {#ac-ix-s2-n4-rem-2 .statement tag=0CWX}
 
 Let A be a separated and complete local ring, $k$ its residue field and $\pi$ the canonical homomorphism of A onto $k$. It may be shown that there exists a multiplicative subset S of A (not unique in general) such that $\pi$ induces a bijection of S onto $k$ (cf. p. 72, Exercise 11).
 
-#### Example 1 {#ac-ix-s2-n4-exa-1 .statement}
+#### Example 1 {#ac-ix-s2-n4-exa-1 .statement tag=0CWY}
 
 Let $k$ be a perfect field of characteristic $p$. The multiplicative representatives of the ring $\mathbf{W}(k)$ are the Witt vectors $\tau(x) = (x, 0, 0, ...)$ for $x \in k$.
 
-#### Example 2 {#ac-ix-s2-n4-exa-2 .statement}
+#### Example 2 {#ac-ix-s2-n4-exa-2 .statement tag=0CWZ}
 
 Let A be an integral, separated and complete local ring. Suppose that the residue field $k$ of A is finite, with $q = p^f$ elements, hence perfect of characteristic $p$. We have $x^q = x$ for every $x \in k$, whence $s^q = s$ for every multiplicative representative s. It follows that the set of multiplicative representatives consists of 0 and the $q - 1$ $(q - 1)$-th roots of unity in the field of fractions of A. If the field of fractions of A is locally compact, the existence of multiplicative representatives also follows from VI, § 9, No. 2, Proposition 3 (cf. also VI, § 9, Exercise 5).
 
-#### Example 3 {#ac-ix-s2-n4-exa-3 .statement}
+#### Example 3 {#ac-ix-s2-n4-exa-3 .statement tag=0CX0}
 
 More particularly, consider the case $A = \mathbf{Z}_p$. Then the multiplicative representatives are 0 and the $(p - 1)$-th roots of unity in the field of fractions $\mathbf{Q}_p$ of $\mathbf{Z}_p$.
 
@@ -321,7 +321,7 @@ More particularly, consider the case $A = \mathbf{Z}_p$. Then the multiplicative
 
 Let $A$ and $C$ be complete noetherian local rings, and let $u$ be a local homomorphism of $C$ into $A$, inducing by passing to quotients an isomorphism of $\kappa_C$ onto $\kappa_A$. Let $(p_1, ..., p_m)$ be a sequence generating the ideal $m_C$ of $C$, and let $t_1, ..., t_n$ be elements of $m_A$. Put $B = C[[T_1, ..., T_n]]$.
 
-#### Lemma 3 {#ac-ix-s2-lem-3 .statement}
+#### Lemma 3 {#ac-ix-s2-lem-3 .statement tag=0CX1}
 
 a) There exists a unique homomorphism $v : B \to A$ extending $u$ and mapping $T_i$ to $t_i$ for $1 \leq i \leq n$.
 
@@ -337,7 +337,7 @@ The ideal of $A$ generated by the sequence $(u(p_1), ..., u(p_m), t_1, ..., t_n)
 
 Suppose that $v(m_B)$ $A$ is an ideal of definition of $A$. The $m_B$-adic topology of the $B$-module $A$ then coincides with the $m_A$-adic topology of the ring $A$, and is therefore separated. Since $A/v(m_B)$ $A$ is a finitely generated module over $B/m_B$, $A$ is a finitely generated $B$-module (III, § 2, No. 3, Example 3 and No. 9, cor. 1 of Prop. 12). This proves $c$.
 
-#### Lemma 4 {#ac-ix-s2-lem-4 .statement}
+#### Lemma 4 {#ac-ix-s2-lem-4 .statement tag=0CX2}
 
 Suppose that the noetherian local ring C is regular, and that $(p_1, ..., p_m)$ is a system of coordinates of C (VIII, § 5, No. 1, Def. 1).
 
@@ -349,7 +349,7 @@ In order that the sequence $(u(p_1), ..., u(p_m), t_1, ..., t_n)$ be a maximal s
 
 Suppose that the sequence $(u(p_1), ..., u(p_m), t_1, ..., t_n)$ of elements of $m_A$ is secant. One can adjoin to it (VIII, § 3, No. 2, Th. 1) elements $t_{n+1}, ..., t_{n+r}$ of $m_A$ in order to make it into a maximal secant sequence. From what precedes, there then exists an injective homomorphism $w$ of $C[[T_1, ..., T_n, T_{n+1}, ..., T_{n+r}]] = B[[T_{n+1}, ..., T_{n+r}]]$ which extends $v$ and maps $T_{n+j}$ to $t_{n+j}$ for $1 \leq j \leq r$. Hence $v$ is injective. This proves a).
 
-#### Theorem 3 {#ac-ix-s2-thm-3 .statement}
+#### Theorem 3 {#ac-ix-s2-thm-3 .statement tag=0CX3}
 
 Let A be a local, noetherian and complete ring whose residue field k is of characteristic p. Let C be a p-ring of infinite length, whose residue field is isomorphic to k (No. 3, Prop. 5).
 

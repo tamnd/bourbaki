@@ -25,7 +25,7 @@ subsections:
       pdf_page: 34
 statements: 6
 exercises: 0
-content_sha256: 836ab5146f658366b31603e9aef198d23f7acf8cae07f776d8afc69bc3888484
+content_sha256: 35892dd0715148ca0b670c23abdeca44f6da33bb6a72a2b704223d5702e9a106
 ---
 
 ## ANNEXE
@@ -34,7 +34,7 @@ content_sha256: 836ab5146f658366b31603e9aef198d23f7acf8cae07f776d8afc69bc3888484
 
 ### 1. Définitions
 
-#### Définition 1 {#lie-iv-a0-def-1 .statement}
+#### Définition 1 {#lie-iv-a0-def-1 .statement tag=0AOV}
 
 On appelle graphe combinatoire (ou simplement graphe, lorsqu’aucune confusion n’en résulte) un couple $\Gamma = (A, S)$, où $S$ est un ensemble, et $A$ une partie de $\mathfrak{P}(S)$ formée d’ensembles à deux éléments.
 
@@ -60,7 +60,7 @@ serait un chemin de longueur $< n$ joignant $a$ à $b$.
 
 La relation « il existe un chemin joignant $a$ à $b$ » entre deux sommets $a$ et $b$ de $\Gamma$ est une relation d’équivalence $R$ dans l’ensemble $S$ des sommets. Les classes d’équivalence pour $R$ s’appellent les composantes connexes de $\Gamma$; on dit que $\Gamma$ est connexe s’il existe dans $S$ au plus une composante connexe, c’est-à-dire si deux sommets quelconques de $\Gamma$ peuvent être joints par au moins un chemin.
 
-#### Proposition 1 {#lie-iv-a0-prop-1 .statement}
+#### Proposition 1 {#lie-iv-a0-prop-1 .statement tag=0AOW}
 
 *Soient $\Gamma = (A, S)$ un graphe et $(S_\alpha)_{\alpha \in L}$ la famille de ses composantes connexes. On note $\Gamma_\alpha$ le sous-graphe plein de $\Gamma$ ayant $S_\alpha$ pour ensemble de sommets.*
 
@@ -80,7 +80,7 @@ La relation « il existe un chemin joignant $a$ à $b$ » entre deux sommets $a$
 
 (iv) Soient $a$ dans $S'_\lambda$, et $S_\alpha$ la composante connexe de $\Gamma$ contenant $a$; pour tout $b$ dans $S_\alpha$, il existe un chemin $(x_0, \ldots, x_n)$ joignant $a$ à $b$ dans $\Gamma$. Si $i$ est un entier tel que $0 \leq i < n$ et $x_i \in S'_\lambda$, on a $x_{i+1} \in S'_\lambda$ puisque $x_i$ est lié à $x_{i+1}$; par récurrence, on a donc $x_i \in S'_\lambda$ pour $0 \leq i \leq n$ et en particulier $b = x_n$ est dans $S'_\lambda$. On a donc $S_\alpha \subset S'_\lambda$.
 
-#### Corollaire 1 {#lie-iv-a0-prop-1-cor-1 .statement}
+#### Corollaire 1 {#lie-iv-a0-prop-1-cor-1 .statement tag=0AOX}
 
 *Pour que le graphe $\Gamma = (A, S)$ soit connexe, il faut et il suffit qu’il n’existe aucune partition $(S', S'')$ de $S$ en deux ensembles non vides telle qu’aucun élément de $S'$ ne soit lié dans $\Gamma$ à un élément de $S''$.*
 
@@ -88,7 +88,7 @@ Supposons $\Gamma$ non connexe et soit $S'$ une de ses composantes connexes; l�
 
 Supposons $\Gamma$ connexe et soit $(S', S'')$ une partition ayant la propriété de l’énoncé. D’après la prop. 1, (iv), l’ensemble $S'$ contient au moins une composante connexe, d’où $S' = S$ et $S'' = \varnothing$, ce qui est contradictoire.
 
-#### Corollaire 2 {#lie-iv-a0-prop-1-cor-2 .statement}
+#### Corollaire 2 {#lie-iv-a0-prop-1-cor-2 .statement tag=0AOY}
 
 Pour qu’une partie $S'$ de $S$ soit réunion de composantes connexes, il faut et il suffit qu’aucun sommet appartenant à $S'$ ne soit lié à un sommet appartenant à $S - S'$.
 
@@ -102,7 +102,7 @@ $$
 $$
 de sommets distincts de $\Gamma$, avec $n \geq 3$, $x_i$ lié à $x_{i+1}$ pour $1 \leq i < n$ et $x_n$ lié à $x_1$. On dit que $\Gamma$ est une forêt s’il n’existe aucun circuit dans $\Gamma$; tout sous-graphe de $\Gamma$ est alors une forêt. Une forêt connexe s’appelle un arbre; les composantes connexes d’une forêt sont donc des arbres.
 
-#### Proposition 2 {#lie-iv-a0-prop-2 .statement}
+#### Proposition 2 {#lie-iv-a0-prop-2 .statement tag=0AOZ}
 
 Soit $\Gamma = (A, S)$ une forêt n’ayant qu’un nombre fini de sommets.
 (i) Si $\Gamma$ possède au moins un sommet, il admet un sommet terminal.
@@ -123,7 +123,7 @@ $$
 
 On dit qu’un graphe $\Gamma$ est une chaîne de longueur $m \geqslant 0$ s’il est isomorphe à $A_{m+1}$; ceci équivaut à l’existence dans $\Gamma$ d’un chemin injectif $(x_0, \ldots, x_m)$ contenant tous les sommets, les sommets $x_i$ et $x_j$ n’étant pas liés lorsque $|j - i| > 1$.
 
-#### Proposition 3 {#lie-iv-a0-prop-3 .statement}
+#### Proposition 3 {#lie-iv-a0-prop-3 .statement tag=0AP0}
 
 Pour qu’un graphe soit une chaîne, il faut et il suffit que le nombre de ses sommets soit fini et non nul, et qu’il soit un arbre sans point de ramification.
 

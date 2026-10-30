@@ -36,14 +36,14 @@ subsections:
       pdf_page: 42
 statements: 12
 exercises: 18
-content_sha256: 485c05cc673dad0ee62809c94d7ee0487cdd3a011ae327369feaabbdf7643440
+content_sha256: 4ebda48bd000a65417327225530768d44663bf849b7c26ddf8f7c3e3fcadcf6e
 ---
 
 ## § 4. Filtrations centrales
 
 ### 1. Filtrations réelles
 
-#### Définition 1 {#lie-ii-s4-def-1 .statement}
+#### Définition 1 {#lie-ii-s4-def-1 .statement tag=0A4H}
 
 Soit G un groupe. On appelle filtration réelle sur G une famille $(G_\alpha)_{\alpha \in \mathbf{R}}$ de sous-groupes de G telle que
 
@@ -53,7 +53,7 @@ $$
 
 La formule (1) entraîne $G_\alpha \subset G_\beta$ pour $\beta < \alpha$, donc la famille $(G_\alpha)$ est décroissante. On dit que la filtration $(G_\alpha)$ est séparée si $\bigcap_\alpha G_\alpha$ est réduit à l’élément neutre et qu’elle est exhaustive si $G = \bigcup_\alpha G_\alpha$.
 
-#### Remarque {#lie-ii-s4-n1-rem-1 .statement}
+#### Remarque {#lie-ii-s4-n1-rem-1 .statement tag=0A4I}
 
 Soit $(G_n)_{n \in \mathbf{Z}}$ une suite décroissante de sous-groupes de G. C’est une filtration décroissante au sens de AC, III, § 2, no 1, déf. 1. Pour tout entier $n$ et tout $\alpha$ dans l’intervalle $]n-1, n]$ de $\mathbf{R}$, posons $H_\alpha = G_n$, d’où en particulier $H_n = G_n$. Il est immédiat qu’on obtient ainsi une filtration réelle $(H_\alpha)_{\alpha \in \mathbf{R}}$ sur G; on dira qu’une telle filtration est une filtration entière. On peut donc identifier les filtrations décroissantes au sens de AC, III, § 2 aux filtrations entières.
 
@@ -95,7 +95,7 @@ $$
 \end{align*}
 $$
 
-#### Remarque {#lie-ii-s4-n2-rem-1 .statement}
+#### Remarque {#lie-ii-s4-n2-rem-1 .statement tag=0A4J}
 
 Si $v(x)$ n’est pas toujours égal à $+\infty$, les conditions (7) et (8) entraînent $v(1) = 0$.
 
@@ -108,7 +108,7 @@ $$
 
 il est clair que $G_\alpha^+$ est un sous-groupe de $G_\alpha$. Nous poserons $\mathrm{gr}_\alpha(G) = G_\alpha / G_\alpha^+$ et $\mathrm{gr}(G) = \bigoplus_{\alpha \in \mathbf{R}} \mathrm{gr}_\alpha(G)$. On appelle groupe gradué associé au groupe filtré $G$ le groupe $\mathrm{gr}(G)$ muni de sa graduation naturelle de type $\mathbf{R}$.
 
-#### Remarque {#lie-ii-s4-n3-rem-1 .statement}
+#### Remarque {#lie-ii-s4-n3-rem-1 .statement tag=0A4K}
 
 Lorsque la filtration $(G_\alpha)$ est entière, on a $\mathrm{gr}_\alpha(G) = \{0\}$ pour $\alpha$ non entier et $\mathrm{gr}_n(G) = G_n / G_{n-1}$ pour tout entier $n$. La définition du groupe gradué associé coïncide donc essentiellement avec celle de AC, III, § 2, no 3.
 
@@ -124,7 +124,7 @@ On en déduit une application bilinéaire de $\mathrm{gr}(A) \times \mathrm{gr}(
 
 ### 4. Filtrations centrales sur un groupe
 
-#### Définition 2 {#lie-ii-s4-def-2 .statement}
+#### Définition 2 {#lie-ii-s4-def-2 .statement tag=0A4L}
 
 Soit $G$ un groupe. On dit qu’une filtration réelle $(G_\alpha)$ sur $G$ est centrale si l’on a $G = \bigcup_{\alpha > 0} G_\alpha$ et si le commutateur $(x, y) = x^{-1} y^{-1} xy$ d’un élément $x$ de $G_\alpha$ et d’un élément $y$ de $G_\beta$ appartient à $G_{\alpha + \beta}$.
 
@@ -157,7 +157,7 @@ $$
 
 D’après (14), $G_\alpha^+$ est un sous-groupe distingué de $G_\alpha$ pour tout $\alpha \in \mathbf{R}$ et le groupe quotient $\mathrm{gr}_\alpha(G) = G_\alpha / G_\alpha^+$ est commutatif. On pose $\mathrm{gr}(G) = \bigoplus_{\alpha \in \mathbf{R}} \mathrm{gr}_\alpha(G)$, et l’on munit ce groupe de la graduation de type $\mathbf{R}$ dans laquelle $\mathrm{gr}_\alpha(G)$ se compose des éléments de degré $\alpha$. On a $\mathrm{gr}_\alpha(G) = \{0\}$ pour $\alpha \leq 0$.
 
-#### Proposition 1 {#lie-ii-s4-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s4-prop-1 .statement tag=0A4M}
 
 (i) *Soient $\alpha, \beta$ dans $\mathbf{R}$. Il existe une application biadditive*
 $$
@@ -209,7 +209,7 @@ L’algèbre de Lie $\mathrm{gr}(G)$ sur $\mathbf{Z}$ définie dans la propositi
 
 Soit $A$ une algèbre associative unifière munie d’une filtration d’algèbre unifière $(A_\alpha)$ telle que $A_0 = A$; alors $A_\alpha$ est un idéal bilatère de $A$ pour tout $\alpha \in \mathbf{R}$. On note $A^*$ le groupe multiplicatif des éléments inversibles de $A$. Pour tout $\alpha > 0$, on note $\Gamma_\alpha$ l’ensemble des $x \in A^*$ tels que $x - 1 \in A_\alpha$; on pose $\Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha$ et $\Gamma_\beta = \Gamma$ pour $\beta \leqslant 0$.
 
-#### Proposition 2 {#lie-ii-s4-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s4-prop-2 .statement tag=0A4N}
 
 L’ensemble $\Gamma$ est un sous-groupe de $A^*$ et $(\Gamma_\alpha)$ est une filtration centrale sur $\Gamma$.
 
@@ -238,7 +238,7 @@ par hypothèse, on a $\xi \in A_\alpha$ et $\eta \in A_\beta$, d’où $\xi \eta
 
 C.Q.F.D.
 
-#### Remarque {#lie-ii-s4-n5-rem-1 .statement}
+#### Remarque {#lie-ii-s4-n5-rem-1 .statement tag=0A4O}
 
 Soient $\alpha \geqslant 0, \beta \geqslant 0$ et $x \in \Gamma_\alpha, y \in \Gamma_\beta$. D’après les formules (21), (22) et (23), on a
 
@@ -259,7 +259,7 @@ Or $[\xi, \eta] \in A_{\alpha + \beta}$, $(x^{-1} - 1) \in A_\alpha$, $(y^{-1} -
 
 Soient $G$ un groupe et $\rho : G \to \Gamma$ un homomorphisme. Pour tout $\alpha$ réel, on pose $G_\alpha = \rho^{-1}(\Gamma_\alpha)$. Comme $(\Gamma_\alpha)$ est une filtration centrale sur $\Gamma$, il est immédiat que $(G_\alpha)$ est une filtration centrale sur $G$.
 
-#### Proposition 3 {#lie-ii-s4-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s4-prop-3 .statement tag=0A4P}
 
 (i) *Pour tout $\alpha \in \mathbf{R}$, il existe un unique homomorphisme de groupes $g_\alpha : \mathrm{gr}_\alpha(G) \to \mathrm{gr}_\alpha(A)$ qui applique la classe modulo $G_\alpha^+$ d’un élément $a \in G_\alpha$ sur la classe modulo $A_\alpha^+$ de $\rho(a) - 1$.*
 
@@ -291,7 +291,7 @@ $$(28)\quad C^1G = G,\quad C^{n+1}G = (G, C^nG)$$ pour $n \geq 1$.
 
 La filtration correspondante s’appelle la filtration centrale descendante de $G$.
 
-#### Proposition 4 {#lie-ii-s4-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s4-prop-4 .statement tag=0A4Q}
 
 (i) *La suite centrale descendante de $G$ est une filtration centrale entière sur $G$*.
 
@@ -301,7 +301,7 @@ L’assertion (i) a été prouvée en A, I, p. 68, formule (7).
 
 On démontre (ii) par récurrence sur $n$; on a $C^1G = G = G_1$; pour $n > 1$, on a $C^nG = (G, C^{n-1}G) \subset (G, G_{n-1}) \subset G_n$.
 
-#### Proposition 5 {#lie-ii-s4-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s4-prop-5 .statement tag=0A4R}
 
 *Soit $G$ un groupe et soit $\mathrm{gr}(G)$ la $\mathbf{Z}$-algèbre de Lie graduée associée à la filtration centrale descendante de $G$. Alors $\mathrm{gr}(G)$ est engendrée par $\mathrm{gr}_1(G) = G/(G, G)$*.
 
@@ -310,7 +310,7 @@ Soit $L$ la sous-algèbre de Lie de $\mathrm{gr}(G)$ engendrée par $\mathrm{gr}
 La démonstration précédente montre que la suite centrale descendante de l’algèbre de Lie $\mathrm{gr}(G)$ (§ 2, n° 7) est donnée par
 $$(29)\quad \mathscr{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).$$
 
-#### Remarque {#lie-ii-s4-n6-rem-1 .statement}
+#### Remarque {#lie-ii-s4-n6-rem-1 .statement tag=0A4S}
 
 Soient $k$ un anneau, $n$ un entier $> 0$, $A$ l’ensemble des matrices à $n$ lignes et $n$ colonnes, à éléments dans $k$, triangulaires inférieures. Pour $p \geq 0$, soit $A_p$ l’ensemble des $(x_{ij}) \in A$ telles que $x_{ij} = 0$ pour $i - j < p$. Alors $A_0 = A$ et
 

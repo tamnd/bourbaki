@@ -37,7 +37,7 @@ subsections:
       pdf_page: 121
 statements: 23
 exercises: 5
-content_sha256: 9f0b3fd5a207c13f294d97e009459524508d20f2e3997660100744248b28d20c
+content_sha256: 2397d756974854b3ee958d9e41606c68fd59ce8ff67222f074fcb59adc452c32
 ---
 
 ## § 1. PRIME FIELDS. CHARACTERISTIC
@@ -46,7 +46,7 @@ content_sha256: 9f0b3fd5a207c13f294d97e009459524508d20f2e3997660100744248b28d20c
 
 The field of fractions of the ring Z of rational integers is called the field of rational numbers and is denoted by Q (I, p. 117). For every prime number p the quotient ring $\mathbf{Z}/(p)$ is a finite $^1$ field of p elements, denoted by $\mathbf{F}_p$ in the sequel. The field Q is infinite since it contains Z, and is therefore not isomorphic to any field $\mathbf{F}_p$. If p and $p'$ are distinct prime numbers, the fields $\mathbf{F}_p$ and $\mathbf{F}_{p'}$ have distinct cardinals and so are not isomorphic.
 
-#### Definition 1 {#alg-v-s1-def-1 .statement}
+#### Definition 1 {#alg-v-s1-def-1 .statement tag=06G3}
 
 A field is said to be prime if it is isomorphic either to Q or to one of the fields $\mathbf{F}_p$.
 
@@ -54,17 +54,17 @@ Every subfield of Q contains the ring Z and hence the field of fractions Q of Z;
 
 $^1$ By abuse of language one says that a ring or field is finite if its underlying set is finite.
 
-#### Theorem 1 {#alg-v-s1-thm-1 .statement}
+#### Theorem 1 {#alg-v-s1-thm-1 .statement tag=06G4}
 
 — Let $A$ be a ring ; suppose that there exists a subfield of $A$. Then $A$ has a unique subfield $P$ which is a prime field. Moreover, $P$ is contained in the centre of $A$ and in every subfield of $A$.
 
 Let $K$ be a subfield of $A$, $C$ the centre of $A$, and put $K' = K \cap C$; then $K'$ is a subfield of $A$. Let $f$ be the unique homomorphism of $\mathbf{Z}$ into $A$ and $p$ its kernel. Every subring of $A$, in particular $K'$, contains $f(\mathbf{Z})$; hence the ideal $p$ is prime (I, p. 116-117). If $p = (0)$, the homomorphism $f$ of $\mathbf{Z}$ into $K'$ is injective; hence it extends (I, p. 116) to an isomorphism $\bar{f}$ of $\mathbf{Q}$ onto a subfield $P$ of $K'$. If $p \neq (0)$, there is a strictly positive integer $p$ such that $p = (p)$ (I, p. 111); if we had $p = ab$ with $a > 1$ and $b > 1$, this would mean $a \notin p, b \notin p$ and $ab \in p$ in contradiction with the fact that $p$ is prime. The number $p$ is therefore prime and by passage to quotients $f$ defines an isomorphism of $F_p = \mathbf{Z}/p$ onto a subfield $P$ of $K'$. In both cases $P$ is a subfield of $A$ contained in the centre $C$ of $A$, and it is a prime field. Let $L$ be a subfield of $A$; then $P \cap L$ is a subfield of $P$, and since $P$ is prime, we have $P \cap L = P$, whence $P \subset L$. If $P'$ is a subfield of $A$ and is a prime field, then by what has been said, $P \subset P'$, whence $P = P'$ because $P'$ is a prime field.
 
-#### Corollary 1 {#alg-v-s1-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-v-s1-thm-1-cor-1 .statement tag=06G5}
 
 — Let $K$ be a field. There exists a unique subfield of $K$ which is a prime field, and this is the least subfield of $K$.
 
-#### Corollary 2 {#alg-v-s1-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-v-s1-thm-1-cor-2 .statement tag=06G6}
 
 — For a field to be prime it is necessary and sufficient that it should contain no subfield other than itself.
 
@@ -78,7 +78,7 @@ b) the characteristic of $A$ is a prime number $p$, $P$ is isomorphic to $\mathb
 
 If the characteristic of $A$ is zero, there exists a unique ring homomorphism of $Q$ into $A$; its image is the prime subfield of $A$, contained in the centre of $A$. Therefore there exists a unique $Q$-algebra structure of $A$ compatible with the ring structure. When the characteristic of $A$ is a prime number $p$, we have the corresponding properties on replacing the field $Q$ by the field $\mathbf{F}_p$.
 
-#### Proposition 1 {#alg-v-s1-prop-1 .statement}
+#### Proposition 1 {#alg-v-s1-prop-1 .statement tag=06G7}
 
 — Let $A$ be a ring not reduced to 0.
 a) For $A$ to be of characteristic 0 it is necessary and sufficient that the mapping $x \mapsto n \cdot x$ of $A$ into itself should be bijective, for every integer $n \neq$
@@ -89,23 +89,23 @@ Let $f$ be the unique homomorphism of $\mathbf{Z}$ into $A$; we have $n \cdot x 
 
 Let us take for $A$ a not necessarily commutative field. The centre of $A$ is a (commutative) field; therefore the characteristic and the prime subfield of $A$ are defined.
 
-#### Remark 1 {#alg-v-s1-n2-rem-1 .statement}
+#### Remark 1 {#alg-v-s1-n2-rem-1 .statement tag=06G8}
 
 Let $A$ and $A'$ be two rings not reduced to 0. Suppose that the characteristic of $A$ is defined and that there is a homomorphism $u$ of $A$ into $A'$. The image under $u$ of the prime subfield of $A$ is a subfield $P'$ of $A'$, isomorphic to $P$, and hence prime. It follows that the characteristic of $A'$ is defined and is equal to that of $A$. If $A$ and $A'$ are of characteristic 0 (resp. $p \neq 0$), the mapping $u$ is a homomorphism of algebras over $\mathbf{Q}$ (resp. $\mathbf{F}_p$).
 
-#### Remark 2 {#alg-v-s1-n2-rem-2 .statement}
+#### Remark 2 {#alg-v-s1-n2-rem-2 .statement tag=06G9}
 
 Remark 1 shows that if $A$ is a ring of characteristic 0 (resp. $p \neq 0$), the same holds of any ring $A'$ containing $A$ as subring, or of any quotient of $A$ by a two-sided ideal $a \neq A$. In particular, if $K$ is a field, every subfield of $K$ and every extension field of $K$ have the same characteristic as $K$.
 
-#### Remark 3 {#alg-v-s1-n2-rem-3 .statement}
+#### Remark 3 {#alg-v-s1-n2-rem-3 .statement tag=06GA}
 
 Let $A$ be an algebra not reduced to 0 over a field $K$. Since the mapping $\lambda \mapsto \lambda \cdot 1$ of $K$ into $A$ is a ring homomorphism, Remark 1 shows that the characteristic of $A$ is defined and equal to that of $K$.
 
-#### Remark 4 {#alg-v-s1-n2-rem-4 .statement}
+#### Remark 4 {#alg-v-s1-n2-rem-4 .statement tag=06GB}
 
 Since the field $\mathbf{Q}$ is infinite, every ring of characteristic 0 is infinite; it follows that every finite field has non-zero characteristic.
 
-#### Remark 5 {#alg-v-s1-n2-rem-5 .statement}
+#### Remark 5 {#alg-v-s1-n2-rem-5 .statement tag=06GC}
 
 Let $A$ be a ring not reduced to 0, whose additive group is a torsion-free $\mathbf{Z}$-module, and put $B = \mathbf{Q} \otimes_{\mathbf{Z}} A$. The mapping $x \mapsto 1 \otimes x$ of $A$ into $B$ is injective (II, p. 314), hence $A$ is isomorphic to a subring of a ring of characteristic 0.
 
@@ -113,7 +113,7 @@ Let $A$ be a ring not reduced to 0, whose additive group is a torsion-free $\mat
 
 In this No. and the following one $p$ denotes a prime number.
 
-#### Theorem 2 {#alg-v-s1-thm-2 .statement}
+#### Theorem 2 {#alg-v-s1-thm-2 .statement tag=06GD}
 
 — Let $A$ be a commutative ring of characteristic $p$. The mapping $a \mapsto a^p$ is an endomorphism of the ring $A$, that is, we have the relations
 
@@ -124,7 +124,7 @@ for $a, b$ in $A$.
 
 Formula (2) follows from the commutativity of $A$. To prove (1) we use the binomial formula $(a + b)^p = a^p + b^p + \sum_{i=1}^{p-1} \binom{p}{i} \cdot a^i b^{p-i}$; since $p \cdot x = 0$ for all $x \in A$, it suffices to prove the following lemma:
 
-#### Lemma 1 {#alg-v-s1-lem-1 .statement}
+#### Lemma 1 {#alg-v-s1-lem-1 .statement tag=06GE}
 
 Let $p$ be a prime number and $i$ an integer in the range from 1 to $p - 1$, then the binomial coefficient $\binom{p}{i}$ is an integer divisible by $p$.
 
@@ -144,7 +144,7 @@ $$
 
 For each subset $S$ of $A$ we denote by $S^{p^f}$ the set of elements of $A$ of the form $x^{p^f}$ with $x \in S$^1. In particular, if $K$ is a subring of $A$, the set $K^{p^f}$ is a subring of $A$. If $K$ is a subring of $A$ and $S$ a subset of $A$ we denote by $K[S]$ the subring of $A$ generated by $K \cup S$; when $A$ is a field, we denote by $K(S)$ the field of fractions of $K[S]$, that is, the subfield of $A$ generated by $K \cup S$.
 
-#### Proposition 2 {#alg-v-s1-prop-2 .statement}
+#### Proposition 2 {#alg-v-s1-prop-2 .statement tag=06GF}
 
 — *Let $A$ be a commutative ring of characteristic $p$, $K$ a subring of $A$, $S$ a subset of $A$ and $f$ a positive integer.*
 
@@ -160,7 +160,7 @@ It is clear that the family $(a_i^{p^f})_{i \in I}$ generates the $K^{p^f}$-modu
 
 ### 4. Perfect rings of characteristic p
 
-#### Definition 2 {#alg-v-s1-def-2 .statement}
+#### Definition 2 {#alg-v-s1-def-2 .statement tag=06GG}
 
 — A ring $A$ of characteristic $p \neq 0$ is said to be perfect if it is commutative and the mapping $a \mapsto a^p$ is bijective.
 
@@ -168,7 +168,7 @@ If the ring $A$ is perfect of characteristic $p$, the mapping $a \mapsto a^{p^f}
 
 Let $A$ be a commutative ring of characteristic $p$. For every integer $f \geq 0$ let us write $\mathfrak{n}_f$ for the kernel of the endomorphism $a \mapsto a^p$ of the ring $A$. Then $(\mathfrak{n}_f)_{f \geq 0}$ is an increasing sequence of ideals of $A$; since every positive integer is majorized by a power of $p$, the ideal $\mathfrak{n} = \bigcup_{f \geq 0} \mathfrak{n}_f$ consists of all the nilpotent elements of $A$. In particular, if $A$ is perfect, every nilpotent element of $A$ is zero.
 
-#### Definition 3 {#alg-v-s1-def-3 .statement}
+#### Definition 3 {#alg-v-s1-def-3 .statement tag=06GH}
 
 — Let $A$ be a commutative ring of characteristic $p \neq 0$. By a perfect closure of $A$ we understand a pair $(A, u)$ where $A$ is a perfect ring of characteristic $p$ and $u$ is a homomorphism of $A$ into $A$ satisfying the following universal property:
 
@@ -176,7 +176,7 @@ Let $A$ be a commutative ring of characteristic $p$. For every integer $f \geq 0
 
 The universal property (PC) implies at once the uniqueness of the perfect closure, in the following sense : if $(A, u)$ and $(A', u')$ are two perfect closures of $A$, then there exists a unique isomorphism $h$ of $A$ onto $A'$ such that $u' = h \circ u$ (cf. *E, IV*, p. 23). We shall now establish the *existence* of the perfect closure :
 
-#### Theorem 3 {#alg-v-s1-thm-3 .statement}
+#### Theorem 3 {#alg-v-s1-thm-3 .statement tag=06GI}
 
 — Let $A$ be a commutative ring of characteristic $p \neq 0$. There exists a perfect closure $(A, u)$ of $A$. Moreover, the kernel of $u$ is the set of all nilpotent elements of $A$ and for each $x \in A$ there exists an integer $n \geq 0$ such that $x^{p^n} \in u(A)$.
 
@@ -192,7 +192,7 @@ $$
 
 and since $B$ is perfect, we find $h(x) = h'(x)$. Thus we have $h' = h$, and this completes the proof that $(A, u)$ is a perfect closure of $A$.
 
-#### Proposition 3 {#alg-v-s1-prop-3 .statement}
+#### Proposition 3 {#alg-v-s1-prop-3 .statement tag=06GJ}
 
 — *Let $B$ be a perfect ring of characteristic $p$ and $A$ a subring of $B$. Write $\mathbf{A}^{p^{-\infty}} = \bigcup_{f \geq 0} \mathbf{A}^{p^{-f}}$ and denote by $j$ the canonical injection of $A$ in $\mathbf{A}^{p^{-\infty}}$. Then $\mathbf{A}^{p^{-\infty}}$ is the smallest perfect subring of $B$ containing $A$ and $(\mathbf{A}^{p^{-\infty}}, j)$ is a perfect closure of $A$.*
 
@@ -204,19 +204,19 @@ If $v$ is a homomorphism of $A$ into a perfect ring $B'$ of characteristic $p$, 
 
 Let $K$ be a field. By the *characteristic exponent* of $K$ we understand the integer equal to *1* if $K$ is of characteristic 0, and equal to the characteristic of $K$ when this is non-zero.
 
-#### Proposition 4 {#alg-v-s1-prop-4 .statement}
+#### Proposition 4 {#alg-v-s1-prop-4 .statement tag=06GK}
 
 — *Let $K$ be a field of characteristic exponent q. For every integer $f \geq 0$ the mapping $x \mapsto x^{q^f}$ is an isomorphism of K on one of its subfields (denoted by $K^{q^f}$).*
 This follows from Th. 2 when q ≠ 1 and is trivial when q = 1.
 Likewise one can extend Prop. 2 to the case where $A$ is a field of characteristic exponent q, the case q = *1* being trivial.
 
-#### Definition 4 {#alg-v-s1-def-4 .statement}
+#### Definition 4 {#alg-v-s1-def-4 .statement tag=06GL}
 
 — *A field K of characteristic exponent q is said to be perfect if we have $K^q = K$. When $K^q \neq K$, K is called imperfect.*
 By this definition a field is perfect if it is of characteristic 0, or if it is a perfect ring of characteristic $p \neq 0$ in the sense of Def. 2. If $K$ is a field of characteristic $p \neq 0$ and $(K, u)$ is a perfect closure of $K$, then K is a field by Prop. 3 *(V, p. 6)* and $u$ is an isomorphism of K onto a subfield of $\hat{K}$. Frequently one identifies $K$ with its image under $u$ in $\hat{K}$, so that we have $\hat{K} = K^{p^{-\infty}}$ (Prop. **3**).
 Let K be a field of characteristic *0* ; the characteristic exponent of $K$ is then *1*. By convention the notation $x^{q^{-f}}$ and $S^{q^{-f}}$ is taken to mean x and S respectively *(for an element $x$ of $K$ and a subset S of $K$)*. In particular we put $K^{q^{-\infty}} = K$ and we agree to take the perfect closure of $K$ to be $K$.
 
-#### Proposition 5 {#alg-v-s1-prop-5 .statement}
+#### Proposition 5 {#alg-v-s1-prop-5 .statement tag=06GM}
 
 — *If K is a field of characteristic 0, or is finite, \* or algebraically closed \*, it is perfect. In particular every prime field is perfect.*
 Suppose that $K$ has characteristic $p \neq 0$. If $K$ is finite, then the subfield $K^p$ of $K$ has the same cardinal as $K$, whence $K^p = K$. \* If $K$ is algebraically closed, the polynomial $X^p - a$ has a root $x$ in $K$ for each $a \in K$ *(V, p. 20, Def. 1)* whence $x^p = a$ and so $K^p = K$. \* Finally a prime field is of characteristic *0* or finite.
@@ -224,7 +224,7 @@ Let $K_0$ be a field of characteristic $p \neq 0$ and $K = K_0(X)$ the field of 
 
 ### 6. Characterization of polynomials with zero differential
 
-#### Proposition 6 {#alg-v-s1-prop-6 .statement}
+#### Proposition 6 {#alg-v-s1-prop-6 .statement tag=06GN}
 
 — *Let K be a commutative ring, A the polynomial algebra $K[X_i]_{i \in I}$, and S the set of elements F of A such that $dF = 0$.*
 
@@ -259,11 +259,11 @@ a) If K is of characteristic 0, we have $nF_n = 0$ for all $n \geq 1$, whence $F
 
 b) If K is of characteristic $p \neq 0$, then A is an algebra over the field $\mathbf{F}_p$ and the relation $nF_n = 0$ implies $F_n = 0$ for every integer $n$ not divisible by $p$. So we have $F = \sum_{m=0}^m F_{mp} X_i^{mp}$, whence $F \in T$
 
-#### Remark {#alg-v-s1-n6-rem-1 .statement}
+#### Remark {#alg-v-s1-n6-rem-1 .statement tag=06GO}
 
 — We still have $S = K$ when the additive group of K is torsion-free; this follows from the above proof or from Remark 5 of V, p. 3.
 
-#### Corollary {#alg-v-s1-n6-cor-1 .statement}
+#### Corollary {#alg-v-s1-n6-cor-1 .statement tag=06GP}
 
 — Let K be a field and F(X) a polynomial with coefficients in K, whose derivative F'(X) is zero.
 a) If K is of characteristic 0, then F ∈ K.

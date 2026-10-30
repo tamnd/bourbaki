@@ -45,7 +45,7 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 5
-content_sha256: 655693e7a04007c1c945191a9013db40b84ed61aa9c1a51e1fcd411b09a3ff01
+content_sha256: 73fbc314f10f872fa1a645f475b07e7c7f626d3f3496d423616dcad156d8b693
 translated_from: content/en/alg/IV/01_s1_polynomials.md
 source_content_sha256: fd78d3218a441457495db91a031db777e1dadb9447985e7988ec7daf8360616c
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
@@ -96,7 +96,7 @@ Cho $u = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu$ là một đa thức.
 
 Cho E là một A-môđun. Họ $(E \otimes P_n)_{n \in \mathbf{N}}$ là một phân bậc kiểu N của môđun $E[(X_i)_{i \in I}] = E \otimes_A A[(X_i)_{i \in I}]$ các đa thức với hệ số trong E. Ta mở rộng cho trường hợp này các quy ước đã dùng ở trên đối với bậc của các đa thức không thuần nhất.
 
-#### Mệnh đề 1 {#alg-iv-s1-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iv-s1-prop-1 .statement tag=069O}
 
 *Cho $u$ và $v$ là hai đa thức.*
 
@@ -155,13 +155,13 @@ Nếu $h = (h_k)_{k \in K} \in (A[(Z_l)_l \bullet_L])^K$, thì từ (2) suy ra r
 $$(4)$$
 $$f \circ (g \circ h) = (f \circ g) \circ h.$$
 
-#### Mệnh đề 2 {#alg-iv-s1-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iv-s1-prop-2 .statement tag=069P}
 
 *Cho $a = (a_i)_{i \in I}$ là một họ các phần tử của $A$ và cho $u \in A[X]$. Nếu $v$ là đa thức thu được bằng cách thay $X_i + a_i$ vào chỗ $X_i$ với mỗi $i \in I$, thì số hạng hằng của $v$ bằng $u(a)$.*
 
 Số hạng hằng của $v$ thu được bằng cách thay 0 cho $X_i$ trong $v$ với mỗi $i \in I$. Vì thế kết quả suy ra từ (2).
 
-#### Hệ quả 1 {#alg-iv-s1-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-iv-s1-prop-2-cor-1 .statement tag=069Q}
 
 *Cho $m$ là iđêan các đa thức $u \in A[X]$ sao cho $u(a) = 0$. Khi đó $m$ được sinh bởi các đa thức $X_i - a_i$ (với $i \in I$).*
 
@@ -173,19 +173,19 @@ $$
 
 Nếu ta thay $X_i$ bằng $X_i - a_i$ với mỗi $i \in I$ trong đẳng thức trên, ta thu được một quan hệ dạng $u(X) = \sum_{i \in I} (X_i - a_i) \cdot P'_i(X)$, do đó có hệ quả.
 
-#### Hệ quả 2 {#alg-iv-s1-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-iv-s1-prop-2-cor-2 .statement tag=069R}
 
 *Cho $X = (X_i)_{i \in I}$ và $Y = (Y_i)_{i \in I}$ là hai họ bất định. Tập hợp các đa thức $u \in A[X,Y]$ sao cho $u(X,X) = 0$ là iđêan của $A[X,Y]$ sinh bởi các đa thức $X_i - Y_i$ (với $i \in I$).*
 
 Hệ quả này suy ra trực tiếp từ Hệ quả 1 khi thay thế $A$ bởi $A[Y]$ và $a_i$ bởi $Y_i$, hiểu $A[X,Y]$ như vành đa thức theo các $X_i$ với hệ số trong $A[Y]$.
 
-#### Mệnh đề 3 {#alg-iv-s1-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iv-s1-prop-3 .statement tag=069S}
 
 *Cho $u \in A[X]$ và gọi $X.Z$ là họ $(X_iZ)_{i \in I}$ các phần tử của vành đa thức $A[X][Z]$. Hệ số của $Z^k$ trong $u(X.Z)$ là thành phần thuần nhất bậc $k$ của $u$, với mọi số nguyên dương $k$.*
 
 Chỉ cần chứng minh Mệnh đề này trong trường hợp $u$ là một đơn thức, và trong trường hợp đó kết quả là hiển nhiên.
 
-#### Hệ quả {#alg-iv-s1-n3-cor-1 .statement}
+#### Hệ quả {#alg-iv-s1-n3-cor-1 .statement tag=069T}
 
 *Để một đa thức $u \in A[X]$ là thuần nhất bậc $k$ thì điều kiện cần và đủ là :*
 
@@ -193,7 +193,7 @@ $$
 u(X.Z) = u(X) \cdot Z^k.
 $$
 
-#### Nhận xét {#alg-iv-s1-n3-rem-1 .statement}
+#### Nhận xét {#alg-iv-s1-n3-rem-1 .statement tag=069U}
 
 — Cho $x \in A^I$ và gọi $f$ là ánh xạ $u \mapsto u(x)$ từ $A[X]$ vào $A$. Với một $A$-môđun $M$ cho trước, ta xét đồng cấu $1 \otimes f$ từ $M[X] = M \otimes_A A[X]$ vào $M \otimes_A A = M$. Với mỗi $v \in M[X]$ ta có $(1 \otimes f)(v) = v(x)$. Nếu $v = \sum_{\nu \in \mathbf{N}^{(I)}} e_\nu X^\nu$, thì $v(x) = \sum_{\nu \in \mathbf{N}^{(I)}} x^\nu e_\nu$.
 
@@ -225,7 +225,7 @@ du = \sum_{i \in I} (D_i u) dX_i
 $$
 với mỗi $u \in B$. Nếu I là hữu hạn, $(D_i)_{i \in I}$ là một cơ sở của B-môđun các đạo hàm của B.
 
-#### Mệnh đề 4 {#alg-iv-s1-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iv-s1-prop-4 .statement tag=069V}
 
 *Cho E là một A-đại số kết hợp, giao hoán và có đơn vị, $x = (x_i)_{i \in I}$ một họ các phần tử của E, u một phần tử của $A[(X_i)_{i \in I}]$ và $y = u(x)$. Khi đó với mọi đạo hàm D từ E vào một E-môđun ta có*
 $$
@@ -234,7 +234,7 @@ $$
 
 Chỉ cần chứng minh mệnh đề khi $u$ là một đơn thức, và trong trường hợp đó nó suy ra từ III, p. 558, Mệnh đề 6.
 
-#### Hệ quả {#alg-iv-s1-n4-cor-1 .statement}
+#### Hệ quả {#alg-iv-s1-n4-cor-1 .statement tag=069W}
 
 — *Cho $f \in A[X_1, ..., X_p]$ và $g_i \in A[Y_1, ..., Y_q]$ với $1 \leq i \leq p$, và đặt $h = f(g_1, ..., g_p)$, khi đó với $1 \leq j \leq q$ ta có*
 
@@ -298,7 +298,7 @@ $$
 \Delta^\rho \Delta^\sigma u = \frac{(\rho + \sigma)!}{\rho! \; \sigma!} \Delta^{\rho + \sigma} u.
 $$
 
-#### Mệnh đề 5 {#alg-iv-s1-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iv-s1-prop-5 .statement tag=069X}
 
 — *Với mọi* $u \in \mathbf{A}[\mathbf{X}]$ *và* $\nu \in \mathbf{N}^{(I)}$ *ta có*
 
@@ -334,7 +334,7 @@ $$
 
 Cả ba công thức (15), (16), (17) đều được gọi là « công thức Taylor ».
 
-#### Mệnh đề 6 (*« đồng nhất thức Euler »*) {#alg-iv-s1-prop-6 .statement}
+#### Mệnh đề 6 (*« đồng nhất thức Euler »*) {#alg-iv-s1-prop-6 .statement tag=069Y}
 
 — *Cho* $u \in \mathbf{A}[\mathbf{X}]$ *là một đa thức thuần nhất bậc r ; ta có*
 
@@ -346,7 +346,7 @@ Cho D là ánh xạ A-tuyến tính từ $A[X]$ vào chính nó sao cho $D(v) = 
 
 ### 5. Ước của không trong một vành đa thức
 
-#### Mệnh đề 7 {#alg-iv-s1-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iv-s1-prop-7 .statement tag=069Z}
 
 — *Cho $f \in A[X]$ là một đa thức khác không theo một bất định và $a$ là hệ số đầu của nó. Nếu $a$ giản ước được trong A (đặc biệt nếu $f$ đơn nhất) thì với mọi phần tử khác không g của $A[X]$, ta có*
 
@@ -356,13 +356,13 @@ $$
 
 Cho $g \in A[X]$ là một đa thức khác không, $\beta$ là hệ số đầu của nó, $n = \deg f$ và $p = \deg g$. Khi đó hệ số của $X^{n+p}$ trong $fg$ là $\alpha \beta$ và không triệt tiêu, do đó có mệnh đề.
 
-#### Mệnh đề 8 {#alg-iv-s1-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iv-s1-prop-8 .statement tag=06A0}
 
 — *Nếu A là một miền nguyên, thì $A[(X_i)_{i \in I}]$ cũng là một miền nguyên.*
 
 Cho $u, v$ là hai phần tử khác không của $A[(X_i)_{i \in I}]$; ta phải chứng minh rằng $uv \neq 0$. Bây giờ $u$ và $v$ thuộc một vành $A[(X_j)_{j \in J}]$ trong đó J là một tập con hữu hạn của I. Vì vậy ta có thể giới hạn vào trường hợp I là hữu hạn và bằng $\{1, 2, ..., p\}$. Mặt khác, vành $A[X_1, ..., X_p]$ đẳng cấu với vành đa thức theo $X_p$ với hệ số trong $A[X_1, ..., X_{p-1}]$. Bằng quy nạp theo $p$, vì thế ta được quy về việc chứng minh mệnh đề cho $A[X]$, và khi đó chỉ cần áp dụng Mệnh đề 7.
 
-#### Hệ quả 1 {#alg-iv-s1-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#alg-iv-s1-prop-8-cor-1 .statement tag=06A1}
 
 — *Nếu A là một miền nguyên, và $u, v$ là các phần tử của $A[(X_i)_{i \in I}]$, thì $\deg(uv) = \deg u + \deg v$.*
 
@@ -374,19 +374,19 @@ $$
 
 trong đó $u_h$ (tương ứng $v_h$) là thành phần thuần nhất bậc $h$ của $u$ (tương ứng v). Vì $u_m \neq 0$ và $v_n \neq 0$, ta có $u_m v_n \neq 0$ (Mệnh đề 8). Bây giờ $uv = u_m v_n + w$ với $\deg w < m + n$, do đó có kết quả.
 
-#### Hệ quả 2 {#alg-iv-s1-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#alg-iv-s1-prop-8-cor-2 .statement tag=06A2}
 
 — *Nếu A là một miền nguyên, thì các phần tử khả nghịch của $A[(X_i)_{i \in I}]$ là các phần tử khả nghịch của A.*
 
 Điều này suy ra ngay lập tức từ Hệ quả 1.
 
-#### Mệnh đề 9 {#alg-iv-s1-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iv-s1-prop-9 .statement tag=06A3}
 
 — *Cho $u \in A[(X_i)_{i \in I}]$; khi đó điều kiện cần và đủ để u lũy linh trong vành $A[(X_i)_{i \in I}]$ là mọi hệ số của nó đều lũy linh trong vành A.*
 
 Như trong chứng minh của Mệnh đề 8, ta có thể quy về trường hợp các đa thức theo một biến X. Nếu mọi hệ số của $u$ đều lũy linh, thì $u$ lũy linh (I, p. 99, Hệ quả 1). Giả sử rằng $u$ lũy linh nhưng khác không và gọi $n$ là bậc của nó; ta sẽ lập luận bằng quy nạp theo $n$. Gọi $a$ là hệ số đầu của $u$. Tồn tại một số nguyên $m > 0$ sao cho $u^m = 0$. Hệ số đầu của $u^m$ là $a^m$, do đó $a^m = 0$. Bây giờ $u - \alpha X^n$ là lũy linh (I, loc. cit.) và giả thiết quy nạp cho thấy mọi hệ số của $u - \alpha X^n$ đều lũy linh. Vậy mọi hệ số của $u$ đều lũy linh.
 
-#### Nhận xét {#alg-iv-s1-n5-rem-1 .statement}
+#### Nhận xét {#alg-iv-s1-n5-rem-1 .statement tag=06A4}
 
 Cho $u$ và $v$ là các phần tử của $A[(X_i)_i \in ,]$, và giả sử rằng $A$ là một miền nguyên, $v$ là một bội khác không của $u$ và $v$ thuần nhất; khi đó $u$ cũng thuần nhất. Thật vậy, cho $u' \in A[(X_i)_i ,_1]$ sao cho $v = uu'$; ta có $u \neq 0$, $u' \neq 0$, và nếu
 $$
@@ -397,7 +397,7 @@ là các phân tích của $u$ và $u'$ thành các thành phần thuần nhất
 
 ### 6. Phép chia Euclid các đa thức một ẩn
 
-#### Mệnh đề 10 {#alg-iv-s1-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iv-s1-prop-10 .statement tag=06A5}
 
 *Mọi $f$ và $g$ là các phần tử khác không của $A[X]$ có bậc lần lượt là $m$ và $n$. Gọi $\alpha_0$ là hệ số cao nhất của $f$ và $\mu = \sup(n - m + 1, 0)$. Tồn tại $u, v \in A[X]$ sao cho*
 $$
@@ -418,7 +418,7 @@ $$
 
 Ta có $(u - u_1) f = v_1 - v$ và $\deg(v_1 - v) < m$, do đó $u - u_1 = 0$ (IV, p. 9, Prop. 7) và vì thế $v_1 - v = 0$.
 
-#### Hệ quả (« Phép chia Euclid các đa thức ») {#alg-iv-s1-n6-cor-1 .statement}
+#### Hệ quả (« Phép chia Euclid các đa thức ») {#alg-iv-s1-n6-cor-1 .statement tag=06A6}
 
 — Cho $f$ là một phần tử khác không của $A[X]$ mà *hệ số* đầu khả nghịch và $m = \deg f$.
 (i) Với mọi $g \in A[X]$ tồn tại $u,\ v \in A[X]$ sao cho
@@ -435,7 +435,7 @@ Với các ký hiệu của (i), ta sẽ nói rằng $u$ là thương và $v$ l�
 
 ### 7. Tính chia hết của các đa thức theo một ẩn [^1]
 
-#### Mệnh đề 11 {#alg-iv-s1-prop-11 .statement}
+#### Mệnh đề 11 {#alg-iv-s1-prop-11 .statement tag=06A7}
 
 — Cho $K$ là một *trường* giao hoán.
 (i) Với mọi iđêan khác không $a$ của $K[X]$ tồn tại chính xác một đa thức *đơn khởi* $f$ trong $K[X]$ sao cho $a = (f )$.
@@ -444,7 +444,7 @@ Ta hãy chứng minh (ii), vì tính đủ của điều kiện đã nêu là hi
 
 Để chứng minh (i), lấy $f$ là một đa thức đơn khởi trong $a$ có bậc nhỏ nhất có thể được. Cho $g$ thuộc $a$, gọi $u$ và $v$ là thương và số dư của phép chia Euclid của $g$ cho $f$; khi đó $v = g - u f$ thuộc $a$ và ta có $\deg v < \deg f$; nếu $v$ khác không, sẽ tồn tại một phần tử khác không $\lambda$ của $K$ sao cho $\lambda v$ là đơn khởi, và vì $\lambda v \in a$, điều này sẽ mâu thuẫn với định nghĩa của $f$. Vậy ta có $a = (f)$; tính duy nhất của đa thức đơn khởi $f$ sao cho $a = (f)$ bây giờ suy ra từ (ii).
 
-#### Mệnh đề 12 {#alg-iv-s1-prop-12 .statement}
+#### Mệnh đề 12 {#alg-iv-s1-prop-12 .statement tag=06A8}
 
 *Cho $K$ là một trường giao hoán và $f, g$ là hai phần tử của $K[X]$. Với mọi đa thức $d$ trong $K[X]$ các tính chất sau đây là tương đương*:
 
@@ -462,41 +462,41 @@ Ta nhận xét rằng với mọi đa thức $u$ và $v$ trong $K[X]$ thì các 
 
 Các mệnh đề khác của Mệnh đề 12 là những hệ quả ngay lập tức của Mệnh đề 11 áp dụng cho iđêan $a = (f) + (g)$.
 
-#### Định nghĩa 1 {#alg-iv-s1-def-1 .statement}
+#### Định nghĩa 1 {#alg-iv-s1-def-1 .statement tag=06A9}
 
 *Với ký hiệu của Mệnh đề 12, ta nói rằng $d$ là một ước chung lớn nhất (viết tắt là gcd) của $f$ và $g$. Ta nói rằng $f$ và $g$ nguyên tố cùng nhau hoặc rằng $f$ nguyên tố với $g$ nếu $1$ là một gcd của $f$ và $g$*.
 
 Nói rằng $f$ và $g$ nguyên tố cùng nhau do đó có nghĩa là tồn tại các đa thức $u$ và $v$ trong $K[X]$ sao cho $u f + v g = 1$.
 
-#### Hệ quả 1 {#alg-iv-s1-def-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-iv-s1-def-1-cor-1 .statement tag=06AA}
 
 *Cho $d$ là một ước chung lớn nhất của $f$ và $g$ và $K'$ là một trường giao hoán chứa $K$ như trường con. Khi đó $d$ là một ước chung lớn nhất của $f$ và $g$ khi xét chúng như các phần tử của $K'[X]$*.
 
 Điều này suy ra từ Mệnh đề 12, (iii).
 
-#### Hệ quả 2 {#alg-iv-s1-def-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-iv-s1-def-1-cor-2 .statement tag=06AB}
 
 — Cho d là một ước chung lớn nhất của f và g.
     (i) Nếu $u \in K[X]$, thì du là một ước chung lớn nhất của fu và gu.
     (ii) Nếu $v \in K[X]$ là một ước ($\neq 0$) của f và g, thì $d/v$ là một ước chung lớn nhất của $f/v$ và $g/v$.
     Điều này suy ra từ Mệnh đề 12, (ii).
 
-#### Hệ quả 3 {#alg-iv-s1-def-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-iv-s1-def-1-cor-3 .statement tag=06AC}
 
 — Cho w là một nhân tử chung của f và g. Để w là một ước chung lớn nhất của f và g, điều kiện cần và đủ là $f/w$ và $g/w$ nguyên tố cùng nhau.
     Điều này suy ra từ Hệ quả 2.
 
-#### Hệ quả 4 {#alg-iv-s1-def-1-cor-4 .statement}
+#### Hệ quả 4 {#alg-iv-s1-def-1-cor-4 .statement tag=06AD}
 
 — Cho $f, g, h \in K[X]$. Nếu f chia hết gh và nguyên tố cùng nhau với g, thì f chia hết h.
     Vì f chia hết gh và fh, nên f chia hết mọi ước chung lớn nhất của gh và fh, đặc biệt là h (Hệ quả 2, (i)).
 
-#### Hệ quả 5 {#alg-iv-s1-def-1-cor-5 .statement}
+#### Hệ quả 5 {#alg-iv-s1-def-1-cor-5 .statement tag=06AE}
 
 — Cho $f, g \in K[X]$. Để f và g nguyên tố cùng nhau, điều kiện cần và đủ là ảnh chính tắc của g trong $K[X]/(f)$ là khả nghịch.
     Vì điều kiện này có nghĩa là tồn tại $u, v \in K[X]$ sao cho $uf + vg = 1$.
 
-#### Hệ quả 6 {#alg-iv-s1-def-1-cor-6 .statement}
+#### Hệ quả 6 {#alg-iv-s1-def-1-cor-6 .statement tag=06AF}
 
 — Cho $f, g_1, g_2, ..., g_n \in K[X]$. Nếu f nguyên tố cùng nhau với $g_1, g_2, ..., g_n$, thì f nguyên tố cùng nhau với $g_1g_2...g_n$.
 
@@ -505,14 +505,14 @@ Nói rằng $f$ và $g$ nguyên tố cùng nhau do đó có nghĩa là tồn t�
 
 ### 8. Các đa thức bất khả quy
 
-#### Định nghĩa 2 {#alg-iv-s1-def-2 .statement}
+#### Định nghĩa 2 {#alg-iv-s1-def-2 .statement tag=06AG}
 
 — Cho K là một trường giao hoán. Ta nói rằng $f \in K[X]$ là bất khả quy nếu $\deg f \geq 1$ và f không chia hết cho bất kỳ đa thức g nào sao cho $0 < \deg g < \deg f$.
     Nói như vậy cũng tương đương với việc nói rằng $\deg f \geq 1$ và các ước duy nhất của f trong $K[X]$ là các vô hướng $\neq 0$ và các tích của f với các vô hướng $\neq 0$. Vì quan hệ $(f) \subset (g)$ có nghĩa là g chia hết f, ta thấy rằng các đa thức bất khả quy của $K[X]$ cũng có thể được định nghĩa là các đa thức f sao cho iđêan $(f)$ là cực đại (I, p. 104).
 
     Cho $f, g \in K[X]$. Nếu f là bất khả quy thì hiển nhiên hoặc f và g nguyên tố cùng nhau, hoặc f chia hết g. Nếu f và g là bất khả quy, thì hoặc f và g nguyên tố cùng nhau, hoặc mỗi đa thức là tích của đa thức kia với một vô hướng $\neq 0$. Đặc biệt, hai đa thức đơn nhất bất khả quy phân biệt là nguyên tố cùng nhau.
 
-#### Mệnh đề 13 {#alg-iv-s1-prop-13 .statement}
+#### Mệnh đề 13 {#alg-iv-s1-prop-13 .statement tag=06AH}
 
 — Cho $\mathscr{I}$ là tập các đa thức đơn nhất bất khả quy trong $K[X]$. Cho f là một phần tử khác không của $K[X]$ và a là hệ số cao nhất của nó; khi đó tồn tại chính xác một họ các số nguyên dương $(v_p)_{p \in \mathscr{S}}$ có giá hữu hạn, sao cho ta có một phân tích
 

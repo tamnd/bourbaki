@@ -30,7 +30,7 @@ subsections:
       pdf_page: 147
 statements: 5
 exercises: 2
-content_sha256: 4d3540b7ec97407be71cb0f6cb3acc3e307d1f899278290311099ea565ce0b4a
+content_sha256: 3a49dcd1591d3ccd8d3da36eb91e210dee0ffea0f51202486e0a783d55ffe2f0
 ---
 
 ## § 10. INVERSE AND DIRECT LIMITS
@@ -39,7 +39,7 @@ Throughout this paragraph, I will denote a non-empty preordered set, $\alpha \le
 
 ### 1. INVERSE SYSTEMS OF MAGMAS
 
-#### Definition 1 {#alg-i-s10-def-1 .statement}
+#### Definition 1 {#alg-i-s10-def-1 .statement tag=05JH}
 
 *An inverse system of magmas relative to the indexing set I is an inverse system of sets* $(\mathbf{E}_\alpha, f_{\alpha\beta})$ *relative to I, each* $\mathbf{E}_\alpha$ *having a magma structure and each* $f_{\alpha\beta}$ *being a magma homomorphism.*
 
@@ -79,7 +79,7 @@ It is left to the reader to define the inverse limit of an inverse system of gro
 
 In this no. and the following we shall assume that I is *right directed*.
 
-#### Definition 2 {#alg-i-s10-def-2 .statement}
+#### Definition 2 {#alg-i-s10-def-2 .statement tag=05JI}
 
 *A direct system of magmas relative to the indexing set I is a direct system of sets* $(E_\alpha, f_{\beta\alpha})$ *relative to I, each* $E_\alpha$ *having a magma structure and each* $f_{\beta\alpha}$ *being a magma homomorphism.*
 
@@ -104,7 +104,7 @@ $$
 
 If $x_\alpha, y_\alpha \in E_\alpha$ are such that $f_\alpha(x_\alpha) = f_\alpha(y_\alpha)$, there exists a $\beta \geq \alpha$ such that $f_{\beta\alpha}(x_\alpha) = f_{\beta\alpha}(y_\alpha)$.
 
-#### Proposition 1 {#alg-i-s10-prop-1 .statement}
+#### Proposition 1 {#alg-i-s10-prop-1 .statement tag=05JJ}
 
 *There exists on E one and only one magma structure for which the mappings* $f_\alpha : E_\alpha \to E$ *are homomorphisms. If the magmas* $E_\alpha$ *are associative (resp. commutative), so is E. If the magmas* $E_\alpha$ *and the homomorphism* $f_{\beta\alpha}$ *are unital, so are the magma* E *and the homomorphisms* $f_\alpha$.
 
@@ -145,7 +145,7 @@ and similarly $x \cdot e = x$, hence $e$ is the identity element of $E$.
 
 The magma $E$ is called the *direct limit of the magmas* $E_\alpha$.
 
-#### Proposition 2 {#alg-i-s10-prop-2 .statement}
+#### Proposition 2 {#alg-i-s10-prop-2 .statement tag=05JK}
 
 *Let* $(E_\alpha, f_{\beta \alpha})$ *be a direct system of magmas and let* $E$ *be its direct limits* $f_\alpha : E_\alpha \to E$ *the canonical homomorphisms. Suppose a magma* $F$ *and homomorphisms* $u_\alpha : E_\alpha \to F$ *are given such that* $u_\alpha = u_\beta \circ f_{\beta \alpha}$ *for* $\alpha \leq \beta$. *There exists one and only one homomorphism* $u : E \to F$ *such that* $u_\alpha = u \circ f_\alpha$ *for all* $\alpha \in I$. *If the magmas* $E_\alpha$ *and* $F$ *and the homomorphisms* $f_{\beta \alpha}$ *and* $u_\alpha$ *are unital, the homomorphism* $u$ *is unital.*
 
@@ -175,7 +175,7 @@ and the relation $x(y + z) = xy + xz$ is proved analogously. In other words, A h
 
 The ring A is called the direct limit of the rings $A_\alpha$. Proposition 2 extends immediately to the case of rings.
 
-#### Proposition 3 {#alg-i-s10-prop-3 .statement}
+#### Proposition 3 {#alg-i-s10-prop-3 .statement tag=05JL}
 
 (a) *If the $A_\alpha$ are non-zero, A is non-zero.*
 (b) *If the $A_\alpha$ are integral domains, A is an integral domain.*

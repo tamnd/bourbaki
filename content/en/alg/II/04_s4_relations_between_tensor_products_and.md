@@ -30,7 +30,7 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 8e8821ce947a2c6c29610c1d635790feb7ff2e056a08ea9ee06d29dad34cf210
+content_sha256: 426a0db21fa5ed22b6760dc79332adbd1c61d03bf2c3a4f077a67b035b99eabb
 ---
 
 ## § 4. RELATIONS BETWEEN TENSOR PRODUCTS AND HOMOMORPHISM MODULES
@@ -84,7 +84,7 @@ for $x \in E, y \in F, \gamma \in C$.
 
 We have therefore established the following result (in the notation introduced above):
 
-#### Proposition 1 {#alg-ii-s4-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s4-prop-1 .statement tag=05PP}
 
 (a) *Let E be a (B, A)-bimodule, F a left A-module and G a left B-module. For every mapping $g \in \mathrm{Hom}_B(E \otimes_A F, G)$, let $g'$ be the mapping of F into $\mathrm{Hom}_B(E, G)$ defined by $(g'(y))(x) = g(x \otimes y)$ for $x \in E, y \in F$. The mapping $g \mapsto g'$ is an isomorphism*
 
@@ -108,7 +108,7 @@ $$
 
 are canonically isomorphic to the $\Gamma$-module of $\Gamma$-*bilinear* mappings of $E \times F$ into G which satisfy (1). More particularly:
 
-#### Corollary {#alg-ii-s4-n1-cor-1 .statement}
+#### Corollary {#alg-ii-s4-n1-cor-1 .statement tag=05PQ}
 
 *If C is a commutative ring and E, F, G three C-modules, then the C-modules*
 $$
@@ -131,7 +131,7 @@ To this end, we consider, for all $y \in F$ and all $u \in \mathrm{Hom}_A(E, G)$
 
 It is immediately verified that, if $E$ is an $(A, (C'_i); (D'_j))$-multimodule, $F$ a $(B, (C''_h); (D''_k))$-multimodule and $G$ an $(A, (C'''_1); B, (D'''_m))$-multimodule, the mapping (7) is a $((D'_j), (C''_h), (C'''_1); (C'_i), (D''_k), (D'''_m))$-multimodule homomorphism.
 
-#### Proposition 2 {#alg-ii-s4-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s4-prop-2 .statement tag=05PR}
 
 (i) *When $F$ is a projective* (resp. *finitely generated projective*) *B-module, the canonical homomorphism (7) is injective* (resp. *bijective*).
 
@@ -151,7 +151,7 @@ $$
 
 on the other hand we write $\nu_F$ instead of $\nu$. Then we have the following lemmas:
 
-#### Lemma 1 {#alg-ii-s4-lem-1 .statement}
+#### Lemma 1 {#alg-ii-s4-lem-1 .statement tag=05PS}
 
 *For every homomorphism $u : F \to F'$, the diagram*
 
@@ -167,7 +167,7 @@ is *commutative*.
 
 The verification is immediate.
 
-#### Lemma 2 {#alg-ii-s4-lem-2 .statement}
+#### Lemma 2 {#alg-ii-s4-lem-2 .statement tag=05PT}
 
 Let $M, N$ be two supplementary submodules in $F$ and $i : M \to F, j : N \to F$ the canonical injections. The diagram
 
@@ -183,7 +183,7 @@ is commutative and the vertical arrows are bijective.
 
 The commutativity follows from Lemma 1, the other assertions from § 1, no. 6, Corollary 2 to Proposition 6 and § 3, no. 7, Proposition 7.
 
-#### Lemma 3 {#alg-ii-s4-lem-3 .statement}
+#### Lemma 3 {#alg-ii-s4-lem-3 .statement tag=05PU}
 
 Under the hypotheses of Lemma 2, for $\nu_F$ to be injective (resp. surjective), it is necessary and sufficient that $\nu_M$ and $\nu_N$ be so.
 
@@ -205,7 +205,7 @@ $$
 
 on the other hand, we write $\nu_E$ instead of $\nu$. Then we have the two lemmas:
 
-#### Lemma 4 {#alg-ii-s4-lem-4 .statement}
+#### Lemma 4 {#alg-ii-s4-lem-4 .statement tag=05PV}
 
 For every homomorphism $v : E \to E'$, the diagram
 
@@ -219,7 +219,7 @@ $$
 
 is commutative.
 
-#### Lemma 5 {#alg-ii-s4-lem-5 .statement}
+#### Lemma 5 {#alg-ii-s4-lem-5 .statement tag=05PW}
 
 Let $M$ and $N$ be two supplementary submodules in $E$ and $p : E \to M, q : E \to N$ the canonical projections. The diagram
 
@@ -254,7 +254,7 @@ $$
 $$
 be such that $1_E$ belongs to the image of $\theta_E$.
 
-#### Corollary {#alg-ii-s4-n2-cor-1 .statement}
+#### Corollary {#alg-ii-s4-n2-cor-1 .statement tag=05PX}
 
 (i) *When $F$ is a projective* (resp. *finitely generated projective*) *module, the canonical homomorphism* (11) *is injective* (resp. *bijective*).
 (ii) *When $E$ is a finitely generated projective module, the canonical homomorphism* (11) *is bijective*.
@@ -328,7 +328,7 @@ $$
 
 for $u, v$ in $\mathrm{End}_C(E)$ and $\gamma \in C$. Moreover:
 
-#### Proposition 3 {#alg-ii-s4-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s4-prop-3 .statement tag=05PY}
 
 *Let $C$ be a commutative ring, $E, F$ two finitely generated projective $C$*-modules* and $u : E \to F$ and $v : F \to E$ two linear mappings; then*
 
@@ -344,7 +344,7 @@ $$
 
 into $C$ are $C$*-bilinear*; it therefore suffices to verify (20) when $u$ is of the form $x \mapsto \langle x, a^* \rangle b$ and $v$ of the form $y \mapsto \langle y, b^* \rangle a$, with $a \in E, a^* \in E^*, b \in F, b^* \in F^*$. But then $v \circ u$ is the mapping $x \mapsto \langle x, a^* \rangle \langle b, b^* \rangle a$ and $u \circ v$ the mapping $y \mapsto \langle y, b^* \rangle \langle a, a^* \rangle b$. Formula (17) shows that the values of the two sides of (20) are equal to $\langle a, a^* \rangle \langle b, b^* \rangle$.
 
-#### Corollary {#alg-ii-s4-n3-cor-1 .statement}
+#### Corollary {#alg-ii-s4-n3-cor-1 .statement tag=05PZ}
 
 *If $u_1, \ldots, u_p$ are endomorphisms of $E$, then*
 
@@ -370,7 +370,7 @@ Let C be a *commutative* ring and $E_1, E_2, F_1, F_2$ four C-modules; in § 3, 
 
 (21) $\lambda : \operatorname{Hom}(E_1, F_1) \otimes \operatorname{Hom}(E_2, F_2) \to \operatorname{Hom}(E_1 \otimes E_2, F_1 \otimes F_2)$.
 
-#### Proposition 4 {#alg-ii-s4-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s4-prop-4 .statement tag=05Q0}
 
 *When one of the ordered pairs* $(E_1, E_2), (E_1, F_1), (E_2, F_2)$ *consists of finitely generated projective C-modules, the canonical homomorphism* (21) *is bijective.*
 
@@ -440,11 +440,11 @@ E_1^* \otimes F_1^* & \xrightarrow{\mu} & (E_1 \otimes F_1)^*
 $$
 is *commutative*.
 
-#### Corollary 1 {#alg-ii-s4-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s4-prop-4-cor-1 .statement tag=05Q1}
 
 *If one of the modules E, F is projective and finitely generated, the canonical homomorphism (23) is bijective.*
 
-#### Corollary 2 {#alg-ii-s4-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s4-prop-4-cor-2 .statement tag=05Q2}
 
 *Let E₁, E₂ be two finitely generated projective C-modules, u₁ an endomorphism of E₁ and u₂ an endomorphism of E₂; then*
 
@@ -460,7 +460,7 @@ $$
 
 $x_1^* \otimes x_2^*$ being canonically identified under $\mu$ with an element of $(E_1 \otimes E_2)^*$. As $\langle y_1 \otimes y_2, x_1^* \otimes x_2^* \rangle = \langle y_1, x_1^* \rangle \langle y_2, x_2^* \rangle$, formula (26) follows in this case from (17).
 
-#### Remark {#alg-ii-s4-n4-rem-1 .statement}
+#### Remark {#alg-ii-s4-n4-rem-1 .statement tag=05Q3}
 
 If E, F, G are any three C-modules, it is immediately verified that the diagram
 

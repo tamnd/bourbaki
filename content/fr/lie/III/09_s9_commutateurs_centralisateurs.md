@@ -44,7 +44,7 @@ subsections:
       pdf_page: 240
 statements: 54
 exercises: 42
-content_sha256: efa77138493fc5608cb1416706ac7c5a986885e078b76541feb7ca5fbb47b4a8
+content_sha256: ca94902913821173c059403b3cb2d18144e5b51e7b46f3212c49e2b6178b8c49
 ---
 
 ## § 9. Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie
@@ -62,7 +62,7 @@ $$
 \overline{C^1}G = G, \quad \overline{C^{i+1}}G = (G, \overline{C^i}G).
 $$
 
-#### Proposition 1 {#lie-iii-s9-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s9-prop-1 .statement tag=0AII}
 
 Soient G un groupe topologique, A et B des sous-groupes de G. On a $(\overline{A}, \overline{B}) = (\overline{A}, \overline{B}), \overline{D^i}A = \overline{D^i}A, \overline{C^i}A = \overline{C^i}A$.
 
@@ -74,7 +74,7 @@ $$
 
 donc $\overline{D^i}A = \overline{D^i}A$ pour tout $i$. La démonstration de la formule $\overline{C^i}A = \overline{C^i}A$ est analogue.
 
-#### Corollaire 1 {#lie-iii-s9-prop-1-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s9-prop-1-cor-1 .statement tag=0AIJ}
 
 Si G est séparé, les conditions suivantes sont équivalentes:
 
@@ -83,13 +83,13 @@ Si G est séparé, les conditions suivantes sont équivalentes:
 
 On a $D^iG \subset \overline{D^i}G, C^iG \subset \overline{C^i}G$, donc (ii) $\Rightarrow$ (i). On a $\{e\} = \overline{\{e\}}$, donc (i) $\Rightarrow$ (ii) d’après la prop. 1.
 
-#### Corollaire 2 {#lie-iii-s9-prop-1-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s9-prop-1-cor-2 .statement tag=0AIK}
 
 Soient G un groupe topologique séparé, A un sous-groupe de G. Pour que A soit résoluble (resp. nilpotent, commutatif), il faut et il suffit que $\overline{A}$ le soit.
 
 Cela résulte aussitôt de la prop. 1.
 
-#### Proposition 2 {#lie-iii-s9-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s9-prop-2 .statement tag=0AIL}
 
 Soient G un groupe topologique, A et B des sous-groupes de G. Si A est connexe, (A, B) est connexe.
 
@@ -97,7 +97,7 @@ Pour y fixé dans B, l’ensemble M_y des (x, y) pour x ∈ A est connexe (car l
 
 ### 2. Commutateurs dans un groupe de Lie
 
-#### Proposition 3 {#lie-iii-s9-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s9-prop-3 .statement tag=0AIM}
 
 Soient G un groupe de Lie de dimension finie, H_1 et H_2 des sous-groupes de G. Soient h_1, h_2 et h la sous-algèbre de Lie tangente en e à H_1, H_2 et (H_1, H_2) respectivement. Alors [h_1, h_2] ⊂ h.
 
@@ -119,11 +119,11 @@ $$
 $$
 Cela étant vrai pour tout μ ∈ I, on en conclut que [a, b] ∈ h.
 
-#### Remarque {#lie-iii-s9-n2-rem-1 .statement}
+#### Remarque {#lie-iii-s9-n2-rem-1 .statement tag=0AIN}
 
 Même si H_1 et H_2 sont des sous-groupes de Lie connexes de G, la sous-algèbre de Lie de L(G) engendrée par [h_1, h_2] est distincte de h en général.
 
-#### Proposition 4 {#lie-iii-s9-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s9-prop-4 .statement tag=0AIO}
 
 Soit G un groupe de Lie réel ou complexe de dimension finie. Soient A, B, C des sous-groupes intégraux de G tels que [L(A), L(C)] ⊂ L(C), [L(B), L(C)] ⊂ L(C). Si [L(A), L(B)] ⊂ L(C), on a (A, B) ⊂ C. Si [L(A), L(B)] = L(C), on a (A, B) = C.
 
@@ -140,13 +140,13 @@ $$
 
 donc, φ(A) et φ(B) commutent d’après la formule de Hausdorff; par suite, (A, B) ⊂ C. Dans le cas général, soient G′ le revêtement universel de G, et A′, B′, C′ les sous-groupes intégraux de G′ tels que L(A′) = L(A), L(B′) = L(B), L(C′) = L(C). On a (A′, B′) ⊂ C′, et A, B, C sont les images canoniques de A′, B′, C′ dans G, d’où (A, B) ⊂ C. D’autre part, (A, B) est l’ensemble sous-jacent d’un sous-groupe intégral de G (§ 6, n° 2, cor. de la prop. 4), et son algèbre de Lie contient [L(A), L(B)] (prop. 3). Si [L(A), L(B)] = L(C), on a donc (A, B) ⊃ C, d’où (A, B) = C.
 
-#### Corollaire {#lie-iii-s9-n2-cor-1 .statement}
+#### Corollaire {#lie-iii-s9-n2-cor-1 .statement tag=0AIP}
 
 Soit G un groupe de Lie réel ou complexe, connexe, de dimension finie, d’algèbre de Lie g. Les sous-groupes D^iG (resp. C^iG) sont des sous-groupes intégraux d’algèbres de Lie D^ig (resp. C^ig). Si G est simplement connexe, ce sont des sous-groupes de Lie.
 
 La première assertion résulte de la prop. 4 par récurrence sur i. La deuxième résulte de la première et du § 6, n° 6, prop. 14.
 
-#### Proposition 5 {#lie-iii-s9-prop-5 .statement}
+#### Proposition 5 {#lie-iii-s9-prop-5 .statement tag=0AIQ}
 
 Soient G un groupe de Lie réel ou complexe de dimension finie, A un sous-groupe intégral de G. On a D\overline{A} = DA. En particulier, A est un sous-groupe distingué de \overline{A}, et \overline{A}/A est commutatif.
 
@@ -160,7 +160,7 @@ $$(\mathrm{Ad}\ g)x \equiv x \pmod{\mathscr{D}a} \quad \text{pour tout } x \in b
 
 D’après ce qui précède, on a G_2 ⊃ A, donc G_2 ⊃ \overline{A}. Par suite, pour g ∈ \overline{A}, Int g laisse stable DA et définit l’automorphisme identique de \overline{A}/DA. Donc DA ⊃ D\overline{A}.
 
-#### Proposition 6 {#lie-iii-s9-prop-6 .statement}
+#### Proposition 6 {#lie-iii-s9-prop-6 .statement tag=0AIR}
 
 Supposons K ultramétrique. Soit G un groupe de Lie de dimension finie. Soient A, B, C des sous-groupes de Lie de G tels que [L(A), L(C)] ⊂ L(C), [L(B), L(C)] ⊂ L(C). Si [L(A), L(B)] ⊂ L(C), il existe des sous-groupes ouverts A′, B′ de A, B tels que (A′, B′) ⊂ C. Si [L(A), L(B)] = L(C), il existe des sous-groupes ouverts A′, B′, C′ de A, B, C tels que (A′, B′) = C.
 
@@ -174,7 +174,7 @@ $$
 $$
 D’après la prop. 3, la sous-algèbre de Lie tangente en $e$ à $(A', B')$ contient $\mathrm{L}(C)$. Donc $(A', B')$ contient un sous-groupuscule de Lie de $G$ d’algèbre de Lie $\mathrm{L}(C)$. Par suite, $(A', B')$ est un sous-groupe ouvert de $C$.
 
-#### Corollaire {#lie-iii-s9-n2-cor-2 .statement}
+#### Corollaire {#lie-iii-s9-n2-cor-2 .statement tag=0AIS}
 
 *Supposons K ultramétrique. Soit G un groupe de Lie de dimension finie, d’algèbre de Lie g. Il existe un sous-groupe ouvert $G_0$ de G tel que, pour tout i, $D^i G_0$ (resp. $C^i G_0$) soit un sous-groupe de Lie de G d’algèbre de Lie $\mathscr{D}^i g$ (resp. $\mathscr{C}^i g$).*
 
@@ -196,17 +196,17 @@ Rappelons que deux éléments $x, y$ d’un groupe sont dits permutables si $(x,
 
 Soient G un groupe de Lie, g son algèbre de Lie, A une partie de G, a une partie de g. On note $Z_G(A)$ (resp. $Z_G(a)$) l’ensemble des éléments de G permutables à tous les éléments de A (resp. a). C’est un sous-groupe fermé de G. On note $\delta_g(A)$ (resp. $\delta_g(a)$) l’ensemble des éléments de g permutables à tous les éléments de A (resp. a). C’est une sous-algèbre de Lie fermée de g.
 
-#### Proposition 7 {#lie-iii-s9-prop-7 .statement}
+#### Proposition 7 {#lie-iii-s9-prop-7 .statement tag=0AIT}
 
 *Soient G un groupe de Lie de dimension finie, g son algèbre de Lie, a une partie de g. Alors $Z_G(a)$ est un sous-groupe de Lie de G d’algèbre de Lie $\delta_g(a)$.*
 Cela résulte du § 3, prop. 44 et cor. 2 de la prop. 39.
 
-#### Proposition 8 {#lie-iii-s9-prop-8 .statement}
+#### Proposition 8 {#lie-iii-s9-prop-8 .statement tag=0AIU}
 
 *Soient G un groupe de Lie réel ou complexe de dimension finie, g son algèbre de Lie, A une partie de G. Alors $Z_G(A)$ est un sous-groupe de Lie de G d’algèbre de Lie $\delta_g(A)$.*
 Supposons A réduit à un point a. Alors $Z_G(A)$ est l’ensemble des points fixes de Int a; donc $Z_G(A)$ est un sous-groupe de Lie de G, et $L(Z_G(A))$ est l’ensemble des points fixes de Ad a, c’est-à-dire $\delta_g(A)$ ($§ 3, n° 8,$ cor. 1 de la prop. 29). Le cas général se déduit de là grâce au $§ 6, n° 2,$ cor. 3 de la prop. 1.
 
-#### Proposition 9 {#lie-iii-s9-prop-9 .statement}
+#### Proposition 9 {#lie-iii-s9-prop-9 .statement tag=0AIV}
 
 *Soient G un groupe de Lie réel ou complexe de dimension finie, g son algèbre de Lie, A un sous-groupe intégral de G, a = L(A). Alors $Z_G(A) = Z_G(a)$, $\delta_g(A) = \delta_g(a)$, et $Z_G(A)$ est un sous-groupe de Lie de G d’algèbre de Lie $\delta_g(a)$.*
 Soit $x \in G$. On a
@@ -229,19 +229,19 @@ donc $\delta_g(A) = \delta_g(a)$. La dernière assertion résulte alors de la pr
 
 Soient G un groupe de Lie, g son algèbre de Lie, A une partie de G, a une partie de g. Dans cette section, on note $N_G(A)$ l’ensemble des $g \in G$ tels que $gAg^{-1} = A$. C’est un sous-groupe de G, fermé si A est fermé. On note $n_g(a)$ l’ensemble des $x \in g$ tels que $[x, a] \subset a$ (cf. chap. I, , no 4). C’est une sous-algèbre de $g$, fermée si $a$ est fermée. On note $N_G(a)$ l’ensemble des $g \in G$ tels que $gag^{-1} = a$
 
-#### Proposition 10 {#lie-iii-s9-prop-10 .statement}
+#### Proposition 10 {#lie-iii-s9-prop-10 .statement tag=0AIW}
 
 *Soient G un groupe de Lie de dimension finie, g son algèbre de Lie, a un sous-espace vectoriel de g. Alors $N_G(a)$ est un sous-groupe de Lie de G d’algèbre de Lie $n_g(a)$.*
 
 Cela résulte du § 3, prop. 44 et cor. 1 de la prop. 39.
 
-#### Proposition 11 {#lie-iii-s9-prop-11 .statement}
+#### Proposition 11 {#lie-iii-s9-prop-11 .statement tag=0AIX}
 
 *Soient G un groupe de Lie réel ou complexe de dimension finie, g son algèbre de Lie, A un sous-groupe intégral de G, et $a = L(A)$. Alors $N_G(A) = N_G(a)$, et $N_G(A)$ est un sous-groupe de Lie de G, contenant $\overline{A}$, d’algèbre de Lie $n_g(a)$.*
 
 L’égalité $N_G(A) = N_G(a)$ résulte du § 6, no 2, cor. 2 de la prop. 3. D’après la prop. 10, $N_G(A)$ est alors un sous-groupe de Lie de G d’algèbre de Lie $n_g(a)$. Donc $N_G(A)$ est fermé. Comme $N_G(A) \supset A$, on a $N_G(A) \supset \overline{A}$.
 
-#### Corollaire {#lie-iii-s9-n4-cor-1 .statement}
+#### Corollaire {#lie-iii-s9-n4-cor-1 .statement tag=0AIY}
 
 *Si $a = n_g(a)$, A est un sous-groupe de Lie de G, et est la composante neutre de $N_G(A)$.*
 
@@ -249,7 +249,7 @@ En effet, cette composante neutre est un sous-groupe de Lie d’algèbre de Lie 
 
 ### 5. Groupes de Lie nilpotents
 
-#### Proposition 12 {#lie-iii-s9-prop-12 .statement}
+#### Proposition 12 {#lie-iii-s9-prop-12 .statement tag=0AIZ}
 
 *Soit G un groupe de Lie de dimension finie. Pour que $L(G)$ soit nilpotente, il faut et il suffit que G possède un sous-groupe ouvert nilpotent.*
 
@@ -261,7 +261,7 @@ Soit $g$ une algèbre de Lie nilpotente. La série de Hausdorff $H(X, Y)$ corres
 
 L(G) = g. L’application identique φ de g dans G est une application exponentielle de G, telle que $\varphi(\lambda x)\varphi(\lambda'x) = \varphi((\lambda + \lambda')x)$ quels que soient $x \in g, \lambda \in K, \lambda' \in K$. Toute sous-algèbre de Lie $\mathfrak{h}$ de g admettant un supplémentaire topologique est un sous-groupe de Lie H de G, et $L(H) = \mathfrak{h}$.
 
-#### Proposition 13 {#lie-iii-s9-prop-13 .statement}
+#### Proposition 13 {#lie-iii-s9-prop-13 .statement tag=0AJ0}
 
 *Soit G un groupe de Lie nilpotent simplement connexe de dimension finie sur $\mathbf{R}$ ou $\mathbf{C}$.*
 
@@ -270,7 +270,7 @@ L(G) = g. L’application identique φ de g dans G est une application exponenti
 
 Soit $g = L(G)$, qui est nilpotente (prop. 12). Comme deux groupes de Lie simplement connexes sur $\mathbf{R}$ ou $\mathbf{C}$ qui ont même algèbre de Lie sont isomorphes ($§ 6$, n° 3, th. 3 (ii)), il suffit de prouver la proposition quand G est le groupe associé à g. Alors (i) et (ii) résultent de ce qu’on a dit avant la proposition.
 
-#### Proposition 14 {#lie-iii-s9-prop-14 .statement}
+#### Proposition 14 {#lie-iii-s9-prop-14 .statement tag=0AJ1}
 
 *Soit G un groupe de Lie connexe de dimension finie sur $\mathbf{R}$ ou $\mathbf{C}$.*
 
@@ -281,13 +281,13 @@ Soit G′ le revêtement universel de G. Soit $\varphi$ le morphisme canonique d
 
 Si $K = \mathbf{C}$ et si exp est étale, alors, pour tout $x \in L(G)$, ad $x$ n’a aucune valeur propre appartenant à $2i\pi(\mathbf{Z} - \{0\})$ ($§ 6$, n° 4, cor. de la prop. 12). Appliquant cela à $\lambda x$, où $\lambda$ varie dans $\mathbf{C}$, on en conclut que toutes les valeurs propres de ad $x$ sont nulles, donc que ad $x$ est nilpotent. Par suite, $L(G)$ est nilpotente (chap. I, $§ 4$, cor. 1 du th. 1), donc G est nilpotent (prop. 12).
 
-#### Proposition 15 {#lie-iii-s9-prop-15 .statement}
+#### Proposition 15 {#lie-iii-s9-prop-15 .statement tag=0AJ2}
 
 *Soient G un groupe de Lie nilpotent connexe de dimension finie sur $\mathbf{R}$ ou $\mathbf{C}$, A un sous-groupe intégral de G. Alors $Z_G(A)$ est le sous-groupe de Lie connexe de G d’algèbre de Lie $\delta_G(L(A))$.*
 
 Compte tenu de la prop. 9 du n° 3 il suffit de prouver que $Z_G(A)$ est connexe. Soit $g \in Z_G(A)$. Il existe un $x \in L(G)$ tel que $g = \exp x$ (prop. 14). On a $\mathrm{Ad}\ g|L(A) = 1$ (n° 3, prop. 9), donc $\mathrm{Ad}\ g^n|L(A) = 1$ pour tout $n \in \mathbf{Z}$, donc $\exp (\mathrm{ad}\ nx)|L(A) = 1$ pour tout $n \in \mathbf{Z}$. Comme l’application $\lambda \mapsto \exp (\mathrm{ad}\ \lambda x)|L(A)$ de K dans $\mathscr{L}(L(A), L(G))$ est polynomiale, on a $\exp(\mathrm{ad}\ \lambda x)|L(A) = 1$ pour tout $\lambda \in K$, c’est-à-dire $\exp(\lambda x) \in Z_G(A)$ pour tout $\lambda \in K$.
 
-#### Proposition 16 {#lie-iii-s9-prop-16 .statement}
+#### Proposition 16 {#lie-iii-s9-prop-16 .statement tag=0AJ3}
 
 *Soient G un groupe de Lie nilpotent de dimension finie sur $\mathbf{R}$ ou $\mathbf{C}$, A un sous-groupe intégral de G distinct de G. Alors $N_G(A)$ est un sous-groupe de Lie connexe de G distinct de A.*
 
@@ -295,7 +295,7 @@ On a $N_G(A) \neq A$ (A, I, $§ 6$, cor. 1 de la prop. 8). Compte tenu de la pro
 
 L(\mathscr{L}(L(G))) formé des $u \in \mathscr{L}(L(G))$ tels que $u(L(A)) \subset L(A)$. On a Ad $g^n \in E$, donc $\exp(\mathrm{ad}\ nx) \in E$, pour tout $n \in \mathbf{Z}$. Donc $\exp(\mathrm{ad}\ \lambda x) \in E$ pour tout $\lambda \in K$, c’est-à-dire $\exp(\lambda x) \in N_G(A)$ pour tout $\lambda \in K$.
 
-#### Proposition 17 {#lie-iii-s9-prop-17 .statement}
+#### Proposition 17 {#lie-iii-s9-prop-17 .statement tag=0AJ4}
 
 *Soient $g$ une algèbre de Lie nilpotente de dimension finie sur $K$, $(g_0, g_1, \ldots, g_n)$ une suite décroissante d’idéaux de $g$ tels que $g_0 = g, g_n = \{0\}, [g, g_1] \subset g_{i+1}$ pour $0 \leq i < n$. Soient $a_1, a_2, \ldots, a_p$ des sous-espaces vectoriels de $g$ tels que chaque $g_i$ soit somme directe de ses intersections avec les $a_j$. Munissons $g$ de la loi de composition de Hausdorff $\mathsf{H}$. Soit $\varphi$ l’application*
 
@@ -379,7 +379,7 @@ $$
 $$
 Mais les deux membres de (6) sont des fonctions analytiques de $g$ pour $g \in G$, et sont donc égaux pour tout $g \in G$.
 
-#### Proposition 18 {#lie-iii-s9-prop-18 .statement}
+#### Proposition 18 {#lie-iii-s9-prop-18 .statement tag=0AJ5}
 
 Soient k un corps commutatif, V un espace vectoriel de dimension finie > 0 sur k, G un sous-groupe de $\mathbf{GL}(V)$ dont les éléments sont unipotents.
 
@@ -401,13 +401,13 @@ b) Passons au cas général. Soient $\overline{k}$ une clôture algébrique de k
 
 c) Par récurrence sur dim V, on déduit de (i) qu’il existe une suite croissante $(V_1, V_2, \ldots, V_n)$ de sous-espaces vectoriels de V stables par G tels que $V_n = V$ et que le groupe d’automorphismes de $V_i / V_{i-1}$ canoniquement déduit de G se réduit à $\{1\}$ pour tout i (on convient que $V_r = \{0\}$ pour $r \leq 0$). Cela entraîne d’abord (ii) et par conséquent (iii) (chap. II, § 4, n° 6, Remarque).
 
-#### Corollaire 1 {#lie-iii-s9-prop-18-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s9-prop-18-cor-1 .statement tag=0AJ6}
 
 Soit G un groupe de Lie réel ou complexe connexe de dimension finie. Pour que G soit nilpotent, il faut et il suffit que tout élément de Ad G soit unipotent.
 
 Si tout élément de Ad G est unipotent, Ad G est nilpotent (prop. 18), donc G, qui est extension centrale de Ad G, est nilpotent. Si G est nilpotent, L(G) est nilpotente, donc ad x est nilpotent pour tout $x \in L(G)$, donc $\operatorname{Ad}(\exp x) = \exp \operatorname{ad} x$ est unipotent; or tout élément de G est de la forme $\exp x$ pour un $x \in L(G)$ (prop. 14).
 
-#### Corollaire 2 {#lie-iii-s9-prop-18-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s9-prop-18-cor-2 .statement tag=0AJ7}
 
 Tout sous-groupe analytique de $\mathbf{GL}(n, K)$ formé d’éléments unipotents est un sous-groupe de Lie simplement connexe.
 
@@ -415,12 +415,12 @@ Cela résulte des prop. 13 (ii), 18 (ii), et du fait que le groupe trigonal stri
 
 ### 6. Groupes de Lie résolubles
 
-#### Proposition 19 {#lie-iii-s9-prop-19 .statement}
+#### Proposition 19 {#lie-iii-s9-prop-19 .statement tag=0AJ8}
 
 Soit G un groupe de Lie de dimension finie. Pour que L(G) soit résoluble, il faut et il suffit que G possède un sous-groupe ouvert résoluble.
 La démonstration est analogue à celle de la prop. 12 du n° 5.
 
-#### Proposition 20 {#lie-iii-s9-prop-20 .statement}
+#### Proposition 20 {#lie-iii-s9-prop-20 .statement tag=0AJ9}
 
 Soient G un groupe de Lie résoluble de dimension finie n sur R ou C, simplement connexe, et g = L(G). Soit (g_n, g_{n-1}, \ldots, g_0) une suite de sous-algèbres de g de dimensions n, n - 1, \ldots, 0, telle que g_{i-1} soit un idéal de g_i pour i = n, n - 1, \ldots, 1^1. Soit G_i le sous-groupe intégral de G correspondant à g_i. Soit x_i un vecteur de g_i n’appartenant pas à g_{i-1}. Soit \varphi_i l’application
 $$(\lambda_1, \lambda_2, \ldots, \lambda_i) \mapsto (\exp \lambda_1 x_1)(\exp \lambda_2 x_2)\ldots(\exp \lambda_i x_i)$$
@@ -430,7 +430,7 @@ Pour n = 0, la proposition est évidente. Raisonnons par récurrence sur n. Soit
 $$(\lambda_1, \lambda_2, \ldots, \lambda_{n-1}) \mapsto (\exp \lambda_1 x_1)(\exp \lambda_2 x_2)\ldots(\exp \lambda_{n-1} x_{n-1})$$
 est un isomorphisme de la variété analytique K^{n-1} sur la variété analytique G_{n-1} qui transforme K^i \times \{0\} en G_i pour i = 1, 2, \ldots, n - 1. D’où la proposition.
 
-#### Proposition 21 {#lie-iii-s9-prop-21 .statement}
+#### Proposition 21 {#lie-iii-s9-prop-21 .statement tag=0AJA}
 
 Soient G un groupe de Lie résoluble de dimension finie sur R ou C, simplement connexe, et M un sous-groupe intégral de G. Alors M est un sous-groupe de Lie de G, et est simplement connexe.
 
@@ -447,7 +447,7 @@ $$
 $$
 Ainsi, $M = \varphi(T)$ où T est un sous-espace vectoriel de $K^n$.
 
-#### Proposition 22 {#lie-iii-s9-prop-22 .statement}
+#### Proposition 22 {#lie-iii-s9-prop-22 .statement tag=0AJB}
 
 *On suppose $K = \mathbf{R}$ ou $\mathbf{C}$. Soient V un espace vectoriel de dimension finie, G un sous-groupe résoluble connexe de $\mathbf{GL}(V)$. On suppose que la représentation identique de G est simple.*
 (i) *Si $K = \mathbf{R}$, on a $\dim V \leq 2$ et G est commutatif.*
@@ -455,7 +455,7 @@ Ainsi, $M = \varphi(T)$ où T est un sous-espace vectoriel de $K^n$.
 (i) Supposons $K = \mathbf{R}$. Alors l’adhérence H de G dans $\mathbf{GL}(V)$ est un sous-groupe de Lie de $\mathbf{GL}(V)$, connexe, et résoluble (n° 1, cor. 2 de la prop. 1). Donc $L(H)$ est résoluble (prop. 19). La représentation identique de $L(G)$ est simple (§ 6, n° 5, cor. 2 de la prop. 13). Donc $\dim V \leq 2$ et $L(G)$ est commutative (chap. I, § 5, cor. 1 et 4 du th. 1). Donc G est commutatif.
 (ii) Supposons $K = \mathbf{C}$. Soit W un élément minimal parmi les sous-espaces vectoriels réels non nuls de V stables par G. Le sous-espace vectoriel complexe de V engendré par W est égal à V puisque la représentation identique de G est simple. D’après (i), $G|W$ est commutatif. Donc G est commutatif. Par suite, tout élément de G est une homothétie (A, VIII, § 4, cor. 1 de la prop. 2), de sorte que $\dim V = 1$.
 
-#### Corollaire {#lie-iii-s9-n6-cor-1 .statement}
+#### Corollaire {#lie-iii-s9-n6-cor-1 .statement tag=0AJC}
 
 *Soient V un espace vectoriel complexe de dimension finie > 0, G un sous-groupe résoluble connexe de $\mathbf{GL}(V)$.*
 (i) *Il existe un élément non nul v de V tel que gv $\in \mathbf{C}v$ pour tout $g \in G$.*
@@ -464,27 +464,27 @@ Soit $V_1$ un élément minimal parmi les sous-espaces vectoriels non nuls de V 
 
 ### 7. Radical d’un groupe de Lie
 
-#### Proposition 23 {#lie-iii-s9-prop-23 .statement}
+#### Proposition 23 {#lie-iii-s9-prop-23 .statement tag=0AJD}
 
 *Soient G un groupe de Lie réel ou complexe de dimension finie, r le radical de $L(G)$ (chap. I, § 5, déf. 2), n le plus grand idéal nilpotent de $L(G)$ (chap. I, § 4, n° 4). Soit R (resp. N) le sous-groupe intégral de G d’algèbre de Lie r (resp. n). Alors R (resp. N) est un sous-groupe de Lie de G, résoluble (resp. nilpotent), invariant par tout automorphisme continu de G. Tout sous-groupe distingué connexe résoluble (resp. nilpotent) de G est contenu dans R (resp. N).
 
 Le groupe R est résoluble (n° 6, prop. 19). Supposons K = R. Soit G' un sous-groupe distingué résoluble connexe de G. Alors $\overline{G}'$ est un sous-groupe de Lie de G ($§ 8, n° 2, th. 2$), distingué résoluble (n° 1, cor. 2 de la prop. 1), connexe. Donc L($\overline{G}'$) est un idéal résoluble de L(G), d’où L($\overline{G}'$) $\subset r$ et $\overline{G}' \subset R$. En particulier, $\overline{R} \subset R$, donc R est fermé et par suite est un sous-groupe de Lie de G. Supposons K = C. Soit H le groupe de Lie réel sous-jacent à G. Si r' est le radical de L(H), ir' est un idéal résoluble de L(H), d’où $r' = i r'$; on a donc $r \subset r' \subset r$, et, d’après ce qui précède, R est fermé dans H et par suite dans G; ainsi, R est un sous-groupe de Lie de G. Tout sous-groupe distingué résoluble connexe de G est un sous-groupe distingué résoluble connexe de H donc est contenu dans R. On a donc prouvé, pour K = C comme pour K = R, que R est le plus grand sous-groupe distingué résoluble connexe de G; par suite R est invariant par tout automorphisme continu de G. La démonstration dans le cas de N est entièrement analogue.
 
-#### Définition 1 {#lie-iii-s9-def-1 .statement}
+#### Définition 1 {#lie-iii-s9-def-1 .statement tag=0AJE}
 
 Soit G un groupe de Lie réel ou complexe de dimension finie. On appelle radical de G le plus grand sous-groupe distingué résoluble connexe de G.
 
-#### Remarque {#lie-iii-s9-n7-rem-1 .statement}
+#### Remarque {#lie-iii-s9-n7-rem-1 .statement tag=0AJF}
 
 Même si G est connexe, il peut exister des sous-groupes distingués résolubles de G non contenus dans le radical de G.
 
-#### Proposition 24 {#lie-iii-s9-prop-24 .statement}
+#### Proposition 24 {#lie-iii-s9-prop-24 .statement tag=0AJG}
 
 On suppose K = R ou C. Soient G_1, G_2 deux groupes de Lie connexes de dimension finie, R_1 et R_2 leurs radicaux, φ un morphisme surjectif de G_1 dans G_2. Alors $\varphi(R_1) = R_2$.
 
 D’après le § 3, n° 8, prop. 28, L(φ) est surjectif. Donc L(φ)(L(R_1)) = L(R_2) (chap. I, § 6, cor. 3 de la prop. 2). Soit i l’injection canonique de R_1 dans G_1. Alors l’image de φ ∘ i est R_2 (§ 6, n° 2, cor. 1 de la prop. 1).
 
-#### Proposition 25 {#lie-iii-s9-prop-25 .statement}
+#### Proposition 25 {#lie-iii-s9-prop-25 .statement tag=0AJH}
 
 On suppose K = R ou C. Soient G_1, G_2 des groupes de Lie connexes de dimension finie, R_1 et R_2 leurs radicaux. Le radical de $G_1 \times G_2$ est $R_1 \times R_2$.
 
@@ -492,7 +492,7 @@ Cela résulte du chap. I, § 5, prop. 4.
 
 ### 8. Groupes de Lie semi-simples
 
-#### Proposition 26 {#lie-iii-s9-prop-26 .statement}
+#### Proposition 26 {#lie-iii-s9-prop-26 .statement tag=0AJI}
 
 Soit G un groupe de Lie réel ou complexe connexe de dimension finie. Les conditions suivantes sont équivalentes:
 (i) L(G) est semi-simple;
@@ -500,38 +500,38 @@ Soit G un groupe de Lie réel ou complexe connexe de dimension finie. Les condit
 (iii) tout sous-groupe intégral commutatif distingué de G est égal à {e}.
 La condition (ii) signifie que le radical de L(G) est {0}, donc (i) ⇔ (ii) (chap. I, § 6, th. 1). L’équivalence de (i) et (iii) résulte du § 6, n° 6, prop. 14.
 
-#### Définition 2 {#lie-iii-s9-def-2 .statement}
+#### Définition 2 {#lie-iii-s9-def-2 .statement tag=0AJJ}
 
 Un groupe de Lie réel ou complexe connexe est dit semi-simple s’il est de dimension finie et s’il vérifie les conditions de la prop. 26.
 
-#### Remarque 1 {#lie-iii-s9-n8-rem-1 .statement}
+#### Remarque 1 {#lie-iii-s9-n8-rem-1 .statement tag=0AJK}
 
 Soit G un groupe de Lie réel ou complexe connexe de dimension finie. Si G n’est pas semi-simple, G possède un sous-groupe de Lie connexe G’ commutatif et invariant par tout automorphisme continu, tel que G’ ≠ {e}. En effet, soit n le plus grand idéal nilpotent de L(G) ; on a n ≠ {0}, et le sous-groupe analytique correspondant N est un sous-groupe de Lie invariant par tout automorphisme continu de G (no 7, prop. 23) ; le centre G’ de N possède les propriétés voulues.
 
-#### Proposition 27 {#lie-iii-s9-prop-27 .statement}
+#### Proposition 27 {#lie-iii-s9-prop-27 .statement tag=0AJL}
 
 Soit G un groupe de Lie réel ou complexe connexe de dimension finie. Les conditions suivantes sont équivalentes :
 (i) L(G) est simple ;
 (ii) les seuls sous-groupes intégraux distingués de G sont {e} et G, et en outre G n’est pas commutatif.
 Cela résulte du § 6, no 6, prop. 14.
 
-#### Définition 3 {#lie-iii-s9-def-3 .statement}
+#### Définition 3 {#lie-iii-s9-def-3 .statement tag=0AJM}
 
 Un groupe de Lie réel ou complexe connexe est dit presque simple s’il est de dimension finie et s’il vérifie les conditions de la prop. 27.
 
-#### Proposition 28 {#lie-iii-s9-prop-28 .statement}
+#### Proposition 28 {#lie-iii-s9-prop-28 .statement tag=0AJN}
 
 Soit G un groupe de Lie réel ou complexe simplement connexe. Les conditions suivantes sont équivalentes :
 (i) G est semi-simple ;
 (ii) G est isomorphe au produit d’un nombre fini de groupes presque simples.
 Si G est produit fini de groupes de Lie presque simples, L(G) est produit fini d’algèbres de Lie simples, donc est semi-simple. Si G est semi-simple, L(G) est isomorphe à un produit d’algèbres de Lie simples L₁, ..., Lₙ. Soit Gᵢ un groupe de Lie simplement connexe d’algèbre de Lie Lᵢ, donc presque simple. Alors G et G₁ × ... × Gₙ sont simplement connexes et ont des algèbres de Lie isomorphes, donc sont isomorphes.
 
-#### Lemme 1 {#lie-iii-s9-lem-1 .statement}
+#### Lemme 1 {#lie-iii-s9-lem-1 .statement tag=0AJO}
 
 Soient G un groupe topologique connexe, Z son centre, Z’ un sous-groupe discret de Z. Alors le centre de G/Z’ est Z/Z’.
 Soit y un élément de G dont la classe modulo Z’ est un élément central de G/Z’. Soit φ l’application g ↦ gyg⁻¹y⁻¹ de G dans G. Alors φ(G) est connexe et contenu dans Z’, donc φ(G) = φ({e}) = {e}. Par suite, y ∈ Z.
 
-#### Proposition 29 {#lie-iii-s9-prop-29 .statement}
+#### Proposition 29 {#lie-iii-s9-prop-29 .statement tag=0AJP}
 
 Soit G un groupe de Lie réel ou complexe connexe semi-simple.
 (i) G = (G, G).
@@ -542,22 +542,22 @@ L’assertion (i) résulte du cor. de la prop. 4, n° 2, et du chap. I, § 6, th
 L’assertion (ii) résulte du § 6, n° 4, cor. 4 de la prop. 10, et du chap. I, § 6, n° 1, Remarque 2.
 L’assertion (iii) résulte de (ii) et du lemme 1.
 
-#### Proposition 30 {#lie-iii-s9-prop-30 .statement}
+#### Proposition 30 {#lie-iii-s9-prop-30 .statement tag=0AJQ}
 
 (i) Soit $g$ une algèbre de Lie réelle ou complexe semi-simple. Alors Int $g$ est la composante neutre de Aut $g$.
 (ii) Soit $G$ un groupe de Lie réel ou complexe connexe semi-simple. Le groupe adjoint de $G$ est la composante neutre de Aut $L(G)$. Son centre est réduit à l’élément neutre.
 Toute dérivation de $g$ est intérieure (chap. I, § 6, cor. 3 de la prop. 1), donc $L(\mathrm{Int}\,g) = L(\mathrm{Aut}\,g)$, ce qui prouve (i). La première assertion de (ii) résulte de (i). La seconde résulte de la prop. 29 (iii) et du § 6, n° 4, cor. 4 (ii) de la prop 10.
 
-#### Remarque 2 {#lie-iii-s9-n8-rem-2 .statement}
+#### Remarque 2 {#lie-iii-s9-n8-rem-2 .statement tag=0AJR}
 
 Soient $g$ une algèbre de Lie semi-simple complexe, $g_0$ l’algèbre de Lie réelle sous-jacente. Alors Aut$(g)$ est ouvert dans Aut$(g_0)$. En effet, Int $(g_0) \subset \mathrm{Aut}\,(g)$.
 
-#### Proposition 31 {#lie-iii-s9-prop-31 .statement}
+#### Proposition 31 {#lie-iii-s9-prop-31 .statement tag=0AJS}
 
 Soient $G$ un groupe de Lie réel ou complexe de dimension finie simplement connexe, $R$ son radical. Il existe un sous-groupe de Lie simplement connexe semi-simple $S$ de $G$ tel que $G$ soit, en tant que groupe de Lie, produit semi-direct de $S$ par $R$. Si $S'$ est un sous-groupe intégral semi-simple de $G$, il existe un $x$ dans le radical nilpotent de $L(G)$ tel que $(\mathrm{Ad}\,\exp\,x)(S') \subset S$.
 Cela résulte du § 6, n° 6, cor. 1 de la prop. 14, et du chap. I, § 6, th. 5 et cor. 1.
 
-#### Lemme 2 {#lie-iii-s9-lem-2 .statement}
+#### Lemme 2 {#lie-iii-s9-lem-2 .statement tag=0AJT}
 
 Soient $G$ un groupe (resp. un groupe topologique), $G'$ un sous-groupe distingué de $G$, $V$ un espace vectoriel de dimension finie sur un corps commutatif $k$ (resp. sur $K$), $\rho$ une représentation linéaire (resp. une représentation linéaire continue) de $G$ dans $V$, et $\rho' = \rho|G'$.
 (i) Si $\rho$ est semi-simple, $\rho'$ est semi-simple.
@@ -579,7 +579,7 @@ $$
 
 Donc $\sigma(g)f \in E$. Par suite $\sigma$ est une k-représentation linéaire (resp. une K-représentation linéaire continue) de G dans E laissant stable F. On a $\sigma(g) = \mathrm{Id}_E$ pour $g \in G'$, donc pour $g \in \overline{G}'$ dans le cas topologique. Supposons que toute représentation $k$-linéaire (resp. toute représentation K-linéaire continue) de dimension finie de $G/G'$ (resp. $G/\overline{G}'$) soit semi-simple. Alors il existe dans E un supplémentaire de F stable pour G. Autrement dit, il existe un $f \in E$ tel que $\alpha(f) = 1$, invariant par G. Alors $f$ est un projecteur de V sur W, et, pour $g \in G$, on a $\rho(g) \circ f \circ \rho(g^{-1}) = f$, c’est-à-dire que $f$ commute à $\rho(G)$. Ainsi, $\rho$ est semi-simple.
 
-#### Théorème 1 {#lie-iii-s9-thm-1 .statement}
+#### Théorème 1 {#lie-iii-s9-thm-1 .statement tag=0AJU}
 
 Soient G un groupe de Lie réel ou complexe de dimension finie, $G_0$ sa composante neutre, R son radical, r le radical de $L(G)$; on suppose que $G/G_0$ est fini. Soit $\rho$ une représentation linéaire analytique de G de dimension finie. Les conditions suivantes sont équivalentes:
 (i) $\rho$ est semi-simple;
@@ -589,23 +589,23 @@ Soient G un groupe de Lie réel ou complexe de dimension finie, $G_0$ sa composa
 (v) $L(\rho)|r$ est semi-simple.
 On a (i) $\Leftrightarrow$ (ii) d’après le lemme 2 et INT, VII, § 3, prop. 1. On a (ii) $\Leftrightarrow$ (iv) et (iii) $\Leftrightarrow$ (v) d’après le § 6, n° 5, cor. 2 de la prop. 13. On a (iv) $\Leftrightarrow$ (v) d’après le chap. I, § 6, th. 4.
 
-#### Corollaire 1 {#lie-iii-s9-thm-1-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s9-thm-1-cor-1 .statement tag=0AJV}
 
 Soient $\rho, \rho_1, \rho_2$ des représentations linéaires analytiques semi-simples de dimension finie de G et n un entier $\geq 0$. Alors $\rho_1 \otimes \rho_2, T^n \rho, S^n \rho, \wedge^n \rho$ (Appendice) sont semi-simples.
 La semi-simplicité de $\rho_1 \otimes \rho_2$ résulte du th. 1, et du chap. I, § 6, cor. 1 du th. 4. La semi-simplicité de $T^n \rho, S^n \rho, \wedge^n \rho$ résulte de la semi-simplicité de $\rho_1 \otimes \rho_2$.
 
 Nous verrons plus tard que si $k$ est un corps commutatif de caractéristique 0, $\Gamma$ un groupe, $\rho_1$ et $\rho_2$ des $k$-représentations linéaires semi-simples de dimension finie de $\Gamma$, alors $\rho_1 \otimes \rho_2$ est semi-simple.
 
-#### Corollaire 2 {#lie-iii-s9-thm-1-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s9-thm-1-cor-2 .statement tag=0AJW}
 
 *Soient $\rho$ une représentation linéaire analytique semi-simple de dimension finie de $G$ dans un espace vectoriel $V$, $S$ l’algèbre symétrique de $V$, et $S^G$ la sous-algèbre de $S$ formée des éléments invariants par $(S\rho)(G)$. Alors $S^G$ est une algèbre de type fini.*
     Cela résulte du th. 1, du chap. I, § 6, th. 6 a), et de AC, V, § 1, th. 2.
 
-#### Corollaire 3 {#lie-iii-s9-thm-1-cor-3 .statement}
+#### Corollaire 3 {#lie-iii-s9-thm-1-cor-3 .statement tag=0AJX}
 
 *Soient $G$ un groupe de Lie réel ou complexe, $G_0$ sa composante neutre. On suppose que $G_0$ est semi-simple et que $G/G_0$ est fini. Alors toute représentation linéaire analytique de dimension finie de $G$ est semi-simple.*
 
-#### Proposition 32 {#lie-iii-s9-prop-32 .statement}
+#### Proposition 32 {#lie-iii-s9-prop-32 .statement tag=0AJY}
 
 *Soit $G$ un groupe de Lie réel connexe de dimension finie. On suppose $L(G)$ réductive. Les conditions suivantes sont équivalentes*:
     (i) $G/\overline{D^1}G$ est compact;
@@ -623,7 +623,7 @@ est une représentation linéaire analytique de $G$ dans $\mathbf{R}^2$ qui n’
 
 On voit de même que (ii) $\Rightarrow$ (i).
 
-#### Proposition 33 {#lie-iii-s9-prop-33 .statement}
+#### Proposition 33 {#lie-iii-s9-prop-33 .statement tag=0AJZ}
 
 *Soient $G$ un groupe de Lie complexe de dimension finie et dont le nombre de composantes connexes est fini, $\rho$ une représentation linéaire analytique de $G$ de dimension finie, $G'$ un sous-groupe intégral du groupe de Lie réel $G$ tel que $L(G')$ engendre $L(G)$ sur $\mathbf{C}$. Alors, pour que $\rho$ soit semi-simple, il faut et il suffit que $\rho|G'$ soit semi-simple.*
     Soit $\rho' = \rho|G'$. Pour que $\rho$ (resp. $\rho'$) soit semi-simple, il faut et il suffit que $L(\rho)$ (resp. $L(\rho')$) soit semi-simple (th. 1). Soit $V$ l’espace de $\rho$. Pour qu’un sous-espace vectoriel de $V$ soit stable pour $L(\rho)(L(G))$, il faut et il suffit qu’il soit stable pour $L(\rho')(L(G'))$. D’où la proposition.

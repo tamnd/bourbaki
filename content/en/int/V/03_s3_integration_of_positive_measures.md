@@ -37,7 +37,7 @@ subsections:
       pdf_page: 284
 statements: 30
 exercises: 11
-content_sha256: 1588730038b00c1341b56be5a2768d784f955b62cfedf0a0090d9163d1d847c5
+content_sha256: 4363fec5ea39b1d12c9673dd8324ba6983ab374b2f5f144cb72fb7d26d6dfd8e
 ---
 
 ## § 3. INTEGRATION OF POSITIVE MEASURES
@@ -58,17 +58,17 @@ $$
 
 We shall make analogous abuses of notation in the sequel, for upper integrals, essential upper integrals, and integrals of functions with values in a Banach space.
 
-#### Example 1 {#int-v-s3-n1-exa-1 .statement}
+#### Example 1 {#int-v-s3-n1-exa-1 .statement tag=090W}
 
 Suppose that T is a discrete space, and that μ is the measure on T defined by placing a mass +1 at each point of T (Ch. III, §1, No. 3). Let h be a function $\geqslant 0$ defined on T; since the function h is lower semi-continuous (even continuous) on T, $\mu^*(h) = \mu^\bullet(h) = \sum_{t \in T} h(t)$ (Ch. IV, §1, No. 1, Example).
 
 For the measure μ, the notions of integrable function and essentially integrable function are therefore identical. This being so, to say that a mapping $t \mapsto \lambda_t$ of T into $\mathscr{M}_+(X)$ is scalarly essentially μ-integrable amounts to saying that the family $(\lambda_t)_{t \in T}$ is summable (§2, No. 1), and one then has $\int \lambda_t\, d\mu(t) = \sum_{t \in T} \lambda_t$. Note that the mapping $t \mapsto \lambda_t$ is vaguely continuous.
 
-#### Example 2 {#int-v-s3-n1-exa-2 .statement}
+#### Example 2 {#int-v-s3-n1-exa-2 .statement tag=090X}
 
 The mapping $t \mapsto \varepsilon_t$ of T into $\mathscr{M}_+(T)$ is vaguely continuous, scalarly essentially μ-integrable for every positive measure μ on T, and one has $\int \varepsilon_t\, d\mu(t) = \mu$.
 
-#### Proposition 1 {#int-v-s3-prop-1 .statement}
+#### Proposition 1 {#int-v-s3-prop-1 .statement tag=090Y}
 
 Suppose that μ is the supremum of an increasing directed family $(\mu_i)_{i \in I}$ of positive measures on T; in order that $\Lambda : t \mapsto \lambda_t$ be scalarly essentially μ-integrable, it is necessary and sufficient that Λ be scalarly essentially $\mu_i$-integrable for all $i \in I$ and that the family $(\int \lambda_t\, d\mu_i(t))_{i \in I}$ be bounded above in $\mathscr{M}(X)$. One then has,
 
@@ -78,7 +78,7 @@ $$
 
 For, verifying that $\Lambda$ is scalarly essentially integrable for a positive measure $\eta$ on $T$ comes down to verifying that $t \mapsto \lambda_t(g)$ is $\eta$-measurable and admits a finite essential upper integral, with respect to $\eta$, for every function $g \in \mathscr{H}_+(X)$. The proposition therefore follows at once from Prop. 11 of §1, No. 4 and its Corollary 2.
 
-#### Corollary {#int-v-s3-n1-cor-1 .statement}
+#### Corollary {#int-v-s3-n1-cor-1 .statement tag=090Z}
 
 — *Suppose that $\mu$ is the sum of a summable family $(\mu_\alpha)_{\alpha \in A}$ of positive measures on $T$; in order that $\Lambda : t \mapsto \lambda_t$ be scalarly essentially $\mu$-integrable, it is necessary and sufficient that $\Lambda$ be scalarly essentially $\mu_\alpha$-integrable for every $\alpha \in A$ and that the family of measures $\int \lambda_t d\mu_\alpha(t)$ be summable. One then has*
 
@@ -90,7 +90,7 @@ It follows immediately that every scalarly essentially $\mu$-integrable mapping 
 
 In this section we shall limit ourselves to the study of scalarly essentially integrable mappings of $T$ into $\mathscr{M}_+(X)$ that have the property contemplated in the following definition:
 
-#### Definition 1 {#int-v-s3-def-1 .statement}
+#### Definition 1 {#int-v-s3-def-1 .statement tag=0910}
 
 — *Let $X$ be a locally compact space, $\Lambda : t \mapsto \lambda_t$ a scalarly essentially $\mu$-integrable mapping of $T$ into $\mathscr{M}_+(X)$, and $\nu$ the integral of $\Lambda$.
 
@@ -108,7 +108,7 @@ It can be shown that if $\Lambda$ is $\mu$-pre-adequate and if the measure $\nu 
 
 The following proposition often permits one to verify that a given mapping is $\mu$-adequate.
 
-#### Proposition 2 {#int-v-s3-prop-2 .statement}
+#### Proposition 2 {#int-v-s3-prop-2 .statement tag=0911}
 
 — Let $\Lambda : t \mapsto \lambda_t$ be a scalarly essentially $\mu$-integrable mapping of $T$ into $\mathscr{M}_+(X)$, and let $\nu = \int \lambda_t \, d\mu(t)$.
 
@@ -148,7 +148,7 @@ The formula (4) follows on summing over $\alpha$ (§2, No. 2, Prop. 1). Applying
 
 Finally, assuming that the topology of X admits a countable base, let us show that every scalarly essentially $\mu$-integrable mapping $\Lambda : t \mapsto \lambda_t$ of T into $\mathscr{M}_+(X)$ is vaguely $\mu$-measurable. This will result from the following lemma:
 
-#### Lemma {#int-v-s3-n1-lem-1 .statement}
+#### Lemma {#int-v-s3-n1-lem-1 .statement tag=0912}
 
 *Let X be a locally compact space having a countable base. Then, there exists in $\mathscr{K}(X)$ a countable subset S having the following property: for every function $f \in \mathscr{K}(X)$, there exist a sequence $(f_n)$ of elements of S and a positive function $\varphi \in S$ such that, for every number $\varepsilon > 0$, $|f_n - f| \leq \varepsilon \varphi$ provided n is sufficiently large.*
 
@@ -160,7 +160,7 @@ The lemma having been established, and the mapping $t \mapsto \lambda_t(g)$ bein
 
 For the rest of the section, absent express mention to the contrary, we shall denote by X a locally compact space, by $\Lambda : t \mapsto \lambda_t$ a $\mu$-adequate mapping of T into $\mathscr{M}_+(X)$, and by $\nu$ the integral of $\Lambda$.
 
-#### Proposition 3 {#int-v-s3-prop-3 .statement}
+#### Proposition 3 {#int-v-s3-prop-3 .statement tag=0913}
 
 — Let f be a numerical function $\geqslant 0$ defined on X.
 a) The following inequalities hold:
@@ -205,20 +205,20 @@ $$
 
 If no hypothesis analogous to that of c) is made, the inequality (8) may fail (Exer. 2).
 
-#### Corollary 1 {#int-v-s3-prop-3-cor-1 .statement}
+#### Corollary 1 {#int-v-s3-prop-3-cor-1 .statement tag=0914}
 
 — *Let $f$ be a function $\geq 0$ defined on $X$, and let $H$ be the set of $t \in T$ such that $f$ is not $\lambda_t$-negligible.*
 a) *If $f$ $\nu$-negligible, then $H$ is locally $\mu$-negligible.*
 b) *If $f$ is $\nu$-negligible and $\Lambda$ is vaguely continuous, then $H$ is $\mu$-negligible.*
 c) *If $f$ is locally $\nu$-negligible and $\lambda_t^\bullet(1) < +\infty$ locally $\mu$-almost everywhere, then $H$ is locally $\mu$-negligible.*
 
-#### Corollary 2 {#int-v-s3-prop-3-cor-2 .statement}
+#### Corollary 2 {#int-v-s3-prop-3-cor-2 .statement tag=0915}
 
 — *Let $f$ be a function $\geq 0$ defined on $X$, $\nu$-measurable and $\nu$-moderated. The set of $t \in T$ such that $f$ is not $\lambda_t$-moderated is then locally $\mu$-negligible (and even $\mu$-negligible if $\Lambda$ is vaguely continuous).*
 
 For, $f$ is the sum of a sequence of functions $f_n \geq 0$ such that $f_n$ is zero outside a compact set $K_n$ for $n \geq 1$, and $f_0$ is $\nu$-negligible (§1, No. 2, Prop. 6); $f_0$ is then $\lambda_t$-negligible except for $t$ forming a set that is locally $\mu$-negligible (and even $\mu$-negligible, if $\Lambda$ is vaguely continuous) by Cor. 1, and the statement then follows at once.
 
-#### Proposition 4 {#int-v-s3-prop-4 .statement}
+#### Proposition 4 {#int-v-s3-prop-4 .statement tag=0916}
 
 — *Let $f$ be a $\nu$-measurable function defined on $X$, with values in a topological space $G$, and let $M$ be the set of $t \in T$ such that $f$ is not $\lambda_t$-measurable.*
 a) *Suppose that $f$ is constant on the complement of a $\nu$-moderated subset of $X$; then $M$ is locally $\mu$-negligible.*
@@ -231,7 +231,7 @@ Let us first prove a) (resp. b)). Since every ν-integrable set is contained in 
 
 To establish c), let us take up again the notations in the proof of Prop. 3; since f is ν-measurable, it is measurable for each of the measures $\nu_\alpha \leq \nu$. Now, these measures are bounded, hence moderated, and it follows from a) that M is locally $\mu_\alpha$-negligible for every $\alpha \in A$. This implies that M is locally μ-negligible (§2, No. 2, Cor. 2 of Prop. 1).
 
-#### Proposition 5 {#int-v-s3-prop-5 .statement}
+#### Proposition 5 {#int-v-s3-prop-5 .statement tag=0917}
 
 *Let f be a ν-measurable positive numerical function defined on X, and let N be the set of $t \in T$ such that f is not both $\lambda_t$-measurable and $\lambda_t$-moderated.*
 
@@ -274,7 +274,7 @@ It remains only to sum on $\alpha$, applying Props. 1 and 2 of §2, No. 2.
 
 If $f$ is not assumed to be $\nu$-moderated, and if one does not make the assumption in c), then the relation (9) may not hold (Exer. 3).
 
-#### Corollary {#int-v-s3-n2-cor-1 .statement}
+#### Corollary {#int-v-s3-n2-cor-1 .statement tag=0918}
 
 — *Let $\mathbf{f}$ be a function defined on $X$, with values in a Banach space $F$ or in $\overline{\mathbf{R}}$, that is $\nu$-measurable and $\nu$-moderated. For $\mathbf{f}$ to be $\nu$-integrable, it is necessary and sufficient that*
 
@@ -286,7 +286,7 @@ This follows at once from Prop. 5 and the criterion for integrability (Ch. IV, �
 
 ### 3. Superimposed integrals of functions with values in a Banach space
 
-#### Theorem 1 {#int-v-s3-thm-1 .statement}
+#### Theorem 1 {#int-v-s3-thm-1 .statement tag=0919}
 
 — Let $f$ be a function with values in a Banach space $F$ or in $\overline{\mathbf{R}}$, and let $H$ be the set of $t \in T$ for which $f$ is not $\lambda_t$-integrable.
 
@@ -319,25 +319,25 @@ Since $\int f_n(x)\, d\nu(x)$ tends to $\int f(x)\, d\nu(x)$ as $n$ tends to $\i
 
 Now suppose that $\lambda_t^\bullet(1) < +\infty$ locally $\mu$-almost everywhere, and that $g$ is an essentially $\nu$-integrable function. Let $f$ be a $\nu$-integrable function such that $g = f$ locally $\nu$-almost everywhere (§ 1, No. 3). Then $g = f$ almost everywhere for $\lambda_t$, except for $t$ forming a locally $\mu$-negligible set $P$ (Cor. 1 c) of Prop. 3). Therefore $\int g\, d\lambda_t = \int f\, d\lambda_t$ for all $t \notin P \cup H$, and this completes the proof.
 
-#### Remark {#int-v-s3-n3-rem-1 .statement}
+#### Remark {#int-v-s3-n3-rem-1 .statement tag=091A}
 
 Let $\Lambda : t \mapsto \lambda_t$ be a $\mu$-adequate mapping of $T$ into $\mathscr{M}_+(X)$. If a mapping $\Lambda' : t \mapsto \lambda'_t$ of $T$ into $\mathscr{M}_+(X)$ is equal to $\Lambda$ locally $\mu$-almost everywhere, it follows at once from the definitions that $\Lambda'$ is also $\mu$-adequate, and that $\Lambda$ and $\Lambda'$ have the same integral. If now $H : t \mapsto \eta_t$ is a function with values in $\mathscr{M}_+(X)$, defined locally $\mu$-almost everywhere, we shall again say that $H$ is $\mu$-adequate if it is equal locally $\mu$-almost everywhere to a mapping $\Lambda : t \mapsto \lambda_t$ that is everywhere defined and $\mu$-adequate. We then set $\int \eta_t\, d\mu(t) = \int \lambda_t\, d\mu(t)$, a definition that does not depend on the function $\Lambda$ utilized. We leave to the reader the task of verifying that the propositions proved in the preceding Nos. extend to $\mu$-adequate functions defined locally $\mu$-almost everywhere.
 
 ### 4. Universally measurable functions
 
-#### Definition 2 {#int-v-s3-def-2 .statement}
+#### Definition 2 {#int-v-s3-def-2 .statement tag=091B}
 
 *A mapping f of T into a topological space F is said to be universally measurable if it is $\mu$-measurable for every positive measure $\mu$ on T.*
 
 The subsets of T whose characteristic function is universally measurable are called universally measurable sets. They form a tribe on T (Ch. IV, §5, No. 4, Cor. 2 of Th. 2) that contains the Borel sets (same ref., Cor. 3), and the Souslin sets if T is metrizable (Ch. IV, §5, No. 1, Cor. 2 of Prop. 3). For a mapping $f$ of T into a topological space F, metrizable and separable, to be universally measurable, it is necessary and sufficient that the inverse image under $f$ of every closed ball in F be a universally measurable subset of T (Ch. IV, §5, No. 5, Th. 4).
 
-#### Proposition 6 {#int-v-s3-prop-6 .statement}
+#### Proposition 6 {#int-v-s3-prop-6 .statement tag=091C}
 
 *For a mapping $f$ of T into a topological space F to be universally measurable, it is necessary and sufficient that $f$ be measurable for every positive measure on T with compact support.*
 
 The condition is obviously necessary; on the other hand it is sufficient, because every positive measure $\mu$ is the sum of a family of measures with compact support (§2, No. 3, Prop. 4): the statement then follows from Prop. 2 of §2, No. 2.
 
-#### Proposition 7 {#int-v-s3-prop-7 .statement}
+#### Proposition 7 {#int-v-s3-prop-7 .statement tag=091D}
 
 *Let $\mu$ be a positive measure on T, and let $f$ be a $\mu$-measurable mapping of T into a topological space F. Then, there exists a universally measurable mapping $f'$ of T into F such that $f = f'$ locally $\mu$-almost everywhere.*
 
@@ -354,13 +354,13 @@ The functions $f$ and $f'$ are equal locally $\mu$-almost everywhere. On the oth
 
 ### 5. Diffusions
 
-#### Definition 3 {#int-v-s3-def-3 .statement}
+#### Definition 3 {#int-v-s3-def-3 .statement tag=091E}
 
 *Let X be a locally compact space, and let $\Lambda : t \mapsto \lambda_t$ be a mapping of T into $\mathscr{M}_+(X)$. The mapping $\Lambda$ is said to be a diffusion* of T in X if Λ is adequate for every positive measure on T with compact support. The diffusion Λ is said to be bounded if all of the measures λ_t are bounded and $\sup_{t \in T} \| \lambda_t \| < +\infty$; this quantity is then called the norm of Λ and is denoted $\| \Lambda \|$.
 
 The following proposition merely translates the definition:
 
-#### Proposition 8 {#int-v-s3-prop-8 .statement}
+#### Proposition 8 {#int-v-s3-prop-8 .statement tag=091F}
 
 — For a mapping $\Lambda : t \mapsto \lambda_t$ of T into $\mathscr{M}_+(X)$ to be a diffusion, it is necessary and sufficient that the following conditions be satisfied:
 1) For every lower semi-continuous function $f \geqslant 0$ defined on X, the function $t \mapsto \lambda_t^\bullet(f)$ is universally measurable on T.
@@ -373,7 +373,7 @@ $$
 
 Suppose that $\Lambda$ is a diffusion. The condition 1) is then satisfied by the definition of adequate mappings (No. 1, Def. 1) and Prop. 6; the condition 3) is satisfied by formula (4), since $\Lambda$ is $\mu$-adequate. Let $g \in \mathscr{K}_+(X)$ and let $u$ be the function $t \mapsto \lambda_t(g)$ (universally measurable, by 1)); suppose that $u$ is not locally bounded. There would then exist a compact set K such that $u$ is not bounded on K, hence there would exist a sequence $(t_n)$ of elements of K such that $u(t_n) \geqslant n^2$ for all $n \geqslant 1$; then $u$ is not integrable for the measure $\mu = \sum_{n \geqslant 1} \frac{1}{n^2} \varepsilon_{t_n}$ with compact support, contrary to the hypothesis on $\Lambda$, which implies that $t \mapsto \lambda_t(g)$ is integrable for every positive measure with compact support. The above three conditions are thus necessary. Conversely, the conditions 1) and 2) imply that $\Lambda$ is scalarly essentially $\mu$-integrable for every measure $\mu$ with compact support. Since every measure $\mu' \geqslant 0$ that is bounded above by a measure $\mu$ with compact support also has compact support, the conditions 1) and 3) express that $\Lambda$ is $\mu$-adequate for every positive measure with compact support, which is indeed the sought-for result.
 
-#### Proposition 9 {#int-v-s3-prop-9 .statement}
+#### Proposition 9 {#int-v-s3-prop-9 .statement tag=091G}
 
 — Let $\Lambda : t \mapsto \lambda_t$ be a mapping of T into $\mathscr{M}_+(X)$, such that the function $t \mapsto \lambda_t(g)$ is universally measurable and locally bounded in T for every $g \in \mathscr{K}_+(X)$. One can affirm that $\Lambda$ is a diffusion in each of the following cases:
 
@@ -390,7 +390,7 @@ $$
 
 We shall say that a positive measure $\mu$ on $T$ *belongs to the domain of $\Lambda$* if $\Lambda$ is $\mu$-adequate: this amounts to saying (in view of Prop. 8) that $\Lambda$ is scalarly essentially $\mu$-integrable and $⟨\mu'\Lambda, f⟩ = ⟨\mu', \Lambda f⟩$ for every positive measure $\mu' \leq \mu$ and every lower semi-continuous positive function $f$.
 
-#### Proposition 10 {#int-v-s3-prop-10 .statement}
+#### Proposition 10 {#int-v-s3-prop-10 .statement tag=091H}
 
 *Let $f, g$ be two positive universally measurable functions on $X$, let $a$ be a number $\geq 0$, and let $\mu$ and $\nu$ be two positive measures on $T$. Then:*
 
@@ -399,7 +399,7 @@ b) *If $\mu$ and $\nu$ belong to the domain of $\Lambda$, then so do $\mu + \nu$
 
 The only non-obvious point is that $\mu + \nu$ belongs to the domain of $\Lambda$, which is treated by observing that every positive measure bounded above by $\mu + \nu$ is of the form $\mu' + \nu'$, where $\mu' \leq \mu$, $\nu' \leq \nu$ (the 'decomposition lemma', Ch. II, §1, No. 1). See also the next proposition.
 
-#### Proposition 11 {#int-v-s3-prop-11 .statement}
+#### Proposition 11 {#int-v-s3-prop-11 .statement tag=091I}
 
 *For a positive measure $\mu$ on $T$ to belong to the domain of $\Lambda$, it is necessary and sufficient that $\Lambda$ be scalarly essentially $\mu$-integrable.*
 
@@ -411,11 +411,11 @@ $$
 \langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i, \Lambda f \rangle = \langle \mu, \Lambda f \rangle .
 $$
 
-#### Corollary 1 {#int-v-s3-prop-11-cor-1 .statement}
+#### Corollary 1 {#int-v-s3-prop-11-cor-1 .statement tag=091J}
 
 — *If $\Lambda$ is a bounded diffusion, then every bounded positive measure $\mu$ belongs to the domain of $\Lambda$, and $\| \mu \Lambda \| \leq \| \mu \| \| \Lambda \|$.*
 
-#### Corollary 2 {#int-v-s3-prop-11-cor-2 .statement}
+#### Corollary 2 {#int-v-s3-prop-11-cor-2 .statement tag=091K}
 
 — *Suppose that $\mu$ is the sum of a summable family $(\mu_\alpha)_{\alpha \in A}$ of positive measures belonging to the domain of $\Lambda$. For $\mu$ to belong to the domain of $\Lambda$, it is necessary and sufficient that the family of measures $\mu_\alpha \Lambda$ be summable, in which case $\mu \Lambda = \sum_{\alpha \in A} \mu_\alpha \Lambda$.*
 
@@ -423,7 +423,7 @@ It suffices to apply the Corollary of Prop. 1 of No. 1.
 
 Proposition 5, expressed in the language of diffusions, takes the following form:
 
-#### Proposition 12 {#int-v-s3-prop-12 .statement}
+#### Proposition 12 {#int-v-s3-prop-12 .statement tag=091L}
 
 — *Let $\mu$ be a positive measure on $T$ that belongs to the domain of $\Lambda$, and let $f$ be a universally measurable function $\geq 0$ defined on $X$. If $f$ is moderated for the measure $\mu \Lambda$, or if the measures $\lambda_t$ are bounded, then the function $\Lambda f$ is $\mu$-measurable and*
 
@@ -431,13 +431,13 @@ $$
 \langle \mu \Lambda, f \rangle = \langle \mu, \Lambda f \rangle .
 $$
 
-#### Corollary {#int-v-s3-n5-cor-1 .statement}
+#### Corollary {#int-v-s3-n5-cor-1 .statement tag=091M}
 
 — *If $X$ is countable at infinity, or if the measures $\lambda_t$ are bounded, then the function $\Lambda f$ is universally measurable on $T$ for every universally measurable function $f \geq 0$ defined on $X$, and (13) holds.*
 
 ### 6. Composition of bounded diffusions
 
-#### Proposition 13 {#int-v-s3-prop-13 .statement}
+#### Proposition 13 {#int-v-s3-prop-13 .statement tag=091N}
 
 — *Let $T, X, Y$ be three locally compact spaces, $\Lambda : t \mapsto \lambda_t$ a bounded diffusion of $T$ in $X$, and $H : x \mapsto \eta_x$ a bounded diffusion of $X$ in $Y$. The mapping $t \mapsto \lambda_t H$ is then a bounded diffusion of $T$ in $Y$, which is denoted by $\Lambda H$, and*
 
@@ -477,7 +477,7 @@ $$
 
 When $f$ is lower semi-continuous and $\mu$ runs over the set of positive measures with compact support, these relations express that $\Gamma$ is a diffusion of T in Y. The assertion then does no more than make explicit the relations obtained in the course of the above proof.
 
-#### Definition 4 {#int-v-s3-def-4 .statement}
+#### Definition 4 {#int-v-s3-def-4 .statement tag=091O}
 
 *The notations being those of Proposition 13, the diffusion $\Lambda H$ is called the composed diffusion (or the composition) of the bounded diffusions H and $\Lambda$.*
 
@@ -489,7 +489,7 @@ $$
 
 We will therefore use these notations without parentheses for the composition of diffusions.
 
-#### Example {#int-v-s3-n6-exa-1 .statement}
+#### Example {#int-v-s3-n6-exa-1 .statement tag=091P}
 
 Let $u$ be a universally measurable mapping of T into X, and $v$ a universally measurable mapping of X into Y; by Prop. 2 b), one defines diffusions $\Lambda$ and $H$ by the formulas
 

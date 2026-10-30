@@ -53,7 +53,7 @@ subsections:
       pdf_page: 44
 statements: 56
 exercises: 22
-content_sha256: 2944be06c7f371cf6243ca37ca29ce77da6224e13d1f14271d3cc494d9962fed
+content_sha256: 34014aa9c876f1b5bba6a6971122f8ab7ae083b160860f83218ef0516b5b0e4d
 ---
 
 ## § 4. SYSTÈME DE RACINES ASSOCIÉ À UN GROUPE COMPACT
@@ -144,7 +144,9 @@ $$
 
 Si $f$ est un morphisme de groupes de Lie de S dans S', l’homomorphisme $X(f)$ n’est autre que l’homomorphisme *dual* de $f$ au sens de TS, II, § 1, no 7. L’application $\varphi \mapsto \hat{\varphi}$ de $\mathrm{Hom}_{\mathbf{Z}}(X(S'), X(S))$ dans $M(S, S')$ définie dans *loc. cit.* est réciproque de l’application $f \mapsto X(f)$ de $M(S, S')$ dans $\mathrm{Hom}_{\mathbf{Z}}(X(S'), X(S))$ ; cette dernière est donc bijective. Si l’on identifie $\Gamma(S)$ (resp. $\Gamma(S')$) au $\mathbf{Z}$-module dual de $X(S)$ (resp. $X(S')$) (prop. 3), $\Gamma(f)$ coïncide avec l’homomorphisme transposé de $X(f)$, d’où la proposition.
 
-*Remarques. — 1) Soit $f : S \to S'$ un morphisme de tores. Le diagramme du serpent (A, X, § 1, no 2) associé à (1) donne une suite exacte*
+#### Remarques {#lie-ix-s4-n2-rem-1 .statement tag=01BR}
+
+*1) Soit $f : S \to S'$ un morphisme de tores. Le diagramme du serpent (A, X, § 1, no 2) associé à (1) donne une suite exacte*
 $$
 \begin{array}{ccccccccc}
 0 & \longrightarrow & \mathrm{Ker}\ \Gamma(f) & \longrightarrow & \mathrm{Ker}\ L(f) & \longrightarrow & \mathrm{Ker}\ f & \xrightarrow{d} & \mathrm{Coker}\ \Gamma(f) \\

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 62
 statements: 4
 exercises: 1
-content_sha256: 011fcf00a4fd2b1e671abb6361d9139114abbb52fb6e27b9b2e70edfb62f40f5
+content_sha256: d85e6e51328512d9347c6dde4bbac67b4a2a28c60adab742be98eb4ef8a4bf9c
 ---
 
 ## § 7. Convergence de la série de Hausdorff (cas réel ou complexe)
@@ -68,7 +68,7 @@ Soient maintenant $u$ et $v$ deux nombres réels positifs tels que $u + v < \log
 $$(9)\qquad \sum_{r,s \geq 0} \eta_{r,s} u^r v^s = -\log(2 - \exp(u + v)) < +\infty.$$
 Soient $r, s \geq 0$, et soit $\|\tilde{H}_{r,s}\|$ la norme du polynôme-continu $\tilde{H}_{r,s}$ (VAR, R, App., n° 2).
 
-#### Lemme 1 {#lie-ii-s7-lem-1 .statement}
+#### Lemme 1 {#lie-ii-s7-lem-1 .statement tag=0A6L}
 
 On a
 
@@ -115,7 +115,7 @@ $$
 
 ce qui démontre le lemme.
 
-#### Proposition 1 {#lie-ii-s7-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s7-prop-1 .statement tag=0A6M}
 
 La série formelle $\tilde{H}$ est une série convergente (VAR, R, 3.1.1); son domaine de convergence strict (VAR, R, 3.1.4) contient l’ouvert
 
@@ -149,7 +149,7 @@ $$
 h(0, x) = h(x, 0) = x \qquad \text{pour } \|x\| < \frac{1}{M} \log 2.
 $$
 
-#### Proposition 2 {#lie-ii-s7-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s7-prop-2 .statement tag=0A6N}
 
 *Soit*
 
@@ -260,7 +260,7 @@ $$
 
 Donc $\tilde{H}$ définit une fonction analytique $h : \Omega \to A$. On a $h(x, y) = \sum_{r,s \geq 0} H_{r,s}(x, y)$ (cf. § 3, n° 1, *Remarque 4*).
 
-#### Proposition 3 {#lie-ii-s7-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s7-prop-3 .statement tag=0A6O}
 
 *Pour $\| x \| + \| y \| < \frac{1}{2} \log 2$, on a*
 

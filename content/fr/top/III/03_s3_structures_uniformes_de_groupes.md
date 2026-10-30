@@ -33,7 +33,7 @@ subsections:
       pdf_page: 208
 statements: 19
 exercises: 12
-content_sha256: e369792dfae3f8c81c170888bdd6e4f3d40c34c82c471a4c1a3d84c5ec824629
+content_sha256: 35da3a05c41d88e877ea8ca8f3cb7dae9357f261f0a71db4c07324041bc0bb57
 ---
 
 ## § 3. STRUCTURES UNIFORMES DE GROUPES
@@ -46,7 +46,7 @@ La structure uniforme définie par $\mathfrak{G}_d$ est compatible avec la topol
 
 On raisonne de manière analogue lorsque la translation se fait à gauche, et on peut poser la définition suivante:
 
-#### Définition 1 {#top-iii-s3-def-1 .statement}
+#### Définition 1 {#top-iii-s3-def-1 .statement tag=0BJX}
 
 On appelle structure uniforme droite (resp. gauche) sur un groupe topologique $G$, la structure uniforme dont un système fondamental d’entourages est obtenu en faisant correspondre à tout voisinage $V$ de l’élément neutre $e$, l’ensemble $V_d$ (resp. $V_s$) des couples $(x, y)$ tels que $yx^{-1} \in V$ (resp. $x^{-1}y \in V$).
 
@@ -64,7 +64,7 @@ La structure uniforme droite et la structure uniforme gauche sur un groupe topol
 
 En général, on désignera par $G_s$ (resp. $G_d$) l’espace uniforme obtenu en munissant l’ensemble $G$ de sa structure uniforme gauche (resp. droite).
 
-#### Proposition 1 {#top-iii-s3-prop-1 .statement}
+#### Proposition 1 {#top-iii-s3-prop-1 .statement tag=0BJY}
 
 Les translations à droite et à gauche sont des isomorphismes de la structure uniforme droite sur elle-même.
 
@@ -74,7 +74,7 @@ On voit de même que les translations à droite et à gauche sont des isomorphis
 
 Tout automorphisme intérieur $x \mapsto axa^{-1}$ de G est donc à la fois un automorphisme de la structure de groupe, de la topologie, et de chacune des deux structures uniformes de G.
 
-#### Proposition 2 {#top-iii-s3-prop-2 .statement}
+#### Proposition 2 {#top-iii-s3-prop-2 .statement tag=0BJZ}
 
 *La symétrie* $x \mapsto x^{-1}$ *est un isomorphisme de la structure uniforme droite sur la structure uniforme gauche*.
 
@@ -82,7 +82,7 @@ C’est une conséquence immédiate de la déf. 1 (III, p. 19).
 
 Il faut se garder de croire que l’application $(x, y) \mapsto xy$ de l’espace uniforme $G_d \times G_d$ dans l’espace uniforme $G_d$ soit en général uniformément continue. De même, la symétrie $x \mapsto x^{-1}$, considérée comme application de $G_d$ sur $G_d$, n’est pas en général uniformément continue (voir III, p. 73, exerc. 3 et 4).
 
-#### Proposition 3 {#top-iii-s3-prop-3 .statement}
+#### Proposition 3 {#top-iii-s3-prop-3 .statement tag=0BK0}
 
 *Tout homomorphisme continu f d’un groupe topologique G dans un groupe topologique G' est uniformément continu lorsqu’on le considère comme une application de G_d dans G'_d* (ou de G_s dans G'_s).
 
@@ -102,7 +102,7 @@ Pour que les structures uniformes droite et gauche sur le groupe produit $\prod_
 
 ### 3. Groupes complets
 
-#### Définition 2 {#top-iii-s3-def-2 .statement}
+#### Définition 2 {#top-iii-s3-def-2 .statement tag=0BK1}
 
 On dit qu’un groupe topologique est complet si sa structure uniforme droite et sa structure uniforme gauche sont des structures d’espace complet.
 
@@ -112,31 +112,31 @@ Tout sous-groupe fermé d’un groupe complet est complet (II, p. 16, prop. 8). 
 
 Par contre, si G est un groupe complet et H un sous-groupe distingué fermé de G, le groupe quotient G/H n’est pas nécessairement complet (voir cependant IX, § 3, prop. 4).
 
-#### Proposition 4 {#top-iii-s3-prop-4 .statement}
+#### Proposition 4 {#top-iii-s3-prop-4 .statement tag=0BK2}
 
 Si, dans un groupe topologique G, il existe un voisinage V de e qui est complet pour la structure uniforme droite ou la structure uniforme gauche, G est complet.
 
 Supposons par exemple V complet pour la structure uniforme droite et soit F un filtre de Cauchy sur G_d ; F contient un ensemble M petit d’ordre V_d, et si x_1 ∈ M, on a donc M ⊂ Vx_1 ; la trace de F sur le sous-space complet Vx_1 de G_d est donc un filtre de Cauchy qui converge vers un point x_0 ; comme x_0 est adhérent à F, il est point limite de F (II, p. 14, cor. 2 de la prop. 5).
 
-#### Corollaire 1 {#top-iii-s3-prop-4-cor-1 .statement}
+#### Corollaire 1 {#top-iii-s3-prop-4-cor-1 .statement tag=0BK3}
 
 Un groupe localement compact est complet.
 
 En effet, tout espace compact est complet pour son unique structure uniforme (II, p. 27, th. 1).
 
-#### Corollaire 2 {#top-iii-s3-prop-4-cor-2 .statement}
+#### Corollaire 2 {#top-iii-s3-prop-4-cor-2 .statement tag=0BK4}
 
 Tout sous-groupe localement compact d’un groupe topologique séparé G est fermé dans G.
 
 En effet, tout sous-espace complet d’un espace uniforme séparé est fermé (II, p. 16, prop. 8).
 
-#### Proposition 5 {#top-iii-s3-prop-5 .statement}
+#### Proposition 5 {#top-iii-s3-prop-5 .statement tag=0BK5}
 
 Soient G_1 un groupe topologique, G_2 un groupe topologique séparé et complet, H_1 (resp. H_2) un sous-groupe partout dense de G_1 (resp. G_2). Tout homomorphisme continu u de H_1 dans H_2 se prolonge d’une seule manière en un homomorphisme continu ū de G_1 dans G_2. En outre, si G_1 est séparé et complet, et si u est un isomorphisme de H_1 sur H_2, ū est un isomorphisme de G_1 sur G_2.
 
 En effet, u est uniformément continu pour les structures uniformes droites de H_1 et H_2 (III, p. 21, prop. 3), donc se prolonge d’une seule manière en une application ū de G_1 dans G_2, uniformément continue pour les structures uniformes droites de ces groupes (II, p. 20, th. 2). En outre, en vertu du principe de prolongement des identités (I, p. 53, cor. 1), ū est un homomorphisme de G_1 dans G_2, d’où la première assertion. Pour démontrer la seconde, il suffit de considérer l’isomorphisme v de H_2 sur H_1 réciproque de u, et son prolongement ū en un homomorphisme continu de G_2 dans G_1 ; en vertu de l’unicité du prolongement, $\bar{v} \circ \bar{u}$ et $\bar{u} \circ \bar{v}$ sont respectivement l’identité dans $G_1$ et dans $G_2$, donc (E, II, p. 18) $\bar{u}$ est bijective.
 
-#### Remarque {#top-iii-s3-n3-rem-1 .statement}
+#### Remarque {#top-iii-s3-n3-rem-1 .statement tag=0BK6}
 
 Lorsque l’homomorphisme continu $u$ est bijectif, il n’en résulte pas en général que $\bar{u}$ soit injectif ni surjectif (cf. III, p. 73, exerc. 12); voir toutefois III, p. 26, prop. 10.
 
@@ -146,7 +146,7 @@ Soit G un groupe topologique séparé. L’espace uniforme $G_d$ peut être cons
 
 1) Prolongement par continuité de $xy$ et $x^{-1}$. — Les fonctions $xy$ et $x^{-1}$ n’étant pas uniformément continues en général, on ne peut appliquer le théorème de prolongement des fonctions uniformément continues (II, p. 20, th. 2). Néanmoins, on peut prolonger $xy$, grâce à la prop. 11 de II, p. 20 et à la proposition suivante:
 
-#### Proposition 6 {#top-iii-s3-prop-6 .statement}
+#### Proposition 6 {#top-iii-s3-prop-6 .statement tag=0BK7}
 
 Soient $\mathfrak{F}$ et $\mathfrak{G}$ deux filtres-de Cauchy sur $G_d$; l’image, par l’application $(x, y) \mapsto xy$, du filtre $\mathfrak{F} \times \mathfrak{G}$, est une base de filtre de Cauchy sur $G_d$.
 
@@ -163,11 +163,11 @@ G_d (II, p. 20, prop. 11). On peut donner des exemples de groupes topologiques G
 4) Unicité. — Elle résulte de la prop. 5 de III, p. 22.
 
 En résumé, nous avons démontré le théorème suivant:
-#### Théorème 1 {#top-iii-s3-thm-1 .statement}
+#### Théorème 1 {#top-iii-s3-thm-1 .statement tag=0BK8}
 
 Pour qu’un groupe topologique séparé G soit isomorphe à un sous-groupe partout dense d’un groupe complet $\hat{G}$, il faut et il suffit que l’image, par la symétrie $x \mapsto x^{-1}$, d’un filtre de Cauchy pour la structure uniforme droite de G soit encore un filtre de Cauchy pour cette structure. Le groupe complet $\hat{G}$ (qu’on appelle le groupe complété de G) est alors unique (à un isomorphisme près).
 
-#### Proposition 7 {#top-iii-s3-prop-7 .statement}
+#### Proposition 7 {#top-iii-s3-prop-7 .statement tag=0BK9}
 
 Soit G un groupe topologique séparé admettant un groupe complété $\hat{G}$. Les adhérences, dans $\hat{G}$, des voisinages de l’élément neutre dans G, forment un système fondamental de voisinages de l’élément neutre dans $\hat{G}$.
 
@@ -175,13 +175,13 @@ En effet, $\hat{G}$ étant régulier, tout voisinage de l’élément neutre dan
 
 Soit G un groupe non nécessairement séparé; soient N = $\overline{\{e\}}$, G' = G/N le groupe séparé associé à G (III, p. 13). Si G' admet un groupe complété $\hat{G}'$, on dit que ce dernier est le groupe séparé complété de G et on le note $\hat{G}$; $\hat{G}'_d$ (resp. $\hat{G}'_s$) est alors l’espace uniforme séparé complété (II, p. 23) de $G_d$ (resp. $G_s$).
 
-#### Proposition 8 {#top-iii-s3-prop-8 .statement}
+#### Proposition 8 {#top-iii-s3-prop-8 .statement tag=0BKA}
 
 *Soient G un groupe admettant un groupe séparé complété $\hat{G}'$. Tout homomorphisme continu u de G dans un groupe séparé complet H se factorise d’une seule manière en $u = v \circ \varphi$, où v est un homomorphisme continu de $\hat{G} = \hat{G}'$ dans H et $\varphi$ l’application canonique de G dans $\hat{G}$ (composée de l’injection canonique de $G'$ dans $\hat{G}$ et de l’homomorphisme canonique $\psi$ de G sur $G/N = G'$).*
 
 Comme le noyau de u est fermé et contient e, il contient N, donc u s’écrit $u = w \circ \psi$, où w est un homomorphisme continu de $G'$ dans H; il suffit alors d’appliquer à w la prop. 5 de III, p. 22.
 
-#### Corollaire {#top-iii-s3-n4-cor-1 .statement}
+#### Corollaire {#top-iii-s3-n4-cor-1 .statement tag=0E9T}
 
 *Soient $G_1, G_2$ deux groupes topologiques admettant des groupes séparés complétés $\hat{G}_1, \hat{G}_2$ respectivement. Pour tout homomorphisme continu $f : G_1 \to G_2$, il existe un homomorphisme continu $\hat{f} : \hat{G}_1 \to \hat{G}_2$ et un seul rendant commutatif le diagramme*
 
@@ -197,7 +197,7 @@ $$
 
 Il suffit d’appliquer la prop. 8 à l’homomorphisme $\varphi_2 \circ f : G_1 \to \hat{G}_2$.
 
-#### Proposition 9 {#top-iii-s3-prop-9 .statement}
+#### Proposition 9 {#top-iii-s3-prop-9 .statement tag=0BKC}
 
 *Soit G un groupe topologique séparé. S’il existe un voisinage $V_0$ de l’élément neutre tel que l’application $x \mapsto x^{-1}$ de $V_0$ dans G soit uniformément continue pour la structure uniforme droite, alors G admet un groupe complété.*
 
@@ -207,7 +207,7 @@ Montrons que le critère du th. 1 est vérifié. Soit donc $\mathfrak{F}$ un fil
 
 Nous avons déjà remarqué que, dans un groupe topologique commutatif G, les structures uniformes droite et gauche sont identiques; lorsqu’on parle de la structure uniforme de G, c’est toujours de cette unique structure qu’il est question.
 
-#### Théorème 2 {#top-iii-s3-thm-2 .statement}
+#### Théorème 2 {#top-iii-s3-thm-2 .statement tag=0BKB}
 
 Soit G un groupe topologique commutatif; les fonctions $x^{-1}$ et $xy$ sont uniformément continues dans G et $G \times G$ respectivement; en outre G admet un groupe séparé complété $\hat{G}$, qui est commutatif.
 
@@ -215,19 +215,19 @@ La continuité uniforme de $x^{-1}$ résulte de la prop. 2 de III, p. 21 ; celle
 
 On déduit en particulier de ce théorème que, si $f$ et $g$ sont deux applications uniformément continues d’un espace uniforme E dans un groupe commutatif G, noté additivement, les fonctions $-f$ et $f + g$ sont uniformément continues.
 
-#### Proposition 10 {#top-iii-s3-prop-10 .statement}
+#### Proposition 10 {#top-iii-s3-prop-10 .statement tag=0E9U}
 
 Soient G un groupe commutatif, $\mathscr{T}_1, \mathscr{T}_2$ deux topologies séparées compatibles avec la structure de groupe de G; on suppose que $\mathscr{T}_1$ est plus fine que $\mathscr{T}_2$ et qu’il existe un système fondamental de voisinages de 0 pour $\mathscr{T}_1$ qui soient fermés pour $\mathscr{T}_2$. Soient $G_1, G_2$ les groupes complétés de G pour $\mathscr{T}_1$ et $\mathscr{T}_2$ respectivement, et soit $f : G_1 \to G_2$ l’homomorphisme continu qui prolonge l’application identique de G (III, p. 22, prop. 5); alors $f$ est injectif.
 
 Supposons G noté additivement. Soit $\mathfrak{U}_1$ la structure uniforme sur G correspondant (III, p. 20) à la topologie $\mathscr{T}_1$; il suffira de montrer que si $\mathfrak{F}$ et $\mathfrak{F}'$ sont deux filtres de Cauchy minimaux (II, p. 14) pour $\mathfrak{U}_1$, qui convergent dans $G_2$ vers le même point a, alors $\mathfrak{F} = \mathfrak{F}'$ (II, p. 21). Pour cela, il suffit de montrer que $\mathfrak{F} \cap \mathfrak{F}'$ est un filtre de Cauchy pour $\mathfrak{U}_1$. Soit V un voisinage de 0 dans G pour $\mathscr{T}_1$, fermé pour $\mathscr{T}_2$; soit W un voisinage symétrique de 0 dans G pour $\mathscr{T}_1$, tel que $W + W \subset V$. Par hypothèse, il existe dans $\mathfrak{F}$ (resp. $\mathfrak{F}'$) un ensemble M (resp. $M'$) petit d’ordre $W_d$; pour $x \in M, y \in M$, on a donc $y - x \in W$, ou encore $y \in x + W$; si $\overline{W}$ et $\overline{V}$ sont les adhérences de W et V dans $G_2$, on déduit de ce qui précède que $y \in x + \overline{W}$, donc, puisque a est adhérent à M, $a \in x + \overline{W}$ pour tout $x \in M$. De même, on a $a \in x' + \overline{W}$ pour tout $x' \in M'$, d’où l’on tire $x - x' \in \overline{W} + \overline{W}$; mais comme $(x, y) \mapsto x + y$ est une application continue de $G_2 \times G_2$ dans $G_2$, on a $\overline{W} + \overline{W} \subset \overline{W} + \overline{W} \subset \overline{V}$. On en conclut que pour $x \in M, x' \in M'$, on a $x - x' \in \overline{V} \cap G = V$, puisque V est fermé pour $\mathscr{T}_2$; ceci achève donc la démonstration.
 
-#### Corollaire 1 {#top-iii-s3-prop-10-cor-1 .statement}
+#### Corollaire 1 {#top-iii-s3-prop-10-cor-1 .statement tag=0E9V}
 
 Sous les hypothèses de la prop. 10, si A est une partie de G qui est un sous-espace complet pour la structure uniforme $\mathfrak{U}_2$ correspondant à $\mathscr{T}_2$, A est aussi un sous-espace complet pour la structure uniforme $\mathfrak{U}_1$ correspondant à $\mathscr{T}_1$.
 
 En effet, si $A_1$ est l’adhérence de $A$ dans $G_1$, $f(A_1)$ est contenu dans l’adhérence de $A$ dans $G_2$, égale à $A$ par hypothèse. Comme $f(A) = A$ par définition et que $f$ est injective, on a $A_1 = A$.
 
-#### Corollaire 2 {#top-iii-s3-prop-10-cor-2 .statement}
+#### Corollaire 2 {#top-iii-s3-prop-10-cor-2 .statement tag=0E9W}
 
 Soient $G$ un groupe commutatif, $\mathscr{T}_1, \mathscr{T}_2$ deux topologies séparées compatibles avec la structure de groupe de $G$. On suppose que $\mathscr{T}_1$ est plus fine que $\mathscr{T}_2$ et qu’il existe un système fondamental $\mathfrak{V}$ de voisinages de $0$ pour $\mathscr{T}_1$ qui soient complets pour la structure uniforme $\mathfrak{U}_2$ correspondant à $\mathscr{T}_2$. Alors $G$ est complet pour la structure uniforme $\mathfrak{U}_1$ correspondant à $\mathscr{T}_1$.
 

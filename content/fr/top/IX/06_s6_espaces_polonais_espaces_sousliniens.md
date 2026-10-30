@@ -53,18 +53,18 @@ subsections:
       pdf_page: 192
 statements: 61
 exercises: 22
-content_sha256: eecf4c585e7f64669e1379526aa2e798c4e5ad2d4452bf9988e19fb9fbbfdf00
+content_sha256: 7b19c229c18ded78e42555802bc6dbdc243d07d6a429873c6aabc26ff3bad808
 ---
 
 ## § 6. ESPACES POLONAIS ; ESPACES SOUSLINIENS ; ENSEMBLES BORÉLIENS
 
 ### 1. Espaces polonais
 
-#### Définition 1 {#top-ix-s6-def-1 .statement}
+#### Définition 1 {#top-ix-s6-def-1 .statement tag=0C88}
 
 On dit qu’un espace topologique $X$ est polonais s’il est métrisable de type dénombrable (IX, p. 18), et s’il existe une distance compatible avec la topologie de $X$, pour laquelle $X$ soit complet.
 
-#### Proposition 1 {#top-ix-s6-prop-1 .statement}
+#### Proposition 1 {#top-ix-s6-prop-1 .statement tag=0C89}
 
 a) Tout sous-espace fermé d’un espace polonais est polonais.
     b) Le produit d’une famille dénombrable d’espaces polonais est polonais.
@@ -72,25 +72,25 @@ a) Tout sous-espace fermé d’un espace polonais est polonais.
 
 En effet, tout sous-espace d’un espace métrisable de type dénombrable est métrisable de type dénombrable, et tout sous-espace fermé d’un espace complet est complet (II, p. 16, prop. 8). Tout produit dénombrable d’espaces métrisables de type dénombrable est métrisable de type dénombrable (IX, p. 19), et tout produit dénombrable d’espaces métriques complets est un espace métrique complet pour une distance compatible avec sa topologie (II, p. 17, prop. 10 et IX, p. 15, cor. 2). Enfin, soit $(X_n)$ une suite d’espaces polonais non vides, et soit $X$ l’espace somme des $X_n$; on peut supposer la topologie de $X_n$ définie par une distance $d_n \leq 1$ pour laquelle $X_n$ est complet et de type dénombrable (IX, p. 3); on définit alors la topologie de $X$ par la distance $d$ telle que $d(x, y) = d_n(x, y)$ si $x$ et $y$ appartiennent à un même $X_n$, $d(x, y) = 1$ dans le cas contraire (IX, p. 16). On sait que $X$ est de type dénombrable (IX, p. 19, corollaire); il reste à prouver qu’il est complet pour $d$. Or, si $(x_m)$ est une suite de Cauchy dans $X$, il existe un $m_0$ tel que pour $p \geq m_0, q \geq m_0$, on ait $d(x_p, x_q) < 1$, donc tous les $x_m$ d’indice $m \geq m_0$ appartiennent à un même $X_n$; puisque $X_n$ est complet pour $d_n$, la suite $(x_m)$ est convergente.
 
-#### Proposition 2 {#top-ix-s6-prop-2 .statement}
+#### Proposition 2 {#top-ix-s6-prop-2 .statement tag=0C8A}
 
 Tout sous-espace ouvert d’un espace polonais est polonais.
 
 Soient $X$ un espace polonais, $d$ une distance compatible avec la topologie de $X$, $U$ une partie ouverte de $X$ distincte de $X$. Soit $V$ la partie du produit $\mathbf{R} \times X$ formée des points $(t, x)$ tels que $t \cdot d(x, X - U) = 1$; le sous-espace $V$ de $\mathbf{R} \times X$ est fermé (IX, p. 13, prop. 3), donc polonais (prop. 1). Comme la restriction à $V$ de la projection $\mathrm{pr}_2$ de $\mathbf{R} \times X$ sur $X$ est un homéomorphisme de $V$ sur $U$ (IX, p. 13, prop. 3), $U$ est un sous-espace polonais.
 
-#### Corollaire {#top-ix-s6-n1-cor-1 .statement}
+#### Corollaire {#top-ix-s6-n1-cor-1 .statement tag=0C8B}
 
 Tout espace $X$ localement compact, métrisable et dénombrable à l’infini, est polonais.
 
 En effet, soit $X'$ l’espace compact obtenu par adjonction à $X$ d’un point à l’infini; on sait que $X'$ est métrisable et de type dénombrable (IX, p. 21, corollaire), et d’autre part $X'$ est complet pour son unique structure uniforme (II, p. 27, th. 1); l’espace $X'$ est donc polonais, et il en est de même de $X$ qui est un sous-espace ouvert de $X'$.
 
-#### Proposition 3 {#top-ix-s6-prop-3 .statement}
+#### Proposition 3 {#top-ix-s6-prop-3 .statement tag=0C8C}
 
 Soit $X$ un espace topologique séparé; l’intersection d’une suite $(A_n)$ de sous-espaces polonais de $X$ est un sous-espace polonais.
 
 Soit $f$ l’application diagonale de $X$ dans $X^\mathbf{N}$ (E, II, p. 33; on rappelle que $f(x) = (y_n)$, où $y_n = x$ pour tout $n$); nous utiliserons le lemme suivant:
 
-#### Lemme 1 {#top-ix-s6-lem-1 .statement}
+#### Lemme 1 {#top-ix-s6-lem-1 .statement tag=0C8D}
 
 Soit $(A_n)$ une suite de parties de l’espace topologique séparé $X$; la restriction au sous-espace $\bigcap_n A_n$ de $X$ de l’application diagonale $f : X \to X^\mathbf{N}$ est un homéomorphisme de $\bigcap_n A_n$ sur un sous-espace fermé de $\prod_n A_n$.
 
@@ -98,25 +98,25 @@ En effet, cette image est l’intersection de $\prod_n A_n$ et de la diagonale $
 
 Sous les hypothèses de la prop. 3, $\prod_n A_n$ est un espace polonais (IX, p. 57, prop. 1), donc $\bigcap_n A_n$ est un sous-espace polonais d’après le lemme 1 et la prop. 1 (IX, p. 57).
 
-#### Corollaire {#top-ix-s6-n1-cor-2 .statement}
+#### Corollaire {#top-ix-s6-n1-cor-2 .statement tag=0C8E}
 
 L’espace des nombres irrationnels, muni de la topologie induite par celle de la droite numérique $\mathbf{R}$, est polonais.
 
 En effet, il est l’intersection d’une famille dénombrable d’ensembles ouverts dans $\mathbf{R}$, à savoir les complémentaires des ensembles réduits à un point rationnel.
 
-#### Théorème 1 {#top-ix-s6-thm-1 .statement}
+#### Théorème 1 {#top-ix-s6-thm-1 .statement tag=0C8F}
 
 Pour qu’un sous-espace $Y$ d’un espace polonais $X$ soit polonais, il faut et il suffit que $Y$ soit intersection d’une famille dénombrable d’ensembles ouverts dans $X$.
 
 Il résulte aussitôt des prop. 2 (IX, p. 57) et 3 que la condition est suffisante. Montrons qu’elle est nécessaire. Soit $d$ une distance compatible avec la topologie de $Y$, et pour laquelle $Y$ soit complet. Soit $\overline{Y}$ l’adhérence de $Y$ dans $X$. Pour chaque entier $n$, soit $Y_n$ l’ensemble des $x \in \overline{Y}$ qui possèdent un voisinage ouvert $U$ tel que le diamètre de $U \cap Y$ (pour la distance $d$) soit $\leqslant 1/n$. Il est clair que $Y_n$ est ouvert dans $\overline{Y}$ et contient $Y$. Soit $x$ un point de l’intersection des $Y_n$; $x$ est adhérent à $Y$ et la trace sur $Y$ du filtre des voisinages de $x$ dans $X$ est un filtre de Cauchy (pour la distance $d$); ce filtre converge donc vers un point de $Y$, et par suite $x \in Y$; autrement dit, on a $Y = \bigcap_n Y_n$. Pour tout $n$, soit $H_n$ un ensemble ouvert dans $X$ tel que $H_n \cap \overline{Y} = Y_n$; soit d’autre part $(U_m)$ une suite d’ensembles ouverts dans $X$ tels que $\overline{Y} = \bigcap_m U_m$ (IX, p. 16, prop. 7); alors $Y$ est l’intersection de la famille dénombrable d’ensembles ouverts $(H_n \cap U_m)$.
 
-#### Corollaire 1 {#top-ix-s6-thm-1-cor-1 .statement}
+#### Corollaire 1 {#top-ix-s6-thm-1-cor-1 .statement tag=0C8G}
 
 Pour qu’un espace $X$ soit polonais, il faut et il suffit que $X$ soit homéomorphe à une intersection dénombrable d’ensembles ouverts du cube $\mathbf{I}^\mathbf{N}$ (où $I$ désigne l’intervalle $[0, 1]$ de $\mathbf{R}$).
 
 La condition est évidemment suffisante; elle est nécessaire, parce que tout espace métrisable de type dénombrable est homéomorphe à un sous-espace de $\mathbf{I}^{\mathbf{N}}$ (IX, p. 18, prop. 12).
 
-#### Corollaire 2 {#top-ix-s6-thm-1-cor-2 .statement}
+#### Corollaire 2 {#top-ix-s6-thm-1-cor-2 .statement tag=0C8H}
 
 Soient $X$ et $Y$ deux espaces polonais, $f$ une application continue de $X$ dans $Y$. Pour tout sous-espace polonais $Z$ de $Y$, $f^{-1}(Z)$ est un sous-espace polonais de $X$
 
@@ -124,41 +124,41 @@ En effet, on a $Z = \bigcap_n Z_n$, où les $Z_n$ sont ouverts dans $Y$, d’où
 
 ### 2. Espaces sousliniens
 
-#### Définition 2 {#top-ix-s6-def-2 .statement}
+#### Définition 2 {#top-ix-s6-def-2 .statement tag=0C8I}
 
 On dit qu’un espace topologique $X$ est un espace de Souslin, ou espace souslinien, s’il est séparé et s’il existe un espace polonais $P$ et une application continue de $P$ sur $X$. On dit qu’une partie $A$ d’un espace topologique $X$ est un ensemble souslinien si le sous-espace $A$ est souslinien.
 
-#### Remarque {#top-ix-s6-n2-rem-1 .statement}
+#### Remarque {#top-ix-s6-n2-rem-1 .statement tag=0ECL}
 
 Il est clair que tout espace polonais est souslinien, et que l’image d’un espace souslinien $X$ par une application continue de $X$ dans un espace séparé $Y$ est un espace souslinien.
 
 *Nous verrons plus loin que tout espace souslinien est un espace de Lindelöf (IX, p. 76, corollaire).*
 
-#### Proposition 4 {#top-ix-s6-prop-4 .statement}
+#### Proposition 4 {#top-ix-s6-prop-4 .statement tag=0C8J}
 
 Dans tout espace souslinien $X$, il existe un ensemble dénombrable dense.
 
 En effet, soient $P$ un espace polonais, $f$ une application continue de $P$ sur $X$; l’image par $f$ d’une partie dénombrable dense dans $P$ est une partie dénombrable dense.
 
-#### Proposition 5 {#top-ix-s6-prop-5 .statement}
+#### Proposition 5 {#top-ix-s6-prop-5 .statement tag=0C8K}
 
 Tout sous-espace fermé (resp. ouvert) d’un espace souslinien $X$ est souslinien.
 
 En effet, si $f$ est une application continue d’un espace polonais $P$ sur $X$, et $A$ une partie fermée (resp. ouverte) de $X$, $f^{-1}(A)$ est un sous-espace fermé (resp. ouvert) de $P$, donc un sous-espace polonais (IX, p. 57, prop. 1 et prop. 2), et la restriction de $f$ à $f^{-1}(A)$ est une application continue surjective de $f^{-1}(A)$ sur $A$.
 
-#### Proposition 6 {#top-ix-s6-prop-6 .statement}
+#### Proposition 6 {#top-ix-s6-prop-6 .statement tag=0C8L}
 
 Soient $X$ un espace souslinien, $Y$ un espace séparé, $f$ une application continue de $X$ dans $Y$. L’image réciproque par $f$ d’un sous-espace souslinien $A$ de $Y$ est un sous-espace souslinien de $X$.
 
 En effet, soient $P$, $Q$ des espaces polonais, $g$ une application continue de $P$ sur $X$, $h$ une application continue de $Q$ sur $A$. Soit $R$ l’ensemble des points $(x, y) \in P \times Q$ tels que $f(g(x)) = h(y)$; $R$ est fermé dans $P \times Q$, donc c’est un sous-espace polonais (IX, p. 57, prop. 1). Soit $\varphi$ la restriction à $\mathbf{R}$ de la projection $\mathrm{pr}_1$; le sous-espace $f^{-1}(A)$ de $X$ est alors l’image de $\mathbf{R}$ par l’application continue $g \circ \varphi$, et est par suite souslinien.
 
-#### Proposition 7 {#top-ix-s6-prop-7 .statement}
+#### Proposition 7 {#top-ix-s6-prop-7 .statement tag=0C8M}
 
 *Le produit et la somme d’une famille dénombrable d’espaces sousliniens sont des espaces sousliniens.*
 
 En effet, soient, pour tout entier $n$, $X_n$ un espace séparé, $P_n$ un espace polonais, $f_n$ une application continue de $P_n$ sur $X_n$. L’espace produit (resp. somme) des $P_n$ est polonais (IX, p. 57, prop. 1), et l’image de cet espace par l’application produit des $f_n$ (resp. l’application qui coïncide avec $f_n$ dans chaque $P_n$) est l’espace produit (resp. somme) des $X_n$; comme ce dernier est séparé, c’est un espace souslinien.
 
-#### Proposition 8 {#top-ix-s6-prop-8 .statement}
+#### Proposition 8 {#top-ix-s6-prop-8 .statement tag=0C8N}
 
 *Soient $X$ un espace séparé, $(A_n)$ une suite de sous-espaces sousliniens de $X$. Alors la réunion et l’intersection des $A_n$ sont des sous-espaces sousliniens.*
 
@@ -168,7 +168,7 @@ En général, même dans un espace polonais, le complémentaire d’un sous-espa
 
 ### 3. Ensembles boréliens
 
-#### Définition 3 {#top-ix-s6-def-3 .statement}
+#### Définition 3 {#top-ix-s6-def-3 .statement tag=0C8P}
 
 *Soient $A$ un ensemble, $\Sigma$ un ensemble de parties de $A$. On dit que $\Sigma$ est une tribu sur $A$ si les conditions suivantes sont satisfaites:
 a) le complémentaire de tout ensemble de $\Sigma$ appartient à $\Sigma$;
@@ -180,59 +180,59 @@ Pour que $\Sigma$ soit une tribu, il faut et il suffit que la condition *a)* soi
 
 L’ensemble $\mathscr{P}(A)$ de toutes les parties de $A$ est évidemment une tribu. Toute intersection de tribus sur $A$ est une tribu sur $A$. Pour toute partie $\mathscr{F}$ de $\mathscr{P}(A)$, il existe donc une *plus petite tribu* contenant $\mathscr{F}$; on l’appelle la tribu *engendrée* par $\mathscr{F}$.
 
-#### Définition 4 {#top-ix-s6-def-4 .statement}
+#### Définition 4 {#top-ix-s6-def-4 .statement tag=0C8Q}
 
 *On appelle tribu borélienne sur un espace topologique $X$ la tribu engendrée par l’ensemble des parties ouvertes de $X$; les ensembles de cette tribu sont appelés ensembles boréliens de $X$.*
 
 Les parties fermées de $X$ sont donc des ensembles boréliens, engendrant la tribu borélienne. Si la topologie de $X$ admet une *base dénombrable* $\mathscr{B}$, les ensembles de $\mathscr{B}$ engendrant la tribu borélienne.
 
-#### Définition 5 {#top-ix-s6-def-5 .statement}
+#### Définition 5 {#top-ix-s6-def-5 .statement tag=0C8W}
 
 Etant donnés deux espaces topologiques $X, Y$, on dit qu’une application $f : X \to Y$ est borélienne si, pour tout ensemble borélien $B$ de $Y$, $f^{-1}(B)$ est un ensemble borélien dans $X$.
 
 Il résulte aussitôt de cette définition que si $f : X \to Y$ et $g : Y \to Z$ sont deux applications boréliennes, $g \circ f : X \to Z$ est borélienne.
 
-#### Proposition 9 {#top-ix-s6-prop-9 .statement}
+#### Proposition 9 {#top-ix-s6-prop-9 .statement tag=0C8O}
 
 Soient $X, Y$ deux espaces topologiques, $\mathscr{F}$ une partie de $\mathfrak{P}(Y)$ engendrant la tribu borélienne de $Y$. Pour qu’une application $f : X \to Y$ soit borélienne, il faut et il suffit que $f^{-1}(\mathscr{F})$ soit contenu dans la tribu borélienne de $X$.
 
 La condition est évidemment nécessaire. Inversement, si elle est vérifiée, considérons l’ensemble $\mathscr{L}$ des parties $B$ de $Y$ telles que $f^{-1}(B)$ soit borélien dans $X$. Il est immédiat que $\mathscr{L}$ est une tribu et contient $\mathscr{F}$; elle contient donc la tribu borélienne de $Y$, et par suite $f$ est borélienne.
 
-#### Corollaire 1 {#top-ix-s6-prop-9-cor-1 .statement}
+#### Corollaire 1 {#top-ix-s6-prop-9-cor-1 .statement tag=0ECM}
 
 Toute application continue est borélienne.
 
 Il suffit d’appliquer la prop. 9 au cas où $\mathscr{F}$ est l’ensemble des parties ouvertes de $Y$.
 
-#### Corollaire 2 {#top-ix-s6-prop-9-cor-2 .statement}
+#### Corollaire 2 {#top-ix-s6-prop-9-cor-2 .statement tag=0ECN}
 
 Soient $(X_n)$ une suite d’espaces topologiques, $X = \prod_n X_n$ leur produit. Si, pour chaque $n$, $A_n$ est une partie borélienne de $X_n$, alors $\prod_n A_n$ est une partie borélienne de $X$.
 
 En effet, on a $\prod_n A_n = \bigcap_n \overline{\mathrm{pr}}_n^{-1}(A_n)$ et comme $\mathrm{pr}_n$ est continue, $\overline{\mathrm{pr}}_n^{-1}(A_n)$ est borélienne dans $X$ en vertu du cor. 1.
 
-#### Remarque {#top-ix-s6-n3-rem-1 .statement}
+#### Remarque {#top-ix-s6-n3-rem-1 .statement tag=0C8U}
 
 Soint $Y$ un espace topologique, $X$ un sous-espace de $Y$; alors la tribu borélienne de $X$ est l’ensemble des parties de la forme $B \cap X$, où $B$ parcourt la tribu borélienne de $Y$. En effet, ces ensembles forment une tribu $\mathscr{L}$, à laquelle appartiennent les ouverts de $X$, donc $\mathscr{L}$ contient la tribu borélienne de $X$. Inversement, comme l’injection canonique $j : X \to Y$ est continue, pour tout ensemble borélien $B$ de $Y$, $j^{-1}(B) = B \cap X$ est un ensemble borélien dans $X$ (cor. 1 de la prop. 9), donc $\mathscr{L}$ est la tribu borélienne de $X$.
 
-#### Proposition 10 {#top-ix-s6-prop-10 .statement}
+#### Proposition 10 {#top-ix-s6-prop-10 .statement tag=0C8R}
 
 Dans un espace souslinien $X$, tout ensemble borélien est souslinien.
 
 En effet, soit $\mathscr{L}$ l’ensemble des parties $A$ de $X$ telles que $A$ et $\complement A$ soient sousliniens; la prop. 8 (IX, p. 60) montre que $\mathscr{L}$ est une tribu. Toute partie fermée $F$ de $X$ appartient à $\mathscr{L}$, car $F$ et $\complement F$ sont sousliniens (IX, p. 59, prop. 5); donc $\mathscr{L}$ contient tous les ensembles boréliens de $X$ (cf. IX, p. 66, corollaire 1).
 
-#### Corollaire {#top-ix-s6-n3-cor-1 .statement}
+#### Corollaire {#top-ix-s6-n3-cor-1 .statement tag=0C8T}
 
 Soit $f$ une application continue d’un espace souslinien $X$ dans un espace séparé $Y$. Pour tout sous-ensemble borélien $B$ de $X$, $f(B)$ est souslinien.
 
 En effet, $B$ est souslinien, donc $f(B)$ est souslinien, d’après la Remarque de IX, p. 59.
 
-#### Remarque {#top-ix-s6-n3-rem-2 .statement}
+#### Remarque {#top-ix-s6-n3-rem-2 .statement tag=0C8V}
 
 --- 2) Même lorsque X et Y sont polonais, il n’est pas vrai, en général, que l’image d’un ensemble borélien de X par une application continue de X dans Y soit un ensemble borélien de Y (cf. IX, p. 120, exerc. 8, et IX, p. 68, prop. 14).
 
 ### 4. Espaces éparpillés et espaces lusiniens
 
-#### Définition 6 {#top-ix-s6-def-6 .statement}
+#### Définition 6 {#top-ix-s6-def-6 .statement tag=0C8X}
 
 On dit qu’un espace topologique est éparpillé s’il est séparé et si tout point possède un système fondamental de voisinages à la fois ouverts et fermés.
 
@@ -242,13 +242,13 @@ Inversement, un espace localement compact totalement discontinu est éparpillé 
 
 Tout sous-espace d’un espace éparpillé est éparpillé ; tout produit (resp. toute somme) d’espaces éparpillés est un espace éparpillé.
 
-#### Définition 7 {#top-ix-s6-def-7 .statement}
+#### Définition 7 {#top-ix-s6-def-7 .statement tag=0C90}
 
 On dit qu’un espace topologique X est un espace de Lusin, ou un espace lusinien, s’il est séparé et s’il existe un espace polonais éparpillé P et une application continue bijective de P sur E.
 
 Il est clair que tout espace lusinien est souslinien.
 
-#### Proposition 11 {#top-ix-s6-prop-11 .statement}
+#### Proposition 11 {#top-ix-s6-prop-11 .statement tag=0C8S}
 
 Pour qu’un espace soit lusinien, il faut et il suffit qu’il existe un espace polonais P et une bijection continue de P sur X.
 
@@ -258,7 +258,7 @@ Notons en premier lieu que si X est un espace lusinien, tout sous-espace fermé 
 
 Tout produit dénombrable d’espaces lusiniens est lusinien : cela résulte de la prop. 1 de IX, p. 57 et du fait que tout produit d’espaces éparpillés est éparpillé. Toute intersection dénombrable de sous-espaces lusiniens d’un espace topologique séparé est un sous-espace lusinien : cela résulte aussitôt des remarques précédentes et du lemme 1 de IX, p. 58. En outre :
 
-#### Lemme 2 {#top-ix-s6-lem-2 .statement}
+#### Lemme 2 {#top-ix-s6-lem-2 .statement tag=0C8Z}
 
 Si un espace séparé X est tel qu’il existe une partition dénombrable (A_n) de X formée de sous-espaces lusiniens, alors X est lusinien.
 
@@ -270,7 +270,7 @@ Cela étant, montrons tout d’abord que l’intervalle $I = [0, 1]$ de $\overli
 
 Soit enfin $P$ un espace polonais quelconque; d’après le cor. 1 de IX, p. 58, $P$ est homéomorphe à un sous-espace du cube $I^\mathbf{N}$, intersection dénombrable d’ensembles ouverts de $I^\mathbf{N}$; la proposition résulte donc du fait que $I$ est lusinien et des remarques faites au début de la démonstration.
 
-#### Corollaire {#top-ix-s6-n4-cor-1 .statement}
+#### Corollaire {#top-ix-s6-n4-cor-1 .statement tag=0ECO}
 
 *Toute limite projective dénombrable* (I, p. 28) *d’espaces lusiniens est un espace lusinien*.
 
@@ -280,7 +280,7 @@ En effet, une limite projective dénombrable d’espaces séparés est un sous-e
 
 ### 5. Cribles
 
-#### Définition 8 {#top-ix-s6-def-8 .statement}
+#### Définition 8 {#top-ix-s6-def-8 .statement tag=0C9D}
 
 *On appelle crible une suite* $C = (C_n, p_n)_{n \geq 0}$ *telle que, pour tout* $n$, $C_n$ *soit un ensemble dénombrable et* $p_n$ *une surjection de* $C_{n+1}$ *sur* $C_n$.
 
@@ -293,7 +293,7 @@ b) pour tout $n$ et tout $c \in C_n$, $\varphi_n(c)$ soit la réunion des $\varp
 
 On dit qu’un criblage est strict si en outre, pour tout n, les ensembles $\varphi_n(c)$ où c parcourt $C_n$, sont deux à deux disjoints. Ces ensembles sont alors à la fois ouverts et fermés dans X.
 
-#### Lemme 3 {#top-ix-s6-lem-3 .statement}
+#### Lemme 3 {#top-ix-s6-lem-3 .statement tag=0C91}
 
 Tout espace métrique de type dénombrable X possède un criblage. Si de plus X est éparpillé, X possède un criblage strict.
 
@@ -303,7 +303,7 @@ Soit alors X un espace métrique de type dénombrable. Soit $C_0$ l’ensemble d
 
 Supposons maintenant que X soit un espace métrique complet de type dénombrable, et considérons un criblage de X par un crible C et des applications $\varphi_n$. Si $\gamma = (c_n)$ est un point de l’espace $L(C)$ associé à C, la suite $(\varphi_n(c_n))$ est une suite décroissante d’ensembles ouverts dans X, dont chacun contient l’adhérence du suivant dans X, et dont le diamètre tend vers 0 ; l’intersection de cette suite d’ensembles est donc réduite à un point (II, p. 15), qu’on notera $f(\gamma)$. On a ainsi défini une application $f$ de $L(C)$ dans X ; si deux points $\gamma, \gamma'$ de $L(C)$ ont mêmes coordonnées d’indice i pour $i \leq n$, il est clair que la distance de $f(\gamma)$ et de $f(\gamma')$ est $\leq 2^{-n}$, donc $f$ est continue en vertu de la définition de la topologie de $L(C)$. Pour tout $x \in X$, il résulte de la définition d’un criblage qu’on peut définir par récurrence sur $n$ une suite $\gamma = (c_n)$ telle que $x \in \varphi_n(c_n)$ pour tout $n \geq 0$ et $c_n = p_n(c_{n+1})$; on a par suite $x = f(\gamma)$, autrement dit $f$ est surjective. En outre, si le criblage est strict, la suite $\gamma = (c_n)$ telle que $x = f(\gamma)$ est unique, donc $f$ est bijective. On dira que $f$ est l’application déduite du criblage considéré.
 
-#### Proposition 12 {#top-ix-s6-prop-12 .statement}
+#### Proposition 12 {#top-ix-s6-prop-12 .statement tag=0C8Y}
 
 Pour tout espace lusinien (resp. souslinien) $X$, il existe un crible $C$ et une bijection (resp. surjection) continue de $L(C)$ sur $X$.
 
@@ -311,19 +311,19 @@ Compte tenu de la définition d’un espace lusinien (IX, p. 62, déf. 7) (resp.
 
 ### 6. Séparation des ensembles sousliniens
 
-#### Théorème 2 {#top-ix-s6-thm-2 .statement}
+#### Théorème 2 {#top-ix-s6-thm-2 .statement tag=0C93}
 
 Soit $X$ un espace séparé. Étant donnée une suite $(X_n)$ de sous-espaces sousliniens de $X$, deux à deux disjoints, il existe une suite $(B_n)$ d’ensembles boréliens de $X$, deux à deux disjoints, tels que $X_n \subset B_n$ pour tout $n$.
 
 Nous établirons d’abord deux lemmes:
 
-#### Lemme 4 {#top-ix-s6-lem-4 .statement}
+#### Lemme 4 {#top-ix-s6-lem-4 .statement tag=0C94}
 
 Soient $(A_n), (A'_m)$ deux suites de parties d’un espace topologique $X$. Supposons que, pour tout couple $(A_n, A'_m)$, il existe un ensemble borélien $B_{nm}$ de $X$ tel que $B_{nm} \supset A_n$ et $B_{nm} \cap A'_m = \emptyset$. Alors il existe un ensemble borélien $B$ de $X$, qui contient $\bigcup_n A_n$ et ne rencontre pas $\bigcup_m A'_m$.
 
 En effet, l’ensemble $B = \bigcup_n \left( \bigcap_m B_{nm} \right)$ répond à la question.
 
-#### Lemme 5 {#top-ix-s6-lem-5 .statement}
+#### Lemme 5 {#top-ix-s6-lem-5 .statement tag=0C95}
 
 Soient $X$ un espace séparé, $A, A'$ deux sous-espaces sousliniens de $X$ sans point commun. Il existe alors un ensemble borélien $B$ de $X$ tel que $B \supset A$ et $B \cap A' = \emptyset$.
 
@@ -333,11 +333,11 @@ Cela étant, on va raisonner par l’absurde, en supposant que tout ensemble bor
 
 Ces lemmes étant démontrés, pour tout entier $n$, désignons par $F_n$ la réunion des ensembles $X_i$ tels que $i \neq n$; $F_n$ est un sous-espace souslinien (IX, p. 60, prop. 8). Pour chaque indice $n$, il existe, en vertu du lemme 5, un ensemble borélien $B'_n$ qui contient $X_n$ et ne rencontre pas $F_n$. Soit $B_n$ l’intersection de $B'_n$ et de $\bigcap_{i < n} (X - B')$. Les $B_n$ sont boréliens, deux à deux disjoints, et l’on a $B_n \supset X_n$ pour tout $n$, ce qui achève la démonstration du th. 2.
 
-#### Corollaire 1 {#top-ix-s6-lem-5-cor-1 .statement}
+#### Corollaire 1 {#top-ix-s6-lem-5-cor-1 .statement tag=0ECP}
 
 Si une partition dénombrable d’un espace séparé est formée d’ensembles sousliniens, ces ensembles sont boréliens. En particulier, dans un espace séparé, tout ensemble souslinien dont le complémentaire est souslinien est un ensemble borélien.
 
-#### Corollaire 2 {#top-ix-s6-lem-5-cor-2 .statement}
+#### Corollaire 2 {#top-ix-s6-lem-5-cor-2 .statement tag=0ECQ}
 
 Soient $E$ et $F$ deux espaces sousliniens et $f : E \to F$ une application continue surjective. Pour qu’un sous-ensemble $B$ de $F$ soit borélien, il faut et il suffit que $f^{-1}(B)$ soit borélien dans $E$.
 
@@ -345,13 +345,13 @@ Le cor. 1 de la prop. 9 montre que la condition est nécessaire. D’autre part,
 
 ### 7. Espaces lusiniens et ensembles boréliens
 
-#### Théorème 3 {#top-ix-s6-thm-3 .statement}
+#### Théorème 3 {#top-ix-s6-thm-3 .statement tag=0C97}
 
 Soit $X$ un espace lusinien régulier. Pour qu’un sous-espace de $X$ soit lusinien, il faut et il suffit qu’il soit borélien dans $X$.
 
 Cela va résulter des deux lemmes suivants:
 
-#### Lemme 6 {#top-ix-s6-lem-6 .statement}
+#### Lemme 6 {#top-ix-s6-lem-6 .statement tag=0C98}
 
 Dans un espace lusinien $X$, tout ensemble borélien est un sous-espace lusinien de $X$.
 
@@ -359,7 +359,7 @@ Dans un espace lusinien $X$, tout ensemble borélien est un sous-espace lusinien
 
 Soit $\mathfrak{S}$ l’ensemble des parties $A$ de $X$ telles que les sous-espaces $A$ et $\complement A$ soient lusiniens. Tout ensemble fermé et tout ensemble ouvert dans $X$ étant un sous-espace lusinien (IX, p. 62), $\mathfrak{S}$ contient tous les ensembles fermés de $X$. Le lemme sera donc établi si on prouve que $\mathfrak{L}$ est une tribu. Il suffit pour cela de montrer que si $(A_n)$ est une suite d’ensembles de $\mathfrak{L}$, les sous-espaces $\bigcap_n A_n$ et $\bigcup_n A_n$ sont lusiniens. Or, on a vu (IX, p. 62) que toute intersection dénombrable de sous-espaces lusiniens est un sous-espace lusinien. D’autre part, si $B_n$ est l’intersection de $A_n$ et de $\bigcap_{i < n} CA_i$, il résulte de l’hypothèse et de la remarque précédente que $B_n$ est un sous-espace lusinien; comme on a $\bigcup_n A_n = \bigcup_n B_n$, le sous-espace $\bigcup_n A_n$ est lusinien en vertu du lemme 2 (IX, p. 62).
 
-#### Lemme 7 {#top-ix-s6-lem-7 .statement}
+#### Lemme 7 {#top-ix-s6-lem-7 .statement tag=0C99}
 
 *Tout sous-espace lusinien $A$ d’un espace régulier $X$ est un ensemble borélien dans $X$.*
 
@@ -379,13 +379,13 @@ Comme $q_i(c_i) \supset q_n(c)$ pour $0 \leq i \leq n-1$, $h_n(c)$ contient $g_n
 
 Soit $x$ un point de $B$; pour chaque entier $n$, il existe un $c \in C_n$ et un seul tel que $x \in h_n(c)$: notons-le $c_n(x)$; alors la suite $(c_n(x))_{n \geq 0}$ appartient à $L(C)$. La suite décroissante $(g_n(c_n(x)))$ converge par définition vers un point $a \in A$; la suite des adhérences de ces ensembles converge aussi vers $a$ dans $X$, puisque $X$ est *régulier*, et il en est de même *a fortiori* de la suite $(h_n(c_n(x)))$. Or, $x$ appartient à tous les ensembles $h_n(c_n(x))$, donc $x = a \in A$ et le théorème est démontré.
 
-#### Corollaire {#top-ix-s6-n7-cor-1 .statement}
+#### Corollaire {#top-ix-s6-n7-cor-1 .statement tag=0C9A}
 
 Soit $(A_n)$ une suite de sous-espaces lusiniens d’un espace topologique séparé E. La réunion des $A_n$ est un sous-espace lusinien de E.
 
 Pour $i < n$, posons $A_{n,i} = A_n \cap A_i$; c’est un sous-espace lusinien, donc borélien, de $A_n$. Par suite, l’intersection $B_n$ des $A_n - A_{n,i}$ ($i < n$) est un sous-ensemble borélien de $A_n$, donc lusinien. Comme les $B_n$ sont deux à deux disjoints, et que leur réunion est égale à celle des $A_n$, cette dernière est un espace lusinien d’après le lemme 2 de IX, p. 62.
 
-#### Proposition 13 {#top-ix-s6-prop-13 .statement}
+#### Proposition 13 {#top-ix-s6-prop-13 .statement tag=0C92}
 
 Soit $(X_n)_{n \in \mathbf{N}}$ une suite d’espaces lusiniens réguliers, $X = \prod_n X_n$ leur produit. Alors la tribu borélienne sur $X$ est engendrée par les ensembles de la forme $\prod_n A_n$, où $A_n$ est borélien dans $X_n$ pour tout $n$.
 
@@ -397,13 +397,13 @@ $$
 
 des ensembles de $\mathfrak{B}$. Mais comme tout $B_n \in \mathfrak{B}_n$ est un espace polonais (IX, p. 57, prop. 2), $f_n(B_n)$ est lusinien (IX, p. 62, prop. 11), donc borélien en vertu du th. 3 (IX, p. 66), ce qui achève la démonstration.
 
-#### Corollaire {#top-ix-s6-n7-cor-2 .statement}
+#### Corollaire {#top-ix-s6-n7-cor-2 .statement tag=0ECR}
 
 Soient Y un espace topologique, $(X_n)_{n \in \mathbf{N}}$ une suite d’espaces lusiniens réguliers, et pour tout $n$, soit $f_n : Y \to X_n$ une application borélienne. Alors l’application $f = (f_n) : Y \to \prod_n X_n$ est borélienne.
 
 Avec les notations de la prop. 13, il suffit de montrer que pour toute famille $(A_n)$, où $A_n$ est borélien dans $X_n$, $f^{-1}\left(\prod_n A_n\right) = \bigcap_n f_n^{-1}(A_n)$ est borélien dans Y, ce qui résulte de l’hypothèse.
 
-#### Proposition 14 {#top-ix-s6-prop-14 .statement}
+#### Proposition 14 {#top-ix-s6-prop-14 .statement tag=0C9G}
 
 Soient X, Y des espaces lusiniens, Y étant de plus supposé régulier. Si f est une application borélienne injective de X dans Y, alors, pour tout ensemble borélien A dans X, $f(A)$ est un ensemble borélien dans Y.
 
@@ -411,13 +411,13 @@ Le sous-espace A de X est lusinien (IX, p. 66, lemme 6); d’autre part, l’inj
 
 ### 8. Le théorème du graphe souslinien
 
-#### Théorème 4 {#top-ix-s6-thm-4 .statement}
+#### Théorème 4 {#top-ix-s6-thm-4 .statement tag=0C9B}
 
 Soient G et H deux groupes topologiques séparés et u un homomorphisme de groupes de G dans H. On suppose que G est un espace de Baire et que le graphe $\Gamma$ de u est un sous-espace souslinien de $G \times H$. Alors u est continu.
 
 Nous démontrerons d’abord deux lemmes. Disons qu’une partie X d’un espace topologique E est approchable s’il existe un ouvert U de E tel $U \cap \mathscr{C}X$ et $X \cap \mathscr{C}U$ soient maigres dans E (cf. IX, p. 112, exerc. 6).
 
-#### Lemme 8 {#top-ix-s6-lem-8 .statement}
+#### Lemme 8 {#top-ix-s6-lem-8 .statement tag=0ECS}
 
 Toute partie borélienne d’un espace topologique E est approchable.
 
@@ -431,11 +431,11 @@ $$
 $$
 sont maigres. Par suite, $\mathscr{C}X \in \mathfrak{E}$ et $\mathfrak{E}$ est bien une tribu.
 
-#### Remarque {#top-ix-s6-n8-rem-1 .statement}
+#### Remarque {#top-ix-s6-n8-rem-1 .statement tag=0C9C}
 
 On peut montrer que toute partie souslinienne d’un espace séparé E est approchable (exerc. 14).
 
-#### Lemme 9 {#top-ix-s6-lem-9 .statement}
+#### Lemme 9 {#top-ix-s6-lem-9 .statement tag=0ECT}
 
 Soit G un groupe topologique et soit B une partie borélienne non maigre de G. Si G est un espace de Baire, $BB^{-1}$ est un voisinage de e.
 
@@ -455,7 +455,7 @@ Soit maintenant V un voisinage de e dans H, et soit W un voisinage ouvert de e t
 
 ### 9. Sections boréliennes
 
-#### Théorème 5 {#top-ix-s6-thm-5 .statement}
+#### Théorème 5 {#top-ix-s6-thm-5 .statement tag=0C9H}
 
 Soient X un espace polonais, R une relation d’équivalence dans X; supposons que les classes d’équivalence suivant R soient fermées dans X, et que le saturé pour R de tout ensemble ouvert soit borélien. Alors il existe un ensemble borélien dans X qui rencontre chaque classe d’équivalence suivant R en un point et un seul.
 
@@ -485,29 +485,29 @@ et comme par définition $\varphi_{n+1}(c) \cap H$ ne rencontre aucun des ensemb
 
 Pour tout entier $n$, soit alors $S_n$ la réunion des ensembles $h_n(c)$, où $c$ parcourt $C_n$; l’ensemble $S_n$ est borélien, et on a $S_{n+1} \subset S_n$. Soit $S$ l’intersection des $S_n$, qui est un ensemble borélien dans $X$; on va voir que $S$ rencontre en un point et un seul toute classe d’équivalence $H$ suivant $R$. En effet, pour tout $n$, soit $c_n(H)$ l’unique élément $c \in C_n$ tel que $h_n(c)$ rencontre $H$; alors $S_n \cap H = \varphi_n(c_n(H)) \cap H$, et $S \cap H$ est l’intersection des $\varphi_n(c_n(H)) \cap H$. Comme la suite $(c_n(H))$ appartient à $L(C)$, chacun des ensembles $\varphi_n(c_n(H))$ contient l’adhérence dans $X$ de $\varphi_{n+1}(c_{n+1}(H))$ et le diamètre de $\varphi_n(c_n(H))$ tend vers 0, donc chacun des ensembles $\varphi_n(c_n(H)) \cap H$ contient l’adhérence dans $H$ de $\varphi_{n+1}(c_{n+1}(H)) \cap H$, et son diamètre tend vers 0; comme $H$ est fermé dans l’espace complet $X$, l’intersection des $\varphi_n(c_n(H)) \cap H$ est réduite à un point, ce qui achève de prouver le théorème.
 
-#### Corollaire 1 {#top-ix-s6-thm-5-cor-1 .statement}
+#### Corollaire 1 {#top-ix-s6-thm-5-cor-1 .statement tag=0ECU}
 
 *La conclusion du th. 5 est encore valable lorsque le saturé pour R de tout ensemble fermé est borélien.*
 
 En effet, comme un ensemble ouvert U de X est réunion dénombrable d’ensembles fermés F_n (IX, p. 16, prop. 7), le saturé de U est réunion des saturés des F_n, donc est borélien, et on peut appliquer le th. 5.
 
-#### Corollaire 2 {#top-ix-s6-thm-5-cor-2 .statement}
+#### Corollaire 2 {#top-ix-s6-thm-5-cor-2 .statement tag=0ECV}
 
 Soit G un groupe topologique dont l’espace sous-jacent est polonais. Pour tout sous-groupe fermé H de G, il existe un ensemble borélien dans G qui rencontre toute classe à gauche xH dans G en un point et un seul.
 
 En effet, la relation d’équivalence $x^{-1}y \in H$ est ouverte et séparée dans G (III, p. 10 et 12).
 
-#### Remarque 1 {#top-ix-s6-n9-rem-1 .statement}
+#### Remarque 1 {#top-ix-s6-n9-rem-1 .statement tag=0C9J}
 
 Dans l’énoncé du th. 5, on peut remplacer la tribu borélienne par une tribu quelconque contenant les ensembles ouverts de X; la démonstration est inchangée.
 
-#### Remarque 2 {#top-ix-s6-n9-rem-2 .statement}
+#### Remarque 2 {#top-ix-s6-n9-rem-2 .statement tag=0ECW}
 
 Lorsque X est un espace compact métrisable, le cor. 1 du th. 5 s’applique à toute relation d’équivalence séparée R dans X, puisqu’on sait qu’une telle relation est fermée (I, p. 63, corollaire 2).
 
 ### 10. Capacitabilité des ensembles sousliniens
 
-#### Définition 9 {#top-ix-s6-def-9 .statement}
+#### Définition 9 {#top-ix-s6-def-9 .statement tag=0C9F}
 
 Soit X un espace topologique séparé. On appelle capacité sur X une application f de l’ensemble des parties $\mathfrak{P}(X)$ dans la droite numérique achevée $\overline{\mathbf{R}}$, qui satisfait aux conditions suivantes:
 
@@ -518,11 +518,11 @@ Soit X un espace topologique séparé. On appelle capacité sur X une applicatio
 On dit qu’une capacité f est continue à droite si elle vérifie la condition:
 (CA_{III}) Pour toute partie compacte K de X et tout nombre $a > f(K)$, il existe un ensemble ouvert U contenant K et tel que $f(U) < a$.
 
-#### Exemple {#top-ix-s6-n10-exa-1 .statement}
+#### Exemple {#top-ix-s6-n10-exa-1 .statement tag=0ECX}
 
 *Soit $\mu$ une mesure positive sur un espace séparé X; la mesure extérieure $\mu^*$ et la mesure extérieure essentielle $\mu^*$ sont alors des capacités continues à droite sur X (voir INT, IX, § 1, n° 2 et n° 9, prop. 12, 13). On démontre que dans un espace $\mathbf{R}^n (n \geq 3)$, la « capacité extérieure newtonienne » est une capacité continue à droite au sens de la déf. 9.*¹
 
-#### Remarque {#top-ix-s6-n10-rem-1 .statement}
+#### Remarque {#top-ix-s6-n10-rem-1 .statement tag=0ECY}
 
 Soit f une capacité continue à droite sur X, et soit $(K_n)$ une suite décroissante de parties compactes de X; si $K = \bigcap_n K_n$, tout ouvert U contenant K contient les $K_n$ à partir d’un certain rang (I, p. 60, th. 1 appliqué à l’espace $K_1$). Il résulte alors aussitôt de (CA_I) et (CA_{III}) que l’on a
 $$
@@ -531,13 +531,13 @@ $$
 
 ¹ Voir M. Brelot, Éléments de la théorie classique du potentiel, Centre de Documentation Universitaire, Paris, 1969, 4e édition.
 
-#### Définition 10 {#top-ix-s6-def-10 .statement}
+#### Définition 10 {#top-ix-s6-def-10 .statement tag=0ECZ}
 
 Soit $f$ une capacité sur $X$; on dit qu’une partie $A$ de $X$ est capacitable (pour $f$) si $f(A) = \sup_K f(K)$, où $K$ parcourt l’ensemble des parties compactes de $A$.
 
 *Par exemple, si $\mu$ est une mesure sur $X$, et si $f$ est la mesure extérieure essentielle $\mu^*$, tout ensemble $\mu$-mesurable est capacitable (INT, IX, § 1).*
 
-#### Théorème 6 {#top-ix-s6-thm-6 .statement}
+#### Théorème 6 {#top-ix-s6-thm-6 .statement tag=0ED0}
 
 Soient $X$ un espace séparé, $f$ une capacité continue à droite sur $X$. Tout sous-espace souslinien $Y$ de $X$ est alors capacitable pour $f$.
 
@@ -565,7 +565,7 @@ Posons $T = \bigcap_n T_n$; l’ensemble compact $T$ est contenu dans $\bigcap_n
 
 C.Q.F.D.
 
-#### Proposition 15 {#top-ix-s6-prop-15 .statement}
+#### Proposition 15 {#top-ix-s6-prop-15 .statement tag=0C9I}
 
 Soient $X$ un espace séparé, $f$ une capacité sur $X$ (non nécessairement continue à droite), $Y$ un sous-espace souslinien de $X$. Alors $Y$ est capacitable pour $f$ lorsque l’une des hypothèses suivantes est vérifiée:
 

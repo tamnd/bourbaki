@@ -24,9 +24,9 @@ subsections:
       pdf_page: 28
 statements: 1
 exercises: 2
-content_sha256: 74581eab25a52f7444a99f7dd42fbbfaa2961b54b9643ab621562bc00fe266c2
+content_sha256: 88d7fd0c06be7ff1457212d8f2e30923c8c9c202e4b3945f60440e031b1c8336
 translated_from: content/en/top/V/04_s4_exponentials_and_logarithms.md
-source_content_sha256: 253a1c01cd6f9c44097f66ce6edc145a7650e56bfa06ec21ab22bc689a764fbb
+source_content_sha256: 55a9b7eecb6aa809fbac52ae103f840e9203fcdc0fe64340d7af904b5c851e60
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-04d8dc68
 glossary_version: 34
@@ -38,7 +38,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA CỦA $a^x$ VÀ $\log_a x$
 
-#### Định lý 1 {#top-v-s4-thm-1 .statement}
+#### Định lý 1 {#top-v-s4-thm-1 .statement tag=0BW0}
 
 *Nhóm nhân* $\mathbf{R}_+^*$ *của các số thực* $> 0$ *là một nhóm tôpô đẳng cấu với nhóm cộng* $\mathbf{R}$ *của các số thực*.
 

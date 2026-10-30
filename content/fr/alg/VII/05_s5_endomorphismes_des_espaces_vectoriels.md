@@ -49,7 +49,7 @@ subsections:
       pdf_page: 375
 statements: 66
 exercises: 14
-content_sha256: afafa9b7b4655ef32bab0a03356e58c950c7bbe3f0518d735de9b0a047ab4b50
+content_sha256: 3d306d2f3efa443416db566696eb2c87167813e6bb6b1da9fc706f555c1632d9
 ---
 
 ## § 5. ENDOMORPHISMES DES ESPACES VECTORIELS
@@ -113,7 +113,7 @@ $$
 
 ### 2. Valeurs propres et vecteurs propres
 
-#### Définition 1 {#alg-vii-s5-def-1 .statement}
+#### Définition 1 {#alg-vii-s5-def-1 .statement tag=075G}
 
 Soient $E$ un espace vectoriel sur un corps commutatif $K$, $u$ un endomorphisme de $E$. On dit qu’un élément $x$ de $E$ est un vecteur propre de $u$ s’il existe $\alpha \in K$ tel que $u.x = \alpha x$; si $x \neq 0$, le scalaire $\alpha$ est appelé valeur propre de $u$ correspondant à $x$. Pour tout scalaire $\alpha$, le sous-espace vectoriel $V_\alpha$ formé des $x \in E$ tels que $u.x = \alpha x$ est appelé le sous-espace propre de $E$ relatif à $\alpha$.
 
@@ -121,7 +121,7 @@ La multiplicité géométrique de la valeur propre $\alpha$ est le cardinal $\di
 
 Supposons $E$ de dimension finie. Les valeurs propres de $u$ sont les éléments $\alpha$ de $K$ tels que l’endomorphisme $\alpha.1 - u$ de $E$ ne soit pas injectif, c’est-à-dire (III, p. 91, prop. 3) tels que det(\alpha .1 - u) = 0. Mais, d’après la définition du polynôme caractéristique $\chi_u$ de $u$ (III, p. 107, déf. 3), on a det(\alpha .1 - u) = $\chi_u(\alpha)$. Par conséquent :
 
-#### Proposition 1 {#alg-vii-s5-prop-1 .statement}
+#### Proposition 1 {#alg-vii-s5-prop-1 .statement tag=075H}
 
 *Supposons E de dimension finie. Pour qu’un élément $\alpha \in \mathbf{K}$ soit valeur propre de l’endomorphisme $u$, il faut et il suffit qu’il soit racine du polynôme caractéristique de $u$.*
 
@@ -137,7 +137,7 @@ les *valeurs propres* de $U$ (dans une extension L de K) sont les racines (dans 
 
 Si $U$ est la matrice d’un endomorphisme $u$ d’un espace vectoriel de dimension $n$ par rapport à une base B, on a $\chi_U = \chi_u$, les valeurs propres de $U$ sont les valeurs propres de $u$, et les vecteurs propres de $U$ sont les matrices des vecteurs propres de $u$ par rapport à la base B.
 
-#### Proposition 2 {#alg-vii-s5-prop-2 .statement}
+#### Proposition 2 {#alg-vii-s5-prop-2 .statement tag=075I}
 
 *Soit u un endomorphisme d’un espace vectoriel E sur un corps commutatif K ; pour chaque scalaire $\alpha$, soit $V_\alpha$ le sous-espace propre relatif à $\alpha$. Les sous-espaces $V_\alpha$ sont stables pour u et la somme des sous-espaces $V_\alpha$ est directe.*
 
@@ -147,11 +147,11 @@ La première assertion est claire. Par définition, le sous-espace $V_\alpha$ es
 
 Si l’on traduit la décomposition d’un module de torsion de type fini qui fait l’objet de VII, p. 8, th. 1 et p. 9, prop. 2, on obtient :
 
-#### Proposition 3 {#alg-vii-s5-prop-3 .statement}
+#### Proposition 3 {#alg-vii-s5-prop-3 .statement tag=075J}
 
 *Soient E un espace vectoriel de dimension finie n sur un corps commutatif K, et u un endomorphisme de E ; pour tout polynôme unitaire irréductible $p(X)$, soit $M_p$ le sous-espace vectoriel formé des éléments x de E tels qu’il existe un entier k pour lequel $(p(u))^k . x = 0$. Alors $M_p$ est stable pour u, E est somme directe des $M_p$, et il existe des polynômes $s_p$ tels que, pour tout $x \in E$, le composant de $x$ dans $M_p$ soit égal à $s_p(u).x$.
 
-#### Remarque 1 {#alg-vii-s5-n3-rem-1 .statement}
+#### Remarque 1 {#alg-vii-s5-n3-rem-1 .statement tag=075K}
 
 Il est clair que le polynôme minimal de la restriction de $u$ à $M_p$ est la plus grande puissance de $p$ qui divise le polynôme minimal de $u$. Par ailleurs, on a $s_p(u).x = x$ pour $x \in M_p$, d’où il résulte aussitôt que, si $M_p \neq 0$, $s_p$ est étranger à $p$.
 
@@ -170,11 +170,11 @@ Il est clair que la connaissance des polynômes $q_i$ est équivalente à celle 
 
 En d’autres termes :
 
-#### Proposition 4 {#alg-vii-s5-prop-4 .statement}
+#### Proposition 4 {#alg-vii-s5-prop-4 .statement tag=075L}
 
 Soient $E$ un espace vectoriel de dimension finie $n$ sur un corps commutatif $K$, et $u$ un endomorphisme de $E$. Il existe $n$ polynômes unitaires $q_i(X) \in K[X]$ ($1 \leq i \leq n$) tels que $q_i$ divise $q_{i+1}$ pour $1 \leq i \leq n - 1$, et que $E$ soit somme directe de $n$ sous-espaces $V_i$ ($1 \leq i \leq n$) stables pour $u$, monogènes (pour $u$) et tels que le polynôme minimal de la restriction de $u$ à $V_i$ soit égal à $q_i$ ($1 \leq i \leq n$). Les polynômes $q_i$ sont déterminés de façon unique par ces conditions, et $q_n$ est le polynôme minimal $q$ de $u$.
 
-#### Remarque 2 {#alg-vii-s5-n3-rem-2 .statement}
+#### Remarque 2 {#alg-vii-s5-n3-rem-2 .statement tag=075M}
 
 En vertu de la proposition précédente, il existe une base de $E$ par rapport à laquelle la matrice $U$ de $u$ est de la forme
 
@@ -190,19 +190,19 @@ $$
 
 chaque matrice $A_i$ étant de la forme (2) (où l’on prend $g(X) = q_i(X)$) (cf. VII, p. 29).
 
-#### Définition 2 {#alg-vii-s5-def-2 .statement}
+#### Définition 2 {#alg-vii-s5-def-2 .statement tag=075N}
 
 Les notations étant celles de la prop. 4, les $n$ polynômes unitaires $q_i(X)$ ($1 \leq i \leq n$) sont appelés les invariants de similitude de l’endomorphisme $u$.
 
 Le n-ième invariant de similitude $q_n$ est donc le polynôme minimal de $u$ (prop. 4); autrement dit, pour qu’un polynôme $p(X) \in K[X]$ soit tel que $p(u) = 0$, il faut et il suffit que $p$ soit multiple de $q_n$.
 
-#### Corollaire 1 {#alg-vii-s5-def-2-cor-1 .statement}
+#### Corollaire 1 {#alg-vii-s5-def-2-cor-1 .statement tag=075O}
 
 Soient $K$ un corps commutatif, $E$ et $E'$ deux espaces vectoriels de dimension finie sur $K$, $u$ (resp. $u'$) un endomorphisme de $E$ (resp. $E'$). Pour que $u$ et $u'$ soient semblables (VII, p. 28), il faut et il suffit qu’ils aient mêmes invariants de similitude.
 
 En effet, $u$ et $u'$ sont semblables si et seulement si les $K[X]$-modules $E_u$ et $E_{u'}$ sont isomorphes.
 
-#### Corollaire 2 {#alg-vii-s5-def-2-cor-2 .statement}
+#### Corollaire 2 {#alg-vii-s5-def-2-cor-2 .statement tag=075P}
 
 Soient $u$ un endomorphisme d’un espace vectoriel $E$ de dimension finie sur un corps commutatif $K$, $(q_1, \ldots, q_n)$ la famille des invariants de similitude de $u$, $L$ une extension de $K$, $E_{(L)} = L \otimes_K E$ le $L$-espace vectoriel déduit de $E$ par extension des scalaires et $u_{(L)} = 1_L \otimes u$ l’endomorphisme de $E_{(L)}$ déduit de $u$. Les invariants de similitude de $u_{(L)}$ sont les images $\overline{q}_1, \ldots, \overline{q}_n$ de $q_1, \ldots, q_n$ dans $L[X]$.
 
@@ -210,13 +210,13 @@ Cela résulte directement de la proposition 4 et du fait que les $L[X]$-modules 
 
 Soit $U$ une matrice carrée d’ordre $n$ à coefficients dans un corps commutatif $K$. On appelle invariants de similitude de la matrice $U$ les invariants de similitude de l’endomorphisme de $K^n$ défini par $u$. Il résulte alors du cor. 1 précédent que deux matrices carrées sont semblables si et seulement si elles ont mêmes invariants de similitude, et que, si $u$ est un endomorphisme d’un espace vectoriel de dimension finie sur $K$, et $U$ la matrice de $u$ relativement à une base $B$ de $E$, les invariants de similitude de $u$ et $U$ coïncident. D’après les cor. 1 et 2 ci-dessus, on a :
 
-#### Corollaire 3 {#alg-vii-s5-def-2-cor-3 .statement}
+#### Corollaire 3 {#alg-vii-s5-def-2-cor-3 .statement tag=075Q}
 
 Soient $U$ et $V$ deux matrices carrées d’ordre $n$ dont les éléments appartiennent à un corps commutatif $K$. S’il existe une matrice carrée inversible $P$, dont les éléments appartiennent à une extension $K'$ de $K$, et telle que $V = PUP^{-1}$, alors il existe une matrice carrée inversible $Q$, dont les éléments appartiennent à $K$, et telle que $V = QUQ^{-1}$.
 
 Soient $E$ un espace vectoriel de dimension finie sur un corps commutatif $K$, $(e_i)_{1 \leq i \leq n}$ une base de $E$ et $u$ un endomorphisme de $E$. D’après la suite exacte (1) de VII, p. 28, le $K[X]$-module $E_u$ associé à $u$ est isomorphe au quotient du $K[X]$-module libre $E[X]$, de base $(1 \otimes e_i)$, par le sous-module $M$ image de $E[X]$ par l’application $K[X]$-linéaire $X - \overline{u}$. Les invariants de similitude $q_i(X)$ de $u$ (VII, p. 31, déf. 2) sont donc les facteurs invariants de $X - \overline{u}$ (VII, p. 21). La prop. 6 de VII, p. 22, entraîne donc :
 
-#### Proposition 5 {#alg-vii-s5-prop-5 .statement}
+#### Proposition 5 {#alg-vii-s5-prop-5 .statement tag=075R}
 
 Soient $E$ un espace vectoriel de dimension finie $n$ sur un corps commutatif $K$, $u$ un endomorphisme de $E$, $U$ sa matrice par rapport à une base quelconque de E. Pour tout entier m tel que $1 \leq m \leq n$, le produit
 
@@ -226,7 +226,7 @@ $$
 
 des m premiers invariants de similitude de u est égal au pgcd des mineurs d’ordre m de la matrice $XI_n - U$.
 
-#### Corollaire 1 {#alg-vii-s5-prop-5-cor-1 .statement}
+#### Corollaire 1 {#alg-vii-s5-prop-5-cor-1 .statement tag=075S}
 
 Soient u un endomorphisme d’un espace vectoriel de dimension finie n sur un corps commutatif K, $\chi_u(X)$ son polynôme caractéristique et $q_i(X)$ ($1 \leq i \leq n$) ses invariants de similitude. On a alors
 
@@ -234,13 +234,13 @@ $$
 \chi_u(X) = q_1(X)\ q_2(X)\ \ldots\ q_n(X)\ .
 $$
 
-#### Corollaire 2 {#alg-vii-s5-prop-5-cor-2 .statement}
+#### Corollaire 2 {#alg-vii-s5-prop-5-cor-2 .statement tag=075T}
 
 Les notations étant celles du cor. 1, soit $q(X)$ le polynôme minimal de u ; alors $q(X)$ divise $\chi_u(X)$ et $\chi_u(X)$ divise $q(X)^n$. En particulier le polynôme minimal et le polynôme caractéristique de u ont les mêmes racines, qui sont les valeurs propres de u.
 
 Comme $q(X) = q_n(X)$, il est clair que $q(X)$ divise $\chi_u(X)$. D’autre part, puisque chaque $q_i$ divise $q$, leur produit $\chi_u$ divise $q^n$.
 
-#### Corollaire 3 {#alg-vii-s5-prop-5-cor-3 .statement}
+#### Corollaire 3 {#alg-vii-s5-prop-5-cor-3 .statement tag=075U}
 
 Pour qu’un endomorphisme u soit nilpotent, il faut et il suffit que son polynôme caractéristique soit de la forme $X^n$.
 
@@ -248,7 +248,7 @@ Ceci résulte aussitôt du cor. 2.
 
 Traduisons maintenant la prop. 9 de VII, p. 24, donnant la décomposition d’un module en somme directe de sous-modules indécomposables :
 
-#### Proposition 6 {#alg-vii-s5-prop-6 .statement}
+#### Proposition 6 {#alg-vii-s5-prop-6 .statement tag=075V}
 
 Soient E un espace vectoriel de dimension finie n sur un corps commutatif K, et u un endomorphisme de E. Alors E est somme directe de sous-espaces $E_k$, stables pour u, monogènes pour u, tels que le polynôme minimal de la restriction de u à $E_k$ soit de la forme $p_k^{n(k)}$, où $p_k$ est un polynôme irréductible, et que $E_k$ ne puisse être somme directe de deux sous-espaces stables pour u, et non réduits à 0. Pour tout polynôme unitaire irréductible $p \in \mathbf{K}[X]$ et pour tout entier $n \geq 1$, le nombre $m(p^n)$ des sous-espaces $E_k$ d’une telle décomposition tels que $p^n$ soit le polynôme minimal de la restriction de u à $E_k$, est déterminé de façon unique.
 
@@ -260,7 +260,7 @@ On notera que les polynômes unitaires irréductibles $p \in \mathbf{K}[X]$ tels
 
 Dans ce numéro, nous nous intéressons au cas où le polynôme minimal $p(X)$ de $u$ se décompose dans $K[X]$ en produit de facteurs linéaires, c’est-à-dire (VII, p. 33, cor. 2) au cas où toutes les valeurs propres de $u$ appartiennent à $K$. Ce sera en particulier le cas lorsque $K$ est algébriquement clos. La prop. 3 de VII, p. 30, donne aussitôt :
 
-#### Proposition 7 {#alg-vii-s5-prop-7 .statement}
+#### Proposition 7 {#alg-vii-s5-prop-7 .statement tag=075W}
 
 Soient $E$ un espace vectoriel de dimension finie sur un corps commutatif $K$, $u$ un endomorphisme de $E$ dont toutes les valeurs propres sont dans $K$. Pour toute valeur propre $\alpha$ de $u$, soit $M_{\alpha}$ le sous-espace vectoriel de $E$ formé des éléments $x$ pour lesquels il existe un entier $k \geqslant 1$ tel que $(u - \alpha)^k \cdot x = 0$. Alors $M_{\alpha}$ est stable pour $u$, $E$ est somme directe des $M_{\alpha}$, et il existe des polynômes $s_{\alpha} \in K[X]$ tels que, pour tout $x \in E$, le composant de $x$ dans $M_{\alpha}$ soit égal à $s_{\alpha}(u) \cdot x$.
 
@@ -287,11 +287,11 @@ U_{m,\alpha} = \begin{pmatrix}
 \end{pmatrix}.
 $$
 
-#### Définition 3 {#alg-vii-s5-def-3 .statement}
+#### Définition 3 {#alg-vii-s5-def-3 .statement tag=075X}
 
 Pour tout corps $K$, tout entier $m \geqslant 1$ et tout $\alpha \in K$, la matrice $U_{m,\alpha}$ est dite matrice de Jordan d’ordre $m$ de valeur propre $\alpha$.
 
-#### Proposition 8 {#alg-vii-s5-prop-8 .statement}
+#### Proposition 8 {#alg-vii-s5-prop-8 .statement tag=075Y}
 
 Soient E un espace vectoriel de dimension finie sur un corps commutatif K, u un endomorphisme de E. Les conditions suivantes sont équivalentes :
 (i) les valeurs propres de u (dans une extension algébriquement close de K) appartiennent à K ;
@@ -299,22 +299,22 @@ Soient E un espace vectoriel de dimension finie sur un corps commutatif K, u un 
 (iii) il existe une base de E par rapport à laquelle la matrice de u est un tableau diagonal de matrices de Jordan.
 On a (i) ⇒ (iii) d’après la prop. 7 et les remarques précédentes, et les assertions (iii) ⇒ (ii) et (ii) ⇒ (i) sont triviales.
 
-#### Définition 4 {#alg-vii-s5-def-4 .statement}
+#### Définition 4 {#alg-vii-s5-def-4 .statement tag=075Z}
 
 On appelle trigonalisables les endomorphismes satisfaisant aux conditions (i), (ii), (iii) de la prop. 8.
 
 En particulier, si K est algébriquement clos, tout endomorphisme d’un K-espace vectoriel de dimension finie est trigonalisable.
 Pour des matrices, la prop. 8 entraîne :
 
-#### Corollaire {#alg-vii-s5-n4-cor-1 .statement}
+#### Corollaire {#alg-vii-s5-n4-cor-1 .statement tag=0760}
 
 Soit U une matrice carrée sur un corps commutatif K telle que toutes les valeurs propres de U soient dans K ; il existe une matrice semblable à U et qui est un tableau diagonal de matrices de Jordan.
 
-#### Remarque 1 {#alg-vii-s5-n4-rem-1 .statement}
+#### Remarque 1 {#alg-vii-s5-n4-rem-1 .statement tag=0761}
 
 Il résulte de la prop. 6 de VII, p. 33, que, si U est semblable à un tableau diagonal de matrices de Jordan (J_k), le nombre des J_k de la forme U_{m,\alpha} (pour m et α donnés) est déterminé de façon unique par U.
 
-#### Remarque 2 {#alg-vii-s5-n4-rem-2 .statement}
+#### Remarque 2 {#alg-vii-s5-n4-rem-2 .statement tag=0DIP}
 
 Plus généralement, si U est semblable à un tableau diagonal de matrices de Jordan U_{m_i,\alpha_i} on calcule immédiatement les invariants de similitude de U par une méthode calquée sur celle exposée en VII, p. 24, remarque 3 : on écrit sur une même ligne les (X − α_i)^{m_i} relatifs à un même α par ordre décroissant des exposants, et on complète par des 1, pour avoir des lignes de longueur égale à l’ordre de U ; ceci fait, on obtient les invariants de similitude de U, rangés dans l’ordre des indices décroissants, en formant les produits des termes qui sont dans une même colonne. Par exemple, pour la matrice
 
@@ -335,11 +335,11 @@ et les invariants de similitude sont 1,1, et (X − 2)(X − 3)^2.
 
 En remarquant que le polynôme minimal de la matrice de Jordan U_{m,\alpha} est (X − α)^m et qu’il est égal à son polynôme caractéristique, on obtient le résultat suivant :
 
-#### Proposition 9 {#alg-vii-s5-prop-9 .statement}
+#### Proposition 9 {#alg-vii-s5-prop-9 .statement tag=0762}
 
 Si la matrice carrée U est semblable à un tableau diagonal de matrices de Jordan (U_{m_i,\alpha_i}), le polynôme minimal de U est le ppcm des (X − α_i)^{m_i}, le polynôme caractéristique de U est le produit des (X − α_i)^{m_i}.
 
-#### Corollaire {#alg-vii-s5-n4-cor-2 .statement}
+#### Corollaire {#alg-vii-s5-n4-cor-2 .statement tag=0763}
 
 Avec les notations de la prop. 7, la dimension du sous-espace $M_\alpha$ est la multiplicité de la valeur propre $\alpha$ comme racine du polynôme caractéristique de $u$.
 
@@ -351,7 +351,7 @@ $$
 \chi_u(X) = X^n - \operatorname{Tr}(u)\ X^{n-1} + \cdots + (-1)^n \det(u) .
 $$
 
-#### Proposition 10 {#alg-vii-s5-prop-10 .statement}
+#### Proposition 10 {#alg-vii-s5-prop-10 .statement tag=0764}
 
 Soient $E$ un espace vectoriel de dimension finie $n$ sur un corps commutatif $K$, $u$ un endomorphisme de $E$, et $\chi_u(X) = \prod_{i=1}^n (X - \alpha_i)$ une décomposition en facteurs linéaires de son polynôme caractéristique (dans une extension convenable de $K$, cf. V, p. 21). Si $q$ est un polynôme à coefficients dans $K$, le polynôme caractéristique de $q(u)$ est donné par
 
@@ -370,23 +370,23 @@ $$
 
 Il est clair que (7) et (8) résultent de (6) en vertu de (5). Pour prouver la formule (6), on peut supposer $K$ algébriquement clos. Prenons alors une base de $E$ par rapport à laquelle la matrice $U$ de $u$ est triangulaire inférieure (VII, p. 35, cor. à la prop. 8) ; nous nous appuierons sur le lemme immédiat suivant :
 
-#### Lemme 1 {#alg-vii-s5-lem-1 .statement}
+#### Lemme 1 {#alg-vii-s5-lem-1 .statement tag=0765}
 
 Si $B$ et $C$ sont des matrices triangulaires inférieures d’ordre $n$ et de diagonales $(\beta_i)$ et $(\gamma_i)$, les matrices $B + C$ et $BC$ sont triangulaires inférieures et ont pour diagonales $(\beta_i + \gamma_i)$ et $(\beta_i \gamma_i)$.
 
 Comme la matrice $U$ de $u$ est une matrice triangulaire de diagonale $(\alpha_i)$, il résulte du lemme 1 que $q(U)$ est une matrice triangulaire de diagonale $(q(\alpha_i))$. Alors $X.I_n - q(U)$ est une matrice triangulaire de diagonale $(X - q(\alpha_i))$, ce qui démontre (6).
 
-#### Corollaire 1 {#alg-vii-s5-lem-1-cor-1 .statement}
+#### Corollaire 1 {#alg-vii-s5-lem-1-cor-1 .statement tag=0766}
 
 Pour que $q(u)$ soit inversible, il faut et il suffit que $q$ soit étranger à $\chi_u$.
 
 En effet, dire que $q$ et $\chi_u$ sont étrangers équivaut à dire qu’ils n’ont pas de racine commune dans une extension algébriquement close de $K$, c’est-à-dire, d’après (8), que $\det(q(u)) \neq 0$.
 
-#### Remarque 1 {#alg-vii-s5-n5-rem-1 .statement}
+#### Remarque 1 {#alg-vii-s5-n5-rem-1 .statement tag=0767}
 
 Être étranger à $\chi_u$ équivaut à être étranger au polynôme minimal de $u$ (VII, p. 33, cor. 2).
 
-#### Corollaire 2 {#alg-vii-s5-lem-1-cor-2 .statement}
+#### Corollaire 2 {#alg-vii-s5-lem-1-cor-2 .statement tag=0768}
 
 Soit $r \in K(X)$ une fraction rationnelle sur $K$. Pour que $u$ soit substituable dans $r$ (IV, p. 20) il faut et il suffit que chacune des valeurs propres $\alpha_i$ de $u$ le soit. Lorsqu’il en est ainsi, on a les formules :
 
@@ -396,19 +396,19 @@ $$
 
 Écrivons $r = p/q$, où $p$ et $q$ sont des polynômes étrangers. Pour que $u$ soit substituable dans $r$, il faut et il suffit que $\det(q(u)) \neq 0$, d’où la première assertion en vertu de la formule (8). Supposons donc, en vertu du cor. 1, que $q$ soit étranger à $\chi_u$. D’après l’identité de Bezout, il existe des polynômes $g$ et $h$ tels que $qg + h\chi_u = 1$. On a alors $q(\alpha_i)\, g(\alpha_i) = 1$, et $q(u)\, g(u) = 1$ en vertu du théorème de Hamilton-Cayley (III, p. 107). Il suffit alors d’appliquer les formules (6), (7) et (8) à $p(u)\, g(u) = r(u)$ pour obtenir les formules annoncées.
 
-#### Corollaire 3 {#alg-vii-s5-lem-1-cor-3 .statement}
+#### Corollaire 3 {#alg-vii-s5-lem-1-cor-3 .statement tag=0769}
 
 Pour tout entier $s \geq 0$, on a $\operatorname{Tr}(u^s) = \sum_{i=1}^n \alpha_i^s$; cette formule est valable pour $s < 0$ pourvu que $u$ soit inversible.
 
 Ceci est un cas particulier du corollaire précédent.
 
-#### Corollaire 4 {#alg-vii-s5-lem-1-cor-4 .statement}
+#### Corollaire 4 {#alg-vii-s5-lem-1-cor-4 .statement tag=076A}
 
 Supposons le corps $K$ de caractéristique nulle ; pour que l’endomorphisme $u$ soit nilpotent, il faut et il suffit que l’on ait $\operatorname{Tr}(u^s) = 0$ pour $1 \leq s \leq n$.
 
 Si $u$ est nilpotent, les $\alpha_i$ sont nuls, et l’on a $\operatorname{Tr}(u^s) = 0$ pour tout $s > 0$ (cor. 3). Si, réciproquement, on a $\operatorname{Tr}(u^s) = 0$ pour $1 \leq s \leq n$, les $\alpha_i$ sont nuls puisque $K$ est de caractéristique nulle (IV, p. 67, cor.), et $u$ est nilpotent (VII, p. 33).
 
-#### Corollaire 5 {#alg-vii-s5-lem-1-cor-5 .statement}
+#### Corollaire 5 {#alg-vii-s5-lem-1-cor-5 .statement tag=076B}
 
 Soit $Y$ une indéterminée. Notons $\tilde{u}$ l’endomorphisme du $K(Y)$-espace vectoriel $K(Y) \otimes_K E$ déduit de $u$ par extension des scalaires de $K$ au corps $K(Y)$ des fractions rationnelles en $Y$ à coefficients dans $K$. L’endomorphisme $Y.1 - \tilde{u}$ est inversible. En outre, si $\chi'_u$ désigne la dérivée du polynôme $\chi_u$, on a
 
@@ -422,7 +422,7 @@ $$
 \chi'_u(Y)/\chi_u(Y) = \sum_i (Y - \alpha_i)^{-1} = \sum_i r(\alpha_i) .
 $$
 
-#### Corollaire 6 {#alg-vii-s5-lem-1-cor-6 .statement}
+#### Corollaire 6 {#alg-vii-s5-lem-1-cor-6 .statement tag=076C}
 
 Supposons le corps $\mathbf{K}$ de caractéristique nulle. Dans l’anneau de séries formelles $\mathbf{K}[[T]]$, on a
 
@@ -443,7 +443,7 @@ $$
 
 On en tire $- TP'(T)/P(T) = -n + \operatorname{Tr}((I_n - TU)^{-1})$. Prenant le développement en série formelle des deux membres de cette égalité, on obtient le corollaire.
 
-#### Remarque 2 {#alg-vii-s5-n5-rem-2 .statement}
+#### Remarque 2 {#alg-vii-s5-n5-rem-2 .statement tag=076D}
 
 D’après IV, p. 75, cor. 1 et la formule (8), on a, pour tout polynôme $q \in \mathbf{K}[X]$
 
@@ -457,7 +457,7 @@ $$
 $$
 où $\operatorname{dis}(\chi_u)$ est le discriminant du polynôme $\chi_u$ (IV, p. 78, formule (47)). De plus :
 
-#### Corollaire 7 {#alg-vii-s5-lem-1-cor-7 .statement}
+#### Corollaire 7 {#alg-vii-s5-lem-1-cor-7 .statement tag=076E}
 
 On a $\det(\operatorname{Tr}(u^{i+j})_{0 \leq i,j \leq n-1}) = \operatorname{dis}(\chi_u)$.
 
@@ -471,7 +471,7 @@ Par ailleurs, le terme d’indices $(i, j)$ de $D \cdot {}^tD$ est $\sum_k \alph
 
 ### 6. Polynôme caractéristique du produit tensoriel de deux endomorphismes
 
-#### Proposition 11 {#alg-vii-s5-prop-11 .statement}
+#### Proposition 11 {#alg-vii-s5-prop-11 .statement tag=076F}
 
 Soient $E$ (resp. $E'$) un espace vectoriel de dimension finie sur un corps commutatif $\mathbf{K}$, $u$ (resp. $u'$) un endomorphisme de $E$ (resp. $E'$). Soient
 
@@ -488,7 +488,7 @@ $$
 
 Raisonnant comme dans la démonstration de la prop. 10 de VII, p. 36, on voit qu’il suffit de démontrer le lemme suivant :
 
-#### Lemme 2 {#alg-vii-s5-lem-2 .statement}
+#### Lemme 2 {#alg-vii-s5-lem-2 .statement tag=076G}
 
 Soient $B$ et $C$ deux matrices triangulaires inférieures d’ordres respectifs $m$ et $n$ et de diagonales $(\beta_i)_{1 \leq i \leq m}$, $(\gamma_j)_{1 \leq j \leq n}$. Identifions le produit lexicographique des ensembles ordonnés $\{1, 2, ..., m\}$ et $\{1, 2, ..., n\}$ à l’intervalle $\{1, 2, ..., mn\}$. Alors la matrice produit tensoriel (II, p. 157) $B \otimes C$ est triangulaire inférieure de diagonale $(\beta_i \gamma_j)$.
 
@@ -496,7 +496,7 @@ Cela résulte aussitôt de la définition du produit tensoriel de deux matrices 
 
 ### 7. Endomorphismes diagonalisables
 
-#### Définition 5 {#alg-vii-s5-def-5 .statement}
+#### Définition 5 {#alg-vii-s5-def-5 .statement tag=076H}
 
 Soient $E$ un espace vectoriel de dimension finie sur un corps commutatif $K$ et $\mathfrak{F}$ un ensemble d’endomorphismes de $E$. On dit que $\mathfrak{F}$ est diagonal par rapport à une base $(e_i)$ de $E$ si les matrices de tous les $u \in \mathfrak{F}$ par rapport à $(e_i)$ sont diagonales. On dit que $\mathfrak{F}$ est diagonalisable s’il existe une base de $E$ telle que $\mathfrak{F}$ soit diagonal par rapport à cette base.
 
@@ -504,7 +504,7 @@ Cette définition s’applique en particulier au cas où $\mathfrak{F}$ est réd
 
 Soit $A$ une sous-algèbre de $\mathrm{End}_K(E)$ contenant $\mathrm{Id}_E$. Alors $A$ est diagonalisable si et seulement si elle est isomorphe à une algèbre $K'$ (c’est-à-dire est diagonalisable au sens de V, p. 28, déf. 1); en effet, si $A$ est isomorphe à $K'$, alors $A$ est diagonalisable d’après V, p. 28, prop. 1; inversement, si $A$ est diagonalisable, elle est isomorphe à une sous-algèbre de l’algèbre des matrices diagonales, algèbre qui est isomorphe à $K^n, n = \dim(E)$, donc $A$ est isomorphe à une algèbre $K'$ (V, p. 29, prop. 3).
 
-#### Proposition 12 {#alg-vii-s5-prop-12 .statement}
+#### Proposition 12 {#alg-vii-s5-prop-12 .statement tag=076I}
 
 Soient $E$ un espace vectoriel de dimension finie sur un corps commutatif $K$ et $u$ un endomorphisme de $E$. Les conditions suivantes sont équivalentes :
 (i) $u$ est diagonalisable.
@@ -515,12 +515,12 @@ De plus, si ces conditions sont satisfaites, tout sous-espace de $E$ stable pour
 
 L’équivalence de (i) et (ii) résulte des remarques qui précèdent et de VII, p. 30, prop. 2. Supposons $u$ diagonalisable, et soit $(\alpha_i)$ la famille des valeurs propres de $u$ et $(V_i)$ la famille des sous-espaces propres correspondants ; comme la restriction de $u$ à $V_i$ est l’homothétie de rapport $\alpha_i$, elle annule le polynôme $X - \alpha_i$; il s’ensuit que $u$ annule le polynôme $\prod_i (X - \alpha_i)$ qui est donc un multiple du polynôme minimal, donc coïncide avec celui-ci, ce qui démontre (iii). Inversement, si (iii) est satisfaite, il existe une base de $E$ par rapport à laquelle la matrice $U$ de $u$ est un tableau diagonal de matrices de Jordan $U_{m,\alpha}$ (VII, p. 35, prop. 8); alors d’après la prop. 9, tous les entiers $m$ sont égaux à 1 et $U$ est diagonale. Enfin, la dernière assertion résulte de ce que, si $u$ est diagonalisable, les sous-espaces propres sont les composants primaires de $E_u$ et de VII, p. 8, cor. 1.
 
-#### Corollaire {#alg-vii-s5-n7-cor-1 .statement}
+#### Corollaire {#alg-vii-s5-n7-cor-1 .statement tag=076J}
 
 *Si le polynôme caractéristique de $u$ a toutes ses racines dans $K$, et si elles sont simples, $u$ est diagonalisable.*
 En effet le polynôme minimal divise le polynôme caractéristique.
 
-#### Proposition 13 {#alg-vii-s5-prop-13 .statement}
+#### Proposition 13 {#alg-vii-s5-prop-13 .statement tag=076K}
 
 *Soient $E$ un espace vectoriel de dimension finie sur un corps commutatif $K$, $\mathfrak{F}$ un ensemble d’endomorphismes de $E$, et $A$ la sous-algèbre de $\mathrm{End}_K(E)$ engendrée par $\mathfrak{F}$ et $\mathrm{Id}_E$. Les conditions suivantes sont équivalentes :
 (i) $\mathfrak{F}$ est diagonalisable.
@@ -528,7 +528,7 @@ En effet le polynôme minimal divise le polynôme caractéristique.
 (iii) Les éléments de $\mathfrak{F}$ sont diagonalisables et deux à deux permutables.*
 Si $(e_i)$ est une base de $E$ par rapport à laquelle $\mathfrak{F}$ est diagonal, alors $A$ est contenu dans l’algèbre des endomorphismes diagonaux par rapport à cette base, donc est aussi diagonalisable; si $A$ est diagonalisable, le même raisonnement montre que $\mathfrak{F}$ est diagonalisable. Cela montre l’équivalence de (i) et (ii). Comme deux matrices diagonales sont permutables, on a (i) $\Rightarrow$ (iii) et il reste à prouver la réciproque. Supposons donc les éléments de $\mathfrak{F}$ diagonalisables et deux à deux permutables. Nous utiliserons le lemme suivant :
 
-#### Lemme 3 {#alg-vii-s5-lem-3 .statement}
+#### Lemme 3 {#alg-vii-s5-lem-3 .statement tag=076L}
 
 *Soient $g$ et $h$ deux endomorphismes permutables d’un espace vectoriel $E$. Tout sous-espace propre de $g$ est stable pour $h$.
 En effet, si $W_\lambda$ est le sous-espace propre de $g$ relatif à la valeur propre $\lambda$, la relation $x \in W_\lambda$ entraîne
@@ -541,31 +541,31 @@ Revenons à la démonstration de la prop. 13. Parmi toutes les décompositions d
 
 E_i est somme directe des $V_\alpha \cap E_i$. Le choix des $E_i$ impose donc que chaque $E_i$ soit contenu dans un des $V_\alpha$; la restriction de $u$ à chacun des $E_i$ est donc une homothétie. Comme cela est vrai pour tous les éléments de $\mathfrak{F}$, $\mathfrak{F}$ est diagonalisable.
 
-#### Corollaire {#alg-vii-s5-n7-cor-2 .statement}
+#### Corollaire {#alg-vii-s5-n7-cor-2 .statement tag=076M}
 
 *La somme et le composé de deux endomorphismes diagonalisables permutables de E sont diagonalisables.*
 
 ### 8. Endomorphismes semi-simples et absolument semi-simples
 
-#### Définition 6 {#alg-vii-s5-def-6 .statement}
+#### Définition 6 {#alg-vii-s5-def-6 .statement tag=076N}
 
 *Soit E un espace vectoriel de dimension finie sur un corps commutatif K. Un endomorphisme u de E est dit semi-simple si tout sous-espace de E stable pour u possède un supplémentaire stable pour u.*
 
 Cela signifie donc que tout sous-module du K[X]-module $E_u$ est facteur direct, c’est-à-dire que le K[X]-module $E_u$ est semi-simple (VII, p. 9).
 
-#### Proposition 14 {#alg-vii-s5-prop-14 .statement}
+#### Proposition 14 {#alg-vii-s5-prop-14 .statement tag=076O}
 
 *Pour qu’un endomorphisme u d’un espace vectoriel de dimension finie sur un corps commutatif soit semi-simple, il faut et il suffit que le polynôme minimal de u soit sans facteur multiple.*
 Cela résulte aussitôt de VII, p. 9, cor. 4 et p. 31, remarque 1.
 
 Soient E un espace vectoriel sur un corps commutatif K, L une extension de K, et $u$ un endomorphisme de E ; on note $u_{(L)}$ le L-endomorphisme $1_L \otimes u$ du L-espace vectoriel $E_{(L)} = L \otimes_K E$ déduit de E par extension des scalaires. De même, si $\mathfrak{F}$ est un ensemble d’endomorphismes de E, on note $\mathfrak{F}_{(L)}$ l’ensemble des $u_{(L)}$, pour $u$ dans $\mathfrak{F}$.
 
-#### Corollaire {#alg-vii-s5-n8-cor-1 .statement}
+#### Corollaire {#alg-vii-s5-n8-cor-1 .statement tag=076P}
 
 *Soient u un endomorphisme d’un espace vectoriel de dimension finie sur un corps commutatif K et L une extension de K. Si $u_{(L)}$ est semi-simple, u est semi-simple. Si u est semi-simple et L séparable sur K, $u_{(L)}$ est semi-simple.*
 Cela résulte aussitôt de la prop: 14 et de V, p. 115, cor. 1 (noter que les polynômes minimaux de $u$ et $u_{(L)}$ coïncident).
 
-#### Proposition 15 {#alg-vii-s5-prop-15 .statement}
+#### Proposition 15 {#alg-vii-s5-prop-15 .statement tag=076Q}
 
 *Soient E un espace vectoriel de dimension finie sur un corps commutatif K, u un endomorphisme de E et q(X) son polynôme minimal. Les conditions suivantes sont équivalentes :
 (i) Pour toute extension L de K, l’endomorphisme $u_{(L)}$ est semi-simple.
@@ -573,17 +573,17 @@ Cela résulte aussitôt de la prop: 14 et de V, p. 115, cor. 1 (noter que les po
 (iii) Le polynôme q(X) est séparable sur K.*
 En effet, la condition (i) signifie que le polynôme $1 \otimes q(X)$ de L[X] est sans facteur multiple pour toute extension L de K (prop. 14), la condition (ii) signifie qu’il existe une extension L de K telle que $q(X)$ ait toutes ses racines dans L et qu’elles soient simples (VII, p. 39, prop. 12), et ces conditions équivalent à (iii) par définition (V, p. 37).
 
-#### Définition 7 {#alg-vii-s5-def-7 .statement}
+#### Définition 7 {#alg-vii-s5-def-7 .statement tag=076R}
 
 Un endomorphisme u satisfaisant aux conditions (i), (ii) et (iii) de la prop. 15 est dit absolument semi-simple.
 
-#### Corollaire {#alg-vii-s5-n8-cor-2 .statement}
+#### Corollaire {#alg-vii-s5-n8-cor-2 .statement tag=076S}
 
 Pour que u soit absolument semi-simple, il faut et il suffit qu’il existe une extension L de K, qui soit un corps parfait, et telle que $u_{(L)}$ soit semi-simple.
 
 En effet, la condition du corollaire signifie qu’il existe une extension L de K, qui soit un corps parfait, telle que $q(X)$ soit sans facteur multiple dans L[X] (prop. 14) ; cette condition équivaut à (iii) d’après V, p. 37, cor. 2.
 
-#### Proposition 16 {#alg-vii-s5-prop-16 .statement}
+#### Proposition 16 {#alg-vii-s5-prop-16 .statement tag=076T}
 
 Soient E un espace vectoriel de dimension finie sur un corps commutatif K, $\mathfrak{F}$ un ensemble d’endomorphismes de E, A la sous-algèbre de $\mathrm{End}_K(E)$ engendrée par $\mathfrak{F}$ et $\mathrm{Id}_E$. Les conditions suivantes sont équivalentes :
 (i) Il existe une extension L de K telle que $\mathfrak{F}_{(L)}$ soit diagonalisable.
@@ -592,27 +592,27 @@ Soient E un espace vectoriel de dimension finie sur un corps commutatif K, $\mat
 
 Notons d’abord que, pour toute extension L de K, la L-algèbre engendrée par $\mathfrak{F}_{(L)}$ et $\mathrm{Id}_{E(L)}$ coïncide avec $L \otimes_K A$ ; d’après la prop. 13, $\mathfrak{F}_{(L)}$ est donc diagonalisable si et seulement si la L-algèbre $L \otimes_K A$ est diagonalisable. L’équivalence des conditions (i) et (ii) résulte donc de V, p. 28, déf. 1. D’autre part, on a aussitôt (i) $\Rightarrow$ (iii). Supposons enfin (iii) vérifiée, et soit L une clôture algébrique de K ; les éléments de $\mathfrak{F}_{(L)}$ sont diagonalisables (VII, p. 39, prop. 12) et deux à deux permutables ; $\mathfrak{F}_{(L)}$ est donc diagonalisable d’après VII, p. 40, prop. 13.
 
-#### Corollaire {#alg-vii-s5-n8-cor-3 .statement}
+#### Corollaire {#alg-vii-s5-n8-cor-3 .statement tag=076U}
 
 La somme et le produit de deux endomorphismes permutables et absolument semi-simples sont absolument semi-simples.
 
-#### Remarque {#alg-vii-s5-n8-rem-1 .statement}
+#### Remarque {#alg-vii-s5-n8-rem-1 .statement tag=076V}
 
 Supposons les conditions de la prop. 16 vérifiées et soit L une extension de K. D’après la prop. 13, l’ensemble $\mathfrak{F}_{(L)}$ est diagonalisable si et seulement si l’algèbre $L \otimes_K A$ est diagonalisable. On en conclut par V, p. 29, prop. 2, qu’il existe une extension finie L de K telle que $\mathfrak{F}_{(L)}$ soit diagonalisable. En fait, on peut même supposer L galoisienne ; en effet, prenant une partie finie $\mathfrak{F}'$ de $\mathfrak{F}$ qui engendre A, on peut prendre pour L un corps de décomposition des polynômes minimaux des éléments de $\mathfrak{F}'$ (prop. 12 et 13).
 
 ### 9. Décomposition de Jordan
 
-#### Définition 8 {#alg-vii-s5-def-8 .statement}
+#### Définition 8 {#alg-vii-s5-def-8 .statement tag=076W}
 
 Soient E un espace vectoriel de dimension finie sur un corps commutatif et u un endomorphisme de E. On appelle décomposition de Jordan de u un couple $(u_s, u_n)$, où $u_s$ est un endomorphisme absolument semi-simple de E et $u_n$ un endomorphisme nilpotent de E, tels que $u_s u_n = u_n u_s$ et $u = u_s + u_n$.
 
-#### Théorème 1 {#alg-vii-s5-thm-1 .statement}
+#### Théorème 1 {#alg-vii-s5-thm-1 .statement tag=076X}
 
 Soient E un espace vectoriel de dimension finie sur un corps commutatif K et u un endomorphisme de E. Pour que u possède une décomposition de Jordan $(u_s, u_n)$, il faut et il suffit que les valeurs propres de u soient séparables sur K. De plus, celle-ci est uniquement déterminée, les polynômes caractéristiques de u et $u_s$ coïncident, et il existe des polynômes $P, Q \in K[X]$, sans terme constant, tels que $u_s = P(u)$, $u_n = Q(u)$.
 
 A) Démontrons d’abord le cas particulier suivant :
 
-#### Lemme 4 {#alg-vii-s5-lem-4 .statement}
+#### Lemme 4 {#alg-vii-s5-lem-4 .statement tag=076Y}
 
 Soient $E$ un espace vectoriel de dimension finie sur un corps commutatif $K$ et $u$ un endomorphisme trigonalisable de $E$. Il existe un endomorphisme diagonalisable $v$ de $E$, et un seul, qui commute à $u$ et soit tel que $u - v$ soit nilpotent. De plus, sous ces conditions, les polynômes caractéristiques de $u$ et $v$ coïncident, et il existe un polynôme $P \in K[X]$ tel que $v = P(u)$.
 
@@ -628,36 +628,36 @@ Inversement, supposons maintenant que les valeurs propres de $u$ soient séparab
 
 Lorsqu’un endomorphisme $f$ possède une décomposition de Jordan, on note celle-ci $(f_s, f_n)$ et les endomorphismes $f_s$ et $f_n$ sont appelés respectivement la composante absolument semi-simple et la composante nilpotente de $f$. Lorsque $K$ est parfait, tout endomorphisme possède une décomposition de Jordan ; par ailleurs, il y a alors identité entre endomorphismes absolument semi-simples et endomorphismes semi-simples et on dit aussi « composante semi-simple » au lieu de « composante absolument semi-simple ».
 
-#### Corollaire 1 {#alg-vii-s5-lem-4-cor-1 .statement}
+#### Corollaire 1 {#alg-vii-s5-lem-4-cor-1 .statement tag=076Z}
 
 Supposons que $u$ possède une décomposition de Jordan, et soit $L$ une extension de $K$. Alors l’endomorphisme $u_{(L)}$ de $E_{(L)}$ possède une décomposition de Jordan, et l’on a $(u_{(L)})_s = (u_s)_{(L)},\ (u_{(L)})_n = (u_n)_{(L)}$.
 
-#### Corollaire 2 {#alg-vii-s5-lem-4-cor-2 .statement}
+#### Corollaire 2 {#alg-vii-s5-lem-4-cor-2 .statement tag=0770}
 
 Supposons que $u$ possède une décomposition de Jordan. Tout endomorphisme de $E$ qui commute à $u$ commute aussi à $u_s$ et $u_n$.
 
-#### Corollaire 3 {#alg-vii-s5-lem-4-cor-3 .statement}
+#### Corollaire 3 {#alg-vii-s5-lem-4-cor-3 .statement tag=0771}
 
 Soient $u$ et $v$ deux endomorphismes permutables de $E$ possédant des décompositions de Jordan.
 a) Les endomorphismes $u, v, u_s, v_s, u_n, v_n$ sont deux à deux permutables.
 b) Les endomorphismes $u + v$ et $uv$ possèdent des décompositions de Jordan et on a $(u + v)_s = u_s + v_s,\ (u + v)_n = u_n + v_n,\ (uv)_s = u_s v_s,\ (uv)_n = u_s v_n + u_n v_s + u_n v_n$.
 La partie a) résulte du cor. 2. Pour démontrer la partie b), il suffit de remarquer que $u_s + v_s$ et $u_s v_s$ sont absolument semi-simples (VII, p. 42, cor.) et $u_n + v_n$ et $u_s v_n + u_n v_s + u_n v_n$ sont nilpotents (comme somme d’endomorphismes nilpotents permutables).
 
-#### Corollaire 4 {#alg-vii-s5-lem-4-cor-4 .statement}
+#### Corollaire 4 {#alg-vii-s5-lem-4-cor-4 .statement tag=0772}
 
 Supposons que $u$ possède une décomposition de Jordan, et soit $R$ un polynôme de $K[X]$. Alors l’endomorphisme $R(u)$ possède une décomposition de Jordan et on a $R(u)_s = R(u_s)$.
 
-#### Remarque 1 {#alg-vii-s5-n9-rem-1 .statement}
+#### Remarque 1 {#alg-vii-s5-n9-rem-1 .statement tag=0773}
 
 On a $\det(u_s) = \det(u)$, $\operatorname{Tr}(u_s) = \operatorname{Tr}(u)$.
 
-#### Remarque 2 {#alg-vii-s5-n9-rem-2 .statement}
+#### Remarque 2 {#alg-vii-s5-n9-rem-2 .statement tag=0774}
 
 Pour que $u$ soit trigonalisable, il faut et il suffit que $u$ possède une décomposition de Jordan et que $u_s$ soit diagonalisable. Il existe alors une base de $E$ par rapport à laquelle la matrice de $u$ est triangulaire inférieure, celle de $u_s$ est diagonale et à même diagonale que la matrice de $u$ ($cf.$ lemme 4 et ci-dessous prop. 19).
 
 On notera cependant que si la matrice de $u$ par rapport à une base est triangulaire, la matrice de $u_s$ par rapport à cette même base n’est pas en général diagonale.
 
-#### Remarque 3 {#alg-vii-s5-n9-rem-3 .statement}
+#### Remarque 3 {#alg-vii-s5-n9-rem-3 .statement tag=0775}
 
 On définit de façon analogue la notion de décomposition de Jordan pour une matrice carrée. Par exemple, pour la matrice de Jordan $U_{m,\alpha}$, on a
 
@@ -665,7 +665,7 @@ $$
 (U_{m,\alpha})_s = \alpha \cdot I_m , \quad (U_{m,\alpha})_n = U_{m,0} .
 $$
 
-#### Remarque 4 {#alg-vii-s5-n9-rem-4 .statement}
+#### Remarque 4 {#alg-vii-s5-n9-rem-4 .statement tag=0776}
 
 Si $u$ est semi-simple, mais non absolument semi-simple, il ne possède pas de décomposition de Jordan.
 
@@ -677,7 +677,7 @@ $$
 
 Si $V$ est de dimension finie $m$, alors $u$ est unipotent si et seulement si $\chi_u(X) = (X - 1)^m$ (VII, p. 33, cor. 3).
 
-#### Proposition 17 {#alg-vii-s5-prop-17 .statement}
+#### Proposition 17 {#alg-vii-s5-prop-17 .statement tag=0777}
 
 Soient $E$ un espace vectoriel de dimension finie sur un corps commutatif, et $f$ un endomorphisme de $E$. Les conditions suivantes sont équivalentes :
 
@@ -693,7 +693,7 @@ De plus, sous ces conditions, et avec les notations de (iii), on a nécessaireme
 
 On pose $f_u = f_s^{-1}f = ff_s^{-1} = 1 + f_s^{-1}f_n$, et on dit que c’est la composante unipotente de $f$. Le couple $(f_s, f_u)$ est souvent appelé la décomposition de Jordan multiplicative de l’automorphisme $f$.
 
-#### Proposition 18 {#alg-vii-s5-prop-18 .statement}
+#### Proposition 18 {#alg-vii-s5-prop-18 .statement tag=0778}
 
 Soient $E$ un espace vectoriel de dimension finie sur un corps commutatif $K$, $E'$ un sous-espace de $E$ et $u$ un endomorphisme de $E$ laissant $E'$ stable.
 
@@ -712,7 +712,7 @@ $$
 
 et on a $\chi_u = \chi_U = \chi_{U'} \chi_{U''} = \chi_{u'} \chi_{u''}$ (cf. III, p. 100, exemple 2). On en déduit que l’ensemble des valeurs propres de $u$ est la réunion des ensembles de valeurs propres de $u'$ et $u''$. Si $u'$ et $u''$ possèdent des décompositions de Jordan, alors les valeurs propres de $u'$ et $u''$ sont séparables sur $K$, donc aussi les valeurs propres de $u$, et $u$ possède une décomposition de Jordan (VII, p. 42, th. 1). Inversement, si $u$ possède la décomposition de Jordan ($s, n$), $s$ et $n$ laissent stable $E'$ car ce sont des polynômes en $u$; notons $s', n', s'', n''$ les endomorphismes de $E', E', E/E', E/E'$ déduits respectivement de $s, n, s, n$. Comme les polynômes minimaux de $s'$ et $s''$ divisent celui de $s, s'$ et $s''$ sont absolument semi-simples (VII, p. 41, prop. 15) ; par ailleurs, $n'$ et $n''$ sont nilpotents. Enfin, on a $u' = s' + n', u'' = s'' + n''$ et $s'n' = n's', s''n'' = n''s''$, ce qui achève la démonstration.
 
-#### Proposition 19 {#alg-vii-s5-prop-19 .statement}
+#### Proposition 19 {#alg-vii-s5-prop-19 .statement tag=0779}
 
 Soient $E$ un espace vectoriel de dimension finie sur un corps commutatif $K$, et $\mathfrak{F}$ un ensemble d’endomorphismes trigonalisables de $E$ deux à deux permutables. Alors il existe une base de $E$ telle que, par rapport à cette base, la matrice de tout élément $u$ de $\mathfrak{F}$ soit triangulaire inférieure et que la matrice de $u_s$ soit diagonale et ait mêmes éléments diagonaux que celle de $u$.
 

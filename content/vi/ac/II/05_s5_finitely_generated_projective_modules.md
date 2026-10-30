@@ -41,9 +41,9 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 8
-content_sha256: db3fd788cf48501ee40100b28bfc56c9ccfaf8e1862df912f16d7d5f8fd6bbaf
+content_sha256: 6582963c18f125c7cc84303c7afb60da951a6dd9662dd4a73a1bf88f01f9b068
 translated_from: content/en/ac/II/05_s5_finitely_generated_projective_modules.md
-source_content_sha256: 890bdd512ed021e9151e23128f06509329c84ff1883d10c98fcaf477533b7357
+source_content_sha256: 39903d36e71fd82b177991bd175a5a56543cc66eaadad8c82a42b81dab501389
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-5e8c59f3
 glossary_version: 34
@@ -59,13 +59,13 @@ Cho $A$ là một vành và $M$ là một $A$-môđun. Với mọi phần tử $
 
 Cho $g$ là một phần tử khác của $A$; $A_g$ (resp. $M_g$) được đồng nhất một cách chính tắc với $(A_f)_{g/1}$ (resp. $(M_f)_{g/1}$), trong đó $g/1$ là ảnh của $g$ trong $A_g$, và $u_{f,g}$ với $(u_f)_{g/1}$ (§ 2, no. 3, Mệnh đề 7).
 
-#### Mệnh đề 1 {#ac-ii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#ac-ii-s5-prop-1 .statement tag=04BE}
 
 *Cho $f$ là một phần tử của một vành $A$ và $\phi : A \to A_f$, ánh xạ chính tắc. Ánh xạ $^a\phi : \operatorname{Spec}(A_f) \to \operatorname{Spec}(A)$ là một phép đồng phôi của $\operatorname{Spec}(A_f)$ lên không gian con mở $X_f$ của $X = \operatorname{Spec}(A)$ (§ 4, no. 3).*
 
 Đây là một trường hợp riêng của § 4, no. 3, Hệ quả của Mệnh đề 13.
 
-#### Mệnh đề 2 {#ac-ii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#ac-ii-s5-prop-2 .statement tag=04BF}
 
 *Cho $A$ là một vành, $u : M \to N$ là một đồng cấu $A$-môđun và $p$ là một iđêan nguyên tố của $A$.
 
@@ -81,19 +81,19 @@ $$
 
 do đó tồn tại $g_1 \in A, - pA_{g'}$ sao cho $g_1 R_{g'} = 0$ (§ 2, no. 2, Hệ quả 2 của Mệnh đề 4). Khi đó $g_1 = g''/{g'}^h$, trong đó $g'' \in A - p$; vì $g'/1$ khả nghịch trong $R_{g'}$, $(g''/1)R_{g'} = 0$, do đó $R_{g'g''} = (R_{g'})_{g''/1} = 0$. Nếu $f = g'g''$, $f \in A - p$, $Q_f = 0$ và $R_f = 0$, nên $u_f$ song ánh.
 
-#### Hệ quả {#ac-ii-s5-n1-cor-1 .statement}
+#### Hệ quả {#ac-ii-s5-n1-cor-1 .statement tag=04BG}
 
 *Nếu $N$ được trình bày hữu hạn và $N_p$ là một $A_p$-môđun tự do có hạng $p$, thì tồn tại $f \in A - p$ sao cho $N$, là một $A_f$-môđun tự do có hạng $p$.*
 
 Theo giả thiết, tồn tại $p$ phần tử $x_i \in \mathbf{N}$ ($1 \leq i \leq p$) sao cho các $x_i/1$ lập thành một cơ sở của $A_,-$-môđun tự do $N_p$. Xét đồng cấu $u : A^p \to \mathbf{N}$ sao cho $u(e_i) = x_i$ với $1 \leq i \leq p$, $(e_i)_{1 \leq i \leq p}$ là cơ sở chính tắc của $A^p$. Vì $u_p$ song ánh theo giả thiết, tồn tại $f \in A - p$ sao cho $u_f$ song ánh, theo Mệnh đề 2.
 
-#### Mệnh đề 3 {#ac-ii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#ac-ii-s5-prop-3 .statement tag=04BH}
 
 *Cho* $(f_i)_{i \in I}$ *là một họ hữu hạn các phần tử của một vành* $A$, *sinh iđêan* $A$ *của* $A$. *Vành* $B = \prod_{i \in I} A_i$, *khi đó là một* $A$*-môđun phẳng trung thành*.
 
 Theo § 2, số **4**, Định lý 1, mỗi $A_i$ là một $A$-môđun phẳng, do đó $B$ cũng vậy (Chương I, § 2, no. 3, Mệnh đề 2). Mặt khác, nếu $p$ là một iđêan nguyên tố của $A$, tồn tại một chỉ số $i$ sao cho $f_i \notin p$ và do đó $p_{f_i} = pA_{f_i}$ là một iđêan nguyên tố của $A_{f_i}$. Khi đó $pB \subset pA_{f_i} \times \prod_{j \neq i} A_j \neq B$ vì $pA_{f_i} \neq A_{f_i}$; điều này đủ để suy ra rằng $B$ là một $A$-môđun phẳng trung thành (Chương I, § 3, no. 1, Mệnh đề 1).
 
-#### Hệ quả {#ac-ii-s5-n1-cor-2 .statement}
+#### Hệ quả {#ac-ii-s5-n1-cor-2 .statement tag=04BI}
 
 *Dưới các giả thiết của Mệnh đề 3, đối với một* $A$*-môđun* $M$ *để là sinh hữu hạn (tương ứng, hữu hạn trình bày), điều kiện cần và đủ là, với mọi chỉ số* $i$, *$A_{f_i}$*-môđun* $M_{f_i}$ *là sinh hữu hạn (tương ứng, hữu hạn trình bày)*.
 
@@ -103,7 +103,7 @@ Chú ý rằng điều kiện trên các $f_i$ có nghĩa là các tập mở $X
 
 ### 2. ĐẶC TRƯNG HÓA ĐỊA PHƯƠNG CÁC MÔĐUN XẠ ẢNH HỮU HẠN SINH
 
-#### Định lý 1 {#ac-ii-s5-thm-1 .statement}
+#### Định lý 1 {#ac-ii-s5-thm-1 .statement tag=04BJ}
 
 *Cho* $A$ *là một vành và* $P$ *là một* $A$*-môđun*. *Các tính chất sau là tương đương*:
 
@@ -141,13 +141,13 @@ M = \prod_{i \in I} P_i = P \otimes_A B.
 $$
 Với mỗi chỉ số $i$, tồn tại một A_i-môđun tự do $L$, sao cho $P_i$ là một nhân tử trực tiếp của $L$, và có thể giả thiết rằng mọi $L$, có cùng hạng; khi đó $L = \prod_{i \in I} L_i$ là một B-môđun tự do mà M là một nhân tử trực tiếp, nói cách khác M là một B-môđun xạ ảnh sinh hữu hạn. Vì B là một A-môđun phẳng trung thành (no. 1, Mệnh đề 3), ta kết luận rằng P là một A-môđun xạ ảnh sinh hữu hạn (Chương I, §3, no. 6, Mệnh đề 12).
 
-#### Hệ quả 1 {#ac-ii-s5-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-ii-s5-thm-1-cor-1 .statement tag=04BK}
 
 Giả sử các tính chất tương đương của mệnh đề của Định lý 1 được thỏa mãn. Cho m là một số nguyên > 0 sao cho, với mọi họ $(x_i)_{1 \leq i \leq m}$ các phần tử của P, tồn tại một họ $(a_i)_{1 \leq i \leq m}$ các phần tử của A, mà không phải tất cả đều là ước của không và sao cho $\sum_{i=1}^m a_i x_i = 0$. Khi đó, với mọi $p \in \operatorname{Spec}(A)$, $r_p \leq m$.
 
 Cho p là một iđêan nguyên tố của A; đặt $r = r_p$ và cho $(y_j)_{1 \leq j \leq r}$ là một cơ sở của A_p-môđun tự do $P_p$. Tồn tại các phần tử $x_j$ ($1 \leq j \leq r$) của P và $s \in A - p$ sao cho $y_j = x_j / s$ với mọi $j$. Khi đó, với mọi họ $(a_j)_{1 \leq j \leq r}$ các phần tử của A sao cho $\sum_{j=1}^r a_j x_j = 0$, $\sum_{j=1}^r (a_j/1) y_j = 0$ trong $P_p$, do đó $a_j/1 = 0$ với $1 \leq j \leq r$. Vì $A - p$ không chứa 0, điều này chứng tỏ rằng các $a_j$ đều là ước của không trong A (§ 2, no. 1, Nhận xét 3), do đó tất yếu $r \leq m$.
 
-#### Hệ quả 2 {#ac-ii-s5-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-ii-s5-thm-1-cor-2 .statement tag=04BL}
 
 Mọi môđun phẳng trình bày hữu hạn đều là xạ ảnh.
 
@@ -159,13 +159,13 @@ Nhận xét
 
 ### 3. HẠNG CỦA CÁC MÔĐUN XẠ ẢNH
 
-#### Định nghĩa 1 {#ac-ii-s5-def-1 .statement}
+#### Định nghĩa 1 {#ac-ii-s5-def-1 .statement tag=04BM}
 
 Cho P là một A-môđun xạ ảnh sinh hữu hạn. Với mọi iđêan nguyên tố $p$ của A, hạng của A_p-môđun tự do $P_p$ được gọi là hạng của P tại $p$ và được ký hiệu bởi $\operatorname{rg}_p(P)$.
 
 Theo Định lý 1, hàm nhận giá trị nguyên $p \mapsto \mathrm{rg}_p(P)$ là *hằng địa phương* trên $X = \mathrm{Spec}(A)$; do đó nó là hằng nếu $X$ *liên thông* và đặc biệt nếu vành $A$ là một *miền nguyên* (§ 4, no. 3, Hệ quả 2 của Mệnh đề 15).
 
-#### Định nghĩa 2 {#ac-ii-s5-def-2 .statement}
+#### Định nghĩa 2 {#ac-ii-s5-def-2 .statement tag=04BN}
 
 *Cho $n$ là một số nguyên $\geqslant 0$. Một môđun $A$ xạ ảnh $P$ được gọi là *có hạng* $n$ nếu nó sinh hữu hạn và $\mathrm{rg}_p(P) = n$ với mọi iđêan nguyên tố $p$ của $A$.*
 
@@ -173,7 +173,7 @@ Rõ ràng mọi $A$-môđun *tự do* $L$ sinh hữu hạn đều có hạng $n$
 
 Một môđun xạ ảnh có hạng 0 là không (§ 3, no. 3, Hệ quả 2 của Định lý 1). Nếu $A$ không rút gọn về 0 và một $A$-môđun xạ ảnh $P$ có hạng $n$, thì số nguyên $n$ được xác định duy nhất; khi đó nó được ký hiệu là $\mathrm{rg}(P)$.
 
-#### Định lý 2 {#ac-ii-s5-thm-2 .statement}
+#### Định lý 2 {#ac-ii-s5-thm-2 .statement tag=04BO}
 
 *Cho $P$ là một $A$-môđun và $n$ là một số nguyên $\geqslant 0$. Các tính chất sau là tương đương:*
 
@@ -187,7 +187,7 @@ Một môđun xạ ảnh có hạng 0 là không (§ 3, no. 3, Hệ quả 2 củ
 
 Theo Định nghĩa 2 và Định lý 1, (a) và (c) là tương đương; (b) suy ra (c), vì, với mọi iđêan nguyên tố $p$ của $A$, tồn tại một iđêan cực đại $m$ chứa $p$ và, đặt $p' = p_m$, $P_p$ đẳng cấu với $(P_m)_{p'}$ (§ 2, no. 5, Mệnh đề 11); nếu $P_m$ là tự do có hạng $n$, thì $P_{p'}$ cũng vậy. Tính chất (c) suy ra (d) theo Định lý 1 và sự kiện rằng, iff $\in A - m$ và $m' = m_f$, $P_m$ đẳng cấu với $(P_f)_{m'}$ và do đó các hạng của $P_f$ và $P$ bằng nhau. Cuối cùng, lập luận sau cùng này và Định lý 1 cho thấy (d) suy ra (b).
 
-#### Nhận xét {#ac-ii-s5-n3-rem-1 .statement}
+#### Nhận xét {#ac-ii-s5-n3-rem-1 .statement tag=04BP}
 
 *Nếu* $A$ *là một miền nguyên, một* $A$-*môđun xạ ảnh có một hạng được xác định tốt* (theo nghĩa của Định nghĩa 2), *như đã nhận thấy ở trên; hơn nữa, hạng này trùng với hạng được định nghĩa trong Đại số, Chương II, § 7, no. 2; chỉ cần áp dụng Định lý 2 (c) với* $p = (0)$.
 
@@ -208,11 +208,11 @@ $$
 
 Nếu các hạng của E và F được xác định, thì các hạng của $E \times F, E \otimes_A F,$ $\mathrm{Hom}_A(E, F), E^*$ và $\wedge^k E$ cũng được xác định và các đẳng thức trên cũng đúng khi bỏ chỉ số $p$. Hơn nữa:
 
-#### Hệ quả {#ac-ii-s5-n3-cor-1 .statement}
+#### Hệ quả {#ac-ii-s5-n3-cor-1 .statement tag=04BQ}
 
 *Để một A-môđun xạ ảnh sinh hữu hạn P có hạng n, điều kiện cần và đủ là $\mathbf{A}^n P$ có hạng 1.*
 
-#### Mệnh đề 4 {#ac-ii-s5-prop-4 .statement}
+#### Mệnh đề 4 {#ac-ii-s5-prop-4 .statement tag=04BR}
 
 *Cho B là một đại số giao hoán trên A và P là một A-môđun xạ ảnh có hạng n. Khi đó B-môđun $P_{(B)} = B \otimes_A P$ là xạ ảnh có hạng n.*
 
@@ -224,7 +224,7 @@ $$
 
 và, theo giả thiết, $P \otimes_A A_i$ là một A,-môđun tự do có hạng $n$, $(P_{(B)})_q$ là một $B_q$-môđun tự do có hạng $n$.
 
-#### Mệnh đề 5 {#ac-ii-s5-prop-5 .statement}
+#### Mệnh đề 5 {#ac-ii-s5-prop-5 .statement tag=04BS}
 
 *Cho A là một vành bán địa phương và P là một A-môđun xạ ảnh sinh hữu hạn. Nếu hạng của P được xác định, thì P là một A-môđun tự do.*
 
@@ -232,7 +232,7 @@ Trước hết giả sử rằng A đẳng cấu với một tích các trườn
 
 ### 4. CÁC MÔĐUN XẠ ẢNH HẠNG 1
 
-#### Định lý 3 {#ac-ii-s5-thm-3 .statement}
+#### Định lý 3 {#ac-ii-s5-thm-3 .statement tag=04BT}
 
 Cho $A$ là một vành và $M$ là một A-môđun sinh hữu hạn.
 
@@ -256,7 +256,7 @@ $$
 N \to N \otimes A \to N \otimes M \otimes M^* + A \otimes M^* \to M^*.
 $$
 
-#### Mệnh đề 6 {#ac-ii-s5-prop-6 .statement}
+#### Mệnh đề 6 {#ac-ii-s5-prop-6 .statement tag=04BU}
 
 *Cho $M$ và $N$ là các $A$-môđun xạ ảnh hạng 1. Khi đó $M \otimes_A N$, $\operatorname{Hom}_A(M, N)$ và đối ngẫu $M^*$ của $M$ là các môđun xạ ảnh hạng 1.*
 
@@ -270,7 +270,7 @@ N hạng 1, cl(M \otimes_A N) chỉ phụ thuộc vào cl(M) và cl(N); theo đ�
 
 và do đó một luật hợp thành nội tại được xác định trên $P(A)$.
 
-#### Mệnh đề 7 {#ac-ii-s5-prop-7 .statement}
+#### Mệnh đề 7 {#ac-ii-s5-prop-7 .statement tag=04BV}
 
 *Tập hợp $P(A)$ các lớp của các A-môđun xạ ảnh hạng 1, với luật hợp thành (6), là một nhóm giao hoán. Nếu M là một A-môđun xạ ảnh hạng 1 và $M^*$ là đối ngẫu của nó, thì*
 
@@ -294,13 +294,13 @@ Trong số này và hai số tiếp theo, $A$ ký hiệu một vành, $S$ một 
 
 Một trong những trường hợp riêng quan trọng nhất đối với các ứng dụng là trường hợp $A$ là một miền nguyên và $S$ là tập hợp các phần tử $\neq 0$ của $A$; khi đó $B$ là trường phân thức của $A$.
 
-#### Định nghĩa 3 {#ac-ii-s5-def-3 .statement}
+#### Định nghĩa 3 {#ac-ii-s5-def-3 .statement tag=04BW}
 
 Cho $M$ là một A-môđun con của $B$. $M$ được gọi là không suy biến nếu $B.M = B$.
 
 Nếu $B$ là một trường, điều kiện này đơn giản có nghĩa là $M$ không bị thu về 0.
 
-#### Mệnh đề 8 {#ac-ii-s5-prop-8 .statement}
+#### Mệnh đề 8 {#ac-ii-s5-prop-8 .statement tag=04BX}
 
 Cho $M$ là một A-môđun con của $B$. Các điều kiện sau là tương đương:
 (a) $M$ là không suy biến.
@@ -309,7 +309,7 @@ Cho $M$ là một A-môđun con của $B$. Các điều kiện sau là tương �
 
 (a) suy ra (b), vì nếu $B.M = B$, thì tồn tại $a \in A, s \in S$ và $x \in M$ sao cho $(a/s)x = 1$, do đó $ax = s$ thuộc $S \cap M$. Để thấy rằng (b) suy ra (c), chú ý rằng $u$ đã là đơn ánh ($§ 2$, no. 4, Định lý 1); hơn nữa, nếu $x \in M \cap S$, thì ảnh qua $u$ của $x/x \in S^{-1}M$ trong $B$ bằng 1 và do đó $u$ là toàn ánh. Cuối cùng, (c) rõ ràng suy ra (a).
 
-#### Hệ quả {#ac-ii-s5-n5-cor-1 .statement}
+#### Hệ quả {#ac-ii-s5-n5-cor-1 .statement tag=04BY}
 
 Nếu $M$ và $N$ là hai A-môđun con không suy biến của $B$, thì các A-môđun $M + N, M.N$ và $M \cap N$ đều không suy biến.
 
@@ -317,7 +317,7 @@ Mệnh đề là tầm thường đối với $M + N$; mặt khác nếu $s \in 
 
 Cho hai môđun con-A $M$ và $N$ của $B$, ký hiệu $N : M$ là môđun con-A của $B$ gồm các $b \in B$ sao cho $bM \subset N$ (Chương I, $§ 2$, no. 10, Nhận xét). Nếu mỗi $b \in N : M$ được ánh xạ tới đồng cấu $h_b : x \mapsto bx$ từ $M$ vào $N$, thì thu được một đồng cấu chính tắc $b \mapsto h_b$ từ $N : M$ tới $\operatorname{Hom}_A(M, N)$.
 
-#### Mệnh đề 9 {#ac-ii-s5-prop-9 .statement}
+#### Mệnh đề 9 {#ac-ii-s5-prop-9 .statement tag=04BZ}
 
 Cho $M, N$ là hai môđun con-A của $B$. Nếu $M$ không suy biến, thì đồng cấu chính tắc từ $N : M$ tới $\operatorname{Hom}_A(M, N)$ là song ánh.
 
@@ -327,7 +327,7 @@ f(x) = s^{-1}t^{-1}f(stx) = s^{-1}t^{-1}txf(s) = bx,
 $$
 do đó $b \in N : M$ và $f = h_b$, điều này chứng minh mệnh đề.
 
-#### Nhận xét {#ac-ii-s5-n5-rem-1 .statement}
+#### Nhận xét {#ac-ii-s5-n5-rem-1 .statement tag=04C0}
 
 Đặc biệt, $A : M$ được đồng nhất một cách chính tắc với đối ngẫu $M^*$ của $M$, dạng song tuyến tính chính tắc trên $M \times M^*$ được đồng nhất với hạn chế lên $M \times (A : M)$ của phép nhân $B \times B \to B$.
 
@@ -335,15 +335,15 @@ do đó $b \in N : M$ và $f = h_b$, điều này chứng minh mệnh đề.
 
 (Ta giữ nguyên ký hiệu của no. 5.)
 
-#### Định nghĩa 4 {#ac-ii-s5-def-4 .statement}
+#### Định nghĩa 4 {#ac-ii-s5-def-4 .statement tag=04C1}
 
 *Một môđun con*-A $M$ của $B$ được gọi là khả nghịch nếu tồn tại một *môđun con*-A $N$ của $B$ sao cho $M.N = A$.
 
-#### Ví dụ {#ac-ii-s5-n6-exa-1 .statement}
+#### Ví dụ {#ac-ii-s5-n6-exa-1 .statement tag=04C2}
 
 Nếu $b$ là một phần tử khả nghịch của $B$, thì $A$-môđun $Ab$ là khả nghịch, như thấy được bằng cách lấy $N = Ab^{-1}$.
 
-#### Mệnh đề 10 {#ac-ii-s5-prop-10 .statement}
+#### Mệnh đề 10 {#ac-ii-s5-prop-10 .statement tag=04C3}
 
 *Cho $M$ là một môđun con*-A*-môđun khả nghịch của $B$. Khi đó:
 (i) Tồn tại $s \in S$ sao cho $As \subset M \subset As^{-1}$ (và đặc biệt $M$ là không suy biến).
@@ -356,7 +356,7 @@ A = M.N \subset M.(A : M) \subset A
 $$
 và $M.(A : M) = A$; nhân hai vế với $N$, ta suy ra $A : M = N$, điều này hoàn tất chứng minh.
 
-#### Định lý 4 {#ac-ii-s5-thm-4 .statement}
+#### Định lý 4 {#ac-ii-s5-thm-4 .statement tag=04C4}
 
 *Cho $M$ là một môđun con*-A*-môđun* không suy biến của $B$. *Các tính chất sau là tương đương*:
 (a) $M$ là khả nghịch.
@@ -378,12 +378,12 @@ Kéo theo (c) $\Rightarrow$ (b) là tầm thường. Ta hãy chứng minh rằng
 
 Theo Định nghĩa 2 của no. 3, (c) kéo theo (d). Ta hãy chứng minh đảo lại. Vì M không suy biến, linh hóa tử của nó là không (Mệnh đề 8 (b)), do đó linh hóa tử của $M_m$ cũng vậy (§ 2, no. 4, công thức (9)). Vì M, được giả thiết là một &-môđun đơn sinh, nên nó là tự do có hạng 1 và từ no. 3, Định lý 2 suy ra rằng M là xạ ảnh có hạng 1.
 
-#### Hệ quả {#ac-ii-s5-n6-cor-1 .statement}
+#### Hệ quả {#ac-ii-s5-n6-cor-1 .statement tag=04C5}
 
 Mọi môđun con khả nghịch của B đều phẳng và có trình bày hữu hạn.
 Điều này suy ra từ Định lý 4 (c).
 
-#### Mệnh đề 11 {#ac-ii-s5-prop-11 .statement}
+#### Mệnh đề 11 {#ac-ii-s5-prop-11 .statement tag=04C6}
 
 Cho M, N là hai A-môđun con của B. Giả sử rằng M là khả nghịch. Khi đó:
 (i) Đồng cấu chính tắc $M \otimes_A N \to M . N$ là song ánh.
@@ -399,7 +399,7 @@ $$
 
 và $N = M.M'.N \subset M.(N : M)$, do đó có (ii).
 
-#### Nhận xét {#ac-ii-s5-n6-rem-1 .statement}
+#### Nhận xét {#ac-ii-s5-n6-rem-1 .statement tag=04C7}
 
 Chứng minh của (i) trong Mệnh đề 11 chỉ sử dụng sự kiện rằng $M$ là phẳng và không suy biến.
 
@@ -419,7 +419,7 @@ trong đó (1) ký hiệu nhóm chỉ gồm phần tử đơn vị và $\rho$ l�
 
 Vì mọi A-môđun con khả nghịch M của B đều là xạ ảnh có hạng 1 (no. 6, Định lý 4), phần tử $cl(M) \in P(A)$ được xác định (no. 4).
 
-#### Mệnh đề 12 {#ac-ii-s5-prop-12 .statement}
+#### Mệnh đề 12 {#ac-ii-s5-prop-12 .statement tag=04C8}
 
 *Ánh xạ* $cl : \mathfrak{g} \to P(A)$ *xác định, bằng cách lấy thương, một đẳng cấu từ* $\mathfrak{c} = \mathfrak{g}/\theta(B^*)$ *lên hạt nhân của đồng cấu chính tắc*
 
@@ -439,17 +439,17 @@ Từ Mệnh đề 11 của no. 6 và định nghĩa phép cộng trong $P(A)$ su
 
 Bây giờ ta xác định ảnh của $cl$. Nếu $M \in \mathfrak{J}$, thì $M \otimes_A B = S^{-1}M = B$ (no. 5, Mệnh đề 8 (c)), do đó $cl(M) \in \mathrm{Ker}(\phi)$. Ngược lại, cho $P$ là một $A$-môđun xạ ảnh hạng 1 sao cho $P_{(B)} = P \otimes_A B$ là đẳng cấu với $B$-môđun $B$. Vì $P$ là một $A$-môđun phẳng, đơn ánh $u : A \to B$ xác định một đơn ánh $u \otimes 1 : P \to P_{(B)} = B$ và do đó $P$ được đồng nhất với một môđun con-$A$ của $B$; theo Mệnh đề 8 (c) của no. 5, $P$ là không suy biến và Định lý 4 của no. 6 cho thấy rằng $P$ là khả nghịch. Hạt nhân của $\phi$ vì vậy bằng ảnh của $cl : \mathfrak{J} \to P(A)$.
 
-#### Hệ quả 1 {#ac-ii-s5-prop-12-cor-1 .statement}
+#### Hệ quả 1 {#ac-ii-s5-prop-12-cor-1 .statement tag=04C9}
 
 *Đối với hai môđun con-$A$ khả nghịch của B có cùng ảnh trong $\mathfrak{C}$, điều kiện cần và đủ là chúng đẳng cấu.*
 
-#### Hệ quả 2 {#ac-ii-s5-prop-12-cor-2 .statement}
+#### Hệ quả 2 {#ac-ii-s5-prop-12-cor-2 .statement tag=04CA}
 
 *Nếu vành $B$ là nửa địa phương, nhóm $\mathfrak{C}$ các lớp của các môđun con-$A$ khả nghịch của B được đồng nhất một cách chính tắc với nhóm $P(A)$ các lớp của các $A$-môđun xạ ảnh hạng 1.*
 
 Trong trường hợp này $P(B) = 0$ (no. 3, Mệnh đề 5).
 
-#### Nhận xét {#ac-ii-s5-n7-rem-1 .statement}
+#### Nhận xét {#ac-ii-s5-n7-rem-1 .statement tag=04CB}
 
 Giả thiết của Hệ quả 2 được thỏa mãn trong hai trường hợp sau:
 

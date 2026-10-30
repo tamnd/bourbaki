@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: 42074351e9f07ba6b9d50fbb95513dde303767114b758a8c6409b63c70e1873e
+content_sha256: fb55bd10a475b65b680df717ab6d32237e9e78c5a6d97b2d12242fd922fceedc
 ---
 
 ## § 8. DUALITÉ DES MODULES DE LONGUEUR FINIE
@@ -49,7 +49,7 @@ content_sha256: 42074351e9f07ba6b9d50fbb95513dde303767114b758a8c6409b63c70e1873e
 
 Soit $A$ un anneau. La relation « $I$ est une classe de $A$-modules injectifs indécomposables » est collectivisante (A, X, p. 21, cor. 1) ; nous noterons $\mathscr{J}(A)$ l’ensemble des classes de $A$-modules injectifs indécomposables.
 
-#### Proposition 1 {#ac-x-s8-prop-1 .statement}
+#### Proposition 1 {#ac-x-s8-prop-1 .statement tag=0DAA}
 
 Soit $A$ un anneau noethérien. Pour tout idéal premier $\mathfrak{p}$ de $A$, soit $e_{\mathfrak{p}} : A/\mathfrak{p} \to I(\mathfrak{p})$ une enveloppe injective de $A/\mathfrak{p}$ (A, X, § 1, n° 9).
 
@@ -65,25 +65,25 @@ Soit $I$ un $A$-module injectif indécomposable, et soient $\mathfrak{p}, \mathf
 
 Nous avons ainsi défini deux applications $\mathfrak{p} \mapsto \mathrm{cl}(I(\mathfrak{p}))$ de $\mathrm{Spec}(A)$ dans $\mathscr{J}(A)$ et $I \mapsto \mathfrak{p}(I)$ de $\mathscr{J}(A)$ dans $\mathrm{Spec}(A)$ ; prouvons que ces deux applications sont des bijections réciproques l’une de l’autre. Soit $\mathfrak{p} \in \mathrm{Spec}(A)$ ; alors $\mathfrak{p}$ appartient à $\mathrm{Ass}(I(\mathfrak{p}))$, et c’est donc l’unique élément de $\mathrm{Ass}(I(\mathfrak{p}))$. Soient $I$ un $A$-module injectif indécomposable, et $\mathfrak{p}$ l’unique élément de $\mathrm{Ass}(I)$ ; alors $I$ est une enveloppe injective de $A/\mathfrak{p}$ (A, X, p. 21, prop. 14). Cela achève la démonstration de la proposition.
 
-#### Remarque 1 {#ac-x-s8-n1-rem-1 .statement}
+#### Remarque 1 {#ac-x-s8-n1-rem-1 .statement tag=0DAB}
 
 Soit $I$ un $A$-module injectif indécomposable, et soit $\mathfrak{p}$ l’unique élément de $\mathrm{Ass}(I)$ ; d’après la prop. 1, $I$ contient un sous-module isomorphe à $A/\mathfrak{p}$ dont il est enveloppe injective. En général un tel sous-module n’est pas unique, comme on le constate en prenant $A = \mathbf{Z}$, $\mathfrak{p} = 0$, $I = \mathbf{Q}$.
 
 Pour chaque idéal premier $\mathfrak{p}$ de $A$, choisissons comme ci-dessus une enveloppe injective $(I(\mathfrak{p}), e_{\mathfrak{p}})$ de $A/\mathfrak{p}$. D’après A, X, p. 22, th. 3, on a :
 
-#### Théorème 1 {#ac-x-s8-thm-1 .statement}
+#### Théorème 1 {#ac-x-s8-thm-1 .statement tag=0DAC}
 
 Soit $A$ un anneau noethérien. Pour tout $A$-module injectif $I$, il existe une famille de cardinaux $(a_{\mathfrak{p}})_{\mathfrak{p} \in \mathrm{Spec}(A)}$, et une seule, telle que $I$ soit isomorphe à $\bigoplus_{\mathfrak{p}} I(\mathfrak{p})^{(a_{\mathfrak{p}})}$.
 
 D’après IV, , n° 1, cor. 1 de la prop. 3, l’ensemble Ass(I) est alors le support de la famille $(a_p)$
 
-#### Remarque 2 {#ac-x-s8-n1-rem-2 .statement}
+#### Remarque 2 {#ac-x-s8-n1-rem-2 .statement tag=0DAD}
 
 Soient $A$ un anneau noethérien, $M$ un $A$-module, $e : M \to I$ une enveloppe injective de $M$. *L’ensemble Ass(M) est égal à Ass(I)* : en effet l’inclusion $Ass(M) \subset Ass(I)$ est évidente. D’autre part, si $p$ est un élément de $Ass(I)$, $I$ contient un sous-module $N$ isomorphe à $A/p$ ; comme le $A$-module $e^{-1}(N)$ est non nul, on a $Ass(e^{-1}(N)) = \{p\}$ (IV, § 1, n° 1, prop. 1). Cela prouve que $p$ est associé à $e^{-1}(N)$, donc à $M$, d’où notre assertion.
 
 Prenons les notations du théorème, et supposons de plus $Ass(M)$ fini. Pour tout $q \in Ass(M)$, notons $Q_q$ l’intersection avec $M$ de $\bigoplus_{p \in Ass(M) - \{q\}} I(p)^{(a_p)}$. Alors $(Q_q)_{q \in Ass(M)}$ *est une décomposition primaire réduite de 0 dans M* (IV, § 2, n° 3, déf. 3). On a en effet $\cap Q_q = 0$ ; comme $M/Q_q$ s’identifie à un sous-module non nul de $I(q)^{(a_q)}$, on a $Ass(M/Q_q) = \{q\}$, et il suffit d’appliquer la prop. 4 de *loc. cit*.
 
-#### Exemple {#ac-x-s8-n1-exa-1 .statement}
+#### Exemple {#ac-x-s8-n1-exa-1 .statement tag=0DAE}
 
 Soit $A$ un anneau principal, et soit $K$ son corps des fractions. Les $A$-modules injectifs sont les $A$-modules divisibles (A, X, p. 17, cor. 2). Le $A$-module $K$ est une enveloppe injective de $A$ (A, X, p. 20, exemple 1). Soient $p$ un élément extrémal de $A$, et $p$ l’idéal (maximal) $Ap$ ; notons $e : A/p \longrightarrow K/A_p$ l’homomorphisme qui applique la classe d’un élément $a \in A$ sur la classe de $a/p$. Prouvons que $(K/A_p, e)$ *est une enveloppe injective de $A/p$*. L’homomorphisme $e$ est injectif. Le $A$-module $K/A_p$ est un quotient d’un module divisible, donc est divisible. Soit $x$ un élément non nul de $K/A_p$ ; c’est la classe d’un élément $a/p^n$ de $K$, avec $a \in A - \{0\}$ et $n \geqslant 1$ (A, VII, p. 10, th. 2). On a alors $p^{n-1}x = e(a)$, donc $e^{-1}(Ax) \neq 0$, ce qui prouve notre assertion.
 
@@ -91,7 +91,7 @@ Il résulte alors du th. 1 que *tout $A$-module divisible est somme directe de $
 
 ### 2. Structure des modules injectifs indécomposables
 
-#### Lemme 1 {#ac-x-s8-lem-1 .statement}
+#### Lemme 1 {#ac-x-s8-lem-1 .statement tag=0DAF}
 
 Soient $A$ un anneau, $a$ un idéal de $A$, et $I$ un $A$-module. Pour tout entier $n \geqslant 0$, notons $I_n$ le sous-module de $I$ formé des éléments annulés par $a^n$.
 
@@ -117,7 +117,7 @@ $$
 
 Pour $a \in \mathrm{gr}(A)$, $x \in \mathrm{gr}^\alpha(E)$, $\beta_E(x)(a)$ est par définition le composant dans $\mathrm{gr}^\alpha(E)_0 = E_1$ de l’élément $ax$ de $\mathrm{gr}^\alpha(E)$. Il en résulte que $\beta_E$ est $\mathrm{gr}(A)$-linéaire lorsqu’on munit $\mathrm{Hom}_{\mathrm{gr}_{A/\alpha}}(\mathrm{gr}(A), E_1)$ de la structure de $\mathrm{gr}(A)$-module définie par la formule $(bf)(a) = f(ab)$ pour $a, b$ dans $\mathrm{gr}(A)$ et $f$ dans $\mathrm{Hom}_{\mathrm{gr}_{A/\alpha}}(\mathrm{gr}(A), E_1)$.
 
-#### Proposition 2 {#ac-x-s8-prop-2 .statement}
+#### Proposition 2 {#ac-x-s8-prop-2 .statement tag=0DAG}
 
 *Soient $A$ un anneau noethérien, $\alpha$ un idéal de $A$, $E$ un $A$-module et $M$ un sous-$A$-module de $E$ annulé par $\alpha$. Les conditions suivantes sont équivalentes :*
     (i) *$E$ est une enveloppe injective de $M$* ;
@@ -143,7 +143,7 @@ $$
 
 Puisque $E_1$ et $I_1$ sont des enveloppes injectives du $A/\alpha$-module $M$, l’homomorphisme $\varphi_1$ est bijectif ; puisque $\beta_E$ et $\beta_I$ sont bijectifs, il en résulte que $\operatorname{gr}^{a}(\varphi)$ est bijectif. Cela implique, par récurrence sur $n$, que $\varphi$ induit une bijection de $E_n$ sur $I_n$ pour tout $n \geq 1$ ; donc $\varphi$ est bijectif, ce qui entraîne (i).
 
-#### Lemme 2 {#ac-x-s8-lem-2 .statement}
+#### Lemme 2 {#ac-x-s8-lem-2 .statement tag=0DAH}
 
 *Soient $A$ un anneau, $\alpha$ un idéal de type fini de $A$, et $M$ un $A$-module dont tout élément est annulé par une puissance de $\alpha$. Notons $\widehat{A}$ le séparé complété de $A$ pour la topologie $\alpha$-adique.*
 
@@ -163,7 +163,7 @@ $$
 
 de sorte que $u$ est $\widehat{A}$-linéaire.
 
-#### Proposition 3 {#ac-x-s8-prop-3 .statement}
+#### Proposition 3 {#ac-x-s8-prop-3 .statement tag=0DAI}
 
 *Soient $A$ un anneau noethérien, $p$ un idéal premier de $A$ et $e : A/p \to I$ une enveloppe injective du $A$-module $A/p$. Pour tout entier $n \geq 0$, désignons par $I_n$ le sous-module de $I$ formé des éléments annulés par $p^n$.*
 
@@ -193,11 +193,11 @@ $$
 
 (formule (1)). L’application linéaire $I_{n+1}/I_n \longrightarrow \mathrm{Hom}_{\kappa(\mathfrak{p})}(\mathfrak{p}^n A_p/\mathfrak{p}^{n+1} A_p, I_1)$ qui lui est associée à gauche s’identifie à $\beta_{I,-n}$, et celle qui lui est associée à droite est $\alpha'_{n+1}$. Comme $\beta_{I,-n}$ est bijective d’après a), il en est de même de $\alpha'_{n+1}$; on déduit alors du diagramme ci-dessus, par récurrence sur $n$, que $\alpha_n$ est un isomorphisme pour tout $n$. Comme $I$ est réunion des $I_n$, l’application canonique $\mathrm{End}_A(I) \to \varprojlim \mathrm{Hom}_A(I_n, I)$ est bijective ; l’homomorphisme d’anneaux $\widehat{A_p} \to \mathrm{End}_A(I)$, qui s’identifie à la limite projective des applications $\alpha_n$, est donc bijectif.
 
-#### Remarque {#ac-x-s8-n2-rem-1 .statement}
+#### Remarque {#ac-x-s8-n2-rem-1 .statement tag=0DAJ}
 
 Il résulte de la démonstration précédente que l’annulateur de $I_n$ dans $\widehat{A_p}$ (resp. dans $A_p$) est $\mathfrak{p}^n \widehat{A_p}$ (resp. $\mathfrak{p}^n A_p$). Par suite l’annulateur du $A$-module $I_n$ est l’image réciproque dans $A$ de l’idéal $\mathfrak{p}^n A_p$, que l’on note parfois $\mathfrak{p}^{(n)}$ et que l’on appelle la puissance symbolique $n$-ième de l’idéal premier $\mathfrak{p}$.
 
-#### Corollaire {#ac-x-s8-n2-cor-1 .statement}
+#### Corollaire {#ac-x-s8-n2-cor-1 .statement tag=0DAK}
 
 Soit J un A-module injectif tel que Ass_A(J) = {p}.
 
@@ -211,7 +211,7 @@ En effet, J est isomorphe à un A-module I^{(c)}, où c est un cardinal convenab
 
 Dans ce numéro, on suppose que l’anneau A est local noethérien.
 
-#### Définition {#ac-x-s8-n3-def-1 .statement}
+#### Définition {#ac-x-s8-n3-def-1 .statement tag=0DAL}
 
 On dit qu’un A-module I est un A-module de Matlis s’il est injectif, que m_A est son unique idéal premier associé et que le κ_A-espace vectoriel Hom_A(κ_A, I) est de dimension 1.
 
@@ -225,7 +225,7 @@ $$
 
 est un isomorphisme. D’après la prop. 3 du n° 2, la structure de A-module de I s’étend en une unique structure de $\widehat{A}$-module, et l’homomorphisme canonique $\widehat{A} \to \operatorname{End}_A(I)$ est bijectif.
 
-#### Lemme 3 {#ac-x-s8-lem-3 .statement}
+#### Lemme 3 {#ac-x-s8-lem-3 .statement tag=0DAM}
 
 Soit I un A-module de Matlis. Alors :
 
@@ -240,7 +240,7 @@ Cela étant, soit $M_0 \supset M_1 \supset \ldots \supset M_n \supset \ldots$ un
 
 Soit $M$ un A-module. Rappelons (A, VIII, § 4, n° 6) que le socle de $M$ est la somme des sous-modules simples de $M$, c’est-à-dire l’ensemble des éléments de $M$ annulés par $m_A$; c’est un $\kappa_A$-espace vectoriel, canoniquement isomorphe à $\mathrm{Hom}_A(\kappa_A, M)$.
 
-#### Lemme 4 {#ac-x-s8-lem-4 .statement}
+#### Lemme 4 {#ac-x-s8-lem-4 .statement tag=0DAN}
 
 *Soient I un A-module de Matlis et M un $A$-module. Les conditions suivantes sont équivalentes :*
 
@@ -256,7 +256,7 @@ Soit $M$ un A-module. Rappelons (A, VIII, § 4, n° 6) que le socle de $M$ est l
 
 (ii) $\Rightarrow$ (iii) : supposons la condition (ii) vérifiée; soit $e : M \to J$ une enveloppe injective de $M$. On a $\mathrm{Ass}(M) \subset \{m_A\}$, donc $\mathrm{Ass}(J) \subset \{m_A\}$ (n° 1, remarque 2), et $J$ est isomorphe à $I^{(c)}$ pour un cardinal $c$ (n° 1, th. 1). Soit $x$ un élément non nul de $J$ annulé par $m_A$; comme le A-module $Ax$ est simple et que son intersection avec $e(M)$ n’est pas réduite à 0, $x$ appartient à $e(M)$. Ainsi $e$ induit un isomorphisme du socle de $M$ sur celui de $J$; par suite le socle de $M$ est de dimension $c$, ce qui prouve (iii) ainsi que la dernière assertion.
 
-#### Lemme 5 {#ac-x-s8-lem-5 .statement}
+#### Lemme 5 {#ac-x-s8-lem-5 .statement tag=0DAO}
 
 *Tout $\widehat{A}$-module artinien est artinien en tant que $A$-module.*
 
@@ -282,7 +282,7 @@ $$
 $$
 On note $\widehat{\alpha}_M : \widehat{A} \otimes_A M \longrightarrow D_{\widehat{A}}(D_A(M))$ l’application $\widehat{A}$-linéaire déduite de $\alpha_M$.
 
-#### Théorème 2 {#ac-x-s8-thm-2 .statement}
+#### Théorème 2 {#ac-x-s8-thm-2 .statement tag=0DAP}
 
 *Soit $M$ un $A$-module.*
 
@@ -354,7 +354,7 @@ $$
 
 on conclut par récurrence sur l’entier $\operatorname{long}_A(M)$.
 
-#### Remarque {#ac-x-s8-n3-rem-1 .statement}
+#### Remarque {#ac-x-s8-n3-rem-1 .statement tag=0DAQ}
 
 Supposons l’anneau $A$ artinien. On a $\operatorname{long}_A(I) = \operatorname{long}_A(D_A(A)) = \operatorname{long}(A)$ (th. 2, c)). Soit $M$ un $A$-module de type fini ; il admet une enveloppe injective isomorphe à $I^s$, où $s$ est la dimension du socle de $M$ (lemme 4). Par suite on a $\operatorname{long}_A(M) \leq s \operatorname{long}(A)$; pour qu’il y ait égalité, il faut et il suffit que $M$ soit injectif. En particulier, pour que le $A$-module $A$ soit injectif, il faut et il suffit que son socle soit de dimension 1 ; on retrouve ainsi le lemme 1 du § 3, n° 7.
 
@@ -372,7 +372,7 @@ on a $\operatorname{long}_A(M) = \varepsilon(z_0(M))$ (*loc. cit.*, exemple 3). 
 
 Soit $J$ un $A$-module de Matlis. Pour tout $A$-module $M$, nous noterons $D_A(M)$ ou simplement $D(M)$ le $A$-module $\operatorname{Hom}_A(M, J)$. Soit $\alpha_M$ l’homomorphisme de $M$ dans $D(D(M))$ défini par $\alpha_M(m)(f) = f(m)$ pour $m \in M,\ f \in D(M)$.
 
-#### Proposition 4 {#ac-x-s8-prop-4 .statement}
+#### Proposition 4 {#ac-x-s8-prop-4 .statement tag=0DAR}
 
 Pour que le A-module M soit de longueur finie, il faut et il suffit que D(M) soit de longueur finie. On a alors $z_0(D(M)) = z_0(M)$, $\operatorname{long}_A(M) = \operatorname{long}_A D(M)$, $\operatorname{Ann}_A(M) = \operatorname{Ann}_A(D(M))$, et l’application A-linéaire $\alpha_M$ est bijective.
 
@@ -380,7 +380,7 @@ Pour tout $m \in \Omega$, le $A_m$-module $D(M)_m$ s’identifie à $\operatorna
 
 Pour tout $a \in A$ on a $D(a_M) = a_{D(M)}$ et par suite $\operatorname{Ann}_A(M) \subset \operatorname{Ann}_A(D(M))$. Appliquant cela au A-module D(M) on en déduit l’inclusion opposée, d’où l’égalité $\operatorname{Ann}_A(M) = \operatorname{Ann}_A(D(M))$.
 
-#### Exemple {#ac-x-s8-n4-exa-1 .statement}
+#### Exemple {#ac-x-s8-n4-exa-1 .statement tag=0DAS}
 
 Soient A un anneau principal, K son corps des fractions. *Le A-module K/A est un module de Matlis* : en effet l’application canonique de K/A dans $\prod_{m \in \Omega} K/A_m$ induit un isomorphisme de K/A dans $\bigoplus_{m \in \Omega} K/A_m$ (A, VII, p. 10, th. 2) ; l’assertion résulte alors du n° 1, exemple 1. Nous avons d’ailleurs déjà démontré en A, VII, § 4, n° 9 que l’application $\alpha_M$ est bijective pour tout A-module M de longueur finie lorsque l’anneau A est principal.
 
@@ -406,11 +406,11 @@ $$
 $$
 est un isomorphisme.
 
-#### Exemple 1 {#ac-x-s8-n5-exa-1 .statement}
+#### Exemple 1 {#ac-x-s8-n5-exa-1 .statement tag=0DAT}
 
 Soit $J$ un $A$-module de Matlis. Posons $T(M) = \operatorname{Hom}_A(M, J)$ pour tout $A$-module $M$ de longueur finie et $T(f) = \operatorname{Hom}_A(f, 1_J)$ pour toute application $A$-linéaire $f$ entre $A$-modules de longueur finie. Alors les conditions FD 1) à FD 5) sont satisfaites. Nous allons voir ci-dessous (th. 3) que toute construction satisfaisant les conditions FD 1) à FD 5) est obtenue de cette façon.
 
-#### Exemple 2 {#ac-x-s8-n5-exa-2 .statement}
+#### Exemple 2 {#ac-x-s8-n5-exa-2 .statement tag=0DAU}
 
 Soient $C$ un complexe injectif de $A$-modules et $d$ un entier tels que $H^i(\operatorname{Homgr}_A(\kappa_A, C))$ soit nul pour $i \neq d$ et soit de longueur 1 pour $i = d$. Pour tout $A$-module $M$ de longueur finie, on a $H^i(\operatorname{Homgr}_A(M, C)) = 0$ pour $i \neq d$ : raisonnons en effet par récurrence sur la longueur de $M$, supposée $> 0$ ; il existe une suite exacte de $A$-modules $0 \to \kappa_A \to M \to N \to 0$, qui donne naissance à une suite exacte de complexes
 $$
@@ -420,11 +420,11 @@ et la conclusion résulte de l’hypothèse de récurrence appliquée à $N$.
 
 Posons $T(M) = H^d(\operatorname{Homgr}_A(M, C))$ pour tout $A$-module $M$ de longueur finie, et $T(f) = H^d(\operatorname{Homgr}_A(f, 1_C))$ pour toute application $A$-linéaire $f$ entre $A$-modules de longueur finie ; les conditions FD 1) à FD 5) sont satisfaites.
 
-#### Exemple 3 {#ac-x-s8-n5-exa-3 .statement}
+#### Exemple 3 {#ac-x-s8-n5-exa-3 .statement tag=0DAV}
 
 Soient $\Omega$ un $A$-module et $d$ un entier $\geqslant 0$ tels que $\operatorname{Ext}_A^i(\kappa_A, \Omega)$ soit nul pour $i \neq d$ et soit de longueur 1 pour $i = d$. Posons $T(M) = \operatorname{Ext}_A^d(M, \Omega)$ pour tout $A$-module de longueur finie $M$ et $T(f) = \operatorname{Ext}_A^d(f, 1_\Omega)$ pour toute application $A$-linéaire $f$ entre $A$-modules de longueur finie. On a alors $\operatorname{Ext}_A^i(M, \Omega) = 0$ pour tout $A$-module de longueur finie $M$ et tout $i \neq d$, et les conditions FD 1) à FD 5) sont satisfaites : il suffit en effet d’appliquer l’exemple précédent au cas où $C$ est la résolution injective canonique de $\Omega$.
 
-#### Exemple 4 {#ac-x-s8-n5-exa-4 .statement}
+#### Exemple 4 {#ac-x-s8-n5-exa-4 .statement tag=0DAW}
 
 Si $A$ est un anneau de Gorenstein, par exemple un anneau régulier, on peut appliquer l’exemple 3 en prenant $\Omega = A$ et $d = \dim(A)$ (§ 3, n° 7, prop. 11).
 
@@ -436,7 +436,7 @@ $$
 $$
 satisfaisant à $\theta_M(u)(x) = T(\varphi_{M,x})(u)$ pour $u \in T(M),\ x \in M$.
 
-#### Théorème 3 {#ac-x-s8-thm-3 .statement}
+#### Théorème 3 {#ac-x-s8-thm-3 .statement tag=0DAX}
 
 a) Le A-module I est un module de Matlis. Pour tout entier $m \geqslant 0$, $I_m$ est le sous-module de I formé des éléments annulés par $m_A^m$.
 
@@ -492,11 +492,11 @@ $$
 $$
 de noyau $I_n$. D’après c), $\gamma$ est la composée des flèches $\theta_{I_{n+1}} : I_{n+1} \to \mathrm{Hom}_A(A/\mathfrak{m}_A^{n+1}, I)$ et $\mathrm{Hom}(u, 1) : \mathrm{Hom}_A(A/\mathfrak{m}_A^{n+1}, I) \to \mathrm{Hom}_A(\mathfrak{m}_A^n/\mathfrak{m}_A^{n+1}, I)$; comme $\theta_{I_{n+1}}$ est l’application linéaire associée à la multiplication $A/\mathfrak{m}_A^{n+1} \times I_{n+1} \to I$, l’isomorphisme $I_{n+1}/I_n \to \mathrm{Hom}_A(\mathfrak{m}_A^n/\mathfrak{m}_A^{n+1}, I)$ déduit de $\gamma$ coïncide avec $\beta$, ce qui achève la démonstration.
 
-#### Exemple 5 {#ac-x-s8-n5-exa-5 .statement}
+#### Exemple 5 {#ac-x-s8-n5-exa-5 .statement tag=0DAY}
 
 Reprenons les hypothèses et notations de l’exemple 1. Alors $T(A/\mathfrak{m}_A^n) = \mathrm{Hom}_A(A/\mathfrak{m}_A^n, J)$ s’identifie au sous-module $J_n$ de $J$ formé des éléments annulés par $\mathfrak{m}_A^n$; par passage à la limite inductive on obtient un isomorphisme canonique de $I$ sur $J$.
 
-#### Exemple 6 {#ac-x-s8-n5-exa-6 .statement}
+#### Exemple 6 {#ac-x-s8-n5-exa-6 .statement tag=0DAZ}
 
 Reprenons les hypothèses et notations de l’exemple 3. On obtient que $I = \varinjlim \mathrm{Ext}_A^d(A/\mathfrak{m}_A^n, \Omega)$ est un $A$-module de Matlis. Pour tout $A$-module de longueur finie $M$, on dispose d’un $A$-isomorphisme canonique
 $$
@@ -508,7 +508,7 @@ En particulier, si l’anneau $A$ est de Gorenstein de dimension $d$, le $A$-mod
 
 ### 6. Changement d’anneaux ; dualité de Macaulay
 
-#### Proposition 5 {#ac-x-s8-prop-5 .statement}
+#### Proposition 5 {#ac-x-s8-prop-5 .statement tag=0DB0}
 
 Soit $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens, tel que l’extension résiduelle $\kappa_A \to \kappa_B$ induite par $\rho$ soit de degré fini. Soit $I_A$ un $A$-module de Matlis.
 
@@ -540,7 +540,7 @@ $$
 
 qui associe à $v \in \mathrm{Hom}_A(M, I_A)$ l’application $v'$ de $M$ dans $\mathrm{Hom}_A(B, I_A)$ telle que $v'(m)(b) = v(bm)$ (A, II, p. 74, prop. 1). Pour que $v'$ prenne ses valeurs dans $I_B$, il faut et il suffit que $v$ appartienne à $\mathrm{Hom}_A^{cont}(M, I_A)$, d’où b).
 
-#### Corollaire {#ac-x-s8-n6-cor-1 .statement}
+#### Corollaire {#ac-x-s8-n6-cor-1 .statement tag=0DB1}
 
 a) Si la $A$-algèbre $B$ est finie, le $B$-module $I_B = \mathrm{Hom}_A(B, I_A)$ est un $B$-module de Matlis.
 
@@ -608,7 +608,7 @@ $$
 
 est indépendant du choix de la résolution $C$; il est $\mathrm{End}_A(J)$-linéaire. Soient $p$ un entier, $\xi \in \mathrm{Tor}_p^A(M, \mathrm{Hom}_A(P, J))$, $\lambda \in \mathrm{Ext}_A^p(M, P), J)$; si $\xi$ est représenté à l’aide de $\psi(C, \mathrm{Hom}_A(P, J))$ par un élément $\sum c_\mu \otimes u_\mu$ de $C \otimes \mathrm{Hom}_A(P, J)$ tel que $\sum d_C(c_\mu) \otimes u_\mu = 0$, et $\lambda$ à l’aide de $\varphi(C, P)$ par un homomorphisme $\ell : C_p \to P$ tel que $\ell \circ d_C = 0$, on a $\rho(M, P)(\xi)(\lambda) = (-1)^p \sum u_\mu(\ell(c_\mu))$.
 
-#### Proposition 6 {#ac-x-s8-prop-6 .statement}
+#### Proposition 6 {#ac-x-s8-prop-6 .statement tag=0DB2}
 
 *Supposons le A-module J injectif ; pour tout A-module N, possons D(N) = \mathrm{Hom}_A(N, J).*
 
@@ -620,7 +620,7 @@ a) Par construction, l’homomorphisme $\theta(M, P)$ est bijectif dès que $\la
 
 b) Choisissons la résolution $C$ de façon que chaque module $C_p$ soit libre de type fini (A, X, p. 53, prop. 6). Alors l’homomorphisme $\nu$ est bijectif, il en est de même de $\lambda(\mathrm{Homgr}_A(C, P), J)$ puisque $J$ est injectif, donc $\rho(M, P)$ est bijectif.
 
-#### Remarque 1 {#ac-x-s8-n7-rem-1 .statement}
+#### Remarque 1 {#ac-x-s8-n7-rem-1 .statement tag=0DB3}
 
 Pour tout homomorphisme $f : N \to N'$ de $A$-modules, notons $D(f) : D(N') \to D(N)$ l’homomorphisme $\mathrm{Hom}(f, 1_J)$. Soient $u : M \to M'$ et $v : P \to P'$ des homomorphismes de $A$-modules. Choisissons des résolutions projectives $(C, p)$ de $M$ et $(C', p')$ de $M'$, et un morphisme de complexes $\tilde{u} : C \to C'$ tel que $p' \circ \tilde{u} = u \circ p$ (A, X, p. 49, prop. 3). Le diagramme
 
@@ -652,7 +652,7 @@ $$
 \end{array}
 $$
 
-#### Remarque 2 {#ac-x-s8-n7-rem-2 .statement}
+#### Remarque 2 {#ac-x-s8-n7-rem-2 .statement tag=0DB4}
 
 Soit
 

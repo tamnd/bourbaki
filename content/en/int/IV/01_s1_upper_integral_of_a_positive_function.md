@@ -28,7 +28,7 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: 33c34b08425c4858837ea23c60cb0cbddeb27a95602cf279ab92c1b26cc06a8b
+content_sha256: faecbc2539033964cc900d67680366e3bd2e09f8e66d8294cd0ca0a84e783552
 ---
 
 ## § 1. UPPER INTEGRAL OF A POSITIVE FUNCTION
@@ -39,7 +39,7 @@ Let X be a locally compact space, $\mu$ a positive measure on X; we know that $\
 
 We denote by $\mathscr{I}_+(X)$ (or simply $\mathscr{I}_+$) the set of numerical functions on X, finite or not, that are positive and lower semi-continuous on X.\footnote{1} Recall that the sum of any family of functions in $\mathscr{I}_+$ belongs to $\mathscr{I}_+$; the product of a function in $\mathscr{I}_+$ by a finite number $\alpha > 0$ belongs to $\mathscr{I}_+$; the upper envelope of *any* family of functions in $\mathscr{I}_+$ and the lower envelope of a *finite* family of functions in $\mathscr{I}_+$ also belong to $\mathscr{I}_+$ (GT, IV, §6, No. 2, Prop. 2 and Th. 4). We shall also make use of the following lemma:
 
-#### Lemma {#int-iv-s1-n1-lem-1 .statement}
+#### Lemma {#int-iv-s1-n1-lem-1 .statement tag=08P2}
 
 — *Every function* $f \in \mathscr{I}_+$ *is the upper envelope of the set* (directed for the relation $\leq$) *of all functions* $g \in \mathscr{K}_+$ *such that* $g \leq f$.
 
@@ -49,7 +49,7 @@ For every $x \in X$ such that $f(x) > 0$, and for every real number $a$ such tha
 
 on V (GT, IX, §1, No. 5, Th. 2); therefore $0 \leq g \leq f$ and $g(x) \geq a$, which proves the lemma.
 
-#### Definition 1 {#int-iv-s1-def-1 .statement}
+#### Definition 1 {#int-iv-s1-def-1 .statement tag=08P3}
 
 *Given a positive measure $\mu$ on $X$, one calls upper integral of a function $f \in \mathscr{J}_+$ (with respect to $\mu$) the positive number (finite or equal to $+\infty$)*
 
@@ -59,7 +59,7 @@ $$
 
 For every function $f \in \mathscr{H}_+$, it is clear that $\mu^*(f) = \mu(f)$, in other words $\mu^*$ is an *extension* of $\mu$ to $\mathscr{J}_+$.
 
-#### Example {#int-iv-s1-n1-exa-1 .statement}
+#### Example {#int-iv-s1-n1-exa-1 .statement tag=08P4}
 
 — Let $X$ be a *discrete* space, $\mu$ a positive measure on $X$, and set $\alpha(x) = \mu(\varphi_{\{x\}})$ for all $x \in X$. Every numerical function $f$ defined on $X$ is then continuous; for such a function $f \geq 0$, $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$, where we agree to set $\alpha(x)f(x) = 0$ whenever $\alpha(x) = 0$ and $f(x) = +\infty$. For,
 $$
@@ -67,19 +67,19 @@ $$
 $$
 where $M$ runs over the set of all finite subsets of $X$. If there exists an $x_0 \in X$ such that $f(x_0) = +\infty$ and $\alpha(x_0) > 0$, then $\sum_{x \in M} \alpha(x)f(x) = +\infty$ whenever $x_0 \in M$, and, on the other hand, $f \geq n \cdot \varphi_{\{x_0\}}$ for every integer $n > 0$, therefore $\mu^*(f) \geq n \alpha(x_0)$ and so $\mu^*(f) = +\infty$. If, on the contrary, $\alpha(x) = 0$ at all the points where $f(x) = +\infty$, then the function $g$ equal to $f$ at the points $x \in M$ where $\alpha(x) > 0$ and to 0 elsewhere belongs to $\mathscr{H}_+$, and so, by virtue of the conventions made, $\mu(g) = \sum_{x \in M} \alpha(x)f(x)$, which again proves the relation $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$.
 
-#### Proposition 1 {#int-iv-s1-prop-1 .statement}
+#### Proposition 1 {#int-iv-s1-prop-1 .statement tag=08P5}
 
 *For every finite real number $\alpha > 0$ and every function $f \in \mathscr{J}_+$,*
 $$
 \mu^*(\alpha f) = \alpha \mu^*(f).
 $$
 
-#### Proposition 2 {#int-iv-s1-prop-2 .statement}
+#### Proposition 2 {#int-iv-s1-prop-2 .statement tag=08P6}
 
 *On the set $\mathscr{J}_+$, the function $\mu^*$ is increasing.*
 The proofs are immediate from Def. 1.
 
-#### Theorem 1 {#int-iv-s1-thm-1 .statement}
+#### Theorem 1 {#int-iv-s1-thm-1 .statement tag=08P7}
 
 *Let $H$ be a nonempty set of functions in $\mathscr{J}_+$, directed for the relation $\leq$. For every positive measure $\mu$ on $X$,*
 $$
@@ -102,7 +102,7 @@ $$
 
 from which it follows at once that $\mu(\psi) \leq \sup_{g \in \mathbf{H}} \mu^*(g)$. We have thus proved that $\mu^*(f) = \sup_{g \in \mathbf{H}} \mu^*(g)$; the relation $\mu^*(f) = \lim_{g \in \mathbf{H}} \mu^*(g)$ is then a consequence of the monotone limit theorem (GT, IV, §5, No. 2, Th. 2).
 
-#### Theorem 2 {#int-iv-s1-thm-2 .statement}
+#### Theorem 2 {#int-iv-s1-thm-2 .statement tag=08P8}
 
 *If $f_1$ and $f_2$ are two functions in $\mathscr{I}_+$ then*
 
@@ -124,7 +124,7 @@ $$
 
 (GT, IV, §5, No. 7, Cor. 2 of Prop. 12), the theorem is proved.
 
-#### Proposition 3 {#int-iv-s1-prop-3 .statement}
+#### Proposition 3 {#int-iv-s1-prop-3 .statement tag=08P9}
 
 — *For every family* $(f_\iota)_{\iota \in I}$ *of functions in* $J_+$,
 
@@ -134,7 +134,7 @@ $$
 
 For every finite subset $J$ of $I$, it follows from Th. 2 (by induction on the number of elements of $J$) that $\mu^*\left( \sum_{\iota \in J} f_\iota \right) = \sum_{\iota \in J} \mu^*(f_\iota)$; as $J$ runs over the set of finite subsets of $I$, the functions $g_J = \sum_{\iota \in J} f_\iota$ belong to $J_+$ and form a directed set for the relation $\leq$, whose upper envelope is the function $\sum_{\iota \in I} f_\iota$; the proposition therefore follows from Th. 1.
 
-#### Proposition 4 {#int-iv-s1-prop-4 .statement}
+#### Proposition 4 {#int-iv-s1-prop-4 .statement tag=08PA}
 
 — *Let* $f$ *be a function in* $J_+$. *The mapping* $\mu \mapsto \mu^*(f)$ *of the set* $\mathscr{M}_+(X)$ *of positive measures on* $X$, *into the extended real line* $\overline{\mathbf{R}}$, *is lower semi-continuous for the vague topology on* $\mathscr{M}_+(X)$ *(Ch. III, §1, No. 9)*.
 
@@ -144,13 +144,13 @@ For, this mapping is by definition the upper envelope of the mappings $\mu \maps
 
 Given an *open* set $G \subset X$, its characteristic function $\varphi_G$ is *lower semi-continuous* on $X$ (GT, IV, §6, No. 2, Cor. of Prop. 1). We may therefore make the following definition:
 
-#### Definition 2 {#int-iv-s1-def-2 .statement}
+#### Definition 2 {#int-iv-s1-def-2 .statement tag=08PB}
 
 — *Given a positive measure* $\mu$ *on* $X$, *for every open set* $G \subset X$ *the upper integral* $\mu^*(\varphi_G)$ *is called the outer measure of* $G$ *and is denoted* $\mu^*(G)$.
 
 The outer measure of an open set $G$ is thus a number $\geq 0$, finite or equal to $+\infty$. Clearly $\mu^*(\varnothing) = 0$. Moreover, $\mu^*(X) = \| \mu \|,$ as is shown by formula (22) of Ch. III, §1, No. 8.
 
-#### Proposition 5 {#int-iv-s1-prop-5 .statement}
+#### Proposition 5 {#int-iv-s1-prop-5 .statement tag=08PC}
 
 — *The outer measure of a relatively compact open set* $G$ *is finite*.
 
@@ -162,12 +162,12 @@ $$
 
 An open set of finite outer measure is not always relatively compact (Exer. 3).
 
-#### Proposition 6 {#int-iv-s1-prop-6 .statement}
+#### Proposition 6 {#int-iv-s1-prop-6 .statement tag=08PD}
 
 — *If* G₁ and G₂ *are two open sets such that* G₁ ⊂ G₂, *then* μ*(G₁) ≤ μ*(G₂).
 For, the relation G₁ ⊂ G₂ is equivalent to φG₁ ≤ φG₂.
 
-#### Proposition 7 {#int-iv-s1-prop-7 .statement}
+#### Proposition 7 {#int-iv-s1-prop-7 .statement tag=08PE}
 
 — *Let* $\mathfrak{B}$ *be a set of open subsets of* X *that is directed for the relation* ⊂; *then*
 
@@ -177,7 +177,7 @@ $$
 
 The functions φ_G form a directed set (for ≤) in $\mathscr{I}_+$ and their upper envelope is the characteristic function of the union of the sets G ∈ $\mathfrak{B}$; the proposition is thus a consequence of Th. 1.
 
-#### Proposition 8 {#int-iv-s1-prop-8 .statement}
+#### Proposition 8 {#int-iv-s1-prop-8 .statement tag=08PF}
 
 — *Let* (G_ι)_{ι \in I} *be any family of open sets; then*
 
@@ -193,7 +193,7 @@ $$
 
 For, if G = $\bigcup_{\iota \in I} G_\iota$ then φ_G = sup_{ι \in I} φ_{G_ι} ≤ $\sum_{\iota \in I} \varphi_{G_\iota}$; when the G_ι are pairwise disjoint, φ_G = $\sum_{\iota \in I} \varphi_{G_\iota}$; the proposition is therefore a consequence of Props. 2 and 3.
 
-#### Example {#int-iv-s1-n2-exa-1 .statement}
+#### Example {#int-iv-s1-n2-exa-1 .statement tag=08PG}
 
 — Let X = \mathbf{R} and let μ be Lebesgue measure on \mathbf{R} (Ch. III, §1, No. 3); we are going to determine the outer measure of an *open interval* G = ]a, b[ (−∞ ≤ a < b ≤ +∞). Suppose first that a and b are finite. For every function f in $\mathscr{K}_+$ such that f ≤ φ_G, we have, by the theorem of the mean (FRV, II, §1, No. 5, Prop. 6),
 
@@ -211,7 +211,7 @@ $$
 
 (Prop. 8); in other words:
 
-#### Proposition 9 {#int-iv-s1-prop-9 .statement}
+#### Proposition 9 {#int-iv-s1-prop-9 .statement tag=08PH}
 
 *For Lebesgue measure on $\mathbf{R}$, the outer measure of an open set in $\mathbf{R}$ is equal to the sum of the lengths of its connected components.*
 
@@ -221,7 +221,7 @@ Note in particular that if $G$ is an open set in $\mathbf{R}$ such that $\mu^*(G
 
 For every numerical function $f \geq 0$ (finite or not) defined on $X$, there exist functions $h \in \mathscr{I}_+$ such that $f \leq h$, if none other then the constant $+\infty$.
 
-#### Definition 3 {#int-iv-s1-def-3 .statement}
+#### Definition 3 {#int-iv-s1-def-3 .statement tag=08PI}
 
 *Let $\mu$ be a positive measure on $X$; for every numerical function $f \geq 0$ (finite or not) defined on $X$, the positive number*
 
@@ -235,15 +235,15 @@ When $f \in \mathscr{I}_+$, the number $\mu^*(f)$ thus defined is equal to the u
 
 In place of the notation $\mu^*(f)$, we shall also employ the notations $\int^* f d\mu$, $\int^* f(x) d\mu(x)$, $\int^* f \mu$ and $\int^* f(x) \mu(x)$.
 
-#### Example {#int-iv-s1-n3-exa-1 .statement}
+#### Example {#int-iv-s1-n3-exa-1 .statement tag=08PJ}
 
 — If $X$ is a *discrete* space, $\mu$ a positive measure on $X$, and if one sets $\alpha(x) = \mu(\varphi_{\{x\}})$, then $\mu^*(f) = \sum_{x \in X} \alpha(x) f(x)$ for every numerical function $f \geq 0$ defined on $X$, since such a function is continuous (No. 1, *Example*).
 
-#### Proposition 10 {#int-iv-s1-prop-10 .statement}
+#### Proposition 10 {#int-iv-s1-prop-10 .statement tag=08PK}
 
 — *If f and g are two numerical functions $\geqslant 0$ defined on X such that $f \leqslant g$, then $\mu^*(f) \leqslant \mu^*(g)$.*
 
-#### Proposition 11 {#int-iv-s1-prop-11 .statement}
+#### Proposition 11 {#int-iv-s1-prop-11 .statement tag=08PL}
 
 — *For every finite real number $\alpha > 0$ and every numerical function $f \geqslant 0$ defined on X,
 
@@ -251,7 +251,7 @@ $$
 \mu^*(\alpha f) = \alpha \mu^*(f).
 $$
 
-#### Proposition 12 {#int-iv-s1-prop-12 .statement}
+#### Proposition 12 {#int-iv-s1-prop-12 .statement tag=08PM}
 
 — *If $f_1$ and $f_2$ are two numerical functions $\geqslant 0$ defined on X, then
 
@@ -273,7 +273,7 @@ which is none other than the inequality (9).
 
 Props. 10, 11 and 12 express that $\mu^*$ is an *increasing, positively homogeneous* and *convex* function on the set of numerical functions $\geqslant 0$ defined on X (Ch. I, No. 1). Note that if $f_1$ and $f_2$ are any two positive functions, the two members of (9) are not necessarily equal (§ 4, Exer. 8 d)); in §5, No. 6 we shall give conditions under which equality holds.
 
-#### Theorem 3 {#int-iv-s1-thm-3 .statement}
+#### Theorem 3 {#int-iv-s1-thm-3 .statement tag=08PN}
 
 — *For every increasing sequence $(f_n)$ of numerical functions $\geqslant 0$ defined on X,
 
@@ -308,7 +308,7 @@ $$
 
 Q.E.D.
 
-#### Corollary {#int-iv-s1-n3-cor-1 .statement}
+#### Corollary {#int-iv-s1-n3-cor-1 .statement tag=08PO}
 
 — *Let $\mathfrak{F}$ be a set of numerical functions $\geq 0$, directed for the relation $\leq$, such that there exists a countable cofinal subset $\mathfrak{G}$ of $\mathfrak{F}$* (S, III, §1, No. 7); then
 
@@ -318,13 +318,13 @@ $$
 
 For, there exists an increasing sequence of functions in $\mathfrak{G}$ having the same upper envelope as $\mathfrak{F}$: if $(f_n)$ is the sequence of functions of $\mathfrak{G}$, arranged in any order, let $(f_{n_k})$ be a subsequence defined recursively by the conditions $n_1 = 1$, $f_{n_{k+1}} \geq \sup(f_{n_k}, f_k)$; it is clear that this subsequence has the indicated properties.
 
-#### Remark {#int-iv-s1-n3-rem-1 .statement}
+#### Remark {#int-iv-s1-n3-rem-1 .statement tag=08PP}
 
 — 1) The relation (11) does not necessarily hold when $\mathfrak{F}$ is an *uncountable* directed set of functions $\geq 0$ that are not lower semi-continuous. Take for example $X = \mathbf{R}$, $\mu$ being Lebesgue measure on $\mathbf{R}$, and consider the directed (for $\leq$) set $\mathfrak{F}$ of characteristic functions $\varphi_M$ of all the *finite* subsets M of $\mathbf{R}$. Then $\mu^*(\varphi_M) = 0$ for every finite subset M, because a point is contained in an open interval of arbitrarily small length, and the characteristic function of a set reduced to a point therefore has upper integral zero by Def. 3 and Prop. 9 of No. 2. But the upper envelope of $\mathscr{F}$ is the constant function equal to 1, and $\mu^*(1) = +\infty$.
 
 2) Note that for a *decreasing* sequence $(f_n)$ of functions $\geqslant 0$, one does not necessarily have $\mu^*(\inf_n f_n) = \inf_n \mu^*(f_n)$, even if $\mu^*(f_n) < +\infty$ for all $n$ (cf. §4, Exer. 8 c)).
 
-#### Proposition 13 {#int-iv-s1-prop-13 .statement}
+#### Proposition 13 {#int-iv-s1-prop-13 .statement tag=08PQ}
 
 *For every sequence* $(f_n)$ *of numerical functions* $\geqslant 0$ *defined on* $X$,
 
@@ -340,7 +340,7 @@ $$
 
 In §5, No. 6, we will give conditions under which the two members of (12) are equal.
 
-#### Proposition 14 (Fatou’s lemma) {#int-iv-s1-prop-14 .statement}
+#### Proposition 14 (Fatou’s lemma) {#int-iv-s1-prop-14 .statement tag=08PR}
 
 — *For every sequence* $(f_n)$ *of numerical functions* $\geqslant 0$,
 
@@ -360,13 +360,13 @@ $$
 \mu^*\left( \liminf_{n \to \infty} f_n \right) \leqslant \sup_n \left( \inf_{p \geqslant 0} \mu^*(f_{n+p}) \right) = \liminf_{n \to \infty} \mu^*(f_n).
 $$
 
-#### Corollary {#int-iv-s1-n3-cor-2 .statement}
+#### Corollary {#int-iv-s1-n3-cor-2 .statement tag=08PS}
 
 *Let* $(f_n)$ *be a sequence of numerical functions* $\geqslant 0$ *such that, for every* $x \in X$, $\lim_{n \to \infty} f_n(x) = +\infty$. *If* $\mu$ *is not the zero measure, then* $\lim_{n \to \infty} \mu^*(f_n) = +\infty$.
 
 If $f_0$ is the constant function equal to $+\infty$, then $f_0$ is the upper envelope of all the functions of $\mathscr{K}_+$, and, since $\mu \neq 0$, we have $\mu^*(f_0) > 0$; but since $f_0 = \alpha f_0$ for every $\alpha > 0$, necessarily $\mu^*(f_0) = +\infty$ (Prop. 11). The inequality (13) then shows that $\mu^*(f_n)$ tends to $+\infty$ with $n$.
 
-#### Proposition 15 {#int-iv-s1-prop-15 .statement}
+#### Proposition 15 {#int-iv-s1-prop-15 .statement tag=08PT}
 
 *For every scalar $\alpha > 0$ and every pair of positive measures $\mu, \nu$ on $X$,*
 
@@ -383,27 +383,27 @@ Let us prove the relation (15). Set $\lambda = \mu + \nu$; thus $\lambda(f) = \m
 
 ### 4. Outer measure of an arbitrary set
 
-#### Definition 4 {#int-iv-s1-def-4 .statement}
+#### Definition 4 {#int-iv-s1-def-4 .statement tag=08PU}
 
 *Let $\mu$ be a positive measure on $X$; for every subset $A$ of $X$, the upper integral $\mu^*(\varphi_A)$ is called the outer measure of $A$ (with respect to the measure $\mu$) and is denoted $\mu^*(A)$.*
 
 The outer measure of a set is thus a number $\geq 0$, finite or equal to $+\infty$, that, for an open set, coincides with the outer measure defined in Def. 2 of No. 2.
 
-#### Proposition 16 {#int-iv-s1-prop-16 .statement}
+#### Proposition 16 {#int-iv-s1-prop-16 .statement tag=08PV}
 
 *If $A$ and $B$ are two subsets of $X$ such that $A \subset B$, then $\mu^*(A) \leq \mu^*(B)$.*
 
-#### Corollary {#int-iv-s1-n4-cor-1 .statement}
+#### Corollary {#int-iv-s1-n4-cor-1 .statement tag=08PW}
 
 *Every relatively compact set in $X$ has finite outer measure.*
 
 For, such a set is contained in a relatively compact open set (GT, I, §9, No. 7, Prop. 10), whose outer measure is finite (No. 2, Prop. 5).
 
-#### Proposition 17 {#int-iv-s1-prop-17 .statement}
+#### Proposition 17 {#int-iv-s1-prop-17 .statement tag=08PX}
 
 — *If* $(A_n)$ *is an increasing sequence of subsets of X*, then $\mu^*(\bigcup_n A_n) = \sup_n \mu^*(A_n)$.
 
-#### Proposition 18 {#int-iv-s1-prop-18 .statement}
+#### Proposition 18 {#int-iv-s1-prop-18 .statement tag=08PY}
 
 — *For every sequence* $(A_n)$ *of subsets of X*,
 
@@ -413,7 +413,7 @@ $$
 
 These propositions are the translations of Props. 10 and 13 and of Th. 3 of No. 3 for characteristic functions of sets.
 
-#### Proposition 19 {#int-iv-s1-prop-19 .statement}
+#### Proposition 19 {#int-iv-s1-prop-19 .statement tag=08PZ}
 
 — *For every subset A of X*, $\mu^*(A)$ *is the infimum of the outer measures of the open sets containing A*.
 

@@ -32,14 +32,14 @@ subsections:
       pdf_page: 114
 statements: 47
 exercises: 16
-content_sha256: db7ac6a1b472aa9446e3833696efc1f3b7d9d546fecfcbfa7b19b5b63aafe417
+content_sha256: ed13fa453d4e42a65712ccd48f2fd9af592cbe4a8196a92241d98c3d8ca7ffc9
 ---
 
 ## § 3. Anneaux locaux. Passage du local au global
 
 ### 1. Anneaux locaux.
 
-#### Proposition 1 {#ac-ii-s3-prop-1 .statement}
+#### Proposition 1 {#ac-ii-s3-prop-1 .statement tag=047R}
 
 Soient A un anneau, I l’ensemble des éléments non inversibles de A. L’ensemble I est la réunion des idéaux de A distincts de A. En outre, les conditions suivantes sont équivalentes :
 
@@ -51,53 +51,53 @@ En effet, la relation $x \in I$ équivaut à $1 \notin xA$, donc à $xA \neq A$.
 
 Remarque 1). — On notera que, si c) est vérifiée, I est le radical de l’anneau A (Alg., chap. VIII, § 6, no 3, déf. 3).
 
-#### Définition 1 {#ac-ii-s3-def-1 .statement}
+#### Définition 1 {#ac-ii-s3-def-1 .statement tag=047S}
 
 On dit qu’un anneau A est un anneau local s’il vérifie les conditions équivalentes a), b), c) de la prop. 1. Le quotient de A par son radical (qui est alors l’unique idéal maximal de A) s’appelle le corps résiduel de A.
 
-#### Définition 2 {#ac-ii-s3-def-2 .statement}
+#### Définition 2 {#ac-ii-s3-def-2 .statement tag=047T}
 
 Soient A, B deux anneaux locaux, m, n leurs idéaux maximaux respectifs. On dit qu’un homomorphisme $u : A \to B$ est local si $u(m) \subset n$.
 
 Il revient au même de dire que $\bar{u}(n) = m$, car $\bar{u}(n)$ est alors un idéal contenant m et ne contenant pas 1, donc égal à m. Par passage aux quotients, on déduit alors canoniquement de $u$ un homomorphisme injectif $A/m \to B/n$ du corps résiduel de A dans celui de B.
 
-#### Exemple 1 {#ac-ii-s3-n1-exa-1 .statement}
+#### Exemple 1 {#ac-ii-s3-n1-exa-1 .statement tag=0CGN}
 
 Un corps est un anneau local. Un anneau réduit à 0 n’est pas un anneau local.
 
-#### Exemple 2 {#ac-ii-s3-n1-exa-2 .statement}
+#### Exemple 2 {#ac-ii-s3-n1-exa-2 .statement tag=0CGO}
 
 Soient $A$ un anneau local, $k$ son corps résiduel. L’anneau de séries formelles $B = A[[X_1, ..., X_n]]$ est un anneau local, car les éléments non inversibles de $B$ sont les séries formelles dont le terme constant est non inversible dans $A$ ($Alg.$, chap. IV, § 5, no 6, prop. 4). L’injection canonique de $A$ dans $B$ est un homomorphisme local, et l’injection correspondante des corps résiduels est un isomorphisme.
 
-#### Exemple 3 {#ac-ii-s3-n1-exa-3 .statement}
+#### Exemple 3 {#ac-ii-s3-n1-exa-3 .statement tag=0CGP}
 
 Soit $b$ un idéal d’un anneau $A$ qui n’est contenu que dans un seul idéal maximal $m$; alors $A/b$ est un anneau local d’idéal maximal $m/b$ et de corps résiduel canoniquement isomorphe à $A/m$. Ceci s’applique en particulier au cas où $b = m^k$, $m$ étant un idéal maximal quelconque de $A$ ($§ 1$, no 1, cor. de la prop. 1). Si $A$ est lui-même un anneau local d’idéal maximal $m$, alors, pour tout idéal $b \neq A$ de $A$, $A/b$ est un anneau local, l’homomorphisme canonique $A \to A/b$ un homomorphisme local, l’homomorphisme correspondant des corps résiduels étant bijectif.
 
-#### Exemple 4 {#ac-ii-s3-n1-exa-4 .statement}
+#### Exemple 4 {#ac-ii-s3-n1-exa-4 .statement tag=0CGQ}
 
 Soient $X$ un espace topologique, $x_0$ un point de $X$, $A$ l’anneau des germes au point $x_0$ des fonctions numériques continues dans un voisinage de $x_0$ (*Top. gén.*, chap. I, 3e éd., § 6, no 10). Il est clair que, pour que le germe en $x_0$ d’une fonction continue $f$ soit inversible dans $A$, il faut et il suffit que $f(x_0) \neq 0$, car cette condition entraîne que $f(x) \neq 0$ dans un voisinage de $x_0$. L’anneau $A$ est donc un anneau local dont l’idéal maximal $m$ est l’ensemble des germes des fonctions *nulles en* $x_0$; par passage au quotient, l’application $g \to g(x_0)$ de $A$ dans $\mathbf{R}$ donne un *isomorphisme* du corps résiduel $A/m$ sur $\mathbf{R}$.
 
-#### Proposition 2 {#ac-ii-s3-prop-2 .statement}
+#### Proposition 2 {#ac-ii-s3-prop-2 .statement tag=047U}
 
 *Soient* $A$ *un anneau*, $p$ *un idéal premier de* $A$. *L’anneau* $A_p^{m_p}$ *est local ; son idéal maximal est l’idéal* $pA_p = p_p$, *engendré par l’image canonique de* $p$ *dans* $A_p$; *son corps résiduel est canoniquement isomorphe au corps des fractions de* $A/p$.
 
 En effet, soit $S = A - p$, et soit $j : A \to A_p$ l’homomorphisme canonique ; l’hypothèse que $p$ est premier entraîne que $p$ est saturé pour $S$, donc $j^{-1}(pA_p) = p$ ($§ 2$, no 4, prop. 10), et comme les idéaux de $A$ disjoints de $S$ sont ceux contenus dans $p$, les deux premières assertions sont des cas particuliers du § 2, n° 5, prop. 11, (ii). En outre, si $f$ est l’homomorphisme canonique $A \to A/p$, $f(S)$ est l’ensemble des éléments $\neq 0$ de l’anneau intègre $A/p$, donc la dernière assertion est un cas particulier du § 2, n° 5, prop. 11, (i).
 
-#### Définition 3 {#ac-ii-s3-def-3 .statement}
+#### Définition 3 {#ac-ii-s3-def-3 .statement tag=047V}
 
 Soient $A$ un anneau, $p$ un idéal premier de $A$. L’anneau $A_p$ s’appelle l’anneau local de $A$ en $p$, ou l’anneau local de $p$ lorsqu’aucune confusion n’est à craindre.
 
 Remarque 2). — Si $A$ est un anneau local et $m$ son idéal maximal, les éléments de $A - m$ sont inversibles (prop. 1), donc $A_m$ s’identifie canoniquement à $A$ ($§ 2$, n° 1, Remarque 5).
 
-#### Exemple 5 {#ac-ii-s3-n1-exa-5 .statement}
+#### Exemple 5 {#ac-ii-s3-n1-exa-5 .statement tag=0CGR}
 
 Soit $p$ un nombre premier. L’anneau local $\mathbf{Z}_{(p)}$ est l’ensemble des nombres rationnels $a/b$, où $a, b$ sont des entiers rationnels tels que $b$ soit étranger à $p$; le corps résiduel de $\mathbf{Z}_{(p)}$ est isomorphe au corps premier $\mathbf{F}_p = \mathbf{Z}/(p)$.
 
-#### Exemple 6 {#ac-ii-s3-n1-exa-6 .statement}
+#### Exemple 6 {#ac-ii-s3-n1-exa-6 .statement tag=0CGS}
 
 Soient $V$ une variété algébrique affine, $A$ l’anneau des fonctions régulières sur $V$, $W$ une sous-variété irréductible de $V$, et $p$ l’idéal (nécessairement premier) de $A$ formé par les fonctions nulles en tout point de $W$. L’anneau $A_p$ s’appelle l’anneau local de $W$ sur $V$*
 
-#### Proposition 3 {#ac-ii-s3-prop-3 .statement}
+#### Proposition 3 {#ac-ii-s3-prop-3 .statement tag=047W}
 
 Soient $A$ un anneau, $p$ un idéal premier de $A$, $S = A - p$. Pour tout idéal $b'$ de $A_p$ distinct de $A_p$, soit $b$ l’idéal $(i_A^S)^{-1}(b')$ de $A$, de sorte que $b' = bA_p$.
 
@@ -107,17 +107,17 @@ Soient $A$ un anneau, $p$ un idéal premier de $A$, $S = A - p$. Pour tout idéa
 
 Ceci n’est qu’un cas particulier du § 2, n° 5, prop. 11.
 
-#### Remarque 3 {#ac-ii-s3-n1-rem-3 .statement}
+#### Remarque 3 {#ac-ii-s3-n1-rem-3 .statement tag=0CGT}
 
 Si $a$ est un idéal de $A$ non contenu dans $p$, on a $aA_p = A_p$ et $(A/a)_p = 0$ ($§ 2$, no 5, Remarque).
 
-#### Remarque 4 {#ac-ii-s3-n1-rem-4 .statement}
+#### Remarque 4 {#ac-ii-s3-n1-rem-4 .statement tag=0CGU}
 
 Soient $A, B$ deux anneaux, $\rho : A \to B$ un homomorphisme, $q$ un idéal premier de $B$, $p$ l’idéal premier $\bar{\rho}^{-1}(q)$ de $A$. Comme $\rho(A - p) \subset B - q$, on déduit canoniquement de $\rho$ un homomorphisme $\rho_q : A_p \to B_q$ ($§ 2$, no 1, prop. 2), et il est immédiat que $\rho_q(pA_p) \subset qB_q$, donc $\rho_q$ est un homomorphisme local.
 
 ### 2. Modules sur un anneau local.
 
-#### Proposition 4 {#ac-ii-s3-prop-4 .statement}
+#### Proposition 4 {#ac-ii-s3-prop-4 .statement tag=047X}
 
 Soient $A$ un anneau non nécessairement commutatif, $m$ un idéal à droite de $A$ contenu dans le radical de $A$, $M$ un $A$-module à gauche. On suppose vérifiée l’une des conditions suivantes :
 
@@ -128,19 +128,19 @@ Alors la relation $(A_d/m) \otimes_A M = 0$ entraîne $M = 0$.
 
 L’assertion relative à l’hypothèse (i) n’est autre que le cor. 3 de la prop. 6 d’Alg., chap. VIII, $§ 6$, no 3. D’autre part, la relation $(A_d/m) \otimes_A M = 0$ équivaut à $M = mM$ et entraîne donc $M = m^nM$ pour tout entier $n > 0$; d’où l’assertion relative à l’hypothèse (ii).
 
-#### Corollaire 1 {#ac-ii-s3-prop-4-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s3-prop-4-cor-1 .statement tag=047Y}
 
 Soient $A$ un anneau non nécessairement commutatif, $m$ un idéal à droite de $A$ contenu dans le radical de $A$, $M$ et $N$ deux $A$-modules à gauche, $u : M \to N$ une application $A$-linéaire. Si $N$ est de type fini ou si $m$ est nilpotent, et si $1 \otimes u : (A_d/m) \otimes_A M \to (A_d/m) \otimes_A N$ est surjective, alors $u$ est surjective.
 
 En effet, $(A_d/m) \otimes_A (N/u(M))$ est canoniquement isomorphe à $((A_d/m) \otimes_A N)/\mathrm{Im}\,(1 \otimes u)$ (Alg., chap. II, 3e éd., $§ 3$, no 6, cor. 1 de la prop. 6); l’hypothèse entraîne donc $(A_d/m) \otimes_A (N/u(M)) = 0$, donc $N/u(M) = 0$ en vertu de la prop. 4.
 
-#### Corollaire 2 {#ac-ii-s3-prop-4-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s3-prop-4-cor-2 .statement tag=047Z}
 
 Soient $A$ un anneau non nécessairement commutatif, $m$ un idéal bilatère de $A$ contenu dans le radical de $A$, $M$ un $A$-module à gauche, $(x_i)_{i \in I}$ une famille d’éléments de $M$. Si $M$ est de type fini ou si $m$ est nilpotent, et si les éléments $1 \otimes x_i$, (t \in I) engendrent le (A/m)-module à gauche (A/m) \otimes_A M, les x_t engendrent M.
 
 Soit en effet (e_t)_{t \in I} la base canonique du A-module à gauche $A_s^{(I)}$ : il suffit d’appliquer le cor. 1 à l’application A-linéaire $u : A_s^{(I)} \to M$ telle que $u(e_t^i) = x_t$ pour tout $t \in I$.
 
-#### Proposition 5 {#ac-ii-s3-prop-5 .statement}
+#### Proposition 5 {#ac-ii-s3-prop-5 .statement tag=0480}
 
 Soient A un anneau non nécessairement commutatif, m un idéal bilatère de A contenu dans le radical de A, M un A-module à gauche. On suppose vérifiée l’une des conditions suivantes :
 
@@ -169,13 +169,13 @@ $$
 
 (chap. I, § 1, n° 4, prop. 2); il suffit de vérifier que $v$ est bijectif, car on en déduira Coker (a) = 0, autrement dit que a est surjectif et par suite R = mR. Or, Coker (b) = (A/m) \otimes_A L et Coker (c) = (A/m) \otimes_A M, et par définition $v(1 \otimes e_i) = 1 \otimes x_i$; comme $(1 \otimes e_i)$ est une base de (A/m) \otimes_A L, la définition des $x_i$ montre que $v$ est bijectif.
 
-#### Corollaire 1 {#ac-ii-s3-prop-5-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s3-prop-5-cor-1 .statement tag=0481}
 
 Soient A un anneau non nécessairement commutatif, m le radical de A, M un A-module à gauche. On suppose que A/m est un corps, que l’homomorphisme canonique de m \otimes_A M dans M est injectif, et que l’une des conditions (i), (ii) de la prop. 5 est satisfaite. Pour qu’une famille $(y_\lambda)$ d’éléments de M soit une base d’un facteur direct de M, il faut et il suffit que la famille $(1 \otimes y_\lambda)$ soit libre dans M/mM.
 
 En effet, si cette condition est vérifiée, on peut supposer que $(y_\lambda)$ est une sous-famille d’une famille $(x_i)$ d’éléments de M telle que $(1 \otimes x_i)$ soit une base de M/mM (Alg., chap. II, 3e éd., § 7, n° 1, th. 2), et la prop. 5 prouve alors que $(x_i)$ est une base de M.
 
-#### Corollaire 2 {#ac-ii-s3-prop-5-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s3-prop-5-cor-2 .statement tag=0482}
 
 Soient A un anneau non nécessairement commutatif, m le radical de A, M un A-module à gauche. On suppose que A/m est un corps, et que l’une des conditions suivantes est vérifiée :
 
@@ -199,7 +199,7 @@ cela prouve que Tor$_1^A(A/m, M)$ est isomorphe au noyau de l'homomorphisme cano
 
 On peut montrer que, pour tout anneau $A$ ayant un radical $m$ tel que $A/m$ soit un corps, *tout* $A$-module projectif est libre (exerc. 3).
 
-#### Proposition 6 {#ac-ii-s3-prop-6 .statement}
+#### Proposition 6 {#ac-ii-s3-prop-6 .statement tag=0483}
 
 *Soient $A$ un anneau non nécessairement commutatif*, $m$ son radical ; supposons que $A/m$ soit un corps. *Soient $M$ et $N$ deux $A$-modules libres de type fini, et soit $u : M \to N$ un homomorphisme. Les propriétés suivantes sont équivalentes* :
 a) *$u$ est un isomorphisme de $M$ sur un facteur direct de $N$* ;
@@ -209,7 +209,7 @@ d) *l'homomorphisme transposé $t u : N^* \to M^*$ est surjectif*.
 
 On sait (*Alg.*, chap. II, 3e éd., § 1, no 11, prop. 21) que, si $N/u(M)$ est libre, $u(M)$ est facteur direct dans $N$, donc c) implique a) ; inversement, a) implique que $\operatorname{Coker}(u)$, isomorphe à un supplémentaire de $u(M)$ dans $N$, est un $A$-module projectif de type fini, et *a fortiori* de présentation finie (chap. I, § 2, no 8, lemme 8) ; donc ce module est libre en vertu du cor. 2 de la prop. 5, et a) implique c). Il est évident d'autre part que a) entraîne b). Posons pour simplifier $M' = (A/m) \otimes_A M,\ N' = (A/m) \otimes_A N$ ; comme $M$ et $N$ sont de type fini, les duals ${M'}^*$ et ${N'}^*$ des $(A/m)$-modules $M'$ et $N'$ s'identifient canoniquement à $M^* \otimes_A (A/m)$ et $N^* \otimes_A (A/m)$ et $t(1 \otimes u)$ à $(t u) \otimes 1$ (*Alg.*, chap. II, 3e éd., § 5, no 4, prop. 8) ; comme $M'$ et $N'$ sont des espaces vectoriels sur le corps $A/m$, l'hypothèse que $1 \otimes u$ est injectif entraîne que $t(1 \otimes u)$ est surjectif (*Alg.*, chap. II, 3e éd., § 7, no 5, prop. 10) ; le cor. 1 de la prop. 4 montre alors que $t u$ est surjectif, et nous avons ainsi prouvé que b) entraîne d). Montrons enfin que d) entraîne a). Supposons $t u$ surjectif ; comme $M^*$ est libre, il existe un homomorphisme $f$ de $M^*$ dans $N^*$ tel que $1_{M^*} = t u \circ f$ (*Alg.*, chap. II, 3e éd., § 1, no 11, prop. 21) ; comme $M$ et $N$ sont libres de type fini, il existe un homomorphisme g de N dans M tel que $f = ^t g$; on a donc $^t 1_M = 1_{M^*} = ^t u \circ ^t g = t(g \circ u)$, d'où $1_M = g \circ u$; ceci prouve que $u$ est un isomorphisme de M sur un sous-module facteur direct de N (Alg., chap. II, 3e éd., § 1, n° 9, cor. 2 de la prop. 15).
 
-#### Corollaire {#ac-ii-s3-n2-cor-1 .statement}
+#### Corollaire {#ac-ii-s3-n2-cor-1 .statement tag=0484}
 
 Sous les hypothèses de la prop. 6, les propriétés suivantes sont équivalentes :
 a) $u$ est un isomorphisme de M sur N ;
@@ -220,7 +220,7 @@ Il est clair que a) entraîne b) ; b) entraîne que $1 \otimes u$ est surjectif 
 
 Les propositions démontrées ci-dessus dans ce n° seront le plus souvent appliquées lorsque A est un anneau local et m son idéal maximal. Le cor. 2 de la prop. 5 se complète alors par la
 
-#### Proposition 7 {#ac-ii-s3-prop-7 .statement}
+#### Proposition 7 {#ac-ii-s3-prop-7 .statement tag=0485}
 
 Soient A un anneau local réduit, m son idéal maximal, $(\mathfrak{p}_i)_{i \in I}$ la famille des idéaux premiers minimaux de A, $K_i$ le corps des fractions de $A/\mathfrak{p}_i$, M un A-module de type fini. Pour que M soit libre, il faut et il suffit que l'on ait
 
@@ -247,7 +247,7 @@ d’où $\bigcap_l (p_l L) = 0$ puisque L est libre (Alg., chap. II, 3e éd., §
 
 ### 3. Passage du local au global.
 
-#### Proposition 8 {#ac-ii-s3-prop-8 .statement}
+#### Proposition 8 {#ac-ii-s3-prop-8 .statement tag=0486}
 
 Soient A un anneau, m un idéal maximal de A, M un A-module. S’il existe un idéal a de A tel que m soit le seul idéal maximal de A contenant a, et que $aM = 0$, alors l’homomorphisme canonique $M \to M_m$ est bijectif.
 
@@ -255,13 +255,13 @@ En effet, $A/a$ est alors un anneau local d’idéal maximal $m/a$; on peut cons
 
 En particulier, s’il existe $k \geqslant 0$ tel que $m^k M = 0$, l’homomorphisme $M \to M_m$ est bijectif ($§ 1$, n° 1, cor. de la prop. 1).
 
-#### Proposition 9 {#ac-ii-s3-prop-9 .statement}
+#### Proposition 9 {#ac-ii-s3-prop-9 .statement tag=0487}
 
 Soient $A$ un anneau, $m$ un idéal maximal de $A$, $M$ un $A$-module, $k$ un entier $\geqslant 0$. L’homomorphisme canonique $M \to M_m / m^k M_m$ est surjectif, admet $m^k M$ pour noyau, et définit un isomorphisme de $M / m^k M$ sur $M_m / m^k M_m$.
 
 Le cas où $k = 0$ étant trivial, supposons $k \geqslant 1$. Il résulte de la prop. 8 que l’homomorphisme canonique $M / m^k M \to (M / m^k M)_m$ est bijectif. D’autre part $(M / m^k M)_m$ s’identifie canoniquement à $M_m / (m^k M)_m$ ($§ 2$, n° 4, th. 1) et on a $(m^k M)_m = m^k M_m$ ($§ 2$, n° 7, cor. de la prop. 18), d’où un isomorphisme de $M / m^k M$ sur $M_m / m^k M_m$ qui transforme la classe d’un élément $x \in M$ en la classe de $x/1$.
 
-#### Corollaire {#ac-ii-s3-n3-cor-1 .statement}
+#### Corollaire {#ac-ii-s3-n3-cor-1 .statement tag=0488}
 
 Soient $A$ un anneau, $m_1, m_2, ..., m_n$ des idéaux maximaux de $A$ deux à deux distincts, $M$ un $A$-module, $k_1, k_2, ..., k_n$ des entiers $\geqslant 0$. L’homomorphisme canonique de $M$ dans $\prod_{i=1}^n M_{m_i} / m_i^{k_i} M_{m_i}$ est surjectif, et son noyau est $\left( \bigcap_{i=1}^n m_i^{k_i} \right) M$.
 
@@ -269,31 +269,31 @@ Cela résulte aussitôt de la prop. 9 et du $§ 1$, n° 2, prop. 6, les $m_i^{k_
 
 Dans la suite de ce n°, $A$ désigne un anneau, et $\Omega(A)$ (ou $\Omega$) l’ensemble des idéaux maximaux de $A$.
 
-#### Proposition 10 {#ac-ii-s3-prop-10 .statement}
+#### Proposition 10 {#ac-ii-s3-prop-10 .statement tag=0489}
 
 Le $A$-module $\bigoplus_{m \in \Omega} A_m$, somme directe des $A_m$ pour $m \in \Omega$, est fidèlement plat.
 
 En effet, chacun des $A_m$ est un $A$-module plat ($§ 2$, n° 4, th. 1), donc $E = \bigoplus_{m \in \Omega} A_m$ est plat (chap. I, $§ 2$, n° 3, prop. 2). En outre, pour tout idéal maximal $m$ de $A$, $mA_m$ est l’unique idéal maximal de $A_m$, donc $mA_m \neq A_m$, d’où on conclut que $mE \neq E$, et par suite $E$ est fidèlement plat (chap. I, $§ 3$, n° 1, prop. 1, d)).
 
-#### Théorème 1 {#ac-ii-s3-thm-1 .statement}
+#### Théorème 1 {#ac-ii-s3-thm-1 .statement tag=048A}
 
 Soient $M, N$ deux $A$-modules, $u : M \to N$ un $A$-homomorphisme et pour tout $m \in \Omega$, soit $u_m : M_m \to N_m$ le $A_m$-homomorphisme correspondant ($§ 2$, n° 2, Remarque 5). Pour que $u$ soit injectif (resp. surjectif, bijectif, nul) il faut et il suffit que, pour tout $m \in \Omega$, $u_{m}$ soit injectif (resp. surjectif, bijectif, nul).
 
 En effet, dire que pour tout $m \in \Omega$, $u_{m}$ est injectif (resp. surjectif, bijectif, nul) équivaut à dire que l’homomorphisme $\bigoplus_{m} u_{m} : \bigoplus_{m} M_{m} \to \bigoplus_{m} N_{m}$ a la même propriété. Mais $\bigoplus_{m} M_{m} = M \otimes_{A} E$, $\bigoplus_{m} N_{m} = N \otimes_{A} E$ et $\bigoplus_{m} u_{m} = u \otimes 1$, avec $E = \bigoplus_{m} A_{m}$; comme $E$ est fidèlement plat (prop. 10), le théorème résulte du chap. I, § 3, no 1, prop. 1 c) et prop. 2.
 
-#### Corollaire 1 {#ac-ii-s3-thm-1-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s3-thm-1-cor-1 .statement tag=048B}
 
 Soient $M$ un $A$-module, $N$ un sous-module de $M$, $x$ un élément de $M$. Pour que $x \in N$, il faut et il suffit que, pour tout $m \in \Omega$, l’image canonique de $x$ dans $M_{m}$ appartienne à $N_{m}$.
 
 Soit $\overline{x}$ la classe de $x$ dans $M/N$; dire que $x \in N$ signifie que l’application $A$-linéaire $u : \alpha \to \alpha \overline{x}$ de $A$ dans $M/N$ est nulle. Or $(M/N)_{m}$ s’identifie à $M_{m}/N_{m}$ (§ 2, no 4, th. 1) et $u_{m} : A_{m} \to M_{m}/N_{m}$ à l’application $\lambda \to \lambda \overline{x}_{m}$, où $\overline{x}_{m}$ est la classe mod. $N_{m}$ de l’image canonique de $x$ dans $M_{m}$. Comme la relation $u = 0$ équivaut à $u_{m} = 0$ pour tout $m$ en vertu du th. 1, cela prouve le corollaire.
 
-#### Corollaire 2 {#ac-ii-s3-thm-1-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s3-thm-1-cor-2 .statement tag=048C}
 
 Soit $M$ un $A$-module et, pour tout $m \in \Omega$, soit $f_{m}$ l’homomorphisme canonique $M \to M_{m}$. L’homomorphisme $x \to (f_{m}(x))$ de $M$ dans $\prod_{m \in \Omega} M_{m}$ est injectif.
 
 En effet, en appliquant le cor. 1 à $N = 0$, on voit que la relation $x = 0$ équivaut à $f_{m}(x) = 0$ pour tout $m \in \Omega$.
 
-#### Corollaire 3 {#ac-ii-s3-thm-1-cor-3 .statement}
+#### Corollaire 3 {#ac-ii-s3-thm-1-cor-3 .statement tag=048D}
 
 (i) Soient $b$ un idéal de $A$, $a$ un élément de $A$. Pour que $a \in b$, il faut et il suffit que, pour tout $m \in \Omega$, l’image canonique de $a$ dans $A_{m}$ appartienne à $bA_{m}$.
 
@@ -301,7 +301,7 @@ En effet, en appliquant le cor. 1 à $N = 0$, on voit que la relation $x = 0$ é
 
 Comme $bA_{m} = b_{m}$ (§ 2, no 7, cor. de la prop. 18), (i) est un cas particulier du cor. 1 ; (ii) résulte de (i) appliqué à l’idéal $Ab$.
 
-#### Corollaire 4 {#ac-ii-s3-thm-1-cor-4 .statement}
+#### Corollaire 4 {#ac-ii-s3-thm-1-cor-4 .statement tag=048E}
 
 Soient $A$ un anneau intègre, $K$ son corps des fractions, $M$ un $A$-module sans torsion, de sorte que $M$ s’identifie canoniquement à un sous-A-module de $K \otimes_A M$. Alors, pour tout $m \in \Omega$, $M_m$ s’identifie canoniquement à un sous-A-module de $K \otimes_A M$, et on a $M = \bigcap_{m \in \Omega} M_m$.
 
@@ -324,31 +324,31 @@ $$
 A = \bigcap_{m \in \Omega} A_m.
 $$
 
-#### Corollaire 5 {#ac-ii-s3-thm-1-cor-5 .statement}
+#### Corollaire 5 {#ac-ii-s3-thm-1-cor-5 .statement tag=048F}
 
 Soit $A$ un anneau. Tout système de générateurs du $A$-module $A^n$ ayant $n$ éléments est une base de $A^n$.
 
 Soient $(e_i)_{1 \leq i \leq n}$ la base canonique de $A^n$, $(x_i)_{1 \leq i \leq n}$ un système de générateurs de $A^n$ ayant $n$ éléments, $u : A^n \to A^n$ l’application $A$-linéaire telle que $u(e_i) = x_i$ pour $1 \leq i \leq n$. Par hypothèse $u$ est surjective et il faut montrer que $u$ est injective. On se ramène aussitôt, en vertu du th. 1, au cas où $A$ est un anneau local; si $m$ est l’idéal maximal de $A$, les éléments $1 \otimes x_i (1 \leq i \leq n)$ dans $(A/m)^n$ forment alors un système de générateurs du $(A/m)$-module libre $(A/m)^n$; comme $A/m$ est un corps, ce système est une base de $(A/m)^n$; comme $A^n$ est un $A$-module libre, on déduit de la prop. 5 que $(x_i)$ est une base de $A^n$.
 
-#### Proposition 11 {#ac-ii-s3-prop-11 .statement}
+#### Proposition 11 {#ac-ii-s3-prop-11 .statement tag=048G}
 
 Soient $M$ un $A$-module, $N$ un $A$-module de type fini, $u : M \to N$ un homomorphisme. Pour que $u$ soit surjectif, il faut et il suffit que, pour tout $m \in \Omega$, l’homomorphisme $M/mM \to N/mN$ déduit de $u$ par passage aux quotients soit surjectif.
 
 En effet, il résulte du th. 1 que, pour que $u$ soit surjectif, il faut et il suffit que $u_m : M_m \to N_m$ soit surjectif pour tout $m \in \Omega$. Comme $A_m$ est un anneau local et que $N_m$ est un $A_m$-module de type fini, il revient au même de dire que l’homomorphisme $u'_m : M_m / mM_m \to N_m / mN_m$, obtenu par passage aux quotients, est surjectif (no 2, cor. 1 de la prop. 4); mais $M_m / mM_m$ (resp. $N_m / mN_m$) s’identifie à $M / mM$ (resp. $N / mN$) (prop. 9), d’où la proposition.
 
-#### Proposition 12 {#ac-ii-s3-prop-12 .statement}
+#### Proposition 12 {#ac-ii-s3-prop-12 .statement tag=048H}
 
 Soient $E, F, G$ trois $A$-modules, $v : G \to F$ et $u : E \to F$ des homomorphismes. On suppose que $E$ est de présentation finie. Pour qu’il existe un homomorphisme $w : E \to G$ tel que $u$ se factorise en $u : E \xrightarrow{w} G \xrightarrow{v} F$, il faut et il suffit que, pour tout $m \in \Omega$, il existe un homomorphisme $w^m : E_m \to G_m$ tel que $u_m : E_m \to F_m$ se factorise en $E_m \xrightarrow{w^m} G_m \xrightarrow{v^m} F_m$.
 
 L’existence de $w$ vérifiant l’énoncé est équivalente à la propriété suivante : $u$ appartient à l’image $P$ de l’application $r = \mathrm{Hom}(1_E, v) : \mathrm{Hom}_A(E, G) \to \mathrm{Hom}_A(E, F)$. Or, $(\mathrm{Hom}_A(E, F))_m$ (resp. $(\mathrm{Hom}_A(E, G))_m$) s’identifie canoniquement à $\mathrm{Hom}_{A_m}(E_m, F_m)$ (resp. $\mathrm{Hom}_{A_m}(E_m, G_m)$) (§ 2, no 7, prop. 19, (i)), l’image canonique de $u$ dans $(\mathrm{Hom}_A(E, F))_m$ s’identifie à $u_m$, $r_m$ s’identifie à $\mathrm{Hom}_{A_m}(1_{E_m}, v_m)$ et $P_m$ à l’image de $r_m$. La proposition résulte alors du cor. 1 du th. 1 appliqué à $\mathrm{Hom}_A(E, F)$ et à son sous-module $P$.
 
-#### Corollaire 1 {#ac-ii-s3-prop-12-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s3-prop-12-cor-1 .statement tag=048I}
 
 Soient $M$ un $A$-module, $N$ un sous-module de $M$ tel que $M/N$ admette une présentation finie. Pour que $N$ soit facteur direct de $M$, il faut et il suffit que, pour tout $m \in \Omega$, $N_m$ soit facteur direct de $M_m$.
 
 En effet, dire que $N$ est facteur direct de $M$ signifie que l’homomorphisme identique de $M/N$ se factorise en $M/N \xrightarrow{w} M \xrightarrow{\varphi} M/N$ où $\varphi$ est l’homomorphisme canonique et $w$ un homomorphisme ($Alg.$, chap. II, 3e éd., § 1, no 9, prop. 14); comme $(M/N)_m = M_m / N_m$ et que $\varphi_m$ est l’homomorphisme canonique $M_m \to M_m / N_m$, le corollaire résulte aussitôt de la prop. 12.
 
-#### Corollaire 2 {#ac-ii-s3-prop-12-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s3-prop-12-cor-2 .statement tag=048J}
 
 Soient $M$ un $A$-module libre de type fini, $N$ un sous-module de $M$ qui est un $A$-module libre de type fini. Pour que $N$ soit facteur direct de $M$, il faut et il suffit que, pour tout $m \in \Omega$, on ait $mN = N \cap (mM)$.
 
@@ -358,23 +358,23 @@ La prop. 12 (resp. son corollaire 1) s’appliquera en particulier lorsque $A$ e
 
 ### 4. Localisation de la platitude.
 
-#### Proposition 13 {#ac-ii-s3-prop-13 .statement}
+#### Proposition 13 {#ac-ii-s3-prop-13 .statement tag=048K}
 
 Soient $S$ une partie multiplicative d’un anneau $A$, et $M$ un $A$-module. Si $M$ est plat (resp. fidèlement plat), $S^{-1}M$ est un $S^{-1}A$-module plat (resp. fidèlement plat), et un $A$-module plat.
 
 Comme $S^{-1}M = M \otimes_A S^{-1}A$, la première assertion résulte du chap. I, § 2, no 7, cor. 2 de la prop. 8 (resp. du chap. I, § 3, no 3, prop. 5) ; en outre, $S^{-1}A$ est un $A$-module plat ($§ 2$, no 4, th. 1) ; donc, si $M$ est un $A$-module plat, il en est de même de $S^{-1}M$ en vertu du chap. I, § 2, no 7, cor. 3 de la prop. 8.
 
-#### Remarque {#ac-ii-s3-n4-rem-1 .statement}
+#### Remarque {#ac-ii-s3-n4-rem-1 .statement tag=048L}
 
 Si $N$ est un $S^{-1}A$-module, $S^{-1}N$ s’identifie à $N$, et il est par suite équivalent de dire que $N$ est un $S^{-1}A$-module plat ou un $A$-module plat.
 
-#### Proposition 14 {#ac-ii-s3-prop-14 .statement}
+#### Proposition 14 {#ac-ii-s3-prop-14 .statement tag=048M}
 
 Soient $A$ un anneau, $B$ une $A$-algèbre commutative, $T$ une partie multiplicative de $B$. Si $N$ est un $B$-module qui est plat en tant que $A$-module, $T^{-1}N$ est un $A$-module plat.
 
 On a en effet $T^{-1}N = T^{-1}B \otimes_B N$ ; la proposition résulte alors du chap. I, § 2, no 7, prop. 8, appliquée en remplaçant $A$ par $B$, $B$ par $A$, $E$ par $T^{-1}B$ et $F$ par $N$.
 
-#### Proposition 15 {#ac-ii-s3-prop-15 .statement}
+#### Proposition 15 {#ac-ii-s3-prop-15 .statement tag=048N}
 
 Soient $A, B$ deux anneaux, $\varphi : A \to B$ un homomorphisme, $N$ un $B$-module. Les propriétés suivantes sont équivalentes :
 
@@ -392,7 +392,7 @@ $$
 
 $\varphi_n$ n’est autre que l’homomorphisme $1 \otimes u : N_n \otimes_A M \to N_n \otimes_A M'$, qui est injectif puisque $N_n$ est un $A$-module plat par hypothèse.
 
-#### Corollaire {#ac-ii-s3-n4-cor-1 .statement}
+#### Corollaire {#ac-ii-s3-n4-cor-1 .statement tag=048O}
 
 Pour qu’un $A$-module $M$ soit plat (resp. fidèlement plat) il faut et il suffit que, pour tout idéal maximal $m$ de $A$, $M_m$ soit un $A_m$-module plat (resp. fidèlement plat).
 
@@ -400,7 +400,7 @@ La nécessité des conditions résulte de la prop. 13. Inversement, si $M_m$ est
 
 ### 5. Anneaux semi-locaux.
 
-#### Proposition 16 {#ac-ii-s3-prop-16 .statement}
+#### Proposition 16 {#ac-ii-s3-prop-16 .statement tag=048P}
 
 Soit $A$ un anneau. Les conditions suivantes sont équivalentes :
 
@@ -412,17 +412,17 @@ Supposons que le quotient de $A$ par son radical $\mathscr{R}$ soit composé dir
 
 Réciproquement, supposons que $A$ ne possède qu’un nombre fini d’idéaux maximaux distincts $m_1, ..., m_n$. Les $A/m_i$ sont des corps, et il résulte du § 1, n° 2, prop. 5, que l’application canonique $A \to \prod_{i=1}^n A/m_i$ est surjective ; comme son noyau $\bigcap_{i=1}^n m_i$ est le radical $\mathscr{R}$ (*Alg.*, chap. VIII, § 6, n° 2, déf. 2), $A/\mathscr{R}$ est isomorphe à $\prod_{i=1}^n A/m_i$.
 
-#### Définition 4 {#ac-ii-s3-def-4 .statement}
+#### Définition 4 {#ac-ii-s3-def-4 .statement tag=048Q}
 
 *On dit qu’un anneau est semi-local s’il satisfait aux conditions équivalentes a), b) de la prop. 16.*
 
-#### Exemple {#ac-ii-s3-n5-exa-1 .statement}
+#### Exemple {#ac-ii-s3-n5-exa-1 .statement tag=048R}
 
 Tout anneau local est semi-local. Tout quotient d’un anneau semi-local est semi-local. Tout produit fini d’anneaux semi-locaux est semi-local. *Si $A$ est un anneau semi-local noethérien, et si $B$ est une $A$-algèbre qui est un $A$-module de type fini, alors $B$ est semi-local (chap. IV, § 2, n° 5, cor. 3 de la prop. 9).*
 
 Un autre exemple, généralisant la construction des anneaux locaux $A_p$, est fourni par la proposition suivante :
 
-#### Proposition 17 {#ac-ii-s3-prop-17 .statement}
+#### Proposition 17 {#ac-ii-s3-prop-17 .statement tag=048S}
 
 *Soient $A$ un anneau, $p_1, ..., p_n$ des idéaux premiers de $A$. Posons $S = \bigcap_{i=1}^n (A - p_i) = A - \bigcup_{i=1}^n p_i$.
 
@@ -444,7 +444,7 @@ en vertu de b).
 
 Si A est intègre, il en est de même de $S^{-1}A$, et la prop. 17 fournit donc un exemple d’anneau semi-local qui n’est pas composé direct d’anneaux locaux (cf. chap. III, $§ 2$, no 13).
 
-#### Corollaire {#ac-ii-s3-n5-cor-1 .statement}
+#### Corollaire {#ac-ii-s3-n5-cor-1 .statement tag=048T}
 
 Soient A un anneau intègre, $p_1, ..., p_n$ des idéaux premiers de A, non comparables deux à deux pour la relation d’inclusion. Si $A = \bigcap_{i=1}^{n} A_{p_i}$ dans le corps des fractions de A, les idéaux maximaux de A sont $p_1, ..., p_n$.
 

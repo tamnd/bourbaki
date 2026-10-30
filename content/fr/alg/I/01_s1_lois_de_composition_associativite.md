@@ -36,14 +36,14 @@ subsections:
       pdf_page: 20
 statements: 39
 exercises: 16
-content_sha256: fc49cfc51b454432caf238e360515b3d9c8fce04de20f440b3eca2f4a7a8e020
+content_sha256: 2b7da904bd0b25b3121a1e7e1bda9c276f9820d7e42a831132c3204d2b62365f
 ---
 
 ## § 1. LOIS DE COMPOSITION; ASSOCIATIVITÉ; COMMUTATIVITÉ
 
 ### 1. Lois de composition
 
-#### Définition 1 {#alg-i-s1-def-1 .statement}
+#### Définition 1 {#alg-i-s1-def-1 .statement tag=055B}
 
 Soit E un ensemble. On appelle loi de composition sur E une application f de E × E dans E. La valeur f(x, y) de f pour un couple (x, y) ∈ E × E s’appelle le composé de x et de y pour cette loi. Un ensemble muni d’une loi de composition est appelé un magma.
 
@@ -51,23 +51,23 @@ Le composé de x et de y se note le plus souvent en écrivant x et y dans un ord
 
 On dit parfois, par abus de langage, qu’une application d’une partie de E × E dans E est une loi de composition non partout définie dans E.
 
-#### Exemple 1 {#alg-i-s1-n1-exa-1 .statement}
+#### Exemple 1 {#alg-i-s1-n1-exa-1 .statement tag=055C}
 
 Les applications (X, Y) ↦ X ∪ Y et (X, Y) ↦ X ∩ Y sont des lois de composition sur l’ensemble des parties d’un ensemble E.
 
-#### Exemple 2 {#alg-i-s1-n1-exa-2 .statement}
+#### Exemple 2 {#alg-i-s1-n1-exa-2 .statement tag=0DDH}
 
 Dans l’ensemble N des entiers naturels, l’addition, la multiplication, l’exponentiation sont des lois de composition (les composés de x ∈ N et de y ∈ N pour ces lois se notant respectivement x + y, xy ou x.y, et x^y) (E, III, p. 27–28).
 
-#### Exemple 3 {#alg-i-s1-n1-exa-3 .statement}
+#### Exemple 3 {#alg-i-s1-n1-exa-3 .statement tag=0DDI}
 
 Soit E un ensemble ; l’application (X, Y) ↦ $X \circ Y$ est une loi de composition sur l’ensemble des parties de E × E (E, II, p. 11, déf. 6) ; l’application (f, g) ↦ $f \circ g$ est une loi de composition sur l’ensemble des applications de E dans E (E, II, p. 31).
 
-#### Exemple 4 {#alg-i-s1-n1-exa-4 .statement}
+#### Exemple 4 {#alg-i-s1-n1-exa-4 .statement tag=0DDJ}
 
 Soit E un ensemble ordonné réticulé (E, III, p. 13) ; si on désigne par sup(x, y) la borne supérieure de l’ensemble {x, y}, l’application (x, y) ↦ sup(x, y) est une loi de composition sur E. De même pour la borne inférieure inf(x, y). L’exemple 1 ci-dessus est un cas particulier de celui-ci, en considérant $\mathfrak{P}(E)$ comme ordonné par inclusion.
 
-#### Exemple 5 {#alg-i-s1-n1-exa-5 .statement}
+#### Exemple 5 {#alg-i-s1-n1-exa-5 .statement tag=0DDK}
 
 Soit $(E_i)_{i \in I}$ une famille de magmas. Notons $\tau_i$ la loi de composition sur $E_i$. L’application
 $$
@@ -79,7 +79,7 @@ Soit $(x, y) \mapsto x \top y$ une loi de composition sur un ensemble E. Etant d
 
 Si $a \in E$, on écrit généralement $a \top Y$ au lieu de $\{a\} \top Y$, et $X \top a$ au lieu de $X \top \{a\}$. L’application $(X, Y) \mapsto X \top Y$ est une loi de composition sur l’ensemble des parties de E.
 
-#### Définition 2 {#alg-i-s1-def-2 .statement}
+#### Définition 2 {#alg-i-s1-def-2 .statement tag=055D}
 
 *Soit E un magma. Notons $\tau$ sa loi de composition. La loi de composition $(x, y) \mapsto y \top x$ sur E est dite opposée à la précédente. L’ensemble E, muni de cette loi, est appelé magma opposé de E.*
 
@@ -91,7 +91,7 @@ pour tout couple $(x, y) \in E \times E$. On dit que E et E′ sont *isomorphes*
 
 Plus généralement:
 
-#### Définition 3 {#alg-i-s1-def-3 .statement}
+#### Définition 3 {#alg-i-s1-def-3 .statement tag=055E}
 
 *On appelle homomorphisme, ou morphisme, de E dans E′ une application f de E dans E′ telle que la relation (1) soit vérifiée pour tout couple $(x, y) \in E \times E$; lorsque $E = E'$, on dit que f est un endomorphisme de E.*
 
@@ -115,7 +115,7 @@ On dit que deux séquences $(x_i)_{i \in I}$ et $(y_k)_{k \in K}$ sont semblable
 
 Toute séquence $(x_\alpha)_{\alpha \in A}$ est semblable à une suite finie convenable. En effet, il existe une bijection croissante de $A$ sur un intervalle $[0, n]$ de $\mathbf{N}$.
 
-#### Définition 4 {#alg-i-s1-def-4 .statement}
+#### Définition 4 {#alg-i-s1-def-4 .statement tag=055F}
 
 Soit $(x_\alpha)_{\alpha \in A}$ une séquence d’éléments d’un magma $E$ dont l’ensemble d’indices $A$ est non vide. On appelle composé (pour la loi $\top$) de la séquence $(x_\alpha)_{\alpha \in A}$, et on note $\prod_{\alpha \in A} x_\alpha$, l’élément de $E$ défini par récurrence sur le nombre d’éléments de $A$, de la façon suivante:
 
@@ -126,7 +126,7 @@ Il est immédiat (par récurrence sur le nombre d’éléments des ensembles d�
 
 Si $A = \{\lambda, \mu, \nu\}$ a trois éléments ($\lambda < \mu < \nu$) le composé $\prod_{\alpha \in A} x_\alpha$ est $x_\lambda \top (x_\mu \top x_\nu)$.
 
-#### Remarque {#alg-i-s1-n2-rem-1 .statement}
+#### Remarque {#alg-i-s1-n2-rem-1 .statement tag=055G}
 
 On notera qu’il y a un certain arbitraire dans la définition du composé d’une séquence; la récurrence que nous avons introduite procède « de droite à gauche ». Si on procédait « de gauche à droite », le composé de la séquence $(x_\lambda, x_\mu, x_\nu)$ ci-dessus serait $(x_\lambda \top x_\mu) \top x_\nu$.
 
@@ -145,7 +145,7 @@ $$
 
 ### 3. Lois associatives
 
-#### Définition 5 {#alg-i-s1-def-5 .statement}
+#### Définition 5 {#alg-i-s1-def-5 .statement tag=055H}
 
 *Une loi de composition* $(x, y) \mapsto x \tau y$ *sur un ensemble* E *est dite associative si, quels que soient les éléments* $x, y, z$ *de* E, *on a*
 $$
@@ -155,15 +155,15 @@ $$
 
 La loi opposée à une loi associative est associative.
 
-#### Exemple 1 {#alg-i-s1-n3-exa-1 .statement}
+#### Exemple 1 {#alg-i-s1-n3-exa-1 .statement tag=055I}
 
 L’addition et la multiplication des entiers naturels sont des lois de composition associatives sur $\mathbf{N}$ (E, III, p. 27, corollaire).
 
-#### Exemple 2 {#alg-i-s1-n3-exa-2 .statement}
+#### Exemple 2 {#alg-i-s1-n3-exa-2 .statement tag=0DDL}
 
 Les lois citées aux exemples 1), 3) et 4) de I, p. 1–2 sont associatives.
 
-#### Théorème 1 (Théorème d’associativité) {#alg-i-s1-thm-1 .statement}
+#### Théorème 1 (Théorème d’associativité) {#alg-i-s1-thm-1 .statement tag=055J}
 
 *Soit* E *un magma associatif dont la loi est notée* $\tau$. *Soit* A *un ensemble fini non vide, totalement ordonné, réunion d’une séquence de parties non vides* $(B_i)_{i \in I}$ *telles que les relations* $\alpha \in B_i, \beta \in B_j, i < j$ *entraînent* $\alpha < \beta$; *soit* $(x_\alpha)_{\alpha \in A}$ *une séquence d’éléments de* E, *ayant* A *pour ensemble d’indices*. *On a*
 
@@ -229,7 +229,7 @@ Il importe de ne pas confondre cet ensemble avec l’ensemble des $\tau^p x$, o�
 
 ### 4. Parties stables. Lois induites
 
-#### Définition 6 {#alg-i-s1-def-6 .statement}
+#### Définition 6 {#alg-i-s1-def-6 .statement tag=055K}
 
 Une partie $A$ d’un ensemble $E$ est dite stable pour une loi de composition $\tau$ sur $E$ si le composé de deux éléments de $A$ appartient à $A$. L’application $(x, y) \mapsto x \tau y$ de $A \times A$ dans $A$ s’appelle alors la loi induite sur $A$ par la loi $\tau$. L’ensemble $A$, muni de la loi induite par $\tau$, s’appelle un sous-magma de $E$.
 
@@ -237,7 +237,7 @@ Autrement dit, pour que $A$ soit stable pour une loi $\tau$, il faut et il suffi
 
 L’intersection d’une famille de parties stables de $E$ est stable; en particulier il existe une plus petite partie stable $A$ de $E$ contenant une partie $X$ donnée; elle est dite engendrée par $X$ et $X$ est appelé un système générateur de $A$, ou ensemble générateur de $A$. On dit aussi que le sous-magma $A$ est engendré par $X$.
 
-#### Proposition 1 {#alg-i-s1-prop-1 .statement}
+#### Proposition 1 {#alg-i-s1-prop-1 .statement tag=055L}
 
 Soient $E$ et $F$ deux magmas, et $f$ un homomorphisme de $E$ dans $F$.
 
@@ -248,53 +248,53 @@ Soient $E$ et $F$ deux magmas, et $f$ un homomorphisme de $E$ dans $F$.
 
 Les assertions (i), (ii) et (iv) sont évidentes; démontrons (iii). Soient $\overline{X}$ la partie stable de $E$ engendrée par $X$ et $\overline{f(X)}$ la partie stable de $F$ engendrée par $f(X)$. D’après (i), on a $\overline{f(X)} \subset f(\overline{X})$, et d’après (ii), on a $\overline{X} \subset f^{-1}(\overline{f(X)})$, d’où $f(\overline{X}) \subset \overline{f(X)}$.
 
-#### Proposition 2 {#alg-i-s1-prop-2 .statement}
+#### Proposition 2 {#alg-i-s1-prop-2 .statement tag=055M}
 
 Soient E un magma associatif et X une partie de E. Soit X' l’ensemble des $x_1 \top x_2 \top \cdots \top x_n$, où $n \geqslant 1$ et où $x_i \in X$ pour $1 \leqslant i \leqslant n$. La partie stable engendrée par X est égale à X'.
 
 Il est immédiat, par récurrence sur n, que le composé d’une séquence de n termes appartenant à X appartient à la partie stable engendrée par X ; il suffit donc de voir que X' est stable. Or, si u et v sont deux éléments de X', ils sont de la forme $u = x_0 \top x_1 \top \cdots \top x_{n-1}$, $v = x_n \top x_{n+1} \top \cdots \top x_{n+p}$ avec $x_i \in X$ pour $0 \leqslant i \leqslant n + p$; donc (I, p. 4, th. 1) $u \top v = x_0 \top x_1 \top \cdots \top x_{n+p}$ appartient à X'.
 
-#### Exemple 1 {#alg-i-s1-n4-exa-1 .statement}
+#### Exemple 1 {#alg-i-s1-n4-exa-1 .statement tag=055N}
 
 Dans l’ensemble N des entiers naturels, la partie stable pour l’addition engendrée par {1} est l’ensemble des entiers $\geqslant 1$; pour la multiplication, l’ensemble {1} est stable.
 
-#### Exemple 2 {#alg-i-s1-n4-exa-2 .statement}
+#### Exemple 2 {#alg-i-s1-n4-exa-2 .statement tag=0DDM}
 
 Etant donnée une loi $\top$ sur un ensemble E, pour qu’une partie $\{h\}$ réduite à un seul élément soit stable pour la loi $\top$, il faut et il suffit que $h \top h = h$; on dit alors que h est idempotent. Par exemple, tout élément d’un ensemble ordonné réticulé est idempotent pour chacune des lois sup et inf.
 
-#### Exemple 3 {#alg-i-s1-n4-exa-3 .statement}
+#### Exemple 3 {#alg-i-s1-n4-exa-3 .statement tag=0DDN}
 
 Pour une loi associative $\top$ sur un ensemble E, la partie stable engendrée par un ensemble $\{a\}$ réduit à un seul élément est l’ensemble des éléments $\top^n a$, où n parcourt l’ensemble des entiers $> 0$.
 
 ### 5. Eléments permutables. Lois commutatives
 
-#### Définition 7 {#alg-i-s1-def-7 .statement}
+#### Définition 7 {#alg-i-s1-def-7 .statement tag=055O}
 
 Soit E un magma dont la loi est notée $\top$. On dit que deux éléments x et y de E commutent (ou sont permutables) si $y \top x = x \top y$.
 
-#### Définition 8 {#alg-i-s1-def-8 .statement}
+#### Définition 8 {#alg-i-s1-def-8 .statement tag=055P}
 
 Une loi de composition sur un ensemble E est dite commutative si deux éléments quelconques de E commutent pour cette loi. Un magma dont la loi de composition est commutative est appelé magma commutatif.
 
 Une loi commutative est égale à son opposée.
 
-#### Exemple 1 {#alg-i-s1-n5-exa-1 .statement}
+#### Exemple 1 {#alg-i-s1-n5-exa-1 .statement tag=055Q}
 
 L’addition et la multiplication des entiers naturels sont des lois commutatives sur N (E, III, p. 27, corollaire).
 
-#### Exemple 2 {#alg-i-s1-n5-exa-2 .statement}
+#### Exemple 2 {#alg-i-s1-n5-exa-2 .statement tag=0DDO}
 
 Dans un ensemble ordonné réticulé, les lois sup et inf sont commutatives; il en est ainsi, en particulier, des lois $\cup$ et $\cap$ entre parties d’un ensemble E.
 
-#### Exemple 3 {#alg-i-s1-n5-exa-3 .statement}
+#### Exemple 3 {#alg-i-s1-n5-exa-3 .statement tag=0DDP}
 
 Soit E un ensemble, de cardinal $> 1$. La loi $(f, g) \mapsto f \circ g$ entre applications de E dans E n’est pas commutative, comme on le voit en prenant pour f et g des applications constantes distinctes, mais l’application identique est permutable avec toute application.
 
-#### Exemple 4 {#alg-i-s1-n5-exa-4 .statement}
+#### Exemple 4 {#alg-i-s1-n5-exa-4 .statement tag=0DDQ}
 
 Soit $(x, y) \mapsto x \top y$ une loi commutative sur E; la loi $(X, Y) \mapsto X \top Y$ entre parties de E est commutative.
 
-#### Définition 9 {#alg-i-s1-def-9 .statement}
+#### Définition 9 {#alg-i-s1-def-9 .statement tag=055R}
 
 Soient E un magma et X une partie de E. On appelle commutant de X dans E l’ensemble des éléments de E qui commutent avec chacun des éléments de X.
 
@@ -303,7 +303,7 @@ Soit $(X_i)_{i \in I}$ une famille de parties de E, et pour tout $i \in I$ soit 
 
 Soient X une partie de E, et X' le commutant de X. Le commutant X'' de X' est appelé le bicommuntant de X. On a X ⊂ X''. Le commutant X'' de X'' est égal à X'. En effet, X' est contenu dans son bicommuntant X'', et la relation X ⊂ X'' entraîne X'' ⊂ X'.
 
-#### Proposition 3 {#alg-i-s1-prop-3 .statement}
+#### Proposition 3 {#alg-i-s1-prop-3 .statement tag=055S}
 
 *Soit E un magma associatif dont la loi est notée $\top$. Si un élément x de E commute avec chacun des éléments y et z de E, il commute avec y $\top$ z.*
 
@@ -312,31 +312,31 @@ $$
 x \top (y \top z) = (x \top y) \top z = (y \top x) \top z = y \top (x \top z) = y \top (z \top x) = (y \top z) \top x.
 $$
 
-#### Corollaire {#alg-i-s1-n5-cor-1 .statement}
+#### Corollaire {#alg-i-s1-n5-cor-1 .statement tag=055T}
 
 *Soit E un magma associatif. Le commutant d’une partie quelconque de E est une partie stable de E.*
 
-#### Définition 10 {#alg-i-s1-def-10 .statement}
+#### Définition 10 {#alg-i-s1-def-10 .statement tag=055U}
 
 *On appelle centre d’un magma E le commutant de E. Un élément du centre de E est appelé élément central de E.*
 
 Si E est un magma associatif, son centre est une partie stable d’après le cor. de la prop. 3, et la loi induite sur ce centre est commutative.
 
-#### Proposition 4 {#alg-i-s1-prop-4 .statement}
+#### Proposition 4 {#alg-i-s1-prop-4 .statement tag=055V}
 
 *Soient E un magma associatif, X et Y deux parties de E. Si tout élément de X commute avec tout élément de Y, tout élément de la partie stable engendrée par X commute avec tout élément de la partie stable engendrée par Y.*
 
 Soient X' et X'' le commutant et le bicommuntant de X. Ce sont des parties stables de E. On a X ⊂ X'' et Y ⊂ X', donc X'' (resp. X') contient la partie stable de E engendrée par X (resp. Y). Comme tout élément de X'' commute avec tout élément de X', la proposition en résulte.
 
-#### Corollaire 1 {#alg-i-s1-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-i-s1-prop-4-cor-1 .statement tag=055W}
 
 *Si x et y sont permutables pour la loi associative $\top$, il en est de même de $\top^m x$ et $\top^n y$, quels que soient les entiers m > 0 et n > 0; en particulier, $\top^m x$ et $\top^n x$ sont permutables quels que soient x et les entiers m > 0, n > 0.*
 
-#### Corollaire 2 {#alg-i-s1-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-i-s1-prop-4-cor-2 .statement tag=055X}
 
 *Si tous les couples d’éléments d’une partie X sont permutables pour une loi associative $\top$, la loi induite par $\top$ sur la partie stable engendrée par X est associative et commutative.*
 
-#### Théorème 2 (théorème de commutativité) {#alg-i-s1-thm-2 .statement}
+#### Théorème 2 (théorème de commutativité) {#alg-i-s1-thm-2 .statement tag=055Y}
 
 *Soit $\top$ une loi de composition associative sur E; soit $(x_\alpha)_{\alpha \in A}$ une famille finie non vide d’éléments de E, deux à deux permutables; soient B et C deux ensembles totalement ordonnés ayant A pour ensemble sous-jacent. Alors $\prod_{\alpha \in B} x_\alpha = \prod_{\alpha \in C} x_\alpha$*
 
@@ -361,7 +361,7 @@ ce qui démontre le théorème dans ce cas. Si $h = 0$ ou $h = p - 1$, on trouve
 
 Pour une loi associative et commutative sur un ensemble $E$, le composé d’une famille finie $(x_\alpha)_{\alpha \in A}$ d’éléments de $E$ est par définition la valeur commune des composés de toutes les séquences obtenues en ordonnant totalement $A$ de toutes les manières possibles. Ce composé se note encore $\prod_{\alpha \in A} x_\alpha$ pour une loi notée $\top$; de même pour les autres notations.
 
-#### Théorème 3 {#alg-i-s1-thm-3 .statement}
+#### Théorème 3 {#alg-i-s1-thm-3 .statement tag=055Z}
 
 *Soient $\top$ une loi associative sur $E$, $(x_\alpha)_{\alpha \in A}$ une famille finie non vide d’éléments de $E$ deux à deux permutables. Si $A$ est réunion d’une famille de parties non vides $(B_i)_{i \in I}$, deux à deux disjointes, on a*
 
@@ -415,7 +415,7 @@ $$
 \prod_{0 \leq i_1 < i_2 < \ldots < i_p \leq n} x_{i_1 i_2 \ldots i_p}, \quad \text{ou simplement} \quad \prod_{i_1 < i_2 < \ldots < i_p} x_{i_1 i_2 \ldots i_p}.
 $$
 
-#### Proposition 5 {#alg-i-s1-prop-5 .statement}
+#### Proposition 5 {#alg-i-s1-prop-5 .statement tag=0560}
 
 *Soient E et F des magmas dont les lois sont notées $\top$, et soient f et g des homomorphismes de E dans F. Soit $f \top g$ l’application $x \mapsto f(x) \top g(x)$ de E dans F. Si F est associatif et commutatif, $f \top g$ est un homomorphisme.*
 
@@ -427,7 +427,7 @@ $$
 
 ### 6. Lois quotients
 
-#### Définition 11 {#alg-i-s1-def-11 .statement}
+#### Définition 11 {#alg-i-s1-def-11 .statement tag=0561}
 
 *Soit E un ensemble. On dit qu’une loi de composition $\top$ et une relation d’équivalence R dans E sont compatibles si les relations x ≡ x' (mod R) et y ≡ y' (mod R) (pour x, x', y, y' dans E) entraînent x ⊔ y ≡ x' ⊔ y' (mod R); la loi de composition sur l’ensemble quotient E/R qui, aux classes d’équivalence de x et de y, fait correspondre la classe d’équivalence de x ⊔ y, s’appelle la loi quotient de la loi ⊔ par R. L’ensemble E/R, muni de la loi quotient, s’appelle le magma quotient de E par R.
 
@@ -441,15 +441,15 @@ Pour qu’une application g de E/R dans un magma F soit un homomorphisme, il fau
 
 Les deux propositions suivantes se déduisent immédiatement des définitions:
 
-#### Proposition 6 {#alg-i-s1-prop-6 .statement}
+#### Proposition 6 {#alg-i-s1-prop-6 .statement tag=0562}
 
 Soient E et F deux magmas et f un homomorphisme de E dans F. Notons R x, y la relation f(x) = f(y) entre éléments x, y de E. Alors R est une relation d’équivalence dans E compatible avec la loi de E et l’application de E/R sur f(E) déduite de f par passage au quotient est un isomorphisme du magma quotient E/R sur le sous-magma f(E) de F.
 
-#### Proposition 7 {#alg-i-s1-prop-7 .statement}
+#### Proposition 7 {#alg-i-s1-prop-7 .statement tag=0563}
 
 Soient E un magma et R une relation d’équivalence dans E compatible avec la loi de E. Pour qu’une relation d’équivalence S dans E/R soit compatible avec la loi quotient, il faut et il suffit que S soit de la forme T/R, où T est une relation d’équivalence dans E, entraînée par R et compatible avec la loi de E. L’application canonique de E/T sur (E/R)/(T/R) (E, II, p. 46) est alors un isomorphisme de magmas.
 
-#### Proposition 8 {#alg-i-s1-prop-8 .statement}
+#### Proposition 8 {#alg-i-s1-prop-8 .statement tag=0564}
 
 Soient E un magma, A une partie stable de E et R une relation d’équivalence dans E, compatible avec la loi de E. Le saturé B de A pour R (E, II, p. 44) est une partie stable. Les relations d’équivalence R_A et R_B induites par R dans A et B respectivement sont compatibles avec les lois induites et l’application déduite de l’injection canonique de A dans B par passage aux quotients est un isomorphisme de magmas de A/R_A sur B/R_B.
 
@@ -457,7 +457,7 @@ Notons ⊔ la loi de E. Si x et y sont deux éléments de B, il existe deux él�
 
 Soient $M$ un magma, et $((u_\alpha, v_\alpha))_{\alpha \in I}$ une famille d’éléments de $M \times M$. Considérons toutes les relations d’équivalence $S$ dans $M$ qui sont compatibles avec la loi de $M$, et telles que $u_\alpha \equiv v_\alpha$ (mod. $S$) pour tout $\alpha \in I$. L’intersection des graphes de ces relations est le graphe d’une relation d’équivalence $R$, qui est compatible avec la loi de $M$, et telle que $u_\alpha \equiv v_\alpha$ (mod $R$). Donc $R$ est *la plus fine* (E, III, p. 4 et p. 8) des relations d’équivalence possédant ces deux propriétés. On l’appelle la relation d’équivalence compatible avec la loi de $M$ *engendrée* par les $(u_\alpha, v_\alpha)$.
 
-#### Proposition 9 {#alg-i-s1-prop-9 .statement}
+#### Proposition 9 {#alg-i-s1-prop-9 .statement tag=0565}
 
 *On conserve les notations précédentes. Soit $f$ un homomorphisme de $M$ dans un magma tel que $f(u_\alpha) = f(v_\alpha)$ pour tout $\alpha \in I$. Alors $f$ est compatible avec $R$.*
 

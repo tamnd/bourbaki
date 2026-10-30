@@ -24,7 +24,7 @@ subsections:
       pdf_page: 123
 statements: 9
 exercises: 5
-content_sha256: ae4b4fbbeeb49bd4c4110407841c8096fb7aa47e7ae95f9f57dd94c73c707730
+content_sha256: 07d4fe8c1f201c515f0cbf75d3cd066fc09084c3035b0204be862ef63ea6d88e
 ---
 
 ## 3. INFINITE SUMS AND PRODUCTS OF COMPLEX NUMBERS
@@ -33,7 +33,7 @@ content_sha256: ae4b4fbbeeb49bd4c4110407841c8096fb7aa47e7ae95f9f57dd94c73c707730
 
 Since the additive group of the field $\mathbf{C}$ is the same as the additive group $\mathbf{R}^2$, it is not necessary to make a special study of summable families and series in $\mathbf{C}$, since this is included in the general theory of Chapter VII, § 3; we leave to the reader the exercise of translating the results of this theory into the language of the theory of complex numbers. We state only the following proposition, which is a corollary to Proposition 3 of Chapter VII, § 3, no. 1:
 
-#### Proposition 1 {#top-viii-s3-prop-1 .statement}
+#### Proposition 1 {#top-viii-s3-prop-1 .statement tag=0C0I}
 
 *If* $(u_\lambda)_{\lambda \in L}$ *and* $(v_\mu)_{\mu \in M}$ *are two summable families of complex numbers, then the family* $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ *is summable and we have*
 
@@ -47,7 +47,7 @@ We leave it to the reader to state the corresponding result for quaternions.
 
 In the multiplicative group $\mathbf{C}^*$ of non-zero complex numbers a family $(z_i)_{i \in I}$ cannot be multipliable unless $\lim z_i = 1$ with respect to the filter of complements of finite subsets of $I$ (Chapter III, § 5, no. 2, Proposition 1); furthermore, since every point of $\mathbf{C}^*$ has a countable fundamental system of neighbourhoods, the set of indices $i$ such that $z_i \neq 1$ is countable if the family $(z_i)$ is multipliable (Chapter III, § 5, no. 2, Corollary to Proposition 1).
 
-#### Proposition 2 {#top-viii-s3-prop-2 .statement}
+#### Proposition 2 {#top-viii-s3-prop-2 .statement tag=0C0J}
 
 *A family* $(z_i)$ *of complex numbers* $z_i = r_i (\cos \theta_i + i \sin \theta_i)$ *is multipliable if and only if the family* $(r_i)$ *of absolute values of the* $z_i$ *is multipliable in* $\mathbf{R}_+^*$ *and the family* $(\theta_i)$ *of amplitudes of the* $z_i$ *is summable in the group of angles* $\mathfrak{A}$.
 
@@ -57,7 +57,7 @@ If we map each angle $\theta$ to that one of its measures (to any given base $a$
 
 The following theorem gives another criterion for a family of complex numbers, put in the form $(1 + u_i)$, to be multipliable in $\mathbf{C}^*$. (It generalizes Theorem 4 of Chapter IV, $\S$ 7, no. 4; see also Chapter IX, Appendix, no. 2, Proposition 1):
 
-#### Theorem 1 {#top-viii-s3-thm-1 .statement}
+#### Theorem 1 {#top-viii-s3-thm-1 .statement tag=0C0K}
 
 *The family* $(1 + u_i)_{i \in I}$ *is multipliable in* $\mathbf{C}^*$ *if and only if the family* $(|u_i|)$ *is summable in* $\mathbf{R}$.
 
@@ -67,7 +67,7 @@ $$
 p_J = \prod_{i \in J} (1 + a_i), \quad s_J = \sum_{i \in J} a_i, \quad \sigma_J = \sum_{i \in J} |a_i|.
 $$
 
-#### Lemma 1 {#top-viii-s3-lem-1 .statement}
+#### Lemma 1 {#top-viii-s3-lem-1 .statement tag=0C0L}
 
 *For each finite subset* $J$ *of* $I$, *let* $\varphi(J) = \sup_{L \subset J} (p_L - 1)$. *Then for each subset* $L$ *of* $J$ *we have*
 
@@ -83,7 +83,7 @@ $$
 
 which proves the lemma.
 
-#### Lemma 2 {#top-viii-s3-lem-2 .statement}
+#### Lemma 2 {#top-viii-s3-lem-2 .statement tag=0C0M}
 
 *If* $J$ *is a finite subset of* $I$ *such that* $\varphi(J) < 1/4$, *then*
 
@@ -109,19 +109,19 @@ The proof above applies also, mutatis mutandis, to (ordered) infinite products i
 
 For an infinite product of non-zero complex numbers with general factor $z_n = r_n (\cos \theta_n + i \sin \theta_n)$ to be convergent in $\mathbf{C}^*$, it is necessary and sufficient, from the structure of the group $\mathbf{C}^*$, that the product with general factor $r_n$ converge in $\mathbf{R}_+^*$ and the series with general term $t_n$ (the measure of $\theta_n$ which lies in ]$-\frac{1}{2}a$, $\frac{1}{2}a$]) converge in $\mathbf{R}$.
 
-#### Definition 1 {#top-viii-s3-def-1 .statement}
+#### Definition 1 {#top-viii-s3-def-1 .statement tag=0C0N}
 
 *An infinite product of complex numbers, with general factor* $1 + u_n$, *is said to be absolutely convergent if the product with general factor* $1 + |u_n|$ *is convergent* (or, equivalently, if the series with general term $|u_n|$ is convergent).
 
-#### Proposition 3 {#top-viii-s3-prop-3 .statement}
+#### Proposition 3 {#top-viii-s3-prop-3 .statement tag=0C0O}
 
 *An infinite product of complex numbers is commutatively convergent if and only if it is absolutely convergent.*
 
-#### Remark 1 {#top-viii-s3-n3-rem-1 .statement}
+#### Remark 1 {#top-viii-s3-n3-rem-1 .statement tag=0C0P}
 
 The product with general factor $|1 + u_n|$ can be convergent, and indeed absolutely convergent in $\mathbf{R}_i^*$, without the convergence of the product with general factor $1 + |u_n|$ (see Exercise 4); of course, this cannot happen if all the $u_n$ are real and $> 0$ from a certain index onwards.
 
-#### Remark 2 {#top-viii-s3-n3-rem-2 .statement}
+#### Remark 2 {#top-viii-s3-n3-rem-2 .statement tag=0C0Q}
 
 As already remarked for products of factors $> 0$, the convergence of the series with general term $u_n$ is neither necessary nor sufficient for the convergence of the product with general factor $1 + u_n$.
 

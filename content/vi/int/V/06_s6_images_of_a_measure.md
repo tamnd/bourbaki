@@ -37,9 +37,9 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: 9a23dffff74bce8ce4d445fecc0c9520288a4c4adbe67fa487576843d72d44af
+content_sha256: 60d94624cbd54f2a3ba648b99f02e50f7f3ef227ca1add9bda6761fd8307ebe1
 translated_from: content/en/int/V/06_s6_images_of_a_measure.md
-source_content_sha256: 4e0d6da1f47a0d451c7de699e2e7cb4df09f226eb04f5bcd38e522ffdb5acd0f
+source_content_sha256: b4ee00e28c0ad5363315a73bf228d2a58c397d50dececefce928f935c44c92bb
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-469b03b9
 glossary_version: 34
@@ -53,7 +53,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $X$ là một không gian compact địa phương, $\pi$ là một ánh xạ $\mu$-đo được từ $T$ vào $X$. Nói rằng cặp $(\pi, 1)$ là *$\mu$-thích nghi* (§4, No. 1) tương đương với việc nói rằng đối với mọi hàm $f \in \mathscr{K}(X)$, hàm $f \circ \pi$ là *$\mu$-khả tích về bản chất*.
 
-#### Mệnh đề 1 {#int-v-s6-prop-1 .statement}
+#### Mệnh đề 1 {#int-v-s6-prop-1 .statement tag=094O}
 
 *Cho $\pi$ là một ánh xạ $\mu$-đo được của $T$ vào một không gian compact địa phương $X$. Hai tính chất sau là tương đương:*
 
@@ -75,7 +75,7 @@ Tính chất b) hiển nhiên tương đương với tính chất sau (do đó c
 
 c) *Đối với mọi điểm* $x$ *của* $X$, *tồn tại một lân cận* $V$ *của* $x$ *sao cho* $\overline{\pi}^{-1}(V)$ *là* $\mu$-*khả tích về bản chất*.
 
-#### Định nghĩa 1 {#int-v-s6-def-1 .statement}
+#### Định nghĩa 1 {#int-v-s6-def-1 .statement tag=094P}
 
 *Cho* $\mu$ *là một độ đo dương trên một không gian địa phương compact* $T$. *Một ánh xạ* $\pi$ *của* $T$ *vào một không gian địa phương compact* $X$ *được gọi là* $\mu$*-thực sự* (*hay thực sự đối với độ đo* $\mu$) *nếu cặp* $(\pi, 1)$ *là* $\mu$*-thích nghi*, *nghĩa là* (§ 4, No. 1), *nếu* $\pi$ *là* $\mu$*-đo được và thỏa mãn các điều kiện (tương đương) của Mệnh đề 1*. *Độ đo* $\int \varepsilon_{\pi(t)} \, d\mu(t)$ *trên* $X$ *khi đó được gọi là ảnh của* $\mu$ *qua* $\pi$ *và được ký hiệu là* $\pi(\mu)$.
 
@@ -85,7 +85,7 @@ $$
 \int f(x) \, d\nu(x) = \int f(\pi(t)) \, d\mu(t).
 $$
 
-#### Nhận xét {#int-v-s6-n1-rem-1 .statement}
+#### Nhận xét {#int-v-s6-n1-rem-1 .statement tag=094Q}
 
 — 1) Nếu $\mu$ là *bị chặn* (đặc biệt, nếu $\mu$ có giá compact) thì mọi ánh xạ $\mu$-đo được từ $T$ vào $X$ đều là $\mu$-thực sự (Ch. IV, § 5, No. 3, Th. 1 và No. 6, Th. 5).
 
@@ -97,7 +97,7 @@ $$
 
 Cho $\pi$ là một ánh xạ $\mu$-thực sự của T vào X, và cho $\nu = \pi(\mu)$. Áp dụng các kết quả của §4, ta thu được các mệnh đề sau:
 
-#### Mệnh đề 2 {#int-v-s6-prop-2 .statement}
+#### Mệnh đề 2 {#int-v-s6-prop-2 .statement tag=094R}
 
 — *Đối với mọi hàm số* $f \geqslant 0$ *xác định trên* X,
 $$
@@ -107,42 +107,42 @@ $$
 
 Điều này suy ra từ Th. 1 của §4, No. 2.
 
-#### Hệ quả 1 {#int-v-s6-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s6-prop-2-cor-1 .statement tag=094S}
 
 — *Đối với mọi tập con* A *của* X,
 $$
 \nu^\bullet(A) = \mu^\bullet(\pi^{-1}(A)).
 $$
 
-#### Hệ quả 2 {#int-v-s6-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s6-prop-2-cor-2 .statement tag=094T}
 
 — *Để một tập con* A *của* X *là không đáng kể địa phương đối với* $\nu$, *điều kiện cần và đủ là* $\pi^{-1}(A)$ *là không đáng kể địa phương đối với* $\mu$.
 
-#### Hệ quả 3 {#int-v-s6-prop-2-cor-3 .statement}
+#### Hệ quả 3 {#int-v-s6-prop-2-cor-3 .statement tag=094U}
 
 — *Nếu độ đo* $\mu$ *tập trung trên một tập hợp* M, *thì* $\pi(\mu)$ *tập trung trên* $\pi(M)$.
 
 Vì, nếu $N = X - \pi(M)$ thì $\pi^{-1}(N)$ không giao với M, do đó là địa phương $\mu$-không đáng kể, do đó (Hệ quả 2) N là địa phương $\nu$-không đáng kể.
 
-#### Hệ quả 4 {#int-v-s6-prop-2-cor-4 .statement}
+#### Hệ quả 4 {#int-v-s6-prop-2-cor-4 .statement tag=094V}
 
 — *Cho* S *là giá của* $\mu$. *Nếu* $\pi$ *liên tục, thì giá của* $\pi(\mu)$ *là* $\pi(S)$.
 
 Vì, từ Hệ quả 3 suy ra rằng $\pi(\mu)$ tập trung trên $\pi(S)$, do đó nếu $S'$ là giá của $\pi(\mu)$ thì $S' \subset \pi(S)$. Mặt khác, $\pi^{-1}(X - S')$ là một tập mở địa phương $\mu$-không đáng kể (Hệ quả 2), nên là $\mu$-không đáng kể (Ch. IV, §5, No. 2, Hệ quả 2 của Mệnh đề 5). Do đó $\pi^{-1}(X - S') \subset T - S$, do đó $\pi(S) \subset S'$, điều này chứng minh hệ quả.
 
-#### Mệnh đề 3 {#int-v-s6-prop-3 .statement}
+#### Mệnh đề 3 {#int-v-s6-prop-3 .statement tag=094W}
 
 — *Để một ánh xạ* f *của* X *vào một không gian tôpô* G *là* $\nu$*-đo được, điều kiện cần và đủ là* $f \circ \pi$ *là* $\mu$*-đo được.*
 
 Đây là một hệ quả ngay lập tức của Mệnh đề 3 của §4, No. 3.
 
-#### Hệ quả {#int-v-s6-n2-cor-1 .statement}
+#### Hệ quả {#int-v-s6-n2-cor-1 .statement tag=094X}
 
 — Để một tập con A của X là $\nu$-đo được, điều kiện cần và đủ là $\pi^{-1}(A)$ là $\mu$-đo được.
 
 Tuy nhiên, ảnh theo $\pi$ của một tập con M $\mu$-đo được của T không nhất thiết là $\nu$-đo được, ngay cả khi $\pi$ liên tục và M là $\mu$-không đáng kể (Bài tập 7 và §8, Bài tập 1).
 
-#### Định lý 1 {#int-v-s6-thm-1 .statement}
+#### Định lý 1 {#int-v-s6-thm-1 .statement tag=094Y}
 
 — Cho f là một hàm xác định trên X với các giá trị trong $\overline{\mathbf{R}}$ hoặc trong một không gian Banach F. Để f là khả tích $\nu$-theo nghĩa bản chất, điều kiện cần và đủ là $f \circ \pi$ là khả tích $\mu$-theo nghĩa bản chất, trong trường hợp đó
 
@@ -154,7 +154,7 @@ Hơn nữa, giả sử rằng $\pi$ liên tục và thực sự. Khi đó, để
 
 Chỉ cần áp dụng Định lý 2 của §4, No. 4.
 
-#### Hệ quả {#int-v-s6-n2-cor-2 .statement}
+#### Hệ quả {#int-v-s6-n2-cor-2 .statement tag=094Z}
 
 — Để một tập con A của X là $\nu$-khả tích theo nghĩa bản chất, điều kiện cần và đủ là $\pi^{-1}(A)$ là $\mu$-khả tích theo nghĩa bản chất, trong trường hợp đó $\nu(A) = \mu(\pi^{-1}(A))$.
 
@@ -162,7 +162,7 @@ Chỉ cần áp dụng Định lý 2 của §4, No. 4.
 
 ### 3. Các tính chất của ảnh của một độ đo dương
 
-#### Mệnh đề 4 {#int-v-s6-prop-4 .statement}
+#### Mệnh đề 4 {#int-v-s6-prop-4 .statement tag=0950}
 
 — Cho T, T', T'' là ba không gian compact địa phương, $\mu$ là một độ đo dương trên T, $\pi$ là một ánh xạ $\mu$-đo được của T vào T', $\pi'$ là một ánh xạ của T' vào T'', và $\pi'' = \pi' \circ \pi$.
 
@@ -183,11 +183,11 @@ theo Định lý 1 của No. 2, điều này hoàn tất chứng minh của a).
 
 Dưới các giả thiết của b), cho $K'$ là một tập con compact của $T'$. Khi đó $K'' = \pi'(K')$ là compact, do đó $\pi''(K'')$ khả tích theo nghĩa hầu khắp đối với $\mu$, do đó $\pi^{-1}(K') \subset \pi''(K'')$ khả tích theo nghĩa hầu khắp đối với $\mu$ (Ch. IV, §5, No. 5, Mệnh đề 7), vì vậy $\pi$ là $\mu$-thực sự. Chứng minh được kết thúc bằng cách áp dụng phần a) của mệnh đề.
 
-#### Hệ quả {#int-v-s6-n3-cor-1 .statement}
+#### Hệ quả {#int-v-s6-n3-cor-1 .statement tag=0951}
 
 *Cho $T$ và $T'$ là hai không gian compact địa phương, $\mu$ là một độ đo dương trên $T$, $\pi$ là một ánh xạ song ánh của $T$ lên $T'$, và $\pi^{-1}$ là ánh xạ nghịch đảo. Giả sử rằng $\pi$ là $\mu$-thực sự, và đặt $\mu' = \pi(\mu)$. Khi đó $\pi^{-1}$ là $\mu'$-thực sự và $\pi^{-1}(\pi(\mu)) = \mu$.*
 
-#### Mệnh đề 5 {#int-v-s6-prop-5 .statement}
+#### Mệnh đề 5 {#int-v-s6-prop-5 .statement tag=0952}
 
 *Cho $T$ và $X$ là hai không gian compact địa phương, $\mu$ là một độ đo dương trên $T$, $\pi$ là một ánh xạ $\mu$-thực sự của $T$ vào $X$, $g$ là một hàm số hữu hạn $\geqslant 0$, xác định trên $X$ và sao cho $g \circ \pi$ khả tích địa phương đối với $\mu$. Để $g$ khả tích địa phương đối với $\pi(\mu)$, điều kiện cần và đủ là $\pi$ thực sự đối với độ đo $(g \circ \pi) \cdot \mu$, khi đó*
 
@@ -203,7 +203,7 @@ $$
 
 (No. 2, Định lý 1 và §5, Định lý 1), điều này chứng minh quan hệ (4).
 
-#### Mệnh đề 6 {#int-v-s6-prop-6 .statement}
+#### Mệnh đề 6 {#int-v-s6-prop-6 .statement tag=0953}
 
 — Cho T và X là hai không gian compact địa phương, $(\lambda_\alpha)_{\alpha \in A}$ là một họ các độ đo dương trên T, có hướng theo quan hệ $\leq$, nhận một cận trên đúng $\mu$ trong $\mathscr{M}(T)$. Để một ánh xạ $\pi$ của T vào X là $\mu$-thực sự, điều kiện cần và đủ là nó $\lambda_\alpha$-thực sự với mọi $\alpha \in A$, và họ $(\pi(\lambda_\alpha))_{\alpha \in A}$ bị chặn trên trong $\mathscr{M}(X)$. Trong trường hợp này,
 
@@ -225,7 +225,7 @@ $$
 
 (§ 1, No. 4, Prop. 11); do đó phần tử thứ nhất là hữu hạn với mọi $f \in \mathscr{K}_+(X)$ khi và chỉ khi họ $(\pi(\lambda_\alpha))$ nhận một cận trên nhỏ nhất $\theta$ trong $\mathscr{M}(X)$, trong trường hợp đó $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, một quan hệ tương đương với (5).
 
-#### Hệ quả 1 {#int-v-s6-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s6-prop-6-cor-1 .statement tag=0954}
 
 — Cho $(\mu_\alpha)_{\alpha \in A}$ là một họ tổng được của các độ đo dương trên T, sao cho $\mu = \sum_{\alpha \in A} \mu_\alpha$; để một ánh xạ $\pi$ từ T vào một không gian compact địa phương X là $\mu$-thực sự, điều kiện cần và đủ là nó là $\mu_\alpha$-thực sự với mọi $\alpha \in A$, và họ $(\pi(\mu_\alpha))_{\alpha \in A}$ là tổng được. Trong trường hợp này,
 
@@ -233,7 +233,7 @@ $$
 \pi(\mu) = \sum_{\alpha \in A} \pi(\mu_\alpha).
 $$
 
-#### Hệ quả 2 {#int-v-s6-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s6-prop-6-cor-2 .statement tag=0955}
 
 — Cho T và X là hai không gian compact địa phương, $(\lambda_i)_{1 \leq i \leq n}$ là một dãy hữu hạn các độ đo dương trên T, và đặt $\mu = \sum_{i=1}^n \lambda_i$. Để một ánh xạ $\pi$ từ T vào X là $\mu$-thực sự, điều kiện cần và đủ là nó là $\lambda_i$-thực sự với mọi chỉ số i, trong trường hợp đó
 
@@ -251,7 +251,7 @@ $$
 
 suy ra ngay lập tức rằng dạng tuyến tính $f \mapsto \int (f \circ \pi) \, d\theta$ trên $\mathscr{K}(X; \mathbf{C})$ là một *độ đo phức* trên $X$ (Ch. III, §1, No. 3, Prop. 6), và ta có thể đưa ra định nghĩa sau:
 
-#### Định nghĩa 2 {#int-v-s6-def-2 .statement}
+#### Định nghĩa 2 {#int-v-s6-def-2 .statement tag=0956}
 
 *Cho $\theta$ là một độ đo phức trên một không gian compact địa phương $T$. Một ánh xạ $\pi$ từ $T$ vào một không gian compact địa phương $X$ được gọi là $\theta$-thực sự nếu nó là $|\theta|$-thực sự. Khi đó độ đo $f \mapsto \int (f \circ \pi) \, d\theta$ được gọi là ảnh của $\theta$ qua $\pi$ và được ký hiệu là $\pi(\theta)$.*
 
@@ -273,7 +273,7 @@ $$
 
 Một số kết quả đã được thiết lập trước đó mở rộng ngay lập tức cho các độ đo phức; chúng tôi nêu những kết quả quan trọng nhất trong số đó.
 
-#### Mệnh đề 7 {#int-v-s6-prop-7 .statement}
+#### Mệnh đề 7 {#int-v-s6-prop-7 .statement tag=0957}
 
 *Cho $\theta$ là một độ đo phức trên $T$, $\pi$ là một ánh xạ $\theta$-thực sự từ $T$ vào một không gian compact địa phương $X$, $\nu$ là độ đo ảnh $\pi(\theta)$.
 
@@ -303,7 +303,7 @@ Hàm số số G là *liên tục* trên I; điều này suy ra ngay từ địn
 
 Trước hết giả sử rằng $g$ là $\mu$*-khả tích*. Khi đó, cùng một lập luận như trên cho thấy các giới hạn $G(a+)$ và $G(b-)$ tồn tại và là *hữu hạn*; hơn nữa, độ đo $|\lambda|$ là *bị chặn* (§5, No. 3, Hệ quả của Định lý 1), và ánh xạ G của I vào G(I) là *$\lambda$*-thực sự.
 
-#### Mệnh đề 8 {#int-v-s6-prop-8 .statement}
+#### Mệnh đề 8 {#int-v-s6-prop-8 .statement tag=0958}
 
 *Giả sử g là $\mu$*-khả tích*. Nếu J ký hiệu khoảng mở trong $\mathbf{R}$ có hai đầu mút $G(a+)$ và $G(b-)$, thì ảnh theo G của độ đo $g \cdot \mu$ là độ đo $\varphi_J \cdot \nu$ nếu $G(a+) \leq G(b-)$ và là độ đo $-\varphi_J \cdot \nu$ nếu $G(a+) \geq G(b-)$ (trong đó $\nu$ ký hiệu độ đo Lebesgue trên G(I)).*
 
@@ -321,7 +321,7 @@ $$
 
 bằng cách chuyển qua giới hạn.
 
-#### Hệ quả {#int-v-s6-n5-cor-1 .statement}
+#### Hệ quả {#int-v-s6-n5-cor-1 .statement tag=0959}
 
 *Nếu một hàm $\mathbf{f}$ xác định trên $G(I)$, có giá trị trong $\overline{\mathbf{R}}$ hoặc trong một không gian Banach, sao cho hàm $t \mapsto \mathbf{f}(G(t))g(t)$ là khả tích trên $I$ đối với độ đo Lebesgue, thì $\mathbf{f}$ là khả tích trên $J$ đối với độ đo Lebesgue và*
 
@@ -337,7 +337,7 @@ Có thể xảy ra rằng $\mathbf{f}$ khả tích trên $J$ đối với độ 
 
 Bây giờ giả sử rằng $g$ giữ *dấu hằng* hầu khắp nơi (và là $\mu$-khả tích địa phương); chẳng hạn ta có thể giả sử rằng $g(t) \geq 0$ hầu khắp nơi trong $I$. Khi đó $G$ là một hàm liên tục tăng trên $I$, do đó $G(a+)$ và $G(b-)$ tồn tại (nhưng có thể là vô hạn). Hơn nữa, $G$ là một ánh xạ *$\lambda$-thực sự* của $I$ vào $G(I)$: vì, nếu $G(b-) \in G(I)$, tồn tại một x_1 \geq x_0 \text{ sao cho } G \text{ là hằng với } x \geq x_1, \text{ và khi đó ảnh ngược qua } G \text{ của khoảng compact } [G(x_0), G(b-)] \text{ là } \lambda\text{-khả tích; nếu ngược lại, } G(b-) \notin G(I), \text{ thì ảnh ngược qua } G \text{ của mọi khoảng compact có điểm đầu trái } G(x_0), \text{ được chứa trong } G(I), \text{ sai khác với một khoảng compact nhiều nhất bởi một khoảng } \lambda\text{-không đáng kể. Ta lập luận tương tự đối với các khoảng compact có điểm đầu phải } G(x_0), \text{ do đó có mệnh đề của ta. Hơn nữa:}
 
-#### Mệnh đề 9 {#int-v-s6-prop-9 .statement}
+#### Mệnh đề 9 {#int-v-s6-prop-9 .statement tag=095A}
 
 *Giả sử $g \geq 0$ và $\mu$-khả tích địa phương. Khi đó, ảnh qua $G$ của độ đo dương $g \cdot \mu$ là độ đo Lebesgue trên $G(I)$. Đối với một hàm $f$, xác định trên $G(I)$, nhận giá trị trong $\overline{\mathbf{R}}$ hoặc trong một không gian Banach, để khả tích trên $G(I)$ đối với độ đo Lebesgue, điều kiện cần và đủ là hàm $t \mapsto f(G(t))g(t)$ khả tích trên $I$ đối với độ đo Lebesgue, trong trường hợp đó quan hệ (13) đúng.*
 
@@ -347,7 +347,7 @@ Phần đầu của mệnh đề suy ra từ sự kiện rằng công thức (12
 
 Cho $X$ là một không gian compact địa phương, $\pi$ là một ánh xạ của $X$ vào một không gian compact địa phương $T$, $\mu$ là một độ đo dương trên $T$, $\Lambda : t \mapsto \lambda_t$ là một ánh xạ khả $\mu$-tích phân theo vô hướng thực sự và đo được $\mu$-theo nghĩa mơ hồ từ $T$ vào $\mathscr{M}_+(X)$. Đặt $\nu = \int \lambda_t d\mu(t)$. Nếu $\lambda_t$ được *mang bởi* $\overline{\pi}^{-1}(t)$ với mọi $t \in T$, đẳng thức $\nu = \int \lambda_t d\mu(t)$ được gọi là một *phân tích thành các lát* (hay một *phân ly*) của $\nu$ đối với $\pi$. Khái niệm này sẽ được nghiên cứu chi tiết trong Ch. VI.
 
-#### Mệnh đề 10 {#int-v-s6-prop-10 .statement}
+#### Mệnh đề 10 {#int-v-s6-prop-10 .statement tag=095B}
 
 *Với các ký hiệu trên, giả sử rằng $\pi$ là $\nu$-đo được. Gọi $g$ là hàm $t \mapsto \lambda_t^*(1)$ trên $T$. Để $\pi$ là $\nu$-thực sự, điều kiện cần và đủ là $g$ nguyên địa phương theo $\mu$, trong trường hợp đó*
 
@@ -371,7 +371,7 @@ $$
 
 Nhưng các hàm $fg_h|K$ tạo thành một tập có hướng tăng của các hàm liên tục trên $K$, bao trên của chúng có giá trị $+\infty$; theo định lý Dini (GT, X, §4, No. 1, Th. 1), ta có thể chọn $h$ sao cho $fg_h|K$ lớn hơn hoặc bằng một số dương tùy ý $n$, và do đó suy ra rằng $\int (f \circ \pi)\, d\nu \geq n\, \mu(K)$. Vì vế thứ nhất là hữu hạn bởi vì $\pi$ là $\nu$-thực sự, nên suy ra $\mu(K) = 0$.
 
-#### Hệ quả 1 {#int-v-s6-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s6-prop-10-cor-1 .statement tag=095C}
 
 — *Giả sử rằng $\pi$ là $\nu$-đo được.*
 
@@ -382,19 +382,19 @@ Ta lấy lại các ký hiệu $\Lambda_h$, $\nu_h$, $g_h$ ở cuối chứng mi
 
 Mệnh đề 2, tương ứng Mệnh đề 3). Cuối cùng, ta nhận xét rằng các độ đo $\nu_h$ tạo thành một họ có hướng tăng của các độ đo dương mà cận trên là $\nu$, và áp dụng Hệ quả 1 (tương ứng Hệ quả 2) của Mệnh đề 11 của §1, No. 4.
 
-#### Hệ quả 2 {#int-v-s6-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s6-prop-10-cor-2 .statement tag=095D}
 
 *Giả sử rằng $\pi$ là $\nu$-thực sự; cho $f$ là một ánh xạ xác định trên $T$, có các giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$. Để $f \circ \pi$ là thiết yếu $\nu$-khả tích, điều kiện cần và đủ là $gf$ là thiết yếu $\mu$-khả tích.*
 
 Có tính đến Mệnh đề 10, điều này suy ra ngay lập tức từ Định lý 1 của §5, No. 3 và Định lý 1 của No. 2.
 
-#### Ví dụ {#int-v-s6-n6-exa-1 .statement}
+#### Ví dụ {#int-v-s6-n6-exa-1 .statement tag=095E}
 
 — Cho $X$ và $T$ là hai không gian compact địa phương, và cho $\pi$ là một *phép đồng phôi địa phương của $X$ vào $T$*. Nói cách khác (GT, I, §11, Bài tập 25), ta giả sử rằng mỗi điểm $x \in X$ có một lân cận $V$ sao cho $\pi|V$ là một phép đồng phôi từ $V$ lên một lân cận của $\pi(x)$; nếu cần thay thế $V$ bởi một lân cận mở tương đối compact $W$ của $x$ sao cho $\overline{W} \subset V$, ta suy ra rằng tập hợp $\mathscr{U}$ gồm các tập con mở tương đối compact $U$ của $X$, sao cho $\pi|\overline{U}$ là một phép đồng phôi từ $\overline{U}$ lên ảnh của nó, là một *phủ mở* của $X$. Bây giờ cho $\mu$ là một độ đo dương trên $T$; nếu $U$ là một phần tử của $\mathscr{U}$, thì $\pi(U)$ là một tập hợp mở trong không gian compact $\pi(\overline{U})$, do đó là một không gian con địa phương compact của $T$, và ta biết cách định nghĩa độ đo $\mu|\pi(U)$ cảm sinh bởi $\mu$ trên $\pi(U)$ (Ch. IV, §5, No. 7). Cho $\nu_U$ là ảnh của $\mu|\pi(U)$ qua phép đồng phôi nghịch đảo với $\pi|U$; ta sẽ chứng minh rằng tồn tại một và chỉ một độ đo $\nu$ trên $X$ cảm sinh độ đo $\nu_U$ trên mọi tập hợp mở $U \in \mathscr{U}$. Độ đo này được gọi là *ảnh ngược của $\mu$ qua phép đồng phôi địa phương $\pi$*, và được ký hiệu $\pi^{-1}(\mu)$.
 
 Tính duy nhất của $\nu$ suy ra ngay từ nguyên lý địa phương hóa (Ch. III, §2, No. 1, Hệ quả của Mệnh đề 1). Để thiết lập sự tồn tại, ta chú ý rằng nếu $t \in T$, thì mỗi điểm $x \in \pi^{-1}(t)$ có một lân cận chỉ giao với $\pi^{-1}(t)$ tại điểm $x$, do đó $\pi^{-1}(t)$ là một không gian con *rời rạc* của $X$, và họ $(\varepsilon_x)_{x \in \pi^{-1}(t)}$ là tổng được; ta ký hiệu tổng của nó là $\lambda_t$. Tiếp theo ta chứng minh rằng ánh xạ $t \mapsto \lambda_t$ là khả tích $\mu$-nguyên cốt yếu theo vô hướng, và rằng nguyên của nó $\nu = \int \lambda_t d\mu(t)$ là ảnh ngược cần tìm. Điều này sẽ suy ra ngay từ bổ đề sau:
 
-#### Bổ đề {#int-v-s6-n6-lem-1 .statement}
+#### Bổ đề {#int-v-s6-n6-lem-1 .statement tag=095F}
 
 — a) *Cho $f$ là một phần tử của $\mathscr{K}_+(X)$; hàm $t \mapsto \lambda_t(f)$ là dương, nửa liên tục trên, có giá compact, và hạn chế của nó trên $\pi(X)$ là liên tục.*
 
@@ -406,7 +406,7 @@ b) *Cho $U$ là một phần tử của $\mathscr{U}$, $\nu$ là nguyên của h
 
 Bây giờ ta nhận xét rằng $\pi(X)$ là *mở* trong $T$, do đó là $\mu$-đo được; ánh xạ $\Lambda : t \mapsto \lambda_t$ là $\mu$-đo được theo nghĩa mơ hồ, vì hạn chế của nó lên mỗi tập hợp $\pi(X)$ và $\mathbf{C}\pi(X)$ là liên tục theo nghĩa mơ hồ. Trong các điều kiện này, công thức $\overline{\pi}^{-1}(\mu) = \int \lambda_t d\mu(t)$ xác định một phân tích thành các lát của $\overline{\pi}^{-1}(\mu)$ tương đối với $\pi$, và Mệnh đề 10 cho kết quả sau:
 
-#### Mệnh đề 11 {#int-v-s6-prop-11 .statement}
+#### Mệnh đề 11 {#int-v-s6-prop-11 .statement tag=095G}
 
 *Cho $\pi$ là một đồng phôi địa phương của một không gian compact địa phương $X$ vào một không gian compact địa phương $T$, và cho $\mu$ là một độ đo dương trên $T$. Cho $n$ là hàm số liên kết với mỗi $t \in T$ số phần tử của $\overline{\pi}^{-1}(t)$ nếu số này là hữu hạn, và $+\infty$ trong trường hợp ngược lại. Để $\pi$ là $\overline{\pi}^{-1}(\mu)$-thực sự, điều kiện cần và đủ là $n$ khả tích địa phương theo $\mu$, trong trường hợp đó*
 

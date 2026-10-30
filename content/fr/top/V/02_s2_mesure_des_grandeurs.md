@@ -12,7 +12,7 @@ pdf_pages: 0012-0016, 0023-0023
 extraction: ocr
 statements: 5
 exercises: 2
-content_sha256: dfa96118ca30c6dde1218689b1f453e9dd78ee80da6b7a7bb9f0523e362b8d34
+content_sha256: cf9fe9fe48b6764ff9545f77e6e209df95f424af1d49c88d75f84e7271354bef
 ---
 
 ## § 2. MESURE DES GRANDEURS
@@ -41,7 +41,7 @@ Si on prend pour E un ensemble de nombres réels ≥ 0, contenant 0 et des nombr
 
 ¹ Dans les ensembles de « grandeurs » qui interviennent dans les sciences expérimentales, les axiomes (GR_I) et (GR_{II}) sont en général susceptibles de vérification expérimentale, au moins avec
 
-#### Proposition 1 {#top-v-s2-prop-1 .statement}
+#### Proposition 1 {#top-v-s2-prop-1 .statement tag=0BVG}
 
 Soit E un ensemble totalement ordonné, possédant un plus petit élément ω ; soit I une partie de E, telle que ω ∈ I, et que les relations x ∈ I, y ≤ x entraînent y ∈ I ; soit (x, y) ↦ xy une application de I × I dans E. Alors, si les axiomes (GR_I), (GR_{II}), (GR_{III}) et (GR_{IV}) sont satisfaits, il existe une application f strictement croissante de I dans l’ensemble R_+ des nombres réels ≥ 0, telle que l’on ait
 
@@ -104,7 +104,7 @@ D’après ce qui précède, on a f(ω) = 0, f(x) > 0 pour x > ω, et f(a) = 1. 
 
 Enfin, si b ∈ I, l’intersection de f(I) et de l’intervalle [0, f(b)] de $\mathbf{R}$ est dense dans cet intervalle; pour tout entier n > 0, il existe en effet x > ω tel que f(x) ≤ 2^{-n}: il suffit de prendre x tel que x^{2^n} ≤ a; si p est le plus petit entier tel que x^{p+1} > b, on a (p + 1)f(x) > f(b) et qf(x) ≤ f(b) pour 1 ≤ q ≤ p; donc tout intervalle contenu dans [0, f(b)] et de longueur > 2^{-n} contient au moins un point de la forme qx = f(x^q) ∈ f(I). La proposition 1 est par suite entièrement démontrée.
 
-#### Remarque 1 {#top-v-s2-rem-1 .statement}
+#### Remarque 1 {#top-v-s2-rem-1 .statement tag=0BVH}
 
 Les relations x ∈ I, y ∈ I, xy ∈ I, yx ∈ I entraînent
 
@@ -114,7 +114,7 @@ $$
 
 donc yx = xy, puisque f est strictement croissante; autrement dit, la loi induite par la loi de composition de E sur un intervalle (ω, b) convenable (b étant pris par exemple tel que b^2 ≤ a) est commutative.
 
-#### Remarque 2 {#top-v-s2-rem-2 .statement}
+#### Remarque 2 {#top-v-s2-rem-2 .statement tag=0BVI}
 
 Toute application g de I dans $\mathbf{R}_+$, satisfaisant aux mêmes conditions que f, est de la forme x ↦ λf(x) où λ > 0. En effet, soit λ = g(a) > 0; les relations z^p ≤ x ≤ z^{p+1}, z^q ≤ a ≤ z^{q+1} entraînent, par hypothèse,
 
@@ -135,7 +135,7 @@ Cherchons à quelles conditions $f(I)$ est un intervalle de $\mathbf{R}_+$. On a
 
 Nous allons montrer que ces conditions sont suffisantes, et qu’en outre elles dispensent de postuler l’axiome (GR_{IV}) (axiome d’Archimède). D’une façon précise, nous allons démontrer la proposition suivante:
 
-#### Proposition 2 {#top-v-s2-prop-2 .statement}
+#### Proposition 2 {#top-v-s2-prop-2 .statement tag=0BVJ}
 
 *Si un ensemble totalement ordonné E et une partie I satisfont aux axiomes (GR_I), (GR_{II}), (GR_{IIIa}) et (GR_{IVa}), il existe une application strictement croissante f de I sur un intervalle de $\mathbf{R}$ d’origine 0, telle que l’on ait $f(\omega) = 0$ et $f(xy) = f(x) + f(y)$ chaque fois que x, y et xy appartiennent à I*.
 
@@ -145,7 +145,7 @@ Les conditions d’application de la prop. 1 (V, p. 7) sont donc remplies. Reste
 
 La proposition 2 est ainsi démontrée.
 
-#### Remarque {#top-v-s2-n0-rem-3 .statement}
+#### Remarque {#top-v-s2-n0-rem-3 .statement tag=0BVK}
 
 Lorsque $I = E$, l’image $f(I) = f(E)$ est $\mathbf{R}_+$ tout entier, car pour un $b > \omega$, $b^n$ est défini pour tout $n$, donc $n.f(b)$ appartient à $f(E)$ quel que soit $n$, ce qui entraîne que $f(E)$ n’est pas borné, puisque $f(b) > 0$.
 

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: 71f6988eb3a9c137b78c9544e173741eb9e1731f26db8fe43495672bb20a2f2a
+content_sha256: 3c20d3c3070caf43cf4bd713b7f6047a4fcb2604b1f551ae1ea6b1868b0306eb
 ---
 
 ## § 6. ETALE ALGEBRAS
@@ -59,7 +59,7 @@ for $x \in V,\ a \in L$ and $f,\ g$ in $\mathrm{Hom}_K(V, L)$. Let $V_{(L)} = L 
 
 (2) $$[\mathrm{Hom}_K(V, L) : L] = [V : K]$$
 
-#### Theorem 1 {#alg-v-s6-thm-1 .statement}
+#### Theorem 1 {#alg-v-s6-thm-1 .statement tag=06JB}
 
 — *Let L be an extension of a field K and A an algebra over K; let $\mathscr{H}$ be the set of all K-algebra homomorphisms of A into L. Then $\mathscr{H}$ is a free subset of the vector space $\mathrm{Hom}_K(A, L)$ over L.*
 
@@ -69,13 +69,13 @@ $$
 $$
 whence $$\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0.$$ By the induction hypothesis, the elements $u_1, \ldots, u_{n-1}$ of $\mathscr{H}$ are linearly independent, whence $\alpha_i [u_i(x) - u_n(x)] = 0$ for $1 \leq i \leq n-1$ and for all $x$ in A. Since the $u_i$ are distinct, this implies that $\alpha_i = 0$ for $i \neq n$, hence $\alpha_n u_n = 0$ and so $\alpha_n = \alpha_n u_n(1) = 0$ (on denoting by 1 the unit element of A). We have thus shown that $a_1, \ldots, a_{n-1}, \alpha_n$ are zero, and this proves the theorem.
 
-#### Corollary 1 {#alg-v-s6-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-v-s6-thm-1-cor-1 .statement tag=06JC}
 
 — *Let $\Gamma$ be a monoid, L a field and X a set of homomorphisms of $\Gamma$ into the multiplicative monoid of L. Then X is a free subset of the vector L-space $L^\Gamma$ of mappings of $\Gamma$ into L.*
 
 Let A be the algebra of the monoid $\Gamma$ with coefficients in L and $(e_\gamma)_{\gamma \in \Gamma}$ the canonical basis of A over L (III, p. 446). For every L-linear mapping $u$ of A into L let us write $\tilde{u}(\gamma) = u(e_\gamma)$ (for $\gamma \in \Gamma$); then the mapping $u \mapsto 3$ is an isomorphism of vector L-spaces of $\mathrm{Hom}_L(A, L)$ onto $L^\Gamma$ which maps onto X the set of L-algebra homomorphisms of A into L. Now it suffices to apply Th. 1 with $K = L$.
 
-#### Corollary 2 (Dedekind's theorem) {#alg-v-s6-thm-1-cor-2 .statement}
+#### Corollary 2 (Dedekind's theorem) {#alg-v-s6-thm-1-cor-2 .statement tag=06JD}
 
 *Let E and L be two extensions of K. The set of K-homomorphisms of E into L is free over L. If E is of finite degree over K, the number of K-homomorphisms of E into L is at most equal to $[E : K]$.*
 
@@ -83,7 +83,7 @@ The last assertion follows from the first, taking account of Formula (2).
 
 ### 2. Algebraic independence of homomorphisms
 
-#### Theorem 2 {#alg-v-s6-thm-2 .statement}
+#### Theorem 2 {#alg-v-s6-thm-2 .statement tag=06JE}
 
 — Let K be an infinite field, L an extension of K and A an algebra over K. Let $u_1, \ldots, u_n$ be distinct K-algebra homomorphisms of A into L and f a polynomial in $L[X_1, \ldots, X_j]$. If we have $f(u_1(x), \ldots, u_n(x)) = 0$ for all $x \in A$, then $f = 0$.
 
@@ -108,7 +108,7 @@ Th. 2 has no analogue for finite fields. Thus let $K$ be a finite field with q e
 
 ### 3. Diagonalizable algebras and etale algebras
 
-#### Definition 1 {#alg-v-s6-def-1 .statement}
+#### Definition 1 {#alg-v-s6-def-1 .statement tag=06JF}
 
 — Let A be an algebra over K; then A is said to be diagonalizable if there exists an integer $n \geq 0$ such that A is isomorphic to the product algebra $K^n$. We say that A is diagonalized by an extension L of K if the algebra $A_{(L)}$ over L derived from A by extension of scalars is diagonalizable. We shall say that A is etale if there exists an extension of K which diagonalizes A.
 
@@ -128,7 +128,7 @@ and $1 = \varepsilon_1 + \ldots + \varepsilon_n$.
 
 Every etale algebra over $\mathbf{K}$ is *commutative* and of *finite degree* over $K$.
 
-#### Proposition 1 {#alg-v-s6-prop-1 .statement}
+#### Proposition 1 {#alg-v-s6-prop-1 .statement tag=06JG}
 
 *Let A be an algebra of finite degree n over the field K ; then the following conditions are equivalent :*
   *a)* *The algebra A is diagonalizable.*
@@ -142,13 +142,13 @@ Suppose that *b)* holds and let M be an A-module; then the homotheties $(e_i)_M$
 
 Conversely suppose that *d)* holds and consider the A-module A,. There exists then a basis $(f_i)$ of the vector K-space A such that $Af_i = Kf_i$ for $i = 1, \ldots, n$. After replacing each $f_i$ by a suitable scalar multiple, if necessary, we may suppose that $1 = f_i + \ldots + f_n$. If $i \neq j$, then $f_i f_j$ belongs to $Af_i \cap Af_j = Kf_i \cap Kf_j$ hence it is zero. Now $f_i = f_i f_1 + \ldots + f_i f_n = f_i^2$, whence *b)*.
 
-#### Corollary {#alg-v-s6-n3-cor-1 .statement}
+#### Corollary {#alg-v-s6-n3-cor-1 .statement tag=06JH}
 
 *Let L be an extension of K and $\mathscr{H}$ the set of algebra homomorphisms of A into L. We have Card $\mathscr{H} \leq [A : K]$, with equality if and only if A is diagonalized by L. If A is diagonalized by L, then $\mathscr{H}$ is a basis of the vector L-space $\mathrm{Hom}_K(A, L)$.*
 
 The vector space $\mathrm{Hom}_K(A, L)$ over L has dimension $[A : K]$, by Formula (2), and $\mathscr{H}$ is a free subset of $\mathrm{Hom}_K(A, L)$ by Th. 1 (*V*, p. 27). We thus have Card $\mathscr{H} \leq [A : K]$ with equality if and only if $\mathscr{H}$ is a basis of $\mathrm{Hom}_K(A, L)$. There exists an isomorphism of vector L-spaces, say $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, characterized by $u(x) = (\pi u)(1 \otimes x)$ for $x \in A$, and $\pi$ maps $\mathscr{H}$ onto the set $\mathscr{H}_L$ of L-algebra homomorphisms of $A(\cdot)$ into L. Finally the equivalence of a) and c) in Prop. 1 shows that the algebra $A_{(L)}$ over L is diagonalizable if and only if $\mathscr{H}_L$ generates the vector space $A_{(L)}^*$ over L. This completes the proof of the Corollary.
 
-#### Proposition 2 {#alg-v-s6-prop-2 .statement}
+#### Proposition 2 {#alg-v-s6-prop-2 .statement tag=06JI}
 
 — *Let A be an algebra over K and $\Omega$ an algebraically closed extension of K. The following assertions are equivalent*:
 
@@ -162,7 +162,7 @@ Since every extension of finite degree of K is isomorphic to a subextension of $
 
 ### 4. Subalgebras of an etale algebra
 
-#### Proposition 3 {#alg-v-s6-prop-3 .statement}
+#### Proposition 3 {#alg-v-s6-prop-3 .statement tag=06JJ}
 
 — *Let A be an etale algebra over K. There exist only a finite number of subalgebras and ideals of A. Moreover, every extension of K which diagonalizes A also diagonalizes every subalgebra and every quotient algebra of A; in particular these algebras are etale*.
 
@@ -176,7 +176,7 @@ For every subset I of $(1, 2, \ldots, n)$ let $a_i$ be the vector subspace of $K
 
 It remains to show that every ideal of $K^n$ is of the form $a_I$. Let I be the set of integers $i$ such that $1 \leq i \leq n$ and $\varepsilon_i \in a$, then $a_i \subset a$. Let $x = x_1 \varepsilon_1 + \cdots + x_n \varepsilon_n$ be an element of $a$ (with $x_1, \ldots, x_n$ in $K$) and let $i$ be in $(1, 2, \ldots, n) - I$. We have $x_i \varepsilon_i = x \varepsilon_i \in a_i$, and $\varepsilon_i \notin a$, whence $x_i = 0$. Thus $x = \sum_{i \in I} x_i \varepsilon_i$ and this shows that $x \in a_i$. We have now shown $a \subset a_I$, whence finally $a = a_i$.
 
-#### Corollary {#alg-v-s6-n4-cor-1 .statement}
+#### Corollary {#alg-v-s6-n4-cor-1 .statement tag=06JK}
 
 — *Let $A_1, \ldots, A_r$ be algebras over $K$ and $A = A_1 \times \cdots \times A_r$. For $A$ to be etale it is necessary and sufficient that $A_1, \ldots, A_r$ are etale.*
 
@@ -186,7 +186,7 @@ Suppose that $A$ is etale; each of the algebras $A_1, \ldots, A_r$ is isomorphic
 
 Let $A$ be a commutative algebra of finite degree $n$ over $K$. For any extension $L$ of $K$, the number $h(L)$ of algebra homomorphisms of $A$ into $L$ is finite and is bounded above by $n$ (V, p. 29, Cor.).
 
-#### Lemma 1 {#alg-v-s6-lem-1 .statement}
+#### Lemma 1 {#alg-v-s6-lem-1 .statement tag=06JL}
 
 — *Let $\Omega$ be an algebraic closure of $K$; then we have $h(L) \leq h(\Omega)$ for every extension $L$ of $K$, with equality when $L$ is algebraically closed.*
 
@@ -214,19 +214,19 @@ $$
 $$
 For let $S$ (resp. $T$) be the set of $K$-homomorphisms of $K'$ (resp. $A'$) into an algebraic closure $L$ of $K$; for every $\sigma \in S$ we denote by $T_\sigma$ the set of elements $f$ of $T$ such that $f(a \cdot 1) = \sigma(a)$ for all $a \in K'$. Then the family $(T_\sigma)_\sigma$ is a partition of $T$ and we have Card $S = [K': K]$; now for each $\sigma \in S$ the set $T_\sigma$ consists of $K'$-homomorphisms of $A'$ into the algebraically closed extension $(L, \sigma)$ of $K'$, hence Card $T_\sigma = [A': K']_s$, and so we have proved (9).
 
-#### Proposition 4 {#alg-v-s6-prop-4 .statement}
+#### Proposition 4 {#alg-v-s6-prop-4 .statement tag=06JM}
 
 — Let $A$ be a commutative algebra of finite degree over $K$; then $[A: K], \leq [A: K]$ with equality if and only if $A$ is etale.
 
 Let $\Omega$ be an algebraic closure of $K$ and $A?$ the set of algebra homomorphisms of $A$ into $\mathbf{R}$. We have Card $A? = [A: K]$, and $A$ is etale if and only if $A$ is diagonalized by the extension $\Omega$ of $K$ (V, p. 30, Prop. 2). Thus Prop. 4 follows from the Cor. of V, p. 29.
 
-#### Corollary 1 {#alg-v-s6-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-v-s6-prop-4-cor-1 .statement tag=06JN}
 
 — Let $A, B$ be two commutative algebras over $K$, of finite non-zero degrees. Then for the algebra $C = A \otimes_K B$ to be etale it is necessary and sufficient for $A$ and $B$ to be etale.
 
 We have $[C: K] = [A: K] \cdot [B: K]$ and the corresponding Formula (7) for the separable degrees. Further we have $[A: K], \leq [A: K]$ and corresponding formulae for $B$ and $C$. It follows that $[C: K] = [C: K]$, if and only if we have both $[A: K] = [A: K]$, and $[B: K] = [B: K]$; now it is enough to apply Prop. 4.
 
-#### Corollary 2 {#alg-v-s6-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-v-s6-prop-4-cor-2 .statement tag=06JO}
 
 — Let $K'$ be an extension of $K$.
 
@@ -238,7 +238,7 @@ We argue as for Cor. 1, applying this time (8) for a) and (9) for b).
 
 ### 6. Differential characterization of etale algebras
 
-#### Theorem 3 {#alg-v-s6-thm-3 .statement}
+#### Theorem 3 {#alg-v-s6-thm-3 .statement tag=06JP}
 
 — Let $A$ be a commutative algebra of finite degree over $K$. For $A$ to be etale it is necessary and sufficient that the module $\Omega_K(A)$ of $K$-differentials of $A$ should be reduced to $0$.
 
@@ -246,7 +246,7 @@ A) Let $L$ be an algebraic closure of $K$ ($V$, p. 23, Th. 2). For $A$ to be eta
 
 B) Suppose that $A$ is diagonalizable; then ($V$, p. 29, Prop. 1), the vector space $A$ is generated by the idempotents of $A$. The assertion $\Omega_K(A) = 0$ is thus a consequence of the following lemma:
 
-#### Lemma 2 {#alg-v-s6-lem-2 .statement}
+#### Lemma 2 {#alg-v-s6-lem-2 .statement tag=06JQ}
 
 Let $A$ be a commutative algebra over $K$ and $e$ an idempotent of $A$; then we have $de = 0$ in $\Omega_K(A)$.
 
@@ -254,13 +254,13 @@ From the relation $e = e^2$ we deduce $de = 2e \cdot de$; on multiplying by $e$ 
 
 C) We first prove two lemmas:
 
-#### Lemma 3 {#alg-v-s6-lem-3 .statement}
+#### Lemma 3 {#alg-v-s6-lem-3 .statement tag=06JR}
 
 Let $A$ be a commutative algebra of finite degree over the algebraically closed field $K$, such that $\Omega_K(A) = 0$. Then we have $m = m^2$ for every maximal ideal $m$ of $A$.
 
 The algebra $A/m$ is an extension of finite degree of the algebraically closed field $K$, whence $[A/m : K] = 1$. Hence for each $a \in A$ there exists a unique scalar $\lambda$ such that $a - \lambda \cdot 1 \in m$; write $D(a)$ for the residue class of $a - \lambda \cdot 1$ mod $m^2$. It is clear that $D$ is a $K$-derivation of $A$ into the $A$-module $m/m^2$. The universal property of $\Omega_K(A)$ (III, p. 569) and the hypothesis $\Omega_K(A) = 0$ now imply that $D = 0$, whence $m/m^2 = 0$ and so $m = m^2$.
 
-#### Lemma 4 {#alg-v-s6-lem-4 .statement}
+#### Lemma 4 {#alg-v-s6-lem-4 .statement tag=06JS}
 
 Let $A$ be a commutative ring and let $a$ be a finitely generated ideal of $A$ such that $a = a^2$. Then there exists an idempotent $e$ in $A$ such that $a = Ae$.
 
@@ -270,7 +270,7 @@ With these lemmas established, let us show by induction on the degree of $A$ tha
 
 ### 7. Reduced algebras and etale algebras
 
-#### Definition 2 {#alg-v-s6-def-2 .statement}
+#### Definition 2 {#alg-v-s6-def-2 .statement tag=06JT}
 
 — *Let $A$ be a commutative ring; then $A$ is said to be reduced if every nilpotent element (I, p. 98) of $A$ is zero.*
 
@@ -278,7 +278,7 @@ If $A$ is a field, or an integral domain, or a product of reduced rings, it is a
 
 An algebra is said to be *reduced* if its underlying ring is reduced.
 
-#### Proposition 5 {#alg-v-s6-prop-5 .statement}
+#### Proposition 5 {#alg-v-s6-prop-5 .statement tag=06JU}
 
 — *Let $A$ be a commutative algebra of finite degree over $K$. For $A$ to be reduced it is necessary and sufficient that there exist extensions $L_1, \ldots, L_s$ of finite degree over $K$ such that $A$ is $K$-isomorphic to $L_1 \times \cdots \times L_s$.*
 
@@ -288,7 +288,7 @@ Conversely, assume that $A$ is reduced; arguing by induction on the degree of $A
 
 Suppose from now on that $A$ is reduced and is not a field. Among the ideals of $A$ different from 0 and $A$ let $a$ be an ideal whose dimension as vector $K$-space is minimal. For any $x \neq 0$ in $a$ we have $x^2 \neq 0$, because $A$ is reduced, whence $a' \neq \{0\}$. We have $a^2 \subset a$ and by the minimality of $a$ we find that $a' = a$. By Lemma 4 there exists an idempotent $e$ such that $a = Ae$, and we have $e \neq 0, e \neq 1$ because $a$ is distinct from 0 and $A$.
 
-#### Theorem 4 {#alg-v-s6-thm-4 .statement}
+#### Theorem 4 {#alg-v-s6-thm-4 .statement tag=06JV}
 
 — *Let $A$ be a commutative algebra of finite degree over $K$. Then the following assertions are equivalent:
 a) The algebra $A$ is etale.
@@ -303,7 +303,7 @@ Suppose that $A$ is etale and let $L$ be an extension of $K$. Let $\Omega$ be an
 
 We have thus shown that a) implies b), and c) is a particular case of b). Assume now that c) holds. For the K-algebra $A$ to be etale it is necessary and sufficient that the P-algebra $A_{(P)}$ should be etale (V, p. 32, Cor. 2). The algebra $A$ is therefore etale by the following lemma:
 
-#### Lemma 5 {#alg-v-s6-lem-5 .statement}
+#### Lemma 5 {#alg-v-s6-lem-5 .statement tag=06JW}
 
 *Let B be a reduced algebra of finite degree over a perfect field P; then B is etale.*
 
@@ -317,7 +317,7 @@ We thus have $f' \neq 0$ and since the degree of $f'$ is strictly less than that
 
 The implication $d) \Rightarrow a)$ follows from V, p. 31, Cor. \*
 
-#### Corollary {#alg-v-s6-n7-cor-1 .statement}
+#### Corollary {#alg-v-s6-n7-cor-1 .statement tag=06JX}
 
 — *Suppose that $K$ has characteristic $p \neq 0$. For $A$ to be etale it is necessary and sufficient that $A = K[A^p]$. For every basis $(a_i)_i$, of $A$ over $K$, the family $(a_i^p)_i$ is then a basis of $A$ over $K$.*
 

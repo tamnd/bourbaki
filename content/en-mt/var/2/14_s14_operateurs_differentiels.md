@@ -28,11 +28,11 @@ subsections:
       pdf_page: 172
 statements: 2
 exercises: 0
-content_sha256: 5c066a3a7c489633b6dc0c6772b855625588fe75961eda95b9df4cb8b5ca50c8
+content_sha256: c54d57935cb6dc5362ed9d92a6fc7fd2806caeb96c5e7b7ad909f2743d0c9d88
 translated_from: content/fr/var/2/14_s14_operateurs_differentiels.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 1392eb42732e48e986a4b120baebb41eb1413b70e59d35e31a21984b15deb2b5
+source_content_sha256: 13ab96da08e6371d0371ca7851841a5daf6b6c4db5920b01218d4143bb5311bf
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-en-mt-ae4be300
 glossary_version: 34
@@ -184,7 +184,7 @@ It is a section of $F|U$. If $H$ is of class $C^h$, this section is of class $C^
 
 When $E_1, \ldots, E_n$ and $F$ are equal to $K_X$, one says that $H$ is a scalar $n$-differential (or multidifferential) operator.
 
-#### Example {#var-2-s14-n1-exa-1 .statement}
+#### Example {#var-2-s14-n1-exa-1 .statement tag=0EEL}
 
 Let $J$ be a finite set, and $X$ an open set of $K^J$. Let $H$ be a scalar $n$-differential operator of order $\leq k$ on $X$. There exists a unique family of scalar functions
 $$
@@ -400,7 +400,7 @@ $$
 
 In particular, with the hypotheses and notation of 14.3.2, and $f$ a function of class $C^{h'}$ on $X$ with $2k\leq h'$, one has $^{t}(D\circ f)=f\circ{}^{t}D$.
 
-#### Example {#var-2-s14-n3-exa-1 .statement}
+#### Example {#var-2-s14-n3-exa-1 .statement tag=0EEM}
 
 Let $X$ be an open subset of $K^n$, let $\xi^1,\ldots,\xi^n$ denote the coordinate functions on $X$, and identify $\Omega$ with $K_X$ by means of the frame $\omega=d\xi^1\wedge\cdots\wedge d\xi^n$. If $E=F=K_X$, one has
 

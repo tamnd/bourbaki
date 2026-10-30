@@ -28,7 +28,7 @@ subsections:
       pdf_page: 185
 statements: 15
 exercises: 2
-content_sha256: 63c6721da897733190858aca34d40f9c9b449894bd0fc3eae22f6ac4156e5662
+content_sha256: 03cfe8345c8d8660d528b6d48ecd398fda506907ed9fb1f9377c27be2fce8d2d
 ---
 
 ## § 3. Invariants exponentiels
@@ -43,7 +43,7 @@ $$
 e^p e^{p'} = e^{p+p'}, \qquad (e^p)^{-1} = e^{-p}, \qquad e^0 = 1.
 $$
 
-#### Lemme 1 {#lie-vi-s3-lem-1 .statement}
+#### Lemme 1 {#lie-vi-s3-lem-1 .statement tag=0AXN}
 
 Supposons $A$ factoriel (Alg. comm., chap. VII, § 3, no 1, déf. 1).
 
@@ -73,11 +73,11 @@ Gardons les notations du numéro précédent et soit R un système de racines r�
 
 Soit C une chambre de R (§ 1, no 5) et soit B = $(\alpha_i)_{1 \leq i \leq l}$ la base correspondante de R. Nous munirons V (donc aussi P) de la structure d’ordre définie par C. Si $p, p' \in P$, on a $p \geq p'$ si et seulement si $p - p'$ est combinaison linéaire à coefficients positifs des $\alpha_i$.
 
-#### Définition 1 {#lie-vi-s3-def-1 .statement}
+#### Définition 1 {#lie-vi-s3-def-1 .statement tag=0AXO}
 
 Soit $x = \sum_{p \in P} x_p e^p$ un élément de A[P]. On appelle support de x l’ensemble S des $p \in P$ tels que $x_p \neq 0$ et support maximal de x l’ensemble X des éléments maximaux de S. On dit encore que le terme $x_p e^p$ pour $p \in X$ est un terme maximal de x.
 
-#### Lemme 2 {#lie-vi-s3-lem-2 .statement}
+#### Lemme 2 {#lie-vi-s3-lem-2 .statement tag=0AXP}
 
 Soit $x \in A[P]$ et soit $(x_p e^p)_{p \in X}$ la famille des termes maximaux de x. Soit $q \in P$ et soit $y \in A[P]$ tels que $e^q$ soit l’unique terme maximal de y. Alors, la famille des termes maximaux du produit xy est $(x_p e^{p+q})_{p \in X}$.
 
@@ -87,7 +87,7 @@ Si $t = p + q = p' + r$ avec $p \in X$ et $x_p y_r \neq 0$, on a $r \leq q$, d�
 
 D’autre part, si $t = p' + r$ avec $x_p y_r \neq 0$, il existe $p \in X$ tel que $p' \leq p$ et on a $t \leq p + q$. Le support maximal de xy est donc contenu dans $X + q$. Comme deux éléments de $X + q$ ne sont pas comparables, il en résulte que $X + q$ est exactement le support maximal de xy et nous avons vu ci-dessus que $z_{p+q} = x_p$ pour $p \in X$, ce qui achève la démonstration du lemme.
 
-#### Remarque {#lie-vi-s3-n2-rem-1 .statement}
+#### Remarque {#lie-vi-s3-n2-rem-1 .statement tag=0AXQ}
 
 Comme $x \neq 0$ signifie que le support maximal de x est non vide, le lemme 2 montre que $x \neq 0$ entraîne $xy \neq 0$, toutes les fois que y admet un unique terme maximal de la forme $e^q$.
 
@@ -101,7 +101,7 @@ $$
 
 la longueur $l(w)$ étant prise relativement à la famille des réflexions $s_{\alpha_i}$.
 
-#### Définition 2 {#lie-vi-s3-def-2 .statement}
+#### Définition 2 {#lie-vi-s3-def-2 .statement tag=0AXR}
 
 On dit qu’un élément $x \in A[P]$ est anti-invariant par $W$ si
 $$
@@ -128,7 +128,7 @@ $$
 $$
 est la demi-somme des racines positives (*loc. cit.*) et les éléments de $P \cap C$ sont encore les poids de la forme $\rho + p$ avec $p \in P \cap \overline{C}$. Enfin, si $p \in P \cap C$, on a $w(p) < p$ pour tout $w \neq 1$ (§ 1, no 6, cor. à la prop. 18) et $e^p$ est par suite l’unique terme maximal de $J(e^p)$.
 
-#### Proposition 1 {#lie-vi-s3-prop-1 .statement}
+#### Proposition 1 {#lie-vi-s3-prop-1 .statement tag=0AXS}
 
 Si 2 n’est pas diviseur de zéro dans $A$, les éléments $J(e^p)$ pour $p \in P \cap C$ forment une base du module des éléments anti-invariants de $A[P]$.
 
@@ -161,7 +161,7 @@ d &= \prod_{\alpha \in \mathbf{R}, \alpha > 0} (e^{\alpha/2} - e^{-\alpha/2}) \\
 $$
 Puisque $\rho \in P$, on a $d \in A[P]$.
 
-#### Proposition 2 {#lie-vi-s3-prop-2 .statement}
+#### Proposition 2 {#lie-vi-s3-prop-2 .statement tag=0AXT}
 
 (i) *L’élément d défini par (3) est un élément anti-invariant de A[P]; son unique terme maximal (n° 2, déf. 1) est $e^\rho$ et l’on a $d = J(e^\rho)$.*
 (ii) *Pour tout $p \in P$, l’élément $J(e^p)$ est divisible de façon unique par d et le quotient $J(e^p)/d$ est un élément de A[P] invariant par W.*
@@ -206,11 +206,11 @@ Revenons maintenant au cas général : par extension des scalaires de $\mathbf{Z
 
 Enfin, si 2 n'est pas diviseur de zéro dans $A$, la Remarque du no 2 et la prop. 1 entraînent (iii).
 
-#### Remarque 1 {#lie-vi-s3-n3-rem-1 .statement}
+#### Remarque 1 {#lie-vi-s3-n3-rem-1 .statement tag=0AXU}
 
 Si 2 n'est pas diviseur de zéro dans $A$, on vérifie aisément que $d$ est l'unique élément anti-invariant de $A[P]$ admettant $e^\rho$ comme terme maximal.
 
-#### Remarque 2 {#lie-vi-s3-n3-rem-2 .statement}
+#### Remarque 2 {#lie-vi-s3-n3-rem-2 .statement tag=0AXV}
 
 Le lemme 2 du no 2 montre que l'unique terme maximal du quotient $J(e^p)/d$ (pour $p \in P \cap C$) est $e^{p-\rho}$.
 
@@ -226,19 +226,19 @@ $$
 
 On en déduit :
 
-#### Lemme 3 {#lie-vi-s3-lem-3 .statement}
+#### Lemme 3 {#lie-vi-s3-lem-3 .statement tag=0AXW}
 
 Le A-module $A[P]^{\mathrm{w}}$ admet pour base la famille des $S(e^p)$ pour $p \in P \cap \overline{C}$.
 
 Plus généralement :
 
-#### Proposition 3 {#lie-vi-s3-prop-3 .statement}
+#### Proposition 3 {#lie-vi-s3-prop-3 .statement tag=0E8U}
 
 Pour tout $p \in P \cap \overline{C}$, soit $x_p$ un élément de $A[P]^{\mathrm{w}}$ ayant pour unique terme maximal $e^p$. La famille $(x_p)_{p \in P \cap \overline{C}}$ est une base du A-module $A[P]^{\mathrm{w}}$.
 
 Démontrons tout d’abord un lemme :
 
-#### Lemme 4 {#lie-vi-s3-lem-4 .statement}
+#### Lemme 4 {#lie-vi-s3-lem-4 .statement tag=0E8V}
 
 Soit I un ensemble ordonné vérifiant la condition suivante :
 (MIN) Toute partie non vide de I contient un élément minimal.
@@ -284,7 +284,7 @@ $$
 
 La proposition résulte alors des lemmes 3 et 4.
 
-#### Théorème 1 {#lie-vi-s3-thm-1 .statement}
+#### Théorème 1 {#lie-vi-s3-thm-1 .statement tag=0AXX}
 
 Soient $\omega_1, \ldots, \omega_l$ les poids fondamentaux correspondant à la chambre $C$ et, pour $1 \leq i \leq l$, soit $x_i$ un élément de $A[P]^w$ admettant $e^{\omega_i}$ pour unique terme maximal. Soit
 
@@ -296,11 +296,11 @@ l’homomorphisme de l’algèbre de polynômes $A[X_1, \ldots, X_l]$ dans $A[P]
 
 Le lemme 2 entraîne que l’image par $\varphi$ du monôme $X_1^{n_1} \cdots X_l^{n_l}$ est un élément admettant comme unique terme maximal $e^{n_1 \omega_1 + \cdots + n_l \omega_l}$. Comme tout élément de $P \cap \overline{C}$ s’écrit de façon unique sous la forme $n_1 \omega_1 + \cdots + n_l \omega_l$, la prop. 3 montre que les images par $\varphi$ des monômes $X_1^{n_1} \cdots X_l^{n_l}$ forment une base de $A[P]^w$, d’où le théorème.
 
-#### Exemple 1 {#lie-vi-s3-n4-exa-1 .statement}
+#### Exemple 1 {#lie-vi-s3-n4-exa-1 .statement tag=0AXY}
 
 On peut prendre $x_i = S(e^{\omega_i})$.
 
-#### Exemple 2 {#lie-vi-s3-n4-exa-2 .statement}
+#### Exemple 2 {#lie-vi-s3-n4-exa-2 .statement tag=0AXZ}
 
 D’après la Remarque 2 du no 3, on peut prendre $x_i = J(e^p + \omega_i)/d$ (avec les notations du no 3).
 

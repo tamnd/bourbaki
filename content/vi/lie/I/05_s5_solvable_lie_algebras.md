@@ -37,9 +37,9 @@ subsections:
       pdf_page: 67
 statements: 27
 exercises: 17
-content_sha256: 184e7efff67608c879b6563da78ec387cc8b78605f55ad070dd6eca13b0ab04b
+content_sha256: d6ee1aed8c53833e3636e1303bc38f19c8f75576ef9723e9419c2fdca06fe0d8
 translated_from: content/en/lie/I/05_s5_solvable_lie_algebras.md
-source_content_sha256: c13fa2eac7b71e9d961ea7fc4eb2e13efb9cf7a544efa82561bab25611c7517d
+source_content_sha256: 17ded9a5fe0c8a2a7818b8d120cc2777d7e553298aff0352151f7762860f3aac
 translation_model: gpt-5.4
 translation_run: translate-vi-f47a882b
 glossary_version: 34
@@ -53,13 +53,13 @@ Nhắc lại rằng từ nay $K$ ký hiệu một trường có đặc số 0 v�
 
 ### 1. ĐỊNH NGHĨA ĐẠI SỐ LIE GIẢI ĐƯỢC
 
-#### Định nghĩa 1 {#lie-i-s5-def-1 .statement}
+#### Định nghĩa 1 {#lie-i-s5-def-1 .statement tag=09Y1}
 
 *Một đại số Lie $g$ được gọi là giải được nếu đại số dẫn xuất bậc $k$ của nó $D^k g$ bằng không với $k$ đủ lớn.*
 
 Một đại số Lie lũy linh là giải được.
 
-#### Mệnh đề 1 {#lie-i-s5-prop-1 .statement}
+#### Mệnh đề 1 {#lie-i-s5-prop-1 .statement tag=09Y2}
 
 *Các đại số con và các đại số thương của một đại số Lie giải được đều giải được. Mọi mở rộng của một đại số giải được bởi một đại số giải được đều giải được. Mọi tích hữu hạn của các đại số giải được đều giải được.*
 
@@ -71,7 +71,7 @@ $$
 
 khi đó $D^t g \subset h$, do đó $D^{s+t} g = D^s(D^t g) \subset D^s h = \{0\}$ và $g$ giải được. Khẳng định cuối cùng suy ra từ khẳng định thứ hai bằng quy nạp theo số các thừa số.
 
-#### Mệnh đề 2 {#lie-i-s5-prop-2 .statement}
+#### Mệnh đề 2 {#lie-i-s5-prop-2 .statement tag=09Y3}
 
 *Cho $g$ là một đại số Lie. Các điều kiện sau là tương đương:*
 
@@ -97,11 +97,11 @@ II. Các công thức (5) của § 1 chứng minh rằng $\mathscr{D}t(n, K) = n
 
 Cho $a, b$ là hai iđêan giải được của một đại số Lie $g$. Đại số $(a + b)/b$ đẳng cấu với $a/(a \cap b)$ và do đó giải được, còn $a + b$, là một mở rộng của $(a + b)/b$ bởi $b$, cũng giải được (Mệnh đề 1). Suy ra rằng một iđêan giải được cực đại của $g$ chứa mọi iđêan giải được của $g$ và do đó $g$ có một iđêan giải được lớn nhất. Điều này cho phép ta đưa ra định nghĩa sau đây:
 
-#### Định nghĩa 2 {#lie-i-s5-def-2 .statement}
+#### Định nghĩa 2 {#lie-i-s5-def-2 .statement tag=09Y4}
 
 *Can của một đại số Lie là iđêan giải được lớn nhất của nó.*
 
-#### Mệnh đề 3 {#lie-i-s5-prop-3 .statement}
+#### Mệnh đề 3 {#lie-i-s5-prop-3 .statement tag=09Y5}
 
 *Can $r$ của một đại số Lie $g$ là iđêan nhỏ nhất của $g$ sao cho $g/r$ có căn là $\{0\}$.*
 
@@ -109,7 +109,7 @@ Cho $a$ là một iđêan của $g$ và $\phi$ là ánh xạ chính tắc từ $
 
 Mặt khác, ảnh ngược $\phi^{-1}(r')$ của căn $r'$ của $g/r$ là một iđêan của $g$ giải được theo Mệnh đề 1 và do đó bằng $r$; vì thế $r' = \{0\}$.
 
-#### Mệnh đề 4 {#lie-i-s5-prop-4 .statement}
+#### Mệnh đề 4 {#lie-i-s5-prop-4 .statement tag=09Y6}
 
 *Cho $g_1, \ldots, g_n$ là các đại số Lie. Căn $r$ của tích của các $g_i$ là tích của các căn $r_i$ của các $g_i$.*
 
@@ -117,11 +117,11 @@ Tích $r'$ của các $r_i$ là một iđêan giải được (Mệnh đề 1) v
 
 ### 3. CĂN LŨY LINH CỦA MỘT ĐẠI SỐ LIE
 
-#### Định nghĩa 3 {#lie-i-s5-def-3 .statement}
+#### Định nghĩa 3 {#lie-i-s5-def-3 .statement tag=09Y7}
 
 *Cho $g$ là một đại số Lie. Căn lũy linh của $g$ là giao của các hạt nhân của các biểu diễn đơn hữu hạn chiều của $g$.*
 
-#### Nhận xét {#lie-i-s5-n3-rem-1 .statement}
+#### Nhận xét {#lie-i-s5-n3-rem-1 .statement tag=09Y8}
 
 (1) Cho $s$ là căn lũy linh của $g$. Vì mọi dãy giảm các không gian vectơ con của $g$ đều dừng, tồn tại một số hữu hạn các biểu diễn đơn hữu hạn chiều của $g$ mà các hạt nhân của chúng có giao bằng $s$.
 
@@ -131,7 +131,7 @@ Tổng trực tiếp của các biểu diễn này là nửa đơn và có hạt
 
 (3) Mọi dạng tuyến tính $\lambda$ trên g bằng không trên $\mathscr{D}g$ là một biểu diễn đơn (với không gian K) của g, do đó $\lambda(s) = \{0\}$. Suy ra $s \subset \mathscr{D}g$. Mặt khác, s được chứa trong căn r của g theo Nhận xét 2. Ta sẽ chứng minh rằng $s = r \cap \mathscr{D}g$.
 
-#### Bổ đề 1 {#lie-i-s5-lem-1 .statement}
+#### Bổ đề 1 {#lie-i-s5-lem-1 .statement tag=09Y9}
 
 Cho V là một không gian vectơ hữu hạn chiều trên K, g là một đại số con của gl(V) sao cho V là một g-môđun đơn và a là một iđêan giao hoán của g. Khi đó $a \cap \mathscr{D}g = \{0\}$. Cho S là đại số con của $\mathscr{L}(V)$ sinh bởi 1 và a.
 
@@ -143,7 +143,7 @@ $$
 
 vì $ys = sy$; khi đó lấy b là iđêan $\mathscr{D}g \cap a$, suy ra $\mathscr{D}g \cap a = \{0\}$.
 
-#### Định lý 1 {#lie-i-s5-thm-1 .statement}
+#### Định lý 1 {#lie-i-s5-thm-1 .statement tag=09YA}
 
 Cho g là một đại số Lie, r là căn của nó và s là căn lũy linh của nó. Khi đó $s = \mathscr{D}g \cap r$.
 
@@ -153,19 +153,19 @@ $$
 \rho(\mathscr{D}g \cap r) = \{0\}.
 $$
 
-#### Hệ quả 1 {#lie-i-s5-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s5-thm-1-cor-1 .statement tag=09YB}
 
 Cho g là một đại số Lie giải được. Căn lũy linh của g là $\mathscr{D}g$. Nếu $\rho$ là một biểu diễn đơn hữu hạn chiều của g thì $\rho(g)$ là giao hoán và đại số kết hợp L sinh bởi 1 và $\rho(g)$ là một trường bậc hữu hạn trên K.
 
 Ở đây $r = g$, do đó $s = \mathscr{D}g$. Vì thế $\varphi(\mathscr{D}g) = \{0\}$, điều đó chứng tỏ rằng $g' = \rho(g)$ là giao hoán. Mọi phần tử $\neq 0$ của $L$ đều khả nghịch theo Bổ đề Schur; vậy $L$ là một trường.
 
-#### Hệ quả 2 (Định lý Lie) {#lie-i-s5-thm-1-cor-2 .statement}
+#### Hệ quả 2 (Định lý Lie) {#lie-i-s5-thm-1-cor-2 .statement tag=09YC}
 
 *Cho $g$ là một đại số Lie giải được; giả sử rằng $K$ đóng đại số. Cho $M$ là một $g$-môđun có số chiều hữu hạn trên $K$ và cho $(M_i)_{0 \leq i \leq r}$ là một chuỗi Jordan-Hölder của $M$. Khi đó $M_{i-1}/M_i$ có chiều bằng 1 trên $K$ với $1 \leq i \leq r$ và, với mọi $x \in g$, $x_{M_{i-1}/M_i} = \lambda_i(x) \cdot 1$, trong đó $\lambda_i$ là một dạng tuyến tính trên $g$ triệt tiêu trên $\mathscr{D}g$. Đặc biệt, mọi $g$-môđun đơn có chiều hữu hạn trên $K$ thực ra đều có chiều bằng 1.*
 
 Gọi $\rho_i$ là biểu diễn của $g$ trên $M_{i-1}/M_i$. Đại số kết hợp $L_i$ sinh bởi 1 và $\rho_i(g)$ là một trường, một mở rộng hữu hạn của $K$ và do đó bằng $K$; và $M_{i-1}/M_i$ là một $L_i$-môđun đơn, do đó $\dim M_{i-1}/M_i = 1$. Phần còn lại của hệ quả là hiển nhiên.
 
-#### Nhận xét {#lie-i-s5-n3-rem-2 .statement}
+#### Nhận xét {#lie-i-s5-n3-rem-2 .statement tag=09YD}
 
 (1) Nếu $(M_i)_{0 \leq i \leq r}$ được thay bằng một chuỗi Jordan-Hölder khác của $M$, thì dãy $(\lambda_1, \ldots, \lambda_r)$ được thay bằng một dãy có dạng $(\lambda_{\pi(1)}, \ldots, \lambda_{\pi(r)})$, trong đó $\pi$ là một phép hoán vị của $\{1, \ldots, r\}$, như suy ra từ Định lý Jordan-Hölder.
 
@@ -175,31 +175,31 @@ $$
 \lambda_1(x), \ldots, \lambda_r(x).
 $$
 
-#### Hệ quả 3 {#lie-i-s5-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#lie-i-s5-thm-1-cor-3 .statement tag=09YE}
 
 *Giả sử rằng $K$ đóng đại số. Nếu $g$ là một đại số Lie giải được $r$-chiều, thì mọi iđêan của $g$ là một số hạng của một dãy giảm các iđêan có các chiều $r, r-1, \ldots, 0$.*
 
 Mọi iđêan đều là một phần của một chuỗi Jordan-Hölder của $g$, được xét như không gian của biểu diễn phụ hợp (*Đại số*, Chương I, § 6, no. 14, Hệ quả của Định lý 8); khi đó chỉ cần áp dụng Hệ quả 2.
 
-#### Hệ quả 4 {#lie-i-s5-thm-1-cor-4 .statement}
+#### Hệ quả 4 {#lie-i-s5-thm-1-cor-4 .statement tag=09YF}
 
 *Giả sử rằng $K = \mathbf{R}$. Cho $g$ là một đại số Lie giải được. Mọi biểu diễn đơn của $g$ đều có chiều $\leq 2$. Mọi iđêan của $g$ là một số hạng của một dãy giảm $(g_i)_{0 \leq i \leq m}$ các iđêan sao cho $g_0 = g, g_m = \{0\}, \dim g_{i-1}/g_i \leq 2$ ($1 \leq i \leq m$).
 
 Điều này được chứng minh theo cách tương tự như đối với các Hệ quả 2 và 3, dùng sự kiện rằng mọi mở rộng đại số của $\mathbf{R}$ đều có bậc $\leq 2$.*
 
-#### Hệ quả 5 {#lie-i-s5-thm-1-cor-5 .statement}
+#### Hệ quả 5 {#lie-i-s5-thm-1-cor-5 .statement tag=09YG}
 
 *Để một đại số Lie $g$ là giải được, điều kiện cần và đủ là $\mathscr{D}g$ lũy linh.*
 
 Điều kiện đó là cần theo Hệ quả 1. Nó là đủ vì $g/\mathscr{D}g$ là giao hoán.
 
-#### Hệ quả 6 {#lie-i-s5-thm-1-cor-6 .statement}
+#### Hệ quả 6 {#lie-i-s5-thm-1-cor-6 .statement tag=09YH}
 
 *Cho $\varphi$ là một biểu diễn hữu hạn chiều của một đại số Lie $g$. Cho* r là căn của g. Mọi phần tử $x \in r$ sao cho $\rho(x)$ lũy linh đều thuộc iđêan lũy linh lớn nhất $n$ của $\rho$.
 
 Cho V là không gian của $\rho$; cho $(V_i)_{0 \leq i \leq r}$ là một chuỗi Jordan-Hölder đối với cấu trúc r-môđun trên V và cho $\rho_i$ là biểu diễn của r có không gian $V_i / V_{i-1}$ ($1 \leq i \leq r$). Nếu $\rho(x)$ lũy linh, thì $\rho_i(x)$ cũng vậy; vì với mọi $i$, đại số sinh bởi $\rho_i(x)$ là một trường, nên $\rho_i(x) = 0$. Ngược lại, nếu $\rho_i(x) = 0$ với mọi $i$, thì $\rho(x) = 0$. Điều này cho thấy rằng tập $a$ các $x \in r$ sao cho $\rho(x)$ lũy linh là một iđêan của r. Mặt khác, $[g, a] \subset \mathscr{D}g \cap r \subset n \cap r \subset a$ và do đó $a$ là một iđêan của g. Điều này chứng minh rằng $a \subset n$.
 
-#### Hệ quả 7 {#lie-i-s5-thm-1-cor-7 .statement}
+#### Hệ quả 7 {#lie-i-s5-thm-1-cor-7 .statement tag=09YI}
 
 Cho g là một đại số Lie và r là căn của nó. Bốn tập hợp sau đây trùng nhau: (a) iđêan lũy linh lớn nhất của g; (b) iđêan lũy linh lớn nhất của r; (c) tập hợp các $x \in r$ sao cho $\mathrm{ad}_g x$ là lũy linh; (d) tập hợp các $x \in r$ sao cho $\mathrm{ad}_r x$ là lũy linh.
 
@@ -207,7 +207,7 @@ Ký hiệu các tập hợp này bởi $a, b, c, d$. Các bao hàm $a \subset b 
 
 ### 4. MỘT TIÊU CHUẨN CHO TÍNH GIẢI ĐƯỢC
 
-#### Bổ đề 2 {#lie-i-s5-lem-2 .statement}
+#### Bổ đề 2 {#lie-i-s5-lem-2 .statement tag=09YJ}
 
 Cho $x$ là một tự đồng cấu của một không gian vectơ hữu hạn chiều V và s (tương ứng n) là thành phần nửa đơn (tương ứng lũy linh) của nó (xem Đại số, Chương VIII, § 9, no. 4, Định nghĩa 4). Cho $\mathrm{ad}\, x, \mathrm{ad}\, s, \mathrm{ad}\, n$ là các ảnh tương ứng của $x, s, n$ trong biểu diễn liên hợp của $\mathfrak{gl}(V)$. Khi đó $\mathrm{ad}\, s$ (tương ứng $\mathrm{ad}\, n$) là thành phần nửa đơn (tương ứng lũy linh) của $\mathrm{ad}\, x$ và bằng một đa thức theo $\mathrm{ad}\, x$ với các hệ số trong K và không có số hạng hằng.
 
@@ -219,7 +219,7 @@ $$
 
 và do đó $\mathrm{ad}\, s$ là nửa đơn. Khẳng định cuối cùng của bổ đề suy ra từ Đại số, Chương VIII, § 9, no. 4, Mệnh đề 8.
 
-#### Bổ đề 3 {#lie-i-s5-lem-3 .statement}
+#### Bổ đề 3 {#lie-i-s5-lem-3 .statement tag=09YK}
 
 Cho M là một không gian vectơ hữu hạn chiều, A và B là hai không gian vectơ con của $\mathfrak{gl}(M)$ sao cho $B \subset A$ và T là tập hợp các $t \in \mathfrak{gl}(M)$ sao cho $[t, A] \subset B$. Nếu $z \in T$ sao cho $\mathrm{Tr}(zu) = 0$ với mọi $u \in T$, thì $z$ là lũy linh.
 
@@ -235,7 +235,7 @@ $$
 
 Tồn tại một đa thức P không có số hạng hằng và có các hệ số trong K sao cho $P(\lambda_i - \lambda_j) = f(\lambda_i) - f(\lambda_j)$ với mọi i và j (thật vậy, nếu $\lambda_i - \lambda_j = \lambda_h - \lambda_k$, thì $f(\lambda_i) - f(\lambda_j) = f(\lambda_h) - f(\lambda_k)$ và, nếu $\lambda_i - \lambda_j = 0$, thì $f(\lambda_i) - f(\lambda_j) = 0$). Khi đó $\mathrm{ad}\ t = P(\mathrm{ad}\ s)$. Mặt khác, $\mathrm{ad}\ s$ là một đa thức không có số hạng hằng theo $\mathrm{ad}\ z$. Bây giờ $(\mathrm{ad}\ z)(A) \subset B$, do đó cũng có $(\mathrm{ad}\ t)(A) \subset B$. Theo giả thiết $0 = \mathrm{Tr}(zt) = \sum \lambda_i f(\lambda_i)$, do đó $0 = f(\mathrm{Tr}(zt)) = \sum f(\lambda_i)^2$. Vì các $f(\lambda_i)$ là những số hữu tỉ, suy ra $f = 0$, điều này hoàn tất chứng minh.
 
-#### Định lý 2 (tiêu chuẩn của Cartan) {#lie-i-s5-thm-2 .statement}
+#### Định lý 2 (tiêu chuẩn của Cartan) {#lie-i-s5-thm-2 .statement tag=09YL}
 
 *Cho g là một đại số Lie, M là một không gian vectơ hữu hạn chiều, ρ là một biểu diễn của g trên M và β là dạng song tuyến tính trên g liên kết với ρ. Khi đó ρ(g) là giải được khi và chỉ khi $\mathscr{D}$g trực giao với g đối với β.*
 
@@ -247,7 +247,7 @@ do đó theo tính tuyến tính $\mathrm{Tr}(tu) = 0$ với mọi $u \in \maths
 
 ### 5. CÁC TÍNH CHẤT BỔ SUNG CỦA CĂN
 
-#### Mệnh đề 5 {#lie-i-s5-prop-5 .statement}
+#### Mệnh đề 5 {#lie-i-s5-prop-5 .statement tag=09YM}
 
 *Cho g là một đại số Lie và r là căn của nó.*
 (a) *Nếu ρ là một biểu diễn hữu hạn chiều của g và β là dạng song tuyến tính liên kết, thì r và $\mathscr{D}$g trực giao đối với β.*
@@ -259,19 +259,19 @@ $$
 (Định lý 1). Suy ra (a).
 Gọi r' là trực giao của $\mathscr{D}$g đối với dạng Killing. Nó là một iđêan của g (§ 3, no. 6, Mệnh đề 7 (a)) chứa r theo điều trên. Mặt khác, ảnh s của r' dưới biểu diễn kề của g là giải được (Định lý 2) và vì thế r' là giải được vì là một mở rộng trung tâm của s. Suy ra r' ⊂ r.
 
-#### Hệ quả 1 {#lie-i-s5-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s5-prop-5-cor-1 .statement tag=09YN}
 
 Cho g là một đại số Lie. Khi đó g giải được khi và chỉ khi $\mathscr{D}g$ trực giao với g đối với dạng Killing.
 
 Đây là một hệ quả ngay lập tức của Mệnh đề 5 (b).
 
-#### Hệ quả 2 {#lie-i-s5-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#lie-i-s5-prop-5-cor-2 .statement tag=09YO}
 
 Căn r của một đại số Lie g là một iđêan đặc trưng.
 
 $\mathscr{D}g$ là một iđêan đặc trưng và dạng Killing là hoàn toàn bất biến (§ 3, no. 6, Mệnh đề 10). Do đó trực giao của $\mathscr{D}g$ đối với dạng Killing là một iđêan đặc trưng (§ 3, no. 6, Mệnh đề 7 (b)).
 
-#### Hệ quả 3 {#lie-i-s5-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#lie-i-s5-prop-5-cor-3 .statement tag=09YP}
 
 Cho g là một đại số Lie, r là căn của nó và a là một iđêan của g. Khi đó căn của a bằng $r \cap a$.
 
@@ -279,17 +279,17 @@ r ∩ a là một iđêan giải được của a và do đó được chứa tr
 
 Hệ quả 2 có thể được làm chính xác hơn như sau:
 
-#### Mệnh đề 6 {#lie-i-s5-prop-6 .statement}
+#### Mệnh đề 6 {#lie-i-s5-prop-6 .statement tag=09YQ}
 
 Cho g là một đại số Lie, r là căn của nó và n là iđêan lũy linh lớn nhất của nó. Mọi đạo hàm của g đều ánh xạ r vào n.
 
 Cho D là một đạo hàm của g. Gọi g' = g + Kx_0 là một đại số Lie trong đó g là một iđêan đồng chiều 1 sao cho Dx = [x_0, x] với mọi x ∈ g (§ 1, no. 8, Ví dụ 1). Theo Hệ quả 3 của Mệnh đề 5, r được chứa trong căn r' của g'. Khi đó D(r) = [x_0, r] ⊂ [g', g'] ∩ r' = s'. Với mọi x ∈ s', ad_{g'} x là lũy linh (Định lý 1). Do đó, với mọi x ∈ s' ∩ g, ad_g x là lũy linh. Vậy D(r) được chứa trong iđêan lũy linh s' ∩ g của g.
 
-#### Hệ quả {#lie-i-s5-n5-cor-1 .statement}
+#### Hệ quả {#lie-i-s5-n5-cor-1 .statement tag=09YR}
 
 Iđêan lũy linh lớn nhất của một đại số Lie là một iđêan đặc trưng.
 
-#### Nhận xét {#lie-i-s5-n5-rem-1 .statement}
+#### Nhận xét {#lie-i-s5-n5-rem-1 .statement tag=09YS}
 
 Để tóm tắt một số kết quả trên đây, chú ý rằng, nếu r, n, s, t lần lượt ký hiệu căn của g, iđêan lũy linh lớn nhất của g, căn lũy linh của g và trực giao của g đối với dạng Killing, thì
 

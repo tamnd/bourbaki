@@ -29,20 +29,20 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: ef9bd7ecd1886f25d63c9b0acd5c39fdf2a517141ccfa8855b8e3ce36ecb9f15
+content_sha256: aa56aa107c641a6f533bca5b5920334a1f4dfec7d2788424e0037a9fcb53cc7b
 ---
 
 ## 4. SPECTRA OF RINGS AND SUPPORTS OF MODULES
 
 ### 1. IRREDUCIBLE SPACES
 
-#### Definition 1 {#ac-ii-s4-def-1 .statement}
+#### Definition 1 {#ac-ii-s4-def-1 .statement tag=0498}
 
 A topological space $X$ is called irreducible if every finite intersection of non-empty open sets of $X$ is non-empty.
 
 By considering the empty family of open sets of $X$ it is seen that an irreducible space is non-empty; for a topological space $X$ to be irreducible, it is necessary and sufficient that it be non-empty and that the intersection of two non-empty open sets of $X$ be always non-empty (or, what amounts to the same thing, that the union of two closed sets distinct from $X$ be always distinct from $X$).
 
-#### Proposition 1 {#ac-ii-s4-prop-1 .statement}
+#### Proposition 1 {#ac-ii-s4-prop-1 .statement tag=0499}
 
 Let $X$ be a non-empty topological space. The following conditions are equivalent:
 (a) $X$ is irreducible;
@@ -55,13 +55,13 @@ A Hausdorff space is irreducible only if it consists of a single point.
 
 A subset $E$ of a topological space $X$ is called an irreducible set if the subspace $E$ of $X$ is irreducible. For this to be so, it is necessary and sufficient that, for every pair of sets $U, V$ which are open in $X$ and meet $E$, $U \cap V$ also meet $E$, or (what amounts to the same thing) that, for every pair of sets $F, G$ which are closed in $X$ and satisfy $E \subset F \cup G$, $E \subset F$ or $E \subset G$. By induction on $n$, we deduce that, if $(F_i)_{1 \leq i \leq n}$ is a finite family of closed sets of $X$ such that $E \subset \bigcup_{i=1}^n F_i$, there exists an index $i$ such that $E \subset F_i$.
 
-#### Proposition 2 {#ac-ii-s4-prop-2 .statement}
+#### Proposition 2 {#ac-ii-s4-prop-2 .statement tag=049A}
 
 In a topological space $X$, for a set $E$ to be irreducible, it is necessary and sufficient that its closure $\overline{E}$ be so.
 
 For an open set of $X$ to meet $E$, it is necessary and sufficient that it meet $\overline{E}$; then the proposition follows from the above remarks.
 
-#### Proposition 3 {#ac-ii-s4-prop-3 .statement}
+#### Proposition 3 {#ac-ii-s4-prop-3 .statement tag=049B}
 
 (i) *If $X$ is an irreducible space, every non-empty open subset of $X$ is irreducible.*
 
@@ -71,25 +71,25 @@ For an open set of $X$ to meet $E$, it is necessary and sufficient that it meet 
 
 (ii) Let us show that, for every non-empty open set $V$ in $X$, $V \cap U_\alpha \neq \emptyset$ for all $\alpha \in A$: it follows that $V \cap U_\alpha$ is dense in $U_\alpha$, by hypothesis, hence that $V$ is dense in $X$ and this proves that $X$ is irreducible (Proposition 1). Now there exists at least one index $y$ such that $V \cap U_y \neq \emptyset$; as $U_\alpha \cap U_y \neq \emptyset$ for all $\alpha$ and $V \cap U_y$ is dense in $U_y$, $U_y \cap V \neq \emptyset$ and *a fortiori* $U_y \cap V \neq \emptyset$, which completes the proof of (ii).
 
-#### Proposition 4 {#ac-ii-s4-prop-4 .statement}
+#### Proposition 4 {#ac-ii-s4-prop-4 .statement tag=049C}
 
 *Let $X$ and $Y$ be two topological spaces and $f$ a continuous mapping from $X$ to $Y$. For every irreducible subset $E$ of $X$, $f(E)$ is an irreducible subset of $Y$.*
 
 If $U, V$ are two open sets of $Y$ which meet $f(E)$, $f^{-1}(U)$ and $f^{-1}(V)$ are open sets of $X$ which meet $E$. Consequently, $f^{-1}(U) \cap f^{-1}(V) = f^{-1}(U \cap V)$ meets $E$, which implies that $U \cap V$ meets $f(E)$ and proves the proposition.
 
-#### Definition 2 {#ac-ii-s4-def-2 .statement}
+#### Definition 2 {#ac-ii-s4-def-2 .statement tag=049D}
 
 *Every maximal irreducible subset of a topological space $X$ is called an irreducible component of $X$.*
 
 It follows from Proposition 2 that every irreducible component of $X$ is *closed* in $X$.
 
-#### Proposition 5 {#ac-ii-s4-prop-5 .statement}
+#### Proposition 5 {#ac-ii-s4-prop-5 .statement tag=049E}
 
 *Let $X$ be a topological space. Every irreducible subset of $X$ is contained in an irreducible component of $X$ and $X$ is the union of its irreducible components.*
 
 To prove the first assertion, it is sufficient, by virtue of Zorn's Lemma, to prove that the set 3 of irreducible subsets of $X$ is *inductive*. Let $\mathscr{G}$ be a subset of $\mathfrak{S}$ totally ordered by inclusion; we show that the union $E$ of the sets $F \in \mathscr{G}$ is irreducible. Let $U, V$ be two open sets of $X$ which meet $E$; as $\mathscr{G}$ is totally ordered, there exists a set $F \in \mathscr{G}$ meeting $U$ and $V$; as $F$ is irreducible, $U \cap V$ meets $F$ and hence also $E$, which proves that $E$ is irreducible and hence that 3 is inductive. The second assertion follows from the first, for every subset of $X$ consisting of a single point is irreducible.
 
-#### Corollary {#ac-ii-s4-n1-cor-1 .statement}
+#### Corollary {#ac-ii-s4-n1-cor-1 .statement tag=049F}
 
 *Every connected component of a topological space $X$ is a union of irreducible components of $X$.*
 
@@ -97,23 +97,23 @@ Every irreducible subspace of $X$ is connected by Proposition 1 and hence is con
 
 Note that two distinct irreducible components of $X$ may have points in common (Exercise 11).
 
-#### Proposition 6 {#ac-ii-s4-prop-6 .statement}
+#### Proposition 6 {#ac-ii-s4-prop-6 .statement tag=049G}
 
 *Let $X$ be a topological space and $(P_i)_{1 \leq i \leq n}$ ajinite covering of $X$ consisting & irreducible closed sets. Then the irreducible components of $X$ are the maximal elements (with respect to inclusion) of the set of $P_i$.*
 
 We may restrict ourselves to the case where no two $P_i$ are comparable. If $E$ is an irreducible subset of $X$, then $E \subset \bigcup_{i=1}^n P_i$, and hence $E$ is contained in one of the closed sets $P_i$; this proves that the $P_i$ are the only maximal irreducible subsets of $X$.
 
-#### Corollary {#ac-ii-s4-n1-cor-2 .statement}
+#### Corollary {#ac-ii-s4-n1-cor-2 .statement tag=049H}
 
 *Let $X$ be a topological space and $E$ a subspace with only ajinite number of distinct irreducible components $Q_i$ ($1 \leq i \leq n$); then the irreducible components of the closure $\overline{E}$ in $X$ are the closures $\overline{Q}_i$ of the $Q_i$ ($1 \leq i \leq n$) and $\overline{Q}_i \# \overline{Q}_j$ for $i \neq j$.*
 
 $\overline{E}$ is the union of the $\overline{Q}_i$, which are irreducible (Proposition 2); as $Q_i$ is closed in $E$, $\overline{Q}_i \cap E = Q_i$; as $Q_i \notin Q_j$ for $i \neq j$, $\overline{Q}_i \notin \overline{Q}_j$, whence the corollary by virtue of Proposition 6.
 
-#### Remark {#ac-ii-s4-n1-rem-1 .statement}
+#### Remark {#ac-ii-s4-n1-rem-1 .statement tag=049I}
 
 Suppose that $X$ has only ajinite number of distinct irreducible components $X_i$ ($1 \leq i \leq n$); then $U_+ = \mathbf{C}(\bigcup_{j \neq i} X_j)$ is open in $X$ and dense in $X_i$ since $X_i \notin \bigcup_{j \neq i} X_j$; the $U_i$ ($1 \leq i \leq n$) are therefore non-empty open sets of $X$ which are irreducible (Proposition 2), pairwise disjoint and with their union dense in $X$.
 
-#### Proposition 7 {#ac-ii-s4-prop-7 .statement}
+#### Proposition 7 {#ac-ii-s4-prop-7 .statement tag=049J}
 
 *Let $U$ be an open subset of a topological space $X$. The mapping $V \mapsto \overline{V}$ (closure in $X$) is a bijection of the set & irreducible subsets of $U$ which are closed in $U$ onto the set & irreducible subsets & $X$ which are closed in $X$ and meet $U$; the inverse bijection is $Z \mapsto Z \cap U$. In particular, this bijection maps the set & irreducible components & $U$ onto the set & irreducible components & $X$ which meet $U$.*
 
@@ -121,13 +121,13 @@ If $V$ is closed in $U$ and irreducible, $\overline{V}$ is irreducible (Proposit
 
 ### 2. NOETHERIAN TOPOLOGICAL SPACES
 
-#### Definition 3 {#ac-ii-s4-def-3 .statement}
+#### Definition 3 {#ac-ii-s4-def-3 .statement tag=049K}
 
 A topological space $X$ is called Noetherian if every non-empty set of closed subsets of $X$, ordered by inclusion, has a minimal element.
 
 It amounts to the same to say that every non-empty set of open subsets of $X$, ordered by inclusion, has a maximal element, or that every decreasing (resp. increasing) sequence of closed (resp. open) sets is stationary (Set Theory, Chapter 111, § 6, no. 5, Proposition 6).
 
-#### Proposition 8 {#ac-ii-s4-prop-8 .statement}
+#### Proposition 8 {#ac-ii-s4-prop-8 .statement tag=049L}
 
 (i) Every subspace of a Noetherian space is Noetherian.
 (ii) Let $(A_i)_{i \in I}$ be a finite covering of a topological space $X$. If the subspaces $A_i$ of $X$ are Noetherian, $X$ is Noetherian.
@@ -140,7 +140,7 @@ G_n = \bigcup_{i \in I} (G_n \cap A_i)
 $$
 and hence the sequence $(G_n)$ is stationary and $X$ is Noetherian.
 
-#### Proposition 9 {#ac-ii-s4-prop-9 .statement}
+#### Proposition 9 {#ac-ii-s4-prop-9 .statement tag=049M}
 
 For a topological space $X$ to be Noetherian, it is necessary and sufficient that every open set in $X$ be quasi-compact.
 
@@ -148,13 +148,13 @@ To show that the condition is necessary, it is sufficient, by virtue of Proposit
 
 Conversely, suppose that every open set of $X$ is quasi-compact and let $(U_i)$ be an increasing sequence of open subsets of $X$. The union $V$ of the $U_i$ is open and hence quasi-compact; as $(U_i)$ is an open covering of $V$, there is a finite subfamily of $(U_i)$ which is a covering of $V$ and hence $V = U_n$ for some index $n$, which proves that the sequence $(U_i)$ is stationary.
 
-#### Lemma 1 ("Principle of Noetherian induction") {#ac-ii-s4-lem-1 .statement}
+#### Lemma 1 ("Principle of Noetherian induction") {#ac-ii-s4-lem-1 .statement tag=049N}
 
 *Let E be an ordered set every non-empty subset of which admits a minimal element. Let F be a subset of E with the following property : if $a \in E$ is such that the relation $x < a$ implies $x \in F$, then $a \in F$. Then $F = E$.*
 
 Suppose $F \neq E$; then $CF$ would have a minimal element $b$. By definition, $x \in F$ for all $x < b$, which implies that $b \in F$, which is a contradiction.
 
-#### Proposition 10 {#ac-ii-s4-prop-10 .statement}
+#### Proposition 10 {#ac-ii-s4-prop-10 .statement tag=049O}
 
 *If X is a Noetherian space, the set of irreducible components of X (and a fortiori the set of connected components of X) is finite.*
 
@@ -191,7 +191,7 @@ as follows from $§ 2$, no. 6, Corollary 1 to Proposition 13.
 
 Formulae (1) to (3) show that the subsets $V(M)$ of $X$ satisfy the *closed set* axioms of a topology (*General Topology*, Chapter I, $§ 1$, no. 4).
 
-#### Definition 4 {#ac-ii-s4-def-4 .statement}
+#### Definition 4 {#ac-ii-s4-def-4 .statement tag=049P}
 
 *Let $A$ be a ring. The set $X$ of prime ideals of $A$, with the topology whose closed sets are the sets $V(M)$, where $M$ runs through $\mathfrak{P}(A)$, is called the prime spectrum of $A$ and denoted by $\mathrm{Spec}(A)$. The topology thus defined is called the spectral or Zariski topology on $X$.*
 
@@ -220,7 +220,7 @@ $$
 
 hold for every family $(Y_\lambda)_{\lambda \in L}$ of subsets of $X$. Moreover:
 
-#### Proposition 11 {#ac-ii-s4-prop-11 .statement}
+#### Proposition 11 {#ac-ii-s4-prop-11 .statement tag=049Q}
 
 *Let $A$ be a ring, $a$ an ideal of $A$ and $Y$ a subset of $X = \mathrm{Spec}(A)$.
 (i) $V(a)$ is closed in $X$ and $\mathfrak{J}(Y)$ is an ideal of $A$ which is equal to its radical.
@@ -232,19 +232,19 @@ Assertion (i) and the first assertion of (ii) follow from the definitions and §
 
 It follows immediately from Proposition 11 that, if M is any subset of A and Y is any subset of X, then V(M) = V(J(V(M))) and J(Y) = J(V(J(Y))).
 
-#### Corollary 1 {#ac-ii-s4-prop-11-cor-1 .statement}
+#### Corollary 1 {#ac-ii-s4-prop-11-cor-1 .statement tag=049R}
 
 For every family (Y_λ)_{λ ∈ L} of closed subsets of X, J(∩_{λ ∈ L} Y_λ) is the radical of the sum of the ideals J(Y_λ).
 
 It follows from Proposition 11 (iii) that J(∩_{λ ∈ L} Y_λ) is the smallest ideal which is equal to its radical and contains all the J(Y_λ); this ideal then contains ∑_{λ ∈ L} J(Y_λ) and therefore also the radical of ∑_{λ ∈ L} J(Y_λ) (§ 2, no. 6, Corollary 2 to Proposition 13), whence the corollary.
 
-#### Corollary 2 {#ac-ii-s4-prop-11-cor-2 .statement}
+#### Corollary 2 {#ac-ii-s4-prop-11-cor-2 .statement tag=049S}
 
 Let r(a) denote the radical of an ideal a of A; if a and b are two ideals of A, the relation V(a) ⊂ V(b) is equivalent to b ⊂ r(a) and r(b) ⊂ r(a).
 
 It is immediate that the relations b ⊂ r(a) and r(b) ⊂ r(a) are equivalent and, as V(a) = V(r(a)), the corollary follows immediately from Proposition 11, (iii).
 
-#### Corollary 3 {#ac-ii-s4-prop-11-cor-3 .statement}
+#### Corollary 3 {#ac-ii-s4-prop-11-cor-3 .statement tag=049T}
 
 Let (f_λ)_{λ ∈ L} be a family of elements of A. For an element g ∈ A to satisfy X_g ⊂ ∪_{λ ∈ L} X_{f_λ}, it is necessary and sufficient that there exist an integer n > 0 such that g^n belongs to the ideal generated by the f_λ.
 
@@ -252,27 +252,27 @@ The relation X_g ⊂ ∪_{λ ∈ L} X_{f_λ} is equivalent to V(g) ⊃ ∩_{λ �
 
 COROLLARY 4, For two elements f, g of A to satisfy X_f = X_g, it is necessary and sufficient that there exist two integers m > 0, n > 0 such that f^m ∈ Ag and g^n ∈ Af.
 
-#### Corollary 5 {#ac-ii-s4-prop-11-cor-5 .statement}
+#### Corollary 5 {#ac-ii-s4-prop-11-cor-5 .statement tag=049U}
 
 For $f \in A$ to satisfy $X_f = \varnothing$, it is necessary and sufficient that $f$ be nilpotent.
 
 This follows immediately from Corollary 4.
 
-#### Corollary 6 {#ac-ii-s4-prop-11-cor-6 .statement}
+#### Corollary 6 {#ac-ii-s4-prop-11-cor-6 .statement tag=049V}
 
 The closure of a set consisting of a point $p \in X = \mathrm{Spec}(A)$ is the set $V(p)$ of prime ideals containing $p$. For the set $\{p\}$ to be closed in $X$ (or, as we shall also say by an abuse of language, for $p$ to be a closedpoint of $X$), it is necessary and sufficient that $p$ be maximal.
 
-#### Corollary 7 {#ac-ii-s4-prop-11-cor-7 .statement}
+#### Corollary 7 {#ac-ii-s4-prop-11-cor-7 .statement tag=049W}
 
 If $A$ is a Noetherian ring, $X = \mathrm{Spec}(A)$ is a Noetherian space.
 
-#### Proposition 12 {#ac-ii-s4-prop-12 .statement}
+#### Proposition 12 {#ac-ii-s4-prop-12 .statement tag=049X}
 
 For all $f \in A$, the open set $X_f$ in $X = \mathrm{Spec}(A)$ is quasi-compact; in particular, the space $X$ is quasi-compact.
 
 As the $X_g$ form a base of the topology, it is sufficient to prove that, if $(g_\lambda)_{\lambda \in L}$ is a family of elements of $A$ such that $X_f \subset \bigcup_{\lambda \in L} X_{g_\lambda}$, then there exists a finite subfamily $(g_{\lambda_i})_{i \in I}$ such that $X_f = \bigcup_{i \in I} X_{g_{\lambda_i}}$. But the relation $X_f = \bigcup_{\lambda \in L} X_{g_\lambda}$ means that there exists an integer $n > 0$ and a finite subfamily $(g_{\lambda_i})_{i \in I}$ such that "f" belongs to the ideal generated by that subfamily (Corollary 3 to Proposition 11); whence the proposition.
 
-#### Proposition 13 {#ac-ii-s4-prop-13 .statement}
+#### Proposition 13 {#ac-ii-s4-prop-13 .statement tag=049Y}
 
 Let $A, A'$ be two rings, $X = \mathrm{Spec}(A), X' = \mathrm{Spec}(A')$ and $h$ a homomorphism from $A$ to $A'$; the mapping $^a h : p' \mapsto \overline{h}(p')$ from $X'$ to $X$ is continuous.
 
@@ -280,17 +280,17 @@ For $M \subset A$, the set $(^a h)^{-1}(V(M))$ is the set of prime ideals $p'$ o
 
 We call $^a h$ the mapping associated with the homomorphism $h$.
 
-#### Remark {#ac-ii-s4-n3-rem-1 .statement}
+#### Remark {#ac-ii-s4-n3-rem-1 .statement tag=049Z}
 
 If $h$ is surjective and $a$ is its kernel, it follows from the definition of the spectral topology that $^a h$ is a homeomorphism of $X'$ onto the closed subspace $V(a)$ of $X$; for a prime ideal $p'$ of $A'$ to contain an ideal $b'$ of $A'$, it is necessary and sufficient that $\overline{h}(p')$ contain $\overline{h}(b')$; we see first that $^a h$ is injective by taking $b'$ to be prime; moreover, for every ideal $b'$ of $A'$, the image under $^a h$ of $V(b')$ is $V(\overline{h}(b'))$, whence our assertion, the ideals of the form $\overline{h}(b')$ all being ideals of $A$ which contain $a$.
 
-#### Corollary {#ac-ii-s4-n3-cor-1 .statement}
+#### Corollary {#ac-ii-s4-n3-cor-1 .statement tag=04A0}
 
 Let $S$ be a multiplicative subset of $A$, $A' = S^{-1}A$ and $h$ the canonical homomorphism $i_A^S$; then $^a h$ is a homeomorphism of $X' = \mathrm{Spec}(A')$ onto the subspace of $X = \mathrm{Spec}(A)$ consisting of the prime ideals of $A$ which do not meet $S$.
 
 Let $f' = f/s$, where $f \in A, s \in S$; then $X'_{f'} = X'_{f/1}$ since $s/1$ is invertible in $A'$. We know already that $^a h$ is injective and that, for all $p' \in X'$, the relations $f/1 \in p'$ and $f \in h^{-1}(p') = ^a h(p')$ are equivalent and hence the conditions $p' \in X'_{f/1}$ and $^a h(p') \in X_f$ are equivalent; this shows that $^a h(X'_{f'})$ is equal to $X_f \cap ^a h(X')$, whence the first assertion, since the $X, (resp.\ X'_{f'})$ form a base of the topology of $X$ (resp. $X$). The second assertion follows from , no. 5, Proposition 11 (ii)
 
-#### Proposition 14 {#ac-ii-s4-prop-14 .statement}
+#### Proposition 14 {#ac-ii-s4-prop-14 .statement tag=04A1}
 
 *Let $A$ be a ring. For a subset $Y$ of $X = \mathrm{Spec}(A)$ to be irreducible, it is necessary and sufficient that the ideal $\mathfrak{J}(Y)$ be prime.*
 
@@ -302,13 +302,13 @@ as $Y$ is irreducible and $V(f)$ and $V(g)$ are closed, $Y \subset V(f)$ or $Y \
 
 Suppose now that $p$ is prime; then $\overline{Y} = V(p)$ (Proposition 11 (ii)) and, as $p$ is prime, $p = \mathfrak{J}(\{p\})$, whence $\overline{Y} = V(\mathfrak{J}(\{p\})) = \{p\}$ (Proposition 11 (ii)). As a set consisting of a single point is irreducible, $Y$ is irreducible (no. 1, Proposition 2).
 
-#### Corollary 1 {#ac-ii-s4-prop-14-cor-1 .statement}
+#### Corollary 1 {#ac-ii-s4-prop-14-cor-1 .statement tag=04A2}
 
 *For a ring $A$ to be such that $X = \mathrm{Spec}(A)$ is irreducible, it is necessary and sufficient that the quotient of $A$ by its nilradical $\mathfrak{N}$ be an integral domain.*
 
 By Proposition 11 (i), $\mathfrak{J}(X)$ is the radical of the ideal $(0)$, that is $\mathfrak{N}$.
 
-#### Corollary 2 {#ac-ii-s4-prop-14-cor-2 .statement}
+#### Corollary 2 {#ac-ii-s4-prop-14-cor-2 .statement tag=04A3}
 
 *The mapping $p \mapsto V(p)$ is a bijection of $X = \mathrm{Spec}(A)$ onto the set of irreducible closed subsets of $X$; in particular the irreducible components of a closed subset $Y$ of $X$ are the sets $V(p)$, where $p$ runs through the set of minimal elements of the set of prime ideals of $A$ which contain $\mathfrak{J}(Y)$.*
 
@@ -318,13 +318,13 @@ p = \mathfrak{J}(V(p)) \supset \mathfrak{J}(Y)
 $$
 (Proposition 11), whence the second assertion.
 
-#### Corollary 3 {#ac-ii-s4-prop-14-cor-3 .statement}
+#### Corollary 3 {#ac-ii-s4-prop-14-cor-3 .statement tag=04A4}
 
 *The set of minimal prime ideals of a Noetherian ring $A$ is finite.*
 
 $X = \mathrm{Spec}(A)$ has only a finite number of irreducible components (Corollary 7 to Proposition 11 and no. 2, Proposition 10) and the corollary follows from Corollary 2 above.
 
-#### Proposition 15 {#ac-ii-s4-prop-15 .statement}
+#### Proposition 15 {#ac-ii-s4-prop-15 .statement tag=04A5}
 
 Let $A$ be a ring, $I$ a finite set and $E$ the set of orthogonal families $(e_i)_{i \in I}$ of idempotents $e_i \neq 0$ of $A$ such that $\sum_{i \in I} e_i = 1$. For all $(e_i)_{i \in I} \in E$, we set $\overline{\omega}((e_i)_{i \in I}) = (\mathrm{V}(A(1 - e_i)))_{i \in I}$, $\sigma((e_i)_{i \in I}) = (Ae_i)_{i \in I}$. Then $\overline{\omega}$ is a bijection of $E$ onto the set $P$ of partitions $(U_i)_{i \in I}$ of $X = \mathrm{Spec}(A)$ into open sets and $\sigma$ is a bijection of $E$ onto the set $S$ of families $(a_i)_{i \in I}$ of ideals $\neq 0$ of $A$ such that $A$ is the direct sum of the $a_i$.
 
@@ -338,7 +338,7 @@ $$
 
 by hypothesis $\prod_{i \in I} (1 - e_i) = 1 - \sum_{i \in I} e_i = 0$, whence $\bigcup_{i \in I} Y_i = X$ (formula (I)). As the $Y_i$ are closed, they are also open, whence $\overline{\omega}(E) \subset P$. Also, obviously $A = \sum_{i \in I} Ae_i$; if $0 = \sum_{i \in I} a_i e_i$ where $a_i \in A$, we obtain, by multiplying by $e_i$, $O = a_i e_i^2 = a_i e_i$ for all $i$; this proves that $\sigma(E) \subset S$.
 
-#### Lemma 2 {#ac-ii-s4-lem-2 .statement}
+#### Lemma 2 {#ac-ii-s4-lem-2 .statement tag=04A6}
 
 *If* $e, f$ *are two idempotents of* $A$ *such that* $Ae$ *and* $Af$ *have the same radical* then $e = f$.
 
@@ -368,7 +368,7 @@ $$
 
 and Lemma 2 shows also that $e = 1$.
 
-#### Corollary 1 {#ac-ii-s4-lem-2-cor-1 .statement}
+#### Corollary 1 {#ac-ii-s4-lem-2-cor-1 .statement tag=04A7}
 
 Let $A$ be a ring, $r$ a nil ideal of $A$ and $h : A \to A/r$ the canonical homomorphism. For every finite orthogonal family $(e'_i)_{i \in I}$ of idempotents of $A/r$ such that $\sum_{i \in I} e'_i = 1$, there exists a finite orthogonal family $(e_i)_{i \in I}$ of idempotents of $A$ such that $\sum_{i \in I} e_i = 1$ and $h(e_i) = e'_i$ for all $i \in I$.
 
@@ -386,7 +386,7 @@ $$
 
 as $1 - e'_i$ and $1 - h(e_i)$ are idempotent, Lemma 2 shows that $e'_i = h(e_i)$, whence the corollary.
 
-#### Corollary 2 {#ac-ii-s4-lem-2-cor-2 .statement}
+#### Corollary 2 {#ac-ii-s4-lem-2-cor-2 .statement tag=04A8}
 
 For the prime spectrum $X = \operatorname{Spec}(A)$ of a ring $A$ to be connected, it is necessary and sufficient that $A$ contain no idempotents other than $0$ and $1$.
 
@@ -394,13 +394,13 @@ To say that $X$ is not connected means that there exists in $X$ a set which is o
 
 ### 4. THE SUPPORT OF A MODULE
 
-#### Definition 5 {#ac-ii-s4-def-5 .statement}
+#### Definition 5 {#ac-ii-s4-def-5 .statement tag=04A9}
 
 Let $A$ be a ring and $M$ an $A$-module. The set of prime ideals $p$ of $A$ such that $M_p \neq 0$ is called the support of $M$ and is denoted by $\operatorname{Supp}(M)$.
 
 As every maximal ideal of $A$ is prime, it follows immediately from § 3, no. 3, Corollary 2 to Theorem 1, that for $A$-module $M$ to be equal to $0$, it is necessary and sufficient that $\operatorname{Supp}(M) = \varnothing$.
 
-#### Example {#ac-ii-s4-n4-exa-1 .statement}
+#### Example {#ac-ii-s4-n4-exa-1 .statement tag=04AA}
 
 Let $a$ be an ideal of $A$; in the notation of no. 3, we have
 $$
@@ -409,7 +409,7 @@ $$
 If $p$ is a prime of $A$ such that $a \notin p$, then $(A/a)_p = 0$ (§ 3, no. 1, Remark 3); if on the other hand $a \subset p$, $aA_p$ is contained in the maximal ideal $pA_p$ of $A$, and $(A/a)_p$ is isomorphic to $A_p/aA_p$ and hence is non-zero (§ 3, no. 1, Proposition 3); whence our assertion.
 In particular, $\operatorname{Supp}(A) = \operatorname{Spec}(A)$.
 
-#### Proposition 16 {#ac-ii-s4-prop-16 .statement}
+#### Proposition 16 {#ac-ii-s4-prop-16 .statement tag=04AB}
 
 Let $A$ be a ring and $M$ an $A$-module.
 (i) *If $N$ is a submodule of $M$, then*
@@ -427,7 +427,7 @@ $$
 (§ 2, no. 4, Theorem 1). For $M$, to be reduced to 0, it is necessary and sufficient that $N_p$ and $(M/N)_p$ be so. In other words, the relation $p \notin \operatorname{Supp}(M)$ is equivalent to "p $\notin \operatorname{Supp}(N)$ and $p \notin \operatorname{Supp}(M/N)$", which proves (i).
 (ii) For every prime ideal $p$ of $A$, $M$, is the sum of the family of submodules $(N_i)_p$ (§ 2, no. 4). To say that $M, \neq 0$ means that there exists $i \in I$ such that $(N_i)_p \neq 0$, whence (ii).
 
-#### Corollary {#ac-ii-s4-n4-cor-1 .statement}
+#### Corollary {#ac-ii-s4-n4-cor-1 .statement tag=04AC}
 
 *Let $A$ be a ring, $M$ an $A$-module, $(m_i)_{i \in I}$ a system of generators of $M$ and $a$, the annihilator of $m_i$. Then*
 $$
@@ -439,24 +439,24 @@ $$
 $$
 (Example above).
 
-#### Proposition 17 {#ac-ii-s4-prop-17 .statement}
+#### Proposition 17 {#ac-ii-s4-prop-17 .statement tag=04AD}
 
 *Let $A$ be a ring, $M$ an $A$-module and $a$ its annihilator; if $M$ is finitely generated, then* $\operatorname{Supp}(M) = V(a)$ *and* $\operatorname{Supp}(M)$ *is therefore closed in* $\operatorname{Spec}(A)$.
 Let $(m_i)_{1 \leq i \leq n}$ be a system of generators of $M$ and let $a$, be the annihilator of $m_i$; then $a = \bigcap_{i=1}^n a_i$, hence $V(a) = \bigcup_{i=1}^n V(a_i)$ (no. 3, equation (3)) and the Proposition follows from the Corollary to Proposition 16.
 
-#### Corollary 1 {#ac-ii-s4-prop-17-cor-1 .statement}
+#### Corollary 1 {#ac-ii-s4-prop-17-cor-1 .statement tag=04AE}
 
 Let $A$ be a ring, $M$ a finitely generated $A$-module and $a$ an element of $A$. For $a$ to belong to every prime ideal of the support of $M$, it is necessary and sufficient that the homothety of $M$ with ratio $a$ be nilpotent.
 
 It follows from Proposition 17 that the intersection of the prime ideals belonging to $\operatorname{Supp}(M)$ is the radical of the annihilator $a$ of $M$ (no. 3, Proposition 11 (ii)). To say that $a$ belongs to this radical is equivalent to saying that there exist a power $a^k \in a$ and hence that $a^k M = 0$.
 
-#### Corollary 2 {#ac-ii-s4-prop-17-cor-2 .statement}
+#### Corollary 2 {#ac-ii-s4-prop-17-cor-2 .statement tag=04AF}
 
 Let $A$ be a Noetherian ring, $M$ a finitely generated $A$-module and $a$ an ideal of $A$. For $\operatorname{Supp}(M) \subset V(a)$, it is necessary and sufficient that there exist an integer $k$ such that $a^k M = 0$.
 
 If $b$ is the annihilator of $M$, the relation $\operatorname{Supp}(M) \subset V(a)$ is equivalent to $V(b) \subset V(a)$ by Proposition 17 and hence to $a \subset r(b)$, where $r(b)$ is the radical of $b$ (no. 3, Corollary 2 to Proposition 11). Since $A$ is Noetherian, this condition is also equivalent to the existence of an integer $k > 0$ such that $a^k \subset b$ (§ 2, no. 6, Proposition 15).
 
-#### Proposition 18 {#ac-ii-s4-prop-18 .statement}
+#### Proposition 18 {#ac-ii-s4-prop-18 .statement tag=04AG}
 
 Let $M, M'$ be two finitely generated modules over a ring $A$; then
 
@@ -466,7 +466,7 @@ $$
 
 We need to prove that, if $p$ is a prime ideal of $A$, the relations $(M \otimes_A M')_p \neq 0$ and "$M_p \neq 0$ and $M'_p \neq 0$" are equivalent. As the $A_p$-modules $M, \otimes_{A_p} M'_p$ and $(M \otimes_A M')_p$ are isomorphic (§ 2, no. 7, Proposition 18), our assertion follows from the following lemma:
 
-#### Lemma 3 {#ac-ii-s4-lem-3 .statement}
+#### Lemma 3 {#ac-ii-s4-lem-3 .statement tag=04AH}
 
 Let $B$ be a local ring and $E$ and $E'$ two finitely generated $B$-modules. If $E \neq 0$ and $E' \neq 0$, then $E \otimes_B E' \neq 0$.
 
@@ -484,13 +484,13 @@ $$
 
 and therefore to $k \otimes_B (E \otimes_B E')$, whence the lemma.
 
-#### Corollary {#ac-ii-s4-n4-cor-2 .statement}
+#### Corollary {#ac-ii-s4-n4-cor-2 .statement tag=04AI}
 
 Let $M$ be a finitely generated $A$-module and $n$ its annihilator. For every ideal $a$ of $A$, $\operatorname{Supp}(M/aM) = V(a) \cap V(n) = V(a + n)$.
 
 $M/aM = M \otimes_A (A/a)$ and $A/a$ is finitely generated.
 
-#### Proposition 19 {#ac-ii-s4-prop-19 .statement}
+#### Proposition 19 {#ac-ii-s4-prop-19 .statement tag=04AJ}
 
 Let $A, B$ be two rings, $\phi : A \to B$ a homomorphism and
 $$
@@ -505,13 +505,13 @@ $$
 $$
 Let $q$ be a prime ideal of $B$ and $p = \phi^{-1}(q)$. Suppose that $q$ belongs to $\operatorname{Supp}(M_{(B)})$; then $M_{(B)} \otimes_B B_q = (M \otimes_A B) \otimes_B B_q = M \otimes_A B_q = (M \otimes_A A_p) \otimes_A B_q$, since the homomorphism $A \to B \to B_q$ factors into $A \to A_p \to B_q$ (§ 2, no. 1, Proposition 2); the hypothesis $M_{(B)} \otimes_B B_q \neq 0$ implies therefore $M \otimes_A A_q \neq 0$, whence the first assertion. As the homomorphism $\phi_q : A_p \to B_q$ is local, the second assertion follows from the following lemma:
 
-#### Lemma 4 {#ac-ii-s4-lem-4 .statement}
+#### Lemma 4 {#ac-ii-s4-lem-4 .statement tag=04AK}
 
 Let $A, B$ be two local rings, $p : A \to B$ a local homomorphism and $E$ a finitely generated $A$-module. If $E \neq 0$, then $E_{(B)} \neq 0$.
 
 Let $m$ be the maximal ideal of $A$ and $k = A/m$ the residue field; the hypothesis implies that $B \otimes_A k = B/mB \neq 0$; since the tensor product is associative, $(E \otimes_A B) \otimes_A k$ is isomorphic to $E \otimes_A (B \otimes_A k)$, hence also to $E \otimes_A (k \otimes_k (B \otimes_A k))$ and finally to $(E \otimes_A k) \otimes_k (B \otimes_A k)$; by § 3, no. 2, Proposition 4, $E \otimes_A k \neq 0$, hence $(E \otimes_A B) \otimes_A k \neq 0$ (Algebra, Chapter II, § 3, no. 7) and a fortiori $E \otimes_A B \neq 0$.
 
-#### Proposition 20 {#ac-ii-s4-prop-20 .statement}
+#### Proposition 20 {#ac-ii-s4-prop-20 .statement tag=04AL}
 
 Let $A$ be a ring and $M$ a finitely generated $A$-module. For every prime ideal $p \in \operatorname{Supp}(M)$, there exists a non-zero $A$-homomorphism $w : M \to A/p$.
 

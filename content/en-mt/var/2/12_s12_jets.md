@@ -40,11 +40,11 @@ subsections:
       pdf_page: 150
 statements: 1
 exercises: 0
-content_sha256: 6a78df6ef6f5cba7d9349c6327ba42a6324ad921a394aeb47acd6d730a4fa2b8
+content_sha256: daf4fcaaa8fb3f1163a40e2d786b4a3c21df06f1a1255d8178f1c7cc5917e8d7
 translated_from: content/fr/var/2/12_s12_jets.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 3cef1d15729f7411300863edad308e8143c54cc5db300a69be7628ab5c76eb0f
+source_content_sha256: 24194664e65b2b68db0c7d190b749dc96f4c568379032e5e1e881eb00963df53
 translation_model: gpt-5-6
 translation_run: translate-en-mt-bb272c86
 glossary_version: 34
@@ -246,7 +246,7 @@ Let $U$ be an open subset of $X$, and let $f \in \mathscr{S}_E^r(U)$ be a sectio
 
 12.6.2. If $F$ is a Banach space, the identification (12.5.2) of $P^k(F_X)$ with $J^k(X, F)$ equips the latter variety with a structure of vector bundle of class $C^{r-k}$, with base $X$. When $F = K$, we write $P^k(X)$ instead of $P^k(K_X)$.
 
-#### Example {#var-2-s12-n6-exa-1 .statement}
+#### Example {#var-2-s12-n6-exa-1 .statement tag=0EEK}
 
 Take $X = K^n$, and denote by $u_1, \ldots, u_n$ the coordinate functions on $K^n$; then the fibre $P^k_0(X)$ of $P^k(X)$ at 0 has as basis the family of jets of order $k$ of the monomials $u_1^{m_1} \ldots u_n^{m_n}$, with $m_i \geqslant 0, \sum_{i=0}^n m_i \leqslant k$.
 

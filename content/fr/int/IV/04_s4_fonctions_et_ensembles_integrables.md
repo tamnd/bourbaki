@@ -56,7 +56,7 @@ subsections:
       pdf_page: 167
 statements: 62
 exercises: 23
-content_sha256: 5465b1d367cafb0c75dc2f2462a214832ff759ed1e0077af0dd23fbffb7b6b3d
+content_sha256: 04f894a3aa623acd6fd405b8b83d7353ec9bb1995c23b9ec4d18faa3b73b0e77
 ---
 
 ## § 4. Fonctions et ensembles intégrables
@@ -73,11 +73,11 @@ $$
 
 Cette inégalité prouve que $f \mapsto \int f\, d\mu$ est une application linéaire de $\mathscr{K}_F$ dans $F$, continue pour la topologie de la convergence en moyenne dans $\mathscr{K}_F$. On peut donc la prolonger par continuité à l’espace $\mathscr{L}_F^1$ tout entier, et poser la définition suivante:
 
-#### Définition 1 {#int-iv-s4-def-1 .statement}
+#### Définition 1 {#int-iv-s4-def-1 .statement tag=08RY}
 
 On dit que les fonctions appartenant à $\mathscr{L}_F^1(X, \mu)$ sont intégrables pour la mesure $\mu$ (ou encore, sont $\mu$-intégrables). L’intégrale (par rapport à $\mu$) de la fonction intégrable $f$ est par définition la valeur pour $f$ du prolongement par continuité à $\mathscr{L}_F^1$ de l’application linéaire $g \mapsto \int g\, d\mu$ de $\mathscr{K}_F$ dans $F$; on la note encore $\mu(f)$ ou $\int f\, d\mu$, ou $\int f(x)\, d\mu(x)$ ou $\int f\mu$, ou $\int f(x)\mu(x)$.
 
-#### Exemple {#int-iv-s4-n1-exa-1 .statement}
+#### Exemple {#int-iv-s4-n1-exa-1 .statement tag=08RZ}
 
 Soient X un espace discret, $\mu$ une mesure sur X et posons $\alpha(x) = \mu(\varphi_{\{x\}})$ pour tout $x \in X$. Les fonctions de $\mathscr{F}_F^1$ sont alors intégrables, autrement dit, $\mathscr{L}_F^1 = \mathscr{F}_F^1$; en outre, pour toute fonction $f \in \mathscr{L}_F^1$, on a
 
@@ -99,7 +99,7 @@ Comme $\mu(f)$ est continue dans $\mathscr{L}_F^1$ par définition et prend ses 
 
 ### 2. Propriétés de l’intégrale
 
-#### Proposition 1 {#int-iv-s4-prop-1 .statement}
+#### Proposition 1 {#int-iv-s4-prop-1 .statement tag=08S0}
 
 Pour toute fonction numérique $\mu$-intégrable positive $f$, on a
 
@@ -109,7 +109,7 @@ $$
 
 En effet, $\int f d|\mu|$ et $N_1(f)$ sont continues dans $\mathscr{L}^1$ et égales pour toute fonction continue $f \geq 0$ à support compact; d’autre part, toute fonction $f \geq 0$ dans $\mathscr{L}^1$ est limite (au sens de la convergence en moyenne) d’une suite de fonctions $\geq 0$, continues et à support compact (§ 3, n° 5, prop. 11); d’où la proposition.
 
-#### Corollaire 1 {#int-iv-s4-prop-1-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s4-prop-1-cor-1 .statement tag=08S1}
 
 Pour toute fonction intégrable $f \in \mathscr{L}_F^1$, $|f|$ est intégrable, et l’on a
 
@@ -125,7 +125,7 @@ $$
 
 Rappelons que, pour qu’une fonction $f$ appartienne à $\mathscr{L}_F^p$, il faut et il suffit que la fonction $|f|^{p-1} \cdot f$ appartienne à $\mathscr{L}_F^1$ (§ 3, n° 8, cor 1. du th. 7), c’est-à-dire soit intégrable; cela explique la terminologie de « fonction de puissance $p$-ième intégrable ». En outre:
 
-#### Corollaire 2 {#int-iv-s4-prop-1-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s4-prop-1-cor-2 .statement tag=08S2}
 
 Pour toute fonction $f \in \mathscr{L}_F^p$, la fonction numérique $|f|^p$ est intégrable, et l’on a
 
@@ -135,7 +135,7 @@ $$
 
 Cela résulte aussitôt de ce que $|f|$ appartient à $\mathscr{L}^p$ (§ 3, n° 5, prop. 11), et de la formule (2).
 
-#### Proposition 2 {#int-iv-s4-prop-2 .statement}
+#### Proposition 2 {#int-iv-s4-prop-2 .statement tag=08S3}
 
 Pour toute fonction intégrable $f$, on a
 
@@ -145,7 +145,7 @@ $$
 
 Cela résulte aussitôt de l’inégalité (1) par passage à la limite, compte tenu de (3) et de la continuité de $N_1(f)$ dans $\mathscr{L}_F^1$.
 
-#### Théorème 1 {#int-iv-s4-thm-1 .statement}
+#### Théorème 1 {#int-iv-s4-thm-1 .statement tag=08S4}
 
 Soient $F$ et $G$ deux espaces de Banach, $u$ une application linéaire continue de $F$ dans $G$. Pour toute fonction intégrable $f$ à valeurs dans $F$, $u \circ f$ est intégrable et l’on a
 
@@ -155,7 +155,7 @@ $$
 
 Nous savons déjà que $u \circ f$ est intégrable (§ 3, n° 5, th. 4); la relation (6) étant valable pour $f \in \mathscr{K}_F$, s’étend à toute fonction intégrable $f$ par le principe de prolongement des identités : en effet, $f \mapsto u \circ f$ est continue pour la topologie de la convergence en moyenne, comme il résulte de l’inégalité $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
 
-#### Corollaire 1 {#int-iv-s4-thm-1-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s4-thm-1-cor-1 .statement tag=08S5}
 
 Soit $a'$ une forme linéaire continue sur $F$. Si $f$ est une fonction intégrable à valeurs dans $F$, la fonction numérique $\langle f, a' \rangle$ est intégrable, et l’on a
 $$
@@ -163,7 +163,7 @@ $$
 $$
 Nous verrons au chap. VI, § 1, exerc. 7, 11 et 12 qu’il peut exister des fonctions $f$ à valeurs dans un espace de Banach $F$ de dimension infinie, telles que $\langle f, a' \rangle$ soit intégrable pour toute forme linéaire continue $a'$ sur $F$, sans que $f$ soit intégrable.
 
-#### Corollaire 2 {#int-iv-s4-thm-1-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s4-thm-1-cor-2 .statement tag=08S6}
 
 Si les $a_k$ ($1 \leq k \leq n$) sont des vecteurs de $F$, et les $f_k$ ($1 \leq k \leq n$) des fonctions numériques intégrables, la fonction $f = \sum_{k=1}^n a_k f_k$ est intégrable, et l’on a
 $$
@@ -172,7 +172,7 @@ $$
 
 ### 3. Passages à la limite dans les intégrales
 
-#### Proposition 3 {#int-iv-s4-prop-3 .statement}
+#### Proposition 3 {#int-iv-s4-prop-3 .statement tag=08S7}
 
 Soit $\mathscr{B}$ une base de filtre sur $\mathscr{L}_F^1$. On suppose qu’il existe un ensemble compact $K \subset X$ tel que, pour toute partie $M \in \mathscr{B}$, toutes les fonctions $f \in M$ aient leur support dans $K$. Dans ces conditions, si $\mathscr{B}$ converge uniformément dans $X$ vers $f_0$, la fonction $f_0$ est intégrable, et l’on a
 $$
@@ -180,7 +180,7 @@ $$
 $$
 En effet, $\mathscr{B}$ converge en moyenne vers $f_0$ (§ 3, n° 3, prop. 4).
 
-#### Proposition 4 {#int-iv-s4-prop-4 .statement}
+#### Proposition 4 {#int-iv-s4-prop-4 .statement tag=08S8}
 
 Soit $(f_n)$ une suite croissante (resp. décroissante) de fonctions numériques intégrables. Pour que l’enveloppe supérieure (resp. inférieure) $f$ de cette suite soit intégrable, il faut et il suffit que $\sup_n \int f_n d|\mu| < +\infty$ (resp. $\inf_n \int f_n d|\mu| > -\infty$) et l’on a alors
 $$
@@ -189,7 +189,7 @@ $$
 
 Bornons-nous à considérer une suite croissante. La suite des $g_n = f_n + f_1^-$ est croissante et formée de fonctions intégrables $\geqslant 0$; comme son enveloppe supérieure est $g = f + f_1^-$, la proposition résulte du th. 5 du § 3, n° 6.
 
-#### Théorème 2 {#int-iv-s4-thm-2 .statement}
+#### Théorème 2 {#int-iv-s4-thm-2 .statement tag=08S9}
 
 Soit $A$ un ensemble d’indices, filtré par un filtre $\mathfrak{F}$ à base dénombrable. Soit $(\mathbf{f}_\alpha)_{\alpha \in A}$ une famille de fonctions intégrables qui, suivant le filtre $\mathfrak{F}$, convergent simplement presque partout vers une fonction $\mathbf{f}$; s’il existe une fonction numérique $g \geqslant 0$ telle que $\int^* g \, d|\mu| < +\infty$, et que $|\mathbf{f}_\alpha(x)| \leqslant g(x)$ presque partout dans $X$ pour tout $\alpha \in A$, la fonction $\mathbf{f}$ est intégrable, et l’on a
 $$
@@ -197,7 +197,7 @@ $$
 $$
 Le théorème résulte du th. de Lebesgue (§ 3, n° 7, cor. du th. 6) puisque, dans les conditions de l’énoncé, $\mathbf{f}_\alpha$ converge en moyenne vers $\mathbf{f}$ suivant $\mathfrak{F}$.
 
-#### Corollaire 1 {#int-iv-s4-thm-2-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s4-thm-2-cor-1 .statement tag=08SA}
 
 Soient $\Omega$ un espace topologique, $t_0$ un point de $\Omega$ admettant un système fondamental dénombrable de voisinages, $\mathbf{f}$ une application de $X \times \Omega$ dans $F$, ayant les propriétés suivantes:
 a) pour tout $t \in \Omega$, la fonction $x \mapsto \mathbf{f}(x, t)$ est intégrable;
@@ -205,7 +205,7 @@ b) pour tout $x \in X$, la fonction $t \mapsto \mathbf{f}(x, t)$ est continue en
 c) il existe un voisinage $U$ de $t_0$ et une fonction numérique $g \geqslant 0$ définie dans $X$, telle que $\int^* g \, d|\mu| < +\infty$, et que $|\mathbf{f}(x, t)| \leqslant g(x)$ pour $x \in X$ et $t \in U$.
 Dans ces conditions, l’application $t \mapsto \int \mathbf{f}(x, t) \, d\mu(x)$ de $\Omega$ dans $F$ est continue au point $t_0$.
 
-#### Corollaire 2 {#int-iv-s4-thm-2-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s4-thm-2-cor-2 .statement tag=08SB}
 
 Soit $(\mathbf{f}_n)$ une suite de fonctions intégrables telle que la série de terme général $\mathbf{f}_n(x)$ converge presque partout; s’il existe une fonction $g \geqslant 0$ telle que $\int^* g \, d|\mu| < +\infty$, et que, pour tout entier $n$, on ait $\left| \sum_{k=1}^n \mathbf{f}_k(x) \right| \leqslant g(x)$ presque partout, alors la somme $\mathbf{f}(x)$ (définie presque partout) de la série de terme général $\mathbf{f}_n(x)$ est intégrable, et l’on a
 $$
@@ -215,7 +215,7 @@ $$
 
 ### 4. Caractérisations des fonctions numériques intégrables
 
-#### Proposition 5 {#int-iv-s4-prop-5 .statement}
+#### Proposition 5 {#int-iv-s4-prop-5 .statement tag=08SC}
 
 Pour qu’une fonction numérique $f \geq 0$ (finie ou non) semi-continue inférieurement dans E, soit intégrable, il faut et il suffit que $\int^* f d|\mu| < +\infty$.
 
@@ -225,13 +225,13 @@ $$
 $$
 autrement dit $N_1(f - g) = |\mu|^*(f - g) = |\mu|^*(f) - |\mu|(g) \leq \varepsilon$, ce qui prouve que $f$ est intégrable (§ 3, n° 3, prop. 7).
 
-#### Corollaire 1 {#int-iv-s4-prop-5-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s4-prop-5-cor-1 .statement tag=08SD}
 
 Pour qu’une fonction numérique finie $f \geq 0$, semi-continue supérieurement dans X, soit intégrable, il faut et il suffit que $\int^* f d|\mu| < +\infty$.
 
 En effet, si $|\mu|^*(f) < +\infty$, il existe une fonction $h$, semi-continue inférieurement, telle que $f \leq h$ et $|\mu|^*(h) < +\infty$; $h - f$ est définie partout et semi-continue inférieurement, et on a $|\mu|^*(h - f) \leq |\mu|^*(h) < +\infty$; donc $h - f$ est intégrable, et comme $f(x) = h(x) - (h(x) - f(x))$ presque partout, $f$ est intégrable.
 
-#### Corollaire 2 {#int-iv-s4-prop-5-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s4-prop-5-cor-2 .statement tag=08SE}
 
 Soit H un ensemble non vide, filtrant pour la relation $\leq$ (resp. $\geq$) de fonctions numériques semi-continues inférieurement (resp. supérieurement) et intégrables; si
 $$
@@ -253,19 +253,19 @@ $$
 $$
 on peut leur appliquer ce qui a été démontré ci-dessus; si $g'$ est l’enveloppe supérieure des $f'$, $h$ et $g'$ sont finies presque partout, donc $h - g'$ est définie presque partout et égale à $g$ presque partout; on en tire aussitôt les conclusions du corollaire dans ce cas.
 
-#### Corollaire 3 {#int-iv-s4-prop-5-cor-3 .statement}
+#### Corollaire 3 {#int-iv-s4-prop-5-cor-3 .statement tag=08SF}
 
 Soit $f$ une fonction numérique bornée, semi-continue supérieurement dans $X$ et à support compact. Alors l’application $\mu \mapsto \int f d\mu$ est semi-continue supérieurement dans $\mathscr{M}_+(X)$ pour la topologie vague.
 
 Si $h$ est une fonction de $\mathscr{K}_+(X)$ telle que $|f| \leqslant h$ (chap. III, § 1, n° 2, lemme 1), on a $0 \leqslant f + h \leqslant 2h$, et comme $f + h$ est semi-continue supérieurement, il résulte du cor. 1 que $f$ est $\mu$-intégrable pour toute mesure $\mu$ sur $X$. En outre, on a $\mu(f) = \mu(h) - \mu(h - f)$ et $h - f$ est une fonction semi-continue inférieurement et $\geqslant 0$. Comme l’application $\mu \mapsto \mu(h - f)$ est semi-continue inférieurement dans $\mathscr{M}_+(X)$ pour la topologie vague (§ 1, n° 1, prop. 4), cela démontre le corollaire.
 
-#### Théorème 3 {#int-iv-s4-thm-3 .statement}
+#### Théorème 3 {#int-iv-s4-thm-3 .statement tag=08SG}
 
 Pour qu’une fonction numérique $f \geq 0$ soit intégrable, il faut et il suffit que, pour tout $\varepsilon > 0$, il existe une fonction semi-continue supérieurement $g \geq 0$, à valeurs finies et à support compact, et une fonction intégrable semi-continue inférieurement $h$, telles que $g \leq f \leq h$ et que $\int (h - g)\ d|\mu| \leq \varepsilon$.
 
 La condition est suffisante d’après un critère général d’intégrabilité ($§ 3$, n° 4, prop. 8), la prop. 5 et son corollaire 1. Montrons que la condition est nécessaire. Si $f \geq 0$ est intégrable, pour tout $\varepsilon > 0$, il existe une fonction $u \geq 0$, continue et à support compact, telle que $N_1(f - u) \leq \varepsilon/4$. D’après la définition de $N_1$, cela entraîne qu’il existe une fonction $v \geq 0$, semi-continue inférieurement, telle que $\mu^*(v) \leq \varepsilon/2$ et $|f - u| \leq v$. On a donc $-v(x) \leq f(x) - u(x) \leq v(x)$ pour tout $x \in X$, et comme $u(x)$ est partout fini, on en déduit $(u(x) - v(x))^+ \leq f(x) \leq u(x) + v(x)$ pour tout $x \in X$. Les fonctions $g = (u - v)^+$ et $h = u + v$ répondent à la question.
 
-#### Corollaire {#int-iv-s4-n4-cor-1 .statement}
+#### Corollaire {#int-iv-s4-n4-cor-1 .statement tag=08SH}
 
 Pour toute fonction numérique intégrable $f$ (resp. intégrable et $\geq 0$), il existe une suite croissante $(g_n)$ de fonctions semi-continues supérieurement et intégrables (resp. à valeurs finies, à supports compacts et intégrables), et une suite décroissante $(h_n)$ de fonctions semi-continues inférieurement et intégrables, telles que:
 
@@ -290,29 +290,29 @@ $$
 
 En outre, on peut supposer que les $g'_n$ et les $h''_n$ sont partout finies; alors il est clair que les suites des $g_n = g'_n + g''_n$ et $h_n = h'_n + h''_n$ répondent à la question.
 
-#### Exemple {#int-iv-s4-n4-exa-1 .statement}
+#### Exemple {#int-iv-s4-n4-exa-1 .statement tag=08SI}
 
 Pour toute mesure positive $\mu$ sur $\mathbf{R}$, toute fonction en escalier à support compact est $\mu$-intégrable; en effet, une fonction caractéristique d’intervalle ouvert (resp. fermé) est semi-continue inférieurement (resp. supérieurement), et toute fonction en escalier est combinaison linéaire de telles fonctions caractéristiques. On en déduit que si $\mathbf{f}$ est une fonction réglée dans $\mathbf{R}$ et à support compact (*Fonct. var. réelle*, chap. II, § 1, no 3), $\mathbf{f}$ est intégrable, car elle est limite uniforme d’une suite de fonctions en escalier $\mathbf{g}_n$ à support contenu dans un ensemble compact fixe (no 3, prop. 3); on a en outre $\int \mathbf{f}\, d\mu = \lim_{n \to \infty} \int \mathbf{g}_n\, d\mu$.
 
 Si l’on prend en particulier pour $\mu$ la mesure de Lebesgue, on voit que pour toute fonction réglée $\mathbf{f}$ à support compact, l’intégrale $\int \mathbf{f}\, d\mu$ est égale à l’intégrale $\int_{-\infty}^{+\infty} \mathbf{f}(x)\, dx$ définie dans *Fonct. var. réelle*, chap. II, § 2, no 1.
 
-#### Remarque 1 {#int-iv-s4-n4-rem-1 .statement}
+#### Remarque 1 {#int-iv-s4-n4-rem-1 .statement tag=08SJ}
 
 Soit $\mathbf{f}$ une fonction réglée dans $\mathbf{R}$ et intégrable pour la mesure de Lebesgue $\mu$; alors $|\mathbf{f}|$ est aussi intégrable (no 2, cor. 1 de la prop. 1), et si l’on pose $I_n = (-n, +n)$, $|\mathbf{f}|$ est l’enveloppe supérieure de la suite croissante des fonctions réglées $|\mathbf{f}| \varphi_{I_n}$, donc $\int |\mathbf{f}|\, d\mu = \lim_{n \to \infty} \int_{-n}^{n} |\mathbf{f}(x)|\, dx$ d’après le th. 2 du no 3; donc l’intégrale $\int_{-\infty}^{+\infty} \mathbf{f}(x)\, dx$ est *absolument convergente* (*Fonct. var. réelle*, chap. II, § 2, no 3). En outre, $\int \mathbf{f}\, d\mu = \int_{-\infty}^{+\infty} \mathbf{f}(x)\, dx$ d’après le th. 2 du n° 3. Réciproquement, supposons que $\int_{-\infty}^{+\infty} f(x) dx$ soit absolument convergente; on a encore, en vertu du th. 2 du n° 3, $\int f d\mu = \int_{-\infty}^{+\infty} f(x) dx$. On notera que si l’intégrale $\int_{-\infty}^{+\infty} f(x) dx$ est convergente sans être absolument convergente, $f$ *n’est pas intégrable* pour la mesure de Lebesgue.
 
-#### Remarque 2 {#int-iv-s4-n4-rem-2 .statement}
+#### Remarque 2 {#int-iv-s4-n4-rem-2 .statement tag=08SK}
 
 Appliquée à la mesure de Lebesgue et aux fonctions réglées, la prop. 3 du n° 3 redonne le théorème de passage à la limite pour les intégrales de fonctions réglées dans un intervalle compact (*Fonct. var. réelle*, chap. II, § 3, n° 1, prop. 1); pour les *suites* (ou les filtres à base dénombrable) de fonctions réglées, le th. 2 du n° 3 améliore beaucoup cette proposition, puisque, pour les fonctions réglées uniformément bornées dans un intervalle compact, il substitue la convergence *simple* à la convergence *uniforme* (cf. § 5, n° 4, th. 2). Mais en ce qui concerne le passage à la limite pour les intégrales *absolument convergentes* de fonctions réglées dans un intervalle non compact, on observera que les conditions du th. 2 du n° 3 impliquent que les intégrales considérées sont *uniformément convergentes* (au sens défini dans *Fonct. var. réelle*, chap. II, § 3, n° 2), et n’améliorent donc les conditions de convergence données au Livre IV (*loc. cit.*) qu’en ce qui concerne la convergence des fonctions $f_\alpha$ dans tout intervalle compact. Enfin, les conditions de passage à la limite données pour des intégrales de fonctions réglées *non absolument convergentes* restent en dehors de la théorie développée dans ce chapitre.
 
 ### 5. Ensembles intégrables
 
-#### Définition 2 {#int-iv-s4-def-2 .statement}
+#### Définition 2 {#int-iv-s4-def-2 .statement tag=08SL}
 
 *On dit qu’une partie* $A$ *d’un espace localement compact* $X$ *est intégrable pour une mesure* $\mu$ *sur* $X$ *(ou encore est* $\mu$*-intégrable*) si la fonction caractéristique* $\varphi_A$ *de* $A$ *est intégrable.* *Le nombre fini* $\mu(A) = \int \varphi_A d\mu$ *est appelé mesure de* $A$.
 
 Pour tout ensemble intégrable $A$, on a $|\mu|(A) = |\mu|^*(A)$ (prop. 1); pour qu’un ensemble soit négligeable, il faut et il suffit qu’il soit de mesure nulle pour $|\mu|$.
 
-#### Proposition 6 {#int-iv-s4-prop-6 .statement}
+#### Proposition 6 {#int-iv-s4-prop-6 .statement tag=08SM}
 
 *La réunion d’une famille finie* $(A_i)_{1 \leq i \leq n}$ *d’ensembles intégrables est intégrable, et on a*
 $$
@@ -325,7 +325,7 @@ $$
 
 En effet, si $A = \bigcup_{i=1}^n A_i$, on a $\varphi_A = \sup \varphi_{A_i}$, donc (§ 3, n° 5, cor. de la prop. 12) si les $A_i$ sont intégrables, il en est de même de $A$; la relation (13) est un cas particulier de la relation analogue pour les mesures extérieures (§ 1, n° 4, prop. 18), compte tenu de la relation $|\mu|(A) = |\mu|^*(A)$; enfin, si les $A_i$ sont deux à deux sans point commun, on a $\varphi_A = \sum_{i=1}^n \varphi_{A_i}$; d’où (14).
 
-#### Proposition 7 {#int-iv-s4-prop-7 .statement}
+#### Proposition 7 {#int-iv-s4-prop-7 .statement tag=08SN}
 
 1° Si $A$ et $B$ sont deux ensembles intégrables tels que $B \subset A$, l’ensemble $C = A - B$ est intégrable, et on a
 $$
@@ -335,13 +335,13 @@ $$
 
 La première partie résulte de ce que $\varphi_C = \varphi_A - \varphi_B$. D’autre part, si $(A_n)$ est une suite d’ensembles intégrables, et $A$ son intersection, on a $\varphi_A = \inf_n \varphi_{A_n}$, donc $A$ est intégrable (n° 3, prop. 4).
 
-#### Corollaire {#int-iv-s4-n5-cor-1 .statement}
+#### Corollaire {#int-iv-s4-n5-cor-1 .statement tag=08SO}
 
 *Si $(A_n)$ est une suite décroissante d’ensembles intégrables, on a* $\mu\left( \bigcap_n A_n \right) = \lim_{n \to \infty} \mu(A_n)$.
 
 En effet, si $A = \bigcap_n A_n$, $\varphi_A$ est l’enveloppe inférieure de la suite décroissante $(\varphi_{A_n})$ (n° 3, prop. 4).
 
-#### Proposition 8 {#int-iv-s4-prop-8 .statement}
+#### Proposition 8 {#int-iv-s4-prop-8 .statement tag=08SP}
 
 *Soit $(A_n)$ une suite croissante d’ensembles intégrables; pour que la réunion $A = \bigcup_n A_n$ soit intégrable, il faut et il suffit que* $\sup_n |\mu|(A_n) < +\infty$; *on a alors*
 $$
@@ -349,7 +349,7 @@ $$
 $$
 En effet, les $\varphi_{A_n}$ forment une suite croissante de fonctions intégrables, et $\varphi_A = \sup \varphi_{A_n}$; la proposition résulte donc de la prop. 4 du n° 3.
 
-#### Corollaire {#int-iv-s4-n5-cor-2 .statement}
+#### Corollaire {#int-iv-s4-n5-cor-2 .statement tag=08SQ}
 
 *Soit $(A_n)$ une suite d’ensembles intégrables telle que* $\sum_{n=1}^\infty |\mu|(A_n) < +\infty$; *la réunion* $A = \bigcup_n A_n$ *est intégrable, et* on a
 (17) $$ |\mu|\left(\bigcup_n A_n\right) \leq \sum_{n=1}^\infty |\mu|(A_n). $$
@@ -357,7 +357,7 @@ En effet, on a $\varphi_A = \sup_n \varphi_{A_n}$, et
 $$ |\mu|^*(A) \leq \sum_{n=1}^\infty |\mu|^*(A_n) = \sum_{n=1}^\infty |\mu|(A_n) < +\infty $$
 (§ 1, n° 4, prop. 18); A est donc intégrable (§ 3, n° 6, cor. 2 du th. 5) et comme $|\mu|(A) = |\mu|^*(A)$, on a bien (17).
 
-#### Proposition 9 {#int-iv-s4-prop-9 .statement}
+#### Proposition 9 {#int-iv-s4-prop-9 .statement tag=08SR}
 
 Soit $(A_n)$ une suite d’ensembles intégrables, deux à deux sans point commun, et telle que $\sum_{n=1}^\infty |\mu|(A_n) < +\infty$; on a alors
 (18)
@@ -370,36 +370,36 @@ On exprime encore la relation (18) en disant que la mesure $\mu$ est complèteme
 
 ### 6. Critères d’intégrabilité d’un ensemble
 
-#### Proposition 10 {#int-iv-s4-prop-10 .statement}
+#### Proposition 10 {#int-iv-s4-prop-10 .statement tag=08SS}
 
 Pour qu’un ensemble A ouvert (resp. fermé) dans X soit intégrable, il faut et il suffit que $|\mu|^*(A) < +\infty$.
 Comme $\varphi_A$ est alors semi-continue inférieurement (resp. supérieurement), la proposition résulte de la prop. 5 du n° 4 et de son corollaire 1.
 
-#### Corollaire 1 {#int-iv-s4-prop-10-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s4-prop-10-cor-1 .statement tag=08ST}
 
 Tout ensemble compact est intégrable; tout ensemble ouvert relativement compact est intégrable.
 
-#### Corollaire 2 {#int-iv-s4-prop-10-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s4-prop-10-cor-2 .statement tag=08SU}
 
 Pour toute mesure positive $\mu$ sur X, $A \mapsto \mu^*(A)$ est une capacité sur X (cf. Top. gén., chap. IX, 2e éd., § 6, n° 9, Exemple).
 
-#### Exemple {#int-iv-s4-n6-exa-1 .statement}
+#### Exemple {#int-iv-s4-n6-exa-1 .statement tag=08SV}
 
 Pour la mesure de Lebesgue $\mu$ sur $\mathbf{R}$, il résulte de la prop. 10 que tout intervalle ouvert borné $]a, b[$ est intégrable et a pour mesure $b - a$ (§ 1, n° 2, prop. 9). Comme tout ensemble réduit à un point est négligeable pour la mesure de Lebesgue, on déduit de là que tous les intervalles d’extrémités $a$ et $b$ ont même mesure $b - a$.
 
-#### Proposition 11 {#int-iv-s4-prop-11 .statement}
+#### Proposition 11 {#int-iv-s4-prop-11 .statement tag=08SW}
 
 *Soit $\mathscr{G}$ un ensemble, filtrant pour la relation $\subset$, d’ensembles ouverts intégrables de $X$; pour que $A = \bigcup_{G \in \mathscr{G}} G$ soit intégrable, il faut et il suffit que $\sup_{G \in \mathscr{G}} |\mu|(G) < +\infty$, et l’on a alors $\mu(A) = \lim_{\mathscr{G}} \mu(G)$ et $|\mu|(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$.*
 
 On sait en effet que $|\mu|^*(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$ (§ 1, n° 2, prop. 7); la proposition résulte donc de la prop. 10.
 
-#### Corollaire {#int-iv-s4-n6-cor-1 .statement}
+#### Corollaire {#int-iv-s4-n6-cor-1 .statement tag=08SX}
 
 *Soit $\mathfrak{F}$ un ensemble, filtrant pour la relation $\supset$, d’ensembles fermés intégrables dans $E$; l’ensemble fermé $B = \bigcap_{H \in \mathfrak{F}} H$ est intégrable, et l’on a $\mu(B) = \lim_{\mathfrak{F}} \mu(H)$ et $|\mu|(B) = \inf_{H \in \mathfrak{F}} |\mu|(H)$.*
 
 En effet, soit $H_0$ un ensemble de $\mathfrak{F}$; comme $H_0$ est intégrable, il est contenu dans un ensemble ouvert intégrable $U$ (§ 1, n° 4, prop. 19); les ensembles ouverts $U \cap \overline{CH}$ forment un ensemble filtrant pour la relation $\subset$, contenus dans $U$ et dont la réunion est $U \cap \overline{CB}$; on est donc ramené à la prop. 11.
 
-#### Théorème 4 {#int-iv-s4-thm-4 .statement}
+#### Théorème 4 {#int-iv-s4-thm-4 .statement tag=08SY}
 
 *Pour qu’un ensemble $A$ soit intégrable, il faut et il suffit que, pour tout $\varepsilon > 0$, il existe un ensemble ouvert intégrable $G$ et un ensemble compact $K$, tels que $K \subset A \subset G$ et que*
 
@@ -425,7 +425,7 @@ $$
 
 ce qui achève la démonstration, puisque $\delta$ est arbitraire.
 
-#### Corollaire 1 {#int-iv-s4-thm-4-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s4-thm-4-cor-1 .statement tag=08SZ}
 
 Pour qu’un ensemble A soit intégrable, il faut et il suffit que, pour tout $\varepsilon > 0$, il existe un ensemble compact $K \subset A$ tel que $|\mu|^*(A - K) \leq \varepsilon$. La mesure $|\mu|(A)$ est alors la borne supérieure de l’ensemble des mesures $|\mu|(K)$ des ensembles compacts $K \subset A$.
 
@@ -437,7 +437,7 @@ $$
 
 La condition est suffisante, car elle exprime que, pour la topologie de la convergence en moyenne, $\varphi_A$ est adhérente à l’ensemble des fonctions intégrables $\varphi_K$ (K partie compacte arbitraire de A).
 
-#### Corollaire 2 {#int-iv-s4-thm-4-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s4-thm-4-cor-2 .statement tag=08T0}
 
 Pour tout ensemble intégrable A, il existe :
 
@@ -448,13 +448,13 @@ Pour tout ensemble intégrable A, il existe :
 
 2° Définissons les ensembles compacts $K_n$ par récurrence de la façon suivante : $K_1 \subset A$ et $|\mu|(A - K_1) \leq 1$; $K_n \subset A - \left( \bigcup_{i=1}^{n-1} K_i \right)$, et $|\mu|(A \cap C \left( \bigcup_{i=1}^{n-1} K_i \right) \cap C K_n) \leq \frac{1}{n}$ pour $n > 1$ (th. 4); si $A_2$ est la réunion des $K_n$, on a $|\mu|(A_2) = |\mu|(A)$ (n° 5, prop. 8), donc $A - A_2$ est négligeable.
 
-#### Corollaire 3 {#int-iv-s4-thm-4-cor-3 .statement}
+#### Corollaire 3 {#int-iv-s4-thm-4-cor-3 .statement tag=08T1}
 
 Tout ensemble de mesure extérieure finie est contenu dans la réunion d’un ensemble négligeable et d’une famille dénombrable d’ensembles compacts, deux à deux sans point commun, dont la somme des mesures est finie.
 
 Il suffit d’appliquer le cor. 2 à un ensemble ouvert intégrable contenant l’ensemble donné.
 
-#### Corollaire 4 {#int-iv-s4-thm-4-cor-4 .statement}
+#### Corollaire 4 {#int-iv-s4-thm-4-cor-4 .statement tag=08T2}
 
 Pour tout ensemble ouvert $U$ dans $E$, $|\mu|^*(U)$ est la borne supérieure des mesures $|\mu|(K)$ des ensembles compacts $K \subset U$.
 
@@ -467,7 +467,7 @@ $$
 
 ### 7. Caractérisation des mesures bornées
 
-#### Proposition 12 {#int-iv-s4-prop-12 .statement}
+#### Proposition 12 {#int-iv-s4-prop-12 .statement tag=08T3}
 
 Pour qu’une mesure $\mu$ sur un espace localement compact $X$ soit bornée (chap. III, § 1, n° 8), il faut et il suffit que $X$ soit un ensemble intégrable pour $\mu$ (ou, ce qui revient au même, que toute fonction constante finie soit intégrable); on a alors
 $$
@@ -479,7 +479,7 @@ Pour toute mesure bornée $\mu$, on dit encore que $\mu(X)$ est la masse totale 
 
 Il résulte du th. 4 n° 5 que si $\mu$ est une mesure bornée, pour tout $\varepsilon > 0$, il existe un ensemble compact $K$ tel que $|\mu|(C K) \leq \varepsilon$.
 
-#### Proposition 13 {#int-iv-s4-prop-13 .statement}
+#### Proposition 13 {#int-iv-s4-prop-13 .statement tag=08T4}
 
 Soit $\mu$ une mesure bornée sur $X$. Soit $\mathscr{B}$ une base de filtre sur $\mathscr{L}_F^p$, ayant les propriétés suivantes :
 1° il existe un ensemble $M \in \mathscr{B}$ tel que les fonctions $f \in M$ soient uniformément bornées dans $X$;
@@ -491,7 +491,7 @@ f - f_0 = (f - f_0)\varphi_K + (f - f_0)\varphi_{C K};
 $$
 il résulte de ce qui précède que, si $f \in M \cap N$, on a $N_p((f - f_0)\varphi_K) \leq \varepsilon$ et $N_p((f - f_0)\varphi_{C K}) \leq 2a\varepsilon$, d’où $N_p(f - f_0) \leq (2a + 1)\varepsilon$, ce qui démontre la proposition.
 
-#### Corollaire {#int-iv-s4-n7-cor-1 .statement}
+#### Corollaire {#int-iv-s4-n7-cor-1 .statement tag=08T5}
 
 Pour une mesure $\mu$ bornée sur $X$, toute application $f$ continue et bornée de $X$ dans $F$ appartient à chacun des $\mathscr{L}_F^p (1 \leq p < +\infty)$.
 En effet, pour toute partie compacte $K$ de $X$, soit $M_K$ l’ensemble des applications de $X$ dans $F$ de la forme $h f$, où $h$ est une application continue de $X$ dans $\{0, 1\}$ égale à 1 dans $K$ et à support compact. Il est clair que les ensembles $M_K$ forment dans $\mathscr{L}_F^p$ une base de filtre $\mathscr{B}$, que les fonctions appartenant à $M_K$ sont uniformément bornées, et que $\mathscr{B}$ converge uniformément vers $f$ dans toute partie compacte de $X$, d’où le corollaire.
@@ -534,7 +534,7 @@ $$
 
 En particulier si $f$ est continue dans $X$, $f$ est $\mu$-intégrable puisque $fh \in \mathscr{K}(X; F)$ pour toute fonction $h \in \mathscr{K}(X; \mathbf{R})$ égale à 1 dans $S$ (chap. III, § 1, n° 2, lemme 1). Plus précisément :
 
-#### Proposition 14 {#int-iv-s4-prop-14 .statement}
+#### Proposition 14 {#int-iv-s4-prop-14 .statement tag=08T6}
 
 Soient $X$ un espace localement compact, $F$ un espace de Banach non réduit à 0 ; on munit l’espace $C(X; F)$ de toutes les applications continues de $X$ dans $F$ de la topologie de la convergence compacte. Pour qu’une mesure $\mu$ sur $X$ soit telle que l’application linéaire $f \mapsto \int f d\mu$ de $\mathscr{K}(X; F)$ dans $X$ se prolonge en une application linéaire continue de $C(X; F)$ dans $F$, il faut et il suffit que $\mathrm{Supp}(\mu)$ soit compact ; un tel prolongement est unique et coïncide avec l’intégrale définie au n° 1.
 
@@ -546,7 +546,7 @@ Nous considérerons surtout sur $\mathscr{C}'(X; C)$ la topologie de la *converg
 1° $H$ est équicontinue ;
 2° pour tout $x \in X$, l’ensemble $H(x)$ des $f(x)$, où $f$ parcourt $H$, est borné dans $C$.
 
-#### Proposition 15 {#int-iv-s4-prop-15 .statement}
+#### Proposition 15 {#int-iv-s4-prop-15 .statement tag=08T7}
 
 *Soient* $X$ *un espace localement compact et, pour tout* $x \in X$, *soit* $\varepsilon_x$ *la mesure de Dirac au point* $x$. *L’application* $x \mapsto \varepsilon_x$ *de* $X$ *dans* $\mathscr{C}'(X; C)$ *est continue pour la topologie de la convergence compacte sur* $\mathscr{C}'(X; C)$.
 
@@ -558,19 +558,19 @@ $$
 
 et prouve la proposition.
 
-#### Proposition 16 {#int-iv-s4-prop-16 .statement}
+#### Proposition 16 {#int-iv-s4-prop-16 .statement tag=08T8}
 
 *Soient K une partie compacte de X, L l’espace vectoriel des mesures $\mu$ sur X de support contenu dans K. Sur L, les topologies induites par la topologie $\mathscr{T}$ de la convergence compacte sur $\mathscr{C}'(X; \mathbf{C})$ et la topologie $\mathscr{T}'$ de la convergence strictement compacte sur $\mathscr{M}(X; \mathbf{C})$ (chap. III, § 1, n° 10) coïncident.*
 
 Il est clair que sur L, la topologie induite par $\mathscr{T}$ est plus fine que la topologie induite par $\mathscr{T}'$. Inversement, soient H une partie compacte de $\mathscr{C}(X; \mathbf{C})$, h une fonction de $\mathscr{K}(X; \mathbf{C})$ égale à 1 dans K. Il est clair que l’ensemble H’ des fonctions $fh$, où $f$ parcourt H, est strictement compact dans $\mathscr{K}(X; \mathbf{C})$, et, pour toute mesure $\mu \in L$, on a $\mu(f) = \mu(fh)$ pour toute fonction $f \in H$, d’où la conclusion.
 
-#### Corollaire 1 {#int-iv-s4-prop-16-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s4-prop-16-cor-1 .statement tag=08T9}
 
 *Pour toute partie compacte K de X et tout nombre $a > 0$, l’ensemble B des mesures $\mu$ sur X telles que $\mathrm{Supp}(\mu) \subset K$ et $\| \mu \| \leq a$ est une partie équicontinue de $\mathscr{C}'(X; \mathbf{C})$, qui est compacte pour la topologie $\mathscr{T}$ de la convergence compacte.*
 
 En effet, soit H une partie de $\mathscr{C}(X; \mathbf{C})$, formée de fonctions uniformément bornées dans K ; il existe un nombre $c > 0$ tel que $|\mu(f)| \leq c.\| \mu \| \leq ac$ pour toute fonction $f \in H$ et toute mesure $\mu \in B$, en vertu de (22) ; on a donc $B \subset acH^0$ dans le dual $\mathscr{C}'(X; \mathbf{C})$ de $\mathscr{C}(X; \mathbf{C})$, ce qui prouve l’équicontinuité de B ; le fait que B est compact pour $\mathscr{T}$ résulte de ce que, sur B, $\mathscr{T}$ et la topologie vague induisent la même topologie (prop. 16 et chap. III, § 1, n° 10, prop. 17) et du fait que B est vaguement compact (chap. III, § 1, n° 9, cor. 2 de la prop. 15 et § 2, n° 2, prop. 6).
 
-#### Corollaire 2 {#int-iv-s4-prop-16-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s4-prop-16-cor-2 .statement tag=08TA}
 
 *Toute mesure à support compact (resp. positive à support compact) $\mu$ est adhérente dans $\mathscr{C}'(X; \mathbf{C})$, pour la topologie $\mathscr{T}$ de la convergence compacte, à l’ensemble des mesures (resp. des mesures positives) dont le support est fini et contenu dans $\mathrm{Supp}(\mu)$ et dont la norme est égale à $\| \mu \|$.*
 
@@ -582,11 +582,11 @@ la topologie induite par la topologie vague est identique à la topologie induit
 
 ### 9. Clans et fonctions additives d’ensemble
 
-#### Définition 3 {#int-iv-s4-def-3 .statement}
+#### Définition 3 {#int-iv-s4-def-3 .statement tag=08TB}
 
 On dit qu’un ensemble non vide $\Phi$ de parties d’un ensemble A est un clan s’il existe une algèbre $\mathscr{A}$ (sur $\mathbf{R}$) formée de fonctions numériques finies, définies dans A, telle que les relations $M \in \Phi$ et $\varphi_M \in \mathscr{A}$ soient équivalentes.
 
-#### Exemple {#int-iv-s4-n9-exa-1 .statement}
+#### Exemple {#int-iv-s4-n9-exa-1 .statement tag=08TC}
 
 Si $\mu$ est une mesure sur un espace localement compact X, les combinaisons linéaires à coefficients réels de fonctions caractéristiques d’ensembles intégrables forment une algèbre $\mathscr{A}$, car pour deux ensembles intégrables M, N,
 $$
@@ -594,7 +594,7 @@ $$
 $$
 est intégrable (n° 5, prop. 7); il résulte alors des déf. 2 et 3 que l’ensemble des parties intégrables de X est un clan.
 
-#### Proposition 17 {#int-iv-s4-prop-17 .statement}
+#### Proposition 17 {#int-iv-s4-prop-17 .statement tag=08TD}
 
 Pour qu’un ensemble non vide $\Phi$ de parties d’un ensemble A soit un clan, il faut et il suffit qu’il satisfasse à la condition suivante:
 (CL) Pour tout couple d’ensembles M, N appartenant à $\Phi$, les ensembles $M \cup N$ et $M \cap \mathbf{C} N$ appartiennent à $\Phi$.
@@ -608,7 +608,7 @@ Pour montrer qu’elle est suffisante, remarquons d’abord qu’elle entraîne 
 
 Cela va résulter du lemme suivant:
 
-#### Lemme 1 {#int-iv-s4-lem-1 .statement}
+#### Lemme 1 {#int-iv-s4-lem-1 .statement tag=0E66}
 
 Soit $\Phi$ un ensemble non vide de parties de A satisfaisant à l’axiome (CL). Etant donnée une famille finie $(M_i)_{1 \leq i \leq n}$ d’ensembles de $\Phi$, il existe une famille finie $(N_j)_{1 \leq j \leq m}$ d’ensembles de $\Phi$, deux à deux sans point commun, telle que chacun des $M_i$ soit réunion d’un certain nombre des $N_j$.
 
@@ -618,7 +618,7 @@ Ce lemme étant établi, toute fonction de la forme $\sum_{i=1}^n c_i \varphi_{M
 
 Tout clan $\Phi$ de parties de $A$ contient la partie vide $\emptyset$ de $A$; en effet, il existe au moins une partie $M \in \Phi$, donc $M - M = \emptyset$ appartient à $\Phi$. On notera d’ailleurs que l’ensemble de parties de $A$ réduit à la seule partie $\emptyset$ est un clan.
 
-#### Définition 4 {#int-iv-s4-def-4 .statement}
+#### Définition 4 {#int-iv-s4-def-4 .statement tag=08TF}
 
 Etant donné un clan $\Phi$ de parties d’un ensemble $A$, et un espace de Banach $F$, on appelle fonction étagée sur les ensembles de $\Phi$ (ou fonction $\Phi$-étagée), à valeurs dans $F$, toute fonction de la forme $\sum_i a_i \varphi_{M_i}$, où les $a_i$ appartiennent à $F$, et les $M_i$ à $\Phi$.
 
@@ -626,17 +626,17 @@ Il est clair que l’ensemble $\mathscr{E}_F(\Phi)$ des fonctions $\Phi$-étagé
 
 Toute fonction de $\mathscr{E}_F(\Phi)$ peut s’écrire $f = \sum_j c_j \varphi_{N_j}$, où les $N_j \in \Phi$ sont deux à deux sans point commun, en raison du lemme 1 ; on en déduit que $|f| = \sum_j |c_j| \varphi_{N_j}$ appartient à $\mathscr{E}(\Phi)$. En particulier, $\mathscr{E}(\Phi)$ est un espace de Riesz, l’enveloppe supérieure de deux fonctions de $\mathscr{E}(\Phi)$ appartenant à $\mathscr{E}(\Phi)$.
 
-#### Remarque {#int-iv-s4-n9-rem-1 .statement}
+#### Remarque {#int-iv-s4-n9-rem-1 .statement tag=08TG}
 
 On voit aisément que la déf. 4 est équivalente à la suivante : une fonction $\Phi$-étagée à valeurs dans $F$ est une fonction $f$ qui ne prend qu’un nombre fini de valeurs et qui est telle que, pour tout $a \neq 0$ dans $F$, l’ensemble $\overline{f(a)}$ appartienne à $\Phi$.
 
-#### Définition 5 {#int-iv-s4-def-5 .statement}
+#### Définition 5 {#int-iv-s4-def-5 .statement tag=08TH}
 
 On dit qu’une fonction numérique finie $\lambda$, définie dans un clan $\Phi$ de parties d’un ensemble $A$, est additive, si, pour tout couple d’ensembles $M, N$ sans point commun et appartenant à $\Phi$, on a $\lambda(M \cup N) = \lambda(M) + \lambda(N)$.
 
 Il résulte en particulier de cette définition que $\lambda(\emptyset) = 0$.
 
-#### Proposition 18 {#int-iv-s4-prop-18 .statement}
+#### Proposition 18 {#int-iv-s4-prop-18 .statement tag=08TI}
 
 Soit $\lambda$ une fonction additive d’ensemble, définie dans un clan $\Phi$. Il existe une forme linéaire et une seule (notée encore $\lambda$) sur l’espace vectoriel $\mathscr{E}(\Phi)$ des fonctions $\Phi$-étagées numériques finies, telle que $\lambda(\varphi_M) = \lambda(M)$ pour tout ensemble $M \in \Phi$; en outre, si $\lambda(M) \geq 0$ pour tout $M \in \Phi$, $\lambda$ est une forme linéaire positive sur $\mathscr{E}(\Phi)$.
 
@@ -650,25 +650,25 @@ ce qui démontre l’existence de $\lambda$. Supposons enfin que $\lambda(M) \ge
 
 ### 10. Approximation des fonctions continues par les fonctions étagées
 
-#### Proposition 19 {#int-iv-s4-prop-19 .statement}
+#### Proposition 19 {#int-iv-s4-prop-19 .statement tag=08TJ}
 
 *Soient X un espace localement compact, $\Phi$ un clan de parties de X, contenant l’ensemble des parties compactes de X. Pour toute application continue $f$ de X dans un espace de Banach F (resp. toute fonction numérique $f$ finie, continue et $\geqslant 0$ dans X), à support compact K, il existe une suite $(g_n)$ de fonctions de $\mathscr{E}_F(\Phi)$, dont le support est contenu dans K (resp. une suite $(g_n)$ de fonctions de $\mathscr{E}(\Phi)$, telle que $0 \leqslant g_n \leqslant f$ pour tout n), qui converge uniformément vers $f$ (resp. $f$).
 
 En effet, comme $f$ est uniformément continue dans K, on peut recouvrir K par un nombre fini d’ensembles compacts $M_i$ ($1 \leqslant i \leqslant m$) tels que l’oscillation de $f$ dans chacun des $M_i$ soit $\leqslant 1/n$. Comme les $M_i$ et K appartiennent à $\Phi$, il existe une partition de K en ensembles $N_j \in \Phi$ tels que chacun des ensembles $M_i \cap K$ soit réunion d’un certain nombre des $N_j$ (n° 9, lemme 1). Soit $a_j$ un élément de F tel que $|f(x) - a_j| \leqslant 1/n$ dans $N_j$. Si on pose $g_n = \sum_j a_j \varphi_{N_j}$, on a $|f - g_n| \leqslant 1/n$, d’où la proposition dans ce cas. On raisonne de même pour une fonction continue numérique $f$, en prenant $a_j = \inf_{x \in N_j} f(x)$, et $g_n = \sum_j a_j \varphi_{N_j}$.
 
-#### Corollaire 1 {#int-iv-s4-prop-19-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s4-prop-19-cor-1 .statement tag=08TK}
 
 *Soit $\mu$ une mesure positive sur X; l’espace $\mathscr{E}_F(\Phi)$ est partout dense dans chacun des espaces $\mathscr{L}_F^p$ ($1 \leqslant p < +\infty$).
 
 En effet, il résulte de la prop. 19 et du critère de convergence en moyenne pour les limites uniformes de fonctions à support compact ($§ 3$, n° 3, prop. 4) que $\mathscr{E}_F(\Phi)$ est dense, pour la topologie de la convergence en moyenne d’ordre $p$, dans l’adhérence de l’espace $\mathscr{K}_F$ des fonctions continues à support compact; d’où le corollaire.
 
-#### Corollaire 2 {#int-iv-s4-prop-19-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s4-prop-19-cor-2 .statement tag=08TL}
 
 *Pour toute partie fermée S de X, toute fonction $f \in \mathscr{K}(X, S; \mathbf{C})$ est limite uniforme de combinaisons linéaires $\sum_i \lambda_i \varphi_{K_i}$, où les $\lambda_i$ appartiennent à $\mathbf{C}$ et les $K_i$ sont des parties compactes de S.*
 
 En effet, l’ensemble $\mathscr{A}$ des combinaisons linéaires considérées est une $\mathbf{C}$-algèbre. Soit $\Phi$ l’ensemble des parties $M$ de $X$ telles que $\varphi_M \in \mathscr{A}$; $\Phi$ est donc un *clan* dont tous les éléments sont des parties de $S$, contenant les parties compactes de $S$, et l’on a $\mathscr{E}_c(\Phi) \subset \mathscr{A}$. Il suffit alors d’appliquer la prop. 19 à l’espace localement compact $S$ et au clan $\Phi$.
 
-#### Corollaire 3 {#int-iv-s4-prop-19-cor-3 .statement}
+#### Corollaire 3 {#int-iv-s4-prop-19-cor-3 .statement tag=08TM}
 
 *Si $\mu$ et $\nu$ sont deux mesures sur $X$ telles que $\mu(K) = \nu(K)$ pour toute partie compacte $K$ de $X$, on a $\mu = \nu$.*
 En effet, il résulte du cor. 2 et de la définition d’une mesure que pour toute partie compacte $S$ de $X$, $\mu$ et $\nu$ prennent les mêmes valeurs dans $\mathscr{K}(X, S ; \mathbf{C})$.
@@ -689,7 +689,7 @@ Nous supposerons en outre que la fonction $\alpha$, définie dans $\Phi$, vérif
 
 En prenant $N = \emptyset$ dans la condition (PM$_3$), on en déduit que $\alpha(\emptyset) = 0$; la condition (PM$_1$) montre alors que $\alpha(M) \geqslant 0$ pour tout $M \in \Phi$.
 
-#### Théorème 5 {#int-iv-s4-thm-5 .statement}
+#### Théorème 5 {#int-iv-s4-thm-5 .statement tag=08TN}
 
 Soit $\Phi$ un ensemble de parties d’un espace localement compact $X$, satisfaisant à $(\mathrm{PC}_I)$ et $(\mathrm{PC}_{II})$, et soit $\alpha$ une fonction numérique finie, définie dans $\Phi$, satisfaisant aux conditions $(\mathrm{PM}_I)$, $(\mathrm{PM}_{II})$ et $(\mathrm{PM}_{III})$. Pour qu’il existe une mesure positive $\mu$ sur $X$, telle que les ensembles de $\Phi$ soient $\mu$-intégrables et que l’on ait $\mu(M) = \alpha(M)$ pour tout $M \in \Phi$, il faut et il suffit que $\alpha$ vérifie en outre la condition suivante :
 
@@ -827,7 +827,7 @@ La caractérisation des ensembles ouverts appartenant à $\bar{\Phi}$, jointe au
 
 Le théorème 5 est ainsi complètement démontré.
 
-#### Corollaire {#int-iv-s4-n11-cor-1 .statement}
+#### Corollaire {#int-iv-s4-n11-cor-1 .statement tag=08TO}
 
 Soient X un espace localement compact à base dénombrable, $\Psi$ l’ensemble des parties boréliennes de X, $\beta$ une application de $\Psi$ dans $[0, +\infty]$ satisfaisant aux conditions suivantes:
 

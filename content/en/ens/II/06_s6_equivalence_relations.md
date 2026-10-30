@@ -50,7 +50,7 @@ subsections:
       pdf_page: 128
 statements: 13
 exercises: 11
-content_sha256: e6575e4e849279138a1a581ab84cb1b482758b417a93c62ef93c5b5e7766db0c
+content_sha256: f7ce72a4dfc4c2df0edb07393e9d9b7234a3b676d35f6cff417c9f89092d2c5a
 ---
 
 ## 6. EQUIVALENCE RELATIONS
@@ -73,7 +73,7 @@ Hence $R\{x, y\}$ and $R\{y, x\}$ are equivalent.
 
 $$(R\{x, y\} \text{ and } R\{y, z\}) \Rightarrow R\{x, z\}.$$
 
-#### Example {#ens-ii-s6-n1-exa-7 .statement}
+#### Example {#ens-ii-s6-n1-exa-7 .statement tag=077S}
 
 The relation $x = y$ is symmetric and transitive. The relation $X \subset Y$ is transitive but not symmetric. The relation $X \cap Y = \emptyset$ is symmetric but not transitive.
 

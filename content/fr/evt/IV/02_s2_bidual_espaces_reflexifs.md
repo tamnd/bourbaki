@@ -33,20 +33,20 @@ subsections:
       pdf_page: 204
 statements: 34
 exercises: 26
-content_sha256: 409f0178949adcf6cacb5ee7ac76fcfd85740bd4b2659ccc107f65ea977bfee7
+content_sha256: f9997d2c6ef73bb9c9866ffc41721482652c2bddd9cf92170cffc3aad585457e
 ---
 
 ## § 2. BIDUAL. ESPACES RÉFLEXIFS
 
 ### 1. Bidual
 
-#### Définition 1 {#evt-iv-s2-def-1 .statement}
+#### Définition 1 {#evt-iv-s2-def-1 .statement tag=07S8}
 
 *Soient* $E$ *un espace localement convexe et* $E'_b$ *son dual fort*. *On appelle bidual de* $E$, *et l’on note* $E''$, *le dual de l’espace localement convexe* $E'_b$.
 
 Pour tout $x \in E$, notons $\tilde{x}$ la forme linéaire $x' \mapsto \langle x, x' \rangle$ sur $E'$ : elle est continue pour la topologie faible $\sigma(E', E)$, donc *a fortiori* pour la topologie forte sur $E'$; on a donc $\tilde{x} \in E''$ pour tout $x \in E$. L’application $c_E : x \mapsto \tilde{x}$ de $E$ dans $E''$ est une application linéaire, dite *canonique*.
 
-#### Proposition 1 {#evt-iv-s2-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s2-prop-1 .statement tag=07S9}
 
 *Le noyau de* $c_E : E \to E''$ *est l’adhérence de* 0 *dans* $E$. *Si* $E$ *est séparé*, $c_E$ *est injective*.
 
@@ -56,19 +56,19 @@ Lorsque $E$ est séparé, on identifie $E$ à un sous-espace de $E''$ grâce à 
 
 La topologie *forte* sur $E''$ est la $\mathscr{S}$-topologie, où $\mathscr{S}$ est l’ensemble des parties fortement bornées de $E'$. Comme toute partie équicontinue de $E'$ est fortement bornée (III, p. 22, prop. 9), la topologie initiale sur $E$ est *moins fine* que la topologie image réciproque par $c_E$ de la topologie forte de $E''$; elle peut être strictement moins fine (IV, p. 52, exerc. 1). Toutefois :
 
-#### Proposition 2 {#evt-iv-s2-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s2-prop-2 .statement tag=07SA}
 
 *Supposons l’espace* $E$ *bornologique ou tonnelé*. *La topologie initiale sur* $E$ *est image réciproque par* $c_E$ *de la topologie forte sur* $E''$.
 
 En effet, toute partie de $E'$ qui est fortement bornée est équicontinue (III, p. 22, prop. 10 et III, p. 24).
 
-#### Proposition 3 {#evt-iv-s2-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s2-prop-3 .statement tag=07SB}
 
 Soit E un espace localement convexe séparé. Pour que le dual fort $E'_b$ de E soit tonnelé, il faut et il suffit que toute partie de $E''$ bornée pour $\sigma(E'', E')$ soit contenue dans l’adhérence pour $\sigma(E'', E')$ d’une partie bornée de E.
 
 En effet, les parties équicontinues de $E''$ sont les parties contenues dans le bipolaire (pour la dualité entre $E''$ et $E'$) d’une partie bornée du sous-espace E de $E''$. Il suffit donc d’appliquer le th. des bipolaires (II, p. 49, cor. 3) et la définition d’un espace tonnelé (III, p. 24).
 
-#### Remarque {#evt-iv-s2-n1-rem-1 .statement}
+#### Remarque {#evt-iv-s2-n1-rem-1 .statement tag=07SC}
 
 Soient E un espace localement convexe séparé, $E'$ son dual et $E''$ son bidual. On a $E \subset E'' \subset {E'}^*$, où ${E'}^*$ est le dual algébrique de $E'$. Si B est une partie bornée de E, son adhérence $\overline{B}$ dans ${E'}^*$ muni de $\sigma({E'}^*, E')$ est contenue dans $E''$ : en effet, le polaire $U = B^\circ$ de B dans $E'$ est un voisinage de 0 dans $E'_b$, et l’on a
 $$
@@ -77,13 +77,13 @@ $$
 
 ### 2. Espaces semi-réflexifs
 
-#### Définition 2 {#evt-iv-s2-def-2 .statement}
+#### Définition 2 {#evt-iv-s2-def-2 .statement tag=07SD}
 
 Soit E un espace localement convexe. On dit que E est semi-réflexif si l’application canonique $c_E$ de E dans $E''$ est bijective.
 
 Cela signifie que E est séparé, et que toute forme linéaire sur $E'$, continue pour la topologie forte $\beta(E', E)$, est de la forme $x' \mapsto \langle x, x' \rangle$ avec $x \in E$, c’est-à-dire continue pour la topologie faible $\sigma(E', E)$.
 
-#### Théorème 1 {#evt-iv-s2-thm-1 .statement}
+#### Théorème 1 {#evt-iv-s2-thm-1 .statement tag=07SE}
 
 Un espace localement convexe séparé E est semi-réflexif si et seulement si toute partie bornée de E est relativement compacte pour la topologie affaiblie $\sigma(E, E')$. Si E est semi-réflexif, le dual fort $E'_b$ de E est tonnelé.
 
@@ -91,47 +91,47 @@ La deuxième assertion résulte de la prop. 3 (IV, p. 15), et de l’identité e
 
 Dire que E est semi-réflexif signifie que la topologie de $E'_b$ est compatible avec la dualité entre E et $E'$, autrement dit, par le th. de Mackey (IV, p. 2, th. 1) que la topologie de $E'_b$ est moins fine que $\tau(E', E)$ (et en fait lui est identique) ; par définition (IV, p. 2), cela signifie que toute partie convexe fermée et bornée de E est compacte pour $\sigma(E, E')$, et cela équivaut à dire que toute partie bornée de E est relativement compacte pour $\sigma(E, E')$, puisque l’enveloppe convexe fermée d’une partie bornée de E est bornée (III, p. 3, prop. 1).
 
-#### Corollaire {#evt-iv-s2-n2-cor-1 .statement}
+#### Corollaire {#evt-iv-s2-n2-cor-1 .statement tag=07SF}
 
 Soit E un espace localement convexe semi-réflexif. Tout sous-espace vectoriel fermé M de E est semi-réflexif; de plus, la topologie forte sur $E'/M^\circ$ (considéré comme dual de M) est quotient de la topologie forte de $E'$.
 
 Soit B une partie bornée de M. Comme B est bornée dans E, et que la topologie affaiblie $\sigma(M, M')$ est induite par $\sigma(E, E')$ sur M (IV, p. 10, prop. 11), l’adhérence de B dans M muni de $\sigma(M, M')$ est compacte. Donc M est semi-réflexif d’après le th. 1. La dernière assertion du corollaire résulte de la prop. 10 de IV, p. 9, appliquée à l’ensemble $\mathfrak{S}$ de toutes les parties convexes, fermées et bornées de E.
 
-#### Remarque 1 {#evt-iv-s2-n2-rem-1 .statement}
+#### Remarque 1 {#evt-iv-s2-n2-rem-1 .statement tag=07SG}
 
 Supposons E semi-réflexif. Toute partie de E qui est convexe, bornée et fermée pour la topologie initiale est compacte pour la topologie $\sigma(E, E')$ (IV, p. 1, prop. 1). \* Par contre, la sphère unité (d’équation $\|x\| = 1$) d’un espace hilbertien E de dimension infinie est bornée et fermée pour la topologie initiale, mais elle n’est pas fermée pour la topologie affaiblie, bien que E soit semi-réflexif. \*
 
-#### Remarque 2 {#evt-iv-s2-n2-rem-2 .statement}
+#### Remarque 2 {#evt-iv-s2-n2-rem-2 .statement tag=07SH}
 
 D’après la remarque 3 de IV, p. 5, on peut reformuler comme suit le th. 1 : l’espace séparé E est semi-réflexif si et seulement s’il est quasi-complet pour sa topologie affaiblie. S’il est semi-réflexif, il est donc quasi-complet pour sa topologie initiale (IV, p. 5, Remarque 2).
 
-#### Remarque 3 {#evt-iv-s2-n2-rem-3 .statement}
+#### Remarque 3 {#evt-iv-s2-n2-rem-3 .statement tag=07SI}
 
 Sous les hypothèses du corollaire ci-dessus, l’espace E/M n’est pas nécessairement semi-réflexif (IV, p. 64, exerc. 10).
 
 ### 3. Espaces réflexifs
 
-#### Définition 3 {#evt-iv-s2-def-3 .statement}
+#### Définition 3 {#evt-iv-s2-def-3 .statement tag=07SJ}
 
 On dit qu’un espace localement convexe E est réflexif si l’application canonique $c_E$ de E dans $E''$ est un isomorphisme d’espaces vectoriels topologiques de E sur le dual fort de $E'_b$.
 En particulier, un espace réflexif est semi-réflexif, donc séparé.
 
-#### Proposition 4 {#evt-iv-s2-prop-4 .statement}
+#### Proposition 4 {#evt-iv-s2-prop-4 .statement tag=07SK}
 
 Le dual fort d’un espace réflexif est réflexif.
 Cela résulte aussitôt de la déf. 3.
 
-#### Théorème 2 {#evt-iv-s2-thm-2 .statement}
+#### Théorème 2 {#evt-iv-s2-thm-2 .statement tag=07SL}
 
 Pour qu’un espace localement convexe séparé E soit réflexif, il faut et il suffit qu’il soit tonnelé et que toute partie bornée de E soit relativement compacte pour la topologie affaiblie $\sigma(E, E')$.
 D’après le th. 1 (IV, p. 15), il revient au même de dire que E est réflexif si et seulement s’il est semi-réflexif et tonnelé.
 Si E est réflexif, $E'_b$ est réflexif (prop. 4) et par suite E est tonnelé (IV, p. 15, th. 1). Réciproquement, si E est semi-réflexif et tonnelé, $c_E$ est une bijection et est bicontinue en vertu de IV, p. 14, prop. 2, donc E est réflexif.
 
-#### Remarque 1 {#evt-iv-s2-n3-rem-1 .statement}
+#### Remarque 1 {#evt-iv-s2-n3-rem-1 .statement tag=07SM}
 
 Soit E un espace hilbertien réel de dimension infinie. Notons F l’espace E muni de la topologie affaiblie. Les espaces E et F ont même dual E', et E est un espace de Banach réflexif (V, p. 16). Par suite, F est semi-réflexif. Cependant sur E, la topologie forte et la topologie affaiblie sont distinctes, donc F n’est pas réflexif. \*
 
-#### Remarque 2 {#evt-iv-s2-n3-rem-2 .statement}
+#### Remarque 2 {#evt-iv-s2-n3-rem-2 .statement tag=07SN}
 
 Soient E un espace réflexif et M un sous-espace vectoriel fermé de E. Il se peut que ni M, ni E/M, ne soient des espaces réflexifs (IV, p. 64, exerc. 10). \* Pour le cas des espaces normés, voir la prop. 7 de IV, p. 17. \*
 
@@ -152,31 +152,31 @@ $$
 
 D’après la prop. 8, (i) de IV, p. 7, l’application linéaire canonique $c_E : E \to E''$ est une isométrie. Nous identifierons désormais E à un sous-espace normé de son bidual E''.
 
-#### Proposition 5 {#evt-iv-s2-prop-5 .statement}
+#### Proposition 5 {#evt-iv-s2-prop-5 .statement tag=07SO}
 
 Soient E un espace normé, E' son dual et E'' son bidual. La boule unité (fermée) dans E'' est l’adhérence pour la topologie faible $\sigma(E'', E')$ de la boule unité B dans E.
 
 D’après la formules (1) et (2), la boule unité dans E'' est le bipolaire $B^{\circ \circ}$ de B. La prop. 5 résulte alors du th. des bipolaires (II, p. 49, cor. 3).
 
-#### Remarque {#evt-iv-s2-n4-rem-1 .statement}
+#### Remarque {#evt-iv-s2-n4-rem-1 .statement tag=07SP}
 
 Un espace de Banach E est fermé dans son bidual E'' pour la topologie forte, mais dense pour la topologie faible (prop. 5).
 
 Pour qu’un espace normé soit réflexif, il faut et il suffit qu’il soit semi-réflexif ; en effet, la topologie initiale de E est toujours induite par la topologie forte de E''. Le th. 1 (IV, p. 15) entraîne donc le résultat suivant :
 
-#### Proposition 6 {#evt-iv-s2-prop-6 .statement}
+#### Proposition 6 {#evt-iv-s2-prop-6 .statement tag=07SQ}
 
 Pour qu’un espace normé E soit réflexif, il faut et il suffit que la boule unité dans E soit compacte pour la topologie affaiblie $\sigma(E, E')$.
 
 On notera qu’un espace normé réflexif est complet, donc un espace de Banach, et que son dual est un espace de Banach réflexif d’après la prop. 4 de IV, p. 16.
 
-#### Proposition 7 {#evt-iv-s2-prop-7 .statement}
+#### Proposition 7 {#evt-iv-s2-prop-7 .statement tag=07SR}
 
 Soient E un espace de Banach réflexif et M un sous-espace vectoriel fermé de E. Alors M et E/M sont des espaces de Banach réflexifs.
 
 Soient E' le dual de E et M° l’orthogonal de M dans E'. On peut identifier comme espace normé E'/M° au dual M' de M (IV, p. 9, prop. 10). Comme M est semi-réflexif (IV, p. 15, corollaire), il est réflexif, donc aussi E'/M° ; de même M° est réflexif, ainsi que son dual $E/M^{\circ \circ} = E/M$.
 
-#### Exemple 1 {#evt-iv-s2-n4-exa-1 .statement}
+#### Exemple 1 {#evt-iv-s2-n4-exa-1 .statement tag=07SS}
 
 On note $\ell^\infty(\mathbf{N})$ l’espace de Banach des suites bornées $x = (x_n)_{n \in \mathbf{N}}$ de scalaires, avec la norme
 
@@ -198,41 +198,41 @@ $$
 
 pour $x \in c_0(\mathbf{N})$ et $x' \in \ell^1(\mathbf{N})$. De même, le dual de $\ell^1(\mathbf{N})$ s’identifie à $\ell^\infty(\mathbf{N})$ de sorte que l’on ait la relation (5) pour $x \in \ell^1(\mathbf{N})$ et $x' \in \ell^\infty(\mathbf{N})$. Donc $\ell^\infty(\mathbf{N})$ est le bidual de $c_0(\mathbf{N})$, et ce dernier n’est pas réflexif.
 
-#### Exemple 2 {#evt-iv-s2-n4-exa-2 .statement}
+#### Exemple 2 {#evt-iv-s2-n4-exa-2 .statement tag=0E58}
 
 \* Tout espace hilbertien est un espace de Banach réflexif (V, p.16).
 
-#### Exemple 3 {#evt-iv-s2-n4-exa-3 .statement}
+#### Exemple 3 {#evt-iv-s2-n4-exa-3 .statement tag=0E59}
 
 \* Soient X un espace topologique séparé et $\mu$ une mesure complexe sur X. Pour tout nombre réel $p > 1$, l’espace de Banach $L^p(X, \mu)$ est réflexif, et son dual s’identifie à $L^q(X, \mu)$ avec $p^{-1} + q^{-1} = 1$ (INT, V, 2e édit., § 5, no 8 et IX, § 1, no 10).
 
 ### 5. Espaces de Montel
 
-#### Définition 4 {#evt-iv-s2-def-4 .statement}
+#### Définition 4 {#evt-iv-s2-def-4 .statement tag=07ST}
 
 On appelle espace de Montel un espace localement convexe, tonnelé et séparé dans lequel toute partie bornée est relativement compacte.
 
-#### Exemple 1 {#evt-iv-s2-n5-exa-1 .statement}
+#### Exemple 1 {#evt-iv-s2-n5-exa-1 .statement tag=07SU}
 
 Tout espace séparé de dimension finie est un espace de Montel. Un espace normé qui est un espace de Montel est localement compact, donc de dimension finie (I, p. 15, th. 3).
 
-#### Exemple 2 {#evt-iv-s2-n5-exa-2 .statement}
+#### Exemple 2 {#evt-iv-s2-n5-exa-2 .statement tag=07SV}
 
 Reprenons les hypothèses et notations de la prop. 7 de III, p. 6. L’espace E est tonnelé comme limite inductive d’espaces de Banach (III, p. 25); de plus, toute partie bornée de E est relativement compacte (III, p. 6, prop. 7). Autrement dit, E est un espace de Montel.
 
 En particulier, les espaces de Gevrey (III, p. 10) sont des espaces de Montel. \* Il en est de même de l’espace $\mathscr{H}(K)$ des germes de fonctions analytiques au voisinage d’une partie compacte K de $\mathbf{C}^n$ (III, p. 10).
 
-#### Exemple 3 {#evt-iv-s2-n5-exa-3 .statement}
+#### Exemple 3 {#evt-iv-s2-n5-exa-3 .statement tag=07SW}
 
 Toute limite inductive stricte E d’une suite $(E_n)$ d’espaces de Montel (II, p. 36) telle que $E_n$ soit fermé dans $E_{n+1}$ pour tout n, est un espace de Montel ; en effet, E est séparé (II, p. 35, prop. 9, (i)), tonnelé (III, p. 25, cor. 3) et toute partie bornée de E est contenue dans un $E_n$ (III, p. 5, prop. 6) donc relativement compacte dans $E_n$, et par suite aussi dans E.
 
-#### Exemple 4 {#evt-iv-s2-n5-exa-4 .statement}
+#### Exemple 4 {#evt-iv-s2-n5-exa-4 .statement tag=07SX}
 
 \* Soit U un ouvert de $\mathbf{R}^n$ et soit $\mathscr{C}^\infty(U)$ l’espace de Fréchet des fonctions indéfiniment dérivables sur U (III, p. 9). Démontrons que c’est un espace de Montel. Comme $\mathscr{C}^\infty(U)$ est un espace de Fréchet, il est tonnelé (III, p. 25, corollaire). Soit B une partie bornée de $\mathscr{C}^\infty(U)$, et soit K une partie compacte de U. Pour tout $\alpha \in \mathbf{N}^n$, soit $H_{\alpha, K}$ l’ensemble des restrictions à K des fonctions $\partial^\alpha f$, où $f$ parcourt B. Soit $\alpha \in \mathbf{N}^n$; pour tout $\beta \in \mathbf{N}^n$ tel que $|\beta| = |\alpha| + 1$, l’ensemble $H_{\beta, K}$ est borné dans $\mathscr{C}(K)$ puisque B est borné dans $\mathscr{C}^\infty(U)$; d’après VAR, R., no 2.2.3, l’ensemble $H_{\alpha, K}$ est équicontinu, donc (TG, X, p. 17) relativement compact dans $\mathscr{C}(K)$. Or la topologie de $\mathscr{C}^\infty(U)$ est la moins fine des topologies rendant continues les applications $f \mapsto \partial^\alpha f|K$ de $\mathscr{C}^\infty(U)$ dans $\mathscr{C}(K)$, donc B est relativement compacte dans $\mathscr{C}^\infty(U)$ (TG, I, p. 26, prop. 3 et p. 64, corollaire).
 
 De même, l’espace $\mathscr{C}_0^\infty(U)$ des fonctions indéfiniment dérivables à support compact dans U (III, p. 9) est un espace de Montel. En effet, $\mathscr{C}_0^\infty(U)$ est limite inductive stricte d’une suite d’espaces de Fréchet $\mathscr{C}_{H_n}^\infty(U)$ (III, p. 9), et il suffit de voir que chacun des espaces $\mathscr{C}_{H_n}^\infty(U)$ est un espace de Montel (Exemple 3). Mais une partie bornée et fermée de $\mathscr{C}_{H_n}^\infty(U)$ est bornée et fermée dans $\mathscr{C}^\infty(U)$, donc compacte dans $\mathscr{C}^\infty(U)$, et par suite dans $\mathscr{C}_{H_n}^\infty(U)$. \*
 
-#### Proposition 8 {#evt-iv-s2-prop-8 .statement}
+#### Proposition 8 {#evt-iv-s2-prop-8 .statement tag=07SY}
 
 Soit E un espace de Montel et soit $\mathfrak{F}$ un filtre sur E, qui converge vers un point $x_0$ de E pour la topologie affaiblie. Si $\mathfrak{F}$ est à base dénombrable, ou contient un ensemble borné, alors $\mathfrak{F}$ converge aussi vers $x_0$ pour la topologie initiale.
 
@@ -242,13 +242,13 @@ Supposons maintenant que $\mathscr{F}$ soit à base dénombrable. Il suffit (TG,
 
 *Tout espace de Montel est réflexif* : cela résulte de la déf. 4 et du th. 2 de IV, p. 16. En outre :
 
-#### Proposition 9 {#evt-iv-s2-prop-9 .statement}
+#### Proposition 9 {#evt-iv-s2-prop-9 .statement tag=07SZ}
 
 *Le dual fort d’un espace de Montel est un espace de Montel.*
 
 Soient E un espace de Montel et $E'_b$ son dual fort. Comme E est réflexif, $E'_b$ est tonnelé (IV, p. 15, th. 1). Comme toute partie bornée de E est relativement compacte, la topologie forte sur $E'$ coïncide avec la topologie de la convergence compacte. Soit B une partie bornée de $E'_b$ ; elle est bornée pour la topologie faible $\sigma(E', E)$, donc équicontinue puisque E est tonnelé. Le th. d’Ascoli (TG, X, p. 17, corollaire, et p. 18, cor. 1) entraîne alors que l’adhérence de B pour $\sigma(E', E)$ est compacte pour la topologie de la convergence compacte, donc B est relativement compact dans $E'_b$.
 
-#### Proposition 10 {#evt-iv-s2-prop-10 .statement}
+#### Proposition 10 {#evt-iv-s2-prop-10 .statement tag=07T0}
 
 *Tout espace de Montel métrisable est de type dénombrable.*
 
@@ -256,7 +256,7 @@ Soit E un espace de Montel métrisable. On sait (II, p. 5) que E s’identifie �
 
 *Raisonnons par l’absurde*, en supposant par exemple que $F_0$ ne soit pas de type dénombrable. Notons $B_0$ la boule unité (fermée) dans $F_0$ ; c’est un espace métrique qui n’est pas de type dénombrable. Nous utiliserons le lemme suivant :
 
-#### Lemme 1 {#evt-iv-s2-lem-1 .statement}
+#### Lemme 1 {#evt-iv-s2-lem-1 .statement tag=07T1}
 
 *Supposons que l’espace métrique X ne soit pas de type dénombrable. Il existe alors un nombre réel $\varepsilon > 0$ et une partie non dénombrable A de X tels que l’on ait $d(x, y) \geq \varepsilon$ pour $x, y$ distincts dans A.*
 
@@ -266,7 +266,7 @@ C.Q.F.D.
 
 D’après le lemme 1 appliqué à $B_0$, il existe une partie non dénombrable $A_0$ de $F_0$ et un nombre $\varepsilon > 0$ tels que l’on ait $\|x\| \leq 1$ et $\|x - y\| \geq \varepsilon$ pour $x, y$ distincts dans $A_0$. On a $\mathrm{pr}_0(E) = F_0$, et il existe donc une partie A de E telle que $\mathrm{pr}_0$ induise une bijection de A sur $A_0$.
 
-#### Lemme 2 {#evt-iv-s2-lem-2 .statement}
+#### Lemme 2 {#evt-iv-s2-lem-2 .statement tag=07T2}
 
 Il existe une suite $(x_m)_{m \geq 0}$ bornée dans $E$, et formée d’éléments de $A$ deux à deux distincts.
 
@@ -289,7 +289,7 @@ C.Q.F.D.
 
 Avec les notations du lemme 2, la suite bornée $(x_m)_{m \geq 0}$ admet une valeur d’adhérence $y$ dans $E$. La suite $(\operatorname{pr}_0(x_m))_{m \geq 0}$ admet donc la valeur d’adhérence $\operatorname{pr}_0(y)$ dans $F_0$, mais ceci contredit la construction de $A_0$.
 
-#### Corollaire {#evt-iv-s2-n5-cor-1 .statement}
+#### Corollaire {#evt-iv-s2-n5-cor-1 .statement tag=07T3}
 
 Soit $E$ un espace de Montel métrisable. Dans le dual fort de $E$, il existe un ensemble dénombrable dense.
 

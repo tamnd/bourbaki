@@ -53,7 +53,7 @@ subsections:
       pdf_page: 28
 statements: 55
 exercises: 17
-content_sha256: 519ec6fa55a4e08ffbb6df897d5eadf251ac25ff851b7bbaaa9517a3a4376a88
+content_sha256: cdf15a6a9e42c2d0679846487e25044195502c8d85bd52b43e567936bec825cf
 translated_from: content/en-mt/alg/X/01_s1_complements_d_algebre_lineaire.md
 source_lang: en-mt
 translation_method: machine
@@ -123,7 +123,7 @@ Trong phần sau, chúng tôi để cho người đọc phát biểu và kiểm 
 
 ### 2. Biểu đồ con rắn
 
-#### Mệnh đề 1 {#alg-x-s1-prop-1 .statement}
+#### Mệnh đề 1 {#alg-x-s1-prop-1 .statement tag=0DOU}
 
 Xét một biểu đồ giao hoán các A-môđun
 
@@ -168,7 +168,7 @@ $$
 
 Ngược lại, lấy $y\in\operatorname{Ker}(v'\circ g)$. Khi đó $g(y)\in\operatorname{Ker}(v')$, và tồn tại $x'\in M'$ sao cho $u'(x')=g(y)$ vì dãy $(u',v')$ là khớp. Vì $f$ là toàn ánh, tồn tại $x\in M$ sao cho $f(x)=x'$, do đó $g(y)=u'(f(x))=g(u(x))$; ta kết luận rằng $y-u(x)\in\operatorname{Ker}(g)$, điều này hoàn tất chứng minh.
 
-#### Bổ đề 1 {#alg-x-s1-lem-1 .statement}
+#### Bổ đề 1 {#alg-x-s1-lem-1 .statement tag=0DOV}
 
 Xét một biểu đồ giao hoán các A-môđun
 
@@ -230,7 +230,7 @@ $$
 
 trong đó $i, j, k$ là các đơn ánh chính tắc, $p, q, r$ là các toàn ánh chính tắc, $u_1, u_2$ (tương ứng $v_1, v_2$) là các đồng cấu suy ra từ $u, u'$ (tương ứng từ $v, v'$) theo Bổ đề 1.
 
-#### Mệnh đề 2 {#alg-x-s1-prop-2 .statement}
+#### Mệnh đề 2 {#alg-x-s1-prop-2 .statement tag=0DOW}
 
 Giả sử rằng trong biểu đồ giao hoán (4), các dãy $(u, v)$ và $(u', v')$ là khớp. Khi đó:
 (i) Ta có $v_1 \circ u_1 = 0$; nếu $u'$ là đơn ánh, dãy $(u_1, v_1)$ là khớp.
@@ -300,7 +300,7 @@ $$
 
 Do đó ta có $q(u'(x')) = 0$, và hệ quả là $u'(x') = g(y)$ với một $y \in \mathbf{N}$; vì $v'(u'(x')) = 0$, ta có $v'(g(y)) = 0$, nên $h(v(y)) = 0$, nói cách khác $v(y) = k(z)$ với một $z \in \mathrm{Ker}\,(h)$, và theo định nghĩa $w = d(z)$, điều đó cho thấy rằng dãy (*) là khớp tại $\mathrm{Coker}\,(f)$. Ta đã thấy trong (i) rằng nó khớp tại $\mathrm{Ker}\,(g)$ và trong (ii) rằng nó khớp tại $\mathrm{Coker}\,(g)$, điều đó hoàn tất việc chứng minh (iii).
 
-#### Hệ quả 1 {#alg-x-s1-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s1-prop-2-cor-1 .statement tag=0DOX}
 
 Giả sử rằng biểu đồ (4) là giao hoán và có các hàng khớp. Khi đó:
 
@@ -311,7 +311,7 @@ Mệnh đề (i) là một hệ quả của mệnh đề (i) của mệnh đề 
 
 Mệnh đề (ii) là một hệ quả của mệnh đề (ii) của mệnh đề 2: thật vậy, ta có $\mathrm{Coker}\,(f) = 0$ và $\mathrm{Coker}\,(h) = 0$, do đó $\mathrm{Coker}\,(g) = 0$.
 
-#### Hệ quả 2 {#alg-x-s1-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s1-prop-2-cor-2 .statement tag=0DOY}
 
 Giả sử rằng biểu đồ (4) là giao hoán và có các hàng khớp. Trong các điều kiện đó:
 
@@ -398,7 +398,7 @@ trong đó $\widetilde u_3$ và $\widetilde u'_3$ có cùng đồ thị như $u_
 
 ### 3. Môđun phẳng
 
-#### Định nghĩa 1 {#alg-x-s1-def-1 .statement}
+#### Định nghĩa 1 {#alg-x-s1-def-1 .statement tag=0DOZ}
 
 Người ta nói rằng a-môđun E là phẳng nếu, với mọi dãy khớp các a-môđun phải và các đồng cấu
 
@@ -410,7 +410,7 @@ dãy các ánh xạ $\mathbf{Z}$-tuyến tính
 
 là khớp.
 
-#### Mệnh đề 3 {#alg-x-s1-prop-3 .statement}
+#### Mệnh đề 3 {#alg-x-s1-prop-3 .statement tag=0DP0}
 
 Để a-môđun E là phẳng, điều kiện cần và đủ là với mọi A-đồng cấu đơn ánh $u : M' \to M$ của các A-môđun phải, ánh xạ $u \otimes 1 : M' \otimes_A E \to M \otimes_A E$ là đơn ánh.
 
@@ -422,7 +422,7 @@ $$
 
 và dãy (12) là khớp.
 
-#### Mệnh đề 4 {#alg-x-s1-prop-4 .statement}
+#### Mệnh đề 4 {#alg-x-s1-prop-4 .statement tag=0DP1}
 
 (i) Cho $(E_i)_{i \in I}$ là một họ các a-môđun, $E = \bigoplus_{i \in I} E_i$ là tổng trực tiếp của chúng. Để a-môđun E là phẳng, điều kiện cần và đủ là mỗi $E_i$ đều như vậy.
 
@@ -434,45 +434,45 @@ Cho $M' \to M \to M''$ là một dãy khớp các a-môđun phải.
 
 (ii) Theo giả thiết, mỗi dãy $M' \otimes_A E_i \to M \otimes_A E_i \to M'' \otimes_A E_i$ đều khớp, và do đó dãy $M' \otimes_A E \to M \otimes_A E \to M'' \otimes_A E$ cũng khớp, vì phép chuyển sang giới hạn quy nạp giao hoán với tích tenxơ (II, p. 93, mệnh đề 7) và bảo toàn tính khớp (II, p. 91, mệnh đề 3).
 
-#### Ví dụ 1 {#alg-x-s1-n3-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s1-n3-exa-1 .statement tag=0DP2}
 
 Hiển nhiên $A_s$ là một $A$-môđun phẳng; do đó từ mệnh đề 4 (i) suy ra rằng mọi $A$-môđun tự do, và nói chung hơn mọi $A$-môđun xạ ảnh, đều phẳng (xem thêm II, p. 63, hệ quả 6).
 
 \* Đảo lại, mọi $A$-môđun phẳng hữu hạn trình bày đều xạ ảnh (No. 5). \*
 
-#### Ví dụ 2 {#alg-x-s1-n3-exa-2 .statement}
+#### Ví dụ 2 {#alg-x-s1-n3-exa-2 .statement tag=0DP3}
 
 Theo mệnh đề 4 (ii), mọi $A$-môđun là giới hạn quy nạp của một hệ quy nạp lọc gồm các $A$-môđun tự do đều phẳng. Ta sẽ chứng minh mệnh đề đảo lại ở No. 6.
 
-#### Ví dụ 3 {#alg-x-s1-n3-exa-3 .statement}
+#### Ví dụ 3 {#alg-x-s1-n3-exa-3 .statement tag=0DP4}
 
 Nếu $A$ là nửa đơn, mọi $A$-môđun đều xạ ảnh (VIII, § 5, No. 1, mệnh đề 1), do đó phẳng.
 
-#### Ví dụ 4 {#alg-x-s1-n3-exa-4 .statement}
+#### Ví dụ 4 {#alg-x-s1-n3-exa-4 .statement tag=0DP5}
 
 \* Nếu $A$ là một vành địa phương Artin (không nhất thiết giao hoán), một $A$-môđun là phẳng khi và chỉ khi nó là tự do (AC II, § 3, No. 2, hệ quả 2 của mệnh đề 5). \*
 
-#### Ví dụ 5 {#alg-x-s1-n3-exa-5 .statement}
+#### Ví dụ 5 {#alg-x-s1-n3-exa-5 .statement tag=0DP6}
 
 Nếu $A$ là nguyên, trường phân thức $K$ của $A$ là một $A$-môđun phẳng (II, p. 118, mệnh đề 27).
 
-#### Ví dụ 6 {#alg-x-s1-n3-exa-6 .statement}
+#### Ví dụ 6 {#alg-x-s1-n3-exa-6 .statement tag=0DP7}
 
 *Trong AC II và III, chúng tôi sẽ nghiên cứu hai ví dụ quan trọng về $A$-môđun phẳng khi $A$ giao hoán: các vành phân thức $S^{-1} A$, và, khi $A$ là Noether, các hoàn thành tách biệt của $A$ đối với các tôpô J-adic.*
 
-#### Ví dụ 7 {#alg-x-s1-n3-exa-7 .statement}
+#### Ví dụ 7 {#alg-x-s1-n3-exa-7 .statement tag=0DP8}
 
 Cho $a \in A$ sao cho ánh xạ $a_A : x \mapsto ax$ từ $A$ vào $A$ là đơn ánh (“$a$ không là ước trái của 0”). Nếu $E$ là một $A$-môđun phẳng, thì phép vị tự $a_E$ là đơn ánh, vì nó được đồng nhất với $a_A \otimes 1 : A_d \otimes_A E \to A_d \otimes_A E$. Đặc biệt, nếu $A$ là nguyên, mọi $A$-môđun phẳng đều không xoắn. Ngược lại, nếu $A$ là chính, mọi $A$-môđun không xoắn đều phẳng: thật vậy, nếu $A$-môđun $E$ không xoắn, mọi môđun con sinh hữu hạn của $E$ đều tự do (VII, § 4, No. 4, Cor. 2 to định lý 4), và $E$ là một hợp tăng lọc của các môđun con phẳng, do đó là phẳng (Prop. 4 (ii)).
 
-#### Ví dụ 8 {#alg-x-s1-n3-exa-8 .statement}
+#### Ví dụ 8 {#alg-x-s1-n3-exa-8 .statement tag=0DP9}
 
 Cho $B$ là một vành và $\rho : A \to B$ một đồng cấu. Nếu $E$ là một $A$-môđun phẳng, thì $B$-môđun $E_{(B)} = B \otimes_A E$ là phẳng. Thật vậy, cho $u : N' \to N$ là một đơn cấu của các $B$-môđun phải; khi đó $u \otimes_B 1_{E_{(B)}}$ được đồng nhất một cách chính tắc với đồng cấu $u \otimes_A 1_E : N' \otimes_A E \to N \otimes_A E$, và đồng cấu này là đơn ánh nếu $E$ là phẳng.
 
-#### Ví dụ 9 {#alg-x-s1-n3-exa-9 .statement}
+#### Ví dụ 9 {#alg-x-s1-n3-exa-9 .statement tag=0DPA}
 
 Giả sử rằng $A = K[X, Y]$, trong đó $K$ là một trường. Khi đó iđêan cực đại $m$ sinh bởi $X$ và $Y$ là một $A$-môđun không xoắn, nhưng không phẳng. Thật vậy, xét vành $B = A/(Y)$, vành này đẳng cấu với $K[X]$, do đó nguyên. $B$-môđun $m_{(B)}$ đẳng cấu với $m/Ym = (X, Y)/(XY, Y^2)$, trong đó lớp của $Y$ là xoắn. Do đó, $m_{(B)}$ không là một $B$-môđun phẳng, vì thế $m$ không phẳng.
 
-#### Ví dụ 10 {#alg-x-s1-n3-exa-10 .statement}
+#### Ví dụ 10 {#alg-x-s1-n3-exa-10 .statement tag=0DPB}
 
 Giả sử $A$ giao hoán. Cho $B$ là đại số $A[X_1, ..., X_n]/(P)$, trong đó $P$ là một đa thức khác không. Với mọi iđêan nguyên tố $p$ của $A$, ký hiệu $\kappa(p)$ là trường phân thức của vành nguyên $A/p$, $E(p)$ là đại số $\kappa(p)[X_1, ..., X_n]$ và $P(p)$ là ảnh của $P$ trong $E(p)$ bởi ánh xạ chính tắc.
 
@@ -482,7 +482,7 @@ Ta có thể chứng minh rằng, để $B$ phẳng như một $A$-môđun, ch�
 
 Spec (A). Điều kiện trên có nghĩa là tập đóng này là rỗng, nói cách khác, với mọi $p$ dưới đa tạp $V_p$ là một siêu mặt trong $\mathbf{A}_{k(p)}^n$.
 
-#### Ví dụ 11 {#alg-x-s1-n3-exa-11 .statement}
+#### Ví dụ 11 {#alg-x-s1-n3-exa-11 .statement tag=0DPC}
 
 \* Cho S và X là hai không gian giải tích phức và cho $f : X \to S$ là một cấu xạ. Ta nói rằng $f$ là phẳng tại một điểm $x$ của X nếu $\mathscr{O}_{X,x}$, được xét như $\mathscr{O}_{S,f(x)}$-môđun nhờ đồng cấu $f^* : \mathscr{O}_{S,f(x)} \to \mathscr{O}_{X,x}$, là phẳng. Tập các điểm của X mà tại đó $f$ phẳng là một tập mở của X, và hạn chế của $f$ lên tập mở này là một ánh xạ mở. Nếu X và S là các đa tạp giải tích liên thông có số chiều hữu hạn, thì $f$ là phẳng (tại mọi điểm của X) khi và chỉ khi $f(X)$ mở trong S và các thớ $f^{-1}(s)$, với $s \in f(X)$, đều có cùng chiều. \*
 
@@ -508,7 +508,7 @@ theo II, p. 58, mệnh đề 5 và sự kiện rằng $B \otimes_A L$ là một 
 
 Người ta nói rằng một trình bày (13) của một môđun E là hữu hạn nếu các môđun tự do $L_0$ và $L_1$ có các cơ sở hữu hạn. Rõ ràng là nếu trình bày (13) là hữu hạn thì trình bày (14) cũng vậy. Ta nói rằng E là một A-môđun hữu hạn trình bày nếu nó thừa nhận một trình bày hữu hạn.
 
-#### Mệnh đề 5 {#alg-x-s1-prop-5 .statement}
+#### Mệnh đề 5 {#alg-x-s1-prop-5 .statement tag=0DPD}
 
 (i) Mọi môđun thừa nhận một trình bày hữu hạn đều sinh hữu hạn.
 (ii) Nếu A là một vành Noether trái thì mọi A-môđun hữu hạn sinh đều thừa nhận một trình bày hữu hạn.
@@ -518,7 +518,7 @@ Mệnh đề (i) suy ra một cách hiển nhiên từ các định nghĩa. Gi�
 
 Sau hết, giả sử E là một môđun xạ ảnh hữu hạn sinh; khi đó nó là một nhân tử trực tiếp của một môđun tự do hữu hạn sinh $L_0$ (II, p. 40, hệ quả 1); hạt nhân R của đồng cấu toàn ánh L_0 → E khi đó đẳng cấu với một thương của $L_0$, nên là sinh hữu hạn, và ta kết luận như trên.
 
-#### Mệnh đề 6 {#alg-x-s1-prop-6 .statement}
+#### Mệnh đề 6 {#alg-x-s1-prop-6 .statement tag=0DPE}
 
 Cho A là một vành, E là một A-môđun hữu hạn trình bày. Với mọi dãy khớp
 
@@ -552,7 +552,7 @@ $$
 
 và vì v(L_1) và Coker v là sinh hữu hạn, F cũng vậy (II, p. 17, hệ quả 5).
 
-#### Mệnh đề 7 {#alg-x-s1-prop-7 .statement}
+#### Mệnh đề 7 {#alg-x-s1-prop-7 .statement tag=0DPF}
 
 Cho M là một A-môđun. Tồn tại một tập hợp có thứ tự I quy nạp sang phải và một hệ quy nạp các A-môđun hữu hạn trình bày $(M_\alpha, \varphi_{\beta\alpha})$ đối với I sao cho M đẳng cấu với $\lim_\alpha M_\alpha$. Nếu M có một hệ sinh gồm n phần tử, ta có thể giả sử rằng điều tương tự cũng đúng với các $M_\alpha$.
 
@@ -611,7 +611,7 @@ $$
 \tag{17}
 $$
 
-#### Mệnh đề 8 {#alg-x-s1-prop-8 .statement}
+#### Mệnh đề 8 {#alg-x-s1-prop-8 .statement tag=0DPG}
 
 a) *Nếu A-môđun E là kiểu hữu hạn (resp. có trình bày hữu hạn), thì đồng cấu chính tắc (16) là đơn ánh (resp. song ánh).*
 
@@ -644,7 +644,7 @@ $$
 
 là khớp (*loc. cit.*), và vì $F$ là *phẳng*, nên hàng thứ nhất của (18) cũng là một dãy khớp (X, p. 8, đn. 1). Như vậy, ta biết rằng $v_{L_0}$ là song ánh (resp. rằng $v_{L_0}$ và $v_{L_1}$ là song ánh) (II, p. 75, mđ. 2). Nếu ta chỉ giả sử rằng $v_{L_0}$ là song ánh, thì suy ra từ (18) rằng $v_{L_0} \circ T(w) = T'(w) \circ v_E$ là đơn ánh, do đó $v_E$ cũng vậy. Nếu ta giả sử rằng $v_{L_0}$ và $v_{L_1}$ đều song ánh, thì ta suy ra từ hq. 2 (ii) của X, p. 6 rằng $v_E$ là toàn ánh, và vì ta vừa thấy rằng $v_E$ là đơn ánh, nên nó là song ánh.
 
-#### Hệ quả {#alg-x-s1-n5-cor-1 .statement}
+#### Hệ quả {#alg-x-s1-n5-cor-1 .statement tag=0DPH}
 
 **Mọi môđun phẳng có trình bày hữu hạn đều là xạ ảnh.**
 
@@ -660,7 +660,7 @@ Theo hệ quả trước và mđ. 5 của X, p. 10, có sự đồng nhất gi�
 
 ### 6. Cấu trúc của các môđun phẳng
 
-#### Bổ đề 2 {#alg-x-s1-lem-2 .statement}
+#### Bổ đề 2 {#alg-x-s1-lem-2 .statement tag=0DPI}
 
 **Cho I là một tập hợp có thứ tự lọc phải, $(E_\alpha, \varphi_{\beta\alpha})$ một hệ quy nạp các tập hợp đối với I, E là giới hạn quy nạp của nó và $\varphi_\alpha : E_\alpha \to E, \alpha \in I$, các ánh xạ chính tắc. Cho $f : I \to I$ là một ánh xạ sao cho $f(\alpha) > \alpha$ với $\alpha \in I$, và giả sử rằng với mỗi $\alpha \in I$, đã cho một tập hợp $L_\alpha$ và các ánh xạ $u_\alpha : E_\alpha \to L_\alpha$ và $v_\alpha : L_\alpha \to E_{f(\alpha)}$ sao cho $v_\alpha \circ u'_\alpha = \varphi_{f(\alpha), \alpha}$. Cho J là tập hợp có thứ tự thu được bằng cách trang bị cho I quan hệ « $\alpha \leq \beta$ nếu $\alpha = \beta$ hoặc $f(\alpha) \leq \beta$ ». Nếu $\alpha, \beta \in J$ với $\alpha \leq \beta$, cho $\psi_{\beta\alpha} : L_\alpha \to L_\beta$ là ánh xạ sao cho $\psi_{\beta\alpha} = \mathrm{Id}$ nếu $\alpha = \beta$, $\psi_{\beta\alpha} = u_\beta \circ \varphi_{\beta, f(\alpha)} \circ v_\alpha$ nếu $f(\alpha) \leq \beta$. Nếu $\alpha \in J$, cho $\psi_\alpha : L_\alpha \to E$ là ánh xạ $\varphi_{f(\alpha)} \circ v_\alpha$. Khi đó tập hợp có thứ tự J là lọc, $(L_\alpha, \psi_{\beta\alpha})$ là một hệ quy nạp đối với J, $(\psi_\alpha)$ là một hệ quy nạp các ánh xạ và ánh xạ $\psi : \lim_{\alpha \in J} L_\alpha \to E$ suy ra từ các $\psi_\alpha$ là song ánh.**
 
@@ -688,7 +688,7 @@ $$
 $$
 và $\psi$ là đơn ánh.
 
-#### Định lý 1 (D. Lazard) {#alg-x-s1-thm-1 .statement}
+#### Định lý 1 (D. Lazard) {#alg-x-s1-thm-1 .statement tag=0DPJ}
 
 Với mọi A-môđun E, các điều kiện sau là tương đương:
 (i) E là phẳng.
@@ -706,13 +706,13 @@ là toàn ánh.
 
 (X, p. 11, mệnh đề 7). Thay thế I bằng tích từ điển I × N, với E_{(α,n)} = E_α với mọi n, ta có thể giả sử rằng I không có phần tử lớn nhất. Với mỗi α ∈ I, cho L_α là một A-môđun tự do kiểu hữu hạn và cho u_α : E_α → L_α, v'_α : L_α → E là các đồng cấu sao cho v'_α ∘ u_α là ánh xạ chính tắc φ_α của E_α vào E; vì L_α là tự do kiểu hữu hạn và I không có phần tử lớn nhất, tồn tại một chỉ số β > α và một đồng cấu v''_α : L_α → E_β sao cho v'_α = φ_β ∘ v''_α; vì φ_β ∘ v''_α ∘ u_α = φ_β ∘ φ_β,α và E_α có trình bày hữu hạn, suy ra từ mệnh đề 8a) của X, p. 12, rằng tồn tại γ ≥ β sao cho φ_{γβ} ∘ v''_α ∘ u_α = φ_{γβ} ∘ φ_{βα} = φ_{γα} ; đặt γ = f(α) và gọi v_α là đồng cấu φ_{γβ} ∘ v''_α từ L_α vào E_{f(α)} ; ta có v_α ∘ u_α = φ_{f(α),α}. Khi đó ta có thể áp dụng bổ đề 2, do đó suy ra (iv).
 
-#### Hệ quả {#alg-x-s1-n6-cor-1 .statement}
+#### Hệ quả {#alg-x-s1-n6-cor-1 .statement tag=0DPK}
 
 Giả sử A giao hoán. Với mọi A-môđun phẳng E, các A-môđun T(E), S(E), Λ(E), T^n(E), S^n(E), Λ^n(E) đều phẳng.
 
 Thật vậy, E là giới hạn quy nạp của một hệ lọc $(L_j)$ các A-môđun tự do kiểu hữu hạn, do đó T(E) (tương ứng S(E), v.v.) là giới hạn quy nạp của hệ lọc các A-môđun tự do T(L_j) (tương ứng S(L_j), v.v.), vì thế là phẳng (x. III, p. 61, mệnh đề 6, p. 62, định lý 1, p. 73, mệnh đề 8, p. 75, định lý 1, p. 83, mệnh đề 9, và p. 86, định lý 1).
 
-#### Nhận xét {#alg-x-s1-n6-rem-1 .statement}
+#### Nhận xét {#alg-x-s1-n6-rem-1 .statement tag=0DPL}
 
 Xét trong (ii) một trình bày hữu hạn A_s^J \xrightarrow{c} A_s^I \to P \to 0, ta thu được điều kiện (ii’) vẫn tương đương với các điều kiện trước:
 
@@ -736,7 +736,7 @@ $$
 
 ### 7. Môđun nội xạ
 
-#### Định nghĩa 2 {#alg-x-s1-def-2 .statement}
+#### Định nghĩa 2 {#alg-x-s1-def-2 .statement tag=0DPM}
 
 Ta nói rằng A-môđun E là nội xạ nếu, với mọi dãy khớp các A-môđun và các đồng cấu
 
@@ -752,7 +752,7 @@ $$
 $$
 là khớp.
 
-#### Bổ đề 3 {#alg-x-s1-lem-3 .statement}
+#### Bổ đề 3 {#alg-x-s1-lem-3 .statement tag=0DPN}
 
 *Để A-môđun E là nội xạ, điều kiện cần và đủ là, với mọi ánh xạ A-tuyến tính đơn ánh $u : M' \to M$, ánh xạ*
 
@@ -774,11 +774,11 @@ $$
 
 là khớp. Hơn nữa, ta có $\operatorname{Hom}(\nu,1)=\operatorname{Hom}(p,1)\circ\operatorname{Hom}(i,1)$. Nếu $E$ thỏa mãn điều kiện của bổ đề, $\operatorname{Hom}(i,1)$ là toàn ánh, do đó ảnh của $\operatorname{Hom}(\nu,1)$ cũng là ảnh của $\operatorname{Hom}(p,1)$, và dãy (20) là khớp.
 
-#### Nhận xét {#alg-x-s1-n7-rem-1 .statement}
+#### Nhận xét {#alg-x-s1-n7-rem-1 .statement tag=0DPO}
 
 Cho $E$ là một A-môđun đơn ánh, $u : M' \to M$ và $f : M' \to E$ là các đồng cấu của A-môđun. Nếu $\operatorname{Ker}u\subset\operatorname{Ker}f$, tồn tại một đồng cấu $g : M \to E$ sao cho $g\circ u=f$. Điều này thực vậy suy ra từ điều nói trên áp dụng cho đơn cấu $M'/\operatorname{Ker}u \to M$ suy ra từ $u$.
 
-#### Mệnh đề 9 {#alg-x-s1-prop-9 .statement}
+#### Mệnh đề 9 {#alg-x-s1-prop-9 .statement tag=0DPP}
 
 *Cho $(E_i)_{i\in I}$ là một họ các A-môđun, $E=\prod_{i\in I}E_i$ là tích của chúng. Để A-môđun $E$ là đơn ánh, điều kiện cần và đủ là mỗi $E_i$ đều như vậy.*
 
@@ -792,7 +792,7 @@ $$
 
 là toàn ánh, điều kiện cần và đủ là mỗi đồng cấu $\operatorname{Hom}_A(M,E_i)\to\operatorname{Hom}_A(M',E_i)$ đều như vậy (II, p. 10, mệnh đề 5); điều này chứng minh mệnh đề vì $\prod_{i\in I}\operatorname{Hom}_A(M,E_i)$ được đồng nhất một cách chính tắc với $\operatorname{Hom}_A(M,E)$.
 
-#### Mệnh đề 10 {#alg-x-s1-prop-10 .statement}
+#### Mệnh đề 10 {#alg-x-s1-prop-10 .statement tag=0DPQ}
 
 *Cho $E$ là một A-môđun. Để $E$ là đơn ánh, điều kiện cần và đủ là với mọi iđêan $a$ của $A$ và mọi A-đồng cấu $f : a\to E$, tồn tại $e\in E$ sao cho*
 
@@ -818,7 +818,7 @@ với mọi $a\in a$.
 
 Ngược lại, giả sử điều kiện của mệnh đề được thỏa mãn, cho $M$ là một A-môđun, $N$ là một môđun con của $M$, $u : N\to E$ là một A-đồng cấu, và chứng minh rằng tồn tại một A-đồng cấu $\bar u : M\to E$ mở rộng $u$ (x. *bổ đề* 3). Gọi $\mathscr P$ là tập hợp các cặp $(P,v)$ trong đó $P$ là một môđun con của $M$ chứa $N$ và $v$ là một đồng cấu từ $P$ vào $E$ mở rộng $u$. Tập hợp $\mathscr P$ được sắp thứ tự bởi quan hệ mở rộng là *quy nạp*: nếu $(P_j, v_j)$ là một họ được sắp thứ tự toàn phần các phần tử của $\mathscr{P}$, đặt $Q = \cup P_j$ và gọi $w : Q \to E$ là ánh xạ duy nhất cảm sinh $v_j$ trên $P_j$ với mọi $j$; khi đó $(Q, w) \in \mathscr{P}$ và $(Q, w)$ trội hơn $(P_j, v_j)$ với mọi $j$. Khi đó gọi $(P, v)$ là một phần tử cực đại của $\mathscr{P}$ (E, III, p. 20, Định lý 2); chỉ cần chứng minh rằng $P = M$. Lấy $x \in M$ và gọi $\alpha$ là iđêan của các $a \in A$ sao cho $ax \in P$; đặt $f(a) = v(ax)$ với $a \in \alpha$; như vậy thu được một A-đồng cấu $f : \alpha \to E$. Khi đó gọi $e$ là một phần tử của $E$ sao cho $f(a) = ae$ với mọi $a \in \alpha$. Đặt $P' = P + Ax$ và gọi $v' : P' \to E$ là A-đồng cấu duy nhất sao cho $v'(p + ax) = v(p) + ae$ với $p \in P, a \in A$; khi đó $(P', v')$ thuộc $\mathscr{P}$ và trội hơn $(P, v)$, do đó $P' = P$, nghĩa là $x \in P$, điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 {#alg-x-s1-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s1-prop-10-cor-1 .statement tag=0DPR}
 
 *Nếu vành $A$ là Noether trái, mọi tổng trực tiếp của các $A$-môđun đơn ánh đều là đơn ánh.*
 
@@ -830,13 +830,13 @@ $$
 
 là song ánh; gọi $(u_i)$ là ảnh ngược của $u$ bởi $\varphi$. Vì mỗi $E_i$ là đơn ánh, và họ $(u_i)$ có giá hữu hạn, tồn tại một phần tử $(e_i)_{i \in I}$ của $E$ sao cho $u_i(a) = ae_i$ với mọi $a \in \alpha$ và mọi $i \in I$, do đó $u(a) = a((e_i))$ với mọi $a \in \alpha$, và $E$ là đơn ánh.
 
-#### Nhận xét {#alg-x-s1-n7-rem-2 .statement}
+#### Nhận xét {#alg-x-s1-n7-rem-2 .statement tag=0DPS}
 
 Nếu mọi tổng trực tiếp của các $A$-môđun đơn ánh đều là đơn ánh, thì vành $A$ là Noether trái (X, p. 170, bài tập 21).
 
 Giả sử $A$ là nguyên. Ta nói rằng $A$-môđun $E$ là *chia được* nếu phép vị tự $a_E$ là toàn ánh với mọi phần tử khác không $a$ của $A$.
 
-#### Hệ quả 2 {#alg-x-s1-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s1-prop-10-cor-2 .statement tag=0DPT}
 
 *Giả sử $A$ là nguyên.*
   *a)* *Mọi $A$-môđun đơn ánh đều chia được.*
@@ -859,7 +859,7 @@ $$
 
 điều này hiển nhiên nếu $a \in Ax$, do đó mệnh đề được chứng minh trong trường hợp A là chính; nếu E không xoắn và nếu $xa \in a$, ta có $xf(a) = f(ax) = axe$, do đó $f(a) = ae$ vì $x$ khác không nếu $a \neq 0$.
 
-#### Ví dụ 1 {#alg-x-s1-n7-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s1-n7-exa-1 .statement tag=0DPU}
 
 Nếu A là nguyên, trường phân thức K của A là một A-môđun nội xạ. Nếu A là chính, $K/A$ là một A-môđun nội xạ.
 2) Chẳng hạn, các $\mathbf{Z}$-môđun $\mathbf{Q}$ và $\mathbf{Q}/\mathbf{Z}$ là nội xạ.
@@ -867,7 +867,7 @@ Nếu A là nguyên, trường phân thức K của A là một A-môđun nội 
 
 ### 8. Các môđun đối sinh nội xạ
 
-#### Mệnh đề 11 {#alg-x-s1-prop-11 .statement}
+#### Mệnh đề 11 {#alg-x-s1-prop-11 .statement tag=0DPX}
 
 *Nếu B là một vành, F là một B-môđun và P là một song môđun (B, A). Nếu F là một B-môđun nội xạ và P là một A-môđun phẳng, thì $\mathrm{Hom}_B(P, F)$ là một A-môđun nội xạ.*
 
@@ -883,30 +883,30 @@ $$
 
 trong đó $\beta$ và $\beta'$ là các đẳng cấu chính tắc của II, p. 74. Vì P là phẳng trên A, đồng cấu $1_P \otimes u : P \otimes_A M' \to P \otimes_A M$ là đơn ánh. Vì F là nội xạ, $\mathrm{Hom}(1_P \otimes u, 1_F)$ là toàn ánh, do đó $\mathrm{Hom}_A(u, 1)$ cũng vậy, điều này chứng minh rằng $\mathrm{Hom}_F(P, F)$ là một A-môđun nội xạ (X, p. 16, bổ đề 3).
 
-#### Định nghĩa 3 {#alg-x-s1-def-3 .statement}
+#### Định nghĩa 3 {#alg-x-s1-def-3 .statement tag=0DPY}
 
 *Người ta nói rằng A-môđun E là một đối sinh nếu, với mọi A-môđun M và mọi phần tử khác không x của M, tồn tại một A-đồng cấu $u : M \to E$ sao cho $u(x) \neq 0$.*
 
 Người ta nói rằng A-môđun L là một *môđun sinh* nếu, với mọi A-môđun M và mọi phần tử x của M, tồn tại một A-đồng cấu $u : L \to M$ sao cho $x \in u(L)$. Chẳng hạn, A-môđun $A_s$ là một môđun sinh.
 
-#### Mệnh đề 12 {#alg-x-s1-prop-12 .statement}
+#### Mệnh đề 12 {#alg-x-s1-prop-12 .statement tag=0DPZ}
 
 *Cho E là một A-môđun nội xạ. Để E là một đối sinh, điều kiện cần và đủ là $\mathrm{Hom}_A(S, E) \neq 0$ đối với mọi A-môđun đơn S.*
 
 Điều kiện này hiển nhiên là cần. Ngược lại, cho M là một A-môđun và x là một phần tử khác không của M; môđun con $Ax$ của M có một thương đơn S (VIII, § 2, no 1, mệnh đề 3). Nếu $\mathrm{Hom}_A(S, E) \neq 0$, thì $\mathrm{Hom}_A(Ax, E) \neq 0$ và tồn tại một đồng cấu $f : Ax \to E$ sao cho $f(x) \neq 0$; vì E là nội xạ, $f$ kéo dài thành một đồng cấu $u$ từ M vào E và ta có $u(x) = f(x) \neq 0$.
 
-#### Ví dụ {#alg-x-s1-n8-exa-1 .statement}
+#### Ví dụ {#alg-x-s1-n8-exa-1 .statement tag=0DQ0}
 
 $\mathbf{Z}$-môđun đơn ánh $\mathbf{Q}/\mathbf{Z}$ (X, p. 18, ví dụ 2) là một đối sinh.
 Thật vậy, mọi môđun đơn của $\mathbf{Z}$-môđun đều đẳng cấu với một môđun $\mathbf{Z}/p\mathbf{Z}$, $p\ne 0$, và $\operatorname{Hom}_{\mathbf{Z}}(\mathbf{Z}/p\mathbf{Z},\mathbf{Q}/\mathbf{Z})$ là khác không (chẳng hạn nó chứa phần tử của $\mathbf{Z}/p\mathbf{Z}$ thu được bằng cách chuyển qua thương từ đồng cấu $x\mapsto x/p$ của $\mathbf{Z}$ vào $\mathbf{Q}$).
 
-#### Mệnh đề 13 {#alg-x-s1-prop-13 .statement}
+#### Mệnh đề 13 {#alg-x-s1-prop-13 .statement tag=0DQ1}
 
 Cho $B$ là một vành, $F$ là một $B$-môđun đơn ánh đối sinh, $P$ là một $(B,A)$-song môđun. Giả sử rằng $P$ là phẳng trên $A$ và sao cho $P\otimes_A S\ne 0$ đối với mọi $A$-môđun đơn $S$ (* nghĩa là, phẳng trung thành trên $A$ theo nghĩa của AC, I, §). Khi đó $A$-môđun $\operatorname{Hom}_B(P,F)$ là một đối sinh và đơn ánh.
 
 Thật vậy, $\operatorname{Hom}_B(P,F)$ là đơn ánh theo mệnh đề 11. Mặt khác, với mọi $A$-môđun đơn $S$, $\operatorname{Hom}_A(S,\operatorname{Hom}_B(P,F))$ đẳng cấu với $\operatorname{Hom}_B(P\otimes_A S,F)$, do đó là khác không vì $P\otimes_A S\ne 0$ và $B$-môđun $F$ là một đối sinh; vậy $A$-môđun $\operatorname{Hom}_B(P,F)$ là một đối sinh theo mệnh đề 12.
 
-#### Hệ quả 1 {#alg-x-s1-prop-13-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s1-prop-13-cor-1 .statement tag=0DQ2}
 
 A-môđun $E_A=\operatorname{Hom}_{\mathbf{Z}}(A,\mathbf{Q}/\mathbf{Z})$ là đơn ánh và là một đối sinh.
 
@@ -926,17 +926,17 @@ $$
 
 Khi đó:
 
-#### Hệ quả 2 {#alg-x-s1-prop-13-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s1-prop-13-cor-2 .statement tag=0DQ3}
 
 A-môđun $I^0(M)$ là đơn ánh và A-đồng cấu $e_M:M\to I^0(M)$ là đơn ánh.
 
 Thật vậy, $I^0(M)$ là đơn ánh, vì $E_A$ là đơn ánh (X, p. 16, mệnh đề 9), mặt khác $e_M$ là đơn ánh vì $E_A$ là một đối sinh.
 
-#### Hệ quả 3 {#alg-x-s1-prop-13-cor-3 .statement}
+#### Hệ quả 3 {#alg-x-s1-prop-13-cor-3 .statement tag=0DQ4}
 
 Mọi $A$-môđun đều đẳng cấu với một môđun con của một $A$-môđun đơn ánh.
 
-#### Hệ quả 4 {#alg-x-s1-prop-13-cor-4 .statement}
+#### Hệ quả 4 {#alg-x-s1-prop-13-cor-4 .statement tag=0DQ5}
 
 Để $A$-môđun $E$ là đơn ánh, điều kiện cần và đủ là mọi A-đồng cấu đơn ánh $f:E\to F$ đều có một phép co rút $A$-tuyến tính.
 
@@ -950,7 +950,7 @@ là toàn ánh; do đó tồn tại $r\in\operatorname{Hom}_A(F,E)$ sao cho $r\c
 
 ### 9. Bao nội xạ
 
-#### Định nghĩa 4 {#alg-x-s1-def-4 .statement}
+#### Định nghĩa 4 {#alg-x-s1-def-4 .statement tag=0DQ6}
 
 Cho $M$ là một $A$-môđun. Một bao nội xạ của $M$ là một cặp $(I,i)$, trong đó $I$ là một $A$-môđun nội xạ và $i:M\to I$ là một đồng cấu có tính chất sau đây:
 
@@ -958,11 +958,11 @@ Cho $M$ là một $A$-môđun. Một bao nội xạ của $M$ là một cặp $(
 
 Chú ý rằng (E) kéo theo i là đơn ánh. Người ta thường đồng nhất M với môđun con i(M) của I, và khi đó nói rằng I là một bao nội xạ của M.
 
-#### Ví dụ 1 {#alg-x-s1-n9-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s1-n9-exa-1 .statement tag=0DQ7}
 
 Giả sử rằng A nguyên và M không xoắn. Gọi K là trường các phân thức của A và gọi i : M → K ⊗_A M là đồng cấu chính tắc. Khi đó (K ⊗_A M, i) là một bao nội xạ của M (II, p. 116, mệnh đề 26 và X, p. 17, hệ quả 2).
 
-#### Định lý 2 {#alg-x-s1-thm-2 .statement}
+#### Định lý 2 {#alg-x-s1-thm-2 .statement tag=0DQ8}
 
 Cho M là một A-môđun.
 a) M có các bao nội xạ.
@@ -994,15 +994,15 @@ $$
 
 do đó Ker f = 0 và f là đơn ánh. Khi đó f(I) là một môđun con nội xạ của J, nên là một nhân tử trực tiếp; vì j thỏa mãn (E), điều này kéo theo f(I) = J và f là song ánh.
 
-#### Nhận xét 1 {#alg-x-s1-n9-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s1-n9-rem-1 .statement tag=0DQ9}
 
 Gọi (I, i) là một bao nội xạ của M và $j : M \to J$ là một đồng cấu đơn cấu từ M vào một A-môđun nội xạ J. Theo chứng minh ở trên, tồn tại một đồng cấu *đơn cấu* $f : I \to J$ sao cho $f \circ i = j$.
 
-#### Nhận xét 2 {#alg-x-s1-n9-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s1-n9-rem-2 .statement tag=0DQA}
 
 Gọi (I, i) là một bao nội xạ của M. Đồng nhất M với môđun con $i(M)$ của I. Với mọi môđun con N của M, tồn tại một môđun con nội xạ của I là một bao nội xạ của N (áp dụng *Nhận xét* 1 cho N). Ngược lại, mọi môđun con nội xạ J của I đều là một bao nội xạ của $J \cap M$.
 
-#### Mệnh đề 14 {#alg-x-s1-prop-14 .statement}
+#### Mệnh đề 14 {#alg-x-s1-prop-14 .statement tag=0DQB}
 
 *Cho I là một A-môđun nội xạ khác không. Các điều kiện sau là tương đương*:
 (i) *I không phân tích được* (VII, § 4, no 8, def. 3);
@@ -1020,13 +1020,13 @@ Gọi (I, i) là một bao nội xạ của M. Đồng nhất M với môđun co
 
 (i) $\Rightarrow$ (iv) : giả sử I không phân tích được. Trước hết, chú ý rằng mọi tự đồng cấu đơn cấu $f$ của I đều là song ánh (vì khi đó $f(I)$ là một môđun con hạng tử trực tiếp khác không của I). Hơn nữa, mọi tự đồng cấu $f$ của I mà hạn chế của nó lên một môđun con khác không E của I là đơn ánh, thì đều là đơn ánh (thật vậy, vì (i) $\Rightarrow$ (iii), I là một bao nội xạ của E, do đó « $E \cap \mathrm{Ker}\ f = 0$ » kéo theo « $\mathrm{Ker}\ f = 0$ »). Như vậy, gọi $f$ là một phần tử không khả nghịch của $\mathrm{End}_A(M)$; theo VIII, § 1, no 4, prop. 9, vấn đề là chứng minh rằng $1 - f$ là khả nghịch. Vì $f$ không là đơn ánh, ta có $\mathrm{Ker}\ f \neq 0$; vì hạn chế của $1 - f$ lên $\mathrm{Ker}\ f$ là đơn ánh, nên $1 - f$ là đơn ánh, do đó là song ánh.
 
-#### Hệ quả 1 {#alg-x-s1-prop-14-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s1-prop-14-cor-1 .statement tag=0DQC}
 
 *Quan hệ “I là một lớp các A-môđun nội xạ không phân tích được” là xác định tập*.
 
 Thật vậy, theo (iii), mọi A-môđun nội xạ không phân tích được đều là bao nội xạ của một A-môđun đơn sinh.
 
-#### Hệ quả 2 {#alg-x-s1-prop-14-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s1-prop-14-cor-2 .statement tag=0DQD}
 
 *Cho M là một A-môđun, I là một bao nội xạ của M. Để I không phân tích được, điều kiện cần và đủ là 0 không là giao của hai môđun con khác không của M*.
 
@@ -1036,13 +1036,13 @@ $$
 I_1 \cap M \neq 0,\quad I_2 \cap M \neq 0\quad \text{và}\quad (I_1 \cap M) \cap (I_2 \cap M) = 0 .
 $$
 
-#### Ví dụ 2 {#alg-x-s1-n9-exa-2 .statement}
+#### Ví dụ 2 {#alg-x-s1-n9-exa-2 .statement tag=0DQE}
 
 Nếu A giao hoán và Noether, thì các A-môđun nội xạ không phân tích được chính là các bao nội xạ của các môđun A/p, trong đó p là một iđêan nguyên tố (X, p. 171, bài tập 27).
 
 ### 10. Cấu trúc của các môđun nội xạ
 
-#### Bổ đề 4 {#alg-x-s1-lem-4 .statement}
+#### Bổ đề 4 {#alg-x-s1-lem-4 .statement tag=0DQF}
 
 Cho M là một A-môđun Noether khác không, I là một bao nội xạ của M. Khi đó I có một môđun con nội xạ không phân tích được.
 
@@ -1056,7 +1056,7 @@ Kí hiệu $\mathscr{I}$ là tập hợp (X, p. 21, hệ quả 1) các lớp cá
 
 Nhắc lại (X, p. 17, hệ quả 1) rằng, nếu A là Noether trái, thì mọi A-môđun là tổng trực tiếp của các A-môđun nội xạ đều là nội xạ.
 
-#### Định lý 3 {#alg-x-s1-thm-3 .statement}
+#### Định lý 3 {#alg-x-s1-thm-3 .statement tag=0DQG}
 
 Cho I là một A-môđun nội xạ.
 

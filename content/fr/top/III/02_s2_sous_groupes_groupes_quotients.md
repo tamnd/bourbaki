@@ -53,7 +53,7 @@ subsections:
       pdf_page: 201
 statements: 44
 exercises: 31
-content_sha256: 53dcee520db44f494dfad065c5f0a848807b61ba005df7a20c2e488bf6829ce6
+content_sha256: e83f12a5ea833e75d9cf927c62e5e3d2ff5f6a78ea11fc29f007ef62844f3c3e
 ---
 
 ## § 2. SOUS-GROUPES; GROUPES QUOTIENTS; HOMOMORPHISMES; ESPACES HOMOGÈNES; GROUPES PRODUITS
@@ -62,7 +62,7 @@ content_sha256: 53dcee520db44f494dfad065c5f0a848807b61ba005df7a20c2e488bf6829ce6
 
 Soient $G$ un groupe topologique, $H$ un sous-groupe de $G$. D’après (GT’), la topologie induite sur $H$ par celle de $G$ est compatible avec la structure de groupe de $H$; la structure de *groupe topologique* ainsi définie sur $H$ est dite *induite* par celle de G. Sauf mention expresse du contraire, quand on considérera un sous-groupe H de G comme un groupe topologique, c’est toujours de cette structure induite qu’il s’agira.
 
-#### Proposition 1 {#top-iii-s2-prop-1 .statement}
+#### Proposition 1 {#top-iii-s2-prop-1 .statement tag=0BHS}
 
 L’adhérence $\overline{H}$ d’un sous-groupe H d’un groupe topologique G est un sous-groupe de G. Si H est un sous-groupe distingué, $\overline{H}$ est aussi un sous-groupe distingué.
 
@@ -70,44 +70,44 @@ En effet, si a et b sont adhérents à H, $ab^{-1}$ est adhérent à H, puisque 
 
 En particulier, l’adhérence N de l’ensemble $\{e\}$ réduit à l’élément neutre de G, est un sous-groupe distingué de G; pour qu’il se réduise à e, il faut et il suffit (III, p. 5, prop. 2) que G soit séparé.
 
-#### Proposition 2 {#top-iii-s2-prop-2 .statement}
+#### Proposition 2 {#top-iii-s2-prop-2 .statement tag=0BHT}
 
 Dans un groupe séparé G, l’adhérence d’un sous-groupe commutatif H est un sous-groupe commutatif.
 
 On peut se borner au cas où H est partout dense dans G, en vertu de la prop. 1; les fonctions continues $xy$ et $yx$, étant égales dans $H \times H$, le sont alors aussi dans $G \times G$, en vertu du principe de prolongement des identités (I, p. 53, cor. 1).
 
-#### Proposition 3 {#top-iii-s2-prop-3 .statement}
+#### Proposition 3 {#top-iii-s2-prop-3 .statement tag=0BHU}
 
 Dans un groupe séparé G, l’ensemble M’ des éléments permutables aux éléments d’une partie quelconque M de G est un sous-groupe fermé. En particulier, le centre de G est fermé dans G.
 
 En effet, M’ est l’intersection des ensembles $F_m$ des $x \in G$ tels que $xm = mx$, lorsque m parcourt M; la proposition résulte de ce que les $F_m$ sont fermés (I, p. 53, prop. 2).
 
-#### Proposition 4 {#top-iii-s2-prop-4 .statement}
+#### Proposition 4 {#top-iii-s2-prop-4 .statement tag=0BHV}
 
 Dans un groupe topologique G, tout sous-groupe H localement fermé en un point (I, p. 20, déf. 2) est fermé.
 
 Par translation, H est localement fermé en chacun de ses points, autrement dit H est localement fermé dans G. Soit V un voisinage ouvert symétrique de e dans G tel que $V \cap H$ soit fermé dans V. Si $x \in \overline{H}$, on a $xV \cap H \neq \varnothing$; si $y \in xV \cap H$, on a $x \in yV$, et $y(V \cap H) = (yV) \cap H$ est fermé dans $yV$; comme x est adhérent à $(yV) \cap H$, on a bien $x \in H$.
 
-#### Corollaire {#top-iii-s2-n1-cor-1 .statement}
+#### Corollaire {#top-iii-s2-n1-cor-1 .statement tag=0BHW}
 
 Dans un groupe topologique, pour qu’un sous-groupe soit ouvert, il faut et il suffit qu’il ait un point intérieur. Tout sous-groupe ouvert est fermé.
 
 La première partie est immédiate, car si un sous-groupe H a un point intérieur, on voit par translation que tous ses points sont intérieurs. La seconde assertion est un cas particulier de la prop. 4.
 
-#### Proposition 5 {#top-iii-s2-prop-5 .statement}
+#### Proposition 5 {#top-iii-s2-prop-5 .statement tag=0BHX}
 
 Dans un groupe topologique G, pour qu’un sous-groupe H soit discret, il faut et il suffit qu’il ait un point isolé. Tout sous-groupe discret d’un groupe séparé est fermé.
 
 Si H a un point isolé, on voit par translation que tous ses points sont isolés, donc H est discret. La seconde assertion est un cas particulier de la prop. 4, car si G est séparé, {e} est fermé dans G et a fortiori dans tout voisinage de e.
 
-#### Remarque {#top-iii-s2-n1-rem-1 .statement}
+#### Remarque {#top-iii-s2-n1-rem-1 .statement tag=0BHY}
 
 Soit H un sous-groupe quelconque d’un groupe topologique G. Pour tout $x \in \overline{H}$, on a $x\overline{H} = x.\overline{H} = \overline{H}$, puisque les translations sont des homéomorphismes de G sur lui-même. Autrement dit, pour tout $x \in \overline{H}$, $xH$ est dense dans $\overline{H}$. On en conclut que si H n’est pas fermé, $\overline{H} \cap GH$ est dense dans $\overline{H}$.
 
 ### 2. Composantes connexes d’un groupe topologique
 
 Soit V un voisinage symétrique de e dans G; le sous-groupe engendré par V, qu’on note $V^\infty$ est formé, comme on sait, de tous les composés $\prod_{i=1}^n x_i$ de suites finies d’éléments de V; $V^\infty$ est ouvert, puisque e lui est intérieur; il est donc fermé d’après la prop. 4 de III, p. 7. On en conclut que:
-#### Proposition 6 {#top-iii-s2-prop-6 .statement}
+#### Proposition 6 {#top-iii-s2-prop-6 .statement tag=0BHZ}
 
 Tout groupe connexe est engendré par chacun des voisinages de l’élément neutre.
 
@@ -115,19 +115,19 @@ La réciproque de cette proposition est inexacte en général, comme nous le ver
 
 *Comme exemple de groupe G non connexe, contenant un sous-groupe ouvert distinct de G, citons le groupe multiplicatif $\mathbf{R}^*$ des nombres réels $\neq 0$, dans lequel le sous-groupe $\mathbf{R}_+^*$ des nombres $> 0$ est à la fois ouvert et fermé (voir IV, p. 12).*
 
-#### Proposition 7 {#top-iii-s2-prop-7 .statement}
+#### Proposition 7 {#top-iii-s2-prop-7 .statement tag=0BI0}
 
 Soient G un groupe topologique, M une partie de G contenant l’élément neutre e, H le sous-groupe de G engendré par M. Si M est connexe, H est connexe.
 
 Soit $M'$ l’ensemble $M \cup M^{-1}$; il est connexe, puisque $M^{-1}$, image de M par l’application continue $x \mapsto x^{-1}$, est connexe (I, p. 82, prop. 4); comme M et $M^{-1}$ contiennent e, $M'$ est connexe (I, p. 81, prop. 2). Les groupe H est alors réunion des ensembles ${M'}^n$ pour les entiers $n \geqslant 1$ (A, I, p. 32, prop. 2 et p. 7, prop. 2); or ${M'}^n$ est l’image de la partie $M' \times M' \times \cdots \times M'$ (n fois) de $G \times G \times \cdots \times G$ par l’application continue $(x_1, x_2, \ldots, x_n) \mapsto x_1 x_2 \ldots x_n$; donc ${M'}^n$ est connexe (I, p. 83, prop. 8, et p. 82, prop. 4); comme e appartient à tous les ${M'}^n$, H est connexe (I, p. 81, prop. 2).
 
-#### Corollaire {#top-iii-s2-n2-cor-1 .statement}
+#### Corollaire {#top-iii-s2-n2-cor-1 .statement tag=0E9S}
 
 Le groupe des commutateurs d’un groupe topologique connexe est connexe.
 
 En effet, l’ensemble C des commutateurs est l’image de $G \times G$ par l’application continue $(x, y) \mapsto xyx^{-1}y^{-1}$, donc est connexe (I, p. 83, prop. 8 et p. 82, prop. 4); comme C contient évidemment e et engendre le groupe des commutateurs, cela prouve le corollaire.
 
-#### Proposition 8 {#top-iii-s2-prop-8 .statement}
+#### Proposition 8 {#top-iii-s2-prop-8 .statement tag=0BI1}
 
 Dans un groupe topologique G, la composante connexe K de l’élément neutre $e$ est un sous-groupe distingué fermé; la composante connexe d’un point $x$ est la classe $x.K = K.x$.
 
@@ -139,7 +139,7 @@ On dit que la composante connexe de l’élément neutre $e$ de $G$ est la *comp
 
 La proposition suivante généralise la prop. 1 de III, p. 7 et la prop. 6 de III, p. 8:
 
-#### Proposition 9 {#top-iii-s2-prop-9 .statement}
+#### Proposition 9 {#top-iii-s2-prop-9 .statement tag=0BI2}
 
 (i) *Soit $H$ un sous-groupe partout dense d’un groupe topologique $G$; si $K$ est un sous-groupe distingué de $H$, l’adhérence $\overline{K}$ de $K$ dans $G$ est un sous-groupe distingué de $G$.*
 
@@ -155,7 +155,7 @@ Soient $E$ un espace topologique, $G$ un groupe topologique. On dit que $G$ *op�
 1° $G$ opère sur $E$, autrement dit (A, I, p. 50) $E$ est muni d’une loi de composition externe $(s, x) \mapsto s.x$ dont $G$ est l’ensemble d’opérateurs, et qui est telle que $s.(t.x) = (st).x$ et $e.x = x$ pour $s, t$ dans $G$ et $x \in E$.
 2° L’application $(s, x) \mapsto s.x$ de $G \times E$ dans $E$ est *continue*.
 
-#### Lemme 1 {#top-iii-s2-lem-1 .statement}
+#### Lemme 1 {#top-iii-s2-lem-1 .statement tag=0BI3}
 
 *Si un groupe topologique $G$ opère continûment dans un espace topologique $E$, alors, pour tout $s \in G$, l’application $x \mapsto s.x$ est un homéomorphisme de $E$ sur lui-même.*
 
@@ -163,25 +163,25 @@ En effet, cette application est une bijection continue dont la bijection récipr
 
 Rappelons (A, I, p. 54) que, pour tout $x \in E$, l’ensemble $G.x$ des transformés $s.x$ de $x$ par les éléments $s \in G$ est appelé l’orbite de $x$ (pour le groupe d’opérateurs $G$) ; l’ensemble des $s \in G$ tels que $s.x = x$ est un sous-groupe de $G$, appelé stabilisateur de $x$ (A, I, p. 52). La relation $R \{x, y\} : « y$ appartient à l’orbite de $x$ » est une relation d’équivalence dans $E$, dite définie par $G$; les classes d’équivalence pour cette relation sont les orbites des points de $E$. L’espace topologique $E/R$ est appelé l’espace des orbites du groupe $G$ dans $E$, ou encore l’espace quotient de $E$ par le groupe $G$, et on le note $E/G$; on dit aussi que la topologie de $E/G$ est la topologie quotient de celle de $E$ par $G$.
 
-#### Lemme 2 {#top-iii-s2-lem-2 .statement}
+#### Lemme 2 {#top-iii-s2-lem-2 .statement tag=0BI4}
 
 Si un groupe topologique $G$ opère continûment dans un espace topologique $E$, la relation d’équivalence $R$ définie par $G$ est ouverte.
 
 En effet, le saturé pour $R$ d’une partie ouverte $U$ de $E$ est l’ensemble $\bigcup_{s \in G} s.U$, et chacun des $s.U$ est ouvert (lemme 1).
 
-#### Exemple 1 {#top-iii-s2-n4-exa-1 .statement}
+#### Exemple 1 {#top-iii-s2-n4-exa-1 .statement tag=0BI5}
 
 Soit $H$ un sous-groupe d’un groupe topologique $G$; $H$ opère continûment dans $G$ par la loi externe $(s, x) \mapsto sx$. Il opère aussi continûment dans $G$ par la loi externe $(s, x) \mapsto sxs^{-1}$.
 
-#### Exemple 2 {#top-iii-s2-n4-exa-2 .statement}
+#### Exemple 2 {#top-iii-s2-n4-exa-2 .statement tag=0BI6}
 
 *Si $K$ est un corps topologique (III, p. 54), le groupe multiplicatif $K^*$ opère continûment dans $K$ par la loi externe $(s, x) \mapsto sx.*$
 
-#### Exemple 3 {#top-iii-s2-n4-exa-3 .statement}
+#### Exemple 3 {#top-iii-s2-n4-exa-3 .statement tag=0BI7}
 
 Soient $G$ un groupe topologique, $E$ un espace topologique; l’application $(s, x) \mapsto x$ de $G \times E$ dans $E$ est une loi externe sur $E$ et $G$ opère continûment dans $E$ pour cette loi; on dit alors que $G$ opère trivialement dans $E$.
 
-#### Remarque {#top-iii-s2-n4-rem-1 .statement}
+#### Remarque {#top-iii-s2-n4-rem-1 .statement tag=0BI8}
 
 Au lieu de dire qu’un groupe topologique $G$ opère continûment dans un espace topologique $E$, on dit aussi parfois que $G$ opère continûment à gauche dans $E$. Lorsque le groupe topologique $G^0$ opposé à $G$ opère continûment dans $E$, on dit que $G$ opère continûment à droite dans $E$; il revient au même de dire que $E$ est muni d’une loi de composition externe continue $(s, x) \mapsto s.x$ ayant $G$ comme ensemble d’opérateurs et telle que $s.(t.x) = (ts).x$ et $e.x = x$. On note souvent une telle loi à droite: $(s, x) \mapsto x.s$ (d’où la terminologie), et on a alors $(x.t).s = x.(ts)$. Lorsque $G$ opère continûment à droite dans $E$ par la loi $(s, x) \mapsto x.s$, il opère aussi continûment à gauche dans $E$ par la nouvelle loi externe $(s, x) \mapsto x.s^{-1}$ en vertu de l’axiome (GTII).
 
@@ -189,19 +189,19 @@ Soient $E$ (resp. $E'$) un ensemble dans lequel opère un groupe $G$ (resp. $G'$
 
 Soient G un groupe topologique opérant continûment dans un espace topologique E, φ l’application canonique de E sur l’espace des orbites E/G. Soient A une partie quelconque de E, A’ le sous-espace de E saturé pour la relation d’équivalence R définie par G (réunion des orbites des points de A; on dit aussi que A’ est le saturé de A par G); G opère continûment dans A’ par la restriction de (s, x) ↦ s.x à G × A’. En outre, comme R est ouverte (lemme 2) et A’ saturé, la prop. 4 de I, p. 32, et la relation φ(A) = φ(A’), entraînent:
 
-#### Proposition 10 {#top-iii-s2-prop-10 .statement}
+#### Proposition 10 {#top-iii-s2-prop-10 .statement tag=0BI9}
 
 *La bijection canonique du sous-espace φ(A) de E/G sur l’espace des orbites A’/G est un homéomorphisme.*
 
 Soit maintenant S une relation d’équivalence dans E telle que, pour tout s ∈ G, l’application x ↦ s.x soit *compatible avec S* (autrement dit, telle que la relation x ≡ y (mod. S) entraîne s.x ≡ s.y (mod. S)); nous dirons pour abréger que la relation S est *compatible avec le groupe* G. Si ψ est l’application canonique de E sur E/S, et si on désigne par s.ψ(x) la classe mod. S de s.x, le groupe G opère dans l’espace E/S par (s, ψ(x)) ↦ s.ψ(x) = ψ(s.x). En outre:
 
-#### Proposition 11 {#top-iii-s2-prop-11 .statement}
+#### Proposition 11 {#top-iii-s2-prop-11 .statement tag=0BIA}
 
 *Si la relation d’équivalence S dans E est ouverte et compatible avec G, G opère continûment dans E/S.*
 
 Comme la relation d’égalité (resp. la relation S) est ouverte dans G (resp. dans E), tout revient à démontrer que l’application (s, x) ↦ s.ψ(x) = ψ(s.x) de G × E dans E/S est continue (I, p. 34, cor. de la prop. 8); or cela résulte du fait que ψ et (s, x) ↦ s.x sont continues.
 
-#### Remarque {#top-iii-s2-n4-rem-2 .statement}
+#### Remarque {#top-iii-s2-n4-rem-2 .statement tag=0BIB}
 
 Soit G’ un second groupe topologique opérant continûment dans E, et supposons que l’on ait s.(s’.x) = s’.(s.x) quels que soient s ∈ G, s’ ∈ G’, x ∈ E; alors la relation d’équivalence S définie par G’ est compatible avec G, et comme elle est ouverte (III, p. 10, lemme 2), on voit que G opère continûment dans E/G’; de même, G’ opère alors continûment dans E/G. On dit dans ce cas que les deux groupes G, G’ opèrent dans E de manières *permutables*.
 
@@ -209,19 +209,19 @@ Soit G’ un second groupe topologique opérant continûment dans E, et supposon
 
 Soient G un groupe topologique, H un sous-groupe de G. Le groupe H opère continûment à droite dans G par la loi externe (t, x) ↦ xt, l’orbite d’un point x ∈ G étant la classe à gauche xH suivant H. L’ensemble des orbites est donc ce que nous avons appelé en algèbre (A, I, p. 56) l’ensemble *homogène* G/H. Quand nous parlerons de G/H comme d’un espace topologique, il s’agira toujours, sauf mention expresse du contraire, de l’espace des orbites de G (pour H), autrement dit de l’espace quotient de G par la relation d’équivalence x^{-1}y ∈ H. Conformément aux définitions générales, nous dirons que la topologie de cet espace est la topologie *quotient de celle de G par* H et G/H, muni de sa topologie, sera appelé *espace homogène* des classes à gauche suivant H.
 
-#### Proposition 12 {#top-iii-s2-prop-12 .statement}
+#### Proposition 12 {#top-iii-s2-prop-12 .statement tag=0BIC}
 
 Le groupe G opère continûment dans tout espace homogène G/H.
 
 Comme la relation d’équivalence $x^{-1}y \in H$ est ouverte (III, p. 10, lemme 2), cet énoncé est un cas particulier de la prop. 11 de III, p. 11.
 
-#### Proposition 13 {#top-iii-s2-prop-13 .statement}
+#### Proposition 13 {#top-iii-s2-prop-13 .statement tag=0BID}
 
 Soient G un groupe topologique, H un sous-groupe de G. Pour que l’espace homogène G/H soit séparé, il faut et il suffit que H soit fermé dans G.
 
 La condition est nécessaire, H étant une classe d’équivalence suivant la relation $x^{-1}y \in H$; inversement, si H est fermé, le graphe de cette relation est fermé dans $G \times G$, étant l’image réciproque de H par l’application continue $(x, y) \mapsto x^{-1}y$. Comme la relation d’équivalence $x^{-1}y \in H$ est ouverte, G/H est séparé (I, p. 55, prop. 8).
 
-#### Proposition 14 {#top-iii-s2-prop-14 .statement}
+#### Proposition 14 {#top-iii-s2-prop-14 .statement tag=0BIE}
 
 Soient G un groupe topologique, H un sous-groupe de G. Pour que l’espace homogène G/H soit discret, il faut et il suffit que H soit ouvert dans G.
 
@@ -235,7 +235,7 @@ $$
 
 où $f_x$ est l’application canonique de G sur l’espace homogène $G/H_x$, et $g_x$ la bijection $s.H_x \mapsto s.x$ de $G/H_x$ sur E; on sait en outre (I, p. 21, prop. 6) que $g_x$ est une application continue. Mais $g_x$ n’est pas nécessairement un homéomorphisme de $G/H_x$ sur E (III, p. 72, exerc. 29). Lorsque, pour tout $x \in E$, $g_x$ est un homéomorphisme, on dit que E est un espace homogène topologique (correspondant au groupe topologique G); pour cela, il est nécessaire et suffisant que, pour tout $x \in E$, l’application $s \mapsto s.x$ de G dans E soit ouverte.
 
-#### Proposition 15 {#top-iii-s2-prop-15 .statement}
+#### Proposition 15 {#top-iii-s2-prop-15 .statement tag=0BIF}
 
 Pour qu’un espace topologique E, dans lequel un groupe topologique G opère continûment et transitivement, soit un espace homogène topologique (relativement à G), il suffit que, pour un point $x_0 \in E$, l’application $s \mapsto s.x_0$ transforme tout voisinage de e dans G en un voisinage de $x_0$ dans E.
 
@@ -243,7 +243,7 @@ En effet, tout $x \in E$ s’écrit $x = t.x_0$ pour un $t \in G$; si V est un v
 
 ### 6. Groupes quotients
 
-#### Proposition 16 {#top-iii-s2-prop-16 .statement}
+#### Proposition 16 {#top-iii-s2-prop-16 .statement tag=0BIG}
 
 Soient $G$ un groupe topologique, $H$ un sous-groupe distingué de $G$. La topologie quotient de celle de $G$ par $H$ est compatible avec la structure de groupe de $G/H$.
 
@@ -251,7 +251,7 @@ Si $x \mapsto \dot{x}$ est l’application canonique de $G$ sur $G/H$, il faut p
 
 Lorsque nous parlerons désormais d’un groupe quotient $G/H$ d’un groupe topologique $G$ comme d’un groupe topologique, il faudra toujours entendre, sauf mention expresse du contraire, que sa topologie est la topologie quotient de celle de $G$ par $H$.
 
-#### Proposition 17 {#top-iii-s2-prop-17 .statement}
+#### Proposition 17 {#top-iii-s2-prop-17 .statement tag=0BIH}
 
 Soit $\varphi$ l’application canonique d’un groupe topologique $G$ sur un groupe quotient $G/H$. Si $\mathfrak{V}$ est un système fondamental de voisinages de $e$ dans $G$, $\varphi(\mathfrak{V})$ est un système fondamental de voisinages de l’élément neutre $\varphi(e)$ de $G/H$.
 
@@ -259,7 +259,7 @@ C’est un cas particulier de la prop. 5 de I, p. 33.
 
 Les prop. 13 et 14 (III, p. 12) donnent en particulier, pour les groupes quotients:
 
-#### Proposition 18 {#top-iii-s2-prop-18 .statement}
+#### Proposition 18 {#top-iii-s2-prop-18 .statement tag=0BII}
 
 Soient $G$ un groupe topologique, $H$ un sous-groupe distingué de $G$.
 a) Pour que le groupe quotient $G/H$ soit séparé, il faut et il suffit que $H$ soit fermé dans $G$.
@@ -267,7 +267,7 @@ b) Pour que le groupe quotient $G/H$ soit discret, il faut et il suffit que $H$ 
 
 Si $G$ est un groupe topologique, et $N$ l’adhérence de $\{e\}$ dans $G$, $N$ est un sous-groupe distingué fermé de $G$ (III, p. 7, prop. 1), donc $G/N$ est séparé; on dit que $G/N$ est le groupe séparé associé à $G$.
 
-#### Proposition 19 {#top-iii-s2-prop-19 .statement}
+#### Proposition 19 {#top-iii-s2-prop-19 .statement tag=0BIJ}
 
 Si $H$ est un sous-groupe distingué discret d’un groupe topologique $G$, $G/H$ est localement isomorphe (III, p. 6) à $G$.
 
@@ -277,7 +277,7 @@ En effet, soit $V$ un voisinage de $e$ dans $G$, ne contenant aucun point de $H$
 
 Soient G un groupe topologique, H un sous-groupe distingué de G, φ l’application canonique de G sur G/H. On sait (A, I, p. 37) que si A′ est un sous-groupe de G/H, φ(A′) est un sous-groupe de G contenant H. Réciproquement, si A est un sous-groupe de G, φ(A) est un sous-groupe de G/H; en outre, il existe une bijection canonique du groupe quotient A/(A ∩ H) sur le sous-groupe φ(A) de G/H et une bijection canonique de φ(A) sur le groupe quotient AH/H, et ces bijections sont des isomorphismes pour les structures de groupe.
 
-#### Proposition 20 {#top-iii-s2-prop-20 .statement}
+#### Proposition 20 {#top-iii-s2-prop-20 .statement tag=0BIK}
 
 Soient A un sous-groupe d’un groupe topologique G, H un sous-groupe distingué de G, φ l’application canonique de G sur G/H. La bijection canonique de φ(A) sur AH/H est un isomorphisme de groupes topologiques.
 
@@ -289,7 +289,7 @@ La bijection canonique de A/(A ∩ H) sur φ(A) est un homomorphisme continu, pu
 
 On a toutefois la proposition suivante:
 
-#### Proposition 21 {#top-iii-s2-prop-21 .statement}
+#### Proposition 21 {#top-iii-s2-prop-21 .statement tag=0BIL}
 
 Soient G un groupe topologique, G_0 un sous-groupe partout dense, H_0 un sous-groupe distingué fermé de G_0, H son adhérence dans G, φ l’application canonique G → G/H; la bijection canonique G_0/H_0 → φ(G_0) est un isomorphisme du groupe topologique G_0/H_0 sur un sous-groupe partout dense de G/H.
 
@@ -299,11 +299,11 @@ Soit G un groupe topologique opérant continûment dans un espace topologique E,
 
 Soient maintenant G un groupe topologique opérant continûment dans un espace topologique E, H un sous-groupe quelconque de G. Le groupe H opère continûment dans E; soit S la relation d’équivalence dans E définie par H, qui est ouverte (III, p. 10, lemme 2). La relation S est compatible avec le groupe G (III, p. 11); en effet, si y ≡ x (mod. S), il existe t ∈ H tel que y = t.x, d’où, pour tout s ∈ G, s.y = (sts^{-1}).(s.x), et comme H est distingué, sts^{-1} ∈ H, d’où notre assertion. Si ψ est l’application canonique de E sur E/S, le groupe G opère donc continûment dans E/S pour la loi externe (s, ψ(x)) ↦ ψ(s.x) (III, p. 11, prop. 11). En outre, le groupe H est contenu dans le stabilisateur de chacun des points de E/S; comme on l’a vu ci-dessus, G/H opère continûment dans E/S = E/H, pour la loi externe (s, ψ(x)) ↦ ψ(s.x). Si on désigne par R la relation d’équivalence dans E définie par G, la relation S entraîne R, et la relation d’équivalence R/S dans E/S est la relation définie par le groupe G/H. Par suite (I, p. 21, prop. 7):
 
-#### Proposition 22 {#top-iii-s2-prop-22 .statement}
+#### Proposition 22 {#top-iii-s2-prop-22 .statement tag=0BIM}
 
 Soient G un groupe topologique opérant continûment dans un espace topologique E, H un sous-groupe distingué de G. La bijection canonique de E/G sur (E/H)/(G/H) est un homéomorphisme.
 
-#### Corollaire {#top-iii-s2-n7-cor-1 .statement}
+#### Corollaire {#top-iii-s2-n7-cor-1 .statement tag=0BIN}
 
 Soient G un groupe topologique, H un sous-groupe distingué de G, K un sous-groupe distingué de G contenant H; la bijection canonique de G/K sur (G/H)/(K/H) est un isomorphisme de groupes topologiques.
 
@@ -311,7 +311,7 @@ On sait déjà (A, I, p. 39) que cette bijection est un isomorphisme de groupes,
 
 ### 8. Homomorphismes continus et morphismes stricts
 
-#### Proposition 23 {#top-iii-s2-prop-23 .statement}
+#### Proposition 23 {#top-iii-s2-prop-23 .statement tag=0BIO}
 
 Pour qu’un homomorphisme f d’un groupe topologique G dans un groupe topologique G' soit continu dans G, il faut et il suffit qu’il soit continu en un point.
 
@@ -323,13 +323,13 @@ Soit f un homomorphisme continu d’un groupe topologique G dans un groupe topol
 
 Par exemple, soient G' un groupe topologique non discret, G le groupe topologique obtenu en munissant G' de la topologie discrète; l’application identique de G dans G' est un homomorphisme bijectif continu, mais non bicontinu.
 
-#### Définition 1 {#top-iii-s2-def-1 .statement}
+#### Définition 1 {#top-iii-s2-def-1 .statement tag=0BIP}
 
 On dit qu’un homomorphisme continu f d’un groupe topologique G dans un groupe topologique G' est un morphisme strict de G dans G', si l’homomorphisme bijectif $\dot{f}$ de $G/\overline{f}(e')$ sur $f(G)$, associé à f, est un isomorphisme de groupes topologiques (autrement dit, si $\dot{f}$ est bicontinu).
 
 Un isomorphisme d’un groupe topologique G sur un groupe topologique G' est donc un morphisme strict bijectif de G dans G'.
 
-#### Proposition 24 {#top-iii-s2-prop-24 .statement}
+#### Proposition 24 {#top-iii-s2-prop-24 .statement tag=0BIQ}
 
 Soit f un homomorphisme continu d’un groupe topologique G dans un groupe topologique G'; les trois propositions suivantes sont équivalentes:
 a) f est un morphisme strict;
@@ -338,17 +338,17 @@ c) l’image par f de tout voisinage de l’élément neutre dans G est un voisi
 
 Compte tenu du lemme 2 de III, p. 10, l’équivalence de a) et b) résulte aussitôt des définitions (I, p. 33, prop. 5). L’équivalence de b) et c) est un cas particulier de la prop. 15 de III, p. 12, si l’on observe que G opère continûment dans $f(G)$ par la loi externe $(s, f(t)) \mapsto f(st)$.
 
-#### Remarque 1 {#top-iii-s2-n8-rem-1 .statement}
+#### Remarque 1 {#top-iii-s2-n8-rem-1 .statement tag=0BIR}
 
 D’après la condition b) de la prop. 24, tout homomorphisme continu d’un groupe topologique dans un groupe discret est un morphisme strict.
 
 Si le groupe G est compact et $f(G)$ séparé, l’homomorphisme bijectif $\dot{f}$ associé à f est bicontinu (I, p. 76, cor 2, et I, p. 74, cor. 4); donc, tout homomorphisme continu d’un groupe compact dans un groupe séparé est un morphisme strict.
 
-#### Remarque 2 {#top-iii-s2-n8-rem-2 .statement}
+#### Remarque 2 {#top-iii-s2-n8-rem-2 .statement tag=0BIS}
 
 Soient f un morphisme strict de G dans G', g un morphisme strict de G' dans G"; si f est surjectif, ou si g est injectif, il résulte aussitôt de la prop. 24 que $g \circ f$ est un morphisme strict de G dans G". Par contre, cette conclusion n’est plus nécessairement valable si aucune des deux hypothèses précédentes n’est satisfaite, même si f est injectif et g surjectif (III, p. 70, exerc. 19).
 
-#### Remarque 3 {#top-iii-s2-n8-rem-3 .statement}
+#### Remarque 3 {#top-iii-s2-n8-rem-3 .statement tag=0BIT}
 
 Soit $f$ un homomorphisme continu d’un groupe topologique $G$ dans un groupe topologique $G'$, et soit $H$ un sous-groupe distingué de $G$; par passage aux quotients, on déduit de $f$ un homomorphisme $g$ du groupe $G/H$ sur le groupe quotient $f(G)/f(H)$. Cet homomorphisme est *continu* (I, p. 21, corollaire). En outre, si $f$ est un *morphisme strict* de $G$ dans $G'$, $g$ est un *morphisme strict* de $G/H$ sur $f(G)/f(H)$: en effet, si $U$ est ouvert dans $G/H$, et si on désigne par $\varphi$ (resp. $\varphi'$) l’application canonique de $G$ sur $G/H$ (resp. de $f(G)$ sur $f(G)/f(H)$), on a $g(U) = \varphi'(f(\varphi^{-1}(U)))$, et comme $\varphi^{-1}(U)$ est ouvert dans $G$, $g(U)$ est ouvert dans $f(G)/f(H)$, d’où notre assertion.
 
@@ -356,7 +356,7 @@ Soit $f$ un homomorphisme continu d’un groupe topologique $G$ dans un groupe t
 
 Soit $(G_i)_{i \in I}$ une famille de groupes topologiques. On sait (A, I, p. 43) qu’on définit sur l’ensemble produit $G = \prod_{i \in I} G_i$ une structure de groupe (dite *produit* des structures de groupes des $G_i$) en posant $(x_i).(y_i) = (x_i y_i)$; si $e_i$ est l’élément neutre de $G_i$, $e = (e_i)$ est l’élément neutre de $G$, et on a $(x_i)^{-1} = (x_i^{-1})$. La *topologie produit* (I, p. 14) des topologies des $G_i$ est *compatible* avec la structure de groupe précédente. En effet, l’application $((x_i), (y_i)) \mapsto (x_i y_i^{-1})$ de $G \times G$ dans $G$ est composée de l’application $((x_i, y_i)) \mapsto (x_i y_i^{-1})$ de $\prod_{i \in I} (G_i \times G_i)$ dans $G$, et de l’application canonique $((x_i), (y_i)) \mapsto ((x_i, y_i))$ de $G \times G$ sur $\prod_{i \in I} (G_i \times G_i)$; et ces applications sont continues (I, p. 25, cor. 1 et prop. 2).
 
-#### Définition 2 {#top-iii-s2-def-2 .statement}
+#### Définition 2 {#top-iii-s2-def-2 .statement tag=0BIU}
 
 *On dit que le groupe topologique obtenu en munissant l’ensemble produit $G = \prod_{i \in I} G_i$ de la structure de groupe produit des structures de groupe des $G_i$, et de la topologie produit des topologies des $G_i$, est le produit des groupes topologiques $G_i$.*.
 
@@ -364,7 +364,7 @@ Si $(J_k)_{k \in K}$ est une *partition* de $I$, $G$ est isomorphe au produit de
 
 Si $H_i$ est un sous-groupe de $G_i$, le produit des groupes topologiques $H_i$ est isomorphe au sous-groupe $\prod_i H_i$ de $\prod_i G_i$. En particulier, soit $J$ une partie quelconque de $I$, et $J' = \complement J$; le groupe topologique $\prod_{i \in J} G_i$ est isomorphe au sous-groupe distingué $G'_J = (\prod_{i \in J} G_i) \times (\prod_{i \in J'} \{e_i\})$ de $G$. Comme la projection de tout ensemble ouvert est un ensemble ouvert, la projection $\mathrm{pr}_J$ de $G$ sur $\prod_{i \in J} G_i$ est un *morphisme strict*; par suite, le groupe quotient $G/G'_J$ est isomorphe à $G'_{J'}$: $G$ est isomorphe au produit $G'_J \times (G/G'_J)$.
 
-#### Proposition 25 {#top-iii-s2-prop-25 .statement}
+#### Proposition 25 {#top-iii-s2-prop-25 .statement tag=0BIV}
 
 *Soit $(G_i)_{i \in I}$ une famille de groupes topologiques, et soit $H$ le sous-* groupe distingué de $G = \prod_{i \in I} G_i$ formé des $x = (x_i)$ tels que les $x_i$ soient égaux à l’élément neutre $e_i$ de $G_i$ sauf pour un nombre fini d’indices. Le sous-groupe $H$ est partout dense dans $G$.
 
@@ -372,25 +372,25 @@ C’est un cas particulier de I, p. 28, prop. 8.
 
 Soit $(E_i)_{i \in I}$ une famille d’espaces topologiques, et pour chaque $i \in I$, soit $G_i$ un groupe topologique opérant continûment dans $E_i$. Il est clair que le groupe produit $G = \prod_{i \in I} G_i$ opère continûment dans l’espace produit $E = \prod_{i \in I} E_i$ pour la loi externe $((s_i), (x_i)) \mapsto (s_i \cdot x_i)$ (I, p. 25, cor. 1 et prop. 2); en outre l’orbite pour $G$ d’un point $x = (x_i)$ de $E$ est le produit des orbites des $x_i$ (pour les $G_i$). Soit $\varphi_i$ l’application canonique de $E_i$ sur $E_i / G_i$, et soit $\varphi = (\varphi_i)$ l’application produit de $E$ sur $\prod_{i \in I} (E_i / G_i)$; la remarque précédente montre que la bijection canoniquement associée à $\varphi$ applique l’espace des orbites $E/G$ sur $\prod_{i \in I} (E_i / G_i)$. En outre:
 
-#### Proposition 26 {#top-iii-s2-prop-26 .statement}
+#### Proposition 26 {#top-iii-s2-prop-26 .statement tag=0BIW}
 
 *La bijection de $E/G$ sur $\prod_{i \in I} (E_i / G_i)$ canoniquement associée à $(\varphi_i)$ est un homéomorphisme.*
 
 En effet, comme les $\varphi_i$ sont surjectives et ouvertes, $\varphi = (\varphi_i)$ est ouverte (I, p. 34, cor. de la prop. 8).
 
-#### Corollaire {#top-iii-s2-n9-cor-1 .statement}
+#### Corollaire {#top-iii-s2-n9-cor-1 .statement tag=0BIX}
 
 *Soit $(G_i)_{i \in I}$ une famille de groupes topologiques, et pour chaque $i \in I$, soit $H_i$ un sous-groupe distingué de $G_i$; on désigne par $\varphi_i$ l’application canonique de $G_i$ sur $G_i / H_i$. Posons $G = \prod_{i \in I} G_i$, $H = \prod_{i \in I} H_i$. L’homomorphisme bijectif de $G/H$ sur $\prod_{i \in I} (G_i / H_i)$ associé à l’homomorphisme continu $(x_i) \mapsto (\varphi_i(x_i))$ est un isomorphisme de groupes topologiques.*
 
 En effet, cet homomorphisme est un isomorphisme pour les structures de groupe.
 
-#### Remarque {#top-iii-s2-n9-rem-1 .statement}
+#### Remarque {#top-iii-s2-n9-rem-1 .statement tag=0BIY}
 
 Si $G$ est un groupe topologique *commutatif* noté additivement, l’application $(x, y) \mapsto x + y$ de $G \times G$ sur $G$ est un *morphisme strict*; c’est en effet un homomorphisme de $G \times G$ sur $G$, puisque $(x + x') + (y + y') = (x + y) + (x' + y')$; il est continu, et enfin l’image du voisinage $V \times V$ de l’origine dans $G \times G$, par cet homomorphisme, est le voisinage $V + V$ de l’origine dans $G$.
 
 ### 10. Produits semi-directs de groupes topologiques
 
-#### Proposition 27 {#top-iii-s2-prop-27 .statement}
+#### Proposition 27 {#top-iii-s2-prop-27 .statement tag=0BIZ}
 
 *Soient $L, N$ deux groupes topologiques, $y \mapsto \sigma_y$ un homomorphisme de $L$ dans le groupe des automorphismes $\Gamma$ de la structure de groupe (non topologique) de $N$. On suppose que l’application $(x, y) \mapsto \sigma_y(x)$ de $N \times L$ dans $N$ est continue. Alors:
 1° Sur le produit semi-direct externe $S$ de $N$ et de $L$, relatif à $\sigma$ (A, I, p. 64, déf. 2), la topologie produit de celles de $N$ et de $L$ est compatible avec la structure de groupe; les injections canoniques $j_1 : N \to S, j_2 : L \to S$ sont des isomorphismes respectifs des groupes* topologiques $N$ et $L$ sur les sous-groupes $j_1(N)$ et $j_2(L)$ du groupe topologique $S$, et $pr_2$ est un morphisme strict de $S$ sur $L$.

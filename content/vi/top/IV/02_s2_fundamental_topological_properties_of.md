@@ -36,7 +36,7 @@ subsections:
       pdf_page: 344
 statements: 15
 exercises: 16
-content_sha256: d444b3593cbd267c1fde16b690760e6139482e9bf889afefe4e4ffe38d010adf
+content_sha256: ebcc60f0e2532d452672e518f57b84fc782e69518c1da89e692b1a40dfe25ed6
 translated_from: content/en/top/IV/02_s2_fundamental_topological_properties_of.md
 source_content_sha256: 50eb28dc9791a8f8766122492868642bc5ff7a0d59ae641670586ce32566560a
 translation_model: gpt-5.4
@@ -52,19 +52,19 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Các tính chất tôpô của đường thẳng thực là đối tượng của tiết này đều là hệ quả của định lý sau đây:
 
-#### Định lý 1 {#top-iv-s2-thm-1 .statement}
+#### Định lý 1 {#top-iv-s2-thm-1 .statement tag=0BPF}
 
 *Nếu $x$ và $y$ là hai số thực bất kỳ > 0, thì tồn tại một số nguyên $n > 0$ sao cho $y < nx$.*
 
 Tồn tại hai số hữu tỉ $p/q$ và $r/s$ sao cho $0 < p/q < x$ và $y < r/s$, vì các khoảng mở ]$0, x$ và ]$y, \to$ là không rỗng ($\S$ I, no. 4, Mệnh đề 4); lấy $n$ sao cho $nps > qr$, và ta có $y < nx$.
 
-#### Nhận xét {#top-iv-s2-n1-rem-1 .statement}
+#### Nhận xét {#top-iv-s2-n1-rem-1 .statement tag=0BPG}
 
 Một phép dựng tiên đề của lý thuyết số thực sẽ được trình bày trong Chương V, $\S$ 2, trong đó Định lý 1 xuất hiện như một tiên đề; để biết thêm chi tiết về tiên đề này, xem Ghi chú lịch sử của Chương IV.
 
 ### 2. CÁC TẬP CON COMPACT CỦA $\mathbf{R}$
 
-#### Định lý 2 (Borel-Lebesgue) {#top-iv-s2-thm-2 .statement}
+#### Định lý 2 (Borel-Lebesgue) {#top-iv-s2-thm-2 .statement tag=0BPH}
 
 Điều kiện cần và đủ để một tập con của đường thẳng thực $\mathbf{R}$ là compact là nó đóng và bị chặn.
 
@@ -72,21 +72,21 @@ Một phép dựng tiên đề của lý thuyết số thực sẽ được trì
 
 2) Điều kiện là đủ. Chỉ cần chứng tỏ rằng mọi khoảng $[ -a, +a ]$ ($a > 0$) đều compắc, và vì khoảng này là một tập con đóng của một không gian đều đầy đủ, chỉ cần chứng tỏ rằng, với mỗi $b > 0$, ta có thể phủ $[ -a, +a ]$ bởi một số hữu hạn các khoảng có dạng $[x - b, x + b]$ (Chương II, $\S$ 4, no. 2, Hệ quả của Định lý 3). Bây giờ, cho $n$ là một số nguyên $> 0$ sao cho $a < nb$; nếu $x \in [ -a, +a ]$ và nếu $m$ là số nguyên lớn nhất (dương hoặc âm) sao cho $mb \leq x$, thì ta có $-n \leq m \leq n$ và $mb \leq x \leq (m + 1)b$. Do đó $2n + 1$ khoảng $[ (k - 1)b, (k + 1)b ]$ ($-n \leq k \leq n$) lập thành một phủ thuộc kiểu đã yêu cầu.
 
-#### Hệ quả 1 {#top-iv-s2-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#top-iv-s2-thm-2-cor-1 .statement tag=0BPI}
 
 Một tập con của đường thẳng thực $\mathbf{R}$ là compact tương đối nếu và chỉ nếu nó bị chặn.
 
-#### Hệ quả 2 {#top-iv-s2-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#top-iv-s2-thm-2-cor-2 .statement tag=0BPJ}
 
 Đường thẳng thực là một không gian compact địa phương và không compact.
 
-#### Nhận xét {#top-iv-s2-n2-rem-1 .statement}
+#### Nhận xét {#top-iv-s2-n2-rem-1 .statement tag=0BPK}
 
 Định lý 2 thường được gọi là "Định lý Heine-Borel"; xem các Ghi chú lịch sử của Chương II và IV.
 
 ### 3. CẬN TRÊN BÉ NHẤT CỦA MỘT TẬP CON CỦA $\mathbf{R}$
 
-#### Định lý 3 {#top-iv-s2-thm-3 .statement}
+#### Định lý 3 {#top-iv-s2-thm-3 .statement tag=0BPL}
 
 Mọi tập con không rỗng của đường thẳng thực bị chặn trên (resp. bị chặn dưới) đều có một cận trên bé nhất (resp. cận dưới lớn nhất).
 
@@ -102,7 +102,7 @@ Cận trên nhỏ nhất của một tập đóng (khác rỗng và bị chặn 
 
 ### 4. ĐẶC TRƯNG HÓA CÁC KHOẢNG
 
-#### Mệnh đề 1 {#top-iv-s2-prop-1 .statement}
+#### Mệnh đề 1 {#top-iv-s2-prop-1 .statement tag=0BPM}
 
 *Một tập con không rỗng $A$ của $\mathbf{R}$ là một khoảng khi và chỉ khi, hễ $a$ và $b$ là hai điểm bất kỳ của $A$ sao cho $a < b$, thì khoảng đóng $[a, b]$ được chứa trong $A$*.
 
@@ -110,7 +110,7 @@ Cận trên nhỏ nhất của một tập đóng (khác rỗng và bị chặn 
 
 ### 5. CÁC TẬP CON LIÊN THÔNG CỦA $\mathbf{R}$
 
-#### Định lý 4 {#top-iv-s2-thm-4 .statement}
+#### Định lý 4 {#top-iv-s2-thm-4 .statement tag=0BPN}
 
 *Một tập con $A$ của $\mathbf{R}$ là liên thông khi và chỉ khi $A$ là một khoảng.*
 
@@ -120,17 +120,17 @@ i) Điều kiện là cần thiết. Giả sử $A$ liên thông: nếu $A$ ch�
 
 Nếu bây giờ $I$ là một khoảng bất kỳ không gồm một điểm duy nhất, và nếu $a$ và $b$ là hai điểm bất kỳ của $I$ sao cho $a < b$, thì khoảng $[a, b]$ được chứa trong $I$ và là liên thông, do đó $I$ là liên thông.
 
-#### Hệ quả 1 {#top-iv-s2-thm-4-cor-1 .statement}
+#### Hệ quả 1 {#top-iv-s2-thm-4-cor-1 .statement tag=0BPO}
 
 *Đường thẳng thực là một không gian liên thông và địa phương liên thông.*
 
-#### Hệ quả 2 {#top-iv-s2-thm-4-cor-2 .statement}
+#### Hệ quả 2 {#top-iv-s2-thm-4-cor-2 .statement tag=0BPP}
 
 *Các tập con compact liên thông duy nhất của $\mathbf{R}$ là các khoảng đóng bị chặn.*
 
 Theo Định lý 4, một tập con của $\mathbf{R}$ không chứa bất kỳ khoảng nào gồm nhiều hơn một điểm thì *hoàn toàn không liên thông*; điều này đúng, chẳng hạn, với tập $\mathbf{Q}$ các số hữu tỉ, vì tập $C\mathbf{Q}$ các số vô tỉ là trù mật trong $\mathbf{R}$.
 
-#### Mệnh đề 2 {#top-iv-s2-prop-2 .statement}
+#### Mệnh đề 2 {#top-iv-s2-prop-2 .statement tag=0BPQ}
 
 *Mọi tập mở không rỗng trong $\mathbf{R}$ là hợp của một họ đếm được các khoảng mở đôi một rời nhau.*
 
@@ -138,7 +138,7 @@ Cho $A$ là một tập hợp mở không rỗng trong $\mathbf{R}$. Vì $\mathb
 
 Suy ra mọi tập hợp đóng trong $\mathbf{R}$ là phần bù của hợp của một dãy $(I_n)$ hữu hạn hoặc vô hạn gồm các khoảng mở đôi một rời nhau. Các khoảng này được gọi là *kề* với tập hợp đóng đang xét. Ngược lại, cho một dãy khoảng như vậy, phần bù của hợp của chúng là một tập hợp đóng mà các khoảng ấy kề với nó.
 
-#### Ví dụ {#top-iv-s2-n5-exa-1 .statement}
+#### Ví dụ {#top-iv-s2-n5-exa-1 .statement tag=0BPR}
 
 Hãy định nghĩa bằng quy nạp một họ đếm được $(I_{n,p})$ các khoảng mở đôi một rời nhau như sau:
 Số nguyên $n$ nhận mọi giá trị $\geqslant 0$, và với mỗi giá trị của $n$, $p$ nhận các giá trị $1, 2, 3, \ldots, 2^n$. Mọi khoảng $I_{n,p}$ đều được chứa trong
@@ -155,7 +155,7 @@ Nếu $K'$ là phần bù của hợp các $I_{n,p}$, thì tập đóng $K = A \
 
 ### 6. ĐỒNG PHÔI CỦA MỘT KHOẢNG LÊN MỘT KHOẢNG
 
-#### Định lý 5 {#top-iv-s2-thm-5 .statement}
+#### Định lý 5 {#top-iv-s2-thm-5 .statement tag=0BPS}
 
 *Cho I là một khoảng trong R. Khi đó một ánh xạ f từ I vào R là một đồng phôi của I lên f(I) khi và chỉ khi f đơn điệu nghiêm ngặt và liên tục trên I; và khi đó f(I) là một khoảng trong R.*
 
@@ -165,7 +165,7 @@ Suy ra rằng nếu $x$ và $y$ là hai điểm bất kỳ của I sao cho $x < 
 
 2) Điều kiện này là *đủ*. Giả sử $f$ liên tục và đơn điệu nghiêm ngặt trên I (chẳng hạn, tăng ngặt): $f(I)$ liên thông và do đó là một khoảng, và vì $f$ tăng ngặt, $f$ là một ánh xạ song ánh từ I lên $f(I)$. Hơn nữa, ảnh qua $f$ của một khoảng mở *trong* I là một khoảng mở *trong* $f(I)$, và do đó (§ 1, no, 4, Mệnh đề 5) $f$ là một đồng phôi từ I lên $f(I)$.
 
-#### Nhận xét {#top-iv-s2-n6-rem-1 .statement}
+#### Nhận xét {#top-iv-s2-n6-rem-1 .statement tag=0BPT}
 
 Phần đầu của chứng minh trước thực ra cho thấy rằng một ánh xạ *liên tục đơn ánh* từ I vào $\mathbf{R}$ là đơn điệu nghiêm ngặt; do phần thứ hai của chứng minh, vì thế suy ra rằng *mọi ánh xạ liên tục đơn ánh* $f$ *từ một khoảng* I *vào* $\mathbf{R}$ *đều là một đồng phôi của* I *lên* $f(I)$.
 

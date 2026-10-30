@@ -53,7 +53,7 @@ subsections:
       pdf_page: 49
 statements: 56
 exercises: 18
-content_sha256: 323d94bc64f1ca7aaad7f39500ab0953ad160ee220cd93273a34c6d3eec56ad5
+content_sha256: 58ab44ae2a89728a2f7ae874ed7b0efe13ec0d155a2c5ebe9f3a191b0ce83338
 translated_from: content/en-mt/alg/X/02_s2_complexes_de_a_modules.md
 source_lang: en-mt
 translation_method: machine
@@ -75,7 +75,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Phức của A-Môđun
 
-#### Định nghĩa 1 {#alg-x-s2-def-1 .statement}
+#### Định nghĩa 1 {#alg-x-s2-def-1 .statement tag=0DRD}
 
 *Một phức vi phân của các $A$-môđun là một cặp $(C,d)$ tạo bởi một $A$-môđun phân bậc $C$ và một tự đồng cấu $d:C\to C$ phân bậc bậc giảm dần $-1$ và sao cho $d\circ d=0$.*
 
@@ -124,7 +124,7 @@ Cho $(C, d)$ là một phức. Đặt $Z(C, d) = \mathrm{Ker}\,(d)$, $B(C, d) = 
 
 Vì $d \circ d = 0$, ta có $B(C) \subset Z(C)$; hai chu trình được gọi là đồng điều nếu hiệu của chúng là một biên; môđun thương phân bậc $H(C, d) = Z(C, d)/B(C, d)$ được gọi là môđun đồng điều của $(C, d)$; các phần tử của nó là các lớp đồng điều; các thành phần thuần nhất của nó được ký hiệu bởi $H_n(C, d) = H^{-n}(C, d)$.
 
-#### Ví dụ {#alg-x-s2-n1-exa-1 .statement}
+#### Ví dụ {#alg-x-s2-n1-exa-1 .statement tag=0DRE}
 
 Nếu $C$ có vi phân bằng không, ta có $Z(C) = C$, $B(C) = 0$ và $H(C)$ được đồng nhất một cách chính tắc với $C$.
 
@@ -143,7 +143,7 @@ dãy này cũng được viết, khi thay $n$ bằng $-n$,
 
 (V$^n$) $$ 0 \to H^n(C) \to C^n/B^n(C) \to Z^{n+1}(C) \to H^{n+1}(C) \to 0 . $$
 
-#### Định nghĩa 2 {#alg-x-s2-def-2 .statement}
+#### Định nghĩa 2 {#alg-x-s2-def-2 .statement tag=0DRF}
 
 Cho $(C, d)$ và $(C', d')$ là hai phức. Một cấu xạ $^1$ từ $(C, d)$ đến $(C', d')$ là một đồng cấu phân bậc A bậc 0 từ $C$ đến $C'$ sao cho
 $$
@@ -172,7 +172,7 @@ Z(u' \circ u) = Z(u') \circ Z(u) , \quad B(u' \circ u) = B(u') \circ B(u) , \qua
 $$
 Hiển nhiên một cấu xạ song ánh là một đẳng cấu.
 
-#### Định nghĩa 3 {#alg-x-s2-def-3 .statement}
+#### Định nghĩa 3 {#alg-x-s2-def-3 .statement tag=0DRG}
 
 Cho $(C, d)$ và $(C', d')$ là hai phức. Một đẳng cấu đồng điều (hay giả đẳng cấu) từ $(C, d)$ đến $(C', d')$ là một cấu xạ $u$ từ $(C, d)$ đến $(C', d')$ sao cho $H(u)$ là song ánh.
 
@@ -258,7 +258,7 @@ Khi $I$ là hữu hạn, $\prod_{i \in I} (C_i, d_i)$ bằng $\bigoplus_{i \in I
 
 Xét một họ (tương ứng, một hệ quy nạp lọc) các phức $(C_i)_{i \in I}$. Gọi $C$ là tổng trực tiếp (tương ứng, giới hạn quy nạp) của các $C_i$, và gọi $\alpha_i : C_i \to C$ là các đồng cấu chính tắc. Khi đó các $H(\alpha_i) : H(C_i) \to H(C)$ xác định một đồng cấu phân bậc chính tắc bậc 0 từ $\bigoplus_{i \in I} H(C_i)$ (tương ứng, $\varprojlim_{i \in I} H(C_i)$) vào $H(C)$. Tương tự, các phép chiếu chính tắc $\prod_{i \in I} C_i \to C_i$ xác định một đồng cấu phân bậc chính tắc bậc 0 từ $H(\prod_{i \in I} C_i)$ vào $\prod_{i \in I} H(C_i)$.
 
-#### Mệnh đề 1 {#alg-x-s2-prop-1 .statement}
+#### Mệnh đề 1 {#alg-x-s2-prop-1 .statement tag=0DRH}
 
 Với mọi họ các phức $(C_i)_{i \in I}$, các đồng cấu chính tắc
 $$
@@ -288,7 +288,7 @@ d(\bar{u}^{-1}(dx)) = \bar{u}^{-1}(dd(x)) = 0 ,
 $$
 do đó $\bar{u}^{-1}(dx) \in Z(C')$; ta cũng có $dv(x) = v(dx) \in \operatorname{Im}(v \circ u) = 0$, do đó $v(x) \in Z(C'')$; khi đó ta xét ánh xạ tuyến tính $\varphi : \Gamma \to H(C'') \times H(C')$ ánh xạ mỗi phần tử $x \in \Gamma$ lên lớp của $(v(x), \bar{u}^{-1}(dx))$.
 
-#### Bổ đề 1 {#alg-x-s2-lem-1 .statement}
+#### Bổ đề 1 {#alg-x-s2-lem-1 .statement tag=0DRI}
 
 Ảnh $\varphi(\Gamma)$ của $\Gamma$ trong $H(C'') \times H(C')$ là đồ thị của một A-đồng cấu phân bậc bậc $-1$ từ $H(C'')$ vào $H(C')$.
 
@@ -345,7 +345,7 @@ $$
 
 Đồng cấu $H_n(C'')\to H_{n-1}(C')$ liên kết với biểu đồ này (loc. cit., mệnh đề 2, (iii)) trùng theo phép dựng với $\partial_n(u,v).$ Điều này hơn nữa kéo theo rằng dãy các đồng cấu $(H_n(u),\ H_n(v),\ \partial_n(u,v),\ H_{n-1}(u),\ H_{n-1}(v))$ là khớp; do đó:
 
-#### Định lý 1 {#alg-x-s2-thm-1 .statement}
+#### Định lý 1 {#alg-x-s2-thm-1 .statement tag=0DRJ}
 
 *Dãy vô hạn các đồng cấu của các* $A$-*môđun*
 
@@ -369,17 +369,17 @@ H(C')&\xleftarrow{\partial(u,v)}&H(C'') .
 \end{array}
 $$
 
-#### Hệ quả 1 {#alg-x-s2-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s2-thm-1-cor-1 .statement tag=0DRK}
 
 *Nếu hai trong các phức* $C$, $C'$, $C''$ *có đồng điều bằng không, thì phức thứ ba cũng vậy. Để* $u$ *(tương ứng.* $v$*) là một đồng cấu, điều kiện cần và đủ là* $C''$ *(tương ứng.* $C'$*) *có đồng điều bằng không. Để* $\partial(u,v)$ *là song ánh, điều kiện cần và đủ là* $C$ *có đồng điều bằng không.*
 
-#### Hệ quả 2 {#alg-x-s2-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s2-thm-1-cor-2 .statement tag=0DRL}
 
 Cho u là một cấu xạ của các phức. Nếu Ker u và Coker u có đồng điều bằng không, thì u là một đồng cấu trên đồng điều.
 
 Thật vậy, cho u : E → E’ là một cấu xạ của các phức. Nếu Ker u (tương ứng. Coker u) có đồng điều bằng không, thì cấu xạ chính tắc E → Im u (tương ứng. Im u → E’) là một đồng cấu trên đồng điều theo Hệ quả 1.
 
-#### Mệnh đề 2 {#alg-x-s2-prop-2 .statement}
+#### Mệnh đề 2 {#alg-x-s2-prop-2 .statement tag=0DRM}
 
 Xét một biểu đồ giao hoán các phức với các hàng khớp
 
@@ -399,7 +399,7 @@ $$
 = \mathrm{H}(f') (\overline{u^{-1}(dx)}) = (\mathrm{H}(f') \circ \partial_{u, v}) (\alpha'') .
 $$
 
-#### Ví dụ {#alg-x-s2-n3-exa-1 .statement}
+#### Ví dụ {#alg-x-s2-n3-exa-1 .statement tag=0DRN}
 
 Cho $C$ là một phức. Xét dãy khớp chính tắc
 
@@ -460,7 +460,7 @@ $$
 
 cho thấy bằng quy nạp theo p rằng $H_n(X_p) = 0$ với $p < n$, rằng $H_n(X_n) = \mathrm{Ker}\,(d_n : \Gamma_n \to \Gamma_{n-1})$ và rằng $H_n(X_p) = H_n(\Gamma)$ với $p > n$. Đặc biệt $H_n(X)$ được đồng nhất với $H_n(\Gamma)$.
 
-#### Ví dụ {#alg-x-s2-n3-exa-2 .statement}
+#### Ví dụ {#alg-x-s2-n3-exa-2 .statement tag=0DRO}
 
 Xét tích các mặt cầu $S_2 \times S_2$ và không gian xạ ảnh phức $P_2(\mathbf{C})$.
 Cho $b \in S_2$, ta định nghĩa một phân tích tế bào $(Y_n)$ của $Y = S_2 \times S_2$ bằng cách đặt
@@ -481,7 +481,7 @@ Vì các môđun đồng điều ở bậc 2 của hai không gian được xét
 
 ### 4. Đồng luân
 
-#### Định nghĩa 4 {#alg-x-s2-def-4 .statement}
+#### Định nghĩa 4 {#alg-x-s2-def-4 .statement tag=0DRP}
 
 Cho $(C, d)$ và $(C', d')$ là hai phức, $f$ và $g$ là hai cấu xạ từ $C$ đến $C'$. Một đồng luân nối $f$ với $g$ là mọi A-đồng cấu phân bậc $s$ bậc 1 từ $C$ đến $C'$ sao cho $g - f = d' \circ s + s \circ d$.
 Ta nói rằng $f$ và $g$ đồng luân nếu tồn tại một đồng luân nối $f$ với $g$.
@@ -490,7 +490,7 @@ Nếu $h$ là một cấu xạ thứ ba từ $C$ đến $C'$ và nếu $s$ (resp
 Cho hai không gian tôpô $X$ và $Y$, và một ánh xạ liên tục $f : X \to Y$, người ta định nghĩa một ánh xạ tuyến tính $f_*$ từ phức kỳ dị (*xem No. 3*) $C(X, A)$ vào $C(Y, A)$ bằng cách đặt $f_*(e_s) = e_{f \circ s}$ với $s \in \Sigma_n(X)$. Ánh xạ này là một cấu xạ của các phức.
 Hai ánh xạ liên tục $f$ và $g$ từ $X$ vào $Y$ được gọi là *đồng luân* theo nghĩa tôpô nếu tồn tại một ánh xạ liên tục $h$ từ $[0, 1] \times X$ vào $Y$ sao cho $h(0, x) = f(x)$ và $h(1, x) = g(x)$ với mọi $x \in X$. Người ta chứng minh rằng, nếu $f$ và $g$ đồng luân theo nghĩa tôpô, thì các cấu xạ $f_*$ và $g_*$ là đồng luân theo nghĩa của Định nghĩa 4 ở trên. Chính sự kiện này là nguồn gốc của thuật ngữ dùng trong đại số.
 
-#### Mệnh đề 3 {#alg-x-s2-prop-3 .statement}
+#### Mệnh đề 3 {#alg-x-s2-prop-3 .statement tag=0DRQ}
 
 *Nếu $f$ và $g$ là hai cấu xạ đồng luân từ $C$ vào $C'$, thì $\mathrm{H}(f) = \mathrm{H}(g)$.* Gọi $s$ là một đồng luân nối $f$ với $g$. Ta có
 $$
@@ -498,27 +498,27 @@ $$
 $$
 do đó $\mathrm{H}(g - f) = 0$ và $\mathrm{H}(g) = \mathrm{H}(f)$.
 
-#### Hệ quả {#alg-x-s2-n4-cor-1 .statement}
+#### Hệ quả {#alg-x-s2-n4-cor-1 .statement tag=0DRR}
 
 *Một cấu xạ đồng luân với một đẳng cấu đồng điều là một đẳng cấu đồng điều.*
 
-#### Mệnh đề 4 {#alg-x-s2-prop-4 .statement}
+#### Mệnh đề 4 {#alg-x-s2-prop-4 .statement tag=0DRS}
 
 *Cho $C, C', D, D'$ là bốn phức, $f : C \to C'$, $g : C \to C'$, $u : D \to C$, $v : C' \to D'$ là bốn cấu xạ. Nếu $s$ là một đồng luân nối $f$ với $g$, thì $v \circ s \circ u$ là một đồng luân nối $v \circ f \circ u$ với $v \circ g \circ u$. Nếu $f$ và $g$ đồng luân, thì $v \circ f \circ u$ và $v \circ g \circ u$ cũng đồng luân.*
 Điều này là hiển nhiên.
 
-#### Hệ quả {#alg-x-s2-n4-cor-2 .statement}
+#### Hệ quả {#alg-x-s2-n4-cor-2 .statement tag=0DRT}
 
 *Cho $C, C', C''$ là ba phức, $f$ và $g$ là hai cấu xạ từ $C$ vào $C'$, $f_1$ và $g_1$ là hai cấu xạ từ $C'$ vào $C''$. Nếu $s$ và $s_1$ là các đồng luân nối $f$ với $g$ và $f_1$ với $g_1$ tương ứng, thì $s_1 \circ f + g_1 \circ s$ là một đồng luân nối $f_1 \circ f$ với $g_1 \circ g$. Nếu $f$ và $f_1$ đồng luân với $g$ và $g_1$ tương ứng, thì $f_1 \circ f$ đồng luân với $g_1 \circ g$.
 Thật vậy, $s_1 \circ f$ nối $f_1 \circ f$ với $g_1 \circ f$ và $g_1 \circ s$ nối $g_1 \circ f$ với $g_1 \circ g$.*
 
-#### Định nghĩa 5 {#alg-x-s2-def-5 .statement}
+#### Định nghĩa 5 {#alg-x-s2-def-5 .statement tag=0DRU}
 
 *Một cấu xạ của các phức $f : C \to C'$ được gọi là một đồng luân tương đương nếu tồn tại một cấu xạ $f' : C' \to C$ sao cho $f' \circ f$ và $f \circ f'$ đồng luân với $1_C$ và $1_{C'}$ tương ứng.*
 
 Hiển nhiên khi đó $f'$ cũng là một đồng luân tương đương; người ta cũng nói rằng $f'$ là *nghịch đảo của $f$ đối với đồng luân*. Nếu $f'$ và $f'_1$ đều là các nghịch đảo của $f$ đối với đồng luân, thì $f'$ và $f'_1$ đồng luân với nhau (thật vậy theo hệ quả trước đó, $f'_1 = f'_1 \circ 1_{C'}$ đồng luân với $f'_1 \circ f \circ f'$, nên đồng luân với $1_C \circ f' = f'$).
 
-#### Mệnh đề 5 {#alg-x-s2-prop-5 .statement}
+#### Mệnh đề 5 {#alg-x-s2-prop-5 .statement tag=0DRV}
 
 *Một đồng luân tương đương là một đồng điều tương đương; một cấu xạ là hợp thành của các đồng luân tương đương là một đồng luân tương đương. Một cấu xạ đồng luân với một đồng luân tương đương là một đồng luân tương đương.*
 
@@ -529,7 +529,7 @@ $$
 
 và tương tự $\mathrm{H}(f) \circ \mathrm{H}(f') = 1_{\mathrm{H}(C')}$, nên $\mathrm{H}(f)$ là song ánh và $f$ là một đẳng cấu đồng điều. Mặt khác, $(f' \circ f'_1) \circ (f_1 \circ f)$ đồng luân với $f' \circ 1_C' \circ f$ (mệnh đề 4), do đó với $1_C$; tương tự, $(f_1 \circ f) \circ (f' \circ f'_1)$ đồng luân với $1_{C''}$ và $f_1 \circ f$ là một tương đương đồng luân. Sau cùng, nếu $g : C \to C'$ là một cấu xạ đồng luân với $f$, thì $f' \circ g$ đồng luân với $f' \circ f$, do đó với $1_C$; tương tự, $g \circ f'$ đồng luân với $f \circ f'$, do đó với $1_{C'}$ và $g$ là một tương đương đồng luân.
 
-#### Hệ quả {#alg-x-s2-n4-cor-3 .statement}
+#### Hệ quả {#alg-x-s2-n4-cor-3 .statement tag=0DRW}
 
 Cho $C, C', D, D'$ là bốn phức, $f : C \to C'$ là một cấu xạ, $u : D \to C$ và $v : C' \to D'$ là các tương đương đồng luân. Để $v \circ f \circ u$ là một tương đương đồng luân (tương ứng, một đẳng cấu đồng điều), điều kiện cần và đủ là $f$ là như vậy.
 
@@ -537,13 +537,13 @@ Nếu $f$ là một tương đương đồng luân (tương ứng, một đẳng
 
 Người ta nói rằng phức $C$ đồng luân với không nếu $1_C$ đồng luân với ánh xạ không, nghĩa là nếu tồn tại một tự đồng cấu phân bậc $s$ bậc 1 của $C$ sao cho $1_C = s \circ d + d \circ s$. Điều này cũng tương đương với việc nói rằng cấu xạ duy nhất $0 \to C$ (tương ứng, $C \to 0$) là một tương đương đồng luân. Một phức đồng luân với không có đồng điều không (mệnh đề 5).
 
-#### Ví dụ {#alg-x-s2-n4-exa-1 .statement}
+#### Ví dụ {#alg-x-s2-n4-exa-1 .statement tag=0DRX}
 
 Cho $u : M \to N$ và $v : N \to P$ là các đồng cấu của các $A$-môđun sao cho $v \circ u = 0$; gọi $C$ là phức sao cho $C_2 = M, C_1 = N, C_0 = P, C_i = 0$ với $i \neq 0, 1, 2$, $d_2 = u, d_1 = v, d_i = 0$ với $i \neq 1, 2$. Khi đó $C$ có đồng điều không nếu và chỉ nếu dãy $0 \to M \xrightarrow{u} N \xrightarrow{v} P \to 0$ là khớp. Nó đồng luân với không nếu và chỉ nếu dãy này tách. Thật vậy, việc nói rằng $C$ đồng luân với không có nghĩa là tồn tại các đồng cấu $A$-môđun $s : P \to N$ và $t : N \to M$ sao cho $v \circ s = 1_P, s \circ v + u \circ t = 1_N, t \circ u = 1_M$; điều này suy ra rằng dãy là tách; ngược lại, nếu $s$ là một tiết diện $A$-tuyến tính của $v$, ta định nghĩa $t$ bởi $u \circ t = 1_N - s \circ v$, điều này là có thể được vì $v \circ (1_N - s \circ v) = v - v \circ s \circ v = 0$.
 
 ### 5. Các phức tách
 
-#### Mệnh đề 6 {#alg-x-s2-prop-6 .statement}
+#### Mệnh đề 6 {#alg-x-s2-prop-6 .statement tag=0DRY}
 
 Cho $(C, d)$ là một phức. Các điều kiện sau là tương đương:
 (i) tồn tại một tương đương đồng luân từ $(C, d)$ đến $(\mathrm{H}(C), 0)$;
@@ -575,33 +575,33 @@ $$
 
 $(iv) \Rightarrow (i)$: chỉ cần nhận thấy rằng (i) được thỏa mãn khi $C$ có độ dài không, hoặc có đồng điều không và độ dài $1$.
 
-#### Định nghĩa 6 {#alg-x-s2-def-6 .statement}
+#### Định nghĩa 6 {#alg-x-s2-def-6 .statement tag=0DRZ}
 
 *Một phức $C$ được gọi là tách nếu nó thỏa mãn các điều kiện tương đương của Mệnh đề 6.*
 
 Một tự đồng cấu $s$ của $C$ thỏa mãn điều kiện (ii) của Mệnh đề 6 được gọi là một *tách* của $C$.
 
-#### Ví dụ 1 {#alg-x-s2-n5-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s2-n5-exa-1 .statement tag=0DS0}
 
 Một phức có vi phân không là tách.
 
-#### Ví dụ 2 {#alg-x-s2-n5-exa-2 .statement}
+#### Ví dụ 2 {#alg-x-s2-n5-exa-2 .statement tag=0DS1}
 
 Các phức đồng luân với không là các phức tách có đồng điều không, *nghĩa là* các phức $C$ sao cho $H(C)=0$ và $Z(C)$ là một nhân tử trực tiếp của $C$.
 
-#### Ví dụ 3 {#alg-x-s2-n5-exa-3 .statement}
+#### Ví dụ 3 {#alg-x-s2-n5-exa-3 .statement tag=0DS2}
 
 Cho $f:M\to N$ là một đồng cấu của các A-môđun và $C$ là phức sao cho $C_1=M$, $C_0=N$, $C_i=0$ với $i\ne0,1$, $d_1=f$, $d_i=0$ với $i\ne1$. Khi đó $C$ là tách khi và chỉ khi $\operatorname{Ker}f$ là một nhân tử trực tiếp của $M$ và $\operatorname{Im}f$ là một nhân tử trực tiếp của $N$.
 
-#### Ví dụ 4 {#alg-x-s2-n5-exa-4 .statement}
+#### Ví dụ 4 {#alg-x-s2-n5-exa-4 .statement tag=0DS3}
 
 *Phức $C$ là tách ngay khi $B(C)$ và $H(C)$ là xạ ảnh (tương ứng, ngay khi $B_n(C)$ và $H_n(C)$ là đơn ánh với mỗi $n$).* Thật vậy, theo các dãy khớp $(I_n)$ đến $(IV_n)$ của No. 1, khi đó $Z(C)$ là một nhân tử trực tiếp của $C$ và $B(C)$ là một nhân tử trực tiếp của $Z(C)$ (tương ứng $B(C)$ là một nhân tử trực tiếp của $C$ và $Z(C)/B(C)$ là một nhân tử trực tiếp của $C/B(C)$).
 
-#### Ví dụ 5 {#alg-x-s2-n5-exa-5 .statement}
+#### Ví dụ 5 {#alg-x-s2-n5-exa-5 .statement tag=0DS4}
 
 Đặc biệt, nếu A là chính, một phức tự do $C$ là tách khi và chỉ khi $H(C)$ là tự do (nghĩa là $H_n(C)$ tự do với mọi $n\in\mathbf{Z}$).
 
-#### Nhận xét {#alg-x-s2-n5-rem-1 .statement}
+#### Nhận xét {#alg-x-s2-n5-rem-1 .statement tag=0DS5}
 
 a) Giả sử dãy khớp chính tắc của các A-môđun phân bậc
 
@@ -638,7 +638,7 @@ $$
 
 (Ở đây, và trong phần sau, $x, y, \ldots$ ký hiệu các phần tử tùy ý của $C$, $x', y', \ldots$ các phần tử tùy ý của $C'$.)
 
-#### Bổ đề 2 {#alg-x-s2-lem-2 .statement}
+#### Bổ đề 2 {#alg-x-s2-lem-2 .statement tag=0DS6}
 
 (*Cyl* $(u)$, $\overline{D}$) *và* (*Con* $(u)$, $D$) *là các phức của A-môđun*.
 
@@ -651,11 +651,11 @@ $$
 $$
 vì $d' \circ d' = 0$, $d \circ d = 0$ và $d \circ u = u \circ d'$. Tương tự $D \circ D = 0$.
 
-#### Định nghĩa 7 {#alg-x-s2-def-7 .statement}
+#### Định nghĩa 7 {#alg-x-s2-def-7 .statement tag=0DS7}
 
 *Các phức* $\mathrm{Cyl}\,(u)$ *và* $\mathrm{Con}\,(u)$ *được gọi tương ứng là trụ* *và nón của cấu xạ* $u$.
 
-#### Ví dụ {#alg-x-s2-n6-exa-1 .statement}
+#### Ví dụ {#alg-x-s2-n6-exa-1 .statement tag=0DS8}
 
 Cho $u : M \to N$ là một đồng cấu của các A-môđun; khi đó các thành phần thuần nhất khác không duy nhất của $\mathrm{Cyl}\,(u)$ và $\mathrm{Con}\,(u)$ là
 $$
@@ -695,7 +695,7 @@ $$
 \end{align*}
 $$
 
-#### Mệnh đề 7 {#alg-x-s2-prop-7 .statement}
+#### Mệnh đề 7 {#alg-x-s2-prop-7 .statement tag=0DS9}
 
 *a)* *Các ánh xạ* $\tilde{u},\, \alpha,\, \beta,\, \pi,\, \tilde{\pi},\, \delta$ *là các cấu xạ phức* : ta có $u = \beta \circ \tilde{u},\, \pi = \tilde{\pi} \circ \alpha,\, \beta \circ \alpha = 1_C$.
 
@@ -738,11 +738,11 @@ $$
 \end{array}
 $$
 
-#### Hệ quả {#alg-x-s2-n6-cor-1 .statement}
+#### Hệ quả {#alg-x-s2-n6-cor-1 .statement tag=0DSA}
 
 *Với mọi cấu xạ phức* $u : C' \to C$, *tồn tại một cấu xạ đơn cấu của các phức* $\tilde{u} : C' \to C_1$ *và một homotopisme* $\beta : C_1 \to C$ *sao cho* $u = \beta \circ \tilde{u}$.
 
-#### Bổ đề 3 {#alg-x-s2-lem-3 .statement}
+#### Bổ đề 3 {#alg-x-s2-lem-3 .statement tag=0DSB}
 
 *a)* *Đồng cấu liên kết*
 $$
@@ -768,18 +768,18 @@ $$
 $$
 nên theo định nghĩa, $\partial(\tilde{u}, \tilde{\pi})$ ánh xạ lớp của $(y', x)$ trong $H_n(\mathrm{Con}\,(u))$ lên lớp của $\delta(y', x)$ trong $H_{n-1}(C')$, do đó được *b)*.
 
-#### Mệnh đề 8 {#alg-x-s2-prop-8 .statement}
+#### Mệnh đề 8 {#alg-x-s2-prop-8 .statement tag=0DSC}
 
 *Ta có dãy khớp vô hạn*
 (8) $$ \cdots \longrightarrow H_n(C') \xrightarrow{H_n(u)} H_n(C) \xrightarrow{H_n(\pi)} H_n(\mathrm{Con}\,(u)) \xrightarrow{H_n(\delta)} H_{n-1}(C') \longrightarrow \cdots . $$
 
 Thật vậy, có xét đến *bổ đề 3, a)*, điều này suy ra từ định lý 1 của X, p. 30, áp dụng cho dãy khớp (7).
 
-#### Hệ quả {#alg-x-s2-n6-cor-2 .statement}
+#### Hệ quả {#alg-x-s2-n6-cor-2 .statement tag=0DSD}
 
 *Để u là một homologisme, điều kiện cần và đủ là Con (u) có đồng điều bằng không.*
 
-#### Nhận xét {#alg-x-s2-n6-rem-1 .statement}
+#### Nhận xét {#alg-x-s2-n6-rem-1 .statement tag=0DSE}
 
 Xét biểu đồ
 
@@ -820,7 +820,7 @@ $$
 \end{array}
 $$
 
-#### Mệnh đề 9 {#alg-x-s2-prop-9 .statement}
+#### Mệnh đề 9 {#alg-x-s2-prop-9 .statement tag=0DSF}
 
 *Các ánh xạ* $\beta$ *và* $\varphi$ *là các homologisme của các phức*.
 Đối với $\beta$, điều này suy ra từ mệnh đề 7, c). Ta có
@@ -836,11 +836,11 @@ d_\mathbf{K}(y', x') = (-d'y', d'x' - y') ;
 $$
 nếu $d_\mathbf{K}(y', x') = 0$, thì ta có $y' = d' x'$, nên $(y', x') = d_\mathbf{K}(0, -x')$; suy ra $\mathrm{H}(\mathbf{K}) = 0$ và $\varphi$ là một homologisme theo X, p. 30, hệ quả 1.
 
-#### Nhận xét {#alg-x-s2-n7-rem-1 .statement}
+#### Nhận xét {#alg-x-s2-n7-rem-1 .statement tag=0DSG}
 
 Homologisme $\beta$ là một homotopisme, nhưng nói chung $\varphi$ không phải là một homotopisme (*cf.* X, p. 173, bài tập 8).
 
-#### Hệ quả {#alg-x-s2-n7-cor-1 .statement}
+#### Hệ quả {#alg-x-s2-n7-cor-1 .statement tag=0DSH}
 
 *Biểu đồ các A-môđun phân bậc*
 
@@ -882,23 +882,23 @@ Ta nói rằng $\mathscr C$ là ổn định nếu nó thỏa mãn các điều 
 
 Ta ký hiệu bởi $K(\mathscr C)$ nhóm Grothendieck của $\mathscr C$ và bởi $[M]_{\mathscr C}$ hoặc $[M]$ phần tử của $K(\mathscr C)$ được xác định bởi A-môđun $M$ (VIII, §6, No. 2). Cho $G$ là một nhóm giao hoán và $\varphi$ là một đồng cấu từ $K(\mathscr C)$ vào $G$.
 
-#### Ví dụ 1 {#alg-x-s2-n8-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s2-n8-exa-1 .statement tag=0DSI}
 
 Nếu A là một trường, ta có thể lấy $\mathscr C$ là tập hợp các lớp của các không gian vectơ hữu hạn chiều và $\varphi$ là đẳng cấu từ $K(\mathscr C)$ lên $\mathbf Z$ được xác định bởi $\varphi([M]) = \dim(M)$.
 
-#### Ví dụ 2 {#alg-x-s2-n8-exa-2 .statement}
+#### Ví dụ 2 {#alg-x-s2-n8-exa-2 .statement tag=0DSJ}
 
 Ta có thể lấy $\mathscr C$ là tập hợp các lớp của các môđun có độ dài hữu hạn và $\varphi: K(\mathscr C) \to \mathbf Z$ là đồng cấu được xác định bởi $\varphi([M]) = \operatorname{long}_A(M)$.
 
 Ta nói rằng một A-môđun phân bậc M thuộc kiểu $\mathscr C$ nếu $M_n$ thuộc kiểu $\mathscr C$ với mọi n (điều này là cần thiết khi M bị chặn và là đủ khi $\mathscr C$ ổn định để môđun M thuộc kiểu $\mathscr C$).
 
-#### Định nghĩa 8 {#alg-x-s2-def-8 .statement}
+#### Định nghĩa 8 {#alg-x-s2-def-8 .statement tag=0DSK}
 
 Cho M là một A-môđun phân bậc bị chặn thuộc kiểu $\mathscr C$ và $(M_n)$ là phân bậc của nó. Ta gọi **đặc số**-$\varphi$ của M, và ký hiệu nó bởi $\chi_\varphi(M)$ hoặc đơn giản là $\chi(M)$, là phần tử $\sum (-1)^n \varphi([M_n])$ của G.
 
 Định nghĩa này áp dụng đặc biệt khi M là môđun phân bậc nền của một phức các A-môđun.
 
-#### Ví dụ 3 {#alg-x-s2-n8-exa-3 .statement}
+#### Ví dụ 3 {#alg-x-s2-n8-exa-3 .statement tag=0DSL}
 
 Nếu M bị chặn và thuộc kiểu $\mathscr{C}$, thì tương tự cũng đúng đối với $M(p)$ với mọi $p \in \mathbf{Z}$, và ta có $\chi(M(p)) = (-1)^p \chi(M)$.
 
@@ -915,21 +915,21 @@ $$
 
 6) Có thể lấy cho G chính nhóm $K(\mathscr{C})$, và cho $\varphi$ cấu xạ đồng nhất; trong trường hợp này người ta ký hiệu bởi $\chi_{\mathscr{C}}(M)$ phần tử $\chi_\varphi(M) = \sum (-1)^n[M_n]$ của $K(\mathscr{C})$.
 
-#### Nhận xét {#alg-x-s2-n8-rem-1 .statement}
+#### Nhận xét {#alg-x-s2-n8-rem-1 .statement tag=0DSP}
 
 Người ta gọi đa thức Poincaré của M đối với $\varphi$ là phần tử $P_M(t) = \sum \varphi([M_n]) t^n \in G \otimes \mathbf{Z}[t, t^{-1}]$. Ta có $P_M(1) = \varphi([M])$ và $P_M(-1) = \chi(M)$.
 
-#### Bổ đề 4 {#alg-x-s2-lem-4 .statement}
+#### Bổ đề 4 {#alg-x-s2-lem-4 .statement tag=0DSQ}
 
 Cho C là một phức bị chặn kiểu $\mathscr{C}$. Nếu $H(C) = 0$, thì ta có $\chi(C) = 0$.
 Điều này suy ra từ VIII, § 6, No. 1, hệ quả của Mệnh đề 1.
 
-#### Mệnh đề 10 {#alg-x-s2-prop-10 .statement}
+#### Mệnh đề 10 {#alg-x-s2-prop-10 .statement tag=0DSR}
 
 Cho C và C' là hai phức bị chặn kiểu $\mathscr{C}$. Nếu tồn tại một cấu xạ đồng điều $u : C' \to C$, thì ta có $\chi(C) = \chi(C')$.
 Thật vậy, Con ($u$) bị chặn kiểu $\mathscr{C}$ và ta có $\chi(\operatorname{Con}(u)) = \chi(C) - \chi(C')$; mặt khác, $H(\operatorname{Con}(u)) = 0$ theo X, p. 38, hệ quả, do đó $\chi(\operatorname{Con}(u)) = 0$ (bổ đề 4).
 
-#### Mệnh đề 11 {#alg-x-s2-prop-11 .statement}
+#### Mệnh đề 11 {#alg-x-s2-prop-11 .statement tag=0DSS}
 
 Cho C là một phức bị chặn kiểu $\mathscr{C}$.
 a) Nếu $\mathscr{C}$ ổn định, thì $H(C)$ là kiểu $\mathscr{C}$.
@@ -952,11 +952,11 @@ $$
 \chi(C) = \chi(Z(C)) + \chi(B(C) (-1)) = \chi(Z(C)) - \chi(B(C)) = \chi(H(C)) .
 $$
 
-#### Hệ quả {#alg-x-s2-n8-cor-1 .statement}
+#### Hệ quả {#alg-x-s2-n8-cor-1 .statement tag=0DST}
 
 *Nếu $\mathscr{C}$ ổn định và $C$ bị chặn kiểu $\mathscr{C}$, thì môđun phân bậc $H(C)$ bị chặn kiểu $\mathscr{C}$ và ta có $\chi(H(C)) = \chi(C)$.*
 
-#### Mệnh đề 12 {#alg-x-s2-prop-12 .statement}
+#### Mệnh đề 12 {#alg-x-s2-prop-12 .statement tag=0DSU}
 
 *Cho $0 \to C' \to C \to C'' \to 0$ là một dãy khớp các phức.*
 
@@ -969,12 +969,12 @@ $$
 
 Phần a) suy ra từ Bổ đề 4 áp dụng cho phức có đồng điều không được xác định bởi dãy khớp đồng điều liên kết với dãy khớp đã cho. Phần b) suy ra, khi xét dãy khớp đồng điều này, từ bổ đề sau:
 
-#### Bổ đề 5 {#alg-x-s2-lem-5 .statement}
+#### Bổ đề 5 {#alg-x-s2-lem-5 .statement tag=0DSV}
 
 *Cho $M \to N \to P \to Q \to R$ là một dãy khớp các $A$-môđun. Nếu $\mathscr{C}$ ổn định, và nếu $M, N, Q$ và $R$ thuộc kiểu $\mathscr{C}$, thì môđun $P$ thuộc kiểu $\mathscr{C}$.
 Đặt $N' = \operatorname{Coker}(M \to N)$ và $Q' = \operatorname{Ker}(Q \to R)$. Các môđun $N'$ và $Q'$ thuộc kiểu $\mathscr{C}$, và ta có một dãy khớp $0 \to N' \to P \to Q' \to 0$.*
 
-#### Hệ quả {#alg-x-s2-n8-cor-2 .statement}
+#### Hệ quả {#alg-x-s2-n8-cor-2 .statement tag=0DSW}
 
 *Giả sử $\mathscr{C}$ ổn định, và cho $u : C' \to C$ là một cấu xạ các phức sao cho $H(C)$ và $H(C')$ bị chặn kiểu $\mathscr{C}$. Khi đó $H(\operatorname{Con}(u))$ bị chặn kiểu $\mathscr{C}$, và ta có*
 $$
@@ -986,7 +986,7 @@ $$
 0 \to C \to \operatorname{Con}(u) \to C'(-1) \to 0 .
 $$
 
-#### Nhận xét {#alg-x-s2-n8-rem-2 .statement}
+#### Nhận xét {#alg-x-s2-n8-rem-2 .statement tag=0DSX}
 
 *Cho $E$ là một phức, $h : E \to C$ và $h' : E \to C'$ là các tương đương đồng luân với $C$ và $C'$ bị chặn kiểu $\mathscr{C}$. Khi đó $\chi(C) = \chi(C')$. Thật vậy, nếu $h_1$ là một nghịch đảo của $h$ với sai khác đồng luân, thì $h' \circ h_1$ là một tương đương đồng luân, do đó là một đẳng cấu đồng điều từ $C$ tới $C'$, và ta có thể áp dụng Mệnh đề 10. Do đó, ta có thể mở rộng Định nghĩa 8 bằng cách đặt $\chi(E) = \chi(C)$ mỗi khi tồn tại một tương đương đồng luân từ $E$ tới một phức $C$ bị chặn kiểu $\mathscr{C}$. Các Mệnh đề 10, 11, 12 và các hệ quả của chúng được tổng quát hóa trong cách đặt này.*
 
@@ -1011,7 +1011,7 @@ Tương tự, nếu A và B là hai vành, một phức các song môđun (A, B)
 
 Trong số này, giả thiết rằng A là một đại số giao hoán trên k trên một vành giao hoán k. Ta ký hiệu bởi $\Omega^1_{A/k}$ A-môđun các vi phân k của A (III, p. 134), bởi $d^0 : A \to \Omega^1_{A/k}$ đạo hàm k $d_{A/k}$, và bởi $\Omega_{A/k}$ đại số k phân bậc $\Lambda_A(\Omega^1_{A/k})$.
 
-#### Mệnh đề 13 {#alg-x-s2-prop-13 .statement}
+#### Mệnh đề 13 {#alg-x-s2-prop-13 .statement tag=0DSY}
 
 Tồn tại duy nhất một phản đạo hàm k $d : \Omega_{A/k} \to \Omega_{A/k}$ bậc 1, bình phương bằng không, mở rộng đạo hàm $d^0 : A \to \Omega^1_{A/k}$.
 
@@ -1041,7 +1041,7 @@ Bằng cách đặt $\xi = b \otimes 1$ trong (12), với $b \in A$, ta thu đư
 
 Đôi khi người ta nói rằng các phần tử $\omega \in \Omega_{A/k}^p$ là các *dạng vi phân ngoài bậc* $p$ của $A$ trên $k$, và phản đạo hàm $d$ là *vi phân ngoài* của $\Omega_{A/k}$; phức $(\Omega_{A/k}, d)$ được gọi là *phức de Rham của A trên k*, và đồng điều của nó là *đối đồng điều de Rham của A trên k*.
 
-#### Ví dụ 1 {#alg-x-s2-n10-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s2-n10-exa-1 .statement tag=0DSZ}
 
 Lấy $A$ là vành $k[X_1, ..., X_n]$. Khi đó $\Omega_{A/k}^1$ là một $A$-môđun tự do với cơ sở $dX_1, ..., dX_n$ (III, p. 134, ví dụ). Do đó, nếu, với mọi tập con $I = \{ i_1, ..., i_p \}$ của $\{ 1, n \}$, ta đặt $dX_I = dX_{i_1} \wedge ... \wedge dX_{i_p}$ (với $i_1 < ... < i_p$), thì $A$-môđun $\Omega_{A/k}^p$ nhận các phần tử $dX_I$ làm cơ sở, trong đó $I$ chạy qua tập hợp các tập con của $\{ 1, n \}$ có lực lượng $p$. Ta có
 $$
@@ -1062,7 +1062,7 @@ $$
 
 Ta sẽ thấy ở § 9 rằng phức de Rham của $A$ trên $k$ là acyclic trong các bậc $> 0$ nếu $k$ là một $\mathbf{Q}$-đại số (X, p. 159, *nhận xét 4*).
 
-#### Ví dụ 2 {#alg-x-s2-n10-exa-2 .statement}
+#### Ví dụ 2 {#alg-x-s2-n10-exa-2 .statement tag=0DT0}
 
 Giả sử $k = \mathbf{C}$ và $A = \mathbf{C} [X_1, ..., X_n]/(P_1, ..., P_r)$, trong đó các $P_i$ là các đa thức theo $X_1, ..., X_n$, sao cho tập hợp các điểm của $\mathbf{C}^n$ tại đó mọi $P_i$ đều triệt tiêu là một tập con đại số giải tích $V$ của $\mathbf{C}^n$. Có thể chỉ ra rằng đối đồng điều de Rham của $A$ trên $\mathbf{C}$ đẳng cấu với *đối đồng điều kỳ dị* $H(V, \mathbf{C})$.
 
@@ -1074,7 +1074,7 @@ $$
 $$
 (đôi khi người ta nói rằng $\nabla^0$ là một *connection* trên $A$-môđun $M$).
 
-#### Mệnh đề 14 {#alg-x-s2-prop-14 .statement}
+#### Mệnh đề 14 {#alg-x-s2-prop-14 .statement tag=0DT1}
 
 (i) *Tồn tại một ánh xạ $k$-tuyến tính duy nhất $\nabla$ từ $\Omega_{A/k}$-môđun phải $M \otimes_A \Omega_{A/k}$ vào chính nó, phân bậc bậc 1, mở rộng $\nabla^0$ ở bậc 0 và thỏa mãn đẳng thức* :
 

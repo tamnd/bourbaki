@@ -49,14 +49,14 @@ subsections:
       pdf_page: 342
 statements: 69
 exercises: 29
-content_sha256: 87b0370472775897aae6495616897e88a9535b1f1811f2352ce23745ea985d1e
+content_sha256: 7deb20eda4181c66deed788db2dd8c9dfd03ddc75e31d67d9679866d4b1220a1
 ---
 
 ## 1. NOTION OF AN INTEGRAL ELEMENT
 
 ### 1. INTEGRAL ELEMENTS OVER A RING
 
-#### Theorem 1 {#ac-v-s1-thm-1 .statement}
+#### Theorem 1 {#ac-v-s1-thm-1 .statement tag=04MS}
 
 Let $\mathbf{A}$ be a (commutative) ring, $\mathbf{R}$ an algebra over $\mathbf{A}$ (not necessarily commutative) and $x$ an element of $\mathbf{R}$. The following properties are equivalent:
 
@@ -85,7 +85,7 @@ As the commutative ring $A[x]$ is a faithful module over itself, ($E_{II}$) impl
 
 Finally, the fact that ($E_{III}$) implies ($E_1$) will follow from the following more precise lemma:
 
-#### Lemma 1 {#ac-v-s1-lem-1 .statement}
+#### Lemma 1 {#ac-v-s1-lem-1 .statement tag=04MT}
 
 *Let $A$ be a ring, $R$ an algebra (not necessarily commutative) over $A$ and $x$ an element of $R$. Let $M$ be a faithful module over $A[x]$ which is a finitely generated $A$-module. If $q$ is an ideal of $A$ such that $xM \subset qM$, then $x$ is a root of a monic polynomial with coefficients in $A$ all $\notin$ whose coefficients other than the dominant coefficient belong to $q$.*
 
@@ -97,7 +97,7 @@ $$
 
 Therefore (*Algebra*, Chapter III, § 8) if $d$ is the determinant of the matrix $(q_{ij} - \delta_{ij}x)$ with elements in $A[x]$ ($\delta_{ij}$ denoting the Kronecker index), then $du_i = 0$ for all $i$ and hence $dM = 0$; as $M$ is assumed to be a faithful $A[x]$-module, necessarily $d = 0$. This means that $x$ is a root of the polynomial $\det(q_{ij} - \delta_{ij}X)$ in $A[X]$ which, up to a sign, is a monic polynomial whose coefficientsother than the dominant coefficient belong to $q$.
 
-#### Definition 1 {#ac-v-s1-def-1 .statement}
+#### Definition 1 {#ac-v-s1-def-1 .statement tag=04MU}
 
 *Let $A$ be a ring and $R$ an $A$-algebra (not necessarily commutative). An element $x \in R$ is called integral over $A$ if it satisfies the equivalent properties ($E_1$), ($E_{II}$), ($E_{III}$) of Theorem 1.*
 
@@ -105,7 +105,7 @@ A relation of the form $P(x) = 0$, where $P$ is a *monic* polynomial in $A[X]$ i
 
 *Examples*
 
-#### Example 1 {#ac-v-s1-n1-exa-1 .statement}
+#### Example 1 {#ac-v-s1-n1-exa-1 .statement tag=04MV}
 
 Let $K$ be a (commutative) field and $R$ a $K$-algebra; to say that an element $x \in R$ is integral over $K$ is equivalent to saying that $x$ is a root of a *non-constant* polynomial in the ring $K[X]$; generalizing the terminology introduced when $R$ is an *extension* of $K$ (*Algebra*, Chapter V, § 3, no. 3), the elements $x \in R$ which are integral over $K$ are also called the *algebraic* elements of $R$ over $K$.
 
@@ -116,17 +116,17 @@ Let $K$ be a (commutative) field and $R$ a $K$-algebra; to say that an element $
 Remarks
 (1) Let $A'$ be the subring of $R$ (contained in the centre of $R$) the image of $A$ under the ring homomorphism $A \to R$ which defines the $A$-algebra structure on $R$. Clearly it is equivalent to say that an element of $R$ is integral over $A$ or that it is integral over $A'$.
 
-#### Example 2 {#ac-v-s1-n1-exa-2 .statement}
+#### Example 2 {#ac-v-s1-n1-exa-2 .statement tag=04MW}
 
 Let $R'$ be a sub-A-algebra of $R$; the elements of $R'$ which are integral over $A$ are just the elements of $R$ which are integral over $A$ and belong to $R'$; this often allows us not to specify the algebra to which an integral element over $A$ belongs, when no confusion can arise.
 
-#### Proposition 1 {#ac-v-s1-prop-1 .statement}
+#### Proposition 1 {#ac-v-s1-prop-1 .statement tag=04MX}
 
 *Let $A$ be a ring, $R$ an algebra over $A$ (not necessarily commutative) and $x$ an element of $R$. For $x$ to be integral over $A$, it is necessary and sufficient that $A[x]$ be contained in a subalgebra $R'$ of $R$ which is a finitely generated $A$-module.*
 
 The condition is obviously necessary by virtue of property (E_{II}); it is also sufficient by virtue of (E_{III}), for $R'$ is a faithful $A[x]$-module (since it contains the unit element of $R$).
 
-#### Corollary {#ac-v-s1-n1-cor-1 .statement}
+#### Corollary {#ac-v-s1-n1-cor-1 .statement tag=04MY}
 
 *Let $A$ be a Noetherian ring, $R$ an $A$-algebra (not necessarily commutative) and $x$ an element of $R$. For $x$ to be integral over $A$, it is necessary and sufficient that there exist a finitely generated submodule of $R$ containing $A[x]$.*
 
@@ -134,7 +134,7 @@ The condition is necessary by virtue of (E_{II}); it is sufficient for if $A[x]$
 
 The hypothesis that $A$ is Noetherian cannot be omitted from the statement (Exercise 2).
 
-#### Definition 2 {#ac-v-s1-def-2 .statement}
+#### Definition 2 {#ac-v-s1-def-2 .statement tag=04MZ}
 
 *Let $A$ be a ring. An $A$-algebra $R$ (not necessarily commutative) is called integral over $A$ if every element of $R$ is integral over $A$. $R$ is called finite over $A$ if $R$ is a finitely generated $A$-module.*
 
@@ -142,7 +142,7 @@ It follows from Proposition 1 that every finite $A$-algebra is integral; if $R$ 
 
 *Example (4)* If $M$ is a finitely generated $A$-module, the algebra $\mathrm{End}_A(M)$ of endomorphisms of $M$ is integral over $A$ by virtue of (E_{III}); in particular, for every integer $n$, the matrix algebra $M_n(A) = \mathrm{End}_A(A^n)$ is integral (and even finite) over $A$.
 
-#### Proposition 2 {#ac-v-s1-prop-2 .statement}
+#### Proposition 2 {#ac-v-s1-prop-2 .statement tag=04N0}
 
 *Let $A, A'$ be two rings, $R$ an $A$-algebra, $R$ an $A'$-algebra (not necessarily commutative) and $f : A \to A'$ and $g : R \to R'$ two ring homomorphisms such that the diagram
 
@@ -162,33 +162,33 @@ $$
 (g(x))^n + f(a_1)(g(x))^{n-1} + \cdots + f(a_n) = 0.
 $$
 
-#### Corollary 1 {#ac-v-s1-prop-2-cor-1 .statement}
+#### Corollary 1 {#ac-v-s1-prop-2-cor-1 .statement tag=04N1}
 
 *Let $A$ be a ring, $B$ a (commutative) $A$-algebra and $C$ a (not necessarily commutative) $B$-algebra. Then every element $x \in C$ which is integral over $A$ is integral over $B$.*
 
-#### Corollary 2 {#ac-v-s1-prop-2-cor-2 .statement}
+#### Corollary 2 {#ac-v-s1-prop-2-cor-2 .statement tag=04N2}
 
 *Let $K$ be a field, $L$ an extension of $K$ and $x, x'$ two elements of $L$ which are conjugate over $K$ (Algebra, Chapter V, § 6, no. 2). If $A$ is a subring of $K$ and $x$ is integral over $A$, $x'$ is also integral over $A$.*
 
 There exists a $K$-isomorphism $f$ of $K(x)$ onto $K(x')$ such that $f(x) = x'$ and the elements of $A$ are invariant under $f$.
 
-#### Corollary 3 {#ac-v-s1-prop-2-cor-3 .statement}
+#### Corollary 3 {#ac-v-s1-prop-2-cor-3 .statement tag=04N3}
 
 *Let $A$ be a ring, $B$ a (commutative) $A$-algebra and $C$ a (not necessarily commutative) $B$-algebra. If $C$ is integral over $A$, $C$ is integral over $B$.*
 
-#### Proposition 3 {#ac-v-s1-prop-3 .statement}
+#### Proposition 3 {#ac-v-s1-prop-3 .statement tag=04N4}
 
 *Let $(R_i)_{1 \leq i \leq n}$ be a finite family of (not necessarily commutative) $A$-algebras and let $R = \prod_{i=1}^n R_i$ be their product. For an element $x = (x_i)_{1 \leq i \leq n}$ of $R$ to be integral over $A$, it is necessary and sufficient that each of the $x_i$ be integral over $A$. For $R$ to be integral over $A$, it is necessary and sufficient that each of the $R_i$ be integral over $A$.*
 
 It is obviously sufficient to prove the first assertion. The condition is necessary by Proposition 2. Conversely, if each of the $x_i$ is integral over $A$, the subalgebra $A[x_i]$ of $R_i$ is a finitely generated $A$-module and hence so is the subalgebra $\prod_{i=1}^n A[x_i]$ of $R$; as $A[x]$ is contained in this subalgebra, $x$ is integral over $A$ by Proposition 1.
 
-#### Proposition 4 {#ac-v-s1-prop-4 .statement}
+#### Proposition 4 {#ac-v-s1-prop-4 .statement tag=04N5}
 
 *Let $A$ be a ring, $R$ an $A$-algebra (not necessarily commutative) and $(x_i)_{1 \leq i \leq n}$ a finite family of elements of $R$ which are pairwise permutable. If, for all $i$, $x_i$ is integral over $A[x_1, \ldots, x_{i-1}]$ (and in particular if all the $x_i$ are integral over $A$), then the subalgebra $A[x_1, \ldots, x_n]$ of $R$ is a finitely generated $A$-module.*
 
 We argue by induction on $n$, the proposition being just (E_{II}) for $n = 1$. The induction hypothesis implies that $B = A[x_1, \ldots, x_{n-1}]$ is a finitely generated A-module; as $x_n$ is integral over $B$, $B[x_n] = A[x_1, \ldots, x_n]$ is a finitely generated B-module and therefore also a finitely generated A-module (Algebra, Chapter II, § 1, no. 13, Proposition 25).
 
-#### Corollary 1 {#ac-v-s1-prop-4-cor-1 .statement}
+#### Corollary 1 {#ac-v-s1-prop-4-cor-1 .statement tag=04N6}
 
 Let $A$ be a ring and $R$ a (Commutative)A-algebra. The set of elements $\& R$ integral over $A$ is a subalgebra of $R$.
 
@@ -196,7 +196,7 @@ In fact, if $x, y$ are two elements of $R$ integral over $A$, it follows from Pr
 
 In a non-commutative algebra the sum and product of two integral elements over $A$ are not necessarily integral over $A$ (Exercise 4).
 
-#### Corollary 2 {#ac-v-s1-prop-4-cor-2 .statement}
+#### Corollary 2 {#ac-v-s1-prop-4-cor-2 .statement tag=04N7}
 
 Let $A$ be a ring, $R$ an A-algebra (not necessarily commutative) and $E$ a set $\&$ elements $\& R$ which are pairwise permutable and integral over $A$. Then the sub-A-algebra $B \& R$ generated by $E$ is integral over $A$.
 
@@ -204,25 +204,25 @@ Every element of $B$ belongs to a sub-A-algebra of $B$ generated by a finite sub
 
 Remark (3) It follows from Proposition 4 that every commutative A-algebra integral over $A$ is the union of a right directed family of finite subalgebras over $A$.
 
-#### Proposition 5 {#ac-v-s1-prop-5 .statement}
+#### Proposition 5 {#ac-v-s1-prop-5 .statement tag=04N8}
 
 Let $A$ be a ring and $A$ and $R$ two (commutative)A-algebras. If $R$ is integral over $A$, $R \otimes_A A'$ is integral over $A'$.
 
 Consider any element $x' = \sum_{i=1}^n x_i \otimes a'_i$ of $R \otimes_A A'$, where the $x_i$ belong to $R$ and the $a'_i$ to $A'$; as $x_i \otimes a'_i = (x_i \otimes 1)a'_i$ and the $x_i \otimes 1$ are integral over $A'$ (Proposition 2), so is $x$.
 
-#### Corollary {#ac-v-s1-n1-cor-2 .statement}
+#### Corollary {#ac-v-s1-n1-cor-2 .statement tag=04N9}
 
 Let $R$ be a ring and $A, B, C$ subrings $\& R$ such that $A \subset B$. If $B$ is integral over $A$, $C[B]$ is integral over $C[A]$.
 
 $B \otimes_A C[A]$ is integral over $C[A]$ by Proposition 5 and hence so is the canonical image $C[B]$ of $B \otimes_A C[A]$ in $R$ (considered as an A-algebra) by Proposition 2.
 
-#### Proposition 6 {#ac-v-s1-prop-6 .statement}
+#### Proposition 6 {#ac-v-s1-prop-6 .statement tag=04NA}
 
 Let $A$ be a ring, $B$ a (commutative)A-algebra and $C$ a (not necessarily commutative)B-algebra. If $B$ is integral over $A$ and $C$ is integral over $B$, then $C$ is integral over $A$.
 
 It is sufficient to verify that every $x \in C$ is integral over $A$. By hypothesis there exists a monic polynomial $X^n + b_1 X^{n-1} + \cdots + b$, with coefficients in $B$ with $x$ as a root; then $x$ is integral over $B' = A[b_1, \ldots, b_n]$ and $B'[x]$ is therefore a finitely generated B-module. But as $B$ is integral over $A$, $B'$ is a finitely generated A-module (Proposition 4); we conclude that B'[x] is also a finitely generated A-module (Algebra, Chapter 11, § 1, no. 13, Proposition 25) and therefore x is integral over A.
 
-#### Corollary {#ac-v-s1-n1-cor-3 .statement}
+#### Corollary {#ac-v-s1-n1-cor-3 .statement tag=04NB}
 
 *Let A be a ring and R, R' two (commutative)A-algebras integral over A. Then R $\otimes_A$ R' is integral over A.*
 
@@ -230,7 +230,7 @@ $R \otimes_A R$ is integral over R (Proposition 5) and hence the conclusion foll
 
 ### 2. THE INTEGRAL CLOSURE OF A RING. INTEGRALLY CLOSED DOMAINS
 
-#### Definition 3 {#ac-v-s1-def-3 .statement}
+#### Definition 3 {#ac-v-s1-def-3 .statement tag=04NC}
 
 *Let A be a ring and R a (commutative)A-algebra. The sub-A-algebra A' of R consisting of the elements of R integral over A (no. 1, Corollary 1 to Proposition 4) is called the integral closure of A in R. If A' is equal to the canonical image of A in R, A is called integrally closed in R.*
 
@@ -240,19 +240,19 @@ Remarks
 
 (2) If A is a field, the integral closure $A'$ of A in R consists of the elements of R which are algebraic over A (no. 1, Example 1); generalizing the terminology used for field extensions (Algebra, Chapter V, § 3, no. 3), A' is then also called the algebraic closure of the field A in the algebra R and A is called algebraically closed in R if $A' = A$.
 
-#### Definition 4 {#ac-v-s1-def-4 .statement}
+#### Definition 4 {#ac-v-s1-def-4 .statement tag=04ND}
 
 *If A is an integral domain, the integral closure of A in its field of fractions is called the integral closure of A. An integral domain is called integrally closed if it is equal to its integral closure.*
 
 Note that an integrally closed domain is not necessarily closed in any ring containing it, as the example of a field which is not algebraically closed shows.
 
-#### Proposition 7 {#ac-v-s1-prop-7 .statement}
+#### Proposition 7 {#ac-v-s1-prop-7 .statement tag=04NE}
 
 *Let A be a ring and R an A-algebra. The integral closure A' of A in R is a subring integrally closed in R.*
 
 The integral closure of A' in R is integral over A by no. 1, Proposition 6; it is therefore equal to A'.
 
-#### Corollary {#ac-v-s1-n2-cor-1 .statement}
+#### Corollary {#ac-v-s1-n2-cor-1 .statement tag=04NF}
 
 *The integral closure of an integral domain A is an integrally closed domain.*
 
@@ -260,35 +260,35 @@ Let K be the field of fractions of A and B the integral closure of A. Clearly
 
 K is the field of fractions of B and it is sufficient to apply Proposition 7 to $R = K$.
 
-#### Proposition 8 {#ac-v-s1-prop-8 .statement}
+#### Proposition 8 {#ac-v-s1-prop-8 .statement tag=04NG}
 
 *Let $R$ be a ring, $(B_\lambda)_{\lambda \in L}$ a family of subrings of $R$ and for each $\lambda \in L$ let $A_\lambda$ be a subring of $B_\lambda$. If each $A_\lambda$ is integrally closed in $B_\lambda$, then $A = \bigcap_{\lambda \in L} A_\lambda$ is integrally closed in $B = \bigcap_{\lambda \in L} B_\lambda$.*
 
 This follows immediately from Definition 3 and no. 1, Corollary 1 to Proposition 2.
 
-#### Corollary {#ac-v-s1-n2-cor-2 .statement}
+#### Corollary {#ac-v-s1-n2-cor-2 .statement tag=04NH}
 
 *Every intersection of a non-empty family of integrally closed subdomains of an integral domain $A$ is an integrally closed domain.*
 
 It is sufficient to apply Proposition 8 taking $R$ and the $B_\lambda$ equal to the field of fractions $K$ of $A$ and noting that a subring of $K$ integrally closed in $K$ is *a fortiori* an integrally closed domain since its field of fractions is contained in $K$.
 
-#### Proposition 9 {#ac-v-s1-prop-9 .statement}
+#### Proposition 9 {#ac-v-s1-prop-9 .statement tag=04NI}
 
 *Let $A$ be a ring, $(R_i)_{1 \leq i \leq n}$ a finite family of $A$-algebras and $A'_i$ the integral closure of $A$ in $R_i$, $(1 \leq i \leq n)$. Then the integral closure of $A$ in $R = \prod_{i=1}^n R_i$, is equal to $\prod_{i=1}^n A'_i$.*
 
 This is an immediate consequence of no. 1, Proposition 3.
 
-#### Corollary 1 {#ac-v-s1-prop-9-cor-1 .statement}
+#### Corollary 1 {#ac-v-s1-prop-9-cor-1 .statement tag=04NJ}
 
 *Let $A$ be a reduced Noetherian ring, $p_i$ $(1 \leq i \leq n)$ its distinct minimal prime ideals, $K$, the field of fractions of the integral domain $A/p_i$ (canonically isomorphic to the local ring $A_{p_i}$ (Chapter IV, § 2, no. 5, Proposition 10)) and $A'_i$ the integral closure of $A$ in $K$, $(1 \leq i \leq n)$. Then the canonical isomorphism of the total ring of fractions $B$ of $A$ onto $\prod_{i=1}^n K_i$ (loc. cit.) maps the integral closure of $A$ in $B$ onto the product ring $\prod_{i=1}^n A'_i$.*
 
-#### Corollary 2 {#ac-v-s1-prop-9-cor-2 .statement}
+#### Corollary 2 {#ac-v-s1-prop-9-cor-2 .statement tag=04NK}
 
 *For a reduced Noetherian ring to be integrally closed in its ring of fractions it is necessary and sufficient that it be a direct composition of integrally closed (Noetherian) domains.*
 
 ### 3. EXAMPLES OF INTEGRALLY CLOSED DOMAINS
 
-#### Proposition 10 {#ac-v-s1-prop-10 .statement}
+#### Proposition 10 {#ac-v-s1-prop-10 .statement tag=04NL}
 
 *Every principal ideal domain is integrally closed.*
 
@@ -296,13 +296,13 @@ Let $A$ be a principal ideal domain, $K$ its field of fractions and $x$ an eleme
 
 X^n + c_1 X^{n-1} + \ldots + c_n \text{ of } A[X]. Then $a^n = b(-c_1 a^{n-1} - \ldots - c_n b^{n-1})$, which proves that $b$ divides $a''$. Since $a$ and $b$ are relatively prime, this implies that $b$ is invertible in $A$ (Algebra, Chapter VI, § 1, no. 12, Corollary 1 to Proposition 11 (DIV)); hence $x \in A$.
 
-#### Lemma 2 {#ac-v-s1-lem-2 .statement}
+#### Lemma 2 {#ac-v-s1-lem-2 .statement tag=04NM}
 
 *Let R be a ring and P a monic polynomial in R[X]. There exists a ring R' containing R such that in the polynomial ring R'[X] the polynomial P is a product of monic polynomials of degree 1.*
 
 We proceed by induction on the degree $n$ of P, the lemma being obvious for $n = 0$ and $n = 1$. Suppose therefore that $n > 1$. Let $a$ be the ideal of $R[X]$ generated by P and let $f$ be the canonical homomorphism of $R[X]$ onto $B = R[X]/a$. Since P is monic, for every polynomial $Q \in R[X]$, $\deg(PQ) = \deg(P) + \deg(Q)$, whence $a \cap R = 0$; the restriction off to R is therefore injective. Identifying R with the subring $f(R)$ of B by means of $f$ and writing $b = f(X)$, we see that $b$ is a root of P in B, P being considered as a polynomial in $B[X]$. Then there exists a monic polynomial Q in $B[X]$ of degree $n - 1$ such that $P(X) = (X - b)Q(X)$ (Algebra, Chapter IV, § 1, no. 4, Proposition 5). By the induction hypothesis there exists a ring $R' \supseteq B$ such that in $R'[X]$ the polynomial Q is a product of monic polynomials of degree 1; clearly in $R'[X]$ P is then a product of monic polynomials of degree 1.
 
-#### Proposition 11 {#ac-v-s1-prop-11 .statement}
+#### Proposition 11 {#ac-v-s1-prop-11 .statement tag=04NN}
 
 *Let A be a ring, R an A-algebra and P and Q monic polynomials in R[X]. If the coefficients of PQ are integral over A, the coefficients of P and Q are integral over A.*
 
@@ -314,7 +314,7 @@ the coefficients of P Q belong to the integral closure $A'$ of A in R' and hence
 
 Let A be an integral domain, K its field of fractions and K' a K-algebra (not necessarily commutative). Given an element $x \in K'$ algebraic over K, the polynomials $P \in K[X]$ such that $P(x) = 0$ form an ideal $a \neq 0$ of $K[X]$, necessarily principal (Algebra, Chapter IV, § 1, no. 5, Proposition 7). There exists a unique monic polynomial which generates a; generalizing the terminology introduced in Algebra, Chapter V, § 3, no. 1, Definition 3, this monic polynomial will be called the minimal polynomial of x over K.
 
-#### Corollary {#ac-v-s1-n3-cor-1 .statement}
+#### Corollary {#ac-v-s1-n3-cor-1 .statement tag=04NO}
 
 *Let A be an integral domain, K its field of fractions and x an element of a K-algebra K* (not necessarily commutative). *If x is integral over A, the coefficients of the minimal polynomial $P$ of $x$ over $K$ are integral over $A$ (and they therefore belong to $A$ if $A$ is integrally closed).
 
@@ -322,7 +322,7 @@ There exists by hypothesis (no. 1, Theorem 1) a monic polynomial $Q \in A[X]$ su
 
 Let $A$ be a ring and $R$ a (commutative) $A$-algebra; the homomorphism $\phi : A \to R$ defining the $A$-algebra structure on $R$ can be extended uniquely to a homomorphism $A[X] \to R[X]$ of polynomial rings over $A$ and $R$, leaving $X$ invariant and hence $R[X]$ is given a canonical $A[X]$-algebra structure.
 
-#### Proposition 12 {#ac-v-s1-prop-12 .statement}
+#### Proposition 12 {#ac-v-s1-prop-12 .statement tag=04NP}
 
 Let $A$ be a ring, $R$ an $A$-algebra and $P$ a polynomial in $R[X_1, \ldots, X_n]$. For $P$ to be integral over $A[X_1, \ldots, X_n]$, it is necessary and sufficient that the coefficients of $P$ be integral over $A$.
 
@@ -358,29 +358,29 @@ $$
 
 of $R[X]$ is also monic; moreover, as the coefficients of $G_i$ belong to $A$, Proposition 11 shows that $P_1$ has coefficients integral over $A$ and the coefficients of $P$ are therefore certainly integral over $A$.
 
-#### Proposition 13 {#ac-v-s1-prop-13 .statement}
+#### Proposition 13 {#ac-v-s1-prop-13 .statement tag=04NQ}
 
 Let $A$ be a ring, $\mathbf{R}$ an $A$-algebra and $A'$ the integral closure of $A$ in $\mathbf{R}$. Then the integral closure of $A[X_1, \ldots, X_n]$ in $\mathbf{R}[X_1, \ldots, X_n]$ is equal to $A'[X_1, \ldots, X_n]$.
 
 This follows from Proposition 12 and Definition 3 of no. 2.
 
-#### Corollary 1 {#ac-v-s1-prop-13-cor-1 .statement}
+#### Corollary 1 {#ac-v-s1-prop-13-cor-1 .statement tag=04NR}
 
 Let $A$ be an integral domain and $A'$ its integral closure. Then the integral closure of the polynomial ring $A[X_1, \ldots, X_n]$ is $A'[X_1, \ldots, X_n]$.
 
 Arguing by induction on $n$, the problem is immediately reduced to the case $n = 1$. Let $K$ be the field of fractions of $A$, which is also that of $A'$; if an element $P$ of the field of fractions $K(X)$ of $A[X]$ is integral over $A[X]$, it belongs to the polynomial ring $K[X]$, for the latter is a principal ideal domain (Algebra, Chapter IV, § 1, no. 5, Proposition 7) and hence integrally closed (Proposition 10); the corollary then follows from Proposition 13 applied to $\mathbf{R} = K$.
 
-#### Corollary 2 {#ac-v-s1-prop-13-cor-2 .statement}
+#### Corollary 2 {#ac-v-s1-prop-13-cor-2 .statement tag=04NS}
 
 Let $A$ be an integral domain. For the polynomial ring $A[X_1, \ldots, X_n]$ to be integrally closed, it is necessary and sufficient that $A$ be integrally closed.
 
-#### Corollary 3 {#ac-v-s1-prop-13-cor-3 .statement}
+#### Corollary 3 {#ac-v-s1-prop-13-cor-3 .statement tag=04NT}
 
 If $K$ is a field, every polynomial algebra $K[X_1, \ldots, X_n]$ is an integrally closed domain.
 
 ### 4. COMPLETELY INTEGRALLY CLOSED DOMAINS
 
-#### Definition 5 {#ac-v-s1-def-5 .statement}
+#### Definition 5 {#ac-v-s1-def-5 .statement tag=04NU}
 
 An integral domain $A$ is called completely integrally closed if the following condition is satisfied: every element $x$ of the field of fractions $K$ of $A$ such that all the powers $x^n$ ($n \geqslant 0$) are contained in a finitely generated sub-A-module of $K$, belongs to $A$.
 
@@ -388,7 +388,7 @@ Note that the hypothesis that the $x^n$ are contained in a finitely generated su
 
 Clearly a completely integrally closed domain is integrally closed; conversely, the Corollary to Proposition 1 of no. 1 shows that an integrally closed Noetherian domain is completely integrally closed. \* On the other hand, the ring of a valuation of height $\geqslant 2$ (Chapter VI, § 4, no. 4) is integrally closed but not completely integrally closed. \* If $(A_i)$ is a family of completely integrally closed domains with the same field of fractions $K$, $A = \bigcap_i A_i$ is completely integrally closed. For if $x \in K$ is such that for some non-zero $d$ in $A$, $dx^n$ belongs to $A$ for all $n > 0$, the hypothesis implies that $x \in A$, for all $i$ and hence $x \in A$.
 
-#### Proposition 14 {#ac-v-s1-prop-14 .statement}
+#### Proposition 14 {#ac-v-s1-prop-14 .statement tag=04NV}
 
 *Let $A$ be a completely integrally closed domain. Then every polynomial ring $A[X_1, \ldots, X_n]$ (resp. every ring of formal power series $A[[X_1, \ldots, X_n]]$) is completely integrally closed.*
 
@@ -402,7 +402,7 @@ $$
 
 it follows immediately from the hypothesis that also $Q(P - P_1)^m \in A[X]$ (resp. $Q(P - P_1)^m \in A[[X]]$) for all $m \geq 0$. Let $j$ be the least integer such that $b_j \neq 0$; clearly in $Q(P - P_1)^m$ the term of least degree with a coefficient $\neq 0$ is $b_j a_i^m X^{j + mi}$ and hence $b_j a_i^m \in A$ for all $m \geq 0$; but as $A$ is completely integrally closed this implies $a_i \in A$, contrary to the hypothesis.
 
-#### Proposition 15 {#ac-v-s1-prop-15 .statement}
+#### Proposition 15 {#ac-v-s1-prop-15 .statement tag=04NW}
 
 *Let $A$ be a filtered ring whose filtration is exhaustive and such that every principal ideal of $A$ is closed under the topology defined by the filtration. If the associated graded ring $\mathrm{gr}(A)$ (Chapter III, § 2, no. 3) is a completely integrally closed domain, then $A$ is a completely integrally closed domain.*
 
@@ -414,7 +414,7 @@ Suppose then that $b = a y + z$ where $y \in A, z \in A_{q+1}$. Then by hypothes
 
 Let $A$ be a ring, $R$ an $A$-algebra and $S$ a multiplicative subset of $A$. Recall (Chapter II, § 2, no. 8) that $S^{-1}R$ has a canonical $S^{-1}A$-algebra structure.
 
-#### Proposition 16 {#ac-v-s1-prop-16 .statement}
+#### Proposition 16 {#ac-v-s1-prop-16 .statement tag=04NX}
 
 *Let $A$ be a ring, $R$ an $A$-algebra, $A'$ the integral closure of $A$ in $R$ and $S$ a multiplicative subset of $A$. Then the integral closure of $S^{-1}A$ in $S^{-1}R$ is $S^{-1}A'$.*
 
@@ -444,25 +444,25 @@ $$
 
 and therefore there exists $s' \in S$ such that ${s'}^n(sr^n + a_1 r^{n-1} + \ldots + a_n) = 0$; we deduce that $(s'sr)^n + s'a_1(s'sr)^{n-1} + \ldots + {s'}^ns^{n-1}a_n = 0$. By definition therefore $s'sr \in A'$, whence $r/1 \in S^{-1}A'$ and $r/t \in S^{-1}A'$.
 
-#### Corollary 1 {#ac-v-s1-prop-16-cor-1 .statement}
+#### Corollary 1 {#ac-v-s1-prop-16-cor-1 .statement tag=04NY}
 
 Let $A$ be an integral domain, $A'$ its integral closure and $S$ a multiplicative subset of $A$ such that $0 \notin S$. Then the integral closure of $S^{-1}A$ is $S^{-1}A'$.
 
 The field of fractions $R$ of $A$ is also the field of fractions of $S^{-1}A$ since $0 \notin S$ (Chapter II, § 1, no. 1, Remark 7); Proposition 16 is then applied to $R$.
 
-#### Corollary 2 {#ac-v-s1-prop-16-cor-2 .statement}
+#### Corollary 2 {#ac-v-s1-prop-16-cor-2 .statement tag=04NZ}
 
 Let $A$ be an integral domain, $K$ its field of fractions, $R$ an algebra over $K$ and $B$ the integral closure of $A$ in $R$. The elements of $R$ which are algebraic over $K$ (no. 1, Example 1) are the elements of the form $a^{-1} b$ where $b \in B$ and $a \in A, a \neq 0$; if $L$ is the algebraic closure of $K$ in $R$, there exists a basis of $L$ over $K$ contained in $B$.
 
 The first assertion follows from Proposition 16 applied in the case $S = A - \{0\}$. If $(x_i)_{i \in I}$ is a basis of $L$ over $K$, then there exists for all $i \in I$ an element $a_i \neq 0$ of $A$ such that $a_i x_i \in B$; then $(a_i x_i)_{i \in I}$ is also a basis of $L$ over $K$.
 
-#### Corollary 3 {#ac-v-s1-prop-16-cor-3 .statement}
+#### Corollary 3 {#ac-v-s1-prop-16-cor-3 .statement tag=04O0}
 
 Let $A$ be an integral domain and $\Omega$ the set of maximal ideals of $A$. For $A$ to be integrally closed, it is necessary and sufficient that, for all $m \in \Omega$, $A_m$ be integrally closed.
 
 It follows from Corollary 1 that the condition is necessary. The condition is sufficient, for $A = \bigcap_{m \in \Omega} A_m$ (Chapter II, § 3, no. 3, formula (2)) and it is sufficient to apply the Corollary to Proposition 8 of no. 2.
 
-#### Corollary 4 {#ac-v-s1-prop-16-cor-4 .statement}
+#### Corollary 4 {#ac-v-s1-prop-16-cor-4 .statement tag=04O1}
 
 Let $A$ be an integral domain, $K$ its field of fractions and $S$ a multiplicative subset of $A$ such that $0 \notin S$.
 
@@ -476,7 +476,7 @@ Let $A$ be an integral domain, $K$ its field of fractions and $S$ a multiplicati
 
 If $B$ is a subring of $K$ which is integral over $A$, the annihilator $f$ of $B/A$ (equal by definition to the transporter $A : B$ (Chapter I, § 2, no. 10)) is sometimes called the *conductor* of $B$ in $A$.
 
-#### Corollary 5 {#ac-v-s1-prop-16-cor-5 .statement}
+#### Corollary 5 {#ac-v-s1-prop-16-cor-5 .statement tag=04O2}
 
 *Let $A$ be an integral domain, $A'$ its integral closure and $f$ the annihilator of the $A$-module $A'/A$. Suppose that $A'$ is afinitely generated $A$-module. The prime ideals $p \in A$ such that $A_p$ is not integrally closed are those which contain $f$.*
 
@@ -488,7 +488,7 @@ Note that under the hypotheses of Corollary 5 $f \neq 0$ since $A'$ is a finitel
 
 ### 6. NORMS AND TRACES OF INTEGERS
 
-#### Proposition 17 {#ac-v-s1-prop-17 .statement}
+#### Proposition 17 {#ac-v-s1-prop-17 .statement tag=04O3}
 
 *Let $A$ be a ring, $B$ a (commutative) $A$-algebra and $X$ a square matrix of order $n$ over $B$; the following properties are equivalent:
 
@@ -510,29 +510,29 @@ $$
 
 in B reduces to 0, condition (E_{III}) of no. 1, Theorem 1 proves that d is integral over A.
 
-#### Corollary 1 {#ac-v-s1-prop-17-cor-1 .statement}
+#### Corollary 1 {#ac-v-s1-prop-17-cor-1 .statement tag=04O4}
 
 Let A be an integral domain, K its field of fractions and K' a finite-dimensional K-algebra (not necessarily commutative). If x \in K' is integral over A, the coefficients of the characteristic polynomial Pc_{K'/K}(x; X) (Algebra, Chapter VIII, § 12, no. 2) are integral over A.
 
 If z \mapsto M(z) is the regular representation of the algebra K' (considered as a matrix representation; cf. Algebra, Chapter VIII, § 13) Pc_{K'/K}(x; X) is by definition the characteristic polynomial of the matrix M(x); if x integral over A, the matrix M(x) is integral over A (no. 1, Proposition 2) and it is sufficient to apply Proposition 17.
 
-#### Corollary 2 {#ac-v-s1-prop-17-cor-2 .statement}
+#### Corollary 2 {#ac-v-s1-prop-17-cor-2 .statement tag=04O5}
 
 With the same hypotheses and notation as in Corollary 1, Tr_{K'/K}(x) and N_{K'/K}(x) are integral over A.
 
 Tr_{K'/K}(x) and N_{K'/K}(x) are, to within a sign, coefficientsof Pc_{K'/K}(x; X) (Algebra, Chapter VIII, § 12, no. 1, equations (4))and hence are integral.
 
-#### Remark (1) {#ac-v-s1-n6-rem-1 .statement}
+#### Remark (1) {#ac-v-s1-n6-rem-1 .statement tag=04O6}
 
 If K' is a simple central algebra over K and x \in K' is integral over A, the coefficients of the reduced characteristic polynomial of x (Algebra, Chapter VIII, § 12, no. 3) are integral over A. For there is a power of this polynomial equal to Pc_{K'/K}(x; X) (loc. cit., Proposition 8) and it is sufficient to apply Proposition 17 and no. 3, Proposition 11.
 
-#### Proposition 18 {#ac-v-s1-prop-18 .statement}
+#### Proposition 18 {#ac-v-s1-prop-18 .statement tag=04O7}
 
 Let A be an integrally closed domain, K its field of fractions, K' a finite-dimensional separable K-algebra (Algebra, Chapter VIII, § 7, no. 5) and A' the integral closure of A in K'. Then A' is contained in afinitely generated A-module.
 
 The proposition will follow from the following more precise lemma:
 
-#### Lemma 3 {#ac-v-s1-lem-3 .statement}
+#### Lemma 3 {#ac-v-s1-lem-3 .statement tag=04O8}
 
 Under the hypotheses of Proposition 18, let (w_1, ..., w_n) be a basis of K' over K contained in A' (no. 5, Corollary 2 to Proposition 16); then there is a unique basis (w_1^*, ..., w_n^*) of K' over K for which Tr_{K'/K}(w_i w_j^*) = \delta_{ij} (Kronecker index); if d = D_{K'/K}(w_1, ..., w_n) is the discriminant of the basis (w_1, ..., w_n) (Algebra, Chapter IX, § 2), then d \neq 0 and
 
@@ -550,17 +550,17 @@ over K' is therefore non-degenerate (*loc. cit.*, Proposition 4); this shows the
 
 In the two corollaries which follow the hypotheses and notations are those of Proposition 18.
 
-#### Corollary 1 {#ac-v-s1-lem-3-cor-1 .statement}
+#### Corollary 1 {#ac-v-s1-lem-3-cor-1 .statement tag=04O9}
 
 *If $A$ is a Noetherian ring, the $A$-module $A'$ is finitely generated and in particular the ring $A'$ is Noetherian.*
 
 $A'$ is a submodule of a finitely generated $A$-module.
 
-#### Corollary 2 {#ac-v-s1-lem-3-cor-2 .statement}
+#### Corollary 2 {#ac-v-s1-lem-3-cor-2 .statement tag=04OA}
 
 *If $A$ is a principal ideal domain, $A'$ is a free $A$-module of rank $n$.* Every submodule of a free $A$-module is then free (*Algebra*, Chapter VII, § 3, Theorem 1).
 
-#### Corollary 3 {#ac-v-s1-lem-3-cor-3 .statement}
+#### Corollary 3 {#ac-v-s1-lem-3-cor-3 .statement tag=04OB}
 
 *Let $E$ be an extension of degree $n$ of the field $Q$ of rational numbers. The additive group of the integral closure in $E$ of the ring $Z$ of rational integers is a free commutative group of rank $n$.*
 
@@ -570,7 +570,7 @@ $Z$ is integrally closed (no. 3, Proposition 10) and $E$ is separable since $Q$ 
 
 ### 7. EXTENSION OF SCALARS IN AN INTEGRALLY CLOSED ALGEBRA
 
-#### Proposition 19 {#ac-v-s1-prop-19 .statement}
+#### Proposition 19 {#ac-v-s1-prop-19 .statement tag=04OC}
 
 *Let $k$ be a field, $L$ a separable extension of $k$ and $R$ an integrally closed $k$-algebra. If the ring $L \otimes_k R$ is an integral domain, it is integrally closed.*
 
@@ -599,7 +599,7 @@ L \otimes_{k_1} (k, \otimes_k R) and by definition L is a finite separable exten
 
 \* Let V be an affine irreducible algebraic variety, $k$ a defining field of V and $R$ the ring of functions regular on V defined over $k$; if R is integrally closed, V is called *normal over $k$*; Proposition 19 shows that, if V is normal over $k$, it remains normal over every separable extension L of $k$. \*
 
-#### Corollary {#ac-v-s1-n7-cor-1 .statement}
+#### Corollary {#ac-v-s1-n7-cor-1 .statement tag=04OD}
 
 *Let k be a field and R and S two integrally closed k-algebras. Suppose that the ring $R \otimes_k S$ is an integral domain and that the fields of fractions K and L of R and S respectively are separable over k. Then the ring $R \otimes_k S$ is an integrally closed domain.*
 
@@ -633,7 +633,7 @@ $$
 
 it is immediate that $j_{\mathbf{A}} : \mathbf{A} \to \mathbf{A}[X, X^{-1}]$ is an injective ring homomorphism.
 
-#### Proposition 20 {#ac-v-s1-prop-20 .statement}
+#### Proposition 20 {#ac-v-s1-prop-20 .statement tag=04OE}
 
 *Let $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} A_i$, be a graded ring and $\mathbf{B}$ a (commutative) graded $\mathbf{A}$-algebra. The set $\mathbf{A}'$ of elements of $\mathbf{B}$ integral over $\mathbf{A}$ is a graded subalgebra of $\mathbf{B}$.
 
@@ -657,7 +657,7 @@ Suppose now that $x \in A'_i$ where $i < 0$; the remark at the beginning of this
 
 Recall (Chapter II, § 2, no. 9) that, if $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ is a graded ring and $S$ is a multiplicative subset of $\mathbf{A}$ consisting of *homogeneous* elements, a graded ring structure is defined on $S^{-1}\mathbf{A}$ by taking the set $(S^{-1}\mathbf{A})_i$ of homogeneous elements of degree $i$ to be the set of elements of the form $a/s$, where $a \in \mathbf{A}$ and $s \in S$ are homogeneous and such that $\deg(a) - \deg(s) = i$
 
-#### Lemma 4 {#ac-v-s1-lem-4 .statement}
+#### Lemma 4 {#ac-v-s1-lem-4 .statement tag=04OF}
 
 Let $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ be a graded integral domain and $S$ the set of homogeneous elements $\neq 0$ of $\mathbf{A}$.
 
@@ -667,25 +667,25 @@ Let $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ be a graded integra
 
 The assertions in (i) follow immediately from the definitions and the hypothesis that $\mathbf{A}$ is an integral domain, for if $a/s$ and $a'/s'$ are two homogeneous elements $\neq 0$ of $S^{-1}\mathbf{A}$ of degrees $i$ and $i'$, $aa'/ss'$ is a homogeneous element $\neq 0$ and of degree $i + i'$. To show (ii), we note that since $t$ is invertible in $S^{-1}\mathbf{A}$ the homomorphism $f$ extends in a unique way to a homomorphism $\tilde{f}: K_0[X, X^{-1}] \to S^{-1}\mathbf{A}$ and necessarily $\tilde{f}(X^{-1}) = t^{-1}$. On the other hand, by definition of $q$, every homogeneous element $\neq 0$ of $S^{-1}\mathbf{A}$ is of degree $qn \ (n \in \mathbf{Z})$ and hence can be written uniquely in the form $\lambda t^n$ where $\lambda \in K_0$ (since $S^{-1}\mathbf{A}$ is an integral domain); hence $\tilde{f}$ is bijective. Finally, we know that $K_0[X]$ is integrally closed (no. 3, Proposition 10) and hence so is $K_0[X, X^{-1}]$ (no. 5, Corollary 1 to Proposition 16), which completes the proof of the Lemma.
 
-#### Proposition 21 {#ac-v-s1-prop-21 .statement}
+#### Proposition 21 {#ac-v-s1-prop-21 .statement tag=04OG}
 
 Let $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ be a graded integral domain and $S$ the set of homogeneous elements $\neq 0$ of $\mathbf{A}$. The integral closure $\mathbf{A}'$ of $\mathbf{A}$ is then a graded subring of $S^{-1}\mathbf{A}$. If further $\mathbf{A}_i = 0$ for $i < 0$, then $\mathbf{A}'_i = 0$ for $i < 0$.
 
 If $\mathbf{A} = \mathbf{A}_0$, the proposition is trivial. Otherwise we may apply Lemma 4; the ring $S^{-1}\mathbf{A}$ is an integrally closed domain and therefore $\mathbf{A} \subset S^{-1}\mathbf{A}$; as $S^{-1}\mathbf{A}$ is graded, so is $\mathbf{A}'$ by Proposition 20; the latter assertion also follows from Proposition 20.
 
-#### Corollary 1 {#ac-v-s1-prop-21-cor-1 .statement}
+#### Corollary 1 {#ac-v-s1-prop-21-cor-1 .statement tag=04OH}
 
 With the hypotheses and notation of Proposition 21, if every homogeneous element of $S^{-1}\mathbf{A}$ which is integral over $\mathbf{A}$ belongs to $\mathbf{A}$, then $\mathbf{A}$ is integrally closed.
 
 Then $\mathbf{A}'_i \subset \mathbf{A}$ for all $i \in \mathbf{Z}$ and hence $\mathbf{A}' = \mathbf{A}$.
 
-#### Corollary 2 {#ac-v-s1-prop-21-cor-2 .statement}
+#### Corollary 2 {#ac-v-s1-prop-21-cor-2 .statement tag=04OI}
 
 If $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ is an integrally closed graded domain, the domain $\mathbf{A}_0$ is integrally closed.
 
 The field of fractions $K_0$ of $\mathbf{A}$, is identified (in the notation of Proposition 21) with a subring of the ring of homogeneous elements of degree 0 of $S^{-1}A$; every element of $K_0$ integral over $A$, (and *a fortiori* over $A$) belongs therefore by hypothesis to $A$.
 
-#### Corollary 3 {#ac-v-s1-prop-21-cor-3 .statement}
+#### Corollary 3 {#ac-v-s1-prop-21-cor-3 .statement tag=04OJ}
 
 *Let $A = \bigoplus_{i \in \mathbf{Z}} A_i$ be an integrally closed graded domain. Then, for every integer $d > 0$, the ring $A^{(d)}$ (Chapter III, § 1, no. 3) is an integrally closed domain.*
 
@@ -697,37 +697,37 @@ Given a ring $K$, a $K$-algebra $A$ and a group $G$, we shall say that $G$ opera
 
 We shall say that $G$ is a *locally finite* group of operators on $A$ if every *orbit* of $G$ in $A$ (*Algebra*, Chapter I, Corrections to *Fascicule* IV) is *finite*.
 
-#### Proposition 22 {#ac-v-s1-prop-22 .statement}
+#### Proposition 22 {#ac-v-s1-prop-22 .statement tag=04OK}
 
 *Let $A$ be a (commutative) $K$-algebra and $G$ a locally finite group of operators on $A$. Then $A$ is integral over the subalgebra $A^G$.*
 
 For all $x \in A$, let $x_i$ ($1 \leq i \leq n$) be the distinct elements of the orbit of $x$ under $G$; for all $\sigma \in G$, there exists a permutation $\pi_\sigma$ of the set $\{1, 2, \ldots, n\}$ such that $\sigma.x_i = x_{\pi_\sigma(i)}$ for $1 \leq i \leq n$; therefore the elementary symmetric functions of the $x_i$ are elements of $A$ which are invariant under $G$, in other words elements of $A^G$. As $x$ is a root of the monic polynomial $\prod_{i=1}^n (X - x_i)$ and the coefficients of this polynomial belong to $A^G$, $x$ is integral over $A^G$.
 
-#### Theorem 2 {#ac-v-s1-thm-2 .statement}
+#### Theorem 2 {#ac-v-s1-thm-2 .statement tag=04OL}
 
 *Let $A$ be a finitely generated $K$-algebra and $G$ a locally finite group of operators on $A$. Then $A$ is a finitely generated $A$-module; if further $K$ is Noetherian, $A^G$ is affinitely generated $K$-algebra.*
 
 Let $(a_j)_{1 \leq j \leq m}$ be a system of generators of the $K$-algebra $A$; as *a fortiori* $A = A^G[a_1, \ldots, a_l]$ and the $a_j$ are integral over $A^G$ by Proposition 22, the first assertion follows from no. 1, Proposition 4. The second is a consequence of the following lemma:
 
-#### Lemma 5 {#ac-v-s1-lem-5 .statement}
+#### Lemma 5 {#ac-v-s1-lem-5 .statement tag=04OM}
 
 *Let $K$ be a Noetherian ring, $B$ a finitely generated $K$-algebra and $C$ a sub-K-algebra of B such that B is integral over C. Then C is a finitely generated A-algebra.
 
 Let $(x_i)_{1 \leq i \leq n}$ be a finite system of generators of the K-algebra B. For all i, there exists by hypothesis a monic polynomial $P_i \in C[X]$ such that $P_i(x_i) = 0$. Let C' be the sub-K-algebra of C generated by the coefficients of the $P_i$ ($1 \leq i \leq n$); clearly the $x_i$ are integral over C' and $B = C'[x_1, \ldots, x_n]$; hence B is a finitely generated C'-module (no. 1, Proposition 4). On the other hand $C'$ is a Noetherian ring (Chapter III, § 2, no. 10, Corollary 3 to Theorem 2); hence C is a finitely generated $C'$-module, which proves that C is a finitely generated K-algebra.
 
-#### Remark {#ac-v-s1-n9-rem-1 .statement}
+#### Remark {#ac-v-s1-n9-rem-1 .statement tag=04ON}
 
 The set of $\sigma \in G$ such that $\sigma a_j = a_j$ for $1 \leq j \leq m$ obviously leaves invariant every element of A. The normal subgroup $\mathscr{H}$ of $G$ leaving invariant every element of A is therefore of finite index in $G$ and A may be considered as having a finite group of operators $G/\mathscr{H}$; obviously $A^{G/\mathscr{H}} = A^G$.
 
 Let S be a multiplicative subset of a ring A and $G$ a group operating on A and for which S is stable; then, for all $\sigma \in G$, there exists a unique endomorphism $z \mapsto q_z$ of the ring $S^{-1}A$ such that $q_z(a/1) = (a.a)/1$ for all $a \in A$; it is given by the formula $\sigma.(a/s) = (\sigma.a)/(\sigma.s)$ for $a \in A$ and $s \in S$ (Chapter II, § 2, no. 1, Proposition 2); if $\tau$ is another element of $G$, clearly $q_z(\tau.z) = (\sigma\tau).z$ for all $z \in S^{-1}A$ and hence the group $G$ operates on the ring $S^{-1}A$.
 
-#### Proposition 23 {#ac-v-s1-prop-23 .statement}
+#### Proposition 23 {#ac-v-s1-prop-23 .statement tag=04OO}
 
 Let A be a K-algebra, $G$ a locally finite group of operators on A, S a multiplicative subset of A stable under $G$ and $S^G$ the set $S \cap A''$. Then the canonical mapping of $(S^G)^{-1}A$ to $S^{-1}A$ (Chapter II, § 2, no. 1, Corollary 2 to Proposition 2) is an isomorphism which maps $(S^G)^{-1}A^G$ to $(S^{-1}A)^G$.
 
 For all $s \in S$, let $s, s_1, \ldots, s_q$ be the distinct elements of the orbit of s under $G$; as $ss_1 \ldots s_q \in S^G$, the first assertion follows from Chapter 11, § 2, no. 3, Proposition 8. Identifying canonically $(S^G)^{-1}A$ with $S^{-1}A$, clearly every element of $(S^G)^{-1}A^G$ is invariant under $G$. Conversely, let $a/t$ be an element of $(S^G)^{-1}A$ which is invariant under $G$ ($a \in A, t \in S^G$); if $a, (1 \leq j \leq m)$ are the distinct elements of the orbit of $a$ under $G$, then $a_j/t = a/t$ for $1 \leq j \leq m$ and therefore there exists $s \in S^G$ such that $s(a_j - a) = 0$ for $1 \leq j \leq m$; in other words, sa is invariant under $G$ and, as $a/t = (sa)/(st)$, certainly $a/t \in (S^G)^{-1}A^G$.
 
-#### Corollary {#ac-v-s1-n9-cor-1 .statement}
+#### Corollary {#ac-v-s1-n9-cor-1 .statement tag=04OP}
 
 Let A be an integral domain, K its field of fractions and $G$ a locally finite group of operators on A. Then $G$ operates on K and $K^G$ is the field of fractions of $A^G$.
 

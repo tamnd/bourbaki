@@ -45,7 +45,7 @@ subsections:
       pdf_page: 157
 statements: 41
 exercises: 13
-content_sha256: 9565c1203b4037fe0e3df03a7101efc5b41a7119357fac04fe07c854d5119ac9
+content_sha256: ce886fb03e1717d2a1714b5a3d69b6d800091f2d903d8c1da96c64b45e804806
 ---
 
 ## § 3. ESPACES D’APPLICATIONS LINÉAIRES CONTINUES
@@ -54,21 +54,21 @@ content_sha256: 9565c1203b4037fe0e3df03a7101efc5b41a7119357fac04fe07c854d5119ac9
 
 Soient $F$ un espace vectoriel topologique, $E$ un ensemble quelconque et $\mathfrak{S}$ une famille de parties de $E$. Considérons l’espace vectoriel $F^E$ muni de la structure uniforme de la $\mathfrak{S}$-convergence (TG, X, p. 2). On sait que cette structure uniforme est compatible avec la structure de groupe commutatif de $F^E$ (TG, X, p. 6, cor. 2). La topologie qu’on en déduit s’appelle la $\mathfrak{S}\text{-topologie}$. Si $X$ est une partie de $F^E$ ou plus généralement un ensemble muni d’une application $j : X \to F^E$, on appelle $\mathfrak{S}\text{-topologie}$ sur $X$ l’image réciproque par $j$ de la $\mathfrak{S}\text{-topologie}$ sur $F^E$.
 
-#### Remarque 1 {#evt-iii-s3-n1-rem-1 .statement}
+#### Remarque 1 {#evt-iii-s3-n1-rem-1 .statement tag=07MJ}
 
 La $\mathfrak{S}\text{-topologie}$ est identique à la $\mathfrak{S}'\text{-topologie}$, où $\mathfrak{S}'$ désigne la bornologie engendrée par $\mathfrak{S}$ (III, p. 1).
 
-#### Remarque 2 {#evt-iii-s3-n1-rem-2 .statement}
+#### Remarque 2 {#evt-iii-s3-n1-rem-2 .statement tag=07MQ}
 
 Soit $M \in \mathfrak{S}$ et soit $V$ un voisinage de 0 dans $F$; notons $T(M, V)$ l’ensemble des $f \in F^E$ telles que $f(x) \in V$ pour tout $x \in M$. Si $\mathfrak{S}$ est stable par réunion finie, les ensembles $T(M, V)$ forment un système fondamental de voisinages de 0 pour la $\mathfrak{S}\text{-topologie}$ de $F^E$.
 
-#### Proposition 1 {#evt-iii-s3-prop-1 .statement}
+#### Proposition 1 {#evt-iii-s3-prop-1 .statement tag=07MK}
 
 *Soient E un ensemble, $\mathfrak{S}$ un ensemble de parties de E, F un espace vectoriel topologique, H un sous-espace vectoriel de $F^E$. Pour que la $\mathfrak{S}\text{-topologie}$ soit compatible avec la structure d’espace vectoriel de H, il faut et il suffit que, pour tout $u \in H$ et tout $M \in \mathfrak{S}$, $u(M)$ soit borné dans F. Si, en outre, F est localement convexe, la $\mathfrak{S}\text{-topologie}$ sur H est localement convexe.*
 
 Compte tenu des remarques 1) et 2) ci-dessus, on voit qu’une condition nécessaire et suffisante pour que la $\mathfrak{S}\text{-topologie}$ soit compatible avec la structure d’espace vectoriel de H est que les ensembles $H \cap T(M, V)$ soient *absorbants* dans H (I, p. 7, prop. 4) ; or cela signifie que, pour tout $u \in H$, toute partie $M \in \mathfrak{S}$ et tout voisinage équilibré $V$ de 0 dans $F$, il existe $\lambda \neq 0$ tel que $u(M) \subset \lambda V$, c’est-à-dire (III, p. 2) que $u(M)$ soit bornée dans $F$. Enfin la dernière assertion de la proposition résulte de ce que, si $V$ est convexe, il en est de même de $T(M, V)$.
 
-#### Corollaire {#evt-iii-s3-n1-cor-1 .statement}
+#### Corollaire {#evt-iii-s3-n1-cor-1 .statement tag=07ML}
 
 *Soient E et F deux espaces localement convexes, $\mathfrak{S}$ un ensemble de parties bornées de E, $\mathscr{L}(E; F)$ l’espace vectoriel des applications linéaires continues de E dans F. La $\mathfrak{S}\text{-topologie}$ est compatible avec la structure d’espace vectoriel de $\mathscr{L}(E; F)$; elle est localement convexe.*
 
@@ -76,19 +76,19 @@ Il suffit de remarquer que, si $u$ est une application linéaire continue de E d
 
 Étant donnés deux espaces vectoriels localement convexes E et F, et un ensemble $\mathscr{S}$ de parties bornées de E, nous désignerons par $\mathscr{L}_{\mathscr{S}}(E ; F)$ l’espace localement convexe obtenu en munissant $\mathscr{L}(E ; F)$ de la $\mathscr{S}$-topologie.
 
-#### Exemple 1 {#evt-iii-s3-n1-exa-1 .statement}
+#### Exemple 1 {#evt-iii-s3-n1-exa-1 .statement tag=07MM}
 
 $\mathscr{S}$ est l’ensemble des parties finies de E ; la $\mathscr{S}$-topologie est alors la topologie de la convergence simple et l’espace $\mathscr{L}_{\mathscr{S}}(E ; F)$ est aussi noté $\mathscr{L}_s(E ; F)$. Une partie bornée de $\mathscr{L}_s(E ; F)$ est appelée une partie simplement bornée de $\mathscr{L}(E ; F)$.
 
-#### Exemple 2 {#evt-iii-s3-n1-exa-2 .statement}
+#### Exemple 2 {#evt-iii-s3-n1-exa-2 .statement tag=07MN}
 
 $\mathscr{S}$ est l’ensemble des parties compactes (resp. précompactes, convexes compactes). La $\mathscr{S}$-topologie est alors appelée la topologie de la convergence compacte (resp. précompacte, convexe compacte) et l’espace $\mathscr{L}_{\mathscr{S}}(E ; F)$ est aussi noté $\mathscr{L}_c(E ; F)$ (resp. $\mathscr{L}_{pc}(E ; F)$, $\mathscr{L}_{cc}(E ; F)$). (Cf. IV, p. 48, exerc. 7.)
 
-#### Exemple 3 {#evt-iii-s3-n1-exa-3 .statement}
+#### Exemple 3 {#evt-iii-s3-n1-exa-3 .statement tag=07MO}
 
 Si $\mathscr{S}$ est l’ensemble de toutes les parties bornées de E, on dit que la $\mathscr{S}$-topologie est la topologie de la convergence bornée, et l’espace $\mathscr{L}_{\mathscr{S}}(E ; F)$ est noté $\mathscr{L}_b(E ; F)$.
 
-#### Exemple 4 {#evt-iii-s3-n1-exa-4 .statement}
+#### Exemple 4 {#evt-iii-s3-n1-exa-4 .statement tag=07MP}
 
 Lorsque $F = K$, l’espace $\mathscr{L}(E ; F)$ est le dual $E'$ de E. On note alors $E'_\mathscr{S}$, $E'_s$, etc. l’espace $\mathscr{L}_{\mathscr{S}}(E ; K)$, $\mathscr{L}_s(E ; K)$, etc. L’espace $E'_s$ (resp. $E'_b$) est appelé le dual faible (resp. le dual fort) de E. Une partie bornée de $E'_s$ (resp. $E'_b$) est dite faiblement (resp. fortement) bornée. On notera que la topologie faible sur $E'$ n’est autre que $\sigma(E', E)$ (II, p. 45).
 
@@ -110,7 +110,7 @@ $$
 
 (cf. TG, X, p. 21 à 24). Lorsqu’on considère $\mathscr{L}_b(E ; F)$ comme un espace semi-normé, c’est toujours de la semi-norme (2) qu’il est question sauf mention expresse du contraire. Si F est un espace normé, la semi-norme (2) est une norme.
 
-#### Remarque 3 {#evt-iii-s3-n1-rem-3 .statement}
+#### Remarque 3 {#evt-iii-s3-n1-rem-3 .statement tag=0E52}
 
 Soit A une partie dense de la boule unité de E. Vu la continuité de $u$, on a aussi
 
@@ -130,11 +130,11 @@ $$
 r(u) = \sup_{p(x)=1} q(u(x)) = \sup_{p(x) \neq 0} \frac{q(u(x))}{p(x)}.
 $$
 
-#### Remarque 4 {#evt-iii-s3-n1-rem-4 .statement}
+#### Remarque 4 {#evt-iii-s3-n1-rem-4 .statement tag=0E53}
 
 La formule (2) montre que l’application $u \mapsto r(u)$ est semi-continue inférieurement sur $\mathscr{L}_s(E; F)$.
 
-#### Proposition 2 {#evt-iii-s3-prop-2 .statement}
+#### Proposition 2 {#evt-iii-s3-prop-2 .statement tag=07MR}
 
 *Soient E et F deux espaces localement convexes, et soit $\mathfrak{S}$ un ensemble de parties bornées de E.*
 
@@ -148,7 +148,7 @@ Démontrons la deuxième assertion : tout d’abord, si F est le corps de base, 
 
 ### 2. Condition pour que $\mathscr{L}_{\mathfrak{S}}(E; F)$ soit séparé
 
-#### Proposition 3 {#evt-iii-s3-prop-3 .statement}
+#### Proposition 3 {#evt-iii-s3-prop-3 .statement tag=07MS}
 
 *Soient E et F deux espaces localement convexes, F étant supposé séparé, et soit $\mathfrak{S}$ un ensemble de parties bornées de E. Si la réunion A des ensembles de $\mathfrak{S}$ est totale dans E, l’espace $\mathscr{L}_{\mathfrak{S}}(E; F)$ est séparé.*
 
@@ -170,7 +170,7 @@ Soient E et F deux espaces localement convexes. Pour qu’une partie H de $\math
 
 Par suite, l’ensemble des parties équicontinues est une bornologie convexe sur $\mathscr{L}(E ; F)$ (III, p. 2, déf. 2).
 
-#### Proposition 4 {#evt-iii-s3-prop-4 .statement}
+#### Proposition 4 {#evt-iii-s3-prop-4 .statement tag=07MT}
 
 Soient E, F deux espaces localement convexes, F étant supposé séparé. Munissons l’espace $F^E$ de toutes les applications de E dans F de la topologie de la convergence simple.
 
@@ -192,25 +192,25 @@ $$
 
 donc est fermé dans $F^E$.
 
-#### Corollaire 1 {#evt-iii-s3-prop-4-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s3-prop-4-cor-1 .statement tag=07MU}
 
 Pour qu’une partie équicontinue H de $\mathscr{L}(E; F)$ soit relativement compacte dans $\mathscr{L}_s(E; F)$, il faut et il suffit que, pour tout $x \in E$, l’ensemble $H(x)$ des $u(x)$, où $u$ parcourt H, soit relativement compact dans F.
 
 En effet, cette condition est nécessaire et suffisante pour que $\overline{H}$ soit compacte dans $F^E$ (TG, I, p. 64).
 
-#### Corollaire 2 {#evt-iii-s3-prop-4-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s3-prop-4-cor-2 .statement tag=07MV}
 
 Toute partie équicontinue du dual $E'$ de E est relativement compacte pour la topologie faible $\sigma(E', E)$ de $E'$ (III, p. 14, Exemple 4).
 
 En effet, si H est une partie équicontinue de $E'$, $\sup_{u \in H} |u|$ est une semi-norme continue sur E ; en particulier pour tout $x \in E$, l’ensemble $H(x)$ est borné, donc relativement compact dans le corps des scalaires.
 
-#### Corollaire 3 {#evt-iii-s3-prop-4-cor-3 .statement}
+#### Corollaire 3 {#evt-iii-s3-prop-4-cor-3 .statement tag=07MW}
 
 Dans le dual fort $E'_b$ d’un espace semi-normé E, toute boule fermée est compacte pour la topologie faible $\sigma(E', E)$.
 
 En effet, cette boule est aussi fermée pour $\sigma(E', E)$.
 
-#### Proposition 5 {#evt-iii-s3-prop-5 .statement}
+#### Proposition 5 {#evt-iii-s3-prop-5 .statement tag=07MX}
 
 Soient E et F deux espaces localement convexes et soit T une partie totale de E. Sur toute partie équicontinue H de $\mathscr{L}(E; F)$, les structures uniformes suivantes coïncident :
 
@@ -222,7 +222,7 @@ Rappelons (III, p. 15, prop. 2) que, dans $\mathscr{L}(E; F)$, la $\mathfrak{S}$
 
 Dans l’énoncé de la prop. 5, on peut donc remplacer le mot « totale » par « partout dense ». La proposition résulte alors des propriétés générales des ensembles équicontinu (TG, X, p. 16, th. 1).
 
-#### Exemple 1 {#evt-iii-s3-n4-exa-1 .statement}
+#### Exemple 1 {#evt-iii-s3-n4-exa-1 .statement tag=07MY}
 
 Soit $\mu$ la mesure de Lebesgue sur $\mathbf{R}$ et soit $E$ l’espace semi-normé $\mathscr{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV). Pour toute fonction numérique $f$ et tout nombre réel $h$, notons $f_h$ la fonction $x \mapsto f(x - h)$. Il est clair que l’application $f \mapsto f_h$ définit une isométrie linéaire de $E$ sur lui-même. Si $f$ est continue à support compact, $f_h$ converge vers $f$, uniformément donc aussi en moyenne d’ordre $p$, lorsque $h$ tend vers $0$. Comme l’ensemble $\mathscr{K}(\mathbf{R})$ des fonctions continues à support compact est dense dans $E$, et comme l’ensemble des isométries linéaires de $E$ est équicontinu, il résulte de la prop. 5 que pour toute $f \in E$, $f_h$ converge en moyenne d’ordre $p$ vers $f$ lorsque $h$ tend vers $0$.
 
@@ -236,29 +236,29 @@ Les formes linéaires $f \mapsto \hat{f}(y)$ forment une partie équicontinue du
 
 D’autre part, on sait que l’ensemble $T$ des fonctions caractéristiques d’intervalles fermés bornés est une partie totale de $\mathscr{L}^1(\mu)$, et on vérifie aisément que, pour $f \in T$, la transformée de Fourier $\hat{f}$ est une fonction continue tendant vers zéro à l’infini. On en déduit qu’il en est de même pour tout $f \in L^1(\mu)$ (« th. de Riemann-Lebesgue »). En effet, la relation $\sup_{y \in \mathbf{R}} |\hat{f}(y)| \leq \|f\|_1$ montre que l’application $f \mapsto \hat{f}$ est une application continue de $\mathscr{L}^1(\mu)$ dans l’espace $\mathscr{B}(\mathbf{R})$ des fonctions bornées sur $\mathbf{R}$ muni de la convergence uniforme. Comme $\hat{f}$ est continue pour $f \in T$, il en résulte que $\hat{f}$ est continue quelle que soit $f \in L^1(\mu)$. Le fait que $\hat{f}$ tende vers zéro à l’infini résulte de ce que le sous-espace $\mathscr{C}_0(\mathbf{R})$ des fonctions continues tendant vers $0$ à l’infini est fermé dans $\mathscr{B}(\mathbf{R})$.
 
-#### Exemple 2 {#evt-iii-s3-n4-exa-2 .statement}
+#### Exemple 2 {#evt-iii-s3-n4-exa-2 .statement tag=0E54}
 
 Soit $E$ l’espace des fonctions numériques continues dans $\mathbf{R}$, muni de la topologie de la convergence compacte. Soit $K$ un compact de $\mathbf{R}$ et soit $(\mu_n)$ une suite de mesures sur $\mathbf{R}$ à support dans $K$. Supposons $\|\mu_n\| \leq 1$ pour tout $n$. L’ensemble des $\mu_n$ est alors une partie équicontinue de $E'$. Alors, si pour toute fonction $f \in E$, on a $\lim_{n \to \infty} \mu_n(f) = 0$, la suite des fonctions $x \mapsto \int e^{itx} d\mu_n(t)$ converge vers $0$, uniformément dans toute partie compacte de $\mathbf{R}$ (car l’ensemble des fonctions $t \mapsto e^{itx}$, où $x$ parcourt un compact de $\mathbf{R}$, est compact dans $E$). \*
 
-#### Corollaire {#evt-iii-s3-n4-cor-1 .statement}
+#### Corollaire {#evt-iii-s3-n4-cor-1 .statement tag=07MZ}
 
 Supposons $F$ séparé. Soit $H$ une partie équicontinue de $\mathscr{L}(E; F)$. Si un filtre $\Phi$ sur $H$ converge simplement vers une application $u_0$ de $E$ dans $F$, $u_0$ est une application linéaire continue de $E$ dans $F$, et $\Phi$ converge uniformément vers $u_0$ dans toute partie précompacte de $E$.
 
 La première assertion résulte de la prop. 4 (III, p. 16) et la seconde de la prop. 5 (III, p. 17).
 
-#### Proposition 6 {#evt-iii-s3-prop-6 .statement}
+#### Proposition 6 {#evt-iii-s3-prop-6 .statement tag=07N0}
 
 Soit $H$ une partie équicontinue de $\mathscr{L}(E; F)$. Si $F$ est métrisable et s’il existe un ensemble dénombrable total dans $E$, la structure uniforme sur $H$ de la convergence simple dans $E$ est métrisable. Si en outre il existe un ensemble dénombrable total dans $F$, il existe un ensemble dénombrable partout dense dans $H$ (pour la topologie de la convergence uniforme dans les parties précompactes de $E$).
 
 Soit $(a_n)$ une suite totale dans $E$. L’application $u \mapsto (u(a_n))$ est alors un isomorphisme de $\mathscr{L}(E; F)$, muni de la structure uniforme de la convergence simple dans l’ensemble des $a_n$, sur un sous-espace uniforme de $\mathbf{F}^\mathbf{N}$. Si $F$ est métrisable (resp. métrisable de type dénombrable), il en est de même de $\mathbf{F}^\mathbf{N}$ (TG, IX, p. 15, cor. 2, et p. 19, corollaire), et la proposition résulte de la prop. 5 (III, p. 17).
 
-#### Corollaire 1 {#evt-iii-s3-prop-6-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s3-prop-6-cor-1 .statement tag=07N1}
 
 Soient E un espace localement convexe métrisable de type dénombrable et F un espace normé de type dénombrable. Alors $\mathscr{L}(E; F)$ est réunion d’une famille dénombrable de parties équicontinues et il existe dans $\mathscr{L}(E; F)$ un ensemble dénombrable dense pour la topologie de la convergence uniforme dans les parties précompactes de E.
 
 Soient B la boule unité de F et $(V_n)$ un système fondamental dénombrable de voisinages de 0 dans E. Pour tout entier n, l’ensemble $H_n$ des $u \in \mathscr{L}(E; F)$ telles que $u(V_n) \subset B$ est équicontinu et $\mathscr{L}(E; F)$ est la réunion des $H_n$. Le corollaire résulte donc de la prop. 6.
 
-#### Corollaire 2 {#evt-iii-s3-prop-6-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s3-prop-6-cor-2 .statement tag=07N2}
 
 Dans le dual $E'$ d’un espace normé de type dénombrable, toute boule fermée est un espace compact métrisable pour la topologie faible $\sigma(E', E)$ et il existe dans $E'$ un ensemble dénombrable dense pour $\sigma(E', E)$.
 
@@ -268,7 +268,7 @@ Cela résulte de la prop. 6 et de III, p. 17, cor. 3.
 
 Dans ce numéro, on désigne par E un espace localement convexe et par $E'$ son dual. Lorsque nous parlerons du polaire $M^\circ$ d’une partie M de E (resp. $E'$), il s’agira toujours, sauf mention expresse du contraire, du polaire de M relativement à la dualité entre E et $E'$. Rappelons que, si V est un voisinage convexe, équilibré et fermé de 0 dans E, on a $V = V^{\circ\circ}$ (II, p. 49, cor. 3).
 
-#### Proposition 7 {#evt-iii-s3-prop-7 .statement}
+#### Proposition 7 {#evt-iii-s3-prop-7 .statement tag=07N3}
 
 Soit M une partie de $E'$. Les conditions suivantes sont équivalentes :
 (i) M est équicontinue ;
@@ -279,19 +279,19 @@ Si M est équicontinue, il existe un voisinage convexe équilibré V de 0 tel qu
 
 Remarquons que tout $x \in E$ définit une application $j(x): u \mapsto u(x)$ de $E'$ dans K. On peut donc parler de la $\mathfrak{S}$-topologie sur E, lorsque $\mathfrak{S}$ est un ensemble de parties de $E'$; c’est l’image réciproque par j de la $\mathfrak{S}$-topologie sur $K^{E'}$. On vérifie aussitôt que si $\mathfrak{S}$ est une bornologie convexe sur $E'$, un système fondamental de voisinages de 0 pour la $\mathfrak{S}$-topologie sur E est formé des polaires des ensembles de $\mathfrak{S}$. Il en est en particulier ainsi lorsque $\mathfrak{S}$ est l’ensemble des parties équicontinues de $E'$ et la prop. 7 entraîne :
 
-#### Corollaire 1 {#evt-iii-s3-prop-7-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s3-prop-7-cor-1 .statement tag=07N4}
 
 La topologie de E est identique à la topologie de la convergence uniforme dans les parties équicontinues de $E'$.
 
 Plus généralement, soit F un espace localement convexe ; toute $u \in \mathscr{L}(E; F)$ définit une application $j(u) : (x, f) \mapsto f(u(x))$ de $E \times F'$ dans $K$ (c’est-à-dire dans $\mathbf{R}$ ou $\mathbf{C}$). Ceci permet de définir dans l’espace $\mathscr{L}(E; F)$ la topologie de la convergence uniforme dans un ensemble de parties de $E \times F'$. En particulier :
 
-#### Corollaire 2 {#evt-iii-s3-prop-7-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s3-prop-7-cor-2 .statement tag=07N5}
 
 *Soit $\mathfrak{S}$ un ensemble de parties bornées de E. La $\mathfrak{S}$-topologie sur $\mathscr{L}(E; F)$ est la topologie de la convergence uniforme dans les ensembles de la forme $A \times B \subset E \times F'$, où $A$ décrit $\mathfrak{S}$ et $B$ l’ensemble des parties équicontinues de $F'$.
 
 En effet, pour tout $u \in \mathscr{L}(E; F)$, tout $A \in \mathfrak{S}$ et tout voisinage $V$ convexe, équilibré et fermé de $0$ dans $F$, la relation $u(A) \subset V$ est équivalente à « $j(u)(A \times V^\circ)$ est contenu dans la boule unité de $K$ ».
 
-#### Proposition 8 {#evt-iii-s3-prop-8 .statement}
+#### Proposition 8 {#evt-iii-s3-prop-8 .statement tag=07N6}
 
 *Soit $H$ un ensemble d’applications linéaires de $E$ dans un espace localement convexe $F$. Pour que $H$ soit équicontinu, il faut et il suffit que, pour toute partie équicontinue $X$ du dual $F'$ de $F$, l’ensemble des formes linéaires $f \circ u$ pour $f \in X$ et $u \in H$ soit équicontinu.
 
@@ -299,13 +299,13 @@ Il est évident que la condition est nécessaire. Supposons-la vérifiée et soi
 
 ### 6. Le complété d’un espace localement convexe
 
-#### Théorème 1 (Grothendieck) {#evt-iii-s3-thm-1 .statement}
+#### Théorème 1 (Grothendieck) {#evt-iii-s3-thm-1 .statement tag=07N7}
 
 *Soit $E$ un espace localement convexe, et soit $\mathfrak{S}$ une bornologie adaptée et couvrante sur $E$. Soit $F \subset E^*$ l’espace des formes linéaires sur $E$ dont la restriction à tout ensemble appartenant à $\mathfrak{S}$ est continue. On munit $F$ de la $\mathfrak{S}$-topologie. L’injection canonique de $E'_\mathfrak{S}$ dans $F$ se prolonge en un isomorphisme du complété $\hat{E}'_\mathfrak{S}$ de $E'_\mathfrak{S}$ sur $F$.
 
 Comme toute limite simple de formes linéaires sur $E$ est une forme linéaire (III, p. 16, prop. 4) et que la bornologie $\mathfrak{S}$ est couvrante, il résulte de TG, X, p. 9, cor. 2 que l’espace $F$, muni de la $\mathfrak{S}$-topologie, est séparé et *complet*. Il est clair que $E'_\mathfrak{S}$ est un sous-espace vectoriel topologique de $F$; il suffit donc de prouver que $E'_\mathfrak{S}$ est *partout dense* dans $F$, ce qui résulte du lemme suivant :
 
-#### Lemme 1 {#evt-iii-s3-lem-1 .statement}
+#### Lemme 1 {#evt-iii-s3-lem-1 .statement tag=07N8}
 
 *Soit $A$ une partie convexe, équilibrée et fermée de $E$, et soit $u$ une forme linéaire sur $E$ dont la restriction à $A$ est continue. Pour tout $\varepsilon > 0$, il existe $x' \in E'$ tel que*
 $$
@@ -330,21 +330,21 @@ Comme la forme linéaire $\varepsilon^{-1}u$ appartient à $(A \cap U)^°$, il e
 
 Soit maintenant $E$ un espace localement convexe séparé, et soit $\hat{E}$ son complété. Toute forme linéaire $f$ continue sur $E$ se prolonge par continuité à $\hat{E}$; on a donc $(\hat{E})' = E'$ (III, p. 16) et tout élément de $\hat{E}$ définit une forme linéaire sur $E'$, c’est-à-dire un élément du dual algébrique ${E'}^*$ de $E'$. De plus, la dualité entre $E$ (resp. $\hat{E}$) et $E'$ est séparante (II, p. 26, cor. 1). Par suite $E$ et $\hat{E}$ s’identifient à des sous-espaces vectoriels de ${E'}^*$.
 
-#### Théorème 2 {#evt-iii-s3-thm-2 .statement}
+#### Théorème 2 {#evt-iii-s3-thm-2 .statement tag=07N9}
 
 *Soit E un espace localement convexe séparé, et soit $\hat{E}$ son complété ; on identifie E et $\hat{E}$ à des sous-espaces vectoriels de ${E'}^*$. Pour qu’un élément $f \in {E'}^*$ appartienne à $\hat{E}$, il faut et il suffit que la restriction de $f$ à toute partie équicontinue de $E'$ soit continue pour la topologie $\sigma(E', E)$.*
 
 L’espace $E$ s’identifie au dual topologique de $E'$ lorsqu’on munit $E'$ de la topologie $\sigma(E', E)$ (II, p. 46, prop. 3) ; d’autre part, si $\mathscr{S}$ est l’ensemble des parties équicontinues de $E'$, la topologie donnée sur $E$ est la $\mathscr{S}$-topologie (III, p. 19, cor. 1). Il résulte alors de III, p. 13, prop. 1, que les ensembles de $\mathscr{S}$ sont bornés pour $\sigma(E', E)$ (*cf.* plus loin, III, p. 22, prop. 9), autrement dit $\mathscr{S}$ est une bornologie adaptée et couvrante pour la topologie $\sigma(E', E)$. Le th. 2 est alors conséquence du th. 1, où l’on remplace $E$ par $E'$ et $E'_\mathscr{S}$ par $E$.
 
-#### Corollaire 1 (Banach) {#evt-iii-s3-thm-2-cor-1 .statement}
+#### Corollaire 1 (Banach) {#evt-iii-s3-thm-2-cor-1 .statement tag=07NA}
 
 — *Soit E un espace localement convexe séparé et complet. Pour qu’une forme linéaire sur $E'$ soit continue pour la topologie faible $\sigma(E', E)$ (c’est-à-dire provienne d’un élément de $E$), il suffit que sa restriction à toute partie équicontinue de $E'$ soit continue pour $\sigma(E', E)$.*
 
-#### Remarque {#evt-iii-s3-n6-rem-1 .statement}
+#### Remarque {#evt-iii-s3-n6-rem-1 .statement tag=07NB}
 
 Supposons de plus qu’il existe dans $E$ un ensemble total dénombrable ; alors toute partie équicontinue de $E'$ est métrisable pour la topologie $\sigma(E', E)$ (III, p. 18, prop. 6) ; pour vérifier qu’une forme linéaire $u$ sur $E'$ est faiblement continue, il suffit donc de vérifier que, pour toute suite équicontinue $(x'_n)$ dans $E'$ qui converge vers 0 pour $\sigma(E', E)$, on a $\lim_{n \to \infty} u(x'_n) = 0$.
 
-#### Corollaire 2 {#evt-iii-s3-thm-2-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s3-thm-2-cor-2 .statement tag=07NC}
 
 *Soit $(E_i)_{i \in I}$ une famille d’espaces localement convexes séparés et soit $E$ leur somme directe topologique. L’application canonique de la somme directe des $\hat{E}_i$ dans $\hat{E}$ est un isomorphisme. En particulier, $E$ est complet si et seulement si tous les $E_i$ sont complets.*
 
@@ -354,7 +354,7 @@ On sait que le dual de E s’identifie au produit des duals des $E_i$ (II, p. 33
 
 Soient $E$ et $F$ deux espaces localement convexes et $\mathscr{S}$ un ensemble de parties bornées de $E$. Dire qu’une partie $H$ de $\mathscr{L}(E ; F)$ est bornée pour la $\mathscr{S}$-topologie signifie : pour tout $M \in \mathscr{S}$, tout voisinage $V$ de 0 dans $F$ absorbe l’ensemble $H(M) = \bigcup_{u \in H} u(M)$; cela revient à dire que *pour tout $M \in \mathscr{S}$, l’ensemble $H(M)$ est borné dans $F$*. De façon équivalente, cela signifie que pour tout voisinage $V$ de 0 dans $F$, l’ensemble $\bigcap_{u \in H} u^{-1}(V)$ *absorbe toute partie* $M$ de $\mathscr{S}$.
 
-#### Proposition 9 {#evt-iii-s3-prop-9 .statement}
+#### Proposition 9 {#evt-iii-s3-prop-9 .statement tag=07ND}
 
 *Soient $E$ et $F$ deux espaces localement convexes et soit $\mathscr{S}$ un ensemble de parties bornées de $E$. Toute partie équicontinue de $\mathscr{L}(E ; F)$ est bornée pour la $\mathscr{S}$-topologie.*
 
@@ -362,7 +362,7 @@ En effet, si $H$ est une partie équicontinue de $\mathscr{L}(E ; F)$ et $V$ un 
 
 Une partie de $\mathscr{L}(E ; F)$ qui est bornée pour une $\mathscr{S}$-topologie n’est pas nécessairement équicontinue, même si $\mathscr{S}$ est couvrante et même si $\mathscr{S}$ est la bornologie canonique de $E$ (IV, p. 50, exerc. 17). Nous étudierons au paragraphe suivant sous le nom d’espaces *tonnelés* les espaces $E$ tels que toute partie simplement bornée de $\mathscr{L}(E ; F)$ soit équicontinue. Notons dès maintenant le résultat suivant :
 
-#### Proposition 10 {#evt-iii-s3-prop-10 .statement}
+#### Proposition 10 {#evt-iii-s3-prop-10 .statement tag=07NE}
 
 *Soit $E$ un espace bornologique* (en particulier, un espace localement convexe métrisable), *et soit $F$ un espace localement convexe. Toute partie* $H$ *de* $\mathscr{L}(E ; F)$ *qui est bornée pour la topologie de la convergence bornée est équicontinue.*
 
@@ -370,39 +370,39 @@ En effet, pour tout voisinage convexe équilibré $V$ de 0 dans $F$, l’ensembl
 
 ### 8. Parties complètes de $\mathscr{L}_{\mathscr{S}}(E ; F)$
 
-#### Proposition 11 {#evt-iii-s3-prop-11 .statement}
+#### Proposition 11 {#evt-iii-s3-prop-11 .statement tag=07NF}
 
 *Soient $E$ et $F$ deux espaces localement convexes, $\mathscr{S}$ un recouvrement de $E$ formé de parties bornées. Si $F$ est séparé et quasi-complet* (III, p. 8), *toute partie équicontinue* $H$ *de* $\mathscr{L}(E ; F)$, *fermée pour la* $\mathscr{S}$-*topologie, est un sous-espace uniforme complet de* $\mathscr{L}_{\mathscr{S}}(E ; F)$.
 
 Comme $H$ est bornée dans $\mathscr{L}_\mathfrak{S}(E; F)$ (III, p. 22, prop. 9) et fermée dans $F^E$ pour la $\mathfrak{S}$-topologie (III, p. 16, prop. 4), cela résulte du cor. 3 de TG, X, p. 7.
 
-#### Remarque 1 {#evt-iii-s3-n8-rem-1 .statement}
+#### Remarque 1 {#evt-iii-s3-n8-rem-1 .statement tag=07NG}
 
 Soit $M$ un sous-espace uniforme complet de $\mathscr{L}_\mathfrak{S}(E; F)$. Pour tout ensemble de parties bornées $\mathfrak{S}' \supset \mathfrak{S}$ de $E$, la $\mathfrak{S}'$-topologie est plus fine que la $\mathfrak{S}$-topologie sur $\mathscr{L}(E; F)$; d’autre part, il existe un système fondamental de voisinages de 0 pour la $\mathfrak{S}'$-topologie qui sont fermés pour la topologie de la convergence simple (III, p. 13, Remarque 2), et a fortiori pour la $\mathfrak{S}$-topologie. On en conclut (TG, III, p. 26, cor. 1) que $M$ est encore complet pour la $\mathfrak{S}'$-topologie.
 
-#### Corollaire {#evt-iii-s3-n8-cor-1 .statement}
+#### Corollaire {#evt-iii-s3-n8-cor-1 .statement tag=07NH}
 
 *Soient* $E$ et $F$ *deux espaces localement convexes*, $H$ *une partie équicontinue de* $\mathscr{L}(E; F)$. *Si* $F$ *est séparé et quasi-complet, et si un filtre* $\Phi$ *sur* $H$ *converge simplement en tous les points d’une partie totale* $T$ *de* $E$, *alors il existe une application linéaire continue* $u$ *de* $E$ *dans* $F$ *telle que* $\Phi$ *converge uniformément vers* $u$ *dans toute partie précompacte de* $E$.
 
 En effet, en vertu de la prop. 5 (III, p. 17), $\Phi$ est un filtre de Cauchy pour la structure uniforme de la convergence précompacte dans $E$; d’après la prop. 11, l’adhérence $\overline{H}$ de $H$ dans $\mathscr{L}_{pc}(E; F)$ est complète et $\Phi$ converge donc uniformément sur toute partie précompacte de $E$ vers une application $u \in \overline{H}$.
 
-#### Remarque 2 {#evt-iii-s3-n8-rem-2 .statement}
+#### Remarque 2 {#evt-iii-s3-n8-rem-2 .statement tag=07NI}
 
 Soit $(u_n)$ une suite d’applications linéaires continues d’un espace de Banach $E$ dans un espace de Banach $F$; il peut se faire que $(u_n(x))$ ait une limite en tout point d’un sous-espace vectoriel partout dense $T$ de $E$, sans que la suite $(u_n)$ soit bornée dans l’espace normé $\mathscr{L}(E; F)$. Prenons par exemple pour $E$ l’espace des fonctions numériques continues dans $\mathbf{R}$, tendant vers zéro à l’infini, avec la norme $\|f\| = \sup_{x \in \mathbf{R}} |f(x)|$ et pour $T$ le sous-espace des fonctions numériques continues à support compact. La suite des applications linéaires continues $f \mapsto nf(n)$ de $E$ dans $\mathbf{R}$ converge vers 0 pour tout $f \in T$, mais n’est pas bornée dans $\mathscr{L}_b(E; \mathbf{R})$. Le même exemple montre que dans l’espace $\mathscr{L}(T; \mathbf{R})$ une suite $(v_n)$ peut être simplement convergente et non bornée pour la topologie de la convergence bornée.
 
 D’autre part, la suite des applications linéaires continues $f \mapsto \sum_{k=1}^n f(k)$ est une suite de Cauchy dans $\mathscr{L}(T; \mathbf{R})$ pour la topologie de la convergence simple, mais n’a pas de limite dans $\mathscr{L}(T; \mathbf{R})$ pour cette topologie.
 
-#### Proposition 12 {#evt-iii-s3-prop-12 .statement}
+#### Proposition 12 {#evt-iii-s3-prop-12 .statement tag=07NJ}
 
 *Soient* $E$ *un espace localement convexe bornologique*, $F$ *un espace localement convexe séparé et complet et* $\mathfrak{S}$ *un ensemble de parties bornées de* $E$, *contenant l’image de toute suite convergeant vers* 0. *Alors l’espace* $\mathscr{L}_\mathfrak{S}(E; F)$ *est complet*.
 
 Soit $\Phi$ un filtre de Cauchy dans $\mathscr{L}_\mathfrak{S}(E; F)$. Alors $\Phi$ est un filtre de Cauchy pour la topologie de la convergence simple, donc converge dans $F^E$; en outre, sa limite $u$ est une application linéaire de $E$ dans $F$ et $\Phi$ converge vers $u$ uniformément dans tout ensemble de $\mathfrak{S}$ (TG, X, p. 6, prop. 5). Il en résulte que l’image par $u$ d’une suite convergeant vers zéro est une suite convergeant vers zéro, donc que $u$ est *continue* puisque $E$ est bornologique (III, p. 11, prop. 1, (iii)).
 
-#### Corollaire 1 {#evt-iii-s3-prop-12-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s3-prop-12-cor-1 .statement tag=07NK}
 
 Le dual fort d’un espace bornologique est complet.
 
-#### Corollaire 2 {#evt-iii-s3-prop-12-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s3-prop-12-cor-2 .statement tag=07NL}
 
 Soit E un espace semi-normé et soit F un espace de Banach (resp. de Fréchet). L’espace $\mathscr{L}_b(E; F)$ est un espace de Banach (resp. de Fréchet). En particulier, le dual d’un espace semi-normé est un espace de Banach.
 

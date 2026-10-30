@@ -26,7 +26,7 @@ subsections:
       pdf_page: 136
 statements: 20
 exercises: 2
-content_sha256: 9d7a6583d9c039f85d67ef9d5657753cac3a41fa4dedeb2236bd9c53b181f427
+content_sha256: 3f7fac285df3e079f9eeea31bdc9ef75d4d743359e0fbfa3e6868a5167b8ada6
 translated_from: content/en/alg/V/04_s4_algebraically_closed_extensions.md
 source_content_sha256: 57102dadb9478828bbaf3bf1d6ad1b4a27c3a089d5abfaeca2f02ab9a7c16523
 translation_model: gpt-5.4
@@ -40,7 +40,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các trường đóng đại số
 
-#### Mệnh đề 1 {#alg-v-s4-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s4-prop-1 .statement tag=06ID}
 
 — Cho K là một trường; khi đó các tính chất sau là tương đương:
 (AC) Mọi đa thức không hằng của K[X] đều tách trong K[X] thành một tích các đa thức bậc 1 (phân biệt hoặc không).
@@ -53,7 +53,7 @@ Trước hết ta chứng minh tính tương đương của các tính chất (A
 
 Còn lại là thấy rằng (AC) và (AC) là tương đương. Nếu (AC'') đúng, mọi phần tử của một trường mở rộng L của K mà đại số trên K đều có bậc 1 (V, p. 16, Th. 1), nên thuộc K, điều đó chứng minh (AC). Ngược lại, cho f là một đa thức bất khả quy bậc $n \geq 1$ trong K[X]; đại số thương K[X]/(f) có bậc n trên K và là một trường, do đó là một mở rộng đại số bậc n của K (V, p. 18, Prop. 2). Bây giờ rõ ràng rằng (AC) kéo theo (AC'').
 
-#### Định nghĩa 1 {#alg-v-s4-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s4-def-1 .statement tag=06IE}
 
 Một trường K được gọi là đóng đại số nếu nó có các tính chất (tương đương) (AC), (AC'), (AC), (AC).
 
@@ -61,7 +61,7 @@ Một trường K được gọi là đóng đại số nếu nó có các tính
 
 Một trường K đóng đại số tương đối trong một trường mở rộng E của K không nhất thiết là đóng đại số (thật vậy mọi trường đều đóng đại số tương đối trong chính nó, và tồn tại những trường không đóng đại số, chẳng hạn Q hoặc $\mathbf{F}_p$ \* hoặc R *). Tuy nhiên:
 
-#### Mệnh đề 2 {#alg-v-s4-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s4-prop-2 .statement tag=06IF}
 
 Cho $\Omega$ là một trường đóng đại số và K là một trường con của $\Omega$. Khi đó bao đóng đại số tương đối $\bar{K}$ của K trong $\Omega$ là một trường đóng đại số.
 
@@ -69,13 +69,13 @@ Cho f là một đa thức không hằng trong $\bar{K}[X] \subset \Omega[X]$. V
 
 \* Ví dụ 2. — Theo Prop. 2 tập hợp tất cả các số phức đại số trên Q (thường được gọi vắn tắt là các số đại số) là một trường đóng đại số. \*
 
-#### Mệnh đề 3 {#alg-v-s4-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s4-prop-3 .statement tag=06IG}
 
 Mọi trường đóng đại số đều vô hạn.
 
 Cho K là một trường hữu hạn và đặt $f(X) = 1 + \prod_{a \in K} (X - a)$. Đa thức $f \in K[X]$ là không hằng và $f(a) = 1$ với mọi $a \in K$. Vậy trường K không thỏa mãn (AC') và do đó không đóng đại số.
 
-#### Định lý 1 (Steinitz) {#alg-v-s4-thm-1 .statement}
+#### Định lý 1 (Steinitz) {#alg-v-s4-thm-1 .statement tag=06IH}
 
 Cho K là một trường, E là một mở rộng đại số của K và $\Omega$ là một mở rộng đóng đại số của K; khi đó tồn tại một K-đồng cấu từ E vào R.
 
@@ -83,7 +83,7 @@ Theo V, p. 13, Scholium, tồn tại một trường mở rộng $\Omega'$ của
 
 ### 2. Các mở rộng tách
 
-#### Định nghĩa 2 {#alg-v-s4-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s4-def-2 .statement tag=06II}
 
 *Cho K là một trường và $(f_i)_{i \in I}$ là một họ các đa thức không hằng trong $K[X]$. Bởi một mở rộng tách của $(f_i)_i$, ta hiểu một mở rộng E của $K$ có các tính chất sau :*
 
@@ -93,7 +93,7 @@ Theo V, p. 13, Scholium, tồn tại một trường mở rộng $\Omega'$ của
 
 Đôi khi dùng thuật ngữ « trường phân rã » thay cho « mở rộng tách ».
 
-#### Nhận xét {#alg-v-s4-n2-rem-1 .statement}
+#### Nhận xét {#alg-v-s4-n2-rem-1 .statement tag=0EEN}
 
 *1) Với mỗi $i \in I$ cho $c_i$ là một phần tử khác không của $K$ và cho $f'_i = c_i f_i$. Khi đó rõ ràng mọi mở rộng tách của họ $(f_i)_i$, cũng là một mở rộng tách của họ $(f'_i)_{i \in I}$ và ngược lại. Đặc biệt, khi nghiên cứu các mở rộng tách ta có thể chỉ cần xét trường hợp các đa thức đơn thức đầu.*
 
@@ -101,7 +101,7 @@ Theo V, p. 13, Scholium, tồn tại một trường mở rộng $\Omega'$ của
 
 *3) Cho $f \in K[X]$ là một đa thức bậc $\geq 1$ và cho $E$ là một mở rộng tách của $f$. Nếu $x_1, \ldots, x_n$ là các nghiệm của $f$ trong $E$, thì do đó ta có $E = K(x_1, \ldots, x_n)$ và $[E : K]$ là hữu hạn ($V$, p. 18, Th. 2); nhưng có thể xảy ra rằng $E$ phân biệt với các trường con $K(x_1), \ldots, K(x_n)$ được sinh bởi một nghiệm duy nhất; điều này có thể xảy ra ngay cả khi $f$ là bất khả quy$^1$. Tuy nhiên, ta lưu ý rằng khi $f$ là bất khả quy, các trường $K(x_i)$ đều có cùng bậc $n$ trên $K$, và mỗi khi $E$ bằng một trong các trường đó, ta có $[E : K] = n$ và do đó $E = K(x_1) = \cdots = K(x_n)$.*
 
-#### Mệnh đề 4 {#alg-v-s4-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s4-prop-4 .statement tag=06IJ}
 
 *Cho K là một trường và $(f_i)_{i \in I}$ là một họ các đa thức không hằng trong $K[X]$; khi đó tồn tại một mở rộng tách đối với họ $(f_i)_{i \in I}$.*
 
@@ -122,13 +122,13 @@ f_i(X) = \prod_{k=1}^{d_i} (X - x_{i,k}) \text{ trong } E[X]. $$
 
 Do đó $E$ là một mở rộng tách của họ $(f_i)_{i \in I}$.
 
-#### Mệnh đề 5 {#alg-v-s4-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s4-prop-5 .statement tag=06IK}
 
 — *Cho K là một trường, $(f_i)_{i \in I}$ là một họ các đa thức không hằng trong $K[X]$, E là một mở rộng của K, và F, F' là các mở rộng con của E mà mỗi mở rộng đều là một mở rộng tách của $(f_i)_{i \in I}$. Khi đó $F = F'$.
 
 Gọi $R_i$ là tập hợp các nghiệm của $f_i$ trong E và $R = \bigcup_{i \in I} R_i$. Vì $f_i$ là một tích các đa thức bậc nhất nằm trong $F[X]$, ta có $R_i \subset F$. Theo Định nghĩa 2, ta có $F = K(R)$; theo cùng cách đó ta thấy rằng $F = K(R)$.
 
-#### Hệ quả {#alg-v-s4-n2-cor-1 .statement}
+#### Hệ quả {#alg-v-s4-n2-cor-1 .statement tag=06IL}
 
 — *Cho K là một trường, $(f_i)_{i \in I}$, là một họ các đa thức không hằng trong $K[X]$ và F, F' là các mở rộng tách của $(f_i)_{i \in I}$. Khi đó tồn tại một K-đẳng cấu của F lên F.
 
@@ -136,29 +136,29 @@ Gọi $R_i$ là tập hợp các nghiệm của $f_i$ trong E và $R = \bigcup_{
 
 ### 3. Bao đóng đại số của một trường
 
-#### Định nghĩa 3 {#alg-v-s4-def-3 .statement}
+#### Định nghĩa 3 {#alg-v-s4-def-3 .statement tag=06IM}
 
 — *Cho K là một trường. Ta hiểu một bao đóng đại số của K là bất kỳ mở rộng nào của K vừa đại số vừa đóng đại số.
 
-#### Ví dụ 1 {#alg-v-s4-n3-exa-1 .statement}
+#### Ví dụ 1 {#alg-v-s4-n3-exa-1 .statement tag=06IN}
 
 Trường C các số phức là một bao đóng đại số của trường R các số thực (Gen. Top., VIII, p. 100) \*
 
-#### Ví dụ 2 {#alg-v-s4-n3-exa-2 .statement}
+#### Ví dụ 2 {#alg-v-s4-n3-exa-2 .statement tag=06IO}
 
 Cho K là một trường và $\Omega$ là một mở rộng đóng đại số của K. Nếu $\overline{K}$ là bao đóng đại số tương đối của K trong $\Omega$, thì theo V, p. 20, Mệnh đề 2, K là một bao đóng đại số của K. \* Đặc biệt, trường của mọi số đại số (V, p. 20, Ex. 2) là một bao đóng đại số của trường Q các số hữu tỉ. \*
 
-#### Mệnh đề 6 {#alg-v-s4-prop-6 .statement}
+#### Mệnh đề 6 {#alg-v-s4-prop-6 .statement tag=06IP}
 
 — *Cho $\Omega$ là một mở rộng của một trường K. Để $\Omega$ là một bao đóng đại số của K, điều kiện cần và đủ là nó phải đại số và mọi đa thức không hằng trong $K[X]$ đều phải tách trong $\Omega[X]$ thành một tích các nhân tử bậc 1.
 
 Điều kiện là cần theo (AC). Ngược lại, giả sử rằng $\Omega$ đại số trên $K$ và mọi đa thức không hằng trên $K[X]$ đều là một tích trong $\Omega[X]$ của các nhân tử bậc 1. Gọi $\Omega'$ là một mở rộng đại số của $\Omega$ và gọi $x \in \Omega'$. Vì $x$ đại số trên $\Omega$ và $\Omega$ đại số trên $K$, nên $x$ đại số trên $K$ (V, p. 19, Mệnh đề 3). Gọi $f$ là đa thức tối tiểu của $x$ trên $K$. Theo giả thiết đa thức $f \in K[X]$ tách trong $\Omega[X]$ thành một tích các nhân tử bậc 1, do đó $x \in \Omega$. Vậy ta có $\Omega' = \Omega$ và $\Omega$ đóng đại số vì nó thỏa mãn (AC).
 
-#### Nhận xét 1 {#alg-v-s4-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-v-s4-n3-rem-1 .statement tag=06IQ}
 
 Nếu $\Omega$ đại số trên $K$ và nếu mọi đa thức không hằng của $K[X]$ đều có một nghiệm trong $\Omega$ thì $\Omega$ là một bao đóng đại số của $K$ (V, p. 156, Ex. 20).
 
-#### Mệnh đề 7 {#alg-v-s4-prop-7 .statement}
+#### Mệnh đề 7 {#alg-v-s4-prop-7 .statement tag=06IR}
 
 — *Cho $\Omega$ là một mở rộng đại số của một trường $K$.
 a) Nếu $\Omega$ đóng đại số, thì mọi mở rộng đại số của $K$ đều đẳng cấu với một mở rộng con của $\mathbf{R}$.
@@ -168,27 +168,27 @@ Mệnh đề *a)* suy ra từ Định lý 1 (V, p. 20). Bây giờ giả sử c�
 
 Bây giờ ta có thể chứng minh sự tồn tại và tính duy nhất (cho đến đẳng cấu) của bao đóng đại số của một trường.
 
-#### Định lý 2 (Steinitz) {#alg-v-s4-thm-2 .statement}
+#### Định lý 2 (Steinitz) {#alg-v-s4-thm-2 .statement tag=06IS}
 
 — *Cho $K$ là một trường; khi đó tồn tại một bao đóng đại số của $K$. Nếu $\Omega$ và $\Omega'$ là hai bao đóng đại số của $K$, thì tồn tại một $K$-đẳng cấu từ $\Omega$ lên $\Omega'$.*
 
 Theo Mệnh đề 6, một bao đóng đại số của $K$ không là gì khác hơn một mở rộng tách đối với tập hợp tất cả các đa thức không hằng trong $K[X]$. Do đó Định lý 2 suy ra từ V, p. 21, Mệnh đề 4 và V, p. 22, Hệ quả.
 
-#### Hệ quả {#alg-v-s4-n3-cor-1 .statement}
+#### Hệ quả {#alg-v-s4-n3-cor-1 .statement tag=06IT}
 
 — *Cho $K$ và $K'$ là hai trường, $\Omega$ là một bao đóng đại số của $K$ và $\Omega'$ là một bao đóng đại số của $K'$. Với mọi đẳng cấu $u$ từ $K$ lên $K'$, tồn tại một đẳng cấu $v$ từ $\Omega$ lên $\Omega'$ mở rộng $u$.*
 
 Chỉ cần áp dụng Định lý 2 cho các bao đóng đại số $\Omega$ và $(\Omega', u)$ của $K$.
 
-#### Nhận xét 2 {#alg-v-s4-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-v-s4-n3-rem-2 .statement tag=06IU}
 
 Theo ký hiệu của Hệ quả đứng trước, nói chung tồn tại các $K$-tự đẳng cấu của $\Omega$ phân biệt với đồng nhất. Vì thế nói chung không có tính duy nhất đối với đẳng cấu $v$ từ $\Omega$ lên $\Omega'$ mở rộng các đẳng cấu $u$ từ $K$ lên $K'$. Vì những lý do tương tự, nói chung có nhiều hơn một đẳng cấu từ một mở rộng tách $E$ lên một mở rộng tách $E'$ đối với cùng một họ $(f_i)_{i \in I}$ các đa thức. Ta nhắc lại rằng ngược lại, đối với bao đóng hoàn hảo thì ta có tính duy nhất (V, p. 5).
 
-#### Nhận xét 3 {#alg-v-s4-n3-rem-3 .statement}
+#### Nhận xét 3 {#alg-v-s4-n3-rem-3 .statement tag=06IV}
 
 Cho K là một trường và $\Omega$ là một bao đóng đại số của $K$. Khi đó có thể cho phép dựng sau đây của một mở rộng tách đối với một họ $(f_i)_{i \in I}$ các đa thức không hằng trong $K[X]$: gọi $R_i$ là tập hợp các nghiệm của $f_i$ trong $\Omega$ và đặt $R = \bigcup_{i \in I} R_i$. Khi đó $K(R)$ là mở rộng con duy nhất của $\Omega$ mà là một mở rộng tách đối với $(f_i)_{i \in I}$ (V, p. 22, Mệnh đề 5).
 
-#### Nhận xét 4 {#alg-v-s4-n3-rem-4 .statement}
+#### Nhận xét 4 {#alg-v-s4-n3-rem-4 .statement tag=06IW}
 
 Cho K là một trường hữu hạn và $\Omega$ là một bao đóng đại số của K. Khi đó $\Omega$ là vô hạn ($V,$ p. 20, Prop. 3); vì mọi mở rộng bậc hữu hạn của K đều là một trường hữu hạn, nên $\Omega$ là một mở rộng đại số bậc *vô hạn* của $K$.
 

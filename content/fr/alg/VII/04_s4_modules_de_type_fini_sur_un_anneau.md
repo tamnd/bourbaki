@@ -49,7 +49,7 @@ subsections:
       pdf_page: 358
 statements: 41
 exercises: 25
-content_sha256: 87df1f6594332ddfc8ec38a4fe31e67f6610f4eb582f81b52c94da4aaa95c4b5
+content_sha256: eb35496c93504e10e3d5daaac7e890dd2bb07cd3a502ee73264f2846ed50c962
 ---
 
 ## § 4. MODULES DE TYPE FINI SUR UN ANNEAU PRINCIPAL
@@ -58,7 +58,7 @@ content_sha256: 87df1f6594332ddfc8ec38a4fe31e67f6610f4eb582f81b52c94da4aaa95c4b5
 
 Soit A un anneau commutatif. Rappelons (II, p. 29, prop. 22) qu’un A-module monogène est isomorphe à un module quotient $A/\alpha$, où $\alpha$ est un idéal de A. Nous verrons plus loin dans ce paragraphe (n° 4) que tout module de type fini sur un anneau principal est somme directe d’un nombre fini de modules monogènes.
 
-#### Proposition 1 {#alg-vii-s4-prop-1 .statement}
+#### Proposition 1 {#alg-vii-s4-prop-1 .statement tag=073N}
 
 Soit E un module sur un anneau commutatif A ; supposons que E soit somme directe de n modules monogènes $A/\alpha_k$ ($1 \leq k \leq n$), les $\alpha_k$ étant des idéaux de A ; alors, pour tout entier $p > 0$, le A-module $\bigwedge^p E$ est isomorphe à la somme directe des modules $A/\alpha_H$, $\alpha_H$ désignant, pour toute partie $H = \{k_1, ..., k_p\}$ à p éléments de $\{1, n\}$, l’idéal $\sum_{j=1}^p \alpha_{k_j}$ de A.
 
@@ -66,13 +66,13 @@ Soit $x_k$ le générateur de $A/\alpha_k$ image canonique de l’élément unit
 
 Nous allons maintenant voir que, avec les notations de la prop. 1, si les idéaux $a_k$ forment une suite croissante, ils sont entièrement déterminés par la connaissance du module $E$; de façon plus précise :
 
-#### Proposition 2 {#alg-vii-s4-prop-2 .statement}
+#### Proposition 2 {#alg-vii-s4-prop-2 .statement tag=073O}
 
 *Soient $A$ un anneau commutatif, et $E$ un $A$-module somme directe de $n$ modules monogènes $A/a_k$, les $a_k$ étant tels que $a_1 \subset a_2 \subset \ldots \subset a_n$. Alors, pour $1 \leq p \leq n$, $a_p$ est l’annulateur de $\bigwedge^p E$; si $a_n \neq A$, le module $\bigwedge^p E$ n’est pas réduit à $0$ pour $1 \leq p \leq n$ et on a $\bigwedge^m E = 0$ pour $m > n$.
 
 En effet, avec les notations de la prop. 1, on a $a_H = a_{s(H)}$, $s(H)$ désignant le plus grand élément de la partie $H$. Comme $s(H) \geq p$ pour toute partie $H$ à $p$ éléments, et que $s(H) = p$ pour $H = \{1, 2, \ldots, p\}$, $a_p$ est l’intersection des $a_H$, $H$ parcourant l’ensemble des parties à $p$ éléments de $\{1, n\}$; l’idéal $a_p$ est donc bien, en vertu de la prop. 1, l’annulateur de $\bigwedge^p E$.
 
-#### Corollaire {#alg-vii-s4-n1-cor-1 .statement}
+#### Corollaire {#alg-vii-s4-n1-cor-1 .statement tag=073P}
 
 *Les notations étant celles de la prop. 2 avec $a_n \neq A$, si $E$ est aussi isomorphe à la somme directe de $m$ modules monogènes $A/a'_j$ avec $a'_1 \subset \ldots \subset a'_m \neq A$, on a $m = n$ et $a_k = a'_k$ pour $1 \leq k \leq n$* (« unicité des $a_k$ »).
 
@@ -82,7 +82,7 @@ Soient $A$ un anneau principal, $L$ un $A$-module libre, et $x$ un élément de 
 
 On dit que $x$ est *indivisible* si $c_L(x) = A$, c’est-à-dire si les coordonnées de $x$ par rapport à une base de $L$ sont étrangères dans leur ensemble.
 
-#### Lemme 1 {#alg-vii-s4-lem-1 .statement}
+#### Lemme 1 {#alg-vii-s4-lem-1 .statement tag=073Q}
 
 *Soient $L$ un module libre sur un anneau principal $A$ et $x$ un élément de $L$. Les conditions suivantes sont équivalentes :*
 (i) $x$ est indivisible ;
@@ -95,17 +95,17 @@ On dit que $x$ est *indivisible* si $c_L(x) = A$, c’est-à-dire si les coordon
 (iii) $\Rightarrow$ (iv) : soit $L'$ un supplémentaire de $Ax$ dans $L$, et soit $B'$ une base de $L'$ (VII, p. 14, cor. 2) ; alors $B' \cup \{x\}$ est une base de $L$.
 (iv) $\Rightarrow$ (i) : c’est trivial.
 
-#### Remarque 1 {#alg-vii-s4-n2-rem-1 .statement}
+#### Remarque 1 {#alg-vii-s4-n2-rem-1 .statement tag=073R}
 
 Si x est un élément non nul de L et c un contenu de x, il existe un unique élément y de L tel que $x = cy$; on le note $x/c$; c’est un élément indivisible de L.
 
-#### Remarque 2 {#alg-vii-s4-n2-rem-2 .statement}
+#### Remarque 2 {#alg-vii-s4-n2-rem-2 .statement tag=0DIO}
 
 Le contenu $c_L(x)$ est l’annulateur du module de torsion de $L/Ax$.
 
 Soient L un module libre sur un anneau principal A et M un sous-module de L ; d’après VII, p. 4, lemme 1, la famille des idéaux $c_L(x),\ x \in M$, possède un élément maximal ; si $M \neq \{0\}$, un tel élément maximal est non nul.
 
-#### Proposition 3 {#alg-vii-s4-prop-3 .statement}
+#### Proposition 3 {#alg-vii-s4-prop-3 .statement tag=073S}
 
 Soient L un module libre sur un anneau principal A et M un sous-module non nul de L. Soient x un élément de M tel que $c_L(x)$ soit maximal parmi les contenus des éléments de M, c un contenu de x dans L et f une forme linéaire sur L telle que $f(x) = c$.
 
@@ -129,7 +129,7 @@ d’où b). Soit enfin g une forme linéaire sur L ; d’après a), il existe un
 
 ### 3. Facteurs invariants d’un sous-module
 
-#### Théorème 1 {#alg-vii-s4-thm-1 .statement}
+#### Théorème 1 {#alg-vii-s4-thm-1 .statement tag=073T}
 
 Soient L un module libre sur un anneau principal A, et M un sous-module de rang fini n de L. Il existe alors une base B de L, n éléments $e_i$ de B, et n éléments non nuls $\alpha_i$ de A ($1 \leq i \leq n$) tels que :
 a) les $\alpha_i e_i$ forment une base de M ;
@@ -152,17 +152,17 @@ Nous sommes donc dans les conditions d’application du cor. de la prop. 2 (VII,
 
 Comme $L$ est somme directe de $M'$ et de $L'$, $L/M$ est somme de $M'/M$ et de $(L' + M)/M$, somme qui est directe puisque $M' \cap (L' + M) = M$; d’autre part $(L' + M)/M$ est isomorphe à $L'/(M \cap L')$ (I, p. 39, th. 4, c)), c’est-à-dire à $L'$, ce qui montre que $(L' + M)/M$ est un module libre isomorphe à $L/M'$.
 
-#### Corollaire {#alg-vii-s4-n3-cor-1 .statement}
+#### Corollaire {#alg-vii-s4-n3-cor-1 .statement tag=073U}
 
 *Pour qu’un sous-module de rang fini $M$ d’un module libre $L$ sur un anneau principal $A$ admette un supplémentaire, il faut et il suffit que $L/M$ soit sans torsion*.
 
 Avec les notations du th. 1, si $L/M$ est sans torsion, on a $M = M'$, et $M'$ admet un supplémentaire $L'$ dans $L$. Si réciproquement $M$ admet un supplémentaire $L'$ dans $L$, $L/M$ est isomorphe à $L'$, qui est libre (VII, p. 14, cor. 2), et *a fortiori* sans torsion.
 
-#### Remarque {#alg-vii-s4-n3-rem-1 .statement}
+#### Remarque {#alg-vii-s4-n3-rem-1 .statement tag=073V}
 
 Il peut se faire qu’un sous-module M de rang infini d’un module libre L soit tel que L/M soit sans torsion, mais que M n’admette pas de supplémentaire dans L (VII, p. 58, exerc. 6, b)).
 
-#### Définition 1 {#alg-vii-s4-def-1 .statement}
+#### Définition 1 {#alg-vii-s4-def-1 .statement tag=073W}
 
 Les hypothèses et les notations étant celles du th. 1, les idéaux $A\alpha_i$ de A sont appelés les facteurs invariants du sous-module M par rapport au module L.
 
@@ -170,19 +170,19 @@ Dans le cas où A est, soit l’anneau $\mathbf{Z}$ des entiers rationnels, soit
 
 ### 4. Structure des modules de type fini
 
-#### Théorème 2 {#alg-vii-s4-thm-2 .statement}
+#### Théorème 2 {#alg-vii-s4-thm-2 .statement tag=073X}
 
 Tout module de type fini E sur un anneau principal A est isomorphe à une somme directe de modules monogènes $A/\alpha_k$, en nombre fini m, où les $\alpha_k$ sont des idéaux de A (dont certains peuvent être nuls), tels que $\alpha_1 \subset \alpha_2 \ldots \subset \alpha_m \neq A$, et qui sont déterminés de façon unique par ces conditions.
 
 Si E peut être engendré par q générateurs, il est isomorphe à un module quotient L/M où $L = A^q$ (II, p. 27). Comme M est de rang fini $n \leq q$ (VII, p. 14, prop. 1), nous sommes dans les conditions d’application du th. 1 (VII, p. 17). Avec les notations de ce dernier, L/M est isomorphe à la somme directe d’un supplémentaire L’ de M’ dans L, et du module de torsion M’/M. Le module L’ est libre et de rang fini $p = q - n$, donc isomorphe à $A^p$. Si r est le plus petit indice tel que $A\alpha_r \neq A$, M’/M est isomorphe à la somme directe des modules $A/A\alpha_i$ pour $r \leq i \leq n$. On satisfera alors aux conditions énoncées en prenant $m = p + (n - r + 1)$, $\alpha_k = (0)$ pour $1 \leq k \leq p$, et $\alpha_{p+j} = A\alpha_{n-j+1}$ pour $1 \leq j \leq n - r + 1$. Quant à l’unicité, elle résulte du cor. de VII, p. 16.
 
-#### Corollaire 1 {#alg-vii-s4-thm-2-cor-1 .statement}
+#### Corollaire 1 {#alg-vii-s4-thm-2-cor-1 .statement tag=073Y}
 
 Tout module de type fini E sur un anneau principal est somme directe du sous-module de torsion de E et d’un module libre.
 
 Le sous-module de torsion de E admet en général plusieurs supplémentaires distincts. Par exemple si $E = \mathbf{Z} \times (\mathbf{Z}/(2))$, le sous-module de torsion de E est $\{0\} \times (\mathbf{Z}/(2))$; il admet pour supplémentaire le sous-module $\mathbf{Z} \times \{0\}$, et aussi le sous-module formé des éléments $(n, \bar{n})$, où n parcourt $\mathbf{Z}$ et $\bar{n}$ est la classe de n mod. 2.
 
-#### Corollaire 2 {#alg-vii-s4-thm-2-cor-2 .statement}
+#### Corollaire 2 {#alg-vii-s4-thm-2-cor-2 .statement tag=073Z}
 
 Sur un anneau principal, tout module sans torsion et de type fini est un module libre de rang fini.
 
@@ -190,7 +190,7 @@ Ceci résulte aussitôt du cor. 1.
 
 L’hypothèse que le module est de type fini est essentielle. Par exemple le groupe additif du corps des fractions K de A, considéré comme A-module, est sans torsion ; cependant ce n’est pas un module libre si $A \neq K$, car, d’une part, toute famille d’au moins 2 éléments de K est liée, et d’autre part K n’est pas un A-module monogène, sinon on aurait $K = ab^{-1}A$ ($a \in A, b \in A$), d’où $b^{-2} = acb^{-1}$ ($c \in A$), $b^{-1} = ac \in A$, et $K = A$.
 
-#### Définition 2 {#alg-vii-s4-def-2 .statement}
+#### Définition 2 {#alg-vii-s4-def-2 .statement tag=0740}
 
 Les hypothèses et les notations étant celles du th. 2, les idéaux $\alpha_k$ sont appelés les facteurs invariants du module E.
 
@@ -200,7 +200,7 @@ On aura soin de ne pas confondre les facteurs invariants d’un module E, avec c
 
 ### 5. Calcul des facteurs invariants
 
-#### Proposition 4 {#alg-vii-s4-prop-4 .statement}
+#### Proposition 4 {#alg-vii-s4-prop-4 .statement tag=0741}
 
 Soient A un anneau principal, L un A-module libre de base finie $(u_j)$ ($1 \leq j \leq k$), M un sous-module de L, $(x_i)$ un système de générateurs de M, et $A\alpha_i$ ($1 \leq i \leq n$) les facteurs invariants de M par rapport à L. Alors, pour $1 \leq m \leq n$, le produit $\delta_m = \alpha_1 \ldots \alpha_m$ est un pgcd des mineurs d’ordre m de la matrice dont les colonnes sont formées avec les coordonnées des $x_i$ par rapport à la base $(u_j)$.
 
@@ -212,13 +212,13 @@ Pour m quelconque, considérons le module $\bigwedge^m M$, puissance extérieure
 
 Soit A un anneau principal. Considérons une application linéaire f d’un A-module libre L de rang m dans un A-module libre L’ de rang n. Les résultats précédents permettent, par un choix convenable des bases de L et L’, de mettre la matrice de f sous une forme particulièrement simple, dite forme canonique de cette matrice.
 
-#### Proposition 5 {#alg-vii-s4-prop-5 .statement}
+#### Proposition 5 {#alg-vii-s4-prop-5 .statement tag=0742}
 
 Soient A un anneau principal, et f une application linéaire de rang r d’un A-module libre L de rang m dans un A-module libre L’ de rang n. Il existe alors des bases (e_i) (1 \leq i \leq m) de L et (e_j’) (1 \leq j \leq n) de L’ telles que f(e_i) = \alpha_i e_i’ pour 1 \leq i \leq r et f(e_i) = 0 pour i > r, les \alpha_i étant des éléments non nuls de A dont chacun divise le suivant ; les idéaux A\alpha_i sont les facteurs invariants de f(L) dans L’, et sont donc déterminés de façon unique.
 
 Soit L_0 = \overline{f}(0) le noyau de f ; le quotient L/L_0 est isomorphe au module f(L), qui est libre en tant que sous-module de L’ (VII, p. 14, cor. 2) ; donc L_0 admet un supplémentaire L_1 dans L (II, p. 27, prop. 21), et la restriction de f à L_1 est un isomorphisme de L_1 sur f(L) = M’. Si les idéaux A\alpha_i (1 \leq i \leq r) sont les facteurs invariants de M’ dans L’, le th. 1 de VII, p. 17 montre qu’il existe une base (e_j’) (1 \leq j \leq n) de L’ telle que (\alpha_i e_i’) (1 \leq i \leq r) soit une base de M’. Comme la restriction de f à L_1 est un isomorphisme de L_1 sur M’, il existe une base (e_i) (1 \leq i \leq r) de L_1 telle que f(e_i) = \alpha_i e_i’. On complète cette base de L_1 en une base (e_k) (1 \leq k \leq m) de L au moyen d’une base (e_s) (r + 1 \leq s \leq m) du noyau L_0.
 
-#### Corollaire 1 {#alg-vii-s4-prop-5-cor-1 .statement}
+#### Corollaire 1 {#alg-vii-s4-prop-5-cor-1 .statement tag=0743}
 
 Soit X une matrice de rang r, à n lignes et m colonnes, sur un anneau principal A ; il existe alors une matrice X_0 équivalente à X (II, p. 155) de la forme
 
@@ -240,7 +240,7 @@ les \alpha_i étant des éléments non nuls de A dont chacun divise le suivant. 
 
 Avec les notations de la prop. 5 et du cor. 1, les idéaux (non nuls) A\alpha_i sont appelés les facteurs invariants de l’application linéaire f, ou de la matrice X. Il résulte alors aussitôt du cor. 1 que :
 
-#### Corollaire 2 {#alg-vii-s4-prop-5-cor-2 .statement}
+#### Corollaire 2 {#alg-vii-s4-prop-5-cor-2 .statement tag=0744}
 
 Pour que deux matrices $X$ et $X'$ à $n$ lignes et $m$ colonnes sur un anneau principal $\mathbf{A}$ soient équivalentes, il faut et il suffit qu’elles aient mêmes facteurs invariants.
 
@@ -248,7 +248,7 @@ On remarquera que, lorsque $\mathbf{A}$ est un corps, on peut prendre les $\alph
 
 Si $X$ est la matrice de l’application linéaire $f$ par rapport à une base quelconque de $L$ et une base quelconque de $L'$, les colonnes de $X$ sont formées avec les coordonnées, par rapport à la base de $L'$, d’éléments de $L'$ qui constituent un système générateur de $f(L)$. On déduit donc aussitôt de la prop. 4 le résultat suivant :
 
-#### Proposition 6 {#alg-vii-s4-prop-6 .statement}
+#### Proposition 6 {#alg-vii-s4-prop-6 .statement tag=0745}
 
 Soient $X$ une matrice de rang $r$ sur un anneau principal $\mathbf{A}$, et $\mathbf{A} \alpha_i$ ($1 \leq i \leq r$) la suite de ses facteurs invariants. Alors $\alpha_1$ est un pgcd des éléments de $X$; et le produit $\alpha_1 \ldots \alpha_q$ est un pgcd des mineurs d’ordre $q$ de $X$ pour tout $q \leq r$.
 
@@ -256,25 +256,25 @@ Soient $X$ une matrice de rang $r$ sur un anneau principal $\mathbf{A}$, et $\ma
 
 Dans le cas où $\mathbf{A} = \mathbf{Z}$, les résultats du no 4 s’écrivent :
 
-#### Théorème 3 {#alg-vii-s4-thm-3 .statement}
+#### Théorème 3 {#alg-vii-s4-thm-3 .statement tag=0746}
 
 Tout groupe commutatif $G$ de type fini est somme directe de son sous-groupe de torsion $F$ (sous-groupe des éléments d’ordre fini de $G$) et d’un groupe commutatif libre de rang fini $p$ (isomorphe à $\mathbf{Z}^p$). Le groupe $F$ est somme directe d’un nombre fini de groupes cycliques d’ordres $n_1, n_2, \ldots, n_q$, où les $n_i$ sont des entiers $> 1$ dont chacun divise le précédent ; en outre, les entiers $p, q$ et $n_i$ ($1 \leq i \leq q$) sont déterminés de façon unique par $G$.
 
-#### Remarque {#alg-vii-s4-n7-rem-1 .statement}
+#### Remarque {#alg-vii-s4-n7-rem-1 .statement tag=0747}
 
 Tandis que les ordres $n_1, \ldots, n_q$ des groupes cycliques dont $F$ est la somme directe sont bien déterminés par la condition de divisibilité du th. 3, il n’en est pas ainsi de ces sous-groupes eux-mêmes : par exemple, dans le produit $G$ de $\mathbf{Z}/(p)$ par lui-même ($p$ premier), les sous-groupes sont identiques aux sous-espaces vectoriels sur le corps $\mathbf{F}_p$, et $G$ est somme directe de deux sous-espaces de dimension 1 de $p(p+1)$ façons différentes.
 
-#### Corollaire 1 {#alg-vii-s4-thm-3-cor-1 .statement}
+#### Corollaire 1 {#alg-vii-s4-thm-3-cor-1 .statement tag=0748}
 
 Dans un groupe commutatif fini $G$, il existe un élément dont l’ordre est le ppcm des ordres de tous les éléments de $G$; cet ordre $n_1$ est le premier facteur invariant de $G$.
 
-#### Corollaire 2 {#alg-vii-s4-thm-3-cor-2 .statement}
+#### Corollaire 2 {#alg-vii-s4-thm-3-cor-2 .statement tag=0749}
 
 Tout groupe commutatif fini $G$ dont l’ordre n’est pas divisible par le carré d’un entier $> 1$ est cyclique.
 
 Conservons les notations du th. 3. On a $p = 0$ car $G$ est fini et $q \leq 1$, car sinon l’ordre de $G$ serait divisible par $n_q^2$. Donc $G$ est cyclique.
 
-#### Corollaire 3 {#alg-vii-s4-thm-3-cor-3 .statement}
+#### Corollaire 3 {#alg-vii-s4-thm-3-cor-3 .statement tag=074A}
 
 Soient $L, M$ deux $\mathbf{Z}$-modules libres de rang $n$, $(e_i)$ une base de $L$, $(f_i)$ une base de $M$ ($1 \leq i \leq n$), $u$ un homomorphisme de $L$ dans $M$, $U$ sa matrice par rapport aux bases $(e_i)$ et $(f_i)$. Pour que $\mathrm{Coker}(u) = M/u(L)$ soit fini, il faut et il suffit que $\det(U) \neq 0$, et on a alors $\mathrm{Card}(\mathrm{Coker}(u)) = |\det(U)|$.
 
@@ -282,7 +282,7 @@ En changeant au besoin de bases dans L et M on peut supposer que U est de la for
 
 ### 8. Modules indécomposables. Diviseurs élémentaires
 
-#### Définition 3 {#alg-vii-s4-def-3 .statement}
+#### Définition 3 {#alg-vii-s4-def-3 .statement tag=074B}
 
 Un module à gauche M sur un anneau A est dit décomposable s’il est somme directe d’une famille de sous-modules distincts de M et de $\{0\}$, indécomposable dans le cas contraire.
 
@@ -290,11 +290,11 @@ Un module réduit à 0 est donc décomposable, étant somme directe de la famill
 
 Soit a un idéal à gauche de l’anneau A ; les sous-modules de $A_s/a$ sont les quotients b/a, où b est un idéal de A contenant a (I, p. 39, th. 4); si b et c sont deux idéaux de A contenant a, le module $A/a$ est somme directe de ses sous-modules b/a et c/a si et seulement si on a $A = b + c$ et $b \cap c = a$. Par conséquent :
 
-#### Lemme 2 {#alg-vii-s4-lem-2 .statement}
+#### Lemme 2 {#alg-vii-s4-lem-2 .statement tag=074C}
 
 Pour que le module $A/a$ soit indécomposable, il faut et il suffit que $a \neq A$, et qu’il n’existe pas de couple (b, c) d’idéaux de A, distincts de A et de a, et tels que $A = b + c, a = b \cap c$.
 
-#### Proposition 7 {#alg-vii-s4-prop-7 .statement}
+#### Proposition 7 {#alg-vii-s4-prop-7 .statement tag=074D}
 
 Soient A un anneau commutatif, p un idéal premier de A (I, p. 111, déf. 3) et q un idéal de A contenu dans p. On suppose qu’il existe pour tout $x \in p$ un entier $n > 0$ tel que $x^n \in q$. Alors le A-module $A/q$ est indécomposable.
 
@@ -302,7 +302,7 @@ Soient b et c deux idéaux de A, tels que $A = b + c$ et $b \cap c = q$. On a $b
 
 Supposons maintenant A principal ; d’après VII, p. 2, prop. 2, les idéaux premiers de A sont les idéaux ($p$), où $p$ est un élément extrémal de A, et l’idéal 0 ; d’après la proposition précédente, les modules A et $A/(p^n)$, $p$ extrémal, $n > 0$, sont indécomposables. Comme tout module monogène est somme directe de modules du type précédent (VII, p. 3, prop. 4) et que tout A-module de type fini est somme directe de modules monogènes (VII, p. 19, th. 2), on en conclut :
 
-#### Proposition 8 {#alg-vii-s4-prop-8 .statement}
+#### Proposition 8 {#alg-vii-s4-prop-8 .statement tag=074E}
 
 Soient A un anneau principal et M un A-module de type fini.
 
@@ -312,27 +312,27 @@ b) M est somme directe d’une famille finie de sous-modules indécomposables.
 
 On peut préciser la partie b) de la proposition précédente comme suit :
 
-#### Proposition 9 {#alg-vii-s4-prop-9 .statement}
+#### Proposition 9 {#alg-vii-s4-prop-9 .statement tag=074F}
 
 Soient $\mathbf{A}$ un anneau principal, $\mathbf{P}$ un système représentatif d’éléments extrémaux de $\mathbf{A}$ et $\mathbf{M}$ un $\mathbf{A}$-module de type fini. Il existe des entiers positifs $m(0)$ et $m(p^n)$, $p \in \mathbf{P}$, $n > 0$, uniquement déterminés, nuls à l’exception d’un nombre fini et tels que $\mathbf{M}$ soit isomorphe à la somme directe de $\mathbf{A}^{m(0)}$ et des $(\mathbf{A}/(p^n))^{m(p^n)}$, $p \in \mathbf{P}$, $n > 0$.
 
 L’existence des entiers $m(0)$ et $m(p^n)$, $p \in \mathbf{P}$, $n > 0$ résulte de la prop. 8. L’entier $m(0)$ est uniquement déterminé : c’est le rang du module libre quotient de $\mathbf{M}$ par son sous-module de torsion. Enfin, le composant $p$-primaire de $\mathbf{M}$ est isomorphe à la somme directe des $(\mathbf{A}/(p^n))^{m(p^n)}$ ; comme la famille des idéaux $(p^n)$ ($n \geqslant 1$) est totalement ordonnée par inclusion, l’unicité des $m(p^n)$ résulte du cor. de la prop. 2 de VII, p. 16.
 
-#### Définition 4 {#alg-vii-s4-def-4 .statement}
+#### Définition 4 {#alg-vii-s4-def-4 .statement tag=074G}
 
 Les notations étant celles de la prop. 9, les idéaux $(p^n)$ ($p \in \mathbf{P}$, $n$ entier $\geqslant 1$) tels que $m(p^n) > 0$ sont appelés les diviseurs élémentaires du module $\mathbf{M}$, et les entiers $m(p^n)$ leurs multiplicités ; si l’entier $m(0)$ est $> 0$, on l’appelle la multiplicité du diviseur élémentaire 0.
 
 Comme pour les facteurs invariants (VII, p. 19, déf. 1), lorsque $\mathbf{A} = \mathbf{Z}$, ou $\mathbf{A} = \mathbf{K}[X]$ ($\mathbf{K}$ corps commutatif), le générateur canonique de l’idéal $(p^n)$ (entier positif ou polynôme unitaire) est aussi appelé; par abus de langage, diviseur élémentaire du module de type fini $\mathbf{M}$.
 
-#### Remarque 1 {#alg-vii-s4-n8-rem-1 .statement}
+#### Remarque 1 {#alg-vii-s4-n8-rem-1 .statement tag=074H}
 
 Si $\mathbf{M}$ est un groupe commutatif fini, on décrit sa structure en écrivant successivement ses diviseurs élémentaires, chacun autant de fois que l’indique sa multiplicité. On dira, par exemple, que le groupe $\mathbf{M}$ est « de type $(2, 2, 4, 27, 27, 25)$ » (ou que c’est « un groupe $(2, 2, 4, 27, 27, 25)$ ») s’il est isomorphe au produit de deux groupes $\mathbf{Z}/(2)$, d’un groupe $\mathbf{Z}/(2^2)$, de deux groupes $\mathbf{Z}/(3^3)$ et d’un groupe $\mathbf{Z}/(5^2)$.
 
-#### Remarque 2 {#alg-vii-s4-n8-rem-2 .statement}
+#### Remarque 2 {#alg-vii-s4-n8-rem-2 .statement tag=074I}
 
 Si un module de torsion de type fini $\mathbf{M}$ sur un anneau principal $\mathbf{A}$ est donné comme somme directe de modules monogènes isomorphes à des $\mathbf{A}/(a_i)$ (et en particulier lorsqu’on connaît les facteurs invariants de $\mathbf{M}$), on détermine les diviseurs élémentaires de $\mathbf{M}$, ainsi que leurs multiplicités, en remarquant que $\mathbf{A}/(a)$ est isomorphe au produit des $\mathbf{A}/(p^{n(p)})$, si $a = \varepsilon \prod_{p \in \mathbf{P}} p^{n(p)}$ est la décomposition de $a$ en facteurs extrémaux (VII, p. 3). Étudions par exemple le groupe multiplicatif $G(464\,600)$, où $G(n)$ désigne pour simplifier le groupe multiplicatif $(\mathbf{Z}/n\mathbf{Z})^*$ (VII, p. 11). Comme $464\,600 = 2^3 \cdot 5^2 \cdot 23 \cdot 101$, ce groupe est isomorphe au produit des groupes $G(2^3)$, $G(5^2)$, $G(23)$ et $G(101)$ (VII, p. 13, th. 3) ; or, les trois derniers groupes sont cycliques d’ordres 20, 22 et 100, et $G(2^3)$ est produit de deux groupes cycliques d’ordre 2 (*loc. cit.*); comme $20 = 2^2 \cdot 5$, $22 = 2 \cdot 11$ et $100 = 2^2 \cdot 5^2$, le groupe $G(464\,600)$ est du type $(2, 2, 2, 2^2, 2^2, 5, 5^2, 11)$.
 
-#### Remarque 3 {#alg-vii-s4-n8-rem-3 .statement}
+#### Remarque 3 {#alg-vii-s4-n8-rem-3 .statement tag=074J}
 
 Pour le calcul des facteurs invariants d’un module de torsion dont on suppose connus les diviseurs élémentaires, on s’appuie encore sur le fait que, si les $a_i$ sont des éléments de $\mathbf{A}$ étrangers deux à deux, le produit $\prod_i \mathbf{A}/(a_i)$ est un module monogène isomorphe à $\mathbf{A}/(a_1 a_2 \ldots a_n)$ (VII, p. 3, prop. 4). Exposons la méthode sur l’exemple du groupe $\mathbf{M} = G(464\,600)$ : on écrit sur une même ligne les diviseurs élémentaires $p^n$ de $\mathbf{M}$ relatifs au même élément extrémal $p$, en commençant par ceux d’exposant le plus élevé ; chaque ligne ainsi formée est complétée (si nécessaire) par des 1, de façon à avoir des lignes de même longueur :
 
@@ -346,7 +346,7 @@ $$
 
 Les facteurs invariants sont alors les produits des éléments d’une même colonne : 1 100, 20, 2, 2, 2. En effet, M est isomorphe à un produit de groupes cycliques d’ordres 1 100, 20, 2, 2, 2 d’après la prop. 4 de VII, p. 3 ; comme chacun de ces ordres est multiple du suivant, ce sont les facteurs invariants de M (VII, p. 22, th. 3).
 
-#### Remarque 4 {#alg-vii-s4-n8-rem-4 .statement}
+#### Remarque 4 {#alg-vii-s4-n8-rem-4 .statement tag=074K}
 
 Un A-module est dit simple (I, p. 36) s’il est non nul et s’il ne possède pas d’autres sous-modules que lui-même et 0 ; il est alors nécessairement monogène, donc de type fini, et indécomposable ; comme les modules $A/(p^n)$ pour $n \neq 1$ ne sont pas simples, que les modules $A/(p)$ le sont, et que A n’est simple que si l’anneau A est un corps, on en conclut que les A-modules simples sont :
    a) lorsque A est un corps, les modules libres de rang 1 ;
@@ -370,19 +370,19 @@ $$
 
 telle que $\langle x', c_M(x) \rangle = \langle x, x' \rangle$ pour $x \in M,\ x' \in D(M)$.
 
-#### Proposition 10 {#alg-vii-s4-prop-10 .statement}
+#### Proposition 10 {#alg-vii-s4-prop-10 .statement tag=074L}
 
 Si M est un A-module de longueur finie, D(M) est isomorphe (non canoniquement, en général) à M, et l’application canonique $c_M : M \to D(D(M))$ est un isomorphisme.
 
 Utilisant VII, p. 19, th. 2 et II, p. 13, cor. 1, on se ramène au cas où M est monogène. On peut donc supposer $M = A/tA$, avec $t \neq 0$. Notons que tout homomorphisme $u : A/tA \to K/A$ est entièrement déterminé par l’image $\xi \in K/A$ par $u$ de la classe $\varepsilon$ de 1 mod. $tA$, cet élément devant satisfaire à la relation $t\xi = 0$; inversement, pour tout $\xi \in K/A$ tel que $t\xi = 0$, il existe un homomorphisme $u : A/tA \to K/A$ tel que $u(\varepsilon) = \xi$. On en conclut que D(M) est isomorphe à $t^{-1}A/A$, et comme l’homothétie de rapport $t$ est bijective dans K, D(M) est aussi isomorphe à $A/tA$, ce qui démontre la première assertion. Cela montre que M et D(D(M)) sont isomorphes, donc ont même longueur ; d’autre part, $c_M$ est injective, car si $y \in A$ est tel que la relation $tz \in A$ (pour $z \in K$) entraîne $yz \in A$, on a, en prenant $z = t^{-1}$, $y \in tA$. On en conclut que l’image $c_M(M)$ est nécessairement égale à $D(D(M))$.
 
-#### Corollaire {#alg-vii-s4-n9-cor-1 .statement}
+#### Corollaire {#alg-vii-s4-n9-cor-1 .statement tag=074M}
 
 *Soient M, N deux A-modules de longueur finie, φ une application A-bilinéaire de M × N dans K/A, telle que : 1° la relation $\varphi(x, y) = 0$ pour tout $y \in N$ entraîne $x = 0$; 2° la relation $\varphi(x, y) = 0$ pour tout $x \in M$ entraîne $y = 0$. Alors les applications A-linéaires $s_\varphi : M \to D(N)$ et $d_\varphi : N \to D(M)$ associées à $\varphi$ sont des isomorphismes.*
 
 En effet, les hypothèses sur $\varphi$ signifient que $s_\varphi$ et $d_\varphi$ sont *injectives*, et comme $\operatorname{long}(D(N)) = \operatorname{long}(N)$ et $\operatorname{long}(D(M)) = \operatorname{long}(M)$ en vertu de la prop. 10, cela entraîne que $\operatorname{long}(M) = \operatorname{long}(N)$, et par suite $s_\varphi$ et $d_\varphi$ sont bijectives.
 
-#### Proposition 11 {#alg-vii-s4-prop-11 .statement}
+#### Proposition 11 {#alg-vii-s4-prop-11 .statement tag=074N}
 
 *Si $M' \xrightarrow{u} M \xrightarrow{v} M''$ est une suite exacte de A-modules de longueur finie, la suite $D(M'') \xrightarrow{D(v)} D(M) \xrightarrow{D(u)} D(M')$ est exacte*¹.
 
@@ -417,7 +417,7 @@ Pour tout A-module M, désignons par $\mathfrak{S}(M)$ l’ensemble des sous-mod
 
 ¹ Nous verrons plus tard (A, X, p. 18) que le A-module K/A est injectif. Par suite, la prop. 11 reste valable pour des A-modules quelconques M, M’ et M''.
 
-#### Proposition 12 {#alg-vii-s4-prop-12 .statement}
+#### Proposition 12 {#alg-vii-s4-prop-12 .statement tag=074O}
 
 Soit $M$ un $A$-module de longueur finie. Alors l’application qui, à tout sous-module $N$ de $M$, fait correspondre $N^0$, est une bijection de $\mathfrak{S}(M)$ sur $\mathfrak{S}(D(M))$, et la bijection réciproque fait correspondre à tout sous-module $N'$ de $D(M)$ le sous-module ${N'}^0$ de $M$; $D(N)$ s’identifie canoniquement à $D(M)/N^0$ et $D(M/N)$ à $N^0$. En outre, on a
 
@@ -447,11 +447,11 @@ $$
 
 d’ailleurs on a évidemment $N \subset N^{00}$, d’où $N^{00} = N$. De plus la première relation (2) est évidente, et en l’appliquant aux sous-modules $N_1^0$ et $N_2^0$ de $D(M)$, il vient $(N_1^0 + N_2^0)^0 = N_1 \cap N_2$, d’où $N_1^0 + N_2^0 = (N_1^0 + N_2^0)^{00} = (N_1 \cap N_2)^0$. Ceci achève de démontrer la proposition.
 
-#### Exemple 1 {#alg-vii-s4-n9-exa-1 .statement}
+#### Exemple 1 {#alg-vii-s4-n9-exa-1 .statement tag=074P}
 
 Pour $A = \mathbf{Z}$, les $\mathbf{Z}$-modules de longueur finie ne sont autres que les groupes commutatifs finis ; on a alors $K = \mathbf{Q}$, donc $K/A = \mathbf{Q}/\mathbf{Z}$. Pour définir alors $D(M)$, on prend parfois, au lieu de $\mathbf{Q}/\mathbf{Z}$, un $\mathbf{Z}$-module qui lui est isomorphe, par exemple (V, p. 75, prop. 2) le groupe $R$ des racines de l’unité (noté multiplicativement) dans un corps algébriquement clos de caractéristique 0 ; on pose alors $D(M) = \operatorname{Hom}_{\mathbf{Z}}(M, R)$. Nous laissons au lecteur le soin de traduire les résultats qui précèdent dans ce cas particulier et avec les notations correspondantes.
 
-#### Exemple 2 {#alg-vii-s4-n9-exa-2 .statement}
+#### Exemple 2 {#alg-vii-s4-n9-exa-2 .statement tag=074Q}
 
 Soit $a$ un élément non nul de $A$. L’application $x \mapsto x/a$ de $A$ dans $K$ induit par passage au quotient un isomorphisme de $A$-modules de $A/(a)$ sur le sous-module $(K/A)(a)$ de $K/A$ formé des éléments annulés par $a$. Si $M$ est un $A$-module annulé par $a$, ou, ce qui revient au même, un $A/(a)$-module, le $A$-module $D(M)$ s’identifie donc à $\operatorname{Hom}_{A/(a)}(M, A/(a))$. Nous laissons au lecteur le soin de traduire les résultats qui précèdent dans ce cas particulier et avec les notations correspondantes (cf. V, p. 82).
 

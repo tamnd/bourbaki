@@ -40,7 +40,7 @@ subsections:
       pdf_page: 37
 statements: 40
 exercises: 3
-content_sha256: f71aebe1ebf70d1dc10e7686f9e7032fdcc738eb4c0517affda874dc7f9319f1
+content_sha256: 1855933f04897a2a6a0578486b6b527a3957cd5f9b6c0cf6dcc815cac8664ebc
 ---
 
 ## § 2. Opérations sur les mesures
@@ -57,22 +57,22 @@ d’après la Remarque 3 du § 1, n° 2, de sorte que $\nu$ est une mesure.
 
 Lorsque $X$ n’est pas $\mu$-mesurable, les encombrements $\nu^*$ et $(\mu^*)_x$ ne sont pas nécessairement égaux et la mesure $\nu$ ne présente pas d’intérêt.
 
-#### Définition 1 {#int-ix-s2-def-1 .statement}
+#### Définition 1 {#int-ix-s2-def-1 .statement tag=09OF}
 
 Soit $X$ une partie $\mu$-mesurable de $T$. On appelle mesure induite par $\mu$ sur le sous-espace $X$, et on note $\mu_X$ ou $\mu|X$, la restriction de $\mu : K \mapsto \mu_K$ à l’ensemble des parties compactes de $X$.
 
-#### Proposition 1 {#int-ix-s2-prop-1 .statement}
+#### Proposition 1 {#int-ix-s2-prop-1 .statement tag=09OG}
 
 Soit $X$ une partie $\mu$-mesurable de $T$. L’encombrement $(\mu_X)^*$ est égal à l’encombrement $(\mu^*)_x$ induit par $\mu^*$ sur $X$ (§ 1, n° 1). Autrement dit, on a $(\mu_X)^*(g) = \mu^*(g^0)$ pour toute fonction $g \in \mathscr{F}_+(X)$.
 Soient $f \in \mathscr{F}_+(X)$ et $f^0$ le prolongement par 0 de $f$ à $T$. On a $(\mu^*)_x(f) =$ n° 2.2.
 
 $\mu^*(f^0) = \sup_L \mu^*(f^0 \varphi_L)$, L parcourant l’ensemble des parties compactes de T ($§ 1$, n° 2, prop. 2); de même, on a $(\mu_X)^*(f) = \sup_K \mu_K^*(f_K) = \sup_K \mu^*(f^0 \varphi_K)$, K parcourant l’ensemble des parties compactes de X. Tout revient donc à montrer que $\mu^*(f^0 \varphi_L) = \sup_K \mu^*(f^0 \varphi_K)$ pour tout compact L de T, K parcourant l’ensemble des compacts de $L \cap X$. Or soit $(K_n)$ une suite croissante d’ensembles compacts contenus dans $L \cap X$, telle que $(L \cap X) - \bigcup_n K_n$ soit localement $\mu$-négligeable ($§ 1$, n° 8, prop. 11); $f^0$ étant nulle hors de X, $f^0 \varphi_L$ est nulle hors de $L \cap X$, et donc égale localement presque partout à l’enveloppe supérieure de la suite $(f^0 \varphi_{K_n})$. Cela entraîne $\mu^*(f^0 \varphi_L) = \sup_n \mu^*(f^0 \varphi_{K_n})$, d’où le résultat cherché.
 
-#### Remarque 1 {#int-ix-s2-n1-rem-1 .statement}
+#### Remarque 1 {#int-ix-s2-n1-rem-1 .statement tag=09OH}
 
 La relation $(\mu_X)^* = (\mu^*)_X$ permet d’utiliser sans ambiguïté la notation $\mu_X^*$; nous le ferons dans toute la suite. La prop. 1 précédente et la prop. 2 du $§ 1$, n° 2 montrent que les mesures notées $\mu_K$ jusqu’à présent, pour K compact, sont bien des mesures induites au sens de la déf. 1. De même, si T est localement compact, et si X est un sous-espace localement compact de T, la prop. 1 ci-dessus et la prop. 1 du chap. V, 2e éd., $§ 7$, n° 1 montrent que la déf. 1 coïncide avec celle du chap. IV, 2e éd., $§ 5$, n° 7.
 
-#### Remarque 2 {#int-ix-s2-n1-rem-2 .statement}
+#### Remarque 2 {#int-ix-s2-n1-rem-2 .statement tag=09OI}
 
 La déf. 1 s’étend au cas où $\mu$ est une mesure complexe sur T. Pour montrer dans ce cas que la prémesure $\mu_X$ est une mesure, il suffit de remarquer que $|\mu_K| = |\mu|_K$ pour tout compact K de X ($§ 1$, n° 2).
 
@@ -82,7 +82,7 @@ Remarque 3). — Soit X une partie $\mu$-mesurable de T. D’après la prop. 10 
 
 ### 2. Mesures définies par des densités numériques
 
-#### Définition 2 {#int-ix-s2-def-2 .statement}
+#### Définition 2 {#int-ix-s2-def-2 .statement tag=09OJ}
 
 On dit qu’une fonction $f$ définie dans T, à valeurs dans $\overline{\mathbf{R}}$ ou dans un espace de Banach, est localement $\mu$-intégrable si $f$ est $\mu$-mesurable, et si tout point $x \in T$ admet un voisinage $V$ tel que $\mu^*(|f|\varphi_V) < +\infty$.
 
@@ -90,7 +90,7 @@ Cette définition coïncide avec celle qui a été donnée au chap. V, 2e éd., 
 
 Soit $f$ une fonction positive localement $\mu$-intégrable; l’application $K \mapsto f_K \cdot \mu_K$ est une prémesure (chap. V, 2e éd., § 7, n° 1, cor. 2 du th. 1), que nous noterons $f.\mu$.
 
-#### Proposition 2 {#int-ix-s2-prop-2 .statement}
+#### Proposition 2 {#int-ix-s2-prop-2 .statement tag=09OK}
 
 *Si $f$ est une fonction localement $\mu$-intégrable positive, on a, pour toute fonction $g \in \mathscr{F}_+(T)$, la relation*
 
@@ -108,15 +108,17 @@ en utilisant la définition de $f.\mu$ et la prop. 3 du chap. V, 2e éd., § 5, 
 
 Soient alors $x \in T$ et $V$ un voisinage de $x$ tel que $\mu^*(f \varphi_V) < +\infty$ (déf. 2); on a alors $(f.\mu)^*(V) = \mu^*(f \varphi_V) < +\infty$, et $f.\mu$ est donc une mesure.
 
-#### Définition 3 {#int-ix-s2-def-3 .statement}
+#### Définition 3 {#int-ix-s2-def-3 .statement tag=09OL}
 
 *Soit $f$ une fonction positive localement $\mu$-intégrable. La mesure $f.\mu$: $K \mapsto f_K \cdot \mu_K$ est appelée la mesure de densité $f$ par rapport à $\mu$, ou la mesure produit de $\mu$ par la fonction $f$. Toute mesure de la forme $f.\mu$, où $f$ est positive et localement intégrable, est appelée mesure de base $\mu$.*
 
-*Remarques. —* 1) La définition de $f.\mu$ s’étend au cas où $f$ est une fonction localement intégrable complexe; on a alors $|f.\mu| = |f|.\mu$, ce qui entraîne aussitôt que $f.\mu$ est une mesure, et non une simple prémesure. On conserve l’expression « mesures de base $\mu$ » pour désigner les mesures complexes ainsi définies.
+#### Remarques {#int-ix-s2-n2-rem-1 .statement tag=09OM}
+
+1) La définition de $f.\mu$ s’étend au cas où $f$ est une fonction localement intégrable complexe; on a alors $|f.\mu| = |f|.\mu$, ce qui entraîne aussitôt que $f.\mu$ est une mesure, et non une simple prémesure. On conserve l’expression « mesures de base $\mu$ » pour désigner les mesures complexes ainsi définies.
 
 2) De même, si $\theta$ est une mesure complexe, on dira que $f$ est localement $\theta$-intégrable si elle est localement $|\theta|$-intégrable, et on définira la mesure $f.\theta$: $K \mapsto f_K \cdot \theta_K$. On a $|f.\theta| = |f|.|f|$ (chap. V, 2e éd., § 5, n° 2, prop. 2). Nous laisserons de côté dans ce n° tout ce qui touche aux mesures non positives.
 
-#### Proposition 3 {#int-ix-s2-prop-3 .statement}
+#### Proposition 3 {#int-ix-s2-prop-3 .statement tag=09OO}
 
 *Soit $\nu$ une mesure sur $T$. Pour que $\nu$ soit de la forme $f.\mu$, où $f$ est une fonction positive localement $\mu$-intégrable, il faut et il suffit que tout ensemble compact $\mu$-négligeable soit $\nu$-négligeable. Si $f'$ est une seconde fonction localement $\mu$-intégrable telle que $\nu = f'.\mu$, on a $f = f'$ localement $\mu$-presque partout.*
 
@@ -140,27 +142,27 @@ Remarque 3). — La théorie de l’intégration par rapport à une mesure $\nu 
 
 ### 3. Image d’une mesure
 
-#### Définition 4 {#int-ix-s2-def-4 .statement}
+#### Définition 4 {#int-ix-s2-def-4 .statement tag=09OP}
 
 Soit $\pi$ une application de $T$ dans un espace topologique $X$. On dit que $\pi$ est $\mu$-propre si $\pi$ est $\mu$-mesurable, et si tout point $x$ de $X$ admet un voisinage $V$ tel que $\mu^\bullet(\pi^{-1}(V)) < +\infty$.
 
-#### Remarque 1 {#int-ix-s2-n3-rem-1 .statement}
+#### Remarque 1 {#int-ix-s2-n3-rem-1 .statement tag=09OQ}
 
 Lorsque $T$ et $X$ sont localement compacts, cette définition est équivalente à celle du chap. V, 2e éd., § 6, n° 1.
 
-#### Remarque 2 {#int-ix-s2-n3-rem-2 .statement}
+#### Remarque 2 {#int-ix-s2-n3-rem-2 .statement tag=09OR}
 
 Une application continue propre (Top. gén., 4e éd., chap. I, § 10, n° 1, déf. 1) de $T$ dans $X$ est $\mu$-propre pour toute mesure $\mu$. En effet, soit $x \in X$; comme $\pi^{-1}(x)$ est compact (loc. cit., n° 2, th. 1), l’ensemble $\pi^{-1}(x)$ possède un voisinage ouvert $H$ tel que $\mu^\bullet(H) < +\infty$. Posons $V = X - \pi(T - H)$; comme $\pi$ est fermée, $V$ est ouvert dans $X$, contient $x$, et on a $\pi^{-1}(V) \subset H$ d’où $\mu^\bullet(\pi^{-1}(V)) \leq \mu^\bullet(H) < +\infty$.
 
-#### Remarque 3 {#int-ix-s2-n3-rem-3 .statement}
+#### Remarque 3 {#int-ix-s2-n3-rem-3 .statement tag=09OS}
 
 Si $\mu$ est bornée, toute application $\mu$-mesurable de $T$ dans $X$ est $\mu$-propre.
 
-#### Remarque 4 {#int-ix-s2-n3-rem-4 .statement}
+#### Remarque 4 {#int-ix-s2-n3-rem-4 .statement tag=09OT}
 
 Si $\theta$ est une mesure complexe sur $T$, on dira que $\pi$ est $\theta$-propre si $\pi$ est propre pour la mesure positive $|\theta|$.
 
-#### Proposition 4 {#int-ix-s2-prop-4 .statement}
+#### Proposition 4 {#int-ix-s2-prop-4 .statement tag=09OU}
 
 Soit $\pi$ une application $\mu$-propre de $T$ dans un espace topologique $X$. Il existe sur $X$ une mesure $\nu$ et une seule telle que $\nu^*$ soit égal à l’encombrement image $\pi(\mu^*)$ ($§ 1, n^o 1$), autrement dit, telle que $\nu^*(g) = \mu^*(g \circ \pi)$ pour tout $g \in \mathscr{F}_+(X)$.
 
@@ -180,11 +182,11 @@ $$
 
 L’encombrement $\pi(\mu^*)$ est localement borné, puisque $\pi$ est $\mu$-propre; la famille $(\nu_\alpha)_{\alpha \in A}$ est donc sommable ($§ 1, n^o 7$, prop. 7), et sa somme $\nu$ satisfait à l’énoncé.
 
-#### Définition 5 {#int-ix-s2-def-5 .statement}
+#### Définition 5 {#int-ix-s2-def-5 .statement tag=09OV}
 
 Si $\pi$ est une application $\mu$-propre de $T$ dans un espace topologique $X$, l’unique mesure $\nu$ sur $X$ telle que $\nu^*(g) = \mu^*(g \circ \pi)$ pour tout $g \in \mathscr{F}_+(X)$ est appelée la mesure image de $\mu$ par $\pi$, et notée $\pi(\mu)$.
 
-#### Exemple {#int-ix-s2-n3-exa-1 .statement}
+#### Exemple {#int-ix-s2-n3-exa-1 .statement tag=09OW}
 
 Soient $K$ un sous-espace compact de $T$, $i$ l’injection canonique de $K$ dans $T$, $\lambda$ une mesure sur $K$; $i$ étant continue, et $\lambda$ étant bornée, $i$ est $\lambda$-propre. La formule (3) du $§ 1, n^o 3$ montre que la « mesure sur $T$ définie par $\lambda$ » est la mesure image $i(\lambda)$.
 
@@ -194,19 +196,19 @@ $$
 \pi(\theta) = \pi(\Re(\theta)) + i \pi(\Im(\theta)).
 $$
 
-#### Proposition 5 {#int-ix-s2-prop-5 .statement}
+#### Proposition 5 {#int-ix-s2-prop-5 .statement tag=09OX}
 
 Soit $\pi$ une application $\mu$-propre de $T$ dans un espace topologique $X$, et soit $f$ une application de $X$ dans un espace topologique $F$ (séparé ou non). Pour que $f$ soit $\pi(\mu)$-mesurable, il faut et il suffit que $f \circ \pi$ soit $\mu$-mesurable.
 
 Reprenons la démonstration de la prop. 4, et commençons par le cas particulier traité au début, avec les mêmes notations ; g est mesurable pour la mesure $\pi(\mu) = \nu$ si et seulement si $g_L$ est $\nu'$-mesurable ($§ 1$, no 5, Exemple) ; or cela équivaut à dire que $g_L \circ \pi' = (g \circ \pi)_K$ est $\mu_K$-mesurable (chap. V, 2e éd., $§ 6$, no 2, prop. 3), et finalement que $g \circ \pi$ est $\mu$-mesurable ($§ 1$, no 5, Exemple). Passons ensuite au cas général, avec les mêmes notations que dans la démonstration de la prop. 4 ; $f$ est $\nu$-mesurable si et seulement si $f$ est $\nu_\alpha$-mesurable pour tout $\alpha \in A$ ($§ 1$, no 7, prop. 8), donc si et seulement si $f \circ \pi$ est $\mu_\alpha$-mesurable pour tout $\alpha \in A$ (cas particulier précédent) et enfin si et seulement si $f \circ \pi$ est $\mu$-mesurable ($§ 1$, no 7, prop. 8).
 
-#### Corollaire {#int-ix-s2-n3-cor-1 .statement}
+#### Corollaire {#int-ix-s2-n3-cor-1 .statement tag=09OY}
 
 Soient $X$ et $Y$ deux espaces topologiques, $\pi$ une application $\mu$-propre de $T$ dans $X$, $\pi'$ une application $\pi(\mu)$-propre de $X$ dans $Y$. L’application $\pi'' = \pi' \circ \pi$ est alors $\mu$-propre et $\pi''(\mu) = \pi'(\pi(\mu))$ (« transitivité des images de mesures »).
 
 En effet, $\pi''$ est $\mu$-mesurable (prop. 5). Posons $\mu' = \pi(\mu)$; l’encombrement image $\pi'({\mu'}^*) = \pi'(\pi(\mu^*))$ est évidemment égal à $\pi''(\mu^*)$. Comme il est localement borné, $\pi''$ est $\mu$-propre. Les mesures $\pi''(\mu)$ et $\pi'(\mu')$ ont alors même intégrale supérieure essentielle, et sont donc égales.
 
-#### Proposition 6 {#int-ix-s2-prop-6 .statement}
+#### Proposition 6 {#int-ix-s2-prop-6 .statement tag=09OZ}
 
 Soit $\pi$ une application $\mu$-propre de $T$ dans un espace topologique $X$, et soit $B$ une partie $\pi(\mu)$-mesurable de $X$. Posons $A = \pi^{-1}(B)$, et désignons par $\pi'$ l’application de $A$ dans $B$ qui coïncide avec $\pi$ dans $A$. L’ensemble $A$ est alors $\mu$-mesurable, $\pi_A$ et $\pi'$ sont $\mu_A$-propres, et on a
 
@@ -222,7 +224,7 @@ $$
 
 d’où $(\pi(\mu)_B)^* = \pi'(\mu_A^*)$. Comme l’encombrement $(\pi(\mu)_B)^*$ est localement borné, il en est de même de $\pi'(\mu_A^*)$ et $\pi'$ est donc $\mu_A$-propre. Les mesures $\pi'(\mu_A)$ et $(\pi(\mu))_B$ ont même intégrale supérieure essentielle, et sont donc égales. L’autre relation s’établit de manière analogue.
 
-#### Proposition 7 {#int-ix-s2-prop-7 .statement}
+#### Proposition 7 {#int-ix-s2-prop-7 .statement tag=09P0}
 
 Soit $T$ un sous-espace d’un espace topologique $X$, et soit $i$ l’injection de $T$ dans $X$.
 
@@ -238,7 +240,7 @@ Remarque 6). — Soit $\pi$ une application $\mu$-propre de $T$ dans un espace t
 
 ### 4. Relèvement de mesures
 
-#### Proposition 8 {#int-ix-s2-prop-8 .statement}
+#### Proposition 8 {#int-ix-s2-prop-8 .statement tag=09P1}
 
 Soient $T$ et $X$ deux espaces topologiques, $\pi$ une application de $T$ dans $X$.
 
@@ -253,7 +255,7 @@ $$
 
 Pour montrer que la condition est suffisante, nous traiterons d’abord un cas particulier.
 
-#### Lemme 1 {#int-ix-s2-lem-1 .statement}
+#### Lemme 1 {#int-ix-s2-lem-1 .statement tag=09P2}
 
 Soient U et V deux espaces compacts, h une application continue de U sur V. L’application $\lambda \mapsto h(\lambda)$ de $\mathscr{M}_+(U)$ dans $\mathscr{M}_+(V)$ est alors surjective.
 
@@ -280,13 +282,13 @@ $$
 
 Les deux mesures $\mu$ et $\mu'$ ont donc même intégrale supérieure essentielle, ce qui entraîne leur égalité (§ 1, n° 2, cor. de la prop. 2).
 
-#### Remarque {#int-ix-s2-n4-rem-1 .statement}
+#### Remarque {#int-ix-s2-n4-rem-1 .statement tag=09P3}
 
 Supposons que $\pi$ soit injective. Soit $\theta$ une mesure complexe telle que $\pi$ soit $\theta$-propre, et que $\pi(\theta) = 0$; on a alors $\theta = 0$. En effet, on se ramène, en séparant les parties réelles et imaginaires, au cas où θ est réelle. On a alors π(θ⁺) = π(θ⁻), donc θ⁺ = θ⁻ (prop. 8) et finalement θ = 0.
 
 Voici un cas important où la condition a) de la prop. 8 est toujours vérifiée.
 
-#### Proposition 9 {#int-ix-s2-prop-9 .statement}
+#### Proposition 9 {#int-ix-s2-prop-9 .statement tag=09P4}
 
 *Soient T un espace souslinien (Top. gén., chap. IX, 3e éd., § 6, n° 2, déf. 2), X un espace séparé, π une application continue de T sur X, et ν une mesure bornée sur X. Il existe alors une mesure bornée μ sur T telle que π(μ) = ν.*
 
@@ -305,7 +307,7 @@ Nous définissons ainsi une prémesure sur X. En effet, soit L une partie compac
 
 $$(\nu_L)_K = ((\lambda_C \otimes \mu_D)_L)_K = (\lambda_C \otimes \mu_D)_K = ((\lambda_C \otimes \mu_D)_{A \times B})_K = (\lambda_A \otimes \mu_B)_K = \nu_K.$$
 
-#### Définition 6 {#int-ix-s2-def-6 .statement}
+#### Définition 6 {#int-ix-s2-def-6 .statement tag=09P5}
 
 *La prémesure ν définie par (3) est appelée la prémesure produit de λ et μ, et notée $\lambda \otimes \mu$.*
 
@@ -315,7 +317,7 @@ Nous conserverons les notations du chap. III, 2e éd., § 4 et du chap. V, 2e é
 
 valeurs dans $\overline{\mathbf{R}}_+$ ou dans $\mathbf{C}$, la fonction $(s, t) \mapsto f(s)g(t)$ sur $S \times T$ sera notée $f \otimes g$.
 
-#### Proposition 10 {#int-ix-s2-prop-10 .statement}
+#### Proposition 10 {#int-ix-s2-prop-10 .statement tag=09P6}
 
 *Soit $\nu$ la prémesure produit de $\lambda$ et $\mu$; on a, pour toute fonction $f \in \mathscr{F}_+(S)$ et toute fonction $g \in \mathscr{F}_+(T)$,*
 
@@ -345,7 +347,7 @@ $$
 
 En particulier, si l’on prend $f \in \mathscr{K}_+(K)$, $g \in \mathscr{K}_+(L)$, on voit que $\eta_{K \times L}$ possède la propriété caractéristique de la mesure produit $\lambda_K \otimes \mu_L$ (chap. III, 2e éd., § 4, n° 1, th. 1). On a donc $\eta_{K \times L} = \nu_{K \times L}$; comme toute partie compacte de $S \times T$ est contenue dans un ensemble de la forme $K \times L$, la transitivité des mesures induites entraîne que $\eta = \nu$.
 
-#### Corollaire 1 {#int-ix-s2-prop-10-cor-1 .statement}
+#### Corollaire 1 {#int-ix-s2-prop-10-cor-1 .statement tag=09P7}
 
 *Si $\lambda$ et $\mu$ sont des mesures, $\nu$ est une mesure.*
 
@@ -353,11 +355,11 @@ En effet, soit $x = (s, t)$ un point de $X$, et soient $U$ et $V$ deux voisinage
 
 Ce résultat s’étend aussitôt aux mesures complexes.
 
-#### Corollaire 2 {#int-ix-s2-prop-10-cor-2 .statement}
+#### Corollaire 2 {#int-ix-s2-prop-10-cor-2 .statement tag=09P8}
 
 *Si $A$ est une partie de $S$ localement négligeable pour $\lambda$, $A \times T$ est localement $\nu$-négligeable.*
 
-#### Corollaire 3 {#int-ix-s2-prop-10-cor-3 .statement}
+#### Corollaire 3 {#int-ix-s2-prop-10-cor-3 .statement tag=09P9}
 
 *Supposons que $\lambda$ (resp. $\mu$) soit somme d’une famille sommable $(\lambda_\alpha)_{\alpha \in A}$ (resp. $(\mu_\beta)_{\beta \in B}$) de mesures sur $S$ (resp. $T$). La famille $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ est alors sommable, et sa somme est $\lambda \otimes \mu$.*
 
@@ -367,7 +369,7 @@ En effet, soit $p$ l’encombrement $\sum_{\alpha, \beta} (\lambda_\alpha \otime
 
 Dans tout ce n°, $\lambda$ et $\mu$ désignent deux mesures sur $S$ et $T$ respectivement, et $\nu$ désigne la mesure produit $\lambda \otimes \mu$ sur $S \times T$. En outre, si $f$ est une fonction positive sur $S \times T$, on notera $f_s$ la fonction $t \mapsto f(s, t)$ sur $T$ pour tout $s \in S$, et on notera $I_f$ la fonction $s \mapsto \mu^*(f_s)$ sur $S$.
 
-#### Lemme 2 {#int-ix-s2-lem-2 .statement}
+#### Lemme 2 {#int-ix-s2-lem-2 .statement tag=09PA}
 
 Soit $f$ une fonction positive $\nu$-mesurable sur $S \times T$; pour toute partie compacte $L$ de $T$, soit $I_f^L$ la fonction $s \mapsto \mu^*(f_s \varphi_L)$ sur $S$. La fonction $I_f^L$ est alors $\lambda$-mesurable et on a :
 $$
@@ -391,7 +393,7 @@ c’est-à-dire (6).
 
 Enfin, la prop. 7 du chap. V, 2e éd., § 8, n° 3, entraîne que la restriction de $I_f^L$ à tout compact $K$ de $T$ est $\lambda_K$-mesurable; cela équivaut à dire que $I_f^L$ est $\lambda$-mesurable.
 
-#### Proposition 11 {#int-ix-s2-prop-11 .statement}
+#### Proposition 11 {#int-ix-s2-prop-11 .statement tag=09PB}
 
 Soit $f$ une fonction semi-continue inférieurement $\geq 0$ définie dans $X = S \times T$.
 a) La fonction $f_s : t \mapsto f(s, t)$ est semi-continue inférieurement dans $T$ pour tout $s \in S$.
@@ -402,7 +404,7 @@ $$
 
 La propriété a) est évidente, car l’application $t \mapsto f(s, t)$ de $T$ dans $\overline{\mathbf{R}}$ est composée de $f$ et de l’application continue $t \mapsto (s, t)$ de $T$ dans $X$. Pour établir b), nous utiliserons un lemme:
 
-#### Lemme 3 {#int-ix-s2-lem-3 .statement}
+#### Lemme 3 {#int-ix-s2-lem-3 .statement tag=09PC}
 
 Soient $X$ un espace topologique (séparé ou non), $f$ une fonction semi-continue inférieurement $\geqslant 0$ définie dans $X$; alors $f$ est limite d’une suite croissante $(f_n)_{n \in \mathbf{N}}$ de fonctions semi-continues inférieurement dans $X$, telle que chaque fonction $f_n$ soit une combinaison linéaire, à coefficients positifs, de fonctions caractéristiques d’ensembles ouverts.
 
@@ -418,7 +420,7 @@ $$
 
 où les $U_i$ sont ouverts dans $S$ et les $V_i$ ouverts dans $T$; d’après les remarques faites plus haut, il nous suffit de montrer que la fonction caractéristique d’un tel ouvert appartient à $\mathscr{H}$. Soient alors $s \in S$, et $U$ l’intersection de la famille (éventuellement vide) formée des ouverts $U_i$ contenant $s$; on voit immédiatement que $\varphi_W(s, t) \leq \varphi_W(s', t)$ pour tout $s' \in U$ et tout $t \in T$, d’où par intégration $I^L_{\varphi_W}(s) \leq I^L_{\varphi_W}(s')$ pour tout $s' \in U$. Par conséquent $I^L_{\varphi_W}$ est semi-continue inférieurement, et la proposition est établie.
 
-#### Corollaire 1 {#int-ix-s2-lem-3-cor-1 .statement}
+#### Corollaire 1 {#int-ix-s2-lem-3-cor-1 .statement tag=09PD}
 
 Soit $f$ une fonction numérique positive définie dans $X = S \times T$; on a
 
@@ -437,11 +439,11 @@ $$
 
 L’inégalité (10) s’obtient en passant à l’enveloppe inférieure sur $g$.
 
-#### Corollaire 2 {#int-ix-s2-lem-3-cor-2 .statement}
+#### Corollaire 2 {#int-ix-s2-lem-3-cor-2 .statement tag=09PE}
 
 *Soit $f$ une fonction numérique définie dans $S \times T$ et $\nu$-négligeable. La fonction $f_s : t \mapsto f(s, t)$ est alors $\mu$-négligeable pour $\lambda$-presque tout $s \in S$.*
 
-#### Proposition 12 {#int-ix-s2-prop-12 .statement}
+#### Proposition 12 {#int-ix-s2-prop-12 .statement tag=09PF}
 
 *Soit $f$ une fonction positive $\nu$-mesurable définie dans $X = S \times T$. Supposons que $f$ soit $\nu$-modérée (resp. que $\mu$ soit modérée). Alors
 a) L’ensemble $N$ des $s \in S$ tels que la fonction $f_s : t \mapsto f(s, t)$ ne soit pas $\mu$-mesurable est négligeable (resp. localement négligeable) pour $\lambda$.
@@ -460,13 +462,13 @@ Supposons que $f$ soit nulle hors d’un ensemble compact de la forme $K \times 
 
 Supposons que $\mu$ soit portée par une partie compacte $L$ de $T$; alors, on a encore $N = N_L$, et $N$ est donc localement $\lambda$-négligeable. Toute mesure modérée étant somme d’une suite de mesures à support compact ($§ 1$, n° 9, cor. 5 de la prop. 14), ce résultat s’étend aussitôt au cas où $\mu$ est modérée en utilisant la prop. 8 du $§ 1$, n° 7.
 
-#### Remarque {#int-ix-s2-n6-rem-1 .statement}
+#### Remarque {#int-ix-s2-n6-rem-1 .statement tag=09PG}
 
 Soient $(K_\alpha)_{\alpha \in A}$ un concassage de $S$ pour $\lambda$ et $M = S - \bigcup_{\alpha \in A} K_\alpha$; définissons de manière analogue $(L_\beta)_{\beta \in B}$ et $N$ pour la mesure $\mu$ sur $T$. On note $S'$ l’espace localement compact somme des sous-espaces $K_\alpha$ de $S$ et de l’espace discret $M$; l’espace $T'$ est défini de manière analogue, et l’on pose $X' = S' \times T'$. L’espace localement compact $X'$ est somme de la famille $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ de sous-espaces compacts de $X$, et d’un sous-espace $P = (M \times T) \cup (S \times N)$ qui est une partie localement $\nu$-négligeable de $X$ (on notera que $P$ n’est pas un espace discret en général). On a vu dans le Scholie du $§ 1$, n° 8 qu’il existe une mesure $\lambda'$ sur $S'$ telle que les fonctions mesurables, l’intégrale supérieure essentielle des fonctions positives, les fonctions essentiellement intégrables et leurs intégrales soient les mêmes pour $\lambda$ et $\lambda'$. Associons la mesure $\mu'$ sur $T'$ à $\mu$ et la mesure $\nu'$ sur $X'$ à $\nu$, conformément au Scholie cité; on voit immédiatement que l’on a $\nu'(f \otimes g) = \lambda'(f) \mu'(g)$ pour $f \in \mathscr{F}_+(S)$ et $g \in \mathscr{F}_+(T)$; on a donc $\nu' = \lambda' \otimes \mu'$ d’après la prop. 10 du n° 5. Comme la topologie de $X'$ est plus fine que celle de $X$, toute fonction $\nu$-modérée est $\nu'$-modérée. Ce procédé permet d’étendre sans nouvelle démonstration le th. de Lebesgue–Fubini (chap. V, 2e éd., § 8, n° 4, th. 1) à la situation présente.
 
 ### 7. Un résultat sur la désintégration des mesures
 
-#### Proposition 13 {#int-ix-s2-prop-13 .statement}
+#### Proposition 13 {#int-ix-s2-prop-13 .statement tag=09PH}
 
 Soient $X$ un espace topologique, $\nu$ une mesure modérée sur $X$, $p$ une application $\nu$-propre de $X$ dans un espace topologique $T$, et $\mu = p(\nu)$. On suppose que tout sous-espace compact de $X$ est métrisable. Il existe alors une application $t \mapsto \lambda_t$ de $T$ dans $\mathscr{M}_+(X)$ ayant les propriétés suivantes:
 a) pour tout $t \in T$, la mesure $\lambda_t$ est portée par $p^{-1}(t)$;
@@ -482,7 +484,7 @@ c) l’ensemble des $t \in T$ tels que $\lambda_t(1) \neq 1$ est localement $\mu
 De plus, si $t \mapsto \lambda'_t$ est une application de $T$ dans $\mathscr{M}_+(\mathbf{X})$ satisfaisant aux conditions a) et b), l’ensemble des $t \in T$ tels que $\lambda_t \neq \lambda'_t$ est localement $\mu$-négligeable.
 Nous aurons besoin d’un résultat auxiliaire:
 
-#### Lemme 4 {#int-ix-s2-lem-4 .statement}
+#### Lemme 4 {#int-ix-s2-lem-4 .statement tag=09PI}
 
 Soient $X$ un espace topologique, $\nu$ une mesure sur $X$ et $f$ une application $\nu$-mesurable de $X$ dans un espace topologique $F$ (séparé ou non). Il existe une application universellement mesurable $f'$ de $X$ dans $F$, égale à $f$ localement $\nu$-presque partout.
 La démonstration est identique à celle de la prop. 7 du chap. V, 2e éd., § 3, n° 4, compte tenu de la prop. 10 du § 1, n° 8.
@@ -542,11 +544,11 @@ Soit $f \in D$; d'après D), les fonctions $t \mapsto (\lambda_t^1)^*(f)$ et $t 
 
 C.Q.F.D.
 
-#### Remarque 1 {#int-ix-s2-n7-rem-1 .statement}
+#### Remarque 1 {#int-ix-s2-n7-rem-1 .statement tag=09PJ}
 
 Si $X$ est un espace souslinien, tout sous-espace compact de $X$ est souslinien, donc métrisable (Top. gén., 3e édit., chap. IX, Appendice I, cor. 2 de la prop 3), et toute mesure sur $X$ est modérée (§ 1, n° 9, Remarque 1). D'après la prop. 13, toute mesure $\nu$ sur $X$ admet donc une désintégration par rapport à toute application $\nu$-propre.
 
-#### Remarque 2 {#int-ix-s2-n7-rem-2 .statement}
+#### Remarque 2 {#int-ix-s2-n7-rem-2 .statement tag=0E7J}
 
 Avec les notations de la prop. 13, soit $f$ une fonction $\nu$-mesurable positive. On peut prouver comme au chap. V, 2e éd., § 3, n° 2, prop. 5 que l'ensemble des $t \in T$ tels que $f$ ne soit pas $\lambda_t$-mesurable est localement $\mu$-négligeable, que $t \mapsto \lambda_t^*(f)$ est $\mu$-mesurable, et que l'on a encore la relation (12).
 

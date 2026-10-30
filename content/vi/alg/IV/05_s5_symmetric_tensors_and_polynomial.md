@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 41
 exercises: 16
-content_sha256: c72fa4d4dde2fbf875872676a3dc25e6cbb6df69ac0555f78d6ab9204e20e20f
+content_sha256: 3e028522265eaf26dda169ef2c94bbf682155e4f751cf54181e2c29812e76cc2
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
 source_content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
@@ -99,7 +99,7 @@ $$
 (1) Ta ký hiệu A[H] là đại số nhóm của H (III, p. 446).
 (2) Cần chú ý không nhầm ký hiệu này với ký hiệu được đưa vào trong việc nghiên cứu các tích của các tập hợp (*Lý thuyết tập hợp*, II, p. 102).
 
-#### Định nghĩa 1 {#alg-iv-s5-def-1 .statement}
+#### Định nghĩa 1 {#alg-iv-s5-def-1 .statement tag=06CT}
 
 — Nếu G *là* nhóm con có chỉ số hữu hạn trong H, ta ký hiệu $\mathrm{Tr}_{H/G}$ là ánh xạ từ $M^G$ vào $M^H$ được xác định bởi
 
@@ -109,7 +109,7 @@ $$
 
 Ánh xạ này là một đồng cấu của A-môđun $M^G$ vào A-môđun $M^H$.
 
-#### Mệnh đề 1 {#alg-iv-s5-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iv-s5-prop-1 .statement tag=06CU}
 
 — (i) Cho $m \in M^G$ và $h \in H$. Khi đó $hm \in M^{hGh^{-1}}$ và
 
@@ -183,7 +183,7 @@ $$
 zz' = \sum_{\sigma \in S_{p,q}} \sigma(z \otimes z')
 $$
 
-#### Mệnh đề 2 {#alg-iv-s5-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iv-s5-prop-2 .statement tag=06CV}
 
 — (i) Đại số trên A $TS(M)$ là kết hợp, giao hoán và có đơn vị.
 
@@ -283,11 +283,11 @@ x_1 = x_2 = \cdots = x_k = x ,
 $$
 là một phần tử của $\mathbf{TS}^k(M)$.
 
-#### Định nghĩa 2 {#alg-iv-s5-def-2 .statement}
+#### Định nghĩa 2 {#alg-iv-s5-def-2 .statement tag=06CW}
 
 *Nếu* $x \in M$, *phần tử* $x \otimes x \otimes \ldots \otimes x$ *của* $\mathbf{TS}^k(M)$ *được ký hiệu là* $\gamma_k(x)$.
 
-#### Mệnh đề 3 {#alg-iv-s5-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iv-s5-prop-3 .statement tag=06CX}
 
 (i) *Nếu* $x \in M$, *lũy thừa bậc p của* $x$, *tính trong* $\mathbf{TS}(M)$, *bằng* $p! \; \gamma_p(x)$.
 (ii) *Cho* $x_1, \ldots, x_n \in M$; *khi đó*
@@ -343,7 +343,7 @@ Trong (iii), đặt $n = 2, x_1 = x_2 = x, p_1 = q$ và $p_2 = r$, khi đó ta t
 
 Cuối cùng, (v) suy ra từ Mệnh đề 2, (ii) và Mệnh đề 2 của I, p. 100, áp dụng cho các phần tử $x_i$ của vành $\mathbf{T}(M)$.
 
-#### Nhận xét 1 {#alg-iv-s5-n4-rem-1 .statement}
+#### Nhận xét 1 {#alg-iv-s5-n4-rem-1 .statement tag=06CY}
 
 Cho $(x_i)_{i \in I}$ là một họ các phần tử của M. Với mỗi $\nu \in \mathbf{N}^{(I)}$ đặt
 $$
@@ -355,7 +355,7 @@ $$
 $$
 (6)
 
-#### Nhận xét 2 {#alg-iv-s5-n4-rem-2 .statement}
+#### Nhận xét 2 {#alg-iv-s5-n4-rem-2 .statement tag=06CZ}
 
 Cho $\mathscr{M}$ là tập hợp các ánh xạ từ $(1, p)$ vào I. Ta định nghĩa một ánh xạ $\rho \mapsto \rho^*$ từ $\mathscr{M}$ vào $\mathbf{N}^{(I)}$ bằng cách đặt
 $$
@@ -370,7 +370,7 @@ $$
 
 ### 5. Tenxơ đối xứng trên một môđun tự do
 
-#### Mệnh đề 4 {#alg-iv-s5-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iv-s5-prop-4 .statement tag=06D0}
 
 — Cho $M$ là tự do và $(e_i)_{i \in I}$ là một cơ sở của $M$.
 
@@ -380,7 +380,7 @@ $$
 
 Ta dùng ký hiệu của Nhận xét 2 ở trên. Họ $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathscr{M}}$ là một cơ sở của $\mathbf{T}^p(M)$. Do đó Mệnh đề 4 suy ra từ công thức (7) và bổ đề sau đây, áp dụng với $H = \mathfrak{S}_p$ và $U = \mathbf{T}^p(M)$.
 
-#### Bổ đề 1 {#alg-iv-s5-lem-1 .statement}
+#### Bổ đề 1 {#alg-iv-s5-lem-1 .statement tag=06D1}
 
 Cho $H$ là một nhóm hữu hạn và $U$ là một $A[H]$-môđun trái. Giả sử $A$-môđun $U$ có một cơ sở $B$ ổn định dưới các phép toán của $H$ trong $U$, và đặt $\Omega = B/H$. Với mỗi $w \in \Omega$, đặt $u_w = \sum_{b \in w} b$; khi đó
 
@@ -390,7 +390,7 @@ Cho $H$ là một nhóm hữu hạn và $U$ là một $A[H]$-môđun trái. Gi�
 
 Hợp của tập hợp tất cả các $u_w$ (với $\omega \in \Omega$) và của $B'$ là một cơ sở của $U$. Nếu $U' = \sum_{\omega \in \Omega} Au$, và $U'' = \sum_{b \in B'} Ab$, do đó ta có $U = U' \oplus U''$. Mặt khác, ta có $u_w \in U^H$ với mọi $w \in \Omega$, nên $U' \subset U^H$. Cuối cùng, cho $(\alpha_b)_{b \in B}$ là một họ các phần tử của $A$ có giá hữu hạn và đặt $x = \sum_{b \in B} \alpha_b b$. Nếu $x \in U^H$, thì $\alpha_{hb} = \alpha_b^H$ với mọi $b \in B$ và mọi $h \in H$, nên $x \in U'$, và suy ra $U' = u^H$.
 
-#### Mệnh đề 5 {#alg-iv-s5-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iv-s5-prop-5 .statement tag=06D2}
 
 — Cho $M$ là một A-môđun tự do, $k$ một số nguyên $\geq 0$, $P$ A-môđun con của $\mathbf{TS}^k(M)$ được sinh bởi $\gamma_k(M)$. Giả sử $A$ là một miền nguyên vô hạn. Khi đó với mỗi $z \in \mathbf{TS}^k(M)$ tồn tại $a \in A - \{0\}$ sao cho $az \in P$.
 
@@ -457,7 +457,7 @@ $$
 = \mathbf{TS}(j_\lambda \circ u_\lambda)(z) = \mathbf{TS}(j_\lambda) \circ \mathbf{TS}(u_\lambda)(z) = h'(\mathbf{TS}(u_\lambda)(z)) .
 $$
 
-#### Mệnh đề 6 {#alg-iv-s5-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iv-s5-prop-6 .statement tag=06D3}
 
 — *Cho $M$ là một $A$-môđun là tổng trực tiếp của một họ $(M_\lambda)_\lambda$ các môđun con. Nếu mỗi $M_\lambda$ là một môđun tự do, thì đồng cấu chính tắc từ $\otimes_{\lambda \in L} \mathbf{TS}(M_\lambda)$ vào $\mathbf{TS}(M)$ là một đẳng cấu.*
 
@@ -471,7 +471,7 @@ với $\nu_\lambda \in \mathbf{N}^{(I_\lambda)}$ và $\nu_\lambda = 0$ trừ m�
 
 Dưới các điều kiện của Mệnh đề 6, đẳng cấu nghịch đảo $\mathbf{TS}(M) \to \otimes_{\lambda} \mathbf{TS}(M_\lambda)$ cũng được gọi là *chính tắc*. Thường xuyên $\mathbf{TS}(M)$ được đồng nhất với $\otimes_{\lambda} TS(M_\lambda)$ bằng đẳng cấu này. Cần lưu ý rằng nếu $z \in TS(M_\lambda)$ và $z' \in \mathbf{TS}(M_{\mu})$ với $\lambda \neq \mu$, thì phần tử của $\mathbf{TS}(M)$ mà ta được dẫn đến để ký hiệu là $z \otimes z'$ không phải là tích tenxơ của $z$ và $z'$ trong $\mathbf{T}(M)$ mà là tích đối xứng của $z$ và $z'$.
 
-#### Mệnh đề 7 {#alg-iv-s5-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iv-s5-prop-7 .statement tag=06D4}
 
 *Cho $M$ là một $A$-môđun, $u$ là ánh xạ $(x, y) \mapsto x + y$ của $M \oplus M$ vào $M$ và $f$ là ánh xạ hợp*
 
@@ -521,13 +521,13 @@ $$
 
 Điều này suy ra từ *(10)* vì $c$ là một đồng cấu đại số.
 
-#### Mệnh đề 8 {#alg-iv-s5-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iv-s5-prop-8 .statement tag=06D5}
 
 — Cho M là một A-môđun tự do, khi đó với các cấu trúc đại số và đối đại số của nó, TS (M) là một song đại số phân bậc giao hoán và đối giao hoán. Đồng đơn vị là ánh xạ A-tuyến tính $\varepsilon : TS(M) \to TS^0(M) = A$ bằng không trên $TS^p(M)$ với $p > 0$ và sao cho $\varepsilon(1) = 1$.
 
 Ta biết rằng A-đại số $TS(M)$ là kết hợp, giao hoán và có đơn vị. Mặt khác, đồng tích theo phép dựng là một đồng cấu của các đại số phân bậc; bây giờ việc đối đại số $TS(M)$ là đối kết hợp và đối giao hoán suy ra bằng một phép tính dễ dàng từ Công thức (10). Ánh xạ $\varepsilon$ từ $TS(M)$ vào A là một đồng cấu của các đại số phân bậc sao cho $\varepsilon(l) = l$. Cuối cùng với mọi $x \in M$ ta có $\varepsilon(\gamma_p(x)) = 0$ nếu $p > 0$, $\varepsilon(\gamma_0(x)) = l$; nếu lưu ý đến (lo), điều này cho thấy rằng $(F \otimes 1) \circ c = (l \otimes E) \circ c = \mathrm{Id}_{TS(M)}$; do đó $E$ là đồng đơn vị của $TS(M)$.
 
-#### Mệnh đề 9 {#alg-iv-s5-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iv-s5-prop-9 .statement tag=06D6}
 
 — Cho M và N là các A-môđun tự do và u là một A-đồng cấu từ M vào N; khi đó $\mathbf{TS}(u)$ là một đồng cấu song đại số.
 
@@ -543,7 +543,7 @@ $$
 
 trong đó $\sigma$ và $\tau$ là các đẳng cấu chính tắc, là giao hoán (IV, p. 49). Vậy $c_N \circ \mathbf{TS}(u) = (\mathbf{TS}(u) \otimes \mathbf{TS}(u)) \circ c_M$.
 
-#### Mệnh đề 10 {#alg-iv-s5-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iv-s5-prop-10 .statement tag=06D7}
 
 — Cho M là một A-môđun tự do, khi đó các phần tử nguyên thủy (III, p. 602) của song đại số $\mathbf{TS}(M)$ là các phần tử của M.
 
@@ -615,7 +615,7 @@ $$
 
 trong đó $f$ và $g$ là các đồng cấu chính tắc, là giao hoán. Thật vậy, $g \circ \otimes \varphi_{M_\lambda}$ và $\varphi_M \circ f$ là các đồng cấu đại số trùng nhau trên $M_\lambda$ với mọi $\lambda$.
 
-#### Mệnh đề 11 {#alg-iv-s5-prop-11 .statement}
+#### Mệnh đề 11 {#alg-iv-s5-prop-11 .statement tag=06D8}
 
 — *Nếu $M$ là tự do, thì $\varphi_M$ là một cấu xạ của các song đại số phân bậc.*
 
@@ -631,7 +631,7 @@ $$
 
 trong đó $\Delta$ là đồng cấu đường chéo và $h, k$ là các đồng cấu chính tắc. Mệnh đề suy ra từ điều này.
 
-#### Mệnh đề 12 {#alg-iv-s5-prop-12 .statement}
+#### Mệnh đề 12 {#alg-iv-s5-prop-12 .statement tag=06D9}
 
 — (i) *Nếu $u \in S^n(M)$, thì $\psi_M(\varphi_M(u)) = n!u$.*
 
@@ -655,18 +655,18 @@ $$
 \varphi_M(\psi_M(v)) = \sum_{i=1}^p s(x_1^i \otimes x_2^i \otimes \ldots \otimes x_n^i) = s(v) = n!v.
 $$
 
-#### Hệ quả 1 {#alg-iv-s5-prop-12-cor-1 .statement}
+#### Hệ quả 1 {#alg-iv-s5-prop-12-cor-1 .statement tag=06DA}
 
 — *Nếu $\mathbf{A}$ là một $\mathbf{Q}$-đại số, thì đồng cấu chính tắc từ $S(M)$ vào $TS(M)$ là một đẳng cấu đại số. Hơn nữa, nếu $M$ là tự do, thì đó là một đẳng cấu của các song đại số phân bậc.*
 
-#### Hệ quả 2 {#alg-iv-s5-prop-12-cor-2 .statement}
+#### Hệ quả 2 {#alg-iv-s5-prop-12-cor-2 .statement tag=06DB}
 
 — *Nếu $A$ là một $\mathbf{Q}$-đại số thì môđun $TS^n(M)$ được sinh bởi các lũy thừa bậc n của các phần tử của $M$ trong $TS(M)$.
 Điều này suy ra từ Hệ quả 1 và tính chất tương ứng của $S(M)$* (III, p. 498).
 
 ### 9. Ánh xạ đa thức thuần nhất
 
-#### Mệnh đề 13 {#alg-iv-s5-prop-13 .statement}
+#### Mệnh đề 13 {#alg-iv-s5-prop-13 .statement tag=06DC}
 
 — *Cho $M$ và $N$ là các $A$-môđun, $q$ là một số nguyên $\geqslant 0$, và $f$ là một ánh xạ từ $M$ vào $N$. Giả sử rằng $M$ là tự do, khi đó các điều kiện sau là tương đương:
 (i) Tồn tại một ánh xạ $q$-tuyến tính $g$ từ $M^q$ vào $N$ sao cho $f(x) = g(x, x, \ldots, x)$ với mọi $x \in M$.
@@ -710,7 +710,7 @@ $$
 f(x) = f \left( \sum_i \lambda_i e_i \right) = \sum_{|\nu|=q} \lambda^\nu u_\nu = h \left( \sum_{|\nu|=q} \lambda^\nu e_\nu \right) = h(\gamma_q(x))
 $$
 
-#### Định nghĩa 3 {#alg-iv-s5-def-3 .statement}
+#### Định nghĩa 3 {#alg-iv-s5-def-3 .statement tag=06DD}
 
 — Cho M và N là các A-môđun và q là một số nguyên $\geq 0$. Giả sử rằng M là *tự do*, và ký hiệu bởi $\mathrm{Pol}_A^q(M, N)$ hoặc đơn giản là $\mathrm{Pol}^q(M, N)$ tập hợp các ánh xạ từ M vào N thỏa mãn các điều kiện của Mệnh đề 13. Các phần tử của $\mathrm{Pol}^q(M, N)$ được gọi là các ánh xạ đa thức thuần nhất bậc q từ M vào N.
 
@@ -728,31 +728,31 @@ $$
 
 Các đồng cấu này được gọi là chính tắc. Chúng toàn ánh.
 
-#### Ví dụ 1 {#alg-iv-s5-n9-exa-1 .statement}
+#### Ví dụ 1 {#alg-iv-s5-n9-exa-1 .statement tag=06DE}
 
 Các ánh xạ đa thức thuần nhất bậc 1 từ M vào N là các ánh xạ A-tuyến tính từ M vào N.
 
-#### Ví dụ 2 {#alg-iv-s5-n9-exa-2 .statement}
+#### Ví dụ 2 {#alg-iv-s5-n9-exa-2 .statement tag=06DF}
 
 Cho $(N_i)_{i \in I}$ là một họ các A-môđun, $f_i$ là một ánh xạ từ M vào $N_i, i \in I$, và $f : M \to \prod_{i \in I} N_i$ là ánh xạ có các thành phần là $f_i$. Để f là một ánh xạ đa thức thuần nhất bậc q thì điều kiện cần và đủ là mỗi $f_i$ đều là một ánh xạ đa thức thuần nhất bậc q.
 
-#### Ví dụ 3 {#alg-iv-s5-n9-exa-3 .statement}
+#### Ví dụ 3 {#alg-iv-s5-n9-exa-3 .statement tag=06DG}
 
 Cho $(M_j)_{j \in J}$ là một họ hữu hạn các A-môđun tự do và $u : \prod_{j \in J} M_j \to N$ là một ánh xạ đa tuyến tính; khi đó u là đa thức bậc $\mathrm{Card}(J)$.
 
-#### Ví dụ 4 {#alg-iv-s5-n9-exa-4 .statement}
+#### Ví dụ 4 {#alg-iv-s5-n9-exa-4 .statement tag=06DH}
 
 Cho $(X_i)_{i \in I}$ là một họ các ẩn, $N$ là một $A$-môđun và $u \in N[(X_i)_{i \in I}]$ là một đa thức thuần nhất bậc $q$. Ánh xạ $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ từ $A^{(I)}$ vào $N$ là một ánh xạ đa thức thuần nhất bậc $q$: điều này thấy ngay từ điều kiện (iii) của Mệnh đề 13. Nếu $I$ là hữu hạn, mọi ánh xạ đa thức thuần nhất bậc $q$ từ $A^{(I)} = A'$ vào $N$ đều có dạng đó.
 
-#### Ví dụ 5 {#alg-iv-s5-n9-exa-5 .statement}
+#### Ví dụ 5 {#alg-iv-s5-n9-exa-5 .statement tag=06DI}
 
 Ánh xạ $(x_i)_{i \in N} \mapsto x_0^2 + x_1^2 + \ldots + x_n^2 + \ldots$ từ $A^{(N)}$ vào $A$ là một ánh xạ đa thức thuần nhất bậc 2. Nếu $A = 2/22$, nó trùng với ánh xạ tuyến tính $(x_i)_{i \in I} \mapsto x_0 + x_1 + \ldots + x_n + \ldots$
 
-#### Ví dụ 6 {#alg-iv-s5-n9-exa-6 .statement}
+#### Ví dụ 6 {#alg-iv-s5-n9-exa-6 .statement tag=06DJ}
 
 Cho $f \in \mathrm{Pol}_A^q(M, N)$, cho $B$ là một vành giao hoán, $\rho$ là một đồng cấu từ $B$ vào $A$ và $M'$ và $N'$ là các $B$-môđun dẫn xuất từ $M$ và $N$ bằng $\rho$. Giả sử rằng $M'$ là tự do; khi đó $f \in \mathrm{Pol}_B^q(M', N')$: điều này suy ra ngay từ điều kiện (i) của Mệnh đề 13.
 
-#### Mệnh đề 14 {#alg-iv-s5-prop-14 .statement}
+#### Mệnh đề 14 {#alg-iv-s5-prop-14 .statement tag=06DK}
 
 — Cho $M, N, P$ là các $A$-môđun, $q$ và $r$ là các số nguyên $\geqslant 0$, và giả sử rằng $M$ và $N$ tự do. Nếu $f \in \mathrm{Pol}^q(M, N)$, $f' \in \mathrm{Pol}^r(N, P)$, thì $f' \circ f \in \mathrm{Pol}^{qr}(M, P)$.
 
@@ -773,7 +773,7 @@ $$
 
 và ánh xạ $(x_1, \ldots, x_{qr}) \mapsto g'(g(x_1, \ldots, x_q), \ldots, g(x_{q(r-1)+1}, \ldots, x_{qr}))$ của $M^{qr}$ vào $P$ là $qr$-tuyến tính.
 
-#### Mệnh đề 15 {#alg-iv-s5-prop-15 .statement}
+#### Mệnh đề 15 {#alg-iv-s5-prop-15 .statement tag=06DL}
 
 — Cho $M$ là một $A$-môđun tự do, $N$ là một $A$-môđun và $q$ là một số nguyên $\geqslant 0$. Ta giả sử rằng ánh xạ $y \mapsto q!y$ là một tự đẳng cấu của $N$. Cho $f \in \mathrm{Pol}^q(M, N)$, khi đó tồn tại một và chỉ một ánh xạ $q$-tuyến tính đối xứng $h$ của $M^q$ vào $M$ sao cho $f(x) = h(x, x, \ldots, x)$ với mọi $x \in M$. Với bất kỳ $x_1, \ldots, x_q \in M$ nào ta có
 
@@ -804,7 +804,7 @@ $$
 
 và điều này chứng minh công thức (16) và tính duy nhất của h.
 
-#### Mệnh đề 16 {#alg-iv-s5-prop-16 .statement}
+#### Mệnh đề 16 {#alg-iv-s5-prop-16 .statement tag=06DM}
 
 — *Cho M là một A-môđun tự do, N là một A-môđun, q là một số nguyên dương và u là đồng cấu chính tắc từ Hom ($\mathbf{TS}^q(M)$, N) vào $\mathbf{Pol}^Y(M, N)$.
 
@@ -818,13 +818,13 @@ Giả sử A là một miền nguyên vô hạn và N không có xoắn. Với m
 
 Tiếp theo giả sử ánh xạ $y \mapsto q!y$ trong N là đơn ánh; khi đó theo *IV*, p. 45, Mệnh đề 3, (v), f triệt tiêu trên s . T^q(M). Vậy nếu $z \in \mathbf{TS}^q(M)$, ta có $q!f(z) = f(sz) = 0$, và vì thế $f(z) = 0$.
 
-#### Hệ quả {#alg-iv-s5-n9-cor-1 .statement}
+#### Hệ quả {#alg-iv-s5-n9-cor-1 .statement tag=06DN}
 
 — *Cho M là một A-môđun tự do, N là một A-môđun, q là một số nguyên dương, $h \in \mathbf{Pol}^q(M, N)$ và $(e_i)_i$, một cơ sở của M. Trong hai trường hợp của Mệnh đề 16, tồn tại một họ duy nhất $(u,$, $\mathbf{N}^{(I)}, |\cdot|$, , các phần tử của N sao cho $h \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{|\nu| = q} \lambda^\nu u_\nu$ với mọi $(\lambda_i) \in \mathbf{A}^{(1)}$*
 
 ### 10. Ánh xạ đa thức
 
-#### Định nghĩa 4 {#alg-iv-s5-def-4 .statement}
+#### Định nghĩa 4 {#alg-iv-s5-def-4 .statement tag=06DO}
 
 — *Cho M và N là các A-môđun và giả sử rằng M là tự do. Ký hiệu ánh xạ(M, N) là A-môđun của mọi ánh xạ từ M vào N. Môđun con $\sum_{q > 0} \mathbf{Pol}_A^q(M, N)$ của ánh xạ(M, N) được ký hiệu là $\mathbf{Pol}_A(M, N)$ hoặc đơn giản là $\mathbf{Pol}(M, N)$; các phần tử của nó được gọi là các ánh xạ đa thức từ M vào N.*
 
@@ -836,13 +836,13 @@ $$
 
 với mọi họ $x = (x_i)_{i \in I}$ trong $A^{(I)}$. Tính chất này không phụ thuộc vào cơ sở được chọn của M và nó biện minh cho thuật ngữ « ánh xạ đa thức ».
 
-#### Mệnh đề 17 {#alg-iv-s5-prop-17 .statement}
+#### Mệnh đề 17 {#alg-iv-s5-prop-17 .statement tag=06DP}
 
 — *Cho M là một A-môđun tự do và B là một A-đại số kết hợp, giao hoán và có đơn vị. Khi đó $\mathrm{Pol}_A(M, B)$ là một đại số con trên B của đại số $\mathrm{Map}(M, B)$.
 
 Điều này suy ra từ Định nghĩa 4 và Mệnh đề 13, (iv) (IV, p. 54).
 
-#### Mệnh đề 18 {#alg-iv-s5-prop-18 .statement}
+#### Mệnh đề 18 {#alg-iv-s5-prop-18 .statement tag=06DQ}
 
 — *Cho M, N, P là các A-môđun, và giả sử rằng M và N là tự do. Nếu $f \in \mathrm{Pol}(M, N)$, $g \in \mathrm{Pol}(N, P)$, thì $g \circ f \in \mathrm{Pol}(M, P)$.
 
@@ -860,7 +860,7 @@ $$
 
 từ đó mệnh đề của ta suy ra.
 
-#### Bổ đề 2 {#alg-iv-s5-lem-2 .statement}
+#### Bổ đề 2 {#alg-iv-s5-lem-2 .statement tag=06DR}
 
 — *Cho N là một A-môđun, n là một số nguyên $\geq 0$ và*
 
@@ -880,7 +880,7 @@ $$
 
 trong đó g là một phần tử của N[X] có dạng $m_0' + m_1' X + \ldots + m_{n-1}' X^{n-1}$. Các giả thiết của bổ đề suy ra rằng $g(\alpha_1) = \cdots = g(\alpha_r) = 0$, do đó $g = 0$ theo giả thiết quy nạp, và vì thế $f = 0$.
 
-#### Mệnh đề 19 {#alg-iv-s5-prop-19 .statement}
+#### Mệnh đề 19 {#alg-iv-s5-prop-19 .statement tag=06DS}
 
 — *Cho M là một A-môđun tự do, N là một A-môđun, G là một nhóm con cộng tính vô hạn của A, và giả sử rằng các phép vị tự của N xác định bởi các phần tử khác không của G là đơn ánh. Khi đó Pol(M, N) là tổng trực tiếp của các Pol$^q$(M, N).*
 
@@ -893,7 +893,7 @@ $$
 f_0(x) = \cdots = f_n(x) = 0
 $$
 
-#### Hệ quả {#alg-iv-s5-n10-cor-1 .statement}
+#### Hệ quả {#alg-iv-s5-n10-cor-1 .statement tag=06DT}
 
 — *Giả sử rằng A là một miền nguyên vô hạn; cho M là một A-môđun tự do và N là một A-môđun không xoắn.*
 
@@ -913,7 +913,7 @@ cảm sinh trong bậc 1 ánh xạ đồng nhất của M*.
 
 $^1$ Ở đây một đồng cấu phân bậc bậc – k từ TS(M) vào A được xem như một phần tử bậc k của TS(M)*gr (II, p. 377).
 
-#### Mệnh đề 20 {#alg-iv-s5-prop-20 .statement}
+#### Mệnh đề 20 {#alg-iv-s5-prop-20 .statement tag=06DU}
 
 — *Nếu A-môđun M là tự do và sinh hữu hạn, thì $0$ là một đẳng cấu của các đại số phân bậc.*
 
@@ -931,11 +931,11 @@ $$
 
 hay cũng có nghĩa là với $\rho, \sigma \in \mathbf{N}^I$ ta có $e_\rho^* \cdot e_\sigma^* = e_{\rho + \sigma}^*$; nhưng mệnh đề cuối cùng này suy ra từ *IV*, p. 50, Công thức (12).
 
-#### Nhận xét 1 {#alg-iv-s5-n11-rem-1 .statement}
+#### Nhận xét 1 {#alg-iv-s5-n11-rem-1 .statement tag=06DV}
 
 — Theo cùng một cách, ta thấy rằng nếu $M$ là một $A$-môđun tự do sinh hữu hạn, thì đại số phân bậc $S(M)^{*gr}$ được định nghĩa trong III, p. 593 có thể được đồng nhất với $TS(M^*)$.
 
-#### Mệnh đề 21 {#alg-iv-s5-prop-21 .statement}
+#### Mệnh đề 21 {#alg-iv-s5-prop-21 .statement tag=06DW}
 
 — *Đồng cấu chính tắc của các A-môđun* (*IV*, p. 55)
 
@@ -954,7 +954,7 @@ $$
 
 do đó có kết quả.
 
-#### Nhận xét {#alg-iv-s5-n11-rem-2 .statement}
+#### Nhận xét {#alg-iv-s5-n11-rem-2 .statement tag=06DX}
 
 — 2) Đồng cấu hợp thành $A, = u \circ 0 : S(M^*) \to \mathrm{Pol}_A(M, A)$ là đồng cấu có đơn vị duy nhất của các đại số cảm sinh phép nhúng của
 

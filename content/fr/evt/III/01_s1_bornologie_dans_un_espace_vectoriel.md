@@ -40,14 +40,14 @@ subsections:
       pdf_page: 144
 statements: 33
 exercises: 18
-content_sha256: a21b445b25b79a48aeafd4902b99f412e44b9401eb20b6bc4d0b4e3938d145b4
+content_sha256: b5a5d12b5638e8f0362efe4049b54f3358d61b01f31b0794118d1d285eee9b6d
 ---
 
 ## § 1. BORNOLOGIE DANS UN ESPACE VECTORIEL TOPOLOGIQUE
 
 ### 1. Bornologies
 
-#### Définition 1 {#evt-iii-s1-def-1 .statement}
+#### Définition 1 {#evt-iii-s1-def-1 .statement tag=07KW}
 
 On appelle bornologie sur un ensemble E une partie $\mathscr{B}$ de l’ensemble des parties de E satisfaisant aux conditions suivantes (cf. TG, X, p. 3, Remarque 2) :
 (B1) Toute partie d’un ensemble de $\mathscr{B}$ appartient à $\mathscr{B}$.
@@ -55,7 +55,7 @@ On appelle bornologie sur un ensemble E une partie $\mathscr{B}$ de l’ensemble
 
 On dit que $\mathscr{B}$ est couvrante si toute partie à un élément de E appartient à $\mathscr{B}$, ou, ce qui revient au même, si $\mathscr{B}$ est un recouvrement de E.
 
-#### Exemple {#evt-iii-s1-n1-exa-1 .statement}
+#### Exemple {#evt-iii-s1-n1-exa-1 .statement tag=07KX}
 
 Soit E un espace métrique ; l’ensemble des parties bornées de E (TG, IX, p. 14) est une bornologie couvrante sur E. Soit G le groupe des isométries de E ; l’ensemble des parties M de G telles que, quel que soit $x \in E$, l’ensemble $M.x$ est une partie bornée de E, est une bornologie couvrante sur G.
 
@@ -63,7 +63,7 @@ Si $\mathscr{B}$ est une bornologie sur un ensemble E, on appelle base de $\math
 
 L’intersection d’une famille de bornologies sur E est une bornologie ; par suite pour toute partie $\mathscr{S}$ de $\mathfrak{P}(E)$, il existe une plus petite bornologie contenant $\mathscr{S}$ ; on dit qu’elle est engendrée par $\mathscr{S}$ ; elle admet pour base l’ensemble des réunions finies d’ensembles de $\mathscr{S}$. Si E et E’ sont deux ensembles, et $\mathscr{B}$ (resp. $\mathscr{B}'$) une bornologie sur E (resp. E’), on appelle bornologie produit la bornologie sur $E \times E'$ qui admet pour base l’ensemble des $M \times M'$ pour $M \in \mathscr{B}$ et $M' \in \mathscr{B}'$.
 
-#### Définition 2 {#evt-iii-s1-def-2 .statement}
+#### Définition 2 {#evt-iii-s1-def-2 .statement tag=07KY}
 
 Soit E un espace vectoriel. On dit qu’une bornologie $\mathscr{B}$ sur E est convexe si, quels que soient $X \in \mathscr{B}$ et $t \in \mathbf{K}$, l’homothétique $tX$ et l’enveloppe convexe équilibrée $\Gamma(X)$ (II, p. 10) de X appartiennent à $\mathscr{B}$.
 
@@ -80,7 +80,7 @@ Par suite, si $\mathscr{B}$ est une bornologie convexe sur E, si A est une parti
 
 ### 2. Parties bornées d’un espace vectoriel topologique
 
-#### Définition 3 {#evt-iii-s1-def-3 .statement}
+#### Définition 3 {#evt-iii-s1-def-3 .statement tag=07KZ}
 
 Soit E un espace vectoriel topologique. On dit qu’une partie A de E est bornée si elle est absorbée par tout voisinage de 0 dans E (I, p. 7, déf. 4).
 
@@ -90,29 +90,29 @@ Supposons que la topologie de E soit définie par un système fondamental $\Gamm
 
 En particulier si E est un espace semi-normé, pour qu’une partie A de E soit bornée, il faut et il suffit qu’elle soit contenue dans une boule. En d’autres termes, si E est normé, cela signifie que A est bornée pour la structure d’espace métrique de E (TG, IX, p. 14).
 
-#### Remarque 1 {#evt-iii-s1-n2-rem-1 .statement}
+#### Remarque 1 {#evt-iii-s1-n2-rem-1 .statement tag=07L0}
 
 Si E est un espace semi-normé, les boules forment un système fondamental de voisinages bornés de 0 dans E. Inversement, si E est un espace vectoriel topologique localement convexe et s’il existe un voisinage borné de 0 dans E, celui-ci contient un voisinage convexe équilibré W, et la jauge de W est alors une semi-norme qui définit la topologie de E.
 
 Ainsi, si E est localement convexe et métrisable et si sa topologie ne peut pas être définie par une seule norme, il n’existe pas de distance sur E définissant sa topologie et pour laquelle les parties bornées (TG, IX, p. 14) soient les parties bornées de E. Plus précisément, pour toute distance d sur E, invariante par translation et définissant la topologie de E, les parties bornées de E sont bornées pour d (III, p. 39, exerc. 3) mais la réciproque est inexacte.
 
-#### Remarque 2 {#evt-iii-s1-n2-rem-2 .statement}
+#### Remarque 2 {#evt-iii-s1-n2-rem-2 .statement tag=0E4W}
 
 Soit M un sous-espace vectoriel de E, muni de la topologie induite. Pour qu’une partie de M soit bornée dans M, il faut et il suffit qu’elle soit bornée dans E.
 
-#### Remarque 3 {#evt-iii-s1-n2-rem-3 .statement}
+#### Remarque 3 {#evt-iii-s1-n2-rem-3 .statement tag=0E4X}
 
 Soit N l’intersection des voisinages de 0 dans E, de sorte que $\tilde{E} = E/N$ est l’espace vectoriel séparé associé à E. Alors N est bornée; si $\pi : E \to \tilde{E}$ est l’homomorphisme canonique, pour qu’une partie B de E soit bornée, il faut et il suffit que $\pi(B)$ le soit.
 
-#### Remarque 4 {#evt-iii-s1-n2-rem-4 .statement}
+#### Remarque 4 {#evt-iii-s1-n2-rem-4 .statement tag=0E4Y}
 
 Si E est un espace localement convexe séparé, pour tout $x \neq 0$ dans E, il existe une semi-norme continue $p$ telle que $p(x) \neq 0$; cette semi-norme n’est pas bornée sur la demi-droite réelle $\mathbf{R}_+ . x$ engendrée par x. Donc aucun sous-espace non nul de E n’est borné. En particulier, un sous-ensemble borné ne contient aucune droite.
 
-#### Définition 4 {#evt-iii-s1-def-4 .statement}
+#### Définition 4 {#evt-iii-s1-def-4 .statement tag=07L1}
 
 Soit E un espace localement convexe. On dit qu’une bornologie $\mathscr{B}$ sur E est adaptée à E si elle est convexe, composée de parties bornées de E, et si l’adhérence de tout ensemble de $\mathscr{B}$ appartient à $\mathscr{B}$.
 
-#### Proposition 1 {#evt-iii-s1-prop-1 .statement}
+#### Proposition 1 {#evt-iii-s1-prop-1 .statement tag=07L2}
 
 Soit E un espace localement convexe. L’ensemble des parties bornées de E est une bornologie adaptée.
 
@@ -124,7 +124,7 @@ d) L’enveloppe fermée convexe équilibrée (II, p. 14) d’une partie bornée
 
 Si $p$ est une semi-norme continue sur E, les boules de $p$ sont convexes équilibrées fermées, et l’homothétique d’une boule est une boule. Donc, si $p$ est bornée sur deux parties X et Y de E, elle l’est aussi sur l’enveloppe fermée convexe équilibrée de $X \cup Y$, et sur les homothétiques de celle-ci. Ceci établit les propriétés b), c) et d), et a) est évidente.
 
-#### Définition 5 {#evt-iii-s1-def-5 .statement}
+#### Définition 5 {#evt-iii-s1-def-5 .statement tag=07L3}
 
 Soit E un espace localement convexe. On appelle bornologie canonique de E l’ensemble des parties bornées de E.
 
@@ -132,7 +132,7 @@ Si $\mathscr{B}$ est un ensemble de parties bornées de E, il existe une plus pe
 
 Toute bornologie adaptée est contenue dans la bornologie canonique.
 
-#### Proposition 2 {#evt-iii-s1-prop-2 .statement}
+#### Proposition 2 {#evt-iii-s1-prop-2 .statement tag=07L4}
 
 Dans un espace localement convexe E, tout ensemble précompact est borné.
 
@@ -144,18 +144,18 @@ $$
 
 Comme $B = \{a_1, ..., a_n\}$ est borné, il existe un scalaire $\lambda$ tel que $0 < \lambda < 1$ et $\lambda B \subset V$; on a $\lambda A \subset \lambda B + \lambda V \subset V + V$, d’où la proposition.
 
-#### Corollaire {#evt-iii-s1-n2-cor-1 .statement}
+#### Corollaire {#evt-iii-s1-n2-cor-1 .statement tag=07L5}
 
 Dans un espace localement convexe, l’ensemble des points d’une suite de Cauchy est borné.
 
 En effet cet ensemble est précompact (TG, II, p. 29).
 
-#### Remarque 5 {#evt-iii-s1-n2-rem-5 .statement}
+#### Remarque 5 {#evt-iii-s1-n2-rem-5 .statement tag=07L6}
 
 En général, les parties bornées d’un espace localement convexe E ne sont pas toutes précompactes (par exemple, si E est un espace normé de dimension infinie, sa boule unité n’est pas précompacte (I, p. 15, th. 3)). Toutefois, il en est ainsi si E est un espace faible (II, p. 45) : en effet, l’espace vectoriel topologique séparé associé à E est alors isomorphe à un sous-espace d’un produit $K^l$ dont les parties bornées sont précompactes (cf. III, p. 4, cor. 2).
 Pour d’autres exemples, voir IV, p. 18.
 
-#### Proposition 3 {#evt-iii-s1-prop-3 .statement}
+#### Proposition 3 {#evt-iii-s1-prop-3 .statement tag=07L7}
 
 Soit A une partie d’un espace localement convexe E. Si A est bornée, pour toute suite $(x_n)$ de points de A et toute suite $(\lambda_n)$ de scalaires tendant vers 0, la suite $(\lambda_n x_n)$ tend vers 0. Inversement, s’il existe une suite $(\lambda_n)$ de scalaires non nuls telle que pour toute suite $(x_n)$ de points de A la suite $(\lambda_n x_n)$ soit bornée, alors A est bornée.
 
@@ -163,45 +163,45 @@ Supposons A bornée. Si $(\lambda_n)$ est une suite de scalaires qui tend vers 0
 
 Inversement si A n’est pas bornée et si $(\lambda_n)$ est une suite de scalaires $\neq 0$, il existe une semi-norme continue $p$ et une suite $(x_n)$ de points de A tels que $p(x_n) \geq \frac{n}{|\lambda_n|}$. On a alors $p(\lambda_n x_n) \geq n$, et la suite $(\lambda_n x_n)$ n’est pas bornée.
 
-#### Corollaire {#evt-iii-s1-n2-cor-2 .statement}
+#### Corollaire {#evt-iii-s1-n2-cor-2 .statement tag=07L8}
 
 Pour qu’une partie A de E soit bornée, il faut et il suffit que toute partie dénombrable de A le soit.
 
 ### 3. Image par une application continue
 
-#### Proposition 4 {#evt-iii-s1-prop-4 .statement}
+#### Proposition 4 {#evt-iii-s1-prop-4 .statement tag=07L9}
 
 Soient E et F deux espaces localement convexes, et $f : E \to F$ une application continue. On suppose que $f(0) = 0$ et qu’il existe un nombre réel $m \geq 0$ tel que $f(\lambda x) = \lambda^m f(x)$ pour tout $\lambda > 0$. Alors si A est une partie bornée de E, $f(A)$ est bornée dans F.
 
 En effet, si V est un voisinage de 0 dans F, $f^{-1}(V)$ est un voisinage de 0 dans E. Si A est bornée dans E, il existe $\lambda > 0$ tel que $A \subset \lambda f^{-1}(V)$ et ceci implique $f(A) \subset \lambda^m V$.
 
-#### Corollaire 1 {#evt-iii-s1-prop-4-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s1-prop-4-cor-1 .statement tag=07LA}
 
 Soient E et F deux espaces localement convexes, et $u : E \to F$ une application linéaire continue. Si A est une partie bornée de E, $u(A)$ est bornée dans F.
 
-#### Corollaire 2 {#evt-iii-s1-prop-4-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s1-prop-4-cor-2 .statement tag=07LB}
 
 Soit $E = \prod_{i \in I} E_i$ le produit d’une famille d’espaces localement convexes. Pour qu’une partie de E soit bornée, il faut et il suffit que toutes ses projections le soient.
 
 Plus généralement :
 
-#### Corollaire 3 {#evt-iii-s1-prop-4-cor-3 .statement}
+#### Corollaire 3 {#evt-iii-s1-prop-4-cor-3 .statement tag=07LC}
 
 Soient E un espace vectoriel, $(F_i)_{i \in I}$ une famille d’espaces localement convexes et $f_i$ une application linéaire de E dans $F_i$ (pour $i \in I$). Munissons E de la topologie (localement convexe) la moins fine qui rende continues les $f_i$ (II, p. 29). Pour qu’une partie A de E soit bornée, il faut et il suffit que $f_i(A)$ soit bornée dans $F_i$ pour tout $i \in I$.
 
 En effet, si A est bornée, les $f_i(A)$ le sont (cor. 1). Inversement, si les $f_i(A)$ sont bornées et si $p$ est une semi-norme continue sur E, il existe une partie finie J de I et une famille $(q_j)_{j \in J}$, où $q_j$ est une semi-norme continue sur $F_j$, telles que l’on ait $p \leq \sup_{j \in J} (q_j \circ f_j)$. Par suite, $p$ est bornée sur A.
 
-#### Corollaire 4 {#evt-iii-s1-prop-4-cor-4 .statement}
+#### Corollaire 4 {#evt-iii-s1-prop-4-cor-4 .statement tag=07LD}
 
 Soient $E_i$ ($1 \leq i \leq n$) et $F$ des espaces localement convexes, et $f$ une application multilinéaire continue de $\prod_{i=1}^n E_i$ dans $F$. Si $B_i$ est une partie bornée de $E_i$ pour $1 \leq i \leq n$, alors $f(\prod_{i=1}^n B_i)$ est bornée dans $F$.
 
-#### Corollaire 5 {#evt-iii-s1-prop-4-cor-5 .statement}
+#### Corollaire 5 {#evt-iii-s1-prop-4-cor-5 .statement tag=07LE}
 
 Soient $E$ et $F$ deux espaces localement convexes, et $u : E \to F$ une application polynomiale continue. Si $A$ est une partie bornée de $E$, $u(A)$ est bornée.
 
 ### 4. Parties bornées dans certaines limites inductives
 
-#### Proposition 5 {#evt-iii-s1-prop-5 .statement}
+#### Proposition 5 {#evt-iii-s1-prop-5 .statement tag=07LF}
 
 Soit $(E_i)_{i \in I}$ une famille d’espaces localement convexes séparés, et soit $E$ la somme directe topologique de cette famille (II, p. 32). Pour qu’une partie $B$ de $E$ soit bornée, il faut et il suffit qu’il existe une partie finie $J$ de $I$ telle que $\mathrm{pr}_i(B)$ soit bornée dans $E_i$ pour $i \in J$ et $\mathrm{pr}_i(B) \subset \{0\}$ pour $i \notin J$.
 
@@ -209,7 +209,7 @@ Soit $J$ une partie finie de $I$. Comme la topologie de $E$ induit sur $\prod_{j
 
 Inversement, soit $B$ une partie bornée de $E$. Alors $\mathrm{pr}_i(B)$ est bornée pour tout $i$ (III, p. 4, cor. 1). Il suffit donc de prouver qu’il existe une partie finie $J$ de $I$ telle que $\mathrm{pr}_i(B) \subset \{0\}$ pour $i \notin J$. Supposons le contraire : il existe alors une suite infinie $(i_n)$ d’éléments distincts de $I$ et une suite infinie $(x_n)$ d’éléments de $B$ telles que $\mathrm{pr}_{i_n}(x_n) \neq 0$. Comme $E_{i_n}$ est séparé, il existe une semi-norme continue $p_n$ sur $E_{i_n}$ telle que $p_n(\mathrm{pr}_{i_n}(x_n)) \geq n$. Alors $p = \sum_{n \geq 1} p_n \circ \mathrm{pr}_{i_n}$ est une semi-norme continue sur $E$ et $p$ n’est pas bornée sur $B$, ce qui est absurde.
 
-#### Proposition 6 {#evt-iii-s1-prop-6 .statement}
+#### Proposition 6 {#evt-iii-s1-prop-6 .statement tag=07LG}
 
 Soit $E$ un espace localement convexe limite inductive stricte d’une suite croissante $(E_n)$ de sous-espaces vectoriels fermés de $E$ (II, p. 36). Pour qu’une partie $B$ de $E$ soit bornée, il faut et il suffit qu’elle soit contenue dans un des sous-espaces $E_n$, et bornée dans ce sous-espace.
 
@@ -217,7 +217,7 @@ La condition est suffisante, puisque la topologie induite sur $E_n$ par celle de
 
 La conclusion de la prop. 6 n’est plus nécessairement vraie pour un espace E limite inductive d’un ensemble filtrant non dénombrable de sous-espaces fermés de E (cf. III, p. 39, exerc. 7).
 
-#### Proposition 7 {#evt-iii-s1-prop-7 .statement}
+#### Proposition 7 {#evt-iii-s1-prop-7 .statement tag=07LH}
 
 Soit $(E_n)_{n \geq 0}$ une suite d’espaces localement convexes séparés, et pour chaque $n$, soit $u_n : E_n \to E_{n+1}$ une application linéaire injective compacte (i.e. telle qu’il existe un voisinage de 0 dans $E_n$ dont l’image par $u_n$ soit relativement compacte, ce qui entraîne que $u_n$ est continue). Soit E l’espace limite inductive du système $(E_n, u_n)$ (II, p. 31), et soit $v_n$ l’application canonique de $E_n$ dans E. L’espace localement convexe E est séparé. En outre, pour toute partie A de E, les conditions suivantes sont équivalentes :
 
@@ -227,7 +227,7 @@ Soit $(E_n)_{n \geq 0}$ une suite d’espaces localement convexes séparés, et 
 
 Identifions $E_n$ à un sous-espace vectoriel de E (muni d’une topologie plus fine que la topologie induite).
 
-#### Lemme 1 {#evt-iii-s1-lem-1 .statement}
+#### Lemme 1 {#evt-iii-s1-lem-1 .statement tag=07LI}
 
 Sous les hypothèses de la prop. 7, la topologie de E est la plus fine rendant continues les applications $v_n : E_n \to E$.
 
@@ -241,11 +241,11 @@ Alors $V_{n-1}$ est compact dans $E_n$ et à plus forte raison dans $E_{n+1}$. C
 
 L’ensemble $U = E - \{0\}$ est tel que l’ensemble $U \cap E_n = E_n - \{0\}$ soit ouvert dans $E_n$ pour tout $n$, donc U est ouvert dans E, ce qui prouve que E est séparé (TG, III, p. 5, prop. 2). Il est clair alors que la propriété (ii) de l’énoncé entraîne (iii) et que (iii) entraîne (i). Montrons enfin que (i) entraîne (ii). Il suffit de montrer que si une partie A de E n’est absorbée par aucun des ensembles $\sum_{0 \leq i \leq n} H_i$, alors A n’est pas bornée. Or, il existe alors une suite $(x_n)_{n \geq 1}$ de points de A telle que, pour tout $n$, on ait $x_n \notin n^2 \sum_{0 \leq i \leq n} H_i$. L’ensemble des $x_n / n$ est alors fermé en vertu du lemme 1, car son intersection avec $E_m$ est discrète pour tout entier $m$. Le complémentaire de l’ensemble des $x_n/n$ est donc un voisinage ouvert de 0 qui n’absorbe pas la suite $(x_n)$, et A n’est pas bornée.
 
-#### Remarque 1 {#evt-iii-s1-n4-rem-1 .statement}
+#### Remarque 1 {#evt-iii-s1-n4-rem-1 .statement tag=07LJ}
 
 Avec les notations ci-dessus, soit $F_n$ l’espace vectoriel engendré par $H_n$, muni de la norme égale à la jauge de $H_n$. Nous verrons (III, p. 8, cor.) que $F_n$ est un espace de Banach ; l’injection de $F_n$ dans $E_{n+1}$ est compacte, donc aussi *a fortiori* l’injection $w_n$ de $F_n$ dans $F_{n+1}$. En outre, E est encore *limite inductive du système inductif* ($F_n, w_n$) *d’espaces de Banach*. En effet, un voisinage convexe équilibré V de 0 dans E est tel que $V \cap E_n$ absorbe $H_{n-1}$ pour tout $n \geq 1$, et inversement, si un ensemble convexe équilibré W dans E est tel que $W \cap E_n$ absorbe $H_{n-1}$, $W \cap E_{n-1}$ contient un homothétique de $W_{n-1}$ pour tout $n \geq 1$, donc W est un voisinage de 0 dans E.
 
-#### Remarque 2 {#evt-iii-s1-n4-rem-2 .statement}
+#### Remarque 2 {#evt-iii-s1-n4-rem-2 .statement tag=07LK}
 
 Soient F un espace localement convexe, $k$ un entier $\geq 0$ et $f : E^k \to F$ une application multilinéaire. Pour que $f$ soit continue, il faut et il suffit que la restriction de $f$ à $E_n^k$ soit continue, pour tout $n$. En effet, on vérifie aussitôt que $E^k$ a la topologie localement convexe finale pour la famille d’applications linéaires $v_n \times \cdots \times v_n : E_n \times \cdots \times E_n \to E \times \cdots \times E$ (II, p. 30, cor. 2 et p. 33, prop. 7) et que $u_n \times \cdots \times u_n$ est une application linéaire injective compacte de $(E_n)^k$ dans $(E_{n+1})^k$. Il suffit alors d’appliquer le lemme 1.
 
@@ -255,20 +255,20 @@ Soit E un espace localement convexe et soit A une partie convexe équilibrée de
 
 Nous dirons qu’un espace uniforme X est *semi-complet* si toute suite de Cauchy de X est convergente. Un espace uniforme complet est semi-complet, mais la réciproque est inexacte (TG, II, p. 37, exerc. 4) ; toutefois un espace métrisable semi-complet est complet (TG, IX, p. 17, prop. 9).
 
-#### Proposition 8 {#evt-iii-s1-prop-8 .statement}
+#### Proposition 8 {#evt-iii-s1-prop-8 .statement tag=07LL}
 
 *Soit E un espace localement convexe séparé et soit A une partie convexe, équilibrée, bornée et fermée de E. Soit $(x_n)$ une suite de Cauchy de $E_A$. Pour qu’elle converge dans $E_A$, il faut et il suffit qu’elle converge dans E.*
 
 L’injection canonique de $E_A$ dans E est continue. Par suite, si $(x_n)$ converge dans $E_A$, elle converge dans E. Inversement, supposons que $(x_n)$ converge vers y dans E. Il existe une suite croissante d’entiers $(n_k)$ telle que $p_A(x_m - x_n) \leq 2^{-k-1}$ si $m \geq n_k$ et $n \geq n_k$. La suite $(x_{n_k} + 2^{-k}A)$ est alors décroissante. Comme A est fermée dans E, on a $y \in \bigcap_k (x_{n_k} + 2^{-k}A)$, ce qui montre que $(x_{n_k})$, donc $(x_n)$, converge vers y dans $E_A$.
 
-#### Corollaire {#evt-iii-s1-n5-cor-1 .statement}
+#### Corollaire {#evt-iii-s1-n5-cor-1 .statement tag=07LM}
 
 Si $A$ est semi-complète (en particulier, complète), alors $E_A$ est un espace de Banach.
 En effet, une suite de Cauchy de $E_A$ est aussi une suite de Cauchy pour la topologie de $E$ et est contenue dans un homothétique de $A$, donc converge dans $E$.
 
 ### 6. Ensembles bornés complets et espaces quasi-complets
 
-#### Définition 6 {#evt-iii-s1-def-6 .statement}
+#### Définition 6 {#evt-iii-s1-def-6 .statement tag=07LN}
 
 On dit qu’un espace localement convexe $E$ est quasi-complet si toute partie bornée et fermée de $E$ est complète (pour la structure uniforme induite par celle de $E$).
 
@@ -276,7 +276,7 @@ Un espace localement convexe complet est quasi-complet, mais la réciproque est 
 Un espace quasi-complet est semi-complet puisque toute suite de Cauchy est contenue dans une partie bornée et fermée (III, p. 3, corollaire et prop. 1). En particulier, un espace localement convexe métrisable et quasi-complet est complet.
 Dans un espace quasi-complet séparé, l’adhérence et l’enveloppe fermée convexe équilibrée d’une partie précompacte sont compactes ; en effet, elles sont précompacts (II, p. 27, prop. 3), et complètes car fermées et bornées (III, p. 3, prop. 2).
 
-#### Proposition 9 {#evt-iii-s1-prop-9 .statement}
+#### Proposition 9 {#evt-iii-s1-prop-9 .statement tag=07LO}
 
 (i) Un sous-espace vectoriel fermé d’un espace localement convexe quasi-complet est quasi-complet.
 (ii) Un produit d’espaces localement convexes quasi-complets est quasi-complet.
@@ -286,7 +286,7 @@ L’assertion (i) résulte de la Remarque 2 (III, p. 2), (ii) de III, p. 4, cor.
 
 On notera qu’un espace quotient d’un espace localement convexe quasi-complet par un sous-espace vectoriel fermé n’est pas nécessairement quasi-complet (IV, p. 64, exerc. 10).
 
-#### Proposition 10 {#evt-iii-s1-prop-10 .statement}
+#### Proposition 10 {#evt-iii-s1-prop-10 .statement tag=07LP}
 
 Soient $E$ un espace localement convexe, $M$ un sous-espace vectoriel de $E$ tel que tout point de $E$ soit adhérent à une partie bornée de $M$. Alors toute application linéaire continue $f$ de $M$ dans un espace localement convexe $F$, séparé et quasi-complet, se prolonge d’une seule manière en une application linéaire continue de $E$ dans $F$.
 En effet, l’hypothèse entraîne que $M$ est dense dans $E$, donc $f$ se prolonge, d’une seule manière, en une application linéaire continue $\hat{f}$ de $E$ dans le complété $\hat{F}$ de $F$ (TG, III, p. 25, corollaire). Mais tout $x \in E$ est adhérent à une partie bornée $B$ de $M$; alors $\hat{f}(x)$ est adhérent à $f(B)$ dans $\hat{F}$. Or $f(B)$ est borné dans $F$, donc son adhérence dans $F$ est complète, et coïncide avec son adhérence dans $\hat{F}$, ce qui prouve qu’on a $f(x) \in F$.

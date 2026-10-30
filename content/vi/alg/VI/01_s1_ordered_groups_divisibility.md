@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 53
 exercises: 34
-content_sha256: 4de21711744a3bb878c2a27d25819d847677a2fd6c051474f5f29d82f2d3767c
+content_sha256: 4abf1312133e16fd90079e5f915ac802f2a40d96cb3ea5760b97bba254c84b36
 translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
 source_content_sha256: 5dfbd1ec95d8ba9a7a5492cea424d8856e8b03e0d486d93477fdfa800389bdd9
 translation_model: gpt-5.4
@@ -81,7 +81,7 @@ Các khái niệm và kết quả được trình bày trong tiết diện này 
 
 ### 1. Định nghĩa các monoid và nhóm có thứ tự
 
-#### Định nghĩa 1 {#alg-vi-s1-def-1 .statement}
+#### Định nghĩa 1 {#alg-vi-s1-def-1 .statement tag=06WE}
 
 — Một cấu trúc monoid giao hoán (viết theo lối cộng) và một thứ tự (viết $\leq$) trên một tập hợp $M$ được gọi là tương thích nếu chúng thỏa mãn tiên đề sau:
 
@@ -93,11 +93,11 @@ Theo một cách tương tự, ta có thể định nghĩa khái niệm monoid c
 
 Nếu một thứ tự tương thích với một cấu trúc monoid đã cho, thì thứ tự đối cũng vậy.
 
-#### Ví dụ 1 {#alg-vi-s1-n1-exa-1 .statement}
+#### Ví dụ 1 {#alg-vi-s1-n1-exa-1 .statement tag=06WF}
 
 Nhóm cộng của các số nguyên, và nhóm cộng của các số hữu tỉ, là những nhóm có thứ tự đối với thứ tự được định nghĩa trong I, pp. 21 và 117. *Điều tương tự cũng đúng đối với nhóm cộng của các số thực (Gen. Top., IV, p 3). \*
 
-#### Ví dụ 2 {#alg-vi-s1-n1-exa-2 .statement}
+#### Ví dụ 2 {#alg-vi-s1-n1-exa-2 .statement tag=06WG}
 
 *Nhóm cộng của các hàm số số trị hữu hạn xác định trên một tập hợp $E$ là một nhóm có thứ tự đối với thứ tự « $f(x) \leq g(x)$ với mọi $x \in E$ », viết là $f \leq g$. Quan hệ này nói rằng đồ thị của hàm $f$ nằm bên dưới đồ thị của hàm $g$. Thỉnh thoảng bạn đọc có thể thấy thuận tiện khi nghĩ theo cách giải thích hình học này. \*
 
@@ -109,7 +109,7 @@ $$
 
 (tức là một đồng cấu của monoid M lên monoid M'), và các quan hệ $x \leq y$ và $f(x) \leq f(y)$ là tương đương (do đó đặc biệt $f(x) = f(y)$ kéo theo $x = y$, nghĩa là $f$ là đơn ánh).
 
-#### Mệnh đề 1 (« cộng các bất đẳng thức ») {#alg-vi-s1-prop-1 .statement}
+#### Mệnh đề 1 (« cộng các bất đẳng thức ») {#alg-vi-s1-prop-1 .statement tag=06WH}
 
 — *Trong một monoid có thứ tự M*, cho $(x_i)$ và $(y_i)$ ($1 \leq i \leq n$) là hai dãy gồm n phần tử sao cho $x_i \leq y_i$ với mọi $i$; khi đó ta có
 
@@ -143,7 +143,7 @@ $$
 
 do đó $x_2 = y_2$ và $x_1 = y_1$ nếu $x$, và $y_2$ giản ước được, điều này chứng minh mệnh đề thứ hai.
 
-#### Mệnh đề 2 {#alg-vi-s1-prop-2 .statement}
+#### Mệnh đề 2 {#alg-vi-s1-prop-2 .statement tag=06WI}
 
 *Trong một nhóm có thứ tự G* các quan hệ $x \leq y$ *và* $x + z \leq y + z$ *là tương đương*.
 
@@ -151,7 +151,7 @@ Thật vậy, ta có thể suy ra mỗi quan hệ từ quan hệ kia bằng các
 
 Sự kiện này có thể được phát biểu bằng cách nói rằng, trong một nhóm có thứ tự G, thứ tự là *bất biến qua phép tịnh tiến*. Nói cách khác, một phép tịnh tiến là một *tự đẳng cấu* của *thứ tự* của một nhóm có thứ tự.
 
-#### Hệ quả {#alg-vi-s1-n1-cor-1 .statement}
+#### Hệ quả {#alg-vi-s1-n1-cor-1 .statement tag=06WJ}
 
 — Trong một nhóm có thứ tự $G$, các quan hệ $x \leq y$, $0 \leq y - x$, $x - y \leq 0$ và $-y \leq -x$ là tương đương.
 
@@ -163,7 +163,7 @@ Thật vậy, ta áp dụng Mệnh đề 2, lần lượt lấy $z = -x$, $z = -
 
 Nhớ rằng nếu một quan hệ $x \leq y$ giữa các phần tử của một tập hợp $E$ là phản xạ và bắc cầu, thì nó được gọi là một quan hệ tiền thứ tự (Lý thuyết tập hợp, III, p. 133). Quan hệ « $x \leq y$ và $y \leq x$ » là một quan hệ tương đương $S$ trên $E$, tương thích với quan hệ $x \leq y$; khi chuyển qua thương, quan hệ $\leq$ cảm sinh một quan hệ thứ tự trên $E/S$, gọi là quan hệ thứ tự liên kết với $\leq$.
 
-#### Định nghĩa 2 {#alg-vi-s1-def-2 .statement}
+#### Định nghĩa 2 {#alg-vi-s1-def-2 .statement tag=06WK}
 
 — Một quan hệ tiền thứ tự (ký hiệu $\leq$) và một cấu trúc monoit giao hoán (viết theo lối cộng) trên một tập hợp $M$ được gọi là tương thích nếu chúng thỏa mãn tiên đề sau:
 
@@ -177,23 +177,23 @@ Cho $M$ là một monoit tiền thứ tự, và $S$ là quan hệ tương đươ
 
 Cho $G$ là một nhóm tiền thứ tự với quan hệ tiền thứ tự $\leq$; nếu $0 \leq x$ và $0 \leq y$ thì suy ra $y \leq x + y$ theo (POM), và do đó $0 \leq x + y$ theo tính bắc cầu; điều này nói rằng tập hợp $G_+$ các phần tử $x \in G$ sao cho $0 \leq x$ là đóng đối với phép cộng; hơn nữa, quan hệ $x \leq y$ tương đương với $0 \leq y - x$, nghĩa là với $y - x \in G_+$. Ngược lại:
 
-#### Mệnh đề 3 {#alg-vi-s1-prop-3 .statement}
+#### Mệnh đề 3 {#alg-vi-s1-prop-3 .statement tag=06WL}
 
 — Nếu $P$ là một tập con của một nhóm Abel $G$, chứa $0$ và sao cho $P + P \subset P$, thì quan hệ $y - x \in P$ là một quan hệ tiền thứ tự tương thích với cấu trúc nhóm của $G$. Để quan hệ này làm cho $G$ thành một nhóm có thứ tự, điều kiện cần và đủ là $P \cap (-P) = \{0\}$; để $G$ thành một nhóm được sắp thứ tự toàn phần theo thứ tự này, điều kiện cần và đủ là thêm nữa có $P \cup (-P) = G$.
 
 Hiển nhiên quan hệ $y - x \in P$ là phản xạ và bắc cầu, và (nếu được viết là $x \leq y$) thỏa mãn tiên đề *POM*. Để chứng minh mệnh đề thứ hai, chỉ cần nhận xét rằng $P \cap (-P)$ là nhóm con $G'$ gồm các phần tử $x$ sao cho $0 \leq x$ và $x \leq 0$. Sau cùng, nói rằng $G$ được sắp thứ tự toàn phần có nghĩa là, với mỗi cặp phần tử $x, y$ của $G$, ít nhất một trong hai phần tử $x - y, y - x$ thuộc $P$, điều này hoàn tất chứng minh.
 
-#### Định nghĩa 3 {#alg-vi-s1-def-3 .statement}
+#### Định nghĩa 3 {#alg-vi-s1-def-3 .statement tag=06WM}
 
 *Trong một nhóm có thứ tự $G$, mọi phần tử $x$ sao cho $0 \leq x$ (tương ứng $x \leq 0$) được gọi là một phần tử dương (tương ứng âm).*
 
 Chú ý rằng $0$ là phần tử duy nhất *vừa dương vừa âm* ; mọi phần tử $x$ sao cho $0 < x$ (tương ứng $x < 0$) được gọi là *dương ngặt* (tương ứng *âm ngặt*).
 
-#### Ví dụ {#alg-vi-s1-n3-exa-1 .statement}
+#### Ví dụ {#alg-vi-s1-n3-exa-1 .statement tag=06WN}
 
 — Trong nhóm cộng $\mathbf{Z} \times \mathbf{Z}$, lấy $P$ là tập hợp các phần tử $(x, y)$ thỏa mãn hai bất đẳng thức $ax + by \geq 0$ và $cx + dy \geq 0$, trong đó $a, b, c, d$ là các số nguyên (* hoặc số thực *) sao cho $ad - bc \neq 0$; « nón » $P$ thỏa mãn hai điều kiện đầu của Mệnh đề 3. Theo cách này có thể xác định nhiều thứ tự khác nhau tương thích với cấu trúc nhóm của $\mathbf{Z} \times \mathbf{Z}$ ; nhóm không được sắp thứ tự toàn phần đối với bất kỳ thứ tự nào trong các thứ tự ấy.
 
-#### Nhận xét {#alg-vi-s1-n3-rem-1 .statement}
+#### Nhận xét {#alg-vi-s1-n3-rem-1 .statement tag=06WO}
 
 — Do điều kiện $P + P \subset P$, quan hệ $x \geq 0$ trong một nhóm có thứ tự suy ra rằng $nx \geq 0$ với mọi số tự nhiên $n$. Nếu thêm nữa phần tử dương $x$ của $G$ có cấp hữu hạn $n$, thì $-x = (n-1)x$ là dương ; do
 
@@ -207,7 +207,7 @@ $$
 
 Nhắc lại (*Lý thuyết tập hợp*, III, p. 145) rằng một tập hợp có thứ tự $G$ được gọi là *lọc phải* (tương ứng *lọc trái*)\footnote{1} nếu với mỗi cặp $(x, y)$ phần tử của $G$ tồn tại $z \in G$ sao cho $x \leq z$ và $y \leq z$ (tương ứng $z \leq x$ và $z \leq y$). Mọi nhóm có thứ tự lọc phải $G$ cũng là lọc trái và ngược lại : thật vậy, vì tồn tại $z \in G$ sao cho $-x \leq z$ và $-y \leq z$, ta có $-z \leq x$ và $-z \leq y$ (VI, p. 3, Hệ quả). Vì thế ta sẽ chỉ nói đơn giản về các nhóm lọc.
 
-#### Mệnh đề 4 {#alg-vi-s1-prop-4 .statement}
+#### Mệnh đề 4 {#alg-vi-s1-prop-4 .statement tag=06WP}
 
 *Điều kiện cần và đủ để một nhóm có thứ tự $G$ là lọc là nó được sinh bởi các phần tử dương của nó, nghĩa là mọi phần tử đều là hiệu của hai phần tử dương.*
 
@@ -215,7 +215,7 @@ Thật vậy, nếu $G$ là lọc, thì với mỗi $x \in G$ tồn tại một 
 
 1 Thuật ngữ được dùng trong *loc. cit.* là *có hướng*.
 
-#### Mệnh đề 5 {#alg-vi-s1-prop-5 .statement}
+#### Mệnh đề 5 {#alg-vi-s1-prop-5 .statement tag=06WQ}
 
 — *Nếu* $(x_i)$ *là một họ hữu hạn các phần tử của một nhóm lọc G, thì tồn tại* $z \in G$ *sao cho* $x_i + z$ *là dương với mọi i.*
 
@@ -227,11 +227,11 @@ Thật vậy, nếu $G$ là lọc, thì với mỗi $x \in G$ tồn tại một 
 
 Trong nhóm nhân $\mathbf{K}^*$ của các phần tử khác không của $\mathbf{K}$, tập hợp P các phần tử khác không của A đóng đối với phép nhân, vì A là một vành. Vậy nên nó định nghĩa một quan hệ tiền thứ tự trên $\mathbf{K}^*$ bởi $x^{-1}y \in P$, nghĩa là « tồn tại $z \in P$ sao cho $y = zx$ », khiến cho $\mathbf{K}^*$ là một *nhóm tiền thứ tự* (viết theo lối nhân) (*VI*, p. 3, Prop. 3). Mở rộng sang $\mathbf{K}^*$ thuật ngữ liên quan đến các phần tử của A (I, p. 97), quan hệ $x^{-1}y \in P$ cũng có thể được phát biểu như sau : *x chia y*, hoặc x là một *ước của y*, hoặc y là một *bội của x* (đối với vành A); và chúng ta sẽ gọi quan hệ $x^{-1}y \in P$ là *quan hệ chia hết* trong $\mathbf{K}^*$ đối với vành A. Quan hệ « x chia y » được ký hiệu là $x \mid y$, và phủ định của nó là $x \nmid y$. Các phần tử của P không là gì khác ngoài các *bội của 1*.
 
-#### Nhận xét 1 {#alg-vi-s1-n5-rem-1 .statement}
+#### Nhận xét 1 {#alg-vi-s1-n5-rem-1 .statement tag=06WR}
 
 Quan hệ chia hết trong $\mathbf{K}^*$ phụ thuộc một cách cốt yếu vào vành riêng biệt A. Nếu $A = K$ thì ta thu được quan hệ « tầm thường », theo đó $x \mid y$ với mọi cặp $(x, y)$ các phần tử của $\mathbf{K}^*$. Gọi p và q là các số nguyên tố; các số hữu tỉ r/s mà mẫu số của chúng không là bội của $p$ (resp. q) tạo thành một vành con $\mathbf{Z}_{(p)}$ (resp. $\mathbf{Z}_{(q)}$) của $\mathbf{Q}$; các quan hệ chia hết trong $\mathbf{Q}^*$ đối với hai vành này là phân biệt nếu $p \neq q$, vì số $p/q$ là một bội của 1 theo một quan hệ nhưng không theo quan hệ kia.
 
-#### Nhận xét 2 {#alg-vi-s1-n5-rem-2 .statement}
+#### Nhận xét 2 {#alg-vi-s1-n5-rem-2 .statement tag=06WS}
 
 Đôi khi chúng ta sẽ mở rộng định nghĩa của quan hệ $x \mid y$ cho các cặp phần tử của $\mathbf{K}$ (thay vì chỉ của $\mathbf{K}^*$), quan hệ này được hiểu là « tồn tại $z \in A$ sao cho $y = zx$ »; do đó ta sẽ có $x \mid 0$ với mọi $x \in K$. Điều này cho phép phát biểu các kết quả sau mà không cần hạn chế : nếu $x \mid y$ và $x \mid z$ thì $x \mid (y - z)$; nếu $x \mid y$ và $x \nmid z$ thì $x \nmid (y - z)$. Theo cùng cách ấy, ta có thể mở rộng mọi thuật ngữ tương ứng.
 
@@ -263,11 +263,11 @@ Cho (G,) là một họ các nhóm có thứ tự; theo định nghĩa của tí
 
 Cho (G_i)_i, là một họ các nhóm có thứ tự mà tập chỉ số I được sắp thứ tự tốt: nhắc lại (Lý thuyết tập hợp, III, p. 157) rằng một quan hệ thứ tự, gọi là thứ tự từ điển, được định nghĩa trên tập hợp tích G = $\prod G_i$, quan hệ « (x,) < (y,) » giữa hai phần tử của G theo định nghĩa là cùng một điều với « nếu β là chỉ số nhỏ nhất trong các chỉ số i sao cho x_i ≠ y_i, thì x_β < y_β ». Nhắc lại rằng tích của một họ được sắp thứ tự tốt các tập hợp được sắp thứ tự toàn phần là được sắp thứ tự toàn phần dưới thứ tự từ điển. Trong trường hợp tổng quát, thứ tự từ điển trên G là tương thích với cấu trúc nhóm của nó, như được kiểm tra ngay lập tức; được trang bị thứ tự này, nhóm G do đó là một nhóm có thứ tự, gọi là tích từ điển của họ được sắp thứ tự tốt các nhóm có thứ tự (G,).
 
-#### Nhận xét 1 {#alg-vi-s1-n6-rem-1 .statement}
+#### Nhận xét 1 {#alg-vi-s1-n6-rem-1 .statement tag=06WT}
 
 Trong những trường hợp thông dụng nhất, tập chỉ số được sắp tốt I sẽ là một khoảng hữu hạn (1, n) trong N.
 
-#### Nhận xét 2 {#alg-vi-s1-n6-rem-2 .statement}
+#### Nhận xét 2 {#alg-vi-s1-n6-rem-2 .statement tag=06WU}
 
 Tập hợp các phần tử dương của tích từ điển G gồm 0 và những phần tử khác không mà thành phần khác không có chỉ số nhỏ nhất là dương.
 
@@ -309,7 +309,7 @@ $$
 $$
 quan hệ này được hiểu theo cùng nghĩa như quan hệ trước.
 
-#### Mệnh đề 6 {#alg-vi-s1-prop-6 .statement}
+#### Mệnh đề 6 {#alg-vi-s1-prop-6 .statement tag=06WV}
 
 — Cho $(x_i)_{i \in A}, (y_\beta)_{\beta \in B}$ là hai họ các phần tử của một nhóm có thứ tự G, mỗi họ đều có một cận trên đúng. Khi đó họ $(x_\alpha + y_\beta)_{(\alpha, \beta) \in A \times B}$ có một cận trên đúng, và
 $$
@@ -325,7 +325,7 @@ Nhắc lại rằng một tập hợp có thứ tự, trong đó mọi tập con
 
 Như vậy, trong nhóm có thứ tự tích $Z \times Z$, « phản đường chéo » (tập hợp các cặp $(n, n')$ sao cho $n + n' = 0$) được sắp thứ tự bởi thứ tự rời rạc, và do đó không phải là một nhóm có thứ tự kiểu dàn. *Nhóm cộng của các đa thức theo một biến thực (VI, p. 1, ví dụ 2) là một nhóm lọc được (vì cả $p(x)$ lẫn $q(x)$ đều nhỏ hơn $(p(x))^2 + (q(x))^2 + 1$) mà người ta có thể chỉ ra là không có thứ tự kiểu dàn. \*
 
-#### Mệnh đề 7 {#alg-vi-s1-prop-7 .statement}
+#### Mệnh đề 7 {#alg-vi-s1-prop-7 .statement tag=06WW}
 
 — *Nếu x và y là hai phần tử của một nhóm có thứ tự G, và nếu một trong hai phần tử $\inf(x, y)$, $\sup(x, y)$ tồn tại, thì phần tử kia cũng tồn tại, và $x + y = \inf(x, y) - \sup(x, y)$.
 
@@ -337,11 +337,11 @@ $$
 
 và chỉ cần lấy $a = x + y$.
 
-#### Mệnh đề 7 {#alg-vi-s1-div-prop-7 .statement}
+#### Mệnh đề 7 {#alg-vi-s1-div-prop-7 .statement tag=06WX}
 
 — *Nếu $a, b \in K^*$, và nếu d là một gcd của a và b, còn m là một lcm của a và b, thì tích dm liên kết với ab.
 
-#### Mệnh đề 8 {#alg-vi-s1-prop-8 .statement}
+#### Mệnh đề 8 {#alg-vi-s1-prop-8 .statement tag=06WY}
 
 — *Cho P là tập hợp các phần tử dương của một nhóm có thứ tự* G. Để G có thứ tự dàn, điều kiện cần và đủ là $G = P - P$, và thêm nữa P, được trang bị thứ tự cảm sinh, thỏa mãn một trong hai điều kiện sau:
 
@@ -354,7 +354,7 @@ Ngược lại, trước hết chú ý rằng dưới giả thiết a) (resp. b)
 
 ### 10. Định lý phân tích
 
-#### Định lý 1 (định lý phân tích) {#alg-vi-s1-thm-1 .statement}
+#### Định lý 1 (định lý phân tích) {#alg-vi-s1-thm-1 .statement tag=06WZ}
 
 — *Cho* $(x_i)_{1 \leq i \leq p}$ *và* $(y_j)_{1 \leq j \leq q}$ *là hai dãy hữu hạn các phần tử dương của một nhóm có thứ tự dàn* $G$ *sao cho* $$
 \sum_{i=1}^p x_i = \sum_{j=1}^q y_j ;
@@ -377,7 +377,7 @@ thì rõ ràng ta thu được một dãy kép thỏa mãn các điều kiện c
 
 3) Bằng cách đổi chỗ các $x_i$ và các $y_j$ ta cũng thấy theo cùng cách như vậy rằng, nếu định lý đúng với $p = m$ và $q < n$ ($m \geq 2,\ n > 2$), thì nó đúng với $p = m$ và $q = n$. Như vậy định lý được chứng minh bằng quy nạp kép bắt đầu từ trường hợp $p = q = 2$, vì nó là hiển nhiên đúng mỗi khi $p \leq 1$ hoặc $q \leq 1$.
 
-#### Hệ quả {#alg-vi-s1-n10-cor-1 .statement}
+#### Hệ quả {#alg-vi-s1-n10-cor-1 .statement tag=06X0}
 
 — Cho $y, x_1, x_2, \ldots, x_n$ là $n + 1$ phần tử dương của $G$ sao cho $y \leq \sum_{i=1}^n x_i$; khi đó tồn tại $n$ phần tử dương $y_i$ ($1 \leq i \leq n$) sao cho $y_i \leq x_i$ và $y = \sum_{i=1}^n y_i$.
 
@@ -385,7 +385,7 @@ Chỉ cần áp dụng định lý 1 cho dãy $(x_i)$ và dãy gồm hai phần 
 
 ### 11. Phần dương và phần âm
 
-#### Định nghĩa 4 {#alg-vi-s1-def-4 .statement}
+#### Định nghĩa 4 {#alg-vi-s1-def-4 .statement tag=06X1}
 
 — Trong một nhóm có thứ tự dàn $G$, phần dương (tương ứng, phần âm, giá trị tuyệt đối) của một phần tử $x \in G$ là phần tử $\sup(x, 0)$ (tương ứng. $\sup(-x, 0)$, $\sup(x, -x)$), được ký hiệu là $x^+$ (tương ứng. $x^-$, $|x|$).
 
@@ -400,7 +400,7 @@ $$
 \end{cases}
 $$
 
-#### Mệnh đề 9 {#alg-vi-s1-prop-9 .statement}
+#### Mệnh đề 9 {#alg-vi-s1-prop-9 .statement tag=06X2}
 
 — a) Với mỗi phần tử $x$ của một nhóm có thứ tự dàn $G$ ta có $x = x^+ - x^-$ và $\inf(x^+, x^-) = 0$.
 
@@ -438,11 +438,11 @@ $$
 $$
 tương tự ta có $|y| - |x| \leq |y - x| = |x - y|$; do đó có kết quả đã phát biểu.
 
-#### Nhận xét {#alg-vi-s1-n11-rem-1 .statement}
+#### Nhận xét {#alg-vi-s1-n11-rem-1 .statement tag=06X3}
 
 Ta suy ra từ d) rằng $|x| = 0$ kéo theo $x = 0$ (vì $x^+$ và $x^-$ là dương); như vậy $x \neq 0$ kéo theo $|x| > 0$.
 
-#### Mệnh đề 9 {#alg-vi-s1-div-prop-9 .statement}
+#### Mệnh đề 9 {#alg-vi-s1-div-prop-9 .statement tag=06X4}
 
 — Nếu nhóm $\mathscr{P}^*$ các iđêan phân thức chính của K được sắp thứ tự như một dàn, thì mọi phần tử x của $K^*$ có thể viết dưới dạng $x = uv^{-1}$, trong đó u và v là các phần tử của A sao cho $1 = \gcd(u, v)$; với mọi biểu thức khác $x = u'{v'}^{-1}$ của x như thương của hai phần tử của A, ta có $u' = uw$ và $v' = vw$, trong đó w là một gcd của $u', v'$; đặc biệt nếu $1 = \gcd(u', v')$ thì u' và v' lần lượt là các phần tử liên hợp với u và v.
 
@@ -450,7 +450,7 @@ Một biểu thức như thế $uv^{-1}$ của một phần tử x của $K^*$ t
 
 ### 12. Các phần tử nguyên tố cùng nhau
 
-#### Định nghĩa 5 {#alg-vi-s1-def-5 .statement}
+#### Định nghĩa 5 {#alg-vi-s1-def-5 .statement tag=06X5}
 
 — Trong một nhóm có thứ tự, hai phần tử x và y được gọi là nguyên tố cùng nhau nếu $\inf(x, y) = 0$.
 
@@ -466,7 +466,7 @@ Nếu x và y nguyên tố cùng nhau, ta cũng nói rằng x nguyên tố cùng
 
 (DIV) Khi x và y nguyên tố cùng nhau, người ta thường còn nói rằng chúng « nguyên tố với nhau »; thuận tiện hơn là tránh thuật ngữ này, vì nó có thể gây nhầm lẫn với khái niệm số nguyên tố (I, p. 50, Def. 16).
 
-#### Mệnh đề 10 {#alg-vi-s1-prop-10 .statement}
+#### Mệnh đề 10 {#alg-vi-s1-prop-10 .statement tag=06X6}
 
 *Cho x, y và z là ba phần tử của một nhóm có thứ tự ; để x – z và y – z nguyên tố cùng nhau thì điều kiện cần và đủ là z = inf (x, y).*
 
@@ -474,7 +474,7 @@ Thật vậy, các quan hệ $z = \inf(x, y)$ và $0 = \inf(x - z, y - z)$ là t
 
 **Mệnh đề 10 (DIV).** — *Cho a, b và c là ba phần tử của K với c $\neq 0$; để các thương $ac^{-1}$ và $bc^{-1}$ nguyên tố cùng nhau thì điều kiện cần và đủ là c là một gcd của a và b.*
 
-#### Mệnh đề 11 {#alg-vi-s1-prop-11 .statement}
+#### Mệnh đề 11 {#alg-vi-s1-prop-11 .statement tag=06X7}
 
 *Nếu $(x_i), (y_j)$ là hai họ hữu hạn các phần tử dương của một nhóm có thứ tự dàn, thì*
 
@@ -490,56 +490,56 @@ $$
 
 Thật vậy, đặt $t = \inf(x, y + z)$; theo VI, p. 12, Hệ quả, ta có thể viết $t = t_1 + t_2$ với $0 \leq t_1 \leq y$ và $0 \leq t_2 \leq z$; vì $t_1$ và $t_2$ là dương, ta cũng có $t_1 \leq x$ và $t_2 \leq x$, do đó $t_1 \leq \inf(x, y)$ và $t_2 \leq \inf(x, z)$.
 
-#### Hệ quả 1 {#alg-vi-s1-prop-11-cor-1 .statement}
+#### Hệ quả 1 {#alg-vi-s1-prop-11-cor-1 .statement tag=06X8}
 
 *Nếu x và y là hai phần tử nguyên tố cùng nhau, và z là một phần tử dương, của một nhóm có thứ tự dàn, thì $\inf(x, z) = \inf(x, y + z)$.*
 
 Thật vậy $\inf(x, y + z) \leq \inf(x, z)$ theo Mệnh đề 11, và $\inf(x, z) \leq \inf(x, y + z)$ vì $y \geq 0$, do đó suy ra hệ quả.
 
-#### Hệ quả 2 {#alg-vi-s1-prop-11-cor-2 .statement}
+#### Hệ quả 2 {#alg-vi-s1-prop-11-cor-2 .statement tag=06X9}
 
 — Trong một nhóm có thứ tự dàn, nếu x và y nguyên tố cùng nhau và nếu z $\geq 0$ và $x \leq y + z$, thì $x \leq z$.
 
-#### Hệ quả 3 {#alg-vi-s1-prop-11-cor-3 .statement}
+#### Hệ quả 3 {#alg-vi-s1-prop-11-cor-3 .statement tag=06XA}
 
 — Trong một nhóm có thứ tự dàn, nếu x nguyên tố cùng nhau với y và với z, thì nó cũng nguyên tố cùng nhau với $y + z$.
 
-#### Hệ quả 4 {#alg-vi-s1-prop-11-cor-4 .statement}
+#### Hệ quả 4 {#alg-vi-s1-prop-11-cor-4 .statement tag=06XB}
 
 — Nếu $(x_i)_{1 \leq i \leq n}$ và $(y_j)_{1 \leq j \leq m}$ là hai họ hữu hạn các phần tử của một nhóm có thứ tự dàn G, sao cho mỗi $x_i$ nguyên tố cùng nhau với mỗi $y_j$, thì $x_1 + \ldots + x_n$ nguyên tố cùng nhau với $y_1 + \ldots + y_m$.
 Điều này suy ra từ Hệ quả 3 bằng quy nạp theo m và n.
 
-#### Hệ quả 5 {#alg-vi-s1-prop-11-cor-5 .statement}
+#### Hệ quả 5 {#alg-vi-s1-prop-11-cor-5 .statement tag=06XC}
 
 — Với mọi số nguyên $n \geq 0$ ta có $(nx)^+ = nx^+$ và $(nx)^- = nx^-$; với mọi $n \in \mathbf{Z}$ ta có $|nx| = |n| \cdot |x|$.
 Thật vậy $nx = nx^+ - nx^-$; vì $x^+$ và x nguyên tố cùng nhau, nên $nx^+$ và $nx^-$ cũng vậy nếu $n \geq 0$ (Hệ quả 4); mệnh đề thứ nhất suy ra theo Mệnh đề 9 b) của VI, p. 12. Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất theo Mệnh đề 9 d) trong trường hợp $n \geq 0$; trường hợp $n < 0$ suy ra từ đó do quan hệ $|-x| = |x|$.
 
-#### Mệnh đề 11 {#alg-vi-s1-div-prop-11 .statement}
+#### Mệnh đề 11 {#alg-vi-s1-div-prop-11 .statement tag=06XD}
 
 — Giả sử tập hợp $\mathscr{P}^*$ là một dàn, và cho $(a_i)$, $(b_j)$ là hai họ hữu hạn các phần tử của A. Khi đó mọi ước chung lớn nhất của $\prod_i a_i$ và $\prod_j b_j$ đều chia tích $\prod_{i,j} \gcd(a_i, b_j)$.
 
-#### Hệ quả 1 {#alg-vi-s1-div-prop-11-cor-1 .statement}
+#### Hệ quả 1 {#alg-vi-s1-div-prop-11-cor-1 .statement tag=06XE}
 
 — Nếu a, b, c là ba phần tử của A sao cho a nguyên tố cùng nhau với b, thì mọi ước chung lớn nhất của a và c cũng là một ước chung lớn nhất của a và bc.
 
-#### Hệ quả 2 (Bổ đề Euclid) {#alg-vi-s1-div-prop-11-cor-2 .statement}
+#### Hệ quả 2 (Bổ đề Euclid) {#alg-vi-s1-div-prop-11-cor-2 .statement tag=06XF}
 
 — Cho a, b, c là ba phần tử của A. Nếu a nguyên tố cùng nhau với b và chia bc, thì nó chia c.
 
-#### Hệ quả 3 {#alg-vi-s1-div-prop-11-cor-3 .statement}
+#### Hệ quả 3 {#alg-vi-s1-div-prop-11-cor-3 .statement tag=06XG}
 
 — Nếu x nguyên tố cùng nhau với y và với z, thì nó nguyên tố cùng nhau với yz.
 
-#### Hệ quả 4 {#alg-vi-s1-div-prop-11-cor-4 .statement}
+#### Hệ quả 4 {#alg-vi-s1-div-prop-11-cor-4 .statement tag=06XH}
 
 — Nếu $(x_i)$ và $(y_j)$ là hai họ hữu hạn các phần tử của A sao cho mỗi $x_i$ nguyên tố cùng nhau với mỗi $y_j$, thì tích của các $x_i$ nguyên tố cùng nhau với tích của các $y_j$.
 
-#### Hệ quả 5 {#alg-vi-s1-div-prop-11-cor-5 .statement}
+#### Hệ quả 5 {#alg-vi-s1-div-prop-11-cor-5 .statement tag=06XI}
 
 — Nếu d là một ước chung lớn nhất của x và y, thì $d^n$ là một ước chung lớn nhất của $x^n$ và $y^n$ với mọi số nguyên dương n.
 Thật vậy $xd^1$ và $yd^1$ nguyên tố cùng nhau (Mệnh đề 10 (DIV)), và do đó $x^n d^{-n}$ và $y^n d^{-n}$ cũng nguyên tố cùng nhau (Hệ quả 4).
 
-#### Mệnh đề 12 {#alg-vi-s1-prop-12 .statement}
+#### Mệnh đề 12 {#alg-vi-s1-prop-12 .statement tag=06XJ}
 
 — Cho $x_i$ ($1 \leq i \leq n$) là n phần tử nguyên tố cùng nhau từng đôi một trong một nhóm có thứ tự dàn. Khi đó
 $$
@@ -548,15 +548,15 @@ $$
 
 Điều này suy ra từ công thức $u + v = \sup(u, v) + \inf(u, v)$ (VI, p. 10, Mệnh đề 7) bằng quy nạp theo $n$, dùng sự kiện rằng $x_i$ nguyên tố cùng nhau với $x_1 + \ldots + x_{i-1}$ với $2 \leq i \leq n$ (Hệ quả 4 của Mệnh đề 11).
 
-#### Nhận xét {#alg-vi-s1-n12-rem-1 .statement}
+#### Nhận xét {#alg-vi-s1-n12-rem-1 .statement tag=06XK}
 
 Mệnh đề 7 của VI, p. 10 cũng cho thấy rằng điều kiện cần và đủ để $x$ và $y$ nguyên tố cùng nhau là $x + y = \sup(x, y)$.
 
-#### Mệnh đề 12 {#alg-vi-s1-div-prop-12 .statement}
+#### Mệnh đề 12 {#alg-vi-s1-div-prop-12 .statement tag=06XL}
 
 — *Cho $a_i$ là một số hữu hạn $n$ phần tử nguyên tố cùng nhau từng đôi một của $\mathbf{A}$; khi đó tích $a_1 \ldots a_n$ là một bội chung nhỏ nhất của $a_1, \ldots, a_n$.*
 
-#### Mệnh đề 13 {#alg-vi-s1-prop-13 .statement}
+#### Mệnh đề 13 {#alg-vi-s1-prop-13 .statement tag=06XM}
 
 — *Trong một nhóm có thứ tự dàn $G$, cho $(x_\alpha)$ là một họ có cận dưới đúng (tương ứng cận trên đúng), và cho $z$ là một phần tử tùy ý của $G$; khi đó họ $(\sup(z, x_\alpha))$ (tương ứng $(\inf(z, x_\alpha))$) có một cận dưới đúng (tương ứng cận trên đúng) và*
 
@@ -575,13 +575,13 @@ Thật vậy $\sup(z, x_\alpha) = z + (x_\alpha - z)^+$ và bằng cách tịnh 
 
 Công thức kia suy ra bằng cách chuyển sang quan hệ thứ tự đối.
 
-#### Hệ quả {#alg-vi-s1-n12-cor-1 .statement}
+#### Hệ quả {#alg-vi-s1-n12-cor-1 .statement tag=06XN}
 
 — *Nếu một phần tử $z$ của một nhóm có thứ tự dàn $G$ nguyên tố cùng nhau với mỗi phần tử $x_\alpha$ của một họ có cận dưới đúng $y$, thì $z$ nguyên tố cùng nhau với $y$.*
 
 Đây là một hệ quả ngay lập tức của công thức thứ hai (4).
 
-#### Nhận xét {#alg-vi-s1-n12-rem-2 .statement}
+#### Nhận xét {#alg-vi-s1-n12-rem-2 .statement tag=06XO}
 
 Áp dụng các công thức của Mệnh đề 13 cho một họ gồm hai phần tử $(x, y)$, ta thu được các công thức sau, diễn tả sự kiện rằng mỗi luật hợp thành sup, inf trong một nhóm có thứ tự dàn là *phân phối* đối với luật kia:
 
@@ -596,7 +596,7 @@ Tính chất phân phối này là đặc thù của các *nhóm* có thứ tự
 
 ### 13. Các phần tử bất khả quy
 
-#### Định nghĩa 6 {#alg-vi-s1-def-6 .statement}
+#### Định nghĩa 6 {#alg-vi-s1-def-6 .statement tag=06XP}
 
 — *Một phần tử x của một nhóm có thứ tự G được gọi là bất khả quy nếu nó là một phần tử cực tiểu trong tập hợp các phần tử dương ngặt của G.*
 
@@ -604,13 +604,13 @@ Cho x là một phần tử bất khả quy của nhóm có thứ tự G; nếu 
 
 (DIV) Một phần tử p của A được gọi là *bất khả quy* nếu iđêan (p) là một phần tử bất khả quy của nhóm có thứ tự $\mathscr{P}^*$; điều này có nghĩa là p không phải là không cũng không khả nghịch, và mọi phần tử của $A$ chia hết p đều liên kết hoặc với p hoặc với 1. Nếu $\mathscr{P}^*$ có thứ tự dàn, thì mọi $a \in A$ hoặc nguyên tố cùng nhau với p hoặc là một bội của p.
 
-#### Ví dụ (DIV) {#alg-vi-s1-n13-exa-1 .statement}
+#### Ví dụ (DIV) {#alg-vi-s1-n13-exa-1 .statement tag=0EEO}
 
 1) Một số nguyên $p > 0$ là bất khả quy trong $\mathbf{Z}$ khi và chỉ khi nó là *nguyên tố* (I, p. 50).
 
 2) Một đa thức theo một ẩn trên một trường K là bất khả quy khi và chỉ khi nó là bất khả quy theo nghĩa thông thường (IV, p. 13).
 
-#### Mệnh đề 14 {#alg-vi-s1-prop-14 .statement}
+#### Mệnh đề 14 {#alg-vi-s1-prop-14 .statement tag=06XQ}
 
 — *Để một phần tử $x > 0$ của một nhóm có thứ tự G là bất khả quy, điều kiện đủ là nó thỏa mãn tính chất sau:*
 
@@ -619,15 +619,15 @@ Cho x là một phần tử bất khả quy của nhóm có thứ tự G; nếu 
 
 Nếu G có thứ tự dàn và x là bất khả quy, ta vừa thấy rằng y hoặc lớn hơn x hoặc nguyên tố cùng nhau với x; trong trường hợp sau, Hệ quả 2 của VI, p. 15 cho thấy rằng z lớn hơn x. Ngược lại, giả sử điều kiện được thỏa mãn: nếu $0 \leq y \leq x$ thì suy ra, bằng cách đặt $x = y + z\ (z \geq 0)$, rằng hoặc $x \leq y$ hoặc $x \leq z$; trong trường hợp thứ nhất ta có $x = y$; trong trường hợp thứ hai ta có $x \leq x - y$, nên $y \leq 0$ và do đó $y = 0$; điều này cho thấy x quả thật là bất khả quy.
 
-#### Mệnh đề 14 {#alg-vi-s1-div-prop-14 .statement}
+#### Mệnh đề 14 {#alg-vi-s1-div-prop-14 .statement tag=06XR}
 
 — *Để một phần tử khác không p của A là bất khả quy, điều kiện đủ là nó không phải là một phần tử khả nghịch, và nó không thể chia hết một tích của hai phần tử của A mà không chia hết một trong hai phần tử ấy. Điều kiện này là cần thiết nếu $\mathscr{P}^*$ có thứ tự dàn.*
 
-#### Nhận xét {#alg-vi-s1-n13-rem-1 .statement}
+#### Nhận xét {#alg-vi-s1-n13-rem-1 .statement tag=06XS}
 
 Mệnh đề 14 (DIV) cũng có thể được phát biểu như sau: nếu p là một phần tử khác không của A sao cho iđêan (p) là *nguyên tố* (I, p. 117, Định nghĩa 3) thì p là bất khả quy; ngược lại, nếu $\mathscr{P}^*$ có thứ tự dàn và p là bất khả quy thì iđêan (p) là nguyên tố.
 
-#### Mệnh đề 15 {#alg-vi-s1-prop-15 .statement}
+#### Mệnh đề 15 {#alg-vi-s1-prop-15 .statement tag=06XT}
 
 — *Trong một nhóm có thứ tự G, xét $(p_i)_{i \in I}$ là một họ các phần tử dương phân biệt từng đôi một của G thỏa mãn điều kiện (P) (và do đó là bất khả quy). Khi đó ánh xạ*
 
@@ -645,7 +645,7 @@ $$
 
 Đặc biệt, với $\lambda \in I''$, điều này kéo theo rằng $p_\lambda \leq \sum_{\iota \in I'} n_\iota p_\iota$, và từ tính chất (P), bằng quy nạp, suy ra rằng phải có $p_\lambda \leq p_\iota$ đối với một $\iota \in I'$ nào đó; vì $p_\iota$ là bất khả quy, điều này sẽ kéo theo $p_\lambda = p_\iota$, điều vô lý. Do đó $I'$ là rỗng, điều phải chứng minh.
 
-#### Định lý 2 {#alg-vi-s1-thm-2 .statement}
+#### Định lý 2 {#alg-vi-s1-thm-2 .statement tag=06XU}
 
 — Cho $G$ là một nhóm lọc. Khi đó các tính chất sau là tương đương:
 a) $G$ đẳng cấu với một nhóm có thứ tự dạng $\mathbf{Z}^{(I)}$.

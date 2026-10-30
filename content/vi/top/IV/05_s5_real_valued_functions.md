@@ -40,7 +40,7 @@ subsections:
       pdf_page: 362
 statements: 30
 exercises: 18
-content_sha256: d3f2fa636224e00c8b50594eba476c7d8cd5b6bc054dd95cb18eb1a333b22e59
+content_sha256: 0ae921091b402d639d575cbdb3644625e1f7e5aa2d5e4ef7780e574bada03e3e
 translated_from: content/en/top/IV/05_s5_real_valued_functions.md
 source_content_sha256: 4733abd453741ac25f03d43b705f1223fbc3e9e15d7eabf9fb31e790bfc816d5
 translation_model: gpt-5.4
@@ -54,7 +54,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC HÀM THỰC
 
-#### Định nghĩa 1 {#top-iv-s5-def-1 .statement}
+#### Định nghĩa 1 {#top-iv-s5-def-1 .statement tag=0BR2}
 
 Một ánh xạ của một tập hợp $X$ vào đường thẳng thực được gọi là một hàm thực (hay hàm thực) xác định trên $X$.
 
@@ -74,13 +74,13 @@ Do đó mọi hàm bị chặn đều *hữu hạn*. Đảo lại là sai, như 
 
 ### 2. HÀM THỰC XÁC ĐỊNH TRÊN MỘT TẬP HỢP ĐƯỢC LỌC
 
-#### Mệnh đề 1 {#top-iv-s5-prop-1 .statement}
+#### Mệnh đề 1 {#top-iv-s5-prop-1 .statement tag=0BR3}
 
 *Cho $f$ và $g$ là hai hàm thực xác định trên một tập hợp $X$ được lọc bởi một bộ lọc $\mathfrak{F}$. Nếu $\lim_{\mathfrak{F}} f$ và $\lim_{\mathfrak{F}} g$ tồn tại, và nếu, với mỗi tập con $A \in \mathfrak{F}$, tồn tại $x \in A$ sao cho $f(x) \leq g(x)$, thì ta có $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$.*
 
 Để chứng minh kết quả này, ta sẽ chứng minh mệnh đề tương đương sau:
 
-#### Mệnh đề 2 {#top-iv-s5-prop-2 .statement}
+#### Mệnh đề 2 {#top-iv-s5-prop-2 .statement tag=0BR4}
 
 *Cho $f$ và $g$ là hai hàm thực xác định trên một tập hợp $X$ được lọc bởi một bộ lọc $\mathfrak{F}$. Nếu $\lim_{\mathfrak{F}} f$ và $\lim_{\mathfrak{F}} g$ tồn tại, và nếu $\lim_{\mathfrak{F}} f > \lim_{\mathfrak{F}} g$, thì tồn tại một tập hợp $A \in \mathfrak{F}$ sao cho $f(x) > g(x)$ với mọi $x \in A$.*
 
@@ -88,23 +88,23 @@ Cho $a = \lim_{\mathfrak{F}} f$, $b = \lim_{\mathfrak{F}} g$ và $c$ sao cho $b 
 
 Như một trường hợp riêng của Mệnh đề 1, ta có định lý sau:
 
-#### Định lý 1 (Nguyên lý mở rộng các bất đẳng thức) {#top-iv-s5-thm-1 .statement}
+#### Định lý 1 (Nguyên lý mở rộng các bất đẳng thức) {#top-iv-s5-thm-1 .statement tag=0BR5}
 
 *Cho $f$ và $g$ là hai hàm số thực, xác định trên một tập hợp $X$ được lọc bởi một bộ lọc $\mathfrak{F}$. Nếu $\lim_{\mathfrak{F}} f$ và $\lim_{\mathfrak{F}} g$ tồn tại, và nếu $f \leq g$, thì $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$.*
 
-#### Nhận xét {#top-iv-s5-n2-rem-1 .statement}
+#### Nhận xét {#top-iv-s5-n2-rem-1 .statement tag=0BR6}
 
 Nếu riêng ta có $f(x) < g(x)$ với mọi $x \in X$ (hoặc chỉ với mọi điểm của một tập hợp thuộc bộ lọc $\overline{\mathbf{R}}$) thì theo Định lý 1, ta suy ra được rằng $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$; *nhưng không thể suy ra bất đẳng thức ngặt* $\lim_{\mathfrak{F}} f < \lim_{\mathfrak{F}} g$. Ví dụ, nếu lấy $X$ là tập hợp $\mathbf{N}$ các số tự nhiên, được lọc bởi bộ lọc Fréchet, và nếu $f(n) = 0$ và $g(n) = 1/n$, thì $f(n) < g(n)$ với mọi $n$, nhưng $\lim_{n \to \infty} f(n) = \lim_{n \to \infty} f(n) = 0$. Như vậy ta *mất tính ngặt* khi chuyển sang giới hạn trong một bất đẳng thức *ngặt*.
 
 Giả sử chẳng hạn $f$ là tăng, và đặt $a = \sup f(A)$. Nếu $a = -\infty$, định lý là tầm thường. Nếu $a > -\infty$, thì với mỗi $b < a$ tồn tại $x \in A$ sao cho $b < f(x) \leq a$; do đó, nếu $S_x$ là tiết diện của $A$ tương đối với $x$ (tức là tập hợp mọi $y \geq x$, xem Chương I, § 6, no. 3), thì $f(S_x)$ được chứa trong lân cận $]b, +\infty]$ của $a$, và định lý suy ra. Chứng minh là tương tự nếu $f$ là giảm.
 
-#### Hệ quả {#top-iv-s5-n2-cor-1 .statement}
+#### Hệ quả {#top-iv-s5-n2-cor-1 .statement tag=0BR8}
 
 Một hàm tăng (tương ứng, giảm) nhận giá trị thực, được xác định trên một tập con có hướng $A$ của một tập hợp có thứ tự $X$, có một giới hạn hữu hạn đối với $A$ khi và chỉ khi nó bị chặn trên (tương ứng, bị chặn dưới) trong $A$.
 
 Nếu ta áp dụng Định lý 2 cho trường hợp $A = X = \mathbf{N}$ (được sắp thứ tự bởi quan hệ $\leq$), ta có mệnh đề sau:
 
-#### Mệnh đề 3 {#top-iv-s5-prop-3 .statement}
+#### Mệnh đề 3 {#top-iv-s5-prop-3 .statement tag=0BR9}
 
 Mọi dãy đơn điệu các số thực đều có một giới hạn trong $\overline{\mathbf{R}}$.
 Đặc biệt, mọi dãy tăng (tương ứng, giảm) gồm các số hữu hạn đều hội tụ đến một số thực hữu hạn nếu nó bị chặn trên (tương ứng, bị chặn dưới), và hội tụ đến $+\infty$ (tương ứng, $-\infty$) trong trường hợp ngược lại. Ví dụ, dãy các số nguyên dương hội tụ đến $+\infty$.
@@ -119,7 +119,7 @@ Cho $A$ là một tập con không rỗng của $\overline{\mathbf{R}}$ và cho 
 
 (*) Mệnh đề này ngầm giả thiết rằng thứ tự trong $X$ được viết là $x \leq y$. Nếu quan hệ này được viết là $x(\sigma) y$, trong đó $(\sigma)$ là một dấu hoặc một nhóm dấu đặc trưng cho quan hệ đang xét, thì từ "có hướng" trong mệnh đề phải được thay bằng "có hướng đối với $(\sigma)$".
 
-#### Định nghĩa 2 {#top-iv-s5-def-2 .statement}
+#### Định nghĩa 2 {#top-iv-s5-def-2 .statement tag=0BRA}
 
 *Cho f là một hàm xác định trên một tập con không rỗng A của $\overline{\mathbf{R}}$, nhận giá trị trong một không gian tôpô X. Một giới hạn của f đối với bộ lọc $\mathfrak{F}$, nếu tồn tại, được gọi là giới hạn bên trái của f tại điểm a, tương đối với A, và được ký hiệu là*
 $$
@@ -135,13 +135,13 @@ $$
 
 Mệnh đề sau là một hệ quả ngay lập tức của Định lý 2:
 
-#### Mệnh đề 4 {#top-iv-s5-prop-4 .statement}
+#### Mệnh đề 4 {#top-iv-s5-prop-4 .statement tag=0BRB}
 
 *Nếu A là một tập con của $\overline{\mathbf{R}}$ và $a \neq -\infty$ là một điểm thuộc bao đóng của giao $A \cap [-\infty, a[$, thì mọi hàm thực đơn điệu f xác định trên A đều có một giới hạn bên trái $f(a-)$ tại a, đối với A.*
 
 ### 4. CẬN CỦA MỘT HÀM THỰC
 
-#### Định nghĩa 3 {#top-iv-s5-def-3 .statement}
+#### Định nghĩa 3 {#top-iv-s5-def-3 .statement tag=0BRC}
 
 *Cho f là một hàm thực xác định trên một tập hợp X, và A là một tập con không rỗng của X. Khi đó cận trên nhỏ nhất (tương ứng, cận dưới lớn nhất) của tập $f(A)$ trong $\overline{\mathbf{R}}$ được gọi là cận trên nhỏ nhất (tương ứng, cận dưới lớn nhất) của f trên A, và được ký hiệu bởi*
 $$
@@ -171,7 +171,7 @@ $$
 
 Quan hệ này quy tất cả các tính chất của cận dưới lớn nhất về các tính chất của cận trên bé nhất; vì thế nói chung ta sẽ chỉ nói đến cái sau.
 
-#### Mệnh đề 5 {#top-iv-s5-prop-5 .statement}
+#### Mệnh đề 5 {#top-iv-s5-prop-5 .statement tag=0BRD}
 
 *Cho $f$ là một hàm thực định nghĩa trên một tập hợp $X$. Trên tập hợp $\mathfrak{F}(X)$ gồm mọi tập con hữu hạn của $X$, có hướng đối với quan hệ $\subset$, hàm thực $H \to \sup_{x \in H} f(x)$ là tăng, hàm thực $H \to \inf_{x \in H} f(x)$ là giảm, và ta có*
 
@@ -190,7 +190,7 @@ $$
 \sup A = \lim_{H \in \mathfrak{F}(A)} (\sup_{x \in H} x).
 $$
 
-#### Mệnh đề 6 {#top-iv-s5-prop-6 .statement}
+#### Mệnh đề 6 {#top-iv-s5-prop-6 .statement tag=0BRE}
 
 *Cho $f$ và $g$ là hai hàm thực xác định trên $X$. Nếu $f(x) \leq g(x)$ tại mọi điểm $x$ của một tập con không rỗng $A$ của $X$, thì ta có*
 
@@ -201,7 +201,7 @@ $$
 \end{cases}
 $$
 
-#### Mệnh đề 7 {#top-iv-s5-prop-7 .statement}
+#### Mệnh đề 7 {#top-iv-s5-prop-7 .statement tag=0BRF}
 
 *Cho $f$ là một hàm thực xác định trên $X$. Nếu $A$ và $B$ là hai tập con không rỗng của $X$ sao cho $A \subset B$, thì*
 
@@ -209,7 +209,7 @@ $$
 \sup_{x \in A} f(x) \leq \sup_{x \in B} f(x).
 $$
 
-#### Mệnh đề 8 {#top-iv-s5-prop-8 .statement}
+#### Mệnh đề 8 {#top-iv-s5-prop-8 .statement tag=0BRG}
 
 *Cho $f$ là một hàm nhận giá trị thực được xác định trên $X$, và cho $(A_i)_{i \in I}$ là một họ không rỗng các tập con không rỗng của $X$; khi đó*
 
@@ -219,7 +219,7 @@ $$
 
 Cho $f$ là một hàm nhận giá trị thực được xác định trên một tập hợp tích $X_1 \times X_2$. Nếu $A_2$ là một tập con không rỗng của $X_2$ thì ta sẽ ký hiệu bởi $\sup_{x_1 \in A_2} f(x_1, x_2)$ cận trên bé nhất trên $A_2$ của hàm nhận giá trị thực $x_2 \to f(x_1, x_2)$ được xác định trên $X_2$. Từ Mệnh đề 8 ta suy ra đặc biệt:
 
-#### Mệnh đề 9 {#top-iv-s5-prop-9 .statement}
+#### Mệnh đề 9 {#top-iv-s5-prop-9 .statement tag=0BRH}
 
 *Cho $f$ là một hàm thực-valued được xác định trên một tập hợp tích $X_1 \times X_2$. Nếu $A_1, A_2$ lần lượt là các tập hợp con không rỗng bất kỳ của $X_1, X_2$, thì*
 
@@ -229,7 +229,7 @@ $$
 
 ### 5. BAO CỦA MỘT HỌ CÁC HÀM THỰC-VALUED
 
-#### Định nghĩa 4 {#top-iv-s5-def-4 .statement}
+#### Định nghĩa 4 {#top-iv-s5-def-4 .statement tag=0BRI}
 
 *Cho $(f_i)_{i \in I}$ là một họ các hàm thực xác định trên một tập hợp $X$. Hàm thực trên $X$ mà giá trị tại mỗi điểm $x \in X$ là $\sup_{i \in I} (f_i(x))$ [tương ứng là $\inf_{i \in I} (f_i(x))$] được gọi là bao trên (tương ứng, bao dưới) của họ $(f_i)$, và được ký hiệu bởi $\sup_{i \in I} f_i$ hoặc $\sup_i f_i$ (tương ứng $\inf_{i \in I} f_i$ hoặc $\inf_i f_i$).
 
@@ -237,7 +237,7 @@ Như vậy, bao trên của họ $(f_i)$ là cận trên bé nhất của họ n
 
 Hơn nữa, nếu ta trang bị cho $\overline{\mathbf{R}}^X$ tôpô là tích của các tôpô trên các nhân tử của nó (tất cả đều đồng nhất với $\overline{\mathbf{R}}$), thì ta có mệnh đề sau:
 
-#### Mệnh đề 10 {#top-iv-s5-prop-10 .statement}
+#### Mệnh đề 10 {#top-iv-s5-prop-10 .statement tag=0BRJ}
 
 *Trong không gian tích $\overline{\mathbf{R}}^X$, bao trên $\sup_{i \in I} f_i$ của một họ các hàm thực $(f_i)_{i \in I}$ là giới hạn, đối với tập có hướng $\mathfrak{F}(I)$ các tập con hữu hạn của $I$, của ánh xạ $H \to \sup_{i \in H} f_i$ [ánh xạ này gán cho mỗi tập con hữu hạn $H$ của $I$ bao trên của họ con hữu hạn $(f_i)_{i \in H}$].
 
@@ -249,7 +249,7 @@ $$
 \sup_{i \in I} f_i = \lim_{H \in \mathfrak{F}(I)} (\sup_{i \in H} f_i).
 $$
 
-#### Định nghĩa 5 {#top-iv-s5-def-5 .statement}
+#### Định nghĩa 5 {#top-iv-s5-def-5 .statement tag=0BRK}
 
 *Một họ $(f_i)_{i \in I}$ các hàm nhận giá trị thực xác định trên một tập hợp $X$ được gọi là bị chặn đều trên (resp. bị chặn đều dưới) trong $X$, nếu tồn tại một số hữu hạn $a$ sao cho $f_i(x) \leq a$ [resp. $f_i(x) \geq a$] với mọi $x \in X$ và mọi $i \in I$. Họ $(f_i)$ được gọi là bị chặn đều trong $X$ nếu nó bị chặn đều trên và bị chặn đều dưới trong $X$.
 
@@ -259,7 +259,7 @@ Do đó $(f_i)$ bị chặn trên đều trong $X$ khi và chỉ khi bao trên c
 
 Cho $f$ là một hàm thực xác định trên một tập hợp $X$ được lọc bởi một bộ lọc $\mathfrak{G}$. $\mathfrak{G}$ là một tập có hướng đối với quan hệ $\supseteq$ (Chương I, § 6). Với mỗi $M \in \mathfrak{G}$ xét số thực $\sup_{x \in M} f(x)$: ta có một hàm $M \to \sup_{x \in M} f(x)$ từ $\mathfrak{G}$ vào $\overline{\mathbf{R}}$, là một hàm giảm trên $\mathfrak{G}$, theo Mệnh đề 7 của no. 4. Do đó, theo Định lý 2 của no. 2, nó có một giới hạn đối với tập có hướng $\mathfrak{G}$.
 
-#### Định nghĩa 6 {#top-iv-s5-def-6 .statement}
+#### Định nghĩa 6 {#top-iv-s5-def-6 .statement tag=0BRL}
 
 *Giới hạn của hàm thực* $M \to \sup_{x \in M} f(x)$ *đối với tập có hướng* $\mathfrak{G}$ *được gọi là giới hạn trên của* $f$ *đối với bộ lọc* $\mathfrak{G}$, *và được ký hiệu là* $\lim \sup_{\mathfrak{G}} f$, *hoặc* $\lim \sup_{x, \mathfrak{G}} f(x)$.
 
@@ -305,7 +305,7 @@ $$
 
 và do đó ta chỉ cần xét giới hạn trên.
 
-#### Định lý 3 {#top-iv-s5-thm-3 .statement}
+#### Định lý 3 {#top-iv-s5-thm-3 .statement tag=0BRM}
 
 *Giới hạn trên của một hàm giá trị thực $f$ đối với một bộ lọc $\mathfrak{G}$ bằng giá trị giới hạn lớn nhất của $f$ đối với $\mathfrak{G}$.*
 
@@ -314,7 +314,7 @@ $b \leq \lim \sup_{\mathfrak{G}} f = a.$
 
 Mặt khác, cho $V$ là một lân cận mở bất kỳ của $a$ trong $\overline{\mathbf{R}}$. Khi đó tồn tại một tập $M_0$ trong $\mathfrak{G}$ sao cho, với mỗi $M \in \mathfrak{G}$ được chứa trong $M_0$, ta có $\sup_{x \in M} f(x) \in V$; vì $V$ là mở nên suy ra $f(M)$ cắt $V$, và do đó $a$ là một *điểm tụ* của $f$ đối với $\mathfrak{G}$, và chứng minh đã hoàn tất.
 
-#### Hệ quả 1 {#top-iv-s5-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#top-iv-s5-thm-3-cor-1 .statement tag=0BRN}
 
 *Để $\lim \sup_{\mathfrak{G}} f = \lim \inf_{\mathfrak{G}} f$, điều kiện cần và đủ là $f$ có giới hạn đối với bộ lọc $\mathfrak{G}$, và khi đó*
 $$
@@ -322,7 +322,7 @@ $$
 $$
 Thật vậy, vì $\overline{\mathbf{R}}$ là compact, cơ sở bộ lọc $f(\mathfrak{G})$ có một điểm giới hạn khi và chỉ khi nó chỉ có một điểm tụ (Chương I, § 9, no. 1, Hệ quả của Định lý 1).
 
-#### Hệ quả 2 {#top-iv-s5-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#top-iv-s5-thm-3-cor-2 .statement tag=0BRO}
 
 *Nếu $\mathfrak{H}$ là một bộ lọc mịn hơn $\mathfrak{G}$, thì ta có*
 $$
@@ -334,7 +334,7 @@ $$
 \lim \inf_{\mathfrak{G}} f \leq \lim_{\mathfrak{G}} f \leq \lim \sup_{\mathfrak{G}} f.
 $$
 
-#### Hệ quả 3 {#top-iv-s5-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#top-iv-s5-thm-3-cor-3 .statement tag=0BRP}
 
 *Cho $A$ là một tập hợp của bộ lọc $\mathfrak{G}$, $\mathfrak{G}_A$ là bộ lọc cảm sinh trên $A$ bởi $\mathfrak{G}$, và $f_A$ là hạn chế của $f$ lên $A$; khi đó*
 $$
@@ -344,7 +344,7 @@ Mọi điểm tụ của cơ sở bộ lọc $f(\mathfrak{G})$ đều là một 
 
 Vì lý do này, nếu $f$ chỉ được xác định trên một tập con $A$ của $X$ thuộc $\mathfrak{G}$, thì ta sẽ thường viết $\limsup_{\mathfrak{G}} f$ thay cho $\limsup_{\mathfrak{G}_A} f_A$, do lạm dụng ngôn ngữ.
 
-#### Mệnh đề 11 {#top-iv-s5-prop-11 .statement}
+#### Mệnh đề 11 {#top-iv-s5-prop-11 .statement tag=0BRQ}
 
 Cho $f$ và $g$ là hai hàm số thực xác định trên một tập lọc $X$. Khi đó quan hệ $f \leq g$ kéo theo
 
@@ -404,7 +404,7 @@ Vậy hàm cuối cùng này được xác định miễn là $f$ không nhận 
 
 Giả sử rằng $X$ được lọc bởi một bộ lọc $\mathfrak{F}$, và rằng $\lim_{\mathfrak{F}} f$ và $\lim_{\mathfrak{F}} g$ tồn tại. Nếu một mặt hàm $f + g$ (tương ứng $fg$, $1/g$) được xác định, và nếu mặt khác biểu thức $\lim_{\mathfrak{F}} f + \lim_{\mathfrak{F}} g$ (tương ứng $\lim_{\mathfrak{F}} f \cdot \lim_{\mathfrak{F}} g$, $1/\lim_{\mathfrak{F}} f$) có nghĩa, thì $\lim_{\mathfrak{F}} (f + g)$ [tương ứng $\lim_{\mathfrak{F}} fg$, $\lim_{\mathfrak{F}} (1/f)$] tồn tại và bằng biểu thức ấy do tính liên tục của hàm $x + y$ (tương ứng $xy$, $1/x$) tại các điểm mà nó được xác định.
 
-#### Mệnh đề 12 {#top-iv-s5-prop-12 .statement}
+#### Mệnh đề 12 {#top-iv-s5-prop-12 .statement tag=0BRR}
 
 *Cho $f$ và $g$ là hai hàm thực được xác định trên một tập hợp $X$, và cho $A$ là một tập con không rỗng của $X$.*
 
@@ -450,7 +450,7 @@ $$
 $$
 Các bất đẳng thức (17) và (18) suy ra từ đây bằng cách áp dụng Mệnh đề 5 của no. 4 và Định lý 1 của no. 2. Chứng minh của các bất đẳng thức khác là tương tự.
 
-#### Hệ quả 1 {#top-iv-s5-prop-12-cor-1 .statement}
+#### Hệ quả 1 {#top-iv-s5-prop-12-cor-1 .statement tag=0BRS}
 
 *Cho $f$ là một hàm nhận giá trị thực xác định trên $X$, và cho $k$ là một số thực. Khi đó*
 (22)
@@ -464,7 +464,7 @@ $$
 $$
 *miễn là cả hai vế đều xác định.*
 
-#### Hệ quả 2 {#top-iv-s5-prop-12-cor-2 .statement}
+#### Hệ quả 2 {#top-iv-s5-prop-12-cor-2 .statement tag=0BRT}
 
 *Cho $f_1$ và $f_2$ là hai hàm nhận giá trị thực xác định lần lượt trên các tập hợp $X_1, X_2$; khi đó nếu $A_1, A_2$ là các tập con không rỗng bất kỳ của $X_1, X_2$ tương ứng, ta có*
 (24)
@@ -496,7 +496,7 @@ $$
 
 mỗi khi cả hai vế đều xác định.
 
-#### Mệnh đề 13 {#top-iv-s5-prop-13 .statement}
+#### Mệnh đề 13 {#top-iv-s5-prop-13 .statement tag=0BRU}
 
 *Cho $f$ và $g$ là hai hàm số thực xác định trên một tập hợp lọc $X$.*
 
@@ -532,7 +532,7 @@ $$
 
 Các hệ thức này là hệ quả của Mệnh đề 12 và các hệ thức (10)
 
-#### Hệ quả 1 {#top-iv-s5-prop-13-cor-1 .statement}
+#### Hệ quả 1 {#top-iv-s5-prop-13-cor-1 .statement tag=0BRV}
 
 *Cho $f$ và $g$ là hai hàm thực xác định trên một tập hợp lọc $X$. Nếu $\lim g$ tồn tại, thì*
 
@@ -548,7 +548,7 @@ $$
 
 *khi cả hai vế đều xác định và $f$ và $g$ đều $\geqslant 0$.*
 
-#### Hệ quả 2 {#top-iv-s5-prop-13-cor-2 .statement}
+#### Hệ quả 2 {#top-iv-s5-prop-13-cor-2 .statement tag=0BRW}
 
 Cho $f$ và $g$ là hai hàm thực nhận giá trị thực xác định trên một tập hợp được lọc $X$. Nếu $\lim f = +\infty$ và $\lim \inf g > -\infty$ và $f + g$ được xác định, thì $\lim (f + g) = +\infty$. Nếu $\lim f = +\infty$ và $\lim \inf g > 0$ và $fg$ được xác định, thì $\lim fg = +\infty$.
 

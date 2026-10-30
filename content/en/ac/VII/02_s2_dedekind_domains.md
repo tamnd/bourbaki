@@ -33,7 +33,7 @@ subsections:
       pdf_page: 517
 statements: 15
 exercises: 22
-content_sha256: 48505af329aa8f7c397057bf19cbe8b89d76984c0ee19147a5591880aa4eaac3
+content_sha256: 608c7dd934256b19a42a5a2679369ddf6b2698e699e08b46c35914c9e02a03b8
 ---
 
 ## 2. DEDEKIND DOMAINS
@@ -45,7 +45,7 @@ Let $A$ be an integral domain. Clearly the following conditions are equivalent:
 (b) the non-zero prime ideals of $A$ are maximal;
 (c) the non-zero prime ideals of $A$ are of height 1.
 
-#### Definition 1 {#ac-vii-s2-def-1 .statement}
+#### Definition 1 {#ac-vii-s2-def-1 .statement tag=050M}
 
 A Krull domain all of whose non-zero prime ideals are maximal is called a Dedekind domain.
 
@@ -57,7 +57,7 @@ Examples of Dedekind domains
 
 ### 2. CHARACTERIZATIONS OF DEDEKIND DOMAINS
 
-#### Theorem 1 {#ac-vii-s2-thm-1 .statement}
+#### Theorem 1 {#ac-vii-s2-thm-1 .statement tag=050N}
 
 Let A be an integral domain and K its field of fractions. The following conditions are equivalent:
 (a) A is a Dedekind domain;
@@ -88,7 +88,7 @@ The fact that (f) implies (g) is obvious.
 
 We show finally that (g) implies (a). As $A$ is the intersection of the $A_{m}$, where $m$ runs through the set of maximal ideals (Chapter II, $§ 3$, no. 3, Corollary 4 to Theorem 1), (g) implies that $A$ is integrally closed and Noetherian and hence that $A$ is a Krull domain ($§ 1$, no. 3, Corollary to Theorem 2). On the other hand, it can be shown that every non-zero prime ideal of $A$ is maximal as in the proof that (d) $\Rightarrow$ (e).
 
-#### Proposition 1 {#ac-vii-s2-prop-1 .statement}
+#### Proposition 1 {#ac-vii-s2-prop-1 .statement tag=050O}
 
 *A semi-local Dedekind domain is a principal ideal domain.*
 
@@ -141,7 +141,7 @@ If $A$ is a principal ideal domain, the above results again give those of Algebr
 
 In Dedekind domains there is an "approximation theorem" which strengthens both Theorem 1 of Chapter VI, § 7, no. 2 and Proposition 9 of § 1, no. 5:
 
-#### Proposition 2 {#ac-vii-s2-prop-2 .statement}
+#### Proposition 2 {#ac-vii-s2-prop-2 .statement tag=050P}
 
 Let $A$ be a Dedekind domain, $K$ its field of fractions and $P$ the set of non-zero prime ideals of $A$; for $p \in P$ let $v_p$ denote the corresponding essential valuation of $A$. Let $p_1, \ldots, p_q$ be distinct elements of $P$ and $n_1, \ldots, n_q$ rational integers and $x_1, \ldots, x_q$ elements of $K$. Then there exists $x \in K$ such that $v_{p_i}(x - x_i) \geq n_i$ for $1 \leq i \leq q$ and $v_p(x) \geq 0$ for all $p \in P$ distinct from the $p_i$.
 
@@ -159,7 +159,7 @@ Proposition 2 may be interpreted as a density theorem. To be precise, for all $p
 
 For all $x \in K$, let $\Delta(x)$ be the element $(x_p) \in \prod_{p \in P} \hat{K}_p$ such that $x_p = x$ for all $p \in P$; as $x_p \in \hat{A}_p$ except for a finite number of values of p, $\Delta(x) \in A$; hence we have thus defined a homomorphism $A : K \to A$ which is *injective* if $P \neq \varnothing$ (that is if A is not a field); the elements of $\Delta(K)$ are called *principal restricted adèles* and clearly $\Delta(A) \subset A$.
 
-#### Proposition 3 {#ac-vii-s2-prop-3 .statement}
+#### Proposition 3 {#ac-vii-s2-prop-3 .statement tag=050Q}
 
 *The ring A, (resp. A ) is identified with the completion of A (resp. K) with respect to the ring topology for which a fundamental system of neighbourhoods & 0 consists & all the integral ideals $\neq (0)$ of A.*
 
@@ -169,7 +169,7 @@ We could of course also prove that $\Delta(K)$ is dense in A by using Propositio
 
 Consider now the multiplicative group $\mathbf{SL}(n, A)$ consisting of the matrices $U \in \mathbf{M}_n(A)$ such that $\det(U) = 1$; if $\mathbf{M}_n(A) = A^{n^2}$ is given the product topology, it induces on $\mathbf{SL}(n, A)$ a topology *compatible with the group structure* on $\mathbf{SL}(n, A)$. It suffices to verify that the mapping $U \mapsto U^{-1}$ is continuous on $\mathbf{SL}(n, A)$; but as U is unimodular, it is known (*Algebra*, Chapter III, § 6, no. 5, formula (17)) that the elements of $U^{-1}$ are *minors* of U and hence polynomials in the elements of U, which proves our assertion. If K is identified with a subring of A by means of A, the group $\mathbf{SL}(n, K)$ is a subgroup of $\mathbf{SL}(n, A)$.
 
-#### Proposition 4 {#ac-vii-s2-prop-4 .statement}
+#### Proposition 4 {#ac-vii-s2-prop-4 .statement tag=050R}
 
 *The group $\mathbf{SL}(n, K)$ is dense in $\mathbf{SL}(n, A)$.*
 
@@ -177,23 +177,23 @@ Let G be the closure of $\mathbf{SL}(n, K)$ in $\mathbf{SL}(n, A)$; as K is dens
 
 ### 5. THE KRULL-AKIZUKI THEOREM
 
-#### Lemma 1 {#ac-vii-s2-lem-1 .statement}
+#### Lemma 1 {#ac-vii-s2-lem-1 .statement tag=050S}
 
 *Let $A$ be a Noetherian domain in which every non-zeroprime ideal is maximal and $M$ afinitely generated torsion $A$-module. Then the length $\operatorname{long}_A(M)$ of $M$ is infinite.*
 
 As $M$ is a torsion module, every prime ideal associated with $M$ is $\neq (0)$ and therefore maximal. The lemma then follows from Chapter IV, § 2, no. 5, Proposition 7.
 
-#### Lemma 2 {#ac-vii-s2-lem-2 .statement}
+#### Lemma 2 {#ac-vii-s2-lem-2 .statement tag=050T}
 
 *Let $A$ be a ring, $T$ an $A$-module and $(T_i)$ a right directed family of submodules of $T$ with union $T$. Then $\operatorname{long}_A(T) = \sup_i (\operatorname{long}_A(T_i))$.*
 
 $\operatorname{long}_A(T_i) \leq \operatorname{long}_A(T)$ for all $i$. The lemma is obvious if no integer exceeds the $\operatorname{long}_A(T_i)$, both sides then being infinite. Otherwise, let $i_0$ be an index for which $\operatorname{long}_A(T_{i_0})$ takes its greatest value; then $T_{i_0} = T$ since the family $(T_i)$ is directed; whence our assertion in this case.
 
-#### Remark {#ac-vii-s2-n5-rem-1 .statement}
+#### Remark {#ac-vii-s2-n5-rem-1 .statement tag=050U}
 
 This proof does not assume that $A$ is commutative.
 
-#### Lemma 3 {#ac-vii-s2-lem-3 .statement}
+#### Lemma 3 {#ac-vii-s2-lem-3 .statement tag=050V}
 
 *Let $A$ be a Noetherian domain such that every non-zero prime ideal $\& A$ is maximal, $M$ a torsion-free $A$-module of finite rank $r$ and a non-zero element of $A$. Then $A/Aa$ is an $A$-module of finite length and:*
 $$
@@ -241,7 +241,7 @@ $$
 
 by Lemma 2.
 
-#### Proposition 5 (Krull-Akizuki) {#ac-vii-s2-prop-5 .statement}
+#### Proposition 5 (Krull-Akizuki) {#ac-vii-s2-prop-5 .statement tag=050W}
 
 *Let A be a Noetherian domain each of whose non-zeroprime ideals is maximal, K its field of fractions, L a finite extension of K and B a subring of L containing A. Then B is Noetherian and every non-zero prime ideal of B is maximal. Moreover, for every ideal $b \neq (0)$ of B, B/b is a finitely generated A-module.*
 
@@ -257,13 +257,13 @@ This equation shows that $a_1 \in By \subset b$. Applying Lemma 3 to $M = B$, it
 
 The above shows first that B is Noetherian. On the other hand, if $p$ is a non-zero prime ideal of B, the ring $B/p$ is an integral domain and of finite length and hence is a field (*Algebra*, Chapter VIII, § 6, no. 4, Proposition 9), so that $p$ is maximal.
 
-#### Corollary 1 {#ac-vii-s2-prop-5-cor-1 .statement}
+#### Corollary 1 {#ac-vii-s2-prop-5-cor-1 .statement tag=050X}
 
 *For every prime ideal p of A, the set of prime ideals of B lying above p is finite.*
 
 Suppose first that $p = (0)$; then the only prime ideal $q$ of $B$ such that $q \cap A = (0)$ is $(0)$; otherwise, writing $S = A - \{0\}, S^{-1}q$ would be a non-zero prime ideal of $S^{-1}B$ (Chapter 11, § 2, no. 5, Proposition 11) and $S^{-1}B$ is just the field of fractions of $B$, for it is a subring of $L$ containing $K$ (\emph{Algebra}, Chapter V, § 3, no. 2, Proposition 3); whence an absurd conclusion. If now $p \neq (0)$, it follows from Proposition 5 that $B/pB$ is a finite-dimensional vector space over the field $A/p$, hence an \emph{Artinian} ring and therefore has only a finite number of prime ideals (Chapter IV, § 2, no. 5, Proposition 9), which proves that there is only a finite number of prime ideals of $B$ containing $p$.
 
-#### Corollary 2 {#ac-vii-s2-prop-5-cor-2 .statement}
+#### Corollary 2 {#ac-vii-s2-prop-5-cor-2 .statement tag=050Y}
 
 *The integral closure of $A$ in $L$ is a Dedekind domain.*
 
@@ -271,11 +271,11 @@ This integral closure is an integrally closed Noetherian domain all of whose non
 
 In particular:
 
-#### Corollary 3 {#ac-vii-s2-prop-5-cor-3 .statement}
+#### Corollary 3 {#ac-vii-s2-prop-5-cor-3 .statement tag=050Z}
 
 *The integral closure of a Dedekind domain in a finite extension of its field of fractions is a Dedekind domain.*
 
-#### Proposition 6 {#ac-vii-s2-prop-6 .statement}
+#### Proposition 6 {#ac-vii-s2-prop-6 .statement tag=0510}
 
 *Let $A$ be a Dedekind domain, $K$ its field of fractions, $L$ a finite extension of $K$ and $B$ the integral closure of $A$ in $L$. Let $p$ be a non-zero prime ideal of $A$, $v$ the corresponding essential valuation of $K$ and*
 

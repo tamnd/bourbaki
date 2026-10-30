@@ -36,21 +36,21 @@ subsections:
       pdf_page: 18
 statements: 23
 exercises: 10
-content_sha256: 73e1c216f190c4a5b8b9ac3bcb311f10065dd777660dd4ac88be63a245a65d52
+content_sha256: 58e7e7ac6a3ad11cabeda53bc73b7b82e652afa5b1b066d17b2b93edf5168904
 ---
 
 ## § 1. ENSEMBLES OUVERTS; VOISINAGES; ENSEMBLES FERMÉS
 
 ### 1. Ensembles ouverts
 
-#### Définition 1 {#top-i-s1-def-1 .statement}
+#### Définition 1 {#top-i-s1-def-1 .statement tag=0AZ1}
 
 On appelle structure topologique (ou plus brièvement topologie) sur un ensemble $X$ une structure constituée par la donnée d’un ensemble $\mathscr{O}$ de parties de $X$ possédant les propriétés suivantes (dites axiomes des structures topologiques):
 $(O_I)$ Toute réunion d’ensembles de $\mathscr{O}$ est un ensemble de $\mathscr{O}$.
 $(O_{II})$ Toute intersection finie d’ensembles de $\mathscr{O}$ est un ensemble de $\mathscr{O}$.
 Les ensembles de $\mathscr{O}$ sont appelés ensembles ouverts de la structure topologique définie par $\mathscr{O}$ sur $X$.
 
-#### Définition 2 {#top-i-s1-def-2 .statement}
+#### Définition 2 {#top-i-s1-def-2 .statement tag=0AZ2}
 
 On appelle espace topologique un ensemble muni d’une structure topologique.
 
@@ -66,13 +66,13 @@ Exemples de topologies. — Sur un ensemble quelconque X, l’ensemble de partie
 
 Un recouvrement $(U_i)_{i \in I}$ d’une partie A d’un espace topologique X (E, II, p. 27) est dit ouvert si tous les $U_i$ sont ouverts dans X.
 
-#### Définition 3 {#top-i-s1-def-3 .statement}
+#### Définition 3 {#top-i-s1-def-3 .statement tag=0AZ3}
 
 On appelle homéomorphisme d’un espace topologique X sur un espace topologique $X'$ un isomorphisme de la structure topologique de X sur celle de $X'$; c’est-à-dire, conformément aux définitions générales (E, IV, p. 6) une bijection de X sur $X'$ qui transforme l’ensemble des parties ouvertes de X en l’ensemble des parties ouvertes de $X'$.
 
 On dit que X et $X'$ sont homéomorphes lorsqu’il existe un homéomorphisme de X sur $X'$.
 
-#### Exemple {#top-i-s1-n1-exa-1 .statement}
+#### Exemple {#top-i-s1-n1-exa-1 .statement tag=0AZ4}
 
 Si X et $X'$ sont deux espaces discrets, toute bijection de X sur $X'$ est un homéomorphisme.
 
@@ -80,13 +80,13 @@ La définition d’un homéomorphisme se transforme aussitôt en le critère sui
 
 ### 2. Voisinages
 
-#### Définition 4 {#top-i-s1-def-4 .statement}
+#### Définition 4 {#top-i-s1-def-4 .statement tag=0AZ5}
 
 Dans un espace topologique X, on appelle voisinage d’une partie A de X tout ensemble qui contient un ensemble ouvert contenant A. Les voisinages d’une partie $\{x\}$ réduite à un seul point s’appellent aussi voisinages du point x.
 
 Il est clair que tout voisinage d’une partie A de X est aussi un voisinage de toute partie $B \subset A$; en particulier, c’est un voisinage de tout point de A. Réciproquement, soit A un voisinage de chacun des points d’un ensemble B, et soit U la réunion des ensembles ouverts contenus dans A; on a $U \subset A$, et comme tout point de B appartient à un ensemble ouvert contenu dans A, on a $B \subset U$; mais U est ouvert en vertu de $(O_I)$, donc A est un voisinage de B. En particulier:
 
-#### Proposition 1 {#top-i-s1-prop-1 .statement}
+#### Proposition 1 {#top-i-s1-prop-1 .statement tag=0AZ6}
 
 Pour qu’un ensemble soit un voisinage de chacun de ses points, il faut et il suffit qu’il soit ouvert.
 
@@ -110,7 +110,7 @@ On peut encore exprimer cette propriété en disant qu’un voisinage de $x$ est
 
 Ces quatre propriétés des ensembles $\mathfrak{V}(x)$ sont caractéristiques; de façon précise:
 
-#### Proposition 2 {#top-i-s1-prop-2 .statement}
+#### Proposition 2 {#top-i-s1-prop-2 .statement tag=0AZ7}
 
 *Si, à chaque élément $x$ d’un ensemble X, on fait correspondre un ensemble $\mathfrak{V}(x)$ de parties de X de sorte que les propriétés (V_I), (V_{II}), (V_{III}) et (V_{IV}) soient vérifiées, il existe une structure topologique et une seule sur X, telle que, pour tout $x \in X$, $\mathfrak{V}(x)$ soit l’ensemble des voisinages de $x$ pour cette topologie.*
 
@@ -125,13 +125,13 @@ C.Q.F.D.
 
 La prop. 2 montre qu’on peut définir une topologie sur $X$ en se donnant les ensembles $\mathfrak{V}(x)$ des voisinages des points de $X$, soumis seulement aux axiomes $(V_I)$, $(V_{II})$, $(V_{III})$ et $(V_{IV})$.
 
-#### Exemple {#top-i-s1-n2-exa-1 .statement}
+#### Exemple {#top-i-s1-n2-exa-1 .statement tag=0AZ8}
 
 *On définit une topologie sur l’ensemble $\mathbf{Q}$ des nombres rationnels en prenant pour ensembles ouverts de cette topologie les réunions d’intervalles ouverts bornés; en effet, l’ensemble de ces parties satisfait bien à $(O_I)$, et pour voir qu’il satisfait à $(O_{II})$, il suffit de remarquer que si l’intersection de deux intervalles ouverts ]$a, b[$ et ]$c, d[$ n’est pas vide, elle est identique à l’intervalle ouvert ]$a, \beta[$, où $\alpha = \sup(a, c)$ et $\beta = \inf(b, d)$. On obtient la même topologie en définissant pour chaque $x \in \mathbf{Q}$ l’ensemble $\mathfrak{V}(x)$ des voisinages de ce point comme l’ensemble des parties contenant un intervalle ouvert auquel appartient $x$. L’espace topologique obtenu en munissant $\mathbf{Q}$ de cette topologie est appelé droite rationnelle (cf. IV, p. 2). On remarquera que dans cet espace, tout intervalle ouvert est un ensemble ouvert. *On définit de la même manière une topologie sur l’ensemble $\mathbf{R}$ des nombres réels; $\mathbf{R}$, muni de cette topologie, est appelé droite numérique (cf. I. p. 91, exerc. 5 et IV, p. 3).*
 
 ### 3. Systèmes fondamentaux de voisinages; bases d’une topologie
 
-#### Définition 5 {#top-i-s1-def-5 .statement}
+#### Définition 5 {#top-i-s1-def-5 .statement tag=0AZ9}
 
 Dans un espace topologique $X$, on appelle système fondamental de voisinages d’un point $x$ (resp. d’une partie $A$ de $X$) tout ensemble $\mathfrak{G}$ de voisinages de $x$ (resp. $A$) tel que pour tout voisinage $V$ de $x$ (resp. $A$), il existe un voisinage $W \in \mathfrak{G}$ tel que $W \subset V$.
 
@@ -141,27 +141,27 @@ Si $\mathfrak{G}$ est un système fondamental de voisinages d’une partie $A$ d
 2) Sur la droite rationnelle $\mathbf{Q}$ (I, p. 4), l’ensemble des intervalles ouverts contenant un point $x$ est un système fondamental de voisinages de ce point. Il en est de même de l’ensemble des intervalles ouverts $\left] x - \frac{1}{n}, x + \frac{1}{n} \right[$, et de l’ensemble des intervalles fermés $\left[ x - \frac{1}{n}, x + \frac{1}{n} \right]$, où $n$ prend toutes les valeurs entières $> 0$, ou seulement une suite infinie strictement croissante de valeurs entières $> 0$.
 *On a des résultats analogues pour la droite numérique.*
 
-#### Définition 6 {#top-i-s1-def-6 .statement}
+#### Définition 6 {#top-i-s1-def-6 .statement tag=0AZA}
 
 On appelle base de la topologie d’un espace topologique X tout ensemble $\mathfrak{B}$ de parties ouvertes de X tel que tout ensemble ouvert de X soit réunion d’ensembles appartenant à $\mathfrak{B}$.
 
-#### Proposition 3 {#top-i-s1-prop-3 .statement}
+#### Proposition 3 {#top-i-s1-prop-3 .statement tag=0AZB}
 
 Dans un espace topologique, pour qu’un ensemble $\mathfrak{B}$ de parties ouvertes de X soit une base de la topologie de X, il faut et il suffit que pour tout $x \in X$, l’ensemble des $V \in \mathfrak{B}$ tels que $x \in V$ soit un système fondamental de voisinages de x.
 
 La condition est évidemment nécessaire. Inversement, si elle est satisfaite, pour tout ensemble ouvert U, et tout $x \in U$, il existe un ensemble ouvert $V_x \in \mathfrak{B}$ tel que $x \in V_x \subset U$. La réunion des $V_x$ pour $x \in U$ est donc égale à U, ce qui achève la démonstration.
 
-#### Exemple 1 {#top-i-s1-n3-exa-1 .statement}
+#### Exemple 1 {#top-i-s1-n3-exa-1 .statement tag=0AZC}
 
 La topologie discrète a pour base l’ensemble des parties réduites à un seul élément.
 
-#### Exemple 2 {#top-i-s1-n3-exa-2 .statement}
+#### Exemple 2 {#top-i-s1-n3-exa-2 .statement tag=0AZD}
 
 L’ensemble des intervalles ouverts bornés est par définition une base de la topologie de la droite rationnelle (I, p. 4). *L’ensemble des intervalles ouverts bornés est de même une base de la topologie de la droite numérique.*
 
 ### 4. Ensembles fermés
 
-#### Définition 7 {#top-i-s1-def-7 .statement}
+#### Définition 7 {#top-i-s1-def-7 .statement tag=0AZE}
 
 Dans un espace topologique X, on appelle ensembles fermés les complémentaires des ensembles ouverts de X.
 
@@ -181,7 +181,7 @@ Un homéomorphisme f d’un espace topologique X sur un espace topologique X’ 
 
 ### 5. Familles localement finies
 
-#### Définition 8 {#top-i-s1-def-8 .statement}
+#### Définition 8 {#top-i-s1-def-8 .statement tag=0AZF}
 
 On dit qu’une famille $(A_i)_{i \in I}$ de parties d’un espace topologique $X$ est localement finie si, pour tout $x \in X$, il existe un voisinage $V$ de $x$ tel que $V \cap A_i = \varnothing$ sauf pour un nombre fini d’indices $i \in I$. On dit qu’un ensemble $\mathfrak{G}$ de parties de $X$ est localement fini si la famille de parties définie par l’application identique de $\mathfrak{G}$ sur lui-même est localement finie.
 
@@ -191,7 +191,7 @@ Toute famille *finie* de parties d’un espace topologique $X$ est évidemment l
 
 Par exemple, dans $\mathbf{Q}$, le recouvrement ouvert formé de l’intervalle $]{\leftarrow}, 1[$ et des intervalles $]n, {\rightarrow}[$ pour tout entier $n \geq 0$ est localement fini; on observera que chaque intervalle $]n, {\rightarrow}[$ rencontre une infinité d'ensembles du recouvrement précédent.
 
-#### Proposition 4 {#top-i-s1-prop-4 .statement}
+#### Proposition 4 {#top-i-s1-prop-4 .statement tag=0AZG}
 
 La réunion d'une famille localement finie de parties fermées d'un espace topologique $X$ est fermée dans $X$.
 
@@ -201,13 +201,13 @@ On notera que la réunion d'une famille *quelconque* de parties fermées de $X$ 
 
 ### 6. Intérieur, adhérence, frontière d'un ensemble; ensembles partout denses
 
-#### Définition 9 {#top-i-s1-def-9 .statement}
+#### Définition 9 {#top-i-s1-def-9 .statement tag=0AZH}
 
 Dans un espace topologique $X$, on dit qu'un point $x$ est intérieur à une partie $A$ de $X$ lorsque $A$ est un voisinage de $x$. L'ensemble des points intérieurs à $A$ s'appelle l'intérieur de $A$ et se note $\overset{\circ}{A}$.
 
 D'après la déf. 9 et I, p. 2, déf. 4, un point $x$ est intérieur à $A$ s'il existe un ensemble ouvert contenu dans $A$ et contenant $x$; il en résulte que $\overset{\circ}{A}$ est la réunion des ensembles ouverts contenus dans $A$, et par suite est *le plus grand ensemble ouvert contenu dans* $A$: en d'autres termes, si $B$ est un ensemble *ouvert* contenu dans $A$, on a $B \subset \overset{\circ}{A}$. Par suite, si $A$ et $B$ sont deux parties de $X$ telles que $B \subset A$, on a $\overset{\circ}{B} \subset \overset{\circ}{A}$; pour que $A$ soit un voisinage de $B$, il faut et il suffit que $B \subset \overset{\circ}{A}$.
 
-#### Remarque {#top-i-s1-n6-rem-1 .statement}
+#### Remarque {#top-i-s1-n6-rem-1 .statement tag=0AZI}
 
 L'intérieur d'un ensemble non vide peut être vide; c'est le cas pour un ensemble réduit à un seul point lorsqu'il n'est pas ouvert, par exemple dans la droite rationnelle *(ou la droite numérique)*.
 
@@ -222,7 +222,7 @@ $$
 
 Tout point intérieur au complémentaire d’un ensemble A est dit extérieur à A, et l’ensemble de ces points s’appelle l’extérieur de A dans X; un point $x \in X$ extérieur à A est donc caractérisé par la propriété qu’il existe un voisinage de x ne rencontrant pas A.
 
-#### Définition 10 {#top-i-s1-def-10 .statement}
+#### Définition 10 {#top-i-s1-def-10 .statement tag=0AZJ}
 
 Dans un espace topologique X, on dit qu’un point x est adhérent à un ensemble A lorsque tout voisinage de x rencontre A. L’ensemble des points adhérents à A s’appelle adhérence de A et se note $\overline{A}$.
 
@@ -244,7 +244,7 @@ A la formule (1) correspond par passage aux complémentaires la formule
 \overline{A \cup B} = \overline{A} \cup \overline{B}.
 $$
 
-#### Proposition 5 {#top-i-s1-prop-5 .statement}
+#### Proposition 5 {#top-i-s1-prop-5 .statement tag=0AZK}
 
 Soit A un ensemble ouvert dans X; pour toute partie B de X, on a
 
@@ -258,22 +258,22 @@ Si x est un point adhérent à A mais n’appartenant pas à A, tout voisinage d
 
 Un ensemble fermé dont aucun point n’est isolé est appelé ensemble *parfait*.
 
-#### Définition 11 {#top-i-s1-def-11 .statement}
+#### Définition 11 {#top-i-s1-def-11 .statement tag=0AZL}
 
 *Dans un espace topologique* $X$, *un point* $x$ *est dit point frontière d’un ensemble* $A$, *s’il est à la fois adhérent à* $A$ *et à* $\overline{CA}$; *l’ensemble des points frontières de* $A$ *s’appelle frontière de* $A$.
 
 La frontière de $A$ est donc l’ensemble $\overline{A} \cap \overline{CA}$, qui est *fermé*. Un point frontière $x$ de $A$ est caractérisé par la propriété que tout voisinage de $x$ contient au moins un point de $A$ et au moins un point de $CA$; il peut ou non appartenir à $A$. La frontière de $A$ est identique à celle de $CA$; si on considère l’intérieur de $A$, l’extérieur de $A$ et la frontière de $A$, ceux de ces trois ensembles qui ne sont pas vides constituent une *partition de* $X$.
 
-#### Définition 12 {#top-i-s1-def-12 .statement}
+#### Définition 12 {#top-i-s1-def-12 .statement tag=0AZM}
 
 *On dit qu’une partie* $A$ *d’un espace topologique* $X$ *est dense dans* $X$ *(ou encore est* *partout dense, lorsqu’il n’en résulte pas de confusion sur* $X$) *si* $\overline{A} = X$, *autrement dit si pour toute partie ouverte non vide* $U$ *de* $X$, $U \cap A$ *est non vide*.
 
-#### Exemple {#top-i-s1-n6-exa-1 .statement}
+#### Exemple {#top-i-s1-n6-exa-1 .statement tag=0AZN}
 
 *On verra dans IV, p. 3 que l’ensemble des nombres rationnels et son complémentaire sont partout denses dans la droite numérique.* \*
 Dans un espace discret $X$, il n’existe pas d’ensemble partout dense distinct de $X$. Par contre, tout ensemble non vide est partout dense pour la topologie sur $X$ dont les seuls ensembles ouverts sont $\varnothing$ et $X$.
 
-#### Proposition 6 {#top-i-s1-prop-6 .statement}
+#### Proposition 6 {#top-i-s1-prop-6 .statement tag=0AZO}
 
 *Si* $\mathfrak{B}$ *est une base de la topologie d’un espace topologique* $X$, *il existe dans* $X$ *un ensemble partout dense* $D$ *tel que* $\mathrm{Card}(D) \leqslant \mathrm{Card}(\mathfrak{B})$.
 

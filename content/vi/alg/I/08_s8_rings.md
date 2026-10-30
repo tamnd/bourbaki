@@ -61,9 +61,9 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 16
-content_sha256: 6b77946a23d44380ad291cf28eed7035ec2ab7e63a9b0b42a8ec747234203d80
+content_sha256: 76767b766940e821036df14fe8e55831454a8c75a90d5f06d6082174d587d508
 translated_from: content/en/alg/I/08_s8_rings.md
-source_content_sha256: da17e67ddd692f1811c8812e3f657d4bdb2abcac80cb2aa04bd9a2e1efe428cc
+source_content_sha256: 9e2e678718b8b04bcfb806c30df7ec34dec70b897c7a14a41eee1a9ca40499a1
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-d5395ffa
 glossary_version: 34
@@ -75,7 +75,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. VÀNH
 
-#### Định nghĩa 1 {#alg-i-s8-def-1 .statement}
+#### Định nghĩa 1 {#alg-i-s8-def-1 .statement tag=05H2}
 
 *Một vành là một tập hợp* $\mathbf{A}$ *với hai luật hợp thành lần lượt được gọi là phép cộng và phép nhân, thỏa mãn các tiên đề sau*:
 
@@ -147,7 +147,7 @@ $$
 $$
 trong đó tổng được lấy trên tất cả các dãy $(\alpha_1, \ldots, \alpha_n)$ thuộc $L_1 \times \cdots \times L_n$ và với $i = 1, \ldots, n$ họ $(x_{i,\lambda})_{\lambda \in L_i}$ các phần tử của vành A có giá hữu hạn.
 
-#### Mệnh đề 1 {#alg-i-s8-prop-1 .statement}
+#### Mệnh đề 1 {#alg-i-s8-prop-1 .statement tag=05H3}
 
 Cho A là một vành giao hoán và $(x_\lambda)_{\lambda \in L}$ là một họ hữu hạn các phần tử của A. Với mỗi họ các số nguyên dương $\beta = (\beta_\lambda)_{\lambda \in L}$, đặt $|\beta| = \sum_{\lambda \in L} \beta_\lambda$. Khi đó
 $$
@@ -183,7 +183,7 @@ $$
 
 và công thức (14) do đó suy ra từ (15).
 
-#### Hệ quả 1 (công thức nhị thức) {#alg-i-s8-prop-1-cor-1 .statement}
+#### Hệ quả 1 (công thức nhị thức) {#alg-i-s8-prop-1-cor-1 .statement tag=05H4}
 
 *Cho x và y là hai phần tử của một vành giao hoán A. Khi đó*:
 
@@ -199,7 +199,7 @@ $$
 
 tổng được lấy trên các cặp số nguyên dương có thứ tự $p, q$ với $p + q = n$. Công thức nhị thức suy ra ngay lập tức từ điều này (*Lý thuyết tập hợp*, III, § 5, no. 8).
 
-#### Hệ quả 2 {#alg-i-s8-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-i-s8-prop-1-cor-2 .statement tag=05H5}
 
 *Cho A là một vành giao hoán, X là một tập hợp, $\mathbf{u} = (u_x)_{x \in X}$ và $\mathbf{v} = (v_x)_{x \in X}$ là hai họ phần tử của A. Ký hiệu $\mathbf{u} + \mathbf{v}$ là họ $(u_x + v_x)_{x \in X}$. Với mọi $\lambda \in \mathbf{N}^{(X)}$ ta viết $\lambda! = \prod_{x \in X} \lambda(x)!$. Khi đó với mọi $\alpha \in \mathbf{N}^{(X)}$, theo ký hiệu ở § 7, no. 8,*
 
@@ -215,7 +215,7 @@ $$
 
 theo Hệ quả 1. Lấy tích của các đẳng thức này theo $x \in X$ và dùng (13), ta thu được hệ quả.
 
-#### Mệnh đề 2 {#alg-i-s8-prop-2 .statement}
+#### Mệnh đề 2 {#alg-i-s8-prop-2 .statement tag=05H6}
 
 *Cho $A$ là một vành, $x_1, \ldots, x_n$ là các phần tử của $A$ và $I = \{1, 2, \ldots, n\}$. Với $H \subset I$, ta viết $x_H = \sum_{i \in H} x_i$. Khi đó*
 
@@ -287,7 +287,7 @@ VII. *Vành giả bình phương không.* Một vành giả A được gọi là
 
 ### 4. ĐỒNG CẤU VÀNH
 
-#### Định nghĩa 2 {#alg-i-s8-def-2 .statement}
+#### Định nghĩa 2 {#alg-i-s8-def-2 .statement tag=05H7}
 
 *Cho A và B là hai vành. Một cấu xạ, hay đồng cấu, từ A vào B là một ánh xạ f từ A vào B thỏa mãn các quan hệ:*
 
@@ -301,7 +301,7 @@ Hợp thành của hai đồng cấu vành là một đồng cấu vành. Cho A 
 
 Cho $f : A \to B$ là một đồng cấu vành. Ánh xạ $f$ là một đồng cấu của nhóm cộng của A vào nhóm cộng của B; đặc biệt, $f(0) = 0$ và $f(-x) = -f(x)$ với mọi $x \in A$. Ảnh qua $f$ của một phần tử khả nghịch của A là một phần tử khả nghịch của B và $f$ cảm sinh một đồng cấu của nhóm nhân của A vào nhóm nhân của B.
 
-#### Ví dụ {#alg-i-s8-n4-exa-1 .statement}
+#### Ví dụ {#alg-i-s8-n4-exa-1 .statement tag=05H8}
 
 (1) Cho A là một vành. Ta thấy ngay lập tức rằng ánh xạ $n \mapsto n \cdot 1$ từ $\mathbf{Z}$ vào A là đồng cấu duy nhất từ $\mathbf{Z}$ vào A. Đặc biệt, ánh xạ đồng nhất của $\mathbf{Z}$ là tự đồng cấu duy nhất của vành $\mathbf{Z}$.
 
@@ -320,7 +320,7 @@ Nó là song ánh, vì quan hệ $x' = axa^{-1}$ tương đương với $x = a^{
 
 ### 5. VÀNH CON
 
-#### Định nghĩa 3 {#alg-i-s8-def-3 .statement}
+#### Định nghĩa 3 {#alg-i-s8-def-3 .statement tag=05H9}
 
 Cho $A$ là một vành. Một vành con của $A$ là một tập con $B$ của $A$ là một nhóm con của $A$ đối với phép cộng, ổn định đối với phép nhân và chứa phần tử khả nghịch của $A$.
 
@@ -332,7 +332,7 @@ $$
 
 Nếu $B$ là một vành con của $A$, nó được trang bị phép cộng và phép nhân cảm sinh bởi các phép đó trên $A$, những phép toán này làm cho nó trở thành một vành. Đơn ánh chính tắc của $B$ vào $A$ là một đồng cấu vành.
 
-#### Ví dụ {#alg-i-s8-n5-exa-1 .statement}
+#### Ví dụ {#alg-i-s8-n5-exa-1 .statement tag=05HA}
 
 (1) Mọi nhóm con của nhóm cộng $\mathbf{Z}$ chứa 1 đều bằng $\mathbf{Z}$. Do đó $\mathbf{Z}$ là vành con duy nhất của $\mathbf{Z}$.
 
@@ -344,7 +344,7 @@ Nếu $B$ là một vành con của $A$, nó được trang bị phép cộng v�
 
 ### 6. IĐÊAN
 
-#### Định nghĩa 4 {#alg-i-s8-def-4 .statement}
+#### Định nghĩa 4 {#alg-i-s8-def-4 .statement tag=05HB}
 
 Cho $A$ là một vành. Một tập con $a$ của $A$ được gọi là một iđêan trái (tương ứng phải) nếu nó là một nhóm con của nhóm cộng của $A$ và các quan hệ $a \in A, x \in a$ kéo theo $ax \in a$ (tương ứng $xa \in a$). $a$ được gọi là một iđêan hai phía của $A$ nếu nó vừa là một iđêan trái vừa là một iđêan phải của $A$.
 
@@ -358,7 +358,7 @@ quan hệ $-a \subset a$ suy ra từ công thức $(-1).x = -x$ và $A.a \subset
 
 Các iđêan trái trong vành $A$ chính là các iđêan phải của vành đối $A^0$. Trong một vành giao hoán, ba loài iđêan là như nhau; chúng đơn giản được gọi là iđêan.
 
-#### Ví dụ {#alg-i-s8-n6-exa-1 .statement}
+#### Ví dụ {#alg-i-s8-n6-exa-1 .statement tag=05HC}
 
 (1) Cho $A$ là một vành. Tập hợp $A$ là một iđêan hai phía của $A$; tập hợp gồm 0 cũng vậy, và nó được gọi là iđêan không và đôi khi được ký hiệu bởi 0 hoặc $(0)$ thay cho $\{0\}$.
 
@@ -370,19 +370,19 @@ Các iđêan trái trong vành $A$ chính là các iđêan phải của vành đ
 
 Cho $a$ là một iđêan trái của $A$. Các điều kiện $1 \notin a, a \neq A$ hiển nhiên tương đương.
 
-#### Định nghĩa 5 {#alg-i-s8-def-5 .statement}
+#### Định nghĩa 5 {#alg-i-s8-def-5 .statement tag=05HD}
 
 *Cho $A$ là một vành. Theo lối nói không chặt, một iđêan trái $a$ được gọi là cực đại nếu nó là một phần tử cực đại của tập hợp các iđêan trái khác với $A$. \*
 
 Nói cách khác, $a$ là cực đại nếu $a \neq A$ và các iđêan trái của $A$ chứa $a$ chỉ là $a$ và $A$.
 
-#### Định lý 1 (Krull) {#alg-i-s8-thm-1 .statement}
+#### Định lý 1 (Krull) {#alg-i-s8-thm-1 .statement tag=05HE}
 
 *Cho $A$ là một vành và $a$ là một iđêan trái của $A$ khác với $A$. Tồn tại một iđêan cực đại $m$ của $A$ chứa $a$. \*
 
 Xem $A$ như tác động lên nhóm cộng $A^+$ của $A$ bởi phép nhân trái. Khi đó các iđêan trái của $A$ là các nhóm con ổn định của $A^+$. Định lý do đó suy ra từ § 4, no. 3, Mệnh đề 3 được áp dụng cho tập con $P = \{1\}$ của $A^+$.
 
-#### Mệnh đề 3 {#alg-i-s8-prop-3 .statement}
+#### Mệnh đề 3 {#alg-i-s8-prop-3 .statement tag=05HF}
 
 *Cho $A$ là một vành, $(x_\lambda)_{\lambda \in L}$ là một họ các phần tử của $A$ và $a$ (tương ứng $b$) là tập hợp các tổng $\sum_{\lambda \in L} a_\lambda x_\lambda$ trong đó $(a_\lambda)_{\lambda \in L}$ là một họ có giá hữu hạn các phần tử của $A$ (tương ứng $\sum_{\lambda \in L} a_\lambda x_\lambda b_\lambda$ trong đó $(a_\lambda)_{\lambda \in L}, (b_\lambda)_{\lambda \in L}$ là các họ có giá hữu hạn các phần tử của $A$). Khi đó $a$ (tương ứng $b$) là iđêan trái (tương ứng hai phía) của $A$ được sinh bởi các phần tử $x_\lambda$.
 
@@ -400,7 +400,7 @@ $$
 
 chứng minh rằng $a$ là một iđêan trái. Cho $a'$ là một iđêan trái sao cho $x_\lambda \in a'$ với mọi $\lambda \in L$ và cho $(a_\lambda)_{\lambda \in L}$ là một họ có giá hữu hạn trong $A$. Khi đó $a_\lambda x_\lambda \in a'$ với mọi $\lambda \in L$, do đó $\sum_{\lambda \in L} a_\lambda x_\lambda \in a'$; suy ra $a \subset a'$. Do đó $a$ là iđêan trái của $A$ được sinh bởi các $x_\lambda$. Lập luận cho $b$ là tương tự.
 
-#### Mệnh đề 4 {#alg-i-s8-prop-4 .statement}
+#### Mệnh đề 4 {#alg-i-s8-prop-4 .statement tag=05HG}
 
 *Cho $A$ là một vành và $(a_\lambda)_{\lambda \in L}$ là một họ các iđêan trái của $A$. Iđêan trái sinh bởi $\bigcup_{\lambda \in L} a_\lambda$ gồm các tổng $\sum_{\lambda \in L} y_\lambda$ trong đó $(y_\lambda)_{\lambda \in L}$ là một họ có giá hữu hạn sao cho $y_\lambda \in a_\lambda$ với mọi $\lambda \in L$.*
 
@@ -425,13 +425,13 @@ $$
 $$
 và hệ thức $(\xi + \eta)\zeta = \xi\zeta + \eta\zeta$ được thiết lập tương tự.
 
-#### Định nghĩa 6 {#alg-i-s8-def-6 .statement}
+#### Định nghĩa 6 {#alg-i-s8-def-6 .statement tag=05HH}
 
 Cho $A$ là một vành và $a$ là một iđêan hai phía của $A$. Vành thương của $A$ theo $a$, ký hiệu là $A/a$, là tập thương của $A$ theo quan hệ tương đương $x \equiv y(a)$, với phép cộng và phép nhân là các phép thương của những phép toán đó trên $A$.
 
 Vành $A/\{0\}$ đẳng cấu với $A$ và $A/A$ là một vành không.
 
-#### Định lý 2 {#alg-i-s8-thm-2 .statement}
+#### Định lý 2 {#alg-i-s8-thm-2 .statement tag=05HI}
 
 Cho $A$ là một vành và $a$ là một iđêan hai phía của $A$.
 (a) Ánh xạ chính tắc $\pi$ của $A$ lên $A/a$ là một đồng cấu vành.
@@ -447,7 +447,7 @@ $$
 
 và $\bar{f}(\varepsilon) = f(\pi(1)) = f(1)$, do đó $\bar{f}$ là một đồng cấu vành.
 
-#### Định lý 3 {#alg-i-s8-thm-3 .statement}
+#### Định lý 3 {#alg-i-s8-thm-3 .statement tag=05HJ}
 
 Cho $A$ và $B$ là các vành và $f$ là một đồng cấu từ $A$ vào $B$.
 (a) Hạt nhân $a$ của $f$ là một iđêan hai phía của $B$.
@@ -458,7 +458,7 @@ Vì $f$ là một cấu xạ của nhóm cộng của $A$ vào nhóm cộng củ
 
 ### 8. CÁC VÀNH CON VÀ CÁC IĐÊAN TRONG MỘT VÀNH THƯƠNG
 
-#### Mệnh đề 5 {#alg-i-s8-prop-5 .statement}
+#### Mệnh đề 5 {#alg-i-s8-prop-5 .statement tag=05HK}
 
 Cho $A$ và $A'$ là hai vành, $f$ là một đồng cấu từ $A$ vào $A'$ và $a$ là hạt nhân của $f$.
 (a) Cho $B'$ là một vành con của $A'$. Khi đó $B = f^{-1}(B')$ là một vành con của $A$ chứa $a$. Nếu $f$ là toàn ánh, thì $f(B) = B'$ và $f|_B$ xác định khi chuyển qua thương một đẳng cấu của $B/a$ lên $B'$.
@@ -474,11 +474,11 @@ Cấu xạ hợp thành $g : A \to A' \to A'/b'$ xét trong (c) có hạt nhân 
 
 Giả sử $f$ là toàn ánh. Theo trên, ánh xạ $\theta : B' \mapsto \bar{f}(B')^{-1}$ là một ánh xạ từ $\Phi'$ vào $\Phi$. Rõ ràng ánh xạ $\eta : B \mapsto f(B)$ là một ánh xạ từ $\Phi$ vào $\Phi'$. Khi đó $\theta \circ \eta = \mathrm{Id}_{\Phi}, \eta \circ \theta = \mathrm{Id}_{\Phi'},$ do đó (d).
 
-#### Nhận xét {#alg-i-s8-n8-rem-1 .statement}
+#### Nhận xét {#alg-i-s8-n8-rem-1 .statement tag=05HL}
 
 Trong ký hiệu trên, $\theta$ và $\eta$ là các đẳng cấu tập hợp có thứ tự ($\Phi$ và $\Phi'$ được sắp thứ tự theo bao hàm).
 
-#### Hệ quả {#alg-i-s8-n8-cor-1 .statement}
+#### Hệ quả {#alg-i-s8-n8-cor-1 .statement tag=05HM}
 
 *Cho $A$ là một vành và $a$ là một iđêan hai phía của $A$.
 (a) Mọi iđêan trái (tương ứng phải, hai phía) của $A/a$ đều viết được duy nhất dưới dạng $b/a$, trong đó $b$ là một iđêan trái (tương ứng phải, hai phía) của $A$ chứa $a$.
@@ -498,7 +498,7 @@ $$
 
 (21)
 
-#### Mệnh đề 6 {#alg-i-s8-prop-6 .statement}
+#### Mệnh đề 6 {#alg-i-s8-prop-6 .statement tag=05HN}
 
 *Cho $a, b_1, \ldots, b_n$ là các iđêan hai phía của $A$. Nếu $A = a + b_i$ với mọi $i$, thì $A = a + b_1 b_2 \ldots b_n = a + (b_1 \cap b_2 \cap \cdots \cap b_n)$.*
 
@@ -508,7 +508,7 @@ $$
 $$
 suy ra $A = a + b_1 b_2$.
 
-#### Mệnh đề 7 {#alg-i-s8-prop-7 .statement}
+#### Mệnh đề 7 {#alg-i-s8-prop-7 .statement tag=05HO}
 
 *Cho $b_1, \ldots, b_n$ là các iđêan hai phía của $A$ sao cho $b_i + b_j = A$ với $i \neq j$. Khi đó $b_1 \cap b_2 \cap \cdots \cap b_n = \sum_{\sigma \in S_n} b_{\sigma(1)} b_{\sigma(2)} \cdots b_{\sigma(n)}$. Đặc biệt, nếu $A$ giao hoán, $b_1 \cap b_2 \cap \cdots \cap b_n = b_1 b_2 \ldots b_n$ (xem Bài tập 2).*
 
@@ -572,7 +572,7 @@ $$
 
 với $i \neq j$. Nếu $I$ hữu hạn, thì $\sum_{i \in I} e_i = 1$, nhóm cộng $A$ là tổng trực tiếp của các iđêan hai phía $a_i$ và nếu $x \in A$ thì thành phần của nó trong $a_i$ là $x e_i$. Mệnh đề sau được suy ra ngay lập tức.
 
-#### Mệnh đề 8 {#alg-i-s8-prop-8 .statement}
+#### Mệnh đề 8 {#alg-i-s8-prop-8 .statement tag=05HP}
 
 *Giả sử $I$ hữu hạn. Nếu $b$ là một iđêan trái hoặc phải của $A$, thì $b$ là tổng trực tiếp của các $b \cap a_i$.*
 
@@ -586,17 +586,17 @@ $$
 
 trong đó $\phi_i$ là đồng cấu chính tắc của $A$ lên $A/b_i$, là đồng cấu chính tắc của $A$ vào $\prod_{i \in I} (A/b_i)$.
 
-#### Mệnh đề 9 {#alg-i-s8-prop-9 .statement}
+#### Mệnh đề 9 {#alg-i-s8-prop-9 .statement tag=05HQ}
 
 *Cho $A$ là một vành và $(b_1, \ldots, b_n)$ là các i-đê-an hai phía của $A$ sao cho $b_i + b_j = A$ với $i \neq j$. Đồng cấu chính tắc của $A$ vào $\prod_{i=1}^n (A/b_i)$ là toàn ánh với hạt nhân $\bigcap_{i=1}^n b_i = \sum_{\sigma \in S_n} b_{\sigma(1)} b_{\sigma(2)} \cdots b_{\sigma(n)}.$*
 
 Rõ ràng hạt nhân là $\bigcap_{i=1}^n b_i$. Để chứng minh tính toàn ánh, cần chỉ ra rằng, với mọi họ $(x_i)_{1 \leq i \leq n}$ các phần tử của $A$, tồn tại $x \in A$ sao cho $x \equiv x_i (b_i)$ với mọi $1 \leq i \leq n$. Ta chứng minh mệnh đề này bằng quy nạp theo lực lượng $n$ của $I$, trường hợp $n \leq 1$ là tầm thường. Theo giả thiết quy nạp, tồn tại $y \in A$ sao cho $y \equiv x_i (b_i)$ với $1 \leq i \leq n-1$. Ta tìm một $x$ có dạng $y + z$ với $z \in A$. Tất yếu $z \equiv 0 (b_i)$ với $i < n$, tức là $z \in b = \bigcap_{i=1}^{n-1} b_i$, và mặt khác $z \equiv x_n - y (b_n)$. Bây giờ $b_n + b = A$ theo no. 9, Mệnh đề 6, do đó tồn tại $z$. Cuối cùng, biểu thức thứ hai của hạt nhân suy ra từ no. 9, Mệnh đề 7.
 
-#### Định nghĩa 7 {#alg-i-s8-def-7 .statement}
+#### Định nghĩa 7 {#alg-i-s8-def-7 .statement tag=05HR}
 
 *Cho $A$ là một vành. Một họ hữu hạn $(b_i)_{i \in I}$ các i-đê-an hai phía của $A$ sao cho đồng cấu chính tắc của $A$ vào $\prod_{i \in I} (A/b_i)$ là một đẳng cấu được gọi là một phân tích trực tiếp của $A$. \*
 
-#### Mệnh đề 10 {#alg-i-s8-prop-10 .statement}
+#### Mệnh đề 10 {#alg-i-s8-prop-10 .statement tag=05HS}
 
 *Cho $A$ là một vành, $A'$ là tâm của nó và $(b_i)_{i \in I}$ là một họ hữu hạn các i-đê-an hai phía của $A$. Các điều kiện sau là tương đương:
 
@@ -624,11 +624,11 @@ Vậy các điều kiện (a), (b), (c) và (d) là tương đương. Giả sử
 
 Cuối cùng, giả sử điều kiện (e) thỏa mãn. Theo (a) $\Rightarrow$ (b), tồn tại một họ $(e_i)_{i \in I}$ các phần tử lũy đẳng của $A'$ sao cho $e_i e_j = 0$ với $i \neq j$, $1 = \sum_{i \in I} e_i$ và $b'_i = A'(1 - e_i)$ với $i \in I$. Khi đó $b_i = Ab'_i = A(1 - e_i)$ với $i \in I$, do đó điều kiện (b) được thỏa mãn.
 
-#### Nhận xét {#alg-i-s8-n11-rem-1 .statement}
+#### Nhận xét {#alg-i-s8-n11-rem-1 .statement tag=05HT}
 
 Cho A là một vành. Cho $(a_i)_{i \in I}$ là một họ hữu hạn các nhóm con của nhóm cộng $A^+$ của A sao cho $A^+$ là tổng trực tiếp của các $a_i$. Giả sử $a_i a_i \subset ai$ với $i \in I$ và $a_i a_j = \{0\}$ với $i \neq j$. Khi đó $a_i$ là một iđêan hai phía của A với mọi $i \in I$. Với phép cộng và phép nhân cảm sinh bởi những phép toán trên A, $a_i$ là một vành có phần tử đơn vị là thành phần của $1 \in A$ trong $a_i$. Nếu $b_i = \sum_{j \neq i} a_j$, rõ ràng các $b_i$ thỏa mãn điều kiện (c) của Mệnh đề 10 và do đó $(b_i)_{i \in I}$ là một phân tích trực tiếp của A, được gọi là *xác định bởi* $(a_i)_{i \in I}$.
 
-#### Ví dụ {#alg-i-s8-n11-exa-1 .statement}
+#### Ví dụ {#alg-i-s8-n11-exa-1 .statement tag=05HU}
 
 *Các iđêan và các vành thương của* $\mathbf{Z}$
 
@@ -642,7 +642,7 @@ Tích của các iđêan $m\mathbf{Z}$ và $n\mathbf{Z}$ là tập hợp các $\
 
 Với mọi số nguyên $n \geqslant 1$, vành thương $\mathbf{Z}/n\mathbf{Z}$ được gọi là *vành các số nguyên modulo n*; nó có n phần tử, là các lớp modulo n của các số nguyên 0, 1, 2, ..., $n - 1$. Với $n = 1$, ta thu được vành không.
 
-#### Mệnh đề 11 {#alg-i-s8-prop-11 .statement}
+#### Mệnh đề 11 {#alg-i-s8-prop-11 .statement tag=05HV}
 
 *Cho $n_1, \ldots, n_d$ là các số nguyên $\geqslant 1$ nguyên tố cùng nhau từng đôi một và $n = n_1 \ldots n_r$. Đồng cấu chính tắc của $\mathbf{Z}$ vào vành tích $\prod_{i=1}^{r} \mathbf{Z}/n_i\mathbf{Z}$ là toàn ánh có hạt nhân $n\mathbf{Z}$ và xác định một đẳng cấu vành từ $\mathbf{Z}/n\mathbf{Z}$ lên $\prod_{i=1}^{r} \mathbf{Z}/n_i\mathbf{Z}$.*
 
@@ -652,7 +652,7 @@ Những kết quả trên, cũng như các kết quả về phân tích thành c
 
 ### 12. VÀNH PHÂN THỨC
 
-#### Định lý 4 {#alg-i-s8-thm-4 .statement}
+#### Định lý 4 {#alg-i-s8-thm-4 .statement tag=05HW}
 
 *Cho A là một vành giao hoán và S là một tập con của A. Cho $A_S$ là monoid các phân thức của A (chỉ được trang bị phép nhân) với các mẫu số trong S (§ 2, no. 4). Cho $\varepsilon : A \to A_S$ là cấu xạ chính tắc. Trên $A_S$ tồn tại một và chỉ một phép cộng thỏa mãn các điều kiện sau:
 (a) $A_S$, với phép cộng này và phép nhân của nó, là một vành giao hoán;
@@ -699,7 +699,7 @@ $$
 
 và do đó $\varepsilon$ là một đồng cấu vành.
 
-#### Định nghĩa 8 {#alg-i-s8-def-8 .statement}
+#### Định nghĩa 8 {#alg-i-s8-def-8 .statement tag=05HX}
 
 *Vành được định nghĩa trong Định lý 4 được gọi là vành phân thức liên kết với $S$, hoặc với các mẫu số trong $S$, và được ký hiệu bởi $A[S^{-1}]$.*
 
@@ -709,7 +709,7 @@ Ta sẽ trở lại các tính chất của $A[S^{-1}]$ trong *Đại số giao 
 
 Nếu $S$ là tập hợp các phần tử giản ước được của $A$, thì vành $A[S^{-1}]$ được gọi là vành phân thức toàn phần của $A$. Khi đó $A$ được đồng nhất với một vành con của $A[S^{-1}]$ nhờ ánh xạ $\varepsilon$, và ánh xạ này khi đó là đơn ánh (I, § 2, no. 4, Mệnh đề 6).
 
-#### Định lý 5 {#alg-i-s8-thm-5 .statement}
+#### Định lý 5 {#alg-i-s8-thm-5 .statement tag=05HY}
 
 *Cho $A$ là một vành giao hoán, $S$ là một tập con của $A$, $B$ là một vành và $f$ là một đồng cấu của $A$ vào $B$ sao cho mọi phần tử của $f(S)$ đều khả nghịch. Tồn tại một và chỉ một $\bar{f}$ từ $A[S^{-1}]$ vào $B$ sao cho $f = \bar{f} \circ \varepsilon$. \*
 

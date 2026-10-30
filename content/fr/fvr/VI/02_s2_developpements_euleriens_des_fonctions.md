@@ -25,7 +25,7 @@ subsections:
       pdf_page: 278
 statements: 5
 exercises: 13
-content_sha256: 0bc69bdf523bffce7bc0ae16da246f1177336809deee44729b847c6ace2ac8dd
+content_sha256: d13e9b515685c33106734d9195dcdd0549b3aca5cdbdfddfdba4b1f8b570ed46
 ---
 
 ## § 2. DÉVELOPPEMENTS EULÉRIENS DES FONCTIONS TRIGONOMÉTRIQUES ET NOMBRES DE BERNOULLI
@@ -42,7 +42,7 @@ $$
 
 Nous allons obtenir dans ce qui suit un développement en série de cotg $z$, valable pour tout $z$ distinct d’un multiple entier de $\pi$.
 
-#### Proposition 1 {#fvr-vi-s2-prop-1 .statement}
+#### Proposition 1 {#fvr-vi-s2-prop-1 .statement tag=08IC}
 
 *Pour tout nombre complexe z et tout entier n, on a*
 
@@ -66,7 +66,7 @@ $$
 A = (2i)^{n-1} e^{-\frac{in}{n}(1+2+\cdots+(n-1))} = (2i)^{n-1} e^{-i(n-1)\frac{n}{2}} = 2^{n-1}.
 $$
 
-#### Corollaire 1 {#fvr-vi-s2-prop-1-cor-1 .statement}
+#### Corollaire 1 {#fvr-vi-s2-prop-1-cor-1 .statement tag=08ID}
 
 *Pour tout entier n, on a*
 
@@ -76,7 +76,7 @@ $$
 
 Il suffit en effet de diviser les deux membres de (2) par sin z et de faire tendre z vers 0.
 
-#### Corollaire 2 {#fvr-vi-s2-prop-1-cor-2 .statement}
+#### Corollaire 2 {#fvr-vi-s2-prop-1-cor-2 .statement tag=08IE}
 
 Pour tout entier impair $n = 2m + 1$, et tout nombre complexe $z$ tel que $nz$ ne soit pas multiple entier de $\pi$, on a
 
@@ -126,7 +126,7 @@ Nous allons voir que pour tout $z$ contenu dans une partie *compacte* $K$ de $\m
 
 D'autre part, pour $0 \leq x \leq \pi/2$, on a $\sin x / x \geq 1 - \frac{x^2}{6} \geq \frac{1}{2}$, donc pour $1 \leq k \leq m$, on a $n \sin \frac{k \pi}{n} \geq k \pi / 2$; par suite, dès que $m$ est assez grand, pour tout entier $k$ tel que $k \pi / 2 > M$, on a $|v_k(n, z)| \leq \frac{8M}{k^2 \pi^2 - 4M^2}$, ce qui démontre notre assertion. Pour tout $k$ fixe, $v_k(n, z)$ tend (uniformément dans $K$) vers $\frac{2z}{z^2 - k^2 \pi^2}$ lorsque $n$ tend vers $+\infty$. Par suite:
 
-#### Théorème 1 {#fvr-vi-s2-thm-1 .statement}
+#### Théorème 1 {#fvr-vi-s2-thm-1 .statement tag=08IF}
 
 *Pour tout nombre complexe $z$ distinct d'un multiple entier de $\pi$, on a*
 $$
@@ -162,7 +162,7 @@ $$
 $$
 Nous avons vu d’ailleurs dans la démonstration du th. 1 de VI p. 17, que pour $1 \leq k \leq m$ on a $n \sin \frac{k\pi}{n} \geq \frac{k\pi}{2}$; donc, pour tout entier $k$ tel que $k\pi/2 \geq M$, on a $|w_k(n, z)| \leq 4M^2/k^2\pi^2$, ce qui démontre notre assertion. Comme pour tout $k$ fixe, $w_k(n, z)$ tend (uniformément dans $K$) vers $z^2/k^2\pi^2$ lorsque $n$ tend vers $+\infty$, on voit que:
 
-#### Théorème 2 {#fvr-vi-s2-thm-2 .statement}
+#### Théorème 2 {#fvr-vi-s2-thm-2 .statement tag=08IG}
 
 *Pour tout nombre complexe $z$, on a*
 $$

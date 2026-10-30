@@ -24,7 +24,7 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: 5e9be725e626d27ec9f6c1c0d374b4a35a313c37733d5f97a7a61e55bd3b449a
+content_sha256: 8766f8f3c949ea34e5c9cc2cd9511d82bb116ea286c279ddffb9ad2cd3a3903c
 translated_from: content/en-mt/alg/IX/04_s4_sous_espaces_totalement_isotropes.md
 source_lang: en-mt
 translation_method: machine
@@ -42,7 +42,7 @@ Trong đoạn này giả thiết rằng, trừ khi nói rõ ngược lại, A l�
 
 ### 1. Các không gian con đẳng hướng.
 
-#### Định nghĩa 1 {#alg-ix-s4-def-1 .statement}
+#### Định nghĩa 1 {#alg-ix-s4-def-1 .statement tag=0DKL}
 
 Cho một môđun E trên vành A, một phần tử x của E được gọi là đẳng hướng nếu $\Phi(x, x) = 0$. Một môđun con F của E được gọi là
     1) đẳng hướng nếu tồn tại một phần tử $x \neq 0$ của F trực giao với F;
@@ -52,13 +52,13 @@ Khi môđun E được trang bị một dạng toàn phương Q, một phần t�
 
 Một vectơ đẳng hướng đơn giản là một vectơ trực giao với chính nó. Nói rằng một môđun con F là đẳng hướng có nghĩa là $F \cap F^0 \neq \{0\}$, hay tương đương, hạn chế của $\Phi$ lên F là suy biến; do đó một môđun con G không đẳng hướng của E là một môđun con sao cho hạn chế của $\Phi$ lên G là không suy biến. Để một môđun con F của E là hoàn toàn đẳng hướng, điều kiện cần và đủ là $F \subset F^0$. Nếu F là một môđun con hoàn toàn đẳng hướng của E, thì mọi môđun con $F'$ được chứa trong F cũng có tính chất đó. Tổng của một họ các môđun con hoàn toàn đẳng hướng trực giao từng đôi một là một môđun con hoàn toàn đẳng hướng. Tập hợp các môđun con hoàn toàn đẳng hướng của E, được sắp thứ tự bởi quan hệ bao hàm, hiển nhiên là quy nạp; do đó mọi môđun con hoàn toàn đẳng hướng đều được chứa trong một môđun con hoàn toàn đẳng hướng cực đại.
 
-#### Mệnh đề 1 {#alg-ix-s4-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ix-s4-prop-1 .statement tag=0DKM}
 
 Giả sử A là một trường. Cho F là một không gian con hữu hạn chiều không đẳng hướng của E; khi đó E là tổng trực tiếp của F và $F^0$.
 
 Thật vậy, vì hạn chế $\Phi'$ của $\Phi$ lên F là không suy biến theo giả thiết, ánh xạ $d_{\Phi'}$ từ F vào đối ngẫu của nó $F^*$ liên kết bên phải với $\Phi'$ là đơn ánh, nên là song ánh vì F và $F^*$ là hai không gian có cùng số chiều hữu hạn. Do đó, với mọi $y \in E$, tồn tại một và chỉ một phần tử $y_0$ của F sao cho $\Phi(x, y) = \Phi(x, y_0)$ với mọi $x \in F$, nghĩa là, $y - y_0 \in F^0$; điều này chứng tỏ rằng E là tổng trực tiếp của F và $F^0$.
 
-#### Hệ quả {#alg-ix-s4-n1-cor-1 .statement}
+#### Hệ quả {#alg-ix-s4-n1-cor-1 .statement tag=0DKN}
 
 Nếu F là một không gian con hữu hạn chiều của E, và nếu Φ là không suy biến, thì các điều kiện sau là tương đương:
 
@@ -68,7 +68,7 @@ c) E là tổng trực tiếp của F và F^0.
 
 Mệnh đề 1 thực vậy cho thấy rằng a) suy ra c), và c) suy ra a) và b). Sau cùng, nếu F^0 là không đẳng hướng, ta có F ∩ F^0 ⊂ F^0 ∩ F^{00} = {0}; do đó F là không đẳng hướng, điều này cho thấy rằng b) suy ra a).
 
-#### Định nghĩa 2 {#alg-ix-s4-def-2 .statement}
+#### Định nghĩa 2 {#alg-ix-s4-def-2 .statement tag=0DKO}
 
 Cho Q là một dạng toàn phương trên E. Một phần tử x của E được gọi là kì dị (đối với Q) nếu Q(x) = 0. Một môđun con F của E được gọi là:
 1) kì dị nếu tồn tại một phần tử x ≠ 0 của F vừa kì dị vừa trực giao với F;
@@ -86,7 +86,7 @@ Bourbaki XXIV.
 
 Điều kiện này luôn được thỏa mãn khi $\Phi$ là phản xứng, hoặc khi $\varepsilon = 1$ và $A$ là một trường có đặc số $\neq 2$, bằng cách lấy $\alpha = \frac{1}{2} \Phi(x, x)$ (x. bài tập 1 và 14).
 
-#### Bổ đề 1 {#alg-ix-s4-lem-1 .statement}
+#### Bổ đề 1 {#alg-ix-s4-lem-1 .statement tag=0DKP}
 
 Cho $\Phi$ là một dạng $\varepsilon$-Hermit thỏa mãn (T) (tương ứng dạng song tuyến tính liên kết với một dạng toàn phương Q) trên $E$, và cho F là một không gian con hoàn toàn đẳng hướng (tương ứng hoàn toàn kì dị) của $E$, không thu về 0. Với mọi $x \in E$ không trực giao với F và mọi $\alpha \in A$, tồn tại $y \in F$ sao cho
 
@@ -110,7 +110,7 @@ $$
 
 Người ta nói rằng $\Phi$ là một dạng trung hòa nếu nó không suy biến và nếu E có chiều hữu hạn và là tổng trực tiếp của hai không gian con hoàn toàn đẳng hướng (tương ứng hoàn toàn kỳ dị). Tổng trực tiếp của hai dạng trung hòa là một dạng trung hòa.
 
-#### Mệnh đề 2 {#alg-ix-s4-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ix-s4-prop-2 .statement tag=0DKQ}
 
 Cho $\Phi$ là một dạng $\varepsilon$-Hermite không suy biến thỏa mãn (T) (tương ứng dạng song tuyến tính gắn với một dạng toàn phương không suy biến Q), và F là một không gian con hoàn toàn đẳng hướng (tương ứng hoàn toàn kỳ dị) có chiều hữu hạn r.
 
@@ -130,21 +130,21 @@ $$
 
 Khi đó không gian con $G' = G + Ax$ có chiều $s + 1$, và là hoàn toàn đẳng hướng (tương ứng, hoàn toàn kỳ dị); hơn nữa ta có $G' \cap F^0 = \{0\}$ vì, nếu $y = z + ax$ ($z \in G,\ a \in A$) thuộc $F^0$, thì ta có $a = 0$, nếu không thì $x \in F^0 + G$, trái với cách chọn $x$, do đó $y = z \in G \cap F^0 = \{0\}$ và $y = 0$. Vậy không gian con $G'$ trả lời câu hỏi.
 
-#### Hệ quả 1 {#alg-ix-s4-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-ix-s4-prop-2-cor-1 .statement tag=0DKR}
 
 *Nếu F là một không gian con hoàn toàn đẳng hướng (tương ứng, hoàn toàn kỳ dị) có chiều r, thì tồn tại một không gian con hoàn toàn đẳng hướng (tương ứng, hoàn toàn kỳ dị) F' có chiều r sao cho $F \cap F' = \{0\}$ và $F + F'$ là không đẳng hướng.*
 
 Chỉ cần lấy $G = \{0\}$ trong mệnh đề 2, b).
 
-#### Hệ quả 2 {#alg-ix-s4-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-ix-s4-prop-2-cor-2 .statement tag=0DKS}
 
 *Hai dạng $\varepsilon$-Hermit trung hòa trên các không gian có cùng chiều trên A là tương đương.*
 
-#### Nhận xét {#alg-ix-s4-n2-rem-1 .statement}
+#### Nhận xét {#alg-ix-s4-n2-rem-1 .statement tag=0DKT}
 
 Trong các điều kiện của Hệ quả 1, E là tổng trực tiếp của $F + F'$ và trực giao của $F + F'$. Do đó ta có một phân tích Witt của E. Theo mệnh đề 2, a), tồn tại các cơ sở của F và F’ sao cho, trong ma trận (1) của $\Phi$, khối $U$ là ma trận đơn vị $1_r$.
 
-#### Mệnh đề 3 {#alg-ix-s4-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ix-s4-prop-3 .statement tag=0DKU}
 
 *Cho $\Phi$ là một dạng $\varepsilon$-Hermit không suy biến thỏa mãn (T) (tương ứng, dạng song tuyến tính liên kết với một dạng toàn phương không suy biến Q). Gọi $F_1$ và $F_2$ là hai không gian con cực đại hoàn toàn đẳng hướng (tương ứng, hoàn toàn kỳ dị) của E, trong đó một không gian là hữu hạn chiều. Đặt $F = F_1 \cap F_2$. Gọi $S_i \ (i = 1, 2)$ là một không gian con bù của $F$ trong $F_i$; đặt $S = S_1 + S_2$. Khi đó tồn tại hai không gian con G và H của E sao cho
 a) Các không gian con $G + F, S$ và H là không đẳng hướng và trực giao từng đôi một;
@@ -163,13 +163,13 @@ Do đó ta có $S_1 \cap S_2^0 = \{0\}$, và tương tự $S_2 \cap S_1^0 = \{0\
 
 Bây giờ trực giao $N$ của $S$ là không đẳng hướng ($\mathrm{n}^\circ 1, \mathrm{cor.\ de\ la\ prop.\ 1}$) và chứa $F$; do đó Hệ quả 1 của Mệnh đề 2 cho thấy rằng tồn tại một không gian con $G$ hoàn toàn đẳng hướng (tương ứng hoàn toàn kỳ dị) của $N$ sao cho $\dim G = \dim F$, $G \cap F = \{0\}$ và $G + F$ là không đẳng hướng. Vậy d) được thỏa mãn bởi $G$. Khi đó ta sẽ thỏa mãn a) và b) bằng cách lấy đối với $H$ trực giao của $G + F$ trong $N$. Còn đối với c), ta chú ý rằng, vì $H$ trực giao với $F_1 = S_1 + F$, nên không có vectơ đẳng hướng (tương ứng kỳ dị) khác không nào trong $H$ theo điều đã được ghi nhận ở đầu chứng minh và từ việc $H \cap F_1 = \{0\}$. Sau cùng một số mệnh đề về các chiều đã được chứng minh trong quá trình lập luận; các mệnh đề khác suy ra từ đó một cách hiển nhiên.
 
-#### Hệ quả 1 {#alg-ix-s4-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-ix-s4-prop-3-cor-1 .statement tag=0DKV}
 
 Dưới các giả thiết của Mệnh đề 3, hai không gian con hoàn toàn đẳng hướng cực đại (tương ứng hoàn toàn kỳ dị cực đại) hữu hạn chiều có cùng chiều. Với mọi không gian con hoàn toàn đẳng hướng cực đại (tương ứng hoàn toàn kỳ dị cực đại) F hữu hạn chiều, tồn tại một F' khác sao cho F ∩ F' = {0}, và trong các điều kiện ấy F + F' là không đẳng hướng.
 
 Nếu F ∩ F' = {0}, ta sẽ có G = {0} theo ký hiệu của Mệnh đề 3, và F + F' sẽ không đẳng hướng. Các mệnh đề khác suy ra hiển nhiên từ Mệnh đề 3 và Hệ quả 1 của Mệnh đề 2.
 
-#### Hệ quả 2 {#alg-ix-s4-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-ix-s4-prop-3-cor-2 .statement tag=0DKW}
 
 Cho Q là một dạng toàn phương không suy biến trên một không gian vectơ E hữu hạn chiều n trên một trường đóng đại số A; khi đó tồn tại một cơ sở (e_i)_{1 \leq i \leq n} của E sao cho
 
@@ -185,7 +185,7 @@ $$
 
 Thật vậy, cho $F_1$ và $F_2$ là hai không gian con hoàn toàn kỳ dị cực đại sao cho F_1 ∩ F_2 = {0} (Hệ quả 1) và gọi q là chiều của chúng. Khi đó ta có G = {0} theo ký hiệu của Mệnh đề 3. Lấy một cơ sở (e_i)_{1 \leq i \leq q} của F_1 và một cơ sở (e_i)_{q+1 \leq i \leq 2q} của F_2 sao cho Φ(e_i, e_{j+q}) = δ_{ij} với i, j = 1, ..., q (Mệnh đề 2 a)), ta thấy rằng chỉ cần chứng minh dim H ≤ 1. Bây giờ, nếu x ∈ H, y ∈ H và nếu x ≠ 0, phương trình Q(y - ax) = Q(y) - aΦ(x, y) + a^2 Q(x) = 0 có ít nhất một nghiệm a_0 vì Q(x) ≠ 0, và ta có y = a_0 x vì mọi vectơ kỳ dị của H đều bằng không.
 
-#### Định nghĩa 3 {#alg-ix-s4-def-3 .statement}
+#### Định nghĩa 3 {#alg-ix-s4-def-3 .statement tag=0DKX}
 
 Giả sử rằng E là hữu hạn chiều và Φ là một dạng ε-Hermit không suy biến thỏa mãn (T) (tương ứng dạng song tuyến tính liên kết với một dạng toàn phương không suy biến Q). Ta gọi chỉ số của Φ (tương ứng của Q) là chiều chung của các không gian con hoàn toàn đẳng hướng cực đại (tương ứng hoàn toàn kỳ dị cực đại) của E.
 
@@ -198,7 +198,7 @@ $$
 
 Hơn nữa, vì mọi không gian con hoàn toàn đẳng hướng (tương ứng hoàn toàn kỳ dị) đều được chứa trong một không gian con hoàn toàn đẳng hướng cực đại (tương ứng hoàn toàn kỳ dị cực đại), nên các không gian con hoàn toàn đẳng hướng (tương ứng hoàn toàn kỳ dị) là cực đại chính là những không gian có chiều $v$. Mệnh đề rằng $\Phi$ (tương ứng Q) có chỉ số 0 có nghĩa là mọi vectơ đẳng hướng (tương ứng kỳ dị) của E đều bằng không. Trong một không gian có chiều chẵn $n$, các dạng trung hòa là những dạng có chỉ số $\frac{1}{2}n$; không có dạng trung hòa nào trong một không gian có chiều lẻ. Mệnh đề 3 cho thấy rằng mọi dạng đều là tổng trực tiếp của một dạng trung hòa và một dạng có chỉ số 0.
 
-#### Mệnh đề 4 {#alg-ix-s4-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ix-s4-prop-4 .statement tag=0DKY}
 
 *Cho một dạng toàn phương không suy biến Q trên E sao cho tồn tại một vectơ $x \neq 0$ của E sao cho $Q(x) = 0$, thì với mọi phần tử a của A, tồn tại $y \in E$ sao cho $Q(y) = a$.*
 
@@ -212,7 +212,7 @@ Vì vậy chỉ cần lấy đối với $y$ vectơ $ae + b^{-1}e'$.
 
 Cho hai không gian vectơ E, $E'$ trên A được trang bị tương ứng với hai dạng sesquilinear $\Phi, \Phi'$ (tương ứng với hai dạng toàn phương Q, $Q'$), một *đồng cấu metric* từ E vào $E'$ là mọi ánh xạ tuyến tính $u$ từ E vào $E'$ sao cho $\Phi'(u(x), u(y)) = \Phi(x, y)$ (tương ứng $Q'(u(x)) = Q(x)$) với $x \in E, y \in E$. Nếu E và $E'$ có cùng số chiều hữu hạn và nếu $\Phi$ (tương ứng Q) không suy biến, thì mọi đồng cấu metric $u$ từ E vào $E'$ đều là một đẳng cấu, vì $u(x) = 0$ kéo theo $\Phi(x, y) = 0$ với mọi $y \in E$, do đó $x = 0$; vì thế $u$ là đơn ánh, nên song ánh vì E và $E'$ có cùng số chiều hữu hạn.
 
-#### Định lý 1 (Witt) {#alg-ix-s4-thm-1 .statement}
+#### Định lý 1 (Witt) {#alg-ix-s4-thm-1 .statement tag=0DKZ}
 
 *Cho E và $E'$ là hai không gian vectơ có số chiều hữu hạn, được trang bị tương ứng với hai dạng $\varepsilon$-Hermit không suy biến $\Phi$ và $\Phi'$ thỏa mãn điều kiện (T) của No. 2* (tương ứng với hai dạng toàn phương không suy biến Q và Q'), và đẳng cấu đối với các cấu trúc ấy. Với một không gian con tùy ý F của E, mọi đồng cấu metric đơn ánh từ F vào E' đều mở rộng được thành một đẳng cấu metric từ E lên E'.
 
@@ -240,17 +240,17 @@ với mọi x ∈ F; thật vậy dạng tuyến tính $x \to \Phi(u^{-1}(x), z)
 
 2) Trong trường hợp tổng quát, ta lập luận bằng quy nạp theo $r = dim F$. Trường hợp $r = 0$ là tầm thường. Giả sử khi đó $r > 0$, nghĩa là $F \neq {0}$, và gọi U là một siêu phẳng của F. Hạn chế $u_0$ của u lên U, theo giả thiết quy nạp, mở rộng được thành một tự đẳng cấu metric $\varphi_0$ của E. Nếu $\varphi_0$ mở rộng u, thì định lý được chứng minh. Nếu không, U là tập hợp các phần tử bất biến bởi $v_0^{-1}u$, và tồn tại, theo 1), một tự đẳng cấu metric $v_1$ của E mở rộng $v_0^{-1}u$. Tự đẳng cấu $v_0v_1$ khi đó là phép mở rộng cần thiết của u. QED.
 
-#### Hệ quả 1 {#alg-ix-s4-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-ix-s4-prop-4-cor-1 .statement tag=0DL0}
 
 Cho, với i = 1, 2, $E_i$ là một không gian vectơ hữu hạn chiều, $\Phi_i$ là một dạng $\varepsilon$-Hermit không suy biến trên $E_i$ thỏa mãn (T) (tương ứng $Q_i$ là một dạng toàn phương không suy biến trên $E_i$), $E'_i$ và $E''_i$ là hai không gian con trực giao của $E_i$ mà tổng trực tiếp là $E_i$. Nếu các dạng $\Phi_1$ và $\Phi_2$ (tương ứng $Q_1$ và $Q_2$) là tương đương, và nếu các hạn chế của chúng lên $E'_1$ và $E'_2$ là tương đương, thì điều tương tự cũng đúng đối với các hạn chế của chúng lên $E''_1$ và $E''_2$.
 
 Thật vậy, cho $u$ là một đẳng cấu metric từ $E'_1$ lên $E'_2$. Theo Định lý 1, $u$ kéo dài thành một đẳng cấu metric $\varphi$ từ $E_1$ lên $E_2$. Vì $\Phi_i$ không suy biến, $E''_i$ là trực giao của $E'_i$ trong $E_i$, do đó $\varphi$ ánh xạ $E''_1$ lên $E''_2$. Điều phải chứng minh.
 
-#### Hệ quả 2 {#alg-ix-s4-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-ix-s4-prop-4-cor-2 .statement tag=0DL1}
 
 Với các giả thiết của Định lý 1, nhóm các tự đẳng cấu metric của E tác động bắc cầu trên các không gian con hoàn toàn đẳng hướng (tương ứng hoàn toàn kỳ dị) có chiều cho trước của E. Hơn nữa, nếu F là một không gian con hoàn toàn đẳng hướng (tương ứng hoàn toàn kỳ dị) của E, mọi ánh xạ tuyến tính song ánh từ F lên F đều được cảm sinh bởi một tự đẳng cấu metric của E.
 
-#### Hệ quả 3 {#alg-ix-s4-prop-4-cor-3 .statement}
+#### Hệ quả 3 {#alg-ix-s4-prop-4-cor-3 .statement tag=0DL2}
 
 Cho Q là một dạng toàn phương không suy biến trên một không gian vectơ hữu hạn chiều E trên một trường đóng đại số A. Nhóm các tự đẳng cấu metric của E tác động bắc cầu trên các không gian con không đẳng hướng có chiều cho trước của E.
 

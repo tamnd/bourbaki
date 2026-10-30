@@ -58,7 +58,7 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: 7a6d262d01e84dc838f1687d01b6bcca82ec10cb21e250bf7406a9c385bada95
+content_sha256: a8722fe29a021a8f3f62eb7c41ed5736542a85db99ded2b20167525ac22836eb
 ---
 
 ## § 8. DETERMINANTS
@@ -67,7 +67,7 @@ content_sha256: 7a6d262d01e84dc838f1687d01b6bcca82ec10cb21e250bf7406a9c385bada95
 
 Let $M$ be an $A$-module with a finite basis of $n$ elements and $u$ an endomorphism of $M$. The $A$-module $\bigwedge^n(M)$ is a monogenous free module, that is isomorphic to $A$ (no. 8, Corollary 1 to Theorem 1); $\bigwedge^n(u)$ is an endomorphism of this module and is therefore a homothety $z \mapsto \lambda z$ of ratio $\lambda \in A$ determined uniquely (II, § 2, no. 3, Proposition 5).
 
-#### Definition 1 {#alg-iii-s8-def-1 .statement}
+#### Definition 1 {#alg-iii-s8-def-1 .statement tag=0642}
 
 *The determinant of an endomorphism $u$ of a free $A$-module $M$ of finite dimension $n$* (II, § 7, no. 2, Corollary to Proposition 3 and Remark 1), *denoted by* $\det u$, *is the scalar $\lambda$ such that* $\bigwedge^n(u)$ *is the homothety of ratio* $\lambda$.
 
@@ -79,7 +79,7 @@ u(x_1) \wedge u(x_2) \wedge \cdots \wedge u(x_n) = (\det u) \cdot x_1 \wedge x_2
 $$
 for every sequence $(x_i)_{1 \leq i \leq n}$ of $n$ elements of $M$. If $\det(u) = 1$, $u$ is said to be *unimodular*.
 
-#### Proposition 1 {#alg-iii-s8-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s8-prop-1 .statement tag=0643}
 
 (i) *If $u$ and $v$ are two endomorphisms of a finite-dimensional free $A$-module $M$, then*
 
@@ -109,7 +109,7 @@ $$(x_1, \ldots, x_n) \mapsto \alpha \det(x_1, x_2, \ldots, x_n)$$
 
 for some $\alpha \in A$.
 
-#### Proposition 2 {#alg-iii-s8-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s8-prop-2 .statement tag=0644}
 
 *Let $M$ be a free $A$-module with a finite basis $(e_i)_{1 \leq i \leq n}$ and $v$ an endomorphism of $M$. For every sequence $(x_i)_{1 \leq i \leq n}$ of $n$ elements of $M$,*
 
@@ -127,7 +127,7 @@ and (5) therefore follows from (2).
 
 ### 2. CHARACTERIZATION OF AUTOMORPHISMS OF A FINITE-DIMENSIONAL FREE MODULE
 
-#### Theorem 1 {#alg-iii-s8-thm-1 .statement}
+#### Theorem 1 {#alg-iii-s8-thm-1 .statement tag=0645}
 
 *Let $M$ be a finite-dimensional free $A$-module and $u$ an endomorphism of $M$. The following conditions are equivalent:*
 (a) $u$ is bijective;
@@ -144,7 +144,7 @@ $$
 
 By § 7, no. 9, Theorem 2 a necessary and sufficient condition for the $x_i$ to form a basis of $M$ is that $\det u$ be an invertible element of $A$; this proves the equivalence of (a) and (e). Observe that (a) obviously implies each of conditions (b), (c) and (d); it remains to prove that each of conditions (b), (c) and (d) implies (e). Now, if there exists an endomorphism $v$ of $M$ such that $v \circ u = 1_M$ or $u \circ v = 1_M$, then $(\det v)(\det u) = 1$ and hence $\det u$ is invertible in $A$. If $u$ is surjective, so is $\bigwedge^n(u)$ (§ 7, no. 2, Proposition 3), in other words the homothety of ratio det $u$ in $A$ is surjective, which immediately implies that det $u$ is invertible.
 
-#### Proposition 3 {#alg-iii-s8-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s8-prop-3 .statement tag=0646}
 
 *Let $M$ be a finite-dimensional free $A$-module. For every endomorphism $u$ of $M$, the following conditions are equivalent:*
   (f) $u$ is injective;
@@ -152,13 +152,13 @@ By § 7, no. 9, Theorem 2 a necessary and sufficient condition for the $x_i$ to 
 
 With the same notation as in the proof of Theorem 1, for $u$ to be injective, it is necessary and sufficient that the $x_i$ be linearly independent. By § 7, no. 9, Proposition 12, it is necessary and sufficient for this that the relation $\lambda x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0$ (with $\lambda \in A$) imply $\lambda = 0$. But this is equivalent to $\lambda (\det u) = 0$ since $e_1 \wedge \cdots \wedge e_n$ is a basis of $\Lambda^n(M)$; whence the proposition.
 
-#### Remark {#alg-iii-s8-n2-rem-1 .statement}
+#### Remark {#alg-iii-s8-n2-rem-1 .statement tag=0647}
 
 When $A$ is a field, condition (e) of Theorem 2 is equivalent to condition (g) of Proposition 3, since they both mean that $\det u \neq 0$. In this case therefore all the conditions of Theorem 1 and Proposition 3 are equivalent (cf. II, § 7, no. 4, Corollary to Proposition 9).
 
 ### 3. DETERMINANT OF A SQUARE MATRIX
 
-#### Definition 2 {#alg-iii-s8-def-2 .statement}
+#### Definition 2 {#alg-iii-s8-def-2 .statement tag=0648}
 
 *Let $I$ be a finite set, $A$ a commutative ring and $X$ a square matrix of type $(I, I)$ over the ring $A$ (II, § 10, no. 7). The determinant of the endomorphism $u$ of the $A$-module $A^I$, whose matrix with respect to the canonical basis of $A^I$ is $X$, is called the determinant of $X$ and denoted by $\det X$.*
 
@@ -173,7 +173,7 @@ x_1 \wedge x_2 \wedge \cdots \wedge x_n = (\det X) e_1 \wedge e_2 \wedge \cdots 
 $$
 in other words, $\det X$ is equal to the determinant $\det(x_1, x_2, \ldots, x_n)$ with respect to the canonical basis of $A^n$. Consequently:
 
-#### Proposition 4 {#alg-iii-s8-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s8-prop-4 .statement tag=0649}
 
 *For $n$ vectors $x_1, \ldots, x_n$ of $A^n$, let $X(x_1, \ldots, x_n)$ denote the square matrix of order $n$ whose $i$-th column is $x_i$ for $1 \leq i \leq n$. Then the mapping*
 $$
@@ -210,7 +210,7 @@ $$
 
 When $X = 1$, the matrix $X$ is called unimodular.
 
-#### Example {#alg-iii-s8-n3-exa-1 .statement}
+#### Example {#alg-iii-s8-n3-exa-1 .statement tag=064A}
 
 (1) The determinant of the empty matrix is equal to 1; the determinant of a square matrix of order 1 is equal to the unique element of this matrix. For a matrix of order 2
 
@@ -238,7 +238,7 @@ $$
 
 We translate into the language of matrices some of the results of nos. 1 and 2:
 
-#### Proposition 5 {#alg-iii-s8-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s8-prop-5 .statement tag=064B}
 
 *If $X$ and $Y$ are two square matrices over a commutative ring $A$ with the same finite indexing set, then*
 
@@ -254,13 +254,13 @@ $$
 
 This follows immediately from no. 1, Proposition 1 and no. 2, Theorem 1.
 
-#### Corollary {#alg-iii-s8-n3-cor-1 .statement}
+#### Corollary {#alg-iii-s8-n3-cor-1 .statement tag=064C}
 
 *Two similar square matrices have equal determinants.*
 
 If P is an invertible square matrix, then $\det(PXP^{-1}) = \det X$ by (8) and (9).
 
-#### Proposition 6 {#alg-iii-s8-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s8-prop-6 .statement tag=064D}
 
 *For the columns of a square matrix X of finite order to be linearly independent, it is necessary and sufficient that det X be not a divisor of zero in A.*
 
@@ -268,7 +268,7 @@ This follows from no. 2, Proposition 3.
 
 ### 4. CALCULATION OF A DETERMINANT
 
-#### Lemma 1 {#alg-iii-s8-lem-1 .statement}
+#### Lemma 1 {#alg-iii-s8-lem-1 .statement tag=064E}
 
 *Let A be a commutative ring and M a free A-module with a basis $(e_j)_{j \in J}$, where the indexing set J is totally ordered. For every integer $p \leq \mathrm{Card}(J)$, every alternating p-linear function $f : M^p \to N$ (where N is an A-module) and every family of p elements $x_i = \sum_{j \in J} \xi_{ji} e_j$ of M $(1 \leq i \leq p)$,
 
@@ -308,7 +308,7 @@ $$
 
 where $\mathscr{F}_p(J)$ is the set of subsets of $J$ with $p$ elements and, for every subset $H \in \mathscr{F}_p(J)$, we write $x_{H,i} = \sum_{j \in H} \xi_{ji} e_j$ and $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ being the sequence of elements of $H$ arranged in increasing order, it being understood that $\det(x_{H,1}, \ldots, x_{H,p})$ is taken with respect to the basis $(e_{jk})_{1 \leq k \leq p}$.
 
-#### Proposition 7 {#alg-iii-s8-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s8-prop-7 .statement tag=064F}
 
 *Let $I$ be a finite set and $X = (\xi_{ji})_{(j, i) \in I \times I}$ a square matrix of type (I, I) over a commutative ring $A$. Then*
 
@@ -336,7 +336,7 @@ $$
 \det(X) = \xi_{11} \xi_{22} \xi_{33} + \xi_{12} \xi_{23} \xi_{31} + \xi_{21} \xi_{32} \xi_{13} - \xi_{13} \xi_{22} \xi_{31} - \xi_{12} \xi_{21} \xi_{33} - \xi_{11} \xi_{23} \xi_{32}.
 $$
 
-#### Proposition 8 {#alg-iii-s8-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s8-prop-8 .statement tag=064G}
 
 *For every square matrix $X$ over a commutative ring, the determinant of the transpose matrix ${}^t X$ is equal to the determinant of $X$.*
 
@@ -354,7 +354,7 @@ $$
 
 which proves the proposition.
 
-#### Corollary 1 {#alg-iii-s8-prop-8-cor-1 .statement}
+#### Corollary 1 {#alg-iii-s8-prop-8-cor-1 .statement tag=064H}
 
 For n vectors $x_1, \ldots, x_n$ of $\mathbf{A}^n$, let $Y(x_1, \ldots, x_n)$ denote the square matrix of order n whose i-th row is $x_i$, for $1 \leq i \leq n$. Then the mapping
 $$
@@ -362,7 +362,7 @@ $$
 $$
 from $(\mathbf{A}^n)^n$ to $\mathbf{A}$ is alternating and n-linear.
 
-#### Corollary 2 {#alg-iii-s8-prop-8-cor-2 .statement}
+#### Corollary 2 {#alg-iii-s8-prop-8-cor-2 .statement tag=064I}
 
 For a square matrix $X$ of finite order over a commutative ring $\mathbf{A}$ the following conditions are equivalent:
 (i) the rows of $X$ are linearly independent;
@@ -371,7 +371,7 @@ For a square matrix $X$ of finite order over a commutative ring $\mathbf{A}$ the
 
 This follows immediately from no. 3, Proposition 6 and Proposition 8 above.
 
-#### Corollary 3 {#alg-iii-s8-prop-8-cor-3 .statement}
+#### Corollary 3 {#alg-iii-s8-prop-8-cor-3 .statement tag=064J}
 
 Let $u$ be an endomorphism of a finite-dimensional free $\mathbf{A}$-module $M$ and $^t u$ the transpose endomorphism of the dual $M^*$ (II, § 2, no. 5, Definition 5); then
 $$
@@ -383,7 +383,7 @@ If $X$ is the matrix of $u$ with respect to a basis of $M$, $^t X$ is the matrix
 
 Let $X$ be a rectangular matrix $(\xi_{ij})_{(i,j) \in I \times J}$ of type (I, J) whose indexing sets I and J are totally ordered. If $H \subset I$ and $K \subset J$ are finite subsets with the same number $p$ of elements, there exists a unique increasing bijection $\phi : H \to K$ (Set Theory, III, § 5, no. 3, Proposition 6); we shall denote by $X_{H,K}$ the square matrix of type (H, H) equal to $(\xi_{i,\phi(j)})_{(i,j) \in H \times H}$. If the elements of $X$ belong to a commutative ring $\mathbf{A}$, the determinant $\det(X_{H,K})$ is called the minor of the matrix $X$ of indices H, K; these determinants (for all ordered pairs (H, K) of subsets of I and J respectively with $p$ elements) are also called the minors of $X$ of order $p$. With this notation:
 
-#### Proposition 9 {#alg-iii-s8-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s8-prop-9 .statement tag=064K}
 
 Let $M$ be an $\mathbf{A}$-module with a basis $(e_i)_{i \in J}$ (finite or otherwise) whose indexing set $J$ is totally ordered. For every integer $p > 0$, let $(e_H)_{H \in \mathfrak{S}_p(J)}$ be the corresponding basis of $\wedge^p(M)$ (§ 7, no. 8). Let $(x_i)_{1 \leq i \leq p}$ be a sequence of $p$ elements of $M$; let
 $$
@@ -400,7 +400,7 @@ where $H$ runs through the set $\mathfrak{F}_p(J)$ of subsets of $J$ with $p$ el
 
 This follows immediately from formula (12) of no. 4 and formula (6) of no. 3.
 
-#### Proposition 10 {#alg-iii-s8-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s8-prop-10 .statement tag=064L}
 
 Let $M$ and $N$ be two free $A$-modules of respective dimensions $m$ and $n$, $u : M \to N$ a linear mapping and $X$ the matrix of $u$ with respect to a basis $(e_i)_{1 \leq i \leq m}$ of $M$ and a basis $(f_j)_{1 \leq j \leq n}$ of $N$. Then, for every integer $p \leq \inf(m, n)$, the matrix of $\wedge^p(u)$ with respect to the basis $(e_K)_{K \in \mathfrak{F}_p(I)}$ of $\wedge^p(M)$ and the basis $(f_H)_{H \in \mathfrak{F}_p(J)}$ of $\wedge^p(N)$ (where we have written $I = \{1, m\}$ and $J = \{1, n\}$) is the matrix $(\det(X_{H,K}))$ of type $(\mathfrak{F}_p(J), \mathfrak{F}_p(I))$ (and hence with $\binom{n}{p}$ rows and $\binom{m}{p}$ columns).
 
@@ -414,7 +414,7 @@ Hence the element of the matrix of $\wedge^p(u)$ which is in the row of index $H
 
 The matrix $(\det(X_{H,K}))$ is called the $p$-th exterior power of the matrix $X$ and is denoted by $\wedge^p(X)$. When $p = m = n$, $\wedge^n(X)$ is the matrix with the single element $\det(X)$.
 
-#### Proposition 11 {#alg-iii-s8-prop-11 .statement}
+#### Proposition 11 {#alg-iii-s8-prop-11 .statement tag=064M}
 
 Let $M$ be a free $A$-module of finite dimension $n$; for every endomorphism $u$ of $M$ and every ordered pair of elements $\xi, \eta$ of $A$,
 
@@ -454,7 +454,7 @@ $$
 
 Now $H \cap L \neq \varnothing$ except for $L = K$; it therefore follows from $§ 7$, no. 8, formula (20) that $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ and formula (18) then follows from Proposition 10 and the definition of the trace of a matrix (II, $§ 10$, no. 11, formulae (49) and (50)).
 
-#### Corollary {#alg-iii-s8-n5-cor-1 .statement}
+#### Corollary {#alg-iii-s8-n5-cor-1 .statement tag=064N}
 
 *Under the same hypotheses as in Proposition 11, for the endomorphism $\bigwedge(u)$ of the A-module $\bigwedge(M)$*
 
@@ -533,7 +533,7 @@ $$
 
 Therefore:
 
-#### Proposition 12 {#alg-iii-s8-prop-12 .statement}
+#### Proposition 12 {#alg-iii-s8-prop-12 .statement tag=064O}
 
 *For every invertible square matrix $X$ of type $(n, n)$, the inverse of $X$ is given by the formula*
 
@@ -561,7 +561,7 @@ $$
 
 $\tilde{u}$ is called the *cotranspose* of $u$ (cf. § 11, no. 11, Corollary to Proposition 13).
 
-#### Example {#alg-iii-s8-n6-exa-1 .statement}
+#### Example {#alg-iii-s8-n6-exa-1 .statement tag=064P}
 
 (1) *Vandermonde determinant.* Given a sequence $(\zeta_i)_{1 \leq i \leq n}$ of $n$ elements of $\mathbf{A}$, the *Vandermonde determinant* of this sequence is the determinant
 
@@ -699,7 +699,7 @@ $$
 
 Let $u$ be the endomorphism $x \mapsto L.x$ of $\mathbf{A}^n$, with $L$ as matrix with respect to the canonical basis; to say that equation (35) has (at least) one solution for all $y \in \mathbf{A}^n$ means that $u$ is surjective; Theorem 1 of no. 2 then implies the following proposition:
 
-#### Proposition 13 {#alg-iii-s8-prop-13 .statement}
+#### Proposition 13 {#alg-iii-s8-prop-13 .statement tag=064Q}
 
 *For a system of $n$ linear equations in $n$ unknowns over a commutative ring to admit at least one solution regardless of the right hand sides, it is necessary and sufficient that the determinant of the matrix of the system be invertible; in this case the system admits a single solution.*
 
@@ -731,7 +731,7 @@ A system (34) such that $\det L$ is invertible is also called a *Cramer system*.
 
 In particular let $y = 0$; it then follows from Proposition 3 of no. 2 that:
 
-#### Proposition 14 {#alg-iii-s8-prop-14 .statement}
+#### Proposition 14 {#alg-iii-s8-prop-14 .statement tag=064R}
 
 *For a homogeneous linear system of $n$ equations in $n$ unknowns over a commutative ring to admit a non-zero solution, it is necessary and sufficient that the determinant of its matrix be a divisor of zero.*
 
@@ -741,11 +741,11 @@ All the above applies when the ring $\mathbf{A}$ is a commutative field; but the
 
 Thus Proposition 12 of § 7, no. 9 can be formulated in this case as follows:
 
-#### Proposition 15 {#alg-iii-s8-prop-15 .statement}
+#### Proposition 15 {#alg-iii-s8-prop-15 .statement tag=064S}
 
 Let $\mathbf{E}$ be a vector space over a commutative field; for $p$ vectors $x_i \in \mathbf{E}$ ($1 \leq i \leq p$) to be linearly independent, it is necessary and sufficient that $x_1 \wedge x_2 \wedge \cdots \wedge x_p \neq 0$.
 
-#### Corollary {#alg-iii-s8-n8-cor-1 .statement}
+#### Corollary {#alg-iii-s8-n8-cor-1 .statement tag=064T}
 
 Let $X$ be a matrix of type $(m, n)$ over a commutative field. The rank of $X$ is equal to the greatest integer $p$ such that there exists at least one minor of $X$ of order $p$ which is $\neq 0$.
 
@@ -759,7 +759,7 @@ $$
 
 (41)
 
-#### Proposition 16 {#alg-iii-s8-prop-16 .statement}
+#### Proposition 16 {#alg-iii-s8-prop-16 .statement tag=064U}
 
 Let $L = (\lambda_{ij})$ be the matrix (of type $(m, n)$) of system (41). Let $M$ be the matrix of type $(m, n+1)$ obtained by adding to $L$ the $(n+1)$-th column $(\eta_i)$ (II, § 10, no. 1). Let $p$ be the rank of $L$ (calculated by applying the Corollary to Proposition 15). Suppose that the minor $\Delta$ of $L$, the determinant of the matrix by suppressing the rows and columns of index $\geq p + 1$ in $L$, is $\neq 0$ (which is always possible by means of a suitable permutation on the rows of $L$ and a suitable permutation on the columns of $L$). Then, for system (41) to have at least one solution it is necessary and sufficient that all the minors of order $p + 1$ of $M$, the determinants of the submatrices of order $p + 1$ of $M$ whose columns have indices $1, 2, \ldots, p$ and $n+1$, be zero. If this is so, the solutions of system (41) are those of the system consisting of the first $p$ equations; if they are written
 
@@ -787,13 +787,13 @@ The *kernel* of the surjective homomorphism $\det : \mathbf{GL}(n, A) \to A^*$ i
 
 In this no. we shall examine the case where $A$ is a *field*. Recall that for $1 \leq i \leq n, 1 \leq j \leq n$, $E_{ij}$ denotes the square matrix of order $n$ all of whose elements are zero except the one in the row of index $i$ and the column of index $j$, which is equal to 1; with $I_n$ denoting the unit matrix of order $n$, we write $B_{ij}(\lambda) = I_n + \lambda E_{ij}$ for every ordered pair of *distinct* indices $i, j$ and all $\lambda \in A$ (II, § 10, no. 13).
 
-#### Proposition 17 {#alg-iii-s8-prop-17 .statement}
+#### Proposition 17 {#alg-iii-s8-prop-17 .statement tag=064V}
 
 *Let $K$ be a commutative field. The unimodular group $\mathbf{SL}(n, K)$ is generated by the matrices $B_{ij}(\lambda)$ with $i \neq j$ and $\lambda \in K$.*
 
 By II, § 10, no. 13, Proposition 14, we know that every matrix in $\mathbf{GL}(n, K)$ is a product of matrices of the form $B_{ij}(\lambda)$ and a matrix of the form $\operatorname{diag}(1, 1, \ldots, 1, \alpha)$ with $\alpha \in K^*$. Now it is immediate that $\det(B_{ij}(\lambda)) = 1$ and $\det(\operatorname{diag}(1, \ldots, 1, \alpha)) = \alpha$ (no. 6, *Example 2*); whence the proposition.
 
-#### Corollary {#alg-iii-s8-n9-cor-1 .statement}
+#### Corollary {#alg-iii-s8-n9-cor-1 .statement tag=064W}
 
 *The group* $\mathbf{SL}(n, K)$ *is the group of commutators of* $\mathbf{GL}(n, K)$, *except in the case where* $n = 2$ *and where* $K$ *is a field with 2 elements*.
 
@@ -803,7 +803,7 @@ Suppose first that $K$ contains an element $\lambda$ distinct from 0 and 1; then
 
 Suppose now that $n \geq 3$. The product $B_{21}(1) B_{31}(1)$ is the matrix of an automorphism $u$ of $K^n$ such that $u(e_1) = e_1 + e_2 + e_3, u(e_i) = e_i$ for $i \neq 1$. If $S$ is the matrix of the automorphism $u'$ of $K^n$ such that $u'(e_2) = e_2 + e_3, u'(e_i) = e_i$ for $i \neq 2$, then $S . B_{21}(1) B_{31}(1) . S^{-1} = B_{21}(1)$; we also deduce that $s^2 = s$, which completes the proof.
 
-#### Remark {#alg-iii-s8-n9-rem-1 .statement}
+#### Remark {#alg-iii-s8-n9-rem-1 .statement tag=064X}
 
 (1) $\mathbf{GL}(2, \mathbf{F}_2) = \mathbf{SL}(2, \mathbf{F}_2)$; this is a solvable group of order 6, whose commutator group is of index 2 (II, § 10, Exercise 14).
 
@@ -841,7 +841,7 @@ $$
 $$
 Let $\psi$ denote the $A[X]$-endomorphism $X - \bar{u}$ of $M[X]$, so that $\psi(p \otimes x) = (Xp) \otimes x - p \otimes u(x)$. We have the following proposition:
 
-#### Proposition 18 {#alg-iii-s8-prop-18 .statement}
+#### Proposition 18 {#alg-iii-s8-prop-18 .statement tag=064Y}
 
 *The sequence of $A[X]$-homomorphisms*
 $$
@@ -867,7 +867,7 @@ which proves that there exists a $y \in M[X]$ such that $z = \psi(y)$.
 
 Now let $M'$ be another $A$-module and $u'$ an endomorphism of $M'$; let $M'_{u'}$, $\phi'$, $\bar{u}'$, $\psi'$ be the module and mapping obtained from $M'$ and $u'$ as $M_u$, $\phi$, $\bar{u}$, $\psi$ are obtained from $M$ and $u$. Then:
 
-#### Proposition 19 {#alg-iii-s8-prop-19 .statement}
+#### Proposition 19 {#alg-iii-s8-prop-19 .statement tag=064Z}
 
 *For a mapping g of M into M' to be an A[X]-homomorphism of M_u into M'_u, it is necessary and sufficient that g be an A-homomorphism of M into M' such that $g \circ u = u' \circ g$. When this is so, if $\bar{g}$ is the A[X]-homomorphism of M[X] into M'[X] equal to $1_{A[x]} \otimes g$ (II, § 5, no. 1), the diagram*
 
@@ -906,7 +906,7 @@ $$
 \mathrm{Tr}(\wedge^j(\bar{u})) = \mathrm{Tr}(\wedge^j(u)).
 $$
 
-#### Definition 3 {#alg-iii-s8-def-3 .statement}
+#### Definition 3 {#alg-iii-s8-def-3 .statement tag=0650}
 
 Let $M$ be a finite-dimensional free $A$-module and $u$ an endomorphism of $M$. The determinant of the endomorphism $X - \bar{u}$ of the free $A[X]$-module $M[X]$ is called the characteristic polynomial of $u$ and is denoted by $\chi_u(X)$.
 
@@ -918,7 +918,7 @@ $$
 
 for $\det(X - Y \bar{u}) = \det(X . I_n + Y U)$ and $\det(X - \bar{u}) = \det(X . I_n - U)$. It is therefore seen that $\chi_u(X)$ is a monic polynomial of degree $n$, in which the coefficient of $X^{n-1}$ is $-\operatorname{Tr}(u)$ and the constant term is $(-1)^n \det(u)$.
 
-#### Proposition 20 ("Cayley–Hamilton theorem") {#alg-iii-s8-prop-20 .statement}
+#### Proposition 20 ("Cayley–Hamilton theorem") {#alg-iii-s8-prop-20 .statement tag=0651}
 
 For every endomorphism $u$ of a finite-dimensional free $A$-module, $\chi_u(u) = 0$.
 

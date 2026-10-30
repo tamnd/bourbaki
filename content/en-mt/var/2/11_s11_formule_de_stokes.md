@@ -28,11 +28,11 @@ subsections:
       pdf_page: 139
 statements: 1
 exercises: 0
-content_sha256: dd75a45f272b35f901b1a2d1405444b8385e25ecaa6feb881fa35299d399d447
+content_sha256: 3ff1bd5e1568a5b5b68ddabf89eab77fa79cb473e831fa9efb1feb404b47e858
 translated_from: content/fr/var/2/11_s11_formule_de_stokes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: f1165c8a6f12721343d74c911068a2aca50a9171ac61b24075e228a251000002
+source_content_sha256: 3c7c0d9ff5cffb19c425099c3675e7342fe4db5b5e5f8bb52c5e48370320c382
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-en-mt-f61888af
 glossary_version: 34
@@ -77,7 +77,7 @@ In this No., let $X$ be a separated, pure $C^r$-class manifold ($r \geq 2$) of f
 
 11.2.1. Let $x \in \partial A$ and let $\xi$ be an orientation of $T_x(\partial A)$; we denote by $\tilde{i}_x(\xi)$ the orientation of $T_x(X)$ containing the elements $v \wedge u$, where $v$ is a vector strictly outward for $A$ at $x$ (11.1.4) and where $u$ is a nonzero element of $\wedge^{n-1} T_x(\partial A)$ belonging to the orientation $\xi$. The mapping $\tilde{i}_x$ is a bijection of $\mathrm{Or}(T_x(\partial A))$ onto $\mathrm{Or}(T_x(X))$. The mappings $\tilde{i}_x$ for $x \in \partial A$, define a morphism $\tilde{i} : \tilde{\partial A} \to \tilde{X}$ which is an *orientation* of $i$ (10.2.5). If $\xi$ is an orientation of $X$, the orientation of $\partial A$ associated with $\xi$ by $\tilde{i}$ (10.2.5) is said to be *defined by* $\xi$.
 
-#### Example {#var-2-s11-n2-exa-1 .statement}
+#### Example {#var-2-s11-n2-exa-1 .statement tag=0EEJ}
 
 When $X = \mathbf{R}^n$, $\xi$ is the usual orientation of $\mathbf{R}^n$ and $A$ is a closed ball of radius $> 0$, the orientation of the sphere $\partial A$ defined by $\xi$ is the canonical orientation (10.2.8, b)).
 

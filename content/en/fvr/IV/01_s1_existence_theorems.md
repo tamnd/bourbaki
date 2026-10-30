@@ -41,7 +41,7 @@ subsections:
       pdf_page: 191
 statements: 29
 exercises: 18
-content_sha256: 0a7f10c5381aab999496c21998516f0d2c850c034ed4e5811b9635297f680a8c
+content_sha256: 0e1758ad98dd52ed21cb9dc147ffdbd0f25ec001d00ee20b8f91629799eb1263
 ---
 
 ## § 1. EXISTENCE THEOREMS
@@ -107,7 +107,7 @@ $(1 \leq i \leq p)$ to a system of the form (2), where $x_i$ is function on I wh
 
 Recall (II, p. 54, def. 3) that a vector function $u$ defined on an interval $I \subset \mathbf{R}$ is said to be regulated if it is the uniform limit of step functions on every compact subset of I; an equivalent condition is that at every interior point of I the function $u$ has a right and a left limit, and also a right limit at the left-hand end point of I and a left limit at the right-hand endpoint of I, when these two points belong to I (II, p. 54, th. 3). In this chapter we shall restrict ourselves to differential equations (1) for which every solution is a primitive of a regulated function on I. This condition is clearly satisfied if, for every continuous map $u$ of I into H, the function $f(t, u(t))$ is regulated on I; the following lemma gives a sufficient condition for this:
 
-#### Lemma 1 {#fvr-iv-s1-lem-1 .statement}
+#### Lemma 1 {#fvr-iv-s1-lem-1 .statement tag=08BD}
 
 Let $f$ be a map from $I \times H$ into $E$ such that, on writing $f_x$ (for every $x \in H$) for the map $t \mapsto f(t, x)$ of $I$ into $E$, the following conditions are satisfied: 1° $f_x$ is regulated on $I$ for every $x \in H$; 2° the map $x \mapsto f_x$ of $H$ into the set $\mathscr{F}(I, E)$ of maps from $I$ into $E$ is continuous when one endows $\mathscr{F}(I, E)$ with the topology of compact convergence (Gen. Top., X, p. 278). Under these conditions:
 
@@ -133,7 +133,7 @@ consequently one has $\|u_n(t) - x_i\| \leq \delta_x$, whence $\|f(t, u_n(t)) - 
 
 For the rest of this section I will denote an interval contained in $\mathbf{R}$, not reducing to a single point, $H$ an open nonempty set contained in the normed space $E$, and $f$ a map from $I \times H$ into $E$ satisfying the hypotheses of lemma 1.
 
-#### Proposition 1 {#fvr-iv-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-iv-s1-prop-1 .statement tag=08BE}
 
 Let $t_0$ be a point of $I$ and $x_0$ a point of $H$; for a continuous function $u$ to be a solution of the equation (1) on $I$ and take the value $x_0$ at the point $t_0$, it is necessary and sufficient that it satisfies the relation
 
@@ -145,11 +145,11 @@ for every $t \in I$.
 
 Indeed, by lemma 1, if $u$ is a solution of (1) on $I$, then $f(t, u(t))$ is regulated, so the right-hand side of (6) is defined and equal to $u(t)$ for every $t \in I$. Conversely, if $u$ is a continuous function that satisfies (6) then $f(t, u(t))$ is regulated, by lemma 1, so $u$ has derivative equal to $f(t, u(t))$ except at the points of a countable subset of $I$.
 
-#### Corollary {#fvr-iv-s1-n2-cor-1 .statement}
+#### Corollary {#fvr-iv-s1-n2-cor-1 .statement tag=08BF}
 
 *At every point of I distinct from the left (resp. right) endpoint of this interval, every solution u of (1) on I admits a left (resp. right) derivative equal to the left (right) limit of $f(t, u(t))$ at this point.*
 
-#### Proposition 2 {#fvr-iv-s1-prop-2 .statement}
+#### Proposition 2 {#fvr-iv-s1-prop-2 .statement tag=08BG}
 
 *If f is a continuous map from $I \times H$ into E, then every solution of (1) on I is a strict solution.*
 
@@ -175,7 +175,7 @@ $$
 
 Let $(t_0, x_0)$ be a point of $I \times H$; since $f$ satisfies the hypotheses of lemma 1 (IV, p. 165) there exist a compact neighbourhood $J$ of $t_0$ in $I$ such that $f(t, x_0)$ is bounded on $J$, and an open ball $S$ with centre $x_0$ contained in $H$, such that $f(t, x) - f(t, x_0)$ is bounded on $J \times S$; it follows that $f(t, x)$ is *bounded* on $J \times S$. *Throughout this subsection J will denote a compact interval which is a neighbourhood of t_0 in I, S will be an open ball with centre x_0 and radius r contained in H, with J and S such that f is bounded on J × S; and M will denote the supremum of \|f(t, x)\| over J × S.*
 
-#### Proposition 3 {#fvr-iv-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-iv-s1-prop-3 .statement tag=08BH}
 
 *On every compact interval with left (or right) endpoint t_0 contained in J, with length less than r/(M + ε), there exists an approximate solution to within ε of equation (1), with values in S, and equal to x_0 at t_0.*
 
@@ -193,7 +193,7 @@ by the mean value theorem; Cauchy's criterion shows that $u_0$ admits a left lim
 
 When f is uniformly continuous on $J \times S$ one can prove prop. 3 without using Zorn's lemma (IV, p. 199, exerc. 1a)).
 
-#### Proposition 4 {#fvr-iv-s1-prop-4 .statement}
+#### Proposition 4 {#fvr-iv-s1-prop-4 .statement tag=08BI}
 
 *The set of approximate solutions of (1) to within $\varepsilon$, defined on the same interval $K \subset J$ and taking values in S, is uniformly equicontinuous.*
 
@@ -203,13 +203,13 @@ $$
 \|u(s) - u(t)\| \leq (M + \varepsilon)|s - t|.
 $$
 
-#### Corollary (Peano's theorem) {#fvr-iv-s1-n3-cor-1 .statement}
+#### Corollary (Peano's theorem) {#fvr-iv-s1-n3-cor-1 .statement tag=08BJ}
 
 *If E is of finite dimension over $\mathbf{R}$ then there exists a solution of (1) with values in S and equal to $x_0$ at $t_0$, on every compact interval K with left (or right) endpoint $t_0$ contained in J and having length $< r/M$.*
 
 Indeed, by prop. 3, once $n$ is large enough there is an approximate solution $u_n$ of (1) to within $1/n$, defined on $K$, with values in $S$, and equal to $x_0$ at $t_0$. Further, from some value of $n$ on, $u_n(K)$ is contained in a *closed* ball with centre $x_0$ and radius $< r$, independent of $n$. The set of $u_n$ is equicontinuous (prop. 4), and since $E$ is finite dimensional the set $S$ is relatively compact in $E$; so for every $t \in K$ the set of $u_n(t)$ is relatively compact in $E$. By Ascoli’s theorem (*Gen. Top.*, X, p. 290, th. 2) the set of $u_n$ is relatively compact in the space $\mathscr{F}(K; E)$ of maps from $K$ into $E$ endowed with the uniform norm. Thus there is a sequence extracted from $(u_{n_k})$ of $(u_n)$ which converges uniformly on $K$ to a continuous function $u$. One has $u(K) \subset S$, so $t \mapsto f(t, u(t))$ is defined on $K$; by lemma 1 (IV, p. 165), $f(t, u_{n_k}(t))$ converges uniformly to $f(t, u(t))$ on $K$; by (IV, p. 4, formula (7)), $u_{n_k}$ is a primitive of a function which tends uniformly to $f(t, u(t))$ on $K$, so (II, p. 52, th. 1) $u$ is a solution of (1) on $K$, and equal to $x_0$ at the point $t_0$.
 
-#### Remark 1 {#fvr-iv-s1-n3-rem-1 .statement}
+#### Remark 1 {#fvr-iv-s1-n3-rem-1 .statement tag=08BK}
 
 There can be *infinitely many* integrals of a differential equation (1) taking the same value at a given point. For example, the scalar differential equation $x' = 2\sqrt{|x|}$ has all the functions defined by
 
@@ -223,7 +223,7 @@ $$
 
 as integrals taking the value 0 at the point $t = 0$, for any positive numbers $\alpha$ and $\beta$.
 
-#### Remark 2 {#fvr-iv-s1-n3-rem-2 .statement}
+#### Remark 2 {#fvr-iv-s1-n3-rem-2 .statement tag=08BL}
 
 Peano’s theorem no longer holds when $E$ is an arbitrary complete normed space of *infinite* dimension (IV, p. 204, exerc. 18).
 
@@ -231,7 +231,7 @@ Peano’s theorem no longer holds when $E$ is an arbitrary complete normed space
 
 In what follows, I and $H$ denote, as above, an interval contained in $\mathbf{R}$ and an open set in the normed space $E$, respectively; $t_0$ is a point of I.
 
-#### Definition 1 {#fvr-iv-s1-def-1 .statement}
+#### Definition 1 {#fvr-iv-s1-def-1 .statement tag=08BM}
 
 *Given a positive real function* $t \mapsto k(t)$ *defined on* $I$, *one says that a map* $f$ *from* $I \times H$ *into* $E$ *is Lipschitz with respect to the function* $k(t)$ *if, for every* $x \in H$, *the function* $t \mapsto f(t, x)$ *is regulated on* $I$, *and if, for every* $t \in I$ *and every pair of points* $x_1, x_2$ *of* $H$, *one has (the "Lipschitz condition")*
 
@@ -251,13 +251,13 @@ $$
 
 is *Lipschitz* (on $I \times H$).
 
-#### Example {#fvr-iv-s1-n4-exa-1 .statement}
+#### Example {#fvr-iv-s1-n4-exa-1 .statement tag=08BN}
 
 When $E = \mathbf{R}$ and $H$ is an interval in $\mathbf{R}$, if the function $f(t, x)$ admits a *partial derivative* $f'_x$ (II, p. 74) at every point $(t, x)$ of $I \times H$, such that $|f'_x(t, x)| \leq k(t)$ on $I \times H$, then condition (8) is satisfied, by the mean value theorem; we shall see later how this example generalizes to the case where $E$ is an arbitrary normed space.
 
 If $f$ is Lipschitz on $I \times H$ then $f$ is *bounded* on $J \times S$ for every compact subinterval $J \subset I$ and every open ball $S \subset H$. Thus prop. 3 (IV, p. 166) can be applied, and demonstrates the existence of approximate solutions of equation (1). But we also have the following proposition, which allows us to *compare* two approximate solutions:
 
-#### Proposition 5 {#fvr-iv-s1-prop-5 .statement}
+#### Proposition 5 {#fvr-iv-s1-prop-5 .statement tag=08BO}
 
 *Let $k(t)$ be a real regulated function and $> 0$ on $I$, and let $f(t, x)$ be a function that is defined and Lipschitz with respect to $k(t)$ on $I \times H$. If $u$ and $v$ are two approximate solutions of (1), to within $\varepsilon_1$ and $\varepsilon_2$ respectively, defined on $I$ with values in $H$, then, for all $t \in I$ such that $t \geq t_0$,
 
@@ -312,7 +312,7 @@ $$
 
 The proposition is thus a consequence of the following lemma:
 
-#### Lemma 2 {#fvr-iv-s1-lem-2 .statement}
+#### Lemma 2 {#fvr-iv-s1-lem-2 .statement tag=08BP}
 
 *If w is a continuous real function on the interval [t_0, t_1] and satisfies the inequality*
 
@@ -357,7 +357,7 @@ $$
 
 and since $w(t) \leq \varphi(t) + y(t)$ one thus obtains (13).
 
-#### Corollary {#fvr-iv-s1-n4-cor-1 .statement}
+#### Corollary {#fvr-iv-s1-n4-cor-1 .statement tag=08BQ}
 
 *Let $\mathbf{f}$ be a Lipschitz function for the constant $k > 0$, defined on $\mathbf{I} \times \mathbf{H}$. If $\mathbf{u}$ and $\mathbf{v}$ are two approximate solutions of (1) to within $\varepsilon_1$ and $\varepsilon_2$ respectively, defined on $\mathbf{I}$ and taking their values in $\mathbf{H}$, then, for all $t \in \mathbf{I}$,*
 
@@ -374,7 +374,7 @@ $$
 
 obtained from (1) by the change of variable $t = -s$.
 
-#### Remark 1 {#fvr-iv-s1-n4-rem-1 .statement}
+#### Remark 1 {#fvr-iv-s1-n4-rem-1 .statement tag=08BR}
 
 When $k = 0$ the inequality (15) is replaced by the inequality
 $$
@@ -382,11 +382,11 @@ $$
 $$
 whose proof is immediate.
 
-#### Remark 2 {#fvr-iv-s1-n4-rem-2 .statement}
+#### Remark 2 {#fvr-iv-s1-n4-rem-2 .statement tag=08BS}
 
 When E is of finite dimension, and $\mathbf{f}$ is Lipschitz on $I \times H$, one can show the existence of approximate solutions of (1) (IV, p. 166, prop. 3) without using the axiom of choice (IV, p. 199, exerc. 1 b)).
 
-#### Proposition 6 {#fvr-iv-s1-prop-6 .statement}
+#### Proposition 6 {#fvr-iv-s1-prop-6 .statement tag=08BT}
 
 *Let $\mathbf{f}$ and $\mathbf{g}$ be two functions defined on $I \times H$, satisfying the hypotheses of lemma 1 of IV, p. 165, and such that, on $I \times H$,
 $$
@@ -408,7 +408,7 @@ for all $t$ in the complement in $I$ of a countable subset of $I$; in other word
 
 ### 5. EXISTENCE AND UNIQUENESS OF SOLUTIONS OF LIPSCHITZ AND LOCALLY LIPSCHITZ EQUATIONS
 
-#### Theorem 1 (Cauchy) {#fvr-iv-s1-thm-1 .statement}
+#### Theorem 1 (Cauchy) {#fvr-iv-s1-thm-1 .statement tag=08BU}
 
 *Let $\mathbf{f}$ be a Lipschitz function on $I \times H$, let J be a compact subinterval of $I$, not reducing to a single point, $t_0$ a point of J, S an open ball with centre $\mathbf{x}_0$ and radius r, contained in H, and M the least upper bound of $\| \mathbf{f}(t, \mathbf{x}) \|$ on $J \times S$. In these circumstances, for every compact interval K that does not reduce to a single point and is contained in the intersection of J with $]t_0 - r/M, t_0 + r/M[$, and contains $t_0$, there exists one and only one solution of the differential equation $\mathbf{x}' = \mathbf{f}(t, \mathbf{x})$ defined on K, with values in S, and equal to $\mathbf{x}_0$ at the point $t_0$.
 
@@ -423,7 +423,7 @@ We shall say that a function $f$ defined on $I \times H$ is locally Lipschitz if
 
 We shall generalize and clarify th. 1 of IV, p. 10 for locally Lipschitz equations; we restrict ourselves to the case where $t_0$ is the left endpoint of the interval $I$; one can pass easily to the case where $t_0$ is an arbitrary point of $I$ (cf. IV, §IV ??, p. 9, corollary).
 
-#### Theorem 2 {#fvr-iv-s1-thm-2 .statement}
+#### Theorem 2 {#fvr-iv-s1-thm-2 .statement tag=08BV}
 
 *Let $I \subset \mathbf{R}$ be an interval (not reducing to a single point) with left-hand endpoint $t_0 \in I$, let $H$ be a nonempty open set in $E$, and $f$ a locally Lipschitz function on $I \times H$.*
 
@@ -445,7 +445,7 @@ If K is a compact subset of H then $\bar{u}^{-1}(K)$ is closed in J; we shall se
 
 3 Suppose that J is bounded and that $\|f(t, u(t))\| \leq M$ on J; then $\|u'(t)\| \leq M$ on the complement of a countable subset of J; then, by the mean value theorem, $\|u(s) - u(t)\| \leq M |s - t|$ for any s and t in J; by the Cauchy criterion, u has a left limit c at the right endpoint β of J. If J ≠ I then c cannot belong to H, for on extending u by continuity at β, u would be an integral of (1) with values in H, defined on an interval [t_0, β] and equal to x_0 at t_0; then one would have J = [t_0, β], contradicting what we have seen in 2 .
 
-#### Corollary 1 {#fvr-iv-s1-thm-2-cor-1 .statement}
+#### Corollary 1 {#fvr-iv-s1-thm-2-cor-1 .statement tag=08BW}
 
 *If H = E and J ≠ I then f(t, u(t)) is not bounded on J, if, further, E is finite dimensional, then $\|u(t)\|$ has left limit $+\infty$ at the right-hand endpoint of J.*
 
@@ -453,25 +453,25 @@ The first part is an immediate consequence of the third part of th. 2 If E is fi
 
 If E is finite dimensional it can happen that J ≠ I but that $\|u(t)\|$ remains *bounded* as t tends to the right-hand endpoint of J (IV, p. 200, exerc. 5).
 
-#### Corollary 2 {#fvr-iv-s1-thm-2-cor-2 .statement}
+#### Corollary 2 {#fvr-iv-s1-thm-2-cor-2 .statement tag=08BX}
 
 *If, on I × H, the function f is Lipschitz with respect to a regulated function k(t), and if the right-hand endpoint β of J belongs to I, then u has a left limit at β; if H = E and if f is Lipschitz with respect to a regulated function k(t) on I × E, then J = I.*
 
 Indeed, if β ∈ I, there exists a compact neighbourhood V of β in I, such that f(t, x_0) and k(t) are bounded on V; then $\|f(t, x)\| \leq m \|x\| + h$ (m and h constant) on $V \times H$, whence $\|u'(t)\| \leq m \|u(t)\| + h$ on the complement of a countable subset of $V \cap J$, so that $\|u(t)\| \leq m \int_{t_0}^t \|u(s)\|\ ds + q$ ($q$ constant) on $V \cap J$; lemma 2 (IV, p. 170) shows that $\|u(t)\| \leq c\ e^{mt} + d$ ($c$ and $d$ constant) on $V \cap J$, and thus $f(t, u(t))$ remains *bounded* on $J$, and the corollary results from th. 2 of IV, p. 172.
 
-#### Example 1 {#fvr-iv-s1-n5-exa-1 .statement}
+#### Example 1 {#fvr-iv-s1-n5-exa-1 .statement tag=08BY}
 
 For a differential equation of the form $x' = g(t)$, where $g$ is regulated on $I$, every integral $u$ is clearly defined on all of $I$. One should note that $u$ can be bounded on $I$ without $g(t)$ being so.
 
-#### Example 2 {#fvr-iv-s1-n5-exa-2 .statement}
+#### Example 2 {#fvr-iv-s1-n5-exa-2 .statement tag=08BZ}
 
 For the scalar equation $x' = \sqrt{1 - x^2}$ one has $I = \mathbf{R},\ H = ] - 1, +1[$. If one takes $t_0 = x_0 = 0$ the corresponding integral is $\sin t$ *on the largest interval containing 0 where the derivative of $\sin t$ is positive*, that is to say, on $] - \pi/2, +\pi/2[$; at the endpoints of this interval the integral tends to an endpoint of $H$.
 
-#### Example 3 {#fvr-iv-s1-n5-exa-3 .statement}
+#### Example 3 {#fvr-iv-s1-n5-exa-3 .statement tag=08C0}
 
 For the scalar equation $x' = 1 + x^2$ one has $I = H = \mathbf{R}$: the integral that vanishes at $t = 0$ is $\tan t$, and the largest interval containing 0 where this function is continuous is $J = ] - \pi/2, +\pi/2[$; and $|\tan t|$ tends to $+\infty$ at the endpoints of $J$ (*cf.* IV, p. 173, cor. 1).
 
-#### Example 4 {#fvr-iv-s1-n5-exa-4 .statement}
+#### Example 4 {#fvr-iv-s1-n5-exa-4 .statement tag=08C1}
 
 For the scalar equation $x' = \sin tx$ one has $I = H = \mathbf{R}$ and the right-hand side is bounded on $I \times H$, so (IV, p. 173, cor. 1) every integral is defined on all of $\mathbf{R}$.
 
@@ -485,7 +485,7 @@ $$
 
 is "close" to a Lipschitz equation $x' = g(t, x)$ and when one supposes that *both* equations have an approximate solution on the same interval, then these approximate solutions are "close"; we shall clarify this result by showing that the existence of solutions of the Lipschitz equation $x' = g(t, x)$ on an interval *implies* that of approximate solutions of $x' = f(t, x)$ on the same interval, so long as, on the latter, the values of the solution of $x' = g(t, x)$ are not "too close" to the *boundary* of $H$.
 
-#### Proposition 7 {#fvr-iv-s1-prop-7 .statement}
+#### Proposition 7 {#fvr-iv-s1-prop-7 .statement tag=08C2}
 
 *Let $f$ and $g$ be two functions defined on $I \times H$, satisfying the hypotheses of lemma 1 of IV. p. 165, and such that, on $I \times H$*
 
@@ -510,7 +510,7 @@ $$
 
 on the interval $[t_0, t_1[$ by prop. 6; now on the compact interval $[t_0, t_1]$ the regulated function $g(t, u(t))$ is bounded, so the function $g(t, v_0(t))$ is bounded on the interval $[t_0, t_1[$, for $\| g(t, v_0(t)) \| \leq \| g(t, u(t)) \| + k \varphi(t)$ on this interval. Since $v_0$ is an approximate solution of $x' = g(t, x)$ to within $\alpha$ on $[t_0, t_1[$ there exists a number $M > 0$ such that $\| v_0'(t) \| \leq M$ on this interval, except at the points of a countable set; the mean value theorem now shows that $\| v_0(s) - v_0(t) \| \leq M |s - t|$ for every pair of points $s, t$ of $[t_0, t_1[$, so (by Cauchy's criterion) $v_0(t)$ has a left limit $c$ at the point $t_1$, and, by continuity, one has $\| c - u(t_1) \| \leq \varphi(t_1)$, and so $c \in H$. Now one sees, from IV, p. 171, th. 1 or IV, p. 167, corollary, that there exists an integral of $x' = f(t, x)$ defined on an interval $[t_1, t_2[$ and equal to $c$ at $t_1$, which contradicts the definition of $v_0$.
 
-#### Theorem 3 {#fvr-iv-s1-thm-3 .statement}
+#### Theorem 3 {#fvr-iv-s1-thm-3 .statement tag=08C3}
 
 *Let F be a topological space and let f be a map from I × H × F into E such that, for every $\xi \in F$, the function $(t, x) \mapsto f(t, x, \xi)$ is Lipschitz on I × H, and such that, when $\xi$ tends to $\xi_0$, $f(t, x, \xi)$ tends uniformly to $f(t, x, \xi_0)$ on I × H. Let $u_0(t)$ be an integral of $x' = f(t, x, \xi_0)$ defined on an interval $J = [t_0, b[$ contained in I, with values in H, and equal to $x_0$ at $t_0$. For every compact interval $[t_0, t_1]$ contained in J there exists a neighbourhood V of $\xi_0$ in F such that, for every $\xi \in V$, the equation $x' = f(t, x, \xi)$ has an integral (and only one) $u(t, \xi)$ defined on $[t_0, t_1]$, with values in H and equal to $x_0$ at $t_0$; moreover, when $\xi$ tends to $\xi_0$ the solution $u(t, \xi)$ tends uniformly to $u_0(t)$ on $[t_0, t_1]$.*
 
@@ -522,7 +522,7 @@ $$
 
 on $[t_0, t_1]$, which completes the proof of the theorem.
 
-#### Remark {#fvr-iv-s1-n6-rem-1 .statement}
+#### Remark {#fvr-iv-s1-n6-rem-1 .statement tag=08C4}
 
 When $H = E$ and the condition (16) of IV, p. 174 is satisfied on $I \times E$, prop. 7 of IV, p. 174 applies to *every* solution $u$ of $x' = g(t, x)$ on *any* interval where this solution is defined; one may even assume that $g(t, x)$ is Lipschitz with respect to a regulated function $k(t)$ though not necessarily bounded on this interval.
 
@@ -530,7 +530,7 @@ When $H = E$ and the condition (16) of IV, p. 174 is satisfied on $I \times E$, 
 
 Let $x' = f(t, x)$ be a locally Lipschitz equation on $I \times H$; by th. 2 (IV, p. 172), for every point $(t_0, x_0)$ of $I \times H$ there exists a *largest interval* $J(t_0, x_0) \subset I$, not reducing to a single point, containing $t_0$, and on which there exists an integral (and only one) of this equation, equal to $x_0$ at $t_0$; we shall clarify the manner in which this integral, and the interval $J(t_0, x_0)$ where it is defined, depend on the point $(t_0, x_0)$.
 
-#### Theorem 4 {#fvr-iv-s1-thm-4 .statement}
+#### Theorem 4 {#fvr-iv-s1-thm-4 .statement tag=08C5}
 
 *Let $f$ be a locally Lipschitz function on $I \times H$ and $(a, b)$ an arbitrary point of $I \times H$.*
 

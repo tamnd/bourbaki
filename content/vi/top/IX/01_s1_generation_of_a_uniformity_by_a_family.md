@@ -36,7 +36,7 @@ subsections:
       pdf_page: 152
 statements: 19
 exercises: 22
-content_sha256: feda3351be96904d4150b04acef242acb25d9ac2a133f2dd98259904e3bbb879
+content_sha256: 240106c588371a85625df66a7e9c6619a169d53fb1e6c7743e77ccf3be95a860
 translated_from: content/en/top/IX/01_s1_generation_of_a_uniformity_by_a_family.md
 source_content_sha256: d46241dcc6e0b3fdc75ac577e2626154c33e198b02447a07198d181994f0f47a
 translation_model: gpt-5.4, gpt-5-6, gpt-5-6-mini
@@ -60,19 +60,19 @@ f(x, y) \leq f(x, z) + f(z, y)
 $$
 (bất đẳng thức tam giác).
 
-#### Ví dụ 1 {#top-ix-s1-n1-exa-1 .statement}
+#### Ví dụ 1 {#top-ix-s1-n1-exa-1 .statement tag=0C17}
 
 Trên không gian số thực $\mathbf{R}^n$, khoảng cách Euclid (Chương VI, § 2, no. 1) là một giả khoảng cách.
 
-#### Ví dụ 2 {#top-ix-s1-n1-exa-2 .statement}
+#### Ví dụ 2 {#top-ix-s1-n1-exa-2 .statement tag=0C18}
 
 Nếu X là một tập hợp bất kỳ, thì hàm f xác định trên $X \times X$ bởi các điều kiện $f(x, x) = 0$ với mọi $x \in X, f(x, y) = +\infty$ nếu $x \neq y$ là một giả khoảng cách trên X.
 
-#### Ví dụ 3 {#top-ix-s1-n1-exa-3 .statement}
+#### Ví dụ 3 {#top-ix-s1-n1-exa-3 .statement tag=0C19}
 
 Nếu X là một tập hợp bất kỳ và nếu g là một hàm nhận giá trị thực hữu hạn bất kỳ xác định trên X, thì hàm f xác định trên $X \times X$ bởi $f(x, y) = |g(x) - g(y)|$ là một giả khoảng cách trên X.
 
-#### Ví dụ 4 {#top-ix-s1-n1-exa-4 .statement}
+#### Ví dụ 4 {#top-ix-s1-n1-exa-4 .statement tag=0C1A}
 
 \* Cho X là tập hợp mọi ánh xạ liên tục từ khoảng [0, 1] của $\mathbf{R}$ vào $\mathbf{R}$. Nếu với mỗi cặp phần tử $x, y$ của X ta đặt
 $$
@@ -80,7 +80,7 @@ f(x, y) = \int_0^1 |x(t) - y(t)| \, dt,
 $$
 thì f là một giả khoảng cách trên X. \*
 
-#### Nhận xét {#top-ix-s1-n1-rem-1 .statement}
+#### Nhận xét {#top-ix-s1-n1-rem-1 .statement tag=0EBA}
 1) Ví dụ 2 ở trên cho thấy rằng một giả khoảng cách có thể nhận giá trị $+\infty$ đối với một số cặp phần tử của $X$.
 2) Nếu $f$ là một giả khoảng cách trên $X$, nói chung ta có thể có $f(x, y) = 0$ mà không có $x = y$, như Ví dụ 3 ở trên cho thấy (xem § 2).
 
@@ -106,17 +106,17 @@ Ta đã thấy trong Chương VI, § 2, no. 3 rằng nếu, với mỗi số th�
 
 Nói chung, cho $f$ là một giả mêtric trên một tập hợp $X$: với mỗi $s > 0$, ký hiệu $U_s$ là $f^{-1}([0, s])$, và ta hãy chứng minh rằng, khi $s$ chạy qua tập hợp tất cả các số thực $> 0$, các $U_s$ tạo thành một hệ cơ bản của một cấu trúc đồng nhất trên $X$. Tiên đề $U_1$ được thỏa mãn do $\mathrm{(EC_1)}$: nếu $s = t$, ta có $U_s \subset U_t$ và do đó các $U_s$ thỏa mãn $B_1$: theo $\mathrm{(EC_{11})}$, ta có $U_s \cup U_s$ và do đó $U_{2s}$ được thỏa mãn; cuối cùng, theo $\mathrm{(EC_{111})}$, ta có $U_s = U_{2s}$, sao cho $U_{2s}$ được thỏa mãn. (Xem Chương II, § 1, no. 1, Định nghĩa 2). Do đó ta có thể đưa ra định nghĩa sau:
 
-#### Định nghĩa 2 {#top-ix-s1-def-2 .statement}
+#### Định nghĩa 2 {#top-ix-s1-def-2 .statement tag=0C1B}
 
 Cho một giả mêtric $f$ trên một tập hợp $X$, cấu trúc đồng nhất được định nghĩa bởi $f$ là cấu trúc đồng nhất trên $X$ có một hệ cơ bản của các lân cận là họ các tập hợp $\overline{f}^{-1}([0, a])$, trong đó $a$ chạy qua tập hợp tất cả các số thực $> 0$.
 
 Hai giả mêtric trên $X$ được gọi là tương đương nếu chúng định nghĩa cùng một cấu trúc đồng nhất.
 
-#### Nhận xét 1 {#top-ix-s1-n2-rem-1 .statement}
+#### Nhận xét 1 {#top-ix-s1-n2-rem-1 .statement tag=0C1C}
 
 Nếu $(a_n)$ là một dãy bất kỳ các số $> 0$ và dần tới 0, các $U_{a_n}$ tạo thành một hệ cơ bản của các lân cận của cấu trúc đồng nhất được định nghĩa bởi $f$.
 
-#### Nhận xét 2 {#top-ix-s1-n2-rem-2 .statement}
+#### Nhận xét 2 {#top-ix-s1-n2-rem-2 .statement tag=0C1D}
 
 Định nghĩa một cấu trúc đồng nhất bởi một giả mêtric $f$ bao gồm việc lấy làm hệ cơ bản của các lân cận ảnh ngược qua $f$ của lọc lân cận của 0 trong không gian con $[0, +\infty]$ của $\overline{\mathbf{R}}$. Chú ý rằng thủ tục này hoàn toàn tương tự với thủ tục cho phép ta định nghĩa các cấu trúc đồng nhất trên một nhóm tôpô (Chương III, § 3, no. 1).
 
@@ -134,7 +134,7 @@ $$
 
 Hai ví dụ cuối cùng cho thấy rằng luôn tồn tại các giả mêtric bị chặn tương đương với mọi giả mêtric đã cho (hữu hạn hoặc không).
 
-#### Định nghĩa 3 {#top-ix-s1-def-3 .statement}
+#### Định nghĩa 3 {#top-ix-s1-def-3 .statement tag=0C1E}
 
 Nếu $(f_i)_{i \in I}$ là một họ các giả mêtric trên một tập hợp $X$, thì cận trên nhỏ nhất của tập hợp các cấu trúc đều được xác định trên $X$ bởi các giả mêtric $f_i$ được gọi là cấu trúc đều được xác định bởi họ $(f_i)$.
 
@@ -182,7 +182,7 @@ Nếu $A$ là một tập con không rỗng của $X$, thì hạn chế trên $A
 
 Bây giờ ta hãy xét *phần bù chỉnh* của không gian đều $X$ khi $\mathscr{U}$ là Hausdorff.
 
-#### Mệnh đề 1 {#top-ix-s1-prop-1 .statement}
+#### Mệnh đề 1 {#top-ix-s1-prop-1 .statement tag=0C1F}
 
 *Cho $X$ là một không gian đều Hausdorff mà cấu trúc đều $\mathscr{U}$ của nó được định nghĩa bởi một họ các giả khoảng cách hữu hạn* $(f_i)$, *và gọi* $\hat{X}$ *là phần bù chỉnh* của $X$. Khi đó các hàm $f_i$ có thể được mở rộng liên tục lên $\hat{X} \times \hat{X}$; các hàm mở rộng $\bar{f}_i$ là các giả khoảng cách hữu hạn trên $\hat{X} \times \hat{X}$, và họ $(f_i)$ xác định cấu trúc đều của $\hat{X}$.
 
@@ -192,13 +192,13 @@ Trước hết, các $f_i$ có thể được mở rộng bởi tính liên tụ
 
 Ý nghĩa của việc định nghĩa một cấu trúc đều bằng một họ các giả metric nằm ở chỗ mọi cấu trúc đều đều có thể thu được theo cách đó. Cụ thể:
 
-#### Định lý 1 {#top-ix-s1-thm-1 .statement}
+#### Định lý 1 {#top-ix-s1-thm-1 .statement tag=0C1G}
 
 Cho một cấu trúc đều $\mathscr{U}$ trên một tập hợp $X$, tồn tại một họ các giả metric trên $X$ sao cho cấu trúc đều được xác định bởi họ này trùng với $\mathscr{U}$.
 
 Đối với mỗi lân cận $V$ của cấu trúc đều $\mathscr{U}$, định nghĩa quy nạp một dãy các lân cận đối xứng $(U_n)$ sao cho $U_1 \subset V$ và $U_{n+1} \subset U_n$ với mọi $n \geq 1$. Dãy $(U_n)$ là một hệ cơ bản các lân cận của một cấu trúc đều $\mathscr{U}_V$ thô hơn $\mathscr{U}$; hơn nữa, rõ ràng rằng $\mathscr{U}$ là cận trên nhỏ nhất của tất cả các cấu trúc đều $U_V$ khi $V$ chạy qua bộ lọc các lân cận của $\mathscr{U}$. Do đó Định lý 1 là một hệ quả của mệnh đề sau:
 
-#### Mệnh đề 2 {#top-ix-s1-prop-2 .statement}
+#### Mệnh đề 2 {#top-ix-s1-prop-2 .statement tag=0C1H}
 
 Nếu một cấu trúc đều $\mathscr{U}$ trên $X$ có một hệ cơ bản đếm được các lân cận, thì tồn tại một giả metric $f$ trên $X$ sao cho $\mathscr{U}$ trùng với cấu trúc đều được xác định bởi $f$.
 
@@ -233,7 +233,7 @@ Vậy các bất đẳng thức (2) đã được chứng minh; chúng chỉ ra 
 
 Q.E.D.
 
-#### Nhận xét {#top-ix-s1-n4-rem-1 .statement}
+#### Nhận xét {#top-ix-s1-n4-rem-1 .statement tag=0C1I}
 
 Một cấu trúc đều $\mathscr{U}$ trên $X$ được xác định bởi họ $\Phi$ gồm tất cả các giả mêtric trên $X$ liên tục đều trên $X \times X$. Rõ ràng cấu trúc đều được xác định bởi họ $\Phi$ là thô hơn $\mathscr{U}$; ngược lại, Định lý 1 chỉ ra rằng có một họ con của $\Phi$ xác định cấu trúc đều $\mathscr{U}$ và do đó cấu trúc đều được xác định bởi $\Phi$ là mịn hơn $\mathscr{U}$.
 
@@ -241,7 +241,7 @@ Một cấu trúc đều $\mathscr{U}$ trên $X$ được xác định bởi h�
 
 Trong Chương II, § 4, no. 1, chúng ta đã đặt ra bài toán đặc trưng các không gian tôpô khả năng đồng đều hóa. Lời giải được cho bởi định lý sau:
 
-#### Định lý 2 {#top-ix-s1-thm-2 .statement}
+#### Định lý 2 {#top-ix-s1-thm-2 .statement tag=0C1J}
 
 *Một không gian tôpô* $X$ *là khả năng đồng đều hóa khi và chỉ khi nó thỏa mãn tiên đề sau:*
 
@@ -251,19 +251,19 @@ Trong Chương II, § 4, no. 1, chúng ta đã đặt ra bài toán đặc trưn
 
 Điều kiện là đủ. Thật vậy, đặt $\Phi$ là tập hợp tất cả các *ánh xạ liên tục* từ $X$ vào $[0, 1]$. Tiên đề (OIV) chỉ ra rằng *cấu trúc đều thô nhất mà đối với nó mọi hàm thuộc* $\Phi$ *đều liên tục đều là tương thích* với tôpô của $X$ (Chương II, § 2, no. 3).
 
-#### Định nghĩa 4 {#top-ix-s1-def-4 .statement}
+#### Định nghĩa 4 {#top-ix-s1-def-4 .statement tag=0C1K}
 
 *Một không gian tôpô được gọi là chính quy hoàn toàn nếu nó là khả năng đồng đều hóa và Hausdorff.*
 
 Tương đương, theo Định lý 2, một không gian là chính quy hoàn toàn nếu nó thỏa mãn các tiên đề (H) [xem Chương I, § 8, no. 1, Mệnh đề 1] và (O_{IV}).
 
-#### Nhận xét {#top-ix-s1-n5-rem-1 .statement}
+#### Nhận xét {#top-ix-s1-n5-rem-1 .statement tag=0C1L}
 
 Tiên đề (O_{IV}) kéo theo (O_{III}) (xem Chương I, § 8, no. 4), vì nếu V là một lân cận của x_0 và nếu f là một hàm thực liên tục trên X nhận các giá trị trong [0, 1], sao cho f(x_0) = 0, f(x) = 1 với mọi x \in \overline{V}, thì tập hợp \overline{f}([0, 1/2]) là một lân cận đóng của x_0 được chứa trong V. Đặc biệt, mọi không gian *chính quy hoàn toàn* đều *chính quy* (điều này biện minh cho thuật ngữ). Nhưng có những ví dụ về các không gian chính quy không chính quy hoàn toàn (*), do đó (O_{III}) không kéo theo (O_{IV}).
 
 Mọi không gian compact đều chính quy hoàn toàn (Chương II, § 4, no. 1, Định lý 1) và vì thế mọi không gian con của một không gian compact cũng vậy. Bây giờ ta có thể hoàn thành mệnh đề này bằng cách chứng minh *đảo lại* của nó:
 
-#### Mệnh đề 3 {#top-ix-s1-prop-3 .statement}
+#### Mệnh đề 3 {#top-ix-s1-prop-3 .statement tag=0C1M}
 
 *Một không gian tôpô X là chính quy hoàn toàn khi và chỉ khi nó đồng phôi với một không gian con của một không gian compact.*
 
@@ -273,7 +273,7 @@ Do đó ta có thể nói rằng một không gian chính quy hoàn toàn có th
 
 Nói chung, một *hộp* là một không gian tôpô K^I, tích của một họ các không gian tôpô mà mỗi không gian đều đồng nhất với một *khoảng compact* K của \mathbf{R}, được đánh chỉ số bởi một tập hợp tùy ý I. Nếu I là hữu hạn và có n phần tử, ta thu lại khái niệm về một *hộp đóng n-chiều*, được định nghĩa trong Chương VI, § 1, no. 1. Một hộp là một không gian *compact* (Chương I, § 9, no. 5, Định lý 3).
 
-#### Mệnh đề 4 {#top-ix-s1-prop-4 .statement}
+#### Mệnh đề 4 {#top-ix-s1-prop-4 .statement tag=0C1N}
 
 *Nếu một không gian tôpô X là chính quy hoàn toàn, nó đồng phôi với một không gian con của một hộp.*
 
@@ -287,7 +287,7 @@ K¹. Nếu $x, y$ là hai điểm phân biệt bất kỳ của $X$, suy ra từ
 
 Trong Chương IV, § 6, no. 2, Hệ quả của Định lý 4, ta đã chỉ ra rằng bao trên của một họ các hàm liên tục nhận giá trị thực trên một không gian tôpô là một hàm nửa liên tục dưới. Nếu không gian là *có thể đều hóa*, thì có đảo lại của mệnh đề này:
 
-#### Mệnh đề 5 {#top-ix-s1-prop-5 .statement}
+#### Mệnh đề 5 {#top-ix-s1-prop-5 .statement tag=0C1O}
 
 *Để mọi hàm nhận giá trị thực nửa liên tục dưới $f$ (hữu hạn hoặc không) trên một không gian tôpô $X$ đều là bao trên của các hàm liên tục nhận giá trị thực trên $X$ (hữu hạn hoặc không) thỏa mãn $\leq f$, điều kiện cần và đủ là $X$ có thể đều hóa.*
 
@@ -297,7 +297,7 @@ Trong Chương IV, § 6, no. 2, Hệ quả của Định lý 4, ta đã chỉ ra
 
 Trường hợp tổng quát suy ra bằng phép chuyển cấu trúc; vì có một đồng phôi tăng ngặt từ $[-1, +1]$ lên $\overline{\mathbf{R}}$ (Chương IV, § 4, no. 2, Mệnh đề 2), và định nghĩa của một hàm nửa liên tục chỉ dùng cấu trúc thứ tự và tôpô của $\overline{\mathbf{R}}$.
 
-#### Nhận xét {#top-ix-s1-n6-rem-1 .statement}
+#### Nhận xét {#top-ix-s1-n6-rem-1 .statement tag=0C1P}
 
 Trong chứng minh trên, ta thấy rằng hàm $g$ không nhận giá trị $+1$. Bằng phép chuyển cấu trúc suy ra rằng mọi hàm thực nửa liên tục dưới $f$ trên không gian có thể nhất quán hóa $X$ đều là bao trên của các hàm thực liên tục $g \leq f$ trên $X$ *không nhận giá trị* $+\infty$.
 

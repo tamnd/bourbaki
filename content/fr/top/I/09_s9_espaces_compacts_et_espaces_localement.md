@@ -53,14 +53,14 @@ subsections:
       pdf_page: 81
 statements: 50
 exercises: 31
-content_sha256: 27d06f865e1c7dbbc30284c933f07e26de1a38d05742feffcb6b48f6bb041f37
+content_sha256: ccd82e600e7e70fead0a87be3cea062de82d234a436c284a91cdfcc56f47a064
 ---
 
 ## § 9. ESPACES COMPACTS ET ESPACES LOCALEMENT COMPACTS
 
 ### 1. Espaces quasi-compacts et espaces compacts
 
-#### Définition 1 {#top-i-s9-def-1 .statement}
+#### Définition 1 {#top-i-s9-def-1 .statement tag=0B7S}
 
 On dit qu’un espace topologique X est quasi-compact s’il vérifie l’axiome suivant:
 (C) Tout filtre sur X possède au moins un point adhérent.
@@ -83,25 +83,25 @@ Inversement, la négation de (C) entraîne celle de (C''): car si F est un filtr
 
 Si X est quasi-compact, tout recouvrement localement fini R de X est fini, car il existe alors en vertu de (C''') un recouvrement de X formé d’un nombre fini d’ensembles ouverts, dont chacun ne rencontre qu’un nombre fini d’ensembles de $\mathfrak{R}$.
 
-#### Exemple 1 {#top-i-s9-n1-exa-1 .statement}
+#### Exemple 1 {#top-i-s9-n1-exa-1 .statement tag=0B7T}
 
 Tout espace *fini* est *quasi-compact* et plus généralement tout espace dans lequel il n’y a qu’un nombre fini d’ensembles ouverts est quasi-compact; pour qu’un espace fini soit compact, il faut et il suffit qu’il soit *discret*, puisqu’un espace fini séparé est discret (I, p. 53, corollaire). Réciproquement, *tout espace discret compact est fini*, car dans un tel espace tout ensemble réduit à un point est ouvert, donc l’espace est fini en vertu de (C''').
 
-#### Exemple 2 {#top-i-s9-n1-exa-2 .statement}
+#### Exemple 2 {#top-i-s9-n1-exa-2 .statement tag=0B7U}
 
 Soit X un ensemble; munissons X de la topologie pour laquelle les parties fermées sont X et les parties *finies* de X (cet ensemble de parties vérifiant de façon évidente les axiomes (O_I') et (O_{II}') de I, p. 5). L’espace topologique X ainsi défini est *quasi-compact*; montrons en effet qu’il vérifie l’axiome (C''). Si $(F_\alpha)_{\alpha \in I}$ est une famille de parties fermées de X dont l’intersection est vide, il y a un $\alpha \in I$ tel que $F_\alpha$ soit fini; si $a_k$ ($1 \leq k \leq n$) sont ses éléments, il existe par hypothèse pour chaque indice $k$ un indice $\iota_k \in I$ tel que $a_k \notin F_{\iota_k}$; l’intersection des $F_{\iota_k}$ ($1 \leq k \leq n$) et de $F_\alpha$ est alors vide. Si X est infini, il n’est pas séparé.
 
-#### Remarque {#top-i-s9-n1-rem-1 .statement}
+#### Remarque {#top-i-s9-n1-rem-1 .statement tag=0B7V}
 
 Les espaces quasi-compacts non séparés sont surtout utiles dans les applications de la Topologie à la Géométrie algébrique, mais n’interviennent guère dans les autres théories mathématiques, où par contre les espaces compacts jouent un rôle prépondérant.
 
-#### Théorème 1 {#top-i-s9-thm-1 .statement}
+#### Théorème 1 {#top-i-s9-thm-1 .statement tag=0B7W}
 
 *Soit $\mathfrak{F}$ un filtre sur un espace quasi-compact X, et soit A l’ensemble des points adhérents à $\mathfrak{F}$. Tout voisinage de A appartient alors à $\mathfrak{F}$.*
 
 En effet, soit V un voisinage de A; raisonnons par l’absurde, en supposant que tout ensemble de $\mathfrak{F}$ rencontre $\mathfrak{G}V$. Les traces sur $\mathfrak{G}V$ des ensembles de $\mathfrak{F}$ forment alors une base d’un filtre $\mathfrak{G}$ sur X; comme X est quasi-compact, $\mathfrak{G}$ a au moins un point adhérent $y$, qui n’appartient pas à A, puisque le voisinage V de A a une intersection vide avec certains de ensembles de $\mathfrak{G}$. Mais, comme $\mathfrak{G}$ est *plus fin* que $\mathfrak{F}$, $y$ est aussi adhérent à $\mathfrak{F}$, ce qui est contraire à l’hypothèse.
 
-#### Corollaire {#top-i-s9-n1-cor-1 .statement}
+#### Corollaire {#top-i-s9-n1-cor-1 .statement tag=0B7X}
 
 *Pour qu’un filtre sur un espace compact soit convergent il faut et il suffit qu’il ait un seul point adhérent.*
 
@@ -109,13 +109,13 @@ La condition est nécessaire en vertu de I, p. 52, prop. 1; elle est suffisante 
 
 ### 2. Régularité d’un espace compact
 
-#### Proposition 1 {#top-i-s9-prop-1 .statement}
+#### Proposition 1 {#top-i-s9-prop-1 .statement tag=0B7Y}
 
 *Soient X un espace compact, x un point de X. Pour qu’une base de filtre $\mathfrak{B}$ formée de voisinages fermés de x soit un système fondamental de voisinages de x, il faut et il suffit que l’intersection des ensembles de $\mathfrak{B}$ se réduise au point x.*
 
 La condition est nécessaire puisque X est séparé (I, p. 52, prop. 1). Elle est suffisante, car elle signifie que x est le seul point adhérent à $\mathfrak{B}$, donc $\mathfrak{B}$ converge vers x d’après le cor. du th. 1.
 
-#### Corollaire {#top-i-s9-n2-cor-1 .statement}
+#### Corollaire {#top-i-s9-n2-cor-1 .statement tag=0B7Z}
 
 *Tout espace compact est régulier.*
 En effet, il résulte de l’axiome (Hi) (I, p. 52, prop. 1) que la base de filtre formée de *tous* les voisinages fermés d’un point quelconque de l’espace satisfait à la condition de la prop. 1.
@@ -124,61 +124,61 @@ On notera que l’espace quasi-compact non séparé X de l’*Exemple* 2 de I, p
 
 ### 3. Ensembles quasi-compacts; ensembles compacts; ensembles relativement compacts
 
-#### Définition 2 {#top-i-s9-def-2 .statement}
+#### Définition 2 {#top-i-s9-def-2 .statement tag=0B81}
 
 *On dit qu’une partie* A *d’un espace topologique* X *est un ensemble quasi-compact* (resp. *compact*) *si le sous-espace* A *est quasi-compact* (resp. *compact*).
 
 Pour qu’une partie A d’un espace topologique X soit un ensemble quasi-compact, il faut et il suffit que tout recouvrement de A par des ensembles *ouverts dans* X contienne un recouvrement *fini* de A, comme il résulte de l’axiome (C'"). Dans un espace *séparé*, les notions d’ensemble quasi-compact et d’ensemble compact coïncident, puisque tout sous-espace est séparé.
 
-#### Exemple 1 {#top-i-s9-n3-exa-1 .statement}
+#### Exemple 1 {#top-i-s9-n3-exa-1 .statement tag=0B82}
 
 Dans un espace topologique X, tout ensemble fini est quasi-compact; l’ensemble vide et tout ensemble réduit à un point sont compacts.
 
-#### Exemple 2 {#top-i-s9-n3-exa-2 .statement}
+#### Exemple 2 {#top-i-s9-n3-exa-2 .statement tag=0B83}
 
 Dans un espace topologique X, soit $(x_n)_{n \in \mathbf{N}}$ une suite infinie de points qui *converge* vers un point a. L’ensemble A formé des $x_n$ ($n \in \mathbf{N}$) et de a est *quasi-compact*. En effet, si $(U_i)$ est un recouvrement de A par des ensembles ouverts de X, il existe un indice $\kappa$ tel que $a \in U_\kappa$; comme $U_\kappa$ est un voisinage de a, il n’existe qu’un nombre fini d’indices $n_k$ tels que $x_{n_k} \notin U_\kappa$; si, pour chaque indice $k$, $\iota_k$ est un indice tel que $x_{n_k} \in U_{\iota_k}$, $U_\kappa$ et les $U_{\iota_k}$ forment un recouvrement ouvert fini de A.
 
-#### Proposition 2 {#top-i-s9-prop-2 .statement}
+#### Proposition 2 {#top-i-s9-prop-2 .statement tag=0B80}
 
 *Dans un espace quasi-compact* (resp. *compact*), *tout ensemble fermé est quasi-compact* (resp. *compact*).
 
 Il suffit d’appliquer l’axiome (C''), en remarquant que si A est fermé dans un espace X, tout ensemble fermé dans A est fermé dans X.
 
-#### Proposition 3 {#top-i-s9-prop-3 .statement}
+#### Proposition 3 {#top-i-s9-prop-3 .statement tag=0B84}
 
 *Soient* X *un espace séparé*, A *et* B *deux parties compactes de* X *sans point commun. Alors il existe un voisinage* V *de* A *et un voisinage* W *de* B *qui ne se rencontrent pas*.
 
 Montrons d’abord que pour tout $x \in A$, il existe un voisinage T$(x)$ de x dans X et un voisinage U$(x)$ de B dans X qui ne se rencontrent pas. En effet, pour tout $y \in B$, il existe un voisinage T$(x, y)$ de x et un voisinage U$(x, y)$ de y qui ne se rencontrent pas; comme B est compact, il y a un nombre fini de points $y_j$ de B tels que les U$(x, y_j)$ forment un recouvrement de B. Il suffit de prendre pour U$(x)$ la réunion des U$(x, y_j)$ et pour T$(x)$ l’intersection des T$(x, y_j)$. Comme A est compact, il y a un nombre fini de points $x_i \in A$ tels que les T$(x_i)$ forment un recouvrement de A. On répond alors à la question en prenant pour V la réunion des T$(x_i)$ et pour W l’intersection des U$(x_i)$.
 
-#### Proposition 4 {#top-i-s9-prop-4 .statement}
+#### Proposition 4 {#top-i-s9-prop-4 .statement tag=0B85}
 
 Dans un espace séparé, tout ensemble compact est fermé.
 
 En effet, si A est une partie compacte d’un espace séparé X et x un point de $\mathscr{C}A$, il résulte de la prop. 3 qu’il y a un voisinage de x ne rencontrant pas A, puisque $\{x\}$ est fermé (I, p. 54, prop. 4); donc $\mathscr{C}A$ est ouvert.
 
-#### Corollaire {#top-i-s9-n3-cor-1 .statement}
+#### Corollaire {#top-i-s9-n3-cor-1 .statement tag=0B86}
 
 Dans un espace compact X, pour qu’un ensemble A soit compact, il faut et il suffit qu’il soit fermé dans X.
 
-#### Proposition 5 {#top-i-s9-prop-5 .statement}
+#### Proposition 5 {#top-i-s9-prop-5 .statement tag=0B87}
 
 Dans un espace topologique, la réunion d’une famille finie d’ensembles quasi-compacts est un ensemble quasi-compact.
 
 Il suffit de montrer que la réunion de deux ensembles quasi-compacts A, B dans un espace topologique X est quasi-compacte. Soit $\mathfrak{R}$ un recouvrement ouvert de $A \cup B$; c’est un recouvrement de A et un recouvrement de B, donc il contient un recouvrement fini $\mathfrak{R}_1$ de A et un recouvrement fini $\mathfrak{R}_2$ de B; $\mathfrak{R}_1 \cup \mathfrak{R}_2$ est donc un recouvrement fini de $A \cup B$ contenu dans $\mathfrak{R}$, d’où la proposition.
 
-#### Définition 3 {#top-i-s9-def-3 .statement}
+#### Définition 3 {#top-i-s9-def-3 .statement tag=0B88}
 
 On dit qu’une partie A d’un espace topologique X est relativement quasi-compacte (resp. relativement compacte) dans X si A est contenue dans une partie quasi-compacte (resp. compacte) de X.
 
 De façon abrégée, on dit aussi que A est un « ensemble relativement quasi-compact » (resp. « relativement compact ») lorsqu’il n’y a pas d’équivoque sur X. Dans un espace séparé, les notions d’ensemble relativement quasi-compact et d’ensemble relativement compact sont identiques.
 
-#### Proposition 6 {#top-i-s9-prop-6 .statement}
+#### Proposition 6 {#top-i-s9-prop-6 .statement tag=0B89}
 
 Dans un espace séparé X, pour qu’un ensemble A soit relativement compact, il faut et il suffit que A soit compact.
 
 C’est évidemment suffisant, et c’est nécessaire en vertu de la prop. 4 et de son corollaire.
 
-#### Proposition 7 {#top-i-s9-prop-7 .statement}
+#### Proposition 7 {#top-i-s9-prop-7 .statement tag=0B8A}
 
 Si A est un ensemble relativement quasi-compact dans un espace topologique X, toute base de filtre sur A possède au moins un point adhérent dans X.
 
@@ -186,33 +186,33 @@ En effet, si $A \subset K$, où K est une partie quasi-compacte de X, toute base
 
 La réciproque de cette proposition n’est valable que moyennant des conditions supplémentaires sur X (I, p. 109, exerc. 23).
 
-#### Remarque {#top-i-s9-n3-rem-1 .statement}
+#### Remarque {#top-i-s9-n3-rem-1 .statement tag=0B8B}
 
 Dans un espace non séparé, un ensemble compact n’est pas nécessairement fermé, et son adhérence n’est pas nécessairement quasi-compacte (I, p. 105, exerc. 5); l’intersection de deux ensembles compacts n’est pas nécessairement quasi-compacte (I, p. 105, exerc. 5); la réunion de deux ensembles compacts n’est pas nécessairement compacte (I, p. 105, exerc. 5).
 
 ### 4. Image d’un espace compact par une application continue
 
-#### Théorème 2 {#top-i-s9-thm-2 .statement}
+#### Théorème 2 {#top-i-s9-thm-2 .statement tag=0B8C}
 
 Si f est une application continue d’un espace quasi-compact X dans un espace topologique $X'$, l’ensemble $f(X)$ est quasi-compact.
 
 En effet, soit $\mathfrak{R}$ un recouvrement de $f(X)$ par des ensembles ouverts de $X'$; $f^{-1}(\mathfrak{R})$ est un recouvrement ouvert de $X$ (I, p. 9, th. 1), donc il y a une partie finie $\mathfrak{G}$ de $\mathfrak{R}$ telle que $f^{-1}(\mathfrak{G})$ soit un recouvrement de $X$; mais alors $\mathfrak{G}$ est un recouvrement de $f(X)$, d’où le théorème.
 
-#### Corollaire 1 {#top-i-s9-thm-2-cor-1 .statement}
+#### Corollaire 1 {#top-i-s9-thm-2-cor-1 .statement tag=0B8D}
 
 Soit $f$ une application continue d’un espace topologique $X$ dans un espace séparé $X'$; l’image par $f$ de tout ensemble quasi-compact (resp. relativement quasi-compact) dans $X$ est un ensemble compact (resp. relativement compact) dans $X'$.
 
-#### Corollaire 2 {#top-i-s9-thm-2-cor-2 .statement}
+#### Corollaire 2 {#top-i-s9-thm-2-cor-2 .statement tag=0B8E}
 
 Toute application continue $f$ d’un espace quasi-compact $X$ dans un espace séparé $X'$ est fermée; si en outre $f$ est bijective, $f$ est un homéomorphisme.
 Cela résulte aussitôt du cor. 1 et de I, p. 62, prop. 4.
 
 En particulier:
-#### Corollaire 3 {#top-i-s9-thm-2-cor-3 .statement}
+#### Corollaire 3 {#top-i-s9-thm-2-cor-3 .statement tag=0B8F}
 
 Une topologie séparée moins fine qu’une topologie d’espace quasi-compact lui est nécessairement identique.
 
-#### Corollaire 4 {#top-i-s9-thm-2-cor-4 .statement}
+#### Corollaire 4 {#top-i-s9-thm-2-cor-4 .statement tag=0B8G}
 
 Soient $X$ un espace topologique, $R$ une relation d’équivalence séparée dans $X$.
 a) S’il existe dans $X$ un ensemble quasi-compact $K$ tel que toute classe d’équivalence suivant $R$ rencontre $K$, $X/R$ est compact et l’application canonique de $K/R_K$ sur $X/R$ est un homéomorphisme.
@@ -221,12 +221,12 @@ En effet, soit $f$ la restriction à $K$ de l’application canonique $X \to X/R
 
 ### 5. Produit d’espaces compacts
 
-#### Théorème 3 (Tychonoff) {#top-i-s9-thm-3 .statement}
+#### Théorème 3 (Tychonoff) {#top-i-s9-thm-3 .statement tag=0B8H}
 
 Tout produit d’espaces quasi-compacts (resp. compacts) est quasi-compact (resp. compact). Réciproquement, si un produit d’espaces non vides est quasi-compact (resp. compact), chacun des espaces facteurs est quasi-compact (resp. compact).
 Vu la caractérisation des espaces produits séparés (I, p. 54, prop. 7), tout revient à démontrer les assertions relatives aux espaces quasi-compacts. Si $X = \prod_{i \in I} X_i$ est quasi-compact et non vide, on a $X_i = \mathrm{pr}_i(X)$ pour tout $i$, donc $X_i$ est quasi-compact en vertu du th. 2 de I, p. 62. Inversement, supposons les $X_i$ quasi-compacts et soit $\mathfrak{U}$ un ultrafiltre sur $X$; pour tout $i \in I$, $\mathrm{pr}_i(\mathfrak{U})$ est une base d’ultrafiltre sur $X_i$ (I, p. 41, prop. 10), qui converge donc en vertu de l’axiome (C'); par suite $\mathfrak{U}$ est convergent (I, p. 51, cor. 1), ce qui achève la démonstration.
 
-#### Corollaire {#top-i-s9-n5-cor-1 .statement}
+#### Corollaire {#top-i-s9-n5-cor-1 .statement tag=0B8I}
 
 Pour qu’une partie d’un produit d’espaces topologiques soit relativement quasi-compacte, il faut et il suffit que chacune de ses projections soit relativement quasi-compacte dans l’espace facteur correspondant.
 
@@ -234,7 +234,7 @@ La condition est nécessaire d’après le th. 2 de I, p. 62. Elle est suffisant
 
 ### 6. Limites projectives d’espaces compacts
 
-#### Proposition 8 {#top-i-s9-prop-8 .statement}
+#### Proposition 8 {#top-i-s9-prop-8 .statement tag=0B8J}
 
 Soient $(X_\alpha, f_{\alpha\beta})$ un système projectif d’espaces compacts relatif à un ensemble d’indices filtrant I, tel que $f_{\alpha\alpha}$ soit l’application identique pour tout $\alpha \in I$, $X = \lim_{\leftarrow} X_\alpha$ sa limite projective, $f_\alpha$ l’application canonique $X \to X_\alpha$ (I, p. 28). Alors:
 
@@ -249,13 +249,13 @@ $2^\circ$ Si les $X_\alpha$ sont non vides, $X$ est non vide.
 
 En effet, $X$ est un sous-espace fermé de $\prod_\alpha X_\alpha$ (I, p. 55, cor. 2), donc il est compact en vertu du th. 3 de I, p. 63 et de la prop. 2 de I, p. 61. Les autres assertions résultent de E, III, p. 58, th. 1 : en effet, on peut appliquer ce théorème en prenant pour $S_\alpha$ l’ensemble des parties fermées de $X_\alpha$; les conditions (i) et (ii) ne sont autres que les axiomes (O'_I) et (C'"); la propriété (iii) résulte de ce que $\{ x_\alpha \}$ est fermé et $f_{\alpha\beta}$ continue (I, p. 9, th. 1); enfin la propriété (iv) résulte du cor. 2 de I, p. 63.
 
-#### Corollaire 1 {#top-i-s9-prop-8-cor-1 .statement}
+#### Corollaire 1 {#top-i-s9-prop-8-cor-1 .statement tag=0B8K}
 
 Soit $(X_\alpha, f_{\alpha\beta})$ un système projectif d’espaces topologiques relatif à un ensemble d’indices filtrant, tel que, pour tout couple d’indices $\alpha, \beta$ tels que $\alpha \leq \beta$, et pour tout $x_\alpha \in X_\alpha, f_{\alpha\beta}^{-1}(x_\alpha)$ soit compact. Alors on a la relation (1) et, pour tout $x_\alpha \in X_\alpha, f_\alpha^{-1}(x_\alpha)$ est compact.
 
 En effet, pour tout $x_\alpha \in \bigcap_{\beta \geq \alpha} f_{\alpha\beta}(X_\beta)$ et tout $\beta \geq \alpha$, posons $L_\beta = f_{\alpha\beta}^{-1}(x_\alpha)$. Pour $\alpha \leq \beta \leq \gamma$, on a $f_{\beta\gamma}(L_\gamma) \subset L_\beta$ et l’ensemble des $\beta \geq \alpha$ est cofinal à l’ensemble I. Il est immédiat que les $L_\beta$ ($\beta \geq \alpha$) forment un système projectif d’espaces topologiques (pour les restrictions des $f_{\beta\gamma}$), dont la limite projective L est homéomorphe à $f_\alpha^{-1}(x_\alpha)$. Comme les $L_\beta$ sont par hypothèse compacts et non vides, le corollaire résulte de la prop. 8.
 
-#### Corollaire 2 {#top-i-s9-prop-8-cor-2 .statement}
+#### Corollaire 2 {#top-i-s9-prop-8-cor-2 .statement tag=0B8L}
 
 Soient $(X_\alpha, f_{\alpha\beta}), (X'_\alpha, f'_{\alpha\beta})$ deux systèmes projectifs d’espaces topologiques relatifs au même ensemble d’indices filtrant $I$, et soit $(u_\alpha)$ un système projectif d’applications $u'_\alpha : X_\alpha \to X'_\alpha$. Posons $X = \lim \leftarrow X_\alpha, X' = \lim \leftarrow X'_\alpha, u = \lim \leftarrow u_\alpha$.
 
@@ -269,7 +269,7 @@ $u(x') = L$ est limite projective des $L_\alpha$; l’assertion a) résulte donc
 
 ### 7. Espaces localement compacts
 
-#### Définition 4 {#top-i-s9-def-4 .statement}
+#### Définition 4 {#top-i-s9-def-4 .statement tag=0B8M}
 
 On dit qu’un espace topologique $X$ est localement compact s’il est séparé et si tout point de $X$ possède un voisinage compact.
 
@@ -277,13 +277,13 @@ Il est clair que tout espace compact est localement compact, mais la réciproque
 
 *Comme nous le verrons dans IV, p. 7, la droite numérique $\mathbf{R}$ est un espace localement compact, mais non compact.*
 
-#### Proposition 9 {#top-i-s9-prop-9 .statement}
+#### Proposition 9 {#top-i-s9-prop-9 .statement tag=0B8N}
 
 Tout espace localement compact est régulier.
 
 En effet, tout point $x$ d’un espace localement compact $X$ possède un voisinage compact $V$; comme $X$ est séparé, $V$ est fermé (I, p. 62, prop. 4); d’autre part, $V$ est un sous-espace régulier (I, p. 61, corollaire), donc $X$ est régulier (I, p. 57, prop. 13).
 
-#### Corollaire {#top-i-s9-n7-cor-1 .statement}
+#### Corollaire {#top-i-s9-n7-cor-1 .statement tag=0B8O}
 
 Dans un espace localement compact, tout point admet un système fondamental de voisinages compacts.
 
@@ -293,23 +293,23 @@ On notera qu’il existe des espaces topologiques non séparés dans lesquels to
 
 Le cor. de la prop. 9 se généralise comme suit:
 
-#### Proposition 10 {#top-i-s9-prop-10 .statement}
+#### Proposition 10 {#top-i-s9-prop-10 .statement tag=0B8P}
 
 Dans un espace localement compact $X$, tout ensemble compact $K$ admet un système fondamental de voisinages compacts.
 
 En effet, soit $U$ un voisinage quelconque de $K$; pour tout $x \in K$, il existe un voisinage compact $W(x)$ de $x$ contenu dans $U$. Les intérieurs des ensembles $W(x)$ forment un recouvrement ouvert de $K$ lorsque $x$ parcourt $K$, donc il existe un nombre fini de points $x_i \in K$ ($1 \leq i \leq n$) tels que les intérieurs des $W(x_i)$ forment un recouvrement de $K$; la réunion $V$ des $W(x_i)$ est alors un voisinage compact de $K$ contenu dans $U$ (I, p. 62, prop. 5).
 
-#### Proposition 11 {#top-i-s9-prop-11 .statement}
+#### Proposition 11 {#top-i-s9-prop-11 .statement tag=0B8Q}
 
 *Dans un espace localement compact $X$, soit $F$ un ensemble tel que pour toute partie compacte $K$ de $X$, $F \cap K$ soit compact; alors $F$ est fermé dans $X$.*
 Compte tenu de la prop. 4 de I, p. 62, cela résulte de la prop. 3 a) de I, p. 18.
 
-#### Proposition 12 {#top-i-s9-prop-12 .statement}
+#### Proposition 12 {#top-i-s9-prop-12 .statement tag=0B8R}
 
 *Dans un espace séparé $X$, tout sous-espace localement compact $A$ est localement fermé.*
 En effet, pour tout $x \in A$, il y a par hypothèse un voisinage $V$ de $x$ dans $X$ tel que $V \cap A$ soit compact, et par suite fermé dans $V$ (I, p. 62, prop. 4).
 
-#### Proposition 13 {#top-i-s9-prop-13 .statement}
+#### Proposition 13 {#top-i-s9-prop-13 .statement tag=0B8S}
 
 *Dans un espace localement compact $X$, tout sous-espace localement fermé est localement compact.*
 En effet, supposons $A$ localement fermé dans $X$; pour tout $x \in A$ il existe un voisinage $U$ de $x$ dans $X$ tel que $U \cap A$ soit fermé dans $U$. Soit $V \subset U$ un voisinage compact de $x$ dans $X$; $V \cap A = (U \cap A) \cap V$ est fermé dans $V$, donc compact (I, p. 61, prop. 2), et comme c’est un voisinage de $x$ dans $A$, cela démontre la proposition (A étant évidemment séparé).
@@ -320,7 +320,7 @@ Par exemple, dans un espace discret infini, le filtre des ensembles contenant un
 
 La proposition correspondant au th. 3 (I, p. 63) est la suivante:
 
-#### Proposition 14 {#top-i-s9-prop-14 .statement}
+#### Proposition 14 {#top-i-s9-prop-14 .statement tag=0B8T}
 
 a) *Soit $(X_t)_{t \in I}$ une famille d’espaces localement compacts, telle que $X_t$ soit compact sauf pour un nombre fini d’indices. Alors l’espace produit $X = \prod_{t \in I} X_t$ est localement compact.*
 b) *Réciproquement, si le produit d’une famille $(X_t)_{t \in I}$ d’espaces topologiques non vides est localement compact, les $X_t$ sont compacts sauf pour un nombre fini d’indices, et les facteurs non compacts sont localement compacts.*
@@ -330,7 +330,7 @@ b) Si $X = \prod_{i \in I} X_i$ est localement compact et les $X_i$ non vides, c
 
 ### 8. Immersion d’un espace localement compact dans un espace compact
 
-#### Théorème 4 (Alexandroff) {#top-i-s9-thm-4 .statement}
+#### Théorème 4 (Alexandroff) {#top-i-s9-thm-4 .statement tag=0B8U}
 
 Pour tout espace localement compact $X$, il existe un espace compact $X'$ et un homéomorphisme $f$ de $X$ sur le complémentaire d’un point de $X'$. En outre, si $X'_1$ est un second espace compact tel qu’il existe un homéomorphisme $f_1$ de $X$ sur le complémentaire d’un point de $X'_1$, il existe un homéomorphisme et un seul $g$ de $X'$ sur $X'_1$ tel que $f_1 = g \circ f$.
 
@@ -346,41 +346,41 @@ On observera que si X est déjà compact, le point ω est isolé dans l’espace
 
 Lorsqu’on a ainsi défini un espace compact X' à partir d’un espace localement compact X par adjonction d’un élément ω, on dit souvent que ω est le « point à l’infini » de X', et que X' résulte de X par adjonction d’un point à l’infini ; on dit aussi que X' est le compactifié d’Aleksandroff de l’espace localement compact X.
 
-#### Exemple {#top-i-s9-n8-exa-1 .statement}
+#### Exemple {#top-i-s9-n8-exa-1 .statement tag=0E9C}
 
 *Si on applique le th. d’Aleksandroff au plan numérique R², on obtient un espace compact, dont on peut définir comme suit un homéomorphisme sur la sphère S₂ d’équation x₁² + x₂² + x₃² = 1 dans l’espace R³ : au point ω qu’on a adjoint à R² (point à l’infini), on fait correspondre le point (0, 0, 1) de S₂ ; et à tout point (x₁, x₂) de R² on fait correspondre le point où la droite joignant les points (0, 0, 1) et (x₁, x₂, 0) recoupe S₂. Cet homéomorphisme est connu sous le nom de projection stéréographique (voir A, IX, § 10, exerc. 14 et VI, §2, N° 4).*
 
 ### 9. Espaces localement compacts dénombrables à l’infini
 
-#### Définition 5 {#top-i-s9-def-5 .statement}
+#### Définition 5 {#top-i-s9-def-5 .statement tag=0B8V}
 
 On dit qu’un espace localement compact X est dénombrable à l’infini s’il est réunion dénombrable d’ensembles compacts.
 
-#### Exemple 1 {#top-i-s9-n9-exa-1 .statement}
+#### Exemple 1 {#top-i-s9-n9-exa-1 .statement tag=0B8W}
 
 Pour qu’un espace discret soit dénombrable à l’infini, il faut et il suffit qu’il soit dénombrable.
 
-#### Exemple 2 {#top-i-s9-n9-exa-2 .statement}
+#### Exemple 2 {#top-i-s9-n9-exa-2 .statement tag=0B8X}
 
 La droite numérique R est un espace localement compact dénombrable à l’infini, car elle est réunion des intervalles compacts {−n, +n} pour n ∈ N.*
 
-#### Remarque {#top-i-s9-n9-rem-1 .statement}
+#### Remarque {#top-i-s9-n9-rem-1 .statement tag=0B8Y}
 
 Un espace topologique séparé peut être réunion dénombrable de sous-espaces compacts sans être localement compact. *Il en est ainsi par exemple de l’espace de Hilbert muni de la topologie faible, comme nous le démontrerons plus tard (EVT, I, § 1, n° 6, th. 4).*
 
-#### Proposition 15 {#top-i-s9-prop-15 .statement}
+#### Proposition 15 {#top-i-s9-prop-15 .statement tag=0B8Z}
 
 Si X est un espace localement compact dénombrable à l’infini, il existe une suite (U_n) d’ensembles ouverts relativement compacts dans X, formant un recouvrement de X et tels que $\overline{U}_n \subset U_{n+1}$ pour tout n.
 
 En effet, X est réunion d’une suite (K_n) d’ensembles compacts. Soit U₁ un voisinage ouvert relativement compact de K₁ (I, p. 65, prop. 10) et définissons par récurrence U_n pour n > 1 comme un voisinage ouvert relativement compact de $\overline{U}_{n-1} \cup K_n$ (I, p. 62, prop. 5 et I, p. 65, prop. 10) ; il est clair que les U_n répondent à la question.
 
-#### Corollaire 1 {#top-i-s9-prop-15-cor-1 .statement}
+#### Corollaire 1 {#top-i-s9-prop-15-cor-1 .statement tag=0B90}
 
 Avec les notations de la prop. 15, pour toute partie compacte K de X, il existe un entier n tel que K ⊂ U_n.
 
 En effet, il y a un nombre fini des $U_k$ qui recouvrent K (axiome de Borel-Lebesgue).
 
-#### Corollaire 2 {#top-i-s9-prop-15-cor-2 .statement}
+#### Corollaire 2 {#top-i-s9-prop-15-cor-2 .statement tag=0B91}
 
 Soient $X$ un espace localement compact, $X'$ l’espace compact obtenu en adjoignant à $X$ un point à l’infini $\omega$ (I, p. 68). Pour que $X$ soit dénombrable à l’infini, il faut et il suffit que, dans $X'$, le point $\omega$ possède un système fondamental dénombrable de voisinages.
 
@@ -392,14 +392,14 @@ On notera par contre qu’un sous-espace ouvert d’un espace compact n’est pa
 
 ### 10. Espaces paracompacts
 
-#### Définition 6 {#top-i-s9-def-6 .statement}
+#### Définition 6 {#top-i-s9-def-6 .statement tag=0B92}
 
 Un espace topologique $X$ est dit paracompact s’il est séparé, et s’il vérifie l’axiome suivant:
 (PC) Pour tout recouvrement ouvert $\mathscr{R}$ de $X$, il existe un recouvrement ouvert localement fini $\mathscr{R}'$ de $X$, plus fin que $\mathscr{R}$ (E, II, p. 27, déf. 5).
 
 Il est clair que tout espace compact est paracompact. Tout espace discret $X$ est paracompact, car le recouvrement ouvert formé de tous les ensembles réduits à un point est localement fini et plus fin que tout recouvrement ouvert de $X$.
 
-#### Proposition 16 {#top-i-s9-prop-16 .statement}
+#### Proposition 16 {#top-i-s9-prop-16 .statement tag=0B93}
 
 Dans un espace paracompact $X$, tout sous-espace fermé $F$ est paracompact.
 
@@ -407,7 +407,7 @@ En effet, $F$ est séparé; d’autre part, si $(V_t)$ est un recouvrement ouver
 
 Par contre, un sous-espace ouvert d’un espace compact n’est pas nécessairement paracompact (I, p. 105, exerc. 12).
 
-#### Proposition 17 {#top-i-s9-prop-17 .statement}
+#### Proposition 17 {#top-i-s9-prop-17 .statement tag=0B94}
 
 *Le produit d’un espace paracompact et d’un espace compact est paracompact.*
 
@@ -415,13 +415,13 @@ Soient $X$ un espace paracompact, $Y$ un espace compact, $\mathfrak{R}$ un recou
 
 Par contre, le produit de deux espaces paracompacts n’est pas nécessairement paracompact (voir IX, §5, exerc. 15).
 
-#### Proposition 18 {#top-i-s9-prop-18 .statement}
+#### Proposition 18 {#top-i-s9-prop-18 .statement tag=0B95}
 
 *Un espace $X$ somme* (I, p. 15, *Exemple III*) *d’une famille* $(X_\iota)_{\iota \in I}$ *d’espaces paracompacts est paracompact.*
 
 Soit en effet $(V_\lambda)_{\lambda \in L}$ un recouvrement ouvert de $X$; le recouvrement formé des ensembles ouverts $X_\iota \cap V_\lambda$ est plus fin que $(V_\lambda)$; si pour chaque $\iota \in I$, $(U_{\iota, \mu})_{\mu \in M_\iota}$ est un recouvrement ouvert localement fini de $X_\iota$ plus fin que $(V_\lambda \cap X_\iota)_{\lambda \in L}$, le recouvrement ouvert de $X$ formé des $U_{\iota, \mu}$ ($\iota \in I, \mu \in M_\iota$ pour chaque $\iota \in I$) est localement fini et plus fin que $(V_\lambda)$.
 
-#### Théorème 5 {#top-i-s9-thm-5 .statement}
+#### Théorème 5 {#top-i-s9-thm-5 .statement tag=0B96}
 
 *Pour qu’un espace localement compact $X$ soit paracompact il, faut et il suffit qu’il soit somme d’une famille d’espaces localement compacts dénombrables à l’infini.*
 
@@ -434,7 +434,7 @@ Montrons maintenant que la condition de l’énoncé est *suffisante*. En vertu 
 C.Q.F.D.
 
 Au cours de la démonstration, nous avons en outre prouvé ce qui suit:
-#### Corollaire {#top-i-s9-n10-cor-1 .statement}
+#### Corollaire {#top-i-s9-n10-cor-1 .statement tag=0B97}
 
 *Soit $X$ un espace localement compact et paracompact; pour tout recouvrement ouvert $\mathscr{R}$ de $X$, il existe un recouvrement ouvert localement fini $\mathscr{R}'$ de $X$ plus fin que $\mathscr{R}$ et formé d’ensembles relativement compacts. Si $X$ est dénombrable à l’infini, on peut en outre supposer que $\mathscr{R}'$ est dénombrable.*
 

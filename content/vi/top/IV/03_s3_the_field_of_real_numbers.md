@@ -24,7 +24,7 @@ subsections:
       pdf_page: 347
 statements: 2
 exercises: 3
-content_sha256: 1b8da61c6c57a417c5c51a1a2fe317a969af4704677ba1af6536cd60808cbf5f
+content_sha256: ac3188311d7e412e009f517f1476917f5443caf5739ac8d944c4e96bbc75ad11
 translated_from: content/en/top/IV/03_s3_the_field_of_real_numbers.md
 source_content_sha256: 8d33ca0ec83bcae62c7c7ba4282ccde40e530c8e05afdb00c680264216e9fbc9
 translation_model: gpt-5.4
@@ -46,7 +46,7 @@ $$; tồn tại một số nguyên $m > 0$ sao cho $|x| \geq 1/m$ với mọi $x
 \left| \frac{1}{x} - \frac{1}{y} \right| \leq \frac{1}{n}.
 $$
 
-#### Mệnh đề 1 {#top-iv-s3-prop-1 .statement}
+#### Mệnh đề 1 {#top-iv-s3-prop-1 .statement tag=0BQF}
 
 *Các hàm xy và $1/x$, được định nghĩa tương ứng trên $\mathbf{Q} \times \mathbf{Q}$ và $\mathbf{Q}^*$, có thể được mở rộng bằng tính liên tục lên $\mathbf{R} \times \mathbf{R}$ và $\mathbf{R}^*$ tương ứng, và xác định một cấu trúc trường trên $\mathbf{R}$. Được trang bị cấu trúc này, $\mathbf{R}$ được gọi là trường số thực.*
 
@@ -75,7 +75,7 @@ Từ những điều đi trước suy ra rằng $\mathbf{R}_+^*$ là một nhóm
 
 Sự kiện rằng tích của hai số thực $\geq 0$ lại là $\geq 0$ có thể được diễn đạt bằng cách nói rằng $\mathbf{R}$ là một trường có thứ tự: mọi tính chất trên đây đều chung cho mọi trường có thứ tự.
 
-#### Mệnh đề 2 {#top-iv-s3-prop-2 .statement}
+#### Mệnh đề 2 {#top-iv-s3-prop-2 .statement tag=0BQG}
 
 *Nhóm nhân $\mathbf{R}^*$ của các số thực $\neq 0$ là một nhóm tôpô đẳng cấu với tích của các nhóm con $\mathbf{R}_+^*$ và $\mathbf{U}_0$, trong đó*
 

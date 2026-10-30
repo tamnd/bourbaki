@@ -29,40 +29,40 @@ subsections:
       pdf_page: 146
 statements: 26
 exercises: 32
-content_sha256: 0f09f51220149afd8873dd61b1db12e8932f8d5b0da8d16f7bfd6b4fc5a957cf
+content_sha256: 4b71b76499c843f88e6cab9bd3fb3b5a6bcc556f6deb9cd94fb6d84ca802cebb
 ---
 
 ## § 4. FERMETURE INTÉGRALE D’UN ANNEAU LOCAL COMPLET
 
 ### 1. Anneaux japonais
 
-#### Définition 1 {#ac-ix-s4-def-1 .statement}
+#### Définition 1 {#ac-ix-s4-def-1 .statement tag=0CY1}
 
 Soit $A$ un anneau noethérien intègre. On dit que $A$ est japonais si la fermeture intégrale de $A$ dans toute extension finie de son corps des fractions est une $A$-algèbre finie.
 
-#### Remarque 1 {#ac-ix-s4-n1-rem-1 .statement}
+#### Remarque 1 {#ac-ix-s4-n1-rem-1 .statement tag=0CY2}
 
 Il revient au même de dire que $A$ satisfait à la condition suivante : toute $A$-algèbre intègre $B$ entière sur $A$, contenue dans une extension de type fini du corps des fractions $K$ de $A$, est une $A$-algèbre finie. En effet, le corps des fractions $L$ de $B$ est une extension algébrique de $K$, donc est de degré fini sur $K$ (A, V, p. 112, cor. 1 de la prop. 17). La $A$-algèbre $B$ est contenue dans la fermeture intégrale de $A$ dans $L$, et est donc finie si cette dernière est finie.
 
-#### Remarque 2 {#ac-ix-s4-n1-rem-2 .statement}
+#### Remarque 2 {#ac-ix-s4-n1-rem-2 .statement tag=0CY3}
 
 Soient A un anneau noethérien intègre japonais et S une partie multiplicative de A ne contenant pas 0. L’anneau de fractions $S^{-1}A$ est japonais. Soient en effet L une extension finie du corps des fractions de A et B la fermeture intégrale de A dans L ; alors la fermeture intégrale de $S^{-1}A$ dans L est $S^{-1}B$ (V, , no 5, prop. 16), donc est une $S^{-1}A$-algèbre finie
 
-#### Exemple {#ac-ix-s4-n1-exa-1 .statement}
+#### Exemple {#ac-ix-s4-n1-exa-1 .statement tag=0CY4}
 
 Toute algèbre intègre de type fini sur un corps est un anneau japonais (V, § 3, no 2, th. 2).
 
-#### Proposition 1 {#ac-ix-s4-prop-1 .statement}
+#### Proposition 1 {#ac-ix-s4-prop-1 .statement tag=0CY5}
 
 Soient A un anneau noethérien intègre, K son corps des fractions. Supposons que pour toute extension finie radicielle L de K, la fermeture intégrale de A dans L soit une A-algèbre finie. Alors l’anneau A est japonais.
 
 Soit E une extension finie de K. Soient N une extension finie quasi-galoisienne de K contenant E (A, V, p. 54, cor. 1), et L le corps des invariants du groupe des K-auto-morphismes de N. Alors (A, V, p. 73, prop. 13), L est une extension radicielle de K et N est une extension séparable de L. La fermeture intégrale B de A dans L est donc par hypothèse une A-algèbre finie ; la fermeture intégrale C de B dans N est une B-algèbre finie (V, § 1, no 6, cor. 1 à la prop. 18), donc une A-algèbre finie. La fermeture intégrale de A dans E est contenue dans C, donc est une A-algèbre finie puisque A est noethérien.
 
-#### Corollaire {#ac-ix-s4-n1-cor-1 .statement}
+#### Corollaire {#ac-ix-s4-n1-cor-1 .statement tag=0CY6}
 
 Supposons le corps K parfait (par exemple de caractéristique 0). Alors A est japonais si et seulement si sa clôture intégrale est une A-algèbre finie.
 
-#### Proposition 2 {#ac-ix-s4-prop-2 .statement}
+#### Proposition 2 {#ac-ix-s4-prop-2 .statement tag=0CY7}
 
 Soient B un anneau noethérien intègre et A un sous-anneau noethérien de B, tel que B soit une A-algèbre finie. Pour que A soit japonais, il faut et il suffit que B soit japonais.
 
@@ -72,7 +72,7 @@ Inversement, supposons B japonais et soit N une extension finie de K. Notons D l
 
 ### 2. Théorème de Nagata
 
-#### Théorème 1 (Tate) {#ac-ix-s4-thm-1 .statement}
+#### Théorème 1 (Tate) {#ac-ix-s4-thm-1 .statement tag=0CY8}
 
 Soient A un anneau noethérien intégralement clos, a un élément de A. On suppose que l’idéal $aA$ est premier, que l’anneau $A/aA$ est japonais et que A est complet pour la topologie $aA$-adique. Alors l’anneau A est japonais.
 
@@ -88,19 +88,19 @@ d) L’anneau $B/xB$ est entier sur l’anneau japonais $A/aA$ et son corps des 
 
 e) Munissons l’anneau A de la filtration $(aA)$-adique et l’anneau B de la filtration $(aB)$-adique. Alors A est complet par hypothèse ; comme $B_{xB}$ est intègre et noethérien, la filtration $aB_{xB}$-adique de $B_{xB}$ est séparée (III, § 3, n° 2, corollaire à la prop. 5) ; par suite on a $\bigcap a^nB \subset \bigcap a^nB_{xB} = \{0\}$, et la filtration $aB$-adique de B est séparée ; le gr(A)-module gr(B) est engendré par gr_0(B), donc est de type fini d’après d). Il résulte alors de III, § 2, n° 9, cor. 1 à la prop. 12, que B est un A-module de type fini, ce qui achève la démonstration.
 
-#### Corollaire {#ac-ix-s4-n2-cor-1 .statement}
+#### Corollaire {#ac-ix-s4-n2-cor-1 .statement tag=0CY9}
 
 Soient R un anneau noethérien intègre et n un entier. Si R est japonais, l’anneau $R[[T_1, ..., T_n]]$ est japonais.
 
 Raisonnant par récurrence, on peut supposer $n = 1$. Notons S la clôture intégrale de R ; si R est japonais, S est une algèbre finie sur R, donc un anneau japonais (n° 1, prop. 2). L’anneau S[[T]] est noethérien et intégralement clos (V, § 1, n° 4, prop. 14) ; appliquant le th. 1 à $A = S[[T]]$ et $a = T$, on en déduit que S[[T]] est japonais. Par conséquent R[[T]] est japonais (n° 1, prop. 2).
 
-#### Théorème 2 (Nagata) {#ac-ix-s4-thm-2 .statement}
+#### Théorème 2 (Nagata) {#ac-ix-s4-thm-2 .statement tag=0CYA}
 
 Tout anneau A local noethérien intègre et complet est japonais.
 
 D’après le th. 3 du § 2, n° 5 et le th. 2 du § 3, n° 3, il existe un entier $n \geq 0$, un anneau R qui est un corps ou un anneau de valuation discrète de corps des fractions de caractéristique 0, et un sous-anneau B de A, isomorphe à R[[T₁, ..., Tₙ]] et tel que A soit une B-algèbre finie. Alors R est japonais (n° 1, exemple et corollaire de la prop. 1), donc B est japonais (corollaire au th. 1), et A est japonais (n° 1, prop. 2).
 
-#### Corollaire {#ac-ix-s4-n2-cor-2 .statement}
+#### Corollaire {#ac-ix-s4-n2-cor-2 .statement tag=0CYB}
 
 Soit A un anneau semi-local noethérien dont le complété est réduit. Alors la fermeture intégrale A' de A dans son anneau total des fractions R est une A-algèbre finie.
 
@@ -112,7 +112,7 @@ Passons au cas général et notons que le complété Â de A est un anneau semi-
 
 Rappelons (A, V, p. 114, déf. 1) qu’une algèbre E sur un corps K est dite séparable si l’anneau L ⊗_K E est réduit pour toute extension L de K ; il suffit qu’il en soit ainsi pour toute extension finie de K. La proposition suivante généralise le th. 2 :
 
-#### Proposition 3 {#ac-ix-s4-prop-3 .statement}
+#### Proposition 3 {#ac-ix-s4-prop-3 .statement tag=0CYC}
 
 Soient A un anneau semi-local noethérien intègre, K son corps des fractions. Si la K-algèbre K ⊗_A Â est séparable, l’anneau A est japonais.
 
@@ -120,7 +120,7 @@ Soient L une extension finie de K et B la fermeture intégrale de A dans L. Soit
 
 ### 3. Quelques lemmes
 
-#### Lemme 1 {#ac-ix-s4-lem-1 .statement}
+#### Lemme 1 {#ac-ix-s4-lem-1 .statement tag=0CYD}
 
 Soient A un anneau semi-local noethérien et B une A-algèbre finie. Alors l’anneau B est semi-local et noethérien ; soient m₁, ..., mₙ ses idéaux maximaux.
 
@@ -128,19 +128,19 @@ L’homomorphisme canonique de B dans $\prod_{i=1}^n \hat{B}_{m_i}$ se prolonge 
 
 D’après IV, § 2, no 5, cor. 3 à la prop. 9, l’anneau B est semi-local et $m_A B$ en est un idéal de définition. D’après III, § 3, no 4, th. 3, (ii), l’anneau $\hat{A} \otimes_A B$ est le complété de B pour la topologie définie par son radical ; on applique alors III, § 2, no 13, corollaire à la prop. 19.
 
-#### Lemme 2 {#ac-ix-s4-lem-2 .statement}
+#### Lemme 2 {#ac-ix-s4-lem-2 .statement tag=0CYE}
 
 Soient A un anneau noethérien et M un A-module. L’application canonique de M dans le produit $\prod_{p \in \mathrm{Ass}(M)} M_p$ est injective.
 
 Soit en effet m un élément non nul de M ; alors Ann(m) est contenu dans un idéal premier p de A associé à M (IV, § 1, no 1, prop. 2), et l’image de m dans $M_p$ est non nulle (II, § 2, no 2, prop. 4).
 
-#### Lemme 3 {#ac-ix-s4-lem-3 .statement}
+#### Lemme 3 {#ac-ix-s4-lem-3 .statement tag=0CYF}
 
 Soient A un anneau noethérien, x un élément de A, M un A-module de type fini, et p un idéal premier de A associé à M. On suppose que l’homothétie $x_M$ est injective. Soit q un idéal premier de A, minimal parmi ceux qui contiennent p + xA. Alors q est associé au A-module $M/xM$.
 
 Notons N le sous-module de M formé des éléments m tels que $pm = 0$. On a $N \cap xM = xN$ ; en effet, si un élément m de M est tel que $pxm = 0$, on a $pm = 0$ puisque $x_M$ est injective, donc $m \in N$. Par conséquent, le A-module $N/xN$ est isomorphe au sous-module $(N + xM)/xM$ de $M/xM$, et il suffit de démontrer que q est associé à $N/xN$. Puisque p est associé à M, il existe un élément m de M tel que $p = \mathrm{Ann}(m)$ ; on a $m \in N$ d’où $p = \mathrm{Ann}(N)$ et par suite $\mathrm{Supp}(N/xN) = V(p + xA)$ d’après II, § 4, no 4, corollaire à la prop. 18 ; par conséquent, q est associé à $N/xN$ (IV, § 1, no 4, th. 2).
 
-#### Lemme 4 {#ac-ix-s4-lem-4 .statement}
+#### Lemme 4 {#ac-ix-s4-lem-4 .statement tag=0CYG}
 
 Soient A un anneau de valuation discrète, B un anneau local noethérien, et $\rho : A \to B$ un homomorphisme local et plat. Si l’anneau $\kappa_A \otimes_A B$ est réduit, alors B est réduit.
 
@@ -148,27 +148,27 @@ Supposons qu’il existe un élément nilpotent non nul x de B, et soit $\pi$ un
 
 ### 4. Anneaux de Nagata
 
-#### Définition 2 {#ac-ix-s4-def-2 .statement}
+#### Définition 2 {#ac-ix-s4-def-2 .statement tag=0CYH}
 
 On dit qu’un anneau A est un anneau de Nagata s’il est noethérien et si, pour tout idéal premier p de A, l’anneau noethérien intègre $A/p$ est japonais (no 1, déf. 1).
 
-#### Exemple 1 {#ac-ix-s4-n4-exa-1 .statement}
+#### Exemple 1 {#ac-ix-s4-n4-exa-1 .statement tag=0CYI}
 
 Toute algèbre de type fini sur un corps est un anneau de Nagata (no 1, exemple).
 
-#### Exemple 2 {#ac-ix-s4-n4-exa-2 .statement}
+#### Exemple 2 {#ac-ix-s4-n4-exa-2 .statement tag=0CYJ}
 
 Tout anneau noethérien local complet est un anneau de Nagata (n° 2, th. 2).
 
-#### Exemple 3 {#ac-ix-s4-n4-exa-3 .statement}
+#### Exemple 3 {#ac-ix-s4-n4-exa-3 .statement tag=0CYK}
 
 L’anneau $\mathbf{Z}$ est un anneau de Nagata (n° 1, exemple et corollaire de la prop. 1).
 
-#### Exemple 4 {#ac-ix-s4-n4-exa-4 .statement}
+#### Exemple 4 {#ac-ix-s4-n4-exa-4 .statement tag=0CYL}
 
 On peut montrer (exerc. 30) que toute algèbre de type fini sur un anneau de Nagata est un anneau de Nagata.
 
-#### Proposition 4 {#ac-ix-s4-prop-4 .statement}
+#### Proposition 4 {#ac-ix-s4-prop-4 .statement tag=0CYM}
 
 Soit $A$ un anneau de Nagata.
 a) Toute $A$-algèbre finie est un anneau de Nagata.
@@ -176,7 +176,7 @@ b) Pour toute partie multiplicative $S$ de $A$, l’anneau $S^{-1}A$ est un anne
 a) Soit $B$ une $A$-algèbre finie, $\rho : A \to B$ l’homomorphisme canonique. Pour tout idéal premier $p$ de $B$, l’anneau $B/p$ qui est une algèbre finie sur l’anneau japonais $A/\rho^{-1}(p)$, est japonais (n° 1, prop. 2).
 b) Soit $q$ un idéal premier de $S^{-1}A$; alors il existe un idéal premier $p$ de $A$ tel que $q = S^{-1}p$. L’anneau $(S^{-1}A)/q$ est un anneau de fractions de l’anneau japonais $A/p$, donc est japonais (n° 1, remarque 2).
 
-#### Théorème 3 (Zariski-Nagata) {#ac-ix-s4-thm-3 .statement}
+#### Théorème 3 (Zariski-Nagata) {#ac-ix-s4-thm-3 .statement tag=0CYN}
 
 Soit $A$ un anneau semi-local noethérien. Les conditions suivantes sont équivalentes :
 (i) $A$ est un anneau de Nagata ;
@@ -192,17 +192,17 @@ Démontrons l’implication (i) $\Rightarrow$ (ii) par récurrence sur $\dim(A)$
 
 Soit $A$ un anneau semi-local noethérien de Nagata de dimension $n$, soient $p$ un idéal premier de $A$ et $L$ une extension finie du corps $\kappa(p)$; il suffit de démontrer, sous l’hypothèse (R_n), que l’anneau L ⊗_A Ā est réduit. Notons B la fermeture intégrale de A/p dans L ; puisque A/p est japonais, B est une A-algèbre finie donc un anneau de Nagata semi-local (prop. 4). Notons m_1, ..., m_r les idéaux maximaux de B ; l’anneau L ⊗_A Ā s’identifie à un anneau de fractions de B ⊗_A Ā, et ce dernier s’identifie au produit des complétés des anneaux locaux B_{m_i} (n° 3, lemme 1). Il suffit donc de prouver que, pour tout idéal maximal m de B, l’anneau $\hat{B}_m$ est réduit (II, , n° 6, prop. 17). L’anneau $B_m$ est local, intégralement clos, de Nagata (prop. 4), et l’on a $\dim(B_m) \leq \dim(B) \leq \dim(A) = n$ (VIII, § 1, n° 3, prop. 6 et § 2, n° 3, th. 1). Changeant de notations, on est ramené à prouver, sous l’hypothèse (R_n), que pour tout anneau local noethérien A intégralement clos, de Nagata et de dimension $\leq n$, l’anneau $\hat{A}$ est réduit, c’est-à-dire (n° 3, lemme 2) que $\hat{A}_{p'}$ est réduit pour tout idéal premier $p' \in \mathrm{Ass}(\hat{A})$. Comme cela est immédiat si $\dim(A) = 0$, on peut supposer $\dim(A) > 0$. Soient alors x un élément non nul de $m_A$, et q’ un idéal premier de $\hat{A}$, minimal parmi ceux qui contiennent $x\hat{A} + p'$; puisque $\hat{A}_{p'}$ s’identifie à un anneau de fractions de l’anneau $\hat{A}_{q'}$, il suffit de prouver que ce dernier est réduit (II, § 2, n° 6, prop. 17). D’après le lemme 3, l’idéal q’ est associé au $\hat{A}$-module $\hat{A}/x\hat{A}$; puisque $\hat{A}$ est plat sur A, l’image réciproque q de q’ dans A est associée au A-module $A/xA$ (IV, § 2, n° 6, cor. 1 au th. 2). L’anneau A étant supposé intégralement clos, cela implique que q est de hauteur 1 (VII, § 1, n° 6, prop. 10), donc que l’anneau $A_q$ est de valuation discrète (*loc. cit.*, n° 3, corollaire au th. 2 et n° 6, th. 4). Puisque $A/q$ est un anneau de Nagata de dimension $< n$, l’anneau $\kappa(q) \otimes_{A/q} \widehat{A/q}$ est réduit d’après l’hypothèse (R_n). L’anneau $\kappa(q) \otimes_A \hat{A}$, qui lui est isomorphe, est réduit, ainsi par conséquent que l’anneau $\kappa(q) \otimes_{A_q} \hat{A}_{q'}$, qui en est un anneau de fractions. On peut donc appliquer à l’homomorphisme canonique de $A_q$ dans $\hat{A}_{q'}$ le lemme 4 du n° 3 et on en conclut que l’anneau $\hat{A}_{q'}$ est réduit, ce qu’on voulait prouver. Le th. 3 est ainsi démontré
 
-#### Corollaire 1 {#ac-ix-s4-thm-3-cor-1 .statement}
+#### Corollaire 1 {#ac-ix-s4-thm-3-cor-1 .statement tag=0CYO}
 
 *Le complété d’un anneau de Nagata local et réduit est réduit.*
 Il suffit en effet de poser R = A dans le th. 3, (iii).
 
-#### Corollaire 2 (Chevalley) {#ac-ix-s4-thm-3-cor-2 .statement}
+#### Corollaire 2 (Chevalley) {#ac-ix-s4-thm-3-cor-2 .statement tag=0CYP}
 
 *Soient A une algèbre réduite de type fini sur un corps, et p un idéal premier de A. Le complété de l’anneau local $A_p$ est réduit.*
 Comme A est réduit, l’anneau local $A_p$ est réduit ; de plus A est un anneau de Nagata (exemple 1), donc $A_p$ est un anneau de Nagata (prop. 4), et le cor. 2 résulte du cor. 1, appliqué à l’anneau $A_p$.
 
-#### Corollaire 3 {#ac-ix-s4-thm-3-cor-3 .statement}
+#### Corollaire 3 {#ac-ix-s4-thm-3-cor-3 .statement tag=0CYQ}
 
 *Soient k un corps de caractéristique 0, et A une k-algèbre locale et noethérienne. Pour que A soit un anneau de Nagata, il faut et il suffit que, pour tout idéal premier p de A, l’anneau $(\widehat{A/p})$ soit réduit.*
 En effet, puisque les corps $\kappa(p)$ sont de caractéristique 0, il est équivalent de dire que les algèbres $\kappa(p) \otimes_A \hat{A} = \kappa(p) \otimes_{A/p} (\widehat{A/p})$ sont réduites ou qu’elles sont séparables (A, V, p. 117, th. 1), ce qui montre que la condition énoncée est suffisante (th. 3, (ii) ⇒ (i)) ; elle est par ailleurs nécessaire (th. 3, (i) ⇒ (iii) avec R = A/p).

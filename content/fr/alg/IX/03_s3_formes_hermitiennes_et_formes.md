@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 9
 exercises: 0
-content_sha256: d403918d1bfc289038d25d604d0e37b9e93386e58d50159f155da6b9777440ac
+content_sha256: b863434c266d34eb55965215585f7c9a1c320f01724f9f62b8ebf7698ade9e8b
 ---
 
 ## § 3. Formes hermitiennes et formes quadratiques
@@ -37,7 +37,7 @@ Dans toute la suite de ce Chapitre, on désigne, sauf mention expresse du contra
 
 ### 1. Formes hermitiennes et $\varepsilon$-hermitiennes.
 
-#### Définition 1 {#alg-ix-s3-def-1 .statement}
+#### Définition 1 {#alg-ix-s3-def-1 .statement tag=0DKC}
 
 Soit $\varepsilon$ un élément du centre de A. Une forme sesquilinéaire $\Phi$ sur E telle que l’on ait $\Phi(x, y) = \varepsilon \overline{\Phi(y, x)}$ quel que soient $x$ et $y$ dans E s’appelle une forme $\varepsilon$-hermitienne. Une forme 1-hermitienne (resp. (−1)-hermitienne) est dite hermitienne (resp. antihermitienne).
 
@@ -55,11 +55,11 @@ $$
 
 En particulier, lorsque A est un corps, les éléments $\alpha$ du centre de A tels que $\overline{\alpha} = \alpha$ forment un sous-corps K de A, et les formes $\varepsilon$-hermitiennes sur E (pour J) forment un espace vectoriel sur K.
 
-#### Remarque 1 {#alg-ix-s3-n1-rem-1 .statement}
+#### Remarque 1 {#alg-ix-s3-n1-rem-1 .statement tag=0DKD}
 
 Si $\Phi$ est une forme $\varepsilon$-hermitienne sur E, on a $\Phi(x, y) = \varepsilon \overline{\Phi(x, y)} \overline{\varepsilon}$ quels que soient $x, y$ dans E. Donc, si $\Phi$ prend des valeurs inversibles, on a $\varepsilon \overline{\varepsilon} = 1$.
 
-#### Remarque 2 {#alg-ix-s3-n1-rem-2 .statement}
+#### Remarque 2 {#alg-ix-s3-n1-rem-2 .statement tag=0DKE}
 
 S’il existe un élément inversible $i$ du centre de A tel que $\overline{i} = i \varepsilon$, alors, pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que $i \Phi$ soit hermitienne.
 
@@ -119,7 +119,7 @@ $$
 
 quels que soient $x \in E_0$ et $x' \in E'_0$.
 
-#### Proposition 1 {#alg-ix-s3-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s3-prop-1 .statement tag=0DKF}
 
 Soit $\Phi_1$ (resp. $\Phi_2$) une forme K-bilinéaire sur $E_0 \times E'_0$, invariante par $j$ et $j'$. L’application qui à $\Phi_1$ (resp. $\Phi_2$) fait correspondre l’application $\Phi$ de $E \times E'$ dans $A$ définie par
 
@@ -148,17 +148,17 @@ Il en résulte immédiatement que, pour que $\Phi$ soit sesquilinéaire, il faut
 
 Il résulte de ceci que, pour qu’une forme sesquilinéaire $\Phi = \Phi_1 + i \Phi_2$ soit nulle, il faut et il suffit que $\Phi_1$ (resp. $\Phi_2$) soit nulle. Or, si $E = E'$, on a $\Phi(y, x) = \Phi_1(y, x) + i \Phi_2(y, x)$ et $\overline{\Phi(x, y)} = \Phi_1(x, y) - i \Phi_2(x, y)$; pour que ces deux expressions soient égales, autrement dit pour que $\Phi$ soit hermitienne, il faut et il suffit donc que $\Phi_1$ soit symétrique (resp. que $\Phi_2$ soit antisymétrique).
 
-#### Remarque 1 {#alg-ix-s3-n3-rem-1 .statement}
+#### Remarque 1 {#alg-ix-s3-n3-rem-1 .statement tag=0DKG}
 
 Les formules (7) et (8) montrent que, si $x \in E$, pour que l’on ait $\Phi(x, x') = 0$ pour tout $x' \in E'$, il faut et il suffit que $\Phi_1(x, x') = 0$ (resp. $\Phi_2(x, x') = 0$) pour tout $x' \in E'$.
 
-#### Remarque 2 {#alg-ix-s3-n3-rem-2 .statement}
+#### Remarque 2 {#alg-ix-s3-n3-rem-2 .statement tag=0DKH}
 
 L’adjoint d’un endomorphisme $u$ de $E$ par rapport à $\Phi$ ($§ 1$, n° 8) est le même que l’adjoint de $u$ (considéré comme endomorphisme de $E_0$) par rapport à $\Phi_1$ (resp. $\Phi_2$).
 
 ### 4. Formes quadratiques.
 
-#### Définition 2 {#alg-ix-s3-def-2 .statement}
+#### Définition 2 {#alg-ix-s3-def-2 .statement tag=0DKI}
 
 On suppose l’anneau $A$ commutatif. On dit qu’une application $Q$ de $E$ dans $A$ est une forme quadratique sur $E$ si
 1) l’on a $Q(\alpha x) = \alpha^2 Q(x)$ pour $\alpha \in A$ et $x \in E$;
@@ -184,7 +184,7 @@ Pour toute forme bilinéaire $f$ sur $E \times E$, on définit une forme quadrat
 
 Dans le cas d’un module libre, on a de plus le résultat suivant :
 
-#### Proposition 2 {#alg-ix-s3-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s3-prop-2 .statement tag=0DKJ}
 
 Supposons que $A$ soit commutatif et que $E$ admette une base $(e_i)_{i \in I}$. Alors, pour toute forme quadratique $Q$ sur $E$, il existe une forme bilinéaire $f$ sur $E \times E$ telle que $Q(x) = f(x, x)$ pour tout $x \in E$. Pour toute famille $(b_{ij})_{(i,j) \in I \times I}$ de scalaires tels que $b_{ij} = b_{ji}$ pour $(i, j) \in I \times I$, il existe une forme quadratique $Q$ et une seule telle que l’on ait
 
@@ -214,7 +214,7 @@ $\Phi(x, y) = 0$ pour $x \in E$ et $y \in F$. Autrement dit, si l’on appelle n
 
 On voit aussitôt que le noyau du module quadratique $|E/N$ est $\{0\}$.
 
-#### Proposition 3 {#alg-ix-s3-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s3-prop-3 .statement tag=0DKK}
 
 *Soit $h$ un homomorphisme de $A$ dans un anneau commutatif $A'$. Pour toute forme quadratique $Q$ sur le $A$-module $E$, il existe une forme quadratique $Q'$ et une seule sur le $A'$-module $A' \otimes_A E$ (chap. III, 2e éd., App. II, n° 10) telle que l’on ait*
 $$

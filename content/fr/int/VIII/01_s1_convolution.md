@@ -32,7 +32,7 @@ subsections:
       pdf_page: 126
 statements: 15
 exercises: 2
-content_sha256: b4cdf8a088322841f83362ae95971aa284ca0e966cb9f423376a6d3d334e6531
+content_sha256: ff20ab7f0c11480fd31cc5fccdc2bb0c38cd0b4501664ce374aa524bc4fe5102
 ---
 
 ## § 1. Convolution.
@@ -45,7 +45,7 @@ $$
 \int_Y f(y) d\nu(y) = \int_X f(\varphi(x)) d\mu(x).
 $$
 
-#### Définition 1 {#int-viii-s1-def-1 .statement}
+#### Définition 1 {#int-viii-s1-def-1 .statement tag=09I0}
 
 Soient $X_1, \ldots, X_n$ des espaces localement compacts, $\mu_i$ une mesure sur $X_i$ ($1 \leq i \leq n$) ; soient X le produit des $X_i$, $\mu$ celui des $\mu_i$. Soit $\varphi$ une application de X dans un espace localement compact Y. On dit que la suite $(\mu_i)$ est $\varphi$-convolvable, ou que $\mu_1, \ldots, \mu_n$ sont $\varphi$-convolvables, si $\varphi$ est $\mu$-propre ; en ce cas, l'image $\nu = \varphi(\mu)$ de $\mu$ par $\varphi$ s'appelle le produit de convolution des $\mu_i$ pour $\varphi$, et se note $*_{\varphi}(\mu_i)_{1 \leq i \leq n}$, ou $\prod_{i=1}^n \mu_i$, ou $\mu_1 * \mu_2 * \ldots * \mu_n$.
 
@@ -86,11 +86,11 @@ $$
 
 Supposons $\mu_1, \mu_2, \ldots, \mu_n$ convolables, et $\mu'_1, \mu_2, \ldots, \mu_n$ convolables ($\mu'_1$ étant une mesure sur $X_1$). D’après le chap. V, § 6, no 3, prop. 6, $\mu_1 + \mu'_1, \mu_2, \ldots, \mu_n$ sont convolables et $(\mu_1 + \mu'_1) * \mu_2 * \ldots * \mu_n = \mu_1 * \mu_2 * \ldots * \mu_n + \mu'_1 * \mu_2 * \ldots * \mu_n$.
 
-#### Exemple 1 {#int-viii-s1-n1-exa-1 .statement}
+#### Exemple 1 {#int-viii-s1-n1-exa-1 .statement tag=09I1}
 
 Pour $\varphi$ quelconque, les mesures $\varepsilon_{x_i}$, où $x_i \in X_i$ pour $1 \leq i \leq n$, sont toujours convolables et ont pour produit de convolution $\varepsilon_y$, avec $y = \varphi(x_1, x_2, \ldots, x_n)$. Par suite, si chacune des $\mu_i$ est à support fini, les $\mu_i$ sont convolables et $\mu_1 * \ldots * \mu_n$ est à support fini. En particulier, soit M un monoïde muni d’une topologie localement compacte ; si on prend pour $\varphi$ la loi de composition dans $M$, les mesures à support fini sur $M$ forment, pour la convolution, une algèbre qui n’est autre que l’algèbre du monoïde $M$ (sur $\mathbf{R}$, ou sur $\mathbf{C}$, suivant qu’on considère les mesures réelles ou complexes).
 
-#### Exemple 2 {#int-viii-s1-n1-exa-2 .statement}
+#### Exemple 2 {#int-viii-s1-n1-exa-2 .statement tag=0E78}
 
 Soit $M$ un monoïde muni de la topologie discrète ; supposons que, pour tout $m \in M$, il n’y ait qu’un ensemble fini de couples $(m', m'') \in M \times M$ tels que $m'm'' = m$; cela revient à dire que la loi de composition dans $M$ est une application propre de $M \times M$ dans $M$; alors les mesures sur $M$ forment, pour la convolution, une algèbre qui n’est autre que l’algèbre large du monoïde $M$; signalons les deux cas suivants :
 
@@ -110,7 +110,7 @@ $$
 
 Alors $D(\mu * \mu') = D(\mu) D(\mu')$*
 
-#### Exemple 3 {#int-viii-s1-n1-exa-3 .statement}
+#### Exemple 3 {#int-viii-s1-n1-exa-3 .statement tag=0E79}
 
 Soient $X, Y, Z$ des espaces localement compacts, $\varphi$ une application continue de $X \times Y$ dans $Z$. Si $x \in X$ et si $\mu$ est une mesure sur $Y$, dire que $\varepsilon_x$ et $\mu$ sont $\varphi$-convolables revient à dire que l’application $\varphi(x, .)$ de $Y$ dans $Z$ est $\mu$-propre. Et l’on a alors $\varepsilon_x * \mu = \varphi(x, .)(\mu)$.
 
@@ -118,7 +118,7 @@ Soient $X, Y, Z$ des espaces localement compacts, $\varphi$ une application cont
 
 Le lemme suivant complète la prop. 7 du chap. V, § 8, no 3 :
 
-#### Lemme 1 {#int-viii-s1-lem-1 .statement}
+#### Lemme 1 {#int-viii-s1-lem-1 .statement tag=09I2}
 
 Pour $1 \leq i \leq n$, soient $X_i, Y_i$ deux espaces localement compacts, $\mu_i$ une mesure sur $X_i$, $\varphi_i$ une application continue de $X_i$ dans $Y_i$. Soient $X = \prod_i X_i$, $Y = \prod_i Y_i$, $\mu = \bigotimes_i \mu_i$, et $\varphi$ l’application de $X$ dans $Y$, produit des $\varphi_i$. Si $\varphi$ est $\mu$-propre et si $\mu_i \neq 0$ pour tout $i$, les $\varphi_i$ sont $\mu_i$-propres et $\varphi(\mu) = \bigotimes_i \varphi_i(\mu_i)$.
 
@@ -126,13 +126,13 @@ On peut supposer les $\mu_i$ positives et $n = 2$. Soit $f_1 \in \mathscr{K}_+(Y
 
 Le lemme suivant complète la prop. 4 du chap. V, § 6, no 3.
 
-#### Lemme 2 {#int-viii-s1-lem-2 .statement}
+#### Lemme 2 {#int-viii-s1-lem-2 .statement tag=09I3}
 
 Soient $T, T', T''$ trois espaces localement compacts, $\mu$ une mesure sur $T$, $\pi$ une application $\mu$-mesurable de $T$ dans $T'$, $\pi'$ une application continue de $T'$ dans $T''$, et $\pi'' = \pi' \circ \pi$. Si $\pi''$ est $\mu$-propre, $\pi$ est $\mu$-propre, $\pi'$ est $\pi(\mu)$-propre, et $\pi''(\mu) = \pi'(\pi(\mu))$.
 
 Soit $K'$ une partie compacte de $T'$. Alors $K'' = \pi'(K')$ est compact, donc ${\pi''}^{-1}(K'')$ est essentiellement $\mu$-intégrable, donc $\pi^{-1}(K') \subset {\pi''}^{-1}(K'')$ est essentiellement $\mu$-intégrable, de sorte que $\pi$ est $\mu$-propre. Alors $\pi'$ est $\pi(\mu)$-propre et $\pi''(\mu) = \pi'(\pi(\mu))$ d’après le chap. V, § 6, no 3, prop. 4.
 
-#### Proposition 1 {#int-viii-s1-prop-1 .statement}
+#### Proposition 1 {#int-viii-s1-prop-1 .statement tag=09I4}
 
 Soient $X_{ij}$ ($1 \leq i \leq m, 1 \leq j \leq n_i$), $Y_i$ ($1 \leq i \leq m$), $Z$ des espaces localement compacts ; pour chaque $i$, soit $\varphi_i$ une application de $X_i = \prod_j X_{ij}$ dans $Y_i$ ; soit $\varphi$ l’application de $X = \prod_i X_i$ dans $Y = \prod_i Y_i$, produit des $\varphi_i$ ; soit $\psi$ une application de $Y$ dans $Z$.
 
@@ -156,7 +156,7 @@ $$
 
 D’après le lemme 2, $\psi$ est propre pour $\bigotimes_{i} (*_{j} \mu_{ij})$. D’où la proposition.
 
-#### Corollaire {#int-viii-s1-n2-cor-1 .statement}
+#### Corollaire {#int-viii-s1-n2-cor-1 .statement tag=09I5}
 
 Soient $X_i, X'_i$ ($1 \leq i \leq n$), Y, $Y'$ des espaces localement compacts ; soient $\varphi, \varphi'$ des applications continues de $X = \prod_i X_i$ dans $Y$ et de $X' = \prod_i X'_i$ dans $Y'$, respectivement ; soient $f_i$ des applications continues de $X_i$ dans $X'_i$ ($1 \leq i \leq n$) et $g$ une application continue de $Y$ dans $Y'$, telles que $\varphi' \circ f = g \circ \varphi$, $f$ étant l’application de $X$ dans $X'$ produit des $f_i$. Soient $\mu_i$ des mesures respectivement données sur les $X_i$ et toutes $\neq 0$. Alors les deux assertions suivantes sont équivalentes :
 
@@ -179,7 +179,7 @@ $$
 
 ### 3. Cas des mesures bornées.
 
-#### Proposition 2 {#int-viii-s1-prop-2 .statement}
+#### Proposition 2 {#int-viii-s1-prop-2 .statement tag=09I6}
 
 Soient $X_1, \ldots, X_n, Y$ des espaces localement compacts, $\mu_i$ une mesure bornée sur $X_i$ ($1 \leq i \leq n$), $\mu$ le produit des $\mu_i$, $\varphi$ une application $\mu$-mesurable de $\prod_i X_i$ dans $Y$.
 Alors les $\mu_i$ sont $\varphi$-convolables et $\| *_{i=1}^n \mu_i \| \leq \prod_{i=1}^n \| \mu_i \|$. Si les $\mu_i$ sont en outre positives, on a $\| *_{i=1}^n \mu_i \| = \prod_{i=1}^n \| \mu_i \|$.
@@ -198,7 +198,7 @@ $$
 \| * \mu_i \| \leq \| * \mu'_i \| = \prod_{i=1}^n \| \mu_i \|.
 $$
 
-#### Proposition 3 {#int-viii-s1-prop-3 .statement}
+#### Proposition 3 {#int-viii-s1-prop-3 .statement tag=09I7}
 
 *Soient $X_1, \ldots, X_n, Y$ des espaces localement compacts, $\varphi$ une application continue de $\prod_{i=1}^n X_i$ dans $Y$. Alors l’application $(\mu_1, \ldots, \mu_n) \to *_{\varphi} \mu_i$ de $\prod_{i=1}^n \mathscr{M}^1(X_i)$ dans $\mathscr{M}^1(Y)$ est multilinéaire continue.*
 
@@ -206,7 +206,7 @@ Ceci résulte de la prop. 2 et de ce qu’on a dit au no 1.
 
 ### 4. Propriétés concernant les supports.
 
-#### Proposition 4 {#int-viii-s1-prop-4 .statement}
+#### Proposition 4 {#int-viii-s1-prop-4 .statement tag=09I8}
 
 *Soient $X_1, \ldots, X_n, Y$ des espaces localement compacts, $\mu_i$ une mesure sur $X_i$ ($1 \leq i \leq n$), $S_i$ son support, $\varphi$ une application continue de $\prod_i X_i$ dans $Y$ telle que la restriction de $\varphi$ à $\prod_i S_i$ soit propre. Alors les $\mu_i$ sont $\varphi$-convolables.*
 
@@ -214,7 +214,7 @@ En effet, soit $K$ une partie compacte de $Y$. Le support de $\mu = \mu_1 \otime
 
 Donc $\varphi^{-1}(K) \cap \left( \prod_i X_i - S \right)$ est $\mu$-négligeable. D’autre part, $\varphi^{-1}(K) \cap S$ est compact. Donc $\varphi^{-1}(K)$ est $\mu$-intégrable.
 
-#### Proposition 5 {#int-viii-s1-prop-5 .statement}
+#### Proposition 5 {#int-viii-s1-prop-5 .statement tag=09I9}
 
 *Soient $X_1, \ldots, X_n, Y$ des espaces localement compacts, $\mu_i$ une mesure sur $X_i$ ($1 \leq i \leq n$), $\mu$ le produit des $\mu_i$, $\varphi$ une application $\mu$-propre de $\prod_i X_i$ dans $Y$, et $S_i$ le support de $\mu_i$.
 
@@ -228,13 +228,13 @@ n° 1
 
 Si $\varphi$ est continue et si les $\mu_i$ sont positives, le support de $*_{i} \mu_i$ est $\overline{\varphi(S)}$ (loc. cit., cor. 4 de la prop. 2).
 
-#### Corollaire {#int-viii-s1-n4-cor-1 .statement}
+#### Corollaire {#int-viii-s1-n4-cor-1 .statement tag=09IA}
 
 Si $\varphi$ est continue, et si les $\mu_i$ sont à support compact, les $\mu_i$ sont convolables et $*_{i} \mu_i$ est à support compact.
 
 ### 5. Expression vectorielle du produit de convolution.
 
-#### Proposition 6 {#int-viii-s1-prop-6 .statement}
+#### Proposition 6 {#int-viii-s1-prop-6 .statement tag=09IB}
 
 Soient $X, Y, Z$ des espaces localement compacts, $\varphi$ une application continue de $X \times Y$ dans $Z$, et $\lambda, \mu$ des mesures sur $X, Y$. Pour que $\lambda$ et $\mu$ soient $\varphi$-convolables, il faut et il suffit que l’application $(x, y) \to \varepsilon_{\varphi(x, y)} = \varepsilon_x * \varepsilon_y$ de $X \times Y$ dans $\mathscr{M}(Z)$ soit scalairement $(\lambda \otimes \mu)$-intégrable pour la topologie $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, et l’on a alors
 
@@ -250,7 +250,7 @@ $$
 
 d’où $\lambda * \mu = \int_{X \times Y} \varepsilon_{\varphi(x, y)} d\lambda(x) d\mu(y)$.
 
-#### Proposition 7 {#int-viii-s1-prop-7 .statement}
+#### Proposition 7 {#int-viii-s1-prop-7 .statement tag=09IC}
 
 Soient $X, Y, Z$ des espaces localement compacts, $\varphi$ une application continue de $X \times Y$ dans $Z$, et $\lambda, \mu$ des mesures sur $X, Y$. On suppose que, pour tout $x \in X$, $\varepsilon_x$ et $\mu$ sont $\varphi$-convolables. Pour que $\lambda$ et $\mu$ soient $\varphi$-convolables, il faut et il suffit que l’application $x \to \varepsilon_x * |\mu|$ de $X$ dans $\mathscr{M}(Z)$ soit scalairement $\lambda$-intégrable pour la topologie $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, et l’on a alors $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.
 

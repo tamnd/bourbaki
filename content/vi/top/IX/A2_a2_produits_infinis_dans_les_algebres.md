@@ -26,7 +26,7 @@ subsections:
       pdf_page: 202
 statements: 16
 exercises: 8
-content_sha256: 8a83a4ae57594f6d2e6bac9502eeb06cd004276b030548a30482f15683feb2c1
+content_sha256: 548e6c5effea9fc4da21702221d342d640715a339d8345b7c87520979e8e632f
 translated_from: content/en-mt/top/IX/A2_a2_produits_infinis_dans_les_algebres.md
 source_lang: en-mt
 translation_method: machine
@@ -48,17 +48,17 @@ Cho $A$ là một đại số định chuẩn trên một trường định giá
 
 Cho $(x_n)_{n \geq N}$ là một dãy vô hạn các điểm của $A$; mỗi tập con hữu hạn $J$ của $\mathbf{N}$, được sắp thứ tự toàn phần bởi cấp của $\mathbf{N}$, xác định một dãy (A, I, p. 3) $(x_n)_{n \in J}$ các điểm của $A$; trong Đại số (A, I, p. 3), tích $p_J = \prod_{n \in J} x_n$ của dãy này đã được định nghĩa, mà ta sẽ gọi là tích riêng phần hữu hạn của dãy $(x_n)_{n \in \mathbf{N}}$, tương ứng với tập con hữu hạn $J$ của $\mathbf{N}$ (nhắc lại rằng, với $J = \varnothing$, ta đặt $\prod_{n \in \varnothing} x_n = e$).
 
-#### Định nghĩa 1 {#top-ix-a2-def-1 .statement}
+#### Định nghĩa 1 {#top-ix-a2-def-1 .statement tag=0EDC}
 
 Ta nói rằng dãy $(x_n)_{n \geq N}$ là khả tích trong đại số định chuẩn $A$ nếu ánh xạ $J \mapsto p_J$ có một giới hạn theo bộ lọc các thiết diện của tập hợp $\mathscr{F}(\mathbf{N})$ các tập con hữu hạn của $\mathbf{N}$, được sắp thứ tự bởi quan hệ $\subset$; giới hạn này được gọi là tích của dãy $(x_n)_{n \in \mathbf{N}}$, và được ký hiệu $\prod_{n \in \mathbf{N}} x_n$ (hoặc đơn giản là $\prod_n x_n$); các $x_n$ được gọi là các thừa số của tích này.
 
 Định nghĩa 1 tương đương với định nghĩa sau: dãy $(x_n)$ là khả tích và có tích $p$ nếu, với mọi $\varepsilon > 0$, tồn tại một tập con hữu hạn $J_0$ của $\mathbf{N}$ sao cho, với mọi tập con hữu hạn $J \supset J_0$ của $\mathbf{N}$, ta có $\|p_J - p\| \leq \varepsilon$.
 
-#### Nhận xét 1 {#top-ix-a2-n1-rem-1 .statement}
+#### Nhận xét 1 {#top-ix-a2-n1-rem-1 .statement tag=0EDD}
 
 Khi $A$ là một đại số giao hoán, định nghĩa 1 trùng với định nghĩa đã được cho trong III, p. 37 (Nhận xét 3); nhưng khi $A$ không giao hoán, cấu trúc cấp của tập các chỉ số $\mathbf{N}$ can thiệp một cách cốt yếu vào định nghĩa 1; nếu $\sigma$ là một phép hoán vị bất kỳ của $\mathbf{N}$, không có gì cho phép ta khẳng định nói chung rằng dãy $(\mathbf{x}_{\sigma(n)})$ là khả tích khi dãy $(\mathbf{x}_n)$ là khả tích; hơn nữa, khi hai dãy này là khả tích, các tích của chúng nói chung là khác nhau.
 
-#### Nhận xét 2 {#top-ix-a2-n1-rem-2 .statement}
+#### Nhận xét 2 {#top-ix-a2-n1-rem-2 .statement tag=0EDE}
 
 Định nghĩa 1 tổng quát hóa ngay lập tức cho trường hợp một họ $(\mathbf{x}_n)_{n \in I}$ mà tập các chỉ số $I$ là một tập con của $\mathbf{Z}$ (được sắp thứ tự toàn phần bởi cấp cảm sinh bởi cấp của $\mathbf{Z}$); ta để cho người đọc nhiệm vụ mở rộng sang trường hợp này các tính chất sau đây (xem IX, p. 125, bài tập 1 và 2).
 
@@ -66,7 +66,7 @@ Khi $A$ là một đại số giao hoán, định nghĩa 1 trùng với định 
 
 Từ nay về sau ta sẽ tự hạn chế vào trường hợp đại số định chuẩn $A$ là đầy đủ.
 
-#### Định lý 1 {#top-ix-a2-thm-1 .statement}
+#### Định lý 1 {#top-ix-a2-thm-1 .statement tag=0EDF}
 
 Cho $(\mathbf{x}_n)_{n \in \mathbf{N}}$ là một dãy các điểm của một đại số định chuẩn đầy đủ $A$.
 
@@ -92,21 +92,21 @@ $$
 
 điều này chỉ ra rằng, trong nhóm nhân $G$ của các phần tử khả nghịch của $A$, ảnh bởi ánh xạ $J \mapsto p_J$ của bộ lọc các đoạn của $\mathfrak{F}(N)$ là một cơ sở bộ lọc Cauchy đối với cấu trúc đều trái của nhóm $G$; nhưng vì $G$ là đầy đủ ($IX$, p. 40, prop. 14), giới hạn của ánh xạ $J \mapsto p_J$ thuộc $G$.
 
-#### Nhận xét {#top-ix-a2-n2-rem-1 .statement}
+#### Nhận xét {#top-ix-a2-n2-rem-1 .statement tag=0EDG}
 
 Khi $(x_n)$ nhân được và có một tích không khả nghịch, điều kiện của th. 1 không còn nhất thiết được thỏa mãn; ví dụ, nếu tất cả các $x_n$ bằng cùng một phần tử $x$ sao cho $\| x \| < 1$, thì dãy $(x_n)$ nhân được và có tích bằng 0, và với mọi tập con hữu hạn khác rỗng $H$ của $N$, ta có $\| p_H \| \leq \| x \| < 1 \leq \| e \|$.
 
-#### Hệ quả 1 {#top-ix-a2-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#top-ix-a2-thm-1-cor-1 .statement tag=0EDH}
 
 *Nếu* $(x_n)$ *là một dãy nhân được mà tích của nó khả nghịch trong* $A$, $\lim_{n \to \infty} x_n = e$.
 
-#### Hệ quả 2 {#top-ix-a2-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#top-ix-a2-thm-1-cor-2 .statement tag=0EDI}
 
 *Nếu* $(x_n)$ *là một dãy nhân được mà tích của nó là khả nghịch trong* $A$, *thì mọi dãy* $(x_{n_k})_{k \in \mathbf{N}}$ *trích ra từ* $(x_n)$ *(($n_k$) là một dãy tăng ngặt các số nguyên) là nhân được*.
 
 Đó là điều mà tiêu chuẩn của định lý 1 ($IX$, p. 79) chỉ ra ngay lập tức.
 
-#### Định lý 2 {#top-ix-a2-thm-2 .statement}
+#### Định lý 2 {#top-ix-a2-thm-2 .statement tag=0EDJ}
 
 *Cho* $A$ *là một đại số chuẩn đầy đủ; nếu* $(u_n)$ *là một chuỗi hội tụ tuyệt đối các điểm của* $A$, *thì dãy* $(e + u_n)$ *là nhân được trong* $A$; *hơn nữa, nếu mọi phần tử* $e + u_n$ *đều khả nghịch trong* $A$, *thì điều tương tự cũng đúng với* $\prod_{n \in \mathbf{N}} (e + u_n)$.
 
@@ -118,7 +118,7 @@ $$
 
 Bây giờ, vì chuỗi có số hạng tổng quát $\| u_n \|$ hội tụ theo giả thiết, dãy $(1 + \| u_n \|)$ là nhân được trong $\mathbf{R}_+^*$ ($IV$, p. 35, định lý 4); với mọi $\varepsilon > 0$, do đó tồn tại một tập con hữu hạn $J_0$ của $N$ sao cho, với mọi tập con hữu hạn $L$ của $N$ không gặp $J_0$, ta có $\left| \prod_{n \in L} (1 + \| u_n \|) - 1 \right| \leq \varepsilon$; do đó có định lý.
 
-#### Hệ quả {#top-ix-a2-n2-cor-1 .statement}
+#### Hệ quả {#top-ix-a2-n2-cor-1 .statement tag=0EDK}
 
 *Nếu chuỗi có số hạng tổng quát* $u_n$ *hội tụ tuyệt đối, và nếu không phần tử nào* $e + u_n$ *là một ước của 0 trong* $A$, *thì tích* $\prod_{n \in \mathbf{N}} (e + u_n)$ *không là một ước của 0 trong* $A$.
 
@@ -126,7 +126,7 @@ Thật vậy, chỉ có một số hữu hạn các số nguyên $n$ sao cho $\|
 
 Điều kiện *đủ* cho tính nhân được cho trong định lý 2 nói chung không phải là cần thiết (xem IX, p. 126, bài tập 6). Tuy nhiên, nó là cần thiết trong trường hợp quan trọng khi $A$ là một đại số có *hạng hữu hạn* trên trường $\mathbf{R}$ (đặc biệt khi $A$ là trường các quaternion $\mathbf{K}$, hoặc một đại số ma trận $\mathbf{M}_n(\mathbf{R})$):
 
-#### Mệnh đề 1 {#top-ix-a2-prop-1 .statement}
+#### Mệnh đề 1 {#top-ix-a2-prop-1 .statement tag=0EDL}
 
 *Cho $A$ là một đại số chuẩn có hạng hữu hạn trên $\mathbf{R}$. Nếu $(\mathbf{e} + u_n)$ là một dãy nhân được trong* $A$, *có tích là khả nghịch, thì chuỗi có số hạng tổng quát* $u_n$ *hội tụ tuyệt đối.*
 
@@ -142,7 +142,7 @@ $$
 p_I = \prod_{i \in I} (\mathbf{e} + a_i) \qquad s_I = \sum_{i \in I} a_i, \qquad \sigma_I = \sum_{i \in I} \|a_i\|.
 $$
 
-#### Bổ đề 1 {#top-ix-a2-lem-1 .statement}
+#### Bổ đề 1 {#top-ix-a2-lem-1 .statement tag=0EDM}
 
 *Với mọi tập con hữu hạn $I$ của $\mathbf{N}$, đặt $\varphi(I) = \sup_{J \subset I} \|p_J - \mathbf{e}\|.$ Với mọi tập con $J$ của $I$, ta có*
 $$
@@ -158,7 +158,7 @@ $$
 $$
 điều này chứng minh bổ đề.
 
-#### Bổ đề 2 {#top-ix-a2-lem-2 .statement}
+#### Bổ đề 2 {#top-ix-a2-lem-2 .statement tag=0EDN}
 
 *Nếu $I$ là một tập con hữu hạn của $\mathbf{N}$ sao cho $\varphi(I) < 1/c$, thì ta có $\sigma_I \leq \frac{c \varphi(I)}{1 - c \varphi(I)}$*.
 
@@ -179,7 +179,7 @@ Theo Bổ đề 2, suy ra $\sum_{i \in H} \| u_i \| \leq 1$ với mọi tập co
 
 Với mọi dãy $(x_n)$ các điểm của một đại số chuẩn $A$, ta cho tương ứng dãy các *tích từng phần* $p_n = \prod_{k=0}^n x_k$; người ta gọi *tích vô hạn* với nhân tử tổng quát $x_n$, là *cặp* của các dãy $(x_n)$ và $(p_n)$. Tích vô hạn với nhân tử tổng quát $x_n$ được gọi là *hội tụ* nếu dãy $(p_n)$ hội tụ trong $A$; giới hạn của dãy này khi đó được gọi là *tích* của dãy $(x_n)$, và được ký hiệu $\prod_{n=0}^\infty x_n$.
 
-#### Mệnh đề 2 {#top-ix-a2-prop-2 .statement}
+#### Mệnh đề 2 {#top-ix-a2-prop-2 .statement tag=0EDO}
 
 *Cho $(x_n)$ là một dãy các điểm của một đại số chuẩn đầy đủ $A$.*
 
@@ -189,11 +189,11 @@ Với mọi dãy $(x_n)$ các điểm của một đại số chuẩn $A$, ta ch
 
 Ta để cho người đọc việc triển khai chứng minh của mệnh đề này, chứng minh được sao chép từng bước từ chứng minh của định lý 1 của IX, p. 79 (các phần hữu hạn $L$ của $\mathbf{N}$ xuất hiện trong chứng minh sau chỉ cần được thay thế bởi các khoảng).
 
-#### Hệ quả 1 {#top-ix-a2-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#top-ix-a2-prop-2-cor-1 .statement tag=0EDP}
 
 *Nếu tích vô hạn với nhân tử tổng quát* $x_n$ *hội tụ, và nếu* $\prod_{n=0}^\infty x_n$ *khả nghịch,* $\lim_{n \to \infty} x_n = e$.
 
-#### Hệ quả 2 {#top-ix-a2-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#top-ix-a2-prop-2-cor-2 .statement tag=0EDQ}
 
 *Nếu tích vô hạn với nhân tử tổng quát* $x_n$ *hội tụ, và nếu* $\prod_{n=0}^\infty x_n$ *khả nghịch, tích vô hạn với nhân tử tổng quát* $y_n = x_{n+h} (n \geq 0)$ *hội tụ.*
 
@@ -201,7 +201,7 @@ Tích của dãy $(y_n)$ được ký hiệu là $\prod_{n=h}^\infty x_n$, và c
 
 Vẫn giả sử rằng $\prod_{n=0}^{\infty} x_n$ là khả nghịch, ta cũng suy ra từ mệnh đề 2 (IX, p. 82) rằng, nếu $(z_n)$ là một dãy sao cho $z_n = x_n$ ngoại trừ một số hữu hạn các chỉ số, thì tích với nhân tử tổng quát $z_n$ hội tụ.
 
-#### Mệnh đề 3 {#top-ix-a2-prop-3 .statement}
+#### Mệnh đề 3 {#top-ix-a2-prop-3 .statement tag=0EDR}
 
 *Cho* $(k_n)$ *là một dãy tăng ngặt các số nguyên* $\geqslant 0$ ($k_0 = 0$) : *nếu tích vô hạn với nhân tử tổng quát* $x_n$ *hội tụ, và nếu đặt* $u_n = \prod_{p=k_n}^{k_{n+1}-1} x_n$, *thì tích vô hạn với nhân tử tổng quát* $u_n$ *hội tụ, và ta có* $\prod_{n=0}^{\infty} u_n = \prod_{n=0}^{\infty} x_n$.
 

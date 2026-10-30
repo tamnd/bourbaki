@@ -37,7 +37,7 @@ subsections:
       pdf_page: 167
 statements: 51
 exercises: 23
-content_sha256: df1638fd0a28b137232565f546a9264146a59e3608decab8ad253fb99ff250d8
+content_sha256: f3b51a0092ecb1d67af44e0046670397e86f0ff83f5e650e5116f48c2b3aa624
 ---
 
 ## § 10. EXTENSIONS GALOISIENNES
@@ -46,7 +46,7 @@ Dans tout ce paragraphe, on note K un corps.
 
 ### 1. Définition des extensions galoisiennes
 
-#### Théorème 1 {#alg-v-s10-thm-1 .statement}
+#### Théorème 1 {#alg-v-s10-thm-1 .statement tag=06MB}
 
 *Soient N une extension algébrique de K et Γ le groupe des K-auto-morphismes de N. Les assertions suivantes sont équivalentes :
 a) Tout élément de N invariant par Γ appartient à l’image de K dans N.
@@ -61,7 +61,7 @@ Tout automorphisme $\sigma \in \Gamma$ induit une permutation de A, donc laisse 
 
 $c) \Rightarrow a)$: soit $x$ un élément de $N$ n’appartenant pas à $K$. Notons $\Omega$ une clôture algébrique de $K$ contenant $N$ comme sous-extension (V, p. 22, th. 2). Soit $f$ le polynôme minimal de $x$ sur $K$, qui est de degré $\geq 2$ par hypothèse et soit $A$ l’ensemble des racines de $f(X)$ dans $N$. Si la condition c) est satisfaite, on a $f(X) = \prod_{y \in A} (X - y)$ et par suite (V, p. 51, cor. 1), $A$ est l’ensemble des conjugués de $x$ dans $\Omega$. Comme $f$ est de degré $\geq 2$, il existe dans $A$ un élément $y \neq x$, donc un $K$-automorphisme $u$ de $\Omega$ tel que $u(x) = y$. Or, sous les hypothèses de c), l’extension $N$ de $K$ est quasi-galoisienne, d’où $u(N) = N$ (V, p. 52, cor. 1); par suite, $u$ induit un $K$-automorphisme $\sigma$ de $N$ tel que $\sigma(x) = y \neq x$, et $K$ est le corps des invariants de $\Gamma$.
 
-#### Définition 1 {#alg-v-s10-def-1 .statement}
+#### Définition 1 {#alg-v-s10-def-1 .statement tag=06MC}
 
 *On dit qu’une extension $N$ du corps $K$ est galoisienne si elle est algébrique et si elle satisfait aux conditions équivalentes a), b) et c) du théorème 1.*
 
@@ -71,13 +71,13 @@ Soit $\Omega$ une clôture algébrique de $K$. Notons $A$ un ensemble d’élém
 
 En particulier, le corps de décomposition dans $\Omega$ d’une famille de polynômes séparables sur $K$, une clôture séparable de $K$, sont des extensions galoisiennes de $K$.
 
-#### Proposition 1 {#alg-v-s10-prop-1 .statement}
+#### Proposition 1 {#alg-v-s10-prop-1 .statement tag=06MD}
 
 *Soient $N$ une extension de $K$, et $(N_i)_{i \in I}$ une famille non vide de sous-extensions de $N$. On pose $E = \bigcap_{i \in I} N_i$ et $F = K(\bigcup_{i \in I} N_i)$. Si les extensions $N_i$ sont galoisiennes sur $K$ il en est de même de $E$ et $F$.*
 
 Tout d’abord $E$ est algébrique et séparable sur $K$ (V, p. 35, prop. 1) et il en est de même de $F$ (V, p. 40, prop. 8). De plus, $E$ et $F$ sont quasi-galoisiennes sur $K$ d’après la prop. 4 (V, p. 53).
 
-#### Proposition 2 {#alg-v-s10-prop-2 .statement}
+#### Proposition 2 {#alg-v-s10-prop-2 .statement tag=06ME}
 
 *Soient $N$ une extension galoisienne de $K$ et $E$ une sous-extension de $N$, de degré fini sur $K$. Il existe une sous-extension $F$ de $N$, contenant $E$, galoisienne et de degré fini sur $K$.*
 
@@ -87,7 +87,7 @@ La prop. 2 entraîne le résultat suivant : soient Ω une clôture algébrique d
 
 ### 2. Groupe de Galois
 
-#### Définition 2 {#alg-v-s10-def-2 .statement}
+#### Définition 2 {#alg-v-s10-def-2 .statement tag=06MF}
 
 Soit N une extension galoisienne du corps K. On appelle groupe de Galois de N sur K, et l’on note Gal(N/K), le groupe des K-automorphismes de N.
 
@@ -100,25 +100,25 @@ b) x et y appartiennent à la même orbite de Γ,
 c) x et y sont racines du même facteur irréductible de f.
 En particulier f est irréductible si et seulement si A est non vide et Γ opère transitivement sur A.
 
-#### Exemple 1 {#alg-v-s10-n2-exa-1 .statement}
+#### Exemple 1 {#alg-v-s10-n2-exa-1 .statement tag=06MG}
 
 Supposons la caractéristique de K différente de 2, et soit N une extension quadratique de K. Si x ∈ N − K, on a N = K(x), et le polynôme minimal de x sur K est de la forme f(X) = X² − aX + b, avec a, b ∈ K. On a alors f(X) = (X − x)(X − y) où y = a − x ; donc y est conjugué de x ; comme f(X) est séparable, l’extension N est galoisienne. Le groupe Gal(N/K) possède deux éléments qui induisent les deux permutations de l’ensemble {x, y}.
 
-#### Exemple 2 {#alg-v-s10-n2-exa-2 .statement}
+#### Exemple 2 {#alg-v-s10-n2-exa-2 .statement tag=06MH}
 
 \* Soit f = X³ + X² − 2X − 1 ∈ Q[X]. Le polynôme f est irréductible, car sinon il posséderait une racine x ∈ Q ; écrivant x = a/b, avec a, b ∈ Z, a et b étrangers, on aurait a(a² + ab − 2b²) = b³ et a³ = b(b² + 2ab − a²) ; mais cela implique que a divise b et b divise a, donc x = ± 1, ce qui est impossible. Soit ξ ≡ e^{2πi/7} ∈ C. Le polynôme f admet les racines α = ξ + ξ⁻¹, β = ξ² + ξ⁻², γ = ξ³ + ξ⁻³. On a β = α² − 2 et γ = α³ − 3α, donc l’extension Q(α) est galoisienne sur Q. Le groupe de Galois de Q(α) sur Q est cyclique d’ordre 3 et il est engendré par un élément σ tel que σ(α) = β, σ(β) = γ, σ(γ) = α. \*
 
-#### Exemple 3 {#alg-v-s10-n2-exa-3 .statement}
+#### Exemple 3 {#alg-v-s10-n2-exa-3 .statement tag=06MI}
 
 Supposons que $K = \mathbf{Q}$ et prenons $f = X^3 - 2$. Utilisant la décomposition des entiers en produit de facteurs premiers (I, p. 49), on voit facilement que 2 n’est pas le cube d’un élément de $\mathbf{Q}$. Le polynôme $f$ est donc irréductible car sinon il possèderait une racine dans $\mathbf{Q}$. Soient $A = \{ x_1, x_2, x_3 \}$ l’ensemble des racines de $f$ dans $\Omega$ et $\Gamma$ le groupe de Galois de $f$. Il opère transitivement sur $A$. Son ordre est donc divisible par trois. D’autre part le quotient $j = \frac{x_2}{x_1}$ est différent de 1 et l’on a $j^3 = 1$. Donc $j$ vérifie la relation $j^2 + j + 1 = 0$; or le polynôme $T^2 + T + 1 = (T + \frac{1}{2})^2 + \frac{3}{4}$ n’a pas de racines dans $\mathbf{Q}$, ce qui montre (cf. exemple 1) que $[\mathbf{Q}(j) : \mathbf{Q}] = 2$. Donc $[\mathbf{N} : \mathbf{Q}]$ est divisible par 2 et par suite l’ordre de $\Gamma$ est divisible par 6. Comme $\Gamma$ est contenu dans le groupe $\mathfrak{S}_A$ d’ordre 6, on a $\Gamma = \mathfrak{S}_A$.
 
-#### Exemple 4 {#alg-v-s10-n2-exa-4 .statement}
+#### Exemple 4 {#alg-v-s10-n2-exa-4 .statement tag=06MJ}
 
 Supposons $K$ de caractéristique $p \neq 0$ et soient $K(T)$ le corps des fractions rationnelles et $U = T^p - T$. On pose $E = K(U)$ et $F = K(T)$. Le polynôme $f(X) = X^p - X - U$ de $E[X]$ a les racines $T, T + 1, ..., T + p - 1$ dans $F$. Soit $\sigma$ le $K$-automorphisme de $F$ tel que $\sigma(T) = T + 1$. On a $\sigma^i(T) = T + i$ et $\sigma(U) = U$. Le groupe $G = \{ 1, \sigma, ..., \sigma^{p-1} \}$ est cyclique d’ordre $p$, et son corps des invariants contient $E$; comme $[F : E] \leq p$, le théorème de Dedekind (V, p. 27, cor. 2) implique que $E$ est le corps des invariants de $G$ et que $[F : E] = p$. Le polynôme $f$ est donc irréductible dans $E[X]$; l’extension $F$ de $E$ est galoisienne, son groupe de Galois $G$ est cyclique d’ordre $p$, et le groupe $\Gamma$ est le groupe des permutations circulaires de $T, T + 1, ..., T + p - 1$.
 
 Pour une généralisation de cet exemple, voir V, p. 89, Exemple 2.
 
-#### Exemple 5 {#alg-v-s10-n2-exa-5 .statement}
+#### Exemple 5 {#alg-v-s10-n2-exa-5 .statement tag=06MK}
 
 Soit $F = K(X_1, ..., X_n)$ le corps des fractions rationnelles en $n$ indéterminées $X_1, ..., X_n$ à coefficients dans $K$. Posons
 $$
@@ -134,13 +134,13 @@ f(X_{\sigma(1)}, ..., X_{\sigma(n)}) = f(X_1, ..., X_n)
 $$
 pour tout $\sigma \in \mathfrak{S}_n$ (cf. IV, p. 63, cor.).
 
-#### Exemple 6 {#alg-v-s10-n2-exa-6 .statement}
+#### Exemple 6 {#alg-v-s10-n2-exa-6 .statement tag=06ML}
 
 Supposons $f$ unitaire de degré $> 0$ et $K$ de caractéristique $\neq 2$. Munissons $A$ d’un ordre total noté $\leq$. Posons $\delta(f) = \prod_{\alpha < \beta} (\beta - \alpha), (\alpha, \beta) \in A \times A$, et pour tout σ ∈ S_A posons δ_σ(f) = $\prod_{\alpha < \beta} (\sigma(\beta) - \sigma(\alpha))$. On a $\delta_\sigma(f) = \varepsilon(\sigma) \delta(f)$ où $\varepsilon(\sigma)$ est la signature de $\sigma$ (I, p. 61), et $\delta(f) \neq 0$. Pour tout $\tau \in \mathrm{Gal}(N/K)$, on a $\tau(\delta(f)) = \delta_{\tau|A}(f)$. Donc $\Gamma$ est contenu dans le groupe alterné $\mathfrak{A}_A$ si et seulement si $\delta(f) \in K$. Par ailleurs $\delta(f)^2 = \prod_{\alpha < \beta} (\beta - \alpha)^2 = d(f)$ est le discriminant du polynôme $f$ (IV, p. 76). Donc $\Gamma \subset \mathfrak{A}_A$ si et seulement si $d(f)$ est le carré d’un élément de $K$. Ainsi dans l’exemple 2, on a $d(f) = 49 = 7^2$ et dans l’exemple 3, $d(f) = -108$ (IV, p. 81).
 
 Soit $N$ une extension galoisienne de $K$, et soit $L$ une sous-extension de $N$ galoisienne sur $K$. Tout $K$-automorphisme $\sigma$ de $N$ induit un $K$-automorphisme $\sigma_L$ de $L$ (V, p. 53, remarque 1). Par suite, l’application $\sigma \mapsto \sigma_L$ est un homomorphisme de $\mathrm{Gal}(N/K)$ dans $\mathrm{Gal}(L/K)$, appelé *homomorphisme de restriction*.
 
-#### Proposition 3 {#alg-v-s10-prop-3 .statement}
+#### Proposition 3 {#alg-v-s10-prop-3 .statement tag=06MM}
 
 *L’homomorphisme de restriction de Gal(N/K) dans Gal(L/K) est surjectif.*
 
@@ -162,7 +162,7 @@ Soit ε l’élément neutre de Γ, et soit Λ’ l’ensemble des sous-extensio
 
 On a évidemment $U_E(\sigma) = \sigma U_E(\varepsilon) = U_E(\varepsilon) \sigma$ pour $\sigma \in \Gamma$ et $E \in \Lambda'$. Comme $U_E(\varepsilon)$ est un sous-groupe distingué de Γ pour tout $E \in \Lambda'$, et que la famille $(U_E(\varepsilon))_{E \in \Lambda'}$ est une base de voisinages de ε, la topologie de Γ est compatible avec sa structure de groupe (TG, III, p. 5). Autrement dit, l’application $(\sigma, \tau) \mapsto \sigma\tau^{-1}$ de $\Gamma \times \Gamma$ dans Γ est continue.
 
-#### Proposition 4 {#alg-v-s10-prop-4 .statement}
+#### Proposition 4 {#alg-v-s10-prop-4 .statement tag=06MN}
 
 *Soit N une extension galoisienne de K. Le groupe de Galois Γ = Gal(N/K) est compact et totalement discontinu.*
 
@@ -170,7 +170,7 @@ Tout élément σ de Γ a une base de voisinages formée des ensembles ouverts e
 
 Soient N une extension galoisienne de K et $(N_i)_{i \in I}$ une famille filtrante croissante de sous-extensions de N. On suppose que $N_i$ est galoisienne sur K pour tout $i \in I$ et que $N = \bigcup_{i \in I} N_i$. Pour tout $i \in I$, notons $\Gamma_i$ le groupe de Galois de $N_i$ sur K ; pour $i \leq j$ dans I, on a $N_i \subset N_j$ et l’homomorphisme de restriction $\varphi_{ij}$ de $\Gamma_j$ dans $\Gamma_i$ est défini. Il est continu et la famille $(\Gamma_i, \varphi_{ij})$ est donc un système projectif de groupes topologiques. Par ailleurs, pour tout $i \in I$, notons $\lambda_i$ l’homomorphisme de restriction de Gal(N/K) dans Gal(N_i/K) = $\Gamma_i$; il est continu et l’on a $\lambda_i = \varphi_{ij} \circ \lambda_j$ pour $i \leq j$, donc la famille $(\lambda_i)_{i \in I}$ définit un homomorphisme continu $\lambda$ de Gal(N/K) dans $\lim_{\leftarrow} \Gamma_i$.
 
-#### Proposition 5 {#alg-v-s10-prop-5 .statement}
+#### Proposition 5 {#alg-v-s10-prop-5 .statement tag=06MO}
 
 *L’homomorphisme λ de Gal(N/K) dans $\lim_{\leftarrow} \mathrm{Gal}(N_i/K)$ est un isomorphisme de groupes topologiques.*
 
@@ -193,7 +193,7 @@ $$
 $$
 pour $\sigma, \tau$ dans $\Gamma$, $x, y$ dans $V$ et $\lambda$ dans $N$.
 
-#### Proposition 6 {#alg-v-s10-prop-6 .statement}
+#### Proposition 6 {#alg-v-s10-prop-6 .statement tag=06MP}
 
 a) Soit $V$ un espace vectoriel sur $N$ muni d’une $K$-structure. Pour qu’un vecteur $x \in V$ soit rationnel sur $K$, il faut et il suffit qu’on ait $u_\sigma(x) = x$ pour tout $\sigma \in \Gamma$. Pour qu’un sous-N-espace vectoriel $W$ de $V$ soit rationnel sur $K$, il faut et il suffit qu’on ait $u_\sigma(W) \subset W$ pour tout $\sigma \in \Gamma$.
 
@@ -201,13 +201,13 @@ b) Soient $V_1$ et $V_2$ deux espaces vectoriels sur $N$, munis chacun d’une $
 
 Il est clair que $K$ est l’ensemble des $x \in N$ tels que $\sigma(xy) = x \sigma(y)$ pour tout $\sigma \in \Gamma$ et tout $y \in N$. La proposition résulte alors du th. 1 (II, p. 125).
 
-#### Corollaire {#alg-v-s10-n4-cor-1 .statement}
+#### Corollaire {#alg-v-s10-n4-cor-1 .statement tag=06MQ}
 
 Soit $V_0$ un espace vectoriel sur $K$ et soit $W$ un sous-N-espace vectoriel de $N \otimes_K V_0$. On suppose que $W$ est stable par les applications $\sigma \otimes \mathrm{Id}_{V_0}$ pour tout $\sigma \in \Gamma$. Soit $W_0$ l’ensemble des $x \in V_0$ tels que $1 \otimes x \in W$. Alors $W_0$ est l’unique sous-K-espace vectoriel de $V_0$ tel que $W = N \otimes_K W_0$.
 
 Il suffit de noter que l’ensemble des éléments de la forme $1 \otimes x$ ($x \in V_0$) est une $K$-structure sur $N \otimes_K V_0$ pour laquelle on a $u_\sigma = \sigma \otimes \mathrm{Id}_{V_0}$ pour $\sigma \in \Gamma$.
 
-#### Proposition 7 {#alg-v-s10-prop-7 .statement}
+#### Proposition 7 {#alg-v-s10-prop-7 .statement tag=06MR}
 
 Soient V un espace vectoriel sur N, $(u_\sigma)_{\sigma \in \Gamma}$ une famille d’applications de V dans V satisfaisant aux relations (1) à (4) et $V_0$ l’ensemble des $x \in V$ tels que $u_\sigma(x) = x$ pour tout $\sigma \in \Gamma$.
 
@@ -234,7 +234,7 @@ $$(6)$$
 $$\psi(\lambda \otimes x)(\sigma) = \sigma(\lambda) . x$$
 pour $\lambda \in N, x \in M$ et $\sigma \in \Gamma$. Il est immédiat que $\psi$ est N-linéaire.
 
-#### Proposition 8 {#alg-v-s10-prop-8 .statement}
+#### Proposition 8 {#alg-v-s10-prop-8 .statement tag=06MS}
 
 L’application N-linéaire $\psi$ de $N \otimes_K M$ dans $V = \prod_{\sigma \in \Gamma} M^\sigma$ est injective, et elle est bijective si $\Gamma$ est fini.
 
@@ -243,17 +243,17 @@ $$(7)$$
 $$(u_\sigma h)(\tau) = h(\tau \sigma)$$
 pour $h \in V$ et $\tau \in \Gamma$. La vérification des formules (1) à (4) est immédiate. Notons $V_0$ l’ensemble des $h \in V$ tels que $u_\sigma(h) = h$ pour tout $\sigma \in \Gamma$. Pour tout $x \in M$, soit $\theta(x)$ l’application constante de $\Gamma$ dans $M$ de valeur $x$; alors $\theta$ est un $K$-isomorphisme de $M$ sur $V_0$. Définissons l’homomorphisme $\varphi : N \otimes_K V_0 \to V$ comme plus haut; on a $\psi = \varphi \circ (\mathrm{Id}_N \otimes \theta)$, et la prop. 8 résulte alors de la prop. 7.
 
-#### Corollaire {#alg-v-s10-n4-cor-2 .statement}
+#### Corollaire {#alg-v-s10-n4-cor-2 .statement tag=06MT}
 
 *Soit $\psi$ l’application $K$-linéaire de $N \otimes_K N$ dans l’espace vectoriel produit $N^\Gamma$ telle que $\psi(x \otimes y)(\sigma) = \sigma(x)\ y$ pour $x,\ y$ dans $N$ et $\sigma \in \Gamma$. Alors $\psi$ est injective et elle est bijective si $\Gamma$ est fini.*
 
 C’est le cas particulier $M = N$ de la proposition 8.
 
-#### Remarque 1 {#alg-v-s10-n4-rem-1 .statement}
+#### Remarque 1 {#alg-v-s10-n4-rem-1 .statement tag=06MU}
 
 Soient $F$ une extension de $K$ et $N$ une sous-extension de $F$. Soit $\Gamma$ un groupe *fini* d’automorphismes de $N$, dont $K$ soit le corps des invariants. La prop. 8 entraîne l’existence d’un isomorphisme de $K$-algèbres $\theta : N \otimes_K F \to F^\Gamma$ caractérisé par $\theta(x \otimes y)(\sigma) = \sigma(x)\ y$ pour $x \in N,\ y \in F$ et $\sigma \in \Gamma$.
 
-#### Remarque 2 {#alg-v-s10-n4-rem-2 .statement}
+#### Remarque 2 {#alg-v-s10-n4-rem-2 .statement tag=06MV}
 
 Les notations $K, N$ et $\Gamma$ ont la signification précédente. Pour tout entier $n \geqslant 1$, soit $A_n$ le produit tensoriel de $n$ $K$-algèbres identiques à $N$; soit $B_n$ l’ensemble des applications de $\Gamma^{n-1}$ dans $N$. Par récurrence sur $n$, on déduit du corollaire de la prop. 8 l’existence d’un isomorphisme $\varphi_n : A_n \to B_n$ transformant $x_1 \otimes \ldots \otimes x_n$ en la fonction $(\sigma_1, \ldots, \sigma_{n-1}) \mapsto \sigma_1(x_1) \ldots \sigma_{n-1}(x_{n-1})\ x_n$.
 
@@ -261,7 +261,7 @@ Les notations $K, N$ et $\Gamma$ ont la signification précédente. Pour tout en
 
 Soient $N$ un corps, $\Gamma$ un groupe *fini* d’automorphismes de $N$ et $K$ le corps des invariants de $\Gamma$. Pour tout entier $n \geqslant 1$, on note $\mathbf{GL}(n, N)$ le groupe des matrices carrées d’ordre $n$, à coefficients dans $N$ et de déterminant non nul (II, p. 149). On fait opérer le groupe $\Gamma$ sur le groupe $\mathbf{GL}(n, N)$ par la règle $\sigma(A) = (\sigma(a_{ij}))$ pour $A = (a_{ij})$.
 
-#### Proposition 9 {#alg-v-s10-prop-9 .statement}
+#### Proposition 9 {#alg-v-s10-prop-9 .statement tag=06MW}
 
 *Soit $(U_\sigma)_{\sigma \in \Gamma}$ une famille d’éléments de $\mathbf{GL}(n, N)$. Pour qu’il existe $A$ dans $\mathbf{GL}(n, N)$ avec $U_\sigma = A^{-1} \cdot \sigma(A)$ pour tout $\sigma \in \Gamma$, il faut et il suffit que l’on ait $U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau)$ pour $\sigma, \tau$ dans $\Gamma$.
 
@@ -275,11 +275,11 @@ $$
 $$
 Pour tout $\sigma \in \Gamma$, on note $u_\sigma$ l’application $x \mapsto U_\sigma \cdot \sigma(x)$ de $N^n$ dans lui-même. La vérification des formules (1) à (3) de V, p. 60, est immédiate. De plus, on a $u_\varepsilon \circ u_\varepsilon = u_\varepsilon$ et comme $u_\varepsilon$ est bijective, on a $u_\varepsilon = \mathrm{Id}_{N^n}$. Soit $V_0$ l’ensemble des vecteurs $x \in N^n$ tels que $u_\sigma(x) = x$ pour tout $\sigma \in \Gamma$. D’après la prop. 7 (V, p. 61), $V_0$ est une $K$-structure sur $N^n$; en particulier, il existe dans $V_0$ des vecteurs $b_1, \ldots, b_n$ formant une base de $N^n$ sur $N$. La matrice $B$ ayant pour colonnes $b_1, \ldots, b_n$ est donc inversible, et la relation $u_\sigma(b_i) = b_i$ pour $1 \leqslant i \leqslant n$ équivaut à $U_\sigma \cdot \sigma(B) = B$. Posant $A = B^{-1}$, on obtient $U_\sigma = A^{-1} \sigma(A)$ pour tout $\sigma \in \Gamma$.
 
-#### Corollaire 1 {#alg-v-s10-prop-9-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s10-prop-9-cor-1 .statement tag=06MX}
 
 Soit $(c_\sigma)_{\sigma \in \Gamma}$ une famille d’éléments non nuls de $\mathbf{N}$. Pour qu’il existe $a \neq 0$ dans $\mathbf{N}$ tel que $c_\sigma = \sigma(a) \cdot a^{-1}$ pour tout $\sigma \in \Gamma$, il faut et il suffit qu’on ait $c_{\sigma \tau} = c_\sigma \cdot \sigma(c_\tau)$ pour $\sigma, \tau$ dans $\Gamma$.
 
-#### Corollaire 2 {#alg-v-s10-prop-9-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s10-prop-9-cor-2 .statement tag=06MY}
 
 Soit $(a_\sigma)_{\sigma \in \Gamma}$ une famille d’éléments de $\mathbf{N}$. Pour qu’il existe $b$ dans $\mathbf{N}$ avec $a_\sigma = \sigma(b) - b$ pour tout $\sigma \in \Gamma$, il faut et il suffit que l’on ait $a_{\sigma \tau} = a_\sigma + \sigma(a_\tau)$ pour $\sigma, \tau$ dans $\Gamma$.
 
@@ -305,7 +305,7 @@ $$
 
 ### 6. Le théorème d’Artin
 
-#### Théorème 2 (Artin) {#alg-v-s10-thm-2 .statement}
+#### Théorème 2 (Artin) {#alg-v-s10-thm-2 .statement tag=06MZ}
 
 Soient $\mathbf{N}$ un corps, $\Gamma$ un groupe d’automorphismes de $\mathbf{N}$ et $\mathbf{K}$ le corps des invariants de $\Gamma$. Soit $V$ un sous-$\mathbf{K}$-espace vectoriel de $\mathbf{N}$, de dimension finie sur $\mathbf{K}$. Alors toute application $\mathbf{K}$-linéaire $u$ de $V$ dans $\mathbf{N}$ est combinaison linéaire à coefficients dans $\mathbf{N}$ de restrictions à $V$ d’éléments de $\Gamma$.
 
@@ -313,7 +313,7 @@ Soit $u$ une application $\mathbf{K}$-linéaire de $V$ dans $\mathbf{N}$ et soit
 
 Munissons l’ensemble $\mathbf{N}^\mathbf{N}$ de toutes les applications de $\mathbf{N}$ dans $\mathbf{N}$ de la topologie produit des topologies discrètes des facteurs. Le th. 2 signifie que l’ensemble des combinaisons linéaires à coefficients dans $\mathbf{N}$ des éléments de $\Gamma$ est dense dans l’ensemble des applications $\mathbf{K}$-linéaires de $\mathbf{N}$ dans $\mathbf{N}$.
 
-#### Théorème 3 {#alg-v-s10-thm-3 .statement}
+#### Théorème 3 {#alg-v-s10-thm-3 .statement tag=06N0}
 
 *Soient $\mathbf{N}$ un corps, $\Gamma$ un groupe fini d’automorphismes de $\mathbf{N}$ et $\mathbf{K}$ le corps des invariants de $\Gamma$. Soit $n$ le cardinal de $\Gamma$.
 a) *On a $[\mathbf{N} : \mathbf{K}] = n$ et $\mathbf{N}$ est une extension galoisienne de $\mathbf{K}$, de groupe de Galois $\Gamma$.
@@ -330,12 +330,12 @@ Enfin, l’assertion c) résulte du th. 2 (V, p. 63) qui prouve l’*existence* 
 
 7. **Le théorème fondamental de la théorie de Galois**
 
-#### Théorème 4 {#alg-v-s10-thm-4 .statement}
+#### Théorème 4 {#alg-v-s10-thm-4 .statement tag=06N1}
 
 *Soient $\mathbf{N}$ une extension galoisienne de $\mathbf{K}$ et $\Gamma$ son groupe de Galois. Soit $\mathscr{K}$ l’ensemble des sous-extensions de $\mathbf{N}$ et soit $\mathscr{G}$ l’ensemble des sous-groupes fermés de $\Gamma$. Pour tout sous-groupe $\Delta \in \mathscr{G}$, on note $k(\Delta)$ le corps des invariants de $\Delta$ et pour tout sous-corps $E \in \mathscr{K}$, on note $g(E)$ le groupe des $E$-automorphismes de $\mathbf{N}$. Alors $\Delta \mapsto k(\Delta)$ est une bijection de $\mathscr{G}$ sur $\mathscr{K}$, et $E \mapsto g(E)$ est la bijection réciproque.*
 A) La relation $E = k(g(E))$ (pour $E \in \mathscr{K}$) résulte du lemme plus précis suivant :
 
-#### Lemme 1 {#alg-v-s10-lem-1 .statement}
+#### Lemme 1 {#alg-v-s10-lem-1 .statement tag=06N2}
 
 *Soit $E$ une sous-extension de $\mathbf{N}$. Alors $\mathbf{N}$ est extension galoisienne de $E$, et $\mathrm{Gal}(\mathbf{N}/E)$ est un sous-groupe fermé de $\mathrm{Gal}(\mathbf{N}/\mathbf{K})$, avec la topologie induite.*
 Soit $x \in \mathbf{N}$; le polynôme minimal $f$ de $x$ sur $E$ divise dans $E[X]$ le polynôme minimal $g$ de $x$ sur $\mathbf{K}$ (V, p. 16, cor. 2). Comme $\mathbf{N}$ est galoisienne sur $\mathbf{K}$, le polynôme $g$ est produit dans $\mathbf{N}[X]$ de facteurs distincts de degré 1 ; il en est donc de même de $f$, donc $\mathbf{N}$ est galoisienne sur $E$.
@@ -348,31 +348,31 @@ Alors la famille des ensembles $U(x_1, \ldots, x_n)$ (resp. $V(x_1, \ldots, x_n)
 
 B) La relation $\Delta = g(k(\Delta))$ (pour $\Delta \in \mathscr{G}$) résulte du lemme plus précis suivant :
 
-#### Lemme 2 {#alg-v-s10-lem-2 .statement}
+#### Lemme 2 {#alg-v-s10-lem-2 .statement tag=06N3}
 
 *Soit $\Delta$ un sous-groupe de $\Gamma$. Soit $E$ le corps des invariants de $\Delta$. Alors le groupe de Galois de $\mathbf{N}$ sur $E$ est l’adhérence de $\Delta$ dans $\Gamma$.*
 
 Le groupe de Galois de $\mathbf{N}$ sur $E$ est fermé dans $\Gamma$ (lemme 1) et contient $\Delta$, donc il contient l’adhérence $\overline{\Delta}$ de $\Delta$. Soit $\sigma$ un $E$-automorphisme de $\mathbf{N}$ et soient $x_1, \ldots, x_n$ dans $\mathbf{N}$. Comme $\mathbf{N}$ est galoisien sur $E$ (lemme 1), il existe (V, p. 55, prop. 2) une sous-extension $\mathbf{N}_0$ de $\mathbf{N}$, galoisienne et de degré fini sur $E$, contenant $x_1, \ldots, x_n$. Soit $\Delta_0$ l’image du sous-groupe $\Delta$ de $\mathrm{Gal}(\mathbf{N}/E)$ par l’homomorphisme de restriction de $\mathrm{Gal}(\mathbf{N}/E)$ dans $\mathrm{Gal}(\mathbf{N}_0/E)$. Comme $[\mathbf{N}_0 : E]$ est fini, le théorème de Dedekind (V, p. 27, cor. 2) montre que $\mathrm{Gal}(\mathbf{N}_0/E)$ est fini. Donc $\Delta_0$ est fini, et comme $E$ est le corps des invariants de $\Delta_0$, on a $\Delta_0 = \mathrm{Gal}(\mathbf{N}_0/E)$ (V, p. 64, th. 3). En particulier, $\Delta_0$ contient la restriction de $\sigma$ à $\mathbf{N}_0$. Il existe donc $\tau \in \Delta$ tel que $\sigma$ et $\tau$ aient même restriction à $\mathbf{N}_0$, d’où $\sigma(x_1) = \tau(x_1), \ldots, \sigma(x_n) = \tau(x_n)$. Par suite, $\sigma$ est adhérent à $\Delta$ dans $\Gamma$, donc $\mathrm{Gal}(\mathbf{N}/E) \subset \overline{\Delta}$.
 
-#### Corollaire 1 {#alg-v-s10-lem-2-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s10-lem-2-cor-1 .statement tag=06N4}
 
 *Soient $E$ et $E'$ deux sous-corps de $\mathbf{N}$ contenant $K$ ; on a $E \subset E'$ si et seulement si l’on a $g(E) \supset g(E')$. Si $\Delta$ et $\Delta'$ sont deux sous-groupes fermés de $\Gamma$, on a $\Delta \subset \Delta'$ si et seulement si $k(\Delta) \supset k(\Delta')$.*
 
 En effet les deux bijections réciproques $E \mapsto g(E)$ et $\Delta \mapsto k(\Delta)$ sont décroissantes.
 
-#### Corollaire 2 {#alg-v-s10-lem-2-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s10-lem-2-cor-2 .statement tag=06N5}
 
 *Soit $(E_i)_{i \in I}$ une famille de sous-corps de $\mathbf{N}$ contenant $K$ ; posons $L = \bigcap_{i \in I} E_i$ et $M = K(\bigcup_{i \in I} E_i)$. Alors $g(L)$ est le plus petit sous-groupe fermé de $\Gamma$ contenant $\bigcup_{i \in I} g(E_i)$ et l’on a $g(M) = \bigcap_{i \in I} g(E_i)$.*
 
 La première assertion résulte du cor. 1 et la deuxième est immédiate.
 
-#### Corollaire 3 {#alg-v-s10-lem-2-cor-3 .statement}
+#### Corollaire 3 {#alg-v-s10-lem-2-cor-3 .statement tag=06N6}
 
 *Pour $i = 1, 2$, soit $E_i$ un sous-corps de $\mathbf{N}$ contenant $K$ et soit $\Delta_i = g(E_i)$. Pour tout $\sigma \in \Gamma$, les relations $\sigma(E_1) = E_2$ et $\sigma \Delta_1 \sigma^{-1} = \Delta_2$ sont équivalentes.*
 
 En effet, on a $\tau \in g(\sigma(E_1))$ si et seulement si l’on a $\tau \sigma(x) = \sigma(x)$, c’est-à-dire $\sigma^{-1} \tau \sigma(x) = x$, pour tout $x \in E_1$ ; ceci équivaut encore à $\sigma^{-1} \tau \sigma \in \Delta_1$, d’où $g(\sigma(E_1)) = \sigma \Delta_1 \sigma^{-1}$.
 
-#### Corollaire 4 {#alg-v-s10-lem-2-cor-4 .statement}
+#### Corollaire 4 {#alg-v-s10-lem-2-cor-4 .statement tag=06N7}
 
 Soit $E$ un sous-corps de $N$ contenant $K$ et soit $\Delta = g(E)$. Pour que $E$ soit galoisien sur $K$, il faut et il suffit que $\Delta$ soit un sous-groupe distingué de $\Gamma$. S’il en est ainsi, l’homomorphisme de restriction de $\Gamma$ dans $\mathrm{Gal}(E/K)$ définit par passage au quotient un isomorphisme de groupes topologiques de $\Gamma / \Delta$ sur $\mathrm{Gal}(E/K)$.
 
@@ -380,7 +380,7 @@ Comme $N$ est séparable sur $K$, il en est de même de $E$ (V, p. 35, prop. 1).
 
 L’homomorphisme de restriction $\varphi : \mathrm{Gal}(N/K) \to \mathrm{Gal}(E/K)$ est continu et surjectif (V, p. 58, prop. 3), et son noyau est évidemment égal à $\Delta = \mathrm{Gal}(N/E)$. Comme $\Gamma$ est compact, l’homomorphisme de $\Gamma / \Delta$ sur $\mathrm{Gal}(E/K)$ déduit de $\varphi$ par passage au quotient est un isomorphisme de groupes topologiques (TG, I, p. 63, cor. 2).
 
-#### Corollaire 5 {#alg-v-s10-lem-2-cor-5 .statement}
+#### Corollaire 5 {#alg-v-s10-lem-2-cor-5 .statement tag=06N8}
 
 Soit $E$ un sous-corps de $N$ contenant $K$. Pour que $E$ soit de degré fini sur $K$, il faut et il suffit que $g(E)$ soit ouvert dans $\Gamma$. S’il en est ainsi, l’indice $(\Gamma : g(E))$ est fini et égal à $[E : K]$.
 
@@ -388,7 +388,7 @@ Pour que $g(E)$ soit ouvert, il faut et il suffit qu’il existe une sous-extens
 
 Supposons $[E : K]$ fini. Soit $\Omega$ une clôture algébrique de $K$ contenant $N$ comme sous-extension (V, p. 22, th. 2) et soit $\mathscr{H}$ l’ensemble des $K$-homomorphismes de $E$ dans $\Omega$. Tout élément de $\mathscr{H}$ est induit par un $K$-automorphisme de $\Omega$ (V, p. 50, prop. 1), et comme $N$ est quasi-galoisienne sur $K$, l’application $\sigma \mapsto \sigma|E$ de $\Gamma$ dans $\mathscr{H}$ est surjective. Pour que $\sigma \in \Gamma$ et $\sigma' \in \Gamma$ aient même restriction à $E$, il faut et il suffit qu’on ait $\sigma^{-1} \sigma' \in g(E)$, d’où $\mathrm{Card} \, \mathscr{H} = (\Gamma : g(E))$. Enfin, comme $E$ est une algèbre étale sur $K$, on a $\mathrm{Card} \, \mathscr{H} = [E : K]$ (V, p. 31, prop. 4). En conclusion, on a $(\Gamma : g(E)) = [E : K]$.
 
-#### Corollaire 6 {#alg-v-s10-lem-2-cor-6 .statement}
+#### Corollaire 6 {#alg-v-s10-lem-2-cor-6 .statement tag=06N9}
 
 Pour $i = 1, 2$, soient $E_i$ une sous-extension de $N$ et $\Gamma_i$ le groupe de Galois de $N$ sur $E_i$. Les conditions suivantes sont équivalentes :
 a) Le groupe $\Gamma$ est produit direct des sous-groupes $\Gamma_1$ et $\Gamma_2$.
@@ -404,7 +404,7 @@ Pour que $\Gamma$ soit produit direct des sous-groupes $\Gamma_1$ et $\Gamma_2$,
 
 Or (i) signifie que $E_1$ et $E_2$ sont galoisiennes sur $K$ (cor. 4). D’après le cor. 2, la condition (ii) équivaut à $N = K(E_1 \cup E_2)$. Enfin si (i) et (ii) sont vérifiées, $\Gamma_1 \Gamma_2$ est le plus petit sous-groupe de $\Gamma$ contenant $\Gamma_1 \cup \Gamma_2$; il est fermé car $\Gamma_1$ et $\Gamma_2$ sont compacts et l’application $(\sigma, \tau) \mapsto \sigma \tau$ de $\Gamma_1 \times \Gamma_2$ dans $\Gamma$ est continue (TG, I, p. 63, cor. 1). Le cor. 2 montre alors que (iii) équivaut à $E_1 \cap E_2 = K$. Ceci prouve l’équivalence de a) et b).
 
-#### Remarque {#alg-v-s10-n6-rem-3 .statement}
+#### Remarque {#alg-v-s10-n6-rem-3 .statement tag=0DHW}
 
 Avec les notations du cor. 6, supposons les conditions a) et b) remplies. Les homomorphismes de restriction $\varphi_i : \Gamma \to \mathrm{Gal}(E_i/K)$ pour $i = 1, 2$ induisent des isomorphismes de groupes topologiques
 
@@ -482,7 +482,7 @@ Fig. 2.
 
 Le théorème suivant précise la structure des isomorphismes de translation.
 
-#### Théorème 5 {#alg-v-s10-thm-5 .statement}
+#### Théorème 5 {#alg-v-s10-thm-5 .statement tag=06NB}
 
 *Soient $N'$ une extension de $K$, engendrée par deux sous-extensions $K'$ et $N$. On suppose que $N$ est galoisienne sur $K$, de groupe de Galois $\Gamma$ et que $K' \cap N = K$. Alors l’extension $N'$ de $K'$ est galoisienne et l’homomorphisme canonique $\varphi$ de $K' \otimes_K N$ dans $N'$ est un isomorphisme. Soit $\sigma \in \mathrm{Gal}(N/K)$ et soit $\sigma'$ l’élément de $\mathrm{Gal}(N'/K')$ qui lui correspond par l’isomorphisme de translation ; on a $\sigma' \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes \sigma)$.
 
@@ -496,7 +496,7 @@ $$
 
 Par suite, le noyau de $\varphi$ est stable par les applications $\mathrm{Id}_{K'} \otimes \sigma$, donc de la forme $K' \otimes_K N_0$ avec $N_0 \subset N$ (V, p. 60, cor.). Pour $x$ dans $N_0$, on a $x = \varphi(1 \otimes x) = 0$, d’où $N_0 = 0$ et donc $\varphi$ est injectif.
 
-#### Corollaire 1 {#alg-v-s10-thm-5-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s10-thm-5-cor-1 .statement tag=06NC}
 
 *Soit $E'$ un sous-corps de $N'$ contenant $K'$. Il existe un unique sous-corps $E$ de $N$, contenant $K$ et tel que $E' = K'(E)$. On a $E = E' \cap N$.*
 
@@ -504,13 +504,13 @@ Posons $E = E' \cap N$, d’où $E' \supset K'(E)$. Posons $\Gamma = \mathrm{Gal
 
 On a prouvé l’égalité $E' = K'(E)$, d’où $\varphi^{-1}(E') = K' \otimes_K E$. Si $F$ est un sous-corps de $N$ contenant $K$ et tel que $E' = K'(F)$, on a de même $\varphi^{-1}(E') = K' \otimes_K F$, d’où $F = E$.
 
-#### Corollaire 2 {#alg-v-s10-thm-5-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s10-thm-5-cor-2 .statement tag=06ND}
 
 *Soit $N$ une extension galoisienne de $K$. On suppose que le groupe de Galois $\Gamma$ de $N$ sur $K$ est produit direct de deux sous-groupes fermés $\Gamma_1$ et $\Gamma_2$, et l’on note $E_i$ le corps des invariants de $\Gamma_i$ pour $i = 1, 2$. L’homomorphisme canonique de $E_1 \otimes_K E_2$ dans $N$ est un isomorphisme.*
 
 On a $E_1 \cap E_2 = K$ et $N = K(E_1 \cup E_2)$ d’après le cor. 6 (V, p. 66), et il suffit alors d’appliquer le théorème 5.
 
-#### Remarque {#alg-v-s10-n6-rem-4 .statement}
+#### Remarque {#alg-v-s10-n6-rem-4 .statement tag=0DHX}
 
 Soient $K$ et $K'$ deux corps et $u$ un homomorphisme de $K$ dans $K'$. Soit $K_s$ (resp. $K'_s$) une clôture séparable (V, p. 44, prop. 14) de $K$ (resp. $K'$) et $\Pi$ (resp. $\Pi'$) le groupe de Galois de $K_s$ sur $K$ (resp. $K'_s$ sur $K'$). Comme $K_s$ est une extension algébrique et séparable de $K$, et que l’extension $(K'_s, u)$ de $K$ est séparablement close, il existe (V, p. 44, cor.) un homomorphisme $v$ de $K_s$ dans $K'_s$ prolongeant $u$. On déduit de $v$ un homomorphisme continu $v^*$ de $\Pi'$ dans $\Pi$. Soit $v_1$ un autre prolongement de $u$. Comme $K_s$ est une extension quasi-galoisienne de $K$, il existe un élément $\sigma_0$ de $\Pi$ tel que $v_1 = v \circ \sigma_0$. On en déduit $v_1^*(\tau) = \sigma_0^{-1} v^*(\tau) \sigma_0$ pour tout $\tau \in \Pi$.
 
@@ -534,7 +534,7 @@ Définissons une action à droite de $\Gamma$ sur $N$ par $x^\sigma = \sigma^{-1
 
 Supposons désormais $N$ de degré fini sur $K$. Soit $x \in N$; pour que $\{ x \}$ soit une base du $K^{(\Gamma)}$-module $N$, il faut et il suffit que la famille $(\sigma(x))_{\sigma \in \Gamma}$ soit une base de $N$ sur $K$. On dit qu’une telle base est une *base normale de $N$ sur $K$*.
 
-#### Théorème 6 {#alg-v-s10-thm-6 .statement}
+#### Théorème 6 {#alg-v-s10-thm-6 .statement tag=06NF}
 
 *Soit $N$ une extension galoisienne de degré fini sur $K$ et soit $\Gamma$ le groupe de Galois de $N$ sur $K$. Il existe une base normale de $N$ sur $K$. Autrement dit, le $K^{(\Gamma)}$-module $N$ est libre de rang 1.*
 
@@ -546,7 +546,7 @@ D’après le cor. de V, p. 62, il existe un $K$-isomorphisme $\varphi$ de $N \o
 
 Pour la deuxième démonstration, nous utiliserons la proposition suivante :
 
-#### Proposition 10 {#alg-v-s10-prop-10 .statement}
+#### Proposition 10 {#alg-v-s10-prop-10 .statement tag=06NG}
 
 *Soit $x \in N$. Pour que $\{ x \}$ soit une base du $K^{(\Gamma)}$-module $N$, il faut et il suffit que $\det(\sigma \tau(x))_{\sigma, \tau \in \Gamma}$ soit non nul.*
 
@@ -554,7 +554,7 @@ Comme $K^{(\Gamma)}$ et $N$ ont même dimension sur $K$, dire que $\{ x \}$ est 
 
 A) Supposons K infini ; l’application $x \mapsto \det(\sigma \tau(x))$ de N dans N est polynômiale sur K (IV, p. 51). Par extension des scalaires de K à N elle donne l’application analogue pour le N-espace vectoriel $N \otimes_K N$, et on vient de voir que cette dernière n’est pas identiquement nulle (puisque $N \otimes_K N$ est bien libre de rang 1 sur $N \otimes_K K^{(\Gamma)}$). Il existe donc $x \in N$ tel que $\det(\sigma \tau(x)) \neq 0$ (IV, p. 17, th. 2) ; plus généralement, d’après la même référence on a :
 
-#### Proposition 11 {#alg-v-s10-prop-11 .statement}
+#### Proposition 11 {#alg-v-s10-prop-11 .statement tag=06NH}
 
 Supposons K infini, et soit $P : N \to K$ une application polynômiale sur K non nulle. Il existe $x \in N$ tel que $P(x) \neq 0$ et que $\{ x \}$ soit une base de N sur $K^{(\Gamma)}$.
 
@@ -562,7 +562,7 @@ B) Supposons K fini. D’après la prop. 4 (V, p. 91) $^1$ toute extension de de
 
 Le lemme suivant est un cas particulier de résultats plus généraux démontrés au chapitre VII. L’anneau A est, soit l’anneau $\mathbf{Z}$ des entiers rationnels, soit l’anneau de polynômes $K[X]$ sur le corps K.
 
-#### Lemme 4 {#alg-v-s10-lem-4 .statement}
+#### Lemme 4 {#alg-v-s10-lem-4 .statement tag=06NI}
 
 Soit M un A-module de torsion engendré par un nombre fini d’éléments $x_1, \ldots, x_h$. Il existe alors un élément x de M dont l’annulateur (II, p. 28) est égal à l’annulateur de M.
 
@@ -606,7 +606,7 @@ $$
 $$
 pour $\sigma \in \Gamma$, $f \in K_s^X$ et $x \in X$. Soit $\Theta(X)$ l’ensemble des invariants de $\Gamma$ dans $K_s^X$; c’est la sous-$K$-algèbre de $K_s^X$ formée des applications $f : X \to K_s$ telles que $f(\sigma x) = \sigma(f(x))$ pour $\sigma \in \Gamma$ et $x \in X$.
 
-#### Lemme 5 {#alg-v-s10-lem-5 .statement}
+#### Lemme 5 {#alg-v-s10-lem-5 .statement tag=06NJ}
 
 Soit $X$ un $\Gamma$-ensemble fini et soient $x_1, \ldots, x_n$ des points de $X$ tels que les orbites $\Gamma x_1, \ldots, \Gamma x_n$ forment une partition de $X$. Pour $1 \leq i \leq n$, soit $\Delta_i$ le stabilisateur de $x_i$ dans $\Gamma$, et soit $L_i$ le corps des invariants de $\Delta_i$. Alors $L_1, \ldots, L_n$ sont des extensions séparables de degré fini de $K$, et l’application $f \mapsto (f(x_1), \ldots, f(x_n))$ est un isomorphisme de $K$-algèbres de $\Theta(X)$ sur $L_1 \times \cdots \times L_n$.
 
@@ -614,21 +614,21 @@ Par hypothèse, les sous-groupes $\Delta_1, \ldots, \Delta_n$ de $\Gamma$ sont o
 
 Du lemme 5 et du th. 4 (V, p. 34), on déduit immédiatement le résultat suivant.
 
-#### Proposition 12 {#alg-v-s10-prop-12 .statement}
+#### Proposition 12 {#alg-v-s10-prop-12 .statement tag=06NK}
 
 Pour tout $\Gamma$-ensemble fini $X$, l’algèbre $\Theta(X)$ est étale sur $K$, de degré égal au cardinal de $X$. De plus, toute algèbre étale sur $K$ est isomorphe à une algèbre de la forme $\Theta(X)$.
 
-#### Remarque 1 {#alg-v-s10-n6-rem-1 .statement}
+#### Remarque 1 {#alg-v-s10-n6-rem-1 .statement tag=0DHY}
 
 On montre facilement que pour tout homomorphisme de $K$-algèbres $\varphi$ de $\Theta(X)$ dans $K_s$, il existe un unique élément $x$ de $X$ tel que $\varphi(f) = f(x)$ pour tout $f \in \Theta(X)$.
 
-#### Remarque 2 {#alg-v-s10-n6-rem-2 .statement}
+#### Remarque 2 {#alg-v-s10-n6-rem-2 .statement tag=0DHZ}
 
 Soient $X$ et $Y$ deux $\Gamma$-ensembles finis. Soit $\mathfrak{F}_\Gamma(X, Y)$ l’ensemble des applications $u$ de $X$ dans $Y$ telles que $u(\sigma x) = \sigma u(x)$ pour tout $\sigma \in \Gamma$ et tout $x \in X$. Pour $u \in \mathfrak{F}_\Gamma(X, Y)$, on définit un homomorphisme de $K$-algèbres $u^*: \Theta(Y) \to \Theta(X)$ par $u^*(f) = f \circ u$. Pour tout homomorphisme $\Psi$ de $\Theta(Y)$ dans $\Theta(X)$, il existe un unique élément $u$ de $\mathfrak{F}_\Gamma(X, Y)$ tel que $\Psi = u^*$.
 
 11. Structure des extensions quasi-galoisiennes
 
-#### Proposition 13 {#alg-v-s10-prop-13 .statement}
+#### Proposition 13 {#alg-v-s10-prop-13 .statement tag=06NM}
 
 Soit $N$ une extension quasi-galoisienne de $K$. On note $N_r$ le corps des invariants du groupe des $K$-automorphismes de $N$ et $N_s$ la fermeture algébrique séparable de $K$ dans $N$ (V, p. 42). Alors :
 a) $N_r$ est la fermeture radicielle de $K$ dans $N$ (V, p. 24).
@@ -639,11 +639,11 @@ Soit $\Omega$ une clôture algébrique de $K$, contenant $N$ comme sous-extensio
 
 Tout $K$-automorphisme de $\Omega$ applique $N$ dans $N$, donc $N_s$ dans $N_s$, et $N_s$ est donc une extension quasi-galoisienne de $K$ (V, p. 52, prop. 3). Par suite, $N_s$ est une extension galoisienne de $K$. Tout élément de $N_r \cap N_s$ est algébrique séparable et radiciel sur $K$, donc appartient à $K$ (V, p. 38, cor. 3) ; on a donc $N_r \cap N_s = K$. Or $N$ est radiciel sur $N_s$ (V, p. 42, prop. 13) et algébrique séparable sur $N_r$ (V, p. 54, th. 1), donc à la fois radiciel et séparable sur $K(N_r \cup N_s)$. On a donc $N = K(N_r \cup N_s)$ (V, p. 38, cor. 3) et les assertions b) et c) résultent du th. 5 (V, p. 68).
 
-#### Corollaire {#alg-v-s10-n6-cor-1 .statement}
+#### Corollaire {#alg-v-s10-n6-cor-1 .statement tag=0DI0}
 
 Soient $p$ l’exposant caractéristique de $K$, $\overline{K}$ une clôture algébrique de $K$, $K_s$ la fermeture séparable de $K$ dans $\overline{K}$ et $K^{p^{-\infty}}$ la clôture parfaite de $K$. Alors l’homomorphisme canonique de $K^{p^{-\infty}} \otimes K_s$ dans $K$ est un isomorphisme.
 
-#### Remarque {#alg-v-s10-n6-rem-5 .statement}
+#### Remarque {#alg-v-s10-n6-rem-5 .statement tag=0DI1}
 
 Soit $R$ (resp. $S$) une extension radicielle (resp. algébrique séparable) de $K$. Alors l’algèbre $R \otimes_K S$ est un corps : en effet, $R$ (resp. $S$) est isomorphe à une sous-extension de $K^{p^{-\infty}}$ (resp. $K_s$) et il suffit d’appliquer le cor. ci-dessus et la prop. 1 de V, p. 17.
 

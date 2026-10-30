@@ -53,14 +53,14 @@ subsections:
       pdf_page: 100
 statements: 52
 exercises: 29
-content_sha256: 9f198d9dfdf942aaed8cfd400e8d1e3b75d7719a951d5a0c19f6e063be04e9e7
+content_sha256: 5bd050717f2292378262b65271babbb584eca08fd5d5c1237ffed7a2b1b60829
 ---
 
 ## 9. COMPACT SPACES AND LOCALLY COMPACT SPACES
 
 ### 1. QUASI-COMPACT SPACES AND COMPACT SPACES
 
-#### Definition 1 {#top-i-s9-def-1 .statement}
+#### Definition 1 {#top-i-s9-def-1 .statement tag=0B7S}
 
 *A topological space* $X$ *is said to be quasi-compact if it satisfies the following axiom*:
 
@@ -92,25 +92,25 @@ $(C''') \iff (C'')$ by taking complements.
 
 If $X$ is quasi-compact, then every *locally finite* covering $\mathfrak{R}$ of $X$ is *finite*. For each point of $X$ has an open neighbourhood which meets only a finite number of sets of $\mathfrak{R}$, and by $(C''')$ a finite number of these neighbourhoods covers $X$.
 
-#### Example 1 {#top-i-s9-n1-exa-1 .statement}
+#### Example 1 {#top-i-s9-n1-exa-1 .statement tag=0B7T}
 
 Every *finite* space is *quasi-compact*, and more generally every space in which there is only a finite number of open sets is quasi-compact. A finite space is compact if and only if it is discrete, for a finite Hausdorff space is discrete ($§ 8$, no. 1, Corollary to Proposition 3). Conversely, *every compact discrete space is finite*, for in such a space the sets consisting of a single point are open; hence the space is finite by $(C''')$.
 
-#### Example 2 {#top-i-s9-n1-exa-2 .statement}
+#### Example 2 {#top-i-s9-n1-exa-2 .statement tag=0B7U}
 
 Let $X$ be a set, and give $X$ the topology in which the closed sets are $X$ and all finite subsets of $X$ [this set of subsets clearly satisfies axioms $(O'_1)$ and $(O'_{II})$ of $§ 1$, no. 4]. The topological space so defined is *quasi-compact*. For if $(F_i)_{i \in I}$ is a family of closed subsets of $X$ with empty intersection, then $F_\alpha$ is finite for some $\alpha \in I$. Let $a_k$ ($1 \leq k \leq n$) be the elements of $F_\alpha$; then by hypothesis for each index $k$ there is an index $i_k \in I$ such that $a_k \notin F_{i_k}$; the intersection of the $F_{i_k}$ ($1 \leq k \leq n$) and $F_\alpha$ is therefore empty, whence axiom $(C'')$ is satisfied. If $X$ is infinite it is not Hausdorff.
 
-#### Remark {#top-i-s9-n1-rem-1 .statement}
+#### Remark {#top-i-s9-n1-rem-1 .statement tag=0B7V}
 
 Quasi-compact (non-Hausdorff) spaces are of use mainly in applications of topology to algebraic geometry and are seldom featured in other mathematical theories, where on the contrary compact spaces play an important role.
 
-#### Theorem 1 {#top-i-s9-thm-1 .statement}
+#### Theorem 1 {#top-i-s9-thm-1 .statement tag=0B7W}
 
 *Let* $\mathfrak{F}$ *be a filter on a quasi-compact space* $X$ *and let* $A$ *be the set of cluster points of* $\mathfrak{F}$. *Then every neighbourhood of* $A$ *belongs to* $\mathfrak{F}$.
 
 Let $V$ be a neighbourhood of $A$ and suppose it possible that every set of $\mathfrak{F}$ meets $\complement V$. The intersections of the sets of $\mathfrak{F}$ with $\complement V$ then form a base of a filter $\mathfrak{G}$ on $X$; $X$ is quasi-compact, so that $\mathfrak{G}$ has at least one cluster point $y$, which does not belong to $A$, because the neighbourhood $V$ of $A$ does not meet some of the sets of $\mathfrak{G}$. But since $\mathfrak{G}$ is *finer* than $\mathfrak{F}$, $y$ is also a cluster point of $\mathfrak{F}$, which is contrary to hypothesis.
 
-#### Corollary {#top-i-s9-n1-cor-1 .statement}
+#### Corollary {#top-i-s9-n1-cor-1 .statement tag=0B7X}
 
 For a filter on a compact space to converge it is necessary and sufficient that it has a single cluster point.
 
@@ -118,13 +118,13 @@ Necessity by § 8, no. 1, Proposition 1; sufficiency by Theorem 1 above.
 
 ### 2. REGULARITY OF A COMPACT SPACE
 
-#### Proposition 1 {#top-i-s9-prop-1 .statement}
+#### Proposition 1 {#top-i-s9-prop-1 .statement tag=0B7Y}
 
 Let X be a compact space, x a point of X. In order that a filter base B formed of closed neighbourhoods of x should be a fundamental system of neighbourhoods of x it is necessary and sufficient that the intersection of the sets of B consists of x alone.
 
 The condition is necessary since X is Hausdorff (§ 8, no. 1, Proposition 1). It is sufficient, for it signifies that x is the only cluster point of B; hence B converges to x by the Corollary to Theorem 1 of no. 1.
 
-#### Corollary {#top-i-s9-n2-cor-1 .statement}
+#### Corollary {#top-i-s9-n2-cor-1 .statement tag=0B7Z}
 
 Every compact space is regular.
 
@@ -132,7 +132,7 @@ For it follows from axiom (Hi) (§ 8, no. 1, Proposition 1) that the filter base
 
 The following proposition amplifies the Corollary to Proposition 1:
 
-#### Proposition 2 {#top-i-s9-prop-2 .statement}
+#### Proposition 2 {#top-i-s9-prop-2 .statement tag=0B80}
 
 Let X be a compact space and let A, B be two disjoint closed subsets of X. Then there exist two open sets U, V, such that U ∩ V = ∅ and A ⊂ U and B ⊂ V.
 
@@ -144,55 +144,55 @@ The non-Hausdorff quasi-compact space X of Example 2 of no. 1 does not satisfy a
 
 ### 3. QUASI-COMPACTS SETS; COMPACT SETS; RELATIVELY COMPACT SETS
 
-#### Definition 2 {#top-i-s9-def-2 .statement}
+#### Definition 2 {#top-i-s9-def-2 .statement tag=0B81}
 
 A subset A of a topological space X is said to be a quasi-compact (resp. compact) set if the subspace A is quasi-compact (resp. compact).
 
 A subset $A$ of a topological space $X$ is a quasi-compact set if and only if every covering of $A$ by *open sets of* $X$ contains a finite covering of $A$; this follows from axiom $(C''')$. In a Hausdorff space, the notions of quasi-compact and compact sets are the same, since every subspace is Hausdorff.
 
-#### Example 1 {#top-i-s9-n3-exa-1 .statement}
+#### Example 1 {#top-i-s9-n3-exa-1 .statement tag=0B82}
 
 In a topological space $X$, every finite subset is quasi-compact; the empty set and every set consisting of one point are compact.
 
-#### Example 2 {#top-i-s9-n3-exa-2 .statement}
+#### Example 2 {#top-i-s9-n3-exa-2 .statement tag=0B83}
 
 In a topological space $X$, let $(x_n)_{n \in \mathbf{N}}$ be an infinite sequence of points which converges to a point $a$; then the set $A$ consisting of the points $x_n$ ($n \in \mathbf{N}$) and $a$ is quasi-compact. For if $(U_i)$ is a covering of $A$ by open sets of $X$, then $a \in U_x$ for some index $x$. $U_x$ is a neighbourhood of $a$ and therefore there is only a finite number of indices $n_k$ such that $x_{n_k} \notin U_x$. For each index $k$ let $i_k$ be an index such that $x_{n_k} \in U_{i_k}$; then $U_x$ and the $U_{i_k}$ form a finite open covering of $A$.
 
-#### Proposition 3 {#top-i-s9-prop-3 .statement}
+#### Proposition 3 {#top-i-s9-prop-3 .statement tag=0B84}
 
 *Every closed subset of a quasi-compact* (resp. *compact*) *space is quasi-compact* (resp. *compact*).
 
 This is an immediate consequence of axiom $(C'')$ if we remark that if $A$ is closed in $X$ then every set which is closed in $A$ is closed in $X$.
 
-#### Proposition 4 {#top-i-s9-prop-4 .statement}
+#### Proposition 4 {#top-i-s9-prop-4 .statement tag=0B85}
 
 *Every compact subset of a Hausdorff space is closed.*
 
 Let $A$ be a compact subset of a Hausdorff space $X$, and let $x$ be any point of $\overline{A}$; we have to show that $x \in A$. By hypothesis, every neighbourhood of $x$ meets $A$, and therefore the neighbourhood filter $\mathfrak{B}$ of $x$ in $X$ induces a filter $\mathfrak{B}_A$ on $A$; $A$ is compact whence $\mathfrak{B}_A$ has a cluster point $y \in A$. Since the filter $\mathfrak{B}$ is coarser than the filter on $X$ generated by $\mathfrak{B}_A$ (considered as a filter base on $X$), $y$ is also a cluster point of $\mathfrak{B}$; hence $y = x$, because $\mathfrak{B}$ converges to $x$ in $X$ and $X$ is Hausdorff (§ 8, no. 1, Proposition 1).
 
-#### Corollary {#top-i-s9-n3-cor-1 .statement}
+#### Corollary {#top-i-s9-n3-cor-1 .statement tag=0B86}
 
 *In a compact space* $X$ *a subset* $A$ *is compact if and only if it is closed in* $X$.
 
-#### Proposition 5 {#top-i-s9-prop-5 .statement}
+#### Proposition 5 {#top-i-s9-prop-5 .statement tag=0B87}
 
 *The union of a finite family of quasi-compact subsets of a topological space is quasi-compact.*
 
 It is sufficient to show that if $A$ and $B$ are two quasi-compact subsets of a topological space $X$, then $A \cup B$ is quasi-compact. Let $\mathscr{R}$ be covering of $A \cup B$; then $\mathscr{R}$ is a covering of $A$ and a covering of $B$; hence $\mathscr{R}$ contains a finite covering $\mathscr{R}_1$ of $A$ and a finite covering $\mathscr{R}_2$ of $B$; $\mathscr{R}_1 \cup \mathscr{R}_2$ is thus a finite covering of $A \cup B$ contained in $\mathscr{R}$.
 
-#### Definition 3 {#top-i-s9-def-3 .statement}
+#### Definition 3 {#top-i-s9-def-3 .statement tag=0B88}
 
 *A subset* $A$ *of a topological space* $X$ *is said to be relatively quasi-compact* (resp. *relatively compact*) *in* $X$ *if* $A$ *is contained in a quasi-compact* (resp. *compact*) *subset of* $X$.
 
 To abbreviate, we say also that $A$ is a "relatively quasi-compact set" (resp. "relatively compact set") when there is no ambiguity about $X$. In a *Hausdorff* space the notions of relatively quasi-compact set and relatively compact set are the same.
 
-#### Proposition 6 {#top-i-s9-prop-6 .statement}
+#### Proposition 6 {#top-i-s9-prop-6 .statement tag=0B89}
 
 *If $X$ is a Hausdorff space, a subset $A$ of $X$ is relatively compact if and only if $\overline{A}$ is compact.*
 
 If $A$ is relatively compact, then $\overline{A}$ is compact by Proposition 4 and its corollary; the reverse implication is self-evident.
 
-#### Proposition 7 {#top-i-s9-prop-7 .statement}
+#### Proposition 7 {#top-i-s9-prop-7 .statement tag=0B8A}
 
 *If $A$ is a relatively quasi-compact subset of a topological space $X$, then every filter base on $A$ has a cluster point in $X$.*
 
@@ -200,23 +200,23 @@ For if $A \subset K$, where $K$ is a quasi-compact subset of $X$, then every fil
 
 The converse of this proposition is not valid without restriction on $X$ (Exercise 22).
 
-#### Remark {#top-i-s9-n3-rem-1 .statement}
+#### Remark {#top-i-s9-n3-rem-1 .statement tag=0B8B}
 
 In a non-Hausdorff space, a compact set need not be closed, and its closure need not be quasi-compact (Exercise 5); the intersection of two compact sets need not be quasi-compact (Exercise 5); the union of two compact sets need not be compact (Exercise 5).
 
 ### 4. IMAGE OF A COMPACT SPACE UNDER A CONTINUOUS MAPPING
 
-#### Theorem 2 {#top-i-s9-thm-2 .statement}
+#### Theorem 2 {#top-i-s9-thm-2 .statement tag=0B8C}
 
 *If $f$ is a continuous mapping of a quasi-compact space $X$ into a topological space $X'$, then the set $f(X)$ is quasi-compact.*
 
 Let $\mathscr{R}$ be a covering of $f(X)$ by open sets in $X'$; then $\overline{f}^{-1}(\mathscr{R})$ is an open covering of $X$ (§ 2, no. 1, Theorem 1); hence there is a finite subset $\mathscr{S}$ of $\mathscr{R}$ such that $(\mathscr{S} \overline{f})$ is a covering of $X$; but then $\mathscr{S}$ is a covering of $f(X)$ and the theorem is proved.
 
-#### Corollary 1 {#top-i-s9-thm-2-cor-1 .statement}
+#### Corollary 1 {#top-i-s9-thm-2-cor-1 .statement tag=0B8D}
 
 *Let $f$ be a continuous mapping of a topological space $X$ into a Hausdorff space $X'$. Then the image under $f$ of any quasi-compact (resp. relatively quasi-compact) set in $X$ is a compact (resp. relatively compact) set in $X'$.*
 
-#### Corollary 2 {#top-i-s9-thm-2-cor-2 .statement}
+#### Corollary 2 {#top-i-s9-thm-2-cor-2 .statement tag=0B8E}
 
 *Every continuous mapping $f$ of a quasi-compact space $X$ into a Hausdorff space $X'$ is closed. If also $f$ is bijective, then $f$ is a homeomorphism.*
 
@@ -224,11 +224,11 @@ This follows immediately from Corollary 1 and Proposition 4 of no. 3.
 
 In particular:
 
-#### Corollary 3 {#top-i-s9-thm-2-cor-3 .statement}
+#### Corollary 3 {#top-i-s9-thm-2-cor-3 .statement tag=0B8F}
 
 *A Hausdorff topology which is coarser than the topology of a quasi-compact space must coincide with the latter.*
 
-#### Corollary 4 {#top-i-s9-thm-2-cor-4 .statement}
+#### Corollary 4 {#top-i-s9-thm-2-cor-4 .statement tag=0B8G}
 
 *Let $X$ be a topological space and $R$ a Hausdorff equivalence relation on $X$.*
 
@@ -240,13 +240,13 @@ Let $f$ be the restriction to $K$ of the canonical mapping $X \to X/R$. Since $X
 
 ### 5. PRODUCT OF COMPACT SPACES
 
-#### Theorem 3 (Tychonoff) {#top-i-s9-thm-3 .statement}
+#### Theorem 3 (Tychonoff) {#top-i-s9-thm-3 .statement tag=0B8H}
 
 *Every product of quasi-compact (resp. compact) spaces is quasi-compact (resp. compact). Conversely, if a product of non-empty spaces is quasi-compact (resp. compact) then each of the factors is quasi-compact (resp. compact).*
 
 In view of the characterization of Hausdorff product spaces given in § 8, no. 2, Proposition 7 it is enough to prove the assertions for quasi-compact spaces. If $X = \prod_{i \in I} X_i$ is quasi-compact and non-empty, then $X_i = \operatorname{pr}_i(X)$ is quasi-compact by reason of Theorem 2 of no. 4. Conversely, suppose the $X_i$ are quasi-compact and let $\mathfrak{U}$ be an ultrafilter on $X$; then for each $i \in I$, $\operatorname{pr}_i(\mathfrak{U})$ is an ultrafilter base on $X_i$ (§ 6, no. 6, Proposition 10) which therefore converges by reason of axiom (C'); hence $\mathfrak{U}$ is convergent (§ 7, no. 6, Corollary 1 of Proposition 10) and therefore $X$ is quasi-compact.
 
-#### Corollary {#top-i-s9-n5-cor-1 .statement}
+#### Corollary {#top-i-s9-n5-cor-1 .statement tag=0B8I}
 
 *For a subset of a product of topological spaces to be relatively quasi-compact it is necessary and sufficient that each of its projections should be relatively quasi-compact in the corresponding factor.*
 
@@ -254,7 +254,7 @@ Necessity follows from Theorem 2 of § 4. To prove sufficiency, let $A$ be a sub
 
 ### 6. INVERSE LIMITS OF COMPACT SPACES
 
-#### Proposition 8 {#top-i-s9-prop-8 .statement}
+#### Proposition 8 {#top-i-s9-prop-8 .statement tag=0B8J}
 
 Let $(X_\alpha, f_{\alpha\beta})$ be an inverse system of compact spaces indexed by a directed set $I$ such that $f_{\alpha\alpha}$ is the identity mapping for each $\alpha \in I$. Let $X = \varprojlim X_\alpha$ be the inverse limit and $f_\alpha : X \to X_\alpha$ the canonical mapping (§ 4, no. 4). Then
 a) $X$ is compact and for each $\alpha \in I$ we have
@@ -265,13 +265,13 @@ b) *If the* $X_\alpha$ *are all non-empty then* $X$ *is non-empty*.
 
 $X$ is a closed subspace of $\prod_\alpha X_\alpha$ (§ 8, no. 2, Proposition 7, Corollary 2) which is compact by Theorem 3 of no. 5 and Proposition 3 of no. 3. The other assertions are consequences of *Set Theory*, chap. III, § 7, no. 4, th. 1. We apply this theorem by taking $\mathscr{S}_\alpha$ to be the set of closed subsets of $X_\alpha$. The conditions (i) and (ii) are just axioms $(O'_1)$ and $(C'')$ respectively; condition (iii) is satisfied since $\{x_\alpha\}$ is closed and $f_{\alpha\beta}$ continuous (§ 2, no. 1, Theorem 1), and lastly condition (iv) is satisfied by reason of Corollary 2 of Theorem 2 of no. 4.
 
-#### Corollary 1 {#top-i-s9-prop-8-cor-1 .statement}
+#### Corollary 1 {#top-i-s9-prop-8-cor-1 .statement tag=0B8K}
 
 *Let* $(X_\alpha, f_{\alpha\beta})$ *be an inverse system of topological spaces indexed by a directed set, such that for each pair of indices* $\alpha, \beta$ *for which* $\alpha \leq \beta$ *and for each* $x_\alpha \in X_\alpha$, $\overline{f}_{\alpha\beta}^{-1}(x_\alpha)$ *is compact*. *Then equation (1) is valid and* $\overline{f}_{\alpha}^{-1}(x_\alpha)$ *is compact for each index* $\alpha$ *and each* $x_\alpha \in X_\alpha$.
 
 For each $x_\alpha \in \bigcap_{\beta \geq \alpha} f_{\alpha\beta}(X_\beta)$ and each $\beta \geq \alpha$, let $L_\beta$ denote $\overline{f}_{\alpha\beta}^{-1}(x_\alpha)$. If $\alpha \leq \beta \leq \gamma$, then we have $f_{\beta\gamma}(L_\gamma) \subset L_\beta$ and the set of all indices $\beta \geq \alpha$ is cofinal in the index set. It follows immediately that the $L_\beta$ ($\beta \geq \alpha$) form an inverse system of topological spaces (with the restrictions of the $f_{\beta\gamma}$ as mappings), whose inverse limit $L$ is homeomorphic to $\overline{f}_{\alpha}^{-1}(x_\alpha)$. Since by hypothesis the $L_\beta$ are compact and not empty, the corollary follows from Proposition 8.
 
-#### Corollary 2 {#top-i-s9-prop-8-cor-2 .statement}
+#### Corollary 2 {#top-i-s9-prop-8-cor-2 .statement tag=0B8L}
 
 *Let* $(X_\alpha, f_{\alpha\beta})$ *and* $(X'_\alpha, f'_{\alpha\beta})$ *be two inverse systems of topological spaces indexed by the same directed set* $I$, *and let* $(u_\alpha)$ *be an inverse system of mappings* $u_\alpha : X_\alpha \to X'_\alpha$. *Let* $X = \varprojlim X_\alpha$, $X' = \varprojlim X'_\alpha$, $u = \varprojlim u_\alpha$. *Then*:
 a) *If* $x' = (x'_\alpha) \in X'$ *is such that* $\overline{u'}_{\alpha}^{-1}(x'_\alpha)$ *is compact and non-empty for each* $\alpha \in I$, *then* $\overline{u}^{-1}(x')$ *is compact and non-empty*.
@@ -282,7 +282,7 @@ Let $L_\alpha$ denote $\overline{u}_\alpha^{-1}(x'_\alpha)$; then clearly the $L
 
 ### 7. LOCALLY COMPACT SPACES
 
-#### Definition 4 {#top-i-s9-def-4 .statement}
+#### Definition 4 {#top-i-s9-def-4 .statement tag=0B8M}
 
 *A topological space $X$ is said to be locally compact if it is Hausdorff and if every point of $X$ has a compact neighbourhood.*
 
@@ -290,13 +290,13 @@ Clearly a compact space is locally compact, but the converse is false; for examp
 
 \* As we shall see in Chapter IV, § 2, the real line $\mathbf{R}$ is locally compact, but not compact. \*
 
-#### Proposition 9 {#top-i-s9-prop-9 .statement}
+#### Proposition 9 {#top-i-s9-prop-9 .statement tag=0B8N}
 
 *Every locally compact space is regular.*
 
 Let $X$ be a locally compact space, then every point $x \in X$ has a compact neighbourhood $V$; since $X$ is Hausdorff, $V$ is closed (no. 3, Proposition 4). On the other hand, $V$ is a regular subspace of $X$ (no. 2, Corollary to Proposition 1) and therefore $X$ is regular (§ 8, no. 4, Proposition 13).
 
-#### Corollary {#top-i-s9-n7-cor-1 .statement}
+#### Corollary {#top-i-s9-n7-cor-1 .statement tag=0B8O}
 
 *In a locally compact space every point has a fundamental system of compact neighbourhoods.*
 
@@ -306,7 +306,7 @@ There exist *non-Hausdorff* topological spaces in which every point has a fundam
 
 The Corollary to Proposition 9 may be generalized as follows:
 
-#### Proposition 10 {#top-i-s9-prop-10 .statement}
+#### Proposition 10 {#top-i-s9-prop-10 .statement tag=0B8P}
 
 *In a locally compact space $X$, every compact set $K$ has a fundamental system of compact neighbourhoods.*
 
@@ -314,19 +314,19 @@ Let $U$ be any neighbourhood of $K$. For each $x \in K$ there is a compact neigh
 
 W(x) form an open covering of K as x runs through K; hence there exist a finite number of points $x_i \in K$ ($1 \leq i \leq n$) such that the interiors of the W(x_i) cover K. The union V of the W(x_i) is therefore a compact neighbourhood of K contained in U (no. 3, Proposition 5).
 
-#### Proposition 11 {#top-i-s9-prop-11 .statement}
+#### Proposition 11 {#top-i-s9-prop-11 .statement tag=0B8Q}
 
 *Let X be a locally compact space and F a subset of X such that F \cap K is compact whenever K is a compact subset of X. Then F is closed in X.*
 
 In view of Proposition 4 of no. 3, this follows from Proposition 3 a) of § 3, no. 1.
 
-#### Proposition 12 {#top-i-s9-prop-12 .statement}
+#### Proposition 12 {#top-i-s9-prop-12 .statement tag=0B8R}
 
 *In a Hausdorff space X, every locally compact subspace A is locally closed.*
 
 By hypothesis, for every $x \in A$ there is a neighbourhood V of x in X such that $V \cap A$ is compact and therefore closed in V (no. 3, Proposition 4).
 
-#### Proposition 13 {#top-i-s9-prop-13 .statement}
+#### Proposition 13 {#top-i-s9-prop-13 .statement tag=0B8S}
 
 *Every locally closed subspace of a locally compact space X is locally compact.*
 
@@ -338,7 +338,7 @@ For example, in an infinite discrete space X, the filter consisting of those set
 
 The proposition corresponding to Theorem 3 of no. 5 is the following:
 
-#### Proposition 14 {#top-i-s9-prop-14 .statement}
+#### Proposition 14 {#top-i-s9-prop-14 .statement tag=0B8T}
 
 a) *Let $(X_i)_{i \in I}$ be a family of locally compact spaces such that $X_i$ is compact for all but a finite number of indices. Then the product space $X = \prod_{i \in I} X_i$ is locally compact.*
 
@@ -350,7 +350,7 @@ b) If $X = \prod_{i \in I} X_i$ is locally compact and the $X_i$ non-empty, then
 
 ### 8. EMBEDDING OF A LOCALLY COMPACT SPACE IN A COMPACT SPACE
 
-#### Theorem 4 (Alexandroff) {#top-i-s9-thm-4 .statement}
+#### Theorem 4 (Alexandroff) {#top-i-s9-thm-4 .statement tag=0B8U}
 
 *If $X$ is any locally compact space, there exists a compact space $X'$ and a homeomorphism $f$ of $X$ onto the complement of a point in $X'$. Furthermore, if $X'_1$ is another compact space such that there is a homeomorphism $f_1$ of $X$ onto the complement of a point in $X'_1$, then there is a unique homeomorphism $g$ of $X'$ onto $X'_1$ such that $f_1 = g \circ f$.*
 
@@ -376,35 +376,35 @@ When a compact space $X'$ has been constructed as above from a locally compact s
 
 ### 9. LOCALLY COMPACT $\sigma$-COMPACT SPACES
 
-#### Definition 5 {#top-i-s9-def-5 .statement}
+#### Definition 5 {#top-i-s9-def-5 .statement tag=0B8V}
 
 *A locally compact space $X$ is said to be $\sigma$-compact or countable at infinity if it is a countable union of compact subsets.*
 
-#### Example 1 {#top-i-s9-n9-exa-1 .statement}
+#### Example 1 {#top-i-s9-n9-exa-1 .statement tag=0B8W}
 
 A discrete space is $\sigma$-compact if and only if it is countable.
 
-#### Example 2 {#top-i-s9-n9-exa-2 .statement}
+#### Example 2 {#top-i-s9-n9-exa-2 .statement tag=0B8X}
 
 \* The real line $\mathbf{R}$ is locally compact and $\sigma$-compact, since it is the union of the compact intervals $[ -n, +n ]$ for $n \in \mathbf{N}$. \*
 
-#### Remark {#top-i-s9-n9-rem-1 .statement}
+#### Remark {#top-i-s9-n9-rem-1 .statement tag=0B8Y}
 
 A Hausdorff space can be a countable union of compact subspaces without being locally compact. \* An example is Hilbert space with the weak topology, as we shall show in a later volume.
 
-#### Proposition 15 {#top-i-s9-prop-15 .statement}
+#### Proposition 15 {#top-i-s9-prop-15 .statement tag=0B8Z}
 
 *If $X$ is a locally compact $\sigma$-compact space, there is a sequence $(U_n)$ of relatively compact open subsets of $X$ which cover $X$, such that $\overline{U}_n \subset U_{n+1}$ for each $n$.
 
 Let $X$ be the union of a sequence $(K_n)$ of compact sets. Let $U_1$ be a relatively compact open neighbourhood of $K_1$ (no. 7, Proposition 10) and define $U_n$ inductively for $n > 1$ to be a relatively compact open neighbourhood of $\overline{U}_{n-1} \in K_n$ (no. 3, Proposition 5; no. 7, Proposition 10). The sequence $(U_n)$ clearly has the required properties.
 
-#### Corollary 1 {#top-i-s9-prop-15-cor-1 .statement}
+#### Corollary 1 {#top-i-s9-prop-15-cor-1 .statement tag=0B90}
 
 *With the notation of Proposition 15, every compact subset $K$ of $X$ is contained in some $U_n$.
 
 For $K$ can be covered by a finite number of the $U_k$, by axiom (C''').
 
-#### Corollary 2 {#top-i-s9-prop-15-cor-2 .statement}
+#### Corollary 2 {#top-i-s9-prop-15-cor-2 .statement tag=0B91}
 
 *Let $X$ be a locally compact space and let $X'$ be the compact space obtained by adjoining a point at infinity $\omega$ to $X$ (no. 8). Then $X$ is $\sigma$-compact if and only if the point $\omega$ has a countable fundamental system of neighbourhoods in $X'$.
 
@@ -416,7 +416,7 @@ Notice, however, that an open subspace of a compact space need not be $\sigma$-c
 
 ### 10. PARACOMPACT SPACES
 
-#### Definition 6 {#top-i-s9-def-6 .statement}
+#### Definition 6 {#top-i-s9-def-6 .statement tag=0B92}
 
 *A topological space is said to be paracompact if it is Hausdorff and satisfies the following axiom:
 
@@ -425,7 +425,7 @@ Notice, however, that an open subspace of a compact space need not be $\sigma$-c
 
 Every *compact* space is clearly paracompact. Every *discrete* space $X$ is paracompact, for the open covering formed by all sets consisting of a single point of $X$ is locally finite and is finer than every open covering of $X$.
 
-#### Proposition 16 {#top-i-s9-prop-16 .statement}
+#### Proposition 16 {#top-i-s9-prop-16 .statement tag=0B93}
 
 *Every closed subspace* $F$ *of a paracompact space* $X$ *is paracompact*.
 
@@ -433,7 +433,7 @@ Certainly $F$ is Hausdorff. On the other hand, if $(V_i)$ is an open covering in
 
 On the other hand an open subspace of a compact space need not be paracompact (Exercise 11).
 
-#### Proposition 17 {#top-i-s9-prop-17 .statement}
+#### Proposition 17 {#top-i-s9-prop-17 .statement tag=0B94}
 
 *The product of a paracompact space and a compact space is paracompact*.
 
@@ -453,7 +453,7 @@ form an open covering of $X \times Y$ which refines $\mathscr{R}$, and the proof
 
 On the other hand the product of two paracompact spaces need not be paracompact (see Chapter IX, , Exercise 16)
 
-#### Proposition 18 {#top-i-s9-prop-18 .statement}
+#### Proposition 18 {#top-i-s9-prop-18 .statement tag=0B95}
 
 *The sum* (§ 2, no. 4, Example 3) *of a family* $(X_i)_{i \in I}$ *of paracompact spaces is paracompact*.
 
@@ -465,7 +465,7 @@ $$
 
 is locally finite and refines the original covering $(V_\lambda)$.
 
-#### Theorem 5 {#top-i-s9-thm-5 .statement}
+#### Theorem 5 {#top-i-s9-thm-5 .statement tag=0B96}
 
 *A locally compact space* $X$ *is paracompact if and only if* $X$ *is the sum of a family of locally compact $\sigma$-compact spaces*.
 
@@ -479,7 +479,7 @@ To prove the converse, we may assume (by Proposition 18) that $X$ is $\sigma$-co
 
 In the course of the proof we have also established the following result:
 
-#### Corollary {#top-i-s9-n10-cor-1 .statement}
+#### Corollary {#top-i-s9-n10-cor-1 .statement tag=0B97}
 
 *Let $X$ be a locally compact paracompact space. Then every open covering $\mathfrak{R}$ of $X$ has a locally finite open refinement $\mathfrak{R}'$ formed of relatively compact sets. If $X$ is $\sigma$-compact then $\mathfrak{R}'$ can be taken to be countable.*
 

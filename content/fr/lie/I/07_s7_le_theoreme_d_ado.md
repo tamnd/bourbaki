@@ -24,7 +24,7 @@ subsections:
       pdf_page: 97
 statements: 5
 exercises: 5
-content_sha256: c4998d42ae6a66b7d19bab7dc535d56adfc40e3f81edc20dd961e831e9be2851
+content_sha256: 3aea85fac907c91c170fecb3bc743f6e4404bc5ee0e367ee26a1cfa88d58fde5
 ---
 
 ## § 7. Le théorème d’Ado
@@ -57,13 +57,13 @@ $$
 
 Nous considérerons aussi la représentation duale $x \mapsto -{}^t x_{U'}$ de $g$ dans ${U'}^*$. Pour $x \in g'$, $-{}^t x_{U'}$ est la transposée de la multiplication à droite par $x$ dans $U'$; la représentation correspondante de $U'$ est donc la représentation corégulière de $U'$.
 
-#### Définition 1 {#lie-i-s7-def-1 .statement}
+#### Définition 1 {#lie-i-s7-def-1 .statement tag=0A1F}
 
 Soient $g$ une algèbre de Lie, $g'$ une sous-algèbre de $g$, et $\rho'$ une représentation de $g'$ dans $V'$. Une représentation $\varphi$ de $g$ dans $V$ est appelée un agrandissement de $\rho'$ à $g$ s’il existe un homomorphisme injectif du $g'$-module $V'$ dans le $g'$-module $V$. On dit aussi que le $g$-module $V$ est un agrandissement du $g'$-module $V'$.
 
 Si $\rho'$ est de dimension finie, et si $g'$ est un idéal résoluble de $g$, il est nécessaire, pour l’existence d’un agrandissement de dimension finie, que $[g, g']$ soit contenu dans le plus grand idéal de nilpotence de $\rho'$ (§ 5, no 3, th. 1).
 
-#### Théorème 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement}
+#### Théorème 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement tag=0A1G}
 
 Soient $g = g' + \mathfrak{h}$ une algèbre de Lie somme directe d’un idéal $g'$ et d’une sous-algèbre $\mathfrak{h}$, et $\rho'$ une représentation de dimension finie de $g'$, dont le plus grand idéal de nilpotence contient $[\mathfrak{h}, g']$.
 
@@ -88,7 +88,7 @@ On a vu au no 1 que le $g'$-module $V'$ est isomorphe à un sous-$g'$-module d�
 
 Supposons enfin que, pour tout $x \in \mathfrak{h}$, la restriction à $g'$ de $\mathrm{ad}_g x$ soit nilpotente. Comme les éléments de $\mathfrak{h}$ opèrent dans $U'$ par des dérivations, il existe, pour tout $u \in U'$ et tout $x \in \mathfrak{h}$, un entier $e$ tel que $(x_{v'})^e \cdot u = 0$; les endomorphismes déduits de $x_{v'}$ dans $U'/{I'}^d$ et dans $S$ (qui sont des espaces de dimension finie) sont donc nilpotents. Ainsi, $\rho(x)$ est nilpotent pour tout $x \in \mathfrak{h}$. On a vu plus haut qu’il en est de même pour $x \in I' \cap g'$. Comme $I' \cap g'$ est un idéal de $g'$ contenant $[h, g']$, la somme $h + (I' \cap g')$ est aussi un idéal de $g$. L’assertion b) du th. 1 résulte donc du lemme suivant :
 
-#### Lemme 1 {#lie-i-s7-lem-1 .statement}
+#### Lemme 1 {#lie-i-s7-lem-1 .statement tag=0A1H}
 
 Soit $g = g' + h$ une algèbre de Lie somme d’un idéal $g'$ et d’une sous-algèbre $h$. Soit $\sigma$ une représentation de dimension finie de $g$. On suppose que $\sigma(x)$ est nilpotent pour tout $x \in g'$ et tout $x \in h$. Alors, $\sigma(x)$ est nilpotent pour tout $x \in g$.
 
@@ -98,7 +98,7 @@ Pour une amélioration du th. 1, cf. exerc. 4.
 
 ### 3. Le théorème d’Ado
 
-#### Proposition 1 {#lie-i-s7-prop-1 .statement}
+#### Proposition 1 {#lie-i-s7-prop-1 .statement tag=0A1I}
 
 Soient $g$ une algèbre de Lie, $n$ son plus grand idéal nilpotent, $a$ un idéal nilpotent de $g$, et $\rho$ une représentation de dimension finie de $a$ telle que tout élément de $\rho(a)$ soit nilpotent. Alors, $\rho$ admet un agrandissement de dimension finie $\sigma$ à $g$, tel que tout élément de $\sigma(n)$ soit nilpotent.
 
@@ -108,13 +108,13 @@ Soit $r$ le radical de $g$, et soit $n = r_0 \subset r_1 \subset \cdots \subset 
 
 Enfin, $g$ est somme directe de $r$ et d’une sous-algèbre $s$ ($§ 6$, n° 8, th. 5). Comme $[s, r] \subset n$, on peut (th. 1) trouver un agrandissement de dimension finie $\sigma$ de $\rho''$ à $g$ tel que tout élément de $\sigma(n)$ soit nilpotent.
 
-#### Théorème 2 {#lie-i-s7-thm-2 .statement}
+#### Théorème 2 {#lie-i-s7-thm-2 .statement tag=0A1J}
 
 *Toute algèbre de Lie possède une représentation linéaire fidèle de dimension finie.*
 
 De façon plus précise :
 
-#### Théorème 3 (Ado) {#lie-i-s7-thm-3 .statement}
+#### Théorème 3 (Ado) {#lie-i-s7-thm-3 .statement tag=0A1K}
 
 *Soient $g$ une algèbre de Lie et $n$ son plus grand idéal nilpotent. Il existe une représentation fidèle $\rho$ de dimension finie de $g$ telle que tout élément de $\rho(n)$ soit nilpotent.*
 

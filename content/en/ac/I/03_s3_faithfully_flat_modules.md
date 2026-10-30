@@ -41,14 +41,14 @@ subsections:
       pdf_page: 55
 statements: 18
 exercises: 10
-content_sha256: 0d9072835e4cc9d8e53fe3b6aad9c26f3af0064dfdb8a3707999932c7d47ff19
+content_sha256: 0a1be9878f698d84733905bb7d0c759aa5a8adfb87dd8b4532795f408851fd36
 ---
 
 ## 3. FAITHFULLY FLAT MODULES
 
 ### 1. DEFINITION OF FAITHFULLY FLAT MODULES
 
-#### Proposition 1 {#ac-i-s3-prop-1 .statement}
+#### Proposition 1 {#ac-i-s3-prop-1 .statement tag=0444}
 
 Let $E$ be a right $A$-module. The following four properties are equivalent:
 
@@ -99,13 +99,13 @@ $$
 
 since $A_s/m \neq 0$; whence (d). Conversely, suppose that (d) holds; every left ideal $a \neq A$ of $A$ is contained in a maximal left ideal $m$ (*Algebra*, Chapter I, §8, no. 7, Theorem 2), then the hypothesis $E \neq Em$ implies $E \neq Ea$, in other words, $E \otimes_A (A_s/a) \neq 0$. That is to say, for every *monogenous* left $A$-module $N \neq 0$, $T(N) \neq 0$. If now $N$ is any left $A$-module \#0, it contains a monogenous submodule $N' \neq 0$; since $E$ is flat, $T(N')$ is identified with a subgroup of $T(N)$; we have just seen that $T(N') \neq 0$, hence $T(N) \neq 0$.
 
-#### Definition 1 {#ac-i-s3-def-1 .statement}
+#### Definition 1 {#ac-i-s3-def-1 .statement tag=0445}
 
 *A right $A$-module* $E$ *is called faithfully flat if it satisfies the four equivalent conditions of Proposition 1.*
 
 Faithfully flat left $A$-modules are defined similarly; clearly, for a left $A$-module $E$ to be faithfully flat, it is necessary and sufficient that $E$, considered as a right $A^0$-module, be faithfully flat.
 
-#### Remark {#ac-i-s3-n1-rem-1 .statement}
+#### Remark {#ac-i-s3-n1-rem-1 .statement tag=0446}
 
 If $E$ is a faithfully flat $A$-module, $E$ is a *faithful* $A$-module: for, if an element $a \in A$ is such that $xa = 0$ for all $x \in E$, the homothety $h : b \mapsto ba$ in $A$ is such that $1, \otimes h = 0$; whence $h = 0$ by property (c) of Proposition 1, that is $a = 0$ since $A$ has a unit element.
 
@@ -115,13 +115,13 @@ If $E$ is a faithfully flat $A$-module, $E$ is a *faithful* $A$-module: for, if 
 (3) Let $A$ be a *principal ideal domain*. For an $A$-module $E$ to be faithfully flat, it is necessary and sufficient that it be *torsion-free* and $E \neq Ep$ for every irreducible element (*Algebra*, Chapter VII, § 1, no. 3) $p$ of $A$; this follows immediately from § 2, no. 4, Proposition 3 and criterion (d) of Proposition 1.
 (4) Example (3) shows that the $\mathbf{Z}$-module $\mathbf{Q}$ is a flat and faithful module, but *not faithfully flat*.
 
-#### Proposition 2 {#ac-i-s3-prop-2 .statement}
+#### Proposition 2 {#ac-i-s3-prop-2 .statement tag=0447}
 
 *Let $E$ be a faithfully flat right $A$-module and $u : N' \to N$ a left $A$-module homomorphism. For $u$ to be injective (resp. surjective, bijective), it is necessary and sufficient that $1_E \otimes u : E \otimes_A N' \to E \otimes_A N$ be so.*
 
 This is an immediate consequence of criterion (a) of Proposition 1.
 
-#### Proposition 3 {#ac-i-s3-prop-3 .statement}
+#### Proposition 3 {#ac-i-s3-prop-3 .statement tag=0448}
 
 Let $0 \to E' \to E \to E'' \to +0$ be an exact sequence of right $A$-modules. Suppose that $E'$ and $E''$ are flat and that one of them is faithfully flat. Then $E$ is faithfully flat.
 
@@ -135,7 +135,7 @@ $$
 
 ### 2. TENSOR PRODUCTS OF FAITHFULLY FLAT MODULES
 
-#### Proposition 4 {#ac-i-s3-prop-4 .statement}
+#### Proposition 4 {#ac-i-s3-prop-4 .statement tag=0449}
 
 Let $R, S$ be two rings, $E$ a right $R$-module and $F$ an $(R, S)$-bimodule. Suppose that $E$ is faithfully flat. Then, for $F$ to be a flat (resp. faithfully flat) $S$-module, it is necessary and sufficient that $E \otimes_R F$ be so.
 
@@ -153,7 +153,7 @@ is then injective ($§ 2$, no. 3, Proposition 1). It follows from Proposition 2 
 
 (4) Suppose that $E \otimes_R F$ is faithfully flat and let $N$ be a left $S$-module such that $F \otimes_S N = 0$. Then $E \otimes_R F \otimes_S N = 0$, whence $N = 0$, which shows that $F$ is faithfully flat.
 
-#### Corollary {#ac-i-s3-n2-cor-1 .statement}
+#### Corollary {#ac-i-s3-n2-cor-1 .statement tag=044A}
 
 Let $C$ be a commutative ring and $E$ and $F$ two faithfully flat $C$-modules. Then the $C$-module $E \otimes_C F$ is faithfully flat.
 
@@ -161,19 +161,19 @@ Apply Proposition 4 with $R = S = C$.
 
 ### 3. CHANGE OF RING
 
-#### Proposition 5 {#ac-i-s3-prop-5 .statement}
+#### Proposition 5 {#ac-i-s3-prop-5 .statement tag=044B}
 
 Let $\rho$ be a homomorphism from a ring $A$ to a ring $B$. If $E$ is a faithfully flat right $A$-module, the right $B$-module $\rho^*(E) = E_{(B)} = E \otimes_A B$ is faithfully flat.
 
 Apply Proposition 4 of no. 2 with $R = A, S = F = B$, noting that the $B$-module $B_d$ is faithfully flat.
 
-#### Corollary {#ac-i-s3-n3-cor-1 .statement}
+#### Corollary {#ac-i-s3-n3-cor-1 .statement tag=044C}
 
 *If $E$ is a faithfully flat right $A$-module and if $a$ is a two-sided ideal of $A$, the right $(A/a)$-module $E/Ea$ is faithfully flat.*
 
 Apply Proposition 5 with $B = A/a, \rho$ being the canonical homomorphism.
 
-#### Proposition 6 {#ac-i-s3-prop-6 .statement}
+#### Proposition 6 {#ac-i-s3-prop-6 .statement tag=044D}
 
 Let $A$ be a commutative ring, $B$ an algebra over $A$ and $\rho : a \mapsto a . 1$ the canonical homomorphism of $A$ to $B$. Suppose that $B$ is a faithfully flat $A$-module. Then, for an $A$-module $E$ to be flat (resp. faithfully flat), it is necessary and sufficient that the right $B$-module $E_{(B)} = E \otimes_A B$ be flat (resp. faithfully flat).
 
@@ -191,7 +191,7 @@ As $B$ is a faithfully flat $A$-module, it follows that $1_E \otimes \nu : E \ot
 
 ### 4. RESTRICTION OF SCALARS
 
-#### Proposition 7 {#ac-i-s3-prop-7 .statement}
+#### Proposition 7 {#ac-i-s3-prop-7 .statement tag=044E}
 
 *Let $A, B$ be two rings and $\rho$ a homomorphism of $A$ to $B$. Let $E$ be a faithfully flat right $B$-module. For $\rho^*(E)$ to be a flat (resp. faithfully flat) right $A$-module, it is necessary and sufficient that $B$ be a flat (resp. faithfully flat) right $A$-module.*
 
@@ -205,7 +205,7 @@ Remarks
 
 ### 5. FAITHFULLY FLAT RINGS
 
-#### Proposition 8 {#ac-i-s3-prop-8 .statement}
+#### Proposition 8 {#ac-i-s3-prop-8 .statement tag=044F}
 
 Let A, B be two rings and $\rho$ a homomorphism from A to B. Suppose that there exists a right B-module E such that $\rho_*(E)$ is a faithfully flat A-module. Then:
 (i) For every left A-module F, the canonical homomorphism $j : F \to F_{(B)} = B \otimes_A F$ (such that $j(x) = 1 \otimes x$ for all $x \in F$) is injective.
@@ -227,7 +227,7 @@ Finally, if m is a maximal left ideal of A, then $\overline{\rho}^{-1}(Bm) = m$ 
 
 If $A$ and $B$ satisfy the conditions of Proposition 8, $A$ is usually identified with a subring of $B$ by means of $\rho$.
 
-#### Corollary {#ac-i-s3-n5-cor-1 .statement}
+#### Corollary {#ac-i-s3-n5-cor-1 .statement tag=044G}
 
 Under the hypotheses of Proposition 8, if $B$ is left Noetherian (resp. Artinian), so is $A$.
 
@@ -237,7 +237,7 @@ If (a) is a non-stationary increasing (resp. decreasing) sequence of left ideals
 
 An important application of Proposition 8 is when $B$ is itself a faithfully flat $A$-module. But in this case we have the following more precise proposition:
 
-#### Proposition 9 {#ac-i-s3-prop-9 .statement}
+#### Proposition 9 {#ac-i-s3-prop-9 .statement tag=044H}
 
 Let $A, B$ be two rings and $\rho$ a homomorphism of $A$ to $B$. The following five properties are equivalent:
 (a) The right $A$-module $B$ is faithfully flat.
@@ -262,7 +262,7 @@ shows that $B$ is a faithfully flat right $A$-module, since $A_a$ is faithfully 
 
 Under the conditions of Proposition 9, let us identify $A$ with a *subring* of $B$ by means of $\mathfrak{p}$. The relation $\bar{\rho}^{-1}(Ba) = a$ then reads $A \cap Ba = a$. On the other hand if $F$ is a left $A$-module, $F$ is identified with its image in $B \otimes_A F$ under the canonical mapping $x \mapsto 1 @ x$; if $X$ is an additive subgroup of $F$, then we denote by $BX$ the left sub-B-module of $B \otimes_A F$ generated by $X$. With this notation, we have:
 
-#### Proposition 10 {#ac-i-s3-prop-10 .statement}
+#### Proposition 10 {#ac-i-s3-prop-10 .statement tag=044I}
 
 *Let* $B$ *be a ring and* $A$ *a subring of* $B$ *such that* $B$ *is a faithfully flat right* $A$-*module. Let* $F$ *be a left* $A$-*module, $F', F''$ *two submodules of* $F$. *Then:*
 (i) *The canonical mapping* $B \otimes_A F' \to B \otimes_A F$ *is an isomorphism of* $B \otimes_A F'$ *onto* $BF'$.
@@ -278,7 +278,7 @@ is injective; taking account of the identifications made, its image is $BF'$, wh
 
 ### 6. FAITHFULLY FLAT RINGS AND FINITENESS CONDITIONS
 
-#### Proposition 11 {#ac-i-s3-prop-11 .statement}
+#### Proposition 11 {#ac-i-s3-prop-11 .statement tag=044J}
 
 *Let* $B$ *be a ring and* $A$ *a subring of* $B$ *such that* $B$ *is a faithfully flat right* $A$-*module. For a left* $A$-*module* $F$ *to be definitely generated (resp. finitely presented), it is necessary and sufficient that the* $B$-*module* $B \otimes_A F$ *be finitely generated (resp. finitely presented).*
 
@@ -286,7 +286,7 @@ is injective; taking account of the identifications made, its image is $BF'$, wh
 
 (2) *If* $F$ *admits a finite presentation, so does* $B \otimes_A F$ *without any hypothesis* on B (§ 2, no. 8). It remains to prove that, if $B \otimes_A F$ admits a finite presentation, so does F. We already know from (1) that F is finitely generated, hence there exists a surjective homomorphism $u : L \to F$, where L is a finitely generated free A-module. Let R be the kernel of u, so that $B \otimes_A R$ is identified with the kernel of the surjective homomorphism $l_B \otimes u : B \otimes_A L \to B \otimes_A F$ (§ 2, no. 3, *Remark 2*). As $B \otimes_A F$ admits a finite presentation by hypothesis, we conclude (§ 2, no. 8, Lemma 9) that $B \otimes_A R$ is finitely generated; then it follows from (1) that R is a finitely generated A-module and consequently F admits a finite presentation.
 
-#### Proposition 12 {#ac-i-s3-prop-12 .statement}
+#### Proposition 12 {#ac-i-s3-prop-12 .statement tag=044K}
 
 *Let B be a ring and A a commutative subring of the centre of B such that B is a faithfully flat A-module. For an A-module F to be projective and finitely generated, it is necessary and sufficient that $B \otimes_A F$ be a finitely generated projective left B-module.*
 
@@ -326,7 +326,7 @@ $$
 
 where $(x_k)$ is a solution of (3) consisting of elements of $A$, the $b_j$ belong to $B$ and each of the $(z_{jk})_{1 \leq k \leq n}$ is a solution of the homogeneous linear system associated with (3), consisting of elements of $A$.
 
-#### Proposition 13 {#ac-i-s3-prop-13 .statement}
+#### Proposition 13 {#ac-i-s3-prop-13 .statement tag=044L}
 
 Let $A$ be a subring of a ring $B$. For the ordered pair $(A, B)$ to satisfy the linear extension property, it is necessary and sufficient that $B$ be a faithfully flat $A$-module.
 

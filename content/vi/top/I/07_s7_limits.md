@@ -36,9 +36,9 @@ subsections:
       pdf_page: 80
 statements: 23
 exercises: 7
-content_sha256: 74249f8b8a26a7637935453161a0c02cd1de74ab2060da9dd1117b9c550790b7
+content_sha256: afd6be3f00291912ca46ec7c1ac3d7ae7f59caa97d83b7d6c862593c1dc112e7
 translated_from: content/en/top/I/07_s7_limits.md
-source_content_sha256: 9fb89618c14fd5991a8e1519c633089398f5b2527a1a36660bd487ce933a0152
+source_content_sha256: 2a27ef734a6a1ff91fe8d3fb848961a85b666a83e64858598552c6dd593c2d9d
 translation_model: gpt-5.4
 translation_run: translate-vi-65ba7a71
 glossary_version: 34
@@ -50,13 +50,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. GIỚI HẠN CỦA MỘT BỘ LỌC
 
-#### Định nghĩa 1 {#top-i-s7-def-1 .statement}
+#### Định nghĩa 1 {#top-i-s7-def-1 .statement tag=0B5B}
 
 Cho $X$ là một không gian tôpô và $\mathfrak{F}$ là một bộ lọc trên $X$. Một điểm $x \in X$ được gọi là một điểm giới hạn (hoặc đơn giản là một giới hạn) của $\mathfrak{F}$, nếu $\mathfrak{F}$ mịn hơn bộ lọc lân cận $\mathfrak{B}(x)$ của $x$; cũng nói rằng $\mathfrak{F}$ hội tụ (hoặc là hội tụ) đến $x$. *Điểm* $x$ *được gọi là một giới hạn của một cơ sở bộ lọc* $\mathfrak{B}$ *trên* $X$, *và* $\mathfrak{B}$ *được nói là hội tụ đến* $x$, *nếu bộ lọc có cơ sở là* $\mathfrak{B}$ *hội tụ đến* $x$.
 
 Định nghĩa này, cùng với Mệnh đề 4 của § 6, no. 3, cho tiêu chuẩn sau đây:
 
-#### Mệnh đề 1 {#top-i-s7-prop-1 .statement}
+#### Mệnh đề 1 {#top-i-s7-prop-1 .statement tag=0B5C}
 
 *Một cơ sở lọc* $\mathfrak{B}$ *trên một không gian tôpô* $X$ *hội tụ tới* $x$ *khi và chỉ khi mọi tập hợp của một hệ cơ bản các lân cận của* $x$ *đều chứa một tập hợp của* $\mathfrak{B}$.
 
@@ -68,7 +68,7 @@ Vì thế ta có thể nói rằng *tôpô càng mịn thì trong tôpô ấy c�
 
 Cho $\Phi$ là một tập hợp các bộ lọc trên $X$, tất cả đều hội tụ đến cùng một điểm $x$; bộ lọc lân cận $\mathfrak{B}(x)$ thô hơn tất cả các bộ lọc của $\Phi$, vì thế cũng thô hơn *giao* $\mathfrak{J}$ của các bộ lọc này; nói cách khác, $\mathfrak{J}$ cũng hội tụ đến $x$.
 
-#### Mệnh đề 2 {#top-i-s7-prop-2 .statement}
+#### Mệnh đề 2 {#top-i-s7-prop-2 .statement tag=0B5D}
 
 *Một bộ lọc* $\mathfrak{F}$ *trên một không gian tôpô* $X$ *hội tụ đến một điểm* $x$ *khi và chỉ khi mọi siêu bộ lọc mịn hơn* $\mathfrak{F}$ *đều hội tụ đến* $x$.
 
@@ -78,13 +78,13 @@ Nói chung một bộ lọc có thể có *nhiều điểm giới hạn phân bi
 
 ### 2. ĐIỂM TỤ CỦA MỘT CƠ SỞ BỘ LỌC
 
-#### Định nghĩa 2 {#top-i-s7-def-2 .statement}
+#### Định nghĩa 2 {#top-i-s7-def-2 .statement tag=0B5E}
 
 *Trong một không gian tôpô* $X$, *một điểm* $x$ *là một điểm tụ của một cơ sở lọc* $\mathfrak{B}$ *trên* $X$ *nếu nó nằm trong bao đóng của mọi tập hợp thuộc* $\mathfrak{B}$.
 
 Nếu $x$ là một điểm tụ của một cơ sở lọc $\mathfrak{B}$, thì nó cũng là một điểm tụ của mọi cơ sở lọc *tương đương* theo § 6, no. 3, hệ quả của Mệnh đề 4; đặc biệt, $x$ là một điểm tụ của *bộ lọc* có cơ sở là $\mathfrak{B}$.
 
-#### Mệnh đề 3 {#top-i-s7-prop-3 .statement}
+#### Mệnh đề 3 {#top-i-s7-prop-3 .statement tag=0B5F}
 
 *Một điểm x là một điểm tụ của một cơ sở lọc B khi và chỉ khi mọi tập hợp của một hệ cơ bản các lân cận của x đều giao với mọi tập hợp của B.*
 
@@ -92,13 +92,13 @@ Nếu $x$ là một điểm tụ của một cơ sở lọc $\mathfrak{B}$, thì
 
 Mệnh đề này và Hệ quả 2 của Mệnh đề 1 ở § 6, no. 2 cho thấy tính chất "x là một điểm tụ của bộ lọc $\mathfrak{F}$" là tương đương với tính chất "tồn tại một bộ lọc mịn hơn cả $\mathfrak{F}$ lẫn bộ lọc lân cận của x". Nói cách khác:
 
-#### Mệnh đề 4 {#top-i-s7-prop-4 .statement}
+#### Mệnh đề 4 {#top-i-s7-prop-4 .statement tag=0B5G}
 
 *Một điểm x là một điểm tụ của một bộ lọc $\mathfrak{F}$ khi và chỉ khi tồn tại một bộ lọc mịn hơn $\mathfrak{F}$ và hội tụ đến x.*
 
 Đặc biệt, mọi *điểm giới hạn* của một bộ lọc $\mathfrak{F}$ đều là một *điểm tụ* của $\mathfrak{F}$.
 
-#### Hệ quả {#top-i-s7-n2-cor-1 .statement}
+#### Hệ quả {#top-i-s7-n2-cor-1 .statement tag=0B5H}
 
 *Một siêu bộ lọc $\mathfrak{U}$ hội tụ đến một điểm x khi và chỉ khi x là một điểm tụ của $\mathfrak{U}$.*
 
@@ -106,23 +106,23 @@ Nếu x là một điểm tụ của một bộ lọc $\mathfrak{F}$, thì nó c
 
 Theo định nghĩa, tập hợp các điểm tụ của một cơ sở bộ lọc $\mathfrak{B}$ trên X là tập hợp $\bigcap_{M \in \mathfrak{B}} \overline{M}$, do đó
 
-#### Mệnh đề 5 {#top-i-s7-prop-5 .statement}
+#### Mệnh đề 5 {#top-i-s7-prop-5 .statement tag=0B5I}
 
 *Tập hợp các điểm tụ của một cơ sở bộ lọc trên một không gian tôpô X là đóng trong X.*
 
-#### Mệnh đề 6 {#top-i-s7-prop-6 .statement}
+#### Mệnh đề 6 {#top-i-s7-prop-6 .statement tag=0B5J}
 
 *Cho $\mathfrak{B}$ là một cơ sở bộ lọc trên một tập con A của một không gian tôpô X. Khi đó mọi điểm tụ của $\mathfrak{B}$ trong X đều thuộc $\overline{A}$; và ngược lại mọi điểm của $\overline{A}$ đều là một điểm giới hạn của một bộ lọc trên A.*
 
 Mệnh đề thứ nhất là tầm thường; mặt khác, nếu $x \in \overline{A}$, thì vết trên A của bộ lọc lân cận của x trong X là một bộ lọc trên A hiển nhiên hội tụ đến x.
 
-#### Nhận xét {#top-i-s7-n2-rem-1 .statement}
+#### Nhận xét {#top-i-s7-n2-rem-1 .statement tag=0B5K}
 
 Một bộ lọc trên một không gian tôpô có thể không có điểm tụ nào (và *a fortiori* không có điểm giới hạn nào); ví dụ, trong một *không gian rời rạc vô hạn* thì bộ lọc các phần bù của các tập con hữu hạn không có điểm tụ nào. Các không gian mà trong đó mọi bộ lọc đều có một điểm tụ giữ một vai trò quan trọng trong toán học, và chúng ta sẽ nghiên cứu chúng trong § 9.
 
 ### 3. ĐIỂM GIỚI HẠN VÀ ĐIỂM TỤ CỦA MỘT HÀM
 
-#### Định nghĩa 3 {#top-i-s7-def-3 .statement}
+#### Định nghĩa 3 {#top-i-s7-def-3 .statement tag=0B5L}
 
 *Cho f là một ánh xạ từ một tập hợp X vào một không gian tôpô Y, và cho $\mathfrak{F}$ là một bộ lọc trên X. Một điểm $y \in Y$ được gọi là một điểm giới hạn (hoặc đơn giản là một giới hạn) (resp. điểm tụ) của f đối với bộ lọc $\mathfrak{F}$ nếu y là một điểm giới hạn (resp. điểm tụ) của cơ sở lọc $f(\mathfrak{F})$.*
 
@@ -130,12 +130,12 @@ Quan hệ "y là một giới hạn của f đối với bộ lọc $\mathfrak{F
 
 Từ Định nghĩa 3 và các Mệnh đề 1 (no. 1) và 3 (no. 2) suy ra các tiêu chuẩn sau:
 
-#### Mệnh đề 7 {#top-i-s7-prop-7 .statement}
+#### Mệnh đề 7 {#top-i-s7-prop-7 .statement tag=0B5M}
 
 *Một điểm $y \in Y$ là một giới hạn của $f$ đối với bộ lọc $\mathfrak{F}$ khi và chỉ khi, với mỗi lân cận $V$ của $y$ trong $Y$, tồn tại một tập hợp $M \in \mathfrak{F}$ sao cho $f(M) \subset V$ (nghĩa là $\overline{f}(V) \in \mathfrak{F}$ với mỗi lân cận $V$ của $y$).*
 *Một điểm $y \in Y$ là một điểm tụ của $f$ đối với bộ lọc $\mathfrak{F}$ khi và chỉ khi với mỗi lân cận $V$ của $y$ và mỗi $M \in \mathfrak{F}$ tồn tại một điểm $x \in M$ sao cho $f(x) \in V$.*
 
-#### Ví dụ 1 {#top-i-s7-n3-exa-1 .statement}
+#### Ví dụ 1 {#top-i-s7-n3-exa-1 .statement tag=0B5N}
 
 Một dãy các điểm $(x_n)_{n \in \mathbf{N}}$ của một không gian tôpô là một ánh xạ $n \to x_n$ từ $\mathbf{N}$ vào $X$. Trong giải tích người ta thường dùng các khái niệm điểm giới hạn và điểm tụ của một ánh xạ như thế *đối với bộ lọc Fréchet* (§ 6, no. 1) trên $\mathbf{N}$; nếu $y$ là một giới hạn của $n \to x_n$ đối với bộ lọc Fréchet, thì $y$ được gọi là một *giới hạn của dãy* $(x_n)$ *khi n tiến ra vô hạn*, và ta viết $\lim_{n \to \infty} x_n = y$. Một điểm tụ của ánh xạ $n \to x_n$ đối với bộ lọc Fréchet được gọi là một *điểm tụ của dãy* $(x_n)$.
 
@@ -143,13 +143,13 @@ Như vậy một điểm $y \in X$ là một giới hạn (tương ứng, điể
 
 Điểm $y$ là một giới hạn của một dãy $(x_n)$ trong $X$ khi và chỉ khi, với *mọi* lân cận $V$ của $y$ trong $X$, *mọi số hạng trừ một số hữu hạn của dãy* $(x_n)$ *đều thuộc* $V$, tức là tồn tại một số nguyên $n_0$ sao cho $x_n \in V$ với mọi $n \geq n_0$. Tương tự, $y$ là một điểm tụ của dãy $(x_n)$ khi và chỉ khi, với *mọi* lân cận $V$ của $y$ trong $X$ và *mọi* số nguyên $n_0$, tồn tại một số nguyên $n \geq n_0$ sao cho $x_n \in V$.
 
-#### Ví dụ 2 {#top-i-s7-n3-exa-2 .statement}
+#### Ví dụ 2 {#top-i-s7-n3-exa-2 .statement tag=0B5O}
 
 Nói chung hơn, cho $f$ là một ánh xạ từ một tập hợp *có hướng* $A$ vào một không gian tôpô $X$. Nếu $x \in X$ là một giới hạn (tương ứng, điểm tụ) của $f$ đối với *bộ lọc tiết diện* của $A$ thì nói rằng $x$ là một *giới hạn* (tương ứng, *điểm tụ*) của $f$ *đối với tập có hướng* $A$, và ta viết $x = \lim_{z \in A} f(z)$.
 
 Nếu $y$ là một giới hạn (tương ứng, điểm tụ) của một ánh xạ $f : X \to Y$ đối với một bộ lọc $\mathfrak{F}$ trên $X$, thì $y$ vẫn là một giới hạn (tương ứng, điểm tụ) của $f$ đối với $\mathfrak{F}$ nếu ta thay thế tôpô của $Y$ bằng một tôpô *thô hơn*, hoặc nếu ta thay thế bộ lọc $\mathfrak{F}$ bằng một bộ lọc *mịn hơn* (tương ứng, *thô hơn*).
 
-#### Mệnh đề 8 {#top-i-s7-prop-8 .statement}
+#### Mệnh đề 8 {#top-i-s7-prop-8 .statement tag=0B5P}
 
 *Cho $f$ là một ánh xạ từ một tập hợp $X$ vào một không gian tôpô $Y$; khi đó $y \in Y$ là một điểm tụ của $f$ đối với $\mathfrak{F}$ nếu và chỉ nếu tồn tại một bộ lọc $\mathfrak{G}$ trên $X$ mịn hơn $\mathfrak{F}$ và sao cho $y$ là một giới hạn của $f$ đối với $\mathfrak{G}$.*
 
@@ -157,7 +157,7 @@ Vì nếu $y$ là một điểm tụ của $f$ đối với $\mathfrak{F}$, và 
 
 Sau cùng, hãy lưu ý rằng nếu $f$ là một ánh xạ của một tập hợp $X$ vào một không gian tôpô $Y$, thì tập hợp các điểm tụ của $f$ đối với một bộ lọc $\mathfrak{F}$ trên $X$ là *đóng* trong $Y$ (no. 2, Mệnh đề 5) và có thể rỗng.
 
-#### Nhận xét {#top-i-s7-n3-rem-1 .statement}
+#### Nhận xét {#top-i-s7-n3-rem-1 .statement tag=0B5Q}
 
 Nếu $y \in Y$ là một giới hạn (tương ứng, điểm tụ) của một ánh xạ $f : X \to Y$ đối với một bộ lọc $\mathfrak{F}$ trên $X$, thì $y$ cũng là một giới hạn (tương ứng, điểm tụ) của mọi hàm $g : X \to Y$ có *cùng mầm* với $f$ đối với $\mathfrak{F}$ (§ 6, no. 9); khi đó nói rằng $y$ là một *giới hạn* (tương ứng, *điểm tụ*) *của mầm* $\tilde{f}$ *của* $f$ đối với $\mathfrak{F}$.
 
@@ -173,17 +173,17 @@ và ta nói rằng $y$ là *giới hạn của* $f$ *tại điểm* $a$, hoặc 
 
 Việc xét định nghĩa của tính liên tục (§ 2, no. 1, Định nghĩa 1) và Mệnh đề 7 của no. 3 cho thấy rằng:
 
-#### Mệnh đề 9 {#top-i-s7-prop-9 .statement}
+#### Mệnh đề 9 {#top-i-s7-prop-9 .statement tag=0B5R}
 
 *Một ánh xạ* $f$ *từ một không gian tôpô* $X$ *vào một không gian tôpô* $Y$ *liên tục tại điểm* $a \in X$ *khi và chỉ khi* $\lim_{i \in I} f(x) = f(a)$.
 
-#### Hệ quả 1 {#top-i-s7-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#top-i-s7-prop-9-cor-1 .statement tag=0B5S}
 
 *Cho* $X, Y$ *là hai không gian tôpô, $f$ là một ánh xạ của* $X$ *vào* $Y$ *liên tục tại một điểm* $a \in X$; *khi đó, với mọi cơ sở lọc* $\mathfrak{B}$ *trên* $X$ *hội tụ đến* $a$, *cơ sở lọc* $f(\mathfrak{B})$ *hội tụ đến* $f(a)$. *Ngược lại, nếu với mọi siêu lọc* $\mathfrak{U}$ *trên* $X$ *hội tụ đến* $a$, *cơ sở siêu lọc* $f(\mathfrak{U})$ *hội tụ đến* $f(a)$, *thì* $f$ *liên tục tại* $a$.
 
 Mệnh đề thứ nhất là một hệ quả ngay lập tức của Mệnh đề 9. Để chứng minh mệnh đề thứ hai, giả sử rằng $f$ không liên tục tại $a$; khi đó tồn tại một lân cận W của $f(a)$ trong Y sao cho $\overline{f}^{-1}(W)$ không thuộc bộ lọc $\mathfrak{B}$ các lân cận của $a$ trong X. Do đó (§ 6, no. 4, Mệnh đề 7) tồn tại một siêu bộ lọc $\mathfrak{U}$, mịn hơn $\mathfrak{B}$, không chứa $\overline{f}^{-1}(W)$ và vì thế chứa phần bù của nó $A = X - \overline{f}^{-1}(W)$ (§ 6, no. 4, Mệnh đề 5); vì $f(A) \cap W = \varnothing$, $f(\mathfrak{U})$ không hội tụ tới $f(a)$.
 
-#### Hệ quả 2 {#top-i-s7-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#top-i-s7-prop-9-cor-2 .statement tag=0B5T}
 
 *Nếu g là một ánh xạ từ một tập hợp Z vào một không gian tôpô X, có giới hạn a đối với một bộ lọc $\mathfrak{F}$ trên Z, thì nếu ánh xạ $f : X \to Y$ liên tục tại a, hợp thành $f \circ g$ có $f(a)$ làm một điểm giới hạn đối với $\mathfrak{F}$.*
 
@@ -217,7 +217,7 @@ Cho $a$ là một điểm *không cô lập* của X, sao cho $a$ thuộc bao đ
 
 ### 6. GIỚI HẠN TRONG CÁC KHÔNG GIAN TÍCH VÀ CÁC KHÔNG GIAN THƯƠNG
 
-#### Mệnh đề 10 {#top-i-s7-prop-10 .statement}
+#### Mệnh đề 10 {#top-i-s7-prop-10 .statement tag=0B5U}
 
 Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Cho $X$ được trang bị tôpô thô nhất $\mathfrak{T}$ sao cho các $f_i$ là liên tục. Khi đó, điều kiện cần và đủ để một bộ lọc $\mathfrak{F}$ trên $X$ hội tụ đến $a \in X$ là, với mỗi $i \in I$, cơ sở bộ lọc $f_i(\mathfrak{F})$ hội tụ đến $f_i(a)$ trong $Y_i$.
 
@@ -231,15 +231,15 @@ M = \bigcap_{i \in J} f_i^{-1}(U_i)
 $$
 thuộc $\mathfrak{F}$, và $M \subset V$. Điều này hoàn thành chứng minh.
 
-#### Hệ quả 1 {#top-i-s7-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#top-i-s7-prop-10-cor-1 .statement tag=0B5V}
 
 Một bộ lọc $\mathfrak{F}$ trên một không gian tích $X = \prod_{i \in I} X_i$ hội tụ đến một điểm $x$ khi và chỉ khi với mỗi $i \in I$ cơ sở lọc $\operatorname{pr}_i(\mathfrak{F})$ hội tụ đến $\operatorname{pr}_i(x)$.
 
-#### Hệ quả 2 {#top-i-s7-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#top-i-s7-prop-10-cor-2 .statement tag=0B5W}
 
 Cho $f = (f_i)$ là một ánh xạ từ một tập hợp $X$ vào một không gian tích $Y = \prod_{i \in I} Y_i$. Khi đó $f$ có giới hạn $y = (y_i)$ đối với một bộ lọc $\mathfrak{F}$ trên $X$ nếu và chỉ nếu với mọi $i \in I$ thì $f_i$ có giới hạn $y_i$ đối với $\mathfrak{F}$.
 
-#### Mệnh đề 11 {#top-i-s7-prop-11 .statement}
+#### Mệnh đề 11 {#top-i-s7-prop-11 .statement tag=0B5X}
 
 Cho $R$ là một quan hệ tương đương mở trên một không gian tôpô $X$ và gọi $\varphi$ là ánh xạ chính tắc $X \to X/R$. Khi đó, với mỗi $x \in X$ và mỗi cơ sở bộ lọc $\mathfrak{B}'$ trên $X/R$ hội tụ đến $\varphi(x)$, tồn tại một cơ sở bộ lọc $\mathfrak{B}$ trên $X$ hội tụ đến $x$ và sao cho $\varphi(\mathfrak{B})$ tương đương với $\mathfrak{B}'$.
 

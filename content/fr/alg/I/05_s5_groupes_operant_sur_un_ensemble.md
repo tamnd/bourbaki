@@ -41,14 +41,14 @@ subsections:
       pdf_page: 69
 statements: 41
 exercises: 29
-content_sha256: 688c7c52037a8d03be1fa07dc3f24bddf0190f059762ac6c561f8c9b2ea072cf
+content_sha256: 18f2d46801ad20106b14cbb1478e6d000743bda2e0205e499ae7d76b6207bc19
 ---
 
 ## § 5. GROUPES OPÉRANT SUR UN ENSEMBLE
 
 ### 1. Monoïde opérant sur un ensemble
 
-#### Définition 1 {#alg-i-s5-def-1 .statement}
+#### Définition 1 {#alg-i-s5-def-1 .statement tag=05B1}
 
 *Soient M un monoïde, de loi notée multiplicativement et d’élément neutre noté e, et E un ensemble. On dit qu’une action $\alpha \mapsto f_\alpha$ de M sur E est une opération à gauche (resp. à droite) de M sur E si l’on a $f_e = \mathrm{Id}_E$ et $f_{\alpha \beta} = f_\alpha \circ f_\beta$ (resp. $f_{\alpha \beta} = f_\beta \circ f_\alpha$) quels que soient $\alpha, \beta$ dans M.*
 
@@ -64,11 +64,11 @@ Sous ces conditions, on dit encore que M *opère à gauche* (resp. *à droite*) 
 
 Soit M un monoïde; un ensemble E muni d’une opération à gauche (resp. à droite) de M sur E est appelé un *M-ensemble* à gauche (resp. à droite). On dit que le monoïde M opère à gauche (resp. à droite) *fidèlement* si l’application $\alpha \mapsto f_\alpha$ de M dans $E^E$ est injective.
 
-#### Exemple 1 {#alg-i-s5-n1-exa-1 .statement}
+#### Exemple 1 {#alg-i-s5-n1-exa-1 .statement tag=05B2}
 
 Soit E un ensemble; l’action canonique de $E^E$ sur E (I, p. 24, *Exemple 3*) est une opération à gauche.
 
-#### Exemple 2 {#alg-i-s5-n1-exa-2 .statement}
+#### Exemple 2 {#alg-i-s5-n1-exa-2 .statement tag=0DE8}
 
 Soit M un monoïde. L’action à gauche (resp. à droite) de M sur lui-même déduite de la loi de M (I, p. 24, *Exemple 7*) est une opération à gauche (resp. à droite) de M sur lui-même. Lorsqu’on considère cette opération, on dit que M opère sur lui-même *par translations à gauche* (resp. *à droite*).
 
@@ -80,7 +80,7 @@ Soit E un ensemble. Soit G un groupe opérant sur E. Pour tout $\alpha$ dans G, 
 
 Conformément à I, p. 24, on pose la définition suivante:
 
-#### Définition 2 {#alg-i-s5-def-2 .statement}
+#### Définition 2 {#alg-i-s5-def-2 .statement tag=05B3}
 
 *Soient M un monoïde, E et E' des M-ensembles. On appelle homomorphisme de M-ensembles (ou M-morphisme, ou application compatible avec les opérations de M) une application f de E dans E' telle que, pour tout $x \in E$ et tout $\alpha \in M$, on ait $f(\alpha . x) = \alpha . f(x)$.*
 
@@ -102,20 +102,20 @@ Par exemple, soient $K$ et $L$ deux échelons sur $F_1, F_2, F_3$; prenons pour 
 
 ### 2. Stabilisateur, fixateur
 
-#### Définition 3 {#alg-i-s5-def-3 .statement}
+#### Définition 3 {#alg-i-s5-def-3 .statement tag=05B4}
 
 Soient $M$ un monoïde opérant sur un ensemble $E$, $A$ et $B$ des parties de $E$. On appelle transporteur (resp. transporteur strict) de $A$ dans $B$ l’ensemble des $\alpha \in M$ tels que $\alpha A \subset B$ (resp. $\alpha A = B$). Le transporteur (resp. transporteur strict) de $A$ dans $A$ est appelé le stabilisateur (resp. stabilisateur strict) de $A$. On appelle fixateur de $A$ l’ensemble des $\alpha \in M$ tels que $\alpha a = a$ pour tout $a \in A$.
 
 On dit qu’un élément $\alpha$ de $M$ stabilise (resp. stabilise strictement, resp. fixe) une partie A de E si $\alpha$ appartient au stabilisateur (resp. au stabilisateur strict, resp. au fixateur) de A. On dit qu’une partie P de M stabilise (resp. stabilise strictement, resp. fixe) une partie A de E si tous les éléments de P stabilisent (resp. stabilisent strictement, resp. fixent) A. Le fixateur de A est contenu dans le stabilisateur strict de A qui est lui-même contenu dans le stabilisateur de A.
 
-#### Proposition 1 {#alg-i-s5-prop-1 .statement}
+#### Proposition 1 {#alg-i-s5-prop-1 .statement tag=05B5}
 
 *Soient M un monoïde opérant sur un ensemble E et A une partie de E.*
     a) *Le stabilisateur, le stabilisateur strict et le fixateur de A sont des sous-monoïdes de M.*
     b) *Soit $\alpha$ un élément inversible de M ; si $\alpha$ appartient au stabilisateur strict (resp. au fixateur) de A, il en est de même de $\alpha^{-1}$.*
     Soit e l’élément neutre de M ; on a $ea = a$ pour tout élément $a \in A$ et par suite e appartient au fixateur de A. Soient $\alpha$ et $\beta$ des éléments de E qui stabilisent A. On a $(\alpha\beta)A = \alpha(\beta A) \subset \alpha A \subset A$ et par suite le stabilisateur de A est un sous-monoïde de M. De même pour le stabilisateur strict et le fixateur de A, d’où a). Si $\alpha A = A$, on a $A = \alpha^{-1}(\alpha A) = \alpha^{-1}A$. Si pour tout $a \in A$, on a $\alpha a = a$, on a $a = \alpha^{-1}(\alpha a) = \alpha^{-1}a$, d’où b).
 
-#### Corollaire {#alg-i-s5-n2-cor-1 .statement}
+#### Corollaire {#alg-i-s5-n2-cor-1 .statement tag=05B6}
 
 *Soient G un groupe opérant sur un ensemble E, et A une partie de E. Le stabilisateur strict S et le fixateur F de A sont des sous-groupes de G, et F est un sous-groupe distingué de S.*
     La première assertion découle de la prop. 1, et F est le noyau de l’homomorphisme de S dans $\mathfrak{S}_A$ associé à l’opération de S sur A.
@@ -124,7 +124,7 @@ Un groupe G opère fidèlement sur un ensemble E si et seulement si le fixateur 
 
 Soient M un monoïde, E un M-ensemble, $a$ un élément de E. Le fixateur, le stabilisateur strict et le stabilisateur de $\{a\}$ sont égaux ; ce sous-monoïde est appelé indifféremment le fixateur ou le stabilisateur de $a$. Le fixateur d’une partie A de E est l’intersection des fixateurs des éléments de A. On dit que $a$ est un élément *invariant* de E si le fixateur de $a$ est le monoïde M. On dit que M opère *trivialement* sur E si tout élément de E est invariant.
 
-#### Proposition 2 {#alg-i-s5-prop-2 .statement}
+#### Proposition 2 {#alg-i-s5-prop-2 .statement tag=05B7}
 
 *Soit G un groupe opérant sur un ensemble E et, pour tout $x \in E$, soit $S_x$ le stabilisateur de x. Pour tout $\alpha \in G$, on a $S_{\alpha x} = \alpha S_x \alpha^{-1}$.*
     Si $s \in S_x$, on a $\alpha s \alpha^{-1}(\alpha x) = \alpha s x = \alpha x$, d’où $\alpha S_x \alpha^{-1} \subset S_{\alpha x}$. Comme $x = \alpha^{-1}(\alpha x)$, on a $\alpha^{-1} S_{\alpha x} \alpha \subset S_x$, d’où $S_{\alpha x} \subset \alpha S_x \alpha^{-1}$.
@@ -135,7 +135,7 @@ On voit de même que, si A et B sont deux parties de E et T le transporteur (res
 
 Soit G un groupe. L’ensemble Aut(G) des automorphismes du groupe G est un sous-groupe de $\mathfrak{S}_G$ (I, p. 29, Exemple 2)
 
-#### Proposition 3 {#alg-i-s5-prop-3 .statement}
+#### Proposition 3 {#alg-i-s5-prop-3 .statement tag=05B8}
 
 Soit G un groupe. Pour tout élément x de G, l’application Int(x): $y \mapsto xyx^{-1}$ de G dans lui-même est un automorphisme de G. L’application Int: $x \mapsto \operatorname{Int}(x)$ de G dans Aut(G) est un homomorphisme de groupes, dont le noyau est le centre de G et dont l’image Int(G) est un sous-groupe distingué de Aut(G).
 
@@ -153,7 +153,7 @@ $$
 
 D’où $\alpha \cdot \operatorname{Int}(G) \cdot \alpha^{-1} \subset \operatorname{Int}(G)$.
 
-#### Définition 4 {#alg-i-s5-def-4 .statement}
+#### Définition 4 {#alg-i-s5-def-4 .statement tag=05B9}
 
 Soient G un groupe et $x \in G$. L’automorphisme $y \mapsto xyx^{-1}$ est appelé l’automorphisme intérieur de G défini par x, et est noté Int x.
 
@@ -163,7 +163,7 @@ Un sous-groupe de G est distingué si et seulement s’il est stable par tous le
 
 Le centre d’un groupe G n’est pas nécessairement stable par tous les endomorphismes de G (I, p. 132, exerc. 22). En particulier, le centre d’un groupe à opérateurs n’est pas nécessairement un sous-groupe stable.
 
-#### Proposition 4 {#alg-i-s5-prop-4 .statement}
+#### Proposition 4 {#alg-i-s5-prop-4 .statement tag=05BA}
 
 Soient G un groupe, H un sous-groupe caractéristique (resp. distingué) de G, K un sous-groupe caractéristique de H. Alors K est un sous-groupe caractéristique (resp. distingué) de G.
 
@@ -173,17 +173,17 @@ Soient G un groupe, A $\subset G$ et $b \in G$. On dit que b normalise A si $bAb
 
 L’ensemble des $g \in G$ qui normalisent (resp. centralisent) A est appelé le normalisateur (resp. centralisateur, ou commutant) de A (cf. I, p. 7, déf. 9); on le note souvent $N_G(A)$ ou simplement $N(A)$ (resp. $C_G(A)$ ou $C(A)$). C’est un sous-groupe de G. Lorsque A est un sous-groupe de G, on peut caractériser $N_G(A)$ comme le plus grand sous-groupe de G qui contienne A et dans lequel A soit distingué.
 
-#### Remarque 1 {#alg-i-s5-n3-rem-1 .statement}
+#### Remarque 1 {#alg-i-s5-n3-rem-1 .statement tag=05BB}
 
 Le normalisateur (resp. le centralisateur) de A est le stabilisateur strict (resp. le fixateur) de A lorsqu’on fait opérer G sur lui-même par automorphismes intérieurs. En particulier, le centralisateur est un sous-groupe distingué du normalisateur.
 
-#### Remarque 2 {#alg-i-s5-n3-rem-2 .statement}
+#### Remarque 2 {#alg-i-s5-n3-rem-2 .statement tag=0DE9}
 
 L’ensemble des éléments $b \in G$ tels que $bAb^{-1} \subset A$ est un sous-monoïde de G. Même lorsque A est un sous-groupe de G, cet ensemble n’est pas nécessairement un sous-groupe de G (I, p. 134, exerc. 27).
 
 ### 4. Orbites
 
-#### Définition 5 {#alg-i-s5-def-5 .statement}
+#### Définition 5 {#alg-i-s5-def-5 .statement tag=05BC}
 
 Soient G un groupe, E un G-ensemble, et $x \in E$. On dit qu’un élément $y \in E$ est conjugué à x par l’opération de G s’il existe un élément $\alpha \in G$ tel que $y = \alpha x$. L’ensemble des éléments conjugués à x est appelé l’orbite de x dans E.
 
@@ -195,11 +195,11 @@ L’application $\alpha \mapsto \alpha x$ de G dans E est parfois appelée l’a
 
 On dit que G opère librement sur E si pour tout $x \in E$, l’application orbitale définie par x est injective ou encore si l’application $(g, x) \mapsto (gx, x)$ de $G \times E$ dans $E \times E$ est injective.
 
-#### Exemple 1 {#alg-i-s5-n4-exa-1 .statement}
+#### Exemple 1 {#alg-i-s5-n4-exa-1 .statement tag=05BD}
 
 Soit G un groupe, et considérons l’opération de G sur lui-même par automorphismes intérieurs. Deux éléments de G conjugués pour cette opération sont dits conjugués par automorphismes intérieurs ou simplement conjugués. Les orbites sont appelées classes de conjugaison. De même, deux parties H et $H'$ de G sont dites conjuguées s’il existe un élément $\alpha \in G$ tel que $H' = \alpha.H.\alpha^{-1}$, c’est-à-dire si elles sont conjuguées pour l’extension à $\mathfrak{P}(G)$ de l’opération de G sur lui-même par automorphismes intérieurs.
 
-#### Exemple 2 {#alg-i-s5-n4-exa-2 .statement}
+#### Exemple 2 {#alg-i-s5-n4-exa-2 .statement tag=0DEA}
 
 \* Dans l’espace $\mathbf{R}^n$, l’orbite d’un point x pour l’opération du groupe orthogonal $\mathbf{O}(n, \mathbf{R})$ est la sphère euclidienne de rayon $\|x\|_*$.
 
@@ -241,39 +241,39 @@ Soient G un groupe, H et K deux sous-groupes de G. Faisons opérer H à gauche s
 
 ### 5. Ensembles homogènes
 
-#### Définition 6 {#alg-i-s5-def-6 .statement}
+#### Définition 6 {#alg-i-s5-def-6 .statement tag=05BE}
 
 Soit G un groupe. On dit qu’une opération de G sur un ensemble E est transitive s’il existe un élément x ∈ E dont l’orbite soit E. Un G-ensemble E est dit homogène si l’opération de G sur E est transitive.
 
 On dit aussi que G opère transiti vement sur E; ou que E est un ensemble homogène sous G. Il revient au même de dire que E n’est pas vide et que, quels que soient les éléments x et y de E, il existe un élément α ∈ G tel que α.x = y.
 
-#### Exemple {#alg-i-s5-n5-exa-4 .statement}
+#### Exemple {#alg-i-s5-n5-exa-4 .statement tag=0DEB}
 
 Si E est un G-ensemble, chaque orbite de E, munie de l’opération induite, est un ensemble homogène sous G.
 
 Soient G un groupe et H un sous-groupe de G. Considérons l’ensemble G/H des classes à gauche suivant H. Le groupe G opère à gauche sur G/H par (g, xH) ↦ gxH. Soit N le normalisateur de H. Le groupe N opère à droite sur G/H par (xH, n) ↦ xHn = xnH. Cette opération induit sur H l’opération triviale, donc, par passage au quotient, N/H opère à droite sur G/H. Soit φ : (N/H)^0 → S_{G/H} l’homomorphisme correspondant à cette opération.
 
-#### Proposition 5 {#alg-i-s5-prop-5 .statement}
+#### Proposition 5 {#alg-i-s5-prop-5 .statement tag=05BG}
 
 Avec les notations ci-dessus, G/H est un G-ensemble homogène. L’application φ induit un isomorphisme de (N/H)^0 sur le groupe des automorphismes du G-ensemble G/H.
 
 L’orbite dans G/H de l’élément e = H est G/H, d’où la première assertion. Démontrons la seconde. Si n ∈ N définit par translation à droite l’application identique de G/H, on a e.n = e, soit H.n = H, d’où n ∈ H. Par suite, N/H opère à droite fidèlement sur G/H et φ est injectif. Les opérations de G à gauche et de N/H à droite sur G/H commutent, donc les opérateurs de N/H définissent des G-morphismes de G/H dans lui-même, qui sont nécessairement des G-automorphismes car ils sont bijectifs. Par suite, φ prend ses valeurs dans le groupe Φ des G-automorphismes de G/H. Montrons que l’image de φ est Φ. Soit f ∈ Φ. Par transport de structure, le stabilisateur de f(e) dans G est égal au stabilisateur de e, donc à H. Soit n ∈ G tel que f(e) = ne. Le stabilisateur de ne dans G est nHn^{-1} (I, p. 52, prop. 2), d’où nHn^{-1} = H, et n ∈ N. Pour tout élément xH de G/H, on a f(xH) = f(x.e) = x.f(e) = xnH = xHn, et f coïncide avec l’application définie par n.
 
-#### Remarque 1 {#alg-i-s5-n5-rem-1 .statement}
+#### Remarque 1 {#alg-i-s5-n5-rem-1 .statement tag=05BH}
 
 Soient G un groupe, H un sous-groupe de G et $\varphi : G \to \mathscr{S}_{G/H}$ l’opération de G sur G/H. Le noyau de $\varphi$ est l’intersection des conjugués de H (I, p. 52, prop. 2). C’est aussi le plus grand sous-groupe distingué contenu dans H (I, p. 54). En particulier, G opère fidèlement sur G/H si et seulement si l’intersection des conjugués de H est réduite à e.
 
-#### Remarque 2 {#alg-i-s5-n5-rem-2 .statement}
+#### Remarque 2 {#alg-i-s5-n5-rem-2 .statement tag=0DEC}
 
 Soient G un groupe, H et K deux sous-groupes tels que H soit un sous-groupe distingué de K. Alors K/H opère à droite sur le G-ensemble G/H et l’application canonique de G/H sur G/K définit par passage au quotient un isomorphisme de G-ensembles $(G/H)/(K/H) \to G/K$ (cf. I, p. 55).
 
-#### Proposition 6 {#alg-i-s5-prop-6 .statement}
+#### Proposition 6 {#alg-i-s5-prop-6 .statement tag=05BI}
 
 Soient G un groupe, E un G-ensemble homogène, $a \in E$, H le stabilisateur de a, K un sous-groupe de G contenu dans H. Il existe un et un seul G-morphisme f de G/K dans E tel que $f(K) = a$ et f est surjectif. Si K = H, f est un isomorphisme.
 
 Si f répond à la question, on a $f(x.K) = x.a$ pour tout x de G, d’où l’unicité; démontrons l’existence. L’application orbitale définie par a est compatible avec la relation d’équivalence $y \in xK$ dans G. En effet, si $y = xk, k \in K$, on a $y.a = xk.a = x.a$. On en déduit donc une application f de G/K dans E qui vérifie $f(x.K) = x.a$ pour tout x de G. Cette application est un G-morphisme et $f(K) = a$. Cette application est surjective car son image est une partie stable non vide de E. Supposons maintenant que K = H et montrons que f est injective. Si $f(x.H) = f(y.H)$, on a $x.a = y.a$ d’où $x^{-1}y.a = a$ et $x^{-1}y \in H$, d’où $x.H = y.H$.
 
-#### Théorème 1 {#alg-i-s5-thm-1 .statement}
+#### Théorème 1 {#alg-i-s5-thm-1 .statement tag=05BJ}
 
 Soit G un groupe.
 
@@ -283,11 +283,11 @@ b) Soient H et H’ deux sous-groupes de G. Les G-ensembles G/H et G/H’ sont i
 
 Comme un G-ensemble homogène n’est pas vide, l’assertion a) résulte de la prop. 6. Démontrons b). Soit $f : G/H \to G/H'$ un isomorphisme de G-ensembles. Le sous-groupe H est le stabilisateur de H, donc, par transport de structure, le stabilisateur d’un élément de G/H’. Les sous-groupes H et H’ sont donc conjugués (I, p. 52, prop. 2). Si $H' = \alpha H \alpha^{-1}$, H’ est le stabilisateur de l’élément $\alpha.H$ de G/H (I, p. 52, prop. 2), donc G/H’ est isomorphe à G/H (prop. 6).
 
-#### Exemple 1 {#alg-i-s5-n5-exa-1 .statement}
+#### Exemple 1 {#alg-i-s5-n5-exa-1 .statement tag=05BF}
 
 Soit E un ensemble non vide. Le groupe $\mathscr{S}_E$ opère transitivement sur E. En effet, si x et y sont deux éléments de E, l’application $\tau : E \to E$, telle que $\tau(x) = y, \tau(y) = x$ et $\tau(z) = z$ pour $z \neq x, y$, est une permutation de E. Soit $a \in E$. Le stabilisateur de a s’identifie à $\mathscr{S}_F$, où $F = E - \{a\}$. Le $\mathscr{S}_E$-ensemble homogène E est donc isomorphe à $\mathscr{S}_E/\mathscr{S}_F$.
 
-#### Exemple 2 {#alg-i-s5-n5-exa-2 .statement}
+#### Exemple 2 {#alg-i-s5-n5-exa-2 .statement tag=05BK}
 
 Soient E un ensemble à n éléments et $(p_i)_{i \in I}$ une famille finie d’entiers > 0 telle que $\sum_i p_i = n$. Soit X l’ensemble des partitions $(F_i)_{i \in I}$ de E telles que Card$(F_i) = p_i$ pour tout i. Le groupe $\mathscr{S}_E$ opère transitivement sur X. Le stabilisateur H d’un élément $(F_i)_{i \in I}$ de X est canoniquement isomorphe à $\prod_{i \in I} \mathscr{S}_{F_i}$, donc d’ordre $\prod_{i \in I} p_i!$.
 
@@ -304,13 +304,13 @@ F_i = \{p_1 + \cdots + p_{i-1} + 1, \ldots, p_1 + \cdots + p_i\}
 $$
 pour $1 \leq i \leq r$. Soit S l’ensemble des $\tau \in \mathfrak{S}_E$ tels que $\tau|F_i$ soit croissante pour $1 \leq i \leq r$. Si $(G_1, \ldots, G_r) \in X$ il existe une $\tau \in S$ et une seule qui transforme $(F_1, \ldots, F_r)$ en $(G_1, \ldots, G_r)$. Autrement dit, chaque classe à gauche de $\mathfrak{S}_E$ suivant H rencontre S en un point et un seul.
 
-#### Exemple 3 {#alg-i-s5-n5-exa-3 .statement}
+#### Exemple 3 {#alg-i-s5-n5-exa-3 .statement tag=0DED}
 
 \* Soit $n$ un entier $\geq 1$. Le groupe orthogonal $\mathbf{O}(n, \mathbf{R})$ opère transitivement sur la sphère unité $S_{n-1}$ de $\mathbf{R}^n$. Le stabilisateur du point $(0, \ldots, 0, 1)$ s’identifie au groupe orthogonal $\mathbf{O}(n-1, \mathbf{R})$. Le $\mathbf{O}(n, \mathbf{R})$-ensemble homogène $S_{n-1}$ est donc isomorphe à $\mathbf{O}(n, \mathbf{R})/\mathbf{O}(n-1, \mathbf{R})$.*
 
 ### 6. Ensembles principaux homogènes
 
-#### Définition 7 {#alg-i-s5-def-7 .statement}
+#### Définition 7 {#alg-i-s5-def-7 .statement tag=05BL}
 
 Soit G un groupe. On dit qu’une opération de G sur un ensemble E est simplement transitive s’il existe un élément x de E tel que l’application orbitale définie par x soit une bijection. Un ensemble E muni d’une opération à gauche simplement transitive de G sur E est appelé G-ensemble principal homogène à gauche (ou ensemble principal homogène à gauche sous G).
 
@@ -324,19 +324,19 @@ La condition (ii) est encore équivalente à la condition suivante:
 
 Nous laissons au lecteur le soin de définir les G-ensembles principaux homogènes à droite.
 
-#### Exemple 1 {#alg-i-s5-n6-exa-1 .statement}
+#### Exemple 1 {#alg-i-s5-n6-exa-1 .statement tag=05BM}
 
 Faisons opérer G sur lui-même par translations à gauche (resp. à droite). On définit ainsi sur l’ensemble G une structure de G-ensemble principal homogène à gauche (resp. à droite), qu’on note parfois $G_s$ (resp. $G_d$).
 
-#### Exemple 2 {#alg-i-s5-n6-exa-2 .statement}
+#### Exemple 2 {#alg-i-s5-n6-exa-2 .statement tag=0DEE}
 
 Soit E un ensemble homogène sous un groupe commutatif G. Si G opère fidèlement sur E, celui-ci est un G-ensemble principal homogène.
 
-#### Exemple 3 {#alg-i-s5-n6-exa-3 .statement}
+#### Exemple 3 {#alg-i-s5-n6-exa-3 .statement tag=0DEF}
 
 Soient E et F deux ensembles munis de structures de même espèce isomorphes, et soit Isom(E, F) l’ensemble des isomorphismes de E sur F (pour les structures données). Le groupe Aut(E) des automorphismes de E (muni de la structure donnée) opère à droite sur Isom(E, F) par la loi $(\sigma, f) \mapsto f \circ \sigma$ et Isom(E, F) est un Aut(E)-ensemble principal homogène à droite. De même, le groupe Aut(F) opère à gauche sur Isom(E, F) par la loi $(\sigma, f) \mapsto \sigma \circ f$ et Isom(E, F) est un Aut(F)-ensemble principal homogène à gauche.
 
-#### Exemple 4 {#alg-i-s5-n6-exa-4 .statement}
+#### Exemple 4 {#alg-i-s5-n6-exa-4 .statement tag=0DEG}
 
 \* Un ensemble principal homogène sous le groups additif d’un espace vectoriel est appelé un espace affine (cf. II, p. 126).*
 
@@ -368,7 +368,7 @@ $$
 
 Si E est un ensemble fini à $n$ éléments, le groupe symétrique $\mathfrak{S}_E$ (I, p. 29) est un groupe fini d’ordre $n!$. Lorsque E est l’intervalle $\{1, n\}$ de l’ensemble $\mathbf{N}$ des entiers naturels, le groupe symétrique correspondant se note $\mathfrak{S}_n$; le groupe symétrique d’un ensemble quelconque à $n$ éléments est isomorphe à $\mathfrak{S}_n$.
 
-#### Définition 8 {#alg-i-s5-def-8 .statement}
+#### Définition 8 {#alg-i-s5-def-8 .statement tag=05BN}
 
 Soient E un ensemble fini, $\zeta \in \mathfrak{S}_E$ une permutation de E, $\bar{\zeta}$ le sous-groupe de $\mathfrak{S}_E$ engendré par $\zeta$. On dit que $\zeta$ est un cycle si, pour l’opération de $\bar{\zeta}$ sur E, il existe une orbite et une seule qui ne soit pas réduite à un élément. Cette orbite est appelée le support de $\zeta$.
 
@@ -376,7 +376,7 @@ Soit $\zeta$ un cycle. Le support de $\zeta$, noté $\mathrm{supp}(\zeta)$ est l
 
 L’ordre d’un cycle $\zeta$ est égal au cardinal de son support. En effet, le sous-groupe $\bar{\zeta}$ engendré par $\zeta$ opère transitiivement et fidèlement sur $\mathrm{supp}(\zeta)$. Comme $\bar{\zeta}$ est commutatif, $\mathrm{supp}(\zeta)$ est un ensemble principal sous $\bar{\zeta}$ (I, p. 58, Exemple 2), donc $\mathrm{Card}(\mathrm{supp}(\zeta)) = \mathrm{Card}(\bar{\zeta})$.
 
-#### Lemme 1 {#alg-i-s5-lem-1 .statement}
+#### Lemme 1 {#alg-i-s5-lem-1 .statement tag=05BO}
 
 Soit $(\zeta_i)_{i \in I}$ une famille de cycles dont les supports $S_i$ sont deux à deux disjoints. Alors les $\zeta_i$ sont deux à deux permutables. Posons $\sigma = \prod_{i \in I} \zeta_i$ et soit $\bar{\sigma}$ le sous-groupe engendré par $\sigma$. On a $\sigma(x) = \zeta_i(x)$ pour $x \in S_i, i \in I$, et $\sigma(x) = x$ pour $x \notin \bigcup_{i \in I} S_i$. L’application $i \mapsto S_i$ est une bijection de I sur l’ensemble des $\bar{\sigma}$-orbites non réduites à un élément.
 
@@ -386,7 +386,7 @@ x \notin \operatorname{supp}(\zeta) \cup \operatorname{supp}(\zeta'),
 $$
 on a $\zeta \zeta'(x) = \zeta' \zeta(x) = x$. Si $x$ appartient au support de $\zeta$, on a $\zeta'(x) = x$ et $\zeta(x)$ appartient au support de $\zeta$, d’où $\zeta \zeta'(x) = \zeta' \zeta(x) = \zeta(x)$. De même lorsque $x$ appartient au support de $\zeta'$, on a $\zeta' \zeta(x) = \zeta \zeta'(x) = \zeta'(x)$. Donc $\zeta \zeta' = \zeta' \zeta$. Par suite, les $\zeta_i$ sont deux à deux permutables, et pour $i \in I$ et $x \in S_i$, on a $\sigma(x) = \zeta_i(x) \in S_i$. Les applications $\sigma$ et $\zeta_i$ coïncident dans $S_i$, donc $S_i$ est stable par $\sigma$ et le sous-groupe de $\mathfrak{S}_{S_i}$ engendré par la restriction de $\sigma$ à $S_i$ opère transitiivement sur $S_i$; par suite $S_i$ est une $\bar{\sigma}$-orbite. Comme les $S_i$ ne sont pas vides et sont deux à deux disjoints, l’application $i \mapsto S_i$ est injective. Comme $\bigcup_i S_i$ est l’ensemble des $x$ tel que $\sigma(x) \neq x$, toute $\bar{\sigma}$-orbite non réduite à un élément est l’un des $S_i$.
 
-#### Proposition 7 {#alg-i-s5-prop-7 .statement}
+#### Proposition 7 {#alg-i-s5-prop-7 .statement tag=05BP}
 
 *Soient E un ensemble fini et $\sigma$ une permutation de E. Il existe un ensemble fini C de cycles et un seul, satisfaisant aux deux conditions suivantes:*
 a) *les supports des éléments de C sont deux à deux disjoints;*
@@ -394,7 +394,7 @@ b) *on a $\sigma = \prod_{\zeta \in C} \zeta$* (les éléments de C étant deux 
 
 Soit $\bar{\sigma}$ le sous-groupe engendré par $\sigma$ et soit S l’ensemble des $\bar{\sigma}$-orbites non réduites à un élément. Pour $s \in S$, posons $\zeta_s(x) = \sigma(x)$ si $x \in s$ et $\zeta_s(x) = x$ si $x \notin s$. Pour tout $s \in S$, $\zeta_s$ est un cycle dont le support est $s$, et l’on a $\sigma = \prod_{s \in S} \zeta_s$, comme on le voit en appliquant les deux membres à un élément quelconque de E. L’unicité de C résulte du lemme 1.
 
-#### Définition 9 {#alg-i-s5-def-9 .statement}
+#### Définition 9 {#alg-i-s5-def-9 .statement tag=05BQ}
 
 *Un cycle d’ordre 2 est appelé une transposition.*
 
@@ -409,13 +409,13 @@ $$
 
 Les transpositions forment donc dans le groupe $\mathfrak{S}_E$ une classe de conjugaison.
 
-#### Proposition 8 {#alg-i-s5-prop-8 .statement}
+#### Proposition 8 {#alg-i-s5-prop-8 .statement tag=05BR}
 
 *Soit E un ensemble fini. Le groupe $\mathfrak{S}_E$ est engendré par les transpositions.*
 
 Pour toute permutation $\sigma$, soit $F_\sigma$ l’ensemble des $x \in E$ tels que $\sigma(x) = x$. Montrons, par récurrence descendante sur $p$, que toute permutation $\sigma$ telle que $\operatorname{Card}(F_\sigma) = p$ est un produit de transpositions. Si $p \geq \operatorname{Card}(E)$, la permutation $\sigma$ est l’application identique de E; c’est le produit de la famille vide de transpositions. Si $p < \operatorname{Card}(E)$, supposons la propriété démontrée pour toute permutation $\sigma'$ telle que $\operatorname{Card}(F_{\sigma'}) > p$. On a $E - F_\sigma \neq \varnothing$; soient $x \in E - F_\sigma$ et $y = \sigma(x)$. On a $y \neq x$ et $y \in E - F_\sigma$. Posons $\sigma' = \tau_{x,\ y} . \sigma$. L’ensemble $F_{\sigma'}$ contient $F_{\sigma}$ et $x$, donc $\mathrm{Card}(F_{\sigma'}) > \mathrm{Card}(F_{\sigma}) = p$. Par l’hypothèse de récurrence, $\sigma'$ est produit de transpositions, donc $\sigma = \tau_{x,y} \cdot \sigma'$ est produit de transpositions.
 
-#### Proposition 9 {#alg-i-s5-prop-9 .statement}
+#### Proposition 9 {#alg-i-s5-prop-9 .statement tag=05BS}
 
 *Soit n un entier $\geqslant 0$. Le groupe $\mathfrak{S}_n$ est engendré par la famille des transpositions $(\tau_{i,i+1})_{1 \leqslant i \leqslant n-1}$*.
 
@@ -441,7 +441,7 @@ $$
 p(z_1, \ldots, z_n) = \prod_{i < j} (z_j - z_i).
 $$
 
-#### Lemme 2 {#alg-i-s5-lem-2 .statement}
+#### Lemme 2 {#alg-i-s5-lem-2 .statement tag=05BT}
 
 *On a $p \neq 0$ et $\sigma p = (-1)^{v(\sigma)} p$ pour $\sigma \in \mathfrak{S}_n$*.
 
@@ -452,7 +452,7 @@ $$
 
 Soit $C$ l’ensemble des couples $(i,j)$ tels que $1 \leqslant i \leqslant n, 1 \leqslant j \leqslant n, i < j$. On définit une permutation $\theta$ de $C$ en posant $\theta(i,j) = (\sigma(i), \sigma(j))$ si $(i,j)$ n’est pas une inversion, $\theta(i,j) = (\sigma(j), \sigma(i))$ si $(i,j)$ est une inversion. Cela entraîne $\sigma p = (-1)^{v(\sigma)} p$.
 
-#### Théorème 2 {#alg-i-s5-thm-2 .statement}
+#### Théorème 2 {#alg-i-s5-thm-2 .statement tag=05BU}
 
 *Soit $E$ un ensemble fini. Il existe un homomorphisme $\varepsilon$ et un seul de $\mathfrak{S}_E$ dans le groupe multiplicatif $\{-1,+1\}$ tel que $\varepsilon(\tau) = -1$ pour toute transposition $\tau$*.
 
@@ -467,13 +467,13 @@ $$
 
 Comme $p \neq -p$, on en déduit $\varepsilon(\sigma\sigma') = \varepsilon(\sigma)\varepsilon(\sigma')$, donc $\varepsilon$ est un homomorphisme. Montrons que, pour toute transposition $\tau$, on a $\varepsilon(\tau) = -1$. On a $\nu(\tau_{n-1,n}) = 1$, d’où $\varepsilon(\tau_{n-1,n}) = -1$. Comme toute transposition $\tau$ est conjuguée de $\tau_{n-1,n}$ et que le groupe $\{-1,+1\}$ est commutatif, on a $\varepsilon(\tau) = \varepsilon(\tau_{n-1,n}) = -1$.
 
-#### Définition 10 {#alg-i-s5-def-10 .statement}
+#### Définition 10 {#alg-i-s5-def-10 .statement tag=05BV}
 
 Avec les notations du théorème 2, le nombre $\varepsilon(\sigma)$ (noté aussi $\varepsilon_\sigma$) est appelé la signature de la permutation $\sigma$. Le noyau de l’homomorphisme $\varepsilon$ est appelé le groupe alterné de $E$.
 
 On dit que $\sigma$ est *paire* (resp. *impaire*) si $\varepsilon(\sigma) = 1$ (resp. $\varepsilon(\sigma) = -1$). Le groupe alterné de $E$ est noté $\mathfrak{A}_E$. C’est un sous-groupe distingué de $\mathfrak{S}_E$. Lorsque $E = \{1, n\}$, on le note simplement $\mathfrak{A}_n$. Lorsque le cardinal $n$ de $E$ est $\geqslant 2$, $\mathfrak{A}_n$ est un sous-groupe d’indice 2 de $\mathfrak{S}_n$, donc d’ordre $\frac{n!}{2}$. On peut montrer que, pour $n = 3$ ou $n \geqslant 5$, le groupe $\mathfrak{A}_n$ est un groupe simple (cf. I, p. 131, exerc. 16).
 
-#### Exemple {#alg-i-s5-n7-exa-1 .statement}
+#### Exemple {#alg-i-s5-n7-exa-1 .statement tag=05BW}
 
 Si $\sigma$ est un cycle d’ordre $d$, on a
 $$

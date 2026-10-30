@@ -29,14 +29,14 @@ subsections:
       pdf_page: 250
 statements: 11
 exercises: 8
-content_sha256: ecfeb5870aae5a62e0cd6ec8aeeeb2de8dc1a67bcfdae539b9dd6ae798043826
+content_sha256: 40502ef62aacbf121ac1011abdbd0936abda1c04356f56a21967a20f392ffa93
 ---
 
 ## 5. FLATNESS PROPERTIES OF FILTERED MODULES
 
 ### 1. IDEALLY HAUSDORFF MODULES
 
-#### Definition 1 {#ac-iii-s5-def-1 .statement}
+#### Definition 1 {#ac-iii-s5-def-1 .statement tag=04IO}
 
 *Let A be a commutative ring and $\mathfrak{g}$ an ideal of A. An A-module M is called ideally Hausdorff with respect to 3 (or simply ideally Hausdorff if there is no ambiguity) if, for every finitely generated ideal $\mathfrak{a}$ of A, the A-module $\mathfrak{a} \otimes_A M$ is Hausdorff with the 3-adic topology.*
 
@@ -44,18 +44,18 @@ Putting $\mathfrak{a} = A$ in this definition, we have already seen that M is ne
 
 *Examples*
 
-#### Example 1 {#ac-iii-s5-n1-exa-1 .statement}
+#### Example 1 {#ac-iii-s5-n1-exa-1 .statement tag=04IP}
 
 If A is Noetherian and $\mathfrak{g}$ is contained in the Jacobson radical of A (in other words if A is a Zariski ring with the 3-adic topology), every *finitely generated* A-module is ideally Hausdorff (*§3*, no. 3, Proposition 6).
 
-#### Example 2 {#ac-iii-s5-n1-exa-2 .statement}
+#### Example 2 {#ac-iii-s5-n1-exa-2 .statement tag=04IQ}
 
 Every direct sum of ideally Hausdorff modules is an ideally Hausdorff module, by virtue of the relations
 $$
 \mathfrak{g}^n \left( a \otimes_A \bigoplus_{\lambda \in L} M_\lambda \right) = \mathfrak{g}^n \bigoplus_{\lambda \in L} (a \otimes_A M_\lambda) = \bigoplus_{\lambda \in L} \mathfrak{g}^n (a \otimes_A M_\lambda).
 $$
 
-#### Example 3 {#ac-iii-s5-n1-exa-3 .statement}
+#### Example 3 {#ac-iii-s5-n1-exa-3 .statement tag=04IR}
 
 If an A-module M is flat and Hausdorff with the $\mathfrak{g}$-adic topology it is ideally Hausdorff, for $a \otimes_A M$ is then identified with a submodule of M and the $\mathfrak{g}$-adic topology on $a \otimes_A M$ is finer than the topology induced on $a \otimes_A M$ by the $\mathfrak{g}$-adic topology on M, which is Hausdorff by hypothesis.
 
@@ -70,7 +70,7 @@ $$
 $$
 whose restriction to $\mathrm{gr}_n(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(M)$ is $\gamma_n$ for all $n$ and which is therefore surjective.
 
-#### Theorem 1 {#ac-iii-s5-thm-1 .statement}
+#### Theorem 1 {#ac-iii-s5-thm-1 .statement tag=04IS}
 
 Let A be a commutative ring, $\mathfrak{g}$ an ideal of A and M an A-module. Consider the following properties:
 (i) M is afat A-module.
@@ -88,7 +88,7 @@ is bijective (property (GR) of § 2, no. 8).
 Then (i) $\Rightarrow$ (ii) $\Leftrightarrow$ (iii) $\Rightarrow$ (iv) $\Leftrightarrow$ (v).
 If further $\mathfrak{g}$ is nilpotent or if A is Noetherian and M is ideally Hausdorff, properties (i), (ii), (iii), (iv) and (v) are equivalent.
 
-#### Remark {#ac-iii-s5-n1-rem-1 .statement}
+#### Remark {#ac-iii-s5-n1-rem-1 .statement tag=04IT}
 
 If $A / \mathfrak{g}$ is a field (as often happens in applications) the condition "M/ $\mathfrak{g}M$ is a flat $(A / \mathfrak{g})$-module" holds automatically for every A-module M, which simplifies the statement of properties (iii) and (iv); moreover, in this case, property (v) is equivalent to saying that $M / \mathfrak{g}^n M$ is a free $(A / \mathfrak{g}^n)$-module for every integer $n \geq 1$ (Chapter 11, § 3, no. 2, Corollary 2 to Proposition 5).
 
@@ -116,7 +116,7 @@ It follows from this that if 9 is *nilpotent*, (ii) implies (i), for (ii') then 
 
 (B) Let us prove the following proposition:
 
-#### Proposition 1 {#ac-iii-s5-prop-1 .statement}
+#### Proposition 1 {#ac-iii-s5-prop-1 .statement tag=04IU}
 
 *Let* $A$ *be a commutative ring, 3 an ideal of* $A$ *and* $M$ *an* $A$*-module*. *The following conditions are equivalent*:
 (a) *For all* $n \geq 1$, $\operatorname{Tor}_1^A(A/\mathfrak{g}^n, M) = 0$.
@@ -178,13 +178,13 @@ and, as $h$ is injective and, by (v), $M/\mathfrak{g}^k M$ is a flat $(A/\mathfr
 
 ### 4. APPLICATIONS
 
-#### Proposition 2 {#ac-iii-s5-prop-2 .statement}
+#### Proposition 2 {#ac-iii-s5-prop-2 .statement tag=04IV}
 
 Let $A$ be a commutative ring, $\mathfrak{g}$ an ideal of $A$ and $B$ a commutative Noetherian $A$-algebra such that $B$ is contained in the Jacobson radical of $B$. Then every finitely generated $B$-module $M$ is an ideally Hausdorff $A$-module with respect to $\mathfrak{g}$.
 
 We shall see more generally that for every finitely generated $A$-module $N$, $N \otimes_A M$ is Hausdorff with the $3$-adic topology. For $N_{(B)} = N \otimes_A B$ is a finitely generated $B$-module and the $B$-module $N \otimes_A M$ is canonically identified with $N_{,,} \otimes_B M$ by virtue of the associativity of the tensor product. Let $\mathfrak{L}$ be the Jacobson radical of $B$; as $\mathfrak{g} B$ is contained in $\mathfrak{L}$, the $\mathfrak{g}$-adic topology on $N \otimes_A M$ is therefore identified with a finer topology than the $\mathfrak{L}$-adic topology on $N_{(B)} \otimes_B M$; but this latter topology is Hausdorff since $N_{,,} \otimes_B M$ is a finitely generated $B$-module (no. 1, Example 1), whence the conclusion.
 
-#### Proposition 3 {#ac-iii-s5-prop-3 .statement}
+#### Proposition 3 {#ac-iii-s5-prop-3 .statement tag=04IW}
 
 Let $A$ be a commutative ring, $B$ a commutative $A$-algebra, $\mathfrak{g}$ an ideal of $A$ and $M$ a $B$-module. Suppose that $B$ is a Noetherian ring and a flat $A$-module and that $M$ is ideally Hausdorff with respect to $\mathfrak{g} B$. The following conditions are equivalent:
 (a) $M$ is a flat $B$-module.
@@ -196,13 +196,13 @@ Condition (a) implies (b) by Chapter I, §2, no. 7, Corollaries 2 and 3 to Propo
 
 Let $p : A/\mathfrak{J} \to B/\mathfrak{J}B$ be the canonical homomorphism; the $(A/\mathfrak{J})$-module structure on $M/\mathfrak{J}M$ derived by means of $p$ from its $(B/\mathfrak{J}B)$-module structure is isomorphic to that on $M \otimes_A (A/\mathfrak{J})$. Then it follows that, if $M$ is a flat $A$-module, $M/\mathfrak{J}M$ is a flat $(A/\mathfrak{J})$-module and hence also a flat $(B/\mathfrak{J}B)$-module if $p$ is an isomorphism; we have thus proved that (c) $\Rightarrow$ (b) in that case.
 
-#### Corollary {#ac-iii-s5-n4-cor-1 .statement}
+#### Corollary {#ac-iii-s5-n4-cor-1 .statement tag=04IX}
 
 *Let $A$ be a commutative Noetherian ring, $\mathfrak{J}$ an ideal of $A$, $\hat{A}$ the Hausdorff completion of $A$ with respect to the $\mathfrak{J}$-adic topology and $M$ an ideally Hausdorff $\hat{A}$-module with respect to $\mathfrak{J} \hat{A}$. For $M$ to be a flat $A$-module, it is necessary and sufficient that $M$ be a flat $\hat{A}$-module.*
 
 We know in fact that $\hat{A}$ is a Noetherian ring ($§ 3$, no. **4**, Proposition 8) and a flat $A$-module ($§ 3$, no. **4**, Theorem 3), that $\mathfrak{J} \hat{A} = \hat{\mathfrak{J}}$ ($§ 2$, no. 12, Proposition **16**) and that the canonical homomorphism $A/\mathfrak{J} \to \hat{A}/\hat{\mathfrak{J}}$ is bijective ($§ 2$, no. 12, Proposition 15); Proposition **3** can therefore be applied.
 
-#### Proposition 4 {#ac-iii-s5-prop-4 .statement}
+#### Proposition 4 {#ac-iii-s5-prop-4 .statement tag=04IY}
 
 *Let $A$ and $B$ be two commutative Noetherian rings, $h : A \to B$ a ring homomorphism, $3$ an ideal of $A$ and $2$ an ideal of $B$ containing $\mathfrak{J}B$ and contained in the Jacobson radical of $B$. Let $\hat{A}$ be the Hausdorff completion of $A$ with respect to the $3$-adic topology and $\hat{B}$ the Hausdorff completion of $B$ with respect to the $2$-adic topology; $h$ is continuous with these topologies and $h : \hat{A} \to \hat{B}$ therefore makes $\mathbf{8}$ into an $\hat{A}$-algebra. Let $M$ be a finitely generated $B$-module and $\hat{M}$ its Hausdorff completion with respect to the $2$-adic topology; the following properties are equivalent:
 (a) $M$ is a flat $A$-module.

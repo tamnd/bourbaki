@@ -30,7 +30,7 @@ subsections:
       pdf_page: 230
 statements: 10
 exercises: 8
-content_sha256: 076b60e7c2e5bd07277b7f40bcb2647f81373abe50fc9a03f4be0a8371b6d4ee
+content_sha256: 2abcc617259f4b429c058dd9fa87cc60a477e44d6a20abc725c7904c14db0578
 ---
 
 ## APPENDICE
@@ -55,7 +55,7 @@ quels que soient l’ensemble fini I, les points $x_i$ de K et les nombres réel
 
 Si $u$ et $v$ sont deux transformations affines dans K, l’application $u \circ v$ est une transformation affine dans K. Si $v : E \to E$ est une application linéaire telle que $v(K) \subset K$, l’application $u : K \to K$ qui coïncide avec $v$ sur K est une transformation affine.
 
-#### Théorème 1 (Markoff-Kakutani) {#evt-iv-a0-thm-1 .statement}
+#### Théorème 1 (Markoff-Kakutani) {#evt-iv-a0-thm-1 .statement tag=07WI}
 
 Soient E un espace vectoriel localement convexe séparé sur le corps $\mathbf{R}$, et K une partie convexe, compacte et non vide de E. Soit $\Gamma$ un ensemble de transformations affines dans K, continues, deux à deux permutables. Il existe un point a de K tel que $u(a) = a$ pour tout $u \in \Gamma$.
 
@@ -65,7 +65,7 @@ K est compact, donc borné (III, p. 3, prop. 2), la suite $(u^n(x) - x)_{n \geq 
 
 Chacun des ensembles $K_u$ est une partie fermée et convexe de l’espace compact K, et il s’agit de prouver que l’intersection $\bigcap_{u \in \Gamma} K_u$ est non vide. Il suffit donc de prouver que, pour $n \geq 1$, et $u_1, \ldots, u_n$ dans $\Gamma$, l’ensemble $K_{u_1} \cap \ldots \cap K_{u_n}$ n’est pas vide. Raisonnons par récurrence sur $n$, le cas $n = 1$ ayant été traité. Supposons alors $n \geq 2$ et posons $L = K_{u_1} \cap \ldots \cap K_{u_{n-1}}$. Par l’hypothèse de récurrence, L est une partie compacte et convexe non vide de E. Comme $u_n$ commute à $u_1, \ldots, u_{n-1}$, on a $u_n(L) \subset L$. Appliquant la première partie de la démonstration à la transformation affine induite par $u_n$ dans L, on conclut qu’il existe un point $a$ de L tel que $u_n(a) = a$; alors $a$ appartient à $K_{u_1} \cap \ldots \cap K_{u_n}$, qui est donc non vide.
 
-#### Corollaire {#evt-iv-a0-n1-cor-1 .statement}
+#### Corollaire {#evt-iv-a0-n1-cor-1 .statement tag=07WJ}
 
 Soit G un groupe résoluble de transformations affines continues dans K. Il existe un point de K invariant par G.
 
@@ -75,13 +75,13 @@ D’après la définition d’un groupe résoluble (A, I, p. 71), il existe une 
 
 Soit X un espace topologique. Notons $\mathscr{B}(X; \mathbf{R})$ l’espace vectoriel réel formé des applications continues et bornées de X dans $\mathbf{R}$. Muni de la norme $\|f\| = \sup_{x \in X} |f(x)|$, c’est un espace de Banach (TG, X, p. 21); c’est aussi un espace vectoriel ordonné, la relation $f \geq g$ signifiant « $f(x) \geq g(x)$ pour tout $x \in X$ ».
 
-#### Définition 1 {#evt-iv-a0-def-1 .statement}
+#### Définition 1 {#evt-iv-a0-def-1 .statement tag=07WK}
 
 On appelle moyenne sur l’espace topologique X une forme linéaire positive $\mu$ sur l’espace $\mathscr{B}(X; \mathbf{R})$ telle que $\mu(1) = 1$.
 
 \* Lorsque X est compact, une moyenne sur X est donc une mesure positive sur X telle que $\mu(X) = 1$. \*
 
-#### Lemme 1 {#evt-iv-a0-lem-1 .statement}
+#### Lemme 1 {#evt-iv-a0-lem-1 .statement tag=07WL}
 
 L’ensemble K des moyennes sur X est la partie de la boule unité du dual de l’espace de Banach $E = \mathscr{B}(X; \mathbf{R})$ dont les éléments sont les formes linéaires $\mu$ telles que $\mu(1) = 1$. C’est une partie de $E'$, convexe et compacte pour $\sigma(E', E)$.
 
@@ -101,11 +101,11 @@ Si l’on munit $K$ de la topologie induite par $\sigma(E', E)$, l’application
 
 Le corollaire du th. 1 (IV, p. 40) entraîne de manière analogue le résultat suivant :
 
-#### Proposition 1 {#evt-iv-a0-prop-1 .statement}
+#### Proposition 1 {#evt-iv-a0-prop-1 .statement tag=07WM}
 
 *Soient $X$ un espace topologique et $G$ un groupe résoluble. On suppose que $G$ opère à gauche sur $X$, de sorte que, pour tout $g \in G$, l’application $x \mapsto g.x$ de $X$ dans $X$ soit continue. Il existe alors sur $X$ une moyenne invariante par $G$.
 
-#### Corollaire {#evt-iv-a0-n2-cor-1 .statement}
+#### Corollaire {#evt-iv-a0-n2-cor-1 .statement tag=07WN}
 
 *Soit $G$ un groupe topologique résoluble. Il existe sur $G$ une moyenne invariante par les translations à gauche et à droite.
 
@@ -123,7 +123,7 @@ Sauf mention expresse du contraire, les notions topologiques se réfèrent à la
 
 Soit K une partie convexe de E. On suppose que K est compacte (pour la topologie $\mathscr{T}$), et que c’est un espace de type dénombrable pour la distance déduite de la norme de E.
 
-#### Lemme 2 {#evt-iv-a0-lem-2 .statement}
+#### Lemme 2 {#evt-iv-a0-lem-2 .statement tag=07WO}
 
 On suppose que K contient au moins deux points. Pour tout $\varepsilon > 0$, il existe une partition de K en deux sous-ensembles non vides $K_1$ et $K_2$, ayant les propriétés suivantes :
 
@@ -148,7 +148,7 @@ $$
 
 Ceci achève la démonstration.
 
-#### Lemme 3 {#evt-iv-a0-lem-3 .statement}
+#### Lemme 3 {#evt-iv-a0-lem-3 .statement tag=07WP}
 
 Soit G un groupe de transformations affines continues (pour $\mathscr{T}$) dans K. On suppose que K est non vide et qu’on a $\|gx - gy\| = \|x - y\|$ pour x, y dans K et g dans G. Il existe un point de K invariant par G.
 
@@ -168,13 +168,13 @@ D’après la propriété (A), on a donc $gx_i \in L_1$. Comme $L_1$ est convexe
 
 Soit $L'$ l’enveloppe fermée convexe de l’orbite $Gx$ de x. L’ensemble $L'$ appartient à $\mathfrak{J}$. D’après ce qui précède, on a $L' \subset L_1$, d’où $L' \subset L$, $L' \neq L$. Ceci contredit le caractère minimal de L et achève la démonstration.
 
-#### Théorème 2 (Ryll-Nardzewski) {#evt-iv-a0-thm-2 .statement}
+#### Théorème 2 (Ryll-Nardzewski) {#evt-iv-a0-thm-2 .statement tag=07WQ}
 
 Soient E un espace normé et K une partie convexe non vide de E, compacte pour la topologie affaiblie $\sigma(E, E')$. Soit G un groupe de transformations affines isométriques de K. Il existe un point de K invariant par G.
 
 Pour tout $g \in G$, notons $K_g$ l’ensemble des points x de K tels que $gx = x$; munissons K de la topologie affaiblie ; chaque ensemble $K_g$ est convexe et fermé dans l’espace compact K. Il s’agit de prouver que l’intersection $\bigcap_{g \in G} K_g$ est non vide ; pour cela, il suffit de prouver que l’ensemble $K_{g_1} \cap \ldots \cap K_{g_n}$ est non vide quels que soient $g_1, \ldots, g_n$ dans G. Fixons $g_1, \ldots, g_n$ et notons H le sous-groupe de G engendré par $\{g_1, \ldots, g_n\}$. Choisissons un point a de K et notons L l’enveloppe fermée convexe de l’orbite Ha de a. Soit D l’ensemble dénombrable des éléments de la forme $\lambda_1 h_1 a + \cdots + \lambda_m h_m a$, où $\lambda_1, \ldots, \lambda_m$ sont des nombres rationnels positifs tels que $\lambda_1 + \cdots + \lambda_m = 1$, et $h_1, \ldots, h_m$ des éléments de $H$. L’adhérence $\overline{D}$ de $D$ pour la topologie forte est convexe, donc elle est fermée pour $\sigma(E, E')$ (IV, p. 4, prop. 2) ; on a donc $\overline{D} = L$, ce qui prouve que $L$ est un espace métrique de type dénombrable pour la distance $(x, y) \mapsto \| x - y \|$. On peut donc appliquer le lemme 2. Il existe un point $b$ de $L$ invariant par $H$, d’où $b \in K_{g_1} \cap \ldots \cap K_{g_n}$.
 
-#### Corollaire {#evt-iv-a0-n3-cor-1 .statement}
+#### Corollaire {#evt-iv-a0-n3-cor-1 .statement tag=07WR}
 
 *Soient E un espace de Banach réflexif, G un groupe d’automorphismes de l’espace normé E, et K une partie de E. On suppose que K est convexe, fermée, non vide, bornée, et stable par G. Il existe alors dans K un point invariant par G.*
 

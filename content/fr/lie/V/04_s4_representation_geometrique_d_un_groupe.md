@@ -48,7 +48,7 @@ subsections:
       pdf_page: 99
 statements: 23
 exercises: 20
-content_sha256: d1f1639e427c16b81ca3f0f563a5847642a07655d11b255f9daaf9d8e98ea14b
+content_sha256: 25b76db9603060ba1165aaf812959d69b9d4ed92f79073466d94e5ab68a02fba
 ---
 
 ## § 4. Représentation géométrique d’un groupe de Coxeter
@@ -93,7 +93,7 @@ Puisque $e_s$ n’est pas isotrope pour $B_M$, l’espace $E$ est somme directe 
 
 Dans ce numéro, on désigne par $s$ et $s'$ deux éléments de $S$, avec $s \neq s'$. On pose $m = m(s, s')$, et l’on note $E_{s, s'}$ le plan $\mathbf{R} e_s \oplus \mathbf{R} e_{s'}$.
 
-#### Proposition 1 {#lie-v-s4-prop-1 .statement}
+#### Proposition 1 {#lie-v-s4-prop-1 .statement tag=0ARB}
 
 *La restriction de $B_M$ à $E_{s, s'}$ est positive. Elle est non dégénérée si et seulement si $m$ est fini.*
 
@@ -136,7 +136,7 @@ Or, les restrictions $\overline{\sigma}_s$ et $\overline{\sigma}_{s'}$ de $\sigm
 
 Revenons maintenant à $E$ :
 
-#### Proposition 2 {#lie-v-s4-prop-2 .statement}
+#### Proposition 2 {#lie-v-s4-prop-2 .statement tag=0ARC}
 
 Le sous-groupe de $\mathbf{GL}(E)$ engendré par $\sigma_s$ et $\sigma_{s'}$ est un groupe diédral d’ordre $2m(s, s')$.
 
@@ -150,7 +150,7 @@ $$
 (g_s g_{s'})^{m(s, s')} = 1, \quad \text{pour } s, s' \in S, \ m(s, s') \neq + \infty.
 $$
 
-#### Proposition 3 {#lie-v-s4-prop-3 .statement}
+#### Proposition 3 {#lie-v-s4-prop-3 .statement tag=0ARD}
 
 Il existe un homomorphisme et un seul
 
@@ -166,7 +166,7 @@ Pour prouver l’existence et l’unicité de $\sigma$, il suffit de voir que l�
 
 Remarque 1). — Nous verrons au n° 4 que $\sigma$ est injective ; le groupe W pourra donc être identifié au sous-groupe de $\mathbf{GL}(E)$ engendré par les $\sigma_s$.
 
-#### Proposition 4 {#lie-v-s4-prop-4 .statement}
+#### Proposition 4 {#lie-v-s4-prop-4 .statement tag=0ARF}
 
 a) L’application $s \mapsto g_s$ de S dans W est injective.
 
@@ -186,7 +186,7 @@ Pour b) (resp. c)), on remarque que l’ordre de $g_s$ (resp. l’ordre de $g_sg
 
 Vu a), on peut identifier S à une partie de W, au moyen de l’application $s \mapsto g_s$.
 
-#### Corollaire {#lie-v-s4-n3-cor-1 .statement}
+#### Corollaire {#lie-v-s4-n3-cor-1 .statement tag=0ARG}
 
 Le couple $(W, S)$ est un système de Coxeter, de matrice M.
 
@@ -212,22 +212,22 @@ Si $x^* \in E^*$ et $w \in W$, nous noterons également $w(x^*)$ le transformé 
 
 Si $s \in S$, notons $A_s$ l’ensemble des $x^* \in E^*$ tels que $x^*(e_s) > 0$. Soit C l’intersection des $A_s$, $s \in S$. Lorsque S est fini, C est un cône simplicial ouvert de $E^*$ (§ 1, n° 6).
 
-#### Théorème 1 (Tits) {#lie-v-s4-thm-1 .statement}
+#### Théorème 1 (Tits) {#lie-v-s4-thm-1 .statement tag=0ARI}
 
 Si $w \in W$ et si $C \cap w(C) \neq \emptyset$, on a $w = 1$.
 Indiquons tout de suite quelques conséquences de ce théorème:
 
-#### Corollaire 1 {#lie-v-s4-thm-1-cor-1 .statement}
+#### Corollaire 1 {#lie-v-s4-thm-1-cor-1 .statement tag=0ARJ}
 
 Le groupe $W$ opère de façon simplement transitive sur l’ensemble des $w(C)$ pour $w \in W$.
 C’est clair.
 
-#### Corollaire 2 {#lie-v-s4-thm-1-cor-2 .statement}
+#### Corollaire 2 {#lie-v-s4-thm-1-cor-2 .statement tag=0ARK}
 
 Les représentations $\sigma$ et $\sigma^*$ sont injectives.
 En effet, si $\sigma^*(w) = 1$, on a $w(C) = C$, d’où $w = 1$ d’après le théorème. L’injectivité de $\sigma$ résulte de celle de $\sigma^*$.
 
-#### Corollaire 3 {#lie-v-s4-thm-1-cor-3 .statement}
+#### Corollaire 3 {#lie-v-s4-thm-1-cor-3 .statement tag=0ARL}
 
 Si $S$ est fini, $\sigma(W)$ est un sous-groupe discret de $\mathbf{GL}(E)$ (muni de sa structure canonique de groupe de Lie); de même, $\sigma^*(W)$ est un sous-groupe discret de $\mathbf{GL}(E^*)$.
 Soit $x^* \in C$. L’ensemble $U$ des $g \in \mathbf{GL}(E^*)$ tels que $g(x^*) \in C$ est un voisinage de l’élément neutre dans $\mathbf{GL}(E^*)$; d’après le théorème, on a
@@ -260,7 +260,7 @@ w'(C) \subset u(A_s \cap A_{s'}) \quad \text{et} \quad l(w') = l(u) + l(u^{-1}w'
 $$
 On a $w(C) = s'w'(C) \subset s'u(A_s \cap A_{s'})$.
 
-#### Lemme 1 {#lie-v-s4-lem-1 .statement}
+#### Lemme 1 {#lie-v-s4-lem-1 .statement tag=0ARM}
 
 Soient s, s' ∈ S, avec s ≠ s' et soit v ∈ W_{s,s'}. Alors v(A_s ∩ A_{s'}) est contenu, soit dans A_s, soit dans s(A_s), et dans le second cas, on a l(sv) = l(v) — 1.
 
@@ -362,7 +362,7 @@ On a $C_X \subset \overline{C}$, $C_\emptyset = C$ et $C_S = \{0\}$. Les ensembl
 
 Rappelons d’autre part (chap. IV, § 1, n° 8) que l’on désigne par $W_X$ le sous-groupe de W engendré par X. On a évidemment $w(x*) = x*$ pour $w \in W_X$ et $x* \in C_X$.
 
-#### Proposition 5 {#lie-v-s4-prop-5 .statement}
+#### Proposition 5 {#lie-v-s4-prop-5 .statement tag=0ARN}
 
 Soient X, $X' \subset S$ et $w, w' \in W$. Si $w(C_X) \cap w'(C_{X'}) \neq \varnothing$, alors on a $X = X'$, $wW_X = w'W_{X'}$ et $w(C_X) = w'(C_{X'})$.
 
@@ -380,13 +380,13 @@ $$
 
 Par suite, la relation $C_{X'} \cap w(C_X) \neq \varnothing$ entraîne d’une part $C_{X'} \cap H_s \neq \varnothing$, d’où $s \in X'$, d’autre part $C_{X'} \cap sw(C_X) \neq \varnothing$. L’hypothèse de récurrence entraîne alors que $X = X'$ et $swW_X = W_{X'} = W_X$, d’où $sw \in W_X$ et $w \in W_X$ puisque $s \in W_X$. Il en résulte que $wW_X = W_{X'}$ et que $w(C_X) = C_X = C_{X'}$.
 
-#### Corollaire {#lie-v-s4-n6-cor-1 .statement}
+#### Corollaire {#lie-v-s4-n6-cor-1 .statement tag=0ARO}
 
 Soient X une partie de S et x* un élément de C_X. Le stabilisateur de x* dans W est W_X.
 
 Soit maintenant U la réunion des $w(\overline{C})$ pour $w \in W$, et soit $\mathfrak{F}$ l’ensemble des parties de U de la forme $w(C_X)$, avec $X \subset S$ et $w \in W$. Vu ce qui précède, $\mathfrak{F}$ est une partition de U.
 
-#### Proposition 6 {#lie-v-s4-prop-6 .statement}
+#### Proposition 6 {#lie-v-s4-prop-6 .statement tag=0ARP}
 
 (i) Le cône U est convexe.
 (ii) Tout segment fermé contenu dans U ne rencontre qu’un nombre fini d’éléments de $\mathfrak{F}$.
@@ -406,7 +406,7 @@ puisque $[x^*z^*] \subset \overline{C}$.
 
 On conserve les notations des n°s précédents, et l’on suppose que S est fini.
 
-#### Proposition 7 {#lie-v-s4-prop-7 .statement}
+#### Proposition 7 {#lie-v-s4-prop-7 .statement tag=0ARQ}
 
 Supposons que $(W, S)$ soit irréductible (chap. IV, § 1, n° 9). Soit $E^0$ le sous-espace de E orthogonal à E vis-à-vis de $B_M$. Le groupe W opère trivialement sur $E^0$, et tout sous-espace de E, distinct de E et stable par W, est contenu dans $E^0$.
 
@@ -414,7 +414,7 @@ Si $x \in E^0$, on a $\sigma_s(x) = x - 2B_M(e_s, x)e_s = x$ pour tout $s \in S$
 
 Soit $E'$ un sous-espace de E stable par W. Soient $s, s' \in S$ deux éléments liés dans le graphe $\Gamma$ de $(W, S)$ (chap. IV, § 1, n° 9); rappelons que cela signifie que $m(s, s') \geq 3$. Supposons que $e_s \in E'$. On a alors $\sigma_{s'}(e_s) \in E'$ et comme le coefficient de $e_{s'}$ dans $\sigma_{s'}(e_s)$ est non nul, on a $e_{s'} \in E'$. Comme $\Gamma$ est connexe, il s’ensuit que, si $E'$ contient l’un des $e_s$, il les contient tous et coïncide avec E. Ce cas étant écarté, il résulte de la prop. 3 du § 2, n° 2 que, pour tout $s \in S$, $E'$ est contenu dans l’hyperplan $H_s$ orthogonal à $e_s$. Comme l’intersection des $H_s$ est égale à $E^0$, cela démontre la proposition.
 
-#### Corollaire {#lie-v-s4-n7-cor-1 .statement}
+#### Corollaire {#lie-v-s4-n7-cor-1 .statement tag=0ARR}
 
 Supposons que $(W, S)$ soit irréductible. Alors:
 a) Si $B_M$ est non dégénérée, le $W$-module $E$ est absolument simple.
@@ -426,7 +426,7 @@ Dans le cas b), on a $E^0 \neq 0$, $E \neq E^0$ (puisque $B_M \neq 0$), et la pr
 
 On conserve les notations des nos précédents, et l’on suppose que $S$ est fini.
 
-#### Théorème 2 {#lie-v-s4-thm-2 .statement}
+#### Théorème 2 {#lie-v-s4-thm-2 .statement tag=0ARS}
 
 Les propriétés suivantes sont équivalentes :
 (1) $W$ est fini.
@@ -437,12 +437,12 @@ C.Q.F.D.
 
 Le résultat suivant a été prouvé en cours de démonstration :
 
-#### Corollaire {#lie-v-s4-n8-cor-1 .statement}
+#### Corollaire {#lie-v-s4-n8-cor-1 .statement tag=0ART}
 
 Si $(W, S)$ est irréductible et fini, $E$ est un $W$-module absolument simple.
 Le critère fourni par le th. 2 permet de classifier tous les groupes de Coxeter finis (cf. chap. VI, $§ 4$). Bornons-nous ici à un résultat préliminaire :
 
-#### Proposition 8 {#lie-v-s4-prop-8 .statement}
+#### Proposition 8 {#lie-v-s4-prop-8 .statement tag=0ARU}
 
 Si $W$ est fini, le graphe de $(W, S)$ est une forêt (chap. IV, Annexe).
 Sinon, ce graphe contiendrait un circuit $(s_1, \ldots, s_n)$, $n \geqslant 3$. Si l’on pose $m_i = m(s_i, s_{i+1})$, $1 \leqslant i < n$, et $m_n = m(s_n, s_1)$, cela signifie que l’on a $m_i \geqslant 3$ pour tout $i$. Soit
@@ -460,7 +460,7 @@ B_M(x, x) \leq n - n = 0.
 $$
 contrairement au fait que $B_M$ est positive non dégénérée.
 
-#### Corollaire {#lie-v-s4-n8-cor-2 .statement}
+#### Corollaire {#lie-v-s4-n8-cor-2 .statement tag=0ARV}
 
 Si $(W, S)$ est irréductible et fini, son graphe est un arbre.
 En effet, une forêt connexe est un arbre.
@@ -468,7 +468,7 @@ En effet, une forêt connexe est un arbre.
 Comparaison avec les résultats du § 3.
 Soit tout d’abord $(W, S)$ un groupe de Coxeter fini. Notons $(x|y)$ la forme $B_M(x, y)$; d’après le th. 2, c’est un produit scalaire sur $E$. Pour tout $s \in S$, soit $H_s$ l’hyperplan associé à la réflexion orthogonale $\sigma_s$, et soit $\mathscr{H}$ la famille des hyperplans $w(H_s)$, pour $s \in S, w \in W$. Soit $C_0$ l’ensemble des $x \in E$ tels que $(x|e_s) > 0$ pour tout $s \in S$. Enfin, identifions $W$ (au moyen de $\sigma$) à un sous-groupe du groupe orthogonal $\mathbf{O}(E)$ de l’espace $E$.
 
-#### Proposition 9 {#lie-v-s4-prop-9 .statement}
+#### Proposition 9 {#lie-v-s4-prop-9 .statement tag=0ARW}
 
 Avec les notations précédentes, $W$ est le sous-groupe de $\mathbf{O}(E)$ engendré par les réflexions par rapport aux hyperplans de $\mathscr{H}$. C’est un groupe essentiel ($§ 3, \mathrm{n}^\circ 7$) et $C_0$ est une chambre de $E$ relativement à $\mathscr{H}$.
 
@@ -499,7 +499,7 @@ et que les $e_s$ forment une base de E. *La représentation naturelle de W dans 
 
 Dans ce numéro, nous supposons que S est fini, que (W, S) est *irréductible*, et que la forme $B_M$ est *positive et dégénérée*.
 
-#### Lemme 2 {#lie-v-s4-lem-2 .statement}
+#### Lemme 2 {#lie-v-s4-lem-2 .statement tag=0ARX}
 
 *L’orthogonal $E^0$ de E pour $B_M$ est de dimension 1 ; il est engendré par un élément $v = \sum_{s \in S} v_s e_s$, avec $v_s > 0$ pour tout s.*
 
@@ -509,7 +509,7 @@ Soit $v = \sum_s v_s e_s$ le vecteur satisfaisant aux conditions du lemme 2, tel
 
 Soit G le sous-groupe de $\mathbf{GL}(E)$ formé des automorphismes laissant invariants v et $B_M$; si $g \in G$, le contragrédient $^tg^{-1}$ laisse stables A et T, et définit par restriction à A un *déplacement i(g)* de A (cf. § 3). Il est immédiat que l’on obtient ainsi un *isomorphisme* de G sur le groupe des déplacements de A. De plus le stabilisateur $G_a$ d’un point a de A s’identifie au groupe orthogonal de l’espace hilbertien T et est donc *compact*. Par ailleurs, G est un groupe localement compact dénombrable à l’infini et A est un espace de Baire : il s’ensuit (*Integr.*, chap. VII, Appendice, lemme 2) que l’application $\psi : g \mapsto g(a)$ définit un homéomorphisme de $G/G_a$ sur A. Donc G *opère proprement sur A* (*Top. gén.*, chap. III, 3e éd., § 4, n° 2, cor. de la prop. 5). Puisque W est un sous-groupe de G, il s’identifie à un groupe de déplacements de A. Nous allons voir que ce groupe satisfait aux hypothèses du § 3. Plus précisément :
 
-#### Proposition 10 {#lie-v-s4-prop-10 .statement}
+#### Proposition 10 {#lie-v-s4-prop-10 .statement tag=0ARY}
 
 Le groupe W muni de la topologie discrète opère proprement sur A ; il est engendré par des réflexions orthogonales ; il est infini, irréductible et essentiel (§ 3, no 7). L’intersection C ∩ A est une chambre de A pour W. Si l’on désigne par L_s l’hyperplan de A intersection de A avec l’hyperplan de E* orthogonal à e_s, les L_s pour s ∈ S forment la famille des murs de C ∩ A. Si ε_s est le vecteur unitaire de T orthogonal à L_s situé du même côté que C ∩ A de L_s, on a $(\varepsilon_s|\varepsilon_t) = -\cos(\pi/m(s, t))$ (pour s, t ∈ S) et la matrice de Coxeter de W (§ 3, no 4) s’identifie à M.
 
@@ -553,7 +553,7 @@ Nous dirons que l’espace affine euclidien A muni du groupe W est l’espace as
 
 La proposition 10 admet une réciproque:
 
-#### Proposition 11 {#lie-v-s4-prop-11 .statement}
+#### Proposition 11 {#lie-v-s4-prop-11 .statement tag=0ARZ}
 
 *Soit W un groupe de déplacements d’un espace affine euclidien A, satisfaisant aux hypothèses du § 3. On suppose que W est infini, essentiel et irréductible. Alors la forme $B_M$ attachée à la matrice de Coxeter M de W est positive dégénérée et il existe un isomorphisme et un seul de l’espace affine $A_M$ associé à M sur A, commutant à l’action de W. Cet isomorphisme transforme le produit scalaire de $A_M$ en un multiple du produit scalaire de A.*
 

@@ -36,36 +36,36 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 12
-content_sha256: 66dcb4fbcc55a0c96c5c0051c099e3fed82e57686efe0442edf352839be118d3
+content_sha256: 3385c831076b062938ee360d77e66a42d6937915a31383259c0a0ca4ecb722cc
 ---
 
 ## § 9. MODULES DUALISANTS
 
 ### 1. Modules dualisants
 
-#### Définition 1 {#ac-x-s9-def-1 .statement}
+#### Définition 1 {#ac-x-s9-def-1 .statement tag=0DBF}
 
 Soit $A$ un anneau noethérien. On dit qu’un $A$-module $\Omega$ est dualisant s’il est de type fini et si, pour tout idéal maximal $m$ de $A$, le $A/m$-espace vectoriel $\mathrm{Ext}_A^i(A/m, \Omega)$ est nul pour $i \neq \mathrm{ht}(m)$ et de dimension 1 pour $i = \mathrm{ht}(m)$.
 
 Pour tout idéal maximal $m$ de $A$ et tout entier $i$, le $A/m$-espace vectoriel $\mathrm{Ext}_A^i(A/m, \Omega)$ est canoniquement isomorphe à $\mathrm{Ext}_{A_m}^i(A/m, \Omega_m)$ ($\S$ 3, n° 2, prop. 2). Par suite, pour qu’un $A$-module de type fini $\Omega$ soit dualisant, il faut et il suffit que le $A_m$-module $\Omega_m$ soit dualisant pour tout idéal maximal $m$ de $A$.
 
-#### Exemple 1 {#ac-x-s9-n1-exa-1 .statement}
+#### Exemple 1 {#ac-x-s9-n1-exa-1 .statement tag=0DBG}
 
 Si l’anneau $A$ est local et artinien, les $A$-modules dualisants sont les $A$-modules injectifs de type fini $\Omega$ tels que $\mathrm{Hom}_A(\kappa_A, \Omega)$ soit de dimension 1 ($\S$ 3, n° 3, prop. 6), c’est-à-dire les $A$-modules de Matlis ($\S$ 8, n° 3).
 
-#### Exemple 2 {#ac-x-s9-n1-exa-2 .statement}
+#### Exemple 2 {#ac-x-s9-n1-exa-2 .statement tag=0DBH}
 
 Pour qu’un anneau noethérien $A$ soit de Gorenstein, il faut et il suffit que le $A$-module $A$ soit dualisant ($\S$ 3, n° 7, prop. 11). En particulier, le $A$-module $A$ est dualisant lorsque $A$ est régulier.
 
-#### Remarque 1 {#ac-x-s9-n1-rem-1 .statement}
+#### Remarque 1 {#ac-x-s9-n1-rem-1 .statement tag=0DBI}
 
 Soient $A$ un anneau local noethérien et $\Omega$ un $A$-module de type fini. Le corps résiduel $\kappa_{\widehat{A}}$ s’identifie à $\kappa_A$, et le $\widehat{A}$-module $\widehat{\Omega}$ à $\widehat{A} \otimes_A \Omega$ (III, $\S$ 3, n° 4, th. 3). Il résulte alors de A, X, p. 111, prop. 10 que le $\kappa_A$-espace vectoriel $\mathrm{Ext}_A^i(\kappa_A, \Omega)$ est canoniquement isomorphe à $\mathrm{Ext}_{\widehat{A}}^i(\kappa_{\widehat{A}}, \widehat{\Omega})$. Par suite pour que le $A$-module $\Omega$ soit dualisant, il faut et il suffit que le $\widehat{A}$-module $\widehat{\Omega}$ soit dualisant.
 
-#### Remarque 2 {#ac-x-s9-n1-rem-2 .statement}
+#### Remarque 2 {#ac-x-s9-n1-rem-2 .statement tag=0DBJ}
 
 Soit $\Omega$ un $A$-module dualisant ; pour tout $A$-module projectif $L$ de rang 1, le $A$-module $\Omega \otimes_A L$ est dualisant (A, X, p. 108, prop. 7, b)). Nous verrons ci-dessous (n° 4, prop. 6) que tout $A$-module dualisant est isomorphe à un module de cette forme.
 
-#### Proposition 1 {#ac-x-s9-prop-1 .statement}
+#### Proposition 1 {#ac-x-s9-prop-1 .statement tag=0DBK}
 
 Soient $A$ un anneau noethérien et $\Omega$ un $A$-module dualisant.
 
@@ -77,7 +77,7 @@ Supposons d’abord l’anneau $A$ local, et notons $d$ sa dimension. La prop. 6
 
 Dans le cas général, le $A_m$-module $\Omega_m$ est dualisant pour tout idéal maximal $m$ de $A$, donc $A_m$ est un anneau de Macaulay et $\Omega_m$ un $A_m$-module macaulayen d’après ce qui précède, ce qui implique a). De plus on a $\mathrm{di}_{A_m}(\Omega_m) = \dim(\Omega_m) = \dim(A_m)$ pour tout idéal maximal $m$, d’où b) par passage à la borne supérieure ($§ 3$, n° 2, prop. 3).
 
-#### Proposition 2 {#ac-x-s9-prop-2 .statement}
+#### Proposition 2 {#ac-x-s9-prop-2 .statement tag=0DBL}
 
 *Soient A un anneau noethérien, $\Omega$ un A-module dualisant. Pour tout idéal premier $p$ de A, le $A_p$-module $\Omega_p$ est dualisant.*
 
@@ -99,7 +99,7 @@ $$
 
 On a $\mathrm{long}_A(\mathrm{Ext}^i_A(A/(p + xA), \Omega)) = \mathrm{long}_A(A/(p + xA))$ (*loc. cit.*); la proposition résulte alors du lemme suivant, appliqué à l’anneau $B = A/p$ et au B-module $M = \mathrm{Ext}^{d-1}_A(A/p, \Omega)$ :
 
-#### Lemme 1 {#ac-x-s9-lem-1 .statement}
+#### Lemme 1 {#ac-x-s9-lem-1 .statement tag=0DBM}
 
 *Soient B un anneau noethérien local, intègre, de dimension 1, et M un B-module sans torsion de type fini. On suppose qu’on a $\mathrm{long}_B(M/xM) = \mathrm{long}_B(B/xB)$ pour tout élément non nul x de B. Alors le B-module M est de rang 1.*
 
@@ -121,23 +121,23 @@ $$
 
 d’où $\operatorname{long}(M/xM) = \operatorname{long}(L/xL)$. Comme $\operatorname{long}(M/xM) = \operatorname{long}(B/xB)$ par hypothèse et $\operatorname{long}(L/xL) = r \operatorname{long}(B/xB)$, on en déduit $r = 1$.
 
-#### Corollaire 1 {#ac-x-s9-lem-1-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s9-lem-1-cor-1 .statement tag=0DBN}
 
 *Pour toute partie multiplicative S de A, le S$^{-1}$A-module S$^{-1}\Omega$ est dualisant.*
 
-#### Corollaire 2 {#ac-x-s9-lem-1-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s9-lem-1-cor-2 .statement tag=0DBO}
 
 *Le support de $\Omega$ est égal à Spec(A).*
 
 En effet un module dualisant sur un anneau local est non nul par définition.
 
-#### Corollaire 3 {#ac-x-s9-lem-1-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s9-lem-1-cor-3 .statement tag=0DBP}
 
 *Soit M un A-module de type fini, et soit i un entier. Le A-module $\operatorname{Ext}_A^i(M, \Omega)$ est de type fini, et son support est de codimension $\geqslant i$ dans Spec(A).*
 
 La première assertion résulte de A, X, p. 108, cor. Soit $\mathfrak{p}$ un idéal premier du support de $\operatorname{Ext}_A^i(M, \Omega)$. On a $\operatorname{Ext}_A^i(M, \Omega)_\mathfrak{p} \neq 0$, donc $\operatorname{Ext}_{A_\mathfrak{p}}^i(M_\mathfrak{p}, \Omega_\mathfrak{p}) \neq 0$ (§ 3, n° 2, prop. 2), ce qui implique $\operatorname{di}_{A_\mathfrak{p}}(\Omega_\mathfrak{p}) \geqslant i$. Comme $\Omega_\mathfrak{p}$ est un $A_\mathfrak{p}$-module dualisant (prop. 2), on a $\operatorname{di}_{A_\mathfrak{p}}(\Omega_\mathfrak{p}) = \dim(A_\mathfrak{p})$ (prop. 1), d’où le corollaire.
 
-#### Proposition 3 {#ac-x-s9-prop-3 .statement}
+#### Proposition 3 {#ac-x-s9-prop-3 .statement tag=0DBQ}
 
 *Soient A un anneau local noethérien, $\Omega$ un A-module dualisant et M un A-module de type fini.
 
@@ -171,7 +171,7 @@ $$
 
 Pour $i > \dim(A) - \operatorname{prof}_A(M)$, le $A$-module $\operatorname{Ext}_A^{i+1}(M/xM, \Omega)$ est nul par l’hypothèse de récurrence, donc l’homothétie de rapport $x$ est surjective dans $\operatorname{Ext}_A^i(M, \Omega)$, ce qui implique que ce $A$-module est nul (lemme de Nakayama). Cela prouve c).
 
-#### Corollaire {#ac-x-s9-n1-cor-1 .statement}
+#### Corollaire {#ac-x-s9-n1-cor-1 .statement tag=0DBR}
 
 *Si $M$ est macaulayen, on a $\operatorname{Ext}_A^i(M, \Omega) = 0$ pour $i \neq c$; le $A$-module $\operatorname{Ext}_A^c(M, \Omega)$ est macaulayen, et son support est égal à celui de $M$.*
 
@@ -193,7 +193,7 @@ la prop. 4 du § 2, n° 3 et l’hypothèse de récurrence entraînent alors que
 
 ### 2. Quotient par une suite régulière
 
-#### Proposition 4 {#ac-x-s9-prop-4 .statement}
+#### Proposition 4 {#ac-x-s9-prop-4 .statement tag=0DBS}
 
 *Soient $A$ un anneau noethérien, $J$ un idéal de $A$ engendré par une suite $A$-régulière $x$, et $\Omega$ un $A$-module de type fini.
 
@@ -213,13 +213,13 @@ $$
 
 (VIII, § 3, n° 1, cor. 2, a)). Or les idéaux maximaux de \overline{A} sont les idéaux \overline{m}, où m est un idéal maximal de A contenant x ; si de plus x appartient au radical de A, tout idéal maximal de A contient x. La proposition en résulte.
 
-#### Corollaire 1 {#ac-x-s9-prop-4-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s9-prop-4-cor-1 .statement tag=0DBT}
 
 **Soit A un anneau noethérien intègre. Tout A-module dualisant est sans torsion et de rang 1.**
 
 Soit \Omega un A-module dualisant ; il est sans torsion d’après la prop. 4. Soit K le corps des fractions de A ; le K-espace vectoriel K \otimes_A \Omega est dualisant (n° 1, prop. 2), donc de dimension 1.
 
-#### Corollaire 2 {#ac-x-s9-prop-4-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s9-prop-4-cor-2 .statement tag=0DBU}
 
 **Soient A un anneau de Macaulay local, \Omega un A-module de type fini, et x une suite sécante maximale d’éléments de m_A, engendrant un idéal J. Les conditions suivantes sont équivalentes :**
 
@@ -238,7 +238,7 @@ Soit \Omega un A-module dualisant ; il est sans torsion d’après la prop. 4. S
 
 ### 3. Changement d’anneaux
 
-#### Proposition 5 {#ac-x-s9-prop-5 .statement}
+#### Proposition 5 {#ac-x-s9-prop-5 .statement tag=0DBV}
 
 Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens, faisant de $B$ un $A$-module plat. On suppose que pour tout idéal maximal $n$ de $B$, l’anneau $\kappa(\rho^{-1}(n)) \otimes_A B$ est un anneau de Gorenstein. Soit $\Omega$ un $A$-module dualisant ; le $B$-module $\Omega_{(B)}$ est dualisant.
 
@@ -277,13 +277,13 @@ Les $B$-modules $\mathrm{Hom}_B(\kappa_A \otimes_A B, \Omega_{(B)})$ et $\mathrm
 
 Passons au cas général. Posons $C = \kappa_A \otimes_A B$; c’est par hypothèse un anneau de Gorenstein, donc un anneau de Macaulay ($§ 3, n° 7$, prop. 10). D’après la prop. 1 du n° 1, $A$ est un anneau de Macaulay, et le $A$-module $\Omega$ est macaulayen. Par suite $B$ est un anneau de Macaulay, et le $B$-module $\Omega_{(B)}$ est macaulayen ($§ 2, n° 7$, cor. 1 de la prop. 9). Posons $r = \dim(A)$, $s = \dim(C)$. Il existe une suite $(x_1, \ldots, x_r)$ d’éléments de $\mathfrak{m}_A$ régulière pour les $A$-modules $A$ et $\Omega$, et une suite $(y_1, \ldots, y_s)$ d’éléments de $\mathfrak{m}_B$ régulière pour le $B$-module $C$; notons $x$ l’idéal de $A$ et $\mathfrak{g}$ l’idéal de $B$ qu’elles engendrent respectivement. La suite $(y_1, \ldots, y_s, \rho(x_1), \ldots, \rho(x_r))$ est régulière pour les $B$-modules $B$ et $\Omega_{(B)}$ ($§ 1, n° 6$, prop. 11), et le $A$-module $B/\mathfrak{g}$ est plat (*loc. cit.*, prop. 10). Posons $A' = A/x$, $B' = B/(xB + \mathfrak{g})$ et notons $\rho' : A' \to B'$ l’homomorphisme déduit de $\rho$ par passage aux quotients. Les anneaux $A'$ et $B'$ sont artiniens, le $A'$-module $B'$ est plat, l’anneau $\kappa_{A'} \otimes_{A'} B'$, qui s’identifie à $C/\mathfrak{g}$, est un anneau de Gorenstein ($§ 3, n° 7$, exemple 2) et le $A'$-module $\Omega_{(A')}$ est dualisant (n° 2, prop. 4). D’après la première partie de la démonstration, le $B'$-module $\Omega_{(B')}$ est dualisant. Il résulte alors de *loc. cit.* que le $B$-module $\Omega_{(B)}$ est dualisant.
 
-#### Corollaire {#ac-x-s9-n3-cor-1 .statement}
+#### Corollaire {#ac-x-s9-n3-cor-1 .statement tag=0DBW}
 
 *Soit A un anneau noethérien, admettant un module dualisant $\Omega$; soit B une algèbre de polynômes sur A en un nombre fini d’indéterminées. Le B-module $\Omega_{(B)}$ est dualisant.*
 
 En effet, pour tout idéal premier $\mathfrak{p}$ de $A$, l’anneau $\kappa(\mathfrak{p}) \otimes_A A[X]$ s’identifie à $\kappa(\mathfrak{p})[X]$, qui est régulier, donc de Gorenstein.
 
-#### Proposition 6 {#ac-x-s9-prop-6 .statement}
+#### Proposition 6 {#ac-x-s9-prop-6 .statement tag=0DBX}
 
 *Soient $A$ un anneau local noethérien et $\Omega$ un $A$-module dualisant. Soit B une A-algèbre finie ; on suppose que le A-module B est macaulayen. Le B-module $\mathrm{Ext}_A^i(B, \Omega)$ est nul pour $i \neq \dim(A) - \dim(B)$ et dualisant pour $i = \dim(A) - \dim(B)$.
 
@@ -301,23 +301,23 @@ $$
 
 Par l’hypothèse de récurrence, le $B/xB$-module $\mathrm{Ext}_A^{c+1}(B/xB, \Omega)$ est dualisant. Comme la A-algèbre B est finie, l’image de $m_A$ dans B est contenue dans le radical de B (V, $§ 2$, n° 1, prop. 1) ; d’après la prop. 4 du n° 2, le B-module $\mathrm{Ext}_A^c(B, \Omega)$ est dualisant.
 
-#### Corollaire 1 {#ac-x-s9-prop-6-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s9-prop-6-cor-1 .statement tag=0DBY}
 
 *Soient A un anneau noethérien, $\Omega$ un A-module dualisant, et B une A-algèbre finie ; on suppose que le A-module B est macaulayen. Le B-module $\mathrm{Ext}_A(B, \Omega)$ est dualisant.*
 
 Notons $\Omega'$ le B-module $\mathrm{Ext}_A(B, \Omega)$. Soit $n$ un idéal maximal de B ; son image réciproque dans A est un idéal maximal $m$ (V, $§ 2$, n° 1, prop. 1). La $A_m$-algèbre $B_m = A_m \otimes_A B$ est finie, et c’est un $A_m$-module macaulayen ; d’après la proposition, le $B_m$-module $\Omega'_m$, qui s’identifie à $\mathrm{Ext}_{A_m}(B_m, \Omega_m)$ ($§ 3$, n° 2, prop. 2) est dualisant. Comme $B_n$ est un anneau de fractions de $B_m$, le $B_n$-module $\Omega'_n$ est dualisant, d’où le corollaire.
 
-#### Remarque {#ac-x-s9-n3-rem-1 .statement}
+#### Remarque {#ac-x-s9-n3-rem-1 .statement tag=0DBZ}
 
 Gardons les hypothèses du cor. 1 et supposons en outre que l’homomorphisme canonique $\rho : A \to B$ soit injectif. On a alors $\dim(A_m) = \dim(B_m)$ pour tout idéal maximal $m$ de A (VIII, $§ 2$, n° 3, th. 1 a)). D’après la prop. 6 et le cor. 1, $\mathrm{Ext}_A^i(B, \Omega)$ est nul pour $i \neq 0$, et le B-module $\mathrm{Hom}_A(B, \Omega)$ est dualisant.
 
-#### Corollaire 2 {#ac-x-s9-prop-6-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s9-prop-6-cor-2 .statement tag=0DC0}
 
 *Si un anneau noethérien A possède un module dualisant, toute A-algèbre de type fini qui est un anneau de Macaulay possède un module dualisant.*
 
 Cela résulte du cor. 1 et du cor. de la prop. 5.
 
-#### Corollaire 3 {#ac-x-s9-prop-6-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s9-prop-6-cor-3 .statement tag=0DC1}
 
 *Tout anneau de Macaulay présentable (en particulier, tout anneau de Macaulay local complet) possède un module dualisant.*
 
@@ -327,7 +327,7 @@ Plus généralement, tout anneau de Macaulay quotient d’un anneau de Gorenstei
 
 ### 4. Structure des modules dualisants
 
-#### Lemme 2 {#ac-x-s9-lem-2 .statement}
+#### Lemme 2 {#ac-x-s9-lem-2 .statement tag=0DC2}
 
 Soient $A$ un anneau noethérien, $M$ et $N$ des $A$-modules de type fini, $u : M \to N$ un homomorphisme. Soit $x$ un élément du radical de $A$, tel que l’homothétie $x_N$ soit injective. Si l’homomorphisme $\overline{u} : M/xM \to N/xN$ induit par $u$ est injectif (resp. surjectif, resp. bijectif), il en est de même de $u$.
 
@@ -343,7 +343,7 @@ $$
 
 à l’aide du lemme du serpent (I, § 1, n° 4, prop. 2), on en déduit une suite exacte $\mathrm{Ker}\, u \xrightarrow{x} \mathrm{Ker}\, u \longrightarrow \mathrm{Ker}\, \overline{u}$. Si $\overline{u}$ est injective, l’homothétie de rapport $x$ est surjective dans $\mathrm{Ker}\, u$, ce qui implique $\mathrm{Ker}\, u = 0$ par le lemme de Nakayama.
 
-#### Proposition 7 {#ac-x-s9-prop-7 .statement}
+#### Proposition 7 {#ac-x-s9-prop-7 .statement tag=0DC3}
 
 Soient $A$ un anneau noethérien et $\Omega$ un $A$-module dualisant.
 
@@ -375,13 +375,13 @@ B) Passons au cas général. Pour tout idéal maximal $m$ de $A$ et tout entier 
 
 Prouvons enfin c). Soit $\Omega'$ un $A$-module dualisant. Désignons par $L$ le $A$-module $\mathrm{Hom}_A(\Omega', \Omega)$, et par $v : \Omega' \otimes_A L \to \Omega$ l’homomorphisme tel que $v(x \otimes f) = f(x)$ pour $x \in \Omega'$, $f \in L$. Soit $m$ un idéal maximal de $A$. Le $A_m$-module $L_m$ s’identifie à $\mathrm{Hom}_{A_m}(\Omega'_m, \Omega_m)$; d’après le cas déjà traité il est libre de rang un, et tout isomorphisme $h : \Omega'_m \to \Omega_m$ en est un générateur. Lorsqu’on identifie $L_m$ à $A_m$ à l’aide du générateur $h$, l’homomorphisme $v_m : \Omega'_m \otimes_{A_m} L_m \to \Omega_m$ s’identifie à $h$, donc est bijectif. Ceci ayant lieu pour tout idéal maximal $m$ de $A$, le $A$-module $L$ est projectif de rang un (II, $§ 5$, n° 3, th. 2), et l’homomorphisme $v$ est bijectif (II, $§ 3$, n° 3, th. 1).
 
-#### Corollaire 1 {#ac-x-s9-prop-7-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s9-prop-7-cor-1 .statement tag=0DC4}
 
 *Pour que $A$ soit un anneau de Gorenstein, il faut et il suffit que le $A$-module $\Omega$ soit projectif de rang 1*.
 
 Cela résulte de l’exemple 2 du n° 1 et de la prop. 7 c).
 
-#### Corollaire 2 {#ac-x-s9-prop-7-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s9-prop-7-cor-2 .statement tag=0DC5}
 
 *Supposons que l’anneau $A$ soit présentable. L’ensemble des idéaux premiers $p$ de $A$ tels que $A_p$ soit un anneau de Gorenstein est ouvert dans $\mathrm{Spec}(A)$*.
 
@@ -435,7 +435,7 @@ $$
 \alpha_M : M \to H_0(D(D(M))).
 $$
 
-#### Théorème 1 {#ac-x-s9-thm-1 .statement}
+#### Théorème 1 {#ac-x-s9-thm-1 .statement tag=0DC6}
 
 **Soit $M$ un $A$-module de type fini. Alors $\alpha_M$ est un homologisme : on a $H_i(D(D(M))) = 0$ pour $i \neq 0$ et l’homomorphisme $\alpha_M$ est bijectif.**
 
@@ -503,7 +503,7 @@ $$
 \beta_M : M \to \mathrm{Ext}_A^c(\mathrm{Ext}_A^c(M, \Omega), \Omega).
 $$
 
-#### Corollaire {#ac-x-s9-n5-cor-1 .statement}
+#### Corollaire {#ac-x-s9-n5-cor-1 .statement tag=0DC7}
 
 Si le $A$-module $M$ est macaulayen, l’homomorphisme $\beta_M$ est bijectif.
 
@@ -517,7 +517,7 @@ Dans ce numéro, on considère un anneau $A$ intègre, noethérien, de dimension
 
 L’homomorphisme canonique $\Omega \to V$ est injectif, et le K-espace vectoriel V est de dimension 1 (n° 2, cor. 1 de la prop. 4) ; identifions $\Omega$ à un sous-A-module de V.
 
-#### Proposition 8 {#ac-x-s9-prop-8 .statement}
+#### Proposition 8 {#ac-x-s9-prop-8 .statement tag=0DC8}
 
 *Le A-module $V/\Omega$ est un module de Matlis.*
 
@@ -611,7 +611,7 @@ Puisque $\Omega_B$ est un B-module, la relation $x \Omega \subset \Omega_B$ équ
 
 Nous allons particulariser ce qui précède au cas où B est la clôture intégrale de A ; l’hypothèse que B soit un A-module de type fini est satisfaite lorsque l’anneau A est japonais (IX, § 4, n° 1, déf. 1), ce qui est le cas lorsqu’il est local et complet (*loc. cit.*, n° 2, th. 2), ou lorsqu’il est essentiellement de type fini sur un corps (*loc. cit.*, n° 1, remarque 2 et exemple). L’anneau B est alors un anneau de Dedekind (VII, § 2, n° 2, th. 1), et les B-modules sans torsion $\Omega_B$, $B\Omega$ et $c$ sont projectifs de rang 1 (VII, § 4, n° 10, prop. 22). La relation $c = \Omega_B : B\Omega$ signifie alors que l’application linéaire $c \otimes_B B\Omega \to \Omega_B$ déduite de l’action de K sur V est un isomorphisme (II, § 5, n° 6, prop. 11). On a en particulier $\Omega_B = c(B\Omega) = c\Omega$.
 
-#### Proposition 9 {#ac-x-s9-prop-9 .statement}
+#### Proposition 9 {#ac-x-s9-prop-9 .statement tag=0DC9}
 
 *Soient B la clôture intégrale de A, et $c = A : B$. Supposons que B soit un A-module de type fini. On a l’inégalité $[B/c] \leq 2[B/A]$ dans $Z_0(A)$. Pour qu’il y ait égalité, il faut et il suffit que A soit un anneau de Gorenstein.*
 

@@ -45,7 +45,7 @@ subsections:
       pdf_page: 288
 statements: 24
 exercises: 26
-content_sha256: 6fe2ee3ed4cf839ea264f266626d8fb1c5ff14bdcde63b0c4d9dc44668fa7dfc
+content_sha256: bbc4c9265a358c8a03dba09dd6f583c1d3176c59f530f843e58111b9bb22ab18
 ---
 
 ## 6. TOPOLOGICAL GROUPS WITH OPERATORS; TOPOLOGICAL RINGS, DIVISION RINGS AND FIELDS
@@ -56,7 +56,7 @@ On a set $G$, a structure of a group with operators and a topology are said to b
 
 If $H$ is a stable subgroup of a topological group $G$ with operators, then the topology induced on $H$ by the topology of $G$ is compatible with the structure of group with operators on $H$. Furthermore:
 
-#### Proposition 1 {#top-iii-s6-prop-1 .statement}
+#### Proposition 1 {#top-iii-s6-prop-1 .statement tag=0BN2}
 
 *If $H$ is a stable subgroup of a topological group $G$ with operators, then the closure $\overline{H}$ of $H$ in $G$ is a stable subgroup of $G$.*
 
@@ -74,11 +74,11 @@ Since the study of commutative groups with operators is equivalent to the study 
 
 If a commutative topological group $E$ with operators (written additively) is the direct sum of a *finite* family $(M_i)_{1 \leq i \leq n}$ of stable subgroups, then the canonical bijection $(x_i) \to \sum_{i=1}^n x_i$ of the product group $\prod_{i=1}^n M_i$ onto $E$ is *continuous*, but is *not necessarily a homeomorphism*.
 
-#### Definition 1 {#top-iii-s6-def-1 .statement}
+#### Definition 1 {#top-iii-s6-def-1 .statement tag=0BN3}
 
 *Let $E$ be a commutative topological group with operators, and let $(M_i)_{1 \leq i \leq n}$ be a finite family of stable subgroups of $E$, such that $E$ is the direct sum of the $M_i$. Then $E$ is said to be the topological direct sum of the $M_i$ if the canonical mapping $(x_i) \to \sum_{i=1}^n x_i$ of the product group $\prod_{i=1}^n M_i$ onto $E$ is a homeomorphism* (and therefore an isomorphism of topological groups with operators).
 
-#### Proposition 2 {#top-iii-s6-prop-2 .statement}
+#### Proposition 2 {#top-iii-s6-prop-2 .statement tag=0BN4}
 
 *Let $E$ be a commutative topological group with operators which is the direct sum of stable subgroups $M_i$ ($1 \leq i \leq n$). Let $(p_i)_{1 \leq i \leq n}$ be the family of projectors associated with the decomposition $E = \sum_{i=1}^n M_i$. Then $E$ is the topological direct sum of the $M_i$ if and only if the $p_i$ are continuous.*
 
@@ -88,7 +88,7 @@ Since $1 = \sum_{i=1}^n P_i$ (where $1$ denotes the identity mapping of $E$) it 
 
 If $E$ is the topological direct sum of two stable subgroups $M, N$, then $N$ is said to be a *topological complement* of $M$ in $E$; this is the case if and only if the canonical mapping of $E/M$ onto is an *isomorphism* of topological groups with operators.
 
-#### Corollary {#top-iii-s6-n2-cor-1 .statement}
+#### Corollary {#top-iii-s6-n2-cor-1 .statement tag=0BN5}
 
 *Let $E$ be a commutative topological group with operators, and let $M$ be a stable subgroup of $E$. Then the following conditions are equivalent:*
 
@@ -100,15 +100,15 @@ c) *The identity mapping of $M$ can be extended to a continuous linear mapping o
 
 It follows from Proposition 2 that a) implies b), and it is clear that b) implies c). Finally, if $p$ is a continuous linear mapping of $E$ onto $M$ which extends the identity mapping of $M$, then $p$ is a continuous projector, and the projectors $p$ and $1 - p$ are associated with the direct sum decomposition $E = M + N$, where $N = \overline{p}(0)$.
 
-#### Remark 1 {#top-iii-s6-n2-rem-1 .statement}
+#### Remark 1 {#top-iii-s6-n2-rem-1 .statement tag=0BN6}
 
 To avoid confusion, we shall sometimes say that a stable subgroup of $E$ which is a complement of $M$ (in the sense of the structure of group with operators, without a topology) is an *algebraic complement* of $M$.
 
-#### Remark 2 {#top-iii-s6-n2-rem-2 .statement}
+#### Remark 2 {#top-iii-s6-n2-rem-2 .statement tag=0BN7}
 
 If a *Hausdorff* commutative topological group with operators is the topological direct sum of a family $(M_i)_{1 \leq i \leq n}$ of stable subgroups, then each of the subgroups $M_i$ is *closed* in $E$, for $M_i$ is the set of all $x \in E$ such that $p_i(x) = x$ (Chapter I, § 8, no. 1, Proposition 2).
 
-#### Proposition 3 {#top-iii-s6-prop-3 .statement}
+#### Proposition 3 {#top-iii-s6-prop-3 .statement tag=0BN8}
 
 *Let $E, F$ be two commutative topological groups with operators, and let $u$ be a continuous linear mapping of $E$ into $F$. In order that there should exist a continuous linear mapping $v$ of $F$ into $E$ such that $u \circ v$ is the identity mapping of $F$ (in which case $u$ is said to be right invertible and $v$ is said to be a *right inverse* of $u$) it is necessary and sufficient that $u$ is a strict morphism (§ 2, no. 8) of $E$ onto $F$ and that $\overline{u}(0)$ has a topological complement in $E$.*
 
@@ -116,7 +116,7 @@ The conditions are *necessary*. For we have then $u(v(F)) = F$ and *a fortiori* 
 
 The conditions are *sufficient*. For if $\varphi$ is the canonical homomorphism of E onto $E/\overline{u}^1(o)$, to say that $\overline{u}^1(o)$ has a topological complement M in E is to say that the restriction of $\varphi$ to M is an isomorphism of M onto $E/\overline{u}^1(o)$. Since on the other hand $u = w \circ \varphi$, where w is an isomorphism of $E/\overline{u}^1(o)$ onto F, we see that the restriction of u to M is an isomorphism of M onto F, and the inverse isomorphism v is therefore such that $u \circ v$ is the identity mapping of F onto itself.
 
-#### Proposition 4 {#top-iii-s6-prop-4 .statement}
+#### Proposition 4 {#top-iii-s6-prop-4 .statement tag=0BN9}
 
 *Let E, F be two commutative topological groups with operators, and let u be a continuous linear mapping of E into F. In order that there should exist a continuous linear mapping v of F into E such that $v \circ u$ is the identity mapping of E onto itself* (in which case u is said to be *left invertible* and v is said to be a *left inverse* of u) *it is necessary and sufficient that u is a (topological) isomorphism of E onto u(E), and that u(E) has a topological complement in F.*
 
@@ -126,7 +126,7 @@ The conditions are *necessary*. For the relation $v(u(x)) = x$ shows that $\over
 
 ### 3. TOPOLOGICAL RINGS
 
-#### Definition 2 {#top-iii-s6-def-2 .statement}
+#### Definition 2 {#top-iii-s6-def-2 .statement tag=0BNA}
 
 *A topological ring is a set A which carries a ring structure and a topology satisfying the following axioms:*
 
@@ -138,11 +138,11 @@ The first two axioms express that the topology of A is compatible with its *addi
 
 If a ring structure and a topology are given on a set A, they are said to be *compatible* if they satisfy axioms (AT$_\mathrm{I}$), (AT$_\mathrm{II}$) and (AT$_\mathrm{III}$).
 
-#### Example 1 {#top-iii-s6-n3-exa-1 .statement}
+#### Example 1 {#top-iii-s6-n3-exa-1 .statement tag=0BNB}
 
 On any ring A, the *discrete* topology is compatible with the ring structure. A topological ring whose topology is discrete is called a *discrete* ring.
 
-#### Example 2 {#top-iii-s6-n3-exa-2 .statement}
+#### Example 2 {#top-iii-s6-n3-exa-2 .statement tag=0BNC}
 
 We shall see in Chapter IV that the topology of the rational line Q (resp. the real line R) is compatible with the ring structure of Q (resp. R).*
 
@@ -160,7 +160,7 @@ From this we can deduce a necessary and sufficient set of conditions which the f
 (AV_I). *For all* $x_0 \in A$ *and all* $V \in \mathfrak{B}$, *there exists* $W \in \mathfrak{B}$ *such that* $x_0 W \subset V$ *and* $W x_0 \subset V$.
 (AV_{II}). *For all* $V \in \mathfrak{B}$, *there exists* $W \in \mathfrak{B}$ *such that* $WW \subset V$.
 
-#### Remark {#top-iii-s6-n3-rem-1 .statement}
+#### Remark {#top-iii-s6-n3-rem-1 .statement tag=0BND}
 
 In analysis one fairly often meets rings which satisfy axioms (AT_I), (AT_{II}) and (AT_{III a}), but not (AT_{III b}). *An example is the ring of measures on a compact group, where multiplication is convolution and the topology is the vague topology.*
 
@@ -176,7 +176,7 @@ Let $X$ be a topological space, and let $f$ and $g$ be two mappings of $X$ into 
 
 If $H$ is a subring of a topological ring $A$, then the topology induced on $H$ by that of $A$ is compatible with the ring structure of $H$. The topological ring structure thus defined on $H$ is said to be *induced* by that of $A$.
 
-#### Proposition 5 {#top-iii-s6-prop-5 .statement}
+#### Proposition 5 {#top-iii-s6-prop-5 .statement tag=0BNE}
 
 *Let $H$ be a dense subring of a topological ring $A$, and let $K$ be a subring (resp. left ideal, right ideal, two-sided ideal) of $H$. Then the closure $\overline{K}$ of $K$ in $A$ is a subring (resp. left ideal, right ideal, two-sided ideal) of $A$.*
 
@@ -192,7 +192,7 @@ When we speak of *the* uniformity of a topological ring, we always mean the unif
 
 Let $A$ be a *Hausdorff* topological ring; as an additive group $A$ can be considered as a dense subgroup of a *complete Hausdorff commutative* group $\hat{A}$, which is determined up to isomorphism ($\S$ 3, no. 5, Theorem 2). In order that we should be able to consider $A$ as a *subring* of a *complete ring*, it is necessary to be able to extend the function $xy$ by continuity to the space $\hat{A} \times \hat{A}$. The possibility of this extension will follow from the following more general theorem :
 
-#### Theorem 1 {#top-iii-s6-thm-1 .statement}
+#### Theorem 1 {#top-iii-s6-thm-1 .statement tag=0BNF}
 
 Let E, F, G be three complete Hausdorff commutative groups; let A be a dense subgroup of E and let B be a dense subgroup of F. If f is a $\mathbf{Z}$ continuous $\mathbf{Z}$-bilinear (*) mapping of $A \times B$ into G, then f can be extended by continuity to a continuous $\mathbf{Z}$-bilinear mapping of $E \times F$ into G.
 
@@ -232,7 +232,7 @@ $$
 
 the $\mathbf{Z}$-bilinear mapping $(x, y) \to xy$, which by hypothesis is continuous. We denote again by $xy$ the value of the extended function on $\hat{A} \times \hat{A}$; this function is a law of composition on $\hat{A}$, and to say that it is $\mathbf{Z}$-bilinear means that it is distributive on both sides with respect to addition; and it is also *associative*, by the principle of extension of identities. Consequently:
 
-#### Proposition 6 {#top-iii-s6-prop-6 .statement}
+#### Proposition 6 {#top-iii-s6-prop-6 .statement tag=0BNG}
 
 *A Hausdorff topological ring* $A$ *is isomorphic to a dense subring of a complete Hausdorff ring* $\hat{A}$, *which is determined up to isomorphism* (and is called the *completion* of $A$).
 
@@ -252,7 +252,7 @@ is commutative ($\varphi$ and $\psi$ being the canonical mappings); we have only
 
 ### 6. TOPOLOGICAL MODULES
 
-#### Definition 3 {#top-iii-s6-def-3 .statement}
+#### Definition 3 {#top-iii-s6-def-3 .statement tag=0BNH}
 
 *Given a topological ring* $A$ *with an identity element, a topological left* $A$*-module is a set* $E$, *together with*:
 
@@ -262,15 +262,15 @@ is commutative ($\varphi$ and $\psi$ being the canonical mappings); we have only
 
 We define similarly the notion of a topological right $A$-module; since every right $A$-module can be considered as a left $A^0$-module, where $A^0$ is the opposite ring of $A$, and since the topology of $A$ is compatible with the ring structure of $A^0$, there is no need to distinguish between topological right $A$-modules and topological left $A^0$-modules.
 
-#### Example 1 {#top-iii-s6-n6-exa-1 .statement}
+#### Example 1 {#top-iii-s6-n6-exa-1 .statement tag=0BNI}
 
 A topological vector space over $\mathbf{R}$ (resp. $\mathbf{C}$) is a topological $\mathbf{R}$ (resp. $\mathbf{C}$) module.
 
-#### Example 2 {#top-iii-s6-n6-exa-2 .statement}
+#### Example 2 {#top-iii-s6-n6-exa-2 .statement tag=0BNJ}
 
 Let $A$ be a ring and let $\mathfrak{B}$ be a filter base on $A$ consisting of two-sided ideals of $A$; let $E$ be a left $A$-module. If we give $A$ the topology (compatible with its ring structure) for which $\mathfrak{B}$ is a fundamental system of neighbourhoods of $0$ (no. 3, Example 3), and $E$ the topology (compatible with its additive group structure) in which the sets $aE$, as $a$ runs through $\mathfrak{B}$, form a fundamental system of neighbourhoods of $0$ ($§ 1$, no. 2, Example), it is immediately verified that $E$ is a topological $A$-module.
 
-#### Remark {#top-iii-s6-n6-rem-1 .statement}
+#### Remark {#top-iii-s6-n6-rem-1 .statement tag=0BNK}
 
 Given a topological ring $A$, consider, on a left $A$-module $E$, a topology compatible with the additive group structure of $E$. By virtue of the identity
 $$
@@ -312,7 +312,7 @@ The definitions and results of this section apply equally well to *pseudo-module
 
 In what follows, and in Chapters IV and V, if $K$ is a *division ring* we shall denote by $K^*$ the *multiplicative group* of non-zero elements of $K$.
 
-#### Definition 4 {#top-iii-s6-def-4 .statement}
+#### Definition 4 {#top-iii-s6-def-4 .statement tag=0BNL}
 
 *A topological division ring is a set* $K$ *carrying a division ring structure and a topology compatible with the ring structure of* $K$, *and satisfying in addition the following axiom:*
 
@@ -322,11 +322,11 @@ In what follows, and in Chapters IV and V, if $K$ is a *division ring* we shall 
 
 A division ring structure and a topology on a set $K$ are said to be *compatible* if the corresponding ring structure and the topology are compatible and if in addition axiom (KT) is satisfied.
 
-#### Example 1 {#top-iii-s6-n7-exa-1 .statement}
+#### Example 1 {#top-iii-s6-n7-exa-1 .statement tag=0BNM}
 
 On any division ring $K$, the *discrete* topology is compatible with the division ring structure. A topological division ring whose topology is discrete is called a *discrete* division ring.
 
-#### Example 2 {#top-iii-s6-n7-exa-2 .statement}
+#### Example 2 {#top-iii-s6-n7-exa-2 .statement tag=0BNN}
 
 \* The topology of the rational line $Q$ (resp. the real line $R$) is compatible with the field structure of $R$ (resp. $R$) (see Chapter IV, § 3). \*
 
@@ -355,13 +355,13 @@ The uniformity *induced* on $K^*$ by the additive uniformity of $K$ is in genera
 
 By Proposition 6, a Hausdorff topological division ring $K$ can be considered as a *dense subring* of a *complete Hausdorff ring* $\hat{K}$. In order that $\hat{K}$ should be a *topological division ring* it is necessary that the mapping x \to x^{-1} be extendable by continuity to (\hat{K})^*; and this necessary condition is also sufficient, for the functions xx^{-1}, x^{-1}x and 1 are then equal on (\hat{K})^* by reason of the principle of extension of identities, and therefore the value of the extended function is the inverse of x for each $x \neq 0$ in $\hat{K}$. In other words (cf. Chapter II, , no. 6, Proposition 11)
 
-#### Proposition 7 {#top-iii-s6-prop-7 .statement}
+#### Proposition 7 {#top-iii-s6-prop-7 .statement tag=0BNO}
 
 *The completion $\hat{K}$ of a Hausdorff topological division ring K is a topological division ring if and only if the image under the mapping $x \to x^{-1}$ of every Cauchy filter (with respect to the additive structure) which does not have a cluster point at 0, is a Cauchy filter (with respect to the additive structure).*
 
 There are topological division rings in which this condition is not satisfied and in which the ring $\hat{K}$ has zero divisors (see Exercise 26). Moreover, even if the completion $\hat{K}$ is a topological division ring, there is no *a priori* reason to assume that the *multiplicative* structures of $\hat{K}$ are structures of a *complete* space. However, this will be the case for division rings K such that $\hat{K}$ is *locally compact* (see Chapter I, § 9, no. 7, Proposition 13, and Chapter III, § 3, no. 3, Proposition 4) and for topological *fields*; for the latter, we have the following proposition:
 
-#### Proposition 8 {#top-iii-s6-prop-8 .statement}
+#### Proposition 8 {#top-iii-s6-prop-8 .statement tag=0BNP}
 
 *If the additive uniform structure of a topological field K is a structure of a complete Hausdorff space, then the multiplicative structure on K* is a structure of a complete space.*
 

@@ -38,14 +38,14 @@ subsections:
       pdf_page: 35
 statements: 31
 exercises: 16
-content_sha256: 51eb315865ebd0fe6d8b55423bd4e7c627c6f96079439a547acab4fe95c7441d
+content_sha256: 5e673d0115ec27e87cd42d00b10d88a67c6691b3b1a9b1ee5776c4a964875bff
 ---
 
 ## § 1. LAWS OF COMPOSITION; ASSOCIATIVITY; COMMUTATIVITY
 
 ### 1. LAWS OF COMPOSITION
 
-#### Definition 1 {#alg-i-s1-def-1 .statement}
+#### Definition 1 {#alg-i-s1-def-1 .statement tag=055B}
 
 Let E be a set. A mapping f of E × E into E is called a law of composition on E. The value f(x, y) of f for an ordered pair (x, y) ∈ E × E is called the composition of x and y under this law. A set with a law of composition is called a magma.
 
@@ -53,7 +53,7 @@ The composition of x and y is usually denoted by writing x and y in a definite o
 
 By an abuse of language, a mapping of a subset of E × E into E is sometimes called a law of composition not everywhere defined on E.
 
-#### Example {#alg-i-s1-n1-exa-1 .statement}
+#### Example {#alg-i-s1-n1-exa-1 .statement tag=055C}
 
 (1) The mappings (X, Y) ↦ X ∪ Y and (X, Y) ↦ X ∩ Y are laws of composition on the set of subsets of a set E.
 
@@ -73,7 +73,7 @@ Let $(x, y) \mapsto x \tau y$ be a law of composition on a set E. Given any two 
 
 If $a \in E$ we usually write $a \tau Y$ instead of $\{a\} \tau Y$ and $X \tau a$ instead of $X \tau \{a\}$. The mapping $(X, Y) \mapsto X \tau Y$ is a law of composition on the set of subsets of E.
 
-#### Definition 2 {#alg-i-s1-def-2 .statement}
+#### Definition 2 {#alg-i-s1-def-2 .statement tag=055D}
 
 *Let E be a magma and $\tau$ denote its law of composition. The law of composition $(x, y) \mapsto y \tau x$ on E is called the opposite of the above. The set E with this law is called the opposite magma of E.*
 
@@ -85,7 +85,7 @@ for every ordered pair $(x, y) \in E \times E$ is called an *isomorphism of E on
 
 More generally:
 
-#### Definition 3 {#alg-i-s1-def-3 .statement}
+#### Definition 3 {#alg-i-s1-def-3 .statement tag=055E}
 
 *A mapping f of E into E' such that relation (1) holds for every ordered pair $(x, y) \in E \times E$ is called a homomorphism, or morphism, of E into E'; if $E = E'$, f is called an endomorphism of E.*
 
@@ -111,7 +111,7 @@ Two ordered sequences $(x_i)_{i \in I}$ and $(y_k)_{k \in K}$ are called similar
 
 Every ordered sequence $(x_\alpha)_{\alpha \in A}$ is similar to a suitable finite sequence. For there exists an increasing bijection of A onto an interval $[0, n]$ of $\mathbf{N}$.
 
-#### Definition 4 {#alg-i-s1-def-4 .statement}
+#### Definition 4 {#alg-i-s1-def-4 .statement tag=055F}
 
 *Let* $(x_\alpha)_{\alpha \in A}$ *be an ordered sequence of elements in a magma E whose indexing set A is non-empty. The composition (under the law T) of the ordered sequence* $(x_\alpha)_{\alpha \in A}$, *denoted by* $\prod_{\alpha \in A} x_\alpha$, *is the element of E defined by induction on the number of elements in A as follows:*
 
@@ -121,7 +121,7 @@ Every ordered sequence $(x_\alpha)_{\alpha \in A}$ is similar to a suitable fini
 
 It follows immediately (by induction on the number of elements in the indexing sets) that the compositions of two similar ordered sequences are equal; in particular, the composition of any ordered sequence is equal to the composition of a finite sequence. If $A = \{\lambda, \mu, \nu\}$ has three elements ($\lambda < \mu < \nu$) the composition $\prod_{\alpha \in A} x_\alpha$ is $x_\lambda \ T \ (x_\mu \ T \ x_\nu)$.
 
-#### Remark {#alg-i-s1-n2-rem-1 .statement}
+#### Remark {#alg-i-s1-n2-rem-1 .statement tag=055G}
 
 Note that there is a certain arbitrariness about the definition of the composition of an ordered sequence; the induction we introduced proceeds "from right to left". If we proceeded "from left to right", the composition of the above ordered sequence $(x_\lambda, x_\mu, x_\nu)$ would be $(x_\lambda \ T \ x_\mu) \ T \ x_\nu$.
 
@@ -139,7 +139,7 @@ $$
 
 ### 3. ASSOCIATIVE LAWS
 
-#### Definition 5 {#alg-i-s1-def-5 .statement}
+#### Definition 5 {#alg-i-s1-def-5 .statement tag=055H}
 
 *A law of composition* $(x, y) \mapsto x \top y$ *on a set* E *is called associative if, for all elements* $x, y, z$ *in* E,
 $$
@@ -149,12 +149,12 @@ $$
 
 The opposite law of an associative law is associative.
 
-#### Example {#alg-i-s1-n3-exa-1 .statement}
+#### Example {#alg-i-s1-n3-exa-1 .statement tag=055I}
 
 (1) Addition and multiplication of natural numbers are associative laws of composition on $\mathbf{N}$ (*Set Theory*, III, § 3, no. 3, Corollary to Proposition 5)
 (2) The laws cited in Examples (1), (3) and (4) of no. 1 are associative.
 
-#### Theorem 1 (Associativity theorem) {#alg-i-s1-thm-1 .statement}
+#### Theorem 1 (Associativity theorem) {#alg-i-s1-thm-1 .statement tag=055J}
 
 *Let* E *be an associative magma whose law is denoted by* $\top$. *Let* A *be a totally ordered non-empty finite set, which is the union of an ordered sequence of non-empty subsets* $(B_i)_{i \in I}$ *such that the relations* $\alpha \in B_i, \beta \in B_j, i < j$ *imply* $\alpha < \beta$; *let* $(x_\alpha)_{\alpha \in A}$ *be an ordered sequence of elements in* E *with* A *as indexing set*. *Then*
 $$
@@ -217,7 +217,7 @@ It is important not to confuse this set with the set of $\frac{p}{T} x$, where $
 
 ### 4. STABLE SUBSETS. INDUCED LAWS
 
-#### Definition 6 {#alg-i-s1-def-6 .statement}
+#### Definition 6 {#alg-i-s1-def-6 .statement tag=055K}
 
 *A subset $A$ of a set $E$ is called stable under the law of composition $T$ on $E$ if the composition of two elements of $A$ belongs to $A$. The mapping $(x, y) \mapsto x T y$ of $A \times A$ into $A$ is then called the law induced on $A$ by the law $T$. The set $A$ with the law induced by $T$ is called a submagma of $E$.*
 
@@ -225,7 +225,7 @@ In other words, for $A$ to be stable under a law $T$ it is necessary and suffici
 
 The intersection of a family of stable subsets of $E$ is stable; in particular there exists a smallest stable subset $A$ of $E$ containing a given subset $X$; it is said to be *generated* by $X$ and $X$ is called a *generating system* of $A$ or a *generating set* of $A$. The corresponding submagma is also said to be *generated* by $X$.
 
-#### Proposition 1 {#alg-i-s1-prop-1 .statement}
+#### Proposition 1 {#alg-i-s1-prop-1 .statement tag=055L}
 
 *Let $E$ and $F$ be two magmas and $f$ a homomorphism of $E$ into $F$.
 (i) The image under $f$ of a stable subset of $E$ is a stable subset of $F$.
@@ -235,13 +235,13 @@ The intersection of a family of stable subsets of $E$ is stable; in particular t
 
 Assertions (i), (ii) and (iv) are obvious; we prove (iii). Let $\overline{X}$ be the stable subset of E generated by X and $\overline{f(X)}$ the stable subset of F generated by $f(X)$. By (i) $\overline{f(X)} \subset f(\overline{X})$ and by (ii) $\overline{X} \subset f^{-1}(\overline{f(X)})$, whence $f(\overline{X}) \subset \overline{f(X)}$.
 
-#### Proposition 2 {#alg-i-s1-prop-2 .statement}
+#### Proposition 2 {#alg-i-s1-prop-2 .statement tag=055M}
 
 *Let E be an associative magma and X a subset of E. Let X' be the set of $x_1 \top x_2 \top \cdots \top x_n$, where $n \geq 1$ and where $x_i \in X$ for $1 \leq i \leq n$. The stable subset generated by X is equal to X'._
 
 It follows immediately by induction on n that the composition of an ordered sequence of n terms belonging to X belongs to the stable subset generated by X; it is therefore sufficient to verify that X' is stable. Now if u and v are elements of X' they are of the form $u = x_0 \top x_1 \top \cdots \top x_{n-1}$, $v = x_n \top x_{n+1} \top \cdots \top x_{n+p}$ with $x_i \in X$ for $0 \leq i \leq n + p$; then (Theorem 1) $u \top v = x_0 \top x_1 \top \cdots \top x_{n+p}$ belongs to X'.
 
-#### Example {#alg-i-s1-n4-exa-1 .statement}
+#### Example {#alg-i-s1-n4-exa-1 .statement tag=055N}
 
 (1) In the set $\mathbf{N}$ of natural numbers the stable subset under addition generated by {1} is the set of integers $\geq 1$; under multiplication the set {1} is stable.
 
@@ -251,17 +251,17 @@ It follows immediately by induction on n that the composition of an ordered sequ
 
 ### 5. PERMUTABLE ELEMENTS. COMMUTATIVE LAWS
 
-#### Definition 7 {#alg-i-s1-def-7 .statement}
+#### Definition 7 {#alg-i-s1-def-7 .statement tag=055O}
 
 *Let E be a magma whose law is denoted by $\top$. Two elements x and y of E are said to commute (or to be permutable) if $y \top x = x \top y$.*
 
-#### Definition 8 {#alg-i-s1-def-8 .statement}
+#### Definition 8 {#alg-i-s1-def-8 .statement tag=055P}
 
 *A law of composition on a set E is called commutative if any two elements of E commute under this law. A magma whose law of composition is commutative is called a commutative magma.*
 
 A commutative law is equal to its opposite.
 
-#### Example {#alg-i-s1-n5-exa-1 .statement}
+#### Example {#alg-i-s1-n5-exa-1 .statement tag=055Q}
 
 (1) Addition and multiplication of natural numbers are commutative laws on $\mathbf{N}$ (*Set Theory*, III, § 3, no. 3, Corollary to Proposition 5).
 
@@ -275,7 +275,7 @@ $$
 $$
 between subsets of $E$ is commutative.
 
-#### Definition 9 {#alg-i-s1-def-9 .statement}
+#### Definition 9 {#alg-i-s1-def-9 .statement tag=055R}
 
 *Let $E$ be a magma and $X$ a subset of $E$. The set of elements of $E$ which commute with each of the elements of $X$ is called the centralizer of $X$.*
 
@@ -285,7 +285,7 @@ Let $(X_i)_{i \in I}$ be a family of subsets of $E$ and for all $i \in I$ let $X
 
 Let $X$ be a subset of $E$ and $X'$ the centralizer of $X$. The centralizer $X''$ of $X'$ is called the *bicentralizer* of $X$. Then $X \subset X''$. The centralizer $X'''$ of $X''$ is equal to $X'$. For $X'$ is contained in its bicentralizer $X'''$ and the relation $X \subset X''$ implies $X'''' \subset X'$.
 
-#### Proposition 3 {#alg-i-s1-prop-3 .statement}
+#### Proposition 3 {#alg-i-s1-prop-3 .statement tag=055S}
 
 *Let $E$ be an associative magma whose law is denoted by $\top$. If an element $x$ of $E$ commutes with each of the elements $y$ and $z$ of $E$, it commutes with $y \top z$.*
 
@@ -295,31 +295,31 @@ x \top (y \top z) = (x \top y) \top z = (y \top x) \top z \\
 = y \top (x \top z) = y \top (z \top x) = (y \top z) \top x.
 $$
 
-#### Corollary {#alg-i-s1-n5-cor-1 .statement}
+#### Corollary {#alg-i-s1-n5-cor-1 .statement tag=055T}
 
 *Let $E$ be an associative magma. The centralizer of any subset of $E$ is a stable subset of $E$.*
 
-#### Definition 10 {#alg-i-s1-def-10 .statement}
+#### Definition 10 {#alg-i-s1-def-10 .statement tag=055U}
 
 *The centralizer of a magma $E$ is called the centre of $E$. An element of the centre of $E$ is called a central element of $E$.*
 
 If $E$ is an associative magma its centre is a stable subset by the Corollary to Proposition 3 and the law induced on its centre is commutative.
 
-#### Proposition 4 {#alg-i-s1-prop-4 .statement}
+#### Proposition 4 {#alg-i-s1-prop-4 .statement tag=055V}
 
 *Let $E$ be an associative magma, $X$ and $Y$ two subsets of $E$. If every element of $X$ commutes with every element of $Y$ every element of the stable subset generated by $X$ commutes with every element of the stable subset generated by $Y$.*
 
 Let $X'$ and $X''$ be the centralizer and bicentralizer of $X$. They are stable subsets of $E$. Now $X \subset X''$ and $Y \subset X'$ and hence $X''$ (resp. $X'$) contains the stable subset of $E$ generated by $X$ (resp. $Y$). As every element of $X''$ commutes with every element of $X'$, the proposition follows.
 
-#### Corollary 1 {#alg-i-s1-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-i-s1-prop-4-cor-1 .statement tag=055W}
 
 *If $x$ and $y$ are permutable under the associative law $\top$ so are $\top^m x$ and $\top^n y$ for all integers $m > 0$ and $n > 0$; in particular $\top^m x$ and $\top^n x$ are permutable for all $x$ and all integers $m > 0$ and $n > 0$.*
 
-#### Corollary 2 {#alg-i-s1-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-i-s1-prop-4-cor-2 .statement tag=055X}
 
 *If all pairs of elements of a subset X are permutable under an associative law T, the law induced by T on the stable subset generated by X is associative and commutative.*
 
-#### Theorem 2 (Commutativity theorem) {#alg-i-s1-thm-2 .statement}
+#### Theorem 2 (Commutativity theorem) {#alg-i-s1-thm-2 .statement tag=055Y}
 
 *Let T be an associative law of composition on E; let $(x_\alpha)_{\alpha \in A}$ be a non-empty finite family of elements of E which are pairwise permutable; let B and C be two totally ordered sets with A as underlying set. Then*
 $$
@@ -347,7 +347,7 @@ which proves the theorem for this case. If $h = 0$ or $h = p - 1$, the same resu
 
 Under a commutative associative law on a set E the *composition* of a *finite family* $(x_\alpha)_{\alpha \in A}$ of elements of E is by definition the common value of the composition of all the *ordered sequences* obtained by totally ordering A in all possible ways. This composition will still be denoted by $\prod_{\alpha \in A} x_\alpha$ under a law denoted by T; similarly for other notations.
 
-#### Theorem 3 {#alg-i-s1-thm-3 .statement}
+#### Theorem 3 {#alg-i-s1-thm-3 .statement tag=055Z}
 
 *Let T be an associative law on E and $(x_\alpha)_{\alpha \in A}$ a non-empty finite family of elements of E which are pairwise permutable. If A is a union of non-empty subsets $(B_i)_{i \in I}$ which are pairwise disjoint, then*
 
@@ -399,7 +399,7 @@ $$
 \prod_{0 \leq i_1 < i_2 < \cdots < i_p < n} x_{i_1 i_2 \ldots i_p} \quad \text{or simply} \quad \prod_{i_1 < i_2 < \cdots < i_p} x_{i_1 i_2 \ldots i_p}.
 $$
 
-#### Proposition 5 {#alg-i-s1-prop-5 .statement}
+#### Proposition 5 {#alg-i-s1-prop-5 .statement tag=0560}
 
 Let E and F be magmas whose laws are denoted by T and let f and g be homomorphisms of E into F. Let f T g be the mapping x ↦ f(x) T g(x) of E into F. If F is associative and commutative, f T g is a homomorphism.
 
@@ -410,7 +410,7 @@ $$= f(x) T g(x) T f(y) T g(y) = ((f T g)(x)) T ((f T g)(y)).$$
 
 ### 6. QUOTIENT LAWS
 
-#### Definition 11 {#alg-i-s1-def-11 .statement}
+#### Definition 11 {#alg-i-s1-def-11 .statement tag=0561}
 
 Let E be a set. A law of composition T and an equivalence relation R on E are said to be compatible if the relations x ≡ x' (mod R) and y ≡ y' (mod R) (for x, x', y, y' ∈ E) imply x T y ≡ x' T y' (mod R); the law of composition on the quotient set E/R which maps the equivalence classes of x and y to the equivalence class of x T y is called the quotient law of the law T with respect to R. The set E/R with the quotient law is called the quotient magma of E with respect to R.
 
@@ -424,15 +424,15 @@ For a mapping g of E/R into a magma F to be a homomorphism it is necessary and s
 
 The two following propositions are immediate from the definitions:
 
-#### Proposition 6 {#alg-i-s1-prop-6 .statement}
+#### Proposition 6 {#alg-i-s1-prop-6 .statement tag=0562}
 
 Let E and F be two magmas and f a homomorphism of E into F. Let R[x, y] denote the relation f(x) = f(y) between elements x, y of E. Then R is an equivalence relation on E compatible with the law on E and the mapping of E/R onto f(E) derived from f by passing to the quotient is an isomorphism of the quotient magma E/R onto the submagma f(E) of F.
 
-#### Proposition 7 {#alg-i-s1-prop-7 .statement}
+#### Proposition 7 {#alg-i-s1-prop-7 .statement tag=0563}
 
 Let E be a magma and R an equivalence relation on E compatible with the law on E. For an equivalence relation S on E/R to be compatible with the quotient law it is necessary and sufficient that S be of the form T/R where T is an equivalence relation on E implied by R and compatible with the law on E. The canonical mapping of E/T onto (E/R)/(T/R) (Set Theory, II, § 6, no. 7) is then a magma isomorphism.
 
-#### Proposition 8 {#alg-i-s1-prop-8 .statement}
+#### Proposition 8 {#alg-i-s1-prop-8 .statement tag=0564}
 
 Let E be a magma, A a stable subset of E and R an equivalence relation on E compatible with the law on E. The saturation B of A with respect to R (Set
 
@@ -442,7 +442,7 @@ Let $\top$ denote the law on $E$. If $x$ and $y$ are two elements of $B$ there e
 
 Let $M$ be a magma and $((u_\alpha, v_\alpha))_{\alpha \in I}$ a family of elements of $M \times M$. Consider all the equivalence relations $S$ on $M$ which are compatible with the law on $M$ and such that $u_\alpha \equiv v_\alpha \pmod{S}$ for all $\alpha \in I$. The intersection of the graphs of these relations is the graph of an equivalence relation $R$ which is compatible with the law on $M$ and such that $u_\alpha \equiv v_\alpha \pmod{R}$. Hence $R$ is the finest (Set Theory, III, § 1, nos. 3 and 7) equivalence relation with these two properties. It is called the equivalence relation compatible with the law on $M$ generated by the $(u_\alpha, v_\alpha)$.
 
-#### Proposition 9 {#alg-i-s1-prop-9 .statement}
+#### Proposition 9 {#alg-i-s1-prop-9 .statement tag=0565}
 
 Preserving the above notation, let $f$ be a homomorphism of $M$ into a magma such that $f(u_\alpha) = f(v_\alpha)$ for all $\alpha \in I$. Then $f$ is compatible with $R$.
 

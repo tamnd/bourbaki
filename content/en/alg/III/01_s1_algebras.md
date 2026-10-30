@@ -42,14 +42,14 @@ subsections:
       pdf_page: 460
 statements: 5
 exercises: 1
-content_sha256: dd48afc8293dd92e993b3c15c11f1e7ccf9b086e70d6282835d98921482fe752
+content_sha256: 820912e8d5d630a54cb7380bd85e9cf6d35d1c95d761b599b7ec5d3af2010845
 ---
 
 ## § 1. ALGEBRAS
 
 ### 1. DEFINITION OF AN ALGEBRA
 
-#### Definition 1 {#alg-iii-s1-def-1 .statement}
+#### Definition 1 {#alg-iii-s1-def-1 .statement tag=05YR}
 
 Let $A$ be a commutative ring. An algebra over $A$ (or an $A$-algebra, or simply an algebra, when no confusion is to be feared) is a set $E$ with a structure defined by giving the following:
 (1) an $A$-module structure on $E$;
@@ -73,7 +73,7 @@ The bilinear mapping $(x, y) \mapsto yx$ of $E \times E$ into $E$ and the $A$-mo
 
 When multiplication in the algebra $E$ is associative, $E$ is called an associative $A$-algebra. When multiplication in $E$ admits an identity element (necessarily unique (I, § 2, no. 1)), this element is called the unit element of $E$ and $E$ is called a unital algebra.
 
-#### Example {#alg-iii-s1-n1-exa-1 .statement}
+#### Example {#alg-iii-s1-n1-exa-1 .statement tag=05YS}
 
 (1) Every commutative ring $A$ can be considered as an (associative and commutative) $A$-algebra.
 (2) Let $E$ be a pseudo-ring (I, § 8, no. 1). Multiplication on $E$ and the unique $\mathbf{Z}$-module structure on $E$ define on $E$ an associative $\mathbf{Z}$-algebra structure.
@@ -87,7 +87,7 @@ $$(x, y) \mapsto xy + yx$$
 
 is always commutative.
 
-#### Definition 2 {#alg-iii-s1-def-2 .statement}
+#### Definition 2 {#alg-iii-s1-def-2 .statement tag=05YT}
 
 *Given two algebras* E, E' *over a commutative ring* A, *a homomorphism of* E *into* E' *is a mapping* $f : E \to E'$ *such that*
 (1) *f is an* A*-module homomorphism*;
@@ -244,7 +244,7 @@ $$
 
 for $x, x'$ in E, $\beta$ and $\beta'$ in B. The B-algebra $\rho^*(E)$ is said to be derived from the A-algebra E by extending the ring A of scalars to B (by means of $\rho$). It is also denoted by $E_{(B)}$ or $E \otimes_A B$. When E is associative (resp. commutative, resp. unital), so is $\rho^*(E)$.
 
-#### Proposition 1 {#alg-iii-s1-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s1-prop-1 .statement tag=05YU}
 
 For every A-algebra E, the canonical mapping $\phi_E : x \mapsto x \otimes 1$ of E into $E_{(B)}$ is an A-homomorphism of algebras. Moreover, for every B-algebra F and every $A$-homomorphism $f : E \to F$, there exists one and only one $B$-homomorphism $\bar{f} : E_{(B)} \to F$ such that $\bar{f}(x \otimes 1) = f(x)$ for all $x \in E$.
 
@@ -258,7 +258,7 @@ $$
 
 The ordered pair consisting of $E_{(B)}$ and $\phi_E$ is therefore a solution of the universal mapping problem (Set Theory, IV, § 3, no. 1) where $\Sigma$ is the species of $B$-algebra structure and the $\alpha$-mappings the $A$-homomorphisms from $E$ to a $B$-algebra.
 
-#### Corollary {#alg-iii-s1-n5-cor-1 .statement}
+#### Corollary {#alg-iii-s1-n5-cor-1 .statement tag=05YV}
 
 *Let $E, E'$ be two $A$-algebras; for every $A$-homomorphism of algebras $u : E \to E', u \otimes 1_B$ is the unique $B$-homomorphism of algebras $v : E \otimes_A B \to E' \otimes_A B$ rendering commutative the diagram*
 

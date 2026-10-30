@@ -49,11 +49,11 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 19
-content_sha256: c05936a5e49a7ca9ba15fa03a52f256d31b380ff6a87b5e567ae6972feaa8852
+content_sha256: c21526b794f1278518dd1eee582c8f02a8b301f200f831e00329910b7049495f
 translated_from: content/fr/alg/X/03_s3_resolutions.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 78ca3fd785b2b1360a93f67d9c559b085dcd26f276ad74007f29b76e87929cb9
+source_content_sha256: 12969001d124d8656ce3c60f9c3f40303daa5f2ee1943f5f98a41adadbad95d0
 translation_model: gpt-5.4
 translation_run: translate-en-mt-931dafce
 glossary_version: 34
@@ -67,7 +67,7 @@ We retain the conventions of the preceding paragraph.
 
 ### 1. Extension of morphisms of complexes
 
-#### Lemma 1 {#alg-x-s3-lem-1 .statement}
+#### Lemma 1 {#alg-x-s3-lem-1 .statement tag=0DTO}
 
 Consider a diagram of A-modules and homomorphisms
 
@@ -93,7 +93,7 @@ $$
 $$
 This implies $\mathrm{Im}\ (g) \subset \mathrm{Ker}\ (\beta) = \mathrm{Im}\ (\beta')$. Since $M'$ is projective, there therefore exists an A-homomorphism $k': M' \to N'$ such that $\beta' \circ k' = g$, whence the lemma.
 
-#### Lemma 2 {#alg-x-s3-lem-2 .statement}
+#### Lemma 2 {#alg-x-s3-lem-2 .statement tag=0DTP}
 
 If in the commutative diagram of A-modules and homomorphisms
 
@@ -152,7 +152,7 @@ $$
 one has $\mathrm{Ker}\, \alpha = \mathrm{Im}\, \alpha', \beta \circ \beta' = 0$ and if $N''$ is injective, there exists an $A$-homomorphism $u'' : M'' \to N''$ such that $u'' \circ \alpha = \beta \circ u$.
 It is enough to put $u' = k', u = -k, f = 0, f' = 0$ and $k'' = u''$ in Lemma 1 bis.
 
-#### Proposition 1 {#alg-x-s3-prop-1 .statement}
+#### Proposition 1 {#alg-x-s3-prop-1 .statement tag=0DTQ}
 
 Let $(P, d_P)$ and $(E, d_E)$ be two complexes of $A$-modules and $r$ an integer.
 
@@ -178,13 +178,13 @@ The proof of b) is analogous, via Lemmas 1 bis and 2 bis.
 
 In the sequel, a module will always be identified with the complex of which it is the component of degree zero and all of whose other components are zero.
 
-#### Definition 1 {#alg-x-s3-def-1 .statement}
+#### Definition 1 {#alg-x-s3-def-1 .statement tag=0DTR}
 
 Let $M$ be an $A$-module. A left resolution of $M$ is a pair $(P,p)$ where $P$ is a complex zero on the right and $p:P\to M$ is a homomorphism. A right resolution of $M$ is a pair $(e,E)$ where $E$ is a complex zero on the left and $e:M\to E$ a homomorphism.
 
 The length of the resolution $(P,p)$ (resp. $(e,E)$) is called the length of the complex $P$ (resp. $E$). If $(P,p)$ and $(P',p')$ (resp. $(e,E)$ and $(e',E')$) are two left (resp. right) resolutions of $M$, a morphism of complexes $f:P\to P'$ such that $p'\circ f=p$ (resp. $g:E\to E'$ such that $g\circ e=e'$) is called a morphism of resolutions.
 
-#### Proposition 2 {#alg-x-s3-prop-2 .statement}
+#### Proposition 2 {#alg-x-s3-prop-2 .statement tag=0DTS}
 
 Let $P$ be a complex zero on the right and $p:P\to M$ a morphism.
 For $(P,p)$ to be a left resolution of $M$, it is necessary and sufficient that the sequence
@@ -214,11 +214,11 @@ be exact.
 
 By abuse of language, one often says that sequence (1) (resp. (1 bis)) is a left (resp. right) resolution of $M$.
 
-#### Definition 2 {#alg-x-s3-def-2 .statement}
+#### Definition 2 {#alg-x-s3-def-2 .statement tag=0DTT}
 
 A projective resolution (resp. free, resp. flat) of the $A$-module $M$ is a left resolution $(P,p)$ of $M$ such that the complex $P$ is projective (resp. free, resp. flat) (X, p. 25). An injective resolution of $M$ is a right resolution $(e,E)$ of $M$ such that the complex $E$ is injective (loc. cit.).
 
-#### Example 1 {#alg-x-s3-n2-exa-1 .statement}
+#### Example 1 {#alg-x-s3-n2-exa-1 .statement tag=0DTU}
 
 Suppose that the ring $A$ is principal; let $M$ be an $A$-module and $(x_i)_{i\in I}$ a generating family of $M$. Denote by $L_0$ the free module $A^{(I)}$, by $(e_i)$ its canonical basis, and define $p:L_0\to M$ by $p(e_i)=x_i$. The morphism $p$ is surjective and its kernel $L_1$ is a free $A$-module by VII, § 3, Corollary 2 to Theorem 1; hence the exact sequence
 
@@ -228,7 +228,7 @@ $$
 
 is a free resolution of $M$ of length 1. If $I$ is finite, $L_0$ and $L_1$ are of finite type.
 
-#### Example 2 {#alg-x-s3-n2-exa-2 .statement}
+#### Example 2 {#alg-x-s3-n2-exa-2 .statement tag=0DTV}
 
 Suppose A commutative; let E be an A-module and u an endomorphism of E. Denote by $E_u$ the $A[X]$-module obtained by endowing E with the structure defined by
 
@@ -244,7 +244,7 @@ $$
 
 where $\varphi(p \otimes x) = p.x$ and $\psi(p \otimes x) = Xp \otimes x - p \otimes u(x)$ for $p \in A[X]$ and $x \in E$. This exact sequence is a resolution of length 1 of $E_u$, free (resp. projective, resp. of finite type) if E is a free (resp. projective, resp. of finite type) A-module.
 
-#### Example 3 {#alg-x-s3-n2-exa-3 .statement}
+#### Example 3 {#alg-x-s3-n2-exa-3 .statement tag=0DTW}
 
 If A is principal, the exact sequence
 
@@ -254,13 +254,13 @@ $$
 
 is an injective resolution of length 1 of the A-module $A_s$ (X, p. 18, Example 1).
 
-#### Proposition 3 {#alg-x-s3-prop-3 .statement}
+#### Proposition 3 {#alg-x-s3-prop-3 .statement tag=0DTX}
 
 Let $f : M' \to M$ be a homomorphism of A-modules, $p' : P' \to M'$ a morphism into $M'$ of a complex null on the right and projective $P'$, and $p : P \to M$ a left resolution of M. There exists a morphism of complexes $\tilde{f} : P' \to P$, and only one up to homotopy, such that $p \circ \tilde{f} = f \circ p'$.
 
 Let us consider the complex $\overline{P}$ defined as follows: $\overline{P}_n = P_n$ for $n \neq -1$, $\overline{P}_{-1} = M$, $d_{\overline{P},n} = d_{P,n}$ for $n \neq 0, -1$, $d_{\overline{P},0} = p_0$, $d_{\overline{P},-1} = 0$, and the complex $\overline{P}'$ defined analogously. Applying to the complexes $\overline{P}$ and $\overline{P}'$ Prop. 1 a) with $r = 0$, $u_i = 0$ for $i < -1$ and $u_{-1} = f$, we obtain Prop. 3.
 
-#### Corollary {#alg-x-s3-n2-cor-1 .statement}
+#### Corollary {#alg-x-s3-n2-cor-1 .statement tag=0DTY}
 
 Let $(P, p)$ and $(P', p')$ be two projective resolutions of M. There exists a morphism, and only one up to homotopy, $\alpha : P' \to P$ such that $p \circ \alpha = p'$.
 
@@ -270,7 +270,7 @@ PROPOSITION 3 bis. — Let $g : N \to N'$ be a homomorphism of a-modules, $e' : 
 
 This is proved like Prop. 3 with the aid of Prop. 1 b).
 
-#### Corollary {#alg-x-s3-n2-cor-2 .statement}
+#### Corollary {#alg-x-s3-n2-cor-2 .statement tag=0DTZ}
 
 Let $(e, E)$ and $(e', E')$ be two injective resolutions of N; there exists a morphism $\alpha : E \to E'$ and only one up to homotopy such that $\alpha \circ e = e'$.
 
@@ -326,7 +326,7 @@ Z_n(f) = Z_0(Z_{n-1}(f)) .
 \end{array} \right.
 $$
 
-#### Proposition 4 {#alg-x-s3-prop-4 .statement}
+#### Proposition 4 {#alg-x-s3-prop-4 .statement tag=0DU0}
 
 $L(f) : L(M) \to L(N)$ is a morphism of complexes of a-modules; one has $p_M \circ L(f) = f \circ p_N$.
 
@@ -379,7 +379,7 @@ L_0(g \circ f)(e_m) = e_{g \circ f(m)} = L_0(g)(e_{f(m)}) = L_0(g) \circ L_0(f)(
 $$
 hence $L_0(g \circ f) = L(g) \circ L(f)$; consequently $Z_0(g \circ f) = Z_0(g) \circ Z_0(f)$; whence at once $L_n(g \circ f) = L_n(g) \circ L_n(f)$, for $n \geqslant 0$, by induction on $n$, whence (8).
 
-#### Remark {#alg-x-s3-n3-rem-1 .statement}
+#### Remark {#alg-x-s3-n3-rem-1 .statement tag=0DU1}
 
 If $f, g \in \mathrm{Hom}_A(M, N)$, one does not have $L(f + g) = L(f) + L(g)$. However these two morphisms are homotopic according to X, p. 49, prop. 3.
 
@@ -457,7 +457,7 @@ K^n(f)&=K^0(K^{n-1}(f)).
 \right.
 $$
 
-#### Proposition 5 {#alg-x-s3-prop-5 .statement}
+#### Proposition 5 {#alg-x-s3-prop-5 .statement tag=0DU2}
 
 I(f) : I(M) → I(N) is a morphism of complexes of A-modules; one has I(f) ◦ e_M = e_N ◦ f.
 This is proved in a manner analogous to Prop. 4.
@@ -473,7 +473,7 @@ $$
 I(g \circ f) = I(g) \circ I(f) .
 $$
 
-#### Remark {#alg-x-s3-n4-rem-1 .statement}
+#### Remark {#alg-x-s3-n4-rem-1 .statement tag=0DU3}
 
 If $f, g \in \mathrm{Hom}_A(M, N)$, one does not have $I(f + g) = I(f) + I(g)$. However, these two morphisms are homotopic by X, p. 49, prop. 3 bis.
 
@@ -494,12 +494,12 @@ $$
 $$
 whence:
 
-#### Proposition 6 {#alg-x-s3-prop-6 .statement}
+#### Proposition 6 {#alg-x-s3-prop-6 .statement tag=0DU4}
 
 When $A$ is left noetherian, every finitely generated $A$-module $M$ possesses a free resolution $p : L \to M$ such that $L_n$ is finitely generated for every integer n.
 More generally:
 
-#### Proposition 7 {#alg-x-s3-prop-7 .statement}
+#### Proposition 7 {#alg-x-s3-prop-7 .statement tag=0DU5}
 
 Let $C$ be an $A$-complex and let $a \in \mathbf{Z}$ be such that $H_n(C) = 0$ for $n < a$.
 a) There exists a free $A$-complex $L$ such that $L_n = 0$ for $n < a$ and a homologism $f : L \to C$.
@@ -509,7 +509,7 @@ There exists a free $A$-complex $L$ such that $L_n=0$ for $n<a$ and that $L_n$ i
 
 Let $C'$ be the subcomplex of $C$ such that $C'_n=C_n$ for $n>a$, $C'_a=Z_a(C)$, $C'_n=0$ for $n<a$; then the canonical injection of $C'$ into $C$ is a homomorphism. Replacing $C$ by $C'$, one may therefore suppose that $C_n=0$ for $n<a$. The statement then results from repeated application of the following lemma, for $r=a,a+1,\ldots$ :
 
-#### Lemma 3 {#alg-x-s3-lem-3 .statement}
+#### Lemma 3 {#alg-x-s3-lem-3 .statement tag=0DU6}
 
 Let $C$ be a complex and let $r\in \mathbf{Z}$. There exists a complex $C'$ and a homomorphism $f:C'\to C$ such that $f_n:C'_n\to C_n$ is an isomorphism for $n<r$ and such that $C'_r$ is a free $A$-module. If $A$ is noetherian and the $A$-modules $H_r(C)$ and $C_{r-1}$ are of finite type, one can require that $C'_r$ be of finite type.
 
@@ -537,7 +537,7 @@ $$
 
 a resolution of $M$. One says that $(P)$ is a minimal projective resolution if, for every $n\geq 0$, the homomorphism $\delta_n:P_n\to \operatorname{Im}(d_n)$ induced by $d_n$ is a projective cover (VIII, § 8, No. 5).
 
-#### Proposition 8 {#alg-x-s3-prop-8 .statement}
+#### Proposition 8 {#alg-x-s3-prop-8 .statement tag=0DU7}
 
 Let $M$ be an $A$-module, $P$ and $P'$ two minimal projective resolutions of $M$, and $f:P\to P'$ a morphism of resolutions. Then $f$ is an isomorphism.
 In particular, two minimal projective resolutions of $M$ are isomorphic.
@@ -564,7 +564,7 @@ $$
 
 and from VIII, *loc. cit*., that $f_{n+1}$ is an isomorphism.
 
-#### Corollary {#alg-x-s3-n6-cor-1 .statement}
+#### Corollary {#alg-x-s3-n6-cor-1 .statement tag=0DU8}
 
 *Let $M$ be an $A$-module, $P$ and $P'$ two projective resolutions of $M$; suppose that $P$ is minimal. Let $f:P\to P'$ and $g:P'\to P$ be two morphisms of resolutions. Then $f$ is injective, $g$ is surjective, and $P'$ is the direct sum of the subcomplexes $\operatorname{Im}f$ and $\operatorname{Ker}g$. Moreover $\operatorname{Ker}g$ has zero homology.*
 
@@ -587,7 +587,7 @@ $$
 
 is exact and $g$ is a homomorphism, $\operatorname{Ker}g$ has zero homology.
 
-#### Proposition 9 {#alg-x-s3-prop-9 .statement}
+#### Proposition 9 {#alg-x-s3-prop-9 .statement tag=0DU9}
 
 *Let $M$ be an $A$-module and $(P,p)$ a projective resolution of $M$. Let $r$ denote the radical of $A$. Suppose either that $P_n$ is a finitely generated $A$-module for every $n$, or that $r$ is nilpotent. Then a necessary and sufficient condition for $(P,p)$ to be minimal is that the complex $(A/r)\otimes_A P$ have zero differential, in other words that*
 
@@ -614,7 +614,7 @@ that the homomorphism $1 \otimes j_n : (A/r) \otimes_A \operatorname{Im} d_{n+1}
 
 Conversely, suppose that for every $n \geqslant 1$, $1 \otimes d_n$ is zero, in other words that $\operatorname{Im} d_n = \operatorname{Ker} d_{n-1}$ is contained in $rP_{n-1}$. Since $\delta_{n-1}$ is surjective, it follows from VIII, loc. cit. that $\delta_{n-1}$ is a projective cover for $n \geqslant 1$, hence that $(P, p)$ is minimal.
 
-#### Proposition 10 {#alg-x-s3-prop-10 .statement}
+#### Proposition 10 {#alg-x-s3-prop-10 .statement tag=0DUA}
 
 *Suppose that A is a left noetherian local ring, and let M be a finitely generated A-module. Then M possesses a minimal resolution $(P, p)$; for every $n \geqslant 0$, $P_n$ is a finitely generated free module.*
 
@@ -628,7 +628,7 @@ In fact, in the construction carried out in No. 5 (p. 53), one may, by virtue of
 
 In this number, it is assumed that the ring A is endowed with a grading $(A_n)_{n \in \mathbf{Z}}$, such that $A_n = 0$ for $n < 0$. A graded A-module M is said to be *bounded below* if $M_n = 0$ for $n$ sufficiently small; every graded A-module of finite type is bounded below.
 
-#### Proposition 11 {#alg-x-s3-prop-11 .statement}
+#### Proposition 11 {#alg-x-s3-prop-11 .statement tag=0DUB}
 
 *If M is a graded A-module bounded below (resp. if M is a graded A-module of finite type and if A is left noetherian), there exists an exact sequence of graded A-modules unbounded to the left*
 
@@ -680,7 +680,7 @@ Consequently, if one puts $B_n = 0$ for $n < 0$ and $d_n = 0$ for $n \leqslant 0
 
 Define an a-linear mapping $\varepsilon_M$ from $B_0(A, M) = (A \otimes_k A) \otimes_A M$ into $M$ by the formula $\varepsilon_M(a \otimes b \otimes m) = abm$ for $a, b \in A, m \in M$. One has $\varepsilon_M \circ d_1 = 0$, so that the graded homomorphism $\overline{\varepsilon}_M : B(A, M) \to M$, which coincides with $\varepsilon_M$ in degree 0, is a morphism of complexes of a-modules.
 
-#### Proposition 12 {#alg-x-s3-prop-12 .statement}
+#### Proposition 12 {#alg-x-s3-prop-12 .statement tag=0DUC}
 
 The mapping $\overline{\varepsilon}_M : B(A, M) \to M$ is a homotopism of complexes of $k$-modules. In particular, the complex $B(A, M)$ is split over $k$, and $(B(A, M), \overline{\varepsilon}_M)$ is a left resolution of the $A$-module $M$.
 
@@ -715,7 +715,7 @@ $$
 
 Let $\eta : A \to A \otimes_k A$ denote the mapping defined by $\eta(a) = 1 \otimes a$, and $\overline{\eta} : A \to B(A)$ the morphism of complexes which coincides with $\eta$ in degree 0. It is clear that $\overline{\varepsilon}_A \circ \overline{\eta} = 1_A$; formulas (16) and (17) show that $d \circ s + s \circ d = 1_{B(A)} - \overline{\eta} \circ \overline{\varepsilon}_A$. Putting $\overline{\eta}_M = \overline{\eta} \otimes 1_M$, $d_M = d \otimes 1_M$ and $s_M = s \otimes 1_M$, we deduce that $\overline{\varepsilon}_M \circ \overline{\eta}_M = 1_M$ and $d_M \circ s_M + s_M \circ d_M = 1_{B(A,M)} - \overline{\eta}_M \circ \overline{\varepsilon}_M$. In other words, (X, p. 33, Definition 5), $\overline{\varepsilon}_M$ is a homotopism of complexes of $k$-modules. The other assertions of the proposition follow from this at once.
 
-#### Definition 3 {#alg-x-s3-def-3 .statement}
+#### Definition 3 {#alg-x-s3-def-3 .statement tag=0DUD}
 
 The left resolution $(B(A, M), \overline{\varepsilon}_M)$ of $M$ is called the standard resolution of the $A$-module $M$.
 
@@ -725,11 +725,11 @@ If $A$ and $M$ are projective $k$-modules (resp. free, resp. flat), the standard
 
 If $\mathscr{C}$ is a set of classes of $A$-modules, we shall say that a left resolution $(P, p)$ is bounded of type $\mathscr{C}$ if the complex $P$ is bounded of type $\mathscr{C}$ (X, p. 41).
 
-#### Theorem 1 {#alg-x-s3-thm-1 .statement}
+#### Theorem 1 {#alg-x-s3-thm-1 .statement tag=0DUE}
 
 Let $\mathscr{C}_0$ and $\mathscr{C}$ be two additive and left exact sets of class of $A$-modules such that $\mathscr{C}_0 \subset \mathscr{C}$ and every $A$-module of type $\mathscr{C}$ possesses a bounded left resolution of type $\mathscr{C}_0$. Then the homomorphism $\alpha : K(\mathscr{C}_0) \to K(\mathscr{C})$ deduced from the inclusion of $\mathscr{C}_0$ in $\mathscr{C}$ is bijective; if $M$ is an $A$-module of type $\mathscr{C}$ and $P$ a bounded left resolution of $M$ of type $\mathscr{C}_0$, one has $\alpha^{-1}([M]_{\mathscr{C}}) = \chi_{\mathscr{C}_0}(P)$ (X, p. 41, example 6).
 
-#### Lemma 4 {#alg-x-s3-lem-4 .statement}
+#### Lemma 4 {#alg-x-s3-lem-4 .statement tag=0DUF}
 
 Let $f : M' \to M$ be a homomorphism of $A$-modules of type $\mathscr{C}$, and $p : P \to M$ a bounded left resolution of $P$ of type $\mathscr{C}_0$. There exist a bounded left resolution $p' : P' \to M'$ of type $\mathscr{C}_0$ and a morphism of complexes $u : P' \to P$ such that $p \circ u = f \circ p'$.
 
@@ -758,7 +758,7 @@ $$
 
 deduced from $u_0$.
 
-#### Lemma 5 {#alg-x-s3-lem-5 .statement}
+#### Lemma 5 {#alg-x-s3-lem-5 .statement tag=0DUG}
 
 Consider a commutative diagram
 

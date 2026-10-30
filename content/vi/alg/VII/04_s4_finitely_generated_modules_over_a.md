@@ -50,9 +50,9 @@ subsections:
       pdf_page: 384
 statements: 40
 exercises: 9
-content_sha256: 0b4a28e87f5a152099b1920e871dc21d8dd61879e11368e3bd3437d951343014
+content_sha256: b187a6596ce481b23a4c76b39d69c092d786518b4df6367abb7afb07058ad2cd
 translated_from: content/en/alg/VII/04_s4_finitely_generated_modules_over_a.md
-source_content_sha256: 6c2fe0a6c590f6a566b071f383cc4f32741a78d13c74d616a15ae4c9b34b6da3
+source_content_sha256: e417e7dc96e464c48ed19a91e2e8d38e2c97d4afc92adb2cc15edbd954a62d34
 translation_model: gpt-5.4, gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-00516c9d
 glossary_version: 34
@@ -66,7 +66,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho A là một vành giao hoán. Nhắc lại rằng (II, p. 220, Mệnh đề 22) một A-môđun cyclic đẳng cấu với một *môđun thương* $A/a$, trong đó a là một iđêan của A. Ta sẽ thấy sau (Mục 4) rằng mọi môđun hữu hạn sinh trên một miền iđêan chính đều là tổng trực tiếp của hữu hạn môđun cyclic.
 
-#### Mệnh đề 1 {#alg-vii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#alg-vii-s4-prop-1 .statement tag=073N}
 
 — *Cho E là một môđun trên một vành giao hoán A; giả sử E là tổng trực tiếp của n môđun cyclic $\Lambda/\mathfrak{a}_k$ ($1 \leq k \leq n$), trong đó các $\mathfrak{a}_k$ là các iđêan của A;*
 
@@ -76,13 +76,13 @@ Cho $x_k$ là phần tử sinh chính tắc của $A / a_k$, nghĩa là ảnh c�
 
 Bây giờ ta thấy rằng, theo ký hiệu của Mệnh đề 1, nếu các iđêan $a_k$ tạo thành một dãy tăng, thì chúng được xác định hoàn toàn bởi môđun $E$. Chính xác hơn :
 
-#### Mệnh đề 2 {#alg-vii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#alg-vii-s4-prop-2 .statement tag=073O}
 
 — *Cho $A$ là một vành giao hoán, và cho $E$ là tổng trực tiếp của $n$ môđun cyclic $A / a_k$, trong đó các $a_k$ thỏa mãn $a_1 \subset a_2 \subset \ldots \subset a_n$. Khi đó, với $1 \leq p \leq n$, iđêan $a_p$ là linh hóa tử của $\bigwedge^p E$; nếu $a_n \neq A$ thì $\bigwedge^p E \neq 0$ với $1 \leq p \leq n$ và $\bigwedge^m E = 0$ với $m > n$.*
 
 Thật vậy, theo ký hiệu của Mệnh đề 1, ta có $a_p = a_{s(H)}$, trong đó $s(H)$ chỉ phần tử lớn nhất của tập con $H$. Vì $s(H) \geq p$ với mọi tập con $H$ có $p$ phần tử, và vì $s(H) = p$ đối với $H = \{ 1, \ldots, p \}$, suy ra $a_p$ là giao của các $a_r$, khi $H$ biến thiên trong tập hợp các tập con có $p$ phần tử của $(1, n)$; do đó iđêan $a_p$ quả thật là linh hóa tử của $\bigwedge^p E$, theo Mệnh đề 1.
 
-#### Hệ quả {#alg-vii-s4-n1-cor-1 .statement}
+#### Hệ quả {#alg-vii-s4-n1-cor-1 .statement tag=073P}
 
 — *Theo ký hiệu của Mệnh đề 2, nếu $a_n \neq A$, và nếu $E$ cũng đẳng cấu với tổng trực tiếp của $m$ môđun cyclic $A / a'_j$ với $a'_1 \subset a'_2 \subset \ldots \subset a'_m \neq A$, thì $m = n$ và $a_k = a'_k$ với $1 \leq k \leq n$ (*tính duy nhất của các $a_k *$).
 
@@ -92,7 +92,7 @@ Cho $A$ là một miền iđêan chính, cho $L$ là một $A$-môđun tự do, 
 
 Ta nói rằng $x$ là *không thể chia được* nếu $c_L(x) = A$, nghĩa là nếu các tọa độ của $x$ đối với một cơ sở của $L$ nguyên tố cùng nhau theo tập hợp.
 
-#### Bổ đề 1 {#alg-vii-s4-lem-1 .statement}
+#### Bổ đề 1 {#alg-vii-s4-lem-1 .statement tag=073Q}
 
 *Cho $L$ là một môđun tự do trên một miền iđêan chính $A$ và cho $x$ là một phần tử của $L$. Khi đó các điều kiện sau là tương đương*:
 
@@ -106,14 +106,14 @@ Ta nói rằng $x$ là *không thể chia được* nếu $c_L(x) = A$, nghĩa l
 (iii) $\Rightarrow$ (iv) : cho $L'$ là một phần bù của $Ax$ trong $L$, và cho $B'$ là một cơ sở của $L'$ (*VII*, p. 15, Hệ quả 2) ; khi đó $B' \cup \{x\}$ là một cơ sở của $L$.
 (iv) $\Rightarrow$ (i) : tầm thường.
 
-#### Nhận xét {#alg-vii-s4-n2-rem-1 .statement}
+#### Nhận xét {#alg-vii-s4-n2-rem-1 .statement tag=073R}
 
 — 1) Nếu $x$ là một phần tử khác không của $L$ và $c$ là một nội dung của $x$, thì tồn tại một phần tử duy nhất $y$ của $L$ sao cho $x = cy$ ; ký hiệu phần tử này là $x/c$ ; khi đó $x/c$ là một phần tử không phân tích được của $L$.
 2) Nội dung $c_L(x)$ là linh hóa tử của môđun xoắn của $L/Ax$.
 
 Cho $L$ là một môđun tự do trên một miền iđêan chính $A$ và cho $M$ là một môđun con của $L$ ; theo *VII*, p. 4, Bổ đề 1, họ $c_L(x), x \in M$, có một phần tử cực đại ; nếu $M \neq \{0\}$ thì một phần tử cực đại như vậy là khác không.
 
-#### Mệnh đề 3 {#alg-vii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#alg-vii-s4-prop-3 .statement tag=073S}
 
 *Cho $L$ là một môđun tự do trên một miền iđêan chính $A$ và cho $M$ là một môđun con khác không của $L$. Cho $x$ là một phần tử của $M$ sao cho $c_L(x)$ là cực đại trong số các nội dung của các phần tử của $M$, cho $c$ là một nội dung của $x$ trong $L$, và cho $f$ là một dạng tuyến tính trên $L$ sao cho $f(x) = c$.
 
@@ -135,7 +135,7 @@ b) ta có $g(M) \subset Ac + h(K \cap M)$. Để chứng minh c), vì vậy ch�
 
 ### 3. Các nhân tử bất biến của một môđun con
 
-#### Định lý 1 {#alg-vii-s4-thm-1 .statement}
+#### Định lý 1 {#alg-vii-s4-thm-1 .statement tag=073T}
 
 — Cho $L$ là một môđun tự do trên miền iđêan chính $A$, và cho $M$ là một môđun con của $L$ có hạng hữu hạn $n$. Khi đó tồn tại một cơ sở $B$ của $L$, $n$ phần tử $e_i$ của $B$, và $n$ phần tử khác không $\alpha_i$ của $A$ ($1 \leq i \leq n$) sao cho:
 a) các $\alpha_i e_i$ tạo thành một cơ sở của $M$;
@@ -159,17 +159,17 @@ Vì thế các điều kiện của Hệ quả của Mệnh đề 2 (VII, p. 16)
 
 Vì $L$ là tổng trực tiếp của $M'$ và $L'$, suy ra $L/M$ là tổng của $M'/M$ và $(L' + M)/M$, và tổng này là trực tiếp vì $(L' + M) \cap M' = M$; mặt khác $(L' + M)/M$ đẳng cấu với $L'/(M \cap L')$ (I, p. 41, Định lý 4, c)), tức là với $L'$, điều này cho thấy rằng $(L' + M)/M$ là một môđun tự do đẳng cấu với $L/M'$.
 
-#### Hệ quả {#alg-vii-s4-n3-cor-1 .statement}
+#### Hệ quả {#alg-vii-s4-n3-cor-1 .statement tag=073U}
 
 — Một môđun con $M$ hạng hữu hạn trong một môđun tự do $L$ trên một miền iđêan chính $A$ có một phần bù trong $L$ khi và chỉ khi $L/M$ không xoắn.
 
 Theo ký hiệu của Định lý 1, nếu $L/M$ không xoắn, thì $M = M'$, và $M'$ có một phần bù $L'$ trong $L$. Ngược lại nếu $M$ có một phần bù $L'$ trong $L$, thì $L/M$ đẳng cấu với $L'$, môđun này là tự do (VII, p. 15, Hệ quả 2), và a fortiori không xoắn.
 
-#### Nhận xét {#alg-vii-s4-n3-rem-1 .statement}
+#### Nhận xét {#alg-vii-s4-n3-rem-1 .statement tag=073V}
 
 Có thể xảy ra trường hợp một môđun con $M$ hạng vô hạn trong một môđun tự do $L$ lại có tính chất là $L/M$ không xoắn, nhưng $M$ không có phần bù nào trong $L$ (VII, p. 60, Bài tập 6, b)).
 
-#### Định nghĩa 1 {#alg-vii-s4-def-1 .statement}
+#### Định nghĩa 1 {#alg-vii-s4-def-1 .statement tag=073W}
 
 — Theo ký hiệu và các giả thiết của Định lý 1, các iđêan $A\alpha_i$ của $A$ được gọi là các bất biến nhân tử của môđun con $M$ đối với môđun $L$.
 
@@ -177,26 +177,26 @@ Trong trường hợp $A$ là hoặc vành $\mathbf{Z}$ các số nguyên hữu 
 
 ### 4. Cấu trúc của các môđun hữu hạn sinh
 
-#### Định lý 2 {#alg-vii-s4-thm-2 .statement}
+#### Định lý 2 {#alg-vii-s4-thm-2 .statement tag=073X}
 
 — Mọi môđun hữu hạn sinh $E$ trên một miền iđêan chính $A$ đều đẳng cấu với một tổng trực tiếp của một số hữu hạn $m$ môđun cyclic $A/a_k$, trong đó các $a_k$ là các iđêan của $A$ (một số có thể bằng không) sao cho $a_1 \subset a_2 \subset \ldots \subset a_m \neq A$, và được xác định duy nhất bởi các điều kiện này.
 
 Nếu $E$ có thể được sinh bởi $q$ phần tử thì nó đẳng cấu với một môđun thương $L/M$, trong đó $L = A^q$ (II. p. 218). Vì $M$ có hạng hữu hạn $n \leq q$ (VII, p. 15, Prop. 1), các điều kiện của Th. 1 (VII, p. 18) được thỏa mãn. Khi đó, theo ký hiệu của Th. 1, $L/M$ đẳng cấu với tổng trực tiếp của một phần bù $L'$ của $M'$ trong $L$ và môđun xoắn $M'/M$. Môđun $L'$ là tự do có hạng hữu hạn $p = q - n$, nên đẳng cấu với $A^p$. Nếu $r$ là chỉ số nhỏ nhất sao cho $A\alpha_r \neq A$, thì $M'/M$ đẳng cấu với tổng trực tiếp của các môđun $A/A\alpha_i$ với $r \leq i \leq n$. Các điều kiện đã nêu khi đó sẽ được thỏa mãn nếu ta lấy $m = p + (n - r + 1)$, $a_k = (0)$ với $1 \leq k \leq p$, và $a_j = A\alpha_n , - ,$ với $1 \leq j \leq n - r + 1$. Tính duy nhất suy ra từ Hệ quả của VII, p. 16.
 
-#### Hệ quả 1 {#alg-vii-s4-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-vii-s4-thm-2-cor-1 .statement tag=073Y}
 
 — *Mọi môđun hữu hạn sinh E trên một miền iđêan chính đều là tổng trực tiếp của môđun con xoắn của E và một môđun tự do.*
 
 Nói chung, môđun con xoắn của E có nhiều phần bù phân biệt. Chẳng hạn, nếu $E = \mathbf{Z} \times (\mathbf{Z}/(2))$ thì môđun con xoắn của E là $\{0\} \times (\mathbf{Z}/(2))$; nó có môđun con $\mathbf{Z} \times (0)$ làm một phần bù, và cũng có môđun con gồm tất cả các phần tử $(n, \overline{n})$, trong đó $n$ chạy qua $\mathbf{Z}$ và $\overline{n}$ là lớp thặng dư của $n$ mod 2.
 
-#### Hệ quả 2 {#alg-vii-s4-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-vii-s4-thm-2-cor-2 .statement tag=073Z}
 
 — *Mọi môđun không xoắn hữu hạn sinh trên một miền iđêan chính đều là tự do có hạng hữu hạn.*
 Điều này suy ra ngay lập tức từ Hệ quả 1.
 
 Điều kiện môđun là hữu hạn sinh là cốt yếu. Chẳng hạn nhóm cộng của trường phân thức K của A là không xoắn như một A-môđun; tuy nhiên nó không phải là một môđun tự do nếu $A \neq K$, vì một mặt hai phần tử bất kỳ của K đều có một ước chung, và mặt khác K không phải là một A-môđun cyclic, vì nếu ngược lại thì $K = ab^{-1}A$ ($a, b \in A$), do đó $b^{-2} = acb^{-1}$ ($c \in A$), nên $b^{-1} = ac \in A$, và $K = A$.
 
-#### Định nghĩa 2 {#alg-vii-s4-def-2 .statement}
+#### Định nghĩa 2 {#alg-vii-s4-def-2 .statement tag=0740}
 
 — *Theo ký hiệu và các giả thiết của Th. 2, các iđêan $a_k$ được gọi là các nhân tử bất biến của môđun E.*
 Như trong Định nghĩa 1 (VII, p. 19), khi $A = \mathbf{Z}$ hoặc $A = K[X]$, phần tử sinh chính tắc của iđêan $a_k$ (một số nguyên dương hoặc một đa thức đơn khởi) cũng được gọi, do lạm dụng ngôn ngữ, là một *nhân tử bất biến* của môđun hữu hạn sinh E.
@@ -205,7 +205,7 @@ Cần cẩn thận đừng nhầm lẫn các nhân tử bất biến của một
 
 ### 5. Tính toán các nhân tử bất biến
 
-#### Mệnh đề 4 {#alg-vii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#alg-vii-s4-prop-4 .statement tag=0741}
 
 — *Cho A là một miền iđêan chính, L là một A-môđun tự do với cơ sở hữu hạn $(u_j)$ ($1 \leq j \leq k$), M là một môđun con của L, $(x_i)$ là một hệ sinh của M và $A \alpha_i$ ($1 \leq i \leq n$) là các bất biến cơ bản của M đối với L. Khi đó với $1 \leq m \leq n$ tích $\delta_m = \alpha_1 \ldots \alpha_m$ là một ước chung lớn nhất của các định thức con cấp m của ma trận mà các cột là các vectơ tọa độ của các $x_i$ đối với cơ sở $(u_j)$.
 
@@ -217,13 +217,13 @@ Trong trường hợp tổng quát, xét *lũy thừa ngoài* bậc m $\bigwedge
 
 Cho $A$ là một miền iđêan chính. Xét một ánh xạ tuyến tính $f$ từ một $A$-môđun tự do $L$ hạng $m$ vào một $A$-môđun tự do $L'$ hạng $n$. Các kết quả trước cho phép ta, bằng cách chọn những cơ sở thích hợp của $L$ và $L'$, đưa ma trận của $f$ về một dạng đặc biệt đơn giản, gọi là *dạng chính tắc* của ma trận.
 
-#### Mệnh đề 5 {#alg-vii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#alg-vii-s4-prop-5 .statement tag=0742}
 
 *Cho $A$ là một miền iđêan chính, và $f$ là một ánh xạ tuyến tính hạng $r$ từ một $A$-môđun tự do $L$ hạng $m$ vào một $A$-môđun tự do $L'$ hạng $n$. Khi đó tồn tại các cơ sở $(e_i)$ ($1 \leq i \leq m$) của $L$ và $(e'_j)$ ($1 \leq j \leq n$) của $L'$ sao cho $f(e_i) = \alpha_i e'_i$ với $1 \leq i \leq r$ và $f(e_i) = 0$ với $i > r$, trong đó các $\alpha_i$ là những phần tử khác không của $A$, mỗi phần tử đều chia phần tử kế tiếp; các iđêan $A \alpha_i$ là những nhân tử bất biến của $f(L)$ trong $L'$, và do đó được xác định duy nhất.*
 
 Cho $L_0 = f^{-1}(0)$ là hạt nhân của $f$; thương $L/L_0$ đẳng cấu với môđun $f(L)$, là một môđun con của $L'$ và do đó là tự do (*VII*, p. 15, Hệ quả 2); vì thế $L_0$ có một phần bù $L_1$ trong $L$ (*II*, p. 218, Mệnh đề 21), và hạn chế của $f$ lên $L_1$ là một đẳng cấu từ $L_1$ lên $f(L) = M'$. Nếu các iđêan $A \alpha_i$ ($1 \leq i \leq r$) là các nhân tử bất biến của $M'$ trong $L'$, thì Định lý 1 của *VII*, p. 18 cho thấy rằng tồn tại một cơ sở $(e'_j)$ ($1 \leq j \leq n$) của $L'$ sao cho $(\alpha_i e'_i)$ ($1 \leq i \leq r$) là một cơ sở của $M'$. Vì hạn chế của $f$ lên $L_1$ là một đẳng cấu từ $L_1$ lên $M'$, nên tồn tại một cơ sở $(e_i)$ ($1 \leq i \leq r$) của $L_1$ sao cho $f(e_i) = \alpha_i e'_i$. Cơ sở này được mở rộng thành một cơ sở $(e_s)$ ($1 \leq k \leq m$) của $L$ bằng cách lấy $(e_s)$ ($r+1 \leq s \leq m$) là một cơ sở của hạt nhân $L_0$.
 
-#### Hệ quả 1 {#alg-vii-s4-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-vii-s4-prop-5-cor-1 .statement tag=0743}
 
 — Cho X là một ma trận hạng r, với n hàng và m cột, trên một miền iđêan chính A; khi đó tồn tại một ma trận $X_0$ tương đương với X (II, p. 354) có dạng
 
@@ -243,7 +243,7 @@ Biết rằng hai ma trận X và $X'$ là tương đương nếu tồn tại c�
 
 Theo ký hiệu của Mệnh đề 5 và Hệ quả 1, các iđêan (khác không) $Au$, được gọi là các nhân tử bất biến của ánh xạ tuyến tính f, hoặc của ma trận X. Khi đó suy ra ngay lập tức từ Hệ quả I rằng:
 
-#### Hệ quả 2 {#alg-vii-s4-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#alg-vii-s4-prop-5-cor-2 .statement tag=0744}
 
 — Hai ma trận X và $X'$ có n hàng và m cột trên một miền iđêan chính A là tương đương khi và chỉ khi chúng có cùng các nhân tử bất biến.
 
@@ -251,7 +251,7 @@ Chú ý rằng khi A là một trường thì ta có thể lấy các $\alpha_i$
 
 Nếu X là ma trận của ánh xạ tuyến tính f đối với một cơ sở tùy ý của L và một cơ sở tùy ý của $L'$, thì các cột của X là các vectơ tọa độ, đối với cơ sở của $L'$, của các phần tử của $L'$ tạo thành một hệ sinh của $f(L)$. Do đó kết quả sau là một hệ quả ngay lập tức của Mệnh đề 4.
 
-#### Mệnh đề 6 {#alg-vii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#alg-vii-s4-prop-6 .statement tag=0745}
 
 — Cho X là một ma trận hạng r trên một miền iđêan chính A, và cho $A \alpha_i$ ($1 \leq i \leq r$) là dãy các nhân tử bất biến của nó. Khi đó $\alpha_1$ là một ước chung lớn nhất của các phần tử của X; và tích $\alpha_1 \ldots \alpha_q$ là một ước chung lớn nhất của các định thức con cấp q của X với $q \leq r$.
 
@@ -259,41 +259,41 @@ Nếu X là ma trận của ánh xạ tuyến tính f đối với một cơ s�
 
 Trong trường hợp $A = \mathbf{Z}$, các kết quả của tiết diện 4 có thể được phát biểu
 
-#### Định lý 3 {#alg-vii-s4-thm-3 .statement}
+#### Định lý 3 {#alg-vii-s4-thm-3 .statement tag=0746}
 
 — Mọi nhóm Abel sinh hữu hạn G là tổng trực tiếp của nhóm con xoắn F của nó (nhóm con các phần tử có cấp hữu hạn trong G) và một nhóm Abel tự do hạng hữu hạn p (đẳng cấu với $\mathbf{Z}^p$). Nhóm F là tổng trực tiếp của một số hữu hạn nhóm cyclic có cấp $n_1, n_2, \ldots, n_q$, trong đó các $n_i$ là những số nguyên $> 1$, mỗi số chia hết số đứng trước nó; hơn nữa, các số nguyên $p, q$ và $n_i$ ($1 \leq i \leq q$) được xác định duy nhất bởi $G$.
 
-#### Nhận xét {#alg-vii-s4-n7-rem-1 .statement}
+#### Nhận xét {#alg-vii-s4-n7-rem-1 .statement tag=0747}
 
 Trong khi các cấp $n_1, \ldots, n_q$ của các nhóm cyclic mà F là tổng trực tiếp của chúng được xác định rõ bởi điều kiện chia hết của Định lý 3, thì điều đó *không* đúng đối với chính các nhóm ấy: chẳng hạn, trong tích G của $\mathbf{Z}/(p)$ với chính nó (với p nguyên tố), các nhóm con chính xác là các không gian con vectơ trên $\mathbf{F}_p$, và G là tổng trực tiếp của hai không gian con 1 chiều theo $p(p+1)$ cách khác nhau.
 
-#### Hệ quả 1 {#alg-vii-s4-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-vii-s4-thm-3-cor-1 .statement tag=0748}
 
 — *Trong một nhóm Abel hữu hạn G, tồn tại một phần tử mà cấp của nó là bội chung nhỏ nhất của mọi cấp của các phần tử của G; cấp này n là nhân tử bất biến thứ nhất của G.*
 
-#### Hệ quả 2 {#alg-vii-s4-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-vii-s4-thm-3-cor-2 .statement tag=0749}
 
 — *Mọi nhóm Abel hữu hạn G mà cấp không chia hết cho bình phương của bất kỳ số nguyên nào $> 1$ đều là cyclic.*
 Hãy giữ ký hiệu của Định lý 3. Khi đó $p = 0$ vì G là hữu hạn, và $q \leq 1$, vì nếu không thì cấp của G sẽ chia hết cho $n_q^2$. Do đó G là cyclic.
 
-#### Hệ quả 3 {#alg-vii-s4-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#alg-vii-s4-thm-3-cor-3 .statement tag=074A}
 
 — *Cho L và M là hai $\mathbf{Z}$-môđun tự do hạng n, cho $(e_i)$ là một cơ sở của L và $(f_i)$ là một cơ sở của M ($1 \leq i \leq n$), cho u là một đồng cấu từ L vào M, và cho U là ma trận của nó đối với các cơ sở $(e_i)$ và $(f_i)$. Khi đó $\mathrm{Coker}\,u = M/u(L)$ là hữu hạn khi và chỉ khi $\det(U) \neq 0$, và khi ấy $\mathrm{Card}(\mathrm{Coker}(u)) = |\det(U)|$.
 Bằng cách thay đổi cơ sở trong L và M nếu cần, ta có thể giả sử rằng U có dạng được mô tả trong VII, p. 22, Hệ quả 1 của Mệnh đề 5 (trong đó các $a_i$ trong trường hợp này là các số nguyên); khi đó hệ quả trở nên hiển nhiên, vì cấp của một tổng trực tiếp các $\mathbf{Z}$-môđun $\mathbf{Z}/\alpha_i \mathbf{Z}$ ($1 \leq i \leq n$) là vô hạn nếu một trong các $a_i$ bằng không, và bằng $|\alpha_1 \alpha_2 \ldots a_n|$ trong trường hợp ngược lại.
 
 ### 8. Môđun không phân tích được. Các ước sơ cấp
 
-#### Định nghĩa 3 {#alg-vii-s4-def-3 .statement}
+#### Định nghĩa 3 {#alg-vii-s4-def-3 .statement tag=074B}
 
 — *Một môđun trái M trên một vành A được gọi là phân tích được nếu nó là tổng trực tiếp của một họ các môđun con thực sự khác không. Nếu không thì nó được gọi là không phân tích được.*
 Như vậy môđun không là *phân tích được*, vì nó là tổng trực tiếp của họ rỗng các môđun con.
 Cho $\mathfrak{a}$ là một iđêan trái của vành A; các môđun con của $A/\mathfrak{a}$ chính là các thương $b/\mathfrak{a}$, trong đó $b$ là một iđêan của A chứa $\mathfrak{a}$ (I, p. 41, Định lý 4); nếu $b$ và $c$ là hai iđêan của A chứa $\mathfrak{a}$, thì môđun $A/\mathfrak{a}$ là tổng trực tiếp của các môđun con $b/\mathfrak{a}$ và $c/\mathfrak{a}$ khi và chỉ khi $A = b + c$ và $b \cap c = \mathfrak{a}$. Kết quả là:
 
-#### Bổ đề 2 {#alg-vii-s4-lem-2 .statement}
+#### Bổ đề 2 {#alg-vii-s4-lem-2 .statement tag=074C}
 
 — *Môđun $A/\mathfrak{a}$ là không phân tích được khi và chỉ khi $\mathfrak{a} \neq A$ và không có cặp $(b, c)$ iđêan nào của A, khác A và $\mathfrak{a}$, sao cho $A = b + c$ và $b \cap c = \mathfrak{a}$.*
 
-#### Mệnh đề 7 {#alg-vii-s4-prop-7 .statement}
+#### Mệnh đề 7 {#alg-vii-s4-prop-7 .statement tag=074D}
 
 — Cho $A$ là một vành giao hoán, cho $\mathfrak{p}$ là một iđêan nguyên tố của $A$ (I, p. 117, Định nghĩa 3), và cho $q$ là một iđêan của $A$ được chứa trong $\mathfrak{p}$. Giả sử rằng với mọi $x \in \mathfrak{p}$ tồn tại một số nguyên $n > 0$ sao cho $x^n \in q$. Khi đó A-môđun $A/q$ là không phân tích được.
 
@@ -301,7 +301,7 @@ Cho $b$ và $c$ là hai iđêan của $A$, sao cho $A = b + c$ và $b \cap c = q
 
 Bây giờ giả sử rằng $A$ là một miền iđêan chính; theo VII, p. 2, Mệnh đề 2, các iđêan nguyên tố của $A$ là các iđêan $(p)$, trong đó $p$ là một phần tử bất khả quy của $A$, và iđêan $0$; theo mệnh đề trước, các môđun $A$ và $A/(p^n)$, với $p$ bất khả quy và $n > 0$, là không phân tích được. Vì mọi môđun xyclic đều là tổng trực tiếp của các môđun thuộc kiểu này (VII, p. 3, Mệnh đề 4) và vì mọi $A$-môđun sinh hữu hạn đều là tổng trực tiếp của các môđun xyclic (VII, p. 19, Định lý 2), ta suy ra:
 
-#### Mệnh đề 8 {#alg-vii-s4-prop-8 .statement}
+#### Mệnh đề 8 {#alg-vii-s4-prop-8 .statement tag=074E}
 
 — Cho $A$ là một miền iđêan chính và $M$ là một $A$-môđun sinh hữu hạn.
 
@@ -311,27 +311,27 @@ b) $M$ là tổng trực tiếp của một họ hữu hạn các môđun con kh
 
 Phần b) của mệnh đề trên có thể được nói chính xác hơn như sau:
 
-#### Mệnh đề 9 {#alg-vii-s4-prop-9 .statement}
+#### Mệnh đề 9 {#alg-vii-s4-prop-9 .statement tag=074F}
 
 — Cho $A$ là một miền iđêan chính, cho $P$ là một hệ các đại diện của các phần tử bất khả quy của $A$ và cho $M$ là một $A$-môđun sinh hữu hạn. Khi đó tồn tại các số nguyên dương $m(0)$ và $m(p^n)$ ($p \in P, n > 0$), được xác định duy nhất bởi $M$ và bằng không trừ ra chỉ với hữu hạn nhiều trong số chúng, sao cho $M$ đẳng cấu với tổng trực tiếp của $A^{m(0)}$ và các $(A/(p^n))^{m(p^n)}$ ($p \in P, n > 0$).
 
 Sự tồn tại của các số nguyên $m(0)$ và $m(p^n)$ ($p \in P, n > 0$) suy ra từ Mệnh đề 8. Số nguyên $m(0)$ được xác định duy nhất: đó là hạng của môđun tự do là thương của $M$ bởi môđun con xoắn của nó. Cuối cùng, thành phần nguyên sơ theo $p$ của $M$ đẳng cấu với tổng trực tiếp của các $(A/(p^n))^{m(p^n)}$; vì họ các iđêan $(p^n)$ ($n \geq 1$) được sắp thứ tự toàn phần theo quan hệ bao hàm, tính duy nhất của các $m(p^n)$ suy ra từ Hệ quả của Mệnh đề 2 của VII, p. 16.
 
-#### Định nghĩa 4 {#alg-vii-s4-def-4 .statement}
+#### Định nghĩa 4 {#alg-vii-s4-def-4 .statement tag=074G}
 
 — Theo ký hiệu của Mệnh đề 9, các iđêan $(p^n)$ ($p \in P, n \geq 1$ là một số nguyên) sao cho $m(p^n) > 0$ được gọi là các ước sơ cấp của môđun $M$, và các số nguyên $m(p^n)$ được gọi là các bội số của chúng; nếu số nguyên $m(0)$ là $> 0$, thì nó được gọi là bội số của ước sơ cấp 0.
 
 Đối với các nhân tử bất biến (VII, p. 19, Định nghĩa 1), khi $A = \mathbf{Z}$ hoặc $A = K[X]$ (K là một trường giao hoán), thì phần tử sinh chính tắc của iđêan $(p^n)$ (một số nguyên dương hoặc một đa thức đơn khởi) cũng được gọi, theo lối nói lạm dụng, là một ước sơ cấp của môđun hữu hạn sinh $M$.
 
-#### Nhận xét 1 {#alg-vii-s4-n8-rem-1 .statement}
+#### Nhận xét 1 {#alg-vii-s4-n8-rem-1 .statement tag=074H}
 
 Nếu $M$ là một nhóm Abel hữu hạn, thì cấu trúc của nó có thể được mô tả bằng cách viết ra các ước sơ cấp của nó, mỗi ước được lặp lại nhiều lần bằng bội số của nó. Chẳng hạn, ta sẽ nói rằng $M$ « thuộc kiểu $(2, 2, 4, 27, 27, 25)$ » (hoặc rằng nó là « một nhóm $(2, 2, 4, 27, 27, 25)$ ») nếu nó đẳng cấu với tích của hai nhóm $\mathbf{Z}/(2)$, một nhóm $\mathbf{Z}/(2^2)$, hai nhóm $\mathbf{Z}/(3^3)$ và một nhóm $\mathbf{Z}/(5^2)$.
 
-#### Nhận xét 2 {#alg-vii-s4-n8-rem-2 .statement}
+#### Nhận xét 2 {#alg-vii-s4-n8-rem-2 .statement tag=074I}
 
 Nếu một môđun xoắn hữu hạn sinh $M$ trên một miền iđêan chính $A$ được cho dưới dạng tổng trực tiếp của các môđun cyclic đẳng cấu với $A/(a_i)$ (đặc biệt nếu các nhân tử bất biến của $M$ đã biết), thì các ước sơ cấp của $M$, và các bội số của chúng, có thể được xác định bằng cách nhận thấy rằng $A/(a)$ đẳng cấu với tích của các $A/(p^{n(p)})$, trong đó $a = e \prod_{p \in P} p^{n(p)}$ là phân tích của $a$ thành các nhân tử bất khả quy ($VII$, p. 3). Chẳng hạn, hãy xét nhóm nhân $G(464\ 600)$, trong đó $G(n)$ ký hiệu nhóm nhân $(\mathbf{Z}/n\mathbf{Z})^*$ ($VII$, p. 12). Vì $464\ 600 = 2^3 \cdot 5 \cdot 23 \cdot 101$, nhóm này đẳng cấu với tích của các nhóm $G(2^3)$, $G(5^2)$, $G(23)$ và $G(101)$ ($VII$, p. 13, Định lý 3); bây giờ ba nhóm sau cùng là cyclic với các cấp 20, 22 và 100, còn $G(2^3)$ là tích của hai nhóm cyclic cấp 2 (\emph{nơi đã dẫn}); vì $20 = 2^2 \cdot 5$, $22 = 2 \cdot 11$ và $100 = 2' \cdot 5^2$, nhóm $G(464\ 600)$ thuộc kiểu $(2, 2, 2, 2^2, 2^2, 2^2, 5, 5^2, 11)$.
 
-#### Nhận xét 3 {#alg-vii-s4-n8-rem-3 .statement}
+#### Nhận xét 3 {#alg-vii-s4-n8-rem-3 .statement tag=074J}
 
 Để tính các nhân tử bất biến của một môđun xoắn khi đã biết các ước số sơ cấp của nó, ta lại dựa vào sự kiện rằng, nếu các $a_i$ là các phần tử nguyên tố cùng nhau từng đôi một của $A$, thì tích $\prod A/(a_i)$ là một môđun cyclic đẳng cấu với $A/(a_1 a_2 ... a_n)$ ($VII$, p. 3, Mệnh đề 4). Hãy minh họa phương pháp bằng cách xét ví dụ của nhóm $G(464\ 600) = M$: viết các ước số sơ cấp $p^n$ của $M$ là những lũy thừa của cùng một phần tử bất khả quy $p$ trên cùng một hàng, bắt đầu bằng những ước số có số mũ lớn nhất; kéo dài các hàng ấy thành các hàng có cùng độ dài bằng cách đặt thêm các số 1 khi cần:
 
@@ -345,7 +345,7 @@ $$
 
 Khi đó các nhân tử bất biến là các tích của các phần tử trong cùng một cột: $1100, 20, 2, 2, 2$. Thật vậy, $M$ đẳng cấu với một tích các nhóm cyclic có các cấp lần lượt là 1100, 20, 2, 2, 2 theo Mệnh đề 4 của $VII$, p. 3; vì mỗi cấp trong các cấp ấy là một bội của cấp kế tiếp, nên đó là các nhân tử bất biến của $M$ ($VII$, p. 22, Định lý 3).
 
-#### Nhận xét 4 {#alg-vii-s4-n8-rem-4 .statement}
+#### Nhận xét 4 {#alg-vii-s4-n8-rem-4 .statement tag=074K}
 
 Một A-môđun được gọi là đơn ($I$, p. 37) nếu nó khác không và không có môđun con nào khác ngoài chính nó và $0$; khi đó nó tất yếu là cyclic, do đó sinh hữu hạn, và không phân tích được; vì các môđun $A/(p^n)$ không đơn đối với $n \neq 1$, còn các môđun $A/(p)$ thì đơn, và vì $A$ chỉ đơn khi vành $A$ là một trường, ta suy ra rằng các A-môđun đơn là:
 a) các môđun tự do hạng 1, khi $A$ là một trường;
@@ -369,17 +369,17 @@ $$
 
 sao cho $\langle x', c_M(x) \rangle = \langle x, x' \rangle$ với $x \in M$ và $x' \in D(M)$.
 
-#### Mệnh đề 10 {#alg-vii-s4-prop-10 .statement}
+#### Mệnh đề 10 {#alg-vii-s4-prop-10 .statement tag=074L}
 
 — Nếu *M là một A-môđun có độ dài hữu hạn, thì $D(M)$* (nói chung không một cách tự nhiên) *đẳng cấu với M, và ánh xạ chính tắc $c_M : M \to D(D(M))$ là một đẳng cấu.*
 Dùng VII, p. *19*, Đl. 2 và **II**, p. 203, Hệ quả 1, ta rút gọn về trường hợp $M$ là cyclic. Do đó ta có thể giả sử rằng $M = A/tA$ với $t \neq 0$. Chú ý rằng mọi đồng cấu $u : A/tA \to K/A$ được xác định hoàn toàn bởi ảnh $\xi \in K/A$ dưới $u$ của lớp $\varepsilon$ của *1* mod $tA$, và phần tử này phải thỏa mãn quan hệ $t\xi = 0$ ; ngược lại, với mọi $\xi \in K/A$ sao cho $t\xi = 0$, tồn tại một đồng cấu $u : A/tA \to K/A$ sao cho $u(\varepsilon) = \xi$. Suy ra rằng $D(M)$ đẳng cấu với $t^{-1}A/A$, và vì phép vị tự bởi $t$ là một song ánh trên K, ta cũng có $D(M)$ đẳng cấu với $A/tA$, điều này chứng minh mệnh đề thứ nhất. Điều này chứng minh rằng $M$ và $D(D(M))$ đẳng cấu, nên có cùng độ dài ; mặt khác $c_M$ là đơn ánh, vì nếu $y \in A$ sao cho quan hệ $tz \in A$ (với $z \in K$) kéo theo $yz \in A$, thì khi lấy $z = t^{-1}$ ta có $y \in tA$. Suy ra rằng ảnh $c_M(M)$ tất yếu bằng $D(D(M))$.
 
-#### Hệ quả {#alg-vii-s4-n9-cor-1 .statement}
+#### Hệ quả {#alg-vii-s4-n9-cor-1 .statement tag=074M}
 
 — *Cho M, N là hai A-môđun có độ dài hữu hạn, và cho $\varphi$ là một ánh xạ song tuyến tính từ $M \times N$ vào $K/A$, sao cho : 1) quan hệ $\varphi(x, y) = 0$ với mọi $y \in N$ kéo theo $x = 0$ ; và 2) quan hệ $\varphi(x, y) = 0$ với mọi $x \in M$ kéo theo $y = 0$. Khi đó các ánh xạ A-tuyến tính $s_\varphi : M \to D(N)$ và $d_\varphi : N \to D(M)$ liên kết với $\varphi$ là các đẳng cấu.*
 Thật vậy các giả thiết trên $\varphi$ có nghĩa là $s_\varphi$ và $d_\varphi$ là *đơn ánh* và vì $\mathrm{long}(D(N)) = \mathrm{long}(N)$ và $\mathrm{long}(D(M)) = \mathrm{long}(M)$ theo Mđ. *10*, điều này suy ra rằng $\mathrm{long}(M) = \mathrm{long}(N)$, và do đó $s_\varphi$ và $d_\varphi$ là song ánh.
 
-#### Mệnh đề 11 {#alg-vii-s4-prop-11 .statement}
+#### Mệnh đề 11 {#alg-vii-s4-prop-11 .statement tag=074N}
 
 — *Nếu $M' \xrightarrow{u} M \xrightarrow{v} M''$ là một dãy khớp các A-môđun có độ dài hữu hạn, thì dãy $D(M'') \xrightarrow{D(v)} D(M) \xrightarrow{D(u)} D(M')$ là khớp* [^1].
 
@@ -420,7 +420,7 @@ nói cách khác $\operatorname{long}(D(M')) = \operatorname{long}(D(M)/D(M''))$
 
 Với mọi A-môđun M, ký hiệu $\mathfrak{S}(M)$ là tập hợp các môđun con của M. Với mọi môđun con N của M (tương ứng, mọi môđun con N' của D(M)), ký hiệu $N^0$ (tương ứng, ${N'}^0$) là môđun con của $D(M)$ (tương ứng, của M) gồm những $x' \in D(M)$ (tương ứng, những $x \in M$) sao cho $(y, x') = 0$ với mọi $y \in N$ (tương ứng, $(x, y') = 0$ với mọi $y' \in N'$).
 
-#### Mệnh đề 12 {#alg-vii-s4-prop-12 .statement}
+#### Mệnh đề 12 {#alg-vii-s4-prop-12 .statement tag=074O}
 
 *Cho M là một A-môđun có độ dài hữu hạn. Khi đó ánh xạ biến mỗi môđun con N của M thành $N^0$ là một song ánh từ $\mathfrak{S}(M)$ lên $\mathfrak{S}(D(M))$, và song ánh ngược biến mỗi môđun con N' của D(M) thành môđun con ${N'}^0$ của M; môđun $D(N)$ được đồng nhất một cách tự nhiên với $D(M)/N^0$ và $D(M/N)$ với $N^0$. Hơn nữa, ta có*
 
@@ -451,11 +451,11 @@ $$
 
 ngoài ra hiển nhiên rằng $N \subset N^{00}$, nên $N^{00} = N$. Hơn nữa quan hệ thứ nhất trong (2) là hiển nhiên, và khi áp dụng nó cho các môđun con $N_1^0$ và $N_2^0$ của $D(M)$, ta có $(N_1^0 + N_2^0)^0 = N_1 \cap N_2$, nên $N_1^0 + N_2^0 = (N_1^0 + N_2^0)^{00} = (N_1 \cap N_2)^0$. Điều này hoàn tất chứng minh của mệnh đề.
 
-#### Ví dụ 1 {#alg-vii-s4-n9-exa-1 .statement}
+#### Ví dụ 1 {#alg-vii-s4-n9-exa-1 .statement tag=074P}
 
 Với $A = \mathbf{Z}$, các $\mathbf{Z}$-môđun có độ dài hữu hạn chính xác là các nhóm Abel hữu hạn; khi đó $K = \mathbf{Q}$, nên $K/A = \mathbf{Q}/\mathbf{Z}$. Khi đó để định nghĩa $D(M)$, đôi khi thay cho $\mathbf{Q}/\mathbf{Z}$, ta lấy một $\mathbf{Z}$-môđun đẳng cấu với nó, chẳng hạn như (V, p. 79, Mệnh đề 2) nhóm $R$ các căn bậc một của đơn vị (đối với phép nhân) trong một trường đóng đại số có đặc số 0 ; khi đó ta đặt $D(M) = \operatorname{Hom}_{\mathbf{Z}}(M, R)$. Ta để bạn đọc viết lại các kết quả trên cho trường hợp riêng này theo ký hiệu tương ứng.
 
-#### Ví dụ 2 {#alg-vii-s4-n9-exa-2 .statement}
+#### Ví dụ 2 {#alg-vii-s4-n9-exa-2 .statement tag=074Q}
 
 Cho $a$ là một phần tử khác không của $A$. Ánh xạ $x \mapsto x/a$ từ $A$ vào $K$ cảm sinh một đẳng cấu của các môđun thương từ $A/(a)$ lên môđun con $(K/A)(a)$ của $K/A$ gồm các phần tử bị triệt tiêu bởi $a$. Nếu $M$ là một $A$-môđun bị triệt tiêu bởi $a$, hay tương đương là một $A/(a)$-môđun, thì $A$-môđun $D(M)$ được đồng nhất với $\operatorname{Hom}_{A/(a)}(M, A/(a))$. Chúng tôi để bạn đọc viết lại các kết quả trước đó cho trường hợp riêng này theo ký hiệu tương ứng (xem V, p. 86).
 

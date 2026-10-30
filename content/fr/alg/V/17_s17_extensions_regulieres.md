@@ -37,14 +37,14 @@ subsections:
       pdf_page: 241
 statements: 20
 exercises: 5
-content_sha256: 5dc0d9e3e0335cdf3478b8704b3836f234eebd2b163e35eeb1039ba11b3fe512
+content_sha256: 98cc5db4e75b983dd5a2432c2b331c8d7c47c7ed707af5a80405c99048f13fc8
 ---
 
 ## § 17. EXTENSIONS RÉGULIÈRES
 
 ### 1. Compléments sur la fermeture algébrique séparable
 
-#### Théorème 1 (Zariski) {#alg-v-s17-thm-1 .statement}
+#### Théorème 1 (Zariski) {#alg-v-s17-thm-1 .statement tag=06VP}
 
 Soient K un corps, L une extension de K, $K_1$ la fermeture algébrique séparable de K dans L (V, p. 42), $K_2$ la fermeture algébrique de K dans L (V, p. 19) et $(X_i)_{i \in I}$ une famille d’indéterminées. Alors $K_1(X_i)_{i \in I}$ est la fermeture algébrique séparable de $K(X_i)_{i \in I}$ dans $L(X_i)_{i \in I}$, et $K_2(X_i)_{i \in I}$ est la fermeture algébrique de $K(X_i)_{i \in I}$ dans $L(X_i)_{i \in I}$.
 
@@ -73,7 +73,7 @@ On vient de déduire de A) que $K_1(X_i)_{i \in I}$ est la fermeture séparable 
 
 ### 2. Produit tensoriel d’extensions
 
-#### Proposition 1 {#alg-v-s17-prop-1 .statement}
+#### Proposition 1 {#alg-v-s17-prop-1 .statement tag=06VQ}
 
 *Soient $\Omega$ une extension d’un corps K et L, M deux sous-extensions de $\Omega$ algébriquement disjointes sur K. On suppose que la fermeture algébrique séparable* de K dans L est égale à K $^1$. Soient $\varphi$ l’homomorphisme de K-algèbres de $L \otimes_K M$ dans $\Omega$ transformant $x \otimes y$ en $xy$ pour $x \in L$ et $y \in M$, et $p$ le noyau de $\varphi$. Alors $p$ est l’ensemble des éléments nilpotents de $L \otimes_K M$ et c’est le plus petit des idéaux premiers de $L \otimes_K M$.
 
@@ -118,7 +118,7 @@ $$
 
 et comme $\eta$ est injectif, on a finalement $a^{p^f} = 0$. On a donc prouvé que $\mathfrak{p}$ est l’ensemble des éléments nilpotents de $L \otimes_K M$. Tout idéal premier de $L \otimes_K M$ contient alors $\mathfrak{p}$ d’après la prop. 2 (V, p. 113).
 
-#### Corollaire {#alg-v-s17-n2-cor-1 .statement}
+#### Corollaire {#alg-v-s17-n2-cor-1 .statement tag=06VR}
 
 Soient $L$ et $M$ deux extensions d’un corps $K$. On suppose que la fermeture algébrique séparable de $K$ dans $L$ est égale à $K$. Alors l’ensemble $\mathfrak{p}$ des éléments nilpotents de $L \otimes_K M$ est un idéal premier. Si de plus $L$ ou $M$ est séparable sur $K$, alors $L \otimes_K M$ est intègre.
 
@@ -126,19 +126,19 @@ On peut supposer que $L$ et $M$ sont des sous-extensions algébriquement disjoin
 
 ### 3. Algèbres absolument intègres
 
-#### Définition 1 {#alg-v-s17-def-1 .statement}
+#### Définition 1 {#alg-v-s17-def-1 .statement tag=06VS}
 
 Soit $K$ un corps. On dit qu’une algèbre $A$ sur $K$ est absolument intègre si l’anneau $L \otimes_K A$ est intègre pour toute extension $L$ de $K$.
 
 Une algèbre absolument intègre est en particulier un anneau intègre donc commutatif.
 
-#### Proposition 2 {#alg-v-s17-prop-2 .statement}
+#### Proposition 2 {#alg-v-s17-prop-2 .statement tag=06VT}
 
 Soient $A$ et $B$ deux algèbres sur un corps $K$. Si $A$ est intègre et $B$ absolument intègre, alors $A \otimes_K B$ est intègre.
 
 Soit $L$ le corps des fractions de $A$. Comme $B$ est absolument intègre, l’anneau $L \otimes_K B$ est intègre; or l’anneau $A \otimes_K B$ est isomorphe à un sous-anneau de $L \otimes_K B$, donc est intègre.
 
-#### Proposition 3 {#alg-v-s17-prop-3 .statement}
+#### Proposition 3 {#alg-v-s17-prop-3 .statement tag=06VU}
 
 Soit $K$ un corps.
 
@@ -154,29 +154,29 @@ Soient $A$ et $B$ deux $K$-algèbres absolument intègres. Soit $L$ une extensio
 
 ### 4. Extensions régulières
 
-#### Définition 2 {#alg-v-s17-def-2 .statement}
+#### Définition 2 {#alg-v-s17-def-2 .statement tag=06VV}
 
 On dit qu’une extension d’un corps $K$ est régulière si c’est une $K$-algèbre absolument intègre.
 
-#### Proposition 4 {#alg-v-s17-prop-4 .statement}
+#### Proposition 4 {#alg-v-s17-prop-4 .statement tag=06VW}
 
 Soient $A$ une algèbre intègre sur un corps $K$, et $E$ son corps des fractions. Soit $L$ une extension de $K$; si l’anneau $L \otimes_K A$ est intègre, il en est de même de $L \otimes_K E$.
 
 Si l’anneau $L \otimes_K A$ est intègre, il se plonge dans son corps des fractions $F$. Posons $u(x) = x \otimes 1$ pour $x \in L$, et notons $v$ le $K$-homomorphisme de $E$ dans $F$ qui prolonge l’homomorphisme injectif $y \mapsto 1 \otimes y$ de $A$ dans $F$. D’après la prop. 6 (V, p. 14), les sous-corps $u(L)$ et $v(E)$ de $F$ sont linéairement disjoints sur $K$; par suite, l’homomorphisme $u * v$ de $L \otimes_K E$ dans $F$ (V, p. 12) est injectif. Ceci prouve que l’anneau $L \otimes_K E$ est intègre.
 
-#### Corollaire {#alg-v-s17-n4-cor-1 .statement}
+#### Corollaire {#alg-v-s17-n4-cor-1 .statement tag=06VX}
 
 Pour que $A$ soit absolument intègre, il faut et il suffit que son corps des fractions soit une extension régulière de $K$.
 
 La condition est nécessaire d’après la prop. 4 et suffisante d’après la prop. 3, a).
 
-#### Proposition 5 {#alg-v-s17-prop-5 .statement}
+#### Proposition 5 {#alg-v-s17-prop-5 .statement tag=06VY}
 
 Toute extension pure d’un corps $K$ est régulière.
 
 D’après le corollaire précédent, il suffit de prouver que toute algèbre de polynômes $A = K[X_i]_{i \in I}$ est absolument intègre sur $K$. Soit $L$ une extension de $K$; l’anneau $L \otimes_K A$ est isomorphe à $L[X_i]_{i \in I}$ (III, p. 22, remarque 2), donc est intègre (IV, p. 9, prop. 8).
 
-#### Proposition 6 {#alg-v-s17-prop-6 .statement}
+#### Proposition 6 {#alg-v-s17-prop-6 .statement tag=06VZ}
 
 Soit $L$ une extension d’un corps $K$. Si $L$ est régulière, toute sous-extension de $L$ est régulière. Inversement si toute sous-extension de type fini de $L$ est régulière, alors $L$ est régulière.
 
@@ -184,13 +184,13 @@ La première assertion résulte de la prop. 3, $a$.
 
 Soit $M$ une extension de $K$, et soit $\mathscr{U}$ l’ensemble des sous-extensions de type fini de $L$. Pour tout $E \in \mathscr{U}$, l’anneau $M \otimes_K E$ s’identifie à un sous-anneau de $M \otimes_K L$, et l’on définit ainsi une famille filtrante croissante de sous-anneaux de $M \otimes_K L$, de réunion $M \otimes_K L$. On en déduit immédiatement la seconde assertion.
 
-#### Proposition 7 {#alg-v-s17-prop-7 .statement}
+#### Proposition 7 {#alg-v-s17-prop-7 .statement tag=06W0}
 
 *Soient $L$ une extension d’un corps $K$ et $M$ une $L$-algèbre (par exemple une extension de $L$). Si $L$ est régulière sur $K$ et $M$ absolument intègre sur $L$, alors $M$ est absolument intègre sur $K$*.
 
 Soit $E$ une extension de $K$; comme $L$ est régulière sur $K$, l’anneau $E \otimes_K L$ est intègre. D’après la prop. 2 (V, p. 134), l’anneau $(E \otimes_K L) \otimes_L M$ est donc intègre, et il en est donc de même de l’anneau $E \otimes_K M$ qui lui est isomorphe (II, p. 83, prop. 2). D’où la proposition.
 
-#### Proposition 8 {#alg-v-s17-prop-8 .statement}
+#### Proposition 8 {#alg-v-s17-prop-8 .statement tag=06W1}
 
 *Soient $L$ et $M$ deux extensions d’un corps $K$.
 a) Si $M$ est régulière sur $K$, le corps des fractions de l’anneau intègre $L \otimes_K M$ est une extension régulière de $L$.
@@ -200,7 +200,7 @@ L’assertion $a$) résulte de la prop. 3, $c$) (V, p. 135) et du cor. de V, p. 
 
 ### 5. Caractérisation des extensions régulières
 
-#### Proposition 9 {#alg-v-s17-prop-9 .statement}
+#### Proposition 9 {#alg-v-s17-prop-9 .statement tag=06W2}
 
 *Soient $K$ un corps, $\overline{K}$ une clôture algébrique de $K$ et $L$ une extension de $K$. Les conditions suivantes sont équivalentes :
 a) $L$ est séparable sur $K$ et $K$ est algébriquement fermé dans $L$.
@@ -214,19 +214,19 @@ $c) \Rightarrow d)$ : avec les notations de $d$), on peut identifier $\overline{
 
 d) ⇒ a) : Sous les hypothèses de d), on a L ∩ \overline{K} = K, donc K est algébriquement fermé dans L ; de plus, si p est l’exposant caractéristique de K, le corps L est linéairement disjoint de K^{p^{-\infty}} sur K, donc L est séparable sur K (V, p. 118, cor. 1).
 
-#### Corollaire 1 {#alg-v-s17-prop-9-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s17-prop-9-cor-1 .statement tag=06W3}
 
 Soit A une algèbre sur le corps K. Pour que A soit absolument intègre, il faut et il suffit que l’anneau \overline{K} \otimes_K A soit intègre.
 
 La condition énoncée est évidemment nécessaire. Inversement, supposons que l’anneau \overline{K} \otimes_K A soit intègre, et notons E le corps des fractions de A. D’après la prop. 4 (V, p. 135), l’anneau \overline{K} \otimes_K E est intègre, donc E est extension régulière de K par la proposition 9 ; on conclut par V, p. 135, cor., que A est une K-algèbre absolument intègre.
 
-#### Corollaire 2 {#alg-v-s17-prop-9-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s17-prop-9-cor-2 .statement tag=06W4}
 
 Soit K un corps algébriquement clos. Toute K-algèbre intègre sur K est absolument intègre. En particulier, toute extension de K est régulière.
 
 Cela résulte du cor. 1.
 
-#### Corollaire 3 {#alg-v-s17-prop-9-cor-3 .statement}
+#### Corollaire 3 {#alg-v-s17-prop-9-cor-3 .statement tag=06W5}
 
 Soit K un corps algébriquement clos. Si A et B sont deux K-algèbres intègres, il en est de même de A \otimes_K B.
 
@@ -234,7 +234,7 @@ D’après le cor. 2, A et B sont absolument intègres sur K, et il suffit d’a
 
 ### 6. Application aux extensions composées
 
-#### Proposition 10 {#alg-v-s17-prop-10 .statement}
+#### Proposition 10 {#alg-v-s17-prop-10 .statement tag=06W6}
 
 Soient L et M deux extensions d’un corps K et (E, u, v) une extension composée de L et de M (V, p. 11). On suppose que l’anneau L \otimes_K M est intègre et que les sous-extensions u(L) et v(M) de E sont algébriquement disjointes sur K. Alors u(L) et v(M) sont linéairement disjointes sur K.
 
@@ -242,13 +242,13 @@ Posons w = u \* v (V, p. 12). Notons F le corps des fractions de l’anneau int�
 
 Par hypothèse, u(L) et v(M) sont algébriquement disjointes sur K ; par suite (V, p. 109, prop. 14), u(L) et v(K(B)) sont linéairement disjointes sur K. Il existe donc un K-homomorphisme u' : L(B) → E qui coïncide avec u sur L et avec v sur K(B). Par construction, L et M sont linéairement disjoints sur K dans F ; d’après la prop. 8 (V, p. 14), les sous-corps L(B) et M de F sont linéairement disjoints sur K(B). Il existe par conséquent un K-homomorphisme w' : M[L(B)] → E qui coïncide avec u' sur L(B) et avec v sur M. Mais le corps F est engendré par M ∪ L(B) et M est algébrique sur K(B) ; on a donc M[L(B)] = F (V, p. 18, cor. 2). On conclut de là que w' est un K-isomorphisme de F sur E, dont la restriction à L (resp. M) est u (resp. v). Ceci prouve que u(L) et v(M) sont linéairement disjointes sur K.
 
-#### Corollaire 1 {#alg-v-s17-prop-10-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s17-prop-10-cor-1 .statement tag=06W7}
 
 Soient Ω une extension d’un corps K et L une sous-extension de Ω régulière sur K. Toute sous-extension M de Ω qui est algébriquement disjointe de L sur K en est linéairement disjointe.
 
 L’anneau $L \otimes_K M$ est intègre par définition d’une extension régulière, et il suffit d’appliquer la prop. 10.
 
-#### Corollaire 2 {#alg-v-s17-prop-10-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s17-prop-10-cor-2 .statement tag=06W8}
 
 *Soient $\Omega$ une extension d’un corps $K$ et $L, M$ deux sous-extensions de $\Omega$. On suppose que $L$ est séparable sur $K$ et que la fermeture séparable de $K$ dans $M$ est égale à $K$. Si $L$ et $M$ sont algébriquement disjointes sur $K$, elles sont linéairement disjointes sur $K$.
 

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 108
 statements: 8
 exercises: 8
-content_sha256: 0347e0a28b16d98f7f678768689ffdaea8be7ba8594b3374bc09cbbb3bb6c9b1
+content_sha256: 7a3bdd074ef1cd9b26553e6e855bdc91c43cdab07c7aad7fa4f64d96250c9609
 ---
 
 ## § 4. ESPACES NUMÉRIQUES ET ESPACES PROJECTIFS COMPLEXES
@@ -67,7 +67,7 @@ Toutes les définitions et tous les résultats des nos 5 et 6 du chap. VI, § 1,
 
 Avec les notations rappelées dans VI, p. 13, on pose la définition suivante, analogue à la définition des espaces projectifs réels:
 
-#### Définition 1 {#top-viii-s4-def-1 .statement}
+#### Définition 1 {#top-viii-s4-def-1 .statement tag=0C0W}
 
 On appelle espace projectif complexe à n dimensions l’espace projectif $P_n(\mathbf{C})$ muni de la topologie quotient de celle de $\mathbf{C}_{n+1}^*$ par la relation d’équivalence $\Delta_n(\mathbf{C})$.
 
@@ -95,7 +95,7 @@ Comme tout sous-espace vectoriel à $p + 1$ dimensions de $\mathbf{R}^{n+1}$ eng
 
 Avec les notations rappelées dans VI, p. 17, on définit de même les espaces de variétés linéaires projectives d’un espace projectif complexe:
 
-#### Définition 2 {#top-viii-s4-def-2 .statement}
+#### Définition 2 {#top-viii-s4-def-2 .statement tag=0C0X}
 
 On appelle espace des variétés linéaires projectives à $p \geqslant 0$ dimensions de l’espace projectif $\mathbf{P}_n(\mathbf{C})$, l’espace $\mathbf{P}_{n,p}(\mathbf{C})$ quotient de l’espace topologique $\mathbf{L}_{n+1,p+1}(\mathbf{C})$ par la relation d’équivalence $\Delta_{n,p}(\mathbf{C})$.
 
@@ -110,7 +110,7 @@ $$
 
 Enfin, le raisonnement de la prop. 8 de VI, p. 20 est aussi applicable sans modification, et on voit donc que la grassmannienne $G_{n+1,p+1}(\mathbf{C})$ est homomorphe à $\mathbf{P}_{n,p}(\mathbf{C})$.
 
-#### Remarque {#top-viii-s4-n4-rem-1 .statement}
+#### Remarque {#top-viii-s4-n4-rem-1 .statement tag=0C0Y}
 
 La plupart des propriétés communes aux espaces numériques (ou projectifs) réels et complexes sont encore exactes pour les espaces numériques (resp. projectifs) définis de manière analogue à partir du corps des quaternions $\mathbf{H}$; elles sont même susceptibles de s’étendre à beaucoup d’autres corps topologiques (cf. VIII, p. 27, exerc. 2 et VIII, p. 28, exerc. 6).
 
@@ -124,13 +124,13 @@ L’application de $(K^2 - \{0\})^n$ dans $K[X]_n - \{0\}$, qui associe à l’�
 
 Supposons maintenant $K = \mathbf{C}$. Munissons $P_1(\mathbf{C})^n$ et $P(\mathbf{C}[X]_n)$ des topologies définies ci-dessus (VIII, p. 20 et VI, p. 14) et $\Sigma_n(\mathbf{C})$ de la topologie quotient de celle de $P_1(\mathbf{C})^n$.
 
-#### Proposition 1 {#top-viii-s4-prop-1 .statement}
+#### Proposition 1 {#top-viii-s4-prop-1 .statement tag=0EB4}
 
 L’application $f$ de $\Sigma_n(\mathbf{C})$ dans $P(\mathbf{C}[X]_n)$ définie ci-dessus est un homéomorphisme.
 
 L’application $f$ est bijective car $\mathbf{C}$ est algébriquement clos (VIII, p. 1, th. 1). Il est clair que l’application $((a_1, b_1), \ldots, (a_n, b_n)) \mapsto q((b_1 X - a_1) \ldots (b_n X - a_n))$ de $(\mathbf{C}^2 - \{0\})^n$ dans $P(\mathbf{C}[X]_n)$ est continue; d’après I, p. 34, cor. de la prop. 8 et I, p. 21, prop. 6, l’application $f$ est continue. Comme $\Sigma_n(\mathbf{C})$ est quasi-compact (I, p. 62, th. 2), et $P(\mathbf{C}[X]_n)$ séparé, la bijection $f$ est un homéomorphisme (I, p. 63, cor. 2 au th. 2).
 
-#### Corollaire {#top-viii-s4-n5-cor-1 .statement}
+#### Corollaire {#top-viii-s4-n5-cor-1 .statement tag=0EB5}
 
 L’espace projectif complexe à $n$ dimensions est homéomorphe à la puissance symétrique $n$-ième de la droite projective complexe.
 
@@ -142,19 +142,19 @@ $$
 
 Pour toute partie A de $\mathbf{P}_1(\mathbf{C})$, on note $v_A(P)$ le nombre des racines de P dans A comptées avec leur multiplicité, c’est-à-dire l’entier $\sum_{a \in A} v_a(P)$.
 
-#### Proposition 2 {#top-viii-s4-prop-2 .statement}
+#### Proposition 2 {#top-viii-s4-prop-2 .statement tag=0EB6}
 
 *Soit A une partie ouverte (resp. fermée) de $\mathbf{P}_1(\mathbf{C})$. La fonction numérique $P \mapsto v_A(P)$ est semi-continue inférieurement (resp. supérieurement) en tout point de $\mathbf{C}[X]_n - \{0\}$* (IV, p. 28).
 
 Soient P un point de $\mathbf{C}[X]_n - \{0\}$, A une partie ouverte de $\mathbf{P}_1(\mathbf{C})$; posons $v_A(P) = r$. La partie $A_1 \times \cdots \times A_n$ de $\mathbf{P}_1(\mathbf{C})^n$, où $A_1 = \cdots = A_r = A, A_{r+1} = \cdots = A_n = \mathbf{P}_1(\mathbf{C})$, est ouverte; son image U dans $\Sigma_n(\mathbf{C})$ est ouverte d’après III, p. 9, lemme 2; d’après la prop. 1, la partie $f(U)$ de $\mathbf{P}(\mathbf{C}[X]_n)$ est ouverte. Soit V son image réciproque dans $\mathbf{C}[X]_n - \{0\}$; c’est un ensemble ouvert contenant P; il se compose des polynômes de la forme $\Pi (b_i X - a_i)$, avec $(a_1, b_1), \ldots, (a_r, b_r)$ dans V; on a donc $v_A(Q) \geq r$ pour $Q \in V$. Ceci prouve que $v_A$ est semi-continue inférieurement lorsque A est ouvert; si A est fermé, son complémentaire B est ouvert, et la fonction $v_B = n - v_A$ est semi-continue supérieurement d’après ce qui précède.
 
-#### Corollaire 1 {#top-viii-s4-prop-2-cor-1 .statement}
+#### Corollaire 1 {#top-viii-s4-prop-2-cor-1 .statement tag=0EB7}
 
 *Soient U une partie ouverte de $\mathbf{P}_1(\mathbf{C})$, F sa frontière. L’ensemble des polynômes $P \in \mathbf{C}[X]_n - \{0\}$ tels que $v_F(P) = 0$ est ouvert, et la fonction $v_U$ est localement constante dans cet ouvert. Pour tout entier r, l’ensemble des $P \in \mathbf{C}[X]_n - \{0\}$ tels que $v_F(P) = 0$ et $v_U(P) = r$ est ouvert.*
 
 L’ensemble E des points P où la fonction semi-continue supérieurement $v_F$ est < 1 est ouvert (IV, p. 29, prop. 1). Pour P dans E, on a $v_U(P) = v_{\overline{U}}(P)$ où $\overline{U}$ désigne l’adhérence $U \cup F$ de U; la restriction de $v_U$ à E est semi-continue inférieurement et supérieurement, donc continue, c’est-à-dire localement constante. L’ensemble des points de E où elle prend la valeur r est donc ouvert.
 
-#### Corollaire 2 {#top-viii-s4-prop-2-cor-2 .statement}
+#### Corollaire 2 {#top-viii-s4-prop-2-cor-2 .statement tag=0EB8}
 
 *Soient U et F comme dans le corollaire 1, et soit V l’ouvert de $\mathbf{C}[X]_n - \{0\}$ formé des polynômes P tels que $v_F(P) = 0, v_U(P) = 1$. À chaque $P \in V$ associons son unique racine dans U. L’application de V dans U ainsi définie est continue.*
 

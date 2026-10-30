@@ -36,7 +36,7 @@ subsections:
       pdf_page: 59
 statements: 14
 exercises: 10
-content_sha256: 9f3c6d288bf72bfc66d1ad78428902c02983f63a1a8424a50270e24cf36598ea
+content_sha256: 8a7a0642504d2c2735e8c21f04b3ffc8f7148755423f71666653ec4a58ab65fb
 ---
 
 ## 3. REAL PROJECTIVE SPACES
@@ -45,13 +45,13 @@ In this section we shall need to invoke constantly the notions and results on *q
 
 Let $E$ be a topological space, $R$ an equivalence relation on $E$, $A$ a subset of $E$, $R_A$ the equivalence relation induced on $A$ by $R$ and let $f$ be the canonical mapping of $E$ onto $E/R$. Then:
 
-#### Lemma 1 {#top-vi-s3-lem-1 .statement}
+#### Lemma 1 {#top-vi-s3-lem-1 .statement tag=0BXG}
 
 *If every open (resp. closed) set in $A$ which is saturated with respect to $R_A$ is the trace on $A$ of an open (resp. closed) set in $E$ which is saturated with respect to $R$, then the quotient space $A/R_A$ is homeomorphic to the subspace $f(A)$ of $E/R$. This is so in particular if $A$ is open or closed in $E$ and saturated with respect to $R$.*
 
 This follows from Proposition 10 of Chapter I, § 3, no. 6.
 
-#### Lemma 2 {#top-vi-s3-lem-2 .statement}
+#### Lemma 2 {#top-vi-s3-lem-2 .statement tag=0BXH}
 
 *If there is a continuous mapping* g *of* E *onto* A *such that, for all* x ∈ E, g(x) *belongs to the equivalence class of* x, *then the quotient space* A/R_A *is homeomorphic to* E/R.
 
@@ -67,7 +67,7 @@ For each integer p such that −1 ≤ p ≤ n, the canonical image in P_n(K) of 
 
 When K is the field R, the corresponding projective spaces can be topologized, and it is these we shall study.
 
-#### Definition 1 {#top-vi-s3-def-1 .statement}
+#### Definition 1 {#top-vi-s3-def-1 .statement tag=0BXI}
 
 *The projective space* P_n(R) *endowed with the quotient topology of the topology of* R_{n+1}^* *by the equivalence relation* Δ_n(R) *is called real projective space of n dimensions.*
 
@@ -75,7 +75,7 @@ The projective space P_1(R) is called the *real projective line*, and P_2(R) is 
 
 Whenever there is no risk of confusion, we shall write P_n and Δ_n instead of P_n(R) and Δ_n(R).
 
-#### Proposition 1 {#top-vi-s3-prop-1 .statement}
+#### Proposition 1 {#top-vi-s3-prop-1 .statement tag=0BXJ}
 
 The projective space $P_n$ is Hausdorff.
 
@@ -83,13 +83,13 @@ We start by showing that the relation $\Delta_n$ is open (Chapter I, § 5, no. 2
 
 By Proposition 8 of Chapter I, § 8, no. 3, the proposition will be proved if we show that the subset $M$ of $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ defined by the relation $\Delta_n$ is closed. Let then $(x, y)$ be a point of $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ lying in the closure of $M$. If $x = (x_i)$, there is an index $i$ such that $x_i \neq 0$; hence there is a neighbourhood $V$ of $(x, y)$ such that for every point $(x', y') \in M \cap V$ the ith coordinate $x'_i$ of $x'$ is not 0. As $(x', y')$ tends to $(x, y)$ while remaining in $M$, $y'_i {x'}^{-1}_i$ tends to $t = y_i x_i^{-1}$; since $y' = (y'_i {x'}^{-1}_i) x'$, we see by passing to the limit that $y = x$, which shows that $(x, y) \in M$.
 
-#### Proposition 2 {#top-vi-s3-prop-2 .statement}
+#### Proposition 2 {#top-vi-s3-prop-2 .statement tag=0BXK}
 
 The projective space $P_n$ is compact and connected, and is homeomorphic to the quotient of the sphere $S_n$ by the equivalence relation induced on the sphere by $\Delta_n$.
 
 Let $\Delta'_n$ be the equivalence relation induced on $S_n$ by $\Delta_n$ (the equivalence classes of $\Delta'_n$ are pairs of diametrically opposite points of $S_n$). The mapping $x \to x/||x||$ of $\mathbf{R}_{n+1}^*$ onto $S_n$ is continuous, hence (Lemma 2) $P_n$ is homeomorphic to $S_n / \Delta'_n$. Since $S_n$ is compact and connected, every Hausdorff quotient space of $S_n$ is also compact and connected (Chapter I, § 9, no. 4, Theorem 2, Corollary 1; § 11, no. 3, Proposition 7).
 
-#### Proposition 3 {#top-vi-s3-prop-3 .statement}
+#### Proposition 3 {#top-vi-s3-prop-3 .statement tag=0BXL}
 
 If $n \geq 0$, the projective space $P_n$ is homeomorphic to the quotient space of the ball $B_n$ obtained by identifying each point of $S_{n-1}$ with its diametrically opposite point.
 
@@ -103,7 +103,7 @@ Every injective linear mapping $f$ of $\mathbf{R}^{n+1}$ into $\mathbf{R}^{m+1}$
 
 We recall also that, if V and V' are two projective linear varieties of p dimensions in $P_n$, there exists a projective linear transformation of $P_n$ which transforms V into V'. In particular, if $p \geq 0$, there exists a projective linear transformation which transforms V into a *coordinate* projective linear variety, that is to say the canonical image of a coordinate variety W' of $p + 1$ dimensions (without the point o) of $\mathbf{R}^{n+1}$. If we identify W' with $\mathbf{R}_{p+1}^*$, the relation induced by $\Delta_n$ on W' is precisely $\Delta_p$; since W' is closed and saturated with respect to $\Delta_n$, Lemma 1 shows that V' is homeomorphic to $P_p$ and is closed in $P_n$; moreover, if $p < n$, its complement is dense in $P_n$ ($\S$ 1, no. 4, Corollary to Proposition 3). Hence:
 
-#### Proposition 4 {#top-vi-s3-prop-4 .statement}
+#### Proposition 4 {#top-vi-s3-prop-4 .statement tag=0BXM}
 
 *Every projective linear variety of p dimensions in a projective space $P_n$ is closed in $P_n$ and homeomorphic to $P_p$; if $p < n$ its complement is dense in $P_n$.*
 
@@ -113,13 +113,13 @@ Figure 4.
 
 homogeneous coordinates satisfy a relation of the form $\sum_{i=0}^{n} a_i x_i = 0$, where the $a_i$ are not all zero (the "equation" of the hyperplane).
 
-#### Proposition 5 {#top-vi-s3-prop-5 .statement}
+#### Proposition 5 {#top-vi-s3-prop-5 .statement tag=0BXN}
 
 *In a projective space* $\mathbf{P}_n$ ($n \geq 0$), *the complement of a projective hyperplane* $\mathbf{H}$ *is homeomorphic to* $\mathbf{R}^n$.
 
 By making a projective linear transformation we may assume that $\mathbf{H}$ is the hyperplane whose equation is $x_0 = 0$. The set $A$ of points $x = (x_i)$ of $\mathbf{R}_{n+1}^*$ such that $x_0 \neq 0$ is open and saturated with respect to $\Delta_n$; its canonical image $C$ in $\mathbf{P}_n$, which is the complement of $\mathbf{H}$ in $\mathbf{P}_n$, is therefore homeomorphic to the quotient of $A$ by the equivalence relation $\Theta$ induced on $A$ by $\Delta_n$ (Lemma 1). Let $B$ be the hyperplane whose equation is $x_0 = 1$ in $\mathbf{R}^{n+1}$. To each point $x \in A$ let correspond the point $x_0^{-1} x$ where the line through $0$ and $x$ cuts $B$ (Fig. 4); in this way we define a continuous mapping $g$ of $A$ onto $B$ such that $g(x)$ is the only point of $B$ congruent to $x$ modulo $\Theta$. It follows that $B$ is homeomorphic to $A/\Theta$ (Lemma 2), hence to $C$; since $B$ is homeomorphic to $\mathbf{R}^n$, the proof is complete.
 
-#### Corollary {#top-vi-s3-n2-cor-1 .statement}
+#### Corollary {#top-vi-s3-n2-cor-1 .statement tag=0BXO}
 
 *Every point of* $\mathbf{P}_n$ *has an open neighbourhood homeomorphic to* $\mathbf{R}^n$.
 
@@ -163,7 +163,7 @@ Given a division ring $K$, the set $\mathbf{P}_{n,p}(K)$ of projective linear va
 
 In what follows we shall take $K$ to be the field $\mathbf{R}$, and we shall omit the letter $K$ in the notation above. We can define a topology on $P_{n,\ p}$ by a process which generalizes the definition of the topology of real projective spaces. Namely, $L_{n+1,\ p+1}$ is contained in the space $M_{p+1,\ n+1}$ of all matrices of $p + 1$ rows and $n + 1$ columns with real elements; we endow $L_{n+1,\ p+1}$ with the topology induced by the topology of this matrix space ($\S \ 1$, no. 6).
 
-#### Definition 2 {#top-vi-s3-def-2 .statement}
+#### Definition 2 {#top-vi-s3-def-2 .statement tag=0BXP}
 
 *The space $P_{n,\ p}$ which is the quotient of the topological space $L_{n+1,\ p+1}$ by the equivalence relation $\Delta_{n,\ p}$ is called the space of projective linear varieties of $p \geq 0$ dimensions in real projective space $P_n$.*
 
@@ -177,7 +177,7 @@ of $p + 1$ indices belonging to the interval $[0, n]$ of $\mathbf{N}$, we denote
 
 A geometrical interpretation of the set $A_\sigma$ is as follows: let $E_\sigma$ be the vector subspace of $\mathbf{R}^{n+1}$ generated by the vectors $e_i$ of the canonical basis such that $i \in \sigma$, and let $E'_\sigma$ be the complementary subspace generated by the $e_i$ such that $i \notin \sigma$; then to say that a matrix $x$ belongs to $A_\sigma$ means that the projections on $E_\sigma$ of its $p + 1$ rows of $x_k$ form a free system, or again that the vector subspace generated by the $x_k$ is a *complement* of $E'_\sigma$ (or that its intersection with $E'_\sigma$ consists only of 0).
 
-#### Proposition 6 {#top-vi-s3-prop-6 .statement}
+#### Proposition 6 {#top-vi-s3-prop-6 .statement tag=0BXQ}
 
 *The space $P_{n,\ p}$ is Hausdorff.*
 
@@ -185,7 +185,7 @@ We show first that the relation $\Delta_{n,p}$ is open. If $U$ is an open set in
 
 By Proposition 8 of Chapter I, § 8, no. 3, the proof will be complete if we show that the subset $N$ of $L_{n+1,p+1} \times L_{n+1,p+1}$, defined by $\Delta_{n,p}$, is closed. Let $(X, Y)$ be a point of the product space which lies in the closure of $N$, and let $\sigma$ be a sequence of indices such that $X_\sigma$ is non-singular: since $A_\sigma$ is open, there is a neighbourhood $V$ of $(X, Y)$ such that, for each pair $(X', Y') \in N \cap V$, the matrix $X'_\sigma$ is non-singular; as $(X', Y')$ tends to $(X, Y)$ while remaining in $N$, the matrix $Y'_\sigma {X'_\sigma}^{-1}$ therefore tends to $T = Y_\sigma X_\sigma^{-1}$; since we have $Y' = (Y'_\sigma {X'_\sigma}^{-1}) X'$, we see by passing to the limit that $Y = T.X$, and the proof is complete.
 
-#### Proposition 7 {#top-vi-s3-prop-7 .statement}
+#### Proposition 7 {#top-vi-s3-prop-7 .statement tag=0BXR}
 
 *The space $P_{n,p}$ is compact.*
 
@@ -202,7 +202,7 @@ $$
 
 therefore they form a *closed* set in $M_{p+1,n+1}$; and since these relations imply that $|x_{ij}| \leq 1$ for each pair of indices $(i, j)$, this set is *bounded* and hence *compact*.
 
-#### Proposition 8 {#top-vi-s3-prop-8 .statement}
+#### Proposition 8 {#top-vi-s3-prop-8 .statement tag=0BXS}
 
 $P_{n,p}$ *is connected and locally connected, and every point has an open neighbourhood homeomorphic to* $\mathbf{R}^{(p+1)(n-p)}$.
 
@@ -232,7 +232,7 @@ determinants, not all zero (the components of the exterior product of the p + 1 
 
 When $K$ is the field $\mathbf{R}$, this mapping $f$ is evidently *continuous*. The inverse mapping $g$ is also continuous; for the elements of a matrix belonging to $B_{\sigma}$ are rational functions of the homogeneous coordinates of the point of the Grassmannian to which it corresponds; since $f(B_{\sigma}) = B'_{\sigma}$ is the set of points of $G_{n,p}$ whose homogeneous coordinate with index $\sigma$ is not 0, it is an open set in $G_{n,p}$; hence $g$ is continuous at every point of $B'_{\sigma}$, and since every point of $G_{n,p}$ belongs to at least one set $B'_{\sigma}$, $g$ is continuous at every point. Thus:
 
-#### Proposition 9 {#top-vi-s3-prop-9 .statement}
+#### Proposition 9 {#top-vi-s3-prop-9 .statement tag=0BXT}
 
 *The Grassmannian* $G_{n,p}$ *is homeomorphic to the space* $P_{n,p}$.
 

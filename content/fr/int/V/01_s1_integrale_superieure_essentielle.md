@@ -28,14 +28,14 @@ subsections:
       pdf_page: 16
 statements: 25
 exercises: 6
-content_sha256: 695a81621de27d7fe1a04225871d9158da4afd644d2acf4c276678565545f7f8
+content_sha256: cf3be70e71a49da541bfb16a756d61c9297139febb756e60c6195b78808d924f
 ---
 
 ## § 1. Intégrale supérieure essentielle
 
 ### 1. Définition de l’intégrale supérieure essentielle
 
-#### Définition 1 {#int-v-s1-def-1 .statement}
+#### Définition 1 {#int-v-s1-def-1 .statement tag=08ZO}
 
 Pour toute fonction $f \in \mathscr{F}_+(T)$, on appelle intégrale supérieure essentielle de $f$ par rapport à $\mu$, et on note $\mu^*(f)$, la borne supérieure, finie ou non, de l’ensemble des nombres $\mu^*(f\varphi_K)$ où $K$ parcourt l’ensemble des parties compactes de $T$. Pour toute partie $A$ de $T$, on pose $\mu^*(A) = \mu^*(\varphi_A)$.
 
@@ -51,7 +51,7 @@ On peut avoir $\mu^*(f) \neq \mu^*(f)$; en effet, la condition $\mu^*(f) = 0$ si
 L’application $\mu^*$ de $\mathscr{F}_+(T)$ dans $\bar{\mathbf{R}}$ coïncide avec $\mu$ sur $\mathscr{K}_+(T)$.
 Il en résulte que deux mesures $\mu_1$ et $\mu_2$ telles que $\mu_1^* = \mu_2^*$ sont égales.
 
-#### Proposition 1 {#int-v-s1-prop-1 .statement}
+#### Proposition 1 {#int-v-s1-prop-1 .statement tag=08ZP}
 
 a) Si $f$ et $g$ sont deux fonctions numériques $\geq 0$, égales localement presque partout, on a $\mu^*(f) = \mu^*(g)$.
 b) Si $f$ et $g$ sont deux fonctions numériques $\geq 0$, telles que $f \leq g$, on a $\mu^*(f) \leq \mu^*(g)$.
@@ -70,7 +70,7 @@ $$
 
 On a l’égalité dans la relation d) si $f$ et $g$ sont mesurables, d’après le cor. 4 du th. 5, chap. IV, § 5, n° 5. Plus généralement, on a le résultat suivant:
 
-#### Proposition 2 {#int-v-s1-prop-2 .statement}
+#### Proposition 2 {#int-v-s1-prop-2 .statement tag=08ZQ}
 
 Soient $f, g, h$ trois éléments de $\mathscr{F}_+$; si $g$ et $h$ sont mesurables, on a:
 
@@ -101,13 +101,13 @@ $$
 
 ce qui entraîne l’inégalité cherchée, $\varepsilon$ étant arbitraire.
 
-#### Corollaire {#int-v-s1-n1-cor-1 .statement}
+#### Corollaire {#int-v-s1-n1-cor-1 .statement tag=08ZR}
 
 Soient $f$ une fonction $\geqslant 0$, $(g_n)$ une suite de fonctions mesurables $\geqslant 0$; on a $\int^* f(\sum g_n) d\mu = \sum (\int^* fg_n d\mu)$.
 
 Dans le cas d’une suite finie, c’est une conséquence immédiate de la prop. 2. Le cas d’une suite infinie s’en déduit au moyen de la prop. 1, e).
 
-#### Proposition 3 {#int-v-s1-prop-3 .statement}
+#### Proposition 3 {#int-v-s1-prop-3 .statement tag=08ZS}
 
 Pour tout nombre fini $\alpha \geqslant 0$ et tout couple de mesures $\mu, v$ sur $T$, on a
 $$
@@ -120,7 +120,7 @@ En outre, la relation $\mu \leqslant v$ entraîne $\mu^* \leqslant v^*$.
 
 La démonstration est immédiate à partir de l’énoncé analogue du chapitre IV (§ 1, n° 3, prop. 15).
 
-#### Proposition 4 {#int-v-s1-prop-4 .statement}
+#### Proposition 4 {#int-v-s1-prop-4 .statement tag=08ZT}
 
 Pour toute fonction numérique $f \geqslant 0$, semi-continue inférieurement dans $T$, on a $\mu^*(f) = \mu^*(f)$.
 
@@ -128,7 +128,7 @@ En effet, soit $g$ une fonction de $\mathscr{K}_+(T)$ telle que $g \leqslant f$.
 
 ### 2. Fonctions et mesures modérées
 
-#### Proposition 5 {#int-v-s1-prop-5 .statement}
+#### Proposition 5 {#int-v-s1-prop-5 .statement tag=08ZU}
 
 Soit $A$ une partie de $T$; les propriétés suivantes sont équivalentes:
 a) L’ensemble $A$ est contenu dans la réunion d’une suite d’ouverts $\mu$-intégrables.
@@ -137,29 +137,29 @@ c) L’ensemble $A$ est contenu dans la réunion d’une suite de compacts et d�
 
 Il est clair que chacune des propriétés a) et c) entraîne b). Inversement, b) entraîne a), car tout ensemble de mesure extérieure finie est contenu dans un ouvert intégrable (chap. IV, § 1, n° 4, prop. 19), et b) entraîne c), car tout ensemble intégrable est réunion d’une suite de compacts et d’un ensemble négligeable (chap. IV, § 4, n° 6, cor. 2 du th. 4).
 
-#### Définition 2 {#int-v-s1-def-2 .statement}
+#### Définition 2 {#int-v-s1-def-2 .statement tag=08ZV}
 
 Une partie de $T$ est dite $\mu$-modérée si elle satisfait aux conditions équivalentes de la proposition 5. Une fonction définie sur T, à valeurs dans un espace vectoriel ou dans $\bar{\mathbf{R}}$, est dite $\mu$-modérée si elle est nulle dans le complémentaire d’une partie $\mu$-modérée de T. On dit que la mesure $\mu$ est modérée si T est un ensemble $\mu$-modéré.
 
 Si $\mu$ est une mesure modérée, toute fonction sur T est $\mu$-modérée et toute partie de T est $\mu$-modérée.
 
-#### Remarque 1 {#int-v-s1-n2-rem-1 .statement}
+#### Remarque 1 {#int-v-s1-n2-rem-1 .statement tag=08ZW}
 
 Si $\theta$ est une mesure complexe sur T, on dira qu’une fonction $f$ est $\theta$-modérée (resp. que $\theta$ est modérée) si $f$ est $|\theta|$-modérée (resp. si $|\theta|$ est modérée).
 
-#### Remarque 2 {#int-v-s1-n2-rem-2 .statement}
+#### Remarque 2 {#int-v-s1-n2-rem-2 .statement tag=0E6B}
 
 Toute mesure bornée est modérée; si T est une réunion dénombrable de compacts, toute mesure sur T est modérée.
 
-#### Remarque 3 {#int-v-s1-n2-rem-3 .statement}
+#### Remarque 3 {#int-v-s1-n2-rem-3 .statement tag=0E6C}
 
 Soit $(f_n)$ une suite de fonctions $\mu$-modérées à valeurs dans $\bar{\mathbf{R}}$. Pour chaque $n$, soit $U_n$ un ouvert, réunion dénombrable d’ouverts de mesure extérieure finie, tel que $f_n$ soit nulle hors de $U_n$. La fonction $s = \sum_{n \in \mathbf{N}} |f_n|$ est alors nulle hors de $\bigcup_{n \in \mathbf{N}} U_n$; elle est donc $\mu$-modérée, et il en est de même de toutes les fonctions majorées par $s$. Cela s’applique en particulier aux fonctions $\liminf_{n \to \infty} f_n$, $\limsup_{n \to \infty} f_n$ et $\sum_{n \in \mathbf{N}} f_n$ (si cette somme est définie).
 
-#### Remarque 4 {#int-v-s1-n2-rem-4 .statement}
+#### Remarque 4 {#int-v-s1-n2-rem-4 .statement tag=0E6D}
 
 Une fonction égale presque partout à une fonction modérée est modérée.
 
-#### Proposition 6 {#int-v-s1-prop-6 .statement}
+#### Proposition 6 {#int-v-s1-prop-6 .statement tag=08ZX}
 
 Soit $f$ une fonction numérique positive définie dans T, $\mu$-mesurable et $\mu$-modérée. Il existe alors une suite $(h_n)_{n \in \mathbf{N}}$ d’éléments de $\mathscr{F}_+(T)$, dont la somme est égale à $f$, possédant les propriétés suivantes:
 
@@ -181,7 +181,7 @@ Soit $\mathfrak{R}$ l’ensemble des compacts K de T tels que $f|K$ soit continu
 
 La proposition suivante permet de ramener l’étude de l’intégrale supérieure à celle de l’intégrale supérieure essentielle.
 
-#### Proposition 7 {#int-v-s1-prop-7 .statement}
+#### Proposition 7 {#int-v-s1-prop-7 .statement tag=08ZY}
 
 Soit $f$ un élément de $\mathscr{F}_+(T)$.
 
@@ -199,15 +199,15 @@ $$
 $$
 Posons $A = \bigcup_n A_n$ ; le second membre est égal à $\mu^*(f\varphi_A)$ (chap. IV, § 1, n° 3, th. 3), ou encore à $\mu^*(f\varphi_A)$ (d’après la prop. 1, ou d’après 2) ci dessus). Comme on a $\mu^*(f) = \mu^*(f\varphi_A) + \mu^*(f\varphi_{\mathbf{C}A})$ (prop. 2), on a $\mu^*(f\varphi_{\mathbf{C}A}) = 0$, et 3) en découle.
 
-#### Corollaire 1 {#int-v-s1-prop-7-cor-1 .statement}
+#### Corollaire 1 {#int-v-s1-prop-7-cor-1 .statement tag=08ZZ}
 
 Pour que f soit négligeable, il faut et il suffit qu’elle soit localement négligeable et modérée.
 
-#### Corollaire 2 {#int-v-s1-prop-7-cor-2 .statement}
+#### Corollaire 2 {#int-v-s1-prop-7-cor-2 .statement tag=0900}
 
 Si $\mu$ est une mesure modérée (en particulier si $\mu$ est bornée, ou si T est dénombrable à l’infini), on a $\mu^* = \mu^*$.
 
-#### Proposition 8 {#int-v-s1-prop-8 .statement}
+#### Proposition 8 {#int-v-s1-prop-8 .statement tag=0901}
 
 a) Soit H un ensemble de fonctions $\geq 0$, semi-continues inférieurement, filtrant pour la relation $\leq$; on a alors:
 
@@ -245,7 +245,7 @@ L’inégalité $\mu^*(\eta) \leq \inf_{h \in H} \mu^*(h)$ étant évidente, et 
 
 Soit F un espace de Banach réel; rappelons que les éléments des espaces $\mathscr{F}_F^p$ (chap. IV, § 3, n° 3) et $\mathscr{L}_F^p$ (chap. IV, § 3, n° 4, déf. 2) sont des fonctions $\mu$-modérées (chap. IV, 2e éd., § 5, n° 6, lemme 1); $\mathscr{N}_F$ désignant toujours l’espace des applications négligeables de T dans F, nous introduirons l’espace $\mathscr{N}_F^\infty$ des applications localement négligeables de T dans F.
 
-#### Lemme 1 {#int-v-s1-lem-1 .statement}
+#### Lemme 1 {#int-v-s1-lem-1 .statement tag=0E6E}
 
 Soient g et $g'$ deux applications $\mu$-modérées à valeurs dans F; si g et $g'$ sont égales localement presque partout à une même fonction f, on a $g = g'$ presque partout.
 
@@ -255,7 +255,7 @@ Nous désignerons par $\bar{\mathscr{F}}_F^p(T, \mu)$ (ou simplement $\bar{\math
 
 Nous désignerons de même par $\bar{\mathscr{L}}_F^p(T, \mu)$ (ou $\bar{\mathscr{L}}_F^p(\mu)$, ou $\bar{\mathscr{L}}_F^p$) le sous-espace $\mathscr{L}_F^p + \mathscr{N}_F^\infty$ de $\bar{\mathscr{F}}_F^p$: on peut aussi caractériser $\bar{\mathscr{L}}_F^p$ comme le sous-espace de $\bar{\mathscr{F}}_F^p$ constitué par les applications mesurables (chap. IV, § 5, n° 6, th. 5). L’espace normé $\bar{\mathscr{L}}_F^p / \mathscr{N}_F^\infty$ s’identifie canoniquement à $L_F^p$; $\bar{\mathscr{L}}_F^p$ est donc complet. Ses éléments sont appelés fonctions de puissance p-ième essentiellement intégrable, cette terminologie étant justifiée par la proposition suivante:
 
-#### Proposition 9 {#int-v-s1-prop-9 .statement}
+#### Proposition 9 {#int-v-s1-prop-9 .statement tag=0903}
 
 Pour qu’une application f de T dans F appartienne à $\bar{\mathscr{F}}_F^p$ (resp. à $\bar{\mathscr{L}}_F^p$) il faut et il suffit que l’on ait (resp. que f soit mesurable et que l’on ait)
 
@@ -273,11 +273,11 @@ $$
 
 Inversement, supposons que l’on ait $\mu^*(|f|^p) < +\infty$; il existe alors un ensemble modéré $A$ tel que $f$ soit nulle localement presque partout dans $T - A$ (prop. 7). La fonction $f \varphi_A$, égale localement presque partout à $f$, est telle que $N_p(f \varphi_A) = \overline{N}_p(f) < +\infty$; elle appartient donc à $\mathscr{F}_F^p$, et on a $f \in \mathscr{F}_F^p$.
 
-#### Corollaire {#int-v-s1-n3-cor-1 .statement}
+#### Corollaire {#int-v-s1-n3-cor-1 .statement tag=0904}
 
 Pour que $f$ appartienne à $\mathscr{L}_F^p$, il faut et il suffit que $f$ appartienne à $\overline{\mathscr{L}}_F^p$ et soit modérée.
 
-#### Définition 3 {#int-v-s1-def-3 .statement}
+#### Définition 3 {#int-v-s1-def-3 .statement tag=0905}
 
 Les éléments de $\overline{\mathscr{L}}_F^1$ sont appelés fonctions essentiellement $\mu$-intégrables à valeurs dans $F$. En composant l’application $\tilde{f} \mapsto \mu(\tilde{f})$ de $L_F^1$ dans $F$ avec l’application canonique de $\overline{\mathscr{L}}_F^1$ sur $L_F^1$, on obtient une application linéaire continue de $\overline{\mathscr{L}}_F^1$ dans $F$, qui prolonge l’application $f \mapsto \int f \, d\mu$ de $\mathscr{L}_F^1$ dans $F$. On note encore $\int f \, d\mu$ ou $\mu(f)$ la valeur de cette application pour $f \in \overline{\mathscr{L}}_F^1$, et on dit que cet élément est l’intégrale de $f$ par rapport à $\mu$.
 
@@ -299,7 +299,7 @@ $$
 
 valable pour toute fonction essentiellement intégrable $f$ à valeurs dans un espace de Banach.
 
-#### Proposition 10 {#int-v-s1-prop-10 .statement}
+#### Proposition 10 {#int-v-s1-prop-10 .statement tag=0906}
 
 *Soit $\mathfrak{R}$ un ensemble $\mu$-dense de parties compactes de $T$.*
 
@@ -339,7 +339,7 @@ Soit $\theta$ une mesure complexe ; on posera $\mathscr{L}_F^p(T, \theta) = \mat
 
 Le résultat suivant sera fréquemment utilisé dans la suite. On ne peut pas remplacer dans l’énoncé les intégrales supérieures essentielles par des intégrales supérieures ordinaires (voir l’exerc. 4).
 
-#### Proposition 11 {#int-v-s1-prop-11 .statement}
+#### Proposition 11 {#int-v-s1-prop-11 .statement tag=0907}
 
 Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille de mesures positives sur T, filtrante pour la relation $\leq$ et admettant dans $\mathscr{M}(T)$ une borne supérieure $\lambda$. On a alors pour toute fonction numérique $f \geq 0$
 
@@ -362,11 +362,11 @@ $$
 = \sup_{\alpha \in A} \sup_{K \in \mathfrak{R}} \lambda_\alpha^\bullet(f \varphi_K) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
-#### Corollaire 1 {#int-v-s1-prop-11-cor-1 .statement}
+#### Corollaire 1 {#int-v-s1-prop-11-cor-1 .statement tag=0908}
 
 Pour qu’une partie N de T soit localement $\lambda$-négligeable, il faut et il suffit que N soit localement $\lambda_\alpha$-négligeable pour tout $\alpha \in A$.
 
-#### Corollaire 2 {#int-v-s1-prop-11-cor-2 .statement}
+#### Corollaire 2 {#int-v-s1-prop-11-cor-2 .statement tag=0909}
 
 Pour qu’une application g de T dans un espace topologique G soit $\lambda$-mesurable, il faut et il suffit qu’elle soit $\lambda_\alpha$-mesurable pour tout $\alpha \in A$.
 

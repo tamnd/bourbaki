@@ -29,7 +29,7 @@ subsections:
       pdf_page: 72
 statements: 12
 exercises: 7
-content_sha256: 1ecb29f9c9ce268252169ba91c1887d162e07aba9ba86dc3ef66056bf668d2c7
+content_sha256: 13fc87dc8c502a891e2fea531bd8e8bfe152b21118d527b477939454753dfe41
 ---
 
 ## § 2. HOMOMORPHISMES CONTINUS DE $\mathbf{R}^n$ ET DE SES GROUPES QUOTIENTS
@@ -38,7 +38,7 @@ content_sha256: 1ecb29f9c9ce268252169ba91c1887d162e07aba9ba86dc3ef66056bf668d2c7
 
 Toute application linéaire de $\mathbf{R}^m$ dans $\mathbf{R}^n$ est évidemment un homomorphisme continu du groupe additif $\mathbf{R}^m$ dans le groupe additif $\mathbf{R}^n$. Réciproquement:
 
-#### Proposition 1 {#top-vii-s2-prop-1 .statement}
+#### Proposition 1 {#top-vii-s2-prop-1 .statement tag=0BZ3}
 
 Tout homomorphisme continu $f$ du groupe additif $\mathbf{R}^m$ dans le groupe additif $\mathbf{R}^n$ est une application linéaire de $\mathbf{R}^m$ dans $\mathbf{R}^n$.
 
@@ -48,7 +48,7 @@ Il suffit de montrer que, pour tout $x \in \mathbf{R}^m$ et tout $t \in \mathbf{
 
 La prop. 6 de V, p. 3, se généralise à tous les groupes $\mathbf{R}^n$:
 
-#### Proposition 2 {#top-vii-s2-prop-2 .statement}
+#### Proposition 2 {#top-vii-s2-prop-2 .statement tag=0BZ4}
 
 Soit $A$ un parallélétope de $\mathbf{R}^n$ tel que $0 \in A$; soit $f$ une application continue de $A$ dans un groupe topologique $G$ (noté multiplicativement), telle que $f(x + y) = f(x)f(y)$ pour tout couple de points $x, y$ tels que $x \in A, y \in A, x + y \in A$. Il existe alors un homomorphisme continu et un seul de $\mathbf{R}^n$ dans $G$ qui prolonge $f$.
 
@@ -62,7 +62,7 @@ $$
 
 pour $t \in A_i, t' \in A_i$ et $t + t' \in A_i$. D’après la prop. 6 de V, p. 3, il existe un homomorphisme continu $\bar{f}_i$ de $\mathbf{R}$ dans $G$ qui prolonge $f_i$. Comme $\mathbf{R}^n$ est somme directe des sous-groupes $D_i$, on définit un homomorphisme $\bar{f}$ de $\mathbf{R}^n$ dans le groupe commutatif $G_1$ en posant, pour tout $x = \sum_{i=1}^n t_i a_i$, $\bar{f}(x) = \sum_{i=1}^n \bar{f}_i(t_i)$; $\bar{f}$ est un prolongement de $f$, puisque, si $x \in A$, tous les composants $x_i$ de $x$ sur les $D_i$ appartiennent aussi à $A$, d’après le choix des $a_i$; en outre, $\bar{f}$ est continu dans $\mathbf{R}^n$, puisqu’il est continu sur chacune des droites $D_i$, et que $t_i$ est fonction linéaire (donc continue) de $x$.
 
-#### Corollaire 1 {#top-vii-s2-prop-2-cor-1 .statement}
+#### Corollaire 1 {#top-vii-s2-prop-2-cor-1 .statement tag=0BZ5}
 
 *Soient $V$ un voisinage de $0$ dans $\mathbf{R}^n$, $f$ une application continue de $V$ dans un groupe topologique $G$, telle que $f(x + y) = f(x)f(y)$ pour tout couple de points $x, y$ tels que $x \in V, y \in V, x + y \in V$. Il existe un homomorphisme continu et un seul de $\mathbf{R}^n$ dans $G$, qui coïncide avec $f$ en tous les points d’un voisinage $W$ de $0$.*
 
@@ -70,13 +70,13 @@ Il suffit de prendre pour $W$ un pavé ouvert de centre $0$, contenu dans $V$, e
 
 Nous verrons au chap. XI que cette propriété de $\mathbf{R}^n$ s’étend à une catégorie plus générale de groupes topologiques, les groupes « simplement connexes ».
 
-#### Corollaire 2 {#top-vii-s2-prop-2-cor-2 .statement}
+#### Corollaire 2 {#top-vii-s2-prop-2-cor-2 .statement tag=0BZ6}
 
 *Soit $f$ un isomorphisme local de $\mathbf{R}^n$ à un groupe topologique $G$; il existe un morphisme strict et un seul de $\mathbf{R}^n$ sur un sous-groupe ouvert de $G$, qui coïncide avec $f$ en tous les points d’un voisinage de $0$.*
 
 En effet, soit $\bar{f}$ l’homomorphisme continu de $\mathbf{R}^n$ dans $G$ qui coïncide avec $f$ en tous les points d’un voisinage de $0$; $\bar{f}(\mathbf{R}^n)$ contient par hypothèse un voisinage de l’élément neutre de $G$, donc (III, p. 7, corollaire) est un sous-groupe ouvert de $G$; en outre, $\bar{f}$ est un morphisme strict de $\mathbf{R}^n$ sur $\bar{f}(\mathbf{R}^n)$, d’après III, p. 16, prop. 24.
 
-#### Corollaire 3 {#top-vii-s2-prop-2-cor-3 .statement}
+#### Corollaire 3 {#top-vii-s2-prop-2-cor-3 .statement tag=0EAX}
 
 Lorsque $n \neq m$, $\mathbf{R}^n$ et $\mathbf{R}^m$ ne sont pas localement isomorphes.
 
@@ -84,19 +84,19 @@ Supposons $\mathbf{R}^n$ et $\mathbf{R}^m$ localement isomorphes. D’après le 
 
 Soit $G$ un groupe topologique. Le corollaire précédent montre qu’il existe au plus un entier $n$ tel que $G$ soit localement isomorphe à $\mathbf{R}^n$.
 
-#### Théorème 1 {#top-vii-s2-thm-1 .statement}
+#### Théorème 1 {#top-vii-s2-thm-1 .statement tag=0BZ7}
 
 Soit $G$ un groupe topologique connexe, localement isomorphe à $\mathbf{R}^n$; il est commutatif. Soit $K$ l’adhérence dans $G$ du sous-groupe de torsion de $G$ (A, II, p. 115). Alors $K$ est le plus grand sous-groupe compact de $G$; il est isomorphe à un tore $T^q$ ($0 \leq q \leq n$). De plus, il existe un sous-groupe fermé $V$ de $G$, isomorphe à $\mathbf{R}^{n-q}$, tel que le groupe topologique $G$ soit le produit direct de ses sous-groupes $K$ et $V$.
 
 D’après le cor. 2 de la prop. 2, il existe un morphisme $f$ de $\mathbf{R}^n$ dans $G$, qui est un isomorphisme local, et qui se prolonge en un morphisme strict de $\mathbf{R}^n$ sur un sous-groupe ouvert de $G$. Comme $G$ est connexe, on a $f(\mathbf{R}^n) = G$; le noyau $H$ de $f$ est discret, puisque son intersection avec un voisinage convenable de 0 dans $\mathbf{R}^n$ est réduite à 0. Soient $W$ le sous-espace vectoriel de $\mathbf{R}^n$ engendré par $H$, $q$ sa dimension, et $V'$ un supplémentaire de $W$. D’après le th. 1 de VII, p. 4, le sous-groupe $K = f(W)$ de $G$ est isomorphe à $T^q$; le sous-groupe $V = f(V')$ de $G$ est isomorphe à $\mathbf{R}^{n-q}$, et le groupe topologique $G$ est le produit direct de ses sous-groupes $K$ et $V$ (III, p. 18, cor. de la prop. 26). Soit $u$ la projection de $G$ sur $V$, de noyau $K$, associée à cette décomposition; si $L$ est un sous-groupe compact de $G$, $u(L)$ est un sous-groupe compact de $V$ (I, p. 63, cor. 1 du th. 2), donc est réduit à 0 (VII, p. 6, cor. 2 du th. 2); on a donc $L \subset K$ et $K$ est bien le plus-grand sous-groupe compact de $G$. Enfin, tout élément de torsion de $G$ engendre un sous-groupe fini, donc appartient à $K$ d’après ce qui précède; le sous-groupe de torsion de $G$ est donc le sous-groupe de torsion de $K$; comme le sous-groupe de torsion de $T^q = (\mathbf{R}/\mathbf{Z})^q$ est $(\mathbf{Q}/\mathbf{Z})^q$, le groupe $K$ est l’adhérence de son sous-groupe de torsion, ce qui achève la démonstration.
 
-#### Corollaire {#top-vii-s2-n2-cor-1 .statement}
+#### Corollaire {#top-vii-s2-n2-cor-1 .statement tag=0EAY}
 
 Tout groupe connexe $G$, localement isomorphe à $\mathbf{R}^n$, est isomorphe à un groupe $\mathbf{R}^p \times T^{n-p}$ ($0 \leq p \leq n$).
 
 ### 3. Homomorphismes continus de $\mathbf{R}^m$ dans $T^n$
 
-#### Proposition 3 {#top-vii-s2-prop-3 .statement}
+#### Proposition 3 {#top-vii-s2-prop-3 .statement tag=0BZ8}
 
 Tout homomorphisme continu de $\mathbf{R}^m$ dans $T^n$ est de la forme $x \mapsto \varphi(u(x))$, où $\varphi$ est l’homomorphisme canonique de $\mathbf{R}^n$ sur $T^n$ (identifié à $\mathbf{R}^n/\mathbf{Z}^n$), et $u$ une application linéaire de $\mathbf{R}^m$ dans $\mathbf{R}^n$.
 
@@ -108,13 +108,13 @@ $$
 
 pour tout couple de points de $\mathbf{R}^m$ tels que $x \in V', \ y \in V', \ x + y \in V'$; donc (VII, p. 12, cor. 1), cette application coïncide avec un homomorphisme continu bien déterminé $u$ de $\mathbf{R}^m$ dans $\mathbf{R}^n$, en tous les points d’un voisinage $W$ de 0 dans $\mathbf{R}^m$; d’après la prop. 1 de VII, p. 11, $u$ est d’ailleurs une application linéaire de $\mathbf{R}^m$ dans $\mathbf{R}^n$; pour tout $x \in W$, on a donc $f(x) = \varphi(u(x))$, ce qui achève la démonstration.
 
-#### Remarque {#top-vii-s2-n3-rem-1 .statement}
+#### Remarque {#top-vii-s2-n3-rem-1 .statement tag=0BZ9}
 
 Le même raisonnement montre, plus généralement, que si $\varphi$ est un morphisme strict de $\mathbf{R}^n$ dans un groupe $G$, dont la restriction à un voisinage convenable de 0 est un isomorphisme local de $\mathbf{R}^n$ à $G$, tout homomorphisme continu de $\mathbf{R}^m$ dans $G$ est de la forme $x \mapsto \varphi(u(x))$, où $u$ est une application linéaire de $\mathbf{R}^m$ dans $\mathbf{R}^n$.
 
 Dans le cas où $m = n = 1$, la prop. 3 donne la suivante:
 
-#### Proposition 4 {#top-vii-s2-prop-4 .statement}
+#### Proposition 4 {#top-vii-s2-prop-4 .statement tag=0BZA}
 
 Si $\varphi$ est l’homomorphisme canonique de $\mathbf{R}$ sur $\mathbf{T}$, tout homomorphisme continu de $\mathbf{R}$ dans $\mathbf{T}$ est de la forme $x \mapsto \varphi(ax)$ où $a \in \mathbf{R}$; c’est un morphisme strict de $\mathbf{R}$ sur $\mathbf{T}$ si $a \neq 0$.
 
@@ -132,7 +132,7 @@ Cherchons à quelle condition $f$ est un *isomorphisme* de $\mathbf{T}^n$ sur un
 
 Si l’on applique ce raisonnement au cas où $p = n$, on a la proposition suivante:
 
-#### Proposition 5 {#top-vii-s2-prop-5 .statement}
+#### Proposition 5 {#top-vii-s2-prop-5 .statement tag=0BZB}
 
 *Tout isomorphisme du groupe topologique* $\mathbf{T}^n$ *sur un de ses sous-groupes est un automorphisme de* $\mathbf{T}^n$, *qui s’obtient par passage aux quotients à partir d’une application linéaire* $u$ *de* $\mathbf{R}^n$ *sur lui-même, qui, restreinte à* $\mathbf{Z}^n$, *est un automorphisme de ce groupe*.
 
@@ -142,7 +142,7 @@ On peut aussi présenter ce résultat de la manière suivante: à chaque matrice
 
 En particulier, pour $n = 1$:
 
-#### Proposition 6 {#top-vii-s2-prop-6 .statement}
+#### Proposition 6 {#top-vii-s2-prop-6 .statement tag=0BZC}
 
 *Les seuls isomorphismes du groupe topologique* $\mathbf{T}$ *sur un de ses sous-groupes sont l’application identique et la symétrie* $x \mapsto -x$.
 

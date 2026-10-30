@@ -29,14 +29,14 @@ subsections:
       pdf_page: 45
 statements: 23
 exercises: 25
-content_sha256: 50b3925e65701f4836278187ffc866a6d401f56f82c18a9588527d7aa9be7d9d
+content_sha256: f3bb356dcd01c2f124b6edbcb7551016f358669cd0b6cfe2c6628e4d9303177e
 ---
 
 ## § 4. CONVEX FUNCTIONS OF A REAL VARIABLE
 
 Let $H$ be a subset of $\mathbf{R}$. $f$ a finite real function defined on $H$, and let $G$ be the *graph* or representative set of the function $f$ in $\mathbf{R} \times \mathbf{R} = \mathbf{R}^2$, the set of points $M_x = (x, f(x))$, where $x$ runs through $H$. It is convenient to say that a point $(a, b)$ of $\mathbf{R}^2$ such that $a \in H$ lies *above* (resp. *strictly above*, *below*, *strictly below*) $G$ if one has $b \geq f(a)$ (resp. $b > f(a)$, $b \leq f(a)$, $b < f(a)$). If $A = (a, a')$ and $B = (b, b')$ are two points of $\mathbf{R}^2$ we denote by $AB$ the closed segment with endpoints $A$ and $B$; if $a < b$ then $AB$ is the graph of the linear function $a' + \frac{b' - a'}{b - a} (x - a)$ defined on $[a, b]$; we denote the slope $\frac{b' - a'}{b - a}$ of this segment by $p(AB)$, and will make use of the following lemma, whose verification is immediate:
 
-#### Lemma {#fvr-i-s4-n0-lem-1 .statement}
+#### Lemma {#fvr-i-s4-n0-lem-1 .statement tag=085O}
 
 *Let $A = (a, a')$, $B = (b, b')$, $C = (c, c')$ be three points in $\mathbf{R}^2$ such that $a < b < c$. The following statements are equivalent:*
 
@@ -54,7 +54,7 @@ Fig. 1
 
 ### 1. DEFINITION OF A CONVEX FUNCTION
 
-#### Definition 1 {#fvr-i-s4-def-1 .statement}
+#### Definition 1 {#fvr-i-s4-def-1 .statement tag=085P}
 
 We say that a finite numerical function $f$, defined on an interval $I \subset \mathbf{R}$, is convex on $I$ if, no matter what the points $x, x'$ of $I$, ($x < x'$), every point $M_z$ of the graph $G$ of $f$ such that $x \leq z \leq x'$ lies below the segment $M_xM_{x'}$ (or, what comes to the same, if every point of this segment lies above $G$) (fig. 2).
 
@@ -78,7 +78,7 @@ $$
 
 by (1), which shows that every point of the segment with endpoints $(x, y)$ and $(x', y')$ lies above G.
 
-#### Remark {#fvr-i-s4-n1-rem-1 .statement}
+#### Remark {#fvr-i-s4-n1-rem-1 .statement tag=085Q}
 
 On sees in the same way that the set of points lying *strictly above* G is convex. Conversely, if this set is convex one has
 
@@ -88,11 +88,11 @@ $$
 
 for $0 \leq \lambda \leq 1$ and $y > f(x),\ y' > f(x')$; on letting y tend to $f(x)$ and $y'$ approach $f(x')$ in this formula it follows that $f$ is convex.
 
-#### Example 1 {#fvr-i-s4-n1-exa-1 .statement}
+#### Example 1 {#fvr-i-s4-n1-exa-1 .statement tag=085R}
 
 Every (real) affine linear function $ax + b$ is convex on $\mathbf{R}$.
 
-#### Example 2 {#fvr-i-s4-n1-exa-2 .statement}
+#### Example 2 {#fvr-i-s4-n1-exa-2 .statement tag=085S}
 
 The function $x^2$ is convex on $\mathbf{R}$, since one has
 
@@ -102,7 +102,7 @@ $$
 
 for $0 \leq \lambda \leq 1$.
 
-#### Example 3 {#fvr-i-s4-n1-exa-3 .statement}
+#### Example 3 {#fvr-i-s4-n1-exa-3 .statement tag=085T}
 
 The function $|x|$ is convex on $\mathbf{R}$, since
 
@@ -118,7 +118,7 @@ Let $f$ be a convex function on I, and $x, x'$ two points of I such that $x < x'
 
 One deduces from this that if $z$ is a point such that $x < z < x'$ and such that $M_z$ lies *on* the segment $M_x M_{x'}$, then, for *every other point* $z'$ such that $x < z' < x'$ the point $M_{z'}$ also lies *on* the segment $M_x M_{x'}$, for it follows from the above that $M_{z'}$ is at the same time both above and below this segment; in other words, $f$ is then equal to an *affine linear* function on $[x, x']$.
 
-#### Definition 2 {#fvr-i-s4-def-2 .statement}
+#### Definition 2 {#fvr-i-s4-def-2 .statement tag=085U}
 
 *We say that a finite real function $f$ defined on an interval $I \subset \mathbf{R}$ is strictly convex on I if, for any points $x, x'$ of I ($x < x'$), every point $M_z$ of the graph G of $f$ such that $x < z < x'$ lies strictly below the segment $M_x M_{x'}$ (or, what comes to the same, if every point of the segment, apart from the endpoints, lies strictly above G).*
 
@@ -134,7 +134,7 @@ The remarks that precede def. 2 show that for a convex function $f$ to be strict
 
 Of the examples above, the first and third are not strictly convex; on the other hand, $x^2$ is strictly convex on $\mathbf{R}$; a similar calculation shows that $1/x$ is strictly convex on $[0, +\infty[$.
 
-#### Proposition 1 {#fvr-i-s4-prop-1 .statement}
+#### Proposition 1 {#fvr-i-s4-prop-1 .statement tag=085V}
 
 *Let $f$ be a finite real function, convex (resp. strictly convex) on an interval $I \subset \mathbf{R}$. For every family $(x_i)_{1 \leq i \leq p}$ of $p \geq 2$ distinct points of $I$, and every family $(\lambda_i)_{1 \leq i \leq p}$ of $p$ real numbers such that $0 < \lambda_i < 1$ and $\sum_{i=1}^p \lambda_i = 1$, we have*
 
@@ -166,19 +166,19 @@ $$
 
 ### 2. FAMILIES OF CONVEX FUNCTIONS
 
-#### Proposition 2 {#fvr-i-s4-prop-2 .statement}
+#### Proposition 2 {#fvr-i-s4-prop-2 .statement tag=085W}
 
 Let $f_i$ ($1 \leq i \leq p$) be $p$ convex functions on an interval $I \subset \mathbf{R}$, and $c_i$ ($1 \leq i \leq p$) be $p$ arbitrary positive numbers; then the function $f = \sum_{i=1}^p c_i f_i$ is convex on $I$. Further, if for at least one index $j$ the function $f_j$ is strictly convex on $I$, and $c_j > 0$, then $f$ is strictly convex on $I$.
 
 This follows immediately by applying the inequality (1) (resp. (2)) to each of the $f_i$, multiplying the inequality for $f_i$ by $c_i$, and then adding term-by-term.
 
-#### Proposition 3 {#fvr-i-s4-prop-3 .statement}
+#### Proposition 3 {#fvr-i-s4-prop-3 .statement tag=085X}
 
 Let $(f_\alpha)$ be a family of convex functions on an interval $I \subset \mathbf{R}$; if the upper envelope $g$ of this family is finite at every point of $I$ then $g$ is convex on $I$.
 
 Indeed, the set of points $(x, y) \in \mathbf{R}^2$ lying above the graph of $g$ is the intersection of the convex sets formed by the points lying above the graph of each of the functions $f_\alpha$; so it is convex.
 
-#### Proposition 4 {#fvr-i-s4-prop-4 .statement}
+#### Proposition 4 {#fvr-i-s4-prop-4 .statement tag=085Y}
 
 Let $H$ be a set of convex functions on an interval $I \subset \mathbf{R}$; if $\mathfrak{F}$ is a filter on $H$ which converges pointwise on $I$ to a finite real function $f_0$, then this function is convex on $I$.
 
@@ -186,7 +186,7 @@ To see this it suffices to pass to the limit along $\mathfrak{F}$ in the inequal
 
 ### 3. CONTINUITY AND DIFFERENTIABILITY OF CONVEX FUNCTIONS
 
-#### Proposition 5 {#fvr-i-s4-prop-5 .statement}
+#### Proposition 5 {#fvr-i-s4-prop-5 .statement tag=085Z}
 
 For a real finite function $f$ to be convex (resp. strictly convex) on an interval $I$ it is necessary and sufficient that for all $a \in I$ the gradient
 
@@ -198,7 +198,7 @@ be an increasing (resp. strictly increasing) function of $x$ on $I \cap \mathbf{
 
 This proposition is an immediate consequence of definitions 1 and 2 and of the lemma of I, p. 23.
 
-#### Proposition 6 {#fvr-i-s4-prop-6 .statement}
+#### Proposition 6 {#fvr-i-s4-prop-6 .statement tag=0860}
 
 Let $f$ be a finite real function convex on an interval $I \subset \mathbf{R}$. Then at every interior point $a$ of $I$ the function $f$ is continuous, has finite right and left derivatives, and $f'_g(a) \leq f'_d(a)$.
 
@@ -225,7 +225,7 @@ $$
 
 for $x \in I$ and $x > a$. On letting $x$ approach $a$ ($x > a$) in this last inequality we obtain $f'_g(a) \leq f'_d(a)$. The existence of the left and right derivatives at the point $a$ clearly ensures the continuity of $f$ at this point.
 
-#### Corollary 1 {#fvr-i-s4-prop-6-cor-1 .statement}
+#### Corollary 1 {#fvr-i-s4-prop-6-cor-1 .statement tag=0861}
 
 *Let $f$ be a convex (resp. strictly convex) function on I; if $a$ and $b$ are two interior points of I such that $a < b$ one has* (fig. 3)
 
@@ -253,7 +253,7 @@ $$
 
 from which (9).
 
-#### Corollary 2 {#fvr-i-s4-prop-6-cor-2 .statement}
+#### Corollary 2 {#fvr-i-s4-prop-6-cor-2 .statement tag=0862}
 
 *If $f$ is convex (resp. strictly convex) on I then $f'_d$ and $f'_g$ are increasing (resp. strictly increasing) on the interior of I; the set of points in I at which $f$ is not differentiable is countable, and $f'_d$ and $f'_g$ are continuous at every point where $f$ is differentiable.*
 
@@ -269,7 +269,7 @@ Let $f$ be a convex function on I, $a$ an interior point of I, and D a line pass
 
 In particular, if $f$ is differentiable at the point $a$ there is *only one* supporting line to G at the point $M_a$, the *tangent* to G at $M_a$.
 
-#### Remark {#fvr-i-s4-n3-rem-1 .statement}
+#### Remark {#fvr-i-s4-n3-rem-1 .statement tag=0863}
 
 If $f$ is a strictly convex function on an open interval I then $f'_d$ is strictly increasing on I, so there are three possible cases, according to prop. 2 of I, p. 13:
 1. $f$ is strictly decreasing on I;
@@ -282,7 +282,7 @@ In all cases one sees that $f$ possesses a *right limit* at the left-hand endpoi
 
 ### 4. CRITERIA FOR CONVEXITY
 
-#### Proposition 7 {#fvr-i-s4-prop-7 .statement}
+#### Proposition 7 {#fvr-i-s4-prop-7 .statement tag=0864}
 
 *Let $f$ be a finite real function defined on an interval $I \subset \mathbf{R}$. For $f$ to be convex on $I$ it is necessary and sufficient that for every pair of numbers $a, b$ of $I$ such that $a < b$, and for every real number $\mu$, the function $f(x) + \mu x$ attains its supremum on $[a, b]$ at one of the points $a, b$.*
 
@@ -297,7 +297,7 @@ $$
 
 The condition is *sufficient*. Let us take $\mu = -\frac{f(b) - f(a)}{b - a}$ and let $g(x) = f(x) + \mu x$; one has $g(a) = g(b)$ and therefore $g(x) \leq g(a)$ for all $x \in [a, b]$, and one can check immediately that this inequality is equivalent to the inequality (1) where one replaces $z$ by $a$ and $x'$ by $b$.
 
-#### Proposition 8 {#fvr-i-s4-prop-8 .statement}
+#### Proposition 8 {#fvr-i-s4-prop-8 .statement tag=0865}
 
 *For a finite real function $f$ to be convex (resp. strictly convex) on an open interval $I \subset \mathbf{R}$ it is necessary and sufficient that it be continuous on $I$, have a derivative at every point of the complement $B$ relative to $I$ of a countable subset of this interval, and that the derivative be increasing (resp. strictly increasing) on $B$.*
 
@@ -310,19 +310,19 @@ One thus has $\sup_{\lambda \in B,\ a < \lambda < c} f'(\lambda) > \inf_{\lambda
 
 If now we assume that $f'$ is strictly increasing on $B$, then $f$ is convex and cannot be equal to an affine linear function on any open interval contained in $I$, for then $f'$ would be constant on this interval, contrary to the hypothesis.
 
-#### Corollary {#fvr-i-s4-n4-cor-1 .statement}
+#### Corollary {#fvr-i-s4-n4-cor-1 .statement tag=0866}
 
 *Let $f$ be a finite real function, continuous and twice differentiable on an interval $I \subset \mathbf{R}$; for $f$ to be convex on $I$ it is necessary and sufficient that $f''(x) \geqslant 0$ for all $x \in I$; for $f$ to be strictly convex on $I$ it is necessary and sufficient that the previous condition be satisfied and further that the set of points $x \in I$ where $f''(x) > 0$ be dense in $I$.*
 
 This follows immediately from the preceding proposition, and from the corollary at I, p. 14.
 
-#### Example {#fvr-i-s4-n4-exa-1 .statement}
+#### Example {#fvr-i-s4-n4-exa-1 .statement tag=0867}
 
 On the interval ]$0, +\infty$ [ the function $x^r$ ($r$ any real number) has a second derivative equal to $r(r-1)x^{-2}$; thus it is strictly convex if $r > 1$ or $r < 0$, and strictly concave if $0 < r < 1$. \*
 
 In order to be able to formulate another criterion for convexity we make the following definition: given the graph $G$ of a finite real function defined on an interval $I \subset \mathbf{R}$ and an interior point $a$ of $I$, we shall say that a line $D$ passing through $M_a = (a, f(a))$ is *locally above* (resp. *locally below*) $G$ if there exists a neighbourhood $V \subset I$ of $a$ such that every point of $D$ contained in $V \times \mathbf{R}$ is above (resp. below) $G$; we shall say that $D$ is *locally on* $G$ at the point $M_a$ if there is a neighbourhood $V \subset I$ of $a$ such that the intersection of $D$ and $V \times \mathbf{R}$ is identical to that of $G$ and $V \times \mathbf{R}$ (in other words, if $D$ is simultaneously locally above and locally below $G$).
 
-#### Proposition 9 {#fvr-i-s4-prop-9 .statement}
+#### Proposition 9 {#fvr-i-s4-prop-9 .statement tag=0868}
 
 *Let $f$ be a real finite function which is upper semi-continuous on an open interval $I \subset \mathbf{R}$. For $f$ to be convex on $I$ it is necessary and sufficient that for every point $M_x$ of the graph $G$ of $f$ every line locally above $G$ at this point should be locally on $G$ (at the point $M_x$).*
 
@@ -330,7 +330,7 @@ The condition is *necessary*: indeed, if $f$ is convex on $I$ then at every poin
 
 The condition is *sufficient*. Indeed, suppose it is satisfied, and suppose that $f$ is not convex on $I$; then there are two points $a, b$ of $I$ ($a < b$) such that there are points $M_x$ of $G$ strictly above the segment $M_aM_b$ (fig. 4). In other words, the function $g(x) = f(x) - f(a) - \frac{f(b) - f(a)}{b - a}(x - a)$ takes values $> 0$ on $[a, b]$; since $g$ is finite and upper semi-continuous on this compact interval its least upper bound $k$ on $[a, b]$ is finite and $> 0$, and the set $g^{-1}(k)$ is closed and not empty (\emph{Gen. Top.}, IV, p. 361, th. 3 and prop. 1). Let $c$ be the greatest lower bound of $g^{-1}(k)$; we have $a < c < b$. and at the point $M_c$ the line D with equation $y = f(c) + \frac{f(b) - f(a)}{b - a}(x - c)$ lies locally above G; but it cannot be locally on G at this point, since, for $a < x < c$, one has $g(x) < k$, which signifies that $M_x$ is strictly below D. This has led us to a contradiction, which establishes the proposition.
 
-#### Corollary 1 {#fvr-i-s4-prop-9-cor-1 .statement}
+#### Corollary 1 {#fvr-i-s4-prop-9-cor-1 .statement tag=0869}
 
 *For a real finite function* $f$ *defined on an open interval* $I \subset \mathbf{R}$ *and upper semi-continuous on* $I$ *to be convex on* $I$ *it is necessary and sufficient that for all* $x \in I$ *there should exist an* $\varepsilon > 0$ *such that the relation* $|h| \leq \varepsilon$ *entails*
 
@@ -344,7 +344,7 @@ We have only to show that the condition is *sufficient*. Indeed, if at a point $
 
 Fig. 5
 
-#### Corollary 2 {#fvr-i-s4-prop-9-cor-2 .statement}
+#### Corollary 2 {#fvr-i-s4-prop-9-cor-2 .statement tag=086A}
 
 *Let $f$ be a finite real function defined on an open interval $I \subset \mathbf{R}$. If for every point $x \in I$ there is an open interval $J_x \subset I$ containing $x$ and such that the restriction of $f$ to $J_x$ is convex on $J_x$, then $f$ is convex on $I$.*
 

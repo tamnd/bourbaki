@@ -42,9 +42,9 @@ subsections:
       pdf_page: 128
 statements: 40
 exercises: 8
-content_sha256: 046371409ef0bc7b4efc379b291fba8fe60090ea9f6074a96dee604887fade3a
+content_sha256: b04ed7db4f15bee18bfde3212cddcd5b11b638c5dd254950a9b6ebc37bec6ea0
 translated_from: content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md
-source_content_sha256: 25fb547cdd0923e402adfb7298b0fc0f1bd6503c596ee2106e24c4da92314558
+source_content_sha256: e8ef2b43442fbc25b56375b83b63be74c37d7c8014a9723fb60c9bc369cd90cb
 translation_model: gpt-5.4
 translation_run: translate-vi-cd398399
 glossary_version: 34
@@ -290,7 +290,7 @@ M & \xrightarrow{u} & N.
 \end{array}
 $$
 
-#### Định lý 1 {#alg-viii-s6-thm-1 .statement}
+#### Định lý 1 {#alg-viii-s6-thm-1 .statement tag=0072}
 
 *Cho A và B là các đại số trên K và P là một song môđun $(A, B)_k$. Ký hiệu song môđun $(B, A)_k$ $\operatorname{Hom}_A(P, A_s)$ bởi $P^*$. Các tính chất sau là tương đương:*
 
@@ -318,13 +318,13 @@ Theo Mệnh đề 2 của VIII, p. 98, A-môđun P khi đó là xạ ảnh và s
 
 Bằng cách đổi chỗ vai trò của A và B, ta thu được tính tương đương của (i) và (iii), điều này kết thúc chứng minh của mệnh đề.
 
-#### Hệ quả 1 {#alg-viii-s6-lem-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-viii-s6-lem-1-cor-1 .statement tag=077O}
 
 Cho A và B là các $k$-đại số tương đương Morita, và cho P là một $(A,B)_k$-song môđun khả nghịch. Tồn tại một đẳng cấu $\varphi$ từ tâm Z(A) của A đến tâm của B được xác định bởi quan hệ $\varphi (z)_P=z_P$ với mọi $z\in Z(A)$. Các tự đẳng cấu của $(A,B)_k$-song môđun P là các phép vị tự $z_P$ trong đó $z$ là một phần tử khả nghịch của Z(A).
 
 Với Định lý 1, điều này suy ra từ Nhận xét 2 của VIII, p. 97.
 
-#### Hệ quả 2 {#alg-viii-s6-lem-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-viii-s6-lem-1-cor-2 .statement tag=077P}
 
 Cho A và B là các $k$-đại số tương đương Morita, và cho P là một $(A,B)_k$-song môđun khả nghịch. Mọi nghịch đảo $(B,A)_k$-song môđun của P đều đẳng cấu với đối ngẫu $P^*=$ Hom$_A(P,A)$ của P. Chính xác hơn, cho Q là một $(B,A)_k$-song môđun là một nghịch đảo của P, và cho $\lambda : P\otimes_BQ\rightarrow_sA_d$ là một đẳng cấu của các $(A,A)_k$-song môđun. Tồn tại một ánh xạ duy nhất $\tau : Q\rightarrow P^*$ được xác định bởi quan hệ $\langle p, \tau (q)\rangle =\lambda (p\otimes q)$ với $p\in P$ và $q\in Q$, và $\tau$ là một đẳng cấu của các $(B,A)_k$-song môđun.
 

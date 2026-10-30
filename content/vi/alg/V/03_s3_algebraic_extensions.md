@@ -26,7 +26,7 @@ subsections:
       pdf_page: 133
 statements: 18
 exercises: 13
-content_sha256: 3ff672dfe302d81aea67f9df2cff3d9348157529ed2a25653199df39853d1050
+content_sha256: 786bae13b1acf4719321359b4b5d2f8aed469bd84cbe5bfa4bc46fae7228decc
 translated_from: content/en/alg/V/03_s3_algebraic_extensions.md
 source_content_sha256: 24ed112ef1d0c31d9c5abffb35576dad39976b5719834f95279fbef00cc323a7
 translation_model: gpt-5-6-mini
@@ -50,7 +50,7 @@ x^n = a_0 + a_1 x + \cdots + a_{n-1} x^{n-1}
 $$
 Đa thức $f(X) = X^n - \sum_{k=0}^{n-1} a_k X^k$ là đa thức đơn khởi duy nhất bậc $n$ trong $K[X]$ sao cho $f(x) = 0$; nó được gọi là đa thức tối tiểu của $x$ trên $K$.
 
-#### Định lý 1 {#alg-v-s3-thm-1 .statement}
+#### Định lý 1 {#alg-v-s3-thm-1 .statement tag=06HI}
 
 — Cho $A$ là một đại số trên một trường $K$, $x$ là một phần tử của $A$ đại số trên $K$, $n$ là bậc và $f$ là đa thức tối tiểu của $x$ trên $K$.
 
@@ -68,39 +68,39 @@ Giả sử $A$ là một miền nguyên. Khi đó đại số $K[x]$ là một m
 
 Còn lại là chứng minh d). Tồn tại một đa thức $g \in K[X]$ có bậc $n-1$ và một phần tử $a$ của $K$ sao cho $f(X) = Xg(X) + a$, do đó $f(0) = a$. Nếu $a = 0$, ta có $xg(x) = f(x) = 0$, và $g(x) \neq 0$, nên khi đó $x$ không khả nghịch trong $A$. Ngược lại, nếu $a \neq 0$, thì ta có $x \cdot [-a^{-1}g(x)] = 1$, nên khi đó $x$ khả nghịch trong $A$ và $x^{-1} = -a^{-1}g(x)$.
 
-#### Hệ quả 1 {#alg-v-s3-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s3-thm-1-cor-1 .statement tag=06HJ}
 
 — Cho $A$ là một đại số trên một trường $K$. Để một phần tử $x$ của $A$ là đại số trên $K$ thì điều kiện cần và đủ là đại số con $K[x]$ của $A$ sinh bởi $x$ có bậc hữu hạn trên $K$. Đặc biệt, nếu $A$ có bậc hữu hạn trên $K$, thì mọi phần tử của $A$ đều đại số trên $K$.
 
-#### Hệ quả 2 {#alg-v-s3-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s3-thm-1-cor-2 .statement tag=06HK}
 
 — Cho $E$ là một mở rộng của $K$, $A$ là một đại số trên $E$ và $x$ là một phần tử của $A$ đại số trên $K$. Khi đó $x$ là đại số trên $E$, đa thức tối tiểu của $x$ trên $E$ chia hết đa thức tối tiểu của $x$ trên $K$ và bậc của $x$ trên $E$ không lớn hơn bậc của $x$ trên $K$.
 
 Thật vậy, cho $f$ là đa thức tối tiểu của $x$ trên $K$; ta có $f(x) = 0$ và $f \in E[X]$, do đó $x$ là đại số trên $E$ và $f$ là bội của đa thức tối tiểu của $x$ trên $E$ (Đl. 1, *a*).
 
-#### Nhận xét {#alg-v-s3-n1-rem-1 .statement}
+#### Nhận xét {#alg-v-s3-n1-rem-1 .statement tag=06HL}
 
 Cho $E$ là một mở rộng của một trường $K$ và $x$ là một phần tử của $E$ là nghiệm của một đa thức bất khả quy đơn nhất $f \in K[X]$. Đl. 1, *c*) khi đó cho thấy rằng $f$ là đa thức tối tiểu của $x$ trên $K$.
 
-#### Ví dụ 1 {#alg-v-s3-n1-exa-1 .statement}
+#### Ví dụ 1 {#alg-v-s3-n1-exa-1 .statement tag=06HM}
 
 Trong trường số phức $\mathbf{C}$, số $i$ là đại số có bậc 2 trên trường nguyên tố $\mathbf{Q}$; vì nếu $f(X) = X^2 + 1$, thì $f(i) = 0$, và $x^2 + 1 \neq 0$ với mọi $x \in \mathbf{Q}$, do đó $i \notin \mathbf{Q}$. Trường $\mathbf{Q}(i)$ do đó là một mở rộng bậc 2 của $\mathbf{Q}$; nó gồm tất cả các số $a + bi$, trong đó $a, b$ là hữu tỉ. Tương tự, $i$ là đại số có bậc 2 trên trường $\mathbf{R}$ của các số thực, và $\mathbf{C}$ là một mở rộng bậc 2 của $\mathbf{R}$. \*
 
-#### Ví dụ 2 {#alg-v-s3-n1-exa-2 .statement}
+#### Ví dụ 2 {#alg-v-s3-n1-exa-2 .statement tag=06HN}
 
 Cho $K$ là một trường và $F$ là trường $K(X)$ các hàm hữu tỉ theo một bất định trên $K$. Cho $E$ là trường con $K(X^3)$ của $F$; ta có $F = E(X)$ và $X$ là đại số trên $E$, vì nó là một nghiệm của đa thức $Y^3 - X^3$ của vành $E[Y]$; đa thức này bất khả quy trong $E[Y]$, vì nếu không nó sẽ có ít nhất một nhân tử bậc nhất, và khi đó tồn tại hai đa thức khác không $u(X)$, $v(X)$ của $K[X]$ sao cho $(u(X^3))^3 = X^3(v(X^3))^3$, điều này vô lý, vì nếu $m$ và $n$ là các bậc của $u$ và $v$, thì điều này kéo theo $9m = 9n + 3$, hay $3m = 3n + 1$. Do đó trường $F$ có bậc 3 trên $E$, và mọi phần tử của $F$ có thể được viết theo đúng một cách dưới dạng một tổ hợp tuyến tính $f(X^3) + Xg(X^3) + X^2 h(X^3)$, trong đó $f, g, h$ là ba phân thức hữu tỉ của $K(X)$.
 
-#### Ví dụ 3 {#alg-v-s3-n1-exa-3 .statement}
+#### Ví dụ 3 {#alg-v-s3-n1-exa-3 .statement tag=06HO}
 
 Trong trường $\mathbf{R}$ của các số thực, có thể chứng minh $^1$ rằng số $\pi$ là siêu việt trên trường nguyên tố $\mathbf{Q}$. \*
 
 ### 2. Các mở rộng đại số
 
-#### Định nghĩa 1 {#alg-v-s3-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s3-def-1 .statement tag=06HP}
 
 — Một mở rộng $E$ của một trường $K$ được gọi là đại số (trên $K$) nếu mọi phần tử của $E$ đều đại số trên $K$. Một mở rộng $E$ của $K$ không đại số được gọi là siêu việt (trên $K$).
 
-#### Mệnh đề 1 {#alg-v-s3-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s3-prop-1 .statement tag=06HQ}
 
 — Để một mở rộng $E$ của $K$ là đại số thì điều kiện cần và đủ là mọi đại số con trên K $A$ của $E$ đều là một trường.
 
@@ -110,7 +110,7 @@ $^1$ Xem chẳng hạn D. Hilbert, Gesammelte Abhandlungen, tập 1, p. 1 (Berli
 
 Điều kiện là đủ : nếu nó được thỏa mãn và $x$ là một phần tử $\neq 0$ trong $E$, thì vành $K[x]$ là một trường, do đó $x^{-1} \in K[x]$; nói cách khác, tồn tại một đa thức $g \in K[X]$ sao cho $x^{-1} = g(x)$, hay cũng vậy, $xg(x) - 1 = 0$; điều này chứng tỏ $x$ là đại số trên $K$, do đó $E$ là một mở rộng đại số của $K$.
 
-#### Mệnh đề 2 {#alg-v-s3-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s3-prop-2 .statement tag=06HR}
 
 — *Nếu một mở rộng E của K có bậc hữu hạn n, thì nó là đại số và bậc trên K của mỗi phần tử của E chia hết n.*
 
@@ -118,47 +118,47 @@ Thật vậy, với $x \in E$, $[K(x):K]$ là hữu hạn và chia hết n ($V$,
 
 *Có những mở rộng đại số có bậc vô hạn, chẳng hạn bao đóng đại số của một trường hữu hạn (V, p. 24, Nhận xét 4).*
 
-#### Định lý 2 {#alg-v-s3-thm-2 .statement}
+#### Định lý 2 {#alg-v-s3-thm-2 .statement tag=06HS}
 
 — *Cho E là một mở rộng sinh hữu hạn của K, được sinh bởi các phần tử $a_1, ..., a_m$, là các phần tử đại số trên K; khi đó E là một mở rộng có bậc hữu hạn của K. Nếu bậc của $a_i$ trên $K(a_1, a_2, ..., a_{i-1})$ là $n_i$ (với $1 \leq i \leq m$), thì bậc của E trên K là $n_1 n_2 ... n_m$ và các phần tử $a_1^{v_1} a_2^{v_2} ... a_m^{v_m}$ ($0 \leq v_i \leq n_i - 1$) tạo thành một cơ sở của E trên K.*
 
 Các phần tử $a_i^{v_i}$ ($0 \leq v_i \leq n_i - 1$) tạo thành một cơ sở của $K(a_1, a_2, ..., a_i)$ trên $K(a_1, a_2, ..., a_{i-1})$ theo Đl. 1, b) của $V$, p. 16; do đó định lý suy ra bằng quy nạp theo $m$ từ Mệnh đề 25 của II, p. 222.
 
-#### Hệ quả 1 {#alg-v-s3-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s3-thm-2-cor-1 .statement tag=06HT}
 
 — *Cho E là một mở rộng của K và A là một tập con của E gồm các phần tử đại số trên K. Khi đó $K(A)$ là đại số trên K và ta có $K[A] = K(A)$.*
 
 Mỗi $x \in K(A)$ thuộc về một trường $K(F)$, trong đó F là một tập con hữu hạn của $A$ ($V$, p. 11, Hệ quả); khi đó $K(F)$ là đại số trên $K$ và bằng $K[F]$ theo Đl. 2, do đó $x$ là đại số trên $K$ và $K(A) = K[A]$.
 
-#### Hệ quả 2 {#alg-v-s3-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s3-thm-2-cor-2 .statement tag=06HU}
 
 — *Cho L là một mở rộng của K và E, F là các mở rộng con của L. Nếu F là đại số trên K, vành con $K[E, F]$ của L được sinh bởi $E \cup F$ là một trường trùng với $E(F)$ và đại số trên E.*
 
 Đối với mỗi phần tử của $F$, việc đại số trên $K$ cũng là đại số trên $E$ ($V$, p. 17, Hệ quả 2) do đó $E(F)$ là một mở rộng đại số của $E$, và ta có $E(F) = E[F]$ theo Hệ quả 1.
 
-#### Nhận xét 1 {#alg-v-s3-n2-rem-1 .statement}
+#### Nhận xét 1 {#alg-v-s3-n2-rem-1 .statement tag=06HV}
 
 Với ký hiệu của Định lý 2, $E = K[a_1, a_2, ..., a_n]$ và do đó $E$ đẳng cấu với một thương $K[X_1, X_2, ..., X_m]/\mathfrak{a}$; vì $E$ là một trường, $a$ là một iđêan cực đại trong $K[X_1, ..., X_m]$.
 
-#### Nhận xét 2 {#alg-v-s3-n2-rem-2 .statement}
+#### Nhận xét 2 {#alg-v-s3-n2-rem-2 .statement tag=06HW}
 
 Cho $E$ là một mở rộng đại số của $K$, có bậc vô hạn. Theo Định lý 2 tồn tại một dãy vô hạn $(a_i)$, gồm các phần tử của $E$ sao cho $a_i \notin K(a_1, a_2, ..., a_{i-1})$; Định lý 2 còn cho thấy bậc của $K(a_1, a_2, ..., a_n)$ trên $K$ nhận các giá trị lớn tùy ý. Nói cách khác, nếu E là một mở rộng đại số của K sao cho các bậc [F : K] của các mở rộng con F của E có bậc hữu hạn trên K bị chặn, thì E là một mở rộng có bậc hữu hạn của K.
 
 ### 3. Tính bắc cầu của các mở rộng đại số. Các trường đóng đại số tương đối trong một trường mở rộng
 
-#### Mệnh đề 3 {#alg-v-s3-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s3-prop-3 .statement tag=06HX}
 
 — Cho E và F là hai trường mở rộng của một trường K sao cho K ⊂ E ⊂ F. Để F là đại số trên K, điều kiện cần và đủ là E đại số trên K và F đại số trên E.
 
 Điều kiện là cần, theo V, p. 17, Hệ quả 2. Ta hãy chứng minh rằng nó là đủ. Cho x là một phần tử bất kỳ của F; nó là đại số trên E; gọi g ∈ E[X] là đa thức tối tiểu của nó trên E. Nếu A là tập hợp (hữu hạn) các hệ số của g, thì g ∈ K(A)[X], do đó x là đại số trên K(A) và K(A U {x}) = K(A)(x) có bậc hữu hạn trên K(A). Bây giờ A ⊂ E và E là đại số trên K, do đó K(A) có bậc hữu hạn trên K, theo Định lý 2. Vì vậy (V, p. 10, Định lý 1), K(A U {x}) có bậc hữu hạn trên K, điều này chứng tỏ x là đại số trên K (V, p. 18, Mệnh đề 2).
 
-#### Định nghĩa 2 {#alg-v-s3-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s3-def-2 .statement tag=06HY}
 
 — Một trường con K của một trường E được gọi là đóng đại số tương đối trong E nếu mọi phần tử của E đại số trên K đều thuộc K.
 
 Điều này tương đương với việc nói rằng K là mở rộng đại số duy nhất của K được chứa trong E. Mọi trường K đều đóng đại số tương đối trong chính nó. Trong § 4 ta sẽ nghiên cứu các trường đóng đại số tương đối trong mỗi trường mở rộng.
 
-#### Mệnh đề 4 {#alg-v-s3-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s3-prop-4 .statement tag=06HZ}
 
 — Cho E là một mở rộng của một trường K; tập hợp L gồm các phần tử của E đại số trên K tạo thành một mở rộng con của E đóng đại số tương đối trong E.
 

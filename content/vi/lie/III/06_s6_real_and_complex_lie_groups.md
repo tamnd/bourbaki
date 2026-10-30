@@ -53,9 +53,9 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: d28c71fd27a9367dc628bbb565f8310bd7527f14282e6ef4d93b24ac965b28ca
+content_sha256: 72f399f1bc9a35561d5e350ea87e906ca66ecac6c9229af68b03fba91e46471f
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
-source_content_sha256: 5661cdb979b242a4b80d3bf7b9535680e32ba902bd1352e6302cdc4df0de1b71
+source_content_sha256: e472279781ec8c0c5cc2af6e1e4dd1a20a67a73d7a8042acdd1dea73f6ae558d
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-mini
 translation_run: translate-vi-f0c4fab8
 glossary_version: 34
@@ -69,7 +69,7 @@ Trong đoạn này, giả sử K bằng $\mathbf{R}$ hoặc $\mathbf{C}$.
 
 ### 1. CHUYỂN TỪ CÁC CẤU XẠ ĐẠI SỐ LIE SANG CÁC CẤU XẠ NHÓM LIE
 
-#### Bổ đề 1 {#lie-iii-s6-lem-1 .statement}
+#### Bổ đề 1 {#lie-iii-s6-lem-1 .statement tag=0AE8}
 
 *Cho G là một nhóm tôpô liên thông đơn†, W là một lân cận mở liên thông đối xứng của e, H là một nhóm và f là một ánh xạ từ $W^3$ vào H sao cho*
 
@@ -103,19 +103,19 @@ $$
 
 $Y_0$ là một nhóm tôpô và liên thông vì $A(e, e, W)$ liên thông. Khi đó $p(Y_0)$ là một nhóm con mở của $G$, do đó $p(Y_0) = G$ vì $G$ liên thông. Hạt nhân của $p \mid Y_0$ là rời rạc. Vì $G$ đơn liên, $p \mid Y_0$ là một đồng phôi từ $Y_0$ lên $G$. Bởi vậy $Y_0$ là đồ thị của một cấu xạ $f'$ từ $G$ vào $H$. Với $g \in W$, $(g, f(g)) \in A(e, e, W) \subset Y_0$, do đó $f'(g) = f'(g)$.
 
-#### Định lý 1 {#lie-iii-s6-thm-1 .statement}
+#### Định lý 1 {#lie-iii-s6-thm-1 .statement tag=0AE9}
 
 *Cho $G$ và $H$ là các nhóm Lie và $h$ là một cấu xạ liên tục từ $L(G)$ vào $L(H)$. Giả sử rằng $G$ là đơn liên. Khi đó tồn tại một và chỉ một cấu xạ nhóm Lie $\phi$ từ $G$ vào $H$ sao cho $h = L(\phi)$.*
 
 Sự tồn tại của $\phi$ suy ra từ Bổ đề 1 và § 4, no. 1, Định lý 1 (i). Tính duy nhất của $\phi$ suy ra từ § 4, no. 1, Định lý 1 (ii) và thực tế rằng $G$ liên thông.
 
-#### Hệ quả {#lie-iii-s6-n1-cor-1 .statement}
+#### Hệ quả {#lie-iii-s6-n1-cor-1 .statement tag=0AEA}
 
 *Cho $G$ là một nhóm Lie đơn liên hữu hạn chiều. Tồn tại một biểu diễn tuyến tính giải tích hữu hạn chiều của $G$ mà hạt nhân là rời rạc.*
 
 Tồn tại (Chương I, § 7, Định lý 2) một không gian vectơ hữu hạn chiều $E$ và một cấu xạ đơn ánh $h$ từ $L(G)$ vào đại số Lie $\mathrm{End}(E)$. Theo Định lý 1, tồn tại một cấu xạ $\phi$ từ $G$ vào $\mathbf{GL}(E)$ sao cho $L(\phi) = h$. Suy ra $\phi$ là một phép nhúng và do đó hạt nhân của nó là rời rạc.
 
-#### Nhận xét {#lie-iii-s6-n1-rem-1 .statement}
+#### Nhận xét {#lie-iii-s6-n1-rem-1 .statement tag=0AEB}
 
 (1) Có những nhóm Lie đơn liên hữu hạn chiều không có biểu diễn tuyến tính giải tích đơn ánh hữu hạn chiều nào (Bài tập 2).
 
@@ -123,7 +123,7 @@ Tồn tại (Chương I, § 7, Định lý 2) một không gian vectơ hữu h�
 
 ### 2. NHÓM CON NGUYÊN
 
-#### Định nghĩa 1 {#lie-iii-s6-def-1 .statement}
+#### Định nghĩa 1 {#lie-iii-s6-def-1 .statement tag=0AEC}
 
 Cho G là một nhóm Lie. Một nhóm con nguyên của G là một nhóm con H được trang bị một cấu trúc nhóm Lie liên thông sao cho đơn ánh chính tắc từ H vào G là một phép nhúng.
 
@@ -131,7 +131,7 @@ Một nhóm con một tham số của G là một nhóm con nguyên 1 chiều c�
 
 Cho H là một nhóm con nguyên của G và i là đơn ánh chính tắc từ H vào G. Khi đó L(i) xác định một đẳng cấu từ L(H) lên một đại số con Lie của L(G) có một phần bù tôpô. L(H) được đồng nhất với ảnh của nó dưới L(i).
 
-#### Ví dụ {#lie-iii-s6-n2-exa-1 .statement}
+#### Ví dụ {#lie-iii-s6-n2-exa-1 .statement tag=0AED}
 
 (1) Một nhóm con Lie liên thông của G là một nhóm con nguyên của G.
 
@@ -139,7 +139,7 @@ Cho H là một nhóm con nguyên của G và i là đơn ánh chính tắc từ
 
 (3) Cho G là một nhóm Lie phức, H là một nhóm con nguyên của G và G_1 (tương ứng H_1) là nhóm Lie thực nền của G (tương ứng của H). Khi đó H_1 là một nhóm con nguyên của G_1 và L(H_1) là đại số Lie thực nền của L(H).
 
-#### Định lý 2 {#lie-iii-s6-thm-2 .statement}
+#### Định lý 2 {#lie-iii-s6-thm-2 .statement tag=0AEE}
 
 Cho G là một nhóm Lie.
 
@@ -151,17 +151,17 @@ Cho G là một nhóm Lie.
 
 (b) Cho H là một nhóm con nguyên của G và $N_1$ là một mầm nhóm con Lie liên thông của G có đại số Lie L(H). Vì đơn ánh chính tắc từ H vào G là một phép nhúng, tồn tại một mầm nhóm con mở $H_1$ của H đồng thời là một đa tạp con của G và do đó là một mầm nhóm con Lie của G có đại số Lie L(H). Mặt khác, cho N là nhóm con của G sinh bởi $N_1$; theo phần (a) của chứng minh, nó có cấu trúc của một nhóm con nguyên của G sao cho $N_1$ là một đa tạp con mở của N. Theo § 4, Định lý 3, $H_1 \cap N_1$ là mở trong $H_1$ và $N_1$. Do đó nhóm con của G sinh bởi $H_1 \cap N_1$ một mặt bằng H và mặt khác bằng N. Vì vậy các nhóm Lie H và N là bằng nhau. Điều này chứng minh (ii) và cũng chứng minh rằng ánh xạ đang xét trong (i) là đơn ánh.
 
-#### Nhận xét 1 {#lie-iii-s6-n2-rem-1 .statement}
+#### Nhận xét 1 {#lie-iii-s6-n2-rem-1 .statement tag=0AEF}
 
 Cho H là một nhóm con nguyên của G. Cho Y là phân lá trái của G liên kết với L(H). Nếu $g \in G$, cho $gH$ mang cấu trúc đa tạp dẫn xuất từ cấu trúc của H bởi $\gamma(g)$. Theo *Differentiable and Analytic Manifolds*, R, 9.3.2, đơn ánh chính tắc từ $gH$ vào Y là một cấu xạ. Cấu xạ này là étale. Do đó các lá liên thông cực đại của Y là các lớp kề trái modulo H.
 
-#### Mệnh đề 1 {#lie-iii-s6-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iii-s6-prop-1 .statement tag=0AEG}
 
 *Cho G và M là các nhóm Lie, H là một nhóm con nguyên của G và $\phi$ là một cấu xạ từ M vào G sao cho $L(\phi)(L(M)) \subset L(H)$. Giả sử M liên thông. Khi đó $\phi(M) \subset H$ và $\phi$, được xét như một ánh xạ từ M vào H, là một cấu xạ nhóm Lie.*
 
 Trong ký hiệu của Nhận xét 1, $\phi$ là một cấu xạ từ M vào Y (*Differentiable and Analytic Manifolds*, R, 9.3.2) và do đó $\phi(M) \subset H$ vì M liên thông.
 
-#### Hệ quả 1 {#lie-iii-s6-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s6-prop-1-cor-1 .statement tag=0AEH}
 
 *Cho G và H là các nhóm Lie, $\phi$ là một cấu xạ nhóm Lie từ G vào H, N là hạt nhân của $\phi$ và $h = L(\phi)$. Giả sử G liên thông và H hữu hạn chiều.*
 (i) *N là một nhóm con Lie của G và $L(N) = \mathrm{Ker}\ h$.*
@@ -172,7 +172,7 @@ Trong ký hiệu của Nhận xét 1, $\phi$ là một cấu xạ từ M vào Y 
 
 Cho $\psi$ là cấu xạ nhóm Lie từ G/N vào H dẫn xuất từ $\phi$ khi chuyển qua thương; nó là một phép nhúng (§ 3, no. 8, Mệnh đề 28). Theo Mệnh đề 1, $\psi$ là một cấu xạ nhóm Lie từ G/N vào H'. Cấu xạ này là étale và do đó $\psi(G/N) = H'$ vì H' liên thông; điều này chứng minh (ii). Khi đó $\psi : G/N \to H'$ là song ánh và là một đẳng cấu nhóm Lie, điều này chứng minh (iii).
 
-#### Hệ quả 2 {#lie-iii-s6-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s6-prop-1-cor-2 .statement tag=0AEI}
 
 *Cho G là một nhóm Lie và $H_1$ và $H_2$ là các nhóm con nguyên của G. Nếu $L(H_2) \subset L(H_1)$, thì $H_2$ là một nhóm con nguyên của $H_1$.*
 
@@ -182,7 +182,7 @@ L(i_2)(L(H_2)) = L(H_2) \subset L(H_1).
 $$
 Theo Mệnh đề 1, $i_2$ là một ánh xạ giải tích từ $H_2$ vào $H_1$ và thậm chí là một phép nhúng từ $H_2$ vào $H_1$ vì $L(i_2)$ là một đẳng cấu từ $L(H_2)$ lên một đại số con của $L(H_1)$ có một phần bù tôpô.
 
-#### Hệ quả 3 {#lie-iii-s6-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#lie-iii-s6-prop-1-cor-3 .statement tag=0AEJ}
 
 *Cho G là một nhóm Lie hữu hạn chiều và $(H_i)_{i \in I}$ là một họ các nhóm con Lie của G. Khi đó $H = \bigcap_{i \in I} H_i$ là một nhóm con Lie của G và*
 $$
@@ -190,7 +190,7 @@ L(H) = \bigcap_{i \in I} L(H_i).
 $$
 Tồn tại một tập con hữu hạn J của I sao cho $\bigcap_{i \in J} L(H_i)$ bằng giao M của tất cả các L(H_i). Ta biết rằng $H^* = \bigcap_{i \in J} H_i$ là một nhóm con Lie sao cho L(H^*) = M (§ 3, no. 8, Hệ quả 2 của Mệnh đề 29). Cho $H_0$ là thành phần liên thông chứa đơn vị của $H^*$. Nó là một nhóm con Lie của G và L(H_0) = M. Theo Hệ quả 2, $H_0 \subset H_i$ với mọi i và do đó $H_0 \subset H \subset H^*$, do đó có hệ quả.
 
-#### Hệ quả 4 {#lie-iii-s6-prop-1-cor-4 .statement}
+#### Hệ quả 4 {#lie-iii-s6-prop-1-cor-4 .statement tag=0AEK}
 
 *Cho G là một nhóm Lie hữu hạn chiều liên thông. Các điều kiện sau là tương đương:*
 (i) *G là đơn môđula* (Integration, Chương VII, § 1, no. 3, Định nghĩa 3);
@@ -199,7 +199,7 @@ Tồn tại một tập con hữu hạn J của I sao cho $\bigcap_{i \in J} L(H
 
 Ánh xạ g \mapsto det Ad g là một cấu xạ $\phi$ từ G vào K*. Theo § 3, Mệnh đề 35 (no. 10) và 44 (no. 12), $L(\phi)a = Tr\ ad\ a$ với mọi $a \in L(G)$. Rõ ràng Im $L(\phi) = \{0\}$ hoặc K. Trong trường hợp thứ nhất (resp. thứ hai), Im $\phi = \{1\}$ (resp. Im $\phi = K^*$) theo Hệ quả 1 và do đó G là đơn môđula (resp. không đơn môđula) theo § 3, no. 16, Hệ quả của Mệnh đề 55.
 
-#### Mệnh đề 2 {#lie-iii-s6-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iii-s6-prop-2 .statement tag=0AEL}
 
 *Cho G là một nhóm Lie hữu hạn chiều và H là một nhóm con nguyên của G. Các điều kiện sau là tương đương:*
 (i) *H đóng*;
@@ -209,7 +209,7 @@ Tồn tại một tập con hữu hạn J của I sao cho $\bigcap_{i \in J} L(H
 (iii) $\Rightarrow$ (ii): hiển nhiên.
 (ii) $\Rightarrow$ (i): nếu tôpô trên H được cảm sinh bởi tôpô trên G, thì H đóng vì H đầy đủ (§ 1, no. 1, Mệnh đề 1).
 
-#### Mệnh đề 3 {#lie-iii-s6-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iii-s6-prop-3 .statement tag=0AEM}
 
 *Cho G là một nhóm Lie, H là một nhóm con nguyên của G, M là một đa tạp giải tích liên thông không rỗng, f là một ánh xạ từ M vào G và r \in N_K. Xét các điều kiện sau:*
 (i) *f thuộc lớp C^r và f(M) \subset H*;
@@ -222,13 +222,13 @@ Tồn tại một tập con hữu hạn J của I sao cho $\bigcap_{i \in J} L(H
 
 Nếu tôpô trên H có một cơ sở đếm được, điều kiện (i) suy ra rằng f là một ánh xạ thuộc lớp C^r từ M vào H (*Differentiable and Analytic Manifolds*, R, 9.2.8); do đó (i) $\Rightarrow$ (ii).
 
-#### Hệ quả 1 {#lie-iii-s6-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s6-prop-3-cor-1 .statement tag=0AEN}
 
 Cho G là một nhóm Lie hữu hạn chiều và H là một nhóm con nguyên của G. Khi đó đại số Lie tiếp xúc với H tại e (§ 4, no. 5, Định nghĩa 2 và 3) là L(H) và cấu trúc nhóm Lie trên H là cấu trúc được cảm sinh bởi cấu trúc trên G.
 
 Vì H liên thông và hữu hạn chiều, tôpô của nó có một cơ sở đếm được.
 
-#### Hệ quả 2 {#lie-iii-s6-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s6-prop-3-cor-2 .statement tag=0AEO}
 
 Cho G là một nhóm Lie và $H_1$ và $H_2$ là các nhóm con nguyên của G. Giả sử tôpô trên $H_1$ có một cơ sở đếm được. Khi đó
 
@@ -240,17 +240,17 @@ và, nếu các điều kiện này được thỏa mãn, H_2 là một nhóm co
 
 Khẳng định cuối cùng và kéo theo $L(H_2) \subset L(H_1) \Rightarrow H_2 \subset H_1$ suy ra từ Hệ quả 2 của Mệnh đề 1. Kéo theo đảo lại suy ra từ Mệnh đề 3.
 
-#### Hệ quả 3 {#lie-iii-s6-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#lie-iii-s6-prop-3-cor-3 .statement tag=0AEP}
 
 Cho G là một nhóm Lie và H_1 và H_2 là các nhóm con nguyên của G mà tôpô của chúng chấp nhận một cơ sở đếm được. Nếu H_1 và H_2 có cùng tập hợp nền, thì các cấu trúc nhóm Lie trên H_1 và H_2 là như nhau.
 
 Điều này suy ra từ Hệ quả 2.
 
-#### Nhận xét 2 {#lie-iii-s6-n2-rem-2 .statement}
+#### Nhận xét 2 {#lie-iii-s6-n2-rem-2 .statement tag=0AEQ}
 
 Cho G là một nhóm Lie hữu hạn chiều. Cho H là một nhóm con của G. Ta sẽ nói, do lạm dụng ngôn ngữ, rằng H là một nhóm con nguyên của G nếu tồn tại một cấu trúc nhóm Lie S trên H sao cho H, cùng với S, là một nhóm con nguyên của G. Theo Hệ quả 3 của Mệnh đề 3, nếu S tồn tại thì S là duy nhất.
 
-#### Nhận xét 3 {#lie-iii-s6-n2-rem-3 .statement}
+#### Nhận xét 3 {#lie-iii-s6-n2-rem-3 .statement tag=0AER}
 
 Cho V là một đa tạp lớp C^r. Cho M là một tập con của V và x và y là các phần tử của M. Xét tính chất sau đây:
 
@@ -258,7 +258,7 @@ P_{M, x, y}: tồn tại I, x_0, x_1, \ldots, x_n, f_1, \ldots, f_n sao cho: (a)
 
 Ta sẽ nói rằng M là một tập con C^r-liên thông của V nếu, với mọi phần tử x, y của M, tính chất P_{M, x, y} được thỏa mãn.
 
-#### Mệnh đề 4 {#lie-iii-s6-prop-4 .statement}
+#### Mệnh đề 4 {#lie-iii-s6-prop-4 .statement tag=0AES}
 
 Cho G là một nhóm Lie hữu hạn chiều và H là một nhóm con của G. Cho r \in \mathbf{N}_\mathbf{K}. Các điều kiện sau là tương đương:
 (i) H là một nhóm con nguyên của G;
@@ -269,11 +269,11 @@ Cho G là một nhóm Lie hữu hạn chiều và H là một nhóm con của G.
 
 (iii) ⇒ (ii): giả sử rằng điều kiện (iii) được thỏa mãn và cho H cấu trúc cảm sinh bởi cấu trúc nhóm Lie trên G. Cho h là đại số con tiếp xúc với H tại e. Thành phần liên thông đơn vị H_0 của H là một nhóm con nguyên của G sao cho L(H_0) = h. Ta chứng minh rằng H = H_0. Chỉ cần chứng minh điều sau đây: cho I là một tập con mở liên thông của K, f là một ánh xạ lớp C^r từ I vào G sao cho f(I) ⊂ H và λ và μ là hai điểm của I; nếu f(λ) ∈ H_0, thì f(μ) ∈ H_0. Nhưng, với mọi v ∈ I, (T_v f)(K) ⊂ f(v)h theo định nghĩa của h, nên mệnh đề của ta suy ra từ Mệnh đề 3.
 
-#### Nhận xét 4 {#lie-iii-s6-n2-rem-4 .statement}
+#### Nhận xét 4 {#lie-iii-s6-n2-rem-4 .statement tag=0AET}
 
 Nếu K = R, các nhóm con nguyên của G cũng có thể được đặc trưng như các nhóm con mà, với tôpô cảm sinh bởi tôpô của G, là liên thông bằng cung (§ 8, Bài tập 4). Tuy nhiên, các nhóm con có thể liên thông nhưng không nguyên (Đại số giao hoán, Chương VI, § 9, Bài tập 2).
 
-#### Hệ quả {#lie-iii-s6-n2-cor-1 .statement}
+#### Hệ quả {#lie-iii-s6-n2-cor-1 .statement tag=0AEU}
 
 Cho G là một nhóm Lie hữu hạn chiều và H_1 và H_2 là hai nhóm con nguyên của G. Nhóm con của G được sinh bởi H_1 và H_2 và nhóm con (H_1, H_2) của G là các nhóm con nguyên của G.
 
@@ -281,7 +281,7 @@ Nhóm con (G, G) của G không phải lúc nào cũng đóng (§ 9, Bài tập 
 
 Nhắc lại rằng (§ 3, no. 11, Hệ quả 5 của Mệnh đề 41) nếu a là một đại số hữu hạn chiều, thì Aut(a) là một đại số con Lie của GL(a) và L(Aut(a)) là đại số Lie các phép dẫn xuất của a.
 
-#### Định nghĩa 2 {#lie-iii-s6-def-2 .statement}
+#### Định nghĩa 2 {#lie-iii-s6-def-2 .statement tag=0AEV}
 
 Cho a là một đại số Lie hữu hạn chiều. Ký hiệu Ad(a) hoặc Int(a) là nhóm con nguyên của Aut(a) có đại số Lie là ad(a). Các phần tử của nhóm này được gọi là các tự đẳng cấu nội của a.
 
@@ -289,7 +289,7 @@ Theo phép chuyển cấu trúc, ad(a) là bất biến dưới Aut(a) và do đ
 
 ### 3. CHUYỂN TỪ ĐẠI SỐ LIE SANG NHÓM LIE
 
-#### Định lý 3 {#lie-iii-s6-thm-3 .statement}
+#### Định lý 3 {#lie-iii-s6-thm-3 .statement tag=0AEW}
 
 (i) Nếu L là một đại số Lie hữu hạn chiều, thì tồn tại một nhóm Lie đơn liên G sao cho L(G) đẳng cấu với L.
 
@@ -301,7 +301,7 @@ Cho L là một đại số Lie hữu hạn chiều. Tồn tại một không gi
 
 Cho $G_1, G_2, f, \phi, N$ như trong (ii). Khi đó $\phi$ là étale, nên $\phi(G_1)$ là một nhóm con mở của $G_2$ và do đó $\phi(G_1) = G_2$. Mặt khác, N là rời rạc và do đó được chứa trong tâm của $G_1$ (*Integration*, Chương VII, $§ 3$, Bổ đề 4). Rõ ràng cấu xạ từ $G_1/N$ lên $G_2$ dẫn xuất từ $\phi$ là một đẳng cấu nhóm Lie. Nếu $G_2$ đơn liên, mọi ánh xạ étale từ $G_1$ lên $G_2$ đều đơn ánh và do đó $N = \{e\}$.
 
-#### Mệnh đề 5 {#lie-iii-s6-prop-5 .statement}
+#### Mệnh đề 5 {#lie-iii-s6-prop-5 .statement tag=0AEX}
 
 *Cho G là một nhóm Lie thực liên thông. Giả sử rằng $L(G)$ có một cấu trúc đại số Lie phức khả chuẩn $L'$ tương thích với cấu trúc đại số Lie thực khả chuẩn của nó. Tồn tại trên G một và chỉ một cấu trúc nhóm Lie phức tương thích với cấu trúc nhóm Lie thực và có đại số Lie là $L'$.*
 
@@ -309,7 +309,7 @@ Theo $§ 4$, no. 2, Hệ quả 2 của Định lý 2, chỉ cần chứng minh r
 
 Kết luận của Mệnh đề 5 không nhất thiết đúng nếu không giả thiết G là liên thông (Bài tập 7).
 
-#### Mệnh đề 6 {#lie-iii-s6-prop-6 .statement}
+#### Mệnh đề 6 {#lie-iii-s6-prop-6 .statement tag=0AEY}
 
 *Cho G là một nhóm Lie phức liên thông. Nếu G compắc thì G giao hoán.*
 
@@ -317,7 +317,7 @@ Kết luận của Mệnh đề 5 không nhất thiết đúng nếu không gi�
 
 ### 4. ÁNH XẠ MŨ
 
-#### Định lý 4 {#lie-iii-s6-thm-4 .statement}
+#### Định lý 4 {#lie-iii-s6-thm-4 .statement tag=0AEZ}
 
 *Cho G là một nhóm Lie. Tồn tại một và chỉ một ánh xạ mũ của G xác định trên $L(G)$.*
 
@@ -336,17 +336,17 @@ do đó $\left( \phi \left( \frac{1}{n} a \right) \right)^n = \left( \phi \left(
 
 Từ đây về sau khi nói đến *ánh xạ mũ* của $G$, ta sẽ hiểu là ánh xạ được xét trong Định lý 4. Nó sẽ được ký hiệu là $\exp_G$ hoặc $\exp$ nếu không có nguy cơ nhầm lẫn.
 
-#### Ví dụ {#lie-iii-s6-n4-exa-1 .statement}
+#### Ví dụ {#lie-iii-s6-n4-exa-1 .statement tag=0AF0}
 
 Cho $A$ là một đại số kết hợp có đơn vị được chuẩn hoá đầy đủ. Khi đó $\exp_{A^*}$ là ánh xạ mũ được định nghĩa trong Chương II, § 7, no. 3.
 
-#### Mệnh đề 7 {#lie-iii-s6-prop-7 .statement}
+#### Mệnh đề 7 {#lie-iii-s6-prop-7 .statement tag=0AF1}
 
 *Cho $G$ là một nhóm Lie và $a$ là một phần tử của $L(G)$. Ánh xạ $\lambda \mapsto \exp(\lambda a)$ từ $K$ vào $G$ là cấu xạ duy nhất $\phi$ của nhóm Lie $K$ vào $G$ sao cho $(T_0 \phi)1 = a$.
 
 Các ánh xạ $(\lambda, \lambda') \mapsto \exp(\lambda a) \exp(\lambda' a)$ và $(\lambda, \lambda') \mapsto \exp(\lambda + \lambda') a$ từ $K \times K$ vào $G$ là giải tích và trùng nhau trên một lân cận của $(0, 0)$. Vì $K \times K$ là liên thông, các ánh xạ này bằng nhau. Do đó $\phi : \lambda \mapsto \exp(\lambda a)$ là một cấu xạ nhóm Lie từ $K$ vào $G$. Ánh xạ tiếp xúc tại 0 của $\lambda \mapsto \lambda a$ là ánh xạ $\lambda \mapsto \lambda a$; và $T_e(\exp) = \mathrm{Id}_{L(G)}$; do đó $(T_0 \phi)1 = a$. Mệnh đề về tính duy nhất của mệnh đề được suy ra từ Định lý 1.*
 
-#### Mệnh đề 8 {#lie-iii-s6-prop-8 .statement}
+#### Mệnh đề 8 {#lie-iii-s6-prop-8 .statement tag=0AF2}
 
 *Cho $G$ là một nhóm Lie. Với mọi $x, y$ trong $L(G)$ và $n$ là một số nguyên,
 
@@ -360,13 +360,13 @@ $$
 
 Theo Mệnh đề 7, điều này được suy ra từ Mệnh đề 4 của § 4, no. 3, bằng cách lấy $\lambda = \frac{1}{n}$.
 
-#### Mệnh đề 9 {#lie-iii-s6-prop-9 .statement}
+#### Mệnh đề 9 {#lie-iii-s6-prop-9 .statement tag=0AF3}
 
 *Cho $G$ là một nhóm Lie phức và $G'$ là nhóm Lie thực cơ sở của nó. Khi đó $\exp_G = \exp_{G'}$.
 
 Điều này được suy ra từ Mệnh đề 5 của § 4, no. 3 và tính giải tích của $\exp_G$ và $\exp_{G'}$.
 
-#### Mệnh đề 10 {#lie-iii-s6-prop-10 .statement}
+#### Mệnh đề 10 {#lie-iii-s6-prop-10 .statement tag=0AF4}
 
 *Cho $G$ và $H$ là các nhóm Lie và $\phi$ là một cấu xạ từ $G$ vào $H$.
 (i) $\phi \circ \exp_G = \exp_H \circ L(\phi)$.
@@ -376,7 +376,7 @@ Theo Mệnh đề 7, điều này được suy ra từ Mệnh đề 4 của § 4
 
 Hai vế của đẳng thức (i) là các ánh xạ giải tích từ $L(G)$ vào $H$ trùng nhau trên một lân cận của 0 ($§ 4$, Mệnh đề 8, no. 4), và do đó bằng nhau. Mệnh đề (ii) là một trường hợp riêng của (i).
 
-#### Hệ quả 1 {#lie-iii-s6-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s6-prop-10-cor-1 .statement tag=0AF5}
 
 *Cho $G$ là một nhóm Lie, $G'$ là một nhóm con Lie của $G$ và $a \in L(G)$. Các điều kiện sau là tương đương*:
 (i) $a \in L(G')$;
@@ -384,7 +384,7 @@ Hai vế của đẳng thức (i) là các ánh xạ giải tích từ $L(G)$ v�
 (iii) $\exp(\lambda a) \in G$ với mọi $\lambda \in K$.
 Lập luận cũng như trong $§ 4$, no. 4, Hệ quả 1 của Mệnh đề 8.
 
-#### Hệ quả 2 {#lie-iii-s6-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s6-prop-10-cor-2 .statement tag=0AF6}
 
 *Cho $G$ là một nhóm Lie, $H$ là một nhóm con nguyên của $G$ và $a \in L(G)$. Xét các điều kiện sau*:
 (i) $a \in L(H)$;
@@ -396,7 +396,7 @@ $$
 $$
 Do đó (i) $\Rightarrow$ (ii). Mệnh đề đảo lại khi $H$ có một cơ sở đếm được suy ra từ Mệnh đề 3.
 
-#### Hệ quả 3 {#lie-iii-s6-prop-10-cor-3 .statement}
+#### Hệ quả 3 {#lie-iii-s6-prop-10-cor-3 .statement tag=0AF7}
 
 *Cho $G$ là một nhóm Lie, $\rho$ là một biểu diễn tuyến tính giải tích của $G$, $x \in L(G)$ và $g \in G$.
 (i) $\rho(\exp x) = \exp L(\rho)x$;
@@ -404,18 +404,18 @@ Do đó (i) $\Rightarrow$ (ii). Mệnh đề đảo lại khi $H$ có một cơ 
 (iii) $g(\exp x)g^{-1} = \exp(\mathrm{Ad}\, g.x)$.
 Lập luận cũng như ở $§ 4$, no. 4, Hệ quả 2 và 3 của Mệnh đề 8.
 
-#### Hệ quả 4 {#lie-iii-s6-prop-10-cor-4 .statement}
+#### Hệ quả 4 {#lie-iii-s6-prop-10-cor-4 .statement tag=0AF8}
 
 *Cho $G$ là một nhóm Lie liên thông hữu hạn chiều*.
 (i) $\mathrm{Int}(L(G)) = \mathrm{Ad}(G)$.
 (ii) *Cho $Z$ là tâm của $G$. Khi đó $Z$ là một nhóm con Lie của $G$ mà đại số Lie của nó là tâm của $L(G)$. Ánh xạ từ $G/Z$ vào $\mathrm{Int}\, L(G)$ dẫn xuất từ $g \mapsto \mathrm{Ad}\, g$ khi chuyển qua thương là một đẳng cấu nhóm Lie*.
 Mệnh đề (i) suy ra từ Hệ quả 3 (ii) và các nhận xét sau Định nghĩa 2. Cho $g \in G$. Để có $\mathrm{Ad}\, g = \mathrm{Id}_{L(G)}$, điều kiện cần và đủ là $\mathrm{Int}\, g$ trùng với $\mathrm{Id}_G$ trên một lân cận của $e$ ($§ 4$, no. 1, Định lý 1 (ii)) và do đó trên toàn bộ $G$; nói cách khác, điều kiện cần và đủ là $g \in Z$. Khi đó (ii) suy ra từ Hệ quả 1 của Mệnh đề 1.
 
-#### Định nghĩa 3 {#lie-iii-s6-def-3 .statement}
+#### Định nghĩa 3 {#lie-iii-s6-def-3 .statement tag=0AF9}
 
 *Cho $G$ là một nhóm Lie liên thông hữu hạn chiều. Nhóm Lie $\mathrm{Int}(L(G)) = \mathrm{Ad}(G)$ được gọi là nhóm adjoint của $G$*.
 
-#### Mệnh đề 11 {#lie-iii-s6-prop-11 .statement}
+#### Mệnh đề 11 {#lie-iii-s6-prop-11 .statement tag=0AFA}
 
 *Cho $G$ là một nhóm Lie liên thông giao hoán*.
 (i) *exp là một cấu xạ étale của nhóm Lie cộng tính $L(G)$ lên $G$*.
@@ -430,7 +430,7 @@ $$
 
 Do đó (i). Mệnh đề (ii) suy ra từ (i) và *General Topology*, Chương VII, § 1, Mệnh đề 9.
 
-#### Mệnh đề 12 {#lie-iii-s6-prop-12 .statement}
+#### Mệnh đề 12 {#lie-iii-s6-prop-12 .statement tag=0AFB}
 
 *Cho G là một nhóm Lie và $L = L(G)$. Với mọi $x \in L$, cho $T_x(L)$ được đồng nhất với $L$, sao cho vi phân phải $\varpi(x)$ của $\exp$ tại $x$ là một ánh xạ tuyến tính từ $L$ vào $L$. Với mọi $x \in L$,
 
@@ -440,7 +440,7 @@ $$
 
 Hai vế là các hàm giải tích của $x$ và bằng nhau đối với $x$ đủ gần 0 (§ 4, no. 3, Mệnh đề 6).
 
-#### Nhận xét {#lie-iii-s6-n4-rem-1 .statement}
+#### Nhận xét {#lie-iii-s6-n4-rem-1 .statement tag=0AFC}
 
 $\varpi(x) \cdot (\mathrm{ad}\ x) = \exp \mathrm{ad}\ x - 1$. Ta viết, do lạm dụng ký hiệu,
 
@@ -448,13 +448,13 @@ $$
 \varpi(x) = \frac{\exp \mathrm{ad}\ x - 1}{\mathrm{ad}\ x}.
 $$
 
-#### Hệ quả {#lie-iii-s6-n4-cor-1 .statement}
+#### Hệ quả {#lie-iii-s6-n4-cor-1 .statement tag=0AFD}
 
 *Cho G là một nhóm Lie phức và $x \in L(G)$. Ánh xạ tiếp tuyến tại $x$ của $\exp_G$ có hạt nhân $\bigoplus_{n \in \mathbf{Z} - \{0\}} \mathrm{Ker}(\mathrm{ad}\ x - 2i\pi n)$.
 
 Hàm nguyên $z \mapsto \sum_{n \geqslant 0} \frac{1}{(n + 1)!} z^n$, bằng $\frac{e^z - 1}{z}$ với $z \neq 0$, nhận các điểm của $2\pi i \mathbf{Z} - \{0\}$ làm các không điểm, tất cả đều là các không điểm đơn. Hệ quả khi đó suy ra từ Mệnh đề 12 và bổ đề sau:
 
-#### Bổ đề 2 {#lie-iii-s6-lem-2 .statement}
+#### Bổ đề 2 {#lie-iii-s6-lem-2 .statement tag=0AFE}
 
 *Cho E là một không gian Banach phức, u là một phần tử của $\mathscr{L}(E)$, S là phổ của u trong $\mathscr{L}(E)$ (Spectral Theories, Chương I, § 1, no. 2) và f là một hàm phức chỉnh hình trên một lân cận mở $\Omega$ của S. Giả sử rằng f trong $\Omega$ chỉ có một số hữu hạn các không điểm phân biệt $z_1, \ldots, z_n$, với các bội $h_1, \ldots, h_n$. Khi đó $\mathrm{Ker}\ f(u)$ là tổng trực tiếp của các $\mathrm{Ker}(u - z_i)^{h_i}$ với $1 \leqslant i \leqslant n$.
 
@@ -464,7 +464,7 @@ Tồn tại một hàm chỉnh hình g trên $\Omega$, khác không ở mọi n�
 
 ### 5. ÁP DỤNG VÀO CÁC BIỂU DIỄN TUYẾN TÍNH
 
-#### Mệnh đề 13 {#lie-iii-s6-prop-13 .statement}
+#### Mệnh đề 13 {#lie-iii-s6-prop-13 .statement tag=0AFF}
 
 *Cho $G$ là một nhóm Lie liên thông và $\varphi$ là một biểu diễn tuyến tính giải tích của $G$ trên một không gian vectơ đầy đủ khả chuẩn $E$. Cho $E_1, E_2$ là hai không gian vectơ con đóng của $E$ sao cho $E_2 \subset E_1$. Các điều kiện sau là tương đương:*
 
@@ -490,25 +490,25 @@ $$
 
 do đó có mệnh đề.
 
-#### Hệ quả 1 {#lie-iii-s6-prop-13-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s6-prop-13-cor-1 .statement tag=0AFG}
 
 *Để $E_1$ ổn định dưới $\varphi$, điều kiện cần và đủ là $E_1$ ổn định dưới $L(\varphi)$.*
 
 Chỉ cần lấy $E_1 = E_2$ trong Mệnh đề 13.
 
-#### Hệ quả 2 {#lie-iii-s6-prop-13-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s6-prop-13-cor-2 .statement tag=0AFH}
 
 *Giả sử rằng $\varphi$ là hữu hạn chiều. Để $\varphi$ là đơn (tương ứng nửa đơn), điều kiện cần và đủ là $L(\varphi)$ là đơn (tương ứng nửa đơn).*
 
 Điều này suy ra từ Hệ quả 1.
 
-#### Hệ quả 3 {#lie-iii-s6-prop-13-cor-3 .statement}
+#### Hệ quả 3 {#lie-iii-s6-prop-13-cor-3 .statement tag=0AFI}
 
 *Cho $x \in E$. Để $x$ bất biến dưới $\varphi(G)$, điều kiện cần và đủ là $x$ bị triệt tiêu bởi $L(\varphi)(L(G))$ (nghĩa là $x$ bất biến dưới $L(\varphi)$ theo nghĩa của Chương I, § 3, Định nghĩa 3).*
 
 Chỉ cần lấy $E_1 = Kx$ và $E_2 = 0$ trong Mệnh đề 13.
 
-#### Hệ quả 4 {#lie-iii-s6-prop-13-cor-4 .statement}
+#### Hệ quả 4 {#lie-iii-s6-prop-13-cor-4 .statement tag=0AFJ}
 
 *Cho $\varphi'$ là một biểu diễn tuyến tính giải tích khác của $G$ trên một không gian khả chuẩn đầy đủ $E'$. Cho $T \in \mathscr{L}(E, E')$. Các điều kiện sau là tương đương:*
 
@@ -517,13 +517,13 @@ Chỉ cần lấy $E_1 = Kx$ và $E_2 = 0$ trong Mệnh đề 13.
 
 Cho $\sigma$ là biểu diễn tuyến tính của $G$ trên $\mathscr{L}(E, E')$ dẫn xuất từ $\varphi$ và $\varphi'$ (§ 3, no. 11, Hệ quả 1 của Mệnh đề 41). Điều kiện (i) có nghĩa là $T$ bất biến dưới $\sigma(G)$. Điều kiện (ii) có nghĩa là $T$ bị triệt tiêu bởi $L(\sigma)(L(G))$. Khi đó chỉ cần áp dụng Hệ quả 3.
 
-#### Hệ quả 5 {#lie-iii-s6-prop-13-cor-5 .statement}
+#### Hệ quả 5 {#lie-iii-s6-prop-13-cor-5 .statement tag=0AFK}
 
 Giả sử rằng $\rho$ và $\rho'$ là hữu hạn chiều. Để $\rho$ và $\rho'$ tương đương, điều kiện cần và đủ là $L(\rho)$ và $L(\rho')$ tương đương.
 
 Đây là một trường hợp đặc biệt của Hệ quả 4.
 
-#### Hệ quả 6 {#lie-iii-s6-prop-13-cor-6 .statement}
+#### Hệ quả 6 {#lie-iii-s6-prop-13-cor-6 .statement tag=0AFL}
 
 Giả sử rằng $G$ là hữu hạn chiều. Cho $t \in U(G)$. Để $L_t$ (tương ứng $R_t$) bất biến phải (tương ứng trái), điều kiện cần và đủ là $t$ thuộc tâm của $U(G)$.
 
@@ -531,7 +531,7 @@ Giả sử rằng $G$ là hữu hạn chiều. Cho $t \in U(G)$. Để $L_t$ (t�
 
 ### 6. CÁC NHÓM CON NGUYÊN CHUẨN
 
-#### Bổ đề 3 {#lie-iii-s6-lem-3 .statement}
+#### Bổ đề 3 {#lie-iii-s6-lem-3 .statement tag=0AFM}
 
 Cho $G$ là một nhóm Lie, $H_1$ và $H_2$ là các nhóm con nguyên mà tôpô của chúng thừa nhận một cơ sở đếm được và $g \in G$. Khi đó
 
@@ -541,7 +541,7 @@ $$
 
 $\mathrm{Ad}\, g = T_e(\mathrm{Int}\, g)$. Do đó, bằng phép chuyển cấu trúc, $(\mathrm{Int}\, g)(H_1)$ có đại số Lie $(\mathrm{Ad}\, g)(L(H_1))$. Vì $H_1$ và $H_2$ có các cơ sở đếm được, nói rằng các tập hợp $H_2$ và $(\mathrm{Int}\, g)(H_1)$ bằng nhau cũng chính là nói rằng các nhóm con nguyên $H_2$ và $(\mathrm{Int}\, g)(H_1)$ bằng nhau (no. 2, Hệ quả 3 của Mệnh đề 3). Khi đó bổ đề suy ra từ Định lý 2 (i).
 
-#### Mệnh đề 14 {#lie-iii-s6-prop-14 .statement}
+#### Mệnh đề 14 {#lie-iii-s6-prop-14 .statement tag=0AFN}
 
 Cho $G$ là một nhóm Lie và $H$ là một nhóm con nguyên mà tôpô của nó thừa nhận một cơ sở đếm được. Các điều kiện sau là tương đương:
 (i) $H$ là chuẩn tắc trong $G$;
@@ -554,7 +554,7 @@ Sự tương đương (i) $\Leftrightarrow$ (ii) suy ra từ Bổ đề 3. Nếu
 
 Giả sử rằng $G$ đơn liên và rằng $L(H)$ là một iđêan có đối chiều hữu hạn trong $L(G)$. Theo Định lý 3 của no. 3, tồn tại một nhóm Lie đơn liên $G'$ sao cho $L(G')$ đẳng cấu với $L(G)/L(H)$. Tồn tại một cấu xạ liên tục $f$ của $L(G)$ lên $L(G')$ có hạt nhân $L(H)$. Theo Định lý 1 của no. 1, tồn tại một cấu xạ $\phi$ của $G$ vào $G'$ sao cho $L(\phi) = f$. Cấu xạ này là một phép chìm và do đó hạt nhân của nó $N$ là một nhóm con Lie của $G$ sao cho $L(N) = \mathrm{Ker}\, f = L(H)$. Do đó $H$ là thành phần đơn vị của $N$ và vì thế là một nhóm con Lie của G. Gọi $\psi$ là cấu xạ của $G/H$ vào $G'$ dẫn xuất từ $\phi$ khi chuyển qua thương. Cấu xạ này là étale; vì G đơn liên, $\psi$ là một đẳng cấu của $G/H$ lên $G'$.
 
-#### Hệ quả 1 {#lie-iii-s6-prop-14-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s6-prop-14-cor-1 .statement tag=0AFO}
 
 *Cho G là một nhóm Lie đơn liên hữu hạn chiều. Cho m, h là các đại số Lie con của L(G) sao cho L(G) là tích nửa trực tiếp của m bởi h. Cho M, H là các đại số con nguyên tương ứng của G. Khi đó M và H là các nhóm con Lie đơn liên của G và, như một nhóm Lie, G là tích nửa trực tiếp của M bởi H.*
 
@@ -566,7 +566,7 @@ $$
 
 và do đó $\pi \circ \theta = \mathrm{Id}_{G/H}$. Theo no. 1, Hệ quả 1 của Mệnh đề 1, $\theta(G/H) = M$. Theo Mệnh đề 8 của § 1, no. 4, M là một nhóm con Lie của G và nhóm Lie G là tích nửa trực tiếp của M bởi H.
 
-#### Hệ quả 2 {#lie-iii-s6-prop-14-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s6-prop-14-cor-2 .statement tag=0AFP}
 
 *Cho G là một nhóm Lie liên thông đơn liên thông hữu hạn chiều, H là một nhóm con Lie liên thông chuẩn tắc của G và $\pi$ là cấu xạ chính tắc của G lên G/H.
 
@@ -603,7 +603,7 @@ Mệnh đề (ii) là hiển nhiên. Mệnh đề (iii) suy ra từ (i) và (ii)
 
 Các kết luận của Hệ quả 2 không còn nhất thiết đúng khi G là vô hạn chiều hoặc khi H không chuẩn tắc (Các Bài tập 8 và 15).
 
-#### Hệ quả 3 {#lie-iii-s6-prop-14-cor-3 .statement}
+#### Hệ quả 3 {#lie-iii-s6-prop-14-cor-3 .statement tag=0AFQ}
 
 *Cho G là một nhóm Lie liên thông hữu hạn chiều và H là một nhóm con Lie liên thông chuẩn tắc của G. Cấu xạ chính tắc của $\pi_1(H)$ vào $\pi_1(G)$ là đơn ánh.*
 
@@ -611,7 +611,7 @@ Gọi $G_1$ là phủ phổ quát của G và $\lambda$ là ánh xạ chính t�
 
 ### 7. NGHIỆM NGUYÊN CỦA CÁC DẠNG VI PHÂN VỚI GIÁ TRỊ TRONG MỘT ĐẠI SỐ LIE
 
-#### Mệnh đề 15 {#lie-iii-s6-prop-15 .statement}
+#### Mệnh đề 15 {#lie-iii-s6-prop-15 .statement tag=0AFR}
 
 *Cho G là một nhóm Lie, M là một đa tạp lớp $C^r$ ($r \geq 2$) và $\alpha$ là một dạng vi phân lớp $C^{r-1}$ bậc 1 trên M với giá trị trong $L(G)$, sao cho $d\alpha + [\alpha]^2 = 0$. Giả sử rằng M đơn liên thông. Với mọi $x \in M$ và mọi $s \in G$, tồn tại một và chỉ một ánh xạ f lớp $C^{r-1}$ từ M vào G sao cho $f(x) = s$ và $f^{-1} \cdot df = \alpha$.
 
@@ -619,19 +619,19 @@ Tính duy nhất của f suy ra từ § 3, no. 17, Hệ quả 2 của Mệnh đ�
 
 ### 8. CHUYỂN TỪ CÁC LUẬT TÁC ĐỘNG VÔ CÙNG BÉ SANG CÁC LUẬT TÁC ĐỘNG
 
-#### Bổ đề 4 {#lie-iii-s6-lem-4 .statement}
+#### Bổ đề 4 {#lie-iii-s6-lem-4 .statement tag=0AFS}
 
 *Cho G là một nhóm tôpô liên thông, X là một không gian tôpô Hausdorff và $f_1, f_2$ là các luật tác động trái (resp. phải) của G trên X sao cho, với mọi $x \in X$, các ánh xạ* s \mapsto f_1(s, x),\ s \mapsto f_2(s, x) \text{ từ } G \text{ vào } X \text{ là liên tục. Giả sử rằng tồn tại một lân cận } V \text{ của } \{e\} \times X \text{ trong } G \times X \text{ sao cho } f_1 \text{ và } f_2 \text{ trùng nhau trên } V. \text{ Khi đó } f_1 = f_2.
 
 Gọi $x \in X$ và $A$ là tập hợp các $g \in G$ sao cho $f_1(g, x) = f_2(g, x)$. Khi đó $A$ đóng trong $G$. Mặt khác, cho $g \in A$; ta viết $y = f_1(g, x) = f_2(g, x)$. Tồn tại một lân cận $U$ của $e$ trong $G$ sao cho $f_1(t, y) = f_2(t, y)$ với $t \in U$, nói cách khác sao cho $f_1(t', x) = f_2(t', x)$ với $t' \in Ug$ (resp. $gU$). Vậy $A$ mở trong $G$ và do đó $A = G$.
 
-#### Mệnh đề 16 {#lie-iii-s6-prop-16 .statement}
+#### Mệnh đề 16 {#lie-iii-s6-prop-16 .statement tag=0AFT}
 
 Cho G là một nhóm Lie liên thông, X là một đa tạp Hausdorff lớp C^r và $f_1, f_2$ là các luật tác động trái (resp. phải) lớp C^r của G trên X. Nếu các luật tác động vô cùng bé liên kết với $f_1$ và $f_2$ bằng nhau, thì $f_1 = f_2$.
 
 Theo § 4, no. 7, Hệ quả của Mệnh đề 11, tồn tại một lân cận V của \{e\} \times X trong G \times X sao cho $f_1$ và $f_2$ trùng nhau trên V. Do đó $f_1 = f_2$ (Bổ đề 4).
 
-#### Bổ đề 5 {#lie-iii-s6-lem-5 .statement}
+#### Bổ đề 5 {#lie-iii-s6-lem-5 .statement tag=0AFU}
 
 Cho G là một nhóm tôpô đơn liên thông, X là một không gian tôpô Hausdorff, U là một lân cận mở của e trong G và \psi là một ánh xạ liên tục từ U \times X vào X sao cho \psi(e, x) = x và \psi(s, \psi(t, x)) = \psi(st, x) với mọi x \in X và mọi s, t trong U sao cho st \in U. Gọi W là một lân cận mở liên thông đối xứng của e sao cho W^3 \subset U. Tồn tại một và chỉ một luật tác động trái liên tục \psi' của G trên X sao cho \psi' và \psi trùng nhau trên W \times X. Nếu G là một nhóm Lie và X là một đa tạp lớp C^r và \psi thuộc lớp C^r, thì \psi' thuộc lớp C^r.
 
@@ -641,7 +641,7 @@ $$ f(u_1u_2u_3) = f(u_1)f(u_2)f(u_3) $$
 
 với u_1, u_2, u_3 trong W. Áp dụng Bổ đề 1 của no. 1, ta thu được một cấu xạ f' từ G vào P kéo dài f|W. Đặt \psi'(g, x) = f'(g)(x) với mọi (g, x) \in G \times X. Khi đó \psi' là một luật tác động trái của G trên X trùng với \psi trên W \times X. Vì \psi'(g, \psi'(g', x)) = \psi'(gg', x) với (g, g', x) \in G \times G \times X, tính liên tục của \psi trên W \times X kéo theo tính liên tục của \psi' trên gW \times X với mọi g \in G. Do đó \psi' là liên tục. Nếu \psi thuộc lớp C^r, ta cũng thấy tương tự rằng \psi' thuộc lớp C^r.
 
-#### Định lý 5 {#lie-iii-s6-thm-5 .statement}
+#### Định lý 5 {#lie-iii-s6-thm-5 .statement tag=0AFV}
 
 Cho G là một nhóm Lie đơn liên thông, X là một đa tạp compact lớp C^r (r \geq 2) và a \mapsto D_a là một luật tác động vô cùng bé trái (resp. phải) lớp C^{r-1} của L(G) trên X. Tồn tại một và chỉ một luật tác động trái (resp. phải) lớp C^{r-1} của G sao cho luật tác động vô cùng bé liên kết là a \mapsto D_a.
 
@@ -649,13 +649,13 @@ Tính duy nhất suy ra từ Mệnh đề 16. Theo § 4, no. 7, Hệ quả 1 c�
 
 ### 9. ÁNH XẠ MŨ TRONG NHÓM TUYẾN TÍNH
 
-#### Mệnh đề 17 {#lie-iii-s6-prop-17 .statement}
+#### Mệnh đề 17 {#lie-iii-s6-prop-17 .statement tag=0AFW}
 
 Cho Δ là tập hợp các z ∈ C sao cho −π < J(z) < π và Δ' là tập hợp các z ∈ C không thực ≤ 0. Gọi E là một không gian đầy đủ khả chuẩn trên C và A (resp. A') là tập hợp các x ∈ L(E) mà phổ Sp(x) được chứa trong Δ (resp. Δ'). Khi đó A (resp. A') là một tập con mở của L(E) (resp. GL(E)) và các ánh xạ exp: A → A' và log: A' → A (Spectral Theories, Chương I, § 4, no. 9) là các đẳng cấu nghịch đảo của các đa tạp giải tích.
 
 Điều này suy ra từ Spectral Theories, Chương I, § 4, Mệnh đề 10 và no. 9.
 
-#### Định lý 6 {#lie-iii-s6-thm-6 .statement}
+#### Định lý 6 {#lie-iii-s6-thm-6 .statement tag=0AFX}
 
 Cho E là một không gian Hilbert thực hoặc phức và U là nhóm unita của E.
 
@@ -673,13 +673,13 @@ Giả sử K = C. Theo ký hiệu của Mệnh đề 17, H' là tập hợp các
 
 Giả sử K = R. Cho Ē là không gian Hilbert phức hoá của E và J là ánh xạ ξ + iη ↦ ξ − iη (với ξ, η trong E) từ Ē vào Ē. Cho Ũ, Ũ', Ũ lần lượt là các tập hợp được định nghĩa cho Ē như H, H', U đã được định nghĩa cho E. Khi đó H (tương ứng H', U) được đồng nhất với tập hợp các x ∈ Ũ (tương ứng Ũ', Ũ) sao cho JxJ^{-1} = x. Khi đó các tính chất (ii), (iii) và (iv) suy ra dễ dàng từ (i) và các tính chất tương tự trong trường hợp phức.
 
-#### Mệnh đề 18 {#lie-iii-s6-prop-18 .statement}
+#### Mệnh đề 18 {#lie-iii-s6-prop-18 .statement tag=0AFY}
 
 Cho E là một không gian khả chuẩn đầy đủ trên C, v ∈ L(E) và g = exp v. Giả sử rằng Sp(v) không chứa điểm nào trong các điểm 2iπn với n ∈ Z − {0}. Khi đó, với mọi x ∈ E, các điều kiện vx = 0 và gx = x là tương đương.
 
 Điều này suy ra từ Bổ đề 2 của no. 4, áp dụng cho hàm z ↦ e^z − 1.
 
-#### Hệ quả 1 {#lie-iii-s6-prop-18-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s6-prop-18-cor-1 .statement tag=0AFZ}
 
 *Cho E là một không gian khả chuẩn đầy đủ trên $\mathbf{C}$ và F là không gian các ánh xạ n-tuyến tính liên tục từ $E^n$ vào E. Với mọi $v \in \mathscr{L}(E)$, cho $\sigma(v)$ là phần tử của $\mathscr{L}(F)$ được xác định bởi*
 
@@ -703,7 +703,7 @@ $$
 
 (no. 4, Hệ quả 3 của Mệnh đề 10). Theo Mệnh đề 18, khi đó chỉ cần chứng minh rằng $\mathrm{Sp}\,\sigma(u)$ không giao với $2i\pi(\mathbf{Z} - \{0\})$. Nhưng điều này suy ra từ bổ đề sau đây:
 
-#### Bổ đề 6 {#lie-iii-s6-lem-6 .statement}
+#### Bổ đề 6 {#lie-iii-s6-lem-6 .statement tag=0AG0}
 
 *Nếu $v \in \mathscr{L}(E)$, thì $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$, trong đó tổng gồm $n+1$ hạng.*
 
@@ -718,14 +718,14 @@ $$
 
 Khi đó $\sigma(v) = \sum_{i=0}^n v_i$ và các $v_i$ là hoán vị được từng đôi một. Cho A là đại số con đóng toàn phần của $\mathscr{L}(F)$ sinh bởi các $v_i$; nó là giao hoán (*Spectral Theories*, Chương I, § 1, no. 4) và $\mathrm{Sp}_{\mathscr{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (*Spectral Theories*, Chương I, § 3, Mệnh đề 3 (ii)). Bây giờ, nếu $\lambda \in \mathbf{C}$ sao cho $v - \lambda$ khả nghịch, thì rõ ràng các $v_i - \lambda_i$ là khả nghịch và do đó $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ với mọi $i$.
 
-#### Hệ quả 2 {#lie-iii-s6-prop-18-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s6-prop-18-cor-2 .statement tag=0AG1}
 
 *Cho E là một đại số khả chuẩn đầy đủ trên $\mathbf{C}$ và $w \in \mathscr{L}(E)$. Giả sử rằng mọi $z \in \mathrm{Sp}\,w$ đều thoả mãn $|\mathscr{J}(z)| < \frac{2\pi}{3}$. Các điều kiện sau là tương đương:*
 (i) *w là một đạo hàm của E;*
 (ii) *exp w là một tự đẳng cấu của E.*
 Điều này suy ra từ Hệ quả 1 với $n = 2$ và $f$ là phép nhân của E.
 
-#### Mệnh đề 19 {#lie-iii-s6-prop-19 .statement}
+#### Mệnh đề 19 {#lie-iii-s6-prop-19 .statement tag=0AG2}
 
 Cho E là một không gian khả chuẩn đầy đủ trên $\mathbf{C}$, $v \in \mathscr{L}(E)$ và $g = \exp v$. Giả sử rằng mọi $z \in \mathrm{Sp}\, v$ đều thoả mãn $-\pi < \mathscr{J}(z) < \pi$. Khi đó, với mọi không gian con vectơ đóng $E'$ của $E$, các điều kiện $v(E') \subset E'$ và $g(E') = E'$ là tương đương.
 
@@ -737,7 +737,7 @@ $$
 
 là liên thông. Khi đó $\exp Q$ là lồi đa thức (*Spectral Theories*, Chương I, § 3, Hệ quả 2 của Mệnh đề 9) và do đó hàm $\log$, được xác định trên $\Delta'$, là giới hạn trong $\mathscr{O}(\exp Q)$ của các hàm đa thức (*Spectral Theories*, Chương I, § 4, Mệnh đề 3). Do đó $v = \log g$ là giới hạn trong $\mathscr{L}(E)$ của các phần tử có dạng $P(g)$, trong đó $P$ là một đa thức (*Spectral Theories*, Chương I, § 4, Định lý 3). Vì $P(g)(E') \subset E'$, suy ra rằng $v(E') \subset E'$.
 
-#### Hệ quả {#lie-iii-s6-n9-cor-1 .statement}
+#### Hệ quả {#lie-iii-s6-n9-cor-1 .statement tag=0AG3}
 
 Cho E là một không gian chuẩn đầy đủ trên $\mathbf{C}$, $v \in \mathscr{L}(E)$ và $g = \exp v$. Giả sử rằng mọi $z \in \mathrm{Sp}\, v$ thỏa mãn $-\frac{\pi}{2} < \mathscr{J}(z) < \frac{\pi}{2}$. Khi đó, với mọi không gian con vectơ đóng M của $\mathscr{L}(E)$, các điều kiện $gMg^{-1} = M$ và $[v, M] \subset M$ là tương đương.
 
@@ -745,7 +745,7 @@ Cho E là một không gian chuẩn đầy đủ trên $\mathbf{C}$, $v \in \mat
 
 ### 10. PHỨC HÓA CỦA MỘT NHÓM LIE THỰC HỮU HẠN CHIỀU
 
-#### Bổ đề 7 {#lie-iii-s6-lem-7 .statement}
+#### Bổ đề 7 {#lie-iii-s6-lem-7 .statement tag=0AG4}
 
 Cho B là một nhóm, A là một nhóm con chuẩn tắc của B, C là nhóm $B/A$ và $i : A \to B$ và $p : B \to C$ là các cấu xạ chính tắc. Cho $A'$ là một nhóm và $f$ là một đồng cấu của A vào $A'$. Cho $\omega$ là một cấu xạ của B vào nhóm tự đẳng cấu của $A'$. Giả sử rằng, với $a \in A'$, $a' \in A'$, $b \in B$,
 
@@ -826,7 +826,7 @@ g(b)i'(a')g(b)^{-1} = r(b)r(a')r(b)^{-1} = r(ba'b^{-1})
 = r(\omega(b)a') = i'(\omega(b)a').
 $$
 
-#### Mệnh đề 20 {#lie-iii-s6-prop-20 .statement}
+#### Mệnh đề 20 {#lie-iii-s6-prop-20 .statement tag=0AG5}
 
 *Cho G là một nhóm Lie thực hữu hạn chiều.*
 
@@ -903,11 +903,11 @@ $$
 $$
 và do đó $\psi' \circ \tilde{i} = \psi \circ \tilde{i}$. Vì $\tilde{G}$ được sinh bởi $\tilde{i}(\tilde{F})$ và $\gamma(G)$, nên $\psi' = \psi$.
 
-#### Định nghĩa 4 {#lie-iii-s6-def-4 .statement}
+#### Định nghĩa 4 {#lie-iii-s6-def-4 .statement tag=0AG6}
 
 $(G, \gamma)$, hay đơn giản là $\tilde{G}$, được gọi là phức hoá phổ quát của $G$.
 
-#### Nhận xét {#lie-iii-s6-n10-rem-1 .statement}
+#### Nhận xét {#lie-iii-s6-n10-rem-1 .statement tag=0AG7}
 
 (1) Cho $(\tilde{G}, \gamma)$ là phức hóa phổ quát của $G$. Gọi $G_0$ (tương ứng $\tilde{G}_0$) là thành phần đơn vị của $G$ (tương ứng của $\tilde{G}$). Theo chứng minh của Mệnh đề 20, $(\tilde{G}_0, \gamma|G_0)$ là phức hóa phổ quát của $G_0$ và cấu xạ hợp thành
 $$

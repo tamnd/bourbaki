@@ -28,7 +28,7 @@ subsections:
       pdf_page: 110
 statements: 9
 exercises: 5
-content_sha256: fe97869863b496258bfecdba459f720c44ece148ed6553df1931ec3d93da1ed8
+content_sha256: 5e8d465a4786f6f31dc3e430f3c43d2db0ccc0bd3bc1c1d9911c30fc055c2d36
 translated_from: content/en/top/VIII/01_s1_complex_numbers_quaternions.md
 source_content_sha256: 553535497dc7d86b3ebe016a77f3f220a1985737fb41450839e4f7c2c5d04e44
 translation_model: gpt-5-6-mini
@@ -44,13 +44,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Đa thức $X^2 + 1$ không có nghiệm trong $\mathbf{R}$, vì $x^2 + 1 \geq 1$ với mọi $x \in \mathbf{R}$; do đó nó là bất khả quy trên $\mathbf{R}$. [Đây là một trường hợp riêng của kết quả tương tự áp dụng cho mọi trường có thứ tự.]
 
-#### Định nghĩa 1 {#top-viii-s1-def-1 .statement}
+#### Định nghĩa 1 {#top-viii-s1-def-1 .statement tag=0BZV}
 
 *Trường* $\mathbf{R}[X]/(X^2 + 1)$ *được gọi là trường các số phức và được ký hiệu là* $\mathbf{C}$. *Ảnh chính tắc của* $X$ *trong* $\mathbf{C}$ *được ký hiệu là* $i$, *do đó* $\mathbf{C}$ *thu được từ trường* $\mathbf{R}$ *bằng phép nối đại số nghiệm* $i$ *của đa thức* $X^2 + 1$. *Các phần tử của* $\mathbf{C}$ *được gọi là các số phức*.
 
 Về phương diện đại số, tầm quan trọng của trường $\mathbf{C}$ là do định lý cơ bản sau đây:
 
-#### Định lý 1 {#top-viii-s1-thm-1 .statement}
+#### Định lý 1 {#top-viii-s1-thm-1 .statement tag=0BZW}
 
 (d'Alembert-Gauss). *Trường* $\mathbf{C}$ *các số phức là đóng đại số*.
 
@@ -64,11 +64,11 @@ tiến tới $+1$ khi $x$ tiến tới $+\infty$ hoặc $-\infty$. Do đó tồn
 
 và do đó theo định lý Bolzano (Chương IV, § 6, no. 1, Định lý 2), $f$ có ít nhất một nghiệm trong $[—a, a]$.
 
-#### Nhận xét 1 {#top-viii-s1-n1-rem-1 .statement}
+#### Nhận xét 1 {#top-viii-s1-n1-rem-1 .statement tag=0BZX}
 
 Định lý 1 có thể được chứng minh mà không cần viện đến lý thuyết các trường có thứ tự, bằng cách sử dụng các tính chất của tôpô của trường $\mathbf{C}$, sẽ được định nghĩa dưới đây (no. 2); xem § 2, Bài tập 2 và cả phần của bộ sách này dành cho tôpô đại số, trong đó định lý d’Alembert-Gauss sẽ xuất hiện như một hệ quả của các kết quả về bậc của một ánh xạ.
 
-#### Nhận xét 2 {#top-viii-s1-n1-rem-2 .statement}
+#### Nhận xét 2 {#top-viii-s1-n1-rem-2 .statement tag=0BZY}
 
 Vì $\mathbf{C}$ có bậc 2 trên $\mathbf{R}$, suy ra rằng $\mathbf{C}$, tới đẳng cấu, là mở rộng đại số duy nhất của $\mathbf{R}$ khác với chính $\mathbf{R}$, và không có trường nào được chứa trong $\mathbf{C}$ chứa $\mathbf{R}$, ngoài $\mathbf{R}$ và $\mathbf{C}$.
 
@@ -140,7 +140,7 @@ $$
 
 Ta biết từ Chương III, § 6, no. 7 rằng tôpô cảm sinh trên nhóm nhân $\mathbf{C}^*$ của các số phức khác không tương thích với cấu trúc nhóm của $\mathbf{C}^*$. Vì $\mathbf{C}^*$ là mở trong $\mathbf{C}$, suy ra rằng $\mathbf{C}^*$ là một nhóm tôpô địa phương compact (Chương I, § 9, no. 7, Mệnh đề 13) và do đó đầy đủ (đối với cấu trúc đều nhân; xem Chương III, § 6, no. 8, Mệnh đề 8). Nhóm nhân $\mathbf{R}_+^*$ của các số thực $> 0$ là một nhóm con đóng của $\mathbf{C}^*$. Một nhóm con khác là tập hợp $\mathbf{U}$ gồm các số phức có giá trị tuyệt đối bằng 1, được đồng nhất với đường tròn đơn vị $S_1$ của $\mathbf{R}^2$, và do đó là một nhóm compact. Hơn nữa:
 
-#### Mệnh đề 1 {#top-viii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#top-viii-s1-prop-1 .statement tag=0BZZ}
 
 \*Nhóm tôpô $\mathbf{C}^*$ đẳng cấu với tích của các nhóm tôpô $\mathbf{R}^*$ và $\mathbf{U}$.\*
 
@@ -177,21 +177,21 @@ $$
 
 suy ra rằng tập hợp tất cả các quaternion có chuẩn bằng 1, đồng nhất với mặt cầu $S_3$, tạo thành một nhóm con compact của nhóm nhân $\mathbf{H}^*$ gồm các quaternion khác không.
 
-#### Mệnh đề 2 {#top-viii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#top-viii-s1-prop-2 .statement tag=0C00}
 
 Nhóm nhân $\mathbf{H}^*$ gồm các quaternion khác không là một nhóm tôpô đẳng cấu với tích của các nhóm con $\mathbf{R}_+^*$ và $S_3$.
 
 Mọi quaternion $x / o$ đều có thể viết dưới dạng $x \cdot z$ trong đó $z$ là một quaternion có chuẩn bằng 1; vì $\|xx'\| = \|x\|\cdot\|x'\|$, ánh xạ $x \to (\|x\|, x_1, x_2)$ từ $H^*$ lên $\mathbf{R}_+^* \times S_2$ là một đẳng cấu của các cấu trúc nhóm, và theo Chương VI, § 2, no. 2, Mệnh đề 2, nó là một đồng cấu từ $H^*$ lên $\mathbf{R}_+^* \times S_2$.
 
-#### Nhận xét 1 {#top-viii-s1-n4-rem-1 .statement}
+#### Nhận xét 1 {#top-viii-s1-n4-rem-1 .statement tag=0C01}
 
 Bằng cách sử dụng các hệ thức $\|x + y\| = \|x\| + \|y\|$ và $\|xy\| = \|x\|\cdot\|y\|$ ta có thể chứng minh trực tiếp, như đối với trường các số phức trong no. 2, rằng tôpô của $\mathbf{R}^4$ tương thích với cấu trúc vành chia của $H$ (cf. Chương IX, § 3, no. 2).
 
-#### Nhận xét 2 {#top-viii-s1-n4-rem-2 .statement}
+#### Nhận xét 2 {#top-viii-s1-n4-rem-2 .statement tag=0C02}
 
 Từ những gì đã chứng minh, suy ra rằng các mặt cầu $S_1$ và $S_n$ có thể mang một cấu trúc nhóm tương thích với tôpô của chúng. Sau này ta sẽ thấy rằng, với mỗi số nguyên $n$ khác 1 và 3, không tồn tại cấu trúc nhóm nào trên $S_n$ tương thích với tôpô của $S_n$.
 
-#### Nhận xét 3 {#top-viii-s1-n4-rem-3 .statement}
+#### Nhận xét 3 {#top-viii-s1-n4-rem-3 .statement tag=0C03}
 
 Mỗi điểm của nhóm $S_2$ đều có một lân cận đồng phôi với $\mathbf{R}^3$ (chương VI, § 2, no. 4, Mệnh đề 5), nhưng $S_4$ không địa phương đẳng cấu với $\mathbf{R}^3$; vì nếu có thì nó sẽ Abel, do nó liên thông (chương VII, § 2, no. 2, Định lý 1), và điều này không đúng, vì $i$ và $j$ thuộc $S_3$ và $ij \neq ji$ (xem chương V, § 3).
 

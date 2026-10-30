@@ -33,9 +33,9 @@ subsections:
       pdf_page: 76
 statements: 26
 exercises: 5
-content_sha256: 23d5449bd43ce7d2488b70b9244db82b0180985ba9e172344776d027d0d49f54
+content_sha256: 41685d059f6506650fe30be4bb9aaa42ee74fe1e2fcd33588e0b6fbf15d06ff1
 translated_from: content/en/int/III/02_s2_support_of_a_measure.md
-source_content_sha256: 46c486b51ca243c057666628468799e401c5bc5336074d5902418d0aa50dca37
+source_content_sha256: 1e58e2cf7e28f71e344d5832fbb288579da1f287b87e4bdbaf8b730a89a6bea7
 translation_model: gpt-5.4
 translation_run: translate-vi-8186ee89
 glossary_version: 34
@@ -65,7 +65,7 @@ là một số đo trên $Y$, vì mọi hàm trong $\mathscr{K}(Y; \mathbf{C})$ 
 
 Tuy nhiên, ta có mệnh đề sau:
 
-#### Mệnh đề 1 {#int-iii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#int-iii-s2-prop-1 .statement tag=08MR}
 
 *Cho* $(Y_\alpha)_{\alpha \in A}$ *là một phủ mở của* $X$ *và giả sử trên mỗi không gian con* $Y_\alpha$, *đã cho một độ đo* $\mu_\alpha$, *sao cho với mọi cặp* $(\alpha, \beta)$, *các hạn chế của* $\mu_\alpha$ *và* $\mu_\beta$ *trên* $Y_\alpha \cap Y_\beta$ *là đồng nhất. Trong các điều kiện đó, tồn tại một và chỉ một độ đo* $\mu$ *trên* $X$ *mà hạn chế của nó trên* $Y_\alpha$ *bằng* $\mu_\alpha$ *với mọi chỉ số* $\alpha$.
 
@@ -94,7 +94,7 @@ Nhưng vì giá đỡ của $f g_i h_j$ được chứa trong $Y_{\alpha_i} \cap
 
 Còn lại là thấy rằng $\mu$ là một độ đo trên $X$; nay, mọi điểm của $X$ đều thừa nhận một lân cận compắc được chứa trong một trong các $Y_\alpha$; do đó kết luận suy ra ngay từ định nghĩa của $\mu$ và từ Mệnh đề 6 của §1, No. 3.
 
-#### Hệ quả (Nguyên lý địa phương hóa) {#int-iii-s2-n1-cor-1 .statement}
+#### Hệ quả (Nguyên lý địa phương hóa) {#int-iii-s2-n1-cor-1 .statement tag=08MS}
 
 — *Cho $\mu$ và $\nu$ là hai độ đo trên $X$, và cho $(Y_\alpha)$ là một họ các tập mở của $X$ sao cho, với mọi $\alpha$, các hạn chế trên $Y_\alpha$ của $\mu$ và $\nu$ là bằng nhau; khi đó các hạn chế của $\mu$ và $\nu$ trên $Y = \bigcup_\alpha Y_\alpha$ là bằng nhau.*
 
@@ -102,20 +102,20 @@ Còn lại là thấy rằng $\mu$ là một độ đo trên $X$; nay, mọi đi
 
 Cho $\mu$ là một độ đo trên một không gian địa phương compact $X$, và gọi $\mathscr{G}$ là tập hợp các tập mở $U \subset X$ sao cho hạn chế của $\mu$ lên $U$ là không; suy ra ngay từ nguyên lý địa phương hóa (No. 1, Hệ quả của Mệnh đề 1) rằng nếu $U_0$ là hợp của các tập $U \in \mathscr{G}$, thì chính $U_0$ cũng thuộc $\mathscr{G}$ và do đó là lớn nhất trong các tập thuộc $\mathscr{G}$.
 
-#### Định nghĩa 1 {#int-iii-s2-def-1 .statement}
+#### Định nghĩa 1 {#int-iii-s2-def-1 .statement tag=08MT}
 
 *Nếu $\mu$ là một độ đo trên một không gian địa phương compact $X$, người ta định nghĩa giá đỡ của $\mu$, ký hiệu là $\operatorname{Supp}(\mu)$, là tập hợp đóng bù với tập hợp lớn nhất trong các tập hợp mở của $X$ mà trên đó hạn chế của $\mu$ bằng không.*
 
 Nói rằng một điểm $x \in X$ không thuộc giá đỡ của $\mu$ có nghĩa là tồn tại một lân cận mở $V$ của $x$ sao cho hạn chế của $\mu$ trên $V$ bằng không; vì thế, nói rằng $x$ thuộc giá đỡ của $\mu$ có nghĩa là với *mọi* lân cận $V$ của $x$, tồn tại một hàm $f \in \mathscr{K}(X; \mathbf{C})$, có giá đỡ được chứa trong $V$, sao cho $\mu(f) \neq 0$.
 
-#### Ví dụ {#int-iii-s2-n2-exa-1 .statement}
+#### Ví dụ {#int-iii-s2-n2-exa-1 .statement tag=08MU}
 
 — 1) Để một độ đo trên $X$ là *không*, điều kiện cần và đủ là giá mang của nó *rỗng*.
 2) Giá mang của độ đo Lebesgue trên $\mathbf{R}$ là toàn bộ đường thẳng $\mathbf{R}$; vì nó khác rỗng và bất biến dưới mọi phép tịnh tiến.
 
 3) Trên khoảng $X = [0,1]$ của $\mathbf{R}$, xét một tập con trù mật đếm được, được sắp thành một dãy $(a_n)$, và gọi $\mu$ là độ đo được xác định bằng cách đặt khối lượng $2^{-n}$ tại điểm $a_n$ với mọi $n \geq 0$ (§ 1, No. 3, Ví dụ I). Giá của $\mu$ là toàn bộ $X$; thật vậy, cho $x$ là một điểm bất kỳ của $X$, $V$ là một lân cận của $x$, và $f$ là một hàm thực liên tục $\geq 0$ trên $X$, bằng 1 tại điểm $x$, mà giá được chứa trong $V$ (§ 1, No. 2, Bổ đề 1); tập hợp các $y \in V$ sao cho $f(y) > 0$ là mở trong $X$, vì thế chứa một điểm $a_n$, do đó $\mu(f) \geq f(a_n)2^{-n} > 0$.
 
-#### Mệnh đề 2 {#int-iii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#int-iii-s2-prop-2 .statement tag=08MV}
 
 *Giá của một độ đo $\mu$ trùng với giá của độ đo $|\mu|$; nếu $\mu$ là thực, thì giá của nó là hợp của các giá của các độ đo $\mu^+$ và $\mu^-$.*
 
@@ -123,13 +123,13 @@ Thật vậy, nếu hạn chế của $\mu$ trên một tập mở $U$ là khôn
 
 Chú ý rằng các giá của $\mu^+$ và $\mu^-$ có thể khác rỗng và *trùng nhau* (xem Ch. V, § 5, Exer. 5).
 
-#### Mệnh đề 3 {#int-iii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#int-iii-s2-prop-3 .statement tag=08MW}
 
 *Nếu $\mu$ và $\nu$ là hai độ đo trên một không gian compact địa phương $X$ sao cho $|\mu| \leq |\nu|$, thì $\mathrm{Supp}(\mu) \subset \mathrm{Supp}(\nu)$.*
 
 Thật vậy, nếu hạn chế của $\nu$ trên một tập mở bằng không, thì hạn chế của $\mu$ cũng vậy.
 
-#### Mệnh đề 4 {#int-iii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#int-iii-s2-prop-4 .statement tag=08MX}
 
 *Giá của tổng của hai độ đo được chứa trong hợp các giá của chúng.*
 
@@ -137,13 +137,13 @@ Thật vậy, nếu các hạn chế của hai độ đo trên một tập mở 
 
 Nếu $\mu$ và $\nu$ là hai độ đo *dương*, thì giá của $\lambda = \mu + \nu$ là *bằng* hợp của các giá của $\mu$ và $\nu$; thật vậy, nếu $x_0$ là một điểm của hợp ấy và $V$ là một lân cận bất kỳ của $x_0$, thì tồn tại một hàm liên tục $f \geq 0$ có giá được chứa trong $V$ và sao cho một trong hai số $\mu(f)$, $\nu(f)$ là $> 0$; *a fortiori*, $\lambda(f) = \mu(f) + \nu(f) > 0$.
 
-#### Mệnh đề 5 {#int-iii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#int-iii-s2-prop-5 .statement tag=08MY}
 
 *Giá của hạn chế của một độ đo $\mu$ lên một tập mở $U$ là vết trên $U$ của giá của $\mu$.*
 
 Mệnh đề là hiển nhiên từ các định nghĩa.
 
-#### Mệnh đề 6 {#int-iii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#int-iii-s2-prop-6 .statement tag=08MZ}
 
 *Tập hợp các độ đo trên một không gian compact địa phương $X$, mà giá của chúng được chứa trong một tập đóng $F$, là một không gian con tuyến tính đóng theo tôpô mờ của $\mathscr{M}(X; \mathbf{C})$.*
 
@@ -151,7 +151,7 @@ Thật vậy, đó là giao của các siêu phẳng đóng theo tôpô mờ có
 
 Giả sử $X$ *không compact*: với một bộ lọc $\Phi$ trên không gian $\mathscr{M}(X; \mathbf{C})$ các độ đo trên $X$, ta sẽ nói rằng giá của một độ đo $\mu$ *lùi ra vô hạn dọc theo* $\Phi$ nếu, với mọi tập con compact $K$ của $X$, tồn tại một tập $M \in \Phi$ sao cho $\mathrm{Supp}(\mu) \cap K = \varnothing$ đối với mọi độ đo $\mu \in M$.
 
-#### Mệnh đề 7 {#int-iii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#int-iii-s2-prop-7 .statement tag=08N0}
 
 — *Nếu $\Phi$ là một bộ lọc trên $\mathscr{M}(X; \mathbf{C})$ sao cho giá của $\mu$ lùi ra vô hạn dọc theo $\Phi$, thì $\mu$ hội tụ mơ hồ đến 0 theo $\Phi$.*
 
@@ -161,23 +161,23 @@ Cho $f$ là một hàm bất kỳ trong $\mathscr{K}(X; \mathbf{C})$ và $K$ là
 
 Theo định nghĩa, nếu giá của một hàm $f \in \mathscr{K}(X; \mathbf{C})$ *không giao* giá của một độ đo $\mu$, thì $\mu(f) = 0$; nhưng kết quả chính xác hơn sau đây là đúng:
 
-#### Mệnh đề 8 {#int-iii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#int-iii-s2-prop-8 .statement tag=08N1}
 
 — *Cho $\mu$ là một độ đo trên một không gian compact địa phương $X$. Với mọi hàm $f \in \mathscr{K}(X; \mathbf{C})$ bằng không trên $\operatorname{Supp}(\mu)$, ta có $\mu(f) = 0$.*
 
 Đặt $K = \operatorname{Supp}(f)$, $S = \operatorname{Supp}(\mu)$. Cho một số $\varepsilon > 0$, gọi $V$ là tập hợp các $x \in X$ sao cho $|f(x)| < \varepsilon$; $V$ là một tập mở chứa $S$ theo giả thiết, do đó $CS$ là một lân cận của tập compact $CV$. Suy ra tồn tại một ánh xạ liên tục $h$ từ $X$ vào $[0, 1]$, bằng 1 trên $CV$ và có giá được chứa trong $CS$ (§ 1, No. 2, Bổ đề 1). Vì giá của $fh$ không giao với $S$ nên $\mu(fh) = 0$. Mặt khác, $f = fh$ trên $K \cap CV$, và $|fh| \leq |f|$ trên $X$, do đó $|f - fh| \leq 2\varepsilon$ trên $X$, bởi lựa chọn $V$. Cuối cùng, nhận thấy rằng tồn tại một số $M_K$ sao cho $|\mu(g)| \leq M_K \|g\|$ với mọi hàm $g \in \mathscr{K}(X; \mathbf{C})$ mà giá của nó được chứa trong $K$; vì giá của $f - fh$ được chứa trong $K$, nên $|\mu(f - fh)| \leq 2M_K \varepsilon$ và do đó $|\mu(f)| = |\mu(f - fh)| \leq 2M_K \varepsilon$; vì $\varepsilon$ là tùy ý, $\mu(f) = 0$.
 
-#### Hệ quả 1 {#int-iii-s2-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#int-iii-s2-prop-8-cor-1 .statement tag=08N2}
 
 — *Nếu hai hàm $f, g$ trong $\mathscr{K}(X; \mathbf{C})$ bằng nhau trên $\operatorname{Supp}(\mu)$, thì $\mu(f) = \mu(g)$.*
 
-#### Hệ quả 2 {#int-iii-s2-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#int-iii-s2-prop-8-cor-2 .statement tag=08N3}
 
 — *Cho $\mu$ là một độ đo dương trên $X$; nếu $f \in \mathscr{K}(X; \mathbf{C})$ sao cho $f(x) \geq 0$ trên $\operatorname{Supp}(\mu)$, thì $\mu(f) \geq 0$.*
 
 Quả vậy, $f = |f|$ trên $\operatorname{Supp}(\mu)$, do đó $\mu(f) = \mu(|f|) \geq 0$ theo Hệ quả 1.
 
-#### Hệ quả 3 {#int-iii-s2-prop-8-cor-3 .statement}
+#### Hệ quả 3 {#int-iii-s2-prop-8-cor-3 .statement tag=08N4}
 
 — *Giả sử $\mu$ là một độ đo bị chặn trên $X$; nếu $f \in \mathscr{K}(X; \mathbf{C})$ sao cho $|f(x)| \leq a$ trên $\operatorname{Supp}(\mu)$, thì $|\mu(f)| \leq a \|\mu\|$.*
 
@@ -189,13 +189,13 @@ $$
 
 theo Hệ quả 2; khi đó kết luận suy ra từ công thức (13) của § 1, No. 6.
 
-#### Mệnh đề 9 {#int-iii-s2-prop-9 .statement}
+#### Mệnh đề 9 {#int-iii-s2-prop-9 .statement tag=08N5}
 
 — Cho $\mu$ là một độ đo dương trên $X$; nếu $f$ là một hàm trong $\mathscr{K}_+(X)$ sao cho $\mu(f) = 0$, thì $f$ bằng không trên $\mathrm{Supp}(\mu)$.
 
 Cho $x$ là một điểm của $X$ sao cho $f(x) > 0$; hãy chỉ ra rằng $x$ không thuộc $\mathrm{Supp}(\mu)$. Thật vậy, tồn tại một lân cận compắc $V$ của $x$ và một số $a > 0$ sao cho $f(y) \geq a$ trên $V$. Nếu $g$ là một hàm liên tục bất kỳ $\geq 0$ với giá đỡ được chứa trong $V$, hãy chỉ ra rằng $\mu(g) = 0$; thật vậy, nếu đặt $b = \|g\|$ thì $g \leq bf/a$, do đó $\mu(g) \leq b\mu(f)/a = 0$.
 
-#### Mệnh đề 10 {#int-iii-s2-prop-10 .statement}
+#### Mệnh đề 10 {#int-iii-s2-prop-10 .statement tag=08N6}
 
 — Cho $\mu$ là một độ đo trên một không gian compact địa phương $X$; với mọi hàm $g \in \mathscr{C}(X; \mathbf{C})$, giá của độ đo $g \cdot \mu$ là bao đóng $T$ của tập hợp các điểm $x \in \mathrm{Supp}(\mu)$ sao cho $g(x) \neq 0$.
 
@@ -205,11 +205,11 @@ Ngược lại, giả sử rằng hạn chế của $g \cdot \mu$ trên một l�
 
 Chú ý rằng $T$ được chứa trong giao của giá $S$ của $\mu$ và giá của $g$, nhưng không nhất thiết bằng giao này. Ví dụ, nếu $X = \mathbf{R}$, $\mu$ là độ đo Dirac tại điểm 0, và $g(x) = x$, thì $g \cdot \mu = 0$ mặc dù giao của các giá của $g$ và $\mu$ thu về điểm 0, do đó là khác rỗng.
 
-#### Hệ quả {#int-iii-s2-n3-cor-1 .statement}
+#### Hệ quả {#int-iii-s2-n3-cor-1 .statement tag=08N7}
 
 — Để độ đo $g \cdot \mu$ bằng không, điều kiện cần và đủ là $g$ bằng không trên giá của $\mu$.
 
-#### Mệnh đề 11 {#int-iii-s2-prop-11 .statement}
+#### Mệnh đề 11 {#int-iii-s2-prop-11 .statement tag=08N8}
 
 — Mọi độ đo có giá compact đều bị chặn.
 
@@ -217,7 +217,7 @@ Thật vậy, $|\mu|$ cũng là một độ đo có giá compact, do đó ta có
 
 ### 4. Các độ đo điểm. Các độ đo có giá hữu hạn
 
-#### Mệnh đề 12 {#int-iii-s2-prop-12 .statement}
+#### Mệnh đề 12 {#int-iii-s2-prop-12 .statement tag=08N9}
 
 — Cho $a_i$ ($1 \leq i \leq n$) là các điểm phân biệt trong một không gian compact địa phương $X$. Mọi độ đo trên $X$ mà giá của nó được chứa trong tập hợp các $a_i$ đều là một tổ hợp tuyến tính của các độ đo $\varepsilon_{a_i}$ ($1 \leq i \leq n$).
 
@@ -225,13 +225,13 @@ Thật vậy, một độ đo như thế $\mu$ bằng không trên mọi hàm $f
 
 Đặc biệt, mọi độ đo có giá hoặc rỗng hoặc thu về một điểm duy nhất $x$ đều có dạng $\alpha \varepsilon_x$, trong đó $\alpha$ là một số phức; một độ đo như vậy được gọi là một *độ đo điểm*; do đó mọi độ đo có giá hữu hạn đều là một tổng các độ đo điểm.
 
-#### Định lý 1 {#int-iii-s2-thm-1 .statement}
+#### Định lý 1 {#int-iii-s2-thm-1 .statement tag=08NA}
 
 — *Mọi độ đo* $\mu$ *trên một không gian địa phương compact* $X$ *đều thuộc bao đóng mờ của không gian vectơ* $V$ *gồm các độ đo có giá là một tập hữu hạn và được chứa trong* $\mathrm{Supp}(\mu)$.
 
 Chỉ cần chứng minh rằng $\mu$ trực giao với không gian con $V^\circ$ của $\mathscr{K}(X; \mathbf{C})$ trực giao với $V$ (TVS, II, §6, No. 3, Hệ quả 2 của Định lý 1), nghĩa là các hệ thức $\langle f, \varepsilon_a \rangle = 0$, trong đó $a$ chạy qua giá của $\mu$, kéo theo $\langle f, \mu \rangle = 0$; nhưng đó chính là Mệnh đề 8 của No. 3.
 
-#### Hệ quả 1 {#int-iii-s2-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#int-iii-s2-thm-1-cor-1 .statement tag=08NB}
 
 — *Mọi độ đo bị chặn* $\mu$ *trên* $X$ *đều thuộc bao đóng mờ của tập lồi* $A$ *gồm các độ đo có giá hữu hạn và được chứa trong giá của* $\mu$, *và có chuẩn* $\leq \| \mu \|$. *Hơn nữa, nếu* $\nu$ *hội tụ mờ đến* $\mu$ *trong khi vẫn thuộc* $A$, *thì* $\| \nu \|$ *hội tụ đến* $\| \mu \|$.
 
@@ -245,25 +245,25 @@ $$
 
 vì hàm $\nu \mapsto \| \nu \|$ là nửa liên tục dưới đối với tôpô mơ hồ (§1, No. 9, Hệ quả 4 của Mệnh đề 15), và kết luận suy ra từ sự kiện là $\| \nu \| \leq \| \mu \|$ với $\nu \in A$ theo định nghĩa.
 
-#### Hệ quả 2 {#int-iii-s2-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#int-iii-s2-thm-1-cor-2 .statement tag=08NC}
 
 — *Mọi độ đo bị chặn* $\mu$ *trên* $X$ *đều thuộc bao đóng mờ của tập các độ đo có giá hữu hạn và được chứa trong giá của* $\mu$ *và có chuẩn bằng* $\| \mu \|$.
 
 Ta có thể giả sử rằng $\mu \neq 0$. Gọi $V$ là một lân cận mở của 0 đối với tôpô mơ hồ; với mọi $\varepsilon$ sao cho $0 < \varepsilon < 1$, theo Hệ quả 1, tồn tại một độ đo $\nu_0$ có giá là hữu hạn và được chứa trong $\mathrm{Supp}(\mu)$ và sao cho $\nu_0 - \mu \in V$ và $\| \mu \| \geq \| \nu_0 \| \geq (1 - \varepsilon) \| \mu \|$. Đặt $\nu = (\| \mu \| / \| \nu_0 \|) \nu_0$, ta có $\| \nu \| = \| \mu \|$ và $\| \nu - \nu_0 \| \leq \| \mu \|$; do đó, với $\varepsilon$ đủ nhỏ, ta có $\nu - \mu \in V + V$, do đó suy ra kết luận.
 
-#### Hệ quả 3 {#int-iii-s2-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#int-iii-s2-thm-1-cor-3 .statement tag=08ND}
 
 *Mọi độ đo dương bị chặn $\mu$ trên $X$ đều thuộc bao đóng mơ hồ của tập lồi các độ đo dương có giá mang hữu hạn và được chứa trong giá mang của $\mu$ và có chuẩn bằng $\| \mu \|$.*
 
 Cùng một lập luận như trong Hệ quả 2 cho thấy rằng ta có thể chỉ cần chứng minh rằng $\mu$ thuộc bao đóng mờ của tập lồi $B$ gồm các độ đo dương có giá hữu hạn được chứa trong $\mathrm{Supp}(\mu)$ và có chuẩn $\leq \| \mu \|$. Lại nữa, chỉ cần thiết lập rằng $\mu$ thuộc tập cực của $B^\circ$, tập cực của $B$ *trong không gian* $\mathscr{K}(X; \mathbf{R})$ (TVS, II, §6, No. 3, Định lý 1); nhưng điều đó có nghĩa là với $f \in \mathscr{K}(X; \mathbf{R})$ thì các hệ thức $\langle f, \varepsilon_a \rangle \geq -1 / \| \mu \|$ với mọi $a \in \mathrm{Supp}(\mu)$ kéo theo $\langle f, \mu \rangle \geq -1$, điều này là một hệ quả của No. 3, Hệ quả 2 của Mệnh đề 8.
 
-#### Hệ quả 4 {#int-iii-s2-thm-1-cor-4 .statement}
+#### Hệ quả 4 {#int-iii-s2-thm-1-cor-4 .statement tag=08NE}
 
 *Trong không gian $\mathscr{M}(X; \mathbf{C})$, tập các độ đo điểm là toàn phần đối với tôpô hội tụ compact chặt* (§1, No. 10).
 
 Trên nón $\mathscr{M}_+(X)$, tôpô của sự hội tụ chặt chẽ compact đồng nhất với tôpô mơ hồ (§1, No. 10, Mệnh đề 18), và mọi độ đo trên $X$ đều có thể viết dưới dạng $\mu_1 - \mu_2 + i \mu_3 - i \mu_4$, trong đó các $\mu_j$ ($1 \leq j \leq 4$) là các độ đo dương; do đó kết luận suy ra từ Định lý 1.
 
-#### Mệnh đề 13 {#int-iii-s2-prop-13 .statement}
+#### Mệnh đề 13 {#int-iii-s2-prop-13 .statement tag=08NF}
 
 *Cho $\mu$ là một độ đo trên một không gian địa phương compact $X$. Để một điểm $x_0$ thuộc $\mathrm{Supp}(\mu)$, điều kiện cần và đủ là độ đo điểm $\varepsilon_{x_0}$ nằm trong bao đóng mơ hồ của tập các độ đo $g \cdot \mu$, trong đó $g$ chạy qua tập các hàm liên tục có giá compact sao cho $\| g \cdot \mu \| \leq 1$.*
 
@@ -287,7 +287,7 @@ $$
 
 Điều này chứng minh mệnh đề, vì $\| g \cdot \mu \| = \| (g_0 h) \cdot \mu \| \leq \| g_0 \cdot \mu \| = 1$.
 
-#### Hệ quả {#int-iii-s2-n4-cor-1 .statement}
+#### Hệ quả {#int-iii-s2-n4-cor-1 .statement tag=08NG}
 
 *Cho $\mu$ là một độ đo trên $X$. Để một độ đo $\nu$ trên $X$ thuộc bao đóng mờ của tập các độ đo $g \cdot \mu$, trong đó $g$ chạy qua $\mathscr{K}(X; \mathbf{C})$, điều kiện cần và đủ là $\operatorname{Supp}(\nu) \subset \operatorname{Supp}(\mu)$.*
 
@@ -295,7 +295,7 @@ Thật vậy, $\operatorname{Supp}(g \cdot \mu) \subset \operatorname{Supp}(\mu)
 
 ### 5. Các độ đo rời rạc
 
-#### Mệnh đề 14 {#int-iii-s2-prop-14 .statement}
+#### Mệnh đề 14 {#int-iii-s2-prop-14 .statement tag=08NH}
 
 *Để một độ đo $\mu$ trên một không gian compact địa phương $X$ là một độ đo rời rạc (§ 1, No. 3, Ví dụ I), điều kiện cần và đủ là $\operatorname{Supp}(\mu)$ là một không gian con đóng rời rạc của $X$.*
 

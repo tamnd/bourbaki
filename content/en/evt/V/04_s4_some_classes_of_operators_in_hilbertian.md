@@ -49,7 +49,7 @@ subsections:
       pdf_page: 315
 statements: 49
 exercises: 15
-content_sha256: ee802e365ad6ff3bd27880d86221ecb95c8b583929a8c55a0899358aecf40c22
+content_sha256: cb9870367ecf6e5e9e4940666c860653cc61494e1c8cc7bf56a66fd20a2556ef
 ---
 
 ## § 4. SOME CLASSES OF OPERATORS IN HILBERTIAN SPACES
@@ -58,7 +58,7 @@ Throughout this paragraph, $l_E$ denotes the identity mapping of a hilbertian sp
 
 ### 1. Adjoint
 
-#### Proposition 1 {#evt-v-s4-prop-1 .statement}
+#### Proposition 1 {#evt-v-s4-prop-1 .statement tag=080X}
 
 — Let E and F be two hilbertian spaces. For every mapping $u \in \mathscr{L}(E; F)$, there exists a unique mapping $u^* \in \mathscr{L}(F; E)$ such that
 
@@ -88,7 +88,7 @@ $$
 
 This mapping is bijective, semi-linear and isometric. But formula (1) translates as $\Phi_{u^*} = (\Phi_u)^*$, hence the proposition.
 
-#### Definition 1 {#evt-v-s4-def-1 .statement}
+#### Definition 1 {#evt-v-s4-def-1 .statement tag=080Y}
 
 — Let E and F be two hilbertian spaces. For every continuous linear mapping $u : E \to F$, the continuous linear mapping from F into E defined by formula (1) is called the adjoint of u and is denoted by $u^*$.
 
@@ -119,7 +119,7 @@ $$
 (u^{-1})^* = (u^*)^{-1} .
 $$
 
-#### Proposition 2 {#evt-v-s4-prop-2 .statement}
+#### Proposition 2 {#evt-v-s4-prop-2 .statement tag=080Z}
 
 *For every $u \in \mathscr{L}(E ; F)$, we have*
 
@@ -171,7 +171,7 @@ $$
 
 can be established in the same way as formula (12), on account of the definition of the scalar product in $\hat{S}^n(E)$ (V, p. 30, formula (15)) and in $\hat{\Lambda}^n(E)$ (V, p. 33, formula (26)).
 
-#### Remark 1 {#evt-v-s4-n1-rem-1 .statement}
+#### Remark 1 {#evt-v-s4-n1-rem-1 .statement tag=0810}
 
 Suppose the hilbertian space E does not reduce to 0. We identify $\mathscr{L}(K;E)$ with E by the mapping $u \mapsto u(1)$; in other words, the vector x of E is identified with the mapping $\lambda \mapsto \lambda.x$ from K into E. Then the adjoint of x is the mapping $x^*:E \to K$ given by $x^*(y) = \langle x|y \rangle$. In other words, $x \mapsto x^*$ is the canonical semi-linear mapping from E onto its dual (V, p. 15).
 
@@ -196,7 +196,7 @@ in conformity with the definition of the adjoint. We observe that $yx^*$ is the 
 
 Following Dirac $^1$, in most works of Mathematical Physics, the elements of E are represented by the symbol $|x\rangle$, those of E' by $\langle t|$. The scalar product is written as $\langle x|y \rangle = \langle x|.|y \rangle$ and the first rule of interdiction in the products excludes the combinations of the signs $|$ and $|<$, for example $|x\rangle|y\rangle$.
 
-#### Proposition 3 {#evt-v-s4-prop-3 .statement}
+#### Proposition 3 {#evt-v-s4-prop-3 .statement tag=0811}
 
 — Let E and F be two hilbertian spaces and $u \in \mathscr{L}(E;F)$. The following conditions are equivalent :
 
@@ -215,11 +215,11 @@ $
 
 An automorphism of the hilbertian space $E$ is also called a *unitary operator*, that is, an operator $u \in \mathscr{L}(E)$ satisfying $uu^* = u^*u = 1_E$.
 
-#### Remark 2 {#evt-v-s4-n1-rem-2 .statement}
+#### Remark 2 {#evt-v-s4-n1-rem-2 .statement tag=0812}
 
 — The relation $u^*u = 1_E$ does not characterize all the automorphisms of the hilbertian space $E$. For example, let $E = \ell^2(\mathbf{N})$ and let $u$ be defined by $u(x_n) = x_{n-1}$ for $n \geq 1$ and $u(x)_0 = 0$. We have $\|u(x)\| = \|x\|$ for all $x \in E$, that is, $u^*u = 1_E$, but $u$ is not surjective.
 
-#### Remark 3 {#evt-v-s4-n1-rem-3 .statement}
+#### Remark 3 {#evt-v-s4-n1-rem-3 .statement tag=0813}
 
 — The definition (1) of the adjoint $u^*$ can also be written as
 $$
@@ -236,13 +236,13 @@ $$
 
 ### 2. Partially isometric linear mappings
 
-#### Definition 2 {#evt-v-s4-def-2 .statement}
+#### Definition 2 {#evt-v-s4-def-2 .statement tag=0814}
 
 *Let $E$ and $F$ be two hilbertian spaces and $u \in \mathscr{L}(E; F)$. The orthogonal of the kernel of $u$ in $E$ is said to be the initial subspace of $u$ and the closure of the image of $u$ in $F$ is called the final subspace of $u$. The orthoprojector from $E$ (resp. $F$) onto the initial (resp. final) subspace of $u$ is called the initial (resp. final) orthoprojector of $u$.*
 
 Let $P$ be the initial subspace of $u$. Since $E$ is the direct sum of $P$ and of the kernel of $u$, we have $u(P) = u(E)$.
 
-#### Proposition 4 {#evt-v-s4-prop-4 .statement}
+#### Proposition 4 {#evt-v-s4-prop-4 .statement tag=0815}
 
 (i) *The initial (resp. final) subspace of $u^*$ is equal to the final (resp. initial) subspace of $u$.*
 
@@ -254,13 +254,13 @@ The relation $u(M) \subset M$ implies that $u(M)$ is orthogonal to $M^\circ$, an
 
 We remark that prop. 4 can be deduced from the general properties of the transpose (II, p. 51, cor. 2) in view of remark 3, V, p. 41.
 
-#### Definition 3 {#evt-v-s4-def-3 .statement}
+#### Definition 3 {#evt-v-s4-def-3 .statement tag=0816}
 
 *Let $E$ and $F$ be two hilbertian spaces. A mapping $u \in \mathscr{L}(E; F)$ is* said to be partially isometric if $\|u(x)\| = \|x\|$ for all $x$ belonging to the initial subspace of $u$.
 
 Let $u \in \mathscr{L}(E; F)$ and let $N$ be its kernel and $I$ its image. To say that $u$ is partially isometric is the same as saying that the linear mapping $\tilde{u}: E/N \to I$ deduced from $u$ is isometric (V, p. 13). Then the subspace $I$ of $F$ is complete, hence closed, and is the final subspace of $u$. Consequently, $u$ induces a hilbertian space isomorphism from the initial subspace of $u$ onto its final subspace.
 
-#### Proposition 5 {#evt-v-s4-prop-5 .statement}
+#### Proposition 5 {#evt-v-s4-prop-5 .statement tag=0817}
 
 *Let $u \in \mathscr{L}(E; F)$, let $P$ be its initial subspace and $Q$ be the final subspace. Let $p$ (resp. $q$) denote the initial (resp. final) orthoprojector of $u$. Assume that $u$ is partially isometric.*
 
@@ -278,7 +278,7 @@ $$
 
 If $x$ belongs to $P$, then $\langle u(x)|u(y) \rangle = \langle x|y \rangle$ by the definition of a partially isometric mapping; if $x$ belongs to the kernel $N$ of $u$, then $u(x) = 0$, hence $\langle u(x)|u(y) \rangle = 0$ and $\langle x|y \rangle = 0$ since $N$ and $P$ are orthogonal. Since $E = P \oplus N$, we have $\langle u^*u(x) - x|y \rangle = 0$ in all the cases, and so $u^*u$ is the orthoprojector $p$ from $E$ onto $P$. That $uu^* = q$ follows by interchanging $u$ and $u^*$ in the above.
 
-#### Proposition 6 {#evt-v-s4-prop-6 .statement}
+#### Proposition 6 {#evt-v-s4-prop-6 .statement tag=0818}
 
 *For every $u \in \mathscr{L}(E; F)$, the following conditions are equivalent :*
 
@@ -307,13 +307,13 @@ We have proved the equivalence of (i), (iii) and (v). Replacing $u$ by $u^*$, we
 
 ### 3. Normal endomorphisms
 
-#### Definition 4 {#evt-v-s4-def-4 .statement}
+#### Definition 4 {#evt-v-s4-def-4 .statement tag=0819}
 
 Let $E$ be a hilbertian space and $u \in \mathscr{L}(E)$. We say that $u$ is normal if it commutes with its adjoint $u^*$.
 
 For example, every automorphism $u$ of the hilbertian space $E$ is normal since we have $uu^* = u^*u = 1_E$.
 
-#### Proposition 7 {#evt-v-s4-prop-7 .statement}
+#### Proposition 7 {#evt-v-s4-prop-7 .statement tag=081A}
 
 For $u \in \mathscr{L}(E)$ to be normal, it is necessary and sufficient that $\|u(x)\| = \|u^*(x)\|$ for all $x \in E$.
 
@@ -326,13 +326,13 @@ $$
 \Phi(x, x) = \|u^*(x)\|^2 - \|u(x)\|^2 .
 $$
 
-#### Proposition 8 {#evt-v-s4-prop-8 .statement}
+#### Proposition 8 {#evt-v-s4-prop-8 .statement tag=081B}
 
 Suppose that $u \in \mathscr{L}(E)$ is normal. Let $N$ be the kernel of $u$ and $M$ the orthogonal of $N$ in $E$; let $m$ and $n$ be two positive integers such that $m + n \geq 1$. Then $N$ is the kernel of $u^m(u^*)^n$ and $M$ is both the initial and the final subspace of $u^m(u^*)^n$. In particular, $M$ is both the initial and the final subspace of $u$ and of $u^*$, and is stable under $u$ and $u^*$.
 
 Prop. 7 shows that $u$ and $u^*$ have the same kernel $N$. By prop. 4, (ii) of V, p. 41, the subspace $M$ of $E$ is stable under $u$ and $u^*$ since this is so for $N = M^\circ$, since $M \cap N = \{0\}$, the endomorphisms of $M$ induced by $u$ and $u^*$ are injective. Let $v = u^m(u^*)^n$; the preceding argument shows that the restriction of $v$ to $M$ (resp. $N$) is injective (resp. null), hence $N$ is the kernel of $v$. Consequently, $M = N^\circ$ is the initial subspace of $v$. By prop. 4, (i) of V, p. 41, the final subspace of $v$ is equal to the initial subspace of $v^*$. But $v^* = u^n(u^*)^m$ and so the initial subspace of $v^*$ is equal to $M$ by the preceding.
 
-#### Corollary {#evt-v-s4-n3-cor-1 .statement}
+#### Corollary {#evt-v-s4-n3-cor-1 .statement tag=081C}
 
 Let $\lambda \in K$. The following subspaces of $E$ are equal :
 a) the eigen subspace of $u$ relative to $\lambda$;
@@ -345,7 +345,7 @@ It is clear that $w = u - \lambda.1_E$ is a normal endomorphism of E, hence the 
 
 ### 4. Hermitian endomorphisms
 
-#### Definition 5 {#evt-v-s4-def-5 .statement}
+#### Definition 5 {#evt-v-s4-def-5 .statement tag=081D}
 
 *Let E be a hilbertian space and let* $u \in \mathscr{L}(E)$. *We say that u is hermitian if* $u^* = u$.
 
@@ -367,7 +367,7 @@ $$
 
 When $u$ is hermitian, we have the following result :
 
-#### Proposition 9 {#evt-v-s4-prop-9 .statement}
+#### Proposition 9 {#evt-v-s4-prop-9 .statement tag=081E}
 
 *For every hermitian endomorphism u of* E, *we have*
 
@@ -394,7 +394,7 @@ Let $a = \Phi(x, y)$; there exists a complex number $\lambda$ with absolute valu
 
 Evidently every hermitian endomorphism is normal. Conversely :
 
-#### Proposition 10 {#evt-v-s4-prop-10 .statement}
+#### Proposition 10 {#evt-v-s4-prop-10 .statement tag=081F}
 
 — Suppose K is C. Let $u \in \mathscr{L}(E)$. Then there exists a unique pair $(h_1, h_2)$ of hermitian endomorphisms of E, such that $u = h_1 + ih_2$. In order that u is normal, it is necessary and sufficient that $h_1$ and $h_2$ commute.
 
@@ -406,7 +406,7 @@ $$
 
 In addition, we have $h_1 h_2 - h_2 h_1 = \frac{i}{2}(uu^* - u^*u)$. This proves prop. 10.
 
-#### Proposition 11 {#evt-v-s4-prop-11 .statement}
+#### Proposition 11 {#evt-v-s4-prop-11 .statement tag=081G}
 
 — Let $p \in \mathscr{L}(E)$. In order that p is the orthoprojector from E onto a closed vector subspace of E, it is necessary and sufficient that $p^2 = p = p^*$.
 
@@ -414,7 +414,7 @@ Suppose $p^2 = p$. Let M be the image of p and N its kernel. E is the topologica
 
 ### 5. Positive endomorphisms
 
-#### Definition 6 {#evt-v-s4-def-6 .statement}
+#### Definition 6 {#evt-v-s4-def-6 .statement tag=081H}
 
 — Let E be a hilbertian space and $u \in \mathscr{L}(E)$. We say that u is positive, and write $u \geq 0$, if u is hermitian and if $\langle x|u(x) \rangle \geq 0$ for all $x \in E$.
 
@@ -428,7 +428,7 @@ implies that u is hermitian (V, p. 2, Remark), hence positive.
 
 Let $\mathscr{L}_+(E)$ denote the set of all positive elements of $\mathscr{L}(E)$; this is a proper pointed convex cone in the real vector space $\mathscr{L}(E)_{[\mathbf{R}]}$ underlying $\mathscr{L}(E)$. In order that u is positive, it is necessary and sufficient that the sesquilinear form $\Phi_u$ on $E \times E$ associated with u is positive hermitian. Given u and v in $\mathscr{L}(E)$, the relation $u - v \geq 0$ can also be written as $u \geq v$ or $v \leq u$; this is an order relation on $\mathscr{L}(E)_{[\mathbf{R}]}$ compatible with its real vector space structure.
 
-#### Proposition 12 {#evt-v-s4-prop-12 .statement}
+#### Proposition 12 {#evt-v-s4-prop-12 .statement tag=081I}
 
 — Let u be a hermitian (resp. positive) element of $\mathscr{L}(E)$ and let v be a continuous linear mapping from E into a hilbertian space F. Then $vuv^*$ is a hermitian (resp. positive) element of $\mathscr{L}(F)$.
 
@@ -442,7 +442,7 @@ for all $y \in F$, hence $vuv^* \geq 0$.
 
 Prop. 12 shows, in particular, that $vv^*$ is positive for all $v \in \mathscr{L}(E; F)$. Since, in particular, an orthoprojector $p$ satisfies $p = p^2 = pp^*$, it is positive.
 
-#### Remark 1 {#evt-v-s4-n5-rem-1 .statement}
+#### Remark 1 {#evt-v-s4-n5-rem-1 .statement tag=081J}
 
 For every hermitian $u$ in $\mathscr{L}(E)$, put $m(u) = \inf_{\|x\|=1} \langle x|u(x)\rangle$, $M(u) = \sup_{\|x\|=1} \langle x|u(x)\rangle$. If $E$ is not just 0, $m(u)$ and $M(u)$ are finite; moreover, $M(u)$ is the smallest real number $\lambda$ such that $u \leq \lambda \cdot 1_E$ and $m(u)$ the largest real number $\mu$ such that $u \geq \mu \cdot 1_E$. Clearly we have $m(-u) = -M(u)$ and $M(-u) = -m(u)$. It is clear that
 $$
@@ -454,7 +454,7 @@ $$
 $$
 \* For another proof of this formula when $K$ is $\mathbf{C}$, see prop. 14 of TS, I, § 6, No. 8. \*
 
-#### Remark 2 {#evt-v-s4-n5-rem-2 .statement}
+#### Remark 2 {#evt-v-s4-n5-rem-2 .statement tag=081K}
 
 Let $M$ and $N$ be two closed vector subspaces of $E$, and $p_M$ (resp. $p_N$) the orthoprojector from $E$ onto $M$ (resp. $N$). Then $M \subset N$ if and only if $p_M \leq p_N$. For, we have $p_M^* p_M = p_M$, hence
 $$
@@ -462,7 +462,7 @@ $$
 $$
 for all $x \in E$. The relation $p_M \leq p_N$ is therefore equivalent to « $\|p_M(x)\| \leq \|p_N(x)\|$ for all $x \in E$ ». If $M \subset N$, we have $p_M = p_M p_N$, hence $\|p_M(x)\| \leq \|p_N(x)\|$ since $\|p_M\| \leq 1$. Conversely, if $\|p_M(x)\| \leq \|p_N(x)\|$ for all $x \in E$, the kernel of $p_M$ contains the kernel of $p_N$, that is, that $M^\circ \supset N^\circ$, which implies that $M \subset N$.
 
-#### Proposition 13 {#evt-v-s4-prop-13 .statement}
+#### Proposition 13 {#evt-v-s4-prop-13 .statement tag=081L}
 
 — *Let $\mathscr{H}(E)$ be the set of all continuous hermitian endomorphisms of the hilbertian space $E$. Let $\mathscr{F}$ be a non-empty, directed increasing and bounded subset of $\mathscr{H}(E)$.*
 
@@ -531,7 +531,7 @@ and we have $v(x) = \lim_{n \to \infty} u_n(x)$ for all $x \in E$. Moreover, $v$
 
 Let E and F be two hilbertian spaces. Conforming to the conventions of V, p. 40, we let $ba^*$, for $a$ in E and $b$ in F, denote the continuous linear mapping $x \mapsto b \langle a|x \rangle$ from E into F.
 
-#### Lemma 1 {#evt-v-s4-lem-1 .statement}
+#### Lemma 1 {#evt-v-s4-lem-1 .statement tag=081M}
 
 *There exists an isomorphism $\theta$ from the vector space $F \otimes E'$ onto the space $\mathscr{L}_f(E; F)$ of all finite rank continuous linear mappings from E into F, characterized by $\theta(b \otimes a^*) = ba^*$ for $a \in E, b \in F$.
 
@@ -552,7 +552,7 @@ $$
 
 When E is finite dimensional, we have $\mathscr{L}_f(E) = \mathscr{L}(E)$ and $\tau(u)$ is the *trace* of the endomorphism $u$ of E (A, II, § 4, No. 3).
 
-#### Lemma 2 {#evt-v-s4-lem-2 .statement}
+#### Lemma 2 {#evt-v-s4-lem-2 .statement tag=081N}
 
 *Let $(e_i)_{i \in I}$ be an orthonormal basis of E. Then*
 
@@ -570,7 +570,7 @@ $$
 
 and lemma 2 follows from formula (22) and formula (3) of V, p. 22.
 
-#### Lemma 3 {#evt-v-s4-lem-3 .statement}
+#### Lemma 3 {#evt-v-s4-lem-3 .statement tag=081O}
 
 *Let u be a continuous and positive endomorphism of E, and $\mathscr{F}$ the set of all finite rank orthoprojectors on E. Then for every orthonormal basis $(e_i)_{i \in I}$ of E, we have (in $\mathbf{R}_+$) the equality*
 
@@ -605,7 +605,7 @@ $$
 $$
 and this completes the proof of lemma 3.
 
-#### Definition 7 {#evt-v-s4-def-7 .statement}
+#### Definition 7 {#evt-v-s4-def-7 .statement tag=081P}
 
 *Let u be a continuous and positive endomorphism of the hilbertian space E. Let*
 $$
@@ -652,7 +652,7 @@ $$
 \end{cases}
 $$
 
-#### Definition 8 {#evt-v-s4-def-8 .statement}
+#### Definition 8 {#evt-v-s4-def-8 .statement tag=081Q}
 
 — Let E be a complex hilbertian space. We write $\mathscr{L}^1(E)$ for the vector subspace of $\mathscr{L}(E)$ generated by all continuous, positive endomorphisms of E with finite trace.
 
@@ -662,7 +662,7 @@ Let E be a real hilbertian space, and let $E_{(c)}$ be its complexification (V, 
 
 \* Remark 1. — We shall later define the notion of a nuclear mapping from a Banach space E into a Banach space F. We shall show that when $\mathscr{L}^1(E)$ consists of all nuclear mappings from E into E, then E is a real or complex hilbertian space. \*
 
-#### Proposition 14 {#evt-v-s4-prop-14 .statement}
+#### Proposition 14 {#evt-v-s4-prop-14 .statement tag=081R}
 
 — Let $E_1, ..., E_n$ be hilbertian spaces, $E = E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$, and $u_i$ a continuous endomorphism of $E_i$ for $1 \leq i \leq n$. If $u_1, ..., u_n$ are positive, then so is $u = u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n$, and
 
@@ -692,13 +692,13 @@ $$
 
 In particular, if $u_1$ and $u_2$ are positive endomorphisms with finite trace, then so is $u$. By linearity, we deduce that $u$ belongs to $\mathscr{L}^1(E)$ when $K = \mathbf{C}$ and that the $u_i$ belong to $\mathscr{L}^1(E_i)$ for $i = 1, 2$; formula (31) extends to this case by linearity. Finally, the case when $K = \mathbf{R}$ and the $u_i \in \mathscr{L}^1(E_i)$ reduces to the complex case by extension of the scalars.
 
-#### Remark 2 {#evt-v-s4-n6-rem-2 .statement}
+#### Remark 2 {#evt-v-s4-n6-rem-2 .statement tag=081S}
 
 — Let $E$ be a hilbertian space, which is the hilbertian sum of a family $(E_i)_{i \in I}$ of hilbertian subspaces. Let $u$ be an element of $\mathscr{L}(E)$ such that $u(E_i) \subset E_i$ for all $i \in I$; let $u_i$ be the element of $\mathscr{L}(E_i)$ which coincides with $u$ on $E_i$. Then $\operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i)$ when $u$ is positive, or belongs to $\mathscr{L}^1(E)$; this relation follows from formula (25) of V, p. 50 applied to an orthonormal basis of $E$ which is the union of orthonormal bases of each of the $E_i$.
 
 ### 7. Hilbert-Schmidt mappings
 
-#### Definition 9 {#evt-v-s4-def-9 .statement}
+#### Definition 9 {#evt-v-s4-def-9 .statement tag=081T}
 
 *Let $E$ and $F$ be two hilbertian spaces. A continuous linear mapping $u$ from $E$ into $F$ is called a Hilbert-Schmidt mapping if the trace of the positive endomorphism $u^*u$ of $E$ is finite. The set of all Hilbert-Schmidt mappings from $E$ into $F$ is denoted by $\mathscr{L}^2(E, F)$.*
 
@@ -736,7 +736,7 @@ $$
 $$
 In particular, if $u$ belongs to $\mathscr{L}^2(E, F)$ then $wuv$ belongs to $\mathscr{L}^2(E_1, F_1)$.
 
-#### Theorem 1 {#evt-v-s4-thm-1 .statement}
+#### Theorem 1 {#evt-v-s4-thm-1 .statement tag=081U}
 
 *Let E and F be two hilbertian spaces.*
 (i) *The set $\mathscr{L}^2(E, F)$ is a vector subspace of $\mathscr{L}(E; F)$ and $u \mapsto \|u\|_2$ is a hilbertian norm* (V, p. 6) *on $\mathscr{L}^2(E; F)$.*
@@ -763,11 +763,11 @@ $$
 $$
 hence $\hat{\theta}(y \otimes x^*) = y x^*$. This proves (ii). Q.E.D.
 
-#### Example 1 {#evt-v-s4-n7-exa-1 .statement}
+#### Example 1 {#evt-v-s4-n7-exa-1 .statement tag=081V}
 
 Let I and J be two sets. By the proof given above, in order that a mapping $u$ from $\ell^2(I)$ into $\ell^2(J)$ be a Hilbert-Schmidt mapping, it is necessary and sufficient that there exists a matrix $(a_{ji})$ in $\ell^2(J \times I)$ such that $u(\xi)_j = \sum_{i \in I} a_{ji} \xi_i$ for all $\xi = (\xi_i)$ in $\ell^2(I)$.
 
-#### Example 2 {#evt-v-s4-n7-exa-2 .statement}
+#### Example 2 {#evt-v-s4-n7-exa-2 .statement tag=081W}
 
 \* Let X and Y be two Hausdorff topological spaces, endowed respectively with positive measures $\mu$ and $\nu$. We can show that the Hilbert-Schmidt mappings from $\mathscr{L}^2(X)$ into $\mathscr{L}^2(Y)$ correspond bijectively to classes of square integrable functions on $Y \times X$; to the class of a function $N \in \mathscr{L}^2(Y \times X, \nu \otimes \mu)$ corresponds the mapping $u_N$ given by
 $$
@@ -778,7 +778,7 @@ $$
 \| u_N \|_2^2 = \int_X \int_Y |N(y, x)|^2 \, d\mu(x) \, d\nu(y) .
 $$
 
-#### Remark 1 {#evt-v-s4-n7-rem-1 .statement}
+#### Remark 1 {#evt-v-s4-n7-rem-1 .statement tag=081X}
 
 Suppose $K = \mathbf{C}$. Let $u$ and $v$ be in $\mathscr{L}^2(E; F)$. We have the relation
 $$
@@ -802,13 +802,13 @@ $$
 $$
 in other words, $u \mapsto u^*$ is an isomorphism from the hilbertian space $\mathscr{L}^2(E; F)$ onto the conjugate (V, p. 6) of the hilbertian space $\mathscr{L}^2(F; E)$. If we identify this conjugate with the dual of $\mathscr{L}^2(F; E)$ (V, p. 15), we see that $\mathscr{L}^2(E; F)$ can be identified with the dual of $\mathscr{L}^2(F; E)$, the canonical bilinear form $(v, u) \mapsto \langle v, u \rangle$ being identified with $(v, u) \mapsto \operatorname{Tr}(vu)$.
 
-#### Remark 2 {#evt-v-s4-n7-rem-2 .statement}
+#### Remark 2 {#evt-v-s4-n7-rem-2 .statement tag=081Y}
 
 Suppose $K = \mathbf{R}$. We leave it to the reader to verify that formulas (40) and (41) are again valid, and to show that $\mathscr{L}^2(E; F)$ can be identified with the dual of $\mathscr{L}^2(F; E)$ by means of the bilinear form $(u, v) \mapsto \operatorname{Tr}(uv)$.
 
 ### 8. Diagonalization of Hilbert-Schmidt mappings
 
-#### Theorem 2 {#evt-v-s4-thm-2 .statement}
+#### Theorem 2 {#evt-v-s4-thm-2 .statement tag=081Z}
 
 *Let E and F be two hilbertian spaces and u a Hilbert-Schmidt mapping from E into F. There exists an orthonormal basis $(e_i)_{i \in I}$ of E which is transformed by u into an orthogonal family in F.*
 
@@ -816,7 +816,7 @@ Let B denote the (closed) unit ball of E, with the weakened topology assigned to
 
 (H) *For every $y \in E$ orthogonal to x, the element $u(y)$ of E is orthogonal to $u(x)$.*
 
-#### Lemma 4 {#evt-v-s4-lem-4 .statement}
+#### Lemma 4 {#evt-v-s4-lem-4 .statement tag=0820}
 
 *The function $Q : B \to \mathbf{R}$ is continuous.*
 
@@ -826,7 +826,7 @@ Q(x) = \|u(x)\|^2 = \sum_j |\langle u^*(f_j)|x \rangle|^2
 $$
 by Parseval’s formula (V, p. 22) and the definition of the adjoint (V, p. 38). For every $x \in B$, $|\langle u^*(f_j)|x \rangle|^2 \leq \lambda_j$ by Cauchy-Schwarz inequality; consequently, the convergence of the sum in formula (43) is uniform on B, hence lemma 4 (GT, X, § 1, No. 6).
 
-#### Lemma 5 {#evt-v-s4-lem-5 .statement}
+#### Lemma 5 {#evt-v-s4-lem-5 .statement tag=0821}
 
 *Let $E_1$ be a closed vector subspace of E, stable under $u^*u$. If $E_1 \neq \{0\}$, then there exists a vector of norm 1 in $E_1 \cap P$.*
 
@@ -857,7 +857,7 @@ $$
 $$
 and $u^*u(y)$ is orthogonal to $S$. Hence $E_1$ is stable under $u^*u$. If we had $E_1 \neq \{0\}$, there would exist a vector $x$ of norm 1 in $E_1 \cap P$ (lemma 5) and $S \cup \{x\}$ would be an orthonormal subset of $E$ contained in $P$. This would contradict the maximal character of $S$. Hence $E_1 = \{0\}$ and $S$ is an orthonormal basis of $E$. Q.E.D.
 
-#### Corollary 1 {#evt-v-s4-lem-5-cor-1 .statement}
+#### Corollary 1 {#evt-v-s4-lem-5-cor-1 .statement tag=0822}
 
 — *Let $v$ be a continuous, positive endomorphism with finite trace of the hilbertian space $E$. There exists an orthonormal basis $(e_i)_{i \in I}$ of $E$ and a summable family of positive real numbers $(\lambda_i)_{i \in I}$ such that $v(e_i) = \lambda_i e_i$ for all $i \in I$.*
 
@@ -872,7 +872,7 @@ $$
 \lambda_i \geqslant 0 \quad \text{and} \quad \sum_{i \in I} \lambda_i = \operatorname{Tr}(v) < + \infty .
 $$
 
-#### Corollary 2 {#evt-v-s4-lem-5-cor-2 .statement}
+#### Corollary 2 {#evt-v-s4-lem-5-cor-2 .statement tag=0823}
 
 *Let E be a hilbertian space. Then $\mathscr{L}^1(E) \subset \mathscr{L}^2(E)$.*
 
@@ -884,13 +884,13 @@ $$
 \sum_{i \in I} \| v(e_i) \|^2 = \sum_{i \in I} \lambda_i^2 \leq (\sum_i \lambda_i)^2 < + \infty .
 $$
 
-#### Corollary 3 {#evt-v-s4-lem-5-cor-3 .statement}
+#### Corollary 3 {#evt-v-s4-lem-5-cor-3 .statement tag=0824}
 
 *Let v be a continuous positive endomorphism of the hilbertian space E with a finite trace. There exists a positive Hilbert-Schmidt endomorphism w of E such that $v = w^2$ and such that v commutes with w.*
 
 With the notations of cor. 1, it is enough to consider the endomorphism w which transforms the vector $\sum_{i \in I} \xi_i e_i$ into the vector $\sum_i \lambda_i^{1/2} \xi_i e_i$.
 
-#### Remark {#evt-v-s4-n8-rem-1 .statement}
+#### Remark {#evt-v-s4-n8-rem-1 .statement tag=0825}
 
 — With the notations of th. 2, let J be the set of all $i \in I$ such that $u(e_i) \neq 0$. For all $i \in J$, let $\lambda_i = \| u(e_i) \|$ and $f_i = \lambda_i^{-1} u(e_i)$. Then $(e_i)_{i \in J}$ (resp. $(f_i)_{i \in J}$) is an orthonormal basis of the initial (resp. final) subspace of u, we have $u(e_i) = \lambda_i f_i$ for all $i \in J$ and $\sum_{i \in J} \lambda_i^2 = \| u \|_2^2$ is finite.
 
@@ -910,13 +910,13 @@ We call *the trace of Q with respect to H*, and write $\operatorname{Tr}(Q/H)$, 
 
 *b)* Otherwise, $\operatorname{Tr}(Q/H)$ is the upper bound of the set of all numbers of the form $\sum_{i=1}^m Q(x_i)$ where $(x_1, ..., x_m)$ range over the set of finite sequences of elements of E such that $\langle x_i | x_j \rangle_H = \delta_{ij}$ (Kronecker’s symbol).
 
-#### Remark {#evt-v-s4-n9-rem-1 .statement}
+#### Remark {#evt-v-s4-n9-rem-1 .statement tag=0826}
 
 — 1) For every subspace F of E, let $Q_F$ denote the restriction of Q to F and $H_F$ that of H. We have $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ and $\operatorname{Tr}(Q/H)$ is the upper bound of the set of all numbers $\operatorname{Tr}(Q_F/H_F)$ where $F$ ranges over the family of all finite dimensional vector subspaces of $E$.
 
 2) Let $E_1$ be a real vector space, $Q_1$ and $H_1$ two positive quadratic forms on $E_1$ and $\pi : E \to E_1$ a surjective linear mapping. If $Q = Q_1 \circ \pi$ and $H = H_1 \circ \pi$, then $\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$.
 
-#### Proposition 15 {#evt-v-s4-prop-15 .statement}
+#### Proposition 15 {#evt-v-s4-prop-15 .statement tag=0827}
 
 *Suppose that there exists a real hilbertian space structure on $E$ such that $H(x) = \|x\|^2$ for all $x \in E$. For $\operatorname{Tr}(Q/H)$ to be finite, it is necessary and sufficient that there exists a continuous and positive endomorphism $u$ of $E$ with finite trace, such that $Q(x) = \langle x|u(x)\rangle$ for all $x \in E$; this endomorphism $u$ is unique, and we have*
 
@@ -948,11 +948,11 @@ $$
 
 where $(x_1, \ldots, x_m)$ range over the set of all finite orthonormal sequences of elements of $E$. By the definition of $\operatorname{Tr}(Q/H)$, we get $\operatorname{Tr}(u) = \operatorname{Tr}(Q/H)$. Finally, for every orthonormal basis $(e_i)_{i \in I}$ of $E$, we have $\operatorname{Tr}(u) = \sum_{i \in I} \langle e_i|u(e_i)\rangle$ by formula (25) of V, p. 50, hence $\operatorname{Tr}(u) = \sum_{i \in I} Q(e_i)$.
 
-#### Remark 3 {#evt-v-s4-n9-rem-3 .statement}
+#### Remark 3 {#evt-v-s4-n9-rem-3 .statement tag=0828}
 
 Let $E$ and $F$ be two hilbertian spaces and $v$ a linear, not necessarily continuous mapping from $E$ into $F$. Let $H(x) = \|x\|^2$ and $Q(x) = \|v(x)\|^2$ for all $x \in E$. It follows from prop. 15 that $v$ is a Hilbert-Schmidt mapping if and only if $\operatorname{Tr}(Q/H)$ is finite, and then $\operatorname{Tr}(Q/H) = \|v\|_2^2$.
 
-#### Remark 4 {#evt-v-s4-n9-rem-4 .statement}
+#### Remark 4 {#evt-v-s4-n9-rem-4 .statement tag=0829}
 
 Suppose $E$ is finite dimensional. When the quadratic form $H$ is invertible, prop. 15 applies. Let $(e_1, \ldots, e_n)$ be a basis of $E$. Put $q_{ij} = \langle e_i|e_j\rangle_Q$ and $h_{ij} = \langle e_i|e_j\rangle_H$ and introduce the matrices $q = (q_{ij})$ and $h = (h_{ij})$. Let $u$ be an endomorphism of $E$ such that $Q(x) = \langle x|u(x)\rangle_H$ for all $x \in E$. We have
 

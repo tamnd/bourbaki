@@ -29,7 +29,7 @@ subsections:
       pdf_page: 101
 statements: 10
 exercises: 3
-content_sha256: 425663611a68185df382e1b6a031bcc10fbf4168bb0d90cf73488ef54d14b3ad
+content_sha256: 5d9e93b1130d665e5ef5a49bee7fa6d59d2370123e602805e4b774a529b5d3c0
 ---
 
 ## § 8. COMPLEX LOCALLY CONVEX SPACES
@@ -40,7 +40,7 @@ Let $E$ be a topological vector space over $\mathbf{C}$ the field of complex num
 
 Conversely, let F be a topological vector space over $\mathbf{R}$, and suppose that there exists an automorphism $u$ of F such that $u^2 = -1_F$ ($1_F$ is the identity automorphism of F). We know (A, IX, § 3, No. 2) that it is then possible to define a vector space structure on F relative to $\mathbf{C}$ writing $\lambda x = \alpha x + \beta u(x)$ for all $\lambda = \alpha + i\beta \in \mathbf{C}$ and all $x \in F$. Further since the mapping $(\alpha, \beta, x) \mapsto \alpha x + \beta u(x)$ of $\mathbf{R}^2 \times F$ in F is continuous the topology of F is compatible with the vector space structure relative to $\mathbf{C}$ defined above; if E denotes the topological vector space on $\mathbf{C}$ defined in this manner, then F is the topological vector space on $\mathbf{R}$ which underlies E.
 
-#### Remark {#evt-ii-s8-n1-rem-1 .statement}
+#### Remark {#evt-ii-s8-n1-rem-1 .statement tag=07KJ}
 
 — Given a topological vector space F over $\mathbf{R}$, it is not always the case that there exists an automorphism $u$ of F whose square is $-1_F$; for example, it is not possible to define vector space structure relative to $\mathbf{C}$ on a vector space over $\mathbf{R}$ of finite *odd* dimension.
 
@@ -78,7 +78,7 @@ A complex locally convex space is a Fréchet space if it is metrisable and compl
 
 ### 3. The Hahn-Banach theorem and its applications
 
-#### Theorem 1 (Hahn-Banach) {#evt-ii-s8-thm-1 .statement}
+#### Theorem 1 (Hahn-Banach) {#evt-ii-s8-thm-1 .statement tag=07KK}
 
 — Let V be a vector subspace of E, a complex vector space, and let f be a (complex) linear form on V and p a semi-norm on E such that $|f(y)| \leq p(y)$ for all $y \in V$. Then there exists a linear form $f_1$ on E extending f and such that $|f_1(x)| \leq p(x)$ for all $x \in E$.
 
@@ -90,39 +90,39 @@ $$
 
 since $p$ is a semi-norm on the complex space E; this implies the relation $|f_1(x)| \leq p(x)$, and the theorem is proved.
 
-#### Corollary 1 {#evt-ii-s8-thm-1-cor-1 .statement}
+#### Corollary 1 {#evt-ii-s8-thm-1-cor-1 .statement tag=07KL}
 
 — Let $x_0$ be a point of a complex topological vector space E and p be a continuous semi-norm in E; then there exists a continuous (complex) linear form f defined in E, such that $f(x_0) = p(x_0)$ and $|f(x)| \leq p(x)$ for all $x \in E$.
 
-#### Corollary 2 {#evt-ii-s8-thm-1-cor-2 .statement}
+#### Corollary 2 {#evt-ii-s8-thm-1-cor-2 .statement tag=07KM}
 
 — Let V be a vector subspace of a complex locally convex space E and f be a (complex) linear form defined and continuous in V; then there exists a continuous linear form $f_1$ defined in E and extending f. If E is normed there exists such a form $f_1$ that also satisfies $\|f_1\| = \|f\|$.
 
-#### Corollary 3 {#evt-ii-s8-thm-1-cor-3 .statement}
+#### Corollary 3 {#evt-ii-s8-thm-1-cor-3 .statement tag=07KN}
 
 — Let M be a finite dimensional vector subspace of a Hausdorff complex locally convex space E. Then there exists a closed vector subspace N of E that is a topological complement of M in E.
 
 The proofs using theorem 1, p. 24 are the same as those of II, p. 23, cor. 2 and cor. 3, p. 24, prop. 2 and p. 25, cor. 2.
 
-#### Proposition 1 {#evt-ii-s8-prop-1 .statement}
+#### Proposition 1 {#evt-ii-s8-prop-1 .statement tag=07KO}
 
 — Let A be an open non-empty convex set in a complex topological vector space E and M be a non-empty (complex) linear variety that does not meet A. Then there exists a closed complex hyperplane H that contains M and does not meet A.
 
 We can suppose that $0 \in M$. Then there exists a closed real hyperplane $H_0$ containing M and not meeting A (II, p. 36; th. 1). As $M = iM$, the closed complex hyperplane $H = H_0 \cap (iH_0)$ has the properties required.
 
-#### Corollary {#evt-ii-s8-n3-cor-1 .statement}
+#### Corollary {#evt-ii-s8-n3-cor-1 .statement tag=07KP}
 
 — In a complex locally convex space E, every closed complex linear variety M is the intersection of the closed complex hyperplanes which contain it.
 
 In fact, for all $x \notin M$, there exists a convex open neighbourhood $V$ of $x$ that does not meet $M$, and thus there exists a closed complex hyperplane $H$ containing $M$ and not meeting $V$; *a fortiori* $H$ does not contain $x$.
 
-#### Proposition 2 {#evt-ii-s8-prop-2 .statement}
+#### Proposition 2 {#evt-ii-s8-prop-2 .statement tag=07KQ}
 
 *Let $A$ be a non-empty balanced open convex set of a complex topological vector space $E$, and $B$ be a non-empty convex set that does not meet $A$. Then there exists a continuous complex linear form $f$ on $E$ and a number $\alpha > 0$ such that $|f(x)| < \alpha$ in $A$ and $|f(y)| \geq \alpha$ in $B$.*
 
 For, there exists a continuous *real* linear form $g$ on $E$ and a real number $\alpha$ such that $g(x) < \alpha$ in $A$ and $g(y) \geq \alpha$ in $B$ (II, p. 37, prop. 1). As $0 \in A$, we have $\alpha > 0$. We show that the continuous complex linear form $f(x) = g(x) - ig(ix)$ and the number $\alpha$ have the properties required. For, since $\Re f = g$, we have $|f(y)| \geq \alpha$ in $B$. On the other hand, for all $x \in A$ and all real $\vartheta$, the point $e^{i\vartheta}x$ belongs to $A$, since $A$ is balanced, and we have $f(x) = e^{-i\vartheta}f(e^{i\vartheta}x)$; then there exists a number $\vartheta$ such that $|f(x)| = \Re(e^{i\vartheta}f(x)) = g(e^{i\vartheta}x) < \alpha$, and the proposition follows.
 
-#### Proposition 3 {#evt-ii-s8-prop-3 .statement}
+#### Proposition 3 {#evt-ii-s8-prop-3 .statement tag=07KR}
 
 *Let $A$ be a balanced, closed, convex set in a complex locally convex space $E$ and let $K$ be a non-empty compact convex set in $E$ that does not meet $A$. Then there exists a continuous complex linear form $f$ on $E$ and a number $\alpha > 0$ such that $|f(x)| < \alpha$ in $A$ and $|f(y)| > \alpha$ in $K$.*
 
@@ -132,7 +132,7 @@ The proposition follows from II, p. 38, prop. 4 as prop. 2 follows from II, p. 3
 
 The definition and results of II, § 6, Nos. 1 and 2 apply without change to *complex* vector spaces. If $F$ and $G$ are two complex vector spaces in duality by a bilinear form $B$, then the underlying spaces $F_0$ and $G_0$ are in duality by $\Re B$, and it follows from II, p. 61, formula (1) that the weak topologies $\sigma(F, G)$ and $\sigma(F_0, G_0)$ are identical.
 
-#### Definition 1 {#evt-ii-s8-def-1 .statement}
+#### Definition 1 {#evt-ii-s8-def-1 .statement tag=07KS}
 
 *Let $F$ and $G$ be two complex vector spaces in duality. For any subset $M$ of $F$, the polar of $M$ in $G$, denoted by $M^\circ$, is the set of $y \in G$ such that $\Re(\langle x, y \rangle) \geq -1$ for all $x \in M$.*
 

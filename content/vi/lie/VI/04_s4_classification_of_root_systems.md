@@ -68,9 +68,9 @@ subsections:
       pdf_page: 246
 statements: 19
 exercises: 16
-content_sha256: d06ece6b27f0a14b6e7a1a6f74eb6a3e5d1706b5a328ba58e9f35e762fa735e9
+content_sha256: 10e5514fc4e8dfb4cb160fa6b6ae6e3b7315e13ba128e48d7d0251a1fd6cf7b0
 translated_from: content/en/lie/VI/04_s4_classification_of_root_systems.md
-source_content_sha256: 885d53becbd2c5c2ecfaf01892276712763fa1f29752646fc20fb98bbf979c99
+source_content_sha256: 45e10d913c1a6d6fc187b08ddce9c5ebb593714b0771388b35b7618ac35e06d7
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-3374a7d1
 glossary_version: 34
@@ -102,19 +102,19 @@ Trong phần còn lại của số này, nhóm Coxeter $W(M)$ xác định bởi
 
 Từ điều kiện rằng $q$ là dương và không suy biến, ta sẽ thu được các điều kiện trên các $m_{ij}$ cho phép ta liệt kê tất cả các khả năng của các đồ thị Coxeter tương ứng; sẽ chỉ còn phải chứng minh rằng các khả năng này thực sự đạt được, nói cách khác rằng các nhóm $W(M)$ tương ứng là hữu hạn.
 
-#### Bổ đề 1 {#lie-vi-s4-lem-1 .statement}
+#### Bổ đề 1 {#lie-vi-s4-lem-1 .statement tag=0AY2}
 
 Với mọi $i$, $\sum_{j \neq i} q_{ij}^2 < 1$.
 
 Cho $J$ là tập hợp các $j \in I$ sao cho $q_{ij} \neq 0$, nói cách khác sao cho $\{i, j\}$ là một cạnh của $X$. Nếu $j, j' \in J$ và $j \neq j'$, $\{j, j'\}$ không là một cạnh (nếu không thì $i, j, j'$ sẽ tạo thành một chu trình), do đó $(e_j|e_{j'}) = 0$. Đặt $F = \sum_{j \in J} \mathbf{R} e_j$. Khi đó $(e_j)_{j \in J}$ là một cơ sở trực chuẩn của $F$. Khoảng cách $d$ từ $e_i$ đến $F$ được cho bởi $d^2 = 1 - \sum_{j \in J} (e_i|e_j)^2 = 1 - \sum_{j \in J} q_{ij}^2 = 1 - \sum_{j \neq i} q_{ij}^2$, do đó có bổ đề.
 
-#### Bổ đề 2 {#lie-vi-s4-lem-2 .statement}
+#### Bổ đề 2 {#lie-vi-s4-lem-2 .statement tag=0AY3}
 
 Mọi đỉnh của $X$ thuộc vào nhiều nhất 3 cạnh.
 
 Thật vậy, nếu $i$ liên kết với $h$ đỉnh khác, các hệ thức $q_{ij}^2 \geq \frac{1}{4}$ đối với các đỉnh khác này suy ra rằng $\frac{h}{4} < 1$ theo Bổ đề 1, do đó $h \leq 3$.
 
-#### Bổ đề 3 {#lie-vi-s4-lem-3 .statement}
+#### Bổ đề 3 {#lie-vi-s4-lem-3 .statement tag=0AY4}
 
 *Nếu $i$ thuộc vào 3 cạnh, các cạnh này có cấp 3.*
 
@@ -126,7 +126,7 @@ $$
 
 điều này là không thể (Bổ đề 1).
 
-#### Bổ đề 4 {#lie-vi-s4-lem-4 .statement}
+#### Bổ đề 4 {#lie-vi-s4-lem-4 .statement tag=0AY5}
 
 *Nếu tồn tại một cạnh có cấp $\geq 6$, thì $l = 2$.*
 
@@ -138,7 +138,7 @@ $$
 
 điều này là không thể (Bổ đề 1).
 
-#### Bổ đề 5 {#lie-vi-s4-lem-5 .statement}
+#### Bổ đề 5 {#lie-vi-s4-lem-5 .statement tag=0AY6}
 
 *Một đỉnh không thể thuộc về hai cạnh phân biệt có cấp $\geq 4$.*
 
@@ -159,7 +159,7 @@ $$
 = \sum_{k, k' \in I} q_{kk'} \xi_k \xi_{k'} - (1 + 2q_{ij}) \xi_p^2.
 $$
 
-#### Bổ đề 6 {#lie-vi-s4-lem-6 .statement}
+#### Bổ đề 6 {#lie-vi-s4-lem-6 .statement tag=0AY7}
 
 *Nếu $\{i, j\}$ có cấp 3, $W(M')$ là một nhóm Coxeter hữu hạn.*
 
@@ -172,7 +172,7 @@ $$
 và $(\xi_k)_{k \in I'} \mapsto \sum_{k,k' \in I'} q'_{kk'} \xi_k \xi_{k'}$ là một dạng toàn phương dương không suy biến.
 Bây giờ chỉ cần áp dụng Định lý 2 của Chương V. § 4, no. 8.
 
-#### Bổ đề 7 {#lie-vi-s4-lem-7 .statement}
+#### Bổ đề 7 {#lie-vi-s4-lem-7 .statement tag=0AY8}
 
 Ta có một trong các trường hợp sau:
 
@@ -185,7 +185,7 @@ a) Giả sử rằng X có một điểm phân nhánh i. Khi đó i thuộc 3 c�
 
 b) Giả sử rằng X không có điểm phân nhánh. Khi đó X là một dây chuyền (Chương IV, Phụ lục, no. 3, Mệnh đề 3). Gọi $\{i, j\}$ là một cạnh có cấp $\geq 4$. Nếu $l = 2$, thì bổ đề là tầm thường. Nếu không, thì chẳng hạn i thuộc một cạnh $\{i, k\}$ với $k \neq j$ (vì X liên thông). Cạnh này có cấp 3 (Bổ đề 5). Đồng nhất i và k trong đồ thị Coxeter của M. Theo Bổ đề 6, giả thiết quy nạp có thể được áp dụng. Gọi $p$ là ảnh của i trong đồ thị mới $X'$. Trong $X'$, $\{p, j\}$ là một cạnh có cấp $\geq 4$, do đó $X'$ không có cạnh nào khác có cấp $\geq 4$, và vì vậy $\{i, j\}$ là cạnh duy nhất có cấp $\geq 4$ trong X.
 
-#### Bổ đề 8 {#lie-vi-s4-lem-8 .statement}
+#### Bổ đề 8 {#lie-vi-s4-lem-8 .statement tag=0AY9}
 
 Cho $i_1, i_2, \ldots, i_p$ là các đỉnh của X sao cho $\{i_1, i_2\}, \{i_2, i_3\}, \ldots, \{i_{p-1}, i_p\}$ là các cạnh có cấp 3. Khi đó $q(\sum_{r=1}^p r e_{i_r}) = \frac{1}{2} p(p+1)$.
 
@@ -201,7 +201,7 @@ $$
 p^2 - \frac{1}{2} p(p-1) = \frac{1}{2} p(p+1).
 $$
 
-#### Bổ đề 9 {#lie-vi-s4-lem-9 .statement}
+#### Bổ đề 9 {#lie-vi-s4-lem-9 .statement tag=0AYA}
 
 Giả sử rằng X là một dây chuyền với các đỉnh 1, 2, ..., l và các cạnh {1, 2}, {2, 3}, ..., {l - 1, l}.
 
@@ -257,7 +257,7 @@ $$
 2 \cos^2 \frac{\pi}{5} - 1 = \cos \frac{2\pi}{5} = \frac{\sqrt{5} - 1}{4}, \quad \cos^4 \frac{\pi}{5} = \frac{3 + \sqrt{5}}{8} > \frac{5}{8} > \frac{9}{16}, \quad \cos \frac{\pi}{5} = \frac{1 + \sqrt{5}}{4}.
 $$
 
-#### Bổ đề 10 {#lie-vi-s4-lem-10 .statement}
+#### Bổ đề 10 {#lie-vi-s4-lem-10 .statement tag=0AYB}
 
 Nếu X có một điểm phân nhánh i, đồ thị con đầy đủ X - {i} là hợp của ba chuỗi, và nếu p - 1, q - 1, r - 1 là độ dài của các chuỗi này, thì bộ ba {p, q, r} bằng, sai khác một phép hoán vị, một trong các bộ ba {1, 2, 2}, {1, 2, 3}, {1, 2, 4}, {1, 1, m} (với một số m $\geq 1$).
 
@@ -303,7 +303,7 @@ $$
 (p+1)^{-1} > \frac{1}{6}. \quad \text{do đó } p \leq 4.
 $$
 
-#### Định lý 1 {#lie-vi-s4-thm-1 .statement}
+#### Định lý 1 {#lie-vi-s4-thm-1 .statement tag=0AYC}
 
 Đồ thị của mọi hệ Coxeter hữu hạn bất khả quy (W, S) là đẳng cấu với một trong các đồ thị sau:
 
@@ -331,7 +331,7 @@ Việc không có hai đồ thị Coxeter nào được liệt kê là đẳng c
 
 Ngược lại:
 
-#### Định lý 2 {#lie-vi-s4-thm-2 .statement}
+#### Định lý 2 {#lie-vi-s4-thm-2 .statement tag=0AYD}
 
 Các nhóm Coxeter được xác định bởi các đồ thị Coxeter A_l, B_l, ..., I_2(p) của Định lý 1 là hữu hạn.
 
@@ -385,13 +385,13 @@ Theo các kết quả của § 1, các số 3 và 5, các khả năng duy nhất
 
 Ta thấy từ điều này rằng đồ thị Dynkin $R$ xác định ma trận Cartan và ma trận Coxeter của $R$, và do đó xác định $R$ sai khác bởi một đẳng cấu. Chính xác hơn, Hệ quả của Mệnh đề 15 của § 1, no. 5 suy ra kết quả sau:
 
-#### Mệnh đề 1 {#lie-vi-s4-prop-1 .statement}
+#### Mệnh đề 1 {#lie-vi-s4-prop-1 .statement tag=0AYE}
 
 *Cho $R_1$ và $R_2$ là hai hệ căn rút gọn trong các không gian vectơ $V_1$ và $V_2$. Cho $B_1 = (\alpha_i)_{i \in I_1}$ và $B_2 = (\alpha_i)_{i \in I_2}$ là các cơ sở của $R_1$ và $R_2$, được đánh chỉ số một cách chính tắc. Cho $\lambda$ là một đẳng cấu từ đồ thị Dynkin của $R_1$ đến đồ thị Dynkin của $R_2$. Khi đó, tồn tại một đẳng cấu duy nhất từ $V_1$ đến $V_2$ biến $R_1$ thành $R_2$ và $\alpha_i$ thành $\alpha_{\lambda(i)}$ với mọi $i \in I_1$.*
 
 Rõ ràng là một tự đẳng cấu của $R$ xác định một tự đẳng cấu của biểu đồ Dynkin của $R$, và do đó một đồng cấu $\varphi$ từ nhóm $A(R)$ đến nhóm các tự đẳng cấu của biểu đồ Dynkin của $R$.
 
-#### Hệ quả {#lie-vi-s4-n2-cor-1 .statement}
+#### Hệ quả {#lie-vi-s4-n2-cor-1 .statement tag=0AYF}
 
 *Đồng cấu $\varphi$ xác định, qua thương, một đẳng cấu từ nhóm $A(R)/W(R)$ đến nhóm các tự đẳng cấu của biểu đồ Dynkin của $R$.*
 
@@ -410,7 +410,7 @@ Rõ ràng biểu đồ $(X, f)$ có thể được phục hồi từ sơ đồ n
 
 Ta nhận xét rằng sơ đồ gắn với biểu đồ Coxeter của $W(R)$ có thể thu được từ sơ đồ gắn với biểu đồ Dynkin của $R$ bằng cách giữ lại các nút và các liên kết đơn rồi thay các liên kết kép (tương ứng liên kết ba) bằng một liên kết có số 4 (tương ứng 6) ở trên. Ngược lại, cho biểu đồ Coxeter của W(R), sơ đồ gắn với biểu đồ Dynkin của R có thể được phục hồi bằng cách dùng phép ngược của thủ tục này, trừ các dấu bất đẳng thức trên các liên kết kép hoặc ba. Định lý 1 do đó cho ngay lập tức danh sách các biểu đồ Dynkin có thể có. Chính xác hơn:
 
-#### Định lý 3 {#lie-vi-s4-thm-3 .statement}
+#### Định lý 3 {#lie-vi-s4-thm-3 .statement tag=0AYG}
 
 *Nếu R là một hệ nghiệm rút gọn bất khả quy, biểu đồ Dynkin của nó đẳng cấu với một trong các biểu đồ được biểu diễn bởi các sơ đồ sau:*
 
@@ -432,11 +432,11 @@ $$
 
 Mệnh đề thứ nhất suy ra ngay từ Định lý 1, xét các nhận xét trên, thực tế là các nhóm Coxeter của các biểu đồ H_3, H_4 và I_2(p) (với p = 5 và p \geq 7) không kết tinh, và thực tế là hai khả năng có thể có cho dấu bất đẳng thức trên liên kết kép (tương ứng liên kết ba) của biểu đồ Dynkin gắn với biểu đồ Coxeter F_4 (tương ứng G_2) cho các biểu đồ Dynkin đẳng cấu. Mệnh đề thứ hai hiển nhiên và mệnh đề thứ ba sẽ suy ra từ phép dựng tường minh của một hệ nghiệm rút gọn bất khả quy cho mỗi kiểu, một phép dựng sẽ được thực hiện trong các số 5 đến 13.
 
-#### Nhận xét 1 {#lie-vi-s4-n2-rem-1 .statement}
+#### Nhận xét 1 {#lie-vi-s4-n2-rem-1 .statement tag=0AYH}
 
 Biểu đồ A_1 rút gọn thành một nút duy nhất; ta cũng ký hiệu nó bằng B_1 hoặc C_1. Biểu đồ B_2 \circ-\circ-\circ-\circ cũng được ký hiệu bởi C_2. Biểu đồ A_3 \circ-\cdots-\circ cũng được ký hiệu bởi D_3. Cuối cùng, D_2 ký hiệu biểu đồ gồm hai nút không nối với nhau. (Các quy ước này suy ra từ các tính chất của các hệ nghiệm tương ứng, xem các số 5 đến 8.)
 
-#### Nhận xét 2 {#lie-vi-s4-n2-rem-2 .statement}
+#### Nhận xét 2 {#lie-vi-s4-n2-rem-2 .statement tag=0AYI}
 
 Nếu (X, f) là biểu đồ Dynkin của một hệ nghiệm rút gọn R, biểu đồ Dynkin của hệ ngược có thể được đồng nhất với (X, f^{-1}). Nói cách khác, sơ đồ gắn với biểu đồ Dynkin của R^- có thể thu được từ sơ đồ gắn với biểu đồ Dynkin của R bằng cách đảo ngược các dấu bất đẳng thức. Nếu R bất khả quy, ta thấy R đẳng cấu với R^- trừ khi R thuộc kiểu B_l hoặc C_l, trong trường hợp ấy R^- thuộc kiểu C_l hoặc B_l.
 
@@ -460,7 +460,7 @@ Ta giữ lại các ký hiệu của § 2, Prop. 5 của § 2, no. 2, cùng vớ
 
 $A(R)/W(R)$ bởi $P(R^*)/Q(R^*)$. và $P(R^*)/Q(R^*)$ đẳng cấu với nhóm $I_C = G_C \cap W'_a$ (với ký hiệu của § 2, no. 3): phần tử của $\operatorname{Aut}(\Sigma)$ tương ứng với phần tử $\gamma_i$ của $I_C$ biến đỉnh 0 thành đỉnh $i$ của $\Sigma$.
 
-#### Nhận xét {#lie-vi-s4-n3-rem-1 .statement}
+#### Nhận xét {#lie-vi-s4-n3-rem-1 .statement tag=0AYJ}
 
 Có thể chứng minh rằng ánh xạ chính tắc
 $$
@@ -468,7 +468,7 @@ $$
 $$
 là một đẳng cấu.
 
-#### Định lý 4 {#lie-vi-s4-thm-4 .statement}
+#### Định lý 4 {#lie-vi-s4-thm-4 .statement tag=0AYK}
 
 Cho $(W, S)$ là một hệ Coxeter bất khả quy với $S$ hữu hạn. Dạng toàn phương liên kết (Chap. V, § 4, no. 1) là dương và suy biến khi và chỉ khi đồ thị Coxeter của $(W, S)$ đẳng cấu với một trong các đồ thị sau:
 

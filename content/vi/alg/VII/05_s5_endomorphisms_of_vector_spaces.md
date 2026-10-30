@@ -50,7 +50,7 @@ subsections:
       pdf_page: 402
 statements: 66
 exercises: 14
-content_sha256: 59b639e21cfc98ffe565b5fd65f4556c8ca3251ee6fc79af85fd8f2e4c2d886b
+content_sha256: 7a3620041d070a82797ffad51fe669a9db53a1789038dee53c856583d3fd9a68
 translated_from: content/en/alg/VII/05_s5_endomorphisms_of_vector_spaces.md
 source_content_sha256: d38ce52748be68ee166866fa84d36a43db5be6707be3eb6d063fae4baa77523d
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -123,7 +123,7 @@ $$
 
 ### 2. Trị riêng và vectơ riêng
 
-#### Định nghĩa 1 {#alg-vii-s5-def-1 .statement}
+#### Định nghĩa 1 {#alg-vii-s5-def-1 .statement tag=075G}
 
 *Cho $E$ là một không gian vectơ trên một trường giao hoán $K$, và $u$ là một tự đồng cấu của $E$. Một phần tử $x$ của $E$ được gọi là một vectơ riêng của $u$ nếu tồn tại $a \in K$ sao cho $u . x = \alpha x$; nếu $x \neq 0$ thì vô hướng $a$ được gọi là trị riêng của $u$ tương ứng với vectơ riêng $x$. Với mọi vô hướng $a$, không gian con vectơ $V_a$ gồm các $x \in E$ sao cho $u . x = \alpha x$ được gọi là không gian riêng của $E$ tương ứng với $a$.
 
@@ -131,7 +131,7 @@ Bội số hình học của trị riêng $a$ là lực lượng $\dim V_a$.
 
 Giả sử $E$ hữu hạn chiều. Các trị riêng của $u$ là các phần tử $a$ của $K$ sao cho tự đồng cấu $a . 1 - u$ của $E$ không đơn ánh, nói cách khác (III, p. 524, Mệnh đề 3) sao cho $\det(a . 1 - u) = 0$. Nhưng, theo định nghĩa của đa thức đặc trưng $\chi_u$ của $u$ (III, p.541, Định nghĩa 3), ta có $\det(a . 1 - u) = \chi_u(\alpha)$. Do đó :
 
-#### Mệnh đề 1 {#alg-vii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#alg-vii-s5-prop-1 .statement tag=075H}
 
 *Giả sử $E$ là hữu hạn chiều. Khi đó một phần tử $a$ của $K$ là một trị riêng của tự đồng cấu $u$ khi và chỉ khi nó là một nghiệm của đa thức đặc trưng của $u$.
 
@@ -147,7 +147,7 @@ các trị riêng của $U$ (trong một mở rộng $L$ của $K$) là các ngh
 
 Nếu $U$ là ma trận của một tự đồng cấu $u$ của một không gian vectơ $n$-chiều đối với một cơ sở $B$, thì $\chi_U = \chi_u$, các trị riêng của $U$ là các trị riêng của $u$, và các vectơ riêng của $U$ là các ma trận của các vectơ riêng của $u$ đối với cơ sở $B$.
 
-#### Mệnh đề 2 {#alg-vii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#alg-vii-s5-prop-2 .statement tag=075I}
 
 *Cho $u$ là một tự đồng cấu của một không gian vectơ $E$ trên một trường giao hoán $K$; với mỗi vô hướng $a$, gọi $V_a$ là không gian riêng tương ứng với $a$. Khi đó các không gian con $V_a$ đóng đối với $u$ và tổng của các $V_a$ là trực tiếp.*
 
@@ -157,11 +157,11 @@ Mệnh đề đầu tiên là hiển nhiên. Theo định nghĩa không gian con
 
 Nếu ta dịch sự phân tích của một môđun xoắn sinh hữu hạn trong VII, p. 8, Th. 1 và p. 9, Mệnh đề 2, thì ta thu được:
 
-#### Mệnh đề 3 {#alg-vii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#alg-vii-s5-prop-3 .statement tag=075J}
 
 *Cho $E$ là một không gian vectơ có số chiều hữu hạn $n$ trên một trường giao hoán $K$, và cho $u$ là một tự đồng cấu của $E$; với mỗi đa thức đơn khởi bất khả quy $p(X)$, cho $M_p$ là không gian con vectơ gồm các phần tử $x$ của $E$ sao cho $(p(u))^k \cdot x = 0$ với một số nguyên $k$. Khi đó $M_p$ đóng dưới $u$, không gian vectơ $E$ là tổng trực tiếp của các $M_p$, và tồn tại các đa thức $s_p$ sao cho, với mọi $x \in E$, thành phần của $x$ trong $M_p$ bằng $s_p(u) \cdot x$.*
 
-#### Nhận xét 1 {#alg-vii-s5-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-vii-s5-n3-rem-1 .statement tag=075K}
 
 Rõ ràng đa thức tối tiểu của hạn chế của $u$ lên $M_p$ là lũy thừa lớn nhất của $p$ chia hết đa thức tối tiểu của $u$. Hơn nữa ta có $s_p(u) \cdot x = x$ với $x \in M_p$, từ đó suy ra ngay lập tức rằng, nếu $M_p \neq 0$, thì $s_p$ nguyên tố cùng nhau với $p$.
 
@@ -178,11 +178,11 @@ Rõ ràng các đa thức $q_i$ xác định các đa thức $h_j$ và ngược 
 
 Nói cách khác:
 
-#### Mệnh đề 4 {#alg-vii-s5-prop-4 .statement}
+#### Mệnh đề 4 {#alg-vii-s5-prop-4 .statement tag=075L}
 
 — Cho E là một không gian vectơ hữu hạn chiều n trên một trường giao hoán K, và cho u là một tự đồng cấu của E. Khi đó tồn tại n đa thức monic $q_i(X) \in K[X]$ ($1 \leq i \leq n$) sao cho $q_i$ chia hết $q_{i+1}$ với $1 \leq i \leq n-1$, và E là tổng trực tiếp của n không gian con $V_i$ ($1 \leq i \leq n$) đóng dưới tác động của u, xyclic (đối với u), và sao cho đa thức tối tiểu của hạn chế của u lên $V_i$ bằng $q_i$ ($1 \leq i \leq n$). Các đa thức $q_i$ được xác định duy nhất bởi các điều kiện này, và $q_n$ là đa thức tối tiểu q của u.
 
-#### Nhận xét 2 {#alg-vii-s5-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-vii-s5-n3-rem-2 .statement tag=075M}
 
 Theo mệnh đề trên, tồn tại một cơ sở của E sao cho đối với cơ sở đó, ma trận U của u có dạng
 
@@ -198,19 +198,19 @@ $$
 
 trong đó mỗi ma trận $A_i$ có dạng (2) (lấy $g(X) = q_i(X)$) (xem VII, p. 29-30).
 
-#### Định nghĩa 2 {#alg-vii-s5-def-2 .statement}
+#### Định nghĩa 2 {#alg-vii-s5-def-2 .statement tag=075N}
 
 — Với ký hiệu của Mệnh đề 4, n đa thức monic $q_i(X)$ ($1 \leq i \leq n$) được gọi là các bất biến đồng dạng của tự đồng cấu u.
 
 Do đó bất biến đồng dạng thứ n $q_n$ là đa thức tối tiểu của u (Mệnh đề 4); nói cách khác, để một đa thức $p(X) \in K[X]$ thỏa mãn $p(u) = 0$, điều kiện cần và đủ là $p$ là một bội của $q_n$.
 
-#### Hệ quả 1 {#alg-vii-s5-def-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-vii-s5-def-2-cor-1 .statement tag=075O}
 
 — Cho K là một trường, cho E và $E'$ là hai không gian vectơ hữu hạn chiều trên K, và cho u (tương ứng $u'$) là một tự đồng cấu của E (tương ứng $E'$). Khi đó u và $u'$ đồng dạng (VII, tr. 29) khi và chỉ khi chúng có cùng các bất biến đồng dạng.
 
 Thật vậy $u$ và $u'$ đồng dạng khi và chỉ khi các $K[X]$-môđun E, và $E'_u$ là đẳng cấu.
 
-#### Hệ quả 2 {#alg-vii-s5-def-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-vii-s5-def-2-cor-2 .statement tag=075P}
 
 — Cho u là một tự đồng cấu của một không gian vectơ hữu hạn chiều E trên một trường K, cho $(q_1, \ldots, q_n)$ là họ các bất biến đồng dạng của u, cho L là một mở rộng của K, cho $E_{(L)} = L \otimes_K E$ là không gian vectơ L cảm sinh từ E bởi mở rộng vô hướng và cho $u_{(L)} = 1_L \otimes u$ là tự đồng cấu của $E_{(L)}$ cảm sinh bởi u. Khi đó các bất biến đồng dạng của $u_{(L)}$ là các ảnh $\bar{q}_1, \ldots, \bar{q}_n$ của $q_1, \ldots, q_n$ trong $L[X]$.
 
@@ -218,13 +218,13 @@ Thật vậy $u$ và $u'$ đồng dạng khi và chỉ khi các $K[X]$-môđun E
 
 Cho U là một ma trận vuông cấp n với các hệ số trong một trường giao hoán K. Khi đó các bất biến đồng dạng của tự đồng cấu của $K^n$ được xác định bởi U được gọi là các bất biến đồng dạng của $U$. Khi đó suy ra từ Hệ quả 1 trên rằng hai ma trận vuông đồng dạng khi và chỉ khi chúng có cùng các bất biến đồng dạng, và rằng nếu $u$ là một tự đồng cấu của một không gian vectơ hữu hạn chiều $E$ trên $K$, và $U$ là ma trận của $u$ đối với một cơ sở nào đó $B$ của $E$, thì các bất biến đồng dạng của $U$ và $u$ trùng nhau. Theo Hệ quả 1 và 2 trên, ta có:
 
-#### Hệ quả 3 {#alg-vii-s5-def-2-cor-3 .statement}
+#### Hệ quả 3 {#alg-vii-s5-def-2-cor-3 .statement tag=075Q}
 
 — Cho $U$ và $V$ là hai ma trận vuông cấp $n$ với các hệ số trong một trường giao hoán $K$. Nếu tồn tại một ma trận vuông khả nghịch $P$ trên một mở rộng $K'$ nào đó của $K$ sao cho $V = P^{-1}UP$, thì tồn tại một ma trận vuông khả nghịch $Q$ trên $K$ sao cho $V = Q^{-1}UQ$.
 
 Cho $E$ là một không gian vectơ hữu hạn chiều trên một trường giao hoán $K$, cho $(e_i)_{1 \leq i \leq n}$ là một cơ sở của $E$ và cho $u$ là một tự đồng cấu của $E$. Khi đó theo dãy khớp (1) của VII, p. 29, $K[X]$-môđun $E$, liên kết với $u$, là đẳng cấu với thương của $K[X]$-môđun tự do $E[X]$, với cơ sở $(1 \otimes e_i)$, bởi ảnh của $E[X]$ qua ánh xạ $K[X]$-tuyến tính $X - \bar{u}$. Các bất biến tương tự $q_i(X)$ của $u$ (VII, p. 32, Định nghĩa 2) do đó là các nhân tử bất biến của $X - \bar{u}$ (VII, p. 22). Vì vậy Mệnh đề 6 của VII, p. 22, kéo theo:
 
-#### Mệnh đề 5 {#alg-vii-s5-prop-5 .statement}
+#### Mệnh đề 5 {#alg-vii-s5-prop-5 .statement tag=075R}
 
 — Cho $E$ là một không gian vectơ có số chiều hữu hạn $n$ trên một trường giao hoán $K$, cho $u$ là một tự đồng cấu của $E$, và cho $U$ là ma trận của nó đối với một cơ sở nào đó của $E$. Khi đó với mỗi số nguyên $m$ thỏa mãn $1 \leq m \leq n$, tích
 $$
@@ -232,20 +232,20 @@ d_m(X) = q_1(X) q_2(X) \ldots q_m(X)
 $$
 của $m$ bất biến tương tự đầu tiên của $u$ bằng ước chung lớn nhất của các định thức con cấp $m$ của ma trận $XI, - U$.
 
-#### Hệ quả 1 {#alg-vii-s5-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-vii-s5-prop-5-cor-1 .statement tag=075S}
 
 — Cho $u$ là một tự đồng cấu của một không gian vectơ có số chiều hữu hạn $n$ trên một trường giao hoán $K$, với đa thức đặc trưng $\chi_u(X)$ và các bất biến tương tự $q_i(X)$ ($1 \leq i \leq n$). Khi đó
 $$
 \chi_u(X) = q_1(X) q_2(X) \ldots q_n(X)
 $$
 
-#### Hệ quả 2 {#alg-vii-s5-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#alg-vii-s5-prop-5-cor-2 .statement tag=075T}
 
 — Với ký hiệu của Hệ quả 1, cho $q(X)$ là đa thức tối tiểu của $u$; khi đó $q(X)$ chia hết $\chi_u(X)$ và $\chi_u(X)$ chia hết $q(X)^n$. Đặc biệt đa thức tối tiểu và đa thức đặc trưng của $u$ có cùng các nghiệm, và đó là các giá trị riêng của $u$.
 
 Vì $q(X) = q_n(X)$, rõ ràng là $q(X)$ chia hết cho $\chi_u(X)$. Mặt khác, vì mỗi $q_i$ chia hết cho $q$, tích của chúng $\chi_u$ chia hết cho $q^n$.
 
-#### Hệ quả 3 {#alg-vii-s5-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#alg-vii-s5-prop-5-cor-3 .statement tag=075U}
 
 — Một tự đồng cấu $u$ là lũy linh khi và chỉ khi đa thức đặc trưng của nó có dạng $X^n$.
 
@@ -253,7 +253,7 @@ Vì $q(X) = q_n(X)$, rõ ràng là $q(X)$ chia hết cho $\chi_u(X)$. Mặt khá
 
 Bây giờ ta viết lại Mệnh đề 9 của VII, p. 24, cho phân tích của một môđun thành tổng trực tiếp của các môđun con không phân tích được.
 
-#### Mệnh đề 6 {#alg-vii-s5-prop-6 .statement}
+#### Mệnh đề 6 {#alg-vii-s5-prop-6 .statement tag=075V}
 
 — Cho $E$ là một không gian vectơ có số chiều hữu hạn $n$ trên một trường giao hoán $K$, và cho $u$ là một tự đồng cấu của $E$. Khi đó $E$ là tổng trực tiếp của các không gian con $E_k$, đóng dưới $u$ và cyclic đối với $u$, sao cho đa thức tối tiểu của hạn chế của $u$ lên $E_k$ có dạng $p_k^{n(k)}$, trong đó $p_k$ là một đa thức bất khả quy, và $E_k$ không thể biểu diễn thành tổng trực tiếp của hai không gian con khác không đều đóng dưới $u$. Với mọi đa thức bất khả quy monic $p \in K[X]$ và mọi số nguyên $n \geq 1$, số $m(p^n)$ các không gian con $E_k$ trong bất kỳ phân tích nào như vậy, sao cho $p^n$ là đa thức tối tiểu của hạn chế của $u$ lên $E_k$, được xác định duy nhất.
 
@@ -265,7 +265,7 @@ Chú ý rằng các đa thức bất khả quy monic $p \in K[X]$ sao cho $m(p^n
 
 Trong tiết diện này ta sẽ quan tâm đến trường hợp trong đó đa thức tối tiểu $p(X)$ của $u$ phân tích thành tích của các nhân tử tuyến tính trong $K[X]$, nói cách khác (VII, p. 33, Hệ quả 2) là trường hợp trong đó tất cả các trị riêng của $u$ đều thuộc $K$. Điều này đặc biệt đúng khi $K$ là đóng đại số. Mệnh đề 3 của VII, p. 31 cho ngay lập tức:
 
-#### Mệnh đề 7 {#alg-vii-s5-prop-7 .statement}
+#### Mệnh đề 7 {#alg-vii-s5-prop-7 .statement tag=075W}
 
 — Cho $E$ là một không gian vectơ hữu hạn chiều trên một trường giao hoán $K$, và cho $u$ là một tự đồng cấu của $E$ mà tất cả các trị riêng của nó đều thuộc $K$. Với mỗi trị riêng $a$ của $u$, cho $M_a$ là không gian con vectơ của $E$ gồm các phần tử $x$ sao cho tồn tại một số nguyên $k \geq 1$ thỏa mãn $(u - a)^k \cdot x = 0$. Khi đó $M_a$ đóng đối với $u$, không gian vectơ $E$ là tổng của các $M_a$, và tồn tại các đa thức $s_a \in K[X]$ sao cho, với mọi $x \in E$, thành phần của $x$ trong $M_a$ bằng $s_a(u) \cdot x$.
 
@@ -294,11 +294,11 @@ U_{m,\alpha} = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-#### Định nghĩa 3 {#alg-vii-s5-def-3 .statement}
+#### Định nghĩa 3 {#alg-vii-s5-def-3 .statement tag=075X}
 
 *Với mọi trường $K$, mọi số nguyên $m \geq 1$, và mọi $a \in K$, ma trận $U_{m,\alpha}$ được gọi là ma trận Jordan cấp $m$ và trị riêng $a$.*
 
-#### Mệnh đề 8 {#alg-vii-s5-prop-8 .statement}
+#### Mệnh đề 8 {#alg-vii-s5-prop-8 .statement tag=075Y}
 
 *Cho $E$ là một không gian vectơ hữu hạn chiều trên một trường giao hoán $K$, và cho $u$ là một tự đồng cấu của $E$. Khi đó các điều kiện sau là tương đương*:
 
@@ -310,7 +310,7 @@ $$
 
 Ta có (i) $\Rightarrow$ (iii) theo Mệnh đề 7 và các nhận xét ở trên, và các khẳng định (iii) $\Rightarrow$ (ii) và (ii) $\Rightarrow$ (i) là tầm thường.
 
-#### Định nghĩa 4 {#alg-vii-s5-def-4 .statement}
+#### Định nghĩa 4 {#alg-vii-s5-def-4 .statement tag=075Z}
 
 *Một tự đồng cấu thỏa mãn các điều kiện (i), (ii) và (iii) của Mệnh đề 8 được gọi là tam giác hóa được.*
 
@@ -318,11 +318,11 @@ Ta có (i) $\Rightarrow$ (iii) theo Mệnh đề 7 và các nhận xét ở trê
 
 Đối với các ma trận, Mệnh đề 8 suy ra:
 
-#### Hệ quả {#alg-vii-s5-n4-cor-1 .statement}
+#### Hệ quả {#alg-vii-s5-n4-cor-1 .statement tag=0760}
 
 *Cho $U$ là một ma trận bình phương trên một trường giao hoán $K$ sao cho tất cả các trị riêng của $U$ đều nằm trong $K$; khi đó tồn tại một ma trận tương tự với $U$ là một khối đường chéo của các ma trận Jordan.*
 
-#### Nhận xét {#alg-vii-s5-n4-rem-1 .statement}
+#### Nhận xét {#alg-vii-s5-n4-rem-1 .statement tag=0761}
 
 — 1) Từ Mệnh đề 6 của VII, p. 34, suy ra rằng, nếu $U$ tương tự với một khối đường chéo của các ma trận Jordan $(J_k)$, thì số các $J_k$ có dạng $U_{m,\alpha}$ (với $m$ và $\alpha$ đã cho) được xác định duy nhất bởi $U$.
 
@@ -347,11 +347,11 @@ và các bất biến tương tự là 1, 1 và $(X - 2)\ (X - 3)'$
 
 Bằng cách nhận thấy rằng đa thức tối tiểu của ma trận Jordan $U_{m, \alpha}$ là $(X - a)''$, và rằng nó bằng đa thức đặc trưng của nó, ta thu được kết quả sau :
 
-#### Mệnh đề 9 {#alg-vii-s5-prop-9 .statement}
+#### Mệnh đề 9 {#alg-vii-s5-prop-9 .statement tag=0762}
 
 — *Nếu ma trận vuông $U$ tương tự với một khối chéo của các ma trận Jordan $(U_{m_i, \alpha_i})$, thì đa thức tối tiểu của $U$ là bội chung nhỏ nhất của các $(X - \alpha_i)^{m_i}$, và đa thức đặc trưng là tích của các $(X - a_i)'''$.*
 
-#### Hệ quả {#alg-vii-s5-n4-cor-2 .statement}
+#### Hệ quả {#alg-vii-s5-n4-cor-2 .statement tag=0763}
 
 — *Trong ký hiệu của Mệnh đề 7, chiều của không gian con $M_\alpha$ là bội số của trị riêng $\alpha$ như một nghiệm của đa thức đặc trưng của $u$.*
 
@@ -364,7 +364,7 @@ $$
 \chi_u(X) = X^n - \mathrm{Tr}(u)\ X^{n-1} + \cdots + (-1)^n \det(u)\ .
 $$
 
-#### Mệnh đề 10 {#alg-vii-s5-prop-10 .statement}
+#### Mệnh đề 10 {#alg-vii-s5-prop-10 .statement tag=0764}
 
 — *Cho $E$ là một không gian vectơ có số chiều hữu hạn $n$ trên một trường giao hoán $K$, cho $u$ là một tự đồng cấu của $E$, và cho $\chi_u(X) = \prod_{i=1}^n (X - \alpha_i)$ là một phân tích thành các thừa số tuyến tính của đa thức đặc trưng của nó (trong một mở rộng thích hợp của $K$, cf. V, p. 21). Nếu $q$ là một đa thức với các hệ số trong $K$, thì đa thức đặc trưng của $q(u)$ được cho bởi*
 
@@ -384,23 +384,23 @@ $$
 
 Hiển nhiên rằng (7) và (8) suy ra từ (6) nhờ vào (5). Để chứng minh công thức (6), ta có thể giả sử rằng K là đóng đại số. Khi đó ta lấy một cơ sở của E sao cho ma trận $U$ của $u$ là tam giác dưới ($VII$, p. 35, Hệ quả của Mệnh đề 8); ta sẽ sử dụng bổ đề dễ dàng sau:
 
-#### Bổ đề 1 {#alg-vii-s5-lem-1 .statement}
+#### Bổ đề 1 {#alg-vii-s5-lem-1 .statement tag=0765}
 
 *Nếu B và C là các ma trận tam giác dưới cấp n với các đường chéo $(\beta_i)$ và $(\gamma_i)$, thì các ma trận $B + C$ và $BC$ là các ma trận tam giác dưới với các đường chéo $(\beta_i + \gamma_i)$ và $(\beta_i \gamma_i)$.*
 
 Vì ma trận $U$ của $u$ là tam giác dưới với đường chéo $(\alpha_i)$ nào đó, nên từ Bổ đề 1 suy ra rằng $q(U)$ là một ma trận tam giác dưới với đường chéo $(q(\alpha_i))$. Khi đó $X . I, -q(U)$ là một ma trận tam giác dưới với đường chéo $(X - q(a;))$, điều này chứng minh (6).
 
-#### Hệ quả 1 {#alg-vii-s5-lem-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-vii-s5-lem-1-cor-1 .statement tag=0766}
 
 *Để $q(u)$ khả nghịch, điều kiện cần và đủ là $q$ nguyên tố cùng nhau với $\chi_u$.*
 
 Thật vậy, nói rằng $q$ và $\chi_u$ nguyên tố cùng nhau tương đương với nói rằng chúng không có nghiệm chung trong một mở rộng đóng đại số của K, hay nói cách khác (8) là $\det(q(u)) \neq 0$.
 
-#### Nhận xét 1 {#alg-vii-s5-n5-rem-1 .statement}
+#### Nhận xét 1 {#alg-vii-s5-n5-rem-1 .statement tag=0767}
 
 — Một đa thức nguyên tố cùng nhau với $\chi_u$ khi và chỉ khi nó nguyên tố cùng nhau với đa thức tối tiểu của $u$ (VII, p. 33, Hệ quả 2).
 
-#### Hệ quả 2 {#alg-vii-s5-lem-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-vii-s5-lem-1-cor-2 .statement tag=0768}
 
 *Cho $r \in K(X)$ là một hàm hữu tỉ trên K. Khi đó $u$ thế được (IV, p. 21) trong $r$ khi và chỉ khi mỗi trị riêng của nó là thế được. Trong trường hợp này các công thức sau đúng:*
 
@@ -410,19 +410,19 @@ $$
 
 Viết $r = p/q$ trong đó $p$ và $q$ là các đa thức nguyên tố cùng nhau. Khi đó $u$ thế được vào $r$ khi và chỉ khi $\det(q(u)) \neq 0$, do đó khẳng định thứ nhất suy ra từ (8). Theo Hệ quả 1, ta có thể giả sử $q$ nguyên tố cùng nhau với $\chi_u$, do đó theo đồng nhất thức Bezout tồn tại các đa thức $g$ và $h$ sao cho $qg + h\chi_u = 1$. Khi đó $q(\alpha_i)g(\alpha_i) = 1$ và $q(u)g(u) = 1$ theo định lý Cayley-Hamilton (III, p. 541). Các công thức đã nêu khi đó thu được bằng cách áp dụng các công thức (6), (7) và (8) vào $p(u)\ g(u) = r(u)$.
 
-#### Hệ quả 3 {#alg-vii-s5-lem-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-vii-s5-lem-1-cor-3 .statement tag=0769}
 
 *Với mỗi số nguyên $s \geq 0$ ta có $\operatorname{Tr}(u^s) = \sum_{i=1}^n \alpha_i^s$. Công thức này cũng đúng với $s < 0$ miễn là $u$ khả nghịch.*
 
 Đây là trường hợp đặc biệt của hệ quả trước.
 
-#### Hệ quả 4 {#alg-vii-s5-lem-1-cor-4 .statement}
+#### Hệ quả 4 {#alg-vii-s5-lem-1-cor-4 .statement tag=076A}
 
 — *Giả sử trường K có đặc số không; khi đó tự đồng cấu u là lũy linh khi và chỉ khi* $\operatorname{Tr}(u^s) = 0$ *với* $1 \leq s \leq n$.
 
 Nếu $u$ lũy linh thì các $a_i$ đều bằng không, và $\operatorname{Tr}(u^s) = 0$ với mọi $s > 0$ (Hệ quả 3). Ngược lại, nếu $\operatorname{Tr}(u^s) = 0$ với $1 \leq s \leq n$, thì các $a_i$ đều bằng không vì $K$ có đặc số không (IV, p. 72, Hệ quả), và $u$ là lũy linh (VII, p. 33).
 
-#### Hệ quả 5 {#alg-vii-s5-lem-1-cor-5 .statement}
+#### Hệ quả 5 {#alg-vii-s5-lem-1-cor-5 .statement tag=076B}
 
 — *Cho Y là một bất định và gọi $\tilde{u}$ là tự đồng cấu của không gian vectơ $K(Y)$-vectơ $K(Y) \otimes_K E$ cảm sinh từ $u$ bởi mở rộng vô hướng từ $K$ đến trường $K(Y)$ của các hàm hữu tỉ theo $Y$ với các hệ số trong $K$. Khi đó tự đồng cấu $Y \cdot 1 - \tilde{u}$ là khả nghịch. Hơn nữa, nếu $\chi_u'$ ký hiệu đạo hàm của đa thức $\chi_u$, thì*
 
@@ -436,7 +436,7 @@ $$
 \chi_u'(Y)/\chi_u(Y) = \sum_i (Y - \alpha_i)^{-1} = \sum_i r(\alpha_i) .
 $$
 
-#### Hệ quả 6 {#alg-vii-s5-lem-1-cor-6 .statement}
+#### Hệ quả 6 {#alg-vii-s5-lem-1-cor-6 .statement tag=076C}
 
 — *Giả sử trường K có đặc số không. Khi đó, trong vành $K[[T]]$ của các chuỗi lũy thừa hình thức, ta có*
 
@@ -458,7 +458,7 @@ $$
 
 Suy ra $-TP'(T)/P(T) = -n + \operatorname{Tr}((I_n - TU)')$. Hệ quả bây giờ thu được bằng cách khai triển mỗi vế của đẳng thức này thành một chuỗi lũy thừa hình thức.
 
-#### Nhận xét 2 {#alg-vii-s5-n5-rem-2 .statement}
+#### Nhận xét 2 {#alg-vii-s5-n5-rem-2 .statement tag=076D}
 
 — Theo IV, p. 80, Hệ quả 1 và công thức (8), ta có, với mỗi đa thức $q \in K[X]$, rằng
 
@@ -474,7 +474,7 @@ $$
 
 trong đó $\operatorname{dis}(\chi_u)$ là biệt thức của đa thức $\chi_u$ (*IV*, p. 82, công thức (47)). Hơn nữa:
 
-#### Hệ quả 7 {#alg-vii-s5-lem-1-cor-7 .statement}
+#### Hệ quả 7 {#alg-vii-s5-lem-1-cor-7 .statement tag=076E}
 
 Ta có $\det(\operatorname{Tr}(u^{i+j})_{0 \leq i,j \leq n}) = \operatorname{dis}(\chi_u)$.
 
@@ -488,7 +488,7 @@ Hơn nữa, phần tử thứ $(i, j)$ của $D \cdot 'D$ là $\sum_k \alpha_k^{
 
 ### 6. Đa thức đặc trưng của tích tenxơ của hai tự đồng cấu
 
-#### Mệnh đề 11 {#alg-vii-s5-prop-11 .statement}
+#### Mệnh đề 11 {#alg-vii-s5-prop-11 .statement tag=076F}
 
 *Cho E* (tương ứng $E'$) *là một không gian vectơ hữu hạn chiều trên một trường giao hoán K và cho u* (tương ứng $u'$) *là một tự đồng cấu của E* (tương ứng $E'$). Cho*
 
@@ -504,7 +504,7 @@ $$
 
 Lập luận như trong chứng minh của Mệnh đề 10 của *VII*, p. 36, ta thấy rằng chỉ cần chứng minh bổ đề sau:
 
-#### Bổ đề 2 {#alg-vii-s5-lem-2 .statement}
+#### Bổ đề 2 {#alg-vii-s5-lem-2 .statement tag=076G}
 
 *Cho B và C là hai ma trận tam giác dưới có cấp lần lượt là m và n, với các đường chéo $(\beta_i)_{1 \leq i \leq n}$ và $(\gamma_j)_{1 \leq j \leq n}$. Đồng nhất tích từ điển của các tập hợp có thứ tự $\{1, 2, \ldots, m\}$ và $\{1, 2, \ldots, n\}$ với khoảng $\{1, 2, \ldots, mn\}$. Khi đó ma trận tích tenxơ* (**II**, p. 357) *B $\otimes$ C là tam giác dưới với đường chéo* $(\beta_i \gamma_j)$.
 
@@ -512,7 +512,7 @@ Lập luận như trong chứng minh của Mệnh đề 10 của *VII*, p. 36, t
 
 ### 7. Các tự đồng cấu chéo hóa được
 
-#### Định nghĩa 5 {#alg-vii-s5-def-5 .statement}
+#### Định nghĩa 5 {#alg-vii-s5-def-5 .statement tag=076H}
 
 — Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K và cho $\mathfrak{F}$ là một tập hợp các tự đồng cấu của E. Khi đó $\mathfrak{F}$ được gọi là chéo đối với một cơ sở $(e_i)$ của E nếu ma trận của mỗi $u \in \mathfrak{F}$ đối với $(e_i)$ là đường chéo. Tập hợp $\mathfrak{F}$ được gọi là chéo hóa được nếu tồn tại một cơ sở của E đối với đó $\mathfrak{F}$ là chéo.
 
@@ -520,7 +520,7 @@ Lập luận như trong chứng minh của Mệnh đề 10 của *VII*, p. 36, t
 
 Cho A là một đại số con của $\mathrm{End}_K(E)$ chứa Id. Khi đó A chéo hóa được khi và chỉ khi nó đẳng cấu với một đại số $K^r$ (nói cách khác là chéo hóa được theo nghĩa của V, p. 28, Định nghĩa 1); thật vậy, nếu A đẳng cấu với $K^r$, thì A chéo hóa được theo V, p. 29, Mệnh đề 1; ngược lại, nếu A chéo hóa được, thì nó đẳng cấu với một đại số con của đại số các ma trận đường chéo, đại số này đẳng cấu như một đại số với $K^n$, $n = \dim(E)$, do đó A đẳng cấu với một đại số $K^r$ nào đó (V, p. 30, Mệnh đề 3).
 
-#### Mệnh đề 12 {#alg-vii-s5-prop-12 .statement}
+#### Mệnh đề 12 {#alg-vii-s5-prop-12 .statement tag=076I}
 
 — Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K, và cho u là một tự đồng cấu của E. Khi đó các điều kiện sau là tương đương:
 
@@ -532,13 +532,13 @@ Hơn nữa, nếu các điều kiện này được thỏa mãn, thì mọi khô
 
 Sự tương đương của (i) và (ii) suy ra từ các nhận xét trước đó và VII, p. 31, Mệnh đề 2. Giả sử u chéo hóa được, và cho $(\alpha_i)$ là họ các giá trị riêng của nó, và $(V_i)$ là họ tương ứng các không gian riêng; vì hạn chế của u trên $V_i$ là phép vị tự được xác định bởi $\alpha_i$, nó triệt tiêu đa thức $X - \alpha_i$; từ đó suy ra rằng u triệt tiêu đa thức $\prod (X - \alpha_i)$, do đó đa thức này là một bội của đa thức tối tiểu của u, và vì thế trùng với nó, điều này chứng minh (iii). Ngược lại, nếu (iii) được thỏa mãn thì tồn tại một cơ sở của E đối với đó ma trận U của u là một khối đường chéo của các ma trận Jordan $U_{m,\alpha}$ (VII, p. 35, Mệnh đề 8); khi đó theo Mệnh đề 9 các số nguyên m đều bằng 1 và do đó U là đường chéo. Cuối cùng, khẳng định cuối cùng suy ra từ sự kiện rằng nếu u chéo hóa được thì các không gian riêng của nó là các thành phần nguyên sơ của $E_u$, và từ VII, p. 9, Hệ quả 1.
 
-#### Hệ quả {#alg-vii-s5-n7-cor-1 .statement}
+#### Hệ quả {#alg-vii-s5-n7-cor-1 .statement tag=076J}
 
 — Nếu tất cả các nghiệm của đa thức đặc trưng của u đều thuộc K, và chúng đều đơn, thì u chéo hóa được.
 
 Thật vậy đa thức tối tiểu chia hết đa thức đặc trưng.
 
-#### Mệnh đề 13 {#alg-vii-s5-prop-13 .statement}
+#### Mệnh đề 13 {#alg-vii-s5-prop-13 .statement tag=076K}
 
 — Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K, cho $\mathscr{S}$ là một tập hợp các tự đồng cấu của E, và cho A là đại số con của $\mathrm{End}_K(E)$ sinh bởi $\mathscr{S}$ và $\mathrm{Id}_E$. Khi đó các điều kiện sau là tương đương:
 (i) $\mathscr{S}$ là chéo hóa được.
@@ -547,7 +547,7 @@ Thật vậy đa thức tối tiểu chia hết đa thức đặc trưng.
 
 Nếu $(e_i)$ là một cơ sở của E sao cho $\mathscr{S}$ là đường chéo đối với cơ sở này, thì A được chứa trong đại số các tự đồng cấu đường chéo đối với cơ sở này, do đó cũng là chéo hóa được; nếu A là chéo hóa được, thì cùng một lập luận cho thấy rằng $\mathscr{S}$ là chéo hóa được. Điều này chứng minh sự tương đương của (i) và (ii). Vì hai ma trận đường chéo bất kỳ giao hoán với nhau, ta có (i) $\rightarrow$ (iii), và còn lại là chứng minh chiều đảo. Giả sử khi đó rằng các phần tử của $\mathscr{S}$ là chéo hóa được và giao hoán với nhau. Ta sẽ sử dụng bổ đề sau:
 
-#### Bổ đề 3 {#alg-vii-s5-lem-3 .statement}
+#### Bổ đề 3 {#alg-vii-s5-lem-3 .statement tag=076L}
 
 Cho g và h là hai tự đồng cấu giao hoán của một không gian vectơ E. Khi đó mỗi không gian riêng của g được đóng dưới h.
 
@@ -559,19 +559,19 @@ $$
 
 Bây giờ ta trở lại chứng minh của Mệnh đề 13. Trong tất cả các phân tích của E thành tổng trực tiếp của các không gian con khác không, mỗi không gian con được đóng dưới tất cả các phần tử của $\mathscr{S}$, hãy chọn một phân tích có số thành phần lớn nhất (chiều của E là một cận trên cho số này), ký hiệu $E = \sum_{i \in I} E_i$. Cho $u \in \mathscr{S}$ và cho $E = \sum V_\alpha$ là phân tích của E thành tổng trực tiếp của các không gian riêng của $u$. Theo Bổ đề 3, mỗi $V_\alpha$ được đóng dưới $\mathscr{S}$, và do đó mỗi $V_i \cap E_i$ cũng vậy; theo Mệnh đề 12 mỗi $E_i$ là tổng trực tiếp của các $V_i \cap E_i$. Sự lựa chọn các $E_i$ do đó buộc mỗi $E_i$ được chứa trong một trong các $V_\alpha$; do đó hạn chế của $u$ trên mỗi $E_i$ là một phép vị tự. Vì điều này đúng với mọi phần tử của $\mathscr{S}$, suy ra rằng $\mathscr{S}$ là chéo hóa được.
 
-#### Hệ quả {#alg-vii-s5-n7-cor-2 .statement}
+#### Hệ quả {#alg-vii-s5-n7-cor-2 .statement tag=076M}
 
 — Tổng và hợp thành của hai tự đồng cấu chéo hóa được giao hoán của E là chéo hóa được.
 
 ### 8. Tự đồng cấu nửa đơn và tự đồng cấu nửa đơn tuyệt đối
 
-#### Định nghĩa 6 {#alg-vii-s5-def-6 .statement}
+#### Định nghĩa 6 {#alg-vii-s5-def-6 .statement tag=076N}
 
 — Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K. Khi đó một tự đồng cấu u của E được gọi là nửa đơn nếu mọi không gian con của E được đóng dưới u đều có một phần bù được đóng dưới u.
 
 Điều này có nghĩa là mọi môđun con của môđun $K[X]$ E, là một nhân tử trực tiếp, nói cách khác môđun $K[X]$ $E_u$ là nửa đơn (VII, p. 9).
 
-#### Mệnh đề 14 {#alg-vii-s5-prop-14 .statement}
+#### Mệnh đề 14 {#alg-vii-s5-prop-14 .statement tag=076O}
 
 — *Một tự đồng cấu u của một không gian vectơ hữu hạn chiều trên một trường giao hoán là nửa đơn khi và chỉ khi đa thức tối tiểu của u không có nhân tử bội.*
 
@@ -579,13 +579,13 @@ Bây giờ ta trở lại chứng minh của Mệnh đề 13. Trong tất cả c
 
 Cho E là một không gian vectơ trên một trường giao hoán K, cho L là một mở rộng của K, và $u$ là một tự đồng cấu của E ; ký hiệu $u_{(L)}$ là tự đồng cấu trên L $l_L \otimes u$ của không gian vectơ trên L $E_{(l.)} = L \otimes_K E$ cảm sinh từ E bởi mở rộng vô hướng. Tương tự, nếu $\mathfrak{F}$ là một tập hợp các tự đồng cấu của E, ký hiệu $\mathfrak{F}_{(L)}$ là tập hợp các $u_{(L)}$ với $u$ thuộc '8.
 
-#### Hệ quả {#alg-vii-s5-n8-cor-1 .statement}
+#### Hệ quả {#alg-vii-s5-n8-cor-1 .statement tag=076P}
 
 — *Cho u là một tự đồng cấu của một không gian vectơ hữu hạn chiều trên một trường giao hoán K, và cho L là một mở rộng của K. Nếu $u_{(L)}$ là nửa đơn thì u là nửa đơn. Nếu u là nửa đơn và L là tách được trên K, thì $u_{(L)}$ là nửa đơn.*
 
 Điều này suy ra ngay lập tức từ Mệnh đề 14 và từ V, p. 120, Hệ quả 1 (chú ý rằng các đa thức tối tiểu của $u$ và $u_{(L)}$ trùng nhau).
 
-#### Mệnh đề 15 {#alg-vii-s5-prop-15 .statement}
+#### Mệnh đề 15 {#alg-vii-s5-prop-15 .statement tag=076Q}
 
 — *Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K, cho u là một tự đồng cấu của E và cho q(X) là đa thức tối tiểu của nó. Khi đó các điều kiện sau là tương đương :*
 
@@ -595,17 +595,17 @@ Cho E là một không gian vectơ trên một trường giao hoán K, cho L là
 
 Thật vậy, điều kiện (i) có nghĩa là đa thức $1 \otimes q(X)$ trong $L[X]$ không có nhân tử bội, với mọi mở rộng L của K (Mệnh đề 14), điều kiện (ii) có nghĩa là tồn tại một mở rộng L của K sao cho mọi nghiệm của $q(X)$ thuộc L và các nghiệm này đều đơn (VII, p. 40, Mệnh đề 12), và các điều kiện này mỗi điều kiện đều tương đương với (iii) theo định nghĩa (V, p. 38).
 
-#### Định nghĩa 7 {#alg-vii-s5-def-7 .statement}
+#### Định nghĩa 7 {#alg-vii-s5-def-7 .statement tag=076R}
 
 — *Một tự đồng cấu u thỏa mãn các điều kiện (i), (ii) và (iii) của Mệnh đề 15 được gọi là nửa đơn tuyệt đối.*
 
-#### Hệ quả {#alg-vii-s5-n8-cor-2 .statement}
+#### Hệ quả {#alg-vii-s5-n8-cor-2 .statement tag=076S}
 
 — *Điều kiện cần và đủ để u là nửa đơn tuyệt đối là tồn tại một mở rộng L của K sao cho L là hoàn hảo và $u_{(L)}$ là nửa đơn.*
 
 Điều kiện trong hệ quả có nghĩa là tồn tại một mở rộng L của K sao cho L là hoàn hảo và $q(X)$ không có nhân tử bội trong $L[X]$ (Mệnh đề 14) ; điều kiện này tương đương với (iii) theo V, p. 38, Hệ quả 2.
 
-#### Mệnh đề 16 {#alg-vii-s5-prop-16 .statement}
+#### Mệnh đề 16 {#alg-vii-s5-prop-16 .statement tag=076T}
 
 — *Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K, cho $\mathfrak{F}$ là một tập hợp các tự đồng cấu của E và cho A là đại số con của $\mathrm{End}_K(E)$ sinh bởi $\mathfrak{F}$ và Id. Khi đó các điều kiện sau là tương đương :*
 
@@ -617,27 +617,27 @@ Thật vậy, điều kiện (i) có nghĩa là đa thức $1 \otimes q(X)$ tron
 
 Trước hết lưu ý rằng, với mọi mở rộng $L$ của $K$, đại số trên $L$ sinh bởi $\mathfrak{F}_{(L)}$ và $\mathrm{Id}_{E_{(L)}}$ trùng với $L \otimes_K A$; do đó theo Mệnh đề 13, $\mathfrak{F}_{(L)}$ chéo hóa được khi và chỉ khi đại số trên $L$ $L \otimes_K A$ chéo hóa được. Vì vậy, tính tương đương của các điều kiện (i) và (ii) suy ra từ V, p. 28, Định nghĩa 1. Mặt khác, hiển nhiên rằng (i) $\Rightarrow$ (iii). Cuối cùng, giả sử (iii) đúng, và lấy $L$ là một bao đóng đại số của $K$; khi đó các phần tử của $\mathfrak{F}_{(L)}$ chéo hóa được (VII, p. 40, Mệnh đề 12) và giao hoán với nhau; do đó $\mathfrak{F}_{(L)}$ chéo hóa được theo VII, p. 41, Mệnh đề 13.
 
-#### Hệ quả {#alg-vii-s5-n8-cor-3 .statement}
+#### Hệ quả {#alg-vii-s5-n8-cor-3 .statement tag=076U}
 
 *Tổng và tích của hai tự đồng cấu nửa đơn tuyệt đối giao hoán với nhau là nửa đơn tuyệt đối*.
 
-#### Nhận xét {#alg-vii-s5-n8-rem-1 .statement}
+#### Nhận xét {#alg-vii-s5-n8-rem-1 .statement tag=076V}
 
 — Giả sử các điều kiện của Mệnh đề 16 được thỏa mãn và lấy $L$ là một mở rộng của $K$. Theo Mệnh đề 13, tập hợp $\mathfrak{F}_{(L)}$ chéo hóa được khi và chỉ khi đại số $L \otimes_K A$ chéo hóa được. Suy ra từ V, p. 30, Mệnh đề 2 rằng tồn tại một mở rộng hữu hạn $L$ của $K$ sao cho $\mathfrak{F}_{(L)}$ chéo hóa được. Thực ra $L$ có thể được lấy là *Galois*; thật vậy, lấy một tập con hữu hạn $\mathfrak{F}'$ của $\mathfrak{F}$ sinh ra $A$, ta có thể lấy $L$ là một trường phân rã của các đa thức cực tiểu của các phần tử của $\mathfrak{F}'$ (Mệnh đề 12 và 13).
 
 ### 9. Phân tích Jordan
 
-#### Định nghĩa 8 {#alg-vii-s5-def-8 .statement}
+#### Định nghĩa 8 {#alg-vii-s5-def-8 .statement tag=076W}
 
 *Cho $E$ là một không gian vectơ hữu hạn chiều trên một trường giao hoán và cho $u$ là một tự đồng cấu của $E$. Khi đó một phân tích Jordan của $u$ là một cặp* $(u_s, u_n)$, *trong đó $u_s$ là một tự đồng cấu nửa đơn của $E$ và $u_n$ là một tự đồng cấu lũy linh của $E$, sao cho* $u_s u_n = u_n u_s$ *và* $u = u_s + u_n$.
 
-#### Định lý 1 {#alg-vii-s5-thm-1 .statement}
+#### Định lý 1 {#alg-vii-s5-thm-1 .statement tag=076X}
 
 *Cho $E$ là một không gian vectơ hữu hạn chiều trên một trường giao hoán $K$ và cho $u$ là một tự đồng cấu của $E$. Khi đó $u$ có một phân tích Jordan* $(u_s, u_n)$ *khi và chỉ khi các trị riêng của $u$ tách được trên $K$. Hơn nữa phân tích là duy nhất, các đa thức đặc trưng của $u$ và $u_s$ trùng nhau, và tồn tại các đa thức* $P, Q \in K[X]$, *không có hạng tử hằng, sao cho* $u_s = P(u)$ *và* $u_n = Q(u)$.
 
 A) Trước hết ta chứng minh trường hợp đặc biệt sau đây
 
-#### Bổ đề 4 {#alg-vii-s5-lem-4 .statement}
+#### Bổ đề 4 {#alg-vii-s5-lem-4 .statement tag=076Y}
 
 *Cho $E$ là một không gian vectơ hữu hạn chiều trên một trường giao hoán $K$ và cho $u$ là một tự đồng cấu tam giác hóa được của $E$. Khi đó tồn tại duy nhất một tự đồng cấu chéo hóa được $v$ của $E$ giao hoán với $u$ và sao cho* $u - v$ *là lũy linh. Hơn nữa, với các điều kiện này, các đa thức đặc trưng của $u$ và $v$ trùng nhau, và tồn tại một đa thức* $P \in K[X]$ *sao cho* $v = P(u)$.
 
@@ -653,15 +653,15 @@ Ngược lại, giả sử các trị riêng của u tách được trên K, và
 
 Bất cứ khi nào một tự đồng cấu f có một phân tích Jordan, ta ký hiệu nó là (f,, f,), và các tự đồng cấu f, và f, lần lượt được gọi là thành phần *nửa đơn* tuyệt đối và thành phần lũy linh của f. Khi K hoàn hảo, mọi tự đồng cấu đều có một phân tích Jordan; trong trường hợp này cũng không có sự phân biệt giữa các tự đồng cấu nửa đơn tuyệt đối và các tự đồng cấu nửa đơn, và đôi khi ta gọi « thành phần nửa đơn » thay cho « thành phần nửa đơn tuyệt đối ».
 
-#### Hệ quả 1 {#alg-vii-s5-lem-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-vii-s5-lem-4-cor-1 .statement tag=076Z}
 
 Giả sử $u$ có một phân tích Jordan, và cho L là một mở rộng của K. Khi đó $u_{(L)}$ có một phân tích Jordan, với $(u_{(L)})_s = (u_s)_{(L)}$ và $(u_{(L)})_n = (u_n)_{(L)}$.
 
-#### Hệ quả 2 {#alg-vii-s5-lem-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-vii-s5-lem-4-cor-2 .statement tag=0770}
 
 Giả sử u có một phân tích Jordan. Khi đó mọi *tự đồng cấu* của E *giao hoán* với u cũng giao hoán với $u_s$ và $u_n$.
 
-#### Hệ quả 3 {#alg-vii-s5-lem-4-cor-3 .statement}
+#### Hệ quả 3 {#alg-vii-s5-lem-4-cor-3 .statement tag=0771}
 
 Cho $u$ và $v$ là hai tự đồng cấu giao hoán với nhau của E có các phân tích Jordan.
 a) Các tự đồng cấu $u, v, u_s, v_s, u_n, v_n, v,$ đều giao hoán với nhau.
@@ -674,27 +674,27 @@ $$
 $$
 Phần a) suy ra từ Hệ quả 2. Để chứng minh phần b), chỉ cần nhận thấy rằng $u_s + v_s$ và $u_s v_s$ là nửa đơn tuyệt đối (VII, p. 43, Hệ quả) và rằng $u_n + v_n$ và $u_s v_n + u_n v_s + u_n v_n$ là lũy linh (vì là các tổng của những tự đồng cấu lũy linh giao hoán với nhau).
 
-#### Hệ quả 4 {#alg-vii-s5-lem-4-cor-4 .statement}
+#### Hệ quả 4 {#alg-vii-s5-lem-4-cor-4 .statement tag=0772}
 
 Giả sử $u$ có một phân tích Jordan, và cho R là một đa thức trong $\mathbf{K}[X]$. Khi đó tự đồng cấu $R(u)$ có một phân tích Jordan với $R(u)_s = R(u_s)$.
 
-#### Nhận xét 1 {#alg-vii-s5-n9-rem-1 .statement}
+#### Nhận xét 1 {#alg-vii-s5-n9-rem-1 .statement tag=0773}
 
 Ta có $\det(u_s) = \det(u)$ và $\operatorname{Tr}(u_s) = \operatorname{Tr}(u)$.
 
-#### Nhận xét 2 {#alg-vii-s5-n9-rem-2 .statement}
+#### Nhận xét 2 {#alg-vii-s5-n9-rem-2 .statement tag=0774}
 
 Một điều kiện cần và đủ để $u$ tam giác hóa được là $u$ có một phân tích Jordan với $u_s$ chéo hóa được. Khi đó tồn tại một cơ sở của E sao cho ma trận của $u$ đối với cơ sở đó là tam giác dưới, và ma trận của $u_s$ là đường chéo, với cùng đường chéo như ma trận của $u$ (xem Bổ đề 4 và Mệnh đề 19 dưới đây).
 Tuy nhiên, cần lưu ý rằng nếu ma trận của $u$ đối với một cơ sở nào đó là tam giác, thì nói chung không suy ra rằng ma trận của $u_s$ đối với cùng cơ sở đó là đường chéo.
 
-#### Nhận xét 3 {#alg-vii-s5-n9-rem-3 .statement}
+#### Nhận xét 3 {#alg-vii-s5-n9-rem-3 .statement tag=0775}
 
 Khái niệm phân tích Jordan đối với một ma trận vuông có thể được định nghĩa theo cách tương tự. Chẳng hạn, đối với ma trận Jordan $U_{m,\alpha}$ ta có
 $$
 (U_{m,\alpha})_s = \alpha \cdot I_m , \quad (U_{m,\alpha})_n = U_{m,0} .
 $$
 
-#### Nhận xét 4 {#alg-vii-s5-n9-rem-4 .statement}
+#### Nhận xét 4 {#alg-vii-s5-n9-rem-4 .statement tag=0776}
 
 Nếu $u$ là nửa đơn nhưng không tuyệt đối nửa đơn, thì nó không có phân tích Jordan.
 
@@ -704,7 +704,7 @@ $$
 $$
 Nếu $V$ có số chiều hữu hạn $m$, thì $u$ là unipotent khi và chỉ khi $\chi_u(X) = (X - 1)^m$ (VII, p. 33, Hệ quả 3 của Mệnh đề 5).
 
-#### Mệnh đề 17 {#alg-vii-s5-prop-17 .statement}
+#### Mệnh đề 17 {#alg-vii-s5-prop-17 .statement tag=0777}
 
 — Cho $E$ là một không gian vectơ hữu hạn chiều trên một trường giao hoán, và cho $f$ là một tự đồng cấu của $E$. Khi đó các điều kiện sau là tương đương:
 (i) $f$ có một phân tích Jordan và là một tự đẳng cấu ;
@@ -717,7 +717,7 @@ Hơn nữa, dưới các điều kiện này, trong ký hiệu của (iii), ta p
 
 Đặt $f_r = f_s^{-1}f = ff_s^{-1} = 1 + f_s^{-1}f_n$, và gọi đây là thành phần unipotent của $f$. Cặp $(f_s, f_r)$ thường được gọi là phân tích Jordan nhân của tự đẳng cấu $f$.
 
-#### Mệnh đề 18 {#alg-vii-s5-prop-18 .statement}
+#### Mệnh đề 18 {#alg-vii-s5-prop-18 .statement tag=0778}
 
 — Cho $E$ là một không gian vectơ hữu hạn chiều trên một trường giao hoán $K$, cho $u$ là một tự đồng cấu của $E$ và cho $E'$ là một không gian con của $E$ đóng đối với $u$. Cho $u'$ (tương ứng $u''$) là tự đồng cấu của $E'$ (tương ứng $E/E'$) cảm sinh bởi $u$. Khi đó $\chi_u = \chi_{u'} \cdot \chi_{u''}$.
 
@@ -736,7 +736,7 @@ $$
 
 và $\chi_u = \chi_U = \chi_{U'}\chi_{U''} = \chi_{u'}\chi_{u''}$ (xem III, p. 533, Bài tập 2). Ta suy ra rằng tập hợp các trị riêng của $u$ là hợp của các tập hợp các trị riêng của $u'$ và $u''$. Nếu $u'$ và $u''$ có các phân tích Jordan thì các trị riêng của $u'$ và $u''$ là tách được trên K, do đó các trị riêng của $u$ cũng vậy, và $u$ có một phân tích Jordan (VII, p. 43, Định lý 1). Ngược lại, nếu $u$ có một phân tích Jordan $(s, n)$ thì $s$ và $n$ giữ $E'$ bất biến vì chúng là các đa thức theo $u$; gọi $s', n', s'', n''$ là các tự đồng cấu của $E', E', E'', E''$ cảm sinh bởi $s, n, s, n$ tương ứng. Khi đó $s'$ và $s''$ là nửa đơn tuyệt đối, vì các đa thức cực tiểu của chúng chia hết đa thức cực tiểu của $s$ (VII, p. 42, Mệnh đề 15); ngoài ra $n'$ và $n''$ là lũy linh. Cuối cùng $u' = s' + n', u'' = s'' + n'', s'n' = n's', \text{ và } s''n'' = n''s''$, điều này hoàn tất chứng minh.
 
-#### Mệnh đề 19 {#alg-vii-s5-prop-19 .statement}
+#### Mệnh đề 19 {#alg-vii-s5-prop-19 .statement tag=0779}
 
 — *Cho E là một không gian vectơ hữu hạn chiều trên một trường giao hoán K, và cho $\mathscr{S}$ là một tập hợp các tự đồng cấu tam giác hoá được giao hoán của E. Khi đó tồn tại một cơ sở của E sao cho, đối với cơ sở đó, ma trận của mỗi phần tử u của $\mathscr{S}$ là tam giác dưới và ma trận của $u_s$ là đường chéo, với cùng các phần tử đường chéo như của u.*
 

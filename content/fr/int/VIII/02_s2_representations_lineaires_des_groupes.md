@@ -40,7 +40,7 @@ subsections:
       pdf_page: 136
 statements: 22
 exercises: 10
-content_sha256: 38e9bbf73fd018b795ddce94b4335ebc194528823363e779d98fafa7adcfd31c
+content_sha256: f101c9efbd5213773c78a2ae378b4257a78d5874487de35caa122e6c83b3064e
 ---
 
 ## § 2. Représentations linéaires des groupes.
@@ -49,7 +49,7 @@ content_sha256: 38e9bbf73fd018b795ddce94b4335ebc194528823363e779d98fafa7adcfd31c
 
 Soient $G$ un groupe topologique, $E$ un espace localement convexe, $U$ une représentation linéaire de $G$ dans $E$.
 
-#### Définition 1 {#int-viii-s2-def-1 .statement}
+#### Définition 1 {#int-viii-s2-def-1 .statement tag=09IF}
 
 (i) On dit que $U$ est séparément continue si, pour tout $s \in G$, $U(s)$ est un endomorphisme continu de $E$, et si, pour tout $x \in E$, l’application $s \to U(s)x$ de $G$ dans $E$ est continue.
 
@@ -57,11 +57,11 @@ Soient $G$ un groupe topologique, $E$ un espace localement convexe, $U$ une repr
 
 (iii) On dit que U est équicontinue si elle est continue et si l’ensemble des endomorphismes U(s), où s parcourt G, est équicontinu.
 
-#### Remarque 1 {#int-viii-s2-n1-rem-1 .statement}
+#### Remarque 1 {#int-viii-s2-n1-rem-1 .statement tag=09IG}
 
 Dire que U est séparément continue signifie que s → U(s) est une application continue de G dans l’espace $\mathscr{L}(E; E)$ des endomorphismes continus de E, muni de la topologie de la convergence simple.
 
-#### Remarque 2 {#int-viii-s2-n1-rem-2 .statement}
+#### Remarque 2 {#int-viii-s2-n1-rem-2 .statement tag=09IH}
 
 Dire que U est continue équivaut à l’ensemble des trois conditions suivantes :
 
@@ -73,11 +73,11 @@ Lorsque G est localement compact, les conditions a) et b) sont équivalentes à 
 
 a’) pour toute partie compacte K de G, U(K) est équicontinu.
 
-#### Remarque 3 {#int-viii-s2-n1-rem-3 .statement}
+#### Remarque 3 {#int-viii-s2-n1-rem-3 .statement tag=09II}
 
 Supposons que U soit une représentation linéaire continue G dans E. Pour tout s ∈ G, soit $\widehat{U}(s)$ le prolongement continu de U(s) au complété $\widehat{E}$ de E. Alors $\widehat{U}$ est une représentation linéaire de G dans $\widehat{E}$, satisfaisant aux conditions a) et c) de la Remarque 2, et aussi à la condition b) d’après Top. gén., chap. X, 2e éd., § 2, no 2, prop. 4. Donc $\widehat{U}$ est une représentation linéaire continue de G dans $\widehat{E}$.
 
-#### Remarque 4 {#int-viii-s2-n1-rem-4 .statement}
+#### Remarque 4 {#int-viii-s2-n1-rem-4 .statement tag=09IJ}
 
 Si E est un espace normé, on dit que U est isométrique lorsque $\|U(s)\| = 1$ pour tout $s \in G$. Il suffit pour cela que $\|U(s)\| \leq 1$ pour tout $s \in G$, car on a alors
 
@@ -86,19 +86,19 @@ $$
 $$
 d'où $\|U(s)\| = \|U(s^{-1})\| = 1$ pour tout $s \in G$.
 
-#### Proposition 1 {#int-viii-s2-prop-1 .statement}
+#### Proposition 1 {#int-viii-s2-prop-1 .statement tag=09IK}
 
 *Si G est localement compact et si E est tonnelé, toute représentation linéaire U séparément continue de G dans E est continue.*
 
 En effet, pour toute partie compacte K de G, $U(K)$ est compact pour la topologie de la convergence simple (*Remarque 1*), donc est équicontinu (*Esp. vect. top.*, Chap. III, § 3, no 6, th. 2); on applique alors la *Remarque 2*.
 
-#### Lemme 1 {#int-viii-s2-lem-1 .statement}
+#### Lemme 1 {#int-viii-s2-lem-1 .statement tag=09IL}
 
 *Soient G un groupe localement compact, $\rho$ une fonction finie semi-continue inférieurement $\geq 0$ sur G telle que $\rho(st) \leq \rho(s)\rho(t)$ quels que soient s, t dans G. Alors $\rho$ est majorée dans toute partie compacte de G.*
 
 Il existe une partie ouverte non vide U de G telle que $\rho$ soit majorée dans U (*Top. gén.*, chap. IX, 2e éd., § 5, no 4, th. 2). Soit K une partie compacte de G. Alors K est recouvert par un nombre fini d'ensembles $s_1 U, \ldots, s_n U$. Pour tout $x \in U$, on a $\rho(s_i x) \leq \rho(s_i) \rho(x)$, donc $\rho$ est majorée dans $s_i U$, donc dans K.
 
-#### Lemme 2 {#int-viii-s2-lem-2 .statement}
+#### Lemme 2 {#int-viii-s2-lem-2 .statement tag=09IM}
 
 *Soient G un groupe topologique, U une représentation linéaire de G dans un espace normé E, A une partie partout dense de E. On suppose que, pour tout $s \in G$, $U(s)$ est continu et que, pour tout $x \in A$, $s \to U(s)x$ est une application continue de G dans E. Alors la fonction $s \to g(s) = \|U(s)\|$ sur G est semi-continue inférieurement et vérifie $g(st) \leq g(s)g(t)$.
 
@@ -108,7 +108,7 @@ $$
 g(st) = \|U(s)U(t)\| \leq \|U(s)\| \cdot \|U(t)\| = g(s)g(t).
 $$
 
-#### Proposition 2 {#int-viii-s2-prop-2 .statement}
+#### Proposition 2 {#int-viii-s2-prop-2 .statement tag=09IN}
 
 *Soient G un groupe localement compact, U une représentation linéaire de G dans un espace normé E. Soit A une partie partout dense de E. On suppose que, pour tout s ∈ G, U(s) est continu et que, pour tout x ∈ A, s → U(s)x est une application continue de G dans E. Alors U est continue.
 En effet, \|U(s)\| est majoré sur toute partie compacte de G d’après les lemmes 1 et 2, et l’on applique alors la Remarque 2.
@@ -117,7 +117,7 @@ En effet, \|U(s)\| est majoré sur toute partie compacte de G d’après les lem
 
 Soit U une représentation linéaire séparément continue de G dans E. Soit E’ le dual de E. L’application s → $^tU(s)$ est une représentation linéaire dans E’ du groupe $G^0$ opposé à G ; nous dirons que cette représentation est la transposée de U. L’application $s \to ^tU(s^{-1}) = ^tU(s)^{-1}$ est une représentation linéaire de G dans E’, appelée contragrédiente de U.
 
-#### Lemme 3 {#int-viii-s2-lem-3 .statement}
+#### Lemme 3 {#int-viii-s2-lem-3 .statement tag=09IO}
 
 Soient X un espace localement compact, Y et Z des espaces topologiques, φ une application continue de $X \times Y$ dans Z, $\varphi_x$ l’application $y \to \varphi(x, y)$ de Y dans Z. Les espaces $\mathscr{C}(Y)$, $\mathscr{C}(Z)$ étant munis de la topologie de la convergence compacte, l’application $(x, f) \to f \circ \varphi_x$ de $X \times \mathscr{C}(Z)$ dans $\mathscr{C}(Y)$ est continue.
 
@@ -125,7 +125,7 @@ Il suffit évidemment de considérer le cas où X est compact. Soient $(x_0, f_0
 
 Revenons alors aux notations antérieures.
 
-#### Proposition 3 {#int-viii-s2-prop-3 .statement}
+#### Proposition 3 {#int-viii-s2-prop-3 .statement tag=09IP}
 
 (i) Si U est séparément continue, $^tU$ est séparément continue lorsqu’on munit E’ de la topologie faible $\sigma(E', E)$.
 
@@ -167,7 +167,7 @@ donc $\gamma_\chi$ est une représentation linéaire de $G$. Pour $\chi = 1$, on
 
 Supposons maintenant $G$ et $X$ localement compacts, $G$ opérant continûment sur $X$, et $\chi$ continue sur $G \times X$. Alors $\mathscr{C}(X)$ et $\mathscr{K}(X)$ sont stables pour les $\gamma_\chi(s)$, d’où des représentations linéaires de $G$ dans $\mathscr{C}(X)$ et $\mathscr{K}(X)$ que nous noterons encore $\gamma_\chi$.
 
-#### Proposition 4 {#int-viii-s2-prop-4 .statement}
+#### Proposition 4 {#int-viii-s2-prop-4 .statement tag=09IQ}
 
 Les représentations linéaires $\gamma_\chi$ de $G$ dans $\mathscr{C}(X)$ et $\mathscr{K}(X)$ sont continues.
 
@@ -181,7 +181,7 @@ $$
 
 donc $f \to \gamma_\chi(s_0)f$ est une application linéaire continue de $\mathscr{K}(X, H)$ dans $\mathscr{K}(X, L)$ ; il en résulte que $f \to \gamma_\chi(s_0)f$ est une application linéaire continue de $\mathscr{K}(X)$ dans lui-même ($Esp.\ vect.\ top.$, chap. II, § 2, n° 2, cor. de la prop. 1). D’autre part, la topologie de $\mathscr{K}(X, L)$ est induite par celle de $\mathscr{C}(X)$. D’après ce qui a déjà été démontré, l’application $s \to \gamma_\chi(s)f$ de $V$ dans $\mathscr{K}(X, L)$ est continue. Ceci achève de prouver que $\gamma_\chi$ est séparément continue.
 
-#### Proposition 5 {#int-viii-s2-prop-5 .statement}
+#### Proposition 5 {#int-viii-s2-prop-5 .statement tag=09IR}
 
 *Supposons que chaque fonction $\chi(s, .)$ soit bornée. Alors $\gamma_\chi$ laisse stable $\mathscr{K}(X)$, et la représentation linéaire $\gamma_\chi$ de $G$ dans $\mathscr{K}(X)$ est continue.*
 
@@ -209,11 +209,11 @@ $$
 
 La représentation linéaire $\gamma_\chi$ de G dans $\mathscr{C}(X)$ admet une représentation contragrédiente dans l’espace $\mathscr{C}'(X)$ des mesures sur X à support compact, représentation que nous noterons encore $\gamma_\chi$; les endomorphismes $\gamma_\chi(s)$ de $\mathscr{C}'(X)$ sont les restrictions des endomorphismes $\gamma_\chi(s)$ de $\mathscr{M}(X)$.
 
-#### Proposition 6 {#int-viii-s2-prop-6 .statement}
+#### Proposition 6 {#int-viii-s2-prop-6 .statement tag=09IS}
 
 Si l’on munit $\mathscr{M}(X)$ (resp. $\mathscr{C}'(X)$) de la topologie de la convergence uniforme dans les parties compactes de $\mathscr{H}(X)$ (resp. $\mathscr{C}(X)$), la représentation linéaire $\gamma_\chi$ de G dans $\mathscr{M}(X)$ (resp. $\mathscr{C}'(X)$) est continue.
 
-#### Proposition 7 {#int-viii-s2-prop-7 .statement}
+#### Proposition 7 {#int-viii-s2-prop-7 .statement tag=09IT}
 
 Supposons que chaque fonction $\chi(s, .)$ soit bornée. Alors $\gamma_\chi$ laisse stable $\mathscr{M}^1(X)$ et, si l’on munit $\mathscr{M}^1(X)$ de la topologie de la convergence uniforme dans les parties compactes de $\overline{\mathscr{H}(X)}$, la représentation linéaire $\gamma_\chi$ de G dans $\mathscr{M}^1(X)$ est continue.
 
@@ -266,7 +266,7 @@ $$
 
 donc $\gamma_{\chi,p}(s)f \in \mathscr{L}_c^n(X, \beta)$. On voit que $\gamma_{\chi,p}(s)$ est un endomorphisme *isométrique* de $\mathscr{L}_c^n(X, \beta)$ et définit par passage au quotient un endomorphisme isométrique de $L_c^n(X, \beta)$, noté encore $\gamma_{\chi,p}(s)$. D’autre part, $\chi^{1/p}$ est évidemment un multiplicateur, donc $\gamma_{\chi,p}$ est une représentation linéaire de $G$ dans $L_c^n(X, \beta)$ d’après ce qu’on a vu au no 3.
 
-#### Proposition 8 {#int-viii-s2-prop-8 .statement}
+#### Proposition 8 {#int-viii-s2-prop-8 .statement tag=09IU}
 
 *La représentation linéaire $\gamma_{\chi,p}$ de $G$ dans $L_c^n(X, \beta)$ est continue et isométrique.*
 
@@ -274,7 +274,7 @@ Soit $f \in \mathscr{H}(X)$. Quand $s$ tend vers $s_0$ dans $G$, $\gamma_{\chi,p
 
 Pour le cas où $\chi$ n’est pas supposée continue, cf. § 4, exerc. 13.
 
-#### Proposition 9 {#int-viii-s2-prop-9 .statement}
+#### Proposition 9 {#int-viii-s2-prop-9 .statement tag=09IV}
 
 Supposons que chaque fonction $\chi(s, .)$ soit bornée. Alors $\gamma_\chi$ laisse stable $L_c^p(X, \beta)$, et la représentation linéaire $\gamma_\chi$ de $G$ dans $L_c^p(X, \beta)$ est continue.
 
@@ -323,7 +323,7 @@ $$
 
 ### 7. Relations entre les endomorphismes $U(\mu)$ et les endomorphismes $U(s)$.
 
-#### Lemme 4 {#int-viii-s2-lem-4 .statement}
+#### Lemme 4 {#int-viii-s2-lem-4 .statement tag=09IW}
 
 *Soient T un espace localement compact, a un point de T, M une partie de $\mathscr{M}(T)$, $\mathfrak{F}$ un filtre sur M. On suppose que :*
 
@@ -347,13 +347,13 @@ $$
 $$
 Comme le premier et le troisième terme du second membre tendent vers 0 suivant $\mathfrak{F}$, on voit bien que $\lim_{\mu, \mathfrak{F}} \mu(f) = f(a)$.
 
-#### Corollaire 1 {#int-viii-s2-lem-4-cor-1 .statement}
+#### Corollaire 1 {#int-viii-s2-lem-4-cor-1 .statement tag=09IX}
 
 Les hypothèses étant celles du lemme 4, supposons de plus qu’il existe une partie compacte $K_0$ de T contenant les supports de toutes les mesures $\mu \in M$. Alors $\mathfrak{F}$ converge aussi vers $\varepsilon_a$ dans $\mathscr{C}'(T)$ muni de la topologie de la convergence compacte dans $\mathscr{C}(T)$.
 
 En effet, l’application de restriction de $\mathscr{C}(T)$ dans $\mathscr{C}(K_0)$ est continue ; donc, si H est une partie compacte de $\mathscr{C}(T)$, les restrictions à $K_0$ des fonctions de H forment une partie compacte de $\mathscr{C}(K_0)$. Il suffit alors d’appliquer le lemme 4 en remplaçant T par $K_0$.
 
-#### Corollaire 2 {#int-viii-s2-lem-4-cor-2 .statement}
+#### Corollaire 2 {#int-viii-s2-lem-4-cor-2 .statement tag=09IY}
 
 Les hypothèses étant celles du cor. 1, soit $f$ une application continue de T dans un espace localement convexe quasi-complet E. On a
 $$
@@ -361,7 +361,7 @@ $$
 $$
 Ceci résulte du cor. 1 et de la prop. 14 du chap. VI, § 1, no 6.
 
-#### Corollaire 3 {#int-viii-s2-lem-4-cor-3 .statement}
+#### Corollaire 3 {#int-viii-s2-lem-4-cor-3 .statement tag=09IZ}
 
 Soient G un groupe localement compact, E un espace localement convexe quasi-complet, U une représentation linéaire continue de G dans E. Soient $\beta$ une mesure positive sur G, a un élément de G, $\mathscr{B}$ une base du filtre des voisinages de a, formée de voisinages compacts. Pour tout $V \in \mathscr{B}$, soit $f_V$ une fonction continue $\geqslant 0$ sur G, de support contenu dans V, et telle que $\int f_V d\beta = 1$. Alors, pour tout $x \in E$, on a
 $$
@@ -371,7 +371,7 @@ la limite étant prise suivant le filtre des sections de $\mathscr{B}$.
 
 L’application $s \to U(s)x$ de G dans E est continue. D’après le cor. 2, on a $U(a)x = \lim_V \int (U(s)x) \cdot f_V(s)d\beta(s)$ suivant le filtre des sections de $\mathscr{B}$, c’est-à-dire $U(a)x = \lim_V U(f_V \cdot \beta)x$.
 
-#### Proposition 10 {#int-viii-s2-prop-10 .statement}
+#### Proposition 10 {#int-viii-s2-prop-10 .statement tag=09J0}
 
 Soient G un groupe localement compact, E un espace localement convexe quasi-complet, U une représentation linéaire continue de G dans E, $\beta$ une mesure positive sur G de support G.
 

@@ -49,7 +49,7 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: b518deddff2b844f2073715d1ba26579d984ec681a4cf5a0dc217361f4538b00
+content_sha256: bb9011131c235f557b70d1568fb503a2bded76eb3a6bc7fabc1b5db368218573
 ---
 
 ## § 2. LINEAR DIFFERENTIAL EQUATIONS
@@ -72,7 +72,7 @@ $$
 
 where $b$ is a map from $J$ into $E$; when $b = 0$ one says that the linear differential equation (2) is *homogeneous*.
 
-#### Example 1 {#fvr-iv-s2-n1-exa-1 .statement}
+#### Example 1 {#fvr-iv-s2-n1-exa-1 .statement tag=08CO}
 
 When $E$ is of finite dimension $n$ over $\mathbf{R}$ one can identify the endomorphism $A(t)$ with its *matrix* $\left(a_{ij}(t)\right)$ *with respect to any basis of* $E$ (*Alg.*, II, p. 343); when one identifies a vector $x \in E$ with the column matrix $(x_j)$ of its components with respect to the basis of $E$ under consideration the expression $A(t).x$ conforms to the general conventions of Algebra (*Alg.*, II, p. 343, prop 2). In this case, equation (2) is equivalent to the system of scalar differential equations
 
@@ -82,7 +82,7 @@ $$
 
 (3)
 
-#### Example 2 {#fvr-iv-s2-n1-exa-2 .statement}
+#### Example 2 {#fvr-iv-s2-n1-exa-2 .statement tag=08CP}
 
 Let $G$ be a *complete normed algebra* over $\mathbf{R}$, and $a(t)$, $b(t)$ and $c(t)$ three maps from $J$ into $G$; the equation
 
@@ -112,7 +112,7 @@ $$
 $$
 for any $t \in J$ and $\mathbf{x}_1, \mathbf{x}_2$ in $E$; in other words, the right-hand side of (2) satisfies the conditions of lemma 1 of IV, p. 165 and is Lipschitz with respect to the regulated function $\|A(t)\|$ on $J \times E$. In consequence (IV, p. 173, cor. 2):
 
-#### Theorem 1 {#fvr-iv-s2-thm-1 .statement}
+#### Theorem 1 {#fvr-iv-s2-thm-1 .statement tag=08CQ}
 
 *Let* $t \mapsto A(t)$ *be a regulated map of* $J$ *into* $\mathscr{L}(E)$, *and* $t \mapsto \mathbf{b}(t)$ *be a regulated map of* $J$ *into* $E$. *For every point* $(t_0, \mathbf{x}_0)$ *of* $J \times E$ *the linear equation* (2) *admits one and only one solution defined on all of* $J$ *and equal to* $\mathbf{x}_0$ *at the point* $t_0$.
 
@@ -124,13 +124,13 @@ $$
 $$
 is said to be *associated* with the inhomogeneous equation (2); and one knows (*Alg.*, II, p. 241, prop. 14) that if $\mathbf{u}_1$ is an integral of the inhomogeneous equation (2) then every integral of this equation is of the form $\mathbf{u} + \mathbf{u}_1$ where $\mathbf{u}_1$ is a solution of the associated homogeneous equation (4), and conversely. We shall first study in this subsection the integrals of a *homogeneous* equation (4).
 
-#### Proposition 1 {#fvr-iv-s2-prop-1 .statement}
+#### Proposition 1 {#fvr-iv-s2-prop-1 .statement tag=08CR}
 
 *The set* $\mathscr{I}$ *of integrals of the homogeneous linear equation* (4), *defined on* $J$, *is a vector subspace of the space* $C(J; E)$ *of continuous maps from* $J$ *into* $E$.
 
 The proof is immediate.
 
-#### Theorem 2 {#fvr-iv-s2-thm-2 .statement}
+#### Theorem 2 {#fvr-iv-s2-thm-2 .statement tag=08CS}
 
 *For every point* $(t_0, \mathbf{x}_0)$ *of* $J \times E$ *let* $\mathbf{u}(t, t_0, \mathbf{x}_0)$ *be the integral of the homogeneous equation* (4) *defined on* $J$ *and equal to* $\mathbf{x}_0$ *at* $t_0$.
 1. *For every point* $t \in J$ *the map* $\mathbf{x}_0 \mapsto \mathbf{u}(t, t_0, \mathbf{x}_0)$ *is a bijective bicontinuous linear map* $C(t, t_0)$ *of* $E$ *to itself*.
@@ -170,7 +170,7 @@ for any $\mathbf{x}_0 \in E$, whence the first relation (6); since $C(s, s) = I$
 
 One says that $C(t, t_0)$ is the *resolvent* of equation (2) of IV, p. 178.
 
-#### Corollary 1 {#fvr-iv-s2-thm-2-cor-1 .statement}
+#### Corollary 1 {#fvr-iv-s2-thm-2-cor-1 .statement tag=08CT}
 
 *The map which to every point $\mathbf{x}_0 \in E$ associates the continuous function $t \mapsto C(t, t_0).\mathbf{x}_0$, defined on J, is an isomorphism of the normed space E onto the vector space $\mathscr{I}$ of integrals of (4), endowed with the topology of compact convergence.*
 
@@ -182,7 +182,7 @@ $$
 
 it is clear that the inverse map is also continuous.
 
-#### Corollary 2 {#fvr-iv-s2-thm-2-cor-2 .statement}
+#### Corollary 2 {#fvr-iv-s2-thm-2-cor-2 .statement tag=08CU}
 
 *The map $(s, t) \mapsto C(s, t)$ of $J \times J$ into $\mathscr{L}(E)$ is continuous.*
 
@@ -194,7 +194,7 @@ t \mapsto C(t_0, t) = (C(t, t_0))^{-1}
 $$
 admits a derivative equal to $-(C(t, t_0))^{-1} (dC(t, t_0)/dt)(C(t, t_0))^{-1}$ (on the complement of a countable set) (I, p. 8, prop. 4), that is to say (by IV, p. 179, formula (5)) equal to $-C(t_0, t) A(t)$.
 
-#### Corollary 3 {#fvr-iv-s2-thm-2-cor-3 .statement}
+#### Corollary 3 {#fvr-iv-s2-thm-2-cor-3 .statement tag=08CV}
 
 *Let K be a compact interval contained in J, and let $k = \sup_{t \in K} \|A(t)\|$. For all t and $t_0$ in K*
 $$
@@ -207,7 +207,7 @@ $$
 $$
 for any $t$ and $t_0$ in K, and $x_0$ in E, which is equivalent to the inequality (7) by the definition of the norm on $\mathscr{L}(E)$.
 
-#### Proposition 2 {#fvr-iv-s2-prop-2 .statement}
+#### Proposition 2 {#fvr-iv-s2-prop-2 .statement tag=08CW}
 
 *Let B be a continuous endomorphism of E, independent of t, and commuting with A(t) for all $t \in J$; then B commutes with $C(t, t_0)$ for all t and $t_0$ in J.*
 
@@ -259,7 +259,7 @@ $$
 
 Since one has $C(t, t_0).\int_{t_0}^t C(t_0, s).\mathbf{b}(s)\,ds = \int_{t_0}^t C(t, t_0)C(t_0, s).\mathbf{b}(s)\,ds$ (II, p. 59, formula (9)), one obtains (taking account of the first formula (6) of IV, p. 179) the following result:
 
-#### Proposition 3 {#fvr-iv-s2-prop-3 .statement}
+#### Proposition 3 {#fvr-iv-s2-prop-3 .statement tag=08CX}
 
 *With the notation of th. 2* (IV, p. 179), *for every point* $(t_0, \mathbf{x}_0)$ *of* $J \times \mathbf{E}$ *the integral of the linear equation* (2) *defined on* $J$ *and equal to* $\mathbf{x}_0$ *at* $t_0$ *is given by the formula*
 
@@ -313,7 +313,7 @@ In the space $\mathscr{C}(J; E)$ of continuous maps from J into E, endowed with 
 
 A basis $(\mathbf{u}_j)_{1 \leq j \leq n}$ of this space (over the field $\mathbf{C}$) is called a *fundamental system* of integrals of (4).
 
-#### Proposition 4 {#fvr-iv-s2-prop-4 .statement}
+#### Proposition 4 {#fvr-iv-s2-prop-4 .statement tag=08CY}
 
 *For the $n$ integrals $\mathbf{u}_j$ ($1 \leq j \leq n$) of equation (4) to form a fundamental system it is necessary and sufficient that their values $\mathbf{u}_j(t_0)$ at a point $t_0 \in J$ be linearly independent vectors in $E$.*
 
@@ -336,7 +336,7 @@ $$
 
 By prop. 4 of IV, p. 184, for $(\mathbf{u}_j)_{1 \leq j \leq n}$ to be a fundamental system of integrals of (4) it is necessary and sufficient that the determinant $\Delta(t)$ of the $\mathbf{u}_j$ be $\neq 0$ at some one point $t_0$ of $J$; the formula (14) then shows that $\Delta(t) \neq 0$ at every point of $J$, in other words, that the vectors $\mathbf{u}_j(t)$ ($1 \leq j \leq n$) are always linearly independent.
 
-#### Proposition 5 {#fvr-iv-s2-prop-5 .statement}
+#### Proposition 5 {#fvr-iv-s2-prop-5 .statement tag=08CZ}
 
 *The determinant of the matrix $C(t, t_0)$ is given by the formula*
 $$
@@ -377,11 +377,11 @@ where $H(t) = (h_{jk}(t))$ is a matrix with regulated entries on $K$. By the def
 
 In particular, when one knows $n - 1$ linearly independent integrals of equation (4) of IV, p. 183, integrating this equation reduces to that of a single homogeneous scalar equation, and then the evaluation of $n$ primitives.
 
-#### Remark 1 {#fvr-iv-s2-n4-rem-1 .statement}
+#### Remark 1 {#fvr-iv-s2-n4-rem-1 .statement tag=08D0}
 
 All the above applies also to the case where E is of dimension $n$ over the field $\mathbf{R}$ and $A(t)$ is an endomorphism of E for every $t \in J$: one has only to replace $\mathbf{C}$ by $\mathbf{R}$ throughout.
 
-#### Remark 2 {#fvr-iv-s2-n4-rem-2 .statement}
+#### Remark 2 {#fvr-iv-s2-n4-rem-2 .statement tag=08D1}
 
 Let $A(t) = (a_{ij}(t))$ be a square matrix of order $n$ whose entries are real (resp. complex) regulated functions of $t$ on $J$, and let $C(t, t_0) = (c_{ij}(t, t_0))$ be the resolvent matrix of the corresponding linear system (3) (IV, p. 22). Let F be an arbitrary complete normed space over $\mathbf{R}$ (resp. $\mathbf{C}$) and let us consider the system of linear differential equations
 
@@ -417,7 +417,7 @@ $$
 
 at all points where $A(t)$ is continuous and $\mathbf{v}(t)$ is differentiable. Now for such a point $t$ and an *arbitrary* point $\mathbf{x}_0 \in \mathrm{E}$ there exists, by th. 1 of IV, p. 179, a solution $\mathbf{u}$ of (4) such that $\mathbf{u}(t) = \mathbf{x}_0$; one thus must have $\left\langle \mathbf{x}_0, \frac{d\mathbf{v}}{dt} - B(t).\mathbf{v}(t) \right\rangle = 0$ for *all* $\mathbf{x}_0 \in \mathrm{E}$, which entails $\frac{d\mathbf{v}}{dt} - B(t).\mathbf{v}(t) = 0$. Consequently:
 
-#### Proposition 6 {#fvr-iv-s2-prop-6 .statement}
+#### Proposition 6 {#fvr-iv-s2-prop-6 .statement tag=08D2}
 
 *The map $t \mapsto \mathbf{v}(t)$ of J into $\mathrm{E}^*$, a primitive of a regulated function on J, is such that $\langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ is constant on J for every solution $\mathbf{u}$ of the equation* (4) *of IV, p. 183 if and only if $\mathbf{v}$ is a solution of the homogeneous linear equation*
 
@@ -447,7 +447,7 @@ $$
 
 (the *contragradient* of $C(t, t_0)$). In particular, if one knows a fundamental system of integrals of the adjoint equation (16) the matrix $H(t, t_0)$ is determined, so is $C(t, t_0)$ also, and as a result, so are *all* the integrals of equation (4).
 
-#### Remark {#fvr-iv-s2-n5-rem-1 .statement}
+#### Remark {#fvr-iv-s2-n5-rem-1 .statement tag=08D3}
 
 Let E and F be two complete normed spaces over $\mathbf{R}$ (or over $\mathbf{C}$), and $(\mathbf{x}, \mathbf{y}) \mapsto \langle \mathbf{x}, \mathbf{y} \rangle$ a *continuous* bilinear form on $\mathrm{E} \times \mathrm{F}$, such that the relation “$\langle \mathbf{x}, \mathbf{y} \rangle = 0$ for all $\mathbf{y} \in \mathrm{F}$” (resp. $\langle \mathbf{x}, \mathbf{y} \rangle = 0$ for all $\mathbf{x} \in \mathrm{E}$”) implies $\mathbf{x} = 0$ (resp. $\mathbf{y} = 0$). Suppose further that for every $t \in \mathrm{J}$ there is a continuous linear map $B(t)$ of F into itself, such that $\langle A(t).\mathbf{x}, \mathbf{y} \rangle + \langle \mathbf{x}, B(t).\mathbf{y} \rangle = 0$ for every $(\mathbf{x}, \mathbf{y}) \in \mathrm{E} \times \mathrm{F}$. In these circumstances one sees as before that for a map $t \mapsto \mathbf{v}(t)$ of J into F, a primitive of a regulated function, to be such that $\langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ is *constant* for *every* integral $\mathbf{u}$ of (4), it is necessary and sufficient that $\mathbf{v}$ should be an integral of (16), which again we call the *adjoint* of (4).
 
@@ -495,7 +495,7 @@ $$
 
 which takes the value I at the point 0. We make the following definition:
 
-#### Definition 1 {#fvr-iv-s2-def-1 .statement}
+#### Definition 1 {#fvr-iv-s2-def-1 .statement tag=08D4}
 
 *Given a continuous endomorphism A of E we denote by $e^A$ or $\exp A$ the automorphism of E equal to the value at the point $t = 1$ of the integral of the equation (20) which takes the value I at the point $t = 0$.*
 
@@ -507,7 +507,7 @@ $$
 
 The exponential notation just introduced is justified by the following properties, which are entirely analogous to those of the function exp z, for z real or complex (cf. III, p. 98 and 106):
 
-#### Proposition 7 {#fvr-iv-s2-prop-7 .statement}
+#### Proposition 7 {#fvr-iv-s2-prop-7 .statement tag=08D5}
 
 1' *The map* $X \mapsto e^X$ *is a continuous map of* $\mathscr{L}(E)$ *into the group of automorphisms of* E *(*invertible elements of* $\mathscr{L}(E)$).
 
@@ -610,7 +610,7 @@ The characteristic roots of the endomorphism $A$ are also called *characteristic
 
 When one has determined the roots $r_k$ ($1 \leq k \leq q$) explicitly, and thus the order of multiplicity $n_k$ of $r_k$, in practice one obtains the integrals of (19) by writing that this equation is satisfied by the expression (32) of IV, p. 191, where $\mathbf{p}_k$ is an arbitrary polynomial of degree $\leq n_k - 1$, with coefficients *in* $E$; on identifying the coefficients of $e^{r_k t}$ (for $1 \leq k \leq q$) in the two sides of the equation so obtained one obtains linear equations for the coefficients of the polynomials $\mathbf{p}_k$: one establishes easily that these equations determine the terms of degree $> 0$ of $\mathbf{p}_k$ as functions of the constant term, and that the latter is a solution of the equation $(A - r_k I)^{n_k} \cdot \mathbf{x} = 0$, which defines the subspace $E_k$ (method of "undetermined coefficients").
 
-#### Remark {#fvr-iv-s2-n6-rem-1 .statement}
+#### Remark {#fvr-iv-s2-n6-rem-1 .statement tag=08D6}
 
 When there exists a basis of $E$ such that the matrix of $A$ with respect to this basis has *real* elements (*cf.* IV, p. 186, *Remark* 2), the characteristic equation of $A$ has real coefficients. For every $\mathbf{x} = (\xi_k)_{1 \leq k \leq n}$ of $E$, expressed in the basis under consideration, let $\overline{\mathbf{x}} = (\overline{\xi}_k)_{1 \leq k \leq n}$; the map $\mathbf{x} \mapsto \overline{\mathbf{x}}$ is an antilinear involution of $E$. One knows (*Alg.*, VII) that, if $r_k$ is a non-real root of the characteristic equation, and $E_k$ is the corresponding stable subspace, then $\overline{r}_k$ is a characteristic root having the same multiplicity $n_k$ as $r_k$, and the image $E'_k$ of $E_k$ under the map $\mathbf{x} \mapsto \overline{\mathbf{x}}$ is the stable subspace corresponding to $\overline{r}_k$. One deduces from this that if $\mathbf{u}_j$ ($1 \leq j \leq n_k$) are $n_k$ linearly independent integrals with values in $E_k$, then the $2n_k$ integrals $\mathbf{u}_j + \overline{\mathbf{u}}_j,\ i(\mathbf{u}_j - \overline{\mathbf{u}}_j)$ are linearly independent, and have, with respect to the chosen basis of $E$, components which are *real* functions of $E$. If $r_k$ is a real characteristic root *Remark* 2 of IV, p. 186, shows that (with the same notation) there are $n_k$ linearly independent integrals $\mathbf{v}_j$ ($1 \leq j \leq n_k$) with values in $E_k$ whose components are real. That way one obtains a fundamental system of integrals of (19) whose components are all *real*.
 
@@ -671,7 +671,7 @@ Conversely, if there are $n$ complex constants $\lambda_j$, not all zero, such t
 
 Consequently (IV, p. 180, cor. 1)
 
-#### Proposition 8 {#fvr-iv-s2-prop-8 .statement}
+#### Proposition 8 {#fvr-iv-s2-prop-8 .statement tag=08D7}
 
 *The set of integrals of the homogeneous linear equation (37), defined on $J$, is a vector space of dimension $n$ over the field $\mathbf{C}$.*
 
@@ -732,7 +732,7 @@ u_{jk}(t) = e^{r_j t} p_{jk}(t),
 $$
 where $p_{jk}$ is a polynomial (with complex coefficients) of degree $\leq n_j - 1$ ($1 \leq k \leq n_j$); further, the $n$ integrals $u_{jk}$ ($1 \leq j \leq q,\ 1 \leq k \leq n_j$) so obtained are linearly independent. It follows that the $n_j$ polynomials $p_{jk}$ ($1 \leq k \leq n_j$) are linearly independent in the space of polynomials in $t$ of degree $\leq n_j - 1$, so form a basis (over $\mathbf{C}$) of this space, since the latter is of dimension $n_j$. In other words:
 
-#### Proposition 9 {#fvr-iv-s2-prop-9 .statement}
+#### Proposition 9 {#fvr-iv-s2-prop-9 .statement tag=08D8}
 
 *Let $r_j$ ($1 \leq j \leq q$) be the distinct roots of the characteristic equation (40), and let $n_j$ be the multiplicity of the root $r_j$ ($1 \leq j \leq q$). Then the $n$ functions $t^k e^{r_j t}$ ($1 \leq k \leq n_j,\ 1 \leq j \leq q$) are linearly independent integrals of the homogeneous equation (41).*
 
@@ -744,7 +744,7 @@ $$
 
 where $f(D) = D^n - a_1 D^{n-1} - \ldots - a_{n-1} D - a_n$ (Alg., IV, p. 4).
 
-#### Proposition 10 {#fvr-iv-s2-prop-10 .statement}
+#### Proposition 10 {#fvr-iv-s2-prop-10 .statement tag=08D9}
 
 *Let g and h be two relatively prime polynomials such that $f = gh$. The subspace of solutions of (42) is the direct sum of the subspaces of solutions of the two equations*
 
@@ -873,15 +873,15 @@ $$
 
 The system thus does not admit any indefinitely differentiable solutions unless the conditions (52) are satisfied; the determination of the $y_j$ for indices $j \leq r$ then reduces to integrating the r linear differential equations with constant coefficients (51); the $y_j$ for indices $> r$ are arbitrary indefinitely differentiable functions. Once the solutions $\mathbf{y}$ of (50) have thus been determined, one deduces the solutions of (47) from the formula $\mathbf{x} = V(D) \mathbf{y}$.
 
-#### Remark 1 {#fvr-iv-s2-n9-rem-1 .statement}
+#### Remark 1 {#fvr-iv-s2-n9-rem-1 .statement tag=08DA}
 
 Some of the polynomials $f_j(D)$ may reduce to nonzero constants; the corresponding $y_j$ are then completely determined.
 
-#### Remark 2 {#fvr-iv-s2-n9-rem-2 .statement}
+#### Remark 2 {#fvr-iv-s2-n9-rem-2 .statement tag=08DB}
 
 When the $b_j$ are all zero, that is, if the system (47) is *homogeneous*, the conditions (52) are always satisfied; if, further, $r = n$, one sees that the set of solutions of (47) is a vector space over $\mathbf{C}$, of dimension equal to the *sum of the degrees* of the $f_j(D)$, that is, to the *degree* of $\det(P(D))$.
 
-#### Remark 3 {#fvr-iv-s2-n9-rem-3 .statement}
+#### Remark 3 {#fvr-iv-s2-n9-rem-3 .statement tag=08DC}
 
 Given the polynomials $p_{jk}(D)$, a system (47) which admits solutions when the right-hand sides are indefinitely differentiable (or differentiable of a certain order) may not admit them when the right hand sides are arbitrary regulated functions: this is shown by the example (48), which has no solution when $a(t)$ is not a primitive. We shall not undertake here to seek for supplementary possibility conditions which enter when the right-hand sides are arbitrary regulated functions.
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 60
 statements: 31
 exercises: 32
-content_sha256: 975ab64a9f9b4e7076ff7e268517103a96680c897e5050f648e78d7dc80eb91b
+content_sha256: 87080a34ca0cc3a2a591f0e8f182cc3f0e38759289405a258ccf5fe3197fbfc8
 ---
 
 ## § 5. ANNEAUX LOCAUX RÉGULIERS
@@ -44,43 +44,43 @@ $$
 
 pour toute famille $(x_i)_{i \in I}$ engendrant l’idéal $m_A$ de A.
 
-#### Définition 1 {#ac-viii-s5-def-1 .statement}
+#### Définition 1 {#ac-viii-s5-def-1 .statement tag=0CPB}
 
 On dit que l’anneau local noethérien $A$ est régulier si l’on a $\dim(A) = [\mathfrak{m}_A/\mathfrak{m}_A^2 : \kappa_A]$. On appelle alors système de coordonnées de $A$ toute famille d’éléments de $\mathfrak{m}_A$ dont les classes modulo $\mathfrak{m}_A^2$ forment une base du $\kappa_A$-espace vectoriel $\mathfrak{m}_A/\mathfrak{m}_A^2$.
 
 Un système de coordonnées dans un anneau local noethérien régulier $A$ est donc une famille finie $(x_i)_{i \in I}$ engendrant l’idéal $\mathfrak{m}_A$ de $A$ et telle que $\mathrm{Card}(I) = \dim(A)$. Réciproquement, si l’idéal $\mathfrak{m}_A$ d’un anneau local noethérien $A$ est engendré par $d$ éléments avec $d \leq \dim(A)$, l’anneau $A$ est régulier.
 
-#### Exemple 1 {#ac-viii-s5-n1-exa-1 .statement}
+#### Exemple 1 {#ac-viii-s5-n1-exa-1 .statement tag=0CPC}
 
 Les anneaux locaux noethériens réguliers de dimension 0 (resp. 1) sont les corps (resp. les anneaux de valuation discrète) (VI, § 3, no 6, prop. 9 et cor. 1 du th. 1 ci-dessous). Soit $A$ un anneau de valuation discrète ; alors un élément $t$ de $\mathfrak{m}_A$ est une uniformisante si et seulement si $\{ t \}$ est un système de coordonnées de $A$.
 
-#### Exemple 2 {#ac-viii-s5-n1-exa-2 .statement}
+#### Exemple 2 {#ac-viii-s5-n1-exa-2 .statement tag=0CPD}
 
 Soit $k$ un corps et soit $n$ un entier positif. L’anneau de séries formelles $k[[X_1, ..., X_n]]$ est un anneau local noethérien régulier de dimension $n$ (§ 3, no 4, cor. 3 à la prop. 8). Soient $F_1, ..., F_n$ des séries formelles sans terme constant dans $k[[X_1, ..., X_n]]$; pour que la suite $(F_1, ..., F_n)$ soit un système de coordonnées de $k[[X_1, ..., X_n]]$, il faut et il suffit que la matrice $\left( \frac{\partial F_i}{\partial X_j}(0, ..., 0) \right)$ soit inversible.
 
 Plus généralement, soit $A$ un anneau local noethérien régulier de dimension $r$; alors $A[[X_1, ..., X_n]]$ est un anneau local noethérien régulier de dimension $r + n$. Si $(a_1, ..., a_r)$ est un système de coordonnées de $A$, alors $(a_1, ..., a_r, X_1, ..., X_n)$ est un système de coordonnées de $A[[X_1, ..., X_n]]$.
 
-#### Exemple 3 {#ac-viii-s5-n1-exa-3 .statement}
+#### Exemple 3 {#ac-viii-s5-n1-exa-3 .statement tag=0CPE}
 
 Soit $A$ un anneau local noethérien régulier complet de dimension $r$. L’anneau $A \{ X_1, ..., X_n \}$ des séries formelles restreintes est local noethérien régulier de dimension $r + n$ (§ 3, no 4, remarque 1). Si $(a_1, ..., a_r)$ est un système de coordonnées de $A$, alors $(a_1, ..., a_r, X_1, ..., X_n)$ est un système de coordonnées de $A \{ X_1, ..., X_n \}$.
 
-#### Exemple 4 {#ac-viii-s5-n1-exa-4 .statement}
+#### Exemple 4 {#ac-viii-s5-n1-exa-4 .statement tag=0CPF}
 
 \* Soit $k$ un corps valué complet non discret. L’anneau des séries formelles à $n$ variables qui convergent dans un voisinage de 0 dans $k^n$ est un anneau local noethérien régulier de dimension $n$ (§ 3, no 4, remarque 2).
 
-#### Exemple 5 {#ac-viii-s5-n1-exa-5 .statement}
+#### Exemple 5 {#ac-viii-s5-n1-exa-5 .statement tag=0CPG}
 
 Soient $k$ un corps, $A$ une $k$-algèbre intègre de type fini et $m$ un idéal maximal de $A$. L’anneau local noethérien $A_m$ est régulier si et seulement si l’on a $\dim(A) = [m/m^2 : A/m]$ : en effet, on a $\dim(A_m) = \dim(A)$ (§ 2, no 4, cor. 2 au th. 3) et les espaces vectoriels $m/m^2$ et $mA_m/(mA_m)^2$ sur le corps $A/m$ sont isomorphes (II, § 3, no 3, prop. 9). En particulier, si $k$ est algébriquement clos, la condition énoncée équivaut à $\dim(A) = [m/m^2 : k]$ (V, § 3, no 3, prop. 1).
 
-#### Exemple 6 {#ac-viii-s5-n1-exa-6 .statement}
+#### Exemple 6 {#ac-viii-s5-n1-exa-6 .statement tag=0CPH}
 
 \* Soit $X$ une variété algébrique sur un corps parfait $k$. Alors $X$ est non singulière en un point $x$ si et seulement si l’anneau local de $X$ en $x$ est régulier.
 
-#### Exemple 7 {#ac-viii-s5-n1-exa-7 .statement}
+#### Exemple 7 {#ac-viii-s5-n1-exa-7 .statement tag=0CPI}
 
 \* Soit $A$ un anneau local noethérien régulier. On verra plus tard que l’anneau local noethérien $A_p$ est régulier pour tout idéal premier $p$ de $A$.
 
-#### Proposition 1 {#ac-viii-s5-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s5-prop-1 .statement tag=0CPJ}
 
 Soient $A$ et $B$ des anneaux locaux noethériens et $\rho : A \to B$ un homomorphisme local faisant de $B$ un $A$-module plat. On suppose que l’on a m_B = B.\rho(m_A). On a alors dim(A) = dim(B) et B est régulier si et seulement si A est régulier.
 
@@ -92,7 +92,7 @@ $$
 $$
 d’où aussitôt la proposition.
 
-#### Corollaire {#ac-viii-s5-n1-cor-1 .statement}
+#### Corollaire {#ac-viii-s5-n1-cor-1 .statement tag=0CPK}
 
 Un anneau local noethérien A est régulier si et seulement si son complété $\hat{A}$ l’est.
 
@@ -100,7 +100,7 @@ En effet, $\hat{A}$ est plat sur A, et l’on a $m_{\hat{A}} = \hat{A}.m_A$ (III
 
 ### 2. Anneau gradué associé à un anneau local régulier
 
-#### Théorème 1 {#ac-viii-s5-thm-1 .statement}
+#### Théorème 1 {#ac-viii-s5-thm-1 .statement tag=0CPL}
 
 Soit A un anneau local noethérien. Les conditions suivantes sont équivalentes :
 (i) A est régulier.
@@ -134,7 +134,7 @@ D’après le th. 3 du § 4, n° 4 et le lemme 2 du § 4, n° 1, on a donc $\dim
 
 Prouvons enfin l’équivalence des conditions (iv) à (vi). Or (iv) signifie que l’on a $H_{A,m_A} = (1 - T)^{-s}$ avec $s = [m_A/m_A^2 : \kappa_A]$. Donc les conditions (iv), (v), (vi) signifient que l’on a $H_{A,m_A} = (1 - T)^{-m}$, avec respectivement $m = [m_A/m_A^2 : \kappa_A]$, $m \geq 0$, $m = \dim(A)$. Mais, si l’on a $H_{A,m_A} = (1 - T)^{-m}$, on a $\dim(A) = m$ d’après § 4, n° 4, th. 3 et $[m_A/m_A^2 : \kappa_A] = m$ (puisque $(1 - T)^{-m} = 1 + mT + \cdots$). L’équivalence des conditions (iv) à (vi) en résulte aussitôt.
 
-#### Corollaire 1 {#ac-viii-s5-thm-1-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s5-thm-1-cor-1 .statement tag=0CPM}
 
 Tout anneau local noethérien régulier est intégralement clos, et en particulier intègre.
 
@@ -142,7 +142,7 @@ Supposons A régulier. Alors $\mathrm{gr}(A)$ est isomorphe à une algèbre de p
 
 Nous verrons dans un chapitre ultérieur que tout anneau local noethérien régulier est factoriel.
 
-#### Corollaire 2 {#ac-viii-s5-thm-1-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s5-thm-1-cor-2 .statement tag=0CPN}
 
 Soient A et B des anneaux locaux noethériens et $\sigma$ un homomorphisme local de B dans A. On suppose A régulier et B complet. Pour que $\sigma$ soit bijectif, il faut et il suffit qu’il induise des bijections de $\kappa_B$ sur $\kappa_A$ et de $m_B/m_B^2$ sur $m_A/m_A^2$.
 
@@ -150,7 +150,7 @@ La condition énoncée est évidemment nécessaire.
 
 Supposons inversement que $\sigma$ induise des isomorphismes de $\mathrm{gr}_0(B)$ sur $\mathrm{gr}_0(A)$ et de $\mathrm{gr}_1(B)$ sur $\mathrm{gr}_1(A)$. Comme l’anneau $\mathrm{gr}(B)$ est engendré par $\mathrm{gr}_0(B) \cup \mathrm{gr}_1(B)$ et que $\mathrm{gr}(A)$ est l’algèbre symétrique de l’espace vectoriel $\mathrm{gr}_1(A)$ sur le corps $\mathrm{gr}_0(A)$, l’homomorphisme $\mathrm{gr}(\sigma)$ est bijectif. Par suite, $\sigma$ est bijectif (III, § 2, n° 8, cor. 3 du th. 1).
 
-#### Corollaire 3 {#ac-viii-s5-thm-1-cor-3 .statement}
+#### Corollaire 3 {#ac-viii-s5-thm-1-cor-3 .statement tag=0CPO}
 
 Soient k un corps et A une k-algèbre locale noethérienne, dont le corps résiduel est égal à k. Pour que A soit régulière, il faut et il suffit que son complété $\hat{A}$ soit isomorphe à une k-algèbre de séries formelles $k[[X_1, ..., X_n]]$.
 
@@ -158,7 +158,7 @@ Cela résulte de l’équivalence de (i) et (iv) dans le th. 1, et de la prop. 1
 
 ### 3. Quotients d’anneaux locaux réguliers
 
-#### Proposition 2 {#ac-viii-s5-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s5-prop-2 .statement tag=0CPP}
 
 Soient $A$ un anneau local noethérien, $x = (x_1, ..., x_r)$ une suite d’éléments de $m_A$ et $x$ l’idéal engendré par $x$. Les conditions suivantes sont équivalentes :
 
@@ -196,7 +196,7 @@ Les formules (3) et (4) montrent que $A/x$ est régulier.
 
 Tout anneau local noethérien régulier est intègre d’après le cor. 1 du th. 1 du no 2. Par suite, $x$ est premier si $A/x$ est régulier.
 
-#### Corollaire 1 {#ac-viii-s5-prop-2-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s5-prop-2-cor-1 .statement tag=0CPQ}
 
 Soient $A$ un anneau local noethérien, et $t$ un élément de $m_A$. Les conditions suivantes sont équivalentes :
 
@@ -204,7 +204,7 @@ Soient $A$ un anneau local noethérien, et $t$ un élément de $m_A$. Les condit
 (ii) $A/tA$ est régulier et $\dim(A/tA) < \dim(A)$;
 (iii) $A/tA$ est régulier, et $t$ n’est pas diviseur de 0 dans $A$.
 
-#### Corollaire 2 {#ac-viii-s5-prop-2-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s5-prop-2-cor-2 .statement tag=0CPR}
 
 Soient $A$ un anneau local noethérien régulier, et $q$ un idéal de $A$. Alors $A/q$ est régulier si et seulement si $q$ est engendré par une partie d’un système de coordonnées de $A$.
 
@@ -212,17 +212,17 @@ La condition est suffisante d’après la prop. 2.
 
 Supposons $A/q$ régulier, et soit $x = (x_1, ..., x_r)$ une suite d’éléments de $q$ dont les classes modulo $m_A^2$ forment une base de $(q + m_A^2)/m_A^2$ sur le corps $\kappa_A$. Soit $x$ l’idéal de $A$ engendré par $x$. On a donc $x \subset q$ et $x$ fait partie d’un système de coordonnées de $A$, donc l’anneau local noethérien $A/x$ est régulier (prop. 2); de plus, les espaces vectoriels $m_A/(q + m_A^2)$ et $m_A/(x + m_A^2)$ ont même dimension sur $\kappa_A$. Par suite, les anneaux locaux noethériens réguliers $A/q$ et $A/x$ ont même dimension. Comme les idéaux $q$ et $x$ sont premiers et que l’on a $x \subset q$, on a finalement $q = x$.
 
-#### Exemple {#ac-viii-s5-n3-exa-1 .statement}
+#### Exemple {#ac-viii-s5-n3-exa-1 .statement tag=0CPS}
 
 Soient $k$ un corps, $A = k[[X_1, ..., X_n]]$ et $q$ un idéal de $A$, distinct de $A$. Pour que $A/q$ soit régulier, il faut et il suffit qu’on puisse trouver un entier $r \geqslant 0$ et des éléments $F_1, ..., F_r$ de $A$, engendrant $q$, et tels que la matrice $\left( \frac{\partial F_i}{\partial X_j}(0, ..., 0) \right)$ soit de rang $r$ (« critère jacobien »). On a alors $\dim(A/q) = n - r$.
 
-#### Remarque {#ac-viii-s5-n3-rem-1 .statement}
+#### Remarque {#ac-viii-s5-n3-rem-1 .statement tag=0CPT}
 
 Soient $A$ un anneau local noethérien régulier et $q \subset m_A$ un idéal de $A$ tel que $A/q$ soit régulier. Soit $(x_1, ..., x_r)$ une suite d’éléments de $q$ dont les classes modulo $m_A^2$ engendrent l’espace vectoriel $(q + m_A^2)/m_A^2$ sur le corps $\kappa_A$. La démonstration du cor. 2 montre que l’idéal $q$ de $A$ est engendré par $(x_1, ..., x_r)$.
 
 ### 4. Polynômes d’Eisenstein
 
-#### Définition 2 {#ac-viii-s5-def-2 .statement}
+#### Définition 2 {#ac-viii-s5-def-2 .statement tag=0CPU}
 
 Soient $A$ un anneau, $p$ un idéal premier de $A$, et $P$ un polynôme de $A[T]$. On dit que $P$ est un polynôme d’Eisenstein pour $p$ s’il satisfait aux conditions suivantes :
 a) $P$ est unitaire de degré $d \geqslant 1$;
@@ -234,7 +234,7 @@ Autrement dit, un polynôme d’Eisenstein pour $p$ est un polynôme de la forme
 On dit que $P$ est un polynôme d’Eisenstein pour $pA_p$ si l’image canonique de $P$ dans l’anneau de polynômes $A_p[T]$ est un polynôme d’Eisenstein pour l’idéal $pA_p$; cela signifie aussi que $P$ est un polynôme d’Eisenstein pour $p$ et qu’il satisfait en outre à la condition suivante, plus forte que c) :
 c’) tout élément $a$ de $A$ tel que $aP(0) \in p^2$ appartient à $p$.
 
-#### Proposition 3 {#ac-viii-s5-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s5-prop-3 .statement tag=0CPV}
 
 Soient $A$ un anneau, $p$ un idéal premier de $A$ et $P \in A[T]$ un polynôme d’Eisenstein pour $p$.
 a) Il n’existe pas de décomposition de la forme $P = P_1 P_2$ où $P_1$ et $P_2$ sont deux polynômes unitaires de $A[T]$ distincts de 1.
@@ -246,7 +246,7 @@ L’assertion b) résulte de a) et de la prop. 11 de V, § 1, no 3.
 
 Soient $A$ un anneau local noethérien et $P_1, ..., P_r$ des polynômes unitaires dans $A[T]$, de degré $\geq 2$. Soit $q$ l’idéal de $A[T_1, ..., T_r]$ engendré par $P_1(T_1), ..., P_r(T_r)$ et soit $B$ la $A$-algèbre quotient $A[T_1, ..., T_r]/q$. Pour $1 \leq i \leq r$, on note $d_i$ le degré de $P_i$, $t_i$ la classe de $T_i$ modulo $q$, et $\gamma_i$ la classe de $c_i = P_i(0)$ modulo $m_A^2$. On suppose que l’on a $P_i(T) \equiv T^{d_i} \mod m_A A[T]$ pour $1 \leq i \leq r$.
 
-#### Proposition 4 {#ac-viii-s5-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s5-prop-4 .statement tag=0CPW}
 
 **a)** *L’anneau $B$ est local et noethérien, d’idéal maximal*
 
@@ -292,13 +292,13 @@ $$
 
 L’assertion c) résulte aussitôt des formules (7) et (8).
 
-#### Corollaire {#ac-viii-s5-n4-cor-1 .statement}
+#### Corollaire {#ac-viii-s5-n4-cor-1 .statement tag=0CPX}
 
 *Soit A un anneau local noethérien régulier et soit P $\in A[T]$ un polynôme d’Eisenstein pour $m_A$. L’anneau $B = A[T]/(P)$ est local noethérien régulier, de même dimension que A, et l’on a $[ \kappa_A : \kappa_B ] = 1$. Enfin, on a $m_B = B.m_A + Bt$, où t est la classe de T modulo (P).*
 
 Le cas où P est de degré $\geq 2$ résulte de la prop. 4, où l’on fait $r = 1$; lorsque P est de degré 1, c’est-à-dire de la forme $T - c$ avec $c \in m_A$, le corollaire est immédiat.
 
-#### Proposition 5 {#ac-viii-s5-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s5-prop-5 .statement tag=0CPY}
 
 *Soit A un anneau intègre, de corps des fractions K, et soit L une extension algébrique de degré fini de K. On note B la fermeture intégrale de A dans L et p un idéal premier de A.
 
@@ -315,7 +315,7 @@ Posons S = A − p. On sait (V, § 1, n° 5, prop. 16) que la fermeture intégra
 
 A_p dans L est égale à S^{-1}B. Par ailleurs t est entier sur A_p, et l’anneau C = A_p[t] est local noethérien régulier, donc intégralement clos (n° 2, cor. 1 du th. 1). On a donc C = S^{-1}B. Par conséquent, l’anneau S^{-1}B est local et possède un unique idéal maximal. D’après V, , n° 1, prop. 1, il existe un unique idéal premier de S^{-1}B au-dessus de pA_p, donc B possède un unique idéal premier q au-dessus de p (loc. cit., lemme 1), et l’on a B_q = S^{-1}B = C
 
-#### Corollaire {#ac-viii-s5-n4-cor-2 .statement}
+#### Corollaire {#ac-viii-s5-n4-cor-2 .statement tag=0CPZ}
 
 Supposons que A_p soit un anneau de valuation discrète. Alors B_q est un anneau de valuation discrète, t est une uniformisante de B_q, et l’on a
 
@@ -327,11 +327,11 @@ $$
 
 En effet, les anneaux de valuation discrète sont les anneaux locaux noethériens réguliers de dimension 1 ; posant d = [L : K], on a t^d \in m_A - m_A^2, d’où d = e(B_q/A_p). On a [\kappa_B : \kappa_A] = 1, d’où f(B_q/A_p) = 1.
 
-#### Exemple 1 {#ac-viii-s5-n4-exa-1 .statement}
+#### Exemple 1 {#ac-viii-s5-n4-exa-1 .statement tag=0CQ0}
 
 Posons A = \mathbf{Z} et L = \mathbf{Q}(p^{1/d}), où p est un nombre premier et d un entier \geqslant 2. Notons B la fermeture intégrale de \mathbf{Z} dans L. Comme le polynôme T^d - p de \mathbf{Z}[T] est un polynôme d’Eisenstein pour p\mathbf{Z}_{(p)}, il existe un unique idéal premier q de B au-dessus de p\mathbf{Z}. Il existe donc une unique valuation discrète normalisée v du corps \mathbf{Q}(p^{1/d}) telle que v(p) > 0 ; on a [L : K] = v(p) = d, et B/q est un corps à p éléments. L’anneau B_q de la valuation v est égal à \mathbf{Z}_{(p)}[p^{1/d}].
 
-#### Exemple 2 {#ac-viii-s5-n4-exa-2 .statement}
+#### Exemple 2 {#ac-viii-s5-n4-exa-2 .statement tag=0CQ1}
 
 Posons A = \mathbf{Z} et L = R_{pf}(\mathbf{Q}) où p est un nombre premier et f un entier \geqslant 1 (cf. A, V, p. 78). On a donc L = \mathbf{Q}(\zeta) avec \zeta = \exp(2\pi i/p^f). Soient B la fermeture intégrale de \mathbf{Z} dans L et P le polynôme de \mathbf{Z}[T] tel que
 
@@ -361,21 +361,21 @@ Soit A un anneau local noethérien régulier et complet ; notons $p$ la caracté
 
 A) $p = 0$. Alors (IX, § 3, no 3, th. 1), il existe un sous-corps K de A tel que la projection canonique de A sur $\kappa_A$ induise un isomorphisme de K sur $\kappa_A$. Appliquant alors le cor. 3 du th. 1 du no 2 à la K-algèbre A, on en déduit :
 
-#### Proposition 6 {#ac-viii-s5-prop-6 .statement}
+#### Proposition 6 {#ac-viii-s5-prop-6 .statement tag=0CQ2}
 
 Soit A un anneau local noethérien régulier et complet, dont le corps résiduel $\kappa_A$ est de caractéristique 0. Posons $n = \dim(A)$. Alors A est isomorphe à l’anneau de séries formelles $\kappa_A[[X_1, ..., X_n]]$.
 
 B) $p \neq 0$. On appelle sous-anneau de Cohen de A tout sous-anneau V de A qui est un $p$-anneau tel que $A = m_A + V$ (IX, § 2, no 2, déf. 2). L’anneau V est local ; son idéal maximal $m_V$ est engendré par $p.1_V$; par suite on a $m_A \cap V = m_V$ et l’injection canonique de V dans A définit par passage au quotient un isomorphisme du corps $\kappa_V$ sur le corps $\kappa_A$. Si $p.1_A = 0$, V est un corps de caractéristique $p$. Sinon V est un anneau de valuation discrète dont le corps des fractions est de caractéristique zéro (IX, § 2, no 1, cor. 1 à la prop. 1). On démontre (IX, no 2, th. 1) que A possède des sous-anneaux de Cohen.
 
-#### Exemple 3 {#ac-viii-s5-n4-exa-3 .statement}
+#### Exemple 3 {#ac-viii-s5-n4-exa-3 .statement tag=0CQ3}
 
 Soient k un corps de caractéristique $p \neq 0$ et $n$ un entier positif. L’anneau de séries formelles $k[[X_1, ..., X_n]]$ est local noethérien régulier complet, de dimension $n$ et k est un sous-anneau de Cohen de $k[[X_1, ..., X_n]]$.
 
-#### Exemple 4 {#ac-viii-s5-n4-exa-4 .statement}
+#### Exemple 4 {#ac-viii-s5-n4-exa-4 .statement tag=0CQ4}
 
 Soient V un anneau de valuation discrète complet et $n$ un entier positif. L’anneau de séries formelles $V_n = V[[X_1, ..., X_n]]$ est local noethérien régulier complet, de dimension $n + 1$, et V est un sous-anneau de Cohen de $V_n$.
 
-#### Exemple 5 {#ac-viii-s5-n4-exa-5 .statement}
+#### Exemple 5 {#ac-viii-s5-n4-exa-5 .statement tag=0CQ5}
 
 Gardons les notations précédentes. On dit qu’un polynôme P de $V_n[T]$ de degré $d \geq 2$ est spécial s’il est de la forme $T^d + \sum_{i=1}^d a_i T^{d-i}$, où $a_1, ..., a_{d-1}$ appartiennent à $m_{V_n}$, $a_d$ appartient à $m_V + m_{V_n}^2$ mais non à $m_{V_n}^2$. En particulier, P est un polynôme d’Eisenstein pour $m_{V_n}$. Posons $A = V_n[T]/(P)$. D’après le corollaire de la prop. 4 du no 4, l’anneau A est local noethérien régulier complet, de dimension $n + 1$. Si t est la classe de T modulo (P), la suite $(1, t, ..., t^{d-1})$ est une base du $V_n$-module A, et $(X_1, ..., X_n, t)$ est un système de coordonnées de A : en effet, il existe une uniformisante $\pi$ de V telle que $a_d \equiv \pi \mod. m_{V_n}^2$; comme on a aussi
 $$
@@ -383,7 +383,7 @@ a_d = -t(t^{d-1} + a_1 t^{d-2} + \cdots + a_{d-1}),
 $$
 on a $\pi \in m_A^2$; comme $m_A$ est engendré par $\{\pi, X_1, ..., X_n, t\}$, cela prouve notre assertion. En outre, V est un sous-anneau de Cohen de A, car $\kappa_V$ s’identifie à $\kappa_{V_n}$, et $\kappa_{V_n}$ à $\kappa_A$ d’après le corollaire à la prop. 4 du no 4.
 
-#### Théorème 2 {#ac-viii-s5-thm-2 .statement}
+#### Théorème 2 {#ac-viii-s5-thm-2 .statement tag=0CQ6}
 
 Soit $A$ un anneau local noethérien régulier et complet dont le corps résiduel est de caractéristique $\neq 0$, et soit $V$ un sous-anneau de Cohen de $A$. Posons $n = \dim(A)$.
 

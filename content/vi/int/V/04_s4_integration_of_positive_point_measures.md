@@ -29,9 +29,9 @@ subsections:
       pdf_page: 292
 statements: 10
 exercises: 2
-content_sha256: 496c534e00551bcf4bf34475248da7c4811cc23480d26707f61a1ed1ce29dbfb
+content_sha256: c008a6374e8b5b4340f1242bf22410e8f0ffd7c1976d99a48c0d68a1a8ee6264
 translated_from: content/en/int/V/04_s4_integration_of_positive_point_measures.md
-source_content_sha256: bf86c912bfbf840d62882f953aad2b6c1a84d05aab80bb348e1c142949b363e1
+source_content_sha256: dd55e7fee706c3d9d06f24460ca7220536b2e52fe66b64ab093af515c9c25f41
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-596d3df3
 glossary_version: 34
@@ -45,13 +45,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho X và T là hai không gian địa phương compact, $\pi$ là một ánh xạ từ T vào X, và $g$ là một hàm số hữu hạn $\geqslant 0$ xác định trên T; hai hàm này xác định một ánh xạ $t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)}$ từ T vào không gian $\mathscr{M}(X)$ của các phép đo trên X, sao cho với mọi $t \in T$, $\lambda_t$ hoặc là một phép đo điểm (Ch. III, §2, No. 4) hoặc bằng 0. Nếu $f$ là một hàm số $\geqslant 0$ xác định trên X, thì $\int^* f(x) d\lambda_t(x) = \int^\bullet f(x) d\lambda_t(x) = f(\pi(t))g(t)$ (nhắc lại quy ước của ta là lấy tích này bằng 0 khi $g(t) = 0$ và $f(\pi(t)) = +\infty$). Mọi hàm (có giá trị trong một không gian tôpô) xác định trên X đều là $\lambda_t$-đo được với mọi $t \in T$. Mọi ánh xạ $f$ từ X vào một không gian Banach F đều là $\lambda_t$-khả tích phân với mọi $t \in T$, và $\int f(x) d\lambda_t(x) = f(\pi(t))g(t)$. Cuối cùng, nếu $f$ là một hàm số tùy ý xác định trên X, để $f$ là $\lambda_t$-khả tích phân thì điều kiện cần và đủ là $f(\pi(t))g(t)$ là hữu hạn, trong trường hợp đó $\int f(x) d\lambda_t(x) = f(\pi(t))g(t)$.
 
-#### Định nghĩa 1 {#int-v-s4-def-1 .statement}
+#### Định nghĩa 1 {#int-v-s4-def-1 .statement tag=0921}
 
 Cho $\mu$ là một phép đo dương trên T. Cặp $(\pi, g)$ được gọi là $\mu$-thích nghi nếu các điều kiện sau được thỏa mãn:
 1° Các hàm $\pi$ và $g$ là $\mu$-đo được.
 2° Với mọi hàm $f \in \mathscr{K}(X)$, ánh xạ $t \mapsto f(\pi(t))g(t)$ là $\mu$-khả tích phân một cách bản chất.
 
-#### Mệnh đề 1 {#int-v-s4-prop-1 .statement}
+#### Mệnh đề 1 {#int-v-s4-prop-1 .statement tag=0922}
 
 Nếu cặp $(\pi, g)$ là $\mu$-thích nghi, thì ánh xạ $\Lambda : t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)}$ từ T vào $\mathscr{M}_+(X)$ là $\mu$-khả tích phân một cách bản chất theo vô hướng, $\mu$-đo được theo nghĩa mơ hồ và $\mu$-thích đáng. Ngược lại, nếu $\Lambda$ là $\mu$-khả tích phân một cách bản chất theo vô hướng và $\mu$-đo được theo nghĩa mơ hồ, thì hàm $g$ là $\mu$-đo được và hạn chế của $\pi$ lên tập hợp $S$ của $t \in T$ sao cho $g(t) \neq 0$ là $\mu$-đo được.
 
@@ -61,7 +61,7 @@ Ngược lại, giả sử rằng $\Lambda$ là khả tích $\mu$-một cách c�
 
 Ta sẽ sử dụng bổ đề sau:
 
-#### Bổ đề {#int-v-s4-n1-lem-1 .statement}
+#### Bổ đề {#int-v-s4-n1-lem-1 .statement tag=0923}
 
 *Cho $T$ và $X$ là hai không gian tôpô, $\pi$ là một ánh xạ liên tục thực sự (GT, I, §10, No. 1, Def. 1) từ $T$ vào $X$. Cho $g$ là một hàm số nửa liên tục dưới xác định trên $T$. Với mọi $x \in X$, gọi $f(x)$ là cận dưới đúng của hàm $g(t)$ trong tập hợp $\overline{\pi}^{-1}(x)$ (cận dưới đúng bằng $+\infty$ nếu $\overline{\pi}^{-1}(x) = \varnothing$; cf. S, III, §1, No. 9). Khi đó $f$ là nửa liên tục dưới trên $X$.*
 
@@ -69,7 +69,7 @@ Ta sẽ sử dụng bổ đề sau:
 
 Ta sẽ thấy rằng, khi $(\pi, g)$ là một cặp thích nghi với $\mu$, ta có thể cải thiện các kết quả thu được bằng cách áp dụng các mệnh đề của $§ 3$ cho họ $t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)},$ họ này là thích hợp với $\mu$ theo Mệnh đề 1.
 
-#### Định lý 1 {#int-v-s4-thm-1 .statement}
+#### Định lý 1 {#int-v-s4-thm-1 .statement tag=0924}
 
 *Cho* $(\pi, g)$ *là một cặp thích nghi với $\mu$, và cho*
 $$
@@ -121,11 +121,11 @@ $$
 
 Ta có một quan hệ tương tự đối với vế thứ hai của (5), và (1) do đó suy ra từ (5) bằng cách lấy tổng theo $\alpha$.
 
-#### Hệ quả {#int-v-s4-n2-cor-1 .statement}
+#### Hệ quả {#int-v-s4-n2-cor-1 .statement tag=0925}
 
 — *Để một tập con N của X là không đáng kể địa phương đối với $\nu$, điều kiện cần và đủ là giao của $\pi^{-1}(N)$ với tập hợp các điểm $t \in T$ sao cho $g(t) > 0$ là không đáng kể địa phương đối với $\mu$.*
 
-#### Mệnh đề 2 {#int-v-s4-prop-2 .statement}
+#### Mệnh đề 2 {#int-v-s4-prop-2 .statement tag=0926}
 
 — *Cho $\pi$ là một ánh xạ liên tục thực sự (GT, I, §10, No. 1) từ T vào X, và cho g là một hàm số liên tục, hữu hạn trên T sao cho $g(t) > 0$ với mọi $t \in T$. Khi đó cặp $(\pi, g)$ là $\mu$-thích nghi, và nếu đặt*
 $$
@@ -178,7 +178,7 @@ $$
 
 ### 3. Tính đo được đối với một tích phân của các độ đo điểm
 
-#### Mệnh đề 3 {#int-v-s4-prop-3 .statement}
+#### Mệnh đề 3 {#int-v-s4-prop-3 .statement tag=0927}
 
 — Cho $(\pi, g)$ là một cặp $\mu$-thích nghi, và cho
 
@@ -198,13 +198,13 @@ $$
 
 cũng là địa phương $\mu$-không đáng kể; nhưng vì $H$ là compact, $H \cap \overline{\pi}(N)$ là $\mu$-không đáng kể, và điều đó hoàn tất chứng minh.
 
-#### Nhận xét {#int-v-s4-n3-rem-1 .statement}
+#### Nhận xét {#int-v-s4-n3-rem-1 .statement tag=0928}
 
 Nếu $f$ là một ánh xạ từ $X$ vào một không gian Banach $F$, thì cũng như nói rằng hạn chế của $f \circ \pi$ lên $S$ là $\mu$-đo được hoặc nói rằng hàm $(f \circ \pi)g$ (được xác định trên $T$) là $\mu$-đo được, vì $g$ là $\mu$-đo được, không triệt tiêu trên $S$, và bằng không trên $T - S$ (Ch. IV, §5, No. 10, Mệnh đề 15).
 
 ### 4. Tích phân các hàm nhận giá trị trong một không gian Banach, đối với một tích phân của các độ đo điểm
 
-#### Định lý 2 {#int-v-s4-thm-2 .statement}
+#### Định lý 2 {#int-v-s4-thm-2 .statement tag=0929}
 
 *Cho* $(\pi, g)$ *là một cặp $\mu$-thích nghi, và đặt* $$
 \nu = \int g(t) \varepsilon_{\pi(t)} \, d\mu(t).
@@ -228,7 +228,7 @@ $$
 
 Do đó phần thứ hai của mệnh đề suy ra từ phần thứ nhất và Mệnh đề 2.
 
-#### Nhận xét {#int-v-s4-n4-rem-1 .statement}
+#### Nhận xét {#int-v-s4-n4-rem-1 .statement tag=092A}
 
 — Cho $(\pi, g)$ là một cặp $\mu$-thích nghi, $\pi'$ là một ánh xạ từ T vào X, và $g'$ là một hàm số hữu hạn $\geq 0$ xác định trên T, sao cho $\pi'$ (tương ứng $g'$) bằng $\pi$ (tương ứng $g$) địa phương hầu khắp nơi đối với $\mu$. Khi đó cặp $(\pi', g')$ là $\mu$-thích nghi, các độ đo $\lambda_t = g(t)\varepsilon_{\pi(t)}$ và $\lambda'_t = g'(t)\varepsilon_{\pi'(t)}$ bằng nhau địa phương hầu khắp nơi, và $\int g(t)\varepsilon_{\pi(t)}\,d\mu(t) = \int g'(t)\varepsilon_{\pi'(t)}\,d\mu(t)$. Nếu bây giờ $\pi'$ và $g'$ chỉ được xác định địa phương hầu khắp nơi (theo $\mu$) và nếu tồn tại một cặp $\mu$-thích nghi $(\pi, g)$ sao cho $\pi'$ (tương ứng $g'$) bằng $\pi$ (tương ứng $g$) địa phương hầu khắp nơi, thì lại nói rằng cặp $(\pi', g')$ là $\mu$-thích nghi và ta đặt
 

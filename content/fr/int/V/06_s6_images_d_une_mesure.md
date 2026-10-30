@@ -36,7 +36,7 @@ subsections:
       pdf_page: 83
 statements: 31
 exercises: 22
-content_sha256: d24cae5d8703f5ac20b021cafa9f9e66002fa000580e329b0efb4af6f86c0368
+content_sha256: 452e0ab1d6fcbb5b3508f23640dbec28d295f4f52cfa78d5d8e0adf88bf380c3
 ---
 
 ## § 6. — Images d’une mesure
@@ -45,7 +45,7 @@ content_sha256: d24cae5d8703f5ac20b021cafa9f9e66002fa000580e329b0efb4af6f86c0368
 
 Soient X un espace localement compact, $\pi$ une application $\mu$-mesurable de T dans X. Dire que le couple $(\pi, 1)$ est $\mu$-adapté (§ 4, n° 1) équivaut à dire que pour toute fonction $f \in \mathscr{K}(X)$ la fonction $f \circ \pi$ est essentiellement $\mu$-intégrable.
 
-#### Proposition 1 {#int-v-s6-prop-1 .statement}
+#### Proposition 1 {#int-v-s6-prop-1 .statement tag=094O}
 
 *Soit $\pi$ une application $\mu$-mesurable de T dans un espace localement compact X. Les deux propriétés suivantes sont équivalentes :
 
@@ -66,7 +66,7 @@ Comme $f \circ \pi$ est $\mu$-mesurable (chap. IV, § 5, n° 3, th. 1), on voit 
 La propriété b) est évidemment équivalente à la propriété suivante (qui équivaut donc aussi à a)):
 c) Pour tout point x de X, il existe un voisinage V de X tel que $\pi^{-1}(V)$ soit essentiellement $\mu$-intégrable.
 
-#### Définition 1 {#int-v-s6-def-1 .statement}
+#### Définition 1 {#int-v-s6-def-1 .statement tag=094P}
 
 Soit $\mu$ une mesure positive sur un espace localement compact T. On dit qu’une application $\pi$ de T dans un espace localement compact X est $\mu$-propre (ou propre pour la mesure $\mu$) si le couple $(\pi, 1)$ est $\mu$-adapté, c’est-à-dire ($§ 4, n° 1$) si $\pi$ est $\mu$-mesurable et satisfait aux conditions (équivalentes) de la prop. 1. La mesure $\int \varepsilon_{\pi(t)} d\mu(t)$ sur X s’appelle alors l’image de $\mu$ par $\pi$ et se note $\pi(\mu)$.
 
@@ -76,15 +76,15 @@ $$
 \int f(x) dv(x) = \int f(\pi(t)) d\mu(t).
 $$
 
-#### Remarque 1 {#int-v-s6-n1-rem-1 .statement}
+#### Remarque 1 {#int-v-s6-n1-rem-1 .statement tag=094Q}
 
 Si $\mu$ est bornée (et en particulier si $\mu$ a un support compact), toute application $\mu$-mesurable de T dans X est $\mu$-propre (chap. IV, § 5, n° 3, th. 1 et n° 6, th. 5).
 
-#### Remarque 2 {#int-v-s6-n1-rem-2 .statement}
+#### Remarque 2 {#int-v-s6-n1-rem-2 .statement tag=0E6M}
 
 Si $\pi$ est $\mu$-mesurable et si, pour toute partie compacte K de X, $\pi^{-1}(K)$ est relativement compact, $\pi$ est $\mu$-propre (chap. IV, 2e éd., § 5, n° 5, prop. 7, et n° 6, th. 5); en particulier, toute application continue propre de T dans X (Top. gén., chap. I, 4e éd., § 10, n° 2, th. 1) est $\mu$-propre pour toute mesure positive $\mu$ sur T. Plus particulièrement, il en est ainsi de tout homéomorphisme $\pi$ de T sur X; la mesure $v = \pi(\mu)$ n’est autre alors que la mesure sur X transportée de $\mu$ par $\pi$ (chap. III, 2e éd., § 1, n° 3).
 
-#### Remarque 3 {#int-v-s6-n1-rem-3 .statement}
+#### Remarque 3 {#int-v-s6-n1-rem-3 .statement tag=0E6N}
 
 Supposons que la topologie de X admette une base dénombrable; alors toute application $\pi$ de T dans X qui vérifie la condition b) de la prop. 1 est $\mu$-mesurable, et par suite $\mu$-propre. Il suffit d’appliquer le th. 4 du chap. IV, , n° 5, en remarquant que X est alors métrisable (Top. gén., Chap. IX, 2e éd., § 2, n° 9, cor. de la prop. 16) et que, pour une distance quelconque compatible avec la topologie de X, toute boule fermée est réunion dénombrable d’ensembles compacts
 
@@ -92,7 +92,7 @@ Supposons que la topologie de X admette une base dénombrable; alors toute appli
 
 Soit $\pi$ une application $\mu$-propre de T dans X, et soit $\nu = \pi(\mu)$. En appliquant les résultats du § 4, on obtient les énoncés suivants :
 
-#### Proposition 2 {#int-v-s6-prop-2 .statement}
+#### Proposition 2 {#int-v-s6-prop-2 .statement tag=094R}
 
 Pour toute fonction numérique $f \geqslant 0$ définie dans X, on a
 
@@ -104,7 +104,7 @@ $$
 
 Cela résulte du th. 1 du § 4, n° 2.
 
-#### Corollaire 1 {#int-v-s6-prop-2-cor-1 .statement}
+#### Corollaire 1 {#int-v-s6-prop-2-cor-1 .statement tag=094S}
 
 Pour toute partie A de X, on a
 
@@ -112,16 +112,16 @@ $$
 \nu^\ast(A) = \mu^\ast(\overline{\pi^{-1}(A)}).
 $$
 
-#### Corollaire 2 {#int-v-s6-prop-2-cor-2 .statement}
+#### Corollaire 2 {#int-v-s6-prop-2-cor-2 .statement tag=094T}
 
 Pour qu’une partie A de X soit localement négligeable pour $\nu$, il faut et il suffit que $\overline{\pi^{-1}(A)}$ soit localement négligeable pour $\mu$.
 
-#### Corollaire 3 {#int-v-s6-prop-2-cor-3 .statement}
+#### Corollaire 3 {#int-v-s6-prop-2-cor-3 .statement tag=094U}
 
 Si la mesure $\mu$ est concentrée sur un ensemble M, $\pi(\mu)$ est concentrée sur $\pi(M)$.
 En effet, si $N = X - \pi(M)$, $\overline{\pi^{-1}(N)}$ ne rencontre pas M, donc est localement $\mu$-négligeable, et par suite (cor. 2) N est localement $\nu$-négligeable.
 
-#### Corollaire 4 {#int-v-s6-prop-2-cor-4 .statement}
+#### Corollaire 4 {#int-v-s6-prop-2-cor-4 .statement tag=094V}
 
 Soit S le support de $\mu$. Si $\pi$ est continue, le support de $\pi(\mu)$ est $\overline{\pi(S)}$.
 En effet, il résulte du cor. 3 que $\pi(\mu)$ est concentrée sur $\pi(S)$, donc, si $S'$ est le support de $\pi(\mu)$, on a $S' \subset \overline{\pi(S)}$. D’autre part, $
@@ -129,19 +129,19 @@ En effet, il résulte du cor. 3 que $\pi(\mu)$ est concentrée sur $\pi(S)$, don
 
 On a donc $\overline{\pi}^{-1}(X - S') \subset T - S$ et par suite $\pi(S) \subset S'$, ce qui démontre le corollaire.
 
-#### Proposition 3 {#int-v-s6-prop-3 .statement}
+#### Proposition 3 {#int-v-s6-prop-3 .statement tag=094W}
 
 *Pour qu’une application $f$ de $X$ dans un espace topologique $G$ soit $\nu$-mesurable, il faut et il suffit que $f \circ \pi$ soit $\mu$-mesurable.*
 
 C’est une conséquence immédiate de la prop. 3 du § 4, n° 3.
 
-#### Corollaire {#int-v-s6-n2-cor-1 .statement}
+#### Corollaire {#int-v-s6-n2-cor-1 .statement tag=094X}
 
 *Pour qu’une partie $A$ de $X$ soit $\nu$-mesurable, il faut et il suffit que $\overline{\pi}^{-1}(A)$ soit $\mu$-mesurable.*
 
 Par contre, l’image par $\pi$ d’une partie $\mu$-mesurable $M$ de $T$ n’est pas nécessairement $\nu$-mesurable, même si $\pi$ est continue et $M$ $\mu$-négligeable (exerc. 7 et § 8, exerc. 1).
 
-#### Théorème 1 {#int-v-s6-thm-1 .statement}
+#### Théorème 1 {#int-v-s6-thm-1 .statement tag=094Y}
 
 *Soit $f$ une fonction définie dans $X$, à valeurs dans $\bar{\mathbf{R}}$ ou dans un espace de Banach $F$. Pour que $f$ soit essentiellement $\nu$-intégrable, il faut et il suffit que $f \circ \pi$ soit essentiellement $\mu$-intégrable, et l’on a alors*
 
@@ -153,7 +153,7 @@ Supposons en outre que $\pi$ soit continue et propre. *Pour que $f$ soit $\nu$-i
 
 Il suffit d’appliquer le th. 2 du § 4, n° 4.
 
-#### Corollaire {#int-v-s6-n2-cor-2 .statement}
+#### Corollaire {#int-v-s6-n2-cor-2 .statement tag=094Z}
 
 *Pour qu’une partie $A$ de $X$ soit essentiellement $\nu$-intégrable, il faut et il suffit que $\overline{\pi}^{-1}(A)$ soit essentiellement $\mu$-intégrable, et on a alors $\nu(A) = \mu(\overline{\pi}^{-1}(A))$.*
 
@@ -161,7 +161,7 @@ En particulier, pour tout ensemble compact $K \subset X$, on a $\nu(K) = \mu(\ov
 
 ### 3. Propriétés de l’image d’une mesure positive
 
-#### Proposition 4 {#int-v-s6-prop-4 .statement}
+#### Proposition 4 {#int-v-s6-prop-4 .statement tag=0950}
 
 Soient T, T', T'' trois espaces localement compacts, μ une mesure positive sur T, π une application μ-mesurable de T dans T', π' une application de T' dans T'', et π'' = π' ∘ π.
 
@@ -182,11 +182,11 @@ en vertu du th. 1 du n° 2, ce qui achève la démonstration de a).
 
 Sous les hypothèses de b), soit K' une partie compacte de T'. Alors $K'' = \pi'(K')$ est compact, donc ${\pi''}^{-1}(K'')$ est essentiellement μ-intégrable, donc ${\pi'}^{-1}(K') \subset {\pi''}^{-1}(K'')$ est essentiellement μ-intégrable (chap. IV, 2e éd., § 5, n° 5, prop. 7), de sorte que π est μ-propre. On achève alors en appliquant la partie a) de l’énoncé.
 
-#### Corollaire {#int-v-s6-n3-cor-1 .statement}
+#### Corollaire {#int-v-s6-n3-cor-1 .statement tag=0951}
 
 Soient T et T' deux espaces localement compacts, μ une mesure positive sur T, π une application bijective de T sur T', ${\pi'}^{-1}$ l’application réciproque. Supposons que π soit μ-propre, et soit $\mu' = \pi(\mu)$. Alors ${\pi'}^{-1}$ est μ'-propre et on a ${\pi'}^{-1}(\pi(\mu)) = \mu$.
 
-#### Proposition 5 {#int-v-s6-prop-5 .statement}
+#### Proposition 5 {#int-v-s6-prop-5 .statement tag=0952}
 
 Soient T et X deux espaces localement compacts, μ une mesure positive sur T, π une application μ-propre de T dans X, g une fonction numérique finie et $\geq 0$, définie dans X et telle que $g \circ \pi$ soit localement intégrable pour μ. Pour que g soit localement intégrable pour $\pi(\mu)$, il faut et il suffit que π soit propre pour la mesure $(g \circ \pi) . \mu$, et on a alors
 
@@ -202,7 +202,7 @@ $$
 
 (n° 2, th. 1 et § 5, th. 1), ce qui prouve la relation (4).
 
-#### Proposition 6 {#int-v-s6-prop-6 .statement}
+#### Proposition 6 {#int-v-s6-prop-6 .statement tag=0953}
 
 Soient $T$ et $X$ deux espaces localement compacts, $(\lambda_\alpha)_{\alpha \in A}$ une famille de mesures positives sur $T$, filtrante pour la relation $\leqslant$, admettant dans $\mathscr{M}(T)$ une borne supérieure $\mu$. Pour qu’une application de $T$ dans $X$ soit $\mu$-propre, il faut et il suffit qu’elle soit $\lambda_\alpha$-propre pour tout $\alpha \in A$, et que la famille $(\pi(\lambda_\alpha))_{\alpha \in A}$ soit majorée dans $\mathscr{M}(X)$. Dans ce cas, on a
 
@@ -225,7 +225,7 @@ $$
 
 (§ 1, n° 4, prop. 11); le premier membre est donc fini pour toute $f \in \mathscr{K}_+(T)$ si et seulement si la famille $(\pi(\lambda_\alpha))$ admet une borne supérieure $\theta$ dans $\mathscr{M}(X)$, et on a alors $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, relation équivalente à (5).
 
-#### Corollaire 1 {#int-v-s6-prop-6-cor-1 .statement}
+#### Corollaire 1 {#int-v-s6-prop-6-cor-1 .statement tag=0954}
 
 Soit $(\mu_\alpha)_{\alpha \in A}$ une famille sommable de mesures positives sur $T$, telle que $\mu = \sum_{\alpha \in A} \mu_\alpha$; pour qu’une application $\pi$ de $T$ dans un espace localement compact $X$ soit $\mu$-propre, il faut et il suffit qu’elle soit $\mu_\alpha$-propre pour tout $\alpha \in A$, et que la famille
 
@@ -235,7 +235,7 @@ $$
 \pi(\mu) = \sum_{\alpha \in \Lambda} \pi(\mu_\alpha).
 $$
 
-#### Corollaire 2 {#int-v-s6-prop-6-cor-2 .statement}
+#### Corollaire 2 {#int-v-s6-prop-6-cor-2 .statement tag=0955}
 
 Soient $T$ et $X$ deux espaces localement compacts, $(\lambda_i)_{1 \leq i \leq n}$ une suite finie de mesures positives sur $T$, et soit $\mu = \sum_{i=1}^n \lambda_i$. Pour qu’une application $\pi$ de $T$ dans $X$ soit $\mu$-propre, il faut et il suffit qu’elle soit $\lambda_i$-propre pour chaque indice $i$, et on a alors
 $$
@@ -251,7 +251,7 @@ $$
 $$
 il en résulte aussitôt que la forme linéaire $f \mapsto \int (f \circ \pi) \, d\theta$ sur $\mathscr{K}(X; \mathbf{C})$ est une mesure complexe sur $X$ (chap. III, 2e éd., § 1, no 3, prop. 6), et on peut poser la définition suivante:
 
-#### Définition 2 {#int-v-s6-def-2 .statement}
+#### Définition 2 {#int-v-s6-def-2 .statement tag=0956}
 
 Soit $\theta$ une mesure complexe sur un espace localement compact $T$. On dit qu’une application $\pi$ de $T$ dans un espace localement compact $X$ est $\theta$-propre si elle est $|\theta|$-propre. La mesure $f \mapsto \int (f \circ \pi) \, d\theta$ s’appelle alors l’image de $\theta$ par $\pi$ et se note $\pi(\theta)$.
 
@@ -273,7 +273,7 @@ $$
 
 Plusieurs résultats établis plus haut s’étendent aussitôt aux mesures complexes; nous citerons les plus importants.
 
-#### Proposition 7 {#int-v-s6-prop-7 .statement}
+#### Proposition 7 {#int-v-s6-prop-7 .statement tag=0957}
 
 *Soient $\theta$ une mesure complexe sur $T$, $\pi$ une application $\theta$-propre de $T$ dans un espace localement compact $X$, $\nu$ la mesure image $\pi(\theta)$.*
 
@@ -304,7 +304,7 @@ La fonction numérique $G$ est *continue* dans $I$; cela résulte aussitôt du t
 
 Supposons d’abord que $g$ soit $\mu$-intégrable. Alors, le même raisonnement que ci-dessus montre que les limites $G(a+)$ et $G(b-)$ existent et sont *finies*; en outre, la mesure $|\lambda|$ est *bornée* ($§ 5$, n° 3, cor. du th. 1), et l’application $G$ de $I$ dans $G(I)$ est *$\lambda$-propre*.
 
-#### Proposition 8 {#int-v-s6-prop-8 .statement}
+#### Proposition 8 {#int-v-s6-prop-8 .statement tag=0958}
 
 *Supposons* $g$ $\mu$-intégrable. *Si* $J$ *désigne l’intervalle ouvert de* $\mathbf{R}$ *d’extrémités* $G(a+)$ *et* $G(b-)$, *l’image par* $G$ *de la mesure* $g . \mu$ *est la mesure* $\varphi_J . \nu$ *si* $G(a+) \leq G(b-)$ *et la mesure* $-\varphi_J . \nu$ *si* $G(a+) \geq G(b-)$ (*$\nu$ désignant la mesure de Lebesgue sur* $G(I)$).
 
@@ -324,7 +324,7 @@ $$
 
 par passage à la limite.
 
-#### Corollaire {#int-v-s6-n5-cor-1 .statement}
+#### Corollaire {#int-v-s6-n5-cor-1 .statement tag=0959}
 
 Si une fonction $f$ définie dans $G(I)$, à valeurs dans $\bar{\mathbf{R}}$ ou dans un espace de Banach, est telle que la fonction $t \mapsto f(G(t))g(t)$ soit intégrable dans $I$ pour la mesure de Lebesgue, alors $f$ est intégrable dans $J$ pour la mesure de Lebesgue et on a (formule du changement de variable dans l’intégrale de Lebesgue)
 
@@ -339,7 +339,7 @@ Il peut se faire que $f$ soit intégrable dans $J$ pour la mesure de Lebesgue, m
 
 Supposons maintenant que $g$ garde presque partout un signe constant (et soit localement $\mu$-intégrable); on peut par exemple supposer $g(t) \geq 0$ presque partout dans $I$. Alors $G$ est une fonction continue croissante dans $I$, donc $G(a+)$ et $G(b-)$ existent (mais peuvent être infinis). En outre, $G$ est une application $\lambda$-propre de $I$ dans $G(I)$: en effet, si $G(b-) \in G(I)$, il y a un $x_1 \geq x_0$ tel que $G$ soit constant pour $x \geq x_1$, et alors l’image réciproque par $G$ de l’intervalle compact $[G(x_0), G(b-)]$ est $\lambda$-intégrable; si au contraire $G(b-) \notin G(I)$, l’image réciproque par $G$ de tout intervalle compact d’origine $G(x_0)$, contenu dans $G(I)$, est un intervalle compact. On raisonne de même pour les intervalles compacts d’extrémité $G(x_0)$, d’où notre assertion. En outre:
 
-#### Proposition 9 {#int-v-s6-prop-9 .statement}
+#### Proposition 9 {#int-v-s6-prop-9 .statement tag=095A}
 
 Supposons $g \geq 0$ et localement $\mu$-intégrable. Alors, l’image par $G$ de la mesure positive $g\cdot \mu$ est la mesure de Lebesgue sur $G(I)$. Pour qu’une fonction $f$, définie dans $G(I)$, à valeurs dans $\bar{\mathbf{R}}$ ou dans un espace de Banach, soit intégrable dans $G(I)$ pour la mesure de Lebesgue, il faut et il suffit que la fonction t \mapsto f(G(t))g(t) soit intégrable dans I pour la mesure de Lebesgue, et on a la relation (13).
 
@@ -349,7 +349,7 @@ La première partie de l’énoncé résulte de ce que la formule (12) est valab
 
 Soient $X$ un espace localement compact, $\pi$ une application de $X$ dans un espace localement compact $T$, $\mu$ une mesure positive sur $T$, $\Lambda : t \mapsto \lambda_t$ une application scalairement essentiellement $\mu$-intégrable et vaguement $\mu$-mesurable de $T$ dans $\mathscr{M}_+(X)$. Soit $v = \int \lambda_t\, d\mu(t)$. Si $\lambda_t$ est portée par $\bar{\pi}^1(t)$ pour tout $t \in T$, on dit que l’égalité $v = \int \lambda_t\, d\mu(t)$ est une décomposition en tranches (ou une désintégration) de $v$ relativement à $\pi$. Cette notion sera étudiée de manière détaillée au chap. VI.
 
-#### Proposition 10 {#int-v-s6-prop-10 .statement}
+#### Proposition 10 {#int-v-s6-prop-10 .statement tag=095B}
 
 On conserve les notations ci-dessus, et on suppose que $\pi$ est $v$-mesurable. Soit $g$ la fonction $t \mapsto \lambda_t^*(1)$ sur $T$. Pour que $\pi$ soit $v$-propre, il faut et il suffit que $g$ soit localement $\mu$-intégrable, et on a dans ce cas
 
@@ -373,7 +373,7 @@ $$
 
 Mais les fonctions $fg_h|K$ forment un ensemble filtrant croissant de fonctions continues sur K, dont l’enveloppe supérieure vaut $+\infty$: d’après le th. de Dini (Top. gén., chap. X, 2e éd., § 4, n° 1, th. 1), on peut choisir h de telle sorte que $fg_h|K$ soit supérieure à un nombre positif arbitraire n, et il vient $\int (f \circ \pi) \, d\nu \geq n \mu(K)$. Le premier membre étant fini du fait que $\pi$ est $\nu$-propre, on en déduit que $\mu(K) = 0$.
 
-#### Corollaire 1 {#int-v-s6-prop-10-cor-1 .statement}
+#### Corollaire 1 {#int-v-s6-prop-10-cor-1 .statement tag=095C}
 
 Supposons que $\pi$ soit $\nu$-mesurable.
 
@@ -383,19 +383,19 @@ b) Si $f$ est une application $\mu$-mesurable de T dans un espace topologique G,
 
 Reprenons les notations $\Lambda_h$, $\nu_h$, $g_h$ de la fin de la démonstration précédente: $\nu_h$ étant une mesure bornée pour tout $h \in \mathscr{H}$, $\pi$ est $\nu_h$-propre, $g_h$ est localement $\mu$-intégrable, et $\pi(\nu_h) = g_h \cdot \mu$, mesure de base $\mu$. Il en résulte que N est localement négligeable (resp. que $f$ est mesurable) pour la mesure $\pi(\nu_h)$ ($§ 5$, n° 3, cor. 1 de la prop. 3 et cor. de la prop. 4). Par conséquent, $\bar{\pi}^{-1}(N)$ est localement négligeable (resp. $f \circ \pi$ est mesurable) pour la mesure $\nu_h$ (cor. 2 de la prop. 2, resp. prop. 3). On remarque enfin que les mesures $\nu_h$ forment une famille filtrante croissante de mesures positives, dont la borne supérieure est $\nu$ ($§ 3$, n° 1, prop. 1), et on applique le cor. 1 (resp. 2) de la prop. 11 du $§ 1$, n° 4.
 
-#### Corollaire 2 {#int-v-s6-prop-10-cor-2 .statement}
+#### Corollaire 2 {#int-v-s6-prop-10-cor-2 .statement tag=095D}
 
 Supposons que $\pi$ soit $v$-propre; soit $f$ une application définie dans $T$, à valeurs dans un espace de Banach ou dans $\bar{\mathbf{R}}$. Pour que $f \circ \pi$ soit essentiellement $v$-intégrable, il faut et il suffit que $gf$ soit essentiellement $\mu$-intégrable.
 
 Cela résulte immédiatement, compte tenu de la prop. 10, du th. 1 du § 5, n° 3 et du th. 1 du n° 2.
 
-#### Exemple {#int-v-s6-n6-exa-1 .statement}
+#### Exemple {#int-v-s6-n6-exa-1 .statement tag=095E}
 
 Soient $X$ et $T$ deux espaces localement compacts, et soit $\pi$ un homéomorphisme local de $X$ dans $T$. Autrement dit (Top. gén., chap. XI), nous supposons que tout point $x \in X$ admet un voisinage $V$ tel que $\pi|V$ soit un homéomorphisme de $V$ sur un voisinage de $\pi(x)$; quitte à remplacer $V$ par un voisinage ouvert relativement compact $W$ de $x$ tel que $\overline{W} \subset V$, on en déduit que l’ensemble $\mathscr{U}$ des ouverts relativement compacts $U$ de $X$, tels que $\pi|\overline{U}$ soit un homéomorphisme de $\overline{U}$ sur son image, est un recouvrement ouvert de $X$. Soit alors $\mu$ une mesure positive sur $T$; si $U$ est un élément de $\mathscr{U}$, $\pi(U)$ est un ouvert de l’espace compact $\pi(\overline{U})$, donc un sous-espace localement compact de $T$, et on sait définir la mesure $\mu|\pi(U)$ induite par $\mu$ sur $\pi(U)$ (chap. IV, 2e éd., § 5, n° 7). Soit $\nu_U$ l’image de $\mu|\pi(U)$ par l’homéomorphisme réciproque de $\pi|U$; nous allons montrer qu’il existe sur $X$ une mesure $\nu$ et une seule qui induit la mesure $\nu_U$ sur tout ouvert $U \in \mathscr{U}$. Cette mesure est appelée l’image réciproque de $\mu$ par l’homéomorphisme local $\pi$, et notée $\overline{\pi}^1(\mu)$.
 
 L’unicité de $\nu$ résulte aussitôt du principe de localisation (chap. III, 2e éd., § 2, n° 1, cor. de la prop. 1). Pour établir l’existence notons que si $t \in T$, tout point $x \in \overline{\pi}^1(t)$ admet un voisinage qui ne rencontre $\overline{\pi}^1(t)$ qu’au point $x$, de sorte que $\overline{\pi}^1(t)$ est un sous-espace discret de $X$, et que la famille $(\varepsilon_x)_{x \in \overline{\pi}^1(t)}$ est sommable; désignons par $\lambda_t$ sa somme. Montrons ensuite que l’application $t \mapsto \lambda_t$ est scalairement essentiellement $\mu$-intégrable, et que son intégrale $\nu = \int \lambda_t \, d\mu(t)$ est l’image réciproque cherchée. Cela résultera aussitôt du lemme suivant:
 
-#### Lemme 1 {#int-v-s6-lem-1 .statement}
+#### Lemme 1 {#int-v-s6-lem-1 .statement tag=0E6O}
 
 a) Soit $f$ un élément de $\mathscr{K}_+(X)$; la fonction $t \mapsto \lambda_t(f)$ est positive, semi-continue supérieurement, à support compact, et sa restriction à $\pi(X)$ est continue.
 
@@ -407,7 +407,7 @@ Pour établir b), désignons par g un élément de $\mathscr{K}(\pi(U))$, par $g
 
 Notons maintenant que $\pi(X)$ est ouvert dans T, donc $\mu$-mesurable ; l’application $\Lambda : t \mapsto \lambda_t$ est vaguement $\mu$-mesurable, car sa restriction à chacun des ensembles $\pi(X)$ et $\mathbf{C}\pi(X)$ est vaguement continue. Dans ces conditions, la formule $\bar{\pi}^1(\mu) = \int \lambda_t d\mu(t)$ définit une décomposition en tranches de $\bar{\pi}^1(\mu)$ relativement à $\pi$, et la prop. 10 nous donne le résultat suivant :
 
-#### Proposition 11 {#int-v-s6-prop-11 .statement}
+#### Proposition 11 {#int-v-s6-prop-11 .statement tag=095G}
 
 Soit $\pi$ un homéomorphisme local d’un espace localement compact X dans un espace localement compact T, et soit $\mu$ une mesure positive sur T. Soit n la fonction numérique qui associe à tout $t \in T$ le nombre des éléments de $\bar{\pi}^1(t)$, si ce nombre est fini, ou $+\infty$ dans le cas contraire. Pour que $\pi$ soit $\bar{\pi}^1(\mu)$-propre, il faut et il suffit que n soit localement $\mu$-intégrable, et on a dans ce cas
 $$

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 259
 statements: 13
 exercises: 11
-content_sha256: 7aef1df43eff09df6e9442552cc56e53595b077c4cc4257843aa13c45dda4aec
+content_sha256: c18bf105a0a19fb75952b1cd2547b25be59f3bbcc6840083c077e38c89496107
 ---
 
 ## § 4. APPLICATION TO SERIES WITH POSITIVE TERMS
@@ -40,11 +40,11 @@ In this section by a *series with positive terms* we shall understand (by an abu
 
 Let $(u_n)$ and $(v_n)$ be two series with positive terms, and $u$ and $v$ the associated step functions: the relation $u_n \leq v_n$ for $n \geq n_0$ is equivalent to $u(x) \leq v(x)$ for $x \geq n_0$. Thus each of the relations $u_n \preccurlyeq v_n, u_n \ll v_n, u_n \sim v_n$ is equivalent to $u(x) \preccurlyeq v(x), u(x) \ll v(x)$ and $u(x) \sim v(x)$ respectively; this remark allows us to translate propositions 1 (V, p. 228) and 6 (V, p. 230) as follows:
 
-#### Proposition 1 {#fvr-v-s4-prop-1 .statement}
+#### Proposition 1 {#fvr-v-s4-prop-1 .statement tag=08FZ}
 
 *Let* $(u_n)$ *and* $(v_n)$ *be two series with positive terms. If* $u_n \preccurlyeq v_n$ *and if the series* $(v_n)$ *converges, then* $(u_n)$ *converges; if* $u_n \succ v_n$ *and if* $\sum_{n=1}^{\infty} v_n = +\infty$, *then* $\sum_{n=1}^{\infty} u_n = +\infty$.
 
-#### Proposition 2 {#fvr-v-s4-prop-2 .statement}
+#### Proposition 2 {#fvr-v-s4-prop-2 .statement tag=08G0}
 
 *Let* $(u_n)$ *and* $(v_n)$ *be two series with positive terms*:
 1. *If the series* $(v_n)$ *converges then the relation* $u_n \ll v_n$ *(resp.* $u_n \sim v_n$) *implies* $\sum_{p=n}^{\infty} u_p \ll \sum_{p=n}^{\infty} v_p$ *(resp.* $\sum_{p=n}^{\infty} u_p \sim \sum_{p=n}^{\infty} v_p$).
@@ -52,7 +52,7 @@ Let $(u_n)$ and $(v_n)$ be two series with positive terms, and $u$ and $v$ the a
 
 One obtains convenient convergence criteria by taking for the comparison series $(v_n)$ in prop. 1 a series whose terms are of the form $v_n = f(n)$, where $f$ is a function $\geq 0$ defined for every real number $x > x_0$ and decreasing on the interval $[x_0, +\infty[$; indeed:
 
-#### Proposition 3 (Cauchy-Maclaurin criterion) {#fvr-v-s4-prop-3 .statement}
+#### Proposition 3 (Cauchy-Maclaurin criterion) {#fvr-v-s4-prop-3 .statement tag=08G1}
 
 *If* $f$ *is a function* $\geq 0$ *and decreasing on* $[x_0, +\infty[$, *then the series with general term* $v_n = f(n)$ *converges if and only if the integral* $\int_{x_0}^{+\infty} f(t)\,dt$ *converges*.
 
@@ -60,11 +60,11 @@ To prove this it is sufficient to note that if $v$ is the step function associat
 
 Since the functions which feature in the logarithmic convergence criteria for integrals (V, p. 229, prop. 2, 3 and 4) are decreasing on an interval $[x_0, +\infty[$, applying prop. 1 and 3 of V, p. 237, gives the following criteria:
 
-#### Proposition 4 ("logarithmic criterion of order 0") {#fvr-v-s4-prop-4 .statement}
+#### Proposition 4 ("logarithmic criterion of order 0") {#fvr-v-s4-prop-4 .statement tag=08G2}
 
 Let $(u_n)$ be a series with positive terms; if $u_n \preccurlyeq n^\mu$ for some $\mu < -1$ then the series $(u_n)$ converges; if $u_n \succcurlyeq n^\mu$ for some $\mu \geq -1$ then the series $(u_n)$ has an infinite sum.
 
-#### Proposition 5 ("logarithmic criterion of order $p$") {#fvr-v-s4-prop-5 .statement}
+#### Proposition 5 ("logarithmic criterion of order $p$") {#fvr-v-s4-prop-5 .statement tag=08G3}
 
 Let $(u_n)$ be a series with positive terms. If $u_n \preccurlyeq \frac{1}{nl_1(n)l_2(n)\ldots l_{p-1}(n)(l_p(n))^\mu}$ for some $\mu > 1$ then the series $(u_n)$ converges; if $u_n \succcurlyeq \frac{1}{nl_1(n)l_2(n)\ldots l_{p-1}(n)(l_p(n))^\mu}$ for some $\mu \leq 1$ then the series $(u_n)$ has an infinite sum.
 
@@ -106,7 +106,7 @@ to precision $g_{\rho}$ one thus obtains an asymptotic expansion of $s_{n}$ to p
 
 One is thus led to the particular case of series $(g(n))$ where $g \in \mathscr{E}$. We shall see how, subject to certain conditions, one can straight away obtain a principal part of $s_{n} = \sum_{m=1}^{n} g(m)$ (when $\sum_{n=1}^{\infty} g(n) = +\infty$) or of $r_{n} = \sum_{m=n+1}^{\infty} g(m)$ (when $\sum_{n=1}^{n} g(n) < +\infty$).
 
-#### Proposition 6 {#fvr-v-s4-prop-6 .statement}
+#### Proposition 6 {#fvr-v-s4-prop-6 .statement tag=08G4}
 
 *Let g be a real function, > 0 and monotone, defined on an interval [x_0, +\infty[ (where x_0 \leq 1 ), and such that log g and x are comparable to order 1.*
 
@@ -180,7 +180,7 @@ $$
 
 and it suffices to expand (relative to $\mathscr{E}'$) each of the functions $g(n-k)$ ($0 \leq k \leq p$), limiting the precision of the expansions to the principal part of $g(n-p)$, to obtain an expansion for the $s_n$.
 
-#### Example {#fvr-v-s4-n2-exa-1 .statement}
+#### Example {#fvr-v-s4-n2-exa-1 .statement tag=08G5}
 
 Let $g(x) = x^\lambda = \exp(\lambda \log x)$, of order $+\infty$ relative to $e^\lambda$. Taking $p = 2$ one has
 
@@ -216,7 +216,7 @@ where $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)$ by 
 
 Step by step one can thus eventually obtain an expression for $s_n$ as the sum of a certain number of primitives each of which is negligible with respect to the previous, of a term remaining negligible relative to the last primitive written, and finally a constant (the case where the remainder term tends to 0). It then remains to expand each of the primitives obtained with respect to $\mathscr{E}'$ (cf. V, p. 235).
 
-#### Example {#fvr-v-s4-n2-exa-2 .statement}
+#### Example {#fvr-v-s4-n2-exa-2 .statement tag=08G6}
 
 Let $g(n) = \frac{1}{n}$; then
 $$
@@ -258,7 +258,7 @@ thus, for the product with general factor $1 + u_n$ to be commutatively converge
 
 The relation between infinite products and series of real numbers sometimes allows one to obtain an asymptotic expansion for the partial product $p_n = \prod_{k=1}^{n} (1 + u_k)$; it suffices to have an asymptotic expansion for the partial sum $s_n = \sum_{k=1}^{n} \log(1 + u_k)$, then to expand $p_n = \exp(s_n)$; one is thus brought back to the two problems examined earlier (V, p. 238 and p. 226).
 
-#### Example {#fvr-v-s4-n3-exa-1 .statement}
+#### Example {#fvr-v-s4-n3-exa-1 .statement tag=08G7}
 
 *Stirling’s formula.* Let us seek an asymptotic expansion for $n!$; this leads us to expand $s_n = \sum_{p=1}^{n} \log p$, and then $\exp(s_n)$. The method of n 2 gives successively
 
@@ -300,7 +300,7 @@ for every real number $a$ not an integer $> 0$, where $\varphi(a)$ is a function
 
 Quite often one meets series $(u_n)$ for which $u_n > 0$ from a certain point on, and $u_{n+1}/u_n$ has an asymptotic expansion which is easy to determine. It is convenient, for such series, to have criteria (called *criteria of the second kind*) allowing one to determine whether the series is convergent from the form of $u_{n+1}/u_n$ alone. The following is such a criterion:
 
-#### Proposition 7 ("Raabe's test") {#fvr-v-s4-prop-7 .statement}
+#### Proposition 7 ("Raabe's test") {#fvr-v-s4-prop-7 .statement tag=08G8}
 
 *Let $(u_n)$ be a series with terms $> 0$ from some point on. If, from a certain stage, $u_{n+1}/u_n \leqslant 1 - \frac{\alpha}{n}$ for some $\alpha > 1$, then the series $(u_n)$ converges; if, from a certain point on, $u_{n+1}/u_n \geqslant 1 - \frac{1}{n}$, then the series $(u_n)$ has infinite sum.*
 
@@ -310,7 +310,7 @@ If, on the other hand, $u_{n+1}/u_n \geq 1 - \frac{1}{n}$ from a certain point, 
 
 One can prove in the same way, using the logarithmic criteria of order $> 0$, the following criterion of the second kind:
 
-#### Proposition 8 {#fvr-v-s4-prop-8 .statement}
+#### Proposition 8 {#fvr-v-s4-prop-8 .statement tag=08G9}
 
 *Let $(u_n)$ be a series with terms $> 0$ from a certain point on. If, from a certain point, one has*
 
@@ -326,7 +326,7 @@ $$
 
 *then the series $(u_n)$ has an infinite sum.*
 
-#### Example {#fvr-v-s4-n4-exa-1 .statement}
+#### Example {#fvr-v-s4-n4-exa-1 .statement tag=08GA}
 
 Consider the *hypergeometric series*, with general term
 
@@ -347,11 +347,11 @@ $$
 
 Raabe's test shows that the series converges for $\alpha + \beta < \gamma$, and has infinite sum for $\alpha + \beta > \gamma$; when $\alpha + \beta = \gamma$ the series also has an infinite sum, as is shown by prop. 8.
 
-#### Remark 1 {#fvr-v-s4-n4-rem-1 .statement}
+#### Remark 1 {#fvr-v-s4-n4-rem-1 .statement tag=08GB}
 
 As a particular instance of Raabe's test one sees that if $\limsup_{n \to \infty} u_{n+1}/u_n < 1$ the series $(u_n)$ converges; if, on the other hand, $\liminf_{n \to \infty} u_{n+1}/u_n > 1$, the series $(u_n)$ has an infinite sum (*d'Alembert's test*).
 
-#### Remark 2 {#fvr-v-s4-n4-rem-2 .statement}
+#### Remark 2 {#fvr-v-s4-n4-rem-2 .statement tag=08GC}
 
 The criteria of the second kind can be applied only to series whose general term behaves in a very regular way as $n$ tends to $+\infty$; in other words, their scope is much more restricted than those of the logarithmic criteria, and it would be a blunder to try to use them beyond the special cases to which they are particularly suited. For example, for the series $(u_n)$ defined by $u_{2m} = 2^{-m}$, $u_{2m+1} = 3^{-m}$ one has $u_{2m+1}/u_{2m} = \left(\frac{2}{3}\right)^m$, $u_{2m+2}/u_{2m+1} = \frac{1}{2} \left(\frac{3}{2}\right)^m$; the first of these ratios tends to 0 and the second to $+\infty$ as $m$ increases indefinitely, so no criterion of the second kind is applicable; nevertheless, since $u_n \preccurlyeq 2^{-n/2}$, it is immediate that the series converges.
 

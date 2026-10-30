@@ -40,14 +40,14 @@ subsections:
       pdf_page: 17
 statements: 27
 exercises: 14
-content_sha256: 1f8d3d74fb2618f3c351e6ad261b10979253e2143e5c0e9b52c02e67b8516889
+content_sha256: 99f7362e5facc0f5a48166a8143125835c4c5eb7fc7a7fc95d4ea773e2bc3c95
 ---
 
 ## § 1. TOPOLOGICAL VECTOR SPACES
 
 ### 1. Definition of a topological vector space
 
-#### Definition 1 {#evt-i-s1-def-1 .statement}
+#### Definition 1 {#evt-i-s1-def-1 .statement tag=077V}
 
 — *Given a topological division ring* $\mathbf{K}$ (GT, III, § 6.7) *and a set* $E$ *such that* $E$ *has*
 $1^\circ$ *the structure of a left vector space on* $\mathbf{K}$;
@@ -59,7 +59,7 @@ A left vector space structure relative to $\mathbf{K}$ and a given topology on a
 
 If $E$ is a left topological vector space over $\mathbf{K}$, we say that $E$ provided only with its vector space structure, *underlies* the topological vector space $E$.
 
-#### Example {#evt-i-s1-n1-exa-1 .statement}
+#### Example {#evt-i-s1-n1-exa-1 .statement tag=077W}
 
 — 1) If $E$ is a left vector space over a *discrete* topological division ring $\mathbf{K}$, the *discrete* topology on $E$ is compatible with the vector space structure of $E$ (this is not so if $\mathbf{K}$ is non-discrete and $E$ is not the single point 0).
 2) Let $A$ be a topological ring (GT, III, § 6.3) and let $\mathbf{K}$ be a subring of $A$ that is also a division ring and such that the topology induced on $\mathbf{K}$ by that of $A$ is compatible with the division ring structure of $\mathbf{K}$; then the topology of $A$ is compatible with its left vector space structure on $\mathbf{K}$.
@@ -99,13 +99,13 @@ axiom (EVT) is equivalent to the following system of three axioms.
 
 In particular:
 
-#### Proposition 1 {#evt-i-s1-prop-1 .statement}
+#### Proposition 1 {#evt-i-s1-prop-1 .statement tag=077X}
 
 — For all $\alpha \in K$ and every point $b \in E$, the mapping $x \mapsto \alpha x + b$ of $E$ in itself is continuous. Further, if $\alpha \neq 0$, this mapping is a homeomorphism of $E$ on itself.
 
 The second part of the proposition is a result of the fact that if $\alpha \neq 0$, then $x \mapsto \alpha^{-1}x - \alpha^{-1}b$ is the inverse mapping of $x \mapsto \alpha x + b$.
 
-#### Corollary {#evt-i-s1-n1-cor-1 .statement}
+#### Corollary {#evt-i-s1-n1-cor-1 .statement tag=077Y}
 
 — If $A$ is an open (resp. closed) set in $E$, then $\alpha A$ is open (resp. closed) in $E$ for every $\alpha \neq 0$ in $K$.
 
@@ -119,7 +119,7 @@ We recall on the other hand (GT, IX, § 3.3) that if $E$ is a vector space on a 
 
 It is known (GT, IX, § 3.3) that two distinct norms on $E$ can define the same topology on $E$; for this it is necessary and sufficient that the two norms be equivalent (loc. cit.). The structure of normed spaces is thus richer than the structure of topological vector spaces; if $E$ and $F$ are two normed spaces one must be careful to distinguish between the idea of isomorphism of the normed space structure of $E$ with that of $F$, and the idea of isomorphism of the topological vector space structure of $E$ with that of $F$.
 
-#### Example {#evt-i-s1-n2-exa-1 .statement}
+#### Example {#evt-i-s1-n2-exa-1 .statement tag=077Z}
 
 Let I be an arbitrary set of indices; it is known (GT, X, § 3.2) that a norm $\|x\|$ can be defined, on the set of bounded mappings $x = (\xi_i)$ of I in K, $\mathscr{B}(I; K)$ (also written $\mathscr{B}_K(I)$ or $\ell_K^\infty(I)$), by $\|x\| = \sup_{i \in I} |\xi_i|$. When I is a topological space, the set of bounded, continuous mappings of I in K is a closed subspace of the space $\mathscr{B}(I; K)$ (GT, X, § 3.1, cor. 2). Another subspace of $\mathscr{B}(I; K)$ is the set $\ell_K^1(I)$ of absolutely summable families $x = (\xi_i)$ (GT, X, § 3.6); we can define on this subspace another norm $\|x\|_1 = \sum_{i \in I} |\xi_i|$, that in general is not equivalent to the norm $\|x\| = \sup_{i \in I} |\xi_i|$ (I, p. 23, exerc. 6); when considering $\ell_K^1(I)$ as a normed space, without specifying its norm, it is always the norm $\|x\|$, that is meant. We write $\mathscr{B}(I)$ and $\ell^1(I)$ in place of $\mathscr{B}(I; \mathbf{R})$ and $\ell_R^1(I)$.
 
@@ -135,7 +135,7 @@ For certain types of topological vector spaces on the field $\mathbf{R}$ or the 
 
 Everything that has been said on the finite direct sums of stable subgroups of topological groups with operators (GT, III, § 6.2) applies to topological vector spaces, replacing « stable subgroup » throughout by « vector subspace ».
 
-#### Remark {#evt-i-s1-n3-rem-1 .statement}
+#### Remark {#evt-i-s1-n3-rem-1 .statement tag=0780}
 
 Given a closed vector subspace M of a Hausdorff topological vector space E, it is not necessarily the case that there exists an (algebraic) complementary vector subspace to M that is closed in E (even if E is a normed space; cf. IV, p. 55, exerc. 16 (c)); a fortiori there does not necessarily exist a topological complement of M in E (cf. I, p. 26, exerc. 8). However we shall see in § 2 that when K is a non-discrete valued division ring, then every closed subspace M of E, with finite codimension, does have a topological complement in E (I, p. 14, prop. 3).
 
@@ -143,21 +143,21 @@ Given a closed vector subspace M of a Hausdorff topological vector space E, it i
 
 Since the topology of the topological vector space E is compatible with the additive group structure on E, it defines a uniform structure on E (GT, III, § 3); when we speak of the uniform structure of a topological vector space we always mean this structure unless the contrary is expressly stated. Every continuous linear mapping of a topological vector space E in a topological vector space F is uniformly continuous (GT, III, § 3.1, prop. 3); every mapping of E in itself of the form $x \mapsto \alpha x + b$ is uniformly continuous. An equicontinuous set of linear mappings of E in F is uniformly equicontinuous (GT, X, § 2.2, prop. 5).
 
-#### Remark 1 {#evt-i-s1-n4-rem-1 .statement}
+#### Remark 1 {#evt-i-s1-n4-rem-1 .statement tag=0781}
 
 If B is a precompact set of K, then for every neighbourhood V of 0 in E, there is a neighbourhood U of 0 in E such that BU $\subset$ V. For, if W is a neighbourhood of 0 in E such that W + W $\subset$ V; then from (EVT$_{\text{III}}$) there is a neighbourhood T$_0$ of 0 in K and a neighbourhood U$_0$ of 0 in E such that T$_0$U$_0$ $\subset$ W. As B is precompact, there are finitely many points $\lambda_i \in B$ ($1 \leq i \leq n$) such that the $\lambda_i + T_0$ cover B; from (EVT$_{\text{II}}$) it follows that there is a neighbourhood U $\subset$ U$_0$ of 0 in E, such that $\lambda_i U \subset W$ for all $i$; clearly U has the required properties. In a similar manner (using (EVT$_{\text{I}}$) instead of (EVT$_{\text{II}}$)) it can be shown that if H is a precompact set of E, then for every neighbourhood V of 0 in E, there exists a neighbourhood T of 0 in K such that TH $\subset$ V.
 
-#### Remark 2 {#evt-i-s1-n4-rem-2 .statement}
+#### Remark 2 {#evt-i-s1-n4-rem-2 .statement tag=0782}
 
 From 1) it follows that, if B is a precompact set of K and H is a precompact set of E, then the mapping $(\lambda, x) \mapsto \lambda x$ restricted to B $\times$ H is uniformly continuous. For, if V is a neighbourhood of 0 in E then there are neighbourhoods T of 0 in K, and U of 0 in E such that TH + BU $\subset$ V. Since we can write $\lambda x - \lambda' x' = (\lambda - \lambda') x + \lambda'(x - x')$, we see that for $\lambda, \lambda'$ in B, x, x' in H, $\lambda - \lambda' \in T$ and $x - x' \in U$, we have $\lambda x - \lambda' x' \in V$, which proves our assertion.
 
 A topological vector space is called complete if, considering its uniform structure, it is a complete uniform space.
 
-#### Definition 2 {#evt-i-s1-def-2 .statement}
+#### Definition 2 {#evt-i-s1-def-2 .statement tag=0783}
 
 *A complete normed space on a non-discrete valued division ring is called a Banach space.*
 
-#### Example {#evt-i-s1-n4-exa-1 .statement}
+#### Example {#evt-i-s1-n4-exa-1 .statement tag=0784}
 
 If K is a non-discrete valued division ring then the space $\mathscr{B}(I ; K)$ (I, p. 4, Example) is complete (GT, X, § 3.1, cor. 1). This is also true for the space $\ell_K^1(I)$ (I, p. 4, Example) with the norm $\|x\|_1 = \sum_{i \in I} |\xi_i|$: for, if $x_n$ is a Cauchy sequence in this space and $x_n = (\xi_{m_i})_{i \in I}$, then for all $i \in I$
 
@@ -177,11 +177,11 @@ Let $K$ be a Hausdorff topological division ring, $E$ a topological vector space
 
 ### 5. Neighbourhoods of the origin in a topological vector space over a valued division ring
 
-#### Definition 3 {#evt-i-s1-def-3 .statement}
+#### Definition 3 {#evt-i-s1-def-3 .statement tag=0785}
 
 *Let $K$ be a valued division ring and $E$ a left vector space over $K$; we say that a subset $M$ of $E$ is balanced if, for all $x \in M$ and all $\lambda \in K$ such that $|\lambda| \leq 1$, it is true that $\lambda x \in M$ (or in other words if $\lambda M \subset M$ when $|\lambda| \leq 1$).*
 
-#### Proposition 2 {#evt-i-s1-prop-2 .statement}
+#### Proposition 2 {#evt-i-s1-prop-2 .statement tag=0786}
 
 *In a topological vector space $E$ over a valued division ring $K$, the closure of a balanced set $M$, is a balanced set.*
 
@@ -189,7 +189,7 @@ If $B$ is the set of $\xi \in K$ with $|\xi| \leq 1$; then $B$ is closed in $K$.
 
 When $M$ is an arbitrary set in the vector space $E$ over a valued division ring $K$, the set $M_1$ of the $\lambda x$ with $x \in M$ and $\lambda \in K$ such that $|\lambda| \leq 1$, is clearly the smallest balanced set containing $M$; $M_1$ is called the *balanced envelope* of $M$.
 
-#### Proposition 3 {#evt-i-s1-prop-3 .statement}
+#### Proposition 3 {#evt-i-s1-prop-3 .statement tag=0787}
 
 *Let $K$ be a valued locally compact and non-discrete division ring and $E$ be a Hausdorff topological vector space (resp. a topological vector space) over $K$. For every compact (resp. precompact) set $H$ in $E$, the balanced envelope of $H$ is compact (resp. precompact).
 
@@ -199,13 +199,13 @@ Note that the balanced envelope of a closed set is not necessarily closed. For e
 
 The union of a family of balanced sets in $E$ is balanced, which implies that for every set $M$ of $E$ there is a largest balanced subset $N$ of $M$ called the *balanced core of* $M$; also $N$ is not empty if and only if $0 \in M$. To say that $x \in N$ means that for all $\lambda \in K$ such that $|\lambda| \leq 1$, we have $\lambda x \in M$, or again (if $0 \in M$) that, for all $\mu \in K$ with |μ| ≥ 1, we have x ∈ μM. If 0 ∈ M, the balanced core N of M is therefore the intersection $\bigcap_{|\mu| \geq 1} \mu M$. This shows in particular that if M is closed, so also is N.
 
-#### Definition 4 {#evt-i-s1-def-4 .statement}
+#### Definition 4 {#evt-i-s1-def-4 .statement tag=0788}
 
 *Let K be a non-discrete valued division ring and E be a left vector space on K with two subsets A and B. We say that A absorbs B if there exists α > 0 such that λA ⊃ B for every λ ∈ K with |λ| ≥ α (or equivalently if μB ⊂ A for μ ≠ 0 and |μ| ≤ α⁻¹). A set A of E is called absorbent if it absorbs every set consisting of a single point.*
 
 Let A be a balanced set of E; for it to absorb a set B of E it is sufficient that there exists λ ≠ 0 such that λA ⊃ B; in fact, for |μ| ≥ |λ|, we have λA = (λμ⁻¹) μA, and as μA is balanced and |λμ⁻¹| ≤ 1, it follows that λA ⊂ μA, and thus B ⊂ μA. In particular for a balanced set A of E to be absorbent, it is necessary and sufficient that for every x ∈ E, there exists λ ≠ 0 in K such that λx ∈ A. Every absorbent set of E generates the vector space E. Every finite intersection of absorbent sets is an absorbent set.
 
-#### Proposition 4 {#evt-i-s1-prop-4 .statement}
+#### Proposition 4 {#evt-i-s1-prop-4 .statement tag=0789}
 
 *In a topological vector space E on a non-discrete valued division ring K there exists a fundamental system $\mathfrak{B}$ of closed neighbourhoods of 0 such that :
 *(EV₁)* Every set V ∈ $\mathfrak{B}$ is balanced and absorbent.
@@ -218,17 +218,17 @@ By axiom (EVT'₃) we show firstly that the *balanced core*, V₁, of V, a neigh
 
 Now let E be a vector space over K, and $\mathfrak{B}$ be a filter base on E satisfying (EV₁), (EV₂) and (EV₃). The axiom (EV₁) shows firstly that for all V ∈ $\mathfrak{B}$, we have −V = V and 0 ∈ V; these relations and the axiom (EV₃) show that $\mathfrak{B}$ is a fundamental system of neighbourhoods of 0, for a topology on E compatible with the *additive group* structure of E (GT, III, § 1.2). On the other hand the axioms (EVT'_I), (EVT'_II) and (EVT'_III) are immediate consequences of (EV_I) and (EV_II), thus the topology defined above satisfies the axiom (EVT), and the proposition is proved.
 
-#### Remark 1 {#evt-i-s1-n5-rem-1 .statement}
+#### Remark 1 {#evt-i-s1-n5-rem-1 .statement tag=078A}
 
 In a normed space on a non-discrete valued division ring the set of open balls (resp. closed balls) with centre 0 is a fundamental system of neighbourhoods of 0 which satisfy the conditions (EV_I), (EV_II) and (EV_III).
 
-#### Remark 2 {#evt-i-s1-n5-rem-2 .statement}
+#### Remark 2 {#evt-i-s1-n5-rem-2 .statement tag=078B}
 
 When the division ring of scalars K is the field \mathbf{R} or the field \mathbf{C}, every filter base \mathfrak{B} on E which satisfies just the two axioms (EV_I) and (EV_III) is a fundamental system of neighbourhoods of 0 for a topology compatible with the vector space structure of E. In fact, we need only prove that, in these conditions, for every $\lambda \neq 0$ in K and every $V \in \mathfrak{B}$ there exists $W \in \mathfrak{B}$ such that $\lambda W \subset V$. Now from (EV_III) there exists $W_1 \in \mathfrak{B}$ with $2\,W_1 \subset V$, and we deduce, inductively, that for every positive integer $n$, there exists $W_n \in \mathfrak{B}$ such that $2^n W_n \subset V$. As V is balanced, if we take $n$ so large that $2^n = |2^n| > |\lambda|$, then $W = W_n$ satisfies the condition, as required.
 
 This result does not hold for every non-discrete valued division ring K, for in such a division ring it is no longer necessarily true that $|m\varepsilon| = m$ for every positive integer $m$ ($\varepsilon$ indicates the unit element of the division ring ; cf. I, p. 22, exerc. 1).
 
-#### Remark 3 {#evt-i-s1-n5-rem-3 .statement}
+#### Remark 3 {#evt-i-s1-n5-rem-3 .statement tag=078C}
 
 If K is a discrete division ring, conditions (EVT'_I) and (EVT'_III) are true for any topology on E. Arguing as in prop. 4, one easily sees that if E is a topological vector space on K, then there exists $\mathfrak{B}$, a fundamental system of closed neighbourhoods of 0 in E satisfying conditions (EV_II) and (EV_III). Conversely, if a filter base $\mathfrak{B}$ on a vector space E over K is such that 0 belongs to all the sets of $\mathfrak{B}$ and (EV_II), (EV_III) are true, then $\mathfrak{B}$ is a fundamental system of neighbourhoods of 0 in a topology compatible with the vector space structure of E.
 
@@ -236,7 +236,7 @@ If K is a discrete division ring, conditions (EVT'_I) and (EVT'_III) are true fo
 
 Let E and F be topological vector spaces over the same division ring K ; for a linear mapping $f$ of E in F to be continuous, it is sufficient for it to be continuous at the origin (GT, III, § 2.8, prop. 23). This proposition generalizes as follows :
 
-#### Proposition 5 {#evt-i-s1-prop-5 .statement}
+#### Proposition 5 {#evt-i-s1-prop-5 .statement tag=078D}
 
 — Let $E_i (1 \leq i \leq n)$ and F be topological vector spaces on a non-discrete valued field K. In order that a multilinear mapping $f$ of $\prod_{i=1}^n E_i$ in F should be continuous in the product space $\prod_{i=1}^n E_i$ it is sufficient for it to be continuous at $(0, 0, ..., 0)$.
 
@@ -254,7 +254,7 @@ $$
 
 where $H$ varies over the $2^n - 1$ subsets of the set of integers $\{ 1, 2, ..., n \}$, excluding the set $\{ 1, 2, ..., n \}$ itself, and where $u_H = f(y_1, y_2, ..., y_n)$, with $y_i = a_i$ if $i \in H$ and $y_i = z_i$ if $i \notin H$. There exist $2^n - 1$ balanced neighbourhoods $W_H$ of 0 in $F$ such that $\sum_H W_H \subset W$; on the other hand as $f$ is continuous at $(0, 0, ..., 0)$ by hypothesis, there exists in each $E_i$ a neighbourhood $U_i$ of 0 ($1 \leq i \leq n$) such that the $n$ relations $x_i \in U_i$ imply that $f(x_1, ..., x_n) \in \bigcap_H W_H$. As $U_i$ is absorbent, there exists $\lambda_i \neq 0$ in $K$ such that $\lambda_i a_i \in U_i$. Let $\lambda$ be an element of $K$ such that $|\lambda| \geq \prod_{i \in H} |\lambda_i|^{-1}$ for each subset $H$; we show that the neighbourhoods $V_i = \lambda^{-n} U_i$, fulfill the required condition. We can write $u_H = \mu f(x_1, ..., x_n)$ where $x_i \in U_i$ for $1 \leq i \leq n$ and $\mu = \lambda^{-np} (\prod_{i \in H} \lambda_i^{-1})$, $p$ being the number of integers of $\{ 1, 2, ..., n \}$ not in $H$. From the above $|\mu| \leq 1$, hence $u_H \in \mu W_H \subset W_H$ since $W_H$ is balanced. The proposition is established.
 
-#### Proposition 6 {#evt-i-s1-prop-6 .statement}
+#### Proposition 6 {#evt-i-s1-prop-6 .statement tag=078E}
 
 *With the same hypotheses on $E_i (1 \leq i \leq n)$ and on $F$ as in prop. 5, in order that a set $\mathscr{E}$ of multilinear maps of $\prod_{i=1}^n E_i$ in $F$ be equicontinuous it is sufficient that the set be equicontinuous at $(0, 0, ..., 0)$.*
 
@@ -262,13 +262,13 @@ For, in the demonstration of prop. 5 the $U_i (1 \leq i \leq n)$ can be taken su
 
 ### 7. Initial topologies of vector spaces
 
-#### Proposition 7 {#evt-i-s1-prop-7 .statement}
+#### Proposition 7 {#evt-i-s1-prop-7 .statement tag=078F}
 
 *Let $(E_v)_{v \in I}$ be a family of topological vector spaces on a topological division ring $K$. Let $E$ be a vector space on $K$ and for each $v \in I$, let $f_v$ be a linear mapping of $E$ in $E_v$. Then the coarsest topology on $E$ which makes each function $f_v$ continuous, is a topology $\mathscr{T}$ compatible with the vector space structure of $E$. Further, if for every $x \in E$, $\phi(x)$ denotes the point $(f_v(x))$ of the product space $F = \prod_{v \in I} E_v$, then the topology $\mathscr{T}$ is the inverse image of the topology of the subspace $\phi(E)$ of $F$ under the linear mapping $\phi$.*
 
 The last part of the proposition is a particular case of GT, I, § 4.1, prop. 3. The proposition then follows from the next lemma.
 
-#### Lemma {#evt-i-s1-n7-lem-1 .statement}
+#### Lemma {#evt-i-s1-n7-lem-1 .statement tag=078G}
 
 — *Let $M$ and $N$ be two vector spaces, and $g$ a linear mapping of $M$ in $N$. If $\mathscr{T}_0$ is a topology compatible with the vector space structure of $N$, then the inverse image of $\mathscr{T}_0$ by $g$ is compatible with the vector space structure of $M$.*
 
@@ -276,25 +276,25 @@ We show, for example, that $(\lambda, x) \mapsto \lambda x$ is continuous at eac
 
 For each index $i \in I$, let $\mathscr{B}_i$ be a fundamental system of neighbourhoods of 0 in $E_i$. From the definition of the topology $\mathscr{T}$, the filter of neighbourhoods of 0 for this topology is generated by unions of sets of the families $f_i^{-1}(\mathscr{B}_i)$; in other words, the sets of the form $\bigcap_k f_{i_k}^{-1}(V_{i_k})$ form a fundamental system of neighbourhoods of 0 for $\mathscr{T}$, the $(i_k)_{1 \leq k \leq n}$ being any finite sequence of indices of I, and, for each index $k$, $V_{i_k}$ any set of $\mathscr{B}_{i_k}$.
 
-#### Corollary 1 {#evt-i-s1-prop-7-cor-1 .statement}
+#### Corollary 1 {#evt-i-s1-prop-7-cor-1 .statement tag=078H}
 
 *Let G be a topological vector space on K. In order that a set H of mappings of G in E be equicontinuous, it is necessary and sufficient that, for all $i \in I$, the set $f_i \circ u$ where u varies in H should be equicontinuous.*
 
 This is a particular case of GT, X, § 2.2, prop. 3.
 
-#### Corollary 2 {#evt-i-s1-prop-7-cor-2 .statement}
+#### Corollary 2 {#evt-i-s1-prop-7-cor-2 .statement tag=078I}
 
 *If the spaces $E_i$ are Hausdorff, then in order that $\mathscr{T}$ be Hausdorff, it is necessary and sufficient that, for every $x \neq 0$ in E, there should exist an index $i \in I$, such that $f_i(x) \neq 0$.*
 
 For $\phi(E)$ is then a Hausdorff space, and in order that $\mathscr{T}$ be Hausdorff, it is evidently necessary and sufficient that $\phi$ be injective; note that we can then identify E (with $\mathscr{T}$) with the subspace $\phi(E)$ of $\prod_{i \in I} E_i$ by the mapping $\phi$.
 
-#### Corollary 3 {#evt-i-s1-prop-7-cor-3 .statement}
+#### Corollary 3 {#evt-i-s1-prop-7-cor-3 .statement tag=078J}
 
 *Suppose the $E_i$ are complete and $\phi(E)$ is closed in $F = \prod_{i \in I} E_i$. Then E is complete in the topology $\mathscr{T}$.*
 
 For the subspace $\phi(E)$ of F is then complete (GT, II, § 3.4, prop. 8 and § 3.5, prop. 10), therefore the same is true of E in the inverse image topology (GT, I, § 7.6, prop. 10 and GT, II, § 3.1, prop. 4).
 
-#### Example {#evt-i-s1-n7-exa-1 .statement}
+#### Example {#evt-i-s1-n7-exa-1 .statement tag=078K}
 
 — Let $\mathscr{D}'(\mathbf{R})$ be the space of distributions on $\mathbf{R}$; for $p$ a number such that $1 \leq p \leq +\infty$, let $j : L^p(\mathbf{R}) \to \mathscr{D}'(\mathbf{R})$ be the canonical injection, which is continuous (when $L^p(\mathbf{R})$ carries its normed space topology and $\mathscr{D}'(\mathbf{R})$ the strong topology). For every distribution $f \in \mathscr{D}'(\mathbf{R})$, denote the derivative of $f$ by $D(f)$; recall that $f \mapsto D(f)$ is a continuous endomorphism of $\mathscr{D}'(\mathbf{R})$. Then let E be the vector subspace of $L^p(\mathbf{R})$ formed from those $f \in L^p(\mathbf{R})$ for which $D(f) \in L^p(\mathbf{R})$, and confer on E the coarsest topology making the canonical injection $i : E \to L^p(\mathbf{R})$ and the mapping $D : E \to L^p(\mathbf{R})$ continuous ($L^p(\mathbf{R})$ carries its normed space topology). For this topology, the space E is *complete*. For, the image of E in $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ by the mapping $\phi : f \mapsto (f, D(f))$ is *closed*, since it is the trace on $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ of the image G of $\mathscr{D}'(\mathbf{R})$ in $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ by the mapping
 
@@ -304,7 +304,7 @@ $$
 
 now G is the graph of $\phi_0$, therefore closed in $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ (GT, I, § 8.1, cor. 2 of prop. 2), and as $\phi(E)$ is the inverse image of G by $i \times i$, which is continuous, we see that $\phi(E)$ is closed in F. \*
 
-#### Corollary 4 {#evt-i-s1-prop-7-cor-4 .statement}
+#### Corollary 4 {#evt-i-s1-prop-7-cor-4 .statement tag=078L}
 
 *Let E be a vector space over a topological division ring K, and let $(\mathscr{T}_i)_{i \in I}$ be a family of topologies compatible with the vector space structure of E; then the upper bound $\mathscr{T}$ of the topologies $\mathscr{T}_i$ is compatible with the vector space structure of E.*
 

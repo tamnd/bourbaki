@@ -29,9 +29,9 @@ subsections:
       pdf_page: 250
 statements: 11
 exercises: 8
-content_sha256: ed052c99d8c3a50811b8f1ff8f03716d836cf68bdcffb15e8b06b5514252a9b4
+content_sha256: 9515eae37220578068c67c825820cd78e2c04028a8b16aa04440edb33eb8b5e2
 translated_from: content/en/ac/III/05_s5_flatness_properties_of_filtered_modules.md
-source_content_sha256: ecfeb5870aae5a62e0cd6ec8aeeeb2de8dc1a67bcfdae539b9dd6ae798043826
+source_content_sha256: 40502ef62aacbf121ac1011abdbd0936abda1c04356f56a21967a20f392ffa93
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-dabaaa90
 glossary_version: 34
@@ -43,7 +43,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC MÔĐUN HAUSDORFF THEO IĐÊAN
 
-#### Định nghĩa 1 {#ac-iii-s5-def-1 .statement}
+#### Định nghĩa 1 {#ac-iii-s5-def-1 .statement tag=04IO}
 
 *Cho A là một vành giao hoán và $\mathfrak{g}$ là một iđêan của A. Một A-môđun M được gọi là Hausdorff theo iđêan đối với 3 (hoặc đơn giản là Hausdorff theo iđêan nếu không có sự nhập nhằng) nếu, với mọi iđêan $\mathfrak{a}$ sinh hữu hạn của A, A-môđun $\mathfrak{a} \otimes_A M$ là Hausdorff đối với tôpô 3-adic.*
 
@@ -51,18 +51,18 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 *Các ví dụ*
 
-#### Ví dụ 1 {#ac-iii-s5-n1-exa-1 .statement}
+#### Ví dụ 1 {#ac-iii-s5-n1-exa-1 .statement tag=04IP}
 
 Nếu A là Noether và $\mathfrak{g}$ được chứa trong căn Jacobson của A (nói cách khác nếu A là một vành Zariski với tôpô 3-adic), mọi A-môđun *sinh hữu hạn* đều là Hausdorff theo iđêan (*§3*, no. 3, Mệnh đề 6).
 
-#### Ví dụ 2 {#ac-iii-s5-n1-exa-2 .statement}
+#### Ví dụ 2 {#ac-iii-s5-n1-exa-2 .statement tag=04IQ}
 
 Mọi tổng trực tiếp của các môđun Hausdorff theo iđêan đều là một môđun Hausdorff theo iđêan, nhờ các quan hệ
 $$
 \mathfrak{g}^n \left( a \otimes_A \bigoplus_{\lambda \in L} M_\lambda \right) = \mathfrak{g}^n \bigoplus_{\lambda \in L} (a \otimes_A M_\lambda) = \bigoplus_{\lambda \in L} \mathfrak{g}^n (a \otimes_A M_\lambda).
 $$
 
-#### Ví dụ 3 {#ac-iii-s5-n1-exa-3 .statement}
+#### Ví dụ 3 {#ac-iii-s5-n1-exa-3 .statement tag=04IR}
 
 Nếu một A-môđun M là phẳng và Hausdorff đối với tôpô $\mathfrak{g}$-adic thì nó là Hausdorff theo iđêan, vì $a \otimes_A M$ khi đó được đồng nhất với một môđun con của M và tôpô $\mathfrak{g}$-adic trên $a \otimes_A M$ mịn hơn tôpô cảm sinh trên $a \otimes_A M$ bởi tôpô $\mathfrak{g}$-adic trên M, tôpô này là Hausdorff theo giả thiết.
 
@@ -78,7 +78,7 @@ $$
 $$
 mà hạn chế của nó lên $\mathrm{gr}_n(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(M)$ là $\gamma_n$ với mọi $n$ và do đó là toàn ánh.
 
-#### Định lý 1 {#ac-iii-s5-thm-1 .statement}
+#### Định lý 1 {#ac-iii-s5-thm-1 .statement tag=04IS}
 
 Cho A là một vành giao hoán, $\mathfrak{g}$ là một iđêan của A và M là một A-môđun. Xét các tính chất sau:
 (i) M là một A-môđun phẳng.
@@ -96,7 +96,7 @@ là song ánh (tính chất (GR) của § 2, no. 8).
 Khi đó (i) $\Rightarrow$ (ii) $\Leftrightarrow$ (iii) $\Rightarrow$ (iv) $\Leftrightarrow$ (v).
 Nếu thêm $\mathfrak{g}$ là lũy linh hoặc nếu A là Noether và M là Hausdorff theo iđêan, các tính chất (i), (ii), (iii), (iv) và (v) là tương đương.
 
-#### Nhận xét {#ac-iii-s5-n1-rem-1 .statement}
+#### Nhận xét {#ac-iii-s5-n1-rem-1 .statement tag=04IT}
 
 Nếu $A / \mathfrak{g}$ là một trường (như thường xảy ra trong các ứng dụng) thì điều kiện "M/ $\mathfrak{g}M$ là một môđun phẳng $(A / \mathfrak{g})$" tự động đúng với mọi A-môđun M, điều này làm đơn giản hóa phát biểu của các tính chất (iii) và (iv); hơn nữa, trong trường hợp này, tính chất (v) tương đương với việc nói rằng $M / \mathfrak{g}^n M$ là một môđun tự do $(A / \mathfrak{g}^n)$ với mọi số nguyên $n \geq 1$ (Chương 11, § 3, no. 2, Hệ quả 2 của Mệnh đề 5).
 
@@ -124,7 +124,7 @@ Từ đó suy ra rằng nếu 9 là *lũy linh*, (ii) suy ra (i), vì (ii') khi 
 
 (B) Ta hãy chứng minh mệnh đề sau:
 
-#### Mệnh đề 1 {#ac-iii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#ac-iii-s5-prop-1 .statement tag=04IU}
 
 *Cho* $A$ *là một vành giao hoán, 3 là một iđêan của* $A$ *và* $M$ *là một* $A$*-môđun*. *Các điều kiện sau là tương đương*:
 (a) *Với mọi* $n \geq 1$, $\operatorname{Tor}_1^A(A/\mathfrak{g}^n, M) = 0$.
@@ -186,13 +186,13 @@ và, vì $h$ là đơn ánh và, theo (v), $M/\mathfrak{g}^k M$ là một $(A/\m
 
 ### 4. CÁC ỨNG DỤNG
 
-#### Mệnh đề 2 {#ac-iii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#ac-iii-s5-prop-2 .statement tag=04IV}
 
 Cho $A$ là một vành giao hoán, $\mathfrak{g}$ là một iđêan của $A$ và $B$ là một đại số $A$-giao hoán Noether sao cho $B$ được chứa trong căn Jacobson của $B$. Khi đó mọi $B$-môđun $M$ sinh hữu hạn đều là một $A$-môđun Hausdorff theo iđêan đối với $\mathfrak{g}$.
 
 Nói tổng quát hơn, ta sẽ thấy rằng với mọi $A$-môđun $N$ sinh hữu hạn, $N \otimes_A M$ là Hausdorff với tôpô $3$-adic. Thật vậy, $N_{(B)} = N \otimes_A B$ là một $B$-môđun sinh hữu hạn và $B$-môđun $N \otimes_A M$ được đồng nhất một cách chính tắc với $N_{,,} \otimes_B M$ nhờ tính kết hợp của tích tenxơ. Gọi $\mathfrak{L}$ là căn Jacobson của $B$; vì $\mathfrak{g} B$ được chứa trong $\mathfrak{L}$, tôpô $\mathfrak{g}$-adic trên $N \otimes_A M$ do đó được đồng nhất với một tôpô mịn hơn tôpô $\mathfrak{L}$-adic trên $N_{(B)} \otimes_B M$; nhưng tôpô sau này là Hausdorff vì $N_{,,} \otimes_B M$ là một $B$-môđun sinh hữu hạn (no. 1, Ví dụ 1), do đó có kết luận.
 
-#### Mệnh đề 3 {#ac-iii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#ac-iii-s5-prop-3 .statement tag=04IW}
 
 Cho $A$ là một vành giao hoán, $B$ là một đại số $A$-giao hoán, $\mathfrak{g}$ là một iđêan của $A$ và $M$ là một $B$-môđun. Giả sử rằng $B$ là một vành Noether và là một $A$-môđun phẳng và rằng $M$ là Hausdorff theo iđêan đối với $\mathfrak{g} B$. Các điều kiện sau là tương đương:
 (a) $M$ là một $B$-môđun phẳng.
@@ -204,13 +204,13 @@ Nếu hơn nữa đồng cấu chính tắc $A/\mathfrak{g} \to B/\mathfrak{g} B
 
 Cho $p : A/\mathfrak{J} \to B/\mathfrak{J}B$ là đồng cấu chính tắc; cấu trúc môđun $(A/\mathfrak{J})$ trên $M/\mathfrak{J}M$ dẫn xuất nhờ $p$ từ cấu trúc môđun $(B/\mathfrak{J}B)$ của nó là đẳng cấu với cấu trúc trên $M \otimes_A (A/\mathfrak{J})$. Khi đó suy ra rằng, nếu $M$ là một $A$-môđun phẳng, thì $M/\mathfrak{J}M$ là một $(A/\mathfrak{J})$-môđun phẳng và do đó cũng là một $(B/\mathfrak{J}B)$-môđun phẳng nếu $p$ là một đẳng cấu; như vậy ta đã chứng minh rằng (c) $\Rightarrow$ (b) trong trường hợp đó.
 
-#### Hệ quả {#ac-iii-s5-n4-cor-1 .statement}
+#### Hệ quả {#ac-iii-s5-n4-cor-1 .statement tag=04IX}
 
 *Cho $A$ là một vành Noether giao hoán, $\mathfrak{J}$ là một iđêan của $A$, $\hat{A}$ là hoàn thành Hausdorff của $A$ đối với tôpô $\mathfrak{J}$-adic và $M$ là một $\hat{A}$-môđun Hausdorff lý tưởng đối với $\mathfrak{J} \hat{A}$. Để $M$ là một $A$-môđun phẳng, điều kiện cần và đủ là $M$ là một $\hat{A}$-môđun phẳng.*
 
 Thực tế ta biết rằng $\hat{A}$ là một vành Noether ($§ 3$, no. **4**, Mệnh đề 8) và một $A$-môđun phẳng ($§ 3$, no. **4**, Định lý 3), rằng $\mathfrak{J} \hat{A} = \hat{\mathfrak{J}}$ ($§ 2$, no. 12, Mệnh đề **16**) và rằng đồng cấu chính tắc $A/\mathfrak{J} \to \hat{A}/\hat{\mathfrak{J}}$ là song ánh ($§ 2$, no. 12, Mệnh đề 15); do đó có thể áp dụng Mệnh đề **3**.
 
-#### Mệnh đề 4 {#ac-iii-s5-prop-4 .statement}
+#### Mệnh đề 4 {#ac-iii-s5-prop-4 .statement tag=04IY}
 
 *Cho $A$ và $B$ là hai vành giao hoán Noether, $h : A \to B$ là một đồng cấu vành, $3$ là một iđêan của $A$ và $2$ là một iđêan của $B$ chứa $\mathfrak{J}B$ và được chứa trong căn Jacobson của $B$. Gọi $\hat{A}$ là phép hoàn thành Hausdorff của $A$ đối với tôpô $3$-adic và $\hat{B}$ là phép hoàn thành Hausdorff của $B$ đối với tôpô $2$-adic; $h$ liên tục đối với các tôpô này và $h : \hat{A} \to \hat{B}$ do đó làm cho $\mathbf{8}$ trở thành một $\hat{A}$-đại số. Cho $M$ là một $B$-môđun sinh hữu hạn và $\hat{M}$ là phép hoàn thành Hausdorff của nó đối với tôpô $2$-adic; các tính chất sau là tương đương:
 (a) $M$ là một $A$-môđun phẳng.

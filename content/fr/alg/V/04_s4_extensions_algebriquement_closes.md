@@ -25,14 +25,14 @@ subsections:
       pdf_page: 126
 statements: 20
 exercises: 2
-content_sha256: 4498daf572af9146e6817257756e773bc4659f081e764b48ed5be49a541e313f
+content_sha256: e2c650d98233fb1fe5e32b3b41e56e9259a70d7a81767c1e9d4a161f7020f475
 ---
 
 ## § 4. EXTENSIONS ALGÉBRIQUEMENT CLOSES
 
 ### 1. Corps algébriquement clos
 
-#### Proposition 1 {#alg-v-s4-prop-1 .statement}
+#### Proposition 1 {#alg-v-s4-prop-1 .statement tag=06ID}
 
 Soit K un corps. Les propriétés suivantes sont équivalentes :
 (AC) Tout polynôme non constant de K[X] se décompose dans K[X] en un produit de polynômes de degré 1 (distincts ou non).
@@ -44,30 +44,30 @@ Montrons d’abord que les propriétés (AC), (AC') et (AC'') sont équivalentes
 
 Il reste à voir que les propriétés (AC'') et (AC''') sont équivalentes. Si (AC'') est vérifiée, tout élément d’un surcorps L de K algébrique sur K est de degré 1 (V, p. 15, th. 1), donc appartient à K, ce qui établit (AC'''). Réciproquement, soit f un polynôme irréductible de degré n ≥ 1 dans K[X] ; l’algèbre quotient K[X]/(f) est de degré n sur K, et c’est un corps, donc une extension algébrique de degré n de K (V, p. 17, prop. 2). Il est alors clair que (AC''') entraîne (AC'').
 
-#### Définition 1 {#alg-v-s4-def-1 .statement}
+#### Définition 1 {#alg-v-s4-def-1 .statement tag=06IE}
 
 On dit qu’un corps K est algébriquement clos s’il possède les quatre propriétés (équivalentes) (AC), (AC'), (AC'') et (AC'''').
 
 \* Exemple 1. — Le corps C des nombres complexes est algébriquement clos (TG, VIII, p. 1). \*
 Un corps K algébriquement fermé dans un surcorps E de K n’est pas nécessairement algébriquement clos (tout corps est en effet algébriquement fermé dans luimême et il existe des corps non algébriquement clos, par exemple $\mathbf{Q}$ ou $\mathbf{F}_p$ \* ou $\mathbf{R}$ *) ; cependant :
 
-#### Proposition 2 {#alg-v-s4-prop-2 .statement}
+#### Proposition 2 {#alg-v-s4-prop-2 .statement tag=06IF}
 
 *Soient $\Omega$ un corps algébriquement clos et $K$ un sous-corps de $\Omega$. La fermeture algébrique $\overline{K}$ de $K$ dans $\Omega$ est un corps algébriquement clos.*
 
 Soit $f$ un polynôme non constant dans $\overline{K}[X] \subset \Omega[X]$. Comme $\Omega$ est algébriquement clos, le polynôme $f$ a au moins une racine *dans* $\Omega$, et comme cette racine est algébrique sur $\overline{K}$, elle appartient à $\overline{K}$ (V, p. 19, prop. 4). Par suite, $\overline{K}$ satisfait à (AC').
 
-#### Exemple 2 {#alg-v-s4-n1-exa-2 .statement}
+#### Exemple 2 {#alg-v-s4-n1-exa-2 .statement tag=0DHT}
 
 D’après la prop. 2, l’ensemble des nombres complexes algébriques sur $\mathbf{Q}$ (appelés souvent en abrégé *nombres algébriques*) est un corps algébriquement clos. \*
 
-#### Proposition 3 {#alg-v-s4-prop-3 .statement}
+#### Proposition 3 {#alg-v-s4-prop-3 .statement tag=06IG}
 
 *Tout corps algébriquement clos est infini.*
 
 Soit $K$ un corps fini ; posons $f(X) = 1 + \prod_{a \in K} (X - a)$. Le polynôme $f \in K[X]$ est non constant et l’on a $f(a) = 1$ pour tout $a \in K$. Le corps $K$ ne satisfait pas à (AC'), donc n’est pas algébriquement clos.
 
-#### Théorème 1 (Steinitz) {#alg-v-s4-thm-1 .statement}
+#### Théorème 1 (Steinitz) {#alg-v-s4-thm-1 .statement tag=06IH}
 
 *Soient $K$ un corps, $E$ une extension algébrique de $K$ et $\Omega$ une extension algébriquement close de $K$. Il existe un $K$-homomorphisme de $E$ dans $\Omega$.*
 
@@ -75,7 +75,7 @@ D’après V, p. 13, scholie, il existe un surcorps $\Omega'$ de $\Omega$ et un 
 
 ### 2. Extensions de décomposition
 
-#### Définition 2 {#alg-v-s4-def-2 .statement}
+#### Définition 2 {#alg-v-s4-def-2 .statement tag=06II}
 
 *Soient $K$ un corps et $(f_i)_{i \in I}$ une famille de polynômes non constants dans $K[X]$. On appelle extension de décomposition de $(f_i)_{i \in I}$ toute extension $E$ de $K$ qui possède les propriétés suivantes :
 
@@ -89,7 +89,7 @@ d’un polynôme en facteurs irréductibles dans E[X] (IV, p. 13, prop. 13), on 
 
 3) Soit $f \in K[X]$ un polynôme de degré $n \geq 1$, et soit $E$ une extension de décomposition de $f$. Si $x_1, ..., x_n$ sont les racines de $f$ dans $E$, on a donc $E = K(x_1, ..., x_n)$ et $[E : K]$ est fini (V, p. 17, th. 2); mais il se peut que $E$ soit distinct des sous-corps $K(x_1), ..., K(x_n)$ engendrés par une seule racine; ceci peut se produire même lorsque $f$ est irréductible $^1$. Remarquons cependant que, lorsque $f$ est irréductible, les corps $K(x_i)$ sont tous de degré $n$ sur $K$, et dès que $E$ est égal à l’un d’eux, on a $[E : K] = n$ donc $E = K(x_1) = ... = K(x_n)$.
 
-#### Proposition 4 {#alg-v-s4-prop-4 .statement}
+#### Proposition 4 {#alg-v-s4-prop-4 .statement tag=06IJ}
 
 *Soient $K$ un corps et $(f_i)_{i\in I}$ une famille de polynômes non constants dans $K[X]$. Il existe une extension de décomposition pour la famille $(f_i)_{i\in I}$*.
 
@@ -105,13 +105,13 @@ Notons $\psi$ l’homomorphisme canonique de $A$ dans $E$ et posons $x_{i,k} = \
 
 Par suite, $E$ est une extension de décomposition de la famille $(f_i)_{i\in I}$.
 
-#### Proposition 5 {#alg-v-s4-prop-5 .statement}
+#### Proposition 5 {#alg-v-s4-prop-5 .statement tag=06IK}
 
 *Soient $K$ un corps, $(f_i)_{i\in I}$ une famille de polynômes non constants dans $K[X]$, $E$ une extension de $K$, $F$ et $F'$ des sous-extensions de $E$ qui sont chacune extension de décomposition de $(f_i)_{i\in I}$. Alors $F = F'$*.
 
 Soit $R_i$ l’ensemble des racines de $f_i$ dans $E$ et soit $R = \bigcup_{i\in I} R_i$. Comme $f_i$ est produit de polynômes du premier degré appartenant à $F[X]$, on a $R_i \subset F$. D’après la déf. 2, on a $F = K(R)$. On prouve de même que l’on a $F' = K(R)$.
 
-#### Corollaire {#alg-v-s4-n2-cor-1 .statement}
+#### Corollaire {#alg-v-s4-n2-cor-1 .statement tag=06IL}
 
 *Soient $K$ un corps, $(f_i)_{i\in I}$ une famille de polynômes non constants dans $K[X]$, et $F, F'$ des extensions de décomposition de $(f_i)_{i\in I}$. Il existe un $K$-isomorphisme de $F$ sur $F'$*.
 
@@ -121,29 +121,29 @@ $^1$ Prendre par exemple $K = \mathbf{Q}$ et $f = X^3 - 2$.
 
 ### 3. Clôture algébrique d’un corps
 
-#### Définition 3 {#alg-v-s4-def-3 .statement}
+#### Définition 3 {#alg-v-s4-def-3 .statement tag=06IM}
 
 Soit K un corps. On appelle clôture algébrique de K toute extension de K qui est algébrique et algébriquement close.
 
-#### Exemple 1 {#alg-v-s4-n3-exa-1 .statement}
+#### Exemple 1 {#alg-v-s4-n3-exa-1 .statement tag=06IN}
 
 Le corps C des nombres complexes est une clôture algébrique du corps R des nombres réels (TG, VIII, p. 1). \*
 
-#### Exemple 2 {#alg-v-s4-n3-exa-2 .statement}
+#### Exemple 2 {#alg-v-s4-n3-exa-2 .statement tag=06IO}
 
 Soient K un corps et Ω une extension algébriquement close de K. Soit $\overline{K}$ la fermeture algébrique de K dans Ω. D’après V, p. 20, prop. 2, $\overline{K}$ est une clôture algébrique de K. \* En particulier, le corps des nombres algébriques (V, p. 20, exemple 2) est une clôture algébrique du corps Q des nombres rationnels. \*
 
-#### Proposition 6 {#alg-v-s4-prop-6 .statement}
+#### Proposition 6 {#alg-v-s4-prop-6 .statement tag=06IP}
 
 Soit Ω une extension d’un corps K. Pour que Ω soit une clôture algébrique de K, il faut et il suffit qu’elle soit algébrique et que tout polynôme non constant dans K[X] se décompose dans Ω[X] en produit de facteurs de degré 1.
 
 La condition est nécessaire d’après (AC). Réciproquement, supposons que Ω soit algébrique sur K et que tout polynôme non constant dans K[X] soit produit dans Ω[X] de polynômes de degré 1. Soit Ω′ une extension algébrique de Ω et soit $x \in \Omega'$. Comme x est algébrique sur Ω et que Ω est algébrique sur K, x est algébrique sur K (V, p. 18, prop. 3). Soit f le polynôme minimal de x sur K. Par hypothèse, le polynôme $f \in K[X]$ se décompose dans Ω[X] en produit de polynômes de degré 1, d’où $x \in \Omega$. On a donc $\Omega' = \Omega$ et le corps Ω est algébriquement clos, car il satisfait à (AC''').
 
-#### Remarque 1 {#alg-v-s4-n3-rem-1 .statement}
+#### Remarque 1 {#alg-v-s4-n3-rem-1 .statement tag=06IQ}
 
 Si Ω est algébrique sur K et si tout polynôme non constant de K[X] possède une racine dans Ω, alors Ω est une clôture algébrique de K (V, p. 151, exerc. 20).
 
-#### Proposition 7 {#alg-v-s4-prop-7 .statement}
+#### Proposition 7 {#alg-v-s4-prop-7 .statement tag=06IR}
 
 Soit Ω une extension algébrique d’un corps K.
 
@@ -155,26 +155,26 @@ L’assertion a) résulte du th. 1 (V, p. 20). Plaçons-nous sous les hypothèse
 
 Nous pouvons maintenant prouver l’existence et l’unicité (à un isomorphisme près) de la clôture algébrique d’un corps.
 
-#### Théorème 2 (Steinitz) {#alg-v-s4-thm-2 .statement}
+#### Théorème 2 (Steinitz) {#alg-v-s4-thm-2 .statement tag=06IS}
 
 Soit K un corps. Il existe une clôture algébrique de K ; si Ω et Ω′ sont deux clôtures algébriques de K, il existe un K-isomorphisme de Ω sur Ω′.
 
 D’après la prop. 6, une clôture algébrique de K n’est autre qu’une extension de décomposition de l’ensemble des polynômes non constants dans K[X]. Le th. 2 résulte alors de V, p. 21, prop. 4, et de V, p. 21, cor.
 
-#### Corollaire {#alg-v-s4-n3-cor-1 .statement}
+#### Corollaire {#alg-v-s4-n3-cor-1 .statement tag=06IT}
 
 Soient K et K’ deux corps, Ω une clôture algébrique de K et Ω’ une clôture algébrique de K’. Pour tout isomorphisme u de K sur K’, il existe un isomorphisme v de Ω sur Ω’ prolongeant u.
 Il suffit d’appliquer le th. 2 aux clôtures algébriques Ω et (Ω’, u) de K.
 
-#### Remarque 2 {#alg-v-s4-n3-rem-2 .statement}
+#### Remarque 2 {#alg-v-s4-n3-rem-2 .statement tag=06IU}
 
 Avec les notations du corollaire précédent, il existe en général des K-automorphismes de Ω distincts de l’identité. Il n’y a donc pas en général unicité de l’isomorphisme v de Ω sur Ω’ prolongeant l’isomorphisme u de K sur K’. Pour des raisons analogues, il y a en général plus d’un isomorphisme d’une extension de décomposition E sur une extension de décomposition E’ pour la même famille (f_i)_{i\in I} de polynômes. Rappelons par contre que, pour la clôture parfaite, on a un résultat d’unicité (V, p. 5).
 
-#### Remarque 3 {#alg-v-s4-n3-rem-3 .statement}
+#### Remarque 3 {#alg-v-s4-n3-rem-3 .statement tag=06IV}
 
 Soient K un corps et Ω une clôture algébrique de K. On peut donner la construction suivante d’une extension de décomposition pour une famille (f_i)_{i\in I} de polynômes non constants dans K[X] : soit R_i l’ensemble des racines de f_i dans Ω, et soit R = \bigcup_{i\in I} R_i. Alors K(R) est l’unique sous-extension de Ω qui soit une extension de décomposition pour (f_i)_{i\in I} (V, p. 21, prop. 5).
 
-#### Remarque 4 {#alg-v-s4-n3-rem-4 .statement}
+#### Remarque 4 {#alg-v-s4-n3-rem-4 .statement tag=06IW}
 
 Soient K un corps fini et Ω une clôture algébrique de K. Alors Ω est infini (V, p. 20, prop. 3); comme toute extension de degré fini de K est un corps fini, Ω est une extension algébrique de degré infini de K.
 

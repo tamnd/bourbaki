@@ -24,7 +24,7 @@ subsections:
       pdf_page: 117
 statements: 10
 exercises: 10
-content_sha256: 72a3c924c9afb7b8890652eba980a04e6f5d6ba480daf628c16dcc9080e99673
+content_sha256: 4a4e209c214c4f987598ede077a06a3c4ce2e3f53a1a9472c3fba0a911a4d9c4
 ---
 
 ## § 5. Topologie définie par une valuation.
@@ -33,7 +33,7 @@ content_sha256: 72a3c924c9afb7b8890652eba980a04e6f5d6ba480daf628c16dcc9080e99673
 
 Soient $K$ un corps non nécessairement commutatif, $v$ une valuation de $K$, et $G$ le groupe totalement ordonné $v(K^*)$. Pour tout $\alpha \in G$, soit $V_\alpha$ l’ensemble des $x \in K$ tels que $v(x) > \alpha$; cet ensemble est un sous-groupe additif de $K$ (§ 3, n° 1). Il existe une topologie $\mathscr{T}_v$ et une seule sur $K$, compatible avec la structure de groupe additif de $K$, pour laquelle les $V_\alpha$ forment un système fondamental de voisinages de 0 (*Top. Gén.*, chap. III, § 1, n° 2, Exemple). Pour que $v$ soit impropre, il faut et il suffit que $\mathscr{T}_v$ soit la topologie discrète.
 
-#### Lemme 1 {#ac-vi-s5-lem-1 .statement}
+#### Lemme 1 {#ac-vi-s5-lem-1 .statement tag=04UQ}
 
 Soient $x \in K^*, y \in K^*,$ et $\alpha \in G.$ Si
 $$
@@ -46,7 +46,7 @@ v(x^{-1} - y^{-1}) = v(x - y) - v(x) - v(y).
 $$
 Si $v(x - y) > v(y),$ la prop. 1 du § 3, n° 1 entraîne que $v(x) = v(y),$ puisque $x = y + (x - y).$ En outre, si $v(x - y) > \alpha + 2v(y),$ on a $v(x^{-1} - y^{-1}) > \alpha + 2v(y) - 2v(y) = \alpha.$
 
-#### Proposition 1 {#ac-vi-s5-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s5-prop-1 .statement tag=04UR}
 
 La topologie $\mathscr{T}_v$ est séparée et compatible avec la structure de corps de $K.$ L’application $v : K^* \to G$ est continue si l’on munit $G$ de la topologie discrète.
 Soient $x \in K^*$ et $\alpha = v(x);$ on a $x \notin V_\alpha,$ ce qui montre que $\mathscr{T}_v$ est séparée. Quels que soient $x_0 \in K$ et $\alpha \in G,$ il existe $\beta \in G$ tel que $x_0 V_\beta \subset V_\alpha$ et $V_\beta x_0 \subset V_\alpha$ (il suffit de prendre $\beta \geq \alpha - v(x_0)$). D’autre part, si $\alpha \geq 0,$ on a $V_\alpha V_\alpha \subset V_\alpha.$ Les axiomes (AV_I) et (AV_{II}) de Top. gén., chap. III, 3e éd., § 6, n° 3, étant ainsi satisfaits, $\mathscr{T}_v$ est compatible avec la structure d’anneau de $K.$ Soit $x_0 \in K^*;$ si $x \in K^*$ vérifie $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0)),$ on a $v(x^{-1} - x_0^{-1}) > \alpha$ (lemme 1), ce qui montre que $x \to x^{-1}$ est continue, et que $\mathscr{T}_v$ est donc compatible avec la structure de corps de $K.$ Enfin, la seule condition $v(x - x_0) > v(x_0)$ entraîne $v(x) = v(x_0)$ ($§ 3,$ n° 1, prop. 1), donc l’application $v : K^* \to G$ est continue si l’on munit $G$ de la topologie discrète. C.Q.F.D.
@@ -55,7 +55,7 @@ Soient $\alpha \in G,$ et $V'_\alpha$ l’ensemble des $x \in K$ tels que $v(x) 
 Les $V_\alpha$ et les $V'_\alpha$ sont des sous-groupes additifs ouverts, donc fermés de $K,$ donc le corps topologique $K$ est totalement discontinu. Comme tout idéal non nul de l’anneau de $v$ contient un $V_\alpha,$ il est ouvert et fermé dans $K.$ La topologie quotient du corps résiduel de $v$ est donc discrète.
 Soit $A$ l’anneau de $v.$ Si $v$ est discrète, la prop. 8 du § 3, n° 6, montre que la topologie induite par $\mathscr{T}_v$ sur $A$ est la topologie $m(A)$-adique. Il n’en est pas de même en général (exerc. 4).
 
-#### Proposition 2 {#ac-vi-s5-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s5-prop-2 .statement tag=04US}
 
 Soient $K$ un corps non nécessairement commutatif, $v$ une valuation non impropre de $K,$ A l’anneau de $v$, m l’idéal de $v$. Pour que K, muni de la topologie $\mathscr{T}_v$, soit localement compact, il faut et il suffit que les conditions suivantes soient satisfaites :
 
@@ -74,7 +74,7 @@ est fini; comme $v(K^*)$ est totalement ordonné, P a un plus petit élément $\
 
 Réciproquement, supposons les conditions (i), (ii), (iii) vérifiées. On peut se borner au cas où $v$ est normée; soit u une uniformisante pour $v$. On a $\kappa(A) = A/Au$, donc $A/Au$ est fini. Comme $x \to xu^n$ définit par passage aux quotients un isomorphisme de groupe additif de $A/Au$ sur $Au^n/Au^{n+1}$, $A/Auj$ est fini pour tout $j \geq 0$. Comme A est fermé dans K, il est complet, donc isomorphe à la limite projective des $A/Auj$ (Top. Gén., chap. III, 3e éd., § 7, no 3, prop. 2), et par conséquent compact. Puisque A est ouvert dans K, on voit donc que K est localement compact.
 
-#### Remarque {#ac-vi-s5-n1-rem-1 .statement}
+#### Remarque {#ac-vi-s5-n1-rem-1 .statement tag=04UT}
 
 On notera qu’il suffit dans cette démonstration de supposer que A est complet.
 
@@ -84,32 +84,32 @@ Nous verrons au qu’un corps K vérifiant les conditions de la prop. 2 admet un
 
 Soient toujours K un corps (non nécessairement commutatif), $v$ une valuation de K, et G son groupe des ordres. On munit K de la topologie $\mathscr{T}_v$.
 
-#### Proposition 3 {#ac-vi-s5-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s5-prop-3 .statement tag=04UU}
 
 Soit E un espace vectoriel topologique à gauche sur K, séparé et de dimension 1. On suppose $v$ non impropre. Pour tout $x_0 \neq 0$ dans E, l’application $a \to ax_0$ de $K_s$ sur E est un isomorphisme topologique.
 
 Cette application est un isomorphisme algébrique continu. Il suffit de montrer qu’elle est bicontinue. Soit $\alpha \in G$. Il s’agit de montrer qu’il existe un voisinage V de 0 dans E tel que la relation $ax_0 \in V$ entraîne $v(a) > \alpha$. Soit $a_0 \in K^*$ tel que $v(a_0) = \alpha$. Comme E est séparé, il existe un voisinage W de 0 dans E tel que $a_0x_0 \notin W$. Comme $v$ n’est pas impropre, il existe un voisinage $W'$ de 0 dans E et un élément $\beta$ de G tels que les relations $y \in W', \ v(a) \geq \beta$ entraînent $ay \in W$. Soit $a_1 \in K^*$ tel que $v(a_1) = -\beta$. Les relations $ax_0 \in a_1^{-1}W'$ et $v(a) \leq \alpha$ entraînent $a_1ax_0 \in W'$ et $v(a_0a^{-1}a_1^{-1}) = \alpha + \beta - v(a) \geq \beta$, donc $a_0x_0 = a_0a^{-1}a_1^{-1}(a_1ax_0) \in W$, ce qui est absurde; autrement dit, la relation $ax_0 \in a_1^{-1}W'$ entraîne $v(a) > \alpha$.
 
-#### Corollaire {#ac-vi-s5-n2-cor-1 .statement}
+#### Corollaire {#ac-vi-s5-n2-cor-1 .statement tag=04UV}
 
 Soient E un espace vectoriel topologique à gauche sur K, H un hyperplan fermé de E, et D un sous-espace vectoriel de dimension 1 de E supplémentaire algébrique de H. On suppose $v$ non impropre. Alors D est un supplémentaire topologique de H.
 
 Compte tenu des prop. 1 et 3, la démonstration est la même que celle d’Esp. Vect. Top., chap. I, § 2, cor. 2 du th. 1.
 
-#### Proposition 4 {#ac-vi-s5-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s5-prop-4 .statement tag=04UW}
 
 On suppose $v$ non impropre et K complet. Soit E un espace vectoriel topologique à gauche sur K, séparé et de dimension finie n. Pour toute base $(e_i)_{1 \leq i \leq n}$ de E sur K, l’application $(a_i) \to \sum_{i=1}^n a_i e_i$ de $K_s^n$ sur E est un isomorphisme d’espaces vectoriels topologiques.
 
 Compte tenu de la prop. 3 et de son corollaire, la démonstration est la même que celle d’Esp. Vect. Top., chap. I, , th. 2
 
-#### Corollaire {#ac-vi-s5-n2-cor-2 .statement}
+#### Corollaire {#ac-vi-s5-n2-cor-2 .statement tag=04UX}
 
 On suppose $v$ non impropre et K complet. Soient E un espace vectoriel topologique séparé sur K, et F un sous-espace vectoriel de dimension finie de E. Alors F est fermé.
 En effet, F est complet.
 
 ### 3. Complétion d’un corps muni d’une valuation
 
-#### Proposition 5 {#ac-vi-s5-prop-5 .statement}
+#### Proposition 5 {#ac-vi-s5-prop-5 .statement tag=04UY}
 
 Soient K un corps non nécessairement commutatif, $v$ une valuation de K, et G le groupe $v(K^*)$ muni de la topologie discrète.
 
@@ -137,7 +137,7 @@ Démontrons d). Soient $\alpha \in G$ et $x \in \overline{V}_\alpha - \{0\}$. Po
 
 Compte tenu de la prop. 7 de Top. gén., chap. III, 3e éd., § 3, no 4, l’assertion c) est une conséquence de d). L’assertion e) est un cas particulier de d). Enfin, soit $x \in \hat{A}$; il existe $y \in A$ tel que $\hat{v}(x - y) > 0$; alors $z = x - y \in \hat{m}$, donc $x = y + z \in A + \hat{m}$; ainsi $\hat{A} = A + \hat{m}$, ce qui démontre f).
 
-#### Remarque {#ac-vi-s5-n3-rem-1 .statement}
+#### Remarque {#ac-vi-s5-n3-rem-1 .statement tag=04UZ}
 
 Pour tout $x \in \hat{K}$ n’appartenant pas à $\hat{A}$, il existe $x_0 \in K$ tel que $\hat{v}(x - x_0) > 0$, $\hat{v}(x) = \hat{v}(x_0) = v(x_0) < 0$; on a donc $x_0^{-1} x \in \hat{A}$, et comme $x_0^{-1} \in A$, on voit que si l’on pose $S = A - \{0\}$, on peut écrire $\hat{K} = S^{-1} \hat{A}$.
 

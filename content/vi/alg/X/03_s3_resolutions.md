@@ -49,7 +49,7 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 19
-content_sha256: 520880b426762855d2bd08d35cc074e9d780dfb046d0ee3df8fc430683ad7a94
+content_sha256: eaba200d159ecdd406fcab30890ea76e05c2a4ad16242e2dda46ab0cb57fb725
 translated_from: content/en-mt/alg/X/03_s3_resolutions.md
 source_lang: en-mt
 translation_method: machine
@@ -67,7 +67,7 @@ Chúng tôi giữ lại các quy ước của đoạn trước.
 
 ### 1. Mở rộng các cấu xạ của các phức
 
-#### Bổ đề 1 {#alg-x-s3-lem-1 .statement}
+#### Bổ đề 1 {#alg-x-s3-lem-1 .statement tag=0DTO}
 
 Xét một biểu đồ các A-môđun và các đồng cấu
 
@@ -93,7 +93,7 @@ $$
 $$
 Điều này suy ra $\mathrm{Im}\ (g) \subset \mathrm{Ker}\ (\beta) = \mathrm{Im}\ (\beta')$. Vì $M'$ là xạ ảnh, do đó tồn tại một A-đồng cấu $k': M' \to N'$ sao cho $\beta' \circ k' = g$, do đó bổ đề được chứng minh.
 
-#### Bổ đề 2 {#alg-x-s3-lem-2 .statement}
+#### Bổ đề 2 {#alg-x-s3-lem-2 .statement tag=0DTP}
 
 Nếu trong biểu đồ giao hoán các A-môđun và các đồng cấu
 
@@ -152,7 +152,7 @@ $$
 ta có $\mathrm{Ker}\, \alpha = \mathrm{Im}\, \alpha', \beta \circ \beta' = 0$ và nếu $N''$ là đơn ánh, thì tồn tại một $A$-đồng cấu $u'' : M'' \to N''$ sao cho $u'' \circ \alpha = \beta \circ u$.
 Chỉ cần đặt $u' = k', u = -k, f = 0, f' = 0$ và $k'' = u''$ trong Bổ đề 1 bis.
 
-#### Mệnh đề 1 {#alg-x-s3-prop-1 .statement}
+#### Mệnh đề 1 {#alg-x-s3-prop-1 .statement tag=0DTQ}
 
 Cho $(P, d_P)$ và $(E, d_E)$ là hai phức các $A$-môđun và $r$ là một số nguyên.
 
@@ -178,13 +178,13 @@ Chứng minh của b) là tương tự, thông qua các Bổ đề 1 bis và 2 b
 
 Trong phần sau, một môđun sẽ luôn luôn được đồng nhất với phức mà trong đó nó là thành phần bậc không và mọi thành phần khác của nó đều bằng không.
 
-#### Định nghĩa 1 {#alg-x-s3-def-1 .statement}
+#### Định nghĩa 1 {#alg-x-s3-def-1 .statement tag=0DTR}
 
 Cho $M$ là một $A$-môđun. Một phân giải trái của $M$ là một cặp $(P,p)$ trong đó $P$ là một phức bằng không ở bên phải và $p:P\to M$ là một đồng cấu. Một phân giải phải của $M$ là một cặp $(e,E)$ trong đó $E$ là một phức bằng không ở bên trái và $e:M\to E$ là một đồng cấu.
 
 Độ dài của phân giải $(P,p)$ (ứng với $(e,E)$) được gọi là độ dài của phức $P$ (ứng với $E$). Nếu $(P,p)$ và $(P',p')$ (ứng với $(e,E)$ và $(e',E')$) là hai phân giải trái (ứng với phải) của $M$, thì một cấu xạ của các phức $f:P\to P'$ sao cho $p'\circ f=p$ (ứng với $g:E\to E'$ sao cho $g\circ e=e'$) được gọi là một cấu xạ của các phân giải.
 
-#### Mệnh đề 2 {#alg-x-s3-prop-2 .statement}
+#### Mệnh đề 2 {#alg-x-s3-prop-2 .statement tag=0DTS}
 
 Cho $P$ là một phức bằng không ở bên phải và $p:P\to M$ là một cấu xạ.
 Để $(P,p)$ là một phân giải trái của $M$, điều kiện cần và đủ là dãy
@@ -214,11 +214,11 @@ là khớp.
 
 Do lạm dụng ngôn ngữ, người ta thường nói rằng dãy (1) (tương ứng, (1 bis)) là một phân giải trái (tương ứng, phải) của $M$.
 
-#### Định nghĩa 2 {#alg-x-s3-def-2 .statement}
+#### Định nghĩa 2 {#alg-x-s3-def-2 .statement tag=0DTT}
 
 Một phân giải xạ ảnh (tương ứng, tự do, tương ứng, phẳng) của $A$-môđun $M$ là một phân giải trái $(P,p)$ của $M$ sao cho phức $P$ là xạ ảnh (tương ứng, tự do, tương ứng, phẳng) (X, p. 25). Một phân giải nội xạ của $M$ là một phân giải phải $(e,E)$ của $M$ sao cho phức $E$ là nội xạ (loc. cit.).
 
-#### Ví dụ 1 {#alg-x-s3-n2-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s3-n2-exa-1 .statement tag=0DTU}
 
 Giả sử rằng vành $A$ là chính; cho $M$ là một $A$-môđun và $(x_i)_{i\in I}$ là một họ sinh của $M$. Ký hiệu $L_0$ là môđun tự do $A^{(I)}$, $(e_i)$ là cơ sở chính tắc của nó, và định nghĩa $p:L_0\to M$ bởi $p(e_i)=x_i$. Cấu xạ $p$ là toàn ánh và hạt nhân của nó $L_1$ là một $A$-môđun tự do theo VII, § 3, Hệ quả 2 của Định lý 1; do đó dãy khớp
 
@@ -228,7 +228,7 @@ $$
 
 là một phân giải tự do của $M$ có độ dài 1. Nếu $I$ là hữu hạn, thì $L_0$ và $L_1$ là hữu hạn kiểu.
 
-#### Ví dụ 2 {#alg-x-s3-n2-exa-2 .statement}
+#### Ví dụ 2 {#alg-x-s3-n2-exa-2 .statement tag=0DTV}
 
 Giả sử A giao hoán; cho E là một A-môđun và u là một tự đồng cấu của E. Ký hiệu bởi $E_u$ môđun $A[X]$ thu được bằng cách trang bị cho E cấu trúc được định nghĩa bởi
 
@@ -244,7 +244,7 @@ $$
 
 trong đó $\varphi(p \otimes x) = p.x$ và $\psi(p \otimes x) = Xp \otimes x - p \otimes u(x)$ với $p \in A[X]$ và $x \in E$. Dãy khớp này là một phân giải có độ dài 1 của $E_u$, tự do (tương ứng, xạ ảnh, tương ứng, hữu hạn kiểu) nếu E là một A-môđun tự do (tương ứng, xạ ảnh, tương ứng, hữu hạn kiểu).
 
-#### Ví dụ 3 {#alg-x-s3-n2-exa-3 .statement}
+#### Ví dụ 3 {#alg-x-s3-n2-exa-3 .statement tag=0DTW}
 
 Nếu A là chính, dãy khớp
 
@@ -254,13 +254,13 @@ $$
 
 là một phân giải nội xạ có độ dài 1 của A-môđun $A_s$ (X, p. 18, Ví dụ 1).
 
-#### Mệnh đề 3 {#alg-x-s3-prop-3 .statement}
+#### Mệnh đề 3 {#alg-x-s3-prop-3 .statement tag=0DTX}
 
 Cho $f : M' \to M$ là một đồng cấu của các A-môđun, $p' : P' \to M'$ là một cấu xạ vào $M'$ của một phức triệt tiêu ở bên phải và xạ ảnh $P'$, và $p : P \to M$ là một phân giải trái của M. Tồn tại một cấu xạ các phức $\tilde{f} : P' \to P$, và chỉ có một, sai khác bởi đồng luân, sao cho $p \circ \tilde{f} = f \circ p'$.
 
 Xét phức $\overline{P}$ được xác định như sau: $\overline{P}_n = P_n$ với $n \neq -1$, $\overline{P}_{-1} = M$, $d_{\overline{P},n} = d_{P,n}$ với $n \neq 0, -1$, $d_{\overline{P},0} = p_0$, $d_{\overline{P},-1} = 0$, và phức $\overline{P}'$ được xác định tương tự. Áp dụng cho các phức $\overline{P}$ và $\overline{P}'$ Mệnh đề 1 a) với $r = 0$, $u_i = 0$ với $i < -1$ và $u_{-1} = f$, ta thu được Mệnh đề 3.
 
-#### Hệ quả {#alg-x-s3-n2-cor-1 .statement}
+#### Hệ quả {#alg-x-s3-n2-cor-1 .statement tag=0DTY}
 
 Cho $(P, p)$ và $(P', p')$ là hai phân giải xạ ảnh của M. Tồn tại một cấu xạ, và chỉ một đến đồng luân, $\alpha : P' \to P$ sao cho $p \circ \alpha = p'$.
 
@@ -270,7 +270,7 @@ MỆNH ĐỀ 3 bis. — Cho $g : N \to N'$ là một đồng cấu các A-môđu
 
 Điều này được chứng minh như Mệnh đề 3 với sự trợ giúp của Mệnh đề 1 b).
 
-#### Hệ quả {#alg-x-s3-n2-cor-2 .statement}
+#### Hệ quả {#alg-x-s3-n2-cor-2 .statement tag=0DTZ}
 
 Cho $(e, E)$ và $(e', E')$ là hai phân giải đơn ánh của N; tồn tại một cấu xạ $\alpha : E \to E'$ và chỉ một đến đồng luân sao cho $\alpha \circ e = e'$.
 
@@ -326,7 +326,7 @@ Z_n(f) = Z_0(Z_{n-1}(f)) .
 \end{array} \right.
 $$
 
-#### Mệnh đề 4 {#alg-x-s3-prop-4 .statement}
+#### Mệnh đề 4 {#alg-x-s3-prop-4 .statement tag=0DU0}
 
 $L(f) : L(M) \to L(N)$ là một cấu xạ của các phức A-môđun; ta có $p_M \circ L(f) = f \circ p_N$.
 
@@ -379,7 +379,7 @@ L_0(g \circ f)(e_m) = e_{g \circ f(m)} = L_0(g)(e_{f(m)}) = L_0(g) \circ L_0(f)(
 $$
 do đó $L_0(g \circ f) = L(g) \circ L(f)$; do đó $Z_0(g \circ f) = Z_0(g) \circ Z_0(f)$; do đó ngay lập tức $L_n(g \circ f) = L_n(g) \circ L_n(f)$, với $n \geqslant 0$, bằng quy nạp theo $n$, do đó có (8).
 
-#### Nhận xét {#alg-x-s3-n3-rem-1 .statement}
+#### Nhận xét {#alg-x-s3-n3-rem-1 .statement tag=0DU1}
 
 Nếu $f, g \in \mathrm{Hom}_A(M, N)$, ta không có $L(f + g) = L(f) + L(g)$. Tuy nhiên hai cấu xạ này là đồng luân theo X, p. 49, mệnh đề 3.
 
@@ -457,7 +457,7 @@ K^n(f)&=K^0(K^{n-1}(f)).
 \right.
 $$
 
-#### Mệnh đề 5 {#alg-x-s3-prop-5 .statement}
+#### Mệnh đề 5 {#alg-x-s3-prop-5 .statement tag=0DU2}
 
 I(f) : I(M) → I(N) là một cấu xạ của các phức các A-môđun; ta có I(f) ◦ e_M = e_N ◦ f.
 Điều này được chứng minh theo một cách tương tự như Mệnh đề 4.
@@ -473,7 +473,7 @@ $$
 I(g \circ f) = I(g) \circ I(f) .
 $$
 
-#### Nhận xét {#alg-x-s3-n4-rem-1 .statement}
+#### Nhận xét {#alg-x-s3-n4-rem-1 .statement tag=0DU3}
 
 Nếu $f, g \in \mathrm{Hom}_A(M, N)$, thì không có $I(f + g) = I(f) + I(g)$. Tuy nhiên, hai cấu xạ này là đồng luân theo X, p. 49, mệnh đề 3 bis.
 
@@ -494,12 +494,12 @@ $$
 $$
 do đó:
 
-#### Mệnh đề 6 {#alg-x-s3-prop-6 .statement}
+#### Mệnh đề 6 {#alg-x-s3-prop-6 .statement tag=0DU4}
 
 Khi $A$ là Noether trái, mọi $A$-môđun $M$ sinh hữu hạn đều có một phân giải tự do $p : L \to M$ sao cho $L_n$ sinh hữu hạn với mọi số nguyên n.
 Nói chung hơn:
 
-#### Mệnh đề 7 {#alg-x-s3-prop-7 .statement}
+#### Mệnh đề 7 {#alg-x-s3-prop-7 .statement tag=0DU5}
 
 Cho $C$ là một $A$-phức và $a \in \mathbf{Z}$ sao cho $H_n(C) = 0$ với $n < a$.
 a) Tồn tại một $A$-phức tự do $L$ sao cho $L_n = 0$ với $n < a$ và một đồng cấu đồng điều $f : L \to C$.
@@ -509,7 +509,7 @@ Tồn tại một $A$-phức tự do $L$ sao cho $L_n=0$ với $n<a$ và $L_n$ l
 
 Cho $C'$ là phức con của $C$ sao cho $C'_n=C_n$ với $n>a$, $C'_a=Z_a(C)$, $C'_n=0$ với $n<a$; khi đó đơn ánh chính tắc từ $C'$ vào $C$ là một đồng cấu. Do đó, bằng cách thay thế $C$ bởi $C'$, ta có thể giả sử rằng $C_n=0$ với $n<a$. Mệnh đề khi đó suy ra từ việc áp dụng lặp lại bổ đề sau, với $r=a,a+1,\ldots$ :
 
-#### Bổ đề 3 {#alg-x-s3-lem-3 .statement}
+#### Bổ đề 3 {#alg-x-s3-lem-3 .statement tag=0DU6}
 
 Cho $C$ là một phức và cho $r\in \mathbf{Z}$. Tồn tại một phức $C'$ và một đồng cấu $f:C'\to C$ sao cho $f_n:C'_n\to C_n$ là một đẳng cấu với $n<r$ và sao cho $C'_r$ là một $A$-môđun tự do. Nếu $A$ là Noether và các $A$-môđun $H_r(C)$ và $C_{r-1}$ là kiểu hữu hạn, thì có thể đòi hỏi rằng $C'_r$ là kiểu hữu hạn.
 
@@ -537,7 +537,7 @@ $$
 
 một phân giải của $M$. Người ta nói rằng $(P)$ là một phân giải xạ ảnh cực tiểu nếu, với mọi $n\geq 0$, đồng cấu $\delta_n:P_n\to \operatorname{Im}(d_n)$ cảm sinh bởi $d_n$ là một phủ xạ ảnh (VIII, § 8, No. 5).
 
-#### Proposition 8 {#alg-x-s3-prop-8 .statement}
+#### Proposition 8 {#alg-x-s3-prop-8 .statement tag=0DU7}
 
 Cho $M$ là một A-môđun, $P$ và $P'$ là hai phân giải xạ ảnh cực tiểu của $M$, và $f:P\to P'$ là một cấu xạ của các phân giải. Khi đó $f$ là một đẳng cấu.
 Đặc biệt, hai phân giải xạ ảnh cực tiểu của $M$ là đẳng cấu.
@@ -564,7 +564,7 @@ $$
 
 và từ VIII, *loc. cit*., suy ra rằng $f_{n+1}$ là một đẳng cấu.
 
-#### Hệ quả {#alg-x-s3-n6-cor-1 .statement}
+#### Hệ quả {#alg-x-s3-n6-cor-1 .statement tag=0DU8}
 
 *Cho $M$ là một $A$-môđun, $P$ và $P'$ là hai phân giải xạ ảnh của $M$; giả sử rằng $P$ là cực tiểu. Cho $f:P\to P'$ và $g:P'\to P$ là hai cấu xạ của các phân giải. Khi đó $f$ là đơn ánh, $g$ là toàn ánh, và $P'$ là tổng trực tiếp của các phức con $\operatorname{Im}f$ và $\operatorname{Ker}g$. Hơn nữa $\operatorname{Ker}g$ có đồng điều bằng không.*
 
@@ -587,7 +587,7 @@ $$
 
 là khớp và $g$ là một đồng cấu, $\operatorname{Ker}g$ có đồng điều bằng không.
 
-#### Mệnh đề 9 {#alg-x-s3-prop-9 .statement}
+#### Mệnh đề 9 {#alg-x-s3-prop-9 .statement tag=0DU9}
 
 *Cho $M$ là một $A$-môđun và $(P,p)$ là một phân giải xạ ảnh của $M$. Ký hiệu $r$ là căn của $A$. Giả sử hoặc $P_n$ là một $A$-môđun hữu hạn sinh với mọi $n$, hoặc $r$ là lũy linh. Khi đó điều kiện cần và đủ để $(P,p)$ là cực tiểu là phức $(A/r)\otimes_A P$ có vi phân bằng không, nói cách khác là*
 
@@ -614,7 +614,7 @@ suy ra rằng đồng cấu $1 \otimes j_n : (A/r) \otimes_A \operatorname{Im} d
 
 Ngược lại, giả sử rằng với mọi $n \geqslant 1$, $1 \otimes d_n$ bằng không, nói cách khác là $\operatorname{Im} d_n = \operatorname{Ker} d_{n-1}$ được chứa trong $rP_{n-1}$. Vì $\delta_{n-1}$ là toàn ánh, theo VIII, loc. cit. suy ra rằng $\delta_{n-1}$ là một bao xạ ảnh với $n \geqslant 1$, do đó $(P, p)$ là cực tiểu.
 
-#### Mệnh đề 10 {#alg-x-s3-prop-10 .statement}
+#### Mệnh đề 10 {#alg-x-s3-prop-10 .statement tag=0DUA}
 
 *Giả sử rằng A là một vành địa phương Noether trái, và cho M là một A-môđun hữu hạn sinh. Khi đó M có một phân giải cực tiểu $(P, p)$; với mọi $n \geqslant 0$, $P_n$ là một môđun tự do sinh hữu hạn.*
 
@@ -628,7 +628,7 @@ Thật vậy, trong phép dựng đã thực hiện ở No. 5 (p. 53), nhờ VII
 
 Trong số này, giả thiết rằng vành A được trang bị một phân bậc $(A_n)_{n \in \mathbf{Z}}$, sao cho $A_n = 0$ với $n < 0$. Một A-môđun phân bậc M được gọi là *bị chặn dưới* nếu $M_n = 0$ với $n$ đủ nhỏ; mọi A-môđun phân bậc kiểu hữu hạn đều bị chặn dưới.
 
-#### Proposition 11 {#alg-x-s3-prop-11 .statement}
+#### Proposition 11 {#alg-x-s3-prop-11 .statement tag=0DUB}
 
 *Nếu M là một A-môđun phân bậc bị chặn dưới (tương ứng nếu M là một A-môđun phân bậc kiểu hữu hạn và nếu A là Noether trái), thì tồn tại một dãy khớp các A-môđun phân bậc không bị chặn về bên trái*
 
@@ -680,7 +680,7 @@ Do đó, nếu đặt $B_n = 0$ với $n < 0$ và $d_n = 0$ với $n \leqslant 0
 
 Định nghĩa một ánh xạ A-tuyến tính $\varepsilon_M$ từ $B_0(A, M) = (A \otimes_k A) \otimes_A M$ vào $M$ bởi công thức $\varepsilon_M(a \otimes b \otimes m) = abm$ với $a, b \in A, m \in M$. Ta có $\varepsilon_M \circ d_1 = 0$, do đó đồng cấu phân bậc $\overline{\varepsilon}_M : B(A, M) \to M$, trùng với $\varepsilon_M$ ở bậc 0, là một cấu xạ của các phức các A-môđun.
 
-#### Mệnh đề 12 {#alg-x-s3-prop-12 .statement}
+#### Mệnh đề 12 {#alg-x-s3-prop-12 .statement tag=0DUC}
 
 Ánh xạ $\overline{\varepsilon}_M : B(A, M) \to M$ là một đồng luân cấu của các phức $k$-môđun. Đặc biệt, phức $B(A, M)$ tách trên $k$, và $(B(A, M), \overline{\varepsilon}_M)$ là một phân giải trái của A-môđun $M$.
 
@@ -715,7 +715,7 @@ $$
 
 Ký hiệu $\eta : A \to A \otimes_k A$ là ánh xạ được định nghĩa bởi $\eta(a) = 1 \otimes a$, và $\overline{\eta} : A \to B(A)$ là cấu xạ của các phức trùng với $\eta$ ở bậc 0. Rõ ràng $\overline{\varepsilon}_A \circ \overline{\eta} = 1_A$; các công thức (16) và (17) cho thấy rằng $d \circ s + s \circ d = 1_{B(A)} - \overline{\eta} \circ \overline{\varepsilon}_A$. Đặt $\overline{\eta}_M = \overline{\eta} \otimes 1_M$, $d_M = d \otimes 1_M$ và $s_M = s \otimes 1_M$, ta suy ra rằng $\overline{\varepsilon}_M \circ \overline{\eta}_M = 1_M$ và $d_M \circ s_M + s_M \circ d_M = 1_{B(A,M)} - \overline{\eta}_M \circ \overline{\varepsilon}_M$. Nói cách khác, (X, p. 33, Định nghĩa 5), $\overline{\varepsilon}_M$ là một đồng luân cấu của các phức $k$-môđun. Các khẳng định khác của mệnh đề suy ra ngay từ điều này.
 
-#### Định nghĩa 3 {#alg-x-s3-def-3 .statement}
+#### Định nghĩa 3 {#alg-x-s3-def-3 .statement tag=0DUD}
 
 Phân giải trái $(B(A, M), \overline{\varepsilon}_M)$ của $M$ được gọi là phân giải tiêu chuẩn của A-môđun $M$.
 
@@ -725,11 +725,11 @@ Nếu $A$ và $M$ là các $k$-môđun xạ ảnh (resp. tự do, resp. phẳng)
 
 Nếu $\mathscr{C}$ là một tập hợp các lớp các A-môđun, ta sẽ nói rằng một phân giải trái $(P, p)$ bị chặn kiểu $\mathscr{C}$ nếu phức $P$ bị chặn kiểu $\mathscr{C}$ (X, p. 41).
 
-#### Định lý 1 {#alg-x-s3-thm-1 .statement}
+#### Định lý 1 {#alg-x-s3-thm-1 .statement tag=0DUE}
 
 Cho $\mathscr{C}_0$ và $\mathscr{C}$ là hai lớp các tập hợp môđun $A$ cộng tính và khớp trái sao cho $\mathscr{C}_0 \subset \mathscr{C}$ và mọi $A$-môđun thuộc kiểu $\mathscr{C}$ đều có một phân giải trái hữu hạn thuộc kiểu $\mathscr{C}_0$. Khi đó đồng cấu $\alpha : K(\mathscr{C}_0) \to K(\mathscr{C})$ suy ra từ bao hàm của $\mathscr{C}_0$ trong $\mathscr{C}$ là song ánh; nếu $M$ là một $A$-môđun thuộc kiểu $\mathscr{C}$ và $P$ là một phân giải trái hữu hạn của $M$ thuộc kiểu $\mathscr{C}_0$, thì ta có $\alpha^{-1}([M]_{\mathscr{C}}) = \chi_{\mathscr{C}_0}(P)$ (X, p. 41, ví dụ 6).
 
-#### Bổ đề 4 {#alg-x-s3-lem-4 .statement}
+#### Bổ đề 4 {#alg-x-s3-lem-4 .statement tag=0DUF}
 
 Cho $f : M' \to M$ là một đồng cấu của các $A$-môđun thuộc kiểu $\mathscr{C}$, và $p : P \to M$ là một phân giải trái hữu hạn của $P$ thuộc kiểu $\mathscr{C}_0$. Tồn tại một phân giải trái hữu hạn $p' : P' \to M'$ thuộc kiểu $\mathscr{C}_0$ và một cấu xạ phức $u : P' \to P$ sao cho $p \circ u = f \circ p'$.
 
@@ -758,7 +758,7 @@ $$
 
 suy ra từ $u_0$.
 
-#### Bổ đề 5 {#alg-x-s3-lem-5 .statement}
+#### Bổ đề 5 {#alg-x-s3-lem-5 .statement tag=0DUG}
 
 Xét một biểu đồ giao hoán
 

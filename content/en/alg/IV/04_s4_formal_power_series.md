@@ -67,7 +67,7 @@ errata:
     - says: then $w(u^{-1}) = -w(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), w is a normalized discrete valuation
       read: then $\omega(u^{-1}) = -\omega(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), $\omega$ is a normalized discrete valuation
       why: Page 48 runs the roman w twice in the displayed relation and once in the sentence naming the valuation, then sets "omega(u) >= n" round two lines below for the same function. The valuation of K((X)) is omega, as the French of 2007 (A IV.36) has it.
-content_sha256: f8d80a2920e478013cde5fe2293fcefc277e5076443daaf8c7bc3b07c07163d4
+content_sha256: ecc1c2d36748dfed392a2d0bff5cf730d1aaf97675f112d959e7b8c05ce7ab7f
 ---
 
 ## § 4. FORMAL POWER SERIES
@@ -114,7 +114,7 @@ By definition $\mathbf{A}[[\mathrm{I}]]$ is nothing other than the product set $
 
 For each $\beta \in \mathbf{N}^{(I)}$ let $S_\beta$ be the set of multi-indices $\nu$ such that $\nu \leq \beta$ and let $a_\beta$ be the set of formal power series $u = \sum \alpha_\nu X^\nu$ such that $a_\nu = 0$ for $\nu \in S_\beta$. Clearly $S_\beta$ is a finite subset of $\mathbf{N}^{(I)}$, and every finite subset of $\mathbf{N}^{(I)}$ is contained in a set of the form $S_\beta$. It follows that the family $(a_\beta)_{\beta \in \mathbf{N}^{(I)}}$ is a fundamental system of neighbourhoods of 0 in $A[[I]]$. The sets $a_\beta$ are ideals in $A[[I]]$, hence (Gen. Top., III, p. 275) $A[[I]]$ is a topological ring.
 
-#### Lemma 1 {#alg-iv-s4-lem-1 .statement}
+#### Lemma 1 {#alg-iv-s4-lem-1 .statement tag=06BY}
 
 Let $L$ be an infinite set and $(u_\lambda)_{\lambda \in L}$ a family of elements of $A[[I]]$, and put $u_\lambda = \sum \alpha_{\lambda,\nu} X^\nu$ for $\lambda \in L$. Then the following conditions are equivalent:
 (i) The family $(u_\lambda)_{\lambda \in L}$ is summable (Gen. Top., III, p. 262) in $A[[I]]$.
@@ -134,11 +134,11 @@ b) Let $u \in A[[I]]$; for every integer $p \geq 0$ let $u_p$ be the homogeneous
 
 c) Let $(u_\lambda)_{\lambda \in L}$ be a family of elements of $A[[I]]$ and suppose that for every integer $n \geq 0$ the set of $\lambda \in L$ such that $\omega(u_\lambda) < n$ is finite. Then the family $(u_\lambda)_{\lambda \in L}$ is summable.
 
-#### Remark {#alg-iv-s4-n2-rem-1 .statement}
+#### Remark {#alg-iv-s4-n2-rem-1 .statement tag=06BZ}
 
 — Suppose that $I$ is *finite*. For every integer $n \geq 0$ let $b_n$ be the set of formal power series $u \in A[[I]]$ such that $\omega(u) \geq n$. The sequence $(b_n)_{n \geq 0}$ is a fundamental system of neighbourhoods of 0 in $\mathbf{A}[[\mathbf{I}]]$. Therefore a family of elements $u_\lambda$ of $\mathbf{A}[[\mathbf{I}]]$ ($\lambda \in L$) is summable if and only if for every $n \in \mathbf{N}$ the set of $\mathbf{A} \in L$ such that $\omega(u_\lambda) < n$ is finite.
 
-#### Proposition 1 {#alg-iv-s4-prop-1 .statement}
+#### Proposition 1 {#alg-iv-s4-prop-1 .statement tag=06C0}
 
 *Let* $(u_\lambda)_{\lambda \in L}$ *and* $(v_\mu)_{\mu \in M}$ *be two summable families of elements of* $\mathbf{A}[[\mathbf{I}]]$. *Then the family* $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ *is summable and we have*
 
@@ -150,7 +150,7 @@ Let $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(I)}}$ (resp. $(\beta_{\mu, \n
 
 In $\mathbf{A}[[\mathbf{I}]]$ the product is an associative and commutative composition law. We may therefore speak of a *multipliable family* of elements of $\mathbf{A}[[\mathbf{I}]]$ and of the *product* of a multipliable family (Gen. Top., III, p. 262, remark 3).
 
-#### Proposition 2 {#alg-iv-s4-prop-2 .statement}
+#### Proposition 2 {#alg-iv-s4-prop-2 .statement tag=06C1}
 
 *Let* $(u_\lambda)_\lambda$ *be a summable family of elements of* $\mathbf{A}[[\mathbf{I}]]$.
 (i) *The family* $(1 + u_\lambda)_\lambda$ *is multipliable*.
@@ -168,7 +168,7 @@ $$
 
 Taken along the filtered ordered set $\mathfrak{T}$, the left-hand side has as limit $\sum_{M \in \mathfrak{T}} u_M$. Hence the right-hand side has as limit $\sum_{M \in \mathfrak{T}} u_M$, which proves (i) and (ii) at the same time.
 
-#### Proposition 3 {#alg-iv-s4-prop-3 .statement}
+#### Proposition 3 {#alg-iv-s4-prop-3 .statement tag=06C2}
 
 *Let* $u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *and* $m$ *an integer* $> 0$. *For every* $n \in \mathbf{N}$ *let* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(I)}}$ *be the family of coefficients of* $u^n$. *If* $\alpha_0^m = 0$, *then* $\alpha_{\nu, n} = 0$ *for* $n \geq |\nu| + m$.
 
@@ -180,7 +180,7 @@ $$
 
 If $n \geq |\nu| + m$ and $\nu(1) + \cdots + \nu(n) = v$, we have $|\nu(1)| + \cdots + |\nu(n)| \leq n - m$. We thus have $v(r) = 0$ and so $\alpha_{v(r)} = a_r$, for at least $m$ distinct values of $r$; it follows that $\alpha_{\nu(1)} \cdots \alpha_{\nu(n)} = 0$, whence the result.
 
-#### Corollary {#alg-iv-s4-n2-cor-1 .statement}
+#### Corollary {#alg-iv-s4-n2-cor-1 .statement tag=06C3}
 
 — Let $u \in A[[I]]$; then for $\lim_{n \to \infty} u^n = 0$ to hold it is necessary and sufficient that the constant term of $u$ should be nilpotent.
 
@@ -190,7 +190,7 @@ Let $a_0$ be the constant term of $u$. The constant term of $u^n$ is $\alpha_0^n
 
 Let $E$ be an $A$-algebra. A topology on $E$ is said to be linear if it is invariant under translation and if there exists a fundamental system of neighbourhoods of 0 consisting of ideals of $E$ (Gen. Top., III, p. 223). The topology on $E$ is then compatible with its $A$-algebra structure (when $A$ carries the discrete topology). An $A$-algebra with a linear topology is called a linearly topologized $A$-algebra.
 
-#### Proposition 4 {#alg-iv-s4-prop-4 .statement}
+#### Proposition 4 {#alg-iv-s4-prop-4 .statement tag=06C4}
 
 — Let $I$ be a set and $E$ an associative, commutative, unital, linearly topologized separated complete $A$-algebra.
 
@@ -245,7 +245,7 @@ $$
 
 ### 4. Invertible formal power series
 
-#### Proposition 5 {#alg-iv-s4-prop-5 .statement}
+#### Proposition 5 {#alg-iv-s4-prop-5 .statement tag=06C5}
 
 — *In the ring $A[[T]]$ of formal power series in one indeterminate the polynomial $1 - T$ is invertible, and we have* $(1 - T)^{-1} = \sum_{n=0}^m T^n$.
 
@@ -254,7 +254,7 @@ $$
 (1 - T) \left( \sum_{n=0}^\infty T^n \right) = \sum_{n=0}^\infty T^n - \sum_{n=0}^\infty T^{n+1} = 1.
 $$
 
-#### Proposition 6 {#alg-iv-s4-prop-6 .statement}
+#### Proposition 6 {#alg-iv-s4-prop-6 .statement tag=06C6}
 
 — *Let $u \in A[[I]]$; then for $u$ to be invertible in $A[[T]]$ it is necessary and sufficient that its constant term should be invertible in $A$.*
 
@@ -262,7 +262,7 @@ Suppose that there exists $v \in A[[I]]$ such that $uv = 1$. Let $a, \beta$ be t
 
 Conversely, suppose that the constant term $a$ of $u$ is invertible. Then there exists a formal power series $t \in A[[I]]$ such that $u = \alpha (1 - t)$ and $\omega(t) > 0$. Now there is a ring homomorphism $\varphi : A[[T]] \to A[[I]]$ such that $\varphi(T) = t$, and $1 - T$ is invertible in $A[[T]]$ (Prop. 5); consequently $1 - t$ is invertible in $A[[I]]$, and hence so is $u$.
 
-#### Remark {#alg-iv-s4-n4-rem-1 .statement}
+#### Remark {#alg-iv-s4-n4-rem-1 .statement tag=06C7}
 
 — Let $A$ be the set of all formal power series with constant term 1. By Prop. 6, $M$ is a commutative group under multiplication; the multiplicative group of $A[[I]]$ is thus the direct product of $M$ and the multiplicative group of $A$. We shall equip $A$ with the topology induced from that of $A[[I]]$. For each $\beta \in \mathbf{N}^{(I)}$ we have in IV, p. 26 defined the ideal $a_\beta$ of $A[[I]]$; then $1 + a_\beta$ is a subgroup of $M$ and the family $(1 + a_{\beta'})$ is a fundamental system of neighbourhoods of 1 in $M$. Since the multiplication in $M$ is continuous, we see that $A$ is a topological group (Gen. Top., III, p. 223); in other words, the *mapping* $f \mapsto f^{-1}$ *is continuous in* $M$.
 
@@ -320,7 +320,9 @@ $$
 u(\mathbf{X}) = \sum \frac{1}{\nu!} D^\nu u(0) \cdot \mathbf{X}^\nu.
 $$
 
-*Remarks. — 1) We often say that $D_i u$ is *the partial derivative of u with respect to X*, ; we also use the notation $D_{x_i} u, \frac{\partial u}{\partial x_i}$ and $u'_{x_i}$. For a single indeterminate X the unique partial derivative $Du$ (also written $\frac{du}{dX}$ or $u'$) is called the *derivative* of $u$.
+#### Remarks {#alg-iv-s4-n5-rem-1 .statement tag=0DHH}
+
+*1) We often say that $D_i u$ is *the partial derivative of u with respect to X*, ; we also use the notation $D_{x_i} u, \frac{\partial u}{\partial x_i}$ and $u'_{x_i}$. For a single indeterminate X the unique partial derivative $Du$ (also written $\frac{du}{dX}$ or $u'$) is called the *derivative* of $u$.
 
 2) The formula (9) shows that the endomorphisms $A^p$ of the A-module $A[[X]]$ commute painvise. Hence the same holds of the endomorphisms $D_i$.
 
@@ -334,7 +336,7 @@ D(uv) = u(x) \cdot D(v) + D(u) \cdot v(x)
 $$
 for $u, v$ in $A[[I]]$.
 
-#### Proposition 7 {#alg-iv-s4-prop-7 .statement}
+#### Proposition 7 {#alg-iv-s4-prop-7 .statement tag=06C8}
 
 — Let $(y_i)_{i \in I}$, be a family of elements of E. When I is infinite, *we* assume that $y_i$ tends to 0 along the filter of complements of finite subsets of I. There exists then a unique continuous A-derivation D of $A[[I]]$ into the $A[[I]]$*-module* E such that $D(X_i) = y_i$ for all $i \in I$. We have
 $$
@@ -345,7 +347,7 @@ Since 0 admits in E a fundamental system of neighbourhoods consisting of ideals,
 
 Let $D_1$ be a continuous A-derivation of $A[[I]]$ into E, such that $D_1(X_i) = y_i$ for all $i \in I$. The kernel of the continuous derivation $D - D_1$ is a closed subalgebra B of $\mathbf{A}[[\mathbf{I}]]$ containing 1 and the indeterminates $X_i$. Since the polynomial algebra $\mathbf{A}[(X_i)_{i \in I}]$ is dense in $\mathbf{A}[[\mathbf{I}]]$, we have $B = \mathbf{A}[[\mathbf{I}]]$ and so $D_1 = D$.
 
-#### Corollary 1 {#alg-iv-s4-prop-7-cor-1 .statement}
+#### Corollary 1 {#alg-iv-s4-prop-7-cor-1 .statement tag=06C9}
 
 — *Let A be a continuous derivation of the A-algebra E. For every formal power series $u \in \mathbf{A}[[\mathbf{I}]]$ the family $((D_iu)(x) \cdot \Delta x_i)_{i \in I}$ is summable and we have*
 
@@ -355,7 +357,7 @@ $$
 
 This follows from Prop. 7 because the mapping $u \mapsto \Delta(u(x))$ is a continuous derivation of $\mathbf{A}[[\mathbf{I}]]$ into the $\mathbf{A}[[\mathbf{I}]]$-module E.
 
-#### Corollary 2 {#alg-iv-s4-prop-7-cor-2 .statement}
+#### Corollary 2 {#alg-iv-s4-prop-7-cor-2 .statement tag=06CA}
 
 — *The derivation $D_i$ is the unique continuous derivation of the A-algebra $\mathbf{A}[[\mathbf{I}]]$ such that*
 
@@ -365,7 +367,7 @@ $$
 
 This follows from Cor. 1.
 
-#### Corollary 3 {#alg-iv-s4-prop-7-cor-3 .statement}
+#### Corollary 3 {#alg-iv-s4-prop-7-cor-3 .statement tag=06CB}
 
 — *Let $f \in \mathbf{A}[[X_1, ..., X_s]]$ and $g_i \in \mathbf{A}[[Y_1, ..., Y_q]]$ for $1 \leq i \leq p$. Suppose that for $1 \leq i \leq p$ the constant term of $g_i$ is zero, and put $h = f(g_1, ..., g_p)$. Then for $1 \leq j \leq q$ we have*
 
@@ -375,7 +377,7 @@ $$
 
 This is the special case $E = \mathbf{A}[[Y_1, ..., Y_s]]$, $x_i = q_i$ and $A = \partial / \partial Y_j$ of Cor. 1.
 
-#### Proposition 8 {#alg-iv-s4-prop-8 .statement}
+#### Proposition 8 {#alg-iv-s4-prop-8 .statement tag=06CC}
 
 — *Let $X = (X_i)_i$, be a finite family of indeterminates.
 (i) Every derivation of the ring of formal power series $\mathbf{A}[[X]]$ is continuous.
@@ -401,7 +403,7 @@ Finally, $A[X]$ is dense in $A[[X]]$ and every derivation of $A[[X]]$ is continu
 
 It remains to prove (iii). Formula (18) (IV, p. 33) shows that the family $(D_i)_{i \in I}$ is linearly independent over $A[[X]]$, and formula (16) (IV, p. 32), applied in the case $E = A[[X]]$, shows that every $A$-derivation is a linear combination of the $D_i$ with coefficients in $A[[X]]$.
 
-#### Proposition 9 {#alg-iv-s4-prop-9 .statement}
+#### Proposition 9 {#alg-iv-s4-prop-9 .statement tag=06CD}
 
 — Let $(u_\lambda)_{\lambda \in L}$ be a *summable* family of elements of $A[[I]]$ without constant term and $D$ a continuous derivation of the $A$-algebra $A[[I]]$. If $f = \prod_{\lambda \in L} (1 + u_\lambda)$ (IV, p. 27, Prop. 2), then the family $(Du_\lambda/(1 + u_\lambda))_{\lambda \in L}$ is summable and we have
 
@@ -437,7 +439,7 @@ Now Prop. 9 follows by passage to the limit in (22).
 
 ### 7. The solution of equations in a formal power series ring
 
-#### Lemma 2 {#alg-iv-s4-lem-2 .statement}
+#### Lemma 2 {#alg-iv-s4-lem-2 .statement tag=06CE}
 
 *Let* $(g_i)_i$ *be a family of elements of order* $\geq 2$ *in* $\mathbf{A}[[\mathbf{I}]]$. *When* $\mathbf{I}$ *is infinite, assume that* $g_i$ *tends to 0 along the filter of complements of finite subsets of* $\mathbf{I}$. *There exists one and only one automorphism* T *of the topological* A*-algebra* $\mathbf{A}[[\mathbf{I}]]$ *such that* $T(X_i) = X_i + g_i$ *for all* $i \in \mathbf{I}$. *Further,
 
@@ -517,7 +519,7 @@ $$
 
 $^1$ Sometimes $T_f$ is called the linear mapping tangent to $f$.
 
-#### Proposition 10 {#alg-iv-s4-prop-10 .statement}
+#### Proposition 10 {#alg-iv-s4-prop-10 .statement tag=06CF}
 
 — Let $f \in A\{I\}$; then the following conditions are equivalent :
 (i) $f$ is invertible in $A\{I\}$ for the law $\circ$;
@@ -525,7 +527,7 @@ $^1$ Sometimes $T_f$ is called the linear mapping tangent to $f$.
 
 The implication (i) $\Rightarrow$ (ii) is immediate from (28). Suppose now that $T_f$ is invertible in $\mathrm{End}(A^{(I)})$. There exists $g = (g_i)_i \in A\{I\}$ such that each $g_i$ is homogeneous of degree $l$ and $T_g \circ T_f$ is the identity mapping of $A^{(I)}$. Write $h = g \circ f$; then (28) shows that $T_h$ is the identity mapping of $A^{(I)}$, which is equivalent to the assertion $\omega(h_i - X_i) \geq 2$. By Lemma 2 of IV, p. 35 $h$ is therefore invertible in $A\{I\}$. It is clear that $g$ is invertible in $A\{I\}$, hence $f$ is invertible in $A\{I\}$.
 
-#### Corollary {#alg-iv-s4-n7-cor-1 .statement}
+#### Corollary {#alg-iv-s4-n7-cor-1 .statement tag=06CG}
 
 — Let $f_i(Y_1, Y_2, \ldots, Y_q, X_1, X_2, \ldots, X_p)$ ($1 \leq i \leq q$) be $q$ formal power series without constant term in $A[[Y_1, \ldots, Y_q, X_1, \ldots, X_p]]$. If the constant term of the formal power series $D = \det \left( \frac{\partial f_i}{\partial Y_j} \right)$ is invertible in $A$, then there exists precisely one system of $q$ formal power series $u_1(X_1, \ldots, X_p), \ldots, u_q(X_1, \ldots, X_p)$ such that
 $$
@@ -561,7 +563,7 @@ and substituting $u_i$ for $Y_i$ for $1 \leq i \leq q$ in (32), we obtain (31), 
 
 ### 8. Formal power series over an integral domain
 
-#### Proposition 11 {#alg-iv-s4-prop-11 .statement}
+#### Proposition 11 {#alg-iv-s4-prop-11 .statement tag=06CH}
 
 — Suppose that $A$ is an integral domain.
 
@@ -581,7 +583,7 @@ Let a (resp. b) be the homogeneous component of degree $p$ (resp. $q$) of $\varp
 
 If K is a commutative field, we shall denote by $K((X))$ the field of fractions of the integral domain $K[[X]]$.
 
-#### Proposition 12 {#alg-iv-s4-prop-12 .statement}
+#### Proposition 12 {#alg-iv-s4-prop-12 .statement tag=06CI}
 
 — *Every non-zero element* $u$ *of* $K((X))$ *may be written in a unique way as* $u = X^k v$, *where* $k \in \mathbf{Z}$ *and* $v$ *is a formal power series in* $X$ *of order* 0.
 
@@ -611,7 +613,7 @@ Since the ring $K[X]$ is a subring of $K[[X]]$, every rational fraction $u/v \in
 
 By the exponential power series we shall understand the element $\sum_{n \geq 0} \frac{X^n}{n!}$ of $Q[[X]]$; it will be denoted by exp X or $e^X$.
 
-#### Proposition 13 {#alg-iv-s4-prop-13 .statement}
+#### Proposition 13 {#alg-iv-s4-prop-13 .statement tag=06CJ}
 
 — In $Q[[X, Y]]$ we have $e^{X+Y} = e^X e^Y$.
 
@@ -655,7 +657,7 @@ $$
 D(l(X)) = \sum_{n \geq 0} (-X)^n = (1+X)^{-1}.
 $$
 
-#### Proposition 14 {#alg-iv-s4-prop-14 .statement}
+#### Proposition 14 {#alg-iv-s4-prop-14 .statement tag=06CK}
 
 — We have $l(e(X)) = e(l(X)) = X$.
 

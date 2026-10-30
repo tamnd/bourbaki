@@ -26,9 +26,9 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: 45a8a53749440d640932f342ec06ac39968da7b5fc02f2342cbeddf8a62c96b2
+content_sha256: ed4d95f02f18490b9eabb753102344818f1d4ad566ce8fb05bde6024e2392dba
 translated_from: content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md
-source_content_sha256: 30fbacf9d16018de9db1822e5ded58af14ac7583b6c185bbfccaa4c790f152f5
+source_content_sha256: d7c5aa125c07daf15aa12374780d959bd9cb9aac8300a2a5e8c9396f60d1751b
 translation_model: gpt-5.4, gpt-5-6-mini, copied
 translation_run: translate-vi-d004b81c
 glossary_version: 34
@@ -42,29 +42,29 @@ Trong suốt đoạn này, $p$ ký hiệu một số nguyên tố. Mọi trườ
 
 ### 1. Các tập con $p$-tự do và các p-cơ sở
 
-#### Định nghĩa 1 {#alg-v-s13-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s13-def-1 .statement tag=06QX}
 
 Cho $K$ là một trường và $L$ là một mở rộng căn-bậc-$p$ có chiều cao $\leq 1$ của $K$. Một họ $(x_i)_{i \in I}$ các phần tử của $L$ được gọi là $p$-tự do trên $K$ (resp. một $p$-cơ sở của $L$ trên $K$) nếu $x_i \notin K$ với mọi $i \in I$ và đồng cấu từ $\bigotimes_{i \in I} K(x_i)$ vào $L$ suy ra từ các đơn ánh chính tắc $u_i : K(x_i) \to L$ là đơn ánh (resp. song ánh).
 
 Nếu $a$ là một phần tử của $L - K$, thì nó là căn-$p$ cấp 1, và do đó đa thức tối tiểu của nó trên $K$ là $X^p - a^p$ ($V$, p. 24, Mệnh đề 1); vì vậy $\{1, a, \ldots, a^{p-1}\}$ là một cơ sở của $K(a)$ trên $K$. Cho $(x_i)_{i \in I}$ là một họ các phần tử của $L - K$ và $A$ là tập con của $\mathbf{N}^{(I)}$ gồm tất cả các họ có giá hữu hạn $a = (\alpha_i)_{i \in I}$, sao cho $\alpha_i < p$ với mọi $i \in I$; Mệnh đề 9 (III, p. 471) cho thấy rằng các phần tử $\bigotimes_{i \in I} x_i^{\alpha_i}$ khi $a$ chạy qua $A$ lập thành một cơ sở của không gian vectơ $\bigotimes_{i \in I} K(x_i)$ trên $K$. Hơn nữa, đồng cấu chính tắc từ $\bigotimes_{i \in I} K(x_i)$ vào $L$ có ảnh là $K(x_i)_{i \in I}$ ($V$, p. 18, Hệ quả 1), do đó ta có mệnh đề sau:
 
-#### Mệnh đề 1 {#alg-v-s13-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s13-prop-1 .statement tag=06QY}
 
 Cho $K$ là một trường, $L$ là một mở rộng căn $p$ có chiều cao $\leq 1$ của $K$ và $x = (x_i)_{i \in I}$ là một họ các phần tử của $L$. Khi đó không gian vectơ $K(x_i)_{i \in I}$ trên $K$ được sinh bởi các tích $x'' = \prod_{i \in I} x_i^{\alpha_i}$ với $a$ trong $A$. Để $(x_i)_{i \in I}$ là $p$-tự do (tương ứng, một $p$-cơ sở), điều kiện cần và đủ là họ $(x^a)_{a \in A}$ tự do trên $K$ (tương ứng, là một cơ sở của $L$ trên $K$).
 
-#### Hệ quả {#alg-v-s13-n1-cor-1 .statement}
+#### Hệ quả {#alg-v-s13-n1-cor-1 .statement tag=06QZ}
 
 — Cho L' là một mở rộng của một trường K, được sinh bởi hai mở rộng con K' và L rời nhau tuyến tính. Giả sử rằng L là p-căn cấp $\leq 1$ trên K; *khi đó* L' là p-căn cấp $\leq 1$ trên K'. Hơn nữa, để một họ phần tử của L là p-tự do trên K (tương ứng, một p-cơ sở của $L$ trên K) thì điều kiện cần và đủ là nó p-tự do trên K' (tương ứng, một p-cơ sở của L' trên K').
 
 Ta có ${L'}^p \subset K \subset K'$ và $L' = K'(L)$, do đó ${L'}^p = {K'}^p({L'}^p) \subset K'$. Nói cách khác, L' là một mở rộng p-căn cấp $\leq 1$ của K'. Các khẳng định khác của hệ quả suy ra ngay từ Mệnh đề 1 và từ V, p. 14, Mệnh đề 5.
 
-#### Nhận xét {#alg-v-s13-n1-rem-1 .statement}
+#### Nhận xét {#alg-v-s13-n1-rem-1 .statement tag=06R0}
 
 Cho K là một trường, L là một mở rộng căn p có chiều cao $\leq 1$ của K và $(x_i)_i$, một họ các phần tử của L. Cho A là đại số đa thức $K[(X_i)_{i \in I}]$, a là iđêan của A sinh bởi các đa thức $X_i^p - x_i^p$ và $\varphi : A \to L$ là đồng cấu đại số trên K sao cho $\varphi(X_i) = x_i$ với mỗi $i \in I$. Họ $(x_i)_i$, là p-tự do khi và chỉ khi hạt nhân của $\varphi$ bằng a. Vì $K[(X_i)]/a$ có thể được đồng nhất với đại số $\bigotimes_{i \in I} K[X_i]/(X_i^p - x_i^p)$.
 
 Cho L là một mở rộng căn p có chiều cao $\leq 1$ của trường K. Một tập con S của $L$ được gọi là p-tự do (tương ứng, là một cơ sở p) nếu họ được xác định bởi ánh xạ đồng nhất của S lên chính nó là p-tự do (tương ứng, là một cơ sở p). Để một họ $(x_i)_i$, gồm các phần tử của $L$, là p-tự do (tương ứng, là một cơ sở p), điều kiện cần và đủ là ánh xạ $i \mapsto x_i$ là một song ánh từ I lên một tập con p-tự do (tương ứng, một cơ sở p) của L. Theo Mệnh đề 1, mọi tập con của một tập hợp p-tự do đều là p-tự do; ngược lại, nếu S là một tập con của L mà mọi tập con hữu hạn của nó đều p-tự do, thì S là p-tự do. Cuối cùng, một cơ sở p của L trên K là một tập con p-tự do B sao cho $L = K(B)$.
 
-#### Mệnh đề 2 {#alg-v-s13-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s13-prop-2 .statement tag=06R1}
 
 — Cho K là một trường, $L$ là một mở rộng căn p có chiều cao $\leq 1$ của K và S là một tập con của L. Điều kiện cần và đủ để S là p-tự do là $K(T) \neq K(S)$ với mọi tập con $T \neq S$ của S.
 
@@ -78,20 +78,20 @@ $$
 
 do đó $x_n \in K(x_1, ..., x_{n-1})$. Điều này cho thấy rằng $K(S - \{x_n\}) = K(S)$.
 
-#### Mệnh đề 3 {#alg-v-s13-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s13-prop-3 .statement tag=06R2}
 
 — Cho K là một trường, L là một mở rộng căn p có chiều cao $\leq 1$ của K, và S, T là hai tập con của L. Các điều kiện sau là tương đương:
 a) Tập con S là p-tự do trên K và T là p-tự do trên K(S).
 b) $S \cap T = \varnothing$ *và* S U T là p-tự do trên K.
 Nếu T là p-tự do trên K(S), ta có $T \cap K(S) = \varnothing$ và a fortiori $S \cap T = \varnothing$. Do đó ta có thể giả sử S và T rời nhau. Gọi A là tập con của $N^{(S \cup T)}$ gồm mọi họ $a = (a_x)_{x \in S \cup T}$ sao cho $a_x < p$ với mọi $x \in S \cup T$, và định nghĩa các tập con $A'$ của $N^{(S)}$ và $A''$ của $N^{(T)}$ theo cách tương tự. Ta có thể, một cách tự nhiên, đồng nhất $N^{(S \cup T)}$ với $N^{(S)} \times N^{(T)}$, và khi đó A được đồng nhất với $A' \times A''$. Với $a \in A$ đặt $u_a = \prod_{x \in S \cup T} x^{\alpha_x}$, và tương tự định nghĩa $u'_\beta$ và $u''_\gamma$ đối với $\beta \in A'$ và $\gamma \in A''$. Ta có $u_a = u'_\beta u''_\gamma$ với $a = (\beta, \gamma)$ trong $A = A' \times A''$. Hơn nữa $(u'_\beta)_{\beta \in A'}$ sinh ra không gian vectơ K K(S) (V, p. 94, Prop. 1). Để S U T là p-tự do trên K, điều kiện cần và đủ là họ $(u'_\beta u''_\gamma)_{\beta \in A', \gamma \in A''}$ là tự do trên K (V, p. 98, Prop. 1); điều đó cũng tương đương (II, p. 222) với việc giả sử rằng họ $(u'_\beta)_{\beta \in A'}$ là tự do trên K và họ $(u''_\gamma)_{\gamma \in A''}$ là tự do trên K(S). Bây giờ tính tương đương của a) và b) suy ra từ Prop. 1 (V, p. 98).
 
-#### Hệ quả {#alg-v-s13-n1-cor-2 .statement}
+#### Hệ quả {#alg-v-s13-n1-cor-2 .statement tag=06R3}
 
 — Cho L là một mở rộng căn p có chiều cao $\leq 1$ của K và M là một mở rộng con của L. Khi đó L là căn p có chiều cao $\leq 1$ trên M và M là căn p có chiều cao $\leq 1$ trên K. Hơn nữa, nếu B là một cơ sở p của M trên K và C là một cơ sở p của L trên M, thì $B \cap C = \varnothing$ và $B \cup C$ là một cơ sở p của L trên K.
 
 Cho K là một trường. Một họ $(x_i)_{i \in I}$ được gọi là một cơ sở p (tuyệt đối) của K nếu nó là một cơ sở p của K trên $K^p$. Với mọi số nguyên $n \geq 1$ ta ký hiệu bởi $\Lambda(n)$ tập con của $N^{(I)}$ gồm tất cả các $a = (\alpha_i)_{i \in I}$ sao cho $\alpha_i < p^n$ với mọi $i \in I$.
 
-#### Mệnh đề 4 {#alg-v-s13-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s13-prop-4 .statement tag=06R4}
 
 — Cho $x = (x_i)_{i \in I}$ là một p-cơ sở của K. Với mọi số nguyên $n \geq 1$, họ $(x^u)_{u \in \Lambda(n)}$ là một cơ sở của K trên $K^{p^n}$.
 
@@ -123,7 +123,7 @@ Theo các công thức trên, hạt nhân của $D$ là một trường con $E$ 
 
 Trong (III, p. 570), chúng tôi đã định nghĩa môđun $\Omega_M(K)$ các $M$-vi phân của $K$ và đạo hàm $M$ chính tắc $d = d_{K/M}$ từ $K$ vào $\Omega_M(K)$. Ảnh của $d_{K/M}$ sinh ra không gian vectơ trên $K$ $\Omega_M(K)$. Để một ánh xạ $D$ từ $K$ vào $V$ là một $M$-đạo hàm, điều kiện cần và đủ là tồn tại một ánh xạ tuyến tính $K$ $u : \Omega_M(K) \to V$ sao cho $D = u \circ d_{K/M}$; ánh xạ này $u$ được xác định duy nhất.
 
-#### Mệnh đề 5 {#alg-v-s13-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s13-prop-5 .statement tag=06R5}
 
 *Cho $K$ là một trường và $L$ là một mở rộng của $K$ sinh bởi một phần tử $x$ sao cho $x \notin K,\ x^p \in K$. Gọi $V$ là một không gian vectơ trên $L$ và $A$ là một đạo hàm của $K$ vào $V$ sao cho $\Delta(x^p) = 0$. Khi đó tồn tại một đạo hàm duy nhất $D$ của $L$ vào $V$ mở rộng $A$ và sao cho $D(x) = 0$. \*
 
@@ -144,7 +144,7 @@ D(uv) &= x^{i+j}\Delta(ab) = x^i x^j (a \cdot A(b) + b \cdot \Delta(a)) \\
 \end{align*}
 $$
 
-#### Hệ quả 1 {#alg-v-s13-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s13-prop-5-cor-1 .statement tag=06R6}
 
 *Cho $K$ là một trường, $L$ là một mở rộng căn bậc $p$ có chiều cao $\leq 1$ của $K$ và $V$ là một không gian vectơ trên $L$. Mọi đạo hàm $A$ của $K$ vào $V$ triệt tiêu trên $L^p$ đều mở rộng được thành một đạo hàm của $L$ vào $V$.
 
@@ -152,7 +152,7 @@ Theo bổ đề Zorn (E, III, p. 20) tồn tại một mở rộng cực đại 
 
 D_0 mở rộng thành một đạo hàm xác định trên L_0(x); bởi tính chất cực đại của D_0 suy ra L_0(x) = L, do đó x ∈ L_0. Vì x là tùy ý, ta kết luận rằng L_0 = L.
 
-#### Hệ quả 2 {#alg-v-s13-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s13-prop-5-cor-2 .statement tag=06R7}
 
 —Cho L là một mở rộng p-căn có chiều cao ≤ l của một trường K và E là một mở rộng con của L. Gọi U là không gian con của Ω_K(L) được sinh bởi các vi phân của các phần tử của E. Khi đó E gồm các phần tử của L mà vi phân của chúng thuộc U. Đặc biệt ta có d_{L/K}x ≠ 0 với mọi x ∈ L − K.
 
@@ -160,7 +160,7 @@ Cho x là một phần tử của L không thuộc E. Khi đó {1, x, ..., x^{p^
 
 Khẳng định cuối cùng là trường hợp riêng E = K; khi đó ta có U = 0.
 
-#### Định lý 1 {#alg-v-s13-thm-1 .statement}
+#### Định lý 1 {#alg-v-s13-thm-1 .statement tag=06R8}
 
 —Cho L là một mở rộng p-căn có chiều cao ≤ l của một trường K và (a_i)_{i ∈ I}, một họ các phần tử của L.
 
@@ -174,7 +174,7 @@ Trước hết, hãy nhận xét rằng vi phân dx của một phần tử củ
 
 Hệ quả sau đây làm cho Hệ quả 1 của Mệnh đề 5 cụ thể hơn:
 
-#### Hệ quả {#alg-v-s13-n2-cor-1 .statement}
+#### Hệ quả {#alg-v-s13-n2-cor-1 .statement tag=06R9}
 
 —Cho (x_i)_{i ∈ I} là một p-cơ sở của L trên K. Cho V là một không gian vectơ trên L, A một đạo hàm của K vào V triệt tiêu trên L^p và (u_i)_{i ∈ I} là một họ các phần tử của V. Khi đó tồn tại duy nhất một đạo hàm D của L vào V mở rộng A và ánh xạ x_i thành u_i với mọi i ∈ I.
 
@@ -184,7 +184,7 @@ Cho L là một mở rộng căn p có chiều cao $\leq 1$ của K và $(x_i)_{
 
 Định lý 1 cho phép quy việc nghiên cứu các cơ sở p về việc nghiên cứu các cơ sở của một không gian vectơ. Ví dụ ta có kết quả sau đây:
 
-#### Định lý 2 {#alg-v-s13-thm-2 .statement}
+#### Định lý 2 {#alg-v-s13-thm-2 .statement tag=06RA}
 
 — *Cho L là một mở rộng căn p có chiều cao $\leq 1$ của một trường K.*
   *a)* *Tồn tại các cơ sở p của L trên K. Chính xác hơn, nếu S là một tập con p-tự do của L trên K và T là một tập con của L sao cho $S \subset T$ và $L = K(T)$, thì tồn tại một cơ sở p B của L trên K sao cho $S \subset B \subset T$.*
@@ -197,7 +197,7 @@ $$
 
 Các khẳng định *a)* và *b)* là ngay lập tức (II, p. 292). Nếu $[L : K]$ hữu hạn, theo *a)* tồn tại một p-cơ sở hữu hạn $(x_1, ..., x_n)$ của $L$ trên $K$; khi đó các đơn thức $x_1^{\alpha_1} ... x_n^{\alpha_n}$ với $0 \leq \alpha_i < p$ đối với $1 \leq i \leq n$ tạo thành một cơ sở của $L$ trên $K$ và các vi phân $dx_1, ..., dx_n$ tạo thành một cơ sở của $\Omega_K(L)$ trên $L$. Do đó ta có $[L : K] = p^n$ và $[\Omega_K(L) : L] = n$. Ngược lại, nếu $\Omega_K(L)$ có số chiều hữu hạn trên $L$, thì tồn tại một p-cơ sở hữu hạn của L trên K (V, p. 102, Đl. 1) và $[L : K]$ là hữu hạn.
 
-#### Hệ quả {#alg-v-s13-n2-cor-2 .statement}
+#### Hệ quả {#alg-v-s13-n2-cor-2 .statement tag=06RB}
 
 — *Với mỗi $x \in L - K$, tồn tại một cơ sở p của L trên K chứa X.*
 
@@ -205,7 +205,7 @@ Vì $\{x\}$ là một tập con p-tự do của $L$ trên $K$ nên chỉ cần �
 
 Cho K là một trường và $L$ là một mở rộng của K. Nếu $D$ là một K-đạo hàm của L nhận giá trị trong một không gian vectơ L, thì ta có $D(x^p) = 0$ với mọi $x \in L$, và do đó $D$ là một $K(L^p)$-đạo hàm; suy ra $\Omega_K(L) = \Omega_{K(L^p)}(L)$. Vì $L$ là một mở rộng p-căn có chiều cao $\leq 1$ của $K(L^p)$, ta có thể áp dụng các kết quả ở trên. Chẳng hạn, từ Định lý 1, *c)* ta suy ra điều sau: cho $(x_i)_{i \in I}$ là một họ các phần tử của $L$; để $(dx_i)_{i \in I}$ là một cơ sở của không gian vectơ L $\Omega_K(L)$ thì điều kiện cần và đủ là $(x_i)_{i \in I}$ là một p-cơ sở của L trên $K(L^p)$. Tương tự, Hệ quả 2 của Mệnh đề 5 cho ta:
 
-#### Mệnh đề 6 {#alg-v-s13-prop-6 .statement}
+#### Mệnh đề 6 {#alg-v-s13-prop-6 .statement tag=06RC}
 
 — *Cho K là một trường (có đặc số p) và L là một mở rộng của K.*
   *a)* *Cho $x \in L$; vi phân $d_{L/K}x$ triệt tiêu khi và chỉ khi x thuộc $K(L^p)$.*
@@ -230,13 +230,13 @@ $$[aD, a'D'] = aa' \cdot [D, D'] + (aD(a')) \cdot D' - (a'D'(a)) \cdot D.$$
 
 Ta ký hiệu bởi $\mathscr{C}$ tập hợp các trường con $K$ của $E$ sao cho $E^p \subset K$ và $[E : K]$ là hữu hạn; với mỗi $K \in \mathscr{C}$ ta ký hiệu bởi $g(K)$ tập hợp các K-đạo hàm của E. Hơn nữa, ta ký hiệu bởi $\mathscr{L}$ tập hợp các không gian con vectơ $l$ của $g$ có số chiều hữu hạn trên E và sao cho $[D, D'] \in h$ và $D^p \in h$ với mọi $D, D'$ trong $h$; với mỗi $h \in \mathscr{L}$ ta ký hiệu bởi $I(h)$ tập hợp các $x \in E$ sao cho $D(x) = 0$ với mọi $D \in h$.
 
-#### Định lý 3 (Jacobson) {#alg-v-s13-thm-3 .statement}
+#### Định lý 3 (Jacobson) {#alg-v-s13-thm-3 .statement tag=06RD}
 
 — *Các ánh xạ $K \mapsto g(K)$ và $l \mapsto I(h)$ lần lượt là các song ánh của $\mathscr{C}$ lên $\mathscr{L}$ và của $\mathscr{L}$ lên $\mathscr{C}$, nghịch đảo của nhau. Nếu $K \in \mathscr{C}$ và $h \in \mathscr{L}$ tương ứng với nhau, thì $[E : K] = p^{[h : E]}$*.
 
 Chứng minh cần đến một số bổ đề sơ bộ.
 
-#### Bổ đề 1 {#alg-v-s13-lem-1 .statement}
+#### Bổ đề 1 {#alg-v-s13-lem-1 .statement tag=06RE}
 
 — *Cho L là một trường, V là một không gian vectơ trên L và u là một tự đồng cấu của V sao cho $u^p = u$. Với mỗi $i \in \mathbf{F}_p$, gọi $V_i$ là hạt nhân của $u - i$. Khi đó ta có*
 
@@ -252,7 +252,7 @@ $$\sum_{i \in \mathbf{F}_p} P_i(X) = 1$$
 
 Các công thức (8) và (9) cho thấy rằng tự đồng cấu $P_i(u)$ của $V$ ánh xạ $V$ vào $V_i$ và rằng $\sum_{i \in \mathbf{F}_p} P_i(u) = 1$, do đó $V = \sum_{i \in \mathbf{F}_p} V_i$. Còn phải chỉ ra rằng tổng này là trực tiếp. Với mỗi $i \in \mathbf{F}_p$ lấy $v_i \in V_i$; hiển nhiên là $P_i(u)$ triệt tiêu $v_j$ với mọi $j \neq i$ và ta có $P(u)v_i = av_i$ với $a = -\prod_{n \in \mathbf{F}_p^*} n \neq 0$. Quan hệ $\sum_{i \in \mathbf{F}_p} v_i = 0$ vì thế suy ra $v_i = 0$ với mọi $i \in \mathbf{F}_p$, và do đó tổng là trực tiếp.
 
-#### Bổ đề 2 {#alg-v-s13-lem-2 .statement}
+#### Bổ đề 2 {#alg-v-s13-lem-2 .statement tag=06RF}
 
 *Cho D là một đạo hàm của E sao cho $D^p = D$ và gọi K là hạt nhân của D. Giả sử rằng tồn tại một phần tử x khác không trong E sao cho $D(x) = x$. Khi đó K là một trường con của E chứa $E^p$ và ta có $[E : K] = p$.*
 
@@ -262,7 +262,7 @@ D(xu) = D(x) \cdot u + x \cdot D(u) = xu + x(iu) = (i + 1)xu
 $$
 do đó $xu \in K_{i+1}$. Vì x khác không, phép nhân với x là một tự đẳng cấu của không gian vectơ K E, ánh xạ $K_i$ lên $K_{i+1}$ với mọi $i \in \mathbf{F}_p$. Vì $[K_0 : K] = 1$, ta có $[K_i : K] = 1$ với mọi $i \in \mathbf{F}_p$ do đó $[E : K] = p$.
 
-#### Bổ đề 3 {#alg-v-s13-lem-3 .statement}
+#### Bổ đề 3 {#alg-v-s13-lem-3 .statement tag=06RG}
 
 *Cho $\mathfrak{h} \in \mathscr{L}$ có chiều s trên E. Khi đó $I(\mathfrak{h})$ thuộc $\mathscr{C}$ và ta có $[E : I(\mathfrak{h})] = p^s$.*
 
@@ -282,7 +282,7 @@ Bây giờ ta đi đến chứng minh định lý. Cho I) $\in \mathscr{L}$ có 
 
 Ngược lại, với mọi trường $K \in \mathscr{C}$ thì hiển nhiên $g(K)$ thuộc $\mathscr{L}$ (V, p. 103, Th. 2, c)). *Nếu* $x$ thuộc $I(g(K))$, thì ta có $u(d_{E/K}x) = 0$ với mọi dạng tuyến tính $u$ trên $\Omega_K(E)$, do đó $d_{E/K}x = 0$ và sau cùng $x \in K$ theo Hệ quả 2 của Mệnh đề 5 (V, p. 102). Vậy ta có $K = I(g(K))$.
 
-#### Nhận xét {#alg-v-s13-n3-rem-1 .statement}
+#### Nhận xét {#alg-v-s13-n3-rem-1 .statement tag=06RH}
 
 — 1) Các song ánh nghịch đảo lẫn nhau $K \mapsto g(K)$ và $\mathfrak{h} \mapsto I(\mathfrak{h})$ làm đảo quan hệ bao hàm; do đó $\mathfrak{h} \mapsto I(\mathfrak{h})$ là một đẳng cấu từ tập hợp có thứ tự $\mathscr{L}$ lên tập hợp có thứ tự đối của $\mathscr{C}$. Vì thế ta thu được quan hệ $I(\mathfrak{h} \cap \mathfrak{h}') = E^p(I(\mathfrak{h}), I(\mathfrak{h}'))$ với $\mathfrak{h}, \mathfrak{h}'$ trong $\mathscr{L}$, bởi vì $\mathfrak{h} \cap \mathfrak{h}'$ là phần tử lớn nhất của $\mathscr{L}$ được chứa đồng thời trong $\mathfrak{h}$ và trong $\mathfrak{h}'$.
 

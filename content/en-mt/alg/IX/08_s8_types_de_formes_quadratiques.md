@@ -24,7 +24,7 @@ subsections:
       pdf_page: 135
 statements: 10
 exercises: 0
-content_sha256: f067c1238b9cc441ac7bfe7d83ef1f7265ed1316dcaf72ad1ad6dd2b74d906f0
+content_sha256: 27c7cb8ba163104a5aa28a84eaf65ed4155bad0edb33f365d2132c11e4aeea47
 translated_from: content/fr/alg/IX/08_s8_types_de_formes_quadratiques.md
 source_lang: fr
 translation_method: machine
@@ -62,13 +62,13 @@ $$
 $$
 and we shall say that $\theta(Q)$ is the type of Q. If Q and Q' are two quadratic forms over A, non-degenerate and of finite dimensions, the relations Q ~ Q' and $\theta(Q) = \theta(Q')$ are equivalent.
 
-#### Proposition 1 {#alg-ix-s8-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s8-prop-1 .statement tag=0DN1}
 
 Let Q and Q' be two quadratic forms over A, non-degenerate and of finite dimensions. In order that Q and Q' be equivalent, it is necessary and sufficient that they have the same dimension and the same type.
 
 The condition is obviously necessary. Suppose that it is satisfied. There then exist neutral forms N, N' such that Q ⊕ N and Q' ⊕ N' are equivalent. Since these two forms have the same dimension, the same is true of N and N', which are consequently equivalent (§ 4, no 2, cor. 2 of prop. 2). Hence Q and Q' are equivalent by virtue of Witt's theorem (§ 4, no 3, cor. 1 of th. 1).
 
-#### Proposition 2 {#alg-ix-s8-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s8-prop-2 .statement tag=0DN2}
 
 The relation « there exists a quadratic form Q over A, non-degenerate and of finite dimension, such that X = θ(Q) » is collectivizing in X (Ens., chap. II, § 1, n° 4).
 
@@ -92,7 +92,7 @@ $$
 $$
 whence $(T + T') + T'' = T + (T' + T'')$ since two elements of $\mathfrak{W}$ which have the same type are equal. Moreover the addition which we have just defined possesses an identity element: it is clear indeed that all neutral forms have the same type $T_0$, namely that of the zero form of zero dimension; we see at once that $T_0$ is the identity element sought. Finally the existence, for every $T \in \mathfrak{W}$, of an element opposite to T follows at once from the following proposition:
 
-#### Proposition 3 {#alg-ix-s8-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s8-prop-3 .statement tag=0DN3}
 
 Let Q be a non-degenerate quadratic form of finite dimension on a vector space V over A. Let – Q denote the quadratic form on V defined by $(-Q)(x) = -Q(x)$ ($x \in V$). Then the form $Q \tau (-Q)$ is neutral.
 
@@ -100,11 +100,13 @@ Indeed the restriction of $Q \tau (-Q)$ to the diagonal D of $V \times V$ is zer
 
 This permits us to give the following definition:
 
-#### Definition 1 {#alg-ix-s8-def-1 .statement}
+#### Definition 1 {#alg-ix-s8-def-1 .statement tag=0DN4}
 
 *The set of types of non-degenerate quadratic forms of finite dimensions over $A$, endowed with the addition defined by (2), is called the group of types of quadratic forms, or Witt group, of $A$.*
 
-*Remarks. —* 1) Every non-degenerate quadratic form $Q$ of finite dimension whose type is zero (i.e. such that $\theta(Q) = T_0$ with the above notation) is a neutral form. There indeed exist neutral forms $N, N'$ such that $Q \tau N$ is equivalent to $N'$. This shows that $Q$ is of even dimension, and hence that there exists a neutral form $N_1$ having the same dimension as $Q$. Since $Q$ and $N_1$ have the same type, it follows from prop. 1 that they are equivalent, and hence that $Q$ is neutral.
+#### Remarks {#alg-ix-s8-n2-rem-1 .statement tag=0EEP}
+
+1) Every non-degenerate quadratic form $Q$ of finite dimension whose type is zero (i.e. such that $\theta(Q) = T_0$ with the above notation) is a neutral form. There indeed exist neutral forms $N, N'$ such that $Q \tau N$ is equivalent to $N'$. This shows that $Q$ is of even dimension, and hence that there exists a neutral form $N_1$ having the same dimension as $Q$. Since $Q$ and $N_1$ have the same type, it follows from prop. 1 that they are equivalent, and hence that $Q$ is neutral.
 
 2) For every finite-dimensional quadratic form $Q$ over $A$, let $\delta(Q)$ denote the class modulo 2 of the dimension of $Q$. We have
 $$
@@ -126,20 +128,20 @@ $$
 
 On the other hand, if $a, b$ and $a + b$ are in $A^*$, one does not in general have $(a + b).T = a.T + b.T$ ($T \in \mathfrak{W}$).
 
-#### Proposition 4 {#alg-ix-s8-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s8-prop-4 .statement tag=0DN5}
 
 *Let Q be a non-degenerate quadratic form on a finite-dimensional vector space E over A. Suppose that A is of characteristic $\neq 2$, and let $(x_1, \ldots, x_n)$ be an orthogonal basis of V. Let $T_1$ be the type of the quadratic form $Q_1$ defined on the vector space A and such that $Q_1(1) = 1$. The type of Q is then $\sum_{i=1}^n Q(x_i) \cdot T_1$.
 
 Indeed the form Q is equivalent to
 $$(Q(x_1)Q_1) \tau \ldots \tau (Q(x_n)Q_1)$$
 
-#### Corollary {#alg-ix-s8-n2-cor-1 .statement}
+#### Corollary {#alg-ix-s8-n2-cor-1 .statement tag=0DN6}
 
 *The hypotheses and notation being those of prop. 3, the elements $a.T_1$ ($a \in A^*$) form a set of generators of the group of types of quadratic forms over A.*
 
 To seek the structure of the group of types of quadratic forms over A is therefore to seek the $\mathbf{Z}$-linear relations which exist between the elements of the form $a.T_1$. If $b \in A^*$, the form $Q_1$ defined in prop. 4 is manifestly equivalent to $b^2Q_1$; hence $a.T_1 = ab^2.T_1$, which shows that $a.T_1$ depends only on the class of $a$ modulo the subgroup $(A^*)^2$ of squares of elements of $A^*$. Moreover, it follows from prop. 3 that we have $(-a).T_1 = -a.T_1$. However, in general there are other $\mathbf{Z}$-linear relations between the $a.T_1$ than those which follow from the relations we have just indicated.
 
-#### Proposition 5 {#alg-ix-s8-prop-5 .statement}
+#### Proposition 5 {#alg-ix-s8-prop-5 .statement tag=0DN7}
 
 *We suppose that A is a maximal ordered field. Let Q be a non-degenerate quadratic form of finite dimension over A, and $(s, t)$ its signature ($§ 7$, no 2, def. 2). Then the type of Q is $(s - t).T_1$, and the group $\mathfrak{W}$ of types of quadratic forms over A is an infinite monogenic group generated by $T_1$.
 
@@ -177,7 +179,7 @@ $$
 
 It follows at once from what we have just seen that this law of composition is commutative, associative and distributive with respect to addition. It has a unit element, namely the type $T_1$ of the quadratic form $Q_1$ defined on the vector space $A$ and such that $Q_1(1) = 1$: indeed, according to (5), $Q_1 \otimes Q = Q$ for every quadratic form $Q$. The additive group $\mathfrak{B}$, endowed with the multiplication which we have just defined, is therefore a commutative ring with unit element; it is called the *ring of types of quadratic forms* of $A$ (or the *Witt ring* of $A$, when there is no danger of confusion).
 
-#### Remark 1 {#alg-ix-s8-n3-rem-1 .statement}
+#### Remark 1 {#alg-ix-s8-n3-rem-1 .statement tag=0DN8}
 
 It is clear that, if $a$ is an element of $A^*$, one has
 
@@ -188,7 +190,7 @@ $$
 
 whatever the elements $T, T'$ of $\mathfrak{B}$ may be. It will moreover be observed that one has $a . T = T_a T$, denoting by $T_a$ the type of the quadratic form $aQ_1$ over $A$.
 
-#### Remark 2 {#alg-ix-s8-n3-rem-2 .statement}
+#### Remark 2 {#alg-ix-s8-n3-rem-2 .statement tag=0DN9}
 
 Since $A$ is of characteristic $\neq 2$, every element $T$ of $\mathfrak{B}$ can be written in the form $\sum_{i=1}^n a_i . T_1$ where $a_i \in A^*$ (No. 2, prop. 4). One has
 
@@ -197,6 +199,6 @@ $$
 (\sum_{i=1}^n a_i . T_1)(\sum_{j=1}^q b_j . T_1) = \sum_{i,j} a_i b_j . T_1 \qquad (a_i, b_j \text{ dans } A^*).
 $$
 
-#### Remark 3 {#alg-ix-s8-n3-rem-3 .statement}
+#### Remark 3 {#alg-ix-s8-n3-rem-3 .statement tag=0DNA}
 
 Suppose that $A$ is a *maximal ordered field*. Then the ring $\mathfrak{B}$ is isomorphic to $\mathbf{Z}$ (prop. 5), the integer corresponding to the type of a form of signature $(s,\ t)$ being $s - t$ (*ibid.*). Since the tensor product of two forms $Q$, $Q'$ of signatures $(s,\ t)$, $(s',\ t')$ is a form of dimension $(s + t)\,(s' + t')$, it follows, by means of an elementary calculus, that the signature of $Q \otimes Q'$ is $(ss' + tt',\ st' + ts')$.

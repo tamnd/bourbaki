@@ -33,11 +33,11 @@ subsections:
       pdf_page: 52
 statements: 34
 exercises: 12
-content_sha256: ae265f1a7682a184312fd25a18260a14a79b7cfae6b49715feaf4e96f8913054
+content_sha256: 1b8f33931882372067a7b7242ed180cfa33240d9439d508094bdfa0b648481da
 translated_from: content/fr/ac/VIII/04_s4_series_de_hilbert_samuel.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 8a3e20284919ae10cbe7a7b0edf8a7928dc3eb483565302464487f21ad0e6563
+source_content_sha256: 2c8874c26fbf201c0618a7d7d9032b879cbd530bc1c087c29fa6d04fb0dc207a
 translation_model: gpt-5.4
 translation_run: translate-en-mt-99f56812
 glossary_version: 34
@@ -57,7 +57,7 @@ $$
 
 In the sequel of this chapter, the A-algebra $B$ will be denoted by $A((T))$; it contains as subalgebras the algebra $A[[T]]$ of formal series and the algebra $A[T, T^{-1}]$; their intersection is the algebra $A[T]$ of polynomials.
 
-#### Remark {#ac-viii-s4-n1-rem-1 .statement}
+#### Remark {#ac-viii-s4-n1-rem-1 .statement tag=0CO0}
 
 The ring $A((T))$ is naturally identified with the ring of fractions $A[[T]]_T$ of the ring $A[[T]]$ defined by the multiplicative subset formed by the powers of $T$.
 
@@ -72,7 +72,7 @@ $$
 
 One has $\left[ \begin{array}{c} n \\ p \end{array} \right] = \left[ \begin{array}{c} n \\ n-p \end{array} \right]$ for $n, p \in \mathbf{Z}$.
 
-#### Lemma 1 {#ac-viii-s4-lem-1 .statement}
+#### Lemma 1 {#ac-viii-s4-lem-1 .statement tag=0CO1}
 
 *The element $1 - T$ of $\mathbf{Z}((T))$ is invertible. For every integer $r > 0$ one has*
 
@@ -120,7 +120,7 @@ $$
 
 If $F = \sum_{n \in \mathbf{Z}} a_n T^n$ and $G = \sum_{n \in \mathbf{Z}} b_n T^n$ are two elements of $\mathbf{Z}((T))$, one denotes by “ $F \leq G$ ” the relation “ $a_n \leq b_n$ for all $n \in \mathbf{Z}$ ”. This is an order relation compatible with the ring structure of $\mathbf{Z}((T))$ (A, VI, p. 18, Def. 1). One has $(1-T)^{-1} \geq 1$. If $Q \in \mathbf{Z}[T, T^{-1}]$ is $\geq 0$, then the integer $Q(1)$ is positive.
 
-#### Lemma 2 {#ac-viii-s4-lem-2 .statement}
+#### Lemma 2 {#ac-viii-s4-lem-2 .statement tag=0CO2}
 
 **a)** Let $F$ be a nonzero element of $\mathbf{Z}((T))$ such that there exists $r \in \mathbf{Z}$, with $(1-T)^r F \in \mathbf{Z}[T, T^{-1}]$; then $F$ can be written uniquely in the form $F = (1-T)^{-d}.Q$, where $Q \in \mathbf{Z}[T, T^{-1}]$, $Q(1) \neq 0$ and $d \in \mathbf{Z}$. If $F \geq 0$, then one has $Q(1) > 0$ and $d \geq 0$.
 
@@ -142,7 +142,7 @@ Let $H_0$ be a ring, $I$ a finite set and $H$ the polynomial ring $H_0[(X_i)_{i 
 
 Let $M$ be a graded $H$-module of *finitely generated* type whose homogeneous components are all $H_0$-modules of finite length; the *Poincaré series* of $M$ is by definition the element $P_M$ of $\mathbf{Z}((T))$ such that $P_M = \sum_{n \in \mathbf{Z}} \operatorname{long}_{H_0}(M_n) \cdot T^n$, and one puts $Q_M = P_M \cdot \prod_{i \in I} (1 - T^{d_i})$.
 
-#### Theorem 1 {#ac-viii-s4-thm-1 .statement}
+#### Theorem 1 {#ac-viii-s4-thm-1 .statement tag=0CO3}
 
 *The element $Q_M$ of $\mathbf{Z}((T))$ belongs to $\mathbf{Z}[T, T^{-1}]$*.
 
@@ -172,7 +172,7 @@ $$
 
 whence the conclusion.
 
-#### Example 1 {#ac-viii-s4-n2-exa-1 .statement}
+#### Example 1 {#ac-viii-s4-n2-exa-1 .statement tag=0CO4}
 
 Suppose $H_0$ artinian and take $M = H$. Then, with the preceding notations, we have $R = 0$ and $S = H'$, hence by (5), $Q_H = Q_{H'}$; since we have $Q_{H_0} = \operatorname{long}(H_0)$, we infer by induction that $Q_H = \operatorname{long}(H_0)$, that is,
 
@@ -182,7 +182,7 @@ $$
 
 Now suppose H endowed with the usual grading, for which $d_i = 1$ for all $i \in I$, and put $r = \mathrm{Card}(I)$; we have $P_M = Q_M(T).(1 - T)^{-r}$. Put $c_M = Q_M(1)$. Then, by formula (2) of No. 1, we have:
 
-#### Corollary {#ac-viii-s4-n2-cor-1 .statement}
+#### Corollary {#ac-viii-s4-n2-cor-1 .statement tag=0CO5}
 
 a) If $r = 0$, then we have $\mathrm{long}_{H_0}(M) = c_M$.
 
@@ -190,11 +190,11 @@ b) If $r = 1$, then we have $\mathrm{long}_{H_0}(M_n) = c_M$ for $n$ sufficientl
 
 c) If $r > 1$, then we have $\mathrm{long}_{H_0}(M_n) = c_M \frac{n^{r-1}}{(r-1)!} + \rho_n n^{r-2}$, where $\rho_n$ tends to a limit in $\mathbf{R}$ when $n$ increases indefinitely.
 
-#### Remark 1 {#ac-viii-s4-n2-rem-1 .statement}
+#### Remark 1 {#ac-viii-s4-n2-rem-1 .statement tag=0CO6}
 
 The integer $c_M$ is positive by lemma 2. One may have $M \neq 0$ and $c_M = 0$ (cf. prop. 2).
 
-#### Remark 2 {#ac-viii-s4-n2-rem-2 .statement}
+#### Remark 2 {#ac-viii-s4-n2-rem-2 .statement tag=0CO7}
 
 Let $0 \to M' \to M \to M'' \to 0$ be an exact sequence of graded H-modules and homomorphisms of degree 0 such that M is of finite type over H and $M_n$ of finite length over $H_0$ for each $n$. Then, for each $n \in \mathbf{Z}$, we have
 $$
@@ -202,11 +202,11 @@ $$
 $$
 hence $P_M = P_{M'} + P_{M''}$, $Q_M = Q_{M'} + Q_{M''}$ and $c_M = c_{M'} + c_{M''}$.
 
-#### Remark 3 {#ac-viii-s4-n2-rem-3 .statement}
+#### Remark 3 {#ac-viii-s4-n2-rem-3 .statement tag=0CO8}
 
 Let $M(p)$ be the module deduced from M by shifting the grading by $p$ (A, II, p. 165, example 3). Since we have $M(p)_n = M_{p+n}$, we have $P_{M(p)} = T^{-p}P_M$, $Q_{M(p)} = T^{-p}Q_M$ and $c_{M(p)} = c_M$.
 
-#### Example 2 {#ac-viii-s4-n2-exa-2 .statement}
+#### Example 2 {#ac-viii-s4-n2-exa-2 .statement tag=0CO9}
 
 Suppose $H_0$ artinian, and let M be a free graded H-module generated by s homogeneous, linearly independent elements, of respective degrees $\delta_1, ..., \delta_s$. Then M is isomorphic to $H(-\delta_1) \oplus \cdots \oplus H(-\delta_s)$. By remarks 2 and 3 and example 1, we therefore have
 $$
@@ -219,7 +219,7 @@ $$
 c_M = s.\mathrm{long}(H_0).
 $$
 
-#### Example 3 {#ac-viii-s4-n2-exa-3 .statement}
+#### Example 3 {#ac-viii-s4-n2-exa-3 .statement tag=0COA}
 
 Suppose again $H_0$ artinian; let M be a graded H-module, and suppose that there exists an exact sequence of graded H-modules and homomorphisms of degree 0
 $$
@@ -233,7 +233,7 @@ $$
 c_M = \mathrm{long}(H_0).\sum_{0 \leq k \leq n} (-1)^k m(k).
 $$
 
-#### Remark 4 {#ac-viii-s4-n2-rem-4 .statement}
+#### Remark 4 {#ac-viii-s4-n2-rem-4 .statement tag=0COB}
 
 One can prove (p. 88, exerc. 4) that under the hypotheses of th. 1, the $H_0$-modules $\mathrm{Tor}_j^H(H_0, M)$ are of finite length, are zero for $j > r$, and that one has
 $$
@@ -244,7 +244,7 @@ $$
 Q_M = \sum_{j=0}^r (-1)^j P_{T_j}.
 $$
 
-#### Proposition 1 {#ac-viii-s4-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s4-prop-1 .statement tag=0COC}
 
 Let $M$ be a graded $H$-module. Suppose that $M$ is generated by $M_0$ and that $M_0$ is an $H_0$-module of finite length. Then one has
 $$
@@ -270,11 +270,11 @@ $$
 The conditions (i), (ii) and (iii) are respectively equivalent to $c_R = 0$, $P_R = 0$ and $R = 0$.
 Hence one has (iii) $\Rightarrow$ (ii) $\Rightarrow$ (i), and it is enough to prove that $c_R = 0$ implies $R = 0$. Suppose $R \neq 0$ and let $0 = N^h \subset N^{h-1} \subset ... \subset N^0 = M_0$ be a Jordan-Hölder sequence of the $H_0$-module $M_0$. Let $R^m$ be the intersection of $R$ and of the image of $H \otimes_{H_0} N^m$ in $H \otimes_{H_0} M_0$; there exists an integer $m$ between 1 and $h$ such that $R^m \neq R^{m-1}$. Put $L = R^{m-1}/R^m$; one has $0 \leq c_L \leq c_R$ and it is enough to prove that $c_L \neq 0$. Now, if $k$ is the quotient field of $H_0$ by the maximal annihilator ideal of $N^{m-1}/N^m$, $L$ is identified with a nonzero graded submodule of $k[(X_i)_{i \in I}]$. Hence $L$ contains a submodule isomorphic to a shifted module of $k[(X_i)_{i \in I}]$; since $c_{k[(X_i)_{i \in I}]} = 1$, one therefore has $c_L \geq 1$ (Remarks 2 and 3), which was to be proved.
 
-#### Remark 5 {#ac-viii-s4-n2-rem-5 .statement}
+#### Remark 5 {#ac-viii-s4-n2-rem-5 .statement tag=0COD}
 
 According to A, X, p. 160, th. 1, condition (iii) means that $(X_1, ..., X_r)$ is a completely secant sequence for the $H$-module $M$.
 
-#### Proposition 2 {#ac-viii-s4-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s4-prop-2 .statement tag=0COE}
 
 Suppose that $H_0$ is a field, and let $M$ be a finitely generated graded $H$-module. Let $K$ be the field of fractions of $H$. Then $c_M$ is equal to the rank of the $H$-module $M$, that is to say to the dimension of the vector space $M \otimes_H K$ over $K$.
 
@@ -284,7 +284,7 @@ $$
 $$
 and remarks 2 and 3, one deduces that $c_{H/xH} = 0$. The proposition is therefore verified when $M$ is generated by a homogeneous element. The general case follows from this, since every finitely generated graded $H$-module has a composition series whose quotients are of the preceding form.
 
-#### Remark 6 {#ac-viii-s4-n2-rem-6 .statement}
+#### Remark 6 {#ac-viii-s4-n2-rem-6 .statement tag=0COF}
 
 Under the hypotheses of Prop. 2, one therefore has $c_M = 0$ if and only if $M$ is a torsion $H$-module, or again if and only if $\dim_H(M) < r$ (§ 1, No. 5, example 4).
 
@@ -306,12 +306,12 @@ q^{n-n_1}M \subset F_n \subset q^{n-n_0}M
 $$
 (recall that we have set $q^r = A$ for $r \leq 0$, by convention).
 
-#### Lemma 3 {#ac-viii-s4-lem-3 .statement}
+#### Lemma 3 {#ac-viii-s4-lem-3 .statement tag=0COG}
 
 If $F$ and $F'$ are two $q$-good filtrations on $M$, there exists an integer $m$ such that $F'_n \subset F_{n-m}$ for every $n \in \mathbf{Z}$.
 In fact, there exists $n_2$ such that $F'_n \subset q^{n-n_2}M$ for every $n$, hence $F'_n \subset F_{n-(n_2-n_1)}$ for every $n$.
 
-#### Lemma 4 {#ac-viii-s4-lem-4 .statement}
+#### Lemma 4 {#ac-viii-s4-lem-4 .statement tag=0COH}
 
 Let $F$ be a $q$-good filtration on $M$. If $M/qM$ is of finite length, $M/F_{n+1}$ and $F_n/F_{n+1}$ are of finite length for every $n \in \mathbf{Z}$.
 With the notation of (7), we have $\operatorname{long}(M/F_{n+1}) \leq \operatorname{long}(M/q^{n-n_1+1}M)$ and it is enough to prove that $q^nM/q^{n+1}M$ is of finite length for every $n$. We are thus reduced to the case of the $q$-adic filtration. Let $(x_1, ..., x_r)$ be a finite generating system of the $A$-module $q$, and let $I$ be the finite set of monomials of total degree $n$ in $r$ variables
@@ -325,7 +325,7 @@ $$
 H_{M,F} = \sum_{n \in \mathbf{Z}} \operatorname{long}_{A/q}(F_n/F_{n+1}). T^n \in \mathbf{Z}((T)).
 $$
 
-#### Definition 1 {#ac-viii-s4-def-1 .statement}
+#### Definition 1 {#ac-viii-s4-def-1 .statement tag=0COI}
 
 The series $H_{M,F}$ is called the Hilbert-Samuel series of the A-module M (relative to the q-good filtration F).
 
@@ -338,7 +338,7 @@ $$
 H_{M,q} = \sum_{n \in \mathbf{Z}} \operatorname{long}_{A/q}(q^nM/q^{n+1}M). T^n .
 $$
 
-#### Proposition 3 {#ac-viii-s4-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s4-prop-3 .statement tag=0COJ}
 
 a) If F is a q-good filtration on M, we have
 
@@ -351,7 +351,7 @@ b) If F and F’ are two q-good filtrations on M, there exists an integer m such
 
 Part a) results immediately from the definition of $H_{M,F}^{(1)}$; part b) results from a) and Lemma 3.
 
-#### Theorem 2 {#ac-viii-s4-thm-2 .statement}
+#### Theorem 2 {#ac-viii-s4-thm-2 .statement tag=0COK}
 
 Let A be a noetherian ring, q an ideal of A, M a finitely generated A-module such that M/qM is nonzero and of finite length, and F a q-good filtration on M.
 
@@ -373,7 +373,7 @@ By Proposition 3, b), there exists an integer $m$ such that $(1 - T)^{-d' - 1} R
 By Lemma 2, b) of No. 1, this implies $d' \geq d$ and, if $d' = d$, $R'(1) \geq R(1)$.
 Exchanging the roles of $F$ and $F'$, one obtains $d = d'$ and $R(1) = R'(1)$.
 
-#### Remark 1 {#ac-viii-s4-n3-rem-1 .statement}
+#### Remark 1 {#ac-viii-s4-n3-rem-1 .statement tag=0COL}
 
 With the notation of a), let us write $R = \sum_{i \in \mathbf{Z}} a_i T^i$, and suppose $d > 0$.
 By No. 1, the relation $H_{M,F} = (1 - T)^{-d} R$ may also be written
@@ -391,7 +391,7 @@ H_{M,F} = (1 - T)^{-d_q(M)} R , \quad R(1) = e_q(M) .
 $$
 If $M = qM$, one puts by convention $d_q(M) = -\infty$, $e_q(M) = 0$.
 
-#### Remark 2 {#ac-viii-s4-n3-rem-2 .statement}
+#### Remark 2 {#ac-viii-s4-n3-rem-2 .statement tag=0COM}
 
 To say that $M/qM$ is of finite length means that
 $$
@@ -399,7 +399,7 @@ $$
 $$
 consists of maximal ideals (IV, § 2, No. 5, Proposition 7). We shall see below (No. 4, corollary to Theorem 3) that $d_q(M)$ is the least upper bound of the numbers $\dim_{A_m}(M_m)$, where $m$ runs through the set $\operatorname{Supp}(M) \cap V(q)$.
 
-#### Corollary {#ac-viii-s4-n3-cor-1 .statement}
+#### Corollary {#ac-viii-s4-n3-cor-1 .statement tag=0CON}
 
 *Let $A$ be a noetherian ring, $q$ an ideal of $A$, $M$ a finitely generated $A$-module such that $M/qM$ is of finite length, and $F$ a q-good filtration on $M$.
 a) In order that one have $d_q(M) \leq 0$, it is necessary and sufficient that the sequence $(q^n M)$ be stationary, or again that the sequence $(F_n)$ be stationary. One then has, for every sufficiently large $n$,
@@ -416,11 +416,11 @@ $$
 where $\rho_n$ and $\sigma_n$ tend to a limit as $n$ increases indefinitely.
 This results at once from Theorem 2 and formula (2) of No. 1.*
 
-#### Remark 3 {#ac-viii-s4-n3-rem-3 .statement}
+#### Remark 3 {#ac-viii-s4-n3-rem-3 .statement tag=0COO}
 
 Suppose q is contained in the radical of A. Then, by Nakayama's lemma, the sequence (q^nM) is stationary if and only if one has q^nM = 0 for n sufficiently large. It then follows from part a) of the corollary that one has d_q(M) \leq 0 if and only if M is of finite length, and that one then has e_q(M) = \operatorname{long}_A(M).
 
-#### Proposition 4 {#ac-viii-s4-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s4-prop-4 .statement tag=0COP}
 
 Let A be a noetherian ring, x_1, ..., x_r elements of A, x the ideal which they generate, and M a finitely generated A-module such that M/xM is nonzero and of finite length.
 a) One has d_x(M) \leq r.
@@ -431,7 +431,7 @@ Let H be the polynomial ring (A/x)[X_1, ..., X_r]. Let us endow G = \bigoplus_n 
 
 One therefore has either d_x(M) < r and c_G = 0, or d_x(M) = r and c_G = e_x(M). Moreover, by Prop. 1 of No. 2, one has c_G \leq \operatorname{long}(M/xM), and there is equality if and only if the canonical homomorphism A/x[X_1, ..., X_r] \otimes_{A/x} M/xM \to \bigoplus_n x^nM/x^{n+1}M is bijective. This entails the proposition, in view of A, X, p. 160, th. 1.
 
-#### Proposition 5 {#ac-viii-s4-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s4-prop-5 .statement tag=0COQ}
 
 Let 0 \to M' \to M \to M'' \to 0 be an exact sequence of finitely generated modules over a noetherian ring A, and q an ideal of A.
 a) In order that M/qM be of finite length, it is necessary and sufficient that the same be true of M'/qM' and M''/qM''.
@@ -452,7 +452,7 @@ with R, R', R'' \in \mathbf{Z}[T, T^{-1}], R(1) = e_q(M), R'(1) = e_q(M'), R''(1
 
 ### 4. Degree of the Hilbert-Samuel function
 
-#### Theorem 3 {#ac-viii-s4-thm-3 .statement}
+#### Theorem 3 {#ac-viii-s4-thm-3 .statement tag=0COR}
 
 Let $A$ be a noetherian local ring, $q$ an ideal of $A$ distinct from $A$, and $M$ a finitely generated $A$-module such that $M/qM$ is of finite length. Then the integer $d_q(M)$ is the dimension of the $A$-module $M$ ($§ 1$, No. 4, Def. 8).
 
@@ -478,23 +478,23 @@ $$
 
 which completes the proof.
 
-#### Corollary {#ac-viii-s4-n4-cor-1 .statement}
+#### Corollary {#ac-viii-s4-n4-cor-1 .statement tag=0COS}
 
 Let $A$ be a noetherian ring, $M$ a finitely generated $A$-module and $q$ an ideal of $A$ such that $M/qM$ is of finite length. Then $d_q(M)$ is the least upper bound of the dimensions $\dim_{A_m}(M_m)$, where $m$ ranges over the finite set $S = \operatorname{Supp}(M) \cap V(q)$, and $e_q(M)$ is the sum of the $e_{q_m}(M_m)$ extended to those elements $m$ of $S$ for which one has $\dim_{A_m}(M_m) = d_q(M)$.
 
 For each integer $n$, the length of $M/q^nM$ is the sum of the $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $§ 2$, No. 5, cor. 1 to prop. 7 and corollary to prop. 8). Consequently, one has $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, whence the corollary.
 
-#### Remark 1 {#ac-viii-s4-n4-rem-1 .statement}
+#### Remark 1 {#ac-viii-s4-n4-rem-1 .statement tag=0COT}
 
 One also has $d_q(M) = \sup_{m \in V(q)} \dim(M_m)$, that is, $d_q(M) = \dim(\hat{M})$, where $\hat{M}$ is the completion of $M$ for the q-adic topology ($§ 3$, No. 4, prop. 8).
 
-#### Remark 2 {#ac-viii-s4-n4-rem-2 .statement}
+#### Remark 2 {#ac-viii-s4-n4-rem-2 .statement tag=0COU}
 
 Suppose q contained in the radical of A; then $\dim(\hat{M}) = \dim(M)$ (*loc. cit.*, cor. 1), hence $d(M) = \dim(M)$.
 
 ### 5. Hilbert-Samuel series of a quotient module
 
-#### Lemma 5 {#ac-viii-s4-lem-5 .statement}
+#### Lemma 5 {#ac-viii-s4-lem-5 .statement tag=0COV}
 
 Let A be a ring, M an A-module and $(P_n), (Q_n)$ two decreasing filtrations on M consisting of submodules. Suppose that one has $P_n \supset Q_n$ and $\operatorname{long}_A(P_n/Q_n) < +\infty$ for every $n \in \mathbf{Z}$ and that there exists an integer $n_1$ such that $Q_{n_1} = M$. In $\mathbf{Z}((T))$, one has the inequalities
 
@@ -517,7 +517,7 @@ $$
 
 But the A-module $(P_{n+1} \cap Q_i)/(P_{n+1} \cap Q_{i+1})$ is isomorphic to a submodule of $(P_{i+1} \cap Q_i)/Q_{i+1}$, and inequality (16) follows.
 
-#### Lemma 6 {#ac-viii-s4-lem-6 .statement}
+#### Lemma 6 {#ac-viii-s4-lem-6 .statement tag=0COW}
 
 Let A be a ring, M an A-module and $(F_n)$ a decreasing filtration on M consisting of submodules; suppose that there exists an integer $n_1$ such that $F_{n_1} = M$. Let f be an endomorphism of M, $M'$ its kernel and $M''$ its cokernel. We equip $M'$ with the filtration $(F'_n)$ induced by $(F_n)$ and $M''$ with the quotient filtration $(F''_n)$ of $(F_n)$. Suppose that $F_n/F_{n+1}$ is of finite length for every $n \in \mathbf{Z}$ and that there exists an integer $\delta$ such that $f(F_n) \subset F_{n+\delta}$. Let $\varphi$ be the graded endomorphism of degree $\delta$ of the graded module $\mathrm{gr}(M) = \bigoplus_{n \in \mathbf{Z}} F_n/F_{n+1}$ deduced from f. Between the following elements of $\mathbf{Z}((T))$
 
@@ -563,7 +563,7 @@ Multiplying by $T^{n+\delta}$ and summing over $n$, one obtains
 
 and inequality (18) follows at once from (20) and (21).
 
-#### Lemma 7 {#ac-viii-s4-lem-7 .statement}
+#### Lemma 7 {#ac-viii-s4-lem-7 .statement tag=0COX}
 
 Retain the notation of lemma 6.
 
@@ -597,7 +597,7 @@ $$
 
 where $\varphi'_n = \varphi_{n-\delta}$ for all $n$. This completes the proof of c).
 
-#### Proposition 6 {#ac-viii-s4-prop-6 .statement}
+#### Proposition 6 {#ac-viii-s4-prop-6 .statement tag=0COY}
 
 *Let A be a noetherian ring, M a finitely generated A-module and q an ideal of A such that M/qM is of finite length. Let F be a q-good filtration of M, and let $\mathrm{gr}(A) = \bigoplus_{n \geq 0} (q^n/q^{n+1})$ be the graded ring associated with A for the q-adic filtration.*
 

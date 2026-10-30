@@ -33,7 +33,7 @@ subsections:
       pdf_page: 60
 statements: 18
 exercises: 27
-content_sha256: bef3eeafe13af0c47229143600305c1cdb410b97ca96cc305d8ed095ac5bb3cd
+content_sha256: 9f6dbd6648d7739560a7db8789c8dcacb1593afb46758c4bce763121741c6605
 ---
 
 ## § 4. NILPOTENT LIE ALGEBRAS
@@ -42,13 +42,13 @@ content_sha256: bef3eeafe13af0c47229143600305c1cdb410b97ca96cc305d8ed095ac5bb3cd
 
 ### 1. DEFINITION OF NILPOTENT LIE ALGEBRAS
 
-#### Definition 1 {#lie-i-s4-def-1 .statement}
+#### Definition 1 {#lie-i-s4-def-1 .statement tag=09WS}
 
 *A Lie algebra $g$ is called nilpotent if there exists a decreasing finite sequence of ideals $(g_i)_{1 \leq i \leq p}$ of $g$ with $g_0 = g, g_p = \{0\}$, such that* $[g, g_i] \subset g_{i+1}$ *for* $0 \leq i < p$.
 
 A commutative Lie algebra is nilpotent.
 
-#### Proposition 1 {#lie-i-s4-prop-1 .statement}
+#### Proposition 1 {#lie-i-s4-prop-1 .statement tag=09WT}
 
 *Let $g$ be a Lie algebra. The following conditions are equivalent:*
 (a) $g$ *is nilpotent;*
@@ -71,23 +71,23 @@ i_0 < i_1 < \cdots < i_p
 $$
 with $g_0 = \mathfrak{h}_{i_0}, g_1 = \mathfrak{h}_{i_1}, \ldots, g_p = \mathfrak{h}_{i_p}$; then as $[g, \mathfrak{h}_{i_k}] \subset \mathfrak{h}_{i_{k+1}}$ the $\mathfrak{h}_i$ are ideals and $[g, \mathfrak{h}_i] \subset \mathfrak{h}_{i+1}$ for all $i$. Hence conditions (a) and (e) are equivalent.
 
-#### Corollary 1 {#lie-i-s4-prop-1-cor-1 .statement}
+#### Corollary 1 {#lie-i-s4-prop-1-cor-1 .statement tag=09WU}
 
 *The centre of a non-zero nilpotent Lie algebra is non-zero.*
 
-#### Corollary 2 {#lie-i-s4-prop-1-cor-2 .statement}
+#### Corollary 2 {#lie-i-s4-prop-1-cor-2 .statement tag=09WV}
 
 *The Killing form of a nilpotent Lie algebra is zero.*
 For all $x$ and $y$ in a nilpotent Lie algebra $\operatorname{ad} x \circ \operatorname{ad} y$ is nilpotent and hence of zero trace.
 
-#### Proposition 2 {#lie-i-s4-prop-2 .statement}
+#### Proposition 2 {#lie-i-s4-prop-2 .statement tag=09WW}
 
 *Subalgebras, quotient algebras and central extensions of a nilpotent Lie algebra are nilpotent. A finite product of nilpotent Lie algebras is a nilpotent Lie algebra.*
 Let $g$ be a Lie algebra, $g'$ a subalgebra of $g$, $\mathfrak{h}$ an ideal of $g$, $\mathfrak{k} = g/\mathfrak{h}$ and $\phi$ the canonical mapping of $g$ onto $\mathfrak{k}$. If $g$ is nilpotent, then $\mathscr{C}^k g = \{0\}$ for some integer $k$, hence $\mathscr{C}^k g' \subset \mathscr{C}^k g = \{0\}$ and $\mathscr{C}^k \mathfrak{k} = \phi(\mathscr{C}^k g) = \{0\}$ and hence $g'$ and $\mathfrak{k}$ are nilpotent. If $\mathfrak{k}$ is nilpotent and $\mathfrak{h}$ is contained in the centre of $g$, then $\mathscr{C}^k \mathfrak{k} = \{0\}$ for some integer $k$, hence $\mathscr{C}^k g \subset \mathfrak{h}$ and therefore $\mathscr{C}^{k+1} g \subset [\mathfrak{h}, g] = \{0\}$, so that $g$ is nilpotent. Finally, the assertion concerning products follows for example from the assertion (a) $\Leftrightarrow$ (d) of Proposition 1.
 
 Definition 1 and Proposition 2 show that nilpotent Lie algebras are precisely the algebras obtained from commutative Lie algebras by a sequence of central extensions.
 
-#### Proposition 3 {#lie-i-s4-prop-3 .statement}
+#### Proposition 3 {#lie-i-s4-prop-3 .statement tag=09WX}
 
 *Let $g$ be a nilpotent Lie algebra and $\mathfrak{h}$ a subalgebra of $g$ distinct from $g$. The normalizer of $\mathfrak{h}$ in $g$ is distinct from $\mathfrak{h}$.*
 Let $k$ be the greatest integer such that $\mathscr{C}^k g + \mathfrak{h} \neq \mathfrak{h}$. Then
@@ -98,12 +98,12 @@ and hence the normalizer of $\mathfrak{h}$ in $g$ contains $\mathscr{C}^k g + \m
 
 ### 2. ENGEL'S THEOREM
 
-#### Lemma 1 {#lie-i-s4-lem-1 .statement}
+#### Lemma 1 {#lie-i-s4-lem-1 .statement tag=09WY}
 
 *Let $V$ be a vector space over $\mathbf{K}$. If $x$ is a nilpotent endomorphism of $V$, the mapping $y \mapsto [x, y]$ of $\mathscr{L}(V)$ into $\mathscr{L}(V)$ is nilpotent.*
 If $f$ denotes this mapping, $f^m(y)$ is a sum of terms of the form $\pm x^i y x^j$ with $i + j = m$. If $x^k = 0$, then $f^{2k-1}(y) = 0$ for all $y$.
 
-#### Theorem 1 (Engel) {#lie-i-s4-thm-1 .statement}
+#### Theorem 1 (Engel) {#lie-i-s4-thm-1 .statement tag=09WZ}
 
 *Let $V$ be a vector space over $\mathbf{K}$ and $g$ a finite-dimensional subalgebra of $\mathfrak{gl}(V)$ whose elements are nilpotent endomorphisms of $V$. If $V \neq \{0\}$, there exists $u \neq 0$ in $V$ such that $x.u = 0$ for all $x \in g$.*
 
@@ -113,37 +113,37 @@ Let $h$ be a Lie subalgebra of $g$ of dimension $m < n$. If $x \in h$, and $\mat
 
 We conclude (by iteration starting with $h = \{0\}$) that $g$ has an ideal $h$ of dimension $n-1$. Let $a \in g,\ a \notin h$. We again use the induction hypothesis: the $u \in V$ such that $x.u = 0$ for all $x \in h$ form a non-zero vector subspace U of V. This subspace is stable under $a$ (§ 3, no. 5, Proposition 5). Since $a$ is a nilpotent endomorphism of V, there exists a non-zero element of U which is annihilated by $a$ and hence by every element of $g$.
 
-#### Corollary 1 {#lie-i-s4-thm-1-cor-1 .statement}
+#### Corollary 1 {#lie-i-s4-thm-1-cor-1 .statement tag=09X0}
 
 *For a Lie algebra g to be nilpotent, it is necessary and sufficient that, for all $x \in g$, $\mathrm{ad}\ x$ be nilpotent.*
 
 The condition is necessary (Proposition 1). Suppose that its sufficiency has been proved for Lie algebras of dimension $< n$ ($n \neq 0$). Let $g$ be an $n$-dimensional Lie algebra such that, for all $x \in g$, $\mathrm{ad}\ x$ is nilpotent. Theorem 1, applied to the set of $\mathrm{ad}\ x\ (x \in g)$, proves that the centre $c$ of $g$ is non-zero. Then $g$ is a central extension of the Lie algebra $g/c$, which is nilpotent by our induction hypothesis. The proof is completed by applying Proposition 2.
 
-#### Corollary 2 {#lie-i-s4-thm-1-cor-2 .statement}
+#### Corollary 2 {#lie-i-s4-thm-1-cor-2 .statement tag=09X1}
 
 *Let g be a Lie algebra and h an ideal of g. Suppose that $g/h$ is nilpotent and that, for all $x \in g$, the restriction of $\mathrm{ad}\ x$ to h is nilpotent. Then g is nilpotent.*
 
 Let $x \in g$. As $g/h$ is nilpotent, there exists an integer $k$ such that $(\mathrm{ad}\ x)^k(g) \subset h$. By hypothesis there exists an integer $k'$ such that $(\mathrm{ad}\ x)^{k'}(h) = \{0\}$. Hence $(\mathrm{ad}\ x)^{k+k'}(g) = \{0\}$. Corollary 2 is hence a consequence of Corollary 1.
 
-#### Corollary 3 {#lie-i-s4-thm-1-cor-3 .statement}
+#### Corollary 3 {#lie-i-s4-thm-1-cor-3 .statement tag=09X2}
 
 *Let V be a vector space and g a finite-dimensional subalgebra of $\mathfrak{gl}(V)$ whose elements are nilpotent endomorphisms of V. Then g is a nilpotent Lie algebra.*
 
 This follows immediately from Lemma 1 and Corollary 1.
 
-#### Example {#lie-i-s4-n2-exa-1 .statement}
+#### Example {#lie-i-s4-n2-exa-1 .statement tag=09X3}
 
 The algebra $\mathfrak{n}(n, K)$ (§ 1, no. 2, Example 2 (3)) is nilpotent.
 
 ### 3. THE LARGEST NILPOTENCY IDEAL OF A REPRESENTATION
 
-#### Lemma 2 {#lie-i-s4-lem-2 .statement}
+#### Lemma 2 {#lie-i-s4-lem-2 .statement tag=09X4}
 
 *Let g be a Lie algebra, a an ideal of g and M a simple g-module. If, for all $x \in a,\ x_M$ is nilpotent, then $x_M = 0$ for all $x \in a$.*
 
 Let N be the subspace of M consisting of the $m \in M$ such that $x_M.m = 0$ for all $x \in a$. By Theorem 1, $N \neq \{0\}$. On the other hand, for all $y \in g$, N is stable under $y_M$ (§ 3, no. 5, Proposition 5). Hence $N = M$, which proves the lemma.
 
-#### Lemma 3 {#lie-i-s4-lem-3 .statement}
+#### Lemma 3 {#lie-i-s4-lem-3 .statement tag=09X5}
 
 *Let g be a Lie algebra, a an ideal of g, M a g-module of finite dimension over*
 
@@ -166,7 +166,7 @@ If these conditions are fulfilled, $a$ is orthogonal to $g$ with respect to the 
 
 Finally, suppose conditions (a), (b) and (c) hold. Let $x \in a$ and $y \in g$. We have just seen that $y_M x_M$ is nilpotent and hence $\operatorname{Tr}(y_M x_M) = 0$, which proves the last assertion of the lemma.
 
-#### Proposition 4 {#lie-i-s4-prop-4 .statement}
+#### Proposition 4 {#lie-i-s4-prop-4 .statement tag=09X6}
 
 Let $g$ be a Lie algebra, $M$ a $g$-module of finite dimension over $K$ and $A$ the associative algebra generated by 1 and the set of $x_M$ ($x \in g$).
 
@@ -180,7 +180,7 @@ Let $g$ be a Lie algebra, $M$ a $g$-module of finite dimension over $K$ and $A$ 
 
 The set of $x \in g$ such that $x_M$ belongs to the Jacobson radical of $A$ is obviously an ideal of $g$. The proposition then follows immediately from Lemma 3.
 
-#### Definition 2 {#lie-i-s4-def-2 .statement}
+#### Definition 2 {#lie-i-s4-def-2 .statement tag=09X7}
 
 The ideal $n$ of Proposition 4 is called the largest nilpotency ideal for the $g$-module $M$ or the largest nilpotency ideal of the corresponding representation.
 
@@ -188,7 +188,7 @@ Clearly $n$ contains the kernel of this representation. It equals it when $M$ is
 
 We also note that a particular case of Lemma 3 immediately gives the following result:
 
-#### Proposition 5 {#lie-i-s4-prop-5 .statement}
+#### Proposition 5 {#lie-i-s4-prop-5 .statement tag=09X8}
 
 Let $V$ be a vector space of finite dimension $n$ over $K$ and $g$ a Lie sub-algebra of $gl(V)$ whose elements are nilpotent endomorphisms of $V$. Then there exists a decreasing sequence of vector subspaces $V_0, V_1, \ldots, V_n$ of $V$, of dimensions $n, n-1, \ldots, 0$, such that $x(V_i) \subset V_{i+1}$ for all $x \in g$ and $i = 0, 1, \ldots, n-1$.
 
@@ -196,7 +196,7 @@ Let $V$ be a vector space of finite dimension $n$ over $K$ and $g$ a Lie sub-alg
 
 Let $g$ be a Lie algebra and $a$ an ideal of $g$. For $a$ to be nilpotent, it is necessary and sufficient that, for all $x \in a$, $\operatorname{ad}_g x$ be nilpotent; the condition is obviously sufficient and is necessary, for, if $a$ is nilpotent and $x \in a$, $\operatorname{ad}_a x$ is nilpotent and $\operatorname{ad}_g x$ maps $g$ into $a$, hence $\operatorname{ad}_g x$ is nilpotent. Then Proposition 4 applied to the adjoint representation of $g$ gives the following result:
 
-#### Proposition 6 {#lie-i-s4-prop-6 .statement}
+#### Proposition 6 {#lie-i-s4-prop-6 .statement tag=09X9}
 
 Let $g$ be a Lie algebra and $E$ the associative subalgebra of $\mathscr{L}(g)$ generated by 1 and the $\operatorname{ad}_g x$ ($x \in g$). Let $R$ be the Jacobson radical of $E$.
 (a) The set $n$ of $y \in g$ such that $\operatorname{ad}_g y \in R$ is the largest nilpotent ideal of $g$.

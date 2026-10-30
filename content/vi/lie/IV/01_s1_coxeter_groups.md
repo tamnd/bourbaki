@@ -48,7 +48,7 @@ subsections:
       pdf_page: 26
 statements: 30
 exercises: 16
-content_sha256: 39c749cda0ec9f12a2927ee1cc5a41129ef12edac7fee67856058f8c91f66058
+content_sha256: 031ea7a769d2c21153fe1ced2fe03b5a75255145c9a872d6db0b92813168f6cd
 translated_from: content/en/lie/IV/01_s1_coxeter_groups.md
 source_content_sha256: e21e9157d9b83420982a6387b3aa2e1a20f94990bb5e1be3c98102e297f3b6de
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
@@ -64,13 +64,13 @@ Trong tiết này, W ký hiệu một nhóm được viết theo phép nhân, v�
 
 ### 1. ĐỘ DÀI VÀ CÁC PHÂN TÍCH RÚT GỌN
 
-#### Định nghĩa 1 {#lie-iv-s1-def-1 .statement}
+#### Định nghĩa 1 {#lie-iv-s1-def-1 .statement tag=0ALN}
 
 Cho w \in W. Độ dài của w (đối với S), ký hiệu là l_S(w) hoặc đơn giản là l(w), là số nguyên nhỏ nhất q \geq 0 sao cho w là tích của một dãy gồm q phần tử của S. Một phân tích rút gọn của w (đối với S) là một dãy bất kỳ s = (s_1, \ldots, s_q) gồm các phần tử của S sao cho w = s_1 \cdots s_q và q = l(w).
 
 Như vậy 1 là phần tử duy nhất có độ dài 0 và S gồm các phần tử có độ dài 1.
 
-#### Mệnh đề 1 {#lie-iv-s1-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iv-s1-prop-1 .statement tag=0ALO}
 
 Cho w và w' thuộc W. Ta có các công thức:
 
@@ -95,23 +95,23 @@ $$
 
 Đổi chỗ $w$ và $w'$ trong (4) cho $l(w') - l(w) \leq l(w{w'}^{-1})$ theo (5), chứng minh (3).
 
-#### Hệ quả {#lie-iv-s1-n1-cor-1 .statement}
+#### Hệ quả {#lie-iv-s1-n1-cor-1 .statement tag=0ALP}
 
 *Cho $s = (s_1, \ldots, s_p)$ và $s' = (s'_1, \ldots, s'_q)$ là hai dãy các phần tử của $S$ sao cho $w = s_1 \ldots s_p$ và $w' = s'_1 \ldots s'_q$. Nếu dãy $(s_1, \ldots, s_p, s'_1, \ldots, s'_q)$ là một phân tích rút gọn của $ww'$, thì $s$ là một phân tích rút gọn của $w$ và $s'$ là một phân tích rút gọn của $w'$.*
 
 Theo giả thiết, $l(w) \leq p$, $l(w') \leq q$ và $l(ww') = p + q$. Theo (1), ta phải có $l(w) = p$ và $l(w') = q$, do đó có hệ quả.
 
-#### Nhận xét {#lie-iv-s1-n1-rem-1 .statement}
+#### Nhận xét {#lie-iv-s1-n1-rem-1 .statement tag=0ALQ}
 
 Theo các công thức (1) và (2), công thức $d(w, w') = l(w{w'}^{-1})$ xác định một khoảng cách trên $W$, bất biến qua các phép tịnh tiến phải.
 
 ### 2. CÁC NHÓM NHỊ DIỆN
 
-#### Định nghĩa 2 {#lie-iv-s1-def-2 .statement}
+#### Định nghĩa 2 {#lie-iv-s1-def-2 .statement tag=0ALR}
 
 *Một nhóm nhị diện là một nhóm được sinh bởi hai phần tử phân biệt có cấp hai.*
 
-#### Ví dụ {#lie-iv-s1-n2-exa-1 .statement}
+#### Ví dụ {#lie-iv-s1-n2-exa-1 .statement tag=0ALS}
 
 Cho $M$ là nhóm nhân $\{1, -1\}$, và cho $m$ là một số nguyên $\geq 2$ (tương ứng. $m = \infty$). Khi đó $M$ tác động lên nhóm $\mathbf{Z}/m\mathbf{Z}$ (tương ứng. lên $\mathbf{Z}$) bởi $(-1).x = -x$, và tích bán trực tiếp tương ứng của $M$ bởi $\mathbf{Z}/m\mathbf{Z}$ (tương ứng. của $M$ bởi $\mathbf{Z}$) được ký hiệu bởi $D_m$. Các phần tử của $D_m$ do đó là các cặp $(\varepsilon, x)$ với $\varepsilon = \pm 1$ và $x \in \mathbf{Z}/m\mathbf{Z}$ (tương ứng. $x \in \mathbf{Z}$); luật nhóm trên $D_m$ được cho bởi công thức
 $$
@@ -127,7 +127,7 @@ $$
 $$
 chỉ ra rằng $D_m$ là một nhóm nhị diện được sinh bởi $\{\rho, \rho'\}$.
 
-#### Mệnh đề 2 {#lie-iv-s1-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iv-s1-prop-2 .statement tag=0ALT}
 
 *Giả sử rằng $S$ gồm hai phần tử phân biệt $s$ và $s'$ có cấp 2.*
 
@@ -144,7 +144,7 @@ với mọi số nguyên $n$. Vì $W$ được sinh bởi $\{ s, s' \}$, và do 
 
 (ii) Vì $s \neq s'$, ta có $p \neq 1$ và do đó $m \geq 2$. Vì $P$ có cấp $m$ và $(W : P) = 2$, cấp của $W$ là $2m$. Nếu $m$ hữu hạn (tương ứng vô hạn), tồn tại một đẳng cấu $\varphi'$ từ $\mathbf{Z}/m\mathbf{Z}$ (tương ứng $\mathbf{Z}$) đến $P$ đưa $\pi$ đến $p$. Hơn nữa, tồn tại một đẳng cấu $\varphi''$ từ $M = \{ 1, -1 \}$ đến $T$ đưa $-1$ đến $s$. Nhóm $W$ là tích nửa trực tiếp của $T$ và $P$. Theo các công thức (9) và $\rho \pi^n \rho^{-1} = \pi^{-n}$, $\varphi'$ và $\varphi''$ cảm sinh một đẳng cấu $\varphi$ từ $D_m$ đến $W$ sao cho $\varphi(\rho) = s$ và $\varphi(\pi) = p$, và do đó $\varphi(\rho') = s'$. Tính duy nhất của $\varphi$ suy ra từ sự kiện rằng $D_m$ được sinh bởi $\{ \rho, \rho' \}$.
 
-#### Nhận xét {#lie-iv-s1-n2-rem-1 .statement}
+#### Nhận xét {#lie-iv-s1-n2-rem-1 .statement tag=0ALU}
 
 Xét một nhóm nhị diện $W$ có cấp $2m$ được sinh bởi hai phần tử phân biệt $s$ và $s'$ có cấp 2. Ký hiệu bởi $s_q$ (tương ứng $s'_q$) dãy có độ dài $q$ mà các số hạng được đánh số lẻ (tương ứng chẵn) bằng $s$ và các số hạng được đánh số chẵn (tương ứng lẻ) bằng $s'$, và gọi $w_q$ (tương ứng $w'_q$) là tích của dãy $s_q$ (tương ứng $s'_q$). Ta có
 
@@ -165,7 +165,7 @@ Giả sử bây giờ rằng $m$ là *hữu hạn*. Nếu $q \geq 2m$, ta có $w
 
 Nhắc lại rằng từ nay ta giả sử rằng các phần tử của S có cấp 2.
 
-#### Định nghĩa 3 {#lie-iv-s1-def-3 .statement}
+#### Định nghĩa 3 {#lie-iv-s1-def-3 .statement tag=0ALV}
 
 $(W, S)$ được gọi là một hệ Coxeter nếu nó thỏa mãn điều kiện sau:
 
@@ -173,27 +173,27 @@ $(W, S)$ được gọi là một hệ Coxeter nếu nó thỏa mãn điều ki�
 
 Khi $(W, S)$ là một hệ Coxeter, người ta cũng nói, bằng sự lạm dụng ngôn ngữ, rằng $W$ là một nhóm Coxeter.
 
-#### Ví dụ 1 {#lie-iv-s1-n3-exa-1 .statement}
+#### Ví dụ 1 {#lie-iv-s1-n3-exa-1 .statement tag=0ALW}
 
 Cho $m$ là một số nguyên $\geq 2$ hoặc $\infty$ và cho $W$ là một nhóm được xác định bởi một tập các phần tử sinh $S = {s, s'}$ và các hệ thức $s^2 = {s'}^2 = 1$ khi $m = \infty$, $s^2 = {s'}^2 = (ss')^m = 1$ khi $m$ là hữu hạn. Xét mặt khác nhóm nhị diện $D_m$ (no. 2, Ví dụ) và các phần tử $\rho$ và $\rho'$ của $D_m$ được xác định bởi (7). Vì $\rho^2 = (\rho')^2 = 1$ và $(\rho\rho')^m = 1$ khi $m$ là hữu hạn, tồn tại một đồng cấu duy nhất $f$ từ $W$ vào $D_m$ sao cho $f(s) = \rho$ và $f(s') = \rho'$. Vì $\rho\rho'$ có cấp $m$, suy ra rằng bản thân $ss'$ có cấp $m$. Do đó, $(W, S)$ là một hệ Coxeter, $W$ là một nhóm nhị diện có cấp $2m$ và $f$ là một đẳng cấu (Mệnh đề 2).
 
 Bằng phép chuyển cấu trúc, suy ra rằng mọi nhóm nhị diện đều là một nhóm Coxeter.
 
-#### Ví dụ 2 {#lie-iv-s1-n3-exa-2 .statement}
+#### Ví dụ 2 {#lie-iv-s1-n3-exa-2 .statement tag=0ALX}
 
 Cho $\mathfrak{S}_n$ là nhóm đối xứng bậc n, với $n \geq 2$. Cho $s_i$ là phép chuyển vị của i và $i+1$ với $1 \leq i < n$, và cho S = {s_1, ..., s_{n-1}}. Có thể chứng minh (§ 2, no.4, Ví dụ và § 1, Exerc. 4) rằng $(\mathfrak{S}_n, S)$ là một hệ Coxeter.
 
-#### Ví dụ 3 {#lie-iv-s1-n3-exa-3 .statement}
+#### Ví dụ 3 {#lie-iv-s1-n3-exa-3 .statement tag=0ALY}
 
 Về sự phân loại các nhóm Coxeter hữu hạn, xem Chương 4, § 4.
 
-#### Nhận xét {#lie-iv-s1-n3-rem-1 .statement}
+#### Nhận xét {#lie-iv-s1-n3-rem-1 .statement tag=0ALZ}
 
 Giả sử rằng (W, S) là một hệ Coxeter. Tồn tại một đồng cấu $\varepsilon$ từ W vào nhóm {1, -1} được đặc trưng bởi $\varepsilon(s) = -1$ với mọi $s \in S$. Ta gọi $\varepsilon(w)$ là dấu của w; nó bằng $(-1)^{l(w)}$. Công thức $\varepsilon(ww') = \varepsilon(w)\varepsilon(w')$ do đó chuyển thành $l(ww') \equiv l(w) + l(w') \mod 2$.
 
 ¹ Điều này có nghĩa là (W, S) có tính chất phổ quát sau: cho một nhóm G và một ánh xạ f từ S vào G sao cho $(f(s)f(s'))^{m(s,s')} = 1$ với (s, s') trong I, tồn tại một đồng cấu g từ W vào G mở rộng f. Đồng cấu này là duy nhất vì S sinh W. Một dạng tương đương của định nghĩa này là như sau. Cho $\overline{W}$ là một nhóm, f là một đồng cấu từ $\overline{W}$ vào W và h là một ánh xạ từ S vào $\overline{W}$ sao cho $f(h(s)) = s$ và $(h(s)h(s'))^{m(s,s')} = 1$ với (s, s') trong S và sao cho các h(s) (với $s \in S$) sinh $\overline{W}$. Khi đó f là đơn ánh (và do đó là một đẳng cấu từ $\overline{W}$ vào W).
 
-#### Mệnh đề 3 {#lie-iv-s1-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iv-s1-prop-3 .statement tag=0AM0}
 
 Giả sử rằng (W, S) là một hệ Coxeter. Khi đó, hai phần tử s và s' của S là liên hợp$^2$ trong W khi và chỉ khi điều kiện sau được thỏa mãn:
 
@@ -225,7 +225,7 @@ $$
 R = \{1, -1\} \times T.
 $$
 
-#### Bổ đề 1 {#lie-iv-s1-lem-1 .statement}
+#### Bổ đề 1 {#lie-iv-s1-lem-1 .statement tag=0AM1}
 
 (i) Cho $w \in W$ và $t \in T$. Số $(-1)^{n(s, t)}$ có cùng giá trị $\eta(w, t)$ đối với mọi dãy $s = (s_1, \ldots, s_q)$ gồm các phần tử của S sao cho $w = s_1 \ldots s_q$.
 
@@ -268,7 +268,7 @@ t_j = p^{j-1} s \quad \text{với } 1 \leq j \leq 2m.
 $$
 Vì $p$ có cấp $m$, các phần tử $t_1, \ldots, t_m$ là phân biệt và $t_{j+m} = t_j$ với $1 \leq j \leq m$. Với mọi $t \in T$, số nguyên $n(s, t)$ do đó bằng 0 hoặc 2 và (14) chỉ ra rằng $U_s = \mathrm{Id}_R$. Nói cách khác, $(U_s U_{s'})^m = \mathrm{Id}_R$. Do đó, theo định nghĩa của các hệ Coxeter, tồn tại một đồng cấu $w \mapsto U_w$ từ $W$ vào nhóm các hoán vị của $R$ sao cho $U_s$ được cho bởi vế phải của (13). Khi đó $U_w = U_s$ với mọi dãy $s = (s_1, \ldots, s_q)$ sao cho $w = s_q \ldots s_1$ và Bổ đề 1 suy ra ngay lập tức từ (14).
 
-#### Bổ đề 2 {#lie-iv-s1-lem-2 .statement}
+#### Bổ đề 2 {#lie-iv-s1-lem-2 .statement tag=0AM2}
 
 *Cho $s = (s_1, \ldots, s_q)$, $\Phi(s) = (t_1, \ldots, t_q)$ và $w = s_1 \ldots s_q$. Cho $T_w$ là tập hợp các phần tử của $T$ sao cho $\eta(w, t) = -1$. Khi đó $s$ là một phân tích rút gọn của $w$ khi và chỉ khi các $t_i$ là phân biệt, và trong trường hợp đó $T_w = \{ t_1, \ldots, t_q \}$ và $\mathrm{Card}(T_w) = l(w)$.*
 
@@ -280,7 +280,7 @@ $$
 
 Điều này chứng tỏ rằng $s$ không phải là một phân tích rút gọn của $w$.
 
-#### Bổ đề 3 {#lie-iv-s1-lem-3 .statement}
+#### Bổ đề 3 {#lie-iv-s1-lem-3 .statement tag=0AM3}
 
 *Cho $w \in W$ và $s \in S$ sao cho $l(sw) \leq l(w)$. Với mọi dãy $s = (s_1, \ldots, s_q)$ gồm các phần tử của $S$ với $w = s_1 \ldots s_q$, tồn tại một số nguyên $j$ sao cho $1 \leq j \leq q$ và*
 
@@ -302,7 +302,7 @@ $$
 
 của $w'$ và đặt $s = (s, s'_1, \ldots, s'_{p-1})$ và $\Phi(s') = (t'_1, \ldots, t'_p)$. Rõ ràng $s'$ là một phân tích rút gọn của $w$ và $t'_1 = s$. Các phần tử $t'_1, \ldots, t'_p$ đôi một phân biệt theo Bổ đề 2, ta có $n(s', s) = 1$. Vì $w$ là tích của dãy $s$, ta có $n(s, s) \equiv n(s', s)$ mod. 2 theo Bổ đề 1, do đó $n(s, s) \neq 0$. Do đó, $s$ bằng một trong các phần tử $t_j$ của dãy $\Phi(s)$, suy ra bổ đề.
 
-#### Nhận xét {#lie-iv-s1-n4-rem-1 .statement}
+#### Nhận xét {#lie-iv-s1-n4-rem-1 .statement tag=0AM4}
 
 Tập hợp $T_w$ được định nghĩa trong Bổ đề 2 gồm các phần tử có dạng $w''s{w''}^{-1}$ tương ứng với các bộ ba $(w', w'', s) \in W \times W \times S$ sao cho $w = w''sw'$ và $l(w') + l(w'') + 1 = l(w)$.
 
@@ -318,7 +318,7 @@ $$
 
 Trong số này, ta giả thiết rằng $(W, S)$ thỏa mãn (E). Theo Bổ đề 3, điều này đúng nếu $(W, S)$ là một hệ Coxeter. Do đó, các kết quả của số này áp dụng cho các hệ Coxeter.
 
-#### Mệnh đề 4 {#lie-iv-s1-prop-4 .statement}
+#### Mệnh đề 4 {#lie-iv-s1-prop-4 .statement tag=0AM5}
 
 *Cho $s \in S, w \in W$ và $s = (s_1, \ldots, s_q)$ là một phân tích rút gọn của $w$. Khi đó một trong các trường hợp sau đây phải xảy ra:*
 
@@ -344,7 +344,7 @@ w' = s_1 \ldots s_{j-1} s_{j+1} \ldots s_q.
 $$
 Vì $q - 1 \leq l(w') \leq q$, suy ra $l(w') = q - 1$ và $(s_1, \ldots, s_{j-1}, s_{j+1}, \ldots, s_q)$ là một phân tích thu gọn của $w'$.
 
-#### Bổ đề 4 {#lie-iv-s1-lem-4 .statement}
+#### Bổ đề 4 {#lie-iv-s1-lem-4 .statement tag=0AM6}
 
 Cho $w \in W$ có độ dài $q \geq 1$, cho D là tập hợp các phân tích thu gọn của $w$, và cho F là một ánh xạ từ D vào một tập hợp E. Giả sử rằng $F(s) = F(s')$ nếu các phần tử $s = (s_1, \ldots, s_q); s' = (s'_1, \ldots, s'_q)$ của D thỏa mãn một trong các giả thiết sau:
 
@@ -373,7 +373,7 @@ với $q - k$ lẻ và $0 \leq k \leq q$.
 
 Ký hiệu (H_j) là mệnh đề "s_j \in D, s_{j+1} \in D \text{ và } F(s_j) \neq F(s_{j+1})". Theo A), (H_j) $\implies$ (H_{j+1}) với $0 \leq j < q$, và (H_q) không được thỏa mãn bởi điều kiện b). Do đó, (H_0) không được thỏa mãn. Vì $s_0 = s'$ và $s_1 = s$, suy ra $F(s) = F(s')$.
 
-#### Mệnh đề 5 {#lie-iv-s1-prop-5 .statement}
+#### Mệnh đề 5 {#lie-iv-s1-prop-5 .statement tag=0AM7}
 
 *Cho M là một nửa nhóm (với phần tử đơn vị 1) và f là một ánh xạ từ S vào M. Với s, $s' \in S$, đặt m(s, s') là cấp của ss' và đặt*
 
@@ -410,7 +410,7 @@ $$
 
 ### 6. ĐẶC TRƯNG CỦA CÁC NHÓM COXETER
 
-#### Định lý 1 {#lie-iv-s1-thm-1 .statement}
+#### Định lý 1 {#lie-iv-s1-thm-1 .statement tag=0AM8}
 
 (W, S) là một hệ Coxeter khi và chỉ khi nó thỏa mãn điều kiện trao đổi (E) của no. 5.
 
@@ -462,7 +462,7 @@ Nếu $1 \leq j \leq q$, ta sẽ có $sw = s_1 \ldots s_{j-1} s_{j+1} \ldots s_q
 
 Ngược lại, ta có kết quả sau:
 
-#### Mệnh đề 6 {#lie-iv-s1-prop-6 .statement}
+#### Mệnh đề 6 {#lie-iv-s1-prop-6 .statement tag=0AM9}
 
 *Cho* $(P_s)_{s \in S}$ *là một họ các tập con của* $W$ *thỏa mãn* (C) *và các điều kiện sau*:
 
@@ -495,13 +495,13 @@ So sánh a) và b) chứng minh rằng $P_s$ gồm các $w \in W$ sao cho $l(sw)
 
 Trong số này, ta giả sử rằng $(W, S)$ là một hệ Coxeter. Với mọi tập con $X$ của $S$, ta ký hiệu $W_X$ là nhóm con của $W$ sinh bởi $X$.
 
-#### Mệnh đề 7 {#lie-iv-s1-prop-7 .statement}
+#### Mệnh đề 7 {#lie-iv-s1-prop-7 .statement tag=0AMA}
 
 *Cho $w$ thuộc* $W$. *Tồn tại một tập con* $S_w$ *của* $S$ *sao cho* $\{s_1, \ldots, s_q\} = S_w$ *với mọi phân tích rút gọn* $(s_1, \ldots, s_q)$ *của* $w$.
 
 Ký hiệu $M$ là nửa nhóm gồm các tập con của $S$ với luật hợp thành $(A, B) \mapsto A \cup B$; phần tử đơn vị của $M$ là $\varnothing$. Đặt $f(s) = \{s\}$ với $s \in S$. Ta sẽ áp dụng Mệnh đề 5 của no. 5 cho $M$ và $f$. Ta có $a(s, s') = \{s, s'\}$ với $s, s'$ thuộc $S$ nếu $m(s, s')$ là hữu hạn, do đó tồn tại một ánh xạ $g : w \mapsto S_w$ từ $W$ vào $M$ sao cho $g(w) = f(s_1) \cup \cdots \cup f(s_q)$, nghĩa là $S_w = \{s_1, \ldots, s_q\}$ đối với mọi $w \in W$ và mọi phân tích rút gọn $(s_1, \ldots, s_q)$ của $w$.
 
-#### Hệ quả 1 {#lie-iv-s1-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#lie-iv-s1-prop-7-cor-1 .statement tag=0AMB}
 
 *Với mọi tập con $X$ của $S$, nhóm con $W_X$ của $W$ gồm các phần tử $w$ của $W$ sao cho $S_w \subset X$.
 
@@ -519,25 +519,25 @@ $$
 
 bằng quy nạp theo độ dài của $w$. Theo (23) và (24), tập hợp $U$ gồm các $w \in W$ sao cho $S_w \subset X$ là một nhóm con của $W$; ta có $X \subset U \subset W_X$, do đó $U = W_X$.
 
-#### Hệ quả 2 {#lie-iv-s1-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#lie-iv-s1-prop-7-cor-2 .statement tag=0AMC}
 
 *Với mọi tập con $X$ của $S$, ta có $W_X \cap S = X$.
 
 Điều này suy ra từ Hệ quả 1 và công thức $S_s = \{s\}$ với $s$ thuộc $S$.
 
-#### Hệ quả 3 {#lie-iv-s1-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#lie-iv-s1-prop-7-cor-3 .statement tag=0AMD}
 
 *Tập hợp $S$ là một tập sinh cực tiểu của $W$.
 
 Nếu $X \subset S$ sinh ra $W$, thì $W = W_X$ và do đó $X = S \cap W_X = S$ theo Hệ quả 2.*
 
-#### Hệ quả 4 {#lie-iv-s1-prop-7-cor-4 .statement}
+#### Hệ quả 4 {#lie-iv-s1-prop-7-cor-4 .statement tag=0AME}
 
 *Với mọi tập con $X$ của $S$ và mọi $w$ trong $W_X$, độ dài của $w$ đối với tập sinh $X$ của $W_X$ bằng $l_S(w)$.
 
 Cho $(s_1, \ldots, s_q)$ là một phân tích rút gọn của $w$ được xem như một phần tử của $W$. Ta có $w = s_1 \ldots s_q$ và $s_j \in X$ với $1 \leq j \leq q$ (Hệ quả 1); hơn nữa, $w$ không thể là một tích của $q' < q$ phần tử của $X \subset S$ theo định nghĩa của $q = l_S(w)$.*
 
-#### Định lý 2 {#lie-iv-s1-thm-2 .statement}
+#### Định lý 2 {#lie-iv-s1-thm-2 .statement tag=0AMF}
 
 (i) *Với mọi tập con $X$ của $S$, cặp $(W_X, X)$ là một hệ Coxeter.*
 
@@ -555,7 +555,7 @@ Các khẳng định (ii) và (iii) suy ra ngay lập tức từ Hệ quả 1 c�
 
 ### 9. MA TRẬN COXETER VÀ ĐỒ THỊ COXETER
 
-#### Định nghĩa 4 {#lie-iv-s1-def-4 .statement}
+#### Định nghĩa 4 {#lie-iv-s1-def-4 .statement tag=0AMG}
 
 Cho $I$ là một tập hợp. Một ma trận Coxeter kiểu $I$ là một ma trận vuông đối xứng $M = (m_{ij})_{i,j \in I}$ mà các phần tử của nó là các số nguyên hoặc $+\infty$ thỏa mãn các hệ thức
 $$
@@ -607,7 +607,7 @@ Chúng tôi sẽ chỉ ra sau (Chương V, § 4) rằng, ngược lại, mọi m
 
 Một hệ Coxeter $(W, S)$ được gọi là *bất khả quy* nếu đồ thị nền của đồ thị Coxeter của nó là *liên thông* (Phụ lục, no. 2) và *không rỗng*. Tương đương, S là không rỗng và không tồn tại một phân hoạch của S thành hai tập con phân biệt S' và S'' của S sao cho mọi phần tử của S' giao hoán với mọi phần tử của S''. Nói chung hơn, cho $(\Gamma_i)_{i \in I}$ là họ các thành phần liên thông của $\Gamma$ (Phụ lục, no. 2) và cho $S_i$ là tập hợp các đỉnh của $\Gamma_i$. Cho $W_i = W_{S_i}$ là nhóm con của W sinh bởi $S_i$ (xem no. 8). Khi đó các $(W_i, S_i)$ là các hệ Coxeter bất khả quy (no. 8, Th. 2) được gọi là các *thành phần bất khả quy* của $(W, S)$. Hơn nữa, nhóm W là *tích trực tiếp hạn chế*[^1] của các nhóm con $W_i$ với $i \in I$. Thật vậy, điều này suy ra từ mệnh đề tổng quát hơn sau:
 
-#### Mệnh đề 8 {#lie-iv-s1-prop-8 .statement}
+#### Mệnh đề 8 {#lie-iv-s1-prop-8 .statement tag=0AMH}
 
 Cho $(S_i)_{i \in I}$ là một phân hoạch của S sao cho mọi phần tử của $S_i$ giao hoán với mọi phần tử của $S_j$ nếu $i \neq j$. Với mọi $i \in I$, cho $W_i$ là nhóm con sinh bởi $S_i$. Khi đó W là tích trực tiếp hạn chế của họ $(W_i)_{i \in I}$.
 

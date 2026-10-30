@@ -26,7 +26,7 @@ subsections:
       pdf_page: 164
 statements: 9
 exercises: 2
-content_sha256: b22fcca32edb8c048494f8e4f6d1ad997c5c8e8fa99cca92495015a815167f16
+content_sha256: 78e02bd4dc876b3048a94f73005ab8517b4d5901694e4db83a14a81adc032121
 translated_from: content/en/alg/V/08_s8_norms_and_traces.md
 source_content_sha256: 79621cc362921900b2880147d98a69d3c70fd45a623941128cab378eac8bd66c
 translation_model: gpt-5.4
@@ -101,7 +101,7 @@ $$
 D_{A/K}(x_1, \ldots, x_r) \cdot 1 = [\det u_i(x_j)]^2 .
 $$
 
-#### Mệnh đề 1 {#alg-v-s8-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s8-prop-1 .statement tag=06L9}
 
 — *Cho $A$ là một đại số giao hoán bậc hữu hạn trên $K$. Khi đó các điều kiện sau là tương đương*:
 a) *Đại số $A$ là étale.*
@@ -119,7 +119,7 @@ chỉ có nghiệm $\lambda_1 = \cdots = A, = 0$ trong L. Bây giờ quan hệ (
 
 Sự tương đương của b) và c) là hệ quả của bổ đề tổng quát sau đây:
 
-#### Bổ đề 1 {#alg-v-s8-lem-1 .statement}
+#### Bổ đề 1 {#alg-v-s8-lem-1 .statement tag=06LA}
 
 Cho V là một không gian vectơ số chiều hữu hạn trên K và B một dạng song tuyến tính *trên* V x V. Cho $(v_1, \ldots, v_n)$ *là một cơ sở của* V *trên* K *và* $\Delta = \det B(v_i, v_j)$. Khi đó $\Delta \neq 0$ khi và chỉ *khi*, với mỗi $x \neq 0$ trong V tồn tại y trong V sao cho $B(x, y) \neq 0$.
 
@@ -133,7 +133,7 @@ chỉ có nghiệm $A, = \cdots = A, = 0$ trong K. Nếu đặt $x = \sum_{i=1}^
 
 Ta hãy chứng minh rằng điều kiện c) kéo theo A là rút gọn. Cho x là một phần tử lũy linh của A: với mọi $y \in A$ phần tử xy là lũy linh, và do đó tự đồng cấu $L_{xy}$ của không gian vectơ A là lũy linh. Bây giờ bổ đề sau đây kéo theo $\mathrm{Tr}(xy) = 0$ với mọi $y \in A$, do đó $x = 0$ dưới giả thiết c).
 
-#### Bổ đề 2 {#alg-v-s8-lem-2 .statement}
+#### Bổ đề 2 {#alg-v-s8-lem-2 .statement tag=06LB}
 
 Cho V là một không gian vectơ số chiều hữu hạn trên K và $u$ một tự đồng cấu lũy linh của V, khi đó $\mathrm{Tr}(u) = 0$.
 
@@ -141,7 +141,7 @@ Với mỗi số nguyên $n \geq 0$ gọi $V_n$ là ảnh của $u^n$. Vì $u$ l
 
 Sau cùng ta hãy chứng minh rằng b) kéo theo a). Cho $(x_1, \ldots, x_n)$ là một cơ sở của A trên K sao cho $D_{A/K}(x_1, \ldots, x_n) \neq 0$. Cho K' là một mở rộng của K, A' là K'-đại số dẫn xuất từ A bằng mở rộng vô hướng và $x'_i = 1 \otimes x_i$ với $1 \leq i \leq n$. Theo Công thức (2) (V, p. 47) ta có $D_{A'/K'}(x'_1, \ldots, x'_n) \neq 0$. Áp dụng kết quả trên cho A' ta thấy rằng A' là rút gọn, do đó đại số A là étale (V, p. 34, ĐL. 4).
 
-#### Hệ quả {#alg-v-s8-n2-cor-1 .statement}
+#### Hệ quả {#alg-v-s8-n2-cor-1 .statement tag=06LC}
 
 — Cho E là một mở rộng *bậc hữu hạn* của K. Để E tách được thì điều kiện cần và đủ là tồn tại $a$ trong E sao cho $\mathrm{Tr}_{E/K}(a) \neq 0$.
 
@@ -151,7 +151,7 @@ Sau cùng ta hãy chứng minh rằng b) kéo theo a). Cho $(x_1, \ldots, x_n)$ 
 
 Các công thức bắc cầu trong các đại số (III, p. 548) kéo theo mệnh đề sau đây trong trường hợp các mở rộng bậc hữu hạn.
 
-#### Mệnh đề 2 {#alg-v-s8-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s8-prop-2 .statement tag=06LD}
 
 — Cho F là một mở rộng bậc hữu hạn của K và E một mở rộng con của F. Khi đó với mọi $x \in F$ ta có
 $$
@@ -159,7 +159,7 @@ $$
 \text{N}_{F/K}(x) = \text{N}_{E/K}(\text{N}_{F/E}(x)) .
 $$
 
-#### Hệ quả {#alg-v-s8-n3-cor-1 .statement}
+#### Hệ quả {#alg-v-s8-n3-cor-1 .statement tag=06LE}
 
 — Đặt $m = [F : E]$; khi đó với mọi $x \in E$ ta có
 $$
@@ -167,7 +167,7 @@ $$
 \text{N}_{F/K}(x) = \text{N}_{E/K}(x)^m .
 $$
 
-#### Mệnh đề 3 {#alg-v-s8-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s8-prop-3 .statement tag=06LF}
 
 — Cho E là một mở rộng bậc hữu hạn $n$ của K và x là một phần tử của E, bậc $d$ trên K. Viết $f(X) = X^d + \sum_{i=1}^d a_i X^{d-i}$ là đa thức tối tiểu của X trên K. Khi đó ta có
 $$
@@ -177,7 +177,7 @@ $$
 
 Mệnh đề 3 suy ra trực tiếp từ Hệ quả của Mệnh đề 2 và bổ đề sau:
 
-#### Bổ đề 3 {#alg-v-s8-lem-3 .statement}
+#### Bổ đề 3 {#alg-v-s8-lem-3 .statement tag=06LG}
 
 Cho R là một vành giao hoán, $f(X) = X^d + \sum_{i=1}^d a_i X^{d-i}$ là một đa thức đơn khởi của $\mathbf{R}[X]$, A là đại số trên R $\mathbf{R}[X]/(f)$ và x là lớp thặng dư của X trong A. Khi đó $\text{Tr}_{A/R}(x) = -a_1$ và $\text{N}_{A/R}(x) = (-1)^d a_d$.
 
@@ -229,7 +229,7 @@ $$
 
 c) *Trường hợp tổng quát*: ta có thể tóm tắt việc tính chuẩn và vết trong mệnh đề sau:
 
-#### Mệnh đề 4 {#alg-v-s8-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s8-prop-4 .statement tag=06LH}
 
 *Cho p là số mũ đặc số của K và E là một mở rộng bậc hữu hạn của K. Cho $\sigma_1, \ldots, \sigma_n$ là các K-đồng cấu phân biệt của E vào một bao đóng đại số $\Omega$ của K, và đặt $p^e = [E:K]_i$. Với mỗi $x \in E$ ta có trong $\Omega$*
 

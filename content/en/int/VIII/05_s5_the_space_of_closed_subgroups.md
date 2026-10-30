@@ -37,7 +37,7 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: 01870d0b77fcb1c4a2b7e865b1bb359c7cdf4ab495746a2c27d2b9cb17aef38e
+content_sha256: 0d59b39eb609eb19a1cde4e7e71ffe935476923daecf7a76ec5c3f620241a549
 ---
 
 ## § 5. THE SPACE OF CLOSED SUBGROUPS
@@ -46,7 +46,7 @@ Throughout this section, G denotes a locally compact group and $\mu$ a right Haa
 
 ### 1. The space of Haar measures on the closed subgroups of G
 
-#### Lemma 1 {#int-viii-s5-lem-1 .statement}
+#### Lemma 1 {#int-viii-s5-lem-1 .statement tag=09LY}
 
 Let $\alpha$ be a positive measure $\neq 0$ on G, S its support; the following two conditions are equivalent:
 a) S is a closed subgroup of G and the measure induced by $\alpha$ on S is a right Haar measure on S.
@@ -56,17 +56,17 @@ It is clear that a) implies b); conversely, the relation b) implies that $Sx = S
 
 For the rest of the section, we denote by $\Gamma$ the set of positive measures $\neq 0$ on G satisfying the conditions of Lemma 1, and for every $\alpha \in \Gamma$ we denote by $H_\alpha$ the closed subgroup of G that is the support of $\alpha$.
 
-#### Proposition 1 {#int-viii-s5-prop-1 .statement}
+#### Proposition 1 {#int-viii-s5-prop-1 .statement tag=09LZ}
 
 The set $\Gamma$ is closed in the space $\mathscr{M}_+(G) - \{0\}$ equipped with the vague topology.
 We first prove the following lemmas:
 
-#### Lemma 2 {#int-viii-s5-lem-2 .statement}
+#### Lemma 2 {#int-viii-s5-lem-2 .statement tag=09M0}
 
 Let X be a locally compact space and for every measure $\alpha \in \mathscr{M}_+(X) - \{0\}$, let $S_\alpha$ be the support of $\alpha$. Let $\Phi$ be a filter on $\mathscr{M}_+(X) - \{0\}$ that converges vaguely to a measure $\alpha_0 \neq 0$. Then, for every neighborhood V of a point s of the support of $\alpha_0$, there exists a set $M \in \Phi$ such that, for every $\alpha \in M$, one has $V \cap S_\alpha \neq \varnothing$.
 For, if $\varphi \in \mathscr{K}_+(X)$ is a function with support contained in V and such that $\int \varphi(x) d\alpha_0(x) > 0$, by definition there exists a set $M \in \Phi$ such that $\int \varphi(x) d\alpha(x) > 0$ for all $\alpha \in M$, which implies $V \cap S_\alpha \neq \varnothing$.
 
-#### Lemma 3 {#int-viii-s5-lem-3 .statement}
+#### Lemma 3 {#int-viii-s5-lem-3 .statement tag=09M1}
 
 Let E be a set filtered by a filter $\Phi$, and let $\xi \mapsto \alpha(\xi)$ be a mapping of E into $\Gamma$ that converges vaguely with respect to $\Phi$ to a measure $\alpha_0 \neq 0$. On the other hand, let $\xi \mapsto t_\xi$ be a mapping of $E$ into $G$ such that $t_\xi \in H_{\alpha(\xi)}$ for every $\xi \in E$. If $s$ is a cluster point of the mapping $\xi \mapsto t_\xi$ with respect to $\Phi$, then $\delta(s)\alpha_0 = \alpha_0$.
 
@@ -74,7 +74,7 @@ Replacing if necessary $\Phi$ by a finer filter, we can suppose that $s$ is a li
 
 To prove Prop. 1 it suffices, by Lemma 1, to show that if a filter $\Psi$ on $\Gamma$ converges vaguely to a measure $\alpha_0 \neq 0$ and if $s$ belongs to the support of $\alpha_0$, then $\delta(s)\alpha_0 = \alpha_0$. Now, for every neighborhood $V$ of $s$ in $G$, there exists an $M \in \Psi$ such that, for every $\alpha \in M$, one has $V \cap H_\alpha \neq \varnothing$, by Lemma 2. For every neighborhood $V$ of $s$ and every $\alpha \in \Gamma$, let $t_{V,\alpha}$ be a point of $V \cap H_\alpha$ if $V \cap H_\alpha \neq \varnothing$, and any point of $H_\alpha$ in the contrary case; if $\Theta$ is the section filter of the filter of neighborhoods of $s$, and $\Phi$ is the product filter $\Theta \times \Psi$, then $s$ is, by the foregoing, a cluster point of $(V, \alpha) \mapsto t_{V,\alpha}$ with respect to $\Phi$. Since, on the other hand, the mapping $(V, \alpha) \mapsto \alpha$ has $\alpha_0$ as limit with respect to $\Phi$, the proposition follows from Lemma 3.
 
-#### Proposition 2 {#int-viii-s5-prop-2 .statement}
+#### Proposition 2 {#int-viii-s5-prop-2 .statement tag=09M2}
 
 — Let $\varphi$ be a function in $\mathscr{K}_+(G)$ such that $\varphi(e) > 0$. Then the set $\Gamma_\varphi$ of measures $\alpha \in \Gamma$ such that $\int \varphi(x)\,d\alpha(x) = 1$ is compact for the vague topology.
 
@@ -84,7 +84,7 @@ Vx = Vv^{-1}h \subset V^2h \subset Uh,
 $$
 and since $\delta(h)\alpha = \alpha$, it follows that $\alpha(Vx) \leq \alpha(Uh) = \alpha(U) \leq c$. Now let $(x_i)_{1 \leq i \leq n}$ be a sequence of points of $K$ such that the $Vx_i$ form a covering of $K$; it follows from the foregoing that $\alpha(K) \leq \sum_{i=1}^n \alpha(Vx_i) \leq nc$ for every $\alpha \in \Gamma_\varphi$; Q.E.D.
 
-#### Proposition 3 {#int-viii-s5-prop-3 .statement}
+#### Proposition 3 {#int-viii-s5-prop-3 .statement tag=09M3}
 
 — *Under the hypotheses of Prop. 2, the mapping* $\alpha \mapsto \left( \langle \varphi, \alpha \rangle, \frac{\alpha}{\langle \varphi, \alpha \rangle} \right)$ *is a homeomorphism of* $\Gamma$ *onto the product space* $\mathbf{R}_+^* \times \Gamma_\varphi$.
 
@@ -108,7 +108,7 @@ $$
 
 where $\dot{x} = \pi_\alpha(x)$ is the canonical image of $x \in G$ in $Q_\alpha$.
 
-#### Proposition 4 {#int-viii-s5-prop-4 .statement}
+#### Proposition 4 {#int-viii-s5-prop-4 .statement tag=09M4}
 
 — *Let* $\Gamma^0$ *be the set of measures* $\alpha \in \Gamma$ *such that* $H_\alpha$ *is unimodular, and for every* $\alpha \in \Gamma^0$ *set* $\mu_\alpha = \mu / \alpha$; *then the mapping* $\alpha \mapsto \| \mu_\alpha \|$ *of* $\Gamma^0$ *into* $\overline{\mathbf{R}}$ *is lower semi-continuous for the vague topology*.
 
@@ -140,7 +140,7 @@ The conclusion therefore follows from the fact that the mapping $\alpha \mapsto 
 
 Recall that if, for a measure $\alpha \in \Gamma^0$, $\|\mu_\alpha\|$ is finite, then G is necessarily unimodular (Ch. VII, §2, No. 6, Cor. 3 of Th. 3).
 
-#### Proposition 5 {#int-viii-s5-prop-5 .statement}
+#### Proposition 5 {#int-viii-s5-prop-5 .statement tag=09M5}
 
 *Let g be a $\mu$-integrable positive numerical function and let $\Gamma^0(g)$ be the set of measures $\alpha \in \Gamma^0$ such that $\int^* g(xs)\, d\alpha(s) \geq 1$ for all $x \in G$. Then the mapping $\alpha \mapsto \|\mu_\alpha\|$ of $\Gamma^0(g)$ into $\overline{\mathbf{R}}$ is vaguely continuous.*
 
@@ -188,7 +188,7 @@ $$
 $$
 when $\beta \in U_\varepsilon$, which completes the proof.
 
-#### Corollary 1 {#int-viii-s5-prop-5-cor-1 .statement}
+#### Corollary 1 {#int-viii-s5-prop-5-cor-1 .statement tag=09M6}
 
 — Let $K$ be a compact subset of $G$, $V$ a symmetric compact neighborhood of $e$ in $G$, $c$ a real number $> 0$. The restriction of the mapping $\alpha \mapsto \| \mu_\alpha \|$ to the set of $\alpha \in \Gamma^0$ such that $G = KH_\alpha$ and $\alpha(V) \geq c$ is vaguely continuous.
 
@@ -199,7 +199,7 @@ $$
 
 for $\alpha$ satisfying the conditions of the statement; since, moreover, $\pi_\alpha(K) = Q_\alpha$, one has $\alpha \in \Gamma^0(g)$, whence the corollary.
 
-#### Corollary 2 {#int-viii-s5-prop-5-cor-2 .statement}
+#### Corollary 2 {#int-viii-s5-prop-5-cor-2 .statement tag=09M7}
 
 *Let A be a $\mu$-integrable subset of G. The restriction of the mapping $\alpha \mapsto \| \mu_\alpha \|$ to the set $N_A$ of normalized Haar measures of the discrete subgroups H of G such that $G = AH$, is vaguely continuous.*
 
@@ -215,7 +215,7 @@ and since $\pi_\alpha(A) = Q_\alpha$, one has $N_A \subset \Gamma^0(\varphi_A)$,
 
 Let us denote by $\Sigma$ the set of *closed subgroups* of G; if one associates to each measure $\alpha \in \Gamma$ the subgroup $H_\alpha$ that is the support of $\alpha$, one obtains a mapping (called canonical) of $\Gamma$ into $\Sigma$, which is clearly surjective and permits canonically identifying $\Sigma$ with the set of orbits of the group of homotheties in $\Gamma$ with ratio $> 0$. The set $\Sigma$, equipped with the quotient topology of the vague topology on $\Gamma$, is called *the space of closed subgroups* of G.
 
-#### Theorem 1 {#int-viii-s5-thm-1 .statement}
+#### Theorem 1 {#int-viii-s5-thm-1 .statement tag=09M8}
 
 *Let G be a locally compact group. The space $\Sigma$ of closed subgroups of G is compact. Moreover, one has the following properties:*
 
@@ -229,7 +229,7 @@ It follows from Prop. 3 of No. 1 that $\Sigma$ is homeomorphic to $\Gamma_\varph
 
 Property (ii) will be a consequence of the following proposition:
 
-#### Proposition 6 {#int-viii-s5-prop-6 .statement}
+#### Proposition 6 {#int-viii-s5-prop-6 .statement tag=09M9}
 
 *Suppose that the locally compact group G is generated by a compact neighborhood of e. Then the set $\Gamma_c^0$ of measures $\alpha \in \Gamma^0$* such that $G/H_\alpha$ is compact is open in $\Gamma^0$, and the restriction to $\Gamma_c^0$ of the mapping $\alpha \mapsto \| \mu_\alpha \|$ is vaguely continuous.
 
@@ -255,7 +255,7 @@ from which one deduces, by induction on $n$, that $L^n K \subset KH_\beta$ for e
 
 Finally, (iii) will be a consequence of the following proposition:
 
-#### Proposition 7 {#int-viii-s5-prop-7 .statement}
+#### Proposition 7 {#int-viii-s5-prop-7 .statement tag=09MA}
 
 *Let $N \subset \Gamma^0$ be the subspace of normalized Haar measures on the discrete subgroups of G, and for every relatively compact open neighborhood U of e in G, let $N_U$ be the subset of N formed by the $\alpha$ such that $H_\alpha \cap U = \{e\}$. Then:
 a) $N_U$ is compact.
@@ -272,13 +272,13 @@ $$
 
 Now, if $A$ is compact (resp. open and relatively compact) in $G$, then the mapping $\alpha \mapsto \alpha(A)$ of $\mathscr{M}_+(G)$ into $\mathbf{R}$ is upper (resp. lower) semi-continuous for the vague topology (Ch. IV, §4, No. 4, Cor. 3 of Prop. 5 and loc. cit., §1, No. 1, Prop. 4); we thus see that $N_U$ is a closed subset of $\Gamma^0$. Moreover, let $\varphi \in \mathscr{K}_+(G)$ be a function such that $\varphi(e) = 1$ and $\varphi(x) = 0$ on $G - U$; it is clear that $\int \varphi(x) d\alpha(x) = 1$ for all $\alpha \in N_U$; Prop. 2 of No. 1 therefore shows that $N_U$ is a compact set, which proves a). On the other hand let $V$ be a relatively compact open neighborhood of $e$ in $G$ such that $\overline{V} \subset U$, and let $\varphi \in \mathscr{K}_+(G)$, with support contained in $U$ and such that $\varphi(x) = 1$ on $V$. Then $\alpha(\varphi) = 1$ for $\alpha \in N_U$, therefore there exists a neighborhood $W$ of $\alpha$ in $N$ such that $\beta(\varphi) < 2$ for $\beta \in W$; it is then clear that $W \subset N_V$, therefore $N_V$ is a neighborhood of $N_U$. Since the $N_U$ cover $N$, this proves b). Finally, every compact subset $M$ of $N$ is contained in a finite union of sets $N_{U_i}$ ($1 \leq i \leq n$), and since $\bigcup_i N_{U_i} \subset N_U$, where $U = \bigcap_i U_i$, this proves c).
 
-#### Corollary {#int-viii-s5-n3-cor-1 .statement}
+#### Corollary {#int-viii-s5-n3-cor-1 .statement tag=09MB}
 
 — *The subspace* $N$ *of* $\Gamma^0$ *is locally compact*.
 
 ### 4. The case of groups without arbitrarily small finite subgroups
 
-#### Theorem 2 {#int-viii-s5-thm-2 .statement}
+#### Theorem 2 {#int-viii-s5-thm-2 .statement tag=09MC}
 
 — *Let* $G$ *be a locally compact group satisfying the following condition*:
 (L) *There exists a neighborhood of* $e$ *in* $G$ *that contains no finite subgroup of* $G$ *not reduced to* $e$.
@@ -291,13 +291,13 @@ We have $D_c = D \cap \Sigma_c^0$, therefore (iii) is a consequence of (i), and 
 
 With the notations of No. 3, Prop. 7, it suffices, for proving (i) and (ii), to prove that:
 
-#### Proposition 8 {#int-viii-s5-prop-8 .statement}
+#### Proposition 8 {#int-viii-s5-prop-8 .statement tag=09MD}
 
 *The canonical bijection of N onto D is a homeomorphism.*
 
 Now, if $\Gamma_d$ is the set of Haar measures on the discrete subgroups of $G$, then $D$ is canonically homeomorphic to the space of orbits of the group of homotheties in $\Gamma_d$ with ratio $> 0$ (GT, I, §5, No. 2, Prop. 4). It therefore suffices to prove that the canonical mapping $\alpha \mapsto (\alpha(\{e\}), \alpha/\alpha(\{e\}))$ of $\Gamma_d$ onto $\mathbf{R}_+^* \times \mathbf{N}$ is a *homeomorphism*, which will result from the following lemma:
 
-#### Lemma 4 {#int-viii-s5-lem-4 .statement}
+#### Lemma 4 {#int-viii-s5-lem-4 .statement tag=09ME}
 
 *If the group G satisfies the condition (L), the mapping $\alpha \mapsto \alpha(\{e\})$ of $\Gamma_d$ into $\mathbf{R}_+^*$ is vaguely continuous.*
 
@@ -329,7 +329,7 @@ In graphic terms, a group $G$ satisfying the condition (L) is said to *not have 
 
 Let $G$ be a locally compact group, $N \subset \Gamma^0$ the subspace of normalized Haar measures on the discrete subgroups of $G$, and $N_c$ the subset of $N$ corresponding to the discrete subgroups $H$ of $G$ such that $G/H$ is *compact*; thus $N_c = N \cap \Gamma_c^0$ in the notations of No. 3, Prop. 6; and if the group $G$ is generated by a compact neighborhood of $e$, it follows from No. 3, Prop. 6 that $N_c$ is *open* in $N$ (hence is *locally compact* by No. 3, Cor. of Prop. 7) and that the restriction to $N_c$ of the mapping $\alpha \mapsto \| \mu_\alpha \|$ is *vaguely continuous*.
 
-#### Proposition 9 {#int-viii-s5-prop-9 .statement}
+#### Proposition 9 {#int-viii-s5-prop-9 .statement tag=09MF}
 
 *Let $G$ be a locally compact abelian group, generated by a compact neighborhood of $e$. For a subset $A$ of $N_c$ to be relatively compact in $N_c$, it is necessary and sufficient that it satisfy the following two conditions:*
 
@@ -339,7 +339,7 @@ Let $G$ be a locally compact group, $N \subset \Gamma^0$ the subspace of normali
 
 If $A \subset N_c$ is relatively compact in $N_c$, it is *a fortiori* so in $N$, and the necessity of the conditions (i) and (ii) therefore follows from No. 3, Props. 6 and 7 (without assuming $G$ to be abelian). Conversely, suppose that $A \subset N_c$ satisfies these conditions; if $\overline{A}$ is the closure of $A$ *in* $N$, then $\overline{A}$ is compact by virtue of No. 3, Prop. 7; moreover, since $\alpha \mapsto \| \mu_\alpha \|$ is lower semi-continuous on $\Gamma^0$ for the vague topology (No. 2, Prop. 4), the condition (ii) implies that one also has $\| \mu_\alpha \| \leq k$ for all $\alpha \in \overline{A}$. Now, since $G$ is abelian, $\mu_\alpha = \mu/\alpha$ is a Haar measure on the group $G/H_\alpha$, and $G/H_\alpha$ is therefore compact for every $\alpha \in \overline{A}$ (Ch. VII, §1, No. 2, Prop. 2). This means that $\overline{A} \subset N_c$, thus $A$ is relatively compact in $N_c$.
 
-#### Corollary {#int-viii-s5-n5-cor-1 .statement}
+#### Corollary {#int-viii-s5-n5-cor-1 .statement tag=09MG}
 
 *Let $G$ be a locally compact abelian group, generated by a compact neighborhood of $e$ and satisfying the condition (L) of No. 4.*
 
@@ -351,7 +351,7 @@ Let $D_c$ be the set of discrete subgroups $H$ of $G$ such that $G/H$ is compact
 
 Taking into account Prop. 9, this follows at once from the fact that $D_c$ is the image of $N_c$ under the canonical bijection of $N$ onto $D$, and the fact that, under the hypotheses made, this bijection is a homeomorphism (No. 4, Prop. 8).
 
-#### Example {#int-viii-s5-n5-exa-1 .statement}
+#### Example {#int-viii-s5-n5-exa-1 .statement tag=09MH}
 
 Let us take $G = \mathbf{R}^n$ and for $\mu$ the Lebesgue measure; all of the hypotheses of the Cor. of Prop. 9 are satisfied. The discrete subgroups $H$ of $G$ such that $G/H$ is compact are none other than the discrete subgroups of *rank* $n$ (GT, VII, §1, No. 1, Th. 1); such a subgroup $H$ is generated by a basis $(a_i)_{1 \leq i \leq n}$ of $\mathbf{R}^n$, and
 

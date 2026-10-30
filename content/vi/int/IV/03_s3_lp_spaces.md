@@ -45,7 +45,7 @@ subsections:
       pdf_page: 138
 statements: 44
 exercises: 3
-content_sha256: 7a68892fa812c51a84ad0c16342b557dfc9fc3f2c18eb2af28def0f5b8e83017
+content_sha256: d0f1971ae383c13a4e5b168e2cf13e1b25a13ddc450c03f80fe540b9f049ed85
 translated_from: content/en/int/IV/03_s3_lp_spaces.md
 source_content_sha256: 990c6868635eb8d33252eba948d26e29837eae81e092411c1ee46078be262311
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -61,7 +61,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho X là một không gian địa phương compact, $\mu$ là một độ đo trên X. Trong tập hợp các hàm số dương (hữu hạn hoặc không) xác định trên X, hàm $|\mu|^*(f)$ là dương, thuần nhất dương, tăng và lồi ($§ 1$, No. 3, Props. 10, 11 và 12).
 
-#### Mệnh đề 1 {#int-iv-s3-prop-1 .statement}
+#### Mệnh đề 1 {#int-iv-s3-prop-1 .statement tag=08QN}
 
 — Với mọi số thực $p \geqslant 1$ và mọi cặp hàm dương $f, g$ (hữu hạn hoặc không) xác định trên X,
 
@@ -95,13 +95,13 @@ $$
 
 Trong toàn bộ phần sau, $F$ ký hiệu một không gian vectơ *đầy đủ có chuẩn* (nghĩa là một không gian Banach) trên trường $\mathbf{R}$ hoặc trường $\mathbf{C}$; *chuẩn* của một phần tử $z \in F$ được ký hiệu là $|z|$. Cho một ánh xạ $f$ của một tập hợp $A$ vào $F$, ta viết $|f|$ để chỉ ánh xạ $x \mapsto |f(x)|$ của $A$ vào $\mathbf{R}_+$ (cần lưu ý rằng $|f|$ là một *hàm số*, chứ không phải một *số*).
 
-#### Định nghĩa 1 {#int-iv-s3-def-1 .statement}
+#### Định nghĩa 1 {#int-iv-s3-def-1 .statement tag=08QO}
 
 *Cho $X$ là một không gian địa phương compact, $\mu$ là một độ đo trên $X$. Với mọi ánh xạ $f$ của $X$ vào một không gian Banach $F$, và với mọi số $p$ sao cho $1 \leq p < +\infty$, ta ký hiệu $N_p(f, \mu)$, hoặc đơn giản là $N_p(f)$, là số dương* $(\int^* |f|^p d|\mu|)^{1/p}$.
 
 Chú ý rằng số $N_p(f)$ có thể bằng $+\infty$.
 
-#### Mệnh đề 2 {#int-iv-s3-prop-2 .statement}
+#### Mệnh đề 2 {#int-iv-s3-prop-2 .statement tag=08QP}
 
 *Giả sử $f$ và $g$ là hai ánh xạ từ $X$ vào $F$, và $\alpha$ là một vô hướng bất kỳ $\neq 0$, khi đó, với $1 \leq p < +\infty$,
 
@@ -122,7 +122,7 @@ $$
 
 đối với một hàm như vậy $f$. Ta thấy ngay lập tức rằng các quan hệ (3) và (4) cũng đúng đối với các hàm này khi $f + g$ được xác định trên $X$ và $\alpha \neq 0$. Hơn nữa:
 
-#### Định lý 1 (định lý lồi đếm được) {#int-iv-s3-thm-1 .statement}
+#### Định lý 1 (định lý lồi đếm được) {#int-iv-s3-thm-1 .statement tag=08QQ}
 
 — *Cho $(f_n)$ là một dãy các hàm $\geq 0$ (hữu hạn hoặc không) xác định trên $X$. Với $1 \leq p < +\infty$,
 
@@ -132,7 +132,7 @@ $$
 
 Đặt $f = \sum_{n=1}^\infty f_n$; $f$ là bao trên của dãy tăng các hàm $g_n = \sum_{k=1}^n f_k$; định nghĩa của $N_p(f)$, và Định lý 3 của §1, No. 3, cho thấy rằng $N_p(f) = \sup_n N_p(g_n)$. Nhưng $N_p(g_n) \leq \sum_{k=1}^n N_p(f_k)$ theo Mệnh đề 1, do đó bất đẳng thức (5).
 
-#### Mệnh đề 3 {#int-iv-s3-prop-3 .statement}
+#### Mệnh đề 3 {#int-iv-s3-prop-3 .statement tag=08QR}
 
 *Nếu f và g là hai ánh xạ tương đương từ X vào một không gian Banach F, thì $N_p(f - g) = 0$ với $1 \leq p < +\infty$; ngược lại, nếu $N_p(f - g) = 0$ với một giá trị $p \geq 1$ thì f và g tương đương.*
 
@@ -161,11 +161,11 @@ Thuật ngữ này được mở rộng ngay lập tức đến trường hợp 
 
 Chú ý rằng không gian lồi địa phương $\mathscr{F}_\mathbf{F}^p$ nói chung *không Hausdorff*; bao đóng của 0 trong không gian này là không gian con tuyến tính $\mathscr{N}_\mathbf{F}$ của các ánh xạ *không đáng kể* từ X vào F (No. 2, Mệnh đề 3).
 
-#### Nhận xét {#int-iv-s3-n3-rem-1 .statement}
+#### Nhận xét {#int-iv-s3-n3-rem-1 .statement tag=08QS}
 
 — Cho F là một không gian Banach *trên trường* $\mathbf{C}$ các số phức; khi đó, với mọi hàm $f \in \mathscr{F}_\mathbf{F}^p$ và mọi số phức $\alpha$, $\alpha f$ thuộc về $\mathscr{F}_\mathbf{F}^p$ và $N_p(\alpha f) = |\alpha| N_p(f)$; nói cách khác, $\mathscr{F}_\mathbf{F}^p$ cũng là một không gian vectơ trên $\mathbf{C}$, và $N_p(f)$ là một bán chuẩn trên không gian vectơ phức này (TVS, II, §1).
 
-#### Mệnh đề 4 {#int-iv-s3-prop-4 .statement}
+#### Mệnh đề 4 {#int-iv-s3-prop-4 .statement tag=08QT}
 
 *Cho $\mathscr{B}$ là một cơ sở lọc trên $\mathscr{F}_\mathbf{F}^p$. Giả sử tồn tại một tập compact $K \subset X$ sao cho, với mọi tập hợp $M \in \mathscr{B}$, tất cả các ánh xạ $f \in M$ đều có giá được chứa trong K. Dưới các điều kiện này, nếu $\mathscr{B}$ hội tụ đều trên X đến $f_0$, thì $f_0$ thuộc về $\mathscr{F}_\mathbf{F}^p$ và $\mathscr{B}$ hội tụ trung bình cấp $p$ đến $f_0$.*
 
@@ -173,7 +173,7 @@ Chú ý rằng không gian lồi địa phương $\mathscr{F}_\mathbf{F}^p$ nói
 
 Do đó, cho $h$ là một ánh xạ liên tục của X vào $[0,1]$, có giá compact, bằng 1 trên K (Ch. III, §1, No. 2, Bổ đề 1). Với mọi $\varepsilon > 0$, tồn tại một $M \in \mathscr{B}$ sao cho, với mọi ánh xạ $f \in M$, $|f(x) - f_0(x)| \leq \varepsilon h(x)$ với mọi $x \in X$. Từ đó, suy ra rằng $N_p(f - f_0) \leq \varepsilon N_p(h)$, do đó có mệnh đề.
 
-#### Mệnh đề 5 {#int-iv-s3-prop-5 .statement}
+#### Mệnh đề 5 {#int-iv-s3-prop-5 .statement tag=08QU}
 
 *Không gian lồi địa phương $\mathscr{F}_\mathbf{F}^p$ là đầy đủ.*
 
@@ -181,7 +181,7 @@ Vì không gian Hausdorff liên kết với $\mathscr{F}_\mathbf{F}^p$ là một
 
 Mệnh đề 5 do đó là một hệ quả của mệnh đề sau:
 
-#### Mệnh đề 6 {#int-iv-s3-prop-6 .statement}
+#### Mệnh đề 6 {#int-iv-s3-prop-6 .statement tag=08QV}
 
 *Cho $(f_n)$ là một dãy các hàm trong $\mathscr{F}_\mathbf{F}^p$ sao cho $\sum_{n=1}^\infty N_p(f_n) < +\infty$. Với các điều kiện này, chuỗi có số hạng tổng quát $f_n(x) \in \mathbf{F}$ là hội tụ tuyệt đối hầu khắp nơi trong $X$. Đặt $f(x) = \sum_{n=1}^\infty f_n(x)$ tại các điểm mà chuỗi hội tụ, và $f(x) = 0$ ở các điểm khác, hàm $f$ thuộc về $\mathscr{F}_\mathbf{F}^p$ và là tổng của chuỗi có số hạng tổng quát $f_n$ (đối với tôpô hội tụ theo trung bình cấp $p$); chính xác hơn, với mọi $n \geqslant 0$,
 
@@ -215,7 +215,7 @@ Các Mệnh đề 5 và 6 do đó đã được chứng minh hoàn toàn.
 
 Không gian vectơ $\mathscr{H}(X; F)$ (mà ta sẽ ký hiệu đơn giản là $\mathscr{H}_F$ nếu không sợ nhầm lẫn), gồm các hàm liên tục từ $X$ vào $F$ với giá compact, hiển nhiên là một không gian con của mỗi không gian vectơ $\mathscr{F}_F^p$.
 
-#### Định nghĩa 2 {#int-iv-s3-def-2 .statement}
+#### Định nghĩa 2 {#int-iv-s3-def-2 .statement tag=08QW}
 
 *Cho một không gian compact địa phương* $X$, *một độ đo* $\mu$ *trên* $X$, *và một không gian Banach* $F$, *ta ký hiệu bởi* $\mathscr{L}_F^p(X, \mu)$ *(hoặc đơn giản là* $\mathscr{L}_F^p(\mu)$, *hoặc* $\mathscr{L}_F^p$) *bao đóng, trong không gian lồi địa phương* $\mathscr{F}_F^p(X, \mu)$, *của không gian vectơ* $\mathscr{H}(X; F)$ *của các ánh xạ liên tục của* $X$ *vào* $F$ *với giá compact.* *Ta ký hiệu bởi* $L_F^p(X, \mu)$ *(hoặc* $L_F^p(\mu)$, *hoặc* $L_F^p$) *không gian* Hausdorff *(chuẩn hóa)* *liên kết với* $\mathscr{L}_F^p(X, \mu)$. *Các hàm thuộc* $\mathscr{L}_F^p$ *được gọi là các hàm khả tích lũy thừa* $p$* (*).
 
@@ -229,23 +229,23 @@ Các hàm trong $\mathscr{L}_F^p$ (tương ứng trong $\mathscr{L}^p$) do đó 
 
 (*) Sự biện minh cho thuật ngữ này sẽ được đưa ra trong §4, No. 2.
 
-#### Nhận xét 1 {#int-iv-s3-n4-rem-1 .statement}
+#### Nhận xét 1 {#int-iv-s3-n4-rem-1 .statement tag=08QX}
 
 Như đã được chỉ ra (§2, No. 5), các hàm khả tích theo lũy thừa $p$ với giá trị trong $\mathbf{F}$ nói chung không tạo thành một không gian vectơ.
 
-#### Nhận xét 2 {#int-iv-s3-n4-rem-2 .statement}
+#### Nhận xét 2 {#int-iv-s3-n4-rem-2 .statement tag=08QY}
 
 Nói chung, không gian $\mathscr{F}_\mathbf{F}^p$ phân biệt với không gian con của nó $\mathscr{L}_\mathbf{F}^p$ (§4, Exer. 8).
 
 Định nghĩa 2 ngay lập tức cho tiêu chuẩn sau:
 
-#### Mệnh đề 7 {#int-iv-s3-prop-7 .statement}
+#### Mệnh đề 7 {#int-iv-s3-prop-7 .statement tag=08QZ}
 
 Để một hàm $\mathbf{f}$ thuộc $\mathscr{L}_\mathbf{F}^p$, điều kiện cần và đủ là, với mọi $\varepsilon > 0$, tồn tại một hàm liên tục $g$ có giá compact sao cho $N_p(\mathbf{f} - g) \leq \varepsilon$.
 
 Nói cách khác, các hàm trong $\mathscr{L}_\mathbf{F}^p$ là các giới hạn của các dãy hàm liên tục có giá compact, đối với tôpô hội tụ theo trung bình cấp $p$.
 
-#### Mệnh đề 8 {#int-iv-s3-prop-8 .statement}
+#### Mệnh đề 8 {#int-iv-s3-prop-8 .statement tag=08R0}
 
 Cho $f$ là một hàm số (hữu hạn hoặc không) được xác định hầu khắp nơi; nếu, với mọi $\varepsilon > 0$, tồn tại hai hàm khả tích theo lũy thừa $p$ $g, h$ sao cho $g \leq f \leq h$ hầu khắp nơi và $N_p(h - g) \leq \varepsilon$, thì $f$ là khả tích theo lũy thừa $p$.
 
@@ -253,7 +253,7 @@ Thật vậy, $f$ là hữu hạn hầu khắp nơi và $N_p(f - g) \leq N_p(h -
 
 Vì, theo định nghĩa, $\mathscr{L}_\mathbf{F}^p$ là một không gian con đóng của $\mathscr{F}_\mathbf{F}^p$, và vì không gian sau là đầy đủ (No. 3, Mệnh đề 5), ta có kết quả sau (GT, II, §3, No. 4, Mệnh đề 8):
 
-#### Định lý 2 {#int-iv-s3-thm-2 .statement}
+#### Định lý 2 {#int-iv-s3-thm-2 .statement tag=08R1}
 
 Không gian $\mathscr{L}_\mathbf{F}^p$ là đầy đủ; không gian $L_\mathbf{F}^p$ là một không gian Banach.
 
@@ -261,7 +261,7 @@ Trong không gian $L_\mathbf{F}^p$, chuẩn $N_p(\tilde{\mathbf{f}})$ của mộ
 
 Định lý 2 có thể được làm sắc hơn như sau:
 
-#### Định lý 3 {#int-iv-s3-thm-3 .statement}
+#### Định lý 3 {#int-iv-s3-thm-3 .statement tag=08R2}
 
 Cho $(\mathbf{f}_n)$ là một dãy Cauchy trong không gian $\mathscr{L}_\mathbf{F}^p$; tồn tại một dãy con $(\mathbf{f}_{n_k})$ của $(\mathbf{f}_n)$ có các tính chất sau:
 1° chuỗi với số hạng tổng quát $N_p(\mathbf{f}_{n_{k+1}} - \mathbf{f}_{n_k})$ là hội tụ;
@@ -271,13 +271,13 @@ Cho $(\mathbf{f}_n)$ là một dãy Cauchy trong không gian $\mathscr{L}_\mathb
 
 Như trong chứng minh của Mệnh đề 5 của No. 3, chỉ cần định nghĩa dãy $(n_k)$ bằng quy nạp, sao cho $N_p(\mathbf{f}_{n_{k+1}} - \mathbf{f}_{n_k}) \leq 2^{-k}$; các phần 2° và 3° khi đó suy ra từ Mệnh đề 6 của No. 3 và sự kiện rằng $\mathscr{L}_\mathbf{F}^p$ là đóng trong $\mathscr{F}_\mathbf{F}^p$. Mặt khác, nếu $h(x)$ là tổng của chuỗi có số hạng tổng quát $|\mathbf{f}_{n_{k+1}}(x) - \mathbf{f}_{n_k}(x)|$, Định lý 1 của No. 2 cho thấy rằng $N_p(h) < +\infty$; do đó, theo định nghĩa của $|\mu|^*$, tồn tại một hàm nửa liên tục dưới $g \geq h + |\mathbf{f}_{n_1}|$ sao cho $N_p(g) < +\infty$, điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 {#int-iv-s3-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s3-thm-3-cor-1 .statement tag=08R3}
 
 — *Nếu một dãy Cauchy* $(f_n)$ *trong không gian* $\mathscr{L}_F^p$ *là sao cho dãy* $(f_n(x))$ *hội tụ hầu khắp nơi đến* $f(x)$*, thì* $f$ *là khả tích theo lũy thừa p và dãy* $(f_n)$ *hội tụ theo trung bình cấp* $p$ *đến* $f$.
 
 Thật vậy, tồn tại một dãy con $(f_{n_k})$ của $(f_n)$ sao cho $(f_{n_k}(x))$ hội tụ hầu khắp nơi đến $g(x)$, trong đó $g$ là một hàm trong $\mathscr{L}_F^p$ sao cho $(f_n)$ hội tụ theo trung bình cấp $p$ đến $g$. Các giả thiết do đó kéo theo rằng $f(x) = g(x)$ hầu khắp nơi, do đó có hệ quả.
 
-#### Hệ quả 2 {#int-iv-s3-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s3-thm-3-cor-2 .statement tag=08R4}
 
 — *Cho* $\mathscr{E}$ *là một tập con trù mật của* $\mathscr{L}_F^p$. *Đối với mọi hàm* $f \in \mathscr{L}_F^p$, *tồn tại một dãy* $(g_n)$ *gồm các hàm trong* $\mathscr{E}$ *có các tính chất sau*:
 
@@ -288,17 +288,17 @@ Thật vậy, vì không gian $\mathscr{L}_F^p$ là mêtric hóa được, tồn
 
 Hệ quả 2 áp dụng đặc biệt cho trường hợp $\mathscr{E}$ được lấy là không gian $\mathscr{K}_F$ gồm các *hàm liên tục có giá compact*.
 
-#### Nhận xét 2 {#int-iv-s3-n4-rem-3 .statement}
+#### Nhận xét 2 {#int-iv-s3-n4-rem-3 .statement tag=08R5}
 
 Một dãy Cauchy $(f_n)$ trong $\mathscr{L}_F^p$ có thể sao cho dãy $(f_n(x))$ không hội tụ *tại bất kỳ điểm nào của* $X$ (Bài tập 1).
 
-#### Nhận xét 3 {#int-iv-s3-n4-rem-4 .statement}
+#### Nhận xét 3 {#int-iv-s3-n4-rem-4 .statement tag=08R6}
 
 Nếu $f$ thuộc về $\mathscr{L}_F^p$, không phải lúc nào cũng có thể tìm được một dãy $(f_n)$ gồm các hàm liên tục có giá compact sao cho dãy $(f_n(x))$ hội tụ *mọi nơi* trong $X$ đến một hàm bằng $f(x)$ hầu khắp nơi (§4, Bài tập 4 c)).
 
 ### 5. Các tính chất của các hàm khả tích theo lũy thừa $p$
 
-#### Định lý 4 {#int-iv-s3-thm-4 .statement}
+#### Định lý 4 {#int-iv-s3-thm-4 .statement tag=08R7}
 
 — *Cho* $F$ *và* $G$ *là hai không gian Banach,* $u$ *là một ánh xạ tuyến tính liên tục từ* $F$ *vào* $G$. *Đối với mọi hàm* $f \in \mathscr{L}_F^p$, *hàm hợp thành* $u \circ f$ *thuộc* $\mathscr{L}_G^p$.
 
@@ -310,41 +310,41 @@ $$
 
 và vì $u \circ g$ liên tục với giá compact, định lý được chứng minh.
 
-#### Hệ quả 1 {#int-iv-s3-thm-4-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s3-thm-4-cor-1 .statement tag=08R8}
 
 — *Cho* $a'$ *là một dạng tuyến tính liên tục trên* $F$; *nếu* $f \in \mathscr{L}_F^p$, *hàm số* $x \mapsto \langle f(x), a' \rangle$ **(ký hiệu là $\langle f, a' \rangle$)* thuộc* $\mathscr{L}^p$.
 
-#### Hệ quả 2 {#int-iv-s3-thm-4-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s3-thm-4-cor-2 .statement tag=08R9}
 
 — Cho n điểm $a_k$ của F ($1 \leq k \leq n$), và n hàm số $f_k$ ($1 \leq k \leq n$) thuộc $\mathscr{L}^p$, hàm $f = \sum_{k=1}^n a_k f_k$ thuộc $\mathscr{L}_F^p$.
 
 Điều này suy ra từ sự kiện rằng ánh xạ $t \mapsto a t$ từ $\mathbf{R}$ vào F là liên tục.
 
-#### Mệnh đề 9 {#int-iv-s3-prop-9 .statement}
+#### Mệnh đề 9 {#int-iv-s3-prop-9 .statement tag=08RA}
 
 — Cho F là một không gian vectơ n-chiều trên $\mathbf{R}$, và cho $(e_k)_{1 \leq k \leq n}$ là một cơ sở của F. Để một hàm $f = \sum_{k=1}^n e_k f_k$ thuộc $\mathscr{L}_F^p$, điều kiện cần và đủ là mỗi hàm số $f_k$ thuộc $\mathscr{L}^p$.
 
 Điều này suy ra ngay từ Hệ quả 1 và 2 của Định lý 4.
 
-#### Mệnh đề 10 {#int-iv-s3-prop-10 .statement}
+#### Mệnh đề 10 {#int-iv-s3-prop-10 .statement tag=08RB}
 
 — Trong không gian $\mathscr{L}_F^p$, không gian con tuyến tính tạo bởi các tổ hợp tuyến tính (hữu hạn) $\sum_k a_k f_k$, trong đó $a_k \in F$ và các $f_k$ là các hàm số liên tục có giá compact, là trù mật (đối với tôpô của sự hội tụ trung bình cấp $p$).
 
 Tập hợp $\mathscr{K}_F$ các ánh xạ liên tục từ X vào F có giá compact, theo định nghĩa là trù mật trong $\mathscr{L}_F^p$. Mặt khác, mọi hàm $g \in \mathscr{K}_F$ có thể được xấp xỉ đều bởi các hàm có dạng $\sum_k a_k f_k$, trong đó các $f_k$ là các hàm liên tục có giá được chứa trong một lân cận compact cố định của giá của $g$ (Ch. III, §1, No. 2, Bổ đề 2); do đó (No. 3, Mệnh đề 4) $g$ thuộc bao đóng trong $\mathscr{L}_F^p$ của tập hợp các $\sum_k a_k f_k$, do đó có mệnh đề.
 
-#### Mệnh đề 11 {#int-iv-s3-prop-11 .statement}
+#### Mệnh đề 11 {#int-iv-s3-prop-11 .statement tag=08RC}
 
 — Nếu một hàm $f$ thuộc $\mathscr{L}_F^p$, thì hàm $|f|$ thuộc $\mathscr{L}^p$, và ánh xạ $f \mapsto |f|$ từ $\mathscr{L}_F^p$ vào $\mathscr{L}^p$ là liên tục đều (đối với tôpô của sự hội tụ trung bình cấp $p$).
 
 Với mọi $\varepsilon > 0$ tồn tại một hàm liên tục $g$ có giá compact, sao cho $N_p(f - g) \leq \varepsilon$; vì $||f| - |g|| \leq |f - g|$, ta có $N_p(|f| - |g|) \leq \varepsilon$, điều này chứng minh rằng $|f| \in \mathscr{L}^p$. Mặt khác, nếu $f_1, f_2$ là hai hàm trong $\mathscr{L}_F^p$ thì $N_p(|f_1| - |f_2|) \leq N_p(f_1 - f_2)$, điều này chỉ ra rằng $f \mapsto |f|$ là một ánh xạ liên tục đều.
 
-#### Mệnh đề 12 {#int-iv-s3-prop-12 .statement}
+#### Mệnh đề 12 {#int-iv-s3-prop-12 .statement tag=08RD}
 
 — Để một hàm số $f$ thuộc $\mathscr{L}^p$, điều kiện cần và đủ là mỗi một trong các hàm $f^+$ và $f^-$ thuộc $\mathscr{L}^p$.
 
 Điều kiện là đủ vì $f = f^+ - f^-$; nó là cần thiết, bởi vì nếu $f \in \mathscr{L}^p$ thì $|f| \in \mathscr{L}^p$ (Mệnh đề 11).
 
-#### Hệ quả {#int-iv-s3-n5-cor-1 .statement}
+#### Hệ quả {#int-iv-s3-n5-cor-1 .statement tag=08RE}
 
 — Bao trên (tương ứng bao dưới) của một họ hữu hạn các hàm trong $\mathscr{L}^p$ thuộc $\mathscr{L}^p$.
 
@@ -352,7 +352,7 @@ Với mọi $\varepsilon > 0$ tồn tại một hàm liên tục $g$ có giá co
 
 Ta đã định nghĩa (§ 2, No. 6) một quan hệ thứ tự $\tilde{f} \leq \tilde{g}$ trong tập hợp $\widetilde{\mathscr{F}}$ gồm các lớp tương đương của các hàm số được xác định và hữu hạn hầu khắp nơi trong $X$; được trang bị quan hệ thứ tự này và cấu trúc không gian vectơ của nó, $\widetilde{\mathscr{F}}$ là một *không gian Riesz*. Hệ quả của Mệnh đề 12 của No. 5 chỉ ra rằng nếu $\tilde{f}$ và $\tilde{g}$ là hai phần tử của không gian con $L^p$ của $\widetilde{\mathscr{F}}$, thì cận trên đúng $\sup(\tilde{f}, \tilde{g})$ của $\tilde{f}$ và $\tilde{g}$ trong $\widetilde{\mathscr{F}}$ (là lớp của mỗi hàm $\sup(f, g)$, trong đó $f \in \tilde{f}$ và $g \in \tilde{g}$) thuộc $L^p$; điều này đặc biệt chứng minh rằng $L^p$, được trang bị quan hệ thứ tự cảm sinh bởi quan hệ của $\widetilde{\mathscr{F}}$, là một *không gian Riesz*.
 
-#### Mệnh đề 13 {#int-iv-s3-prop-13 .statement}
+#### Mệnh đề 13 {#int-iv-s3-prop-13 .statement tag=08RF}
 
 *Trong không gian Riesz $L^p$, được trang bị tôpô xác định bởi chuẩn $\| \tilde{f} \|_p$, ánh xạ $\tilde{f} \mapsto | \tilde{f} |$ là liên tục đều, và tập hợp các phần tử $\tilde{f} \geq 0$ là đóng.*
 
@@ -360,7 +360,7 @@ Phần thứ nhất của mệnh đề suy ra ngay từ Mệnh đề 11 của No
 
 Do đó ta thấy rằng tôpô trên $L^p$ xác định bởi chuẩn $\| \tilde{f} \|_p$ là *tương thích* với cấu trúc không gian vectơ có thứ tự của $L^p$ (TVS, II, § 2, No. 7).
 
-#### Mệnh đề 14 {#int-iv-s3-prop-14 .statement}
+#### Mệnh đề 14 {#int-iv-s3-prop-14 .statement tag=08RG}
 
 *Cho $H$ là một tập con của không gian Riesz $L^p$, gồm các lớp $\geq 0$ và có hướng đối với quan hệ $\leq$. Để $H$ có một cận trên đúng trong $L^p$, điều kiện cần và đủ là*
 
@@ -374,7 +374,7 @@ $$
 
 Để thấy rằng $\mathfrak{F}$ là một cơ sở của một lọc Cauchy, ta sẽ sử dụng bổ đề sau:
 
-#### Bổ đề {#int-iv-s3-n6-lem-1 .statement}
+#### Bổ đề {#int-iv-s3-n6-lem-1 .statement tag=08RH}
 
 Nếu $f$ và $g$ là hai hàm trong $\mathscr{L}^p$ sao cho $0 \leq f \leq g$, thì
 
@@ -392,7 +392,7 @@ và khi đó là một hệ quả của bất đẳng thức sơ cấp $(g - f)^
 
 Sau khi bổ đề đã được thiết lập, với mọi $\varepsilon > 0$ tồn tại theo giả thiết một $\tilde{f} \in \mathrm{H}$ sao cho, với mọi $\tilde{g} \geq \tilde{f}$ thuộc $\mathrm{H}$, ta có $(\|\tilde{g}\|_p)^p - (\|\tilde{f}\|_p)^p \leq \varepsilon$; từ đó suy ra rằng $(\|\tilde{g} - \tilde{f}\|_p)^p \leq \varepsilon$; do đó, nếu $\tilde{g}_1$ và $\tilde{g}_2$ là hai phần tử trong $\mathrm{H}$ mà $\geq \tilde{f}$, thì $\|\tilde{g}_1 - \tilde{g}_2\|_p \leq 2\varepsilon^{1/p}$, điều này chứng minh rằng $\mathfrak{F}$ là một cơ sở lọc Cauchy trên $L^p$ và hoàn tất chứng minh của Mệnh đề 14.
 
-#### Hệ quả 1 {#int-iv-s3-prop-14-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s3-prop-14-cor-1 .statement tag=08RI}
 
 Nếu $\tilde{g}$ là supremum của $\mathrm{H}$ trong $L^p$, thì
 
@@ -402,7 +402,7 @@ $$
 
 Điều này suy ra từ tính liên tục của chuẩn $\|\tilde{f}\|_p$ trong $L^p$, và định lý giới hạn đơn điệu.
 
-#### Hệ quả 2 {#int-iv-s3-prop-14-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s3-prop-14-cor-2 .statement tag=08RJ}
 
 Không gian Riesz $L^p$ là có thứ tự dàn đầy đủ.
 
@@ -412,7 +412,7 @@ Các kết luận của Mệnh đề 14 không còn đúng khi chúng được p
 
 Tuy nhiên, ta có định lý sau:
 
-#### Định lý 5 {#int-iv-s3-thm-5 .statement}
+#### Định lý 5 {#int-iv-s3-thm-5 .statement tag=08RK}
 
 *Cho $(f_n)$ là một dãy tăng các hàm $\geqslant 0$ trong $\mathscr{L}^p$. Để bao trên $f$ của dãy này khả tích theo lũy thừa p, điều kiện cần và đủ là $\sup_n N_p(f_n) < +\infty$. Khi đó dãy $(f_n)$ hội tụ theo trung bình cấp $p$ đến $f$, và*
 
@@ -422,7 +422,7 @@ $$
 
 Điều kiện là hiển nhiên cần thiết, nên ta chỉ cần chứng minh rằng nó đủ. Bây giờ, nếu điều kiện được thỏa mãn thì Mệnh đề 14 chỉ ra rằng dãy $(\tilde{f}_n)$ là một dãy Cauchy trong $L^p$, do đó dãy $(f_n)$ là một dãy Cauchy trong $\mathscr{L}^p$; vì $f_n(x)$ tiến tới $f(x)$ với mọi $x \in X$, $f$ khả tích theo lũy thừa p và là giới hạn của dãy $(f_n)$ đối với tôpô hội tụ theo trung bình cấp $p$ (No. 4, Hệ quả 1 của Định lý 3). Do đó $N_p(f_n)$ tiến tới $N_p(f)$ vì $N_p$ là một hàm liên tục trên $\mathscr{L}^p$.
 
-#### Hệ quả 1 {#int-iv-s3-thm-5-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s3-thm-5-cor-1 .statement tag=08RL}
 
 *Cho $(f_n)$ là một dãy giảm các hàm $\geqslant 0$ trong $\mathscr{L}^p$; khi đó, bao dưới $f$ của dãy thuộc về $\mathscr{L}^p$, dãy $(f_n)$ hội tụ theo trung bình cấp $p$ đến $f$, và*
 
@@ -432,13 +432,13 @@ $$
 
 Hai khẳng định đầu tiên suy ra từ Định lý 5 áp dụng cho dãy $g_n = f_1 - f_n$, là dãy tăng và bị chặn trên; phần còn lại khi đó là hiển nhiên.
 
-#### Hệ quả 2 {#int-iv-s3-thm-5-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s3-thm-5-cor-2 .statement tag=08RM}
 
 *Cho $(f_n)$ là một dãy các hàm trong $\mathscr{L}^p$. Để bao trên $f$ của dãy $(f_n)$ là khả tích theo lũy thừa p, điều kiện cần và đủ là tồn tại một hàm $g \geqslant 0$ sao cho $\int^* g^p d|\mu| < +\infty$ và $f_n \leqslant g$ với mọi $n$.
 
 Điều kiện này hiển nhiên là cần, bằng cách lấy $g = f^+$. Ngược lại, giả sử điều kiện đó được thỏa mãn, và đặt $g_n = \sup_{k \leqslant n} f_k$; dãy $(g_n)$ là tăng và gồm các hàm khả tích theo lũy thừa p (No. 5, Hệ quả của Mệnh đề 12). Dãy tăng các hàm dương $h_n = g_n + g_1^-$ thỏa mãn các điều kiện của Định lý 5, vì $N_p(h_n) \leqslant N_p(g + g_1^-) < +\infty$; bao trên của nó $\sup_n h_n$ do đó là khả tích theo lũy thừa p, và điều tương tự cũng đúng đối với $f = \sup_n h_n - g_1^-$.
 
-#### Hệ quả 3 {#int-iv-s3-thm-5-cor-3 .statement}
+#### Hệ quả 3 {#int-iv-s3-thm-5-cor-3 .statement tag=08RN}
 
 — Cho $A$ là một tập hợp đếm được, $\mathfrak{F}$ là một lọc trên $A$ có một cơ sở đếm được, $(f_\alpha)_{\alpha \in A}$ là một họ các hàm $\geq 0$ trong $\mathscr{L}^p$. Giả sử rằng tồn tại một hàm $g \geq 0$ sao cho $N_p(g) < +\infty$ và $f_\alpha \leq g$ với mọi $\alpha \in A$; khi đó hàm $\limsup_{\mathfrak{F}} f_\alpha$ là khả tích theo lũy thừa p và
 
@@ -457,7 +457,7 @@ $$
 
 ### 7. Định lý của Lebesgue
 
-#### Định lý 6 (Lebesgue) {#int-iv-s3-thm-6 .statement}
+#### Định lý 6 (Lebesgue) {#int-iv-s3-thm-6 .statement tag=08RO}
 
 — Cho $F$ là một không gian Banach, $(f_n)$ là một dãy các hàm trong $\mathscr{L}_F^p$ sao cho: $1^\circ$ dãy $(f_n(x))$ hội tụ hầu khắp nơi đến một giới hạn $f(x) \in F$; $2^\circ$ tồn tại một hàm số $g \geq 0$ sao cho $\int^* g^p d|\mu| < +\infty$ và $|f_n(x)| \leq g(x)$ hầu khắp nơi trong $X$, với mọi số nguyên $n$. Khi đó, hàm $f$ (được xác định hầu khắp nơi) là khả tích theo lũy thừa p, và dãy $(f_n)$ hội tụ theo trung bình cấp $p$ đến $f$.
 
@@ -469,17 +469,17 @@ $$
 
 và vì $N_p(f_m - f_n) \geq 0$ điều này suy ra $\lim_{m \to \infty, n \to \infty} N_p(f_m - f_n) = 0$; nói cách khác, dãy $(f_n)$ là một dãy Cauchy trong $\mathscr{L}_F^p$. Định lý do đó suy ra từ Hệ quả 1 của Định lý 3 của No. 4.
 
-#### Hệ quả {#int-iv-s3-n7-cor-1 .statement}
+#### Hệ quả {#int-iv-s3-n7-cor-1 .statement tag=08RP}
 
 — Cho $A$ là một tập hợp các chỉ số, được lọc bởi một bộ lọc $\mathfrak{F}$ có một cơ sở đếm được. Nếu $(f_\alpha)_{\alpha \in A}$ là một họ các hàm trong $\mathscr{L}_F^p$ mà, đối với bộ lọc $\mathfrak{F}$, hội tụ từng điểm hầu khắp nơi đến một hàm $f$, và nếu ngoài ra tồn tại một hàm số $g \geq 0$ sao cho $\int^* g^p d|\mu| < +\infty$ và $|f_\alpha(x)| \leq g(x)$ hầu khắp nơi trong $X$ với mỗi $\alpha \in A$, thì hàm $f$ là khả tích lũy thừa bậc $p$ và $f_\alpha$ hội tụ theo trung bình cấp $p$ đến $f$ đối với bộ lọc $\mathfrak{F}$.
 
 Thật vậy, cho $(A_n)$ là một cơ sở đếm được giảm của $\mathfrak{F}$, và cho $\alpha_n$ là một phần tử bất kỳ của $A_n$; dãy $(f_{\alpha_n})$ hội tụ từng điểm đến $f$ hầu khắp nơi trong $X$, do đó Định lý 6 cho thấy rằng $f$ là khả tích lũy thừa bậc $p$ và rằng $\lim_{n \to \infty} N_p(f - f_{\alpha_n}) = 0$. Vì $\mathfrak{F}$ là bộ lọc giao của các bộ lọc sơ cấp liên kết với tất cả các dãy như vậy $(\alpha_n)$ (GT, I, §6, No. 8, Prop. 11), $\lim_{\mathfrak{F}} N_p(f - f_\alpha)$ tồn tại và bằng giới hạn chung 0 của tất cả các dãy $(N_p(f - f_{\alpha_n}))$.
 
-#### Nhận xét 1 {#int-iv-s3-n7-rem-1 .statement}
+#### Nhận xét 1 {#int-iv-s3-n7-rem-1 .statement tag=08RQ}
 
 Định lý 6 không còn đúng nếu giả thiết $|f_n| \leq g$ (với $N_p(g) < +\infty$) được thay bằng giả thiết yếu hơn $\sup_n N_p(f_n) < +\infty$. Chẳng hạn, giả sử $\mu$ là độ đo Lebesgue trên $\mathbf{R}$; định nghĩa các hàm liên tục $f_n$ theo cách sau: $f_n(x) = 0$ với $x \leq 0$ và với $x \geq \frac{2}{n}$, $f_n(\frac{1}{n}) = n$, $f_n$ là tuyến tính trên các khoảng $[0, \frac{1}{n}]$ và $[\frac{1}{n}, \frac{2}{n}]$. Khi đó $\lim_{n \to \infty} f_n(x) = 0$ với mọi $x \in \mathbf{R}$, nhưng $N_1(f_n) = 1$ với mọi $n$ (xem §5, Bài tập 12).
 
-#### Nhận xét 2 {#int-iv-s3-n7-rem-2 .statement}
+#### Nhận xét 2 {#int-iv-s3-n7-rem-2 .statement tag=08RR}
 
 Hệ quả của Định lý 6 không còn đúng nếu không giả sử rằng bộ lọc $\mathfrak{F}$ có một cơ sở đếm được (xem §1, No. 3, Nhận xét 1 sau Hệ quả của Định lý 3).
 
@@ -487,7 +487,7 @@ Hệ quả của Định lý 6 không còn đúng nếu không giả sử rằng
 
 Với mọi số thực $\alpha > 0$, ánh xạ $z \mapsto |z|^{\alpha-1} \cdot z$ được xác định và liên tục trên phần bù của 0 trong $F$; hơn nữa, vì $||z|^{\alpha-1} \cdot z| = |z|^{\alpha}$, hàm này tiến tới 0 cùng với $z$ và do đó có thể được mở rộng bằng tính liên tục tới điểm 0 bằng cách gán cho nó giá trị 0 tại điểm này, ngay cả khi $\alpha < 1$.
 
-#### Định lý 7 {#int-iv-s3-thm-7 .statement}
+#### Định lý 7 {#int-iv-s3-thm-7 .statement tag=08RS}
 
 — Cho $p$ và $q$ là hai số thực sao cho $1 \leq p < +\infty$, $1 \leq q < +\infty$. Nếu một hàm $f$ thuộc $\mathscr{L}_F^p$ thì hàm $|f|^{(p/q)-1} \cdot f$ thuộc $\mathscr{L}_F^q$, và đảo lại.
 
@@ -513,11 +513,11 @@ theo định lý lồi đếm được. Hơn nữa, $g_n(x)$ tiến tới hầu 
 
 Có thể chứng minh được rằng ánh xạ $f \mapsto |f|^{\frac{p}{q}-1} \cdot f$ là một đồng phôi từ $\mathscr{L}_F^p$ lên $\mathscr{L}_F^q$ (§ 6, Exer. 10).
 
-#### Hệ quả 1 {#int-iv-s3-thm-7-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s3-thm-7-cor-1 .statement tag=08RT}
 
 — *Để một hàm $f$ thuộc $\mathscr{L}_F^p$, điều kiện cần và đủ là hàm $|f|^{p-1} \cdot f$ thuộc $\mathscr{L}_F^1$.*
 
-#### Hệ quả 2 {#int-iv-s3-thm-7-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s3-thm-7-cor-2 .statement tag=08RU}
 
 — *Để một hàm số dương $f$ thuộc $\mathscr{L}^p$, điều kiện cần và đủ là $f^p$ thuộc $\mathscr{L}^1$.*
 

@@ -13,7 +13,7 @@ pdf_pages: 0625-0627
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 632a75df82eba77790c51baeec11bff7a5e600b940bc52366bb7b76b690090a4
+content_sha256: d0c581b7b2661bb2e8605b6c9b7ea7c3d36e8419e177337d94d686d3870874a4
 translated_from: content/en/ac/index_of_notation_i_vii.md
 source_content_sha256: 641e0c3993ffaf13cacc636d859b85afb80bfe6604e9d58bf0039d6861b7d1d6
 translation_model: gpt-5-6-mini, gpt-5-6

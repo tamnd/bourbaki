@@ -25,9 +25,9 @@ subsections:
       pdf_page: 213
 statements: 13
 exercises: 23
-content_sha256: 73ffda3a86484d8adcd1cfcee6e03578543709c4aa766d340b0c78d2c5a0e1f6
+content_sha256: 0110847dcade4fe986b9d88d5ef81220c987f638e815c35ddea25e57b9a71170
 translated_from: content/en/evt/IV/04_s4_strict_morphisms_of_frechet_spaces.md
-source_content_sha256: 4445f6ba38c26bd2d5f9daeeec37deadb15f52942ff517da8da3165b091bf023
+source_content_sha256: c407d8cd0dfb8dde36f5bdedd16c24376ca0dd13486d65d99b3e2de383541cec
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-8fdd1692
 glossary_version: 34
@@ -41,7 +41,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các đặc trưng của các cấu xạ ngặt
 
-#### Mệnh đề 1 {#evt-iv-s4-prop-1 .statement}
+#### Mệnh đề 1 {#evt-iv-s4-prop-1 .statement tag=07UR}
 
 Cho E và F là hai không gian lồi địa phương và u là một ánh xạ tuyến tính liên tục từ E vào F. Để u là một cấu xạ ngặt, điều kiện cần và đủ là điều kiện sau được thỏa mãn:
 
@@ -55,7 +55,7 @@ $$
 
 Các nửa chuẩn liên tục trên E triệt tiêu trên N là các nửa chuẩn $p_1 \circ \pi$ trong đó $p_1$ chạy trên S(E/N); tương tự S(M) gồm các nửa chuẩn $q_1$ sao cho tồn tại $q \in S(F)$ với $q_1 \leq q/F$. Cuối cùng, u là một cấu xạ ngặt khi và chỉ khi ánh xạ tuyến tính liên tục song ánh $\tilde{u}$ có ánh xạ nghịch đảo liên tục; điều này cũng có nghĩa là mọi nửa chuẩn trong S(E/N) đều có dạng $q_1 \circ \tilde{u}$ với $q_1$ trong S(M). Mệnh đề 1 suy ra ngay lập tức từ các nhận xét này.
 
-#### Mệnh đề 2 {#evt-iv-s4-prop-2 .statement}
+#### Mệnh đề 2 {#evt-iv-s4-prop-2 .statement tag=07US}
 
 Cho E và F là hai không gian lồi địa phương Hausdorff và u là một ánh xạ tuyến tính liên tục từ E vào F. Để u là một cấu xạ ngặt, điều kiện cần và đủ là chuyển vị của nó $^t u : F' \to E'$ thỏa mãn các điều kiện sau:
 
@@ -73,11 +73,11 @@ Vì $N^{\circ}$ có thể được đồng nhất với đối ngẫu của E/N,
 
 Giả sử u là một cấu xạ ngặt. Ta đã thấy rằng hạt nhân của $^t u$ là phần trực giao của I và ảnh của $^t u$ là phần trực giao của N. Đối hạt nhân của $u$ là không gian $F/I$ và đối ngẫu của nó có thể được đồng nhất với $I^\circ = \mathrm{Ker}\ ^t u$. Tương tự, đối ngẫu của $N = \mathrm{Ker}\ u$ có thể được đồng nhất với $E'/N^\circ$ (IV, p. 8), *tức là* với đối hạt nhân của $^t u$ vì $N^\circ$ là ảnh của $^t u$.
 
-#### Nhận xét {#evt-iv-s4-n1-rem-1 .statement}
+#### Nhận xét {#evt-iv-s4-n1-rem-1 .statement tag=07UT}
 
 — Với các ký hiệu của mệnh đề 2, tính chất $b'$) cũng suy ra rằng $u$ là một cấu xạ ngặt đối với các tôpô đã làm yếu đi (II, p. 49, hệ quả 3).
 
-#### Mệnh đề 3 {#evt-iv-s4-prop-3 .statement}
+#### Mệnh đề 3 {#evt-iv-s4-prop-3 .statement tag=07UU}
 
 *Cho E và F là hai không gian lồi địa phương, và u là một ánh xạ tuyến tính liên tục từ E vào F. Giả sử rằng E là Hausdorff và F có thể mêtric hóa được. Để u là một cấu xạ ngặt, điều kiện cần và đủ là ảnh của $^t u$ đóng trong $E'$ đối với tôpô yếu $\sigma(E', E)$.*
 
@@ -87,7 +87,7 @@ Ngược lại, giả sử rằng ảnh của $^t u$ là đóng đối với $\s
 
 ### 2. Các cấu xạ ngặt của các không gian Fréchet
 
-#### Định lý 1 {#evt-iv-s4-thm-1 .statement}
+#### Định lý 1 {#evt-iv-s4-thm-1 .statement tag=07UV}
 
 *Cho E và F là hai không gian Fréchet và u là một ánh xạ tuyến tính liên tục từ E vào F. Các điều kiện sau là tương đương :
 
@@ -105,13 +105,13 @@ Bây giờ ta chứng minh tính tương đương của e) và f). Chỉ cần c
 
 Sau cùng sự tương đương của g) với các điều kiện trước đó suy ra từ mệnh đề 18 của GT, X, § 2, No. 10 và bổ đề sau đây.
 
-#### Bổ đề 1 {#evt-iv-s4-lem-1 .statement}
+#### Bổ đề 1 {#evt-iv-s4-lem-1 .statement tag=07UW}
 
 *Cho E và F là hai không gian Hausdorff lồi địa phương và đầy đủ giả, và u là một ánh xạ tuyến tính liên tục từ E vào F. Để ${}^t u$ là một cấu xạ ngặt từ $F'_c$ vào $E'_c$, điều kiện cần và đủ là ảnh $u(E)$ của u đóng, và mọi tập con compact của $u(E)$ đều là ảnh qua u của một tập con compact của E.*
 
 Theo định lý của Mackey (IV, p. 2, th. 1) và sự kiện là trên $E'$ (resp. F) tôpô của sự hội tụ compact trùng với tôpô của sự hội tụ compact lồi (IV, p. 4), ta có thể đồng nhất E (resp. F) với đối ngẫu $E'_c$ (resp. $F'_c$). Khi đó $u$ là chuyển vị của ${}^t u$, và các tập con đồng liên tục của E (resp. F) là các tập tương đối compact. Bổ đề 1 khi ấy suy ra từ mệnh đề 2 (IV, p. 27), vì $u(E)$ đóng trong F khi và chỉ khi nó đóng đối với tôpô yếu đi $\sigma(F, F')$ (IV, p. 4, mệnh đề 2).
 
-#### Hệ quả 1 {#evt-iv-s4-lem-1-cor-1 .statement}
+#### Hệ quả 1 {#evt-iv-s4-lem-1-cor-1 .statement tag=07UX}
 
 *Dưới giả thiết của định lý 1, các điều kiện sau là tương đương :*
 (i) *u là một cấu xạ đơn ánh ngặt ;*
@@ -120,7 +120,7 @@ Theo định lý của Mackey (IV, p. 2, th. 1) và sự kiện là trên $E'$ (
 
 Hàm ý (i) $\Rightarrow$ (ii) suy ra ngay lập tức từ sự tương đương của các điều kiện a), d) và e) của đl. 1 và từ IV, p. 6, mđ. 5. Rõ ràng là (ii) kéo theo (iii). Sau cùng, ta chứng minh rằng (iii) kéo theo (i) : nếu ${}^t u$ là toàn ánh thì $u$ là một cấu xạ ngặt theo sự tương đương của a) và e) trong đl. 1 ; việc $u$ là đơn ánh suy ra từ mđ. 5 của IV, p. 6.
 
-#### Hệ quả 2 {#evt-iv-s4-lem-1-cor-2 .statement}
+#### Hệ quả 2 {#evt-iv-s4-lem-1-cor-2 .statement tag=07UY}
 
 *Dưới giả thiết của đl. 1, các điều kiện sau là tương đương :*
 (i) *u là toàn ánh ;*
@@ -133,7 +133,7 @@ Do sự tương đương của a) và c) trong định lý 1, điều kiện (ii
 
 Nếu $u : E \to F$ là một cấu xạ ngặt của các không gian Fréchet, cấu xạ chuyển vị ${}^t u$ không nhất thiết là một cấu xạ ngặt từ $F'_b$ vào $E'_b$ (IV, p. 62, bài tập 3). Tuy nhiên, ta có kết quả bộ phận sau :
 
-#### Hệ quả 3 {#evt-iv-s4-lem-1-cor-3 .statement}
+#### Hệ quả 3 {#evt-iv-s4-lem-1-cor-3 .statement tag=07UZ}
 
 — Dưới các giả thiết của đl. 1, tính chất sau kéo theo các tính chất a) đến g) :
 h) $^t u$ là một cấu xạ ngặt từ $F'_b$ vào $E'_b$.
@@ -143,12 +143,12 @@ Gọi G là bao đóng của ảnh của $u$ trong F ; không gian G, được t
 Nếu E và F là các không gian Montel, tôpô mạnh trên $E'$ (resp. $F'$) trùng với tôpô hội tụ compact, và h) chỉ là một sự phát biểu lại của g).
 Nếu E và F là các không gian Banach, thì $E'_b$ và $F'_b$ cũng vậy, và điều kiện h) tương đương với f) bởi tính tương đương của a) và c) áp dụng cho $^t u : F'_b \to E'_b$.
 
-#### Hệ quả 4 {#evt-iv-s4-lem-1-cor-4 .statement}
+#### Hệ quả 4 {#evt-iv-s4-lem-1-cor-4 .statement tag=07V0}
 
 — Giả sử E và F là các không gian Banach. Để $^t u$ là toàn ánh, điều kiện cần và đủ là tồn tại một số thực $r > 0$ sao cho $\| x \| \leq r. \| u(x) \|$ với mọi $x \in E$.
 Đây chỉ đơn giản là một sự phát biểu lại của tính tương đương giữa các điều kiện (i) và (iii) của hệ quả 1.
 
-#### Hệ quả 5 {#evt-iv-s4-lem-1-cor-5 .statement}
+#### Hệ quả 5 {#evt-iv-s4-lem-1-cor-5 .statement tag=07V1}
 
 - Cho E và F là hai không gian Fréchet và u là một ánh xạ tuyến tính liên tục từ E vào F. Các điều kiện sau là tương đương :
 a) u là một đẳng cấu từ E lên F.
@@ -162,7 +162,7 @@ Ngược lại, giả sử một trong các điều kiện c), d) hoặc e) đư
 
 ### 3. Các tiêu chuẩn cho tính toàn ánh
 
-#### Mệnh đề 4 {#evt-iv-s4-prop-4 .statement}
+#### Mệnh đề 4 {#evt-iv-s4-prop-4 .statement tag=07V2}
 
 — Cho E và F là hai không gian Fréchet, và u là một ánh xạ tuyến tính liên tục từ E vào F. Các điều kiện sau là tương đương :
 
@@ -194,7 +194,7 @@ và quan hệ (1) được thỏa mãn.
 
 Cuối cùng ta chứng minh rằng (iv) kéo theo (i). Cho $p \in S(E)$ và cho $q$ là bao trên của các hàm $|f|$ với $f \in F'$ thỏa mãn $|f \circ u| \leq p$. Theo (iv), $q$ là hữu hạn trên $F$, và hiển nhiên là một nửa chuẩn nửa liên tục dưới trên $F$; vì $F$ là barrelled (III, p. 25, hệ quả), ta có $q \in S(F)$. Ký hiệu $B_p$ (tương ứng $B_q$) là tập hợp mọi $x \in E$ (tương ứng mọi $y \in F$) sao cho $p(x) \leq 1$ (tương ứng $q(y) \leq 1$). Ta có $q \circ u \leq p$, do đó $u(B_p) \subset B_q$. Cực của $u(B_p)$ trong $F'$ gồm các dạng tuyến tính $f \in F'$ sao cho $|f \circ u| \leq p$, nên $|f| \leq q$; nói cách khác, ta được $u(B_p)^{\circ} \subset B_q^{\circ}$, và sau cùng suy ra $\overline{u(B_p)} = B_q$ theo định lý song cực (II, p. 45, cor. 3). Nếu $U$ là một lân cận của 0 trong $E$, thì tồn tại $p \in S(E)$ sao cho $B_p \subset U$, do đó $\overline{u(U)}$ chứa lân cận $B_q$ của 0 trong $F$. Điều này suy ra rằng $u$ là toàn ánh (I, p. 17, th. 1).
 
-#### Hệ quả {#evt-iv-s4-n3-cor-1 .statement}
+#### Hệ quả {#evt-iv-s4-n3-cor-1 .statement tag=07V3}
 
 — Giả sử E và F là các không gian Banach. Các điều kiện sau là tương đương :
 (i) u là toàn ánh.

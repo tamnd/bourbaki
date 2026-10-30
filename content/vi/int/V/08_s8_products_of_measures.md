@@ -41,9 +41,9 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: e937391ebfbb41cd9c781ea569663eb532a3b6977dd2cce3dcdb33d3c347587b
+content_sha256: 9095a9a896a0fe133243d822c8e4f9381a66b33fe109b3faff88d4092de9f4fe
 translated_from: content/en/int/V/08_s8_products_of_measures.md
-source_content_sha256: 2c61e5016471c114c8619e3f3ae610250dd71a2ed1cb84fa0e9ffdc7592dc87d
+source_content_sha256: 80b705b3f9f0e254836af8cc36405c37a16c85755c16c07cdd40f1fdbc7ea3e4
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-646eb530
 glossary_version: 34
@@ -75,7 +75,7 @@ $$
 
 Tương tự, với mọi phần tử $t' \in T'$, gọi $\lambda_{t'}$ là ảnh của $\mu$ qua ánh xạ $t \mapsto (t, t')$ từ T vào X. Ánh xạ $t' \mapsto \lambda_{t'}$ là $\mu'$-thích hợp và liên tục mờ, và $\nu = \int \lambda_{t'} \, d\mu'(t')$. Ta sẽ cần các bổ đề sau:
 
-#### Bổ đề 1 {#int-v-s8-lem-1 .statement}
+#### Bổ đề 1 {#int-v-s8-lem-1 .statement tag=096Y}
 
 *Với mọi hàm số $f \geqslant 0$ xác định trên X,*
 
@@ -85,12 +85,12 @@ $$
 
 Vì $t' \mapsto (t, t')$ là một ánh xạ liên tục và thực sự, điều này suy ra từ Mệnh đề 2 của §4, No. 2.
 
-#### Bổ đề 2 {#int-v-s8-lem-2 .statement}
+#### Bổ đề 2 {#int-v-s8-lem-2 .statement tag=096Z}
 
 Cho $f$ là một ánh xạ từ $X$ vào một không gian tôpô. Để $f$ là $\lambda'_t$-đo được, điều kiện cần và đủ là $f_t$ là $\mu'$-đo được.
 Đây là một hệ quả của Mệnh đề 3 của §6, No. 2.
 
-#### Bổ đề 3 {#int-v-s8-lem-3 .statement}
+#### Bổ đề 3 {#int-v-s8-lem-3 .statement tag=0970}
 
 Cho $f$ là một hàm xác định trên $X$, nhận giá trị trong $\overline{\mathbf{R}}$ hoặc trong một không gian Banach. Để $f$ là $\lambda'_t$-khả tích, điều kiện cần và đủ là $f_t$ là $\mu'$-khả tích, và khi đó
 
@@ -100,7 +100,7 @@ $$
 
 Điều này suy ra từ Định lý 2 của §4, No. 4, khi xét đến việc $t' \mapsto (t, t')$ là liên tục và thực sự.
 
-#### Nhận xét {#int-v-s8-n1-rem-1 .statement}
+#### Nhận xét {#int-v-s8-n1-rem-1 .statement tag=0971}
 
 Bổ đề 1,2,3 có thể được chứng minh rất đơn giản mà không cần dùng đến các kết quả của §§4 và 6, bằng một lập luận trực tiếp. Chẳng hạn, quan hệ (2) là hiển nhiên theo định nghĩa nếu $f \in \mathscr{K}(T \times T')$. Nếu $f$ là nửa liên tục dưới trên $X = T \times T'$, chỉ cần nhận xét rằng $t' \mapsto f_t(t')$ là bao trên của các hàm $t' \mapsto g_t(t') = g(t, t')$, trong đó $g$ chạy qua tập hợp các hàm thuộc $\mathscr{K}(X)$ sao cho $0 \leq g \leq f$. Cuối cùng, với $f$ tùy ý, ta nhận thấy rằng nếu $h \geq f$ là nửa liên tục dưới trên $X$, thì $t' \mapsto h(t, t')$ là nửa liên tục dưới trên $T'$; và ngược lại, nếu $t' \mapsto u(t')$ là nửa liên tục dưới trên $T'$ và sao cho $u(t') \geq f(t, t')$ với mọi $t' \in T'$, thì hàm $h$ sao cho $h(t, t') = u(t')$, $h(t_1, t') = +\infty$ với $t_1 \neq t'$, là nửa liên tục dưới trên $X$ và thỏa mãn $h \geq f$. Một khi Bổ đề 1 được chứng minh, từ đó suy ra rằng tập hợp $(T - \{t\}) \times T'$ là $\lambda'_t$-không đáng kể, và khi đó rất dễ chứng minh các Bổ đề 2 và 3.
 
@@ -122,7 +122,7 @@ phù hợp với các ký hiệu đã được chấp nhận trong Ch. III, §4,
 
 Cách hiểu độ đo $\nu$ như một tích phân $\int \lambda'_t \, d\mu(t)$ sẽ cho phép chúng ta chuyển các kết quả của §3 sang ngôn ngữ của các độ đo tích. Mặt khác, độ đo $\lambda'_t$ được mang bởi $\{t\} \times T' = \overline{\mathrm{pr}}_1^{-1}(t)$, do đó tích phân này xác định một phân tích của $\nu$ thành các lát, liên quan đến phép chiếu $\mathrm{pr}_1$ của $T \times T'$ lên $T$ (§6, No. 6). Trước khi đưa ra danh sách các kết quả thu được như vậy, đây là một tính chất hữu ích:
 
-#### Mệnh đề 1 {#int-v-s8-prop-1 .statement}
+#### Mệnh đề 1 {#int-v-s8-prop-1 .statement tag=0972}
 
 — Cho $(\mu_\alpha)_{\alpha \in A}$ (tương ứng $(\mu'_\beta)_{\beta \in B}$) là một họ các độ đo dương tổng được trên T (tương ứng trên T'), với tổng được ký hiệu bởi $\mu$ (tương ứng bởi $\mu'$). Khi đó họ $(\mu_\alpha \otimes \mu'_\beta)_{(\alpha, \beta) \in A \times B}$ là tổng được trên $T \times T'$, và
 
@@ -149,7 +149,7 @@ $$
 
 ### 2. Các hàm đo được đối với một tích của hai độ đo
 
-#### Mệnh đề 2 {#int-v-s8-prop-2 .statement}
+#### Mệnh đề 2 {#int-v-s8-prop-2 .statement tag=0973}
 
 — Cho $f$ là một hàm $\nu$-đo được xác định trên $T \times T'$, với các giá trị trong một không gian tôpô G, và cho M là tập hợp các $t \in T$ sao cho ánh xạ $t' \mapsto f(t, t')$ không $\mu'$-đo được.
 
@@ -161,7 +161,7 @@ Mệnh đề a) suy ra từ Mệnh đề 4b) của §3, No. 2 và các nhận x�
 
 Mệnh đề này mở rộng ngay lập tức đến các độ đo phức (Ch. III, § 4, No. 2, Mệnh đề 3).
 
-#### Hệ quả {#int-v-s8-n2-cor-1 .statement}
+#### Hệ quả {#int-v-s8-n2-cor-1 .statement tag=0974}
 
 — *Cho A là một tập con $\nu$-đo được của $T \times T'$, và cho M là tập hợp các $t \in T$ sao cho tiết diện $A(t)$ của A tại t không $\mu'$-đo được.*
 
@@ -171,7 +171,7 @@ b) *Nếu phép chiếu của A trên $T'$ là $\mu'$-được điều hòa, th�
 
 Mệnh đề a) suy ra ngay lập tức từ Mệnh đề 2. Để chứng minh b), ký hiệu B là một tập hợp, hợp của một dãy các tập mở $\mu'$-tích phân được trong $T'$, chứa phép chiếu của A trên $T'$, và ký hiệu $\mu'_1$ là độ đo được điều hòa $\varphi_B \cdot \mu'$; vì A là đo được đối với $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$, Mệnh đề 2 suy ra rằng $A(t)$ là $\mu'_1$-đo được, ngoại trừ các $t$ tạo thành một tập hợp $\mu$-không đáng kể địa phương. Nhưng vì $A(t) \subset B$, việc nói rằng $A(t)$ là $\mu'_1$-đo được tương đương với việc nói rằng $A(t)$ là $\mu'$-đo được (§ 5, No. 3, Hệ quả của Mệnh đề 4).
 
-#### Mệnh đề 3 {#int-v-s8-prop-3 .statement}
+#### Mệnh đề 3 {#int-v-s8-prop-3 .statement tag=0975}
 
 — *Cho f là một ánh xạ từ T vào một không gian tôpô F. Nếu f là $\mu$-đo được, thì ánh xạ $(t, t') \mapsto f(t)$ là $\nu$-đo được. Ngược lại, nếu $\mu' \neq 0$, và nếu ánh xạ này là $\nu$-đo được, thì hàm f là $\mu$-đo được.*
 
@@ -179,18 +179,18 @@ Mệnh đề đầu tiên suy ra từ Hệ quả 1 của Mệnh đề 10 của �
 
 Mệnh đề trên mở rộng ngay lập tức sang các độ đo phức (Ch. III, § 4, No. 2, Mệnh đề 3), cũng như các hệ quả sau đây.
 
-#### Hệ quả 1 {#int-v-s8-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s8-prop-3-cor-1 .statement tag=0976}
 
 — *Cho F, F' và G là ba không gian tôpô, và cho u là một ánh xạ liên tục từ $F \times F'$ vào G. Cho f (resp. $f'$) là một hàm xác định trên T (resp. $T'$), nhận giá trị trong F (resp. $F'$) và đo được đối với $\mu$ (resp. $\mu'$). Khi đó hàm $(t, t') \mapsto u(f(t), f'(t'))$ đo được đối với $\mu \otimes \mu'$.*
 
 Các ánh xạ $(t, t') \mapsto f(t)$, $(t, t') \mapsto f'(t')$ là $\nu$-đo được theo Mệnh đề 3, nên điều này suy ra từ Định lý 1 của Ch. IV, § 5, No. 3.
 
-#### Hệ quả 2 {#int-v-s8-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s8-prop-3-cor-2 .statement tag=0977}
 
 — *Nếu $A \subset T$ và $A' \subset T'$ là đo được (lần lượt đối với $\mu$ và $\mu'$), thì $A \times A'$ đo được đối với $\mu \otimes \mu'$.*
 Điều này suy ra ngay lập tức từ Hệ quả 1.
 
-#### Hệ quả 3 {#int-v-s8-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#int-v-s8-prop-3-cor-3 .statement tag=0978}
 
 — *Xét hai hàm số dương (resp. nhận giá trị phức) $f$ xác định trên $T$ và $f'$ xác định trên $T'$. Nếu các hàm này lần lượt đo được đối với $\mu$ và $\mu'$, thì hàm*
 
@@ -202,7 +202,7 @@ $$
 
 Trường hợp các hàm phức, hoặc các hàm thực hữu hạn, là một hệ quả ngay lập tức của Hệ quả 1. Để xét trường hợp các hàm số dương, với mỗi số nguyên $n \geqslant 0$ ta đặt $f_n = \inf(f, n)$, $f'_n = \inf(f', n)$, và ta có (với quy ước thông thường $0 \cdot (+\infty) = 0$) $f \otimes f' = \sup_n (f_n \otimes f'_n)$, do đó có kết quả.
 
-#### Mệnh đề 4 {#int-v-s8-prop-4 .statement}
+#### Mệnh đề 4 {#int-v-s8-prop-4 .statement tag=0979}
 
 — *Cho $A$ là một tập con của $T$. Nếu $A$ là địa phương $\mu$-không đáng kể, thì $A \times T'$ là địa phương $\nu$-không đáng kể. Ngược lại, nếu $A \times T'$ là địa phương $\nu$-không đáng kể và nếu $\mu' \neq 0$, thì $A$ là địa phương $\mu$-không đáng kể.*
 
@@ -210,7 +210,7 @@ Mệnh đề đầu tiên suy ra từ Hệ quả 1 của Mệnh đề 10 của �
 
 Mệnh đề trên lập tức mở rộng đến tích của hai độ đo phức (Ch. III, §4, No. 2, Mệnh đề 3), cũng như hệ quả sau đây.
 
-#### Hệ quả {#int-v-s8-n2-cor-2 .statement}
+#### Hệ quả {#int-v-s8-n2-cor-2 .statement tag=097A}
 
 — *Nếu độ đo $\mu$ (resp. $\mu'$) tập trung trên $M$ (resp. $M'$), thì $\mu \otimes \mu'$ tập trung trên $M \times M'$.*
 
@@ -220,7 +220,7 @@ Thật vậy, $(T \times T') - (M \times M')$ là hợp của các tập hợp $
 
 Nhắc lại rằng ta đã quy ước định nghĩa tích $0 \cdot (+\infty)$ bằng 0. Quy ước này đặc biệt dẫn đến hệ quả sau: nếu $f$ là một hàm số $\geqslant 0$ được xác định trên một không gian địa phương compact được trang bị một độ đo dương $\lambda$, thì $\lambda^*(af) = a \cdot \lambda^*(f)$ với mọi hằng $a$ sao cho $0 \leqslant a \leqslant +\infty$. Điều này hiển nhiên nếu $a = 0$; nếu $a = +\infty$, thì $\lambda^*(af) = a \cdot \lambda^*(f) = 0$ hoặc $\lambda^*(af) = a \cdot \lambda^*(f) = +\infty$ tùy theo $f$ là $\lambda$-không đáng kể hay không; cuối cùng, nếu $0 < a < +\infty$, ta biết rằng $\lambda^*(af) = a \cdot \lambda^*(f)$.
 
-#### Mệnh đề 5 {#int-v-s8-prop-5 .statement}
+#### Mệnh đề 5 {#int-v-s8-prop-5 .statement tag=097B}
 
 — Cho $f$ là một hàm số $\geqslant 0$, nửa liên tục dưới trên $T \times T'$. Khi đó, hàm
 
@@ -236,7 +236,7 @@ $$
 
 Đây là một hệ quả của Mệnh đề 2 của §3, No. 1, có tính đến Bổ đề 1 của No. 1.
 
-#### Hệ quả 1 {#int-v-s8-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s8-prop-5-cor-1 .statement tag=097C}
 
 — Cho $f$ (resp. $f'$) là một hàm nửa liên tục dưới $\geqslant 0$ được xác định trên $T$ (resp. $T'$); hàm $f \otimes f' : (t, t') \mapsto f(t)f'(t')$ khi đó là nửa liên tục dưới trên $T \times T'$, và
 
@@ -252,13 +252,13 @@ $$
 
 Vì các hàm $g \otimes g'$ thuộc $\mathscr{K}_+(T \times T')$, nên $f \otimes f'$ thực sự là nửa liên tục dưới, và (6) suy ra ngay từ Mệnh đề 5 (hoặc trực tiếp bằng cách lấy giới hạn trong công thức trước đó).
 
-#### Hệ quả 2 {#int-v-s8-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s8-prop-5-cor-2 .statement tag=097D}
 
 — Cho $A$ là một tập con $\mu$-vừa phải của $T$, và $A'$ là một tập con $\mu'$-vừa phải của $T'$; khi đó $A \times A'$ là $\nu$-vừa phải trong $T \times T'$.
 
 Theo định nghĩa của tập vừa phải (§1, No. 2, Mệnh đề 5), chỉ cần chứng minh rằng nếu $B$ là một tập mở khả tích trong $T$, và $B'$ là một tập mở khả tích trong $T'$, thì tập mở $B \times B'$ là khả tích. Điều này suy ra ngay từ Hệ quả 1.
 
-#### Hệ quả 3 {#int-v-s8-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#int-v-s8-prop-5-cor-3 .statement tag=097E}
 
 — Cho $A$ là một tập con $\mu$-không đáng kể của $T$, và cho $B'$ là một tập con $\mu'$-vừa phải của $T'$; khi đó $A \times B'$ là $\nu$-không đáng kể.
 
@@ -266,7 +266,7 @@ Thật vậy, $A \times B'$ là $\nu$-không đáng kể địa phương (Mệnh
 
 Hệ quả 2 và 3 có thể được mở rộng cho tích của hai độ đo phức, bằng cách áp dụng mệnh đề đó cho các biến phân toàn phần của chúng (Chương III, §4, No. 2, Mệnh đề 3).
 
-#### Mệnh đề 6 {#int-v-s8-prop-6 .statement}
+#### Mệnh đề 6 {#int-v-s8-prop-6 .statement tag=097F}
 
 — Cho $f$ là một hàm số $\geqslant 0$ xác định trên $T \times T'$. Khi đó
 
@@ -276,7 +276,7 @@ $$
 
 Điều này suy ra từ Mệnh đề 3 của §3, No. 2, có lưu ý đến (2).
 
-#### Mệnh đề 7 {#int-v-s8-prop-7 .statement}
+#### Mệnh đề 7 {#int-v-s8-prop-7 .statement tag=097G}
 
 — Cho $f$ là một hàm số dương $\nu$-đo được xác định trên $T \times T'$.
 
@@ -303,7 +303,7 @@ $$
 $$
 Nhưng $\mu \otimes \mu' = \sum_{n \in \mathbf{N}} (\mu \otimes \mu'_n)$ (Mệnh đề 1); khi đó mệnh đề b) thu được bằng cách lấy tổng theo $n$ (§ 2, No. 2, Mệnh đề 1).
 
-#### Hệ quả 1 {#int-v-s8-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s8-prop-7-cor-1 .statement tag=097H}
 
 — Cho $H$ là một tập con của $T \times T'$, và cho $A$ là tập hợp các $t \in T$ sao cho tiết diện $H(t)$ của $H$ tại $t$ không $\mu'$-không đáng kể.
 
@@ -315,7 +315,7 @@ Tính chất a) suy ra ngay lập tức từ Mệnh đề 7 (hoặc từ Mệnh 
 
 Hệ quả này suy ra ngay lập tức, bằng cách chuyển sang các giá trị tuyệt đối, cho tích của hai độ đo phức. Điều tương tự cũng đúng đối với hệ quả sau:
 
-#### Hệ quả 2 {#int-v-s8-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s8-prop-7-cor-2 .statement tag=097I}
 
 — *Nếu một tập hợp* $A \subset T \times T'$ *là ν-khả tích, thì tiết diện* $A(t)$ *của* $A$ *tại* $t$ *là μ′-khả tích với hầu khắp mọi* $t \in T$, *hàm* $t \mapsto \mu'(A(t))$ *là μ-khả tích, và*
 
@@ -323,7 +323,7 @@ $$
 \nu(A) = \int \mu'(A(t))\, d\mu(t).
 $$
 
-#### Mệnh đề 8 {#int-v-s8-prop-8 .statement}
+#### Mệnh đề 8 {#int-v-s8-prop-8 .statement tag=097J}
 
 — *Với mỗi cặp hàm số* $f \geq 0$, $f' \geq 0$ *xác định lần lượt trên* $T$ *và* $T'$, *ta có*
 
@@ -360,7 +360,7 @@ $$
 
 đó chính là bất đẳng thức cần tìm. Do đó mệnh đề được chứng minh khi $\mu$ và $\mu'$ là các độ đo có giá compact. Để xét trường hợp tổng quát, chỉ cần biểu diễn $\mu$ (resp. $\mu'$) dưới dạng tổng của một họ $(\mu_\alpha)_{\alpha \in A}$ (resp. $(\mu'_\beta)_{\beta \in B}$) các độ đo có giá compact (§ 2, No. 3, Mệnh đề 4), viết công thức (10) cho mỗi độ đo $\mu_\alpha \otimes \mu'_\beta$, rồi lấy tổng theo $(\alpha, \beta)$, có tính đến Mệnh đề 1 (§ 2, No. 2, Mệnh đề 1).
 
-#### Hệ quả 1 {#int-v-s8-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s8-prop-8-cor-1 .statement tag=097K}
 
 *Với các ký hiệu như trong Mệnh đề 8,*
 
@@ -372,7 +372,7 @@ $$
 
 Khi hai thừa số của vế thứ hai là hữu hạn, các hàm $f$ và $f'$ là vừa phải (§ 1, No. 2, Prop. 7), do đó hàm $f \otimes f'$ là vừa phải (Cor. 2 of Prop. 5); vì thế đẳng thức trên quy về công thức (10) (§ 1, No. 2, Prop. 7). Khi một trong các thừa số của vế thứ hai có giá trị $+\infty$ và thừa số kia khác không, thì vế thứ hai có giá trị $+\infty$, và đẳng thức trên suy ra từ Prop. 6.
 
-#### Hệ quả 2 {#int-v-s8-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s8-prop-8-cor-2 .statement tag=097L}
 
 *Cho $f$ và $f'$ là hai hàm nhận giá trị trong $\mathbf{C}$ hoặc trong $\overline{\mathbf{R}}$, được xác định tương ứng trên $T$ và $T'$, và khả tích cốt yếu (tương ứng, khả tích) đối với các độ đo $\mu$ và $\mu'$, tương ứng. Khi đó hàm $f \otimes f'$ là khả tích cốt yếu (tương ứng, khả tích) đối với độ đo $\mu \otimes \mu'$, và*
 
@@ -386,7 +386,7 @@ Hệ quả 2 mở rộng ngay cho tích của hai độ đo phức.
 
 ### 4. Tích phân các hàm nhận giá trị trong một không gian Banach
 
-#### Định lý 1 (Lebesgue–Fubini) {#int-v-s8-thm-1 .statement}
+#### Định lý 1 (Lebesgue–Fubini) {#int-v-s8-thm-1 .statement tag=097M}
 
 — *Cho $f$ là một hàm được xác định trên $T \times T'$, nhận giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$; gọi $N$ là tập hợp các $t \in T$ sao cho hàm $t' \mapsto f(t,t')$ không $\mu'$-khả tích.
 
@@ -400,7 +400,7 @@ b) *Giả sử rằng $f$ là khả tích cốt yếu đối với $\nu$, và đ
 
 Mệnh đề a) suy ra ngay từ Th. 1 of §3, No. 3. Để thiết lập b), ký hiệu $g$ là một hàm $\nu$-khả tích bằng $f$ địa phương hầu khắp nơi, và $H$ là tập hợp các $(t, t')$ sao cho $f(t, t') \neq g(t, t')$. Theo Cor. 1 of Prop. 7, tiết diện $H(t)$ là $\mu'$-không đáng kể, trừ phi $t \in T$ thuộc một tập địa phương $\mu$-không đáng kể. Khi đó kết quả liên quan đến $f$ có thể suy ra từ mệnh đề a) áp dụng cho $g$.
 
-#### Chú giải {#int-v-s8-n4-sch-1 .statement}
+#### Chú giải {#int-v-s8-n4-sch-1 .statement tag=097N}
 
 — *Cho $f$ là một hàm được xác định trên $T \times T'$, nhận giá trị trong $\overline{\mathbf{R}}$ hoặc trong một không gian Banach, là $\nu$-đo được và $\nu$-vừa phải. Đối với ba tích phân*
 
@@ -418,13 +418,13 @@ $$
 
 Đây là một hệ quả ngay lập tức của Định lý 1, Mệnh đề 7 và tiêu chuẩn khả tích (Ch. IV, §5, No. 6, Định lý 5).
 
-#### Nhận xét {#int-v-s8-n4-rem-1 .statement}
+#### Nhận xét {#int-v-s8-n4-rem-1 .statement tag=097O}
 
 — 1) Khi độ đo $\mu'$ không ôn hòa, có thể xảy ra trường hợp $f$ là khả tích thiết yếu theo $\nu$ và hàm $t' \mapsto f(t, t')$ lại không khả tích thiết yếu theo $\mu'$ với bất kỳ giá trị nào của $t \in T$ (§3, Exer. 4).
 
 2) Cho $\mu$ và $\mu'$ là hai độ đo phức, và đặt $\nu = \mu \otimes \mu'$. Nếu $f$ là khả tích theo $\nu$ (nói cách khác, khả tích theo $|\nu|$), thì áp dụng định lý cho các độ đo $|\mu|$ và $|\mu'|$, mà tích của chúng là $|\nu|$ (Ch. III, §4, No. 2, Mệnh đề 3), suy ra rằng $t' \mapsto f(t, t')$ là khả tích theo $\mu'$ với $\mu$-hầu khắp mọi $t$. Từ đó suy ra, bằng cách phân tích các độ đo $\mu$ và $\mu'$ thành một tổ hợp tuyến tính của các độ đo dương, rằng mệnh đề ở a) mở rộng được cho các độ đo phức. Ta cũng có thể lập luận tương tự cho b).
 
-#### Mệnh đề 9 {#int-v-s8-prop-9 .statement}
+#### Mệnh đề 9 {#int-v-s8-prop-9 .statement tag=097P}
 
 *Cho $F$, $F'$ và $G$ là ba không gian Banach, và cho $(x, y) \mapsto [x \cdot y]$ là một ánh xạ song tuyến tính liên tục từ $F \times F'$ vào $G$. Cho $f$ (tương ứng $f'$) là một hàm xác định trên $T$ (tương ứng $T'$) nhận giá trị trong $F$ (tương ứng $F'$) và khả tích thiết yếu theo $\mu$ (tương ứng $\mu'$). Đặt $g$ là hàm $(t, t') \mapsto [f(t) \cdot f'(t')]$; khi đó $g$ khả tích thiết yếu theo $\mu \otimes \mu'$, và*
 
@@ -449,7 +449,7 @@ Kết quả này mở rộng cho tích của các độ đo phức.
 
 ### 5. Các phép toán trên tích của hai độ đo
 
-#### Mệnh đề 10 {#int-v-s8-prop-10 .statement}
+#### Mệnh đề 10 {#int-v-s8-prop-10 .statement tag=097Q}
 
 — Cho $g$ (resp. $g'$) là một hàm phức (hoặc một hàm nhận giá trị trong $\overline{\mathbf{R}}$) xác định trên $T$ (resp. $T'$).
 a) Nếu $g$ (resp. $g'$) khả tích địa phương đối với $\mu$ (resp. $\mu'$), thì hàm $g \otimes g': (t, t') \mapsto g(t)g'(t')$ khả tích địa phương đối với $\nu = \mu \otimes \mu'$, và
@@ -474,7 +474,7 @@ Do đó nhân tử thứ nhất của vế thứ nhất là hữu hạn, và đi
 
 Mệnh đề này mở rộng sang các độ đo phức, nhờ Prop. 3 của Ch. III, § 4, No. 2.
 
-#### Mệnh đề 11 {#int-v-s8-prop-11 .statement}
+#### Mệnh đề 11 {#int-v-s8-prop-11 .statement tag=097R}
 
 *Cho $\pi$ (resp. $\pi'$) là một ánh xạ từ $T$ (resp. $T'$) vào một không gian compact địa phương $T_1$ (resp. $T'_1$).*
 
@@ -514,7 +514,7 @@ Vậy tích phân thứ nhất ở vế thứ nhất là hữu hạn, điều n�
 
 Kết quả này mở rộng ngay được cho tích của hai độ đo phức (áp dụng mệnh đề cho các trị tuyệt đối của chúng). Điều tương tự cũng đúng cho mệnh đề sau đây.
 
-#### Mệnh đề 12 {#int-v-s8-prop-12 .statement}
+#### Mệnh đề 12 {#int-v-s8-prop-12 .statement tag=097S}
 
 — Cho X (tương ứng X') là một không gian con compact địa phương của T (tương ứng của T'). Khi đó độ đo cảm sinh $(\mu \otimes \mu')_{X \times X'}$ trên không gian con compact địa phương $X \times X'$ của $T \times T'$ bằng tích $\mu_X \otimes \mu'_{X'}$ của các độ đo cảm sinh trên X và X' bởi $\mu$ và $\mu'$, tương ứng.
 

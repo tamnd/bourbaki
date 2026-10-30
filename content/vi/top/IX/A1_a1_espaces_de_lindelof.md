@@ -12,7 +12,7 @@ pdf_pages: 0195-0197
 extraction: ocr
 statements: 8
 exercises: 0
-content_sha256: 10ee6230346c0be721088923dd8400f91e2033c78a2eb7670b1fc886c1b94019
+content_sha256: 2b0b923d10683681571890e903c16c52af4d2bdb2ea02e27c12a77be2116301d
 translated_from: content/en-mt/top/IX/A1_a1_espaces_de_lindelof.md
 source_lang: en-mt
 translation_method: machine
@@ -28,11 +28,11 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 # CÁC KHÔNG GIAN LINDELÖF
 
-#### Định nghĩa 1 {#top-ix-a1-def-1 .statement}
+#### Định nghĩa 1 {#top-ix-a1-def-1 .statement tag=0ED4}
 
 Người ta nói rằng một không gian tôpô $X$ (không nhất thiết tách được) là một không gian Lindelöf nếu, từ mọi phủ mở của $X$, có thể trích ra một phủ đếm được của $X$.
 
-#### Mệnh đề 1 {#top-ix-a1-prop-1 .statement}
+#### Mệnh đề 1 {#top-ix-a1-prop-1 .statement tag=0ED5}
 
 Cho $X$ là một không gian tôpô.
 
@@ -44,23 +44,23 @@ Cho $X$ là một không gian tôpô.
 
 (ii) Cho $(V_\lambda)_{\lambda \in L}$ là một họ các tập mở trong $Y$ tạo thành một phủ của $f(X)$. Khi đó các tập $f^{-1}(V_\lambda)$ tạo thành một phủ mở của $X$, và do đó tồn tại một tập con đếm được $J$ của $L$ sao cho các tập mở $f^{-1}(V_\lambda)$ với $\lambda \in J$ tạo thành một phủ của $X$. Nhưng khi đó các tập $V_\lambda$ với $\lambda \in J$ tạo thành một phủ của $f(X)$, điều này chứng minh rằng $f(X)$ là một không gian Lindelöf.
 
-#### Hệ quả {#top-ix-a1-n0-cor-1 .statement}
+#### Hệ quả {#top-ix-a1-n0-cor-1 .statement tag=0ED6}
 
 *Mọi không gian Lindelöf con, và đặc biệt mọi không gian Polish hoặc Lusin, đều là một không gian Lindelöf.*
 
 Điều này suy ra ngay lập tức từ mệnh đề trước đó 1 và từ định nghĩa của các không gian Lindelöf con (IX, p. 59, định nghĩa 2), vì một không gian Polish có một cơ sở đếm được.
 
-#### Mệnh đề 2 {#top-ix-a1-prop-2 .statement}
+#### Mệnh đề 2 {#top-ix-a1-prop-2 .statement tag=0ED7}
 
 *Mọi không gian Lindelöf chính quy đều là paracompact.*
 
 Cho $X$ là một không gian Lindelöf chính quy, và $\mathscr{R}$ là một phủ mở của $X$. Với mọi $x \in X$, lấy $U_x \in \mathscr{R}$ chứa $X$, và lấy $V_x$ là một lân cận mở của $x$ sao cho $V_x \subset U_x$. Vì $X$ là một không gian Lindelöf, tồn tại một dãy $(x_n)_{n \geq 0}$ các điểm của $X$ sao cho các $V_{x_n}$ tạo thành một phủ của $X$. Khi đó, với mọi số nguyên $n \geq 0$, đặt $W_n = U_{x_n} \cap \complement \left( \bigcup_{k < n} V_{x_k} \right)$. Các tập hợp $W_n$ là mở và tạo thành một phủ của $X$ mịn hơn $\mathscr{R}$. Mặt khác, phủ này là hữu hạn địa phương, vì mọi $x \in X$ thuộc một $V_{x_i}$ nào đó với ít nhất một $i$; khi đó $V_{x_i}$ là một lân cận của $x$, không gặp tập hợp $W_n$ nào với $n > i$.
 
-#### Hệ quả {#top-ix-a1-n0-cor-2 .statement}
+#### Hệ quả {#top-ix-a1-n0-cor-2 .statement tag=0ED8}
 
 *Mọi không gian sublinian chính quy đều là paracompact* (và đặc biệt là *chuẩn tắc* (IX, p. 49, mệnh đề 4) và *a fortiori hoàn toàn chính quy*).
 
-#### Mệnh đề 3 {#top-ix-a1-prop-3 .statement}
+#### Mệnh đề 3 {#top-ix-a1-prop-3 .statement tag=0ED9}
 
 *Một không gian tôpô $X$ (không nhất thiết tách được). Các tính chất sau là tương đương*:
 a) *Mọi không gian con mở của $X$ là một không gian Lindelöf*.
@@ -76,13 +76,13 @@ $$
 
 Cho $\mathscr{F}' = \bigcup_{d \in D} \mathscr{F}'_d$, và ký hiệu $s'$ là bao trên của $\mathscr{F}'$. Hiển nhiên ta có $s \geqslant s'$; mặt khác, cho $x$ là một điểm của $X$, và cho $d$ là một phần tử của $D$ sao cho $s(x) > d$; tồn tại một hàm $f \in \mathscr{F}$ sao cho $f(x) > d$; do đó $x \in U_{f,d}$, và tồn tại một hàm $f' \in \mathscr{F}'_d$ sao cho $x \in U_{f',d}$. Do đó, ta cũng có $s'(x) > d$, từ đó có bất đẳng thức $s' \geqslant s$, và cuối cùng $s' = s$. Vì $\mathscr{F}'$ là đếm được, mệnh đề được thiết lập cho các hàm nửa liên tục dưới; trường hợp các hàm nửa liên tục trên được quy về trường hợp này bằng cách đổi dấu.
 
-#### Hệ quả 1 {#top-ix-a1-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#top-ix-a1-prop-3-cor-1 .statement tag=0EDA}
 
 *Cho $X$ là một không gian souslin chính quy, $H$ là một tập hợp các hàm số liên tục trên $X$, tách các điểm của $X$* (IX, p. 9, định nghĩa 5). *Khi đó tồn tại một tập con đếm được $H'$ của $H$ tách các điểm của $X$*.
 
 Thật vậy, $X \times X$ là một không gian souslin (IX, p. 60, mệnh đề 7); điều tương tự cũng đúng với mọi không gian con mở của $X \times X$ (IX, p. 59, mệnh đề 5), do đó nó là một không gian Lindelöf (IX, p. 76, hệ quả). Với mỗi hàm $h \in H$, gán cho tập đóng $F_h$ gồm các cặp $(x, y) \in X \times X$ sao cho $h(x) = h(y)$. Theo mệnh đề 3, tồn tại một tập con đếm được $H'$ của $H$ sao cho ta có $\bigcap_{h \in H'} F_h = \bigcap_{h \in H} F_h$. Nhưng theo giả thiết, vế thứ hai là đường chéo của $X \times X$; do đó điều tương tự cũng đúng với vế thứ nhất, và vì vậy $H'$ tách các điểm của $X$.
 
-#### Hệ quả 2 {#top-ix-a1-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#top-ix-a1-prop-3-cor-2 .statement tag=0EDB}
 
 *Mọi không gian souslin compact đều mêtric hóa được*.
 

@@ -12,11 +12,11 @@ pdf_pages: 0195-0197
 extraction: ocr
 statements: 8
 exercises: 0
-content_sha256: af200203055b1690911994a77e52a55f969bd6421f23793ae40bea1269f670b5
+content_sha256: 8a445f85046389d62071385eb7ec3ea8ef4b6fa522accb7de3e00d3153c25762
 translated_from: content/fr/top/IX/A1_a1_espaces_de_lindelof.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: db132edc19538b624967f7bf20a1e698bea65a774bf924c3b75737fc35181dce
+source_content_sha256: fe667206e9ebb3c7a51bb0467238a932ee178c61eba532ab093734ddf7b9de2a
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-en-mt-8d180061
 glossary_version: 34
@@ -28,11 +28,11 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 # LINDELÖF SPACES
 
-#### Definition 1 {#top-ix-a1-def-1 .statement}
+#### Definition 1 {#top-ix-a1-def-1 .statement tag=0ED4}
 
 One says that a topological space $X$ (not necessarily separated) is a Lindelöf space if, from every open covering of $X$, one can extract a countable covering of $X$.
 
-#### Proposition 1 {#top-ix-a1-prop-1 .statement}
+#### Proposition 1 {#top-ix-a1-prop-1 .statement tag=0ED5}
 
 Let $X$ be a topological space.
 
@@ -44,23 +44,23 @@ Let $X$ be a topological space.
 
 (ii) Let $(V_\lambda)_{\lambda \in L}$ be a family of open sets in $Y$ forming a covering of $f(X)$. The sets $f^{-1}(V_\lambda)$ then form an open covering of $X$, and there exists consequently a countable subset $J$ of $L$ such that the open sets $f^{-1}(V_\lambda)$ for $\lambda \in J$ form a covering of $X$. But then the sets $V_\lambda$ for $\lambda \in J$ form a covering of $f(X)$, which proves that $f(X)$ is a Lindelöf space.
 
-#### Corollary {#top-ix-a1-n0-cor-1 .statement}
+#### Corollary {#top-ix-a1-n0-cor-1 .statement tag=0ED6}
 
 *Every sub-Lindelöf space, and in particular every Polish or Lusin space, is a Lindelöf space.*
 
 This follows immediately from the preceding prop. 1 and from the definition of sub-Lindelöf spaces (IX, p. 59, def. 2), since a Polish space admits a countable base.
 
-#### Proposition 2 {#top-ix-a1-prop-2 .statement}
+#### Proposition 2 {#top-ix-a1-prop-2 .statement tag=0ED7}
 
 *Every regular Lindelöf space is paracompact.*
 
 Soit $X$ a regular Lindelöf space, and $\mathscr{R}$ an open covering of $X$. For every $x \in X$, let $U_x \in \mathscr{R}$ containing $X$, and let $V_x$ be an open neighbourhood of $x$ such that $V_x \subset U_x$. Since $X$ is a Lindelöf space, there exists a sequence $(x_n)_{n \geq 0}$ of points of $X$ such that the $V_{x_n}$ form a covering of $X$. Put then, for every integer $n \geq 0$, $W_n = U_{x_n} \cap \complement \left( \bigcup_{k < n} V_{x_k} \right)$. The sets $W_n$ are open and form a covering of $X$ finer than $\mathscr{R}$. On the other hand, this covering is locally finite, since every $x \in X$ belongs to some $V_{x_i}$ for at least one $i$; then $V_{x_i}$ is a neighbourhood of $x$, which meets no set $W_n$ for $n > i$.
 
-#### Corollary {#top-ix-a1-n0-cor-2 .statement}
+#### Corollary {#top-ix-a1-n0-cor-2 .statement tag=0ED8}
 
 *Every regular sublinian space is paracompact* (and in particular *normal* (IX, p. 49, prop. 4) and *a fortiori completely regular*).
 
-#### Proposition 3 {#top-ix-a1-prop-3 .statement}
+#### Proposition 3 {#top-ix-a1-prop-3 .statement tag=0ED9}
 
 *Let $X$ be a topological space (not necessarily separated). The following properties are equivalent*:
 a) *Every open subspace of $X$ is a Lindelöf space*.
@@ -76,13 +76,13 @@ $$
 
 Let $\mathscr{F}' = \bigcup_{d \in D} \mathscr{F}'_d$, and denote by $s'$ the upper envelope of $\mathscr{F}'$. We obviously have $s \geqslant s'$; on the other hand, let $x$ be a point of $X$, and let $d$ be an element of $D$ such that $s(x) > d$; there exists a function $f \in \mathscr{F}$ such that $f(x) > d$; hence $x \in U_{f,d}$, and there exists a function $f' \in \mathscr{F}'_d$ such that $x \in U_{f',d}$. Consequently, we also have $s'(x) > d$, whence the inequality $s' \geqslant s$, and finally $s' = s$. Since $\mathscr{F}'$ is countable, the assertion is established for lower semi-continuous functions; the case of upper semi-continuous functions is reduced to it by changing the sign.
 
-#### Corollary 1 {#top-ix-a1-prop-3-cor-1 .statement}
+#### Corollary 1 {#top-ix-a1-prop-3-cor-1 .statement tag=0EDA}
 
 *Let $X$ be a regular souslinian space, $H$ a set of continuous numerical functions in $X$, which separates the points of $X$* (IX, p. 9, def. 5). *There then exists a countable subset $H'$ of $H$ which separates the points of $X$*.
 
 Indeed, $X \times X$ is a souslinian space (IX, p. 60, prop. 7); the same is true of every open subspace of $X \times X$ (IX, p. 59, prop. 5), which is therefore a Lindelöf space (IX, p. 76, corollary). To every function $h \in H$, associate the closed set $F_h$ of the pairs $(x, y) \in X \times X$ such that $h(x) = h(y)$. By virtue of prop. 3, there exists a countable subset $H'$ of $H$ such that one has $\bigcap_{h \in H'} F_h = \bigcap_{h \in H} F_h$. But by assumption the second member is the diagonal of $X \times X$; the same is therefore true of the first, and consequently $H'$ separates the points of $X$.
 
-#### Corollary 2 {#top-ix-a1-prop-3-cor-2 .statement}
+#### Corollary 2 {#top-ix-a1-prop-3-cor-2 .statement tag=0EDB}
 
 *Every compact souslinian space is metrizable*.
 

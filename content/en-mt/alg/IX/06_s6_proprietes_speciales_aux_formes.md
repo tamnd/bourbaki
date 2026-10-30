@@ -36,11 +36,11 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: dfbc26b63bb98515a08b5fd80668d36c963bf55d3eb20c2ff2cabbbea653e907
+content_sha256: ba00a01bc5163324169d05a9726718a95f32db3ed6313e4e8ecd95b7e66c470d
 translated_from: content/fr/alg/IX/06_s6_proprietes_speciales_aux_formes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: fdfa14db733c63e64d598672251a02515afe7b23caf39c29d53cd97f3cd1ba15
+source_content_sha256: b0576922d52dcc0f8be34d0cdfb7f3c5bde3cd7e1feefc8a8371c152618157e7
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-bddeeb87
 glossary_version: 34
@@ -52,7 +52,7 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 ### 1. Orthogonal Bases.
 
-#### Definition 1 {#alg-ix-s6-def-1 .statement}
+#### Definition 1 {#alg-ix-s6-def-1 .statement tag=0DLE}
 
 Let $\Phi$ be a Hermitian form on $E$. A basis $(e_i)$ of $E$ is said to be orthogonal for $\Phi$ if any two elements of this basis are orthogonal for $\Phi$.
 
@@ -63,13 +63,13 @@ $$
 \Phi(\sum_i \xi_i e_i, \sum_i \eta_i e_i) = \sum_i \xi_i \alpha_i \overline{\eta_i}.
 $$
 
-#### Lemma 1 {#alg-ix-s6-lem-1 .statement}
+#### Lemma 1 {#alg-ix-s6-lem-1 .statement tag=0DLF}
 
 Suppose that $A$ is a field and $\Phi$ a Hermitian form $\neq 0$ on $E$. If all the vectors of $E$ are isotropic, $A$ is a commutative field of characteristic 2, the antiautomorphism $J$ is the identity and $\Phi$ is alternating.
 
 Indeed, on expanding $\Phi(x + y, x + y) = 0$, taking into account the hypotheses $\Phi(x, x) = \Phi(y, y) = 0$, we obtain the relation $\Phi(x, y) = -\overline{\Phi(x, y)}$ for arbitrary $x, y$ in $E$. Since $\Phi$ is $\neq 0$, there exist $x, y$ in $E$ such that $\Phi(x, y) = 1$. Writing that $\Phi(\lambda x, y) = -\Phi(\lambda x, y)$, we obtain $\overline{\lambda} = -\lambda$ for every $\lambda \in A$. Taking first $\lambda = 1$, we see that $A$ is of characteristic 2; the relation $\overline{\lambda} = -\lambda$ then shows that $J$ is the identity, hence $A$ is commutative and $\Phi$ is alternating.
 
-#### Theorem 1 {#alg-ix-s6-thm-1 .statement}
+#### Theorem 1 {#alg-ix-s6-thm-1 .statement tag=0DLG}
 
 Suppose that $A$ is a field and $E$ a finite-dimensional vector space of dimension $n$ over $A$. Then, for every Hermitian form $\Phi$ on $E$, $E$ admits an orthogonal basis, unless the following conditions are simultaneously satisfied:
 
@@ -79,17 +79,17 @@ Let us reason by induction on $n$, the result being obvious for $n = 0$. We may 
 
 When (C) is satisfied, there is obviously no orthogonal basis for $\Phi$.
 
-#### Corollary 1 {#alg-ix-s6-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-ix-s6-thm-1-cor-1 .statement tag=0DLH}
 
 *The notations being those of th. 1, suppose in addition that (C) is not satisfied, that $\Phi$ is non-degenerate and that, for every $x \in \mathbf{E}$, there exists $\rho \in \mathbf{A}$ such that $\Phi(x, x) = \rho \bar{\rho}$. Then $\mathbf{E}$ admits an orthonormal basis for $\Phi$*.
 
 So indeed let $(e_i)$ ($i = 1, \ldots, n$) be an orthogonal basis of $\mathbf{E}$. Put $\Phi(e_i, e_i) = \alpha_i$. We have $\alpha_i \neq 0$ for $i = 1, \ldots, n$ since $\Phi$ is non-degenerate. By assumption, there exist elements $\beta_i$ of $\mathbf{A}$ such that $\alpha_i = \beta_i \overline{\beta_i}$ for $i = 1, \ldots, n$; we have $\beta_i \neq 0$. On putting $f_i = \beta_i^{-1} e_i$, we have $\Phi(f_i, f_i) = \beta_i^{-1} \alpha_i \overline{\beta_i^{-1}} = 1$ for all $i$, and $\Phi(f_i, f_j) = 0$ for $i \neq j$. Thus $(f_i)$ is an orthonormal basis.
 
-#### Remark {#alg-ix-s6-n1-rem-1 .statement}
+#### Remark {#alg-ix-s6-n1-rem-1 .statement tag=0DLI}
 
 The last assumption of the corollary is satisfied when $\mathbf{J}$ is the identity, and every element of $\mathbf{A}$ is the square of an element of $\mathbf{A}$ (for example when $\mathbf{A}$ is algebraically closed).
 
-#### Corollary 2 {#alg-ix-s6-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-ix-s6-thm-1-cor-2 .statement tag=0DLJ}
 
 *Let $\mathbf{A}$ be a field and $R$ a hermitian matrix of order $n$ and of rank $r$ over $\mathbf{A}$. Then, unless the following condition is satisfied:
 
@@ -109,7 +109,7 @@ $$
 
 where $\overline{\alpha}_i = \alpha_i \neq 0$ for $i = 1, \ldots, r$.
 
-#### Proposition 1 {#alg-ix-s6-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s6-prop-1 .statement tag=0DLK}
 
 *Suppose that $A$ is a commutative field. Let $\Phi$ be a hermitian form on $E$, and let $(x_n)$ ($n = 1, 2, \ldots$) be a sequence (finite or infinite) of linearly independent vectors of $E$ such that, for every $n$, the subspace $E_n = Ax_1 + \cdots + Ax_n$ is non-isotropic. Let $D_{jn}$ ($j \leq n$) be the cofactor of $\Phi(x_j, x_n)$ in the matrix $(\Phi(x_s, x_t))_{(s,t=1,\ldots,n)}$. Then $D_{nn} \neq 0$ for every $n$. Put*
 
@@ -142,7 +142,7 @@ $$
 
 With the notation of prop. 1, we say that the sequence $(e_n)$ is obtained from the sequence $(x_n)$ by the Gram-Schmidt orthogonalization process.
 
-#### Proposition 2 {#alg-ix-s6-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s6-prop-2 .statement tag=0DLL}
 
 Let $\Phi$ be a hermitian form on $E$, and let $(e_i)$ $(i = 1, \ldots, n)$ be an orthogonal (resp. orthonormal) basis of $E$ for $\Phi$. Then, for every $p \geqslant 0$, the basis of $\bigotimes^p E$ formed by the $e_{i_1} \otimes \cdots \otimes e_{i_p}$ and the basis $(e_H)$ of $\wedge^p E$ (where $H$ runs through the set of parts with $p$ elements of $\{1, n\}$; cf. chap. III, § 5, no. 6) are orthogonal (resp. orthonormal) for the extensions of $\Phi$ to $\bigotimes^p E$ and $\wedge^p E$ respectively ($§ 1$, no. 9). If, moreover, the mappings associated with $\Phi$ are bijective, the basis $(e'_i)$ of $E^*$ dual to $(e_i)$ is orthogonal (resp. orthonormal) for the inverse form $\widehat{\Phi}$ of $\Phi$ ($§ 1$, no. 7).
 
@@ -172,7 +172,7 @@ $$
 
 and, since A is commutative, it is a necessary and sufficient condition for $U$ to be an orthogonal matrix.
 
-#### Proposition 3 {#alg-ix-s6-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s6-prop-3 .statement tag=0DLM}
 
 *Suppose that A is a commutative field and that E is of finite dimension $> 0$. Let $\Phi$ be a non-degenerate hermitian form on E. The mapping $u \to \det u$ is a homomorphism of the unitary group $\mathbf{U}(\Phi)$ associated with $\Phi$ onto the multiplicative subgroup H of A formed by the elements $\rho$ such that $\rho \overline{\rho} = 1$ (subgroup reduced to $\{1, -1\}$ when J is the identity).*
 
@@ -188,7 +188,7 @@ If $E = A^n$ and $\Phi$ is the form whose matrix with respect to the canonical b
 
 Throughout this No., we suppose that the scalar 2 is invertible in $A$ (for example, that $A$ is a field of characteristic $\neq 2$), and that $\Phi$ is a non-degenerate hermitian form on $E$. We denote by $\frac{1}{2}$ the inverse of 2.
 
-#### Lemma 2 {#alg-ix-s6-lem-2 .statement}
+#### Lemma 2 {#alg-ix-s6-lem-2 .statement tag=0DLN}
 
 For an endomorphism $u$ of $E$ to be such that $u^2 = 1$, it is necessary and sufficient that $\frac{1}{2}(1 - u)$ be a projector in $E$; then $u$ is the difference of the two projectors $\frac{1}{2}(1 + u)$ and $\frac{1}{2}(1 - u)$.
 
@@ -196,7 +196,7 @@ Indeed, in the ring $\mathscr{L}(E)$, the relation $\left( \frac{1}{2}(1 - u) \r
 
 An endomorphism $u$ of $E$ such that $u^2 = 1$ (which is then necessarily an automorphism of $E$ equal to its inverse) is called an involution. Put $\varphi = \frac{1}{2}(1 - u)$, $U^- = \varphi(E)$, $U^+ = \varphi^{-1}(0)$ ($= \omega(E)$ on putting $\omega = \frac{1}{2}(1 + u)$); it is known that $E$ is the direct sum of $U^+$ and $U^-$ (Chap. VIII, § 1, No. 1), and we have $u(x) = x$ in $U^+$, $u(x) = -x$ in $U^-$. When $A$ is a field and $E$ is finite-dimensional, it follows, since $A$ is of characteristic $\neq 2$, that the only eigenvectors $\neq 0$ of $u$ are the elements ≠ 0 in U^+ or in U^-; they correspond respectively to the eigenvalues + 1 and -1.
 
-#### Proposition 4 {#alg-ix-s6-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s6-prop-4 .statement tag=0DLO}
 
 Let u ∈ GL(E) be an involution. The following properties are equivalent:
 a) u belongs to the unitary group associated with Φ ;
@@ -207,7 +207,7 @@ c) u = u*.
 Indeed, for x ∈ U^+ and y ∈ U^-, the relation $\Phi(u(x), u(y)) = \Phi(x, y)$
 gives $2\Phi(x, y) = 0$, hence a) implies b). Conversely, we obviously have $\Phi(u(x), u(y)) = \Phi(x, y)$ when x and y both belong to U^+ or both belong to U^-, and, in view of b), this relation is still true when one of them belongs to U^+ and the other to U^-; since E is the direct sum of U^+ and U^-, we see that b) implies a). Finally, when E is a finite-dimensional vector space, the adjoint u* is defined since Φ is non-degenerate; relation a) is equivalent to $uu^* = 1$ (§ 1, No. 8, cor. of prop. 8); since $u^2 = 1$ by assumption, a) and c) are equivalent.
 
-#### Corollary 1 {#alg-ix-s6-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-ix-s6-prop-4-cor-1 .statement tag=0DLP}
 
 Suppose that A is a field and that E is finite-dimensional. The mapping $u \to \frac{1}{2}(1 + u)(E)$ is a bijection from the set of involutions u belonging to the unitary group associated with Φ onto the set of non-isotropic subspaces of E; the subspace U^+ corresponding to u is the set of elements of E invariant under u.
 
@@ -215,7 +215,7 @@ By prop. 4, it suffices to show that every non-isotropic subspace M of E is the 
 
 We say that the involution $u$ thus determined is the symmetry with respect to the non-isotropic subspace M.
 
-#### Corollary 2 {#alg-ix-s6-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-ix-s6-prop-4-cor-2 .statement tag=0DLQ}
 
 Suppose that $\mathbf{A}$ is a field and that $\mathbf{E}$ is finite-dimensional. In order that a projector $\nu$ in $\mathbf{E}$ be such that $\nu(\mathbf{E})$ and $\nu(0)$ are orthogonal (and consequently non-isotropic), it is necessary and sufficient that $\nu = \nu^*$.
 
@@ -241,7 +241,7 @@ $$
 
 It should be noted that the last member of (6) still has a meaning when $\mathbf{A}$ is a field of characteristic 2, and $a$ a non-singular vector of $\mathbf{E}$; it is immediately verified that one still has then $Q(u(x)) = Q(x)$ for all $x \in \mathbf{E}$, in other words $u \in \mathbf{O}(Q)$. The involution $u$ thus defined is again called the symmetry with respect to the hyperplane orthogonal to $a$ (cf. exerc. 28).
 
-#### Proposition 5 {#alg-ix-s6-prop-5 .statement}
+#### Proposition 5 {#alg-ix-s6-prop-5 .statement tag=0DLR}
 
 Suppose the vector space $\mathbf{E}$ to be of finite dimension n. The orthogonal group $\mathbf{O}(Q)$ associated with $Q$ is then generated by the symmetries with respect to the non-isotropic hyperplanes of $\mathbf{E}$.
 
@@ -292,7 +292,7 @@ Let A be a commutative field and Q a quadratic form $\neq 0$ on E. A similitude 
 
 ### 6. Hermitian Geometry.
 
-#### Definition 2 {#alg-ix-s6-def-2 .statement}
+#### Definition 2 {#alg-ix-s6-def-2 .statement tag=0DLS}
 
 Let A be a field, L an affine space over A and T the space of translations of L (Chapter II, 2nd ed., App. II). If T is endowed with a non-degenerate hermitian form $\Phi$, L is said to be a hermitian space over A, and $\Phi$ the metric form of L.
 
@@ -304,7 +304,7 @@ Two linear varieties of L are said to be orthogonal if their directions (Chapter
 
 Let V be a linear variety in L, and $x$ a point of L. The set of points $y$ of L such that $y - x$ is orthogonal to V is a linear variety W passing through $x$; W is said to be the totally orthogonal variety (or, more simply, the orthogonal variety) to V passing through x. If L is of finite dimension, the dimension of W is equal to the codimension of V. Moreover, if V is nonisotropic, the directions of V and W are supplementary (§ 4, No. 1, cor. of prop. 1); then W meets V in a single point $x_1$; taking an origin in V, one sees at once that, for fixed V, the mapping $x \to x_1$ is an affine idempotent linear mapping; it is called the orthogonal projection of L onto V; the linear mapping associated with it (Chapter II, 2nd ed., App. II, No. 4) is the orthogonal projector of T onto the direction of V (No. 3).
 
-#### Definition 3 {#alg-ix-s6-def-3 .statement}
+#### Definition 3 {#alg-ix-s6-def-3 .statement tag=0DLT}
 
 Let L be a hermitian space over a field A, T the space of translations of L. A displacement (resp. similitude) of L is any affine bijection u of L onto L such that the linear mapping $\varphi$ associated with u in T (Chapter II, 2nd ed., App. II, No. 4) is unitary (resp. is a similitude).
 
@@ -312,7 +312,7 @@ The group of translations is a normal subgroup of the affine group; it is theref
 
 Let $u$ be a similitude in L, $\varphi$ the associated similitude in T. The multiplier of $\varphi$ is also called the multiplier of $u$ (No. 5). If this multiplier is denoted by $\alpha(u)$, the mapping $u \to \alpha(u)$ is a homomorphism of the group of similitudes of L into the multiplicative group of the invertible elements of the center of A; its kernel is the group of displacements, which is therefore a normal subgroup of the group of similitudes. When A is commutative and L is of finite dimension, there are, between the determinant det $u$ (equal by definition to det $\varphi$) and $\alpha(u)$, the same relations as in No. 5. The displacements $u$ such that det $u = 1$ form a normal subgroup of the group of displacements; this subgroup is of index 2 if A is a commutative field of characteristic $\neq 2$ and J is the identity.
 
-#### Proposition 6 {#alg-ix-s6-prop-6 .statement}
+#### Proposition 6 {#alg-ix-s6-prop-6 .statement tag=0DLU}
 
 *Let L be a finite-dimensional hermitian space over A, whose metric form has index 0. Any similitude u of L, with multiplier $\mu \neq 1$, then admits one and only one fixed point.*
 

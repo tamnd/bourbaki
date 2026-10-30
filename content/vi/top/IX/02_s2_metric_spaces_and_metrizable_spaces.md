@@ -52,7 +52,7 @@ subsections:
       pdf_page: 165
 statements: 33
 exercises: 9
-content_sha256: e715e5dbe5ae1be151e72e871637289e659832181bde27a3dc548758a43b91db
+content_sha256: 1f4ccc3f648474e3ce393411edd5daaebbb7d5be9bb01599fc6edb7fb468c4ce
 translated_from: content/en/top/IX/02_s2_metric_spaces_and_metrizable_spaces.md
 source_content_sha256: 251e0a701a7a4479cdf6534f4d5644531e477de5a2f33457b6f0c1971ce81b63
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
@@ -66,13 +66,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC MÊTRIC VÀ KHÔNG GIAN MÊTRIC
 
-#### Định nghĩa 1 {#top-ix-s2-def-1 .statement}
+#### Định nghĩa 1 {#top-ix-s2-def-1 .statement tag=0C2C}
 
 *Một mêtric trên một tập hợp* $X$ *là một giả mêtric hữu hạn* $d$ *trên* $X$ *sao cho quan hệ* $d(x, y) = 0$ *suy ra* $x = y$. *Một không gian mêtric là một tập hợp* $X$ *được trang bị cấu trúc được xác định bởi một mêtric đã cho trên* $X$.
 
 Một không gian mêtric $X$ luôn được xem là mang cấu trúc đều và tôpô được xác định bởi mêtric đã cho trên $X$.
 
-#### Ví dụ 1 {#top-ix-s2-n1-exa-1 .statement}
+#### Ví dụ 1 {#top-ix-s2-n1-exa-1 .statement tag=0C2D}
 
 Khoảng cách Euclid $d(x, y)$ (Chương VI, § 2, no. 1) là một mêtric trên không gian số thực $n$-chiều $\mathbf{R}^n$; các hàm sau cũng vậy
 
@@ -82,7 +82,7 @@ $$
 
 Tất cả các mêtric này là *tương đương* ($\S$ 1, no. 2).
 
-#### Ví dụ 2 {#top-ix-s2-n1-exa-2 .statement}
+#### Ví dụ 2 {#top-ix-s2-n1-exa-2 .statement tag=0C2E}
 
 Trên mọi tập hợp $X$, giả mêtric $d$, được xác định bởi các quan hệ $d(x, x) = 0$ và $d(x, y) = 1$ nếu $x \neq y$, là một mêtric. Cấu trúc đều mà nó xác định trên $X$ là cấu trúc đều *rời rạc*.
 
@@ -98,7 +98,7 @@ và tương tự $f(x', y) \leq f(x, y)$, do đó $f(x, y) = f(x', y)$; nói cá
 
 Mệnh đề 1 của § 1, no. 3 xác định cấu trúc của *phép hoàn thiện* của một không gian mêtric:
 
-#### Mệnh đề 1 {#top-ix-s2-prop-1 .statement}
+#### Mệnh đề 1 {#top-ix-s2-prop-1 .statement tag=0C2F}
 
 *Cho $X$ là một không gian mêtric và $d$ là mêtric của nó. Nếu $\hat{X}$ là mêtric hoàn chỉnh của $X$ (đối với cấu trúc đều được xác định bởi $d$), thì hàm $d$ có thể được mở rộng bằng tính liên tục lên $\hat{X} \times \hat{X}$; hàm mở rộng $\overline{d}$ là một mêtric trên $\hat{X}$, và cấu trúc đều của $\hat{X}$ trùng với cấu trúc đều được xác định bởi mêtric $\overline{d}$.*
 
@@ -139,17 +139,17 @@ d(A, B) = \inf_{x \in A} d(x, B)
 $$
 (Chương IV, § 5, no. 4, Mệnh đề 9).
 
-#### Nhận xét {#top-ix-s2-n2-rem-1 .statement}
+#### Nhận xét {#top-ix-s2-n2-rem-1 .statement tag=0C2G}
 
 Nếu $d(x, A) = a$, có thể xảy ra trường hợp không có điểm nào của A mà khoảng cách đến x bằng a. Tuy nhiên, tình huống này không bao giờ xảy ra nếu A compắc, vì khi đó định lý Weierstrass (Chương IV, § 6, no. 1, Định lý 1) cho thấy rằng tồn tại $y \in A$ sao cho $d(x, A) = d(x, y)$.
 
-#### Mệnh đề 2 {#top-ix-s2-prop-2 .statement}
+#### Mệnh đề 2 {#top-ix-s2-prop-2 .statement tag=0C2H}
 
 *Các mệnh đề* $d(x, A) = 0$ *và* $x \in \overline{A}$ *là tương đương*.
 
 Vì $d(x, A) = 0$ biểu thị sự kiện rằng quả cầu $V_a(x)$ gặp $A$ với mọi giá trị của $a > 0$; và điều này tương đương với $x \in \overline{A}$.
 
-#### Mệnh đề 3 {#top-ix-s2-prop-3 .statement}
+#### Mệnh đề 3 {#top-ix-s2-prop-3 .statement tag=0C2I}
 
 *Hàm* $d(x, A)$ *là liên tục đều trên* $X$.
 
@@ -169,7 +169,7 @@ $$
 $$
 do đó kết quả được suy ra.
 
-#### Nhận xét {#top-ix-s2-n2-rem-2 .statement}
+#### Nhận xét {#top-ix-s2-n2-rem-2 .statement tag=0C2J}
 
 Ta có thể có $d(A, B) = 0$ đối với hai tập con $A, B$ của $X$ sao cho $\overline{A} \cap \overline{B} = \varnothing$, với điều kiện rằng không tập con nào trong hai tập con là một điểm đơn. Ví dụ, trên đường thẳng thực $\mathbf{R}$, tập hợp các số nguyên $> 0$ và tập hợp các điểm của dãy $(n + 1/2^n)_{n \geq 1}$ là hai tập hợp đóng rời nhau mà khoảng cách giữa chúng là không.
 
@@ -200,7 +200,7 @@ $$
 $$
 (khi $V$ chạy qua lọc lân cận của $x$ trong $Y$) được gọi là độ dao động của $f$ tại $x \in \overline{X}$.
 
-#### Mệnh đề 4 {#top-ix-s2-prop-4 .statement}
+#### Mệnh đề 4 {#top-ix-s2-prop-4 .statement tag=0C2K}
 
 *Độ dao động $\omega(x; f)$ của một hàm tùy ý $f$, được xác định trên một tập con $X$ của một không gian tôpô $Y$ và nhận giá trị trong một không gian mêtric $X'$, là nửa liên tục trên trên $\overline{X}$.*
 
@@ -212,20 +212,20 @@ $$
 
 Để có $\omega(x; f) = 0$ tại một điểm $x \in \overline{X}$ thì điều kiện cần và đủ là với mỗi $\varepsilon > 0$ tồn tại một lân cận $V$ của $x$ sao cho $f(V \cap X)$ được chứa trong một hình cầu bán kính $\varepsilon$; nếu $x \in X$, điều kiện này biểu thị sự kiện rằng $f$ liên tục tại điểm $x$ (đối với $X$); nếu $x \in \overline{X} \cap \mathbf{C}X$, ảnh qua $f$ của vết trên $X$ của lọc lân cận của $x$ trong $Y$ là một cơ sở lọc Cauchy trên $X'$; đặc biệt:
 
-#### Mệnh đề 5 {#top-ix-s2-prop-5 .statement}
+#### Mệnh đề 5 {#top-ix-s2-prop-5 .statement tag=0C2L}
 
 *Một hàm $f$ được xác định trên một tập con $X$ của một không gian tôpô $Y$, nhận giá trị trong một không gian mêtric đầy đủ $X'$. Khi đó $f$ có giới hạn tương đối với $X$ tại một điểm $x \in \overline{X}$ khi và chỉ khi độ dao động của $f$ tại $x$ bằng không.*
 
 ### 4. CÁC KHÔNG GIAN ĐỒNG ĐỀU METRIC HÓA ĐƯỢC
 
-#### Định nghĩa 2 {#top-ix-s2-def-2 .statement}
+#### Định nghĩa 2 {#top-ix-s2-def-2 .statement tag=0C2M}
 
 *Một mêtric trên một tập hợp $X$ được gọi là tương thích với một cấu trúc đồng đều $U$ trên $X$ nếu cấu trúc đồng đều được xác định bởi mêtric trùng với $U$.
 Một cấu trúc đồng đều trên một tập hợp $X$ được gọi là metric hóa được nếu có một mêtric trên $X$ tương thích với cấu trúc đồng đều này. Một không gian đồng đều được gọi là metric hóa được nếu cấu trúc đồng đều của nó là metric hóa được.*
 
 Các mêtric phân biệt có thể tương thích với cùng một cấu trúc đồng đều; khi đó chúng là *tương đương* (§ 1, no. 2, Định nghĩa 2).
 
-#### Định lý 1 {#top-ix-s2-thm-1 .statement}
+#### Định lý 1 {#top-ix-s2-thm-1 .statement tag=0C2N}
 
 *Một cấu trúc đồng đều là metric hóa được khi và chỉ khi nó Hausdorff và lọc các lân cận của cấu trúc đồng đều có một cơ sở đếm được.*
 
@@ -233,13 +233,13 @@ Các mêtric phân biệt có thể tương thích với cùng một cấu trúc
 
 Điều kiện là *đủ*, vì, nếu nó được thỏa mãn, cấu trúc đồng đều đang xét được xác định bởi một giả mêtric duy nhất, theo Mệnh đề 2 của § 1, no. 4; vì cấu trúc đồng đều là Hausdorff, giả mêtric này là một mêtric.
 
-#### Hệ quả 1 {#top-ix-s2-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#top-ix-s2-thm-1-cor-1 .statement tag=0C2O}
 
 *Một cấu trúc đồng đều Hausdorff được xác định bởi một họ đếm được các giả mêtric là metric hóa được.*
 
 Vì nếu $(f_n)$ là một dãy các giả metric xác định một cấu trúc như vậy, lọc các lân cận được sinh bởi họ đếm được các tập $\overline{f}_n^1([0, 1/m])$, trong đó $m$ và $n$ lần lượt chạy qua tập các số nguyên $> 0$.
 
-#### Hệ quả 2 {#top-ix-s2-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#top-ix-s2-thm-1-cor-2 .statement tag=0C2P}
 
 *Mọi tích đếm được của các không gian đồng nhất mêtric hóa được đều mêtric hóa được.*
 
@@ -247,7 +247,7 @@ Vì một không gian như vậy là Hausdorff và cấu trúc đồng nhất c�
 
 ### 5. KHÔNG GIAN TÔPÔ MÊTRIC HÓA ĐƯỢC
 
-#### Định nghĩa 3 {#top-ix-s2-def-3 .statement}
+#### Định nghĩa 3 {#top-ix-s2-def-3 .statement tag=0C2Q}
 
 *Một mêtric trên một tập $X$ được gọi là tương thích với một tôpô $\mathscr{T}$ trên $X$ nếu tôpô được xác định bởi mêtric này trùng với $\mathscr{T}$. Một không gian tôpô được gọi là mêtric hóa được nếu tồn tại một mêtric trên $X$ tương thích với tôpô của $X$.*
 
@@ -259,23 +259,23 @@ Ta cũng nhận xét rằng có thể tồn tại các cấu trúc đồng nhấ
 
 Ở đây ta sẽ chỉ xét các điều kiện *cần* để một không gian tôpô mêtric hóa được (về một điều kiện cần và đủ, xem § 4, Bài tập 22). Trước hết, một không gian không thể mêtric hóa được trừ khi nó hoàn toàn chính quy (thật vậy, ta sẽ thấy, trong § 4, no. 1, Mệnh đề 2, rằng một không gian mêtric hóa được nhất thiết là "chuẩn tắc", đây là một điều kiện mạnh hơn). Mặt khác, Định lý 1 chỉ ra rằng:
 
-#### Mệnh đề 6 {#top-ix-s2-prop-6 .statement}
+#### Mệnh đề 6 {#top-ix-s2-prop-6 .statement tag=0C2R}
 
 Mỗi điểm của một không gian mêtric hóa được có một hệ cơ bản đếm được các lân cận.
 
 Tổng quát hơn:
 
-#### Mệnh đề 7 {#top-ix-s2-prop-7 .statement}
+#### Mệnh đề 7 {#top-ix-s2-prop-7 .statement tag=0C2S}
 
 Trong một không gian mêtric hóa được, mỗi tập đóng là giao của một họ đếm được các tập mở, và mỗi tập mở là hợp của một họ đếm được các tập đóng.
 
 Cho $d$ là một mêtric tương thích với tôpô của một không gian mêtric hóa được $X$. Nếu $A$ là một tập con đóng của $X$, nó là giao của các tập mở $V_{1/n}(A)$ [tập hợp tất cả các $x \in X$ sao cho $d(x, A) < 1/n$; xem Mệnh đề 2]. Phần thứ hai của mệnh đề suy ra bằng cách lấy các phần bù.
 
-#### Nhận xét 1 {#top-ix-s2-n5-rem-1 .statement}
+#### Nhận xét 1 {#top-ix-s2-n5-rem-1 .statement tag=0C2T}
 
 Các điều kiện cần này không đủ (xem Bài tập 13).
 
-#### Nhận xét 2 {#top-ix-s2-n5-rem-2 .statement}
+#### Nhận xét 2 {#top-ix-s2-n5-rem-2 .statement tag=0C2U}
 
 Có những không gian trong đó mỗi điểm có một hệ cơ bản đếm được các lân cận nhưng trong đó tồn tại các tập đóng không phải là giao đếm được của các tập mở (Bài tập 15); các không gian như vậy không mêtric hóa được.
 
@@ -289,7 +289,7 @@ Mặt khác, khái niệm một dãy hội tụ không thích nghi với việc 
 
 Làm ví dụ về việc sử dụng các dãy đếm được, ta đưa ra các mệnh đề sau:
 
-#### Mệnh đề 8 {#top-ix-s2-prop-8 .statement}
+#### Mệnh đề 8 {#top-ix-s2-prop-8 .statement tag=0C2V}
 
 *Trong một không gian mêtric hóa được* $X$, *một điểm* $x$ *nằm trong bao đóng của một tập con khác rỗng* $A$ *của* $X$ *khi và chỉ khi tồn tại một dãy các điểm của* $A$ *hội tụ đến* $x$.
 
@@ -297,13 +297,13 @@ Chúng ta đã biết, từ Chương I, § 7, no. 3, rằng điều kiện là *
 
 Từ Mệnh đề 8 ta suy ra:
 
-#### Mệnh đề 9 {#top-ix-s2-prop-9 .statement}
+#### Mệnh đề 9 {#top-ix-s2-prop-9 .statement tag=0C2W}
 
 *Một không gian metric* $X$ *là đầy đủ khi và chỉ khi mọi dãy Cauchy trong* $X$ *là hội tụ*.
 
 Gọi $\hat{X}$ là phần đầy đủ của $X$. Nếu có một điểm $x \in \hat{X}$ không thuộc $X$, thì tồn tại một dãy $(x_n)$ các điểm của $X$ hội tụ tới $x$, và đây là một dãy Cauchy không hội tụ trong $X$.
 
-#### Mệnh đề 10 {#top-ix-s2-prop-10 .statement}
+#### Mệnh đề 10 {#top-ix-s2-prop-10 .statement tag=0C2X}
 
 *Cho* $X$ *là một không gian khả mêtric và cho* $f$ *là một ánh xạ từ* $X$ *vào một không gian tôpô* $X'$. *Khi đó* $f$ *liên tục tại một điểm* $x \in X$ *khi và chỉ khi, bất cứ khi nào* $(x_n)$ *là một dãy các điểm của* $X$ *hội tụ tới* $x$, *dãy* $(f(x_n))$ *hội tụ tới* $f(x)$ *trong* $X'$.
 
@@ -318,7 +318,7 @@ Chú ý rằng các Mệnh đề 8 và 10 đúng trong mọi không gian $X$ tro
 
 ### 7. HÀM BÁN LIÊN TỤC TRÊN MỘT KHÔNG GIAN KHẢ MÊTRIC
 
-#### Mệnh đề 11 {#top-ix-s2-prop-11 .statement}
+#### Mệnh đề 11 {#top-ix-s2-prop-11 .statement tag=0C2Y}
 
 *Cho $X$ là một không gian khả mêtric và cho* $f$ *là một hàm nửa liên tục dưới trên* $X$ *nhận các giá trị của nó trong một khoảng đóng* $[a, b]$ *của* $\overline{\mathbf{R}}$. *Khi đó* $f$ *là bao trên của một dãy tăng các hàm liên tục trên* $X$ *nhận các giá trị của chúng trong* $[a, b]$.*
 
@@ -342,13 +342,13 @@ ta thấy rằng dãy $(f_n)$ là một dãy tăng các hàm liên tục $\geq 0
 
 ### 8. KHÔNG GIAN METRIZƠ KIỂU ĐẾM ĐƯỢC
 
-#### Định nghĩa 4 {#top-ix-s2-def-4 .statement}
+#### Định nghĩa 4 {#top-ix-s2-def-4 .statement tag=0C2Z}
 
 *Một không gian mêtric được gọi là kiểu đếm được (hoặc tách được) nếu tôpô của nó có một cơ sở đếm được.*
 
 Rõ ràng mọi không gian con của một không gian mêtric kiểu đếm được lại là không gian kiểu đếm được. Định nghĩa về cơ sở của tôpô của một không gian tích (Chương I, § 4, no. 1) và Hệ quả 2 của Định lý 1 của no. 4 cho thấy tích của một họ đếm được các không gian mêtric kiểu đếm được là một không gian mêtric kiểu đếm được. Tương tự, tổng của một họ đếm được các không gian mêtric kiểu đếm được là một không gian mêtric kiểu đếm được (no. 5).
 
-#### Mệnh đề 12 {#top-ix-s2-prop-12 .statement}
+#### Mệnh đề 12 {#top-ix-s2-prop-12 .statement tag=0C30}
 
 *Nếu X là một không gian tôpô mêtric, các mệnh đề sau là tương đương*:
 
@@ -378,7 +378,7 @@ $$
 
 Chú ý rằng đối với một không gian tôpô tùy ý X, tính chất b) không nhất thiết kéo theo sự tồn tại của một cơ sở đếm được, ngay cả khi X compact và mọi điểm của X đều có một hệ cơ bản đếm được các lân cận (Bài tập 13; xem Chương I, § 1, Bài tập 7).
 
-#### Mệnh đề 13 {#top-ix-s2-prop-13 .statement}
+#### Mệnh đề 13 {#top-ix-s2-prop-13 .statement tag=0C31}
 
 *Cho X là một không gian tôpô có một cơ sở đếm được $(U_n)$; khi đó với mỗi phủ mở $(V_i)_{i \in I}$ của X, tồn tại một tập con đếm được J của I sao cho $(V_i)_{i \in J}$ là một phủ của X.*
 
@@ -388,7 +388,7 @@ Gọi H là tập con của N gồm các chỉ số n sao cho U_n được chứ
 
 Tiêu chuẩn tiền compact của một không gian đều (Chương II, § 4, no. 2, Định lý 3) dẫn đến mệnh đề sau đối với các không gian metric:
 
-#### Mệnh đề 14 {#top-ix-s2-prop-14 .statement}
+#### Mệnh đề 14 {#top-ix-s2-prop-14 .statement tag=0C32}
 
 *Một không gian metric X là tiền compact khi và chỉ khi, với mỗi $\varepsilon > 0$, tồn tại một phủ hữu hạn của X bởi các tập hợp có đường kính $\leq \varepsilon$.*
 
@@ -396,13 +396,13 @@ Nếu thêm giả thiết rằng X là *đầy đủ* thì ta có một tiêu ch
 
 Từ Mệnh đề 14 ta thu được một tiêu chuẩn *tôpô* về tính compact, áp dụng được cho các không gian khả métric hóa:
 
-#### Mệnh đề 15 {#top-ix-s2-prop-15 .statement}
+#### Mệnh đề 15 {#top-ix-s2-prop-15 .statement tag=0C33}
 
 *Một không gian tôpô khả métric hóa X là compact khi và chỉ khi mọi dãy vô hạn các điểm của X đều có một điểm tụ trong X.*
 
 Tiên đề (C) của Chương I, § 9, no. 1 cho thấy điều kiện đó là *cần*. Để chứng minh tính *đủ*, gọi d là một metric tương thích với tôpô của X. Trước hết ta chứng minh rằng không gian metric X được xác định như vậy là *đầy đủ*: mọi dãy Cauchy trong X đều có một điểm tụ và do đó hội tụ (Chương II, § 3, no. 2, Mệnh đề 5, Hệ quả 2); vì thế X là đầy đủ, theo Mệnh đề 9. Tiếp theo ta sẽ chứng minh rằng X là *tiền compact*; nếu không phải vậy thì theo Mệnh đề 14 sẽ tồn tại một số thực $\alpha > 0$ sao cho X không thể được phủ bởi một số hữu hạn tập con của X có đường kính $\leq \alpha$. Khi đó ta có thể định nghĩa bằng quy nạp theo n một dãy vô hạn $(x_n)$ các điểm của X bởi điều kiện $d(x_p, x_n) > \frac{1}{2} \alpha$ với mọi $p < n$; và một dãy như thế không thể có điểm tụ, vì mọi quả cầu bán kính $< \frac{1}{2} \alpha$ chứa nhiều nhất một điểm của dãy.
 
-#### Hệ quả {#top-ix-s2-n9-cor-1 .statement}
+#### Hệ quả {#top-ix-s2-n9-cor-1 .statement tag=0C34}
 
 *Một tập con A của một không gian tôpô khả métric hóa X là compact tương đối khi và chỉ khi mọi dãy vô hạn các điểm của A đều có một điểm tụ trong X.*
 
@@ -410,7 +410,7 @@ Gọi d là một metric tương thích với tôpô của X. Ta sẽ chứng mi
 
 Cần nhận xét rằng Mệnh đề 15 không phải là một hệ quả của sự tồn tại của một hệ cơ bản đếm được các lân cận tại mỗi điểm của $X$; có những ví dụ về các không gian không khả métric hóa, không compact mà trong đó mọi điểm đều có một hệ cơ bản đếm được các lân cận và mọi dãy vô hạn các điểm đều có một điểm tụ (Bài tập 15).
 
-#### Mệnh đề 16 {#top-ix-s2-prop-16 .statement}
+#### Mệnh đề 16 {#top-ix-s2-prop-16 .statement tag=0C35}
 
 *Một không gian compact $X$ là khả métric hóa khi và chỉ khi tôpô của nó có một cơ sở đếm được.*
 
@@ -418,7 +418,7 @@ Cần nhận xét rằng Mệnh đề 15 không phải là một hệ quả củ
 
 Điều kiện đó là *đủ*. Gọi $(U_n)$ là một cơ sở đếm được của tôpô trên $X$. Mọi lân cận của một điểm trên đường chéo $\Delta$ của $X \times X$ do đó đều chứa một lân cận có dạng $U_n \times U_n$; áp dụng tiên đề Borel-Lebesgue cho tập con compact $\Delta$ của $X \times X$, suy ra rằng mọi lân cận của $\Delta$ đều chứa một hợp hữu hạn các tập hợp có dạng $U_n \setminus U_n$, là một lân cận của $\Delta$. Do đó các lân cận của $\Delta$ là những hợp hữu hạn của các tập hợp có dạng $U_n \times U_n$ tạo thành một hệ cơ bản các entourage của cấu trúc đều trên $X$ (Chương II, § 4, no. 1, Định lý 1), và vì thế kết quả suy ra từ Định lý 1 của no. 4.
 
-#### Hệ quả {#top-ix-s2-n9-cor-2 .statement}
+#### Hệ quả {#top-ix-s2-n9-cor-2 .statement tag=0C36}
 
 *Cho $X$ là một không gian compact địa phương và gọi $X'$ là không gian compact thu được bằng cách thêm vào $X$ một điểm ở vô cùng $\omega$ (Chương I, § 9, no. 8). Khi đó các mệnh đề sau là tương đương:*
 
@@ -436,7 +436,7 @@ c) $\Longrightarrow a)$: Theo giả thiết, có một dãy tăng $(V_n)$ gồm 
 
 Nếu $X$ là một không gian có thể mêtric hóa được và $R$ là một quan hệ tương đương trên $X$, không gian thương $X/R$ không nhất thiết có thể mêtric hóa được (ngay cả khi $X$ là compact địa phương \* và $X/R$ là chuẩn tắc *). Tuy nhiên:
 
-#### Mệnh đề 17 {#top-ix-s2-prop-17 .statement}
+#### Mệnh đề 17 {#top-ix-s2-prop-17 .statement tag=0C37}
 
 Mọi không gian thương Hausdorff của một không gian compact có thể mêtric hóa được đều compact và có thể mêtric hóa được.
 
@@ -444,7 +444,7 @@ Tương đương, nếu $f$ là một ánh xạ liên tục từ một không gi
 
 Cho $X$ là một không gian compact mêtric, và cho $R$ là một quan hệ tương đương trên $X$ sao cho $X/R$ là Hausdorff. Khi đó $X/R$ là compact (Chương I, § 9, no. 4, Định lý 2), do đó theo Mệnh đề 16 chỉ cần chỉ ra rằng tôpô của $X/R$ có một cơ sở đếm được. Để làm điều này, ta sử dụng các sự kiện rằng $R$ là đóng (Chương I, § 10, no. 4, Mệnh đề 8) và các lớp mod $R$ là compact. Gọi $\varphi$ là ánh xạ chính tắc của $X$ lên $X/R$, và gọi $(U_n)$ là một cơ sở đếm được của tôpô của $X$. Cho $z$ là một điểm bất kỳ của $X/R$ và cho $V$ là một lân cận của $z$ trong $X/R$; khi đó $\overline{\varphi}^{-1}(V)$ là một lân cận trong $X$ của tập compact $\overline{\varphi}^{-1}(z)$. Nếu $x$ là một điểm bất kỳ của $\overline{\varphi}^{-1}(z)$, thì có một tập hợp $U_n$ chứa $x$ và được chứa trong $\overline{\varphi}^{-1}(V)$, và do đó theo tiên đề Borel-Lebesgue có một phủ mở hữu hạn $(U_{n_k})_{1 \leq k \leq r}$ của $\overline{\varphi}^{-1}(z)$ sao cho, nếu $W$ ký hiệu $\bigcup_k U_{n_k}$, thì $W$ là một lân cận của $\overline{\varphi}^{-1}(z)$ được chứa trong $\overline{\varphi}^{-1}(V)$. Vì $R$ là đóng, suy ra rằng $\varphi(W)$ là một lân cận của $z$ trong $X/R$, được chứa trong $V$ (Chương I, § 5, no. 4, Mệnh đề 10). Gọi $\mathscr{B}$ là tập hợp các phần trong của các tập hợp có dạng $\varphi(W)$, trong đó $W$ chạy qua tập hợp $\mathscr{F}$ của tất cả các hợp hữu hạn của các tập hợp có dạng $U_n$; khi đó ta đã chứng minh rằng $\mathscr{B}$ là một cơ sở của tôpô của $X/R$, và vì $\mathfrak{F}$ là đếm được, nên $\mathscr{B}$ cũng vậy.
 
-#### Mệnh đề 18 {#top-ix-s2-prop-18 .statement}
+#### Mệnh đề 18 {#top-ix-s2-prop-18 .statement tag=0C38}
 
 *Cho $X$ là một không gian metric đầy đủ, cho $R$ là một quan hệ tương đương mở trên $X$ sao cho $X/R$ là Hausdorff, và cho $\varphi : X \to X/R$ là ánh xạ chính tắc. Khi đó nếu $K$ là một tập con compact bất kỳ của $X/R$, thì tồn tại một tập con compact $K'$ của $X$ sao cho $\varphi(K') = K$.*
 

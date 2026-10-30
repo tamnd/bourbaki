@@ -30,9 +30,9 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: 460a5f66c91de293f6bc7fe1d9c2ed4954e5952182f9af92bf1d0dd7de7a3b94
+content_sha256: 3e2fdbaedc9b633857c2b80488843f909536342a3663c2a31f0098c9ee4032aa
 translated_from: content/en/alg/V/09_s9_conjugate_elements_and_quasi_galois.md
-source_content_sha256: 0d4d0127bd0f36cbd3c2a6be311c933fe5929eadbf69e81319cc08695d227e44
+source_content_sha256: 65beb1cc0241071c6af8fd096affc82c43f56e17f2bdbff1369f0068bc5d019e
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-3c913cac
 glossary_version: 34
@@ -46,7 +46,7 @@ Trong suốt đoạn này, K ký hiệu một trường và $\Omega$ một bao �
 
 ### 1. Mở rộng các đẳng cấu
 
-#### Mệnh đề 1 {#alg-v-s9-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s9-prop-1 .statement tag=06LK}
 
 — Cho E là một mở rộng của K được chứa trong $\Omega$ và u là một K-đồng cấu từ E vào $\Omega$.
 
@@ -60,7 +60,7 @@ Hiển nhiên $\Omega$ là một bao đóng đại số của E và của $u(E)$
 
 ### 2. Các mở rộng liên hợp. Các phần tử liên hợp
 
-#### Định nghĩa 1 {#alg-v-s9-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s9-def-1 .statement tag=06LL}
 
 — Cho E và F là hai mở rộng của K được chứa trong $\Omega$. Ta nói rằng E và F là liên hợp (trong $\Omega$) nếu tồn tại một K-tự đẳng cấu u của $\Omega$ sao cho $u(E) = F$. Hai phần tử x và y của $\Omega$ được gọi là liên hợp trên K nếu tồn tại một K-tự đẳng cấu u của $\Omega$ sao cho $u(x) = y$.
 
@@ -68,7 +68,7 @@ Cho E và F là hai mở rộng của K được chứa trong $\Omega$. Theo M�
 
 Quan hệ « x và y liên hợp trên K » là một quan hệ tương đương trong $\Omega$; -các lớp tương đương được gọi là các lớp liên hợp trong $\Omega$; chúng là các quỹ đạo trong $\Omega$ của nhóm tất cả các K-tự đẳng cấu của $\Omega$.
 
-#### Mệnh đề 2 {#alg-v-s9-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s9-prop-2 .statement tag=06LM}
 
 — Cho x và y là hai phần tử của $\Omega$. Khi đó các điều kiện sau là tương đương:
 
@@ -90,29 +90,29 @@ Giả sử giờ đây $x$ và $y$ có cùng đa thức tối tiểu $f$ trên $
 
 Sau cùng, dưới giả thiết b), Mệnh đề 1 suy ra tồn tại một $K$-tự đẳng cấu $u$ của $\Omega$ kéo dài $v$; khi đó ta có $u(x) = y$, do đó $x$ và $y$ liên hợp trên $K$, nên b) suy ra a).
 
-#### Hệ quả 1 {#alg-v-s9-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s9-prop-2-cor-1 .statement tag=06LN}
 
 — *Cho $x$ là một phần tử của $\Omega$ có bậc $n$ trên $K$, và cho $f$ là đa thức tối tiểu của $x$ trên $K$. Các phần tử liên hợp của $x$ trên $K$ là các nghiệm của $f$ trong $\Omega$ và số của chúng không lớn hơn $n$.*
 
-#### Hệ quả 2 {#alg-v-s9-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s9-prop-2-cor-2 .statement tag=06LO}
 
 — *Cho $x$ là một phần tử của $\Omega$ có bậc $n$ trên $K$. Để $x$ tách được trên $K$ thì điều kiện cần và đủ là $x$ phải có $n$ phần tử liên hợp trong $\Omega$; khi đó, mọi phần tử liên hợp của $x$ trên $K$ đều tách được trên $K$.*
 
 ==========
 
-#### Hệ quả 3 {#alg-v-s9-prop-2-cor-3 .statement}
+#### Hệ quả 3 {#alg-v-s9-prop-2-cor-3 .statement tag=06LP}
 
 — *Cho $f$ là đa thức tối tiểu của $x$ trên $K$; các nghiệm của nó là các liên hợp của $x$ trên $K$, và mỗi nghiệm ấy nhận $f$ làm đa thức tối tiểu trên $K$. Bây giờ $x$ tách được trên $K$ khi và chỉ khi đa thức $f$ tách được ($V$, p. 39, Mệnh đề 5), tức là nếu $f$ có $n$ nghiệm phân biệt trong $\Omega$. Hệ quả 2 suy ra từ đó.*
 
 ### 3. Các mở rộng quasi-Galois
 
-#### Định nghĩa 2 {#alg-v-s9-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s9-def-2 .statement tag=06LQ}
 
 — *Cho $E$ là một mở rộng của $K$. Khi đó $E$ được gọi là quasi-Galois hay chuẩn tắc (trên $K$), nếu nó là đại số và nếu mọi đa thức bất khả quy của $K[X]$ có ít nhất một nghiệm trong $E$, đều phân tích thành một tích các đa thức bậc 1 (phân biệt hay không) trong $E[X]$.
 
 Nếu $E$ là một bao đóng đại số của $K$, thì nó là một mở rộng quasi-Galois của $K$; vì điều kiện (AC) của Mệnh đề 1 ($V$, p. 19) khẳng định rằng mọi đa thức không hằng trong $E[X]$ đều là một tích các đa thức bậc 1.*
 
-#### Mệnh đề 3 {#alg-v-s9-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s9-prop-3 .statement tag=06LR}
 
 — Cho E là một mở rộng của K được chứa trong $\Omega$. Khi đó các điều kiện sau là tương đương:
 a) E là một mở rộng quasi-Galois của K.
@@ -127,45 +127,45 @@ Theo định nghĩa, một mở rộng quasi-Galois là trường phân rã củ
 
 Định nghĩa các phần tử liên hợp cho thấy c) suy ra b). Cuối cùng giả sử rằng b) đúng; cho $f$ là một đa thức bất khả quy đơn thức trong $K[X]$ có ít nhất một nghiệm $x$ trong E; vì $\Omega$ là đóng đại số, tồn tại các phần tử $a_k$ của $\Omega$ ($1 \leq k \leq n$) sao cho $f(x) = \prod_{k=1}^n (X - a_k)$ và vì các $a_k$ là các liên hợp của x trên K (V, p. 53, Hệ quả 1), chúng thuộc E theo giả thiết. Vậy ta đã chứng minh rằng b) suy ra a).
 
-#### Hệ quả 1 {#alg-v-s9-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s9-prop-3-cor-1 .statement tag=06LS}
 
 — Để một mở rộng E của K được chứa trong $\Omega$ là quasi-Galois thì cần và đủ là nó đồng nhất với mọi liên hợp của nó trên K.
 
 Điều này suy ra từ Mệnh đề 1, a) (V, p. 52) và tính tương đương của các điều kiện a) và c) của Mệnh đề 3.
 
-#### Hệ quả 2 {#alg-v-s9-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s9-prop-3-cor-2 .statement tag=06LT}
 
 — Cho E và F là hai mở rộng của K sao cho $E \subset F$. Nếu F là quasi-Galois trên K, thì nó là quasi-Galois trên E.
 
 Ta có thể giả sử rằng $F \subset \Omega$. Cho $u$ là một E-tự đẳng cấu của $\Omega$. Vì $u$ là một K-tự đẳng cấu của $\Omega$ và F là quasi-Galois trên K, ta có $u(F) = F$, do đó F là quasi-Galois trên E.
 
-#### Hệ quả 3 {#alg-v-s9-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#alg-v-s9-prop-3-cor-3 .statement tag=06LU}
 
 — Cho N là một mở rộng quasi-Galois của K được chứa trong $\Omega$, và E là một mở rộng con của N. Cho $u$ là một đồng cấu K của E vào $\Omega$; khi đó $u(E) \subset N$ và tồn tại một K-tự đẳng cấu $v$ của N cảm sinh $u$ trên E.
 
 Cho $w$ là một K-tự đẳng cấu của $\Omega$ mở rộng $u$ (V, p. 52, Mệnh đề 1); vì N là quasi-Galois trên K, ta có $w(N) = N$, do đó $w(E) \subset N$ và vì vậy $w$ cảm sinh một K-tự đẳng cấu $v$ của N.
 
-#### Hệ quả 4 {#alg-v-s9-prop-3-cor-4 .statement}
+#### Hệ quả 4 {#alg-v-s9-prop-3-cor-4 .statement tag=06LV}
 
 — Cho $E'$ là một mở rộng của K và E, $K'$ là hai mở rộng con của $E'$. Giả sử rằng E là quasi-Galois trên K và $E' = K'(E)$; khi đó $E'$ là quasi-Galois trên $K'$.
 
 Cho $(f_i)_{i \in I}$ là một họ các đa thức không hằng trong $K[X]$ mà trường phân rã trên $K$ của chúng là $E$. Khi đó hiển nhiên $E'$ là trường phân rã của họ $(f_i)_{i \in I}$ trên $K'$, nên nó là quasi-Galois trên $K'$.
 
-#### Nhận xét 1 {#alg-v-s9-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-v-s9-n3-rem-1 .statement tag=06LW}
 
 Cho $F$ là một mở rộng của $K$ và $E$ là một mở rộng trung gian của $F$, và giả sử rằng $E$ là quasi-Galois trên $K$. Ta hãy chứng minh rằng mọi $K$-tự đẳng cấu $u$ của $F$ đều để $E$ bất biến. Thật vậy, lấy $x \in E$ và $f$ là đa thức tối tiểu của $x$ trên $K$. Vì $E$ là quasi-Galois trên $K$, tồn tại $a_1, \ldots, a_n \in E$ sao cho $f(X) = \Pi(X - a_i)$; ta có $f(u(x)) = u(f(x)) = 0$, do đó $u(x)$ là một trong các $a_i$ và vì thế thuộc $E$. Ta đã chứng minh $u(E) \subset E$, và giờ $u(E) = E$ suy ra theo V, p. 52, Mệnh đề 1.
 
-#### Nhận xét 2 {#alg-v-s9-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-v-s9-n3-rem-2 .statement tag=06LX}
 
 Giả sử rằng $E$ là một mở rộng quasi-Galois của $K$ và $F$ là một mở rộng quasi-Galois của $E$; không phải lúc nào $F$ cũng quasi-Galois trên $K$ (V, p. 153, Bài tập 1). Lý do là như sau: cho $u$ là một $K$-tự đẳng cấu của $\Omega$; ta có $u(E) = E$, nhưng nếu $f$ là đa thức tối tiểu trên $E$ của một phần tử $x$ của $F$, thì nó không nhất thiết bất biến dưới $u$; do đó $u(x)$ không nhất thiết liên hợp với $x$ trên $E$, và vì thế không nhất thiết thuộc $F$. Khi đó $F$ và $u(F)$ là hai mở rộng quasi-Galois phân biệt của $E$ đẳng cấu với nhau trên $K$ nhưng không đẳng cấu với nhau trên $E$.
 
-#### Nhận xét 3 {#alg-v-s9-n3-rem-3 .statement}
+#### Nhận xét 3 {#alg-v-s9-n3-rem-3 .statement tag=06LY}
 
 Cho $E$ là một mở rộng đại số của $K$ và $x, y$ là hai phần tử của $E$. Nếu tồn tại một $K$-tự đẳng cấu của $E$ ánh xạ $x$ vào $y$ thì $x$ và $y$ có cùng đa thức tối tiểu trên $K$ và do đó liên hợp trên $K$ theo Mệnh đề 2 (V, p. 52). Chiều đảo lại đúng nếu $E$ là quasi-Galois, vì mọi $K$-tự đẳng cấu của $\Omega$ cảm sinh một $K$-tự đẳng cấu của $E$. Giả thiết rằng $E$ là quasi-Galois không phải là thừa như ví dụ sau đây cho thấy: \* cho $K = \mathbf{Q}$ và $\Omega$ là trường của tất cả các số đại số; đặt $E = \Omega \cap \mathbf{R}$. Có thể chỉ ra (V, p. 153, Ex. 2) rằng mọi tự đẳng cấu của $E$ đều là ánh xạ đồng nhất và rằng $\sqrt{2}$ và $-\sqrt{2}$ là các phần tử của $E$ liên hợp trên $\mathbf{Q}$. \*
 
 ### 4. Mở rộng quasi-Galois được sinh bởi một tập hợp
 
-#### Mệnh đề 4 {#alg-v-s9-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s9-prop-4 .statement tag=06LZ}
 
 — Cho $(N_i)_{i \in I}$ là một họ các mở rộng quasi-Galois của $K$ được chứa trong $\Omega$. Cho $N = \bigcap_{i \in I} N_i$ và $M = K\left( \bigcup_{i \in I} N_i \right)$; khi đó các mở rộng $N$ và $M$ của $K$ là quasi-Galois.
 
@@ -175,16 +175,16 @@ Cho $A$ là một tập hợp các phần tử của $\Omega$, và cho $B$ là t
 
 Mệnh đề sau suy ra trực tiếp từ các nhận xét trên.
 
-#### Mệnh đề 5 {#alg-v-s9-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s9-prop-5 .statement tag=06M0}
 
 — Cho $E$ là một mở rộng của $K$ được chứa trong $\Omega$ và $N$ là mở rộng quasi-Galois được sinh bởi $E$. Nếu $A$ là một tập con của $\Omega$ sao cho $E = K(A)$ thì $N = K(B)$, trong đó $B$ là tập hợp các phần tử của $\Omega$ liên hợp với một phần tử của $A$.
 
-#### Hệ quả 1 {#alg-v-s9-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s9-prop-5-cor-1 .statement tag=06M1}
 
 — Nếu $E$ là một mở rộng bậc hữu hạn của $K$, thì mở rộng quasi-Galois $N$ của $K$ được sinh bởi $E$ có bậc hữu hạn trên $K$.
 Thật vậy, ta có $E = K(A)$ trong đó $A$ là hữu hạn, do đó tập $B$ gồm các phần tử liên hợp của các phần tử của $A$ là hữu hạn, suy ra hệ quả theo Đl. 2 (V, p. 18).
 
-#### Hệ quả 2 {#alg-v-s9-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s9-prop-5-cor-2 .statement tag=06M2}
 
 — Mọi mở rộng quasi-Galois $N$ của $K$ đều là hợp của các mở rộng con quasi-Galois của $N$ có bậc hữu hạn trên $K$.
 Lấy $x \in N$ và đặt $N_x$ là mở rộng quasi-Galois của $K$ được sinh bởi $\{x\}$. Vì $K(x)$ có bậc hữu hạn trên $K$, nên $N_x$ cũng vậy (Hệ quả 1) và ta có $x \in N_x$.

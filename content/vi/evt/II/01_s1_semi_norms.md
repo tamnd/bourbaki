@@ -28,9 +28,9 @@ subsections:
       pdf_page: 42
 statements: 15
 exercises: 0
-content_sha256: ce6e3a81d812daf02ff75050deaabca51d959ea578602553b611886b18f3f7a5
+content_sha256: 83fdbbaf6ebadb62696a30790a4b4867420ee46673ddef3e8b5e31a58ad95a23
 translated_from: content/en/evt/II/01_s1_semi_norms.md
-source_content_sha256: 83678c8f7fc574f7471865862952da621d2b8f8beb62f3a4985f21ca91b65111
+source_content_sha256: 99701b6427e2fc51eea6f3f407ebff4fb20d627e99dfd31c75d611b17f9e8d84
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-c37b3e9e
 glossary_version: 34
@@ -44,7 +44,7 @@ Trong suốt đoạn này, $\mathbf{K}$ ký hiệu một vành chia có giá tr�
 
 ### 1. Định nghĩa về các chuẩn nửa
 
-#### Định nghĩa 1 {#evt-ii-s1-def-1 .statement}
+#### Định nghĩa 1 {#evt-ii-s1-def-1 .statement tag=07AP}
 
 Cho E là một không gian vectơ trái trên $\mathbf{K}$. Một ánh xạ $p$ của E vào $\mathbf{R}_+ = \{ 0, + \infty \}$, được gọi là một chuẩn nửa trên E nếu nó thỏa mãn các tiên đề sau :
 (SN_I) Nếu $x \in \mathrm{E}$ và $\lambda \in \mathbf{K}$ thì $p(\lambda x) = |\lambda| \, p(x)$.
@@ -55,15 +55,15 @@ $$
 |p(x) - p(y)| \leq p(x - y) .
 $$
 
-#### Ví dụ 1 {#evt-ii-s1-n1-exa-1 .statement}
+#### Ví dụ 1 {#evt-ii-s1-n1-exa-1 .statement tag=07AQ}
 
 Một chuẩn trên E là một bán chuẩn $p$ sao cho quan hệ $p(x) = 0$ kéo theo $x = 0$ (I, p. 3).
 
-#### Ví dụ 2 {#evt-ii-s1-n1-exa-2 .statement}
+#### Ví dụ 2 {#evt-ii-s1-n1-exa-2 .statement tag=07AR}
 
 Đối với mọi dạng tuyến tính $f$ trên E, hàm $x \mapsto |f(x)|$ là một bán chuẩn trên E.
 
-#### Ví dụ 3 {#evt-ii-s1-n1-exa-3 .statement}
+#### Ví dụ 3 {#evt-ii-s1-n1-exa-3 .statement tag=07AS}
 
 Nếu $p_i (1 \leq i \leq n)$ là một tập hợp hữu hạn các bán chuẩn trên E, thì rõ ràng $p'(x) = \sup_{1 \leq i \leq n} p_i(x)$
 và $p''(x) = \sum_{i=1}^n \alpha_i p_i(x)$ (trong đó các $\alpha_i$ là $\geq 0$) đều là các bán chuẩn trên E.
@@ -76,7 +76,7 @@ Rõ ràng một siêu nửa-chuẩn là một nửa-chuẩn.
 
 Nói rằng giá trị tuyệt đối trên K là *siêu mêtric* (CA, VI, § 6.2) có nghĩa là nó là một siêu nửa-chuẩn trên không gian vectơ trái $K_s$, không đồng nhất bằng không.
 
-#### Mệnh đề 1 {#evt-ii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#evt-ii-s1-prop-1 .statement tag=07AT}
 
 *Cho E là một không gian vectơ tôpô trái trên K và p là một nửa-chuẩn trên E. Các điều kiện sau là tương đương :*
   *a)* *p liên tục trên E.*
@@ -88,7 +88,7 @@ Nói rằng giá trị tuyệt đối trên K là *siêu mêtric* (CA, VI, § 6.
 
 Thật vậy, các hàm ý c) $\Rightarrow$ a) $\Rightarrow$ b) $\Rightarrow$ d) $\Rightarrow$ e) $\Rightarrow$ f) $\Rightarrow$ c) suy ra ngay lập tức từ (SN$_I$) và bất đẳng thức (1).
 
-#### Hệ quả {#evt-ii-s1-n1-cor-1 .statement}
+#### Hệ quả {#evt-ii-s1-n1-cor-1 .statement tag=07AU}
 
 *Nếu p là một nửa chuẩn liên tục trên E và q là một nửa chuẩn sao cho $q \leq p$, thì q liên tục trên E.*
 
@@ -104,7 +104,7 @@ Cho $E$ là một không gian vectơ tôpô trên $K$: một hệ các nửa chu
 
 Cho $E$ là một không gian vectơ trên $K$, với tôpô được xác định bởi một tập hợp các nửa chuẩn $\Gamma$. Với mọi nửa chuẩn $p$, ta có $p(x - z) \leq p(x - y) + p(y - z)$, điều này cho thấy hàm $(x, y) \mapsto p(x - y)$ là một *giả mêtric* trên $E$ (GT, IX, § 1.1): từ các định nghĩa suy ra rằng, khi $p$ biến thiên trong $\Gamma$, tập hợp các giả mêtric này xác định cấu trúc đều của không gian vectơ tôpô $E$.
 
-#### Nhận xét {#evt-ii-s1-n2-rem-1 .statement}
+#### Nhận xét {#evt-ii-s1-n2-rem-1 .statement tag=07AV}
 
 — 1) Tôpô được xác định bởi một tập hợp *hữu hạn* các nửa chuẩn $p_i$ ($1 \leq i \leq n$) trên $E$, có thể được xác định bởi nửa chuẩn *duy nhất* $p = \sup_{1 \leq i \leq n} p_i$. Nhưng một tôpô được xác định bởi một tập hợp vô hạn các nửa chuẩn nói chung không thể được xác định bởi một nửa chuẩn duy nhất (III, p. 37, exerc. 2).
 
@@ -114,7 +114,7 @@ Cho $E$ là một không gian vectơ trên $K$, với tôpô được xác đị
 
 4) Ngay cả khi $K = \mathbf{R}$, tôpô của một không gian vectơ tôpô trên $K$ cũng không phải lúc nào cũng có thể được xác định bởi một tập hợp các nửa chuẩn (*xem* II, p. 24, hệ quả).
 
-#### Ví dụ {#evt-ii-s1-n2-exa-1 .statement}
+#### Ví dụ {#evt-ii-s1-n2-exa-1 .statement tag=07AW}
 
 — Cho $\mathscr{C}^\infty(\mathbf{R})$ là không gian vectơ trên $\mathbf{R}$ gồm các hàm nhận giá trị thực và khả vi vô hạn trên $\mathbf{R}$. Với mọi hàm và mọi cặp số nguyên $n \geq 0$, $m \geq 1$, đặt
 
@@ -124,7 +124,7 @@ $$
 
 với $f^{(0)} = f$. Hiển nhiên các $p_{n,m}$ là các nửa chuẩn trên $\mathscr{C}^\infty(\mathbf{R})$. Để các hàm $f_\alpha$ tiến tới 0 (theo một bộ lọc $\mathfrak{F}$ trên tập hợp các chỉ số) trong $\mathscr{C}^\infty(\mathbf{R})$ đối với tôpô $\mathscr{T}$ được xác định bởi các nửa chuẩn $p_{n,m}$, điều kiện cần và đủ là với mọi số nguyên $n \geq 0$, các hàm $f_\alpha^{(n)}$ tiến tới 0 (theo $\mathfrak{F}$) *đều trên mọi tập con compắc của* $\mathbf{R}$. Ta nói rằng $\mathscr{T}$ là *tôpô hội tụ compắc đối với các hàm* $f \in \mathscr{C}^\infty(\mathbf{R})$ *và mọi đạo hàm của chúng* (*xem* III, p. 9).
 
-#### Mệnh đề 2 {#evt-ii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#evt-ii-s1-prop-2 .statement tag=07AX}
 
 *Trên một không gian vectơ* $E$, *cho* $\mathscr{T}$ *là tôpô được xác định bởi một tập hợp các nửa chuẩn* $\Gamma$.
 
@@ -180,7 +180,7 @@ Nếu các $p_i$ là các chuẩn nửa siêu, thì các $p_i \circ f_i$ cũng v
 
 Cho $E$ là một không gian vectơ trên $K$, với tôpô $\mathscr{T}$ được xác định bởi một họ các nửa chuẩn $(p_i)_{i \in I}$; với mỗi $i \in I$, gọi $\mathscr{T}_i$ là tôpô được xác định bởi nửa chuẩn duy nhất $p_i$, và ký hiệu bởi $E_i$ không gian thu được từ $E$ khi dùng tôpô $\mathscr{T}_i$. Khi đó tôpô $\mathscr{T}$ là ảnh ngược bởi ánh xạ đường chéo $\Delta : E \to \prod_{i \in I} E_i$ của tôpô tích trên $\prod_{i \in I} E_i$ (I, p. 9, prop. 7). Với mỗi $i \in I$, đặt $N_i$ là bao đóng của $\{0\}$ trong $E_i$, và gọi $F_i = E_i / N_i$ là không gian *định chuẩn* được xác định bởi chuẩn $p_i$ tương ứng với $p_i$ (II, p. 4, công thức (3)); nếu $\phi_i : E_i \to F_i$ là ánh xạ chính tắc và $\phi : (x_i) \mapsto (\phi_i(x_i))$ là ánh xạ tích, ta biết rằng tôpô tích trên $\prod_{i \in I} E_i$ là ảnh ngược bởi $\phi$ của tôpô tích trên $\prod_{i \in I} F_i$ (GT, II, § 3.9, prop. 18). Vậy tôpô $\mathscr{T}$ là ảnh ngược qua ánh xạ hợp thành $\phi \circ \Delta$ của tôpô tích trên $\prod_{i \in I} F_i$. Đặc biệt, nếu $\mathscr{T}$ là *Hausdorff* thì từ II, p. 3, prop. 2 suy ra rằng ánh xạ $\phi \circ \Delta$ là *đơn ánh*, do đó:
 
-#### Mệnh đề 3 {#evt-ii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#evt-ii-s1-prop-3 .statement tag=07AY}
 
 *Mọi không gian vectơ tôpô Hausdorff* $E$ *trên* $K$, *mà tôpô của nó được xác định bởi một tập hợp các nửa chuẩn, đều đẳng cấu với một không gian con của một tích các không gian Banach*.
 
@@ -188,7 +188,7 @@ Hơn nữa, nếu tôpô của $E$ được xác định bởi một tập hợp
 
 ### 4. Các tiêu chuẩn đồng liên tục của các ánh xạ đa tuyến tính đối với các tôpô được xác định bởi các nửa chuẩn
 
-#### Mệnh đề 4 {#evt-ii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#evt-ii-s1-prop-4 .statement tag=07AZ}
 
 *Cho* $E_i$ ($1 \leq i \leq n$) *và* $F$ *là các không gian vectơ tôpô trên* $K$; *giả sử rằng, với mọi* $i$, *tôpô của* $E_i$ *được xác định bởi một tập có hướng các nửa chuẩn* $\Gamma_i$, *và tôpô của* $F$ *được xác định bởi một tập hợp các nửa chuẩn* $\Gamma$. *Khi đó một tập hợp* $H$, *gồm các* ánh xạ đa tuyến tính của $\prod_{i=1}^n E_i$ vào F là đồng liên tục nếu, và chỉ nếu, với mỗi nửa chuẩn $q \in \Gamma$, và mỗi chỉ số i, tồn tại một nửa chuẩn $p_i \in \Gamma_i$, và một số $a > 0$, sao cho với mỗi hàm $u \in \mathbf{H}$ và điểm $(x_i) \in \prod_{i=1}^n E_i$,
 
@@ -212,7 +212,7 @@ $$
 
 Điều phải chứng minh.
 
-#### Hệ quả {#evt-ii-s1-n4-cor-1 .statement}
+#### Hệ quả {#evt-ii-s1-n4-cor-1 .statement tag=07B0}
 
 — *Tập hợp H là đồng liên tục khi và chỉ khi, với mọi nửa chuẩn $q \in \Gamma$, tồn tại một lân cận của 0 trong $\prod_{i=1}^n E_i$, trong đó các hàm $q \circ u$, với $u \in \mathbf{H}$, được chặn đều.*
 
@@ -220,7 +220,7 @@ $$
 
 Chúng tôi phát biểu tường minh trường hợp riêng của mệnh đề 4 đối với các ánh xạ tuyến tính.
 
-#### Mệnh đề 5 {#evt-ii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#evt-ii-s1-prop-5 .statement tag=07B1}
 
 — *Cho E, F là hai không gian vectơ tôpô trên một thể có định giá không rời rạc K; giả sử rằng tôpô của E (tương ứng của F) được xác định bởi một tập hợp các nửa chuẩn $\Gamma$ (tương ứng $\Gamma'$). Cho H là một tập hợp các ánh xạ tuyến tính từ E vào F. Các điều kiện sau là tương đương :*
     a) H là đẳng liên tục.
@@ -233,12 +233,12 @@ $$
 
 c) Với mọi nửa chuẩn $q \in \Gamma'$, ánh xạ $\sup_{u \in H} (q \circ u)$ là một nửa chuẩn liên tục trên $E$.
 
-#### Hệ quả 1 {#evt-ii-s1-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s1-prop-5-cor-1 .statement tag=07B2}
 
 — Giả sử rằng $\mathscr{T}, \mathscr{T}'$ là hai tôpô trên một không gian vectơ $E$ trên $K$ được xác định, theo thứ tự, bởi hai tập hợp chuẩn nửa $\Gamma$ và $\Gamma'$. $\mathscr{T}$ mịn hơn $\mathscr{T}'$ nếu, và chỉ nếu, với mọi chuẩn nửa $q \in \Gamma'$, tồn tại một họ hữu hạn $(p_i)_{1 \leq i \leq n}$ các chuẩn nửa thuộc $\Gamma$ và một số $a > 0$ sao cho, với mọi $x \in E$, ta có $q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$.
 
 Thực vậy điều này cho thấy rằng ánh xạ đồng nhất của $E$ với tôpô $\mathscr{T}$, vào $E$ với tôpô $\mathscr{T}'$, là liên tục.
 
-#### Hệ quả 2 {#evt-ii-s1-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s1-prop-5-cor-2 .statement tag=07B3}
 
 — Giả sử rằng tôpô $\mathscr{T}$ của một không gian vectơ tôpô $E$ trên $K$ được xác định bởi một tập có hướng các nửa chuẩn $\Gamma$; với mỗi nửa chuẩn $p \in \Gamma$, gọi $E_p$ là không gian thu được từ $E$ khi dùng tôpô do $p$ xác định. Tập hợp $E'$ các dạng tuyến tính trên $E$ liên tục đối với $\mathscr{T}$ là hợp của các tập hợp $E'_p$, trong đó $E'_p$ là tập hợp các dạng tuyến tính liên tục trên $E_p$ ($p \in \Gamma$).

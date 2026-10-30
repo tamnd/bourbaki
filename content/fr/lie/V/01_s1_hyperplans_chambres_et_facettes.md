@@ -36,7 +36,7 @@ subsections:
       pdf_page: 63
 statements: 18
 exercises: 0
-content_sha256: 959db921e1486e607393fdae4c428abedd1066b759c0ddcabbddd3aabd46ad88
+content_sha256: 37555f4a1194dbcf9cef807b25b28c359f363761c9b770f4632de627ec3e4399
 ---
 
 ## § 1. Hyperplans, chambres et facettes
@@ -61,7 +61,7 @@ Si A est réduit à un point $a$, on écrit $D_H(a)$ et $D_{\mathfrak{M}}(a)$ au
 
 L’ensemble des points de E qui n’appartiennent à aucun hyperplan H de l’ensemble $\mathfrak{S}$ est ouvert dans E puisque $\mathfrak{S}$ est localement fini. De manière plus précise, on a le résultat suivant:
 
-#### Proposition 1 {#lie-v-s1-prop-1 .statement}
+#### Proposition 1 {#lie-v-s1-prop-1 .statement tag=0AP1}
 
 Soit a un point de E. Il existe un voisinage ouvert convexe de a qui ne rencontre aucun hyperplan H appartenant à $\mathfrak{S}$ et ne passant pas par a. De plus, il n’existe qu’un nombre fini d’hyperplans appartenant à $\mathfrak{S}$ et passant par a.
 
@@ -72,11 +72,11 @@ L’ensemble $\mathfrak{N}$ des hyperplans H tels que $H \in \mathfrak{S}$ et $a
 
 Il est clair que R est une relation d’équivalence dans E.
 
-#### Définition 1 {#lie-v-s1-def-1 .statement}
+#### Définition 1 {#lie-v-s1-def-1 .statement tag=0AP2}
 
 On appelle facette de E relativement à $\mathfrak{S}$ toute classe selon la relation d’équivalence R définie ci-dessus.
 
-#### Proposition 2 {#lie-v-s1-prop-2 .statement}
+#### Proposition 2 {#lie-v-s1-prop-2 .statement tag=0AP3}
 
 L’ensemble des facettes est localement fini.
 
@@ -100,7 +100,7 @@ $$
 
 Il est clair que le membre de droite contient le membre de gauche. Inversement, soit $x \in L \cap \bigcap_{H \in \mathfrak{N}} \overline{D_H(a)}$. Le segment ouvert d’extrémités a et x est contenu dans L et dans chacun des $D_H(a)$ pour $H \in \mathfrak{N}$, donc dans F. Il en résulte que x est adhérent à F, d’où la formule.
 
-#### Proposition 3 {#lie-v-s1-prop-3 .statement}
+#### Proposition 3 {#lie-v-s1-prop-3 .statement tag=0AP4}
 
 Soient F une facette et L son support affine.
 (i) L’ensemble F est une partie ouverte et convexe du sous-espace affine L de E.
@@ -129,13 +129,13 @@ Soient H dans $\mathfrak{N}'$ et D le demi-espace ouvert limité par H et distin
 
 C.Q.F.D.
 
-#### Corollaire {#lie-v-s1-n2-cor-1 .statement}
+#### Corollaire {#lie-v-s1-n2-cor-1 .statement tag=0AP5}
 
 Soient F et F’ deux facettes. Si l’on a $\overline{F} = \overline{F}'$, les facettes F et F’ sont égales.
 
 Cela résulte de (iii).
 
-#### Proposition 4 {#lie-v-s1-prop-4 .statement}
+#### Proposition 4 {#lie-v-s1-prop-4 .statement tag=0AP6}
 
 Soient F une facette, et L un sous-espace affine de E, intersection d’hyperplans appartenant à $\mathfrak{S}$; on note $\mathfrak{N}$ l’ensemble des hyperplans $H \in \mathfrak{S}$ qui ne contiennent pas L. Les conditions suivantes sont équivalentes :
 
@@ -160,7 +160,7 @@ C.Q.F.D.
 
 ### 3. Chambres
 
-#### Définition 2 {#lie-v-s1-def-2 .statement}
+#### Définition 2 {#lie-v-s1-def-2 .statement tag=0AP7}
 
 On appelle chambre de $E$ relativement à $\mathfrak{S}$ (ou simplement chambre s’il n’y a pas d’ambiguïté sur $\mathfrak{S}$) toute facette de $E$ relativement à $\mathfrak{S}$ qui n’est contenue dans aucun hyperplan appartenant à $\mathfrak{S}$.
 
@@ -172,7 +172,7 @@ $$
 
 puisque l’on a $D_H(A) = D_H(a)$ pour tout $a \in A$.
 
-#### Proposition 5 {#lie-v-s1-prop-5 .statement}
+#### Proposition 5 {#lie-v-s1-prop-5 .statement tag=0AP8}
 
 Soit $C$ une partie non vide de $E$. On suppose qu’il existe une partie $\mathfrak{S}'$ de $\mathfrak{S}$ ayant les deux propriétés suivantes :
 a) On peut associer à tout $H$ dans $\mathfrak{S}'$ un demi-espace ouvert $D_H$ limité par $H$ de sorte que $C = \bigcap_{H \in \mathfrak{S}'} D_H$.
@@ -182,13 +182,13 @@ Dans ces conditions, C est une chambre définie par $\mathfrak{H}$ dans E, et l�
 
 Les propriétés a) et b) montrent que C est une partie convexe de U; il existe donc une chambre $C'$ avec $C \subset C'$. Comme on a $C \subset D_H$, on a $D_H = D_H(C)$ pour tout H dans $\mathfrak{H}'$, d’où $C = D_{\mathfrak{H}'}(C) \supset D_{\mathfrak{H}}(C)$ puisque $\mathfrak{H}' \subset \mathfrak{H}$; on a $D_{\mathfrak{H}}(C) = C'$ d’après (6), d’où $C \supset C'$. Finalement, on a $C = C'$.
 
-#### Proposition 6 {#lie-v-s1-prop-6 .statement}
+#### Proposition 6 {#lie-v-s1-prop-6 .statement tag=0AP9}
 
 Tout point de E est adhérent à une chambre au moins.
 
 Si E est réduit à un point, c’est évident. Sinon, soit $a \in E$, et soient $H_1, \ldots, H_m$ les hyperplans de $\mathfrak{H}$ contenant a. Puisque $\mathfrak{H}$ est localement fini, il existe un voisinage V de a ne rencontrant aucun hyperplan de $\mathfrak{H}$ distinct de $H_1, \ldots, H_m$. Soit D une droite passant par a et qui n’est contenue dans aucun des $H_i$; si $x \in D, x \neq a$, et x est assez voisin de a, le segment ouvert $]ax[$ est contenu dans V et ne rencontre aucun des $H_i$. On a alors $]ax[ \subset U$; comme $]ax[$ est connexe, il est contenu dans une chambre C, d’où $a \in \overline{C}$.
 
-#### Proposition 7 {#lie-v-s1-prop-7 .statement}
+#### Proposition 7 {#lie-v-s1-prop-7 .statement tag=0APA}
 
 Soient L un sous-espace affine de E et $\Omega$ une partie ouverte non vide de L.
 
@@ -208,19 +208,19 @@ b) $L \in \mathfrak{H}$: on a alors $\mathfrak{N} = \mathfrak{H} - \{L\}$, d’o
 
 ### 4. Murs et faces
 
-#### Définition 3 {#lie-v-s1-def-3 .statement}
+#### Définition 3 {#lie-v-s1-def-3 .statement tag=0APB}
 
 Soit C une chambre de E. On appelle face de C toute facette contenue dans l’adhérence de C et dont le support est un hyperplan. On appelle mur de C tout hyperplan qui est le support d’une face de C.
 
 Tout mur de C appartient à $\mathfrak{H}$. La prop. 4 montre qu’un hyperplan $L \in \mathfrak{H}$ est un mur de C si et seulement si l’on a $C \neq D_{\mathfrak{H} - \{L\}}(C)$. De plus, tout mur de C est le support d’une seule face de C.
 
-#### Proposition 8 {#lie-v-s1-prop-8 .statement}
+#### Proposition 8 {#lie-v-s1-prop-8 .statement tag=0APC}
 
 Tout hyperplan H appartenant à $\mathfrak{H}$ est le mur d’au moins une chambre.
 
 D’après la prop. 7, (iii), il existe un point $a$ de $H$ n’appartenant à aucun hyperplan $H' \neq H$ de $\mathfrak{S}$; d’après la prop. 6, il existe une chambre $C$ telle que $a \in \overline{C}$; la prop. 4 montre alors que $H$ est un mur de $C$.
 
-#### Proposition 9 {#lie-v-s1-prop-9 .statement}
+#### Proposition 9 {#lie-v-s1-prop-9 .statement tag=0APD}
 
 *Soient $C$ une chambre et $\mathfrak{M}$ l’ensemble des murs de $C$. On a $C = D_{\mathfrak{M}}(C)$ et toute partie $\mathfrak{L}$ de $\mathfrak{S}$ telle que $C = D_{\mathfrak{L}}(C)$ contient $\mathfrak{M}$. Pour qu’une partie $F$ de $\overline{C}$ soit une facette, il faut et il suffit que ce soit une facette de $E$ relativement à la famille $\mathfrak{M}$.*
 
@@ -232,11 +232,11 @@ c) Soit $a$ un point de $C$; on a évidemment $C \subset D_{\mathfrak{M}}(a)$. S
 
 d) Pour prouver la dernière assertion de la proposition, il suffit évidemment de montrer qu’une partie $F$ de $\overline{C}$ qui est une facette de $E$ relativement à $\mathfrak{M}$, est une facette de $E$ relativement à $\mathfrak{S}$, ou encore que tout hyperplan $H \in \mathfrak{S}$ qui rencontre $F$ contient $F$. Soit donc $H$ un hyperplan rencontrant $F$ et ne le contenant pas. Comme $F$ est ouvert dans son support affine, il n’est pas tout entier d’un même côté de $H$. Il en résulte que $\overline{C}$ n’est pas tout entier d’un même côté de $H$ et par suite l’hyperplan $H$ ne peut pas appartenir à $\mathfrak{S}$, ce qui achève la démonstration.
 
-#### Remarque 1 {#lie-v-s1-n4-rem-1 .statement}
+#### Remarque 1 {#lie-v-s1-n4-rem-1 .statement tag=0APE}
 
 Il résulte de la formule (6) et de la prop. 9 que l’adhérence d’une chambre $C$ est l’intersection des demi-espaces fermés limités par un mur de $C$ et qui contiennent $C$.
 
-#### Remarque 2 {#lie-v-s1-n4-rem-2 .statement}
+#### Remarque 2 {#lie-v-s1-n4-rem-2 .statement tag=0APF}
 
 Soit $F$ une facette dont le support est un hyperplan $L$; on va montrer qu’il existe deux chambres dont $F$ soit une face. Soit $\mathfrak{N}$ l’ensemble des hyperplans $H \neq L$ appartenant à $\mathfrak{S}$; posons $A = D_{\mathfrak{N}}(F)$ et notons $D^+$ et $D^-$ les demi-espaces ouverts limités par $L$. L’ensemble $A$ est ouvert et contient $F \subset L$, et comme tout point de $L$ est adhérent à $D^+$ et à $D^-$, les ensembles $C^+ = A \cap D^+$ et $C^- = A \cap D^-$ sont non vides; ce sont des chambres. De plus, l’hyperplan L rencontre $D_{\mathfrak{H}}(F) = D_{\mathfrak{H}}(C^+)$; la prop. 4 montre que L est un mur de $C^+$ et F, qui rencontre $L \cap D_{\mathfrak{H}}(F)$, est une face de $C^+$; de même, F est une face de $C^-$. Enfin, soit C une chambre dont F soit une face, et supposons par exemple $D^+ = D_L(C)$; d’après la prop. 4, l’ensemble $D_{\mathfrak{H}}(C)$ rencontre F, donc est égal à $D_{\mathfrak{H}}(F)$ et l’on a
 
@@ -248,13 +248,13 @@ $$
 
 Rappelons (Alg., chap. II, 3e éd., § 9, no 3) que deux sous-espaces affines P et P' de E sont dits parallèles s’il existe un vecteur t dans T tel que $P' = t + P$. Il est clair que la relation « P et P' sont parallèles » est une relation d’équivalence dans l’ensemble des sous-espaces affines de E.
 
-#### Lemme 1 {#lie-v-s1-lem-1 .statement}
+#### Lemme 1 {#lie-v-s1-lem-1 .statement tag=0APG}
 
 Deux hyperplans non parallèles ont une intersection non vide.
 
 Soient H et H' deux hyperplans non parallèles, $a \in H$ et $a' \in H'$; il existe deux hyperplans M et M' dans l’espace vectoriel T tels que $H = M + a$ et $H' = M' + a'$; comme H et H' ne sont pas parallèles, on a $M \neq M'$, d’où $T = M + M'$; il existe alors $u \in M$ et $u' \in M'$ tels que $a' - a = u - u'$, et le point $u + a = u' + a'$ appartient à $H \cap H'$.
 
-#### Lemme 2 {#lie-v-s1-lem-2 .statement}
+#### Lemme 2 {#lie-v-s1-lem-2 .statement tag=0APH}
 
 Soient H et H' deux hyperplans distincts dans E, et f, f' deux fonctions affines sur E telles que H (resp. H') se compose des points a de E tels que $f(a) = 0$ (resp. $f'(a) = 0$). Enfin soit L un hyperplan dans E. On suppose l’une des hypothèses suivantes remplies :
 
@@ -278,7 +278,7 @@ b) Supposons H et H' non parallèles : d’après le lemme 1, il existe un point
 
 C.Q.F.D.
 
-#### Proposition 10 {#lie-v-s1-prop-10 .statement}
+#### Proposition 10 {#lie-v-s1-prop-10 .statement tag=0API}
 
 Soit C une chambre, soient H et H' deux murs de C, et soit L un hyperplan rencontrant $D_H(C) \cap D_{H'}(C)$. On suppose que H est distinct de H' et que l’une des conditions suivantes est satisfaite :
 

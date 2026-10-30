@@ -50,9 +50,9 @@ subsections:
       pdf_page: 128
 statements: 13
 exercises: 11
-content_sha256: d523b0972be2e920463b5c713cad5c42003842827807a608de15062b90233997
+content_sha256: 73b78f889a39fcfc691c6437174bed245fea39045cf95a4bfd241f614e1fa889
 translated_from: content/en/ens/II/06_s6_equivalence_relations.md
-source_content_sha256: e6575e4e849279138a1a581ab84cb1b482758b417a93c62ef93c5b5e7766db0c
+source_content_sha256: f7ce72a4dfc4c2df0edb07393e9d9b7234a3b676d35f6cff417c9f89092d2c5a
 translation_model: gpt-5-6, gpt-5.4
 translation_run: translate-vi-3107348b
 glossary_version: 34
@@ -80,7 +80,7 @@ Do đó $R\{x, y\}$ và $R\{y, x\}$ là tương đương.
 
 $$(R\{x, y\} \text{ và } R\{y, z\}) \Rightarrow R\{x, z\}.$$
 
-#### Ví dụ {#ens-ii-s6-n1-exa-7 .statement}
+#### Ví dụ {#ens-ii-s6-n1-exa-7 .statement tag=077S}
 
 Quan hệ $x = y$ là đối xứng và bắc cầu. Quan hệ $X \subset Y$ là bắc cầu nhưng không đối xứng. Quan hệ $X \cap Y = \emptyset$ là đối xứng nhưng không bắc cầu.
 

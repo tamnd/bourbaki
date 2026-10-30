@@ -33,14 +33,14 @@ subsections:
       pdf_page: 15
 statements: 48
 exercises: 17
-content_sha256: e9eeac77edda70d924b249438b8490822964b8aeb00c4b6e2f000df2b8cf1d06
+content_sha256: 60b01cc30363a11869d5efa097d7e139a017b0777fcbccd30290408b13e63d3a
 ---
 
 ## § 1. DIMENSION DE KRULL D’UN ANNEAU
 
 ### 1. Dimension de Krull d’un espace topologique
 
-#### Définition 1 {#ac-viii-s1-def-1 .statement}
+#### Définition 1 {#ac-viii-s1-def-1 .statement tag=0CJG}
 
 Soit $I$ un ensemble ordonné. Une partie finie non vide et totalement ordonnée de $I$ est appelée une chaîne de $I$. Soit $c$ une chaîne de $I$; le plus petit et le plus grand élément de $c$ sont appelés les extrémités de $c$. L’entier $\mathrm{Card}(c) - 1$ est appelé la longueur de $c$. La relation d’inclusion dans l’ensemble des parties de $I$ induit une relation d’ordre dans l’ensemble des chaînes de $I$. Une chaîne $c$ de $I$ est dite saturée si elle est maximale parmi les chaînes de $I$ ayant les mêmes extrémités que $c$.
 
@@ -48,7 +48,7 @@ Pour désigner une chaîne c de longueur n, on écrira souvent : « la chaîne $
 
 Soit X un espace topologique. On munit l’ensemble des parties fermées irréductibles de X (II, § 4, n° 1, déf. 1) de la relation d’ordre définie par l’inclusion. Lorsque l’on parlera d’une chaîne de parties fermées irréductibles de X, il s’agira toujours d’une chaîne au sens de cette relation d’ordre.
 
-#### Définition 2 {#ac-viii-s1-def-2 .statement}
+#### Définition 2 {#ac-viii-s1-def-2 .statement tag=0CJH}
 
 On appelle dimension de Krull de l’espace topologique X et on note dim kr(X) ou simplement dim(X) la borne supérieure dans $\overline{\mathbf{R}}$ de l’ensemble des longueurs des chaînes de parties fermées irréductibles de X.
 Pour tout point x de X, on appelle dimension de Krull de X en x et on note $\dim_x(X)$ la borne inférieure des dimensions des voisinages ouverts de x.
@@ -56,7 +56,7 @@ Pour tout point x de X, on appelle dimension de Krull de X en x et on note $\dim
 On a $\dim(\varnothing) = -\infty$. Par contre, si X n’est pas vide, l’adhérence de tout point de X est une partie fermée irréductible de X (II, § 4, n° 1, prop. 2) et la dimension de X est donc $+\infty$ ou un entier positif. Supposons que X soit séparé et non vide ; alors toute partie irréductible de X est réduite à un point, et X est de dimension 0.
 La définition de la dimension de Krull est donc dénuée d’intérêt pour les espaces séparés, mais elle est spécialement adaptée aux espaces topologiques rencontrés en Algèbre Commutative (spectres d’anneaux, \* schémas *, ...). Dans ce chapitre, aucune confusion n’est à craindre avec d’autres notions de dimension des espaces topologiques (par exemple, celle de Lebesgue), et nous dirons simplement « dimension » pour « dimension de Krull ».
 
-#### Proposition 1 {#ac-viii-s1-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s1-prop-1 .statement tag=0CJI}
 
 Soit X un espace topologique.
 a) Si Y est un sous-espace de X, on a $\dim(Y) \leq \dim(X)$, et $\dim_y(Y) \leq \dim_y(X)$ pour tout point y de Y.
@@ -71,7 +71,7 @@ comme I est fini, $Z_n$ est contenu dans l’un des $X_i$. Par suite, on a $\dim
 
 Soient maintenant $x$ un point de $X$ et $n = \sup_{i \in J_x} \dim_x(X_i)$, où $J_x$ est comme dans l’énoncé. On a $\dim_x(X) \geq n$ d’après *a*), et, pour établir l’égalité, on peut supposer $n$ fini. Pour tout $i \in J_x$, soit $U_i$ un voisinage ouvert de $x$ dans $X$, tel que $\dim(U_i \cap X_i) \leq n$. Posons $U = (\bigcap_{i \in J_x} U_i) \cap (\bigcap_{i \in I - J_x} \mathscr{C} X_i)$; l’ensemble $U$ est ouvert dans $X$. De plus, on a $\dim(U) = \sup_{i \in J_x} \dim(U \cap X_i) \leq n$ d’après l’alinéa précédent, donc $\dim_x(X) \leq n$.
 
-#### Corollaire {#ac-viii-s1-n1-cor-1 .statement}
+#### Corollaire {#ac-viii-s1-n1-cor-1 .statement tag=0CJJ}
 
 *a*) *La dimension de l’espace topologique $X$ est la borne supérieure des dimensions de ses composantes irréductibles* (II, § 4, no 1, déf. 2).
 
@@ -83,13 +83,13 @@ $$
 $$
 on conclut en remarquant que chacun des $V_j$ est contenu dans l’un des $X_i$, $i \in J_x$, et qu’on a par conséquent $\sup_{j \in J} \dim_x(V_j) \leq \sup_{i \in J_x} \dim_x(X_i)$.
 
-#### Proposition 2 {#ac-viii-s1-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s1-prop-2 .statement tag=0CJK}
 
 *Soit $X$ un espace topologique. On a $\dim(X) = \sup_{x \in X} \dim_x(X)$*.
 
 En effet, on a par définition $\dim(X) \geq \dim_x(X)$ pour tout $x \in X$. D’autre part, si $Z_0 \subset ... \subset Z_n$ est une chaîne de parties fermées irréductibles de $X$, pour tout $x \in Z_0$ et tout voisinage ouvert $U$ de $x$, les ensembles $Z_0 \cap U, ..., Z_n \cap U$ constituent une chaîne de parties fermées irréductibles de $U$ (II, § 4, no 1, prop. 7). On a donc $\dim_x(X) \geq n$, d’où $\dim(X) \leq \sup_{x \in X} \dim_x(X)$.
 
-#### Corollaire {#ac-viii-s1-n1-cor-2 .statement}
+#### Corollaire {#ac-viii-s1-n1-cor-2 .statement tag=0CJL}
 
 *Si $(X_\alpha)_{\alpha \in A}$ est un recouvrement ouvert, ou un recouvrement fermé localement fini, d’un espace topologique $X$, on a*
 $$
@@ -100,7 +100,7 @@ Il suffit de démontrer que, pour tout point $x$ de $X$, on a $\dim_x(X) = \sup_
 
 ### 2. Codimension d’une partie fermée
 
-#### Définition 3 {#ac-viii-s1-def-3 .statement}
+#### Définition 3 {#ac-viii-s1-def-3 .statement tag=0CJM}
 
 Soit X un espace topologique.
 
@@ -108,15 +108,15 @@ a) Si Y est une partie fermée irréductible de X, on appelle codimension de Y d
 
 b) Si Y est une partie fermée de X, on appelle codimension de Y dans X, et on note $\operatorname{codim}(Y, X)$ la borne inférieure dans $\overline{\mathbf{R}}$ des codimensions, dans X, des composantes irréductibles de Y.
 
-#### Remarque 1 {#ac-viii-s1-n2-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s1-n2-rem-1 .statement tag=0CJN}
 
 La codimension d’une partie fermée Y de X est donc la borne inférieure des codimensions des parties fermées irréductibles de Y. On a $\operatorname{codim}(\varnothing, X) = +\infty$ et, si X n’est pas vide, $\operatorname{codim}(X, X) = 0$. Toute partie fermée non vide de X contient une partie fermée irréductible (II, § 4, no 1, prop. 5); la codimension dans X d’une partie fermée Y est donc toujours un entier positif ou $+\infty$; elle est nulle si et seulement si Y contient une composante irréductible de X.
 
-#### Remarque 2 {#ac-viii-s1-n2-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s1-n2-rem-2 .statement tag=0CJO}
 
 Si Y est une partie fermée non vide de X, on a $\operatorname{codim}(Y, X) \leq \dim(X)$. On a $\dim(X) = \sup_Y \operatorname{codim}(Y, X)$, où Y parcourt l’ensemble des parties fermées irréductibles de X. Si Y et Y’ sont deux parties fermées de X telles que $Y' \subset Y$, on a $\operatorname{codim}(Y, X) \leq \operatorname{codim}(Y', X)$.
 
-#### Remarque 3 {#ac-viii-s1-n2-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s1-n2-rem-3 .statement tag=0CJP}
 
 Soient Y une partie fermée de l’espace topologique X et $(X_\alpha)_{\alpha \in A}$ (resp. $(Y_\beta)_{\beta \in B}$) la famille des composantes irréductibles de X (resp. de Y). Pour tout $\beta \in B$, notons $A(\beta)$ l’ensemble des $\alpha \in A$ tels que $Y_\beta \subset X_\alpha$. Du fait que toute partie irréductible de X est contenue dans l’un des $X_\alpha$ (II, § 4, no 1, prop. 5), il résulte de la déf. 3 que l’on a :
 
@@ -124,7 +124,7 @@ $$
 \operatorname{codim}(Y, X) = \inf_{\beta \in B} \sup_{\alpha \in A(\beta)} \operatorname{codim}(Y_\beta, X_\alpha).
 $$
 
-#### Remarque 4 {#ac-viii-s1-n2-rem-4 .statement}
+#### Remarque 4 {#ac-viii-s1-n2-rem-4 .statement tag=0CJQ}
 
 Soient $(Y_i)_{i \in I}$ une famille finie de parties fermées de X et $Y = \bigcup_{i \in I} Y_i$; on a
 
@@ -134,7 +134,7 @@ $$
 
 En effet, toute composante irréductible de Y est contenue dans l’un des $Y_i$.
 
-#### Proposition 3 {#ac-viii-s1-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s1-prop-3 .statement tag=0CJR}
 
 Soit X un espace topologique.
 
@@ -152,7 +152,7 @@ $$
 
 Il suffit de démontrer l’assertion a) dans le cas où $\dim(X)$ est fini. Dans ce cas, $\dim(Y)$ et $\operatorname{codim}(Y, X)$ sont finis. Il existe une chaîne $Y_0 \subset ... \subset Y_n$ de parties fermées irréductibles de $Y$, de longueur $n = \dim(Y)$ et une chaîne $Y_n \subset ... \subset Y_{n+p}$ de parties fermées irréductibles de $X$, de longueur $p \geq \operatorname{codim}(Y, X)$. On en déduit que $\dim(X) \geq n + p$, d’où a). Pour établir b), on peut supposer $Y$ irréductible. Comme on a $\operatorname{codim}(Y, Z) \leq \operatorname{codim}(Y, T)$, l’inégalité est démontrée si $\operatorname{codim}(Y, Z) = +\infty$. Sinon, soit $Z_0$ une composante irréductible de $Z$ contenant $Y$ et telle que $\operatorname{codim}(Y, Z) = \operatorname{codim}(Y, Z_0)$. On a $\operatorname{codim}(Z, T) \leq \operatorname{codim}(Z_0, T)$, et on voit, comme ci-dessus, que $\operatorname{codim}(Y, Z_0) + \operatorname{codim}(Z_0, T) \leq \operatorname{codim}(Y, T)$, d’où b).
 
-#### Définition 4 {#ac-viii-s1-def-4 .statement}
+#### Définition 4 {#ac-viii-s1-def-4 .statement tag=0CJS}
 
 Un espace topologique $X$ est dit caténaire si, pour tout couple $(Y, Z)$ de parties fermées irréductibles de $X$ telles que $Y \subset Z$, toute chaîne saturée de parties fermées irréductibles d’extrémités $Y$ et $Z$ est de longueur $\operatorname{codim}(Y, Z)$.
 
@@ -160,7 +160,7 @@ Il revient au même de dire que, pour tout couple $(Y, Z)$ de parties fermées i
 
 Tout sous-espace fermé d’un espace caténaire est caténaire. Pour qu’un espace soit caténaire, il faut et il suffit que ses composantes irréductibles le soient.
 
-#### Proposition 4 {#ac-viii-s1-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s1-prop-4 .statement tag=0CJT}
 
 Soit $X$ un espace topologique. Pour que $X$ soit caténaire, il faut et il suffit que, pour tout triplet $(Y, Z, T)$ de parties fermées irréductibles de $X$ tel que $Y \subset Z \subset T$, on ait :
 
@@ -172,7 +172,7 @@ Supposons $X$ caténaire. Compte tenu de la prop. 3, b), il suffit de démontrer
 
 Réciproquement, supposons que l’on ait $\operatorname{codim}(Y, T) = \operatorname{codim}(Y, Z) + \operatorname{codim}(Z, T)$ quelles que soient les parties fermées irréductibles $Y, Z, T$ de $X$ telles que $Y \subset Z \subset T$, et démontrons que $X$ est caténaire. Pour cela, démontrons par récurrence sur l’entier $n \geq 0$ que, pour toute chaîne saturée $Z_0 \subset ... \subset Z_n$ de parties fermées irréductibles de $X$, on a $\operatorname{codim}(Z_0, Z_n) = n$. Si $n = 0$, c’est clair. Soit $n > 0$, et supposons la propriété satisfaite pour les chaînes de longueur $\leq n - 1$. Si $Z_0 \subset ... \subset Z_n$ est une chaîne saturée de longueur $n$, alors $Z_0 \subset ... \subset Z_{n-1}$ est une chaîne saturée de longueur $n - 1$, donc $\operatorname{codim}(Z_0, Z_{n-1}) = n - 1$. Vu l’hypothèse faite sur $X$, on a $\operatorname{codim}(Z_0, Z_n) = \operatorname{codim}(Z_0, Z_{n-1}) + \operatorname{codim}(Z_{n-1}, Z_n) = (n - 1) + 1 = n$.
 
-#### Corollaire {#ac-viii-s1-n2-cor-1 .statement}
+#### Corollaire {#ac-viii-s1-n2-cor-1 .statement tag=0CJU}
 
 Soit X un espace topologique irréductible et de dimension finie. Pour que X soit caténaire, il faut et il suffit que, pour tout couple (Y, Z) de parties fermées irréductibles de X telles que Y ⊂ Z, on ait codim(Y, X) = codim(Y, Z) + codim(Z, X).
 
@@ -186,7 +186,7 @@ $$
 $$
 et X est caténaire d’après la prop. 4.
 
-#### Proposition 5 {#ac-viii-s1-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s1-prop-5 .statement tag=0CJV}
 
 Soit X un espace topologique de dimension finie. Supposons que toutes les chaînes maximales de parties fermées irréductibles de X aient même longueur. Alors X est caténaire ; pour toute partie fermée irréductible Z de X, on a
 $$
@@ -209,7 +209,7 @@ Prenant Y = Z, on voit que le second membre est égal à \dim(Z), d’où la pro
 
 ### 3. Dimension d’un anneau, hauteur d’un idéal
 
-#### Définition 5 {#ac-viii-s1-def-5 .statement}
+#### Définition 5 {#ac-viii-s1-def-5 .statement tag=0CJW}
 
 On appelle dimension de Krull, ou simplement dimension, d’un anneau (commutatif) A et l’on note \dim(A), la dimension de Krull de l’espace topologique Spec(A) (II, § 4, n° 3, déf. 4). Si p est un idéal premier de A, on appelle dimension de A en p, et on note \dim_p(A), le nombre \dim_p(\operatorname{Spec}(A)).
 
@@ -217,19 +217,19 @@ L’application $p \mapsto V(p)$ est une bijection décroissante de l’ensemble
 
 Soit $p \in \mathrm{Spec}(A)$; les ensembles $\mathrm{Spec}(A)_f$, où $f$ parcourt $A$, forment une base de la topologie de $\mathrm{Spec}(A)$, et $p$ appartient à l’ouvert $\mathrm{Spec}(A)_f$ si et seulement si $f$ n’appartient pas à $p$. Par conséquent, $\dim_p(A)$ est la borne inférieure des nombres $\dim(A_f)$, où $f$ parcourt $A - p$ (II, § 5, no 1, prop. 1).
 
-#### Exemple 1 {#ac-viii-s1-n3-exa-1 .statement}
+#### Exemple 1 {#ac-viii-s1-n3-exa-1 .statement tag=0CJX}
 
 On a $\dim(A) < 0$ si et seulement si $A$ est réduit à 0. Pour que l’on ait $\dim(A) \leqslant 0$, il faut et il suffit que tout idéal premier de $A$ soit maximal. Les anneaux intègres de dimension 0 sont les corps. Un anneau noethérien est de dimension $\leqslant 0$ si et seulement s’il est artinien (IV, § 2, no 5, prop. 9).
 
-#### Exemple 2 {#ac-viii-s1-n3-exa-2 .statement}
+#### Exemple 2 {#ac-viii-s1-n3-exa-2 .statement tag=0CJY}
 
 Les anneaux de Dedekind sont les anneaux noethériens intégralement clos de dimension $\leqslant 1$ (VII, § 2, no 2, th. 1). Plus généralement, d’après V, § 1, no 2, cor. 2 à la prop. 9, un anneau est un produit fini d’anneaux de Dedekind si et seulement s’il est noethérien, réduit, intégralement fermé dans son anneau total des fractions, et de dimension $\leqslant 1$.
 
-#### Exemple 3 {#ac-viii-s1-n3-exa-3 .statement}
+#### Exemple 3 {#ac-viii-s1-n3-exa-3 .statement tag=0CJZ}
 
 Si $A$ est un anneau de valuation (VI, § 1, no 2, déf. 2), sa dimension est égale à la hauteur de la valuation (VI, § 4, no 4, prop. 5).
 
-#### Exemple 4 {#ac-viii-s1-n3-exa-4 .statement}
+#### Exemple 4 {#ac-viii-s1-n3-exa-4 .statement tag=0CK0}
 
 Soit $A$ un anneau. On a
 $$
@@ -247,23 +247,23 @@ $$
 
 Nous démontrerons plus loin (§ 3, no 4, cor. 3 de la prop. 7 et cor. 3 de la prop. 8) que l’on a égalité dans les deux formules précédentes lorsque $A$ est noethérien.
 
-#### Exemple 5 {#ac-viii-s1-n3-exa-5 .statement}
+#### Exemple 5 {#ac-viii-s1-n3-exa-5 .statement tag=0CK1}
 
 \* Soit $X$ une variété analytique complexe. Si $X$ est de dimension complexe $n$ en un point $x$ de $X$, l’anneau local des germes en $x$ de fonctions analytiques sur $X$ est de dimension $n$. \*
 
-#### Exemple 6 {#ac-viii-s1-n3-exa-6 .statement}
+#### Exemple 6 {#ac-viii-s1-n3-exa-6 .statement tag=0CK2}
 
 Soient $k$ un corps et $A$ une $k$-algèbre entière non nulle. Alors on a $\dim(A) = 0$. Cela résulte du cor. 1 à la prop. 1 de V, § 2, no 1, et du fait que $\dim(k) = 0$.
 
-#### Exemple 7 {#ac-viii-s1-n3-exa-7 .statement}
+#### Exemple 7 {#ac-viii-s1-n3-exa-7 .statement tag=0CK3}
 
 Si $\mathfrak{n}$ est un nilidéal de $A$, $\mathrm{Spec}(A)$ est homéomorphe à $\mathrm{Spec}(A/\mathfrak{n})$ (II, § 4, no 3, remarque). On a donc $\dim(A/\mathfrak{n}) = \dim(A)$; en particulier, on a $\dim(A) = \dim(A_{\mathrm{red}})$ où $A_{\mathrm{red}}$ est le quotient de l’anneau $A$ par son nilradical.
 
-#### Exemple 8 {#ac-viii-s1-n3-exa-8 .statement}
+#### Exemple 8 {#ac-viii-s1-n3-exa-8 .statement tag=0CK4}
 
 Il existe des anneaux noethériens de dimension infinie (p. 83, exerc. 13). Nous verrons ci-dessous (§ 3, n° 1, cor. 1 à la prop. 2) que tout anneau local noethérien est de dimension finie.
 
-#### Proposition 6 {#ac-viii-s1-prop-6 .statement}
+#### Proposition 6 {#ac-viii-s1-prop-6 .statement tag=0CK5}
 
 Soit A un anneau.
 a) Si a est un idéal de A, on a dim(A/a) $\leq$ dim(A).
@@ -280,7 +280,7 @@ D’après la remarque de II, § 4, n° 3, si a est un idéal de A, l’espace t
 
 Démontrons enfin e). Il s’agit de prouver que, pour toute chaîne $p_0 \subset ... \subset p_n$ d’idéaux premiers de A telle que $a \subset p_0$, on a dim(A) $\geq n + 1$. Vu l’hypothèse faite sur a, il existe un idéal premier $p_{-1}$ de A contenu dans $p_0$, distinct de $p_0$, et $p_{-1} \subset p_0 \subset ... \subset p_n$ est une chaîne d’idéaux premiers de A, de longueur $n + 1$.
 
-#### Remarque 1 {#ac-viii-s1-n3-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s1-n3-rem-1 .statement tag=0CK6}
 
 Soit $\rho : A \to B$ un homomorphisme d’anneaux. Alors dim(B) est la borne supérieure des nombres dim(B/$\rho(p)$.B), où p parcourt l’ensemble des idéaux premiers minimaux de A : en effet, pour tout idéal premier minimal q de B, il existe un idéal premier minimal p de A contenu dans $\rho^{-1}(q)$ (II, § 2, n° 6, lemme 2) et l’on a
 $$
@@ -288,13 +288,13 @@ $$
 $$
 par la prop. 6, a) ; on conclut par la prop. 6, c).
 
-#### Définition 6 {#ac-viii-s1-def-6 .statement}
+#### Définition 6 {#ac-viii-s1-def-6 .statement tag=0CK7}
 
 Soit a un idéal d’un anneau A. La codimension de V(a) dans Spec(A) est appelée hauteur de l’idéal a et notée ht(a).
 
 Supposons A intègre. Alors les idéaux premiers de hauteur 1 de A au sens de la déf. 4 de VII, § 1, n° 6, sont les idéaux premiers de hauteur 1 au sens de la définition ci-dessus.
 
-#### Proposition 7 {#ac-viii-s1-prop-7 .statement}
+#### Proposition 7 {#ac-viii-s1-prop-7 .statement tag=0CK8}
 
 a) La hauteur d’un idéal premier p de A est la borne supérieure des longueurs des chaînes d’idéaux premiers $p_0 \subset ... \subset p_n$ telles que $p_n = p$.
 
@@ -304,13 +304,13 @@ c) Si a est un idéal de A, on a $\operatorname{ht}(a) = \inf_{p} \operatorname{
 
 L’assertion a) est la traduction de la déf. 3, a) du n° 2. L’assertion b) résulte du fait que l’application $q \mapsto q(A_p/aA_p)$ est un isomorphisme croissant de l’ensemble des idéaux premiers q de A tels que $a \subset q \subset p$ sur l’ensemble des idéaux premiers de l’anneau local $A_p/aA_p$ (II, § 2, n° 5, prop. 11). Soit a un idéal de A ; les parties fermées irréductibles de $V(a)$ sont les ensembles $V(p)$, où p est un idéal premier de A contenant a. L’assertion c) résulte donc de la remarque 1 du n° 2.
 
-#### Corollaire {#ac-viii-s1-n3-cor-1 .statement}
+#### Corollaire {#ac-viii-s1-n3-cor-1 .statement tag=0CK9}
 
 Soient p un idéal premier de A et S une partie multiplicative de A ne rencontrant pas p. Alors $\operatorname{ht}(p) = \operatorname{ht}(S^{-1}p)$.
 
 Cela résulte de la prop. 7, a), et de II, § 2, n° 5, prop. 11.
 
-#### Proposition 8 {#ac-viii-s1-prop-8 .statement}
+#### Proposition 8 {#ac-viii-s1-prop-8 .statement tag=0CKA}
 
 Soit A un anneau.
 
@@ -320,31 +320,31 @@ b) Soient b un idéal de A distinct de A et a un idéal de A contenu dans b. Alo
 
 La première assertion résulte de la remarque 2 du n° 2 et de la prop. 7, b). La seconde résulte de la prop. 3, a) du n° 2 et des relations $\dim(A/b) = \dim(V(b))$, $\dim(A/a) = \dim(V(a))$.
 
-#### Définition 7 {#ac-viii-s1-def-7 .statement}
+#### Définition 7 {#ac-viii-s1-def-7 .statement tag=0CKB}
 
 On dit qu’un anneau A est caténaire si l’espace topologique Spec(A) est caténaire (n° 2, déf. 4).
 
 Cela signifie donc que, pour tout couple (p, q) d’idéaux premiers de A tel que $q \subset p$, toutes les chaînes saturées d’idéaux premiers de A d’extrémités p et q ont pour longueur $\operatorname{codim}(V(p), V(q)) = \dim(A_p/qA_p)$.
 
-#### Remarque 2 {#ac-viii-s1-n3-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s1-n3-rem-2 .statement tag=0CKC}
 
 Tout anneau quotient d’un anneau caténaire est caténaire. Pour que l’anneau A soit caténaire, il faut et il suffit que, pour tout idéal premier p de A, l’anneau $A_p$ soit caténaire.
 
-#### Remarque 3 {#ac-viii-s1-n3-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s1-n3-rem-3 .statement tag=0CKD}
 
 D’après la prop. 7, b) et la prop. 4 du n° 2, l’anneau A est caténaire si et seulement si, pour tout triplet (p, q, r) d’idéaux premiers de A tel que $r \subset q \subset p$, on a dim(A_p/qA_p) + dim(A_q/rA_q) = dim(A_p/rA_p). Si A est intègre et de dimension finie, alors A est caténaire si et seulement si on a ht(q) + dim(A_p/qA_p) = ht(p) pour tout couple (p, q) d’idéaux premiers de A tel que q ⊂ p. En effet, l’espace topologique Spec(A) est alors irréductible et de dimension finie, et on applique le corollaire à la prop. 4 du n° 2.
 
-#### Remarque 4 {#ac-viii-s1-n3-rem-4 .statement}
+#### Remarque 4 {#ac-viii-s1-n3-rem-4 .statement tag=0CKE}
 
 Soit A un anneau de dimension finie, dont toutes les chaînes maximales d’idéaux premiers ont même longueur. Alors A est caténaire, on a ht(p) + dim(A/p) = dim(A) pour tout idéal premier p de A, et dim(A_p/qA_p) + dim(A/p) = dim(A/q) pour tout couple (p, q) d’idéaux premiers de A tel que q ⊂ p (n° 2, prop. 5).
 
-#### Remarque 5 {#ac-viii-s1-n3-rem-5 .statement}
+#### Remarque 5 {#ac-viii-s1-n3-rem-5 .statement tag=0CKF}
 
 Nous verrons au § 2, n° 4, que toute algèbre de type fini sur un corps est un anneau caténaire. Il existe des anneaux locaux noethériens qui ne sont pas caténaires (p. 83, exerc. 16).
 
 ### 4. Dimension d’un module de type fini
 
-#### Définition 8 {#ac-viii-s1-def-8 .statement}
+#### Définition 8 {#ac-viii-s1-def-8 .statement tag=0CKG}
 
 Soient A un anneau et M un A-module de type fini. On appelle dimension de Krull (ou simplement dimension $^1$) du A-module M et on note $\dim_A(M)$ (ou $\dim(M)$ s’il n’y a pas d’ambiguïté) la dimension de Krull du support de M (II, § 4, n° 4, déf. 5).
 
@@ -358,17 +358,17 @@ $$
 
 (II, § 4, n° 4, prop. 17). Par suite coïncident la dimension du A-module M, la dimension du A-module A/α, la dimension de l’anneau A/α et la dimension du (A/α)-module M ; c’est la borne supérieure de l’ensemble des longueurs des chaînes $p_0 \subset ... \subset p_n$ d’idéaux premiers de A telles que $\alpha \subset p_0$. D’après la prop. 6, c) du n° 3, la dimension de M est aussi la borne supérieure des dimensions des anneaux (ou des A-modules) A/p, où p parcourt l’ensemble des idéaux premiers de A, minimaux parmi ceux qui contiennent α.
 
-#### Remarque 1 {#ac-viii-s1-n4-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s1-n4-rem-1 .statement tag=0CKH}
 
 Soient A un anneau noethérien et M un A-module de type fini. Il est équivalent de dire que $\dim_A(M) \leq 0$, ou que les éléments de Supp(M) sont des idéaux maximaux de A, ou que M est de longueur finie (IV, § 2, n° 5, prop. 7).
 
-#### Remarque 2 {#ac-viii-s1-n4-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s1-n4-rem-2 .statement tag=0CKI}
 
 Si M est un module de type fini sur un anneau noethérien A, $\dim_A(M)$ est la borne supérieure des nombres $\dim(A/p)$, où p parcourt l’ensemble $\operatorname{Ass}_A(M)$ des idéaux premiers de A associés à M (IV, § 1, n° 4, th. 2).
 
 1 Si A est un corps, la dimension de Krull de M est $\leq 0$. Il y aura lieu de ne pas confondre la dimension de Krull de M et la dimension (ou rang) de l’espace vectoriel M sur le corps A (A, II, p. 97, déf. 1).
 
-#### Proposition 9 {#ac-viii-s1-prop-9 .statement}
+#### Proposition 9 {#ac-viii-s1-prop-9 .statement tag=0CKJ}
 
 Soient $A$ un anneau et $M$ un $A$-module de type fini.
 
@@ -388,7 +388,7 @@ b) Cela résulte aussitôt de a) et du fait que $\dim_{A_p}(M_p) = -\infty$ si $
 
 c) On a $\mathrm{Supp}(M) = \mathrm{Supp}(M') \cup \mathrm{Supp}(M/M')$ (II, § 4, n° 4, prop. 16), et on applique la prop. 1 du n° 1.
 
-#### Remarque 3 {#ac-viii-s1-n4-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s1-n4-rem-3 .statement tag=0CKK}
 
 Sous les conditions de la prop. 9, c), on a $\mathrm{codim}(\mathrm{Supp}(M), \mathrm{Spec}(A)) = \inf(\mathrm{codim}(\mathrm{Supp}(M'), \mathrm{Spec}(A)), \mathrm{codim}(\mathrm{Supp}(M/M'), \mathrm{Spec}(A)))$. Cela résulte de la formule $\mathrm{Supp}(M) = \mathrm{Supp}(M') \cup \mathrm{Supp}(M/M')$ et de la remarque 4 du n° 2.
 
@@ -406,7 +406,7 @@ $$
 
 où $p$ parcourt l’ensemble fini des idéaux premiers minimaux de $\mathrm{Supp}(M)$.
 
-#### Remarque {#ac-viii-s1-n5-rem-1 .statement}
+#### Remarque {#ac-viii-s1-n5-rem-1 .statement tag=0CKL}
 
 Pour tout $p \in \mathrm{Spec}(A)$, on a $z(A/p) = [V(p)]$. Plus généralement, soit $M$ un $A$-module de type fini, et soit $(M_i)_{0 \leq i \leq n}$ une suite de composition de $M$ telle que pour $0 \leq i \leq n-1$, le module $M_i/M_{i+1}$ soit isomorphe à $A/p_i$, où $p_i$ est un idéal premier de $A$ (cf. IV, § 1, n° 4, th. 1); alors on a $z(M) = \sum_{i \in J} [V(p_i)]$, où $J$ est la partie de $I$ formée des $i$ tels que $p_i$ soit un élément minimal de $\{ p_0, ..., p_{n-1} \}$ (IV, § 1, n° 4, th. 2 et § 2, n° 5, remarque 1).
 
@@ -416,7 +416,7 @@ Z_{\leq d} = Z_{\leq d-1} \oplus Z_d,\quad Z^{>d} = Z^{>d+1} \oplus Z^d.
 $$
 Soit par ailleurs $C$ l’ensemble des classes de $A$-modules de type fini (A, VIII, § 3, n° 5), et pour chaque entier $d$, soit $C_{\leq d}$ (resp. $C^{>d}$) la partie de $C$ formée des classes de $A$-modules de type fini de dimension $\leq d$ (resp. dont le support est de codimension $\geq d$ dans $\mathrm{Spec}(A)$).
 
-#### Lemme 1 {#ac-viii-s1-lem-1 .statement}
+#### Lemme 1 {#ac-viii-s1-lem-1 .statement tag=0CKM}
 
 *Soient $M$ un $A$-module de type fini et $d$ un entier.*
   *a*) *Pour que $M$ soit de type $C_{\leq d}$, il faut et il suffit que $z(M) \in Z_{\leq d}$; la projection $z_d(M)$ de $z(M)$ sur $Z_d$ parallèlement à $Z_{\leq d-1}$ est alors donnée par*
@@ -440,7 +440,7 @@ i_d : K(C_{\leq d-1}) \to K(C_{\leq d})\quad \text{et}\quad i^d : K(C^{>d+1}) \t
 $$
 Avec ces notations :
 
-#### Proposition 10 {#ac-viii-s1-prop-10 .statement}
+#### Proposition 10 {#ac-viii-s1-prop-10 .statement tag=0CKN}
 
 Les suites de $\mathbf{Z}$-modules et d’homomorphismes
 
@@ -457,19 +457,19 @@ On a $\zeta_d \circ i_d = 0$ d’après le lemme 1. Pour tout $p \in \mathrm{Spe
 
 On raisonne de même pour la seconde suite.
 
-#### Exemple 1 {#ac-viii-s1-n5-exa-1 .statement}
+#### Exemple 1 {#ac-viii-s1-n5-exa-1 .statement tag=0CKO}
 
 Supposons A noethérien et intègre. Alors on a $Z^0 = \mathbf{Z}.[\mathrm{Spec}(A)]$; on a $\mathscr{C}^{>0} = \mathscr{C}$ et $z^0(M) = \mathrm{rg}(M).[Spec(A)]$. Les modules de type $\mathscr{C}^{>1}$ sont donc les modules de torsion.
 
-#### Exemple 2 {#ac-viii-s1-n5-exa-2 .statement}
+#### Exemple 2 {#ac-viii-s1-n5-exa-2 .statement tag=0CKP}
 
 Supposons A noethérien et intégralement clos. Alors $Z^1$ s’identifie au groupe $D(A)$ des diviseurs de A introduit au chapitre VII (§ 1, no 3, th. 2, et no 6, th. 3). Les modules de type $\mathscr{C}^{>2}$ sont les modules pseudo-nuls (VII, § 4, no 4, déf. 2); si M est un module de torsion de type fini, alors $z^1(M) \in Z^1 = D(A)$ est le contenu $\chi(M)$ de M (VII, § 4, no 5, déf. 4). Les prop. 10 et 11 de loc. cit. sont donc équivalentes à l’exactitude de la suite $K(\mathscr{C}^{>2}) \to K(\mathscr{C}^{>1}) \to Z^1 \to 0$.
 
-#### Exemple 3 {#ac-viii-s1-n5-exa-3 .statement}
+#### Exemple 3 {#ac-viii-s1-n5-exa-3 .statement tag=0CKQ}
 
 Les modules de type $\mathscr{C}_{\leq 0}$ sont les modules de dimension $\leq 0$, c’est-à-dire les modules de longueur finie (no 4, remarque 1). On a $\mathrm{long}_A(M) = \varepsilon(z_0(M))$ pour tout A-module de longueur finie M, où $\varepsilon : Z_0 \to \mathbf{Z}$ associe à la combinaison linéaire $\sum_m n_m[V(m)]$ l’entier $\sum_m n_m$ (IV, § 2, no 5, corollaire à la prop. 8).
 
-#### Exemple 4 {#ac-viii-s1-n5-exa-4 .statement}
+#### Exemple 4 {#ac-viii-s1-n5-exa-4 .statement tag=0CKR}
 
 Supposons A intègre et de dimension finie. Posons $d = \dim(A)$. Alors on a $\mathscr{C}_{\leq d} = \mathscr{C}$, $Z_d = \mathbf{Z}.[\mathrm{Spec}(A)] = Z^0$, $z_d(M) = \mathrm{rg}(M).[Spec(A)] = z^0(M)$, et les modules de type $\mathscr{C}_{\leq d-1}$ sont les modules de torsion.
 

@@ -45,9 +45,9 @@ subsections:
       pdf_page: 89
 statements: 41
 exercises: 20
-content_sha256: b2bd12c5e60fd8c9837fb1ccdf1444c99f255927a816d3eae075da16478d2dfc
+content_sha256: df4ebd105ce17e60099f4250d75e25b3a6490b1349c3877d231525429dd69612
 translated_from: content/en/evt/II/06_s6_weak_topologies.md
-source_content_sha256: e1bc460d0a51b883b5ee53c23ecc3ba068068ecf43bcc87316cace3e1948ad43
+source_content_sha256: 99514709d3c5833b248b220057a632a5ff5dc72f7ecf8af9bb7a09eddc3274a1
 translation_model: gpt-5.4
 translation_run: translate-vi-bef4b978
 glossary_version: 34
@@ -69,7 +69,7 @@ Ta nói rằng thế đối ngẫu xác định bởi B là phân ly trong F (�
 
 Thế đối ngẫu xác định bởi B được gọi là phân ly nếu nó vừa phân ly trong F vừa phân ly trong G. Để điều đó xảy ra, điều kiện cần và đủ là dạng song tuyến tính B phải phân ly theo nghĩa của A, IX, § 1.1. Chính xác hơn ta có kết quả sau :
 
-#### Mệnh đề 1 {#evt-ii-s6-prop-1 .statement}
+#### Mệnh đề 1 {#evt-ii-s6-prop-1 .statement tag=07H0}
 
 *Cho F, G là hai không gian vectơ thực và B là một dạng song tuyến tính trên $F \times G$. Cho*
 
@@ -88,7 +88,7 @@ $$
 (x^*, x) \mapsto \langle x, x^* \rangle \quad (\text{resp. } (x, x^*) \mapsto \langle x, x^* \rangle).
 $$
 
-#### Ví dụ {#evt-ii-s6-n1-exa-1 .statement}
+#### Ví dụ {#evt-ii-s6-n1-exa-1 .statement tag=07H1}
 
 — 1) Cho E là một không gian vectơ và cho E* là đối ngẫu của nó. Dạng song tuyến tính chính tắc $(x, x^*) \mapsto \langle x, x^* \rangle$ trên $E \times E^*$ (A, II, § 2.3) đặt E và E* vào thế đối ngẫu phân ly : vì (D_{II}) là đúng do định nghĩa của quan hệ $x^* \neq 0$, và mặt khác, ta biết rằng với mọi $x \neq 0$ trong E, tồn tại một dạng tuyến tính $x^* \in E^*$ sao cho $\langle x, x^* \rangle \neq 0$ (A, II, § 7.5, đl. 6), điều đó chứng minh (D_I); ở đây phép đồng nhất E với một không gian con của $E^{**}$ được thực hiện bởi ánh xạ chính tắc $c_E$ (*loc. cit.*).
 
@@ -96,13 +96,13 @@ Khi E có chiều *hữu hạn*, không gian con *duy nhất* G của E* ở tro
 
 2) Khi E là một không gian vectơ có chiều *vô hạn*, và E' là một không gian con vectơ của E*, thì thế đối ngẫu giữa E và E' xác định bởi hạn chế lên $E \times E'$ của dạng song tuyến tính chính tắc luôn luôn phân ly trong E' ; nó có thể phân ly trong E ngay cả khi $E' \neq E^*$. Trường hợp quan trọng nhất là khi E là một không gian vectơ tôpô.
 
-#### Định nghĩa 1 {#evt-ii-s6-def-1 .statement}
+#### Định nghĩa 1 {#evt-ii-s6-def-1 .statement tag=07H2}
 
 — *Bởi đối ngẫu của một không gian vectơ tôpô E, ta hiểu không gian con E' của E*, đối ngẫu của không gian vectơ E, gồm các dạng tuyến tính liên tục trên E.*
 
 Khi E là một không gian *Hausdorff lồi địa phương*, thế đối ngẫu giữa E và đối ngẫu của nó E' là phân ly : điều này suy ra từ định lý Hahn-Banach (II, p. 24, hệ quả 1) rằng với mọi $x \neq 0$ trong E, tồn tại $x' \in E'$ sao cho $\langle x, x' \rangle \neq 0$.
 
-#### Nhận xét {#evt-ii-s6-n1-rem-1 .statement}
+#### Nhận xét {#evt-ii-s6-n1-rem-1 .statement tag=07H3}
 
 — 1) Khi E là một không gian vectơ *tôpô*, đối ngẫu $E^*$ của *không gian vectơ* E sẽ được gọi là *đối ngẫu đại số* của E để tránh nhầm lẫn. Cũng chú ý rằng $E^*$ là đối ngẫu của không gian vectơ tôpô thu được bằng cách cho E tôpô lồi địa phương *mịn nhất* (II, p. 25, *Ví dụ* 2).
 2) Đối ngẫu E' của một không gian vectơ tôpô tự nó không mang một tôpô nào, trừ khi điều đó được nói rõ.
@@ -110,7 +110,7 @@ Khi E là một không gian *Hausdorff lồi địa phương*, thế đối ng�
 
 ### 2. Tôpô yếu
 
-#### Định nghĩa 2 {#evt-ii-s6-def-2 .statement}
+#### Định nghĩa 2 {#evt-ii-s6-def-2 .statement tag=07H4}
 
 — *Cho F và G là hai không gian vectơ được đặt trong đối ngẫu bởi dạng song tuyến tính B. Tôpô thô nhất trên F làm cho mọi dạng tuyến tính* $B(., y): x \mapsto B(x, y)$ *liên tục, khi y chạy trong G, được gọi là tôpô yếu trên F được xác định bởi đối ngẫu giữa F và G, và ta ký hiệu nó là* $\sigma(F, G)$*.*
 
@@ -126,13 +126,13 @@ Một không gian vectơ F mang một tôpô yếu dạng $\sigma(F, G)$ sẽ đ
 
 Một tôpô yếu $\sigma(F, G)$ là *lồi địa phương* (II, p. 26, mệnh đề 4) ; chính xác hơn, nó là ảnh ngược của tôpô *tích* trên $\mathbf{R}^G$ bởi ánh xạ tuyến tính $\phi : x \mapsto (\langle x, y \rangle)_{y \in G}$ từ F vào $\mathbf{R}^G$. Nó được xác định bởi tập các *nửa chuẩn* $x \mapsto |\langle x, y \rangle|$ khi y chạy trong G (II, p. 5). Với mọi $\alpha > 0$, và mọi họ hữu hạn $(y_i)_{1 \leq i \leq n}$ các điểm của G, gọi $W(y_1, ..., y_n; \alpha)$ là tập hợp các $x \in F$ sao cho $|\langle x, y_i \rangle| \leq \alpha$ với $1 \leq i \leq n$; các tập hợp này (khi $\alpha, n$ và $y_i$ tùy ý) tạo thành một *hệ cơ bản các lân cận của* 0 đối với $\sigma(F, G)$. Chú ý rằng $W(y_1, ..., y_n; \alpha)$ chứa *không gian con vectơ* của F, có đối chiều *hữu hạn*, được xác định bởi các phương trình $\langle x, y_i \rangle = 0$ với $1 \leq i \leq n$.
 
-#### Mệnh đề 2 {#evt-ii-s6-prop-2 .statement}
+#### Mệnh đề 2 {#evt-ii-s6-prop-2 .statement tag=07H5}
 
 — *Tôpô yếu* $\sigma(F, G)$ *là Hausdorff khi và chỉ khi đối ngẫu giữa* $F$ *và* $G$ *là phân ly trên* $F$.
 
 Đây là một trường hợp riêng của II, p. 3, mệnh đề 2.
 
-#### Mệnh đề 3 {#evt-ii-s6-prop-3 .statement}
+#### Mệnh đề 3 {#evt-ii-s6-prop-3 .statement tag=07H6}
 
 — *Cho* $F$ *và* $G$ *là hai không gian vectơ thực trong đối ngẫu. Mọi dạng tuyến tính trên* $F$, *liên tục đối với* $\sigma(F, G)$, *đều có thể viết dưới dạng* $x \mapsto \langle x, y \rangle$ *với một* $y \in G$. *Phần tử* $y \in G$ *là duy nhất khi đối ngẫu là phân ly trên* $G$.
 
@@ -140,25 +140,25 @@ Thật vậy, nói rằng dạng tuyến tính $f$ trên $F$ liên tục đối 
 
 Nói cách khác, khi ngẫu đôi là phân ly trên $G$, và $F$ mang tôpô $\sigma(F, G)$, thì ta có thể đồng nhất $G$ một cách chính tắc với đối ngẫu của $F$ đối với tôpô này (II, p. 42, định nghĩa 1).
 
-#### Hệ quả 1 {#evt-ii-s6-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s6-prop-3-cor-1 .statement tag=07H7}
 
 — *Một họ* $(a_i)$ *các điểm của* $F$ *là toàn phần đối với tôpô* $\sigma(F, G)$ *khi và chỉ khi, với mọi* $y \neq 0$ *trong* $G$, *tồn tại một chỉ số* $i$ *sao cho* $\langle a_i, y \rangle \neq 0$.
 
 Khi dùng mệnh đề 3 và I, p. 13, định lý 1, tính chất này biểu thị sự kiện là đối với $\sigma(F, G)$ không có siêu phẳng đóng nào chứa tất cả các $a_i$; do đó hệ quả suy ra từ hệ quả 3 của II, p. 38.
 
-#### Hệ quả 2 {#evt-ii-s6-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s6-prop-3-cor-2 .statement tag=07H8}
 
 — *Một họ* $(a_i)$ *các điểm của* $F$ *là độc lập về tôpô đối với tôpô* $\sigma(F, G)$, *khi và chỉ khi, với mọi chỉ số* $i$, *tồn tại một phần tử* $b_i \in G$ *sao cho* : $\langle a_i, b_i \rangle \neq 0$ *và* $\langle a_\kappa, b_i \rangle = 0$ *với mọi* $\kappa \neq i$.
 
 Điều đó có nghĩa là, với mọi $i$, tồn tại một siêu phẳng đóng trong $\sigma(F, G)$, chứa mọi $a_\kappa$ có chỉ số $\kappa \neq i$ nhưng không chứa $a_i$.
 
-#### Hệ quả 3 {#evt-ii-s6-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#evt-ii-s6-prop-3-cor-3 .statement tag=07H9}
 
 — *Cho* $G_1$ *và* $G_2$ *là hai không gian con vectơ của* $F^*$, *ngẫu đôi với* $F$ *(đối với hạn chế của dạng song tuyến tính chính tắc)*. *Khi đó* $\sigma(F, G_2)$ *mịn hơn* $\sigma(F, G_1)$ *khi và chỉ khi* $G_1 \subset G_2$.
 
 Điều kiện này hiển nhiên là đủ; ngược lại, nếu $\sigma(F, G_2)$ mịn hơn $\sigma(F, G_1)$, thì mọi dạng tuyến tính liên tục đối với $\sigma(F, G_1)$ cũng liên tục đối với $\sigma(F, G_2)$, do đó $G_1 \subset G_2$ theo mệnh đề 3.
 
-#### Hệ quả 4 {#evt-ii-s6-prop-3-cor-4 .statement}
+#### Hệ quả 4 {#evt-ii-s6-prop-3-cor-4 .statement tag=07HA}
 
 — *Cho* $G$ *là một không gian con vectơ của đối ngẫu* $F^*$, *của không gian vectơ* $F$. *Khi đó* $F$ *và* $G$ *ở trong ngẫu đôi phân ly* (đối với dạng song tuyến tính chính tắc) *khi và chỉ khi* $G$ *trù mật trong* $F^*$ *đối với tôpô* $\sigma(F^*, F)$.
 
@@ -166,7 +166,7 @@ Khi dùng mệnh đề 3 và I, p. 13, định lý 1, tính chất này biểu t
 
 ### 3. Các tập hợp cực và các không gian con trực giao
 
-#### Định nghĩa 2 {#evt-ii-s6-def-2-bis .statement}
+#### Định nghĩa 2 {#evt-ii-s6-def-2-bis .statement tag=07HB}
 
 Cho F và G là hai không gian vectơ (thực) ngẫu đôi với nhau. Với mọi tập hợp M của F, ta gọi tập cực của M là tập hợp các y ∈ G sao cho $\langle x, y \rangle \geq -1$ với mọi $x \in M$. (Đối với các không gian vectơ phức, xem II, p. 64.)
 
@@ -184,7 +184,7 @@ tức là $M^{\circ \circ \circ} = M^\circ$ (xem S, III, § 1.5, mệnh đề 2)
 
 Nếu M là một tập con đối xứng của F, thì $M^\circ$ là một tập con đối xứng của G; trong trường hợp này $M^\circ$ cũng là tập hợp các $y \in G$ sao cho $|\langle x, y \rangle| \leq 1$ với mọi $x \in M$.
 
-#### Mệnh đề 4 {#evt-ii-s6-prop-4 .statement}
+#### Mệnh đề 4 {#evt-ii-s6-prop-4 .statement tag=07HC}
 
 (i) Với mọi tập hợp M của F, tập cực $M^\circ$ là một tập hợp lồi chứa 0 và đóng trong G đối với tôpô $\sigma(G, F)$.
 
@@ -202,13 +202,13 @@ Nếu M là một không gian con vectơ của F, ta nói rằng $M^\circ$ là t
 
 Với một không gian con vectơ M của F và một không gian con vectơ N của G, ta nói rằng M và N trực giao nếu $M \subset N^o$ (hay, tương đương, nếu $N \subset M^\circ$).
 
-#### Định lý 1 (định lý lưỡng cực) {#evt-ii-s6-thm-1 .statement}
+#### Định lý 1 (định lý lưỡng cực) {#evt-ii-s6-thm-1 .statement tag=07HD}
 
 Cho F, G là hai không gian vectơ thực đối ngẫu với nhau. Với mọi tập con M của F, tập cực $M^{\circ \circ}$ trong F của tập cực $M^\circ$ của M trong G là bao lồi đóng (đối với $\sigma(F, G)$) của $M \cup \{0\}$.
 
 Ta đã thấy rằng chỉ cần xét trường hợp $M$ là lồi và $0 \in M$. Ký hiệu bao đóng của $M$ trong tôpô $\sigma(F, G)$ bởi $\overline{M}$, khi đó $\overline{M}$ là một tập hợp lồi trong $F$; mệnh đề 4 của II, p. 44 cho thấy rằng $M^{\circ\circ} \supseteq \overline{M}$. Mặt khác nếu $a \in F$ không thuộc $\overline{M}$ thì tồn tại một siêu phẳng đóng $H$ trong $F$ phân tách chặt $a$ khỏi $\overline{M}$ (II, p. 38, mệnh đề 4); vì $H$ không chứa 0, nên tồn tại $y \in G$ sao cho $H$ có phương trình $\langle x, y \rangle = -1$ (II, p. 43, mệnh đề 3); do đó $\langle x, y \rangle > -1$ với mọi $x \in \overline{M}$ và $\langle a, y \rangle < -1$. Điều này kéo theo $y \in M^\circ$ và $a \notin M^{\circ\circ}$, và quan hệ $M^{\circ\circ} = \overline{M}$ được suy ra.
 
-#### Hệ quả 1 {#evt-ii-s6-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s6-thm-1-cor-1 .statement tag=07HE}
 
 *Với mọi họ* $(M_\alpha)$ *các tập hợp lồi đóng của* $F$ *(trong tôpô* $\sigma(F, G)$*), mỗi tập hợp đều chứa* 0, *tập hợp đối cực của giao* $M = \bigcap \limits_{\alpha} M_\alpha$ *là bao lồi đóng* (*đối với* $\sigma(G, F)$) *của hợp các* $M_\alpha^\circ$.
 
@@ -222,17 +222,17 @@ do đó $N = N^{\circ\circ} = M^\circ$.
 
 Kết luận của hệ quả 1 không nhất thiết còn đúng nếu các $M_\alpha$ không lồi.
 
-#### Hệ quả 2 {#evt-ii-s6-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s6-thm-1-cor-2 .statement tag=07HF}
 
 *Với mọi không gian con vectơ* $M$ *của* $F$, *không gian con* $M^{\circ\circ}$ *là bao đóng của* $M$ *trong tôpô* $\sigma(F, G)$.
 
-#### Nhận xét {#evt-ii-s6-n3-rem-1 .statement}
+#### Nhận xét {#evt-ii-s6-n3-rem-1 .statement tag=07HG}
 
 — Mọi lân cận của 0 trong $G$ đối với tôpô $\sigma(G, F)$ đều chứa một lân cận $V$ được xác định bởi một số hữu hạn bất đẳng thức dạng $|\langle x_i, y \rangle| \leq 1$ ($1 \leq i \leq n$), trong đó các $x_i$ là những điểm tùy ý của $F$. Nếu $A$ là *bao lồi đối xứng* của tập hợp các $x_i$, thì $V$ là *tập cực* $A^\circ$ của $A$ trong $G$. Ta có thể nói rằng các *tập cực trong* $G$ *của các tập đối xứng hữu hạn trong* $F$ (hoặc của các bao lồi của chúng) tạo thành một hệ cơ bản các lân cận của 0 trong $G$ đối với $\sigma(G, F)$. Nếu đối ngẫu tách được trên $F$, thì các bao lồi này là *compact* đối với $\sigma(F, G)$ (II, p. 14, hệ quả 1 của mệnh đề 15), và có số chiều hữu hạn. Ngược lại, mọi *tập compact, lồi, có số chiều hữu hạn* $C$ trong $F$ (với tôpô $\sigma(F, G)$) đều được chứa trong bao lồi của một *tập con hữu hạn* của $F$. Thật vậy, giả sử $M$ là một không gian con vectơ hữu hạn chiều chứa $C$. Nếu $(e_i)_{1 \leq i \leq n}$ là một cơ sở của $M$, ta có thể giả thiết rằng $C$ được chứa trong hình hộp đóng tâm 0 và được dựng trên các vectơ của cơ sở $e_i$ (GT, VI, § 1.3); khi đó rõ ràng hình hộp này là bao lồi của các điểm $\sum \limits_{i=1}^n \varepsilon_i e_i$ với $\varepsilon_i = \pm 1$.
 
 Do đó ta có thể nói rằng (nếu $\sigma(F, G)$ là Hausdorff) các *tập cực của các tập lồi, compact, hữu hạn chiều trong* $F$ (đối với $\sigma(F, G)$ hoặc đối với bất kỳ tôpô lồi địa phương Hausdorff nào mịn hơn $\sigma(F, G)$ trên $F$) tạo thành một hệ cơ bản các lân cận của 0 đối với $\sigma(G, F)$.
 
-#### Hệ quả 3 {#evt-ii-s6-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#evt-ii-s6-thm-1-cor-3 .statement tag=07HH}
 
 *Cho* $\mathscr{T}$ *là tôpô của một không gian lồi địa phương* $E$ *và* $E'$ *là đối ngẫu của nó* (II, p. 42, def. 1).
 
@@ -246,7 +246,7 @@ Rõ ràng, (ii) suy ra từ (i) và đ.l. 1. Từ định nghĩa của đối ng
 
 Trong No. này, ta giả sử rằng $(F, G)$ và $(F_1, G_1)$ là hai không gian vectơ đối ngẫu với nhau.
 
-#### Mệnh đề 5 {#evt-ii-s6-prop-5 .statement}
+#### Mệnh đề 5 {#evt-ii-s6-prop-5 .statement tag=07HI}
 
 *Cho u là một ánh xạ tuyến tính từ F vào $F_1$. Các tính chất sau là tương đương :*
 
@@ -270,19 +270,19 @@ $$
 
 là liên tục đối với $\sigma(F, G)$: từ định nghĩa của các tôpô yếu suy ra rằng u liên tục đối với $\sigma(F, G)$ và $\sigma(F_1, G_1)$ (I, p. 10, hệ quả 1). Tính duy nhất của v suy ra từ (D_{II}) và tính duy nhất này kéo theo rằng v là tuyến tính.
 
-#### Nhận xét {#evt-ii-s6-n4-rem-1 .statement}
+#### Nhận xét {#evt-ii-s6-n4-rem-1 .statement tag=07HJ}
 
 — Giả sử rằng đối ngẫu giữa F và G là phân biệt trên G và rằng đối ngẫu giữa $F_1$ và $G_1$ là phân biệt trên $G_1$. Nếu ta đồng nhất G và $G_1$ tương ứng với các không gian con của $F^*$ và $F_1^*$, thì các điều kiện a) và b) tương đương với $^t u(G_1) \subset G$; v là hạn chế của chuyển vị $^t u$ của u (A, II, § 2.5) lên $G_1$.
 
 Khi đó, ta nói đơn giản (khi không có khả năng nhầm lẫn) rằng v là *chuyển vị* của u (đối với đối ngẫu một mặt giữa F và G và mặt khác giữa $F_1$ và $G_1$) và ta lại dùng $^t u$ để ký hiệu nó.
 
-#### Hệ quả {#evt-ii-s6-n4-cor-1 .statement}
+#### Hệ quả {#evt-ii-s6-n4-cor-1 .statement tag=07HK}
 
 *Giả sử rằng đối ngẫu giữa F và G là phân biệt trên G. Nếu u là một ánh xạ tuyến tính từ F vào $F_1$, liên tục đối với $\sigma(F, G)$ và $\sigma(F_1, G_1)$, thì* chuyển vị của nó là một ánh xạ tuyến tính từ $G_1$ vào $G$, liên tục đối với $\sigma(G_1, F_1)$ và $\sigma(G, F)$. Hơn nữa, nếu đối ngẫu giữa $F_1$ và $G_1$ là phân biệt trên $F_1$ thì ${}^t({}^t u) = u$.
 
 Chỉ cần hoán đổi $F$ và $F_1$ với $G$ và $G_1$ trong mệnh đề 5.
 
-#### Mệnh đề 6 {#evt-ii-s6-prop-6 .statement}
+#### Mệnh đề 6 {#evt-ii-s6-prop-6 .statement tag=07HL}
 
 *Giả sử rằng đối ngẫu giữa $F$ và $G$ (tương ứng giữa $F_1$ và $G_1$) là phân biệt trên $G$ (tương ứng trên $F_1$). Cho $u$ là một ánh xạ tuyến tính từ $F$ vào $F_1$, liên tục đối với $\sigma(F, G)$ và $\sigma(F_1, G_1)$. Cho $A$ là một tập hợp trong $F$ và $A_1$ là một tập hợp trong $F_1$; khi đó*:
 
@@ -304,7 +304,7 @@ $$
 
 Ta có ${}^t u(A_1^{\circ}) \subset ({}^t u(A_1^{\circ}))^{\circ \circ}$ theo định lý lưỡng cực (II, p. 44, định lý 1); mệnh đề cuối cùng suy ra từ (2) và định lý lưỡng cực vì khi đó $A_1^{\circ \circ} = A_1$ và ${}^t u(A_1^{\circ})$ là lồi và chứa gốc.
 
-#### Hệ quả 1 {#evt-ii-s6-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s6-prop-6-cor-1 .statement tag=07HM}
 
 *Với các ký hiệu của mệnh đề 6, quan hệ $u(A) \subset A_1$ kéo theo ${}^t u(A_1^{\circ}) \subset A^{\circ}$; nếu thêm nữa $A_1$ là lồi, đóng (đối với $\sigma(F_1, G_1)$) và chứa gốc, thì hai quan hệ này là tương đương.*
 
@@ -322,7 +322,7 @@ $$
 
 theo (2). Khi $A_1 = A_1^{\circ \circ}$, ta suy ra rằng $A \subset u^{-1}(A_1)$.
 
-#### Hệ quả 2 {#evt-ii-s6-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s6-prop-6-cor-2 .statement tag=07HN}
 
 *Cho $u$ là một ánh xạ tuyến tính từ $F$ vào $F_1$ liên tục đối với $\sigma(F, G)$ và $\sigma(F_1, G_1)$. Khi đó ta có*
 
@@ -346,7 +346,7 @@ $$
 
 Cho $F, G$ là hai không gian vectơ thực đối ngẫu với nhau. Cho $M$ là một không gian con vectơ của $F$, và xét không gian con $N$ của trực giao $M^\circ$ trong $G$; nếu $y_1, y_2$ là hai điểm của $G$ đồng dư mod. $N$ thì $\langle x, y_1 \rangle = \langle x, y_2 \rangle$ với mọi $x \in M$. Với mỗi lớp $\dot{y}$ mod. $N$, ký hiệu giá trị chung của $\langle x, y \rangle$ khi $y$ chạy trong $\dot{y}$ là $\langle x, \dot{y} \rangle$; rõ ràng $(x, \dot{y}) \mapsto \langle x, \dot{y} \rangle$ là một dạng song tuyến tính trên $M \times (G/N)$.
 
-#### Mệnh đề 7 {#evt-ii-s6-prop-7 .statement}
+#### Mệnh đề 7 {#evt-ii-s6-prop-7 .statement tag=07HO}
 
 — *Cho $M$ là một không gian con vectơ của $F$ và $N$ là một không gian con vectơ của $G$, trong đó $F$ và $G$ là hai không gian vectơ đối ngẫu với nhau. Giả sử rằng $M$ và $N$ trực giao với nhau (điều này tương đương với việc nói rằng $N \subset M^\circ$, hoặc $M \subset N^\circ$). Khi đó các không gian vectơ $M$ và $G/N$ đối ngẫu với nhau qua dạng song tuyến tính* $(x, \dot{y}) \mapsto \langle x, \dot{y} \rangle$.
 
@@ -360,23 +360,23 @@ Cho $F, G$ là hai không gian vectơ thực đối ngẫu với nhau. Cho $M$ l
 
 Trở lại trường hợp M là một không gian con bất kỳ của $N^\circ$, chú ý rằng hiển nhiên $\sigma(G/N, M) = \sigma(G/N, M + G^\circ)$; hơn nữa, từ mệnh đề 3 của II, p. 43, ta thấy rằng, nếu $y \in N^\circ$ sao cho dạng tuyến tính $\dot{z} \mapsto \langle y, \dot{z} \rangle$ liên tục đối với $\sigma(G/N, M)$, thì tất yếu $y \in M + G^\circ$. Ta kết luận rằng điều kiện $M + G^\circ = N^\circ$ là cần và đủ để tôpô thương $\mathscr{T}$ bằng $\sigma(G/N, M)$.
 
-#### Nhận xét {#evt-ii-s6-n5-rem-1 .statement}
+#### Nhận xét {#evt-ii-s6-n5-rem-1 .statement tag=07HP}
 
 — Đối ngẫu giữa M và G/N (trong đó M và N là hai không gian con trực giao) là phân ly trên M khi và chỉ khi $M \cap G^\circ = \{0\}$; nó là phân ly trên G/N khi và chỉ khi $N = M^\circ$.
 
-#### Hệ quả 1 {#evt-ii-s6-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s6-prop-7-cor-1 .statement tag=07HQ}
 
 — Giả sử rằng đối ngẫu giữa F và G là phân ly trên F. Với một không gian con vectơ M của F, tôpô $\sigma(G/M^\circ, M)$ đồng nhất với tôpô thương của $\sigma(G, F)$ theo $M^\circ$, khi và chỉ khi M đóng đối với tôpô $\sigma(F, G)$.
 
 Điều này suy ra từ mệnh đề 7 khi đặt $N = M^\circ$, và nhớ lại rằng $M^{\circ \circ}$ là bao đóng của M đối với $\sigma(F, G)$ (II, p. 45, hệ quả 2).
 
-#### Hệ quả 2 {#evt-ii-s6-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s6-prop-7-cor-2 .statement tag=07HR}
 
 — Nếu M có chiều hữu hạn n và đối ngẫu là phân ly trên F, thì $M^\circ$ có đối chiều hữu hạn n trong G. Nếu M đóng đối với $\sigma(F, G)$ và có đối chiều hữu hạn n và nếu đối ngẫu là phân ly trên G, thì $M^\circ$ có số chiều hữu hạn n.
 
 Thật vậy, $G/M^0$ ở trong đối ngẫu phân ly với M; do đó nếu M có số chiều n thì $G/M^\circ$ cũng vậy (II, p. 41, ví dụ 1). Nếu M đóng, $F/M = F/M^{\circ \circ}$ ở trong đối ngẫu phân ly với $M^\circ$; do đó nếu F/M có số chiều n thì $M^\circ$ cũng vậy (II, p. 41, ví dụ 1).
 
-#### Hệ quả 3 {#evt-ii-s6-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#evt-ii-s6-prop-7-cor-3 .statement tag=07HS}
 
 — Cho (F, G), (F_1, G_1) là hai cặp không gian ở trong đối ngẫu phân ly và cho u là một ánh xạ tuyến tính từ F vào F_1, liên tục đối với $\sigma(F, G)$ và $\sigma(F_1, G_1)$. Khi đó u là một cấu xạ ngặt từ F vào F_1, khi và chỉ khi Im($^t u$) là một không gian con đóng trong G đối với $\sigma(G, F)$.
 
@@ -388,13 +388,13 @@ $$
 
 trong đó w là đơn ánh. Các không gian $F/N^\circ$ và N ở trong đối ngẫu phân ly và theo công thức (1) của II, p. 48, ta có $\langle w(\dot{y}), z_1 \rangle = \langle \dot{y}, ^t u(z_1) \rangle$ với mọi $\dot{y} \in F/N^\circ$ và $z_1 \in G_1$. Quan hệ này cho thấy rằng w là một đẳng cấu của $F/N^\circ$, mang tôpô $\sigma(F/N^\circ, N)$, lên $u(F)$ với tôpô cảm sinh bởi $\sigma(F_1, G_1)$. Do đó kết luận suy ra từ hệ quả 1 và định nghĩa của một cấu xạ ngặt.
 
-#### Hệ quả 4 {#evt-ii-s6-prop-7-cor-4 .statement}
+#### Hệ quả 4 {#evt-ii-s6-prop-7-cor-4 .statement tag=07HT}
 
 — Cho (F, G), (F_1, G_1) là hai cặp ở trong đối ngẫu phân ly, và cho u là một ánh xạ tuyến tính từ F vào F_1 liên tục đối với $\sigma(F, G)$ và $\sigma(F_1, G_1)$. Khi đó u là toàn ánh, khi và chỉ khi $^t u$ là một đẳng cấu của $G_1$ (với tôpô $\sigma(G_1, F_1)$) lên $^t u(G_1)$ với tôpô cảm sinh bởi $\sigma(G, F)$.
 
 Thật vậy, nói rằng $u(F) = F_1$ tương đương với nói rằng $u(F)$ là đóng và trù mật khắp nơi trong $F_1$ đối với $\sigma(F_1, G_1)$; khi đó hệ quả 4 suy ra từ hệ quả 3 áp dụng cho $^t u$ và từ II, p. 47, hệ quả 2.
 
-#### Nhận xét {#evt-ii-s6-n5-rem-2 .statement}
+#### Nhận xét {#evt-ii-s6-n5-rem-2 .statement tag=07HU}
 
 — 1) Cho $(F_1, G_1), (F_2, G_2), (F_3, G_3)$ là ba cặp không gian ở trong đối ngẫu phân ly và xét một dãy gồm hai ánh xạ tuyến tính
 
@@ -420,23 +420,23 @@ c) $^t u$ là một cấu xạ ngặt của $G_2$ vào $G_1$.
 
 ### 6. Tích của các tôpô yếu
 
-#### Mệnh đề 8 {#evt-ii-s6-prop-8 .statement}
+#### Mệnh đề 8 {#evt-ii-s6-prop-8 .statement tag=07HV}
 
 — Cho $(F_i, G_i)_{i \in I}$ là một họ các cặp không gian đối ngẫu. Cho $F = \prod_{i \in I} F_i$ là không gian tích của các $F_i$ và $G = \bigoplus_{i \in I} G_i$ là tổng trực tiếp của các $G_i$. Nếu, với mọi $x = (x_i) \in F$ và mọi $y = (y_i) \in G$, ta đặt $\langle x, y \rangle = \sum_{i \in I} \langle x_i, y_i \rangle$ (một tổng chỉ có hữu hạn số hạng khác không) thì tôpô $\sigma(F, G)$ (ứng với dạng song tuyến tính $(x, y) \mapsto \langle x, y \rangle$) là tích của các tôpô $\sigma(F_i, G_i)$.
 
 Thật vậy, cho một tôpô $\mathscr{T}$ trên $F$; để với mọi $y \in G$, dạng tuyến tính $x \mapsto \langle x, y \rangle$ liên tục đối với $\mathscr{T}$, thì điều kiện cần và đủ, theo định nghĩa của $\langle x, y \rangle$, là mỗi ánh xạ $x \mapsto \langle \operatorname{pr}_i x, y_i \rangle$ đều liên tục đối với $\mathscr{T}$, trong đó $i$ tùy ý trong $I$ và $y_i$ trong $G_i$; nhưng điều đó có nghĩa là mỗi ánh xạ $\operatorname{pr}_i$ của $F$ vào $F_i$ là liên tục đối với $\mathscr{T}$ và đối với $\sigma(F_i, G_i)$ (I, p. 10, hệ quả 1); điều này hoàn tất chứng minh.
 
-#### Nhận xét {#evt-ii-s6-n6-rem-1 .statement}
+#### Nhận xét {#evt-ii-s6-n6-rem-1 .statement tag=07HW}
 
 — Đối ngẫu giữa $F$ và $G$ là tách biệt trên $F$ (tương ứng trên $G$) khi và chỉ khi với mọi $i \in I$, đối ngẫu giữa $F_i$ và $G_i$ là tách biệt trên $F_i$ (tương ứng trên $G_i$). Nếu đối ngẫu giữa $F$ và $G$ là tách biệt trên $F$ (tương ứng $G$), thì, trong $F$ (tương ứng $G$), không gian con trực giao với một $G_i$ (tương ứng $F_i$), được đồng nhất một cách chính tắc với một không gian con của $G$ (tương ứng $F$), là không gian con của tích của các $F_\kappa$ với $\kappa \neq i$ (tương ứng tổng trực tiếp của các $G_\kappa$ sao cho $\kappa \neq i$).
 
-#### Hệ quả 1 {#evt-ii-s6-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s6-prop-8-cor-1 .statement tag=07HX}
 
 — Cho F và G là hai không gian vectơ đối ngẫu tách biệt. Nếu không gian F (với $\sigma(F, G)$) là tổng tôpô trực tiếp của hai không gian con M, N thì không gian G (với $\sigma(G, F)$) là tổng tôpô trực tiếp của các không gian con $M^\circ, N^\circ$ trực giao tương ứng với M và N.
 
 Thật vậy, cho $p : F \to M, q : F \to N$ là các phép chiếu tương ứng với phân tích của F thành tổng trực tiếp của M và N; trong các điều kiện ấy ánh xạ $(p, q) : F \to M \times N$ là một đẳng cấu tôpô. Nếu $M_1 = G/M^\circ, N_1 = G/N^\circ$, thì các tôpô trên M và N (cảm sinh bởi tôpô của F) lần lượt đồng nhất với $\sigma(M, M_1)$, $\sigma(N, N_1)$ (II, p. 48, mệnh đề 7). Ánh xạ $^t(p, q) : M_1 \times N_1 \to G$ là một đẳng cấu tôpô khi ta trang bị cho $M_1, N_1$ và G các tôpô $\sigma(M_1, M)$, $\sigma(N_1, N)$ và $\sigma(G, F)$, theo mệnh đề 8. Qua ánh xạ này, ảnh của $M_1$ (tương ứng $N_1$) trong G là không gian con $N^\circ$ (tương ứng $M^\circ$), và ảnh của tôpô $\sigma(M_1, M)$ (tương ứng $\sigma(N_1, N)$) là tôpô cảm sinh trên $N^\circ$ (tương ứng $M^\circ$) bởi $\sigma(G, F)$, từ đó suy ra hệ quả.
 
-#### Hệ quả 2 {#evt-ii-s6-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s6-prop-8-cor-2 .statement tag=07HY}
 
 — Cho $(e_i)_{i \in J}$ là một cơ sở của không gian vectơ F với đối ngẫu $F^*$, và cho $u : \mathbf{R}^{(I)} \to F$ là một đẳng cấu (đại số) được xác định bởi cơ sở này. Khi đó ánh xạ chuyển vị $^t u : F^* \to \mathbf{R}^I$ là một đẳng cấu tôpô khi $F^*$ mang tôpô $\sigma(F^*, F)$ và $\mathbf{R}^I$ mang tôpô tích.
 
@@ -444,7 +444,7 @@ Ta biết (A, II, § 2.6, prop. 10) rằng $^t u$ là một song ánh, và rằn
 
 ### 7. Không gian yếu đầy đủ
 
-#### Mệnh đề 9 {#evt-ii-s6-prop-9 .statement}
+#### Mệnh đề 9 {#evt-ii-s6-prop-9 .statement tag=07HZ}
 
 — Cho F, G là hai không gian vectơ đối ngẫu phân ly. Nếu $\hat{F}$ là không gian đầy đủ hóa của không gian F đối với tôpô $\sigma(F, G)$ và nếu ta xét đơn ánh chính tắc $j : F \to G^*$, trong đó $G^*$ có tôpô $\sigma(G^*, G)$, thì mở rộng liên tục $\hat{j} : \hat{F} \to G^*$ của j là một đẳng cấu của các không gian vectơ tôpô.
 
@@ -456,7 +456,7 @@ Ta chú ý rằng trên $G^*$, tôpô $\sigma(G^*, G)$ là cực tiểu trong s�
 
 Từ nhận xét này ta suy ra rằng, nếu $F, G$ là hai không gian vectơ, thì một *song ánh tuyến tính* $u : G^* \to F^*$, liên tục đối với các tôpô $\sigma(G^*, G)$ và $\sigma(F^*, F)$, tất yếu là *song liên tục*.
 
-#### Mệnh đề 10 {#evt-ii-s6-prop-10 .statement}
+#### Mệnh đề 10 {#evt-ii-s6-prop-10 .statement tag=07I0}
 
 *Cho $G$ là một không gian vectơ thực và $F = G^*$ là đối ngẫu của nó với tôpô $\sigma(G^*, G)$.*
 
@@ -472,13 +472,13 @@ Mặc dù, đối với tôpô $\sigma(G, G^*)$, mọi không gian con vectơ c�
 
 ### 8. Các nón lồi đầy đủ trong các không gian yếu
 
-#### Bổ đề 1 {#evt-ii-s6-lem-1 .statement}
+#### Bổ đề 1 {#evt-ii-s6-lem-1 .statement tag=07I1}
 
 *Cho $E$ là một không gian yếu Hausdorff và $C$ là một nón thực sự có đỉnh 0 trong $E$, đầy đủ đối với cấu trúc đều cảm sinh bởi cấu trúc đều của $E$. Khi đó mọi dạng tuyến tính liên tục trên $E$ đều là hiệu của hai dạng tuyến tính liên tục trên $E$ dương trên $C$.*
 
 Cho $E'$ là đối ngẫu của $E$ và $F$ là đối ngẫu đại số của $E'$, với tôpô $\sigma(F, E')$. Cho $H = C^\circ - C^\circ$ là không gian con vectơ của $E'$ gồm các hiệu của các dạng tuyến tính liên tục trên $E$ và dương trên $C$ (II, p. 44, mệnh đề 4). Chỉ cần chứng minh rằng trực giao của $H$ trong $F$ là $\{0\}$ (II, p. 41, *Ví dụ* 1). Vậy cho $a \in F$ trực giao với $H$; vì $a$ trực giao với $C^\circ$, nên nó phải thuộc lưỡng cực của $C$ trong $F$. Nhưng $E$ có thể được đồng nhất như một không gian con của $F$, và vì $C$ đầy đủ, nên đóng trong $F$, ta có $a \in C$ (II, p. 44, định lý 1). Tương tự, $a$ trực giao với $-C^\circ$ và do đó $a \in -C$. Vì $C$ là thực sự, nên ta có $a = 0$.
 
-#### Mệnh đề 11 {#evt-ii-s6-prop-11 .statement}
+#### Mệnh đề 11 {#evt-ii-s6-prop-11 .statement tag=07I2}
 
 *Cho $E$ là một không gian yếu Hausdorff, và $C$ là một nón lồi thực sự có đỉnh 0 trong $E$ và đầy đủ đối với cấu trúc đều cảm sinh bởi cấu trúc đều của $E$.*
 
@@ -492,13 +492,13 @@ Hơn nữa, nếu cấu trúc đều cảm sinh trên C bởi cấu trúc đều
 
 Cho $(f_i)_{i \in I}$ là một họ các dạng tuyến tính liên tục trên E sao cho các tổng hữu hạn của các giả khoảng cách dạng $(x, y) \mapsto |f_i(x - y)|$ trên $C \times C$ định nghĩa cấu trúc đều của C. (Nếu cấu trúc là khả mêtric thì ta có thể lấy $I = \mathbf{N}$.) Theo bổ đề 1 ta còn có thể giả sử rằng mỗi $f_i$ là dương trên C. Cho u là ánh xạ tuyến tính $x \mapsto (f_i(x))_{i \in I}$ từ E vào $\mathbf{R}^I$. Hiển nhiên u liên tục và $u(C) \subset \mathbf{R}_+^I$. Hạn chế $u|C$ là một ánh xạ liên tục đều toàn ánh từ C lên $u(C)$. Hơn nữa nếu $x, y$ trong C sao cho $f_i(x) = f_i(y)$ với mọi $i \in I$, thì $x = y$ vì cấu trúc đều của C là Hausdorff; do đó $u|C$ là song ánh. Cuối cùng, nếu W là một lân cận của cấu trúc đều của C, thì tồn tại một tập hợp hữu hạn J của I và một số $\varepsilon > 0$ sao cho các quan hệ $|f_i(x) - f_i(y)| \leq \varepsilon$ với $i \in J$ suy ra $(x, y) \in W$; do đó $u|C$ là một đẳng cấu của C lên $u(C)$ đối với các cấu trúc đều đang xét.
 
-#### Hệ quả 1 {#evt-ii-s6-prop-11-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s6-prop-11-cor-1 .statement tag=07I3}
 
 — Cho E là một không gian yếu Hausdorff và C là một nón lồi thực sự có đỉnh 0 trong E, đầy đủ đối với cấu trúc đều cảm sinh bởi cấu trúc đều của E. Khi đó ánh xạ $(x, y) \mapsto x + y$ từ $C \times C$ vào C là thực sự.
 
 Do mệnh đề 11, ta có thể giả sử rằng $E = \mathbf{R}^I$ và $C = \mathbf{R}_+^I$ (GT, I, § 10.1, hệ quả 1 và 4). Nhưng khi đó ánh xạ $(x, y) \mapsto x + y$ từ $C \times C$ vào C được viết thành $((\xi_i), (\eta_i)) \mapsto (\xi_i + \eta_i)$, và ta có thể quy về việc chứng minh rằng ánh xạ liên tục $f : (\xi, \eta) \mapsto \xi + \eta$ từ $\mathbf{R}_+ \times \mathbf{R}_+$ vào $\mathbf{R}_+$ là thực sự (GT, I, § 10.1, hệ quả 3), Bây giờ, với mọi $\zeta \in \mathbf{R}_+$, ta thấy rằng $f(\zeta)$ là tập hợp các cặp $(\xi, \zeta - \xi)$ sao cho $0 \leq \xi \leq \zeta$, do đó ảnh ngược bởi f của khoảng $[0, \zeta]$ là tập hợp các $(\xi, \eta) \in \mathbf{R}_+ \times \mathbf{R}_+$ sao cho $\xi + \eta \leq \zeta$, tập hợp này là compact. Kết luận suy ra khi áp dụng (GT, I, § 10.3, mệnh đề 7).
 
-#### Hệ quả 2 {#evt-ii-s6-prop-11-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s6-prop-11-cor-2 .statement tag=07I4}
 
 — Cho E là một không gian yếu Hausdorff, và C là một nón lồi thực sự có đỉnh 0 trong E, đầy đủ đối với cấu trúc đều cảm sinh bởi cấu trúc đều của E.
 

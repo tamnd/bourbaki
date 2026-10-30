@@ -52,7 +52,7 @@ subsections:
       pdf_page: 55
 statements: 46
 exercises: 27
-content_sha256: be0f27144327c2ab309ae017fdf0decaeecb28fb163d1817ca203c2920c4c774
+content_sha256: b00d922236e27a0d26ff1c0481bc3e552eea1d4b4945082c77f98a63754a6563
 ---
 
 ## § 2. Mesures vectorielles
@@ -61,33 +61,33 @@ content_sha256: be0f27144327c2ab309ae017fdf0decaeecb28fb163d1817ca203c2920c4c774
 
 La définition d’une mesure donnée au chap. III, § 2, n° 2 se généralise comme suit :
 
-#### Définition 1 {#int-vi-s2-def-1 .statement}
+#### Définition 1 {#int-vi-s2-def-1 .statement tag=09A3}
 
 Soit F un espace localement convexe séparé sur $\mathbf{R}$. On appelle mesure vectorielle sur T à valeurs dans F toute application linéaire continue de l’espace $\mathscr{K}(T)$ dans F.
 
 La déf. 1 peut encore s’exprimer de la façon suivante : une mesure vectorielle sur T à valeurs dans F est une application linéaire $m$ de $\mathscr{K}(T)$ dans F telle que, pour toute partie compacte K de T, la restriction de $m$ à $\mathscr{K}(T, K)$ soit continue pour la topologie de la convergence uniforme. Si $f \in \mathscr{K}(T)$, on écrit encore $\int f d\mathbf{m}$ ou $\int f(t) d\mathbf{m}(t)$ au lieu de $m(f)$. Les mesures à valeurs dans $\mathbf{R}$ (c’est-à-dire les mesures définies au chap. III, § 2, no 2) sont parfois appelées mesures réelles ou mesures scalaires sur T.
 
-#### Exemple 1 {#int-vi-s2-n1-exa-1 .statement}
+#### Exemple 1 {#int-vi-s2-n1-exa-1 .statement tag=09A4}
 
 L’application identique de $\mathscr{K}(T)$ est une mesure vectorielle sur T à valeurs dans $\mathscr{K}(T)$.
 
-#### Exemple 2 {#int-vi-s2-n1-exa-2 .statement}
+#### Exemple 2 {#int-vi-s2-n1-exa-2 .statement tag=0E6R}
 
 *Soient H un espace hilbertien complexe, $\mathscr{L}(H)$ l’algèbre normée des endomorphismes continus de H. Soit A une sous-algèbre de $\mathscr{L}(H)$, commutative, fermée, autoadjointe et contenant l’identité ; on démontre qu’il existe un espace compact X et un isomorphisme de l’algèbre normée A sur l’algèbre $\mathscr{K}_c(X)$ des fonctions complexes continues dans X, munie de la norme $\|f\| = \sup_{x \in X} |f(x)|$. L’isomorphisme réciproque, restreint à $\mathscr{K}(X)$, est une mesure $m$ sur X, à valeurs dans $\mathscr{L}(H)$, telle que $m(fg) = m(f)m(g)$.*
 
-#### Remarque 1 {#int-vi-s2-n1-rem-1 .statement}
+#### Remarque 1 {#int-vi-s2-n1-rem-1 .statement tag=09A5}
 
 Pour qu’une application linéaire $m$ de $\mathscr{K}(T)$ dans F soit une mesure vectorielle, il faut et il suffit que, pour toute partie compacte K de T, l’image par $m$ de la boule unité $\|f\| \leq 1$ de $\mathscr{K}(T, K)$ soit bornée dans F. La notion de mesure vectorielle à valeurs dans F est donc la même pour toutes les topologies localement convexes séparées sur F admettant les mêmes ensembles bornés, et en particulier pour toutes les topologies compatibles avec la dualité entre F et $F'$ (Esp. vect. top., chap. IV, § 2, no 4, th. 3).
 
-#### Remarque 2 {#int-vi-s2-n1-rem-2 .statement}
+#### Remarque 2 {#int-vi-s2-n1-rem-2 .statement tag=0E6S}
 
 Soient $T_1$ un espace localement compact, $F_1$ un espace localement convexe séparé sur $\mathbf{R}$, $u$ une application linéaire continue de $\mathfrak{J}_i(T_1)$ dans $\mathfrak{J}_i(T)$, $\varphi$ une application linéaire continue de $F$ dans $F_1$. Si $m$ est une mesure vectorielle sur $T$ à valeurs dans $F$, $\varphi \circ m \circ u$ est une mesure vectorielle sur $T_1$ à valeurs dans $F_1$. En particulier, si $g$ est une fonction numérique finie et continue dans $T$, $f \to m(gf)$ est une mesure vectorielle sur $T$ à valeurs dans $F$, que l’on note $g.m$; si $h$ est une seconde fonction numérique finie et continue dans $T$, on a $g.(h.m) = (gh).m$.
 
-#### Remarque 3 {#int-vi-s2-n1-rem-3 .statement}
+#### Remarque 3 {#int-vi-s2-n1-rem-3 .statement tag=0E6T}
 
 Comme l’espace $\mathfrak{J}_i(T)$ est limite inductive des espaces de Banach $\mathfrak{K}(T, K)$, et en particulier est tonnelé ($Esp.\ vect.\ top.$, chap. III, § 1, no 1, cor. de la prop. 1 et no 2, prop. 2), pour qu’une application linéaire $m$ de $\mathfrak{J}_i(T)$ dans $F$ soit une mesure vectorielle, il faut et il suffit que, pour tout $z' \in F'$, $z' \circ m$ soit une mesure scalaire sur $T$ ($Esp.\ vect.\ top.$, chap. IV, § 4, no 1, prop. 1 et no 2, cor. de la prop. 7).
 
-#### Remarque 4 {#int-vi-s2-n1-rem-4 .statement}
+#### Remarque 4 {#int-vi-s2-n1-rem-4 .statement tag=0E6U}
 
 Compte tenu de la remarque 1, la prop. 1 du chap. III, § 3, no 1 et sa démonstration sont encore valables pour les mesures vectorielles. On peut donc encore définir le support d’une mesure vectorielle $m$ sur $T$ comme le complémentaire du plus grand ensemble ouvert $U \subset T$ tel que la restriction de $m$ à $U$ soit nulle.
 
@@ -95,7 +95,7 @@ Compte tenu de la remarque 1, la prop. 1 du chap. III, § 3, no 1 et sa démonst
 
 Soit $m$ une mesure vectorielle sur $T$, à valeurs dans $F$. Pour tout $z' \in F'$, l’application $z' \circ m$ est une mesure scalaire sur $T$, dépendant linéairement de $z'$. Si $f$ est une fonction numérique définie dans $T$, nous dirons, par abus de langage, que le couple $(f, m)$ possède une propriété $P$ si, pour tout $z' \in F'$, le couple $(f, |z' \circ m|)$ possède la propriété $P$. Par exemple, on dira que $f$ est essentiellement intégrable pour $m$ si, pour tout $z' \in F'$, la fonction $f$ est essentiellement intégrable pour $|z' \circ m|$. Il revient au même de dire que $f$ est essentiellement intégrable pour chacune des mesures $(z' \circ m)^+$ et $(z' \circ m)^-$ (chap. V, § 3, no 5, cor. 1 de la prop. 6).
 
-#### Proposition 1 {#int-vi-s2-prop-1 .statement}
+#### Proposition 1 {#int-vi-s2-prop-1 .statement tag=09A6}
 
 Soient $m$ une mesure vectorielle sur $T$ à valeurs dans $F$, $f$ une fonction numérique sur $T$, essentiellement intégrable pour $m$. L’application
 $$
@@ -105,7 +105,7 @@ est une forme linéaire sur $F'$.
 
 Si on désigne cette application par $\Phi$, il est immédiat que $\Phi(\lambda z') = \lambda \Phi(z')$ pour tout $\lambda \in \mathbf{R}$. Tout revient à voir que $\Phi(y' + z') = \Phi(y') + \Phi(z')$. Posons $\mu = |y' \circ m| + |z' \circ m|$; en vertu du th. de Lebesgue-Nikodym, on peut alors écrire $y' \circ m = g \cdot \mu$ et $z' \circ m = h \cdot \mu$, où $g$ et $h$ sont deux fonctions numériques localement $\mu$-intégrables et bornées (chap. V, § 5, no 5, th. 2); en outre, on a $(y' \circ m)^+ = g^+ \cdot \mu$ et $(y' \circ m)^- = g^- \cdot \mu$, et les relations analogues lorsque $y'$ est remplacé par $z'$ (resp. $y' + z'$) et $g$ par $h$ (resp. $g + h$). Cela étant, il est immédiat que $f$ est essentiellement $\mu$-intégrable (chap. V, § 3, no 5, cor. 1 de la prop. 6), et la relation à démontrer se réduit à $(g + h)^+ - (g + h)^- = (g^+ - g^-) + (h^+ - h^-)$, qui est évidente.
 
-#### Définition 2 {#int-vi-s2-def-2 .statement}
+#### Définition 2 {#int-vi-s2-def-2 .statement tag=09A7}
 
 Soient $m$ une mesure vectorielle sur $T$ à valeurs dans $F$, $f$ une fonction numérique sur $T$, essentiellement intégrable pour $m$. On appelle intégrale de $f$ par rapport à $m$ et on note $m(f)$ ou $\int f d|m|$ ou encore $\int f(t) d|m|(t)$ l’élément de $F'$* défini par
 
@@ -123,13 +123,13 @@ $$
 
 Il est clair que l’ensemble des fonctions numériques finies essentiellement intégrables pour $m$ est un espace vectoriel sur $\mathbf{R}$; nous désignerons par $\mathscr{L}(m)$ cet espace muni de la topologie localement convexe la moins fine rendant continues toutes les formes linéaires $f \to \int f d(z' \circ m)$, où $z'$ parcourt $F'$. On notera qu’en général l’espace localement convexe $\mathscr{L}(m)$ est non séparé.
 
-#### Exemple {#int-vi-s2-n2-exa-1 .statement}
+#### Exemple {#int-vi-s2-n2-exa-1 .statement tag=09A8}
 
 Prenons pour $m$ l’application identique de $\mathscr{K}(T)$ sur lui-même. Comme le dual de $\mathscr{K}(T)$ est l’espace $\mathscr{M}(T)$ des mesures scalaires sur $T$, les fonctions $f \in \mathscr{L}(m)$ sont celles qui sont essentiellement intégrables pour toute mesure scalaire $\mu$ (cf. exerc. 1), et l’intégrale $\int f d\mathbf{m}$ est la forme linéaire $\mu \to \int f d\mu$ sur $\mathscr{M}(T)$. On ne peut avoir $\int f d\mu = 0$ pour toute mesure $\mu \in \mathscr{M}(T)$ que si $f = 0$, comme on le voit en prenant $\mu = \varepsilon_t$, où $t$ est arbitraire dans $T$; autrement dit l’application $f \to \int f d\mathbf{m}$ est une injection de $\mathscr{L}(m)$ dans le dual algébrique de $\mathscr{K}(T)$, qui prolonge l’application identique de $\mathscr{K}(T)$. La relation $\int f d\mathbf{m} \in F = \mathscr{K}(T)$ est donc équivalente à $f \in \mathscr{K}(T)$.
 
 Soit $u$ une application linéaire continue de $F$ dans un espace localement convexe séparé $G$, et notons encore $u$ son prolongement par bitransposition en une application linéaire de ${F'}^*$ dans ${G'}^*$ (§ 1, no 1). Avec cette convention :
 
-#### Proposition 2 {#int-vi-s2-prop-2 .statement}
+#### Proposition 2 {#int-vi-s2-prop-2 .statement tag=09A9}
 
 Toute fonction numérique $f$ essentiellement intégrable pour $m$ est essentiellement intégrable pour $u \circ m$, et on a
 $$
@@ -139,7 +139,7 @@ La proposition est évidente, compte tenu de l’égalité $y' \circ u \circ m =
 
 En général, si $f \in \mathscr{L}(m)$, l’intégrale $\int f d\mathbf{m}$ appartient à ${F'}^*$ mais non à $F$ (voir Exemple ci-dessus). Cependant :
 
-#### Proposition 3 {#int-vi-s2-prop-3 .statement}
+#### Proposition 3 {#int-vi-s2-prop-3 .statement tag=09AA}
 
 Si l’image par $m$ de l’ensemble des $f \in \mathscr{K}(T)$ telles que $\sup_{t \in T} |f(t)| \leq 1$ est faiblement relativement compacte dans $F$, alors on a $\int f d\mathbf{m} \in F$ pour toute fonction numérique bornée $f$ essentiellement intégrable pour $m$.
 
@@ -149,7 +149,7 @@ $$
 $$
 qui signifie que la mesure scalaire $|z' \circ m|$ est bornée et de norme $\leq 1$ (chap. III, § 2, no 6, prop. 3) ; mais d’après (2) cette dernière condition entraîne $|\langle z', m(f) \rangle| \leq 1$ pour toute fonction $f \in A$, d’où $z' \in (m(A))^0$.
 
-#### Corollaire 1 {#int-vi-s2-prop-3-cor-1 .statement}
+#### Corollaire 1 {#int-vi-s2-prop-3-cor-1 .statement tag=09AB}
 
 Si, pour toute partie compacte $K$ de $T$, l’image par $m$ de l’ensemble des $f \in \mathscr{K}(T, K)$ telles que $\sup_{t \in T} |f(t)| \leq 1$ est relativement faiblement compacte dans $F$, alors on a $\int f d\mathbf{m} \in F$ pour toute fonction $f \in \mathscr{L}(m)$ bornée et à support compact, et $\int f d\mathbf{m} \in F''$ pour toute fonction $f \in \mathscr{L}(m)$.
 
@@ -157,7 +157,7 @@ La première assertion se déduit immédiatement de la prop. 3 : si $f$ est born
 
 Soit maintenant $f$ quelconque dans $\mathscr{L}(m)$; pour toute partie compacte $K$ de $T$ et tout entier $n > 0$, soit $f_{n, K}$ la fonction numérique sur $T$ définie comme suit : si $t \notin K$, $f_{n, K}(t) = 0$; si $t \in K$ et $|f(t)| \leq n$, $f_{n, K}(t) = f(t)$; enfin, si $t \in K$ et $|f(t)| > n$, $f_{n, K}(t) = nf(t)/|f(t)|$. Il est clair que pour tout $t \in T$, $f(t)$ est limite de $f_{n, K}(t)$ suivant le filtre produit du filtre de Fréchet par le filtre des sections de l’ensemble ordonné (filtrant croissant) des parties compactes de $T$. Comme $|f_{n, K}| \leq |f|$, il résulte du th. de Lebesgue et de la prop. 8 du chap. V, § 2, no 2, appliqués à chaque mesure scalaire $|\mathbf{z}' \circ m|$, que $f_{n, K}$ converge vers $f$ dans $\mathscr{L}(m)$ suivant le filtre précédent. Par suite, l’intégrale $\int f d\mathbf{m}$ est adhérente dans $F' *$ (pour la topologie $\sigma(F', F')$) à l’ensemble $M$ des $m(f_{n, K})$. Mais la première partie du corollaire montre que $M \subset F$, et d’autre part, pour tout $\mathbf{z}' \in F'$, on a $|\langle \mathbf{z}', m(f_{n, K}) \rangle| \leq \int |f| d|\mathbf{z}' \circ m|$, ce qui montre que $M$ est borné dans $F_\sigma$, et par suite dans $F$ (*Esp. vect. top.*, chap. IV, § 2, no 4, th. 3). Le lemme 1 du § 1, no 2 montre donc que $\int f d\mathbf{m} \in F''$.
 
-#### Corollaire 2 {#int-vi-s2-prop-3-cor-2 .statement}
+#### Corollaire 2 {#int-vi-s2-prop-3-cor-2 .statement tag=09AC}
 
 *Si F est semi-réflexif, on a* $\int f d\mathbf{m} \in F$ *pour toute fonction numérique f essentiellement intégrable pour m.*
 
@@ -165,7 +165,7 @@ Soit maintenant $f$ quelconque dans $\mathscr{L}(m)$; pour toute partie compacte
 
 Soit $q$ une semi-norme semi-continue inférieurement sur $F$. Nous désignerons par $A_q'$ l’ensemble des $\mathbf{z}' \in F'$ tels que $|\langle \mathbf{z}', \mathbf{x} \rangle| \leq q(\mathbf{x})$ pour tout $\mathbf{x} \in F$. C’est le polaire dans $F'$ de l’ensemble des $\mathbf{x} \in F$ tels que $q(\mathbf{x}) \leq 1$; pour tout $\mathbf{x} \in F$, on a $q(\mathbf{x}) = \sup_{\mathbf{z}' \in A_q'} |\langle \mathbf{x}, \mathbf{z}' \rangle|$.
 
-#### Définition 3 {#int-vi-s2-def-3 .statement}
+#### Définition 3 {#int-vi-s2-def-3 .statement tag=09AD}
 
 *Soit m une mesure vectorielle sur T à valeurs dans F. Si q est une semi-norme semi-continue inférieurement sur F, on dit que m est q-majorable s’il existe une mesure positive $\mu$ telle que* $|\mathbf{z}' \circ m| \leq \mu$ *pour tout* $\mathbf{z}' \in A_q'$; *la borne supérieure des mesures* | $z' \circ m$ | lorsque $z'$ parcourt $A_q'$ (chap. III, § 2, n° 4, th. 3) se note alors $q(m)$. On dit que $m$ est majorable si elle est $q$-majorable pour toute semi-norme $q$ continue sur $F$.
 
@@ -178,7 +178,7 @@ Lorsque $F$ est un espace normé, dont la norme est notée $|x|$, dire que $m$ e
 
 Si $F = \mathbf{R}$, la mesure $|m|$, correspondant à la norme euclidienne $|x|$ sur $\mathbf{R}$, coïncide avec la mesure notée $|m|$ au chap. III, § 2, n° 4.
 
-#### Proposition 4 {#int-vi-s2-prop-4 .statement}
+#### Proposition 4 {#int-vi-s2-prop-4 .statement tag=09AE}
 
 Soient $(F_i)_{1 \leq i \leq n}$ une famille finie d'espaces localement convexes séparés, $F = \prod_{i=1}^n F_i$ leur produit, $q_i$ ($1 \leq i \leq n$) une semi-norme semi-continue inférieurement sur $F_i$, $q$ la semi-norme sur $F$ définie par $q(x_1, \ldots, x_n) = \sum_{i=1}^n q_i(x_i)$. Si $m_i$ ($1 \leq i \leq n$) est une mesure vectorielle sur $T$ à valeurs dans $F_i$ et $q_i$-majorable, la mesure $m = (m_1, \ldots, m_n)$ à valeurs dans $F$ est $q$-majorable.
 
@@ -188,11 +188,11 @@ $$
 $$
 pour tout $z' \in A_q'$, ce qui démontre la proposition.
 
-#### Corollaire {#int-vi-s2-n3-cor-1 .statement}
+#### Corollaire {#int-vi-s2-n3-cor-1 .statement tag=09AF}
 
 Si l’espace F est de dimension finie, toute mesure vectorielle m à valeurs dans F est majorable. Pour qu’une fonction numérique soit essentiellement intégrable pour m, il faut et il suffit qu’elle soit essentiellement intégrable pour $|\mathbf{m}|(|\mathbf{x}|$ désignant une norme quelconque sur F).
 
-#### Proposition 5 {#int-vi-s2-prop-5 .statement}
+#### Proposition 5 {#int-vi-s2-prop-5 .statement tag=09AG}
 
 Soit q une semi-norme semi-continue inférieurement sur F. Soit m une mesure q-majorable, et soit f une fonction essentiellement intégrable pour m et telle que $\int f d\mathbf{m} \in F$. Alors on a
 $$
@@ -204,13 +204,13 @@ q\left( \int f d\mathbf{m} \right) = \sup_{\mathbf{z}' \in A_q'} |\langle \mathb
 $$
 en vertu de (1) et de la relation $|\mathbf{z}' \circ \mathbf{m}| \leq q(\mathbf{m})$ pour $\mathbf{z}' \in A_q'$.
 
-#### Proposition 6 {#int-vi-s2-prop-6 .statement}
+#### Proposition 6 {#int-vi-s2-prop-6 .statement tag=09AH}
 
 Soient F un espace localement convexe séparé quasi-complet, m une mesure majorable sur T à valeurs dans F. Si f est une fonction numérique essentiellement intégrable pour toutes les mesures q(m) (q parcourant l’ensemble des semi-normes continues sur F), alors f est essentiellement intégrable pour m, et l’on a $\int f d\mathbf{m} \in F$.
 
 Nous utiliserons le résultat auxiliaire suivant. Soit $(\mu_i)_{i \in I}$ une famille filtrante croissante de mesures positives sur T. Désignons par $\mathscr{L}^1((\mu_i)_{i \in I})$ l’espace vectoriel des fonctions numériques finies sur T, essentiellement $\mu_i$-intégrables pour tout $i \in I$, muni de la topologie définie par les semi-normes $f \to \mu_i(|f|)$ ($i \in I$). Soit $\mathscr{L}_0$ le sous-espace vectoriel de $\mathscr{L}^1((\mu_i)_{i \in I})$ engendré par les produits $g \varphi_K$ où g parcourt l’ensemble des fonctions numériques finies continues dans T et K l’ensemble des parties compactes de T.
 
-#### Lemme 1 {#int-vi-s2-lem-1 .statement}
+#### Lemme 1 {#int-vi-s2-lem-1 .statement tag=09AI}
 
 Lorsqu’on munit $\mathscr{L}_0$ et $\mathfrak{K}(T)$ de la topologie induite par celle de $\mathscr{L}^1((\mu_i)_{i \in I})$ :
 a) tout élément de $\mathscr{L}_0$ est adhérent à une partie bornée de $\mathfrak{K}(T)$;
@@ -233,7 +233,7 @@ $$
 
 ### 4. Mesures vectorielles de base $\mu$.
 
-#### Définition 4 {#int-vi-s2-def-4 .statement}
+#### Définition 4 {#int-vi-s2-def-4 .statement tag=09AJ}
 
 *Soit $\mu$ une mesure positive sur $T$. On dit qu'une mesure vectorielle $\mathbf{m}$ sur $T$, à valeurs dans $F$, est une mesure de base $\mu$ s'il existe une application $\mathbf{f}$ de $T$ dans $F$, scalairement localement $\mu$-intégrable et telle que $\mathbf{m}(g) = \int g \mathbf{f} d\mu$ pour toute fonction $g \in \mathscr{J}_i(T)$. On dit alors que $\mathbf{f}$ est une densité de $\mathbf{m}$ par rapport à $\mu$, et on écrit $\mathbf{m} = \mathbf{f} \cdot \mu$.*
 
@@ -241,13 +241,13 @@ Il est immédiat que si $\mathbf{f}_1$ et $\mathbf{f}_2$ sont deux densités de 
 
 Soit $\mathbf{m}$ une mesure de base $\mu$, de densité $\mathbf{f}$. Pour qu'une fonction numérique $g$ soit essentiellement intégrable pour $\mathbf{m}$, il faut et il suffit que $g \mathbf{f}$ soit scalairement essentiellement $\mu$-intégrable (chap. V, § 3, no 5, th. 1).
 
-#### Proposition 7 {#int-vi-s2-prop-7 .statement}
+#### Proposition 7 {#int-vi-s2-prop-7 .statement tag=09AK}
 
 *Soit $\mathbf{f}$ une application scalairement localement intégrable par rapport à une mesure positive $\mu$ sur $T$, telle que, pour toute fonction $g \in \mathscr{J}_i(T)$, l'on ait $\int g \mathbf{f} d\mu \in F$. Alors l'application $g \to \int g \mathbf{f} d\mu$ de $\mathscr{J}_i(T)$ dans $F$ est une mesure vectorielle sur $T$, de base $\mu$ et de densité $\mathbf{f}$ par rapport à $\mu$.*
 
 En effet (no 1, Remarque 3), il suffit de montrer que, si on pose $\mathbf{m}(g) = \int g \mathbf{f} d\mu$, $\mathbf{z}' \circ \mathbf{m}$ est une mesure scalaire pour tout $\mathbf{z}' \in F'$. Mais comme $\mathbf{z}'(\mathbf{m}(g)) = \int g \langle \mathbf{z}', \mathbf{f} \rangle d\mu$, on a $\mathbf{z}' \circ \mathbf{m} = \langle \mathbf{z}', \mathbf{f} \rangle \cdot \mu$, d'où notre assertion.
 
-#### Proposition 8 {#int-vi-s2-prop-8 .statement}
+#### Proposition 8 {#int-vi-s2-prop-8 .statement tag=09AL}
 
 Soient $\mu$ une mesure positive sur $T$, $m$ une mesure sur $T$ à valeurs dans $F$, de base $\mu$ et de densité $f$ par rapport à $\mu$. Soit $q$ une semi-norme semi-continue inférieurement sur $F$.
 
@@ -270,7 +270,7 @@ $$
 
 (chap. V, § 2, no 2, prop. 9). Mais cela prouve que $q \circ f$ est localement $\mu$-intégrable et que $\lambda_J \leq (q \circ f) \cdot \mu \leq q(m)$ pour tout $J \in \mathscr{F}$; d’où, par définition, $q(m) = (q \circ f) \cdot \mu$.
 
-#### Remarque {#int-vi-s2-n4-rem-1 .statement}
+#### Remarque {#int-vi-s2-n4-rem-1 .statement tag=09AM}
 
 Supposons qu’il existe dans $A_q'$ un ensemble dénombrable $D$ dense pour $\sigma(F', F)$; alors la fonction $q \circ f$ est toujours $\mu$-mesurable, car on a $q(f(t)) = \sup_{z' \in D} |\langle z', f(t) \rangle|$ (chap. IV, § 5, no 4, cor. 1 du th. 2). On a alors, pour toute partie compacte $K$ de $T$,
 $$
@@ -278,13 +278,13 @@ $$
 $$
 où $J$ parcourt l’ensemble filtrant dénombrable des parties finies de $D$ (chap. IV, § 1, no 1, cor. du th. 3); on voit donc que dans ce cas la condition $\int_K^* (q \circ f) d\mu < +\infty$ pour toute partie compacte $K$ de $T$ est nécessaire et suffisante pour que $m$ soit $q$-majorable.
 
-#### Proposition 9 {#int-vi-s2-prop-9 .statement}
+#### Proposition 9 {#int-vi-s2-prop-9 .statement tag=09AN}
 
 Soit $F$ un espace de Banach de dimension finie. Toute mesure $m$ sur $T$ à valeurs dans $F$ est une mesure de base $|m|$. Si $m = f.|m|$, on a $|f(t)| = 1$ localement presque partout pour $|m|$. Pour que $m$ soit de base $\mu$, il faut et il suffit que $|m|$ soit de base $\mu$, et si $m = g.\mu$, on a $|m| = |g|.\mu$.
 
 Soient $(e_i)_{1 \leq i \leq n}$ une base de $F$ et $(e'_i)_{1 \leq i \leq n}$ la base duale de $F'$. Pour tout indice $i$, on a $|e'_i \circ m| \leq |m|$, donc (chap. V, § 5, no 5, th. 2) $e'_i \circ m = h_i.|m|$, où $h_i$ est bornée et $|m|$-mesurable. Si on pose $h = \sum_{i=1}^n h_i e_i$, on a donc $m = h.|m|$. Si $m = f.|m|$, la prop. 8 montre que $|m| = |f|.|m|$, d’où $|f(t)| = 1$ localement presque partout pour $|m|$ (chap. V, § 5, no 4, cor. 2 de la prop. 5). La dernière assertion résulte aussitôt de la prop. 8.
 
-#### Remarque {#int-vi-s2-n4-rem-2 .statement}
+#### Remarque {#int-vi-s2-n4-rem-2 .statement tag=09AO}
 
 Si $z = \sum_{i=1}^n z_i e_i$, $|z| = \psi(z_1, \ldots, z_n)$ est une fonction continue positivement homogène dans $\mathbf{R}^n$. Si on pose $\mu_i = e'_i \circ m = h_i.|m|$, on a, par définition (chap. V, § 5, no 9),
 $$
@@ -295,7 +295,7 @@ $$
 
 Soit $\mu$ une mesure positive sur T. On dit qu'une mesure vectorielle $m$ sur T, à valeurs dans F, est scalairement de base $\mu$ si, pour tout $z' \in F'$, la mesure scalaire $z' \circ m$ est de base $\mu$. Si une mesure vectorielle $m$ à valeurs dans F est de base $\mu$, elle est scalairement de base $\mu$ : en effet, si $m = f \cdot \mu$, on a $z' \circ m = \langle z', f \rangle \cdot \mu$ pour tout $z' \in F'$. Mais il existe des mesures vectorielles qui sont scalairement de base $\mu$ sans être de base $\mu$ (exerc. 17), et d'autre part il existe des mesures vectorielles qui ne sont scalairement de base $\nu$ pour aucune mesure positive $\nu$; on notera toutefois que toute mesure $m$ majorable à valeurs dans un espace normé est scalairement de base $|m|$, en vertu du th. de Lebesgue-Nikodym.
 
-#### Exemple {#int-vi-s2-n5-exa-1 .statement}
+#### Exemple {#int-vi-s2-n5-exa-1 .statement tag=09AP}
 
 Prenons pour $m$ l’application identique de $\mathscr{K}(T)$. Dire que $m$ est scalairement de base $\mu$ signifie que toute mesure réelle sur T est de base $\mu$. En particulier, la mesure ponctuelle $\varepsilon_t (t \in T)$ doit être de base $\mu$, ce qui exige que $\mu(\{t\}) > 0$ pour tout $t \in T$, et entraîne en particulier que toute partie compacte de T est dénombrable.
 
@@ -305,13 +305,13 @@ Soit $\pi$ l’application canonique de $\mathscr{L}^\infty(\mu)$ sur $L^\infty(
 
 On démontre que si $\mu$ est la mesure de Lebesgue sur $\mathbf{R}^n$, l’espace $L^\infty(\mathbf{R}^n, \mu)$ tout entier possède la propriété de relèvement (exerc. 18).
 
-#### Lemme 2 {#int-vi-s2-lem-2 .statement}
+#### Lemme 2 {#int-vi-s2-lem-2 .statement tag=09AQ}
 
 Tout sous-espace G de type dénombrable de l’espace de Banach $L^\infty(T, \mu)$ possède la propriété de relèvement.
 
 Par hypothèse il existe une partie dénombrable dense H de G, qui soit un sous-espace vectoriel sur le corps $\mathbf{Q}$ des nombres rationnels ; soit $(h_n)$ une base (dénombrable) de $H$ sur $\mathbf{Q}$. Pour tout entier $n$, soit $h'_n$ un élément de $\mathscr{L}^\infty$ tel que $\pi(h'_n) = h_n$, et soit $\rho'$ l’application $\mathbf{Q}$-linéaire de $H$ dans $\mathscr{L}^\infty$ définie par $\rho'(h_n) = h'_n$; il est clair que $\pi \circ \rho$ est l’identité sur $H$. En outre, pour tout $h \in H$, on a $|\rho'(h)(t)| \leq N_\infty(h)$ sauf aux points $t$ d’un ensemble localement négligeable $A(h)$. Soit $A$ la réunion des $A(h)$ pour $h \in H$, qui est encore localement négligeable. Pour tout $h \in H$, désignons par $\rho(h)$ la fonction $h'' \in \mathscr{L}^\infty$ telle que $h''(t) = \rho'(h)(t)$ si $t \notin A$ et $h''(t) = 0$ si $t \in A$. Il est clair que $\rho$ est une application $\mathbf{Q}$-linéaire de $H$ dans $\mathscr{L}^\infty$, telle que $\pi \circ \rho$ soit l’identité sur $H$ et que $|\rho(h)(t)| \leq N_\infty(h)$ pour tout $h \in H$ et tout $t \in T$. Comme $\mathscr{L}^\infty$ est un espace de Banach pour la norme $\|f\| = \sup_{t \in T} |f(t)|$ (chap. IV, § 5, no 4, th. 2), $\rho$ se prolonge en une application $\mathbf{R}$-linéaire continue, notée encore $\rho$, de $G$ dans $\mathscr{L}^\infty$, qui est évidemment un relèvement de $G$.
 
-#### Définition 5 {#int-vi-s2-def-5 .statement}
+#### Définition 5 {#int-vi-s2-def-5 .statement tag=09AR}
 
 Soient $F$ un espace localement convexe séparé, $F'_s$ son dual muni de la topologie $\sigma(F', F)$. On désigne par $\mathscr{L}_{F'_s}^\infty$ l’espace vectoriel des applications $f$ de $T$ dans $F'_s$, telles que $f$ soit scalairement $\mu$-mesurable et égale scalairement localement presque partout (pour $\mu$) à une application de $T$ dans une partie équicontinue de $F'$. On désigne par $L_{F'_s}^\infty$ l’espace quotient de $\mathscr{L}_{F'_s}^\infty$ par l’espace des applications scalairement localement $\mu$-négligeables de $T$ dans $F'_s$.
 
@@ -319,19 +319,19 @@ Lorsque $F$ vérifie les hypothèses du § 1, no 5, prop. 13, les fonctions de $
 
 Lorsque $F$ est un espace normé de type dénombrable, les éléments de $\mathscr{L}_{F'_s}^\infty$ sont les applications $f$ de $T$ dans $F'_s$, telles que $f$ soit scalairement $\mu$-mesurable et que $|f|$ soit bornée en mesure ; on peut alors définir sur l’espace $L_{F'_s}^\infty$ une structure d’espace normé, en le munissant de la norme $N_\infty$ (chap. IV, § 6, no 3).
 
-#### Lemme 3 {#int-vi-s2-lem-3 .statement}
+#### Lemme 3 {#int-vi-s2-lem-3 .statement tag=09AS}
 
 Soient F un espace localement convexe séparé, f un élément de $\mathscr{L}_{\mathbf{F}_s}^\infty$. Pour tout $z \in F$, on a $\langle z, f \rangle \in \mathscr{L}^\infty$, et l’application linéaire $z \to \pi(\langle z, f \rangle)$ de F dans $L^\infty$ est continue ; si en outre F est un espace normé, on a $N_\infty(\langle z, f \rangle) \leq |z| \cdot \sup_{t \in T} |f(t)|$.
 
 Il est clair par définition que $\langle z, f \rangle$ est $\mu$-mesurable et bornée en mesure ; en remplaçant éventuellement f par une fonction appartenant à la même classe de $\mathscr{L}_{\mathbf{F}_s}^\infty$, on peut supposer en outre que $f(T) \subset V^0$, où V est un voisinage convexe équilibré de 0 dans F (ce qui ne modifie $\langle z, f \rangle$ que sur un ensemble localement négligeable, dépendant de z). Alors la relation $z \in V$ entraîne $|\langle z, f(t) \rangle| \leq 1$ pour tout $t \in T$, ce qui prouve la continuité de $z \to \pi(\langle z, f \rangle)$. La dernière assertion est évidente.
 
-#### Lemme 4 {#int-vi-s2-lem-4 .statement}
+#### Lemme 4 {#int-vi-s2-lem-4 .statement tag=09AT}
 
 Soient F un espace localement convexe séparé, f un élément de $\mathscr{L}_{\mathbf{F}_s}^\infty$. Pour toute fonction numérique $g \in \bar{\mathscr{L}}^1$, la fonction gf est scalairement essentiellement $\mu$-intégrable et l’on a $\int gf d\mu \in F'$.
 
 En effet, pour tout $z \in F$, $\langle z, f \rangle$ appartient à $\mathscr{L}^\infty$, d’où la première assertion. En outre, on peut supposer, sans modifier $\int gf d\mu$, que $f(T) \subset V^0$, où V est un voisinage convexe équilibré de 0 dans F. Alors la relation $z \in V$ entraîne $|\langle z, f(t) \rangle| \leq 1$ pour tout $t \in T$, d’où $|\langle z, \int gf d\mu \rangle| = \left| \int \langle z, f \rangle g d\mu \right| \leq \overline{N}_1(g)$, ce qui prouve que $\int gf d\mu \in F'$.
 
-#### Théorème 1 {#int-vi-s2-thm-1 .statement}
+#### Théorème 1 {#int-vi-s2-thm-1 .statement tag=09AU}
 
 Soit F un espace localement convexe séparé, contenant une partie dénombrable partout dense. Pour toute fonction $f \in \mathscr{L}_{\mathbf{F}_s}^\infty$ et tout $z \in F$, soit $v_1(z) = \pi(\langle z, f \rangle) \in L^\infty$ ; l’application $f \to v_1$ définit, par passage au quotient, une bijection linéaire de $\mathscr{L}_{\mathbf{F}_s}^\infty$ sur l’espace $\mathscr{L}(F; L^\infty)$ des applications linéaires continues de F dans $L^\infty$. Si F est un espace normé, cette bijection est une isométrie.
 
@@ -351,29 +351,29 @@ $$
 
 et cette inégalité subsiste lorsqu'on modifie arbitrairement $f$ dans un ensemble localement négligeable. On en conclut que $\|u\| = N_\infty(|f|)$.
 
-#### Corollaire 1 {#int-vi-s2-thm-1-cor-1 .statement}
+#### Corollaire 1 {#int-vi-s2-thm-1-cor-1 .statement tag=09AV}
 
 Soit $F$ un espace localement convexe séparé contenant une partie dénombrable partout dense. Pour toute fonction $f \in \mathscr{L}_{F_s}^\infty$, tout $z \in F$ et toute fonction $g \in \mathscr{L}^1$, soit $\Phi_f(z, \tilde{g}) = \int \langle z, f(t) \rangle g(t) d\mu(t)$. L'application $f \to \Phi_f$ définit, par passage au quotient, une bijection linéaire de $L_{F_s}^\infty$ sur l'espace $\mathscr{B}(F, L^1)$ des formes bilinéaires continues dans $F \times L^1$. Si $F$ est un espace normé, cette bijection est une isométrie.
 
 En effet, on peut supposer que $f(T)$ est une partie équicontinue de $F'$. Il est clair alors que $\Phi_f$ est séparément continue, et avec les notations du th. 1 et de l'Appendice, on a (compte tenu de ce que $L^\infty$ est le dual de $L^1$ (chap. V, § 5, no 8, th. 4)) $^t\Phi_f = v_f$. Le corollaire résulte alors du th. 1 ci-dessus et de l'Appendice, no 1, prop. 1 et corollaire.
 
-#### Corollaire 2 (théorème de Dunford-Pettis) {#int-vi-s2-thm-1-cor-2 .statement}
+#### Corollaire 2 (théorème de Dunford-Pettis) {#int-vi-s2-thm-1-cor-2 .statement tag=09AW}
 
 Soit F un espace localement convexe séparé contenant une partie dénombrable partout dense. Pour toute fonction $f \in \mathscr{L}_{\mathbf{F}_s}^\infty$, et toute fonction $g \in \mathscr{L}^1$, soit $\omega_f(\tilde{g}) = \int g f d\mu \in F'$ (lemme 4). L’application $f \to \omega_f$ définit, par passage au quotient, une bijection linéaire de $\mathscr{L}_{\mathbf{F}_s}^\infty$ sur l’espace $\mathscr{R}(L^1, F')$ des applications linéaires $u$ de $L^1$ dans $F'$ telles que l’image par $u$ de la boule unité de $L^1$ soit une partie équicontinue de $F'$. Si F est un espace normé (auquel cas $\mathscr{R}(L^1, F')$ est l’espace des applications linéaires continues de $L^1$ dans le dual fort de $F$), la bijection $f \to \omega_f$ est une isométrie.
 
 Compte tenu de ce que $L^\infty$ est le dual de $L^1$, cela résulte du corollaire précédent et de l’Appendice, n° 1, prop. 1 et corollaire.
 
-#### Remarque {#int-vi-s2-n5-rem-1 .statement}
+#### Remarque {#int-vi-s2-n5-rem-1 .statement tag=09AX}
 
 Il est clair que les applications $u \in \mathscr{R}(L^1, F')$ sont continues pour toute $\mathscr{S}$-topologie sur $F'$ ($\mathscr{S}$ recouvrement de F par des parties bornées). Réciproquement, si on suppose en outre F tonnelé, toute application linéaire continue de $L^1$ dans $F'$ muni d’une $\mathscr{S}$-topologie transforme la boule unité de $L^1$ en une partie bornée de $F'$, qui est par suite équicontinue (*Esp. vect. top.*, chap. III, § 3, n° 6, th. 2).
 
-#### Corollaire 3 {#int-vi-s2-thm-1-cor-3 .statement}
+#### Corollaire 3 {#int-vi-s2-thm-1-cor-3 .statement tag=09AY}
 
 Soient F un espace localement convexe séparé contenant une partie dénombrable partout dense, m une mesure vectorielle sur T à valeurs dans le dual faible $F'$ de F. Si l’image par m de l’ensemble B des fonctions g de $\mathscr{K}(T)$ telles que $\mu(|g|) \leq 1$ est contenu dans une partie équicontinue convexe et fermée $H'$ de $F'$, alors m est de base $\mu$ et il existe une densité f de m par rapport à $\mu$ telle que $f(t) \in H'$ pour tout $t \in T$.
 
 L’hypothèse entraîne que m est continue lorsqu’on munit $\mathscr{K}(T)$ de la topologie induite par celle de $\mathscr{L}^1(\mu)$ (définie par la semi-norme $N_1$) ; elle se prolonge donc en une application linéaire continue $u$ de $\mathscr{L}^1(\mu)$ dans le complété G du dual faible de F ; mais comme $H'$ est une partie compacte de G et que l’image par $u$ de l’ensemble B des $f \in \mathscr{L}^1$ tels que $N_1(f) \leq 1$ est contenue dans l’adhérence de $H'$ dans G, on a $u(B) \subset H'$, donc $u$ applique $\mathscr{L}^1$ dans $F'$. Comme la relation $N_1(f) \leq \varepsilon$ entraîne $u(f) \in \varepsilon H'$, on a $u(g) = 0$ si $g$ est $\mu$-négligeable, et on peut donc appliquer le cor. 2 à l’application de $L^1$ dans F' obtenue par passage au quotient à partir de u ; d'où le corollaire.
 
-#### Corollaire 4 {#int-vi-s2-thm-1-cor-4 .statement}
+#### Corollaire 4 {#int-vi-s2-thm-1-cor-4 .statement tag=09AZ}
 
 Soient F un espace normé de type dénombrable, m une mesure sur T à valeurs dans le dual fort F', majo-
 rable pour la norme de F'. Alors m est une mesure de base |m|, et si m = f.|m|, on a |f(t)| = 1 localement presque partout pour |m|.
@@ -387,7 +387,7 @@ Si on applique ce corollaire au cas où F est de dimension finie, on retrouve co
 
 ### 6. Dual de l'espace $L^1_F$ (F espace de Banach de type dénombrable).
 
-#### Proposition 10 {#int-vi-s2-prop-10 .statement}
+#### Proposition 10 {#int-vi-s2-prop-10 .statement tag=09B0}
 
 Soit F un espace de Banach de type dénombrable. Pour toute fonction $f \in \overline{\mathscr{L}}^1_F$ et toute fonction $g \in \mathscr{L}^\infty_{F_s'}$, la fonction numérique $\langle f, g \rangle : t \to \langle f(t), g(t) \rangle$ est essentiellement µ-intégrable et on a
 $$
@@ -413,7 +413,7 @@ D'après le cor. 1 du th. 1 du n° 5, il existe une application g de T dans F', 
 
 ### 7. Intégration d'une fonction vectorielle par rapport à une mesure vectorielle.
 
-#### Proposition 11 {#int-vi-s2-prop-11 .statement}
+#### Proposition 11 {#int-vi-s2-prop-11 .statement tag=09B1}
 
 Soient F, G, H trois espaces de Banach, $\Phi$ une application bilinéaire continue de $F \times G$ dans H. Soit m une mesure vectorielle majorable sur T, à valeurs dans G. Il existe alors une application linéaire continue et une seule $I_{\Phi, m}$ de $\bar{\varphi}_F^1(|m|)$ dans
 
@@ -439,7 +439,7 @@ Bourbaki XXV.
 
 Avec les notations du no 6, l'intégrale $\int \langle f, g \rangle d\mu$ n'est autre que $I_{\Phi, m}(f)$ avec $\Phi(x, x') = \langle x, x' \rangle$ et $m = g.\mu$.
 
-#### Corollaire {#int-vi-s2-n7-cor-1 .statement}
+#### Corollaire {#int-vi-s2-n7-cor-1 .statement tag=09B2}
 
 *Si* $m$ et $m'$ sont deux mesures majorables sur $T$, à valeurs dans $G$, *on a* $I_{\Phi, m + m'} = I_{\Phi, m} + I_{\Phi, m'}$ et $I_{\Phi, \lambda m} = \lambda I_{\Phi, m}$ pour tout scalaire $\lambda$.
 
@@ -449,7 +449,7 @@ I_{\Phi, m + m'}(f) = I_{\Phi, m}(f) + I_{\Phi, m'}(f).
 $$
 La fonction $f$ est alors ($|m| + |m'|$)-intégrable (chap. V, § 3, prop. 6 et cor. 1), donc *a fortiori* ($|m + m'|$)-intégrable, et le premier membre de (6) a bien un sens. Pour démontrer (6), il suffit de le faire lorsque $f$ est une fonction étagée sur les ensembles ($|m| + |m'|$)-intégrables, l'ensemble de ces fonctions étant dense dans $\mathscr{L}_F^1(|m| + |m'|)$ et les deux membres de (6) étant continus dans ce dernier espace, en vertu de (4). Mais pour $f = a \varphi_X$, où $X$ est ($|m| + |m'|$)-intégrable, les deux membres de (6) se réduisent à $\Phi(a, \int \varphi_X dm) + \Phi(a, \int \varphi_X dm')$, d'où le corollaire.
 
-#### Remarque {#int-vi-s2-n7-rem-1 .statement}
+#### Remarque {#int-vi-s2-n7-rem-1 .statement tag=09B3}
 
 Lorsque $m$ est de la forme $b\mu$, où $b \in G$ et $\mu$ est une mesure réelle sur $T$, on a
 $$
@@ -459,7 +459,7 @@ pour toute fonction $f \in \mathscr{L}_F^1(\mu)$, car les deux membres sont cont
 
 ### 8. Mesures complexes.
 
-#### Définition 5 {#int-vi-s2-def-5-bis .statement}
+#### Définition 5 {#int-vi-s2-def-5-bis .statement tag=0E6V}
 
 *On appelle mesure complexe sur* $T$ *toute forme linéaire continue sur l'espace vectoriel complexe* $\mathscr{K}_c(T)$.
 
@@ -513,7 +513,7 @@ $$
 \int \overline{f} d\overline{m} = \int \overline{f} dm.
 $$
 
-#### Proposition 12 {#int-vi-s2-prop-12 .statement}
+#### Proposition 12 {#int-vi-s2-prop-12 .statement tag=09B5}
 
 Soient $m$ une mesure complexe sur $T$, $p$ et $q$ des exposants conjugués (chap. IV, § 6, no 4). La forme bilinéaire $(f, g) \to \int fg dm$ est définie et continue dans le produit $\mathscr{L}_c^p(m) \times \mathscr{L}_c^q(m)$; on a $\left| \int fg dm \right| \leq N_p(f) N_q(g)$, et $N_q(g)$ est la norme de la forme linéaire continue sur $L_c^p(m)$, déduite par passage au quotient de la forme linéaire $f \to \int fg dm$.
 
@@ -529,7 +529,7 @@ $$
 $$
 On dit que $m$ est *bornée* si $\| m \| < +\infty$; il revient au même de dire que $m$ est continue sur $\mathscr{K}_c(T)$ muni de la topologie de la convergence uniforme, donc se prolonge en une forme linéaire continue (de norme $\| m \|$) sur l’espace de Banach $\overline{\mathscr{J}_c}(T)$ des fonctions continues complexes tendant vers 0 à l’infini.
 
-#### Lemme 5 {#int-vi-s2-lem-5 .statement}
+#### Lemme 5 {#int-vi-s2-lem-5 .statement tag=09B6}
 
 *Soient m une mesure complexe sur T, f une fonction m-intégrable complexe. On a* $\int |f| d|m| = \sup \left| \int fh dm \right|$, *lorsque h parcourt l’ensemble des fonctions de $\mathscr{J}_c(T)$ telles que* $|h(t)| \leq 1$ *pour tout* $t \in T$.
 
@@ -545,7 +545,7 @@ $$
 
 ce qui démontre le lemme.
 
-#### Proposition 13 {#int-vi-s2-prop-13 .statement}
+#### Proposition 13 {#int-vi-s2-prop-13 .statement tag=09B7}
 
 *Soient m une mesure complexe, et $\mu = |m|$. Pour que m soit bornée, il faut et il suffit que $\mu$ soit bornée, et on a alors $\|m\| = \|\mu\|$.*
 
@@ -563,7 +563,7 @@ $$
 
 donc $\mu$ est bornée et $\|\mu\| \leq \|m\|$. D'où la proposition.
 
-#### Corollaire {#int-vi-s2-n9-cor-1 .statement}
+#### Corollaire {#int-vi-s2-n9-cor-1 .statement tag=09B8}
 
 *Soit m une mesure complexe bornée. Toute fonction $f \in \mathscr{L}_F^\infty(m)$ est alors m-intégrable, et on a* $\left| \int f dm \right| \leq N_\infty(f) \|m\|$.
 

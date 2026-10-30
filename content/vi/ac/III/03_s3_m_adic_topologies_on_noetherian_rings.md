@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 39
 exercises: 7
-content_sha256: 1de39e55c74385c34054c27fb968c53e9cc1e60852f6e4cfaaf397d4b080d963
+content_sha256: e27dbf9cac6c2f0eaed62099e75cba3facdfe830f727d8418180ad1faa0f219f
 translated_from: content/en/ac/III/03_s3_m_adic_topologies_on_noetherian_rings.md
 source_content_sha256: b81df172b6e522c775ec3658e04648b88d9c80cb7f56ca2a12c07212819aebb5
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -56,7 +56,7 @@ $$
 A_m X^m (E_n \otimes_A A X^n) \subset (A_m E_n \otimes_A A X^n",") \subset E_{m+n} \otimes_A A X^{m+n}.
 $$
 
-#### Định nghĩa 1 {#ac-iii-s3-def-1 .statement}
+#### Định nghĩa 1 {#ac-iii-s3-def-1 .statement tag=04FX}
 
 *Cho $A$ là một vành giao hoán, $m$ là một iđêan của $A$, $E$ là một $A$-môđun và $(E_n)$ là một lọc trên nhóm cộng tính $E$ gồm các môđun con của $E$. Lọc $(E_n)$ được gọi là m-tốt nếu:*
 (1) $m E_n \subset E_{n+1}$ với mọi $n \in \mathbf{Z}$;
@@ -64,7 +64,7 @@ $$
 
 Khi đó, bằng quy nạp theo $q$, $m^q E_n = E_{n+q}$ với $n \geq n_0, q \geq 1$. Chú ý rằng điều kiện (1) có nghĩa là lọc $(E_n)$ tương thích với cấu trúc $A$-môđun trên $E$ nếu $A$ được cho lọc $m$-adic. Rõ ràng, trên mọi $A$-môđun $E$, lọc $m$-adic là m-tốt. Nếu một lọc trên một $A$-môđun $E$ là m-tốt, lọc thương trên mọi môđun thương của $E$ là m-tốt.
 
-#### Định lý 1 {#ac-iii-s3-thm-1 .statement}
+#### Định lý 1 {#ac-iii-s3-thm-1 .statement tag=04FY}
 
 *Cho $A$ là một vành giao hoán, $m$ là một iđêan của $A$, $E$ là một $A$-môđun và $(E_n)$ là một lọc của nhóm cộng $E$ gồm các môđun con-$A$ sinh hữu hạn. Giả sử rằng $m E_n \subset E_{n+1}$ với mọi $n$. Gọi $A'$ là đại số con phân bậc $\sum_{n \geq 0} m^n X^n$ của $A[X]$ và $E'$ là $A'$-môđun phân bậc $\sum_{n \geq 0} E_n \otimes_A A X^n$. Hai điều kiện sau là tương đương:*
 (a) *Lọc* $(E_n)$ *là m-tốt.*
@@ -90,19 +90,19 @@ $$
 
 do đó $E_n = m E_{n-1}$ với $n > n_0$.
 
-#### Bổ đề 1 {#ac-iii-s3-lem-1 .statement}
+#### Bổ đề 1 {#ac-iii-s3-lem-1 .statement tag=04FZ}
 
 *Một vành Noether giao hoán A và $m$ là một iđêan của A. Khi đó vành con $A' = \sum_{n \geq 0} m^n X^n$ của $A[X]$ là Noether.*
 
 $A'$ là một đại số trên A sinh bởi $mX$; vì A là Noether, $mX$ là một A-môđun hữu hạn sinh và khi đó kết luận suy ra từ § 2, no. 10, Hệ quả 3 của Định lý 2.
 
-#### Mệnh đề 1 {#ac-iii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#ac-iii-s3-prop-1 .statement tag=04G0}
 
 *Cho A là một vành giao hoán Noether và m là một iđêan của A; trang bị cho A lọc m-adic. Cho E, F là hai A-môđun có lọc và $j : F \to E$ là một đồng cấu đơn ánh tương thích với các lọc. Nếu E sinh hữu hạn và lọc của nó là m-tốt, thì F sinh hữu hạn và lọc của nó là m-tốt.*
 
 Vì F đẳng cấu với một môđun con của E, nó sinh hữu hạn do A là Noether và E sinh hữu hạn. Gọi $(E_n)$, $(F_n)$ là các lọc tương ứng trên E và F, gồm các môđun con sinh hữu hạn; giữ nguyên ký hiệu của Bổ đề 1, đặt $E' = \sum_{n \geq 0} E_n \otimes_A A X^n, F' = \sum F_n \otimes_A A X^n$; vì theo giả thiết F, đẳng cấu với một môđun con của $E_n$, ta thấy rằng F' đẳng cấu với một môđun con của $E'$. Theo Định lý 1, $E'$ là một $A'$-môđun hữu hạn sinh và do đó F' cũng vậy vì A' là Noether (Bổ đề 1). Suy ra kết luận nhờ Định lý 1.
 
-#### Hệ quả 1 (Bổ đề Artin-Rees) {#ac-iii-s3-prop-1-cor-1 .statement}
+#### Hệ quả 1 (Bổ đề Artin-Rees) {#ac-iii-s3-prop-1-cor-1 .statement tag=04G1}
 
 *Cho A là một vành giao hoán Noether, m là một iđêan của A, E là một A-môđun hữu hạn sinh và F là một môđun con của E. Lọc cảm sinh trên F bởi lọc m-adic trên E là m-tốt.*
 
@@ -114,13 +114,13 @@ $$
 
 với mọi $n \geq n_0$.
 
-#### Hệ quả 2 {#ac-iii-s3-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-iii-s3-prop-1-cor-2 .statement tag=04G2}
 
 *Cho A là một vành giao hoán Noether và a, b là hai iđêan của A. Tồn tại một số nguyên h > 0 sao cho $a^h \cap b \subset ab$.*
 
 Tồn tại n sao cho $a^{n+1} \cap b = a(a^n \cap b) \subset ab$ theo Hệ quả 1 áp dụng cho $E = A, F = b$.
 
-#### Hệ quả 3 {#ac-iii-s3-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#ac-iii-s3-prop-1-cor-3 .statement tag=04G3}
 
 *Cho A là một vành giao hoán Noether, m là một iđêan của A và x là một phần tử của $A$ không phải là ước của 0. Tồn tại một số nguyên $k > 0$ sao cho, với mọi $n \geq k$, quan hệ $xy \in m^n$ kéo theo $y \in m^{n-k}$.
 
@@ -139,18 +139,18 @@ $$
 m^n : Ax \subset m^{n-k}.
 $$
 
-#### Hệ quả 4 {#ac-iii-s3-prop-1-cor-4 .statement}
+#### Hệ quả 4 {#ac-iii-s3-prop-1-cor-4 .statement tag=04G4}
 
 Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$, $E$ là một $A$-môđun hữu hạn sinh và $(E_n)$ và $(E'_n)$ là hai lọc gồm các môđun con của $E$. Giả sử rằng các lọc $(E_n)$ và $(E'_n)$ tương thích với cấu trúc $A$-môđun trên $E$ khi $A$ được trang bị lọc $m$-adic. Nếu lọc $(E_n)$ là $m$-tốt và $E'_n \subset E_n$ với mọi $n \in \mathbf{Z}$, thì lọc $(E'_n)$ là $m$-tốt.
 Đây là một trường hợp riêng của Mệnh đề 1.
 
-#### Bổ đề 2 {#ac-iii-s3-lem-2 .statement}
+#### Bổ đề 2 {#ac-iii-s3-lem-2 .statement tag=04G5}
 
 Cho $A, B$ là hai vành giao hoán Noether, $\phi : A \to B$ là một đồng cấu vành, $E$ là một A-môđun sinh hữu hạn và $F$ là một B-môđun sinh hữu hạn. Khi đó $\mathrm{Hom}_A(E, \phi_*(F))$ là một B-môđun sinh hữu hạn.
 
 Theo giả thiết, tồn tại một A-đồng cấu toàn ánh $v : A^n \to E$; do đó ánh xạ $u \mapsto u \circ v$ từ $\mathrm{Hom}_A(E, \phi_*(F))$ vào $\mathrm{Hom}_A(A^n, \phi_*(F))$ là đơn ánh và, vì $B$ là Noether, chỉ cần chứng minh rằng $\mathrm{Hom}_A(A^n, \phi_*(F))$ là một B-môđun sinh hữu hạn; điều này là ngay lập tức vì nó đẳng cấu với $F^n$.
 
-#### Mệnh đề 2 {#ac-iii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#ac-iii-s3-prop-2 .statement tag=04G6}
 
 Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$ và $E, F$ là hai A-môđun sinh hữu hạn. Nếu $(F_n)$ là một lọc $m$-tốt trên $F$, thì các môđun con $\mathrm{Hom}_A(E, F_n)$ tạo thành một lọc $m$-tốt trên A-môđun $\mathrm{Hom}_A(E, F)$.
 Vì $m^k F_n \subset F_{n+k}$ với $n \in \mathbf{Z}, k \geq 0$, nên cũng có
@@ -168,7 +168,7 @@ $$
 rõ ràng $v$ tương thích với các lọc $(\mathrm{Hom}_A(E, F_n))$ và $(\mathrm{Hom}_A(A^r, F_n))$.
 Vì $\mathrm{Hom}_A(E, F)$ và $\mathrm{Hom}_A(A^r, F)$ là sinh hữu hạn (Bổ đề 2), theo Mệnh đề 1 chỉ cần chỉ ra rằng lọc $(\mathrm{Hom}_A(A^r, F))$ là $m$-tốt; nhưng điều này là ngay lập tức nhờ sự tồn tại của đẳng cấu chính tắc $\mathrm{Hom}_A(A^r, F_r) \to F_n^r$ và thực tế là quan hệ $mF_n = F_n +$, suy ra $m(F_n^r) = (mF_n)^r = F_{n+1}^r$ (Đại số, Chương II, § 3, no. 7, Nhận xét).
 
-#### Mệnh đề 3 {#ac-iii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#ac-iii-s3-prop-3 .statement tag=04G7}
 
 *Cho $A$ là một vành Noether và $m$ là một iđêan của $A$ sao cho $A$ tách biệt Hausdorff và đầy đủ đối với tôpô m-adic. Cho $E$ là một $A$-môđun lọc trên vành lọc $A$, hệ lọc $(E_n)$ của $A$ sao cho $E_0 = E$ và $E$ tách biệt Hausdorff đối với tôpô xác định bởi $(E_n)$. Khi đó các điều kiện sau là tương đương:
 (a) $E$ là một $A$-môđun sinh hữu hạn và $(E_n)$ là một hệ lọc m-tốt.
@@ -183,26 +183,26 @@ Ngay lập tức suy ra từ các định nghĩa rằng (a) kéo theo (c). Việ
 
 ### 2. CÁC TÔPÔ m-ADIC TRÊN CÁC VÀNH NOETHER
 
-#### Mệnh đề 4 {#ac-iii-s3-prop-4 .statement}
+#### Mệnh đề 4 {#ac-iii-s3-prop-4 .statement tag=04G8}
 
 *Mọi hệ lọc m-tốt trên $E$ đều xác định cùng một tôpô (cụ thể là tôpô m-adic).*
 
 Cho $(E_n)$ là một lọc m-tốt trên $E$. Vì lọc này là toàn diện, mọi phần tử của $E$ thuộc một trong các $E_n$ và, vì $E$ là sinh hữu hạn và các $E_n$ là các $A$-môđun, tồn tại một số nguyên $n_1$ sao cho $E_{n_1} = E$. Mặt khác, lấy $n_0$ sao cho $mE_n = E_{n+1}$ với $n \geq n_0$; khi đó, với $n > n_0 - n_1$,
 $m^n E \subset E_{n+n_1} = m^{n+n_1-n_0} E_{n_0} \subset m^{n+n_1-n_0} E$, điều này chứng minh mệnh đề.
 
-#### Định lý 2 (Krull) {#ac-iii-s3-thm-2 .statement}
+#### Định lý 2 (Krull) {#ac-iii-s3-thm-2 .statement tag=04G9}
 
 *Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$, $E$ là một $A$-môđun sinh hữu hạn và $F$ là một môđun con của $E$. Khi đó tôpô $m$-adic trên $F$ là tôpô cảm sinh bởi tôpô $m$-adic trên $E$.*
 
 Suy ra từ no. 1, Mệnh đề 1 rằng lọc cảm sinh trên $F$ bởi lọc $m$-adic trên $E$ là m-tốt và khi đó kết luận suy ra từ Mệnh đề 4.
 
-#### Hệ quả {#ac-iii-s3-n2-cor-1 .statement}
+#### Hệ quả {#ac-iii-s3-n2-cor-1 .statement tag=04GA}
 
 *Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$, $E$ là một $A$-môđun và $F$ là một $A$-môđun sinh hữu hạn. Mọi ánh xạ tuyến tính $A$-tuyến tính $u : E \to F$ là một cấu xạ ngặt* (Tôpô Đại cương, Chương 111, § 2, no. 8) *đối với các tôpô $m$-adic*.
 
 Vì $u(m^nE) = m^n u(E)$, $u$ là một cấu xạ ngặt từ $E$ lên $u(E)$ đối với các tôpô $m$-adic trên hai môđun này và tôpô $m$-adic trên $u(E)$ là cảm sinh bởi tôpô $m$-adic trên $F$ theo Định lý 2.
 
-#### Mệnh đề 5 {#ac-iii-s3-prop-5 .statement}
+#### Mệnh đề 5 {#ac-iii-s3-prop-5 .statement tag=04GB}
 
 *Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$ và $E$ là một $A$-môđun sinh hữu hạn. Bao đóng* $\bigcap_{n=1}^m m^nE$ *của $\{0\}$ trong $E$ *đối với tôpô $m$-adic là tập hợp các $x \in E$ sao cho tồn tại một phần tử $m \in m$ thỏa mãn* $(1 - m)x = 0$.
 
@@ -214,17 +214,17 @@ F = \bigcap_{n=1}^\infty m^{n+1}E \subset m. \bigcap_{n=1}^\infty m^nE = mF;
 $$
 vì $A$ là Noether, $F$ là một $A$-môđun sinh hữu hạn; khi đó chỉ cần áp dụng Chương II, § 2, no. 2, Hệ quả 3 vào Mệnh đề 4.
 
-#### Hệ quả (Krull) {#ac-iii-s3-n2-cor-2 .statement}
+#### Hệ quả (Krull) {#ac-iii-s3-n2-cor-2 .statement tag=04GC}
 
 *Cho $A$ là một vành giao hoán Noether và $m$ là một iđêan của $A$. Iđêan* $\bigcap_{n=1}^m m^n$ *là tập hợp các phần tử* $x \in A$ *mà tồn tại* $m \in m$ *sao cho* $(1 - m)x = 0$. *Đặc biệt, để* $\bigcap_{n=1}^\infty m^n = \{0\}$, *điều kiện cần và đủ là không có phần tử nào của* $1 + m$ *là một ước của* $0$ *trong* $A$.
 
 Chỉ cần áp dụng Mệnh đề 5 cho $E = A$.
 
-#### Nhận xét {#ac-iii-s3-n2-rem-1 .statement}
+#### Nhận xét {#ac-iii-s3-n2-rem-1 .statement tag=04GD}
 
 Giả thiết rằng $A$ là *Noether* là cốt yếu trong hệ quả này. Ví dụ, cho $A$ là vành các ánh xạ khả vi vô hạn từ $\mathbf{R}$ vào chính nó và cho $m$ là iđêan (cực đại) của $A$ gồm các hàm $f$ sao cho $f(0) = 0$. Hiển nhiên rằng $\bigcap_{n=0}^\infty m^n$ là tập hợp các hàm $f$ sao cho f^{(n)}(0) = 0 \text{ với mọi } n \geq 0 \text{ và tồn tại các hàm như vậy với } f(x) \neq 0, \text{ với mọi } x \neq 0, \text{ chẳng hạn hàm } f \text{ được xác định bởi } f(x) = e^{-1/x^2} \text{ với } x \neq 0 \text{ và } f(0) = 0.
 
-#### Định nghĩa 1 {#ac-iii-s3-def-1-bis .statement}
+#### Định nghĩa 1 {#ac-iii-s3-def-1-bis .statement tag=04GE}
 
 *Cho $\mathbf{A}$ là một vành tôpô. Nếu một iđêan hai phía $m$ của $\mathbf{A}$ sao cho tôpô đã cho trên $\mathbf{A}$ là tôpô $m$-adic, thì $m$ được gọi là một iđêan xác định & tôpô trên $\mathbf{A}$.*
 
@@ -232,7 +232,7 @@ Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$ và 
 
 ### 3. CÁC VÀNH ZARISKI
 
-#### Mệnh đề 6 {#ac-iii-s3-prop-6 .statement}
+#### Mệnh đề 6 {#ac-iii-s3-prop-6 .statement tag=04GF}
 
 *Cho $A$ là một vành giao hoán Noether và $m$ là một iđêan của $A$. Các tính chất sau là tương đương:
 (a) $m$ được chứa trong căn Jacobson của $A$.
@@ -246,7 +246,7 @@ Ta hãy chứng minh rằng (b) suy ra (c). Giả sử (b) đúng. Cho $E$ là m
 
 Rõ ràng (c) suy ra (d). Sau cùng ta hãy chứng minh rằng (d) suy ra (a). Từ (d) suy ra rằng, với mọi iđêan cực đại $a$ của $A$, A-môđun $A/a$ là Hausdorff đối với tôpô $m$-adic. Điều này suy ra $m(A/a) \neq A/a$, trừ phi tôpô $m$-adic trên $A/a$ là tôpô thô nhất và $A/a$ thu về 0, điều này là vô lý vì $A/a$ là một *trường*. Do đó ảnh chính tắc của $m$ trong $A/a$ là một iđêan của $A/a$ phân biệt với $A/a$ và vì thế thu về 0; khi đó $m \subset a$, điều này chứng tỏ rằng $m$ được chứa trong căn Jacobson của $A$.
 
-#### Định nghĩa 2 {#ac-iii-s3-def-2 .statement}
+#### Định nghĩa 2 {#ac-iii-s3-def-2 .statement tag=04GG}
 
 *Một vành tôpô $A$ được gọi là một vành Zariski nếu nó giao hoán và Noether và tồn tại một iđêan xác định $m$ cho tôpô trên $A$ thỏa mãn các điều kiện tương đương của Mệnh đề 6.*
 
@@ -254,19 +254,19 @@ Một vành Zariski $A$ tất yếu là *Hausdorff* (Mệnh đề 6) và *mọi*
 
 *Ví dụ về các vành Zariski*
 
-#### Ví dụ 1 {#ac-iii-s3-n3-exa-1 .statement}
+#### Ví dụ 1 {#ac-iii-s3-n3-exa-1 .statement tag=04GH}
 
 Cho $A$ là một vành giao hoán Noether và $m$ là một iđêan của $A$. Nếu $A$ là *Hausdorff và đầy đủ đối với tôpô m-adic*, thì $A$ là một vành Zariski đối với tôpô này, theo § 2, no. 13, Bổ đề 3.
 
-#### Ví dụ 2 {#ac-iii-s3-n3-exa-2 .statement}
+#### Ví dụ 2 {#ac-iii-s3-n3-exa-2 .statement tag=04GI}
 
 Mọi *vành thương* $A/b$ của một vành Zariski đều là một vành Zariski, vì nó là Noether và, nếu $m$ là một iđêan xác định của $A$, thì $m(A/b) = (m + b)/b$ được chứa trong căn Jacobson của $A/b$ (*Algebra*, Chương VIII, § 6, no. 3, Mệnh đề 7).
 
-#### Ví dụ 3 {#ac-iii-s3-n3-exa-3 .statement}
+#### Ví dụ 3 {#ac-iii-s3-n3-exa-3 .statement tag=04GJ}
 
 Cho $A$ là một vành *Noether nửa địa phương* và $r$ là căn Jacobson của nó. Khi đó $A$, với tôpô $r$-adic, là một vành Zariski. Đây sẽ luôn luôn là tôpô được xét đến (trừ khi có nói rõ khác đi) khi ta xét một vành Noether nửa địa phương như một vành tôpô.
 
-#### Mệnh đề 7 {#ac-iii-s3-prop-7 .statement}
+#### Mệnh đề 7 {#ac-iii-s3-prop-7 .statement tag=04GK}
 
 *Cho $A, A'$ là hai vành giao hoán và $h : A \to A'$ là một đồng cấu vành. Giả sử rằng $A$ là Noether và rằng $A'$ là một A-môđun sinh hữu hạn (với cấu trúc được xác định bởi $h$). Cho $m$ là một iđêan của $A$ và đặt $m' = mA'$. Khi đó:*
 
@@ -304,7 +304,7 @@ $$
 
 là giao hoán. Cuối cùng, suy ra từ § 2, no. 12, Mệnh đề 16 rằng, nếu E là sinh hữu hạn, thì đồng cấu $\alpha_E$ là toàn ánh.
 
-#### Định lý 3 {#ac-iii-s3-thm-3 .statement}
+#### Định lý 3 {#ac-iii-s3-thm-3 .statement tag=04GL}
 
 *Cho A là một vành Noether giao hoán, m là một iđêan của A và E, F, G là ba A-môđun hữu hạn sinh. Khi đó:*
 
@@ -336,7 +336,7 @@ Khi đó suy ra từ (i) và (ii) rằng, nếu $a$ là một iđêan của A (t
 
 Trong các điều kiện của Định lý 3, $\hat{A} \otimes_A E$ thường được đồng nhất với $E$ bằng ánh xạ chính tắc $\alpha_E$. Nếu $u : E \to F$ là một đồng cấu của các $A$-môđun sinh hữu hạn, thì khi đó $\hat{u} : E \to \hat{F}$ được đồng nhất với $1 @ u$ theo tính giao hoán của biểu đồ (4).
 
-#### Hệ quả 1 {#ac-iii-s3-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-iii-s3-thm-3-cor-1 .statement tag=04GM}
 
 Cho $A$ là một vành giao hoán Noether, $m$ một iđêan của $A$, $E$ một $A$-môđun sinh hữu hạn và $F$ và $G$ là hai môđun con của $E$. Trang bị cho $A, E, F, G$ các tôpô $m$-adic và gọi $i$ là ánh xạ chính tắc từ $E$ đến $e$. Khi đó:
 
@@ -354,13 +354,13 @@ $$
 \hat{c} = \hat{A}i(ab) = \hat{A}i(a)i(b) = \hat{a}\hat{b}.
 $$
 
-#### Hệ quả 2 {#ac-iii-s3-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-iii-s3-thm-3-cor-2 .statement tag=04GN}
 
 Cho $A$ là một vành giao hoán Noether, $m$ một iđêan của $A$ và $\hat{A}$ là bổ sung Hausdorff của $A$ đối với tôpô $m$-adic. Nếu một phần tử $a \in A$ không là một ước của 0 trong $A$, thì ảnh chính tắc $a'$ của nó trong $\hat{A}$ không là một ước của 0 trong $\hat{A}$.
 
 Vì $\hat{A}$ là một $A$-môđun phẳng, hệ quả này là một trường hợp riêng của Chương I, § 2, no. 4, Mệnh đề 3 (i).
 
-#### Hệ quả 3 {#ac-iii-s3-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-iii-s3-thm-3-cor-3 .statement tag=04GO}
 
 Nếu $A$ là một vành giao hoán Noether, thì vành các chuỗi lũy thừa hình thức $A[[X_1, \ldots, X_n]]$ là một $A$-môđun phẳng.
 
@@ -370,7 +370,7 @@ B = A[X_1, \ldots, X_n]
 $$
 đối với tôpô $m$-adic, trong đó $m$ là tập hợp các đa thức không có số hạng hằng ($§ 2,$ no. 12, Ví dụ 1); vì $B$ là Noether ($§ 2,$ no. 10, Hệ quả 2 của Định lý 2), nên $A[[X_1, \ldots, X_n]]$ là một B-môđun phẳng theo Định lý 3 và, vì $B$ là một A-môđun tự do, $A[[X_1, \ldots, X_n]]$ là một A-môđun phẳng (Chương I, § 2, no. 7, Hệ quả 3 của Mệnh đề 8).
 
-#### Mệnh đề 8 {#ac-iii-s3-prop-8 .statement}
+#### Mệnh đề 8 {#ac-iii-s3-prop-8 .statement tag=04GP}
 
 Cho $A$ là một vành giao hoán Noether, $m$ một iđêan của $A$, $\hat{A}$ là bổ túc Hausdorff của $A$ đối với tôpô $m$-adic và $j$ là ánh xạ chính tắc từ $A$ vào $\hat{A}$. Khi đó:
 (i) $\hat{A}$ là một vành Zariski và $\hat{m} = \hat{A}.j(m)$ là một iđêan xác định của $\hat{A}$.
@@ -399,7 +399,7 @@ h \downarrow & & h' \downarrow \\
 $$
 trong đó $h$ và $h'$ lần lượt được cảm sinh bởi $j$ và $j'$ còn các mũi tên ngang là các đẳng cấu chính tắc của Chương II, § 3, no. 3, Mệnh đề 9. Vì $n^k$ là một iđêan mở của $A$ (do nó chứa $m^k$), $h$ là song ánh và do đó $h'$ cũng vậy. Điều này trước hết cho thấy rằng $(nA_n)^k = j'((\hat{n}\hat{A}_{\hat{n}})^k)$ và do đó tôpô trên $A_n$ được cảm sinh bởi tôpô trên $A_n$; hơn nữa, $\hat{A}_{\hat{n}} = A_n + (\hat{n}\hat{A}_{\hat{n}})^k$ với mọi $k > 0$ và do đó $A_n$ trù mật trong $A_n$.
 
-#### Hệ quả {#ac-iii-s3-n4-cor-1 .statement}
+#### Hệ quả {#ac-iii-s3-n4-cor-1 .statement tag=04GQ}
 
 *Cho* $A$ *là một vành địa phương Noether* (resp. *nửa địa phương*) *và* $m$ *là căn Jacobson của nó. Khi đó* $\hat{A}$ *là một vành địa phương Noether* (resp. *nửa địa phương*) *mà căn Jacobson là* $\hat{m}$.
 
@@ -407,7 +407,7 @@ $\hat{A}$ là Noether theo Mệnh đề 8 (i), và phần còn lại suy ra từ
 
 ### 5. PHẦN HOÀN THÀNH CỦA MỘT VÀNH ZARISKI
 
-#### Mệnh đề 9 {#ac-iii-s3-prop-9 .statement}
+#### Mệnh đề 9 {#ac-iii-s3-prop-9 .statement tag=04GR}
 
 Cho $A$ là một vành giao hoán Noether và $m$ là một iđêan của $A$; giả sử $A$ được trang bị tôpô $m$-adic. Để $\hat{A}$ là một A-môđun phẳng trung thành, điều kiện cần và đủ là $A$ là một vành Zariski.
 
@@ -415,13 +415,13 @@ Cho $A$ là một vành giao hoán Noether và $m$ là một iđêan của $A$; 
 
 Nếu $A$ là một vành Zariski và $E$ là một $A$-môđun sinh hữu hạn, ta có thể (nhờ Mệnh đề 9) đồng nhất $E$ với một tập con của $\hat{E}$ bằng ánh xạ chính tắc $j_E : E \to \hat{E}$. Với sự đồng nhất này:
 
-#### Hệ quả 1 {#ac-iii-s3-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#ac-iii-s3-prop-9-cor-1 .statement tag=04GS}
 
 Cho $A$ là một vành Zariski, $E$ một $A$-môđun sinh hữu hạn và $F$ một môđun con của $E$. Khi đó $F = \hat{F} \cap E = (\hat{A}F) \cap E$.
 
 Đây là một trường hợp riêng của Chương I, § 3, no. 5, Mệnh đề 10 (ii) và nó cũng suy ra từ no. 3, Mệnh đề 6.
 
-#### Hệ quả 2 {#ac-iii-s3-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#ac-iii-s3-prop-9-cor-2 .statement tag=04GT}
 
 Cho $A$ là một vành Zariski và $E$ một $A$-môđun sinh hữu hạn. Nếu $\hat{E}$ là một $A$-môđun tự do, thì $E$ là một $A$-môđun tự do.
 
@@ -429,19 +429,19 @@ Gọi $m$ là một iđêan xác định của $A$, do đó được chứa tron
 
 Mặt khác, gọi $\nu : m \otimes_A E \to E$ là đồng cấu chính tắc; vì $(m \otimes_A E) \otimes_A \hat{A}$ được đồng nhất một cách chính tắc với $m \otimes_A \hat{E}$ và $E \otimes_A \hat{A}$ với $\hat{E}$ (no. 4, Định lý 3), giả thiết rằng $\hat{E}$ là một $\hat{A}$-môđun tự do kéo theo rằng đồng cấu $\nu \otimes 1 : \hat{m} \otimes_{\hat{A}} \hat{E} \to \hat{E}$ là đơn ánh. Vì $\hat{A}$ là một $A$-môđun phẳng trung thành (Mệnh đề 9), ta kết luận rằng $\nu$ là đơn ánh (Chương I, § 3, no. 1, Mệnh đề 2) và quả thật các điều kiện để áp dụng tiêu chuẩn nói trên đều được thỏa mãn.
 
-#### Hệ quả 3 {#ac-iii-s3-prop-9-cor-3 .statement}
+#### Hệ quả 3 {#ac-iii-s3-prop-9-cor-3 .statement tag=04GU}
 
 Cho $A$ là một vành Zariski sao cho $\hat{A}$ là một miền nguyên và gọi $a$ là một iđêan của $A$. Nếu iđêan $a\hat{A}$ của $\hat{A}$ là chính, thì $a$ là chính.
 
 Đây là một trường hợp riêng của Hệ quả 2.
 
-#### Hệ quả 4 {#ac-iii-s3-prop-9-cor-4 .statement}
+#### Hệ quả 4 {#ac-iii-s3-prop-9-cor-4 .statement tag=04GV}
 
 Cho $A$ là một vành Zariski sao cho $\hat{A}$ là một miền nguyên, $L$ là trường phân thức của $\hat{A}$ và $K \subset L$ là trường phân thức của $A$; khi đó $\hat{A} \cap K = A$.
 
 Rõ ràng $A \subset \hat{A} \cap K$; mặt khác, nếu $x \in \hat{A} \cap K$, thì $\hat{A}x \subset \hat{A}$ và do đó, vì $\hat{A}x = \hat{A} \otimes_A (Ax)$ (no. 4, Định lý 3), nên $\hat{A} \otimes_A ((Ax + A)/A) = 0$. Vì $\hat{A}$ là một A-môđun phẳng trung thành (Mệnh đề 9), ta suy ra rằng $Ax \subset A$, do đó $x \in A$.
 
-#### Hệ quả 5 {#ac-iii-s3-prop-9-cor-5 .statement}
+#### Hệ quả 5 {#ac-iii-s3-prop-9-cor-5 .statement tag=04GW}
 
 Cho $A$ là một vành Noether giao hoán, $E, F$ là hai A-môđun sinh hữu hạn và $u : E \to F$ là một A-đồng cấu. Với mọi iđêan cực đại $m$ của $A$, gọi $A(m)$ (tương ứng $E(m), F(m)$) là hoàn thành Hausdorff của $A$ (tương ứng $E, F$) đối với tôpô $m$-adic và $u(m) : E(m) \to F(m)$ là đồng cấu tương ứng với $u$. Để $u$ là đơn ánh (tương ứng toàn ánh, song ánh, không), điều kiện cần và đủ là $u(m)$ cũng như vậy với mọi iđêan cực đại $m \notin A$.
 
@@ -457,13 +457,13 @@ $$
 
 trong đó các mũi tên ngang bên trái xuất phát từ tính kết hợp của tích tenxơ và các đẳng cấu $E_m \to E \otimes_A A_m, F_m \to F \otimes_A A_m$; vì $E$ và $F$ là các A-môđun sinh hữu hạn, nên theo no. 4, Định lý 3, các hàng của biểu đồ này gồm toàn các đẳng cấu; do đó ta được quy về việc chứng minh rằng $u_m$ là đơn ánh (tương ứng toàn ánh, song ánh, không) tương đương với việc $u_m \otimes 1$ cũng như vậy. Nhưng điều này suy ra từ việc $\hat{A}_m$ (và do đó cả $A(m)$ nữa) là một $A_m$-môđun phẳng trung thành theo Mệnh đề 9 (Chương I, § 3, no. 1, các Mệnh đề 1 và 2).
 
-#### Mệnh đề 10 {#ac-iii-s3-prop-10 .statement}
+#### Mệnh đề 10 {#ac-iii-s3-prop-10 .statement tag=04GX}
 
 Cho $A, B$ là hai vành Zariski, $\hat{A}, \hat{B}$ là các hoàn thành của chúng, $f : A \to B$ là một đồng cấu vành liên tục và $\hat{f} : \hat{A} \to \hat{B}$ là đồng cấu nhận được từ $f$ bằng cách chuyển qua các hoàn thành; nếu $\hat{f}$ là song ánh, thì $A$-môđun $B$ là phẳng trung thành.
 
 Vì $A$ và $B$ là Hausdorff, giả thiết rằng $\hat{f}$ là song ánh trước hết kéo theo rằng $f$ là đơn ánh. Đồng nhất (về mặt đại số) $A$ với $f(A)$ nhờ $f$ và $\hat{A}$ với $\hat{B}$ nhờ $\hat{f}$, khi đó ta được các bao hàm $A \subset B \subset \hat{A} = \mathbf{8}$; ta biết rằng $\hat{A}$ là một $A$-môđun phẳng trung thành và một $B$-môđun phẳng trung thành (Mệnh đề 9); ta kết luận rằng $B$ là một $A$-môđun phẳng trung thành (Chương I, § 3, no. 4, Nhận xét 2).
 
-#### Mệnh đề 11 {#ac-iii-s3-prop-11 .statement}
+#### Mệnh đề 11 {#ac-iii-s3-prop-11 .statement tag=04GY}
 
 Cho $\mathbf{A}$ là một vành địa phương Noether, $m$ là iđêan cực đại của nó, $\hat{\mathbf{A}}$ là hoàn thành $m$-adic của nó và $B$ là một vành sao cho $\mathbf{A} \subset B \subset \hat{\mathbf{A}}$. Giả sử rằng $B$ là một vành địa phương Noether mà iđêan cực đại $n$ của nó thỏa mãn quan hệ $n = mB$. Khi đó
 
@@ -501,11 +501,11 @@ $$
 
 trong đó $\mathfrak{p}$ là iđêan cực đại gồm các đa thức không có số hạng hằng và $\hat{\mathbf{A}}$ là vành các chuỗi lũy thừa hình thức $K[[X_1, \ldots, X_n]]$. \*
 
-#### Nhận xét {#ac-iii-s3-n5-rem-1 .statement}
+#### Nhận xét {#ac-iii-s3-n5-rem-1 .statement tag=04GZ}
 
 Một vành địa phương $B$ sao cho $\mathbf{A} \subset B \subset \hat{\mathbf{A}}$, có iđêan cực đại $n$ bằng $mB$ và có tôpô $n$-adic được cảm sinh bởi tôpô $m$-adic trên $\mathbf{A}$, không nhất thiết là Noether (Bài tập 14).
 
-#### Mệnh đề 12 {#ac-iii-s3-prop-12 .statement}
+#### Mệnh đề 12 {#ac-iii-s3-prop-12 .statement tag=04H0}
 
 Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$, $S$ là tập con nhân $1 + m$ của $A$ và $E$ là một $A$-môđun sinh hữu hạn. Trong các điều kiện đó:
 

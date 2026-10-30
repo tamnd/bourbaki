@@ -28,7 +28,7 @@ subsections:
       pdf_page: 171
 statements: 31
 exercises: 0
-content_sha256: e6f4105ad39a1c9dbaf8b50785fe7f7f3b4465149fc837eeec0c1609a934d47d
+content_sha256: a9b3715b1aa8ab299788cfaf91fb3e284025ad077503c3b28ef40e8d2de810f5
 ---
 
 ## § 10. Angles
@@ -39,7 +39,7 @@ Dans tout ce paragraphe, A désigne un corps commutatif de caractéristique $\ne
 
 Rappelons (§ 6, n° 5) qu’une similitude directe de E est un automorphisme $u$ de l’espace vectoriel E tel que $\Phi(u(x), u(y)) = (\det u)\Phi(x, y)$ quels que soient $x, y$ dans E.
 
-#### Proposition 1 {#alg-ix-s10-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s10-prop-1 .statement tag=0DNZ}
 
 Soit $A(\Phi)$ la sous-algèbre de $\mathscr{L}_A(E)$ engendrée par les similitudes directes de E.
 
@@ -68,19 +68,19 @@ Or les endomorphismes de E dont les matrices sont de la forme $\begin{pmatrix} a
 
 Enfin tout vecteur non isotrope de E peut être pris comme premier vecteur $e_1$ d’une base orthogonale $(e_1, e_2)$ (§ 6, n° 1); donc ses transformés $u(e_1)$ par les éléments $u$ de $\Lambda(\Phi)$ sont les vecteurs de la forme $ae_1 + be_2$ ($a, b$ dans $\Lambda$), c’est-à-dire tous les vecteurs de $E$, puisque toutes les matrices $\begin{pmatrix} a & \delta b \\ b & a \end{pmatrix}$ sont des matrices d’éléments de $\Lambda(\Phi)$. Autrement dit $E$ est un $\Lambda(\Phi)$-module monogène, engendré par n’importe quel vecteur non isotrope. On voit de plus que c’est un $\Lambda(\Phi)$-module monogène libre, puisque $u(e_1) = ae_1 + be_2 = 0$ entraîne $a = b = 0$, donc $u = 0$. Ceci démontre c).
 
-#### Remarque 1 {#alg-ix-s10-n1-rem-1 .statement}
+#### Remarque 1 {#alg-ix-s10-n1-rem-1 .statement tag=0DO0}
 
 Soit $\nu$ la similitude de matrice $\begin{pmatrix} 0 & \delta \\ 1 & 0 \end{pmatrix}$ par rapport à $(e_1, e_2)$; la similitude $\omega$ introduite dans la démonstration de la prop. 1 est égale à $-\alpha_1 \nu$; on a $\nu^2 = \delta$. Le multiplicateur de la similitude directe $u = a + b \nu$ ($a, b$ dans $\Lambda$) est égal au déterminant de sa matrice $\begin{pmatrix} a & \delta b \\ b & a \end{pmatrix}$, c’est-à-dire à $a^2 - \delta b^2 = (a + b \nu)(a - b \nu) = u . \overline{u}$, en désignant par $\overline{u}$ le conjugué de $u$ dans l’algèbre $\Lambda(\Phi)$ (chap. II, § 7, n° 7); autrement dit le multiplicateur de $u$ est la norme $N(u)$ de $u$ dans l’algèbre $\Lambda(\Phi)$ (ibid.). En particulier, pour qu’une similitude directe $u$ soit une rotation, il faut et il suffit que $N(u) = 1$; pour que $u$ soit une homothétie, il faut et il suffit que $u \in \Lambda^*$.
 
-#### Remarque 2 {#alg-ix-s10-n1-rem-2 .statement}
+#### Remarque 2 {#alg-ix-s10-n1-rem-2 .statement tag=0DO1}
 
 Les similitudes directes $u = a + b \nu$ ($a, b$ dans $\Lambda$, $b \neq 0$) dont le carré est une homothétie sont les homothéties et les multiples scalaires $b \nu$ de $\nu$, puisque $(a + b \nu)^2 = (a^2 + \delta b^2) + 2ab \nu$. Ces derniers ne sont autres que les automorphismes de l’espace vectoriel $E$ qui *transforment tout vecteur en un vecteur orthogonal*; en effet la matrice d’un tel automorphisme est nécessairement de la forme $\begin{pmatrix} 0 & c \\ d & 0 \end{pmatrix}$ ($c, d$ dans $\Lambda$), et la condition de transformer le vecteur $\lambda e_1 + \mu e_2$ en un vecteur orthogonal s’écrit alors $\lambda \mu (d \alpha_2 + c \alpha_1) = 0$.
 
-#### Remarque 3 {#alg-ix-s10-n1-rem-3 .statement}
+#### Remarque 3 {#alg-ix-s10-n1-rem-3 .statement tag=0DO2}
 
 On vérifie aisément que, pour $x, y$ dans $E$ et $u \in \Lambda(\Phi)$, on a $\Phi(u(x), y) = \Phi(x, \overline{u}(y))$. Ainsi l’endomorphisme *adjoint* d’une similitude directe $u$ est la similitude directe $\overline{u}$ *conjuguée* de $u$ dans $\Lambda(\Phi)$.
 
-#### Remarque 4 {#alg-ix-s10-n1-rem-4 .statement}
+#### Remarque 4 {#alg-ix-s10-n1-rem-4 .statement tag=0DO3}
 
 Comme toute *similitude inverse* de $E$ est le produit d’une similitude directe et de la symétrie par rapport à $Ae_1$, les matrices n° 1
 
@@ -88,31 +88,31 @@ des similitudes inverses par rapport à $(e_1, e_2)$ sont les matrices de la for
 
 Nous désignerons désormais par $S$ le groupe des similitudes de $E$, par $S^+$ celui des similitudes directes, par $H$ celui des homothéties $\neq 0$, et par $O^+$ celui des rotations. Rappelons que l’on a $H \subset S^+ (§ 6, n° 5)$.
 
-#### Corollaire 1 {#alg-ix-s10-prop-1-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s10-prop-1-cor-1 .statement tag=0DO4}
 
 *Le groupe $S^+$ des similitudes directes est commutatif. Quels que soient les vecteurs non isotropes $x, y$ de $E$, il existe une similitude directe $u$ et une seule telle que $y = u(x)$.*
 
 La première assertion résulte du fait que l’algèbre $A(\Phi)$ est commutative. Comme $E$ est un $A(\Phi)$-module libre monogène engendré par $x$ (resp. $y$), il existe un élément $u$ (resp. $u'$) de $A(\Phi)$ et un seul tel que $y = u(x)$ (resp. $x = u'(y)$) ; d’où $x = u(u'(x))$, et $uu'$ est l’identité ; ceci montre que $u$ est inversible, et est donc une similitude directe.
 
-#### Corollaire 2 {#alg-ix-s10-prop-1-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s10-prop-1-cor-2 .statement tag=0DO5}
 
 *Le groupe $O^+$ des rotations est commutatif. Quels que soient les vecteurs $x, y$ de $E$ tels que $\Phi(x, x) = \Phi(y, y) \neq 0$, il existe une rotation $u$ et une seule telle que $y = u(x)$.*
 
 La première assertion résulte du cor. 1. Celui-ci montre aussi qu’il existe une similitude directe $u$ et une seule telle que $y = u(x)$ ; comme $\Phi(u(x), u(x)) = \Phi(x, x)$, le multiplicateur de $u$ est égal à 1, et $u$ est donc une rotation.
 
-#### Corollaire 3 {#alg-ix-s10-prop-1-cor-3 .statement}
+#### Corollaire 3 {#alg-ix-s10-prop-1-cor-3 .statement tag=0DO6}
 
 *Le groupe $S^+/H$ est commutatif. Il opère sur l’ensemble des droites non isotropes de $E$. Quelles que soient les droites non isotropes $D, D'$ de $E$, il existe un élément $\varphi$ et un seul de $S^+/H$ tel que $D' = \varphi(D)$.*
 
 Ceci résulte du cor. 1 et du fait que $H$ laisse globalement invariante toute droite de $E$.
 
-#### Proposition 2 {#alg-ix-s10-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s10-prop-2 .statement tag=0DO7}
 
 *Le noyau de l’homomorphisme canonique de $O^+$ dans $S^+/H$ est $\{1, -1\}$.*
 
 En effet 1 et $-1$ sont les seuls éléments de $H \cap O^+$.
 
-#### Proposition 3 {#alg-ix-s10-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s10-prop-3 .statement tag=0DO8}
 
 L’homomorphisme $u \to u/\overline{u} = u^2 / N(u)$ de $S^+$ dans lui-même admet $H$ pour noyau, et définit, par passage au quotient, un isomorphisme de $S^+/H$ sur $O^+$.
 
@@ -120,7 +120,7 @@ En effet la relation $u/\overline{u} = 1$ équivaut à $u = \overline{u}$, c’e
 
 Lorsque $A(\Phi)$ est un corps, la prop. 3 est un cas particulier du théorème de Hilbert (chap. V, § 11, n° 5, th. 3).
 
-#### Corollaire {#alg-ix-s10-n1-cor-1 .statement}
+#### Corollaire {#alg-ix-s10-n1-cor-1 .statement tag=0DO9}
 
 Notons $i : O^+ \to S^+/H$ et $d : S^+/H \to O^+$ les homomorphismes définis dans les prop. 2 et 3, et écrivons additive-
 ment les groupes abéliens $O^+$ et $S^+/H$; on a $d(i(\theta)) = 2\theta$ pour $\theta \in O^+$
@@ -132,7 +132,7 @@ En effet, si $\overline{\varphi}$ est une rotation, on a $\overline{\varphi} = \
 
 Nous ferons choix, dans ce n°, d’un générateur $\omega$ de l’algèbre $A(\Phi)$ tel que $\omega^2 \in A$. Un tel générateur est déterminé à une homothétie près (n° 1, Remarque 2), donc l’élément $\omega^2$ de $A$, que nous noterons $\delta$, est déterminé modulo le sous-groupe multiplicatif $(A^*)^2$ des carrés d’éléments non nuls de $A$.
 
-#### Remarque {#alg-ix-s10-n2-rem-1 .statement}
+#### Remarque {#alg-ix-s10-n2-rem-1 .statement tag=0DOA}
 
 Lorsque –1 appartient à la classe mod. $(A^*)^2$ en question, on choisit en général $\omega$ de telle sorte que $\omega^2 = -1$, ce qui le détermine au signe près. Lorsque cette classe contient 1 mais non –1, on choisit en général $\omega$ de telle sorte que $\omega^2 = 1$, ce qui le détermine encore au signe près.
 
@@ -148,7 +148,7 @@ $$
 $$
 où $c_w(\varphi), s_w(\varphi)$ appartiennent à $A$; l’élément $s_w(\varphi)/c_w(\varphi)$ du corps projectif $\tilde{A}$ (chap. II, 2e éd., App. III, n° 5) est noté $t_w(\varphi)$; il ne dépend que de la classe de $\varphi$ mod. $H$; ainsi $t_w$ définit, par passage au quotient, une application de $S^+/H$ dans le corps projectif $\tilde{A}$, que nous noterons encore $t_w$ par abus de langage. Nous écrirons souvent $c, s$ et $t$ au lieu de $c_w, s_w$ et $t_w$. On a $c_{-w} = c_w, s_{-w} = -s_w$ et $t_{-w} = -t_w$.
 
-#### Proposition 4 {#alg-ix-s10-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s10-prop-4 .statement tag=0DOB}
 
 a) Lorsque $\omega^2 = \delta$ n’est pas un carré dans $A$ (c’est-à-dire lorsque $E$ ne contient pas de droite isotrope), l’application $t$ de $S^+/H$ dans $\tilde{A}$ est une bijection.
 
@@ -164,7 +164,7 @@ lorsque $t(\varphi)$ et $t(\varphi')$ sont finis et que $1 + t(\varphi)t(\varphi
 
 En effet, comme $S^+/H$ est un ensemble de droites (privées de 0) de $A(\Phi)$ considéré comme plan vectoriel sur $A$, $t$ est injective. D’autre part, pour qu’un élément $a + b\omega$ ($a \in A, b \in A$) de $A(\Phi)$ soit une similitude directe, il faut et il suffit qu’il soit inversible, c’est-à-dire que l’on ait $N(a + b\omega) = a^2 - \delta b^2 \neq 0$, ou encore $(b/a)^2 \neq 1/\delta$; ceci démontre les assertions de surjectivité dans a) et b). Enfin le produit des similitudes $1 + t(\varphi)\omega$ et $1 + t(\varphi')\omega$ est la similitude $1 + \delta t(\varphi)t(\varphi') + (t(\varphi) + t(\varphi'))\omega$, ce qui démontre c).
 
-#### Proposition 5 {#alg-ix-s10-prop-5 .statement}
+#### Proposition 5 {#alg-ix-s10-prop-5 .statement tag=0DOC}
 
 Notons $O^+$ additivement. Pour tout couple d’éléments $\theta, \theta'$ de $O^+$ on a
 
@@ -183,7 +183,7 @@ $$
 
 La relation (3) exprime en effet que $N(c(\theta) + s(\theta)\omega) = 1$. Pour (4) et (5) il suffit de calculer, dans $A(\Phi)$, le produit des rotations $c(\theta) + s(\theta)\omega$ et $c(\theta') + s(\theta')\omega$.
 
-#### Proposition 6 {#alg-ix-s10-prop-6 .statement}
+#### Proposition 6 {#alg-ix-s10-prop-6 .statement tag=0DOD}
 
 *Soit d l’isomorphisme de $S^+/H$ sur $O^+$ défini dans la prop. 3. Pour tout élément $\varphi$ de $S^+/H$ tel que $t = t(\varphi)$ soit fini, on a*
 
@@ -194,7 +194,7 @@ $$
 
 En effet $\varphi$ est la classe mod. $H$ de la similitude $1 + t\omega$, et la rotation $d(\varphi)$ est donc $(1 + t\omega)^2/N(1 + t\omega) = (1 + \delta t^2 + 2t\omega)/(1 - \delta t^2)$ (prop. 3), ce qui démontre (6).
 
-#### Corollaire {#alg-ix-s10-n2-cor-1 .statement}
+#### Corollaire {#alg-ix-s10-n2-cor-1 .statement tag=0DOE}
 
 *Pour tout élément $\theta$ de $O^+$ tel que $t(\theta)$ soit fini, on a*
 
@@ -210,7 +210,7 @@ $$
 
 En effet ceci résulte aussitôt de la prop. 6 et du cor. de la prop. 3.
 
-#### Remarque {#alg-ix-s10-n2-rem-2 .statement}
+#### Remarque {#alg-ix-s10-n2-rem-2 .statement tag=0DOF}
 
 Les formules (6) restent vraies pour $t = \infty$ à condition de remplacer les fonctions rationnelles qui figurent au second membre par leurs prolongements canoniques au corps projectif $\tilde{A}$ (chap. II, 2e éd., App. III, n° 5); en effet, si $t = \infty$, $\varphi$ est la classe de $\omega$, et on a $d(\varphi) = -1, s(d(\varphi)) = 0$ et $c(d(\varphi)) = -1$; ce sont bien là les valeurs prises par les prolongements canoniques des seconds membres pour $t = \infty$. Il en est de même pour (7) lorsque $t(\theta) = \infty$, et pour (8) lorsque $t(\varphi) = \infty$ ou que $1 + \delta t(\varphi)^2 = 0$. De même la formule (2) reste vraie lorsqu’un seul des éléments $t(\varphi), t(\varphi'), t(\varphi)$ par exemple, est infini, à condition de considérer son second membre comme une fonction rationnelle de $t(\varphi)$ seulement : en effet le produit des similitudes $1 + t(\varphi')\omega$ et $\omega$ est $\delta t(\varphi') + \omega$, tandis que la valeur prise par le prolongement canonique du second membre de (2) est $1/\delta t(\varphi')$. Enfin, lorsque $t(\varphi)$ et $t(\varphi')$ sont finis et que l’on a $1 + \delta t(\varphi)t(\varphi') = 0$, on a $t(\varphi) + t(\varphi') = 0$ (sinon $t(\varphi)^2$ serait égal à $1/\delta$, ce qui est impossible (prop. 4)); on peut donc convenir que la valeur du second membre de (2) est $\infty$, et cette valeur est bien celle du premier membre. Lorsque $t(\varphi)$ et $t(\varphi')$ sont tous deux infinis, le second membre de (2) n’est pas défini.
 
@@ -222,13 +222,13 @@ Rappelons aussi (ibid.) que, étant donné un espace vectoriel de dimension fini
 
 Les homothéties de E dont le rapport est $> 0$ forment évidemment un sous-groupe d’indice 2 de H ; nous le noterons $H^+$. L’homomorphisme canonique $i : O^+ \to S^+/H$ (cf. prop. 2) est le composé des homomorphismes canoniques de $S^+/H^+$ sur $S^+/H$ et de $O^+$ dans $S^+/H^+$; comme $O^+ \cap H^+ = \{ 1 \}$, ce dernier homomorphisme est injectif.
 
-#### Proposition 7 {#alg-ix-s10-prop-7 .statement}
+#### Proposition 7 {#alg-ix-s10-prop-7 .statement tag=0DOG}
 
 Supposons que A soit un corps ordonné maximal et que $\Phi$ soit une forme positive (§ 7). Alors les homomorphismes canoniques de $O^+$ dans $S^+/H^+$ et de $O^+/\{ 1, -1 \}$ dans $S^+/H$ sont bijectifs, et $S^+$ est isomorphe à $O^+ \times H^+$.
 
 Nous avons déjà vu que les homomorphismes en question sont injectifs, et il suffit de montrer que le premier est surjectif. Soit $(e_1, e_2)$ une base orthonormale de E, et soit $\omega$ la similitude directe telle que $\omega(e_1) = e_2$ (cor. 1 de la prop. 1, n° 1) ; on a alors $\omega^2 = -1$ (prop. 1, b)). Étant donnée une similitude directe quelconque $u = a + bw (a \in A,\ b \in A)$, on a $N(u) = a^2 + b^2 > 0$, et il existe une rotation et une seule contenue dans la même demi-droite de $A(\Phi)$ que $u$, à savoir $(a^2 + b^2)^{1/2}\ u$. CQFD.
 
-#### Corollaire {#alg-ix-s10-n3-cor-1 .statement}
+#### Corollaire {#alg-ix-s10-n3-cor-1 .statement tag=0DOH}
 
 *Etant données deux demi-droites* D, D' *d’origine* 0, *il existe une rotation* v *et une seule telle que* v(D) = D'.
 
@@ -236,7 +236,7 @@ Les hypothèses impliquent en effet que E ne contient point de droites isotropes
 
 Nous supposerons désormais que A est un *corps ordonné maximal*, et que la forme $\Phi$ est *positive*. Dans l’ensemble des couples $(D_1, D_2)$ de droites (resp. demi-droites d’origine 0) de E, la relation « il existe une similitude directe (resp. une rotation) u telle que $u(D_1) = D'_1$ et $u(D_2) = D'_2$ » est une relation d’équivalence entre les couples $(D_1, D_2)$ et $(D'_1, D'_2)$. La classe d’équivalence du couple $(D_1, D_2)$ s’appelle, par définition *l’angle des droites* (resp. *demi-droites*) $D_1, D_2$ (prises dans cet ordre); on le note $(\widehat{D_1, D_2})$.
 
-#### Proposition 8 {#alg-ix-s10-prop-8 .statement}
+#### Proposition 8 {#alg-ix-s10-prop-8 .statement tag=0DOI}
 
 *On suppose que* A *est un corps ordonné maximal*, et que la *forme* $\Phi$ *est positive*. *Soient* $D_1, D_2, D'_1, D'_2$ *quatre droites* (resp. *demi-droites*) *d’origine* 0 *de* E. *Pour que les angles* $(\widehat{D_1, D_2})$ *et* $(\widehat{D'_1, D'_2})$ *soient égaux, il faut et il suffit que les angles* $(\widehat{D_1, D'_1})$ *et* $(\widehat{D_2, D'_2})$ *soient égaux*.
 
@@ -254,11 +254,11 @@ $$
 (10) \quad (\widehat{D, D}) = 0, \qquad (\widehat{D, D'}) = - (\widehat{D', D}).
 $$
 
-#### Remarque 1 {#alg-ix-s10-n3-rem-1 .statement}
+#### Remarque 1 {#alg-ix-s10-n3-rem-1 .statement tag=0DOJ}
 
 L’ensemble L des droites (resp. demi-droites) d’origine 0 de E est un espace homogène du groupe abélien $S^+/H$ (resp. $O^+$) tel que l’élément neutre soit le seul opérateur laissant invariants tous les éléments de L. On peut donc appliquer à L les formules du chap. II, 2e éd., App. II, no 1 ; la prop. 8 est ainsi un cas particulier de la « règle du parallélogramme », et les formules (9) et (10) des cas particuliers des formules (2) (ibid.).
 
-#### Remarque 2 {#alg-ix-s10-n3-rem-2 .statement}
+#### Remarque 2 {#alg-ix-s10-n3-rem-2 .statement tag=0DOK}
 
 Dans la définition du groupe des angles de droites, on peut, au lieu du groupe $S^+/H$, utiliser le groupe $O^+/ \{ -1, 1 \}$ qui lui est canoniquement isomorphe (prop. 7). L’homomorphisme canonique de $O^+$ sur $O^+/ \{ -1, 1 \}$ correspond ainsi à un homomorphisme de $\mathfrak{A}$ sur $\mathfrak{A}_0$, à savoir celui qui, à l’angle des deux demi-droites $\Delta, \Delta'$, fait correspondre l’angle des droites $D, D'$ contenant respectivement $\Delta, \Delta'$. *Dans le cas où le corps A est le corps des nombres réels, le groupe $\mathfrak{A}$ est ainsi un revêtement d’ordre 2 du groupe $\mathfrak{A}_0$*
 
@@ -266,19 +266,19 @@ D’après la prop. 8, tous les angles de droites (resp. demi-droites) de la for
 
 de la forme ($\widehat{D, - D}$) sont égaux : ceci résulte en effet de la Remarque 2 du no 1 (resp. est évident). Cet angle de droites (resp. de demi-droites) s’appelle l’angle droit (resp. l’angle plat) ; c’est un élément d’ordre 2 de $\mathfrak{A}_0$ (resp. de $\mathfrak{A}$).
 
-#### Proposition 9 {#alg-ix-s10-prop-9 .statement}
+#### Proposition 9 {#alg-ix-s10-prop-9 .statement tag=0DOL}
 
 On suppose que le corps $\mathbf{A}$ est ordonné maximal, et que $\Phi$ est une forme positive. Pour tout entier $n > 1$, le nombre des éléments $\theta$ du groupe $\mathfrak{A}_0$ des angles de droites (resp. $\mathfrak{A}$ des angles de demi-droites) tels que $n\theta = 0$ est égal à $n$.
 
 Comme $\mathfrak{A}_0, S^+/H, \mathfrak{A}$ et $O^+$ sont isomorphes (prop. 3), il suffit de faire la démonstration pour $O^+$, c’est-à-dire montrer qu’il y a exactement $n$ rotations $\varphi$ telles que $\varphi^n = 1$. Or, comme $\mathbf{A}$ est un corps ordonné maximal et que $\mathbf{A}(\Phi)$ est un surcorps de degré 2 de $\mathbf{A}$ (prop. 1 a)), $\mathbf{A}(\Phi)$ est un corps algébriquement clos (chap. VI, § 2, no 6, th. 3). Donc les racines $n$-ièmes de l’unité dans $\mathbf{A}(\Phi)$ forment un groupe cyclique d’ordre $n$ (chap. V, § 11, no 1, th. 1). Comme on a $N(u) = u \overline{u} \geqslant 0$ pour tout $u \in \mathbf{A}(\Phi)$, la relation $u^n = 1$ entraîne que l’on a $N(u) = 1$, donc que $u$ est une rotation (no 1, Remarque 1). Ceci démontre notre assertion.
 
-#### Corollaire {#alg-ix-s10-n3-cor-2 .statement}
+#### Corollaire {#alg-ix-s10-n3-cor-2 .statement tag=0DOM}
 
 L’angle droit (resp. plat) est le seul élément d’ordre 2 du groupe $\mathfrak{A}_0$ (resp. $\mathfrak{A}$).
 
 Nous supposerons enfin que le plan $E$ est orienté.
 
-#### Lemme 1 {#alg-ix-s10-lem-1 .statement}
+#### Lemme 1 {#alg-ix-s10-lem-1 .statement tag=0DON}
 
 Soit $u$ une similitude directe de $E$; tous les bivecteurs de la forme $x \wedge u(x)$ appartiennent à la même demi-droite fermée de $\overset{2}{\wedge} E$.
 
@@ -322,7 +322,7 @@ pour $\theta \in \mathfrak{A}$.
 
 Étant donnés deux vecteurs non nuls $x, y$ de $E$, on appelle *angle* de ces deux vecteurs (pris dans cet ordre), et on note $\widehat{(x, y)}$, l’angle des demi-droites auxquelles ils appartiennent. Pour tout vecteur $x$ de $E$ on appelle *longueur* de $x$, et on note $|x|$, l’élément $\Phi(x, x)^{1/2}$ de $A$.
 
-#### Proposition 10 {#alg-ix-s10-prop-10 .statement}
+#### Proposition 10 {#alg-ix-s10-prop-10 .statement tag=0DOO}
 
 On suppose que le corps $\mathbf{A}$ est ordonné maximal, que le plan $\mathbf{E}$ est orienté, et que la forme $\Phi$ est positive. Pour tout couple de vecteurs non nuls $x, y$ de $\mathbf{E}$ on a
 
@@ -337,11 +337,11 @@ où $e$ désigne le bivecteur positif tel que $\Phi_{(2)}(e, e) = 1$.
 
 En effet, comme les vecteurs $x' = x/|x|$ et $y' = y/|y|$ sont tous deux de longueur 1, il existe une rotation $\varphi$ et une seule telle que $\varphi(x') = y'$ (n° 1, cor. 2 de la prop. 1). Si l’on pose $\varphi = a + b \omega$ ($a, b$ dans $\mathbf{A}$), on a par définition $a = \cos (\widehat{x, y})$ et $b = \sin (\widehat{x, y})$. La relation $y' = \varphi(x') = ax' + b \omega(x')$ donne $\Phi(x', y') = a \Phi(x', x') = a$ puisque $x'$ et $\omega(x')$ sont orthogonaux (Remarque 2 du n° 1); ceci démontre (19). D’autre part cette relation donne aussi $x' \wedge y' = bx' \wedge \omega(x') = b.e$ d’après la définition de l’extension $\Phi_{(2)}$ de $\Phi$ à $\bigwedge^2 \mathbf{E}$ ($§ 1,$ n° 9, formule (37)) et le choix de $\omega$; ceci démontre (20).
 
-#### Remarque 3 {#alg-ix-s10-n3-rem-3 .statement}
+#### Remarque 3 {#alg-ix-s10-n3-rem-3 .statement tag=0DOP}
 
 Étant données deux droites (resp. demi-droites) $D, D'$ d’un *plan affine* $L$ attaché à $E$, on appelle angle de $D$ et $D'$, et on note $(\widehat{D, D'})$, l’angle que font leurs directions dans $E$ (resp. les demi-droites d’origine 0 de $E$ correspondant à $D$ et $D'$) (chap. II, 2e éd., App. II, n° 1 et n° 3).
 
-#### Remarque 4 {#alg-ix-s10-n3-rem-4 .statement}
+#### Remarque 4 {#alg-ix-s10-n3-rem-4 .statement tag=0DOQ}
 
 Soient $F$ un espace vectoriel *de dimension quelconque* sur le corps ordonné maximal $\mathbf{A}$, et $\Psi$ une forme bilinéaire symétrique positive non dégénérée sur $F$. Étant donnés deux vecteurs $x, y$ linéairement indépendants de $F$, soit $F'$ le plan vectoriel qu’ils engendrent ; on appelle *angle* de $x$ et $y$ l’angle de $x$ et $y$ considérés comme éléments du plan $F'$; on le note $(\widehat{x, y})$. Le cosinus de cet angle est, en vertu de (19), donné par
 
@@ -355,7 +355,7 @@ $$
 
 Nous supposerons d’abord, sans autre hypothèse, que E est un plan orienté sur le corps ordonné A. On dira que trois demi-droites D₀, D₁, D₂ (d’origine 0) de E forment une suite directe si, pour xᵢ ∈ Dᵢ, xᵢ ≠ 0 (i = 0, 1, 2), deux au moins des bivecteurs x₀ ∧ x₁, x₁ ∧ x₂, x₂ ∧ x₀ sont > 0 ; dans ce cas les suites D₁, D₂, D₀ et D₂, D₀, D₁ sont aussi directes. Il est clair que trois demi-droites formant une suite directe sont distinctes. Étant données deux demi-droites D₁, D₂ de E, on appelle secteur angulaire ouvert (resp. fermé) d’origine D₁ et d’extrémité D₂, l’ensemble (ou, par abus de langage, la réunion) des demi-droites D telles que la suite D₁, D, D₂ soit directe (resp. telles que D = D₁ ou D = D₂ ou que la suite D₁, D, D₂ soit directe).
 
-#### Proposition 11 {#alg-ix-s10-prop-11 .statement}
+#### Proposition 11 {#alg-ix-s10-prop-11 .statement tag=0DOR}
 
 Soient E un plan orienté sur un corps ordonné A, D₀ une demi-droite de E, et G l’ensemble des demi-droites de E distinctes de D₀. La relation
 
@@ -371,7 +371,7 @@ $$
 
 Ceci étant, si a₀₁ ≤ 0, on a a₁₂ > 0 et a₂₀ > 0 (puisque la première suite est directe), puis a₂₃ > 0 et a₃₀ > 0 (puisque a₀₂ < 0 et que la seconde suite est directe), d’où a₁₃ > 0 (en vertu de (22)) ; donc la suite (D₀, D₁, D₃) est directe dans ce cas. Supposons désormais a₀₁ > 0. Si a₃₀ ≤ 0, on a a₀₂ > 0 et a₂₃ > 0 (puisque la seconde suite est directe), puis a₁₂ > 0 (puisque a₂₀ < 0 et que la première suite est directe), d’où $a_{13} > 0$ (d’après (22)), et la suite $(D_0, D_1, D_3)$ est directe. Enfin il en est évidemment de même si $a_{01} > 0$ et $a_{30} > 0$. CQFD.
 
-#### Corollaire {#alg-ix-s10-n4-cor-1 .statement}
+#### Corollaire {#alg-ix-s10-n4-cor-1 .statement tag=0DOS}
 
 *Soient $D_1$ et $D_2$ deux demi-droites distinctes de E. Pour toute demi-droite $D_0$ de E telle que la suite $D_0, D_1, D_2$ soit directe, l’ensemble des demi-droites $D$ de E telles que $D_1 < D < D_2$ (pour la relation d’ordre total définie par $D_0$) est égal au secteur angulaire ouvert d’origine $D_1$ et d’extrémité $D_2$.
 
@@ -379,7 +379,7 @@ En effet, étant donnée une demi-droite $D_3$, il s’agit de montrer que les r
 
 En vertu du corollaire qui précède, le secteur angulaire ouvert (resp. fermé) d’origine $D_1$ et d’extrémité $D_2$ est noté $\{D_1, D_2\}$ (resp. $[D_1, D_2]$), étant entendu qu’il s’agit d’intervalles pour la structure d’ordre définie par n’importe quelle demi-droite $D_0$ telle que la suite $D_0, D_1, D_2$ soit directe.
 
-#### Proposition 12 {#alg-ix-s10-prop-12 .statement}
+#### Proposition 12 {#alg-ix-s10-prop-12 .statement tag=0DOT}
 
 *Soient A un corps ordonné maximal, E un plan orienté sur A, $D_0$ une demi-droite de E et G l’ensemble des demi-droites de E distinctes de $D_0$. Les ensembles totalement ordonnés A et G (prop. 11) sont isomorphes.
 

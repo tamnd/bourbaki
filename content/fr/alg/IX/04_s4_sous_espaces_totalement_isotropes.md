@@ -24,7 +24,7 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: c93097d3f7d4a4f9fa1596bf76e7274625e74003a4e1adb2c4854da5ece02dd8
+content_sha256: 4ec9e3cc954a32377d2ee4ae9a6e6e25e8b896979eaf8917100403344ab131c6
 ---
 
 ## § 4. Sous-espaces totalement isotropes. Théorème de Witt
@@ -33,7 +33,7 @@ Dans ce paragraphe on suppose, sauf mention expresse du contraire, que A est un 
 
 ### 1. Sous-espaces isotropes.
 
-#### Définition 1 {#alg-ix-s4-def-1 .statement}
+#### Définition 1 {#alg-ix-s4-def-1 .statement tag=0DKL}
 
 Etant donné un module E sur l’anneau A, un élément x de E est dit isotrope si $\Phi(x, x) = 0$. Un sous-module F de E est dit
     1) isotrope s’il existe un élément $x \neq 0$ de F orthogonal à F ;
@@ -43,13 +43,13 @@ Lorsque le module E est muni d’une forme quadratique Q, on dira qu’un élém
 
 Un vecteur isotrope n’est autre qu’un vecteur orthogonal à lui-même. Dire qu’un sous-module F est isotrope signifie que $F \cap F^0 \neq \{0\}$, ou encore que la restriction de $\Phi$ à F est dégénérée ; un sous-module non isotrope G de E est donc un sous-module tel que la restriction de $\Phi$ à G est non dégénérée. Pour qu’un sous-module F de E soit totalement isotrope, il faut et il suffit que l’on ait $F \subset F^0$. Si F est un sous-module totalement isotrope de E, il en est de même de tout sous-module $F'$ contenu dans F. La somme d’une famille de sous-modules totalement isotropes et orthogonaux deux à deux est un sous-module totalement isotrope. L’ensemble des sous-modules totalement isotropes de E, ordonné par inclusion, est évidemment inductif ; il en résulte que tout sous-module totalement isotrope est contenu dans un sous-module totalement isotrope maximal.
 
-#### Proposition 1 {#alg-ix-s4-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s4-prop-1 .statement tag=0DKM}
 
 On suppose que A est un corps. Soit F un sous-espace non isotrope de dimension finie de E ; alors E est somme directe de F et de $F^0$.
 
 En effet, comme la restriction $\Phi'$ de $\Phi$ à F est non dégénérée par hypothèse, l’application $d_{\Phi'}$ de F dans son dual $F^*$ associée à droite à $\Phi'$ est injective, donc bijective puisque F et $F^*$ sont deux espaces de même dimension finie. Par suite, pour tout $y \in E$, il existe un élément $y_0$ et un seul de F tel que l’on ait $\Phi(x, y) = \Phi(x, y_0)$ pour tout $x \in F$, c’est-à-dire $y - y_0 \in F^0$ ; ceci prouve que E est somme directe de F et $F^0$.
 
-#### Corollaire {#alg-ix-s4-n1-cor-1 .statement}
+#### Corollaire {#alg-ix-s4-n1-cor-1 .statement tag=0DKN}
 
 Si F est un sous-espace de dimension finie de E, et si Φ est non dégénérée, les conditions suivantes sont équivalentes :
 
@@ -59,7 +59,7 @@ c) E est somme directe de F et F^0.
 
 La prop. 1 montre en effet que a) implique c), et c) implique a) et b). Enfin, si F^0 est non isotrope, on a F ∩ F^0 ⊂ F^0 ∩ F^{00} = {0}; donc F est non isotrope, ce qui montre que b) implique a).
 
-#### Définition 2 {#alg-ix-s4-def-2 .statement}
+#### Définition 2 {#alg-ix-s4-def-2 .statement tag=0DKO}
 
 Soit Q une forme quadratique sur E. Un élément x de E est dit singulier (relativement à Q) si Q(x) = 0. Un sous-module F de E est dit :
 1) singulier s’il existe un élément x ≠ 0 de F qui est singulier et orthogonal à F ;
@@ -77,7 +77,7 @@ CONDITION (T). — Pour tout $x \in E$, il existe $\alpha \in A$ tel que $\Phi(x
 
 Cette condition est toujours satisfaite lorsque $\Phi$ est alternée, ou lorsque $\varepsilon = 1$ et que $A$ est un corps de caractéristique $\neq 2$, en prenant alors $\alpha = \frac{1}{2} \Phi(x, x)$ (cf. exerc. 1 et 14).
 
-#### Lemme 1 {#alg-ix-s4-lem-1 .statement}
+#### Lemme 1 {#alg-ix-s4-lem-1 .statement tag=0DKP}
 
 Soit $\Phi$ une forme $\varepsilon$-hermitienne vérifiant (T) (resp. la forme bilinéaire associée à une forme quadratique Q) sur $E$, et soit F un sous-espace totalement isotrope (resp. totalement singulier) de $E$, non réduit à 0. Pour tout $x \in E$ non orthogonal à F et tout $\alpha \in A$, il existe $y \in F$ tel que
 
@@ -101,7 +101,7 @@ $$
 
 On dit que $\Phi$ est une forme neutre si elle est non dégénérée et si E est de dimension finie et est somme directe de deux sous-espaces totalement isotropes (resp. totalement singuliers). La somme directe de deux formes neutres est une forme neutre.
 
-#### Proposition 2 {#alg-ix-s4-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s4-prop-2 .statement tag=0DKQ}
 
 Soit $\Phi$ une forme $\varepsilon$-hermitienne non dégénérée vérifiant (T) (resp. la forme bilinéaire associée à une forme quadratique non dégénérée Q), et soit F un sous-espace totalement isotrope (resp. totalement singulier) de dimension finie r.
 
@@ -121,21 +121,21 @@ ce qui est impossible. Il existe alors un élément $x$ de $G^0$ tel que $x \not
 
 Alors le sous espace $G' = G + Ax$ est de dimension $s + 1$, et est totalement isotrope (resp. totalement singulier) ; de plus on a $G' \cap F^0 = \{0\}$ car, si $y = z + ax$ ($z \in G,\ a \in A$) est dans $F^0$, on a $a = 0$, car sinon $x \in F^0 + G$ contrairement au choix de $x$, d’où $y = z \in G \cap F^0 = \{0\}$ et $y = 0$. Par conséquent le sous-espace $G'$ répond à la question.
 
-#### Corollaire 1 {#alg-ix-s4-prop-2-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s4-prop-2-cor-1 .statement tag=0DKR}
 
 *Si F est un sous-espace totalement isotrope (resp. totalement singulier) de dimension r, il existe un sous-espace totalement isotrope (resp. totalement singulier) F' de dimension r tel que $F \cap F' = \{0\}$ et que $F + F'$ soit non isotrope.*
 
 Il suffit de faire $G = \{0\}$ dans la prop. 2, b).
 
-#### Corollaire 2 {#alg-ix-s4-prop-2-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s4-prop-2-cor-2 .statement tag=0DKS}
 
 *Deux formes $\varepsilon$-hermitiennes neutres sur des espaces de même dimension sur A sont équivalentes.*
 
-#### Remarque {#alg-ix-s4-n2-rem-1 .statement}
+#### Remarque {#alg-ix-s4-n2-rem-1 .statement tag=0DKT}
 
 Dans les conditions du corollaire 1, E est somme directe de $F + F'$ et de l’orthogonal de $F + F'$. On a donc une décomposition de Witt de E. D’après la prop. 2, a), il existe des bases de F et F’ telles que, dans la matrice (1) de $\Phi$, le bloc $U$ soit la matrice unité $1_r$.
 
-#### Proposition 3 {#alg-ix-s4-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s4-prop-3 .statement tag=0DKU}
 
 *Soit $\Phi$ une forme $\varepsilon$-hermitienne non dégénérée vérifiant (T) (resp. la forme bilinéaire associée à une forme quadratique non dégénérée Q). Soient $F_1$ et $F_2$ deux sous-espaces totalement isotropes (resp. totalement singuliers) maximaux de E, l’un des deux étant de dimension finie. Posons $F = F_1 \cap F_2$. Soit $S_i \ (i = 1, 2)$ un supplémentaire de $F$ dans $F_i$; posons $S = S_1 + S_2$. Il existe alors deux sous-espaces G et H de E tels que
 a) Les sous-espaces $G + F, S$ et H sont non isotropes et deux à deux orthogonaux ;
@@ -154,13 +154,13 @@ On a donc $S_1 \cap S_2^0 = \{0\}$, et de même $S_2 \cap S_1^0 = \{0\}$. Comme 
 
 Ceci étant, l’orthogonal $N$ de $S$ est non isotrope ($\mathrm{n}^\circ 1, \mathrm{cor.\ de\ la\ prop.\ 1}$) et contient $F$; le cor. 1 de la prop. 2 montre donc qu’il existe un sous-espace $G$ totalement isotrope (resp. totalement singulier) de $N$ tel que $\dim G = \dim F$, que $G \cap F = \{0\}$ et que $G + F$ soit non isotrope. Ainsi d) est vérifiée par $G$. On satisfera alors à a) et b) en prenant pour $H$ l’orthogonal de $G + F$ dans $N$. Quant à c), l’on remarque que, comme $H$ est orthogonal à $F_1 = S_1 + F$, il n’y a aucun vecteur isotrope (resp. singulier) non nul dans $H$ en vertu de ce qui a été remarqué au début de la démonstration et du fait que $H \cap F_1 = \{0\}$. Enfin certaines des assertions relatives aux dimensions ont été démontrées en cours de route ; les autres s’en déduisent trivialement.
 
-#### Corollaire 1 {#alg-ix-s4-prop-3-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s4-prop-3-cor-1 .statement tag=0DKV}
 
 Les hypothèses étant celles de la prop. 3, deux sous-espaces totalement isotropes (resp. totalement singuliers) maximaux de dimensions finies ont même dimension. Pour tout sous-espace totalement isotrope (resp. totalement singulier) maximal F de dimension finie, il en existe un autre F' tel que F ∩ F' = {0}, et dans ces conditions F + F' est non isotrope.
 
 Si F ∩ F' = {0}, on aura G = {0} avec les notations de la prop. 3, et F + F' sera non isotrope. Les autres assertions résultent trivialement de la prop. 3 et du cor. 1 de la prop. 2.
 
-#### Corollaire 2 {#alg-ix-s4-prop-3-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s4-prop-3-cor-2 .statement tag=0DKW}
 
 Soit Q une forme quadratique non dégénérée sur un espace vectoriel E de dimension finie n sur un corps algébriquement clos A ; il existe alors une base (e_i)_{1 \leq i \leq n} de E telle que
 
@@ -176,7 +176,7 @@ $$
 
 Soient en effet F_1 et F_2 deux sous-espaces totalement singuliers maximaux tels que F_1 ∩ F_2 = {0} (cor. 1) et soit q leur dimension. On a alors G = {0} avec les notations de la prop. 3. Prenant une base (e_i)_{1 \leq i \leq q} de F_1 et une base (e_i)_{q+1 \leq i \leq 2q} de F_2 telles que Φ(e_i, e_{j+q}) = δ_{ij} pour i, j = 1, ..., q (prop. 2 a)), on voit qu’il suffit de montrer que dim H ≤ 1. Or, si x ∈ H, y ∈ H et si x ≠ 0, l’équation Q(y - ax) = Q(y) - aΦ(x, y) + a^2 Q(x) = 0 a au moins une solution a_0 puisque Q(x) ≠ 0, et l’on a y = a_0 x puisque tout vecteur singulier de H est nul.
 
-#### Définition 3 {#alg-ix-s4-def-3 .statement}
+#### Définition 3 {#alg-ix-s4-def-3 .statement tag=0DKX}
 
 On suppose que E est de dimension finie et que Φ est une forme ε-hermitienne non dégénérée vérifiant (T) (resp. la forme bilinéaire associée à une forme quadratique non dégénérée Q). On appelle indice de Φ (resp. Q) la dimension commune des sous-espaces totalement isotropes (resp. totalement singuliers) maximaux de E.
 
@@ -189,7 +189,7 @@ $$
 
 De plus, comme tout sous-espace totalement isotrope (resp. totalement singulier) est contenu dans un sous-espace totalement isotrope (resp. totalement singulier) maximal, les sous-espaces totalement isotropes (resp. totalement singuliers) qui sont maximaux sont ceux qui sont de dimension $v$. L’assertion que $\Phi$ (resp. Q) est d’indice 0 signifie que tout vecteur isotrope (resp. singulier) de E est nul. Dans un espace de dimension paire $n$, les formes neutres sont celles d’indice $\frac{1}{2}n$; il n’y a pas de forme neutre dans un espace de dimension impaire. La prop. 3 montre que toute forme est somme directe d’une forme neutre et d’une forme d’indice 0.
 
-#### Proposition 4 {#alg-ix-s4-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s4-prop-4 .statement tag=0DKY}
 
 *Soit Q une forme quadratique non dégénérée sur E telle qu’il existe un vecteur $x \neq 0$ de E tel que $Q(x) = 0$. Pour tout élément a de A, il existe alors $y \in E$ tel que $Q(y) = a$.*
 
@@ -203,7 +203,7 @@ Il suffit ainsi de prendre pour $y$ le vecteur $ae + b^{-1}e'$.
 
 Étant donnés deux espaces vectoriels E, $E'$ sur A munis respectivement de deux formes sesquilinéaires $\Phi, \Phi'$ (resp. de deux formes quadratiques Q, $Q'$), on appelle *homomorphisme métrique* de E dans $E'$ toute application linéaire $u$ de E dans $E'$ telle que $\Phi'(u(x), u(y)) = \Phi(x, y)$ (resp. $Q'(u(x)) = Q(x)$) pour $x \in E, y \in E$. Si E et $E'$ ont même dimension finie et si $\Phi$ (resp. Q) est non dégénérée, tout homomorphisme métrique $u$ de E dans $E'$ est un isomorphisme, car $u(x) = 0$ implique $\Phi(x, y) = 0$ pour tout $y \in E$, donc $x = 0$; ainsi $u$ est injectif, donc bijectif puisque E et $E'$ ont même dimension finie.
 
-#### Théorème 1 (Witt) {#alg-ix-s4-thm-1 .statement}
+#### Théorème 1 (Witt) {#alg-ix-s4-thm-1 .statement tag=0DKZ}
 
 *Soient E et $E'$ deux espaces vectoriels de dimensions finies, munis respectivement de deux formes $\varepsilon$-hermitiennes non dégénérées $\Phi$ et $\Phi'$ vérifiant la condition (T) du no 2* (resp. de deux formes quadratiques non dégénérées Q et Q'), et isomorphes pour ces structures. Etant donné un sous-espace quelconque F de E, tout homomorphisme métrique injectif de F dans E' se prolonge en un isomorphisme métrique de E sur E'.
 
@@ -231,17 +231,17 @@ pour tout x ∈ F ; en effet la forme linéaire x → Φ(u^{-1}(x), z) sur F est
 
 2) Dans le cas général, nous raisonnons par récurrence sur r = dim F. Le cas r = 0 est trivial. Soit alors r > 0, c’est-à-dire F ≠ {0}, et soit U un hyperplan de F. La restriction u_0 de u à U se prolonge, d’après l’hypothèse de récurrence, en un automorphisme métrique ϕ_0 de E. Si ϕ_0 prolonge u, le théorème est démontré. Sinon U est l’ensemble des éléments invariants, par v_0^{-1}u, et il existe , d’après 1), un automorphisme métrique v_1 de E prolongeant v_0^{-1}u. L’automorphisme v_0v_1 est alors le prolongement cherché de u. CQFD.
 
-#### Corollaire 1 {#alg-ix-s4-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s4-prop-4-cor-1 .statement tag=0DL0}
 
 Soient, pour i = 1, 2, E_i un espace vectoriel de dimension finie, Φ_i une forme ε-hermitienne non dégénérée sur E_i vérifiant (T) (resp. Q_i une forme quadratique non dégénérée sur E_i), E'_i et E''_i deux sous-espaces orthogonaux de E_i dont E_i soit somme directe. Si les formes Φ_1 et Φ_2 (resp. Q_1 et Q_2) sont équivalentes, et si leurs restrictions à E'_1 et E'_2 sont équivalentes, il en est de même de leurs restrictions à E''_1 et E''_2.
 
 En effet, soit u un isomorphisme métrique de E'_1 sur E'_2. D’après le th. 1, u se prolonge en un isomorphisme métrique ϕ de E_1 sur E_2. Comme Φ_i est non dégénérée, E''_i est l’orthogonal de E'_i dans E_i, donc ϕ applique E''_1 sur E''_2. CQFD.
 
-#### Corollaire 2 {#alg-ix-s4-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s4-prop-4-cor-2 .statement tag=0DL1}
 
 Les hypothèses étant celles du th. 1, le groupe des automorphismes métriques de E permuté transitiivement les sous-espaces totalement isotropes (resp. totalement singuliers) de dimension donnée de E. De plus, si F est un sous-espace totalement isotrope (resp. totalement singulier) de E, toute application linéaire bijective de F sur F est induite par un automorphisme métrique de E.
 
-#### Corollaire 3 {#alg-ix-s4-prop-4-cor-3 .statement}
+#### Corollaire 3 {#alg-ix-s4-prop-4-cor-3 .statement tag=0DL2}
 
 Soit Q une forme quadratique non dégénérée sur un espace vectoriel E de dimension finie sur un corps algébriquement clos A. Le groupe des automorphismes métriques de E permuté transitiivement les sous-espaces non isotropes de dimension donnée de E.
 

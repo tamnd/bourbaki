@@ -53,7 +53,7 @@ subsections:
       pdf_page: 300
 statements: 63
 exercises: 14
-content_sha256: 0511f216e8c3d5a83468e67c1c86443fe5797303afd05d91dd35fda0ca79473c
+content_sha256: 7040aaa1272dc19ee269681a0b2f6bfe3f78c32a43f63738ac019d60803ab346
 translated_from: content/en-mt/ta/III/02_s2_homotopie_et_chemins.md
 source_lang: en-mt
 translation_method: machine

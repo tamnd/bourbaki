@@ -32,7 +32,7 @@ subsections:
       pdf_page: 69
 statements: 16
 exercises: 3
-content_sha256: f16537357b899952237ff7885a09e6217a02895a46b577fde6d07b82206db25b
+content_sha256: 629b358776634fed54e50c6222f4affb10afcd21fa34c08295b85817a77f9ace
 ---
 
 ## § 2. Réflexions
@@ -41,7 +41,7 @@ Dans ce paragraphe, on désigne par K un corps commutatif, supposé de caractér
 
 ### 1. Pseudo-réflexions
 
-#### Définition 1 {#lie-v-s2-def-1 .statement}
+#### Définition 1 {#lie-v-s2-def-1 .statement tag=0APJ}
 
 On dit qu’un endomorphisme s de l’espace vectoriel V est une pseudo-réflexion si $1 - s$ est de rang 1.
 
@@ -63,7 +63,7 @@ $$
 
 Si a est un vecteur non nul, on appelle pseudo-réflexion de vecteur a toute pseudo-réflexion s telle que a appartienne à l’image de $1 - s$. On appelle hyperplan d’une pseudo-réflexion s le noyau de $1 - s$, ensemble des vecteurs x tels que $s(x) = x$.
 
-#### Proposition 1 {#lie-v-s2-prop-1 .statement}
+#### Proposition 1 {#lie-v-s2-prop-1 .statement tag=0APK}
 
 Soient G un groupe et $\rho$ une représentation linéaire irréductible de G dans un espace vectoriel V ; on suppose qu’il existe un élément g de G tel que $\rho(g)$ soit une pseudo-réflexion.
 
@@ -96,7 +96,7 @@ Appliquons ceci en particulier à la forme bilinéaire $B'(x, y) = B(y, x)$; on 
 
 On rappelle que sauf mention expresse du contraire, le corps K est désormais supposé de caractéristique différente de 2. On appellera réflexion dans V toute pseudo-réflexion s telle que $s^2 = 1$; si s est une réflexion, on notera $V_s^+$ le noyau de $s - 1$ et $V_s^-$ celui de $s + 1$.
 
-#### Proposition 2 {#lie-v-s2-prop-2 .statement}
+#### Proposition 2 {#lie-v-s2-prop-2 .statement tag=0APL}
 
 Soit s un endomorphisme de V.
 
@@ -108,13 +108,13 @@ Soit s un endomorphisme de V.
 
 (ii) Sous les hypothèses faites, tout élément de V s’écrit de manière unique sous la forme $v = x + y$ avec $x \in H$ et $y \in D$ et l’on a $s(v) = x - y$; l’assertion (ii) résulte immédiatement de là.
 
-#### Corollaire {#lie-v-s2-n2-cor-1 .statement}
+#### Corollaire {#lie-v-s2-n2-cor-1 .statement tag=0APM}
 
 Si V est de dimension finie, toute réflexion est de déterminant — 1.
 
 Soit s une réflexion dans V. La prop. 2, (i) montre qu’il existe une base $(e_1, \ldots, e_n)$ de V telle que $s(e_1) = e_1, \ldots, s(e_{n-1}) = e_{n-1}$ et $s(e_n) = -e_n$, d’où $\det s = -1$.
 
-#### Proposition 3 {#lie-v-s2-prop-3 .statement}
+#### Proposition 3 {#lie-v-s2-prop-3 .statement tag=0APN}
 
 *Soit s une réflexion dans V.*
 
@@ -126,7 +126,7 @@ Soit s une réflexion dans V. La prop. 2, (i) montre qu’il existe une base $(e
 
 (ii) Supposons d’abord que $u$ commute à $s$. Si $x$ est un vecteur tel que $s(x) = \varepsilon \cdot x$ (où $\varepsilon = \pm 1$), on a $s(u(x)) = u(s(x)) = \varepsilon \cdot u(x)$, donc $V_s^+$ et $V_s^-$ sont stables par $u$. Réciproquement, supposons $V_s^+$ et $V_s^-$ stables par $u$; il est clair que $us - su$ est nul dans $V_s^+$ et dans $V_s^-$, et comme $V$ est somme directe de $V_s^+$ et $V_s^-$, on a $us - su = 0$.
 
-#### Corollaire {#lie-v-s2-n2-cor-2 .statement}
+#### Corollaire {#lie-v-s2-n2-cor-2 .statement tag=0APO}
 
 *Pour que deux réflexions distinctes s et u soient permutables, il faut et il suffit que l’on ait $V_s^- \subset V_u^+$ et $V_u^- \subset V_s^+$.*
 
@@ -138,7 +138,7 @@ a) On a $V_u^- \subset V_s^-$: ces deux espaces étant de dimension 1 sont donc 
 
 b) On a $V_s^- \subset V_u^+$: l’image de $1 - s$ est donc contenue dans le noyau de $1 - u$, d’où $(1 - u)(1 - s) = 0$. Comme $u$ et $s$ commutent, on a aussi $(1 - s)(1 - u) = 0$, c’est-à-dire $V_u^- \subset V_s^+$.
 
-#### Remarque {#lie-v-s2-n2-rem-1 .statement}
+#### Remarque {#lie-v-s2-n2-rem-1 .statement tag=0APP}
 
 Soit $a \neq 0$ dans $V$ et soit $a^*$ une forme linéaire non nulle sur $V$: de la formule (1), on déduit
 
@@ -160,7 +160,7 @@ $$
 
 d’après Alg., chap. IX, § 6, n° 4, formule (6). On dit aussi que s est la réflexion orthogonale par rapport à H.
 
-#### Proposition 4 {#lie-v-s2-prop-4 .statement}
+#### Proposition 4 {#lie-v-s2-prop-4 .statement tag=0APQ}
 
 On suppose V de dimension finie. Soient B une forme bilinéaire symétrique non dégénérée sur V, X un sous-espace de V et $X^0$ l’orthogonal de X par rapport à B; enfin soit s la réflexion orthogonale par rapport à un hyperplan non isotrope H de V. Les conditions suivantes sont équivalentes :
 
@@ -182,7 +182,7 @@ $$
 s_H(h + v) = h - v.
 $$
 
-#### Proposition 5 {#lie-v-s2-prop-5 .statement}
+#### Proposition 5 {#lie-v-s2-prop-5 .statement tag=0APR}
 
 Soient H et H’ deux hyperplans de E parallèles et non isotropes Il existe un unique vecteur $v \in V$, orthogonal à H, et tel que $H' = H + v$. Le déplacement $s_{H'} s_H$ est la translation de vecteur $2v$.
 
@@ -194,13 +194,13 @@ $$
 
 ce qui montre que $s_{H'} s_H$ est la translation de vecteur $2v$.
 
-#### Corollaire {#lie-v-s2-n4-cor-1 .statement}
+#### Corollaire {#lie-v-s2-n4-cor-1 .statement tag=0APS}
 
 *Soient $H$ et $H'$ deux hyperplans parallèles, distincts et non isotropes. Si $K$ est de caractéristique zéro (resp. $p > 0$, avec $p \neq 2$) le groupe de déplacements de $E$ engendré par $s_H$ et $s_{H'}$ est un groupe diédral infini* (resp. *d’ordre $2p$*).
 
 En effet, d’après la prop. 2 du chap. IV, § 1, no 2, il suffit de vérifier que $s_{H'} s_H$ est d’ordre infini (resp. d’ordre $p$), ce qui est évident.
 
-#### Remarque {#lie-v-s2-n4-rem-1 .statement}
+#### Remarque {#lie-v-s2-n4-rem-1 .statement tag=0APT}
 
 Gardons les notations de la prop. 5 et supposons de plus que $K = \mathbf{R}$. Posons $s = s_H$ et $s' = s_{H'}$. Soit $H_n$ l’hyperplan $H + n.v$ et soit $C_n$ l’ensemble des points de $E$ de la forme $a + \xi .v$ avec $a \in H$ et $n < \xi < n + 1$. Les $C_n$ sont des ensembles ouverts connexes et ils forment une partition de $E - \bigcup_n H_n$. Ce sont donc les *chambres* définies par le système $H = (H_n)_{n \in \mathbf{Z}}$ dans $E$. La translation $(s's)^n$ transforme la chambre $C = C_0$ en la chambre $C_{2n}$, et comme $s(C_0) = C_{-1}$, on a $(s's)^n s(C) = C_{2n-1}$. Il en résulte que *le groupe diédral W engendré par s et s' permut de façon simplement transitive les chambres C_n*. De plus, montrons que, *si les chambres C et w(C) sont de part et d’autre de H* (pour $w \in W$), *on a* $l(sw) = l(w) - 1$ (les longueurs étant prises par rapport à $S = \{s, s'\}$ (chap. IV, § 1, no 1)). En effet, on a alors $w(C) = C_n$ avec $n < 0$. Si $n = -2k$, on a $w = (ss')^k$ et $sw = (s's)^{k-1}s'$, d’où $l(w) = 2k$ et $l(sw) = 2k - 1$ (chap. IV, § 1, no 2, *Remarque*). Si $n = -2k - 1$, on a $w = (ss')^k s$ et $sw = (s's)^k$, d’où $l(w) = 2k + 1$ et $l(sw) = 2k$.
 
@@ -208,7 +208,7 @@ Gardons les notations de la prop. 5 et supposons de plus que $K = \mathbf{R}$. P
 
 Dans ce no, on désigne par $V$ un espace vectoriel réel de dimension 2, muni d’un *produit scalaire* (c’est-à-dire d’une forme bilinéaire symétrique positive non dégénérée) et d’une *orientation*. Les mesures d’angles seront prises par rapport à la base $2\pi$; la mesure principale d’un angle de demi-droites (resp. de droites) est donc un nombre réel $\theta$ tel que $0 \leq \theta < 2\pi$ (resp. $0 \leq \theta < \pi$) (*Top. gén.*, chap. VIII, § 2, no 3 et no 6). Pour tout nombre réel $\theta$, on parlera par abus de langage de l’angle $\theta$ pour désigner un angle dont une mesure est $\theta$ et on note $\rho_\theta$ la rotation d’angle $\theta$ (*Alg.*, chap. IX, § 10, no 3).
 
-#### Proposition 6 {#lie-v-s2-prop-6 .statement}
+#### Proposition 6 {#lie-v-s2-prop-6 .statement tag=0APU}
 
 *Soit s la réflexion orthogonale par rapport à une droite D de V. Si $\Delta$ et $\Delta'$ sont deux demi-droites d’origine O (resp. deux droites passant par O) de V, on a*:
 
@@ -218,7 +218,7 @@ $$
 
 Soit $u$ une rotation transformant $\Delta$ en $\Delta'$. Comme $su$ est une transformation orthogonale de V de déterminant — 1, c’est une réflexion et l’on a donc $(su)^2 = 1$. Par suite, $u^{-1} = sus^{-1}$ transforme $s(\Delta)$ en $s(\Delta')$, d’où la proposition.
 
-#### Corollaire {#lie-v-s2-n5-cor-1 .statement}
+#### Corollaire {#lie-v-s2-n5-cor-1 .statement tag=0APV}
 
 Soient D et D' deux droites de V et soit $\theta$ une mesure de l’angle $(\overline{D}, \overline{D'})$. On a $s_D s_D = \rho_{2\theta}$.
 
@@ -242,13 +242,13 @@ $$
 
 et soient $s$ et $s'$ les réflexions orthogonales par rapport aux droites D et D' contenant $\Delta$ et $\Delta'$. Soit $\theta$ la mesure principale de l’angle $(\overline{D}, \overline{D'})$. Si $\theta \in \pi \mathbf{Q}$, on désigne par $m$ le plus petit entier $\geq 1$ tel que $m\theta \in \pi \mathbf{Z}$. Si $\theta \notin \pi \mathbf{Q}$, on pose $m = \infty$. Soit W le groupe engendré par $s$ et $s'$.
 
-#### Proposition 7 {#lie-v-s2-prop-7 .statement}
+#### Proposition 7 {#lie-v-s2-prop-7 .statement tag=0APW}
 
 Le groupe W est un groupe diédral (chap. IV, § 1, no 2) d’ordre $2m$. Il se compose des rotations $\rho_{2n\theta}$ et des produits $\rho_{2n\theta}s$ pour $n \in \mathbf{Z}$. Les transformées de D et D' par les éléments de W sont les transformées de D par les rotations $\rho_{n\theta}$ pour $n \in \mathbf{Z}$.
 
 Le cor. de la prop. 6 montre que $s's$ est d’ordre $m$, d’où la première assertion. Les éléments de W sont donc de la forme $(s's)^n = \rho_{2n\theta}$ ou $(s's)^n s = \rho_{2n\theta}s$; la dernière assertion en résulte, puisque $D' = \rho_\theta(D)$.
 
-#### Corollaire {#lie-v-s2-n5-cor-2 .statement}
+#### Corollaire {#lie-v-s2-n5-cor-2 .statement tag=0APX}
 
 Soit C le secteur angulaire ouvert réunion des demi-droites ouvertes $\Delta_1$ d’origine 0 telles que $0 < (\overline{\Delta}, \overline{\Delta_1}) < \theta$. Pour qu’aucune transformée de D ou de D' par un élément de W ne rencontre C, il faut et il suffit que m soit fini et que
 
@@ -258,7 +258,7 @@ $$
 
 Si $m = \infty$, l’image de l’ensemble des $n\theta$ ($n \in \mathbf{Z}$) est dense dans $\mathbf{R}/2\pi \mathbf{Z}$ (Top. gén., chap. VII, § 1, cor. de la prop. 11); la réunion des transformées de D par les éléments de W est donc dense dans V et rencontre C. Si $m$ est fini et si $\theta = k\pi/m$, avec $1 < k < m$, les entiers $k$ et $m$ étant étrangers, il existe un entier $h$ tel que $hk \equiv 1 \bmod{m}$; on a alors $(\overline{D}, \rho_{h\theta}(\overline{D})) \equiv \pi/m$ (mod. $\pi$), et $\rho_{h\theta}(D)$ rencontre C. Ceci montre que la condition est nécessaire. La réciproque est immédiate.
 
-#### Remarque {#lie-v-s2-n5-rem-1 .statement}
+#### Remarque {#lie-v-s2-n5-rem-1 .statement tag=0APY}
 
 Supposons $m$ fini et $\theta = \pi/m$. Si $n \in \mathbf{Z}$, soit $C_n$ la réunion des demi-droites ouvertes $\Delta_1$ d’origine 0 telles que
 

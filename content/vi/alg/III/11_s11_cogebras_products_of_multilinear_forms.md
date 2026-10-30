@@ -66,9 +66,9 @@ subsections:
       pdf_page: 633
 statements: 40
 exercises: 25
-content_sha256: 148ce67443e86e7af89f1612eb3e37467151bf935d562e135fa13b8bc84f1b78
+content_sha256: 7410fe82e8bf4160d6c24bce3144808c06504221af17ae7bf34cd86e3eeb2d59
 translated_from: content/en/alg/III/11_s11_cogebras_products_of_multilinear_forms.md
-source_content_sha256: 9c7b4e127fe09ee8609310f4b85f86bc773f875119f7c780156674549783b793
+source_content_sha256: d9e2a61c3971782f685be044252b3450406801250b05574efb54eb00ac04501c
 translation_model: gpt-5.4
 translation_run: translate-vi-3a454801
 glossary_version: 34
@@ -82,13 +82,13 @@ Trong đoạn này, A là một vành giao hoán với phân bậc tầm thườ
 
 ### 1. ĐỐI ĐẠI SỐ
 
-#### Định nghĩa 1 {#alg-iii-s11-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s11-def-1 .statement tag=067H}
 
 Một đối đại số trên A (hay A-đối đại số, hoặc đơn giản là đối đại số nếu không thể có sự lẫn lộn) là một tập hợp E với một cấu trúc được xác định bởi việc cho các dữ liệu sau:
 (1) một cấu trúc A-môđun trên E;
 (2) một ánh xạ A-tuyến tính c: E → E ⊗_A E gọi là đồng tích của E.
 
-#### Định nghĩa 2 {#alg-iii-s11-def-2 .statement}
+#### Định nghĩa 2 {#alg-iii-s11-def-2 .statement tag=067I}
 
 Cho hai đối đại số E, E', mà các đồng tích của chúng lần lượt được ký hiệu bởi c và c', một cấu xạ từ E vào E' là một ánh xạ A-tuyến tính u: E → E' sao cho
 (1) $(u \otimes u) \circ c = c' \circ u,$ nói cách khác, nó làm cho biểu đồ các ánh xạ A-tuyến tính
@@ -105,7 +105,7 @@ giao hoán.
 
 Ngay lập tức kiểm tra được rằng ánh xạ đồng nhất là một cấu xạ, rằng hợp thành của hai cấu xạ là một cấu xạ, và rằng mọi cấu xạ song ánh đều là một đẳng cấu.
 
-#### Ví dụ {#alg-iii-s11-n1-exa-1 .statement}
+#### Ví dụ {#alg-iii-s11-n1-exa-1 .statement tag=067J}
 
 (1) Đẳng cấu chính tắc $A \to A \otimes_A A$ (II, § 3, no. 5) xác định một cấu trúc A-đối đại số trên A.
 
@@ -211,7 +211,7 @@ $$(10)\quad c(E_\lambda) \subset \sum_{\mu + \nu = \lambda} E_\mu \otimes_A E_\n
 
 Trong phần sau, phần lớn chúng ta sẽ chỉ xét các phân bậc kiểu $\mathbf{N}$ tương thích với đồng tích; một đối đại số có một phân bậc như vậy cũng sẽ được gọi là một *đối đại số phân bậc*. Nếu F là một đối đại số phân bậc khác, một *cấu xạ đối đại số phân bậc* $\phi : E \to F$ theo định nghĩa là một cấu xạ đối đại số (Định nghĩa 2) đồng thời cũng là một *đồng cấu phân bậc bậc* 0 của các A-môđun phân bậc.
 
-#### Ví dụ {#alg-iii-s11-n1-exa-2 .statement}
+#### Ví dụ {#alg-iii-s11-n1-exa-2 .statement tag=067K}
 
 (9) Ngay lập tức thấy rằng các đối đại số $T(M)$, $S(M)$ và $\Lambda(M)$ được định nghĩa ở trên là các đối đại số phân bậc.
 
@@ -227,7 +227,7 @@ Rõ ràng như thế ta đã xác định được một ánh xạ A-song tuyế
 
 Khi E là một đối đại số phân bậc, N, $N'$, $N''$ là các A-môđun phân bậc cùng kiểu và $\tilde{m}$ là một đồng cấu phân bậc bậc k từ $N \otimes_A N'$ vào $N''$, thì, nếu $u$ (tương ứng $v$) là một đồng cấu phân bậc bậc $p$ (tương ứng $q$), $m(u, v)$ là một đồng cấu phân bậc bậc $p + q + k$.
 
-#### Ví dụ {#alg-iii-s11-n2-exa-1 .statement}
+#### Ví dụ {#alg-iii-s11-n2-exa-1 .statement tag=067L}
 
 (1) Lấy E là đối đại số phân bậc $T(M)$ (no. 1) và giả sử rằng N, $N'$, $N''$ có phân bậc tầm thường. Khi đó một đồng cấu phân bậc bậc $-p$ từ $T(M)$ vào N (tương ứng $N'$, $N''$) tương ứng với một ánh xạ đa tuyến tính từ $M^p$ vào N (tương ứng $N'$, $N''$). Với một ánh xạ đa tuyến tính $u : M^p \to N$ và một ánh xạ đa tuyến tính $v : M^q \to N'$, phương pháp trên cho phép ta suy ra một ánh xạ đa tuyến tính $m(u, v) : M^{p+q} \to N''$ được gọi là *tích* (đối với $m$) của $u$ và $v$. Các công thức (3) (no. 1) và (11) cho thấy rằng, với $x_1, \ldots, x_{p+q}$ thuộc M,
 
@@ -267,11 +267,11 @@ và vì thế $\tilde{\phi}(uv) = \tilde{\phi}(u)\tilde{\phi}(v)$, điều đó 
 
 Đặc biệt, chuyển vị phân bậc $^t\phi : F^{*gr} \to E^{*gr}$ là một đồng cấu đại số phân bậc.
 
-#### Nhận xét {#alg-iii-s11-n2-rem-1 .statement}
+#### Nhận xét {#alg-iii-s11-n2-rem-1 .statement tag=067M}
 
 Giả sử các $E_p$ là các A-môđun xạ ảnh sinh hữu hạn, sao cho các A-môđun phân bậc $(E \otimes_A E)^{*gr}$ và $E^{*gr} \otimes_A E^{*gr}$ có thể được đồng nhất một cách chính tắc (II, § 4, no. 4, Hệ quả 1 của Mệnh đề 4). Nếu thêm nữa các A-môđun $A \otimes_A A$ và $A$ khi đó được đồng nhất một cách chính tắc (II, § 3, no. 4), thì ánh xạ tuyến tính $E^{*gr} \otimes_A E^{*gr} \to E^{*gr}$ xác định phép nhân trong $E^{*gr}$ có thể được gọi là chuyển vị phân bậc của đồng tích $c$.
 
-#### Mệnh đề 1 {#alg-iii-s11-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s11-prop-1 .statement tag=067N}
 
 *Cho $E$ là một đối đại số trên $A$. Điều kiện cần và đủ để, với mọi $A$-đại số kết hợp $B$, $A$-đại số $\mathrm{Hom}_A(E, B)$ là kết hợp, là đồng tích $c : E \to E \otimes_A E$ sao cho biểu đồ*
 
@@ -301,7 +301,7 @@ Suy ra rằng nếu biểu đồ (12) là giao hoán, thì đại số $\mathrm{
 
 Khi đối đại số $E$ thỏa mãn điều kiện của Mệnh đề 1, ta nói rằng nó là đối kết hợp.
 
-#### Ví dụ {#alg-iii-s11-n2-exa-2 .statement}
+#### Ví dụ {#alg-iii-s11-n2-exa-2 .statement tag=067O}
 
 (4) Ta kiểm tra ngay lập tức được rằng đối đại số $A$ (no. 1, Ví dụ (1)), đối đại số $A^{(X)}$ (no. 1, Ví dụ 4) và đối đại số $\mathscr{T}(M)$ (no. 1, Ví dụ 5) đều là đối kết hợp. Nếu $B$ là một đại số trên $A$ kết hợp, đồng thời là một A-môđun xạ ảnh sinh hữu hạn, thì đối đại số $B^*$ (no. 1, Ví dụ 3) là đối kết hợp: vì khi đó tính giao hoán của biểu đồ (12) suy ra bằng phép chuyển vị từ tính giao hoán của biểu đồ biểu thị tính kết hợp của $B$ (§ 1, no. 3). Đảo lại, cùng lập luận ấy và sự đồng nhất chính tắc của A-môđun B với song đối ngẫu của nó (II, § 2, no. 7, Hệ quả 4 của Mệnh đề 13) cho thấy rằng nếu đối đại số B* là đối kết hợp, thì đại số B là kết hợp. Sau cùng, các đối đại số S(M) và $\Lambda(M)$ (no. 1, Ví dụ 6 và 7) là đối kết hợp; điều này suy ra từ tính giao hoán của biểu đồ
 
@@ -336,7 +336,7 @@ $$
 
 và sự tồn tại cùng tính hàm tử của các đẳng cấu chính tắc đối với các đại số đối xứng và ngoài của một tổng trực tiếp (§ 6, no. 6 và § 7, no. 7).
 
-#### Mệnh đề 2 {#alg-iii-s11-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-s11-prop-2 .statement tag=067P}
 
 *Cho E là một đối đại số trên A. Để với mọi đại số trên A giao hoán B, đại số trên A $\mathrm{Hom}_A(E, B)$ là giao hoán, điều kiện cần và đủ là đồng tích $c : E \to E \otimes_A E$ sao cho biểu đồ*
 
@@ -368,11 +368,11 @@ Suy ra rằng nếu biểu đồ (15) là giao hoán thì đại số $\mathrm{H
 
 Khi đối đại số E thỏa mãn điều kiện của Mệnh đề 2, người ta nói nó là đối giao hoán.
 
-#### Ví dụ {#alg-iii-s11-n2-exa-3 .statement}
+#### Ví dụ {#alg-iii-s11-n2-exa-3 .statement tag=067Q}
 
 (5) Ngay lập tức thấy rằng đối đại số A (no. 1, Ví dụ 1) và đối đại số $A^{(X)}$ (II, § 11, no. 1, Ví dụ 4) là đối giao hoán. Từ công thức (5) của no. 1 suy ra đối đại số $S(M)$ là đối giao hoán. Sau hết, để một A-đại số B sao cho A-môđun B là xạ ảnh và sinh hữu hạn có tính chất rằng đối đại số $B^*$ (no. 1, Ví dụ 3) là đối giao hoán, điều kiện cần và đủ là B giao hoán; thật vậy (dùng sự đồng nhất chính tắc của A-môđun B với song đối ngẫu của nó (II, § 2, no. 7)), điều này suy ra từ việc tính giao hoán của biểu đồ (14), qua chuyển vị, là tương đương với tính giao hoán của biểu đồ biểu thị tính giao hoán của B (§ 1, no. 3).
 
-#### Mệnh đề 3 {#alg-iii-s11-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-s11-prop-3 .statement tag=067R}
 
 *Cho E là một đối đại số trên A. Điều kiện cần và đủ để, với mọi A-đại số có đơn vị B, A-đại số $\mathrm{Hom}_A(E, B)$ có đơn vị là tồn tại một dạng tuyến tính $\gamma$ trên E làm cho các biểu đồ sau giao hoán*
 
@@ -414,11 +414,11 @@ của C. Điều kiện $fe = f$ kéo theo tính giao hoán của biểu đồ t
 
 Một dạng tuyến tính $\gamma$ trên E làm cho các biểu đồ (16) giao hoán được gọi là một *đồng đơn vị* của đối đại số E. Một đối đại số *nhiều nhất chỉ có một* đồng đơn vị: vì đó là phần tử đơn vị của đại số Hom$_A$(E, A). Một đối đại số có đồng đơn vị được gọi là *có đồng đơn vị*.
 
-#### Ví dụ {#alg-iii-s11-n2-exa-4 .statement}
+#### Ví dụ {#alg-iii-s11-n2-exa-4 .statement tag=067S}
 
 (6) Ánh xạ đồng nhất là đồng đơn vị của đối đại số A; trên đối đại số A$^{(X)}$ (no. 1, *Ví dụ 4*) dạng tuyến tính $\gamma$ sao cho $\gamma(e_x) = 1$ với mọi $x \in X$ là đồng đơn vị. Trên đối đại số T(M) (tương ứng S(M), $\Lambda(M)$) dạng tuyến tính $\gamma$ sao cho $\gamma(1) = 1$ và $\gamma(z) = 0$ với $z$ trong $T^n(M)$ (tương ứng $S^n(M)$, $\Lambda^n(M)$) với $n \geq 1$ là đồng đơn vị. Sau cùng, cho B là một đại số trên A đồng thời là một A-môđun xạ ảnh sinh hữu hạn và có một phần tử đơn vị $e$; khi đó trên đối đại số B* (no. 1, *Ví dụ 3*) dạng tuyến tính $\gamma: x^* \mapsto \langle e, x^* \rangle$ là đồng đơn vị, vì dạng này chính là ánh xạ chuyển vị của ánh xạ A-tuyến tính $\eta_e: \xi \mapsto \xi e$ từ A vào B và do phép chuyển vị, tính giao hoán của các biểu đồ (16) suy ra từ tính giao hoán của các biểu đồ biểu thị (dùng $\eta_e$) sự kiện $e$ là phần tử đơn vị của B (§ 1, no. 3); hơn nữa cùng một lập luận cũng cho thấy rằng ngược lại, nếu đối đại số B* thừa nhận một đồng đơn vị $\gamma$, thì ánh xạ chuyển vị của $\gamma$ xác định một phần tử đơn vị $e = t_\gamma(1)$ của B.
 
-#### Mệnh đề 4 {#alg-iii-s11-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-s11-prop-4 .statement tag=067T}
 
 *Cho E là một đối đại số thừa nhận một đồng đơn vị $\gamma$ và giả sử rằng tồn tại trong E một phần tử e sao cho $\gamma(e) = 1$; khi đó E là tổng trực tiếp của các môđun con trên A Ae và $E_{\gamma} = \mathrm{Ker}(\gamma)$ và*
 
@@ -445,7 +445,7 @@ A(e \otimes e) \oplus ((Ae) \otimes E_\gamma) \oplus (E_\gamma \otimes (Ae)) \op
 $$
 cho phép ta viết, với $x \in E_\gamma$, $c(x) = \lambda(e \otimes e) + (e \otimes y) + z \otimes e) + u$ trong đó $u = \sum_j v_j \otimes w_j, y, z$ và các $v_j$ và $w_j$ thuộc $E_\gamma$. Định nghĩa của đồng đơn vị $\gamma$ khi đó cho $x = \lambda e + y = \lambda e + z$ và, vì $\gamma(x) = 0$, tất yếu $\lambda = 0, x = y = z$, do đó có quan hệ thứ hai của (18).
 
-#### Nhận xét {#alg-iii-s11-n2-rem-2 .statement}
+#### Nhận xét {#alg-iii-s11-n2-rem-2 .statement tag=067U}
 
 Cho C là một đối đại số trên A có đồng đơn vị và kết hợp, B là một đại số trên A có đơn vị và kết hợp, và M là một B-môđun trái. Ánh xạ A-song tuyến tính $(b, m) \mapsto bm$ từ $B \times M$ vào M xác định một ánh xạ A-song tuyến tính
 $$
@@ -455,7 +455,7 @@ theo thủ tục tổng quát đã được mô tả ở đầu số này. Ngay 
 
 ### 3. CÁC TÍNH CHẤT CỦA CÁC ĐỐI ĐẠI SỐ PHÂN BẬC KIỂU N
 
-#### Mệnh đề 5 {#alg-iii-s11-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iii-s11-prop-5 .statement tag=067V}
 
 (i) *Cho E là một đối đại số phân bậc thừa nhận một đồng đơn vị $\gamma$; khi đó $\gamma$ là một dạng tuyến tính thuần nhất bậc 0.*
 
@@ -490,7 +490,7 @@ và vì thế $\gamma(x) = \sum_i \gamma(y_{in}) \gamma(z_{i0}) = \gamma(0) = 0$
 
 (ii) Vì $\mathrm{Ker}(\gamma)$ và $E_+$ đều là các môđun con bổ sung của $Ae = E_0$ trong E và $E_+ \subset \mathrm{Ker}(\gamma)$ theo (i), nên $E_+ = \mathrm{Ker}(\gamma)$ (II, § 1, no. 8, Nhận xét 1); các khẳng định khác suy ra từ Mệnh đề 4 của no. 2.
 
-#### Mệnh đề 6 {#alg-iii-s11-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iii-s11-prop-6 .statement tag=067W}
 
 *Cho E là một đối đại số phân bậc trên A. Điều kiện cần và đủ để, với mọi A-đại số giao hoán B, với phân bậc tầm thường, A-đại số phân bậc kiểu $\mathbf{Z} \mathrm{Homgr}_A(E, B)$ (no. 2) là phản giao hoán (§ 4, no. 9, Định nghĩa 7), là nếu $\sigma_g$ ký hiệu tự đẳng cấu của A-môđun $E \otimes_A E$ sao cho*
 
@@ -514,13 +514,13 @@ Chứng minh tương tự như chứng minh của Mệnh đề 2 ở no. 2.
 
 Khi đối đại số phân bậc E thỏa mãn điều kiện của Mệnh đề 6, người ta nói rằng nó là *phản đối giao hoán*.
 
-#### Ví dụ {#alg-iii-s11-n3-exa-1 .statement}
+#### Ví dụ {#alg-iii-s11-n3-exa-1 .statement tag=067X}
 
 Suy ra ngay lập tức từ công thức (8) của no. 1 rằng với mọi A-môđun M, đối đại số phân bậc $\bigwedge(M)$ là *phản đối giao hoán*.
 
 ### 4. SONG ĐẠI SỐ VÀ PHẢN SONG ĐẠI SỐ
 
-#### Định nghĩa 3 {#alg-iii-s11-def-3 .statement}
+#### Định nghĩa 3 {#alg-iii-s11-def-3 .statement tag=067Y}
 
 *Một song đại số phân bậc (tương ứng, phản song đại số phân bậc) trên một vành A là một tập hợp E được trang bị một cấu trúc A-đại số phân bậc kiểu $\mathbf{N}$ và một cấu trúc A-đối đại số phân bậc kiểu $\mathbf{N}$, với cùng cấu trúc A-môđun phân bậc nền và sao cho:*
 
@@ -541,7 +541,7 @@ $$
 
 Nếu E và F là hai song đại số phân bậc (tương ứng, hai phản song đại số phân bậc), một ánh xạ $\phi : E \to F$ được gọi là một *cấu xạ song đại số phân bậc* (tương ứng, *cấu xạ phản song đại số phân bậc*) nếu: (1) $\phi$ là một cấu xạ đại số phân bậc (và do đó ánh xạ phần tử đơn vị của E lên phần tử đơn vị của F); (2) $\phi$ là một cấu xạ đối đại số phân bậc sao cho, nếu $\gamma$ và $\gamma'$ là các đồng đơn vị tương ứng của E và F, thì $\gamma = \gamma' \circ \phi$.
 
-#### Ví dụ {#alg-iii-s11-n4-exa-1 .statement}
+#### Ví dụ {#alg-iii-s11-n4-exa-1 .statement tag=067Z}
 
 (1) Cho S là một monoit với phần tử đơn vị u, sao cho đại số $E = A^{(S)}$ của monoit S trên A có phần tử đơn vị $e_u$ (§ 2, no. 6); mặt khác người ta đã thấy rằng E có một cách chính tắc một cấu trúc A-đối đại số đối kết hợp đối giao hoán với một đồng đơn vị $\gamma$ sao cho $\gamma(e_s) = 1$ với mọi $s \in S$ (no. 1, Ví dụ 4 và no. 2, Các ví dụ 4, 5 và 6). Công thức $c(e_s) = e_s \otimes e_s$ cho đồng tích cũng cho thấy ngay lập tức rằng c là một đồng cấu đại số. Như vậy một cấu trúc *song đại số đối giao hoán* đã được định nghĩa trên E và E, với cấu trúc này, được gọi là *song đại số của monoit S trên A*.
 
@@ -551,7 +551,7 @@ Nếu T là một monoit khác với phần tử đơn vị v, $f : S \to T$ là
 
 (3) Cho M là một A-môđun. Ta thấy như trong Ví dụ 2 rằng các cấu trúc A-đại số phân bậc (§ 7, no. 1) và A-đối đại số phân bậc (no. 1, Ví dụ 7) trên $\bigwedge(M)$ xác định trên tập hợp này một cấu trúc *song đại số phân bậc xiên phản giao hoán phản đối giao hoán*.
 
-#### Nhận xét {#alg-iii-s11-n4-rem-1 .statement}
+#### Nhận xét {#alg-iii-s11-n4-rem-1 .statement tag=0680}
 
 Nếu M là một A-môđun sao cho $M \otimes_A M \neq \{0\}$, thì các cấu trúc A-đại số phân bậc (§ 5, no. 1) và A-đối đại số phân bậc (no. 1, Ví dụ 5) trên $T(M)$ *không xác định* một cấu trúc song đại số, vì nói chung
 
@@ -650,7 +650,7 @@ m_n = m \circ (m_{n-1} \otimes 1_A)
 $$
 trong đó viết $m = m_2$. Với ký hiệu này:
 
-#### Bổ đề 1 {#alg-iii-s11-lem-1 .statement}
+#### Bổ đề 1 {#alg-iii-s11-lem-1 .statement tag=0681}
 
 (i) *Trong đại số kết hợp $E^* = \mathrm{Hom}_A(E, A)$, tích của $n$ phần tử $u_1, u_2, \ldots, u_n$ bậc 1 được cho bởi*
 $$
@@ -760,7 +760,7 @@ $$
 = (-1)^{n(n-1)/2} \det(\langle x_i^*, x_j \rangle).
 $$
 
-#### Mệnh đề 7 {#alg-iii-s11-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iii-s11-prop-7 .statement tag=0682}
 
 *Cho M là một A-môđun xạ ảnh sinh hữu hạn. Khi đó các đồng cấu chính tắc $\theta_T : T(M^*) \to T(M)^{*gr}$ và $\theta_\Lambda : \bigwedge(M^*) \to (\bigwedge(M)^{*gr})^0$ là song ánh. Hơn nữa, đối ngẫu phân bậc $\bigwedge(M)^{*gr}$ khi đó bằng đối ngẫu $\bigwedge(M)^*$ của A-môđun $\bigwedge(M)$.*
 
@@ -793,7 +793,7 @@ $$
 
 và một biểu đồ giao hoán tương tự khi thay $T$ bằng $\Lambda$. Khi đó mệnh đề suy ra từ bổ đề sau:
 
-#### Bổ đề 2 {#alg-iii-s11-lem-2 .statement}
+#### Bổ đề 2 {#alg-iii-s11-lem-2 .statement tag=0683}
 
 *Cho*
 
@@ -855,7 +855,7 @@ $$
 $$
 theo ký hiệu của § 6, no. 6. Do đó đồng cấu $\theta_S$ là song ánh khi và chỉ khi các $\alpha! u_\alpha$ lập thành một *cơ sở* của $S(M)^{*gr}$, hay cũng tương đương với việc các phần tử $\alpha! 1$ là *khả nghịch*.
 
-#### Mệnh đề 8 {#alg-iii-s11-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iii-s11-prop-8 .statement tag=0684}
 
 *Giả sử rằng vành $A$ là một đại số trên trường $\mathbf{Q}$ các số hữu tỉ; khi đó, với mọi $A$-môđun xạ ảnh sinh hữu hạn $M$, đồng cấu*
 
@@ -866,7 +866,7 @@ $$
 
 Điều này quy về việc chứng minh khi $M$ sinh hữu hạn và tự do; ta chuyển từ đó sang trường hợp tổng quát bằng cách dùng Bổ đề 2 như trong chứng minh của Mệnh đề 7.
 
-#### Nhận xét {#alg-iii-s11-n5-rem-1 .statement}
+#### Nhận xét {#alg-iii-s11-n5-rem-1 .statement tag=0685}
 
 Cho $M$ là một $A$-môđun và $\rho : A \to B$ một đồng cấu vành giao hoán. Khi đó có một biểu đồ giao hoán các đồng cấu đại số trên $B$ phân bậc
 
@@ -969,7 +969,7 @@ $$
 
 Nói cách khác, khi Homgr_A(F, P) được xét như một song môđun (E, E) nhờ đồng cấu vành $\phi : E \to F$, ta thấy rằng $\tilde{\phi}$ là một đồng cấu song môđun (E, E) (hay cũng là một E-đồng cấu từ song môđun (F, F) Homgr_A(F, P) vào song môđun (E, E) Homgr_A(E, P)).
 
-#### Ví dụ {#alg-iii-s11-n6-exa-1 .statement}
+#### Ví dụ {#alg-iii-s11-n6-exa-1 .statement tag=0686}
 
 Đặc biệt, điều trên có thể được áp dụng khi E là một trong các đại số phân bậc T(M), S(M) hoặc $\bigwedge(M)$ đối với một A-môđun M và P là một A-môđun (với phân bậc tầm thường). Để tìm tường minh các cấu trúc song môđun thu được như vậy, chú ý rằng các phần tử bậc $-n$ của Homgr_A(T(M), P) (tương ứng Homgr_A(S(M), P), tương ứng Homgr_A($\bigwedge(M)$, P)) được đồng nhất với các *ánh xạ n-tuyến tính* (tương ứng các *ánh xạ n-tuyến tính đối xứng*, tương ứng các *ánh xạ n-tuyến tính phản xứng*) từ $M^n$ vào P. Chỉ cần biểu diễn các tích
 
@@ -1151,7 +1151,7 @@ $$
 t\phi : F^{*\mathrm{gr}} \to E^{*\mathrm{gr}}.
 $$
 
-#### Ví dụ {#alg-iii-s11-n7-exa-1 .statement}
+#### Ví dụ {#alg-iii-s11-n7-exa-1 .statement tag=0687}
 
 Đặc biệt, điều trên có thể được áp dụng khi E là một trong các đối đại số phân bậc T(M), S(M) hoặc $\Lambda(M)$ của một A-môđun M (no. 1, Ví dụ 5, 6 và 7). Để xác định tường minh các cấu trúc song môđun thu được như vậy, ta lại đồng nhất một phần tử thuần nhất f bậc n trong $T(M)^{*gr}$ (resp. $S(M)^{*gr}$, resp. $\Lambda(M)^{*gr}$) với một *dạng n-tuyến tính* (resp. *dạng n-tuyến tính đối xứng*, resp. *dạng n-tuyến tính phản xứng*, cũng gọi là một *n-dạng*) trên $M^n$. Chỉ cần biểu diễn các tích
 
@@ -1191,7 +1191,7 @@ Với $p \geq n$, ta có lần lượt
 
 Cho E là một song đại số phân bậc (resp. song đại số phân bậc xiên) (no. 4, Định nghĩa 3); khi đó các kết quả của các số 6 và 7 có thể được áp dụng để định nghĩa các tích nội phải (resp. trái) $x \triangleleft u \in E$ và $u \triangleleft x \in E^{*gr}$ (resp. $u \triangleright x \in E$ và $x \triangleright u \in E^{*gr}$) với mọi $x \in E$ và mọi $u \in E^{*\mathrm{gr}}$. Như vậy thu được trên $E$ một cấu trúc $(E, E)$-song môđun và một cấu trúc $(E^{*\mathrm{gr}}, E^{*\mathrm{gr}})$-song môđun. Hơn nữa:
 
-#### Mệnh đề 9 {#alg-iii-s11-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iii-s11-prop-9 .statement tag=0688}
 
 *Cho $E$ là một song đại số phân bậc (resp. song đại số phân bậc xiên). Với mọi phần tử $x$ bậc 1 trong $E$, các tích nội trái và phải theo $x$ là các đạo hàm (resp. phản đạo hàm) ($§ 10$, no. 2) của đại số $E^{*\mathrm{gr}}$.*
 
@@ -1243,7 +1243,7 @@ $$
 $$
 nói cách khác $i(x)$ là một *phản đạo hàm* trong $E^{*gr}$. Các khẳng định liên hệ với phép nhân nội trái bởi một phần tử $x$ bậc 1 trong $E$ được chứng minh tương tự.
 
-#### Nhận xét {#alg-iii-s11-n8-rem-1 .statement}
+#### Nhận xét {#alg-iii-s11-n8-rem-1 .statement tag=0689}
 
 (1) Cho $E$ là một song đại số phân bậc trên $A$ và $N, N', N''$ là ba $A$-môđun phân bậc. Cho $m$ là một ánh xạ $A$-song tuyến tính từ $N \times N'$ vào $N''$; với $u \in \mathrm{Homgr}_A(E, N)$ và $v \in \mathrm{Homgr}_A(E, N')$, ký hiệu $u.v$ là đồng cấu phân bậc $m \circ (u \otimes v) \circ c$ từ $E$ vào $N''$. Mặt khác, ký hiệu $i(x)$ là tích nội (phải hoặc trái) bởi $x \in E$ trong các $A$-môđun $\mathrm{Homgr}_A(E, N)$, $\mathrm{Homgr}_A(E, N')$ và $\mathrm{Homgr}_A(E, N'')$. Khi đó, nếu $x$ *có bậc* 1,
 $$
@@ -1263,7 +1263,7 @@ $$
 $$
 được thỏa mãn. Đặc biệt, đối với mọi phần tử *nguyên thủy* của một song đại số phân bậc $E$, nghĩa là sao cho $c(x) = x \otimes 1 + 1 \otimes x$, thì $i(x)$ là một *đạo hàm* của $E^{*gr}$.
 
-#### Mệnh đề 10 {#alg-iii-s11-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iii-s11-prop-10 .statement tag=068A}
 
 *Cho $E$ là một song đại số phân bậc (tương ứng, song đại số phân bậc xiên). Với mọi phần tử $f$ bậc 1 của $E^{*gr}$, các tích nội trái và phải là những đạo hàm (tương ứng, phản đạo hàm) của đại số $E$.*
 
@@ -1296,7 +1296,7 @@ $$
 $$
 điều đó cho thấy khi ấy $i(f)$ là một *phản đạo hàm*. Lập luận là tương tự đối với tích nội trái bởi $f$.
 
-#### Ví dụ {#alg-iii-s11-n8-exa-1 .statement}
+#### Ví dụ {#alg-iii-s11-n8-exa-1 .statement tag=068B}
 
 Các Mệnh đề 9 và 10 áp dụng đặc biệt cho đại số kép phân bậc $S(M)$ và đại số kép phân bậc xiên $\Lambda(M)$. Các tích nội bởi các phần tử bậc 1 trong $S(M)$ (resp. $S(M)^{*gr}$) là những *đạo hàm* *giao hoán với nhau*, vì $S(M)$ (resp. $S(M)^{*gr}$) là giao hoán.
 
@@ -1352,7 +1352,7 @@ Ta để cho người đọc nhiệm vụ tìm tường minh các công thức t
 
 Điều trên có thể được áp dụng với $M$ được thay bằng đối ngẫu của nó $M^*$; khi đó $M^*$ phải được thay bằng song đối ngẫu $M^{**}$ và chẳng hạn $T(M^*)$ do đó có một cấu trúc môđun phải trên đại số $T(M^{**})$. Nhưng ánh xạ chính tắc $c_M : M \to M^{**}$ xác định một đồng cấu đại số $T(c_M) : T(M) \to T(M^{**})$, nhờ đó $T(M^*)$ có một cấu trúc $T(M)$-*môđun* *phải*. Tương tự $S(M^*)$ (resp. $\Lambda(M^*)$) có một cấu trúc $S(M)$-*môđun* *phải* (resp. $\Lambda(M)$-*môđun* *trái*). Các công thức tường minh cho các luật ngoài của các môđun này được dẫn xuất ngay lập tức từ trên bằng cách hoán đổi vai trò của $M$ và $M^*$. Chú ý rằng, với mọi $x \in M$, $i(x)$ luôn luôn là một *đạo hàm* (resp. *phản đạo hàm có bình phương không*) của đại số phân bậc $S(M^*)$ (resp. $\Lambda(M^*)$).
 
-#### Mệnh đề 11 {#alg-iii-s11-prop-11 .statement}
+#### Mệnh đề 11 {#alg-iii-s11-prop-11 .statement tag=068C}
 
 *Đồng cấu chính tắc* $\theta_T : T(M^*) \to T(M)^{*gr}$ (resp. $\theta_S : S(M) \to S(M)^{*gr}$, resp. $\theta_\Lambda : \Lambda(M^*) \to \Lambda(M)^{*gr}$) *là một đồng cấu* $T(M)$-*môđun* *phải* (resp. $S(M)$-*môđun* *phải*, resp. $\Lambda(M)$-*môđun* *trái*).
 
@@ -1434,7 +1434,7 @@ $$
 
 Có các công thức tương tự đối với tích nội của một phần tử của $S(M^*)$ bởi một phần tử của $S(M)$ khi đổi chỗ vai trò của $M$ và $M^*$ (vì ở đây $M^{**}$ được đồng nhất với $M$).
 
-#### Nhận xét {#alg-iii-s11-n10-rem-1 .statement}
+#### Nhận xét {#alg-iii-s11-n10-rem-1 .statement tag=068D}
 
 Việc cho cơ sở $(e_i)_{1 \leq i \leq n}$ cho phép ta đồng nhất đại số $S(M)$ với đại số đa thức $A[X_1, \ldots, X_n]$ (§ 6, no. 6); công thức (75) cho thấy rằng tích nội bởi $e^{*\alpha}$ chỉ là toán tử vi phân $D^\alpha = D_1^{\alpha_1}D_2^{\alpha_2}\ldots D_n^{\alpha_n}$, trong đó $D_i = \partial/\partial X_i$ với $1 \leq i \leq n$ (§ 10, no. 11, Ví dụ).
 
@@ -1453,7 +1453,7 @@ trong đó $\rho_{K, J-K}$ là số được định nghĩa bởi công thức (
 
 ### 11. CÁC ĐẲNG CẤU GIỮA $\wedge^p(M)$ VÀ $\wedge^{n-p}(M^*)$ CHO MỘT MÔĐUN TỰ DO M CÓ $n$ CHIỀU
 
-#### Mệnh đề 12 {#alg-iii-s11-prop-12 .statement}
+#### Mệnh đề 12 {#alg-iii-s11-prop-12 .statement tag=068E}
 
 *Cho M là một A-môđun tự do có chiều n; cho $e \in \wedge^n(M)$ là một phần tử tạo thành một cơ sở của $\wedge^n(M)$ và cho $e^*$ là phần tử của $\wedge^n(M^*)$ sao cho $\{(-1)^{n(n-1)/2} \theta_{\wedge}(e^*)\}$ là cơ sở đối ngẫu của $\{e\}$ trong $(\wedge^n(M))^*$. Gọi $\phi : \wedge(M^*) \to \wedge(M)$ là ánh xạ $z \mapsto z \wedge e^*$ và $\phi' : \wedge(M^*) \to \wedge(M)$ là ánh xạ $z^* \mapsto z^* \wedge e$. Gọi $\phi_p$ (resp. $\phi'_p$) là hạn chế của $\phi$ (resp. $\phi'$) trên $\wedge^p(M)$ (resp. $\wedge^p(M^*)$). Khi đó:
 
@@ -1492,7 +1492,7 @@ là chẵn, suy ra $\phi$ và $\phi'$ là các ánh xạ ngược của nhau. Sa
 
 B(\phi_p'(u^*), v^*) là, sai khác một dấu, hệ số của $u^* \wedge v^*$ theo cơ sở $\{e^*\}$ của $\Lambda^n(M^*)$.
 
-#### Mệnh đề 13 {#alg-iii-s11-prop-13 .statement}
+#### Mệnh đề 13 {#alg-iii-s11-prop-13 .statement tag=068F}
 
 *Dưới các giả thiết và ký hiệu của Mệnh đề 11, với mọi tự đồng cấu g của A-môđun M.*
 
@@ -1508,7 +1508,7 @@ $$
 $$
 có tính đến § 8, no. 4, Mệnh đề 8.
 
-#### Hệ quả {#alg-iii-s11-n11-cor-1 .statement}
+#### Hệ quả {#alg-iii-s11-n11-cor-1 .statement tag=068G}
 
 *Với mọi tự đẳng cấu g của E,*
 $$(80)$$
@@ -1518,7 +1518,7 @@ $$\Lambda^{(tg^{-1})} = (\det g)^{-1}\phi \circ (\Lambda(g)) \circ \phi^{-1}.$$
 
 Cho K là một trường và E một không gian vectơ trên K. Nhắc lại rằng với mỗi $p$-vectơ $z \in \Lambda^p(E)$ được liên kết một không gian con hữu hạn chiều $M_z$ của E, cụ thể là không gian con vectơ nhỏ nhất M của E sao cho $z \in \Lambda^p(M)$ (§ 7, no. 2, Hệ quả của Mệnh đề 4).
 
-#### Mệnh đề 14 {#alg-iii-s11-prop-14 .statement}
+#### Mệnh đề 14 {#alg-iii-s11-prop-14 .statement tag=068H}
 
 (i) *Trực giao của $M_z$ trong $E^*$ là tập hợp các $x^* \in E^*$ sao cho $x^* \perp z = 0$.*
 
@@ -1552,17 +1552,17 @@ $$
 
 Cho K là một trường và E là một không gian vectơ trên K. Một $p$-vectơ $z \in \wedge^p(E)$ được gọi là *thuần* (hay đôi khi *phân tích được*) nếu nó khác không và tồn tại các vectơ $x_1, \ldots, x_p$ trong E sao cho $z = x_1 \wedge x_2 \wedge \cdots \wedge x_p$. Để có điều đó, điều kiện cần và đủ là không gian con $M_z$ liên kết với $z$ (luôn luôn có chiều $\geq p$ với $z \neq 0$) phải có chiều *đúng bằng* $p$ (vì khi đó $\wedge^p(M_z)$ có chiều bằng 1). Đặc biệt, mọi vô hướng *khác không*, mọi phần tử khác không của $E = \wedge^1(E)$, mọi phần tử khác không của $\wedge^n(E)$, khi E có chiều $n$, đều là *thuần*.
 
-#### Mệnh đề 15 {#alg-iii-s11-prop-15 .statement}
+#### Mệnh đề 15 {#alg-iii-s11-prop-15 .statement tag=068I}
 
 *Cho E là một không gian vectơ chiều n và cho e là một phần tử $\neq 0$ của $\wedge^n(E)$ (do đó lập thành một cơ sở của không gian vectơ này). Gọi $\phi : \wedge(E) \to \wedge(E^*)$ là đẳng cấu không gian vectơ liên kết với e (no. 11, Mệnh đề 12). Nếu z là một phần tử thuần của $\wedge^p(E)$, thì $\phi(z)$ là một phần tử thuần của $\wedge^{n-p}(E^*)$ và các không gian con liên kết với z và $\phi(z)$ là trực giao.*
 
 Các trường hợp $p = 0$ và $p = n$ là tầm thường. Vậy giả sử rằng $1 \leq p \leq n - 1$ và cho $z = x_1 \wedge \cdots \wedge x_p \neq 0$. Khi đó tồn tại một cơ sở $(e_i)_{1 \leq i \leq n}$ của E sao cho $e_i = x_i$ với $1 \leq i \leq p$ và $e = e_1 \wedge e_2 \wedge \cdots \wedge e_n$. Khi đó từ công thức (78) của no. 11 suy ra rằng $\phi(z) = \pm e_{p+1}^* \wedge \cdots \wedge e_n^*$, do đó mệnh đề được chứng minh.
 
-#### Hệ quả {#alg-iii-s11-n13-cor-1 .statement}
+#### Hệ quả {#alg-iii-s11-n13-cor-1 .statement tag=068J}
 
 *Nếu E có chiều n, mọi $(n-1)$-vectơ khác không của E đều là thuần.*
 
-#### Mệnh đề 16 {#alg-iii-s11-prop-16 .statement}
+#### Mệnh đề 16 {#alg-iii-s11-prop-16 .statement tag=068K}
 
 *Để một phần tử $z \neq 0$ của $\bigwedge^p(E)$ là thuần, điều kiện cần và đủ là, với mọi $u^* \in \bigwedge^{p-1}(E^*)$,
 

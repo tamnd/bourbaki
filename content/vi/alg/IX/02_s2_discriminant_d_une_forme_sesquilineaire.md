@@ -11,7 +11,7 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: 9833b470b18e909073ae1d1a6e8a2935e7ea2c1e726039757309909af293e84e
+content_sha256: 3ec36a9db914e394e14570a701951f5a99e96b4dbdf155c9121c574236507db2
 translated_from: content/en-mt/alg/IX/02_s2_discriminant_d_une_forme_sesquilineaire.md
 source_lang: en-mt
 translation_method: machine
@@ -37,7 +37,7 @@ c) Giữ các giả thiết của b), và giả sử thêm rằng $A$ thỏa mã
 
 *12) Cho $E$ là một không gian Hilbert thực kiểu đếm được, $\Phi(x, y)$ là tích vô hướng trong $E$. Chứng minh rằng không tồn tại một hệ gồm hai cơ sở đại số $(e_\lambda), (f_\mu)$ của không gian vectơ $E$ trên $\mathbf{R}$ sao cho $\Phi(e_\lambda, f_\mu) = \delta_{\lambda \mu}$ với mọi cặp chỉ số. (Trước hết hãy nhận thấy rằng tập hợp chỉ số của các cơ sở này sẽ có lực lượng của continuum ($Esp. vect. top.$, chap. II, § 3, exerc. 15)); sau đó xét một cơ sở trực chuẩn (đếm được) $(a_n)$ của $E$ và nhận thấy rằng không gian con sinh bởi các $a_n$ được chứa trong không gian con sinh bởi một họ con đếm được của $(e_\lambda)$.*
 
-#### Định nghĩa 1 {#alg-ix-s2-def-1 .statement}
+#### Định nghĩa 1 {#alg-ix-s2-def-1 .statement tag=0DK0}
 
 Cho một dạng sesquilinear $\Phi$ đối với $J$ trên $E$ và một hệ $S = (x_1, \ldots, x_n)$ gồm $n$ phần tử của $E$, biệt thức của $\Phi$ đối với hệ này được gọi là, và được ký hiệu bởi $D_\Phi(x_1, \ldots, x_n)$ hoặc $D_\Phi(S)$, phần tử $\det(\Phi(x_i, x_j))$ của $A$.
 
@@ -55,7 +55,7 @@ $$
 D_\Phi(x_{\sigma(1)}, \ldots, x_{\sigma(n)}) = D_\Phi(x_1, x_2, \ldots, x_n).
 $$
 
-#### Ví dụ {#alg-ix-s2-n0-exa-1 .statement}
+#### Ví dụ {#alg-ix-s2-n0-exa-1 .statement tag=0DK1}
 
 Cho $B$ là một đại số trên vành $A$, sao cho $B$ là một A-môđun tự do có số chiều hữu hạn $n$. Khi đó ánh xạ $(x, y) \to \mathrm{Tr}_{B/A}(xy)$ (Chương VIII, § 12, no 2) là một dạng song tuyến tính trên $B$. Cho một hệ $(x_1, \ldots, x_n)$ gồm $n$ phần tử của $B$, biệt thức của dạng này đối với hệ đó được gọi là biệt thức của hệ $(x_1, \ldots, x_n)$ trên $A$, và được ký hiệu bởi $D_{B/A}(x_1, \ldots, x_n)$. Như vậy
 
@@ -63,7 +63,7 @@ $$
 D_{B/A}(x_1, \ldots, x_n) = \det (\mathrm{Tr}_{B/A}(x_ix_j)).
 $$
 
-#### Nhận xét {#alg-ix-s2-n0-rem-1 .statement}
+#### Nhận xét {#alg-ix-s2-n0-rem-1 .statement tag=0DK2}
 
 Cho $(e_1, \ldots, e_n)$ là một cơ sở của $B$ trên $A$, và
 
@@ -77,7 +77,7 @@ $$
 D_{B/A}(e_1, \ldots, e_n) = \det_{i,j} (\sum_{k,r} c_{ijk}c_{krr}).
 $$
 
-#### Mệnh đề 1 {#alg-ix-s2-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ix-s2-prop-1 .statement tag=0DK3}
 
 Cho $\Phi$ là một dạng sesquilinear đối với $J$ trên $E$, $(\tilde{x}_1, \ldots, x_n)$ một hệ gồm $n$ phần tử của $E$, và $(a_{ij})_{(i,j = 1, \ldots, n)}$ một họ gồm $n^2$ phần tử của $A$; đặt $y_i = \sum_{i=1}^n a_{ji}x_i$. Khi đó ta có
 
@@ -104,14 +104,14 @@ $$
 (6) \qquad D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n) = h(D_\Phi(x_1, \ldots, x_n)).
 $$
 
-#### Ví dụ {#alg-ix-s2-n0-exa-2 .statement}
+#### Ví dụ {#alg-ix-s2-n0-exa-2 .statement tag=0DK4}
 
 Cho $B$ là một đại số trên $A$ đồng thời là một $A$-môđun tự do có số chiều hữu hạn $n$, $(x_1, \ldots, x_n)$ là một cơ sở của $B$ trên $A$, và $m$ là một iđêan của $A$. Nếu $h$ ký hiệu đồng cấu chính tắc của $B$ lên $B/mB$, thì $(h(x_1), \ldots, h(x_n))$ là một cơ sở của $B/mB$ trên $A/m$ (chương I, § 6, no 5, mệnh đề 5), và $B/mB$ đẳng cấu với $(A/m) \otimes_A B$. Do đó ta có
 $$
 D_{(B/mB)/(A/m)}(h(x_1), \ldots, h(x_n)) = h(D_{B/A}(x_1, \ldots, x_n)).
 $$
 
-#### Mệnh đề 2 {#alg-ix-s2-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ix-s2-prop-2 .statement tag=0DK5}
 
 Giả sử rằng $A$ là một miền nguyên. Cho $\Phi$ là một dạng sesquilinear đối với $J$ trên $E$ và $(e_1, \ldots, e_n)$ là một cơ sở của $E$, sao cho $D_\Phi(e_1, e_2, \ldots, e_n) \neq 0$.
 
@@ -123,7 +123,7 @@ b) Để một hệ $(x_1, \ldots, x_n)$ gồm $n$ phần tử của $E$ là m�
 
 Bây giờ hãy chứng minh b). Nếu $D_\Phi(x_1, \ldots, x_n)$ và $D_\Phi(e_1, \ldots, e_n)$ liên kết trong $A$, Mệnh đề 1 cho thấy rằng $\det(a_{ij}) \cdot \det(a_{ij})'$ là khả nghịch trong $A$. Vì thế $\det(a_{ij})$ tự nó khả nghịch trong $A$; do đó ma trận $(a_{ij})$ trên $A$ là khả nghịch (Chương III, § 6, No. 5, Định lý 2), và tự đồng cấu $g$ của $E$ được xác định bởi $g(e_i) = x_i$ ($i = 1, \ldots, n$) là một tự đẳng cấu; do đó $(x_1, \ldots, x_n)$ là một cơ sở của $E$. Đảo lại suy ra ngay lập tức từ Mệnh đề 1.
 
-#### Mệnh đề 3 {#alg-ix-s2-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ix-s2-prop-3 .statement tag=0DK6}
 
 Cho $\Phi$ là một dạng sesquilinear theo $J$ trên $E$, và cho $S$ là một cơ sở của $E$. Các điều kiện sau là tương đương:
 
@@ -135,13 +135,13 @@ c) Phần tử $D_\Phi(S)$ là khả nghịch trong $A$.
 
 Thật vậy điều kiện c) biểu thị rằng ma trận của $\Phi$ đối với $S$ là khả nghịch (Chương III, § 6, No. 5, Định lý 2). Do đó c) tương đương với a) ($§ 1,$ No. 10); tương tự, c) tương đương với b).
 
-#### Mệnh đề 4 {#alg-ix-s2-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ix-s2-prop-4 .statement tag=0DK7}
 
 Giả sử rằng $A$ là nguyên. Cho $S$ là một cơ sở của $E$. Điều kiện cần và đủ để một dạng sesquilinear $\Phi$ trên $E$ không suy biến là $D_\Phi(S) \neq 0$.
 
 Thật vậy, cho K là trường phân thức của A, và cho $\Phi'$ là mở rộng của $\Phi$ lên không gian vectơ trên K $K \otimes_A E$; đồng nhất E với một tập con của không gian vectơ này. Khi đó quan hệ $D_{\Phi}(S) \neq 0$ tương đương với $D_{\Phi'}(S) \neq 0$ (công thức (6)), mà bản thân điều này biểu thị rằng $s_{\Phi'}$ là song ánh (mệnh đề 3), nghĩa là $\Phi'$ là không suy biến (§ 1, No. 6, mệnh đề 6). Bây giờ, với mọi $x \in K \otimes_A E$, tồn tại $a \in A$ sao cho $ax \in E$; do đó, để $\Phi$ suy biến thì điều kiện cần và đủ là $\Phi'$ cũng suy biến. Điều này chứng minh mệnh đề của chúng ta.
 
-#### Mệnh đề 5 {#alg-ix-s2-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ix-s2-prop-5 .statement tag=0DK8}
 
 *Cho A là một trường, B là một đại số giao hoán có số chiều hữu hạn n trên A, và S là một cơ sở của B. Để B tách được (chap. VIII, § 7, No. 5, định nghĩa 1), điều kiện cần và đủ là có* $D_{B/A}(S) \neq 0$.
 
@@ -149,7 +149,7 @@ Thật vậy, cho $A'$ là bao đóng đại số của A, và cho $B'$ là đ�
 
 Ngược lại, giả sử rằng có $D_{B/A}(S) \neq 0$. Để chứng minh rằng B tách được, chỉ cần chứng minh rằng $B'$ là nửa đơn, nghĩa là nó không chứa phần tử lũy linh khác không nào. Bây giờ, nếu $x'$ là một phần tử lũy linh khác không của $B'$, thì có thể lấy nó làm phần tử thứ nhất của một cơ sở $S'$ của $B'$, và khi đó ta sẽ có $\mathrm{Tr}_{B'/A'}(x'y') = 0$ với mọi $y' \in S'$ vì một tự đồng cấu lũy linh có các giá trị riêng bằng không (chap. VII, § 5, No. 3, hệ quả 3 của mệnh đề 8), và do đó có vết bằng không. Suy ra $D_{B'/A'}(S') = 0$, do đó $D_{B'/A'}(S) = 0$ (mệnh đề 1) và $D_{B/A}(S) = 0$ (công thức (6)), trái với giả thiết.
 
-#### Nhận xét {#alg-ix-s2-n0-rem-2 .statement}
+#### Nhận xét {#alg-ix-s2-n0-rem-2 .statement tag=0DK9}
 
 Giả sử rằng B là một mở rộng trường của A. Cho $S = (x_1, \ldots, x_n)$ là một cơ sở của B, và $(s_1, \ldots, s_n)$ là các A-đẳng cấu của B vào bao đóng đại số $A'$ của A (mỗi $s_j$ được lặp lại $[B : A]_i$ lần). Nhắc lại rằng, với mọi $z \in B$, ta có $\mathrm{Tr}_{B/A}(z) = \sum_{j=1}^n s_j(z)$ (chap. VIII, § 12, No. 2, mệnh đề 4).
 
@@ -159,7 +159,7 @@ $$(7)\quad (\det(s_j(x_i)))^2 = D_{B/A}(x_1, \ldots, x_n).$$
 
 Công thức này cho thấy rằng Mệnh đề 5 khái quát hóa điều kiện tách được đã cho trong chap. V, § 7, No. 2, Nhận xét.
 
-#### Mệnh đề 6 {#alg-ix-s2-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ix-s2-prop-6 .statement tag=0DKA}
 
 Cho $\Phi$ là một dạng song tuyến tính A-trên E, và K là một vành con của A sao cho A là một K-môđun tự do có chiều hữu hạn q. Nếu $(e_i)_{i=1,\ldots,n}$ là một cơ sở của E trên A và $(a_j)_{j=1,\ldots,q}$ là một cơ sở của A trên K, thì $(a_j e_i)$ là một cơ sở của E trên K. Ánh xạ $\Phi'$ từ $E \times E$ vào K được xác định bởi $\Phi'(x, y) = \mathrm{Tr}_{A/K}(\Phi(x, y))$ là một dạng song tuyến tính K-trên E, và ta có
 
@@ -175,7 +175,7 @@ $$w(v(a_j e_i)) = w(\sum_s a_j \Phi(e_i, e_s) e_s) = \sum_{r,s} \mathrm{Tr}_{A/K
 
 vì $w(a e_s) = \sum_r \mathrm{Tr}_{A/K}(a a_r) a_r e_s$ với mọi $a \in A$; do đó $u$ là ánh xạ hợp thành $w \circ v$. Vậy, ký hiệu bởi $v_K$ ánh xạ $v$ được xét như một ánh xạ K-tuyến tính, ta có $\det(u) = \det(v_K) \det(w)$. Bây giờ $\det(v_K) = N_{A/K}(\det(v))$ (chương VIII, § 12, số 2, mệnh đề 7), và hiển nhiên $\det(v) = D_\Phi(e_1, \ldots, e_n)$. Mặt khác, vì mỗi A-môđun $Ae_i (i = 1, \ldots, n)$ đều ổn định dưới $w$, và định thức của hạn chế của $w$ lên $Ae_i$ là $\det(\mathrm{Tr}_{A/K}(a_j a_r)) = D_{A/K}(a_1, \ldots, a_q)$, nên ta có $\det(w) = (D_{A/K}(a_1, \ldots, a_q))^n$. Do đó công thức (8) được đưa về $\det(u) = \det(v_K) \det(w)$, là một công thức đã được chứng minh ở trên.
 
-#### Hệ quả (« Công thức bắc cầu cho các định thức biệt thức ») {#alg-ix-s2-n0-cor-1 .statement}
+#### Hệ quả (« Công thức bắc cầu cho các định thức biệt thức ») {#alg-ix-s2-n0-cor-1 .statement tag=0DKB}
 
 Cho K là một vành giao hoán, A là một đại số giao hoán có một cơ sở hữu hạn $(a_j)_{j=1,\ldots,q}$ trên K, và E là một đại số trên A có một cơ sở hữu hạn $(e_i)_{i=1,\ldots,n}$. Khi đó $(a_j e_i)$ là một cơ sở của E trên K, và ta có
 

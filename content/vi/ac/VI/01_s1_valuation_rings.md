@@ -29,9 +29,9 @@ subsections:
       pdf_page: 397
 statements: 15
 exercises: 7
-content_sha256: fc1eb0edf2f336b115fbbb559dd3bef64caecab9bd67755860d0aa66245d2159
+content_sha256: c8da98c40c279d655fd814588f4471831abd950c23038a91fc2a408523143ecb
 translated_from: content/en/ac/VI/01_s1_valuation_rings.md
-source_content_sha256: c62b29615ede5109ece47eee7c51082ef7d0895d588bd15ce4b8c6aa4a539227
+source_content_sha256: 4be9d8f7039b4d494391e430e87dbd619d54a3c9a43b0816d5138e002b649b77
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-6a818b3d
 glossary_version: 34
@@ -43,11 +43,11 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. QUAN HỆ TRỘI GIỮA CÁC VÀNH ĐỊA PHƯƠNG
 
-#### Định nghĩa 1 {#ac-vi-s1-def-1 .statement}
+#### Định nghĩa 1 {#ac-vi-s1-def-1 .statement tag=04RZ}
 
 Cho $A$ và $B$ là hai vành địa phương. Ta nói rằng $B$ trội $A$ nếu $A$ là một vành con của $B$ và $m(A) = A \cap m(B)$.
 
-#### Mệnh đề 1 {#ac-vi-s1-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s1-prop-1 .statement tag=04S0}
 
 Cho $A$ và $B$ là các vành địa phương sao cho $A$ là một vành con của $B$. Các điều kiện sau là tương đương:
 (a) $m(A) \subset m(B)$;
@@ -66,7 +66,7 @@ Ví dụ
 
 ### 2. CÁC VÀNH ĐỊNH GIÁ
 
-#### Định lý 1 {#ac-vi-s1-thm-1 .statement}
+#### Định lý 1 {#ac-vi-s1-thm-1 .statement tag=04S1}
 
 *Cho K là một trường và V là một vành con của K. Các điều kiện sau là tương đương*:
 (a) *V là một phần tử cực đại của tập hợp các vành con địa phương của K, tập hợp này được sắp thứ tự bởi quan hệ "B trội A" giữa A và B.*
@@ -83,7 +83,7 @@ Giả sử (a) đúng. Khi đó $V$ là một vành địa phương. Gọi $L$ l
 
 Giả sử (b) đúng. Gọi $L$ là một trường đóng đại số và $h$ là một đồng cấu từ $V$ đến $L$; giả sử rằng $h$ là cực đại trong tập hợp các đồng cấu từ các vành con của $K$ đến $L$; gọi $p$ là hạt nhân của $h$. Các phần tử của $h(V - p)$ là khả nghịch trong $L$, nên $h$ có thể được mở rộng thành một đồng cấu từ $V_p$ đến $L$ (Chương II, § 2, no. 1, Mệnh đề 1); do đó $V = V_p$, điều này cho thấy rằng $V$ là một vành địa phương và $p$ là iđêan cực đại của nó. Gọi $x$ là một phần tử khác không của $K$; ta phải chứng minh rằng ít nhất một trong các phần tử $x, x^{-1}$ thuộc về $V$, nghĩa là, nhờ đặc trưng cực đại của $h$, rằng $h$ có thể được mở rộng đến $V[x]$ hoặc $V[x^{-1}]$. Nếu $x$ nguyên trên $V$, điều này suy ra từ Chương V, § 2, no. 1, Hệ quả 4 của Định lý 1. Nếu $x$ không nguyên trên $V$, ta sẽ sử dụng bổ đề sau:
 
-#### Bổ đề 1 {#ac-vi-s1-lem-1 .statement}
+#### Bổ đề 1 {#ac-vi-s1-lem-1 .statement tag=04S2}
 
 Cho $A$ là một vành con của một vành $B$ và $x$ là một phần tử của $B$ không nguyên trên $A$; khi đó vành phân thức $B$, (Chương II, § 5, no. 1) *không rút gọn về O* và tồn tại trong vành con $A[1/x]$ của $B$, các iđêan cực đại chứa $1/x$; hơn nữa, nếu $\mathfrak{M}$ là một trong các iđêan cực đại này, ảnh ngược của $\mathfrak{M}$ trong $A$ *là* một iđêan cực đại.
 
@@ -117,17 +117,17 @@ Giả sử (d) được thỏa mãn. Cho $a$ và $b$ là các iđêan của $V$ 
 
 Cuối cùng giả sử rằng (e) được thỏa mãn. Vì $V$ có một iđêan cực đại, nó chỉ có một iđêan cực đại và do đó là một vành địa phương. Cho $V'$ là một vành con địa phương của $K$ trội hơn $V$ và cho $x$ là một phần tử khác không của $V'$, ta viết $x = ab^{-1}$ trong đó $a \in V, b \in V$. Một trong các iđêan $Va, Vb$ được chứa trong iđêan kia. *Nếu Va \subset Vb*, thì $x \in V$. *Nếu Vb \subset Va*, thì $x^{-1} \in V$; vì iđêan $V' m(V)$ không chứa 1 (số. 1, Mệnh đề 1), $x^{-1} \notin m(V)$, do đó lại có $x \in V$ vì $V$ là địa phương. Mọi phần tử của $V'$ vì vậy đều thuộc về $V$; ta kết luận rằng (a) được thỏa mãn.
 
-#### Định nghĩa 2 {#ac-vi-s1-def-2 .statement}
+#### Định nghĩa 2 {#ac-vi-s1-def-2 .statement tag=04S3}
 
 *Theo ký hiệu của Định lý 1, $V$ được gọi là một vành định giá đối với trường $K$ nếu các điều kiện tương đương (a), (b), (c), (d), (e) được thỏa mãn. Một vành được gọi là một vành định giá nếu nó là một miền nguyên và nó là một vành định giá đối với trường các phân thức của nó.*
 
-#### Định lý 2 {#ac-vi-s1-thm-2 .statement}
+#### Định lý 2 {#ac-vi-s1-thm-2 .statement tag=04S4}
 
 *Cho $K$ là một trường và $h$ là một đồng cấu từ một vành con $A$ của $K$ đến một trường đóng đại số $L$. Khi đó tồn tại một vành định giá $V$ đối với $K$ và một đồng cấu $h'$ từ $V$ đến $L$ sao cho $V$ chứa $A$, $h'$ mở rộng $h$ và ${h'}^{-1}(O) = m(V)$.*
 
 Cho $\mathfrak{S}$ là tập hợp các đồng cấu của các vành con của $K$ vào $L$, được sắp thứ tự bởi quan hệ mở rộng. Tập hợp này là quy nạp; vì nếu $(h_\alpha)_{\alpha \in I}$ là một họ không rỗng có thứ tự toàn phần của các phần tử của $\mathfrak{S}$ và $B$, là vành xác định của $h_\alpha$, thì các $B_\alpha$ tạo thành một họ có thứ tự toàn phần của các vành con của $K$ và hợp của chúng $B$ do đó là một vành con của $K$; do đó tồn tại một ánh xạ duy nhất $\bar{h}$ từ $B$ vào $L$ mở rộng các $h_\alpha$ (*Set Theory*, Chương II, § 4, no. 6, Mệnh đề 7) và người ta thấy ngay lập tức rằng $\bar{h}$ là một đồng cấu từ $B$ vào $L$. Bổ đề Zorn khi đó chỉ ra rằng tồn tại một phần tử cực đại $h'$ của $\mathfrak{S}$ mở rộng $h$. Vành xác định $V$ của $h'$ là một vành định giá của $K$ (Định lý 1); nếu $p$ là hạt nhân của $h'$, $h'$ có thể được mở rộng thành một đồng cấu từ $V_p$ vào $L$ (Chương II, § 2, no. 1, Mệnh đề 1), do đó $V_p = V$ và $p = m(V)$.
 
-#### Hệ quả {#ac-vi-s1-n2-cor-1 .statement}
+#### Hệ quả {#ac-vi-s1-n2-cor-1 .statement tag=04S5}
 
 *Mọi vành con địa phương $A$ của một trường $K$ đều bị trội bởi ít nhất một vành định giá của $K$.*
 
@@ -135,23 +135,23 @@ Cho $\mathfrak{S}$ là tập hợp các đồng cấu của các vành con của
 
 ### 3. ĐẶC TRƯNG HÓA CÁC PHẦN TỬ NGUYÊN
 
-#### Định lý 3 {#ac-vi-s1-thm-3 .statement}
+#### Định lý 3 {#ac-vi-s1-thm-3 .statement tag=04S6}
 
 *Cho $A$ là một vành con của một trường $K$. Bao đóng nguyên $A'$ của $A$ trong $K$ là giao của các vành định giá của $K$ chứa $A$; nếu $A$ là địa phương, $A'$ là giao của các vành định giá của $K$ trội $A$.*
 
 Cho $x$ là một phần tử của $A'$ và $V$ là một vành định giá của $K$ chứa $A$; vì $x$ là nguyên trên $V$, tồn tại một iđêan nguyên tố $p'$ của $V[x]$ sao cho $p' \cap V = m(V)$ (Chương V, § 2, no. 1, Định lý 1); rõ ràng khi đó vành địa phương $(V[x])_{p'}$ trội hơn $V$ và do đó bằng nó; do đó $x \in V$. Ngược lại, cho $y$ là một phần tử của $K$ không nguyên trên $A$; khi đó tồn tại một iđêan cực đại 2.2 của $A[y^{-1}]$ chứa $y^{-1}$ (no. 2, Bổ đề 1); cũng tồn tại một vành định giá $V$ của $K$ trội hơn $(A[y^{-1}])_m$ (no. 2, Hệ quả của Định lý 2); vì $y^{-1} \in m(V)$, $y \notin V$. Hơn nữa $2.2 \cap A$ là một iđêan cực đại của $A$ (no. 2, Bổ đề 1); do đó, nếu $A$ là địa phương, $2.2 \cap A = m(A)$ và $V$ trội hơn $A$.
 
-#### Hệ quả 1 {#ac-vi-s1-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s1-thm-3-cor-1 .statement tag=04S7}
 
 Mọi vành định giá đều đóng nguyên.
 
-#### Hệ quả 2 {#ac-vi-s1-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s1-thm-3-cor-2 .statement tag=04S8}
 
 Để một miền nguyên là đóng nguyên, điều kiện cần và đủ là nó là giao của một họ các vành định giá của trường phân thức của nó.
 
 Trong trường hợp một vành Noether, Hệ quả 2 có thể được làm chính xác hơn (Chương VII, § 1, no. 3, Hệ quả của Định lý 1).
 
-#### Hệ quả 3 {#ac-vi-s1-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-vi-s1-thm-3-cor-3 .statement tag=04S9}
 
 Cho K là một trường, K' là một mở rộng của K và A là một vành định giá của K. Bao đóng nguyên của A trong K' là giao của các vành định giá V' của K sao cho V' $\cap K = A$.
 
@@ -165,7 +165,7 @@ Cho K là một trường, K' là một mở rộng của K và A là một vàn
 
 (3) Mệnh đề sau cung cấp nhiều ví dụ về các vành định giá:
 
-#### Mệnh đề 2 {#ac-vi-s1-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s1-prop-2 .statement tag=04SA}
 
 Cho A là một vành địa phương có iđêan cực đại là một iđêan chính Ap. Nếu $\bigcap_{n=1}^{\infty} Ap^n = (0)$ (chẳng hạn nếu A là Noether, xem Chương III, § 3, no. 2, Hệ quả của Mệnh đề 5), các iđêan duy nhất của A là (0) và các Ap^n; khi đó hoặc p là lũy linh hoặc A là một vành định giá.
 
@@ -189,19 +189,19 @@ $B_{BF}$ là một vành định giá (xem Chương VII, § 3, no. 5). \*
 
 Vành các chuỗi lũy thừa hình thức $K[[T]]$ với một phần tử bất định trên một trường $K$ là một miền nguyên địa phương Noether có iđêan cực đại là chính; do đó nó là một vành định giá. Mặt khác, vành $K[[T_1, T_2]]$ các chuỗi lũy thừa hình thức với hai phần tử bất định, là một miền nguyên địa phương Noether, không phải là một vành định giá, vì không phần tử nào trong hai phần tử $T_1, T_2$ là bội của phần tử kia.
 
-#### Mệnh đề 3 {#ac-vi-s1-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s1-prop-3 .statement tag=04SB}
 
 *Cho $A$ là một miền iđêan chính và $K$ là trường các phân thức của nó. Các vành định giá của $K$ chứa $A$ và phân biệt với $K$ là các vành có dạng $A_{Ap}$, trong đó $p$ là một phần tử cực biên của $A$.
 
 Rõ ràng $A_{Ap}$ ($p$ cực biên) là một vành định giá chứa $A$ và phân biệt với $K$ (Mệnh đề 2). Ngược lại, cho $V$ là một vành định giá phân biệt với $K$ và chứa $A$. Vì $V \neq K$, $m(V)$ chứa một phần tử $x \neq 0$; viết $x = a/b$ trong đó $a \in A$ và $b \in A$, ta thấy rằng $A \cap m(V)$ chứa phần tử khác không $a$. Vì $A \cap m(V)$ là nguyên tố, nó có dạng $Ap$ trong đó $p$ là cực biên trong $A$. Khi đó $A_{Ap} \subset V, pA_{Ap} \subset m(V)$, do đó $V$ trội $A_{Ap}$; vì $A_{Ap}$ là một vành định giá của $K$ (Mệnh đề 2), $V = A_{Ap}$.
 
-#### Hệ quả 1 {#ac-vi-s1-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s1-prop-3-cor-1 .statement tag=04SC}
 
 *Mọi vành định giá của trường $\mathbf{Q}$ và phân biệt với $\mathbf{Q}$ đều có dạng $\mathbf{Z}_{(p)}$ trong đó $p$ là một số nguyên tố.
 
 Mọi vành con của $\mathbf{Q}$ đều chứa $\mathbf{Z}$.
 
-#### Hệ quả 2 {#ac-vi-s1-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s1-prop-3-cor-2 .statement tag=04SD}
 
 *Cho $K$ là một trường, $K(X)$ là trường các hàm hữu tỉ theo một bất định trên $K$ và $V$ là một vành định giá của $K(X)$ chứa $K$ và phân biệt với $K(X)$. Nếu $X \in V$, tồn tại một đa thức bất khả quy $P \in K[X]$ sao cho $V = (K[X])_{(P)}$; nếu không thì $V$ là vành địa phương của $K[X^{-1}]$ tại iđêan nguyên tố $X^{-1}K[X^{-1}]$ (nói cách khác $V$ được tạo thành bởi các phân thức $A/B$, trong đó $A \in K[X]$ và $B \in K[X]$, sao cho $\deg(A) \leq \deg(B)$).
 

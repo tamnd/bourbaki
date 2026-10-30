@@ -45,7 +45,7 @@ subsections:
       pdf_page: 138
 statements: 44
 exercises: 3
-content_sha256: 9f2223bce07c7f2bdc7ff4a17f3c536cce4b25f2d7c349ff5472bbb926cf2d7d
+content_sha256: 7e23198285dc5cb4353370685c3d59fc0442a1a826f792dd80d1ab78eaae10e8
 ---
 
 ## § 3. L$^p$ SPACES
@@ -54,7 +54,7 @@ content_sha256: 9f2223bce07c7f2bdc7ff4a17f3c536cce4b25f2d7c349ff5472bbb926cf2d7d
 
 Let X be a locally compact space, $\mu$ a measure on X. In the set of positive numerical functions (finite or not) defined on X, the function $|\mu|^*(f)$ is positive, positively homogeneous, increasing and convex ($§ 1$, No. 3, Props. 10, 11 and 12).
 
-#### Proposition 1 {#int-iv-s3-prop-1 .statement}
+#### Proposition 1 {#int-iv-s3-prop-1 .statement tag=08QN}
 
 — For every real number $p \geqslant 1$ and every pair of positive functions $f, g$ (finite or not) defined on X,
 
@@ -88,13 +88,13 @@ $$
 
 In all that follows, $F$ denotes a *complete normed* vector space (that is, a Banach space) over the field $\mathbf{R}$ or the field $\mathbf{C}$; the *norm* of an element $z \in F$ will be denoted $|z|$. Given a mapping $f$ of a set $A$ into $F$, we write $|f|$ for the mapping $x \mapsto |f(x)|$ of $A$ into $\mathbf{R}_+$ (one must take care to note that $|f|$ is a *numerical function*, and not a *number*).
 
-#### Definition 1 {#int-iv-s3-def-1 .statement}
+#### Definition 1 {#int-iv-s3-def-1 .statement tag=08QO}
 
 *Let $X$ be a locally compact space, $\mu$ a measure on $X$. For every mapping $f$ of $X$ into a Banach space $F$, and for every number $p$ such that $1 \leq p < +\infty$, we denote by $N_p(f, \mu)$, or simply $N_p(f)$, the positive number* $(\int^* |f|^p d|\mu|)^{1/p}$.
 
 Note that the number $N_p(f)$ may be equal to $+\infty$.
 
-#### Proposition 2 {#int-iv-s3-prop-2 .statement}
+#### Proposition 2 {#int-iv-s3-prop-2 .statement tag=08QP}
 
 *If $f$ and $g$ are two mappings of $X$ into $F$, and $\alpha$ is any scalar $\neq 0$, then, for $1 \leq p < +\infty$,
 
@@ -115,7 +115,7 @@ $$
 
 for such a function $f$. One sees immediately that the relations (3) and (4) also hold for these functions when $f + g$ is defined on $X$ and $\alpha \neq 0$. Moreover:
 
-#### Theorem 1 (countable convexity theorem) {#int-iv-s3-thm-1 .statement}
+#### Theorem 1 (countable convexity theorem) {#int-iv-s3-thm-1 .statement tag=08QQ}
 
 — *Let $(f_n)$ be a sequence of functions $\geq 0$ (finite or not) defined on $X$. For $1 \leq p < +\infty$,
 
@@ -125,7 +125,7 @@ $$
 
 Set $f = \sum_{n=1}^\infty f_n$; $f$ is the upper envelope of the increasing sequence of functions $g_n = \sum_{k=1}^n f_k$; the definition of $N_p(f)$, and Th. 3 of §1, No. 3, show that $N_p(f) = \sup_n N_p(g_n)$. But $N_p(g_n) \leq \sum_{k=1}^n N_p(f_k)$ by Prop. 1, whence the inequality (5).
 
-#### Proposition 3 {#int-iv-s3-prop-3 .statement}
+#### Proposition 3 {#int-iv-s3-prop-3 .statement tag=08QR}
 
 *If f and g are two equivalent mappings of X into a Banach space F, then $N_p(f - g) = 0$ for $1 \leq p < +\infty$; conversely, if $N_p(f - g) = 0$ for a value of $p \geq 1$ then f and g are equivalent.*
 
@@ -154,11 +154,11 @@ This terminology extends at once to the case that the functions $f_n$ and the fu
 
 Note that the locally convex space $\mathscr{F}_\mathbf{F}^p$ is in general *not Hausdorff*; the closure of 0 in this space is the linear subspace $\mathscr{N}_\mathbf{F}$ of *negligible* mappings of X into F (No. 2, Prop. 3).
 
-#### Remark {#int-iv-s3-n3-rem-1 .statement}
+#### Remark {#int-iv-s3-n3-rem-1 .statement tag=08QS}
 
 — Let F be a Banach space *over the field* $\mathbf{C}$ of complex numbers; then, for every function $f \in \mathscr{F}_\mathbf{F}^p$ and every complex number $\alpha$, $\alpha f$ belongs to $\mathscr{F}_\mathbf{F}^p$ and $N_p(\alpha f) = |\alpha| N_p(f)$; in other words, $\mathscr{F}_\mathbf{F}^p$ is also a vector space over $\mathbf{C}$, and $N_p(f)$ is a semi-norm on this complex vector space (TVS, II, §1).
 
-#### Proposition 4 {#int-iv-s3-prop-4 .statement}
+#### Proposition 4 {#int-iv-s3-prop-4 .statement tag=08QT}
 
 *Let $\mathscr{B}$ be a filter base on $\mathscr{F}_\mathbf{F}^p$. Assume that there exists a compact set $K \subset X$ such that, for every set $M \in \mathscr{B}$, all of the mappings $f \in M$ have their support contained in K. Under these conditions, if $\mathscr{B}$ converges uniformly in X to $f_0$, then $f_0$ belongs to $\mathscr{F}_\mathbf{F}^p$ and $\mathscr{B}$ converges in mean of order $p$ to $f_0$.*
 
@@ -166,7 +166,7 @@ It comes to the same thing to say that, on the set of mappings $f \in \mathscr{F
 
 For, let $h$ be a continuous mapping of X into $[0,1]$, with compact support, equal to 1 on K (Ch. III, §1, No. 2, Lemma 1). For every $\varepsilon > 0$, there exists an $M \in \mathscr{B}$ such that, for every mapping $f \in M$, $|f(x) - f_0(x)| \leq \varepsilon h(x)$ for all $x \in X$. From this, it follows that $N_p(f - f_0) \leq \varepsilon N_p(h)$, whence the proposition.
 
-#### Proposition 5 {#int-iv-s3-prop-5 .statement}
+#### Proposition 5 {#int-iv-s3-prop-5 .statement tag=08QU}
 
 *The locally convex space $\mathscr{F}_\mathbf{F}^p$ is complete.*
 
@@ -174,7 +174,7 @@ Since the Hausdorff space associated with $\mathscr{F}_\mathbf{F}^p$ is a normed
 
 Prop. 5 is thus a consequence of the following proposition:
 
-#### Proposition 6 {#int-iv-s3-prop-6 .statement}
+#### Proposition 6 {#int-iv-s3-prop-6 .statement tag=08QV}
 
 *Let $(f_n)$ be a sequence of functions in $\mathscr{F}_\mathbf{F}^p$ such that $\sum_{n=1}^\infty N_p(f_n) < +\infty$. Under these conditions, the series with general term $f_n(x) \in \mathbf{F}$ is absolutely convergent almost everywhere in $X$. Setting $f(x) = \sum_{n=1}^\infty f_n(x)$ at the points where the series converges, and $f(x) = 0$ elsewhere, the function $f$ belongs to $\mathscr{F}_\mathbf{F}^p$ and is the sum of the series with general term $f_n$ (for the topology of convergence in mean of order $p$); more precisely, for every $n \geqslant 0$,
 
@@ -208,7 +208,7 @@ Propositions 5 and 6 are thus completely proved.
 
 The vector space $\mathscr{H}(X; F)$ (which we shall denote simply by $\mathscr{H}_F$ if there is no fear of confusion), consisting of the continuous functions of $X$ into $F$ with compact support, is obviously a subspace of each of the vector spaces $\mathscr{F}_F^p$.
 
-#### Definition 2 {#int-iv-s3-def-2 .statement}
+#### Definition 2 {#int-iv-s3-def-2 .statement tag=08QW}
 
 *Given a locally compact space* $X$, *a measure* $\mu$ *on* $X$, *and a Banach space* $F$, *we denote by* $\mathscr{L}_F^p(X, \mu)$ *(or simply* $\mathscr{L}_F^p(\mu)$, *or* $\mathscr{L}_F^p$) *the closure, in the locally convex space* $\mathscr{F}_F^p(X, \mu)$, *of the vector space* $\mathscr{H}(X; F)$ *of continuous mappings of* $X$ *into* $F$ *with compact support.* *We denote by* $L_F^p(X, \mu)$ *(or* $L_F^p(\mu)$, *or* $L_F^p$) *the (normed)* Hausdorff *space associated with* $\mathscr{L}_F^p(X, \mu)$. *The functions belonging to* $\mathscr{L}_F^p$ *are called the* $p$*-th power integrable functions* (*).
 
@@ -222,23 +222,23 @@ The functions in $\mathscr{L}_F^p$ (resp. in $\mathscr{L}^p$) are thus the *$p$*
 
 (*) The justification for this terminology will be given in §4, No. 2.
 
-#### Remark 1 {#int-iv-s3-n4-rem-1 .statement}
+#### Remark 1 {#int-iv-s3-n4-rem-1 .statement tag=08QX}
 
 As has already been signalled (§2, No. 5) the $p$-th power integrable functions with values in $\mathbf{F}$ in general do not form a vector space.
 
-#### Remark 2 {#int-iv-s3-n4-rem-2 .statement}
+#### Remark 2 {#int-iv-s3-n4-rem-2 .statement tag=08QY}
 
 In general, the space $\mathscr{F}_\mathbf{F}^p$ is distinct from its subspace $\mathscr{L}_\mathbf{F}^p$ (§4, Exer. 8).
 
 Def. 2 immediately yields the following criterion:
 
-#### Proposition 7 {#int-iv-s3-prop-7 .statement}
+#### Proposition 7 {#int-iv-s3-prop-7 .statement tag=08QZ}
 
 For a function $\mathbf{f}$ to belong to $\mathscr{L}_\mathbf{F}^p$, it is necessary and sufficient that, for every $\varepsilon > 0$, there exist a continuous function $g$ with compact support such that $N_p(\mathbf{f} - g) \leq \varepsilon$.
 
 In other words, the functions in $\mathscr{L}_\mathbf{F}^p$ are the limits of sequences of continuous functions with compact support, for the topology of convergence in mean of order $p$.
 
-#### Proposition 8 {#int-iv-s3-prop-8 .statement}
+#### Proposition 8 {#int-iv-s3-prop-8 .statement tag=08R0}
 
 Let $f$ be a numerical function (finite or not) defined almost everywhere; if, for every $\varepsilon > 0$, there exists two $p$-th power integrable functions $g, h$ such that $g \leq f \leq h$ almost everywhere and $N_p(h - g) \leq \varepsilon$, then $f$ is $p$-th power integrable.
 
@@ -246,7 +246,7 @@ For, $f$ is finite almost everywhere and $N_p(f - g) \leq N_p(h - g) \leq \varep
 
 Since, by definition, $\mathscr{L}_\mathbf{F}^p$ is a closed subspace of $\mathscr{F}_\mathbf{F}^p$, and since the latter space is complete (No. 3, Prop. 5), we have the following result (GT, II, §3, No. 4, Prop. 8):
 
-#### Theorem 2 {#int-iv-s3-thm-2 .statement}
+#### Theorem 2 {#int-iv-s3-thm-2 .statement tag=08R1}
 
 The space $\mathscr{L}_\mathbf{F}^p$ is complete; the space $L_\mathbf{F}^p$ is a Banach space.
 
@@ -254,7 +254,7 @@ In the space $L_\mathbf{F}^p$, the norm $N_p(\tilde{\mathbf{f}})$ of a class is 
 
 Th. 2 can be sharpened as follows:
 
-#### Theorem 3 {#int-iv-s3-thm-3 .statement}
+#### Theorem 3 {#int-iv-s3-thm-3 .statement tag=08R2}
 
 Let $(\mathbf{f}_n)$ be a Cauchy sequence in the space $\mathscr{L}_\mathbf{F}^p$; there exists a subsequence $(\mathbf{f}_{n_k})$ of $(\mathbf{f}_n)$ having the following properties:
 1° the series with general term $N_p(\mathbf{f}_{n_{k+1}} - \mathbf{f}_{n_k})$ is convergent;
@@ -264,13 +264,13 @@ Let $(\mathbf{f}_n)$ be a Cauchy sequence in the space $\mathscr{L}_\mathbf{F}^p
 
 As in the proof of Prop. 5 of No. 3, it suffices to define the sequence $(n_k)$ by induction, in such a way that $N_p(\mathbf{f}_{n_{k+1}} - \mathbf{f}_{n_k}) \leq 2^{-k}$; parts 2° and 3° then follow from Prop. 6 of No. 3 and the fact that $\mathscr{L}_\mathbf{F}^p$ is closed in $\mathscr{F}_\mathbf{F}^p$. On the other hand, if $h(x)$ is the sum of the series with general term $|\mathbf{f}_{n_{k+1}}(x) - \mathbf{f}_{n_k}(x)|$, Th. 1 of No. 2 shows that $N_p(h) < +\infty$; therefore, by the definition of $|\mu|^*$, there exists a lower semi-continuous function $g \geq h + |\mathbf{f}_{n_1}|$ such that $N_p(g) < +\infty$, which completes the proof.
 
-#### Corollary 1 {#int-iv-s3-thm-3-cor-1 .statement}
+#### Corollary 1 {#int-iv-s3-thm-3-cor-1 .statement tag=08R3}
 
 — *If a Cauchy sequence* $(f_n)$ *in the space* $\mathscr{L}_F^p$ *is such that the sequence* $(f_n(x))$ *converges almost everywhere to* $f(x)$*, then* $f$ *is p-th power integrable and the sequence* $(f_n)$ *converges in mean of order* $p$ *to* $f$.
 
 For, there exists a subsequence $(f_{n_k})$ of $(f_n)$ such that $(f_{n_k}(x))$ converges almost everywhere to $g(x)$, where $g$ is a function in $\mathscr{L}_F^p$ such that $(f_n)$ converges in mean of order $p$ to $g$. The hypotheses therefore imply that $f(x) = g(x)$ almost everywhere, whence the corollary.
 
-#### Corollary 2 {#int-iv-s3-thm-3-cor-2 .statement}
+#### Corollary 2 {#int-iv-s3-thm-3-cor-2 .statement tag=08R4}
 
 — *Let* $\mathscr{E}$ *be a dense subset of* $\mathscr{L}_F^p$. *For every function* $f \in \mathscr{L}_F^p$, *there exists a sequence* $(g_n)$ *of functions in* $\mathscr{E}$ *having the following properties*:
 
@@ -281,17 +281,17 @@ For, since the space $\mathscr{L}_F^p$ is metrizable, there exists a Cauchy sequ
 
 Cor. 2 is applicable in particular to the case where $\mathscr{E}$ is taken to be the space $\mathscr{K}_F$ of *continuous functions with compact support*.
 
-#### Remark 3 {#int-iv-s3-n4-rem-3 .statement}
+#### Remark 3 {#int-iv-s3-n4-rem-3 .statement tag=08R5}
 
 A Cauchy sequence $(f_n)$ in $\mathscr{L}_F^p$ can be such that the sequence $(f_n(x))$ is not convergent *at any point of* $X$ (Exer. 1).
 
-#### Remark 4 {#int-iv-s3-n4-rem-4 .statement}
+#### Remark 4 {#int-iv-s3-n4-rem-4 .statement tag=08R6}
 
 If $f$ belongs to $\mathscr{L}_F^p$, it is not always possible to find a sequence $(f_n)$ of continuous functions with compact support such that the sequence $(f_n(x))$ converges *everywhere* in $X$ to a function equal to $f(x)$ almost everywhere (§4, Exer. 4 c)).
 
 ### 5. Properties of $p$-th power integrable functions
 
-#### Theorem 4 {#int-iv-s3-thm-4 .statement}
+#### Theorem 4 {#int-iv-s3-thm-4 .statement tag=08R7}
 
 — *Let* $F$ *and* $G$ *be two Banach spaces,* $u$ *a continuous linear mapping of* $F$ *into* $G$. *For every function* $f \in \mathscr{L}_F^p$, *the composite function* $u \circ f$ *belongs to* $\mathscr{L}_G^p$.
 
@@ -303,41 +303,41 @@ $$
 
 and since $u \circ g$ is continuous with compact support, the theorem is proved.
 
-#### Corollary 1 {#int-iv-s3-thm-4-cor-1 .statement}
+#### Corollary 1 {#int-iv-s3-thm-4-cor-1 .statement tag=08R8}
 
 — *Let* $a'$ *be a continuous linear form on* $F$; *if* $f \in \mathscr{L}_F^p$, *the numerical function* $x \mapsto \langle f(x), a' \rangle$ **(denoted by $\langle f, a' \rangle$)* belongs to* $\mathscr{L}^p$.
 
-#### Corollary 2 {#int-iv-s3-thm-4-cor-2 .statement}
+#### Corollary 2 {#int-iv-s3-thm-4-cor-2 .statement tag=08R9}
 
 — Given n points $a_k$ of F ($1 \leq k \leq n$), and n numerical functions $f_k$ ($1 \leq k \leq n$) belonging to $\mathscr{L}^p$, the function $f = \sum_{k=1}^n a_k f_k$ belongs to $\mathscr{L}_F^p$.
 
 This follows from the fact that the mapping $t \mapsto a t$ of $\mathbf{R}$ into F is continuous.
 
-#### Proposition 9 {#int-iv-s3-prop-9 .statement}
+#### Proposition 9 {#int-iv-s3-prop-9 .statement tag=08RA}
 
 — Let F be an n-dimensional vector space over $\mathbf{R}$, and let $(e_k)_{1 \leq k \leq n}$ be a basis of F. For a function $f = \sum_{k=1}^n e_k f_k$ to belong to $\mathscr{L}_F^p$, it is necessary and sufficient that each of the numerical functions $f_k$ belong to $\mathscr{L}^p$.
 
 This follows at once from Cors. 1 and 2 of Th. 4.
 
-#### Proposition 10 {#int-iv-s3-prop-10 .statement}
+#### Proposition 10 {#int-iv-s3-prop-10 .statement tag=08RB}
 
 — In the space $\mathscr{L}_F^p$, the linear subspace formed by the (finite) linear combinations $\sum_k a_k f_k$, where $a_k \in F$ and the $f_k$ are continuous numerical functions with compact support, is dense (for the topology of convergence in mean of order $p$).
 
 The set $\mathscr{K}_F$ of continuous mappings of X into F with compact support is by definition dense in $\mathscr{L}_F^p$. On the other hand, every function $g \in \mathscr{K}_F$ may be uniformly approximated by functions of the form $\sum_k a_k f_k$, where the $f_k$ are continuous functions with support contained in a fixed compact neighborhood of the support of $g$ (Ch. III, §1, No. 2, Lemma 2); it follows (No. 3, Prop. 4) that $g$ is in the closure in $\mathscr{L}_F^p$ of the set of $\sum_k a_k f_k$, whence the proposition.
 
-#### Proposition 11 {#int-iv-s3-prop-11 .statement}
+#### Proposition 11 {#int-iv-s3-prop-11 .statement tag=08RC}
 
 — If a function $f$ belongs to $\mathscr{L}_F^p$, then the function $|f|$ belongs to $\mathscr{L}^p$, and the mapping $f \mapsto |f|$ of $\mathscr{L}_F^p$ into $\mathscr{L}^p$ is uniformly continuous (for the topology of convergence in mean of order $p$).
 
 For every $\varepsilon > 0$ there exists a continuous function $g$ with compact support, such that $N_p(f - g) \leq \varepsilon$; since $||f| - |g|| \leq |f - g|$, we have $N_p(|f| - |g|) \leq \varepsilon$, which proves that $|f| \in \mathscr{L}^p$. On the other hand, if $f_1, f_2$ are two functions in $\mathscr{L}_F^p$ then $N_p(|f_1| - |f_2|) \leq N_p(f_1 - f_2)$, which shows that $f \mapsto |f|$ is a uniformly continuous mapping.
 
-#### Proposition 12 {#int-iv-s3-prop-12 .statement}
+#### Proposition 12 {#int-iv-s3-prop-12 .statement tag=08RD}
 
 — For a numerical function $f$ to belong to $\mathscr{L}^p$, it is necessary and sufficient that each of the functions $f^+$ and $f^-$ belong to $\mathscr{L}^p$.
 
 The condition is sufficient since $f = f^+ - f^-$; it is necessary, because if $f \in \mathscr{L}^p$ then $|f| \in \mathscr{L}^p$ (Prop. 11).
 
-#### Corollary {#int-iv-s3-n5-cor-1 .statement}
+#### Corollary {#int-iv-s3-n5-cor-1 .statement tag=08RE}
 
 — The upper (resp. lower) envelope of a finite family of functions in $\mathscr{L}^p$ belongs to $\mathscr{L}^p$.
 
@@ -345,7 +345,7 @@ The condition is sufficient since $f = f^+ - f^-$; it is necessary, because if $
 
 We have defined (§ 2, No. 6) an order relation $\tilde{f} \leq \tilde{g}$ in the set $\widetilde{\mathscr{F}}$ of equivalence classes of numerical functions defined and finite almost everywhere in $X$; equipped with this order relation and with its vector space structure, $\widetilde{\mathscr{F}}$ is a *Riesz space*. The corollary of Prop. 12 of No. 5 shows that if $\tilde{f}$ and $\tilde{g}$ are two elements of the subspace $L^p$ of $\widetilde{\mathscr{F}}$, then the supremum $\sup(\tilde{f}, \tilde{g})$ of $\tilde{f}$ and $\tilde{g}$ in $\widetilde{\mathscr{F}}$ (which is the class of each of the functions $\sup(f, g)$, where $f \in \tilde{f}$ and $g \in \tilde{g}$) belongs to $L^p$; this proves in particular that $L^p$, equipped with the order relation induced by that of $\widetilde{\mathscr{F}}$, is a *Riesz space*.
 
-#### Proposition 13 {#int-iv-s3-prop-13 .statement}
+#### Proposition 13 {#int-iv-s3-prop-13 .statement tag=08RF}
 
 *In the Riesz space $L^p$, equipped with the topology defined by the norm $\| \tilde{f} \|_p$, the mapping $\tilde{f} \mapsto | \tilde{f} |$ is uniformly continuous, and the set of elements $\tilde{f} \geq 0$ is closed.*
 
@@ -353,7 +353,7 @@ The first part of the proposition follows at once from Prop. 11 of No. 5; since 
 
 We thus see that the topology on $L^p$ defined by the norm $\| \tilde{f} \|_p$ is *compatible* with the ordered vector space structure of $L^p$ (TVS, II, § 2, No. 7).
 
-#### Proposition 14 {#int-iv-s3-prop-14 .statement}
+#### Proposition 14 {#int-iv-s3-prop-14 .statement tag=08RG}
 
 *Let $H$ be a subset of the Riesz space $L^p$, consisting of classes $\geq 0$ and directed for the relation $\leq$. For $H$ to have a supremum in $L^p$, it is necessary and sufficient that*
 
@@ -367,7 +367,7 @@ The condition is clearly necessary, since $\tilde{f} \mapsto \| \tilde{f} \|_p$ 
 
 To see that $\mathfrak{F}$ is a base of a Cauchy filter, we shall make use of the following lemma:
 
-#### Lemma {#int-iv-s3-n6-lem-1 .statement}
+#### Lemma {#int-iv-s3-n6-lem-1 .statement tag=08RH}
 
 If $f$ and $g$ are two functions in $\mathscr{L}^p$ such that $0 \leq f \leq g$, then
 
@@ -385,7 +385,7 @@ and is then a consequence of the elementary inequality $(g - f)^p \leq g^p - f^p
 
 The lemma having been established, for every $\varepsilon > 0$ there exists by hypothesis an $\tilde{f} \in \mathrm{H}$ such that, for every $\tilde{g} \geq \tilde{f}$ belonging to $\mathrm{H}$, we have $(\|\tilde{g}\|_p)^p - (\|\tilde{f}\|_p)^p \leq \varepsilon$; from this it follows that $(\|\tilde{g} - \tilde{f}\|_p)^p \leq \varepsilon$; thus, if $\tilde{g}_1$ and $\tilde{g}_2$ are two elements in $\mathrm{H}$ that are $\geq \tilde{f}$, then $\|\tilde{g}_1 - \tilde{g}_2\|_p \leq 2\varepsilon^{1/p}$, which proves that $\mathfrak{F}$ is a Cauchy filter base on $L^p$ and completes the proof of Prop. 14.
 
-#### Corollary 1 {#int-iv-s3-prop-14-cor-1 .statement}
+#### Corollary 1 {#int-iv-s3-prop-14-cor-1 .statement tag=08RI}
 
 If $\tilde{g}$ is the supremum of $\mathrm{H}$ in $L^p$, then
 
@@ -395,7 +395,7 @@ $$
 
 This follows from the continuity of the norm $\|\tilde{f}\|_p$ in $L^p$, and the monotone limit theorem.
 
-#### Corollary 2 {#int-iv-s3-prop-14-cor-2 .statement}
+#### Corollary 2 {#int-iv-s3-prop-14-cor-2 .statement tag=08RJ}
 
 The Riesz space $L^p$ is fully lattice-ordered.
 
@@ -405,7 +405,7 @@ The conclusions of Prop. 14 no longer hold when they are formulated for the func
 
 Nevertheless, we have the following theorem:
 
-#### Theorem 5 {#int-iv-s3-thm-5 .statement}
+#### Theorem 5 {#int-iv-s3-thm-5 .statement tag=08RK}
 
 *Let $(f_n)$ be an increasing sequence of functions $\geqslant 0$ in $\mathscr{L}^p$. For the upper envelope $f$ of this sequence to be p-th power integrable, it is necessary and sufficient that $\sup_n N_p(f_n) < +\infty$. The sequence $(f_n)$ is then convergent in mean of order $p$ to $f$, and*
 
@@ -415,7 +415,7 @@ $$
 
 The condition being obviously necessary, we need only prove that it is sufficient. Now, if the condition is satisfied then Prop. 14 shows that the sequence $(\tilde{f}_n)$ is a Cauchy sequence in $L^p$, therefore the sequence $(f_n)$ is a Cauchy sequence in $\mathscr{L}^p$; since $f_n(x)$ tends to $f(x)$ for all $x \in X$, $f$ is p-th power integrable and is the limit of the sequence $(f_n)$ for the topology of convergence in mean of order $p$ (No. 4, Cor. 1 of Th. 3). Therefore $N_p(f_n)$ tends to $N_p(f)$ since $N_p$ is a continuous function on $\mathscr{L}^p$.
 
-#### Corollary 1 {#int-iv-s3-thm-5-cor-1 .statement}
+#### Corollary 1 {#int-iv-s3-thm-5-cor-1 .statement tag=08RL}
 
 *Let $(f_n)$ be a decreasing sequence of functions $\geqslant 0$ in $\mathscr{L}^p$; then, the lower envelope $f$ of the sequence belongs to $\mathscr{L}^p$, the sequence $(f_n)$ converges in mean of order $p$ to $f$, and*
 
@@ -425,13 +425,13 @@ $$
 
 The first two assertions follow from Th. 5 applied to the sequence $g_n = f_1 - f_n$, which is increasing and bounded above; the rest is then obvious.
 
-#### Corollary 2 {#int-iv-s3-thm-5-cor-2 .statement}
+#### Corollary 2 {#int-iv-s3-thm-5-cor-2 .statement tag=08RM}
 
 *Let $(f_n)$ be a sequence of functions in $\mathscr{L}^p$. For the upper envelope $f$ of the sequence $(f_n)$ to be p-th power integrable, it is necessary and sufficient that there exist a function $g \geqslant 0$ such that $\int^* g^p d|\mu| < +\infty$ and $f_n \leqslant g$ for all $n$.
 
 The condition is obviously necessary, on taking $g = f^+$. Conversely, suppose it is verified, and set $g_n = \sup_{k \leqslant n} f_k$; the sequence $(g_n)$ is increasing and consists of p-th power integrable functions (No. 5, Cor. of Prop. 12). The increasing sequence of positive functions $h_n = g_n + g_1^-$ satisfies the conditions of Th. 5, since $N_p(h_n) \leqslant N_p(g + g_1^-) < +\infty$; its upper envelope $\sup_n h_n$ is therefore p-th power integrable, and the same is true of $f = \sup_n h_n - g_1^-$.
 
-#### Corollary 3 {#int-iv-s3-thm-5-cor-3 .statement}
+#### Corollary 3 {#int-iv-s3-thm-5-cor-3 .statement tag=08RN}
 
 — Let $A$ be a countable set, $\mathfrak{F}$ a filter on $A$ having a countable base, $(f_\alpha)_{\alpha \in A}$ a family of functions $\geq 0$ in $\mathscr{L}^p$. Assume that there exists a function $g \geq 0$ such that $N_p(g) < +\infty$ and $f_\alpha \leq g$ for all $\alpha \in A$; then the function $\limsup_{\mathfrak{F}} f_\alpha$ is $p$-th power integrable and
 
@@ -450,7 +450,7 @@ $$
 
 ### 7. Lebesgue’s theorem
 
-#### Theorem 6 (Lebesgue) {#int-iv-s3-thm-6 .statement}
+#### Theorem 6 (Lebesgue) {#int-iv-s3-thm-6 .statement tag=08RO}
 
 — Let $F$ be a Banach space, $(f_n)$ a sequence of functions in $\mathscr{L}_F^p$ such that: $1^\circ$ the sequence $(f_n(x))$ converges almost everywhere to a limit $f(x) \in F$; $2^\circ$ there exists a numerical function $g \geq 0$ such that $\int^* g^p d|\mu| < +\infty$ and $|f_n(x)| \leq g(x)$ almost everywhere in $X$, for every integer $n$. Then, the function $f$ (defined almost everywhere) is $p$-th power integrable, and the sequence $(f_n)$ converges in mean of order $p$ to $f$.
 
@@ -462,17 +462,17 @@ $$
 
 and since $N_p(f_m - f_n) \geq 0$ this implies $\lim_{m \to \infty, n \to \infty} N_p(f_m - f_n) = 0$; in other words, the sequence $(f_n)$ is a Cauchy sequence in $\mathscr{L}_F^p$. The theorem therefore follows from Cor. 1 of Th. 3 of No. 4.
 
-#### Corollary {#int-iv-s3-n7-cor-1 .statement}
+#### Corollary {#int-iv-s3-n7-cor-1 .statement tag=08RP}
 
 — Let $A$ be a set of indices, filtered by a filter $\mathfrak{F}$ having a countable base. If $(f_\alpha)_{\alpha \in A}$ is a family of functions in $\mathscr{L}_F^p$ that, with respect to the filter $\mathfrak{F}$, converge pointwise almost everywhere to a function $f$, and if, moreover, there exists a numerical function $g \geq 0$ such that $\int^* g^p d|\mu| < +\infty$ and $|f_\alpha(x)| \leq g(x)$ almost everywhere in $X$ for each $\alpha \in A$, then the function $f$ is $p$-th power integrable and $f_\alpha$ tends in mean of order $p$ to $f$ with respect to the filter $\mathfrak{F}$.
 
 For, let $(A_n)$ be a decreasing countable base of $\mathfrak{F}$, and let $\alpha_n$ be any element of $A_n$; the sequence $(f_{\alpha_n})$ converges pointwise to $f$ almost everywhere in $X$, thus Th. 6 shows that $f$ is $p$-th power integrable and that $\lim_{n \to \infty} N_p(f - f_{\alpha_n}) = 0$. Since $\mathfrak{F}$ is the intersection filter of the elementary filters associated with all such sequences $(\alpha_n)$ (GT, I, §6, No. 8, Prop. 11), $\lim_{\mathfrak{F}} N_p(f - f_\alpha)$ exists and is equal to the common limit 0 of all of the sequences $(N_p(f - f_{\alpha_n}))$.
 
-#### Remark 1 {#int-iv-s3-n7-rem-1 .statement}
+#### Remark 1 {#int-iv-s3-n7-rem-1 .statement tag=08RQ}
 
 Th. 6 no longer holds if the hypothesis $|f_n| \leq g$ (with $N_p(g) < +\infty$) is replaced by the weaker hypothesis $\sup_n N_p(f_n) < +\infty$. Suppose, for example, that $\mu$ is Lebesgue measure on $\mathbf{R}$; define continuous functions $f_n$ in the following manner: $f_n(x) = 0$ for $x \leq 0$ and for $x \geq \frac{2}{n}$, $f_n(\frac{1}{n}) = n$, $f_n$ being linear on the intervals $[0, \frac{1}{n}]$ and $[\frac{1}{n}, \frac{2}{n}]$. Then $\lim_{n \to \infty} f_n(x) = 0$ for all $x \in \mathbf{R}$, but $N_1(f_n) = 1$ for every $n$ (cf. §5, Exer. 12).
 
-#### Remark 2 {#int-iv-s3-n7-rem-2 .statement}
+#### Remark 2 {#int-iv-s3-n7-rem-2 .statement tag=08RR}
 
 The Cor. of Th. 6 no longer holds if it is not assumed that the filter $\mathfrak{F}$ has a countable base (cf. §1, No. 3, Remark 1 following the Cor. of Th. 3).
 
@@ -480,7 +480,7 @@ The Cor. of Th. 6 no longer holds if it is not assumed that the filter $\mathfra
 
 For every real number $\alpha > 0$, the mapping $z \mapsto |z|^{\alpha-1} \cdot z$ is defined and continuous on the complement of 0 in $F$; moreover, since $||z|^{\alpha-1} \cdot z| = |z|^{\alpha}$, this function tends to 0 with $z$ and may therefore be extended by continuity to the point 0 by giving it the value 0 at this point, even if $\alpha < 1$.
 
-#### Theorem 7 {#int-iv-s3-thm-7 .statement}
+#### Theorem 7 {#int-iv-s3-thm-7 .statement tag=08RS}
 
 — Let $p$ and $q$ be two real numbers such that $1 \leq p < +\infty$, $1 \leq q < +\infty$. If a function $f$ belongs to $\mathscr{L}_F^p$ then the function $|f|^{(p/q)-1} \cdot f$ belongs to $\mathscr{L}_F^q$, and conversely.
 
@@ -506,11 +506,11 @@ by the countable convexity theorem. Moreover, $g_n(x)$ tends almost everywhere t
 
 It can be shown that the mapping $f \mapsto |f|^{\frac{p}{q}-1} \cdot f$ is a homeomorphism of $\mathscr{L}_F^p$ onto $\mathscr{L}_F^q$ (§ 6, Exer. 10).
 
-#### Corollary 1 {#int-iv-s3-thm-7-cor-1 .statement}
+#### Corollary 1 {#int-iv-s3-thm-7-cor-1 .statement tag=08RT}
 
 — *For a function $f$ to belong to $\mathscr{L}_F^p$, it is necessary and sufficient that the function $|f|^{p-1} \cdot f$ belong to $\mathscr{L}_F^1$.*
 
-#### Corollary 2 {#int-iv-s3-thm-7-cor-2 .statement}
+#### Corollary 2 {#int-iv-s3-thm-7-cor-2 .statement tag=08RU}
 
 — *For a positive numerical function $f$ to belong to $\mathscr{L}^p$, it is necessary and sufficient that $f^p$ belong to $\mathscr{L}^1$.*
 

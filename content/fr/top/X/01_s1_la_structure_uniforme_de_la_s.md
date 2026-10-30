@@ -36,7 +36,7 @@ subsections:
       pdf_page: 256
 statements: 36
 exercises: 12
-content_sha256: 0fce89d50c23b45f845f64f7a0d4009827236b5e90bdb400393221042a5a34ec
+content_sha256: 40ac51cf5f94ce05ceddb181042371d043ee755bbf6a2fb7f0c0af0db80c877f
 ---
 
 ## § 1. LA STRUCTURE UNIFORME DE LA $\mathfrak{S}$-CONVERGENCE
@@ -53,7 +53,7 @@ $$
 
 ce qui démontre ($U'_{III}$).
 
-#### Définition 1 {#top-x-s1-def-1 .statement}
+#### Définition 1 {#top-x-s1-def-1 .statement tag=0CAR}
 
 On dit que la structure uniforme sur l’ensemble $\mathscr{F}(X; Y)$ ayant pour système fondamental d’entourages l’ensemble des $W(V)$, où $V$ parcourt l’ensemble des entourages de $Y$, est la structure de la convergence uniforme ; la topologie déduite de cette structure uniforme est appelée topologie de la convergence uniforme. Si un filtre $\Phi$ sur $\mathscr{F}(X; Y)$ converge vers un élément $u_0$ pour cette topologie, on dit qu’il converge uniformément vers $u_0$.
 
@@ -63,7 +63,7 @@ L’espace uniforme obtenu en munissant $\mathscr{F}(X; Y)$ de la structure de l
 
 ### 2. La $\mathfrak{S}$-convergence
 
-#### Définition 2 {#top-x-s1-def-2 .statement}
+#### Définition 2 {#top-x-s1-def-2 .statement tag=0CAS}
 
 Soient $X$ un ensemble, $Y$ un espace uniforme, $\mathfrak{S}$ un ensemble de parties de $X$. On appelle structure uniforme de la convergence uniforme dans les ensembles de $\mathfrak{S}$, ou simplement structure uniforme de la $\mathfrak{S}$-convergence, la structure uniforme la moins fine sur $\mathscr{F}(X; Y)$ rendant uniformément continues les applications de restriction $u \mapsto u|A$ de $\mathscr{F}(X; Y)$ dans les espaces uniformes $\mathscr{F}_u(A; Y)$, où $A$ parcourt $\mathfrak{S}$. On note $\mathscr{F}_{\mathfrak{S}}(X; Y)$ l’espace uniforme obtenu en munissant $\mathscr{F}(X; Y)$ de la structure uniforme de la $\mathfrak{S}$-convergence.
 
@@ -77,13 +77,13 @@ Soit $f$ une application d’un espace topologique (resp. d’un espace uniforme
 
 Enfin, soit $M$ une partie de $\mathscr{F}_\mathfrak{S}(X; Y)$; pour que $M$ soit précompacte il faut et il suffit que, pour tout $A \in \mathfrak{S}$, l’ensemble des restrictions $u \mid A$ pour $u \in M$ soit une partie précompacte de $\mathscr{F}_u(A; Y)$ (II, p. 31, prop. 3).
 
-#### Remarque 1 {#top-x-s1-n2-rem-1 .statement}
+#### Remarque 1 {#top-x-s1-n2-rem-1 .statement tag=0CAT}
 
 La définition générale des entourages d’une structure uniforme initiale (II, p. 8, prop. 4) montre qu’on obtient un système fondamental d’entourages de $\mathscr{F}_\mathfrak{S}(X; Y)$ de la façon suivante: pour tout $A \in \mathfrak{S}$ et tout entourage $V$ d’un système fondamental $\mathfrak{B}$ d’entourages de $Y$, soit $W(A, V)$ l’ensemble des couples $(u, v)$ d’applications de $X$ dans $Y$ tels que $(u(x), v(x)) \in V$ pour tout $x \in A$; lorsque $A$ parcourt $\mathfrak{S}$ et que $V$ parcourt $\mathfrak{B}$, les intersections finies des $W(A, V)$ forment un système fondamental d’entourages de $\mathscr{F}_\mathfrak{S}(X, Y)$.
 
 Cette description montre aussitôt que, si $\mathfrak{S}, \mathfrak{S}'$ sont deux ensembles de parties de $X$ telles que $\mathfrak{S} \subset \mathfrak{S}'$, la structure uniforme de la $\mathfrak{S}'$-convergence est plus fine que celle de la $\mathfrak{S}$-convergence.
 
-#### Remarque 2 {#top-x-s1-n2-rem-2 .statement}
+#### Remarque 2 {#top-x-s1-n2-rem-2 .statement tag=0CAU}
 
 Toutefois, on ne change pas la structure uniforme de la $\mathfrak{S}$-convergence en remplaçant $\mathfrak{S}$ par l’ensemble $\mathfrak{S}'$ des parties de $X$ dont chacune est contenue dans la réunion d’un nombre fini d’ensembles appartenant à $\mathfrak{S}$. Dans l’étude de la $\mathfrak{S}$-convergence, on peut donc toujours se limiter au cas où l’ensemble $\mathfrak{S}$ satisfait aux deux conditions suivantes:
 
@@ -92,27 +92,27 @@ $(F'_II)$ Toute réunion finie d’ensembles de $\mathfrak{S}$ appartient à $\m
 
 Lorsque $(F'_II)$ est vérifiée, on obtient un système fondamental d’entourages de $\mathscr{F}_\mathfrak{S}(X; Y)$ en prenant tous les ensembles $W(A, V)$, $A$ parcourant $\mathfrak{S}$ et $V$ un système fondamental d’entourages de $Y$.
 
-#### Remarque 3 {#top-x-s1-n2-rem-3 .statement}
+#### Remarque 3 {#top-x-s1-n2-rem-3 .statement tag=0CAV}
 
 La structure uniforme de la $\mathfrak{S}$-convergence est l’image réciproque, par l’application $u \mapsto (u \mid A)_{A \in \mathfrak{S}}$ de $\mathscr{F}(X; Y)$ dans $\prod_{A \in \mathfrak{S}} \mathscr{F}_u(A; Y)$, de la structure uniforme de cet espace produit (II, p. 11, prop. 8). Lorsque $\mathfrak{S}$ est un recouvrement de $X$, cette application est injective, et $\mathscr{F}_\mathfrak{S}(X; Y)$ est donc isomorphe au sous-espace uniforme de $\prod_{A \in \mathfrak{S}} \mathscr{F}_u(A; Y)$, image de cette application.
 
-#### Proposition 1 {#top-x-s1-prop-1 .statement}
+#### Proposition 1 {#top-x-s1-prop-1 .statement tag=0CAW}
 
 Si $Y$ est séparé et si $\mathfrak{S}$ est un recouvrement de $X$, l’espace $\mathscr{F}_\mathfrak{S}(X; Y)$ est séparé.
 
 En effet, soient $u, v$ deux éléments de $\mathscr{F}(X; Y)$ tels que $(u, v) \in W(A, V)$ pour tout entourage $V$ de $F$ et tout $A \in \mathfrak{S}$; comme $Y$ est séparé, on en déduit d’abord que $u$ et $v$ coïncident dans chaque ensemble $A \in \mathfrak{S}$, et comme $\mathfrak{S}$ est un recouvrement de $X$, $u = v$.
 
-#### Remarque 4 {#top-x-s1-n2-rem-4 .statement}
+#### Remarque 4 {#top-x-s1-n2-rem-4 .statement tag=0CAX}
 
 Soit $H$ une partie de $\mathscr{F}(X; Y)$; par abus de langage, on appelle structure uniforme (resp. topologie) de la $\mathfrak{S}$-convergence sur l’ensemble $H$, la structure uniforme (resp. la topologie) induite sur $H$ par la structure uniforme (resp. la topologie) de la $\mathfrak{S}$-convergence sur $\mathscr{F}(X; Y)$.
 
-#### Remarque 5 {#top-x-s1-n2-rem-5 .statement}
+#### Remarque 5 {#top-x-s1-n2-rem-5 .statement tag=0CAY}
 
 Si $\lambda \mapsto u_\lambda$ est une application, dans $\mathscr{F}_\mathfrak{S}(X; Y)$, d’un ensemble $L$ filtré par un filtre $\mathfrak{S}$, et si cette application admet une limite suivant $\mathfrak{S}$, on dit encore que, suivant le filtre $\mathfrak{S}$, les applications $u_\lambda$ de $X$ dans $Y$ convergent uniformément vers $v$ (ou que la famille $(u_\lambda)$ est uniformément convergente vers $v$) dans tout ensemble de $\mathfrak{S}$; on omet la mention du filtre $\mathfrak{S}$ lorsque $L = \mathbf{N}$ et que $\mathfrak{S}$ est le filtre de Fréchet.
 
 Plus particulièrement, supposons définie dans $Y$ une loi de composition commutative et associative, notée additivement. Pour toute suite $(u_n)$ d’applications de $X$ dans $Y$, désignons par $v_n$ l’application $x \mapsto \sum_{k=0}^n u_k(x)$ ($n \in \mathbf{N}$); on dira que la série de terme général $u_n$ est uniformément convergente dans tout ensemble de $\mathfrak{S}$ si la suite $(v_n)$ est uniformément convergente dans tout ensemble de $\mathfrak{S}$. On définit de même une famille uniformément sommable $(u_\lambda)_{\lambda \in L}$ d’applications de $X$ dans $Y$, en considérant les applications $x \mapsto \sum_{\lambda \in J} u_\lambda(x)$ pour toutes les parties finies $J$ de $L$, et la limite de ces applications dans $\mathscr{F}_\mathfrak{S}(X; Y)$ suivant l’ensemble ordonné filtrant des parties finies de $L$ (III, p. 37).
 
-#### Remarque 6 {#top-x-s1-n2-rem-6 .statement}
+#### Remarque 6 {#top-x-s1-n2-rem-6 .statement tag=0CAZ}
 
 Les déf. 1 et 2 (X, p. 2) entraînent aussitôt que pour tout $x \in \bigcup_{A \in \mathfrak{S}} A$, l’application $u \mapsto u(x)$ de $\mathscr{F}_\mathfrak{S}(X; Y)$ dans $Y$ est uniformément continue. Il en résulte en particulier que, si on désigne par $\overline{H}$ l’adhérence dans $\mathscr{F}_\mathfrak{S}(X; Y)$ d’une partie $H$ de cet espace, on a, pour tout $x \in \bigcup_{A \in \mathfrak{S}} A$, $\overline{H}(x) \subset \overline{H(x)}$ (I, p. 9, th. 1).
 
@@ -130,7 +130,7 @@ Lorsque $X$ est un espace uniforme, on définit de même sur $\mathscr{F}(X; Y)$
 
 ### 4. Propriétés des espaces $\mathscr{F}_\mathfrak{S}(X; Y)$
 
-#### Proposition 2 {#top-x-s1-prop-2 .statement}
+#### Proposition 2 {#top-x-s1-prop-2 .statement tag=0CB0}
 
 Soient $X_1, X_2$ deux ensembles, $Y$ un espace uniforme, $\mathfrak{S}_i$ un ensemble de parties de $X_i$ ($i = 1, 2$), $\mathfrak{S}_1 \times \mathfrak{S}_2$ l’ensemble des parties de la forme $A_1 \times A_2$ de $X_1 \times X_2$, avec $A_i \in \mathfrak{S}_i, i = 1, 2$. Alors la bijection canonique.
 
@@ -142,25 +142,25 @@ $$
 
 En effet, soient $V$ un entourage de $Y$, $A_i$ un élément de $\mathfrak{S}_i$ ($i = 1, 2$); il résulte aussitôt des définitions que $W(A_1 \times A_2, V)$ s’identifie à $W(A_1, W(A_2, V))$ par la bijection canonique, d’où la proposition.
 
-#### Proposition 3 {#top-x-s1-prop-3 .statement}
+#### Proposition 3 {#top-x-s1-prop-3 .statement tag=0CB1}
 
 a) Soient $X$ un ensemble, $\mathfrak{S}$ un ensemble de parties de $X$, $Y, Y'$ deux espaces uniformes, $f : Y \to Y'$ une application uniformément continue. Alors l’application $u \mapsto f \circ u$ de $\mathscr{F}_\mathfrak{S}(X; Y)$ dans $\mathscr{F}_\mathfrak{S}(X; Y')$ est uniformément continue.
 
 b) Soient $X, X'$ deux ensembles, $\mathfrak{S}$ (resp. $\mathfrak{S}'$) un ensemble de parties de $X$ (resp. $X'$), $Y$ un espace uniforme, $g : X' \to X$ une application telle que, pour tout $A' \in \mathfrak{S}'$, $g(A')$ soit contenu dans une réunion finie d’ensembles de $\mathfrak{S}$. Alors l’application $u \mapsto u \circ g$ de $\mathscr{F}_\mathfrak{S}(X; Y)$ dans $\mathscr{F}_{\mathfrak{S}'}(X'; Y)$ est uniformément continue.
 
-#### Proposition 4 {#top-x-s1-prop-4 .statement}
+#### Proposition 4 {#top-x-s1-prop-4 .statement tag=0CB2}
 
 Soient $X, Y$ deux ensembles, $(X_\lambda)_{\lambda \in L}$ une famille d’ensembles, $(Y_\mu)_{\mu \in M}$ une famille d’espaces uniformes. Pour tout $\lambda \in L$, soit $\mathfrak{S}_\lambda$ un ensemble de parties de $X_\lambda$, soit $g_\lambda$ une application de $X_\lambda$ dans $X$, et soit $\mathfrak{S}$ l’ensemble de parties de $X$, réunion des $g_\lambda(\mathfrak{S}_\lambda)$. Pour tout $\mu \in M$, soit $f_\mu$ une application de $Y$ dans $Y_\mu$; on munit $Y$ de la structure uniforme la moins fine rendant uniformément continues les $f_\mu$. Alors la structure uniforme de la $\mathfrak{S}$-convergence sur $\mathscr{F}(X; Y)$ est la moins fine rendant uniformément continues les applications $u \mapsto f_\mu \circ u \circ g_\lambda$ de $\mathscr{F}(X; Y)$ dans les $\mathscr{F}_{\mathfrak{S}_\lambda}(X_\lambda; Y_\mu)$.
 
 Ces propositions résultent immédiatement de la description d’un système fondamental d’entourages pour la structure uniforme de la $\mathfrak{S}$-convergence, donnée dans X, p. 3, Remarque 1; nous laissons les détails des démonstrations au lecteur.
 
-#### Corollaire 1 {#top-x-s1-prop-4-cor-1 .statement}
+#### Corollaire 1 {#top-x-s1-prop-4-cor-1 .statement tag=0EE0}
 
 Soient X un ensemble, $(Y_i)_{i \in I}$ une famille d’espaces uniformes, $\mathscr{S}$ un ensemble de parties de X. Si on munit $\prod_{i \in I} Y_i$ de la structure uniforme produit, la bijection canonique de l’espace uniforme $\mathscr{F}_{\mathscr{S}}(X, \prod_{i \in I} Y_i)$ sur l’espace uniforme produit $\prod_{i \in I} \mathscr{F}_{\mathscr{S}}(X; Y_i)$ (E, II, p. 39) est un isomorphisme.
 
 Cela résulte de la prop. 4.
 
-#### Corollaire 2 {#top-x-s1-prop-4-cor-2 .statement}
+#### Corollaire 2 {#top-x-s1-prop-4-cor-2 .statement tag=0EE1}
 
 Soient X un ensemble, $\mathscr{S}$ un ensemble de parties de X et G un groupe topologique. Supposons que les structures uniformes droite et gauche (III, p. 19) de G soient identiques. Alors la topologie de la $\mathscr{S}$-convergence sur $\mathscr{F}(X, G)$ est compatible avec la structure de groupe de $\mathscr{F}(X, G)$ déduite de l’identification à $G^X$ (A, I, p. 43).
 
@@ -172,35 +172,35 @@ $$
 
 (cor. 1) et l’application $w \mapsto \mu \circ w$ de $\mathscr{F}_{\mathscr{S}}(X, G \times G)$ dans $\mathscr{F}_{\mathscr{S}}(X, G)$ (prop. 4). D’où la continuité de $\tilde{\mu}$ et le corollaire d’après (III, p. 1).
 
-#### Remarque 1 {#top-x-s1-n4-rem-1 .statement}
+#### Remarque 1 {#top-x-s1-n4-rem-1 .statement tag=0EE2}
 
 L’hypothèse du corollaire est satisfaite si G est commutatif ou compact.
 
-#### Remarque 2 {#top-x-s1-n4-rem-2 .statement}
+#### Remarque 2 {#top-x-s1-n4-rem-2 .statement tag=0EE3}
 
 Pour tout partie $A \in \mathscr{S}$ et tout voisinage V de $e$ dans G, notons $L_0(A, V)$ l’ensemble des $u \in \mathscr{F}(X, G)$ tels que $u(A) \subset V$. Sous l’hypothèse du cor. 2, il résulte des définitions que, pour tout $u_0 \in \mathscr{F}(X, G)$, les ensembles $L_0(A, V) \cdot u_0$ (resp. $u_0 \cdot L_0(A, V)$) engendrent le filtre des voisinages de $u_0$ pour la topologie de la $\mathscr{S}$-convergence. En particulier, la structure uniforme de la $\mathscr{S}$-convergence et les structures uniformes droite et gauche du groupe topologique $\mathscr{F}(X, G)$ sont identiques.
 
 ### 5. Parties complètes de $\mathscr{F}_{\mathscr{S}}(X; Y)$
 
-#### Proposition 5 {#top-x-s1-prop-5 .statement}
+#### Proposition 5 {#top-x-s1-prop-5 .statement tag=0CB4}
 
 Soient X un ensemble, Y un espace uniforme, $\mathscr{S}$ un ensemble de parties de X. Pour qu’un filtre $\Phi$ sur $\mathscr{F}_{\mathscr{S}}(X; Y)$ converge vers $u_0$, il faut et il suffit que $\Phi$ soit un filtre de Cauchy pour la structure uniforme de la $\mathscr{S}$-convergence, et qu’il converge simplement vers $u_0$ dans $B = \bigcup_{A \in \mathscr{S}} A$.
 
 Comme la structure de la convergence simple dans B est moins fine que celle de la $\mathscr{S}$-convergence, tout revient à démontrer que pour tout $A \in \mathscr{S}$ et tout entourage fermé V de Y, $W(A, V)$ est fermé pour la topologie de la convergence simple dans B (II, p. 16, prop. 7). Or, $W(A, V)$ est l’intersection des images réciproques de V par les applications $(u, v) \mapsto (u(x), v(x))$ ($x$ parcourant A), et ces dernières sont continues pour la topologie de la convergence simple (X, p. 4, Remarque 6), d’où la conclusion.
 
-#### Corollaire 1 {#top-x-s1-prop-5-cor-1 .statement}
+#### Corollaire 1 {#top-x-s1-prop-5-cor-1 .statement tag=0CB5}
 
 Pour qu’un sous-espace H de $\mathscr{F}_\mathfrak{S}(X; Y)$ soit complet, il faut et il suffit que, pour tout filtre de Cauchy $\Phi$ sur H, il existe $u_0 \in H$ tel que $\Phi$ converge simplement vers $u_0$ dans $B = \bigcup_{A \in \mathfrak{S}} A$.
 
 Cela résulte aussitôt de la prop. 5.
 
-#### Corollaire 2 {#top-x-s1-prop-5-cor-2 .statement}
+#### Corollaire 2 {#top-x-s1-prop-5-cor-2 .statement tag=0CB6}
 
 Soient $\mathfrak{S}_1, \mathfrak{S}_2$ deux ensembles de parties de X ayant même réunion et tels que $\mathfrak{S}_1 \subset \mathfrak{S}_2$, et soit H une partie de $\mathscr{F}(X; Y)$; si H est complet pour la $\mathfrak{S}_1$-convergence, il est complet pour la $\mathfrak{S}_2$-convergence.
 
 En effet, tout filtre de Cauchy pour la $\mathfrak{S}_2$-convergence est un filtre de Cauchy pour la $\mathfrak{S}_1$-convergence, et on peut appliquer le cor. 1.
 
-#### Corollaire 3 {#top-x-s1-prop-5-cor-3 .statement}
+#### Corollaire 3 {#top-x-s1-prop-5-cor-3 .statement tag=0CB7}
 
 Soit H une partie de $\mathscr{F}(X; Y)$ telle que, pour tout $x \in B = \bigcup_{A \in \mathfrak{S}} A$, l’adhérence de $H(x)$ dans Y soit un sous-espace complet. Alors l’adhérence $\overline{H}$ de H dans $\mathscr{F}_\mathfrak{S}(X; Y)$ est un sous-espace complet.
 
@@ -208,7 +208,7 @@ Soit $\Phi$ un filtre de Cauchy sur $\overline{H}$; définissons une application
 
 En particulier, si Y est complet, l’hypothèse du cor. 3 de la prop. 5 est vérifiée pour tout $H \subset \mathscr{F}(X; Y)$, d’où:
 
-#### Théorème 1 {#top-x-s1-thm-1 .statement}
+#### Théorème 1 {#top-x-s1-thm-1 .statement tag=0CB8}
 
 Soient X un ensemble, $\mathfrak{S}$ un ensemble de parties de X, Y un espace uniforme complet; alors l’espace uniforme $\mathscr{F}_\mathfrak{S}(X; Y)$ est complet.
 
@@ -216,7 +216,7 @@ Soient X un ensemble, $\mathfrak{S}$ un ensemble de parties de X, Y un espace un
 
 Soient X, Y deux espaces topologiques; on désigne par $\mathscr{C}(X; Y)$ l’ensemble des applications continues de X dans Y. Si $\mathfrak{S}$ est un ensemble de parties de X, et si Y est un espace uniforme, on désigne par $\mathscr{C}_\mathfrak{S}(X; Y)$ l’ensemble $\mathscr{C}(X; Y)$ muni de la structure uniforme de la $\mathfrak{S}$-convergence. En particulier, $\mathscr{C}_s(X; Y), \mathscr{C}_c(X; Y), \mathscr{C}_u(X; Y)$ désignent l’ensemble $\mathscr{C}(X; Y)$ muni respectivement de la structure uniforme de la convergence simple, de la convergence compacte et de la convergence uniforme.
 
-#### Proposition 6 {#top-x-s1-prop-6 .statement}
+#### Proposition 6 {#top-x-s1-prop-6 .statement tag=0CB9}
 
 Soient X un espace topologique, Y un espace uniforme, $\mathfrak{S}$ un ensemble de parties de X. Pour tout $A \in \mathfrak{S}$ et tout entourage fermé $V$ de $Y$, les traces sur $C(X; Y) \times C(X; Y)$ de $W(A, V)$ et de $W(\overline{A}, V)$ sont les mêmes.
 
@@ -224,11 +224,11 @@ En effet, si $u$ et $v$ sont des applications continues de $X$ dans $Y$, l’app
 
 Si $\overline{\mathfrak{S}}$ désigne l’ensemble des adhérences dans $X$ des ensembles de $\mathfrak{S}$, la prop. 6 montre que, sur $C(X; Y)$, les structures de la $\mathfrak{S}$-convergence et de la $\overline{\mathfrak{S}}$-convergence sont les mêmes.
 
-#### Corollaire {#top-x-s1-n6-cor-1 .statement}
+#### Corollaire {#top-x-s1-n6-cor-1 .statement tag=0CBA}
 
 Soit $B$ une partie partout dense de $X$; sur $C(X; Y)$, la structure de la convergence uniforme est identique à la structure de la convergence uniforme dans $B$.
 
-#### Proposition 7 {#top-x-s1-prop-7 .statement}
+#### Proposition 7 {#top-x-s1-prop-7 .statement tag=0CBB}
 
 Soient $X$ un espace topologique, $\mathfrak{S}$ un ensemble de parties de $X$, $Y$ un espace uniforme. Si $Y$ est séparé et si la réunion $B$ des ensembles de $\mathfrak{S}$ est dense dans $X$, alors $C_{\mathfrak{S}}(X; Y)$ est séparé.
 
@@ -236,25 +236,25 @@ En effet, si $u$ et $v$ appartiennent à tous les $W(A, V)$ ($A \in \mathfrak{S}
 
 En particulier, sur $C(X; Y)$, la topologie de la convergence simple dans un ensemble dense dans $X$ est séparée si $Y$ est séparé.
 
-#### Proposition 8 {#top-x-s1-prop-8 .statement}
+#### Proposition 8 {#top-x-s1-prop-8 .statement tag=0CBC}
 
 Soient $X$ un ensemble, $\mathscr{F}$ un filtre sur $X$, $Y$ un espace uniforme. L’ensemble $H$ des applications $u : X \to Y$ telles que $u(\mathscr{F})$ soit une base de filtre de Cauchy sur $Y$ est fermé dans $F_u(X; Y)$.
 
 En effet, soit $u_0$ une application de $X$ dans $Y$ adhérente à $H$ dans $F_u(X; Y)$. Pour tout entourage symétrique $V$ de $Y$, il existe une application $u \in H$ telle que $(u_0(x), u(x)) \in V$ pour tout $x \in X$; d’autre part, il existe par hypothèse un ensemble $M \in \mathscr{F}$ tel que pour tout couple d’éléments $x, x'$ de $M$, on ait $(u(x), u(x')) \in V$. Comme on a $(u_0(x), u(x)) \in V$ et $(u_0(x'), u(x')) \in V$, on en déduit que $(u_0(x), u_0(x')) \in \overline{V}$ pour tout couple d’éléments $x, x'$ de $M$, d’où la proposition.
 
-#### Corollaire 1 {#top-x-s1-prop-8-cor-1 .statement}
+#### Corollaire 1 {#top-x-s1-prop-8-cor-1 .statement tag=0CBD}
 
 Soient $X$ un espace topologique, $Y$ un espace uniforme. L’ensemble des applications de $X$ dans $Y$, continues en un point $x_0 \in X$, est fermé dans $F_u(X; Y)$.
 
 En effet, si $\mathscr{B}$ est le filtre des voisinages de $x_0$ dans $X$, $u(x_0)$ est un point adhérent à $u(\mathscr{B})$; donc, pour que $u$ soit continue au point $x_0$, il faut et il suffit que $u(\mathscr{B})$ soit une base de filtre de Cauchy sur $Y$ (II, p. 14, cor. 2).
 
-#### Corollaire 2 {#top-x-s1-prop-8-cor-2 .statement}
+#### Corollaire 2 {#top-x-s1-prop-8-cor-2 .statement tag=0CBE}
 
 Soient $X, L$ deux ensembles filtrés par des filtres $\mathscr{F}, \mathfrak{S}$ respectivement, et soit $Y$ un espace uniforme complet. Pour tout $\lambda \in L$, soit $u_\lambda$ une application de $X$ dans $Y$. On suppose que : 1° suivant le filtre $\mathfrak{S}$, la famille $(u_\lambda)_{\lambda \in L}$ converge uniformément dans $X$ vers une application $v$ de $X$ dans $Y$; 2° pour tout $\lambda \in L$, $u_\lambda$ a une limite $y_\lambda$ suivant le filtre $\mathscr{F}$. Dans ces conditions, $v$ a une limite suivant le filtre $\mathscr{F}$, et toute limite de $v$ suivant $\mathscr{F}$ est limite de la famille $(y_\lambda)_{\lambda \in L}$ suivant $\mathfrak{S}$.
 
 En effet, $v$ est adhérente à l’ensemble des $u_\lambda$ dans $\mathscr{F}_u(X; Y)$, donc $v(\mathscr{F})$ est une base filtre de Cauchy sur $Y$ en vertu de la prop. 8, ce qui prouve que $v$ admet une limite $y$ suivant $\mathscr{F}$ puisque $Y$ est complet. Soit $X' = X \cup \{\omega\}$ l’espace topologique associé au filtre $\mathscr{F}$ (I, p. 40) et prolongeons $u_\lambda$ (resp. $v$) en une application $\bar{u}_\lambda$ (resp. $\bar{v}$) de $X'$ dans $Y$ en posant $\bar{u}_\lambda(\omega) = y_\lambda$ (resp. $\bar{v}(\omega) = y$). Alors les $\bar{v}_\lambda$ et $\bar{v}$ sont continues dans $X'$, et $\bar{u}_\lambda$ converge uniformément dans $X$ vers $\bar{v}$ suivant $\mathfrak{S}$; comme $X$ est dense dans $X'$, il résulte de X, p. 8, corollaire, que $\bar{u}_\lambda$ converge uniformément dans $X'$ vers $\bar{v}$, et en particulier que $y = \lim_{\mathfrak{S}} y_\lambda$.
 
-#### Théorème 2 {#top-x-s1-thm-2 .statement}
+#### Théorème 2 {#top-x-s1-thm-2 .statement tag=0CBF}
 
 Soient $X$ un espace topologique, $Y$ un espace uniforme. Alors l’ensemble $C(X; Y)$ des applications continues de $X$ dans $Y$ est une partie fermée de $\mathscr{F}(X; Y)$ muni de la topologie de la convergence uniforme.
 
@@ -262,19 +262,19 @@ En effet, pour tout $x \in X$, l’ensemble des applications de $X$ dans $Y$ qui
 
 On exprime encore ce résultat en disant que toute limite uniforme de fonctions continues est continue.
 
-#### Corollaire 1 {#top-x-s1-thm-2-cor-1 .statement}
+#### Corollaire 1 {#top-x-s1-thm-2-cor-1 .statement tag=0CBG}
 
 Si $Y$ est un espace uniforme complet, $C_u(X; Y)$ est complet.
 
 En effet, en vertu du th. 2, $C_u(X; Y)$ est un sous-espace uniforme fermé de l’espace uniforme $\mathscr{F}_u(X; Y)$, qui est complet en vertu de X, p. 7, th. 1.
 
-#### Corollaire 2 {#top-x-s1-thm-2-cor-2 .statement}
+#### Corollaire 2 {#top-x-s1-thm-2-cor-2 .statement tag=0CBH}
 
 Soient $X$ un espace topologique, $\mathfrak{S}$ un ensemble de parties de $X$, $Y$ un espace uniforme ; on désigne par $\tilde{C}_\mathfrak{S}(X; Y)$ l’ensemble des applications de $X$ dans $Y$ dont la restriction à tout ensemble de $\mathfrak{S}$ est continue. Alors $\tilde{C}_\mathfrak{S}(X; Y)$ est fermé dans l’espace uniforme $\mathscr{F}_\mathfrak{S}(X; Y)$ et est un sous-espace uniforme complet lorsque $Y$ est complet.
 
 En effet, supposons que $u$ soit adhérente à $\tilde{C}_\mathfrak{S}(X; Y)$ dans $\mathscr{F}_\mathfrak{S}(X; Y)$ alors (X, p. 2), pour tout $A \in \mathfrak{S}$, $u|_A$ est adhérente à $C(A; Y)$ dans $\mathscr{F}_u(A; Y)$, donc est continue en vertu du th. 2.
 
-#### Corollaire 3 {#top-x-s1-thm-2-cor-3 .statement}
+#### Corollaire 3 {#top-x-s1-thm-2-cor-3 .statement tag=0CBI}
 
 Soient $X$ un espace topologique métrisable ou localement compact, $Y$ un espace uniforme. Alors $C(X; Y)$ est fermé dans l’espace $\mathscr{F}_c(X; Y)$; si en outre $Y$ est complet, l’espace uniforme $C_c(X; Y)$ est complet.
 
@@ -282,27 +282,27 @@ En vertu du cor. 2, tout revient à voir que, si on prend pour $\mathfrak{S}$ l�
 
 On notera que le raisonnement précédent s’applique généralement lorsque tout point de X possède un système fondamental dénombrable de voisinages.
 
-#### Remarque 1 {#top-x-s1-n6-rem-1 .statement}
+#### Remarque 1 {#top-x-s1-n6-rem-1 .statement tag=0CBJ}
 
 En général, l’ensemble $\mathscr{C}(X; Y)$ n’est pas fermé dans $\mathscr{F}(X; Y)$ muni de la topologie de la convergence simple; en d’autres termes, une limite simple de fonctions continues n’est pas nécessairement continue (X, p. 42, exerc. 5a)).
 
-#### Remarque 2 {#top-x-s1-n6-rem-2 .statement}
+#### Remarque 2 {#top-x-s1-n6-rem-2 .statement tag=0CBK}
 
 Un filtre sur $\mathscr{C}(X; Y)$ peut converger simplement vers une fonction continue sans converger uniformément vers cette fonction.
 
 Par exemple, dans l’intervalle $I = [0, 1]$, soit $u_n$ la fonction numérique égale à 0 pour $x = 0$ et pour $2/n \leq x \leq 1$, égale à 1 pour $x = 1/n$, et linéaire dans chacun des intervalles $[0, 1/n]$ et $[1/n, 2/n]$; la suite $(u_n)$ converge simplement vers 0, mais ne converge pas uniformément vers 0 dans I (cf. X, p. 42, exerc. 6).
 
-#### Remarque 3 {#top-x-s1-n6-rem-3 .statement}
+#### Remarque 3 {#top-x-s1-n6-rem-3 .statement tag=0CBL}
 
 Si X est un espace uniforme, un raisonnement tout à fait analogue à celui de X, p. 8, prop. 8 montre que l’ensemble des applications uniformément continues de X dans Y est fermé dans $\mathscr{F}_u(X; Y)$.
 
-#### Remarque 4 {#top-x-s1-n6-rem-4 .statement}
+#### Remarque 4 {#top-x-s1-n6-rem-4 .statement tag=0CBM}
 
 Supposons que l’espace uniforme Y soit muni d’une loi de composition associative et commutative, notée additivement, et telle que l’application $(y, y') \mapsto y + y'$ soit continue dans $Y \times Y$. Alors, si $(u_n)$ est une suite d’applications continues de X dans Y telle que la série de terme générale $u_n$ soit uniformément convergente dans X, la somme de cette série est continue dans X.
 
 Nous laissons au lecteur le soin d’énoncer le résultat correspondant pour les familles uniformément sommables (X, p. 3, Remarque 5) d’applications continues.
 
-#### Proposition 9 {#top-x-s1-prop-9 .statement}
+#### Proposition 9 {#top-x-s1-prop-9 .statement tag=0CBN}
 
 Soient X un espace topologique, Y un espace uniforme. Alors l’application $(f, x) \mapsto f(x)$ de $C_u(X; Y) \times X$ dans Y est continue.
 

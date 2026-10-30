@@ -36,9 +36,9 @@ subsections:
       pdf_page: 137
 statements: 24
 exercises: 12
-content_sha256: 03b9f7b6b8fdb29309d1a3935d4f510ffc6adf5192f1b82a42d599dd7b4e1586
+content_sha256: a7998be803fa03895efabec03b1261e01afb27e9af33b37b0297123890d58aee
 translated_from: content/en/lie/II/01_s1_enveloping_bigebra_of_a_lie_algebra.md
-source_content_sha256: 96f6fb1b76d6a0266d54052924b2330434106029d89724a5ec22b20b10d9ad6d
+source_content_sha256: 7869f035c30572b986477c5199213b9bb04665eee47815f7927bcd5fa0b5b003
 translation_model: gpt-5.4
 translation_run: translate-vi-696e9754
 glossary_version: 34
@@ -74,7 +74,7 @@ $$
 \pi_u(x) = x - \varepsilon(x).u, \qquad \eta_u(x) = \varepsilon(x).u.
 $$
 
-#### Định nghĩa 1 {#lie-ii-s1-def-1 .statement}
+#### Định nghĩa 1 {#lie-ii-s1-def-1 .statement tag=0A1Q}
 
 *Một phần tử $x$ của $E$ được gọi là u-nguyên thủy nếu*
 
@@ -85,12 +85,12 @@ $$
 
 Các phần tử $u$-nguyên thủy của $E$ tạo thành một môđun con của $E$, ký hiệu là $P_u(E)$.
 
-#### Mệnh đề 1 {#lie-ii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#lie-ii-s1-prop-1 .statement tag=0A1R}
 
 *Mọi phần tử u-nguyên thủy của $E$ đều thuộc $E^+$.*
 (2) kéo theo $x = \varepsilon(x).u + \varepsilon(u).x = \varepsilon(x).u + x,$ do đó $\varepsilon(x) = 0$.
 
-#### Nhận xét {#lie-ii-s1-n1-rem-1 .statement}
+#### Nhận xét {#lie-ii-s1-n1-rem-1 .statement tag=0A1S}
 
 Nếu $x \in E$ và $c(x) = x' \otimes u + u \otimes x''$, trong đó $x', x''$ thuộc $E^+$, thì $x = \varepsilon(x').u + \varepsilon(u).x'' = x''$; tương tự, $x = x'$ và $x$ là $u$-nguyên thủy.
 
@@ -101,7 +101,7 @@ $$
 c_u^+(x) = c(x) - x \otimes u - u \otimes x.
 $$
 
-#### Mệnh đề 2 {#lie-ii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#lie-ii-s1-prop-2 .statement tag=0A1T}
 
 *Ta có*
 
@@ -137,13 +137,13 @@ do đó công thức (4).
 
 Vì $E^+$ là một môđun con hạng tử trực tiếp của $E$, nên $E^+ \otimes E^+$ có thể được đồng nhất với một môđun con hạng tử trực tiếp của $E \otimes E$. Với sự đồng nhất này, $\pi_u \otimes \pi_u$ là một phép chiếu của $E \otimes E$ lên $E^+ \otimes E^+$. Theo công thức (4), $c_u^+$ ánh xạ $E^+$ vào $E^+ \otimes E^+$ và $\pi_u$ là một cấu xạ từ đối đại số $(E, c)$ vào đối đại số $(E^+, c_u^+)$.
 
-#### Mệnh đề 3 {#lie-ii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#lie-ii-s1-prop-3 .statement tag=0A1U}
 
 *Nếu đối đại số* $(E, c)$ *là đối kết hợp* (resp. đối giao hoán) (*Đại số*, Chương III, § 11, no. 2), *thì đối đại số* $(E^+, c_u^+)$ *cũng vậy*.
 
 Điều này suy ra từ bổ đề sau đây:
 
-#### Bổ đề 1 {#lie-ii-s1-lem-1 .statement}
+#### Bổ đề 1 {#lie-ii-s1-lem-1 .statement tag=0A1V}
 
 *Cho* $\pi : E \to E'$ *là một cấu xạ cogebras toàn ánh. Nếu* $E$ *là đối kết hợp* (resp. đối giao hoán), *thì* $E'$ *cũng vậy*.
 
@@ -159,7 +159,7 @@ $$
 
 Ta viết đơn giản $\pi$, $\eta$, $P(E)$, $c^+$ thay cho $\pi_1$, $\eta_1$, $P_1(E)$, $c_1^+$.
 
-#### Mệnh đề 4 {#lie-ii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#lie-ii-s1-prop-4 .statement tag=0A1W}
 
 *Tập hợp* $P(E)$ *các phần tử nguyên thủy của* $E$ *là một đại số con Lie của* $E$.
 
@@ -175,7 +175,7 @@ $$
 c([x, y]) = [x, y] \otimes 1 + 1 \otimes [x, y].
 $$
 
-#### Mệnh đề 5 {#lie-ii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#lie-ii-s1-prop-5 .statement tag=0A1X}
 
 *Cho* $f : E \to E'$ *là một cấu xạ của bigèbre. Nếu* $x$ *là một phần tử nguyên thủy của* $E$, *thì* $f(x)$ *là một phần tử nguyên thủy của* $E'$ *và hạn chế của* $f$ *trên* $P(E)$ *là một đồng cấu đại số Lie* $P(f) : P(E) \to P(E')$.
 
@@ -188,7 +188,7 @@ c'(f(x)) &= (f \otimes f)(c(x)) = (f \otimes f)(x \otimes 1 + 1 \otimes x) \\
 $$
 với $x$ nguyên thủy. Vậy $f$ ánh xạ $P(E)$ vào $P(E')$ và $f([x, y]) = [f(x), f(y)]$ vì $f$ là một đồng cấu đại số.
 
-#### Nhận xét {#lie-ii-s1-n2-rem-1 .statement}
+#### Nhận xét {#lie-ii-s1-n2-rem-1 .statement tag=0A1Y}
 
 (1) Cho $p$ là một số nguyên tố sao cho $p \cdot 1 = 0$ trong $K$. Công thức nhị thức và các đồng dư thức $\binom{p}{i} \equiv 0 \pmod{p}$ với $1 \leq i \leq p - 1$ kéo theo rằng
 
@@ -216,7 +216,7 @@ là một dãy khớp, điều này kéo theo rằng $\alpha$ là một đẳng 
 
 ### 3. SONG ĐẠI SỐ LỌC
 
-#### Định nghĩa 2 {#lie-ii-s1-def-2 .statement}
+#### Định nghĩa 2 {#lie-ii-s1-def-2 .statement tag=0A1Z}
 
 Cho $E$ là một song đại số có đồng tích $c$. Một bộ lọc tương thích với cấu trúc song đại số trên $E$ là một dãy tăng $(E_n)_{n \geq 0}$ các môđun con của $E$ sao cho
 
@@ -230,11 +230,11 @@ $$
 
 Một song đại số có một bộ lọc tương thích với cấu trúc song đại số của nó được gọi là một song đại số lọc.
 
-#### Ví dụ {#lie-ii-s1-n3-exa-1 .statement}
+#### Ví dụ {#lie-ii-s1-n3-exa-1 .statement tag=0A20}
 
 Cho $E$ là một song đại số phân bậc (Đại số, Chương III, § 11, no. 4, Định nghĩa 3) và $(E^n)_{n \geq 0}$ là phân bậc của nó. Ta đặt $E_n = \sum_{i=0}^n E^i$. Dãy $(E_n)$ là một bộ lọc tương thích với cấu trúc song đại số trên $E$.
 
-#### Mệnh đề 6 {#lie-ii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#lie-ii-s1-prop-6 .statement tag=0A21}
 
 Cho $E$ là một song đại số được lọc và $(E_n)_{n \geq 0}$ là bộ lọc của nó. Với mọi số nguyên $n \geq 0$, đặt $E_n^+ = E_n \cap E^+$. Khi đó $E_0^+ = \{0\}$ và
 
@@ -252,7 +252,7 @@ $$
 c^+(E_n^+) \subset \sum_{i=0}^n \operatorname{Im}(E_i^+ \otimes E_{n-i}^+) = \sum_{i=1}^{n-1} \operatorname{Im}(E_i^+ \otimes E_{n-i}^+).
 $$
 
-#### Hệ quả {#lie-ii-s1-n3-cor-1 .statement}
+#### Hệ quả {#lie-ii-s1-n3-cor-1 .statement tag=0A22}
 
 *Các phần tử của* $E_1^+$ *là nguyên thủy.*
 Nếu $x \in E_1^+$, thì $c^+(x) = 0$ theo (7), do đó có (5).
@@ -261,7 +261,7 @@ Nếu $x \in E_1^+$, thì $c^+(x) = 0$ theo (7), do đó có (5).
 
 Nhắc lại rằng $g$ ký hiệu một đại số Lie và $U$ ký hiệu đại số bao bọc của nó, với lọc chính tắc $(U_n)_{n \geq 0}$.
 
-#### Mệnh đề 7 {#lie-ii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#lie-ii-s1-prop-7 .statement tag=0A23}
 
 *Trên đại số* $U$ *tồn tại duy nhất một đồng tích* $c$ *biến* $U$ *thành một song đại số sao cho các phần tử của* $\sigma(g)$ *là nguyên thủy. Song đại số* $(U, c)$ *là đối giao hoán; đồng đơn vị của nó là dạng tuyến tính* $\varepsilon$ *sao cho số hạng hằng (Chương I, § 2, no. 1) của mọi phần tử* $x$ *của* $U$ *là* $\varepsilon(x) . 1$. *Lọc chính tắc* $(U_n)_{n \geq 0}$ *của* $U$ *tương thích với cấu trúc song đại số này.*
 
@@ -304,11 +304,11 @@ $$
 
 trong đó I(i) ký hiệu tập hợp các hoán vị của {1, n} tăng trên mỗi khoảng {1, i} và {i + 1, n}. Vì U_n là K-môđun được sinh bởi các tích của nhiều nhất n phần tử của σ(g), công thức (8) suy ra rằng bộ lọc (U_n) là tương thích với cấu trúc song đại số của (U, c).
 
-#### Định nghĩa 3 {#lie-ii-s1-def-3 .statement}
+#### Định nghĩa 3 {#lie-ii-s1-def-3 .statement tag=0A24}
 
 *Song đại số* (U, c) *được gọi là* song đại số bao *của đại số Lie* g.
 
-#### Mệnh đề 8 {#lie-ii-s1-prop-8 .statement}
+#### Mệnh đề 8 {#lie-ii-s1-prop-8 .statement tag=0A25}
 
 *Cho E là một song đại số với đồng tích ký hiệu bởi c_E và h là một đồng cấu đại số Lie của g vào P(E)* (no. 2, Mệnh đề 4). *Đồng cấu đại số có đơn vị f : U → E sao cho f(σ(x)) = h(x) với mọi x ∈ g là một cấu xạ song đại số.*
 
@@ -320,7 +320,7 @@ vì f(a) ∈ P(E). Tương tự, nếu ε_E là đồng đơn vị của E thì 
 
 Từ các Mệnh đề 5 và 8 suy ra rằng ánh xạ f ↦ f ∘ σ xác định một sự tương ứng một-một giữa các đồng cấu song đại số U(g) → E và các đồng cấu đại số Lie g → P(E).
 
-#### Hệ quả {#lie-ii-s1-n4-cor-1 .statement}
+#### Hệ quả {#lie-ii-s1-n4-cor-1 .statement tag=0A26}
 
 *Cho g_i (i = 1, 2) là một đại số Lie, U(g_i) là song đại số bao của nó và σ_i : g_i → U(g_i) là ánh xạ chính tắc. Với mọi đồng cấu đại số Lie h : g_1 → g_2, đồng cấu đại số có đơn vị U(h) : U(g_1) → U(g_2) sao cho U(h) ∘ σ_1 = σ_2 ∘ h (Chương I, § 2, no. 1) là một cấu xạ song đại số.*
 
@@ -342,7 +342,7 @@ $$
 
 Chú ý rằng theo *Đại số*, Chương III, § 6, no. 1, *Nhận xét 3*, $\eta$ là ánh xạ tuyến tính duy nhất từ $S(\mathfrak{g})$ vào $U$ thỏa mãn điều kiện (10).
 
-#### Mệnh đề 9 {#lie-ii-s1-prop-9 .statement}
+#### Mệnh đề 9 {#lie-ii-s1-prop-9 .statement tag=0A27}
 
 *Với mọi số nguyên $n \geq 0$, đặt $U^n$ là không gian con vectơ của $U$ sinh bởi các $\sigma(x)^n$ với $x \in \mathfrak{g}$.*
 
@@ -379,7 +379,7 @@ Mặt khác, công thức (10) cho thấy rằng $\eta(S^n(\mathfrak{g})) = U^n$
 
 Phân bậc $(U^n)_{n \geq 0}$ của $U$ được gọi là *phân bậc chính tắc*.
 
-#### Hệ quả {#lie-ii-s1-n5-cor-1 .statement}
+#### Hệ quả {#lie-ii-s1-n5-cor-1 .statement tag=0A28}
 
 *Ánh xạ chính tắc $\sigma$ xác định một đẳng cấu của $\mathfrak{g}$ lên đại số Lie $P(U)$ của các phần tử nguyên thủy của $U$.*
 
@@ -394,7 +394,7 @@ $$
 a = \sum_i \lambda_i a_i^n = \mu \left( \sum_i \lambda_i a_i \otimes a_i^{n-1} \right) = 0.
 $$
 
-#### Nhận xét {#lie-ii-s1-n5-rem-1 .statement}
+#### Nhận xét {#lie-ii-s1-n5-rem-1 .statement tag=0A29}
 
 (1) $U_n = \sum_{i=0}^n U^i$ (Chương I, § 2, no. 7, Hệ quả 4 của Định lý 1).
 
@@ -453,7 +453,7 @@ $$
 
 và chỉ số tổng $\alpha$ chạy qua $\mathbf{N}^{(\Omega)}$.
 
-#### Mệnh đề 10 {#lie-ii-s1-prop-10 .statement}
+#### Mệnh đề 10 {#lie-ii-s1-prop-10 .statement tag=0A2A}
 
 *Ánh xạ* $\lambda \mapsto f_{\lambda}$ *là một đẳng cấu của đại số* $U'$ *lên đại số các chuỗi lũy thừa hình thức* $K[[X_i]]_{i \in I}$.
 
@@ -475,7 +475,7 @@ Trong số này, ta tiếp tục giả thiết rằng K là một *trường có
 
 Nếu E là một song đại số, đơn ánh chính tắc $P(E) \to E$ có thể được mở rộng thành một cấu xạ song đại số $f_E : U(P(E)) \to E$ (no. 4, Mệnh đề 8).
 
-#### Định lý 1 {#lie-ii-s1-thm-1 .statement}
+#### Định lý 1 {#lie-ii-s1-thm-1 .statement tag=0A2B}
 
 Cho E là một đại số kép đối giao hoán.
 (a) Cấu xạ đại số kép $f_E : U(P(E)) \to E$ là đơn ánh.
@@ -491,7 +491,7 @@ $$
 vì $f_E$ là một cấu xạ đối đại số.
 Ta chứng minh rằng $f_E$ là đơn ánh. Điều này suy ra từ bổ đề sau:
 
-#### Bổ đề 2 {#lie-ii-s1-lem-2 .statement}
+#### Bổ đề 2 {#lie-ii-s1-lem-2 .statement tag=0A2C}
 
 Cho V là một không gian vectơ, E là một đối đại số và $f : S(V) \to E$ là một cấu xạ đối đại số. Nếu hạn chế của f lên $S^0(V) + S^1(V)$ là đơn ánh, thì f là đơn ánh.
 Cho $n \geq 0$; đặt $S_n = \sum_{i \geq n} S^i(V)$ và $c_S$ là đồng tích của $S(V)$ rồi chứng minh bằng quy nạp theo n rằng $f | S_n$ là đơn ánh. Vì mệnh đề là tầm thường đối với $n = 0$ và $n = 1$, ta giả sử rằng $n \geq 2$ và lấy $u \in S_n$ sao cho $f(u) = 0$. Khi đó
@@ -555,7 +555,7 @@ $$
 
 Vậy chứng minh sẽ đầy đủ khi chúng ta chứng minh bổ đề sau:
 
-#### Bổ đề 3 {#lie-ii-s1-lem-3 .statement}
+#### Bổ đề 3 {#lie-ii-s1-lem-3 .statement tag=0A2D}
 
 *Nếu một họ các vô hướng* $(\lambda_{\alpha, \beta})$ *có giá hữu hạn* (với $\alpha, \beta$ thuộc $\mathbf{N}^{(\Omega)} - \{0\}$) *thỏa mãn các hệ thức* (20) *và* (21), *thì tồn tại một họ* $(\mu_\alpha)_{|\alpha| \geq 2}$ *có giá hữu hạn sao cho* $\mu_{\alpha + \beta} = \lambda_{\alpha, \beta}$ *với* $\alpha, \beta$ *khác không*.
 

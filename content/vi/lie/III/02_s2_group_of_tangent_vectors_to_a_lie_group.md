@@ -24,9 +24,9 @@ subsections:
       pdf_page: 255
 statements: 10
 exercises: 0
-content_sha256: 39df71fac04dbe3c0e47f6989aad2221c004bf36f2b05670de0a63ae6d0e8e9a
+content_sha256: b2407681e5eff6ddd8c2b70fa0264fa6e606ebfebb00fda752d65b3c4c8cf74d
 translated_from: content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md
-source_content_sha256: 1bb3505ac4e1daf1314c53912b5ccbc1316d47cdbbdbbeaeb27158c6609ae39d
+source_content_sha256: 9312e1a966f1c5bc60ded7611d1345461f06db492fc343d729b16bcbbd46a1c0
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-e80acfda
 glossary_version: 34
@@ -73,7 +73,7 @@ $$T(m)(0_x, 0_y) = 0_{m(x, y)}$$
 
 với mọi x, y trong X; nói cách khác, tiết diện không $x \mapsto 0_x$ của T(X) tương thích với các luật m và T(m).
 
-#### Mệnh đề 1 {#lie-iii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iii-s2-prop-1 .statement tag=0A8Y}
 
 *Cho X là một đa tạp thuộc lớp C^r và m là một luật hợp thành thuộc lớp C^r trên X. Nếu m là kết hợp (tương ứng giao hoán), thì T(m) là kết hợp (tương ứng giao hoán).*
 
@@ -89,7 +89,7 @@ $$
 
 Nhưng $T(s)$ là ánh xạ $(u, v) \mapsto (v, u)$ của $T(X) \times T(X)$ vào $T(X) \times T(X)$. Do đó $T(m)$ là giao hoán.
 
-#### Mệnh đề 2 {#lie-iii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iii-s2-prop-2 .statement tag=0A8Z}
 
 *Cho $X$ là một đa tạp thuộc lớp $C^r$, $m$ là một luật hợp thành thuộc lớp $C^r$ trên $X$ và $e$ là một phần tử đơn vị đối với $m$.
 
@@ -111,7 +111,7 @@ $$
 
 với mọi $u \in T(U)$, do đó (iii).
 
-#### Mệnh đề 3 {#lie-iii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iii-s2-prop-3 .statement tag=0A90}
 
 *Cho $X_1, X_2, \ldots, X_p, Y$ là các đa tạp thuộc lớp $C^r$, $i$ là một số nguyên của $\{1, p\}$, $m_i$ (tương ứng $n$) là một luật hợp thành thuộc lớp $C^r$ trên $X_i$ (tương ứng $Y$) và $u$ là một ánh xạ thuộc lớp $C^r$ từ $X_1 \times X_2 \times \cdots \times X_p$ vào $Y$. Nếu $u$ là phân phối đối với biến có chỉ số $i$, thì $T(u)$ là phân phối đối với biến có chỉ số $i$.
 
@@ -119,13 +119,13 @@ Chứng minh tương tự như chứng minh của Mệnh đề 1.
 
 ### 2. NHÓM CÁC VECTƠ TIẾP XÚC CỦA MỘT NHÓM LIE
 
-#### Mệnh đề 4 {#lie-iii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#lie-iii-s2-prop-4 .statement tag=0A91}
 
 *Cho $G$ là một nhóm Lie. Khi đó $T(G)$, với luật hợp thành tiếp xúc với phép nhân của $G$, là một nhóm Lie. Phần tử đơn vị của $T(G)$ là vectơ $0_e$.
 
 Điều này suy ra từ các Mệnh đề 1 và 2.
 
-#### Mệnh đề 5 {#lie-iii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#lie-iii-s2-prop-5 .statement tag=0A92}
 
 *Cho $G$ và $H$ là các nhóm Lie và $f$ là một cấu xạ từ $G$ vào $H$. Khi đó $T(f)$ là một cấu xạ từ nhóm Lie $T(G)$ vào nhóm Lie $T(H)$.
 
@@ -137,13 +137,13 @@ $$
 
 điều này biểu thị rằng $T(f)$ là một đồng cấu nhóm.
 
-#### Hệ quả {#lie-iii-s2-n2-cor-1 .statement}
+#### Hệ quả {#lie-iii-s2-n2-cor-1 .statement tag=0A93}
 
 *Cho $G_1, \ldots, G_n$ là các nhóm Lie. Đẳng cấu chính tắc của đa tạp $T(G_1 \times \cdots \times G_n)$ lên đa tạp $T(G_1) \times \cdots \times T(G_n)$ là một đẳng cấu nhóm Lie.*
 
 $\mathrm{pr}_i$ là một cấu xạ từ $G_1 \times \cdots \times G_n$ vào $G_i$ và do đó $T(\mathrm{pr}_i)$ là một cấu xạ từ $T(G_1 \times \cdots \times G_n)$ vào $T(G_i)$.
 
-#### Mệnh đề 6 {#lie-iii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#lie-iii-s2-prop-6 .statement tag=0A94}
 
 *Cho $G$ là một nhóm Lie.*
   (i) *Phép chiếu chính tắc $p : T(G) \to G$ là một cấu xạ nhóm Lie.*
@@ -155,7 +155,7 @@ Mệnh đề (i) suy ra từ (5). Mệnh đề (ii) là hiển nhiên khi tính 
 
 Cho $u \in T(G)$ và $g \in G$. Theo (3) và (4), các tích $ug, gu$ được tính trong nhóm $T(G)$ là các ảnh của $u$ qua $T(\delta(g^{-1}))$ và $T(\gamma(g))$. Suy ra từ § 1, Hệ quả 2 của Mệnh đề 17 rằng ánh xạ $(g, u) \mapsto gu$ từ $G \times T_e(G)$ vào $T(G)$ là một đẳng cấu của bó vectơ tầm thường $G \times T_e(G)$ với không gian cơ sở $G$ lên bó vectơ $T(G)$. Đẳng cấu nghịch đảo được gọi là *phép tầm thường hóa trái* của $T(G)$. Bằng cách xét ánh xạ $(g, u) \mapsto ug$, *phép tầm thường hóa phải* của $T(G)$ được định nghĩa tương tự.
 
-#### Mệnh đề 7 {#lie-iii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#lie-iii-s2-prop-7 .statement tag=0A95}
 
 *Cho $G$ là một nhóm Lie, $M$ là một đa tạp lớp $C^r$ và $f$ và $g$ là các ánh xạ lớp $C^r$ từ $M$ vào $G$, sao cho $fg$ là một ánh xạ lớp $C^r$ từ $M$ vào $G$. Cho $m \in M, x = f(m), y = g(m), u \in T_m(M)$. Khi đó*
 
@@ -171,7 +171,7 @@ $$
 
 do đó $T(fg)u = T(f)u.T(g)u$. Khi đó chỉ cần áp dụng (1) với $f$ được thay bởi $m$.
 
-#### Hệ quả {#lie-iii-s2-n2-cor-2 .statement}
+#### Hệ quả {#lie-iii-s2-n2-cor-2 .statement tag=0A96}
 
 *Cho $n \in \mathbf{Z}$. Ánh xạ tiếp xúc tại $e$ của ánh xạ $g \mapsto g^n$ của $G$ vào $G$ là ánh xạ $x \mapsto nx$ của $T_e(G)$ vào $T_e(G)$.*
 
@@ -197,7 +197,7 @@ $$
 
 Điều trên có thể áp dụng cho trường hợp một nhóm Lie tác động lên chính nó bởi phép tịnh tiến trái (tương ứng phải). Luật phép toán tương ứng của T(G) trên T(G) được xác định bởi phép tịnh tiến trái (tương ứng phải) của nhóm Lie T(G). Vì vậy các công thức (7), (8) và (9) đúng trong T(G).
 
-#### Mệnh đề 8 {#lie-iii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#lie-iii-s2-prop-8 .statement tag=0A97}
 
 Cho G_1 và G_2 là các nhóm Lie, X_1 và X_2 là các đa tạp lớp C^r và $f_i$ là một luật phép toán trái lớp C^r của G_i trên X_i ($i = 1, 2$). Cho $\phi$ là một cấu xạ của G_1 vào G_2 và $\psi$ là một $\phi$-cấu xạ của X_1 vào X_2. Khi đó T(\psi) là một T(\phi)-cấu xạ của T(X_1) vào T(X_2).
 

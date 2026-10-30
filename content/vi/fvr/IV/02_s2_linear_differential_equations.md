@@ -48,7 +48,7 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: 0958736bc6009894feed3da7f5aedbeb354c0b76ca986326ed320546d256b858
+content_sha256: cd75f0ea66b187175b9763cd790e9b65504eba25a60d629275a00bd9ba530ee9
 translated_from: content/en/fvr/IV/02_s2_linear_differential_equations.md
 source_content_sha256: ed9860cc26b65ff84c11e78ae048f5030e2943903c24c951c87f27907207fd41
 translation_model: gpt-5.4
@@ -78,7 +78,7 @@ $$
 
 trong đó $b$ là một ánh xạ từ $J$ vào $E$; khi $b = 0$ ta nói rằng phương trình vi phân tuyến tính (2) là *thuần nhất*.
 
-#### Ví dụ 1 {#fvr-iv-s2-n1-exa-1 .statement}
+#### Ví dụ 1 {#fvr-iv-s2-n1-exa-1 .statement tag=08CO}
 
 Khi $E$ có số chiều hữu hạn $n$ trên $\mathbf{R}$ thì ta có thể đồng nhất tự đồng cấu $A(t)$ với *ma trận* $\left(a_{ij}(t)\right)$ của nó *đối với một cơ sở bất kỳ của* $E$ (*Alg.*, II, p. 343); khi ta đồng nhất một vectơ $x \in E$ với ma trận cột $(x_j)$ gồm các thành phần của nó đối với cơ sở của $E$ đang xét thì biểu thức $A(t).x$ phù hợp với các quy ước tổng quát của Đại số (*Alg.*, II, p. 343, prop 2). Trong trường hợp này, phương trình (2) tương đương với hệ phương trình vi phân vô hướng
 
@@ -88,7 +88,7 @@ $$
 
 (3)
 
-#### Ví dụ 2 {#fvr-iv-s2-n1-exa-2 .statement}
+#### Ví dụ 2 {#fvr-iv-s2-n1-exa-2 .statement tag=08CP}
 
 Cho $G$ là một *đại số chuẩn đầy đủ* trên $\mathbf{R}$, và $a(t)$, $b(t)$ và $c(t)$ là ba ánh xạ từ $J$ vào $G$; phương trình
 
@@ -120,7 +120,7 @@ $$
 $$
 với mọi $t \in J$ và mọi $\mathbf{x}_1, \mathbf{x}_2$ trong $E$; nói cách khác, vế phải của (2) thỏa mãn các điều kiện của bổ đề 1, IV, p. 165 và là Lipschitz đối với hàm điều hòa $\|A(t)\|$ trên $J \times E$. Hệ quả là (IV, p. 173, hệ quả 2):
 
-#### Định lý 1 {#fvr-iv-s2-thm-1 .statement}
+#### Định lý 1 {#fvr-iv-s2-thm-1 .statement tag=08CQ}
 
 *Cho* $t \mapsto A(t)$ *là một ánh xạ điều hòa từ* $J$ *vào* $\mathscr{L}(E)$, *và* $t \mapsto \mathbf{b}(t)$ *là một ánh xạ điều hòa từ* $J$ *vào* $E$. *Với mọi điểm* $(t_0, \mathbf{x}_0)$ *của* $J \times E$ *phương trình tuyến tính* (2) *nhận một và chỉ một nghiệm xác định trên toàn bộ* $J$ *và bằng* $\mathbf{x}_0$ *tại điểm* $t_0$.
 
@@ -132,13 +132,13 @@ $$
 $$
 được gọi là *liên kết* với phương trình không thuần nhất (2); và người ta biết (*Alg.*, II, p. 241, mệnh đề 14) rằng nếu $\mathbf{u}_1$ là một tích phân của phương trình không thuần nhất (2) thì mọi tích phân của phương trình này đều có dạng $\mathbf{u} + \mathbf{u}_1$ trong đó $\mathbf{u}_1$ là một nghiệm của phương trình thuần nhất liên kết (4), và ngược lại. Trước hết chúng tôi sẽ nghiên cứu trong tiểu mục này các tích phân của một phương trình *thuần nhất* (4).
 
-#### Mệnh đề 1 {#fvr-iv-s2-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-iv-s2-prop-1 .statement tag=08CR}
 
 *Tập hợp* $\mathscr{I}$ *các tích phân của phương trình tuyến tính thuần nhất* (4), *xác định trên* $J$, *là một không gian con vectơ của không gian* $C(J; E)$ *các ánh xạ liên tục từ* $J$ *vào* $E$.
 
 Chứng minh là ngay lập tức.
 
-#### Định lý 2 {#fvr-iv-s2-thm-2 .statement}
+#### Định lý 2 {#fvr-iv-s2-thm-2 .statement tag=08CS}
 
 *Với mọi điểm* $(t_0, \mathbf{x}_0)$ *của* $J \times E$ *gọi* $\mathbf{u}(t, t_0, \mathbf{x}_0)$ *là tích phân của phương trình thuần nhất* (4) *xác định trên* $J$ *và bằng* $\mathbf{x}_0$ *tại* $t_0$.
 1. *Với mọi điểm* $t \in J$ *ánh xạ* $\mathbf{x}_0 \mapsto \mathbf{u}(t, t_0, \mathbf{x}_0)$ *là một ánh xạ tuyến tính song ánh song liên tục* $C(t, t_0)$ *từ* $E$ *vào chính nó*.
@@ -178,7 +178,7 @@ với mọi $\mathbf{x}_0 \in E$, do đó có hệ thức thứ nhất (6); vì 
 
 Người ta gọi $C(t, t_0)$ là *resolvent* của phương trình (2) của IV, p. 178.
 
-#### Hệ quả 1 {#fvr-iv-s2-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#fvr-iv-s2-thm-2-cor-1 .statement tag=08CT}
 
 *Ánh xạ gán cho mỗi điểm $\mathbf{x}_0 \in E$ hàm liên tục $t \mapsto C(t, t_0).\mathbf{x}_0$, được xác định trên J, là một đẳng cấu của không gian định chuẩn E lên không gian vectơ $\mathscr{I}$ các nghiệm nguyên của (4), được trang bị tôpô hội tụ compact.*
 
@@ -190,7 +190,7 @@ $$
 
 nên rõ ràng ánh xạ nghịch đảo cũng liên tục.
 
-#### Hệ quả 2 {#fvr-iv-s2-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#fvr-iv-s2-thm-2-cor-2 .statement tag=08CU}
 
 *Ánh xạ $(s, t) \mapsto C(s, t)$ của $J \times J$ vào $\mathscr{L}(E)$ là liên tục.*
 
@@ -202,7 +202,7 @@ t \mapsto C(t_0, t) = (C(t, t_0))^{-1}
 $$
 có đạo hàm bằng $-(C(t, t_0))^{-1} (dC(t, t_0)/dt)(C(t, t_0))^{-1}$ (trên phần bù của một tập hợp đếm được) (I, p. 8, mệnh đề 4), nghĩa là (theo IV, p. 179, công thức (5)) bằng $-C(t_0, t) A(t)$.
 
-#### Hệ quả 3 {#fvr-iv-s2-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#fvr-iv-s2-thm-2-cor-3 .statement tag=08CV}
 
 *Cho K là một khoảng compact được chứa trong J, và đặt $k = \sup_{t \in K} \|A(t)\|$. Với mọi t và $t_0$ trong K*
 $$
@@ -215,7 +215,7 @@ $$
 $$
 với mọi $t$ và $t_0$ trong K, và mọi $x_0$ trong E, điều này tương đương với bất đẳng thức (7) theo định nghĩa của chuẩn trên $\mathscr{L}(E)$.
 
-#### Mệnh đề 2 {#fvr-iv-s2-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-iv-s2-prop-2 .statement tag=08CW}
 
 *Cho B là một tự đồng cấu liên tục của E, độc lập với t, và giao hoán với A(t) với mọi $t \in J$; khi đó B giao hoán với $C(t, t_0)$ với mọi t và $t_0$ trong J.*
 
@@ -267,7 +267,7 @@ $$
 
 Vì ta có $C(t, t_0).\int_{t_0}^t C(t_0, s).\mathbf{b}(s)\,ds = \int_{t_0}^t C(t, t_0)C(t_0, s).\mathbf{b}(s)\,ds$ (II, p. 59, công thức (9)), suy ra (có tính đến công thức thứ nhất (6) ở IV, p. 179) kết quả sau đây:
 
-#### Mệnh đề 3 {#fvr-iv-s2-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-iv-s2-prop-3 .statement tag=08CX}
 
 *Với các ký hiệu của định lý 2* (IV, p. 179), *với mọi điểm* $(t_0, \mathbf{x}_0)$ *của* $J \times \mathbf{E}$ *nguyên hàm của phương trình tuyến tính* (2) *xác định trên* $J$ *và bằng* $\mathbf{x}_0$ *tại* $t_0$ *được cho bởi công thức*
 
@@ -321,7 +321,7 @@ Trong không gian $\mathscr{C}(J; E)$ các ánh xạ liên tục từ J vào E, 
 
 Một cơ sở $(\mathbf{u}_j)_{1 \leq j \leq n}$ của không gian này (trên trường $\mathbf{C}$) được gọi là một *hệ cơ bản* các nguyên hàm của (4).
 
-#### Mệnh đề 4 {#fvr-iv-s2-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-iv-s2-prop-4 .statement tag=08CY}
 
 *Để $n$ tích phân $\mathbf{u}_j$ ($1 \leq j \leq n$) của phương trình (4) tạo thành một hệ cơ bản thì điều kiện cần và đủ là các giá trị $\mathbf{u}_j(t_0)$ của chúng tại một điểm $t_0 \in J$ là các vectơ độc lập tuyến tính trong $E$.*
 
@@ -344,7 +344,7 @@ $$
 
 Theo mệnh đề 4 của IV, p. 184, để $(\mathbf{u}_j)_{1 \leq j \leq n}$ là một hệ cơ bản các tích phân của (4) thì điều kiện cần và đủ là định thức $\Delta(t)$ của các $\mathbf{u}_j$ là $\neq 0$ tại một điểm nào đó $t_0$ của $J$; công thức (14) khi đó cho thấy rằng $\Delta(t) \neq 0$ tại mọi điểm của $J$, nói cách khác, các vectơ $\mathbf{u}_j(t)$ ($1 \leq j \leq n$) luôn luôn độc lập tuyến tính.
 
-#### Mệnh đề 5 {#fvr-iv-s2-prop-5 .statement}
+#### Mệnh đề 5 {#fvr-iv-s2-prop-5 .statement tag=08CZ}
 
 *Định thức của ma trận $C(t, t_0)$ được cho bởi công thức*
 $$
@@ -385,11 +385,11 @@ trong đó $H(t) = (h_{jk}(t))$ là một ma trận có các phần tử điều
 
 Đặc biệt, khi người ta biết $n - 1$ tích phân độc lập tuyến tính của phương trình (4) của IV, p. 183, thì việc tích phân phương trình này quy về việc tích phân một phương trình vô hướng thuần nhất duy nhất, rồi tính $n$ nguyên hàm.
 
-#### Nhận xét 1 {#fvr-iv-s2-n4-rem-1 .statement}
+#### Nhận xét 1 {#fvr-iv-s2-n4-rem-1 .statement tag=08D0}
 
 Tất cả những điều trên cũng áp dụng cho trường hợp E có chiều $n$ trên trường $\mathbf{R}$ và $A(t)$ là một tự đồng cấu của E với mọi $t \in J$: chỉ cần thay thế $\mathbf{C}$ bởi $\mathbf{R}$ ở khắp nơi.
 
-#### Nhận xét 2 {#fvr-iv-s2-n4-rem-2 .statement}
+#### Nhận xét 2 {#fvr-iv-s2-n4-rem-2 .statement tag=08D1}
 
 Cho $A(t) = (a_{ij}(t))$ là một ma trận bình phương cấp $n$ mà các phần tử là những hàm điều hòa phải thực (tương ứng, phức) của $t$ trên $J$, và cho $C(t, t_0) = (c_{ij}(t, t_0))$ là ma trận giải thức của hệ tuyến tính tương ứng (3) (IV, p. 22). Cho F là một không gian định chuẩn đầy đủ tùy ý trên $\mathbf{R}$ (tương ứng, $\mathbf{C}$) và xét hệ phương trình vi phân tuyến tính
 
@@ -425,7 +425,7 @@ $$
 
 tại mọi điểm mà $A(t)$ liên tục và $\mathbf{v}(t)$ khả vi. Bây giờ với một điểm như thế $t$ và một điểm *tùy ý* $\mathbf{x}_0 \in \mathrm{E}$, theo đ. lý 1 của IV, p. 179, tồn tại một nghiệm $\mathbf{u}$ của (4) sao cho $\mathbf{u}(t) = \mathbf{x}_0$; do đó tất phải có $\left\langle \mathbf{x}_0, \frac{d\mathbf{v}}{dt} - B(t).\mathbf{v}(t) \right\rangle = 0$ với *mọi* $\mathbf{x}_0 \in \mathrm{E}$, điều này kéo theo $\frac{d\mathbf{v}}{dt} - B(t).\mathbf{v}(t) = 0$. Do đó:
 
-#### Mệnh đề 6 {#fvr-iv-s2-prop-6 .statement}
+#### Mệnh đề 6 {#fvr-iv-s2-prop-6 .statement tag=08D2}
 
 *Ánh xạ $t \mapsto \mathbf{v}(t)$ từ J vào $\mathrm{E}^*$, là một nguyên hàm của một hàm bị chặn trên J, có tính chất là $\langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ là hằng trên J đối với mọi nghiệm $\mathbf{u}$ của phương trình* (4) *của IV, p. 183 khi và chỉ khi $\mathbf{v}$ là một nghiệm của phương trình tuyến tính thuần nhất*
 
@@ -455,7 +455,7 @@ $$
 
 (phản biến của $C(t, t_0)$). Đặc biệt, nếu người ta biết một hệ cơ bản các tích phân của phương trình liên hợp (16) thì ma trận $H(t, t_0)$ được xác định, $C(t, t_0)$ cũng vậy, và do đó, *mọi* tích phân của phương trình (4) cũng được xác định.
 
-#### Nhận xét {#fvr-iv-s2-n5-rem-1 .statement}
+#### Nhận xét {#fvr-iv-s2-n5-rem-1 .statement tag=08D3}
 
 Cho E và F là hai không gian định chuẩn đầy đủ trên $\mathbf{R}$ (hoặc trên $\mathbf{C}$), và $(\mathbf{x}, \mathbf{y}) \mapsto \langle \mathbf{x}, \mathbf{y} \rangle$ là một dạng song tuyến tính *liên tục* trên $\mathrm{E} \times \mathrm{F}$, sao cho quan hệ “$\langle \mathbf{x}, \mathbf{y} \rangle = 0$ với mọi $\mathbf{y} \in \mathrm{F}$” (resp. $\langle \mathbf{x}, \mathbf{y} \rangle = 0$ với mọi $\mathbf{x} \in \mathrm{E}$”) kéo theo $\mathbf{x} = 0$ (resp. $\mathbf{y} = 0$). Giả sử thêm rằng với mọi $t \in \mathrm{J}$ có một ánh xạ tuyến tính liên tục $B(t)$ của F vào chính nó, sao cho $\langle A(t).\mathbf{x}, \mathbf{y} \rangle + \langle \mathbf{x}, B(t).\mathbf{y} \rangle = 0$ với mọi $(\mathbf{x}, \mathbf{y}) \in \mathrm{E} \times \mathrm{F}$. Trong những điều kiện ấy, ta thấy như trước rằng để một ánh xạ $t \mapsto \mathbf{v}(t)$ từ J vào F, là một nguyên hàm của một hàm bị chặn, có tính chất là $\langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ là *hằng* đối với *mọi* tích phân $\mathbf{u}$ của (4), điều kiện cần và đủ là $\mathbf{v}$ phải là một tích phân của (16), phương trình mà ta lại gọi là *liên hợp* của (4).
 
@@ -503,7 +503,7 @@ $$
 
 nhận giá trị I tại điểm 0. Ta đưa vào định nghĩa sau:
 
-#### Định nghĩa 1 {#fvr-iv-s2-def-1 .statement}
+#### Định nghĩa 1 {#fvr-iv-s2-def-1 .statement tag=08D4}
 
 *Cho A là một tự đồng cấu liên tục của E, ta ký hiệu bởi $e^A$ hoặc $\exp A$ tự đẳng cấu của E bằng giá trị tại điểm $t = 1$ của nghiệm của phương trình (20) nhận giá trị I tại điểm $t = 0$.*
 
@@ -515,7 +515,7 @@ $$
 
 Ký hiệu hàm mũ vừa đưa vào được biện minh bởi các tính chất sau, hoàn toàn tương tự với các tính chất của hàm exp z, với z thực hoặc phức (xem III, p. 98 và 106):
 
-#### Mệnh đề 7 {#fvr-iv-s2-prop-7 .statement}
+#### Mệnh đề 7 {#fvr-iv-s2-prop-7 .statement tag=08D5}
 
 1' *Ánh xạ* $X \mapsto e^X$ *là một ánh xạ liên tục từ* $\mathscr{L}(E)$ *vào nhóm các tự đẳng cấu của* E *(các phần tử khả nghịch của* $\mathscr{L}(E)$).
 
@@ -618,7 +618,7 @@ Các nghiệm đặc số của tự đồng cấu $A$ cũng được gọi là 
 
 Khi người ta đã xác định tường minh các nghiệm $r_k$ ($1 \leq k \leq q$), và do đó cả cấp bội số $n_k$ của $r_k$, thì trên thực tế người ta thu được các nghiệm của (19) bằng cách viết rằng phương trình này được thỏa mãn bởi biểu thức (32) ở IV, p. 191, trong đó $\mathbf{p}_k$ là một đa thức tùy ý bậc $\leq n_k - 1$, với các hệ số *trong* $E$; khi đồng nhất các hệ số của $e^{r_k t}$ (với $1 \leq k \leq q$) ở hai vế của phương trình thu được như vậy, ta được các phương trình tuyến tính đối với các hệ số của các đa thức $\mathbf{p}_k$: dễ dàng chứng minh rằng các phương trình ấy xác định các số hạng bậc $> 0$ của $\mathbf{p}_k$ như những hàm của số hạng hằng, và số hạng hằng này là một nghiệm của phương trình $(A - r_k I)^{n_k} \cdot \mathbf{x} = 0$, phương trình xác định không gian con $E_k$ (phương pháp "hệ số bất định").
 
-#### Nhận xét {#fvr-iv-s2-n6-rem-1 .statement}
+#### Nhận xét {#fvr-iv-s2-n6-rem-1 .statement tag=08D6}
 
 Khi tồn tại một cơ sở của $E$ sao cho ma trận của $A$ đối với cơ sở này có các phần tử *thực* (*xem* IV, p. 186, *Nhận xét* 2), thì phương trình đặc trưng của $A$ có các hệ số thực. Với mọi $\mathbf{x} = (\xi_k)_{1 \leq k \leq n}$ của $E$, được biểu thị trong cơ sở đang xét, đặt $\overline{\mathbf{x}} = (\overline{\xi}_k)_{1 \leq k \leq n}$; ánh xạ $\mathbf{x} \mapsto \overline{\mathbf{x}}$ là một phép tự hợp phản tuyến tính của $E$. Ta biết (*Đại số*, VII) rằng, nếu $r_k$ là một nghiệm không thực của phương trình đặc trưng, và $E_k$ là không gian con ổn định tương ứng, thì $\overline{r}_k$ là một nghiệm đặc trưng có cùng bội số $n_k$ như $r_k$, và ảnh $E'_k$ của $E_k$ dưới ánh xạ $\mathbf{x} \mapsto \overline{\mathbf{x}}$ là không gian con ổn định tương ứng với $\overline{r}_k$. Từ đó suy ra rằng nếu $\mathbf{u}_j$ ($1 \leq j \leq n_k$) là $n_k$ nghiệm độc lập tuyến tính nhận giá trị trong $E_k$, thì $2n_k$ nghiệm $\mathbf{u}_j + \overline{\mathbf{u}}_j,\ i(\mathbf{u}_j - \overline{\mathbf{u}}_j)$ là độc lập tuyến tính, và có, đối với cơ sở đã chọn của $E$, các thành phần là những hàm *thực* của E. Nếu $r_k$ là một nghiệm đặc trưng thực thì *Nhận xét* 2 của IV, p. 186, chỉ ra rằng (với cùng ký hiệu) có $n_k$ nghiệm độc lập tuyến tính $\mathbf{v}_j$ ($1 \leq j \leq n_k$) nhận giá trị trong $E_k$ mà các thành phần của chúng là thực. Bằng cách đó ta thu được một hệ nghiệm cơ bản của (19) mà mọi thành phần đều *thực*.
 
@@ -679,7 +679,7 @@ Ngược lại, nếu có $n$ hằng số phức $\lambda_j$, không phải tấ
 
 Do đó (IV, p. 180, hệ quả 1)
 
-#### Mệnh đề 8 {#fvr-iv-s2-prop-8 .statement}
+#### Mệnh đề 8 {#fvr-iv-s2-prop-8 .statement tag=08D7}
 
 *Tập hợp các tích phân của phương trình tuyến tính thuần nhất (37), xác định trên $J$, là một không gian vectơ chiều $n$ trên trường $\mathbf{C}$.*
 
@@ -740,7 +740,7 @@ u_{jk}(t) = e^{r_j t} p_{jk}(t),
 $$
 trong đó $p_{jk}$ là một đa thức (với các hệ số phức) bậc $\leq n_j - 1$ ($1 \leq k \leq n_j$); hơn nữa, $n$ nghiệm $u_{jk}$ ($1 \leq j \leq q,\ 1 \leq k \leq n_j$) thu được như vậy là độc lập tuyến tính. Suy ra rằng $n_j$ đa thức $p_{jk}$ ($1 \leq k \leq n_j$) là độc lập tuyến tính trong không gian các đa thức theo $t$ bậc $\leq n_j - 1$, nên tạo thành một cơ sở (trên $\mathbf{C}$) của không gian này, vì không gian sau có chiều $n_j$. Nói cách khác:
 
-#### Mệnh đề 9 {#fvr-iv-s2-prop-9 .statement}
+#### Mệnh đề 9 {#fvr-iv-s2-prop-9 .statement tag=08D8}
 
 *Cho $r_j$ ($1 \leq j \leq q$) là các nghiệm phân biệt của phương trình đặc số (40), và cho $n_j$ là bội số của nghiệm $r_j$ ($1 \leq j \leq q$). Khi đó $n$ hàm $t^k e^{r_j t}$ ($1 \leq k \leq n_j,\ 1 \leq j \leq q$) là các nghiệm độc lập tuyến tính của phương trình thuần nhất (41).*
 
@@ -752,7 +752,7 @@ $$
 
 trong đó $f(D) = D^n - a_1 D^{n-1} - \ldots - a_{n-1} D - a_n$ (Alg., IV, p. 4).
 
-#### Mệnh đề 10 {#fvr-iv-s2-prop-10 .statement}
+#### Mệnh đề 10 {#fvr-iv-s2-prop-10 .statement tag=08D9}
 
 *Cho g và h là hai đa thức nguyên tố cùng nhau sao cho $f = gh$. Không gian con các nghiệm của (42) là tổng trực tiếp của các không gian con nghiệm của hai phương trình*
 
@@ -881,15 +881,15 @@ $$
 
 Do đó hệ không có nghiệm khả vi vô hạn nào trừ khi các điều kiện (52) được thỏa mãn; khi đó việc xác định các $y_j$ với chỉ số $j \leq r$ được rút gọn thành việc tích phân r phương trình vi phân tuyến tính hệ số hằng (51); các $y_j$ với chỉ số $> r$ là các hàm khả vi vô hạn tùy ý. Một khi các nghiệm $\mathbf{y}$ của (50) đã được xác định như vậy, ta suy ra các nghiệm của (47) từ công thức $\mathbf{x} = V(D) \mathbf{y}$.
 
-#### Nhận xét 1 {#fvr-iv-s2-n9-rem-1 .statement}
+#### Nhận xét 1 {#fvr-iv-s2-n9-rem-1 .statement tag=08DA}
 
 Một số đa thức $f_j(D)$ có thể rút gọn thành các hằng khác không; khi đó các $y_j$ tương ứng được xác định hoàn toàn.
 
-#### Nhận xét 2 {#fvr-iv-s2-n9-rem-2 .statement}
+#### Nhận xét 2 {#fvr-iv-s2-n9-rem-2 .statement tag=08DB}
 
 Khi các $b_j$ đều bằng không, nghĩa là, nếu hệ (47) là *thuần nhất*, thì các điều kiện (52) luôn luôn được thỏa mãn; hơn nữa, nếu $r = n$, ta thấy rằng tập hợp các nghiệm của (47) là một không gian vectơ trên $\mathbf{C}$, có chiều bằng *tổng các bậc* của các $f_j(D)$, nghĩa là bằng *bậc* của $\det(P(D))$.
 
-#### Nhận xét 3 {#fvr-iv-s2-n9-rem-3 .statement}
+#### Nhận xét 3 {#fvr-iv-s2-n9-rem-3 .statement tag=08DC}
 
 Cho các đa thức $p_{jk}(D)$, một hệ (47) có nghiệm khi các vế phải là khả vi vô hạn (hoặc khả vi đến một cấp nào đó) có thể không có nghiệm khi các vế phải là các hàm điều hòa tùy ý: điều này được chỉ ra bởi ví dụ (48), vốn không có nghiệm khi $a(t)$ không phải là một nguyên hàm. Ở đây ta sẽ không tìm kiếm các điều kiện khả dĩ bổ sung xuất hiện khi các vế phải là các hàm điều hòa tùy ý.
 

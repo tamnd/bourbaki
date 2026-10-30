@@ -33,7 +33,7 @@ subsections:
       pdf_page: 403
 statements: 9
 exercises: 3
-content_sha256: 5c39b84d2cb670e1522ae7b420aa7ff83f17bb8855d20d95205cdb3b000208a1
+content_sha256: d9d8bc669988130aa6e9603f857f842267864dbe467a4befa4c7eb5a107352d4
 translated_from: content/en/ac/VI/02_s2_places.md
 source_content_sha256: b544413d10331937b891740ab23ca115c16171f1f2b46cac7186286bd8362f62
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -47,7 +47,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. KHÁI NIỆM CẤU XẠ ĐỐI VỚI CÁC LUẬT HỢP THÀNH KHÔNG ĐƯỢC XÁC ĐỊNH KHẮP NƠI
 
-#### Định nghĩa 1 {#ac-vi-s2-def-1 .statement}
+#### Định nghĩa 1 {#ac-vi-s2-def-1 .statement tag=04SN}
 
 *Cho E và E' là hai tập hợp, mỗi tập hợp có một luật hợp thành trong được ký hiệu bởi $(x, y) \mapsto x * y$, không nhất thiết được xác định khắp nơi. Một ánh xạ $f : E \to E'$ là một cấu xạ nếu, với mọi $x, y$ trong E sao cho $f(x) * f(y)$ được xác định, hợp thành $x * y$ cũng được xác định và:*
 
@@ -59,7 +59,7 @@ Nói ngắn gọn hơn, ta có thể nói rằng công thức (1) phải đúng 
 
 Khái niệm cấu xạ phân biệt với khái niệm biểu diễn (*Đại số*, Chương I, § 1, no. 1), trong đó yêu cầu rằng phương trình (1) đúng bất cứ khi nào vế trái có nghĩa. Dĩ nhiên, hai khái niệm trùng nhau đối với các luật hợp thành được xác định khắp nơi.
 
-#### Định nghĩa 2 {#ac-vi-s2-def-2 .statement}
+#### Định nghĩa 2 {#ac-vi-s2-def-2 .statement tag=04SO}
 
 *Cho E và E' là hai tập hợp, mỗi tập hợp có một họ các luật hợp thành trong $(x, y) \mapsto x *_{\alpha} y, \alpha \in I$. Một ánh xạ $f : E \to E'$ là một cấu xạ nếu nó là một cấu xạ đối với mỗi luật hợp thành $(x, y) \mapsto x *_{\alpha} y$.*
 
@@ -82,7 +82,7 @@ Các hợp thành duy nhất không được xác định do đó là các hợp
 
 Tập hợp $\tilde{K}$, được gọi là *trường xạ ảnh* liên kết với $K$, có thể được đồng nhất với *đường thẳng xạ ảnh* $P_1(K)$ (*loc. cit.*).
 
-#### Định nghĩa 3 {#ac-vi-s2-def-3 .statement}
+#### Định nghĩa 3 {#ac-vi-s2-def-3 .statement tag=04SP}
 
 *Cho $K$ và $L$ là hai trường. Mọi cấu xạ* $f$ *của* $K$ *vào* $\tilde{L}$ *(đối với phép cộng và phép nhân)* *sao cho* $f(1) = 1$ *được gọi là một vị trí của* $K$ *với các giá trị trong* $L$.
 
@@ -129,7 +129,7 @@ Cho F là một đẳng cấu của một trường K lên một trường con c
 
 ### 3. CÁC NƠI VÀ CÁC VÀNH ĐỊNH GIÁ
 
-#### Mệnh đề 1 {#ac-vi-s2-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s2-prop-1 .statement tag=04SQ}
 
 Cho K là một trường, $\mathbf{A}$ là một vành định giá của K và $\kappa(\mathbf{A})$ là trường thặng dư của $\mathbf{A}$. Ta mở rộng ánh xạ chính tắc của $\mathbf{A}$ lên $\kappa(\mathbf{A})$ thành một ánh xạ $h_{\mathbf{A}} : \tilde{K} \to (\kappa(\mathbf{A}))$ bởi công thức $h_{\mathbf{A}}(x) = \infty$ nếu $x \notin \mathbf{A}$. Ánh xạ $h_{\mathbf{A}}$ được xác định như vậy là một nơi của K mà trường giá trị của nó là $\kappa(\mathbf{A})$.
 
@@ -153,7 +153,7 @@ $$
 
 Nếu $j$ là một đẳng cấu của $\kappa(\mathbf{A})$ lên một trường con của một trường L, $j \circ h_{\mathbf{A}} : \tilde{K} \to \tilde{L}$ là một nơi của K với các giá trị trong L. Quá trình trên thực sự cung cấp tất cả các nơi trên K. Nói chính xác hơn:
 
-#### Mệnh đề 2 {#ac-vi-s2-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s2-prop-2 .statement tag=04SR}
 
 Cho K và L là hai trường và f là một nơi của K với các giá trị trong L. Khi đó tồn tại một vành định giá $\mathbf{A}$ của K và một đẳng cấu $j$ của $\kappa(\mathbf{A})$ lên một trường con của L sao cho $f = j \circ h_{\mathbf{A}}$; các điều kiện này xác định $\mathbf{A}$ và $j$ một cách duy nhất. Vành $\mathbf{A}$ là tập hợp các $x \in K$ sao cho $f(x) \neq \infty$ và $m(\mathbf{A})$ là tập hợp các $x \in K$ sao cho $f(x) = 0$.
 
@@ -171,13 +171,13 @@ Các ví dụ về các điểm
 
 ### 4. MỞ RỘNG CỦA CÁC VỊ TRÍ
 
-#### Mệnh đề 3 {#ac-vi-s2-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s2-prop-3 .statement tag=04SS}
 
 Cho $K$ là một trường, $S$ là một vành con của $K$ và $f$ là một đồng cấu từ $S$ vào một trường đóng đại số $L$. Khi đó tồn tại một vị trí của $K$ với giá trị trong $L$ mở rộng $f$.
 
 Xét đến Mệnh đề 1, đây là bản dịch của Định lý 2 của § 1, no. 2.
 
-#### Mệnh đề 4 {#ac-vi-s2-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vi-s2-prop-4 .statement tag=04ST}
 
 Cho $K$ là một trường, $f$ là một vị trí của $K$ với giá trị trong một trường $L$ và $K'$ là một mở rộng của $K$. Khi đó tồn tại một mở rộng $L'$ của $L$ và một vị trí $f'$ của $K'$ với giá trị trong $L'$ mở rộng $f$. Nếu $x_1, \ldots, x_n$ là các phần tử của $K$ độc lập đại số trên $K$ và $a_1, \ldots, a_n$ là các phần tử bất kỳ $\in L, f'$ có thể được chọn sao cho $f(x_i) = a,$ với $1 \leq i \leq n.$
 
@@ -185,13 +185,13 @@ Gọi $V$ là vành off, $g$ là hạn chế của f lên $V$ và $g'$ là mở 
 
 ### 5. ĐẶC TRƯNG HÓA CÁC PHẦN TỬ NGUYÊN BẰNG CÁC VỊ TRÍ
 
-#### Mệnh đề 5 {#ac-vi-s2-prop-5 .statement}
+#### Mệnh đề 5 {#ac-vi-s2-prop-5 .statement tag=04SU}
 
 Cho $K$ là một trường, $S$ là một vành con của $K, h$ là một đồng cấu từ $S$ vào một trường và $p$ là hạt nhân của $h.$ Để một phần tử $x$ của $K$ là nguyên trên vành địa phương $S,$ điều kiện cần và đủ là mọi vị trí của $K$ mở rộng $h$ đều hữu hạn tại $x.$
 
 Nếu $f$ là một vị trí của $K$ mở rộng $h, f$ hữu hạn trên $S_p$ và không trên $pS_p$ và do đó vành của vị trí $f$ trội $S_p.$ Ngược lại, nếu $V$ là một vành định giá của $K$ trội $S_p,$ $V$ là vành của một vị tríf mà hạn chế của nó trên $S$ là một đồng cấu có cùng hạt nhân như $h;$ thay thế $f$ bởi một vị trí tương đương, ta thấy rằng $V$ là vành của một vị trí của $K$ mở rộng $h.$ Nói rằng mọi vị trí của $K$ mở rộng $h$ đều hữu hạn tại $x$ tương đương với nói rằng $x$ thuộc mọi vành định giá của $K$ trội $S_p.$ Mệnh đề khi đó suy ra từ Định lý 3 của § 1, no. 3.
 
-#### Mệnh đề 6 {#ac-vi-s2-prop-6 .statement}
+#### Mệnh đề 6 {#ac-vi-s2-prop-6 .statement tag=04SV}
 
 Cho $K$ là một trường và $S$ là một vành con của $K.$ Để một phần tử $x \in K$ là nguyên trên $S,$ điều kiện cần và đủ là mọi vị trí của $K$ hữu hạn trên $S$ đều hữu hạn tại $x.$
 

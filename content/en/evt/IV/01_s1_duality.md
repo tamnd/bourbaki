@@ -32,7 +32,7 @@ subsections:
       pdf_page: 193
 statements: 36
 exercises: 25
-content_sha256: 421a64212363dcb898c8d550d3d6f0d03c7bd538c5d33b78f4382c84ee800c6d
+content_sha256: b7f26d454273886007de38188e9c263540c6eccc68705afe146cbdcbcc0c7806
 ---
 
 ## § 1. DUALITY
@@ -54,13 +54,13 @@ $$
 
 for $x \in E, \ y \in F$.
 
-#### Definition 1 {#evt-iv-s1-def-1 .statement}
+#### Definition 1 {#evt-iv-s1-def-1 .statement tag=07QI}
 
 *A locally convex topology $\mathscr{T}$ on E is said to be compatible with the duality between E and F if $d_B$ is a bijection from F onto the dual of the locally convex space obtained by assigning the topology $\mathscr{T}$ to E.*
 
 If there exists one such topology $\mathscr{T}$, the mapping $d_B$ is injective, that is to say, the duality between E and F is separating in F (II, p. 41).
 
-#### Proposition 1 {#evt-iv-s1-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s1-prop-1 .statement tag=07QJ}
 
 (i) *The closed convex subsets in E are the same for all the locally convex topologies on E which are compatible with the duality between E and F.*
 (ii) *The bounded subsets of E are the same for all the locally convex topologies on E which are compatible with the duality between E and F.*
@@ -75,7 +75,7 @@ $$
 
 where A runs through $\mathfrak{S}$. In particular, when $\mathfrak{S}$ is the family of finite subsets of F, the $\mathfrak{S}$-topology is precisely the weak topology $\sigma(E, F)$.
 
-#### Definition 2 {#evt-iv-s1-def-2 .statement}
+#### Definition 2 {#evt-iv-s1-def-2 .statement tag=07QK}
 
 *Let E and F be two spaces in duality. The Mackey topology on E, denoted by $\tau(E, F)$ is defined as the $\mathfrak{S}$-topology on E, where $\mathfrak{S}$ is the family of all subsets of F whose image in $E^*$ (under $d_B$) is convex, balanced and compact for $\sigma(E^*, E)$.*
 
@@ -83,19 +83,19 @@ When the duality between E and F is separating in F, $d_B$ is injective and the 
 
 In general, if $F_1 = d_B(F) \subset E^*$, and if we denote by $(x, y_1) \mapsto B_1(x, y_1)$ the restriction of the canonical bilinear form $(x, x^*) \mapsto \langle x, x^* \rangle$ to $E \times F_1$, then E and $F_1$ are put in duality by $B_1$, and this duality is separating in $F_1$, since by definition we have $B(x, y) = B_1(x, d_B(y))$, def. 2 shows that $\tau(E, F) = \tau(E, F_1)$.
 
-#### Remark 1 {#evt-iv-s1-n1-rem-1 .statement}
+#### Remark 1 {#evt-iv-s1-n1-rem-1 .statement tag=07QL}
 
 — Let A be a compact convex subset of a Hausdorff locally convex space G, and let $\tilde{A}$ be the closed convex balanced envelope of A. When the field K is $\mathbf{R}$, the set $\tilde{A}$ is the closed convex envelope of $A \cup (-A)$; when K is $\mathbf{C}$, the set $\tilde{A}$ is contained in the closed convex envelope of $2A \cup (-2A) \cup (2iA) \cup (-2iA)$. Consequently (II, p. 14, prop. 15), $\tilde{A}$ is compact.
 
 We deduce, in particular, that when the duality between E and F is separating in F, *the Mackey topology $\tau(E, F)$ is also the $\mathfrak{S}'$-topology, where $\mathfrak{S}'$ is the set of all convex subsets of F which are compact for $\sigma(F, E)$*. In an analogous way we define the Mackey topology $\tau(F, E)$ on F.
 
-#### Theorem 1 (Mackey) {#evt-iv-s1-thm-1 .statement}
+#### Theorem 1 (Mackey) {#evt-iv-s1-thm-1 .statement tag=07QM}
 
 — *Let E and F be two spaces in duality; suppose that the duality is separating in F. In order that a locally convex topology $\mathscr{T}$ on E be compatible with the duality between E and F, it is necessary and sufficient that $\mathscr{T}$ be finer than the topology $\sigma(E, F)$ and coarser than the Mackey topology $\tau(E, F)$.*
 
 Identify F with its image in $E^*$ under $d_B$. Let $\mathfrak{S}_0$ denote the set of all subsets of F which are convex, balanced and compact for $\sigma(F, E)$. By definition, $\tau(E, F)$ is the $\mathfrak{S}_0$-topology on E, hence is finer than $\sigma(E, F)$.
 
-#### Lemma 1 {#evt-iv-s1-lem-1 .statement}
+#### Lemma 1 {#evt-iv-s1-lem-1 .statement tag=07QN}
 
 *The subspace F of E* consists of all linear forms on E which are continuous for $\tau(E, F)$.
 
@@ -103,7 +103,7 @@ Every element of F is a continuous mapping for $\sigma(E, F)$, hence for $\tau(E
 
 Conversely, let $f \in E^*$ be continuous for $\tau(E, F)$. There exists a neighbourhood U of 0 in E (for $\tau(E, F)$), such that $|f| \leq 1$ on U; we can assume that there exists a set $A \in \mathscr{S}_0$ such that $U = A^\circ$. In other words, $f$ belongs to the bipolar $A^{\circ\circ}$ of A for the duality between $E^*$ and E. But the topology $\sigma(F, E)$ on F is induced by $\sigma(E^*, E)$; consequently A is convex, balanced and compact for $\sigma(E^*, E)$, and the theorem of bipolars (II, p. 44, th. 1) implies the equality $A = A^{\circ\circ}$. Therefore we have that $f \in F$, from which the lemma follows.
 
-#### Lemma 2 {#evt-iv-s1-lem-2 .statement}
+#### Lemma 2 {#evt-iv-s1-lem-2 .statement tag=07QO}
 
 *Let $\mathscr{T}$ be a locally convex topology on E such that every linear form on E which is continuous for $\mathscr{T}$ belongs to F. Then $\mathscr{T}$ is coarser than $\tau(E, F)$.*
 
@@ -111,7 +111,7 @@ Conversely, let $f \in E^*$ be continuous for $\tau(E, F)$. There exists a neigh
 
 Let $\mathscr{T}$ be a topology on E compatible with the duality between E and F. Then $\mathscr{T}$ is coarser than $\tau(E, F)$ by lemma 2, and evidently $\mathscr{T}$ is finer than $\sigma(E, F)$. Conversely, F is the dual of E for the topology $\tau(E, F)$ (lemma 1) and for the topology $\sigma(E, F)$ (II, p. 43, prop. 3), hence also for every topology intermediate between $\tau(E, F)$ and $\sigma(E, F)$.
 
-#### Corollary {#evt-iv-s1-n1-cor-1 .statement}
+#### Corollary {#evt-iv-s1-n1-cor-1 .statement tag=07QP}
 
 *Let p be a semi-norm on E. The following conditions are equivalent :*
 
@@ -122,7 +122,7 @@ Let $\mathscr{T}$ be a topology on E compatible with the duality between E and F
 
 (ii) $\Rightarrow$ (i) : let $\mathscr{T}$ be the topology on E defined by the semi-norm p. If condition (ii) is satisfied, the linear forms on E which are continuous for $\mathscr{T}$ belong to F. By lemma 2 $\mathscr{T}$ is coarser than $\tau(E, F)$, hence p is continuous for $\tau(E, F)$.
 
-#### Remark 2 {#evt-iv-s1-n1-rem-2 .statement}
+#### Remark 2 {#evt-iv-s1-n1-rem-2 .statement tag=07QQ}
 
 *Let K be a convex subset of F which is compact for the weak topology $\sigma(F, E)$ and $\mu$ a positive measure on K. Put*
 
@@ -132,11 +132,11 @@ $$
 
 for all $x \in E$. It is immediate that p is a semi-norm. Moreover, for every $x \in E$, the relation « $|B(x, y)| \leq 1$ for all $y \in K$ » implies that $p(x) \leq \mu(K)$. This proves that the semi-norm p on E is continuous for the Mackey topology $\tau(E, F)$. \*
 
-#### Example {#evt-iv-s1-n1-exa-1 .statement}
+#### Example {#evt-iv-s1-n1-exa-1 .statement tag=07QR}
 
 Let G be a locally convex space and G' its dual. On G', the weak topology $\sigma(G', G)$ and the topology of convex compact convergence (III, p. 14) are compatible with the duality between G' and G. In general, the strong topology and the topology of compact convergence on G' are not compatible with the duality between G' and G. Recall however that when G is Hausdorff and quasi-complete, the topology of compact convergence on G' coincides with that of convex compact convergence (III, p. 8), hence is compatible with the duality between G' and G.
 
-#### Definition 3 {#evt-iv-s1-def-3 .statement}
+#### Definition 3 {#evt-iv-s1-def-3 .statement tag=07QS}
 
 *Let E and F be two vector spaces in duality, and $\mathscr{T}$ the family of subsets of F which are bounded for $\sigma(F, E)$. Then the $\mathscr{T}$-topology on F is denoted by $\beta(E, F)$.*
 
@@ -162,35 +162,35 @@ The initial topology is finer than the weakened topology and coarser than the Ma
 
 By prop. 1 of IV, p. 1, these three topologies have the same closed convex sets, the same barrels, the same bounded sets and the same adapted bornologies. In particular :
 
-#### Proposition 2 {#evt-iv-s1-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s1-prop-2 .statement tag=07QT}
 
 *Let E be a locally convex space, and let A be a convex subset of E (for example, a vector subspace of E). The closure of A is the same for the initial topology and for the weakened topology of E.*
 
-#### Remark 1 {#evt-iv-s1-n2-rem-1 .statement}
+#### Remark 1 {#evt-iv-s1-n2-rem-1 .statement tag=07QU}
 
 For a family $(x_i)_{i \in I}$ of elements of E to be total (resp. topologically independent) for the initial topology, it is necessary and sufficient that it is so for the weakened topology; this follows from prop. 2. Hence we can apply the criteria of II, p. 43.
 
-#### Remark 2 {#evt-iv-s1-n2-rem-2 .statement}
+#### Remark 2 {#evt-iv-s1-n2-rem-2 .statement tag=07QV}
 
 Let $\mathscr{T}_1$ and $\mathscr{T}_2$ be two locally convex topologies on E, compatible with the duality between E and $E'$, $\mathscr{T}_1$ being finer than $\mathscr{T}_2$. Then every neighbourhood of 0 for $\mathscr{T}_1$, which is convex and closed for $\mathscr{T}_1$ is closed for $\mathscr{T}_2$ by prop. 1 of IV, p. 1. Consequently (GT, II, § 3, No. 3, corollary) every subset of E which is complete for $\mathscr{T}_2$ is so for $\mathscr{T}_1$ also.
 
 In particular, every subset of E which is complete for the weakened topology is complete for the initial topology, and every subset of E complete for the initial topology is so for the Mackey topology. If E is quasi-complete for the weakened topology, it is so for every topology compatible with the duality between E and $E'$. If it is quasi-complete for the initial topology, it is so for the Mackey topology.
 
-#### Remark 3 {#evt-iv-s1-n2-rem-3 .statement}
+#### Remark 3 {#evt-iv-s1-n2-rem-3 .statement tag=07QW}
 
 Suppose E is Hausdorff (for the initial topology). Let A be a subset of E which is closed and bounded for $\sigma(E, E')$, hence also for every topology compatible with the duality between E and $E'$. Since A is precompact for $\sigma(E, E')$ (III, p. 3, Remark 5), assuming that A is *compact* for $\sigma(E, E')$ is equivalent to A being *complete* for $\sigma(E, E')$.
 
 Therefore, on account of remark 2, we see that :
 
-#### Proposition 3 {#evt-iv-s1-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s1-prop-3 .statement tag=07QX}
 
 *Suppose E is Hausdorff, and $E'$ its dual. Every subset of E which is precompact for the initial topology and compact for $\sigma(E, E')$, is compact for the initial topology.*
 
-#### Remark 4 {#evt-iv-s1-n2-rem-4 .statement}
+#### Remark 4 {#evt-iv-s1-n2-rem-4 .statement tag=07QY}
 
 The topology $\beta(E, E')$ (IV, p. 4, def. 3) is finer than the Mackey topology. If $\beta(E, E')$ is distinct from $\tau(E, E')$, it is not compatible with the duality between E and $E'$. The space E is barrelled if and only if the initial topology is equal to $\beta(E, E')$ (III, p. 24).
 
-#### Proposition 4 {#evt-iv-s1-prop-4 .statement}
+#### Proposition 4 {#evt-iv-s1-prop-4 .statement tag=07QZ}
 
 *Let E be a locally convex space. The Mackey topology on E is identical with the initial topology in each of the following cases :*
 
@@ -210,7 +210,7 @@ In this section, $E_1$ and $E_2$ denote two locally convex spaces, with respecti
 
 Let $u$ be a linear mapping from $E_1$ into $E_2$. For $u$ to be continuous when $E_1$ and $E_2$ are assigned the weakened topologies, it is necessary and sufficient that $f \circ u$ belongs to $E'_1$ for all $f \in E'_2$; this is the case if $u$ is continuous. Then the linear mapping $f \mapsto f \circ u$ from $E'_2$ into $E'_1$ is called the transpose of $u$ and is denoted by $^t u$.
 
-#### Proposition 5 {#evt-iv-s1-prop-5 .statement}
+#### Proposition 5 {#evt-iv-s1-prop-5 .statement tag=07R0}
 
 *Let $u$ be a continuous linear mapping from $E_1$ into $E_2$.*
 
@@ -220,13 +220,13 @@ Let $u$ be a linear mapping from $E_1$ into $E_2$. For $u$ to be continuous when
 
 A vector subspace of $E_2$ is dense for the initial topology if and only if it is dense for the weakened topology (IV, p. 4, prop. 2). Prop. 5 then follows from II, p. 47, cor. 2.
 
-#### Proposition 6 {#evt-iv-s1-prop-6 .statement}
+#### Proposition 6 {#evt-iv-s1-prop-6 .statement tag=07R1}
 
 *Let $u$ be a linear mapping from $E_1$ into $E_2$ which is continuous for the weakened topologies. For $i = 1, 2$, let $\mathfrak{S}_i$ be a family of bounded subsets of $E_i$. In order that $^t u$ is a continuous mapping from $(E'_2)_{\mathfrak{S}_2}$ into $(E'_1)_{\mathfrak{S}_1}$, it is necessary and sufficient that, for every set $A \in \mathfrak{S}_1$, there exist sets $A_1, ..., A_n$ in $\mathfrak{S}_2$ and a real number $\lambda > 0$ such that $\lambda \cdot u(A)$ is contained in the closed convex balanced envelope of $A_1 \cup ... \cup A_n$\footnote{In other words, $u(\mathfrak{S}_1)$ is contained in the smallest adapted bornology containing $\mathfrak{S}_2$ (III, p. 3).}.*
 
 This is an immediate consequence of prop. 2 of III, p. 15.
 
-#### Corollary {#evt-iv-s1-n3-cor-1 .statement}
+#### Corollary {#evt-iv-s1-n3-cor-1 .statement tag=07R2}
 
 *Let $u$ be a continuous linear mapping from $E_1$ into $E_2$. Then $^t u$ is continuous when the duals $E'_i$ are assigned the following topologies:*
 a) *the weak topologies $\sigma(E'_i, E_i)$;*
@@ -238,7 +238,7 @@ e) *the topologies of compact convergence* (resp. *compact convex*).
 
 The only point which requires a proof is the case c), when the topologies of $E_1$ and $E_2$ are not necessarily Hausdorff. Then for every linear form $f \in E'_1*$, $f \circ ^t u$ is a linear form on $E'_2$; hence there is a linear mapping $v : E'_1* \to E'_2*$ which is continuous for the topologies $\sigma(E'_1*, E'_1)$ and $\sigma(E'_2*, E'_2)$ and is such that $d_{B_2} \circ u = v \circ d_{B_1}$, where $d_{B_i}$ is the canonical mapping from $E_i$ into $E'_i*$ ($i = 1, 2$). Consequently, if $A$ is a subset of $E_1$ such that $d_{B_1}(A)$ is convex, balanced and compact for $\sigma(E'_1*, E'_1)$ then $d_{B_2}(u(A)) = v(d_{B_1}(A))$ is convex, balanced and compact for $\sigma(E'_2*, E'_2)$ since the topologies $\sigma(E'_1*, E'_1)$ and $\sigma(E'_2*, E'_2)$ are Hausdorff.
 
-#### Proposition 7 {#evt-iv-s1-prop-7 .statement}
+#### Proposition 7 {#evt-iv-s1-prop-7 .statement tag=07R3}
 
 — Let $u : E_1 \to E_2$ be a linear mapping. We assume that $u$ is continuous for the weakened topologies of $E_1$ and $E_2$.
 
@@ -250,7 +250,7 @@ The only point which requires a proof is the case c), when the topologies of $E_
 
 The hypothesis implies that $'u$ is continuous for the weak topologies $\sigma(E_2', E_2)$ and $\sigma(E_1', E_1)$ (II, p. 46, corollary) hence the image under $'u$ of a convex, balanced and compact subset for $\sigma(E_2', E_2)$ is convex, balanced and compact for $\sigma(E_1', E_1)$, the topologies $\sigma(E_2', E_2)$ and $\sigma(E_1', E_1)$ being Hausdorff. Therefore, assertion (i) follows from GT, X, § 1, No. 4, prop. 3, b). Assertion (ii) is a consequence of (i) : for, if $E_1$ is bornological or barrelled, its initial topology is the Mackey topology, and the Mackey topology of $E_2$ is finer than the initial topology of $E_2$. Finally, the initial topology of $E_i$ is that of uniform convergence on equicontinuous subsets of $E_i'$ (III, p. 19, cor. 1 of prop. 7). This proves (iii).
 
-#### Corollary {#evt-iv-s1-n3-cor-2 .statement}
+#### Corollary {#evt-iv-s1-n3-cor-2 .statement tag=07R4}
 
 — Suppose $E_1$ is a normed space. Let $u$ be a linear mapping from $E_1$ into $E_2$. The following properties are equivalent :
 
@@ -264,7 +264,7 @@ d) for every sequence $(x_n)$ of points of $E_1$ tending to 0 for the initial to
 
 Since $E_1$ is bornological the equivalence of a) and b) follows from prop. 7; that of a) and c) is immediate. The equivalence of a) and d) follows from prop. 1 of IV, p. 1, and from prop. 1 of III, p. 11.
 
-#### Proposition 8 {#evt-iv-s1-prop-8 .statement}
+#### Proposition 8 {#evt-iv-s1-prop-8 .statement tag=07R5}
 
 — (i) Let $E$ be a normed space, with dual $E'$. For every $x \in E$, we have
 
@@ -293,15 +293,15 @@ $$
 = \sup_{\|x\| \leq 1, \|y'\| \leq 1} |\langle u(x), y' \rangle| = \sup_{\|x\| \leq 1} \|u(x)\| = \|u\|.
 $$
 
-#### Remark 1 {#evt-iv-s1-n3-rem-1 .statement}
+#### Remark 1 {#evt-iv-s1-n3-rem-1 .statement tag=07R6}
 
 Formula (3) is a particular case of (4), corresponding to the linear mapping $\lambda \mapsto \lambda x$ from K into E.
 
-#### Remark 2 {#evt-iv-s1-n3-rem-2 .statement}
+#### Remark 2 {#evt-iv-s1-n3-rem-2 .statement tag=07R7}
 
 Put $B(x, y') = \langle u(x), y' \rangle = \langle x, ^{t}u(y') \rangle$ for $x \in E_1,\ y' \in E'_2$. The above proof shows that B is a continuous bilinear form on $E_1 \times E'_2$, with norm (GT, X, § 3, No. 2) equal to $\|u\|$.
 
-#### Corollary {#evt-iv-s1-n3-cor-3 .statement}
+#### Corollary {#evt-iv-s1-n3-cor-3 .statement tag=07R8}
 
 — *Let $\dot{E}$ be a normed space satisfying the first axiom of countability. There exists a countable subset D of $E' - \{0\}$ such that we have*
 
@@ -333,7 +333,7 @@ $$
 i : E'/M^\circ \to M'.
 $$
 
-#### Proposition 9 {#evt-iv-s1-prop-9 .statement}
+#### Proposition 9 {#evt-iv-s1-prop-9 .statement tag=07R9}
 
 — (i) *For a subset A of* $(E/M)'$ *to be equicontinuous, it is necessary and sufficient that* $\pi(A)$ *is an equicontinuous subset of* $E'$.
 
@@ -362,7 +362,7 @@ $$
 $$
 and ${}^t p$ induces an isometry from $(E/M)'$ onto $M^\circ$.
 
-#### Proposition 10 {#evt-iv-s1-prop-10 .statement}
+#### Proposition 10 {#evt-iv-s1-prop-10 .statement tag=07RA}
 
 — (i) For a subset $A$ of $M'$ to be equicontinuous, it is necessary and sufficient that it is the image under ${}^t i$ of an equicontinuous subset of $E'$.
 
@@ -392,11 +392,11 @@ $$
 
 By Hahn-Banach theorem (II, p. 23, cor. 3), there exists a linear form $x'_0$ on $E$ which extends $y'$ and is of the same norm; hence we get the inequality opposite to (7), since $\iota(x'_0) = y'$.
 
-#### Remark {#evt-iv-s1-n4-rem-1 .statement}
+#### Remark {#evt-iv-s1-n4-rem-1 .statement tag=07RB}
 
 — We know (II, p. 48, prop. 7, (ii)) that $\iota$ is a topological vector space isomorphism from $E'_s/M^\circ$ onto $M'_s$ (weak duals). For the topology of compact convex convergence, prop. 10 shows that $\iota$ is an isomorphism from $E'_{cc}/M^\circ$ onto $M'_{cc}$ when $E$ is Hausdorff and $M$ closed in $E$. For the strong topologies, $\iota$ is a continuous mapping from $E'_b/M^\circ$ onto $M'_b$; it is an isomorphism if $E$ is a Banach space \* or if $E$ is semi-reflexive and $M$ is closed in $E$ (IV, p. 15) *, but this is not always so if $E$ is a Fréchet space (IV, p. 58, exerc. 5, *c*)).
 
-#### Proposition 11 {#evt-iv-s1-prop-11 .statement}
+#### Proposition 11 {#evt-iv-s1-prop-11 .statement tag=07RC}
 
 — (i) *The weakened topology on* $E/M$ *is the quotient of that on* $E$; *the weakened topology on* $M$ *is induced by that of* $E$.
 
@@ -418,7 +418,7 @@ $$
 
 We recall (II, p. 50, prop. 8) that the weak topology $\sigma(E, F)$ is the product of the weak topologies $\sigma(E_i, F_i)$.
 
-#### Lemma 3 {#evt-iv-s1-lem-3 .statement}
+#### Lemma 3 {#evt-iv-s1-lem-3 .statement tag=07RD}
 
 — (i) *For every $i \in I$, let $\mathfrak{S}_i$ be a family of subsets of $F_i$, which is bounded for $\sigma(F_i, E_i)$; put $\mathfrak{S} = \bigcup_{i \in I} \mathfrak{S}_i$. Then the $\mathfrak{S}$-topology on $E$ is the product of the $\mathfrak{S}_i$-topologies on the $E_i$.*
 
@@ -444,7 +444,7 @@ q(y) \leq \sum_{i \in I} q_i(y_i) \leq \sum_{i \in I} \sup_{x_i \in A_i} |B_i(x_
 $$
 where the last equality follows from (8) since the family $(y_i)_{i \in I}$ has finite support and the $A_i$ are non-empty and can be assumed balanced (GT, IV, § 5, No. 7, cor. 2 to prop. 12). This inequality proves that $q$ is continuous on $F$, and hence (ii).
 
-#### Proposition 12 {#evt-iv-s1-prop-12 .statement}
+#### Proposition 12 {#evt-iv-s1-prop-12 .statement tag=07RE}
 
 *The topology $\beta(F, E)$ is the direct sum of the topologies $\beta(F_i, E_i)$. The topology $\beta(E, F)$ is the product of the topologies $\beta(E_i, F_i)$.*
 
@@ -456,7 +456,7 @@ We endow $F = \bigoplus_{i \in I} F_i$ with the topology $\mathscr{T}$ which is 
 
 For the general case, let $N_i$ be the intersection of all neighbourhoods of 0 for $\sigma(F_i, E_i)$, and let $N = \sum_{i \in I} N_i$; then $F/N$ is the topological direct sum of the $F_i/N_i$ (II, p. 31, prop. 8); we deduce from this that every subset of $F$ which is bounded for $\mathscr{T}$ is contained in a set of the form $N + \sum_{i \in J} B_i$ with $J \subset I$ finite and $B_i$ bounded in $F_i$ for all $i \in J$ (III, p. 2, *Remark* 3); since the polar of this set in $E$ is the same as that of $\sum_{i \in J} B_i$, the result follows as above.
 
-#### Proposition 13 {#evt-iv-s1-prop-13 .statement}
+#### Proposition 13 {#evt-iv-s1-prop-13 .statement tag=07RF}
 
 *The Mackey topology $\tau(F, E)$ is the direct sum of the Mackey topologies $\tau(F_i, E_i)$. The topology $\tau(E, F)$ is the product of the topologies $\tau(E_i, F_i)$.*
 
@@ -476,7 +476,7 @@ $$
 
 (where $S'$ denotes the dual of $S$, and $E_i'$ that of $E_i$).
 
-#### Proposition 14 {#evt-iv-s1-prop-14 .statement}
+#### Proposition 14 {#evt-iv-s1-prop-14 .statement tag=07RG}
 
 (i) *The mapping $\theta$ is an isomorphism from the strong (resp. weak) dual of $S = \bigoplus_{i \in I} E_i$ onto the product of the strong (resp. weak) duals of the $E_i$:*
 
@@ -510,7 +510,7 @@ $$
 
 for $x = (x_i)$ in $P$ and $x' = (x'_i)$ in $\bigoplus_{i \in I} E'_i$.
 
-#### Proposition 15 {#evt-iv-s1-prop-15 .statement}
+#### Proposition 15 {#evt-iv-s1-prop-15 .statement tag=07RH}
 
 — (i) *The map $\phi$ is an isomorphism from the topological direct sum of the strong duals of the $E_i$ onto the strong dual of $P = \prod_{i \in I} E_i$.*
 
@@ -526,7 +526,7 @@ This proves the surjectivity of $\phi$ and also assertion (ii).
 
 Assertions (i) and (iv) follow from prop. 12 (IV, p. 12) and (iii) from prop. 13 (IV, p. 12).
 
-#### Corollary {#evt-iv-s1-n5-cor-1 .statement}
+#### Corollary {#evt-iv-s1-n5-cor-1 .statement tag=07RI}
 
 — *Every product of barrelled spaces is barrelled.*
 

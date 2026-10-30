@@ -26,7 +26,7 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 5
-content_sha256: cf1e01c50e75245c28ba19f3dd7b4d60e6450a32afae6f16d5592868cf53e5e8
+content_sha256: 533f382b46cfc2054ff742732ab72e9dac7b4ef5c412c14c32c1a89786d99999
 translated_from: content/en/alg/IV/02_s2_zeros_of_polynomials.md
 source_content_sha256: 225ec9e15b7f2dea5044d6aa6129a8558e1f970a5442b8f106a96a6e1d7fde32
 translation_model: gpt-5.4, gpt-5-6
@@ -42,13 +42,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $g \in A[(X_i)_{i \in I}]$ và cho $E$ là một $A$-đại số kết hợp có đơn vị. Cho $x = (x_i)_{i \in I}$ là một họ các phần tử từng đôi một giao hoán của $E$. Ta sẽ nói rằng $x$ là một nghiệm không của $g$ trong $E^l$ nếu $g(x) = 0$. Nếu $f$ là một đa thức theo một ẩn duy nhất, thì một nghiệm không của $f$ trong $E$ cũng được gọi là một nghiệm của $f$ trong $E$.
 
-#### Mệnh đề 1 {#alg-iv-s2-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iv-s2-prop-1 .statement tag=06AO}
 
 — Cho $f \in A[X]$ và $\alpha \in A$. Số dư của phép chia $f$ cho $X - \alpha$ là $f(\alpha)$. Để $\alpha$ là một nghiệm của $f$ thì điều kiện cần và đủ là $X - \alpha$ là một ước của $f$ trong $A[X]$.
 
 Thật vậy, nếu $u,\ v \in \mathbf{A}[X]$ sao cho $f = (X - \alpha)\ u + v,\ \deg v < 1$, thì $v$ là một vô hướng và $f(a) = (a - a)\ u(\alpha) + v = v$. Điều này chứng minh mệnh đề thứ nhất, và mệnh đề thứ hai suy ra từ đó.
 
-#### Mệnh đề 2 {#alg-iv-s2-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iv-s2-prop-2 .statement tag=06AP}
 
 — *Cho $f \in \mathbf{A}[X]$, $a \in \mathbf{A}$, và cho $h$ là một số nguyên $\geq 0$. Các điều kiện sau là tương đương*:
 (i) $f$ chia hết cho $(X - \alpha)^h$ nhưng không chia hết cho $(X - \alpha)^{h-1}$;
@@ -56,25 +56,25 @@ Thật vậy, nếu $u,\ v \in \mathbf{A}[X]$ sao cho $f = (X - \alpha)\ u + v,\
 (i) $\Rightarrow$ (ii) suy ra ngay từ Mệnh đề 1.
 (ii) $\Rightarrow$ (i) : Giả sử rằng $f = (X - \alpha)^h g$, trong đó $g$ không nhận $a$ làm nghiệm. Khi đó $f$ chia hết cho $(X - \alpha)^h$; nếu tồn tại $g_1 \in \mathbf{A}[X]$ sao cho $f = (X - \alpha)^{h+1} g_1$, thì vì $(X - \alpha)^n$ không phải là ước của không trong $\mathbf{A}[X]$ (IV, p. 9, Mệnh đề 7), ta có $g = (X - a)\ g_1$ và do đó $g(\alpha) = 0$, điều này là vô lý.
 
-#### Mệnh đề 3 {#alg-iv-s2-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iv-s2-prop-3 .statement tag=06AQ}
 
 — *Cho $f$ là một phần tử khác không của $\mathbf{A}[X]$ và $a \in \mathbf{A}$. Tồn tại duy nhất một số nguyên $h \geq 0$ thỏa mãn các điều kiện (i) và (ii) của Mệnh đề 2.*
 Điều này hiển nhiên đối với điều kiện (i), lưu ý rằng nếu f chia được cho $(X - \alpha)^h$, thì $\deg f \geq h$ (IV, p. 9, Mệnh đề 7).
 
-#### Định nghĩa 1 {#alg-iv-s2-def-1 .statement}
+#### Định nghĩa 1 {#alg-iv-s2-def-1 .statement tag=06AR}
 
 — *Với ký hiệu trên, ta nói rằng $a$ có cấp $h$, hay bội số $h$ đối với $f$.*
 Nếu $h > 0$ ta cũng nói rằng $a$ là một nghiệm cấp $h$ hay bội số $h$ của f. Một nghiệm cấp 1 được gọi là một nghiệm đơn, một nghiệm cấp 2 là một nghiệm kép,... Một nghiệm có cấp $> 1$ được gọi là bội.
 
-#### Nhận xét 1 {#alg-iv-s2-n1-rem-1 .statement}
+#### Nhận xét 1 {#alg-iv-s2-n1-rem-1 .statement tag=06AS}
 
 Nếu $f = 0$ ta quy ước nói rằng $a$ có cấp $\geq h$ đối với $f$, với mọi $a \in \mathbf{A}$ và số nguyên $h \geq 0$. Với mọi $f \in \mathbf{A}[X]$ và $a \in \mathbf{A}$, nói rằng $a$ có cấp $\geq h$ đối với $f$ có nghĩa là $(X - \alpha)^h$ chia hết $f$.
 
-#### Nhận xét 2 {#alg-iv-s2-n1-rem-2 .statement}
+#### Nhận xét 2 {#alg-iv-s2-n1-rem-2 .statement tag=06AT}
 
 Cho $B$ là một vành giao hoán chứa $\mathbf{A}$ như vành con. Cho $f \in \mathbf{A}[X]$ là khác không và $a \in \mathbf{A}$. Cấp của $a$ đối với $f$ là như nhau, dù ta xét $f$ như một phần tử của $B[X]$ hay như một phần tử của $\mathbf{A}[X]$. Điều này hiển nhiên từ điều kiện (ii) của Mệnh đề 2.
 
-#### Mệnh đề 4 {#alg-iv-s2-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iv-s2-prop-4 .statement tag=06AU}
 
 — *Cho $f$ và $g$ là các phần tử khác không của $\mathbf{A}[X]$. Cho $a \in \mathbf{A}$, và gọi các bậc của $a$ đối với $f$ và $g$ lần lượt là $p$ và $q$.*
 (i) *Bậc của $a$ đối với $f + g$ là $\geq \inf(p, q)$. Nó bằng $\inf(p, q)$ nếu $p \neq q$*.
@@ -87,7 +87,7 @@ $$
 
 và nếu $p < q$, $a$ không là nghiệm của $f_1(X) + (X - \alpha)^{q-p} g_1(X)$; điều này chứng minh (i). Mặt khác, ta có $f(X)g(X) = (X - \alpha)^{p+q} f_1(X)g_1(X)$ và $f_1(\alpha)g_1(\alpha) \neq 0$ nếu $A$ là một miền nguyên; điều này chứng minh (ii).
 
-#### Mệnh đề 5 {#alg-iv-s2-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iv-s2-prop-5 .statement tag=06AV}
 
 *Giả sử rằng $A$ là một miền nguyên. Cho $f$ là một phần tử khác không của $A[X]$, và $\alpha_1, \ldots, \alpha_p$ là các nghiệm phân biệt từng đôi một của $f$ trong $A$, có các cấp $k_1, \ldots, k_r$. Ta có*
 
@@ -111,19 +111,19 @@ $$
 
 trong đó $g(X) \in A[X]$. Rõ ràng $\alpha_1, \ldots, \alpha_p$ không phải là các nghiệm của $g$.
 
-#### Định lý 1 {#alg-iv-s2-thm-1 .statement}
+#### Định lý 1 {#alg-iv-s2-thm-1 .statement tag=06AW}
 
 *Cho $A$ là một miền nguyên. Với một phần tử khác không $f$ của $A[X]$, bậc $n$, thì tổng các cấp của mọi nghiệm của nó trong $A$ là $\leq n$.*
 
 Điều này suy ra ngay lập tức từ Mệnh đề 5.
 
-#### Hệ quả {#alg-iv-s2-n1-cor-1 .statement}
+#### Hệ quả {#alg-iv-s2-n1-cor-1 .statement tag=06AX}
 
 *Giả sử $A$ là một miền nguyên và cho $f, g \in A[X]$, bậc $\leq n$. Nếu tồn tại $n + 1$ phần tử $x_1, \ldots, x_{n+1}$ của $A$ từng đôi một phân biệt sao cho $f(x_i) = g(x_i)$ với $1 \leq i \leq n + 1$, thì $f = g$.*
 
 Chỉ cần áp dụng Đl. 1 cho $f - g$.
 
-#### Mệnh đề 6 (công thức nội suy Lagrange) {#alg-iv-s2-prop-6 .statement}
+#### Mệnh đề 6 (công thức nội suy Lagrange) {#alg-iv-s2-prop-6 .statement tag=06AY}
 
 — *Cho $K$ là một trường giao hoán, $\alpha_1, \alpha_2, \ldots, a,$ là các phần tử phân biệt của $K$ và $\beta_1, \beta_2, \ldots, \beta_n$ là các phần tử bất kỳ của $K$. Với $i = 1, 2, \ldots, n$ ta đặt*
 
@@ -135,13 +135,13 @@ $$
 
 Tính duy nhất của f suy ra từ Hệ quả của Định lý 1. Cho $f = \beta_1 f_1 + \ldots + \beta_n f_n$, khi đó vì $f_i$ có bậc $n - 1$, ta có $\deg f < n$. Mặt khác, $f_i(\alpha_j) = 0$ với $j \neq i$ và $f_i(\alpha_i) = 1$, do đó $f(\alpha_i) = \beta_i$ với $1 \leq i \leq n$.
 
-#### Hệ quả {#alg-iv-s2-n1-cor-2 .statement}
+#### Hệ quả {#alg-iv-s2-n1-cor-2 .statement tag=06AZ}
 
 — Giả sử rằng $\mathbf{A}$ là một miền nguyên. Cho $f \in \mathbf{A}[X]$, có bậc $< n$, và cho $K$ là một vành con của $\mathbf{A}$ đồng thời là một trường. Nếu tồn tại $n$ phần tử phân biệt $\alpha_1, \ldots, a_n$ của $\mathbf{A}$ sao cho $\alpha_i \in K$ và $f(\alpha_i) \in K$ với $i = 1, \ldots, n$, thì $f \in K[X]$.
 
 ### 2. Tiêu chuẩn vi phân cho bội số của một nghiệm
 
-#### Mệnh đề 7 {#alg-iv-s2-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iv-s2-prop-7 .statement tag=06B0}
 
 — Cho $f \in \mathbf{A}[X]$ và cho $a \in \mathbf{A}$ là một nghiệm của f: Để $a$ là một nghiệm đơn của f thì điều kiện cần và đủ là $a$ không là một nghiệm của đạo hàm $Df$ của $f$.
 
@@ -149,7 +149,7 @@ Theo giả thiết ta có $f = (X - a)\ g$, với $g \in \mathbf{A}[X]$. Để $
 
 Nói chung hơn:
 
-#### Mệnh đề 8 {#alg-iv-s2-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iv-s2-prop-8 .statement tag=06B1}
 
 — Cho $f \in \mathbf{A}[X]$ và $a \in \mathbf{A}$, và giả sử rằng $a$ có cấp $k \geq 1$ đối với $f$: Khi đó $a$ có cấp $\geq k - 1$ đối với $Df$. Nếu $k . 1$ giản ước được trong $\mathbf{A}$, thì $a$ có cấp $k - 1$ đối với $Df$.
 
@@ -157,7 +157,7 @@ Theo giả thiết, tồn tại $g \in \mathbf{A}[X]$ sao cho $f = (X - a)^k g$ 
 
 Cho $k$ là một số nguyên $> 0$ sao cho $k . 1 = 0$ trong $\mathbf{A}$. Nếu $f(X) = X^k$, thì $0$ là một nghiệm cấp $k$ của $f$, và là một nghiệm có cấp lớn tùy ý của $Df$.
 
-#### Hệ quả {#alg-iv-s2-n2-cor-1 .statement}
+#### Hệ quả {#alg-iv-s2-n2-cor-1 .statement tag=06B2}
 
 — Cho $f \in \mathbf{A}[X]$, $a \in \mathbf{A}$ và $p$ là một số nguyên $\geq 0$; hơn nữa, giả sử rằng $p! . 1$ là giản ước được trong $\mathbf{A}$. Khi đó, để $a$ là một nghiệm cấp $p$ của $f$, điều kiện cần và đủ là $a$ là một nghiệm của $f, Df, ..., D^{p-1}f$ và không là một nghiệm của $D^pf$.
 
@@ -165,7 +165,7 @@ Cho $k$ là một số nguyên $> 0$ sao cho $k . 1 = 0$ trong $\mathbf{A}$. N�
 
 ### 3. Hàm đa thức trên một miền nguyên vô hạn
 
-#### Mệnh đề 9 {#alg-iv-s2-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iv-s2-prop-9 .statement tag=06B3}
 
 — Giả sử rằng $A$ là một miền nguyên. Cho $I$ là một tập hợp, $(\mathbf{H}_i)_{i \in I}$ là một họ các tập con vô hạn của $\mathbf{A}$ và $H = \prod_{i \in I} \mathbf{H}_i \subset A'$. Nếu f là một phần tử khác không của $\mathbf{A}[(X_i)_{i \in I}]$, và $H_f$ là tập hợp mọi $x \in H$ sao cho $f(x) \neq 0$, thì $H$ và $H_f$ có cùng lực lượng.
 
@@ -185,11 +185,11 @@ H_f = H'_f \times \left( \prod_{i \in I - I'} H_i \right),
 $$
 và chỉ cần áp dụng phần đầu của chứng minh cho $H'_f$.
 
-#### Hệ quả 1 {#alg-iv-s2-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#alg-iv-s2-prop-9-cor-1 .statement tag=06B4}
 
 — *Ta giữ giả thiết và ký hiệu của Mệnh đề 9. Nếu l không rỗng, thì $H_f$ là vô hạn.*
 
-#### Hệ quả 2 {#alg-iv-s2-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#alg-iv-s2-prop-9-cor-2 .statement tag=06B5}
 
 — *Giả sử rằng A là một miền nguyên vô hạn hoặc rằng A là một đại số trên một trường vô hạn. Với mọi $f \in A[(X_i)_{i \in I}]$, gọi $\tilde{f}: A^I \to A$ là hàm đa thức được xác định bởi f (IV, p. 4). Khi đó ánh xạ $f \mapsto \tilde{f}$ là đơn ánh.*
 
@@ -199,7 +199,7 @@ Khi A là một miền nguyên vô hạn hoặc khi A là một đại số trê
 
 Giả sử A là hữu hạn và đặt $f(X) = \prod_{a \in A} (X - a)$, khi đó $f \neq 0$, nhưng $\tilde{f} = 0$. Với các ví dụ khác, xem IV, p. 88, bài tập 7 và 8.
 
-#### Định lý 2 (Nguyên lý mở rộng các đồng nhất thức đại số) {#alg-iv-s2-thm-2 .statement}
+#### Định lý 2 (Nguyên lý mở rộng các đồng nhất thức đại số) {#alg-iv-s2-thm-2 .statement tag=06B6}
 
 — *Giả sử A là một miền nguyên vô hạn. Cho $g_1, \ldots, g_m, f$ là các phần tử của $A[(X_i)_{i \in I}]$ và giả sử các giả thiết sau đây được thỏa mãn:*
 
@@ -208,7 +208,7 @@ b) *với mọi* $x \in \mathbf{A}^1$ *sao cho* $g_1(x) \neq 0, \ldots, g_m(x) \
 
 Thật vậy, nếu $f \neq 0$, thì ta có $fg_1 \ldots g_m \neq 0$ (IV, p. 9, Prop. 8), do đó tồn tại $x \in \mathbf{A}^1$ sao cho $f(x)g_1(x) \ldots g_m(x) \neq 0$ (IV, p. 18, Hệ quả 2), điều này mâu thuẫn với giả thiết.
 
-#### Chú giải {#alg-iv-s2-n3-sch-1 .statement}
+#### Chú giải {#alg-iv-s2-n3-sch-1 .statement tag=06B7}
 
 — Cho A là một miền nguyên và $f \in A[(X_i)_{i \in I}]$. Định lý 2 cung cấp một phương tiện thuận tiện để chứng minh rằng $f = 0$. Chỉ cần xét một miền nguyên vô hạn E chứa A như vành con; nếu ta có thể chỉ ra rằng $f((x_i)) = 0$ với mọi $(x_i) \in E^I$ (hoặc thậm chí chỉ với những $(x_i) \in E^I$ tại đó một số hữu hạn đa thức khác không đã cho không triệt tiêu) thì suy ra $f = 0$. Nếu chính A không vô hạn, chẳng hạn ta có thể lấy E là vành $A[X]$ hoặc trường phân thức của nó.
 

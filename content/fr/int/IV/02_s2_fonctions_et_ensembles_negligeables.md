@@ -36,51 +36,51 @@ subsections:
       pdf_page: 126
 statements: 15
 exercises: 0
-content_sha256: 7094df0568fedb3c7c1a6e5b6bec10d295268198e1446354d141551c83183931
+content_sha256: 7abfb3ba0ae1ad44205089f2c1460d940e61c8fc1620525a5a649fc677bb151c
 ---
 
 ## § 2. Fonctions et ensembles négligeables
 
 ### 1. Fonctions positives négligeables
 
-#### Définition 1 {#int-iv-s2-def-1 .statement}
+#### Définition 1 {#int-iv-s2-def-1 .statement tag=08Q8}
 
 *Etant donnée une mesure $\mu$ sur un espace localement compact X, on dit qu’une fonction numérique $f \geq 0$ (finie ou non) définie dans X est négligeable pour la mesure $\mu$ si l’on a $|\mu|^*(f) = 0$.*
 
 On dit aussi alors que $f$ est $\mu$-négligeable, ou simplement négligeable si aucune confusion n’en résulte.
 
-#### Proposition 1 {#int-iv-s2-prop-1 .statement}
+#### Proposition 1 {#int-iv-s2-prop-1 .statement tag=08Q9}
 
 *Si $f$ est une fonction négligeable $\geqslant 0$, toute fonction numérique $g$ telle que $0 \leqslant g \leqslant \alpha f$ ($\alpha$ scalaire $> 0$) est négligeable.*
 En effet, on a $0 \leqslant |\mu|^*(g) \leqslant \alpha|\mu|^*(f) = 0$.
 
-#### Proposition 2 {#int-iv-s2-prop-2 .statement}
+#### Proposition 2 {#int-iv-s2-prop-2 .statement tag=08QA}
 
 *La somme et l’enveloppe supérieure d’une suite $(f_n)$ de fonctions négligeables $\geqslant 0$ sont négligeables.*
 En effet, on a $|\mu|^*\left( \sum_n f_n \right) \leqslant \sum_n |\mu|^*(f_n) = 0$ ($§ 1$, no 3, prop. 13) et $\sup_n f_n \leqslant \sum_n f_n$.
 
-#### Proposition 3 {#int-iv-s2-prop-3 .statement}
+#### Proposition 3 {#int-iv-s2-prop-3 .statement tag=08QB}
 
 *Pour qu’une fonction $f \geqslant 0$, semi-continue inférieurement dans $X$, soit négligeable, il faut et il suffit que $f$ soit nulle dans le support de $\mu$.*
 En effet, si $|\mu|^*(f) = 0$, on a $|\mu|(g) = 0$ pour toute fonction $g \in \mathscr{K}_+$ telle que $g \leqslant f$; il en résulte (chap. III, $§ 2$, no 3, prop. 9) que $g$ est nulle dans le support $S$ de $\mu$; comme $f$ est l’enveloppe supérieure des fonctions $g \in \mathscr{K}_+$ telles que $g \leqslant f$ ($§ 1$, no 1, lemme 1), on a $f(x) = 0$ dans $S$. Réciproquement, si $f(x) = 0$ dans $S$, on a $g(x) = 0$ dans $S$ pour toute fonction $g \in \mathscr{K}_+$ telle que $g \leqslant f$, et par suite (chap. III, $§ 3$, no 3, prop. 8) $|\mu|(g) = 0$, ce qui, par définition, entraîne $|\mu|^*(f) = 0$.
 
 ### 2. Ensembles négligeables
 
-#### Définition 2 {#int-iv-s2-def-2 .statement}
+#### Définition 2 {#int-iv-s2-def-2 .statement tag=08QC}
 
 *Etant donnée une mesure $\mu$ sur un espace localement compact $X$, on dit qu’une partie $A$ de $X$ est négligeable pour la mesure $\mu$ si $|\mu|^*(A) = 0$.*
 On dit encore que $A$ est $\mu$-négligeable, ou simplement négligeable si aucune confusion n’en résulte. Il revient au même de dire que la fonction caractéristique $\varphi_A$ est négligeable.
 
-#### Proposition 4 {#int-iv-s2-prop-4 .statement}
+#### Proposition 4 {#int-iv-s2-prop-4 .statement tag=08QD}
 
 *Toute partie d’un ensemble négligeable est négligeable ; toute réunion dénombrable d’ensembles négligeables est négligeables.*
 C’est une conséquence immédiate des prop. 1 et 2.
 
-#### Exemple {#int-iv-s2-n2-exa-1 .statement}
+#### Exemple {#int-iv-s2-n2-exa-1 .statement tag=08QE}
 
 Soit $\mu$ la mesure de Lebesgue sur $\mathbf{R}$. Tout ensemble $\{ x_0 \}$ réduit à un point est négligeable (cf. $§ 1$, no 3, Remarque 1). Il en résulte que toute partie dénombrable de $\mathbf{R}$ est négligeable pour la mesure de Lebesgue. La réciproque de cette proposition est inexacte ($§ 4$, exerc. 4 b)).
 
-#### Proposition 5 {#int-iv-s2-prop-5 .statement}
+#### Proposition 5 {#int-iv-s2-prop-5 .statement tag=08QF}
 
 Le complémentaire du support S de $\mu$ est le plus grand ensemble ouvert négligeable dans X.
 
@@ -90,7 +90,7 @@ En effet, d’après la prop. 3, pour qu’un ensemble ouvert G soit négligeabl
 
 Soient X un espace localement compact, $\mu$ une mesure sur X. Si $P\{x\}$ est une propriété, la propriété « $P\{x\}$ presque partout (par rapport à $\mu$) » est par définition équivalente à la propriété « l’ensemble des x tels que $(x \in X \text{ et non } P\{x\})$ est $\mu$-négligeable ».
 
-#### Théorème 1 {#int-iv-s2-thm-1 .statement}
+#### Théorème 1 {#int-iv-s2-thm-1 .statement tag=08QG}
 
 Pour qu’une fonction numérique (finie ou non) $f \geqslant 0$ définie dans X soit négligeable, il faut et il suffit que $f(x) = 0$ presque partout.
 
@@ -98,7 +98,7 @@ La condition est nécessaire. En effet, supposons que $f$ soit négligeable, et 
 
 La condition est suffisante. Supposons en effet que l’ensemble N des points où $f(x) \neq 0$ soit négligeable ; on a alors $f \leqslant \sup_n n \varphi_N$, donc $f$ est négligeable (n° 1, prop. 1 et 2).
 
-#### Proposition 6 {#int-iv-s2-prop-6 .statement}
+#### Proposition 6 {#int-iv-s2-prop-6 .statement tag=08QH}
 
 Si $f$ et $g$ sont deux fonctions $\geqslant 0$ (finies ou non) définies dans X et telles que $f(x) = g(x)$ presque partout, on a $|\mu|^*(f) = |\mu|^*(g)$.
 
@@ -110,7 +110,7 @@ $$
 
 (puisque $h$ est négligeable), d’où la proposition.
 
-#### Proposition 7 {#int-iv-s2-prop-7 .statement}
+#### Proposition 7 {#int-iv-s2-prop-7 .statement tag=08QI}
 
 Si $f$ est une fonction $\geqslant 0$ définie dans X et telle que $|\mu|^*(f) < +\infty$, $f(x)$ est fini presque partout.
 
@@ -124,13 +124,13 @@ Par contre, même lorsque X est compact, une fonction f \geq 0 définie dans X e
 
 Soit \mu une mesure sur un espace localement compact X. Etant donné un ensemble F, on dit que deux applications f, g de X dans F sont équivalentes par rapport à \mu (ou \mu-équivalentes, ou simplement équivalentes si aucune confusion n’en résulte) si l’on a f(x) = g(x) presque partout dans X. Comme la réunion de deux ensembles négligeables est négligeable, on définit bien ainsi une relation d’équivalence dans l’ensemble F^X de toutes les applications de X dans F; quand nous parlerons de classe d’équivalence d’une telle fonction f (sans préciser davantage), il sera sous-entendu qu’il s’agit de la classe des fonctions égales presque partout à f ; dans ce chapitre et les suivants, nous désignerons cette classe par la notation \tilde{f}.
 
-#### Proposition 8 {#int-iv-s2-prop-8 .statement}
+#### Proposition 8 {#int-iv-s2-prop-8 .statement tag=08QJ}
 
 Soit (F_n) une famille dénombrable (finie ou infinie) d’ensembles. Pour tout indice n, soient f_n, g_n deux applications équivalentes de X dans F_n; alors il existe un ensemble négligeable H tel que, pour tout x \notin H, on ait f_n(x) = g_n(x) pour tout n.
 
 En effet, l’ensemble H_n des x \in X tels que f_n(x) \neq g_n(x) est négligeable, donc il en est de même de leur réunion H (n° 2, prop. 4) et cet ensemble répond à la question.
 
-#### Corollaire {#int-iv-s2-n4-cor-1 .statement}
+#### Corollaire {#int-iv-s2-n4-cor-1 .statement tag=08QK}
 
 Si \varphi est une application de \prod_n F_n dans un ensemble G, les applications \varphi((f_n)) et \varphi((g_n)) de X dans G sont équivalentes.
 
@@ -140,13 +140,13 @@ En particulier, si F est un espace vectoriel sur \mathbf{R}, on définit \tilde{
 
 Soit F un espace topologique métrisable, et considérons sur F une structure uniforme compatible avec sa topologie, et définie par une famille dénombrable d’écarts $\rho_n$ (Top. gén., chap. IX, §§ 1 et 2); pour que deux applications $f, g$ de X dans F soient équivalentes, il faut et il suffit que les fonctions numériques $\rho_n(f, g)$ soient négligeables; cela équivaut en effet à dire qu’il existe dans X un ensemble négligeable H tel que, pour tout $x \notin H$, on ait $\rho_n(f(x), g(x)) = 0$ pour tout $n$, c’est-à-dire $f(x) = g(x)$. En particulier, si F est un espace localement convexe métrisable, $(q_n)$ une famille dénombrable de semi-normes définissant la topologie de F (Esp. vect. top., chap. II, 2e éd., § 4, n° 1), pour que deux applications $f, g$ de X dans F soient équivalentes, il faut et il suffit que les fonctions numériques $q_n(f(x) - g(x))$ soient toutes négligeables.
 
-#### Proposition 9 {#int-iv-s2-prop-9 .statement}
+#### Proposition 9 {#int-iv-s2-prop-9 .statement tag=08QL}
 
 *Soient f et g deux applications continues de X dans un espace topologique séparé F; pour que f et g soient équivalentes, il faut et il suffit que $f(x) = g(x)$ en tout point du support de $\mu$.*
 
 En effet, l’ensemble des $x \in X$ tels que $f(x) \neq g(x)$ est un ensemble ouvert (Top. gén., chap. I, 3e éd., § 8, n° 1); pour qu’il soit négligeable, il faut et il suffit qu’il ne rencontre pas le support de $\mu$ (n° 2, prop. 5).
 
-#### Proposition 10 {#int-iv-s2-prop-10 .statement}
+#### Proposition 10 {#int-iv-s2-prop-10 .statement tag=08QM}
 
 *Soit F un espace localement convexe séparé sur $\mathbf{R}$ tel qu’il existe dans le dual $F'$ de F une suite $(\mathbf{a}'_n)$ partout dense pour la topologie faible $\sigma(F', F)$ (Esp. vect. top., chap. II, 2e éd., § 6, n° 2). Pour que deux applications f, g de X dans F soient équivalentes, il faut et il suffit que, pour tout n, les fonctions numériques $\langle f(x), a'_n \rangle$ et $\langle g(x), a'_n \rangle$ soient équivalentes.
 

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 49
 statements: 59
 exercises: 22
-content_sha256: 430152bcc98fc2931ac47eba9dc6e194f4feee804d0e32a7b37bca5016da5f06
+content_sha256: 3d0f9e61fd9c89a614c63966a88ae723eccf2953b2f05cd12a2bbd0bd159251f
 ---
 
 ## § 2. COMPLEXES DE A-MODULES
@@ -66,7 +66,7 @@ content_sha256: 430152bcc98fc2931ac47eba9dc6e194f4feee804d0e32a7b37bca5016da5f06
 
 ### 1. Complexes de A-modules
 
-#### Définition 1 {#alg-x-s2-def-1 .statement}
+#### Définition 1 {#alg-x-s2-def-1 .statement tag=0DRD}
 
 *Un complexe différentiel de A-modules est un couple $(C,d)$ formé d’un $A$-module gradué $C$ et d’un endomorphisme $d:C\to C$ gradué de degré descendant $-1$ et tel que $d\circ d=0$.*
 
@@ -115,7 +115,7 @@ Soit $(C, d)$ un complexe. On pose $Z(C, d) = \mathrm{Ker}\,(d)$, $B(C, d) = \ma
 
 Puisque $d \circ d = 0$, on a $B(C) \subset Z(C)$; deux cycles sont dits homologues si leur différence est un bord; le module gradué quotient $H(C, d) = Z(C, d)/B(C, d)$ est appelé le module d’homologie de $(C, d)$; ses éléments sont les classes d’homologie; ses composantes homogènes sont notées $H_n(C, d) = H^{-n}(C, d)$.
 
-#### Exemple {#alg-x-s2-n1-exa-1 .statement}
+#### Exemple {#alg-x-s2-n1-exa-1 .statement tag=0DRE}
 
 Si $C$ est à différentielle nulle, on a $Z(C) = C$, $B(C) = 0$ et $H(C)$ s’identifie canoniquement à $C$.
 
@@ -134,7 +134,7 @@ qui s’écrit aussi, changeant $n$ en $-n$
 
 (V$^n$) $$ 0 \to H^n(C) \to C^n/B^n(C) \to Z^{n+1}(C) \to H^{n+1}(C) \to 0 . $$
 
-#### Définition 2 {#alg-x-s2-def-2 .statement}
+#### Définition 2 {#alg-x-s2-def-2 .statement tag=0DRF}
 
 Soient $(C, d)$ et $(C', d')$ deux complexes. Un morphisme $^1$ de $(C, d)$ dans $(C', d')$ est un A-homomorphisme gradué $u$ de degré 0 de $C$ dans $C'$ tel que
 $$
@@ -163,7 +163,7 @@ Z(u' \circ u) = Z(u') \circ Z(u) , \quad B(u' \circ u) = B(u') \circ B(u) , \qua
 $$
 Il est clair qu’un morphisme bijectif est un isomorphisme.
 
-#### Définition 3 {#alg-x-s2-def-3 .statement}
+#### Définition 3 {#alg-x-s2-def-3 .statement tag=0DRG}
 
 Soient $(C, d)$ et $(C', d')$ deux complexes. Un homologisme (ou quasi-isomorphisme) de $(C, d)$ dans $(C', d')$ est un morphisme $u$ de $(C, d)$ dans $(C', d')$ tel que $H(u)$ soit bijectif.
 
@@ -255,7 +255,7 @@ Lorsque I est fini, $\prod_{i \in I} (C_i, d_i)$ est égal à $\bigoplus_{i \in 
 
 Considérons une famille (resp. un système inductif filtrant) $(C_i)_{i \in I}$ de complexes. Soit C la somme directe (resp. la limite inductive) des $C_i$, et soient $\alpha_i : C_i \to C$ les homomorphismes canoniques. Alors les $H(\alpha_i) : H(C_i) \to H(C)$ définissent un homomorphisme gradué de degré 0, dit canonique, de $\bigoplus_{i \in I} H(C_i)$ (resp. $\varprojlim_{i \in I} H(C_i)$) dans $H(C)$. De même, les projections canoniques $\prod_{i \in I} C_i \to C_i$ définissent un homomorphisme gradué de degré 0, dit canonique, de $H(\prod_{i \in I} C_i)$ dans $\prod_{i \in I} (H(C_i))$.
 
-#### Proposition 1 {#alg-x-s2-prop-1 .statement}
+#### Proposition 1 {#alg-x-s2-prop-1 .statement tag=0DRH}
 
 Pour toute famille de complexes $(C_i)_{i \in I}$, les homomorphismes canoniques
 $$
@@ -285,7 +285,7 @@ d(\bar{u}^{-1}(dx)) = \bar{u}^{-1}(dd(x)) = 0 ,
 $$
 donc $\bar{u}^{-1}(dx) \in Z(C')$; on a aussi $dv(x) = v(dx) \in \operatorname{Im}(v \circ u) = 0$, donc $v(x) \in Z(C'')$; considérons alors l’application linéaire $\varphi : \Gamma \to H(C'') \times H(C')$ qui applique tout élément $x \in \Gamma$ sur la classe de $(v(x), \bar{u}^{-1}(dx))$.
 
-#### Lemme 1 {#alg-x-s2-lem-1 .statement}
+#### Lemme 1 {#alg-x-s2-lem-1 .statement tag=0DRI}
 
 L’image $\varphi(\Gamma)$ de $\Gamma$ dans $H(C'') \times H(C')$ est le graphe d’un A-homomorphisme gradué de degré $-1$ de $H(C'')$ dans $H(C')$.
 
@@ -342,7 +342,7 @@ $$
 
 L’homomorphisme $H_n(C'')\to H_{n-1}(C')$ associé à ce diagramme (loc. cit., prop. 2, (iii)) coïncide par construction avec $\partial_n(u,v)$. Cela entraîne en outre que la suite d’homomorphismes $(H_n(u),\ H_n(v),\ \partial_n(u,v),\ H_{n-1}(u),\ H_{n-1}(v))$ est exacte ; par conséquent :
 
-#### Théorème 1 {#alg-x-s2-thm-1 .statement}
+#### Théorème 1 {#alg-x-s2-thm-1 .statement tag=0DRJ}
 
 *La suite illimitée d’homomorphismes de* $A$-*modules*
 
@@ -366,17 +366,17 @@ H(C')&\xleftarrow{\partial(u,v)}&H(C'') .
 \end{array}
 $$
 
-#### Corollaire 1 {#alg-x-s2-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s2-thm-1-cor-1 .statement tag=0DRK}
 
 *Si deux des complexes* $C$, $C'$, $C''$ *sont d’homologie nulle, le troisième l’est aussi. Pour que* $u$ *(resp.* $v$*) soit un homomorphisme, il faut et il suffit que* $C''$ *(resp.* $C'$*) soit d’homologie nulle. Pour que* $\partial(u,v)$ *soit bijectif, il faut et il suffit que* $C$ *soit d’homologie nulle.*
 
-#### Corollaire 2 {#alg-x-s2-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s2-thm-1-cor-2 .statement tag=0DRL}
 
 Soit u un morphisme de complexes. Si Ker u et Coker u sont d’homologie nulle, alors u est un homologisme.
 
 En effet, soit u : E → E’ un morphisme de complexes. Si Ker u (resp. Coker u) est d’homologie nulle, alors le morphisme canonique E → Im u (resp. Im u → E’) est un homologisme d’après le corollaire 1.
 
-#### Proposition 2 {#alg-x-s2-prop-2 .statement}
+#### Proposition 2 {#alg-x-s2-prop-2 .statement tag=0DRM}
 
 Considérons un diagramme commutatif de complexes à lignes exactes
 
@@ -397,7 +397,7 @@ $$
 = \mathrm{H}(f') (\overline{u^{-1}(dx)}) = (\mathrm{H}(f') \circ \partial_{u, v}) (\alpha'') .
 $$
 
-#### Exemple {#alg-x-s2-n3-exa-1 .statement}
+#### Exemple {#alg-x-s2-n3-exa-1 .statement tag=0DRN}
 
 Soit C un complexe. Considérons la suite exacte canonique
 
@@ -456,7 +456,7 @@ $$
 
 montre par récurrence sur p que $H_n(X_p) = 0$ pour $p < n$, que $H_n(X_n) = \mathrm{Ker}\,(d_n : \Gamma_n \to \Gamma_{n-1})$ et que $H_n(X_p) = H_n(\Gamma)$ pour $p > n$. En particulier $H_n(X)$ s’identifie à $H_n(\Gamma)$.
 
-#### Exemple {#alg-x-s2-n3-exa-2 .statement}
+#### Exemple {#alg-x-s2-n3-exa-2 .statement tag=0DRO}
 
 Considérons le produit de sphères $S_2 \times S_2$ et l’espace projectif complexe $P_2(\mathbf{C})$.
 Soit $b \in S_2$, on définit une décomposition cellulaire $(Y_n)$ de $Y = S_2 \times S_2$ en posant
@@ -477,7 +477,7 @@ Comme les modules d’homologie en degré 2 des deux espaces considérés sont l
 
 ### 4. Homotopies
 
-#### Définition 4 {#alg-x-s2-def-4 .statement}
+#### Définition 4 {#alg-x-s2-def-4 .statement tag=0DRP}
 
 Soient $(C, d)$ et $(C', d')$ deux complexes, $f$ et $g$ deux morphismes de C dans $C'$. On appelle homotopie reliant $f$ à $g$ tout A-homomorphisme gradué s de degré 1 de C dans $C'$ tel que $g - f = d' \circ s + s \circ d$.
 On dit que $f$ et $g$ sont homotopes, s’il existe une homotopie reliant $f$ à $g$.
@@ -486,7 +486,7 @@ Si $h$ est un troisième morphisme de C dans $C'$ et si $s$ (resp. $t$) est une 
 \* Etant donnés deux espaces topologiques $X$ et $Y$, et une application continue $f : X \to Y$, on définit une application linéaire $f_*$ du complexe singulier (*cf. n° 3*) $C(X, A)$ dans $C(Y, A)$ en posant $f_*(e_s) = e_{f \circ s}$ pour $s \in \Sigma_n(X)$. Cette application est un morphisme de complexes.
 Deux applications continues $f$ et $g$ de $X$ dans $Y$ sont dites topologiquement *homotopes* s’il existe une application continue $h$ de $[0, 1] \times X$ dans $Y$ telle que $h(0, x) = f(x)$ et $h(1, x) = g(x)$ pour tout $x \in X$. On montre que, si $f$ et $g$ sont topologiquement homotopes, les morphismes $f_*$ et $g_*$ sont homotopes au sens de la définition 4 ci-dessus. C’est ce fait qui est à l’origine de la terminologie utilisée en algèbre. \*
 
-#### Proposition 3 {#alg-x-s2-prop-3 .statement}
+#### Proposition 3 {#alg-x-s2-prop-3 .statement tag=0DRQ}
 
 *Si $f$ et $g$ sont deux morphismes homotopes de $C$ dans $C'$, alors $\mathrm{H}(f) = \mathrm{H}(g)$.* Soit $s$ une homotopie reliant $f$ à $g$. On a
 $$
@@ -494,26 +494,26 @@ $$
 $$
 donc $\mathrm{H}(g - f) = 0$ et $\mathrm{H}(g) = \mathrm{H}(f)$.
 
-#### Corollaire {#alg-x-s2-n4-cor-1 .statement}
+#### Corollaire {#alg-x-s2-n4-cor-1 .statement tag=0DRR}
 
 *Un morphisme homotope à un homologisme est un homologisme.*
 
-#### Proposition 4 {#alg-x-s2-prop-4 .statement}
+#### Proposition 4 {#alg-x-s2-prop-4 .statement tag=0DRS}
 
 *Soient $C, C', D, D'$ quatre complexes, $f : C \to C'$, $g : C \to C'$, $u : D \to C$, $v : C' \to D'$ quatre morphismes. Si $s$ est une homotopie reliant $f$ à $g$, alors $v \circ s \circ u$ est une homotopie reliant $v \circ f \circ u$ à $v \circ g \circ u$. Si $f$ et $g$ sont homotopes, $v \circ f \circ u$ et $v \circ g \circ u$ le sont aussi.*
 C’est clair.
 
-#### Corollaire {#alg-x-s2-n4-cor-2 .statement}
+#### Corollaire {#alg-x-s2-n4-cor-2 .statement tag=0DRT}
 
 *Soient $C, C', C''$ trois complexes, $f$ et $g$ deux morphismes de $C$ dans $C'$, $f_1$ et $g_1$ deux morphismes de $C'$ dans $C''$. Si $s$ et $s_1$ sont des homotopies reliant $f$ à $g$ et $f_1$ à $g_1$ respectivement, alors $s_1 \circ f + g_1 \circ s$ est une homotopie reliant $f_1 \circ f$ à $g_1 \circ g$. Si $f$ et $f_1$ sont homotopes à $g$ et $g_1$ respectivement, alors $f_1 \circ f$ est homotope à $g_1 \circ g$.
 En effet, $s_1 \circ f$ relie $f_1 \circ f$ à $g_1 \circ f$ et $g_1 \circ s$ relie $g_1 \circ f$ à $g_1 \circ g$.
 
-#### Définition 5 {#alg-x-s2-def-5 .statement}
+#### Définition 5 {#alg-x-s2-def-5 .statement tag=0DRU}
 
 *Un morphisme de complexes $f : C \to C'$ est appelé un homotopisme s’il existe un morphisme $f' : C' \to C$ tel que $f' \circ f$ et $f \circ f'$ soient homotopes à $1_C$ et $1_{C'}$ respectivement.*
 Il est clair que $f'$ est alors aussi un homotopisme ; on dit aussi que $f'$ est *réciproque de $f$ à homotopie près*. Si $f'$ et $f'_1$ sont tous deux réciproques de $f$ à homotopie près, alors $f'$ et $f'_1$ sont homotopes (en effet d’après le corollaire précédent, $f'_1 = f'_1 \circ 1_{C'}$ est homotope à $f'_1 \circ f \circ f'$, donc à $1_C \circ f' = f'$).
 
-#### Proposition 5 {#alg-x-s2-prop-5 .statement}
+#### Proposition 5 {#alg-x-s2-prop-5 .statement tag=0DRV}
 
 *Un homotopisme est un homologisme ; un morphisme composé d’homotopismes est un homotopisme. Un morphisme homotope à un homotopisme est un homotopisme.*
 Soient $f : C \to C'$ et $f_1 : C' \to C''$ des homotopismes de complexes, $f' : C' \to C$ et $f'_1 : C'' \to C'$ des morphismes réciproques à homotopie près. On a
@@ -523,7 +523,7 @@ $$
 
 et de même $\mathrm{H}(f) \circ \mathrm{H}(f') = 1_{\mathrm{H}(C')}$, donc $\mathrm{H}(f)$ est bijectif et $f$ est un homologisme. D’autre part, $(f' \circ f'_1) \circ (f_1 \circ f)$ est homotope à $f' \circ 1_C' \circ f$ (prop. 4), donc à $1_C$; de même, $(f_1 \circ f) \circ (f' \circ f'_1)$ est homotope à $1_{C''}$ et $f_1 \circ f$ est un homotopisme. Enfin, si $g : C \to C'$ est un morphisme homotope à $f$, $f' \circ g$ est homotope à $f' \circ f$, donc à $1_C$; de même, $g \circ f'$ est homotope à $f \circ f'$, donc à $1_{C'}$ et $g$ est un homotopisme.
 
-#### Corollaire {#alg-x-s2-n4-cor-3 .statement}
+#### Corollaire {#alg-x-s2-n4-cor-3 .statement tag=0DRW}
 
 Soient $C, C', D, D'$ quatre complexes, $f : C \to C'$ un morphisme, $u : D \to C$ et $v : C' \to D'$ des homotopismes. Pour que $v \circ f \circ u$ soit un homotopisme (resp. un homologisme), il faut et il suffit que $f$ en soit un.
 
@@ -531,13 +531,13 @@ Si $f$ est un homotopisme (resp. un homologisme), alors $v \circ f \circ u$ est 
 
 On dit que le complexe $C$ est homotope à zéro si $1_C$ est homotope à l’application nulle, c’est-à-dire s’il existe un $A$-endomorphisme gradué $s$ de degré 1 de $C$ tel que $1_C = s \circ d + d \circ s$. Cela revient aussi à dire que l’unique morphisme $0 \to C$ (resp. $C \to 0$) est un homotopisme. Un complexe homotope à zéro est d’homologie nulle (prop. 5).
 
-#### Exemple {#alg-x-s2-n4-exa-1 .statement}
+#### Exemple {#alg-x-s2-n4-exa-1 .statement tag=0DRX}
 
 Soient $u : M \to N$ et $v : N \to P$ des homomorphismes de $A$-modules tels que $v \circ u = 0$ ; soit $C$ le complexe tel que $C_2 = M, C_1 = N, C_0 = P, C_i = 0$ pour $i \neq 0, 1, 2$, $d_2 = u, d_1 = v, d_i = 0$ pour $i \neq 1, 2$. Alors $C$ est d’homologie nulle si et seulement si la suite $0 \to M \xrightarrow{u} N \xrightarrow{v} P \to 0$ est exacte. Il est homotope à zéro si et seulement si cette suite est scindée. En effet, dire que $C$ est homotope à zéro signifie qu’il existe des $A$-homomorphismes $s : P \to N$ et $t : N \to M$ tels que $v \circ s = 1_P, s \circ v + u \circ t = 1_N, t \circ u = 1_M$ ; cela implique que la suite est scindée ; inversement si $s$ est une section $A$-linéaire de $v$, on définit $t$ par $u \circ t = 1_N - s \circ v$, ce qui est possible puisque $v \circ (1_N - s \circ v) = v - v \circ s \circ v = 0$.
 
 ### 5. Complexes scindés
 
-#### Proposition 6 {#alg-x-s2-prop-6 .statement}
+#### Proposition 6 {#alg-x-s2-prop-6 .statement tag=0DRY}
 
 Soit $(C, d)$ un complexe. Les conditions suivantes sont équivalentes :
 (i) il existe un homotopisme de $(C, d)$ sur $(\mathrm{H}(C), 0)$ ;
@@ -569,33 +569,33 @@ $$
 
 $(iv) \Rightarrow (i)$ : il suffit de remarquer que (i) est satisfait lorsque $C$ est de longueur zéro, ou d’homologie nulle et de longueur 1.
 
-#### Définition 6 {#alg-x-s2-def-6 .statement}
+#### Définition 6 {#alg-x-s2-def-6 .statement tag=0DRZ}
 
 *Un complexe $C$ est dit scindé s’il satisfait aux conditions équivalentes de la prop. 6.*
 
 Un endomorphisme $s$ de $C$ satisfaisant à la condition (ii) de la prop. 6 est appelé une *scission* de $C$.
 
-#### Exemple 1 {#alg-x-s2-n5-exa-1 .statement}
+#### Exemple 1 {#alg-x-s2-n5-exa-1 .statement tag=0DS0}
 
 Un complexe à différentielle nulle est scindé.
 
-#### Exemple 2 {#alg-x-s2-n5-exa-2 .statement}
+#### Exemple 2 {#alg-x-s2-n5-exa-2 .statement tag=0DS1}
 
 Les complexes homotopes à zéro sont les complexes scindés d’homologie nulle, *i.e.* les complexes $C$ tels que $H(C)=0$ et que $Z(C)$ soit facteur direct dans $C$.
 
-#### Exemple 3 {#alg-x-s2-n5-exa-3 .statement}
+#### Exemple 3 {#alg-x-s2-n5-exa-3 .statement tag=0DS2}
 
 Soient $f:M\to N$ un homomorphisme de A-modules et $C$ le complexe tel que $C_1=M$, $C_0=N$, $C_i=0$ pour $i\ne0,1$, $d_1=f$, $d_i=0$ pour $i\ne1$. Alors $C$ est scindé si et seulement si $\operatorname{Ker}f$ est facteur direct dans $M$ et $\operatorname{Im}f$ facteur direct dans $N$.
 
-#### Exemple 4 {#alg-x-s2-n5-exa-4 .statement}
+#### Exemple 4 {#alg-x-s2-n5-exa-4 .statement tag=0DS3}
 
 *Le complexe $C$ est scindé dès que $B(C)$ et $H(C)$ sont projectifs (resp. dès que $B_n(C)$ et $H_n(C)$ sont injectifs pour chaque $n$).* En effet, d’après les suites exactes $(I_n)$ à $(IV_n)$ du n° 1, $Z(C)$ est alors facteur direct dans $C$ et $B(C)$ facteur direct de $Z(C)$ (resp. $B(C)$ est facteur direct dans $C$ et $Z(C)/B(C)$ facteur direct dans $C/B(C)$).
 
-#### Exemple 5 {#alg-x-s2-n5-exa-5 .statement}
+#### Exemple 5 {#alg-x-s2-n5-exa-5 .statement tag=0DS4}
 
 En particulier, si A est principal, un complexe libre $C$ est scindé si et seulement si $H(C)$ est libre (c’est-à-dire $H_n(C)$ libre pour tout $n\in\mathbf{Z}$).
 
-#### Remarque {#alg-x-s2-n5-rem-1 .statement}
+#### Remarque {#alg-x-s2-n5-rem-1 .statement tag=0DS5}
 
 a) Supposons que la suite exacte canonique de A-modules gradués
 
@@ -632,7 +632,7 @@ $$
 
 (Ici, et dans la suite, on note $x, y, \ldots$ des éléments arbitraires de $C$, $x', y', \ldots$ des éléments arbitraires de $C'$.)
 
-#### Lemme 2 {#alg-x-s2-lem-2 .statement}
+#### Lemme 2 {#alg-x-s2-lem-2 .statement tag=0DS6}
 
 (*Cyl* $(u)$, $\overline{D}$) *et* (*Con* $(u)$, $D$) *sont des complexes de A-modules*.
 
@@ -645,11 +645,11 @@ $$
 $$
 puisque $d' \circ d' = 0$, $d \circ d = 0$ et $d \circ u = u \circ d'$. De même $D \circ D = 0$.
 
-#### Définition 7 {#alg-x-s2-def-7 .statement}
+#### Définition 7 {#alg-x-s2-def-7 .statement tag=0DS7}
 
 *Les complexes* $\mathrm{Cyl}\,(u)$ *et* $\mathrm{Con}\,(u)$ *sont appelés respectivement le cylindre* *et le cône du morphisme* $u$.
 
-#### Exemple {#alg-x-s2-n6-exa-1 .statement}
+#### Exemple {#alg-x-s2-n6-exa-1 .statement tag=0DS8}
 
 Soit $u : M \to N$ un homomorphisme de A-modules ; alors les seules composantes homogènes non nulles de $\mathrm{Cyl}\,(u)$ et $\mathrm{Con}\,(u)$ sont
 $$
@@ -689,7 +689,7 @@ $$
 \end{align*}
 $$
 
-#### Proposition 7 {#alg-x-s2-prop-7 .statement}
+#### Proposition 7 {#alg-x-s2-prop-7 .statement tag=0DS9}
 
 *a)* *Les applications* $\tilde{u},\, \alpha,\, \beta,\, \pi,\, \tilde{\pi},\, \delta$ *sont des morphismes de complexes* : on a $u = \beta \circ \tilde{u},\, \pi = \tilde{\pi} \circ \alpha,\, \beta \circ \alpha = 1_C$.
 
@@ -732,11 +732,11 @@ $$
 \end{array}
 $$
 
-#### Corollaire {#alg-x-s2-n6-cor-1 .statement}
+#### Corollaire {#alg-x-s2-n6-cor-1 .statement tag=0DSA}
 
 *Pour tout morphisme de complexes* $u : C' \to C$, *il existe un morphisme injectif de complexes* $\tilde{u} : C' \to C_1$ *et un homotopisme* $\beta : C_1 \to C$ *tel que* $u = \beta \circ \tilde{u}$.
 
-#### Lemme 3 {#alg-x-s2-lem-3 .statement}
+#### Lemme 3 {#alg-x-s2-lem-3 .statement tag=0DSB}
 
 *a)* *L’homomorphisme de liaison*
 $$
@@ -762,18 +762,18 @@ $$
 $$
 $\partial(\tilde{u}, \tilde{\pi})$ applique par définition la classe de $(y', x)$ dans $H_n(\mathrm{Con}\,(u))$ sur la classe de $\delta(y', x)$ dans $H_{n-1}(C')$, d’où *b)*.
 
-#### Proposition 8 {#alg-x-s2-prop-8 .statement}
+#### Proposition 8 {#alg-x-s2-prop-8 .statement tag=0DSC}
 
 *On a la suite exacte illimitée*
 (8) $$ \cdots \longrightarrow H_n(C') \xrightarrow{H_n(u)} H_n(C) \xrightarrow{H_n(\pi)} H_n(\mathrm{Con}\,(u)) \xrightarrow{H_n(\delta)} H_{n-1}(C') \longrightarrow \cdots . $$
 
 En effet, compte tenu du *lemme 3, a)*, cela résulte du théorème 1 de X, p. 30, appliqué à la suite exacte (7).
 
-#### Corollaire {#alg-x-s2-n6-cor-2 .statement}
+#### Corollaire {#alg-x-s2-n6-cor-2 .statement tag=0DSD}
 
 *Pour que u soit un homologisme, il faut et il suffit que Con (u) soit d’homologie nulle.*
 
-#### Remarque {#alg-x-s2-n6-rem-1 .statement}
+#### Remarque {#alg-x-s2-n6-rem-1 .statement tag=0DSE}
 
 Considérons le diagramme
 
@@ -814,7 +814,7 @@ $$
 \end{array}
 $$
 
-#### Proposition 9 {#alg-x-s2-prop-9 .statement}
+#### Proposition 9 {#alg-x-s2-prop-9 .statement tag=0DSF}
 
 *Les applications* $\beta$ *et* $\varphi$ *sont des homologismes de complexes*.
 Pour $\beta$, cela résulte de la prop. 7, c). On a
@@ -830,11 +830,11 @@ d_\mathbf{K}(y', x') = (-d'y', d'x' - y') ;
 $$
 si $d_\mathbf{K}(y', x') = 0$, on a $y' = d' x'$, donc $(y', x') = d_\mathbf{K}(0, -x')$; il s’ensuit que $\mathrm{H}(\mathbf{K}) = 0$ et $\varphi$ est un homologisme d’après X, p. 30, cor. 1.
 
-#### Remarque {#alg-x-s2-n7-rem-1 .statement}
+#### Remarque {#alg-x-s2-n7-rem-1 .statement tag=0DSG}
 
 L’homologisme $\beta$ est un homotopisme, mais $\varphi$ n’est pas en général un homotopisme (*cf.* X, p. 173, exercice 8).
 
-#### Corollaire {#alg-x-s2-n7-cor-1 .statement}
+#### Corollaire {#alg-x-s2-n7-cor-1 .statement tag=0DSH}
 
 *Le diagramme de A-modules gradués*
 
@@ -876,26 +876,26 @@ On dit que $\mathscr C$ est stable s’il satisfait aux conditions suivantes qui
 
 On note $K(\mathscr C)$ le groupe de Grothendieck de $\mathscr C$ et $[M]_{\mathscr C}$ ou $[M]$ l’élément de $K(\mathscr C)$ défini par le A-module $M$ (VIII, § 6, n<sup>o</sup> 2). Soient $G$ un groupe commutatif et $\varphi$ un homomorphisme de $K(\mathscr C)$ dans $G$.
 
-#### Exemple 1 {#alg-x-s2-n8-exa-1 .statement}
+#### Exemple 1 {#alg-x-s2-n8-exa-1 .statement tag=0DSI}
 
 Si A est un corps, on peut prendre pour $\mathscr C$ l’ensemble des classes d’espaces vectoriels de dimension finie et pour $\varphi$ l’isomorphisme de $K(\mathscr C)$ sur $\mathbf Z$ défini par $\varphi([M])=\dim(M)$.
 
-#### Exemple 2 {#alg-x-s2-n8-exa-2 .statement}
+#### Exemple 2 {#alg-x-s2-n8-exa-2 .statement tag=0DSJ}
 
 On peut prendre pour $\mathscr{C}$ l’ensemble des classes de modules de longueur finie et pour $\varphi : K(\mathscr{C}) \to \mathbf{Z}$ l’homomorphisme défini par $\varphi([M]) = \operatorname{long}_A(M)$.
 
 On dit qu’un A-module gradué M est de type $\mathscr{C}$ si $M_n$ est de type $\mathscr{C}$ pour tout $n$ (pour cela, il faut si M est borné, et il suffit si $\mathscr{C}$ est stable, que le module M soit de type $\mathscr{C}$).
 
-#### Définition 8 {#alg-x-s2-def-8 .statement}
+#### Définition 8 {#alg-x-s2-def-8 .statement tag=0DSK}
 
 Soient M un A-module gradué borné de type $\mathscr{C}$ et $(M_n)$ sa graduation. On appelle $\varphi$-caractéristique de M et on note $\chi_\varphi(M)$ ou simplement $\chi(M)$ l’élément $\sum (-1)^n \varphi([M_n])$ de G.
 Cette définition s’applique en particulier lorsque M est le module gradué sous-jacent à un complexe de A-modules.
 
-#### Exemple 3 {#alg-x-s2-n8-exa-3 .statement}
+#### Exemple 3 {#alg-x-s2-n8-exa-3 .statement tag=0DSL}
 
 Si M est borné de type $\mathscr{C}$, il en est de même de $M(p)$ pour tout $p \in \mathbf{Z}$, et on a $\chi(M(p)) = (-1)^p \chi(M)$.
 
-#### Exemple 4 {#alg-x-s2-n8-exa-4 .statement}
+#### Exemple 4 {#alg-x-s2-n8-exa-4 .statement tag=0DSM}
 
 Soit $0 \to M' \to M \to M'' \to 0$ une suite exacte de A-modules gradués et d’homomorphismes gradués de degré 0. Si M, M’ et M'' sont bornés de type $\mathscr{C}$, on a
 $$
@@ -903,32 +903,32 @@ $$
 $$
 Si M et M'' sont bornés de type $\mathscr{C}$, il en est de même de M’ ; si $\mathscr{C}$ est stable et si deux des trois modules sont bornés de type $\mathscr{C}$, il en est de même du troisième.
 
-#### Exemple 5 {#alg-x-s2-n8-exa-5 .statement}
+#### Exemple 5 {#alg-x-s2-n8-exa-5 .statement tag=0DSN}
 
 Soit $u : C' \to C$ un morphisme de complexes bornés de type $\mathscr{C}$. Alors Con ($u$) est borné de type $\mathscr{C}$, et on a :
 $$
 \chi(\operatorname{Con}(u)) = \chi(C) - \chi(C').
 $$
 
-#### Exemple 6 {#alg-x-s2-n8-exa-6 .statement}
+#### Exemple 6 {#alg-x-s2-n8-exa-6 .statement tag=0DSO}
 
 On peut prendre pour G le groupe $K(\mathscr{C})$ lui-même, et pour $\varphi$ l’identité ; on note dans ce cas $\chi_{\mathscr{C}}(M)$ l’élément $\chi_\varphi(M) = \sum (-1)^n[M_n]$ de $K(\mathscr{C})$.
 
-#### Remarque {#alg-x-s2-n8-rem-1 .statement}
+#### Remarque {#alg-x-s2-n8-rem-1 .statement tag=0DSP}
 
 On appelle polynôme de Poincaré de M relativement à $\varphi$ l’élément $P_M(t) = \sum \varphi([M_n]) t^n \in G \otimes \mathbf{Z}[t, t^{-1}]$. On a $P_M(1) = \varphi([M])$ et $P_M(-1) = \chi(M)$.
 
-#### Lemme 4 {#alg-x-s2-lem-4 .statement}
+#### Lemme 4 {#alg-x-s2-lem-4 .statement tag=0DSQ}
 
 Soit C un complexe borné de type $\mathscr{C}$. Si $H(C) = 0$, on a $\chi(C) = 0$.
 Cela résulte de VIII, § 6, no 1, cor. de la prop. 1.
 
-#### Proposition 10 {#alg-x-s2-prop-10 .statement}
+#### Proposition 10 {#alg-x-s2-prop-10 .statement tag=0DSR}
 
 Soient C et C’ deux complexes bornés de type $\mathscr{C}$. S’il existe un homologisme $u : C' \to C$, on a $\chi(C) = \chi(C')$.
 En effet, Con ($u$) est borné de type $\mathscr{C}$ et on a $\chi(\operatorname{Con}(u)) = \chi(C) - \chi(C')$; d’autre part, $H(\operatorname{Con}(u)) = 0$ d’après X, p. 38, cor., donc $\chi(\operatorname{Con}(u)) = 0$ (lemme 4).
 
-#### Proposition 11 {#alg-x-s2-prop-11 .statement}
+#### Proposition 11 {#alg-x-s2-prop-11 .statement tag=0DSS}
 
 Soit C un complexe borné de type $\mathscr{C}$.
 a) Si $\mathscr{C}$ est stable, $H(C)$ est de type $\mathscr{C}$.
@@ -951,11 +951,11 @@ $$
 \chi(C) = \chi(Z(C)) + \chi(B(C) (-1)) = \chi(Z(C)) - \chi(B(C)) = \chi(H(C)) .
 $$
 
-#### Corollaire {#alg-x-s2-n8-cor-1 .statement}
+#### Corollaire {#alg-x-s2-n8-cor-1 .statement tag=0DST}
 
 *Si $\mathscr{C}$ est stable et $C$ borné de type $\mathscr{C}$, le module gradué $H(C)$ est borné de type $\mathscr{C}$ et on a $\chi(H(C)) = \chi(C)$.*
 
-#### Proposition 12 {#alg-x-s2-prop-12 .statement}
+#### Proposition 12 {#alg-x-s2-prop-12 .statement tag=0DSU}
 
 *Soit $0 \to C' \to C \to C'' \to 0$ une suite exacte de complexes.*
 
@@ -968,12 +968,12 @@ b) *Si $\mathscr{C}$ est stable, et si deux des modules gradués $H(C), H(C')$ e
 
 La partie a) résulte du lemme 4 appliqué au complexe d’homologie nulle défini par la suite exacte d’homologie associée à la suite exacte donnée. La partie b) résulte, en considérant cette suite exacte d’homologie, du lemme suivant :
 
-#### Lemme 5 {#alg-x-s2-lem-5 .statement}
+#### Lemme 5 {#alg-x-s2-lem-5 .statement tag=0DSV}
 
 *Soit $M \to N \to P \to Q \to R$ une suite exacte de $A$-modules. Si $\mathscr{C}$ est stable, et si $M, N, Q$ et $R$ sont de type $\mathscr{C}$, le module $P$ est de type $\mathscr{C}$.
 Posons $N' = \operatorname{Coker}(M \to N)$ et $Q' = \operatorname{Ker}(Q \to R)$. Les modules $N'$ et $Q'$ sont de type $\mathscr{C}$, et on a une suite exacte $0 \to N' \to P \to Q' \to 0$.*
 
-#### Corollaire {#alg-x-s2-n8-cor-2 .statement}
+#### Corollaire {#alg-x-s2-n8-cor-2 .statement tag=0DSW}
 
 *Supposons $\mathscr{C}$ stable, et soit $u : C' \to C$ un morphisme de complexes tels que $H(C)$ et $H(C')$ soient bornés de type $\mathscr{C}$. Alors $H(\operatorname{Con}(u))$ est borné de type $\mathscr{C}$, et on a*
 $$
@@ -985,7 +985,7 @@ $$
 0 \to C \to \operatorname{Con}(u) \to C'(-1) \to 0 .
 $$
 
-#### Remarque {#alg-x-s2-n8-rem-2 .statement}
+#### Remarque {#alg-x-s2-n8-rem-2 .statement tag=0DSX}
 
 *Soient $E$ un complexe, $h : E \to C$ et $h' : E \to C'$ des homotopismes avec $C$ et $C'$ bornés de type $\mathscr{C}$. On a alors $\chi(C) = \chi(C')$. En effet, si $h_1$ est un inverse de $h$ à homotopie près, $h' \circ h_1$ est un homotopisme, donc un homologisme de $C$ dans
 
@@ -1012,7 +1012,7 @@ De même, si A et B sont deux anneaux, un complexe de (A, B)-bimodules est un (A
 
 Dans ce numéro, on suppose que A est une k-algèbre commutative sur un anneau commutatif k. On note $\Omega^1_{A/k}$ le A-module des k-différentielles de A (III, p. 134), $d^0 : A \to \Omega^1_{A/k}$ la k-dérivation $d_{A/k}$, et $\Omega_{A/k}$ la k-algèbre graduée $\Lambda_A(\Omega^1_{A/k})$.
 
-#### Proposition 13 {#alg-x-s2-prop-13 .statement}
+#### Proposition 13 {#alg-x-s2-prop-13 .statement tag=0DSY}
 
 Il existe une unique k-antidérivation $d : \Omega_{A/k} \to \Omega_{A/k}$ de degré 1, de carré nul, qui prolonge la dérivation $d^0 : A \to \Omega^1_{A/k}$.
 
@@ -1042,7 +1042,7 @@ En faisant $\xi = b \otimes 1$ dans (12), avec $b \in A$, on obtient $d^1(b d^0(
 
 On dit parfois que les éléments $\omega \in \Omega_{A/k}^p$ sont les *formes différentielles extérieures de degré* $p$ de $A$ sur $k$, et que l’antidérivation $d$ est la *différentielle extérieure* de $\Omega_{A/k}$; le complexe $(\Omega_{A/k}, d)$ est appelé *complexe de de Rham de A sur k*, et son homologie est la *cohomologie de de Rham de A sur k*.
 
-#### Exemple 1 {#alg-x-s2-n10-exa-1 .statement}
+#### Exemple 1 {#alg-x-s2-n10-exa-1 .statement tag=0DSZ}
 
 Prenons pour $A$ l’anneau $k[X_1, ..., X_n]$. Alors $\Omega_{A/k}^1$ est un $A$-module libre de base $dX_1, ..., dX_n$ (III, p. 134, exemple). Par conséquent, si pour toute partie $I = \{ i_1, ..., i_p \}$ de $\{ 1, n \}$ on pose $dX_I = dX_{i_1} \wedge ... \wedge dX_{i_p}$ (avec $i_1 < ... < i_p$), le $A$-module $\Omega_{A/k}^p$ admet comme base les éléments $dX_I$, où $I$ parcourt l’ensemble des parties de $\{ 1, n \}$ de cardinal $p$. On a
 $$
@@ -1063,7 +1063,7 @@ $$
 
 Nous verrons au § 9 que le complexe de de Rham de $A$ sur $k$ est acyclique en degrés $> 0$ si $k$ est une $\mathbf{Q}$-algèbre (X, p. 159, *remarque 4*).
 
-#### Exemple 2 {#alg-x-s2-n10-exa-2 .statement}
+#### Exemple 2 {#alg-x-s2-n10-exa-2 .statement tag=0DT0}
 
 Supposons que $k = \mathbf{C}$ et $A = \mathbf{C} [X_1, ..., X_n]/(P_1, ..., P_r)$, où les $P_i$ sont des polynômes en $X_1, ..., X_n$, tels que l’ensemble des points de $\mathbf{C}^n$ où tous les $P_i$ s’annulent soit une sous-variété analytique $V$ de $\mathbf{C}^n$. On peut montrer que la cohomologie de de Rham de $A$ sur $\mathbf{C}$ est isomorphe à la *cohomologie singulière* $H(V, \mathbf{C})$.
 
@@ -1075,7 +1075,7 @@ $$
 $$
 (on dit parfois que $\nabla^0$ est une *connexion* sur le $A$-module $M$).
 
-#### Proposition 14 {#alg-x-s2-prop-14 .statement}
+#### Proposition 14 {#alg-x-s2-prop-14 .statement tag=0DT1}
 
 (i) *Il existe une unique application $k$-linéaire $\nabla$ du $\Omega_{A/k}$-module à droite $M \otimes_A \Omega_{A/k}$ dans lui-même, graduée de degré 1, qui prolonge $\nabla^0$ en degré 0 et satisfait à l’identité* :
 

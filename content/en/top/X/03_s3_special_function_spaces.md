@@ -32,7 +32,7 @@ subsections:
       pdf_page: 311
 statements: 31
 exercises: 29
-content_sha256: d6e8075a5e3c5aa0fd07e2671f9b5a495f6d87b134b7d6c951220622ae2834bb
+content_sha256: a35a28b9c26f164aeaf3bf1e204cb5b3731409c5cea341ad50336a5b5719bb98
 ---
 
 ## 3. SPECIAL FUNCTION SPACES
@@ -47,7 +47,7 @@ $$
 
 it follows immediately that $g_{i, A}$ is a *pseudometric* on $\mathscr{F}(X; Y)$ and that the family of pseudometrics $(g_{i, A})_{i \in I, A \in \mathscr{S}}$ defines the uniformity of $\mathscr{S}$-*convergence* on $\mathscr{F}(X; Y)$. In particular:
 
-#### Proposition 1 {#top-x-s3-prop-1 .statement}
+#### Proposition 1 {#top-x-s3-prop-1 .statement tag=0CD8}
 
 *If $Y$ is a metrizable uniform space, the uniformity of uniform convergence on $\mathscr{F}(X; Y)$ is metrizable.*
 
@@ -59,7 +59,7 @@ $$
 
 in general this pseudometric is not finite, but it is equivalent to a finite one (Chapter IX, § 1, no. 2), and since the uniformity of uniform convergence is Hausdorff (§ 1, no. 2, Proposition 1), it is metrizable.
 
-#### Corollary {#top-x-s3-n1-cor-1 .statement}
+#### Corollary {#top-x-s3-n1-cor-1 .statement tag=0CD9}
 
 Let $X$ be a topological space and let $Y$ be a metrizable uniform space. Suppose that there is a sequence $(K_n)$ of compact subsets of $X$ such that every compact subset of $X$ is contained in some $K_n$. Then the uniformity of compact convergence on $\mathscr{F}(X; Y)$ is metrizable.
 
@@ -75,7 +75,7 @@ $$
 
 which are *finite* by hypothesis. When $\mathscr{S} = \{X\}$, we write $\mathscr{B}(X; Y)$ in place of $\mathscr{B}_{\mathscr{S}}(X; Y)$. A mapping $u : X \to Y$ is said to be *bounded* if it belongs to $\mathscr{B}(X; Y)$, i.e. if $u(X)$ is a bounded subset of $Y$.
 
-#### Proposition 2 {#top-x-s3-prop-2 .statement}
+#### Proposition 2 {#top-x-s3-prop-2 .statement tag=0CDA}
 
 Let $X$ be a set and $Y$ a metric space. The set $\mathscr{B}(X; Y)$ of bounded mappings is both open and closed in the space $\mathscr{F}_u(X; Y)$.
 
@@ -87,13 +87,13 @@ $$
 
 hence $\mathscr{B}(X; Y)$ is open. On the other hand, if $u$ lies in the closure of $\mathscr{B}(X; Y)$ in $\mathscr{F}_u(X; Y)$, there is a mapping $u_0 \in \mathscr{B}(X; Y)$ such that $d(u(x), u_0(x)) \leq 1$ for all $x \in X$; hence $u$ is bounded.
 
-#### Corollary 1 {#top-x-s3-prop-2-cor-1 .statement}
+#### Corollary 1 {#top-x-s3-prop-2-cor-1 .statement tag=0CDB}
 
 Let $X$ be a set and $Y$ a metric space. Then $\mathscr{B}_{\mathscr{S}}(X; Y)$ is closed in $\mathscr{F}_{\mathscr{S}}(X; Y)$. In particular, if $Y$ is complete then $\mathscr{B}_{\mathscr{S}}(X; Y)$ is complete with respect to the uniformity of $\mathscr{S}$-convergence.
 
 For $\mathscr{B}_\mathfrak{S}(X; Y)$ is the inverse image of the subset $\prod_{A \in \mathfrak{S}} \mathscr{B}(A; Y)$ of the product $\prod_{A \in \mathfrak{S}} \mathscr{F}_u(X; Y)$ under the canonical mapping of $\mathscr{F}_\mathfrak{S}(X; Y)$ into $\prod_{A \in \mathfrak{S}} \mathscr{F}_u(A; Y)$; the first assertion therefore follows from § 1, no. 2, Remark 3, and the second follows from the first, if we take account of Theorem 1 of § 1, no. 5.
 
-#### Corollary 2 {#top-x-s3-prop-2-cor-2 .statement}
+#### Corollary 2 {#top-x-s3-prop-2-cor-2 .statement tag=0CDC}
 
 *Let X be a topological space and Y a metric space. Then the space of all bounded continuous mappings of X into Y is both open and closed in $C_u(X; Y)$; it is complete if Y is complete.*
 
@@ -109,13 +109,13 @@ $$
 
 Moreover, it is immediately verified that the uniformity on $\mathscr{B}(X; Y)$ defined by this norm is the uniformity of uniform convergence. Unless the contrary is expressly stated, whenever $\mathscr{B}(X; Y)$ is considered as a normed space, it is the norm defined above which is in question.
 
-#### Proposition 3 {#top-x-s3-prop-3 .statement}
+#### Proposition 3 {#top-x-s3-prop-3 .statement tag=0CDD}
 
 *If the normed space Y is complete, then every series $(u_n)$ of bounded mappings of X into Y which is absolutely convergent in the normed space $\mathscr{B}(X; Y)$ (i.e. which is such that $\sum_{n=0}^\infty ||u_n|| < +\infty$; cf. Chapter IX, § 3, no. 6) is uniformly convergent in X.*
 
 For since $\mathscr{B}(X; Y)$ is complete (no. 1, Proposition 2, Corollary 1), the result follows from Chapter IX, § 3, no. 6, Proposition 11 and the definition of a uniformly convergent series.
 
-#### Remark 1 {#top-x-s3-n2-rem-1 .statement}
+#### Remark 1 {#top-x-s3-n2-rem-1 .statement tag=0CDE}
 
 If $\sum_{n=0}^{\infty} \|u_n\| < +\infty$, then $\sum_{n=0}^{\infty} |u_n(x)| \leq \sum_{n=0}^{\infty} |u_n| < +\infty$
 for each $x \in X$; in other words, for each $x \in X$ the series with general term $u_n(x)$ is absolutely convergent in the space $Y$. The converse is false. To avoid all confusion we shall sometimes say that the series with general term $u_n$ is *normally convergent*, meaning that the series with general term $\|u_n\|$ is convergent. A series can be uniformly convergent in $X$ without being normally convergent; this is the case, for example, for the series $(u_n)$ in the space $\mathscr{B}(\mathbf{R}, \mathbf{R})$, defined as follows:
@@ -128,7 +128,7 @@ $$
 $$
 Thus $\mathscr{B}(X; Y)$ is now a *normed algebra* over $K$.
 
-#### Proposition 4 {#top-x-s3-prop-4 .statement}
+#### Proposition 4 {#top-x-s3-prop-4 .statement tag=0CDF}
 
 *Let $X_i$ ($1 \leq i \leq n$) and $Y$ be normed vector spaces over a non-discrete valued division ring $K$, and let $X = \prod_{i=1}^n X_i$. Then the set of all multilinear mappings of $X$ into $Y$ is closed in the space $\mathscr{F}_s(X; Y)$.*
 
@@ -142,7 +142,7 @@ u(x_1, \ldots, \lambda x_i, \ldots, x_n) &= \lambda u(x_1, \ldots, x_i, \ldots, 
 $$
 ($1 \leq i \leq n,\ x_i,\ x_i',\ x_i''$ arbitrary elements of $X_i$, $\lambda$ an arbitrary element of $K$); since both sides of the relations (1) are continuous functions of $u$ on $\mathscr{F}_s(X; Y)$ (§ 1, no. 2, Remark 6), the result follows (Chapter I, § 8, no. 1, Proposition 2).
 
-#### Proposition 5 {#top-x-s3-prop-5 .statement}
+#### Proposition 5 {#top-x-s3-prop-5 .statement tag=0CDG}
 
 *Under the hypotheses of Proposition 4, the set $\mathscr{L}(X_1, \ldots, X_n; Y)$ of continuous multilinear mappings of $X$ into $Y$ is closed in $\mathscr{F}(X; Y)$ with respect to the topology of bounded convergence; it is complete with respect to the uniformity of bounded convergence if $Y$ is complete.*
 
@@ -163,7 +163,7 @@ $$
 
 Unless the contrary is expressly stated, whenever $\mathscr{L}(X_1, \ldots, X_n; Y)$ is considered as a normed space, it is the norm defined above which is in question.
 
-#### Proposition 6 {#top-x-s3-prop-6 .statement}
+#### Proposition 6 {#top-x-s3-prop-6 .statement tag=0CDH}
 
 *The multilinear mapping*
 $$
@@ -173,7 +173,7 @@ $$
 
 This is an immediate consequence of the inequality (2) (Chapter IX, § 3, no. 5, Theorem 1).
 
-#### Proposition 7 {#top-x-s3-prop-7 .statement}
+#### Proposition 7 {#top-x-s3-prop-7 .statement tag=0CDI}
 
 *Let* $X, Y, Z$ *be three normed spaces over* $K$. *The canonical mapping of the normed space* $\mathscr{L}(X, Y; Z)$ *into the space of linear mappings of* $X$ *into* $\mathscr{L}(Y; Z)$ *which sends each* $u \in \mathscr{L}(X, Y; Z)$ *to the mapping* $x \to u(x, .)$ *is an isometry of* $\mathscr{L}(X; Y; Z)$ *onto* $\mathscr{L}(X; \mathscr{L}(Y; Z))$.
 
@@ -182,7 +182,7 @@ $$
 \sup_{\|x\| \leq 1} \left( \sup_{\|y\| \leq 1} \|u(x, y)\| \right) = \sup_{\|x\| \leq 1, \|y\| \leq 1} \|u(x, y)\|.
 $$
 
-#### Proposition 8 {#top-x-s3-prop-8 .statement}
+#### Proposition 8 {#top-x-s3-prop-8 .statement tag=0CDJ}
 
 Let $X, Y, Z$ be three normed spaces over $K$. The bilinear mapping $(u, v) \to v \circ u$ of $\mathscr{L}(X; Y) \times \mathscr{L}(Y; Z)$ into $\mathscr{L}(X; Z)$ is continuous.
 
@@ -194,7 +194,7 @@ since for all $x \in X$ we have $||v(u(x))|| \leq ||v|| \cdot ||u(x)|| \leq ||v|
 
 In particular, on the set $\mathscr{L}(X)$ of continuous endomorphisms of a normed space $X$ over $K$, the norm $||u||$ is compatible with the $K$-algebra structure of $\mathscr{L}(X)$.
 
-#### Remark 2 {#top-x-s3-n2-rem-2 .statement}
+#### Remark 2 {#top-x-s3-n2-rem-2 .statement tag=0CDK}
 
 The set $\mathscr{L}(\mathbf{R}^m; \mathbf{R}^n)$ of linear (necessarily continuous) mappings of $\mathbf{R}^m$ into $\mathbf{R}^n$ can be identified with the set $M_{n,m}(\mathbf{R})$ of matrices with $n$ rows and $m$ columns with coefficients in $\mathbf{R}$ and hence can be identified with $\mathbf{R}^{mn}$; on $\mathscr{L}(\mathbf{R}^m; \mathbf{R}^n)$, the uniformity of bounded convergence (with respect to the Euclidean metric on $\mathbf{R}^m$), of compact convergence, and of pointwise convergence are then identified with the *additive* uniformity on $\mathbf{R}^{mn}$. Take the norm of $x = (x_i) \in \mathbf{R}^n$ to be
 $$
@@ -204,7 +204,7 @@ and let $(e_j)$ be the canonical basis of $\mathbf{R}^m$; if $u$ and $v$ are two
 
 ### 3. COUNTABILITY PROPERTIES OF SPACES OF CONTINUOUS FUNCTIONS
 
-#### Theorem 1 {#top-x-s3-thm-1 .statement}
+#### Theorem 1 {#top-x-s3-thm-1 .statement tag=0CDL}
 
 Let $X$ be a compact space.
 a) *If $X$ is metrizable and if $Y$ is any metrizable uniform space of countable type* (Chapter IX, § 2, no. 8), *then the metrizable space $C_u(X; Y)$ of continuous mappings of $X$ into $Y$, endowed with the topology of uniform convergence, is of countable type*.
@@ -216,7 +216,7 @@ b) Let $I = [0, 1]$. Since $\mathscr{C}_u(X; I)$ is a uniform subspace of $\math
 
 Q.E.D.
 
-#### Corollary {#top-x-s3-n3-cor-1 .statement}
+#### Corollary {#top-x-s3-n3-cor-1 .statement tag=0CDM}
 
 Let $X$ be a locally compact space whose topology admits a countable base, and let $Y$ be a metrizable uniform space of countable type.
 
@@ -232,7 +232,7 @@ Note that the space of all bounded continuous real-valued functions on $\mathbf{
 
 ### 4. THE COMPACT-OPEN TOPOLOGY
 
-#### Theorem 2 {#top-x-s3-thm-2 .statement}
+#### Theorem 2 {#top-x-s3-thm-2 .statement tag=0CDN}
 
 *Let X be a topological space, Y a uniform space. For each compact subset K of X and each open subset U of Y, let T(K, U) denote the set of all continuous mappings $u : X \to Y$ such that $u(K) \subset U$. Then the sets $T(K, U)$ generate the topology of compact convergence on $C(X; Y)$.*
 
@@ -250,7 +250,7 @@ Conversely, if $W$ is a neighbourhood of a point $u_0 \in C_c(X; Y)$, let us sho
 
 This result leads us to make the following definition:
 
-#### Definition 1 {#top-x-s3-def-1 .statement}
+#### Definition 1 {#top-x-s3-def-1 .statement tag=0CDO}
 
 *Let $X, Y$ be two topological spaces, not necessarily uniformizable. For each compact subset $K$ of $X$ and each open subset $U$ of $Y$, let $T(K, U)$ be the set of all $u \in C(X; Y)$ such that $u(K) \subset U$. The topology on $C(X; Y)$ generated by the sets $T(K, U)$ is called the topology of compact convergence or the compact-open topology; and we denote by $C_c(X; Y)$ the topological space obtained by endowing $C(X; Y)$ with this topology.*
 
@@ -258,15 +258,15 @@ If $Y$ is a uniform space it follows from Theorem 2 that this definition agrees 
 
 If $H$ is a subset of $C(X; Y)$ we shall say that the topology induced on $H$ by that of $C_c(X; Y)$ is the compact-open topology on $H$.
 
-#### Example {#top-x-s3-n4-exa-1 .statement}
+#### Example {#top-x-s3-n4-exa-1 .statement tag=0CDP}
 
 Let $I$ be the interval $[0, 1]$ in $\mathbf{R}$. If $Y$ is any topological space, the space $C_c(I; Y)$ is called the *space of paths* in $Y$. For each $y \in Y$, the subspace $\Omega_y(Y)$ of $C_c(I; Y)$ consisting of paths $u$ such that $u(0) = u(1) = y$ is called the *space of loops* (in $Y$) *at the point* $y$.
 
-#### Remark 1 {#top-x-s3-n4-rem-1 .statement}
+#### Remark 1 {#top-x-s3-n4-rem-1 .statement tag=0CDQ}
 
 Likewise, the topology induced on $C(X; Y)$ by the product topology on $Y^X = \mathscr{F}(X; Y)$ is called the *topology of pointwise convergence* ($Y$ being not necessarily uniformizable); it is generated by sets of the form $T(\{x\}, U)$ as $x$ runs through $X$ and $U$ runs through the set of all open subsets of $Y$, and it is therefore coarser than the compact-open topology. We deduce that, *if $Y$ is Hausdorff, the space $C_c(X; Y)$ is Hausdorff* (Chapter I, § 8, no. 1, Proposition 5, Corollary).
 
-#### Remark 2 {#top-x-s3-n4-rem-2 .statement}
+#### Remark 2 {#top-x-s3-n4-rem-2 .statement tag=0CDR}
 
 Let $\mathscr{S}$ be a subbase of the topology of $Y$, and let $\mathscr{K}$ be a set of compact subsets of $X$ with the following property:
 
@@ -276,7 +276,7 @@ Then the sets $T(K, U)$, where $K \in \mathscr{K}$ and $U \in \mathscr{S}$, form
 
 The sets $\overline{u}^{-1}(U_i)$ are open in $X$ and cover $L$. For each $x \in L$ there is therefore a compact neighbourhood $N_x$ of $x$ in $L$, contained in some one of the $\overline{u}^{-1}(U_i)$. We can cover $L$ with a finite number of these sets $N_{x_j} = L_j$; for each $j$, let us denote by $i(j)$ one of the indices $i$ such that $L_j \subset \overline{u}^{-1}(U_i)$. This being so, for each index $j$ there exists [by (R)] a finite number of sets $K_{jk} \subset \overline{u}^{-1}(U_{i(j)})$, belonging to $\mathscr{K}$, which cover $L_j$. For each $v \in \bigcap_{j,k} T(K_{jk}, U_{i(j)})$ we have $\bigcup_k v(K_{jk}) \subset U_{i(j)}$ and therefore $v(L_j) \subset U_{i(j)}$, and $v(L) = \bigcup_j v(L_j) \subset \bigcup_j U_{i(j)} \subset V$; thus our assertion is proved.
 
-#### Theorem 3 {#top-x-s3-thm-3 .statement}
+#### Theorem 3 {#top-x-s3-thm-3 .statement tag=0CDS}
 
 *Let $X, Y, Z$ be three topological spaces and let $f$ be a mapping of $X \times Y$ into $Z$. If $f$ is continuous then $\tilde{f}: x \to f(x, .)$ is a continuous mapping of $X$ into $C_c(Y; Z)$. The converse is true if $Y$ is locally compact.*
 
@@ -286,13 +286,13 @@ Conversely, suppose that $\tilde{f}$ is continuous and that $Y$ is locally compa
 
 Q.E.D.
 
-#### Corollary 1 {#top-x-s3-thm-3-cor-1 .statement}
+#### Corollary 1 {#top-x-s3-thm-3-cor-1 .statement tag=0CDT}
 
 *Let $X$ be a locally compact space, $Y$ a topological space, $H$ a subset of $C(X; Y)$. Then the compact-open topology on $H$ is the coarsest for which the mapping $(u, x) \to u(x)$ of $H \times X$ into $Y$ is continuous.*
 
 For, by Theorem 3, this mapping is continuous if and only if the canonical injection $H \to C_c(X; Y)$ is continuous.
 
-#### Remark 3 {#top-x-s3-n4-rem-3 .statement}
+#### Remark 3 {#top-x-s3-n4-rem-3 .statement tag=0CDU}
 
 Let $X$ be a locally compact space and $Y$ a Hausdorff topological space. If $\mathscr{T}$ is a topology on a subset $H$ of $C(X; Y)$ such that the mapping $(u, x) \to u(x)$ is continuous on $H \times X$ and if also $H$ is *compact* with respect to $\mathscr{T}$, then $\mathscr{T}$ is the compact-open topology. For it is finer than the latter by Corollary 1, and since the compact-open topology is Hausdorff, the two topologies are identical. Note that if in addition $Y$ is *completely regular*, then $H$ is *equicontinuous* with respect to every uniformity compatible with the topology of $Y$ (§ 2, no. 5, Theorem 2, Corollary 3), and for every compact subset $K$ of $X$ the set
 
@@ -302,7 +302,7 @@ $$
 
 is compact, since it is the image of $H \times K$ under the continuous mapping $(u, x) \to u(x)$.
 
-#### Corollary 2 {#top-x-s3-thm-3-cor-2 .statement}
+#### Corollary 2 {#top-x-s3-thm-3-cor-2 .statement tag=0CDV}
 
 *Let $X, Y, Z$ be three topological spaces such that $X$ is Hausdorff and $Y$ is locally compact. Then the restriction to $C(X \times Y; Z)$ of the canonical bijection $\mathscr{F}(X \times Y; Z) \to \mathscr{F}(X; \mathscr{F}(Y; Z))$ (Set Theory, R, § 4, no. 14) is a homeomorphism of $C_c(X \times Y; Z)$ onto $C_c(X; C_c(Y; Z))$.*
 
@@ -316,7 +316,7 @@ by Theorem 3; it remains therefore to be shown that the compact-open topology on
 
 Note that if in addition $Z$ is assumed to be uniformizable, Corollary 2 is a trivial consequence of § 1, no. 4, Proposition 2.
 
-#### Proposition 9 {#top-x-s3-prop-9 .statement}
+#### Proposition 9 {#top-x-s3-prop-9 .statement tag=0CDW}
 
 *Let $X, Y, Z$ be three topological spaces, $Y$ being locally compact. Then the mapping $(u, v) \to v \circ u$ of $\mathscr{C}_c(X; Y) \times \mathscr{C}_c(Y; Z)$ into $\mathscr{C}_c(X; Z)$ is continuous.*
 
@@ -324,19 +324,19 @@ We have to show that, for every compact subset $K$ of $X$ and every open subset 
 
 ### 5. TOPOLOGIES ON GROUPS OF HOMEOMORPHISMS
 
-#### Proposition 10 {#top-x-s3-prop-10 .statement}
+#### Proposition 10 {#top-x-s3-prop-10 .statement tag=0CDX}
 
 Let $X$ be a uniform space and let $H$ be an equicontinuous set of homeomorphisms of $X$ onto itself. If $H$ and $H^{-1}$ are endowed with the topology of pointwise convergence in $X$, then the mapping $u \to u^{-1}$ of $H^{-1}$ onto $H$ is continuous.
 
 It is enough to show that, for each $x_0 \in X$, the mapping $u \to u^{-1}(x_0)$ of $H^{-1}$ into $X$ is continuous at every point $u_0 \in H^{-1}$. Let $V$ be a symmetric entourage of $X$, and let $y_0 = u_0^{-1}(x_0)$. By hypothesis there is a symmetric entourage $U$ of $X$ such that the relation $(x, x_0) \in U$ implies $(u^{-1}(x), u^{-1}(x_0)) \in V$ for all $u \in H^{-1}$. Take an element $u \in H^{-1}$ which is $W(\{y_0\}, U)$-close to $u_0$; then we have $(u(y_0), u_0(y_0)) \in U$, i.e. $(u(y_0), x_0) \in U$. It follows that $(y_0, u^{-1}(x_0)) \in V$, i.e. $(u_0^{-1}(x_0), u^{-1}(x_0)) \in V$; this completes the proof.
 
-#### Corollary {#top-x-s3-n5-cor-1 .statement}
+#### Corollary {#top-x-s3-n5-cor-1 .statement tag=0CDY}
 
 Let $X$ be a uniform space and let $H$ be an equicontinuous group of homeomorphisms of $X$ onto itself. Then the topology of pointwise convergence in $X$ is compatible with the group structure of $H$.
 
 This is a consequence of Proposition 10, together with § 2, no. 1, Proposition 1, Corollary 5.
 
-#### Proposition 11 {#top-x-s3-prop-11 .statement}
+#### Proposition 11 {#top-x-s3-prop-11 .statement tag=0CDZ}
 
 Let $X$ be a compact space and let $\Gamma$ be the group of all homeomorphisms of $X$ onto itself. Then the topology of uniform convergence in $X$ is compatible with the group structure of $\Gamma$.
 
@@ -346,7 +346,7 @@ Now let $X$ be a locally compact space and let $\Gamma$ be the group of all home
 
 The topology $\mathscr{T}_\beta$ can be characterized as follows:
 
-#### Proposition 12 {#top-x-s3-prop-12 .statement}
+#### Proposition 12 {#top-x-s3-prop-12 .statement tag=0CE0}
 
 *On the group $\Gamma$ of all homeomorphisms of a locally compact space $X$, the topology $\mathscr{T}_\beta$ is the coarsest for which the mappings $u \to u$ and $u \to u^{-1}$ of $\Gamma$ into $C_c(X; X)$ are continuous.*
 
@@ -390,7 +390,7 @@ it would follow that $y \in u^{-1}(K_1) \subset W(u_0^{-1}(K_1))$, contrary to t
 
 In general the group $\Gamma$, endowed with $\mathscr{T}_\beta$, is not locally compact; but we have the following criterion:
 
-#### Theorem 4 {#top-x-s3-thm-4 .statement}
+#### Theorem 4 {#top-x-s3-thm-4 .statement tag=0CE1}
 
 *Let $G$ be a subgroup of the group $\Gamma$ of all homeomorphisms of a locally compact space $X$. Suppose that, in the space $C_c(X; X)$, there is a neighbourhood $V$ of the identity mapping $e$ such that $V \cap G = H$ is symmetric in $G$ and relatively compact in $C_c(X; X)$. Then the closure $\overline{G}$ of $G$ in $\Gamma$ with respect to the topology $\mathscr{T}_\beta$ is a locally compact group with respect to the topology induced by $\mathscr{T}_\beta$; this topology induced on $\overline{G}$ is the same as the topology of compact convergence, and the closure $\overline{H}$ of $H$ in $C_c(X; X)$ is a neighbourhood of $e$ in $\overline{G}$ with respect to this topology.*
 
@@ -398,7 +398,7 @@ Let us show first that $\overline{H}$ is contained in $\Gamma$ and that the topo
 
 Furthermore, since the topology $\mathscr{T}_\beta$ on $\Gamma$ is finer than the topology of compact convergence, $\overline{H}$ is also the closure of $H$ with respect to $\mathscr{T}_\beta$. But $H$ is a neighbourhood of $e$ in $G$ with respect to the topology of compact convergence, and *a fortiori* with respect to the topology induced by $\mathscr{T}_\beta$; it follows (Chapter I, § 3, no. 1, Proposition 2) that $\overline{H}$ is a neighbourhood of $e$ in $\overline{G}$ with respect to the topology induced by $\mathscr{T}_\beta$, and hence $\overline{G}$ is locally compact in this topology. If $W$ is the interior of $V$ with respect to the topology of compact convergence, then $W \cap \Gamma$ is open in $\mathscr{T}_\beta$, hence $W \cap \overline{G}$ is contained in the closure of $H = V \cap G$ with respect to $\mathscr{T}_\beta$ (Chapter I, § 1, no. 6, Proposition 5); this shows that $\overline{H}$ is also a neighbourhood of $e$ in $\overline{G}$ with respect to the topology of compact convergence. Finally, for each $u_0 \in \Gamma$, the bijections $v \to u_0 \circ v$ and $v \to u_0^{-1} \circ v$ of $C_c(X; X)$ onto itself are continuous (no. 4, Proposition 9), and hence, if $u_0 \in \overline{G}$, $u_0 \overline{H}$ is a neighbourhood of $u_0$ in $\overline{G}$ with respect to the topology of compact convergence. This completes the proof.
 
-#### Corollary {#top-x-s3-n5-cor-2 .statement}
+#### Corollary {#top-x-s3-n5-cor-2 .statement tag=0CE2}
 
 *Let $G$ be a group of homeomorphisms of a locally compact space $X$. If the closure $\overline{G}$ of $G$ in $C_c(X; X)$ is compact, then $\overline{G}$ is a group of homeomorphisms of $X$, and the topology of compact convergence is compatible with the group structure of $\overline{G}$, which is therefore a compact topological group.*
 

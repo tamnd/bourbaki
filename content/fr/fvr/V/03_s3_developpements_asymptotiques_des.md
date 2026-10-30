@@ -37,7 +37,7 @@ subsections:
       pdf_page: 230
 statements: 23
 exercises: 7
-content_sha256: 8b2e9b0a8869078dfbd073c17526ee5dd1877475e90467501db59926bb73ff5c
+content_sha256: a5de6644e01e043d2e079a0a90de514731aa9e038fce98cbe5e4346f09ce2a19
 ---
 
 ## § 3. DÉVELOPPEMENTS ASYMPTOTIQUES DES FONCTIONS D’UNE VARIABLE RÉELLE
@@ -48,7 +48,7 @@ Il nous sera commode de désigner, par abus de langage, les ensembles de $\mathf
 
 ### 1. Intégration des relations de comparaison: I. Relations faibles
 
-#### Proposition 1 {#fvr-v-s3-prop-1 .statement}
+#### Proposition 1 {#fvr-v-s3-prop-1 .statement tag=08F4}
 
 Dans un intervalle $]a, +\infty[$, soient $\mathbf{f}$ une fonction vectorielle réglée, g une fonction réglée $\geqslant 0$ et telle que $\int_a^{+\infty} g(t)\ dt > 0$. La relation $\mathbf{f} \preccurlyeq g$ pour $x$ tendant vers $+\infty$ entraîne $\int_a^x \mathbf{f}(t)\ dt \preccurlyeq \int_a^x g(t)\ dt$. Si l’intégrale $\int_a^{+\infty} g(t)\ dt$ est convergente, l’intégrale $\int_a^{+\infty} \mathbf{f}(t)\ dt$ est absolument convergente.
 
@@ -66,11 +66,11 @@ $$
 $$
 d’où la proposition.
 
-#### Corollaire 1 {#fvr-v-s3-prop-1-cor-1 .statement}
+#### Corollaire 1 {#fvr-v-s3-prop-1-cor-1 .statement tag=08F5}
 
 Si $f$ et $g$ sont des fonctions réglées $\geqslant 0$ dans l’intervalle $]a, +\infty[$, telles que $f \succeq g$, et si $\int_a^{+\infty} g(t)\ dt = +\infty$, on a $\int_a^{+\infty} f(t)\ dt = +\infty$.
 
-#### Corollaire 2 {#fvr-v-s3-prop-1-cor-2 .statement}
+#### Corollaire 2 {#fvr-v-s3-prop-1-cor-2 .statement tag=08F6}
 
 Si $f$ et $g$ sont $\geqslant 0$ et non identiquement nulles dans $[a, +\infty[$ et telles que $f \asymp g$, on a $\int_a^x f(t)\ dt \asymp \int_a^x g(t)\ dt$.
 
@@ -78,13 +78,13 @@ Si $f$ et $g$ sont $\geqslant 0$ et non identiquement nulles dans $[a, +\infty[$
 
 Par un choix convenable de la fonction $g$, on peut déduire de la prop. 1 de V, p. 18, et de son cor. 1 des critères permettant d’affirmer que l’intégrale $\int_a^{+\infty} f(t)\ dt$ d’une fonction $f \geqslant 0$ est convergente ou infinie : il suffit de choisir pour $g$ une fonction dont on connaît une primitive. En particulier, comme $x^\mu$ a pour primitive $\frac{x^{\mu+1}}{\mu+1}$ lorsque $\mu \neq -1$, et log $x$ lorsque $\mu = -1$, on a le critère suivant :
 
-#### Proposition 2 (« critère logarithmique d’ordre 0 ») {#fvr-v-s3-prop-2 .statement}
+#### Proposition 2 (« critère logarithmique d’ordre 0 ») {#fvr-v-s3-prop-2 .statement tag=08F7}
 
 Soit $f$ une fonction réglée $\geqslant 0$ dans l’intervalle $[a, +\infty[$; si $f(x) \leqslant x^\mu$ pour un $\mu < -1$, l’intégrale $\int_a^{+\infty} f(t)\ dt$ est convergente ; si $f(x) \geqslant x^\mu$ pour un $\mu \geqslant -1$, l’intégrale $\int_a^{+\infty} f(t)\ dt$ est infinie.
 
 Ce critère ne permet pas de conclure lorsque $1/x^{1+\alpha} \ll f(x) \ll 1/x$ pour tout exposant $\alpha > 0$, par exemple pour $f(x) = 1/x(\log x)^\mu$ ($\mu > 0$). Mais dans ce dernier cas, $f$ a pour primitive $\frac{1}{1-\mu} (\log x)^{1-\mu}$ si $\mu \neq 1$ et log log $x$ si $\mu = 1$. Par suite :
 
-#### Proposition 3 (« critère logarithmique d’ordre 1 ») {#fvr-v-s3-prop-3 .statement}
+#### Proposition 3 (« critère logarithmique d’ordre 1 ») {#fvr-v-s3-prop-3 .statement tag=08F8}
 
 Soit $f$ une fonction réglée $\geqslant 0$ dans l’intervalle $[a, +\infty[$; si $f(x) \leqslant 1/x(\log x)^\mu$ pour un $\mu > 1$, l’intégrale $\int_a^{+\infty} f(t)\ dt$ est convergente ; si $f(x) \geqslant 1/x(\log x)^\mu$ pour un $\mu \leqslant 1$, l’intégrale $\int_a^{+\infty} f(t)\ dt$ est infinie.
 
@@ -102,7 +102,7 @@ $$
 
 Par suite :
 
-#### Proposition 4 (« critère logarithmique d’ordre $n$ ») {#fvr-v-s3-prop-4 .statement}
+#### Proposition 4 (« critère logarithmique d’ordre $n$ ») {#fvr-v-s3-prop-4 .statement tag=08F9}
 
 Soit $f$ une fonction réglée $\geqslant 0$ dans l’intervalle $[a, +\infty[$; si $f(x) \leqslant \frac{1}{x.l_1(x).l_2(x)\ldots l_{n-1}(x)\ (l_n(x))^\mu}$ pour un $\mu > 1$, l’intégrale $\int_a^{+\infty} f(t) \, dt$ est convergente; si $f(x) \geqslant \frac{1}{x.l_1(x)\ldots l_{n-1}(x).(l_n(x))^{\mu}}$ pour un $\mu \leqslant 1$, l’intégrale $\int_a^{+\infty} f(t) \, dt$ est infinie.
 
@@ -110,7 +110,7 @@ Chaque critère logarithmique est donc applicable à des fonctions pour lesquell
 
 En raison de son utilité, nous traduirons le critère d’ordre 0 pour les intégrales $\int_a^a f(t) \, dt$, où $f$ est réglée et $\geqslant 0$ dans l’intervalle non compact $]\alpha, a]$:
 
-#### Proposition 5 (« critère logarithmique d’ordre 0 ») {#fvr-v-s3-prop-5 .statement}
+#### Proposition 5 (« critère logarithmique d’ordre 0 ») {#fvr-v-s3-prop-5 .statement tag=08FA}
 
 Si, au voisinage de $\alpha$, on a $f(x) \leqslant 1/(x-\alpha)^{\mu}$ pour un $\mu < 1$, l’intégrale $\int_a^a f(t) \, dt$ est convergente; si $f(x) \geqslant 1/(x-\alpha)^{\mu}$ pour un $\mu \geqslant 1$, l’intégrale $\int_a^a f(t) \, dt$ est infinie.
 
@@ -118,17 +118,17 @@ Nous laissons au lecteur le soin de traduire de même le critère logarithmique 
 
 L’application des critères logarithmiques est immédiate si on sait obtenir une partie principale de $f$ par rapport à une échelle de comparaison contenant les fonctions qui interviennent dans ces critères: si $f_1$ est cette partie principale, l’intégrale $\int_a^{+\infty} f(t) \, dt$ est convergente ou infinie en même temps que $\int_a^{+\infty} f_1(t) \, dt$, et pour cette dernière intégrale, l’application des critères logarithmiques est immédiate.
 
-#### Exemple 1 {#fvr-v-s3-n2-exa-1 .statement}
+#### Exemple 1 {#fvr-v-s3-n2-exa-1 .statement tag=08FB}
 
 La fonction $t^p(1-t)^q$ est non bornée dans $]0,1[$ lorsque $p < 0$ ou $q < 0$; d’après les critères logarithmiques d’ordre 0 appliqués au voisinage des points 0 et 1, pour que l’intégrale $\int_0^1 t^p(1-t)^q \, dt$ converge, il faut et il suffit que $p > -1$ et $q > -1$. Lorsqu’il en est ainsi, cette intégrale est dite intégrale eulérienne de première espèce et notée $B(p+1,q+1)$ (cf. VII, p. 8).
 
-#### Exemple 2 {#fvr-v-s3-n2-exa-2 .statement}
+#### Exemple 2 {#fvr-v-s3-n2-exa-2 .statement tag=08FC}
 
 Considérons l’intégrale $\int_0^{\infty} t^{x-1}e^{-t} \, dt$. Comme $e^{-t} \sim 1$ au voisinage de 0, pour que cette intégrale converge, il faut que $x > 0$; cette condition est aussi suffisante car au voisinage de $+\infty$, on a $e^{-t} \ll t^{-\mu}$ quel que soit $\mu > 0$. Lorsque $x > 0$, l’intégrale est dite intégrale eulérienne de seconde espèce et notée $\Gamma(x)$ (cf. VII, p. 7).
 
 ### 3. Intégration des relations de comparaison: II. Relations fortes
 
-#### Proposition 6 {#fvr-v-s3-prop-6 .statement}
+#### Proposition 6 {#fvr-v-s3-prop-6 .statement tag=08FD}
 
 Soient $\mathbf{f}$ une fonction vectorielle réglée, $g$ une fonction numérique réglée et $\geqslant 0$ dans $]a, +\infty[$.
 
@@ -167,15 +167,15 @@ En d’autres termes, on peut intégrer les deux membres d’une relation forte 
 
 On notera que les prop. 1 (V, p. 18) et 6 (V, p. 20) sont encore valables lorsque $\mathfrak{F}$ est la base de filtre formée de la trace des intervalles $(t, +\infty)$ (où $t > a$) sur le complémentaire d’un ensemble dénombrable (cf. I, p. 23, th. 2).
 
-#### Exemple 1 {#fvr-v-s3-n3-exa-1 .statement}
+#### Exemple 1 {#fvr-v-s3-n3-exa-1 .statement tag=08FE}
 
 En appliquant la prop. 6 de V, p. 20, à la relation $1/x \ll x^{\alpha-1}$ où $\alpha > 0$, on retrouve la relation $\log x \ll x^\alpha$ pour tout $\alpha > 0$, équivalente à la relation $y^{1/\alpha} \ll e^y$ démontrée dans III, p. 16.
 
-#### Exemple 2 {#fvr-v-s3-n3-exa-2 .statement}
+#### Exemple 2 {#fvr-v-s3-n3-exa-2 .statement tag=08FF}
 
 On a $\left( \frac{e^x}{x} \right)' = \frac{e^x}{x} \left( 1 - \frac{1}{x} \right) \sim e^x/x$; comme $e^x/x$ tend vers $+\infty$ avec $x$, on déduit de la prop. 6 de V, p. 20, que $\int_1^x \frac{e^t}{t} \, dt \sim e^x/x$.
 
-#### Remarque {#fvr-v-s3-n3-rem-1 .statement}
+#### Remarque {#fvr-v-s3-n3-rem-1 .statement tag=08FG}
 
 Lorsque $g$ n’est pas supposée rester $\geq 0$ dans un intervalle $(a, +\infty)$ (ou rester $\leq 0$ dans un tel intervalle), et que $\int_a^{+\infty} g(t) \, dt$ n’est pas convergente, la relation $f \sim g$ n’entraîne pas nécessairement $\int_a^\infty f(t) \, dt \sim \int_a^\infty g(t) \, dt$, comme le montre l’exemple où $g(x) = \sin x$ et $f(x) = \left( 1 + \frac{\sin x}{x} \right) \sin x$; on a en effet
 $$
@@ -200,27 +200,27 @@ Par contre, on peut dériver des relations de comparaison lorsqu’on suppose a 
 
 On convient de dire que deux fonctions numériques comparables (V, p. 7) sont comparables d’ordre 0.
 
-#### Proposition 7 {#fvr-v-s3-prop-7 .statement}
+#### Proposition 7 {#fvr-v-s3-prop-7 .statement tag=08FH}
 
 Si deux fonctions numériques $f, g$, sont comparables d’ordre 1, elles sont comparables ; en outre, la relation $f \ll g$ (resp. $f \sim cg, c$ constante) entraîne $f' \ll g'$ (resp. $f' \sim cg'$) sauf si $g$ est équivalente à une constante $\neq 0$.
 
 En effet, comme $f'$ et $g'$ gardent un signe constant dans un intervalle $]x_0, +\infty[$, $f$ et $g$ sont monotones dans cet intervalle, donc tendent vers une limite finie ou infinie lorsque $x$ tend vers $+\infty$. Il est évident que $f$ et $g$ sont comparables lorsque $x$ tend vers $+\infty$, si une de ces limites est finie et $\neq 0$, ou si l’une est nulle et l’autre infinie. Si $f$ et $g$ tendent toutes deux vers 0, on peut écrire $f(x) = -\int_x^{+\infty} f'(t) dt, g(x) = -\int_x^{+\infty} g'(t) dt$; comme $f'$ et $g'$ sont comparables, il en est de même de $f$ et $g$ et la relation de comparaison entre $f$ et $g$ est la même que celle qui existe entre $f'$ et $g'$, d’après la prop. 6 (V, p. 20). De même, si $f$ et $g$ ont toutes deux un elimite infinie, on a $f(x) = f(x_0) + \int_{x_0}^x f'(t) dt, g(x) = g(x_0) + \int_{x_0}^x g'(t) dt$; la prop. 6 (V, p. 20) montre de nouveau que $f$ et $g$ sont comparables et que la relation de comparaison entre $f$ et $g$ est la même que celle qui existe entre $f'$ et $g'$. Pour achever de démontrer la proposition, il reste à considérer le cas où $g$ tend vers $\pm \infty$ et $f$ vers une constante ; alors on ne peut avoir $f' \gg g'$, car on déduirait de la prop. 1 (V, p. 18) que l’intégrale $\int_{x_0}^\infty g'(t)\,dt$ serait convergente; comme $f'$ et $g'$ sont supposées comparables, on a nécessairement $f' \ll g'$.
 
-#### Corollaire {#fvr-v-s3-n4-cor-1 .statement}
+#### Corollaire {#fvr-v-s3-n4-cor-1 .statement tag=08FI}
 
 Si deux fonctions numériques $f, g$ sont comparables d’ordre $k \geqslant 1$, elles sont comparables d’ordre $p$ pour $0 \leqslant p \leqslant k$; en outre, la relation $f \ll g$ (resp. $f \sim cg$) entraîne $f^{(k)} \ll g^{(k)}$ (resp. $f^{(k)} \sim cg^{(k)}$) sauf lorsque l’une des dérivées $g^{(p)}$ ($0 \leqslant p \leqslant k - 1$) est équivalente à une constante $\neq 0$.
 
 En effet, comme $f^{(k)}$ et $g^{(k)}$ gardent un signe constant dans un intervalle $[x_0, +\infty[$, $f^{(k-1)}$ et $g^{(k-1)}$ sont monotones dans cet intervalle, donc gardent un signe constant au voisinage de $+\infty$; en outre, la prop. 7 de V, p. 22, montre que $f^{(k-1)}$ et $g^{(k-1)}$ sont comparables, donc le corollaire résulte de la prop. 7 appliquée par récurrence sur $k$.
 
-#### Remarque 1 {#fvr-v-s3-n4-rem-1 .statement}
+#### Remarque 1 {#fvr-v-s3-n4-rem-1 .statement tag=08FJ}
 
 La restriction de l’énoncé de la prop. 7 concernant $g$ est essentielle. Par exemple, on a $1/x \ll 1 + \frac{1}{x}$ bien que les dérivées des deux membres soient équivalentes; de même $1 + \frac{1}{x} \sim 1 + \frac{1}{x^2}$, mais $1/x^2 \gg 2/x^3$.
 
-#### Remarque 2 {#fvr-v-s3-n4-rem-2 .statement}
+#### Remarque 2 {#fvr-v-s3-n4-rem-2 .statement tag=08FK}
 
 Si $f$ et $g$ sont comparables d’ordre $k$, une fonction $f_1$ équivalente à $f$ n’est pas nécessairement comparable d’ordre $k$ à $g$; elle l’est toutefois si on suppose que $f_1$ est comparable d’ordre $k$ à $f$ et qu’aucune des dérivées $f^{(p)}$ ($0 \leqslant p \leqslant k - 1$) n’est équivalente à une constante $\neq 0$.
 
-#### Remarque 3 {#fvr-v-s3-n4-rem-3 .statement}
+#### Remarque 3 {#fvr-v-s3-n4-rem-3 .statement tag=08FL}
 
 Si $f$ et $g$ sont comparables d’ordre $k$, il n’en pas nécessairement de même de $hf$ et $hg$, même pour une fonction monotone $h$ aussi simple que $h(x) = x$ (V, p. 49, exerc. 3); de même, $1/f$ et $1/g$ ne sont pas nécessairement comparables d’ordre $k$ (V, p. 48, exerc. 1).
 
@@ -228,7 +228,7 @@ Si $f$ et $g$ sont comparables d’ordre $k$, il n’en pas nécessairement de m
 
 Soit $f$ une fonction numérique réglée $\neq 0$ et gardant un signe constant dans un intervalle $[a, +\infty[$; la proposition suivante permet dans certains cas d’obtenir une partie principale simple de la primitive $\int_x^{+\infty} f(t)\,dt$ si $\int_a^{+\infty} f(t)\,dt$ est convergente, et de la primitive $\int_a^x f(t)\,dt$ si l’intégrale $\int_a^{+\infty} f(t)\,dt$ est infinie:
 
-#### Proposition 8 {#fvr-v-s3-prop-8 .statement}
+#### Proposition 8 {#fvr-v-s3-prop-8 .statement tag=08FM}
 
 On pose $F(x) = \int_x^{+\infty} f(t)\,dt$ si $\int_a^{+\infty} f(t)\,dt$ est convergente, $F(x) = \int_a^x f(t)\,dt$ si $\int_a^{+\infty} f(t)\,dt$ est infinie. On suppose que $\log |f|$ et $\log x$ sont comparables d’ordre 1.
 
@@ -270,14 +270,14 @@ ce qui établit la relation (2). Démonstration analogue lorsque $f$ est d'ordre
 
 Soit $\mathscr{E}$ une échelle de comparaison (pour $x$ réel tendant vers $+\infty$) formée de fonctions numériques non nulles et de signe constant au voisinage de $+\infty$, telle que $x \in \mathscr{E}$ et que le produit et le quotient de deux fonctions de $\mathscr{E}$ appartiennent encore à $\mathscr{E}$ (V, p. 11 et p. 14). Si une fonction réglée $f$ de signe constant au voisinage de $+\infty$ admet une partie principale $c g$ par rapport à $\mathscr{E}$, $\int_a^{+\infty} f(t)\,dt$ (resp. $\int_a^x f(t) dt$ suivant le cas) sera équivalente à $c \int_a^{+\infty} g(t)\,dt$ (resp. $c \int_a^x g(t)\,dt$); si la fonction $g$ satisfait aux conditions de la prop. 8 de V, p. 23, et si (lorsque la formule (2) de V, p. 23, s'applique) on connaît une partie principale de $g'$ relativement à $\mathscr{E}$, on aura ainsi une partie principale de $\int_a^{+\infty} f(t)\,dt$ (resp. $\int_a^x f(t)\,dt$) relativement à $\mathscr{E}$.
 
-#### Exemple 1 {#fvr-v-s3-n5-exa-1 .statement}
+#### Exemple 1 {#fvr-v-s3-n5-exa-1 .statement tag=08FN}
 
 La fonction $1/\log x$ est d’ordre 0 par rapport à $x$, et satisfait aux conditions de la prop. 8 de V, p. 23; donc
 $$
 \int_a^x \frac{dt}{\log t} \sim \frac{x}{\log x}.
 $$
 
-#### Exemple 2 {#fvr-v-s3-n5-exa-2 .statement}
+#### Exemple 2 {#fvr-v-s3-n5-exa-2 .statement tag=08FO}
 
 La fonction $e^{x^2}$ est d’ordre $+\infty$ par rapport à $x$ et satisfait aux conditions de la prop. 8, donc
 $$
@@ -285,7 +285,7 @@ $$
 $$
 Dans l’Appendice (V, p. 41), nous définirons un ensemble de fonctions auxquelles les prop. 7 et 8 sont toujours applicables.
 
-#### Remarque {#fvr-v-s3-n5-rem-1 .statement}
+#### Remarque {#fvr-v-s3-n5-rem-1 .statement tag=08FP}
 
 La prop. 8 n’est pas directement applicable à une fonction $f$ d’ordre –1 par rapport à $x$. Mais on peut alors écrire $f(x) = f_1(x)/x$, $f_1$ étant d’ordre 0 par rapport à $x$. Supposons par exemple que $\int_a^{+\infty} f(t) \, dt$ soit infini; alors
 $$
@@ -318,7 +318,7 @@ $$
 
 Tout revient donc à trouver des développements asymptotiques par rapport à $\mathscr{E}$ de primitives de fonctions de $\mathscr{E}$. Nous avons vu comment, moyennant certaines hypothèses sur $\mathscr{E}$, la prop. 8 de V, p. 23 donne la partie principale d’une telle primitive. En outre, la démonstration de la prop. 8 donne l’expression de la différence des deux membres de la formule (1) (resp. (2)) de V, p. 23, sous forme d’une primitive de la fonction $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$ (resp. $f(x) g'(x)$), avec $g = f/f'$; en formant la partie principale de cette nouvelle primitive, ainsi qu’un développement asymptotique du second membre de (1) (resp. (2)), on obtiendra le second terme du développement cherché (voir V, p. 36–43).
 
-#### Exemple 1 {#fvr-v-s3-n6-exa-1 .statement}
+#### Exemple 1 {#fvr-v-s3-n6-exa-1 .statement tag=08FQ}
 
 Soit $f(x) = 1/\log x$ ($x > 1$); on a vu que $\int_a^x dt/\log t \sim x/\log x$, et la différence $\int_a^x \frac{dt}{\log t} - \frac{x}{\log x}$ est une primitive de $1/(\log x)^2$; on peut de nouveau appliquer à cette fonction la prop. 8, qui donne $\int_a^x dt/(\log t)^2 \sim x/(\log x)^2$. Par récurrence, on obtient ainsi le développement
 $$
@@ -326,7 +326,7 @@ $$
 $$
 On notera que, quel que soit $n$, tous les termes de ce développement tendent vers $+\infty$ avec $x$.
 
-#### Exemple 2 {#fvr-v-s3-n6-exa-2 .statement}
+#### Exemple 2 {#fvr-v-s3-n6-exa-2 .statement tag=08FR}
 
 Soit $f(x) = \frac{e^x}{x^2 + 1}$; on peut écrire $f(x) = \frac{e^x}{x^2} - \frac{e^x}{x^4} + o_1\left( \frac{e^x}{x^4} \right)$. La prop. 8 donne les développements
 $$

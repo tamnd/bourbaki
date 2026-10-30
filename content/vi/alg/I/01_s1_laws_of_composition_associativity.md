@@ -37,7 +37,7 @@ subsections:
       pdf_page: 35
 statements: 31
 exercises: 16
-content_sha256: ae83b2d34d7644246954ff9d67c90ee91439dacef531ba0d90857677abcf98de
+content_sha256: d2b7d4a44e5c4e0763f0ce52b797122d9fa2dae314c16d5729bd7c1471db01d2
 translated_from: content/en/alg/I/01_s1_laws_of_composition_associativity.md
 source_content_sha256: eaaedbec437fbe10ada976447d7ff373c517077b94d3572b3e47bdbac09779cc
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -51,7 +51,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC LUẬT HỢP THÀNH
 
-#### Định nghĩa 1 {#alg-i-s1-def-1 .statement}
+#### Định nghĩa 1 {#alg-i-s1-def-1 .statement tag=055B}
 
 Cho E là một tập hợp. Một ánh xạ f của E × E vào E được gọi là một luật hợp thành trên E. Giá trị f(x, y) của f đối với một cặp có thứ tự (x, y) ∈ E × E được gọi là hợp thành của x và y theo luật này. Một tập hợp với một luật hợp thành được gọi là một magma.
 
@@ -59,7 +59,7 @@ Hợp thành của x và y thường được ký hiệu bằng cách viết x v
 
 Do lạm dụng ngôn ngữ, một ánh xạ của một tập con của E × E vào E đôi khi được gọi là một luật hợp thành không xác định khắp nơi trên E.
 
-#### Ví dụ {#alg-i-s1-n1-exa-1 .statement}
+#### Ví dụ {#alg-i-s1-n1-exa-1 .statement tag=055C}
 
 (1) Các ánh xạ (X, Y) ↦ X ∪ Y và (X, Y) ↦ X ∩ Y là các luật hợp thành trên tập hợp các tập con của một tập hợp E.
 
@@ -79,7 +79,7 @@ Cho $(x, y) \mapsto x \tau y$ là một luật hợp thành trên một tập h�
 
 Nếu $a \in E$ ta thường viết $a \tau Y$ thay cho $\{a\} \tau Y$ và $X \tau a$ thay cho $X \tau \{a\}$. Ánh xạ $(X, Y) \mapsto X \tau Y$ là một luật hợp thành trên tập hợp các tập con của E.
 
-#### Định nghĩa 2 {#alg-i-s1-def-2 .statement}
+#### Định nghĩa 2 {#alg-i-s1-def-2 .statement tag=055D}
 
 *Cho E là một magma và $\tau$ biểu thị luật hợp thành của nó. Luật hợp thành $(x, y) \mapsto y \tau x$ trên E được gọi là luật đối của luật trên. Tập hợp E với luật này được gọi là magma đối của E.*
 
@@ -91,7 +91,7 @@ $$
 
 Tổng quát hơn:
 
-#### Định nghĩa 3 {#alg-i-s1-def-3 .statement}
+#### Định nghĩa 3 {#alg-i-s1-def-3 .statement tag=055E}
 
 *Một ánh xạ f của E vào E' sao cho hệ thức (1) đúng với mọi cặp có thứ tự $(x, y) \in E \times E$ được gọi là một đồng cấu, hoặc cấu xạ, của E vào E'; nếu $E = E'$, f được gọi là một tự đồng cấu của E.*
 
@@ -117,7 +117,7 @@ Hai dãy có thứ tự $(x_i)_{i \in I}$ và $(y_k)_{k \in K}$ được gọi l
 
 Mọi dãy có thứ tự $(x_\alpha)_{\alpha \in A}$ đều tương tự với một dãy hữu hạn thích hợp. Thật vậy, tồn tại một song ánh tăng từ A lên một khoảng $[0, n]$ của $\mathbf{N}$.
 
-#### Định nghĩa 4 {#alg-i-s1-def-4 .statement}
+#### Định nghĩa 4 {#alg-i-s1-def-4 .statement tag=055F}
 
 *Cho* $(x_\alpha)_{\alpha \in A}$ *là một dãy có thứ tự các phần tử của một magma E mà tập chỉ số A không rỗng. Hợp thành (theo luật T) của dãy có thứ tự* $(x_\alpha)_{\alpha \in A}$, *được ký hiệu bởi* $\prod_{\alpha \in A} x_\alpha$, *là phần tử của E được xác định bằng quy nạp theo số phần tử của A như sau:*
 
@@ -127,7 +127,7 @@ Mọi dãy có thứ tự $(x_\alpha)_{\alpha \in A}$ đều tương tự với 
 
 Suy ra ngay lập tức (bằng quy nạp theo số phần tử của các tập chỉ số) rằng các hợp thành của hai dãy có thứ tự tương tự là bằng nhau; đặc biệt, hợp thành của mọi dãy có thứ tự bằng hợp thành của một dãy hữu hạn. Nếu $A = \{\lambda, \mu, \nu\}$ có ba phần tử ($\lambda < \mu < \nu$) thì hợp thành $\prod_{\alpha \in A} x_\alpha$ là $x_\lambda \ T \ (x_\mu \ T \ x_\nu)$.
 
-#### Nhận xét {#alg-i-s1-n2-rem-1 .statement}
+#### Nhận xét {#alg-i-s1-n2-rem-1 .statement tag=055G}
 
 Chú ý rằng có một mức độ tùy ý nào đó trong định nghĩa hợp thành của một dãy có thứ tự; phép quy nạp mà ta đưa vào tiến hành "từ phải sang trái". Nếu ta tiến hành "từ trái sang phải", hợp thành của dãy có thứ tự trên $(x_\lambda, x_\mu, x_\nu)$ sẽ là $(x_\lambda \ T \ x_\mu) \ T \ x_\nu$.
 
@@ -145,7 +145,7 @@ $$
 
 ### 3. CÁC LUẬT KẾT HỢP
 
-#### Định nghĩa 5 {#alg-i-s1-def-5 .statement}
+#### Định nghĩa 5 {#alg-i-s1-def-5 .statement tag=055H}
 
 *Một luật hợp thành* $(x, y) \mapsto x \top y$ *trên một tập* E *được gọi là kết hợp nếu, với mọi phần tử* $x, y, z$ *trong* E,
 $$
@@ -155,12 +155,12 @@ $$
 
 Luật đối của một luật kết hợp là kết hợp.
 
-#### Ví dụ {#alg-i-s1-n3-exa-1 .statement}
+#### Ví dụ {#alg-i-s1-n3-exa-1 .statement tag=055I}
 
 (1) Phép cộng và phép nhân các số tự nhiên là các luật hợp thành kết hợp trên $\mathbf{N}$ (*Lý thuyết tập hợp*, III, § 3, no. 3, Hệ quả của Mệnh đề 5)
 (2) Các luật được nêu trong các Ví dụ (1), (3) và (4) của no. 1 là kết hợp.
 
-#### Định lý 1 (Định lý kết hợp) {#alg-i-s1-thm-1 .statement}
+#### Định lý 1 (Định lý kết hợp) {#alg-i-s1-thm-1 .statement tag=055J}
 
 *Cho* E *là một magma kết hợp có luật được ký hiệu bởi* $\top$. *Cho* A *là một tập hữu hạn không rỗng được sắp thứ tự toàn phần, là hợp của một dãy có thứ tự các tập con không rỗng* $(B_i)_{i \in I}$ *sao cho các quan hệ* $\alpha \in B_i, \beta \in B_j, i < j$ *suy ra* $\alpha < \beta$; *cho* $(x_\alpha)_{\alpha \in A}$ *là một dãy có thứ tự các phần tử trong* E *với* A *là tập chỉ số. Khi đó*
 $$
@@ -223,7 +223,7 @@ do đó nó là tập hợp tất cả các hợp thành $x_1 T x_2 T \cdots T x
 
 ### 4. CÁC TẬP CON ỔN ĐỊNH. CÁC LUẬT CẢM SINH
 
-#### Định nghĩa 6 {#alg-i-s1-def-6 .statement}
+#### Định nghĩa 6 {#alg-i-s1-def-6 .statement tag=055K}
 
 *Một tập con $A$ của một tập hợp $E$ được gọi là ổn định đối với luật hợp thành $T$ trên $E$ nếu hợp thành của hai phần tử của $A$ thuộc về $A$. Ánh xạ $(x, y) \mapsto x T y$ từ $A \times A$ vào $A$ khi đó được gọi là luật cảm sinh trên $A$ bởi luật $T$. Tập hợp $A$ với luật cảm sinh bởi $T$ được gọi là một magma con của $E$.*
 
@@ -231,7 +231,7 @@ Nói cách khác, để $A$ ổn định đối với một luật $T$ thì đi�
 
 Giao của một họ các tập con ổn định của $E$ là ổn định; đặc biệt tồn tại một tập con ổn định nhỏ nhất $A$ của $E$ chứa một tập con đã cho $X$; nó được gọi là *sinh* bởi $X$ và $X$ được gọi là một *hệ sinh* của $A$ hoặc một *tập sinh* của $A$. Magma con tương ứng cũng được gọi là *sinh* bởi $X$.
 
-#### Mệnh đề 1 {#alg-i-s1-prop-1 .statement}
+#### Mệnh đề 1 {#alg-i-s1-prop-1 .statement tag=055L}
 
 *Cho $E$ và $F$ là hai magma và $f$ là một đồng cấu của $E$ vào $F$.
 (i) Ảnh theo $f$ của một tập con ổn định của $E$ là một tập con ổn định của $F$.
@@ -241,13 +241,13 @@ Giao của một họ các tập con ổn định của $E$ là ổn định; đ
 
 Các khẳng định (i), (ii) và (iv) là hiển nhiên; ta chứng minh (iii). Gọi $\overline{X}$ là tập con ổn định của E sinh bởi X và $\overline{f(X)}$ là tập con ổn định của F sinh bởi $f(X)$. Theo (i) $\overline{f(X)} \subset f(\overline{X})$ và theo (ii) $\overline{X} \subset f^{-1}(\overline{f(X)})$, do đó $f(\overline{X}) \subset \overline{f(X)}$.
 
-#### Mệnh đề 2 {#alg-i-s1-prop-2 .statement}
+#### Mệnh đề 2 {#alg-i-s1-prop-2 .statement tag=055M}
 
 *Cho E là một magma kết hợp và X là một tập con của E. Gọi X' là tập hợp các $x_1 \top x_2 \top \cdots \top x_n$, trong đó $n \geq 1$ và $x_i \in X$ với $1 \leq i \leq n$. Tập con ổn định sinh bởi X bằng X'._
 
 Suy ra ngay lập tức bằng quy nạp theo n rằng hợp thành của một dãy có thứ tự gồm n số hạng thuộc X thuộc tập con ổn định sinh bởi X; do đó chỉ cần kiểm tra rằng X' là ổn định. Bây giờ nếu u và v là các phần tử của X' thì chúng có dạng $u = x_0 \top x_1 \top \cdots \top x_{n-1}$, $v = x_n \top x_{n+1} \top \cdots \top x_{n+p}$ với $x_i \in X$ với $0 \leq i \leq n + p$; khi đó (Định lý 1) $u \top v = x_0 \top x_1 \top \cdots \top x_{n+p}$ thuộc X'.
 
-#### Ví dụ {#alg-i-s1-n4-exa-1 .statement}
+#### Ví dụ {#alg-i-s1-n4-exa-1 .statement tag=055N}
 
 (1) Trong tập $\mathbf{N}$ các số tự nhiên, tập con ổn định đối với phép cộng sinh bởi {1} là tập hợp các số nguyên $\geq 1$; đối với phép nhân tập hợp {1} là ổn định.
 
@@ -257,17 +257,17 @@ Suy ra ngay lập tức bằng quy nạp theo n rằng hợp thành của một 
 
 ### 5. CÁC PHẦN TỬ HOÁN ĐỔI ĐƯỢC. CÁC LUẬT GIAO HOÁN
 
-#### Định nghĩa 7 {#alg-i-s1-def-7 .statement}
+#### Định nghĩa 7 {#alg-i-s1-def-7 .statement tag=055O}
 
 *Cho E là một magma có luật được ký hiệu bởi $\top$. Hai phần tử x và y của E được gọi là giao hoán (hoặc hoán đổi được) nếu $y \top x = x \top y$.*
 
-#### Định nghĩa 8 {#alg-i-s1-def-8 .statement}
+#### Định nghĩa 8 {#alg-i-s1-def-8 .statement tag=055P}
 
 *Một luật hợp thành trên một tập hợp E được gọi là giao hoán nếu hai phần tử bất kỳ của E giao hoán theo luật này. Một magma có luật hợp thành giao hoán được gọi là một magma giao hoán.*
 
 Một luật giao hoán bằng với luật đối của nó.
 
-#### Ví dụ {#alg-i-s1-n5-exa-1 .statement}
+#### Ví dụ {#alg-i-s1-n5-exa-1 .statement tag=055Q}
 
 (1) Phép cộng và phép nhân các số tự nhiên là các luật giao hoán trên $\mathbf{N}$ (*Lý thuyết tập hợp*, III, § 3, no. 3, Hệ quả của Mệnh đề 5).
 
@@ -281,7 +281,7 @@ $$
 $$
 giữa các tập con của $E$ là giao hoán.
 
-#### Định nghĩa 9 {#alg-i-s1-def-9 .statement}
+#### Định nghĩa 9 {#alg-i-s1-def-9 .statement tag=055R}
 
 *Cho $E$ là một magma và $X$ là một tập con của $E$. Tập hợp các phần tử của $E$ giao hoán với mỗi phần tử của $X$ được gọi là tập trung hóa của $X$.*
 
@@ -291,7 +291,7 @@ Cho $(X_i)_{i \in I}$ là một họ các tập con của $E$ và với mọi $i
 
 Cho $X$ là một tập con của $E$ và $X'$ là tập trung hóa của $X$. Tập trung hóa $X''$ của $X'$ được gọi là *tập trung hóa kép* của $X$. Khi đó $X \subset X''$. Tập trung hóa $X'''$ của $X''$ bằng $X'$. Vì $X'$ được chứa trong tập trung hóa kép của nó $X'''$ và quan hệ $X \subset X''$ kéo theo $X'''' \subset X'$.
 
-#### Mệnh đề 3 {#alg-i-s1-prop-3 .statement}
+#### Mệnh đề 3 {#alg-i-s1-prop-3 .statement tag=055S}
 
 *Cho $E$ là một magma kết hợp có luật được ký hiệu bởi $\top$. Nếu một phần tử $x$ của $E$ giao hoán với mỗi phần tử $y$ và $z$ của $E$, thì nó giao hoán với $y \top z$.*
 
@@ -301,31 +301,31 @@ x \top (y \top z) = (x \top y) \top z = (y \top x) \top z \\
 = y \top (x \top z) = y \top (z \top x) = (y \top z) \top x.
 $$
 
-#### Hệ quả {#alg-i-s1-n5-cor-1 .statement}
+#### Hệ quả {#alg-i-s1-n5-cor-1 .statement tag=055T}
 
 *Cho $E$ là một magma kết hợp. Tập trung hóa của bất kỳ tập con nào của $E$ là một tập con ổn định của $E$.*
 
-#### Định nghĩa 10 {#alg-i-s1-def-10 .statement}
+#### Định nghĩa 10 {#alg-i-s1-def-10 .statement tag=055U}
 
 *Tập trung hóa của một magma $E$ được gọi là tâm của $E$. Một phần tử của tâm của $E$ được gọi là một phần tử trung tâm của $E$.*
 
 Nếu $E$ là một magma kết hợp thì tâm của nó là một tập con ổn định theo Hệ quả của Mệnh đề 3 và luật cảm sinh trên tâm của nó là giao hoán.
 
-#### Mệnh đề 4 {#alg-i-s1-prop-4 .statement}
+#### Mệnh đề 4 {#alg-i-s1-prop-4 .statement tag=055V}
 
 *Cho $E$ là một magma kết hợp, $X$ và $Y$ là hai tập con của $E$. Nếu mọi phần tử của $X$ giao hoán với mọi phần tử của $Y$ thì mọi phần tử của tập con ổn định sinh bởi $X$ giao hoán với mọi phần tử của tập con ổn định sinh bởi $Y$.*
 
 Cho $X'$ và $X''$ lần lượt là toán tử trung tâm và toán tử trung tâm kép của $X$. Chúng là các tập con ổn định của $E$. Bây giờ $X \subset X''$ và $Y \subset X'$ và do đó $X''$ (tương ứng $X'$) chứa tập con ổn định của $E$ sinh bởi $X$ (tương ứng $Y$). Vì mọi phần tử của $X''$ giao hoán với mọi phần tử của $X'$, mệnh đề được suy ra.
 
-#### Hệ quả 1 {#alg-i-s1-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-i-s1-prop-4-cor-1 .statement tag=055W}
 
 *Nếu $x$ và $y$ hoán vị được dưới luật kết hợp $\top$ thì $\top^m x$ và $\top^n y$ cũng hoán vị được với mọi số nguyên $m > 0$ và $n > 0$; đặc biệt $\top^m x$ và $\top^n x$ hoán vị được với mọi $x$ và mọi số nguyên $m > 0$ và $n > 0$.*
 
-#### Hệ quả 2 {#alg-i-s1-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-i-s1-prop-4-cor-2 .statement tag=055X}
 
 *Nếu mọi cặp các phần tử của một tập con X đều hoán vị được dưới một luật kết hợp T, thì luật cảm sinh bởi T trên tập con ổn định sinh bởi X là kết hợp và giao hoán.*
 
-#### Định lý 2 (Định lý giao hoán) {#alg-i-s1-thm-2 .statement}
+#### Định lý 2 (Định lý giao hoán) {#alg-i-s1-thm-2 .statement tag=055Y}
 
 *Cho T là một luật hợp thành kết hợp trên E; cho $(x_\alpha)_{\alpha \in A}$ là một họ hữu hạn khác rỗng các phần tử của E từng đôi một hoán vị được; cho B và C là hai tập hợp được sắp thứ tự toàn phần với A là tập nền. Khi đó*
 $$
@@ -353,7 +353,7 @@ $$
 
 Dưới một luật kết hợp giao hoán trên một tập hợp E, *hợp thành* của một *họ hữu hạn* $(x_\alpha)_{\alpha \in A}$ các phần tử của E, theo định nghĩa, là giá trị chung của các hợp thành của tất cả các *dãy có thứ tự* thu được bằng cách sắp thứ tự toàn phần A theo mọi cách có thể. Hợp thành này vẫn được ký hiệu là $\prod_{\alpha \in A} x_\alpha$ dưới một luật ký hiệu là T; tương tự đối với các ký hiệu khác.
 
-#### Định lý 3 {#alg-i-s1-thm-3 .statement}
+#### Định lý 3 {#alg-i-s1-thm-3 .statement tag=055Z}
 
 *Cho T là một luật kết hợp trên E và $(x_\alpha)_{\alpha \in A}$ là một họ hữu hạn khác rỗng các phần tử của E từng đôi một hoán vị được. Nếu A là hợp của các tập con khác rỗng $(B_i)_{i \in I}$ từng đôi một rời nhau, thì*
 
@@ -405,7 +405,7 @@ $$
 \prod_{0 \leq i_1 < i_2 < \cdots < i_p < n} x_{i_1 i_2 \ldots i_p} \quad \text{hoặc đơn giản} \quad \prod_{i_1 < i_2 < \cdots < i_p} x_{i_1 i_2 \ldots i_p}.
 $$
 
-#### Mệnh đề 5 {#alg-i-s1-prop-5 .statement}
+#### Mệnh đề 5 {#alg-i-s1-prop-5 .statement tag=0560}
 
 Cho E và F là các magma có các luật được ký hiệu bởi T và cho f và g là các đồng cấu từ E vào F. Gọi f T g là ánh xạ x ↦ f(x) T g(x) từ E vào F. Nếu F kết hợp và giao hoán, thì f T g là một đồng cấu.
 
@@ -416,7 +416,7 @@ $$= f(x) T g(x) T f(y) T g(y) = ((f T g)(x)) T ((f T g)(y)).$$
 
 ### 6. CÁC LUẬT THƯƠNG
 
-#### Định nghĩa 11 {#alg-i-s1-def-11 .statement}
+#### Định nghĩa 11 {#alg-i-s1-def-11 .statement tag=0561}
 
 Cho E là một tập hợp. Một luật hợp thành T và một quan hệ tương đương R trên E được gọi là tương thích nếu các quan hệ x ≡ x' (mod R) và y ≡ y' (mod R) (với x, x', y, y' ∈ E) kéo theo x T y ≡ x' T y' (mod R); luật hợp thành trên tập thương E/R ánh xạ các lớp tương đương của x và y vào lớp tương đương của x T y được gọi là luật thương của luật T đối với R. Tập hợp E/R cùng với luật thương được gọi là magma thương của E đối với R.
 
@@ -430,15 +430,15 @@ Nếu luật T là kết hợp (tương ứng, giao hoán) thì luật thương 
 
 Hai mệnh đề sau đây là ngay lập tức từ các định nghĩa:
 
-#### Mệnh đề 6 {#alg-i-s1-prop-6 .statement}
+#### Mệnh đề 6 {#alg-i-s1-prop-6 .statement tag=0562}
 
 Cho E và F là hai magma và f là một đồng cấu từ E vào F. Gọi R[x, y] là quan hệ f(x) = f(y) giữa các phần tử x, y của E. Khi đó R là một quan hệ tương đương trên E tương thích với luật trên E và ánh xạ từ E/R lên f(E) dẫn xuất từ f bằng cách chuyển qua thương là một đẳng cấu từ magma thương E/R lên magma con f(E) của F.
 
-#### Mệnh đề 7 {#alg-i-s1-prop-7 .statement}
+#### Mệnh đề 7 {#alg-i-s1-prop-7 .statement tag=0563}
 
 Cho E là một magma và R là một quan hệ tương đương trên E tương thích với luật trên E. Để một quan hệ tương đương S trên E/R tương thích với luật thương, điều kiện cần và đủ là S có dạng T/R, trong đó T là một quan hệ tương đương trên E được suy ra từ R và tương thích với luật trên E. Khi đó ánh xạ chính tắc từ E/T lên (E/R)/(T/R) (Lý thuyết Tập hợp, II, § 6, no. 7) là một đẳng cấu magma.
 
-#### Mệnh đề 8 {#alg-i-s1-prop-8 .statement}
+#### Mệnh đề 8 {#alg-i-s1-prop-8 .statement tag=0564}
 
 Cho E là một magma, A là một tập con ổn định của E và R là một quan hệ tương đương trên E tương thích với luật trên E. Bao đóng B của A đối với R (Lý thuyết Tập
 
@@ -446,7 +446,7 @@ Gọi $\top$ là luật trên $E$. Nếu $x$ và $y$ là hai phần tử của $
 
 Cho $M$ là một magma và $((u_\alpha, v_\alpha))_{\alpha \in I}$ là một họ các phần tử của $M \times M$. Xét tất cả các quan hệ tương đương $S$ trên $M$ tương thích với luật trên $M$ và sao cho $u_\alpha \equiv v_\alpha \pmod{S}$ với mọi $\alpha \in I$. Giao của các đồ thị của các quan hệ này là đồ thị của một quan hệ tương đương $R$ tương thích với luật trên $M$ và sao cho $u_\alpha \equiv v_\alpha \pmod{R}$. Do đó $R$ là quan hệ tương đương mịn nhất (Lý thuyết tập hợp, III, § 1, các số 3 và 7) có hai tính chất này. Nó được gọi là quan hệ tương đương tương thích với luật trên $M$ sinh bởi các $(u_\alpha, v_\alpha)$.
 
-#### Mệnh đề 9 {#alg-i-s1-prop-9 .statement}
+#### Mệnh đề 9 {#alg-i-s1-prop-9 .statement tag=0565}
 
 Giữ nguyên ký hiệu trên, cho $f$ là một đồng cấu từ $M$ vào một magma sao cho $f(u_\alpha) = f(v_\alpha)$ với mọi $\alpha \in I$. Khi đó $f$ tương thích với $R$.
 

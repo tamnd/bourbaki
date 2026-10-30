@@ -28,9 +28,9 @@ subsections:
       pdf_page: 192
 statements: 9
 exercises: 4
-content_sha256: d77322565b81e513dbfd95ee99e4568c10a4cd6611d45e16b254765ee7137d85
+content_sha256: 8c6cac46a8633ee29300488bb27cc71fdd898489dcca6f228bf1cb72ba5d48d3
 translated_from: content/en/lie/II/08_s8_convergence_of_the_hausdorff_series.md
-source_content_sha256: dd8b3a4a37711971ee89a625e730b67e3445af5fd7e146dbb08e9a125ac0c3d4
+source_content_sha256: 4e23a56fb861bed945b01d7c816d0a6e594b96b17aad3c28c11640248838980a
 translation_model: gpt-5.4
 translation_run: translate-vi-dc8f82dd
 glossary_version: 34
@@ -53,7 +53,7 @@ $$
 
 *Trong số này, ta giả sử rằng $p \neq 0$.*
 
-#### Bổ đề 1 {#lie-ii-s8-lem-1 .statement}
+#### Bổ đề 1 {#lie-ii-s8-lem-1 .statement tag=0A6Q}
 
 *Cho $n$ là một số nguyên $\geqslant 0$ và cho $n = n_0 + n_1 p + \cdots + n_k p^k$, với $0 \leqslant n_i \leqslant p - 1$, là khai triển $p$-adic của $n$. Đặt $S(n) = n_0 + n_1 + \cdots + n_k$. Khi đó*
 $$
@@ -65,7 +65,7 @@ v_p(n!) = \sum_{j \geqslant 0} j ([n/p^j] - [n/p^{j+1}]) = \sum_{j \geqslant 1} 
 $$
 Vì $[n/p^j] = \sum_{i \geqslant j} n_i p^{i-j}$, nên suy ra bổ đề.
 
-#### Bổ đề 2 {#lie-ii-s8-lem-2 .statement}
+#### Bổ đề 2 {#lie-ii-s8-lem-2 .statement tag=0A6R}
 
 $v(n) \leqslant v(n!) \leqslant (n - 1)\theta$ và $v(n) \leqslant (\log n)/(\log p)$ với mọi số nguyên $n \geqslant 1$.
 $v(n!) = v_p(n!) = (n - S(n))\theta \leqslant (n - 1)\theta$ theo Bổ đề 1.
@@ -76,7 +76,7 @@ $$
 $$
 là chuỗi Hausdorff (§ 6, no. 4, Định nghĩa 1). Cho $\mathbf{Z}_{(p)}$ là vành địa phương của $\mathbf{Z}$ đối với iđêan nguyên tố $(p)$ và $(e_b)_{b \in B}$ là một cơ sở của $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ trên $\mathbf{Z}$ (§ 2, no. 11, Định lý 1). Nó cũng là một cơ sở của $\mathbf{L}_{\mathbf{Q}}(I)$ trên $\mathbf{Q}$.
 
-#### Mệnh đề 1 {#lie-ii-s8-prop-1 .statement}
+#### Mệnh đề 1 {#lie-ii-s8-prop-1 .statement tag=0A6S}
 
 *Nếu $r$ và $s$ là hai số nguyên $\geqslant 0$. Nếu $H_{r,s} = \sum_{b \in B} \lambda_b e_b$, trong đó $\lambda_b \in \mathbf{Q}$, là phân tích của $\mathbf{H}$ theo cơ sở $(e_b)_{b \in B}$, thì*
 $$
@@ -108,7 +108,7 @@ vì nó là một số nguyên, nên nó $\leq f$, điều này hoàn tất ch�
 
 ### 2. ĐẠI SỐ LIE CHUẨN
 
-#### Định nghĩa 1 {#lie-ii-s8-def-1 .statement}
+#### Định nghĩa 1 {#lie-ii-s8-def-1 .statement tag=0A6T}
 
 *Một đại số Lie có chuẩn trên K* là một đại số Lie được trang bị một chuẩn sao cho
 $$
@@ -133,7 +133,7 @@ là hội tụ (*Differentiable and Analytic Manifolds*, R, 4.1.1).
 
 Cho $r \geq 0, s \geq 0$ sao cho $r + s \neq 0$ và gọi $\| \tilde{H}_{r,s} \|$ là chuẩn của đa thức liên tục $\tilde{H}_{r,s}$ (Đa tạp khả vi và giải tích, R, Phụ lục, no. 2).
 
-#### Bổ đề 3 {#lie-ii-s8-lem-3 .statement}
+#### Bổ đề 3 {#lie-ii-s8-lem-3 .statement tag=0A6U}
 
 $$
 \| \tilde{H}_{r,s} \| \leq a^{-(r+s-1)\theta}.
@@ -155,7 +155,7 @@ $$
 $$
 Các hệ thức (11) và (12) suy ra bổ đề.
 
-#### Mệnh đề 2 {#lie-ii-s8-prop-2 .statement}
+#### Mệnh đề 2 {#lie-ii-s8-prop-2 .statement tag=0A6V}
 
 Chuỗi lũy thừa hình thức $\tilde{H}$ là một chuỗi hội tụ (Đa tạp Khả vi và Giải tích, R, 4.1.1). Nếu G là quả cầu $\{ x \in g \mid \| x \| < a^\theta \}$, thì miền hội tụ tuyệt đối của $\tilde{H}$ (Đa tạp Khả vi và Giải tích, R, 4.1.3) chứa $G \times G$.
 
@@ -191,7 +191,7 @@ ta lập luận tương tự nếu $s \geq 1$.
 
 Đặc biệt, $\| h(x, y) \| < a^{\theta}$ với $(x, y) \in G \times G$.
 
-#### Mệnh đề 3 {#lie-ii-s8-prop-3 .statement}
+#### Mệnh đề 3 {#lie-ii-s8-prop-3 .statement tag=0A6W}
 
 *Cho $G$ là quả cầu $\{ x \in g | \| x \| < a^{\theta} \}$. Ánh xạ giải tích*
 $$
@@ -256,7 +256,7 @@ $$
 $$
 và do đó $e_A(G_R) \subset G_R$, $l_A(G_R) \subset G_R$ với $R \leq a^\theta$.
 
-#### Mệnh đề 4 {#lie-ii-s8-prop-4 .statement}
+#### Mệnh đề 4 {#lie-ii-s8-prop-4 .statement tag=0A6X}
 
 *Cho $R$ là một số thực sao cho $0 < R \leq a^\theta$. Ánh xạ $\exp_A$ xác định một đẳng cấu giải tích từ $G_R$ lên $1 + G_R$ và đẳng cấu nghịch đảo là hạn chế của $\log_A$ trên $1 + G_R$.*
 
@@ -272,7 +272,7 @@ $$
 h(x, y) = \sum_{r, s \geq 0} H_{r,s}(x, y).
 $$
 
-#### Mệnh đề 5 {#lie-ii-s8-prop-5 .statement}
+#### Mệnh đề 5 {#lie-ii-s8-prop-5 .statement tag=0A6Y}
 
 Với x, y trong G,
 $$

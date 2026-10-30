@@ -32,7 +32,7 @@ subsections:
       pdf_page: 77
 statements: 33
 exercises: 7
-content_sha256: 19396da9c7266e111a22152a3c38c8101ec803bca9eb1e79fef804297c3c8b73
+content_sha256: 9fbd06e08f756d1be9ad712e774774412139dfe9f8daf6e2ac34c71d410cf230
 translated_from: content/fr/ac/X/06_s6_extension_des_scalaires_dans_les.md
 source_lang: fr
 translation_method: machine
@@ -52,15 +52,15 @@ Let $k$ be a ring. Let $A$ be a $k$-algebra and $x = (x_i)_{i \in I}$ a family o
 
 We shall say that a $k$-algebra $A$ is essentially of finite type if it admits a finite essentially generating family. It amounts to the same to say that there exist a $k$-algebra $A'$ of finite type and a multiplicative subset $S$ of $A'$ such that the $k$-algebra $A$ is isomorphic to $S^{-1}A'$.
 
-#### Example 1 {#ac-x-s6-n1-exa-1 .statement}
+#### Example 1 {#ac-x-s6-n1-exa-1 .statement tag=0D7O}
 
 To say that an extension $L$ of a field $K$ is a $K$-algebra essentially of finite type means that it is an extension of finite type in the sense of A, V, p. 11, Def. 2. The $K$-algebra $L$ is of finite type only if it is an extension of finite degree of $K$ (V, § 3, No. 4, Cor. 3 of Th. 3).
 
-#### Example 2 {#ac-x-s6-n1-exa-2 .statement}
+#### Example 2 {#ac-x-s6-n1-exa-2 .statement tag=0D7P}
 
 In order that a local $k$-algebra be essentially of finite type, it is necessary and sufficient that it be isomorphic to a $k$-algebra of the form $A_p$, where $A$ is a $k$-algebra of finite type and $p$ a prime ideal of $A$ (cf. II, § 2, No. 5, Prop. 11 (iii)).
 
-#### Proposition 1 {#ac-x-s6-prop-1 .statement}
+#### Proposition 1 {#ac-x-s6-prop-1 .statement tag=0D7Q}
 
 If the ring $k$ is noetherian, every $k$-algebra essentially of finite type is a noetherian ring.
 
@@ -68,7 +68,7 @@ This follows from III, § 2, No. 10, Cor. 3 of Th. 2 and II, § 2, No. 4, Cor. 2
 
 The following properties are deduced from the definition:
 
-#### Proposition 2 {#ac-x-s6-prop-2 .statement}
+#### Proposition 2 {#ac-x-s6-prop-2 .statement tag=0D7R}
 
 a) Every quotient algebra of a $k$-algebra essentially of finite type is essentially of finite type.
 
@@ -78,13 +78,13 @@ c) The product $k$-algebra of a finite family of $k$-algebras essentially of fin
 
 d) Let $k \to k'$ be a homomorphism of rings; for every $k$-algebra $A$ essentially of finite type, the $k'$-algebra $A_{(k')} = k' \otimes_k A$ is essentially of finite type.
 
-#### Corollary {#ac-x-s6-n1-cor-1 .statement}
+#### Corollary {#ac-x-s6-n1-cor-1 .statement tag=0D7S}
 
 Let $A$ be a $k$-algebra essentially of finite type and $B$ a noetherian $k$-algebra. Then the ring $A \otimes_k B$ is noetherian.
 
 In fact, it is a $B$-algebra essentially of finite type (prop. 2, d)), and one applies Proposition 1.
 
-#### Proposition 3 {#ac-x-s6-prop-3 .statement}
+#### Proposition 3 {#ac-x-s6-prop-3 .statement tag=0D7T}
 
 Let $k$ be a ring, $A$ a $k$-algebra and $B$ an $A$-algebra. If $A$ is essentially of finite type over $k$ and $B$ essentially of finite type over $A$, then $B$ is essentially of finite type over $k$.
 
@@ -96,7 +96,7 @@ $$
 
 Thus the elements $\rho(x_i)$ for $i \in I$ and $y_j$ for $j \in J$ form a finite essentially generating family of the $k$-algebra $B$.
 
-#### Corollaire {#ac-x-s6-n1-cor-2 .statement}
+#### Corollaire {#ac-x-s6-n1-cor-2 .statement tag=0D7U}
 
 The tensor product of two $k$-algebras essentially of finite type is a $k$-algebra essentially of finite type.
 
@@ -104,7 +104,7 @@ For let $A$ and $B$ be two $k$-algebras essentially of finite type. Then $A \oti
 
 ### 2. Tensor products of Macaulay or Gorenstein algebras
 
-#### Proposition 4 {#ac-x-s6-prop-4 .statement}
+#### Proposition 4 {#ac-x-s6-prop-4 .statement tag=0D7V}
 
 Let $k$ be a field, $A$ a $k$-algebra essentially of finite type and $B$ a $k$-algebra.
 
@@ -122,13 +122,13 @@ $$
 
 and such that $K_i$ is a monogenic $K_{i-1}$-algebra for $i = 1, \ldots, m$; this enables us to reduce to the case where the extension $K$ of $k$ is monogenic (of finite degree). The canonical homomorphism $B \to K \otimes_k B$ makes $K \otimes_k B$ into a flat $B$-algebra and, for every $q \in \mathrm{Spec}(B)$, the ring $(K \otimes_k B) \otimes_B \kappa(q)$, isomorphic to $K \otimes_k \kappa(q)$, is a monogenic $\kappa(q)$-algebra, hence a Gorenstein ring ($§ 3$, n° 9, example 5). Thus $K \otimes_k B$ is a Gorenstein ring ($§ 3$, n° 8, cor. 1 of Prop. 12), which completes the proof of b).
 
-#### Corollary 1 {#ac-x-s6-prop-4-cor-1 .statement}
+#### Corollary 1 {#ac-x-s6-prop-4-cor-1 .statement tag=0D7W}
 
 Let $k$ be a field, $K$ an extension of $k$ and $A$ a $k$-algebra essentially of finite type. For $A_{(K)}$ to be a Macaulay ring (resp. a Gorenstein ring), it is necessary and sufficient that the same be true of $A$.
 
 If $A$ is a Macaulay ring (resp. a Gorenstein ring), the same is true of $A_{(K)}$ by Prop. 4. Since $A_{(K)}$ is a faithfully flat $A$-module, the converse follows from Prop. 10 of § 2, No. 7 (resp. Cor. 1 of Prop. 12 of § 3, No. 8).
 
-#### Corollary 2 {#ac-x-s6-prop-4-cor-2 .statement}
+#### Corollary 2 {#ac-x-s6-prop-4-cor-2 .statement tag=0D7X}
 
 Let $k$ be a noetherian ring, $A$ and $B$ $k$-algebras. Suppose that $A$ is flat and essentially of finite type over $k$. If $A$ and $B$ are Macaulay rings (resp. Gorenstein rings), then $A \otimes_k B$ is a Macaulay ring (resp. a Gorenstein ring).
 
@@ -138,7 +138,7 @@ Let us pass to the general case. The $B$-algebra $A \otimes_k B$ is flat, and no
 
 ### 3. Separable extension of the base field in regular¹ or normal algebras
 
-#### Lemma 1 {#ac-x-s6-lem-1 .statement}
+#### Lemma 1 {#ac-x-s6-lem-1 .statement tag=0D7Y}
 
 Let $A$ be a noetherian ring, the union of an increasing filtered family $(A_\alpha)_{\alpha \in I}$ of noetherian subrings.
 
@@ -150,7 +150,7 @@ a) Let $m$ be a maximal ideal of $A$; for each $\alpha \in I$, let us denote by 
 
 b) Since the $A_\alpha$ are reduced, $A$ is reduced. Let $a$ and $b$ be elements of $A$ such that $b$ is not a zero divisor and that the element $a/b$ of the total ring of fractions of $A$ is integral over $A$. There exists a monic polynomial $P \in A[X]$ such that $P(a/b) = 0$. Let $\alpha$ be an element of $I$ such that the ring $A_\alpha$ contains $a$, $b$ and the coefficients of $P$. Since $A_\alpha$ is normal, there exists $c \in A_\alpha$ such that $a = bc$. Thus $a/b = c$ belongs to $A$ and $A$ is normal.
 
-#### Lemma 2 {#ac-x-s6-lem-2 .statement}
+#### Lemma 2 {#ac-x-s6-lem-2 .statement tag=0D7Z}
 
 Let $k$ be a field, and let $K$ and $L$ be extensions of $k$. Suppose that $K$ is of finite type and that one of the extensions $K$ or $L$ is separable. Then the ring $K \otimes_k L$ is regular.
 
@@ -158,7 +158,7 @@ Let $A$ denote the ring $K \otimes_k L$; it is noetherian by cor. of prop. 2 (No
 
 Suppose now that $L$ is separable over $k$. By the first part of the proof, the ring $K \otimes_k L'$ is regular for every finite-type subextension $L'$ of $L$. One concludes by applying lemma 1.
 
-#### Proposition 5 {#ac-x-s6-prop-5 .statement}
+#### Proposition 5 {#ac-x-s6-prop-5 .statement tag=0D80}
 
 Let $k$ be a field, $A$ a $k$-algebra and $K$ an extension of $k$. Suppose that $A$ is essentially of finite type or that the extension $K$ is of finite type.
 
@@ -172,17 +172,17 @@ The $A$-module $A_{(K)}$ is free, hence faithfully flat; assertion a) therefore 
 
 ### 4. Absolutely regular or absolutely normal algebras
 
-#### Definition 1 {#ac-x-s6-def-1 .statement}
+#### Definition 1 {#ac-x-s6-def-1 .statement tag=0D81}
 
 Let $k$ be a field and $A$ a $k$-algebra. One says that $A$ is absolutely regular (resp. absolutely normal)$^1$ if the ring $A_{(k')}$ is regular (resp. normal) for every radicial extension $k'$ of finite degree of $k$.
 
 Every absolutely regular (resp. absolutely normal) $k$-algebra is regular (resp. normal), as is seen by taking $k' = k$ in definition 1. Recall that the $k$-algebras $A$ such that the ring $A_{(k')}$ is reduced for every radicial extension $k'$ of finite degree of $k$ are the separable $k$-algebras (A, V, p. 117, th. 2).
 
-#### Example 1 {#ac-x-s6-n4-exa-1 .statement}
+#### Example 1 {#ac-x-s6-n4-exa-1 .statement tag=0D82}
 
 If $k$ is perfect, every regular (resp. normal) $k$-algebra is absolutely regular (resp. absolutely normal).
 
-#### Example 2 {#ac-x-s6-n4-exa-2 .statement}
+#### Example 2 {#ac-x-s6-n4-exa-2 .statement tag=0D83}
 
 Let $A$ be an artinian $k$-algebra. If $A$ is normal, it is reduced, hence isomorphic to a finite product of extensions of $k$ (A, VIII, § 8, No. 1, prop. 2). The following conditions are equivalent:
 
@@ -194,13 +194,13 @@ In fact, if $A$ is absolutely normal, it is separable; if $A$ is separable, for 
 
 If moreover the $k$-algebra $A$ is of finite degree, the preceding conditions are also equivalent to saying that $A$ is étale (A, V, p. 34, th. 4).
 
-#### Example 3 {#ac-x-s6-n4-exa-3 .statement}
+#### Example 3 {#ac-x-s6-n4-exa-3 .statement tag=0D84}
 
 Let $A$ be a regular local $k$-algebra. If the extension $\kappa_A$ of $k$ is separable, the algebra $A$ is absolutely regular. Let indeed $k'$ be a finite-degree extension of $k$. The $A$-module $A_{(k')}$ is free. Since it is of finite type, every maximal ideal of $A_{(k')}$ lies over $\mathfrak{m}_A$ (V, § 2, No. 1, prop. 1). The ring $\kappa_A \otimes_A A_{(k')}$, isomorphic to $\kappa_A \otimes_k k'$, is regular (No. 3, lemma 2). By the corollary to prop. 9 of § 4, No. 5, the ring $A_{(k')}$ is regular, which proves that the $k$-algebra $A$ is absolutely regular.
 
 $^1$ Some authors use the terminology “geometrically regular” (resp. “geometrically normal”.
 
-#### Proposition 6 {#ac-x-s6-prop-6 .statement}
+#### Proposition 6 {#ac-x-s6-prop-6 .statement tag=0D85}
 
 Let k be a field and A a noetherian k-algebra.
 
@@ -214,13 +214,13 @@ b) Suppose that $A_m$ is absolutely regular (resp. absolutely normal, resp. sepa
 
 The canonical homomorphism $A \to A_{(k')}$ makes $A_{(k')}$ into a finite A-algebra. The ideal $m'$ lies over a maximal ideal m of A (V, § 2, No. 1, prop. 1), and $(A_{(k')})_{m'}$ is isomorphic to a ring of fractions of the regular (resp. normal, resp. reduced) ring $(A_m)_{(k')}$, and is therefore regular (resp. normal, resp. reduced).
 
-#### Lemma 3 {#ac-x-s6-lem-3 .statement}
+#### Lemma 3 {#ac-x-s6-lem-3 .statement tag=0D86}
 
 Let k be a field and K a finite-type extension of k. There exist an extension L of K, of finite degree, and a subextension $k'$ of L over k, radicial and of finite degree over k, such that the extension L of $k'$ is separable.
 
 Let us choose a composite extension E of K and of a perfect closure $\hat{k}$ of k, and elements $(t_1, \ldots, t_n)$ of E such that E is a separable algebraic extension of $\hat{k}(t_1, \ldots, t_n)$ (A, V, p. 130, cor.). Let I be a finite generating subset of K over k. The field $\hat{k}(t_1, \ldots, t_n)$ (resp. $\hat{k}K$) is the union of the subfields $k'(t_1, \ldots, t_n)$ (resp. $k'K$), where $k'$ runs through the set of subextensions of $\hat{k}$ of finite degree over k; hence one can find such a subextension $k'$ such that the elements $t_1, \ldots, t_n$ of E = $\hat{k}K$ belong to $k'K$ and that each element of I is algebraic and separable over $k'(t_1, \ldots, t_n)$. Then L = $k'K$ is a separable extension of $k'$, of finite degree over K, and $k'$ is a finite radicial extension of k.
 
-#### Proposition 7 {#ac-x-s6-prop-7 .statement}
+#### Proposition 7 {#ac-x-s6-prop-7 .statement tag=0D87}
 
 Let k be a field, A and B two k-algebras one of which is essentially of finite type. Suppose that A is absolutely regular (resp. absolutely normal). If the ring B is regular (resp. normal), the same is true of the ring $A \otimes_k B$.
 
@@ -230,13 +230,13 @@ Suppose the ring B regular (resp. normal), and prove the proposition. The canoni
 
 If the $k$-algebra B is essentially of finite type, the extension $\kappa(p)$ of $k$ is of finite type and the ring $A \otimes_k \kappa(p)$ is regular (resp. normal) by what we have seen above. Suppose now the $k$-algebra A essentially of finite type; the ring $A \otimes_k \kappa(p)$ is noetherian and is the union of the increasing filtered family of noetherian subrings $A \otimes_k K$, where $K$ runs through the subextensions of finite type of $\kappa(p)$. The latter are regular (resp. normal), and one applies lemma 1 of No. 3.
 
-#### Corollary 1 {#ac-x-s6-prop-7-cor-1 .statement}
+#### Corollary 1 {#ac-x-s6-prop-7-cor-1 .statement tag=0D88}
 
 Let $k$ be a field. The tensor product of two absolutely regular (resp. absolutely normal) $k$-algebras, one of which is essentially of finite type, is an absolutely regular (resp. absolutely normal) $k$-algebra.
 
 Let $A$ and $B$ be two $k$-algebras satisfying the hypotheses of the corollary. Let $k'$ be a finite radicial extension of $k$. The ring $B_{(k')}$ is regular (resp. normal); the ring $A \otimes_k B_{(k')}$ is regular (resp. normal) by Prop. 7, as is the ring $(A \otimes_k B) \otimes_k k'$ which is isomorphic to it.
 
-#### Corollary 2 {#ac-x-s6-prop-7-cor-2 .statement}
+#### Corollary 2 {#ac-x-s6-prop-7-cor-2 .statement tag=0D89}
 
 Let $k$ be a field, $A$ an absolutely regular (resp. absolutely normal) $k$-algebra, and $K$ an extension of $k$. Suppose that $A$ is essentially of finite type or that the extension $K$ of $k$ is of finite type.
 
@@ -246,7 +246,7 @@ b) If the extension $K$ of $k$ is separable, the $k$-algebra $A_{(K)}$ is absolu
 
 Assertion a) results from proposition 7; assertion b) results from cor. 1 and example 2.
 
-#### Corollary 3 {#ac-x-s6-prop-7-cor-3 .statement}
+#### Corollary 3 {#ac-x-s6-prop-7-cor-3 .statement tag=0D8A}
 
 Let $k$ be a field, $A$ a $k$-algebra, and $K$ an extension of $k$. Suppose that the $k$-algebra $A$ is essentially of finite type or that the extension $K$ of $k$ is of finite type. In order that the $k$-algebra $A$ be absolutely regular (resp. absolutely normal), it is necessary and sufficient that the $K$-algebra $A_{(K)}$ be so.
 
@@ -254,7 +254,7 @@ Suppose $A$ absolutely regular (resp. absolutely normal) and let $K'$ be a purel
 
 Suppose conversely that the $K$-algebra $A_{(K)}$ is absolutely regular (resp. absolutely normal), and let $k'$ be a purely inseparable extension of $k$ of finite degree. Let $L$ be a composite extension of $k'$ and $K$; then the ring $A_{(L)}$ may be identified with $L \otimes_K A_{(K)}$, hence is regular (resp. normal); consequently, the ring $A_{(k')}$ is regular (resp. normal) by prop. 5, a) of No. 3.
 
-#### Corollary 4 {#ac-x-s6-prop-7-cor-4 .statement}
+#### Corollary 4 {#ac-x-s6-prop-7-cor-4 .statement tag=0D8B}
 
 Let $k$ be a field, $A$ a $k$-algebra essentially of finite type, and $K$ an extension of $k$ which is a perfect field. In order that $A$ be absolutely regular (resp. absolutely normal), it is necessary and sufficient that the ring $A_{(K)}$ be regular (resp. normal).
 
@@ -262,7 +262,7 @@ This results from cor. 3 and example 1.
 
 ### 5. Characterizations of absolutely regular algebras
 
-#### Proposition 8 {#ac-x-s6-prop-8 .statement}
+#### Proposition 8 {#ac-x-s6-prop-8 .statement tag=0D8C}
 
 Let k be a field and A a k-algebra essentially of finite type. Let I denote the kernel of the homomorphism of k-algebras $\mu : A \otimes_k A \to A$ such that $\mu(x \otimes y) = xy$ for x and y in A. The following conditions are equivalent:
 
@@ -296,7 +296,7 @@ n = \sup \deg.\mathrm{tr}_k(\kappa(\mathfrak{p}))
 $$
 where \mathfrak{p} runs through the (finite) family of minimal prime ideals of A. If A is an integral domain, n is therefore the transcendence degree of the field of fractions of A.
 
-#### Theorem 1 {#ac-x-s6-thm-1 .statement}
+#### Theorem 1 {#ac-x-s6-thm-1 .statement tag=0D8D}
 
 *Let k be a field and A a local k-algebra essentially of finite type. Put n = \dim(A) + \deg.\mathrm{tr}_k(\kappa_A).*
 
@@ -334,7 +334,7 @@ which proves (ii).
 
 (iii') \Rightarrow (i) : Suppose that one has [\kappa_A \otimes_A \Omega_k(A) : \kappa_A] \leq n , that is to say [\kappa(q) \otimes_B \Omega_k(B) : \kappa(q)] \leq n , and let us prove that the k-algebra B is absolutely regular. Let (x_1, \ldots , x_n) be a sequence of elements of B such that 1 \otimes dx_1, \ldots , 1 \otimes dx_n generate the \kappa(q)-vector space \kappa(q) \otimes_B \Omega_k(B) . Replacing B by B_f , for a suitable element f of B - q , one may suppose that dx_1, \ldots , dx_n generate the B-module \Omega_k(B) (Nakayama lemma and II, § 5, No. 1, prop. 2). Let \bar{k} be an algebraically closed extension of k . It is enough to prove that the \bar{k}-algebra B_{(\bar{k})} is regular, since this will imply that B is absolutely regular (cor. 4 to prop. 7 of No. 4). For every canonical factor C of B_{(k)} , the differentials d(1 \otimes x_i) generate the C-module \Omega_{\bar{k}}(C) (A, III, § 10, No. 12, prop. 20). The theorem therefore follows from the two following lemmas:
 
-#### Lemma 4 {#ac-x-s6-lem-4 .statement}
+#### Lemma 4 {#ac-x-s6-lem-4 .statement tag=0D8E}
 
 Let k be a field, K an algebraic extension of k , B a k-algebra whose spectrum is connected. For every canonical factor C of B_{(K)} , one has \dim(C) = \dim(B) .
 
@@ -342,7 +342,7 @@ Let us first treat the case where the extension K is of finite degree over k . T
 
 Let us pass to the general case. Let e be the idempotent element of B_{(K)} such that C = B_{(K)}/B_{(K)}e . There exists a subextension K' of K of finite degree such that e is the image of an idempotent element e' of B_{(K')} . Put C' = B_{(K')}/B_{(K')}e' . The ring C' \otimes_{K'} K is identified with C , and C' is a canonical factor of B_{(K')} . One has \dim(C') = \dim(B) by the case already treated, and \dim(C') = \dim(C) by loc. cit. , whence the lemma.
 
-#### Lemma 5 {#ac-x-s6-lem-5 .statement}
+#### Lemma 5 {#ac-x-s6-lem-5 .statement tag=0D8F}
 
 Let k be an algebraically closed field, A a finitely generated k-algebra whose spectrum is connected, n an integer and (x_1, \ldots , x_n) a finite sequence of elements of A . Suppose that A is of dimension n and that the differentials dx_1, \ldots , dx_n generate the A-module \Omega_k(A) . Then the ring A is an integral domain and regular and the A-module \Omega_k(A) is free with basis (dx_1, \ldots , dx_n) .
 
@@ -356,11 +356,11 @@ Let us now prove that the ring $A$ is an integral domain and regular. There exis
 
 Finally, let $\sum_{i=1}^n a_i dx_i = 0$ be a linear relation between the $dx_i$ with coefficients in $A$. If the $a_i$ are not all zero, there exists an index $i$ and a maximal ideal $\mathfrak{m}$ of $A$ such that $a_i$ does not belong to $\mathfrak{m}$ (V, § 3, No. 3, Prop. 1, (iii) and (iv)); but this contradicts the fact proved above that the classes of $dx_i$ in $(A/\mathfrak{m}) \otimes_A \Omega_k(A)$ are linearly independent.
 
-#### Example {#ac-x-s6-n5-exa-1 .statement}
+#### Example {#ac-x-s6-n5-exa-1 .statement tag=0D8G}
 
 When $A$ is an extension of finite type of $k$, theorem 1 yields again Cor. 1 of A, V, p. 128, taking account of Example 2 of No. 4.
 
-#### Corollary 1 {#ac-x-s6-lem-5-cor-1 .statement}
+#### Corollary 1 {#ac-x-s6-lem-5-cor-1 .statement tag=0D8H}
 
 *Let $k$ be a field and $A$ a $k$-algebra essentially of finite type. The set of elements $\mathfrak{p}$ of $\operatorname{Spec}(A)$ such that the $k$-algebra $A_{\mathfrak{p}}$ is absolutely regular is open in $\operatorname{Spec}(A)$.*
 
@@ -368,7 +368,7 @@ We may suppose that the $k$-algebra $A$ is of finite type. The set considered is
 
 We shall see later (§ 7, No. 9, Cor. 4 of Th. 3) that under the hypotheses of Cor. 1, the set of prime ideals $\mathfrak{p}$ of $A$ such that the ring $A_{\mathfrak{p}}$ is regular is open in $\operatorname{Spec}(A)$.
 
-#### Corollary 2 {#ac-x-s6-lem-5-cor-2 .statement}
+#### Corollary 2 {#ac-x-s6-lem-5-cor-2 .statement tag=0D8I}
 
 *Let $k$ be a field and $A$ a $k$-algebra essentially of finite type. In order that $A$ should be absolutely regular, it is necessary and sufficient that the $A$-module $\Omega_k(A)$ be projective and that for every minimal prime ideal $\mathfrak{q}$ of $A$, the $k$-algebra $A_{\mathfrak{q}}$ be separable.*
 
@@ -386,11 +386,11 @@ $$
 
 It then follows from Th. 1 that the $k$-algebra $A_p$ is absolutely regular, whence the corollary.
 
-#### Remark {#ac-x-s6-n5-rem-1 .statement}
+#### Remark {#ac-x-s6-n5-rem-1 .statement tag=0D8J}
 
 Suppose the $k$-algebra $A$ absolutely regular. Then the total ring of fractions $F$ of $A$ is identified with the product of the $A_q$, where $q$ runs through the set of minimal prime ideals of $A$ (IV, § 2, No. 5, Prop. 10); it is therefore a separable $k$-algebra. Conversely, suppose that $F$ is a separable $k$-algebra; for every minimal prime ideal $q$ of $A$, the $k$-algebra $A_q$ is a ring of fractions of $F$ (IV, § 1, No. 1, Cor. 3 of Prop. 2 and No. 3, Cor. 1 of Prop. 7), hence a separable $k$-algebra (No. 4, Prop. 6). If moreover the $A$-module $\Omega_k(A)$ is projective, it follows from Cor. 2 that the $k$-algebra $A$ is absolutely regular.
 
-#### Corollary 3 {#ac-x-s6-lem-5-cor-3 .statement}
+#### Corollary 3 {#ac-x-s6-lem-5-cor-3 .statement tag=0D8K}
 
 Let $k$ be a field of characteristic 0 and $A$ a $k$-algebra essentially of finite type. For $A$ to be regular, it is necessary and sufficient that the $A$-module $\Omega_k(A)$ be projective.
 

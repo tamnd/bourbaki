@@ -40,7 +40,7 @@ subsections:
       pdf_page: 275
 statements: 19
 exercises: 7
-content_sha256: 1e1ece20e3f89200758ea61987a06144241d75ae8162bc162c53801c831f93a3
+content_sha256: 26b5dabc221f689be59aa76df93d872628cc3005341b77c2e25a019027f25eed
 translated_from: content/en/top/III/05_s5_infinite_sums_in_commutative_groups.md
 source_content_sha256: 0473398046b587d17103f4b672c344f445932523c6f9f31b18e847266e38158c
 translation_model: gpt-5.4
@@ -58,7 +58,7 @@ Trong tiết này, chúng tôi sẽ chỉ xét các *nhóm tôpô giao hoán Hau
 
 Cho $G$ là một nhóm giao hoán Hausdorff, cho $I$ là một tập chỉ số bất kỳ và cho $(x_i)_{i \in I}$ là một họ các điểm của $G$, được đánh chỉ số bởi $I$. Với mỗi tập con *hữu hạn* $J$ của $I$ ta gắn phần tử $s_J = \sum_{i \in J} x_i$ của $G$, mà ta gọi là *tổng riêng phần hữu hạn của họ* $(x_i)_{i \in I}$, tương ứng với tập $J$. Nếu $\mathfrak{F}(I)$ ký hiệu *tập hợp các tập con hữu hạn* của $I$, như vậy ta có một ánh xạ $J \to s_J$ từ $\mathfrak{F}(I)$ vào $G$. Khi đó $\mathfrak{F}(I)$ là một tập *có hướng* đối với quan hệ $\subset$; vì nếu $J$ và $J'$ là hai phần tử của $\mathfrak{F}(I)$, thì $J \subset J \cup J'$ và $J' \subset J \cup J'$, và $J \cup J'$ là một tập con hữu hạn của $I$. Gọi $\Phi$ là *bộ lọc tiết diện* của tập có hướng $\mathfrak{F}(I)$ (Chương I, § 6, no. 3).
 
-#### Định nghĩa 1 {#top-iii-s5-def-1 .statement}
+#### Định nghĩa 1 {#top-iii-s5-def-1 .statement tag=0BMB}
 
 Cho $(x_i)_{i \in I}$ là một họ các điểm của một nhóm giao hoán Hausdorff $G$; gọi $\mathfrak{F}(I)$ là tập hợp các tập con hữu hạn của tập hợp chỉ số $I$, và với mỗi tập con hữu hạn $J$ của $I$, gọi $s_J$ là tổng của các $x_i$ sao cho $i \in J$. Họ $(x_i)_{i \in I}$ được gọi là khả tổng nếu ánh xạ $J \to s_J$ có một giới hạn đối với bộ lọc tiết diện $\Phi$ của tập hợp $\mathfrak{F}(I)$ có hướng bởi quan hệ $\subset$; khi đó giới hạn này được gọi là tổng của họ $(x_i)_{i \in I}$ và được ký hiệu là $\sum_{i \in I} x_i$ (hoặc đơn giản là $\sum_i x_i$, hay thậm chí $\sum x_i$, khi không có nguy cơ nhập nhằng).
 
@@ -66,15 +66,15 @@ Cho $(x_i)_{i \in I}$ là một họ các điểm của một nhóm giao hoán H
 
 Nếu $G$ được viết theo lối *nhân*, và nếu ta đặt $p_J = \prod_{i \in J} x_i$ với mỗi tập con hữu hạn $J$ của $I$, thì họ $(x_i)$ được gọi là *nhân được* nếu ánh xạ $J \to p_J$ có một giới hạn đối với bộ lọc $\Phi$; giới hạn này được gọi là *tích* của họ $(x_i)$, và được ký hiệu bởi $\prod_{i \in I} x_i$.
 
-#### Nhận xét 1 {#top-iii-s5-n1-rem-1 .statement}
+#### Nhận xét 1 {#top-iii-s5-n1-rem-1 .statement tag=0BMC}
 
 Khi $I$ là *hữu hạn*, Định nghĩa 1 quy về định nghĩa thông thường của tổng của một họ hữu hạn. Nói chung hơn, nếu $I$ là tùy ý và $x_i = 0$ trừ khi chỉ số $i$ thuộc về một tập con *hữu hạn* $J$ của $I$, thì tổng $\sum_{i \in I} x_i$ bằng $\sum_{i \in J} x_i$.
 
-#### Nhận xét 2 {#top-iii-s5-n1-rem-2 .statement}
+#### Nhận xét 2 {#top-iii-s5-n1-rem-2 .statement tag=0BMD}
 
 Định nghĩa của một họ khả tổng không liên quan đến bất kỳ *thứ tự hóa* nào của tập hợp chỉ số $I$, và vì vậy ta có thể nói rằng khái niệm tổng được định nghĩa như thế là *giao hoán*. Chính xác hơn, ta có tính chất sau: cho $(x_i)_{i \in I}$ là một họ khả tổng và cho $\varphi$ là một ánh xạ song ánh từ một tập hợp chỉ số $K$ lên tập hợp $I$; khi đó nếu đặt $y_x = x_{\varphi(x)}$, thì họ $(y_x)_{x \in K}$ là khả tổng và có cùng tổng với $(x_i)$. Thật vậy, nếu $s = \sum_{i \in I} x_i$, và nếu $\sum_{i \in J} x_i \in s + V$ với mọi tập con hữu hạn $J$ chứa tập con hữu hạn $J_0$, thì ta sẽ có $\sum_{x \in L} y_x \in s + V$ với mọi tập con hữu hạn $L$ của $K$ chứa $\overline{\varphi}(J_0)$.
 
-#### Nhận xét 3 {#top-iii-s5-n1-rem-3 .statement}
+#### Nhận xét 3 {#top-iii-s5-n1-rem-3 .statement tag=0BME}
 
 Định nghĩa 1 còn áp dụng, nói chung, cho mọi họ điểm trong một *không gian tôpô Hausdorff* $X$ mà trên đó đã xác định một *luật hợp thành kết hợp và giao hoán*, được viết theo lối cộng; vì nó không dùng đến các tiên đề của các nhóm tôpô.
 
@@ -84,7 +84,7 @@ Cho $(x_i)_{i \in I}$ là một họ khả tổng trong $G$. Khi đó, với m�
 
 Ngược lại, giả sử rằng họ $(x_i)$ có tính chất này. Khi đó ảnh của bộ lọc $\Phi$, dưới ánh xạ $J \to s_J$, là một *cơ sở bộ lọc Cauchy* trong $G$. Thật vậy, nếu $J$ là một tập con hữu hạn chứa $J_0$, và nếu $K$ ký hiệu $J \cap C J_0$, thì $K \cap J_0 = \varnothing$ và $s_K = s_J - s_{J_0}$, nên $s_J \in s_{J_0} + V$. Nếu $J'$ là một tập con hữu hạn khác chứa $J_0$, thì $s_J - s_{J'} \in V + V$, và kết quả suy ra. Do đó:
 
-#### Định lý 1 (tiêu chuẩn Cauchy) {#top-iii-s5-thm-1 .statement}
+#### Định lý 1 (tiêu chuẩn Cauchy) {#top-iii-s5-thm-1 .statement tag=0BMF}
 
 *Trong một nhóm giao hoán Hausdorff* $G$, *để một họ* $(x_i)_{i \in I}$ *là khả tổng thì cần rằng, với mỗi lân cận* $V$ *của phần tử không trong* $G$, *tồn tại một tập con hữu hạn* $J_0$ *của* $I$ *sao cho* $\sum_{i \in K} x_i \in V$ *với mọi tập con hữu hạn* $K$ *của* $I$ *không giao với* $J_0$. *Điều kiện cần này cũng là điều kiện đủ nếu* $G$ *là đầy đủ*.
 
@@ -92,25 +92,25 @@ Như vậy, bằng cách bỏ đi một số hữu hạn số hạng (đủ lớ
 
 Một hệ quả ngay lập tức của phần thứ nhất của Định lý 1 là mệnh đề sau:
 
-#### Mệnh đề 1 {#top-iii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#top-iii-s5-prop-1 .statement tag=0BMG}
 
 *Nếu họ* $(x_i)$ *là khả tổng, thì mọi lân cận của* $o$ *đều chứa tất cả các* $x_i$ *trừ ra một họ con hữu hạn* (nói cách khác, nếu $I$ là vô hạn, thì ta có $\lim x_i = o$ đối với *bộ lọc các phần bù của các tập con hữu hạn của* $I$).
 
 Điều kiện *cần* này để một họ $(x_i)$ là khả tổng *hoàn toàn không đủ* nói chung, ngay cả khi $G$ là đầy đủ; về sau chúng ta sẽ thấy nhiều ví dụ (xem Chương IV, § 7).
 
-#### Hệ quả {#top-iii-s5-n2-cor-1 .statement}
+#### Hệ quả {#top-iii-s5-n2-cor-1 .statement tag=0BMH}
 
 *Cho* $(x_i)_{i \in I}$ *là một họ khả tổng trong một nhóm giao hoán mà phần tử đơn vị có một hệ cơ bản đếm được các lân cận. Khi đó tập hợp các chỉ số* $i$ *sao cho* $x_i \neq o$ *là đếm được*.
 
 Cho $(V_n)$ là một hệ cơ bản đếm được các lân cận của $o$. Nếu $H_n$ là tập hợp tất cả các chỉ số $i$ sao cho $x_i \notin V_n$, thì tập hợp $H$ các chỉ số $i$ sao cho $x_i \neq o$ là hợp của các tập hợp $H_n$, và mỗi $H_n$ đều là *hữu hạn* theo Mệnh đề 1.
 
-#### Nhận xét {#top-iii-s5-n2-rem-1 .statement}
+#### Nhận xét {#top-iii-s5-n2-rem-1 .statement tag=0BMI}
 
 Khi G được viết theo lối nhân, tiêu chuẩn Cauchy có dạng sau: để họ $(x_i)_{i \in I}$ là khả nhân thì cần rằng, với mỗi lân cận V của phần tử đơn vị, tồn tại một tập con hữu hạn $J_0$ của I sao cho, với mỗi tập con hữu hạn K của I không giao với $J_0$, ta có $\prod_{i \in K} x_i \in V$; và điều kiện này là đủ với điều kiện G đầy đủ. Ta suy ra rằng nếu I là vô hạn và $(x_i)$ là khả nhân, thì $\lim x_i = 1$ đối với bộ lọc các phần bù của các tập con hữu hạn của I; nếu thêm nữa phần tử đơn vị có một hệ cơ sở đếm được các lân cận, thì tập hợp các chỉ số i sao cho $x_i \neq 1$ là đếm được.
 
 ### 3. TỔNG BỘ PHẬN ; TÍNH KẾT HỢP
 
-#### Mệnh đề 2 {#top-iii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#top-iii-s5-prop-2 .statement tag=0BMJ}
 
 Trong một nhóm đầy đủ G, mọi họ con của một họ khả tổng đều khả tổng.
 
@@ -118,7 +118,7 @@ Thật vậy, nếu tiêu chuẩn Cauchy được thỏa mãn bởi một họ $
 
 Vì vậy, nếu $(x_i)_{i \in I}$ khả tổng, thì suy ra tổng $\sum_{i \in J} x_i$ được xác định với mọi tập con J của I, hữu hạn hay không: nó cũng được gọi là tổng bộ phận của họ $(x_i)$, tương ứng với tập con J của tập hợp chỉ số. Tập hợp các tổng bộ phận của một họ khả tổng hiển nhiên được chứa trong bao đóng của tập hợp các tổng bộ phận hữu hạn.
 
-#### Định lý 2 (Tính kết hợp của tổng) {#top-iii-s5-thm-2 .statement}
+#### Định lý 2 (Tính kết hợp của tổng) {#top-iii-s5-thm-2 .statement tag=0BMK}
 
 Cho $(x_i)_{i \in I}$ là một họ khả tổng trong một nhóm đầy đủ G, và cho $(I_\lambda)_{\lambda \in L}$ là một phân hoạch tùy ý của I. Nếu $s_\lambda$ ký hiệu $\sum_{i \in I_\lambda} x_i$, thì họ $(s_\lambda)_{\lambda \in L}$ là khả tổng và có cùng tổng như họ $(x_i)_{i \in I}$.
 
@@ -162,7 +162,7 @@ Tương tự, có thể xảy ra việc vế trái của (2) không được xá
 
 Vì vậy, mặc dù luôn luôn có thể "nhóm" các hạng của một tổng, nhưng ngược lại không thể "tách" thành các phần tử của chúng những hạng của một tổng mà bản thân chúng lại xuất hiện như những tổng. Tuy nhiên, phép toán này là hợp thức mỗi khi số các hạng có thể "tách" ấy là hữu hạn.
 
-#### Mệnh đề 3 {#top-iii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#top-iii-s5-prop-3 .statement tag=0BML}
 
 Cho $(x_i)_{i \in I}$ là một họ các điểm của một nhóm $G$, và cho $(I_\lambda)_{\lambda \in L}$ là một phân hoạch hữu hạn của $I$. Nếu mỗi họ con $(x_i)_{i \in I_\lambda}$ đều khả tổng, thì họ $(x_i)_{i \in I}$ là khả tổng và công thức (1) là đúng.
 
@@ -170,7 +170,7 @@ Chỉ cần chứng minh mệnh đề khi $L = (1,2)$; sau khi đã làm xong đ
 
 ### 4. CÁC HỌ KHẢ TỔNG TRONG MỘT TÍCH CỦA CÁC NHÓM
 
-#### Mệnh đề 4 {#top-iii-s5-prop-4 .statement}
+#### Mệnh đề 4 {#top-iii-s5-prop-4 .statement tag=0BMM}
 
 Cho $G = \prod_{\lambda \in L} G_\lambda$ là tích của một họ các nhóm giao hoán Hausdorff. Khi đó một họ $(x_i)_{i \in I}$ các điểm của $G$ là khả tổng nếu và chỉ nếu, với mỗi $\lambda \in L$, họ $(\mathrm{pr}_\lambda x_i)_{i \in I}$ là khả tổng; và nếu $s_\lambda$ là tổng của họ này, thì $s = (s_\lambda)$ là tổng của họ $(x_i)$.
 
@@ -182,7 +182,7 @@ $$
 
 ### 5. ẢNH CỦA MỘT HỌ KHẢ TỔNG QUA MỘT ĐỒNG CẤU LIÊN TỤC
 
-#### Mệnh đề 5 {#top-iii-s5-prop-5 .statement}
+#### Mệnh đề 5 {#top-iii-s5-prop-5 .statement tag=0BMN}
 
 Cho $f$ là một đồng cấu liên tục của một nhóm giao hoán $G$ vào một nhóm giao hoán $G'$. Nếu $(x_i)$ là một họ cộng được trong $G$, thì $(f(x_i))$ là một họ cộng được trong $G'$, và ta có
 
@@ -192,7 +192,7 @@ $$
 
 Nếu $J$ là một tập con hữu hạn bất kỳ của tập chỉ số, thì $f \left( \sum_{i \in J} x_i \right) = \sum_{i \in J} f(x_i)$, và ảnh qua $f$ của một cơ sở bộ lọc hội tụ là một cơ sở bộ lọc hội tụ (Chương I, § 7, no. 4, Hệ quả 1 của Mệnh đề 9).
 
-#### Mệnh đề 6 {#top-iii-s5-prop-6 .statement}
+#### Mệnh đề 6 {#top-iii-s5-prop-6 .statement tag=0BMO}
 
 Cho $(x_i), (y_i)$ là hai họ khả tổng, với cùng tập chỉ số, trong một nhóm $G$. Khi đó các họ $(-x_i), (nx_i)$ ($n \in \mathbf{Z}$), $(x_i + y_i)$ đều khả tổng, và ta có
 
@@ -206,7 +206,7 @@ $$
 
 Vì $x \to -x$ và $x \to nx$ là các đồng cấu liên tục từ $G$ vào $G$; mặt khác, nếu $(x_i)$ và $(y_i)$ là khả tổng, thì họ $(x_i, y_i)$ là khả tổng trong $G \times G$, và vì $(x, y) \to x + y$ là một đồng cấu liên tục từ $G \times G$ vào $G$, ta suy ra (6).
 
-#### Nhận xét {#top-iii-s5-n5-rem-1 .statement}
+#### Nhận xét {#top-iii-s5-n5-rem-1 .statement tag=0BMP}
 
 Mệnh đề 4 và 5 lại áp dụng được cho trường hợp, đã được nhắc đến trước đó, của các họ khả tổng trong một không gian tôpô $X$ có một luật hợp thành kết hợp và giao hoán; điều tương tự cũng đúng với Mệnh đề 3 và công thức (6) nếu ta giả thiết thêm rằng $x + y$ liên tục trên $X \times X$.
 
@@ -226,7 +226,7 @@ Nếu $G$ là *đầy đủ*, thì điều kiện này cũng là *đủ* (*tiêu
 
 Nếu chuỗi có số hạng tổng quát là $x_n$ hội tụ, thì đặc biệt ta có $\lim_{n \to \infty} (s_n - s_{n-1}) = \lim_{n \to \infty} x_n = 0$; nhưng điều kiện *cần* này của sự hội tụ tuyệt nhiên không đủ trong trường hợp tổng quát, ngay cả khi $G$ là đầy đủ (xem Chương IV, § 7).
 
-#### Mệnh đề 7 {#top-iii-s5-prop-7 .statement}
+#### Mệnh đề 7 {#top-iii-s5-prop-7 .statement tag=0BMQ}
 
 *Nếu các chuỗi được xác định bởi các dãy* $(x_n)$ *và* $(y_n)$ *hội tụ, thì các chuỗi được xác định bởi các dãy* $(-x_n)$ *và* $(x_n + y_n)$ *cũng hội tụ, và ta có*
 (7)
@@ -239,7 +239,7 @@ $$
 $$
 Đây là một hệ quả hiển nhiên của tính liên tục của $-x$ trên $G$, và của $x + y$ trên $G \times G$.
 
-#### Hệ quả {#top-iii-s5-n6-cor-1 .statement}
+#### Hệ quả {#top-iii-s5-n6-cor-1 .statement tag=0BMR}
 
 *Nếu* $(x_n), (y_n)$ *là hai dãy điểm của* $G$ *sao cho* $x_n = y_n$ *trừ một số hữu hạn chỉ số, và nếu chuỗi có số hạng tổng quát là* $x_n$ *hội tụ, thì chuỗi có số hạng tổng quát là* $y_n$ *cũng hội tụ.*
 
@@ -258,7 +258,7 @@ Nếu một dãy $(x_n)_{n \in I}$ có tập chỉ số là một tập con vô 
 
 Các mệnh đề 4 và 5 mở rộng ngay lập tức cho chuỗi, và chúng tôi để việc phát biểu chúng trong trường hợp này cho bạn đọc.
 
-#### Mệnh đề 8 (Tính kết hợp hạn chế của chuỗi) {#top-iii-s5-prop-8 .statement}
+#### Mệnh đề 8 (Tính kết hợp hạn chế của chuỗi) {#top-iii-s5-prop-8 .statement tag=0BMS}
 
 *Cho* $(k_n)$ *là một dãy tăng ngặt các số nguyên* $\geqslant 0$. *Nếu chuỗi có số hạng tổng quát là* $x_n$ *hội tụ, và nếu đặt* $u_n = \sum_{p=k_{n-1}}^{k_n-1} x_p$, *thì chuỗi có số hạng tổng quát là* $u_n$ *hội tụ, và ta có* $\sum_{n=0}^{\infty} u_n = \sum_{n=0}^{\infty} x_n$.
 
@@ -270,11 +270,11 @@ Cho $(x_n)$ là một dãy *khả tổng* trong $G$, và đặt $s = \sum_{n \in
 
 Hơn nữa, định nghĩa của một chuỗi hội tụ về bản chất có liên quan đến cấu trúc thứ tự của $\mathbf{N}$. Nếu chuỗi $(x_n)$ hội tụ, và nếu $\sigma$ là một phép hoán vị của $\mathbf{N}$, thì chuỗi $(x_{\sigma(n)})$ không nhất thiết hội tụ (xem Chương IV, § 7, Bài tập 15).
 
-#### Định nghĩa 2 {#top-iii-s5-def-2 .statement}
+#### Định nghĩa 2 {#top-iii-s5-def-2 .statement tag=0BMT}
 
 *Một chuỗi được xác định bởi một dãy* $(x_n)$ *được gọi là hội tụ giao hoán nếu, với mỗi phép hoán vị* $\sigma$ *của* $\mathbf{N}$, *chuỗi được xác định bởi dãy* $(x_{\varphi(n)})$ *là hội tụ.*
 
-#### Mệnh đề 9 {#top-iii-s5-prop-9 .statement}
+#### Mệnh đề 9 {#top-iii-s5-prop-9 .statement tag=0BMU}
 
 *Chuỗi được xác định bởi dãy* $(x_n)$ *là hội tụ giao hoán nếu và chỉ nếu dãy* $(x_n)$ *là khả tổng; và khi đó, với mỗi phép hoán vị* $\sigma$ *của* $\mathbf{N}$, *ta có*
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 171
 statements: 31
 exercises: 0
-content_sha256: c45138f692a2f7d57e2fbbd0bfeba3c686ddc66cbe25d47067aa94da5b1a8ef4
+content_sha256: 061c0d94f58837eed64cf5f0d5cccf69f9e6b7537d2017da9f8436120cfb98dc
 translated_from: content/en-mt/alg/IX/10_s10_angles.md
 source_lang: en-mt
 translation_method: machine
@@ -48,7 +48,7 @@ Trong suốt đoạn này, A ký hiệu một trường giao hoán có đặc s�
 
 Nhắc lại (§ 6, No. 5) rằng một phép vị tự trực tiếp của E là một tự đẳng cấu $u$ của không gian vectơ E sao cho $\Phi(u(x), u(y)) = (\det u)\Phi(x, y)$ với mọi $x, y$ trong E.
 
-#### Mệnh đề 1 {#alg-ix-s10-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ix-s10-prop-1 .statement tag=0DNZ}
 
 Gọi $A(\Phi)$ là đại số con của $\mathscr{L}_A(E)$ được sinh bởi các phép vị tự trực tiếp của E.
 
@@ -77,19 +77,19 @@ Bây giờ các tự đồng cấu của E mà các ma trận có dạng $\begin
 
 Sau cùng, mọi vectơ không đẳng hướng của E đều có thể được lấy làm vectơ thứ nhất $e_1$ của một cơ sở trực giao $(e_1, e_2)$ (§ 6, No. 1); do đó các ảnh của nó $u(e_1)$ bởi các phần tử $u$ của $\Lambda(\Phi)$ là các vectơ có dạng $ae_1 + be_2$ ($a, b$ trong $\Lambda$), nghĩa là tất cả các vectơ của $E$, vì mọi ma trận $\begin{pmatrix} a & \delta b \\ b & a \end{pmatrix}$ đều là ma trận của các phần tử của $\Lambda(\Phi)$. Nói cách khác, $E$ là một $\Lambda(\Phi)$-môđun đơn sinh, sinh bởi bất kỳ vectơ không đẳng hướng nào. Hơn nữa, ta còn thấy rằng nó là một $\Lambda(\Phi)$-môđun đơn sinh tự do, vì $u(e_1) = ae_1 + be_2 = 0$ kéo theo $a = b = 0$, do đó $u = 0$. Điều này chứng minh c).
 
-#### Nhận xét 1 {#alg-ix-s10-n1-rem-1 .statement}
+#### Nhận xét 1 {#alg-ix-s10-n1-rem-1 .statement tag=0DO0}
 
 Gọi $\nu$ là phép đồng dạng có ma trận $\begin{pmatrix} 0 & \delta \\ 1 & 0 \end{pmatrix}$ đối với $(e_1, e_2)$; phép đồng dạng $\omega$ được đưa vào trong chứng minh của Mệnh đề 1 bằng $-\alpha_1 \nu$; ta có $\nu^2 = \delta$. Nhân tử của phép đồng dạng trực tiếp $u = a + b \nu$ ($a, b$ trong $\Lambda$) bằng định thức của ma trận $\begin{pmatrix} a & \delta b \\ b & a \end{pmatrix}$ của nó, nghĩa là bằng $a^2 - \delta b^2 = (a + b \nu)(a - b \nu) = u . \overline{u}$, trong đó $\overline{u}$ là liên hợp của $u$ trong đại số $\Lambda(\Phi)$ (Chương II, § 7, No. 7); nói cách khác nhân tử của $u$ là chuẩn $N(u)$ của $u$ trong đại số $\Lambda(\Phi)$ (cùng chỗ đó). Đặc biệt, để một phép đồng dạng trực tiếp $u$ là một phép quay, điều kiện cần và đủ là $N(u) = 1$; để $u$ là một phép vị tự, điều kiện cần và đủ là $u \in \Lambda^*$.
 
-#### Nhận xét 2 {#alg-ix-s10-n1-rem-2 .statement}
+#### Nhận xét 2 {#alg-ix-s10-n1-rem-2 .statement tag=0DO1}
 
 Các phép đồng dạng trực tiếp $u = a + b \nu$ ($a, b$ in $\Lambda$, $b \neq 0$) có bình phương là một phép vị tự là các phép vị tự và các bội vô hướng $b \nu$ của $\nu$, vì $(a + b \nu)^2 = (a^2 + \delta b^2) + 2ab \nu$. Các phép sau đây không gì khác ngoài các tự đẳng cấu của không gian vectơ $E$ mà *biến mọi vectơ thành một vectơ vuông góc với nó*; thực vậy, ma trận của một tự đẳng cấu như vậy nhất thiết có dạng $\begin{pmatrix} 0 & c \\ d & 0 \end{pmatrix}$ ($c, d$ in $\Lambda$), và điều kiện để vectơ $\lambda e_1 + \mu e_2$ được biến thành một vectơ vuông góc khi đó được viết là $\lambda \mu (d \alpha_2 + c \alpha_1) = 0$.
 
-#### Nhận xét 3 {#alg-ix-s10-n1-rem-3 .statement}
+#### Nhận xét 3 {#alg-ix-s10-n1-rem-3 .statement tag=0DO2}
 
 Dễ dàng kiểm tra rằng, với $x, y$ in $E$ và $u \in \Lambda(\Phi)$, ta có $\Phi(u(x), y) = \Phi(x, \overline{u}(y))$. Do đó, tự đồng cấu *liên hợp* của một phép đồng dạng trực tiếp $u$ là phép đồng dạng trực tiếp $\overline{u}$ *liên hợp* của $u$ trong $\Lambda(\Phi)$.
 
-#### Nhận xét 4 {#alg-ix-s10-n1-rem-4 .statement}
+#### Nhận xét 4 {#alg-ix-s10-n1-rem-4 .statement tag=0DO3}
 
 Vì mọi *phép đồng dạng nghịch* của $E$ là tích của một phép đồng dạng trực tiếp và phép đối xứng đối với $Ae_1$, nên các ma trận No. 1
 
@@ -97,31 +97,31 @@ của các phép đồng dạng nghịch đối với $(e_1, e_2)$ là các ma t
 
 Kể từ đây ta sẽ ký hiệu bởi $S$ nhóm các phép đồng dạng của $E$, bởi $S^+$ nhóm các phép đồng dạng trực tiếp, bởi $H$ nhóm các phép vị tự $\neq 0$, và bởi $O^+$ nhóm các phép quay. Nhắc lại rằng có $H \subset S^+ (§ 6, n° 5)$.
 
-#### Hệ quả 1 {#alg-ix-s10-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-ix-s10-prop-1-cor-1 .statement tag=0DO4}
 
 *Nhóm $S^+$ của các phép đồng dạng trực tiếp là giao hoán. Với mọi các vectơ không đẳng hướng $x, y$ của $E$, tồn tại một và chỉ một phép đồng dạng trực tiếp $u$ sao cho $y = u(x)$.*
 
 Khẳng định thứ nhất suy ra từ sự kiện rằng đại số $A(\Phi)$ là giao hoán. Vì $E$ là một $A(\Phi)$-môđun tự do đơn sinh được sinh bởi $x$ (tương ứng $y$), tồn tại một và chỉ một phần tử $u$ (tương ứng $u'$) của $A(\Phi)$ sao cho $y = u(x)$ (tương ứng $x = u'(y)$); do đó $x = u(u'(x))$, và $uu'$ là phần tử đơn vị; điều này chứng minh rằng $u$ là khả nghịch, và vì thế là một phép đồng dạng trực tiếp.
 
-#### Hệ quả 2 {#alg-ix-s10-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-ix-s10-prop-1-cor-2 .statement tag=0DO5}
 
 *Nhóm $O^+$ của các phép quay là giao hoán. Với mọi các vectơ $x, y$ của $E$ sao cho $\Phi(x, x) = \Phi(y, y) \neq 0$, tồn tại một và chỉ một phép quay $u$ sao cho $y = u(x)$.*
 
 Khẳng định đầu tiên suy ra từ Hệ quả 1. Điều sau cũng chỉ ra rằng tồn tại duy nhất một phép đồng dạng trực tiếp $u$ sao cho $y = u(x)$; vì $\Phi(u(x), u(x)) = \Phi(x, x)$, nhân tử của $u$ bằng 1, và do đó $u$ là một phép quay.
 
-#### Hệ quả 3 {#alg-ix-s10-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-ix-s10-prop-1-cor-3 .statement tag=0DO6}
 
 *Nhóm $S^+/H$ là giao hoán. Nó tác động lên tập hợp các đường thẳng không đẳng hướng của $E$. Với mọi các đường thẳng không đẳng hướng $D, D'$ của $E$, tồn tại duy nhất một phần tử $\varphi$ của $S^+/H$ sao cho $D' = \varphi(D)$.*
 
 Điều này suy ra từ Hệ quả 1 và từ sự kiện rằng $H$ bất biến toàn cục mọi đường thẳng của $E$.
 
-#### Mệnh đề 2 {#alg-ix-s10-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ix-s10-prop-2 .statement tag=0DO7}
 
 *Hạt nhân của đồng cấu chính tắc của $O^+$ vào $S^+/H$ là $\{1, -1\}$.*
 
 Thật vậy 1 và $-1$ là các phần tử duy nhất của $H \cap O^+$.
 
-#### Mệnh đề 3 {#alg-ix-s10-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ix-s10-prop-3 .statement tag=0DO8}
 
 Đồng cấu $u \to u/\overline{u} = u^2 / N(u)$ của $S^+$ vào chính nó có $H$ làm hạt nhân, và xác định, bằng cách chuyển qua thương, một đẳng cấu của $S^+/H$ lên $O^+$.
 
@@ -129,7 +129,7 @@ Thật vậy quan hệ $u/\overline{u} = 1$ tương đương với $u = \overlin
 
 Khi $A(\Phi)$ là một trường, Mệnh đề 3 là một trường hợp riêng của định lý Hilbert (Chương V, § 11, No. 5, Định lý 3).
 
-#### Hệ quả {#alg-ix-s10-n1-cor-1 .statement}
+#### Hệ quả {#alg-ix-s10-n1-cor-1 .statement tag=0DO9}
 
 Ký hiệu $i : O^+ \to S^+/H$ và $d : S^+/H \to O^+$ là các đồng cấu được xác định trong các Mệnh đề 2 và 3, và viết các nhóm Abel $O^+$ và $S^+/H$ theo phép cộng; khi đó $d(i(\theta)) = 2\theta$ cho $\theta \in O^+$
 và $i(d(\varphi)) = 2\varphi$ cho $\varphi \in S^+/H$.
@@ -140,7 +140,7 @@ Thật vậy, nếu $\overline{\varphi}$ là một phép quay, ta có $\overline
 
 Trong số này, ta sẽ chọn một phần tử sinh $\omega$ của đại số $A(\Phi)$ sao cho $\omega^2 \in A$. Một phần tử sinh như thế được xác định tới một phép vị tự (No. 1, Nhận xét 2), vì vậy phần tử $\omega^2$ của $A$, mà ta sẽ ký hiệu là $\delta$, được xác định modulo nhóm nhân $(A^*)^2$ gồm các bình phương của các phần tử khác không của $A$.
 
-#### Nhận xét {#alg-ix-s10-n2-rem-1 .statement}
+#### Nhận xét {#alg-ix-s10-n2-rem-1 .statement tag=0DOA}
 
 Khi –1 thuộc lớp mod. $(A^*)^2$ đang xét, nói chung người ta chọn $\omega$ sao cho $\omega^2 = -1$, điều này xác định nó tới dấu. Khi lớp này chứa 1 nhưng không chứa –1, nói chung người ta chọn $\omega$ sao cho $\omega^2 = 1$, điều này lại xác định nó tới dấu.
 
@@ -156,7 +156,7 @@ $$
 $$
 trong đó $c_w(\varphi), s_w(\varphi)$ thuộc $A$; phần tử $s_w(\varphi)/c_w(\varphi)$ của trường xạ ảnh $\tilde{A}$ (Chap. II, 2nd ed., App. III, No. 5) được ký hiệu là $t_w(\varphi)$; nó chỉ phụ thuộc vào lớp của $\varphi$ mod. $H$; như vậy $t_w$ xác định, bằng cách chuyển qua thương, một ánh xạ từ $S^+/H$ vào trường xạ ảnh $\tilde{A}$, mà ta lại ký hiệu là $t_w$ do sự lạm dụng ngôn ngữ. Ta sẽ thường viết $c, s$ và $t$ thay cho $c_w, s_w$ và $t_w$. Ta có $c_{-w} = c_w, s_{-w} = -s_w$ và $t_{-w} = -t_w$.
 
-#### Mệnh đề 4 {#alg-ix-s10-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ix-s10-prop-4 .statement tag=0DOB}
 
 a) Khi $\omega^2 = \delta$ không là một bình phương trong $A$ (nghĩa là khi $E$ không chứa bất kỳ phải đẳng hướng nào), ánh xạ $t$ từ $S^+/H$ vào $\tilde{A}$ là một song ánh.
 
@@ -172,7 +172,7 @@ khi $t(\varphi)$ và $t(\varphi')$ là hữu hạn và $1 + t(\varphi)t(\varphi'
 
 Thật vậy, vì $S^+/H$ là một tập hợp các đường thẳng (bỏ qua 0) của $A(\Phi)$ được xét như một mặt phẳng vectơ trên $A$, nên $t$ là đơn ánh. Mặt khác, để một phần tử $a + b\omega$ ($a \in A, b \in A$) của $A(\Phi)$ là một phép đồng dạng trực tiếp, điều kiện cần và đủ là nó khả nghịch, nghĩa là phải có $N(a + b\omega) = a^2 - \delta b^2 \neq 0$, hay cũng vậy $(b/a)^2 \neq 1/\delta$; điều này chứng minh các khẳng định về tính toàn ánh trong a) và b). Cuối cùng, tích của các phép đồng dạng $1 + t(\varphi)\omega$ và $1 + t(\varphi')\omega$ là phép đồng dạng $1 + \delta t(\varphi)t(\varphi') + (t(\varphi) + t(\varphi'))\omega$, điều này chứng minh c).
 
-#### Mệnh đề 5 {#alg-ix-s10-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ix-s10-prop-5 .statement tag=0DOC}
 
 Ta viết $O^+$ theo lối cộng. Với mọi cặp phần tử $\theta, \theta'$ của $O^+$, ta có
 
@@ -191,7 +191,7 @@ $$
 
 Quan hệ (3) thực ra biểu thị rằng $N(c(\theta) + s(\theta)\omega) = 1$. Đối với (4) và (5), chỉ cần tính, trong $A(\Phi)$, tích của các phép quay $c(\theta) + s(\theta)\omega$ và $c(\theta') + s(\theta')\omega$.
 
-#### Mệnh đề 6 {#alg-ix-s10-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ix-s10-prop-6 .statement tag=0DOD}
 
 *Gọi d là đẳng cấu từ $S^+/H$ lên $O^+$ được định nghĩa trong Mệnh đề 3. Với mọi phần tử $\varphi$ của $S^+/H$ sao cho $t = t(\varphi)$ là hữu hạn, ta có*
 
@@ -202,7 +202,7 @@ $$
 
 Thật vậy $\varphi$ là lớp mod. $H$ của phép đồng dạng $1 + t\omega$, và do đó phép quay $d(\varphi)$ là $(1 + t\omega)^2/N(1 + t\omega) = (1 + \delta t^2 + 2t\omega)/(1 - \delta t^2)$ (Mệnh đề 3), điều này chứng minh (6).
 
-#### Hệ quả {#alg-ix-s10-n2-cor-1 .statement}
+#### Hệ quả {#alg-ix-s10-n2-cor-1 .statement tag=0DOE}
 
 *Với mọi phần tử $\theta$ của $O^+$ sao cho $t(\theta)$ là hữu hạn, ta có*
 
@@ -218,7 +218,7 @@ $$
 
 Thật vậy điều này suy ra ngay lập tức từ Mệnh đề 6 và từ hệ quả của Mệnh đề 3.
 
-#### Nhận xét {#alg-ix-s10-n2-rem-2 .statement}
+#### Nhận xét {#alg-ix-s10-n2-rem-2 .statement tag=0DOF}
 
 Các công thức (6) vẫn đúng với $t = \infty$ miễn là ta thay các hàm hữu tỉ xuất hiện ở vế phải bằng các mở rộng chính tắc của chúng lên trường xạ ảnh $\tilde{A}$ (Chương II, ấn bản thứ 2, Phụ lục III, No. 5); thật vậy, nếu $t = \infty$, thì $\varphi$ là lớp của $\omega$, và ta có $d(\varphi) = -1, s(d(\varphi)) = 0$ và $c(d(\varphi)) = -1$; đó quả thực là các giá trị mà các mở rộng chính tắc của các vế phải nhận được khi $t = \infty$. Điều tương tự cũng đúng với (7) khi $t(\theta) = \infty$, và với (8) khi $t(\varphi) = \infty$ hoặc khi $1 + \delta t(\varphi)^2 = 0$. Tương tự, công thức (2) vẫn đúng khi chỉ một trong các phần tử $t(\varphi), t(\varphi'), t(\varphi)$, chẳng hạn, là vô hạn, miễn là ta xét vế phải của nó như một hàm hữu tỉ chỉ theo $t(\varphi)$: thật vậy tích của các phép đồng dạng $1 + t(\varphi')\omega$ và $\omega$ là $\delta t(\varphi') + \omega$, trong khi giá trị mà mở rộng chính tắc của vế phải của (2) nhận được là $1/\delta t(\varphi')$. Cuối cùng, khi $t(\varphi)$ và $t(\varphi')$ là hữu hạn và ta có $1 + \delta t(\varphi)t(\varphi') = 0$, thì ta có $t(\varphi) + t(\varphi') = 0$ (nếu không thì $t(\varphi)^2$ sẽ bằng $1/\delta$, điều này là không thể (mệnh đề 4)); do đó có thể quy ước rằng giá trị của vế phải của (2) là $\infty$, và giá trị này quả thực là giá trị của vế trái. Khi $t(\varphi)$ và $t(\varphi')$ đều vô hạn, vế phải của (2) không được xác định.
 
@@ -230,13 +230,13 @@ Cũng nhắc lại (loc. cit.) rằng, cho một không gian vectơ hữu hạn 
 
 Các phép vị tự của E có tỉ số $> 0$ hiển nhiên tạo thành một nhóm con chỉ số 2 của H; ta sẽ ký hiệu nó là $H^+$. Đồng cấu chính tắc $i : O^+ \to S^+/H$ (xem mệnh đề 2) là hợp thành của các đồng cấu chính tắc từ $S^+/H^+$ lên $S^+/H$ và từ $O^+$ vào $S^+/H^+$; vì $O^+ \cap H^+ = \{ 1 \}$, đồng cấu sau này là đơn ánh.
 
-#### Mệnh đề 7 {#alg-ix-s10-prop-7 .statement}
+#### Mệnh đề 7 {#alg-ix-s10-prop-7 .statement tag=0DOG}
 
 Giả sử rằng A là một trường có thứ tự cực đại và $\Phi$ là một dạng dương (§ 7). Khi đó các đồng cấu chính tắc từ $O^+$ vào $S^+/H^+$ và từ $O^+/\{ 1, -1 \}$ vào $S^+/H$ là song ánh, và $S^+$ đẳng cấu với $O^+ \times H^+$.
 
 Ta đã thấy rằng các đồng cấu đang xét là đơn ánh, và chỉ cần chứng minh rằng đồng cấu thứ nhất là toàn ánh. Gọi $(e_1, e_2)$ là một cơ sở trực chuẩn của E, và gọi $\omega$ là phép đồng dạng trực tiếp sao cho $\omega(e_1) = e_2$ (hệ quả 1 của mệnh đề 1, No. 1); khi đó ta có $\omega^2 = -1$ (mệnh đề 1, b)). Cho một phép đồng dạng trực tiếp tùy ý u = a + bw (a \in A,\ b \in A),\ \text{ta có}\ N(u) = a^2 + b^2 > 0,\ \text{và tồn tại một và chỉ một phép quay thuộc cùng nửa đường thẳng của } A(\Phi) \text{ với } u, \text{cụ thể là } (a^2 + b^2)^{1/2}\ u.\ \text{đpcm.}
 
-#### Hệ quả {#alg-ix-s10-n3-cor-1 .statement}
+#### Hệ quả {#alg-ix-s10-n3-cor-1 .statement tag=0DOH}
 
 *Cho hai nửa đường thẳng* D, D' *gốc* 0, *tồn tại một và chỉ một phép quay* v *sao cho* v(D) = D'.
 
@@ -244,7 +244,7 @@ Các giả thiết thực ra kéo theo rằng E không chứa đường thẳng 
 
 Từ nay về sau ta sẽ giả sử rằng A là một *trường có thứ tự cực đại*, và rằng dạng $\Phi$ là *dương*. Trên tập hợp các cặp $(D_1, D_2)$ các đường thẳng (tương ứng các nửa đường thẳng gốc 0) của E, quan hệ “tồn tại một phép đồng dạng trực tiếp (tương ứng một phép quay) u sao cho $u(D_1) = D'_1$ và $u(D_2) = D'_2$” là một quan hệ tương đương giữa các cặp $(D_1, D_2)$ và $(D'_1, D'_2)$. Lớp tương đương của cặp $(D_1, D_2)$ được gọi, theo định nghĩa, là *góc của các đường thẳng* (tương ứng *nửa đường thẳng*) $D_1, D_2$ (lấy theo thứ tự này); nó được ký hiệu bởi $(\widehat{D_1, D_2})$.
 
-#### Mệnh đề 8 {#alg-ix-s10-prop-8 .statement}
+#### Mệnh đề 8 {#alg-ix-s10-prop-8 .statement tag=0DOI}
 
 *Giả sử rằng* A *là một trường có thứ tự cực đại*, và rằng *dạng* $\Phi$ *là dương*. *Cho* $D_1, D_2, D'_1, D'_2$ *là bốn đường thẳng* (tương ứng *nửa đường thẳng*) *gốc* 0 *của* E. *Điều kiện cần và đủ để các góc* $(\widehat{D_1, D_2})$ *và* $(\widehat{D'_1, D'_2})$ *bằng nhau là các góc* $(\widehat{D_1, D'_1})$ *và* $(\widehat{D_2, D'_2})$ *bằng nhau*.
 
@@ -262,11 +262,11 @@ $$
 (10) \quad (\widehat{D, D}) = 0, \qquad (\widehat{D, D'}) = - (\widehat{D', D}).
 $$
 
-#### Nhận xét 1 {#alg-ix-s10-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-ix-s10-n3-rem-1 .statement tag=0DOJ}
 
 Tập hợp L các đường thẳng (tương ứng nửa đường thẳng) gốc 0 của E là một không gian thuần nhất đối với nhóm Abel $S^+/H$ (tương ứng $O^+$) sao cho phần tử đơn vị là toán tử duy nhất để bất biến mọi phần tử của L. Do đó có thể áp dụng cho L các công thức của Chương II, 2nd ed., App. II, No. 1; mệnh đề 8 vì thế là một trường hợp riêng của “quy tắc hình bình hành”, và các công thức (9) và (10) là những trường hợp riêng của các công thức (2) (loc. cit.).
 
-#### Nhận xét 2 {#alg-ix-s10-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-ix-s10-n3-rem-2 .statement tag=0DOK}
 
 Trong định nghĩa của nhóm các góc của các đường thẳng, ta có thể, thay vì dùng nhóm $S^+/H$, dùng nhóm $O^+/ \{ -1, 1 \}$ đẳng cấu chính tắc với nó (Mệnh đề 7). Đồng cấu chính tắc của $O^+$ lên $O^+/ \{ -1, 1 \}$ do đó tương ứng với một đồng cấu của $\mathfrak{A}$ lên $\mathfrak{A}_0$, cụ thể là đồng cấu gán cho góc của hai nửa đường thẳng $\Delta, \Delta'$ góc của các đường thẳng $D, D'$ lần lượt chứa $\Delta, \Delta'$. *Trong trường hợp trường A là trường các số thực, nhóm $\mathfrak{A}$ do đó là một phủ cấp 2 của nhóm $\mathfrak{A}_0$*
 
@@ -274,19 +274,19 @@ Theo Mệnh đề 8, mọi góc của các đường thẳng (tương ứng nử
 
 có dạng ($\widehat{D, - D}$) đều bằng nhau: điều này thực tế suy ra từ Nhận xét 2 của No. 1 (tương ứng là hiển nhiên). Góc của các đường thẳng (tương ứng của các nửa đường thẳng) này được gọi là góc phải (tương ứng góc phẳng); nó là một phần tử cấp 2 của $\mathfrak{A}_0$ (tương ứng của $\mathfrak{A}$).
 
-#### Mệnh đề 9 {#alg-ix-s10-prop-9 .statement}
+#### Mệnh đề 9 {#alg-ix-s10-prop-9 .statement tag=0DOL}
 
 Giả sử trường $\mathbf{A}$ có thứ tự cực đại, và $\Phi$ là một dạng dương. Với mọi số nguyên $n > 1$, số các phần tử $\theta$ của nhóm $\mathfrak{A}_0$ các góc của các đường thẳng (tương ứng $\mathfrak{A}$ các góc của các nửa đường thẳng) sao cho $n\theta = 0$ bằng $n$.
 
 Vì $\mathfrak{A}_0, S^+/H, \mathfrak{A}$ và $O^+$ là đẳng cấu (Mệnh đề 3), chỉ cần đưa ra chứng minh cho $O^+$, nghĩa là chỉ ra rằng có đúng $n$ phép quay $\varphi$ sao cho $\varphi^n = 1$. Bây giờ, vì $\mathbf{A}$ là một trường có thứ tự cực đại và $\mathbf{A}(\Phi)$ là một trường mở rộng bậc 2 của $\mathbf{A}$ (Mệnh đề 1 a)), $\mathbf{A}(\Phi)$ là một trường đóng đại số (Chương VI, § 2, No. 6, Định lý 3). Do đó các căn bậc $n$ của đơn vị trong $\mathbf{A}(\Phi)$ tạo thành một nhóm xyclic cấp $n$ (Chương V, § 11, No. 1, Định lý 1). Vì ta có $N(u) = u \overline{u} \geqslant 0$ với mọi $u \in \mathbf{A}(\Phi)$, quan hệ $u^n = 1$ kéo theo ta có $N(u) = 1$, do đó $u$ là một phép quay (No. 1, Nhận xét 1). Điều này chứng minh mệnh đề của ta.
 
-#### Hệ quả {#alg-ix-s10-n3-cor-2 .statement}
+#### Hệ quả {#alg-ix-s10-n3-cor-2 .statement tag=0DOM}
 
 Góc phải (tương ứng góc phẳng) là phần tử cấp 2 duy nhất của nhóm $\mathfrak{A}_0$ (tương ứng $\mathfrak{A}$).
 
 Cuối cùng, ta sẽ giả sử rằng mặt phẳng $E$ được định hướng.
 
-#### Bổ đề 1 {#alg-ix-s10-lem-1 .statement}
+#### Bổ đề 1 {#alg-ix-s10-lem-1 .statement tag=0DON}
 
 Cho $u$ là một phép đồng dạng trực tiếp của $E$; tất cả các song vectơ có dạng $x \wedge u(x)$ đều thuộc cùng một nửa đường thẳng đóng của $\overset{2}{\wedge} E$.
 
@@ -330,7 +330,7 @@ với $\theta \in \mathfrak{A}$.
 
 Cho hai vectơ khác không $x, y$ của $E$, *góc* của hai vectơ này (lấy theo thứ tự ấy) được định nghĩa là, và được ký hiệu bởi $\widehat{(x, y)}$, góc của các tia mà chúng thuộc vào. Với mọi vectơ $x$ của $E$, *độ dài* của $x$ được định nghĩa là, và được ký hiệu bởi $|x|$, phần tử $\Phi(x, x)^{1/2}$ của $A$.
 
-#### Mệnh đề 10 {#alg-ix-s10-prop-10 .statement}
+#### Mệnh đề 10 {#alg-ix-s10-prop-10 .statement tag=0DOO}
 
 Giả sử rằng trường $\mathbf{A}$ là có thứ tự cực đại, rằng mặt phẳng $\mathbf{E}$ được định hướng, và rằng dạng $\Phi$ là dương. Với mọi cặp vectơ khác không $x, y$ của $\mathbf{E}$, ta có
 
@@ -345,11 +345,11 @@ trong đó $e$ ký hiệu lưỡng vectơ dương sao cho $\Phi_{(2)}(e, e) = 1$
 
 Thật vậy, vì các vectơ $x' = x/|x|$ và $y' = y/|y|$ đều có độ dài bằng 1, nên tồn tại một và chỉ một phép quay $\varphi$ sao cho $\varphi(x') = y'$ (No. 1, Hệ quả 2 của Mệnh đề 1). Nếu viết $\varphi = a + b \omega$ ($a, b$ trong $\mathbf{A}$), thì theo định nghĩa ta có $a = \cos (\widehat{x, y})$ và $b = \sin (\widehat{x, y})$. Quan hệ $y' = \varphi(x') = ax' + b \omega(x')$ cho $\Phi(x', y') = a \Phi(x', x') = a$ vì $x'$ và $\omega(x')$ trực giao (Nhận xét 2 của No. 1); điều này chứng minh (19). Mặt khác quan hệ này cũng cho $x' \wedge y' = bx' \wedge \omega(x') = b.e$ theo định nghĩa của mở rộng $\Phi_{(2)}$ của $\Phi$ lên $\bigwedge^2 \mathbf{E}$ ($§ 1,$ No. 9, công thức (37)) và theo lựa chọn của $\omega$; điều này chứng minh (20).
 
-#### Nhận xét 3 {#alg-ix-s10-n3-rem-3 .statement}
+#### Nhận xét 3 {#alg-ix-s10-n3-rem-3 .statement tag=0DOP}
 
 Cho hai đường thẳng (tương ứng, tia) $D, D'$ của một *mặt phẳng afin* $L$ gắn với $E$, góc của $D$ và $D'$ được định nghĩa là, và được ký hiệu bởi $(\widehat{D, D'})$, góc tạo bởi các phương của chúng trong $E$ (tương ứng, bởi các tia gốc 0 của $E$ tương ứng với $D$ và $D'$) (Chương II, ấn bản thứ 2, Phụ lục II, No. 1 và No. 3).
 
-#### Nhận xét 4 {#alg-ix-s10-n3-rem-4 .statement}
+#### Nhận xét 4 {#alg-ix-s10-n3-rem-4 .statement tag=0DOQ}
 
 Cho $F$ là một không gian vectơ *có chiều tùy ý* trên trường có thứ tự cực đại $\mathbf{A}$, và cho $\Psi$ là một dạng song tuyến tính đối xứng không suy biến dương trên $F$. Cho hai vectơ độc lập tuyến tính $x, y$ của $F$, gọi $F'$ là mặt phẳng vectơ mà chúng sinh; *góc* của $x$ và $y$ được định nghĩa là góc của $x$ và $y$ khi xét như các phần tử của mặt phẳng $F'$; nó được ký hiệu bởi $(\widehat{x, y})$. Cosin của góc này, theo (19), được cho bởi
 
@@ -363,7 +363,7 @@ $$
 
 Trước hết ta sẽ giả thiết, không thêm bất kỳ giả thiết nào khác, rằng E là một mặt phẳng có định hướng trên trường có thứ tự A. Ta nói rằng ba nửa đường thẳng D₀, D₁, D₂ (có gốc 0) của E tạo thành một dãy trực tiếp nếu, với $x_i \in D_i$, $x_i \neq 0$ (i = 0, 1, 2), ít nhất hai trong các song vectơ $x_0 \wedge x_1, x_1 \wedge x_2, x_2 \wedge x_0$ là > 0; trong trường hợp này các dãy D₁, D₂, D₀ và D₂, D₀, D₁ cũng là trực tiếp. Hiển nhiên rằng ba nửa đường thẳng tạo thành một dãy trực tiếp là phân biệt. Cho hai nửa đường thẳng D₁, D₂ của E, cung góc mở (tương ứng đóng) có gốc D₁ và đầu mút D₂ là tập hợp (hoặc, do lạm dụng ngôn ngữ, hợp) của các nửa đường thẳng D sao cho dãy D₁, D, D₂ là trực tiếp (tương ứng sao cho D = D₁ hoặc D = D₂ hoặc dãy D₁, D, D₂ là trực tiếp).
 
-#### Mệnh đề 11 {#alg-ix-s10-prop-11 .statement}
+#### Mệnh đề 11 {#alg-ix-s10-prop-11 .statement tag=0DOR}
 
 Cho E là một mặt phẳng có định hướng trên một trường có thứ tự A, D₀ là một nửa đường thẳng của E, và G là tập hợp các nửa đường thẳng của E phân biệt với D₀. Quan hệ
 
@@ -379,7 +379,7 @@ $$
 
 Điều này cho thấy rằng, nếu a₀₁ ≤ 0, thì ta có a₁₂ > 0 và a₂₀ > 0 (vì dãy thứ nhất là trực tiếp), rồi a₂₃ > 0 và a₃₀ > 0 (vì a₀₂ < 0 và dãy thứ hai là trực tiếp), do đó a₁₃ > 0 (theo (22)); vì vậy dãy (D₀, D₁, D₃) là trực tiếp trong trường hợp này. Từ nay giả sử rằng a₀₁ > 0. Nếu a₃₀ ≤ 0, ta có a₀₂ > 0 và a₂₃ > 0 (vì dãy thứ hai là trực tiếp), rồi a₁₂ > 0 (vì a₂₀ < 0 và dãy thứ nhất là trực tiếp), do đó $a_{13} > 0$ (theo (22)), và dãy $(D_0, D_1, D_3)$ là trực tiếp. Cuối cùng hiển nhiên là tương tự nếu $a_{01} > 0$ và $a_{30} > 0$. QED.
 
-#### Hệ quả {#alg-ix-s10-n4-cor-1 .statement}
+#### Hệ quả {#alg-ix-s10-n4-cor-1 .statement tag=0DOS}
 
 *Cho $D_1$ và $D_2$ là hai nửa đường thẳng phân biệt của E. Với mọi nửa đường thẳng $D_0$ của E sao cho dãy $D_0, D_1, D_2$ là trực tiếp, tập hợp các nửa đường thẳng $D$ của E sao cho $D_1 < D < D_2$ (đối với quan hệ thứ tự toàn phần được xác định bởi $D_0$) bằng cung góc mở có gốc $D_1$ và đầu mút $D_2$.
 
@@ -387,7 +387,7 @@ Thật vậy, cho một nửa đường thẳng $D_3$, vấn đề là chứng m
 
 Theo hệ quả trước, cung góc mở (tương ứng đóng) có gốc $D_1$ và đầu mút $D_2$ được ký hiệu bởi $\{D_1, D_2\}$ (tương ứng $[D_1, D_2]$), với điều hiểu rằng đây là các khoảng đối với cấu trúc thứ tự được xác định bởi bất kỳ nửa đường thẳng $D_0$ nào sao cho dãy $D_0, D_1, D_2$ là trực tiếp.
 
-#### Mệnh đề 12 {#alg-ix-s10-prop-12 .statement}
+#### Mệnh đề 12 {#alg-ix-s10-prop-12 .statement tag=0DOT}
 
 *Cho A là một trường có thứ tự cực đại, E là một mặt phẳng có định hướng trên A, $D_0$ là một nửa đường thẳng của E, và G là tập hợp các nửa đường thẳng của E phân biệt với $D_0$. Các tập hợp có thứ tự toàn phần A và G (mệnh đề 11) là đẳng cấu.
 

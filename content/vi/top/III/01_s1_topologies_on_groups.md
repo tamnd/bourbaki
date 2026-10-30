@@ -24,7 +24,7 @@ subsections:
       pdf_page: 230
 statements: 11
 exercises: 9
-content_sha256: fe902a4c43ac37970c6f692bcb9d35a61650e313aff2c2965786f22064a8601f
+content_sha256: 02c7ad0735eb8757363c5844dc879f2d46e1ac1dc37ae6029004ce438fd91aaa
 translated_from: content/en/top/III/01_s1_topologies_on_groups.md
 source_content_sha256: f71f82bff625e103d0a3fb544959913a24fd65f8bf1e933f0d5f6ba6a6f353ff
 translation_model: gpt-5.4
@@ -40,7 +40,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Trong bốn tiết đầu của chương này, luật hợp thành của một nhóm nói chung sẽ được viết theo lối nhân, và e sẽ chỉ phần tử đơn vị; việc chuyển các kết quả sang ký hiệu cộng tính (mà ta nhắc lại là chỉ dành riêng cho các nhóm giao hoán) thường để cho người đọc.
 
-#### Định nghĩa 1 {#top-iii-s1-def-1 .statement}
+#### Định nghĩa 1 {#top-iii-s1-def-1 .statement tag=0BH8}
 
 Một nhóm tôpô là một tập hợp G được trang bị một cấu trúc nhóm và một tôpô, đồng thời thỏa mãn hai tiên đề sau đây:
 
@@ -50,17 +50,17 @@ Một nhóm tôpô là một tập hợp G được trang bị một cấu trúc
 
 Người ta nói rằng một cấu trúc nhóm và một tôpô trên một tập hợp G là tương thích nếu chúng thỏa mãn (GT_I) và (GT_{II}).
 
-#### Ví dụ 1 {#top-iii-s1-n1-exa-1 .statement}
+#### Ví dụ 1 {#top-iii-s1-n1-exa-1 .statement tag=0BH9}
 
 Tôpô rời rạc trên một nhóm G là tương thích với cấu trúc nhóm. Một nhóm tôpô mà tôpô của nó là rời rạc được gọi là một nhóm rời rạc.
 
 Mặt khác, tôpô thô nhất (Chương I, § 2, no. 2) trên G là tương thích với cấu trúc nhóm của G.
 
-#### Ví dụ 2 {#top-iii-s1-n1-exa-2 .statement}
+#### Ví dụ 2 {#top-iii-s1-n1-exa-2 .statement tag=0BHA}
 
 Trong Chương IV, ta sẽ thấy rằng tôpô của đường thẳng hữu tỉ Q (tương ứng, đường thẳng thực R) là tương thích với cấu trúc nhóm cộng của Q (tương ứng, R).
 
-#### Ví dụ 3 {#top-iii-s1-n1-exa-3 .statement}
+#### Ví dụ 3 {#top-iii-s1-n1-exa-3 .statement tag=0BHB}
 
 Nếu G là một nhóm tôpô, thì tôpô của nó tương thích với cấu trúc của nhóm $G^0$ là nhóm đối của G; $G^0$, với tôpô này, được gọi là nhóm tôpô đối của G.
 
@@ -121,7 +121,7 @@ $(GV_{III}).$ *Với mọi* $a \in G$ *và mọi* $V \in \mathfrak{B}$, *ta có*
 
 Ba tính chất này của bộ lọc $\mathfrak{B}$ là *đặc số*:
 
-#### Mệnh đề 1 {#top-iii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#top-iii-s1-prop-1 .statement tag=0BHC}
 
 *Cho* $G$ *là một nhóm và cho* $\mathfrak{B}$ *là một bộ lọc trên* $G$ *thỏa mãn các tiên đề* $(GV_1)$, $(GV_{II})$ *và* $(GV_{III})$. *Khi đó tồn tại duy nhất một tôpô trên* $G$, *tương thích với cấu trúc nhóm của* $G$, *mà đối với tôpô này* $\mathfrak{B}$ *là bộ lọc lân cận của phần tử đơn vị* $e$. *Đối với tôpô này, bộ lọc lân cận của mọi điểm* $a \in G$ *trùng với mỗi một trong hai bộ lọc* $a.\mathfrak{B}$ *và* $\mathfrak{B}.a$.
 
@@ -141,7 +141,7 @@ $(GV'_1).$ *Với mọi* $U \in \mathfrak{B}$, *tồn tại* $V \in \mathfrak{B}
 
 Một lân cận của $e$ trùng với ảnh của nó qua đối xứng $x \to x^{-1}$ được gọi là *đối xứng*. Nếu $V$ là một lân cận bất kỳ của $e$, thì $V \cup V^{-1}$, $V \cap V^{-1}$ và $V . V^{-1}$ là các lân cận đối xứng. Theo (GV_{II}), các lân cận đối xứng tạo thành một *hệ lân cận cơ bản* của $e$. Cũng suy ra từ (GV_{I}) rằng khi $V$ chạy qua một hệ lân cận cơ bản của $e$, thì các tập hợp $V^n$ (trong đó $n$ là một số nguyên cố định $\neq 0$) tạo thành một hệ lân cận cơ bản của $e$.
 
-#### Nhận xét {#top-iii-s1-n2-rem-1 .statement}
+#### Nhận xét {#top-iii-s1-n2-rem-1 .statement tag=0BHD}
 
 Nếu $G$ *giao hoán*, ta có $x . A . x^{-1} = A$ với mọi tập con $A$ của $G$ và mọi $x \in G$, và do đó (GV_{III}) [tương ứng, (GV'_{III})] được thỏa mãn một cách tự động đối với mọi bộ lọc (tương ứng, cơ sở bộ lọc) trên $G$. Mặt khác, nếu $G$ không Abel, thì (GV_{III}) không phải là một hệ quả của (GV_{I}) và (GV_{II}) [xem Bài tập 5].
 
@@ -151,19 +151,19 @@ Nếu $G$ là một nhóm giao hoán, được viết *theo lối cộng*, thì 
 
 (GA_{II}). *Với mọi* $U \in \mathfrak{B}$, *ta có* $-U \in \mathfrak{B}$.
 
-#### Mệnh đề 2 {#top-iii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#top-iii-s1-prop-2 .statement tag=0BHE}
 
 *Một nhóm tôpô* $G$ *là Hausdorff khi và chỉ khi tập hợp* $\{e\}$ *là đóng*.
 
 Rõ ràng, nếu $G$ là Hausdorff, thì $\{e\}$ là đóng. Ngược lại, nếu $\{e\}$ là đóng, thì đường chéo $\Delta$ của $G \times G$ là đóng, vì nó là ảnh ngược của $\{e\}$ dưới ánh xạ liên tục $(x, y) \to xy^{-1}$; do đó (Chương I, § 8, no. 1, Mệnh đề 1) $G$ là Hausdorff.
 
-#### Hệ quả {#top-iii-s1-n2-cor-1 .statement}
+#### Hệ quả {#top-iii-s1-n2-cor-1 .statement tag=0BHF}
 
 *Một nhóm tôpô* $G$ *là Hausdorff khi và chỉ khi giao của các lân cận của* $e$ *chỉ gồm điểm* $e$.
 
 Điều kiện ấy rõ ràng là cần thiết. Ngược lại, nếu giao của tất cả các lân cận của $e$ chỉ là $\{e\}$, thì với mọi $x \neq e$ cho trước có một lân cận $V$ của $e$ sao cho $x^{-1} \notin V$ và do đó $e \notin xV$. Điều này chứng tỏ rằng $x$ không thuộc bao đóng của $\{e\}$, và vì thế $\{e\}$ là đóng, nên $G$ là Hausdorff.
 
-#### Ví dụ {#top-iii-s1-n2-exa-1 .statement}
+#### Ví dụ {#top-iii-s1-n2-exa-1 .statement tag=0BHG}
 
 *Định nghĩa một tôpô trên một nhóm bằng một tập hợp các nhóm con.* Nếu $\mathfrak{B}$ là một *cơ sở lọc* trên một nhóm $G$, được tạo thành từ các *nhóm con* của $G$, thì thấy ngay lập tức rằng $\mathfrak{B}$ thỏa mãn các tiên đề (GV_{I}) và (GV_{II}), vì $H . H^{-1} = H$ với mọi nhóm con $H$ của $G$. Do đó tập hợp $\mathfrak{B}$ sẽ là một *hệ cơ bản các lân cận* của $e$ trong một tôpô tương thích với cấu trúc nhóm của $G$, miễn là $\mathfrak{B}$ thỏa mãn (GV_{III}); điều này đặc biệt đúng nếu mọi nhóm con trong $\mathfrak{B}$ đều là chuẩn tắc, vì thế luôn luôn đúng nếu $G$ là *giao hoán*. Tôpô được định nghĩa như vậy là *Hausdorff*, theo Mệnh đề 2, khi và chỉ khi *giao của tất cả các nhóm con trong $\mathfrak{B}$ chỉ gồm* $e$. Những trường hợp đáng quan tâm nhất là các trường hợp trong đó nhóm con $\{ e \}$ *không thuộc* $\mathfrak{B}$ (nếu không thì tôpô được định nghĩa bởi $\mathfrak{B}$ là tôpô *rời rạc*): nếu $\{ e \} \notin \mathfrak{B}$, tôpô được định nghĩa bởi $\mathfrak{B}$ chỉ là Hausdorff nếu $\mathfrak{B}$ là một *tập hợp vô hạn*.
 
@@ -179,7 +179,7 @@ Ví dụ, nếu $a$ là một điểm bất kỳ của $G$, ánh xạ $x \to axa
 
 Nếu một tôpô $\mathscr{C}$ tương thích với cấu trúc nhóm của một nhóm $G$, thì $\mathscr{C}$ cũng tương thích với cấu trúc nhóm *đối* của $G$. Nếu $G^0$ ký hiệu nhóm tôpô nhận được bằng cách trang bị cho nhóm đối của $G$ tôpô $\mathscr{C}$, thì phép đối xứng $x \to x^{-1}$ là một *đẳng cấu* của nhóm tôpô $G$ lên nhóm tôpô $G^0$.
 
-#### Định nghĩa 2 {#top-iii-s1-def-2 .statement}
+#### Định nghĩa 2 {#top-iii-s1-def-2 .statement tag=0BHH}
 
 *Nếu* $G$ *và* $G'$ *là hai nhóm tôpô, một đẳng cấu địa phương của* $G$ *với* $G'$ *là một đồng phôi* $f$ *từ một lân cận* $V$ *của phần tử đơn vị của* $G$ *lên một lân cận* $V'$ *của phần tử đơn vị của* $G'$ *thỏa mãn các điều kiện sau đây:*
 
@@ -202,7 +202,7 @@ Một đẳng cấu địa phương của G với G được gọi là một t�
 
 Nói chung, nếu f là một đồng phôi từ một lân cận V của phần tử đơn vị của G lên một lân cận V' của phần tử đơn vị của G' thỏa mãn điều kiện 1) của Định nghĩa 2, thì f không nhất thiết thỏa mãn điều kiện 2) (xem Bài tập 7). Tuy nhiên, G và G' thực ra là đẳng cấu địa phương.
 
-#### Mệnh đề 3 {#top-iii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#top-iii-s1-prop-3 .statement tag=0BHI}
 
 Cho G và G' là hai nhóm tôpô, và cho f là một đồng phôi từ một lân cận V của phần tử đơn vị của G lên một lân cận V' của phần tử đơn vị của G', thỏa mãn điều kiện 1) của Định nghĩa 2. Khi đó f là một mở rộng của một đẳng cấu địa phương của G với G'.
 

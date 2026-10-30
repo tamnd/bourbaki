@@ -28,7 +28,7 @@ subsections:
       pdf_page: 67
 statements: 9
 exercises: 4
-content_sha256: 7ede8d35a8a5a2c4c2b1da4c1e77c401e2167723c4b27a5c2b4de931dc2b4c07
+content_sha256: 1c7404560212a50c294d1eba03558fadf83482c834bc87f0cecd8d577a36a573
 ---
 
 ## § 8. Convergence de la série de Hausdorff (cas ultramétrique)
@@ -51,7 +51,7 @@ $$
 
 Dans ce numéro, on suppose $p \neq 0$.
 
-#### Lemme 1 {#lie-ii-s8-lem-1 .statement}
+#### Lemme 1 {#lie-ii-s8-lem-1 .statement tag=0A6Q}
 
 Soit $n$ un entier $\geqslant 0$, et soit $n = n_0 + n_1 p + \cdots + n_k p^k$, avec $0 \leqslant n_i \leqslant p - 1$, le développement $p$-adique de $n$. Soit $S(n) = n_0 + n_1 + \cdots + n_k$. Alors
 
@@ -67,7 +67,7 @@ $$
 
 Comme $[n/p^j] = \sum_{i \geqslant j} n_i p^{i-j}$, le lemme en résulte.
 
-#### Lemme 2 {#lie-ii-s8-lem-2 .statement}
+#### Lemme 2 {#lie-ii-s8-lem-2 .statement tag=0A6R}
 
 On a $v(n) \leqslant v(n!) \leqslant (n - 1)\theta$ et $v(n) \leqslant (\log n)/(\log p)$ pour tout entier $n \geqslant 1$.
 
@@ -82,7 +82,7 @@ $$
 
 la série de Hausdorff (§ 6, n° 4, déf. 1). Soient $\mathbf{Z}_{(p)}$ l’anneau local de $\mathbf{Z}$ relativement à l’idéal premier $(p)$, et $(e_b)_{b \in B}$ une base de $L_{\mathbf{Z}_{(p)}}(\mathbf{I})$ sur $\mathbf{Z}_{(p)}$ (§ 2, n° 11, th. 1). C’est aussi une base de $L_\mathbf{Q}(\mathbf{I})$ sur $\mathbf{Q}$.
 
-#### Proposition 1 {#lie-ii-s8-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s8-prop-1 .statement tag=0A6S}
 
 *Soient r et s deux entiers $\geqslant 0$. Si $H_{r,s} = \sum_{b \in B} \lambda_b e_b$, où $\lambda_b \in \mathbf{Q}$, est la décomposition de $H_{r,s}$ par rapport à la base $(e_b)_{b \in B}$, on a*
 $$
@@ -109,7 +109,7 @@ Or, d’après le lemme 2, $v_p(r_i!s_i!) \leqslant (r_i + s_i - 1)\theta$ et $v
 
 ### 2. Algèbres de Lie normées
 
-#### Définition 1 {#lie-ii-s8-def-1 .statement}
+#### Définition 1 {#lie-ii-s8-def-1 .statement tag=0A6T}
 
 *On appelle algèbre de Lie normée sur $\mathbf{K}$ une algèbre de Lie munie d’une norme telle que*
 $$
@@ -136,7 +136,7 @@ est convergente (VAR, R, 4.1.1).
 
 Soient $r \geq 0, s \geq 0$, tels que $r + s \neq 0$ et soit $\| \tilde{H}_{r,s} \|$ la norme du polynôme continu $\tilde{H}_{r,s}$ (VAR, R, App., n° 2).
 
-#### Lemme 3 {#lie-ii-s8-lem-3 .statement}
+#### Lemme 3 {#lie-ii-s8-lem-3 .statement tag=0A6U}
 
 *On a*
 $$
@@ -162,7 +162,7 @@ $$
 $$
 Les relations (11) et (12) entraînent le lemme.
 
-#### Proposition 2 {#lie-ii-s8-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s8-prop-2 .statement tag=0A6V}
 
 *La série formelle $\tilde{H}$ est une série convergente* (VAR, R, 4.1.1). *Si G est la boule* $\{ x \in g \mid \| x \| < a^\theta \}$, *le domaine de convergence strict de* $\tilde{H}$ (VAR, R, 4.1.3) *contient* $G \times G$.
 
@@ -194,7 +194,7 @@ $$
 on raisonne de façon analogue si $s \geq 1$.
 En particulier, $\|h(x, y)\| < a^\theta$ pour $(x, y) \in G \times G$.
 
-#### Proposition 3 {#lie-ii-s8-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s8-prop-3 .statement tag=0A6W}
 
 Soit $G$ la boule $\{ x \in g \mid \|x\| < a^\theta \}$. L’application analytique $h : G \times G \to G$ fait de $G$ un groupe, dans lequel $0$ est élément neutre et $-x$ inverse de $x$ pour tout $x \in G$. De plus, si $R$ est un nombre réel tel que $0 < R < a^\theta$, la boule $\{ x \in g \mid \|x\| < R \}$ (resp. $\{ x \in g \mid \|x\| \leq R \}$) est un sous-groupe ouvert de $G$.
 Comme $H(U, -U) = 0$ et $H(0, U) = H(U, 0) = U$, on a $h(x, -x) = 0$ et $h(0, x) = h(x, 0) = x$ pour tout $x \in G$. Il ne reste donc qu’à démontrer la formule d’associativité
@@ -252,7 +252,7 @@ $$
 $$
 donc $e_A(G_R) \subset G_R, l_A(G_R) \subset G_R$ pour $R \leq a^\theta$.
 
-#### Proposition 4 {#lie-ii-s8-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s8-prop-4 .statement tag=0A6X}
 
 *Soit $R$ un nombre réel tel que $0 < R \leq a^\theta$. L’application $\exp_A$ définit un isomorphisme analytique de $G_R$ sur $1 + G_R$, et l’isomorphisme réciproque est la restriction de $\log_A$ à $1 + G_R$.*
 
@@ -271,7 +271,7 @@ $$
 h(x, y) = \sum_{r, s \geq 0} H_{r,s}(x, y).
 $$
 
-#### Proposition 5 {#lie-ii-s8-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s8-prop-5 .statement tag=0A6Y}
 
 Pour $x, y$ dans $G$, on a
 

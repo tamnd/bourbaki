@@ -37,7 +37,7 @@ subsections:
       pdf_page: 18
 statements: 33
 exercises: 11
-content_sha256: 02cc2bbb8aec91ce9faabd4126cd7cb931cd2eb089b4dc2581a511d9c0dcb201
+content_sha256: 46a409dc36595b29a6bb7960411338de4fcb8fd3691d06d11903d87705e012d0
 ---
 
 ## § 2. TORES MAXIMAUX DES GROUPES DE LIE COMPACTS
@@ -159,7 +159,7 @@ Soit $h \in H$. Alors $h^{-1}Th$ est un tore maximal de $H_0$, donc (th. 2) il e
 
 Soit G un groupe de Lie connexe d’algèbre de Lie compacte. Appelons sous-groupes de Cartan de G les sous-groupes intégraux dont les algèbres de Lie sont les sous-algèbres de Cartan de L(G) (les sous-groupes de Cartan d’un groupe compact connexe sont donc ses tores maximaux). Le théorème 2 et ses corollaires sont encore valides pour G, en y remplaçant partout l’expression « tore maximal » par « sous-groupe de Cartan ». Cela résulte aussitôt du fait qu’en vertu de la prop. 5 du § 1, n° 4, G est le produit direct d’un groupe vectoriel V par un groupe compact connexe K et que les sous-groupes de Cartan de G sont les produits de V par les tores maximaux de K. Notons d’ailleurs qu’il résulte alors du cor. 6 ci-dessus qu’on peut aussi définir les sous-groupes de Cartan de G comme les fixateurs des sous-algèbres de Cartan de L(G).
 
-#### Remarque 4 {#lie-ix-s2-n2-rem-4 .statement}
+#### Remarque 4 {#lie-ix-s2-n2-rem-4 .statement tag=0E8W}
 
 \* On peut aussi démontrer la partie c) du théorème 2 de la façon suivante. Munissons G d’une métrique riemannienne invariante (§ 1, n° 3, prop. 3). Alors, pour tout élément g de G, il existe une géodésique maximale passant par g et l’élément neutre de G (théorème de Hopf-Rinow), et on vérifie que l’adhérence d’une telle géodésique est un sous-tore de G. \*
 

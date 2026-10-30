@@ -41,7 +41,7 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 25
-content_sha256: 890bdd512ed021e9151e23128f06509329c84ff1883d10c98fcaf477533b7357
+content_sha256: 39903d36e71fd82b177991bd175a5a56543cc66eaadad8c82a42b81dab501389
 ---
 
 ## 5. FINITELY GENERATED PROJECTIVE MODULES. INVERTIBLE FRACTIONAL IDEALS
@@ -52,13 +52,13 @@ Let $A$ be a ring and $M$ an $A$-module. For every element $f \in A$, we shall w
 
 Let $g$ be another element of $A$; $A_g$ (resp. $M_g$) is canonically identified with $(A_f)_{g/1}$ (resp. $(M_f)_{g/1}$), where $g/1$ is the image of $g$ in $A_g$, and $u_{f,g}$ with $(u_f)_{g/1}$ (§ 2, no. 3, Proposition 7).
 
-#### Proposition 1 {#ac-ii-s5-prop-1 .statement}
+#### Proposition 1 {#ac-ii-s5-prop-1 .statement tag=04BE}
 
 *Let $f$ be an element of a ring $A$ and $\phi : A \to A_f$, the canonical mapping. The mapping $^a\phi : \operatorname{Spec}(A_f) \to \operatorname{Spec}(A)$ is a homeomorphism of $\operatorname{Spec}(A_f)$ onto the open subspace $X_f$ of $X = \operatorname{Spec}(A)$ (§ 4, no. 3).*
 
 This a particular case of § 4, no. 3, Corollary to Proposition 13.
 
-#### Proposition 2 {#ac-ii-s5-prop-2 .statement}
+#### Proposition 2 {#ac-ii-s5-prop-2 .statement tag=04BF}
 
 *Let $A$ be a ring, $u : M \to N$ an $A$-module homomorphism and $p$ a prime ideal of $A$.
 
@@ -74,19 +74,19 @@ $$
 
 hence there exists $g_1 \in A, - pA_{g'}$ such that $g_1 R_{g'} = 0$ (§ 2, no. 2, Corollary 2 to Proposition 4). Then $g_1 = g''/{g'}^h$, where $g'' \in A - p$; as $g'/1$ is invertible in $R_{g'}$, $(g''/1)R_{g'} = 0$, whence $R_{g'g''} = (R_{g'})_{g''/1} = 0$. If $f = g'g''$, $f \in A - p$, $Q_f = 0$ and $R_f = 0$, so that $u_f$ is bijective.
 
-#### Corollary {#ac-ii-s5-n1-cor-1 .statement}
+#### Corollary {#ac-ii-s5-n1-cor-1 .statement tag=04BG}
 
 *If $N$ is finitely presented and $N_p$ is a free $A_p$-module of rank $p$, there exists $f \in A - p$ such that $N$, is a free $A_f$-module of rank $p$.*
 
 There exist by hypothesis $p$ elements $x_i \in \mathbf{N}$ ($1 \leq i \leq p$) such that the $x_i/1$ form a basis of the free $A_,-$-module $N_p$. Consider the homomorphism $u : A^p \to \mathbf{N}$ such that $u(e_i) = x_i$ for $1 \leq i \leq p$, $(e_i)_{1 \leq i \leq p}$ being the canonical basis of $A^p$. As $u_p$ is bijective by hypothesis, there exists $f \in A - p$ such that $u_f$ is bijective, by virtue of Proposition 2.
 
-#### Proposition 3 {#ac-ii-s5-prop-3 .statement}
+#### Proposition 3 {#ac-ii-s5-prop-3 .statement tag=04BH}
 
 *Let* $(f_i)_{i \in I}$ *be a finite family of elements of a ring* $A$, *generating the ideal* $A$ *of* $A$. *The ring* $B = \prod_{i \in I} A_i$, *is then a faithfully flat* $A$*-module*.
 
 By § 2, no. **4**, Theorem 1, each of the $A_i$ is a flat $A$-module, hence so is $B$ (Chapter I, § 2, no. 3, Proposition 2). On the other hand, if $p$ is a prime ideal of $A$, there exists an index $i$ such that $f_i \notin p$ and $p_{f_i} = pA_{f_i}$ is therefore a prime ideal of $A_{f_i}$. Then $pB \subset pA_{f_i} \times \prod_{j \neq i} A_j \neq B$ since $pA_{f_i} \neq A_{f_i}$; this suffices to imply that $B$ is a faithfully flat $A$-module (Chapter I, § 3, no. 1, Proposition 1).
 
-#### Corollary {#ac-ii-s5-n1-cor-2 .statement}
+#### Corollary {#ac-ii-s5-n1-cor-2 .statement tag=04BI}
 
 *Under the hypotheses of Proposition 3, for an* $A$*-module* $M$ *to be finitely generated (resp. finitely presented), it is necessary and sufficient that, for every index* $i$, *the* $A_{f_i}$*-module* $M_{f_i}$ *be finitely generated (resp. finitely presented)*.
 
@@ -96,7 +96,7 @@ Note that the condition on the $f_i$ means that the open sets $X_{f_i}$ form a *
 
 ### 2. LOCAL CHARACTERIZATION OF FINITELY GENERATED PROJECTIVE MODULES
 
-#### Theorem 1 {#ac-ii-s5-thm-1 .statement}
+#### Theorem 1 {#ac-ii-s5-thm-1 .statement tag=04BJ}
 
 *Let* $A$ *be a ring and* $P$ *an* $A$*-module*. *The following properties are equivalent*:
 
@@ -134,13 +134,13 @@ M = \prod_{i \in I} P_i = P \otimes_A B.
 $$
 For every index $i$, there exists a free $A_i$-module $L$, such that $P_i$ is a direct factor of $L$, and it may be assumed that all the $L$, have the same rank; then $L = \prod_{i \in I} L_i$ is a free B-module of which M is a direct factor, in other words M is a finitely generated projective B-module. As B is a faithfully flat A-module (no. 1, Proposition 3), we conclude that P is a finitely generated projective A-module (Chapter I, §3, no. 6, Proposition 12).
 
-#### Corollary 1 {#ac-ii-s5-thm-1-cor-1 .statement}
+#### Corollary 1 {#ac-ii-s5-thm-1-cor-1 .statement tag=04BK}
 
 Suppose that the equivalent properties of the statement of Theorem 1 hold. Let m be an integer > 0 such that, for every family $(x_i)_{1 \leq i \leq m}$ of elements of P, there exists a family $(a_i)_{1 \leq i \leq m}$ of elements of A, which are not all divisors of zero and for which $\sum_{i=1}^m a_i x_i = 0$. Then, for all $p \in \operatorname{Spec}(A)$, $r_p \leq m$.
 
 Let p be a prime ideal of A; set $r = r_p$ and let $(y_j)_{1 \leq j \leq r}$ be a basis of the free $A_p$-module $P_p$. There exist elements $x_j$ ($1 \leq j \leq r$) of P and $s \in A - p$ such that $y_j = x_j / s$ for all $j$. Then for every family $(a_j)_{1 \leq j \leq r}$ of elements of A such that $\sum_{j=1}^r a_j x_j = 0$, $\sum_{j=1}^r (a_j/1) y_j = 0$ in $P_p$, whence $a_j/1 = 0$ for $1 \leq j \leq r$. As $A - p$ does not contain 0, this shows that the $a_j$ are all divisors of zero in A (§ 2, no. 1, Remark 3), hence of necessity $r \leq m$.
 
-#### Corollary 2 {#ac-ii-s5-thm-1-cor-2 .statement}
+#### Corollary 2 {#ac-ii-s5-thm-1-cor-2 .statement tag=04BL}
 
 Every finitely presented flat module is projective.
 
@@ -152,13 +152,13 @@ Remarks
 
 ### 3. RANKS OF PROJECTIVE MODULES
 
-#### Definition 1 {#ac-ii-s5-def-1 .statement}
+#### Definition 1 {#ac-ii-s5-def-1 .statement tag=04BM}
 
 Let P be a finitely generated projective A-module. For every prime ideal $p$ of A, the rank of the free $A_p$-module $P_p$ is called the rank of P at $p$ and is denoted by $\operatorname{rg}_p(P)$.
 
 By Theorem 1 the integer-valued function $p \mapsto \mathrm{rg}_p(P)$ is *locally constant* on $X = \mathrm{Spec}(A)$; it is therefore constant if $X$ is *connected* and in particular if the ring $A$ is an *integral domain* (§ 4, no. 3, Corollary 2 to Proposition 15).
 
-#### Definition 2 {#ac-ii-s5-def-2 .statement}
+#### Definition 2 {#ac-ii-s5-def-2 .statement tag=04BN}
 
 *Let $n$ be an integer $\geqslant 0$. A projective $A$-module $P$ is said to be *of rank* $n$ if it is finitely generated and $\mathrm{rg}_p(P) = n$ for every prime ideal $p$ of $A$.*
 
@@ -166,7 +166,7 @@ Clearly every finitely generated *free* $A$-module $L$ is of rank $n$ in the sen
 
 A projective module of rank 0 is zero (§ 3, no. 3, Corollary 2 to Theorem 1). If $A$ is not reduced to 0 and a projective $A$-module $P$ is of rank $n$, the integer $n$ is determined uniquely; it is then denoted by $\mathrm{rg}(P)$.
 
-#### Theorem 2 {#ac-ii-s5-thm-2 .statement}
+#### Theorem 2 {#ac-ii-s5-thm-2 .statement tag=04BO}
 
 *Let $P$ be an $A$-module and $n$ an integer $\geqslant 0$. The following properties are equivalent:*
 
@@ -180,7 +180,7 @@ A projective module of rank 0 is zero (§ 3, no. 3, Corollary 2 to Theorem 1). I
 
 By Definition 2 and Theorem 1, (a) and (c) are equivalent; (b) implies (c), as, for every prime ideal $p$ of $A$, there exists a maximal ideal $m$ containing $p$ and, writing $p' = p_m$, $P_p$ is isomorphic to $(P_m)_{p'}$ (§ 2, no. 5, Proposition 11); if $P_m$ is free of rank $n$, so then is $P_{p'}$. Property (c) implies (d) by virtue of Theorem 1 and the fact that, iff $\in A - m$ and $m' = m_f$, $P_m$ is isomorphic to $(P_f)_{m'}$ and therefore the ranks of $P_f$ and $P$ are equal. Finally, this last argument and Theorem 1 show that (d) implies (b).
 
-#### Remark {#ac-ii-s5-n3-rem-1 .statement}
+#### Remark {#ac-ii-s5-n3-rem-1 .statement tag=04BP}
 
 *If* $A$ *is an integral domain, a projective* $A$-*module admits a well-defined rank* (in the sense of Definition 2), *as has been observed above; moreover, this rank coincides with the rank defined in Algebra, Chapter II, § 7, no. 2; it is sufficient to apply Theorem 2 (c) with* $p = (0)$.
 
@@ -201,11 +201,11 @@ $$
 
 If the ranks of E and F are defined, so are those of $E \times F, E \otimes_A F,$ $\mathrm{Hom}_A(E, F), E^*$ and $\wedge^k E$ and the above equations also hold with the index $p$ omitted. Moreover:
 
-#### Corollary {#ac-ii-s5-n3-cor-1 .statement}
+#### Corollary {#ac-ii-s5-n3-cor-1 .statement tag=04BQ}
 
 *For a finitely generated projective A-module P to be of rank n, it is necessary and sufficient that $\mathbf{A}^n P$ be of rank 1.*
 
-#### Proposition 4 {#ac-ii-s5-prop-4 .statement}
+#### Proposition 4 {#ac-ii-s5-prop-4 .statement tag=04BR}
 
 *Let B be a commutative A-algebra and P a projective A-module of rank n. The B-module $P_{(B)} = B \otimes_A P$ is then projective of rank n.*
 
@@ -217,7 +217,7 @@ $$
 
 and, as, by hypothesis, $P \otimes_A A_i$ is a free A,-module of rank $n$, $(P_{(B)})_q$ is a free $B_q$-module of rank $n$.
 
-#### Proposition 5 {#ac-ii-s5-prop-5 .statement}
+#### Proposition 5 {#ac-ii-s5-prop-5 .statement tag=04BS}
 
 *Let A be a semi-local ring and P a finitely generated projective A-module. If the rank of P is defined, P is a free A-module.*
 
@@ -225,7 +225,7 @@ Suppose first that A is isomorphic to a product of fields $K_i$ ($1 \leq i \leq 
 
 ### 4. PROJECTIVE MODULES OF RANK 1
 
-#### Theorem 3 {#ac-ii-s5-thm-3 .statement}
+#### Theorem 3 {#ac-ii-s5-thm-3 .statement tag=04BT}
 
 Let $A$ be a ring and $M$ ajnitely generated $A$-module.
 
@@ -249,7 +249,7 @@ $$
 N \to N \otimes A \to N \otimes M \otimes M^* + A \otimes M^* \to M^*.
 $$
 
-#### Proposition 6 {#ac-ii-s5-prop-6 .statement}
+#### Proposition 6 {#ac-ii-s5-prop-6 .statement tag=04BU}
 
 *Let $M$ and $N$ be projective $A$-modules of rank 1. Then $M \otimes_A N$, $\operatorname{Hom}_A(M, N)$ and the dual $M^*$ of $M$ are projective of rank 1.*
 
@@ -263,7 +263,7 @@ N of rank 1, cl(M \otimes_A N) depends only on cl(M) and cl(N); as definition we
 
 and an internal law of composition is thus defined on $P(A)$.
 
-#### Proposition 7 {#ac-ii-s5-prop-7 .statement}
+#### Proposition 7 {#ac-ii-s5-prop-7 .statement tag=04BV}
 
 *The set $P(A)$ of classes of projective A-modules of rank 1, with the law of composition (6), is a commutative group. If M is a projective A-module of rank 1 and $M^*$ is its dual, then*
 
@@ -287,13 +287,13 @@ In this no. and the two following, $A$ denotes a ring, $S$ a multiplicative subs
 
 One of the most important special cases for applications is that where $A$ is an integral domain and $S$ is the set of elements $\neq 0$ of $A$; $B$ is then the field of fractions of $A$.
 
-#### Definition 3 {#ac-ii-s5-def-3 .statement}
+#### Definition 3 {#ac-ii-s5-def-3 .statement tag=04BW}
 
 Let $M$ be a sub-A-module of $B$. $M$ is called non-degenerate if $B.M = B$.
 
 If $B$ is a field, this condition simply means that $M$ is not reduced to 0.
 
-#### Proposition 8 {#ac-ii-s5-prop-8 .statement}
+#### Proposition 8 {#ac-ii-s5-prop-8 .statement tag=04BX}
 
 Let $M$ be a sub-A-module of $B$. The following conditions are equivalent:
 (a) $M$ is non-degenerate.
@@ -302,7 +302,7 @@ Let $M$ be a sub-A-module of $B$. The following conditions are equivalent:
 
 (a) implies (b), for if $B.M = B$, there exists $a \in A, s \in S$ and $x \in M$ such that $(a/s)x = 1$, hence $ax = s$ belongs to $S \cap M$. To see that (b) implies (c), note that $u$ is already injective ($§ 2$, no. 4, Theorem 1); moreover, if $x \in M \cap S$, the image under $u$ of $x/x \in S^{-1}M$ in $B$ is equal to 1 and $u$ is therefore surjective. Finally, (c) clearly implies (a).
 
-#### Corollary {#ac-ii-s5-n5-cor-1 .statement}
+#### Corollary {#ac-ii-s5-n5-cor-1 .statement tag=04BY}
 
 If $M$ and $N$ are two non-degenerate sub-A-modules of $B$, the A-modules $M + N, M.N$ and $M \cap N$ are non-degenerate.
 
@@ -310,7 +310,7 @@ The assertion is trivial for $M + N$; on the other hand if $s \in S \cap M$ and 
 
 Given two sub-A-modules $M$ and $N$ of $B$, let us denote by $N : M$ the sub-A-module of $B$ consisting of those $b \in B$ such that $bM \subset N$ (Chapter I, $§ 2$, no. 10, Remark). If every $b \in N : M$ is mapped to the homomorphism $h_b : x \mapsto bx$ of $M$ to $N$, a canonical homomorphism $b \mapsto h_b$ is obtained from $N : M$ to $\operatorname{Hom}_A(M, N)$.
 
-#### Proposition 9 {#ac-ii-s5-prop-9 .statement}
+#### Proposition 9 {#ac-ii-s5-prop-9 .statement tag=04BZ}
 
 Let $M, N$ be two sub-A-modules of $B$. If $M$ is non-degenerate, the canonical homomorphism from $N : M$ to $\operatorname{Hom}_A(M, N)$ is bijective.
 
@@ -320,7 +320,7 @@ f(x) = s^{-1}t^{-1}f(stx) = s^{-1}t^{-1}txf(s) = bx,
 $$
 whence $b \in N : M$ and $f = h_b$, which proves the proposition.
 
-#### Remark {#ac-ii-s5-n5-rem-1 .statement}
+#### Remark {#ac-ii-s5-n5-rem-1 .statement tag=04C0}
 
 In particular, $A : M$ is canonically identified with the dual $M^*$ of $M$, the canonical bilinear form on $M \times M^*$ being identified with the restriction to $M \times (A : M)$ of the multiplication $B \times B \to B$.
 
@@ -328,15 +328,15 @@ In particular, $A : M$ is canonically identified with the dual $M^*$ of $M$, the
 
 (We preserve the notation & no. 5.)
 
-#### Definition 4 {#ac-ii-s5-def-4 .statement}
+#### Definition 4 {#ac-ii-s5-def-4 .statement tag=04C1}
 
 *A sub*-A-module $M$ of $B$ is called invertible if there exists a *sub*-A-module $N$ of $B$ such that $M.N = A$.
 
-#### Example {#ac-ii-s5-n6-exa-1 .statement}
+#### Example {#ac-ii-s5-n6-exa-1 .statement tag=04C2}
 
 If $b$ is invertible element of $B$, the $A$-module $Ab$ is invertible, as is seen by taking $N = Ab^{-1}$.
 
-#### Proposition 10 {#ac-ii-s5-prop-10 .statement}
+#### Proposition 10 {#ac-ii-s5-prop-10 .statement tag=04C3}
 
 *Let $M$ be an invertible sub*-A*-module & $B$. Then:
 (i) There exists $s \in S$ such that $As \subset M \subset As^{-1}$ (and in particular $M$ is non-degenerate).
@@ -349,7 +349,7 @@ A = M.N \subset M.(A : M) \subset A
 $$
 and $M.(A : M) = A$; multiplying the two sides by $N$, we deduce $A : M = N$, which completes the proof.
 
-#### Theorem 4 {#ac-ii-s5-thm-4 .statement}
+#### Theorem 4 {#ac-ii-s5-thm-4 .statement tag=04C4}
 
 *Let $M$ be a non-degenerate sub*-A*-module* of $B$. *The following properties are equivalent*:
 (a) $M$ is invertible.
@@ -371,12 +371,12 @@ The implication (c) $\Rightarrow$ (b) is trivial. Let us show that (b) $\Rightar
 
 By virtue of Definition 2 of no. 3, (c) implies (d). Let us show the converse. As M is non-degenerate, its annihilator is zero (Proposition 8 (b)), then so is the annihilator of $M_m$ (§ 2, no. 4, formula (9)). As M, is assumed to be a monogenous &-module, it is therefore free of rank 1 and it then follows from no. 3, Theorem 2 that M is projective of rank 1.
 
-#### Corollary {#ac-ii-s5-n6-cor-1 .statement}
+#### Corollary {#ac-ii-s5-n6-cor-1 .statement tag=04C5}
 
 Every invertible sub-A-module of B is flat and finitely presented.
 This follows from Theorem 4 (c).
 
-#### Proposition 11 {#ac-ii-s5-prop-11 .statement}
+#### Proposition 11 {#ac-ii-s5-prop-11 .statement tag=04C6}
 
 Let M, N be two sub-A-modules of B. Suppose that M is invertible. Then:
 (i) The canonical homomorphism $M \otimes_A N \to M . N$ is bijective.
@@ -392,7 +392,7 @@ $$
 
 and $N = M.M'.N \subset M.(N : M)$, whence (ii).
 
-#### Remark {#ac-ii-s5-n6-rem-1 .statement}
+#### Remark {#ac-ii-s5-n6-rem-1 .statement tag=04C7}
 
 The proof of (i) in Proposition 11 uses only the fact that $M$ is flat and non-degenerate.
 
@@ -412,7 +412,7 @@ where (1) denotes the group consisting only of the identity element and $\rho$ i
 
 As every invertible sub-A-module M of B is projective of rank 1 (no. 6, Theorem 4), the element $cl(M) \in P(A)$ is defined (no. 4).
 
-#### Proposition 12 {#ac-ii-s5-prop-12 .statement}
+#### Proposition 12 {#ac-ii-s5-prop-12 .statement tag=04C8}
 
 *The mapping* $cl : \mathfrak{g} \to P(A)$ *defines, by taking quotients, an isomorphism from* $\mathfrak{c} = \mathfrak{g}/\theta(B^*)$ *onto the kernel of the canonical homomorphism*
 
@@ -432,17 +432,17 @@ It follows from Proposition 11 of no. 6 and the definition of addition in $P(A)$
 
 Let us now determine the image of $cl$. If $M \in \mathfrak{J}$, then $M \otimes_A B = S^{-1}M = B$ (no. 5, Proposition 8 (c)), whence $cl(M) \in \mathrm{Ker}(\phi)$. Conversely, let $P$ be a projective $A$-module of rank 1 such that $P_{(B)} = P \otimes_A B$ is $B$-isomorphic to $B$. As $P$ is a flat $A$-module, the injection $u : A \to B$ defines an injection $u \otimes 1 : P \to P_{(B)} = B$ and $P$ is thus identified with a sub-$A$-module of $B$; by virtue of Proposition 8 (c) of no. 5, $P$ is non-degenerate and Theorem 4 of no. 6 shows that $P$ is invertible. The kernel of $\phi$ is therefore equal to the image of $cl : \mathfrak{J} \to P(A)$.
 
-#### Corollary 1 {#ac-ii-s5-prop-12-cor-1 .statement}
+#### Corollary 1 {#ac-ii-s5-prop-12-cor-1 .statement tag=04C9}
 
 *For two invertible sub-A-modules of B to have the same image in $\mathfrak{C}$, it is necessary and sufficient that they be isomorphic.*
 
-#### Corollary 2 {#ac-ii-s5-prop-12-cor-2 .statement}
+#### Corollary 2 {#ac-ii-s5-prop-12-cor-2 .statement tag=04CA}
 
 *If the ring $B$ is semi-local, the group $\mathfrak{C}$ of classes of invertible sub-A-modules of B is canonically identified with the group $P(A)$ of classes of projective A-modules of rank 1.*
 
 In this case $P(B) = 0$ (no. 3, Proposition 5).
 
-#### Remark {#ac-ii-s5-n7-rem-1 .statement}
+#### Remark {#ac-ii-s5-n7-rem-1 .statement tag=04CB}
 
 The hypothesis of Corollary 2 is fulfilled in the two following cases:
 

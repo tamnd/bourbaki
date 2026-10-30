@@ -24,9 +24,9 @@ subsections:
       pdf_page: 334
 statements: 6
 exercises: 6
-content_sha256: 47cb39dc3f1846abaa3dcefc2a04230556208a8c11617a6f95f85653b783c315
+content_sha256: 26d8eab5dcedd32bf51eab3bb4cdd8959fb47659e3d976c5685243d949b90147
 translated_from: content/en/fvr/VII/02_s2_the_gamma_function_in_the_complex_domain.md
-source_content_sha256: c140260390c34f80ae37eab1c3dc10a97230a90dffb6d1d544762f7f3add163c
+source_content_sha256: 1c81174cbd47bb500a623e0c569e0a38286f1c72eeae4b3d0069a0e65ec296a4
 translation_model: gpt-5.4
 translation_run: translate-vi-f1288f74
 glossary_version: 34
@@ -121,7 +121,7 @@ $$
 
 tính đến phương trình phiếm hàm (4) của VII, p. 315, khi đó ta thấy rằng:
 
-#### Mệnh đề 1 {#fvr-vii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-vii-s2-prop-1 .statement tag=08JB}
 
 Với mọi số phức $z$ ta có
 
@@ -131,7 +131,7 @@ $$
 
 (quan hệ của các phần bù).
 
-#### Hệ quả {#fvr-vii-s2-n2-cor-1 .statement}
+#### Hệ quả {#fvr-vii-s2-n2-cor-1 .statement tag=08JC}
 
 Với mọi số thực $t$ ta có
 
@@ -204,7 +204,7 @@ f(0) = \sqrt{\pi^{p-1} / \prod_{k=1}^{p-1} \sin \frac{k\pi}{p}}
 $$
 và vì tích ở vế phải bằng $p/2^{p-1}$ (VI, p. 284, cor. 1), cuối cùng ta thấy rằng:
 
-#### Mệnh đề 2 {#fvr-vii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-vii-s2-prop-2 .statement tag=08JD}
 
 *Với mọi số phức* $z$ *không là một số nguyên* $\leqslant 0$ *và với mọi số nguyên* $p > 0$ *ta có*
 $$
@@ -212,7 +212,7 @@ $$
 $$
 *(công thức nhân Legendre-Gauss)*.
 
-#### Mệnh đề 3 {#fvr-vii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-vii-s2-prop-3 .statement tag=08JE}
 
 *Với mọi số thực* $x > 0$ *ta có*
 $$
@@ -348,7 +348,7 @@ $$
 
 từ đó dễ dàng suy ra rằng $\delta = \frac{1}{2} \log 2\pi$. Cuối cùng ta có kết quả sau:
 
-#### Mệnh đề 4 {#fvr-vii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-vii-s2-prop-4 .statement tag=08JF}
 
 *Dọc theo bộ lọc $\mathfrak{F}$ ta có (với mọi số nguyên $p \geqslant 1$) khai triển tiệm cận*
 
@@ -359,7 +359,7 @@ $$
 
 *(Khai triển Stirling)*.
 
-#### Hệ quả {#fvr-vii-s2-n3-cor-1 .statement}
+#### Hệ quả {#fvr-vii-s2-n3-cor-1 .statement tag=08JG}
 
 *Dọc theo bộ lọc $\mathfrak{F}$ ta có*
 
@@ -407,7 +407,7 @@ $$
 
 Lập luận tương tự dẫn đến mệnh đề tương tự sau đây:
 
-#### Mệnh đề 5 {#fvr-vii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#fvr-vii-s2-prop-5 .statement tag=08JH}
 
 Theo bộ lọc $\mathfrak{F}$ ta có (với mọi số nguyên $p \geqslant 1$), khai triển tiệm cận
 

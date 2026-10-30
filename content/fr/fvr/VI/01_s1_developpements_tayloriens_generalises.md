@@ -40,7 +40,7 @@ subsections:
       pdf_page: 274
 statements: 22
 exercises: 3
-content_sha256: 1c3e00ab266cbc56b3245739da74a342e47944ab91c846c5650f7ce7098a4940
+content_sha256: 13506f2411b8662e9411df929d8e9ef9b7561c330859ee51aefa8a02d19b91b7
 ---
 
 ## § 1. DÉVELOPPEMENTS TAYLORIENS GÉNÉRALISÉS
@@ -63,7 +63,7 @@ Comme exemple de ces prolongements, citons l’opérateur de *dérivation* D dan
 
 Pour tout polynôme $f \in K[X]$, nous désignerons par $T_Y(f)$ le polynôme $f(X + Y)$ de K[X, Y]; l’application $T_Y$ est une application K-linéaire de K[X] dans K[X, Y], dite *opérateur de translation*.
 
-#### Définition 1 {#fvr-vi-s1-def-1 .statement}
+#### Définition 1 {#fvr-vi-s1-def-1 .statement tag=08HO}
 
 *On dit qu’un opérateur U dans K[X] est un opérateur de composition s’il est permutable avec l’opérateur de translation, c’est-à-dire si $U_X T_Y = T_Y U$.*
 
@@ -75,21 +75,21 @@ $$
 U_X(f(X + Y)) = U_Y(f(X + Y)).
 $$
 
-#### Exemple 1 {#fvr-vi-s1-n1-exa-1 .statement}
+#### Exemple 1 {#fvr-vi-s1-n1-exa-1 .statement tag=08HP}
 
 Pour tout $\lambda \in K$, l’opérateur qui, à tout polynôme $f(X)$, fait correspondre le polynôme $f(X + \lambda)$, est un opérateur de composition.
 
-#### Exemple 2 {#fvr-vi-s1-n1-exa-2 .statement}
+#### Exemple 2 {#fvr-vi-s1-n1-exa-2 .statement tag=08HQ}
 
 La *dérivation* D dans K[X] est un opérateur de composition (cf. prop. 1).
 
-#### Remarque {#fvr-vi-s1-n1-rem-1 .statement}
+#### Remarque {#fvr-vi-s1-n1-rem-1 .statement tag=08HR}
 
 Comme K est un corps infini, pour que l’opérateur U dans K[X] soit un opérateur de composition, il faut et il suffit que pour tout polynôme $f \in K[X]$ et tout élément $\alpha \in K$, on ait, en posant $g = U(f)$, $g(X + \alpha) = U(f(X + \alpha))$. (A, IV, § 2, n° 4).
 
 Il est clair que toute combinaison linéaire d’opérateurs de composition, à coefficients dans K, est un opérateur de composition; il en est de même du composé de deux opérateurs de composition. En d’autres termes, les opérateurs de composition forment une *sous-algèbre* $\Gamma$ de l’algèbre des endomorphismes de l’espace vectoriel K[X].
 
-#### Proposition 1 {#fvr-vi-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-vi-s1-prop-1 .statement tag=08HS}
 
 *Pour qu’un opérateur U dans K[X] soit un opérateur de composition il faut et il suffit qu’il soit permutable avec la dérivation D dans K[X].*
 
@@ -137,17 +137,17 @@ Cette formule peut s’interpréter en langage topologique de la façon suivante
 
 La formule (3) montre qu’à toute série formelle $u(S) = \sum_{k=0}^{\infty} \alpha_k S^k$ à une indéterminée sur $K$ (A, IV, § 5), on peut faire correspondre l’opérateur de composition $U = \sum_{k=0}^{\infty} \alpha_k D^k$, que nous noterons désormais $u(D)$. Cette remarque peut être précisée de la façon suivante:
 
-#### Théorème 1 {#fvr-vi-s1-thm-1 .statement}
+#### Théorème 1 {#fvr-vi-s1-thm-1 .statement tag=08HT}
 
 L’application qui, à toute série formelle $u(S) = \sum_{k=0}^\infty \alpha_k S^k$ à une indéterminée sur $K$, fait correspondre l’opérateur de composition $u(D) = \sum_{k=0}^\infty \alpha_k D^k$ dans $K[X]$, est un isomorphisme de l’algèbre $K[[S]]$ des séries formelles sur l’algèbre $\Gamma$ des opérateurs de composition.
 
 On vérifie aussitôt que cette application est un homomorphisme. Tout revient donc à voir qu’elle est injective, autrement dit, que la relation $\sum_{k=0}^\infty \alpha_k D^k = 0$ entraîne $\alpha_k = 0$ pour tout $k$; or, $h! \alpha_h$ est le terme constant du polynôme obtenu en appliquant $\sum_{k=0}^\infty \alpha_k D^k$ à $X^h$, d’où le théorème.
 
-#### Corollaire {#fvr-vi-s1-n1-cor-1 .statement}
+#### Corollaire {#fvr-vi-s1-n1-cor-1 .statement tag=08HU}
 
 L’algèbre $\Gamma$ des opérateurs de composition dans $K[X]$ est commutative.
 
-#### Exemple {#fvr-vi-s1-n1-exa-3 .statement}
+#### Exemple {#fvr-vi-s1-n1-exa-3 .statement tag=08HV}
 
 Si $U$ est l’opérateur qui, à tout polynôme $f(X)$, fait correspondre $f(X + \lambda)$ (où $\lambda \in K$), on a $U_0(X^k) = \lambda^k$, et par suite $U = \sum_{k=0}^\infty \frac{1}{k!} (\lambda D)^k$. Par analogie avec le développement en série de $e^x$ (III, p. 15), nous désignerons par $e^S$ ou $\exp(S)$ le série formelle $\sum_{n=0}^\infty \frac{1}{n!} S^n$ dans l’anneau $K[[S]]$; on peut donc écrire $U = e^{\lambda D}$. En remplaçant dans ce raisonnement le corps $K$ par le corps de fractions rationnelles $K(Y)$, on voit de même que l’opérateur de translation $T_Y$ peut s’écrire $e^{YD}$.
 
@@ -166,7 +166,7 @@ $$(\exp S)(\exp (-S)) = 1$$
 
 ce qui justifie la notation introduite.
 
-#### Scholie {#fvr-vi-s1-n1-sch-1 .statement}
+#### Scholie {#fvr-vi-s1-n1-sch-1 .statement tag=08HW}
 
 L’isomorphie de l’algèbre $K[[S]]$ des séries formelles et de l’algèbre $\Gamma$ des opérateurs de composition dans $K[X]$, permet parfois de démontrer plus simplement des propositions relatives à des séries formelles, en les démontrant pour les opérateurs de composition qui leur correspondent (cf. VI, p. 6, prop. 6).
 
@@ -174,13 +174,13 @@ L’isomorphie de l’algèbre $K[[S]]$ des séries formelles et de l’algèbre
 
 Étant donné un opérateur de composition $U = \sum_{k=0}^{\infty} \alpha_k D^k \neq 0$, soit $p$ le plus petit des entiers $k$ tels que $\alpha_k \neq 0$; nous dirons que $p$ est l’ordre de l’opérateur $U$.
 
-#### Proposition 2 {#fvr-vi-s1-prop-2 .statement}
+#### Proposition 2 {#fvr-vi-s1-prop-2 .statement tag=08HX}
 
 *Tout opérateur de composition d’ordre 0 est inversible dans l’algèbre $\Gamma$ des opérateurs de composition dans $\mathbf{K}[X]$.*
 
 En effet, une série formelle $\sum_{k=0}^{\infty} \alpha_k S^k$ telle que $\alpha_0 \neq 0$ est *inversible* dans l’anneau $\mathbf{K}[[S]]$ (A, IV, § 5); la proposition résulte donc du th. 1 de VI, p. 4.
 
-#### Proposition 3 {#fvr-vi-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-vi-s1-prop-3 .statement tag=08HY}
 
 *Soit $U$ un opérateur de composition d’ordre $p$; pour tout polynôme $f$ de degré $< p$, $U(f) = 0$; pour tout polynôme $f \neq 0$ de degré $n \geq p$, $U(f)$ est un polynôme $\neq 0$ de degré $n - p$.*
 
@@ -188,7 +188,7 @@ C’est une conséquence immédiate de la formule (2) de VI, p. 2 et de la défi
 
 Il est clair que tout opérateur $U$ d’ordre $p$ peut s’écrire d’une seule manière $U = D^p V = V D^p$, où $V$ est un opérateur d’ordre 0 (donc inversible).
 
-#### Définition 2 {#fvr-vi-s1-def-2 .statement}
+#### Définition 2 {#fvr-vi-s1-def-2 .statement tag=08HZ}
 
 *Soit $U = D^p V$ un opérateur de composition d’ordre $p$ dans $\mathbf{K}[X]$. On appelle polynôme d’Appell d’indice $n$ attaché à l’opérateur $U$ le polynôme $u_n(X) = V^{-1}(X^n)$.*
 
@@ -204,7 +204,7 @@ $$
 u_n(0) = \beta_n.
 $$
 
-#### Proposition 4 {#fvr-vi-s1-prop-4 .statement}
+#### Proposition 4 {#fvr-vi-s1-prop-4 .statement tag=08I0}
 
 *Les polynômes d’Appell attachés à $U$ satisfont aux relations*
 
@@ -224,7 +224,7 @@ Ces formules sont en effet respectivement équivalentes aux relations suivantes 
 (11) $(\exp(\mathrm{YD}_X))\ V_X^{-1} = V_X^{-1}\exp(\mathrm{YD}_X)$
 (12) $UV^{-1} = D^p.$
 
-#### Proposition 5 {#fvr-vi-s1-prop-5 .statement}
+#### Proposition 5 {#fvr-vi-s1-prop-5 .statement tag=08I1}
 
 *Pour tout polynôme* $f \in \mathbf{K}[X]$ *et tout opérateur de composition U d’ordre p, on a*
 
@@ -246,7 +246,7 @@ en raison de la formule de Taylor et de la déf. 2 de VI, p. 5; il suffit d’ap
 
 Soit E l’anneau des *séries formelles* à une indéterminée S, à coefficients dans l’anneau de polynômes $\mathbf{K}[X]$ (A, IV, § 5) autrement dit, l’anneau des séries formelles $g(X, S) = \sum_{n=0}^{\infty} \alpha_n(X)S^n$, où les $\alpha_n$ appartiennent à $\mathbf{K}[X]$. Pour tout opérateur U dans $\mathbf{K}[X]$, on définit une application $U_X$ de E dans lui-même en posant $U_X(g(X, S)) = \sum_{n=0}^{\infty} U(\alpha_n)S^n$. Il est clair que E est un module sur l’anneau $\mathbf{K}[[S]]$ des séries formelles en S à coefficients dans $\mathbf{K}$; en raison de la linéarité de U dans $\mathbf{K}[X]$, on vérifie aussitôt que pour tout élément $\theta \in \mathbf{K}[[S]]$ et tout $g \in E$, on a $U_X(\theta g) = \theta U_X(g)$; autrement dit, $U_X$ est une application *linéaire* du module E dans lui-même.
 
-#### Proposition 6 {#fvr-vi-s1-prop-6 .statement}
+#### Proposition 6 {#fvr-vi-s1-prop-6 .statement tag=08I2}
 
 *Soit* $U = D^pV = u(D)$ *un opérateur de composition d’ordre p dans* $\mathbf{K}[X]$, *u(S) étant une série d’ordre formelle p dans* $\mathbf{K}[[S]]$. *On a alors les formules*
 
@@ -366,7 +366,7 @@ $$
 
 $\xi$ étant donc une variable muette dans le symbole fonctionnel du second membre (cf. II, p. 9). Pour tout $a \geqslant 0$, l’opérateur qui, à toute fonction $f \in E$, associe la restriction à I de la fonction $x \mapsto f(x + a)$, est appelé l’opérateur de translation par a.
 
-#### Définition 3 {#fvr-vi-s1-def-3 .statement}
+#### Définition 3 {#fvr-vi-s1-def-3 .statement tag=08I3}
 
 On dit qu’un opérateur $U$ dans E est un opérateur de composition si, pour tout $a \geqslant 0$, il est permutable avec l’opérateur de translation par a.
 
@@ -388,7 +388,7 @@ Si $f$ est un polynôme, on a $f(\xi + x) = \sum_{k=0}^{s} \frac{1}{k!} f^{(k)}(
 
 Nous désignerons encore par $u_n$ les polynômes d’Appell attachés à l’opérateur $U$. Au développement taylorien généralisé d’un polynôme (VI, p. 6, formule (13)) correspond, pour des fonctions plus générales, le résultat suivant:
 
-#### Théorème 2 {#fvr-vi-s1-thm-2 .statement}
+#### Théorème 2 {#fvr-vi-s1-thm-2 .statement tag=08I4}
 
 Soit $f$ une fonction admettant une dérivée $(n+1)$-ème continue dans $I$, et appartenant à $E$ ainsi que toutes ses dérivées $f^{(m)}$ pour $1 \leq m \leq n$. Si $U$ est un opérateur de composition d’ordre $p \leq n$ dans $E$, on $a$, pour $x \geq 0$ et $h \geq 0$
 
@@ -464,17 +464,17 @@ $$
 
 ² Il résulte de la théorie des séries entières que lorsque l’une de ces séries est absolument convergente dans un voisinage $V$ de $0$, l’autre est absolument convergente dans un voisinage $W \subset V$ de $0$.
 
-#### Remarque {#fvr-vi-s1-n6-rem-1 .statement}
+#### Remarque {#fvr-vi-s1-n6-rem-1 .statement tag=08I5}
 
 On peut utiliser la formule (33) (resp. (34)) pour le calcul des $\beta_n$ (resp. des $u_n(x)$) en utilisant le lemme suivant de la théorie des séries entières:
 
-#### Lemme {#fvr-vi-s1-n6-lem-1 .statement}
+#### Lemme {#fvr-vi-s1-n6-lem-1 .statement tag=0E5U}
 
 Si deux séries entières $\sum_{n=0}^\infty c_n \lambda^n \sum_{n=0}^\infty d_n \lambda^n$ sont absolument convergentes pour tout $\lambda$ dans un voisinage de 0, et si on a $\sum_{n=0}^\infty c_n \lambda^n = \sum_{n=0}^\infty d_n \lambda^n$ pour ces valeurs de $\lambda$, alors $c_n = d_n$ pour tout entier $n \geqslant 0$.
 
 Si, par un procédé quelconque, on peut obtenir une série entière convergente égale à $\lambda^n / u(\lambda)$ dans un voisinage de 0, les coefficients de cette série sont nécessairement égaux aux $\beta_n$. C’est ce procédé que nous allons appliquer dans les exemples qui suivent.
 
-#### Exemple 1 {#fvr-vi-s1-n6-exa-1 .statement}
+#### Exemple 1 {#fvr-vi-s1-n6-exa-1 .statement tag=08I6}
 
 Si $U$ est l’application identique, on a $u(\lambda) = 1$, et l’opérateur $U$ est évidemment régulier; comme $u_n(x) = x^n$, la formule (27) de VI, p. 10, s’écrit, en posant $t = \xi - \eta$
 
@@ -484,7 +484,7 @@ $$
 
 c’est-à-dire se réduit à la formule de Taylor (II, p. 12).
 
-#### Exemple 2 {#fvr-vi-s1-n6-exa-2 .statement}
+#### Exemple 2 {#fvr-vi-s1-n6-exa-2 .statement tag=08I7}
 
 Prenons pour $U$ l’opérateur de composition qui, à toute fonction $f$ définie dans $\mathbf{R}_+$, fait correspondre la fonction $x \mapsto f(x + 1) - f(x)$; on a donc
 
@@ -508,7 +508,7 @@ $$
 
 1 Ce lemme est un cas particulier d’un résultat général que nous démontrerons plus tard; en voici la démonstration. Si une série entière $\sum_{n=0}^\infty c_n \lambda^n$ est absolument convergente pour $\lambda = \lambda_0$, pour tout entier $k \geqslant 0$ la série $\sum_{n=0}^\infty c_{n+k} \lambda^n$ est normalement convergente pour $|\lambda| \leqslant |\lambda_0|$, donc est continue dans ce disque (TG, X, p. 10); on en conclut que $\sum_{n=k+1}^\infty c_n \lambda^n = o(\lambda^k)$ au voisinage de 0. Le lemme résulte alors de l’unicité des coefficients du développement asymptotique d’une fonction suivant les $\lambda^n$ (V, p. 12).
 
-#### Exemple 3 {#fvr-vi-s1-n6-exa-3 .statement}
+#### Exemple 3 {#fvr-vi-s1-n6-exa-3 .statement tag=08I8}
 
 Soit E l’espace vectoriel des fonctions f définies et continues dans $\mathbf{R}$, telles en outre que l’intégrale $\int_{-\infty}^{+\infty} f(x + \xi)e^{-\xi^2/2}\ d\xi$ soit convergente pour tout $x \geqslant 0$. L’opérateur U défini par
 

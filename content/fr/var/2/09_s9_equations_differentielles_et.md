@@ -28,7 +28,7 @@ subsections:
       pdf_page: 124
 statements: 2
 exercises: 0
-content_sha256: a65d2285e0ec3b5e8e51427bcedc796fffee8d546e725662827c97e254fda4a1
+content_sha256: 7ca23343277d613eaee785ee87e0424375f5fb98366998020ab0999c2b8c09ce
 ---
 
 ## § 9. Equations différentielles et feuilletages
@@ -182,7 +182,7 @@ b) Pour tout $x \in X$, il existe une sous-variété $S_x$ de X possédant les d
 
 Supposons ces conditions vérifiées et soit $R \{x, y\}$ la relation sur X « x et y appartiennent à une même feuille connexe »; alors R est une relation d’équivalence régulière (5.9.5) sur X, et, si p désigne la projection canonique $X \to X/R$, on a $Y = X_p$.
 
-#### Exemple {#var-2-s9-n2-exa-1 .statement}
+#### Exemple {#var-2-s9-n2-exa-1 .statement tag=0EEH}
 
 Prenons $K = R$ et $X = R^2$. Faisons opérer le groupe discret $\Gamma = Z^2$ sur X par translations. Soit $m \in R$ et soit $(X, Y_m)$ le feuilletage défini par la submersion $p : (x_1, x_2) \mapsto x_2 - mx_1$ de X sur R. Posons $X' = X/\Gamma$ et $Y'_m = Y_m/\Gamma$; alors $Y'_m$ est un feuilletage du tore $X'$ (cf. 9.2.4, exemple d)). Si m est rationnel, il existe une submersion $p'$ de $X'$ sur $R/Z$ telle que $Y'_m = X'_{p'}$. Si m est irrationnel, toute feuille connexe maximale de $(X', Y'_m)$ est dense dans $X'$, et il n’existe pas de submersion $p'$ de $X'$ dans une variété S telle que $Y'_m = X'_{p'}$.
 
@@ -206,7 +206,7 @@ Soit $x \in X$. Si $Z_1$ et $Z_2$ sont deux sous-variétés intégrales de X con
 
 9.3.2. On dit que F est intégrable s’il existe un feuilletage Y de X de classe $C^s$ tel que $F = T(X, Y)$ (9.2.8). Un tel feuilletage est alors unique; on l’appelle le feuilletage intégral de F. Pour qu’un morphisme $f : V \to X$ de classe $C^s$ soit une intégrale de F, il faut et il suffit que $f$ soit un morphisme de V dans Y.
 
-#### Exemple {#var-2-s9-n3-exa-1 .statement}
+#### Exemple {#var-2-s9-n3-exa-1 .statement tag=0EEI}
 
 Si F est de rang 1 en tout point, F est intégrable, et définit sur X un feuilletage pur de dimension 1. Supposons en outre que $K = \mathbf{R}$, que X soit séparée, et que F admette pour repère un champ de vecteurs $\xi$ partout non nul. Alors, pour tout $x \in X$, la feuille connexe maximale contenant $x$ est l’image de l’arc intégral maximal de $\xi$ d’origine $x$ (9.1.3).
 

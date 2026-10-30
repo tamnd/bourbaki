@@ -56,7 +56,7 @@ subsections:
       pdf_page: 28
 statements: 31
 exercises: 16
-content_sha256: 8d43fb5864f21d9fdc52e54d886711d1e825b061c0bc8e2b3443df898a021f26
+content_sha256: 1599bff2ebc5dbe18ea8a1b157a1be842cbd97c4445bbc552e9a21379a49c471
 ---
 
 ## § 2. Algèbres de Lie libres
@@ -71,7 +71,7 @@ L’algèbre du magma M(X) à coefficients dans l’anneau K est notée Lib(X), 
 
 ### 2. Construction de l’algèbre de Lie libre
 
-#### Définition 1 {#lie-ii-s2-def-1 .statement}
+#### Définition 1 {#lie-ii-s2-def-1 .statement tag=0A2Q}
 
 On appelle algèbre de Lie libre sur l’ensemble X l’algèbre quotient L(X) = Lib(X)/a où a est l’idéal bilatère de Lib(X) engendré par les éléments de l’une des formes
 
@@ -83,7 +83,7 @@ Il est clair que L(X) est une K-algèbre de Lie; le composé de deux éléments 
 
 La proposition suivante justifie le nom d’algèbre de Lie libre donné à L(X).
 
-#### Proposition 1 {#lie-ii-s2-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s2-prop-1 .statement tag=0A2R}
 
 Soient $\psi$ l’application canonique de Lib(X) sur L(X) et $\varphi$ la restriction de $\psi$ à X. Pour toute application f de X dans une algèbre de Lie g, il existe un homomorphisme F : L(X) $\to g$ et un seul tel que $f = F \circ \varphi$.
 
@@ -91,7 +91,7 @@ a) Existence de F : soit h l’homomorphisme de Lib(X) dans g prolongeant f (n°
 
 b) Unicité de F : soit $F' : L(X) \to g$ un homomorphisme tel que $f = F' \circ \varphi$. Les homomorphismes $F \circ \psi$ et $F' \circ \psi$ de Lib(X) dans g coïncident dans X, donc sont égaux; comme $\psi$ est surjective, on a $F = F'$.
 
-#### Corollaire 1 {#lie-ii-s2-prop-1-cor-1 .statement}
+#### Corollaire 1 {#lie-ii-s2-prop-1-cor-1 .statement tag=0A2S}
 
 La famille $(\varphi(x))_{x \in X}$ est libre sur K dans L(X).
 
@@ -101,7 +101,7 @@ $$
 $$
 Soit g l’algèbre de Lie commutative ayant K comme module sous-jacent. Pour $i = 1, 2, \ldots, n$, il existe un homomorphisme $F_i$ de L(X) dans g tel que $F_i(\varphi(x_i)) = 1$ et $F_i(\varphi(x)) = 0$ pour $x \neq x_i$ (prop. 1); appliquant $F_i$ à la relation (3), on trouve $\lambda_i = 0$.
 
-#### Corollaire 2 {#lie-ii-s2-prop-1-cor-2 .statement}
+#### Corollaire 2 {#lie-ii-s2-prop-1-cor-2 .statement tag=0A2T}
 
 Soit a une algèbre de Lie. Toute extension de L(X) par a est inessentielle.
 
@@ -109,7 +109,7 @@ Soit $a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$ une telle extension (cha
 
 Comme l’anneau K n’est pas réduit à 0, le cor. 1 de la prop. 1 montre que φ est injective. On peut donc identifier au moyen de φ l’ensemble X à son image dans L(X); avec cette convention, X engendre L(X) et toute application de X dans une algèbre de Lie g se prolonge en un homomorphisme d’algèbres de Lie de L(X) dans g.
 
-#### Remarque {#lie-ii-s2-n2-rem-1 .statement}
+#### Remarque {#lie-ii-s2-n2-rem-1 .statement tag=0A2U}
 
 Lorsque X est vide, M(X) est vide, donc L(X) = {0}. Si X a un seul élément x, le sous-module K.x de L(X) est une sous-algèbre de Lie de L(X); comme X engendre L(X), le cor. 1 de la prop. 1 montre que L(X) est un module libre de base {x}.
 
@@ -153,13 +153,13 @@ l’ensemble $F'$ des applications polynomiales de $g^I$ dans $g$ en est une sou
 
 ### 5. Propriétés fonctorielles
 
-#### Proposition 2 {#lie-ii-s2-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s2-prop-2 .statement tag=0A2V}
 
 *Soient X et Y deux ensembles. Toute application $u : X \to Y$ se prolonge de manière unique en un homomorphisme d’algèbres de Lie $L(u) : L(X) \to L(Y)$. Pour toute application $v : Y \to Z$, on a $L(v \circ u) = L(v) \circ L(u)$.*
 
 L’existence et l’unicité de $L(u)$ résultent de la prop. 1 du n° 2. Les homomorphismes $L(v \circ u)$ et $L(v) \circ L(u)$ ont même restriction à $X$, donc sont égaux (prop. 1).
 
-#### Corollaire {#lie-ii-s2-n5-cor-1 .statement}
+#### Corollaire {#lie-ii-s2-n5-cor-1 .statement tag=0A2W}
 
 *Si $u$ est injective (resp. surjective, bijective), il en est de même de $L(u)$.*
 
@@ -185,7 +185,7 @@ pour toute famille filtrante croissante (S_α)_{α ∈ I} de parties de X.
 
 Appliquant ce qui précède à la famille des parties finies de X, on voit que tout élément de L(X) est de la forme P(x_1, ..., x_n) où P est un polynôme de Lie à n indéterminées et x_1, ..., x_n sont des éléments de X.
 
-#### Proposition 3 {#lie-ii-s2-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s2-prop-3 .statement tag=0A2X}
 
 Soit K' un anneau commutatif non réduit à {0}, et soit u : K → K' un homomorphisme d’anneaux. Pour tout ensemble X, il existe un homomorphisme de K'-algèbres de Lie et un seul
 
@@ -195,7 +195,7 @@ tel que v(x ⊗ 1) = x pour x ∈ X. De plus, v est un isomorphisme.
 
 Appliquant la prop. 1 à g = L_{K'}(X) considérée comme K'-algèbre de Lie, et à l’application x ↦ x de X dans g, on obtient un K-homomorphisme L_K(X) → L_{K'}(X), d’où un K'-homomorphisme v : L_K(X) ⊗ K' → L_{K'}(X). Le fait que v soit unique et soit un isomorphisme résulte du ce que le couple (L_K(X) ⊗ K', x ↦ x ⊗ 1) est solution du même problème universel que le couple (L_{K'}(X), x ↦ x).
 
-#### Remarque {#lie-ii-s2-n5-rem-1 .statement}
+#### Remarque {#lie-ii-s2-n5-rem-1 .statement tag=0A2Y}
 
 Soient h' une K'-algèbre de Lie et h la K-algèbre de Lie déduite de h' par restriction de l’anneau des scalaires. Si P ∈ L_K(X), on peut définir $\tilde{P} : h^X \to h$ (n° 4). On voit aussitôt que
 
@@ -217,7 +217,7 @@ $$
 $$
 (A, III, p. 31, Exemple 3).
 
-#### Lemme 1 {#lie-ii-s2-lem-1 .statement}
+#### Lemme 1 {#lie-ii-s2-lem-1 .statement tag=0A2Z}
 
 **L’idéal a de la définition 1 est gradué.**
 
@@ -260,7 +260,7 @@ on a évidemment
 [L^\alpha(X), L^\beta(X)] \subset L^{\alpha+\beta}(X) \quad \text{pour } \alpha, \beta \text{ dans } N^{(X)}.
 $$
 
-#### Proposition 4 {#lie-ii-s2-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s2-prop-4 .statement tag=0A30}
 
 *Soit S une partie de X. Si l’on identifie $N^{(S)}$ à son image canonique dans $N^{(X)}$* (A, I, p. 89), *on a* $L(S) = \sum_{\alpha \in N^{(S)}} L^\alpha(X)$. *De plus, pour tout* $\alpha \in N^{(S)}$, *la composante homogène de degré* $\alpha$ *pour la multigraduation de* $L(S)$ *est égale à* $L^\alpha(X)$.
 
@@ -268,7 +268,7 @@ Soit $\alpha \in N^{(S)}$. Le module $L^\alpha(S)$ est engendré par les images 
 
 La proposition résulte de là et de la relation $L(S) = \sum_{\alpha \in N^{(S)}} L^\alpha(S)$.
 
-#### Corollaire {#lie-ii-s2-n6-cor-1 .statement}
+#### Corollaire {#lie-ii-s2-n6-cor-1 .statement tag=0A31}
 
 *Pour toute famille* $(S_i)_{i \in I}$ *de parties de* $X$, *on a*
 
@@ -285,7 +285,7 @@ où l’on a posé $S = \bigcap_{i \in I} S_i$.
 
 ### 7. Suite centrale descendante
 
-#### Proposition 5 {#lie-ii-s2-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s2-prop-5 .statement tag=0A32}
 
 *Soient* $g$ *une algèbre de Lie et* $P$ *un sous-module de* $g$. *Définissons les sous-modules* $P_n$ *de* $g$ *par les formules* $P_1 = P$ *et* $P_{n+1} = [P, P_n]$ *pour* $n \geqslant 1$. *Alors on a*
 
@@ -313,7 +313,7 @@ D’après la formule (18), on a $P_n \supset \sum_{p=1}^{n-1} [P_p, P_{n-p}] \s
 
 Lorsque l’on prend $P = g$, la suite $(P_n)$ est la suite centrale descendante $(\mathscr{C}^n g)$ de $g$ (chap. I, § 1, n° 5, 2ème édition).¹ On a donc:
 
-#### Proposition 6 {#lie-ii-s2-prop-6 .statement}
+#### Proposition 6 {#lie-ii-s2-prop-6 .statement tag=0A33}
 
 *Soient g une algèbre de Lie et $(\mathscr{C}^n g)_{n \geq 1}$ la suite centrale descendante de g. On a*
 $$
@@ -322,7 +322,7 @@ $$
 
 Généralisant la déf. 1 du chap. I, § 4, n° 1, nous dirons qu’une algèbre de Lie $g$ est *nilpotente* si $\mathscr{C}^n g = \{0\}$ pour $n$ assez grand. On appelle *classe de nilpotence* d’une algèbre de Lie nilpotente $g$ le plus petit entier $n$ tel que $\mathscr{C}^{n+1} g = \{0\}$.
 
-#### Proposition 7 {#lie-ii-s2-prop-7 .statement}
+#### Proposition 7 {#lie-ii-s2-prop-7 .statement tag=0A34}
 
 *Soit X un ensemble et soit n un entier $\geq 1$.*
 a) *On a $L^{n+1}(X) = [L^1(X), L^n(X)]$.*
@@ -337,7 +337,7 @@ L^{p+1}(X) = [L^1(X), L^p(X)] \subset \mathscr{C}^n g
 $$
 d’après a). On a donc $L^p(X) \subset \mathscr{C}^n g$ pour $p \geq n$, d’où $g_n \subset \mathscr{C}^n g$.
 
-#### Corollaire {#lie-ii-s2-n7-cor-1 .statement}
+#### Corollaire {#lie-ii-s2-n7-cor-1 .statement tag=0A35}
 
 *Soient g une algèbre de Lie et $(x_i)_{i \in I}$ une famille génératrice dans g. Le n-ième terme $\mathscr{C}^n g$ de la suite centrale descendante de g est le module engendré par les crochets itérés $[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$ pour $p \geq n$ et $i_1, \ldots, i_p$ dans I.*
 Soit $f$ l’homomorphisme de $L(I)$ dans $g$ tel que $f(i) = x_i$ pour tout $i \in I$. Comme $(x_i)_{i \in I}$ engendre $g$, on a $g = f(L(I))$, d’où $\mathscr{C}^n g = f(\mathscr{C}^n(L(I)))$ d’après la prop. 4 du chap. I, § 1, n° 5. Le corollaire résulte alors des assertions b) et c) de la prop. 7.
@@ -346,7 +346,7 @@ Soit $f$ l’homomorphisme de $L(I)$ dans $g$ tel que $f(i) = x_i$ pour tout $i 
 
 ### 8. Dérivations des algèbres de Lie libres
 
-#### Proposition 8 {#lie-ii-s2-prop-8 .statement}
+#### Proposition 8 {#lie-ii-s2-prop-8 .statement tag=0A36}
 
 Soit X un ensemble, soit M un L(X)-module et soit d une application de X dans M. Il existe une application linéaire D de L(X) dans M, et une seule, prolongeant d et satisfaisant à la relation:
 
@@ -364,7 +364,7 @@ D’après (21) et (22), la relation (20) découle alors de $f([a, a']) = [f(a),
 
 Réciproquement, soit $D'$ une application de $L(X)$ dans $M$ qui satisfasse à la relation (20’) analogue à (20) et prolonge $d$. Posons $f'(a) = (D'(a), a)$ pour $a \in L(X)$; d’après (20’) et (21), $f'$ est un homomorphisme de $L(X)$ dans $g$, coïncidant avec $f$ dans $X$, d’où $f' = f$ et $D' = D$.
 
-#### Corollaire {#lie-ii-s2-n8-cor-1 .statement}
+#### Corollaire {#lie-ii-s2-n8-cor-1 .statement tag=0A37}
 
 Toute application de X dans $L(X)$ se prolonge de manière unique en une dérivation de $L(X)$.
 
@@ -372,7 +372,7 @@ Lorsque $M$ est égal à $L(X)$ muni de la représentation adjointe, la relation
 
 ### 9. Théorème d’élimination
 
-#### Proposition 9 {#lie-ii-s2-prop-9 .statement}
+#### Proposition 9 {#lie-ii-s2-prop-9 .statement tag=0A38}
 
 Soient $S_1$ et $S_2$ deux ensembles disjoints et d une application de $S_1 \times S_2$ dans $L(S_2)$. Soit $g$ l’algèbre de Lie quotient de $L(S_1 \cup S_2)$ par l’idéal qu’engendrent les éléments $[s_1, s_2] - d(s_1, s_2)$ pour $s_1 \in S_1, s_2 \in S_2$; soit $\psi$ l’application canonique de $L(S_1 \cup S_2)$ sur $g$.
 
@@ -422,7 +422,7 @@ pour $a_1 \in L(S_1)$ et $a_2 \in L(S_2)$.
 
 La relation (26) montre que $\psi_1$ et $\psi_2$ sont injectifs et que $a_1 \cap a_2 = \{0\}$. Les formules (23) et (24) entraînent alors la proposition.
 
-#### Proposition 10 (théorème d’élimination) {#lie-ii-s2-prop-10 .statement}
+#### Proposition 10 (théorème d’élimination) {#lie-ii-s2-prop-10 .statement tag=0A39}
 
 Soient $X$ un ensemble, $S$ une partie de $X$, et $T$ l’ensemble des suites $(s_1, \ldots, s_n, x)$ avec $n \geqslant 0$, $s_1, \ldots, s_n$ dans $S$ et $x$ dans $X - S$.\footnote{Pour $n = 0$, on obtient les éléments de $X - S$, d’où $X - S \subset T$.}
 
@@ -448,7 +448,7 @@ pour $(s_1, \ldots, s_n, x)$ dans $T$.
 
 On a donc $\varphi(T) \subset a$, d’où $b \subset a$ puisque $\varphi(T)$ engendre la sous-algèbre $b$ de $L(X)$. Mais $b$ est un idéal et $X - S \subset \varphi(T) \subset b$, d’où $a \subset b$.
 
-#### Corollaire {#lie-ii-s2-n9-cor-1 .statement}
+#### Corollaire {#lie-ii-s2-n9-cor-1 .statement tag=0A3A}
 
 Soit $y \in X$. *L’algèbre de Lie libre* $L(X)$ *est somme directe du sous-module libre* $K.y$ *et de la sous-algèbre de Lie admettant comme famille basique la famille des* $((\operatorname{ad} y)^n.z)$ *pour* $n \geqslant 0$ *et* $z \in X - \{y\}$.
 
@@ -458,7 +458,7 @@ Il suffit de faire $S = \{y\}$ dans la prop. 10.
 
 Soient $X$ un ensemble, $M(X)$ le magma libre construit sur $X$ et $M^n(X)$, pour $n \in \mathbf{N}^*$, l’ensemble des éléments de $M(X)$ de longueur $n$ (n° 1). Si $w \in M(X)$ et $l(w) \geqslant 2$, on note $\alpha(w)$ et $\beta(w)$ les éléments de $M(X)$ déterminés par la relation $w = \alpha(w)\beta(w)$; on a $l(\alpha(w)) < l(w)$, $l(\beta(w)) < l(w)$. Enfin, pour $u, v$ dans $M(X)$, on note $u^m v$ l’élément défini par récurrence sur l’entier $m \geqslant 0$ par $u^0 v = v$ et $u^{m+1} v = u(u^m v)$.
 
-#### Définition 2 {#lie-ii-s2-def-2 .statement}
+#### Définition 2 {#lie-ii-s2-def-2 .statement tag=0A3B}
 
 *On appelle* ensemble de Hall relatif à $X$ *toute partie* $H$ *de* $M(X)$ *munie d’une relation d’ordre total satisfaisant aux conditions suivantes*:
 (A) *Si* $u \in H, v \in H$ *et* $l(u) < l(v)$, *on a* $u < v$.
@@ -467,7 +467,7 @@ Soient $X$ un ensemble, $M(X)$ le magma libre construit sur $X$ et $M^n(X)$, pou
 
 (C) Un élément $w$ de $M(X)$ de longueur $\geq 3$ appartient à $H$ si et seulement s’il est de la forme $a(bc)$ avec $a, b, c$ dans $H$, $bc \in H$, $b \leq a < bc$ et $b < c$.
 
-#### Proposition 11 {#lie-ii-s2-prop-11 .statement}
+#### Proposition 11 {#lie-ii-s2-prop-11 .statement tag=0A3C}
 
 Il existe un ensemble de Hall relatif à $X$.
 
@@ -483,7 +483,7 @@ Posons $H = \bigcup_{n \geq 1} H_n$; on munit $H$ de l’ordre total défini ain
 
 Pour toute partie $S$ de $X$, nous identifions le magma libre $M(S)$ à son image canonique dans $M(X)$.
 
-#### Proposition 12 {#lie-ii-s2-prop-12 .statement}
+#### Proposition 12 {#lie-ii-s2-prop-12 .statement tag=0A3D}
 
 Soit $H$ un ensemble de Hall relatif à $X$ et soient $x, y$ dans $X$.
 
@@ -497,11 +497,11 @@ Démontrons maintenant b). D’après la déf. 2 (B), on a $y \in H$ et $xy \in 
 
 On a donc $d_y(bc) = 1$ et $d_y(a) = 0$, d’où $a = x$ d’après $a$. On en déduit aussitôt par récurrence sur $n = l(w)$ que $w = x^{n-1}y$, ce qui achève la démonstration de $b$.
 
-#### Corollaire {#lie-ii-s2-n10-cor-1 .statement}
+#### Corollaire {#lie-ii-s2-n10-cor-1 .statement tag=0A3E}
 
 Si Card $X \geq 2$, on a $H \cap M^n(X) \neq \emptyset$, pour tout entier $n \geq 1$.
 
-#### Proposition 13 {#lie-ii-s2-prop-13 .statement}
+#### Proposition 13 {#lie-ii-s2-prop-13 .statement tag=0A3F}
 
 Soit $X$ un ensemble fini possédant au moins deux éléments. On note $H$ un ensemble de Hall relatif à $X$. Il existe alors une bijection strictement croissante $p \mapsto w_p$ de $\mathbf{N}$ sur $H$ et une suite $(P_p)_{p \in \mathbf{N}}$ de parties de $H$ avec les propriétés suivantes:
 a) On a $P_0 = X$.
@@ -525,7 +525,7 @@ $\beta)$ Il existe $v$ dans $M(X)$ tel que $u = w_p v$. D’après la déf. 2, o
 
 Ceci posé, il existe un entier $i \geq 0$ et un élément $w$ de $M(X)$ tels que $u = w_p^i w$, et ou bien $w \in X$, ou bien $w \notin X$ et $\alpha(w) \neq w_p$. Si $i = 0$, on est dans le cas $\alpha$) ci-dessus, d’où $w \in P_p$ et $w \neq w_p$. Si $i > 0$, la démonstration de $\beta$) ci-dessus établit, par récurrence sur $i$, les relations $w \in P_{p+1}$ et $w \neq w_p$. Supposons $w \notin X$; de $w \in P_{p+1}$ on déduit $\alpha(w) \leq w_p$ et comme on a $\alpha(w) \neq w_p$, on conclut que $w \in P_p$. Ceci achève de prouver $d$).
 
-#### Exemple {#lie-ii-s2-n10-exa-1 .statement}
+#### Exemple {#lie-ii-s2-n10-exa-1 .statement tag=0A3G}
 
 Supposons que $X$ ait deux éléments $x, y$; ordonnons $X$ de telle sorte que l’on ait $x < y$. La construction donnée dans la démonstration de la prop. 11 fournit un ensemble $H$ qui a 14 éléments de longueur $\leq 5$ donnés dans le tableau suivant:
 
@@ -554,7 +554,7 @@ $$
 
 On conserve les notations du n° précédent.
 
-#### Théorème 1 {#lie-ii-s2-thm-1 .statement}
+#### Théorème 1 {#lie-ii-s2-thm-1 .statement tag=0A3H}
 
 *Soient $H$ un ensemble de Hall relatif à $X$ et $\Psi$ l’application canonique de $M(X)$ dans l’algèbre de Lie libre $L(X)$. La restriction de $\Psi$ à $H$ est une base du module $L(X)$.
 
@@ -566,7 +566,7 @@ Si $X$ est vide, il en est de même de $M(X)$ et donc de $H$, et $L(X)$ est réd
 
 Supposons désormais que $X$ ait au moins deux éléments; choisissons des suites $(w_p)$ et $(P_p)$ ayant les propriétés énoncées dans la prop. 13. Pour tout entier $p \geq 0$, on note $L_p$ le sous-module de $L(X)$ engendré par les éléments $\overline{w}_i$ pour $0 \leq i < p$ et $g_p$ la sous-algèbre de Lie de $L(X)$ engendrée par la famille $(\overline{u})_{u \in P_p}$.
 
-#### Lemme 2 {#lie-ii-s2-lem-2 .statement}
+#### Lemme 2 {#lie-ii-s2-lem-2 .statement tag=0A3I}
 
 *Pour tout entier $p \geq 0$, le module $L_p$ admet la famille $(\overline{w}_i)_{0 \leq i < p}$ pour base, l’algèbre de Lie $g_p$ admet $(\overline{u})_{u \in P_p}$ pour famille basique, et le module $L(X)$ est somme directe de $L_p$ et $g_p$*.
 
@@ -586,17 +586,17 @@ Pour toute partie finie $\Phi$ de $H$, il existe une partie finie $S$ de $X$ tel
 
 Pour tout élément $a$ de $L(X)$, il existe une partie finie $S$ de $X$ telle que $a \in L(S)$. D’après le cas A), la partie $\Psi'(H \cap M(S))$ de $\Psi'(H)$ engendre le module $L(S)$, donc $a$ est combinaison linéaire d’éléments de $\Psi'(H)$. Donc $\Psi'(H)$ engendre le module $L(X)$, ce qui achève la démonstration.
 
-#### Corollaire {#lie-ii-s2-n11-cor-1 .statement}
+#### Corollaire {#lie-ii-s2-n11-cor-1 .statement tag=0A3J}
 
 *Le module* $L(X)$ *est libre, ainsi que chacun des sous-modules* $L^\alpha(X)$ *pour* $\alpha \in \mathbf{N}^{(X)}$ *et* $L^n(X)$ *pour* $n \in \mathbf{N}$. *Les modules* $L^\alpha(X)$ *sont de rang fini, et il en est de même des modules* $L^n(X)$ *si* $X$ *est fini*.
 
 Il existe un ensemble de Hall $H$ relatif à $X$ (prop. 11). Pour tout $w \in H$, l’élément $\Psi(w)$ de $L(X)$ appartient à l’un des modules $L^\alpha(X)$ (avec $\alpha \in \mathbf{N}^{(X)}$), et le module $L(X)$ est somme des sous-modules $L^\alpha(X)$. De plus, pour tout $\alpha \in \mathbf{N}^{(X)}$, l’ensemble des éléments de $M(X)$ dont l’image canonique dans $\mathbf{N}^{(X)}$ est égale à $\alpha$ est fini; ceci montre que chacun des modules $L^\alpha(X)$ est libre de rang fini, et que $L(X)$ est libre. On a $L^n(X) = \sum_{|\alpha|=n} L^\alpha(X)$, donc $L^n(X)$ est libre; lorsque $X$ est fini, l’ensemble des $\alpha \in \mathbf{N}^{(X)}$ tels que $|\alpha|=n$ est fini, donc $L^n(X)$ est alors de rang fini.
 
-#### Définition 3 {#lie-ii-s2-def-3 .statement}
+#### Définition 3 {#lie-ii-s2-def-3 .statement tag=0A3K}
 
 On appelle base de Hall d’une algèbre de Lie libre $L(X)$ toute base de $L(X)$ qui est l’image canonique d’un ensemble de Hall relatif à $X$.
 
-#### Remarque {#lie-ii-s2-n11-rem-1 .statement}
+#### Remarque {#lie-ii-s2-n11-rem-1 .statement tag=0A3L}
 
 Supposons que $X$ se compose de deux éléments distincts $x$ et $y$ et soit $L^{(1)}$ le sous-module de $L(X)$ somme des $L^\alpha(X)$ pour $\alpha \in \mathbf{N}^X$, avec $\alpha(y) = 1$. On déduit aussitôt du th. 1 et de la prop. 12 du n° 10 que les éléments $(\mathrm{ad}\,x)^n.y$ pour $n$ entier $\geqslant 0$ forment une base du sous-module $L^{(1)}$. Il en résulte que la restriction à $L^{(1)}$ de l’application $\mathrm{ad}\,x$ est injective.
 

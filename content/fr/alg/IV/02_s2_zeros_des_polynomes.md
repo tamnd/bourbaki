@@ -25,7 +25,7 @@ subsections:
       pdf_page: 23
 statements: 20
 exercises: 13
-content_sha256: 863617b52518e5405737c3e3a7f744118f8f1debdff2dfd5e8661a56636746ce
+content_sha256: 6fd332356d093d607b6b0710a08da7a0612de562e07942bb855d92c1efdc0c8a
 ---
 
 ## § 2. ZÉROS DES POLYNÔMES
@@ -34,13 +34,13 @@ content_sha256: 863617b52518e5405737c3e3a7f744118f8f1debdff2dfd5e8661a56636746ce
 
 Soit $g \in \mathbf{A}[(X_i)_{i \in I}]$ et soit E une A-algèbre associative unifère. Soit $x = (x_i)_{i \in I}$ une famille d’éléments deux à deux permutables de E. On dit que x est un zéro de g dans $E^l$ si $g(x) = 0$. Si $f$ est un polynôme par rapport à une seule indéterminée, un zéro de $f$ dans E s’appelle encore une racine de $f$ dans E.
 
-#### Proposition 1 {#alg-iv-s2-prop-1 .statement}
+#### Proposition 1 {#alg-iv-s2-prop-1 .statement tag=06AO}
 
 Soient $f \in \mathbf{A}[X]$ et $\alpha \in \mathbf{A}$. Le reste de la division de $f$ par $X - \alpha$ est $f(\alpha)$. Pour que $\alpha$ soit racine de $f$, il faut et il suffit que $X - \alpha$ soit un diviseur de $f$ dans $\mathbf{A}[X]$.
 
 En effet, soient $u, v \in \mathbf{A}[X]$ tels que $f = (X - \alpha)u + v$, et $\deg v < 1$. Alors $v$ est un scalaire, et $f(\alpha) = (\alpha - \alpha)u(\alpha) + v = v$. Cela prouve la première assertion. La deuxième résulte de la première.
 
-#### Proposition 2 {#alg-iv-s2-prop-2 .statement}
+#### Proposition 2 {#alg-iv-s2-prop-2 .statement tag=06AP}
 
 Soient $f \in \mathbf{A}[X]$, $\alpha \in \mathbf{A}$, et $h$ un entier $\geqslant 0$. Les conditions suivantes sont équivalentes :
 (i) $f$ est divisible par $(X - \alpha)^h$ mais non par $(X - \alpha)^{h+1}$;
@@ -48,26 +48,26 @@ Soient $f \in \mathbf{A}[X]$, $\alpha \in \mathbf{A}$, et $h$ un entier $\geqsla
 (i) $\Rightarrow$ (ii) : cela résulte aussitôt de la prop. 1.
 (ii) $\Rightarrow$ (i) : supposons que $f = (X - \alpha)^h g$, où $g$ n’admet pas la racine $\alpha$. Alors $f$ est divisible par $(X - \alpha)^h$. Supposons qu’il existe $g_1 \in \mathbf{A}[X]$ tel que $f = (X - \alpha)^{h+1} g_1$, où $g_1 \in \mathbf{A}[X]$. Comme $(X - \alpha)^h$ n’est pas diviseur de 0 dans $\mathbf{A}[X]$ (IV, p. 8, prop. 7), on a $g = (X - \alpha)g_1$, donc $g(\alpha) = 0$, ce qui est absurde.
 
-#### Proposition 3 {#alg-iv-s2-prop-3 .statement}
+#### Proposition 3 {#alg-iv-s2-prop-3 .statement tag=06AQ}
 
 Soient $f$ un élément non nul de $\mathbf{A}[X]$, et $\alpha \in \mathbf{A}$. Il existe un entier $h \geqslant 0$ et un seul qui satisfait aux conditions (i) et (ii) de la prop. 2.
 C’est évident sur la condition (i), compte tenu du fait que, si $f$ est divisible par $(X - \alpha)^h$, on a $\deg f \geqslant h$ (IV, p. 8, prop. 7).
 
-#### Définition 1 {#alg-iv-s2-def-1 .statement}
+#### Définition 1 {#alg-iv-s2-def-1 .statement tag=06AR}
 
 Avec les notations précédentes, on dit que $\alpha$ est d’ordre $h$, ou de multiplicité $h$, relativement à $f$.
 
 Si $h > 0$, on dit aussi que $\alpha$ est racine d’ordre $h$, ou de multiplicité $h$, de $f$. Une racine d’ordre 1 est dite racine simple, une racine d’ordre 2 est dite racine double,… Une racine d’ordre $> 1$ est dite multiple.
 
-#### Remarque 1 {#alg-iv-s2-n1-rem-1 .statement}
+#### Remarque 1 {#alg-iv-s2-n1-rem-1 .statement tag=06AS}
 
 Si $f = 0$, on convient de dire que $\alpha$ est d’ordre $\geqslant h$ relativement à $f$, quels que soient $\alpha \in \mathbf{A}$ et l’entier $h \geqslant 0$. Quels que soient $f \in \mathbf{A}[X]$ et $\alpha \in \mathbf{A}$, dire que $\alpha$ est d’ordre $\geqslant h$ relativement à $f$ signifie que $(X - \alpha)^h$ divise $f$.
 
-#### Remarque 2 {#alg-iv-s2-n1-rem-2 .statement}
+#### Remarque 2 {#alg-iv-s2-n1-rem-2 .statement tag=06AT}
 
 Soit B un anneau commutatif contenant A comme sous-anneau. Soient $f \in \mathbf{A}[X]$ non nul et $\alpha \in \mathbf{A}$. L’ordre de $\alpha$ relativement à $f$ est le même, que l’on considère $f$ comme élément de $\mathbf{B}[X]$ ou comme élément de $\mathbf{A}[X]$. C’est évident sur la condition (ii) de la prop. 2.
 
-#### Proposition 4 {#alg-iv-s2-prop-4 .statement}
+#### Proposition 4 {#alg-iv-s2-prop-4 .statement tag=06AU}
 
 Soient $f$ et $g$ des éléments non nuls de $\mathbf{A}[X]$. Soit $\alpha \in \mathbf{A}$, et soient $p$ et $q$ les ordres de $\alpha$ relativement à $f$ et $g$.
 
@@ -82,7 +82,7 @@ $$
 
 et, si $p < q$, $\alpha$ n’est pas racine de $f_1(X) + (X - \alpha)^{q-p}g_1(X)$; cela prouve (i). D’autre part, on a $f(X)g(X) = (X - \alpha)^{p+q}f_1(X)g_1(X)$, et $f_1(\alpha)\ g_1(\alpha) \neq 0$ si $\mathbf{A}$ est intègre ; cela prouve (ii).
 
-#### Proposition 5 {#alg-iv-s2-prop-5 .statement}
+#### Proposition 5 {#alg-iv-s2-prop-5 .statement tag=06AV}
 
 Supposons $\mathbf{A}$ intègre. Soient $f$ un élément non nul de $\mathbf{A}[X]$, $\alpha_1, \ldots, \alpha_p$ des racines de $f$ dans $\mathbf{A}$ deux à deux distinctes, d’ordres $k_1, \ldots, k_p$. On a
 
@@ -106,19 +106,19 @@ $$
 
 où $g(X) \in \mathbf{A}[X]$. Il est clair que $\alpha_1, \ldots, \alpha_p$ ne sont pas racines de $g$.
 
-#### Théorème 1 {#alg-iv-s2-thm-1 .statement}
+#### Théorème 1 {#alg-iv-s2-thm-1 .statement tag=06AW}
 
 Supposons $\mathbf{A}$ intègre. Soient $f$ un élément non nul de $\mathbf{A}[X]$, $n$ son degré. La somme des ordres de toutes les racines de $f$ dans $\mathbf{A}$ est $\leq n$.
 
 Cela résulte aussitôt de la prop. 5.
 
-#### Corollaire {#alg-iv-s2-n1-cor-1 .statement}
+#### Corollaire {#alg-iv-s2-n1-cor-1 .statement tag=06AX}
 
 On suppose $\mathbf{A}$ intègre. Soient $f, g \in \mathbf{A}[X]$, de degrés $\leq n$. S’il existe $n + 1$ éléments $x_1, \ldots, x_{n+1}$ de $\mathbf{A}$, deux à deux distincts, tels que $f(x_i) = g(x_i)$ pour $1 \leq i \leq n + 1$, on a $f = g$.
 
 Il suffit d’appliquer le th. 1 à $f - g$.
 
-#### Proposition 6 (formule d’interpolation de Lagrange) {#alg-iv-s2-prop-6 .statement}
+#### Proposition 6 (formule d’interpolation de Lagrange) {#alg-iv-s2-prop-6 .statement tag=06AY}
 
 Soient $\mathbf{K}$ un corps commutatif, $\alpha_1, \alpha_2, \ldots, \alpha_n$ des éléments distincts de $\mathbf{K}$, et $\beta_1, \beta_2, \ldots, \beta_n$ des éléments de $\mathbf{K}$. Pour $i = 1, 2, \ldots, n$, posons
 
@@ -130,13 +130,13 @@ où U(i) est l’ensemble des entiers j tels que $j \neq i$ et $1 \leq j \leq n$
 
 L’unicité de $f$ résulte du cor. du th. 1. Soit $f = \beta_1 f_1 + \cdots + \beta_n f_n$. Comme $f_i$ est de degré $n - 1$, on a $\deg f < n$. D’autre part, $f_i(\alpha_j) = 0$ pour $j \neq i$, et $f_i(\alpha_i) = 1$. Donc $f(\alpha_i) = \beta_i$ pour $1 \leq i \leq n$.
 
-#### Corollaire {#alg-iv-s2-n1-cor-2 .statement}
+#### Corollaire {#alg-iv-s2-n1-cor-2 .statement tag=06AZ}
 
 Supposons A intègre. Soit $f \in A[X]$, de degré $< n$, et soit K un sous-anneau de A qui est un corps. S’il existe n éléments $\alpha_1, \ldots, \alpha_n$ de A, distincts, et tels que $\alpha_i \in K$ et $f(\alpha_i) \in K$ pour $i = 1, \ldots, n$, alors $f \in K[X]$.
 
 ### 2. Critère différentiel pour la multiplicité d’une racine
 
-#### Proposition 7 {#alg-iv-s2-prop-7 .statement}
+#### Proposition 7 {#alg-iv-s2-prop-7 .statement tag=06B0}
 
 Soient $f \in A[X]$, et $\alpha \in A$ une racine de $f$. Pour que $\alpha$ soit racine simple de $f$, il faut et il suffit que $\alpha$ ne soit pas racine de la dérivée $Df$ de $f$.
 
@@ -144,7 +144,7 @@ Par hypothèse, on a $f = (X - \alpha) g$, où $g \in A[X]$. Pour que $\alpha$ s
 
 Plus généralement :
 
-#### Proposition 8 {#alg-iv-s2-prop-8 .statement}
+#### Proposition 8 {#alg-iv-s2-prop-8 .statement tag=06B1}
 
 Soient $f \in A[X]$, et $\alpha \in A$. Supposons que $\alpha$ soit d’ordre $k \geq 1$ relativement à $f$. Alors $\alpha$ est d’ordre $\geq k - 1$ relativement à $Df$. Si $k . 1$ est simplifiable dans A, alors $\alpha$ est d’ordre $k - 1$ relativement à $Df$.
 
@@ -152,7 +152,7 @@ Par hypothèse, il existe $g \in A[X]$ tel que $f = (X - \alpha)^k g$ et $g(\alp
 
 Soit $k$ un entier $> 0$ tel que $k . 1 = 0$ dans A. Soit $f(X) = X^k \in A[X]$. Alors 0 est racine d’ordre $k$ de $f$, et racine d’ordre arbitrairement grand de $Df$.
 
-#### Corollaire {#alg-iv-s2-n2-cor-1 .statement}
+#### Corollaire {#alg-iv-s2-n2-cor-1 .statement tag=06B2}
 
 Soient $f \in A[X]$, $\alpha \in A$, et $p$ un entier $\geq 0$. On suppose que $p!.1$ est simplifiable dans A. Alors, pour que $\alpha$ soit racine d’ordre $p$ de $f$, il faut et il suffit que $\alpha$ soit racine de $f, Df, \ldots, D^{p-1}f$, et ne soit pas racine de $D^pf$.
 
@@ -160,7 +160,7 @@ Cela résulte de la prop. 8 par récurrence sur $p$.
 
 ### 3. Fonctions polynomiales sur un anneau intègre infini
 
-#### Proposition 9 {#alg-iv-s2-prop-9 .statement}
+#### Proposition 9 {#alg-iv-s2-prop-9 .statement tag=06B3}
 
 On suppose A intègre. Soient I un ensemble, $(H_i)_{i \in I}$ une famille de parties infinies de A, et $H = \prod_{i \in I} H_i \subset A^I$. Soit $f$ un élément non nul de $A[(X_i)_{i \in I}]$.
 
@@ -182,11 +182,11 @@ et par suite Card H = Card H_f.
 
 b) Dans le cas général, il existe une partie finie I’ de I telle que $f \in A[(X_i)_{i \in I'}]$. Soit $H'_f$ l’ensemble des $x \in \prod_{i \in I'} H_i$ tels que $f(x) \neq 0$. Alors $H_f = H'_f \times (\prod_{i \in I - I'} H_i)$, et il suffit d’appliquer à $H'_f$ la première partie de la démonstration.
 
-#### Corollaire 1 {#alg-iv-s2-prop-9-cor-1 .statement}
+#### Corollaire 1 {#alg-iv-s2-prop-9-cor-1 .statement tag=06B4}
 
 *On conserve les hypothèses et les notations de la prop. 9. Si I est non vide, $H_f$ est infini.*
 
-#### Corollaire 2 {#alg-iv-s2-prop-9-cor-2 .statement}
+#### Corollaire 2 {#alg-iv-s2-prop-9-cor-2 .statement tag=06B5}
 
 *On suppose que A est intègre et infini ou que A est une algèbre sur un corps infini. Pour tout $f \in A[(X_i)_{i \in I}]$, soit $\tilde{f} : A^I \to A$ la fonction polynomiale définie par $f$ (IV, p. 4). Alors l’application $f \mapsto \tilde{f}$ est injective.*
 
@@ -196,7 +196,7 @@ Lorsque A est intègre infini, ou lorsque A est une algèbre sur un corps infini
 
 Supposons A fini. Soit $f(X) = \prod_{\alpha \in A} (X - \alpha)$. Alors $f \neq 0$ mais $\tilde{f} = 0$. Pour d’autres exemples, cf. IV, p. 84, exerc. 7 et 8.
 
-#### Théorème 2 (principe du prolongement des identités algébriques) {#alg-iv-s2-thm-2 .statement}
+#### Théorème 2 (principe du prolongement des identités algébriques) {#alg-iv-s2-thm-2 .statement tag=06B6}
 
 *Supposons A intègre et infini. Soient $g_1, ..., g_m, f$ des éléments de $A[(X_i)_{i \in I}]$. On fait les hypothèses suivantes :
 
@@ -207,7 +207,7 @@ Alors $f = 0$.
 
 En effet, si $f \neq 0$, on a $fg_1 ... g_m \neq 0$ (IV, p. 9, prop. 8), donc il existe $x \in A^I$ tel que $f(x) g_1(x) ... g_m(x) \neq 0$ (IV, p. 17, cor. 2), ce qui contredit l’hypothèse.
 
-#### Scholie {#alg-iv-s2-n3-sch-1 .statement}
+#### Scholie {#alg-iv-s2-n3-sch-1 .statement tag=06B7}
 
 Soient A un anneau intègre et $f \in A[(X_i)_{i \in I}]$. Le th. 2 fournit un moyen commode pour prouver que $f = 0$. Il suffit de considérer un anneau intègre infini E contenant A comme sous-anneau ; si l’on démontre que $f((x_i)) = 0$ pour tout $(x_i) \in E^I$ (ou seulement pour les $(x_i) \in E^I$ qui n’annulent pas un nombre fini de polynômes donnés non nuls), il en résulte que $f = 0$. Si A lui-même n’est pas infini, on peut par exemple prendre pour E l’anneau A[X] ou son corps des fractions.
 

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 44
 statements: 24
 exercises: 8
-content_sha256: 1025d94bb3ac3b000c1d2e8303a1bd15f12c0943a031a996a19c4067eafa3f78
+content_sha256: 277baf8f5621887ccbe9b41d6581090e1a8cec4d94d66ae7035d9c7768b77bc1
 ---
 
 ## § 4. SÉRIES FORMELLES
@@ -104,7 +104,7 @@ Par définition, l’ensemble $A[[I]]$ n’est autre que l’ensemble produit $A
 
 Pour tout $\beta \in N^{(I)}$, soit $S_\beta$ l’ensemble des multiindices $\nu$ tels que $\nu \leq \beta$, et soit $a_\beta$ l’ensemble des séries formelles $u = \sum_\nu \alpha_\nu X^\nu$ telles que $\alpha_\nu = 0$ pour $\nu \in S_\beta$. Il est clair que $S_\beta$ est une partie finie de $N^{(I)}$, et que toute partie finie de $N^{(I)}$ est contenue dans un ensemble de la forme $S_\beta$. Par suite, la famille $(a_\beta)_{\beta \in N^{(I)}}$ est un système fondamental de voisinages de 0 dans $A[[I]]$. Les ensembles $a_\beta$ sont des idéaux de $A[[I]]$, donc (TG, III, p. 49) $A[[I]]$ est un anneau topologique.
 
-#### Lemme 1 {#alg-iv-s4-lem-1 .statement}
+#### Lemme 1 {#alg-iv-s4-lem-1 .statement tag=06BY}
 
 Soient $L$ un ensemble infini et $(u_\lambda)_{\lambda \in L}$ une famille d’éléments de $A[[I]]$. Posons $u_\lambda = \sum_\nu \alpha_{\lambda,\nu} X^\nu$ pour $\lambda \in L$. Les conditions suivantes sont équivalentes :
 
@@ -125,11 +125,11 @@ b) Soit $u \in \mathbf{A}[[\mathbf{I}]]$; pour tout entier $p \geq 0$, soit $u_p
 
 c) Soit $(u_\lambda)_{\lambda \in L}$ une famille d’éléments de $\mathbf{A}[[\mathbf{I}]]$. On suppose que pour tout entier $n \geq 0$ l’ensemble des $\lambda \in L$ tels que $\omega(u_\lambda) < n$ est fini. Alors la famille $(u_\lambda)_{\lambda \in L}$ est sommable.
 
-#### Remarque {#alg-iv-s4-n2-rem-1 .statement}
+#### Remarque {#alg-iv-s4-n2-rem-1 .statement tag=06BZ}
 
 Supposons I fini. Pour tout entier $n \geq 0$, soit $b_n$ l’ensemble des séries formelles $u \in \mathbf{A}[[\mathbf{I}]]$ telles que $\omega(u) \geq n$. La suite $(b_n)_{n \geq 0}$ est un système fondamental de voisinages de 0 dans $\mathbf{A}[[\mathbf{I}]]$. Par suite, une famille d’éléments $u_\lambda$ de $\mathbf{A}[[\mathbf{I}]]$ ($\lambda \in L$) est sommable si et seulement si, pour tout $n \in \mathbf{N}$, l’ensemble des $\lambda \in L$ tels que $\omega(u_\lambda) < n$ est fini.
 
-#### Proposition 1 {#alg-iv-s4-prop-1 .statement}
+#### Proposition 1 {#alg-iv-s4-prop-1 .statement tag=06C0}
 
 Soient $(u_\lambda)_{\lambda \in L}$ et $(v_\mu)_{\mu \in M}$ deux familles sommables d’éléments de $\mathbf{A}[[\mathbf{I}]]$. Alors la famille $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ est sommable et l’on a
 $$
@@ -139,7 +139,7 @@ Soit $(\alpha_{\lambda,\nu})_{\nu \in \mathbf{N}^{(I)}}$ (resp. $(\beta_{\mu,\nu
 
 Dans $\mathbf{A}[[\mathbf{I}]]$, le produit est une loi de composition associative et commutative. On peut donc parler de famille multipliable d’éléments de $\mathbf{A}[[\mathbf{I}]]$, et de produit d’une famille multipliable (TG, III, p. 37, remarque 3).
 
-#### Proposition 2 {#alg-iv-s4-prop-2 .statement}
+#### Proposition 2 {#alg-iv-s4-prop-2 .statement tag=06C1}
 
 Soit $(u_\lambda)_{\lambda \in L}$ une famille sommable d’éléments de $\mathbf{A}[[\mathbf{I}]]$.
 (i) La famille $(1 + u_\lambda)_{\lambda \in L}$ est multipliable.
@@ -159,7 +159,7 @@ $$
 
 Suivant l’ensemble ordonné filtrant $\mathscr{F}$, le membre de gauche a pour limite $\sum_{M \in \mathscr{F}} u_M$. Donc le membre de droite a pour limite $\sum_{M \in \mathscr{F}} u_M$, ce qui prouve à la fois (i) et (ii).
 
-#### Proposition 3 {#alg-iv-s4-prop-3 .statement}
+#### Proposition 3 {#alg-iv-s4-prop-3 .statement tag=06C2}
 
 *Soient $u = \sum_\nu \alpha_\nu X^\nu \in A[[I]]$, et $m$ un entier $> 0$. Pour tout $n \in \mathbf{N}$, soit $(\alpha_{\nu,n})_{\nu \in \mathbf{N}^{(I)}}$ la famille des coefficients de $u^n$. Supposons que $\alpha_0^m = 0$. On a $\alpha_{\nu,n} = 0$ pour $n \geq |\nu| + m$.
 Soient $\nu \in \mathbf{N}^{(I)}$ et $n \in \mathbf{N}$. On a*
@@ -170,7 +170,7 @@ $$
 
 Si $n \geq |\nu| + m$ et $\nu(1) + \cdots + \nu(n) = v$, on a $|\nu(1)| + \cdots + |\nu(n)| \leq n - m$. On a donc $v(r) = 0$ et par suite $\alpha_{v(r)} = \alpha_0$ pour au moins $m$ valeurs distinctes de $r$; on en déduit que $\alpha_{\nu(1)} \cdots \alpha_{\nu(n)} = 0$, d’où la proposition.
 
-#### Corollaire {#alg-iv-s4-n2-cor-1 .statement}
+#### Corollaire {#alg-iv-s4-n2-cor-1 .statement tag=06C3}
 
 *Soit $u \in A[[I]]$. Pour que l’on ait $\lim_{n \to \infty} u^n = 0$, il faut et il suffit que le terme constant de $u$ soit nilpotent.*
 Soit $\alpha_0$ le terme constant de $u$. Le terme constant de $u^n$ est $\alpha_0^n$, donc la condition énoncée est nécessaire. Elle est suffisante d’après la prop. 3.
@@ -179,7 +179,7 @@ Soit $\alpha_0$ le terme constant de $u$. Le terme constant de $u^n$ est $\alpha
 
 Soit E une A-algèbre. On dit qu’une topologie sur E est linéaire si elle est invariante par translation, et s’il existe un système fondamental de voisinages de 0 formé d’idéaux de E (TG, III, p. 5). La topologie de E est alors compatible avec sa structure de A-algèbre (A étant muni de la topologie discrète). Une A-algèbre munie d’une topologie linéaire s’appelle une A-algèbre linéairement topologisée.
 
-#### Proposition 4 {#alg-iv-s4-prop-4 .statement}
+#### Proposition 4 {#alg-iv-s4-prop-4 .statement tag=06C4}
 
 *Soient I un ensemble, E une A-algèbre associative, commutative et unifière, linéairement topologisée, séparée et complète.*
 (i) *Soit $\varphi$ un homomorphisme continu de $A[[I]]$ dans E et soit $x_i = \varphi(X_i)$. Alors :*
@@ -236,7 +236,7 @@ $$
 
 ### 4. Séries formelles inversibles
 
-#### Proposition 5 {#alg-iv-s4-prop-5 .statement}
+#### Proposition 5 {#alg-iv-s4-prop-5 .statement tag=06C5}
 
 Dans l’anneau $A[[T]]$ des séries formelles en une indéterminée, le polynôme $1 - T$ est inversible, et l’on a $(1 - T)^{-1} = \sum_{n=0}^{\infty} T^n$.
 
@@ -244,7 +244,7 @@ En effet,
 
 $$(1 - T)(\sum_{n=0}^{\infty} T^n) = \sum_{n=0}^{\infty} T^n - \sum_{n=0}^{\infty} T^{n+1} = 1 .$$
 
-#### Proposition 6 {#alg-iv-s4-prop-6 .statement}
+#### Proposition 6 {#alg-iv-s4-prop-6 .statement tag=06C6}
 
 Soit $u \in A[[I]]$. Pour que $u$ soit inversible dans $A[[I]]$, il faut et il suffit que son terme constant soit inversible dans $A$.
 
@@ -252,7 +252,7 @@ Supposons qu’il existe $v \in A[[I]]$ tel que $uv = 1$. Soient $\alpha, \beta$
 
 Réciproquement, supposons que le terme constant $\alpha$ de $u$ soit inversible. Il existe donc une série formelle $t \in A[[I]]$ telle que $u = \alpha(1 - t)$ et $\omega(t) > 0$. Or, il existe un homomorphisme d’anneaux $\varphi : A[[T]] \to A[[I]]$ tel que $\varphi(T) = t$, et $1 - T$ est inversible dans $A[[T]]$ (prop. 5). Par suite, $1 - t$ est inversible dans $A[[I]]$ et il en est donc de même de $u$.
 
-#### Remarque {#alg-iv-s4-n4-rem-1 .statement}
+#### Remarque {#alg-iv-s4-n4-rem-1 .statement tag=06C7}
 
 Soit $\mathscr{M}$ l’ensemble des séries formelles de terme constant égal à 1. D’après la prop. 6, $\mathscr{M}$ est un groupe commutatif pour la multiplication ; le groupe multiplicatif de $A[[I]]$ est produit direct de $\mathscr{M}$ et du groupe multiplicatif de $A$. Nous munirons $\mathscr{M}$ de la topologie induite par celle de $A[[I]]$. Pour tout $\beta \in \mathbf{N}^{(I)}$, on a défini dans IV, p. 24, l’idéal $a_\beta$ de $A[[I]]$ ; alors $1 + a_\beta$ est un sous-groupe de $\mathscr{M}$, et la famille $(1 + a_\beta)$ est un système fondamental de voisinages de 1 dans $\mathscr{M}$. Comme la multiplication dans $\mathscr{M}$ est continue, on voit que $\mathscr{M}$ est un groupe topologique (TG, III, p. 5) ; autrement dit, *l’application* $f \mapsto f^{-1}$ *est continue dans* $\mathscr{M}$.
 
@@ -310,15 +310,15 @@ $$
 u(X) = \sum_\nu \frac{1}{\nu!} D^\nu u(0) \cdot X^\nu .
 $$
 
-#### Remarque 1 {#alg-iv-s4-n5-rem-1 .statement}
+#### Remarque 1 {#alg-iv-s4-n5-rem-1 .statement tag=0DHH}
 
 On dit souvent que $D_i u$ est la *dérivée partielle de u par rapport à $X_i$* ; on emploie aussi les notations $D_{X_i} u, \frac{\partial u}{\partial X_i}$ et $u'_{X_i}$. Pour une seule indéterminée $X$, l’unique dérivée partielle $Du$ (notée aussi $\frac{du}{dX}$ ou $u'$) est appelée la *dérivée de u*.
 
-#### Remarque 2 {#alg-iv-s4-n5-rem-2 .statement}
+#### Remarque 2 {#alg-iv-s4-n5-rem-2 .statement tag=0DHI}
 
 La formule (9) montre que les endomorphismes $\Delta^p$ du $A$-module $A[[X]]$ commutent deux à deux. Il en est donc de même des endomorphismes $D_i$.
 
-#### Remarque 3 {#alg-iv-s4-n5-rem-3 .statement}
+#### Remarque 3 {#alg-iv-s4-n5-rem-3 .statement tag=0DHJ}
 
 Si $u \in A[(X_i)_{i \in I}]$ est un polynôme, les polynômes $\Delta^p u$ et $D_i u$ définis dans IV, p. 6 et 7, coïncident avec les séries formelles désignées ici par le même symbole.
 
@@ -330,7 +330,7 @@ $$
 $$
 pour $u, v$ dans $A[[I]]$.
 
-#### Proposition 7 {#alg-iv-s4-prop-7 .statement}
+#### Proposition 7 {#alg-iv-s4-prop-7 .statement tag=06C8}
 
 *Soit* $(y_i)_{i \in I}$ *une famille d’éléments de* $E$. *Lorsque* $I$ *est infini, on suppose que* $y_i$ *tend vers* $0$ *selon le filtre des complémentaires des parties finies de* $I$. *Il existe alors une unique* $A$-*dérivation continue* $D$ *de* $A[[I]]$ *dans le* $A[[I]]$*-module* $E$, *telle que* $D(X_i) = y_i$ *pour tout* $i \in I$. *On a*
 $$
@@ -341,7 +341,7 @@ Comme $0$ admet dans $E$ un système fondamental de voisinages formé d’idéau
 
 Soit $D_1$ une $A$-dérivation continue de $A[[I]]$ dans $E$, telle que $D_1(X_i) = y_i$ pour tout $i \in I$. Le noyau de la dérivation continue $D - D_1$ est une sous-algèbre fermée $B$ de $A[[I]]$ contenant 1 et les indéterminées $X_i$. Comme l’algèbre des polynômes $A[(X_i)_{i \in I}]$ est dense dans $A[[I]]$, on a $B = A[[I]]$, d’où $D_1 = D$.
 
-#### Corollaire 1 {#alg-iv-s4-prop-7-cor-1 .statement}
+#### Corollaire 1 {#alg-iv-s4-prop-7-cor-1 .statement tag=06C9}
 
 *Soit* $\Delta$ *une dérivation continue de la* $A$*-algèbre* $E$. *Pour toute série formelle* $u \in A[[I]]$, *la famille* $((D_iu)(x).\Delta x_i)_{i \in I}$ *est sommable et l’on a*
 $$
@@ -350,7 +350,7 @@ $$
 
 Cela résulte de la prop. 7 car l’application $u \mapsto \Delta(u(x))$ est une dérivation continue de $A[[I]]$ dans le $A[[I]]$*-module* $E$.
 
-#### Corollaire 2 {#alg-iv-s4-prop-7-cor-2 .statement}
+#### Corollaire 2 {#alg-iv-s4-prop-7-cor-2 .statement tag=06CA}
 
 *La dérivation* $D_i$ *est l’unique dérivation continue de la* $A$*-algèbre* $A[[I]]$ *telle que*
 $$
@@ -359,7 +359,7 @@ $$
 
 Cela résulte du corollaire 1.
 
-#### Corollaire 3 {#alg-iv-s4-prop-7-cor-3 .statement}
+#### Corollaire 3 {#alg-iv-s4-prop-7-cor-3 .statement tag=06CB}
 
 *Soient* $f \in A[[X_1, ..., X_p]]$ *et* $g_i \in A[[Y_1, ..., Y_q]]$ *pour* $1 \leq i \leq p$. *Supposons que, pour* $1 \leq i \leq p$, *le terme constant de* $g_i$ *soit nul*. *Posons* $h = f(g_1, ..., g_p)$. *Alors, pour* $1 \leq j \leq q$, *on a*
 $$
@@ -368,7 +368,7 @@ $$
 
 C’est le cas particulier $E = A[[Y_1, ..., Y_q]]$, $x_i = g_i$ et $\Delta = \partial / \partial Y_j$ du cor. 1.
 
-#### Proposition 8 {#alg-iv-s4-prop-8 .statement}
+#### Proposition 8 {#alg-iv-s4-prop-8 .statement tag=06CC}
 
 Soit $X = (X_i)_{i \in I}$ une famille finie d’indéterminées.
 
@@ -400,7 +400,7 @@ Prouvons enfin (iii). La formule (18) (IV, p. 31) montre que la famille $(D_i)_{
 
 C.Q.F.D.
 
-#### Proposition 9 {#alg-iv-s4-prop-9 .statement}
+#### Proposition 9 {#alg-iv-s4-prop-9 .statement tag=06CD}
 
 Soient $(u_\lambda)_{\lambda \in L}$ une famille sommable d’éléments sans terme constant de $A[[I]]$ et $D$ une dérivation continue de la $A$-algèbre $A[[I]]$. Posons $f = \prod_{\lambda \in L} (1 + u_\lambda)$ (IV, p. 25, prop. 2). Alors la famille $(Du_\lambda/(1 + u_\lambda))_{\lambda \in L}$ est sommable et l’on a
 
@@ -430,7 +430,7 @@ La prop. 9 résulte alors par passage à la limite de (22).
 
 ### 7. Résolution des équations dans un anneau de séries formelles
 
-#### Lemme 2 {#alg-iv-s4-lem-2 .statement}
+#### Lemme 2 {#alg-iv-s4-lem-2 .statement tag=06CE}
 
 Soit $(g_i)_{i \in I}$ une famille d’éléments d’ordre $\geqslant 2$ dans $\mathbf{A}[[\mathbf{I}]]$. Lorsque $I$ est infini, on suppose que $g_i$ tend vers 0 selon le filtre des complémentaires des parties finies de $I$. Il existe alors un automorphisme $T$ de la $\mathbf{A}$-algèbre topologique $\mathbf{A}[[\mathbf{I}]]$, et un seul, tel que $T(X_i) = X_i + g_i$ pour tout $i \in I$. De plus, on a
 $$(23)$$
@@ -504,7 +504,7 @@ $$
 T_{f \circ g} = T_f \circ T_g .
 $$
 
-#### Proposition 10 {#alg-iv-s4-prop-10 .statement}
+#### Proposition 10 {#alg-iv-s4-prop-10 .statement tag=06CF}
 
 **Soit $f \in A\{I\}$. Les conditions suivantes sont équivalentes :**
 
@@ -513,7 +513,7 @@ $$
 
 L’implication (i) $\Rightarrow$ (ii) résulte aussitôt de (28). Supposons $T_f$ inversible dans $\mathrm{End}(A^{(I)})$. Il existe $g = (g_i)_{i \in I} \in A\{I\}$ tel que chaque $g_i$ soit homogène de degré 1 et que $T_g \circ T_f$ soit l’application identique de $A^{(I)}$. Posons $h = g \circ f$; la formule (28) montre que $T_h$ est l’application identique de $A^{(I)}$, ce qui équivaut à $\omega(h_i - X_i) \geq 2$. D’après le lemme 2 de IV, p. 33, $h$ est donc inversible dans $A\{I\}$. Il est clair que $g$ est inversible dans $A\{I\}$. Donc $f$ est inversible dans $A\{I\}$.
 
-#### Corollaire {#alg-iv-s4-n7-cor-1 .statement}
+#### Corollaire {#alg-iv-s4-n7-cor-1 .statement tag=06CG}
 
 **Soient $f_i(Y_1, Y_2, ..., Y_q, X_1, X_2, ..., X_p)$ ($1 \leq i \leq q$) q séries formelles sans terme constant dans $A[[Y_1, ..., Y_q, X_1, ..., X_p]]$. Si le terme constant de la série formelle $D = \det \left( \frac{\partial f_i}{\partial Y_j} \right)$ est inversible dans $A$, il existe un système et un seul de q séries formelles sans terme constant $u_1(X_1, ..., X_p), ..., u_q(X_1, ..., X_p)$ telles que
 
@@ -563,7 +563,7 @@ substituant $u_i$ à $Y_i$ pour $1 \leq i \leq q$ dans (32), on obtient (31), d�
 
 ### 8. Séries formelles sur un anneau intègre
 
-#### Proposition 11 {#alg-iv-s4-prop-11 .statement}
+#### Proposition 11 {#alg-iv-s4-prop-11 .statement tag=06CH}
 
 Supposons A intègre.
 
@@ -581,7 +581,7 @@ Soit $a$ (resp. $b$) la composante homogène de degré $p$ (resp. $q$) de $\varp
 
 Si K est un corps commutatif, on désigne par $K((X))$ le corps des fractions de l’anneau intègre $K[[X]]$.
 
-#### Proposition 12 {#alg-iv-s4-prop-12 .statement}
+#### Proposition 12 {#alg-iv-s4-prop-12 .statement tag=06CI}
 
 Tout élément non nul $u$ de $K((X))$ s’écrit d’une seule manière sous la forme $u = X^k v$, où $k \in \mathbf{Z}$ et où $v$ est une série formelle en $X$ d’ordre 0.
 
@@ -611,7 +611,7 @@ L’anneau $K[X]$ étant un sous-anneau de $K[[X]]$, toute fraction rationnelle 
 
 On appelle série exponentielle l’élément $\sum_{n \geq 0} \frac{X^n}{n!}$ de $\mathbf{Q}[[X]]$. On la note $\exp X$ ou $e^X$.
 
-#### Proposition 13 {#alg-iv-s4-prop-13 .statement}
+#### Proposition 13 {#alg-iv-s4-prop-13 .statement tag=06CJ}
 
 Dans $\mathbf{Q}[[X, Y]]$, on a $e^{X+Y} = e^X e^Y$.
 
@@ -655,7 +655,7 @@ $$
 \mathrm{D}(l(X)) = \sum_{n \geq 0} (-X)^n = (1+X)^{-1}.
 $$
 
-#### Proposition 14 {#alg-iv-s4-prop-14 .statement}
+#### Proposition 14 {#alg-iv-s4-prop-14 .statement tag=06CK}
 
 *On a* $l(e(X)) = e(l(X)) = X$.
 

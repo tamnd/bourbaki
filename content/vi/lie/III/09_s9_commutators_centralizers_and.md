@@ -44,9 +44,9 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 29
-content_sha256: 17d66a472945e822d2c5c8698fa36404403eb08f665bf80cdc65e97bb5f24591
+content_sha256: 7a5061acc9b1f8833dc057526662efcb4157bb7f49241f33eecd5c08885a2f52
 translated_from: content/en/lie/III/09_s9_commutators_centralizers_and.md
-source_content_sha256: e3449c4d1dda5a12354d4f2af8f0330d18e171c8a3e0add10575476595ce9fd3
+source_content_sha256: 5160b395f31c39ef9f1ad5f95ebd21b2c6f9dc63a62483b154ec6113d26d8afa
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-36e3818b
 glossary_version: 34
@@ -69,7 +69,7 @@ $$
 \end{aligned}
 $$
 
-#### Mệnh đề 1 {#lie-iii-s9-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iii-s9-prop-1 .statement tag=0AII}
 
 *Cho G là một nhóm tôpô và A và B là các nhóm con của G. Khi đó* $(\overline{A}, \overline{B}) = (\overline{A}, \overline{B}), \overline{D^iA} = \overline{D^iA}, \overline{C^iA} = \overline{C^iA}$.
 
@@ -87,14 +87,14 @@ $$
 
 và do đó $\overline{D^iA} = \overline{D^iA}$ với mọi $i$. Chứng minh của công thức $\overline{C^iA} = \overline{C^iA}$ là tương tự.
 
-#### Hệ quả 1 {#lie-iii-s9-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s9-prop-1-cor-1 .statement tag=0AIJ}
 
 *Nếu G là Hausdorff, các điều kiện sau là tương đương*:
 (i) *G là giải được* (tương ứng *lũy linh*);
 (ii) $\overline{D^iG} = \{e\}$ (tương ứng $\overline{C^iG} = \{e\}$) *với* $i$ *đủ lớn*.
 $D^iG \subset \overline{D^iG}, C^iG \subset \overline{C^iG}$ và do đó (ii) $\Rightarrow$ (i). $\{e\} = \{\overline{e}\}$ và do đó (i) $\Rightarrow$ (ii) theo Mệnh đề 1.
 
-#### Hệ quả 2 {#lie-iii-s9-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s9-prop-1-cor-2 .statement tag=0AIK}
 
 *Cho G là một nhóm tôpô Hausdorff và A là một nhóm con của G. Để A là giải được* (tương ứng *lũy linh, giao hoán*, *điều kiện cần và đủ là* $\overline{A}$ *cũng như vậy*).
 
@@ -102,7 +102,7 @@ $D^iG \subset \overline{D^iG}, C^iG \subset \overline{C^iG}$ và do đó (ii) $\
 
 Điều này suy ra ngay lập tức từ Mệnh đề 1.
 
-#### Mệnh đề 2 {#lie-iii-s9-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iii-s9-prop-2 .statement tag=0AIL}
 
 Cho G là một nhóm tôpô và A và B là các nhóm con của G. Nếu A liên thông, (A, B) liên thông.
 
@@ -110,7 +110,7 @@ Với y cố định trong B, tập M_y gồm các (x, y) với x ∈ A là liê
 
 ### 2. Các phần tử giao hoán trong một nhóm Lie
 
-#### Mệnh đề 3 {#lie-iii-s9-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iii-s9-prop-3 .statement tag=0AIM}
 
 Cho G là một nhóm Lie hữu hạn chiều và H_1 và H_2 là các nhóm con của G. Cho h_1, h_2 và h là các đại số con Lie tiếp xúc tại e với H_1 H_2 và (H_1, H_2) tương ứng. Khi đó [h_1, h_2] ⊂ h.
 
@@ -138,11 +138,11 @@ $$
 $$
 Vì điều này đúng với mọi \mu ∈ I, suy ra [a, b] ∈ h.
 
-#### Nhận xét {#lie-iii-s9-n2-rem-1 .statement}
+#### Nhận xét {#lie-iii-s9-n2-rem-1 .statement tag=0AIN}
 
 Ngay cả khi H_1 và H_2 là các nhóm con Lie liên thông của G, đại số con Lie của L(G) sinh bởi [h_1, h_2] nói chung phân biệt với h.
 
-#### Mệnh đề 4 {#lie-iii-s9-prop-4 .statement}
+#### Mệnh đề 4 {#lie-iii-s9-prop-4 .statement tag=0AIO}
 
 Cho G là một nhóm Lie thực hoặc phức hữu hạn chiều. Cho A, B, C là các nhóm con nguyên của G sao cho [L(A), L(C)] ⊂ L(C) và
 $$
@@ -170,13 +170,13 @@ $$
 
 thì $(A, B) \supset C$, do đó $(A, B) = C$.
 
-#### Hệ quả {#lie-iii-s9-n2-cor-1 .statement}
+#### Hệ quả {#lie-iii-s9-n2-cor-1 .statement tag=0AIP}
 
 *Cho G là một nhóm Lie thực hoặc phức liên thông hữu hạn chiều với đại số Lie g. Các nhóm con $D^iG$ (tương ứng $C^iG$) là các nhóm con nguyên với các đại số Lie $D^i\mathfrak{g}$ (tương ứng $C^i\mathfrak{g}$). Nếu G đơn liên thông, chúng là các nhóm con Lie.*
 
 Mệnh đề thứ nhất suy ra từ Mệnh đề 4 bằng quy nạp theo $i$. Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất và § 6, no. 6, Mệnh đề 14.
 
-#### Mệnh đề 5 {#lie-iii-s9-prop-5 .statement}
+#### Mệnh đề 5 {#lie-iii-s9-prop-5 .statement tag=0AIQ}
 
 *Cho G là một nhóm Lie thực hoặc phức hữu hạn chiều và A là một nhóm con nguyên của G. Khi đó $DA = DA$. Đặc biệt, A là một nhóm con chuẩn của $\overline{A}$ và $\overline{A}/A$ là giao hoán.*
 
@@ -190,7 +190,7 @@ $$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathscr{D}a} \quad \text{với mọi } x \i
 
 Theo trên, $G_2 \supseteq A$ và do đó $G_2 \supseteq \overline{A}$. Vì vậy, với $g \in \overline{A}$, Int $g$ giữ DA ổn định và xác định tự đẳng cấu đồng nhất của $\overline{A}/DA$. Do đó $DA \supseteq D\overline{A}$.
 
-#### Mệnh đề 6 {#lie-iii-s9-prop-6 .statement}
+#### Mệnh đề 6 {#lie-iii-s9-prop-6 .statement tag=0AIR}
 
 *Giả sử rằng K là ultrametric. Cho G là một nhóm Lie hữu hạn chiều. Cho A, B, C là các nhóm con Lie của G sao cho $[L(A), L(C)] \subset L(C)$, $[L(B), L(C)] \subset L(C)$. Nếu $[L(A), L(B)] \subset L(C)$, tồn tại các nhóm con mở A', B' của A, B sao cho $(A', B') \subset C$. Nếu $[L(A), L(B)] \subset L(C)$, tồn tại các nhóm con mở A', B', C' của A, B, C sao cho $(A', B') = C'$.*
 
@@ -204,7 +204,7 @@ $$
 $$
 Theo Mệnh đề 3, đại số con Lie tiếp xúc với $(A', B')$ tại $e$ chứa $L(C)$. Do đó $(A', B')$ chứa một mầm nhóm con Lie của G với đại số Lie $L(C)$. Vì vậy $(A', B')$ là một nhóm con mở của C.
 
-#### Hệ quả {#lie-iii-s9-n2-cor-2 .statement}
+#### Hệ quả {#lie-iii-s9-n2-cor-2 .statement tag=0AIS}
 
 *Giả sử rằng K là ultrametric. Cho G là một nhóm Lie hữu hạn chiều với đại số Lie g. Tồn tại một nhóm con mở $G_0$ của G sao cho, với mọi $i$, $D^iG_0$ (tương ứng $C^iG_0$) là một nhóm con Lie của G với đại số Lie $\mathscr{D}^ig$ (tương ứng $\mathscr{C}^ig$).*
 
@@ -226,19 +226,19 @@ Nhắc lại rằng hai phần tử $x, y$ của một nhóm được gọi là 
 
 Cho $G$ là một nhóm Lie, $g$ là đại số Lie của nó, $A$ là một tập con của $G$ và $a$ là một tập con của $g$. Ký hiệu $Z_G(A)$ (tương ứng $Z_G(a)$) là tập hợp các phần tử của $G$ giao hoán được với mọi phần tử của $A$ (tương ứng $a$). Đây là một nhóm con đóng của $G$. Ký hiệu $\mathfrak{z}_g(A)$ (tương ứng $\mathfrak{z}_g(a)$) là tập hợp các phần tử của $g$ giao hoán được với mọi phần tử của $A$ (tương ứng $a$). Đây là một đại số con Lie đóng của $g$.
 
-#### Mệnh đề 7 {#lie-iii-s9-prop-7 .statement}
+#### Mệnh đề 7 {#lie-iii-s9-prop-7 .statement tag=0AIT}
 
 *Cho $G$ là một nhóm Lie hữu hạn chiều, $g$ là đại số Lie của nó và $a$ là một tập con của $g$. Khi đó $Z_G(a)$ là một nhóm con Lie của $G$ với đại số Lie $\mathfrak{z}_g(a)$.*
 
 Điều này suy ra từ § 3, Mệnh đề 44 và Hệ quả 2 của Mệnh đề 39.
 
-#### Mệnh đề 8 {#lie-iii-s9-prop-8 .statement}
+#### Mệnh đề 8 {#lie-iii-s9-prop-8 .statement tag=0AIU}
 
 *Cho $G$ là một nhóm Lie thực hoặc phức hữu hạn chiều, $g$ là đại số Lie của nó và $A$ là một tập con của $G$. Khi đó $Z_G(A)$ là một nhóm con Lie của $G$ với đại số Lie $\mathfrak{z}_g(A)$.*
 
 Giả sử rằng $A$ chỉ gồm một điểm duy nhất $a$. Khi đó $Z_G(A)$ là tập hợp các điểm bất động của $\mathrm{Int}\, a$; do đó $Z_G(A)$ là một nhóm con Lie của $G$ và $\mathbf{L}(Z_G(A))$ là tập hợp các điểm bất động của $\mathrm{Ad}\, a$, tức là $\mathfrak{z}_g(A)$ (§ 3, no. 8, Hệ quả 1 của Mệnh đề 29). Trường hợp tổng quát suy ra bằng cách dùng § 6, no. 2, Hệ quả 3 của Mệnh đề 1.
 
-#### Mệnh đề 9 {#lie-iii-s9-prop-9 .statement}
+#### Mệnh đề 9 {#lie-iii-s9-prop-9 .statement tag=0AIV}
 
 *Cho $G$ là một nhóm Lie thực hoặc phức hữu hạn chiều, $g$ là đại số Lie của nó, $A$ là một nhóm con nguyên của $G$ và $a = \mathbf{L}(A)$. Khi đó $Z_G(A) = Z_G(a)$, $\mathfrak{z}_g(A) = \mathfrak{z}_g(a)$ và $Z_G(A)$ là một nhóm con Lie của $G$ với đại số Lie $\mathfrak{z}_g(a)$.*
 
@@ -262,21 +262,21 @@ và do đó $\mathfrak{z}_g(A) = \mathfrak{z}_g(a)$. Khẳng định cuối cùn
 
 Cho G là một nhóm Lie, $g$ là đại số Lie của nó, A là một tập con của G và $a$ là một tập con của $g$. Trong tiết này, $N_G(A)$ sẽ chỉ tập hợp các $g \in G$ sao cho $gAg^{-1} = A$. Nó là một nhóm con của G, đóng nếu A đóng. $n_g(a)$ sẽ chỉ tập hợp các $x \in g$ sao cho $[x, a] \subset a$ (xem Chương I, § 1, no. 4). Nó là một đại số con của $g$, đóng nếu $a$ đóng. $N_g(a)$ sẽ chỉ tập hợp các $g \in G$ sao cho $gag^{-1} = a$.
 
-#### Mệnh đề 10 {#lie-iii-s9-prop-10 .statement}
+#### Mệnh đề 10 {#lie-iii-s9-prop-10 .statement tag=0AIW}
 
 *Cho G là một nhóm Lie hữu hạn chiều, g là đại số Lie của nó và a là một không gian con vectơ của g. Khi đó $N_G(a)$ là một nhóm con Lie của G với đại số Lie $n_g(a)$.* Điều này suy ra từ § 3, Mệnh đề 44 và Hệ quả 1 của Mệnh đề 39.
 
-#### Mệnh đề 11 {#lie-iii-s9-prop-11 .statement}
+#### Mệnh đề 11 {#lie-iii-s9-prop-11 .statement tag=0AIX}
 
 *Cho G là một nhóm Lie thực hoặc phức hữu hạn chiều, g là đại số Lie của nó, A là một nhóm con nguyên của G và $a = L(A)$. Khi đó $N_G(A) = N_G(a)$ và $N_G(A)$ là một nhóm con Lie của G chứa $\overline{A}$, với đại số Lie $n_g(a)$.* Đẳng thức $N_G(A) = N_G(a)$ suy ra từ § 6, no. 2, Hệ quả 2 của Mệnh đề 3. Theo Mệnh đề 10, $N_G(A)$ khi đó là một nhóm con Lie của G với đại số Lie $n_g(a)$. Do đó $N_G(A)$ là đóng. Vì $N_G(A) \supset A$, $N_G(A) \supset \overline{A}$.
 
-#### Hệ quả {#lie-iii-s9-n4-cor-1 .statement}
+#### Hệ quả {#lie-iii-s9-n4-cor-1 .statement tag=0AIY}
 
 *Nếu $a = n_g(a)$, A là một nhóm con Lie của G và là thành phần đơn vị của $N_G(A)$.* Thành phần đơn vị này là một nhóm con Lie với đại số Lie $n_g(a)$ (Mệnh đề 11) và do đó bằng A theo § 6, no. 2, Định lý 2 (i).
 
 ### 5. CÁC NHÓM LIE LŨY LINH
 
-#### Mệnh đề 12 {#lie-iii-s9-prop-12 .statement}
+#### Mệnh đề 12 {#lie-iii-s9-prop-12 .statement tag=0AIZ}
 
 *Cho G là một nhóm Lie hữu hạn chiều. Để $L(G)$ lũy linh, điều kiện cần và đủ là G có một nhóm con mở lũy linh.* Giả sử rằng G có một nhóm con mở lũy linh $G_0$. Theo các Hệ quả của các Mệnh đề 4 và 6, no. 2, $C^iL(G_0) = \{0\}$ với $i$ đủ lớn. Do đó $L(G_0) = L(G)$ là lũy linh.
 
@@ -284,7 +284,7 @@ Giả sử $L(G)$ là lũy linh. Nếu $K = \mathbf{R}$ hoặc $\mathbf{C}$, th�
 
 Cho $g$ là một đại số Lie lũy linh. Chuỗi Hausdorff $H(X, Y)$ tương ứng với $g$ chỉ có một số hữu hạn các số hạng khác không và ta biết (Chương II, § 6, no. 5, *Nhận xét 3*) rằng luật hợp thành $(x, y) \mapsto H(x, y)$ xác định một cấu trúc nhóm trên $g$. Giả sử thêm rằng $g$ là đầy đủ và chuẩn hóa được. Rõ ràng luật H là một đa thức liên tục (*Đa tạp khả vi và giải tích*, R, Phụ lục). Do đó $g$, cùng với luật H, là một nhóm Lie G, được gọi là *liên kết với* $g$. Theo § 4, no. 2, Bổ đề 2 và 3, $L(G) = g$. Ánh xạ đồng nhất $\phi$ của $g$ vào $G$ là một ánh xạ mũ của $G$ sao cho $\phi(\lambda x)\phi(\lambda'x) = \phi((\lambda + \lambda')x)$ với mọi $x \in g, \lambda \in K, \lambda' \in K$. Mọi đại số con Lie $\mathfrak{h}$ của $g$ nhận một phần bù tôpô là một nhóm con Lie $H$ của $G$ và $L(H) = \mathfrak{h}$.
 
-#### Mệnh đề 13 {#lie-iii-s9-prop-13 .statement}
+#### Mệnh đề 13 {#lie-iii-s9-prop-13 .statement tag=0AJ0}
 
 *Cho $G$ là một nhóm Lie lũy linh liên thông đơn chiều hữu hạn trên $\mathbf{R}$ hoặc $\mathbf{C}$.*
 
@@ -294,7 +294,7 @@ Cho $g$ là một đại số Lie lũy linh. Chuỗi Hausdorff $H(X, Y)$ tương
 
 Cho $g = L(G)$, là lũy linh (Mệnh đề 12). Vì hai nhóm Lie liên thông đơn trên $\mathbf{R}$ hoặc $\mathbf{C}$ có cùng đại số Lie thì đẳng cấu với nhau ($§ 6$, no. 3, Định lý 3 (ii)), nên chỉ cần chứng minh mệnh đề khi $G$ là nhóm liên kết với $g$. Khi đó (i) và (ii) suy ra từ những gì đã nói trước mệnh đề.
 
-#### Mệnh đề 14 {#lie-iii-s9-prop-14 .statement}
+#### Mệnh đề 14 {#lie-iii-s9-prop-14 .statement tag=0AJ1}
 
 *Cho $G$ là một nhóm Lie liên thông chiều hữu hạn trên $\mathbf{R}$ hoặc $\mathbf{C}$.*
 
@@ -306,7 +306,7 @@ Cho $G'$ là không gian phủ phổ quát của $G$. Cho $\phi$ là cấu xạ 
 
 Nếu $K = \mathbf{C}$ và $\exp$ là étale, thì, với mọi $x \in L(G)$, $x$ không có trị riêng thuộc $2i\pi(\mathbf{Z} - \{0\})$ ($§ 6$, no. 4, Hệ quả của Mệnh đề 12). Áp dụng điều này cho $\lambda x$, trong đó $\lambda$ biến thiên qua $\mathbf{C}$, suy ra mọi trị riêng của $\mathrm{ad}\, x$ đều là không và do đó $\mathrm{ad}\, x$ là lũy linh. Vì vậy $L(G)$ là lũy linh (Chương I, $§ 4$, Hệ quả 1 của Định lý 1) và do đó $G$ là lũy linh (Mệnh đề 12).
 
-#### Mệnh đề 15 {#lie-iii-s9-prop-15 .statement}
+#### Mệnh đề 15 {#lie-iii-s9-prop-15 .statement tag=0AJ2}
 
 *Cho $G$ là một nhóm Lie liên thông lũy linh hữu hạn chiều trên $\mathbf{R}$ hoặc $\mathbf{C}$ và $A$ là một nhóm con nguyên của $G$. Khi đó $Z_G(A)$ là nhóm Lie con liên thông của $G$ có đại số Lie $\mathfrak{z}_G(L(A))$.*
 
@@ -318,13 +318,13 @@ $$
 
 từ $K$ vào $\mathscr{L}(L(A), L(G))$ là đa thức, $\exp(\mathrm{ad}\, \lambda x)|L(A) = 1$ với mọi $\lambda \in K$, tức là $\exp(\lambda x) \in Z_G(A)$ với mọi $\lambda \in K$.
 
-#### Mệnh đề 16 {#lie-iii-s9-prop-16 .statement}
+#### Mệnh đề 16 {#lie-iii-s9-prop-16 .statement tag=0AJ3}
 
 *Cho $G$ là một nhóm Lie lũy linh hữu hạn chiều trên $\mathbf{R}$ hoặc $\mathbf{C}$ và $A$ là một nhóm con nguyên của $G$ khác với $G$. Khi đó $N_G(A)$ là một nhóm Lie con liên thông của $G$ khác với $A$.*
 
 $N_G(A) \neq A$ (Đại số, Chương I, § 6, Hệ quả 1 của Mệnh đề 8). Theo Mệnh đề 11 của no. 4, ta chỉ cần chứng minh rằng $N_G(A)$ là liên thông. Cho $g \in N_G(A)$. Tồn tại $x \in L(G)$ sao cho $g = \exp x$ (Mệnh đề 14). Gọi $E$ là không gian con vectơ của $\mathscr{L}(L(G))$ gồm các $u \in \mathscr{L}(L(G))$ sao cho $u(L(A)) \subset L(A)$. Khi đó $\mathrm{Ad}\, g^n \in E$ và do đó $\exp(\mathrm{ad}\, nx) \in E$ với mọi $n \in \mathbf{Z}$. Suy ra $\exp(\mathrm{ad}\, \lambda x) \in E$ với mọi $\lambda \in K$, tức là $\exp(\lambda x) \in N_G(A)$ với mọi $\lambda \in K$.
 
-#### Mệnh đề 17 {#lie-iii-s9-prop-17 .statement}
+#### Mệnh đề 17 {#lie-iii-s9-prop-17 .statement tag=0AJ4}
 
 *Cho $g$ là một đại số Lie lũy linh hữu hạn chiều trên $K$ và $(g_0, g_1, \ldots, g_n)$ là một dãy giảm các iđêan của $g$ sao cho $g_0 = g, g_n = \{0\}$ và $[g, g_i] \subset g_{i+1}$ với $0 \leq i < n$. Cho $a_1, a_2, \ldots, a_p$ là các không gian con vectơ của $g$ sao cho mỗi $g_i$ là tổng trực tiếp của các giao của nó với các $a_j$. Cho $g$ được trang bị luật hợp thành Hausdorff $H$. Gọi $\phi$ là ánh xạ*
 
@@ -417,7 +417,7 @@ $$
 $$
 Nhưng hai vế của (6) là các hàm giải tích của $g$ với $g \in G$ và do đó bằng nhau với mọi $g \in G$.
 
-#### Mệnh đề 18 {#lie-iii-s9-prop-18 .statement}
+#### Mệnh đề 18 {#lie-iii-s9-prop-18 .statement tag=0AJ5}
 
 *Cho k là một trường giao hoán. V là một không gian vectơ có số chiều hữu hạn > 0 trên k và G là một nhóm con của $\mathbf{GL}(V)$ mà các phần tử của nó là unipotent.*
   (i) *Tồn tại một phần tử v khác không của V sao cho gv = v với mọi g \in G.*
@@ -431,13 +431,13 @@ Nhưng hai vế của (6) là các hàm giải tích của $g$ với $g \in G$ v
     (b) Bây giờ ta chuyển sang trường hợp tổng quát. Cho $\bar{k}$ là một bao đóng đại số của k, $\bar{V} = V \otimes_k \bar{k}$ và $\bar{G} \subset \mathbf{GL}(\bar{V})$ là tập hợp các $a \otimes 1$ với $a \in G$. Cho W (tương ứng. $W'$) là tập hợp các phần tử của V (tương ứng. $\bar{V}$) bất biến dưới G (tương ứng. $\bar{G}$). Khi đó $W' = W \otimes_k \bar{k}$ vì $W = \bigcap_{g \in G} \operatorname{Ker}(g-1)$ và $W' = \bigcap_{g \in G} \operatorname{Ker}(g-1) \otimes 1$. Nếu $V_1$ là một phần tử cực tiểu trong tập hợp các không gian vectơ con khác không của $\bar{V}$ ổn định dưới $\bar{G}$, thì $V_1 \subset W'$ theo phần (a) của chứng minh; do đó $W \neq \{0\}$, điều này chứng minh (i).
     (c) Bằng quy nạp theo $\dim V$, từ (i) suy ra rằng tồn tại một dãy tăng $(V_1, V_2, \ldots, V_n)$ các không gian vectơ con của V ổn định dưới G sao cho $V_n = V$ và nhóm tự đẳng cấu của $V_i/V_{i-1}$ được dẫn xuất một cách chính tắc từ G thu gọn về $\{1\}$ với mọi $i$ (ta quy ước rằng $V_r = \{0\}$ với $r \leq 0$). Điều này trước hết suy ra (ii) và do đó suy ra (iii) (Chương II, § 4, no. 6, *Nhận xét*).
 
-#### Hệ quả 1 {#lie-iii-s9-prop-18-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s9-prop-18-cor-1 .statement tag=0AJ6}
 
 *Cho G là một nhóm Lie liên thông thực hoặc phức có số chiều hữu hạn. Để G lũy linh, điều kiện cần và đủ là mọi phần tử của Ad G đều lũy linh.*
 
 Nếu mọi phần tử của Ad G là unipotent, thì Ad G là lũy linh (Mệnh đề 18) và do đó G, là một mở rộng trung tâm của Ad G, là lũy linh. Nếu G là lũy linh, $L(G)$ là lũy linh, do đó $\operatorname{ad} x$ là lũy linh với mọi $x \in L(G)$ và do đó $\operatorname{Ad}(\exp x) = \exp \operatorname{ad} x$ là unipotent; nhưng mọi phần tử của G đều có dạng $\exp x$ với một $x \in L(G)$ nào đó (Mệnh đề 14).
 
-#### Hệ quả 2 {#lie-iii-s9-prop-18-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s9-prop-18-cor-2 .statement tag=0AJ7}
 
 *Mọi nhóm con giải tích của $\mathbf{GL}(n, K)$ gồm các phần tử unipotent đều là một nhóm con Lie đơn liên.*
 
@@ -445,13 +445,13 @@ Nếu mọi phần tử của Ad G là unipotent, thì Ad G là lũy linh (Mện
 
 ### 6. CÁC NHÓM LIE GIẢI ĐƯỢC
 
-#### Mệnh đề 19 {#lie-iii-s9-prop-19 .statement}
+#### Mệnh đề 19 {#lie-iii-s9-prop-19 .statement tag=0AJ8}
 
 *Một nhóm Lie hữu hạn chiều $G$. Để $L(G)$ giải được, điều kiện cần và đủ là $G$ sở hữu một nhóm con mở giải được.*
 
 Chứng minh tương tự như chứng minh của Mệnh đề 12 của no. 5.
 
-#### Mệnh đề 20 {#lie-iii-s9-prop-20 .statement}
+#### Mệnh đề 20 {#lie-iii-s9-prop-20 .statement tag=0AJ9}
 
 *Cho $G$ là một nhóm Lie giải được đơn liên hữu hạn chiều $n$ trên $\mathbf{R}$ hoặc $\mathbf{C}$ và $g = L(G)$. Cho $(g_n, g_{n-1}, \ldots, g_0)$ là một dãy các đại số con của $g$ có các chiều $n, n-1, \ldots, 0$, sao cho $g_{i-1}$ là một iđêan của $g_i$ với $i = n, n-1, \ldots, 1.\dagger$ Cho $G_i$ là nhóm con nguyên của $G$ tương ứng với $g_i$. Cho $x_i$ là một vectơ của $g_i$ không thuộc $g_{i-1}$. Cho $\phi_i$ là ánh xạ*
 
@@ -469,7 +469,7 @@ $$
 
 là một đẳng cấu của đa tạp giải tích $K^{n-1}$ lên đa tạp giải tích $G_{n-1}$, ánh xạ $K^i \times \{0\}$ vào $G_i$ với $i = 1, 2, \ldots, n-1$. Do đó có mệnh đề.
 
-#### Mệnh đề 21 {#lie-iii-s9-prop-21 .statement}
+#### Mệnh đề 21 {#lie-iii-s9-prop-21 .statement tag=0AJA}
 
 *Cho $G$ là một nhóm Lie giải được liên thông đơn hữu hạn chiều trên $\mathbf{R}$ hoặc $\mathbf{C}$ và $M$ là một nhóm con nguyên của $G$. Khi đó $M$ là một nhóm con Lie của $G$ và liên thông đơn.*
 
@@ -496,7 +496,7 @@ $$
 $$
 Vậy $M = \phi(T)$ trong đó $T$ là một không gian con vectơ của $K^n$.
 
-#### Mệnh đề 22 {#lie-iii-s9-prop-22 .statement}
+#### Mệnh đề 22 {#lie-iii-s9-prop-22 .statement tag=0AJB}
 
 *Giả sử rằng $K = \mathbf{R}$ hoặc $\mathbf{C}$. Cho $V$ là một không gian vectơ hữu hạn chiều và $G$ là một nhóm con giải được liên thông của $\mathbf{GL}(V)$. Giả sử rằng biểu diễn đồng nhất của $G$ là đơn.*
 (i) *Nếu $K = \mathbf{R}$ thì $\dim V \leq 2$ và $G$ giao hoán.*
@@ -504,7 +504,7 @@ Vậy $M = \phi(T)$ trong đó $T$ là một không gian con vectơ của $K^n$.
 (i) Giả sử rằng $K = \mathbf{R}$. Khi đó bao đóng $H$ của $G$ trong $\mathbf{GL}(V)$ là một nhóm Lie con giải được liên thông của $\mathbf{GL}(V)$ (no. 1, Hệ quả 2 của Mệnh đề 1). Do đó $L(H)$ là giải được (Mệnh đề 19). Biểu diễn đồng nhất của $L(G)$ là đơn (§ 6, no. 5, Hệ quả 2 của Mệnh đề 13). Do đó $\dim V \leq 2$ và $L(G)$ giao hoán (Chương I, § 5, Hệ quả 1 và 4 của Định lý 1). Do đó $G$ giao hoán.
 (ii) Giả sử rằng $K = \mathbf{C}$. Cho $W$ là một phần tử cực tiểu trong số các không gian vectơ con thực khác không của $V$ ổn định dưới $G$. Không gian vectơ con phức của $V$ sinh bởi $W$ bằng $V$ vì biểu diễn đồng nhất của $G$ là đơn. Theo (i), $G|W$ giao hoán. Do đó $G$ giao hoán. Vì vậy mọi phần tử của $G$ là một phép vị tự (*Đại số*, Chương VIII, § 4, Hệ quả 1 của Mệnh đề 2), sao cho $\dim V = 1$.
 
-#### Hệ quả {#lie-iii-s9-n6-cor-1 .statement}
+#### Hệ quả {#lie-iii-s9-n6-cor-1 .statement tag=0AJC}
 
 *Cho $V$ là một không gian vectơ phức có số chiều hữu hạn $> 0$ và $G$ là một nhóm con giải được liên thông của $\mathbf{GL}(V)$.*
 (i) *Tồn tại một phần tử khác không $v$ của $V$ sao cho $gv \in Cv$ với mọi $g \in G$.*
@@ -513,27 +513,27 @@ Cho $V_1$ là một phần tử cực tiểu trong số các không gian vectơ 
 
 ### 7. CĂN CỦA MỘT NHÓM LIE
 
-#### Mệnh đề 23 {#lie-iii-s9-prop-23 .statement}
+#### Mệnh đề 23 {#lie-iii-s9-prop-23 .statement tag=0AJD}
 
 *Cho $G$ là một nhóm Lie thực hoặc phức hữu hạn chiều, $r$ là căn của $L(G)$* (Chương I, § 5, Định nghĩa 2) *và $n$ là iđêan lũy linh lớn nhất của $L(G)$* (Chương I, § 4, no. 4). *Cho $R$ (tương ứng $N$) là nhóm con nguyên của $G$ có đại số Lie là $r$ (tương ứng $n$). Khi đó $R$ (tương ứng $N$) là một nhóm con Lie giải được (tương ứng lũy linh) của $G$, bất biến dưới mọi tự đẳng cấu liên tục của $G$. *Mọi nhóm con chuẩn liên thông giải được (tương ứng lũy linh) của $G$ đều được chứa trong $R$ (tương ứng $N$).*
 
 Nhóm $R$ là giải được ($§ 6$, Mệnh đề 19). Giả sử rằng $K = R$. Cho $G'$ là một nhóm con chuẩn liên thông giải được của $G$. Khi đó $\overline{G'}$ là một nhóm con Lie chuẩn liên thông giải được (no. 1, Hệ quả 2 của Mệnh đề 1) của $G$ ($§ 8$, no. 2, Định lý 2). Do đó $L(\overline{G'})$ là một iđêan giải được của $L(G)$, do đó $L(\overline{G'}) \subset r$ và $\overline{G'} \subset R$. Đặc biệt, $\overline{R} \subset R$, do đó $R$ là đóng và vì vậy là một nhóm con Lie của $G$. Giả sử rằng $K = C$. Cho $H$ là nhóm con Lie thực nền của $G$. Nếu $r'$ là căn của $L(H)$, $ir'$ là một iđêan giải được của $L(H)$, do đó $r' = ir'$; vì vậy $r \subset r' \subset r$ và, theo trên, $R$ là đóng trong $H$ và do đó trong $G$; vậy nên $R$ là một nhóm con Lie của $G$. Mọi nhóm con chuẩn liên thông giải được của $G$ là một nhóm con chuẩn liên thông giải được của $H$ và do đó được chứa trong $R$. Vì vậy ta đã chứng minh rằng với $K = C$ và với $K = R$, $R$ là nhóm con chuẩn liên thông giải được lớn nhất của $G$; do đó $R$ là bất biến dưới mọi tự đẳng cấu liên tục của $G$. Chứng minh đối với $N$ hoàn toàn tương tự.
 
-#### Định nghĩa 1 {#lie-iii-s9-def-1 .statement}
+#### Định nghĩa 1 {#lie-iii-s9-def-1 .statement tag=0AJE}
 
 *Cho $G$ là một nhóm Lie thực hoặc phức hữu hạn chiều. Căn của $G$ là nhóm con chuẩn liên thông giải được lớn nhất của $G$.*
 
-#### Nhận xét {#lie-iii-s9-n7-rem-1 .statement}
+#### Nhận xét {#lie-iii-s9-n7-rem-1 .statement tag=0AJF}
 
 Ngay cả khi $G$ liên thông, có thể có các nhóm con chuẩn giải được của $G$ không được chứa trong căn của $G$.
 
-#### Mệnh đề 24 {#lie-iii-s9-prop-24 .statement}
+#### Mệnh đề 24 {#lie-iii-s9-prop-24 .statement tag=0AJG}
 
 *Giả sử rằng $K = R$ hoặc $C$. Cho $G_1, G_2$ là hai nhóm Lie liên thông hữu hạn chiều, $R_1$ và $R_2$ là các căn của chúng và $\phi$ là một cấu xạ toàn ánh từ $G_1$ vào $G_2$. Khi đó $\phi(R_1) = R_2$.*
 
 Theo $§ 3$, no. 8, Mệnh đề 28, $L(\phi)$ là toàn ánh. Do đó $L(\phi)(L(R_1)) = L(R_2)$ (Chương I, $§ 6$, Hệ quả 3 của Mệnh đề 2). Gọi $i$ là đơn ánh chính tắc của $R_1$ vào $G_1$. Khi đó ảnh của $\phi \circ i$ là $R_2$ ($§ 6$, no. 2, Hệ quả 1 của Mệnh đề 1).
 
-#### Mệnh đề 25 {#lie-iii-s9-prop-25 .statement}
+#### Mệnh đề 25 {#lie-iii-s9-prop-25 .statement tag=0AJH}
 
 *Giả sử rằng $K = R$ hoặc $C$. Cho $G_1, G_2$ là các nhóm Lie liên thông hữu hạn chiều và $R_1$ và $R_2$ là các căn của chúng. Căn của $G_1 \times G_2$ là $R_1 \times R_2$.*
 
@@ -541,7 +541,7 @@ Theo $§ 3$, no. 8, Mệnh đề 28, $L(\phi)$ là toàn ánh. Do đó $L(\phi)(
 
 ### 8. CÁC NHÓM LIE NỬA ĐƠN
 
-#### Mệnh đề 26 {#lie-iii-s9-prop-26 .statement}
+#### Mệnh đề 26 {#lie-iii-s9-prop-26 .statement tag=0AJI}
 
 Cho G là một nhóm Lie thực hoặc phức liên thông hữu hạn chiều. Các điều kiện sau là tương đương:
 (i) $L(G)$ là nửa đơn;
@@ -549,40 +549,40 @@ Cho G là một nhóm Lie thực hoặc phức liên thông hữu hạn chiều.
 (iii) mọi nhóm con giao hoán nguyên chuẩn của G đều bằng $\{e\}$.
 Điều kiện (ii) có nghĩa là căn của $L(G)$ là $\{0\}$ và do đó (i) $\Leftrightarrow$ (ii) (Chương I, § 6, Định lý 1). Sự tương đương của (i) và (iii) suy ra từ § 6, no. 6, Mệnh đề 14.
 
-#### Định nghĩa 2 {#lie-iii-s9-def-2 .statement}
+#### Định nghĩa 2 {#lie-iii-s9-def-2 .statement tag=0AJJ}
 
 Một nhóm Lie thực hoặc phức liên thông được gọi là nửa đơn nếu nó hữu hạn chiều và thỏa mãn các điều kiện của Mệnh đề 26.
 
-#### Nhận xét 1 {#lie-iii-s9-n8-rem-1 .statement}
+#### Nhận xét 1 {#lie-iii-s9-n8-rem-1 .statement tag=0AJK}
 
 Cho G là một nhóm Lie thực hoặc phức liên thông hữu hạn chiều. Nếu G không là nửa đơn, G có một nhóm con Lie giao hoán liên thông $G'$ bất biến dưới mọi tự đẳng cấu liên tục, sao cho $G' \neq \{e\}$. Thật vậy, gọi n là iđêan lũy linh lớn nhất của $L(G)$; khi đó $n \neq \{0\}$ và nhóm con giải tích tương ứng N là một nhóm con Lie bất biến dưới mọi tự đẳng cấu liên tục của G (no. 7, Mệnh đề 23); tâm $G'$ của N có các tính chất mong muốn.
 
-#### Mệnh đề 27 {#lie-iii-s9-prop-27 .statement}
+#### Mệnh đề 27 {#lie-iii-s9-prop-27 .statement tag=0AJL}
 
 Cho G là một nhóm Lie thực hoặc phức liên thông hữu hạn chiều. Các điều kiện sau là tương đương:
 (i) $L(G)$ là đơn;
 (ii) các nhóm con nguyên chuẩn duy nhất của G là $\{e\}$ và G, và hơn nữa G không giao hoán.
 Điều này suy ra từ § 6, no. 6, Mệnh đề 14.
 
-#### Định nghĩa 3 {#lie-iii-s9-def-3 .statement}
+#### Định nghĩa 3 {#lie-iii-s9-def-3 .statement tag=0AJM}
 
 Một nhóm Lie thực hoặc phức liên thông được gọi là gần đơn nếu nó hữu hạn chiều và thỏa mãn các điều kiện của Mệnh đề 27.
 
-#### Mệnh đề 28 {#lie-iii-s9-prop-28 .statement}
+#### Mệnh đề 28 {#lie-iii-s9-prop-28 .statement tag=0AJN}
 
 Cho G là một nhóm Lie thực hoặc phức đơn liên. Các điều kiện sau là tương đương:
 (i) G là nửa đơn;
 (ii) G đẳng cấu với tích của một số hữu hạn các nhóm gần đơn.
 Nếu G là một tích hữu hạn của các nhóm Lie gần đơn, $L(G)$ là một tích hữu hạn của các đại số Lie đơn và do đó là nửa đơn. Nếu G là nửa đơn, $L(G)$ đẳng cấu với một tích của các đại số Lie đơn $L_1, \ldots, L_n$. Gọi $G_i$ là một nhóm Lie đơn liên có đại số Lie $L_i$, do đó nó là gần đơn. Khi đó G và $G_1 \times \cdots \times G_n$ là đơn liên và có các đại số Lie đẳng cấu, do đó chúng đẳng cấu.
 
-#### Bổ đề 1 {#lie-iii-s9-lem-1 .statement}
+#### Bổ đề 1 {#lie-iii-s9-lem-1 .statement tag=0AJO}
 
 Cho G là một nhóm tôpô liên thông, Z là tâm của nó và $Z'$ là một nhóm con rời rạc của Z. Khi đó tâm của $G/Z'$ là $Z/Z'$.
 Gọi y là một phần tử của G mà lớp của nó modulo $Z'$ là một phần tử trung tâm của
 
 G/Z'. Gọi $\phi$ là ánh xạ $g \mapsto gyg^{-1}y^{-1}$ của G vào G. Khi đó $\phi(G)$ là liên thông và được chứa trong $Z'$ và do đó $\phi(G) = \phi(\{e\}) = \{e\}$. Vì vậy $y \in Z$.
 
-#### Mệnh đề 29 {#lie-iii-s9-prop-29 .statement}
+#### Mệnh đề 29 {#lie-iii-s9-prop-29 .statement tag=0AJP}
 
 *Cho G là một nhóm Lie liên thông nửa đơn thực hoặc phức.*
 (i) $G = (G, G)$.
@@ -592,17 +592,17 @@ Mệnh đề (i) suy ra từ Hệ quả của Mệnh đề 4, no. 2 và Chương
 Mệnh đề (ii) suy ra từ § 6, no. 4, Hệ quả 4 của Mệnh đề 10 và Chương I, § 6, no. 1, *Nhận xét 2*.
 Mệnh đề (iii) suy ra từ (ii) và Bổ đề 1.
 
-#### Mệnh đề 30 {#lie-iii-s9-prop-30 .statement}
+#### Mệnh đề 30 {#lie-iii-s9-prop-30 .statement tag=0AJQ}
 
 (i) *Cho $\mathfrak{g}$ là một đại số Lie nửa đơn thực hoặc phức. Khi đó Int $\mathfrak{g}$ là thành phần đơn vị của Aut $\mathfrak{g}$.*.
 (ii) *Cho G là một nhóm Lie liên thông nửa đơn thực hoặc phức. Nhóm phụ hợp của G là thành phần đơn vị của Aut $L(G)$. Tâm của nó thu gọn về phần tử đơn vị.*
 Mọi đạo hàm của $\mathfrak{g}$ đều là nội (Chương I, § 6, Hệ quả 3 của Mệnh đề 1) và do đó $L(\mathrm{Int}\,\mathfrak{g}) = L(\mathrm{Aut}\,\mathfrak{g})$, điều này chứng minh (i). Mệnh đề đầu tiên của (ii) suy ra từ (i). Mệnh đề thứ hai suy ra từ Mệnh đề 29 (iii) và § 6, no. 4, Hệ quả 4 (ii) của Mệnh đề 10.
 
-#### Nhận xét 2 {#lie-iii-s9-n8-rem-2 .statement}
+#### Nhận xét 2 {#lie-iii-s9-n8-rem-2 .statement tag=0AJR}
 
 Cho $\mathfrak{g}$ là một đại số Lie nửa đơn phức và $\mathfrak{g}_0$ là đại số Lie thực nền của nó. Khi đó Aut$(\mathfrak{g})$ là mở trong Aut$(\mathfrak{g}_0)$, vì Int$(\mathfrak{g}_0) \subset \mathrm{Aut}(\mathfrak{g})$.
 
-#### Mệnh đề 31 {#lie-iii-s9-prop-31 .statement}
+#### Mệnh đề 31 {#lie-iii-s9-prop-31 .statement tag=0AJS}
 
 *Cho G là một nhóm Lie liên thông đơn liên hữu hạn chiều thực hoặc phức và R là căn của nó. Tồn tại một nhóm Lie con S nửa đơn đơn liên của G sao cho G, như một nhóm Lie, là tích nửa trực tiếp của S bởi R. Nếu S' là một nhóm con nguyên nửa đơn của G, tồn tại x trong căn lũy linh của $L(G)$ sao cho*
 $$
@@ -610,7 +610,7 @@ $$
 $$
 Điều này suy ra từ § 6, no. 6, Hệ quả 1 của Mệnh đề 14 và Chương I, § 6, Định lý 5 và Hệ quả 1.
 
-#### Bổ đề 2 {#lie-iii-s9-lem-2 .statement}
+#### Bổ đề 2 {#lie-iii-s9-lem-2 .statement tag=0AJT}
 
 *Cho G là một nhóm (tương ứng, một nhóm tôpô), G' là một nhóm con chuẩn của G, V là một không gian vectơ hữu hạn chiều trên một trường giao hoán k (tương ứng, trên K), $\rho$ là một biểu diễn tuyến tính (tương ứng, một biểu diễn tuyến tính liên tục) của G trên V và $\rho' = \rho|_{G'}$.*
 (i) *Nếu $\rho$ là nửa đơn, $\rho'$ là nửa đơn.*
@@ -631,7 +631,7 @@ $$
 $$
 Suy ra $\sigma(g)f \in E$. Do đó $\sigma$ là một $k$-biểu diễn tuyến tính (tương ứng một $K$-biểu diễn tuyến tính liên tục) của $G$ trên $E$ để lại $F$ ổn định. Khi đó $\sigma(g) = \mathrm{Id}_E$ với $g \in G'$ và do đó với $g \in \overline{G'}$ trong trường hợp tôpô. Giả sử rằng mọi biểu diễn tuyến tính $k$ hữu hạn chiều (tương ứng mọi biểu diễn tuyến tính $K$ liên tục) của $G/G'$ (tương ứng $G/\overline{G'}$) đều nửa đơn. Khi đó tồn tại trong $E$ một phần bù của $F$ ổn định dưới $G$. Nói cách khác, tồn tại $f \in E$ sao cho $\alpha(f) = 1$, bất biến dưới $G$. Khi đó $f$ là một phép chiếu của $V$ lên $W$, và, với $g \in G$, $\rho(g) \circ f \circ \rho(g^{-1}) = f$, nghĩa là $f$ giao hoán với $\rho(G)$. Vậy $\rho$ là nửa đơn.
 
-#### Định lý 1 {#lie-iii-s9-thm-1 .statement}
+#### Định lý 1 {#lie-iii-s9-thm-1 .statement tag=0AJU}
 
 *Cho $G$ là một nhóm Lie thực hoặc phức hữu hạn chiều, $G_0$ là thành phần đơn vị của nó, $R$ là căn của nó và $r$ là căn của $L(G)$; giả sử rằng $G/G_0$ là hữu hạn. Cho $\rho$ là một biểu diễn tuyến tính giải tích hữu hạn chiều của $G$. Các điều kiện sau là tương đương:*
 (i) $\rho$ là nửa đơn;
@@ -643,7 +643,7 @@ Suy ra $\sigma(g)f \in E$. Do đó $\sigma$ là một $k$-biểu diễn tuyến 
 (ii) $\Leftrightarrow$ (iv) và (iii) $\Leftrightarrow$ (v) theo § 6, no. 5, Hệ quả 2 của Mệnh đề 13.
 (iv) $\Leftrightarrow$ (v) theo Chương I, § 6, Định lý 4.
 
-#### Hệ quả 1 {#lie-iii-s9-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s9-thm-1-cor-1 .statement tag=0AJV}
 
 *Cho $\rho, \rho_1, \rho_2$ là các biểu diễn tuyến tính giải tích nửa đơn hữu hạn chiều của $G$ và $n$ là một số nguyên $\geq 0$. Khi đó $\rho_1 \otimes \rho_2, T^n \rho, S^n \rho, \wedge^n \rho$ (Phụ lục) là nửa đơn.*
 
@@ -651,17 +651,17 @@ Tính nửa đơn của $\rho_1 \otimes \rho_2$ suy ra từ Định lý 1 và Ch
 
 Ta sẽ thấy sau rằng, nếu $k$ là một trường giao hoán có đặc số 0, $\Gamma$ là một nhóm và $\rho_1$ và $\rho_2$ là các biểu diễn tuyến tính $k$ nửa đơn hữu hạn chiều của $\Gamma$, thì $\rho_1 \otimes \rho_2$ là nửa đơn.
 
-#### Hệ quả 2 {#lie-iii-s9-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s9-thm-1-cor-2 .statement tag=0AJW}
 
 *Cho $\rho$ là một biểu diễn tuyến tính giải tích nửa đơn hữu hạn chiều của $G$ trên một không gian vectơ $V$, $S$ là đại số đối xứng của $V$ và $S^G$ là đại số con của $S$ gồm các phần tử bất biến dưới tác dụng của $(S\rho)(G)$. Khi đó $S^G$ là một đại số sinh hữu hạn.*
 
 Điều này suy ra từ Định lý 1, Chương I, § 6, Định lý 6 (a) và *Đại số giao hoán*, Chương V, § 1, Định lý 2.
 
-#### Hệ quả 3 {#lie-iii-s9-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#lie-iii-s9-thm-1-cor-3 .statement tag=0AJX}
 
 *Cho $G$ là một nhóm Lie thực hoặc phức và $G_0$ là thành phần đơn vị của nó. Giả sử rằng $G_0$ là nửa đơn và rằng $G/G_0$ là hữu hạn. Khi đó mọi biểu diễn tuyến tính giải tích hữu hạn chiều của $G$ đều là nửa đơn.*
 
-#### Mệnh đề 32 {#lie-iii-s9-prop-32 .statement}
+#### Mệnh đề 32 {#lie-iii-s9-prop-32 .statement tag=0AJY}
 
 *Cho $G$ là một nhóm Lie thực liên thông hữu hạn chiều. Giả sử rằng $L(G)$ là khả quy. Các điều kiện sau là tương đương:*
 
@@ -682,7 +682,7 @@ là một biểu diễn tuyến tính giải tích của $G$ trên $\mathbf{R}^2
 
 Tương tự, có thể thấy rằng (ii) $\Rightarrow$ (i).
 
-#### Mệnh đề 33 {#lie-iii-s9-prop-33 .statement}
+#### Mệnh đề 33 {#lie-iii-s9-prop-33 .statement tag=0AJZ}
 
 Cho G là một nhóm Lie phức hữu hạn chiều mà số các thành phần liên thông là hữu hạn, $\varphi$ là một biểu diễn tuyến tính giải tích hữu hạn chiều của G và $G'$ là một nhóm con nguyên của nhóm Lie thực G sao cho $L(G')$ sinh ra $L(G)$ trên $\mathbf{C}$. Khi đó, để $\varphi$ nửa đơn, điều kiện cần và đủ là $\varphi|G'$ nửa đơn.
 

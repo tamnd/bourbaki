@@ -33,7 +33,7 @@ subsections:
       pdf_page: 76
 statements: 26
 exercises: 5
-content_sha256: 46c486b51ca243c057666628468799e401c5bc5336074d5902418d0aa50dca37
+content_sha256: 1e58e2cf7e28f71e344d5832fbb288579da1f287b87e4bdbaf8b730a89a6bea7
 ---
 
 ## § 2. SUPPORT OF A MEASURE
@@ -58,7 +58,7 @@ is a measure on $Y$, because every function in $\mathscr{K}(Y; \mathbf{C})$ is z
 
 However, we have the following proposition:
 
-#### Proposition 1 {#int-iii-s2-prop-1 .statement}
+#### Proposition 1 {#int-iii-s2-prop-1 .statement tag=08MR}
 
 *Let* $(Y_\alpha)_{\alpha \in A}$ *be an open covering of* $X$ *and suppose given, on each subspace* $Y_\alpha$, *a measure* $\mu_\alpha$, *in such a way that for every pair* $(\alpha, \beta)$, *the restrictions of* $\mu_\alpha$ *and* $\mu_\beta$ *to* $Y_\alpha \cap Y_\beta$ *are identical. Under these conditions, there exists one and only one measure* $\mu$ *on* $X$ *whose restriction to* $Y_\alpha$ *is equal to* $\mu_\alpha$ *for every index* $\alpha$.
 
@@ -87,7 +87,7 @@ But since the support of $f g_i h_j$ is contained in $Y_{\alpha_i} \cap Y_{\beta
 
 It remains to see that $\mu$ is a measure on $X$; now, every point of $X$ admits a compact neighborhood contained in one of the $Y_\alpha$; the conclusion therefore follows at once from the definition of $\mu$ and from Prop. 6 of §1, No. 3.
 
-#### Corollary (Principle of localization) {#int-iii-s2-n1-cor-1 .statement}
+#### Corollary (Principle of localization) {#int-iii-s2-n1-cor-1 .statement tag=08MS}
 
 — *Let $\mu$ and $\nu$ be two measures on $X$, and let $(Y_\alpha)$ be a family of open sets of $X$ such that, for every $\alpha$, the restrictions to $Y_\alpha$ of $\mu$ and $\nu$ are equal; then the restrictions of $\mu$ and $\nu$ to $Y = \bigcup_\alpha Y_\alpha$ are equal.*
 
@@ -95,20 +95,20 @@ It remains to see that $\mu$ is a measure on $X$; now, every point of $X$ admits
 
 Let $\mu$ be a measure on a locally compact space $X$, and let $\mathscr{G}$ be the set of open sets $U \subset X$ such that the restriction of $\mu$ to $U$ is zero; it follows at once from the principle of localization (No. 1, Cor. of Prop. 1) that if $U_0$ is the union of the sets $U \in \mathscr{G}$, then $U_0$ itself belongs to $\mathscr{G}$ and is therefore the largest of the sets of $\mathscr{G}$.
 
-#### Definition 1 {#int-iii-s2-def-1 .statement}
+#### Definition 1 {#int-iii-s2-def-1 .statement tag=08MT}
 
 *If $\mu$ is a measure on a locally compact space $X$, one defines the support of $\mu$, denoted $\operatorname{Supp}(\mu)$, to be the closed set complementary to the largest of the open sets in $X$ on which the restriction of $\mu$ is zero.*
 
 To say that a point $x \in X$ does not belong to the support of $\mu$ means that there exists an open neighborhood $V$ of $x$ such that the restriction of $\mu$ to $V$ is zero; to say that $x$ belongs to the support of $\mu$ therefore means that for *every* neighborhood $V$ of $x$, there exists a function $f \in \mathscr{K}(X; \mathbf{C})$, whose support is contained in $V$, such that $\mu(f) \neq 0$.
 
-#### Example {#int-iii-s2-n2-exa-1 .statement}
+#### Example {#int-iii-s2-n2-exa-1 .statement tag=08MU}
 
 — 1) For a measure on $X$ to be *zero*, it is necessary and sufficient that its support be *empty*.
 2) The support of Lebesgue measure on $\mathbf{R}$ is the entire line $\mathbf{R}$; for, it is nonempty and is invariant under every translation.
 
 3) On the interval $X = [0,1]$ of $\mathbf{R}$ consider a countable dense subset, arranged into a sequence $(a_n)$, and let $\mu$ be the measure defined by placing the mass $2^{-n}$ at the point $a_n$ for every $n \geq 0$ (§ 1, No. 3, Example I). The support of $\mu$ is all of $X$; for, let $x$ be any point of $X$, $V$ a neighborhood of $x$, and $f$ a continuous real-valued function $\geq 0$ on $X$, equal to 1 at the point $x$, whose support is contained in $V$ (§ 1, No. 2, Lemma 1); the set of $y \in V$ such that $f(y) > 0$ is open in $X$, therefore contains a point $a_n$, consequently $\mu(f) \geq f(a_n)2^{-n} > 0$.
 
-#### Proposition 2 {#int-iii-s2-prop-2 .statement}
+#### Proposition 2 {#int-iii-s2-prop-2 .statement tag=08MV}
 
 *The support of a measure $\mu$ is identical to the support of the measure $|\mu|$; if $\mu$ is real, its support is the union of the supports of the measures $\mu^+$ and $\mu^-$.*
 
@@ -116,13 +116,13 @@ For, if the restriction of $\mu$ to an open set $U$ is zero, then so is that of 
 
 Note that the supports of $\mu^+$ and $\mu^-$ can be nonempty and *identical* (cf. Ch. V, § 5, Exer. 5).
 
-#### Proposition 3 {#int-iii-s2-prop-3 .statement}
+#### Proposition 3 {#int-iii-s2-prop-3 .statement tag=08MW}
 
 *If $\mu$ and $\nu$ are two measures on a locally compact space $X$ such that $|\mu| \leq |\nu|$, then $\mathrm{Supp}(\mu) \subset \mathrm{Supp}(\nu)$.*
 
 For, if the restriction of $\nu$ to an open set is zero, then so is that of $\mu$.
 
-#### Proposition 4 {#int-iii-s2-prop-4 .statement}
+#### Proposition 4 {#int-iii-s2-prop-4 .statement tag=08MX}
 
 *The support of the sum of two measures is contained in the union of their supports.*
 
@@ -130,13 +130,13 @@ For, if the restrictions of two measures to an open set are zero, then the same 
 
 If $\mu$ and $\nu$ are two *positive* measures, then the support of $\lambda = \mu + \nu$ is *equal* to the union of the supports of $\mu$ and $\nu$; for, if $x_0$ is a point of the union and $V$ is any neighborhood of $x_0$, then there exists a continuous function $f \geq 0$ with support contained in $V$ and such that one of the numbers $\mu(f)$, $\nu(f)$ is $> 0$; *a fortiori*, $\lambda(f) = \mu(f) + \nu(f) > 0$.
 
-#### Proposition 5 {#int-iii-s2-prop-5 .statement}
+#### Proposition 5 {#int-iii-s2-prop-5 .statement tag=08MY}
 
 *The support of the restriction of a measure $\mu$ to an open set $U$ is the trace on $U$ of the support of $\mu$.*
 
 The proposition is obvious from the definitions.
 
-#### Proposition 6 {#int-iii-s2-prop-6 .statement}
+#### Proposition 6 {#int-iii-s2-prop-6 .statement tag=08MZ}
 
 *The set of measures on a locally compact space $X$, whose support is contained in a closed set $F$, is a vaguely closed linear subspace of $\mathscr{M}(X; \mathbf{C})$.*
 
@@ -144,7 +144,7 @@ For, it is the intersection of the vaguely closed hyperplanes with equation $\mu
 
 Suppose $X$ is *not compact*: given a filter $\Phi$ on the space $\mathscr{M}(X; \mathbf{C})$ of measures on $X$, we shall say that the support of a measure $\mu$ *recedes indefinitely along* $\Phi$ if, for every compact subset $K$ of $X$, there exists a set $M \in \Phi$ such that $\mathrm{Supp}(\mu) \cap K = \varnothing$ for every measure $\mu \in M$.
 
-#### Proposition 7 {#int-iii-s2-prop-7 .statement}
+#### Proposition 7 {#int-iii-s2-prop-7 .statement tag=08N0}
 
 — *If $\Phi$ is a filter on $\mathscr{M}(X; \mathbf{C})$ such that the support of $\mu$ recedes indefinitely along $\Phi$, then $\mu$ converges vaguely to 0 with respect to $\Phi$.*
 
@@ -154,23 +154,23 @@ Let $f$ be any function in $\mathscr{K}(X; \mathbf{C})$ and let $K$ be its suppo
 
 By definition, if the support of a function $f \in \mathscr{K}(X; \mathbf{C})$ *does not intersect* the support of a measure $\mu$, then $\mu(f) = 0$; but the following more precise result is true:
 
-#### Proposition 8 {#int-iii-s2-prop-8 .statement}
+#### Proposition 8 {#int-iii-s2-prop-8 .statement tag=08N1}
 
 — *Let $\mu$ be a measure on a locally compact space $X$. For every function $f \in \mathscr{K}(X; \mathbf{C})$ that is zero on $\operatorname{Supp}(\mu)$, $\mu(f) = 0$.*
 
 Set $K = \operatorname{Supp}(f)$, $S = \operatorname{Supp}(\mu)$. Given a number $\varepsilon > 0$, let $V$ be the set of $x \in X$ such that $|f(x)| < \varepsilon$; $V$ is an open set containing $S$ by hypothesis, therefore $CS$ is a neighborhood of the compact set $CV$. It follows that there exists a continuous mapping $h$ of $X$ into $[0, 1]$, equal to 1 on $CV$ and with support contained in $CS$ (§ 1, No. 2, Lemma 1). Since the support of $fh$ does not intersect $S$, $\mu(fh) = 0$. On the other hand, $f = fh$ on $K \cap CV$, and $|fh| \leq |f|$ on $X$, therefore $|f - fh| \leq 2\varepsilon$ on $X$, by the choice of $V$. Observe finally that there exists a number $M_K$ such that $|\mu(g)| \leq M_K \|g\|$ for every function $g \in \mathscr{K}(X; \mathbf{C})$ whose support is contained in $K$; since the support of $f - fh$ is contained in $K$, $|\mu(f - fh)| \leq 2M_K \varepsilon$ and consequently $|\mu(f)| = |\mu(f - fh)| \leq 2M_K \varepsilon$; since $\varepsilon$ is arbitrary, $\mu(f) = 0$.
 
-#### Corollary 1 {#int-iii-s2-prop-8-cor-1 .statement}
+#### Corollary 1 {#int-iii-s2-prop-8-cor-1 .statement tag=08N2}
 
 — *If two functions $f, g$ in $\mathscr{K}(X; \mathbf{C})$ are equal on $\operatorname{Supp}(\mu)$, then $\mu(f) = \mu(g)$.*
 
-#### Corollary 2 {#int-iii-s2-prop-8-cor-2 .statement}
+#### Corollary 2 {#int-iii-s2-prop-8-cor-2 .statement tag=08N3}
 
 — *Let $\mu$ be a positive measure on $X$; if $f \in \mathscr{K}(X; \mathbf{C})$ is such that $f(x) \geq 0$ on $\operatorname{Supp}(\mu)$, then $\mu(f) \geq 0$.*
 
 For, $f = |f|$ on $\operatorname{Supp}(\mu)$, therefore $\mu(f) = \mu(|f|) \geq 0$ by Corollary 1.
 
-#### Corollary 3 {#int-iii-s2-prop-8-cor-3 .statement}
+#### Corollary 3 {#int-iii-s2-prop-8-cor-3 .statement tag=08N4}
 
 — *Let $\mu$ be a bounded measure on $X$; if $f \in \mathscr{K}(X; \mathbf{C})$ is such that $|f(x)| \leq a$ on $\operatorname{Supp}(\mu)$, then $|\mu(f)| \leq a \|\mu\|$.*
 
@@ -182,13 +182,13 @@ $$
 
 by Corollary 2; the conclusion then follows from formula (13) of § 1, No. 6.
 
-#### Proposition 9 {#int-iii-s2-prop-9 .statement}
+#### Proposition 9 {#int-iii-s2-prop-9 .statement tag=08N5}
 
 — Let $\mu$ be a positive measure on $X$; if $f$ is a function in $\mathscr{K}_+(X)$ such that $\mu(f) = 0$, then $f$ is zero on $\mathrm{Supp}(\mu)$.
 
 Let $x$ be a point of $X$ such that $f(x) > 0$; let us show that $x$ does not belong to $\mathrm{Supp}(\mu)$. For, there exist a compact neighborhood $V$ of $x$ and a number $a > 0$ such that $f(y) \geq a$ on $V$. If $g$ is any continuous function $\geq 0$ with support contained in $V$, let us show that $\mu(g) = 0$; indeed, if one sets $b = \|g\|$ then $g \leq bf/a$, whence $\mu(g) \leq b\mu(f)/a = 0$.
 
-#### Proposition 10 {#int-iii-s2-prop-10 .statement}
+#### Proposition 10 {#int-iii-s2-prop-10 .statement tag=08N6}
 
 — Let $\mu$ be a measure on a locally compact space $X$; for every function $g \in \mathscr{C}(X; \mathbf{C})$, the support of the measure $g \cdot \mu$ is the closure $T$ of the set of points $x \in \mathrm{Supp}(\mu)$ such that $g(x) \neq 0$.
 
@@ -198,11 +198,11 @@ Conversely, assuming that the restriction of $g \cdot \mu$ to an open neighborho
 
 Note that $T$ is contained in the intersection of the support $S$ of $\mu$ and the support of $g$, but it is not necessarily equal to this intersection. For example, if $X = \mathbf{R}$, $\mu$ is the Dirac measure at the point 0, and $g(x) = x$, then $g \cdot \mu = 0$ even though the intersection of the supports of $g$ and $\mu$ reduces to the point 0, thus is nonempty.
 
-#### Corollary {#int-iii-s2-n3-cor-1 .statement}
+#### Corollary {#int-iii-s2-n3-cor-1 .statement tag=08N7}
 
 — In order that the measure $g \cdot \mu$ be zero, it is necessary and sufficient that $g$ be zero on the support of $\mu$.
 
-#### Proposition 11 {#int-iii-s2-prop-11 .statement}
+#### Proposition 11 {#int-iii-s2-prop-11 .statement tag=08N8}
 
 — Every measure with compact support is bounded.
 
@@ -210,7 +210,7 @@ For, $|\mu|$ is also a measure with compact support, thus we can restrict attent
 
 ### 4. Point measures. Measures with finite support
 
-#### Proposition 12 {#int-iii-s2-prop-12 .statement}
+#### Proposition 12 {#int-iii-s2-prop-12 .statement tag=08N9}
 
 — Let $a_i$ ($1 \leq i \leq n$) be distinct points in a locally compact space $X$. Every measure on $X$ whose support is contained in the set of the $a_i$ is a linear combination of the measures $\varepsilon_{a_i}$ ($1 \leq i \leq n$).
 
@@ -218,13 +218,13 @@ For, such a measure $\mu$ is zero for every function $f \in \mathscr{K}(X; \math
 
 In particular, every measure whose support is either empty or reduced to a single point $x$ is of the form $\alpha \varepsilon_x$, where $\alpha$ is a complex number; such a measure is said to be a *point measure*; thus every measure whose support is finite is a sum of point measures.
 
-#### Theorem 1 {#int-iii-s2-thm-1 .statement}
+#### Theorem 1 {#int-iii-s2-thm-1 .statement tag=08NA}
 
 — *Every measure* $\mu$ *on a locally compact space* $X$ *is in the vague closure of the vector space* $V$ *of measures whose support is finite and contained in* $\mathrm{Supp}(\mu)$.
 
 It suffices to prove that $\mu$ is orthogonal to the subspace $V^\circ$ of $\mathscr{K}(X; \mathbf{C})$ orthogonal to $V$ (TVS, II, §6, No. 3, Cor. 2 of Th. 1), that is, that the relations $\langle f, \varepsilon_a \rangle = 0$, where $a$ runs over the support of $\mu$, imply $\langle f, \mu \rangle = 0$; but this is just Prop. 8 of No. 3.
 
-#### Corollary 1 {#int-iii-s2-thm-1-cor-1 .statement}
+#### Corollary 1 {#int-iii-s2-thm-1-cor-1 .statement tag=08NB}
 
 — *Every bounded measure* $\mu$ *on* $X$ *is in the vague closure of the convex set* $A$ *of measures whose support is finite and is contained in that of* $\mu$, *and whose norm is* $\leq \| \mu \|$. *Moreover, if* $\nu$ *tends vaguely to* $\mu$ *while remaining in* $A$, *then* $\| \nu \|$ *tends to* $\| \mu \|$.
 
@@ -238,25 +238,25 @@ $$
 
 since the function $\nu \mapsto \| \nu \|$ is lower semi-continuous for the vague topology (§1, No. 9, Cor. 4 of Prop. 15), and the conclusion follows from the fact that $\| \nu \| \leq \| \mu \|$ for $\nu \in A$ by definition.
 
-#### Corollary 2 {#int-iii-s2-thm-1-cor-2 .statement}
+#### Corollary 2 {#int-iii-s2-thm-1-cor-2 .statement tag=08NC}
 
 — *Every bounded measure* $\mu$ *on* $X$ *is in the vague closure of the set of measures whose support is finite and contained in that of* $\mu$ *and whose norm is equal to* $\| \mu \|$.
 
 We can suppose that $\mu \neq 0$. Let $V$ be an open neighborhood of 0 for the vague topology; for every $\varepsilon$ such that $0 < \varepsilon < 1$, there exists, by virtue of Cor. 1, a measure $\nu_0$ whose support is finite and contained in $\mathrm{Supp}(\mu)$ and for which $\nu_0 - \mu \in V$ and $\| \mu \| \geq \| \nu_0 \| \geq (1 - \varepsilon) \| \mu \|$. Setting $\nu = (\| \mu \| / \| \nu_0 \|) \nu_0$, we have $\| \nu \| = \| \mu \|$ and $\| \nu - \nu_0 \| \leq \| \mu \|$; for $\varepsilon$ sufficiently small we therefore have $\nu - \mu \in V + V$, whence the conclusion.
 
-#### Corollary 3 {#int-iii-s2-thm-1-cor-3 .statement}
+#### Corollary 3 {#int-iii-s2-thm-1-cor-3 .statement tag=08ND}
 
 *Every bounded positive measure $\mu$ on $X$ is in the vague closure of the convex set of positive measures whose support is finite and contained in that of $\mu$ and whose norm is equal to $\| \mu \|$.*
 
 The same reasoning as in Cor. 2 shows that we can limit ourselves to proving that $\mu$ is in the vague closure of the convex set $B$ formed by the positive measures with finite support contained in $\mathrm{Supp}(\mu)$ and with norm $\leq \| \mu \|$. Again, it suffices to establish that $\mu$ belongs to the polar set of $B^\circ$, the polar set of $B$ *in the space* $\mathscr{K}(X; \mathbf{R})$ (TVS, II, §6, No. 3, Th. 1); but this means that for $f \in \mathscr{K}(X; \mathbf{R})$ the relations $\langle f, \varepsilon_a \rangle \geq -1 / \| \mu \|$ for all $a \in \mathrm{Supp}(\mu)$ imply $\langle f, \mu \rangle \geq -1$, which is a consequence of No. 3, Cor. 2 of Prop. 8.
 
-#### Corollary 4 {#int-iii-s2-thm-1-cor-4 .statement}
+#### Corollary 4 {#int-iii-s2-thm-1-cor-4 .statement tag=08NE}
 
 *In the space $\mathscr{M}(X; \mathbf{C})$, the set of point measures is total for the topology of strictly compact convergence* (§1, No. 10).
 
 On the cone $\mathscr{M}_+(X)$, the topology of strictly compact convergence is identical to the vague topology (§1, No. 10, Prop. 18), and every measure on $X$ may be written $\mu_1 - \mu_2 + i \mu_3 - i \mu_4$, where the $\mu_j$ ($1 \leq j \leq 4$) are positive measures; the conclusion therefore follows from Th. 1.
 
-#### Proposition 13 {#int-iii-s2-prop-13 .statement}
+#### Proposition 13 {#int-iii-s2-prop-13 .statement tag=08NF}
 
 *Let $\mu$ be a measure on a locally compact space $X$. For a point $x_0$ to belong to $\mathrm{Supp}(\mu)$, it is necessary and sufficient that the point measure $\varepsilon_{x_0}$ be in the vague closure of the set of measures $g \cdot \mu$, where $g$ runs over the set of continuous functions with compact support such that $\| g \cdot \mu \| \leq 1$.*
 
@@ -280,7 +280,7 @@ $$
 
 This proves the proposition, since $\| g \cdot \mu \| = \| (g_0 h) \cdot \mu \| \leq \| g_0 \cdot \mu \| = 1$.
 
-#### Corollary {#int-iii-s2-n4-cor-1 .statement}
+#### Corollary {#int-iii-s2-n4-cor-1 .statement tag=08NG}
 
 *Let $\mu$ be a measure on $X$. For a measure $\nu$ on $X$ to be in the vague closure of the set of measures $g \cdot \mu$, where $g$ runs over $\mathscr{K}(X; \mathbf{C})$, it is necessary and sufficient that $\operatorname{Supp}(\nu) \subset \operatorname{Supp}(\mu)$.*
 
@@ -288,7 +288,7 @@ For, $\operatorname{Supp}(g \cdot \mu) \subset \operatorname{Supp}(\mu)$ by No. 
 
 ### 5. Discrete measures
 
-#### Proposition 14 {#int-iii-s2-prop-14 .statement}
+#### Proposition 14 {#int-iii-s2-prop-14 .statement tag=08NH}
 
 *For a measure $\mu$ on a locally compact space $X$ to be a discrete measure (§ 1, No. 3, Example I), it is necessary and sufficient that $\operatorname{Supp}(\mu)$ be a discrete closed subspace of $X$.*
 

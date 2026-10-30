@@ -37,7 +37,7 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: 4e0d6da1f47a0d451c7de699e2e7cb4df09f226eb04f5bcd38e522ffdb5acd0f
+content_sha256: b4ee00e28c0ad5363315a73bf228d2a58c397d50dececefce928f935c44c92bb
 ---
 
 ## § 6. IMAGES OF A MEASURE
@@ -46,7 +46,7 @@ content_sha256: 4e0d6da1f47a0d451c7de699e2e7cb4df09f226eb04f5bcd38e522ffdb5acd0f
 
 Let $X$ be a locally compact space, $\pi$ a $\mu$-measurable mapping of $T$ into $X$. To say that the pair $(\pi, 1)$ is *$\mu$-adapted* (§4, No. 1) is equivalent to saying that for every function $f \in \mathscr{K}(X)$, the function $f \circ \pi$ is *essentially $\mu$-integrable*.
 
-#### Proposition 1 {#int-v-s6-prop-1 .statement}
+#### Proposition 1 {#int-v-s6-prop-1 .statement tag=094O}
 
 *Let $\pi$ be a $\mu$-measurable mapping of $T$ into a locally compact space $X$. The following two properties are equivalent:*
 
@@ -68,7 +68,7 @@ Property b) is obviously equivalent to the following (which is therefore also eq
 
 c) *For every point* $x$ *of* $X$, *there exists a neighborhood* $V$ *of* $x$ *such that* $\overline{\pi}^{-1}(V)$ *is essentially* $\mu$-*integrable*.
 
-#### Definition 1 {#int-v-s6-def-1 .statement}
+#### Definition 1 {#int-v-s6-def-1 .statement tag=094P}
 
 *Let* $\mu$ *be a positive measure on a locally compact space* $T$. *A mapping* $\pi$ *of* $T$ *into a locally compact space* $X$ *is said to be* $\mu$*-proper* (*or proper for the measure* $\mu$) *if the pair* $(\pi, 1)$ *is* $\mu$*-adapted*, *that is* (§ 4, No. 1), *if* $\pi$ *is* $\mu$*-measurable and satisfies the (equivalent) conditions of Prop. 1*. *The measure* $\int \varepsilon_{\pi(t)} \, d\mu(t)$ *on* $X$ *is then called the image of* $\mu$ *under* $\pi$ *and is denoted* $\pi(\mu)$.
 
@@ -78,7 +78,7 @@ $$
 \int f(x) \, d\nu(x) = \int f(\pi(t)) \, d\mu(t).
 $$
 
-#### Remark {#int-v-s6-n1-rem-1 .statement}
+#### Remark {#int-v-s6-n1-rem-1 .statement tag=094Q}
 
 — 1) If $\mu$ is *bounded* (in particular, if $\mu$ has compact support) then every $\mu$-measurable mapping of $T$ into $X$ is $\mu$-proper (Ch. IV, § 5, No. 3, Th. 1 and No. 6, Th. 5).
 
@@ -90,7 +90,7 @@ $$
 
 Let $\pi$ be a $\mu$-proper mapping of T into X, and let $\nu = \pi(\mu)$. Applying the results of §4, one obtains the following statements:
 
-#### Proposition 2 {#int-v-s6-prop-2 .statement}
+#### Proposition 2 {#int-v-s6-prop-2 .statement tag=094R}
 
 — *For every numerical function* $f \geqslant 0$ *defined on* X,
 $$
@@ -100,42 +100,42 @@ $$
 
 This follows from Th. 1 of §4, No. 2.
 
-#### Corollary 1 {#int-v-s6-prop-2-cor-1 .statement}
+#### Corollary 1 {#int-v-s6-prop-2-cor-1 .statement tag=094S}
 
 — *For every subset* A *of* X,
 $$
 \nu^\bullet(A) = \mu^\bullet(\pi^{-1}(A)).
 $$
 
-#### Corollary 2 {#int-v-s6-prop-2-cor-2 .statement}
+#### Corollary 2 {#int-v-s6-prop-2-cor-2 .statement tag=094T}
 
 — *For a subset* A *of* X *to be locally negligible for* $\nu$, *it is necessary and sufficient that* $\pi^{-1}(A)$ *be locally negligible for* $\mu$.
 
-#### Corollary 3 {#int-v-s6-prop-2-cor-3 .statement}
+#### Corollary 3 {#int-v-s6-prop-2-cor-3 .statement tag=094U}
 
 — *If the measure* $\mu$ *is concentrated on a set* M, *then* $\pi(\mu)$ *is concentrated on* $\pi(M)$.
 
 For, if $N = X - \pi(M)$ then $\pi^{-1}(N)$ does not intersect M, therefore is locally $\mu$-negligible, consequently (Cor. 2) N is locally $\nu$-negligible.
 
-#### Corollary 4 {#int-v-s6-prop-2-cor-4 .statement}
+#### Corollary 4 {#int-v-s6-prop-2-cor-4 .statement tag=094V}
 
 — *Let* S *be the support of* $\mu$. *If* $\pi$ *is continuous, then the support of* $\pi(\mu)$ *is* $\pi(S)$.
 
 For, it follows from Cor. 3 that $\pi(\mu)$ is concentrated on $\pi(S)$, therefore if $S'$ is the support of $\pi(\mu)$ then $S' \subset \pi(S)$. On the other hand, $\pi^{-1}(X - S')$ is a locally $\mu$-negligible open set (Cor. 2), hence is $\mu$-negligible (Ch. IV, §5, No. 2, Cor. 2 of Prop. 5). Therefore $\pi^{-1}(X - S') \subset T - S$, consequently $\pi(S) \subset S'$, which proves the corollary.
 
-#### Proposition 3 {#int-v-s6-prop-3 .statement}
+#### Proposition 3 {#int-v-s6-prop-3 .statement tag=094W}
 
 — *For a mapping* f *of* X *into a topological space* G *to be* $\nu$*-measurable, it is necessary and sufficient that* $f \circ \pi$ *be* $\mu$*-measurable.*
 
 This is an immediate consequence of Prop. 3 of §4, No. 3.
 
-#### Corollary {#int-v-s6-n2-cor-1 .statement}
+#### Corollary {#int-v-s6-n2-cor-1 .statement tag=094X}
 
 — For a subset A of X to be $\nu$-measurable, is is necessary and sufficient that $\pi^{-1}(A)$ be $\mu$-measurable.
 
 However, the image under $\pi$ of a $\mu$-measurable subset M of T is not necessarily $\nu$-measurable, even if $\pi$ is continuous and M is $\mu$-negligible (Exer. 7 and §8, Exer. 1).
 
-#### Theorem 1 {#int-v-s6-thm-1 .statement}
+#### Theorem 1 {#int-v-s6-thm-1 .statement tag=094Y}
 
 — Let f be a function defined on X with values in $\overline{\mathbf{R}}$ or in a Banach space F. For f to be essentially $\nu$-integrable, it is necessary and sufficient that $f \circ \pi$ be essentially $\mu$-integrable, in which case
 
@@ -147,7 +147,7 @@ Suppose, moreover, that $\pi$ is continuous and proper. Then, for f to be $\nu$-
 
 It suffices to apply Th. 2 of §4, No. 4.
 
-#### Corollary {#int-v-s6-n2-cor-2 .statement}
+#### Corollary {#int-v-s6-n2-cor-2 .statement tag=094Z}
 
 — For a subset A of X to be essentially $\nu$-integrable, it is necessary and sufficient that $\pi^{-1}(A)$ be essentially $\mu$-integrable, in which case $\nu(A) = \mu(\pi^{-1}(A))$.
 
@@ -155,7 +155,7 @@ In particular, for every compact set $K \subset X$, $\nu(K) = \mu(\pi^{-1}(K))$.
 
 ### 3. Properties of the image of a positive measure
 
-#### Proposition 4 {#int-v-s6-prop-4 .statement}
+#### Proposition 4 {#int-v-s6-prop-4 .statement tag=0950}
 
 — Let T, T', T'' be three locally compact spaces, $\mu$ a positive measure on T, $\pi$ a $\mu$-measurable mapping of T into T', $\pi'$ a mapping of T' into T'', and $\pi'' = \pi' \circ \pi$.
 
@@ -176,11 +176,11 @@ by Th. 1 of No. 2, which completes the proof of a).
 
 Under the hypotheses of b), let $K'$ be a compact subset of $T'$. Then $K'' = \pi'(K')$ is compact, therefore $\pi''(K'')$ is essentially $\mu$-integrable, therefore $\pi^{-1}(K') \subset \pi''(K'')$ is essentially $\mu$-integrable (Ch. IV, §5, No. 5, Prop. 7), so that $\pi$ is $\mu$-proper. The proof is then concluded by applying part a) of the statement.
 
-#### Corollary {#int-v-s6-n3-cor-1 .statement}
+#### Corollary {#int-v-s6-n3-cor-1 .statement tag=0951}
 
 *Let $T$ and $T'$ be two locally compact spaces, $\mu$ a positive measure on $T$, $\pi$ a bijective mapping of $T$ onto $T'$, and $\pi^{-1}$ the inverse mapping. Suppose that $\pi$ is $\mu$-proper, and let $\mu' = \pi(\mu)$. Then $\pi^{-1}$ is $\mu'$-proper and $\pi^{-1}(\pi(\mu)) = \mu$.*
 
-#### Proposition 5 {#int-v-s6-prop-5 .statement}
+#### Proposition 5 {#int-v-s6-prop-5 .statement tag=0952}
 
 *Let $T$ and $X$ be two locally compact spaces, $\mu$ a positive measure on $T$, $\pi$ a $\mu$-proper mapping of $T$ into $X$, $g$ a finite numerical function $\geqslant 0$, defined on $X$ and such that $g \circ \pi$ is locally integrable for $\mu$. In order that $g$ be locally integrable for $\pi(\mu)$, it is necessary and sufficient that $\pi$ be proper for the measure $(g \circ \pi) \cdot \mu$, in which case*
 
@@ -196,7 +196,7 @@ $$
 
 (No. 2, Th. 1 and §5, Th. 1), which proves the relation (4).
 
-#### Proposition 6 {#int-v-s6-prop-6 .statement}
+#### Proposition 6 {#int-v-s6-prop-6 .statement tag=0953}
 
 — Let T and X be two locally compact spaces, $(\lambda_\alpha)_{\alpha \in A}$ a family of positive measures on T, directed for the relation $\leq$, admitting in $\mathscr{M}(T)$ a supremum $\mu$. In order that a mapping $\pi$ of T into X be $\mu$-proper, it is necessary and sufficient that it be $\lambda_\alpha$-proper for all $\alpha \in A$, and that the family $(\pi(\lambda_\alpha))_{\alpha \in A}$ be bounded above in $\mathscr{M}(X)$. In this case,
 
@@ -218,7 +218,7 @@ $$
 
 (§ 1, No. 4, Prop. 11); the first member is thus finite for every $f \in \mathscr{K}_+(X)$ if and only if the family $(\pi(\lambda_\alpha))$ admits a supremum $\theta$ in $\mathscr{M}(X)$, in which case $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, a relation equivalent to (5).
 
-#### Corollary 1 {#int-v-s6-prop-6-cor-1 .statement}
+#### Corollary 1 {#int-v-s6-prop-6-cor-1 .statement tag=0954}
 
 — Let $(\mu_\alpha)_{\alpha \in A}$ be a summable family of positive measures on T, such that $\mu = \sum_{\alpha \in A} \mu_\alpha$; for a mapping $\pi$ of T into a locally compact space X to be $\mu$-proper, it is necessary and sufficient that it be $\mu_\alpha$-proper for every $\alpha \in A$, and that the family $(\pi(\mu_\alpha))_{\alpha \in A}$ be summable. In this case,
 
@@ -226,7 +226,7 @@ $$
 \pi(\mu) = \sum_{\alpha \in A} \pi(\mu_\alpha).
 $$
 
-#### Corollary 2 {#int-v-s6-prop-6-cor-2 .statement}
+#### Corollary 2 {#int-v-s6-prop-6-cor-2 .statement tag=0955}
 
 — Let T and X be two locally compact spaces, $(\lambda_i)_{1 \leq i \leq n}$ a finite sequence of positive measures on T, and let $\mu = \sum_{i=1}^n \lambda_i$. For a mapping $\pi$ of T into X to be $\mu$-proper, it is necessary and sufficient that it be $\lambda_i$-proper for every index i, in which case
 
@@ -244,7 +244,7 @@ $$
 
 it follows at once that the linear form $f \mapsto \int (f \circ \pi) \, d\theta$ on $\mathscr{K}(X; \mathbf{C})$ is a *complex measure* on $X$ (Ch. III, §1, No. 3, Prop. 6), and one can make the following definition:
 
-#### Definition 2 {#int-v-s6-def-2 .statement}
+#### Definition 2 {#int-v-s6-def-2 .statement tag=0956}
 
 *Let $\theta$ be a complex measure on a locally compact space $T$. A mapping $\pi$ of $T$ into a locally compact space $X$ is said to be $\theta$-proper if it is $|\theta|$-proper. The measure $f \mapsto \int (f \circ \pi) \, d\theta$ is then called the image of $\theta$ under $\pi$ and is denoted $\pi(\theta)$.*.
 
@@ -266,7 +266,7 @@ $$
 
 Several results established earlier extend at once to complex measures; we cite the most important among them.
 
-#### Proposition 7 {#int-v-s6-prop-7 .statement}
+#### Proposition 7 {#int-v-s6-prop-7 .statement tag=0957}
 
 *Let $\theta$ be a complex measure on $T$, $\pi$ a $\theta$-proper mapping of $T$ into a locally compact space $X$, $\nu$ the image measure $\pi(\theta)$.
 
@@ -296,7 +296,7 @@ The numerical function G is *continuous* on I; this follows at once from Lebesgu
 
 Suppose first that $g$ is $\mu$*-integrable*. Then, the same reasoning as above shows that the limits $G(a+)$ and $G(b-)$ exist and are *finite*; moreover, the measure $|\lambda|$ is *bounded* (§5, No. 3, Cor. of Th. 1), and the mapping G of I into G(I) is *$\lambda$*-proper.
 
-#### Proposition 8 {#int-v-s6-prop-8 .statement}
+#### Proposition 8 {#int-v-s6-prop-8 .statement tag=0958}
 
 *Suppose g is $\mu$*-integrable. If J denotes the open interval in $\mathbf{R}$ with end-points $G(a+)$ and $G(b-)$, the image under G of the measure $g \cdot \mu$ is the measure $\varphi_J \cdot \nu$ if $G(a+) \leq G(b-)$ and the measure $-\varphi_J \cdot \nu$ if $G(a+) \geq G(b-)$ (where $\nu$ denotes Lebesgue measure on G(I)).*
 
@@ -314,7 +314,7 @@ $$
 
 by passage to the limit.
 
-#### Corollary {#int-v-s6-n5-cor-1 .statement}
+#### Corollary {#int-v-s6-n5-cor-1 .statement tag=0959}
 
 *If a function $\mathbf{f}$ defined on $G(I)$, with values in $\overline{\mathbf{R}}$ or in a Banach space, is such that the function $t \mapsto \mathbf{f}(G(t))g(t)$ is integrable on $I$ for Lebesgue measure, then $\mathbf{f}$ is integrable on $J$ for Lebesgue measure and*
 
@@ -330,7 +330,7 @@ It can happen that $\mathbf{f}$ is integrable on $J$ for Lebesgue measure, but t
 
 Now suppose that $g$ maintains a *constant sign* almost everywhere (and is locally $\mu$-integrable); one may suppose for example that $g(t) \geq 0$ almost everywhere in $I$. Then $G$ is an increasing continuous function on $I$, therefore $G(a+)$ and $G(b-)$ exist (but may be infinite). Moreover, $G$ is a *$\lambda$-proper* mapping of $I$ into $G(I)$: for, if $G(b-) \in G(I)$, there is an $x_1 \geq x_0$ such that $G$ is constant for $x \geq x_1$, and then the inverse image under $G$ of the compact interval $[G(x_0), G(b-)]$ is $\lambda$-integrable; if, on the contrary, $G(b-) \notin G(I)$, then the inverse image under $G$ of every compact interval with left end-point $G(x_0)$, contained in $G(I)$, differs from a compact interval by at most a $\lambda$-negligible interval. One argues similarly for the compact intervals with right end-point $G(x_0)$, whence our assertion. Moreover:
 
-#### Proposition 9 {#int-v-s6-prop-9 .statement}
+#### Proposition 9 {#int-v-s6-prop-9 .statement tag=095A}
 
 *Suppose $g \geq 0$ and locally $\mu$-integrable. Then, the image under $G$ of the positive measure $g \cdot \mu$ is Lebesgue measure on $G(I)$. For a function $f$, defined on $G(I)$, with values in $\overline{\mathbf{R}}$ or in a Banach space, to be integrable on $G(I)$ for Lebesgue measure, it is necessary and sufficient that the function $t \mapsto f(G(t))g(t)$ be integrable on $I$ for Lebesgue measure, in which case the relation (13) holds.*
 
@@ -340,7 +340,7 @@ The first part of the statement follows from the fact that the formula (12) is v
 
 Let $X$ be a locally compact space, $\pi$ a mapping of $X$ into a locally compact space $T$, $\mu$ a positive measure on $T$, $\Lambda : t \mapsto \lambda_t$ a scalarly essentially $\mu$-integrable and vaguely $\mu$-measurable mapping of $T$ into $\mathscr{M}_+(X)$. Let $\nu = \int \lambda_t d\mu(t)$. If $\lambda_t$ is *carried by* $\overline{\pi}^{-1}(t)$ for every $t \in T$, the equality $\nu = \int \lambda_t d\mu(t)$ is said to be a *decomposition into slices* (or a *disintegration*) of $\nu$ relative to $\pi$. This concept will be studied in detail in Ch. VI.
 
-#### Proposition 10 {#int-v-s6-prop-10 .statement}
+#### Proposition 10 {#int-v-s6-prop-10 .statement tag=095B}
 
 *With the above notations, suppose that $\pi$ is $\nu$-measurable. Let $g$ be the function $t \mapsto \lambda_t^*(1)$ on $T$. For $\pi$ to be $\nu$-proper, it is necessary and sufficient that $g$ be locally $\mu$-integrable, in which case*
 
@@ -364,7 +364,7 @@ $$
 
 But the functions $fg_h|K$ form an increasing directed set of continuous functions on $K$, whose upper envelope has the value $+\infty$; by Dini’s theorem (GT, X, §4, No. 1, Th. 1), one can choose $h$ so that $fg_h|K$ is greater than or equal to an arbitrary positive number $n$, and it follows that $\int (f \circ \pi)\, d\nu \geq n\, \mu(K)$. Since the first member is finite because $\pi$ is $\nu$-proper, it then follows that $\mu(K) = 0$.
 
-#### Corollary 1 {#int-v-s6-prop-10-cor-1 .statement}
+#### Corollary 1 {#int-v-s6-prop-10-cor-1 .statement tag=095C}
 
 — *Suppose that $\pi$ is $\nu$-measurable.*
 
@@ -375,19 +375,19 @@ We take up again the notations $\Lambda_h$, $\nu_h$, $g_h$ of the end of the pre
 
 Prop. 2, resp. Prop. 3). Finally, one notes that the measures $\nu_h$ form an increasing directed family of positive measures whose supremum is $\nu$, and one applies Cor. 1 (resp. Cor. 2) of Prop. 11 of §1, No. 4.
 
-#### Corollary 2 {#int-v-s6-prop-10-cor-2 .statement}
+#### Corollary 2 {#int-v-s6-prop-10-cor-2 .statement tag=095D}
 
 *Suppose that $\pi$ is $\nu$-proper; let $f$ be a mapping defined on $T$, with values in a Banach space or in $\overline{\mathbf{R}}$. For $f \circ \pi$ to be essentially $\nu$-integrable, it is necessary and sufficient that $gf$ be essentially $\mu$-integrable.*
 
 Taking into account Prop. 10, this follows immediately from Th. 1 of §5, No. 3 and Th. 1 of No. 2.
 
-#### Example {#int-v-s6-n6-exa-1 .statement}
+#### Example {#int-v-s6-n6-exa-1 .statement tag=095E}
 
 — Let $X$ and $T$ be two locally compact spaces, and let $\pi$ be a *local homeomorphism of $X$ into $T$*. In other words (GT, I, §11, Exer. 25), we assume that every point $x \in X$ admits a neighborhood $V$ such that $\pi|V$ is a homeomorphism of $V$ onto a neighborhood of $\pi(x)$; if necessary replacing $V$ by a relatively compact open neighborhood $W$ of $x$ such that $\overline{W} \subset V$, one deduces that the set $\mathscr{U}$ of relatively compact open subsets $U$ of $X$, such that $\pi|\overline{U}$ is a homeomorphism of $\overline{U}$ onto its image, is an *open covering* of $X$. Now let $\mu$ be a positive measure on $T$; if $U$ is an element of $\mathscr{U}$, then $\pi(U)$ is an open set in the compact space $\pi(\overline{U})$, therefore is a locally compact subspace of $T$, and one knows how to define the measure $\mu|\pi(U)$ induced by $\mu$ on $\pi(U)$ (Ch. IV, §5, No. 7). Let $\nu_U$ be the image of $\mu|\pi(U)$ under the homeomorphism inverse to $\pi|U$; we are going to show that there exists one and only one measure $\nu$ on $X$ that induces the measure $\nu_U$ on every open set $U \in \mathscr{U}$. This measure is called the *inverse image of $\mu$ under the local homeomorphism $\pi$*, and is denoted $\pi^{-1}(\mu)$.
 
 The uniqueness of $\nu$ follows at once from the principle of localization (Ch. III, §2, No. 1, Cor. of Prop. 1). To establish existence, we note that if $t \in T$, then every point $x \in \pi^{-1}(t)$ admits a neighborhood that intersects $\pi^{-1}(t)$ only at the point $x$, so that $\pi^{-1}(t)$ is a *discrete* subspace of $X$, and that the family $(\varepsilon_x)_{x \in \pi^{-1}(t)}$ is summable; we denote its sum by $\lambda_t$. We next show that the mapping $t \mapsto \lambda_t$ is scalarly essentially $\mu$-integrable, and that its integral $\nu = \int \lambda_t d\mu(t)$ is the sought-for inverse image. This will result at once from the following lemma:
 
-#### Lemma {#int-v-s6-n6-lem-1 .statement}
+#### Lemma {#int-v-s6-n6-lem-1 .statement tag=095F}
 
 — a) *Let $f$ be an element of $\mathscr{K}_+(X)$; the function $t \mapsto \lambda_t(f)$ is positive, upper semi-continuous, with compact support, and its restriction to $\pi(X)$ is continuous.*
 
@@ -399,7 +399,7 @@ To establish b), denote by $g$ an element of $\mathscr{K}(\pi(U))$, by $g^\circ$
 
 We now observe that $\pi(X)$ is *open* in $T$, hence is $\mu$-measurable; the mapping $\Lambda : t \mapsto \lambda_t$ is vaguely $\mu$-measurable, because its restriction to each of the sets $\pi(X)$ and $\mathbf{C}\pi(X)$ is vaguely continuous. Under these conditions, the formula $\overline{\pi}^{-1}(\mu) = \int \lambda_t d\mu(t)$ defines a decomposition into slices of $\overline{\pi}^{-1}(\mu)$ relative to $\pi$, and Prop. 10 yields the following result:
 
-#### Proposition 11 {#int-v-s6-prop-11 .statement}
+#### Proposition 11 {#int-v-s6-prop-11 .statement tag=095G}
 
 *Let $\pi$ be a local homeomorphism of a locally compact space $X$ into a locally compact space $T$, and let $\mu$ be a positive measure on $T$. Let $n$ be the numerical function that associates to every $t \in T$ the number of elements of $\overline{\pi}^{-1}(t)$ if this number is finite, and $+\infty$ in the contrary case. For $\pi$ to be $\overline{\pi}^{-1}(\mu)$-proper, it is necessary and sufficient that $n$ be locally $\mu$-integrable, in which case*
 

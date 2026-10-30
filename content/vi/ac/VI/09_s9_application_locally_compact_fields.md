@@ -25,9 +25,9 @@ subsections:
       pdf_page: 451
 statements: 10
 exercises: 5
-content_sha256: 79cd827e628ee6ca78d75f9a11ce4a721477dc95003cb49854c8494c6a68759e
+content_sha256: 596c8515b0fe44744b1d5702a27a6dcae2a45570010887e28dea560ca3adb8a1
 translated_from: content/en/ac/VI/09_s9_application_locally_compact_fields.md
-source_content_sha256: 227e670a0dd4f394d2d3c60ac4095563da75ad47218935fc1d79d23696d806cf
+source_content_sha256: cbf8d7f6c26e3c562858fae29ec698adc8ce0ba172721d0d36754a85dbdf6f59
 translation_model: gpt-5.4
 translation_run: translate-vi-e899e013
 glossary_version: 34
@@ -41,7 +41,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $K$ là một trường compact địa phương (không nhất thiết giao hoán). Nhắc lại rằng hàm mod (hay mod,) đã được định nghĩa (Tích phân, Chương VII, § 1, no. 10, Định nghĩa 6) trên $K$ như sau: $\operatorname{mod}_K(0) = 0$ và với $x \neq 0$ trong $K$, số $\operatorname{mod}_K(x)$ là môđun của tự đẳng cấu $y \mapsto xy$ của nhóm cộng của $K$.
 
-#### Mệnh đề 1 {#ac-vi-s9-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s9-prop-1 .statement tag=04XQ}
 
 *Nếu $K$ là một trường compact địa phương, hàm mod, thuộc $\mathscr{V}(K)$ (§ 6, no. 1). Hơn nữa:*
 (i) *Nếu $s > 0$ sao cho $(\operatorname{mod}_K)^s = g$ là một giá trị tuyệt đối, thì $g$ xác định tôpô trên $K$.*
@@ -49,7 +49,7 @@ Cho $K$ là một trường compact địa phương (không nhất thiết giao 
 
 Điều này suy ra từ § 6, no. 1, Mệnh đề 1, § 5, no. 1, Mệnh đề 2 và Tích phân, Chương VII, § 1, no. 10, các Mệnh đề 12 và 13.
 
-#### Mệnh đề 2 {#ac-vi-s9-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s9-prop-2 .statement tag=04XR}
 
 *Cho $K, K'$ là hai trường compact địa phương (không nhất thiết giao hoán) sao cho $K$ là một trường con tôpô của $K'$ và $K$ không rời rạc. Khi đó:*
 (i) *$K'$ là một không gian vectơ trái (ứng với phải) hữu hạn chiều trên $K$.*
@@ -60,13 +60,13 @@ $$
 $$
 Vì $K$ là một trường định giá đầy đủ không rời rạc, mệnh đề (i) suy ra từ Không gian vectơ tôpô, Chương I, § 2, no. 4, Định lý 3; mệnh đề (ii) chính là Tích phân, Chương VII, § 1, no. 11, Mệnh đề 17.
 
-#### Hệ quả 1 {#ac-vi-s9-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s9-prop-2-cor-1 .statement tag=04XS}
 
 *Mọi trường compact địa phương có tâm không rời rạc đều có hạng hữu hạn trên tâm của nó.*
 
 Tâm $Z$ của một trường compact địa phương $K$ là đóng trong $K$ và do đó compact địa phương.
 
-#### Hệ quả 2 {#ac-vi-s9-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s9-prop-2-cor-2 .statement tag=04XT}
 
 *Cho $K'$ là một trường compact địa phương và $K$ là một trường con đóng của $K'$ (không trường nào nhất thiết giao hoán). Nếu $K'$ là một không gian vectơ trái (ứng với phải) số chiều hữu hạn $n$ trên $K$, thì*
 (2)
@@ -78,13 +78,13 @@ Nói chung người ta biết rằng trong một không gian vectơ (trái hoặ
 
 ### 2. SỰ TỒN TẠI CỦA CÁC ĐẠI DIỆN
 
-#### Mệnh đề 3 {#ac-vi-s9-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s9-prop-3 .statement tag=04XU}
 
 *Cho $K$ là một trường compact địa phương (không nhất thiết giao hoán) không rời rạc và có tôpô được xác định bởi một định giá rời rạc $v$; gọi $A$ là vành và $m$ là iđêan của $v$ và đặt $\mathrm{Card}(A/m) = q = p^f$ ($p$ nguyên tố). Khi đó, tồn tại một hệ đại diện $S$ của $A/m$ trong $A$ và một phần tử đều hóa $u$ đối với $v$ sao cho $O \in S$, $S^* = S \cap K^*$ là một nhóm con cyclic của $K^*$ và $u^{-1} Su = S$. Hơn nữa, mọi phần tử của $A$ đều có thể viết duy nhất dưới dạng $\sum_{i=0}^\infty s_i u^i$, trong đó $s_i \in S$.*
 
 Ta sẽ dùng bổ đề sau:
 
-#### Bổ đề 1 {#ac-vi-s9-lem-1 .statement}
+#### Bổ đề 1 {#ac-vi-s9-lem-1 .statement tag=04XV}
 
 *Cho $x, y$ là hai phần tử của $A$ giao hoán với nhau sao cho $x - y \in m^j \ (j \geq 1)$; khi đó $x^{p^n} - y^{p^n} \in m^{j+n}$ với mọi số nguyên $n \geq 0$.*
 
@@ -125,7 +125,7 @@ Cuối cùng, với mọi $x \in A$ tồn tại một dãy duy nhất $(s_i)$ ($
 
 Các bổ sung đầy đủ $\mathbf{R}$ và $\mathbf{Q}_p$ của trường $\mathbf{Q}$ đối với các giá trị tuyệt đối không không chính quy trên $\mathbf{Q}$ ($p$ là một số nguyên tố bất kỳ) là compact địa phương. Mặt khác, với mọi lũy thừa $q = p^f$ của một số nguyên tố $p$, trường $\mathbf{F}_q((T))$ các chuỗi lũy thừa hình thức trên trường hữu hạn $F$, với định giá được xác định ở § 3, no. 4, Ví dụ 3 là *compact địa phương*: vì iđêan cực đại của vành định giá $\mathbf{F}_q[[T]]$ được sinh bởi $T$; ta biết rằng vành này là đầy đủ đối với tôpô (T)-adic (Chương III, § 2, no. 6, Mệnh đề 6) và, vì trường thặng dư $\mathbf{F}_q$ là hữu hạn, Mệnh đề 2 của § 5, no. 1 chứng minh mệnh đề của chúng ta. Ngược lại:
 
-#### Định lý 1 {#ac-vi-s9-thm-1 .statement}
+#### Định lý 1 {#ac-vi-s9-thm-1 .statement tag=04XW}
 
 *Cho K là một trường compact địa phương (không nhất thiết giao hoán) mà không rời rạc.*
 
@@ -147,17 +147,17 @@ $$
 
 nên $u^q \in Z$ và ta kết luận rằng $Z$ không rời rạc. Vì $Z$ là compact địa phương, ta có thể tự giới hạn vào trường hợp K là giao hoán. Đại số con trên $\mathbf{F}_p$ là $\mathbf{F}_p[s]$ trong $K$ khi đó là một trường hữu hạn vì $s^{q-1} = 1$ và hiển nhiên $y^q = y$ với mọi phần tử của trường này, do đó nó đồng nhất với $S$ và đẳng cấu với $\mathbf{F}_q$ vì $S \subset \mathbf{F}_p[s]$ có $q$ phần tử. Vì tổng của hai phần tử của $S$ nằm trong $S$, ánh xạ biến mỗi chuỗi lũy thừa hình thức $\sum_{i=0}^\infty s_i T^i \in \mathbf{F}_q[[T]]$ thành phần tử $\sum_{i=0}^\infty s_i u^i$ là một đồng cấu song ánh từ vành $\mathbf{F}_q[[T]]$ lên vành $A$, do đó ngay lập tức có kết luận.
 
-#### Hệ quả 1 {#ac-vi-s9-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s9-thm-1-cor-1 .statement tag=04XX}
 
 *Mọi trường compact địa phương* mà *không rời rạc* *đều có hạng hữu hạn* trên tâm của nó.
 
-#### Hệ quả 2 {#ac-vi-s9-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s9-thm-1-cor-2 .statement tag=04XY}
 
 Mọi *trường compact địa phương* đều liên thông *hoặc* hoàn toàn không liên thông; *nếu* nó liên thông, thì nó *đẳng cấu* với $\mathbf{R}, \mathbf{C}$ *hoặc* $\mathbf{H}$.
 
 Nếu tôpô trên một trường $K$ được xác định bởi một giá trị tuyệt đối siêu mêtric, thì $K$ hoàn toàn không liên thông đối với tôpô này.
 
-#### Nhận xét {#ac-vi-s9-n3-rem-1 .statement}
+#### Nhận xét {#ac-vi-s9-n3-rem-1 .statement tag=04XZ}
 
 Cho $s$ là một số nguyên $> 0$; trường con $\mathbf{F}_q((T^s)) = L$ của $K = \mathbf{F}_q((T))$ là đóng trong $K$ và $e(K/L) = s$ và $f(K/L) = 1$. Vì vậy thấy rằng có những trường con đóng $L$ của $K$ không rời rạc và sao cho $e(K/L)$ (và *a fortiori* bậc $[K:L]$) lớn tùy ý (trái với điều xảy ra đối với các trường compact địa phương có đặc số 0, ở đó mọi trường con compact địa phương $L$ của một trường như vậy $K$ tất yếu chứa $\mathbf{R}$ hoặc $\mathbf{Q}_p$ và do đó $[K:L]$ bị chặn).
 

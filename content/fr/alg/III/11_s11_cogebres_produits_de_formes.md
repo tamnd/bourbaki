@@ -65,7 +65,7 @@ subsections:
       pdf_page: 557
 statements: 52
 exercises: 27
-content_sha256: 3a92b97a82cbf57a60083098a6cd1faa94c593a5cd255446fe757eac42b00200
+content_sha256: 8574f2533ff579bc08a577f12ca417911d34298c92a7f28f41122d828ca095e0
 ---
 
 ## § 11. COGÈBRES, PRODUITS DE FORMES MULTILINÉAIRES, PRODUITS INTÉRIEURS ET DUALITÉ
@@ -74,13 +74,13 @@ Dans ce paragraphe, A est un anneau commutatif, muni de la graduation triviale. 
 
 ### 1. Cogèbres
 
-#### Définition 1 {#alg-iii-s11-def-1 .statement}
+#### Définition 1 {#alg-iii-s11-def-1 .statement tag=067H}
 
 *On appelle cogèbre sur A (ou A-cogèbre, ou simplement cogèbre si aucune confusion n’en résulte) un ensemble E muni d’une structure définie par les données suivantes:
 1) une structure de A-module sur E;
 2) une application A-linéaire $c : E \to E \otimes_A E$, dite coproduit de E.*
 
-#### Définition 2 {#alg-iii-s11-def-2 .statement}
+#### Définition 2 {#alg-iii-s11-def-2 .statement tag=067I}
 
 *Etant données deux cogèbres E, E', dont les coproduits sont notés respectivement c et c', on appelle morphisme de E dans E' une application A-linéaire $u : E \to E'$ telle que l’on ait*
 
@@ -98,23 +98,23 @@ $$
 
 On vérifie immédiatement que l’application identique est un morphisme, que le composé de deux morphismes est un morphisme, et que tout morphisme bijectif est un isomorphisme.
 
-#### Exemple 1 {#alg-iii-s11-n1-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s11-n1-exa-1 .statement tag=067J}
 
 L’isomorphisme canonique $A \to A \otimes_A A$ (II, p. 56) définit sur $A$ une structure de $A$-cogèbre.
 
-#### Exemple 2 {#alg-iii-s11-n1-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s11-n1-exa-2 .statement tag=067K}
 
 Soient $E$ une cogèbre, $c$ son coproduit, $\sigma$ l’automorphisme canonique du $A$-module $E \otimes_A E$ tel que $\sigma(x \otimes y) = y \otimes x$ pour $x \in E,\ y \in E$; l’application $A$-linéaire $\sigma \circ c$ définit sur $E$ une nouvelle structure de cogèbre; muni de cette structure, $E$ est appelé la cogèbre *opposée* à la cogèbre $E$ donnée.
 
-#### Exemple 3 {#alg-iii-s11-n1-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s11-n1-exa-3 .statement tag=0DH2}
 
 Soit $B$ une *A-algèbre*, et soit $m : B \otimes_A B \to B$ l’application $A$-linéaire définissant la multiplication dans $B$ (III, p. 5). La transposée $^t m$ est donc une application $A$-linéaire du dual $B^*$ du $A$-module $B$ dans le dual $(B \otimes_A B)^*$ du $A$-module $B \otimes_A B$. Si de plus $B$ est un $A$-module *projectif de type fini*, l’application canonique $\mu : B^* \otimes_A B^* \to (B \otimes_A B)^*$ est un isomorphisme de $A$-modules (II, p. 80); l’application $c = \mu^{-1} \circ ^t m$ est alors un coproduit définissant sur le *dual* $B^*$ du $A$-module $B$ une structure de *cogèbre*.
 
-#### Exemple 4 {#alg-iii-s11-n1-exa-4 .statement}
+#### Exemple 4 {#alg-iii-s11-n1-exa-4 .statement tag=0DH3}
 
 Soient $X$ un ensemble, $A^{(X)}$ le $A$-module des combinaisons linéaires formelles des éléments de $X$ à coefficients dans $A$ (II p. 25), $(e_x)_{x \in X}$ la base canonique de $A^{(X)}$. On définit une application $A$-linéaire $c : A^{(X)} \to A^{(X)} \otimes_A A^{(X)}$ par la condition $c(e_x) = e_x \otimes e_x$, et on obtient ainsi une structure canonique de cogèbre sur $A^{(X)}$.
 
-#### Exemple 5 {#alg-iii-s11-n1-exa-5 .statement}
+#### Exemple 5 {#alg-iii-s11-n1-exa-5 .statement tag=0DH4}
 
 Soient $M$ un $A$-module, $T(M)$ l’algèbre tensorielle de $M$ (III, p. 56); d’après (II, p. 71) il existe une application $A$-linéaire et une seule $c$ du $A$-module $T(M)$ dans le $A$-module $T(M) \otimes_A T(M)$, telle que, pour tout $n \geq 0$,
 
@@ -124,7 +124,7 @@ $$
 
 quels que soient les $x_i \in M$ ($x_1 x_2 \ldots x_n$ désigne le produit dans l’algèbre $T(M)$). On munit ainsi $T(M)$ d’une structure de *cogèbre*.
 
-#### Exemple 6 {#alg-iii-s11-n1-exa-6 .statement}
+#### Exemple 6 {#alg-iii-s11-n1-exa-6 .statement tag=0DH5}
 
 Soient $M$ un $A$-module, $S(M)$ l’algèbre symétrique de $M$ (III, p. 67); l’application diagonale $\Delta : x \mapsto (x, x)$ de $M$ dans $M \times M$ est une application $A$-linéaire, à laquelle correspond donc canoniquement un homomorphisme $S(\Delta)$ de la $A$-algèbre $S(M)$ dans la $A$-algèbre $S(M \times M)$ (III, p. 68, prop. 3). D’autre part, on a défini dans III, p. 73, un isomorphisme canonique d’algèbres graduées, $h : S(M \times M) \to S(M) \otimes_A S(M)$; par composition on obtient donc un homomorphisme de *A-algèbres*, $c = h \circ S(\Delta) : S(M) \to S(M) \otimes_A S(M)$, définissant donc sur $S(M)$ une structure de *cogèbre*. Pour tout $x \in M$, on a par définition $S(\Delta)(x) = (x, x)$, et la définition de $h$ donnée dans III, p. 73 montre que $h((x, x)) = x \otimes 1 + 1 \otimes x$. Il en résulte que $c$ est l’unique homomorphisme d’algèbre tel que, pour tout $x \in M$, on ait
 
@@ -146,7 +146,7 @@ $$
 
 où la sommation est étendue à toutes les permutations $\sigma \in \mathfrak{S}_n$ qui sont *croissantes* dans chacun des intervalles $[1, p]$ et $[p+1, n]$.
 
-#### Exemple 7 {#alg-iii-s11-n1-exa-7 .statement}
+#### Exemple 7 {#alg-iii-s11-n1-exa-7 .statement tag=0DH6}
 
 Soit $M$ un $A$-module, et procédons pour l’algèbre extérieure $\wedge(M)$ de la même manière que pour $S(M)$ dans l’*Exemple* 6; l’application diagonale $\Delta : M \to M \times M$ définit cette fois un homomorphisme $\wedge(\Delta)$ de la $A$-algèbre $\wedge(M)$ dans la $A$-algèbre $\wedge(M \times M)$ (III, p. 77, prop. 2); on a d’autre part un isomorphisme canonique d’algèbres graduées
 
@@ -182,7 +182,7 @@ la sommation étant étendue aux permutations $\sigma \in S_n$ qui sont croissan
 
 Quand on parlera par la suite de $A^{(\mathbf{x})}$, de $T(M)$, $S(M)$ ou $\Lambda(M)$ comme de cogèbres, il s’agira, sauf mention expresse du contraire, des structures de cogèbres définies dans les exemples 5, 6, 7 et 8 respectivement.
 
-#### Exemple 8 {#alg-iii-s11-n1-exa-8 .statement}
+#### Exemple 8 {#alg-iii-s11-n1-exa-8 .statement tag=0DH7}
 
 Soient $E, F$ deux $A$-cogèbres, $c, c'$ leurs coproduits respectifs. Désignons par $\tau : (E \otimes_A E) \otimes_A (F \otimes_A F) \to (E \otimes_A F) \otimes_A (E \otimes_A F)$ l’isomorphisme d’associativité tel que $\tau((x \otimes x') \otimes (y \otimes y')) = (x \otimes y) \otimes (x' \otimes y')$ pour $x, x'$ dans $E$ et $y, y'$ dans $F$. Alors l’application linéaire composée
 
@@ -200,7 +200,7 @@ $$
 
 Dans ce qui suit, nous nous limiterons le plus souvent aux graduations de type $\mathbf{N}$ compatibles avec le produit; une cogèbre munie d’une telle graduation sera encore appelée une cogèbre graduée. Si $F$ est une second cogèbre graduée, un morphisme de cogèbres graduées $\varphi : E \to F$ est par définition un morphisme de cogèbres (III, p. 138, déf. 2) qui est aussi un homomorphisme gradué de degré 0 de $A$-modules gradués.
 
-#### Exemple 9 {#alg-iii-s11-n1-exa-9 .statement}
+#### Exemple 9 {#alg-iii-s11-n1-exa-9 .statement tag=0DH8}
 
 Il est immédiat que les cogèbres $T(M)$, $S(M)$, et $\Lambda(M)$ définies ci-dessus sont des cogèbres graduées.
 
@@ -216,14 +216,14 @@ Il est clair que l’on a défini ainsi une application A-bilinéaire $(u, v) \m
 
 Lorsque E est une cogèbre graduée, N, N', N'' des A-modules gradués de même type, $m$ un homomorphisme gradué de degré $k$ de $N \otimes_A N'$ dans $N''$, alors, si $u$ (resp. $v$) est un homomorphisme gradué de degré $p$ (resp. $q$), $m(u, v)$ est un homomorphisme gradué de degré $p + q + k$.
 
-#### Exemple 1 {#alg-iii-s11-n2-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s11-n2-exa-1 .statement tag=067L}
 
 Prenons pour E la cogèbre graduée $T(M)$ (III, p. 139), et supposons N, N', N'' munis de la graduation triviale. Un homomorphisme gradué de degré $-p$ de $T(M)$ dans N (resp. N', N'') correspond alors à une application multilinéaire de $M^p$ dans N (resp. N', N''). Etant donnée une application multilinéaire $u : M^p \to N$ et une application multilinéaire $v : M^q \to N'$, la méthode précédente permet d’en déduire une application multilinéaire $m(u, v) : M^{p+q} \to N''$, appelé *produit* (relativement à $m$) de $u$ et $v$. Les formules (3) (III, p. 139) et (11) (III, p. 141) montrent que l’on a, pour $x_1, \ldots, x_{p+q}$ dans M
 $$
 (m(u, v))(x_1, \ldots, x_{p+q}) = m(u(x_1, \ldots, x_p), v(x_{p+1}, \ldots, x_{p+q})).
 $$
 
-#### Exemple 2 {#alg-iii-s11-n2-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s11-n2-exa-2 .statement tag=067O}
 
 Prenons pour E la cogèbre graduée $S(M)$ (III, p. 139), en conservant les mêmes hypothèses sur N, N', N''. Un homomorphisme gradué de degré $-p$ de $S(M)$ dans N correspond alors à une *application multilinéaire symétrique* de $M^p$ dans N (III, p. 70). On déduit donc d’une application multilinéaire symétrique $u : M^p \to N$ et d’une application multilinéaire symétrique $v : M^q \to N'$ une application multilinéaire symétrique $m(u, v) : M^{p+q} \to N''$, que l’on note encore (pour éviter des confusions) $u \cdot_m v$ (ou même $u.v$) et qu’on appelle *produit symétrique* (relativement à $m$) de $u$ et $v$. Les formules (6) (III, p. 140) et (11) (III, p. 141) montrent que l’on a, pour $x_1, \ldots, x_{p+q}$ dans M
 $$
@@ -231,7 +231,7 @@ $$
 $$
 la sommation étant étendue aux permutations $\sigma \in S_{p+q}$ croissantes dans chacun des intervalles $[1, p]$ et $[p+1, p+q]$.
 
-#### Exemple 3 {#alg-iii-s11-n2-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s11-n2-exa-3 .statement tag=067Q}
 
 Prenons pour E la cogèbre graduée $\wedge(M)$ (III, p. 140). On déduit alors de la même manière, d’une application multilinéaire alternée $u : M^p \to N$ et d’une application multilinéaire alternée $v : M^q \to N'$, une application multilinéaire alternée $m(u, v) : M^{p+q} \to N''$, que l’on note encore $u \wedge_m v$ ou $u \wedge v$ et que l’on appelle *produit alterné* (relativement à $m$) de $u$ et $v$. Les formules (9) et (11) (III, p. 141) montrent ici que, pour $x_1, \ldots, x_{p+q}$ dans M, on a
 $$
@@ -247,11 +247,11 @@ Soient F une seconde cogèbre graduée, $c'$ son coproduit, $\varphi : E \to F$ 
 
 En particulier, le transposé gradué $^t\varphi : F^{*\mathrm{gr}} \to E^{*\mathrm{gr}}$ est un homomorphisme d’algèbres graduées.
 
-#### Remarque {#alg-iii-s11-n2-rem-1 .statement}
+#### Remarque {#alg-iii-s11-n2-rem-1 .statement tag=067M}
 
 Supposons que les $E_p$ soient des A-modules projectifs de type fini, de sorte que l’on peut identifier canoniquement les A-modules gradués $(E \otimes_A E)^{*\mathrm{gr}}$ et $E^{*\mathrm{gr}} \otimes_A E^{*\mathrm{gr}}$ (II, p. 80, cor. 1). Si de plus on identifie alors canoniquement les A-modules $A \otimes_A A$ et $A$ (II, p. 55), on peut dire que l’application linéaire $E^{*\mathrm{gr}} \otimes_A E^{*\mathrm{gr}} \to E^{*\mathrm{gr}}$ qui définit la multiplication dans $E^{*\mathrm{gr}}$ est la transposée graduée du coproduit $c$.
 
-#### Proposition 1 {#alg-iii-s11-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s11-prop-1 .statement tag=067N}
 
 Soit E une cogèbre sur A. Afin que, pour toute A-algèbre associative B, la A-algèbre $\mathrm{Hom}_A(E, B)$ soit associative, il faut et il suffit que le coproduit $c : E \to E \otimes_A E$ soit tel que le diagramme
 
@@ -281,7 +281,7 @@ Il en résulte que si le diagramme (12) est commutatif, l’algèbre $\mathrm{Ho
 
 Lorsque la cogèbre E vérifie la condition de la prop. 1, on dit qu’elle est coassociative.
 
-#### Exemple 4 {#alg-iii-s11-n2-exa-4 .statement}
+#### Exemple 4 {#alg-iii-s11-n2-exa-4 .statement tag=067S}
 
 On vérifie aussitôt que la cogèbre A (III, p. 139, Exemple 1), la cogèbre $A^{(x)}$ (III, p. 139, Exemple 4) et la cogèbre $\mathscr{T}(M)$ (III, p. 139, Exemple 5) sont coassociatives. Si B est une A-algèbre associative qui est un A-module projectif de type fini, la cogèbre $B^*$ (III, p. 139, Exemple 3) est coassociative : en effet, la commutativité du diagramme (12) de III, p. 143, se déduit alors par transposition de celle du diagramme qui exprime l’associativité de B (III, p. 5). Réciproquement, le même raisonnement et l’identification canonique du A-module B avec son bidual (II, p. 47, cor. 4) montrent que si la cogèbre $B^*$ est coassociative, l’algèbre B est associative. Enfin, les cogèbres $S(M)$ et $\Lambda(M)$ (III, p. 139, Exemple 6 et p. 140, Exemple 7) sont coassociatives ; cela résulte de la commutativité du diagramme
 
@@ -312,7 +312,7 @@ $$
 
 et de l’existence et de la fonctorialité des isomorphismes canoniques pour les algèbres symétrique et extérieure d’une somme directe (III, p. 73 et III, p. 84).
 
-#### Proposition 2 {#alg-iii-s11-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s11-prop-2 .statement tag=067P}
 
 Soit E une cogèbre sur A. Afin que, pour toute A-algèbre commutative B, la A-algèbre $\mathrm{Hom}_A(E, B)$ soit commutative, il faut et il suffit que le coproduit $c : E \to E \otimes_A E$ soit tel que le diagramme
 
@@ -342,11 +342,11 @@ Il en résulte que si le diagramme (15) est commutatif, l’algèbre $\mathrm{Ho
 
 Lorsque la cogèbre $E$ vérifie la condition de la prop. 2, on dit qu’elle est cocommutative.
 
-#### Exemple 5 {#alg-iii-s11-n2-exa-5 .statement}
+#### Exemple 5 {#alg-iii-s11-n2-exa-5 .statement tag=0DH9}
 
 Il est immédiat que la cogèbre $A$ (III, p. 139, Exemple 1) et la cogèbre $A^{(x)}$ (III, p. 139, Exemple 4) sont cocommutatives. Il résulte de la formule (5) de III, p. 140, que la cogèbre $S(M)$ est cocommutative. Enfin, pour qu’une $A$-algèbre $B$, telle que le $A$-module $B$ soit projectif de type fini, ait la propriété que la cogèbre $B^*$ (III, p. 139, Exemple 3) soit cocommutative, il faut et il suffit que $B$ soit commutative; en effet (compte tenu de l’identification canonique du $A$-module $B$ et de son bidual (II, p. 47)), cela résulte de ce que la commutativité du diagramme (15) de III, p. 144, équivaut par transposition à celle du diagramme qui exprime la commutativité de $B$ (III, p. 5).
 
-#### Proposition 3 {#alg-iii-s11-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s11-prop-3 .statement tag=067R}
 
 Soit $E$ une cogèbre sur $A$. Afin que, pour toute $A$-algèbre unifière $B$, la $A$-algèbre $\mathrm{Hom}_A(E, B)$ soit unifière, il faut et il suffit qu’il existe une forme linéaire $\gamma$ sur $E$ rendant commutatifs les diagrammes
 
@@ -383,11 +383,11 @@ de C. La condition $fe = f$ entraîne la commutativité du second diagramme (16)
 
 Une forme linéaire $\gamma$ sur E rendant commutatifs les diagrammes (16) de III, p. 145, est appelée une coïunité de la cogèbre E. Une cogèbre admet au plus une coïunité : en effet, c’est l’élément unité de l’algèbre $\mathrm{Hom}_A(E, A)$. Une cogèbre ayant une coïunité est dite coïunifère.
 
-#### Exemple 6 {#alg-iii-s11-n2-exa-6 .statement}
+#### Exemple 6 {#alg-iii-s11-n2-exa-6 .statement tag=0DHA}
 
 L’application identique est la coïunité de la cogèbre A ; sur la cogèbre $A^{(X)}$ (III, p. 139, Exemple 4), la forme linéaire $\gamma$ telle que $\gamma(e_x) = 1$ pour tout $x \in X$ est la coïunité. Sur la cogèbre $T(M)$ (resp. $S(M)$, $\wedge(M)$) la forme linéaire $\gamma$ telle que $\gamma(1) = 1$ et $\gamma(z) = 0$ pour $z$ dans les $T^n(M)$ (resp. $S^n(M)$, $\wedge^n(M)$) pour $n \geqslant 1$, est la coïunité. Enfin, soit B une A-algèbre qui soit un A-module projectif de type fini, et qui possède un élément unité $e$; alors sur la cogèbre $B^*$ (III, p. 139, Exemple 3), la forme linéaire $\gamma : x^* \mapsto \langle e, x^* \rangle$ est la coïunité, car cette forme n’est autre que la transposée de l’application A-linéaire $\eta_e : \xi \mapsto \xi e$ de A dans B, et, par transposition, la commutativité des diagrammes (16) de III, p. 145, se déduit de celle des diagrammes qui expriment (à l’aide de $\eta_e$) que $e$ est élément unité de B (III, p. 6); le même raisonnement montre d’ailleurs qu’inversement, si la cogèbre $B^*$ admet une coïunité $\gamma$, la transposée de $\gamma$ définit un élément unité $e = {}^t\gamma(1)$ de B.
 
-#### Proposition 4 {#alg-iii-s11-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s11-prop-4 .statement tag=067T}
 
 Soit E une cogèbre admettant une coïunité $\gamma$, et supposons qu’il existe dans $E$ un élément $e$ tel que $\gamma(e) = 1$; alors $E$ est somme directe des sous-A-modules $Ae$ et $E_\gamma = \mathrm{Ker}(\gamma)$, et l’on a
 
@@ -413,7 +413,7 @@ $$
 
 permet d’écrire, pour $x \in E_\gamma$, $c(x) = \lambda(e \otimes e) + (e \otimes y) + (z \otimes e) + u$ avec $u = \sum_j v_j \otimes w_j, y, z$ et les $v_j$ et $w_j$ appartenant à $E_\gamma$. La définition de la coïunité $\gamma$ donne alors $x = \lambda e + y = \lambda e + z$, et comme $\gamma(x) = 0$, on a nécessairement $\lambda = 0, x = y = z$, d’où la seconde relation (18).
 
-#### Remarque {#alg-iii-s11-n2-rem-2 .statement}
+#### Remarque {#alg-iii-s11-n2-rem-2 .statement tag=067U}
 
 Soient C une A-cogèbre coassociative et coünifère, B une A-algèbre associative unifère et M un B-module à gauche. L’application A-bilinéaire $(b, m) \mapsto bm$ de $B \times M$ dans $M$ définit une application A-bilinéaire
 
@@ -425,7 +425,7 @@ par le procédé général décrit au début de ce n°. On vérifie aussitôt qu
 
 ### 3. Propriétés des cogèbres graduées de type N
 
-#### Proposition 5 {#alg-iii-s11-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s11-prop-5 .statement tag=067V}
 
 (i) Soit $E$ une cogèbre graduée admettant une coïunité $\gamma$; alors $\gamma$ est une forme linéaire homogène de degré 0.
 
@@ -452,7 +452,7 @@ et par suite $\gamma(x) = \sum_i \gamma(y_{in}) \gamma(z_{i0}) = \gamma(0) = 0$.
 
 (ii) Puisque $\mathrm{Ker}(\gamma)$ et $E_+$ sont tous deux des sous-A-modules supplémentaires de $Ae = E_0$ et que $E_+ \subset \mathrm{Ker}(\gamma)$ par (i), on a $E_+ = \mathrm{Ker}(\gamma)$ (II, p. 18, Remarque 1); les autres assertions découlent de la prop. 4 de III, p. 146.
 
-#### Proposition 6 {#alg-iii-s11-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s11-prop-6 .statement tag=067W}
 
 Soit $E$ une cogèbre graduée sur $A$. Afin que, pour toute $A$-algèbre commutative $B$, munie de la graduation triviale, la $A$-algèbre graduée de type $\mathbf{Z}$, $\mathrm{Homgr}_A(E, B)$ (III, p. 143) soit anticommutative (III, p. 53, déf. 7), il faut et il suffit que, si $\sigma_g$ désigne l’automorphisme du $A$-module $E \otimes_A E$ tel que $\sigma_g(x_p \otimes x_q) = (-1)^{pq} x_q \otimes x_p$ pour $x_p \in E_p, x_q \in E_q, p$ et $q$ quelconques dans $\mathbf{N}$, le diagramme
 $$
@@ -468,13 +468,13 @@ La démonstration est analogue à celle de la prop. 2 de III, p. 144.
 
 Lorsque la cogèbre graduée $E$ vérifie la condition de la prop. 6, on dit qu’elle est anticommutative.
 
-#### Exemple {#alg-iii-s11-n3-exa-1 .statement}
+#### Exemple {#alg-iii-s11-n3-exa-1 .statement tag=067X}
 
 Il résulte aussitôt de la formule (8) de III, p. 140 que pour tout $A$-module $M$, la cogèbre graduée $\wedge(M)$ est anticommutative.
 
 ### 4. Bigèbres et bigèbres gauches
 
-#### Définition 3 {#alg-iii-s11-def-3 .statement}
+#### Définition 3 {#alg-iii-s11-def-3 .statement tag=067Y}
 
 On appelle bigèbre graduée (resp. bigèbre graduée gauche) sur un anneau $A$ un ensemble $E$ muni d’une structure de $A$-algèbre graduée de type $\mathbf{N}$ et d’une structure de
 
@@ -498,21 +498,21 @@ $$
 
 Si $E$ et $F$ sont deux bigèbres graduées (resp. deux bigèbres graduées gauches), on dit qu’une application $\varphi : E \to F$ est un *morphisme de bigèbres graduées* (resp. un *morphisme de bigèbres graduées gauches*) si : $1^\circ$ $\varphi$ est un morphisme d’algèbres graduées (transformant donc l’élément unité de $E$ en l’élément unité de $F$); $2^\circ$ $\varphi$ est un morphisme de cogèbres graduées tel que, si $\gamma$ et $\gamma'$ sont les coünités respectives de $E$ et $F$ on ait $\gamma = \gamma' \circ \varphi$.
 
-#### Exemple 1 {#alg-iii-s11-n4-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s11-n4-exa-1 .statement tag=067Z}
 
 Soit $S$ un monoïde d’élément neutre $u$, de sorte que l’algèbre $E = A^{(S)}$ du monoïde $S$ sur $A$ admet l’élément unité $e_u$ (III, p. 19); on a vu d’autre part que $E$ est muni canoniquement d’une structure de $A$-cogèbre coassociative, cocommutative et ayant une coünité $\gamma$ telle que $\gamma(e_s) = 1$ pour tout $s \in S$ (III, p. 139, *Exemple 4* et III, p. 144, *Exemple 4*, p. 145, *Exemple 5* et p. 146, *Exemple 6*). La formule $c(e_s) = e_s \otimes e_s$ donnant le coproduit montre en outre aussitôt que $c$ est un homomorphisme d’algèbres. On a donc défini sur $E$ une structure de *bigèbre cocommutative* et $E$, muni de cette structure, est appelé la *bigèbre du monoïde $S$ sur $A$*.
 
 Si $T$ est un second monoïde ayant un élément neutre $v$, $f : S \to T$ un homomorphisme tel que $f(u) = v$, $f_{(A)} : A^{(S)} \to A^{(T)}$ l’homomorphisme de $A$-algèbres déduit de $f$ (III, p. 20), on vérifie aussitôt que $f_{(A)}$ est un *homomorphisme de bigèbres*.
 
-#### Exemple 2 {#alg-iii-s11-n4-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s11-n4-exa-2 .statement tag=0DHB}
 
 Soit $M$ un $A$-module. Les structures de $A$-algèbre graduée (III, p. 67) et de $A$-cogèbre graduée (III, p. 139, *Exemple 6*) définies sur $S(M)$ définissent sur cet ensemble une structure de *bigèbre graduée commutative et cocommutative*; on a vu en effet (III, p. 139, *Exemple 6*) que le coproduit de $S(M)$ est un homomorphisme d’*algèbres*, et il résulte de la définition de la counité $\gamma$ (III, p. 146, *Exemple 6*) que $\gamma(1) = 1$ et que $\gamma$ est un homomorphisme d’algèbres de $E$ dans $A$.
 
-#### Exemple 3 {#alg-iii-s11-n4-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s11-n4-exa-3 .statement tag=0DHC}
 
 Soit $M$ un $A$-module. On voit comme dans l’*Exemple 2*) que sur $\wedge(M)$ les structures de $A$-algèbre graduée (III, p. 76) et de $A$-cogèbre graduée (III, p. 140, *Exemple 7*) définissent sur cet ensemble une structure de *bigèbre graduée gauche anticommutative et anticocommutative*.
 
-#### Remarque {#alg-iii-s11-n4-rem-1 .statement}
+#### Remarque {#alg-iii-s11-n4-rem-1 .statement tag=0680}
 
 Si $M$ est un $A$-module tel que $M \otimes_A M \neq \{0\}$, les structures de $A$-algèbre graduée (III, p. 56) et de $A$-cogèbre graduée (III, p. 139, *Exemple 5*) sur $T(M)$ *ne définissent pas* une structure de bigèbre, car en général on a
 $$
@@ -583,7 +583,7 @@ m_n = m \circ (m_{n-1} \otimes 1_A)
 $$
 en posant $m = m_2$. Avec ces notations:
 
-#### Lemme 1 {#alg-iii-s11-lem-1 .statement}
+#### Lemme 1 {#alg-iii-s11-lem-1 .statement tag=0681}
 
 (i) *Dans l’algèbre associative* $E^* = \mathrm{Hom}_A(E, A)$, le produit de n éléments $u_1, u_2, \ldots, u_n$ est donné par
 $$
@@ -674,7 +674,7 @@ $$
 \langle \theta_\wedge(x_1^* \wedge x_2^* \wedge \cdots \wedge x_n^*), x_1 \wedge x_2 \wedge \cdots \wedge x_n \rangle = (-1)^{n(n-1)/2} \det(\langle x_i^*, x_j \rangle).
 $$
 
-#### Proposition 7 {#alg-iii-s11-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s11-prop-7 .statement tag=0682}
 
 Soit $M$ un $A$-module projectif de type fini. Alors les homomorphismes canoniques $\theta_T : T(M^*) \to T(M)^{*gr}$ et $\theta_\wedge : \wedge(M^*) \to (\wedge(M)^{*gr})^0$ sont bijectifs. En outre le dual gradué $\wedge(M)^{*gr}$ est alors égal au dual $\wedge(M)^*$ du $A$-module $\wedge(M)$.
 
@@ -694,7 +694,7 @@ $$
 
 et un diagramme commutatif analogue où $T$ est remplacé par $\wedge$. La proposition résulte alors du lemme suivant:
 
-#### Lemme 2 {#alg-iii-s11-lem-2 .statement}
+#### Lemme 2 {#alg-iii-s11-lem-2 .statement tag=0683}
 
 Soit
 
@@ -754,7 +754,7 @@ $$
 
 avec les notations de III, p. 75. L’homomorphisme $\theta_S$ est donc bijectif si et seulement si les $\alpha ! u_\alpha$ forment une *base* de $\mathbf{S}(\mathbf{M})^{*\mathrm{gr}}$, ou encore si les éléments $\alpha ! 1$ dans $\mathbf{A}$ sont *inversibles*.
 
-#### Proposition 8 {#alg-iii-s11-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s11-prop-8 .statement tag=0684}
 
 *Supposons que l’anneau $\mathbf{A}$ soit une algèbre sur le corps $\mathbf{Q}$ des nombres rationnels ; alors, pour tout $\mathbf{A}$-module projectif de type fini $\mathbf{M}$, l’homomorphisme*
 
@@ -766,7 +766,7 @@ $$
 
 On vient en effet de le prouver lorsque $\mathbf{M}$ est libre de type fini ; on passe de là au cas général en utilisant le lemme 2 de III, p. 154, comme dans la démonstration de la prop. 7 de III, p. 154.
 
-#### Remarque {#alg-iii-s11-n5-rem-1 .statement}
+#### Remarque {#alg-iii-s11-n5-rem-1 .statement tag=0685}
 
 Soient M un A-module, $\rho : A \to B$ un homomorphisme d’anneaux commutatifs. On a alors un diagramme d’homomorphismes de B-algèbres graduées
 
@@ -849,7 +849,7 @@ $$
 
 En d’autres termes, lorsque $\mathrm{Homgr}_A(F, P)$ est considéré comme un (E, E)-bimodule au moyen de l’homomorphisme d’anneaux $\varphi : E \to F$, on voit que $\tilde{\varphi}$ est un homomorphisme de (E, E)-bimodules (ou encore un E-homomorphisme du (F, F)-bimodule $\mathrm{Homgr}_A(F, P)$ dans le (E, E)-bimodule $\mathrm{Homgr}_A(E, P)$).
 
-#### Exemple {#alg-iii-s11-n6-exa-1 .statement}
+#### Exemple {#alg-iii-s11-n6-exa-1 .statement tag=0686}
 
 On peut en particulier appliquer ce qui précède lorsque E est l’une des algèbres graduées $T(M)$, $S(M)$ ou $\wedge(M)$ pour un A-module M, et P un A-module (muni de la graduation triviale). Pour expliciter les structures de bimodule ainsi obtenues, notons que les éléments de degré $-n$ de $\mathrm{Homgr}_A(T(M), P)$ (resp. $\mathrm{Homgr}_A(S(M), P)$, resp. $\mathrm{Homgr}_A(\wedge(M), P)$) sont identifiés aux *applications n-linéaires* (resp. aux *applications n-linéaires symétriques*, resp. aux *applications n-linéaires alternées*) de $M^n$ dans P. Il suffit d’exprimer les produits
 
@@ -999,7 +999,7 @@ $$
 
 Autrement dit, $\varphi$ est un $F^{*gr}$-homomorphisme du $(E^{*gr}, E^{*gr})$-bimodule $E$ dans le $(F^{*gr}, F^{*gr})$-bimodule $F$, relatif à l’homomorphisme d’anneaux $^t\varphi : F^{*gr} \to E^{*gr}$.
 
-#### Exemple {#alg-iii-s11-n7-exa-1 .statement}
+#### Exemple {#alg-iii-s11-n7-exa-1 .statement tag=0687}
 
 On peut en particulier appliquer ce qui précède lorsque $E$ est l’une des cogèbres graduées $T(M), S(M)$ ou $\wedge(M)$ pour un $A$-module $M$ (III, p. 139–140, Exemples 5, 6 et 7). Pour expliciter les structures de bimodule ainsi obtenues, identifions encore un élément homogène $f$ de degré $n$ dans $T(M)^{*gr}$ (resp. $S(M)^{*gr}$, resp. $\wedge(M)^{*gr}$) à une forme $n$-linéaire (resp. une forme $n$-linéaire symétrique, resp. une forme n-linéaire alternée, dite aussi n-forme) sur $M^n$. Il suffit d’exprimer les produits $(x_1 \otimes x_2 \otimes \cdots \otimes x_p) \lhd f$ (resp. $(x_1 x_2 \ldots x_p) \lhd f$, resp. $(x_1 \wedge x_2 \wedge \cdots \wedge x_p) \lhd f$) pour toute suite finie $(x_i)_{1 \leq i \leq p}$ d’éléments de $M$ et les analogues pour le produit intérieur gauche. Or, les définitions (46) (III, p. 159) et (52) (III, p. 160) et les formules (3), (6) et (9) de III, p. 139–141, donnent respectivement
 
@@ -1042,7 +1042,7 @@ $$
 
 Soit $E$ une bigèbre graduée (resp. une bigèbre graduée gauche) (III, p. 148, déf. 3); on peut alors appliquer les résultats des n°s 6 et 7 pour définir les produits intérieurs droits (resp. gauches) $x \lhd u \in E$ et $u \lhd x \in E^{*\mathrm{gr}}$ (resp. $u \lhd x \in E$ et $x \lhd u \in E^{*\mathrm{gr}}$) pour tout $x \in E$ et tout $u \in E^{*\mathrm{gr}}$. On obtient ainsi une structure de $(E, E)$-bimodule sur $E^{*\mathrm{gr}}$ et une structure de $(E^{*\mathrm{gr}}, E^{*\mathrm{gr}})$-bimodule sur $E$. De plus:
 
-#### Proposition 9 {#alg-iii-s11-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s11-prop-9 .statement tag=0688}
 
 *Soit $E$ une bigèbre graduée (resp. une bigèbre graduée gauche). Pour tout élément $x$ de degré 1 dans $E$, les produits intérieurs gauche et droit par $x$ sont des dérivations (resp. des antidérivations) (III, p. 117–118) de l’algèbre $E^{*\mathrm{gr}}$.*
 
@@ -1112,7 +1112,7 @@ $$
 
 autrement dit $i(x)$ est une *antidérivation* dans $E^{*\mathrm{gr}}$. On prouve de même les assertions relatives au produit intérieur gauche par un élément $x$ de degré 1 dans E.
 
-#### Remarque 1 {#alg-iii-s11-n8-rem-1 .statement}
+#### Remarque 1 {#alg-iii-s11-n8-rem-1 .statement tag=0689}
 
 Soient E une bigèbre graduée sur A et N, N', N'' trois A-modules gradués. Soit m une application A-bilinéaire de N × N' dans N''; pour u ∈ Homgr_A(E, N) et v ∈ Homgr_A(E, N'), notons u . v l’homomorphisme gradué m ◦ (u ⊗ v) ◦ c de E dans N''. D’autre part, notons i(x) le produit intérieur (droit ou gauche) par x ∈ E dans les A-modules Homgr_A(E, N), Homgr_A(E, N') et Homgr_A(E, N'') (III, p. 156). Alors, si x est de degré 1, on a
 
@@ -1126,7 +1126,7 @@ $$(i(x))(u . v) = ((i(x))(u)).v + (-1)^p u.((i(x))(v)).$$
 
 Les démonstrations sont les mêmes que dans la prop. 9.
 
-#### Remarque 2 {#alg-iii-s11-n8-rem-2 .statement}
+#### Remarque 2 {#alg-iii-s11-n8-rem-2 .statement tag=0DHD}
 
 Le même raisonnement que dans la démonstration précédente prouve, plus généralement, que pour tout x ∈ E, si c(x) = $\sum_j x'_j \otimes x''_j$, on a, quels que soient u, v dans E*gr, la « formule de Leibniz »
 
@@ -1134,7 +1134,7 @@ $$(i(x))(uv) = \sum_j (i(x'_j))(u).(i(x''_j))(v).$$
 
 En particulier, pour tout élément primitif d’une bigèbre graduée E, c’est-à-dire tel que c(x) = x ⊗ 1 + 1 ⊗ x, i(x) est une dérivation de E*gr.
 
-#### Proposition 10 {#alg-iii-s11-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s11-prop-10 .statement tag=068A}
 
 Soit E une bigèbre graduée (resp. une bigèbre graduée gauche). Pour tout élément f de degré 1 dans E*gr, les produits intérieurs gauche et droit par f sont des dérivations (resp. des antidérivations) de l’algèbre E.
 
@@ -1162,7 +1162,7 @@ $$
 $$
 ce qui montre que $i(f)$ est alors une *antidérivation*. On raisonne de même pour le produit intérieur gauche par $f$.
 
-#### Exemple {#alg-iii-s11-n8-exa-1 .statement}
+#### Exemple {#alg-iii-s11-n8-exa-1 .statement tag=068B}
 
 Les prop. 9 et 10 s’appliquent en particulier à la bigèbre graduée $S(M)$ et à la bigèbre graduée gauche $\wedge(M)$. Les produits intérieurs par des éléments de degré 1 de $S(M)$ (resp. $S(M)^{*gr}$) sont des *dérivations* qui *commutent deux à deux*, puisque $S(M)$ (resp. $S(M)^{*gr}$) est commutative.
 
@@ -1209,7 +1209,7 @@ Nous laissons au lecteur le soin d’expliciter les formules analogues pour les 
 
 On peut appliquer ce qui précède en remplaçant $M$ par son dual $M^*$; il faut alors remplacer $M^*$ par le bidual $M^{**}$ et $T(M^*)$, par exemple, est ainsi muni d’une structure de module à droite sur l’algèbre $T(M^{**})$. Mais l’application canonique $c_M : M \to M^{**}$ définit un homomorphisme d’algèbres $T(c_M) : T(M) \to T(M^{**})$, au moyen duquel $T(M^*)$ est muni d’une structure de $T(M)$-module *à droite*. On munit de même $S(M^*)$ (resp. $\wedge(M^*)$) d’une structure de $S(M)$-module *à droite* (resp. $\wedge(M)$-module *à gauche*). Les formules explicites donnant les lois externes de ces modules se déduisent aussitôt des précédentes en y échangeant les rôles de $M$ et de $M^*$. On remarquera que, pour tout $x \in M$, $i(x)$ est toujours une *dérivation* (resp. une *antidérivation de carré nul*) de l’algèbre graduée $S(M^*)$ (resp. $\wedge(M^*)$).
 
-#### Proposition 11 {#alg-iii-s11-prop-11 .statement}
+#### Proposition 11 {#alg-iii-s11-prop-11 .statement tag=068C}
 
 *L’homomorphisme canonique* $\theta_T : T(M^*) \to T(M)^{*gr}$ (resp. $\theta_S : S(M^*) \to S(M)^{*gr}$, resp. $\theta_{\wedge} : \wedge(M^*) \to \wedge(M)^{*gr}$) *est un homomorphisme de* $T(M)$-modules *à droite* (resp. *de* $S(M)$-modules *à droite*, resp. *de* $\wedge(M)$-modules *à gauche*).
 
@@ -1274,7 +1274,7 @@ $$
 
 On a des formules analogues pour le produit intérieur d’un élément de $S(M^*)$ par un élément de $S(M)$ en échangeant les rôles de $M$ et $M^*$ (puisque $M^{**}$ s’identifie ici à $M$).
 
-#### Remarque {#alg-iii-s11-n10-rem-1 .statement}
+#### Remarque {#alg-iii-s11-n10-rem-1 .statement tag=068D}
 
 La donnée de la base $(e_i)_{1 \leq i \leq n}$ permet d’identifier l’algèbre $S(M)$ à l’algèbre de polynômes $A[X_1, \ldots, X_n]$ (III, p. 75); la formule (75) montre que le produit intérieur par $e^{*\alpha}$ n’est autre que l’opérateur différentiel $D^\alpha = D_1^{\alpha_1} D_2^{\alpha_2} \ldots D_n^{\alpha_n}$, où $D_i = \partial / \partial X_i$ pour $1 \leq i \leq n$ (III, p. 134, Exemple).
 
@@ -1292,7 +1292,7 @@ $\rho_{K, J-K}$ étant le nombre défini par la formule (19) de III, p. 87. On a
 
 ### 11. Isomorphismes entre $\wedge^p(M)$ et $\wedge^{n-p}(M^*)$ pour un module libre $M$ de dimension $n$
 
-#### Proposition 12 {#alg-iii-s11-prop-12 .statement}
+#### Proposition 12 {#alg-iii-s11-prop-12 .statement tag=068E}
 
 Soit $M$ un $A$-module libre de dimension $n$; soit $e \in \wedge^n(M)$ un élément formant une base de $\wedge^n(M)$, et soit $e^*$ l’élément de $\wedge^n(M^*)$ tel que $\{(-1)^{n(n-1)/2} \theta_{\wedge}(e^*)\}$ soit la base duale de $\{e\}$ dans $(\wedge^n(M))^*$. Soit $\varphi : \wedge(M^*) \to \wedge(M)$ l’application $z \mapsto z \mathbin{\&} e^*$, et $\varphi' : \wedge(M^*) \to \wedge(M)$ l’application $z^* \mapsto z^* \mathbin{\&} e$. Soit $\varphi_p$ (resp. $\varphi'_p$) la restriction de $\varphi$ (resp. $\varphi'$) à $\wedge^p(M)$ (resp. $\wedge^p(M^*)$). Alors:
 
@@ -1323,7 +1323,7 @@ $$
 
 est *pair*, on en conclut que $\varphi$ et $\varphi'$ sont réciproques l’une de l’autre. Enfin, pour prouver (77), il suffit de prendre $u^* = e_j^*$ et $v^* = e_{I-J}^*$; la vérification résulte encore de la définition de $\theta_\wedge$, des formules (78) et de la relation $\rho_{J, I-J} \rho_{I-J, J} = (-1)^{p(n-p)}$ (III, p. 87, formule (21)). On notera que pour $u^* \in \wedge^p(M^*)$ et $v^* \in \wedge^{n-p}(M^*)$, $B(\varphi_p(u^*), v^*)$ est, au signe près, le coefficient de $u^* \wedge v^*$ par rapport à la base $\{e^*\}$ de $\wedge^n(M^*)$.
 
-#### Proposition 13 {#alg-iii-s11-prop-13 .statement}
+#### Proposition 13 {#alg-iii-s11-prop-13 .statement tag=068F}
 
 *Avec les hypothèses et notations de la prop. 11, on a, pour tout endomorphisme g du A-module M*
 
@@ -1341,7 +1341,7 @@ $$
 
 compte tenu de III, p. 95, prop. 8.
 
-#### Corollaire {#alg-iii-s11-n11-cor-1 .statement}
+#### Corollaire {#alg-iii-s11-n11-cor-1 .statement tag=068G}
 
 *Pour tout automorphisme g de E, on a*
 
@@ -1353,7 +1353,7 @@ $$
 
 Soient $K$ un corps, $E$ un espace vectoriel sur $K$. Rappelons qu’à tout $p$-vecteur $z \in \wedge^p(E)$ on associe un sous-espace $M_z$ de $E$, de dimension finie, à savoir le plus petit sous-espace vectoriel $M$ de $E$ tel que $z \in \wedge^p(M)$ (III, p. 79, corollaire).
 
-#### Proposition 14 {#alg-iii-s11-prop-14 .statement}
+#### Proposition 14 {#alg-iii-s11-prop-14 .statement tag=068H}
 
 (i) *L’orthogonal de $M_z$ dans $E^*$ est l’ensemble des $x^* \in E^*$ tels que $x^* \perp z = 0$.*
 
@@ -1385,17 +1385,17 @@ ce qui montre que la relation $x^* \perp z = 0$ entraîne $a_H = 0$ pour $1 \in 
 
 Soient $K$ un corps, $E$ un espace vectoriel sur $K$. On dit qu’un *p*-vecteur $z \in \wedge^p(E)$ est *pur* (ou parfois *décomposable*) s’il est non nul et s’il existe des vecteurs $x_1, \ldots, x_p$ dans $E$ tels que $z = x_1 \wedge x_2 \wedge \cdots \wedge x_p$. Pour cela, il faut et il suffit que le sous-espace $M_z$ associé à $z$ (qui est toujours de dimension $\geq p$ pour $z \neq 0$) soit exactement de dimension $p$ (puisque $\wedge^p(M_z)$ est alors de dimension 1). En particulier, tout scalaire non nul, tout élément non nul de $E = \wedge^1(E)$, tout élément non nul de $\wedge^n(E)$ lorsque $E$ est de dimension $n$, est pur.
 
-#### Proposition 15 {#alg-iii-s11-prop-15 .statement}
+#### Proposition 15 {#alg-iii-s11-prop-15 .statement tag=068I}
 
 Soit $E$ un espace vectoriel de dimension $n$, et soit $e$ un élément $\neq 0$ de $\wedge^p(E)$ (formant donc une base de cet espace vectoriel). Soit $\varphi : \wedge(E) \to \wedge(E^*)$ l’isomorphisme d’espaces vectoriels associé à $e$ (III, p. 168, prop. 12). Si $z$ est un élément pur de $\wedge^p(E)$, alors $\varphi(z)$ est un élément pur de $\wedge^{n-p}(E^*)$, et les sous-espaces associés à $z$ et à $\varphi(z)$ sont orthogonaux.
 
 Les cas $p = 0$ et $p = n$ sont triviaux. Supposons donc $1 \leq p \leq n - 1$ et soit $z = x_1 \wedge \cdots \wedge x_p \neq 0$. Il existe alors une base $(e_i)_{1 \leq i \leq n}$ de $E$ telle que $e_i = x_i$ pour $1 \leq i \leq p$, et $e = e_1 \wedge e_2 \wedge \cdots \wedge e_n$. On conclut alors de la formule (78) de III, p. 169 que l’on a $\varphi(z) = \pm e_{p+1}^* \wedge \cdots \wedge e_n^*$, d’où la proposition.
 
-#### Corollaire {#alg-iii-s11-n13-cor-1 .statement}
+#### Corollaire {#alg-iii-s11-n13-cor-1 .statement tag=068J}
 
 Si $E$ est de dimension $n$, tout $(n-1)$-vecteur non nul sur $E$ est pur.
 
-#### Proposition 16 {#alg-iii-s11-prop-16 .statement}
+#### Proposition 16 {#alg-iii-s11-prop-16 .statement tag=068K}
 
 Pour qu’un élément $z \neq 0$ de $\wedge^p(E)$ soit pur, il faut et il suffit que l’on ait, pour tout $u^* \in \wedge^{p-1}(E^*)$
 

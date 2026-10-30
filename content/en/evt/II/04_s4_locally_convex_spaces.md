@@ -41,14 +41,14 @@ subsections:
       pdf_page: 71
 statements: 33
 exercises: 17
-content_sha256: 8758f102dc7a62f5a7635ace604f8701a260f6ea2fd6a3222d384f262b9293ea
+content_sha256: 739b1018258c46c62f41370f616639ef1cdd404280e387353dc0a0e48e83ef94
 ---
 
 ## § 4. LOCALLY CONVEX SPACES
 
 ### 1. Definition of a locally convex space
 
-#### Definition 1 {#evt-ii-s4-def-1 .statement}
+#### Definition 1 {#evt-ii-s4-def-1 .statement tag=07E4}
 
 — *A topological vector space is locally convex (real) if there exists a fundamental system of neighbourhoods of 0 that are convex sets.*
 
@@ -58,7 +58,7 @@ The topological vector spaces over $\mathbf{R}$ which we study in the rest of th
 
 If $V$ is a convex neighbourhood of 0 in the locally convex space $E$, then $V \cap (-V)$ is a symmetric convex neighbourhood of 0. As the closure of a convex set is convex (II, p. 13, prop. 14) it follows from I, p. 7, prop. 4 that the neighbourhoods of 0 in $E$ which are *closed, symmetric and convex*, form a fundamental system of neighbourhoods invariant under homotheties of centre 0 and ratio $\neq 0$.
 
-#### Proposition 1 {#evt-ii-s4-prop-1 .statement}
+#### Proposition 1 {#evt-ii-s4-prop-1 .statement tag=07E5}
 
 — *Let $\mathfrak{S}$ be a filter base on a vector space $E$ formed from sets that are absorbent, symmetric and convex. Then the set $\mathfrak{B}$ of transforms of the sets of $\mathfrak{S}$ by homotheties of ratio $> 0$ is a fundamental system of neighbourhoods of 0 for a locally convex topology on $E$.*
 
@@ -66,7 +66,7 @@ Clearly $\mathfrak{B}$ is a filter base satisfying (EV_I) and (EV_{II}) of I, p.
 
 Note that if $\mathscr{T}$ is the locally convex topology on E having $\mathfrak{B}$ for a fundamental system of neighbourhoods of 0, then the sets $(1/n) \ V$, where $n$ varies in the integers $> 0$ and V varies in $\mathfrak{S}$, form a fundamental system of neighbourhoods of 0 for the topology $\mathscr{T}$. Then $\mathscr{T}$ is Hausdorff, if and only if, for every $x \neq 0$ in E there exists an integer $n$ and a set $V \in \mathfrak{S}$, such that $nx \notin V$; if, further, $\mathfrak{S}$ is enumerable, then the topology $\mathscr{T}$ is a metrisable locally convex topology. Conversely, it is clear that if $\mathscr{T}$ is a metrisable locally convex topology, then there exists an enumerable fundamental system of closed symmetric convex neighbourhoods of 0 for $\mathscr{T}$.
 
-#### Corollary {#evt-ii-s4-n1-cor-1 .statement}
+#### Corollary {#evt-ii-s4-n1-cor-1 .statement tag=07E6}
 
 — *The topology $\mathscr{T}$ of a topological vector space E, is defined by a set of semi-norms* (II, p. 3) *if, and only if, $\mathscr{T}$ is locally convex*.
 
@@ -76,31 +76,31 @@ This shows further that a locally convex topology $\mathscr{T}$ is defined by th
 
 From the corollary to prop. 1, all the results of § 1 on topologies defined by sets of semi-norms apply in particular to locally convex topologies over real vector spaces. A locally convex Hausdorff space E has a completion $\hat{E}$ that is locally convex. A complete, metrisable locally convex space is called a *Fréchet space*; every Banach space is a Fréchet space.
 
-#### Proposition 2 {#evt-ii-s4-prop-2 .statement}
+#### Proposition 2 {#evt-ii-s4-prop-2 .statement tag=07E7}
 
 — *Let f be a continuous linear form defined over a vector subspace M, of a locally convex space E; then there exists a continuous linear form h that is defined over E and is an extension of f*.
 
 From the corollary above and II, p. 7, cor. 2, there exists a continuous semi-norm $p$ on E, such that $|f(y)| \leq p(y)$ for all $y \in M$. By the Hahn-Banach th. (II, p. 23, cor. 1) there exists a linear form $h$ on E that extends $f$ and is such that $|h(x)| \leq p(x)$ for all $x \in E$, and this implies that $h$ is continuous (II, p. 6, prop. 5).
 
-#### Remark {#evt-ii-s4-n1-rem-1 .statement}
+#### Remark {#evt-ii-s4-n1-rem-1 .statement tag=07E8}
 
 — If $g$ is a continuous linear mapping of M in the product space $\mathbf{R}^I$, then there exists a continuous linear mapping $h$ of E in $\mathbf{R}^I$ that is an extension of $g$; for writing $g = (g_i)$, where the $g_i$ are continuous linear forms defined over M, there is an extension $h_i$ of $g_i$ for each $i \in I$, such that $h_i$ is a continuous linear form over E. The continuous linear mapping $h = (h_i)$ has the required properties.
 
 Note that if F is a locally convex Hausdorff space and $g$ a continuous linear mapping of M in F, then there does not necessarily exist a continuous linear mapping of E in F which is an extension of $g$ (IV, p. 55, exerc. 16, c)). However there does exist such an extension when M is finite dimensional (*cf.* cor. 2, below).
 
-#### Corollary 1 {#evt-ii-s4-prop-2-cor-1 .statement}
+#### Corollary 1 {#evt-ii-s4-prop-2-cor-1 .statement tag=07E9}
 
 — *Let E be a locally convex space. If $x_0 \in E$ is not in the closure of $\{0\}$, then there exists a continuous linear form f defined over E with $f(x_0) \neq 0$*.
 
 Apply prop. 2 to the one dimensional vector space M generated by $x_0$ and to the linear form $\xi x_0 \mapsto \xi$ defined over M, which, by I, p. 12, prop. 2, is continuous.
 
-#### Corollary 2 {#evt-ii-s4-prop-2-cor-2 .statement}
+#### Corollary 2 {#evt-ii-s4-prop-2-cor-2 .statement tag=07EA}
 
 — Let M be a finite dimensional vector subspace of E, a locally convex Hausdorff space. Then there exists a closed vector subspace N of E, which is the topological complement of M in E.
 
 There exists a topological complement to M in E if, and only if, the identity mapping of M on itself can be extended to a continuous linear mapping of E on M, which mapping is then necessarily a continuous projector (GT, III, § 6.2, corollary). Now, this follows from the remark above since M is isomorphic to a space $\mathbf{R}^n$ (I, p. 13, th. 2).
 
-#### Proposition 3 {#evt-ii-s4-prop-3 .statement}
+#### Proposition 3 {#evt-ii-s4-prop-3 .statement tag=07EB}
 
 — In a locally convex space E, the balanced convex envelope of a precompact set is itself a precompact set.
 
@@ -108,7 +108,7 @@ Let A be a precompact set in E. Given V, a balanced convex neighbourhood of 0 in
 
 Note that, in an infinite dimensional locally convex Hausdorff space, the convex envelope of a compact set is not necessarily closed (II, p. 74, exerc. 3).
 
-#### Corollary {#evt-ii-s4-n1-cor-2 .statement}
+#### Corollary {#evt-ii-s4-n1-cor-2 .statement tag=07EC}
 
 — If, in a locally convex Hausdorff space E, a compact set X is contained in a complete convex set (complete in the uniform structure induced by that of E) then the convex closed envelope of X is compact.
 
@@ -136,7 +136,7 @@ Finally, note that if E carries a topology $\mathscr{T}$ compatible with its vec
 
 ### 3. Locally convex initial topologies
 
-#### Proposition 4 {#evt-ii-s4-prop-4 .statement}
+#### Proposition 4 {#evt-ii-s4-prop-4 .statement tag=07ED}
 
 *Let E be a vector space and let $(E_i)_{i \in I}$ be a family of locally convex spaces. For each $i \in I$, let $f_i$ be a linear mapping of E in $E_i$; then the topology* $\mathscr{T}$ on E, which is the coarsest making each mapping $f_i$ continuous, is a locally convex topology.
 
@@ -150,7 +150,7 @@ Every locally convex Hausdorff space E is isomorphic to a subspace of a product 
 
 ### 4. Locally convex final topologies
 
-#### Proposition 5 {#evt-ii-s4-prop-5 .statement}
+#### Proposition 5 {#evt-ii-s4-prop-5 .statement tag=07EE}
 
 *Let E be a vector space, and $(F_\alpha)_{\alpha \in A}$ be a family of topological vector spaces and for each $\alpha \in A$, let $g_\alpha$ be a linear mapping of $F_\alpha$ in E.*
 
@@ -172,13 +172,13 @@ It may happen that $\mathscr{T}$ is not the finest of the topologies on E compat
 
 In the most important case $E = \sum_{\alpha \in A} g_\alpha(F_\alpha)$, we get a fundamental system of neighbourhoods of 0 for $\mathscr{T}$ as follows; for each $\alpha \in A$, let $V_\alpha$ be a symmetric neighbourhood of 0 for $\mathscr{T}_\alpha$, form the union of the $g_\alpha(V_\alpha)$ for $\alpha \in A$ and denote the convex envelope in E of this union by $\Gamma((g_\alpha(V_\alpha)))$; since every element of E is of the form $\sum_{\alpha \in J} x_\alpha$, where J is a finite subset of I and $x_\alpha \in g_\alpha(F_\alpha)$, it is immediate that $\Gamma((g_\alpha(V_\alpha)))$ is an *absorbent* symmetric convex set in E (each of the $V_\alpha$ is absorbent in $F_\alpha$); as $\Gamma((g_\alpha(V_\alpha)))$ contains all the $g_\alpha(V_\alpha)$, it is a neighbourhood of 0 for $\mathscr{T}$. On the other hand, it is clear that for every symmetric convex neighbourhood V of 0 for $\mathscr{T}$, we have $V \supset \Gamma((V \cap g_\alpha(F_\alpha)))$, from which our assertion follows.
 
-#### Corollary 1 {#evt-ii-s4-prop-5-cor-1 .statement}
+#### Corollary 1 {#evt-ii-s4-prop-5-cor-1 .statement tag=07EF}
 
 *With the notations of prop. 5, let H be a set of linear mappings of E in the locally convex space G. Suppose that E is the sum of its subspaces $g_\alpha(F_\alpha)$; then H is equicontinuous for $\mathscr{T}$, if, and only if, for every $\alpha$, the set $f \circ g_\alpha$ where $f$ varies in H, is equicontinuous in $F_\alpha$.*
 
 Remembering I, p. 9, prop. 6 the argument is similar to that of (ii) prop. 5. Let W be a symmetric convex neighbourhood of 0 in G and note that if the set $f \circ g_\alpha$, where $f \in H$ is equicontinuous, then the intersection $\bigcap_{f \in H} g_\alpha^{-1}(f^{-1}(W))$ is a symmetric convex neighbourhood of 0 in $F_\alpha$. As this intersection is the same as $g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$ and the set $\bigcap_{f \in H} f^{-1}(W)$ is symmetric and convex, everything depends on showing that it is also *absorbent*. Now, by hypothesis, every $x \in E$ can be written as $\sum_{i=1}^n g_{\alpha_i}(z_{\alpha_i})$, where $z_{\alpha_i} \in F_{\alpha_i}$. To show that there exists $\lambda > 0$ such that $f(\lambda x) \in W$ for all $f \in H$, it is sufficient to consider the case $x = g_\alpha(z_\alpha)$ with $z_\alpha \in F_\alpha$ (since we can pass to the general case by replacing W by $W/n$). But this case follows from the fact that $g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$ is a neighbourhood of 0 in $F_\alpha$.
 
-#### Corollary 2 {#evt-ii-s4-prop-5-cor-2 .statement}
+#### Corollary 2 {#evt-ii-s4-prop-5-cor-2 .statement tag=07EG}
 
 *Let $(J_\lambda)_{\lambda \in L}$ be a partition of the index set A. Let $(G_\alpha)_{\alpha \in A}$ be a family of locally convex spaces and $(F_\lambda)_{\lambda \in L}$ be a family of vector spaces. For each $\lambda \in L$, let $h_\lambda$ be a linear mapping of $F_\lambda$ in a vector space E; for each $\lambda \in L$ and $\alpha \in J_\lambda$, let $g_{\lambda \alpha}$ be a linear mapping of $G_\alpha$ in $F_\lambda$. Write $f_\alpha = h_\lambda \circ g_{\lambda \alpha}$. Suppose that each $F_\lambda$ carries the finest locally convex topology that makes the $g_{\lambda \alpha}$ ($\alpha \in J_\lambda$) continuous. Then, the finest locally convex topology on E that makes the $f_\alpha$ continuous, is identical with the finest locally convex topology making the $h_\lambda$ continuous.*
 
@@ -194,11 +194,11 @@ II. Inductive limits of locally convex spaces.
 
 Let A be an ordered set directed to the right and let $(E_\alpha, f_{\beta\alpha})$ be an inductive system of vector spaces relative to the set A (A, II, § 6.2); let $E = \varinjlim E_\alpha$ and let $f_\alpha : E_\alpha \to E$ be the canonical linear mapping for each $\alpha \in A$. Suppose that each $E_\alpha$ carries a locally convex topology $\mathscr{T}_\alpha$, and further suppose that for $\alpha \leq \beta$, the mapping $f_{\beta\alpha} : E_\alpha \to E_\beta$ is *continuous*. Then we say that the locally convex final topology $\mathscr{T}$ of the family $(\mathscr{T}_\alpha)$ relative to the linear mappings $f_\alpha$ (resp. the space E carrying the topology $\mathscr{T}$) is the *inductive limit* of the family $(\mathscr{T}_\alpha)$ (resp. the *inductive limit* space of the system $(E_\alpha, f_{\beta\alpha})$, or simply of the locally convex spaces $E_\alpha$). Recall that E is the union of the vector subspaces $f_\alpha(E_\alpha)$ and that when $\alpha \leq \beta$, we have $f_\alpha(E_\alpha) \subset f_\beta(E_\beta)$; if we endow $f_\alpha(E_\alpha)$ with the final topology for the mapping $f_\alpha$ (which is the same as identifying $f_\alpha(E_\alpha)$ with the quotient space $E_\alpha/f_\alpha^{-1}(0)$), the topology $\mathscr{T}$ is also the final topology of the family of the topologies of the $f_\alpha(E_\alpha)$, relative to the canonical injections (II, cor. 2 above). Further, the continuity of $f_{\beta\alpha}$ for $\alpha \leq \beta$ implies that the canonical injection $j_{\beta\alpha} : f_\alpha(E_\alpha) \to f_\beta(E_\beta)$ is continuous, so that E is also the inductive limit of $f_\alpha(E_\alpha)$ carrying the preceding topologies relative to the injection $j_{\beta\alpha}$.
 
-#### Example {#evt-ii-s4-n4-exa-1 .statement}
+#### Example {#evt-ii-s4-n4-exa-1 .statement tag=07EH}
 
 — Let X be a locally compact space and $E = \mathscr{K}(X; \mathbf{R})$ the vector space of finite continuous real valued functions defined over X with compact support. For every compact subset K of X, let $E_K$ be the vector subspace of E formed by those functions $f \in E$ which are such that $x \notin K \Rightarrow f(x) = 0$. Denote by $\mathscr{T}_K$ the topology induced on $E_K$ and by $\mathscr{T}_u$ the topology of *uniform convergence* on X. The inductive limit $\mathscr{T}$ of the topologies $\mathscr{T}_K$ is finer than $\mathscr{T}_u$; we can show that if X is paracompact and not compact, then $\mathscr{T}$ is strictly finer than $\mathscr{T}_u$ (*cf.* INT, III, 2nd ed., § 1.8). The importance of $\mathscr{T}$ lies in the fact that the linear forms on E that are continuous in $\mathscr{T}$ are precisely the real *measures* on X (INT, III, 2nd., § 1.3).
 
-#### Remark {#evt-ii-s4-n4-rem-1 .statement}
+#### Remark {#evt-ii-s4-n4-rem-1 .statement tag=07EI}
 
 — In the last example, the topology induced by $\mathscr{T}$ on $E_K$ is identical with $\mathscr{T}_K$, since by definition it is coarser than $\mathscr{T}_K$ and, since $\mathscr{T}$ is finer than $\mathscr{T}_u$, the topology induced by $\mathscr{T}$ on $E_K$ is finer than that induced by $\mathscr{T}_u$, that is to say $\mathscr{T}_K$.
 
@@ -208,7 +208,7 @@ More generally one can ask, when we suppose that $E_\beta \subset E_\alpha$ and 
 
 ### 5. The direct topological sum of a family of locally convex spaces
 
-#### Definition 2 {#evt-ii-s4-def-2 .statement}
+#### Definition 2 {#evt-ii-s4-def-2 .statement tag=07EJ}
 
 *Let E be the vector space which is the direct sum* (A, II, § 1.6) *of the family of locally convex spaces* $(E_i)_{i \in I}$. *For each* $i \in I$, *let* $f_i$ *be the canonical injection* of $E_i$ in $E$. *By the topological direct sum of the family* $(E_i)$ *we mean the space* $E$ *with the finest locally convex topology which makes each* $f_i$ *continuous (this topology is called the direct sum of the topologies of the* $E_i$).
 
@@ -216,11 +216,11 @@ In the remainder of this No. we keep the same notations as in def. 2 (unless the
 
 By the general description of neighbourhoods of a locally convex final topology given in II, p. 28, we can here obtain a fundamental system of neighbourhoods of 0 in $E$ for the direct sum topology, in the following manner; for *every* family $(V_i)_{i \in I}$ where $V_i$ is a symmetric convex neighbourhood of 0 in $E_i$, consider the convex envelope $\Gamma((V_i))$, of the union of the $V_i$; the $\Gamma((V_i))$ for all the families $(V_i)$ (or only taking $V_i$ for each $i$ to be in a fundamental system of neighbourhoods of 0 in $E_i$) form a fundamental system of neighbourhoods of 0 in $E$.
 
-#### Example {#evt-ii-s4-n5-exa-1 .statement}
+#### Example {#evt-ii-s4-n5-exa-1 .statement tag=07EK}
 
 — Let $(a_i)_{i \in I}$ be a basis of the vector space $E$ and consider the canonical topology (I, p. 2, *Example 5*) on each line $Ra_i$; the direct sum of these topologies is the *finest* locally convex topology on $E$ (II, p. 26); in fact, if $V$ is an absorbent, symmetric, convex set in $E$, then $V_i = V \cap Ra_i$ is a neighbourhood of 0 in $Ra_i$ and $V$ clearly contains the convex envelope $\Gamma((V_i))$.
 
-#### Proposition 6 {#evt-ii-s4-prop-6 .statement}
+#### Proposition 6 {#evt-ii-s4-prop-6 .statement tag=07EL}
 
 *A locally convex topology* $\mathscr{T}$ *on* $E$ *is the direct sum of the topologies of the* $E_i$, *if and only if, the following property holds: a linear mapping of* $E$ *in a locally convex space* $G$ *(resp. a semi-norm* $p$ *on* $E$) *is continuous, if and only if, for every* $i \in I$, *the mapping* $g \circ f_i$ *(resp. $p \circ f_i$) is continuous in* $E_i$.
 
@@ -234,13 +234,13 @@ $$
 
 for every locally convex space $G$.
 
-#### Corollary {#evt-ii-s4-n5-cor-1 .statement}
+#### Corollary {#evt-ii-s4-n5-cor-1 .statement tag=07EM}
 
 *With the notation of prop. 5, II, p. 27, suppose that* $E$ *is the sum of the* $g_\alpha(F_\alpha)$. *Let* $F$ *be the topological direct sum of the family* $(F_\alpha)_{\alpha \in A}$, *and let* $j_\alpha : F_\alpha \to F$ *be the canonical injection; suppose that* $g : F \to E$ *is the linear mapping such that* $g \circ j_\alpha = g_\alpha$ *for all* $\alpha \in A$. *If* $N$ *is the kernel of* $g$, *then the canonical bijection* $F/N \to E$ *associated with* $g$ *is a topological isomorphism of* $F/N$ *on* $E$ *with the topology* $\mathscr{T}$.
 
 This is a particular case of II, p. 28, cor. 2 remembering II, p. 29, *Example I*.
 
-#### Proposition 7 {#evt-ii-s4-prop-7 .statement}
+#### Proposition 7 {#evt-ii-s4-prop-7 .statement tag=07EN}
 
 *The canonical injection* $j : E \to \prod_{i \in I} E_i$ *is continuous when* $E$ *carries the direct sum topology of the* $E_i$ *and* $\prod_{i \in I} E_i$ *carries the product topology. When* $I$ *is finite, this mapping is an isomorphism of topological vector spaces.*
 
@@ -248,7 +248,7 @@ The first assertion follows from the fact that the canonical injections $E_\kapp
 
 When $I$ is infinite, if, for each finite subset $J$ of $I$, we write $E_J$ for the space $\prod_{\iota \in J} E_\iota$, with the product topology, then $E$ is the *inductive limit* of the $E_J$ (identified as subspaces of $E$).
 
-#### Proposition 8 {#evt-ii-s4-prop-8 .statement}
+#### Proposition 8 {#evt-ii-s4-prop-8 .statement tag=07EO}
 
 *Let $N_\iota$ be a subspace of $E_\iota$, for every $\iota \in I$,*
 
@@ -260,13 +260,13 @@ When $I$ is infinite, if, for each finite subset $J$ of $I$, we write $E_J$ for 
 
 (ii) Denote canonical mappings as follows: $f_\iota : E_\iota \to E, h_\iota : E_\iota / N_\iota \to E/N, p_\iota : E_\iota \to E_\iota / N_\iota$ and $p : E \to E/N$. For every $\iota \in I$, $h_\iota \circ p_\iota = p \circ f_\iota$ and the proposition follows from II, p. 28, cor. 2 and p. 29 *Example I*.
 
-#### Corollary 1 {#evt-ii-s4-prop-8-cor-1 .statement}
+#### Corollary 1 {#evt-ii-s4-prop-8-cor-1 .statement tag=07EP}
 
 *If $N_\iota$ is closed in $E_\iota$ for every $\iota \in I$, then $N = \sum_\iota N_\iota$ in closed in $E$.*
 
 For, the canonical mapping $p_\iota : E \to E_\iota$ is continuous (II, § 4.5, prop. 6) for every $\iota \in I$, hence $p_\iota^{-1}(N_\iota)$ is closed in $E$, and thus the same is true of the intersection $N = \bigcap_{\iota \in I} p_\iota^{-1}(N_\iota)$.
 
-#### Corollary 2 {#evt-ii-s4-prop-8-cor-2 .statement}
+#### Corollary 2 {#evt-ii-s4-prop-8-cor-2 .statement tag=07EQ}
 
 *If each $E_\iota$ is Hausdorff, so also is $E$ and each $E_\iota$ is closed in $E$.*
 
@@ -280,7 +280,7 @@ In this No. we shall consider an *increasing sequence* $(E_n)$ of vector subspac
 
 It may happen that each $\mathscr{T}_n$ is Hausdorff but that $\mathscr{T}$ is not; it may also happen that for each pair of integers $n, m$ such that $n \leq m$, the subspace $E_n$ is closed in $E_m$ (using topology $\mathscr{T}_m$) but that $E_n$ is not closed in $E$ using $\mathscr{T}$ (II, p. 80, exerc. 26).
 
-#### Lemma 1 {#evt-ii-s4-lem-1 .statement}
+#### Lemma 1 {#evt-ii-s4-lem-1 .statement tag=07ER}
 
 — *Let $\mathfrak{F}$ be a Cauchy filter on $E$ (for $\mathscr{T}$); then there exists an integer $k$, such that for all $N \in \mathfrak{F}$ and every neighbourhood $V$ of $0$ in $E$, the subspace $E_k$ meets $N + V$.*
 
@@ -294,7 +294,7 @@ M \subset E_m + V \subset E_m + V_m;
 $$
 as $\mathfrak{F}$ is a filter, the set $M_m$ meets $M$ and therefore $E_m + V_m$; we have a contradiction which establishes the lemma.
 
-#### Proposition 9 {#evt-ii-s4-prop-9 .statement}
+#### Proposition 9 {#evt-ii-s4-prop-9 .statement tag=07ES}
 
 *Suppose that the topology induced on $E_n$ by $\mathscr{T}_{n+1}$ is identical with $\mathscr{T}_n$ for every integer $n$. Then
 (i) The topology induced by $\mathscr{T}$ on $E_n$ is identical with $\mathscr{T}_n$ for each $n$; if the $\mathscr{T}_n$ are Hausdorff then $\mathscr{T}$ is Hausdorff.
@@ -305,7 +305,7 @@ as $\mathfrak{F}$ is a filter, the set $M_m$ meets $M$ and therefore $E_m + V_m$
 
 To define the $V_{n+p}$ we proceed by induction on $p$ using the following lemma:
 
-#### Lemma 2 {#evt-ii-s4-lem-2 .statement}
+#### Lemma 2 {#evt-ii-s4-lem-2 .statement tag=07ET}
 
 *Let $V$ be a convex neighbourhood of 0 in $M$, a vector subspace of a locally convex space $F$. Then there exists a convex neighbourhood $W$ of 0 in $F$ such that $W \cap M = V$. Further, if $M$ is closed in $F$, then, for every point $x_0 \in \complement M$, there exists a convex neighbourhood $W_0$ of 0 in $F$ such that $W_0 \cap M = V$ and $x_0 \notin W_0$.*
 
@@ -319,7 +319,7 @@ Returning to the theorem, to prove the second part of (i) note that if $x \in E$
 
 When for all $n$ the topology induced on $E_n$ by $\mathscr{T}_{n+1}$ is just $\mathscr{T}_n$ we say that $\mathscr{T}$ is the *strict inductive limit* of the sequence $(\mathscr{T}_n)$ and that the space $E$ with the topology $\mathscr{T}$ is the *strict inductive limit* of the sequence of locally convex spaces $E_n$.
 
-#### Remark {#evt-ii-s4-n6-rem-1 .statement}
+#### Remark {#evt-ii-s4-n6-rem-1 .statement tag=07EU}
 
 — 1) Suppose that $E$ is the union of an increasing directed, *non-enumerable* family of subspaces $(E_\alpha)_{\alpha \in I}$, each $E_\alpha$ having a locally convex topology $\mathscr{T}_\alpha$, such that, for $E_\alpha \subset E_\beta$, the topology induced on $E_\alpha$ by $\mathscr{T}_\beta$ is identical with $\mathscr{T}_\alpha$. It may be the case that the topology induced on each $E_\alpha$ by the topology $\mathscr{T}$ is equal to $\mathscr{T}_\alpha$ and that the $E_\alpha$ are *Hausdorff and complete, but that $E$ is not complete for $\mathscr{T}$* (INT, III, 2nd ed., § 1, exerc. 2).
 
@@ -327,7 +327,7 @@ When for all $n$ the topology induced on $E_n$ by $\mathscr{T}_{n+1}$ is just $\
 
 3) Suppose that $E$ is the strict inductive limit of the sequence $(E_n)$; if $F$ is a closed (in $\mathscr{T}$) vector subspace of $E$, it may be the case that the strict inductive limit of the topologies induced by the $\mathscr{T}_n$ on $F \cap E_n$ *is strictly finer* than the topology induced by $\mathscr{T}$ (IV, p. 63, exerc. 10).
 
-#### Proposition 10 {#evt-ii-s4-prop-10 .statement}
+#### Proposition 10 {#evt-ii-s4-prop-10 .statement tag=07EV}
 
 *Let E, F be two locally convex spaces. Suppose that :*
 
@@ -339,7 +339,7 @@ When for all $n$ the topology induced on $E_n$ by $\mathscr{T}_{n+1}$ is just $\
 
 To prove that $u$ is continuous, it is sufficient to show that for every $\alpha$, the mapping $u \circ g_\alpha : E_\alpha \to F$ is continuous (II, p. 27, prop. 5). Now the graph of $u \circ g_\alpha$ is the inverse image of the graph of $u$ under the continuous mapping $g_\alpha \times 1_F : E_\alpha \times F \to E \times F$, and therefore is, by hypothesis, closed in $E_\alpha \times F$. We can, therefore, restrict ourselves to the case when E itself is a *Fréchet space*. But then the proposition is a particular case of I, p. 20, prop. 1.
 
-#### Corollary {#evt-ii-s4-n6-cor-1 .statement}
+#### Corollary {#evt-ii-s4-n6-cor-1 .statement tag=07EW}
 
 *With the same hypotheses on E and F as in prop. 10 and assuming that E is Hausdorff, then every continuous surjective mapping v of F in E is a strict morphism.*
 
@@ -351,7 +351,7 @@ Let N be the kernel of $v$ and write $N_n = j_n^{-1}(N)$; then the mapping $j'_n
 
 We are going to consider prop. 2 of GT, IX, § 3.1 in the case of locally convex spaces.
 
-#### Proposition 11 {#evt-ii-s4-prop-11 .statement}
+#### Proposition 11 {#evt-ii-s4-prop-11 .statement tag=07EX}
 
 *Let E be a metrisable locally convex space. The topology of E can be defined by a distance that is invariant under translations, and for which the open balls are convex.*
 
@@ -359,7 +359,7 @@ Let $(p_n)_{n \in \mathbf{N}}$ be a sequence of semi-norms that define the topol
 
 For $x, y$ in $E$ define $d(x, y) = \sup_{n \in \mathbf{N}} d_n(x, y)$. We see immediately that $d$ is a distance, invariant under translations on $E$ and defining the topology of $E$. For $x_0 \in E$ and $R \geq 0$, the open ball with centre $x_0$ and radius $R$ (for the distance $d$) is equal to $\bigcap_{n \in \mathbf{N}} (x_0 + B_{n, R})$, therefore it is convex.
 
-#### Proposition 12 {#evt-ii-s4-prop-12 .statement}
+#### Proposition 12 {#evt-ii-s4-prop-12 .statement tag=07EY}
 
 *Let $E$ and $F$ be two Fréchet spaces and $u$ a continuous linear mapping of $E$ on $F$. Then there exists a section of $u$ that is continuous though not necessarily linear.*
 
@@ -376,13 +376,13 @@ Suppose then that either $n = 0$, or $n \geq 1$ and that $s_{n-1}$ has been cons
 
 From inequality (3) the mappings $s_n : F \to E$ form a Cauchy sequence, for uniform convergence. As $E$ is complete, the sequence $(s_n)_{n \in \mathbf{N}}$ converges uniformly to a continuous mapping $s : F \to E$ (GT, X, § 1.6); formula (2) shows that $u \circ s$ is the identity mapping of $F$, thus $s$ is a continuous section of $u$.
 
-#### Corollary {#evt-ii-s4-n7-cor-1 .statement}
+#### Corollary {#evt-ii-s4-n7-cor-1 .statement tag=07EZ}
 
 *If $L$ is a compact set in $F$, then there exists a compact set $K$ in $E$ such that $u(K) = L$.*
 
 It is sufficient to put $K = s(L)$, where $s$ is a continuous section of $u$.
 
-#### Remark {#evt-ii-s4-n7-rem-1 .statement}
+#### Remark {#evt-ii-s4-n7-rem-1 .statement tag=07F0}
 
 — 1) The corollary to prop. 12 can also be deduced from th. 1 of I, p. 17 and prop. 18 of GT, IX, § 2.10.
 2) We keep the notations of prop. 12. Let $p$ be a continuous semi-norm on $E$;

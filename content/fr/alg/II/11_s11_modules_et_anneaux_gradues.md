@@ -36,7 +36,7 @@ subsections:
       pdf_page: 351
 statements: 34
 exercises: 1
-content_sha256: 44070b11d16fec117e0e5ed0f2692d2a45a1b3db02e3ca6de5a9f8045f8eb246
+content_sha256: 4feb4b2602fd814e34b402af72a6991b7cc469d1465c367a8522f0ff24d7daa9
 ---
 
 ## § 11. MODULES ET ANNEAUX GRADUÉS
@@ -47,29 +47,29 @@ A partir du n° 2 de ce paragraphe, Δ désignera un monoïde (I, p. 12) commuta
 
 Nous allons traduire dans un autre langage les définitions relatives aux sommes directes (II, p. 17).
 
-#### Définition 1 {#alg-ii-s11-def-1 .statement}
+#### Définition 1 {#alg-ii-s11-def-1 .statement tag=05XX}
 
 Étant donnés un groupe commutatif G noté additivement et un ensemble Δ, on appelle graduation de type Δ sur G une famille $(G_\lambda)_{\lambda \in \Delta}$ de sous-groupes de G, dont G est somme directe. L’ensemble G, muni de la structure définie par sa loi de groupe et sa graduation, est appelé groupe (commutatif) gradué de type Δ.
 
 On dit que Δ est l’ensemble des degrés de G. On dit qu’un élément $x \in G$ est homogène s’il appartient à un des $G_\lambda$, homogène de degré λ si $x \in G_\lambda$. L’élément 0 est donc homogène de tous les degrés ; mais si $x \neq 0$ est homogène, il appartient à un seul des $G_\lambda$ ; l’indice λ tel que $x \in G_\lambda$ est alors appelé le degré de x (ou quelquefois le poids de x) et se note parfois $\operatorname{deg}(x)$. Tout $y \in G$ s’écrit d’une seule manière comme somme $\sum_\lambda y_\lambda$ d’éléments homogènes, avec $y_\lambda \in G_\lambda$ ; on dit que $y_\lambda$ est la composante homogène de degré λ (ou simplement la composante de degré λ) de y. Lorsqu’on utilise le mot « poids » au lieu de « degré », on remplace l’adjectif « homogène » par « isobare ».
 
-#### Exemple 1 {#alg-ii-s11-n1-exa-1 .statement}
+#### Exemple 1 {#alg-ii-s11-n1-exa-1 .statement tag=05XY}
 
 Étant donnés un monoïde commutatif Δ quelconque (ayant un élément neutre 0) et un groupe commutatif quelconque G, on définit une graduation $(G_\lambda)_{\lambda \in \Delta}$ sur G en prenant $G_0 = G$ et $G_\lambda = \{0\}$ pour $\lambda \neq 0$ ; cette graduation est dite triviale.
 
-#### Exemple 2 {#alg-ii-s11-n1-exa-2 .statement}
+#### Exemple 2 {#alg-ii-s11-n1-exa-2 .statement tag=0DG4}
 
 Soient Δ, Δ’ deux ensembles, ρ une application de Δ dans Δ’. Soit $(G_\lambda)_{\lambda \in \Delta}$ une graduation de type Δ sur un groupe commutatif G ; pour $\mu \in \Delta'$, soit $G'_\mu$ la somme des $G_\lambda$ tels que $\rho(\lambda) = \mu$ ; il est clair que $(G'_\mu)_{\mu \in \Delta'}$ est une graduation de type Δ’ sur G, dite déduite de $(G_\lambda)$ au moyen de l’application ρ.
 
 Lorsque Δ est un groupe commutatif, noté additivement, et ρ l’application $\lambda \mapsto -\lambda$ de Δ sur lui-même, on dit que $(G'_\mu)$ est la graduation opposée de $(G_\lambda)$.
 
-#### Exemple 3 {#alg-ii-s11-n1-exa-3 .statement}
+#### Exemple 3 {#alg-ii-s11-n1-exa-3 .statement tag=0DG5}
 
 Si $\Delta = \Delta_1 \times \Delta_2$ est un produit de deux ensembles, on dit qu’une graduation de type Δ est une bigraduation de types $\Delta_1, \Delta_2$. Pour tout $\lambda \in \Delta_1$, posons $G'_\lambda = \bigoplus_{\mu \in \Delta_2} G_{\lambda \mu}$, et pour tout $\mu \in \Delta_2$, posons $G''_\mu = \bigoplus_{\lambda \in \Delta_1} G_{\lambda \mu}$ ; il est clair que $(G'_\lambda)_{\lambda \in \Delta_1}$ est une graduation de type $\Delta_1$ et $(G''_\mu)_{\mu \in \Delta_2}$ une graduation de type $\Delta_2$ sur G ; on dit que ces graduations sont les graduations partielles déduites de la bigraduation $(G_{\lambda \mu})$. On notera que l’on a $G_{\lambda \mu} = G'_\lambda \cap G''_\mu$ ; inversement, si $(G'_\lambda)_{\lambda \in \Delta_1}$ et $(G''_\mu)_{\mu \in \Delta_2}$ sont deux graduations sur G telles que G soit somme directe des
 
 G_{\lambda,\mu} = G'_\lambda \cap G''_\mu, ces sous-groupes forment une bigraduation de types $\Delta_1, \Delta_2$ sur G, dont $(G'_\lambda)$ et $(G''_\mu)$ sont les graduations partielles. Nous laissons au lecteur le soin de généraliser au cas où $\Delta$ est un produit fini d’ensembles.
 
-#### Exemple 4 {#alg-ii-s11-n1-exa-4 .statement}
+#### Exemple 4 {#alg-ii-s11-n1-exa-4 .statement tag=0DG6}
 
 Soient $\Delta_0$ un monoïde commutatif noté additivement, ayant un élément neutre noté 0 ; soit I un ensemble quelconque, et désignons par $\Delta_0^{(I)} = \Delta$ le sous-monoïde du produit $\Delta_0^I$ formé des familles $(\lambda_i)_{i \in I}$ de support fini. Soit $\rho : \Delta \to \Delta_0$ l’homomorphisme (codiagonal) surjectif de $\Delta$ dans $\Delta_0$ défini par $\rho((\lambda_i)) = \sum_{i \in I} \lambda_i$. De toute graduation de type $\Delta$ on déduit au moyen de $\rho$ une graduation de type $\Delta_0$ (*Exemple 2*) ; on dit que c’est la *graduation totale* associée à la « multigraduation » donnée de type $\Delta$.
 
@@ -77,7 +77,7 @@ Les définitions et exemples de ce n° s’étendent aussitôt au cas où G est 
 
 ### 2. Anneaux et modules gradués
 
-#### Définition 2 {#alg-ii-s11-def-2 .statement}
+#### Définition 2 {#alg-ii-s11-def-2 .statement tag=05XZ}
 
 Étant donnés un anneau $\mathbf{A}$ et une graduation $(\mathbf{A}_\lambda)$ de type $\Delta$ sur le groupe additif $\mathbf{A}$, on dit que cette graduation est compatible avec la structure d’anneau de $\mathbf{A}$ si l’on a
 
@@ -88,13 +88,13 @@ $$
 
 L’anneau $\mathbf{A}$, muni de cette graduation, est alors appelé anneau gradué de type $\Delta$.
 
-#### Proposition 1 {#alg-ii-s11-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s11-prop-1 .statement tag=05Y0}
 
 Si tout élément de $\Delta$ est simplifiable et si $(\mathbf{A}_\lambda)$ est une graduation de type $\Delta$ compatible avec la structure d’un anneau $\mathbf{A}$, $\mathbf{A}_0$ est un sous-anneau de $\mathbf{A}$ (et en particulier on a $1 \in \mathbf{A}_0$).
 
 Comme $\mathbf{A}_0 \mathbf{A}_0 \subset \mathbf{A}_0$ par définition, il suffit de prouver que $1 \in \mathbf{A}_0$. Soit $1 = \sum_{\lambda \in \Delta} e_\lambda$ la décomposition de 1 en ses composantes homogènes. Si $x \in \mathbf{A}_\mu$, on a $x = x.1 = \sum_{\lambda \in \Delta} x e_\lambda$; comparant les composantes de degré $\mu$, on obtient (puisque la relation $\mu + \lambda = \mu$ entraîne $\lambda = 0$) $x = x e_0$. Cette relation, étant vraie pour tout élément homogène de $\mathbf{A}$, est vraie pour tout $x \in \mathbf{A}$; en particulier $1 = 1.e_0 = e_0 \in \mathbf{A}_0$.
 
-#### Définition 3 {#alg-ii-s11-def-3 .statement}
+#### Définition 3 {#alg-ii-s11-def-3 .statement tag=05Y1}
 
 Soient $\mathbf{A}$ un anneau gradué de type $\Delta$, $(\mathbf{A}_\lambda)$ sa graduation, $\mathbf{M}$ un $\mathbf{A}$-module à gauche (resp. à droite) ; on dit qu’une graduation $(\mathbf{M}_\lambda)$ de type $\Delta$ sur le groupe additif $\mathbf{M}$ est compatible avec la structure de $\mathbf{A}$-module de $\mathbf{M}$ si l’on a
 
@@ -108,11 +108,11 @@ Lorsque les éléments de $\Delta$ sont simplifiables, il résulte de (2) et de 
 
 Il est clair que si $A$ est un anneau gradué de type $\Delta$, le $A$-module à gauche $A_s$ (resp. le $A$-module à droite $A_d$) est gradué de type $\Delta$.
 
-#### Exemple 1 {#alg-ii-s11-n2-exa-1 .statement}
+#### Exemple 1 {#alg-ii-s11-n2-exa-1 .statement tag=05Y2}
 
 Sur un anneau quelconque $A$, la graduation triviale de type $\Delta$ est compatible avec la structure d’anneau. Si $A$ est gradué par la graduation triviale, pour qu’une graduation $(M_\lambda)$ de type $\Delta$ sur un $A$-module $M$ soit compatible avec la structure de $A$-module, il faut et il suffit que les $M_\lambda$ soient des *sous-modules* de $M$.
 
-#### Exemple 2 {#alg-ii-s11-n2-exa-2 .statement}
+#### Exemple 2 {#alg-ii-s11-n2-exa-2 .statement tag=05Y5}
 
 Soient $A$ un anneau gradué de type $\Delta$, $M$ un $A$-module gradué de type $\Delta$, $\rho$ un homomorphisme de $\Delta$ dans un monoïde commutatif $\Delta'$ dont l’élément neutre est noté 0. Alors $A$ est un anneau gradué de type $\Delta'$ et $M$ un $A$-module gradué de type $\Delta'$ pour les graduations de type $\Delta'$ déduites de $\rho$ et des graduations de type $\Delta$ sur $A$ et $M$ par le procédé de II, p. 163, *Exemple 2*: cela résulte aussitôt de la relation $\rho(\lambda + \mu) = \rho(\lambda) + \rho(\mu)$.
 
@@ -120,15 +120,15 @@ En particulier, si $\Delta = \Delta_1 \times \Delta_2$ est un produit de deux mo
 
 De même, si $\Delta = \Delta_0^{(I)}$ (où $\Delta_0$ est un monoïde commutatif ayant un élément neutre noté 0), la *graduation totale* (II, p. 164, *Exemple 4*) de type $\Delta_0$ déduite de la graduation de type $\Delta$ de $A$ (resp. $M$) au moyen de l’homomorphisme codiagonal est compatible avec la structure d’anneau de $A$ (resp. avec la structure de module de $M$).
 
-#### Exemple 3 {#alg-ii-s11-n2-exa-3 .statement}
+#### Exemple 3 {#alg-ii-s11-n2-exa-3 .statement tag=0DG7}
 
 Soient $A$ un anneau gradué de type $\Delta$, $M$ un $A$-module gradué de type $\Delta$, $\lambda_0$ un élément de $\Delta$; pour tout $\lambda \in \Delta$, soit $M'_\lambda = M_{\lambda + \lambda_0}$, et soit $M'$ le $\mathbf{Z}$-module $\bigoplus_{\lambda \in \Delta} M'_\lambda$. Comme $A_\lambda M'_\mu \subset M_{\lambda + \mu + \lambda_0} = M'_{\lambda + \mu}$, $M'$ est un $A$-module et les $M'_\lambda$ forment sur $M'$ une graduation de type $\Delta$ compatible avec la structure de $A$-module de $M'$; on dit que le $A$-module gradué $M'$ de type $\Delta$ ainsi défini est obtenu par *décalage de $\lambda_0$* de la graduation de $M$, et on le note $M(\lambda_0)$. Lorsque $\Delta$ est un *groupe*, le $A$-module sous-jacent au $A$-module gradué $M'$ s’identifie à $M$.
 
-#### Exemple 4 {#alg-ii-s11-n2-exa-4 .statement}
+#### Exemple 4 {#alg-ii-s11-n2-exa-4 .statement tag=0DG8}
 
 Soit $B$ un anneau commutatif. L’anneau de polynômes $B[X]$ à une indéterminée est gradué de type $\mathbf{N}$ par les sous-groupes $BX^n$ ($n \geqslant 0$) (cf. III, p. 25, et IV).*
 
-#### Exemple 5 {#alg-ii-s11-n2-exa-5 .statement}
+#### Exemple 5 {#alg-ii-s11-n2-exa-5 .statement tag=0DG9}
 
 Soient $B$ un anneau commutatif, $E$ un $B$-module, $Q$ une forme quadratique sur $E$, $C(Q)$ l’algèbre de Clifford de $Q$ (cf. IX, § 9). Les sous-B-modules $C^+(Q)$ et $C^-(Q)$ forment sur $C(Q)$ une graduation de type $\mathbf{Z}/2\mathbf{Z}$ compatible avec la structure d’anneau de $C(Q)$.*
 
@@ -136,7 +136,7 @@ type $\mathbf{Z}^n$; lorsqu’on parle d’anneaux ou de modules *gradués* (res
 
 2) Les $\mathbf{Z}$-modules gradués de type $\Delta$, lorsque $\mathbf{Z}$ est muni de la graduation triviale, ne sont autres que les groupes commutatifs gradués (dont l’ensemble des degrés est un monoïde commutatif) de II, p. 163, déf. 1.
 
-#### Définition 4 {#alg-ii-s11-def-4 .statement}
+#### Définition 4 {#alg-ii-s11-def-4 .statement tag=05Y4}
 
 *Soient A, A' deux anneaux gradués de même type $\Delta$, $(A_\lambda), (A'_\lambda)$ leurs graduations respectives. On dit qu’un homomorphisme d’anneaux $h : A \to A'$ est gradué si l’on a $h(A_\lambda) \subset A'_\lambda$ pour tout $\lambda \in \Delta$.
 
@@ -150,11 +150,11 @@ Si $h : A \to A', h' : A' \to A''$ sont deux homomorphismes gradués d’anneaux
 
 De même, si $u : M \to M'$ et $u' : M' \to M''$ sont deux homomorphismes gradués de $A$-modules gradués de type $\Delta$, de degrés respectifs $\delta$ et $\delta'$, $u' \circ u : M \to M''$ est un homomorphisme gradué de degré $\delta + \delta'$. Si $\delta$ admet un opposé $-\delta$ dans $\Delta$ et si $u : M \to M'$ est un homomorphisme gradué bijectif de degré $\delta$, l’application réciproque $u' : M' \to M$ est un homomorphisme gradué bijectif de degré $-\delta$. On en conclut comme ci-dessus qu’on peut prendre pour *morphismes* de l’espèce de structure de $A$-module gradué de type $\Delta$ les *homomorphismes gradués de degré* 0. Mais un homomorphisme gradué bijectif $u : M \to N$ de degré $\neq 0$ n’est pas un isomorphisme de $A$-modules gradués si $M$ et $N$ ne sont pas réduits à 0 et si les éléments de $\Delta$ sont simplifiables.
 
-#### Exemple 6 {#alg-ii-s11-n2-exa-6 .statement}
+#### Exemple 6 {#alg-ii-s11-n2-exa-6 .statement tag=0DGA}
 
 Si $M$ est un $A$-module gradué, $M(\lambda_0)$ un $A$-module gradué obtenu par décalage (II, p. 165, *Exemple 3*), l’application $\mathbf{Z}$-linéaire de $M(\lambda_0)$ dans $M$ qui coïncide avec l’injection canonique dans chaque $M_{\lambda + \lambda_0}$, est un homomorphisme gradué de degré $\lambda_0$ (qui est bijectif lorsque $\Delta$ est un *groupe*).
 
-#### Exemple 7 {#alg-ii-s11-n2-exa-7 .statement}
+#### Exemple 7 {#alg-ii-s11-n2-exa-7 .statement tag=0DGB}
 
 Si $a$ est un élément homogène de degré $\delta$ appartenant au centre de $A$, l’homothétie $x \mapsto ax$ d’un $A$-module gradué quelconque $M$ est un homomorphisme gradué de degré $\delta$.
 
@@ -164,7 +164,7 @@ Supposant toujours que $\Delta$ est un groupe commutatif, soient maintenant $N$ 
 
 ### 3. Sous-modules gradués
 
-#### Proposition 2 {#alg-ii-s11-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s11-prop-2 .statement tag=05Y6}
 
 Soient $A$ un anneau gradué de type $\Delta$, $M$ un $A$-module gradué de *type* $\Delta$, $(M_\lambda)$ sa graduation, $N$ un sous-$A$-module de $M$. Les propriétés suivantes sont équivalentes:
 
@@ -182,11 +182,11 @@ Remarque 1). — Avec les notations précédentes, la relation $\sum_{i \in I} a
 
 Lorsqu’un sous-module N de M vérifie les propriétés équivalentes énoncées dans la prop. 2, il est clair que les $N \cap M_\lambda$ forment une graduation compatible avec la structure de A-module de N, appelée graduation induite par celle de M; on dit que N, muni de cette graduation, est un sous-module gradué de M.
 
-#### Corollaire 1 {#alg-ii-s11-prop-2-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s11-prop-2-cor-1 .statement tag=05Y7}
 
 Si N est un sous-module gradué de M et si $(x_i)$ est un système générateur de N, les composantes homogènes des $x_i$ forment un système générateur de N.
 
-#### Corollaire 2 {#alg-ii-s11-prop-2-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s11-prop-2-cor-2 .statement tag=05Y8}
 
 Si N est un sous-module gradué de type fini de M, N admet un système générateur fini formé d’éléments homogènes.
 
@@ -200,7 +200,7 @@ Si N est un sous-module gradué d’un A-module gradué M et $(M_\lambda)_{\lamb
 
 Si $b$ est un idéal bilatère gradué de A, la graduation quotient sur $A/b$ est compatible avec la structure d’anneau de $A/b$; l’anneau $A/b$, muni de cette graduation, s’appelle l’anneau gradué quotient de A par $b$; l’homomorphisme canonique $A \to A/b$ est un homomorphisme d’anneaux gradués pour cette graduation.
 
-#### Proposition 3 {#alg-ii-s11-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s11-prop-3 .statement tag=05Y9}
 
 Soient A un anneau gradué de type $\Delta$, M et N deux A-modules gradués de type $\Delta$, $u : M \to N$ un A-homomorphisme gradué de degré $\delta$. Alors:
 (i) $\operatorname{Im}(u)$ est un sous-module gradué de N.
@@ -210,13 +210,13 @@ Soient A un anneau gradué de type $\Delta$, M et N deux A-modules gradués de t
 
 L’assertion (i) découle aussitôt des définitions et de la prop. 2, c) (II, p. 167). Si $x$ est un élément de $M$ tel que $u(x) = 0$ et si $x = \sum_{\lambda} x_{\lambda}$ est sa décomposition en composantes homogènes (où $x_{\lambda}$ est de degré $\lambda$), on a $\sum_{\lambda} u(x_{\lambda}) = u(x) = 0$ et $u(x_{\lambda})$ est de degré $\lambda + \delta$; si $\delta$ est simplifiable, la relation $\lambda + \delta = \mu + \delta$ entraîne $\lambda = \mu$, donc les $u(x_{\lambda})$ sont les composantes homogènes de $u(x)$, et on a nécessairement $u(x_{\lambda}) = 0$ pour tout $\lambda \in \Delta$, ce qui prouve (ii). La bijection $v : M / \mathrm{Ker}(u) \to \mathrm{Im}(u)$ canoniquement associée à $u$ est alors un homomorphisme gradué de degré $\delta$, comme il résulte de la définition de la graduation quotient; d’où (iii) lorsque $\delta = 0$.
 
-#### Corollaire {#alg-ii-s11-n3-cor-1 .statement}
+#### Corollaire {#alg-ii-s11-n3-cor-1 .statement tag=05YA}
 
 Soient $A, B$ deux anneaux gradués de type $\Delta$, $u : A \to B$ un homomorphisme gradué d’anneaux gradués. Alors $\mathrm{Im}(u)$ est un sous-anneau gradué de $B$, $\mathrm{Ker}(u)$ un idéal bilatère gradué de $A$, et la bijection $A / \mathrm{Ker}(u) \to \mathrm{Im}(u)$ canoniquement associée à $u$ est un isomorphisme d’anneaux gradués.
 
 Il suffit d’appliquer la prop. 3 à $u$ considéré comme homomorphisme de degré 0 de $\mathbf{Z}$-modules gradués.
 
-#### Proposition 4 {#alg-ii-s11-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s11-prop-4 .statement tag=05YB}
 
 Soient $A$ un anneau gradué de type $\Delta$, $M$ un $A$-module gradué de type $\Delta$.
 (i) Toute somme et toute intersection de sous-modules gradués de $M$ est un sous-module gradué.
@@ -229,13 +229,13 @@ Pour démontrer (ii), il suffit de remarquer que $\mathrm{Ann}(x)$ est le noyau 
 
 Remarque 2). — Soient $M$ un $A$-module gradué, $E$ un sous-module de $M$; il résulte de la prop. 4, (i) qu’il existe un plus grand sous-module gradué $N'$ de $M$ contenu dans $E$ et un plus petit sous-module gradué $N''$ de $M$ contenant $E$; $N'$ est l’ensemble des $x \in E$ dont toutes les composantes homogènes appartiennent à $E$, et $N''$ est le sous-module de $M$ engendré par les composantes homogènes d’un système générateur de $E$.
 
-#### Proposition 5 {#alg-ii-s11-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s11-prop-5 .statement tag=05YD}
 
 *Soit $A$ un anneau gradué de type $\Delta$. Si tout élément de $\Delta$ est simplifiable, alors, pour tout élément homogène $a \in A$, le commutant de $a$ dans $A$ (I, p. 7) est un sous-anneau gradué de $A$.*
 
 Supposons que $a$ soit de degré $\delta$; soit $b = \sum_{\lambda} b_{\lambda}$ un élément permutable à $a$, $b_{\lambda}$ étant la composante homogène de degré $\lambda$ de $b$ pour tout $\lambda \in \Delta$. On a par hypothèse $\sum_{\lambda} (ab_{\lambda} - b_{\lambda}a) = 0$ et $ab_{\lambda} - b_{\lambda}a$ est homogène de degré $\lambda + \delta$; comme $\delta$ est simplifiable, on en déduit que $ab_{\lambda} = b_{\lambda}a$ pour tout $\lambda$, ce qui prouve notre assertion.
 
-#### Corollaire {#alg-ii-s11-n3-cor-2 .statement}
+#### Corollaire {#alg-ii-s11-n3-cor-2 .statement tag=05YE}
 
 *Si tout élément de $\Delta$ est simplifiable, le commutant d’un sous-anneau gradué $B$ de $A$ (et en particulier le centre de $A$) est un sous-anneau gradué de $A$.*
 
@@ -249,25 +249,25 @@ Sur un groupe commutatif $\Delta$, noté additivement, on dit qu’une structure
 
 Soient $\Delta$ un groupe commutatif ordonné, $A$ un anneau gradué de type $\Delta$, $(A_{\lambda})$ sa graduation, et supposons que la relation $A_{\lambda} \neq \{0\}$ entraîne $\lambda \geqslant 0$; alors il résulte des définitions que $\mathfrak{J}_0 = \sum_{\lambda > 0} A_\lambda$ est un *idéal bilatère gradué* de $A$, en vertu de la remarque faite ci-dessus.
 
-#### Proposition 6 {#alg-ii-s11-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s11-prop-6 .statement tag=05YF}
 
 *Soient $\Delta$ un groupe commutatif ordonné, $A$ un anneau gradué de type $\Delta$, $(A_\lambda)$ sa graduation, $M$ un $A$-module gradué de type $\Delta$, $(M_\lambda)$ sa graduation. Supposons que la relation $A_\lambda \neq \{0\}$ implique $\lambda \geqslant 0$ et qu’il existe $\lambda_0$ tel que $M_{\lambda_0} \neq \{0\}$ et $M_\lambda = \{0\}$ pour $\lambda < \lambda_0$. Alors, si on pose $\mathfrak{J}_0 = \sum_{\lambda > 0} A_\lambda$, on a $\mathfrak{J}_0 M \neq M$.
 
 Soit $x$ un élément non nul de $M_{\lambda_0}$; supposons que l’on ait $x \in \mathfrak{J}_0 M$. Alors $x = \sum_i a_i x_i$ où les $a_i$ sont des éléments homogènes $\neq 0$ de $\mathfrak{J}_0$, les $x_i$ des éléments homogènes $\neq 0$ de $M$, avec $\deg(x) = \deg(a_i) + \deg(x_i)$ pour tout $i$ (II, p. 167). Mais, comme $\deg(a_i) > 0$, on aurait alors $\lambda_0 = \deg(a_i) + \deg(x_i) > \deg(x_i)$, ce qui contredit l’hypothèse.
 
-#### Corollaire 1 {#alg-ii-s11-prop-6-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s11-prop-6-cor-1 .statement tag=05YG}
 
 *Les hypothèses sur $\Delta$ et $A$ étant celles de la prop. 6, si $M$ est un $A$-module gradué de type fini tel que $\mathfrak{J}_0 M = M$, on a $M = \{0\}$.
 
 Supposons $M \neq \{0\}$. Soit $\lambda_0$ un élément minimal de l’ensemble des degrés d’un système générateur fini formé d’éléments homogènes $\neq 0$ de $M$; alors les hypothèses de la prop. 6 seraient vérifiées, ce qui implique contradiction.
 
-#### Corollaire 2 {#alg-ii-s11-prop-6-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s11-prop-6-cor-2 .statement tag=05YH}
 
 *Les hypothèses sur $\Delta$ et $A$ étant celles de la prop. 6, soient $M$ un $A$-module gradué de type fini, $N$ un sous-module gradué de $M$ tel que $N + \mathfrak{J}_0 M = M$; alors on a $N = M$.
 
 En effet, $M/N$ est un $A$-module gradué de type fini, et l’hypothèse entraîne que $\mathfrak{J}_0 . (M/N) = M/N$; donc $M/N = 0$.
 
-#### Corollaire 3 {#alg-ii-s11-prop-6-cor-3 .statement}
+#### Corollaire 3 {#alg-ii-s11-prop-6-cor-3 .statement tag=05YI}
 
 *Les hypothèses sur $\Delta$ et $A$ étant celles de la prop. 6, soit $u : M \to N$ un homomorphisme gradué de $A$-modules à droite gradués, $N$ étant supposé de type fini. Si l’homomorphisme*
 
@@ -279,14 +279,14 @@ $$
 
 En effet, $u(M)$ est un sous-module gradué de $N$, et le $(A/\mathfrak{J}_0)$-module $(N/u(M)) \otimes_A (A/\mathfrak{J}_0)$ est isomorphe à $(N \otimes_A (A/\mathfrak{J}_0))/\mathrm{Im}(u \otimes 1)$ (II, p. 59, prop. 6). L’hypothèse entraîne donc $(N/u(M)) \otimes_A (A/\mathfrak{J}_0) = 0$, donc $N = u(M)$ en vertu du cor. 1.
 
-#### Remarque {#alg-ii-s11-n4-rem-1 .statement}
+#### Remarque {#alg-ii-s11-n4-rem-1 .statement tag=05YJ}
 
 Il résulte de la démonstration du cor. 1 que les cor. 1 et 2 (resp. le cor. 3) sont encore valables lorsqu’au lieu de supposer que $M$ (resp. $N$) est de type fini, on fait l’hypothèse suivante: il existe une partie $\Delta^+$ de $\Delta$ vérifiant les conditions suivantes:
 $1^\circ$ pour $\lambda \notin \Delta^+$, on a $M_\lambda = \{0\}$ (resp. $N_\lambda = \{0\}$);
 $2^\circ$ toute partie non vide de $\Delta^+$ possède un plus petit élément.
 Ce sera le cas si $\Delta = \mathbf{Z}$ et si $M$ (resp. $N$) est un module gradué à degrés *positifs*.
 
-#### Proposition 7 {#alg-ii-s11-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s11-prop-7 .statement tag=05YK}
 
 *Supposons que $\Delta = \mathbf{Z}$. Les hypothèses sur $A$ et $M$ étant celles de la* prop. 6, on considère le $A_0$-module gradué $N = M / J_0 M$, et on suppose vérifiées les conditions suivantes:
 
@@ -317,7 +317,7 @@ C.Q.F.D.
 
 Nous montrerons plus tard (AC, II, § 3, n° 2, prop. 5) comment cette proposition peut s’étendre aux modules non gradués.
 
-#### Lemme 1 {#alg-ii-s11-lem-1 .statement}
+#### Lemme 1 {#alg-ii-s11-lem-1 .statement tag=05YL}
 
 Pour qu’un groupe commutatif $\Delta$ soit tel qu’il existe sur $\Delta$ un ordre total compatible avec la structure de groupe de $\Delta$, il faut et il suffit que $\Delta$ soit sans torsion.
 
@@ -325,7 +325,7 @@ En effet, s’il existe une telle structure d’ordre sur $\Delta$ et si $\lambd
 
 C. Q.F.D.
 
-#### Proposition 8 {#alg-ii-s11-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s11-prop-8 .statement tag=05YM}
 
 *Soient $\Delta$ un groupe commutatif sans torsion, $A$ un anneau gradué de type $\Delta$. Si le produit dans $A$ de deux éléments homogènes $\neq 0$ est $\neq 0$, l’anneau $A$ n’a pas de diviseur de 0.*
 
@@ -339,7 +339,7 @@ Soient $M'$ (resp. $N'$) un second A-module à droite (resp. à gauche) gradué,
 
 Lorsque A est commutatif, on définit de même une graduation (compatible avec la structure de A-module) sur le produit tensoriel d’un nombre fini quelconque de A-modules gradués; il est immédiat en outre que les isomorphismes d’associativité tels que $(M \otimes N) \otimes P \to M \otimes (N \otimes P)$ (II, p. 64, prop. 8) sont des isomorphismes de modules gradués.
 
-#### Remarque {#alg-ii-s11-n5-rem-1 .statement}
+#### Remarque {#alg-ii-s11-n5-rem-1 .statement tag=05YN}
 
 Lorsque A est muni de la graduation triviale (II, p. 163, Exemple 1), $(M \otimes_A N)_\lambda$ est alors simplement la somme directe des sous-C-modules $M_\mu \otimes_A N_\nu$ de $M \otimes_A N$ tels que $\mu + \nu = \lambda$.
 
@@ -365,7 +365,7 @@ Soient $M'$ et $N'$ deux $A$-modules à gauche gradués de type $\Delta$, $u': M
 
 En particulier $\mathrm{Homgr}_{A}(M, M)$ est un *sous-anneau gradué* de $\mathrm{End}_{A}(M)$, que l’on note $\mathrm{Endgr}_{A}(M)$.
 
-#### Remarque {#alg-ii-s11-n6-rem-1 .statement}
+#### Remarque {#alg-ii-s11-n6-rem-1 .statement tag=05YO}
 
 Si $M$ et $N$ sont des $A$-modules à gauche gradués, $\mathrm{Homgr}_{A}(M, N)$ est en général distinct de $\mathrm{Hom}_{A}(M, N)$. Toutefois ces deux ensembles sont égaux lorsque $M$ est un $A$-module *de type fini*. En effet, $M$ est alors engendré par un nombre fini d’éléments homogènes $x_{i}$ ($1 \leq i \leq n$); soit $d(i)$ le degré de $x_{i}$; soit $u \in \mathrm{Hom}_{A}(M, N)$ et pour tout $\lambda \in \Delta$, désignons par $z_{i, \lambda}$ la composante homogène de degré $\lambda + d(i)$ de $u(x_{i})$. Montrons qu’il existe un homomorphisme $u_{\lambda}: M \to N$, tel que $u_{\lambda}(x_{i}) = z_{i, \lambda}$ pour tout $i$. Il suffit de prouver que si l’on a $\sum_{i} a_{i}x_{i} = 0$ avec $a_{i} \in A$ pour $1 \leq i \leq n$, il en résulte que $\sum_{i} a_{i}z_{i, \lambda} = 0$ pour tout $\lambda \in \Delta$ (II, p. 16, *Remarque*). On peut supposer que chaque $a_{i}$ est homogène de degré $d'(i)$ tel que $d(i) + d'(i) = \mu$ pour tout $i$ (II, p. 167, *Remarque 1*); on a alors $\sum_{i} a_{i}u(x_{i}) = 0$; prenant la composante homogène de degré $\lambda + \mu$ du premier membre, il vient $\sum_{i} a_{i}z_{i, \lambda} = 0$, d’où l’existence de l’homomorphisme $u_{\lambda}$; il est clair en outre que $u_{\lambda}$ est *gradué* de degré $\lambda$. Enfin, on a $u_{\lambda} = 0$ sauf pour un nombre fini de valeurs de $\lambda$, et $u = \sum_{\lambda} u_{\lambda}$ par définition, ce qui achève de prouver notre assertion.
 

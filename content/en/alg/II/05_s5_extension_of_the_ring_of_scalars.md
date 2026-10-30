@@ -34,7 +34,7 @@ subsections:
       pdf_page: 308
 statements: 13
 exercises: 7
-content_sha256: febcd34cae06506edd112484e71c36d0c4e9ea06b4c8287244a60b89d1e7d7bd
+content_sha256: 77418857e92cac7b8d57a775fbe6a401b2e7ca09da87ea0dd014ebf83b887e38
 ---
 
 ## § 5. EXTENSION OF THE RING OF SCALARS
@@ -43,7 +43,7 @@ content_sha256: febcd34cae06506edd112484e71c36d0c4e9ea06b4c8287244a60b89d1e7d7bd
 
 Let $A, B$ be two rings and $\rho : A \to B$ a ring homomorphism; we consider the right $A$-module $\rho^*(B_d)$ defined by this homomorphism ($§ 1$, no. 13); this $A$-module also has a left $B$-module structure, namely that of $B_s$ and, as $b'(b\rho(a)) = (b'b)\rho(a)$ for $a \in A, b, b'$ in $B$, these two module structures on $B$ are compatible ($§ 1$, no. 14). This allows us, for every left $A$-module $E$, to define a left $B$-module structure on the tensor product $\rho_*(B_d) \otimes_A E$ such that $\beta'(\beta \otimes x) = (\beta'\beta) \otimes x$ for $\beta, \beta'$ in $B$ and $x \in E$ ($§ 3$, no. 3). This left $B$-module is said to be *derived from $E$ by extending the ring of scalars to $B$ by means of $\rho$* and it is denoted by $\rho^*(E)$ or $E_{(B)}$ if no confusion arises.
 
-#### Proposition 1 {#alg-ii-s5-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s5-prop-1 .statement tag=05QD}
 
 *For every left $A$-module $E$, the mapping $\phi : x \mapsto 1 \otimes x$ of $E$ into the $A$-module $\rho_*(\rho^*(E))$ is $A$-linear and the set $\phi(E)$ generates the $B$-module $\rho^*(E)$. Further, for every left $B$-module $F$ and every $A$-linear mapping $f$ of $E$ into the $A$-module $\rho_*(F)$, there exists one and only one $B$-linear mapping $\bar{f}$ of $\rho^*(E)$ into $F$ such that $\bar{f}(1 \otimes x) = f(x)$ for all $x \in E$.*
 
@@ -67,7 +67,7 @@ $$
 
 Proposition 1 is therefore proved. The mapping $\phi_E : E \to \rho_*(\rho^*(E))$ is called *canonical*.
 
-#### Remark {#alg-ii-s5-n1-rem-1 .statement}
+#### Remark {#alg-ii-s5-n1-rem-1 .statement tag=05QE}
 
 (1) Proposition 1 shows that the ordered pair consisting of $E_{(B)}$ and $\phi_E$ is a solution of the universal mapping problem (Set Theory, IV, § 3, no. 1), where $\Sigma$ is the species of left B-module structures (the morphisms being B-linear mappings) and the $\alpha$-mappings are the A-linear mappings of E into a B-module.
 
@@ -75,7 +75,7 @@ Proposition 1 is therefore proved. The mapping $\phi_E : E \to \rho_*(\rho^*(E))
 
 (3) Let E be a left A-module, $a$ a two-sided ideal of A and $\rho : A \to A/a$ the canonical homomorphism. In the notation of $§ 3$, no. 6, Corollary 2 to Proposition 6, the A-module $E/aE$ is annihilated by $a$ and therefore has canonically a left $(A/a)$-module structure ($§ 1$, no. 12); it is immediate that the canonical mapping $\pi : \rho^*(E) \to E/aE$ defined in $§ 3$, no. 6, Corollary 2 to Proposition 6 is an isomorphism for the $(A/a)$-module structures.
 
-#### Corollary {#alg-ii-s5-n1-cor-1 .statement}
+#### Corollary {#alg-ii-s5-n1-cor-1 .statement tag=05QF}
 
 *Let E, E' be two left A-modules; for every A-linear mapping $u : E \to E'$, $v = l_B \otimes u$ is the unique B-linear mapping which renders commutative the diagram*
 
@@ -102,7 +102,7 @@ $$
 
 Extending the ring of operators of a module is a *transitive* operation; to be precise:
 
-#### Proposition 2 {#alg-ii-s5-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s5-prop-2 .statement tag=05QG}
 
 *Let $\rho : A \to B,\ \sigma : B \to C$ be ring homomorphisms. For every left A-module E, there exists one and only one C-homomorphism*
 
@@ -130,7 +130,7 @@ defined earlier, the desired canonical isomorphism is obtained.
 
 If $\phi, \phi'$ and $\phi''$ denote the canonical mappings $E \to \rho^*(E), \rho^*(E \to) \sigma^*(\rho^*(E))$ and $E \to (\sigma \circ \rho)^*(E)$, $\phi' \circ \phi$ is identified with $\phi''$ under the canonical isomorphism of Proposition 2.
 
-#### Proposition 3 {#alg-ii-s5-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s5-prop-3 .statement tag=05QH}
 
 *Let A, B be two commutative rings, $\rho : A \to B$ a ring homomorphism and E, E' two A-modules. There exists one and only one B-homomorphism*
 
@@ -144,7 +144,7 @@ The left hand side of (5) may be written $(B \otimes_A E) \otimes_B (B \otimes_A
 
 Clearly if S is a generating system of E, the image of S under the canonical mapping $E \to E_{(B)}$ is a generating system of $E_{(B)}$; in particular, if E is a finitely generated A-module, $E_{(B)}$ is a finitely generated B-module.
 
-#### Proposition 4 {#alg-ii-s5-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s5-prop-4 .statement tag=05QI}
 
 *Let E be an A-module admitting a basis* $(a_\lambda)_{\lambda \in L}$; *if* $\phi : x \mapsto 1 \otimes x$ *is the canonical mapping of E into* $\rho^*(E)$, *then* $(\phi(a_\lambda))_{\lambda \in L}$ *is a basis of* $\rho^*(E)$. *If* $\rho$ *is injective, so is* $\phi$.
 
@@ -156,7 +156,7 @@ $$
 
 and the relation $\phi \left( \sum_{\lambda \in L} \xi_\lambda a_\lambda \right) = 0$ is therefore equivalent to $\rho(\xi_\lambda) = 0$ for all $\lambda \in L$, whence the second assertion.
 
-#### Corollary {#alg-ii-s5-n1-cor-2 .statement}
+#### Corollary {#alg-ii-s5-n1-cor-2 .statement tag=05QJ}
 
 *For every projective A-module E, the B-module* $\rho^*(E)$ *is projective. If further* $\rho$ *is injective, the canonical mapping of E into* $\rho^*(E)$ *is injective.*
 
@@ -200,7 +200,7 @@ $$
 equal to $\delta(l_{\rho_*(F)})$ and such therefore that, for all $y \in F$ and all $\beta \in B$,
 $\psi_F(\beta \otimes y) = \beta y$.
 
-#### Proposition 5 {#alg-ii-s5-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s5-prop-5 .statement tag=05QK}
 
 *Let E be a left A-module and F a left B-module; the composite mappings*
 
@@ -215,13 +215,13 @@ $$
 
 We give the proof, for example, for (12); for all $x \in E$, the mapping $\rho^*(\phi_E)$ maps $1 \otimes x$ to the element $1 \otimes (1 \otimes x)$ and the mapping $\psi_{\rho^*(E)}$ maps $1 \otimes (1 \otimes x)$ to the element $1 \otimes x$; the conclusion follows from the fact that the elements of the form $1 \otimes x$ generate the B-module $\rho^*(E)$; the proof is even simpler for (13).
 
-#### Corollary {#alg-ii-s5-n2-cor-1 .statement}
+#### Corollary {#alg-ii-s5-n2-cor-1 .statement tag=05QL}
 
 *The mappings $\rho^*(\phi_E)$ and $\phi_{\rho_*(F)}^*$ are injective and respectively identify $\rho^*(E)$ with a direct factor of $\rho^*(\rho_*(\rho^*(E)))$ and $\rho_*(F)$ with a direct factor of $\rho_*(\rho^*(\rho_*(F)))$.*
 
 This is a consequence of Proposition 5 and § 1, no. 9, Corollary 2 to Proposition 15.
 
-#### Proposition 6 {#alg-ii-s5-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s5-prop-6 .statement tag=05QM}
 
 *Let E be a left A-module and F a right B-module. There exists one and only one $\mathbf{Z}$-homomorphism*
 
@@ -271,7 +271,7 @@ where $r_b$ denotes right multiplication by $b$ in $B$.
 
 Moreover, the hypothesis that $\omega$ is a *central* homomorphism implies that $(bb')\rho(a) = b\rho(a))b'$ for $b,\ b'$ in $B$ and $a \in A$; in other words the *right* $B$-module structure of $B_d$ is *compatible* with its $A$-module structure; it thus defines on $B \otimes_A \operatorname{Hom}_A(E, F)$ a *right* $B$*-module* structure (§ 3, no. 4) and also on $F_{(B)} = B \otimes_A F$, and finally, as the left and right $B$-module structures on $F_{(B)}$ are *compatible*, a *right* $B$*-module* structure is also obtained on $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (§ 1, no. 14). Then it is immediately verified that (17) is a *right* $B$*-module* homomorphism* for these structures.
 
-#### Proposition 7 {#alg-ii-s5-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s5-prop-7 .statement tag=05QN}
 
 *Let $A$ be a commutative ring, $B$ a ring, $\rho : A \to B$ a central homomorphism and $E, F$ two $A$-modules.*
 
@@ -319,7 +319,7 @@ $$
 
 is commutative.
 
-#### Proposition 8 {#alg-ii-s5-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s5-prop-8 .statement tag=05QO}
 
 *If one of the A-modules* E, $\rho_* (B_s)$ *is projective and finitely generated, the homomorphism* $v_E$ *is bijective*.
 
@@ -329,7 +329,7 @@ Suppose in particular that E is a finitely generated free A-module and let $(e_i
 
 ### 5. A CRITERION FOR FINITENESS
 
-#### Proposition 9 {#alg-ii-s5-prop-9 .statement}
+#### Proposition 9 {#alg-ii-s5-prop-9 .statement tag=05QP}
 
 Let B be a ring, A a subring of B and P a projective left A-module. Then, if $P_{(B)}$ is a finitely generated B-module, P is itself a finitely generated A-module.
 

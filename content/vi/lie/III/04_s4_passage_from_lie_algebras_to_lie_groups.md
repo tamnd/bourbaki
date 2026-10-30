@@ -40,9 +40,9 @@ subsections:
       pdf_page: 312
 statements: 40
 exercises: 8
-content_sha256: 6411d7b646438ee7b4d04885ef500d06e1edbac804da49b82653775db653898d
+content_sha256: 58c5084609b1ce489ff4bf302221a5b4cb1241b0d4f5ed4ba61c2d0b205e2079
 translated_from: content/en/lie/III/04_s4_passage_from_lie_algebras_to_lie_groups.md
-source_content_sha256: 53f3ba4b1e396245998db2c812507d8a4e455c6e25b3731fc861c9dcc4705987
+source_content_sha256: ac80217cc327976168394892cdf7db00cf39b8b242f761fd1c03f5a44ca03e51
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-cbb0aad0
 glossary_version: 34
@@ -56,7 +56,7 @@ Nhắc lại rằng, cho đến hết chương này, K được giả thiết l�
 
 ### 1. CHUYỂN TỪ CÁC ĐỒNG CẤU ĐẠI SỐ LIE SANG CÁC ĐỒNG CẤU NHÓM LIE
 
-#### Bổ đề 1 {#lie-iii-s4-lem-1 .statement}
+#### Bổ đề 1 {#lie-iii-s4-lem-1 .statement tag=0ACK}
 
 *Cho G là một mầm nhóm Lie và $\mathfrak{h}$ là một đại số con Lie của $L(G)$ thừa nhận một phần bù tôpô. Hợp của các $g\mathfrak{h}$ (tương ứng $\mathfrak{h}g$) với $g \in G$ là một phân bó vectơ con khả tích của $T(G)$.*
 
@@ -64,7 +64,7 @@ Bằng cách xét phép tầm thường hóa trái của $T(G)$ (§ 2, no. 3), t
 
 Phân lá nguyên (*Differentiable and Analytic Manifolds*, R, 9.3.2) của hợp các $g\mathfrak{h}$ (tương ứng $\mathfrak{h}g$) được gọi là *phân lá* *trái* (tương ứng *phải*) của G liên kết với $\mathfrak{h}$.
 
-#### Định lý 1 {#lie-iii-s4-thm-1 .statement}
+#### Định lý 1 {#lie-iii-s4-thm-1 .statement tag=0ACL}
 
 *Cho G và H là các mầm nhóm Lie và f là một cấu xạ liên tục của $L(G)$ vào $L(H)$.
 (i) Tồn tại một mầm nhóm con Lie mở $G'$ của G và một cấu xạ $\phi$ của $G'$ vào H sao cho $f = L(\phi)$.
@@ -99,19 +99,19 @@ $$
 
 với $i = 1, 2$. Vì $\phi_1(e_G) = e_H = \phi_2(e_G)$, suy ra từ Differentiable and Analytic Manifolds, R, 9.3.7 rằng $\phi_1$ và $\phi_2$ trùng nhau trên một lân cận của $e_G$.
 
-#### Hệ quả 1 {#lie-iii-s4-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s4-thm-1-cor-1 .statement tag=0ACM}
 
 Cho $G$ và $H$ là hai mầm nhóm Lie. Nếu $L(G)$ và $L(H)$ đẳng cấu, thì $G$ và $H$ địa phương đẳng cấu.
 
 Điều này suy ra từ Định lý 1 và § 1, no. 10, Mệnh đề 21.
 
-#### Hệ quả 2 {#lie-iii-s4-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s4-thm-1-cor-2 .statement tag=0ACN}
 
 Cho $G$ là một mầm nhóm Lie. Nếu $L(G)$ giao hoán, thì $G$ địa phương đẳng cấu với nhóm Lie cộng tính $L(G)$.
 
 Đại số Lie của nhóm cộng $L(G)$ đẳng cấu với $L(G)$. Do đó chỉ cần áp dụng Hệ quả 1.
 
-#### Hệ quả 3 {#lie-iii-s4-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#lie-iii-s4-thm-1-cor-3 .statement tag=0ACO}
 
 Cho $G$ là một nhóm Lie. Nếu $L(G)$ giao hoán, thì $G$ chứa một nhóm con mở giao hoán.
 
@@ -121,7 +121,7 @@ Tồn tại một mầm nhóm con Lie mở U của G giao hoán (Hệ quả 2). 
 
 Ta sẽ ký hiệu chuỗi Hausdorff bởi H(X, Y) (Chương II, § 6, no. 4, Định nghĩa 1).
 
-#### Bổ đề 2 {#lie-iii-s4-lem-2 .statement}
+#### Bổ đề 2 {#lie-iii-s4-lem-2 .statement tag=0ACP}
 
 Cho L là một đại số Lie chuẩn đầy đủ trên $\mathbf{R}$ hoặc $\mathbf{C}$. Cho G là tập hợp các $x \in L$ sao cho $\|x\| < \frac{1}{3} \log \frac{3}{2}$. Cho $\theta$ là ánh xạ $x \mapsto -x$ của G vào G. Cho H là hạn chế vào $G \times G$ của hàm Hausdorff của L (Chương II, § 7, no. 2).
 (i) $(G, 0, \theta, H)$ là một mầm nhóm Lie.
@@ -137,7 +137,7 @@ G được gọi là *mầm nhóm Lie xác định bởi L*.
 
 Giả sử K là ultramêtric. Cho $p$ là đặc số của trường thặng dư của K. Nếu $p \neq 0$, cho $\lambda = |p|^{1/(p-1)}$; nếu $p = 0$, cho $\lambda = 1$.
 
-#### Bổ đề 3 {#lie-iii-s4-lem-3 .statement}
+#### Bổ đề 3 {#lie-iii-s4-lem-3 .statement tag=0ACQ}
 
 Cho L là một đại số Lie chuẩn đầy đủ trên K. Cho G là tập hợp các $x \in L$ sao cho $\|x\| < \lambda$. Cho $H : G \times G \to G$ là hàm Hausdorff của L (Chương II, § 8, no. 3).
 (i) Với luật hợp thành H, G là một nhóm Lie trong đó 0 là phần tử đơn vị và $-x$ là nghịch đảo của x với mọi $x \in G$.
@@ -147,13 +147,13 @@ Các mệnh đề (i) và (iii) suy ra từ Chương II, § 8, no. 3, Mệnh đ�
 
 G được gọi là *nhóm Lie xác định bởi L*.
 
-#### Định lý 2 {#lie-iii-s4-thm-2 .statement}
+#### Định lý 2 {#lie-iii-s4-thm-2 .statement tag=0ACR}
 
 Cho L là một đại số Lie chuẩn hóa được đầy đủ. Tồn tại một mầm nhóm Lie G sao cho L(G) đẳng cấu với L. Hai mầm nhóm Lie như vậy đẳng cấu địa phương.
 
 Mệnh đề thứ nhất suy ra từ các Bổ đề 2 và 3. Mệnh đề thứ hai suy ra từ Hệ quả 1 của Định lý 1 của no. 1.
 
-#### Hệ quả 1 {#lie-iii-s4-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s4-thm-2-cor-1 .statement tag=0ACS}
 
 Cho G là một nhóm Lie. Tồn tại một lân cận của e không chứa nhóm con hữu hạn nào phân biệt với {e}. Nếu K = R hoặc C, tồn tại một lân cận mở của e không chứa nhóm con nào phân biệt với {e}.
 
@@ -169,7 +169,7 @@ là điều vô lý. Do đó H = {e}.
 
 Giả sử K là ultramêtric. Chỉ cần chứng minh hệ quả khi G là nhóm Lie liên kết với L. Nếu $g \in G$, các lũy thừa của g được tính trong G là các phần tử của $\mathbf{Z}g$ được tính trong L. Các phần tử này phân biệt nếu $g \neq e$. Do đó G không chứa nhóm con hữu hạn nào phân biệt với {e}.
 
-#### Hệ quả 2 {#lie-iii-s4-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s4-thm-2-cor-2 .statement tag=0ACT}
 
 Cho k là một trường con đóng không rời rạc của K, G là một nhóm Lie trên k và L = L(G). Giả sử rằng L có một cấu trúc đại số Lie K chuẩn hóa được L', tương thích với cấu trúc đại số Lie k chuẩn hóa được và bất biến dưới biểu diễn phụ hợp của G. Khi đó trên G tồn tại duy nhất một cấu trúc nhóm Lie K tương thích với cấu trúc nhóm Lie k và có đại số Lie là L'.
 
@@ -177,7 +177,7 @@ Tồn tại một mầm nhóm Lie $G_1$ trên K sao cho $L(G_1) = L'$ (Định l
 
 nhóm K-Lie và V là một đa tạp con-K mở của G. Bằng phép tịnh tiến, thấy rằng cấu trúc đa tạp-k cơ sở của G là cấu trúc đã cho. Đại số Lie của nhóm Lie-K G là cùng một đại số với đại số của mầm nhóm con Lie-K mở V và do đó là L'. Cuối cùng, tính duy nhất được nêu trong hệ quả suy ra từ § 3, no. 8, Mệnh đề 32.
 
-#### Định lý 3 {#lie-iii-s4-thm-3 .statement}
+#### Định lý 3 {#lie-iii-s4-thm-3 .statement tag=0ACU}
 
 Cho G là một mầm nhóm Lie và $\mathfrak{h}$ là một đại số con Lie của $L(G)$ thừa nhận một phần bù tôpô. Tồn tại một mầm nhóm con Lie H của G sao cho $L(H) = \mathfrak{h}$. Nếu $H_1$ và $H_2$ là các mầm nhóm con Lie của G sao cho
 
@@ -189,13 +189,13 @@ thì $H_1 \cap H_2$ là mở trong $H_1$ và $H_2$.
 
 Tồn tại một mầm nhóm Lie $H'$ có đại số Lie đẳng cấu với $\mathfrak{h}$ (Định lý 2). Nếu cần thiết thu nhỏ $H'$, có thể giả sử rằng tồn tại một cấu xạ $\phi$ từ $H'$ vào G sao cho $L(\phi)$ là một đẳng cấu của $L(H')$ lên $\mathfrak{h}$ (no. 1, Định lý 1). Vì $\mathfrak{h}$ thừa nhận một phần bù tôpô, $\phi$ là một phép nhúng tại e. Do đó, nếu thu nhỏ thêm $H'$, có thể giả sử rằng $\phi$ là một đẳng cấu của đa tạp $H'$ lên một đa tạp con của G. Điều này chứng minh sự tồn tại của H. Mệnh đề thứ hai suy ra từ mệnh đề sau:
 
-#### Mệnh đề 1 {#lie-iii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iii-s4-prop-1 .statement tag=0ACV}
 
 Cho G là một mầm nhóm Lie và H và $H'$ là hai mầm nhóm con Lie. Để $L(H) \supset L(H')$, điều kiện cần và đủ là $H \cap H'$ mở trong $H'$.
 
 Nếu $H \cap H'$ là mở trong $H'$, thì $L(H') = L(H \cap H') \subset L(H)$. Giả sử rằng $L(H) \supset L(H')$. Gọi i, $i'$ là các đơn ánh chính tắc của H, $H'$ vào G. Bằng cách thu nhỏ $H'$ nếu cần thiết, có thể giả sử rằng tồn tại một cấu xạ $\psi$ từ $H'$ vào H sao cho $L(\psi)$ là đơn ánh chính tắc của $L(H')$ vào $L(H)$ (no. 1, Định lý 1). Khi đó $L(i \circ \psi) = L(i')$ và do đó tồn tại một lân cận V của $e_{H'}$ trong $H'$ sao cho $i \circ \psi$ và $i'$ trùng nhau trên V (Định lý 1). Vì vậy $V \subset H$, do đó $V \subset H \cap H'$ và $H \cap H'$ là mở trong $H'$ (§ 1, no. 10).
 
-#### Mệnh đề 2 {#lie-iii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iii-s4-prop-2 .statement tag=0ACW}
 
 Cho G là một nhóm Lie trên K, k là một trường con đóng không rời rạc của K và H là một nhóm con Lie của nhóm Lie-k G. Giả sử rằng $L(H)$ là một không gian con-K vectơ của $L(G)$ thừa nhận một phần bù tôpô. Khi đó H là một nhóm con Lie của nhóm Lie-K G.
 
@@ -203,7 +203,7 @@ Tồn tại một mầm nhóm con Lie $H'$ của nhóm Lie K G sao cho $L(H') = 
 
 ### 3. ÁNH XẠ MŨ
 
-#### Định lý 4 {#lie-iii-s4-thm-4 .statement}
+#### Định lý 4 {#lie-iii-s4-thm-4 .statement tag=0ACX}
 
 Cho G là một mầm nhóm Lie, L là đại số Lie của nó, V là một lân cận mở của 0 trong L, φ là một ánh xạ giải tích từ V vào G sao cho φ(0) = 0 và T_0(φ) = Id_L. Các điều kiện sau là tương đương:
 (i) Với mọi b ∈ L, φ((λ + λ')b) = φ(λb)φ(λ'b) với |λ| và |λ'| đủ nhỏ.
@@ -226,13 +226,13 @@ suy ra φ_*(b^n) là thuần nhất bậc n trong U(G).
 (iii) ⇒ (iv): ánh xạ chính tắc của TS(L) vào đại số bao của L là cấu xạ duy nhất của các đối đại số phân bậc biến 1 thành 1 và mở rộng Id_L (Chương II, § 1, no. 5, Nhận xét 3). Bây giờ φ_* là một cấu xạ đối đại số và φ_*|L = Id_L theo giả thiết. Nếu điều kiện (iii) đúng, ta thấy rằng điều kiện (iv) cũng đúng.
 (iv) ⇒ (v): giả sử rằng điều kiện (iv) được thỏa mãn. Chọn một chuẩn trên L xác định tôpô của L và sao cho \|[x, y]\| \leq \|x\|\|y\| với mọi x, y trong L. Gọi H là mầm nhóm Lie được xác định bởi đại số Lie chuẩn hóa L. Theo Định lý 1, tồn tại một mầm nhóm con mở S ⊂ V của H và một đẳng cấu φ' của S lên một mầm nhóm con mở của G. Như ta đã biết rằng (v) ⇒ (iv), ánh xạ φ_* của TS(L) vào U(G) là ánh xạ chính tắc của TS(L) vào đại số bao của L. Do đó φ_*(t) = φ'_*(t) với mọi t ∈ T_0^{(∞)}(L). Vì φ và φ' là giải tích, φ và φ' trùng nhau trên một lân cận của 0.
 
-#### Định nghĩa 1 {#lie-iii-s4-def-1 .statement}
+#### Định nghĩa 1 {#lie-iii-s4-def-1 .statement tag=0ACY}
 
 Cho G là một mầm nhóm Lie và L là đại số Lie của nó. Một ánh xạ mũ của G là bất kỳ ánh xạ giải tích $\phi$ nào được xác định trên một lân cận mở của 0 trong L, có giá trị trong G và thỏa mãn các điều kiện của Định lý 4.
 
 Định lý 4 suy ra ngay lập tức rằng, với mọi mầm nhóm Lie G, tồn tại một ánh xạ mũ của G và hai ánh xạ mũ của G trùng nhau trên một lân cận của 0.
 
-#### Ví dụ {#lie-iii-s4-n3-exa-1 .statement}
+#### Ví dụ {#lie-iii-s4-n3-exa-1 .statement tag=0ACZ}
 
 (1) Cho G là nhóm cộng của một không gian chuẩn hóa đầy đủ E. Đẳng cấu chính tắc của L(G) lên E thỏa mãn điều kiện (i) của Định lý 4 và do đó là một ánh xạ mũ của G.
 
@@ -244,7 +244,7 @@ Cho G là một mầm nhóm Lie và $\phi$ là một ánh xạ mũ của G. Khi 
 
 Một biểu đồ chính tắc (loài thứ nhất) trên G là một biểu đồ $\psi$ trên đa tạp giải tích G mà ánh xạ nghịch đảo của nó là một ánh xạ mũ. Nếu thêm nữa G là hữu hạn chiều và một cơ sở của L(G) được chọn, hệ tọa độ được xác định bởi $\psi$ và cơ sở này trong miền của $\psi$ được gọi là một hệ tọa độ chính tắc (loài thứ nhất).
 
-#### Mệnh đề 3 {#lie-iii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iii-s4-prop-3 .statement tag=0AD0}
 
 Cho G là một mầm nhóm Lie, L là đại số Lie của nó và $\phi$ là một ánh xạ mũ của G. Cho $L_1, \ldots, L_n$ là các không gian con vectơ của L sao cho L là tổng trực tiếp tôpô của $L_1, \ldots, L_n$. Ánh xạ
 
@@ -262,7 +262,7 @@ NHÓM LIE
 
 lân cận mở đủ nhỏ U của $(0, 0, \ldots, 0)$ có ảnh mở trong G và là một đẳng cấu của đa tạp U lên đa tạp $\theta(U)$. Ánh xạ nghịch đảo $\eta$ của $\theta(U)$ lên U được gọi là một *biểu đồ chính tắc của loài thứ hai* của G, liên kết với phân tích đã cho của L thành một tổng trực tiếp. Nếu thêm nữa G là hữu hạn chiều và mỗi $L_i$ được sinh bởi một vectơ khác không $e_i$, hệ tọa độ trên $\theta(U)$ được xác định bởi $\eta$ và các $e_i$ được gọi là một *hệ tọa độ chính tắc của loài thứ hai*.
 
-#### Mệnh đề 4 {#lie-iii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#lie-iii-s4-prop-4 .statement tag=0AD1}
 
 *Cho G là một mầm nhóm Lie và $\phi$ là một ánh xạ mũ đơn ánh của G. Với mọi x, y trong $L(G)$,*
 
@@ -309,13 +309,13 @@ và điều này chứng minh (4).
 
 § 4.3
 
-#### Mệnh đề 5 {#lie-iii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#lie-iii-s4-prop-5 .statement tag=0AD2}
 
 Cho G là một nhóm Lie, k là một trường con đóng không rời rạc của K, G' là nhóm G được xem như một nhóm Lie trên k và $\phi$ (resp. $\phi'$) là một ánh xạ mũ của G (resp. G'). Khi đó $\phi$ và $\phi'$ trùng nhau trên một lân cận của 0.
 
 $\phi$ thỏa mãn giả thiết (i) của Định lý 4 đối với G' và do đó là một ánh xạ mũ của G'.
 
-#### Mệnh đề 6 {#lie-iii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#lie-iii-s4-prop-6 .statement tag=0AD3}
 
 Cho G là một mầm nhóm Lie, L là đại số Lie của nó và $\phi : V \to G$ là một ánh xạ mũ của G. Với mọi $x \in V$, cho $T_x(L)$ được đồng nhất với L, sao cho vi phân phải $\varpi(x)$ của $\phi$ tại x là một ánh xạ tuyến tính của L vào L. Với x đủ gần 0,
 
@@ -339,7 +339,7 @@ $$
 
 trong đó $\phi$ là một ánh xạ mũ đơn ánh của G.
 
-#### Mệnh đề 7 {#lie-iii-s4-prop-7 .statement}
+#### Mệnh đề 7 {#lie-iii-s4-prop-7 .statement tag=0AD4}
 
 (i) *Nếu $t \in \mathbf{Z}$, một ánh xạ lũy thừa bậc t trùng nhau trên một lân cận của e với ánh xạ $g \mapsto g^t$.*
 
@@ -353,7 +353,7 @@ Chỉ cần chứng minh mệnh đề trong trường hợp G là mầm nhóm Li
 
 ### 4. HÀM TỬ HÓA CÁC ÁNH XẠ MŨ
 
-#### Mệnh đề 8 {#lie-iii-s4-prop-8 .statement}
+#### Mệnh đề 8 {#lie-iii-s4-prop-8 .statement tag=0AD5}
 
 Cho G và H là các mầm nhóm Lie, h là một cấu xạ từ G vào H và $\phi_G$ và $\phi_H$ là các ánh xạ mũ của G và H. Tồn tại một lân cận V của 0 trong $L(G)$ sao cho $h \circ \phi_G$ và $\phi_H \circ L(h)$ trùng nhau trên V.
 
@@ -361,7 +361,7 @@ Cho $L(G)$ và $L(H)$ được trang bị các chuẩn xác định các tôpô 
 
 Nói một cách không chặt chẽ, nếu G và H được đồng nhất trong một lân cận của phần tử đơn vị với $L(G)$ và $L(H)$ bằng các ánh xạ mũ, thì mọi cấu xạ từ G vào H là *tuyến tính* trong một lân cận của 0.
 
-#### Hệ quả 1 {#lie-iii-s4-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s4-prop-8-cor-1 .statement tag=0AD6}
 
 Cho G là một mầm nhóm Lie, G' là một mầm nhóm con Lie của G và $\phi$ là một ánh xạ mũ của G.
 
@@ -371,7 +371,7 @@ Cho G là một mầm nhóm Lie, G' là một mầm nhóm con Lie của G và $\
 
 (i) thu được bằng cách áp dụng Mệnh đề 8 cho đơn ánh chính tắc của G' vào G và (ii) suy ra từ (i).
 
-#### Hệ quả 2 {#lie-iii-s4-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s4-prop-8-cor-2 .statement tag=0AD7}
 
 Cho G là một nhóm Lie, $\rho$ là một biểu diễn tuyến tính giải tích của G và $\phi$ là một ánh xạ mũ của G. Tồn tại một lân cận V của 0 trong $L(G)$ sao cho
 $$
@@ -381,7 +381,7 @@ với mọi $x \in V$.
 
 Điều này suy ra từ Mệnh đề 8 và Ví dụ 2 của no. 3.
 
-#### Hệ quả 3 {#lie-iii-s4-prop-8-cor-3 .statement}
+#### Hệ quả 3 {#lie-iii-s4-prop-8-cor-3 .statement tag=0AD8}
 
 Cho G là một nhóm Lie và $\phi$ là một ánh xạ mũ của G.
 
@@ -402,7 +402,7 @@ với mọi $x \in W$.
 
 ### 5. CẤU TRÚC CẢM SINH TRÊN MỘT NHÓM CON
 
-#### Bổ đề 4 {#lie-iii-s4-lem-4 .statement}
+#### Bổ đề 4 {#lie-iii-s4-lem-4 .statement tag=0AD9}
 
 Cho G là một nhóm Lie hữu hạn chiều, $\Omega$ là một lân cận mở đối xứng của e trong G và H là một tập con của $\Omega$ chứa e sao cho các điều kiện $x \in H, y \in H, xy^{-1} \in \Omega$ kéo theo $xy^{-1} \in H$. Cho $r \in N_K$. Với mọi $x \in H$, gọi $h_x$ là tập hợp các $a \in T_x(G)$ có tính chất sau: tồn tại một lân cận mở I của 0 trong K và một ánh xạ f lớp $C^r$ từ I vào G sao cho $f(0) = x, f(I) \subset H, (T_0f)(1) = a$.
 
@@ -430,11 +430,11 @@ Cho $(a_1, \ldots, a_s)$ là một cơ sở của h. Tồn tại một lân cậ
 
 Nếu $a \in \mathfrak{h}$, tồn tại một lân cận mở I của 0 trong K và một ánh xạ f thuộc lớp $C^\omega$ từ I vào G sao cho $f(0) = e, f(I) \subset H', (T_0 f)1 = a$. Điều này, cùng với (iv), suy ra (v).
 
-#### Định nghĩa 2 {#lie-iii-s4-def-2 .statement}
+#### Định nghĩa 2 {#lie-iii-s4-def-2 .statement tag=0ADA}
 
 $\mathfrak{h}$ được gọi là đại số con tiếp tuyến với $H$ tại $e$.
 
-#### Mệnh đề 9 {#lie-iii-s4-prop-9 .statement}
+#### Mệnh đề 9 {#lie-iii-s4-prop-9 .statement tag=0ADB}
 
 Cho $G$ là một nhóm Lie hữu hạn chiều và $H$ là một nhóm con của $G$.
 
@@ -444,7 +444,7 @@ Cho $G$ là một nhóm Lie hữu hạn chiều và $H$ là một nhóm con củ
 
 Trong (i), tính duy nhất là hiển nhiên. Ta chứng minh sự tồn tại. Gọi $\mathfrak{h}$ là đại số Lie tiếp tuyến tại $e$ của $H$. Gọi $H'$ là một mầm nhóm con Lie của $G$ với đại số Lie $\mathfrak{h}$. Bằng cách thay thế $H'$ bởi một mầm nhóm con mở của $H'$, có thể giả sử rằng $H' \subset H$ (Bổ đề 4 (iv)). Với mọi $x \in H$, $xH'x^{-1}$ là một mầm nhóm con Lie của $G$ với đại số Lie $x\mathfrak{h}x^{-1} = \mathfrak{h}$. Do đó $H' \cap (xH'x^{-1})$ là mở trong $H'$ (no. 2, Định lý 3) và ánh xạ $y \mapsto xyx^{-1}$ là một đẳng cấu từ $H' \cap x^{-1}H'x$ lên $xH'x^{-1} \cap H'$. Dùng Mệnh đề 18 của § 1, no. 9, tồn tại một mầm nhóm con Lie mở $W$ của $H'$ và một cấu trúc nhóm Lie trên $H$ với các tính chất sau: $W$ là mở trong $H$ và các cấu trúc đa tạp trên $H$ và $H'$ cảm sinh cùng một cấu trúc trên $W$. Từ đó suy ra rằng đơn ánh chính tắc $i$ của $H$ vào $G$ là một immersion và $L(i)(L(H)) = L(H') = \mathfrak{h}$. Hơn nữa, hãy cho $V$ và $f$ như trong (i). Nếu $f : V \to H$ thuộc lớp $C^r$, thì $i \circ f : V \to G$ thuộc lớp $C^r$. Giả sử $i \circ f : V \to G$ thuộc lớp $C^r$; khi đó ta chứng minh rằng $f : V \to H$ thuộc lớp $C^r$. Nhờ phép tịnh tiến, chỉ cần xét trường hợp tồn tại $v_0 \in V$ sao cho $f(v_0) = e$ và chứng minh rằng $f : V \to H$ thuộc lớp $C^r$ trong một lân cận mở của $v_0$. Bây giờ, theo Bổ đề 4 (iii), $f(v) \in H'$ với $v$ đủ gần $v_0$, do đó mệnh đề của chúng ta. Như vậy ta đã chứng minh (i) và (ii) đã được thu được trên đường đi.
 
-#### Định nghĩa 3 {#lie-iii-s4-def-3 .statement}
+#### Định nghĩa 3 {#lie-iii-s4-def-3 .statement tag=0ADC}
 
 Cấu trúc nhóm Lie trên $H$ được định nghĩa trong Mệnh đề 9 được gọi là cấu trúc cảm sinh trên $H$ bởi cấu trúc nhóm Lie trên $G$.
 
@@ -454,7 +454,7 @@ Nếu $G = \mathbf{R}$ và $H = \mathbf{Q}$, thì $\mathfrak{h} = \{0\}$ và do 
 
 ### 6. NGUYÊN HÀM CỦA CÁC DẠNG VI PHÂN NHẬN GIÁ TRỊ TRONG MỘT ĐẠI SỐ Lie
 
-#### Bổ đề 5 {#lie-iii-s4-lem-5 .statement}
+#### Bổ đề 5 {#lie-iii-s4-lem-5 .statement tag=0ADD}
 
 Cho $X$ là một đa tạp lớp $C^r$, $F$ và $F'$ là các phân thớ vectơ lớp $C^r$ với không gian cơ sở $X$ và $\phi$ là một cấu xạ từ $F$ vào $F'$. Với mọi $x \in X$, cho $S_x$ là tập hợp các
 $$
@@ -468,7 +468,7 @@ $$
 $$
 Theo *Đa tạp khả vi và giải tích*, R, 7.7.1, $\theta$ và $\theta'$ là các cấu xạ của $F \oplus F'$ vào chính nó. Rõ ràng $\theta \circ \theta' = \theta' \circ \theta = \mathrm{Id}_{F \oplus F'}$. Do đó $\theta$ và $\theta'$ là các tự đẳng cấu của $F \oplus F'$. Vì vậy, $S = \theta(F \oplus \{0\})$ là một phân thớ con vectơ của $F \oplus F'$.
 
-#### Bổ đề 6 {#lie-iii-s4-lem-6 .statement}
+#### Bổ đề 6 {#lie-iii-s4-lem-6 .statement tag=0ADE}
 
 Cho $G$ là một mầm nhóm Lie, $\omega$ là dạng vi phân trái chính tắc của $G$ (§ 3, no. 18.9), $M$ là một đa tạp lớp $C^r$ ($r \geq 2$) và $\alpha$ là một dạng vi phân lớp $C^{r-1}$ và bậc 1 trên $M$ nhận giá trị trong $L(G)$.
 
@@ -505,7 +505,7 @@ d\theta &= \mathrm{pr}_1^*(d\alpha) - \mathrm{pr}_2^*(d\omega) \\
 $$
 và do đó $S$ khả tích (*Differentiable and Analytic Manifolds*, R, 9.3.6).
 
-#### Định lý 5 {#lie-iii-s4-thm-5 .statement}
+#### Định lý 5 {#lie-iii-s4-thm-5 .statement tag=0ADF}
 
 Cho G là một mầm nhóm Lie, M là một đa tạp lớp $C^r$ ($r \geq 2$) và $\alpha$ là một dạng vi phân lớp $C^{r-1}$ và bậc 1 trên M với giá trị trong $L(G)$, sao cho $d\alpha + [\alpha]^2 = 0$. Với mọi $x \in M$ và mọi $g \in G$, tồn tại một ánh xạ $f$, được xác định và thuộc lớp $C^{r-1}$ trên một lân cận mở của $x$, với giá trị trong G, sao cho $f(x) = g$ và $f^{-1}.df = \alpha$. Hai ánh xạ thỏa mãn các điều kiện này trùng nhau trên một lân cận của $x$.
 
@@ -521,7 +521,7 @@ $$
 
 Cho $f'$ là một ánh xạ lớp $C^{r-1}$ từ U vào G sao cho $f'(x) = g$ và ${f'}^{-1}df' = \alpha$. Theo § 3, 18.9, ${f'}^{-1}$ là hằng địa phương và do đó $f' = f$ trong một lân cận của $x$.
 
-#### Mệnh đề 10 {#lie-iii-s4-prop-10 .statement}
+#### Mệnh đề 10 {#lie-iii-s4-prop-10 .statement tag=0ADG}
 
 Cho M là một đa tạp giải tích, $\mathfrak{g}$ một đại số Lie chuẩn hoá được đầy đủ và $\alpha$ một dạng vi phân giải tích bậc 1 trên M, nhận giá trị trong $\mathfrak{g}$, với các tính chất sau:
 (a) với mọi $m \in M$, $\alpha_m$ là một đẳng cấu từ $T_m(M)$ lên $\mathfrak{g}$;
@@ -541,7 +541,7 @@ và do đó $m \mapsto \alpha_{m_0}^{-1} \circ \alpha_m$ là dạng vi phân ch�
 
 Cho $M''$ là một lân cận mở của $m_0$, với một cấu trúc mầm nhóm Lie, với phần tử đơn vị $m_0$ và với các tính chất tương tự như các tính chất (i) và (ii). Khi đó $\alpha_{m_0}$ là một đẳng cấu của $L(M')$ lên $g$ và đồng thời của $L(M'')$ lên $g$ và do đó $L(M') = L(M'')$. Vì vậy, bằng cách thu nhỏ $M'$ và $M''$, có thể giả sử rằng tồn tại một đẳng cấu $\phi$ của mầm nhóm $M'$ lên mầm nhóm $M''$ (số 1, Hệ quả 1 của Định lý 1). Khi đó $\phi^{-1}.d\phi$ là vi phân trái chính tắc của $M'$. Mặt khác, cho $\psi$ là phép nhúng chính tắc của đa tạp $M' \cap M''$ vào mầm nhóm Lie $M''$; hiển nhiên $\psi^{-1}.d\psi$ là một hạn chế của vi phân trái chính tắc của $M''$. Do đó $(\psi^{-1}.d\psi)(m) = \alpha_{m_0}^{-1} \circ \alpha_m = (\phi^{-1}.d\phi)(m)$ với mọi $m \in M' \cap M''$. Vì vậy $\phi$ và $\psi$ trùng nhau trên một lân cận của $m_0$ (§ 3, 18.9). Điều này chứng minh khẳng định cuối cùng của mệnh đề.
 
-#### Hệ quả {#lie-iii-s4-n6-cor-1 .statement}
+#### Hệ quả {#lie-iii-s4-n6-cor-1 .statement tag=0ADH}
 
 Cho $M$ là một đa tạp giải tích có số chiều hữu hạn $n$. Cho $\omega_1, \ldots, \omega_n$ là các dạng vi phân giải tích bậc 1 trên $M$, với giá trị vô hướng, độc lập tuyến tính tại mỗi điểm của $M$ và sao cho, với mọi $k = 1, \ldots, n$, $d\omega_k$ là một tổ hợp tuyến tính với các hệ số hằng của các $\omega_i \wedge \omega_j$. Khi đó, với mọi $m_0 \in M$, tồn tại một lân cận mở $M'$ của $m_0$ trong $M$ và một cấu trúc mầm nhóm Lie trên $M'$ tương thích với cấu trúc đa tạp trên $M'$, với phần tử đơn vị $m_0$ và sao cho $\omega_1|_{M'}, \ldots, \omega_n|_{M'}$ tạo thành một cơ sở của không gian các dạng vi phân bất biến trái trên $M'$ bậc 1 với giá trị vô hướng.
 
@@ -568,7 +568,7 @@ Khi đó chỉ cần áp dụng Mệnh đề 10.
 
 ### 7. CHUYỂN TỪ CÁC LUẬT TÁC ĐỘNG VÔ CỰC NHỎ SANG CÁC LUẬT TÁC ĐỘNG
 
-#### Mệnh đề 11 {#lie-iii-s4-prop-11 .statement}
+#### Mệnh đề 11 {#lie-iii-s4-prop-11 .statement tag=0ADI}
 
 Cho $G_1$ và $G_2$ là các mầm nhóm Lie và $X_1$ và $X_2$ là các đa tạp lớp $C^r$ ($r \geq 2$). Với $i = 1, 2$, cho $\psi_i$ là một mảnh luật tác động trái lớp $C^r$ của $G_i$ lên $X_i$ và $D_i$ là luật tác động vô cực nhỏ liên kết. Cho $\mu : G_1 \to G_2$ là một cấu xạ và $\phi : X_1 \to X_2$ là một ánh xạ lớp $C^r$. Giả sử rằng, với mọi $a \in L(G)$, các trường vectơ $(D_1)_a$ và $(D_2)_{L(\mu)a}$ là $\phi$-liên quan (*Đa tạp khả vi và giải tích*, R, 8.2.6). Khi đó tồn tại một lân cận $\Omega$ của $\{e\} \times X_1$ trong $G_1 \times X_1$ sao cho $\phi(\psi_1(g, x)) = \psi_2(\mu(g), \phi(x))$ với mọi $(g, x) \in \Omega$.
 
@@ -596,11 +596,11 @@ $$
 $$
 với mọi $x \in X$, suy ra từ *Differentiable and Analytic Manifolds*, R, 9.3.7, rằng $\alpha$ và $\beta$ trùng nhau trên một lân cận của $(e, x_0)$. Do đó mệnh đề.
 
-#### Hệ quả {#lie-iii-s4-n7-cor-1 .statement}
+#### Hệ quả {#lie-iii-s4-n7-cor-1 .statement tag=0ADJ}
 
 *Cho G là một mầm nhóm Lie và X là một đa tạp lớp $C^r$. Xét hai mảnh luật của phép toán trái lớp $C^r$ của G trên X. Giả sử rằng, với mọi $a \in L(G)$, trường vectơ tương ứng $D_a$ trên X là như nhau cho cả hai mảnh luật. Khi đó hai mảnh luật này trùng nhau trên một lân cận của $\{e\} \times X$.*
 
-#### Định lý 6 {#lie-iii-s4-thm-6 .statement}
+#### Định lý 6 {#lie-iii-s4-thm-6 .statement tag=0ADK}
 
 *Cho G là một mầm nhóm Lie, X là một đa tạp lớp $C^r$ ($r \geq 2$) và $x_0$ là một điểm của X. Cho $a \mapsto D_a$ là một luật phép toán vô cùng bé trái lớp $C^{r-1}$ của $L(G)$ trên X.*
 
@@ -651,7 +651,7 @@ T(\alpha_2)(ag, 0_{(h, x)}) &= (agh)x \\
 $$
 Theo *Differentiable and Analytic Manifolds*, R, 9.3.7, $\alpha_1$ và $\alpha_2$ trùng nhau trên một lân cận của $(e, (e, x_0))$. Khi đó (i) suy ra từ (7) và Mệnh đề 23 của § 1, no. 11.
 
-#### Hệ quả 1 {#lie-iii-s4-thm-6-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s4-thm-6-cor-1 .statement tag=0ADL}
 
 *Cho $G$ là một mầm nhóm Lie và $X$ là một đa tạp paracompact lớp $C^r$ ($r \geq 2$). Cho $a \mapsto D_a$ là một luật của phép toán vi phân trái lớp $C^{r-1}$ của $L(G)$ trên $X$.
 
@@ -661,7 +661,7 @@ Theo *Differentiable and Analytic Manifolds*, R, 9.3.7, $\alpha_1$ và $\alpha_2
 
 Mệnh đề (ii) suy ra từ hệ quả của Mệnh đề 11. Theo Định lý 6 (i), tồn tại một phủ mở $(X_i)_{i \in I}$ của $X$ và, với mọi $i \in I$, một mảnh luật của phép toán trái $\psi_i$ lớp $C^{r-1}$ của $G$ trên $X_i$ sao cho luật liên kết của phép toán vi phân là $a \mapsto D_a|_{X_i}$. Vì $X$ là paracompact, có thể giả sử phủ $(X_i)_{i \in I}$ là hữu hạn địa phương. Với mọi $(i, j) \in I \times I$ và mọi $x \in X_i \cap X_j$, $\psi_i$ và $\psi_j$ trùng nhau trên một lân cận của $(e, x)$ (Hệ quả của Mệnh đề 11). Vì $X$ là chuẩn tắc, ta có thể áp dụng Mệnh đề 24 của § 1, no. 11, điều này chứng minh (i).
 
-#### Hệ quả 2 {#lie-iii-s4-thm-6-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s4-thm-6-cor-2 .statement tag=0ADM}
 
 *Cho $X$ là một đa tạp paracompact của lớp $C^r$ ($r \geq 2$) và $\xi$ là một vectơ trường lớp $C^{r-1}$ trên $X$. Tồn tại một mảnh luật của phép toán $\psi$ lớp $C^{r-1}$ của $K$ trên $X$ sao cho với mọi $x \in X$, $\xi(x)$ là ảnh qua $t \mapsto (t, x)$ của vectơ tiếp tuyến 1 của $K$ tại 0. Hai mảnh luật của phép toán có tính chất trên trùng nhau trên một lân cận của $\{0\} \times X$.
 
@@ -669,7 +669,7 @@ Mệnh đề (ii) suy ra từ hệ quả của Mệnh đề 11. Theo Định lý
 
 § 5.1
 
-#### Nhận xét {#lie-iii-s4-n7-rem-1 .statement}
+#### Nhận xét {#lie-iii-s4-n7-rem-1 .statement tag=0ADN}
 
 Các luật của phép toán trái dĩ nhiên có thể được thay thế, trong toàn bộ no. này, bằng các luật của phép toán phải.
 

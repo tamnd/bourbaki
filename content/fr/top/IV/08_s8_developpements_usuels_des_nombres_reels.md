@@ -37,14 +37,14 @@ subsections:
       pdf_page: 315
 statements: 3
 exercises: 17
-content_sha256: c0e4c70a6e778ef71ceaffe15a445ecf38a19ce2a86aa00397867e1e26e55e37
+content_sha256: befb4ead3daf1667937158d9219215f97cc87679bd7d59fd5d0c7a02a030caa1
 ---
 
 ## § 8. DÉVELOPPEMENTS USUELS DES NOMBRES RÉELS
 
 ### 1. Valeurs approchées d’un nombre réel
 
-#### Définition 1 {#top-iv-s8-def-1 .statement}
+#### Définition 1 {#top-iv-s8-def-1 .statement tag=0BUG}
 
 Étant donné un nombre $\varepsilon > 0$, on dit qu’un nombre réel $r$ est valeur approchée à $\varepsilon$ près d’un nombre réel $x$, si $|x - r| \leq \varepsilon$; $r$ est dit valeur approchée par défaut si $r \leq x$, par excès si $r \geq x$.
 
@@ -179,11 +179,11 @@ Remarquons maintenant que S est équipotent à $\mathfrak{P}(\mathbf{N})$; en ef
 
 Nous avons finalement démontré le théorème suivant:
 
-#### Théorème 1 (Cantor) {#top-iv-s8-thm-1 .statement}
+#### Théorème 1 (Cantor) {#top-iv-s8-thm-1 .statement tag=0BUH}
 
 L’ensemble des nombres réels est équipotent à l’ensemble des parties d’un ensemble infini dénombrable.
 
-#### Corollaire {#top-iv-s8-n6-cor-1 .statement}
+#### Corollaire {#top-iv-s8-n6-cor-1 .statement tag=0BUI}
 
 L’ensemble des nombres réels a une puissance strictement supérieure à celle d’un ensemble dénombrable.
 

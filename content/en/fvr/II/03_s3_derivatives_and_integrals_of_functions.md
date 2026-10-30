@@ -37,7 +37,7 @@ subsections:
       pdf_page: 91
 statements: 18
 exercises: 10
-content_sha256: 60905ef6efd845569a53a55f17387cf3aa45fcd2f47eff514161d964aa57f357
+content_sha256: 35c740d0a30b3f3ffd2d5f08cde90f87df1496bb44cbc74f5b2898276d078665
 ---
 
 ## § 3. DERIVATIVES AND INTEGRALS OF FUNCTIONS DEPENDING ON A PARAMETER
@@ -46,7 +46,7 @@ content_sha256: 60905ef6efd845569a53a55f17387cf3aa45fcd2f47eff514161d964aa57f357
 
 Th. 1 of II, p. 52, applied to the particular case of regulated functions on a compact interval, translates as follows into the notation appropriate to integrals:
 
-#### Proposition 1 {#fvr-ii-s3-prop-1 .statement}
+#### Proposition 1 {#fvr-ii-s3-prop-1 .statement tag=088Y}
 
 Let A be a set filtered by a filter $\mathfrak{F}$, and $(f_\alpha)_{\alpha \in A}$ a family of regulated functions on a compact interval $I = [a, b]$; if the functions $f_\alpha$ converge uniformly on I to a (regulated) function f with respect to the filter $\mathfrak{F}$, then
 
@@ -56,7 +56,7 @@ $$
 
 Two corollaries to this proposition are important in applications:
 
-#### Corollary 1 {#fvr-ii-s3-prop-1-cor-1 .statement}
+#### Corollary 1 {#fvr-ii-s3-prop-1-cor-1 .statement tag=088Z}
 
 Let $(f_n)$ be a sequence of regulated functions on a compact interval $I = [a, b]$. If the sequence $(f_n)$ converges uniformly on I to a (regulated) function f, one has
 
@@ -66,7 +66,7 @@ $$
 
 In particular, if a series whose general term $u_n$ is a regulated function on I, converges uniformly to f on I, then the series with general term $\int_a^b u_n(t) \, dt$ is convergent and its sum is $\int_a^b f(t) \, dt$ ("term-by-term integration of a uniformly convergent series").
 
-#### Corollary 2 {#fvr-ii-s3-prop-1-cor-2 .statement}
+#### Corollary 2 {#fvr-ii-s3-prop-1-cor-2 .statement tag=0890}
 
 Let $A$ be a subset of a topological space $F$, and $f$ a map from $I \times A$ into a complete normed space $E$ over $\mathbf{R}$, such that, for each $\alpha \in A$, the function $x \mapsto f(x, \alpha)$ is regulated on $I$. If the functions $x \mapsto f(x, \alpha)$ converge uniformly on $I$ to a (regulated) function $x \mapsto g(x)$, as $\alpha$ tends to a point $\alpha_0 \in \overline{A}$ while remaining in $A$, then one has
 
@@ -76,7 +76,7 @@ $$
 
 In particular:
 
-#### Proposition 2 ("continuity of an integral with respect to a parameter") {#fvr-ii-s3-prop-2 .statement}
+#### Proposition 2 ("continuity of an integral with respect to a parameter") {#fvr-ii-s3-prop-2 .statement tag=0891}
 
 Let $F$ be a compact space, let $I = [a,\ b]$ be a compact interval in $\mathbf{R}$, and let $f$ be a continuous map of $I \times F$ into a complete normed space $E$ over $\mathbf{R}$; then the function $h(\alpha) = \int_a^b f(x, \alpha)\, dx$ is continuous on $F$.
 
@@ -126,7 +126,7 @@ Finally, the lemma of II, p. 65 allows us to put this last condition in the foll
 
 Most often, one uses a more restrictive condition obtained by supposing that, in the last statement, the set $M$ *does not depend on $\varepsilon$*:
 
-#### Definition 1 {#fvr-ii-s3-def-1 .statement}
+#### Definition 1 {#fvr-ii-s3-def-1 .statement tag=0892}
 
 *One says that the integral $\int_I \mathbf{f}_\alpha(t)\,dt$ is uniformly convergent for $\alpha \in A$ (or uniformly convergent over $A$) if, for every $\varepsilon > 0$ there exists a compact interval $J_0 \subset J$ such that, for every compact interval $K \subset I$ with no interior point in common with $J_0$, and every $\alpha \in A$, one has*
 
@@ -136,7 +136,7 @@ $$
 
 This definition is equivalent to saying that the family of maps $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$ is *uniformly convergent on $A$* (towards the map $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$) with respect to the filter of sections $\Phi$ of $\mathscr{K}(I)$; each of the integrals $\int_I \mathbf{f}_\alpha(t)\,dt$ is *a fortiori* convergent (the converse being false). Further, from what we have just seen (or from *Gen. Top.*, X, p. 281, cor. 2):
 
-#### Proposition 3 {#fvr-ii-s3-prop-3 .statement}
+#### Proposition 3 {#fvr-ii-s3-prop-3 .statement tag=0893}
 
 *Let* $(\mathbf{f}_\alpha )$ *be a family of regulated functions on an interval* $I$ *such that: 1* with respect to the filter $\mathfrak{F}$ *the family* $(\mathbf{f}_\alpha )$ *converges uniformly to a function* $f$ *(regulated on* $I$) *on every compact interval contained in* $I$; *2* the integral $\int_I \mathbf{f}_\alpha(t)\,dt$ *is uniformly convergent for every* $\alpha \in A$. *Under these hypotheses the integral* $\int_I f(t)\,dt$ *is convergent, and one has*
 
@@ -148,7 +148,7 @@ The hypotheses of prop. 3 are fulfilled when for example $I$ is a *bounded* inte
 
 As with prop. 1 of II, p. 68, two corollaries to prop. 3 are important in applications:
 
-#### Corollary 1 {#fvr-ii-s3-prop-3-cor-1 .statement}
+#### Corollary 1 {#fvr-ii-s3-prop-3-cor-1 .statement tag=0894}
 
 *Let* $(f_n)$ *be a sequence of regulated functions on an arbitrary interval* $I$, *converging uniformly to a function* $f$ *on each compact interval contained in* $I$; *if the integral* $\int_I f_n(t)\,dt$ *is uniformly convergent, then the integral* $\int_I f(t)\,dt$ *is convergent, and*
 $$
@@ -156,11 +156,11 @@ $$
 $$
 (9)
 
-#### Remark {#fvr-ii-s3-n2-rem-1 .statement}
+#### Remark {#fvr-ii-s3-n2-rem-1 .statement tag=0895}
 
 The hypotheses imposed in this corollary are sufficient, but not necessary, for the validity of formula (9); we shall generalize this formula later, at the same time as the concept of integral (see INT, IV), and obtain much less restrictive conditions.
 
-#### Corollary 2 {#fvr-ii-s3-prop-3-cor-2 .statement}
+#### Corollary 2 {#fvr-ii-s3-prop-3-cor-2 .statement tag=0896}
 
 *Let* $A$ *be a subset of a topological space* $F$, *and* $f$ *a map of* $I \times A$ *into a complete normed space* $E$ *over* $\mathbf{R}$, *such that, for every* $\alpha \in A$, *the function* $x \mapsto f(x, \alpha)$ *is regulated on* $I$. *If, on the one hand, the functions* $x \mapsto f(x, \alpha)$ *converge uniformly on every compact interval contained in* $I$ *to a function* $x \mapsto f(x)$ *as* $\alpha$ *tends to* $\alpha_0 \in \overline{A}$ *while remaining in* $A$; *if, on the other hand, the integral* $\int_I f(x, \alpha)\,dx$ *is uniformly convergent on* $A$, *then the integral* $\int_I f(x)\,dx$ *is convergent, and one has*
 $$
@@ -170,7 +170,7 @@ $$
 
 In particular:
 
-#### Proposition 4 ("continuity of an improper integral with respect to a parameter") {#fvr-ii-s3-prop-4 .statement}
+#### Proposition 4 ("continuity of an improper integral with respect to a parameter") {#fvr-ii-s3-prop-4 .statement tag=0897}
 
 *Let* $F$ *be a compact space, let* $I$ *be any interval in* $\mathbf{R}$, *and* $f$ *a continuous map from* $I \times F$ *into a complete normed space* $E$ *over* $\mathbf{R}$; *if the integral* $h(\alpha) = \int_I f(x, \alpha)\,dx$ *is uniformly convergent on* $F$, *it is a continuous function of* $\alpha$ *on* $F$.
 
@@ -219,7 +219,7 @@ $$
 
 The following proposition gives a very simple sufficient condition for the validity of formula (12):
 
-#### Proposition 5 {#fvr-ii-s3-prop-5 .statement}
+#### Proposition 5 {#fvr-ii-s3-prop-5 .statement tag=0898}
 
 *Suppose that the partial derivative* $\mathbf{f}'_{\alpha}(x, \alpha)$ *exists for all* $x \in I$ *and all* $\alpha$ *in an open neighbourhood* $V$ *of* $\alpha_0$, *and that, for all* $\alpha \in V$, *the map* $x \mapsto \mathbf{f}'_{\alpha}(x, \alpha)$ *is regulated on* $I$. *Under these conditions, if* $x \mapsto \mathbf{f}'_{\alpha}(x, \alpha)$ *converges uniformly on* $I$ *to* $x \mapsto \mathbf{f}'_{\alpha}(x, \alpha_0)$ *as* $\alpha$ *tends to* $\alpha_0$, *then the function* $g(\alpha) = \int_a^b \mathbf{f}(t, \alpha)\,dt$ *admits a derivative, given by the formula* (12), *at the point* $\alpha_0$.
 
@@ -231,7 +231,7 @@ $$
 
 which proves the uniform convergence of $\frac{\mathbf{f}(x, \alpha) - \mathbf{f}(x, \alpha_0)}{\alpha - \alpha_0}$ to $\mathbf{f}'_{\alpha}(x, \alpha_0)$ on I as $\alpha$ tends to $\alpha_0$ (remaining $\neq \alpha_0$), and so establishes formula (12).
 
-#### Corollary {#fvr-ii-s3-n4-cor-1 .statement}
+#### Corollary {#fvr-ii-s3-n4-cor-1 .statement tag=0899}
 
 *If the partial derivative* $\mathbf{f}'_{\alpha}(x, \alpha)$ *exists on* $I \times V$ *and is a continuous function of* $(x, \alpha)$ *on this set, then the function* $g$ *admits a derivative given by the formula* (12) *at the point* $\alpha_0$.
 
@@ -239,7 +239,7 @@ Indeed, if W is a compact neighbourhood of $\alpha_0$ contained in V, then the m
 
 From prop. 5 one deduces a more general proposition which allows one to evaluate the derivative of an integral when, not only the integrand $\mathbf{f}$, but also the limits of integration, depend on a parameter $\alpha$:
 
-#### Proposition 6 {#fvr-ii-s3-prop-6 .statement}
+#### Proposition 6 {#fvr-ii-s3-prop-6 .statement tag=089A}
 
 *Supposing that the hypotheses of prop. 5 are satisfied, let* $a(\alpha)$, $b(\alpha)$ *be two functions defined on* $V$, *with values in* $I$; *if the derivatives* $a'(\alpha_0),\ b'(\alpha_0)$ exist and are finite then the function $g(\alpha) = \int_{a(\alpha)}^{b(\alpha)} f(t, \alpha)\, dt$ admits at $\alpha_0$ a derivative given by the formula
 
@@ -278,7 +278,7 @@ The set $V$ having the same meaning as in prop. 5 of II, p. 74, suppose now that
 
 A sufficient condition for formula (12) (II, p. 74) to remain valid is given by the following proposition:
 
-#### Proposition 7 {#fvr-ii-s3-prop-7 .statement}
+#### Proposition 7 {#fvr-ii-s3-prop-7 .statement tag=089B}
 
 Let I be an arbitrary interval in $\mathbf{R}$, and $f$ a continuous function on $I \times V$. Suppose that:
 1. the partial derivative $f'_\alpha(x, \alpha)$ exists for all $x \in I$ and all $\alpha \in V$, and, for all $\alpha \in V$, the map $x \mapsto f'_\alpha(x, \alpha)$ is regulated on I;
@@ -294,11 +294,11 @@ $$
 
 The uniform convergence of $\int_I f'_\alpha(t, \alpha) \, dt$ on $V$ means that the function $\alpha \mapsto \int_J f'_\alpha(t, \alpha) \, dt$ converges uniformly on $V$ with respect to the filter of sections $\Phi$ of the directed set $\mathfrak{K}(I)$ of compact intervals $J$ contained in I. Let us put $u_J(\alpha) = \int_J f(t, \alpha) \, dt$; the hypotheses show that on the one hand $u_J(\alpha_0)$ has a limit with respect to $\Phi$, and on the other hand, by virtue of prop. 5 of II, p. 74, that $u'_J(\alpha) = \int_J f'_\alpha(t, \alpha) \, dt$ for all $\alpha \in V$. We can therefore apply th. 1 of II, p. 52 to the functions $u_J$, the rôle of the set of indices being taken here by $\mathfrak{K}(I)$, and that of the filter on this set by the filter $\Phi$; the proposition follows immediately.
 
-#### Remark 1 {#fvr-ii-s3-n5-rem-1 .statement}
+#### Remark 1 {#fvr-ii-s3-n5-rem-1 .statement tag=089C}
 
 Conditions 1 and 2 of prop. 7 are satisfied a fortiori when $f'_\alpha(x, \alpha)$ is a continuous function of $(x, \alpha)$ on $I \times V$.
 
-#### Remark 2 {#fvr-ii-s3-n5-rem-2 .statement}
+#### Remark 2 {#fvr-ii-s3-n5-rem-2 .statement tag=089D}
 
 When, in an integral $\int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt$, the endpoints of the interval are finite functions of the parameter, the study of this integral as a function of $\alpha$ can be related to that of an integral over $[0, 1]$; indeed, by the change of variable $t = a(\alpha)(1 - u) + b(\alpha)u$, one has
 
@@ -310,7 +310,7 @@ $$
 
 Let $I = [a, b]$ and $A = [c, d]$ be two compact intervals in $\mathbf{R}$; let $f$ be a continuous function on $I \times A$ with values in a complete normed space E over $\mathbf{R}$; by prop. 2 of II, p. 69, $\int_a^b f(x, \alpha) \, dx$ is a continuous function of $\alpha$ on $A$; its integral $\int_c^d \left( \int_a^b f(x, \alpha) \, dx \right) d\alpha$ is also denoted, for simplicity, by $\int_c^d d\alpha \int_a^b f(x, \alpha) \, dx$.
 
-#### Proposition 8 {#fvr-ii-s3-prop-8 .statement}
+#### Proposition 8 {#fvr-ii-s3-prop-8 .statement tag=089E}
 
 *If f is continuous on I × A one has*
 
@@ -336,7 +336,7 @@ Now, the derivative of the first term with respect to $y$ is $g(y)$, while that 
 
 Suppose now that $A = [c, d]$ is a *compact* interval in $\mathbf{R}$, and I an *arbitrary* interval in $\mathbf{R}$; let $f$ be a continuous function on $I \times A$, with values in E, such that the integral $g(\alpha) = \int_I f(t, \alpha) dt$ is convergent for all $\alpha \in A$; even if $g(\alpha)$ is continuous on $A$ one cannot always interchange the order of integration in the integral $\int_c^d d\alpha \int_I f(t, \alpha) dt$, for the integral $\int_I dt \int_c^d f(t, \alpha) d\alpha$ may not exist, or it may be different from the integral $\int_c^d d\alpha \int_I f(t, \alpha) dt$ (*cf.* II, p. 87, exerc. 7). One has, however, the following result:
 
-#### Proposition 9 {#fvr-ii-s3-prop-9 .statement}
+#### Proposition 9 {#fvr-ii-s3-prop-9 .statement tag=089F}
 
 *If the function f is continuous on I × A, and if the integral $\int_I f(t, \alpha) dt$ is uniformly convergent on A, then the integral $\int_I dt \int_c^d f(t, \alpha) d\alpha$ is convergent, and one has*
 

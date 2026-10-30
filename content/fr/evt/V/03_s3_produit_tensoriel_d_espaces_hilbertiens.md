@@ -33,7 +33,7 @@ subsections:
       pdf_page: 297
 statements: 19
 exercises: 2
-content_sha256: 050d02f34ff4fa5aca05230e7ed2f7b0fdf3c30e85b92c5251bc589a9c928c68
+content_sha256: 606a1d30f1ab0d86ffb693e8ed4d96d27c6e65bd727c8baf4c87004aba156667
 ---
 
 ## § 3. PRODUIT TENSORIEL D’ESPACES HILBERTIENS
@@ -60,7 +60,7 @@ $$
 
 (cf. A, IX, § 1, no 11).
 
-#### Proposition 1 {#evt-v-s3-prop-1 .statement}
+#### Proposition 1 {#evt-v-s3-prop-1 .statement tag=080B}
 
 La forme sesquilinéaire $\Phi$ sur $E_1 \otimes E_2$ est hermitienne et positive, donc munit $E_1 \otimes E_2$ d’une structure d’espace préhilbertien. Cet espace est séparé si $E_1$ et $E_2$ le sont.
 
@@ -103,7 +103,7 @@ de sorte que l’application bilinéaire $(x_1, x_2) \mapsto x_1 \otimes x_2$ de
 
 Pour $i = 1, 2$, soit $F_i$ un sous-espace vectoriel de $E_i$, muni de la structure d’espace préhilbertien induite. Alors $F_1 \otimes F_2$ s’identifie à un sous-espace vectoriel de $E_1 \otimes E_2$ (A, II, p. 108). La formule (4) montre que $F_1 \otimes F_2$, muni de la structure d’espace préhilbertien induite par celle de $E_1 \otimes_2 E_2$, n’est autre que $F_1 \otimes_2 F_2$. Nous identifierons désormais $F_1 \otimes_2 F_2$ à un sous-espace préhilbertien de $E_1 \otimes_2 E_2$.
 
-#### Proposition 2 {#evt-v-s3-prop-2 .statement}
+#### Proposition 2 {#evt-v-s3-prop-2 .statement tag=080C}
 
 *Pour $i = 1, 2$, soient $E_i$ et $F_i$ deux espaces préhilbertiens séparés et $u_i \in \mathscr{L}(E_i; F_i)$. L’application linéaire $u_1 \otimes u_2$ de $E_1 \otimes_2 E_2$ dans $F_1 \otimes_2 F_2$ est continue et l’on a*
 
@@ -182,7 +182,7 @@ en $x_1 \otimes ... \otimes x_n$ (A, II, p. 72) est un isomorphisme d’espaces 
 
 ### 2. Produit tensoriel hilbertien d’espaces hilbertiens
 
-#### Définition 1 {#evt-v-s3-def-1 .statement}
+#### Définition 1 {#evt-v-s3-def-1 .statement tag=080D}
 
 Soient $E_1, ..., E_n$ des espaces hilbertiens. On appelle produit tensoriel hilbertien des $E_i$, et l’on note $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ (ou $\hat{\otimes}_{1 \leq i \leq n} E_i$) le complété de l’espace préhilbertien séparé $E_1 \otimes_2 ... \otimes_2 E_n$.
 
@@ -206,33 +206,33 @@ $$
 
 On laisse au lecteur le soin de formuler la « commutativité » et « l’associativité » du produit tensoriel hilbertien, par application de ce qui a été dit ci-dessus pour les espaces préhilbertiens.
 
-#### Remarque {#evt-v-s3-n2-rem-1 .statement}
+#### Remarque {#evt-v-s3-n2-rem-1 .statement tag=080E}
 
 Soient $E_1, ..., E_n$ des espaces préhilbertiens séparés, et $\hat{E}_1, ..., \hat{E}_n$ leurs complétés respectifs. Alors $E_1 \otimes_2 ... \otimes_2 E_n$ est un sous-espace préhilbertien de $\hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n$. Comme l’application $(x_1, ..., x_n) \mapsto x_1 \otimes ... \otimes x_n$ de $\hat{E}_1 \times ... \times \hat{E}_n$ dans $\hat{E}_1 \otimes_2 \ldots \otimes_2 \hat{E}_n$ est continue, $E_1 \otimes_2 \ldots \otimes_2 E_n$ est dense dans $\hat{E}_1 \otimes_2 \ldots \otimes_2 \hat{E}_n$.
 
 \* A fortiori \* le complété de $E_1 \otimes_2 \ldots \otimes_2 E_n$ n’est autre que l’espace hilbertien $\hat{E}_1 \otimes_2 \ldots \otimes_2 \hat{E}_n$. Ce complété se note parfois simplement $E_1 \otimes_2 \ldots \otimes_2 E_n$ (ou $\bigotimes_{1 \leq i \leq n} E_i$).
 
-#### Proposition 3 {#evt-v-s3-prop-3 .statement}
+#### Proposition 3 {#evt-v-s3-prop-3 .statement tag=080F}
 
 *Soient* $E_1, \ldots, E_n$ *des espaces hilbertiens*. *On suppose que pour* $1 \leq i \leq n$, *l’espace* $E_i$ *est somme hilbertienne d’une famille* $(E_{i,\alpha})_{\alpha \in A(i)}$ *de sous-espaces vectoriels fermés.* *Alors* $E_1 \hat{\otimes}_2 \ldots \hat{\otimes}_2 E_n$ *est somme hilbertienne de la famille des sous-espaces* $E_{1,\alpha_1} \hat{\otimes}_2 \ldots \hat{\otimes}_2 E_{n,\alpha_n}$ *pour* $(\alpha_1, \ldots, \alpha_n)$ *parcourant* $A(1) \times \cdots \times A(n)$.
 
 Vu la formule (6) de V, p. 27, les sous-espaces $E_{1,\alpha_1} \hat{\otimes}_2 \ldots \hat{\otimes}_2 E_{n,\alpha_n}$ de $E_1 \hat{\otimes}_2 \ldots \hat{\otimes}_2 E_n$ sont deux à deux orthogonaux. Pour chaque entier $i$ compris entre 1 et $n$, l’ensemble $\bigcup_{\alpha \in A(i)} E_{i,\alpha}$ est total dans $E_i$, et l’application multilinéaire $(x_1, \ldots, x_n) \mapsto x_1 \otimes \ldots \otimes x_n$ est continue. Il en résulte que la réunion des sous-espaces $E_{1,\alpha_1} \hat{\otimes}_2 \ldots \hat{\otimes}_2 E_{n,\alpha_n}$ est totale, d’où la prop. 3.
 
-#### Corollaire 1 {#evt-v-s3-prop-3-cor-1 .statement}
+#### Corollaire 1 {#evt-v-s3-prop-3-cor-1 .statement tag=080G}
 
 *Pour* $1 \leq i \leq n$, *soit* $(e_{i,\alpha})_{\alpha \in A(i)}$ *une base orthonormale de* $E_i$. *Alors la famille des vecteurs* $e_{1,\alpha_1} \otimes \ldots \otimes e_{n,\alpha_n}$ *pour* $(\alpha_1, \ldots, \alpha_n)$ *parcourant* $A(1) \times \cdots \times A(n)$, *est une base orthonormale de* $E_1 \hat{\otimes}_2 \ldots \hat{\otimes}_2 E_n$.
 
-#### Corollaire 2 {#evt-v-s3-prop-3-cor-2 .statement}
+#### Corollaire 2 {#evt-v-s3-prop-3-cor-2 .statement tag=080H}
 
 *Soient* $E_1$ *et* $E_2$ *deux espaces hilbertiens*, *et* $(e_i)_{i \in I}$ *une base orthonormale de* $E_1$. *Soit* $(y_i)_{i \in I}$ *une famille d’éléments de* $E_2$ *telle que* $\sum_{i \in I} \| y_i \|^2 < + \infty$. *Alors la famille* $(e_i \otimes y_i)_{i \in I}$ *est sommable dans* $E_1 \hat{\otimes}_2 E_2$; *de plus tout élément de* $E_1 \otimes E_2$ *s’écrit de manière unique sous la forme* $\sum_{i \in I} e_i \otimes y_i$ *avec* $\sum_{i \in I} \| y_i \|^2 < + \infty$.
 
 Soit $F_i$ la droite de $E_1$ engendrée par $e_i$ ($i \in I$). Alors $E_1$ est somme hilbertienne de la famille des sous-espaces $(F_i)_{i \in I}$. D’après la prop. 3, l’espace $E_1 \hat{\otimes}_2 E_2$ est somme hilbertienne de la famille des sous-espaces $(F_i \hat{\otimes}_2 E_2)_{i \in I}$, d’où le cor. 2.
 
-#### Exemple 1 {#evt-v-s3-n2-exa-1 .statement}
+#### Exemple 1 {#evt-v-s3-n2-exa-1 .statement tag=080I}
 
 D’après le cor. 1, l’espace $\ell^2(I) \hat{\otimes}_2 \ell^2(J)$ est canoniquement isomorphe à $\ell^2(I \times J)$, le produit tensoriel $x \otimes y$ de $x = (x_i)_{i \in I}$ et $y = (y_j)_{j \in J}$ s’identifiant à la famille $(x_i y_j)_{i \in I, j \in J}$. De même, d’après le cor. 2, $\ell^2(I) \hat{\otimes}_2 E$ s’identifie à $\ell^2_E(I)$, de sorte que l’on ait $(x_i)_{i \in I} \otimes y = (x_i y)_{i \in I}$ pour tout $y$ dans l’espace hilbertien $E$.
 
-#### Exemple 2 {#evt-v-s3-n2-exa-2 .statement}
+#### Exemple 2 {#evt-v-s3-n2-exa-2 .statement tag=080J}
 
 \* Soient* $X$ *un espace topologique séparé*, *et* $\mu$ *une mesure positive sur* $X$. *Soit* $E$ *un espace hilbertien*. *On peut identifier canoniquement* $L^2(X, \mu) \hat{\otimes}_2 E$ *à* $L^2_E(X, \mu) : \dot{f}$ *est la classe de la fonction scalaire* $f$ *de carré intégrable sur* $X$, *et si* $a$ *appartient à* $E$, *alors* $f \otimes a$ *est la classe de la fonction* $x \mapsto f(x).a$ *à valeurs dans* $E$.
 
@@ -284,7 +284,7 @@ $$
 
 On note $\hat{\mathbf{S}}^n(E)$ le complété de l’espace préhilbertien $\mathbf{S}^n(E)$ et $\hat{\mathbf{S}}(E)$ la somme hilbertienne externe des espaces hilbertiens $\hat{\mathbf{S}}^n(E)$. On peut montrer (V, p. 72, exerc. 1) que la multiplication dans l’algèbre $\mathbf{S}(E)$ ne se prolonge pas par continuité à $\hat{\mathbf{S}}(E)$ lorsque $E$ n’est pas réduit à 0.
 
-#### Proposition 4 {#evt-v-s3-prop-4 .statement}
+#### Proposition 4 {#evt-v-s3-prop-4 .statement tag=080K}
 
 Soit $(e_i)_{i\in I}$ une base orthonormale de l’espace hilbertien $E$. Pour tout $\alpha$ dans $\mathbf{N}^{(I)}$, posons
 
@@ -309,7 +309,7 @@ Considérons une partition $(P_i)_{i\in I}$ de l’ensemble $\{1, 2, ..., n\}$ t
 
 Comme les $e_i$ sont mutuellement orthogonaux, on a $\langle x_k | y_{\sigma(k)} \rangle = 0$ sauf s’il existe un indice $i \in I$ tel que $k \in P_i$ et $\sigma(k) \in Q_i$. D’après la formule (15), on a donc $\langle x_1 ... x_n | y_1 ... y_n \rangle = 0$ sauf s’il existe une permutation $\sigma \in S_n$ telle que $\sigma(P_i) = Q_i$ pour tout $i \in I$, ce qui entraîne $\alpha = \beta$. On a donc $\langle z_\alpha | z_\beta \rangle = 0$ pour $\alpha \neq \beta$. Le même raisonnement prouve que $\|x_1 ... x_n\|^2$ est égal au nombre des $\sigma \in S_n$ tels que $\sigma(P_i) = P_i$ pour tout $i \in I$, donc à $\prod_{i\in I} \alpha_i!$. On a donc $\|z_\alpha\| = 1$, d’où la proposition.
 
-#### Corollaire {#evt-v-s3-n3-cor-1 .statement}
+#### Corollaire {#evt-v-s3-n3-cor-1 .statement tag=080L}
 
 Supposons que l’espace hilbertien $E$ soit somme directe des sous-espaces orthogonaux $M$ et $N$. L’isomorphisme canonique $g$ de $S(M) \otimes S(N)$ sur $S(E)$ (A, III, p. 73) se prolonge de manière unique en un isomorphisme $h$ d’espaces hilbertiens de $\hat{S}(M) \hat{\otimes}_2 \hat{S}(N)$ sur $\hat{S}(E)$.
 
@@ -358,7 +358,7 @@ $$
 $$
 Enfin, $\hat{S}^n(u)$ coïncide sur $S^n(E)$ avec l’application linéaire $S^n(u) : S^n(E) \to S^n(F)$ définie en A, III, p. 69 car elle transforme $x_1 \ldots x_n$ en $u(x_1) \ldots u(x_n)$ quels que soient $x_1, \ldots, x_n$ dans $E$.
 
-#### Exemple 1 {#evt-v-s3-n3-exa-1 .statement}
+#### Exemple 1 {#evt-v-s3-n3-exa-1 .statement tag=080M}
 
 Soient $d \geq 1$ un entier et $\omega$ une fonction positive sur $\mathbf{R}^d$ localement intégrable par rapport à la mesure de Lebesgue $\mu$. Soit $E$ l’espace hilbertien $L^2(\mathbf{R}^d, \omega . \mu )$, et soit $S = S(E)$. Alors $S$ s’identifie à l’espace des suites $f = (f_n)_{n \geq 0}$, où chaque $f_n$ est une fonction sur $(\mathbf{R}^d)^n$ mesurable par rapport à la mesure de Lebesgue $\mu \otimes \ldots \otimes \mu$ ($n$ facteurs) et *invariante* par les permutations des $n$ facteurs dans $(\mathbf{R}^d)^n$, et telles que
 
@@ -368,7 +368,7 @@ $$
 
 soit fini. La norme $\|f\|$ dans $\mathbf{S}$ est définie par la formule (22). L’espace hilbertien $\mathbf{S}$ défini ci-dessus s’appelle l’*espace de Fock symétrique* correspondant au *poids* $\omega$.
 
-#### Exemple 2 {#evt-v-s3-n3-exa-2 .statement}
+#### Exemple 2 {#evt-v-s3-n3-exa-2 .statement tag=080N}
 
 \* Soient X un espace topologique séparé, $\mu$ une mesure positive de norme 1 sur X et E un sous-espace hilbertien de l’espace hilbertien réel $L^2_\mathbf{R}(X, \mu)$. On dit que E est un *espace gaussien* si les conditions équivalentes suivantes sont satisfaites :
 
@@ -417,7 +417,7 @@ quels que soient $x_1, \ldots, x_n$ et $y_1, \ldots, y_n$ dans E.
 
 On note $\hat{\Lambda}^n(E)$ le complété de l’espace préhilbertien $\Lambda^n(E)$, et $\hat{\Lambda}(E)$ la somme hilbertienne externe des espaces hilbertiens $\hat{\Lambda}^n(E)$.
 
-#### Exemple {#evt-v-s3-n4-exa-1 .statement}
+#### Exemple {#evt-v-s3-n4-exa-1 .statement tag=080O}
 
 *\* Reprenons les notations de l’exemple 1 de V, p. 32. On peut alors identifier l’espace hilbertien $\hat{\Lambda}(E)$ à l’ensemble des suites $(f_n)_{n \geq 0}$ de fonctions mesurables qui rendent fini le nombre $\|f\|$ défini dans (22), et où chaque fonction $f_n$ est antisymétrique, c’est-à-dire satisfait à la relation
 
@@ -427,7 +427,7 @@ $$
 
 pour toute permutation $\sigma \in S_n$. L’espace hilbertien $\hat{\Lambda}(E)$ s’appelle l’espace de Fock antisymétrique correspondant au poids $\omega_*$.
 
-#### Proposition 5 {#evt-v-s3-prop-5 .statement}
+#### Proposition 5 {#evt-v-s3-prop-5 .statement tag=080P}
 
 *Soit $(e_i)_{i \in I}$ une base orthonormale de l’espace hilbertien E. Munissons I d’une structure d’ordre total. Alors l’ensemble des éléments $e_{i_1} \wedge \ldots \wedge e_{i_n}$ pour $i_1 < \cdots < i_n$ est une base orthonormale de $\hat{\Lambda}^n(E)$.
 
@@ -435,7 +435,7 @@ On sait (A, III, p. 86) que les éléments en question forment une base de l’e
 
 Or $E_0$ est dense dans E, et l’application $(x_1, \ldots, x_n) \mapsto x_1 \wedge \ldots \wedge x_n$ de $E \times \cdots \times E$ dans $\Lambda^n(E)$ est continue. Par conséquent, $\Lambda^n(E_0)$ est dense dans $\Lambda^n(E)$, d’où la proposition 5.
 
-#### Corollaire {#evt-v-s3-n4-cor-1 .statement}
+#### Corollaire {#evt-v-s3-n4-cor-1 .statement tag=080Q}
 
 *Supposons que l’espace hilbertien E soit somme directe des sous-espaces orthogonaux M et N. L’isomorphisme canonique g de $\Lambda(M) \otimes \Lambda(N)$ sur $\Lambda(E)$ (A, III, p. 84) se prolonge de manière unique en un isomorphisme d’espaces hilbertiens de $\hat{\Lambda}(M) \otimes_2 \hat{\Lambda}(N)$ sur $\hat{\Lambda}(E)$.
 
@@ -468,7 +468,7 @@ $$
 $$
 pour $u \in \Lambda^p(E)$ et $v \in \Lambda^q(E)$. Par suite, l’application $(u, v) \mapsto u \wedge v$ se prolonge par continuité en une application bilinéaire de $\hat{\Lambda}^p(E) \times \hat{\Lambda}^q(E)$ dans $\hat{\Lambda}^{p+q}(E)$, de norme au plus égale à $\left( \frac{(p+q)!}{p! \, q!} \right)^{1/2}$ (cf. V, p. 72, exerc. 2). On la note encore $(u, v) \mapsto u \wedge v$.
 
-#### Proposition 6 {#evt-v-s3-prop-6 .statement}
+#### Proposition 6 {#evt-v-s3-prop-6 .statement tag=080R}
 
 *Soit E un espace hilbertien. On a*
 $$
@@ -480,7 +480,7 @@ On se ramène aussitôt au cas où $x$ est de norme 1.
 
 Soit F le sous-espace hilbertien de E formé des vecteurs orthogonaux à $x$. Comme E est somme hilbertienne de F et de la droite $K.x$, il résulte aussitôt du corollaire de V, p. 34 que l’application $(v, w) \mapsto v + x \wedge w$ est un isomorphisme d’espaces hilbertiens de $\hat{\Lambda}(F) \oplus \hat{\Lambda}(F)$ sur $\hat{\Lambda}(E)$. Si $u = v + x \wedge w$ avec $v, w$ dans $\hat{\Lambda}(F)$, on a $x \wedge u = x \wedge v$, d’où $\| x \wedge u \| = \| v \| \leq (\| v \|^2 + \| w \|^2)^{1/2} = \| u \|$.
 
-#### Corollaire 1 {#evt-v-s3-prop-6-cor-1 .statement}
+#### Corollaire 1 {#evt-v-s3-prop-6-cor-1 .statement tag=080S}
 
 *a)* *Soient* $x_1, \ldots, x_n$ *des éléments de l’espace hilbertien E. On a*
 $$
@@ -521,7 +521,7 @@ Supposons que les vecteurs $x_i$ et les vecteurs $y_j$ ne soient pas nuls. L’�
 
 D’après la première partie de la démonstration, les égalités (38) signifient que chacune des suites $(x_1, ..., x_n)$ et $(y_1, ..., y_n)$ est orthogonale, ce qui entraîne $x_1 \wedge ... \wedge x_n \neq 0$ et $y_1 \wedge ... \wedge y_n \neq 0$. Sous ces conditions, la relation (37) signifie qu’il existe un scalaire $\lambda \neq 0$ tel que $y_1 \wedge ... \wedge y_n = \lambda x_1 \wedge ... \wedge x_n$ (V, p. 4, Remarque 1), autrement dit que $(x_1, ..., x_n)$ et $(y_1, ..., y_n)$ sont des bases d’un même sous-espace vectoriel de E (A, III, p. 172).
 
-#### Corollaire 2 {#evt-v-s3-prop-6-cor-2 .statement}
+#### Corollaire 2 {#evt-v-s3-prop-6-cor-2 .statement tag=080T}
 
 Soit $(a_{ij})_{1 \leq i,j \leq n}$ une matrice hermitienne, à éléments complexes, de déterminant D. On suppose que l’on a l’inégalité
 
@@ -547,7 +547,7 @@ Supposons d'abord que $\Phi$ soit séparante, c'est-à-dire $D$ non nul. Si $(e_
 
 Puisque $a_{ii} = \Phi(e_i, e_i) \geqslant 0$, on a aussi l'inégalité (40) si $D = 0$.
 
-#### Corollaire 3 (« Inégalités de Hadamard ») {#evt-v-s3-prop-6-cor-3 .statement}
+#### Corollaire 3 (« Inégalités de Hadamard ») {#evt-v-s3-prop-6-cor-3 .statement tag=080U}
 
 *Soit* $(a_{ij})_{1 \leqslant i,j \leqslant n}$ *une matrice à éléments complexes, de déterminant* $D$. *Posons*
 $$

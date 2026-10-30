@@ -24,7 +24,7 @@ subsections:
       pdf_page: 297
 statements: 8
 exercises: 6
-content_sha256: 9446e53caabad4339b556318759f3afe3a1e9b177c0eaddd0ed9e70ee4b0f494
+content_sha256: b9ba9f9b543fc8a7e347f6340b85b4de6edbe8086d4cadcad7f8b49db803bc58
 ---
 
 ## § 1. LA FONCTION GAMMA DANS LE DOMAINE RÉEL
@@ -57,7 +57,7 @@ g(x + 1) - g(x) = \log x.
 $$
 Si g_1 est une seconde solution continue de (3) dans ]0, +∞[, et si h = g_1 - g, on a h(x + 1) - h(x) = 0 pour tout x > 0; autrement dit, h est une fonction continue périodique de période 1, définie dans ]0, +∞[; inversement, pour toute fonction h de cette nature, g + h est une solution continue de (3).
 
-#### Proposition 1 {#fvr-vii-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-vii-s1-prop-1 .statement tag=08IX}
 
 *Il existe une fonction convexe et une seule g, définie dans ]0, +∞[, satisfaisant à l’équation (3) et prenant la valeur 0 pour x = 1.*
 
@@ -119,7 +119,7 @@ $$
 
 autrement dit, $g$ satisfait à l’équation (3) de VII, p. 2.
 
-#### Définition 1 {#fvr-vii-s1-def-1 .statement}
+#### Définition 1 {#fvr-vii-s1-def-1 .statement tag=08IY}
 
 On désigne par $\Gamma(x)$ la fonction $> 0$ définie dans l’intervalle ]$0, +\infty[$, satisfaisant à l’équation
 
@@ -131,7 +131,7 @@ telle que $\Gamma(1) = 1$ et que $\log \Gamma(x)$ soit convexe dans ]$0, +\infty
 
 ### 2. Propriétés de la fonction gamma
 
-#### Proposition 2 {#fvr-vii-s1-prop-2 .statement}
+#### Proposition 2 {#fvr-vii-s1-prop-2 .statement tag=08IZ}
 
 Pour tout $x > 0$, on a
 
@@ -224,7 +224,7 @@ Nous dirons pour abréger qu’une fonction $f$ définie dans un intervalle $I \
 
 Il est clair que le *produit* de deux fonctions logarithmiquement convexes dans $I$ est logarithmiquement convexe dans $I$. En outre:
 
-#### Lemme 1 {#fvr-vii-s1-lem-1 .statement}
+#### Lemme 1 {#fvr-vii-s1-lem-1 .statement tag=08J0}
 
 *Soient* $f$ et $g$ *deux fonctions* $> 0$ *et deux fois dérivables dans un intervalle ouvert* $I$. *Si* $f$ *et* $g$ *sont logarithmiquement convexes dans* $I$, $f + g$ *est logarithmiquement convexe dans* $I$.
 
@@ -234,7 +234,7 @@ ax^2 + 2bxy + cy^2 \geq 0 \quad \text{et} \quad a'x^2 + 2b'xy + c'y^2 \geq 0
 $$
 dans $\mathbf{R}^2$, on a aussi $(a + a')x^2 + 2(b + b')xy + (c + c')y^2 \geq 0$ dans $\mathbf{R}^2$.
 
-#### Lemme 2 {#fvr-vii-s1-lem-2 .statement}
+#### Lemme 2 {#fvr-vii-s1-lem-2 .statement tag=08J1}
 
 Soit une fonction numérique finie et $> 0$, définie et continue dans le produit $I \times J$ de deux intervalles ouverts dans $\mathbf{R}$ et telle que, pour tout $t \in J$, la fonction $x \mapsto f(x, t)$ soit logarithmiquement convexe et deux fois dérivable dans $I$. Dans ces conditions, si pour tout $x \in I$, l’intégrale $g(x) = \int_J f(x, t)\ dt$ est convergente, $g$ est logarithmiquement convexe dans $I$.
 
@@ -248,13 +248,13 @@ D’autre part, $g$ est limite simple des $g_K$ suivant l’ordonné filtrant de
 
 On montre facilement que les lemmes 1 et 2 sont encore valables lorsque l’on n’y suppose plus les fonctions deux fois dérivables (VII, p. 20, exerc. 5).
 
-#### Lemme 3 {#fvr-vii-s1-lem-3 .statement}
+#### Lemme 3 {#fvr-vii-s1-lem-3 .statement tag=08J2}
 
 Soit $\varphi$ une fonction continue et $> 0$ dans un intervalle ouvert $J$ contenu dans $]0, +\infty[$. Si $I$ est un intervalle ouvert tel que l’intégrale $g(x) = \int_J t^{x-1}\varphi(t)dt$ soit convergente pour tout $x \in I$, $g$ est logarithmiquement convexe dans $I$.
 
 En effet, $\log t^{x-1} = (x - 1) \log t$ est une fonction de $x$ qui est convexe et deux fois dérivable pour tout $t > 0$, donc le lemme 2 est applicable.
 
-#### Proposition 3 {#fvr-vii-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-vii-s1-prop-3 .statement tag=08J3}
 
 Pour tout $x > 0$, on a
 $$
@@ -289,7 +289,7 @@ $$
 \Gamma\left(\frac{3}{2}\right) = \frac{1}{2} \Gamma\left(\frac{1}{2}\right) = \int_0^\infty e^{-t^2} dt.
 $$
 
-#### Proposition 4 {#fvr-vii-s1-prop-4 .statement}
+#### Proposition 4 {#fvr-vii-s1-prop-4 .statement tag=08J4}
 
 Pour $x > 0$ et $y > 0$, l’intégrale
 $$

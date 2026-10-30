@@ -49,9 +49,9 @@ subsections:
       pdf_page: 43
 statements: 22
 exercises: 10
-content_sha256: ff054ade741be90828fea1c90bf92fe3845a644b4ffd62b30dabd5dfb52a1521
+content_sha256: 06bbab310c57ab72aec3f621535d0065bdd8f5d084e4427947226776d20b17b9
 translated_from: content/en/lie/I/02_s2_enveloping_algebra_of_a_lie_algebra.md
-source_content_sha256: 0045df6d9c94b39f1c58540ba5107f338fcb8acaabd3d92f8e198096c03665ac
+source_content_sha256: 0efee89afffa5507d5ac319dd9602df1317a1ebd3ab29f31c8942d8c7c2a2199
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-a4a762ec
 glossary_version: 34
@@ -71,7 +71,7 @@ $$
 
 Nếu $L'$ là một đại số kết hợp khác có phần tử đơn vị trên $K$ và $\tau$ là một đồng cấu của $L$ vào $L'$ biến 1 thành 1, thì $\tau \circ \sigma$ là một ánh xạ $\alpha$ của $g$ vào $L'$. Ta sẽ tìm một đại số kết hợp có phần tử đơn vị và một ánh xạ $\alpha$ của $g$ vào đại số này có tính phổ quát (Lý thuyết tập hợp, Chương IV, § 3, no. 1).
 
-#### Định nghĩa 1 {#lie-i-s2-def-1 .statement}
+#### Định nghĩa 1 {#lie-i-s2-def-1 .statement tag=09UW}
 
 *Cho $g$ là một đại số Lie trên $K$, $T$ là đại số tenxơ của $K$-môđun $g$ và $J$ là iđêan hai phía của $T$ sinh bởi các tenxơ $x \otimes y - y \otimes x - [x, y]$ trong đó $x \in g, y \in g$. Đại số kết hợp $U = T/J$ được gọi là đại số bao của $g$. Hạn chế vào $g$ của ánh xạ chính tắc của $T$ lên $U$ được gọi là ánh xạ chính tắc của $g$ vào $U$.*
 
@@ -87,7 +87,7 @@ $$
 
 trong $U$. Nói cách khác, $\sigma_0$ là một ánh xạ $\alpha$ của $g$ vào $U$.
 
-#### Mệnh đề 1 {#lie-i-s2-prop-1 .statement}
+#### Mệnh đề 1 {#lie-i-s2-prop-1 .statement tag=09UX}
 
 *Cho $\sigma$ là một ánh xạ $\alpha$ của $g$ vào đại số kết hợp $L$ có phần tử đơn vị. Tồn tại một và chỉ một đồng cấu $\tau$ của $U$ vào $L$, biến 1 thành 1, sao cho $\sigma = \tau \circ \sigma_0$, trong đó $\sigma_0$ ký hiệu ánh xạ chính tắc của $g$ vào $U$.*
 
@@ -115,7 +115,7 @@ là giao hoán. Đồng cấu này ánh xạ các phần tử của $U$ có số
 
 Cho $g_1, g_2$ là hai đại số Lie trên $K$, $U_i$ là đại số bao của $g_i$ và $\sigma_i$ là ánh xạ chính tắc của $g_i$ vào $U_i$ ($i = 1, 2$). Cho $g = g_1 \times g_2, U$ là đại số bao của nó và $\sigma$ là ánh xạ chính tắc của $g$ vào $U$. Các phép nhúng chính tắc của $g_1$ và $g_2$ vào $g$ xác định các đồng cấu chính tắc của $U_1$ và $U_2$ vào $U$, các ảnh của chúng giao hoán và do đó một đồng cấu $\phi$ của đại số $U_1 \otimes_K U_2$ vào đại số $U$, ánh xạ 1 vào 1.
 
-#### Mệnh đề 2 {#lie-i-s2-prop-2 .statement}
+#### Mệnh đề 2 {#lie-i-s2-prop-2 .statement tag=09UY}
 
 *Đồng cấu $\phi$ là một đẳng cấu đại số*
 
@@ -149,7 +149,7 @@ $$
 $$
 và $[x, x'] \in h$.
 
-#### Mệnh đề 3 {#lie-i-s2-prop-3 .statement}
+#### Mệnh đề 3 {#lie-i-s2-prop-3 .statement tag=09UZ}
 
 *Cho $h$ là một iđêan của $g$, $p$ là đồng cấu chính tắc của $g$ lên $g/h$ và $W$ là đại số bao của $g/h$. Đồng cấu:*
 $$
@@ -200,7 +200,7 @@ U/R được đồng nhất với W dưới đẳng cấu $\phi$. Khi đó ánh 
 
 Cho $g$ là một đại số Lie trên K, $g^0$ là đại số Lie đối và $\sigma$ và $\sigma_0$ là các ánh xạ chính tắc của $g$ và $g^0$ vào các đại số bao quanh của chúng U và V. Khi đó $\sigma$ là một ánh xạ $\alpha$ của $g^0$ vào đại số kết hợp $U^0$ đối với đại số kết hợp U. Do đó tồn tại duy nhất một đồng cấu $\phi$ từ V vào $U^0$ biến 1 thành 1 và sao cho $\sigma = \phi \circ \sigma_0$.
 
-#### Mệnh đề 4 {#lie-i-s2-prop-4 .statement}
+#### Mệnh đề 4 {#lie-i-s2-prop-4 .statement tag=09V0}
 
 *Đồng cấu $\phi$ là một đẳng cấu từ V lên $U^0$.*
 
@@ -253,7 +253,7 @@ $$
 
 Vì $T^n$ là bổ sung cho $T_{n-1}$ trong $T_n$, $\phi_n$ là toàn ánh. Các $\phi_n$ xác định một ánh xạ tuyến tính $K$ $\phi$ từ $\sum_n T^n = T$ lên $\sum_n G^n = G$.
 
-#### Mệnh đề 5 {#lie-i-s2-prop-5 .statement}
+#### Mệnh đề 5 {#lie-i-s2-prop-5 .statement tag=09V1}
 
 *Ánh xạ $\phi$ từ $T$ lên $G$ là một đồng cấu đại số biến 1 thành 1 và bằng không trên iđêan hai phía sinh bởi các tenxơ $x \otimes y - y \otimes x$ ($x \in g, y \in g$).*
 
@@ -269,19 +269,19 @@ T^n & \xrightarrow{\psi_n} & U_n & \xrightarrow{\theta_n} & G^n \\
 \end{array}
 $$
 
-#### Mệnh đề 6 {#lie-i-s2-prop-6 .statement}
+#### Mệnh đề 6 {#lie-i-s2-prop-6 .statement tag=09V2}
 
 *Nếu K là Noether và g là một môđun hữu hạn sinh, thì vành U là Noether phải và trái.*
 
 S là một đại số sinh hữu hạn trên K và do đó là một vành Noether (*Đại số giao hoán*, Chương III, § 2, no. 10, Hệ quả 3 của Định lý 2). Vì thế G, đẳng cấu với một vành thương của S, là Noether. Vì thế U là Noether phải và trái (*Đại số giao hoán*, Chương III, § 2, no. 10, *Nhận xét 2*).
 
-#### Hệ quả {#lie-i-s2-n6-cor-1 .statement}
+#### Hệ quả {#lie-i-s2-n6-cor-1 .statement tag=09V3}
 
 *Giả sử rằng K là một trường và g là hữu hạn chiều trên K. Gọi I₁, ..., Iₘ là các iđêan phải (tương ứng là trái) có đối chiều hữu hạn trong U. Khi đó iđêan tích I₁I₂...Iₘ có đối chiều hữu hạn.*
 
 Bằng quy nạp theo m, chỉ cần xét trường hợp, chẳng hạn, của hai iđêan phải. U-môđun phải I₁ được sinh bởi một số hữu hạn phần tử u₁, ..., uₚ (Mệnh đề 6). Gọi v₁, ..., vₐ là các phần tử của U sao cho các lớp của chúng theo môđun I₂ sinh không gian vectơ U/I₂. Khi đó các ảnh chính tắc trong I₁/I₁I₂ của các uᵢvⱼ sinh không gian vectơ I₁/I₁I₂, do đó không gian này là hữu hạn chiều. Vì thế dim_K(U/I₁I₂) = dim_K(U/I₁) + dim_K(I₁/I₁I₂) < +∞.
 
-#### Nhận xét {#lie-i-s2-n6-rem-1 .statement}
+#### Nhận xét {#lie-i-s2-n6-rem-1 .statement tag=09V4}
 
 Cho g' là một đại số Lie khác trên vành K, U' là đại số bao của nó, U'_n là tập các phần tử của U' có cấp lọc $\leq n$ và U^n (tương ứng là U'^n) là tập các ảnh chính tắc trong U (tương ứng là U') của các tenxơ đối xứng thuần nhất của g (tương ứng là g') bậc n. Gọi $\eta$ là một đồng cấu từ g vào g' và $\tilde{\eta}$ là đồng cấu tương ứng từ U vào U'. Khi đó
 
@@ -299,7 +299,7 @@ với mọi $x_1, ..., x_n$ trong g là một toán tử đối xứng và do đ
 
 ### 7. ĐỊNH LÝ POINCARÉ–BIRKHOFF–WITT
 
-#### Định lý 1 {#lie-i-s2-thm-1 .statement}
+#### Định lý 1 {#lie-i-s2-thm-1 .statement tag=09V5}
 
 *Cho g là một đại số Lie trên K, U là đại số bao của nó, G là đại số phân bậc liên kết với đại số lọc U và S là đại số đối xứng của $K$-môđun g. Nếu g là một K-môđun tự do, thì đồng cấu chính tắc $\omega : S \to G$ là một đẳng cấu.*
 
@@ -307,7 +307,7 @@ Gọi $(x_\lambda)_{\lambda \in \Lambda}$ là một cơ sở của $K$-môđun g
 
 Các $z_M$, với M tăng, tạo thành một cơ sở của K-môđun P (ta quy ước rằng $\varnothing$ là một dãy tăng và $z_\varnothing = 1$). Gọi $P_p$ là môđun con các đa thức bậc $\leq p$. Trước hết ta sẽ chứng minh một số bổ đề. (Để viết gọn, ta viết $\lambda \leq M$ nếu $\lambda \leq \mu$ với mọi chỉ số $\mu$ của dãy M.)
 
-#### Bổ đề 1 {#lie-i-s2-lem-1 .statement}
+#### Bổ đề 1 {#lie-i-s2-lem-1 .statement tag=09V6}
 
 *Với mọi số nguyên $p \geq 0$, tồn tại một đồng cấu duy nhất $f_p$ từ K-môđun $g \otimes_K P_p$ vào K-môđun P thỏa mãn các điều kiện sau:*
 $$
@@ -367,7 +367,7 @@ $$
 
 điều này hoàn thành chứng minh của Bổ đề 1.
 
-#### Bổ đề 2 {#lie-i-s2-lem-2 .statement}
+#### Bổ đề 2 {#lie-i-s2-lem-2 .statement tag=09V7}
 
 *Có một ánh xạ $\alpha$ $\sigma$ của $g$ vào $\mathscr{L}_{K}(P)$ sao cho:*
 
@@ -376,7 +376,7 @@ $$
 
 Theo Bổ đề 1 tồn tại một đồng cấu $f$ của K-môđun $g \otimes_{K} P_{p}$ vào $P$ thỏa mãn, với mọi $p$, các điều kiện (A$_{p}$), (B$_{p}$), (C$_{p}$) (trong đó $f_{p}$ được thay bởi $f$). Đồng cấu này xác định một đồng cấu $\sigma$ của K-môđun $g$ vào K-môđun $\mathscr{L}_{K}(P)$ và $\sigma$ là một ánh xạ $\alpha$ do điều kiện (C$_{p}$). Cuối cùng, $\sigma$ thỏa mãn các tính chất (1) và (2) của bổ đề do các điều kiện (A$_{p}$) và (B$_{p}$).
 
-#### Bổ đề 3 {#lie-i-s2-lem-3 .statement}
+#### Bổ đề 3 {#lie-i-s2-lem-3 .statement tag=09V8}
 
 *Cho $t$ là một tenxơ trong $T_{n} \cap J$. Thành phần thuần nhất $t_{n}$ của $t$ có cấp $n$ nằm trong hạt nhân $I$ của đồng cấu chính tắc $T \to S$.*
 
@@ -384,7 +384,7 @@ Ta viết $t_{n}$ dưới dạng $\sum_{i=1}^{r} x_{M_{i}}$, trong đó các $M_
 
 Bây giờ ta có thể chứng minh Định lý 1. Cần chứng minh rằng đồng cấu chính tắc của $S$ lên $G$ là đơn ánh. Nói cách khác, nếu $t \in T^{n}$ và $\psi$ ký hiệu đồng cấu chính tắc của $T$ lên $U$, thì cần chỉ ra rằng điều kiện $\psi(t) \in U_{n-1}$ kéo theo $t \in I$. Mà $\psi(t) \in U_{n-1}$ có nghĩa là tồn tại một tenxơ $t' \in T_{n-1}$ sao cho $t - t' \in J$. Tenxơ $t - t'$ nhận $t$ làm thành phần thuần nhất cấp $n$ và do đó $t \in I$ theo Bổ đề 3.
 
-#### Hệ quả 1 {#lie-i-s2-lem-3-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s2-lem-3-cor-1 .statement tag=09V9}
 
 *Giả sử rằng $g$ là một $K$-môđun tự do. Cho $W$ là một K-môđun con của $T^{n}$.*
 
@@ -392,7 +392,7 @@ Bây giờ ta có thể chứng minh Định lý 1. Cần chứng minh rằng đ
 
 Hạn chế trên $W$ của $\omega_n \circ \tau_n$ là một song ánh từ $W$ lên $G^n$; hạn chế $\theta_n \circ \psi_n$ trên $W$ cũng vậy. Do đó suy ra hệ quả.
 
-#### Hệ quả 2 {#lie-i-s2-lem-3-cor-2 .statement}
+#### Hệ quả 2 {#lie-i-s2-lem-3-cor-2 .statement tag=09VA}
 
 *Nếu $g$ là một K-môđun tự do, thì ánh xạ chính tắc từ $g$ vào đại số bao của nó là đơn ánh.*
 
@@ -400,7 +400,7 @@ Hạn chế trên $W$ của $\omega_n \circ \tau_n$ là một song ánh từ $W$
 
 Khi $g$ là một K-môđun tự do (đặc biệt khi K là một trường), $g$ được đồng nhất với một môđun con của $U$ qua ánh xạ chính tắc từ $g$ vào $U$. Quy ước này được chấp nhận kể từ hệ quả sau đây.
 
-#### Hệ quả 3 {#lie-i-s2-lem-3-cor-3 .statement}
+#### Hệ quả 3 {#lie-i-s2-lem-3-cor-3 .statement tag=09VB}
 
 *Nếu $g$ có một cơ sở được sắp thứ tự toàn phần $(x_\lambda)_{\lambda \in \Lambda}$, thì các phần tử $x_{\lambda_1} x_{\lambda_2} \ldots x_{\lambda_n}$ của đại số bao $U$, trong đó $(\lambda_1, \ldots, \lambda_n)$ là một dãy hữu hạn tăng tùy ý gồm các phần tử của $\Lambda$, tạo thành một cơ sở của K-môđun $U$.*
 
@@ -412,7 +412,7 @@ $$
 
 do đó có hệ quả.
 
-#### Hệ quả 4 {#lie-i-s2-lem-3-cor-4 .statement}
+#### Hệ quả 4 {#lie-i-s2-lem-3-cor-4 .statement tag=09VC}
 
 *Cho ${S'}^n \subset T^n$ là tập hợp các tenxơ đối xứng thuần nhất cấp n. Giả sử rằng K là một trường có đặc số 0. Khi đó ánh xạ hợp thành của các ánh xạ chính tắc*
 
@@ -444,7 +444,7 @@ $$
 
 tính trong $U$.
 
-#### Hệ quả 5 {#lie-i-s2-lem-3-cor-5 .statement}
+#### Hệ quả 5 {#lie-i-s2-lem-3-cor-5 .statement tag=09VD}
 
 *Cho $h$ là một đại số con của đại số Lie $g$ và $U'$ là đại số bao của nó. Giả sử rằng các K-môđun $h$ và $g/h$ là tự do (chẳng hạn nếu $K$ là một trường). Cho $(x_\alpha)_{\alpha \in L}$ là một cơ sở của $h$ và $(y_\beta)_{\beta \in M}$ là một họ phần tử của $g$ mà các ảnh chính tắc của chúng trong $g/h$ lập thành một cơ sở của $g/h$.
 
@@ -462,7 +462,7 @@ $$
 
 Trong các điều kiện của Hệ quả 5, $U'$ được đồng nhất với đại số con của $U$ sinh bởi $h$ nhờ đồng cấu chính tắc của $U'$ vào $U$.
 
-#### Hệ quả 6 {#lie-i-s2-lem-3-cor-6 .statement}
+#### Hệ quả 6 {#lie-i-s2-lem-3-cor-6 .statement tag=09VE}
 
 *Giả sử rằng $K$-môđun $g$ là tổng trực tiếp của các đại số con $g_1, g_2, \ldots, g_n$ và mỗi $g_i$ là một $K$-môđun tự do. Gọi $U_i$ là đại số bao phủ của $g_i$ ($1 \leq i \leq n$). Gọi $\phi$ là ánh xạ tuyến tính $K$ của $K$-môđun $U_1 \otimes_K \cdots \otimes_K U_n$ vào $U$ được xác định bởi ánh xạ đa tuyến tính $(u_1, \ldots, u_n) \mapsto u_1 \ldots u_n$ của $U_1 \times \cdots \times U_n$ vào $U$. Khi đó $\phi$ là một đẳng cấu $K$-môđun.*
 
@@ -480,7 +480,7 @@ $$
 
 which lập thành một cơ sở của $U$. Do đó hệ quả.
 
-#### Hệ quả 7 {#lie-i-s2-lem-3-cor-7 .statement}
+#### Hệ quả 7 {#lie-i-s2-lem-3-cor-7 .statement tag=09VF}
 
 *Nếu K là một miền nguyên và g là một K-môđun tự do, đại số U không có các ước của không.*
 
@@ -488,7 +488,7 @@ G đẳng cấu với một đại số đa thức trên K (Định lý 1) và d
 
 ### 8. MỞ RỘNG CÁC ĐẠO HÀM
 
-#### Bổ đề 4 {#lie-i-s2-lem-4 .statement}
+#### Bổ đề 4 {#lie-i-s2-lem-4 .statement tag=09VG}
 
 *Cho V là một K-môđun và T là đại số tenxơ của V. Cho u là một tự đồng cấu của V. Tồn tại duy nhất một đạo hàm của T mở rộng u. Đạo hàm này giao hoán với các toán tử đối xứng trên T.*
 
@@ -510,7 +510,7 @@ v((x_1 \otimes \cdots \otimes x_n) \otimes (y_1 \otimes \cdots \otimes y_p)) \\
 $$
 Theo tính tuyến tính, suy ra v là một đạo hàm. Tính duy nhất của v là hiển nhiên. Cuối cùng, rõ ràng $u_n$ giao hoán với tất cả các toán tử đối xứng trên $\bigotimes^n V$, do đó có khẳng định cuối cùng.
 
-#### Mệnh đề 7 {#lie-i-s2-prop-7 .statement}
+#### Mệnh đề 7 {#lie-i-s2-prop-7 .statement tag=09VH}
 
 *Cho g là một đại số Lie, U là đại số bao quanh của nó, σ là ánh xạ chính tắc của g vào U và D là một đạo hàm của g.*
 (a) *Tồn tại duy nhất một đạo hàm $D_U$ của U sao cho $\sigma \circ D = D_U \circ \sigma$ (nghĩa là sao cho $D_U$ mở rộng D, khi g có thể được đồng nhất với một môđun con của U dưới σ).*

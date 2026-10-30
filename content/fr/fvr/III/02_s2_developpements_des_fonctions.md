@@ -29,7 +29,7 @@ subsections:
       pdf_page: 111
 statements: 1
 exercises: 9
-content_sha256: 7ddef37b1d448391fc3d218cadc826d8f323a7fb34787ecb88c19dc27938bbea
+content_sha256: eef6e5d26b514f81380e536a94017a7bea03baff02b0e697a07f61815e234765
 ---
 
 ## § 2. DÉVELOPPEMENTS DES FONCTIONS EXPONENTIELLES ET CIRCULAIRES, ET DES FONCTIONS QUI S’Y RATTACHENT
@@ -74,7 +74,7 @@ $$ e = 2,718\ 281\ 828\ldots $$
 
 à 1/10⁹ près par défaut. La formule (5) prouve en outre que $e$ est un nombre *irrationnel*¹ (TG, VI, p. 41).
 
-#### Remarque {#fvr-iii-s2-n1-rem-1 .statement}
+#### Remarque {#fvr-iii-s2-n1-rem-1 .statement tag=08B3}
 
 Comme le reste de la formule (1) est > 0 pour $x > 0$, on a, pour $x > 0$
 

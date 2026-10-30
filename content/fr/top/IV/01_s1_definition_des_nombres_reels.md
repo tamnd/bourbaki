@@ -36,7 +36,7 @@ subsections:
       pdf_page: 276
 statements: 10
 exercises: 4
-content_sha256: b8486094301ada8e0f90c4c7a429b739f3ce343770aea5624a6c9d1b88d6a8c5
+content_sha256: 28f8fc0c29de0b8feb842649d076aea250c745bf272f345f196e6a689ea54523
 ---
 
 ## § 1. DÉFINITION DES NOMBRES RÉELS
@@ -109,7 +109,7 @@ Considérons l’ensemble $\mathfrak{F}$ des intervalles ouverts symétriques $]
 
 Le groupe $\mathbf{Q}$ est commutatif, et l’axiome (GV$_{\mathrm{II}}'$) (III, p. 4) est évidemment vérifié; il suffit donc de voir que (GV$_{\mathrm{I}}'$) (III, p. 4) l’est aussi, autrement dit que, pour tout $a > 0$, il existe $b > 0$ tel que les conditions $|x| < b, |y| < b$ entraînent $|x + y| < a$; or, d’après l’inégalité du triangle, il suffit de prendre $b = a/2$.
 
-#### Définition 1 {#top-iv-s1-def-1 .statement}
+#### Définition 1 {#top-iv-s1-def-1 .statement tag=0BP1}
 
 On appelle droite rationnelle l’espace topologique obtenu en munissant l’ensemble $\mathbf{Q}$ de la topologie de groupe dont un système fondamental de voisinages de $0$ est formé par les intervalles ouverts symétriques $]-a, +a[$ ($a > 0$).
 
@@ -127,7 +127,7 @@ Pour tout $a > 0$, soit $U_a$ l’ensemble des couples $(x, y)$ de $\mathbf{Q} \
 
 ### 3. La droite numérique et les nombres réels
 
-#### Définition 2 {#top-iv-s1-def-2 .statement}
+#### Définition 2 {#top-iv-s1-def-2 .statement tag=0BP2}
 
 On désigne par $\mathbf{R}$ le groupe topologique complété du groupe additif $\mathbf{Q}$ de la droite rationnelle. Les éléments de $\mathbf{R}$ sont appelés nombres réels; en tant qu’espace topologique, $\mathbf{R}$ est appelé droite numérique; en tant que groupe topologique, on l’appelle groupe additif de la droite numérique.
 
@@ -135,7 +135,7 @@ On identifiera toujours $\mathbf{Q}$ avec le sous-groupe partout dense de $\math
 
 Nous allons voir qu’on peut prolonger à $\mathbf{R}$ la structure d’ordre de $\mathbf{Q}$, de manière que la structure d’ordre prolongée soit encore compatible avec la structure de groupe additif de $\mathbf{R}$:
 
-#### Proposition 1 {#top-iv-s1-prop-1 .statement}
+#### Proposition 1 {#top-iv-s1-prop-1 .statement tag=0BP3}
 
 La relation $y - x \in \overline{\mathbf{Q}}_+$ est une relation d’ordre dans $\mathbf{R}$, qui fait de $\mathbf{R}$ un ensemble totalement ordonné, est compatible avec la structure de groupe additif de $\mathbf{R}$, et induit sur $\mathbf{Q}$ la relation d’ordre $x \leqslant y$.
 
@@ -151,7 +151,7 @@ L’ensemble $\overline{\mathbf{Q}}_+$ est identique à l’ensemble des $x \geq
 
 ### 4. Propriétés des intervalles de $\mathbf{R}$
 
-#### Proposition 2 {#top-iv-s1-prop-2 .statement}
+#### Proposition 2 {#top-iv-s1-prop-2 .statement tag=0BP4}
 
 Tout intervalle fermé (resp. ouvert) de $\mathbf{R}$, est un ensemble fermé (resp. ouvert) dans $\mathbf{R}$.
 
@@ -159,17 +159,17 @@ En effet, les ensembles $\{a, \rightarrow[ = a + \mathbf{R}_+ \text{ et } ]\left
 
 Les intervalles fermés $[-a, +a]$ ($a > 0$) de $\mathbf{R}$ sont donc des voisinages de 0; montrons qu’ils forment un système fondamental de voisinages de 0 lorsque $a$ parcourt $\mathbf{R}_+^*$. Il suffit d’établir la proposition suivante:
 
-#### Proposition 3 {#top-iv-s1-prop-3 .statement}
+#### Proposition 3 {#top-iv-s1-prop-3 .statement tag=0BP5}
 
 Lorsque $r$ parcourt l’ensemble des nombres rationnels $> 0$, les intervalles $S_r = (-r, +r)$ de $\mathbf{R}$ forment un système fondamental de voisinages de 0.
 
 En effet (III, p. 24, prop. 7), on obtient un système fondamental de voisinages de 0 dans $\mathbf{R}$ en prenant les adhérences, dans $\mathbf{R}$, des intervalles $S_r \cap \mathbf{Q} = (-r, +r)$ de $\mathbf{Q}$. La proposition sera démontrée si on établit que $S_r$ est l’adhérence de $S_r \cap \mathbf{Q}$. Or, $S_r$ est fermé dans $\mathbf{R}$; il suffit donc de montrer que, si $x$ est un nombre réel tel que $-r < x < r$, $x$ est adhérent à $S_r \cap \mathbf{Q}$. Or, $]-r, +r[$ est un ensemble ouvert dans $\mathbf{R}$, donc, pour tout voisinage assez petit $V$ de 0 dans $\mathbf{R}$, $x + V \subset ]-r, +r[$; mais, comme $\mathbf{Q}$ est partout dense dans $\mathbf{R}$, il existe un nombre rationnel $r' \in x + V$, et on a donc $-r < r' < r$, c’est-à-dire $r' \in S_r \cap \mathbf{Q}$.
 
-#### Corollaire {#top-iv-s1-n4-cor-1 .statement}
+#### Corollaire {#top-iv-s1-n4-cor-1 .statement tag=0BP6}
 
 Tout point de la droite numérique possède un système fondamental dénombrable de voisinages.
 
-#### Proposition 4 {#top-iv-s1-prop-4 .statement}
+#### Proposition 4 {#top-iv-s1-prop-4 .statement tag=0BP7}
 
 Pour tout couple $(x, y)$ de nombres réels tels que $x < y$, il existe un nombre rationnel $r$ tel que $x < r < y$.
 
@@ -177,19 +177,19 @@ Comme $\mathbf{Q}$ est partout dense dans $\mathbf{R}$, il suffit de voir que $]
 
 par translation, on se ramène au cas où $x = 0, y > 0$. Or, $\mathbf{R}$ étant un espace séparé, il existe, d’après la prop. 3, un nombre rationnel $r > 0$ tel que $y \notin (-r, +r)$, ce qui entraîne $0 < r < y$.
 
-#### Proposition 5 {#top-iv-s1-prop-5 .statement}
+#### Proposition 5 {#top-iv-s1-prop-5 .statement tag=0BP8}
 
 *Soit I un intervalle quelconque de $\mathbf{R}$. La topologie induite sur I par celle de $\mathbf{R}$ est engendrée par l’ensemble des intervalles ouverts de I* (I étant considéré comme ensemble totalement ordonné par la relation $x \leq y$).
 
 Tout intervalle ouvert de I est la trace sur I d’un intervalle ouvert de $\mathbf{R}$: c’est évident pour un intervalle borné; et l’intervalle illimité $]a, \rightarrow[$ de I est la trace de l’intervalle illimité $]a, \rightarrow[$ de $\mathbf{R}$. On peut donc se borner au cas où $I = \mathbf{R}$; mais alors, la proposition résulte de la prop. 3, car tout voisinage d’un point $x \in \mathbf{R}$ contient un intervalle ouvert $]x - a, x + a[$.
 
-#### Remarque {#top-iv-s1-n4-rem-1 .statement}
+#### Remarque {#top-iv-s1-n4-rem-1 .statement tag=0BP9}
 
 Si A est une partie *partout dense* de $\mathbf{R}$, la topologie de $\mathbf{R}$ est encore engendrée par l’ensemble des intervalles ouverts dont les extrémités appartiennent à A. En effet, si $]x - a, x + a[$ est un intervalle ouvert contenant x, il existe deux points $y, z$ de A tels que $x - a < y < x < z < x + a$; donc $]y, z[$ contient x et est contenu dans $]x - a, x + a[$. Ce raisonnement montre même que les intervalles considérés forment une *base* (I, p. 5) de la topologie de $\mathbf{R}$. En particulier, si on prend $A = \mathbf{Q}$, on voit que la topologie de $\mathbf{R}$ a une *base dénombrable*.
 
 ### 5. Longueur d’un intervalle
 
-#### Définition 3 {#top-iv-s1-def-3 .statement}
+#### Définition 3 {#top-iv-s1-def-3 .statement tag=0BPA}
 
 *On appelle longueur d’un intervalle borné d’origine a et d’extrémité b, le nombre réel positif $b - a$*.
 

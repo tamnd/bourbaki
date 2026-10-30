@@ -53,25 +53,25 @@ subsections:
       pdf_page: 142
 statements: 34
 exercises: 30
-content_sha256: a097d26bcdb4a2e9c03764cada8b133b392ca6253bf7f6fb7f7b5972efbc475e
+content_sha256: 2dc9dea2aa631b0ee4d1c57d075fcb52837951e3c7ecf1384ecb10fe05d92f62
 ---
 
 ## § 2. ESPACES MÉTRIQUES; ESPACES MÉTRISABLES
 
 ### 1. Distances et espaces métriques
 
-#### Définition 1 {#top-ix-s2-def-1 .statement}
+#### Définition 1 {#top-ix-s2-def-1 .statement tag=0C2C}
 
 On appelle distance sur un ensemble X un écart fini d sur X tel que la relation $d(x, y) = 0$ entraîne $x = y$. On appelle espace métrique un ensemble X muni de la structure définie par la donnée d’une distance sur X.
 
 Un espace métrique X est toujours considéré comme muni de la structure uniforme et de la topologie définies par la distance donnée sur X.
 
-#### Exemple 1 {#top-ix-s2-n1-exa-1 .statement}
+#### Exemple 1 {#top-ix-s2-n1-exa-1 .statement tag=0C2D}
 
 La distance euclidienne $d(x, y)$ (VI, p. 7) est une distance sur l’espace numérique $\mathbf{R}^n$; il en est de même des fonctions $\sup_{1 \leq i \leq n} |x_i - y_i|$, et $\sum_{i=1}^n |x_i - y_i|$
 Toutes ces distances sont équivalentes (IX, p. 2).
 
-#### Exemple 2 {#top-ix-s2-n1-exa-2 .statement}
+#### Exemple 2 {#top-ix-s2-n1-exa-2 .statement tag=0C2E}
 
 Sur un ensemble quelconque X, l’écart d défini par les relations $d(x, x) = 0$, $d(x, y) = 1$ pour $x \neq y$, est une distance ; la structure uniforme qu’elle définit sur X est la structure uniforme discrète.
 
@@ -81,7 +81,7 @@ On peut rattacher aux espaces métriques les espaces uniformes définis par la d
 
 La prop. 1 de IX, p. 5 détermine la structure du complété d’un espace métrique:
 
-#### Proposition 1 {#top-ix-s2-prop-1 .statement}
+#### Proposition 1 {#top-ix-s2-prop-1 .statement tag=0C2F}
 
 *Soient $X$ un espace métrique, $d$ la distance sur $X$. Si $\hat{X}$ est le complété de $X$ (pour la structure uniforme définie par $d$), la fonction $d$ se prolonge par continuité à $\hat{X} \times \hat{X}$; la fonction prolongée $\bar{d}$ est une distance sur $\hat{X}$, et la structure uniforme de $\hat{X}$ est identique à la structure uniforme définie par la distance $\bar{d}$.
 
@@ -117,17 +117,17 @@ d(A, B) = \inf_{x \in A} d(x, B)
 $$
 (IV, p. 21, prop. 9).
 
-#### Remarque {#top-ix-s2-n2-rem-1 .statement}
+#### Remarque {#top-ix-s2-n2-rem-1 .statement tag=0C2G}
 
 Si $d(x, A) = a$, il se peut qu’il n’existe aucun point de $A$ dont la distance à $x$ soit égale à $a$. Toutefois, cette circonstance ne peut se présenter si $A$ est compact, car alors, en vertu du th. de Weierstrass (IV, p. 27, th. 1), il existe $y \in A$ tel que $d(x, A) = d(x, y)$.
 
-#### Proposition 2 {#top-ix-s2-prop-2 .statement}
+#### Proposition 2 {#top-ix-s2-prop-2 .statement tag=0C2H}
 
 Les propriétés $d(x, A) = 0$ et $x \in \overline{A}$ sont équivalentes.
 
 En effet, la propriété $d(x, A) = 0$ exprime que la boule $V_a(x)$ rencontre $A$ quel que soit $a > 0$, ce qui équivaut à $x \in \overline{A}$.
 
-#### Proposition 3 {#top-ix-s2-prop-3 .statement}
+#### Proposition 3 {#top-ix-s2-prop-3 .statement tag=0C2I}
 
 La fonction $x \mapsto d(x, A)$ est uniformément continue dans $X$.
 
@@ -145,7 +145,7 @@ $$
 $$
 d’où la proposition.
 
-#### Remarque {#top-ix-s2-n2-rem-2 .statement}
+#### Remarque {#top-ix-s2-n2-rem-2 .statement tag=0C2J}
 
 On peut avoir $d(A, B) = 0$ pour deux parties $A, B$ de $X$ telles que $\overline{A} \cup \overline{B} = \varnothing$, lorsqu’aucune de ces deux parties n’est réduite à un point. Par exemple, sur la droite numérique $\mathbf{R}$, l’ensemble des entiers $> 0$, et l’ensemble des points de la suite $(n + 1/2n)_{n \geqslant 1}$ sont fermés, sans point commun, et ont une distance nulle.
 
@@ -169,7 +169,7 @@ A la notion de diamètre se rattache celle d’oscillation d’une fonction $f$ 
 
 Si en outre $X$ est une partie d’un espace topologique $Z$, on appelle oscillation de $f$ en un point $x \in \overline{X}$ le nombre $\omega(x; f) = \inf \delta(f(V \cap X))$, $V$ parcourant le filtre des voisinages de $x$ dans $Z$.
 
-#### Proposition 4 {#top-ix-s2-prop-4 .statement}
+#### Proposition 4 {#top-ix-s2-prop-4 .statement tag=0C2K}
 
 L’oscillation $\omega(x; f)$ d’une fonction quelconque $f$ définie dans une partie $X$ d’un espace topologique $Z$, et prenant ses valeurs dans un espace métrique $Y'$, est une fonction semi-continue supérieurement dans $\overline{X}$.
 
@@ -183,13 +183,13 @@ ce qui prouve que $\omega$ est semi-continue supérieurement au point $a$.
 
 Pour qu’on ait $\omega(x; f) = 0$ en un point $x \in \overline{X}$, il faut et il suffit que, pour tout $\varepsilon > 0$, il existe un voisinage $V$ de $x$ tel que $f(V \cap X)$ soit contenu dans une boule de rayon $\varepsilon$; si $x \in X$, cette condition exprime que $f$ est continue au point $x$ (par rapport à $X$); si $x \in X \cap \mathscr{CX}$, elle exprime que l’image par $f$ de la trace sur $X$ du filtre des voisinages de $x$ dans $Z$ est une base de filtre de Cauchy sur $Y'$; en particulier:
 
-#### Proposition 5 {#top-ix-s2-prop-5 .statement}
+#### Proposition 5 {#top-ix-s2-prop-5 .statement tag=0C2L}
 
 *Soit $f$ une fonction définie dans une partie $X$ d’un espace topologique $Z$, prenant ses valeurs dans un espace métrique complet $Y'$; pour qu’en un point $x \in \overline{X}$, $f$ ait une limite relativement à $X$, il faut et il suffit que l’osillation de $f$ au point $x$ soit nulle.*
 
 ### 4. Espaces uniformes métrisables
 
-#### Définition 2 {#top-ix-s2-def-2 .statement}
+#### Définition 2 {#top-ix-s2-def-2 .statement tag=0C2M}
 
 *On dit qu’une distance sur un ensemble $X$ est compatible avec une structure uniforme $\mathscr{U}$ sur $X$ si la structure uniforme définie par cette distance est identique à $\mathscr{U}$.
 
@@ -197,7 +197,7 @@ On dit qu’une structure uniforme sur un ensemble $X$ est métrisable s’il ex
 
 Des distances distinctes peuvent être compatibles avec une même structure uniforme; elles sont alors *équivalentes* (IX, p. 2, déf. 2). Rappelons que toute distance est équivalente à une distance *bornée* (IX, p. 3).
 
-#### Théorème 1 {#top-ix-s2-thm-1 .statement}
+#### Théorème 1 {#top-ix-s2-thm-1 .statement tag=0C2N}
 
 *Pour qu’une structure uniforme soit métrisable, il faut et il suffit qu’elle soit séparée et que le filtre des entourages de cette structure ait une base dénombrable.*
 
@@ -205,13 +205,13 @@ La condition est *nécessaire*, car (avec la notation de IX, p. 12), les entoura
 
 La condition est *suffisante*, car si elle est remplie, la structure uniforme considérée est définie par un seul écart (qu’on peut supposer fini) d’après la prop. 2 de IX, p. 6, et comme elle est séparée, cet écart est une distance.
 
-#### Corollaire 1 {#top-ix-s2-thm-1-cor-1 .statement}
+#### Corollaire 1 {#top-ix-s2-thm-1-cor-1 .statement tag=0C2O}
 
 *Une structure uniforme séparée définie par une famille dénombrable d’écart est métrisable.*
 
 En effet, si $(f_n)$ est une suite d’écart définissant une telle structure, le filtre des entourages est engendré par la famille dénombrable des ensembles $-1^{f_n}([0, 1/m])$, où $m$ et $n$ parcourent l’ensemble des entiers $> 0$.
 
-#### Corollaire 2 {#top-ix-s2-thm-1-cor-2 .statement}
+#### Corollaire 2 {#top-ix-s2-thm-1-cor-2 .statement tag=0C2P}
 
 *Tout produit dénombrable d’espaces uniformes métrisables est métrisable.*
 
@@ -219,7 +219,7 @@ En effet, un tel espace est séparé, et sa structure uniforme admet un système
 
 ### 5. Espaces topologiques métrisables
 
-#### Définition 3 {#top-ix-s2-def-3 .statement}
+#### Définition 3 {#top-ix-s2-def-3 .statement tag=0C2Q}
 
 *On dit qu’une distance sur un ensemble $X$ est compatible avec une topologie $\mathscr{T}$ sur $X$ si la topologie définie par cette distance est identique à $\mathscr{T}$. On dit qu’un espace topologique $X$ est métrisable s’il existe une distance sur $X$ compatible avec la topologie de $X$.
 
@@ -231,23 +231,23 @@ On remarquera aussi qu’il peut exister des structures uniformes non métrisabl
 
 Nous nous contenterons ici de donner des conditions nécessaires pour qu’un espace topologique soit métrisable (pour une condition nécessaire et suffisante, cf. IX, p. 109, exerc. 32). En premier lieu, un espace ne peut être métrisable que s’il est complètement régulier (nous verrons même (IX, p. 43, prop. 2) qu’un espace métrisable est nécessairement « normal », ce qui est une condition plus forte). D’autre part, d’après le th. 1 (IX, p. 15):
 
-#### Proposition 6 {#top-ix-s2-prop-6 .statement}
+#### Proposition 6 {#top-ix-s2-prop-6 .statement tag=0C2R}
 
 Tout point d’un espace métrisable possède un système fondamental dénombrable de voisinages.
 
 Plus généralement:
 
-#### Proposition 7 {#top-ix-s2-prop-7 .statement}
+#### Proposition 7 {#top-ix-s2-prop-7 .statement tag=0C2S}
 
 Dans un espace métrisable, tout ensemble fermé est intersection d’une famille dénombrable d’ensembles ouverts; tout ensemble ouvert est réunion d’une famille dénombrable d’ensembles fermés.
 
 En effet, soit $d$ une distance compatible avec la topologie d’un espace métrisable $X$. Si $A$ est fermé dans $X$, il est l’intersection des ensembles ouverts $V_{1/n}(A)$ (ensemble des $x$ tels que $d(x, A) < 1/n$; cf. IX, p. 13, prop. 2). La seconde partie de la proposition résulte de la première par passage aux complémentaires.
 
-#### Remarque 1 {#top-ix-s2-n5-rem-1 .statement}
+#### Remarque 1 {#top-ix-s2-n5-rem-1 .statement tag=0C2T}
 
 Les conditions nécessaires qui précèdent ne sont pas suffisantes (cf. IX, p. 92, exerc. 12).
 
-#### Remarque 2 {#top-ix-s2-n5-rem-2 .statement}
+#### Remarque 2 {#top-ix-s2-n5-rem-2 .statement tag=0C2U}
 
 On peut donner des exemples d’espaces où tout point a un système fondamental dénombrable de voisinages, mais où il existe des ensembles fermés qui ne sont pas des intersections dénombrables d’ensembles ouverts (IX, p. 94, exerc. 14); de tels espaces ne sont pas métrisables).
 
@@ -261,7 +261,7 @@ La notion de suite convergente est par contre tout à fait inadaptée à l’ét
 
 A titre d’exemple d’emploi des suites dénombrables, indiquons les propositions suivantes:
 
-#### Proposition 8 {#top-ix-s2-prop-8 .statement}
+#### Proposition 8 {#top-ix-s2-prop-8 .statement tag=0C2V}
 
 Dans un espace métrisable E, pour qu’un point x soit adhérent à une partie non vide A de E, il faut et il suffit qu’il existe une suite de points de A qui converge vers x.
 
@@ -269,13 +269,13 @@ Nous savons déjà que la condition est suffisante (I, p. 47, prop. 6). Pour voi
 
 La prop. 8 entraîne ceci:
 
-#### Proposition 9 {#top-ix-s2-prop-9 .statement}
+#### Proposition 9 {#top-ix-s2-prop-9 .statement tag=0C2W}
 
 Pour qu’un espace métrique X soit complet, il faut et il suffit que toute suite de Cauchy dans X soit convergente.
 
 En effet, soit $\hat{X}$ le complété de X; s’il existe un point $x \in \hat{X}$ n’appartenant pas à X, il existe une suite $(x_n)$ de points de X qui converge vers x; c’est une suite de Cauchy non convergente dans X.
 
-#### Proposition 10 {#top-ix-s2-prop-10 .statement}
+#### Proposition 10 {#top-ix-s2-prop-10 .statement tag=0C2X}
 
 Soient X un espace métrisable, f une application de X dans un espace topologique Y. Pour que f soit continue en un point $a \in X$, il faut et il suffit que pour toute suite $(x_n)$ de points de X qui converge vers a, la suite $(f(x_n))$ converge vers $f(a)$ dans Y.
 
@@ -285,7 +285,7 @@ On notera que les prop. 8 et 10 sont encore valables dans un espace $X$ où l’
 
 ### 7. Fonctions semi-continues sur un espace métrisable
 
-#### Proposition 11 {#top-ix-s2-prop-11 .statement}
+#### Proposition 11 {#top-ix-s2-prop-11 .statement tag=0C2Y}
 
 Soient $X$ un espace métrisable, $f$ une fonction $\geqslant 0$, semi-continue inférieurement dans $X$. Alors $f$ est l’enveloppe supérieure d’une suite croissante de fonctions continues et finies dans $X$.
 
@@ -297,13 +297,13 @@ est alors continue, finie et $\geqslant 0$ dans $X$; en outre, $h_n(x) = f(x)$ p
 
 ### 8. Espaces métrisables de type dénombrable
 
-#### Définition 4 {#top-ix-s2-def-4 .statement}
+#### Définition 4 {#top-ix-s2-def-4 .statement tag=0C2Z}
 
 On dit qu’un espace métrisable est de type dénombrable si sa topologie admet une base dénombrable.
 
 Il est clair que tout sous-espace d’un espace métrisable de type dénombrable est de type dénombrable. La définition de la base de la topologie d’un espace produit (I, p. 24), et le cor. 2 (IX, p. 15), prouvent que tout produit d’une famille dénombrable d’espace métrisables de type dénombrable est un espace métrisable de type dénombrable. De même, tout espace somme d’une famille dénombrable d’espaces métrisables de type dénombrable est un espace métrisable de type dénombrable (IX, p. 16).
 
-#### Proposition 12 {#top-ix-s2-prop-12 .statement}
+#### Proposition 12 {#top-ix-s2-prop-12 .statement tag=0C30}
 
 Pour un espace topologique métrisable $X$, les propositions suivantes sont équivalentes :
 a) $X$ est de type dénombrable ;
@@ -327,14 +327,14 @@ ce qui montre que $W$ est un voisinage de $x_0$ contenu dans $B$; donc $\varphi$
 
 On notera que pour un espace topologique quelconque $X$, la propriété b) n’entraîne pas nécessairement l’existence d’une base dénombrable, même lorsque $X$ est compact et que tout point de $X$ admet un système fondamental dénombrable de voisinages (IX, p. 92, exerc. 12; cf. I, p. 90, exerc. 7).
 
-#### Corollaire {#top-ix-s2-n8-cor-1 .statement}
+#### Corollaire {#top-ix-s2-n8-cor-1 .statement tag=0EBK}
 
 (i) Tout sous-espace d’un espace métrisable de type dénombrable est métrisable de type dénombrable.
 (ii) Toute somme (resp. tout produit) d’une famille dénombrable d’espaces métrisables de type dénombrable est métrisable de type dénombrable.
 
 L’assertion (i) résulte de la définition; pour prouver l’assertion (ii) relative aux sommes, notons que toute somme d’espaces métrisables est métrisable (IX, p. 16); d’autre part, si $X$ est somme d’une suite $(X_n)$ d’espaces topologiques et si $D_n$ est une partie partout dense de $X_n$, $\bigcup_n D_n$ est dense dans $X$. Enfin, l’assertion (ii) relative aux produits résulte de la prop. 12 et de la relation $(I^\mathbf{N})^\mathbf{N} = I^{\mathbf{N} \times \mathbf{N}}$, et du fait que $\mathbf{N} \times \mathbf{N}$ est dénombrable.
 
-#### Proposition 13 {#top-ix-s2-prop-13 .statement}
+#### Proposition 13 {#top-ix-s2-prop-13 .statement tag=0C31}
 
 Soit $X$ un espace topologique admettant une base dénombrable $(U_n)$; pour tout recouvrement ouvert $(V_i)_{i \in I}$ de $X$ il existe une partie dénombrable $J$ de $I$ telle que $(V_i)_{i \in J}$ soit un recouvrement de $X$.
 
@@ -344,7 +344,7 @@ En effet, soit $H$ la partie de $\mathbf{N}$ formée des indices $n$ tels que $U
 
 Le critère de précompacité des espaces uniformes (II, p. 29, th. 4) donne, pour les espaces métriques, la proposition suivante:
 
-#### Proposition 14 {#top-ix-s2-prop-14 .statement}
+#### Proposition 14 {#top-ix-s2-prop-14 .statement tag=0C32}
 
 *Pour qu’un espace métrique $X$ soit précompact, il faut et il suffit que, pour tout $\varepsilon > 0$, il existe un recouvrement fini de $X$ dont tous les ensembles aient un diamètre $\leq \varepsilon$.*
 
@@ -352,13 +352,13 @@ Si on ajoute l’hypothèse que $X$ est *complet*, on obtient un critère de *co
 
 On déduit de la prop. 14 un critère *topologique* de compacité, applicable aux espaces métrisables:
 
-#### Proposition 15 {#top-ix-s2-prop-15 .statement}
+#### Proposition 15 {#top-ix-s2-prop-15 .statement tag=0C33}
 
 *Pour qu’un espace topologique métrisable $X$ soit compact, il faut et il suffit que toute suite infinie de points de $X$ ait une valeur d’adhérence dans $X$.*
 
 D’après l’axiome (C) (I, p. 59), la condition est *nécessaire*. Pour voir qu’elle est *suffisante*, considérons une distance $d$ compatible avec la topologie de $X$. Montrons d’abord que l’espace métrique $X$ ainsi défini est *complet*: en effet, toute suite de Cauchy dans $X$ a alors une valeur d’adhérence, et par suite est convergente (II, p. 14, cor. 2 de la prop. 5); la prop. 9, IX, p. 17 montre donc que $X$ est complet. En second lieu, montrons que $X$ est *précompact*; dans le cas contraire, en vertu de la prop. 14, il existerait un nombre $\alpha > 0$ tel qu’il n’y ait aucun recouvrement fini de $X$ par des parties de $X$ de diamètre $< \alpha$. On pourrait alors définir par récurrence sur $n$ une suite infinie $(x_n)$ de points de $X$ par la condition $d(x_p, x_n) > \alpha/2$ pour tout $p < n$; or, une telle suite ne peut avoir de valeur d’adhérence, puisque toute boule de rayon $< \alpha/4$ contient au plus un point de la suite.
 
-#### Corollaire {#top-ix-s2-n9-cor-1 .statement}
+#### Corollaire {#top-ix-s2-n9-cor-1 .statement tag=0C34}
 
 *Pour qu’une partie $A$ d’un espace topologique métrisable $X$ soit relativement compacte, il faut et il suffit que toute suite infinie de points de $A$ ait une valeur d’adhérence dans $X$.*
 
@@ -366,7 +366,7 @@ La condition est nécessaire d’après I, p. 62, prop. 7. Inversement, soit $d$
 
 Il faut remarquer que la prop. 15 n’est pas une conséquence de l’existence, en tout point de X, d’un système fondamental dénombrable de voisinages; on peut donner des exemples d’espaces non métrisables et non compacts, dans lesquels tout point possède un système fondamental dénombrable de voisinages, et toute suite de points une valeur d’adhérence (IX, p. 94, exerc. 14).
 
-#### Proposition 16 {#top-ix-s2-prop-16 .statement}
+#### Proposition 16 {#top-ix-s2-prop-16 .statement tag=0C35}
 
 Pour qu’un espace compact X soit métrisable, il faut et il suffit que sa topologie admette une base dénombrable.
 
@@ -374,7 +374,7 @@ La condition est nécessaire. En effet, d’après la prop. 14 (IX, p. 20), pour
 
 La condition est suffisante. Soit en effet $(U_n)$ une base dénombrable de la topologie de X. Tout voisinage d’un point de la diagonale $\Delta$ de $X \times X$ contient alors un voisinage de la forme $U_n \times U_n$; il résulte de l’axiome de Borel-Lebesgue appliqué à l’ensemble compact $\Delta$ dans $X \times X$, que tout voisinage de $\Delta$ contient une réunion finie d’ensembles de la forme $U_n \times U_n$, qui est un voisinage de $\Delta$. Les voisinages de $\Delta$ qui sont réunions finies d’ensembles de la forme $U_n \times U_n$ forment par suite un système fondamental d’entourages de la structure uniforme de X (II, p. 27, th. 1); notre assertion résulte par suite du th. 1 (IX, p. 5).
 
-#### Corollaire {#top-ix-s2-n9-cor-2 .statement}
+#### Corollaire {#top-ix-s2-n9-cor-2 .statement tag=0C36}
 
 Soient X un espace localement compact, $X'$ l’espace compact obtenu par adjonction à X d’un point à l’infini $\omega$ (I, p. 68). Les propositions suivantes sont équivalentes:
 
@@ -392,7 +392,7 @@ Prouvons enfin que c) entraîne a). Il existe par hypothèse une suite croissant
 
 Si $X$ est un espace métrisable, $R$ une relation d’équivalence dans $X$, l’espace quotient $X/R$ n’est pas nécessairement métrisable (même si en outre $X$ est localement compact *et $X/R$ normal*). Toutefois:
 
-#### Proposition 17 {#top-ix-s2-prop-17 .statement}
+#### Proposition 17 {#top-ix-s2-prop-17 .statement tag=0C37}
 
 *Tout espace quotient séparé d’un espace compact métrisable est un espace compact métrisable.*
 
@@ -402,7 +402,7 @@ Soient $X$ un espace compact métrisable, $R$ une relation d’équivalence dans
 
 Soient $z$ un point quelconque de $X/R$, $V$ un voisinage de $z$ dans $X/R$; $\varphi^{-1}(V)$ est donc un voisinage dans $X$ de l’ensemble compact $\varphi^{-1}(z)$. Comme pour tout $x \in \varphi^{-1}(z)$ il existe un $U_n$ contenant $x$ et contenu dans $\varphi^{-1}(V)$, l’axiome de Borel-Lebesgue montre qu’il existe un recouvrement ouvert fini $(U_{n_k})_{1 \leq k \leq r}$ de $\varphi^{-1}(z)$ tel que, si on pose $W = \bigcup_k U_{n_k}$, $W$ soit un voisinage de $\varphi^{-1}(z)$ contenu dans $\varphi^{-1}(V)$. Comme $R$ est fermée, $\varphi(W)$ est alors un voisinage de $z$ dans $X/R$, contenu dans $V$ (I, p. 35, *Remarque*). Désignons par $\mathfrak{B}$ l’ensemble des intérieurs des ensembles de la forme $\varphi(W)$, où $W$ parcourt l’ensemble $\mathfrak{F}$ des réunions finies d’ensembles de la forme $U_n$; ce qui précède prouve que $\mathfrak{B}$ est une base de la topologie de $X/R$, et comme $\mathfrak{F}$ est dénombrable, il en est de même de $\mathfrak{B}$.
 
-#### Proposition 18 {#top-ix-s2-prop-18 .statement}
+#### Proposition 18 {#top-ix-s2-prop-18 .statement tag=0C38}
 
 *Soient $X$ un espace métrique complet, $R$ une relation d’équivalence ouverte dans $X$, telle que $X/R$ soit séparé, $\varphi$ l’application canonique de $X$ sur $X/R$. Pour toute partie compacte $K$ de $X/R$, il existe une partie compacte $K'$ de $X$ telle que $\varphi(K') = K$.*
 

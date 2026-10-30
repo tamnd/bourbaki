@@ -40,9 +40,9 @@ subsections:
       pdf_page: 17
 statements: 27
 exercises: 14
-content_sha256: 10a1e51d7f5bc16e423daad1ec92c0be73d0b20cb6517bee39c4e6ae112e8b94
+content_sha256: e56d3884f1bd834674608c342f56f0b4fe68788034252f8696de2cf84842acb2
 translated_from: content/en/evt/I/01_s1_topological_vector_spaces.md
-source_content_sha256: 1f8d3d74fb2618f3c351e6ad261b10979253e2143e5c0e9b52c02e67b8516889
+source_content_sha256: 99f7362e5facc0f5a48166a8143125835c4c5eb7fc7a7fc95d4ea773e2bc3c95
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-52bd887b
 glossary_version: 34
@@ -54,7 +54,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Định nghĩa không gian vectơ tôpô
 
-#### Định nghĩa 1 {#evt-i-s1-def-1 .statement}
+#### Định nghĩa 1 {#evt-i-s1-def-1 .statement tag=077V}
 
 — *Cho một vành chia tôpô* $\mathbf{K}$ (GT, III, § 6.7) *và một tập hợp* $E$ *sao cho* $E$ *có*
 $1^\circ$ *cấu trúc của một không gian vectơ trái trên* $\mathbf{K}$;
@@ -66,7 +66,7 @@ Một cấu trúc không gian vectơ trái đối với $\mathbf{K}$ và một t
 
 Nếu $E$ là một không gian vectơ tôpô trái trên $\mathbf{K}$, ta nói rằng $E$ chỉ được trang bị cấu trúc không gian vectơ của nó, *nằm dưới* không gian vectơ tôpô $E$.
 
-#### Ví dụ {#evt-i-s1-n1-exa-1 .statement}
+#### Ví dụ {#evt-i-s1-n1-exa-1 .statement tag=077W}
 
 — 1) Nếu $E$ là một không gian vectơ trái trên một vành chia tôpô *rời rạc* $\mathbf{K}$, tôpô *rời rạc* trên $E$ tương thích với cấu trúc không gian vectơ của $E$ (điều này không đúng nếu $\mathbf{K}$ không rời rạc và $E$ không phải là điểm duy nhất 0).
 2) Cho $A$ là một vành tôpô (GT, III, § 6.3) và cho $\mathbf{K}$ là một vành con của $A$ đồng thời cũng là một vành chia và sao cho tôpô cảm sinh trên $\mathbf{K}$ bởi tôpô của $A$ tương thích với cấu trúc vành chia của $\mathbf{K}$; khi đó tôpô của $A$ tương thích với cấu trúc không gian vectơ trái của nó trên $\mathbf{K}$.
@@ -106,13 +106,13 @@ tiên đề (EVT) tương đương với hệ ba tiên đề sau.
 
 Đặc biệt:
 
-#### Mệnh đề 1 {#evt-i-s1-prop-1 .statement}
+#### Mệnh đề 1 {#evt-i-s1-prop-1 .statement tag=077X}
 
 — Với mọi $\alpha \in K$ và mọi điểm $b \in E$, ánh xạ $x \mapsto \alpha x + b$ từ E vào chính nó là liên tục. Hơn nữa, nếu $\alpha \neq 0$, ánh xạ này là một phép đồng phôi của E lên chính nó.
 
 Phần thứ hai của mệnh đề là hệ quả của sự kiện rằng nếu $\alpha \neq 0$, thì $x \mapsto \alpha^{-1}x - \alpha^{-1}b$ là ánh xạ nghịch đảo của $x \mapsto \alpha x + b$.
 
-#### Hệ quả {#evt-i-s1-n1-cor-1 .statement}
+#### Hệ quả {#evt-i-s1-n1-cor-1 .statement tag=077Y}
 
 — Nếu $A$ là một tập hợp mở (tương ứng đóng) trong E, thì $\alpha A$ là mở (tương ứng đóng) trong E với mọi $\alpha \neq 0$ trong K.
 
@@ -126,7 +126,7 @@ Mặt khác, ta nhắc lại (GT, IX, § 3.3) rằng nếu $E$ là một không 
 
 Đã biết (GT, IX, § 3.3) rằng hai chuẩn phân biệt trên $E$ có thể định nghĩa cùng một tôpô trên $E$; điều này xảy ra khi và chỉ khi hai chuẩn là tương đương (loc. cit.). Cấu trúc của các không gian chuẩn do đó phong phú hơn cấu trúc của các không gian vectơ tôpô; nếu $E$ và $F$ là hai không gian chuẩn, cần phải cẩn thận phân biệt giữa khái niệm đẳng cấu của cấu trúc không gian chuẩn của $E$ với của $F$, và khái niệm đẳng cấu của cấu trúc không gian vectơ tôpô của $E$ với của $F$.
 
-#### Ví dụ {#evt-i-s1-n2-exa-1 .statement}
+#### Ví dụ {#evt-i-s1-n2-exa-1 .statement tag=077Z}
 
 Cho I là một tập hợp chỉ số tùy ý; người ta biết (GT, X, § 3.2) rằng một chuẩn $\|x\|$ có thể được định nghĩa, trên tập hợp các ánh xạ bị chặn $x = (\xi_i)$ từ I vào K, $\mathscr{B}(I; K)$ (cũng được viết là $\mathscr{B}_K(I)$ hoặc $\ell_K^\infty(I)$), bởi $\|x\| = \sup_{i \in I} |\xi_i|$. Khi I là một không gian tôpô, tập hợp các ánh xạ liên tục, bị chặn từ I vào K là một không gian con đóng của không gian $\mathscr{B}(I; K)$ (GT, X, § 3.1, hệ quả 2). Một không gian con khác của $\mathscr{B}(I; K)$ là tập hợp $\ell_K^1(I)$ của các họ cộng tuyệt đối $x = (\xi_i)$ (GT, X, § 3.6); ta có thể định nghĩa trên không gian con này một chuẩn khác $\|x\|_1 = \sum_{i \in I} |\xi_i|$, mà nói chung không tương đương với chuẩn $\|x\| = \sup_{i \in I} |\xi_i|$ (I, p. 23, bài tập 6); khi xét $\ell_K^1(I)$ như một không gian có chuẩn, không chỉ rõ chuẩn của nó, thì luôn hiểu đó là chuẩn $\|x\|$. Ta viết $\mathscr{B}(I)$ và $\ell^1(I)$ thay cho $\mathscr{B}(I; \mathbf{R})$ và $\ell_R^1(I)$.
 
@@ -142,7 +142,7 @@ Cho $(E_i)_{i \in I}$ là một họ các không gian vectơ tôpô trên cùng 
 
 Mọi điều đã nói về các tổng trực tiếp hữu hạn của các nhóm con ổn định của các nhóm tôpô có toán tử (GT, III, § 6.2) đều áp dụng cho các không gian vectơ tôpô, bằng cách thay thế « nhóm con ổn định » khắp nơi bởi « không gian con vectơ ».
 
-#### Nhận xét {#evt-i-s1-n3-rem-1 .statement}
+#### Nhận xét {#evt-i-s1-n3-rem-1 .statement tag=0780}
 
 Cho M là một không gian con vectơ đóng của một không gian vectơ tôpô Hausdorff E, không nhất thiết tồn tại một không gian con vectơ bù (đại số) của M đóng trong E (ngay cả khi E là một không gian có chuẩn; xem IV, p. 55, bài tập 16 (c)); a fortiori không nhất thiết tồn tại một không gian bù tôpô của M trong E (xem I, p. 26, bài tập 8). Tuy nhiên ta sẽ thấy trong § 2 rằng khi K là một vành chia có giá trị không rời rạc, thì mọi không gian con đóng M của E, với đối chiều hữu hạn, đều có một không gian bù tôpô trong E (I, p. 14, mệnh đề 3).
 
@@ -150,21 +150,21 @@ Cho M là một không gian con vectơ đóng của một không gian vectơ tô
 
 Vì tôpô của không gian vectơ tôpô E tương thích với cấu trúc nhóm cộng trên E, nó xác định một cấu trúc đều trên E (GT, III, § 3); khi ta nói về cấu trúc đều của một không gian vectơ tôpô, ta luôn hiểu cấu trúc này trừ khi có nêu rõ điều ngược lại. Mọi ánh xạ tuyến tính liên tục từ một không gian vectơ tôpô E vào một không gian vectơ tôpô F đều liên tục đều (GT, III, § 3.1, mệnh đề 3); mọi ánh xạ từ E vào chính nó có dạng $x \mapsto \alpha x + b$ đều liên tục đều. Một tập hợp các ánh xạ tuyến tính liên tục đều từ E vào F là liên tục đều đồng đều (GT, X, § 2.2, mệnh đề 5).
 
-#### Nhận xét 1 {#evt-i-s1-n4-rem-1 .statement}
+#### Nhận xét 1 {#evt-i-s1-n4-rem-1 .statement tag=0781}
 
 Nếu B là một tập hợp tiền compact của K, thì với mọi lân cận V của 0 trong E, tồn tại một lân cận U của 0 trong E sao cho BU $\subset$ V. Thật vậy, nếu W là một lân cận của 0 trong E sao cho W + W $\subset$ V; thì từ (EVT$_{\text{III}}$) suy ra tồn tại một lân cận T$_0$ của 0 trong K và một lân cận U$_0$ của 0 trong E sao cho T$_0$U$_0$ $\subset$ W. Vì B là tiền compact, tồn tại hữu hạn điểm $\lambda_i \in B$ ($1 \leq i \leq n$) sao cho các $\lambda_i + T_0$ phủ B; từ (EVT$_{\text{II}}$) suy ra tồn tại một lân cận U $\subset$ U$_0$ của 0 trong E, sao cho $\lambda_i U \subset W$ với mọi $i$; rõ ràng U có các tính chất cần thiết. Một cách tương tự (dùng (EVT$_{\text{I}}$) thay cho (EVT$_{\text{II}}$)) ta có thể chứng minh rằng nếu H là một tập hợp tiền compact của E, thì với mọi lân cận V của 0 trong E, tồn tại một lân cận T của 0 trong K sao cho TH $\subset$ V.
 
-#### Nhận xét 2 {#evt-i-s1-n4-rem-2 .statement}
+#### Nhận xét 2 {#evt-i-s1-n4-rem-2 .statement tag=0782}
 
 Từ 1) suy ra rằng, nếu B là một tập hợp tiền compact của K và H là một tập hợp tiền compact của E, thì ánh xạ $(\lambda, x) \mapsto \lambda x$ hạn chế trên B $\times$ H là liên tục đều. Thật vậy, nếu V là một lân cận của 0 trong E thì tồn tại các lân cận T của 0 trong K, và U của 0 trong E sao cho TH + BU $\subset$ V. Vì ta có thể viết $\lambda x - \lambda' x' = (\lambda - \lambda') x + \lambda'(x - x')$, ta thấy rằng với $\lambda, \lambda'$ trong B, x, x' trong H, $\lambda - \lambda' \in T$ và $x - x' \in U$, ta có $\lambda x - \lambda' x' \in V$, điều này chứng minh mệnh đề của ta.
 
 Một không gian vectơ tôpô được gọi là đầy đủ nếu, xét theo cấu trúc đều của nó, nó là một không gian đều đầy đủ.
 
-#### Định nghĩa 2 {#evt-i-s1-def-2 .statement}
+#### Định nghĩa 2 {#evt-i-s1-def-2 .statement tag=0783}
 
 *Một không gian có chuẩn đầy đủ trên một vành chia có giá trị không rời rạc được gọi là một không gian Banach.*
 
-#### Ví dụ {#evt-i-s1-n4-exa-1 .statement}
+#### Ví dụ {#evt-i-s1-n4-exa-1 .statement tag=0784}
 
 Nếu K là một vành chia có giá trị không rời rạc thì không gian $\mathscr{B}(I ; K)$ (I, p. 4, Ví dụ) là đầy đủ (GT, X, § 3.1, cor. 1). Điều này cũng đúng cho không gian $\ell_K^1(I)$ (I, p. 4, Ví dụ) với chuẩn $\|x\|_1 = \sum_{i \in I} |\xi_i|$: vì, nếu $x_n$ là một dãy Cauchy trong không gian này và $x_n = (\xi_{m_i})_{i \in I}$, thì với mọi $i \in I$
 
@@ -184,11 +184,11 @@ Cho $K$ là một vành chia tôpô Hausdorff, $E$ là một không gian vectơ 
 
 ### 5. Các lân cận của gốc trong một không gian vectơ tôpô trên một vành chia có giá trị
 
-#### Định nghĩa 3 {#evt-i-s1-def-3 .statement}
+#### Định nghĩa 3 {#evt-i-s1-def-3 .statement tag=0785}
 
 *Cho $K$ là một vành chia có giá trị và $E$ là một không gian vectơ trái trên $K$; ta nói rằng một tập con $M$ của $E$ là cân bằng nếu, với mọi $x \in M$ và mọi $\lambda \in K$ sao cho $|\lambda| \leq 1$, ta có $\lambda x \in M$ (hay nói cách khác nếu $\lambda M \subset M$ khi $|\lambda| \leq 1$).*
 
-#### Mệnh đề 2 {#evt-i-s1-prop-2 .statement}
+#### Mệnh đề 2 {#evt-i-s1-prop-2 .statement tag=0786}
 
 *Trong một không gian vectơ tôpô $E$ trên một vành chia có giá trị $K$, bao đóng của một tập cân bằng $M$ là một tập cân bằng.*
 
@@ -196,7 +196,7 @@ Nếu $B$ là tập hợp các $\xi \in K$ với $|\xi| \leq 1$; thì $B$ là đ
 
 Khi $M$ là một tập hợp tùy ý trong không gian vectơ $E$ trên một vành chia có giá trị $K$, tập hợp $M_1$ của các $\lambda x$ với $x \in M$ và $\lambda \in K$ sao cho $|\lambda| \leq 1$, rõ ràng là tập hợp cân bằng nhỏ nhất chứa $M$; $M_1$ được gọi là *bao cân bằng* của $M$.
 
-#### Mệnh đề 3 {#evt-i-s1-prop-3 .statement}
+#### Mệnh đề 3 {#evt-i-s1-prop-3 .statement tag=0787}
 
 *Cho $K$ là một vành chia có giá trị compact địa phương và không rời rạc, và $E$ là một không gian vectơ tôpô Hausdorff (tương ứng. một không gian vectơ tôpô) trên $K$. Với mọi tập hợp compact (tương ứng. tiền compact) $H$ trong $E$, bao cân bằng của $H$ là compact (tương ứng. tiền compact).
 
@@ -206,13 +206,13 @@ Chú ý rằng bao cân bằng của một tập hợp đóng không nhất thi�
 
 Hợp của một họ các tập hợp cân bằng trong $E$ là cân bằng, điều này suy ra rằng với mọi tập hợp $M$ của $E$ tồn tại một tập con cân bằng lớn nhất $N$ của $M$ được gọi là *lõi cân bằng của* $M$; ngoài ra $N$ không rỗng khi và chỉ khi $0 \in M$. Nói rằng $x \in N$ có nghĩa là với mọi $\lambda \in K$ sao cho $|\lambda| \leq 1$, ta có $\lambda x \in M$, hay tương đương (nếu $0 \in M$) là, với mọi $\mu \in K$ với |μ| ≥ 1, ta có x ∈ μM. Nếu 0 ∈ M, lõi cân bằng N của M do đó là giao $\bigcap_{|\mu| \geq 1} \mu M$. Điều này đặc biệt cho thấy rằng nếu M đóng thì N cũng đóng.
 
-#### Định nghĩa 4 {#evt-i-s1-def-4 .statement}
+#### Định nghĩa 4 {#evt-i-s1-def-4 .statement tag=0788}
 
 *Cho K là một vành chia định giá không rời rạc và E là một không gian vectơ trái trên K với hai tập con A và B. Ta nói rằng A hấp thụ B nếu tồn tại α > 0 sao cho λA ⊃ B với mọi λ ∈ K thỏa mãn |λ| ≥ α (hoặc tương đương nếu μB ⊂ A với μ ≠ 0 và |μ| ≤ α⁻¹). Một tập hợp A của E được gọi là hấp thụ nếu nó hấp thụ mọi tập hợp gồm một điểm.*
 
 Cho A là một tập hợp cân bằng của E; để nó hấp thụ một tập hợp B của E thì chỉ cần tồn tại λ ≠ 0 sao cho λA ⊃ B; thật vậy, với |μ| ≥ |λ|, ta có λA = (λμ⁻¹) μA, và vì μA là cân bằng và |λμ⁻¹| ≤ 1, suy ra λA ⊂ μA, và do đó B ⊂ μA. Đặc biệt, để một tập hợp cân bằng A của E là hấp thụ, điều kiện cần và đủ là với mọi x ∈ E, tồn tại λ ≠ 0 trong K sao cho λx ∈ A. Mọi tập hợp hấp thụ của E đều sinh ra không gian vectơ E. Mọi giao hữu hạn của các tập hợp hấp thụ là một tập hợp hấp thụ.
 
-#### Mệnh đề 4 {#evt-i-s1-prop-4 .statement}
+#### Mệnh đề 4 {#evt-i-s1-prop-4 .statement tag=0789}
 
 *Trong một không gian vectơ tôpô E trên một vành chia định giá không rời rạc K tồn tại một hệ cơ sở $\mathfrak{B}$ các lân cận đóng của 0 sao cho :
 *(EV₁)* Mọi tập hợp V ∈ $\mathfrak{B}$ đều cân bằng và hấp thụ.
@@ -225,17 +225,17 @@ Theo tiên đề (EVT'₃) ta chứng minh trước hết rằng *lõi cân bằ
 
 Bây giờ cho E là một không gian vectơ trên K, và $\mathfrak{B}$ là một cơ sở lọc trên E thỏa mãn (EV₁), (EV₂) và (EV₃). Tiên đề (EV₁) trước hết cho thấy rằng với mọi V ∈ $\mathfrak{B}$, ta có −V = V và 0 ∈ V; các hệ thức này và tiên đề (EV₃) cho thấy rằng $\mathfrak{B}$ là một hệ cơ sở các lân cận của 0, đối với một tôpô trên E tương thích với cấu trúc *nhóm cộng* của E (GT, III, § 1.2). Mặt khác các tiên đề (EVT'_I), (EVT'_II) và (EVT'_III) là các hệ quả ngay lập tức của (EV_I) và (EV_II), do đó tôpô được xác định ở trên thỏa mãn tiên đề (EVT), và mệnh đề được chứng minh.
 
-#### Nhận xét 1 {#evt-i-s1-n5-rem-1 .statement}
+#### Nhận xét 1 {#evt-i-s1-n5-rem-1 .statement tag=078A}
 
 Trong một không gian định chuẩn trên một vành chia định giá không rời rạc, tập hợp các quả cầu mở (tương ứng quả cầu đóng) có tâm 0 là một hệ cơ sở các lân cận của 0 thỏa mãn các điều kiện (EV_I), (EV_II) và (EV_III).
 
-#### Nhận xét 2 {#evt-i-s1-n5-rem-2 .statement}
+#### Nhận xét 2 {#evt-i-s1-n5-rem-2 .statement tag=078B}
 
 Khi vành chia của các vô hướng K là trường \mathbf{R} hoặc trường \mathbf{C}, mọi cơ sở lọc \mathfrak{B} trên E chỉ thỏa mãn hai tiên đề (EV_I) và (EV_III) là một hệ cơ sở các lân cận của 0 đối với một tôpô tương thích với cấu trúc không gian vectơ của E. Thật vậy, ta chỉ cần chứng minh rằng, trong các điều kiện này, với mọi $\lambda \neq 0$ trong K và mọi $V \in \mathfrak{B}$ tồn tại $W \in \mathfrak{B}$ sao cho $\lambda W \subset V$. Bây giờ từ (EV_III) tồn tại $W_1 \in \mathfrak{B}$ với $2\,W_1 \subset V$, và ta suy ra, bằng quy nạp, rằng với mọi số nguyên dương $n$, tồn tại $W_n \in \mathfrak{B}$ sao cho $2^n W_n \subset V$. Vì V là cân bằng, nếu lấy $n$ đủ lớn sao cho $2^n = |2^n| > |\lambda|$, thì $W = W_n$ thỏa mãn điều kiện, như cần phải chứng minh.
 
 Kết quả này không đúng đối với mọi vành chia định giá không rời rạc K, vì trong một vành chia như vậy không còn nhất thiết đúng rằng $|m\varepsilon| = m$ với mọi số nguyên dương $m$ ($\varepsilon$ chỉ phần tử đơn vị của vành chia ; xem I, p. 22, bt. 1).
 
-#### Nhận xét 3 {#evt-i-s1-n5-rem-3 .statement}
+#### Nhận xét 3 {#evt-i-s1-n5-rem-3 .statement tag=078C}
 
 Nếu $K$ là một vành chia rời rạc, các điều kiện (EVT'_I) và (EVT'_III) đúng với mọi tôpô trên $E$. Lập luận như trong mệnh đề 4, ta dễ dàng thấy rằng nếu $E$ là một không gian vectơ tôpô trên $K$, thì tồn tại $\mathfrak{B}$, một hệ cơ sở các lân cận đóng của 0 trong $E$ thỏa mãn các điều kiện (EV_II) và (EV_III). Ngược lại, nếu một cơ sở lọc $\mathfrak{B}$ trên một không gian vectơ $E$ trên $K$ sao cho 0 thuộc mọi tập hợp của $\mathfrak{B}$ và (EV_II), (EV_III) đúng, thì $\mathfrak{B}$ là một hệ cơ sở các lân cận của 0 trong một tôpô tương thích với cấu trúc không gian vectơ của $E$.
 
@@ -243,7 +243,7 @@ Nếu $K$ là một vành chia rời rạc, các điều kiện (EVT'_I) và (EV
 
 Cho $E$ và $F$ là các không gian vectơ tôpô trên cùng một vành chia $K$; để một ánh xạ tuyến tính $f$ từ $E$ vào $F$ liên tục, chỉ cần nó liên tục tại gốc (GT, III, § 2.8, mệnh đề 23). Mệnh đề này được tổng quát hóa như sau:
 
-#### Mệnh đề 5 {#evt-i-s1-prop-5 .statement}
+#### Mệnh đề 5 {#evt-i-s1-prop-5 .statement tag=078D}
 
 — Cho $E_i (1 \leq i \leq n)$ và $F$ là các không gian vectơ tôpô trên một trường định giá không rời rạc $K$. Để một ánh xạ đa tuyến tính $f$ từ $\prod_{i=1}^n E_i$ vào $F$ liên tục trong không gian tích $\prod_{i=1}^n E_i$, chỉ cần nó liên tục tại $(0, 0, ..., 0)$.
 
@@ -261,7 +261,7 @@ $$
 
 trong đó $H$ chạy qua $2^n - 1$ tập con của tập hợp các số nguyên $\{ 1, 2, ..., n \}$, loại trừ chính tập hợp $\{ 1, 2, ..., n \}$, và trong đó $u_H = f(y_1, y_2, ..., y_n)$, với $y_i = a_i$ nếu $i \in H$ và $y_i = z_i$ nếu $i \notin H$. Tồn tại $2^n - 1$ lân cận cân bằng $W_H$ của 0 trong $F$ sao cho $\sum_H W_H \subset W$; mặt khác, vì theo giả thiết $f$ liên tục tại $(0, 0, ..., 0)$, nên trong mỗi $E_i$ tồn tại một lân cận $U_i$ của 0 ($1 \leq i \leq n$) sao cho $n$ hệ thức $x_i \in U_i$ kéo theo $f(x_1, ..., x_n) \in \bigcap_H W_H$. Vì $U_i$ hấp thụ, tồn tại $\lambda_i \neq 0$ trong $K$ sao cho $\lambda_i a_i \in U_i$. Gọi $\lambda$ là một phần tử của $K$ sao cho $|\lambda| \geq \prod_{i \in H} |\lambda_i|^{-1}$ với mỗi tập con $H$; ta chứng minh rằng các lân cận $V_i = \lambda^{-n} U_i$, thỏa mãn điều kiện cần thiết. Ta có thể viết $u_H = \mu f(x_1, ..., x_n)$ trong đó $x_i \in U_i$ với $1 \leq i \leq n$ và $\mu = \lambda^{-np} (\prod_{i \in H} \lambda_i^{-1})$, $p$ là số các số nguyên của $\{ 1, 2, ..., n \}$ không thuộc $H$. Theo điều trên $|\mu| \leq 1$, do đó $u_H \in \mu W_H \subset W_H$ vì $W_H$ là cân bằng. Mệnh đề được chứng minh.
 
-#### Mệnh đề 6 {#evt-i-s1-prop-6 .statement}
+#### Mệnh đề 6 {#evt-i-s1-prop-6 .statement tag=078E}
 
 *Với cùng các giả thiết về $E_i (1 \leq i \leq n)$ và về $F$ như trong mệnh đề 5, để một tập hợp $\mathscr{E}$ các ánh xạ đa tuyến tính của $\prod_{i=1}^n E_i$ vào $F$ là đều liên tục thì chỉ cần tập hợp đó đều liên tục tại $(0, 0, ..., 0)$.*
 
@@ -269,13 +269,13 @@ Bởi vì, trong phép chứng minh của mệnh đề 5, các $U_i (1 \leq i \l
 
 ### 7. Các tôpô ban đầu của các không gian vectơ
 
-#### Mệnh đề 7 {#evt-i-s1-prop-7 .statement}
+#### Mệnh đề 7 {#evt-i-s1-prop-7 .statement tag=078F}
 
 *Cho $(E_v)_{v \in I}$ là một họ các không gian vectơ tôpô trên một vành chia tôpô $K$. Cho $E$ là một không gian vectơ trên $K$ và với mỗi $v \in I$, cho $f_v$ là một ánh xạ tuyến tính của $E$ vào $E_v$. Khi đó tôpô thô nhất trên $E$ làm cho mỗi hàm $f_v$ liên tục, là một tôpô $\mathscr{T}$ tương thích với cấu trúc không gian vectơ của $E$. Hơn nữa, nếu với mọi $x \in E$, $\phi(x)$ ký hiệu điểm $(f_v(x))$ của không gian tích $F = \prod_{v \in I} E_v$, thì tôpô $\mathscr{T}$ là ảnh ngược của tôpô của không gian con $\phi(E)$ của $F$ qua ánh xạ tuyến tính $\phi$.*
 
 Phần cuối của mệnh đề là một trường hợp riêng của GT, I, § 4.1, mệnh đề 3. Mệnh đề sau đó suy ra từ bổ đề tiếp theo.
 
-#### Bổ đề {#evt-i-s1-n7-lem-1 .statement}
+#### Bổ đề {#evt-i-s1-n7-lem-1 .statement tag=078G}
 
 — *Cho $M$ và $N$ là hai không gian vectơ, và $g$ là một ánh xạ tuyến tính của $M$ vào $N$. Nếu $\mathscr{T}_0$ là một tôpô tương thích với cấu trúc không gian vectơ của $N$, thì ảnh ngược của $\mathscr{T}_0$ qua $g$ là tương thích với cấu trúc không gian vectơ của $M$.*
 
@@ -283,25 +283,25 @@ Ta chứng minh, chẳng hạn, rằng $(\lambda, x) \mapsto \lambda x$ là liê
 
 Với mỗi chỉ số $i \in I$, cho $\mathscr{B}_i$ là một hệ cơ bản các lân cận của 0 trong $E_i$. Theo định nghĩa của tôpô $\mathscr{T}$, bộ lọc các lân cận của 0 đối với tôpô này được sinh bởi các hợp của các tập thuộc các họ $f_i^{-1}(\mathscr{B}_i)$; nói cách khác, các tập có dạng $\bigcap_k f_{i_k}^{-1}(V_{i_k})$ lập thành một hệ cơ bản các lân cận của 0 đối với $\mathscr{T}$, trong đó $(i_k)_{1 \leq k \leq n}$ là một dãy hữu hạn bất kỳ các chỉ số của I, và, với mỗi chỉ số $k$, $V_{i_k}$ là một tập bất kỳ của $\mathscr{B}_{i_k}$.
 
-#### Hệ quả 1 {#evt-i-s1-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#evt-i-s1-prop-7-cor-1 .statement tag=078H}
 
 *Một không gian vectơ tôpô G trên K. Để một tập hợp H các ánh xạ từ G vào E là liên tục đều, điều kiện cần và đủ là, với mọi $i \in I$, tập hợp $f_i \circ u$ trong đó u biến thiên trong H là liên tục đều.*
 
 Đây là một trường hợp riêng của GT, X, § 2.2, prop. 3.
 
-#### Hệ quả 2 {#evt-i-s1-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#evt-i-s1-prop-7-cor-2 .statement tag=078I}
 
 *Nếu các không gian $E_i$ là Hausdorff, thì để $\mathscr{T}$ là Hausdorff, điều kiện cần và đủ là, với mọi $x \neq 0$ trong E, tồn tại một chỉ số $i \in I$, sao cho $f_i(x) \neq 0$.*
 
 Vì khi đó $\phi(E)$ là một không gian Hausdorff, và để $\mathscr{T}$ là Hausdorff, hiển nhiên điều kiện cần và đủ là $\phi$ đơn ánh; chú ý rằng khi đó ta có thể đồng nhất E (với $\mathscr{T}$) với không gian con $\phi(E)$ của $\prod_{i \in I} E_i$ bởi ánh xạ $\phi$.
 
-#### Hệ quả 3 {#evt-i-s1-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#evt-i-s1-prop-7-cor-3 .statement tag=078J}
 
 *Giả sử các $E_i$ đầy đủ và $\phi(E)$ đóng trong $F = \prod_{i \in I} E_i$. Khi đó E là đầy đủ đối với tôpô $\mathscr{T}$.*
 
 Vì không gian con $\phi(E)$ của F khi đó là đầy đủ (GT, II, § 3.4, prop. 8 và § 3.5, prop. 10), do đó điều tương tự đúng với E đối với tôpô ảnh ngược (GT, I, § 7.6, prop. 10 và GT, II, § 3.1, prop. 4).
 
-#### Ví dụ {#evt-i-s1-n7-exa-1 .statement}
+#### Ví dụ {#evt-i-s1-n7-exa-1 .statement tag=078K}
 
 — Cho $\mathscr{D}'(\mathbf{R})$ là không gian các phân phối trên $\mathbf{R}$; với $p$ là một số sao cho $1 \leq p \leq +\infty$, cho $j : L^p(\mathbf{R}) \to \mathscr{D}'(\mathbf{R})$ là đơn ánh chính tắc, liên tục (khi $L^p(\mathbf{R})$ mang tôpô không gian định chuẩn của nó và $\mathscr{D}'(\mathbf{R})$ mang tôpô mạnh). Với mọi phân phối $f \in \mathscr{D}'(\mathbf{R})$, ký hiệu đạo hàm của $f$ bởi $D(f)$; nhắc lại rằng $f \mapsto D(f)$ là một tự đồng cấu liên tục của $\mathscr{D}'(\mathbf{R})$. Khi đó cho E là không gian con vectơ của $L^p(\mathbf{R})$ được tạo bởi các $f \in L^p(\mathbf{R})$ sao cho $D(f) \in L^p(\mathbf{R})$, và trang bị cho E tôpô yếu nhất làm cho đơn ánh chính tắc $i : E \to L^p(\mathbf{R})$ và ánh xạ $D : E \to L^p(\mathbf{R})$ liên tục ($L^p(\mathbf{R})$ mang tôpô không gian định chuẩn của nó). Đối với tôpô này, không gian E là *đầy đủ*. Thật vậy, ảnh của E trong $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ bởi ánh xạ $\phi : f \mapsto (f, D(f))$ là *đóng*, vì nó là vết trên $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ của ảnh G của $\mathscr{D}'(\mathbf{R})$ trong $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ bởi ánh xạ
 
@@ -311,7 +311,7 @@ $$
 
 bây giờ G là đồ thị của $\phi_0$, do đó đóng trong $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ (GT, I, § 8.1, hệ quả 2 của mệnh đề 2), và vì $\phi(E)$ là ảnh ngược của G bởi $i \times i$, vốn liên tục, ta thấy rằng $\phi(E)$ đóng trong F. \*
 
-#### Hệ quả 4 {#evt-i-s1-prop-7-cor-4 .statement}
+#### Hệ quả 4 {#evt-i-s1-prop-7-cor-4 .statement tag=078L}
 
 *Một không gian vectơ E trên một trường chia được tôpô K, và $(\mathscr{T}_i)_{i \in I}$ là một họ các tôpô tương thích với cấu trúc không gian vectơ của E; khi đó cận trên $\mathscr{T}$ của các tôpô $\mathscr{T}_i$ tương thích với cấu trúc không gian vectơ của E.*
 

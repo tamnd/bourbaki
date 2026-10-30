@@ -37,14 +37,14 @@ subsections:
       pdf_page: 29
 statements: 24
 exercises: 9
-content_sha256: 786b8ec9d0f69c75c6f78d764a7242ac5fbccb18dc3a386de1dae2318a45781d
+content_sha256: 70913d7a2aa52b144a991fde157d2311e959bf9873a82740f1d49300682f0fef
 ---
 
 ## 1. OPEN SETS, NEIGHBOURHOODS, CLOSED SETS
 
 ### 1. OPEN SETS
 
-#### Definition 1 {#top-i-s1-def-1 .statement}
+#### Definition 1 {#top-i-s1-def-1 .statement tag=0AZ1}
 
 *A topological structure* (or, more briefly, *a topology*) *on a set* $X$ *is a structure given by a set* $\mathscr{D}$ *of subsets of* $X$, *having the following properties* (called *axioms of topological structures*):
 
@@ -54,7 +54,7 @@ content_sha256: 786b8ec9d0f69c75c6f78d764a7242ac5fbccb18dc3a386de1dae2318a45781d
 
 *The sets of* $\mathscr{D}$ *are called open sets of the topological structure defined by* $\mathscr{D}$ *on* $X$.
 
-#### Definition 2 {#top-i-s1-def-2 .statement}
+#### Definition 2 {#top-i-s1-def-2 .statement tag=0AZ2}
 
 *A topological space is a set endowed with a topological structure*.
 
@@ -70,13 +70,13 @@ Examples of topologies. Given any set $X$, the set of subsets of $X$ consisting 
 
 A covering $(U_i)_{i \in I}$ of a subset $A$ of a topological space $X$ is said to be open if all the $U_i$ are open in $X$.
 
-#### Definition 3 {#top-i-s1-def-3 .statement}
+#### Definition 3 {#top-i-s1-def-3 .statement tag=0AZ3}
 
 *A homeomorphism of a topological space $X$ onto a topological space $X'$ is an isomorphism of the topological structure of $X$ onto that of $X'$;* that is to say, in accordance with the general definitions *a bijection of $X$ onto $X'$ which transforms the set of open subsets of $X$ into the set of open subsets of $X'$*.
 
 $X$ and $X'$ are said to be *homeomorphic* if there is a homeomorphism of $X$ onto $X'$.
 
-#### Example {#top-i-s1-n1-exa-1 .statement}
+#### Example {#top-i-s1-n1-exa-1 .statement tag=0AZ4}
 
 If $X$ and $X'$ are two discrete spaces, any bijection of $X$ onto $X'$ is a homeomorphism.
 
@@ -84,13 +84,13 @@ The following criterion follows immediately from the definition of a homeomorphi
 
 ### 2. NEIGHBOURHOODS
 
-#### Definition 4 {#top-i-s1-def-4 .statement}
+#### Definition 4 {#top-i-s1-def-4 .statement tag=0AZ5}
 
 *Let $X$ be a topological space and $A$ any subset of $X$. A neighbourhood of $A$ is any subset of $X$ which contains an open set containing $A$. The neighbourhoods of a subset $\{ x \}$ consisting of a single point are also called neighbourhoods of the point $x$*.
 
 It is clear that every neighbourhood of a subset $A$ of $X$ is also a neighbourhood of each subset $B \subset A$; in particular, it is a neighbourhood of each point of $A$. Conversely, suppose $A$ is a neighbourhood of each of the points of a set $B$, and let $U$ be the union of the open sets contained in $A$; then $U \subset A$, and since each point of $B$ belongs to an open set contained in $A$, we have $B \subset U$; but $U$ is open by virtue of $(O_1)$, hence $A$ is a neighbourhood of $B$. In particular:
 
-#### Proposition 1 {#top-i-s1-prop-1 .statement}
+#### Proposition 1 {#top-i-s1-prop-1 .statement tag=0AZ6}
 
 *A set is a neighbourhood of each of its points if and only if it is open.*
 
@@ -114,7 +114,7 @@ This property may be expressed in the form that *a neighbourhood of $x$ is also 
 
 These four properties of the sets $\mathfrak{B}(x)$ are *characteristic*. To be precise, we have:
 
-#### Proposition 2 {#top-i-s1-prop-2 .statement}
+#### Proposition 2 {#top-i-s1-prop-2 .statement tag=0AZ7}
 
 *If to each element $x$ of a set $X$ there corresponds a set $\mathfrak{B}(x)$ of subsets of $X$ such that the properties (V_I), (V_{II}), (V_{III}) and (V_{IV}) are satisfied, then there is a unique topological structure on $X$ such that, for each $x \in X$, $\mathfrak{B}(x)$ is the set of neighbourhoods of $x$ in this topology.*
 
@@ -132,13 +132,13 @@ Q.E.D.
 
 Proposition 2 shows that a topology on $X$ can be defined by means of the sets $\mathfrak{B}(x)$ of neighbourhoods of points of $X$, subject only to the axioms (V_I), (V_II), (V_III) and (V_IV).
 
-#### Example {#top-i-s1-n2-exa-1 .statement}
+#### Example {#top-i-s1-n2-exa-1 .statement tag=0AZ8}
 
 We may define a topology on the set $Q$ of rational numbers by taking for open sets all unions of bounded open intervals; the set of these subsets certainly satisfies (O_I), and to see that it satisfies (O_II) it is enough to remark that if the intersection of two open intervals $]a, b[$ and $]c, d[$ is not empty, then it is the interval $]\alpha, \beta[$, where $\alpha = \sup(a, c)$ and $\beta = \inf(b, d)$. We get the same topology by defining for each $x \in Q$ the set $\mathfrak{B}(x)$ of neighbourhoods of $x$ to be the set of subsets containing an open interval to which $x$ belongs. The topological space obtained by assigning this topology to $Q$ is called the rational line (cf. Chapter IV, § 1, no. 2). Notice that in this space every open interval is an open set. \* We can define a topology on the set $R$ of real numbers in the same way; $R$ with this topology is called the real line (cf. § 2, Exercise 5 and Chapter IV, § 1, no. 3). \*
 
 ### 3. FUNDAMENTAL SYSTEMS OF NEIGHBOURHOODS; BASES OF A TOPOLOGY
 
-#### Definition 5 {#top-i-s1-def-5 .statement}
+#### Definition 5 {#top-i-s1-def-5 .statement tag=0AZ9}
 
 In a topological space $X$, a fundamental system of neighbourhoods of a point $x$ (resp. of a subset $A$ of $X$) is any set $\mathfrak{G}$ of neighbourhoods of $x$ (resp. $A$) such that for each neighbourhood $V$ of $x$ (resp. $A$) there is a neighbourhood $W \in \mathfrak{G}$ such that $W \subset V$.
 
@@ -148,27 +148,27 @@ Examples. 1) In a discrete space (no. 1) the set $\{ x \}$ alone constitutes a f
 2) On the rational line $\mathbf{Q}$ the set of all open intervals containing a point $x$ is a fundamental system of neighbourhoods of this point. So is the set of open intervals $]x - 1/n, x + 1/n[$, and the set of closed intervals $[x - 1/n, x + 1/n]$, where $n$ runs through all the integers $> 0$, or through any infinite strictly increasing sequence of integers $> 0$.
 \* There are analogous results for the real line. \*
 
-#### Definition 6 {#top-i-s1-def-6 .statement}
+#### Definition 6 {#top-i-s1-def-6 .statement tag=0AZA}
 
 A base of the topology of a topological space $X$ is any set $\mathfrak{B}$ of open subsets of $X$ such that every open subset of $X$ is the union of sets belonging to $\mathfrak{B}$.
 
-#### Proposition 3 {#top-i-s1-prop-3 .statement}
+#### Proposition 3 {#top-i-s1-prop-3 .statement tag=0AZB}
 
 If $X$ is a topological space, then for a set $\mathfrak{B}$ of open subsets of $X$ to be a base of the topology of $X$ it is necessary and sufficient that for each $x \in X$ the set of $V \in \mathfrak{B}$ such that $x \in V$ is a fundamental system of neighbourhoods of $x$.
 
 It is clear that the condition is necessary. Conversely, if it is satisfied, then given any open set $U$ and any $x \in U$ there is an open set $V_x \in \mathfrak{B}$ such that $x \in V_x \subset U$. The union of the sets $V_x$ for $x \in U$ is therefore equal to $U$. This completes the proof.
 
-#### Example 1 {#top-i-s1-n3-exa-1 .statement}
+#### Example 1 {#top-i-s1-n3-exa-1 .statement tag=0AZC}
 
 The discrete topology has as a base the set of subsets of $X$ which consist of a single point.
 
-#### Example 2 {#top-i-s1-n3-exa-2 .statement}
+#### Example 2 {#top-i-s1-n3-exa-2 .statement tag=0AZD}
 
 The set of bounded open intervals is by definition a base of the topology of the rational line (no. 2). \* Likewise, the set of bounded open intervals is a base of the topology of the real line. \*
 
 ### 4. CLOSED SETS
 
-#### Definition 7 {#top-i-s1-def-7 .statement}
+#### Definition 7 {#top-i-s1-def-7 .statement tag=0AZE}
 
 In a topological space $X$, the complements of the open sets of $X$ are called closed sets.
 
@@ -190,7 +190,7 @@ A *homeomorphism* $f$ of a topological space $X$ onto a topological space $X'$ (
 
 ### 5. LOCALLY FINITE FAMILIES
 
-#### Definition 8 {#top-i-s1-def-8 .statement}
+#### Definition 8 {#top-i-s1-def-8 .statement tag=0AZF}
 
 *A family $(A_i)_{i \in I}$ of subsets of a topological space $X$ is said to be locally finite if for each $x \in X$ there is a neighbourhood $V$ of $x$ such that $V \cap A_i = \varnothing$ for all but a finite number of indices $i \in I$. A set $\mathscr{S}$ of subsets of $X$ is said to be locally finite if the family of subsets defined by the identity map of $\mathscr{S}$ onto itself is locally finite.*
 
@@ -200,7 +200,7 @@ Every *finite* family of subsets of a topological space $X$ is obviously locally
 
 \* For example, in $\mathbf{R}$, the open covering formed by the interval ]\leftarrow, 1[ and the intervals ]$n, \rightarrow[$ for each integer $n \geqslant 0$ is locally finite; and each interval ]$n, \rightarrow[$ meets an infinite number of sets of this covering. \*
 
-#### Proposition 4 {#top-i-s1-prop-4 .statement}
+#### Proposition 4 {#top-i-s1-prop-4 .statement tag=0AZG}
 
 *The union of a locally finite family of closed subsets of a topological space $X$ is closed in $X$.*
 
@@ -214,13 +214,13 @@ but is not closed.
 
 ### 6. INTERIOR, CLOSURE, FRONTIER OF A SET; DENSE SETS
 
-#### Definition 9 {#top-i-s1-def-9 .statement}
+#### Definition 9 {#top-i-s1-def-9 .statement tag=0AZH}
 
 *In a topological space $X$, a point $x$ is said to be an interior point of a subset $A$ of $X$ if $A$ is a neighbourhood of $x$. The set of interior points of $A$ is called the interior of $A$ and is denoted by $\dot{A}$.*
 
 According to Definitions 9 and 4, a point $x$ is an interior point of $A$ if there is an open set contained in $A$ which contains $x$; it follows that $\dot{A}$ is the union of all the open sets contained in $A$, and hence is *the largest open set contained in* $A$: in other words, if $B$ is an *open* set contained in $A$, then $B \subset \dot{A}$. Consequently, if $A$ and $B$ are two subsets of $X$ such that $B \subset A$, then $\dot{B} \subset \dot{A}$; and $A$ is a neighbourhood of $B$ if and only if $B \subset \dot{A}$.
 
-#### Remark {#top-i-s1-n6-rem-1 .statement}
+#### Remark {#top-i-s1-n6-rem-1 .statement tag=0AZI}
 
 The interior of a non-empty set can be empty; this is the case for a set consisting of a single point which is not open, for example on the rational line \* (or the real line) *.
 
@@ -235,7 +235,7 @@ $$
 
 Every point which is interior to the complement of a set $A$ is said to be an *exterior* point of $A$, and the set of these points is called the *exterior* of $A$ in $X$; a point $x \in X$ which is an exterior point of $A$ is therefore characterized by the property that *$x$ has a neighbourhood which does not meet* $A$.
 
-#### Definition 10 {#top-i-s1-def-10 .statement}
+#### Definition 10 {#top-i-s1-def-10 .statement tag=0AZJ}
 
 *The closure of a subset* $A$ *of a topological space* $X$ *is the set of all points* $x \in X$ *such that every neighbourhood of* $x$ *meets* $A$, *and is denoted by* $\overline{A}$.
 
@@ -259,7 +259,7 @@ $$
 \overline{A \cup B} = \overline{A} \cup \overline{B}.
 $$
 
-#### Proposition 5 {#top-i-s1-prop-5 .statement}
+#### Proposition 5 {#top-i-s1-prop-5 .statement tag=0AZK}
 
 *Let* $A$ *be an open set in* $X$; *then for every subset* $B$ *of* $X$ *we have*
 
@@ -274,22 +274,22 @@ If $x$ lies in the closure of $A$ but not in $A$, then every neighbourhood of $x
 
 A closed set which has no isolated points is called a *perfect* set.
 
-#### Definition 11 {#top-i-s1-def-11 .statement}
+#### Definition 11 {#top-i-s1-def-11 .statement tag=0AZL}
 
 In a topological space $X$, a point $x$ is said to be a frontier point of a set $A$ if $x$ lies in the closure of $A$ and in the closure of $\overline{CA}$. The set of frontier points of $A$ is called the frontier of $A$.
 
 The frontier of $A$ is therefore the set $\overline{A} \cap \overline{\overline{CA}}$, which is closed. A frontier point $x$ of $A$ is characterized by the property that every neighbourhood of $x$ contains at least one point of $A$ and at least one point of $\overline{CA}$; $x$ may or may not belong to $A$. The frontier of $A$ is the same as the frontier of $\overline{CA}$. The interior of $A$, the exterior of $A$ and the frontier of $A$ are mutually disjoint and their union is the whole space $X$.
 
-#### Definition 12 {#top-i-s1-def-12 .statement}
+#### Definition 12 {#top-i-s1-def-12 .statement tag=0AZM}
 
 A subset $A$ of a topological space $X$ is said to be dense in $X$ (or simply dense, if there is no ambiguity about $X$) if $\overline{A} = X$, i.e. if every non-empty open set $U$ of $X$ meets $A$.
 
-#### Example {#top-i-s1-n6-exa-1 .statement}
+#### Example {#top-i-s1-n6-exa-1 .statement tag=0AZN}
 
 \* We shall see in Chapter IV, § 1 that the set of rational numbers and its complement are dense on the real line. \*
 In a discrete space $X$ the only dense subset of $X$ is $X$ itself. On the other hand, every non-empty subset of $X$ is dense in the topology on $X$ for which the only open sets are $\varnothing$ and $X$.
 
-#### Proposition 6 {#top-i-s1-prop-6 .statement}
+#### Proposition 6 {#top-i-s1-prop-6 .statement tag=0AZO}
 
 If $\mathfrak{B}$ is a base of the topology of a topological space $X$, there is a dense set $D$ in $X$ such that $\mathrm{Card}(D) \leq \mathrm{Card}(\mathfrak{B})$.
 

@@ -29,9 +29,9 @@ subsections:
       pdf_page: 101
 statements: 10
 exercises: 3
-content_sha256: 87214494ff4fec6dbe7a0b4b51b6cb9d8b7bf6af6eb65c161ea605c26cb0d075
+content_sha256: 2981f43558115b1eefee0263fc6929a533d4fd07404be376cb9a954952917920
 translated_from: content/en/evt/II/08_s8_complex_locally_convex_spaces.md
-source_content_sha256: 425663611a68185df382e1b6a031bcc10fbf4168bb0d90cf73488ef54d14b3ad
+source_content_sha256: 5d9e93b1130d665e5ef5a49bee7fa6d59d2370123e602805e4b774a529b5d3c0
 translation_model: gpt-5.4
 translation_run: translate-vi-5e3c7937
 glossary_version: 34
@@ -47,7 +47,7 @@ Cho $E$ là một không gian vectơ tôpô trên $\mathbf{C}$, trường số p
 
 Ngược lại, cho F là một không gian vectơ tôpô trên $\mathbf{R}$, và giả sử rằng tồn tại một tự đẳng cấu $u$ của F sao cho $u^2 = -1_F$ ($1_F$ là tự đẳng cấu đồng nhất của F). Ta biết (A, IX, § 3, No. 2) rằng khi đó có thể định nghĩa trên F một cấu trúc không gian vectơ đối với $\mathbf{C}$ bằng cách viết $\lambda x = \alpha x + \beta u(x)$ với mọi $\lambda = \alpha + i\beta \in \mathbf{C}$ và mọi $x \in F$. Hơn nữa, vì ánh xạ $(\alpha, \beta, x) \mapsto \alpha x + \beta u(x)$ từ $\mathbf{R}^2 \times F$ vào F là liên tục nên tôpô của F tương thích với cấu trúc không gian vectơ đối với $\mathbf{C}$ được định nghĩa ở trên; nếu E ký hiệu không gian vectơ tôpô trên $\mathbf{C}$ được định nghĩa theo cách đó, thì F là không gian vectơ tôpô trên $\mathbf{R}$ làm nền cho E.
 
-#### Nhận xét {#evt-ii-s8-n1-rem-1 .statement}
+#### Nhận xét {#evt-ii-s8-n1-rem-1 .statement tag=07KJ}
 
 — Với một không gian vectơ tôpô F trên $\mathbf{R}$, không phải luôn luôn tồn tại một tự đẳng cấu $u$ của F mà bình phương của nó là $-1_F$; chẳng hạn, không thể định nghĩa cấu trúc không gian vectơ đối với $\mathbf{C}$ trên một không gian vectơ trên $\mathbf{R}$ có chiều *lẻ* hữu hạn.
 
@@ -85,7 +85,7 @@ Một không gian lồi địa phương phức là một không gian Fréchet n�
 
 ### 3. Định lý Hahn-Banach và các ứng dụng của nó
 
-#### Định lý 1 (Hahn-Banach) {#evt-ii-s8-thm-1 .statement}
+#### Định lý 1 (Hahn-Banach) {#evt-ii-s8-thm-1 .statement tag=07KK}
 
 — Cho V là một không gian con vectơ của E, trong đó E là một không gian vectơ phức, và cho f là một dạng tuyến tính (phức) trên V và p là một nửa chuẩn trên E sao cho $|f(y)| \leq p(y)$ với mọi $y \in V$. Khi đó tồn tại một dạng tuyến tính $f_1$ trên E mở rộng f và sao cho $|f_1(x)| \leq p(x)$ với mọi $x \in E$.
 
@@ -97,39 +97,39 @@ $$
 
 vì $p$ là một nửa chuẩn trên không gian phức E; điều này suy ra quan hệ $|f_1(x)| \leq p(x)$, và định lý được chứng minh.
 
-#### Hệ quả 1 {#evt-ii-s8-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s8-thm-1-cor-1 .statement tag=07KL}
 
 — Cho $x_0$ là một điểm của một không gian vectơ tôpô phức E và p là một nửa chuẩn liên tục trên E; khi đó tồn tại một dạng tuyến tính liên tục (phức) f được xác định trên E, sao cho $f(x_0) = p(x_0)$ và $|f(x)| \leq p(x)$ với mọi $x \in E$.
 
-#### Hệ quả 2 {#evt-ii-s8-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s8-thm-1-cor-2 .statement tag=07KM}
 
 — Cho V là một không gian con vectơ của một không gian lồi địa phương phức E và f là một dạng tuyến tính phức xác định và liên tục trên V; khi đó tồn tại một dạng tuyến tính liên tục $f_1$ xác định trên E và kéo dài f. Nếu E là không gian định chuẩn thì tồn tại một dạng $f_1$ như vậy còn thỏa mãn $\|f_1\| = \|f\|$.
 
-#### Hệ quả 3 {#evt-ii-s8-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#evt-ii-s8-thm-1-cor-3 .statement tag=07KN}
 
 — Cho M là một không gian con vectơ hữu hạn chiều của một không gian lồi địa phương phức Hausdorff E. Khi đó tồn tại một không gian con vectơ đóng N của E là một phần bù tôpô của M trong E.
 
 Các chứng minh dùng định lý 1, p. 24 giống hệt các chứng minh của II, p. 23, hệ quả 2 và hệ quả 3, p. 24, mệnh đề 2 và p. 25, hệ quả 2.
 
-#### Mệnh đề 1 {#evt-ii-s8-prop-1 .statement}
+#### Mệnh đề 1 {#evt-ii-s8-prop-1 .statement tag=07KO}
 
 — Cho A là một tập hợp lồi mở không rỗng trong một không gian vectơ tôpô phức E và M là một đa tạp tuyến tính phức không rỗng không giao với A. Khi đó tồn tại một siêu phẳng phức đóng H chứa M và không giao với A.
 
 Ta có thể giả sử rằng $0 \in M$. Khi đó tồn tại một siêu phẳng thực đóng $H_0$ chứa M và không giao với A (II, p. 36; định lý 1). Vì $M = iM$, siêu phẳng phức đóng $H = H_0 \cap (iH_0)$ có các tính chất được yêu cầu.
 
-#### Hệ quả {#evt-ii-s8-n3-cor-1 .statement}
+#### Hệ quả {#evt-ii-s8-n3-cor-1 .statement tag=07KP}
 
 — Trong một không gian lồi địa phương phức E, mọi đa tạp tuyến tính phức đóng M là giao của các siêu phẳng phức đóng chứa nó.
 
 Thật vậy, với mọi $x \notin M$, tồn tại một lân cận mở lồi $V$ của $x$ không giao với $M$, và do đó tồn tại một siêu phẳng phức đóng $H$ chứa $M$ và không giao với $V$; *a fortiori* $H$ không chứa $x$.
 
-#### Mệnh đề 2 {#evt-ii-s8-prop-2 .statement}
+#### Mệnh đề 2 {#evt-ii-s8-prop-2 .statement tag=07KQ}
 
 *Cho $A$ là một tập hợp cân bằng lồi mở không rỗng của một không gian vectơ tôpô phức $E$, và $B$ là một tập hợp lồi không rỗng không giao với $A$. Khi đó tồn tại một dạng tuyến tính phức liên tục $f$ trên $E$ và một số $\alpha > 0$ sao cho $|f(x)| < \alpha$ trong $A$ và $|f(y)| \geq \alpha$ trong $B$.*
 
 Thật vậy, tồn tại một dạng tuyến tính *thực* liên tục $g$ trên $E$ và một số thực $\alpha$ sao cho $g(x) < \alpha$ trong $A$ và $g(y) \geq \alpha$ trong $B$ (II, p. 37, mệnh đề 1). Vì $0 \in A$, ta có $\alpha > 0$. Ta chỉ ra rằng dạng tuyến tính phức liên tục $f(x) = g(x) - ig(ix)$ và số $\alpha$ có các tính chất cần có. Thật vậy, vì $\Re f = g$, ta có $|f(y)| \geq \alpha$ trong $B$. Mặt khác, với mọi $x \in A$ và mọi $\vartheta$ thực, điểm $e^{i\vartheta}x$ thuộc $A$, vì $A$ là cân bằng, và ta có $f(x) = e^{-i\vartheta}f(e^{i\vartheta}x)$; khi đó tồn tại một số $\vartheta$ sao cho $|f(x)| = \Re(e^{i\vartheta}f(x)) = g(e^{i\vartheta}x) < \alpha$, và mệnh đề được suy ra.
 
-#### Mệnh đề 3 {#evt-ii-s8-prop-3 .statement}
+#### Mệnh đề 3 {#evt-ii-s8-prop-3 .statement tag=07KR}
 
 *Cho $A$ là một tập hợp cân bằng, đóng, lồi trong một không gian lồi địa phương phức $E$ và cho $K$ là một tập hợp lồi compắc không rỗng trong $E$ không giao với $A$. Khi đó tồn tại một dạng tuyến tính phức liên tục $f$ trên $E$ và một số $\alpha > 0$ sao cho $|f(x)| < \alpha$ trên $A$ và $|f(y)| > \alpha$ trên $K$.*
 
@@ -139,7 +139,7 @@ Mệnh đề này suy ra từ II, p. 38, mệnh đề 4 như mệnh đề 2 suy 
 
 Định nghĩa và các kết quả của II, § 6, Nos. 1 và 2 áp dụng không thay đổi cho các không gian vectơ *phức*. Nếu $F$ và $G$ là hai không gian vectơ phức đối ngẫu với nhau bởi một dạng song tuyến tính $B$, thì các không gian nền $F_0$ và $G_0$ đối ngẫu với nhau bởi $\Re B$, và suy ra từ II, p. 61, công thức (1) rằng các tôpô yếu $\sigma(F, G)$ và $\sigma(F_0, G_0)$ là đồng nhất.
 
-#### Định nghĩa 1 {#evt-ii-s8-def-1 .statement}
+#### Định nghĩa 1 {#evt-ii-s8-def-1 .statement tag=07KS}
 
 *Cho $F$ và $G$ là hai không gian vectơ phức đối ngẫu với nhau. Với mọi tập con $M$ của $F$, cực của $M$ trong $G$, ký hiệu là $M^\circ$, là tập hợp các $y \in G$ sao cho $\Re(\langle x, y \rangle) \geq -1$ với mọi $x \in M$.*
 

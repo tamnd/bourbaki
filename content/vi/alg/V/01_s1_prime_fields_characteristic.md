@@ -37,9 +37,9 @@ subsections:
       pdf_page: 121
 statements: 23
 exercises: 5
-content_sha256: f5c4e0b03ef410246ff7b71a776980171f65f871d1d985e492ef08736704bfaf
+content_sha256: 7ad1c6b2a5ebb482655e7d8b348ae4f12f53710221ac4aafeb1368c6666eb3f1
 translated_from: content/en/alg/V/01_s1_prime_fields_characteristic.md
-source_content_sha256: 9f0b3fd5a207c13f294d97e009459524508d20f2e3997660100744248b28d20c
+source_content_sha256: 2397d756974854b3ee958d9e41606c68fd59ce8ff67222f074fcb59adc452c32
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-78072c4e
 glossary_version: 34
@@ -53,7 +53,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Trường phân thức của vành Z các số nguyên hữu tỉ được gọi là trường các số hữu tỉ và được ký hiệu bởi Q (I, p. 117). Với mọi số nguyên tố p, vành thương $\mathbf{Z}/(p)$ là một trường hữu hạn $^1$ gồm p phần tử, được ký hiệu bởi $\mathbf{F}_p$ trong phần tiếp theo. Trường Q là vô hạn vì nó chứa Z, và do đó không đẳng cấu với bất kỳ trường nào $\mathbf{F}_p$. Nếu p và $p'$ là các số nguyên tố phân biệt, các trường $\mathbf{F}_p$ và $\mathbf{F}_{p'}$ có các lực lượng phân biệt và vì vậy không đẳng cấu.
 
-#### Định nghĩa 1 {#alg-v-s1-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s1-def-1 .statement tag=06G3}
 
 Một trường được gọi là nguyên tố nếu nó đẳng cấu hoặc với Q hoặc với một trong các trường $\mathbf{F}_p$.
 
@@ -61,17 +61,17 @@ Mọi trường con của Q đều chứa vành Z và do đó chứa trường p
 
 $^1$ Do lạm dụng ngôn ngữ, người ta nói rằng một vành hoặc một trường là hữu hạn nếu tập hợp nền của nó là hữu hạn.
 
-#### Định lý 1 {#alg-v-s1-thm-1 .statement}
+#### Định lý 1 {#alg-v-s1-thm-1 .statement tag=06G4}
 
 — Cho $A$ là một vành ; giả sử rằng tồn tại một trường con của $A$. Khi đó $A$ có một trường con duy nhất $P$ là một trường nguyên tố. Hơn nữa, $P$ được chứa trong tâm của $A$ và trong mọi trường con của $A$.
 
 Cho $K$ là một trường con của $A$, $C$ là tâm của $A$, và đặt $K' = K \cap C$; khi đó $K'$ là một trường con của $A$. Cho $f$ là đồng cấu duy nhất của $\mathbf{Z}$ vào $A$ và $p$ là hạt nhân của nó. Mọi vành con của $A$, đặc biệt là $K'$, đều chứa $f(\mathbf{Z})$; do đó iđêan $p$ là nguyên tố (I, p. 116-117). Nếu $p = (0)$, đồng cấu $f$ của $\mathbf{Z}$ vào $K'$ là đơn ánh; do đó nó mở rộng (I, p. 116) thành một đẳng cấu $\bar{f}$ của $\mathbf{Q}$ lên một trường con $P$ của $K'$. Nếu $p \neq (0)$, tồn tại một số nguyên dương $p$ sao cho $p = (p)$ (I, p. 111); nếu ta có $p = ab$ với $a > 1$ và $b > 1$, điều này có nghĩa là $a \notin p, b \notin p$ và $ab \in p$ mâu thuẫn với sự kiện rằng $p$ là nguyên tố. Số $p$ do đó là nguyên tố và bằng cách chuyển qua thương, $f$ xác định một đẳng cấu của $F_p = \mathbf{Z}/p$ lên một trường con $P$ của $K'$. Trong cả hai trường hợp $P$ là một trường con của $A$ được chứa trong tâm $C$ của $A$, và nó là một trường nguyên tố. Cho $L$ là một trường con của $A$; khi đó $P \cap L$ là một trường con của $P$, và vì $P$ là nguyên tố, ta có $P \cap L = P$, do đó $P \subset L$. Nếu $P'$ là một trường con của $A$ và là một trường nguyên tố, thì theo những gì đã nói, $P \subset P'$, do đó $P = P'$ vì $P'$ là một trường nguyên tố.
 
-#### Hệ quả 1 {#alg-v-s1-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s1-thm-1-cor-1 .statement tag=06G5}
 
 — Cho $K$ là một trường. Tồn tại một trường con duy nhất của $K$ là một trường nguyên tố, và đây là trường con nhỏ nhất của $K$.
 
-#### Hệ quả 2 {#alg-v-s1-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s1-thm-1-cor-2 .statement tag=06G6}
 
 — Để một trường là nguyên tố, điều kiện cần và đủ là nó không chứa trường con nào khác ngoài chính nó.
 
@@ -85,7 +85,7 @@ b) đặc số của $A$ là một số nguyên tố $p$, $P$ đẳng cấu vớ
 
 Nếu đặc số của $A$ là không, tồn tại một đồng cấu vành duy nhất từ $Q$ vào $A$; ảnh của nó là trường con nguyên tố của $A$, được chứa trong tâm của $A$. Do đó tồn tại một cấu trúc đại số $Q$ duy nhất của $A$ tương thích với cấu trúc vành. Khi đặc số của $A$ là một số nguyên tố $p$, ta có các tính chất tương ứng khi thay thế trường $Q$ bởi trường $\mathbf{F}_p$.
 
-#### Mệnh đề 1 {#alg-v-s1-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s1-prop-1 .statement tag=06G7}
 
 — Cho $A$ là một vành không rút gọn về 0.
 a) Để $A$ có đặc số 0, điều kiện cần và đủ là ánh xạ $x \mapsto n \cdot x$ từ $A$ vào chính nó phải là song ánh, với mọi số nguyên $n \neq$
@@ -96,23 +96,23 @@ Cho $f$ là đồng cấu duy nhất của $\mathbf{Z}$ vào $A$; ta có $n \cdo
 
 Xét $A$ là một trường không nhất thiết giao hoán. Tâm của $A$ là một trường (giao hoán); do đó đặc số và trường con nguyên tố của $A$ được xác định.
 
-#### Nhận xét 1 {#alg-v-s1-n2-rem-1 .statement}
+#### Nhận xét 1 {#alg-v-s1-n2-rem-1 .statement tag=06G8}
 
 Cho $A$ và $A'$ là hai vành không suy biến về 0. Giả sử đặc số của $A$ được xác định và có một đồng cấu $u$ của $A$ vào $A'$. Ảnh qua $u$ của trường con nguyên tố của $A$ là một trường con $P'$ của $A'$, đẳng cấu với $P$, và do đó nguyên tố. Suy ra rằng đặc số của $A'$ được xác định và bằng đặc số của $A$. Nếu $A$ và $A'$ có đặc số 0 (tương ứng $p \neq 0$), ánh xạ $u$ là một đồng cấu của các đại số trên $\mathbf{Q}$ (tương ứng $\mathbf{F}_p$).
 
-#### Nhận xét 2 {#alg-v-s1-n2-rem-2 .statement}
+#### Nhận xét 2 {#alg-v-s1-n2-rem-2 .statement tag=06G9}
 
 Nhận xét 1 chỉ ra rằng nếu $A$ là một vành có đặc số 0 (tương ứng $p \neq 0$), điều tương tự cũng đúng đối với mọi vành $A'$ chứa $A$ như vành con, hoặc đối với mọi thương của $A$ bởi một iđêan hai phía $a \neq A$. Đặc biệt, nếu $K$ là một trường, mọi trường con của $K$ và mọi mở rộng trường của $K$ đều có cùng đặc số với $K$.
 
-#### Nhận xét 3 {#alg-v-s1-n2-rem-3 .statement}
+#### Nhận xét 3 {#alg-v-s1-n2-rem-3 .statement tag=06GA}
 
 Cho $A$ là một đại số khác không trên một trường $K$. Vì ánh xạ $\lambda \mapsto \lambda \cdot 1$ từ $K$ vào $A$ là một đồng cấu vành, Nhận xét 1 cho thấy đặc số của $A$ được xác định và bằng đặc số của $K$.
 
-#### Nhận xét 4 {#alg-v-s1-n2-rem-4 .statement}
+#### Nhận xét 4 {#alg-v-s1-n2-rem-4 .statement tag=06GB}
 
 Vì trường $\mathbf{Q}$ là vô hạn, mọi vành có đặc số 0 đều vô hạn; suy ra mọi trường hữu hạn đều có đặc số khác không.
 
-#### Nhận xét 5 {#alg-v-s1-n2-rem-5 .statement}
+#### Nhận xét 5 {#alg-v-s1-n2-rem-5 .statement tag=06GC}
 
 Cho $A$ là một vành khác không, có nhóm cộng là một $\mathbf{Z}$-môđun không xoắn, và đặt $B = \mathbf{Q} \otimes_{\mathbf{Z}} A$. Ánh xạ $x \mapsto 1 \otimes x$ từ $A$ vào $B$ là đơn ánh (II, p. 314), do đó $A$ đẳng cấu với một vành con của một vành có đặc số 0.
 
@@ -120,7 +120,7 @@ Cho $A$ là một vành khác không, có nhóm cộng là một $\mathbf{Z}$-m�
 
 Trong Số này và Số tiếp theo, $p$ ký hiệu một số nguyên tố.
 
-#### Định lý 2 {#alg-v-s1-thm-2 .statement}
+#### Định lý 2 {#alg-v-s1-thm-2 .statement tag=06GD}
 
 — Cho $A$ là một vành giao hoán có đặc số $p$. Ánh xạ $a \mapsto a^p$ là một tự đồng cấu của vành $A$, nghĩa là ta có các quan hệ
 
@@ -131,7 +131,7 @@ với $a, b$ thuộc $A$.
 
 Công thức (2) suy ra từ tính giao hoán của $A$. Để chứng minh (1), ta dùng công thức nhị thức $(a + b)^p = a^p + b^p + \sum_{i=1}^{p-1} \binom{p}{i} \cdot a^i b^{p-i}$; vì $p \cdot x = 0$ với mọi $x \in A$, chỉ cần chứng minh bổ đề sau:
 
-#### Bổ đề 1 {#alg-v-s1-lem-1 .statement}
+#### Bổ đề 1 {#alg-v-s1-lem-1 .statement tag=06GE}
 
 Cho $p$ là một số nguyên tố và $i$ là một số nguyên trong khoảng từ 1 đến $p - 1$, khi đó hệ số nhị thức $\binom{p}{i}$ là một số nguyên chia hết cho $p$.
 
@@ -151,7 +151,7 @@ $$
 
 Đối với mỗi tập con $S$ của $A$, ta ký hiệu $S^{p^f}$ là tập hợp các phần tử của $A$ có dạng $x^{p^f}$ với $x \in S$^1. Đặc biệt, nếu $K$ là một vành con của $A$, thì tập hợp $K^{p^f}$ là một vành con của $A$. Nếu $K$ là một vành con của $A$ và $S$ là một tập con của $A$, ta ký hiệu $K[S]$ là vành con của $A$ sinh bởi $K \cup S$; khi $A$ là một trường, ta ký hiệu $K(S)$ là trường phân thức của $K[S]$, nghĩa là trường con của $A$ sinh bởi $K \cup S$.
 
-#### Mệnh đề 2 {#alg-v-s1-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s1-prop-2 .statement tag=06GF}
 
 — *Cho $A$ là một vành giao hoán có đặc số $p$, $K$ là một vành con của $A$, $S$ là một tập con của $A$ và $f$ là một số nguyên dương.*
 
@@ -167,7 +167,7 @@ Hiển nhiên họ $(a_i^{p^f})_{i \in I}$ sinh $K^{p^f}$-môđun $K[S]^{p^f}$. 
 
 ### 4. Các vành hoàn hảo có đặc số p
 
-#### Định nghĩa 2 {#alg-v-s1-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s1-def-2 .statement tag=06GG}
 
 — Một vành $A$ có đặc số $p \neq 0$ được gọi là hoàn hảo nếu nó giao hoán và ánh xạ $a \mapsto a^p$ là song ánh.
 
@@ -175,7 +175,7 @@ Nếu vành $A$ là hoàn hảo có đặc số $p$, ánh xạ $a \mapsto a^{p^f
 
 Cho $A$ là một vành giao hoán có đặc số $p$. Với mọi số nguyên $f \geq 0$ ta ký hiệu $\mathfrak{n}_f$ là hạt nhân của tự đồng cấu $a \mapsto a^p$ của vành $A$. Khi đó $(\mathfrak{n}_f)_{f \geq 0}$ là một dãy tăng các iđêan của $A$; vì mọi số nguyên dương đều bị chặn trên bởi một lũy thừa của $p$, iđêan $\mathfrak{n} = \bigcup_{f \geq 0} \mathfrak{n}_f$ gồm tất cả các phần tử lũy linh của $A$. Đặc biệt, nếu $A$ hoàn hảo, mọi phần tử lũy linh của $A$ đều bằng không.
 
-#### Định nghĩa 3 {#alg-v-s1-def-3 .statement}
+#### Định nghĩa 3 {#alg-v-s1-def-3 .statement tag=06GH}
 
 — Cho $A$ là một vành giao hoán có đặc số $p \neq 0$. Ta gọi bao đóng hoàn hảo của $A$ là một cặp $(A, u)$ trong đó $A$ là một vành hoàn hảo có đặc số $p$ và $u$ là một đồng cấu của $A$ vào $A$ thỏa mãn tính chất phổ quát sau:
 
@@ -183,7 +183,7 @@ Cho $A$ là một vành giao hoán có đặc số $p$. Với mọi số nguyên
 
 Tính chất phổ quát (PC) suy ra ngay tính duy nhất của bao hoàn hảo, theo nghĩa sau: nếu $(A, u)$ và $(A', u')$ là hai bao hoàn hảo của $A$, thì tồn tại duy nhất một đẳng cấu $h$ từ $A$ lên $A'$ sao cho $u' = h \circ u$ (cf. *E, IV*, p. 23). Ta sẽ nay thiết lập *sự tồn tại* của bao hoàn hảo:
 
-#### Định lý 3 {#alg-v-s1-thm-3 .statement}
+#### Định lý 3 {#alg-v-s1-thm-3 .statement tag=06GI}
 
 — Cho $A$ là một vành giao hoán có đặc số $p \neq 0$. Tồn tại một bao hoàn hảo $(A, u)$ của $A$. Hơn nữa, hạt nhân của $u$ là tập hợp tất cả các phần tử lũy linh của $A$ và với mỗi $x \in A$ tồn tại một số nguyên $n \geq 0$ sao cho $x^{p^n} \in u(A)$.
 
@@ -199,7 +199,7 @@ $$
 
 và vì $B$ hoàn hảo, ta suy ra $h(x) = h'(x)$. Do đó ta có $h' = h$, và điều này hoàn tất chứng minh rằng $(A, u)$ là một bao đóng hoàn hảo của $A$.
 
-#### Mệnh đề 3 {#alg-v-s1-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s1-prop-3 .statement tag=06GJ}
 
 — *Cho $B$ là một vành hoàn hảo có đặc số $p$ và $A$ là một vành con của $B$. Viết $\mathbf{A}^{p^{-\infty}} = \bigcup_{f \geq 0} \mathbf{A}^{p^{-f}}$ và ký hiệu $j$ là đơn ánh chính tắc của $A$ trong $\mathbf{A}^{p^{-\infty}}$. Khi đó $\mathbf{A}^{p^{-\infty}}$ là vành con hoàn hảo nhỏ nhất của $B$ chứa $A$ và $(\mathbf{A}^{p^{-\infty}}, j)$ là một bao đóng hoàn hảo của $A$.*
 
@@ -211,19 +211,19 @@ Nếu $v$ là một đồng cấu từ $A$ vào một vành hoàn hảo $B'$ có
 
 Cho $K$ là một trường. Theo *số mũ đặc số* của $K$ ta hiểu số nguyên bằng *1* nếu $K$ có đặc số 0, và bằng đặc số của $K$ khi số này khác không.
 
-#### Mệnh đề 4 {#alg-v-s1-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s1-prop-4 .statement tag=06GK}
 
 — *Cho $K$ là một trường có số mũ đặc số q. Với mọi số nguyên $f \geq 0$ ánh xạ $x \mapsto x^{q^f}$ là một đẳng cấu của K lên một trong các trường con của nó (được ký hiệu bởi $K^{q^f}$).*
 Điều này suy ra từ ĐL. 2 khi q ≠ 1 và là tầm thường khi q = 1.
 Tương tự, ta có thể mở rộng Mđ. 2 đến trường hợp $A$ là một trường có số mũ đặc số q, trường hợp q = *1* là tầm thường.
 
-#### Định nghĩa 4 {#alg-v-s1-def-4 .statement}
+#### Định nghĩa 4 {#alg-v-s1-def-4 .statement tag=06GL}
 
 — *Một trường K có số mũ đặc số q được gọi là hoàn hảo nếu ta có $K^q = K$. Khi $K^q \neq K$, K được gọi là không hoàn hảo.*
 Theo định nghĩa này, một trường là hoàn hảo nếu nó có đặc số 0, hoặc nếu nó là một vành hoàn hảo có đặc số $p \neq 0$ theo nghĩa của Định nghĩa 2. Nếu $K$ là một trường có đặc số $p \neq 0$ và $(K, u)$ là một bao đóng hoàn hảo của $K$, thì K là một trường theo Mệnh đề 3 *(V, p. 6)* và $u$ là một đẳng cấu của K lên một trường con của $\hat{K}$. Thông thường người ta đồng nhất $K$ với ảnh của nó qua $u$ trong $\hat{K}$, do đó ta có $\hat{K} = K^{p^{-\infty}}$ (Mệnh đề **3**).
 Cho K là một trường có đặc số *0* ; khi đó số mũ đặc số của $K$ là *1*. Theo quy ước, ký hiệu $x^{q^{-f}}$ và $S^{q^{-f}}$ được hiểu lần lượt là x và S *(đối với một phần tử $x$ của $K$ và một tập con S của $K$)*. Đặc biệt ta đặt $K^{q^{-\infty}} = K$ và ta quy ước lấy bao đóng hoàn hảo của $K$ là $K$.
 
-#### Mệnh đề 5 {#alg-v-s1-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s1-prop-5 .statement tag=06GM}
 
 — *Nếu K là một trường có đặc số 0, hoặc hữu hạn, \* hoặc đóng đại số \*, thì nó hoàn hảo. Đặc biệt mọi trường nguyên tố đều hoàn hảo.*
 Giả sử rằng $K$ có đặc số $p \neq 0$. Nếu $K$ hữu hạn, thì trường con $K^p$ của $K$ có cùng lực lượng với $K$, do đó $K^p = K$. \* Nếu $K$ đóng đại số, thì đa thức $X^p - a$ có một nghiệm $x$ trong $K$ đối với mỗi $a \in K$ *(V, p. 20, Định nghĩa 1)* do đó $x^p = a$ và suy ra $K^p = K$. \* Cuối cùng một trường nguyên tố có đặc số *0* hoặc hữu hạn.
@@ -231,7 +231,7 @@ Cho $K_0$ là một trường có đặc số $p \neq 0$ và $K = K_0(X)$ là tr
 
 ### 6. Đặc trưng hóa các đa thức có vi phân bằng không
 
-#### Mệnh đề 6 {#alg-v-s1-prop-6 .statement}
+#### Mệnh đề 6 {#alg-v-s1-prop-6 .statement tag=06GN}
 
 — *Cho K là một vành giao hoán, A là đại số đa thức $K[X_i]_{i \in I}$, và S là tập hợp các phần tử F của A sao cho $dF = 0$. \*
 
@@ -266,11 +266,11 @@ a) Nếu K có đặc số 0, ta có $nF_n = 0$ với mọi $n \geq 1$, do đó 
 
 b) Nếu K có đặc số $p \neq 0$, thì A là một đại số trên trường $\mathbf{F}_p$ và hệ thức $nF_n = 0$ suy ra $F_n = 0$ với mọi số nguyên $n$ không chia hết cho $p$. Vì vậy ta có $F = \sum_{m=0}^m F_{mp} X_i^{mp}$, suy ra $F \in T$
 
-#### Nhận xét {#alg-v-s1-n6-rem-1 .statement}
+#### Nhận xét {#alg-v-s1-n6-rem-1 .statement tag=06GO}
 
 — Ta vẫn có $S = K$ khi nhóm cộng của K không xoắn; điều này suy ra từ chứng minh trên hoặc từ Nhận xét 5 của V, p. 3.
 
-#### Hệ quả {#alg-v-s1-n6-cor-1 .statement}
+#### Hệ quả {#alg-v-s1-n6-cor-1 .statement tag=06GP}
 
 — Cho K là một trường và F(X) là một đa thức có hệ số trong K, có đạo hàm F'(X) bằng 0.
 a) Nếu K có đặc số 0, thì F ∈ K.

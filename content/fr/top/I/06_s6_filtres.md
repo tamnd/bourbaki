@@ -53,14 +53,14 @@ subsections:
       pdf_page: 57
 statements: 29
 exercises: 20
-content_sha256: 516a557db4d8c11d57d0de28a18f90021c75ecfc71aa5b5e0c8e78d6438e95c5
+content_sha256: 9af54eaa2c6eff9ff3d2b2da1e1d879adda20f77ae8a3831bb540a68baea8e92
 ---
 
 ## § 6. FILTRES
 
 ### 1. Définition d’un filtre
 
-#### Définition 1 {#top-i-s6-def-1 .statement}
+#### Définition 1 {#top-i-s6-def-1 .statement tag=0B3X}
 
 On appelle filtre sur un ensemble X un ensemble $\mathfrak{F}$ de parties de X qui possède les propriétés suivantes:
 
@@ -92,7 +92,7 @@ Exemples de filtres. — 1) Si $X \neq \varnothing$, l’ensemble de parties ré
 
 ### 2. Comparaison des filtres
 
-#### Définition 2 {#top-i-s6-def-2 .statement}
+#### Définition 2 {#top-i-s6-def-2 .statement tag=0B3Y}
 
 Étant donnés deux filtres $\mathfrak{F}, \mathfrak{F}'$ sur un même ensemble X, on dit que $\mathfrak{F}'$ est plus fin que $\mathfrak{F}$, ou que $\mathfrak{F}$ est moins fin que $\mathfrak{F}'$, si $\mathfrak{F} \subset \mathfrak{F}'$. Si de plus $\mathfrak{F} \neq \mathfrak{F}'$, on dit que $\mathfrak{F}'$ est strictement plus fin que $\mathfrak{F}$, ou que $\mathfrak{F}$ est strictement moins fin que $\mathfrak{F}'$.
 
@@ -104,27 +104,27 @@ Le filtre formé de l’unique ensemble $X$ est *le plus petit élément* de l�
 
 Étant donné un ensemble $\mathfrak{G}$ de parties d’un ensemble $X$, cherchons s’il existe des filtres sur $X$ *contenant* $\mathfrak{G}$. Si un tel filtre existe, il contient aussi, d’après $(\mathbf{F}_{\text{II}})$, l’ensemble $\mathfrak{G}'$ des *intersections finies* d’ensembles de $\mathfrak{G}$ (y compris $X$, intersection de la partie vide de $\mathfrak{G}$); une condition *nécessaire* pour que le problème soit possible est donc que la partie vide de $X$ n’appartienne pas à $\mathfrak{G}'$. Montrons que cette condition est *suffisante*: en effet, tout filtre contenant $\mathfrak{G}'$ contient aussi, d’après $(\mathbf{F}_{\text{I}})$, l’ensemble $\mathfrak{G}''$ des parties de $X$ qui contiennent un ensemble de $\mathfrak{G}'$. Or, $\mathfrak{G}''$ satisfait évidemment à $(\mathbf{F}_{\text{I}})$; il satisfait à $(\mathbf{F}_{\text{II}})$ d’après la définition de $\mathfrak{G}'$, et enfin il satisfait à $(\mathbf{F}_{\text{III}})$ puisque la partie vide de $X$ n’appartient pas à $\mathfrak{G}'$. L’ensemble $\mathfrak{G}''$ est donc *le moins fin des filtres contenant* $\mathfrak{G}$. Nous avons donc prouvé:
 
-#### Proposition 1 {#top-i-s6-prop-1 .statement}
+#### Proposition 1 {#top-i-s6-prop-1 .statement tag=0B3Z}
 
 *Pour qu’il existe un filtre sur $X$ contenant un ensemble $\mathfrak{G}$ de parties de $X$, il faut et il suffit qu’aucune des intersections finies d’ensembles de $\mathfrak{G}$ ne soit vide.*
 
 On dit que le filtre $\mathfrak{G}''$ défini ci-dessus est *engendré* par $\mathfrak{G}$, et que $\mathfrak{G}$ est un *système générateur* de $\mathfrak{G}''$.
 
-#### Exemple {#top-i-s6-n2-exa-1 .statement}
+#### Exemple {#top-i-s6-n2-exa-1 .statement tag=0B40}
 
 Soit $\mathfrak{G}$ un ensemble quelconque de parties d’un ensemble $X$, et considérons la topologie $\mathscr{T}$ sur $X$ *engendrée* par $\mathfrak{G}$ (I, p. 13, *Exemple II*). Comme l’ensemble des intersections finies d’ensembles de $\mathfrak{G}$ est une base de $\mathscr{T}$, il résulte de la démonstration de la prop. 1 ci-dessus, ainsi que la prop. 3 de I, p. 5, que pour tout $x \in X$, le *filtre des voisinages* de $x$ pour $\mathscr{T}$ est *engendré* par l’ensemble $\mathfrak{G}(x)$ des ensembles de $\mathfrak{G}$ auxquels appartient $x$.
 
-#### Corollaire 1 {#top-i-s6-prop-1-cor-1 .statement}
+#### Corollaire 1 {#top-i-s6-prop-1-cor-1 .statement tag=0B41}
 
 *Soient $\mathfrak{F}$ un filtre sur un ensemble $X$, $A$ une partie de $X$. Pour qu’il existe un filtre $\mathfrak{F}'$ plus fin que $\mathfrak{F}$ et tel que $A \in \mathfrak{F}'$ il faut et il suffit que $A$ rencontre tous les ensembles de $\mathfrak{F}$.*
 
-#### Corollaire 2 {#top-i-s6-prop-1-cor-2 .statement}
+#### Corollaire 2 {#top-i-s6-prop-1-cor-2 .statement tag=0B42}
 
 *Pour qu’un ensemble $\Phi$ de filtres sur un ensemble non vide $X$ admette une borne supérieure dans l’ensemble de tous les filtres sur $X$, il faut et il suffit que pour toute suite finie $(\mathfrak{F}_i)_{1 \leq i \leq n}$ d’éléments de $\Phi$ et tout $A_i \in \mathfrak{F}_i$ ($1 \leq i \leq n$), l’intersection $A_1 \cap \cdots \cap A_n$ soit non vide.*
 
 Cela exprime en effet que la réunion $\mathfrak{G}$ des filtres $\mathfrak{F} \in \Phi$ vérifie la condition de la prop. 1.
 
-#### Corollaire 3 {#top-i-s6-prop-1-cor-3 .statement}
+#### Corollaire 3 {#top-i-s6-prop-1-cor-3 .statement tag=0B43}
 
 *L’ensemble ordonné des filtres sur un ensemble non vide $X$ est inductif.*
 
@@ -134,7 +134,7 @@ En effet, tout *ensemble totalement ordonné* $\Phi$ de filtres sur $X$ vérifie
 
 Si $\mathfrak{G}$ est un système générateur d’un filtre $\mathfrak{F}$ sur $X$ (I, p. 37), $\mathfrak{F}$ n’est pas en général l’ensemble des parties de $X$ contenant un ensemble de $\mathfrak{G}$: pour que $\mathfrak{G}$ ait cette propriété, il faut et il suffit que toute intersection finie d’ensembles de $\mathfrak{G}$ contienne un ensemble de $\mathfrak{G}$. On a donc la proposition suivante:
 
-#### Proposition 2 {#top-i-s6-prop-2 .statement}
+#### Proposition 2 {#top-i-s6-prop-2 .statement tag=0B44}
 
 Étant donné un ensemble de parties $\mathfrak{B}$ d’un ensemble $X$, pour que l’ensemble des parties de $X$ contenant un ensemble de $\mathfrak{B}$ soit un filtre, il faut et il suffit que $\mathfrak{B}$ possède les deux propriétés suivantes:
 
@@ -142,25 +142,25 @@ $(\mathrm{B}_I)$ L’intersection de deux ensembles de $\mathfrak{B}$ contient u
 
 $(\mathrm{B}_{II})$ $\mathfrak{B}$ n’est pas vide, et la partie vide de $X$ n’appartient pas à $\mathfrak{B}$.
 
-#### Définition 3 {#top-i-s6-def-3 .statement}
+#### Définition 3 {#top-i-s6-def-3 .statement tag=0B45}
 
 On dit qu’un ensemble de parties $\mathfrak{B}$ d’un ensemble $X$ qui satisfait aux axiomes $(\mathrm{B}_I)$ et $(\mathrm{B}_{II})$ est une base du filtre qu’il engendre. On dit que deux bases de filtre sont équivalentes lorsqu’elles engendrent le même filtre.
 
 Si $\mathfrak{G}$ est un système générateur d’un filtre $\mathfrak{F}$, l’ensemble $\mathfrak{G}'$ des intersections finies d’ensembles de $\mathfrak{G}$ est une base de $\mathfrak{F}$ (I, p. 37).
 
-#### Proposition 3 {#top-i-s6-prop-3 .statement}
+#### Proposition 3 {#top-i-s6-prop-3 .statement tag=0B46}
 
 Pour qu’une partie $\mathfrak{B}$ d’un filtre $\mathfrak{F}$ sur $X$ soit une base de $\mathfrak{F}$, il faut et il suffit que tout ensemble de $\mathfrak{F}$ contienne un ensemble de $\mathfrak{B}$.
 
 La condition est évidemment nécessaire; elle est suffisante, car si elle est remplie, l’ensemble des parties de $X$ contenant un ensemble de $\mathfrak{B}$ est identique à $\mathfrak{F}$ en vertu de $(\mathrm{F}_I)$.
 
-#### Proposition 4 {#top-i-s6-prop-4 .statement}
+#### Proposition 4 {#top-i-s6-prop-4 .statement tag=0B47}
 
 Sur un ensemble $X$, pour qu’un filtre $\mathfrak{F}'$ de base $\mathfrak{B}'$ soit plus fin qu’un filtre $\mathfrak{F}$ de base $\mathfrak{B}$, il faut et il suffit que tout ensemble de $\mathfrak{B}$ contienne un ensemble de $\mathfrak{B}'$.
 
 La proposition résulte aussitôt des déf. 2 (I, p. 36) et 3 (I, p. 38).
 
-#### Corollaire {#top-i-s6-n3-cor-1 .statement}
+#### Corollaire {#top-i-s6-n3-cor-1 .statement tag=0B48}
 
 Pour que deux bases de filtre $\mathfrak{B}$, $\mathfrak{B}'$ sur un ensemble $X$ soient équivalentes, il faut et il suffit que tout ensemble de $\mathfrak{B}$ contienne un ensemble de $\mathfrak{B}'$ et que tout ensemble de $\mathfrak{B}'$ contienne un ensemble de $\mathfrak{B}$.
 
@@ -174,22 +174,22 @@ Soit maintenant $\mathfrak{F}$ un filtre sur un ensemble $Z$; comme $\mathfrak{F
 
 ### 4. Ultrafiltres
 
-#### Définition 4 {#top-i-s6-def-4 .statement}
+#### Définition 4 {#top-i-s6-def-4 .statement tag=0B49}
 
 *On appelle ultrafiltre sur un ensemble $X$ un filtre tel qu’il n’existe aucun filtre strictement plus fin que lui* (en d’autres termes, un élément *maximal* de l’ensemble ordonné des filtres sur $X$).
 
 Comme l’ensemble ordonné des filtres sur $X$ est inductif (I, p. 37, cor. 3), le th. de Zorn (E, III, p. 20, th. 2) entraîne le théorème suivant:
-#### Théorème 1 {#top-i-s6-thm-1 .statement}
+#### Théorème 1 {#top-i-s6-thm-1 .statement tag=0B4A}
 
 *Pour tout filtre $\mathfrak{F}$ sur un ensemble $X$, il existe un ultrafiltre plus fin que $\mathfrak{F}$*.
 
-#### Proposition 5 {#top-i-s6-prop-5 .statement}
+#### Proposition 5 {#top-i-s6-prop-5 .statement tag=0B4B}
 
 *Soit $\mathfrak{F}$ un ultrafiltre sur un ensemble $X$. Si $A$ et $B$ sont deux parties de $X$ telles que $A \cup B \in \mathfrak{F}$, on a $A \in \mathfrak{F}$ ou $B \in \mathfrak{F}$*.
 
 Raisonnons par l’absurde, et supposons que $A \notin \mathfrak{F}$, $B \notin \mathfrak{F}$ et $A \cup B \in \mathfrak{F}$. Soit $\mathfrak{G}$ l’ensemble des parties $M$ de $X$ telles que $A \cup M \in \mathfrak{F}$. On vérifie immédiatement que $\mathfrak{G}$ est un filtre sur $X$. Or $\mathfrak{G}$ est strictement plus fin que $\mathfrak{F}$, puisque $B \in \mathfrak{G}$; mais ceci est en contradiction avec l’hypothèse que $\mathfrak{F}$ est un ultrafiltre.
 
-#### Corollaire {#top-i-s6-n4-cor-1 .statement}
+#### Corollaire {#top-i-s6-n4-cor-1 .statement tag=0B4C}
 
 *Si la réunion d’une suite finie $(A_i)_{1 \leq i \leq n}$ de parties de $X$ appartient à un ultrafiltre $\mathfrak{F}$, l’un au moins des $A_i$ appartient à $\mathfrak{F}$*.
 
@@ -199,7 +199,7 @@ En particulier, si $(A_i)_{1 \leq i \leq n}$ est un *recouvrement de $X$*, un au
 
 La prop. 5 *caractérise* les ultrafiltres; plus généralement:
 
-#### Proposition 6 {#top-i-s6-prop-6 .statement}
+#### Proposition 6 {#top-i-s6-prop-6 .statement tag=0B4D}
 
 *Soit $\mathfrak{G}$ un système générateur d’un filtre sur un ensemble $X$; si, pour toute partie $Y$ de $X$, on a $Y \in \mathfrak{G}$ ou $\complement Y \in \mathfrak{G}$, $\mathfrak{G}$ est un ultrafiltre sur $X$*.
 
@@ -209,11 +209,11 @@ Soit en effet $\mathfrak{F}$ un filtre contenant $\mathfrak{G}$ (il en existe pa
 
 Le lecteur pourra observer qu’en dehors de cet exemple, nous ne démontrerons jamais l’existence d’un ultrafiltre (même sur un ensemble infini dénombrable) autrement que par le th. 1 (donc en utilisant l’axiome de choix).
 
-#### Remarque {#top-i-s6-n4-rem-1 .statement}
+#### Remarque {#top-i-s6-n4-rem-1 .statement tag=0B4E}
 
 Si $X$ est un ensemble contenant au moins deux éléments, il y a au moins deux ultrafiltres distincts sur $X$, donc l’ensemble ordonné des filtres sur $X$ n’a pas de plus grand élément.
 
-#### Proposition 7 {#top-i-s6-prop-7 .statement}
+#### Proposition 7 {#top-i-s6-prop-7 .statement tag=0B4F}
 
 *Tout filtre $\mathfrak{F}$ sur un ensemble $X$ est l’intersection des ultrafiltres plus fins qui lui.*
 
@@ -221,7 +221,7 @@ Il est clair que cette intersection contient $\mathfrak{F}$. D’autre part, soi
 
 ### 5. Filtre induit
 
-#### Proposition 8 {#top-i-s6-prop-8 .statement}
+#### Proposition 8 {#top-i-s6-prop-8 .statement tag=0B4G}
 
 Soient $\mathfrak{F}$ un filtre sur un ensemble $X$, $A$ une partie de $X$. Pour que la trace $\mathfrak{F}_A$ de $\mathfrak{F}$ sur $A$ soit un filtre sur $A$, il faut et il suffit que tout ensemble de $\mathfrak{F}$ rencontre $A$.
 
@@ -229,19 +229,19 @@ En effet, la relation $(M \cap N) \cap A = (M \cap A) \cap (N \cap A)$ montre qu
 
 En particulier, si $A \in \mathfrak{F}$, $\mathfrak{F}_A$ est un filtre sur $A$, d’après $(\mathrm{F}_{\mathrm{II}})$ et $(\mathrm{F}_{\mathrm{III}})$.
 
-#### Définition 5 {#top-i-s6-def-5 .statement}
+#### Définition 5 {#top-i-s6-def-5 .statement tag=0B4H}
 
 Si la trace, sur une partie $A$ d’un ensemble $X$, d’un filtre $\mathfrak{F}$ sur $X$, est un filtre sur $A$, on dit que ce filtre est induit par $\mathfrak{F}$ sur $A$.
 
 Si un filtre $\mathfrak{F}$ sur $X$ induit un filtre sur $A \subset X$, la trace sur $A$ d’une base de $\mathfrak{F}$ est une base de $\mathfrak{F}_A$ en vertu de la prop. 3 de I, p. 37.
 
-#### Exemple {#top-i-s6-n5-exa-1 .statement}
+#### Exemple {#top-i-s6-n5-exa-1 .statement tag=0B4I}
 
 Soient $X$ un espace topologique, $A$ une partie de $X$, $x$ un point de $X$; pour que la trace sur $A$ du filtre des voisinages de $x$ soit un filtre sur $A$, il faut et il suffit que tout voisinage de $x$ rencontre $A$, autrement dit (I, p. 7, déf. 10) que $x$ soit adhérent à $A$.
 
 Ce qui fait l’intérêt de cet exemple de filtre induit, c’est d’une part qu’il joue un rôle important dans la théorie des limites (I, p. 50), et d’autre part que tout filtre peut être défini de cette manière. En effet, soit $\mathfrak{F}$ un filtre sur un ensemble $X$; soit $X'$ l’ensemble obtenu en adjoignant à $X$ un nouvel élément $\omega$, $X$ étant identifié au complémentaire de $\{\omega\}$ dans $X'$ (E, II, p. 30); soit $\mathfrak{F}'$ le filtre sur $X'$ formé des ensembles $M \cup \{\omega\}$, où $M$ parcourt $\mathfrak{F}$. Pour tout point $x \neq \omega$ de $X'$, soit $\mathfrak{V}(x)$ l’ensemble des parties de $X'$ contenant $x$; posons d’autre part $\mathfrak{V}(\omega) = \mathfrak{F}'$; les $\mathfrak{V}(x)$, pour $x \in X'$, satisfont visiblement aux axiomes $(\mathrm{V}_1)$, $(\mathrm{V}_\mathrm{II})$, $(\mathrm{V}_\mathrm{III})$, et $(\mathrm{V}_\mathrm{IV})$, donc définissent sur $X'$ une topologie dont ils sont les filtres de voisinages; enfin $\omega$ est adhérent à $X$ pour cette topologie et $\mathfrak{F}$ est induit par $\mathfrak{F}' = \mathfrak{V}(\omega)$ sur $X$. La topologie ainsi définie sur $X'$ (resp. l’ensemble $X'$ muni de cette topologie) s’appelle topologie associée (resp. espace topologique associé) à $\mathfrak{F}$.
 
-#### Proposition 9 {#top-i-s6-prop-9 .statement}
+#### Proposition 9 {#top-i-s6-prop-9 .statement tag=0B4J}
 
 Pour qu’un ultrafiltre $\mathfrak{U}$ sur un ensemble $X$ induise un filtre sur une partie $A$ de $X$, il faut et il suffit que $A \in \mathfrak{U}$; si cette condition est remplie, $\mathfrak{U}_A$ est un ultrafiltre sur $A$.
 
@@ -251,7 +251,7 @@ C’est une conséquence immédiate des prop. 5 et 6 (I, p. 39).
 
 Soit $\mathfrak{B}$ une base de filtre sur un ensemble $X$, et soit $f$ une application de $X$ dans un ensemble $X'$; $f(\mathfrak{B})$ est une base de filtre sur $X'$, car la relation $M \neq \varnothing$ entraîne f(M) \neq \varnothing, et on a $f(M \cap N) \subset f(M) \cap f(N)$. Si $\mathfrak{B}_1$ est une base d’un filtre *plus fin* que le filtre de base $\mathfrak{B}$, $f(\mathfrak{B}_1)$ est une base d’un filtre *plus fin* que le filtre de base $f(\mathfrak{B})$ (I, p. 38, prop. 4).
 
-#### Proposition 10 {#top-i-s6-prop-10 .statement}
+#### Proposition 10 {#top-i-s6-prop-10 .statement tag=0B4K}
 
 *Si $\mathfrak{B}$ est une base d’ultrafiltre sur un ensemble $X$, $f$ une application de $X$ dans $X'$, $f(\mathfrak{B})$ est une base d’ultrafiltre sur $X'$.*
 
@@ -279,7 +279,7 @@ $$
 $$
 il est immédiat que $\mathfrak{B}$ est une base de filtre sur $X$. On notera que le filtre de base $\mathfrak{B}$ est aussi engendré par les ensembles $\operatorname{pr}_k^{-1}(M_k)$, où $M_k \in \mathfrak{B}_k$ et où $k$ parcourt $I$, puisque $\operatorname{pr}_k^{-1}(M_k) = M_k \times \prod_{i \neq k} X_i$.
 
-#### Définition 6 {#top-i-s6-def-6 .statement}
+#### Définition 6 {#top-i-s6-def-6 .statement tag=0B4L}
 
 Étant donné un filtre $\mathfrak{F}_i$ sur chacun des ensembles $X_i$ d’une famille $(X_i)_{i \in I}$ on appelle produit des filtres $\mathfrak{F}_i$ et on note $\prod_{i \in I} \mathfrak{F}_i$ (si aucune confusion n’en résulte) le filtre sur $X = \prod_{i \in I} X_i$ ayant pour base l’ensemble des parties de la forme $\prod_{i \in I} M_i$, où $M_i \in \mathfrak{F}_i$ pour tout $i \in I$ et $M_i = X_i$ sauf pour un nombre fini d’indices.
 
@@ -293,7 +293,7 @@ La construction d’un filtre produit $\mathfrak{F} = \prod_{i \in I} \mathfrak{
 
 ### 8. Filtres élémentaires
 
-#### Définition 7 {#top-i-s6-def-7 .statement}
+#### Définition 7 {#top-i-s6-def-7 .statement tag=0B4M}
 
 Soit $(x_n)_{n \in \mathbf{N}}$ une suite infinie d’éléments d’un ensemble $X$; on appelle filtre élémentaire associé à la suite $(x_n)$ le filtre engendré par l’image du filtre de Fréchet (I, p. 36) par l’application $n \mapsto x_n$ de $\mathbf{N}$ dans $X$.
 
@@ -303,13 +303,13 @@ Le filtre élémentaire associé à une suite infinie extraite d’une suite $(x
 
 Tout filtre élémentaire possède par définition une base dénombrable. Inversement:
 
-#### Proposition 11 {#top-i-s6-prop-11 .statement}
+#### Proposition 11 {#top-i-s6-prop-11 .statement tag=0B4N}
 
 Si un filtre $\mathfrak{F}$ possède une base dénombrable, il est le filtre intersection des filtres élémentaires plus fins que $\mathfrak{F}$.
 
 En effet, rangeons la base dénombrable de $\mathfrak{F}$ en une suite $(A_n)_{n \in \mathbf{N}}$; si on pose $B_n = \bigcap_{p=0}^n A_p$, les $B_n$ forment encore une base de $\mathfrak{F}$ (I, p. 38, prop. 3) et on a $B_{n+1} \subset B_n$ pour tout $n$. Soit $a_n$ un élément quelconque de $B_n$; il est clair que $\mathfrak{F}$ est moins fin que le filtre associé à $(a_n)$. Le filtre intersection $\mathfrak{J}$ des filtres élémentaires plus fins que $\mathfrak{F}$ existe donc et est évidemment plus fin que $\mathfrak{F}$; s’il était strictement plus fin, il existerait un ensemble $M \in \mathfrak{J}$ tel que $B_n \cap \complement M \neq \varnothing$ pour tout $n$; si $b_n$ est un élément de $B_n \cap \complement M$, le filtre associé à la suite $(b_n)$ serait plus fin que $\mathfrak{F}$ et $M$ n’appartiendrait pas à ce filtre, contrairement à la définition de $\mathfrak{J}$.
 
-#### Remarque {#top-i-s6-n8-rem-1 .statement}
+#### Remarque {#top-i-s6-n8-rem-1 .statement tag=0B4O}
 
 Un filtre moins fin qu’un filtre à base dénombrable peut fort bien ne pas posséder de base dénombrable; par exemple, si $X$ est un ensemble infini non dénombrable, le filtre des complémentaires des parties finies de $X$ n’a pas de base dénombrable (sans quoi l’ensemble des parties finies de $X$ serait dénombrable, ce qui est contraire à l’hypothèse); toutefois ce filtre est moins fin que tout filtre élémentaire associé à une suite infinie dont les termes sont distincts.
 
@@ -342,11 +342,11 @@ Soit maintenant $X'$ un second ensemble, et désignons par $\Phi$ l’ensemble d
 
 entre $f$ et $g$ est une *relation d’équivalence* $S$, car elle est évidemment réflexive et symétrique; de plus, elle est transitive, car si $f$ et $g$ sont définies et coïncident dans $V \in \mathfrak{F}$, et si $g$ et $h$ sont définies et coïncident dans $W \in \mathfrak{F}$, alors $f$ et $h$ sont définies et coïncident dans $V \cap W \in \mathfrak{F}$. On dit que la classe mod. $S$ d’une application $f$ d’un ensemble $V \in \mathfrak{F}$ dans $X'$ est le *germe de $f$ (suivant $\mathfrak{F}$)* , et l’ensemble quotient $\tilde{\Phi} = \Phi/S$ est appelé l’*ensemble des germes d’applications de $X$ dans $X'$ (suivant $\mathfrak{F}$)*.
 
-#### Remarque 1 {#top-i-s6-n9-rem-1 .statement}
+#### Remarque 1 {#top-i-s6-n9-rem-1 .statement tag=0B4P}
 
 Toute application $f$ d’une partie $M \in \mathfrak{F}$ de $X$ dans $X'$ est équivalente mod. $S$ à une application $f_1$ de $X$ dans $X'$ (ce qui justifie la terminologie précédente): il suffit en effet de prolonger $f$ à $X$ en lui donnant par exemple une valeur constante dans $X - M$.
 
-#### Remarque 2 {#top-i-s6-n9-rem-2 .statement}
+#### Remarque 2 {#top-i-s6-n9-rem-2 .statement tag=0B4Q}
 
 Pour que les *fonctions caractéristiques* $\varphi_M$ et $\varphi_N$ de deux parties $M, N$ de $X$ aient même germe suivant $\mathfrak{F}$, il faut et il suffit que les parties $M$ et $N$ aient même germe suivant $\mathfrak{F}$.
 

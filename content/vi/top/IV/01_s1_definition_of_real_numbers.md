@@ -36,7 +36,7 @@ subsections:
       pdf_page: 340
 statements: 10
 exercises: 4
-content_sha256: 16b315d18984e89283b27af103bc3c7c4c494faeaaec6f69d4af419e4cbd0fee
+content_sha256: e36a5a6e35e2015346762e4775a34c8ff3979806748d99d742edd82e5c986f22
 translated_from: content/en/top/IV/01_s1_definition_of_real_numbers.md
 source_content_sha256: 3e464a20dbba1b7e5ca5492e42ca53c9282c0ce314d92b39f60176990dba0c1b
 translation_model: gpt-5-6-mini
@@ -128,7 +128,7 @@ Xét tập $\mathfrak{F}$ gồm các *khoảng mở đối xứng* $]-a, +a[$, t
 
 Nhóm $\mathbf{Q}$ là giao hoán, và tiên đề $(\mathrm{GV}'_{\mathrm{II}})$ được thỏa mãn rõ ràng; do đó chỉ cần chứng minh rằng tiên đề $(\mathrm{GV}'_{\mathrm{I}})$ cũng được thỏa mãn, nói cách khác, với mỗi $a > 0$ tồn tại $b > 0$ sao cho các điều kiện $|x| < b$ và $|y| < b$ cùng kéo theo $|x + y| < a$. Bất đẳng thức tam giác cho thấy ta có thể lấy $b = a/2$.
 
-#### Định nghĩa 1 {#top-iv-s1-def-1 .statement}
+#### Định nghĩa 1 {#top-iv-s1-def-1 .statement tag=0BP1}
 
 *Đường thẳng hữu tỉ là không gian tôpô gồm tập hợp $\mathbf{Q}$ cùng với tôpô nhóm cộng mà trong đó các khoảng mở đối xứng $]-a, +a[$ $(a > 0)$ tạo thành một hệ cơ bản các lân cận của $0$.*
 
@@ -146,7 +146,7 @@ Với mỗi $a > 0$, đặt $U_a$ là tập hợp các cặp $(x, y)$ thuộc $\
 
 ### 3. ĐƯỜNG THẲNG THỰC VÀ CÁC SỐ THỰC
 
-#### Định nghĩa 2 {#top-iv-s1-def-2 .statement}
+#### Định nghĩa 2 {#top-iv-s1-def-2 .statement tag=0BP2}
 
 Gọi $\mathbf{R}$ là nhóm tôpô là hoàn thành của nhóm cộng $\mathbf{Q}$ của đường thẳng hữu tỉ. Các phần tử của $\mathbf{R}$ được gọi là các số thực; với tư cách là một không gian tôpô, $\mathbf{R}$ được gọi là đường thẳng thực; với tư cách là một nhóm tôpô, $\mathbf{R}$ được gọi là nhóm cộng của đường thẳng thực.
 
@@ -154,7 +154,7 @@ Ta luôn đồng nhất $\mathbf{Q}$ với nhóm con trù mật của $\mathbf{R
 
 Ta sẽ chứng minh rằng cấu trúc thứ tự của $\mathbf{Q}$ có thể mở rộng lên $\mathbf{R}$ sao cho thứ tự mở rộng vẫn tương thích với cấu trúc nhóm cộng của $\mathbf{R}$:
 
-#### Mệnh đề 1 {#top-iv-s1-prop-1 .statement}
+#### Mệnh đề 1 {#top-iv-s1-prop-1 .statement tag=0BP3}
 
 Quan hệ $y - x \in \overline{\mathbf{Q}}_+$ là một quan hệ thứ tự trên $\mathbf{R}$, biến $\mathbf{R}$ thành một tập hợp có thứ tự tuyến tính; tương thích với cấu trúc nhóm cộng trên $\mathbf{R}$, và cảm sinh thứ tự $x \leq y$ trên $\mathbf{Q}$.
 
@@ -170,7 +170,7 @@ Quan hệ $y - x \in \overline{\mathbf{Q}}_+$ lại được ký hiệu là $x \
 
 ### 4. CÁC TÍNH CHẤT CỦA CÁC KHOẢNG TRONG $\mathbf{R}$
 
-#### Mệnh đề 2 {#top-iv-s1-prop-2 .statement}
+#### Mệnh đề 2 {#top-iv-s1-prop-2 .statement tag=0BP4}
 
 *Mọi khoảng đóng (tương ứng, mở) trong $\mathbf{R}$ đều là một tập hợp đóng (tương ứng, mở) trong $\mathbf{R}$.*
 
@@ -178,7 +178,7 @@ Các tập hợp $[a, \to[ = a + \mathbf{R}_+$ và $]\leftarrow, a] = a - \mathb
 
 Các khoảng đóng $[-a, +a]$ ($a > 0$) trong $\mathbf{R}$ do đó là các lân cận của 0. Ta hãy chứng minh rằng chúng tạo thành một *hệ cơ bản các lân cận* của 0 khi $a$ chạy qua $\mathbf{R}_+^*$. Để làm điều này, chỉ cần thiết lập mệnh đề sau:
 
-#### Mệnh đề 3 {#top-iv-s1-prop-3 .statement}
+#### Mệnh đề 3 {#top-iv-s1-prop-3 .statement tag=0BP5}
 
 *Khi $r$ chạy qua tập hợp các số hữu tỉ $> 0$, các khoảng $s_r = [-r, +r]$ trong $\mathbf{R}$ tạo thành một hệ cơ bản các lân cận của 0.*
 
@@ -186,23 +186,23 @@ Theo Mệnh đề 7 của Chương III, § 3, no. 4 ta thu được một hệ c
 
 S_r \cap \mathbf{Q} = [-r, +r] \textit{of} \mathbf{Q}. Chứng minh sẽ hoàn tất nếu ta chỉ ra rằng S_r là bao đóng của S_r \cap \mathbf{Q}. Bây giờ S_r là đóng trong \mathbf{R}, và do đó ta chỉ cần chứng minh rằng, nếu x là một số thực sao cho -r < x < r, thì x thuộc bao đóng của S_r \cap \mathbf{Q}. Khoảng ]-r, +r[ là một tập mở trong \mathbf{R} và vì vậy với mọi lân cận V đủ nhỏ của o trong \mathbf{R} ta có x + V \subset ]-r, +r[; nhưng vì \mathbf{Q} trù mật trong \mathbf{R}, tồn tại một số hữu tỉ r' \in x + V, sao cho -r < r' < r và do đó r' \in S_r \cap \mathbf{Q}.
 
-#### Hệ quả {#top-iv-s1-n4-cor-1 .statement}
+#### Hệ quả {#top-iv-s1-n4-cor-1 .statement tag=0BP6}
 
 *Mọi điểm của đường thẳng thực đều có một hệ cơ sở đếm được các lân cận.*
 
-#### Mệnh đề 4 {#top-iv-s1-prop-4 .statement}
+#### Mệnh đề 4 {#top-iv-s1-prop-4 .statement tag=0BP7}
 
 *Nếu (x, y) là một cặp bất kỳ các số thực sao cho x < y, thì có một số hữu tỉ r sao cho x < r < y.*
 
 Vì \mathbf{Q} trù mật trong \mathbf{R}, chỉ cần chỉ ra rằng ]x, y[ là không rỗng; bằng phép tịnh tiến ta có thể giả sử x = 0 và y > 0. Bây giờ \mathbf{R} là một không gian Hausdorff và do đó, theo Mệnh đề 3, tồn tại một số hữu tỉ r > 0 sao cho y \notin ]-r, +r[, và điều này kéo theo 0 < r < y.
 
-#### Mệnh đề 5 {#top-iv-s1-prop-5 .statement}
+#### Mệnh đề 5 {#top-iv-s1-prop-5 .statement tag=0BP8}
 
 *Cho I là một khoảng bất kỳ trong \mathbf{R}. Khi đó tôpô cảm sinh trên I bởi tôpô của \mathbf{R} được sinh bởi các khoảng mở của I (trong đó I được xem là có thứ tự tuyến tính bởi quan hệ x \leq y).*
 
 Mọi khoảng mở của I là vết trên I của một khoảng mở của \mathbf{R}. Điều này rõ ràng đối với một khoảng bị chặn, và khoảng không bị chặn ]a, \to[ của I là vết của khoảng không bị chặn ]a, \to[ của \mathbf{R}. Do đó ta có thể giới hạn vào trường hợp I = \mathbf{R}; nhưng trong trường hợp này kết quả suy ra từ Mệnh đề 3, vì mọi lân cận của một điểm x \in \mathbf{R} chứa một khoảng mở ]x - a, x + a[.
 
-#### Nhận xét {#top-iv-s1-n4-rem-1 .statement}
+#### Nhận xét {#top-iv-s1-n4-rem-1 .statement tag=0BP9}
 
 Nếu A là một tập con trù mật của \mathbf{R}, tôpô của \mathbf{R} được sinh bởi các khoảng mở có các đầu mút thuộc A. Thật vậy, nếu
 
@@ -212,7 +212,7 @@ là một khoảng mở chứa x, tồn tại hai điểm y, z của A sao cho x
 
 ### 5. ĐỘ DÀI CỦA MỘT KHOẢNG
 
-#### Định nghĩa 3 {#top-iv-s1-def-3 .statement}
+#### Định nghĩa 3 {#top-iv-s1-def-3 .statement tag=0BPA}
 
 *Độ dài của một khoảng bị chặn với các đầu mút a và b (a \leq b) được định nghĩa là b - a.*
 

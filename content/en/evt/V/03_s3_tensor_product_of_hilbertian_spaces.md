@@ -33,7 +33,7 @@ subsections:
       pdf_page: 293
 statements: 20
 exercises: 2
-content_sha256: ec12874139d34e331504d1202b3746122078b9b1611a614396c989b521599f4c
+content_sha256: 02cb54c6e38040afaaa4704bd9864f0e39ab141fc23dcd61afa7b042aa7a7e87
 ---
 
 ## § 3. TENSOR PRODUCT OF HILBERTIAN SPACES
@@ -54,7 +54,7 @@ $$
 $$
 (cf. A, IX, § 1, No. 11).
 
-#### Proposition 1 {#evt-v-s3-prop-1 .statement}
+#### Proposition 1 {#evt-v-s3-prop-1 .statement tag=080B}
 
 — The sesquilinear form $\Phi$ on $E_1 \otimes E_2$ is hermitian and positive, hence assigns the structure of a prehilbertian space to $E_1 \otimes E_2$. This space is Hausdorff if $E_1$ and $E_2$ are Hausdorff.
 
@@ -86,7 +86,7 @@ then the bilinear mapping $(x_1, x_2) \mapsto x_1 \otimes x_2$ from $E_1 \times 
 
 For $i = 1, 2$ let $F_i$ be a vector subspace of $E_i$, endowed with the induced prehilbertian structure. Then $F_1 \otimes F_2$ can be identified with a vector subspace of $E_1 \otimes E_2$ (A, II, § 7, No. 7). Formula (4) shows that $F_1 \otimes F_2$ with the prehilbertian space structure induced by that of $E_1 \otimes_2 E_2$, is exactly $F_1 \otimes_2 F_2$. We shall henceforth identify $F_1 \otimes_2 F_2$ with a prehilbertian subspace of $E_1 \otimes_2 E_2$.
 
-#### Proposition 2 {#evt-v-s3-prop-2 .statement}
+#### Proposition 2 {#evt-v-s3-prop-2 .statement tag=080C}
 
 *For $i = 1, 2$, let $E_i$ and $F_i$ be two Hausdorff prehilbertian spaces and let $u_i \in \mathscr{L}(E_i; F_i)$. The linear mapping $u_1 \otimes u_2$ from $E_1 \otimes_2 E_2$ into $F_1 \otimes_2 F_2$ is continuous and we have*
 $$
@@ -161,7 +161,7 @@ The canonical isomorphism from $F_1 \otimes ... \otimes F_m$ onto $E_1 \otimes .
 
 ### 2. Hilbertian tensor product of hilbertian spaces
 
-#### Definition 1 {#evt-v-s3-def-1 .statement}
+#### Definition 1 {#evt-v-s3-def-1 .statement tag=080D}
 
 Let $E_1, ..., E_n$ be hilbertian spaces. *The completion of the Hausdorff prehilbertian space* $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ *is called* the hilbertian tensor product of the $E_i$ and is denoted by $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ (or $\hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i$).
 
@@ -185,11 +185,11 @@ $$
 
 We leave to the reader the task of formulating the « commutativity » and the « associativity » of the hilbertian tensor product, in analogy with what has been said above for prehilbertian spaces.
 
-#### Remark {#evt-v-s3-n2-rem-1 .statement}
+#### Remark {#evt-v-s3-n2-rem-1 .statement tag=080E}
 
 Let $E_1, ..., E_n$ be Hausdorff prehilbertian spaces, and $\hat{E}_1, ..., \hat{E}_n$ their respective completions. Then $E_1 \otimes_2 ... \otimes_2 E_n$ is a prehilbertian subspace of $\hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n$. Since the mapping $(x_1, ..., x_n) \mapsto x_1 \otimes ... \otimes x_n$ from $\hat{E}_1 \times ... \times \hat{E}_n$ into $\hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n$ is continuous, $E_1 \otimes_2 ... \otimes_2 E_n$ is dense in $\hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n$. *A fortiori* the completion of $E_1 \otimes_2 ... \otimes_2 E_n$ is precisely the hilbertian space $\hat{E}_1 \hat{\otimes}_2 ... \hat{\otimes}_2 \hat{E}_n$. This completion is sometimes simply written as $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ (or $\hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i$).
 
-#### Proposition 3 {#evt-v-s3-prop-3 .statement}
+#### Proposition 3 {#evt-v-s3-prop-3 .statement tag=080F}
 
 Let $E_1, ..., E_n$ be hilbertian spaces. Suppose that for $1 \leq i \leq n$ the space $E_i$ is a hilbertian sum of a family $(E_{i,\alpha})_{\alpha \in A(i)}$ of closed vector subspaces. Then $E_1 \otimes_2 ... \otimes_2 E_n$ is a hilbertian sum of the family of subspaces $E_{1,\alpha_1} \hat{\otimes}_2 ... \hat{\otimes}_2 E_{n,\alpha_n}$ with $(\alpha_1, ..., \alpha_n)$ ranging over $A(1) \times ... \times A(n)$.
 
@@ -197,21 +197,21 @@ By formula (6) of V, p. 27, the subspaces $E_{1,\alpha_1} \hat{\otimes}_2 ... \h
 
 It follows that the union of the subspaces $E_{1,\alpha_1} \hat{\otimes}_2 ... \hat{\otimes}_2 E_{n,\alpha_n}$ is total, hence prop. 3.
 
-#### Corollary 1 {#evt-v-s3-prop-3-cor-1 .statement}
+#### Corollary 1 {#evt-v-s3-prop-3-cor-1 .statement tag=080G}
 
 — For $1 \leq i \leq n$, let $(e_{i,\alpha})_{\alpha \in A(i)}$ be an orthonormal basis of $E_i$. Then the family of vectors $e_{1,\alpha_1} \otimes \ldots \otimes e_{n,\alpha_n}$ as $(\alpha_1, \ldots, \alpha_n)$ ranges over $A(1) \times \cdots \times A(n)$ is an orthonormal basis of $E_1 \hat{\otimes}_2 \ldots \hat{\otimes}_2 E_n$.
 
-#### Corollary 2 {#evt-v-s3-prop-3-cor-2 .statement}
+#### Corollary 2 {#evt-v-s3-prop-3-cor-2 .statement tag=080H}
 
 — Let $E_1$ and $E_2$ be two hilbertian spaces, and $(e_i)_{i \in I}$ an orthonormal basis of $E_1$. Let $(y_i)_{i \in I}$ be a family of elements of $E_2$, such that $\sum_{i \in I} \| y_i \| ^2 < + \infty$. Then the family $(e_i \otimes y_i)_{i \in I}$ is summable in $E_1 \hat{\otimes}_2 E_2$; moreover, every element of $E_1 \otimes E_2$ can be written uniquely in the form $\sum_{i \in I} e_i \otimes y_i$ with $\sum_{i \in I} \| y_i \| ^2 < + \infty$.
 
 Let $F_i$ be the line in $E_1$ generated by the $e_i$ ($i \in I$). Then $E_1$ is the hilbertian sum of the family of subspaces $(F_i)_{i \in I}$. By prop. 3, the space $E_1 \hat{\otimes}_2 E_2$ is the hilbertian sum of the family of subspaces $(F_i \hat{\otimes}_2 E_2)_{i \in I}$, hence cor. 2 follows.
 
-#### Example 1 {#evt-v-s3-n2-exa-1 .statement}
+#### Example 1 {#evt-v-s3-n2-exa-1 .statement tag=080I}
 
 By cor. 1, the space $\ell^2(I) \hat{\otimes}_2 \ell^2(J)$ is canonically isomorphic to $\ell^2(I \times J)$, the tensor product $x \otimes y$ of $x = (x_i)_{i \in I}$ and $y = (y_j)_{j \in J}$ can be identified with the family $(x_i y_j)_{i \in I, j \in J}$. Similarly, by cor. 2, $\ell^2(I) \hat{\otimes}_2 E$ can be identified with $\ell^2_E(I)$, in such a way that we have $(x_i)_{i \in I} \otimes y = (x_i y)_{i \in I}$ for every $y$ in the hilbertian space $E$.
 
-#### Example 2 {#evt-v-s3-n2-exa-2 .statement}
+#### Example 2 {#evt-v-s3-n2-exa-2 .statement tag=080J}
 
 \* Let $X$ be a Hausdorff topological space, and $\mu$ a positive measure on $X$. Let $E$ be a hilbertian space. We can identify $L^2(X, \mu) \hat{\otimes}_2 E$ with $L^2_E(X, \mu)$ in a canonical way : if $f$ is the class of the square integrable scalar function $f$ on $X$, and if $a$ belongs to $E$, then $f \otimes a$ is the class of the function $x \mapsto f(x).a$ with values in $E$.
 
@@ -263,7 +263,7 @@ $$
 
 Let $\hat{\mathbf{S}}^n(E)$ denote the completion of the pre-Hilbertian space $\mathbf{S}^n(E)$ and $\hat{\mathbf{S}}(E)$ the external hilbertian sum of the hilbertian spaces $\hat{\mathbf{S}}^n(E)$. We can show (V, p. 73, exerc. 1) that the multiplication in the algebra $\mathbf{S}(E)$ cannot be extended by continuity to $\mathbf{S}(E)$, unless $E$ is just 0.
 
-#### Proposition 4 {#evt-v-s3-prop-4 .statement}
+#### Proposition 4 {#evt-v-s3-prop-4 .statement tag=080K}
 
 *Let $(e_i)_{i \in I}$ be an orthonormal basis of the hilbertian space $E$. For every $\alpha$ in $\mathbf{N}^{(I)}$, put*
 
@@ -286,7 +286,7 @@ when $|\alpha| = \sum_{i \in I} \alpha_i$ and $|\beta| = \sum_{i \in I} \beta_i$
 
 Consider a partition $(P_i)_{i \in I}$ of the set $\{ 1, 2, ..., n \}$ such that Card $P_i = \alpha_i$ for all $i \in I$. Put $x_k = e_i$ if $k$ belongs to $P_i$, then $x_1 ... x_n = \prod_{i \in I} e_i^{\alpha_i}$. Similarly we define $(Q_i)_{i \in I}$ and $y_k$ in such a way that Card $Q_i = \beta_i$ and $y_1 ... y_n = \prod_{i \in I} e_i^{\beta_i}$. Since the $e_i$ are mutually orthogonal, we have $\langle x_k | y_{\sigma(k)} \rangle = 0$ except if there exists an indice $i \in I$ such that $k \in P_i$ and $\sigma(k) \in Q_i$. By formula (15), we then have $\langle x_1 ... x_n | y_1 ... y_n \rangle = 0$ unless there exists a permutation $\sigma \in \mathfrak{S}_n$ such that $\sigma(P_i) = Q_i$ for all $i \in I$, which implies that $\alpha = \beta$. Then $\langle z_\alpha | z_\beta \rangle = 0$ for $\alpha \neq \beta$. The same argument proves that $\| x_1 ... x_n \| ^2$ is equal to the number of the $\sigma \in \mathfrak{S}_n$ such that $\sigma(P_i) = P_i$ for all $i \in I$, hence equal to $\prod_{i \in I} \alpha_i !$. We get $\| z_\alpha \| = 1$, and the proposition is proved.
 
-#### Corollary {#evt-v-s3-n3-cor-1 .statement}
+#### Corollary {#evt-v-s3-n3-cor-1 .statement tag=080L}
 
 — *Suppose that the hilbertian space E is the direct sum of the orthogonal subspaces M and N. The canonical isomorphism g from $S(M) \otimes S(N)$ onto $S(E)$ (A, III, § 6, No. 6) extends uniquely to a hilbertian space isomorphism h from $\hat{S}(M) \hat{\otimes}_2 \hat{S}(N)$ onto $\hat{S}(E)$.
 
@@ -345,7 +345,7 @@ $$
 
 Finally, $\hat{S}^n(u)$ coincides on $S^n(E)$ with the linear mapping $S^n(u) : S^n(E) \to S^n(F)$ defined in A, III, § 6, No. 2 since it transforms $x_1 ... x_n$ into $u(x_1) ... u(x_n)$ for every $x_1, ..., x_n$ in $E$.
 
-#### Example 1 {#evt-v-s3-n3-exa-1 .statement}
+#### Example 1 {#evt-v-s3-n3-exa-1 .statement tag=080M}
 
 Let $d \geq 1$ be an integer and $\omega$ a positive function on $\mathbf{R}^d$, locally integrable with respect to the Lebesgue measure $\mu$. Let $E$ be the hilbertian space $L^2(\mathbf{R}^d, \omega.\mu)$, and let $S = S(E)$. Then $S$ can be identified with the space of all sequences $f = (f_n)_{n \geq 0}$, where each $f_n$ is a function on $(\mathbf{R}^d)^n$ which is measurable with respect to the Lebesgue measure $\mu \otimes ... \otimes \mu$ ($n$ factors) and *invariant* under the permutations of the $n$ factors in $(\mathbf{R}^d)^n$, and is such that
 
@@ -355,7 +355,7 @@ $$
 
 is finite. The norm $\| f \|$ in $S$ is defined by formula (22). The hilbertian space $S$ defined above is called the *symmetric Fock space* corresponding to the *weight* $\omega$.
 
-#### Example 2 {#evt-v-s3-n3-exa-2 .statement}
+#### Example 2 {#evt-v-s3-n3-exa-2 .statement tag=080N}
 
 Let $X$ be a Hausdorff topological space, $\mu$ a positive measure of norm 1 on $X$ and $E$ a hilbertian subspace of the real hilbertian space $L^2_{\mathbf{R}}(X, \mu)$. We say that $E$ is a *gaussian space* if the following equivalent conditions are satisfied :
 
@@ -402,7 +402,7 @@ for all $x_1, ..., x_n$ and $y_1, ..., y_n$ in E.
 
 Let $\hat{\Lambda}^n(E)$ denote the completion of the prehilbertian space $\Lambda^n(E)$, and $\hat{\Lambda}(E)$ the external hilbertian sum of the hilbertian spaces $\hat{\Lambda}^n(E)$.
 
-#### Example {#evt-v-s3-n4-exa-1 .statement}
+#### Example {#evt-v-s3-n4-exa-1 .statement tag=080O}
 
 — *With the notations of example 1 of V, p. 32, we can identify the hilbertian space $\hat{\Lambda}(E)$ with the set of all sequences $(f_n)_{n \geq 0}$ of measurable functions for which the* number $\|f\|$ defined in (22) is finite, and where each function $f_n$ is *antisymmetric*, that is, satisfies the relation
 
@@ -412,7 +412,7 @@ $$
 
 for every permutation $\sigma \in \mathfrak{S}_n$. The hilbertian space $\hat{\Lambda}(E)$ is called the *antisymmetric Fock space* corresponding to the *weight* $\omega$. \*
 
-#### Proposition 5 {#evt-v-s3-prop-5 .statement}
+#### Proposition 5 {#evt-v-s3-prop-5 .statement tag=080P}
 
 *Let* $(e_i)_{i \in I}$ *be an orthonormal basis of the hilbertian space* E. *Endow* I *with a totally ordered structure. Then the set of all elements* $e_{i_1} \wedge ... \wedge e_{i_n}$ *for* $i_1 < ... < i_n$ *is an orthonormal basis of* $\hat{\Lambda}^n(E)$.
 
@@ -420,7 +420,7 @@ We know (A, III, § 7, No. 8) that the elements in question form a basis of the 
 
 But $E_0$ is dense in E, and the mapping $(x_1, ..., x_n) \mapsto x_1 \wedge ... \wedge x_n$ from $E \times \cdots \times E$ into $\Lambda^n(E)$ is continuous. Consequently, $\Lambda^n(E_0)$ is dense in $\Lambda^n(E)$, and proposition 5 follows.
 
-#### Corollary {#evt-v-s3-n4-cor-1 .statement}
+#### Corollary {#evt-v-s3-n4-cor-1 .statement tag=080Q}
 
 *Suppose that the hilbertian space* E *is the direct sum of two orthogonal subspaces* M *and* N. *The canonical isomorphism* g *from* $\Lambda(M) \otimes \Lambda(N)$ *onto* $\Lambda(E)$ *(A, III, § 7, No. 7)* *extends in a unique way to a hilbertian space isomorphism from* $\hat{\Lambda}(M) \hat{\otimes}_2 \hat{\Lambda}(N)$ *onto* $\hat{\Lambda}(E)$.
 
@@ -466,7 +466,7 @@ $$
 
 for $u \in \Lambda^p(E)$ and $v \in \Lambda^q(E)$. Consequently, the mapping $(u, v) \mapsto u \wedge v$ extends by continuity to a bilinear mapping from $\hat{\Lambda}^p(E) \times \hat{\Lambda}^q(E)$ into $\hat{\Lambda}^{p+q}(E)$, with a norm at most equal to $\left( \frac{(p+q)!}{p! \ q!} \right)^{1/2}$ (cf. V, p. 73, exerc. 2). We again denote this by $(u, v) \mapsto u \wedge v$.
 
-#### Proposition 6 {#evt-v-s3-prop-6 .statement}
+#### Proposition 6 {#evt-v-s3-prop-6 .statement tag=080R}
 
 *Let E be a hilbertian space. We have*
 
@@ -480,7 +480,7 @@ It is clearly enough to consider the case $\| x \| = 1$.
 
 Let F be the hilbertian subspace of E consisting of all vectors orthogonal to x. Since E is the hilbertian sum of F and the line K.x, it follows from the corollary of V, p. 34 that the mapping $(v, w) \mapsto v + x \wedge w$ is a hilbertian space isomorphism from $\hat{\Lambda}(F) \oplus \hat{\Lambda}(F)$ onto $\hat{\Lambda}(E)$. If $u = v + x \wedge w$ with $v, w$ in $\hat{\Lambda}(F)$, we have $x \wedge u = x \wedge v$, hence $\| x \wedge u \| = \| v \| \leq (\| v \|^2 + \| w \|^2)^{1/2} = \| u \|$.
 
-#### Corollary 1 {#evt-v-s3-prop-6-cor-1 .statement}
+#### Corollary 1 {#evt-v-s3-prop-6-cor-1 .statement tag=080S}
 
 *a)* *Let* $x_1, \ldots, x_n$ *be elements of the hilbertian space* E. *We have*
 
@@ -531,7 +531,7 @@ Suppose that the vectors $x_i$ and the vectors $y_i$ are not null. The equality 
 
 By the first part of the proof, the equalities (38) imply that each of the sequences $(x_1, ..., x_n)$ and $(y_1, ..., y_n)$ is orthogonal, which in turn implies that $x_1 \wedge ... \wedge x_n \neq 0$ and that $y_1 \wedge ... \wedge y_n \neq 0$. Under these conditions, relation (37) implies that there exists a scalar $\lambda \neq 0$ such that $y_1 \wedge ... \wedge y_n = \lambda x_1 \wedge ... \wedge x_n$ (V, p. 3, Remark 1); in other words, that $(x_1, ..., x_n)$ and $(y_1, ..., y_n)$ are bases of the same vector subspace of E (A, III, § 11, No. 13).
 
-#### Corollary 2 {#evt-v-s3-prop-6-cor-2 .statement}
+#### Corollary 2 {#evt-v-s3-prop-6-cor-2 .statement tag=080T}
 
 — Let $(a_{ij})_{1 \leq i,j \leq n}$ be a hermitian matrix, with complex elements, and with determinant D. Suppose that the inequality
 
@@ -559,7 +559,7 @@ First assume that $\Phi$ is separating, that is, that D is non-null. If $(e_1, .
 
 Since $a_{ii} = \Phi(e_i, e_i) \geq 0$, we also have inequality (40) if $D = 0$.
 
-#### Corollary 3 (« Hadamard’s inequalities ») {#evt-v-s3-prop-6-cor-3 .statement}
+#### Corollary 3 (« Hadamard’s inequalities ») {#evt-v-s3-prop-6-cor-3 .statement tag=080U}
 
 — Let $(a_{ij})_{1 \leq i, j \leq n}$ be a matrix with complex elements, and with determinant D. Put
 

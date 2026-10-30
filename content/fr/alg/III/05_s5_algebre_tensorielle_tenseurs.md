@@ -37,7 +37,7 @@ subsections:
       pdf_page: 450
 statements: 14
 exercises: 10
-content_sha256: fd13539cf49475bfc3bf63278449cbc3b0ef56a7fcd21260f4b3ded73a2b487b
+content_sha256: 49f1da3b29baa092d6080e091090ecdbd2b55d188e0463c507fb932b90b1a0e6
 ---
 
 ## § 5. ALGÈBRE TENSORIELLE, TENSEURS
@@ -55,11 +55,11 @@ $$
 
 Il est immédiat que la multiplication ainsi définie sur $\mathbf{T}(M)$ est associative et admet pour élément unité l’élément unité 1 de $A = \mathbf{T}^0(M)$.
 
-#### Définition 1 {#alg-iii-s5-def-1 .statement}
+#### Définition 1 {#alg-iii-s5-def-1 .statement tag=061H}
 
 Pour tout module $M$ sur un anneau commutatif $A$, on appelle algèbre tensorielle de $M$, et on note $\mathbf{T}(M)$ ou Tens $(M)$ (ou $\mathbf{T}_A(M)$), l’algèbre $\bigoplus_{n \geq 0} \mathbf{T}^n(M)$ munie de la multiplication définie par (1). On appelle injection canonique de $M$ dans $\mathbf{T}(M)$ l’injection canonique $\varphi : \mathbf{T}^1(M) \to \mathbf{T}(M)$ (II, p. 12) (on écrit aussi $\varphi_M$).
 
-#### Proposition 1 {#alg-iii-s5-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s5-prop-1 .statement tag=061I}
 
 Soient $E$ une $A$-algèbre (unifère), $f : M \to E$ une application $A$-linéaire. Il existe un homomorphisme et un seul de $A$-algèbres $g : \mathbf{T}(M) \to E$ tel que $f = g \circ \varphi$.
 
@@ -75,7 +75,7 @@ g_n(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1) f(x_2) \cdots f(x_n).
 $$
 Définissons d’autre part l’application $g_0 : \mathbf{T}^0(M) \to E$ comme égale à $\eta_E$ (III, p. 6) autrement dit $g_0(\alpha) = \alpha e$ pour $\alpha \in A$. Soit $g$ l’unique application $A$-linéaire de $\mathbf{T}(M)$ dans $E$ dont la restriction à $\mathbf{T}^n(M)$ est $g_n$ ($n \geq 0$); il est immédiat que $g \circ \varphi = g_1 = f$, et il reste à vérifier que $g$ est un homomorphisme de $A$-algèbres. On a par construction $g(1) = e$, et il suffit, par linéarité, de voir que $g(uv) = g(u) g(v)$ pour $u \in \mathbf{T}^p(M)$ et $v \in \mathbf{T}^q(M)$ ($p > 0,\ q > 0$); or il résulte des formules (1) et (2) que cette relation est vraie lorsque $u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$ et $v = x_{p+1} \otimes \cdots \otimes x_{p+q}$ (où les $x_i$ appartiennent à $E$). Elle est donc vraie pour $u \in \mathbf{T}^p(M)$ et $v \in \mathbf{T}^q(M)$ par linéarité.
 
-#### Remarque {#alg-iii-s5-n1-rem-1 .statement}
+#### Remarque {#alg-iii-s5-n1-rem-1 .statement tag=061J}
 
 Supposons que $E$ soit une $A$-algèbre graduée de type $\mathbf{Z}$, de graduation $(E_n)$, et supposons en outre que l’on ait
 $$
@@ -85,7 +85,7 @@ Alors il résulte de (2) que $g(\mathbf{T}^p(M)) \subset E_p$ pour tout $p \geq 
 
 ### 2. Propriétés fonctorielles de l’algèbre tensorielle
 
-#### Proposition 2 {#alg-iii-s5-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s5-prop-2 .statement tag=061K}
 
 Soient $A$ un anneau commutatif, $M$ et $N$ deux $A$-modules, $u : M \to N$ une application A-linéaire. Il existe un homomorphisme de A-algèbres et un seul, $u': T(M) \to T(N)$, tel que le diagramme
 
@@ -125,7 +125,7 @@ T^n(u)(x_1 \otimes \cdots \otimes x_n) = u(x_1) \otimes \cdots \otimes u(x_n)
 $$
 puisque $T(u)$ est un homomorphisme d’algèbres et $T^1(u) = u$; la restriction $T^0(u)$ à A est l’application identique. On dit que $T^n(u) = u^{\otimes n}$ est la puissance tensorielle $n$-ème de $u$.
 
-#### Proposition 3 {#alg-iii-s5-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s5-prop-3 .statement tag=061L}
 
 Si $u : M \to N$ est une application A-linéaire surjective, l’homomorphisme $T(u) : T(M) \to T(N)$ est surjectif, et son noyau est l’idéal bilatère de $T(M)$ engendré par le noyau $P \subset M \subset T(M)$ de $u$.
 
@@ -133,7 +133,7 @@ En effet, $T^0(u) : T^0(M) \to T^0(N)$ est bijectif, et pour tout entier $n > 0$
 
 Si $u : M \to N$ est une application linéaire injective, il n’est pas toujours vrai que $T(u)$ soit une application injective (III, p. 184, exerc. 1). Toutefois, il en est ainsi lorsque $u$ est une injection telle que $u(M)$ soit un facteur direct de $N$, car alors il existe une application linéaire $v : N \to M$ telle que $v \circ u$ soit l’application identique de $M$, et par suite $T(v \circ u) = T(v) \circ T(u)$ est l’application identique de $T(M)$, donc $T(u)$ est injective et son image (isomorphe à $T(M)$) est facteur direct de $T(N)$ (II, p. 20, prop. 15). Plus précisément:
 
-#### Proposition 4 {#alg-iii-s5-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s5-prop-4 .statement tag=061M}
 
 *Soient $N$ et $P$ deux sous-modules d’un $A$-module $M$, tels que leur somme $N + P$ soit facteur direct dans $M$, et que leur intersection $N \cap P$ soit facteur direct dans $N$ et dans $P$. Alors les homomorphismes $T(N) \to T(M)$, $T(P) \to T(M)$ et $T(N \cap P) \to T(M)$ prolongements canoniques des injections canoniques, sont injectifs ; si l’on identifie $T(N)$, $T(P)$ et $T(N \cap P)$ à des sous-algèbres de $T(M)$ au moyen de ces homomorphismes, on a*
 
@@ -190,11 +190,11 @@ $$
 
 alors on a $x \in T(Q)$. Or, la définition de l’homomorphisme $s$ montre que sa restriction à $T(P' \oplus Q)$ (identifié à une sous-algèbre de $T(N' \oplus P' \oplus Q)$) est l’application identique; l’hypothèse sur $x$ entraîne donc que $s(u(x)) = x$. Mais alors on a aussi $v(r(x)) = x$, autrement dit $x$ appartient à l’image de $T(Q)$ dans $T(P' \oplus Q)$, ce qu’il fallait démontrer.
 
-#### Remarque {#alg-iii-s5-n2-rem-1 .statement}
+#### Remarque {#alg-iii-s5-n2-rem-1 .statement tag=061N}
 
 On notera en particulier que les hypothèses de la prop. 4 sont toujours vérifiées pour des sous-modules quelconques $N, P$ de $M$, lorsque $A$ est un corps (II, p. 98, prop. 4). En outre, si $N \subset P$ et $N \neq P$, on a alors $T^n(N) \neq T^n(P)$ pour tout $n \geqslant 1$, puisque si $R$ est un supplémentaire de $P$ dans $N$, on a $T^n(P) \cap T^n(R) = \{0\}$ en vertu de (4), et $T^n(R) \neq \{0\}$.
 
-#### Corollaire {#alg-iii-s5-n2-cor-1 .statement}
+#### Corollaire {#alg-iii-s5-n2-cor-1 .statement tag=061O}
 
 *Soient K un corps commutatif, M un espace vectoriel sur K. Pour tout élément $z \in T(M)$, il existe un plus petit sous-espace vectoriel N de M tel que $z \in T(N)$, et N est de rang fini sur K.*
 
@@ -222,7 +222,7 @@ $$
 T(v \circ u) = T(v) \circ T(u).
 $$
 
-#### Proposition 5 {#alg-iii-s5-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s5-prop-5 .statement tag=061P}
 
 *Soient A, B deux anneaux commutatifs, $\rho : A \to B$ un homomorphisme d’anneaux, M un A-module. Le prolongement canonique*
 
@@ -250,7 +250,7 @@ ce qui montre aussitôt que $\psi'$ est aussi un homomorphisme de B-algèbres. I
 
 Soient $(A_\alpha, \varphi_{\beta \alpha})$ un système inductif filtrant d’anneaux commutatifs, $(M_\alpha, f_{\beta \alpha})$ un système inductif de $A_\alpha$-modules (II, p. 90); soient $A = \lim \longrightarrow A_\alpha$, $M = \lim \longrightarrow M_\alpha$, qui est un A-module. Pour $\alpha \leq \beta$ on déduit canoniquement du $A_\alpha$-homomorphisme $f_{\beta \alpha} : M_\alpha \to M_\beta$ un homomorphisme de $A_\alpha$-algèbres (III, p. 60, formule (8)) $f'_{\beta \alpha} = T(f_{\beta \alpha}) : T_{A_\alpha}(M_\alpha) \to T_{A_\beta}(M_\beta)$, et il résulte de (9) (III, p. 60) que $(T_{A_\alpha}(M_\alpha), f'_{\beta \alpha})$ est un système inductif de $A_\alpha$-algèbres. Soit d’autre part $f_\alpha : M_\alpha \to M$ le $A_\alpha$-homomorphisme canonique; on en déduit (III, p. 60, formule (8)) un homomorphisme de $A_\alpha$-algèbres, $f'_\alpha : T_{A_\alpha}(M_\alpha) \to T_A(M)$, et il résulte encore de (9) (III, p. 60) que les $f'_\alpha$ constituent un système inductif de $A_\alpha$-homomorphismes.
 
-#### Proposition 6 {#alg-iii-s5-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s5-prop-6 .statement tag=061Q}
 
 *Le A-homomorphisme* $f' = \varprojlim f'_\alpha : \varprojlim T_{A_\alpha}(M_\alpha) \to T_A(M)$ *est un isomorphisme d’algèbres graduées*.
 
@@ -291,7 +291,7 @@ où $n$ parcourt $\mathbf{N}$, et, pour chaque $n$, $(\lambda_i)$ parcourt $L^n$
 
 On en déduit d’abord la conséquence suivante:
 
-#### Théorème 1 {#alg-iii-s5-thm-1 .statement}
+#### Théorème 1 {#alg-iii-s5-thm-1 .statement tag=061R}
 
 Soient $A$ un anneau commutatif, $M$ un $A$-module libre, $(e_\lambda)_{\lambda \in L}$ une base de $M$. Alors les éléments $e_s = e_{\lambda_1} \otimes e_{\lambda_2} \otimes \cdots \otimes e_{\lambda_n}$, où $s = (\lambda_1 \ldots, \lambda_n)$ parcourt l’ensemble de toutes les suites finies d’éléments de $L$, et où on convient que $e_\varnothing$ est l’élément unité de $\mathscr{T}(M)$, forment une base du $A$-module $\mathscr{T}(M)$.
 
@@ -305,17 +305,17 @@ en notant $st$ la suite d’éléments de $L$ obtenue par juxtaposition des suit
 
 On voit que la base $(e_s)$ de $\mathscr{T}(M)$, munie de la loi multiplicative (10), est canoniquement isomorphe au monoïde libre construit sur l’ensemble $L$ (I, p. 79), l’isomorphisme s’obtenant en faisant correspondre à chaque mot $s$ de ce monoïde l’élément $e_s$. On en conclut (III, p. 22) que l’algèbre tensorielle $\mathscr{T}(M)$ d’un module libre $M$ muni d’une base dont $L$ est l’ensemble d’indices, est canoniquement isomorphe à l’algèbre associative libre de $L$ sur $A$. En particulier (III, p. 22, prop. 7) pour toute application $f : L \to E$ de $L$ dans une $A$-algèbre $E$, il existe un homomorphisme $\tilde{f} : \mathscr{T}(M) \to E$ de $A$-algèbres et un seul tel que $\tilde{f}(e_\lambda) = f(\lambda)$.
 
-#### Remarque {#alg-iii-s5-n5-rem-1 .statement}
+#### Remarque {#alg-iii-s5-n5-rem-1 .statement tag=061S}
 
 Les résultats précédents peuvent également s’obtenir comme conséquence des propriétés universelles de l’algèbre associative libre et de l’algèbre tensorielle, compte tenu de (II, p. 62, cor. 2).
 
-#### Corollaire {#alg-iii-s5-n5-cor-1 .statement}
+#### Corollaire {#alg-iii-s5-n5-cor-1 .statement tag=061T}
 
 Si $M$ est un $A$-module projectif, $\mathscr{T}(M)$ est un $A$-module projectif.
 
 En effet, $M$ est facteur direct d’un $A$-module libre $N$ (II, p. 39, prop. 4), donc $\mathscr{T}(M)$ est facteur direct de $\mathscr{T}(N)$ (III, p. 58); comme $\mathscr{T}(N)$ est libre (th. 1), cela montre que $\mathscr{T}(M)$ est projectif (II, p. 39).
 
-#### Proposition 7 {#alg-iii-s5-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s5-prop-7 .statement tag=061U}
 
 Soient $\Delta$ un monoïde commutatif, $M$ un $A$-module gradué de type $\Delta$, $(M_\alpha)_{\alpha \in \Delta}$ sa graduation. Pour tout couple $(\alpha, n) \in \Delta \times \mathbf{N}$, soit $\mathscr{T}^{\alpha, n}(M)$ la somme (directe) des sous-modules $M_{\alpha_1} \otimes M_{\alpha_2} \otimes \cdots \otimes M_{\alpha_n}$ de $\mathscr{T}^n(M)$ tels que
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 24
 statements: 7
 exercises: 7
-content_sha256: ec8eea6d930f3758e5415ab8701212ba69b5e375abdfa50de29daa3eeaae7951
+content_sha256: e122c6b77c1c3a3f195f1e5d14b8ed8bb246e933209f2cbcd2975f972a3111ae
 ---
 
 ## 1. DIAGRAMS AND EXACT SEQUENCES
@@ -91,7 +91,7 @@ In what follows we shall leave the reader to verify analogous results for other 
 
 Recall the following definition (Algebra, Chapter II, § 1, no. 4):
 
-#### Definition 1 {#ac-i-s1-def-1 .statement}
+#### Definition 1 {#ac-i-s1-def-1 .statement tag=0421}
 
 Let $A$ be a ring, $F, G, H$ three right (resp. left) $A$-modules, $f$ a homomorphism of $F$ to $G$ and $g$ a homomorphism of $G$ to $H$. The ordered pair $(f, g)$ is called an exact sequence if $\overline{g}^{-1}(0) = f(F)$, that is if the kernel of $g$ is equal to the image of $f$.
 
@@ -157,7 +157,7 @@ Recall finally that iff: $E \to F$ is an A-module homomorphism, we set $\operato
 
 ### 4. THE SNAKE DIAGRAM
 
-#### Proposition 1 {#ac-i-s1-prop-1 .statement}
+#### Proposition 1 {#ac-i-s1-prop-1 .statement tag=0422}
 
 Consider a commutative diagram of commutative groups:
 $$
@@ -194,7 +194,7 @@ $$
 
 Conversely, let $x \in \operatorname{Ker}(v' \circ b)$. Then $b(x) \in \operatorname{Ker}(v')$ and there exists $y' \in A'$ such that $u'(y') = b(x)$, since the sequence $(u', v')$ is exact. As a is surjective, there exists $y \in A$ such that $a(y) = y'$, whence $b(x) = u'(a(y)) = b(u(y))$; it follows that $x - u(y) \in \operatorname{Ker}(b)$, which completes the proof.
 
-#### Lemma 1 {#ac-i-s1-lem-1 .statement}
+#### Lemma 1 {#ac-i-s1-lem-1 .statement tag=0423}
 
 Consider a commutative diagram of commutative groups:
 
@@ -246,7 +246,7 @@ $$
 
 where $i, j, k$ are the canonical injections, $p, q, r$ the canonical surjections and $u_1, u_2$ (resp. $v_1, v_2$) the homomorphisms canonically associated with $u, u'$ (resp. $v, u'$) by Lemma 1. It is immediately verified that this diagram is commutative.
 
-#### Proposition 2 {#ac-i-s1-prop-2 .statement}
+#### Proposition 2 {#ac-i-s1-prop-2 .statement tag=0424}
 
 *Suppose that in the commutative diagram (10) the sequences $(u, v)$ and $(u', u')$ are exact. Then:*
 
@@ -298,11 +298,11 @@ and hence $u_2 \circ d = 0$. Conversely, suppose that an element $w = p(t')$ of 
 
 Coker(a). It has been seen in (i) that it is exact at Ker(b) and in (ii) it is exact at Coker(b), which completes the proof of (iii).
 
-#### Remark {#ac-i-s1-n4-rem-1 .statement}
+#### Remark {#ac-i-s1-n4-rem-1 .statement tag=0425}
 
 If the groups of the diagram (10) are all (for example, right) modules over a ring $A$ and the homomorphisms are A-module homomorphisms, it is soon verified that the homomorphism d defined in Proposition 2, (iii) is also a A-module homomorphism: if $x \in \mathrm{Ker}(c)$ and $a \in A$, and $y \in B$ is such that $v(y) = k(x)$, it is sufficient to note that $v(ya) = k(xa)$.
 
-#### Corollary 1 {#ac-i-s1-prop-2-cor-1 .statement}
+#### Corollary 1 {#ac-i-s1-prop-2-cor-1 .statement tag=0426}
 
 Suppose that the diagram (10) is commutative and the two rows are exact. Then:
 
@@ -313,7 +313,7 @@ Assertion (i) is a consequence of assertion (i) of Proposition 2: for $\mathrm{K
 
 Assertion (ii) is a consequence of assertion (ii) of Proposition 2: for $\mathrm{Coker}(a) = 0$ and $\mathrm{Coker}(c) = 0$, hence $\mathrm{Coker}(b) = 0$.
 
-#### Corollary 2 {#ac-i-s1-prop-2-cor-2 .statement}
+#### Corollary 2 {#ac-i-s1-prop-2-cor-2 .statement tag=0427}
 
 Suppose that the diagram (10) is commutative and the two rows are exact. Under these conditions:
 

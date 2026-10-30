@@ -53,7 +53,7 @@ subsections:
       pdf_page: 507
 statements: 41
 exercises: 32
-content_sha256: beefcc0a3a381ee3fcb19def06fa1b1302bf69756b0875f2b2daa308f923c44a
+content_sha256: e689aef9ad1ab87faaf0da4340655fb0501ed1411399e39fa15b9217c3c166bf
 translated_from: content/en/ac/VII/01_s1_krull_domains.md
 source_content_sha256: 9bef6d28f362c12836cf4563473a98aa78f886c75e3bc526c03329214a3be918
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -67,7 +67,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC IĐÊAN PHÂN THỨC CỦA MỘT MIỀN NGUYÊN
 
-#### Định nghĩa 1 {#ac-vii-s1-def-1 .statement}
+#### Định nghĩa 1 {#ac-vii-s1-def-1 .statement tag=04YL}
 
 Cho $A$ là một miền nguyên và $K$ là trường các phân thức của nó. Mọi A-môđun con $a$ của $K$ sao cho tồn tại một phần tử $d \neq 0$ trong $A$ mà $da \subset A$ được gọi là một iđêan phân thức $\mathfrak{d}$ của $A$ (hoặc của $K$, do lạm dụng ngôn ngữ).
 
@@ -77,7 +77,7 @@ Ta ký hiệu bởi $I(A)$ tập hợp các iđêan phân thức khác không c�
 
 Với mọi $a \in I(A)$, theo giả thiết tồn tại một $d \neq 0$ nào đó trong A sao cho $a \subset Ad - 1$; giao $\tilde{a}$ của các iđêan chính phân chứa a do đó là một phần tử của I(A). Hiển nhiên quan hệ $a \prec b$ tương đương với quan hệ $\tilde{a} \supset 6$; do đó quan hệ $a \supset b$ kéo theo $a \prec b$. Để hai phần tử $a, b$ của I(A) tương đương modulo R, điều kiện cần và đủ là $\tilde{a} = 6$.
 
-#### Định nghĩa 2 {#ac-vii-s1-def-2 .statement}
+#### Định nghĩa 2 {#ac-vii-s1-def-2 .statement tag=04YM}
 
 *Mỗi phần tử a của I(A) sao cho $a = \tilde{a}$ được gọi là một iđêan phân kiểu chia của A.*
 
@@ -91,7 +91,7 @@ $$
 (1) \quad b : a = \bigcap_{x \in a, x \neq 0} b x^{-1}.
 $$
 
-#### Mệnh đề 1 {#ac-vii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vii-s1-prop-1 .statement tag=04YN}
 
 (a) *Nếu b là một iđêan kiểu chia và $a \in I(A)$, $b : a$ là kiểu chia.*
 
@@ -110,11 +110,11 @@ $$
 Do đó $A : a = A : (A : (A : a))$ và suy ra từ (b) rằng $\operatorname{div} a = \operatorname{div}(A : (A : a))$
 Vì $A : (A : a)$ là chia được theo (a), chắc chắn $6 = A : (A : a)$, điều này chứng minh (c).
 
-#### Nhận xét {#ac-vii-s1-n1-rem-1 .statement}
+#### Nhận xét {#ac-vii-s1-n1-rem-1 .statement tag=04YO}
 
 Trong quá trình chứng minh ở trên, ta đã chứng minh rằng $A : a = A : (A : (A : a))$ đối với mọi iđêan $a \in I(A)$, đây là một trường hợp đặc biệt của *Lý thuyết tập hợp*, Chương 111, § 1, no. 5, Mệnh đề 2.
 
-#### Mệnh đề 2 {#ac-vii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vii-s1-prop-2 .statement tag=04YP}
 
 (i) *Trong $D(A)$ mọi tập hợp khác rỗng bị chặn trên đều có một cận trên nhỏ nhất. Chính xác hơn, nếu $(a_i)$ là một họ khác rỗng các phần tử của $I(A)$ bị chặn trên, thì*
 $$
@@ -132,7 +132,7 @@ Bây giờ cho $(6_i)$ là một họ khác rỗng các phần tử của $I(A)$
 
 Cuối cùng, để chứng minh (iii) chỉ cần theo (i) và (ii) chứng minh rằng, nếu $a, b$ thuộc $I(A)$, tập hợp $\{a, b\}$ bị chặn cả trên lẫn dưới trong $I(A)$; bây giờ nó bị chặn trên bởi $a \cap b$ (phân biệt với $(0)$). Nó bị chặn dưới bởi $a + b$, vì $a + b \in I(A)$: nếu $d$ và $d'$ là các phần tử khác không của $A$ sao cho $da \subset A$ và $d'b \subset A$, thì $dd'(a + b) \subset A$.
 
-#### Hệ quả {#ac-vii-s1-n1-cor-1 .statement}
+#### Hệ quả {#ac-vii-s1-n1-cor-1 .statement tag=04YQ}
 
 *Nếu $x, y$ và $x + y$ thuộc $K^*$, thì $\operatorname{div}(x + y) \geq \inf(\operatorname{div}(x), \operatorname{div}(y))$.*
 
@@ -140,7 +140,7 @@ $A(x + y) \subset Ax + Ay$ và do đó $\operatorname{div}(x + y) \geq \operator
 
 ### 2. CẤU TRÚC MONÔĐ TRÊN D(A)
 
-#### Mệnh đề 3 {#ac-vii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vii-s1-prop-3 .statement tag=04YR}
 
 Cho $a, a', b, b'$ là các phần tử của $I(A)$. Các quan hệ $a > a'$ và $b > b'$ kéo theo $ab > a'b'$.
 
@@ -167,7 +167,7 @@ $$
 
 do đó là một quan hệ tương đương vì quan hệ $P = Q + \text{div}(x)$ tương đương với $Q = P + \text{div}(x^{-1})$; nếu $P$ và $Q$ đồng dư theo môđun $S$, chúng được gọi là các ước tương đương của $A$. Hơn nữa, rõ ràng quan hệ $S$ tương thích với luật của nửa nhóm $D(A)$ và do đó nửa nhóm sau xác định, bằng cách lấy thương, một cấu trúc nửa nhóm trên $D(A)/S$; nửa nhóm này được gọi là *nửa nhóm lớp ước của A*.
 
-#### Mệnh đề 4 {#ac-vii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vii-s1-prop-4 .statement tag=04YS}
 
 Cho $a, b$ là hai iđêan phân thức chia của $A$. Các tính chất sau là tương đương:
 (a) $\text{div } a$ và $\text{div } b$ là các ước tương đương;
@@ -177,7 +177,7 @@ Nếu $\operatorname{div} b = \operatorname{div} a + \operatorname{div}(x)$ vớ
 
 Cho $a$ là một iđêan phân số khả nghịch (Chương II, § 5, no. 6); khi đó $a = A : (A : a)$ (*loc. cit.*, Mệnh đề 10) và do đó $a$ là *chia được* (no. 1, Mệnh đề 1). Nhóm $J(A)$ của các iđêan phân số khả nghịch do đó được đồng nhất với một nhóm con của monôit $D(A)$ và ảnh chính tắc của $J(A)$ trong $D(A)/S$ với nhóm các lớp của các $A$-môđun *xạ ảnh* có *hạng* 1 (Chương II, § 5, no. 7, Hệ quả 2 của Mệnh đề 12 và *Nhận xét* 1).
 
-#### Định lý 1 {#ac-vii-s1-thm-1 .statement}
+#### Định lý 1 {#ac-vii-s1-thm-1 .statement tag=04YT}
 
 *Cho $A$ là một miền nguyên. Để monôit $D(A)$ của các ước của $A$ là một nhóm, điều kiện cần và đủ là $A$ được đóng nguyên hoàn toàn.*
 
@@ -187,7 +187,7 @@ Ngược lại, giả sử rằng $A$ được đóng nguyên hoàn toàn. Cho $
 
 Chú ý rằng, nếu $A$ được đóng nguyên hoàn toàn (và thậm chí Noether), một iđêan chia được của $A$ không nhất thiết khả nghịch, nói cách khác, nói chung $J(A) \neq D(A)$ (Bài tập 2 và § 3, no. 2, Mệnh đề 1).
 
-#### Hệ quả {#ac-vii-s1-n2-cor-1 .statement}
+#### Hệ quả {#ac-vii-s1-n2-cor-1 .statement tag=04YU}
 
 *Cho $A$ là một miền nguyên đóng hoàn toàn và $a$ là một iđêan phân thức chia được của $A$. Khi đó, với mọi iđêan phân thức $b \neq 0$ của $A$, $\operatorname{div}(a : b) = \operatorname{div} a - \operatorname{div} b$*
 
@@ -206,7 +206,7 @@ $$
 
 ### 3. MIỀN KRULL
 
-#### Định nghĩa 3 {#ac-vii-s1-def-3 .statement}
+#### Định nghĩa 3 {#ac-vii-s1-def-3 .statement tag=04YV}
 
 Một miền nguyên $A$ được gọi là một miền Krull nếu tồn tại một họ $(v_i)_{i \in I}$ các định giá trên trường phân thức $K$ của $A$ với các tính chất sau:
 (AK,) các định giá $v_i$ là rời rạc;
@@ -221,7 +221,7 @@ Ví dụ
 (3) Cho $F$ là một trường và $(R_i)_{1 \leq i \leq n}$ là một họ hữu hạn các vành con của $F$ mà đều là các miền Krull. Khi đó giao của chúng $S = \bigcap_{j=1}^n R_j$, là một miền Krull. Với $1 \leq j \leq n$, cho $(v_{j,t})_{t \in I_j}$ là một họ các định giá trên trường phân thức của $R_j$, thỏa mãn (AK$_I$), (AK$_{II}$), (AK$_{III}$) (ở đó $A$ được thay bằng $R_j$). Ký hiệu $w_{j,t}$ là hạn chế của $v_{j,t}$ lên trường phân thức của $S$. Khi đó họ $(v_{j,t})_{1 \leq j \leq n, t \in I_j}$ hiển nhiên thỏa mãn (AK$_{II}$) (ở đó $A$ được thay bằng $S$) và cả (AK$_{III}$) vì tập hợp các chỉ số$j$ là hữu hạn. Các định giá $w_{j,t}$ hoặc là rời rạc, hoặc là không chính quy. Chỉ giữ lại những định giá nào là rời rạc, ta thu được một họ hiển nhiên thỏa mãn (AK$_I$), (AK$_{II}$) và (AK$_{,,}$) (ở đó $A$ được thay bằng $S$). Do đó chắc chắn $S$ là một miền Krull.
 (4) Đặc biệt, nếu $A$ là một miền Krull và $K'$ là một trường con của trường phân thức $K$ của $A$, thì $K' \cap A$ là một miền Krull.
 
-#### Định lý 2 {#ac-vii-s1-thm-2 .statement}
+#### Định lý 2 {#ac-vii-s1-thm-2 .statement tag=04YW}
 
 Cho $A$ là một miền nguyên. Để $A$ là một miền Krull, điều kiện cần và đủ là hai điều kiện sau được thỏa mãn:
 (a) $A$ là nguyên đóng hoàn toàn;
@@ -254,7 +254,7 @@ Tồn tại $x, y$ trong $K^*$ sao cho $Ax \subset a \subset Ay$. Theo các tín
 
 Do đó ta đã chứng minh bổ đề sau:
 
-#### Bổ đề 1 {#ac-vii-s1-lem-1 .statement}
+#### Bổ đề 1 {#ac-vii-s1-lem-1 .statement tag=04YX}
 
 *Nếu $A$ là một miền Krull và $(v_t)_t$, là một họ các định giá chuẩn hóa trên $K$ thỏa mãn (AK, ), (AK,,) và (AK$_{III}$), ánh xạ $a \mapsto (v_t(a))_{t \in I}$ là một ánh xạ đơn ánh giảm từ tập hợp các iđêan nguyên chia được của $A$ (có thứ tự bởi $\subset$) vào tập hợp các phần tử dương & nhóm có thứ tự là tổng trực tiếp $\mathbf{Z}^{(I)}$.*
 
@@ -284,7 +284,7 @@ $$
 
 với $x, y$ và $x + y$ thuộc $K^*$, ta suy ra rằng các $v_P$ là những *định giá rời rạc* trên $K$. Để có $x \in A$, điều kiện cần và đủ là $\text{div}(x) \geq 0$, nghĩa là $v_P(x) \geq 0$ với mọi $P \in P(A)$. Do đó các $v_P$ thỏa mãn các điều kiện (AK$_1$) và (AK$_{11}$), và hiển nhiên cũng thỏa mãn (AK$_{III}$).
 
-#### Hệ quả {#ac-vii-s1-n3-cor-1 .statement}
+#### Hệ quả {#ac-vii-s1-n3-cor-1 .statement tag=04YY}
 
 *Điều kiện cần và đủ để một vành Noether là một miền Krull là nó là một miền nguyên đóng.*
 
@@ -298,37 +298,37 @@ Cho $A$ là một miền Krull và $K$ là trường phân thức của nó. Cá
 
 Ta đã nhận xét trong quá trình chứng minh Định lý 2 rằng các định giá $v_P$ thỏa mãn các tính chất (AK$_1$), (AK$_2$) và (AK$_{III}$) của Định nghĩa 3. Hơn nữa, các định giá rời rạc $v_P$ này là *được chuẩn hóa*: với mọi ước cực biên $P \in P(A)$, ta có $P < 2P$ và vì thế, nếu $a$ và $b$ là các iđêan ước tương ứng với $P$ và $2P$, thì $a \supseteq b$ và $a \neq b$; với $x \in a - b$, $\text{div}(x) \geq P$ và $\text{div}(x) \not\geq 2P$, do đó $v_P(x) = 1$, điều này chứng minh mệnh đề của ta.
 
-#### Mệnh đề 5 {#ac-vii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#ac-vii-s1-prop-5 .statement tag=04YZ}
 
 *Cho $A$ là một miền Krull, $K$ là trường phân thức của nó và $(v_P)_{P \in P(A)}$ là họ các định giá cốt yếu của nó. Cho $(n_P)_{P \in P(A)}$ là một họ các số nguyên, bằng không trừ đối với một số hữu hạn chỉ số. Khi đó tập hợp các $x \in K$ sao cho $v_P(x) \geq n_P$ với mọi $P \in P(A)$ là iđêan ước $a$ của $A$ sao cho $\text{div } a = \sum_{P \in P(A)} n_P \cdot P$.*
 
 Cho $x \in K^*$. Để có $x \in a$, điều cần và đủ là $Ax \subset a$, do đó là $\text{div}(x) \geq \text{div } a$ và vì thế, theo (4), là $v_P(x) \geq n_P$ với mọi $P \in P(A)$.
 
-#### Mệnh đề 6 {#ac-vii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#ac-vii-s1-prop-6 .statement tag=04Z0}
 
 Cho $A$ là một miền Krull, $K$ là trường phân thức của nó, $(v_t)_{t \in I}$ là một họ các định giá trên $K$ có các tính chất của Định nghĩa 3 và $A$, vành của các $v_t$. Cho $S$ là một tập con nhân của $A$ không chứa $0$ và $J$ là tập hợp các chỉ số $t \in I$ sao cho $v_t$ bằng không trên $S$. Khi đó $S^{-1}A = \bigcap_{t \in J} A_t$; đặc biệt $S^{-1}A$ là một miền Krull.
 
 Đặt $B = \bigcap_{t \in J} A_t$. Khi đó $S^{-1} \subset B$ và $A \subset B$ và vì thế $S^{-1}A \subset B$. Ngược lại, cho $x \in B$. Gọi $J'$ là tập hợp hữu hạn các chỉ số $t$ sao cho $v_t(x) < 0$. Nếu $t \in J'$, thì $x \notin A_t$, do đó $t \notin J$ và vì thế tồn tại $s_t \in S$ sao cho $v_t(s_t) > 0$. Cho $n(t)$ là một số nguyên $> 0$ sao cho $v_t(s_t^{n(t)}x) \geq 0$; đặt $s = \prod_{t \in J'} s_t^{n(t)}$. Khi đó $v_t(sx) \geq 0$ với mọi $t \in I$ và vì thế $sx \in A$ và $x \in S^{-1}A$. Vậy $B = S^{-1}A$.
 
-#### Hệ quả 1 {#ac-vii-s1-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#ac-vii-s1-prop-6-cor-1 .statement tag=04Z1}
 
 Cho $P$ là một ước cực biên của $A$ và $p$ là iđêan ước tương ứng. Khi đó $p$ là nguyên tố, vành của $v_P$ là $A$, và trường thặng dư của $v_P$ được đồng nhất với trường phân thức của $A/p$.
 
 Đặt $S = A - p$. Theo Mệnh đề 5, $v_P$ bằng không trên $S$ và $> 0$ trên $p$. Do đó $p$ là giao của $A$ và iđêan của $v_P$ nên là nguyên tố. Mặt khác, với mọi ước cực biên $Q \neq P$, ta có $Q \not\subset P$ và do đó iđêan ước $q$ tương ứng với $Q$ không được chứa trong $p$; vì thế $q \cap S \neq \varnothing$ và suy ra, theo Mệnh đề 5, $v_Q$ không bằng không trên $S$. Như vậy, hệ quả suy ra từ Mệnh đề 6 và Chương II, § 3, no. 1, Mệnh đề 3.
 
-#### Hệ quả 2 {#ac-vii-s1-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#ac-vii-s1-prop-6-cor-2 .statement tag=04Z2}
 
 Cho $A$ là một miền Krull, $K$ là trường phân thức của nó và $(v_t)_{t \in I}$ là một họ các định giá có các tính chất của Định nghĩa 3. Khi đó mọi định giá cốt yếu của $A$ đều tương đương với một trong các $v_t$.
 
 Cho $P$ là một ước cực biên của $A$ và $p$ là iđêan ước tương ứng. Theo Hệ quả 1, Mệnh đề 5, Bổ đề 1 và mệnh đề (1) trong chứng minh của Định lý 2, no. 3, tồn tại $t \in I$ sao cho vành $A_t$ của $v_t$ chứa vành $A$ của $v_P$. Vì $v_t$ và $v_P$ có chiều cao 1, nên chúng tương đương với nhau (Chương VI, § 4, no. 5, Mệnh đề 6).
 
-#### Mệnh đề 7 {#ac-vii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#ac-vii-s1-prop-7 .statement tag=04Z3}
 
 Cho $A$ là một miền Krull, $(v_P)_{P \in P(A)}$ là họ các định giá cốt yếu của nó và $a \in I(A)$. Khi đó hệ số của $P$ trong $\operatorname{div} a$ là $\inf_{y \in a} (v_P(y))$. Nếu $p$ là iđêan nguyên tố ước tương ứng với ước cực biên $P$, thì $aA_p = \tilde{a}A_p$.
 
 Vì $a = \sum_{y \in a} Ax$, Mệnh đề 2 (b) (no. 1) cho thấy rằng $\operatorname{div}(a) = \inf_{x \in a} (\operatorname{div}(Ax))$, do đó có mệnh đề thứ nhất của chúng ta. Mệnh đề thứ hai suy ra ngay lập tức, vì $\operatorname{div} \tilde{a} = \operatorname{div} a$ và $A_p$ là vành của định giá rời rạc $v_P$.
 
-#### Mệnh đề 8 {#ac-vii-s1-prop-8 .statement}
+#### Mệnh đề 8 {#ac-vii-s1-prop-8 .statement tag=04Z4}
 
 Cho $A$ là một miền Noether đóng nguyên.
 (a) Cho $P$ là một ước cực biên của $A$ và $p$ là iđêan nguyên tố ước tương ứng;
@@ -343,13 +343,13 @@ Theo Hệ quả 1 của Mệnh đề 6, quan hệ $x \in p^n A_p = (pA_p)^n$ tư
 
 Vì các định giá cốt yếu của một miền Krull là rời rạc và được chuẩn hóa, không có hai định giá nào trong chúng là tương đương và do đó chúng độc lập (Chương VI, § 7, no. 2). Bởi vậy có thể áp dụng Hệ quả 2 của định lý xấp xỉ (loc. cit., Định lý 1) cho chúng: cho các $n_i \in \mathbf{Z}$ và các định giá cốt yếu $v_i$ hữu hạn về số lượng và phân biệt, tồn tại $x \in K$ sao cho $v_i(x) = n_i$ với mọi $i$. Nhưng ở đây có một kết quả chính xác hơn:
 
-#### Mệnh đề 9 {#ac-vii-s1-prop-9 .statement}
+#### Mệnh đề 9 {#ac-vii-s1-prop-9 .statement tag=04Z5}
 
 Cho $v_1, \ldots, v_r$ là những định giá cốt yếu phân biệt của một miền Krull $A$ và $n_1, \ldots, n_r$ là các số nguyên hữu tỉ. Tồn tại một phần tử $x$ của trường phân thức $K$ của $A$ sao cho $v_i(x) = n_i$ với $1 \leq i \leq r$ và $v(x) \geq 0$ đối với mọi định giá cốt yếu $v$ của $A$ khác $v_1, \ldots, v_r$.
 
 Cho $p_1, \ldots, p_r$ là các iđêan chia được của $A$ tương ứng với các định giá $v_1, \ldots, v_r$. Tồn tại $y \in K$ sao cho $v_i(y) = n_i$ với $1 \leq i \leq r$ (Chương VI, § 7, no. 2, Hệ quả 1 của Định lý 1). Các định giá cốt yếu $w_1, \ldots, w_s$ của $A$ phân biệt với các $v_i$ mà với chúng số nguyên $w_j(y) = -m_j$ là $< 0$ chỉ có hữu hạn; gọi $q_1, \ldots, q_s$ là các iđêan tương ứng. Không tồn tại quan hệ bao hàm nào giữa $p_1, \ldots, p_r, q_1, \ldots, q_s$ vì các iđêan này tương ứng với các ước cực biên và các iđêan này là nguyên tố (Hệ quả 1 của Mệnh đề 6). Do đó iđêan nguyên $a = q_1^{m_1} \ldots q_s^{m_s}$ không được chứa trong iđêan nào trong các $p_i$ (Chương 11, § 1, no. 1, Mệnh đề 1) và vì vậy không được chứa trong hợp của chúng (loc. cit., Mệnh đề 2). Vậy tồn tại $z \in a$ sao cho $z \notin p_i$ với $1 \leq i \leq r$; khi đó $v_1(z) = \cdots = v_r(z) = 0$ và $w_j(z) \geq m_j$ với $1 \leq j \leq s$; do đó phần tử $x = yz$ giải bài toán.
 
-#### Hệ quả 1 {#ac-vii-s1-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#ac-vii-s1-prop-9-cor-1 .statement tag=04Z6}
 
 Cho $\mathbf{A}$ là một miền Krull, $\mathbf{K}$ trường phân thức của nó và $\mathbf{a}, \mathbf{b}$ và $c$ là ba iđêan phân thức chia được của $\mathbf{A}$ sao cho $\mathbf{a} \subset \mathbf{b}$. Tồn tại $x \in \mathbf{K}$ sao cho $\mathbf{a} = \mathbf{b} \cap x\mathbf{c}$.
 
@@ -359,7 +359,7 @@ v_t(x^{-1}) + m_t \geq p_t
 $$
 với $t \in I - \mathbf{J}$. Khi đó, với mọi $t \in I$, $m_t = \sup(n_t, v_t(x) + p_t)$. Do đó $\mathbf{a} = \mathbf{b} \cap x\mathbf{c}$.
 
-#### Hệ quả 2 {#ac-vii-s1-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#ac-vii-s1-prop-9-cor-2 .statement tag=04Z7}
 
 Cho $\mathbf{A}$ là một miền Krull. Để một iđêan phân thức $\mathbf{a}$ của $\mathbf{A}$ là chia được, điều kiện cần và đủ là nó là giao của hai iđêan chính phân thức.
 
@@ -367,7 +367,7 @@ Tính đủ là hiển nhiên (no. 1, Định nghĩa 2). Tính cần suy ra từ
 
 ### 6. CÁC IĐÊAN NGUYÊN TỐ CÓ CHIỀU CAO 1 TRONG MỘT MIỀN KRULL
 
-#### Định nghĩa 4 {#ac-vii-s1-def-4 .statement}
+#### Định nghĩa 4 {#ac-vii-s1-def-4 .statement tag=04Z8}
 
 Cho $\mathbf{A}$ là một miền nguyên. Một iđêan nguyên tố $\mathfrak{p}$ của $\mathbf{A}$ được gọi là có chiều cao 1 nếu nó là cực tiểu trong các iđêan nguyên tố khác không của $\mathbf{A}$.
 
@@ -375,25 +375,25 @@ Ta cũng sẽ nói rằng iđêan $(0)$ có chiều cao 0; do đó, theo định
 
 Dưới đây ta sẽ định nghĩa, theo một cách tổng quát, chiều cao của một iđêan nguyên tố.
 
-#### Định lý 3 {#ac-vii-s1-thm-3 .statement}
+#### Định lý 3 {#ac-vii-s1-thm-3 .statement tag=04Z9}
 
 Cho $\mathbf{A}$ là một miền Krull và $\mathfrak{p}$ là một iđêan nguyên của $\mathbf{A}$. Để $\mathfrak{p}$ là iđêan ước tương ứng với một ước cực biên, điều kiện cần và đủ là $\mathfrak{p}$ là một iđêan nguyên tố có chiều cao 1.
 
 Nếu $\mathfrak{p}$ là iđêan ước tương ứng với một ước cực biên, ta biết (no. 4, Hệ quả 1 của Mệnh đề 6) rằng $\mathfrak{p}$ là nguyên tố và rằng $\mathbf{A}_\mathfrak{p}$ là một vành định giá rời rạc; vì $\mathbf{A}_\mathfrak{p}$ không có iđêan nguyên tố nào khác ngoài $(0)$ và $\mathfrak{p}\mathbf{A}_\mathfrak{p}$, nên $(0)$ và $\mathfrak{p}$ là các iđêan nguyên tố duy nhất của $\mathbf{A}$ được chứa trong $\mathfrak{p}$ (Chương II, § 3, no. 1, Mệnh đề 3); do đó $\mathfrak{p}$ có chiều cao 1. Ngược lại, trước hết ta sẽ chỉ ra rằng mọi iđêan nguyên tố $\mathfrak{p} \neq (0)$ của $\mathbf{A}$ đều chứa một iđêan nguyên tố ước $\mathfrak{q}$ tương ứng với một ước cực biên: thật vậy, vì $\mathbf{A}_\mathfrak{p} \neq K$, $\mathbf{A}_\mathfrak{p}$ là giao của một họ không rỗng $(\mathbf{A}_t)$ các vành định giá cốt yếu (no. 4, Mệnh đề 6); mỗi $\mathbf{A}_t$ có dạng $\mathbf{A}_{\mathfrak{q}_t}$ (no. 4, Hệ quả 1 của Mệnh đề 6) và từ $\mathbf{A}_\mathfrak{p} \subset \mathbf{A}_{\mathfrak{q}_t}$ ta suy ra rằng $\mathfrak{q}_t \subset \mathfrak{p}$. Vậy nếu $\mathfrak{p}$ có chiều cao 1, thì $\mathfrak{p} = \mathfrak{q}$, điều đó cho thấy rằng $\mathfrak{p}$ là iđêan ước tương ứng với một ước cực biên.
 
-#### Hệ quả 1 {#ac-vii-s1-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-vii-s1-thm-3-cor-1 .statement tag=04ZA}
 
 Trong một miền Krull, mọi iđêan nguyên tố khác không m đều chứa một iđêan nguyên tố có chiều cao 1. Nếu m không có chiều cao 1, thì div m = 0 và A : m = A.
 
 Mệnh đề thứ nhất đã được thấy trong quá trình chứng minh Định lý 3. Nếu m không có chiều cao 1 và p là một iđêan nguyên tố có chiều cao 1 được chứa trong m, thì p ⊂ m̃ và p ≠ m̃; vì div p là cực biên, tất yếu div m = div m̃ = 0; do đó div(A : m) = 0 và, vì A : m là ước (no. 1, Mệnh đề 1), A : m = A.
 
-#### Hệ quả 2 {#ac-vii-s1-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-vii-s1-thm-3-cor-2 .statement tag=04ZB}
 
 Cho A là một miền Krull, K là trường phân thức của nó, v là một định giá trên K dương trên A và p là tập hợp các x ∈ A sao cho v(x) > 0. Nếu iđêan nguyên tố p có chiều cao 1, thì v tương đương với một định giá cốt yếu của A.
 
 Cho B là vành của v và m là iđêan của nó. Khi đó m ∩ A = p và do đó A, ⊂ B. Bây giờ A,, là một vành định giá rời rạc (Định lý 3 và Hệ quả 1 của Mệnh đề 6). Vì p ≠ (0), B ≠ K và do đó B = A, (Chương VI, § 4, no. 5, Mệnh đề 6).
 
-#### Định lý 4 {#ac-vii-s1-thm-4 .statement}
+#### Định lý 4 {#ac-vii-s1-thm-4 .statement tag=04ZC}
 
 Cho A là một miền nguyên và M là tập hợp các iđêan nguyên tố của nó có chiều cao 1. Để A là một miền Krull, điều kiện cần và đủ là các Tính chất sau được thỏa mãn:
 (i) Với mọi p ∈ M, A, là một vành định giá rời rạc.
@@ -403,7 +403,7 @@ Hơn nữa, các định giá tương ứng với các A_p với p ∈ M là cá
 
 Các điều kiện ấy hiển nhiên là đủ. Tính cần thiết của chúng suy ra ngay lập tức từ Định lý 3 của no. 4, Hệ quả I của Mệnh đề 6 và thực tế là các định giá cốt yếu của A thỏa mãn các điều kiện của Định nghĩa 3 của no. 3.
 
-#### Mệnh đề 10 {#ac-vii-s1-prop-10 .statement}
+#### Mệnh đề 10 {#ac-vii-s1-prop-10 .statement tag=04ZD}
 
 Cho A là một miền Noether nguyên đóng và a là một iđêan nguyên của A. Các điều kiện sau là tương đương:
 (a) a là ước;
@@ -413,7 +413,7 @@ Nhắc lại rằng, nếu a = $\bigcap^n q_i$ là một phân tích nguyên sơ
 
 ### 7. ÁP DỤNG: NHỮNG ĐẶC TRƯNG MỚI CỦA CÁC VÀNH ĐỊNH GIÁ RỜI RẠC
 
-#### Mệnh đề 11 {#ac-vii-s1-prop-11 .statement}
+#### Mệnh đề 11 {#ac-vii-s1-prop-11 .statement tag=04ZE}
 
 Cho $\mathbf{A}$ là một miền Krull địa phương (đặc biệt là một miền Noether địa phương nguyên đóng) và $m$ là iđêan cực đại của nó. Các điều kiện sau là tương đương:
 (a) $\mathbf{A}$ là vành định giá rời rạc;
@@ -426,7 +426,7 @@ Vì mọi iđêan khác không của một vành định giá rời rạc đều
 
 ### 8. BAO ĐÓNG NGUYÊN CỦA MỘT MIỀN KRULL TRONG MỘT MỞ RỘNG HỮU HẠN CỦA TRƯỜNG PHÂN THỨC CỦA NÓ
 
-#### Mệnh đề 12 {#ac-vii-s1-prop-12 .statement}
+#### Mệnh đề 12 {#ac-vii-s1-prop-12 .statement tag=04ZF}
 
 Cho $\mathbf{A}$ là một miền Krull, $K$ trường phân thức của nó, $K'$ là một mở rộng hữu hạn của $K$ và $\mathbf{A}'$ là bao đóng nguyên của $\mathbf{A}$ trong $K'$. Khi đó $\mathbf{A}'$ là một miền Krull. Các định giá cốt yếu của $\mathbf{A}'$ là các định giá rời rạc được chuẩn hóa trên $K'$ tương đương với các mở rộng của các định giá cốt yếu của $\mathbf{A}$.
 
@@ -436,7 +436,7 @@ trong đó $a_i \in \mathbf{A}$ và $a_s \neq 0$; nếu $v_i(x) > 0$, thì $v_i(
 
 Còn phải chỉ ra rằng các $v_i$ tương đương với các định giá cốt yếu của $A'$ (no. 4, Hệ quả 2 của Mệnh đề 6), nghĩa là (no. 6, Hệ quả 2 của Định lý 3) iđêan nguyên tố $p_i$, gồm các $x \in A'$ sao cho $v_i(x) > 0$, có chiều cao 1. Nếu không phải như vậy, sẽ tồn tại một iđêan nguyên tố $q$ của $A'$ sao cho $(0) \subset q \subset p_i$ và phân biệt với $(0)$ và $p_i$; khi đó $(0) \subset q \cap A \subset p_i \cap A$ và $q \cap A$ sẽ phân biệt với $(0)$ và $p_i \cap A$ (Chương V, §2, no. 1, Hệ quả 1 của Mệnh đề 1); do đó iđêan nguyên tố $p_i \cap A$ sẽ không có chiều cao 1, điều này mâu thuẫn với việc nó tương ứng với một định giá cốt yếu của $A$.
 
-#### Hệ quả {#ac-vii-s1-n8-cor-1 .statement}
+#### Hệ quả {#ac-vii-s1-n8-cor-1 .statement tag=04ZG}
 
 *Cho $p$ (resp. $p'$) là một iđêan nguyên tố của $A$ (resp. $A'$) có chiều cao 1, và $v$ (resp. $u'$) là định giá cốt yếu của $A$ (resp. $A'$) tương ứng với nó. Để $p'$ nằm trên $p$, điều kiện cần và đủ là hạn chế của $v'$ trên $K$ tương đương với $v$.*
 
@@ -444,7 +444,7 @@ Còn phải chỉ ra rằng các $v_i$ tương đương với các định giá 
 
 ### 9. CÁC VÀNH ĐA THỨC TRÊN MỘT MIỀN KRULL
 
-#### Mệnh đề 13 {#ac-vii-s1-prop-13 .statement}
+#### Mệnh đề 13 {#ac-vii-s1-prop-13 .statement tag=04ZH}
 
 *Cho $A$ là một miền Krull và $X_1, X_n, \ldots, X_n$ là các ẩn. Vành $A[X_1, \ldots, X_n]$ là một miền Krull.*
 
@@ -458,7 +458,7 @@ với $\sum_j a_j X^j \in K[X]$ (Chương VI, §10, no. 1, Bổ đề 1). Rõ r�
 
 Do đó, để chứng minh mệnh đề, chỉ cần chỉ ra rằng $A[X]$ là giao của các vành của các định giá $v_f$ và $\bar{w}$. Mà giao của các vành của các định giá $v_f$ là $K[X]$. Mặt khác, với $\sum_j a_j X^j \in K[X]$, quan hệ $\bar{w}\left( \sum_j a_j X^j \right) \geq 0$ tương đương với " $w(a_j) \geq 0$ với mọi $j$"; do đó quan hệ " $\bar{w}\left( \sum_j a_j X^j \right) \geq 0$ với mọi định giá $\bar{w}'$" tương đương với " $w(a_j) \geq 0$ với mọi $j$ và mọi định giá cốt yếu $w$ của $A$." Điều này chứng minh mệnh đề của chúng ta.
 
-#### Nhận xét {#ac-vii-s1-n9-rem-1 .statement}
+#### Nhận xét {#ac-vii-s1-n9-rem-1 .statement tag=04ZI}
 
 Các định giá $v_f$ và $\bar{w}$ được đưa vào trong chứng minh của Mệnh đề 13 là các định giá cốt yếu của $A[X]$. Với chúng tôi, chỉ cần chỉ ra rằng, nếu $V$ là tập hợp các định giá $v_f$ ($f$ bất khả quy) và $\bar{w}$ (w cốt yếu), thì với mọi $v' \in V$, tồn tại một phần tử $g \in K(X)$ không thuộc $A[X]$ và sao cho $v''(g) \geq 0$ đối với mọi định giá $v'' \in V$ phân biệt với $v'$; điều này sẽ chứng minh rằng $V - \{v'\}$ không thỏa mãn (AK$_{II}$), và do đó kết luận sẽ suy ra từ no. 4, Hệ quả 2 của Mệnh đề 6. Trước hết giả sử rằng $v'$ có dạng $\bar{w}$: khi đó ta có thể lấy $g$ là một phần tử $b \in K$ sao cho $w(b) < 0, w'(b) \geq 0$ đối với các định giá cốt yếu $w'$ của $A$ phân biệt với $w$, vì khi ấy $v_f(b) = 0$ với mọi đa thức đơn khởi bất khả quy $f$ trong $K[X]$; sự tồn tại của một phần tử $b$ thỏa mãn các điều kiện trên suy ra từ no. 5, Mệnh đề 9. Thứ hai, giả sử rằng $v'$ có dạng $v_f$ với một đa thức đơn khởi bất khả quy $f \in K[X]$ bậc $m$; khi đó ta có thể lấy $g = a/f$ với $a \in A$. Thật vậy, $v_h(g) \geq 0$ đối với mọi đa thức đơn khởi bất khả quy $h \neq f$ trong $K[X]$; còn lại là chọn $a \in A$ sao cho, với mọi định giá cốt yếu $w$ của $A$, $w(a)$ ít nhất bằng cận dưới lớn nhất của các phần tử $w(c_i)$, trong đó các $c_i$ là các hệ số của $f$ ($1 \leq i \leq m$); mà sự tồn tại của một $a \in A$ như vậy suy ra từ (AK$_{III}$) và no. 5, Mệnh đề 9.
 
@@ -472,7 +472,7 @@ Các iđêan loại sau được đặc trưng bởi tính chất là giao của
 
 Cho $A$ là một miền Krull. Nhắc lại rằng nhóm các ước $D(A)$ của $A$ là nhóm giao hoán tự do sinh bởi tập $P(A)$ các phần tử cực biên của nó (no. 3, Định lý 2) và rằng $P(A)$ được đồng nhất với tập các iđêan nguyên tố của $A$ có chiều cao 1 (no. 6); với $p \in P(A)$ ta sẽ ký hiệu bởi $v_p$ định giá cốt yếu chuẩn hóa tương ứng với $p$ (no. 4); nhắc lại rằng vành của $v_p$ là $A_p$ (no. 4, Hệ quả 1 của Mệnh đề 6). Ta sẽ ký hiệu bởi $F(A)$ nhóm con của $D(A)$ gồm các ước chính và bởi $C(A) = D(A)/F(A)$ nhóm lớp ước của $A$ (no. 2).
 
-#### Mệnh đề 14 {#ac-vii-s1-prop-14 .statement}
+#### Mệnh đề 14 {#ac-vii-s1-prop-14 .statement tag=04ZJ}
 
 Cho $A$ là một miền Krull và $B$ là một miền Krull chứa $A$. Giả sử rằng điều kiện sau được thỏa mãn:
 
@@ -526,7 +526,7 @@ Dưới các giả thiết của Mệnh đề 14, từ (a) suy ra rằng i xác 
 
 (2) B là một A-môđun phẳng. Chính xác hơn:
 
-#### Mệnh đề 15 {#ac-vii-s1-prop-15 .statement}
+#### Mệnh đề 15 {#ac-vii-s1-prop-15 .statement tag=04ZK}
 
 Cho A và B là các miền Krull sao cho B chứa A và là một A-môđun phẳng. Khi đó:
 (a) điều kiện (PDE) của Mệnh đề 14 được thỏa mãn;
@@ -551,19 +551,19 @@ $$
 \end{align*}
 $$
 
-#### Hệ quả {#ac-vii-s1-n10-cor-1 .statement}
+#### Hệ quả {#ac-vii-s1-n10-cor-1 .statement tag=04ZL}
 
 Cho A là một miền Krull địa phương và B là một vành định giá rời rạc sao cho B trội hơn A và là một A-môđun phẳng. Khi đó A là một trường hoặc một vành định giá rời rạc.
 
 Gọi $\mathfrak{m}$ là iđêan cực đại của B. Theo (PDE), $\mathfrak{m} \cap A$ bằng không hoặc có chiều cao 1. Vì theo giả thiết nó là iđêan cực đại của A, mệnh đề của ta suy ra từ Mệnh đề 11 của no. 7.
 
-#### Nhận xét {#ac-vii-s1-n10-rem-1 .statement}
+#### Nhận xét {#ac-vii-s1-n10-rem-1 .statement tag=04ZM}
 
 Trong trường hợp thứ nhất của hai trường hợp trên, ánh xạ $i : D(A) \to D(B)$ là đơn ánh: vì các phần tử của $P(B)$ lập thành một cơ sở của $D(B)$ và hai iđêan phân biệt của $P(A)$ không thể là các vết trên A của cùng một iđêan của $P(B)$, nên chỉ cần kiểm tra rằng $i(p) \neq 0$ với mọi $p \in P(A)$; mà điều này suy ra từ Chương V, § 2, no. 1, Định lý 1. Tương tự, ta cũng thấy rằng, nếu B là một A-môđun phẳng trung thành, thì $i$ là đơn ánh (Chương II, § 2, no. 5, Hệ quả 4 của Mệnh đề 11).
 
 Trong phần tiếp theo, chúng tôi đề nghị nghiên cứu đồng cấu chính tắc $\tilde{i}$ từ $C(A)$ đến $C(B)$ đối với một số cặp có thứ tự các miền Krull A, B.
 
-#### Mệnh đề 16 {#ac-vii-s1-prop-16 .statement}
+#### Mệnh đề 16 {#ac-vii-s1-prop-16 .statement tag=04ZN}
 
 Cho A là một vành Zariski sao cho hoàn thành của nó $\hat{A}$ là một miền Krull. Khi đó A là một miền Krull và đồng cấu chính tắc $\tilde{i}$ từ $C(A)$ đến $C(\hat{A})$ (được xác định vì A là một A-môđun phẳng; xem Chương III, § 3, no. 4, Định lý 3) là đơn ánh.
 
@@ -579,13 +579,13 @@ vì nếu một phần tử của $D(S^{-1}A)$ bằng $\operatorname{div}_{S^{-1
 
 Bây giờ giả sử rằng S được sinh bởi một họ các phần tử $(p_i)_{i \in I}$ của A sao cho các iđêan chính $Ap_i$ đều là nguyên tố. Khi đó, nếu $p$ là một iđêan nguyên tố của A có chiều cao 1 sao cho $p \cap S \neq \varnothing$, thì $p$ chứa một tích các lũy thừa của các $p_i$, và do đó chứa một trong các $p_i$, giả sử là $p_\alpha$; vì $Ap_\alpha$ khác không và là nguyên tố và $p$ có chiều cao 1, suy ra $p = Ap_\alpha$. Vậy, theo ký hiệu ở trên, $G \subset F(A)$ và (5) cho thấy hạt nhân của $\bar{i}$ bằng không. Do đó chúng ta đã chứng minh kết quả sau đây:
 
-#### Mệnh đề 17 {#ac-vii-s1-prop-17 .statement}
+#### Mệnh đề 17 {#ac-vii-s1-prop-17 .statement tag=04ZO}
 
 *Cho $A$ là một miền Krull và $S$ là một tập con nhân của $A$ không chứa $0$. Khi đó đồng cấu chính tắc $\bar{i}$ từ $C(A)$ tới $C(S^{-1}A)$ là toàn ánh. Nếu thêm nữa $S$ được sinh bởi một họ các phần tử $p_i$ sao cho các iđêan chính $Ap_i$ đều là nguyên tố, thì $\bar{i}$ là song ánh.*
 
 Như một áp dụng thứ hai của công thức (5), xét tình huống sau: cho $R$ là một miền Krull; lấy $A$ là vành đa thức $A = R[X]$ (no. 9, Mệnh đề 13) và $S$ là tập hợp $R - (0)$ các đa thức hằng khác không của $A$. Các iđêan nguyên tố $p$ của $A$ có chiều cao 1 sao cho $p \cap S \neq \varnothing$ là những iđêan có dạng $p_0A$, trong đó $p_0$ là một iđêan nguyên tố của $R$ có chiều cao 1 (no. 9, *Nhận xét*). Do đó, theo ký hiệu đã đưa vào ở trên, $G$ được đồng nhất với $D(R)$ bằng cách đồng nhất $\mathrm{div}_A(p_0A)$ với $\mathrm{div}_R(p_0)$. Mặt khác $G \cap F(A)$ được đồng nhất với $F(R)$: thật vậy, nếu một iđêan $a$ của $R$ sinh ra một iđêan chính $a_0A = f(X)A$ trong $A = R[X]$, thì $f(0) \in a_0A$ vì $a_0A$ là một iđêan phân bậc của vành $A$ (được phân bậc theo bậc thông thường của các đa thức) và do đó $f(0) \in a$; hơn nữa, với $a \in a_0A$, ta có $a = f(X)g(X)$ với $g(X) \in R$, do đó, khi so sánh các hạng tử bậc 0, $a = f(0)g(0)$; suy ra $a$ là iđêan chính của $R$ sinh bởi $f(0)$. Cuối cùng, ký hiệu $K$ là trường phân thức của $R$, $S^{-1}A$ được đồng nhất với vành đa thức $K[X]$, là một miền iđêan chính; do đó $C(S^{-1}A) = (0)$. Vậy, theo (5), $C(A) = \mathrm{Ker}(\bar{i})$ được đồng nhất với $C(R)$ và chúng ta đã chứng minh kết quả sau:
 
-#### Mệnh đề 18 {#ac-vii-s1-prop-18 .statement}
+#### Mệnh đề 18 {#ac-vii-s1-prop-18 .statement tag=04ZP}
 
 *Cho $R$ là một miền Krull và $A$ là vành đa thức $R[X]$. Đồng cấu chính tắc từ $C(R)$ vào $C(R[X])$ là song ánh.*
 

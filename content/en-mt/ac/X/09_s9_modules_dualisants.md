@@ -36,7 +36,7 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 12
-content_sha256: 38d1bd7c3fcd96180a1083ec51e02d244b9ed274dcebdc85224635ba8e7f6e9b
+content_sha256: a3e8d0b3e2bd2a897dbbc96e46a580a0d3e7b5586f7986dbd52ec70636686814
 translated_from: content/fr/ac/X/09_s9_modules_dualisants.md
 source_lang: fr
 translation_method: machine
@@ -52,29 +52,29 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 ### 1. Dualizing modules
 
-#### Definition 1 {#ac-x-s9-def-1 .statement}
+#### Definition 1 {#ac-x-s9-def-1 .statement tag=0DBF}
 
 Let $A$ be a noetherian ring. One says that a $A$-module $\Omega$ is dualizing if it is finitely generated and if, for every maximal ideal $m$ of $A$, the $A/m$-vector space $\mathrm{Ext}_A^i(A/m, \Omega)$ is zero for $i \neq \mathrm{ht}(m)$ and of dimension 1 for $i = \mathrm{ht}(m)$.
 
 For every maximal ideal $m$ of $A$ and every integer $i$, the $A/m$-vector space $\mathrm{Ext}_A^i(A/m, \Omega)$ is canonically isomorphic to $\mathrm{Ext}_{A_m}^i(A/m, \Omega_m)$ ($\S$ 3, No. 2, prop. 2). Consequently, for a finitely generated $A$-module $\Omega$ to be dualizing, it is necessary and sufficient that the $A_m$-module $\Omega_m$ be dualizing for every maximal ideal $m$ of $A$.
 
-#### Example 1 {#ac-x-s9-n1-exa-1 .statement}
+#### Example 1 {#ac-x-s9-n1-exa-1 .statement tag=0DBG}
 
 If the ring $A$ is local and artinian, the dualizing $A$-modules are the finitely generated injective $A$-modules $\Omega$ such that $\mathrm{Hom}_A(\kappa_A, \Omega)$ is of dimension 1 ($\S$ 3, No. 3, prop. 6), that is to say the Matlis $A$-modules ($\S$ 8, No. 3).
 
-#### Example 2 {#ac-x-s9-n1-exa-2 .statement}
+#### Example 2 {#ac-x-s9-n1-exa-2 .statement tag=0DBH}
 
 For a noetherian ring $A$ to be Gorenstein, it is necessary and sufficient that the $A$-module $A$ be dualizing ($\S$ 3, No. 7, prop. 11). In particular, the $A$-module $A$ is dualizing when $A$ is regular.
 
-#### Remark 1 {#ac-x-s9-n1-rem-1 .statement}
+#### Remark 1 {#ac-x-s9-n1-rem-1 .statement tag=0DBI}
 
 Let $A$ be a local noetherian ring and $\Omega$ a finitely generated $A$-module. The residue field $\kappa_{\widehat{A}}$ identifies with $\kappa_A$, and the $\widehat{A}$-module $\widehat{\Omega}$ with $\widehat{A} \otimes_A \Omega$ (III, $\S$ 3, No. 4, th. 3). It then follows from A, X, p. 111, prop. 10 that the $\kappa_A$-vector space $\mathrm{Ext}_A^i(\kappa_A, \Omega)$ is canonically isomorphic to $\mathrm{Ext}_{\widehat{A}}^i(\kappa_{\widehat{A}}, \widehat{\Omega})$. Consequently, for the $A$-module $\Omega$ to be dualizing, it is necessary and sufficient that the $\widehat{A}$-module $\widehat{\Omega}$ be dualizing.
 
-#### Remark 2 {#ac-x-s9-n1-rem-2 .statement}
+#### Remark 2 {#ac-x-s9-n1-rem-2 .statement tag=0DBJ}
 
 Let $\Omega$ be a dualizing $A$-module; for every projective $A$-module $L$ of rank 1, the $A$-module $\Omega \otimes_A L$ is dualizing (A, X, p. 108, prop. 7, b)). We shall see below (No. 4, prop. 6) that every dualizing $A$-module is isomorphic to a module of this form.
 
-#### Proposition 1 {#ac-x-s9-prop-1 .statement}
+#### Proposition 1 {#ac-x-s9-prop-1 .statement tag=0DBK}
 
 Let $A$ be a noetherian ring and $\Omega$ a dualizing $A$-module.
 
@@ -86,7 +86,7 @@ Suppose first that the ring $A$ is local, and let $d$ denote its dimension. Prop
 
 In the general case, the $A_m$-module $\Omega_m$ is dualizing for every maximal ideal $m$ of $A$, hence $A_m$ is a Macaulay ring and $\Omega_m$ an $A_m$-module which is Macaulay by what precedes, which implies a). Moreover one has $\mathrm{di}_{A_m}(\Omega_m) = \dim(\Omega_m) = \dim(A_m)$ for every maximal ideal $m$, whence b) by passing to the least upper bound (§ 3, No. 2, prop. 3).
 
-#### Proposition 2 {#ac-x-s9-prop-2 .statement}
+#### Proposition 2 {#ac-x-s9-prop-2 .statement tag=0DBL}
 
 *Let A be a noetherian ring, $\Omega$ a dualizing A-module. For every prime ideal $p$ of A, the $A_p$-module $\Omega_p$ is dualizing.*
 
@@ -108,7 +108,7 @@ $$
 
 One has $\mathrm{long}_A(\mathrm{Ext}^i_A(A/(p + xA), \Omega)) = \mathrm{long}_A(A/(p + xA))$ (*loc. cit.*); the proposition then follows from the following lemma, applied to the ring $B = A/p$ and the B-module $M = \mathrm{Ext}^{d-1}_A(A/p, \Omega)$:
 
-#### Lemma 1 {#ac-x-s9-lem-1 .statement}
+#### Lemma 1 {#ac-x-s9-lem-1 .statement tag=0DBM}
 
 *Let B be a local noetherian integral ring of dimension 1, and M a finitely generated torsion-free B-module. Suppose that one has $\mathrm{long}_B(M/xM) = \mathrm{long}_B(B/xB)$ for every nonzero element x of B. Then the B-module M is of rank 1.*
 
@@ -130,23 +130,23 @@ $$
 
 whence $\operatorname{long}(M/xM) = \operatorname{long}(L/xL)$. Since $\operatorname{long}(M/xM) = \operatorname{long}(B/xB)$ by hypothesis and $\operatorname{long}(L/xL) = r \operatorname{long}(B/xB)$, one deduces that $r = 1$.
 
-#### Corollary 1 {#ac-x-s9-lem-1-cor-1 .statement}
+#### Corollary 1 {#ac-x-s9-lem-1-cor-1 .statement tag=0DBN}
 
 *For every multiplicative subset S of A, the S$^{-1}$A-module S$^{-1}\Omega$ is dualizing.*
 
-#### Corollary 2 {#ac-x-s9-lem-1-cor-2 .statement}
+#### Corollary 2 {#ac-x-s9-lem-1-cor-2 .statement tag=0DBO}
 
 *The support of $\Omega$ is equal to Spec(A).*
 
 Indeed a dualizing module over a local ring is nonzero by definition.
 
-#### Corollary 3 {#ac-x-s9-lem-1-cor-3 .statement}
+#### Corollary 3 {#ac-x-s9-lem-1-cor-3 .statement tag=0DBP}
 
 *Let M be a finitely generated A-module, and let i be an integer. The A-module $\operatorname{Ext}_A^i(M, \Omega)$ is finitely generated, and its support is of codimension $\geqslant i$ in Spec(A).*
 
 The first assertion follows from A, X, p. 108, corollary. Let $\mathfrak{p}$ be a prime ideal of the support of $\operatorname{Ext}_A^i(M, \Omega)$. One has $\operatorname{Ext}_A^i(M, \Omega)_\mathfrak{p} \neq 0$, hence $\operatorname{Ext}_{A_\mathfrak{p}}^i(M_\mathfrak{p}, \Omega_\mathfrak{p}) \neq 0$ (§ 3, No. 2, proposition 2), which implies $\operatorname{di}_{A_\mathfrak{p}}(\Omega_\mathfrak{p}) \geqslant i$. Since $\Omega_\mathfrak{p}$ is a dualizing $A_\mathfrak{p}$-module (proposition 2), one has $\operatorname{di}_{A_\mathfrak{p}}(\Omega_\mathfrak{p}) = \dim(A_\mathfrak{p})$ (proposition 1), whence the corollary.
 
-#### Proposition 3 {#ac-x-s9-prop-3 .statement}
+#### Proposition 3 {#ac-x-s9-prop-3 .statement tag=0DBQ}
 
 *Let A be a local noetherian ring, $\Omega$ a dualizing A-module and M a finitely generated A-module.
 
@@ -180,7 +180,7 @@ $$
 
 For $i > \dim(A) - \operatorname{prof}_A(M)$, the $A$-module $\operatorname{Ext}_A^{i+1}(M/xM, \Omega)$ is zero by the induction hypothesis; therefore the homothety with ratio $x$ is surjective in $\operatorname{Ext}_A^i(M, \Omega)$, which implies that this $A$-module is zero (Nakayama's lemma). This proves c).
 
-#### Corollary {#ac-x-s9-n1-cor-1 .statement}
+#### Corollary {#ac-x-s9-n1-cor-1 .statement tag=0DBR}
 
 *If $M$ is Macaulay, then $\operatorname{Ext}_A^i(M, \Omega) = 0$ for $i \neq c$; the $A$-module $\operatorname{Ext}_A^c(M, \Omega)$ is Macaulay, and its support is equal to that of $M$.*
 
@@ -202,7 +202,7 @@ Prop. 4 of § 2, No. 3 and the induction hypothesis then imply that $\operatorna
 
 ### 2. Quotient by a regular sequence
 
-#### Proposition 4 {#ac-x-s9-prop-4 .statement}
+#### Proposition 4 {#ac-x-s9-prop-4 .statement tag=0DBS}
 
 *Let $A$ be a noetherian ring, $J$ an ideal of $A$ generated by an $A$-regular sequence $x$, and $\Omega$ a finitely generated $A$-module.
 
@@ -220,13 +220,13 @@ $$
 
 (VIII, § 3, n° 1, cor. 2, a)). Now the maximal ideals of \overline{A} are the ideals \overline{m}, where m is a maximal ideal of A containing x; and if moreover x belongs to the radical of A, every maximal ideal of A contains x. The proposition follows.
 
-#### Corollary 1 {#ac-x-s9-prop-4-cor-1 .statement}
+#### Corollary 1 {#ac-x-s9-prop-4-cor-1 .statement tag=0DBT}
 
 **Let A be an integral noetherian ring. Every dualizing A-module is torsion-free and of rank 1.**
 
 Let \Omega be a dualizing A-module; it is torsion-free by prop. 4. Let K be the field of fractions of A; the K-vector space K \otimes_A \Omega is dualizing (n° 1, prop. 2), hence of dimension 1.
 
-#### Corollary 2 {#ac-x-s9-prop-4-cor-2 .statement}
+#### Corollary 2 {#ac-x-s9-prop-4-cor-2 .statement tag=0DBU}
 
 **Let A be a local Macaulay ring, \Omega a finitely generated A-module, and x a maximal secant sequence of elements of m_A, generating an ideal J. The following conditions are equivalent:**
 
@@ -245,7 +245,7 @@ Let \Omega be a dualizing A-module; it is torsion-free by prop. 4. Let K be the 
 
 ### 3. Change of rings
 
-#### Proposition 5 {#ac-x-s9-prop-5 .statement}
+#### Proposition 5 {#ac-x-s9-prop-5 .statement tag=0DBV}
 
 Let $\rho : A \to B$ be a homomorphism of noetherian rings, making $B$ into a flat $A$-module. Assume that for every maximal ideal $n$ of $B$, the ring $\kappa(\rho^{-1}(n)) \otimes_A B$ is a Gorenstein ring. Let $\Omega$ be a dualizing $A$-module ; the $B$-module $\Omega_{(B)}$ is dualizing.
 
@@ -284,13 +284,13 @@ The $B$-modules $\mathrm{Hom}_B(\kappa_A \otimes_A B, \Omega_{(B)})$ and $\mathr
 
 Let us pass to the general case. Put $C = \kappa_A \otimes_A B$; by hypothesis this is a Gorenstein ring, hence a Macaulay ring ($§ 3, n° 7$, prop. 10). By prop. 1 of No. 1, $A$ is a Macaulay ring, and the $A$-module $\Omega$ is Macaulay. Hence $B$ is a Macaulay ring, and the $B$-module $\Omega_{(B)}$ is Macaulay ($§ 2, n° 7$, cor. 1 of prop. 9). Put $r = \dim(A)$, $s = \dim(C)$. There exists a sequence $(x_1, \ldots, x_r)$ of elements of $\mathfrak{m}_A$ regular for the $A$-modules $A$ and $\Omega$, and a sequence $(y_1, \ldots, y_s)$ of elements of $\mathfrak{m}_B$ regular for the $B$-module $C$; let $x$ denote the ideal of $A$ and $\mathfrak{g}$ the ideal of $B$ generated by them respectively. The sequence $(y_1, \ldots, y_s, \rho(x_1), \ldots, \rho(x_r))$ is regular for the $B$-modules $B$ and $\Omega_{(B)}$ ($§ 1, n° 6$, prop. 11), and the $A$-module $B/\mathfrak{g}$ is flat (*loc. cit.*, prop. 10). Put $A' = A/x$, $B' = B/(xB + \mathfrak{g})$ and let $\rho' : A' \to B'$ denote the homomorphism deduced from $\rho$ by passing to quotients. The rings $A'$ and $B'$ are artinian, the $A'$-module $B'$ is flat, the ring $\kappa_{A'} \otimes_{A'} B'$, which is identified with $C/\mathfrak{g}$, is a Gorenstein ring ($§ 3, n° 7$, example 2) and the $A'$-module $\Omega_{(A')}$ is dualizing (No. 2, prop. 4). By the first part of the proof, the $B'$-module $\Omega_{(B')}$ is dualizing. It then follows from *loc. cit.* that the $B$-module $\Omega_{(B)}$ is dualizing.
 
-#### Corollary {#ac-x-s9-n3-cor-1 .statement}
+#### Corollary {#ac-x-s9-n3-cor-1 .statement tag=0DBW}
 
 *Let $A$ be a noetherian ring admitting a dualizing module $\Omega$; let $B$ be a polynomial algebra over $A$ in a finite number of indeterminates. The $B$-module $\Omega_{(B)}$ is dualizing.*
 
 Indeed, for every prime ideal $\mathfrak{p}$ of $A$, the ring $\kappa(\mathfrak{p}) \otimes_A A[X]$ is identified with $\kappa(\mathfrak{p})[X]$, which is regular, hence Gorenstein.
 
-#### Proposition 6 {#ac-x-s9-prop-6 .statement}
+#### Proposition 6 {#ac-x-s9-prop-6 .statement tag=0DBX}
 
 *Let $A$ be a noetherian local ring and $\Omega$ a dualizing $A$-module. Let $B$ be a finite $A$-algebra; suppose that the $A$-module $B$ is Macaulay. The $B$-module $\mathrm{Ext}_A^i(B, \Omega)$ is zero for $i \neq \dim(A) - \dim(B)$ and dualizing for $i = \dim(A) - \dim(B)$.
 
@@ -308,23 +308,23 @@ $$
 
 By the induction hypothesis, the $B/xB$-module $\mathrm{Ext}_A^{c+1}(B/xB, \Omega)$ is dualizing. Since the $A$-algebra $B$ is finite, the image of $m_A$ in $B$ is contained in the radical of $B$ (V, $§ 2$, No. 1, Proposition 1) ; by Proposition 4 of No. 2, the $B$-module $\mathrm{Ext}_A^c(B, \Omega)$ is dualizing.
 
-#### Corollary 1 {#ac-x-s9-prop-6-cor-1 .statement}
+#### Corollary 1 {#ac-x-s9-prop-6-cor-1 .statement tag=0DBY}
 
 *Let A be a noetherian ring, $\Omega$ a dualizing A-module, and B a finite A-algebra; suppose that the A-module B is Macaulay. The B-module $\mathrm{Ext}_A(B, \Omega)$ is dualizing.*
 
 Let $\Omega'$ denote the $B$-module $\mathrm{Ext}_A(B, \Omega)$. Let $n$ be a maximal ideal of $B$; its inverse image in $A$ is a maximal ideal $m$ (V, $§ 2$, No. 1, prop. 1). The $A_m$-algebra $B_m = A_m \otimes_A B$ is finite, and is a Macaulay $A_m$-module; by the proposition, the $B_m$-module $\Omega'_m$, which identifies with $\mathrm{Ext}_{A_m}(B_m, \Omega_m)$ ($§ 3$, No. 2, prop. 2), is dualizing. Since $B_n$ is a ring of fractions of $B_m$, the $B_n$-module $\Omega'_n$ is dualizing, whence the corollary.
 
-#### Remark {#ac-x-s9-n3-rem-1 .statement}
+#### Remark {#ac-x-s9-n3-rem-1 .statement tag=0DBZ}
 
 Let us retain the assumptions of cor. 1 and suppose further that the canonical homomorphism $\rho : A \to B$ is injective. Then one has $\dim(A_m) = \dim(B_m)$ for every maximal ideal $m$ of $A$ (VIII, $§ 2$, No. 3, th. 1 a)). By prop. 6 and cor. 1, $\mathrm{Ext}_A^i(B, \Omega)$ is zero for $i \neq 0$, and the $B$-module $\mathrm{Hom}_A(B, \Omega)$ is dualizing.
 
-#### Corollary 2 {#ac-x-s9-prop-6-cor-2 .statement}
+#### Corollary 2 {#ac-x-s9-prop-6-cor-2 .statement tag=0DC0}
 
 *If a noetherian ring $A$ has a dualizing module, every finitely generated $A$-algebra which is a Macaulay ring has a dualizing module.*
 
 This results from cor. 1 and the cor. of prop. 5.
 
-#### Corollary 3 {#ac-x-s9-prop-6-cor-3 .statement}
+#### Corollary 3 {#ac-x-s9-prop-6-cor-3 .statement tag=0DC1}
 
 *Every presentable Macaulay ring (in particular, every complete local Macaulay ring) has a dualizing module.*
 
@@ -334,7 +334,7 @@ More generally, every Macaulay ring quotient of a Gorenstein ring has a dualizin
 
 ### 4. Structure of Dualizing Modules
 
-#### Lemma 2 {#ac-x-s9-lem-2 .statement}
+#### Lemma 2 {#ac-x-s9-lem-2 .statement tag=0DC2}
 
 Let $A$ be a noetherian ring, $M$ and $N$ finitely generated $A$-modules, $u : M \to N$ a homomorphism. Let $x$ be an element of the radical of $A$, such that the homothety $x_N$ is injective. If the homomorphism $\overline{u} : M/xM \to N/xN$ induced by $u$ is injective (resp. surjective, resp. bijective), the same is true of $u$.
 
@@ -350,7 +350,7 @@ $$
 
 by means of the snake lemma (I, § 1, No. 4, prop. 2), one deduces from it an exact sequence $\mathrm{Ker}\, u \xrightarrow{x} \mathrm{Ker}\, u \longrightarrow \mathrm{Ker}\, \overline{u}$. If $\overline{u}$ is injective, the homothety with ratio $x$ is surjective in $\mathrm{Ker}\, u$, which implies $\mathrm{Ker}\, u = 0$ by Nakayama's lemma.
 
-#### Proposition 7 {#ac-x-s9-prop-7 .statement}
+#### Proposition 7 {#ac-x-s9-prop-7 .statement tag=0DC3}
 
 Let $A$ be a noetherian ring and $\Omega$ a dualizing $A$-module.
 
@@ -382,13 +382,13 @@ B) Let us pass to the general case. For every maximal ideal $m$ of $A$ and every
 
 Let us finally prove c). Let $\Omega'$ be a dualizing $A$-module. Denote by $L$ the $A$-module $\mathrm{Hom}_A(\Omega', \Omega)$, and by $v : \Omega' \otimes_A L \to \Omega$ the homomorphism such that $v(x \otimes f) = f(x)$ for $x \in \Omega'$, $f \in L$. Let $m$ be a maximal ideal of $A$. The $A_m$-module $L_m$ is identified with $\mathrm{Hom}_{A_m}(\Omega'_m, \Omega_m)$; by the case already treated it is free of rank one, and every isomorphism $h : \Omega'_m \to \Omega_m$ is a generator of it. When one identifies $L_m$ with $A_m$ by means of the generator $h$, the homomorphism $v_m : \Omega'_m \otimes_{A_m} L_m \to \Omega_m$ is identified with $h$, hence is bijective. Since this holds for every maximal ideal $m$ of $A$, the $A$-module $L$ is projective of rank one (II, $§ 5$, No. 3, Theorem 2), and the homomorphism $v$ is bijective (II, $§ 3$, No. 3, Theorem 1).
 
-#### Corollary 1 {#ac-x-s9-prop-7-cor-1 .statement}
+#### Corollary 1 {#ac-x-s9-prop-7-cor-1 .statement tag=0DC4}
 
 *In order that $A$ be a Gorenstein ring, it is necessary and sufficient that the $A$-module $\Omega$ be projective of rank 1*.
 
 This follows from Example 2 of No. 1 and Proposition 7 c).
 
-#### Corollary 2 {#ac-x-s9-prop-7-cor-2 .statement}
+#### Corollary 2 {#ac-x-s9-prop-7-cor-2 .statement tag=0DC5}
 
 *Suppose that the ring $A$ is presentable. The set of prime ideals $p$ of $A$ such that $A_p$ is a Gorenstein ring is open in $\mathrm{Spec}(A)$*.
 
@@ -442,7 +442,7 @@ $$
 \alpha_M : M \to H_0(D(D(M))).
 $$
 
-#### Theorem 1 {#ac-x-s9-thm-1 .statement}
+#### Theorem 1 {#ac-x-s9-thm-1 .statement tag=0DC6}
 
 **Let $M$ be a finitely generated $A$-module. Then $\alpha_M$ is a homologism: we have $H_i(D(D(M))) = 0$ for $i \neq 0$ and the homomorphism $\alpha_M$ is bijective.**
 
@@ -510,7 +510,7 @@ $$
 \beta_M : M \to \mathrm{Ext}_A^c(\mathrm{Ext}_A^c(M, \Omega), \Omega).
 $$
 
-#### Corollary {#ac-x-s9-n5-cor-1 .statement}
+#### Corollary {#ac-x-s9-n5-cor-1 .statement tag=0DC7}
 
 If the $A$-module $M$ is Macaulay, the homomorphism $\beta_M$ is bijective.
 
@@ -524,7 +524,7 @@ In this number, one considers an integral noetherian ring $A$ of dimension 1 adm
 
 The canonical homomorphism $\Omega \to V$ is injective, and the K-vector space V is of dimension 1 (No. 2, cor. 1 of prop. 4); let us identify $\Omega$ with a sub-A-module of V.
 
-#### Proposition 8 {#ac-x-s9-prop-8 .statement}
+#### Proposition 8 {#ac-x-s9-prop-8 .statement tag=0DC8}
 
 *The A-module $V/\Omega$ is a Matlis module.*
 
@@ -618,7 +618,7 @@ Since $\Omega_B$ is a B-module, the relation $x \Omega \subset \Omega_B$ is equi
 
 We shall specialise the preceding discussion to the case where B is the integral closure of A; the assumption that B be a finitely generated A-module is satisfied when the ring A is Japanese (IX, § 4, No. 1, def. 1), which is the case when it is local and complete (*loc. cit.*, No. 2, th. 2), or when it is essentially of finite type over a field (*loc. cit.*, No. 1, remark 2 and example). The ring B is then a Dedekind ring (VII, § 2, No. 2, th. 1), and the torsion-free B-modules $\Omega_B$, $B\Omega$ and $c$ are projective of rank 1 (VII, § 4, No. 10, prop. 22). The relation $c = \Omega_B : B\Omega$ then signifies that the linear mapping $c \otimes_B B\Omega \to \Omega_B$ deduced from the action of K on V is an isomorphism (II, § 5, No. 6, prop. 11). In particular one has $\Omega_B = c(B\Omega) = c\Omega$.
 
-#### Proposition 9 {#ac-x-s9-prop-9 .statement}
+#### Proposition 9 {#ac-x-s9-prop-9 .statement tag=0DC9}
 
 *Let B be the integral closure of A, and $c = A : B$. Suppose that B is a finitely generated A-module. One has the inequality $[B/c] \leq 2[B/A]$ in $Z_0(A)$. For there to be equality, it is necessary and sufficient that A be a Gorenstein ring.*
 

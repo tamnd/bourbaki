@@ -12,9 +12,9 @@ pdf_pages: 0194-0195, 0225-0225
 extraction: ocr
 statements: 1
 exercises: 2
-content_sha256: c5ac9a1ef44916c2d0dd11ecbd93d37d2c87d2e93ea8e706c96fa0623835e98a
+content_sha256: 7bd02447b16b0e8800a2f9451027ecdc23dd461a1501e129211fa84a3317b5a7
 translated_from: content/en/lie/II/A_a_mobius_function.md
-source_content_sha256: 035e755d266fe3a54e74dc905de768808e16a07832a5d5f8c3e45b46b8b2c762
+source_content_sha256: c54ffb7970e587f4343ab39ca3824bf23f6f7cf1e3a847c72dd475d033916502
 translation_model: gpt-5.4
 translation_run: translate-vi-de0b6f62
 glossary_version: 34
@@ -30,7 +30,7 @@ Cho n là một số nguyên $\geq 1$. Nếu n chia hết cho bình phương c�
 
 Nhắc lại rằng với hai số nguyên $n_1 \geq 1, n_2 \geq 1$, ta viết $n_1 | n_2$ nếu $n_1$ chia $n_2$.
 
-#### Mệnh đề {#lie-ii-a0-n0-prop-1 .statement}
+#### Mệnh đề {#lie-ii-a0-n0-prop-1 .statement tag=0A73}
 
 (i) *Hàm $\mu$ là ánh xạ duy nhất từ $\mathbf{N}^*$ vào $\mathbf{Z}$ sao cho $\mu(1) = 1$ và*
 $$

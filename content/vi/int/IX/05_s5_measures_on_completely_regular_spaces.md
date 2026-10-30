@@ -41,7 +41,7 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: 3d500a6997942c6fe321b654af8f9fdbb0b05f66a024110e6b383c90de231aa5
+content_sha256: 5f1d66482d6160fd2f7249ebab9d2adb7af94febdf4d08863b740d2ec7a58e32
 translated_from: content/en/int/IX/05_s5_measures_on_completely_regular_spaces.md
 source_content_sha256: 65c081bae8ff5bf5baae88619a2bf86d3b107377274964e0bbbb9605637c3e6a
 translation_model: gpt-5.4-mini
@@ -59,7 +59,7 @@ Nếu T là một không gian tôpô, và F là một không gian Banach, ký hi
 
 Nhắc lại (GT, IX, §1, No. 5, Định nghĩa 4) rằng một không gian tôpô T được gọi là hoàn toàn chính quy nếu nó khả chuẩn hóa và Hausdorff. Điều này tương đương với nói rằng (loc. cit., Mệnh đề 3) T đồng phôi với một không gian con của một không gian compact. Nếu T hoàn toàn chính quy, thì mọi hàm số dương nửa liên tục dưới $f$ trên T là bao trên của tập có hướng tăng gồm các phần tử của $C^b_+(T)$ sao cho chúng $\leq f$, và mọi hàm số dương và bị chặn nửa liên tục trên $g$ là bao dưới của tập có hướng giảm gồm các phần tử của $C^b_+(T)$ sao cho chúng $\geq g$ (loc. cit., §1, No. 6, Mệnh đề 5). Ta sẽ cần bổ đề sau:
 
-#### Bổ đề {#int-ix-s5-n1-lem-1 .statement}
+#### Bổ đề {#int-ix-s5-n1-lem-1 .statement tag=09QV}
 
 Cho T là một không gian hoàn toàn chính quy, K là một tập con compact của T, và U là một tập con mở của T chứa K.
 a) Tồn tại một tập con mở U' của T sao cho $K \subset U' \subset \overline{U'} \subset U$.
@@ -67,7 +67,7 @@ b) Cho f là một hàm liên tục xác định trên K nhận giá trị trong
 
 Chỉ cần xét trường hợp T là một không gian con của một không gian compact X. Cho V là một tập con mở của X sao cho $V \cap T = U$; ký hiệu V' là một tập mở trong X chứa K sao cho $\overline{V'} \subset V$, ký hiệu g là một hàm liên tục trên X nhận giá trị trong I (resp. trong $\mathbf{C}$) mở rộng f và bằng không trên $X - V$ (GT, IX, §4, No. 1, Mệnh đề 1). Điều kiện a) được thỏa mãn bằng cách lấy $U' = V' \cap T$, và b) bằng cách lấy $f'$ là hạn chế của g lên T.
 
-#### Mệnh đề 1 {#int-ix-s5-prop-1 .statement}
+#### Mệnh đề 1 {#int-ix-s5-prop-1 .statement tag=09QW}
 
 — Cho T là một không gian hoàn toàn chính quy.
 a) Cho $\mu$ là một độ đo dương trên T, và f là một hàm số $\geq 0$ xác định trên T và nửa liên tục dưới (resp. nửa liên tục trên, hữu hạn, có giá compact). Khi đó
@@ -100,21 +100,21 @@ Rõ ràng $|g| \leq h \leq f$, và $g = j$ trên $K$, do đó $||\theta_K(j)| - 
 
 vì $a$ chỉ thỏa mãn điều kiện duy nhất $a < |\theta|^*(f)$, điều này sẽ suy ra rằng vế thứ hai của (2) là $\geqslant$ vế thứ nhất, do đó mệnh đề. Bây giờ, cho $F$ (resp. $F'$) là tập hợp các $t \in T$ sao cho $|k(t)| \leq h(t)$ (resp. $|k(t)| \geq h(t)$). Vì các tập hợp này đóng, và hợp của chúng là $T$, chỉ cần chỉ ra rằng $g_F$ và $g_{F'}$ liên tục: giờ đây, tính chất này hiển nhiên đối với $g_F = k_F$, và cũng đúng đối với $g_{F'}$ tại các điểm mà $k(t) \neq 0$; mặt khác, nếu $t \in F'$ sao cho $k(t) = 0$, thì cũng có $h(t) = 0$, và bất đẳng thức $|g| \leq h$ suy ra rằng $g$ liên tục tại điểm $t$.
 
-#### Nhận xét 1 {#int-ix-s5-n1-rem-1 .statement}
+#### Nhận xét 1 {#int-ix-s5-n1-rem-1 .statement tag=09QX}
 
 Cho $f$ là một hàm nửa liên tục dưới dương, và cho $J_f$ là tập hợp các hàm liên tục bị chặn dương bằng không ngoài một tập mở khả tích theo $\mu$ và bị chặn trên bởi $f$. Có thể chứng minh rằng $f$ là bao trên của $J_f$ và rằng $\mu^*(f) = \sup_{g \in J_f} \mu(g)$.
 
-#### Nhận xét 2 {#int-ix-s5-n1-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s5-n1-rem-2 .statement tag=09QY}
 
 Nếu độ đo $\mu$ bị chặn, công thức $\mu^*(f) = \inf_{g \in S_f} \mu(g)$ hiển nhiên đúng với mọi hàm $f$ nửa liên tục trên, dương và bị chặn.
 
-#### Mệnh đề 2 {#int-ix-s5-prop-2 .statement}
+#### Mệnh đề 2 {#int-ix-s5-prop-2 .statement tag=09QZ}
 
 — *Cho $\eta$ và $\eta'$ là hai độ đo phức trên một không gian hoàn toàn chính quy $T$, sao cho $\eta(f) = \eta'(f)$ với mọi hàm $f \in \mathscr{C}^b(T)$ khả tích đối với $|\eta|$ và $|\eta'|$. Khi đó $\eta = \eta'$. \*
 
 Ta hãy xét lại chứng minh của phần thứ hai của Mệnh đề 1, bằng cách đặt $\theta = \eta - \eta'$. Ta có thể yêu cầu tập mở U khả tích đối với $|\eta|$ và $|\eta'|$. Khi đó hàm $g$ khả tích đối với hai độ đo này, và quan hệ $\theta(g) = 0$ suy ra $a < 0$; do đó $|\theta|^*(f) = 0$ với mọi hàm nửa liên tục dưới dương $f$, do đó cuối cùng $|\theta| = 0$, khi lấy $f = +\infty$.
 
-#### Mệnh đề 3 {#int-ix-s5-prop-3 .statement}
+#### Mệnh đề 3 {#int-ix-s5-prop-3 .statement tag=09R0}
 
 — *Cho $\mu$ là một độ đo dương trên một không gian hoàn toàn chính quy $T$, và cho $p \in [1, +\infty[$. Không gian $\mathscr{H}$ gồm các hàm $f \in \mathscr{C}^b(T)$, có giá đỡ được chứa trong một tập mở khả tích theo $\mu$, là trù mật trong $\mathscr{L}^p(\mu)$. \*
 
@@ -122,7 +122,7 @@ Theo Mệnh đề 15 của §1, No. 10, đủ để chỉ ra rằng nếu K là 
 
 *Nhận xét 3).* — Có một mệnh đề tương tự cho các hàm nhận giá trị trong một không gian Banach F: không gian con $\mathscr{H} \otimes F$ của $\mathscr{C}^b(T; F)$ là trù mật trong $\mathscr{L}_F^p(\mu)$.
 
-#### Mệnh đề 4 {#int-ix-s5-prop-4 .statement}
+#### Mệnh đề 4 {#int-ix-s5-prop-4 .statement tag=09R1}
 
 — *Để một độ đo phức bị chặn $\theta$ trên một không gian hoàn toàn chính quy T là dương, cần và đủ rằng $\theta(f) \geq 0$ với mọi hàm $f \in \mathscr{C}_+^b(T)$.*
 
@@ -130,7 +130,7 @@ Theo Mệnh đề 15 của §1, No. 10, đủ để chỉ ra rằng nếu K là 
 
 ### 2. Các độ đo bị chặn và các dạng tuyến tính trên $\mathscr{C}^b(T)$
 
-#### Mệnh đề 5 {#int-ix-s5-prop-5 .statement}
+#### Mệnh đề 5 {#int-ix-s5-prop-5 .statement tag=09R2}
 
 — *Cho T là một không gian hoàn toàn chính quy, và I là một dạng tuyến tính phức liên tục trên không gian chuẩn $\mathscr{C}^b(T; \mathbf{C})$. Để tồn tại một độ đo phức bị chặn $\theta$ trên T sao cho $\theta(f) = I(f)$ với mọi $f \in \mathscr{C}^b(T; \mathbf{C})$, cần và đủ rằng điều kiện sau được thỏa mãn:
 
@@ -148,7 +148,7 @@ $$
 
 Cho $(K_n)_{n \geq 1}$ là một dãy các tập con compact của $T$, sao cho mỗi $K_n$ thỏa mãn (M) với $\varepsilon = 1/n$, và đặt $S = \bigcup K_n$; $S$ là một tập Borel trong $X$, được chứa trong $T$, và $|\nu|^*(X - T) \leq |\nu|^*(X - S) \leq |\nu|^*(X - K_n) \leq 1/n$ với mọi $n$, do đó $T$ khả đo với $\nu$ và $\nu$ tập trung trên $T$. Cho $f$ là một hàm liên tục bị chặn trên $T$; vì $X$ là compact hóa Stone–Čech của $T$, $f$ có thể được mở rộng liên tục thành một hàm $g \in \mathscr{C}(X; \mathbf{C})$. Bây giờ cho $\mu$ là độ đo cảm sinh bởi $\nu$ trên $T$; ta có $\mu(f) = \nu(f^0)$. (1) Vì $\nu$ tập trung trên $T$, các hàm $f^0$ và $g$ bằng nhau $\nu$-hầu khắp, do đó $\mu(f) = \nu(g) = I(g_T) = I(f)$, và điều đó hoàn tất chứng minh.
 
-#### Hệ quả {#int-ix-s5-n2-cor-1 .statement}
+#### Hệ quả {#int-ix-s5-n2-cor-1 .statement tag=09R3}
 
 — *Với các ký hiệu như trong Mệnh đề 5, giả sử tồn tại một độ đo dương bị chặn $\mu$ trên $T$ sao cho $|I(f)| \leq \mu(|f|)$ với mọi $f \in \mathscr{C}^b(T; \mathbf{C})$; khi đó tồn tại một độ đo phức $\theta$ trên $T$ sao cho $\theta(f) = I(f)$ với mọi $f \in \mathscr{C}^b(T; \mathbf{C})$.
 
@@ -160,7 +160,7 @@ $$
 $$
 trên $\mathscr{C}^b(T) \times \mathscr{M}^b(T)$ đặt hai không gian này vào một tính đối ngẫu phân biệt. Thật vậy, điều đó rõ ràng là tính đối ngẫu phân biệt trên $\mathscr{C}^b(T)$ từ thực tế rằng các độ đo $\varepsilon_x \ (x \in T)$ thuộc $\mathscr{M}^b(T)$; nó là phân biệt trên $\mathscr{M}^b(T)$ theo Mệnh đề 2 của No. 1.
 
-#### Định nghĩa 1 {#int-ix-s5-def-1 .statement}
+#### Định nghĩa 1 {#int-ix-s5-def-1 .statement tag=09R4}
 
 *Tôpô yếu trên $\mathscr{M}^b(T)$, được liên kết với tính đối ngẫu nói trên giữa $\mathscr{C}^b(T)$ và $\mathscr{M}^b(T)$, được gọi là tôpô của sự hội tụ chặt (hay tôpô chặt) trên $\mathscr{M}^b(T)$. \*
 
@@ -171,21 +171,21 @@ $$
 \lim_{\mu} \mu(f) = \lambda(f) \quad \text{đối với } \mathfrak{F} \text{ với mọi } f \in \mathscr{C}_+^b(T).
 $$
 
-#### Nhận xét 1 {#int-ix-s5-n3-rem-1 .statement}
+#### Nhận xét 1 {#int-ix-s5-n3-rem-1 .statement tag=09R5}
 
 Nếu $T$ là địa phương compact, tôpô chặt mịn hơn tôpô cảm sinh trên $\mathscr{M}^b(T)$ bởi tôpô vague, và hai tôpô này chỉ trùng nhau khi $T$ là compact. Thật vậy, nếu $T$ không compact, ánh xạ $t \mapsto \varepsilon_t$ hội tụ vague đến 0 đối với bộ lọc của các phần bù của các tập con tương đối compact của $T$, nhưng không hội tụ chặt đến 0, vì hàm 1 thuộc $\mathscr{C}^b(T)$ (về các quan hệ giữa hội tụ vague và hội tụ chặt, xem Mệnh đề 9).
 
 (1) Quan hệ này chỉ mới được thiết lập ở trên (§ 2, No. 1, Mệnh đề 1) trong trường hợp $f$ và $\nu$ là dương. Mở rộng sang tình huống hiện tại, trong đó $f$ và $\nu$ là phức và bị chặn, là ngay lập tức theo tính tuyến tính.
 
-#### Nhận xét 2 {#int-ix-s5-n3-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s5-n3-rem-2 .statement tag=09R6}
 
 Suy ra ngay lập tức từ Mệnh đề 4 rằng $\mathscr{M}_+^b(T)$ là đóng trong $\mathscr{M}^b(T)$.
 
-#### Nhận xét 3 {#int-ix-s5-n3-rem-3 .statement}
+#### Nhận xét 3 {#int-ix-s5-n3-rem-3 .statement tag=09R7}
 
 Nếu T hoàn toàn chính quy, thì ánh xạ $t \mapsto \varepsilon_t$ của T vào $\mathscr{M}^b(T)$ là một đồng phôi (GT, IX, §1, No. 5).
 
-#### Mệnh đề 6 {#int-ix-s5-prop-6 .statement}
+#### Mệnh đề 6 {#int-ix-s5-prop-6 .statement tag=09R8}
 
 — Cho T là một không gian hoàn toàn chính quy.
 
@@ -195,7 +195,7 @@ b) Cho f là một hàm bị chặn trên nửa liên tục, được xác đị
 
 Vì, ta thấy theo Mệnh đề 1 b) của No. 1 rằng $\mu \mapsto |\mu|^*(f)$ là bao trên của một họ các hàm có dạng $\mu \mapsto |\mu(g)|$ với $g \in \mathscr{C}^b(T)$, do đó liên tục đối với tôpô chặt. Điều này thiết lập a). Để chứng minh b), chỉ cần chọn một cận trên hằng C cho f, và viết $\mu(f) = \mu(C) - \mu(C - f)$; hàm $\mu \mapsto \mu(C)$ là liên tục, và hàm $\mu \mapsto \mu(C - f)$ là dưới nửa liên tục trên $\mathscr{M}_+^b(T)$ theo điều trên.
 
-#### Mệnh đề 7 {#int-ix-s5-prop-7 .statement}
+#### Mệnh đề 7 {#int-ix-s5-prop-7 .statement tag=09R9}
 
 — Cho T là một không gian hoàn toàn chính quy. Cho $\mu$ là một độ đo dương bị chặn trên T, và cho f là một hàm dương bị chặn trên T, sao cho tập hợp các điểm của T tại đó f không liên tục là địa phương \mu-không đáng kể. Khi đó ánh xạ $\lambda \mapsto \lambda^*(f)$ của $\mathscr{M}_+^b(T)$ vào $\mathbf{R}$ là liên tục tại điểm $\mu$.
 
@@ -210,7 +210,7 @@ $$
 
 Suy ra bằng cách nhận thấy rằng $\mu^*(f') = \mu^*(f'')$, vì $f'$ và $f''$ bằng nhau địa phương hầu khắp theo $\mu$.
 
-#### Mệnh đề 8 {#int-ix-s5-prop-8 .statement}
+#### Mệnh đề 8 {#int-ix-s5-prop-8 .statement tag=09RA}
 
 — Cho X là một không gian hoàn toàn chính quy, T là một không gian con của X, và i là đơn ánh chính tắc của T vào X. Ký hiệu W là tập hợp các độ đo dương bị chặn trên X tập trung trên T, được trang bị tôpô cảm sinh bởi $\mathscr{M}^b(X)$. Khi đó ánh xạ $\mu \mapsto i(\mu)$ của $\mathscr{M}_+^b(T)$ vào $\mathscr{M}^b(X)$ là một đồng phôi của $\mathscr{M}_+^b(T)$ lên W.
 
@@ -242,7 +242,7 @@ Nhưng ta có thể thay $f'$ và $f''$ bởi $f^0$ trong hai công thức này,
 
 Mệnh đề của Mệnh đề 8 chỉ đúng cho các độ đo dương: ánh xạ $\mu \mapsto i(\mu)$ của $\mathscr{M}^b(T)$ vào $\mathscr{M}^b(X)$ là đơn ánh và liên tục, nhưng nói chung không phải là một đồng phôi từ $\mathscr{M}^b(T)$ onto ảnh của nó. Chẳng hạn, lấy $X = \mathbf{R}$, $T = \mathbf{R} - \{0\}$; các độ đo $\lambda_t = \varepsilon_t - \varepsilon_{-t}$ ($t > 0$) hội tụ chặt về $0$ trong $X$ khi $t$ tiến tới $0$, nhưng không hội tụ chặt về $0$ trong $T$ (hàm đặc trưng của $]0, +\infty[$ thuộc $\mathscr{C}^b(T)$) (cf. tuy nhiên Hệ quả của Định lý 1 của No. 5).
 
-#### Mệnh đề 9 {#int-ix-s5-prop-9 .statement}
+#### Mệnh đề 9 {#int-ix-s5-prop-9 .statement tag=09RB}
 
 — *Cho T là một không gian địa phương compact, và cho $\mathfrak{F}$ là một bộ lọc trên $\mathscr{M}^b_+(T)$ hội tụ mơ hồ về một độ đo bị chặn $\mu$. Để $\mathfrak{F}$ hội tụ chặt về $\mu$, điều kiện cần và đủ là $\lim_{\lambda} \lambda(1) = \mu(1)$ đối với $\mathfrak{F}$.*
 
@@ -260,7 +260,7 @@ Hiện nay, đẳng thức này được thỏa mãn khi $g$ có giá compact tr
 
 Trước hết nhận thấy rằng nếu $T$ là một không gian chính quy hoàn toàn, thì $\mathscr{M}^b(T)$ là một không gian vectơ tôpô Hausdorff, do đó là chính quy hoàn toàn. Suy ra, $\mathscr{M}_+^b(T)$ là chính quy hoàn toàn.
 
-#### Mệnh đề 10 {#int-ix-s5-prop-10 .statement}
+#### Mệnh đề 10 {#int-ix-s5-prop-10 .statement tag=09RC}
 
 *Cho $T$ là một không gian Polish; khi đó không gian $\mathscr{M}_+^b(T)$ là Polish đối với tôpô chặt.*
 
@@ -268,13 +268,13 @@ Ta bắt đầu bằng trường hợp $T$ là Polish và *compact*. Khi đó t�
 
 Ta xét trường hợp $T$ là Polish; có thể giả sử rằng $T$ là giao của một dãy giảm $(G_n)$ các tập mở trong một không gian compact mêtrizable $X$ (GT, IX, §6, No. 1, Hệ quả 1 của Định lý 1); khi đó không gian $\mathscr{M}_+^b(T)$ đẳng cấu tôpô với không gian con $W$ của $\mathscr{M}_+^b(X)$ gồm các độ đo tập trung trên $T$ (No. 3, Mệnh đề 8), và chỉ cần chứng minh rằng $W$ là giao của một dãy các tập mở trong không gian Polish $\mathscr{M}_+^b(X)$ (GT, *loc. cit.*, Định lý 1). Bây giờ, ký hiệu $W_n$ là tập các độ đo $\mu \in \mathscr{M}_+^b(X)$ tập trung trên $G_n$; ánh xạ $h_n : \mu \mapsto \mu^*(X - G_n)$ trên $\mathscr{M}_+^b(X)$ là nửa liên tục trên (No. 3, Mệnh đề 6), và tập $A_k^n$ gồm các độ đo $\mu \in \mathscr{M}_+^b(X)$ sao cho $h_n(\mu) < 1/k$ do đó là mở với mọi $k \geq 1$ và mọi $n \in \mathbf{N}$. Chứng minh được hoàn tất bằng cách nhận thấy rằng $W = \bigcap_n W_n = \bigcap_{n,k} A_k^n$.
 
-#### Hệ quả 1 {#int-ix-s5-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#int-ix-s5-prop-10-cor-1 .statement tag=09RD}
 
 *Nếu T là một không gian mêtrizable kiểu đếm được, thì $\mathscr{M}_+^b(T)$ là mêtrizable kiểu đếm được đối với tôpô chặt.*
 
 Thật vậy, cho $\hat{T}$ là bao đầy đủ của T đối với một metric xác định tôpô của T; không gian $\hat{T}$ là Polish, và $\mathscr{M}_+^b(T)$ đẳng cấu tôpô với không gian con của không gian Polish $\mathscr{M}_+^b(\hat{T})$ gồm các độ đo tập trung trên T (No. 3, Mệnh đề 8). Nhưng mọi không gian con của một không gian Polish đều mêtrizable kiểu đếm được (GT, IX, §2, No. 8).
 
-#### Hệ quả 2 {#int-ix-s5-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#int-ix-s5-prop-10-cor-2 .statement tag=09RE}
 
 *Nếu T là một không gian Souslin (tương ứng Lusin) chính quy hoàn toàn, thì không gian $\mathscr{M}_+^b(T)$ là Souslin (tương ứng Lusin).*
 
@@ -284,7 +284,7 @@ Cho T là một không gian Souslin chính quy hoàn toàn (nhắc rằng, với
 
 ### 5. Tiêu chuẩn compact cho hội tụ chặt
 
-#### Định nghĩa 2 {#int-ix-s5-def-2 .statement}
+#### Định nghĩa 2 {#int-ix-s5-def-2 .statement tag=09RF}
 
 *Cho T là một không gian tôpô, và cho H là một tập con của $\mathscr{M}^b(T)$; người ta nói rằng H thỏa mãn điều kiện Prokhorov nếu*
     a) $\sup_{\mu \in H} |\mu|(1) < +\infty$;
@@ -295,7 +295,7 @@ Cho T là một không gian Souslin chính quy hoàn toàn (nhắc rằng, với
 
 Có thể chứng minh rằng nếu T là chính quy hoàn toàn, thì tập các điều kiện *a)* và *b)* tương đương với điều kiện sau: tồn tại một hàm thực $f \geq 1$ trên T sao cho tập các điểm t của T thỏa mãn $f(t) \leq c$ là compact với mọi $c \in \mathbf{R}_+$ (điều này đặc biệt suy ra rằng f là nửa liên tục dưới), và sao cho $\sup_{\mu \in H} |\mu|(f) < +\infty$. Hơn nữa, khi T là compact địa phương, ta thu được một mệnh đề tương đương bằng cách đòi hỏi f liên tục (xem Bài tập 10).
 
-#### Mệnh đề 11 {#int-ix-s5-prop-11 .statement}
+#### Mệnh đề 11 {#int-ix-s5-prop-11 .statement tag=09RG}
 
 *Cho T là một không gian chính quy hoàn toàn, và cho H là một tập con của $\mathscr{M}^b(T)$ thỏa mãn điều kiện Prokhorov; khi đó bao đóng $\overline{H}$ của nó trong $\mathscr{M}^b(T)$ cũng thỏa mãn điều kiện Prokhorov.*
 
@@ -303,7 +303,7 @@ Vì, các hàm $\mu \mapsto |\mu|^*(1)$, $\mu \mapsto |\mu|^*(T - K_\varepsilon)
 
 Ý nghĩa của điều kiện Prokhorov xuất phát từ định lý sau, mà đảo lại của nó sẽ được khảo sát sau này (Định lý 2).
 
-#### Định lý 1 (Prokhorov) {#int-ix-s5-thm-1 .statement}
+#### Định lý 1 (Prokhorov) {#int-ix-s5-thm-1 .statement tag=09RH}
 
 — *Cho T là một không gian chính quy hoàn toàn, và cho H là một tập con của $\mathscr{M}^b(T)$ thỏa mãn điều kiện Prokhorov; khi đó H tương đối compact trong $\mathscr{M}^b(T)$ đối với tôpô chặt.*
 
@@ -326,7 +326,7 @@ $$
 
 vì $\mu = a_1(\mu) - a_2(\mu) + ia_3(\mu) - ia_4(\mu)$, nên chỉ cần chứng minh rằng các ánh xạ $a_j$ ($j = 1, 2, 3, 4$) hội tụ chặt theo $\mathfrak{U}$. Nhưng tập $H_j$ gồm các độ đo $a_j(\mu)$, khi $\mu$ chạy qua H, thỏa mãn điều kiện Prokhorov nhờ hệ thức $|a_j(\mu)| \leq |\mu|$, và nằm trong $\mathscr{M}_+^b(T)$; do đó nó tương đối compact trong $\mathscr{M}_+^b(T)$ theo trường hợp đặc biệt, và khi ấy định lý suy ra ngay.
 
-#### Hệ quả {#int-ix-s5-n5-cor-1 .statement}
+#### Hệ quả {#int-ix-s5-n5-cor-1 .statement tag=09RI}
 
 ==========
 
@@ -336,7 +336,7 @@ Chỉ cần xét trường hợp H đóng (Mệnh đề 11), do đó compact; k�
 
 Nhắc lại rằng kết quả này cũng đúng cho một tập con tùy ý của $\mathscr{M}_+^b(T)$ (No. 3, Mệnh đề 8).
 
-#### Định lý 2 {#int-ix-s5-thm-2 .statement}
+#### Định lý 2 {#int-ix-s5-thm-2 .statement tag=09RJ}
 
 — Cho T là một không gian địa phương compact, hoặc một không gian Polish, và cho H là một tập con tương đối compact của $\mathscr{M}_+^b(T)$; khi đó H thỏa mãn điều kiện của Prokhorov.
 
@@ -348,7 +348,7 @@ Tiếp theo giả sử T là Polish. Ta không hạn chế tính tổng quát kh
 
 ### 6. Hội tụ chặt của độ đo và hội tụ compact của hàm
 
-#### Mệnh đề 12 {#int-ix-s5-prop-12 .statement}
+#### Mệnh đề 12 {#int-ix-s5-prop-12 .statement tag=09RK}
 
 — Cho T là một không gian hoàn toàn chính quy, và cho B là quả cầu đơn vị của không gian định chuẩn $\mathscr{C}^b(T; \mathbf{C})$. Cho I là một dạng tuyến tính trên $\mathscr{C}^b(T; \mathbf{C})$. Để tồn tại một độ đo phức bị chặn $\theta$ trên T sao cho $I(f) = \theta(f)$ với mọi $f \in \mathscr{C}^b(T; \mathbf{C})$, cần và đủ là hạn chế của I lên B liên tục đối với tôpô hội tụ compact. Khi đó $\theta$ là duy nhất.
 
@@ -362,7 +362,7 @@ vì $|g - f|$ bị chặn trên bởi $\varepsilon$ trên K và bởi 2 trên $T
 
 Ngược lại, xét một dạng tuyến tính I trên $\mathscr{C}^b(T; \mathbf{C})$ mà sự hạn chế của nó lên B liên tục đối với tôpô hội tụ compact. Khi đó, với mọi số $\varepsilon > 0$, tồn tại một số $a > 0$ và một tập con compact K của T sao cho các quan hệ $f \in B, \sup_{x \in K} |f(x)| \leq a$ kéo theo $|I(f)| \leq \varepsilon$. Mệnh đề 5 của No. 2 khi đó suy ra sự tồn tại của một độ đo phức bị chặn duy nhất $\theta$ sao cho $I(f) = \theta(f)$ với mọi $f \in \mathscr{C}^b(T; \mathbf{C})$.
 
-#### Mệnh đề 13 {#int-ix-s5-prop-13 .statement}
+#### Mệnh đề 13 {#int-ix-s5-prop-13 .statement tag=09RL}
 
 — Cho T là một không gian compact địa phương, và H là một tập con bị chặn của không gian định chuẩn $\mathscr{C}^b(T; \mathbf{C})$. Ánh xạ $(\mu, f) \mapsto \mu(f)$ của $\mathscr{M}_+^b(T) \times H$ vào $\mathbf{C}$ khi đó liên tục, khi $\mathscr{M}_+^b(T)$ được trang bị tôpô chặt, và H với tôpô hội tụ compact.
 
@@ -388,11 +388,11 @@ $$
 $$
 Điều này chứng minh tính liên tục của ánh xạ $(\lambda, g) \mapsto \lambda(g)$ tại điểm $(\mu, f)$ của $\mathscr{M}_+^b(T) \times H$.
 
-#### Nhận xét {#int-ix-s5-n6-rem-1 .statement}
+#### Nhận xét {#int-ix-s5-n6-rem-1 .statement tag=09RM}
 
 Cho $T$ là một không gian chính quy hoàn toàn, $M$ là một tập con của $\mathscr{M}^b(T)$ thỏa mãn điều kiện Prokhorov, $H$ là một tập con bị chặn của $C^b(T)$. Một lập luận rất gần với lập luận vừa nêu có thể dùng để chứng minh rằng ánh xạ $(\lambda, g) \mapsto \lambda(g)$ của $M \times H$ vào $\mathbf{C}$ là liên tục khi $M$ được trang bị tôpô chặt và H với tôpô hội tụ compact.
 
-#### Hệ quả {#int-ix-s5-n6-cor-1 .statement}
+#### Hệ quả {#int-ix-s5-n6-cor-1 .statement tag=09RN}
 
 *Cho $T$ là một không gian hoàn toàn chính quy, $X$ là một không gian tôpô, và $f$ là một hàm nhận giá trị phức xác định trên $T \times X$, liên tục và bị chặn. Với mọi độ đo bị chặn $\mu$ trên $T$, ký hiệu $F_\mu$ là hàm trên $X$ được xác định bởi $F_\mu(x) = \int_T f(t, x) d\mu(t)$ với mọi $x \in X$.
 
@@ -419,7 +419,7 @@ $$
 
 Theo Định lý 3 của GT, X, §3, No. 4, ánh xạ $(m, \chi) \mapsto \chi(m)$ từ $M \times X$ vào $\mathbf{C}$ là liên tục và bị chặn. Hệ quả của Mệnh đề 13 của No. 6 suy ra kết quả sau:
 
-#### Mệnh đề 14 {#int-ix-s5-prop-14 .statement}
+#### Mệnh đề 14 {#int-ix-s5-prop-14 .statement tag=09RO}
 
 *Với mọi độ đo phức bị chặn $\mu$ trên $M$, hàm $\mathscr{L}\mu$ trên $X$ là liên tục và bị chặn. Nếu $\mathscr{M}_+^b(M)$ được trang bị tôpô chặt và $\mathscr{C}^b(X; \mathbf{C})$ được trang bị tôpô của sự hội tụ compact, thì ánh xạ $\mu \mapsto \mathscr{L}\mu$ từ $\mathscr{M}_+^b(M)$ vào $\mathscr{C}^b(X; \mathbf{C})$ là liên tục.*
 
@@ -427,7 +427,7 @@ Tập các đặc trưng của $M$ tiến tới 0 ở vô cùng sẽ được k�
 
 Giả sử thêm rằng $M$ là một nhóm Abel không compact. Cho $f$ là một hàm trên $M$ tiến tới 0 ở vô cùng; khi đó hàm $x \mapsto f(x)f(-x)$ trên $M$ cũng vậy, trong khi mọi đặc trưng $\chi$ của $M$ đều thỏa $\chi(x)\chi(-x) = \chi(0) = 1$. Suy ra $X_0$ rỗng, và $X$ không chứa bất kỳ monoid con đầy đủ nào. Do đó, Định lý 3 dưới đây không áp dụng cho các nhóm địa phương compact không compact.
 
-#### Định lý 3 {#int-ix-s5-thm-3 .statement}
+#### Định lý 3 {#int-ix-s5-thm-3 .statement tag=09RP}
 
 *Cho S là một monoid con đầy đủ của X.*
 a) *Nếu $\mu$ và $\mu'$ là hai độ đo phức bị chặn trên $M$, sao cho $\mathscr{L}\mu$ và $\mathscr{L}\mu'$ có cùng hạn chế trên $S \cap X_0$, thì $\mu = \mu'$.*
@@ -446,7 +446,7 @@ Ta đặt mình dưới các giả thiết của b). Số $\Phi(1) = \lim_{\lamb
 
 Cuối cùng, ta xét c). Vì các hàm $\Phi$ và $\mathscr{L} \mu$ liên tục tại điểm $1 \in S$, và bằng nhau trên $S \cap X_0$, lại vì $1$ thuộc bao đóng của $S \cap X_0$, ta có $\Phi(1) = \mathscr{L} \mu(1)$. Nói cách khác, $\lim_{\lambda, \mathfrak{F}} \lambda(1) = \mu(1)$. Mệnh đề 9 của No. 3 khi đó cho thấy rằng $\mu$ là giới hạn chặt của bộ lọc $\mathfrak{F}$. Mọi phần tử của $S$ đều là một hàm liên tục bị chặn trên $M$, điều này suy ra rằng $\Phi(s) = \lim_{\lambda, \mathfrak{F}} \lambda(s) = \mu(s) = \mathscr{L} \mu(s)$ với mọi $s \in S$.
 
-#### Hệ quả {#int-ix-s5-n7-cor-1 .statement}
+#### Hệ quả {#int-ix-s5-n7-cor-1 .statement tag=09RQ}
 
 — *Cho $S$ là một monoid con đầy đủ của $X$, sao cho bao đóng của $S \cap X_0$ chứa 1. Gọi $L$ là tập con của $\mathscr{C}^b(S; \mathbf{C})$ gồm các hạn chế lên $S$ của các biến đổi Laplace của các độ đo $\lambda \in \mathscr{M}_+^b(M)$.*
 
@@ -464,7 +464,7 @@ Cần lưu ý rằng L không đóng trong tập tất cả các hàm phức b�
 
 Mọi độ đo $\mu$ trên N có thể được viết duy nhất dưới dạng $\mu = \sum_{n \in \mathbf{N}} u_n \cdot \varepsilon^n$, và $\mu$ bị chặn khi và chỉ khi $\sum_n |u_n| < +\infty$; khi đó ta có $\mathscr{L}\mu(z) = \sum_{n \in \mathbf{N}} u_n z^n$ với $z \in D$. Hàm này liên tục trên D; người ta thường gọi nó là *hàm sinh* của dãy khả tổng $(u_n)_{n \in \mathbf{N}}$. Chuyển sang ngôn ngữ này, Th. 3 cho kết quả sau (xét đến Mệnh đề 9 của No. 3):
 
-#### Mệnh đề 15 {#int-ix-s5-prop-15 .statement}
+#### Mệnh đề 15 {#int-ix-s5-prop-15 .statement tag=09RR}
 
 *Cho A là một tập hợp được trang bị một bộ lọc $\mathfrak{F}$. Với mọi $\alpha \in A$, cho $(u_{\alpha,n})_{n \in \mathbf{N}}$ là một dãy khả tổng các số dương, và cho $\Phi_\alpha$ là hàm xác định trên khoảng ]0, 1] của \mathbf{R} bởi $\Phi_\alpha(x) = \sum_{n \in \mathbf{N}} u_{\alpha,n} x^n$. Để tồn tại một dãy khả tổng $(u_n)_{n \in \mathbf{N}}$ các số dương sao cho*
 
@@ -478,7 +478,7 @@ Các kết quả tương tự nhận được khi lấy $M$ là monoid $\mathbf{
 
 Ví dụ 2). — Hãy lấy cho $M$ tập hợp $\mathbf{R}_+$, được trang bị luật cộng và tôpô thông thường. Cho $P$ là tập hợp các số phức $z$ có phần thực dương, được trang bị tôpô cảm sinh bởi $C$, và luật cảm sinh bởi phép cộng trong $C$. Với mọi $p \in P$, ký hiệu $f(p)$ là đặc trưng $x \mapsto e^{-px}$ của $\mathbf{R}_+$; dễ thấy rằng $f$ là một đẳng cấu của cấu trúc monoid tôpô của $P$ lên cấu trúc của $X$; ta sẽ đồng nhất $X$ với $P$ qua $f$. Hiển nhiên $\mathbf{R}_+$ là một monoid con đầy đủ của $P$, và Định lý 3 cho kết quả sau:
 
-#### Mệnh đề 16 {#int-ix-s5-prop-16 .statement}
+#### Mệnh đề 16 {#int-ix-s5-prop-16 .statement tag=09RS}
 
 *Cho $A$ là một tập hợp được trang bị một bộ lọc $\mathscr{F}$. Với mọi $\alpha \in A$, cho $\mu_\alpha$ là một độ đo dương bị chặn trên $\mathbf{R}_+$, và cho $\Phi_\alpha$ là hàm xác định trên $\mathbf{R}_+$ bởi $\Phi_\alpha(p) = \int_0^{+\infty} e^{-px} d\mu_\alpha(x)$. Để ánh xạ $\alpha \mapsto \mu_\alpha$ hội tụ chặt theo $\mathscr{F}$ đến một độ đo dương bị chặn $\mu$, điều kiện cần và đủ là $\Phi_\alpha$ hội tụ từng điểm trên $\mathbf{R}_+$, theo $\mathscr{F}$, đến một hàm $\Phi$ liên tục tại điểm 0. Trong trường hợp này, $\Phi(p) = \int_0^{+\infty} e^{-px} d\mu(x)$ với mọi $p \in \mathbf{R}_+$. \*
 

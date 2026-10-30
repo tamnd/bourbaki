@@ -24,14 +24,14 @@ subsections:
       pdf_page: 28
 statements: 1
 exercises: 2
-content_sha256: 253a1c01cd6f9c44097f66ce6edc145a7650e56bfa06ec21ab22bc689a764fbb
+content_sha256: 55a9b7eecb6aa809fbac52ae103f840e9203fcdc0fe64340d7af904b5c851e60
 ---
 
 ## 4. EXPONENTIALS AND LOGARITHMS
 
 ### 1. DEFINITION OF $a^x$ AND $\log_a x$
 
-#### Theorem 1 {#top-v-s4-thm-1 .statement}
+#### Theorem 1 {#top-v-s4-thm-1 .statement tag=0BW0}
 
 *The multiplicative group* $\mathbf{R}_+^*$ *of real numbers* $> 0$ *is a topological group isomorphic to the additive group* $\mathbf{R}$ *of real numbers*.
 

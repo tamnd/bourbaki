@@ -49,14 +49,14 @@ subsections:
       pdf_page: 475
 statements: 30
 exercises: 15
-content_sha256: d61f51f314120a8ecb61ca8624e76af2c6cfe6fdec09cff73c9a5ddcfef31069
+content_sha256: 21b6c190ccded6382512eb29aebfac3442b9f1f703f3616df6e0575f49251304
 ---
 
 ## § 7. ALGÈBRE EXTÉRIEURE
 
 ### 1. Définition de l’algèbre extérieure d’un module
 
-#### Définition 1 {#alg-iii-s7-def-1 .statement}
+#### Définition 1 {#alg-iii-s7-def-1 .statement tag=062S}
 
 Soient $A$ un anneau commutatif, $M$ un $A$-module. On appelle algèbre extérieure de $M$, et on note $\wedge(M)$ ou $\mathrm{Alt}(M)$ ou $\wedge_A(M)$, l’algèbre sur $A$ quotient de l’algèbre tensorielle $T(M)$ par l’idéal bilatère $\mathfrak{I}''$ (aussi noté $\mathfrak{I}_{M}''$) engendré par les éléments $x \otimes x$, où $x$ parcourt $M$.
 
@@ -64,7 +64,7 @@ L’idéal $\mathfrak{I}''$ étant engendré par des éléments homogènes de de
 
 On a $\mathfrak{g}_0' = \mathfrak{g}_1'' = \{0\}$, donc $\wedge^0(M)$ s’identifie canoniquement à $A$ et $\wedge^1(M)$ à $T^1(M) = M$; nous ferons toujours par la suite ces identifications, et nous noterons $\varphi''$ ou $\varphi_M''$ l’injection canonique $M \to \wedge(M)$.
 
-#### Proposition 1 {#alg-iii-s7-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s7-prop-1 .statement tag=062T}
 
 *Soient E une A-algèbre, $f : M \to E$ une application A-linéaire telle que*
 $$
@@ -76,7 +76,9 @@ En d’autres termes, $(\wedge(M), \varphi'')$ est solution du *problème d’ap
 
 L’unicité de $g$ résulte de ce que $\varphi''(M) = M$ engendre $\wedge(M)$. Pour prouver l’existence de $g$, notons qu’en vertu de III, p. 56, prop. 1, il existe un homomorphisme $g_1 : T(M) \to E$ de A-algèbres tel que $f = g_1 \circ \varphi$; tout revient à voir que $g_1$ s’annule dans l’idéal $\mathfrak{g}'$, car alors, si $p : T(M) \to \wedge(M) = T(M)/\mathfrak{g}'$ est l’homomorphisme canonique, on pourra écrire $g_1 = g \circ p$, où $g : \wedge(M) \to E$ est un homomorphisme d’algèbres, et la conclusion résultera de ce que $p \circ \varphi = \varphi''$. Or, le noyau de $g_1$ est un idéal bilatère qui, en vertu de (1) et de la relation $g_1 \circ \varphi = f$, contient les éléments $x \otimes x$ pour $x \in M$. Ceci termine la démonstration.
 
-*Remarques. — 1) Supposons que E soit une A-algèbre *graduée* de type $\mathbf{Z}$, de graduation $(E_n)$, et supposons en outre que l’application linéaire $f$ (supposée vérifier (1)) soit telle que*
+#### Remarques {#alg-iii-s7-n1-rem-1 .statement tag=062U}
+
+*1) Supposons que E soit une A-algèbre *graduée* de type $\mathbf{Z}$, de graduation $(E_n)$, et supposons en outre que l’application linéaire $f$ (supposée vérifier (1)) soit telle que*
 $$
 f(M) \subset E_1.
 $$
@@ -86,7 +88,7 @@ Alors la relation $g(x_1 x_2 \ldots x_p) = f(x_1) f(x_2) \ldots f(x_p)$ pour les
 
 ### 2. Propriétés fonctorielles de l’algèbre extérieure
 
-#### Proposition 2 {#alg-iii-s7-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s7-prop-2 .statement tag=062V}
 
 *Soient A un anneau commutatif, M et N deux A-modules, $u : M \to N$ une application A-linéaire. Il existe un homomorphisme de A-algèbres et un seul,*
 $$
@@ -124,7 +126,7 @@ $$
 $$
 pour les $x_i \in \mathbf{M}$, puisque $\wedge(u)$ est un homomorphisme d’algèbres et $\wedge^1(u) = u$; la restriction $\wedge^0(u)$ à $\mathbf{A}$ est l’application identique. On notera que $\wedge^n(u)$ provient de $\mathbf{T}^n(u) : \mathbf{T}^n(\mathbf{M}) \to \mathbf{T}^n(\mathbf{N})$ par passage aux quotients.
 
-#### Proposition 3 {#alg-iii-s7-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s7-prop-3 .statement tag=062W}
 
 *Si $u : \mathbf{M} \to \mathbf{N}$ est une application A-linéaire surjective, l’homomorphisme $\wedge(u) : \wedge(\mathbf{M}) \to \wedge(\mathbf{N})$ est surjectif, et son noyau est l’idéal bilatère de $\wedge(\mathbf{M})$ engendré par le noyau $\mathbf{P} \subset \mathbf{M} \subset \wedge(\mathbf{M})$ de $u$.
 
@@ -132,7 +134,7 @@ La démonstration se déduit de celle de III, p. 69, prop. 4 en y remplaçant S 
 
 Si $u : \mathbf{M} \to \mathbf{N}$ est une application linéaire injective, il n’est pas toujours vrai que $\wedge(u)$ soit une application injective (III, p. 188, exerc. 3) (voir cependant plus loin III, p. 88, corollaire). Toutefois il en est ainsi lorsque $u$ est une injection telle que $u(\mathbf{M})$ soit facteur direct de $\mathbf{N}$, et alors l’image de $\wedge(u)$ (isomorphe à $\wedge(\mathbf{M})$) est facteur direct de $\wedge(\mathbf{N})$; la démonstration est la même que celle des assertions analogues pour $\mathbf{T}(u)$ (III, p. 58) en remplaçant $\mathbf{T}$ par $\wedge$.
 
-#### Proposition 4 {#alg-iii-s7-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s7-prop-4 .statement tag=062X}
 
 *Soient $\mathbf{N}$ et $\mathbf{P}$ deux sous-modules d’un A-module $\mathbf{M}$, tels que leur somme $\mathbf{N} + \mathbf{P}$ soit facteur direct dans $\mathbf{M}$, et que leur intersection $\mathbf{N} \cap \mathbf{P}$ soit facteur direct dans $\mathbf{N}$ et dans $\mathbf{P}$. Alors les homomorphismes $\wedge(\mathbf{N}) \to \wedge(\mathbf{M}), \wedge(\mathbf{P}) \to \wedge(\mathbf{M})$ et $\wedge(\mathbf{N} \cap \mathbf{P}) \to \wedge(\mathbf{M})$ prolongements canoniques des injections canoniques, sont injectifs; si l’on identifie $\wedge(\mathbf{N}), \wedge(\mathbf{P}),$ et $\wedge(\mathbf{N} \cap \mathbf{P})$ à des sous-algèbres de $\wedge(\mathbf{M})$ au moyen de ces homomorphismes, on a*
 $$
@@ -141,7 +143,7 @@ $$
 
 La démonstration se déduit de celle de III, p. 58, prop. 4 en remplaçant partout T par $\wedge$. Les hypothèses de la prop. 4 sont toujours vérifiées pour des sous-modules quelconques N, P de M lorsque A est un corps.
 
-#### Corollaire {#alg-iii-s7-n2-cor-1 .statement}
+#### Corollaire {#alg-iii-s7-n2-cor-1 .statement tag=062Y}
 
 Soient K un corps commutatif, M un espace vectoriel sur K. Pour tout élément $z \in \wedge(M)$, il existe un plus petit sous-espace vectoriel N de M tel que $z \in \wedge(N)$, et N est de dimension finie.
 
@@ -151,7 +153,7 @@ On dit que N est le sous-espace vectoriel de M associé à l’élément z de $\
 
 ### 3. Anticommutativité de l’algèbre extérieure
 
-#### Proposition 5 {#alg-iii-s7-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s7-prop-5 .statement tag=062Z}
 
 (i) Soit $(x_i)_{1 \leq i \leq n}$ une suite finie d’éléments du module M; pour toute permutation $\sigma$ du groupe symétrique $\mathfrak{S}_n$, on a
 
@@ -179,7 +181,7 @@ Ceci établit (6) dans le cas où $n = 2$. Le cas général résulte alors de II
 
 (ii) Sous les hypothèses de (ii), il existe une permutation $\sigma \in \mathfrak{S}_n$ telle que $\sigma(1) = i$ et $\sigma(2) = j$; alors le premier membre de (6) est nul pour cette permutation, donc il en est de même du second.
 
-#### Corollaire 1 {#alg-iii-s7-prop-5-cor-1 .statement}
+#### Corollaire 1 {#alg-iii-s7-prop-5-cor-1 .statement tag=0630}
 
 Soient H, K deux parties complémentaires de l’intervalle $[1, n]$ de $\mathbf{N}$, et soient $(i_h)_{1 \leq h \leq p}$, $(j_k)_{1 \leq k \leq n-p}$ les suites des éléments de H et de K respectivement, rangées dans l’ordre croissant; posons
 
@@ -197,18 +199,18 @@ où $\nu$ est le nombre des couples $(i, j) \in H \times K$ tels que $i > j$.
 
 Compte tenu de la prop. 5, tout revient à prouver le
 
-#### Lemme 1 {#alg-iii-s7-lem-1 .statement}
+#### Lemme 1 {#alg-iii-s7-lem-1 .statement tag=0631}
 
 Si $\sigma \in \mathfrak{S}_n$ est la permutation telle que $\sigma(h) = i_h$ pour $1 \leq h \leq p$, $\sigma(h) = j_{h-p}$ pour $p + 1 \leq h \leq n$, on a $\varepsilon_\sigma = (-1)^{\nu}$.
 
 En effet, pour $1 \leq h < h' \leq p$ ou $p + 1 \leq h < h' \leq n$, on a $\sigma(h') > \sigma(h)$, et le nombre des couples $(h, h')$ tels que $1 \leq h \leq p < h' \leq n$ et que $\sigma(h) > \sigma(h')$ est égal à $\nu$.
 
-#### Corollaire 2 {#alg-iii-s7-lem-1-cor-2 .statement}
+#### Corollaire 2 {#alg-iii-s7-lem-1-cor-2 .statement tag=0632}
 
 *L’algèbre graduée* $\wedge(M)$ *est alternée* (III, p. 53).
 Il suffit en effet d’appliquer à $\wedge(M)$ la prop. 13 de III, p. 54, en prenant pour système générateur l’ensemble M et en utilisant la prop. 5 de III, p. 79.
 
-#### Proposition 6 {#alg-iii-s7-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s7-prop-6 .statement tag=0633}
 
 *Si M est un A-module de type fini, $\wedge(M)$ est un A-module de type fini; de plus, si M admet un système générateur à n éléments, on a $\wedge^p(M) = \{0\}$ pour $p > n$.*
 Soit en effet $(x_i)_{1 \leq i \leq n}$ un système générateur de M. Tout élément de $\wedge^p(M)$ est combinaison linéaire d’éléments de la forme
@@ -226,7 +228,7 @@ f(u_1, \ldots, u_p, x, x, v_1, \ldots, v_{n-p-2}) = 0
 $$
 quels que soient $x$, les $u_i$ ($1 \leq i \leq p$) et les $v_j$ ($1 \leq j \leq n - p - 2$) dans M.
 
-#### Proposition 7 {#alg-iii-s7-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s7-prop-7 .statement tag=0634}
 
 *Soient A un anneau commutatif, M et N deux A-modules. Si, à toute application A-linéaire $g : \wedge^n(M) \to N$ ($n \geq 2$) on associe l’application n-linéaire*
 (9)
@@ -254,7 +256,7 @@ $$
 $$
 qui coïncide avec $\wedge(u)$ dans $\wedge^n(\mathbf{M})$ s’appelle la puissance extérieure $n$-ème de $u$.
 
-#### Corollaire 1 {#alg-iii-s7-prop-7-cor-1 .statement}
+#### Corollaire 1 {#alg-iii-s7-prop-7-cor-1 .statement tag=0635}
 
 *Pour toute application n-linéaire alternée $g : \mathbf{M}^n \to \mathbf{N}$, on a, pour toute permutation $\sigma \in \mathfrak{S}_n$*,
 $$
@@ -266,7 +268,7 @@ g(x_1, x_2, \ldots, x_n) = 0.
 $$
 C’est une conséquence évidente de la prop. 7 de III, p. 80 et de III, p. 79, prop. 5.
 
-#### Corollaire 2 {#alg-iii-s7-prop-7-cor-2 .statement}
+#### Corollaire 2 {#alg-iii-s7-prop-7-cor-2 .statement tag=0636}
 
 *Soit $(x_i)_{1 \leq i \leq n}$ une suite de n éléments de $\mathbf{M}$ telle que*
 $$
@@ -274,7 +276,7 @@ x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0;
 $$
 *alors, pour toute application n-linéaire alternée $g : \mathbf{M}^n \to \mathbf{N}$, on a* $g(x_1, \ldots, x_n) = 0$.
 
-#### Corollaire 3 {#alg-iii-s7-prop-7-cor-3 .statement}
+#### Corollaire 3 {#alg-iii-s7-prop-7-cor-3 .statement tag=0637}
 
 *Soit $f : \mathbf{M}^{n-1} \to \mathbf{A}$ une forme $(n-1)$-linéaire alternée. Si $(x_i)_{1 \leq i \leq n}$ est une suite de n éléments de $\mathbf{M}$ telle que $x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0$, on a*
 $$
@@ -287,7 +289,7 @@ $$
 $$
 de $\mathbf{M}^n$ dans $\mathbf{M}$ est *alternée*. Or, si $x_i = x_{i+1}$, tous les termes de la somme du second membre ont des coefficients nuls sauf $x_i$ et $x_{i+1}$, puisque $f$ est alternée; d’autre part, le coefficient de $x_i$ est $(-1)^i f(x_1, \ldots, x_{i-1}, x_{i+1}, x_{i+2}, \ldots, x_n)$ et celui de $x_{i+1}$ est $(-1)^{i+1} f(x_1, \ldots, x_i, x_{i+2}, \ldots, x_n)$ et ils sont opposés par hypothèse.
 
-#### Remarque {#alg-iii-s7-n4-rem-1 .statement}
+#### Remarque {#alg-iii-s7-n4-rem-1 .statement tag=0638}
 
 On dit qu’un élément z de $T^n(M)$ est un tenseur antisymétrique (contravariant) d’ordre n si $\sigma.z = \varepsilon_\sigma z$ pour tout permutation $\sigma \in \mathfrak{S}_n$ (cf. III, p. 71, Remarque); ces éléments forment un sous-A-module $A'_n(M)$ de $T^n(M)$. Pour tout $z \in T^n(M)$, on pose $a.z = \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma(\sigma.z)$ et on dit que $a.z$ est l’antisymétrisé de z; comme $\varepsilon_{\sigma\tau} = \varepsilon_\sigma \varepsilon_\tau$, on voit aussitôt que $a.z$ est un tenseur antisymétrique, et par suite $z \mapsto a.z$ est un endomorphisme de $T^n(M)$ dont l’image $A''_n(M)$ est contenue dans $A'_n(M)$; en général on a $A''_n(M) \neq A'_n(M)$ (III, p. 189, exerc. 8). Si $z$ est un tenseur antisymétrique, on a $a.z = n!z$; donc, lorsque $n!$ est inversible dans A, l’endomorphisme $z \mapsto (n!)^{-1}a.z$ est un projecteur dans $T^n(M)$ dont l’image est $A'_n(M) = A''_n(M)$. En outre le noyau de ce projecteur n’est autre que $\mathfrak{g}_n''$; en effet, on peut évidemment se borner au cas où $n \geqslant 2$, donc 2 (divisant $n!$) est inversible dans A et $x \otimes x = 2^{-1}(x \otimes x + x \otimes x)$; par suite $\mathfrak{g}_n''$ est engendré par les éléments $z + \rho.z$, où $\rho$ est une transposition échangeant deux nombres consécutifs dans $\{1, n\}$; en outre, pour deux permutations $\sigma, \tau$ de $\mathfrak{S}_n$, on peut écrire
 $$
@@ -317,7 +319,7 @@ $$
 
 correspond au $A$-homomorphisme composé $g \circ f : M \to M''$ (relatif à $\sigma \circ \rho$).
 
-#### Proposition 8 {#alg-iii-s7-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s7-prop-8 .statement tag=0639}
 
 *Soient $A, B$ deux anneaux commutatifs, $\rho : A \to B$ un homomorphisme d’anneaux, $M$ un $A$-module. Le prolongement canonique*
 
@@ -333,7 +335,7 @@ La démonstration se déduit de celle de III, p. 60, prop. 5 en y remplaçant $T
 
 Soient $(A_\alpha, \varphi_{\beta \alpha})$ un système inductif filtrant d’anneaux commutatifs, $(M_\alpha, f_{\beta \alpha})$ un système inductif de $A_\alpha$-modules, $A = \lim \longrightarrow A_\alpha, M = \lim \longrightarrow M_\alpha$. Pour $\alpha \leq \beta$, on déduit canoniquement du $A_\alpha$-homomorphisme $f_{\beta \alpha} : M_\alpha \to M_\beta$ un homomorphisme de $A_\alpha$-algèbres (III, p. 82, formule (12)) $f_{\beta \alpha}' : \wedge_{A_\alpha}(M_\alpha) \to \wedge_{A_\beta}(M_\beta)$ et il résulte de (13) que $(\wedge_{A_\alpha}(M_\alpha), f_{\beta \alpha}')$ est un *système inductif de A-algèbres graduées*. Soit d’autre part $f_\alpha : M_\alpha \to M$ le $A_\alpha$-homomorphisme canonique; on en déduit (III, p. 82, formule (12)) un homomorphisme de $A_\alpha$-algèbres graduées, $f_\alpha'' : \wedge_{A_\alpha}(M_\alpha) \to \wedge_A(M)$, et il résulte encore de (13) que les $f_\alpha''$ constituent un système inductif de $A_\alpha$-homomorphismes.
 
-#### Proposition 9 {#alg-iii-s7-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s7-prop-9 .statement tag=063A}
 
 *Le $A$-homomorphisme $f'' = \lim \longrightarrow f_\alpha'' : \lim \longrightarrow \wedge_{A_\alpha}(M_\alpha) \to \wedge_A(M)$ est un isomorphisme d’algèbres graduées.*
 
@@ -353,7 +355,7 @@ f_\lambda : \wedge (M_\lambda) \to \bigotimes_{\lambda \in L}^{\mathfrak{g}} \we
 $$
 l’homomorphisme canonique.
 
-#### Proposition 10 {#alg-iii-s7-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s7-prop-10 .statement tag=063B}
 
 *L’homomorphisme canonique g (formule (14)) est un isomorphisme d’algèbres graduées.*
 Pour prouver que $g$ est bijectif, on définit un homomorphisme d’algèbres graduées
@@ -371,7 +373,7 @@ h : \wedge (M) \to \bigotimes_{\lambda \in L}^{\mathfrak{g}} \wedge (M_\lambda)
 $$
 tel que $h \circ \varphi''_M = u$. La vérification du fait que $g \circ h$ et $h \circ g$ sont les applications identiques se fait alors comme dans III, p. 73, prop. 9 en remplaçant S par $\wedge$, et $\varphi'$ par $\varphi''$.
 
-#### Remarque {#alg-iii-s7-n7-rem-1 .statement}
+#### Remarque {#alg-iii-s7-n7-rem-1 .statement tag=063C}
 
 Soit $N = \bigoplus_{\lambda \in L} N_\lambda$ la somme directe d’une seconde famille de A-modules ayant L pour ensemble d’indices, et, pour tout $\lambda \in L$, soit $v_\lambda : M_\lambda \to N_\lambda$ une application A-linéaire, d’où une application A-linéaire $v = \bigoplus_{\lambda} v_{\lambda} : M \to N$ (II, p. 13, prop. 7). Alors le diagramme
 
@@ -401,13 +403,13 @@ $$
 
 on voit donc que l’on a, compte tenu de II, p. 91, prop. 5:
 
-#### Corollaire {#alg-iii-s7-n7-cor-1 .statement}
+#### Corollaire {#alg-iii-s7-n7-cor-1 .statement tag=063D}
 
 *Le A-module $\wedge^n(M)$ est l’image par l’isomorphisme (14) (III, p. 84) du sous-module de $g \bigotimes_{\lambda \in L} \wedge (M_{\lambda})$ somme directe des sous-modules $\wedge^{\nu}(M)$ pour toutes les familles $\nu = (n_{\lambda}) \in \mathbf{N}^{(L)}$ telles que $\sum_{\lambda \in L} n_{\lambda} = n$; si $J$ est le support de $\nu$, $\wedge^{\nu}(M)$ est canoniquement isomorphe à $\bigotimes_{\lambda \in J} \wedge^{n_{\lambda}}(M_{\lambda})$.*
 
 On identifiera en général $\wedge^{\nu}(M)$, $\bigotimes_{\lambda \in J} \wedge^{n_{\lambda}}(M_{\lambda})$ et leur image dans $\wedge^n(M)$. Avec cette convention:
 
-#### Proposition 11 {#alg-iii-s7-prop-11 .statement}
+#### Proposition 11 {#alg-iii-s7-prop-11 .statement tag=063E}
 
 Soient $\Delta$ un monoïde commutatif à élément neutre, $M$ un $A$-module gradué de type $\Delta$, $(M_\alpha)_{\alpha \in \Delta}$ sa graduation. Pour tout couple $(\alpha, n) \in \Delta \times \mathbf{N}$, soit $\wedge^{\alpha, n}(M)$ le sous-module de $\wedge^n(M)$ somme directe des sous-modules $\bigotimes_{\lambda \in J} \wedge^{n_\lambda}(M_{\alpha_\lambda})$, où $(n_\lambda)_{\lambda \in L}$ parcourt l’ensemble des familles d’entiers $\geqslant 0$ telles que $\sum_{\lambda \in L} n_\lambda = n$, $J$ est son support et, pour chaque $(n_\lambda), (\alpha_\lambda)_{\lambda \in J}$ parcourt l’ensemble des familles de $\Delta^J$ telles que $\sum_{\lambda \in J} \alpha_\lambda = \alpha$. Alors $(\wedge^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ est la seule graduation de type $\Delta \times \mathbf{N}$ compatible avec la structure d’algèbre de $\wedge(M)$ et qui induise sur $M = \wedge^1(M)$ la graduation donnée.
 
@@ -415,7 +417,7 @@ Le fait que $\wedge(M)$ soit somme directe des $\wedge^{\alpha, n}(M)$ résulte 
 
 ### 8. Algèbre extérieure d’un module libre
 
-#### Théorème 1 {#alg-iii-s7-thm-1 .statement}
+#### Théorème 1 {#alg-iii-s7-thm-1 .statement tag=063F}
 
 Soit $M$ un $A$-module ayant une base $(e_\lambda)_{\lambda \in L}$. Munissons $L$ d’une structure d’ensemble totalement ordonné (E, III, p. 20, th. 1), et, pour toute partie finie $J$ de $L$, posons
 
@@ -435,7 +437,7 @@ $$
 
 où l’on a, soit $u_i = 1$, soit $u_i = e_i$; si $J$ est l’ensemble des indices $i$ tels que $u_i = e_i$, $u_1 \otimes u_2 \otimes \cdots \otimes u_m$ est identifié à $e_J$, ce qui termine la démonstration.
 
-#### Corollaire 1 {#alg-iii-s7-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-iii-s7-thm-1-cor-1 .statement tag=063G}
 
 *Supposons que $L = \{1, m\}$; alors la base $(e_J)_{J \in \mathscr{B}(L)}$ de $\wedge(M)$ a $2^m$ éléments. Pour $p > m$, on a $\wedge^p(M) = \{0\}$; $\wedge^m(M)$ a une base formée d’un seul élément $e_L$; pour $0 \leq p \leq m$, le nombre d’éléments de la base $(e_J)$ de $\wedge^p(M)$ formée des $e_J$ tels que $\mathrm{Card}(J) = p$, est $\binom{m}{p} = \frac{m!}{p!(m-p)!}$.
 
@@ -464,13 +466,13 @@ $$
 
 lorsque $J \cap K = \varnothing$, $j = \mathrm{Card}(J)$ et $k = \mathrm{Card}(K)$ (III, p. 80, cor. 2).
 
-#### Corollaire 2 {#alg-iii-s7-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-iii-s7-thm-1-cor-2 .statement tag=063H}
 
 *Si $M$ est un $A$-module projectif, $\wedge(M)$ est un $A$-module projectif.*
 
 La démonstration est la même que celle de III, p. 62, corollaire, en remplaçant $T$ par $\wedge$.
 
-#### Corollaire 3 {#alg-iii-s7-thm-1-cor-3 .statement}
+#### Corollaire 3 {#alg-iii-s7-thm-1-cor-3 .statement tag=063I}
 
 *Soient $M$ un $A$-module projectif, $(x_i)_{1 \leq i \leq n}$ une suite finie d’éléments de $M$. Pour qu’il existe sur $M$ une forme $n$-linéaire alternée $f$ telle que $f(x_1, x_2, \ldots, x_n) \neq 0$, il faut et il suffit que $x_1 \wedge x_2 \wedge \cdots \wedge x_n \neq 0$.
 
@@ -490,7 +492,7 @@ est injective (II, p. 47, cor. 4); on en conclut qu’il existe une forme linéa
 
 ### 9. Critères d’indépendance linéaire
 
-#### Proposition 12 {#alg-iii-s7-prop-12 .statement}
+#### Proposition 12 {#alg-iii-s7-prop-12 .statement tag=063J}
 
 Soit M un A-module projectif. Pour que des éléments $x_1, x_2, \ldots, x_n$ de M soient linéairement dépendants, il faut et il suffit qu’il existe $\lambda \neq 0$ dans A tel que
 $$
@@ -502,7 +504,7 @@ x_1 \wedge (\lambda x_2) \wedge \cdots \wedge x_n = 0,
 $$
 il résulte de III, p. 87, cor. 3, que $\mu x_1$ est combinaison linéaire de $\lambda x_2, x_3, \ldots, x_n$; donc $x_1, x_2, \ldots, x_n$ sont linéairement dépendants.
 
-#### Corollaire {#alg-iii-s7-n9-cor-1 .statement}
+#### Corollaire {#alg-iii-s7-n9-cor-1 .statement tag=063K}
 
 Soient M et N deux A-modules projectifs, et soit $f : M \to N$ une application A-linéaire. Si f est injective, alors $\wedge(f) : \wedge(M) \to \wedge(N)$ est injective.
 
@@ -532,7 +534,7 @@ $$
 $$
 on en conclut que $\wedge(f)$ est injectif.
 
-#### Proposition 13 {#alg-iii-s7-prop-13 .statement}
+#### Proposition 13 {#alg-iii-s7-prop-13 .statement tag=063L}
 
 *Soient $M$ un $A$-module, $N$ un sous-module facteur direct de $M$ qui est libre de dimension $p$, $\{u\}$ une base de $\wedge^p(N)$. Pour qu’un élément $x \in M$ appartienne à $N$, il faut et il suffit que $u \wedge x = 0$.*
 
@@ -542,7 +544,7 @@ $$
 $$
 est injectif. L’application $\psi \circ \varphi$ est donc injective, d’où la proposition.
 
-#### Théorème 2 {#alg-iii-s7-thm-2 .statement}
+#### Théorème 2 {#alg-iii-s7-thm-2 .statement tag=063M}
 
 *Soit $M$ un $A$-module ayant une base finie $(e_i)_{1 \leq i \leq n}$. Pour qu’une suite $(x_i)_{1 \leq i \leq n}$ de $n$ éléments de $M$ forme une base de $M$, il faut et il suffit que l’élément $\lambda \in A$ tel que*
 $$

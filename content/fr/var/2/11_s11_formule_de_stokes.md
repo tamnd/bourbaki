@@ -28,7 +28,7 @@ subsections:
       pdf_page: 139
 statements: 1
 exercises: 0
-content_sha256: f1165c8a6f12721343d74c911068a2aca50a9171ac61b24075e228a251000002
+content_sha256: 3c7c0d9ff5cffb19c425099c3675e7342fe4db5b5e5f8bb52c5e48370320c382
 ---
 
 ## § 11. Formule de Stokes
@@ -68,7 +68,7 @@ Dans ce n°, on désigne par $X$ une variété de classe $C^r$ ($r \geq 2$) pure
 
 11.2.1. Soit $x \in \partial A$ et soit $\xi$ une orientation de $T_x(\partial A)$; on note $\tilde{i}_x(\xi)$ l’orientation de $T_x(X)$ contenant les éléments $v \wedge u$, où $v$ est un vecteur strictement sortant pour $A$ en $x$ (11.1.4) et où $u$ est un élément non nul de $\wedge^{n-1} T_x(\partial A)$ appartenant à l’orientation $\xi$. L’application $\tilde{i}_x$ est une bijection de $\mathrm{Or}(T_x(\partial A))$ sur $\mathrm{Or}(T_x(X))$. Les applications $\tilde{i}_x$ pour $x \in \partial A$, définissent un morphisme $\tilde{i} : \tilde{\partial A} \to \tilde{X}$ qui est une *orientation* de $i$ (10.2.5). Si $\xi$ est une orientation de $X$, l’orientation de $\partial A$ associée à $\xi$ par $\tilde{i}$ (10.2.5) est dite *définie par* $\xi$.
 
-#### Exemple {#var-2-s11-n2-exa-1 .statement}
+#### Exemple {#var-2-s11-n2-exa-1 .statement tag=0EEJ}
 
 Lorsque $X = \mathbf{R}^n$, que $\xi$ est l’orientation usuelle de $\mathbf{R}^n$ et que $A$ est une boule fermée de rayon $> 0$, l’orientation de la sphère $\partial A$ définie par $\xi$ est l’orientation canonique (10.2.8, b)).
 

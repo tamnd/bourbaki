@@ -32,7 +32,7 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 14
-content_sha256: 5b84a5a362e671bca452220788052e26f2c7aace50cb318625f81c1093f98e0e
+content_sha256: f6de0bc69857035c277cfc2ec3ab4f18a8859401aa3da4819959e20e4920524e
 ---
 
 ## § 1. RIESZ SPACES AND FULLY LATTICE-ORDERED SPACES
@@ -51,7 +51,7 @@ Axiom (OVS_I) signifies that the order structure and the additive group structur
 
 Axiom (OVS_I) implies that the relations $x \leq y$ and $x + z \leq y + z$ are equivalent. Similarly, it follows from (OVS_{II}) that, for every scalar $\lambda > 0$, the relations $x \leq y$ and $\lambda x \leq \lambda y$ are equivalent, because $\lambda^{-1} > 0$ and so the relation $\lambda x \leq \lambda y$ implies $\lambda^{-1}(\lambda x) \leq \lambda^{-1}(\lambda y)$. One can therefore say that, in an ordered vector space, the translations and the homotheties of ratio $> 0$ are automorphisms of the order structure; this fact is also expressed by saying that the order is *invariant* under every translation and every homothety of ratio $> 0$. Moreover, the symmetry $x \mapsto -x$ is an isomorphism of the order structure of E onto the *opposite* order structure.
 
-#### Definition 1 {#int-ii-s1-def-1 .statement}
+#### Definition 1 {#int-ii-s1-def-1 .statement tag=08JO}
 
 *An ordered vector space is said to be a Riesz space (or lattice-ordered vector space)*$^1$ *if its order structure is a lattice-ordering* (that is, if every pair of elements $x, y$ of E has a supremum $\sup(x, y)$ and an infimum $\inf(x, y)$ ).$^2$
 
@@ -59,7 +59,7 @@ Axiom (OVS_I) implies that the relations $x \leq y$ and $x + z \leq y + z$ are e
 
 (2) Borne supérieure (supremum) is also translated as "least upper bound" (S, R, §6, 7). Similarly borne inférieure (infimum) is also translated as "greatest lower bound".
 
-#### Example {#int-ii-s1-n1-exa-1 .statement}
+#### Example {#int-ii-s1-n1-exa-1 .statement tag=08JP}
 
 The space $\mathbf{R}^A$ of all real-valued functions defined on any set $A$ is a Riesz space (for the order relation $\langle x(t) \leq y(t) \text{ for all } t \in A \rangle$); for, any two real-valued functions $x, y$ defined on $A$ have a supremum (resp. an infimum) equal to the mapping $t \mapsto \sup(x(t), y(t))$ (resp. $t \mapsto \inf(x(t), y(t))$).
 
@@ -150,19 +150,19 @@ b) every pair of elements of P has an infimum in P (A, VI, §1, No. 9, Prop. 8).
 
 ### 3. Fully lattice-ordered spaces
 
-#### Definition 2 {#int-ii-s1-def-2 .statement}
+#### Definition 2 {#int-ii-s1-def-2 .statement tag=08JQ}
 
 *A Riesz space E is said to be fully lattice-ordered if every nonempty subset of E that is bounded above has a supremum in E.*
 
 It is immediate that in a fully lattice-ordered space E, every nonempty subset that is bounded below has an infimum in E.
 
-#### Example {#int-ii-s1-n3-exa-1 .statement}
+#### Example {#int-ii-s1-n3-exa-1 .statement tag=08JR}
 
 — 1) If A is any set, the space $\mathbf{R}^A$ of real-valued functions defined on A is fully lattice-ordered, the supremum in $\mathbf{R}^A$ of a family that is bounded above being its *upper envelope* (GT, IV, §5, No. 5).
 
 2) Let F be any set; the space $\mathscr{B}(F)$ of *bounded* real-valued functions on F, equipped with the order structure induced by that of $\mathbf{R}^F$, is fully lattice-ordered. However, if F is a topological space, the space $\mathscr{C}(F)$ of *continuous* real-valued functions on F (equipped with the order structure induced by that of $\mathbf{R}^F$) is a Riesz space that is not in general fully lattice-ordered (cf. Exer. 13). Consider for example the case that $F = \mathbf{R}$; let I be the interval ]0, 1[, $\varphi_I$ the characteristic function of I, and let H be the set of continuous functions $x(t)$ such that $x \leq \varphi_I$; it is clear that H is bounded above in $\mathscr{C}(F)$. The function $\varphi_I$ is the *upper envelope* of the $x \in H$, but it is not their supremum in $\mathscr{C}(F)$, since $\varphi_I$ is lower semi-continuous but not continuous. Let us show that, in fact, H has no supremum in $\mathscr{C}(F)$; it suffices to prove that if $u$ is a continuous function such that $u \geq \varphi_I$, then there exists a continuous function $v \neq u$ such that $u \geq v \geq \varphi_I$. Now, $u(0) \geq 1$, therefore there exists a number $\alpha > 0$ such that $u(t) > 0$ for $-\alpha \leq t \leq 0$; if w is a continuous function that is zero outside of the interval ]$-\alpha, 0$ and is such that $0 < w(t) < u(t)$ on this interval, then the function $v = u - w$ meets the requirements.
 
-#### Proposition 1 {#int-ii-s1-prop-1 .statement}
+#### Proposition 1 {#int-ii-s1-prop-1 .statement tag=08JS}
 
 *For an ordered vector space E to be fully lattice-ordered, it is necessary and sufficient that E be a Riesz space and that it satisfy one of the following two conditions:*
 
@@ -174,7 +174,7 @@ The conditions are obviously necessary. Conversely, suppose that $E$ is a Riesz 
 
 On the other hand, the condition *b)* implies *a)*: for, if $F$ is a nonempty set of elements $\geqslant 0$ of $E$, bounded above and directed for $\leqslant$, and if $c$ is an upper bound for $F$, then $c - F$ is a set of elements $\geqslant 0$ that is directed for $\geqslant$; if it has an infimum $m$, then $c - m$ is the supremum of $F$.
 
-#### Proposition 2 {#int-ii-s1-prop-2 .statement}
+#### Proposition 2 {#int-ii-s1-prop-2 .statement tag=08JT}
 
 — *Let* $E$ *be a Riesz space equipped with a Hausdorff topology that is compatible with its ordered vector space structure* (TVS, II, §2, No. 7). *If, for every set* $H \subset E$ *that is bounded above and directed for the relation* $\leqslant$, *the section filter of* $H$ *is convergent, then* $E$ *is fully lattice-ordered*.
 
@@ -190,7 +190,7 @@ Moreover, if $H$ is a Riesz space (fully lattice-ordered or not) it can happen t
 
 Let $(E_\iota)_{\iota \in I}$ be any family of ordered vector spaces. Recall that, in the product space $E = \prod_{\iota \in I} E_\iota$, the *product* order relation of the order relations of the factor spaces is the relation $« x_\iota \leqslant y_\iota \text{ for all } \iota \in I »$ (S, III, §1, No. 4). One verifies immediately that this relation is compatible with the vector space structure of E; E, equipped with this structure, is called the product space of the ordered spaces $E_\iota$.
 
-#### Proposition 3 {#int-ii-s1-prop-3 .statement}
+#### Proposition 3 {#int-ii-s1-prop-3 .statement tag=08JU}
 
 *Let $(E_\iota)_{\iota \in I}$ be a family of ordered vector spaces. For the product space $E = \prod_{\iota \in I} E_\iota$ to be a Riesz space (resp. a fully lattice-ordered space), it is necessary and sufficient that each of the spaces $E_\iota$ be a Riesz space (resp. a fully lattice-ordered space).*
 
@@ -198,11 +198,11 @@ Let us restrict ourselves to examining the case of fully lattice-ordered spaces.
 
 Conversely, suppose $E$ is fully lattice-ordered. Let $A_\kappa$ be a subset of $E_\kappa$ that is bounded above, $A'_\kappa$ the subset of $E$ formed by the $x = (x_\iota)$ such that $x_\kappa \in A_\kappa$ and $x_\iota = 0$ for $\iota \neq \kappa$. It is immediate that $A'_\kappa$ is bounded above in $E$, hence has a supremum $b = (b_\iota)$; by the definition of the product order relation, necessarily $b_\iota = 0$ for $\iota \neq \kappa$, and $b_\kappa$ is the supremum of $A_\kappa$, which completes the proof.
 
-#### Definition 3 {#int-ii-s1-def-3 .statement}
+#### Definition 3 {#int-ii-s1-def-3 .statement tag=08JV}
 
 *Let $E$ be an ordered vector space, $V$ and $W$ two supplementary linear subspaces of $E$. One says that $E$ is the ordered direct sum of $V$ and $W$ if the canonical mapping $(x, y) \mapsto x + y$ of the ordered vector space $V \times W$ onto the ordered vector space $E$ is an isomorphism.*
 
-#### Proposition 4 {#int-ii-s1-prop-4 .statement}
+#### Proposition 4 {#int-ii-s1-prop-4 .statement tag=08JW}
 
 *For an ordered vector space $E$ to be the ordered direct sum of two supplementary linear subspaces $V, W$, it is necessary and sufficient that the relations $x \in V, y \in W, x + y \geq 0$ imply $x \geq 0$ and $y \geq 0$.*
 
@@ -210,15 +210,15 @@ Since $x \geq 0$ and $y \geq 0$ imply $x + y \geq 0$ in $E$, the condition in th
 
 ### 5. Bands in a fully lattice-ordered space
 
-#### Definition 4 {#int-ii-s1-def-4 .statement}
+#### Definition 4 {#int-ii-s1-def-4 .statement tag=08JX}
 
 *In a fully lattice-ordered space $E$, a linear subspace $B$ of $E$ is said to be a band if it satisfies the following conditions: 1) the relations $x \in B, y \in E$ and $|y| \leq |x|$ imply $y \in B$; 2) for every nonempty subset $X$ of $B$ that is bounded above in $E$, the supremum $\sup X$ of $X$ in $E$ belongs to $B$.*
 
-#### Example {#int-ii-s1-n5-exa-1 .statement}
+#### Example {#int-ii-s1-n5-exa-1 .statement tag=08JY}
 
 In the space $\mathbf{R}^A$ of real-valued functions defined on a set $A$, the set of functions that are zero at all the points of a subset $M$ of $A$ is a band.
 
-#### Remark {#int-ii-s1-n5-rem-1 .statement}
+#### Remark {#int-ii-s1-n5-rem-1 .statement tag=08JZ}
 
 In the space $\mathbf{R}^A$, the subspace $\mathscr{B}(A)$ of bounded real-valued functions on $A$ satisfies condition 1) of Def. 4; moreover, for every subset $X$ of $\mathscr{B}(A)$ that is bounded above *in* $\mathscr{B}(A)$, the upper envelope of $X$ belongs to $\mathscr{B}(A)$. However, if $A$ is infinite, a subset of $\mathscr{B}(A)$ may be *bounded above in* $\mathbf{R}^A$ *without being bounded above in* $\mathscr{B}(A)$, in which case $\mathscr{B}(A)$ is not a band in $\mathbf{R}^A$.
 
@@ -228,13 +228,13 @@ The intersection of any family of bands in a fully lattice-ordered space $E$ is 
 
 The properties of bands in a fully lattice-ordered space rest on the following proposition:
 
-#### Proposition 5 {#int-ii-s1-prop-5 .statement}
+#### Proposition 5 {#int-ii-s1-prop-5 .statement tag=08K0}
 
 — *Let $E$ be a fully lattice-ordered space, $A$ a non-empty subset of $E$ consisting of elements $\geqslant 0$, such that: 1) $A + A \subset A$, and 2) the relations $x \in A,\ 0 \leqslant y \leqslant x$ imply $y \in A$. Let $M$ be the set of suprema in $E$ of those subsets of $A$ that are bounded above in $E$. Under these conditions, every element $x \geqslant 0$ of $E$ may be written in the form $y + z$, where $y \in M$ is the supremum of the elements $v \in A$ such that $v \leqslant x$, and where $z$ is an element $\geqslant 0$ that is alien to every element of $M$.*
 
 At any rate $y \leqslant x$, so it all comes down to showing that $z = x - y$ is alien to every element $t \in A$ (No. 1), in other words that $u = \inf(z, t)$ is zero. By hypothesis, $u \in A$ and $u \leqslant x - y$, thus $u + y \leqslant x$; for every $v \in A$ such that $v \leqslant x$, by definition $v \leqslant y$, thus $u + v \leqslant u + y \leqslant x$; since $u + v \in A$ by hypothesis, also $u + v \leqslant y$ by the definition of $y$; finally, since $u + y$ is the supremum in $E$ of the elements $u + v$ such that $v \in A$ and $v \leqslant x$, we have $u + y \leqslant y$, whence $u \leqslant 0$, which completes the proof.
 
-#### Theorem 1 (F. Riesz) {#int-ii-s1-thm-1 .statement}
+#### Theorem 1 (F. Riesz) {#int-ii-s1-thm-1 .statement tag=08K1}
 
 — *Let $A$ be a subset of a fully lattice-ordered space $E$. The set $A'$ of elements that are alien to every element of $A$ is a band; the band $A''$ of elements that are alien to every element of $A'$ is identical to the band generated by $A$, and $E$ is the ordered direct sum of the bands $A'$ and $A''$.*
 
@@ -244,13 +244,13 @@ It remains to show that $A''$ is identical to the band $B$ generated by $A$. Now
 
 Theorem 1 and Proposition 5 make it possible to give another definition of the band generated by a set of elements of $E$:
 
-#### Proposition 6 {#int-ii-s1-prop-6 .statement}
+#### Proposition 6 {#int-ii-s1-prop-6 .statement tag=08K2}
 
 — *Let $E$ be a fully lattice-ordered space, $M$ a subset of $E$, and $B$ the band generated by $M$. Let $M_1$ be the set of elements $\geqslant 0$ of $E$ each of which is $\leqslant$ some element of the form $\sum_i |x_i|$, where $x_i \in M$; let $M_2$ be the set of suprema of those subsets of $M_1$ that are bounded above; then the set $M_2$ is identical with the set of elements $\geqslant 0$ of $B$.*
 
 Clearly $M_2 \subset B$ by the definition of a band; on the other hand, if $B'$ is the band of elements that are alien to every element of $M_1$, Theorem 1 shows that $E$ is the ordered direct sum of $B$ and $B'$. But Proposition 5 shows that every element $\geqslant 0$ of $E$ is the sum of an element of $M_2$ and an element of $B'$, whence the proposition.
 
-#### Corollary {#int-ii-s1-n5-cor-1 .statement}
+#### Corollary {#int-ii-s1-n5-cor-1 .statement tag=08K3}
 
 — *Let $a$ be an element of a fully lattice-ordered space $E$, $B_a$ the band generated by $a$, $B'_a$ the band of elements alien to $a$. For every element $x \geqslant 0$ of $E$, the component of $x$ in $B_a$ (for the decomposition of $E$ as the ordered direct sum of $B_a$ and $B'_a$) is equal to $\sup_{n \in \mathbf{N}} (\inf(n|a|, x))$.*
 

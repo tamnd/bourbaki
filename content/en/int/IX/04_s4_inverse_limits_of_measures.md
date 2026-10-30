@@ -25,7 +25,7 @@ subsections:
       pdf_page: 236
 statements: 7
 exercises: 2
-content_sha256: f6b86d94d23d998e501a81e7ce38d28415459097713e8eb85fec3ccfe744d0c1
+content_sha256: 5dd841f191bacbaf28441eec0f88259078f641775a797c2d66f85a7d4bd2a6c4
 ---
 
 ## § 4. INVERSE LIMITS OF MEASURES
@@ -37,13 +37,13 @@ content_sha256: f6b86d94d23d998e501a81e7ce38d28415459097713e8eb85fec3ccfe744d0c1
 
 ### 1. Complements on compact spaces and inverse limits
 
-#### Proposition 1 {#int-ix-s4-prop-1 .statement}
+#### Proposition 1 {#int-ix-s4-prop-1 .statement tag=09QM}
 
 — Let X and Y be two topological spaces and f a continuous mapping of X into Y. Let $(K_\alpha)_{\alpha \in A}$ be a decreasing directed family of compact subsets of X, with intersection K. Then $f(K) = \bigcap_{\alpha \in A} f(K_\alpha)$.
 
 For, let y be a point of $\bigcap_{\alpha \in A} f(K_\alpha)$; for every $\alpha \in A$, the set $L_\alpha = K_\alpha \cap f^{-1}(y)$ is compact and nonempty. The family $(L_\alpha)_{\alpha \in A}$ is directed downward, therefore its intersection L is nonempty. Now, $L = K \cap f^{-1}(y)$, whence $y \in f(K)$. We have thus proved the inclusion $f(K) \supset \bigcap_{\alpha \in A} f(K_\alpha)$, and the reverse inclusion is obvious.
 
-#### Proposition 2 {#int-ix-s4-prop-2 .statement}
+#### Proposition 2 {#int-ix-s4-prop-2 .statement tag=09QN}
 
 — Let there be given an inverse system $(T_i, p_{ij})$ of topological spaces indexed by I, a topological space T, and a coherent and separating family of continuous mappings $p_i : T \to T_i$. Then:
 
@@ -63,11 +63,11 @@ Consequently, there exists an index i such that $M_i = \varnothing$. For $j \geq
 
 ### 2. Inverse systems of measures
 
-#### Definition 1 {#int-ix-s4-def-1 .statement}
+#### Definition 1 {#int-ix-s4-def-1 .statement tag=09QO}
 
 — Let $\mathscr{T} = (T_i, p_{ij})$ be an inverse system of topological spaces indexed by I. One calls inverse system (resp. sub-inverse system) of measures on $\mathscr{T}$ a family $(\mu_i)_{i \in I}$, where $\mu_i$ is a bounded measure on $T_i$ for all $i \in I$, and where $\mu_i = p_{ij}(\mu_j)$ (resp. $\mu_i \geq p_{ij}(\mu_j)$) for $i \leq j$.
 
-#### Proposition 3 {#int-ix-s4-prop-3 .statement}
+#### Proposition 3 {#int-ix-s4-prop-3 .statement tag=09QP}
 
 *Let there be given an inverse system of topological spaces $\mathscr{T} = (T_i, p_{ij})$ indexed by $I$, a topological space $T$, a coherent and separating family of continuous mappings $p_i : T \to T_i$ (for $i \in I$) and a sub-inverse system $(\mu_i)_{i \in I}$ of measures on $\mathscr{T}$. For every compact subset K of $T$, set*
 
@@ -112,7 +112,7 @@ For $K \in \mathscr{L}$, we have $p_i(K) \subset A$, whence $J(K) \leq \mu_i^\bu
 
 Q.E.D.
 
-#### Theorem 1 (Prokhorov) {#int-ix-s4-thm-1 .statement}
+#### Theorem 1 (Prokhorov) {#int-ix-s4-thm-1 .statement tag=09QQ}
 
 — *Let $\mathscr{T} = (T_i, p_{ij})$ be an inverse system of topological spaces indexed by $I$, $T$ a topological space and $(p_i)_{i \in I}$ a coherent and separating family of continuous mappings $p_i : T \to T_i$. Finally, let $(\mu_i)_{i \in I}$ be an inverse system of measures on $\mathscr{T}$.
 
@@ -153,7 +153,7 @@ Q.E.D.
 
 Let $(T_i, p_{ij})$ be an inverse system of topological spaces. Set $T = \lim_{\leftarrow} T_i$ and denote by $p_i$ the canonical mapping of $T$ into $T_i$. Generalizing Def. 2 of Ch. III, § 4, No. 5, we shall say that a bounded measure $\mu$ on $T$ is the *inverse limit of an inverse system* $(\mu_i)_{i \in I}$ *of measures* if $\mu_i = p_i(\mu)$ for all $i \in I$. Th. 1 provides a criterion for the existence of inverse limits of measures. When the spaces $T_i$ are *compact*, and the mappings $p_{ij}$ surjective, $T$ is compact and $p_i(T) = T_i$ for every $i \in I$; the condition (P) is therefore fulfilled, and in this case we recover Prop. 8, (iv) of Ch. III, § 4, No. 5.
 
-#### Remark {#int-ix-s4-n2-rem-1 .statement}
+#### Remark {#int-ix-s4-n2-rem-1 .statement tag=09QR}
 
 — Let $(\mu_i)_{i \in I}$ be an inverse system of measures on the inverse system of spaces $\mathscr{T} = (T_i, p_{ij})$. Assume given a topological space $T'$ and continuous mappings $p'_i : T' \to T_i$; assume that the family $(p'_i)_{i \in I}$ is coherent, but not necessarily separating. *If Prokhorov's condition (P) is satisfied by the family* $(p'_i)_{i \in I}$, *there exists a measure* $\mu'$ (*not necessarily unique*) *on* $T'$ *such that* $p'_i(\mu') = \mu_i$ *for all* $i \in I$.
 
@@ -165,7 +165,7 @@ Let $\varepsilon > 0$; since Prokhorov’s condition (P) is satisfied by the $p_
 
 ### 3. The case of countable inverse systems
 
-#### Theorem 2 {#int-ix-s4-thm-2 .statement}
+#### Theorem 2 {#int-ix-s4-thm-2 .statement tag=09QS}
 
 — *Assume that the directed preordered set I has a countable cofinal subset. Let $\mathscr{T} = (T_i, p_{ij})$ be an inverse system of topological spaces, $T = \lim_{\leftarrow} T_i$ and $p_i$ the canonical mapping of $T$ into $T_i$. Then every inverse system $(\mu_i)_{i \in I}$ of measures on $\mathscr{T}$ admits an inverse limit.*
 

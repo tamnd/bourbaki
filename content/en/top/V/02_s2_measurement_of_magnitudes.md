@@ -11,7 +11,7 @@ pdf_pages: 0018-0023, 0031-0031
 extraction: ocr
 statements: 5
 exercises: 2
-content_sha256: b2cefe42ca2e7cd8da7c6ef7e8fa6809395ef59dc04889c406a4278d40d59ac6
+content_sha256: 4c0d4a053c85b93dc23047deb4096b5b7869ee2eb4c5bc580d37bfd28b4c40a9
 ---
 
 ## 2. MEASUREMENT OF MAGNITUDES
@@ -42,7 +42,7 @@ If we take E to be a set of real numbers $\geq 0$ which contains 0 and arbitrari
 
 Conversely:
 
-#### Proposition 1 {#top-v-s2-prop-1 .statement}
+#### Proposition 1 {#top-v-s2-prop-1 .statement tag=0BVG}
 
 Let E be a linearly ordered set with a smallest element ω; let I be a subset of E such that ω ∈ I and such that the relations x ∈ I, y ≤ x imply y ∈ I; let (x, y) → xy be a law of composition on E, defined for x ∈ I and y ∈ I. Then, if the axioms (GR_I), (GR_{II}), (GR_{III}) and (GR_{IV}) are satisfied, there exists a strictly increasing mapping f of I into the set R_+ of real numbers ≥ 0, such that
 
@@ -113,7 +113,7 @@ but $f(z) > 0$, so that indeed $f(x) < f(y)$.
 
 Finally, if $b \in I$, the intersection of $f(I)$ and the interval $[0, f(b)]$ of $\mathbf{R}$ is dense in this interval. For if $n$ is any integer $> 0$, there exists $x > \omega$ such that $f(x) \leq 2^{-n}$ (take $x$ such that $x^{2^n} \leq a$); if $p$ is the smallest integer such that $x^{p+1} > b$, we have $(p+1)f(x) > f(b)$ and $qf(x) \leq f(b)$ for $1 \leq q \leq p$; therefore every interval contained in $[0, f(b)]$ and of length $> 2^{-n}$ contains at least one point of the form $qf(x) = f(x^q) \in f(I)$. The proof of Proposition 1 is therefore complete.
 
-#### Remark 1 {#top-v-s2-rem-1 .statement}
+#### Remark 1 {#top-v-s2-rem-1 .statement tag=0BVH}
 
 The relations $x \in I, y \in I, xy \in I, yx \in I$ imply
 $$
@@ -121,7 +121,7 @@ f(xy) = f(x) + f(y) = f(yx),
 $$
 and hence $yx = xy$ since $f$ is strictly increasing; in other words, the law induced by the law of composition of $E$ on an interval $[0, b]$ suitably chosen (e.g., such that $b^2 \leq a$) is *commutative*.
 
-#### Remark 2 {#top-v-s2-rem-2 .statement}
+#### Remark 2 {#top-v-s2-rem-2 .statement tag=0BVI}
 
 Every mapping $g$ of $I$ into $\mathbf{R}_+$ which satisfies the same conditions as $f$ is of the form $x \to \lambda f(x)$ where $\lambda > 0$. For if $\lambda = g(a) > 0$, the relations $z^p \leq x \leq z^{p+1}, z^q \leq a \leq z^{q+1}$ imply, by hypothesis,
 $$
@@ -141,7 +141,7 @@ Let us seek conditions under which $f(I)$ is an *interval* of $\mathbf{R}_+$. Cl
 
 We shall show that these conditions are also sufficient, and moreover that they allow us to dispense with axiom (GR_{IV}) (Archimedes' axiom). To be precise, we shall prove the following proposition:
 
-#### Proposition 2 {#top-v-s2-prop-2 .statement}
+#### Proposition 2 {#top-v-s2-prop-2 .statement tag=0BVJ}
 
 *If a linearly ordered set $E$ and a subset $I$ of $E$ satisfy the axioms (GR_I), (GR_{II}), (GR_{IIIa}) and (GR_{IVa}), there exists a strictly increasing mapping $f$ of $I$ onto an interval of $\mathbf{R}$, with $0$ as its left-hand end-point, such that $f(\omega) = 0$ and $f(xy) = f(x) + f(y)$ whenever $x, y$ and $xy$ belong to $I$.*
 
@@ -149,7 +149,7 @@ Let us first show that axiom (GR_{IV}) is satisfied. We argue by contradiction: 
 
 We are therefore in a position to apply Proposition 1. It remains to show that, if $\gamma = f(c)$ ($c > \omega$) is any element of $f(I)$, and if $\beta$ is any real number such that $0 < \beta < \gamma$, there exists $b \in I$ such that $f(b) = \beta$ (Chapter IV, § 2, no. 4, Proposition 1). Since the intersection of $f(I)$ and $[0, \gamma]$ is dense in $[0, \gamma]$, there exists an increasing sequence $(x_n)$ of elements of $I$ such that $f(x_n)$ has $\beta$ as limit. Let $b$ be the least upper bound of the sequence $(x_n)$ in $I$; we have $f(b) \geq f(x_n)$ for all $n$, hence $f(b) \geq \beta$; but $f(b) > \beta$ is impossible, otherwise there would exist $y \in I$ such that $\beta < f(y) < f(b)$, and since $\beta$ is the least upper bound of the sequence $(f(x_n))$, we should have $f(x_n) < f(y) < f(b)$ for all $n$, whence $x_n < y < b$ for all $n$, which is absurd. Hence $f(b) = \beta$, and Proposition 2 is therefore proved.
 
-#### Remark {#top-v-s2-n0-rem-3 .statement}
+#### Remark {#top-v-s2-n0-rem-3 .statement tag=0BVK}
 
 When $I = E$, the image $f(I) = f(E)$ is the whole of $\mathbf{R}_+$, for if $b > \omega$, then $b^n$ is defined for all $n$, and therefore $n \cdot f(b)$ belongs to $f(E)$ for all $n$; this implies that $f(E)$ is not bounded above, because $f(b) > 0$.
 

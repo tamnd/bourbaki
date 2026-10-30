@@ -20,9 +20,9 @@ subsections:
       pdf_page: 358
 statements: 9
 exercises: 7
-content_sha256: 2f744870d718d29305d11f74d872ec16894e4afae2d50866967f4f625b6f303e
+content_sha256: 0d2de5a0832d7bb4d56bb50c698cea5948ee28770735bb2a61775b976ef51e43
 translated_from: content/en/lie/III/08_s8_lie_groups_over_r_or_qp.md
-source_content_sha256: 69f4f2193868425a1a6066153825bbab55bdad1e9ad4cf8dd79a6c6484cea684
+source_content_sha256: 9a8748db60c9fd84976b7413bf30ec32e2a4b17c04a06e968ec301e544a51660
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-600c1f3e
 glossary_version: 34
@@ -34,7 +34,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC CẤU XẠ LIÊN TỤC
 
-#### Định lý 1 {#lie-iii-s8-thm-1 .statement}
+#### Định lý 1 {#lie-iii-s8-thm-1 .statement tag=0AI2}
 
 *Cho G và H là hai mầm nhóm Lie trên $\mathbf{R}$ hoặc $\mathbf{Q}_p$. Cho f là một cấu xạ liên tục từ G vào H. Khi đó f là giải tích.*
 
@@ -92,31 +92,31 @@ $$
 $$
 Vậy $h$ liên tục và tuyến tính, do đó $g = h|V$ là giải tích, do đó $f$ là giải tích trên $\phi(V)$ và do đó $f$ là giải tích (§ 1, no. 10).
 
-#### Hệ quả 1 {#lie-iii-s8-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s8-thm-1-cor-1 .statement tag=0AI3}
 
 Cho $G$ là một nhóm tôpô. Trên $G$ tồn tại nhiều nhất một cấu trúc đa tạp giải tích trên $\mathbf{R}$ (tương ứng. $\mathbf{Q}_p$) tương thích với cấu trúc nhóm tôpô trên $G$.
 
 Điều này suy ra ngay lập tức từ Định lý 1.
 
-#### Định nghĩa 1 {#lie-iii-s8-def-1 .statement}
+#### Định nghĩa 1 {#lie-iii-s8-def-1 .statement tag=0AI4}
 
 *Một nhóm tôpô G được gọi là một nhóm Lie thực (tương ứng. p-adic) nếu trên G tồn tại một cấu trúc nhóm Lie thực (tương ứng. p-adic) tương thích với tôpô của nó.*
 
 Cấu trúc đó khi đó là duy nhất và ta có thể nói về *chiều* của một nhóm như vậy. Nếu G và H là hai nhóm như vậy, mọi cấu xạ liên tục từ G vào H đều là giải tích.
 
-#### Hệ quả 2 {#lie-iii-s8-def-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s8-def-1-cor-2 .statement tag=0AI5}
 
 *Cho G là một nhóm tôpô và V là một lân cận mở của e. Giả sử rằng V có một cấu trúc đa tạp giải tích làm cho nó trở thành một mầm nhóm Lie thực (tương ứng. p-adic). Khi đó G là một nhóm Lie thực (tương ứng. p-adic).*
 
 Cho $g \in G$. Tồn tại một lân cận mở $V'$ của $e$ trong G sao cho $V' \cup gV'g^{-1} \subset V$. Ánh xạ $v \mapsto gv g^{-1}$ từ $V'$ vào $V$ là một cấu xạ liên tục và do đó giải tích của mầm nhóm Lie $V'$ vào mầm nhóm Lie $V$. Khi đó chỉ cần áp dụng Mệnh đề 18 của § 1, no. 9.
 
-#### Nhận xét {#lie-iii-s8-n1-rem-1 .statement}
+#### Nhận xét {#lie-iii-s8-n1-rem-1 .statement tag=0AI6}
 
 (1) Định lý 1 và các hệ quả của nó không còn đúng nếu $\mathbf{R}$ (tương ứng. $\mathbf{Q}_p$) được thay bởi $\mathbf{C}$ (Bài tập 1).
 
 (2) Cho G là một nhóm tôpô. Có thể chỉ ra† rằng các điều kiện sau là tương đương: (a) G là một nhóm Lie thực hữu hạn chiều; (b) G là compact địa phương và tồn tại một lân cận của $e$ chứa không nhóm con nào phân biệt với $\{e\}$; (c) tồn tại một lân cận mở của $e$ đồng phôi với một quả cầu mở của một không gian $\mathbf{R}^n$. (Đối với một kết quả ít khó hơn nhiều, xem Bài tập 6.)
 
-#### Mệnh đề 1 {#lie-iii-s8-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iii-s8-prop-1 .statement tag=0AI7}
 
 *Cho G, G' là các nhóm tôpô và f là một cấu xạ liên tục của G vào G'. Giả sử một trong ba trường hợp sau đây xảy ra:
 (a) G là một nhóm Lie thực và G' là một nhóm Lie p-adic;
@@ -136,7 +136,7 @@ tới $e$ khi $n$ tiến tới $+\infty$. Tồn tại một lân cận $V$ của
 
 ### 2. NHÓM CON ĐÓNG
 
-#### Định lý 2 {#lie-iii-s8-thm-2 .statement}
+#### Định lý 2 {#lie-iii-s8-thm-2 .statement tag=0AI8}
 
 *Cho $G$ là một nhóm Lie hữu hạn chiều trên $\mathbf{R}$ hoặc $\mathbf{Q}_p$. Mọi nhóm con đóng của $G$ đều là một nhóm con Lie của $G$. Nói chung hơn, cho $U$ là một lân cận mở đối xứng của $e$ trong $G$ và $H$ là một không gian con đóng không rỗng của $U$ sao cho các điều kiện $x \in H$, $y \in H$ và $xy^{-1} \in U$ kéo theo $xy^{-1} \in H$. Khi đó $H$ là một mầm nhóm con Lie của $G$.*
 
@@ -164,13 +164,13 @@ Do đó ánh xạ $f : \lambda \mapsto \exp \lambda y$, trong đó $\lambda y \i
 
 Định lý 2 không còn đúng nữa nếu không giả sử $G$ là hữu hạn chiều (Bài tập 12).
 
-#### Hệ quả 1 {#lie-iii-s8-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s8-thm-2-cor-1 .statement tag=0AI9}
 
 *Cho $G'$ là một nhóm compact địa phương, $G$ là một nhóm Lie hữu hạn chiều trên $\mathbf{R}$ (tương ứng $\mathbf{Q}_p$) và $f$ là một cấu xạ liên tục từ $G'$ vào $G$. Nếu hạt nhân của $f$ là rời rạc, thì $G'$ là một nhóm Lie hữu hạn chiều thực (tương ứng $p$-adic).*
 
 Có một lân cận compact $V$ của $e$ trong $G'$ sao cho $f|V$ là một phép đồng phôi từ $V$ lên một không gian con compact của $G$. Nếu $U$ là một lân cận mở đủ nhỏ của $e$ trong $G$, các giả thiết của Định lý 2 được thỏa mãn với $H = f(V) \cap U$. Do đó $H$ là một mầm nhóm con Lie của $G$. Gọi $W$ là ảnh ngược của $H$ theo $f|V$. Khi đó $W$ là một lân cận của $e$ trong $G'$. Trang bị cho $W$ cấu trúc đa tạp giải tích được vận chuyển từ cấu trúc trên $H$ bởi $(f|W)^{-1}$. Với mọi $z \in G'$, ánh xạ $x \mapsto f(z)x f(z)^{-1}$ từ $G$ vào $G$ là giải tích; do đó tồn tại một lân cận mở $W'$ của $e$ trong $W$ sao cho ánh xạ $x' \mapsto zx'z^{-1}$ từ $W'$ vào $W$ là giải tích. Theo Mệnh đề 18 của § 1, no. 9, tồn tại trên $G'$ một cấu trúc nhóm Lie cảm sinh trên một lân cận mở đủ nhỏ của $e$ cùng cấu trúc giải tích với $W$ và do đó cùng tôpô với tôpô ban đầu trên $G'$.
 
-#### Hệ quả 2 {#lie-iii-s8-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s8-thm-2-cor-2 .statement tag=0AIA}
 
 *Cho $G$ là một nhóm Lie hữu hạn chiều trên $K$, $H$ là một nhóm con của $G$, $V$ là một lân cận mở của $e$ trong $G$ và $(M_i)_{i \in I}$ là một họ các đa tạp giải tích trên $K$; với mọi $i \in I$, gọi $f_i$ là một ánh xạ $K$-giải tích từ $V$ vào $M_i$ sao cho*
 

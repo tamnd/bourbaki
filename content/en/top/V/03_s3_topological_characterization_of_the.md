@@ -11,12 +11,12 @@ pdf_pages: 0023-0025, 0031-0034
 extraction: ocr
 statements: 5
 exercises: 8
-content_sha256: a45344698e64b7f15c95b037d1b15e9856fecc238c6cd7dc80c2f862a9126c7f
+content_sha256: b250fd39401223e4fa03cf5ea015761d2798fe7a40dda8dc19bea27b8a96e356
 ---
 
 ## 3. TOPOLOGICAL CHARACTERIZATION OF THE GROUPS $\mathbf{R}$ AND $\mathbf{T}$
 
-#### Theorem 1 {#top-v-s3-thm-1 .statement}
+#### Theorem 1 {#top-v-s3-thm-1 .statement tag=0BVN}
 
 *A topological group* $G$ *in which there exists a neighbourhood of the identity element homeomorphic to an open interval of* $\mathbf{R}$ *is locally isomorphic to* $\mathbf{R}$.
 
@@ -36,21 +36,21 @@ For every element x ∈ V which does not belong to I we have x < e, hence x^{-1}
 
 Q.E.D.
 
-#### Theorem 2 {#top-v-s3-thm-2 .statement}
+#### Theorem 2 {#top-v-s3-thm-2 .statement tag=0BVO}
 
 *A connected group* $G$ *in which there exists a neighbourhood of the identity element homeomorphic to an open interval of* $\mathbf{R}$ *is isomorphic to either* $\mathbf{R}$ *or* $\mathbf{T}$.
 
 This is an immediate consequence of the preceding theorem, together with Proposition 7 of § 1, no. 4.
 
-#### Remark 1 {#top-v-s3-rem-1 .statement}
+#### Remark 1 {#top-v-s3-rem-1 .statement tag=0BVP}
 
 To decide whether a group $G$ which satisfies the conditions of Theorem 2 is isomorphic to $\mathbf{T}$ or to $\mathbf{R}$, it is enough to see whether $G$ is compact or not.
 
-#### Remark 2 {#top-v-s3-rem-2 .statement}
+#### Remark 2 {#top-v-s3-rem-2 .statement tag=0BVQ}
 
 Theorem 2 shows in particular that every topological group which is *homeomorphic* to the group $\mathbf{R}$ *is necessarily isomorphic* to $\mathbf{R}$.
 
-#### Remark 3 {#top-v-s3-rem-3 .statement}
+#### Remark 3 {#top-v-s3-rem-3 .statement tag=0BVR}
 
 The preceding topological characterization of the groups $\mathbf{R}$ and $\mathbf{T}$ involves the topological space $\mathbf{R}$ as an auxiliary set. It is possible to characterize the topological group structures of $\mathbf{R}$ and $\mathbf{T}$ by means of axioms which do not involve any auxiliary set (see Exercises 4 and 5).
 

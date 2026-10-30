@@ -49,7 +49,7 @@ subsections:
       pdf_page: 194
 statements: 25
 exercises: 10
-content_sha256: 90e4f05ba6c63dc473e36f144b27c027efafb33e2eaaa37efb35815b471522fd
+content_sha256: 1bf4e5e3fc0308864213b5115a3f25d03c0b04e54872c8cab9e2614019e5d873
 ---
 
 ## § 2. ÉQUATIONS DIFFÉRENTIELLES LINÉAIRES
@@ -70,14 +70,14 @@ $$
 $$
 où $\mathbf{b}$ est une application de $J$ dans $E$; lorsque $\mathbf{b} = 0$, on dit que l'équation différentielle linéaire (2) est *homogène*.
 
-#### Exemple 1 {#fvr-iv-s2-n1-exa-1 .statement}
+#### Exemple 1 {#fvr-iv-s2-n1-exa-1 .statement tag=08CO}
 
 Lorsque $E$ est de dimension finie $n$ sur $\mathbf{R}$, on peut identifier l'endomorphisme $A(t)$ à sa *matrice* $(a_{ij}(t))$ *par rapport à une base* (quelconque) de $E$ (A, II, p. 144); lorsqu'on identifie un vecteur $\mathbf{x} \in E$ à la matrice à une colonne $(x_i)$ de ses composantes par rapport à la base de $E$ considérée, l'écriture $A(t) \cdot \mathbf{x}$ de la valeur de l'application linéaire homogène $A(t)$ au point $\mathbf{x}$ est bien conforme aux conventions générales d'Algèbre (A, II, p. 144, prop. 2). Dans ce cas, l'équation (2) est équivalente au système d'équations différentielles scalaires
 $$
 \frac{dx_i}{dt} = \sum_{j=1}^n a_{ij}(t)x_j + b_i(t) \quad (1 \leq i \leq n).
 $$
 
-#### Exemple 2 {#fvr-iv-s2-n1-exa-2 .statement}
+#### Exemple 2 {#fvr-iv-s2-n1-exa-2 .statement tag=08CP}
 
 Soient $G$ une *algèbre normée complète* sur $\mathbf{R}$, $\mathbf{a}(t)$, $\mathbf{b}(t)$ et $\mathbf{c}(t)$, trois applications de $J$ dans $G$; l'équation
 $$
@@ -103,7 +103,7 @@ $$
 $$
 quels que soient $t \in J$, $\mathbf{x}_1$ et $\mathbf{x}_2$ dans $E$; en d'autres termes, le second membre de (2) satisfait aux conditions du lemme 1 de IV, p. 3, et est *lipschitzien* pour la fonction *réglée* $\|A(t)\|$ dans $J \times E$. Par suite (IV, p. 12, cor. 2):
 
-#### Théorème 1 {#fvr-iv-s2-thm-1 .statement}
+#### Théorème 1 {#fvr-iv-s2-thm-1 .statement tag=08CQ}
 
 *Soient* $t \mapsto A(t)$ *une application réglée de J dans* $\mathscr{L}(E)$, $t \mapsto \mathbf{b}(t)$ *une application réglée de J dans* $E$. *Pour tout point* $(t_0, \mathbf{x}_0)$ *de* $J \times E$, *l'équation linéaire* (2) *admet une solution et une seule*, définie dans $J$ tout entier et égale à $\mathbf{x}_0$ *au point* $t_0$.
 
@@ -117,13 +117,13 @@ $$
 
 est dite associée à l’équation non homogène (2); on sait alors (A, II, p. 48, prop. 14) que si $\mathbf{u}_1$ est une intégrale de l’équation non homogène (2), toute intégrale de cette équation est de la forme $\mathbf{u} + \mathbf{u}_1$ où $\mathbf{u}$ est une intégrale de l’équation homogène associée (4), et réciproquement. Nous allons d’abord étudier dans ce n° les intégrales d’une équation homogène (4).
 
-#### Proposition 1 {#fvr-iv-s2-prop-1 .statement}
+#### Proposition 1 {#fvr-iv-s2-prop-1 .statement tag=08CR}
 
 L’ensemble $\mathscr{I}$ des intégrales de l’équation linéaire homogène (4), définies dans $J$, est un sous-espace vectoriel de l’espace $\mathscr{C}(J; E)$ des applications continues de $J$ dans $E$.
 
 La démonstration est immédiate.
 
-#### Théorème 2 {#fvr-iv-s2-thm-2 .statement}
+#### Théorème 2 {#fvr-iv-s2-thm-2 .statement tag=08CS}
 
 Pour tout point $(t_0, \mathbf{x}_0)$ de $J \times E$, soit $\mathbf{u}(t, t_0, \mathbf{x}_0)$ l’intégrale de l’équation homogène (4), définie dans $J$ et égale à $\mathbf{x}_0$ au point $t_0$.
 
@@ -165,7 +165,7 @@ quel que soit $\mathbf{x}_0 \in E$, d’où la première relation (6); comme $C(
 
 On dit que $C(t, t_0)$ est la résolvante de l’équation (2) de IV, p. 17.
 
-#### Corollaire 1 {#fvr-iv-s2-thm-2-cor-1 .statement}
+#### Corollaire 1 {#fvr-iv-s2-thm-2-cor-1 .statement tag=08CT}
 
 L’application qui, à tout point $\mathbf{x}_0 \in E$, fait correspondre la fonction continue $t \mapsto C(t, t_0) \cdot \mathbf{x}_0$, définie dans $J$, est un isomorphisme de l’espace normé $E$ sur l’espace vectoriel $\mathscr{I}$ des intégrales de (4), muni de la topologie de la convergence compacte.
 
@@ -175,7 +175,7 @@ C(t_0, t_0) \cdot \mathbf{x}_0 = \mathbf{x}_0,
 $$
 il est évident que son application réciproque est aussi continue.
 
-#### Corollaire 2 {#fvr-iv-s2-thm-2-cor-2 .statement}
+#### Corollaire 2 {#fvr-iv-s2-thm-2-cor-2 .statement tag=08CU}
 
 L’application $(s, t) \mapsto C(s, t)$ de $J \times J$ dans $\mathscr{L}(E)$ est continue.
 
@@ -187,7 +187,7 @@ t \mapsto C(t_0, t) = (C(t, t_0))^{-1}
 $$
 admet (dans le complémentaire d’un ensemble dénombrable) une dérivée égale à $- (C(t, t_0))^{-1} \frac{dC(t, t_0)/dt}{(C(t, t_0))^{-1}}$ (I, p. 16, prop. 4), c’est-à-dire (d’après IV, p. 18, la formule (5)) à $- C(t_0, t)A(t)$.
 
-#### Corollaire 3 {#fvr-iv-s2-thm-2-cor-3 .statement}
+#### Corollaire 3 {#fvr-iv-s2-thm-2-cor-3 .statement tag=08CV}
 
 Soit $K$ un intervalle compact contenu dans $J$, et soit $k = \sup_{t \in K} \|A(t)\|$.
 Quels que soient $t$ et $t_0$ dans $K$, on a
@@ -201,7 +201,7 @@ $$
 $$
 quels que soient $t$ et $t_0$ dans $K$, et $x_0$ dans $E$, ce qui équivaut à l’inégalité (7) d’après la définition de la norme dans $\mathscr{L}(E)$.
 
-#### Proposition 2 {#fvr-iv-s2-prop-2 .statement}
+#### Proposition 2 {#fvr-iv-s2-prop-2 .statement tag=08CW}
 
 *Soit B un endomorphisme continu de E, indépendant de t, et permutable avec A(t) pour tout t \in J; alors B est permutable avec C(t, t_0) quels que soient t et t_0 dans J.*
 
@@ -251,7 +251,7 @@ $$
 
 Comme on a $C(t, t_0) \cdot \int_{t_0}^t C(t_0, s) \cdot \mathbf{b}(s) \, ds = \int_{t_0}^t C(t, t_0)C(t_0, s) \cdot \mathbf{b}(s) \, ds$ (II, p. 10, formule (9)), on obtient (en tenant compte de la première formule (6) de IV, p. 18) le résultat suivant:
 
-#### Proposition 3 {#fvr-iv-s2-prop-3 .statement}
+#### Proposition 3 {#fvr-iv-s2-prop-3 .statement tag=08CX}
 
 *Avec les notations du th. 2 (IV, p. 18), pour tout point $(t_0, \mathbf{x}_0)$ de $J \times E$, l’intégrale de l’équation linéaire (2) définie dans $J$ et égale à $\mathbf{x}_0$ au point $t_0$, est donnée par la formule*
 
@@ -303,7 +303,7 @@ $$
 
 Dans l’espace $\mathscr{C}(J; E)$ des applications continues de J dans E, muni de la topologie de la convergence compacte, l’ensemble $\mathscr{I}$ des intégrales de l’équation (4) est un sous-espace vectoriel (sur $\mathbf{C}$) *isomorphe* à E, donc à $\mathbf{C}^n$ (IV, p. 19, cor. 1, et IV, p. 20, prop. 2). On appelle *système fondamental* d’intégrales de (4) une *base* $(\mathbf{u}_i)_{1 \leq j \leq n}$ de cet espace (sur le corps $\mathbf{C}$).
 
-#### Proposition 4 {#fvr-iv-s2-prop-4 .statement}
+#### Proposition 4 {#fvr-iv-s2-prop-4 .statement tag=08CY}
 
 *Pour que n intégrales $\mathbf{u}_j$ ($1 \leq j \leq n$) de l’équation (4) forment un système fondamental, il faut et il suffit que leurs valeurs $\mathbf{u}_j(t_0)$ en un point $t_0 \in J$ soient des vecteurs linéairement indépendants dans E.*
 
@@ -331,7 +331,7 @@ $$
 
 D’après la prop. 4 de IV, p. 22, pour que $(\mathbf{u}_j)_{1 \leq j \leq n}$ soit un système fondamental d’intégrales de (4), il faut et il suffit que le déterminant $\Delta(t)$ des $\mathbf{u}_j$ soit $\neq 0$ en un point $t_0$ de $J$; la formule (14) montre alors de nouveau que $\Delta(t) \neq 0$ en tout point de $J$, autrement dit que les vecteurs $\mathbf{u}_j(t)$ ($1 \leq j \leq n$) sont toujours linéairement indépendants.
 
-#### Proposition 5 {#fvr-iv-s2-prop-5 .statement}
+#### Proposition 5 {#fvr-iv-s2-prop-5 .statement tag=08CZ}
 
 *Le déterminant de la matrice $C(t, t_0)$ est donné par la formule*
 $$
@@ -369,11 +369,11 @@ où $H(t) = (h_{jk}(t))$ est une matrice à coefficients réglés dans $K$. D’
 
 En particulier, lorsqu’on connaît $n - 1$ intégrales linéairement indépendantes de l’équation (4) de IV, p. 22, l’intégration de cette équation est ramenée à celle d’une seule équation scalaire homogène, et par suite au calcul de $n$ primitives.
 
-#### Remarque 1 {#fvr-iv-s2-n4-rem-1 .statement}
+#### Remarque 1 {#fvr-iv-s2-n4-rem-1 .statement tag=08D0}
 
 Tout ce qui précède s’applique encore au cas où $E$ est de dimension $n$ sur le corps $\mathbf{R}$ et $A(t)$ un endomorphisme de $E$ pour tout $t \in J$: il suffit de remplacer partout $\mathbf{C}$ par $\mathbf{R}$.
 
-#### Remarque 2 {#fvr-iv-s2-n4-rem-2 .statement}
+#### Remarque 2 {#fvr-iv-s2-n4-rem-2 .statement tag=08D1}
 
 Soit $A(t) = (a_{ij}(t))$ une matrice carrée d’ordre $n$ dont les éléments sont des fonctions réglées réelles (resp. complexes) de $t$ dans $J$, et soit $C(t, t_0) = (c_{ij}(t, t_0))$ la matrice résolvante du système linéaire (3) (IV, p. 22) correspondant. Soit $F$ un espace normé complet quelconque sur $\mathbf{R}$ (resp. $\mathbf{C}$) et considérons le système d’équations différentielles linéaires
 $$
@@ -407,7 +407,7 @@ $$
 
 en tous les points où $A(t)$ est continue et $v(t)$ dérivable. Or, pour un tel point $t$ et un point $x_0 \in E$ *arbitraire*, il existe d'après le th. 1 de IV, p. 17, une solution $u$ de (4) telle que $u(t) = x_0$; on doit donc avoir $\left\langle x_0, \frac{dv}{dt} - B(t) \cdot v(t) \right\rangle = 0$ pour *tout* $x_0 \in E$, ce qui signifie que $\frac{dv}{dt} - B(t) \cdot v(t) = 0$. Par suite:
 
-#### Proposition 6 {#fvr-iv-s2-prop-6 .statement}
+#### Proposition 6 {#fvr-iv-s2-prop-6 .statement tag=08D2}
 
 *Pour qu'une application* $t \mapsto v(t)$ *de* $J$ *dans* $E^*$, *primitive d'une fonction réglée dans* $J$, *soit telle que* $\langle u(t), v(t) \rangle$ *soit constante dans* $J$ *pour toute solution* $u$ *de* l’équation (4) de IV, p. 22, il faut et il suffit que $\mathbf{v}$ soit solution de l’équation linéaire homogène
 
@@ -437,7 +437,7 @@ $$
 
 (contragrédiente de $C(t, t_0)$). En particulier, si on connaît un système fondamental d’intégrales de l’équation adjointe (16), la matrice $H(t, t_0)$ est déterminée, donc aussi $C(t, t_0)$, et par suite toutes les intégrales de l’équation (4).
 
-#### Remarque {#fvr-iv-s2-n5-rem-1 .statement}
+#### Remarque {#fvr-iv-s2-n5-rem-1 .statement tag=08D3}
 
 Soient $E$ et $F$ deux espaces normés complets sur $\mathbf{R}$ (ou sur $\mathbf{C}$), $(\mathbf{x}, \mathbf{y}) \mapsto \langle \mathbf{x}, \mathbf{y} \rangle$ une forme bilinéaire continue dans $E \times F$, telle que la relation « $\langle \mathbf{x}, \mathbf{y} \rangle = 0$ pour tout $\mathbf{y} \in F$ » (resp. « $\langle \mathbf{x}, \mathbf{y} \rangle = 0$ pour tout $\mathbf{x} \in E$ ») entraîne $\mathbf{x} = 0$ (resp. $\mathbf{y} = 0$). Supposons en outre que, pour tout $t \in J$, il existe une application linéaire continue $B(t)$ de $F$ dans lui-même, telle que l’on ait $\langle A(t) . \mathbf{x}, \mathbf{y} \rangle + \langle \mathbf{x}, B(t) . \mathbf{y} \rangle = 0$ pour tout $(\mathbf{x}, \mathbf{y}) \in E \times F$. Dans ces conditions, on voit comme ci-dessus que, pour qu’une application $t \mapsto \mathbf{v}(t)$ de $J$ dans $F$, primitive d’une fonction réglée, soit telle que $\langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ soit constante pour toute intégrale $\mathbf{u}$ de (4), il faut et il suffit que $\mathbf{v}$ soit intégrale de l’équation (16), qu’on appelle encore l’adjointe de (4).
 
@@ -485,7 +485,7 @@ $$
 
 qui prend la valeur $I$ au point 0. Nous poserons la définition suivante:
 
-#### Définition 1 {#fvr-iv-s2-def-1 .statement}
+#### Définition 1 {#fvr-iv-s2-def-1 .statement tag=08D4}
 
 Étant donné un endomorphisme continu $A$ de $E$, on désigne par $e^A$ ou $\exp A$ l’automorphisme de $E$ égal à la valeur au point $t = 1$ de l’intégrale de l’équation (20) qui prend la valeur $I$ au point $t = 0$.
 
@@ -497,7 +497,7 @@ $$
 
 La notation exponentielle ainsi introduite et justifiée par les propriétés suivantes, qui sont tout à fait analogues à celles de la fonction $\exp z$, pour $z$ réel ou complexe (cf. III, p. 8 et 16):
 
-#### Proposition 7 {#fvr-iv-s2-prop-7 .statement}
+#### Proposition 7 {#fvr-iv-s2-prop-7 .statement tag=08D5}
 
 1° L’application $X \mapsto e^X$ est une application continue de $\mathscr{L}(E)$ dans le groupe des automorphismes de $E$ (éléments inversibles de $\mathscr{L}(E)$).
 
@@ -588,7 +588,7 @@ Les racines caractéristiques de l’endomorphisme $A$ sont encore appelées les
 
 Lorsque l’on a déterminé explicitement les racines $r_k$ ($1 \leq k \leq q$), ainsi que l’ordre de multiplicité $n_k$ de $r_k$, on obtient en pratique les intégrales de (19) en écrivant que cette équation est vérifiée par l’expression (32) de IV, p. 29, où $p_k$ est un polynôme arbitraire de degré $\leq n_k - 1$, à coefficients dans $E$; en identifiant, dans les deux membres de l’équation obtenue, les coefficients de $e^{r_k t}$ (pour $1 \leq k \leq q$), on obtient des équations linéaires par rapport aux coefficients des polynômes $p_k$: on constate aisément que ces équations déterminent les coefficients des termes de degré $> 0$ de $p_k$ en fonction du terme constant, et que ce dernier est solution de l’équation $(A - r_k I)^{n_k} x = 0$, qui définit le sous-espace $E_k$ (« méthode des coefficients indéterminés »).
 
-#### Remarque {#fvr-iv-s2-n6-rem-1 .statement}
+#### Remarque {#fvr-iv-s2-n6-rem-1 .statement tag=08D6}
 
 Lorsqu’il existe une base de $E$ telle que la matrice de $A$ par rapport à cette base ait ses éléments réels (cf. IV, p. 24, Remarque 2), l’équation caractéristique de $A$ a ses coefficients réels. Pour tout vecteur $x = (\xi_k)_{1 \leq k \leq n}$ de $E$, rapporté à la base considérée, soit $\bar{x} = (\bar{\xi}_k)_{1 \leq k \leq n}$; l’application $x \mapsto \bar{x}$ est une involution antilinéaire de $E$. On sait (A, VII) que, si $r_k$ est une racine non réelle de l’équation caractéristique de $A$, $E_k$ le sous-espace stable correspondant, alors $\bar{r}_k$ est une racine caractéristique ayant même ordre de multiplicité $n_k$ que $r_k$, et l’image $E'_k$ de $E_k$ par l’application $x \mapsto \bar{x}$ est le sous-espace stable correspondant à $\bar{r}_k$. On en déduit que si $u_j$ ($1 \leq j \leq n_k$) sont $n_k$ intégrales linéairement indépendantes à valeurs dans $E_k$, les $2n_k$ intégrales $u_j + \bar{u}_j, i(u_j - \bar{u}_j)$ sont linéairement indépendantes et ont, par rapport à la base choisie dans $E$, des composantes qui sont des fonctions réelles de $E$. Si $r_k$ est une racine caractéristique réelle, la Remarque 2 de IV, p. 24, montre (avec les mêmes notations) qu’il existe $n_k$ intégrales linéairement indépendantes $v_j$ ($1 \leq j \leq n_k$) à valeurs dans $E_k$ et qui ont leurs composantes réelles. On obtient de la sorte un système fondamental d’intégrales de (19) dont les composantes sont toutes réelles.
 
@@ -645,7 +645,7 @@ associée à (33), soient linéairement indépendantes (dans l’espace $\mathsc
 
 Par suite (IV, p. 19, cor. 1):
 
-#### Proposition 8 {#fvr-iv-s2-prop-8 .statement}
+#### Proposition 8 {#fvr-iv-s2-prop-8 .statement tag=08D7}
 
 *L’ensemble des intégrales de l’équation linéaire homogène (37), définies dans $J$, est un espace vectoriel de dimension $n$ sur le corps $\mathbf{C}$.*
 
@@ -708,7 +708,7 @@ u_{jk}(t) = e^{r_j t} p_{jk}(t),
 $$
 où $p_{jk}$ est un polynôme (à coefficients complexes) de degré $\leq n_j - 1$ ($1 \leq k \leq n_j$); en outre, les $n$ intégrales $u_{jk}$ ($1 \leq j \leq q, 1 \leq k \leq n_j$) ainsi obtenues sont *linéairement indépendantes*. Il en résulte que les $n_j$ polynômes $p_{jk}$ ($1 \leq k \leq n_j$) sont linéairement indépendants dans l’espace des polynômes en $t$ de degré $\leq n_j - 1$, donc forment une *base* (sur $\mathbf{C}$) de cet espace, puisque ce dernier est de dimension $n_j$. Autrement dit:
 
-#### Proposition 9 {#fvr-iv-s2-prop-9 .statement}
+#### Proposition 9 {#fvr-iv-s2-prop-9 .statement tag=08D8}
 
 *Soient $r_j$ ($1 \leq j \leq q$) les racines distinctes de l’équation caractéristique (40), et soit $n_j$ l’ordre de multiplicité de la racine $r_j$ ($1 \leq j \leq q$). Les $n$ fonctions $t^{k} e^{r_j t}$ ($1 \leq k \leq n_j, 1 \leq j \leq q$) sont des intégrales linéairement indépendantes de l’équation homogène (41).*
 
@@ -718,7 +718,7 @@ f(\mathrm{D}) x = 0
 $$
 où $f(\mathrm{D}) = \mathrm{D}^n - a_1 \mathrm{D}^{n-1} - \cdots - a_{n-1} \mathrm{D} - a_n$ (A, IV, § 2, no 1).
 
-#### Proposition 10 {#fvr-iv-s2-prop-10 .statement}
+#### Proposition 10 {#fvr-iv-s2-prop-10 .statement tag=08D9}
 
 *Soient $g$ et $h$ deux polynômes premiers entre eux tels que $f = gh$. Le sous-espace des solutions de (42) est somme directe des sous-espaces des solutions des deux équations*
 $$
@@ -818,15 +818,15 @@ $$
 
 Le système n’admet donc de solutions indéfiniment dérivables que si les conditions (52) sont vérifiées; la détermination des $y_j$ d’indice $j \leq r$ se ramène alors à l’intégration de $r$ équations différentielles linéaires à coefficients constants (51); les $y_j$ d’indice $> r$ sont des fonctions indéfiniment dérivables arbitraires. Une fois les solutions $y$ de l’équation (50) ainsi déterminées, on en déduit les solutions de (47) par la formule $x = V(D)y$.
 
-#### Remarque 1 {#fvr-iv-s2-n9-rem-1 .statement}
+#### Remarque 1 {#fvr-iv-s2-n9-rem-1 .statement tag=08DA}
 
 Certains des polynômes $f_j(D)$ peuvent se réduire à des constantes non nulles; les $y_j$ correspondants sont alors entièrement déterminés.
 
-#### Remarque 2 {#fvr-iv-s2-n9-rem-2 .statement}
+#### Remarque 2 {#fvr-iv-s2-n9-rem-2 .statement tag=08DB}
 
 Lorsque les $b_j$ sont tous nuls, c’est-à-dire que le système (47) est *homogène*, les conditions (52) sont toujours vérifiées; si en outre $r = n$, on voit que l’ensemble des solutions de (47) est un espace vectoriel sur $\mathbf{C}$, de dimension égale à la *somme des degrés* des $f_j(D)$, c’est-à-dire au *degré* de $\det(P(D))$.
 
-#### Remarque 3 {#fvr-iv-s2-n9-rem-3 .statement}
+#### Remarque 3 {#fvr-iv-s2-n9-rem-3 .statement tag=08DC}
 
 Les polynômes $p_{jk}(D)$ étant donnés, un système (47) qui admet des solutions lorsque les seconds membres sont indéfiniment dérivables (ou dérivables jusqu’à un certain ordre) peut ne pas en admettre lorsque les seconds membres sont des fonctions réglées quelconques: c’est ce que montre l’exemple (48), qui n’admet pas de solution lorsque $a(t)$ n’est pas une primitive. Nous n’entendrons pas ici de rechercher les conditions supplémentaires de possibilité qui s’introduisent ainsi lorsque les seconds membres sont des fonctions réglées quelconques.
 

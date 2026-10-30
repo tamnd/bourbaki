@@ -26,7 +26,7 @@ subsections:
       pdf_page: 153
 statements: 13
 exercises: 6
-content_sha256: e864a39e88aa1bca01230c31821898c8ee21312c13fac765353afd8926e19614
+content_sha256: af5d3d2396d4c7dda2c6c2b89a2ff2c8434a6f93dd387142acd4ffb60b4abc0a
 ---
 
 ### APPENDICE
@@ -35,7 +35,7 @@ content_sha256: e864a39e88aa1bca01230c31821898c8ee21312c13fac765353afd8926e19614
 
 Soit I un ensemble préordonné non vide filtrant à droite et soit $(A_\alpha, \varphi_{\beta\alpha})$ un système inductif d’anneaux relatif à I. On suppose que, pour tout $\alpha \in I$, l’anneau $A_\alpha$ est local, d’idéal maximal $m_\alpha$, que les homomorphismes $\varphi_{\beta\alpha}$ sont locaux et plats, et qu’on a $\varphi_{\beta\alpha}(m_\alpha)$ $A_\beta = m_\beta$ pour $\beta \geq \alpha$. Notons A la limite inductive des $A_\alpha$, et pour tout $\alpha \in I$, soit $\varphi_\alpha : A_\alpha \to A$ l’homomorphisme canonique.
 
-#### Proposition 1 {#ac-ix-a0-prop-1 .statement}
+#### Proposition 1 {#ac-ix-a0-prop-1 .statement tag=0CZN}
 
 a) L’anneau A est local, d’idéal maximal $m = \lim \overrightarrow{m_\alpha}$. Pour tout $\alpha \in I$, l’homomorphisme $\varphi_\alpha$ est local et plat, et on a $\varphi_\alpha(m_\alpha)$ $A = m$.
 
@@ -51,13 +51,13 @@ Soit A un anneau local.
 
 On note A]X[ l’anneau local de l’anneau de polynômes A[X] en l’idéal premier $m_A A[X]$. C’est un anneau local d’idéal maximal $m_A A[X]$, l’homomorphisme canonique $A \to A[X]$ est local et plat, et le corps résiduel de $A[X]$ est l’extension pure de $\kappa_A$ engendrée par la classe de $X$.
 
-#### Lemme 1 {#ac-ix-a0-lem-1 .statement}
+#### Lemme 1 {#ac-ix-a0-lem-1 .statement tag=0CZO}
 
 Soit $P \in A[X]$ un polynôme unitaire dont l’image $\overline{P}$ dans $\kappa_A[X]$ est irréductible. Alors la $A$-algèbre $B = A[X]/(P)$ est locale et finie sur $A$, d’idéal maximal $m_A B$, l’homomorphisme canonique $\rho : A \to B$ est local et plat, l’extension résiduelle $\kappa_A \to \kappa_B$ est algébrique et engendrée par la classe $x$ de $X$, et le polynôme minimal de $x$ sur $\kappa_A$ est $\overline{P}$.
 
 Comme le polynôme $P$ est unitaire, le $A$-module $B$ est libre de type fini (A, IV, p. 10). L’anneau $B/m_A B$ s’identifie à $\kappa_A[X]/(\overline{P})$, donc est un corps ; l’idéal $m_A B$ est donc maximal. Soit $q$ un idéal maximal de $B$ ; alors l’idéal $\rho^{-1}(q)$ est maximal (V, § 2, no 1, prop. 1) ; on a donc $\rho^{-1}(q) = m_A$, d’où $q \supset m_A B$ et enfin $q = m_A B$. Ainsi l’anneau $B$ est local. Le lemme 1 en résulte aussitôt.
 
-#### Définition 1 {#ac-ix-a0-def-1 .statement}
+#### Définition 1 {#ac-ix-a0-def-1 .statement tag=0CZP}
 
 Soit $A$ un anneau local. On dit qu’une $A$-algèbre $B$ est un gonflement élémentaire de $A$ si $B$ est isomorphe à la $A$-algèbre $A[X]$, ou bien s’il existe un polynôme unitaire $P$ de $A[X]$, d’image irréductible dans $\kappa_A[X]$, tel que $B$ soit isomorphe à la $A$-algèbre $A[X]/(P)$.
 
@@ -71,7 +71,7 @@ c) On a $m_B = m_A B$. En particulier, si $A$ est un corps, il en est de même d
 
 d) Si $A$ est noethérien, il en est de même de $B$.
 
-#### Définition 2 {#ac-ix-a0-def-2 .statement}
+#### Définition 2 {#ac-ix-a0-def-2 .statement tag=0CZQ}
 
 Soit $A$ un anneau local. On dit qu’une $A$-algèbre $B$ est un gonflement de $A$ s’il existe un ensemble bien ordonné $\Lambda$ ayant un plus grand élément $\omega$, et une famille croissante $(B_\lambda)_{\lambda \in \Lambda}$ de sous-algèbres de $B$ satisfaisant aux conditions suivantes :
 
@@ -83,19 +83,19 @@ c) Soit $\nu \neq \alpha$ dans $\Lambda$ et soit $S_\nu$ l’ensemble des $\lamb
 
 Soient $B$ un anneau et $\rho : A \to B$ un homomorphisme d’anneaux. On dit que $\rho$ est un gonflement (resp. un gonflement élémentaire) si la $A$-algèbre définie par $\rho$ a cette propriété. S’il en est ainsi, $\rho$ est injectif.
 
-#### Exemple 1 {#ac-ix-a0-n2-exa-1 .statement}
+#### Exemple 1 {#ac-ix-a0-n2-exa-1 .statement tag=0CZR}
 
 Toute extension de corps est un gonflement. Soit en effet K une extension d’un corps k. Munissons K d’un bon ordre pour lequel 0 est le plus grand élément, et pour $\lambda \in K$, soit $K_\lambda$ la sous-$k$-extension de K engendrée par les éléments $\beta$ de K tels que $\beta < \lambda$. La vérification des conditions a), b), c), pour $k, K$ et la famille $(K_\lambda)_{\lambda \in K}$, est immédiate.
 
-#### Exemple 2 {#ac-ix-a0-n2-exa-2 .statement}
+#### Exemple 2 {#ac-ix-a0-n2-exa-2 .statement tag=0CZS}
 
 Soient A un anneau local, et I un ensemble d’indices. Notons $A[(X_i)_{i \in I}]$ l’anneau local de l’anneau de polynômes $A[(X_i)_{i \in I}]$ en l’idéal premier $m_A A[(X_i)_{i \in I}]$. La A-algèbre $A[(X_i)_{i \in I}]$ est un gonflement de A. En effet, munissons l’ensemble I d’un bon ordre ; soit $\Lambda$ l’ensemble bien ordonné obtenu en adjoignant à I un plus grand élément $\omega$. Pour $i \in I$, identifions $A[(X_j)_{j < i}]$ à une sous-algèbre $B_i$ de $B = A[(X_i)_{i \in I}]$, et posons $B_\omega = B$. La famille $(B_\lambda)_{\lambda \in \Lambda}$ satisfait aux conditions a), b), c).
 
-#### Remarque {#ac-ix-a0-n2-rem-1 .statement}
+#### Remarque {#ac-ix-a0-n2-rem-1 .statement tag=0CZT}
 
 Avec les notations de la déf. 2, l’anneau $B_\mu$ est un gonflement de $B_\lambda$ lorsque $\lambda \leq \mu$.
 
-#### Proposition 2 {#ac-ix-a0-prop-2 .statement}
+#### Proposition 2 {#ac-ix-a0-prop-2 .statement tag=0CZU}
 
 Soient A un anneau local et B un gonflement de A.
 
@@ -129,19 +129,19 @@ $$
 
 pour tout $n \in \mathbf{N}$, les séries de Hilbert-Samuel de A et B sont égales.
 
-#### Corollaire {#ac-ix-a0-n2-cor-1 .statement}
+#### Corollaire {#ac-ix-a0-n2-cor-1 .statement tag=0CZV}
 
 Supposons A noethérien.
 a) On a dim(A) = dim(B).
 b) Supposons A régulier, et soit $(x_1, ..., x_n)$ un système de coordonnées de A. Alors B est régulier et la suite $(x_1 1_B, ..., x_n 1_B)$ est un système de coordonnées de B.
 Cela résulte de la prop. 1 de VIII, § 5, no 1.
 
-#### Proposition 3 {#ac-ix-a0-prop-3 .statement}
+#### Proposition 3 {#ac-ix-a0-prop-3 .statement tag=0CZW}
 
 Soient A, B, C trois anneaux locaux et $u : A \to B, v : B \to C$ deux gonflements. Alors $v \circ u$ est un gonflement.
 Soient $(B_\lambda)_{\lambda \in \Lambda}$ et $(C_\mu)_{\mu \in M}$ des familles de sous-A-algèbres de B et de sous-B-algèbres de C respectivement, ayant les propriétés a), b), c) de la déf. 2. Sur l’ensemble N somme de $\Lambda$ et M, considérons la relation d’ordre induisant sur $\Lambda$ et M les ordres donnés et telle qu’on ait $\lambda < \mu$ pour $\lambda \in \Lambda, \mu \in M$. C’est une relation de bon ordre. Pour $\lambda \in \Lambda \subset N$, posons $C_\lambda = v(B_\lambda)$. Alors la famille $(C_v)_{v \in N}$ satisfait aux conditions a), b), c) de la déf. 1 relativement à la A-algèbre C.
 
-#### Théorème 1 {#ac-ix-a0-thm-1 .statement}
+#### Théorème 1 {#ac-ix-a0-thm-1 .statement tag=0CZX}
 
 Soient $f : A \to A'$ un homomorphisme local surjectif d’anneaux locaux et $B'$ un gonflement de $A'$. Il existe un gonflement B de A et un isomorphisme de A-algèbres de $B \otimes_A A'$ sur $B'$.
 A) Supposons que $B'$ soit un gonflement élémentaire de $A'$. Distinguons deux cas :
@@ -157,7 +157,7 @@ et pour $i_{v\lambda}$, lorsque $\lambda \in S_{v}$, l’homomorphisme $i_{v\mu}
 
 Posons alors $B = \tilde{B}_{\omega}$ et, pour tout $\lambda \in \Lambda$, notons $B_{\lambda}$ l’image de $\tilde{B}_{\lambda}$ par l’injection canonique $\tilde{B}_{\lambda} \to B$. La famille $(B_{\lambda})_{\lambda \in \Lambda}$ satisfait aux conditions a), b), c) de la déf. 2, et B est un gonflement de A. D’autre part, l’homomorphisme $u_{\omega}$ est un A’-isomorphisme de $B \otimes_{A} A'$ dans $B'$.
 
-#### Corollaire {#ac-ix-a0-n2-cor-2 .statement}
+#### Corollaire {#ac-ix-a0-n2-cor-2 .statement tag=0CZY}
 
 Soient A un anneau local et K une extension de son corps résiduel $\kappa_{A}$. Il existe un anneau local B et un gonflement $A \to B$ tels que la $\kappa_{A}$-algèbre $\kappa_{B}$ soit isomorphe à K.
 
@@ -165,7 +165,7 @@ En effet, l’homomorphisme $\kappa_{A} \to K$ est un gonflement (exemple 1). Ap
 
 ### 3. Existence des $p$-anneaux
 
-#### Proposition 4 {#ac-ix-a0-prop-4 .statement}
+#### Proposition 4 {#ac-ix-a0-prop-4 .statement tag=0CZZ}
 
 Soient p un nombre premier, k un corps de caractéristique p, et soit n un entier $\geq 1$, ou $+ \infty$. Il existe un $p$-anneau ($\S$ 2, no 1, déf. 1) de longueur n dont le corps résiduel est isomorphe à k.
 

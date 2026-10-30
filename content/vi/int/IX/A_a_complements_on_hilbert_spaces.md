@@ -22,9 +22,9 @@ subsections:
       pdf_page: 286
 statements: 5
 exercises: 9
-content_sha256: 79d346d07e4b44beac09b854f0dd0cec6f0f697832af931483086d08ec6bc392
+content_sha256: cda798fdde2d28320c8c9fadf55d631b574df7475e828869679fdee428c2304c
 translated_from: content/en/int/IX/A_a_complements_on_hilbert_spaces.md
-source_content_sha256: aa78d7417dc812e3fe49b768fcc72481a0fc960e63e09218c2f7ad67767169c0
+source_content_sha256: 345b39c6aa42db2dbb13f3b4da3d834dda0b94e5c0750c5ee630d5f4b9b588d5
 translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-df96e5cb
 glossary_version: 34
@@ -52,7 +52,7 @@ b) Trong trường hợp ngược lại, $\operatorname{Tr}(Q/H)$ là cận trê
 
 Cho $E$ là một không gian Hilbert thực và $Q$ là một dạng toàn phương dương trên $E$. Đặt $H(x) = \|x\|^2$ với mọi $x \in E$; khi đó $H$ là một dạng toàn phương dương trên $E$. Người ta nói rằng $Q$ là *hạt nhân* nếu $\operatorname{Tr}(Q/H)$ là hữu hạn. Với mọi $x \in E$ có chuẩn bằng 1, ta có $Q(x) \leq \operatorname{Tr}(Q/H)$, do đó $Q \leq \operatorname{Tr}(Q/H) \cdot H$; đặc biệt, mọi dạng hạt nhân $Q$ đều liên tục.
 
-#### Nhận xét {#int-ix-a0-n1-rem-1 .statement}
+#### Nhận xét {#int-ix-a0-n1-rem-1 .statement tag=09T5}
 
 — 1) Với mọi không gian con $F$ của $E$, ký hiệu $Q_F$ là hạn chế của $Q$ trên $F$, và $H_F$ là hạn chế của $H$. Khi đó $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ và $\operatorname{Tr}(Q/H)$ là cận trên đúng của các số $\operatorname{Tr}(Q_F/H_F)$ với $F \subset E$ hữu hạn chiều.
 
@@ -60,7 +60,7 @@ Cho $E$ là một không gian Hilbert thực và $Q$ là một dạng toàn phư
 
 (1) Xem TVS, V, §4, No. 9.
 
-#### Mệnh đề 1 {#int-ix-a0-prop-1 .statement}
+#### Mệnh đề 1 {#int-ix-a0-prop-1 .statement tag=09T6}
 
 — *Giả sử rằng E hữu hạn chiều và H không suy biến.*
 
@@ -78,7 +78,7 @@ $$
 
 Đ.P.C.M.
 
-#### Mệnh đề 2 {#int-ix-a0-prop-2 .statement}
+#### Mệnh đề 2 {#int-ix-a0-prop-2 .statement tag=09T7}
 
 — *Giả sử rằng E là hữu hạn chiều. Tồn tại một cơ sở* $(e_1, \ldots, e_n)$ *của E và một số nguyên m với* $0 \leq m \leq n$ *sao cho*
 
@@ -100,7 +100,7 @@ $$
 
 Phải chứng minh điều đó.
 
-#### Nhận xét 3 {#int-ix-a0-n1-rem-3 .statement}
+#### Nhận xét 3 {#int-ix-a0-n1-rem-3 .statement tag=09T8}
 
 — Giả sử E hữu hạn chiều và H không suy biến. Cho $(e_1, \ldots, e_n)$ là một cơ sở của E. Đặt $q = ((e_i|e_j)_Q)_{1 \leq i,j \leq n}$ và $h = ((e_i|e_j)_H)_{1 \leq i,j \leq n}$. Với các ký hiệu như trong Mệnh đề 1, ma trận của $u$ đối với cơ sở $(e_1, \ldots, e_n)$ của E bằng $h^{-1}q$, do đó
 
@@ -134,7 +134,7 @@ $$
 H(x) = \|x\|^2,\quad Q(x) = \|u(x)\|^2 \quad (x \in E_1).
 $$
 
-#### Mệnh đề 3 {#int-ix-a0-prop-3 .statement}
+#### Mệnh đề 3 {#int-ix-a0-prop-3 .statement tag=09T9}
 
 *Giả sử u liên tục. Cho $(e_i)_{i \in I}$ là một cơ sở trực chuẩn của $E_1$ và $(f_j)_{j \in J}$ là một cơ sở trực chuẩn của $E_2$. Khi đó*
 

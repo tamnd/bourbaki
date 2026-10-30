@@ -21,7 +21,7 @@ subsections:
       pdf_page: 96
 statements: 5
 exercises: 9
-content_sha256: aced91e0475cbcf3beb48a3c7f719e9a57b6702f2fcd9454db892c456fc7358e
+content_sha256: 87d5c2d38995dead28149390beb0a8c16bc0fa11770de6c285e333dfa44881ca
 ---
 
 ## ANNEXE
@@ -42,15 +42,15 @@ b) Dans le cas contraire, $\operatorname{Tr}(Q/H)$ est la borne supérieure de l
 
 Soient E un espace hilbertien réel et Q une forme quadratique positive sur E. Posons $H(x) = \|x\|^2$ pour tout $x \in E$; alors H est une forme quadratique positive sur E. On dit que Q est nucléaire si $\operatorname{Tr}(Q/H)$ est fini. Pour tout $x \in E$ de norme 1, on a $Q(x) \leq \operatorname{Tr}(Q/H)$, d'où $Q \leq \operatorname{Tr}(Q/H).H$; en particulier toute forme nucléaire Q est continue.
 
-#### Remarque 1 {#int-ix-a0-n1-rem-1 .statement}
+#### Remarque 1 {#int-ix-a0-n1-rem-1 .statement tag=09T5}
 
 Pour tout sous-espace F de E, notons $Q_F$ la restriction de Q à F et $H_F$ celle de H. On a $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ et $\operatorname{Tr}(Q/H)$ est la borne supérieure des nombres $\operatorname{Tr}(Q_F/H_F)$ pour $F \subset E$ de dimension finie.
 
-#### Remarque 2 {#int-ix-a0-n1-rem-2 .statement}
+#### Remarque 2 {#int-ix-a0-n1-rem-2 .statement tag=0E7Q}
 
 Soient $E_1$ un espace vectoriel réel, $Q_1$ et $H_1$ deux formes quadratiques positives sur $E_1$ et $\pi : E \to E_1$ une application linéaire surjective. Si $Q = Q_1 \circ \pi$ et $H = H_1 \circ \pi$, on a $\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$.
 
-#### Proposition 1 {#int-ix-a0-prop-1 .statement}
+#### Proposition 1 {#int-ix-a0-prop-1 .statement tag=09T6}
 
 On suppose que E est de dimension finie et H non dégénérée.
 a) Il existe un endomorphisme u de E caractérisé par $(x|y)_Q = (u(x)|y)_H$ pour $x, y$ dans E.
@@ -65,7 +65,7 @@ $$
 
 C.Q.F.D.
 
-#### Proposition 2 {#int-ix-a0-prop-2 .statement}
+#### Proposition 2 {#int-ix-a0-prop-2 .statement tag=09T7}
 
 *On suppose que* $E$ *est de dimension finie. Il existe une base* $(e_1, \ldots, e_n)$ *de* $E$ *et un entier* $m$ *avec* $0 \leq m \leq n$ *tels que*
 
@@ -118,7 +118,7 @@ $$
 H(x) = \|x\|^2, \qquad Q(x) = \|u(x)\|^2 \qquad (x \in E_1).
 $$
 
-#### Proposition 3 {#int-ix-a0-prop-3 .statement}
+#### Proposition 3 {#int-ix-a0-prop-3 .statement tag=09T9}
 
 *Supposons u continue. Soient $(e_i)_{i \in I}$ une base orthonormale de $E_1$ et $(f_j)_{j \in J}$ une base orthonormale de $E_2$. On a*
 

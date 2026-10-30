@@ -29,14 +29,14 @@ subsections:
       pdf_page: 115
 statements: 18
 exercises: 4
-content_sha256: ecfcd134b18af5868f8731f6bee6180e13e66b31be31a1119f7e34ede17de5f1
+content_sha256: 1b7a37e543f0406cbfd60e577a19d4380d54f907b826482f7f157bfdc7f9b480
 ---
 
 ## § 2. EXTENSIONS
 
 ### 1. La structure d’extension
 
-#### Définition 1 {#alg-v-s2-def-1 .statement}
+#### Définition 1 {#alg-v-s2-def-1 .statement tag=06GV}
 
 Soit $K$ un corps. On appelle extension de $K$ une $K$-algèbre dont l’anneau sous-jacent est un corps. On appelle sous-extension (ou sous-K-extension) de l’extension $E$ une sous-K-algèbre de $E$ qui est un corps.
 
@@ -60,7 +60,7 @@ Soit A une algèbre sur un corps K. C’est en particulier un espace vectoriel s
 
 Une extension de degré 1 est triviale. Une extension de degré 2 (resp. 3, etc.) est dite quadratique (resp. cubique, etc.). Une extension de degré fini sera parfois appelée par abus de langage extension finie.
 
-#### Théorème 1 {#alg-v-s2-thm-1 .statement}
+#### Théorème 1 {#alg-v-s2-thm-1 .statement tag=06GW}
 
 Soient E une extension de K et A une algèbre sur E. On a alors [A : K] = [A : E].[E : K]. En particulier, si F est une extension de E, on a
 
@@ -70,25 +70,25 @@ $$
 
 Le théorème n’est qu’un cas particulier de II, p. 31, prop. 25 ; de manière plus précise, si $(a_\lambda)_{\lambda \in L}$ est une base de $A$ sur $E$ et $(b_\mu)_{\mu \in M}$ une base de $E$ sur $K$, alors la famille $(a_\lambda b_\mu)_{(\lambda, \mu) \in L \times M}$ est une base de $A$ sur $K$.
 
-#### Corollaire 1 {#alg-v-s2-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s2-thm-1-cor-1 .statement tag=06GX}
 
 *Soient $K, E, F$ trois corps tels que $K \subset E \subset F$ et que $[F : K]$ soit fini. Les degrés $[E : K]$ et $[F : E]$ sont des diviseurs de $[F : K]$*.
 
 Si le degré $[F : K]$ est premier, il n’existe donc aucune sous-extension de $F$ autre que $K$ et $F$. Mais on notera que, lorsque $[F : K]$ n’est pas premier, il n’existe pas nécessairement de sous-extension de $F$ autre que $K$ et $F$ (cf. V, p. 140, exerc. 1).
 
-#### Corollaire 2 {#alg-v-s2-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s2-thm-1-cor-2 .statement tag=06GY}
 
 *Soient $K, E$ et $F$ trois corps avec $K \subset E \subset F$. On suppose que $[F : K]$ est fini. Alors, la relation $[E : K] = [F : K]$ est équivalente à $E = F$ et la relation $[F : E] = [F : K]$ est équivalente à $E = K$.
 
 En effet, si $L$ est un surcorps de $L'$, la relation $[L : L'] = 1$ équivaut à $L' = L$.
 
-#### Proposition 1 {#alg-v-s2-prop-1 .statement}
+#### Proposition 1 {#alg-v-s2-prop-1 .statement tag=06GZ}
 
 *Soit $A$ une algèbre de degré fini sur un corps $K$. Si un élément $a \in A$ n’est pas diviseur de 0 à gauche (resp. à droite) dans $A$, il est inversible dans $A$.
 
 En effet, par hypothèse l’espace vectoriel $A$ sur $K$ est de dimension finie, et l’application linéaire $x \mapsto ax$ (resp. $x \mapsto xa$) de $A$ dans $A$ est injective ; elle est donc bijective (II, p. 101, cor.), et par suite (I, p. 16, remarque) $a$ est inversible dans $A$.
 
-#### Corollaire {#alg-v-s2-n2-cor-1 .statement}
+#### Corollaire {#alg-v-s2-n2-cor-1 .statement tag=06H0}
 
 *Soit $A$ une algèbre commutative de degré fini sur un corps $K$. Si l’anneau $A$ est intègre, c’est un corps.*
 
@@ -98,7 +98,7 @@ Soit $E$ une extension d’un corps $K$. Étant donnée une famille $x = (x_i)_{
 
 On prendra garde que $A$ n’est pas un ensemble générateur de l’*algèbre* $K(A)$, autrement dit que l’on a $K(A) \neq K[A]$, en général. *Toutefois on verra que $K(A) = K[A]$ si $K(A)$ est une extension algébrique de $K$ (V, p. 18, cor. 1).*
 
-#### Proposition 2 {#alg-v-s2-prop-2 .statement}
+#### Proposition 2 {#alg-v-s2-prop-2 .statement tag=06H1}
 
 *Si $M$ et $N$ sont deux parties quelconques d’une extension d’un corps $K$, on a $K(M \cup N) = K(M)(N) = K(N)(M)$.
 
@@ -106,23 +106,23 @@ En effet, $K(M \cup N)$ contient $K(M)$ et $N$, donc $K(M)(N)$; comme $K(M)(N)$ 
 
 On écrit parfois $K(M, N)$ au lieu de $K(M \cup N)$.
 
-#### Remarque {#alg-v-s2-n3-rem-1 .statement}
+#### Remarque {#alg-v-s2-n3-rem-1 .statement tag=06H2}
 
 Soit P le sous-corps premier d’un corps E (V, p. 2) ; pour toute partie A de E, P(A) est le plus petit sous-corps de E contenant A. En particulier, si K est un sous-corps de E, on a P(K ∪ A) = K(A). Si K et K’ sont deux sous-corps de E, on a donc P(K ∪ K’) = K(K’) = K’(K) ; ce corps est le plus petit sous-corps de E contenant K et K’, ou encore la borne supérieure de K et K’ dans l’ensemble des sous-corps de E, ordonné par inclusion ; on dit parfois que ce corps est le corps engendré par K et K’ dans E.
 
-#### Proposition 3 {#alg-v-s2-prop-3 .statement}
+#### Proposition 3 {#alg-v-s2-prop-3 .statement tag=06H3}
 
 Soit $\mathscr{F}$ un ensemble de sous-corps d’un corps E, filtrant pour la relation $\subset$. La réunion L des corps de $\mathscr{F}$ est un corps.
 
 En effet, si x et y sont deux éléments de L, il existe deux corps R, S de $\mathscr{F}$ tels que $x \in R, y \in S$; soit T un corps de $\mathscr{F}$ contenant R et S ; alors $x \in T, y \in T$, donc $x + y, xy$ et $x^{-1}$ (si $x \neq 0$) appartiennent à T, donc à L.
 
-#### Corollaire {#alg-v-s2-n3-cor-1 .statement}
+#### Corollaire {#alg-v-s2-n3-cor-1 .statement tag=06H4}
 
 Soient E une extension d’un corps K, et A $\subset$ E. Le corps K(A) est la réunion des corps K(F), où F parcourt l’ensemble des parties finies de A.
 
 En effet, l’ensemble des corps K(F) est filtrant pour la relation $\subset$, car F $\subset$ F’ entraîne K(F) $\subset$ K(F’). La réunion L de ces corps est donc un corps contenant K $\cup$ A et contenu dans K(A), et par suite identique à K(A).
 
-#### Définition 2 {#alg-v-s2-def-2 .statement}
+#### Définition 2 {#alg-v-s2-def-2 .statement tag=06H5}
 
 On dit qu’une extension E d’un corps K est de type fini si elle possède une famille génératrice finie. Elle est dite monogène s’il existe x dans E tel que $E = K(x)$.
 
@@ -148,7 +148,7 @@ Conformément aux définitions générales (E, IV, p. 6), un isomorphisme d’un
 
 Soit $(L, u, v)$ une extension composée de $E$ et $F$. L’application $K$-linéaire $w$ de $E \otimes_K F$ dans $L$ qui transforme $x \otimes y$ en $u(x)\ v(y)$ est un homomorphisme de $K$-algèbres ; dans ce numéro, nous la désignerons par $u * v$. Son image est le sous-anneau de $L$ engendré par $u(E) \cup v(F)$.
 
-#### Proposition 4 {#alg-v-s2-prop-4 .statement}
+#### Proposition 4 {#alg-v-s2-prop-4 .statement tag=06H6}
 
 *Soient $E, F$ deux extensions de $K$.*
 
@@ -162,11 +162,11 @@ Soient $p$ un idéal premier de $E \otimes_K F$, A l’anneau quotient $(E \otim
 
 Soit $(L', u', v')$ une extension composée de $E$ et $F$ telle que le noyau de $u' * v'$ soit égal à $p$. Comme $u * v$ et $u' * v'$ ont même noyau, il existe un isomorphisme $\psi$ de $A$ sur l’image $A'$ de $u' * v'$ caractérisé par $u' * v' = \psi \circ (u * v)$. Mais $A'$ est le sous-anneau de $L'$ engendré par $u'(E) \cup v'(F)$, donc $L'$ est le corps des fractions de $A'$. Par suite, $\psi$ se prolonge en un isomorphisme $\varphi$ de $L$ sur $L'$, et il est immédiat que $\varphi$ est un isomorphisme de $(L, u, v)$ sur $(L', u', v')$.
 
-#### Remarque {#alg-v-s2-n4-rem-1 .statement}
+#### Remarque {#alg-v-s2-n4-rem-1 .statement tag=06H7}
 
 Si $p$ et $p'$ sont deux idéaux premiers distincts de $E \otimes_K F$, les *extensions composées* de $E$ et $F$ correspondantes (construites par le procédé de la démonstration précédente) ne sont pas isomorphes. Elles peuvent cependant être isomorphes en tant qu’*extensions* de $K$ (V, p. 140, exerc. 2).
 
-#### Corollaire {#alg-v-s2-n4-cor-1 .statement}
+#### Corollaire {#alg-v-s2-n4-cor-1 .statement tag=06H8}
 
 *Il existe des extensions composées de $E$ et $F$.*
 
@@ -176,7 +176,7 @@ On peut préciser ce corollaire comme suit. Soient $(E, u)$ et $(F, v)$ deux ext
 
 Quitte à remplacer $(L, u')$ par une extension isomorphe de $E$, on peut supposer que $L$ est un surcorps de $E$ et $u'$ l’injection canonique de $E$ dans $L$. Changeant de notations, on obtient ainsi le scholie suivant :
 
-#### Scholie {#alg-v-s2-n4-sch-1 .statement}
+#### Scholie {#alg-v-s2-n4-sch-1 .statement tag=06H9}
 
 *Soient $K$ et $E$ deux corps et $u$ un homomorphisme de $K$ dans $E$. Si $K'$ est un surcorps de $K$, il existe un surcorps $E'$ de $E$ et un homomorphisme $u'$ de $K'$ dans $E'$ qui prolonge $u$*.
 
@@ -190,7 +190,7 @@ On dit que $A$ et $B$ sont *linéairement disjointes sur $K$* si $\varphi$ est u
 
 Considérons plus particulièrement le cas où $A$ et $B$ sont des *sous-extensions* de $\Omega$.
 
-#### Proposition 5 {#alg-v-s2-prop-5 .statement}
+#### Proposition 5 {#alg-v-s2-prop-5 .statement tag=06HA}
 
 *Soient $E$ et $F$ deux extensions de $K$ contenues dans $\Omega$.
 
@@ -202,13 +202,13 @@ En effet, soit $C$ le sous-anneau de $\Omega$ engendré par $E \cup F$; si $(b_j
 
 Soient $E$ et $F$ des extensions de $K$ contenues dans $\Omega$; si $E$ et $F$ sont de degré infini sur $K$, le sous-anneau $C = K[E \cup F]$ n’est pas nécessairement un corps $^1$; toutefois, le *corps des fractions* de $C$ est alors identique à $K(E \cup F)$. Plus généralement, soient $A$ un sous-anneau de $E$ tel que $E$ soit le corps des fractions de $A$, et $B$ un sous-anneau de $F$ tel que $F$ soit le corps des fractions de $B$; alors, si $C$ est le sous-anneau de $\Omega$ engendré par $A \cup B$, $K(E \cup F)$ est identique au *corps des fractions* de $C$, puisque ce dernier corps est le plus petit sous-corps de $\Omega$ contenant $C$, et qu’il contient $E$ et $F$. En outre :
 
-#### Proposition 6 {#alg-v-s2-prop-6 .statement}
+#### Proposition 6 {#alg-v-s2-prop-6 .statement tag=06HB}
 
 *Soient $E$ et $F$ deux extensions de $K$ contenues dans $\Omega$, $A$ et $B$ deux sous-algèbres de $\Omega$ sur $K$, telles que $E$ soit le corps des fractions de $A$ et $F$ le corps des fractions de $B$. Pour que $E$ et $F$ soient linéairement disjointes sur $K$, il faut et il suffit que $A$ et $B$ soient linéairement disjointes sur $K$.*
 
 La condition est évidemment nécessaire. Réciproquement, si $A$ et $B$ sont linéairement disjointes sur $K$, $A$ et $F$ le sont aussi, car si une famille d’éléments de $\Omega$ est libre par rapport à $B$, elle est libre par rapport au corps des fractions $F$ de $B$ (II, p. 117, cor. 1 et p. 118, cor. 3); le même raisonnement prouve ensuite que $E$ et $F$ sont linéairement disjointes sur $K$.
 
-#### Proposition 7 {#alg-v-s2-prop-7 .statement}
+#### Proposition 7 {#alg-v-s2-prop-7 .statement tag=06HC}
 
 *Soient $E$ et $F$ deux extensions de $K$, contenues dans $\Omega$. Si $E$ et $F$ sont linéairement disjointes sur $K$, toute sous-extension de $E$ et toute sous-extension de $F$ sont linéairement disjointes sur $K$. Inversement, si, pour tout couple de sous-extensions de type fini $E', F'$ de $E$ et $F$ respectivement, $E'$ et $F'$ sont linéairement disjointes sur $K$, alors $E$ et $F$ sont linéairement disjointes sur $K$.*
 
@@ -216,7 +216,7 @@ En effet, la condition pour que $E$ et $F$ soient linéairement disjointes sur $
 
 On peut donc dire, d’une façon imagée, que la disjonction linéaire est une propriété « de caractère fini ».
 
-#### Proposition 8 {#alg-v-s2-prop-8 .statement}
+#### Proposition 8 {#alg-v-s2-prop-8 .statement tag=06HD}
 
 *Soient $E, F, G$ trois extensions d’un corps $K$, contenues dans $\Omega$, et telles que $F \subset G$. Pour que $E$ et $G$ soient linéairement disjointes sur $K$, il faut et il suffit que $E$ et $F$ soient linéairement disjointes sur $K$, et que $E(F)$ et $G$ soient linéairement disjointes sur $F$.*
 

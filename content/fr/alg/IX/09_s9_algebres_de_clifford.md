@@ -32,7 +32,7 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: 605650a8a358bd85dd5c216b93044be92390e523e70d47a2b35b34ce5652fcfd
+content_sha256: 4cb989e83c37d6f797081bfb8f4fec6c45dc6d25d01a4be58b992b183ddeda63
 ---
 
 ## § 9. Algèbres de Clifford
@@ -41,7 +41,7 @@ Dans ce paragraphe, nous supposerons l’anneau $\mathbf{A}$ commutatif. Nous d�
 
 ### 1. Définition et propriété universelle de l’algèbre de Clifford.
 
-#### Définition 1 {#alg-ix-s9-def-1 .statement}
+#### Définition 1 {#alg-ix-s9-def-1 .statement tag=0DNB}
 
 On appelle algèbre de Clifford de $Q$ et on note $C(Q)$ l’algèbre quotient de l’algèbre tensorielle $T(E)$ du module $E$ par l’idéal bilatère (noté $I(Q)$) engendré par les éléments de la forme $x \otimes x - Q(x)\cdot 1$ $(x \in E)$.
 
@@ -57,7 +57,7 @@ $$
 \rho(x)\rho(y) + \rho(y)\rho(x) = \Phi(x,\ y)\cdot 1
 $$
 
-#### Exemple {#alg-ix-s9-n1-exa-1 .statement}
+#### Exemple {#alg-ix-s9-n1-exa-1 .statement tag=0DNC}
 
 Si $E$ admet une base composée d’un seul élément $e$, $T(E)$ est isomorphe à l’algèbre de polynômes $\mathbf{A}[X]$, et $C(Q)$ est une extension quadratique de $\mathbf{A}$, ayant pour base $(1,\ u)$, où $u$ est l’élément $u = \rho(e)$ et vérifie $u^2 = Q(e)$.
 
@@ -69,7 +69,7 @@ Comme $T(E)$ est somme directe de $T^+$ et $T^-$ et que $I(Q)$ est engendré par
 
 En particulier $C^+$ est une sous-algèbre de $C(Q)$.
 
-#### Proposition 1 {#alg-ix-s9-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s9-prop-1 .statement tag=0DND}
 
 *Soit f une application linéaire de E dans une algèbre D sur A telle que $f(x)^2 = Q(x).1$ pour tout $x \in E$. Il existe un homomorphisme $\bar{f}$ et un seul de $C(Q)$ dans D tel que $f = \bar{f} \circ \rho_Q$.
 
@@ -89,7 +89,7 @@ D’autre part soient $Q'$ une forme quadratique sur un A-module $E'$ et $f$ une
 
 Prenons en particulier Q' = Q et pour f l’application x → -x ; on voit qu’il existe un automorphisme α et un seul de C(Q) tel que $\alpha \circ \rho = -\rho$; on l’appelle l’automorphisme principal de C(Q). Il est clair que $\alpha^2 = 1$, et que la restriction de $\alpha$ à $C^+$ (resp. $C^-$) est l’identité (resp. l’application $u \to -u$).
 
-#### Proposition 2 {#alg-ix-s9-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s9-prop-2 .statement tag=0DNE}
 
 Soient $A'$ un anneau commutatif, $\varphi$ un homomorphisme de A dans $A'$, Q’ la forme quadratique sur $E' = A' \otimes_A E$ déduite de Q par extension des scalaires ($§ 3$, no 4, prop. 3). Il existe un isomorphisme j et un seul de l’algèbre $A' \otimes_A C(Q)$ sur $C(Q')$ tel que $j (1 \otimes \rho_Q(x)) = \rho_{Q'}(1 \otimes x)$ pour tout $x \in E$.
 
@@ -99,7 +99,7 @@ Il suffit de démontrer que l’algèbre $C' = A' \otimes C(Q)$ et l’applicati
 
 Dans ce no nous désignerons par $e_x$ ($x \in E$) l’application linéaire $u \to x \otimes u$ de l’algèbre tensorielle T(E) dans elle-même.
 
-#### Lemme 1 {#alg-ix-s9-lem-1 .statement}
+#### Lemme 1 {#alg-ix-s9-lem-1 .statement tag=0DNF}
 
 Soit $f$ un élément du dual $E^*$ de E. Il existe une application linéaire $i_f$ et une seule de T(E) dans elle-même telle que
 $$
@@ -139,7 +139,7 @@ donc $I(Q)$ est stable par $i_f$, et la dernière assertion s’ensuit. CQFD.
 
 Soit F une forme bilinéaire sur E ; dans le reste de ce paragraphe nous désignerons par $i_x^F$ ($x \in E$) l’application $i_f$ correspondant à la forme linéaire $f : y \to F(x, y)$ sur E.
 
-#### Lemme 2 {#alg-ix-s9-lem-2 .statement}
+#### Lemme 2 {#alg-ix-s9-lem-2 .statement tag=0DNG}
 
 Il existe une application linéaire $\lambda_F$ et une seule de $T(E)$ dans elle-même telle que
 
@@ -176,7 +176,7 @@ $$
 
 d’où notre dernière assertion.
 
-#### Lemme 3 {#alg-ix-s9-lem-3 .statement}
+#### Lemme 3 {#alg-ix-s9-lem-3 .statement tag=0DNH}
 
 Soient F et G deux formes bilinéaires sur E. On a $\lambda_F \circ \lambda_G = \lambda_{F+G}$. Pour toute forme bilinéaire F sur E, $\lambda_F$ est une bijection de $T(E)$ sur elle-même.
 
@@ -193,7 +193,7 @@ D’autre part, si $F = 0$, on a $i_x^F = 0$ pour tout $x \in E$, et par suite $
 
 ### 3. Base de l’algèbre de Clifford.
 
-#### Proposition 3 {#alg-ix-s9-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s9-prop-3 .statement tag=0DNI}
 
 Soient Q et Q' deux formes quadratiques et F une forme bilinéaire sur E telles que $Q'(x) = Q(x) + F(x, x)$ pour tout $x \in E$. L’application $\lambda_F$ applique l’idéal $I(Q')$ sur l’idéal $I(Q)$, et définit un isomorphisme (noté $\overline{\lambda_F}$) du A-module $C(Q')$ sur le A-module $C(Q)$.
 
@@ -209,7 +209,7 @@ $$
 \end{align*}
 $$
 
-#### Lemme 4 {#alg-ix-s9-lem-4 .statement}
+#### Lemme 4 {#alg-ix-s9-lem-4 .statement tag=0DNJ}
 
 Si la forme quadratique $Q$ est nulle, $C(Q)$ n’est autre que l’algèbre extérieure de $E$.
 
@@ -238,27 +238,27 @@ en posant, pour toute partie finie $J$ de $L$, $x'_J = \rho(x_{j_1}) \ldots \rho
 
 Nous avons donc démontré le théorème suivant :
 
-#### Théorème 1 {#alg-ix-s9-thm-1 .statement}
+#### Théorème 1 {#alg-ix-s9-thm-1 .statement tag=0DNK}
 
 *Supposons que le $A$-module $E$ admette une base $(x_i)_{i \in L}$, l’ensemble d’indices $L$ étant muni d’une structure d’ordre total. Pour toute partie finie $H$ de $L$, posons $x_H = \rho(x_{h_1}) \rho(x_{h_2}) \ldots \rho(x_{h_q})$, où $(h_1, \ldots, h_q)$ est la suite strictement croissante des éléments de $H$. Alors les éléments $x_H$ forment une base du $A$-module $C(Q)$.*
 
-#### Corollaire 1 {#alg-ix-s9-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s9-thm-1-cor-1 .statement tag=0DNL}
 
 *Si $E$ est un module libre de dimension $n$, $C(Q)$ est un module libre de dimension $2^n$; de plus, si $n > 0$, $C^+$ et $C^-$ sont des modules libres de dimension $2^{n-1}$.
 
 Ceci résulte aussitôt des propriétés des coefficients binomiaux.*
 
-#### Corollaire 2 {#alg-ix-s9-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s9-thm-1-cor-2 .statement tag=0DNM}
 
 *Si $E$ est un module libre, l’application canonique $\rho$ de $E$ dans $C(Q)$ et l’application $a \to a.1$ de $A$ dans $C(Q)$ sont injectives.*
 
-#### Corollaire 3 {#alg-ix-s9-thm-1-cor-3 .statement}
+#### Corollaire 3 {#alg-ix-s9-thm-1-cor-3 .statement tag=0DNN}
 
 *Supposons que $E$ soit somme directe de deux sous-modules libres $E_1$ et $E_2$. Soient $Q_i$ la restriction de $Q$ à $E_i$ et $p_i$ l’application canonique de $C(Q_i)$ dans $C(Q)$ ($i = 1, 2$). Alors l’application linéaire $p$ de $C(Q_1) \otimes C(Q_2)$ dans $C(Q)$ déduite de l’application bilinéaire $(a, b) \to p_1(a)p_2(b)$ de $C(Q_1) \times C(Q_2)$ dans $C(Q)$ est une bijection.
 
 Il suffit en effet de considérer la base de $E$ obtenue en prenant la réunion d’une base de $E_1$ et d’une base de $E_2$.
 
-#### Corollaire 4 {#alg-ix-s9-thm-1-cor-4 .statement}
+#### Corollaire 4 {#alg-ix-s9-thm-1-cor-4 .statement tag=0DNO}
 
 Les hypothèses et notations étant celles du cor. 3, supposons de plus que $E_1$ et $E_2$ soient orthogonaux, et transportons à $C(Q_1) \otimes C(Q_2)$, au moyen de la bijection $p$, la structure d’algèbre de $C(Q)$. Si $a_i$ et $b_i$ sont des éléments pairs ou impairs de $C(Q_i)$ ($i = 1,\ 2$), on $a\ (a_1 \otimes a_2)(b_1 \otimes b_2) = \varepsilon(a_1b_1) \otimes (a_2b_2)$, avec $\varepsilon = 1$ sauf si $a_2$ et $b_1$ sont impairs, auquel cas $\varepsilon = -1$.
 
@@ -280,7 +280,7 @@ Les conclusions des cor. 3 et 4 restent vraies si on omet l’hypothèse que $E_
 
 Dans ce n°, nous supposerons que $A$ est un corps, que $E$ est un espace vectoriel de dimension finie $m$ sur $A$, et que la forme quadratique $Q$ est non dégénérée (ce qui, d’après le th. 1 du § 5, n° 1, exige que $m$ soit pair si $A$ est de caractéristique 2). Puisque $E$ est libre, l’application canonique $\rho$ est injective (n° 3, cor. 2 du th. 1). Nous identifierons désormais $E$ et son image dans $C(Q)$.
 
-#### Théorème 2 {#alg-ix-s9-thm-2 .statement}
+#### Théorème 2 {#alg-ix-s9-thm-2 .statement tag=0DNP}
 
 Supposons que la dimension de $E$ soit un nombre pair $m = 2r$ et que $Q$ soit neutre (§ 4, n° 2). Alors l’algèbre $C(Q)$ est séparable (chap. VIII, § 7, n° 5, déf. 1) et est isomorphe à l’algèbre des endomorphismes d’un espace vectoriel de dimension $2^r$ sur $A$. De plus si $m > 0$, $C^+(Q)$ est séparable et est composée directe de deux idéaux isomorphes à l’algèbre des endomorphismes d’un espace vectoriel de dimension $2^{r-1}$ sur $A$.
 
@@ -306,17 +306,17 @@ $$
 
 Pour démontrer la seconde assertion, posons $S^+ = S \cap C^+$ et $S^- = S \cap C^-$; il est clair que $S^+$ (resp. $S^-$) est le sous-espace de $S$ engendré par les $n_H$ tels que $H$ ait un nombre pair (resp. impair) d’éléments, que $S$ est somme directe de $S^+$ et $S^-$, et que $s(C^+)$ laisse $S^+$ et $S^-$ stables. Par suite $s$ applique $C^+$ dans une sous-algèbre de $\mathscr{L}(S)$, isomorphe au produit $\mathscr{L}(S^+) \times \mathscr{L}(S^-)$; la restriction de $s$ à $C^+$ est un isomorphisme de $C^+$ sur cette sous-algèbre, puisque $s$ est injective et que $C^+$ et $\mathscr{L}(S^+) \times \mathscr{L}(S^-)$ sont toutes deux de dimension $2^{2r-1}$ (no 2, cor. 1 du th. 1). CQFD.
 
-#### Corollaire {#alg-ix-s9-n4-cor-1 .statement}
+#### Corollaire {#alg-ix-s9-n4-cor-1 .statement tag=0DNQ}
 
 *Si m est pair, mais Q d’indice quelconque, l’algèbre C(Q) est une algèbre centrale simple de dimension $2^m$. De plus, si $m > 0$, la sous-algèbre $C^+(Q)$ est séparable, et son centre Z est de dimension 2 sur A. Lorsque Z est un corps, Z est une extension quadratique séparable de A et $C^+(Q)$ est simple; sinon, Z est composé direct de deux corps isomorphes à A, et $C^+(Q)$ est alors composée directe de deux sous-algèbres simples de dimensions $2^{m-2}$.
 
 En effet, soient $A'$ la clôture algébrique de A, et $Q'$ la forme quadratique sur $E' = A' \otimes_A E$ déduite de Q par extension des scalaires. On a vu que $C(Q')$ est isomorphe à $A' \otimes_A C(Q)$ (prop. 2), et il est clair que $C^+(Q')$ est isomorphe à $A' \otimes_A C^+(Q)$. Comme $Q'$ est neutre ($§ 4$, no 2, cor. 2 de la prop. 3), le corollaire est une conséquence immédiate du th. 2 et des théorèmes de permanence du chap. VIII, $§ 7$.
 
-#### Remarque 1 {#alg-ix-s9-n4-rem-1 .statement}
+#### Remarque 1 {#alg-ix-s9-n4-rem-1 .statement tag=0DNR}
 
 Comme l’algèbre $C(Q)$ est simple, elle n’a qu’une seule classe de représentations irréductibles ; on les appelle les *représentations spinorielles* ; quand on fixe son attention sur une de ces représentations, soit $\tau$, les éléments de l’espace où s’effectue $\tau$ répondent au nom de *spineurs*. Si Q est neutre, la restriction de $\tau$ à $C^+(Q)$ est, comme celle de $s$, somme de deux représentations absolument irréductibles inéquivalentes; les éléments des sous-espaces où s’effectuent ces deux représentations sont appelés semi-spineurs. Dans le cas général, si $C^+(Q)$ n’est pas simple, la restriction de $\tau$ à $C^+(Q)$ doit, puisqu’elle est fidèle, contenir des sous-représentations appartenant à chacune des deux classes de représentations irréductibles de $C^+(Q)$, donc est somme de deux représentations absolument irréductibles inéquivalentes, puisqu’il en est ainsi après extension des scalaires à la clôture algébrique $A'$ de $A$. Par contre, si $C^+(Q)$ est simple, elle n’a qu’une seule classe de représentations irréductibles, et la restriction de $\tau$ à $C^+(Q)$ est donc irréductible, puisqu’elle se décompose par extension des scalaires à $A'$ en deux représentations non équivalentes.
 
-#### Remarque 2 {#alg-ix-s9-n4-rem-2 .statement}
+#### Remarque 2 {#alg-ix-s9-n4-rem-2 .statement tag=0DNS}
 
 Supposons $A$ de caractéristique $\neq 2$, et soit $(x_1, \ldots, x_m)$ ($m = 2r$) une base orthogonale de $E$. Posons
 $$
@@ -328,7 +328,7 @@ z^2 = 2^{2r}(-1)^r Q(x_1) \ldots Q(x_m) = (-1)^r D
 $$
 en désignant par $D$ le discriminant de $\Phi$ par rapport à la base $(x_j)$ (cf. exerc. 9).
 
-#### Théorème 3 {#alg-ix-s9-thm-3 .statement}
+#### Théorème 3 {#alg-ix-s9-thm-3 .statement tag=0DNT}
 
 *Supposons que la dimension de $E$ soit un nombre impair $m = 2r + 1$ (donc que $A$ soit de caractéristique $\neq 2$).*
 
@@ -340,7 +340,7 @@ Soient en effet $x_0$ un vecteur non isotrope de $E$, et $F$ l’orthogonal de $
 
 Soit maintenant $(x_1, \ldots, x_{2r})$ une base orthogonale de $F$; posons $z = x_0 x_1 \ldots x_{2r}$. On vérifie immédiatement que $z$ commute avec $x_j$ pour $j = 0, \ldots, 2r$, donc appartient au centre de $C(Q)$. Soit $Z$ le sous-espace de $C(Q)$ engendré par $1$ et $z$; c’est une sous-algèbre du centre de $C(Q)$ et une extension quadratique de $A$, car $z$ est impair et $z^2$ est égal au scalaire $(-1)^r Q(x_0) \ldots Q(x_{2r})$. Considérons l’homomorphisme $\theta$ de $Z \otimes_A C^+(Q)$ dans $C(Q)$ défini par $\theta(u \otimes v) = uv$. Comme $z \in C^-$ et est inversible, l’application $u \to zu$ est un isomorphisme du module $C^+$ sur $C^-$, ce qui entraîne que $\theta(Z \otimes C^+)$ contient $C^+$ et $C^-$, donc coïncide avec $C(Q)$. Comme $Z \otimes C^+$ et $C(Q)$ ont même dimension $2^{2r+1}$, $\theta$ est un isomorphisme ; ceci démontre $b$, compte tenu des résultats du chap. VIII, § 7.
 
-#### Remarque {#alg-ix-s9-n4-rem-3 .statement}
+#### Remarque {#alg-ix-s9-n4-rem-3 .statement tag=0DNU}
 
 Le discriminant $D$ de $\Phi$ par rapport à la base $(x_j)_{(j=0,\ldots,2r)}$ est égal à $2^{2r+1} Q(x_0) \ldots Q(x_{2r})$. Par suite $Z$ est engendré par $1$ et par l’élément impair $z' = 2^{r+1} z$ tel que ${z'}^2 = (-1)^r 2D$. L’algèbre $C(Q)$ est donc simple si et seulement si $2(-1)^r D$ n’est pas un carré dans $A$.
 
@@ -348,13 +348,13 @@ Le discriminant $D$ de $\Phi$ par rapport à la base $(x_j)_{(j=0,\ldots,2r)}$ e
 
 On suppose, dans ce n°, que $A$ est un corps, que $E$ est de dimension finie $m$, et que $Q$ est non dégénérée. On identifie $E$ avec son image canonique dans $C(Q)$.
 
-#### Définition 2 {#alg-ix-s9-def-2 .statement}
+#### Définition 2 {#alg-ix-s9-def-2 .statement tag=0DNV}
 
 On appelle groupe de Clifford de $Q$ (resp. groupe de Clifford spécial de $Q$), le groupe multiplicatif des éléments inversibles $s$ de $C(Q)$ (resp. $C^+(Q)$) tels que $sEs^{-1} = E$.
 
 Dans ce n° nous noterons $G$ et $G^+$ le groupe de Clifford et le groupe de Clifford spécial de $Q$. Il est clair que l’on a $G^+ = G \cap C^+(Q)$.
 
-#### Théorème 4 {#alg-ix-s9-thm-4 .statement}
+#### Théorème 4 {#alg-ix-s9-thm-4 .statement tag=0DNW}
 
 Posons, pour $s \in G$ et $x \in E$, $\varphi(s).x = sx s^{-1}$.
 
@@ -372,7 +372,7 @@ Pour qu’un élément $x$ de $E$ appartienne à $G$, il faut qu’il soit inver
 $$ xy x^{-1} = Q(x)^{-1} xy x = Q(x)^{-1} x (\Phi(x, y) - xy) = - (y - \Phi(x, y) Q(x)^{-1} x); $$
 ceci démontre b) (§ 6, no 4).
 
-#### Lemme 5 {#alg-ix-s9-lem-5 .statement}
+#### Lemme 5 {#alg-ix-s9-lem-5 .statement tag=0DNX}
 
 Tout élément $s$ de $G$ est de la forme $zs'$, où $z$ est un élément inversible de $Z$ et $s'$ appartient à $G \cap C^+(Q)$ ou à $G \cap C^-(Q)$; le sous-groupe $G^+$ est d’indice 2 dans $G$ lorsque $E \neq \{0\}$.
 
@@ -384,7 +384,7 @@ Supposons enfin que $A$ soit de caractéristique $\not= 2$. Alors tout élément
 
 Le sous-groupe $\varphi(G^+)$ de $\mathbf{O}(Q)$, qui est d’indice 2 si $E \not= \{0\}$, s’appelle le *groupe des rotations* de $E$, et ses éléments prennent le nom de *rotations*; on le note $\mathbf{O}^+(Q)$. Remarquons que, si $A$ n’est pas de caractéristique 2, on a $\mathbf{O}^+(Q) = \mathbf{SO}(Q)$ (cf. exerc. 9).
 
-#### Proposition 4 {#alg-ix-s9-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s9-prop-4 .statement tag=0DNY}
 
 *Soit $\beta$ l’antiautomorphisme principal de $C(Q)$ (n° 1). Pour tout $s \in G^+$, $\beta(s)s$ est un scalaire. L’application $N : s \to \beta(s)s$ est un homomorphisme de $G^+$ dans le groupe multiplicatif $A^*$ des éléments non nuls de $A$.*
 

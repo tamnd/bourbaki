@@ -28,9 +28,9 @@ subsections:
       pdf_page: 320
 statements: 18
 exercises: 5
-content_sha256: 96175821c5414a3cc58861167c5e7c8b760f09ddb998b88c6c1e796f4b23c0a4
+content_sha256: d5a6e5fff2804d6bde1b894c8b7eb20fd28cba6956c7b8c05231fc86303fd85b
 translated_from: content/en/top/X/04_s4_approximation_of_continuous_real_valued.md
-source_content_sha256: 3e9a477ddda6ced3617f3120b0bf7a65a4a1aca4d420e95bfec5bd3f38875e9a
+source_content_sha256: 949d16c80adeb3bf4fa8d42aa0a09edd31bc61679863b9e79f9e89c41e063551
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-9e661c89
 glossary_version: 34
@@ -76,33 +76,33 @@ Với mỗi $x \in X$, cho $G_x$ là tập mở gồm tất cả các $z \in X$ 
 
 Với mọi $\varepsilon > 0$, với mỗi $x \in X$ tồn tại một hàm $u_x \in H$ sao cho $u_x(x) > f(x) - \varepsilon$. Theo Mệnh đề I và sự kiện $H$ có hướng đối với quan hệ $\leq$, tồn tại $g \in H$ sao cho $g(x) > f(x) - \varepsilon$ với mọi $x \in X$; mặt khác, theo định nghĩa ta có $g(x) \leq f(x)$, và do đó định lý được chứng minh.
 
-#### Hệ quả {#top-x-s4-n1-cor-1 .statement}
+#### Hệ quả {#top-x-s4-n1-cor-1 .statement tag=0CEW}
 
 Cho $(u_n)$ là một dãy tăng (tương ứng giảm) các hàm thực liên tục trên $X$. Nếu bao trên (tương ứng bao dưới) $f$ của dãy $(u_n)$ là hữu hạn và liên tục trên $X$, thì dãy $(u_n)$ hội tụ đều đến $f$ trong $X$.
 
 Hiển nhiên là kết luận của Định lý 1 không còn nhất thiết đúng nếu $X$ không còn được giả thiết là compact, như được chỉ ra bởi ví dụ về dãy giảm của các hàm $x/(n + x)$ trong $\mathbf{R}_+$.
 
-#### Mệnh đề 2 {#top-x-s4-prop-2 .statement}
+#### Mệnh đề 2 {#top-x-s4-prop-2 .statement tag=0CEX}
 
 Cho $X$ là một không gian compact, và cho $H$ là một tập hợp các hàm liên tục nhận giá trị thực trên $X$ sao cho, với bất kỳ hai hàm $u \in H, v \in H$ nào, các hàm $\sup(u, v)$ và $\inf(u, v)$ đều thuộc $H$. Khi đó một hàm liên tục nhận giá trị thực $f$ trên $X$ có thể được xấp xỉ đều bởi các hàm thuộc $H$ khi và chỉ khi, với mỗi số thực $\varepsilon > 0$ và mỗi cặp $x, y$ điểm của $X$, tồn tại một hàm $u_{x, y} \in H$ sao cho $|f(x) - u_{x, y}(x)| < \varepsilon$ và $|f(y) - u_{x, y}(y)| < \varepsilon$.
 
 Điều kiện ấy hiển nhiên là cần thiết; ta hãy chứng minh rằng nó là đủ. Với mỗi $\varepsilon > 0$, ta sẽ chứng minh rằng có một hàm $g \in H$ sao cho $|f(z) - g(z)| < \varepsilon$ với mọi $z \in X$. Cho $x$ là một điểm bất kỳ của $X$, và cho $H_x$ là tập hợp tất cả các hàm $u \in H$ sao cho $u(x) < f(x) + \varepsilon$. Theo giả thiết, với mỗi $y \in X$, hàm $u_{x, y}$ thuộc $H_x$ và ta có $u_{x, y}(y) > f(y) - \varepsilon$. Do đó, theo Mệnh đề 1, tồn tại một số hữu hạn các hàm của $H_x$ mà bao trên của chúng là $v_x$ sao cho $v_x(z) > f(z) - \varepsilon$ với mọi $z \in X$; mặt khác, ta có $v_x(x) < f(x) + \varepsilon$ theo định nghĩa của $H_x$; cuối cùng, $v_x \in H$ theo giả thiết. Vì vậy Mệnh đề 1 cho thấy rằng tồn tại một số hữu hạn các hàm $v_{x_i}$ mà bao dưới của chúng là $g$ sao cho $g(z) < f(z) + \varepsilon$ với mọi $z \in X$; nhưng vì ta có $v_{x_i}(z) > f(z) - \varepsilon$ với mọi $z \in X$ và với mọi chỉ số $i$, nên ta cũng có $g(z) > f(z) - \varepsilon$ với mọi $z \in X$. Vì $g \in H$ theo giả thiết, chứng minh kết thúc.
 
-#### Nhận xét {#top-x-s4-n1-rem-1 .statement}
+#### Nhận xét {#top-x-s4-n1-rem-1 .statement tag=0CEY}
 
 Khi tập $H$ thỏa mãn các điều kiện của Mệnh đề 2, nó là một dàn đối với thứ tự $f \leq g$. Nhưng cần lưu ý rằng một tập con $H$ của $C$ có thể là một dàn đối với thứ tự này mà không nhất thiết là cận trên nhỏ nhất (tương ứng, cận dưới lớn nhất) trong $H$ của hai hàm $u, v$ thuộc $H$ lại trùng với cận trên nhỏ nhất (tương ứng, cận dưới lớn nhất) của chúng trong $C$. \* Một ví dụ là các ánh xạ lồi của một khoảng compact của $\mathbf{R}$ vào $\mathbf{R}$. \*
 
-#### Hệ quả {#top-x-s4-n1-cor-2 .statement}
+#### Hệ quả {#top-x-s4-n1-cor-2 .statement tag=0CEZ}
 
 Giả sử rằng $H$ được xác định sao cho, hễ $u \in H$ và $v \in H$ thì ta có $\sup(u, v) \in H$ và $\inf(u, v) \in H$; đồng thời sao cho, cho trước bất kỳ hai điểm phân biệt $x, y$ của $X$ và bất kỳ hai số thực $\alpha, \beta$, tồn tại một hàm $g \in H$ sao cho $g(x) = \alpha$ và $g(y) = \beta$. Khi đó mọi hàm giá trị thực liên tục trên $X$ đều có thể được xấp xỉ đều bởi các hàm thuộc $H$.
 
-#### Định nghĩa 1 {#top-x-s4-def-1 .statement}
+#### Định nghĩa 1 {#top-x-s4-def-1 .statement tag=0CF0}
 
 *Nếu X là bất kỳ một tập hợp nào, một tập H các ánh xạ của X vào một tập Y được gọi là phân biệt các phần tử của một tập con A của X (hay là một tập phân biệt cho các phần tử của A) nếu, với bất kỳ hai phần tử phân biệt x, y nào của A, tồn tại một hàm f ∈ H sao cho f(x) ≠ f(y).*
 
 Chẳng hạn, nếu X là một không gian hoàn toàn chính quy (Chương IX, § 1, no. 5) thì tập tất cả các ánh xạ liên tục của X vào [0, 1] phân biệt các điểm của X.
 
-#### Định lý 2 (Stone) {#top-x-s4-thm-2 .statement}
+#### Định lý 2 (Stone) {#top-x-s4-thm-2 .statement tag=0CF1}
 
 *Cho X là một không gian compact, và cho H là một không gian con vectơ của $\mathscr{C}(X; \mathbf{R})$ sao cho 1) các hàm hằng thuộc H; 2) nếu $u \in H$ thì $|u| \in H$; 3) H phân biệt các điểm của X. Khi đó mọi hàm giá trị thực liên tục trên X đều có thể được xấp xỉ đều bởi các hàm của H.*
 
@@ -126,7 +126,7 @@ thuộc H và thỏa $g(x) = \alpha$ và $g(y) = \beta$.
 
 Cho một tập H các hàm giá trị thực được xác định trên một tập X, ta nói rằng một hàm giá trị thực được xác định trên X là một đa thức (hoặc một đa thức không có số hạng tự do) với hệ số thực, theo các hàm của H, nếu nó có dạng $x \to g(f_1(x), f_2(x), \ldots, f_n(x))$ trong đó g là một đa thức (hoặc một đa thức không có số hạng tự do) theo n ẩn thức (n tùy ý) với hệ số thực, và các $f_i$ ($1 \leq i \leq n$) thuộc H.
 
-#### Định lý 3 (Weierstrass-Stone) {#top-x-s4-thm-3 .statement}
+#### Định lý 3 (Weierstrass-Stone) {#top-x-s4-thm-3 .statement tag=0CF2}
 
 *Cho X là một không gian compact và cho H là một tập các hàm giá trị thực liên tục trên X phân biệt các điểm của X. Khi đó mọi hàm giá trị thực liên tục trên X đều có thể được xấp xỉ đều bởi các đa thức (với hệ số thực) theo các hàm của H.*
 
@@ -136,13 +136,13 @@ Cho $H_0$ là tập tất cả các đa thức theo các hàm của H, và cho $
 
 Vì mọi hàm $u \in \overline{H}_0$ đều bị chặn trên X, nên đủ để chứng minh bổ đề sau:
 
-#### Bổ đề 1 {#top-x-s4-lem-1 .statement}
+#### Bổ đề 1 {#top-x-s4-lem-1 .statement tag=0CF3}
 
 *Với mỗi số thực $\varepsilon > 0$ và mỗi khoảng compact $I \subset \mathbf{R}$ tồn tại một đa thức p(t) không có số hạng tự do sao cho $|p(t) - |t|| \leq \varepsilon$ với mọi $t \in I$.*
 
 Đủ để chứng minh bổ đề cho một khoảng có dạng $I = [-a, +a]$ và do đó, thay $t$ bằng $at$, cho khoảng $I = [-1, +1]$. Vì $|t| = \sqrt{t^2}$, Bổ đề 1 là hệ quả của kết quả sau:
 
-#### Bổ đề 2 {#top-x-s4-lem-2 .statement}
+#### Bổ đề 2 {#top-x-s4-lem-2 .statement tag=0CF4}
 
 *Gọi $(P_n)$ là dãy các đa thức không có số hạng hằng được xác định bởi*
 $$
@@ -172,13 +172,13 @@ Q.E.D.
 
 Nếu $X$ không compact, kết luận của Định lý 3 không nhất thiết đúng. Chẳng hạn, một hàm thực liên tục trên $\mathbf{R}$ bị chặn và không hằng không thể được xấp xỉ đều trong $\mathbf{R}$ bởi các đa thức (xem Bài tập 6).
 
-#### Mệnh đề 3 {#top-x-s4-prop-3 .statement}
+#### Mệnh đề 3 {#top-x-s4-prop-3 .statement tag=0CF5}
 
 *Gọi* $(K_i)_{i \in I}$ *là một họ các khoảng compact của* $\mathbf{R}$, $K = \prod_{i \in I} K_i$ *là tích của chúng*, và gọi $X$ *là một không gian con compact của* $K$. *Khi đó mọi hàm thực liên tục trên* $X$ *đều có thể được xấp xỉ đều bởi các đa thức theo các tọa độ* $x_i = \mathrm{pr}_i x$.
 
 Vì nếu $x = (x_i)$ và $y = (y_i)$ là hai điểm phân biệt của $X$, thì tồn tại ít nhất một chỉ số $i$ sao cho $x_i \neq y_i$; do đó họ các hàm liên tục $\mathrm{pr}_i$ thỏa mãn các điều kiện của Định lý 3.
 
-#### Mệnh đề 4 {#top-x-s4-prop-4 .statement}
+#### Mệnh đề 4 {#top-x-s4-prop-4 .statement tag=0CF6}
 
 *Gọi* $X$ *là một không gian compact, gọi* $A$ *là một không gian con đóng của* $X$, *và gọi* $H$ *là một tập hợp các hàm thực liên tục trên* $X$ *phân biệt các điểm của* $C_A$ *và sao cho* $A$ *là giao của các tập hợp* $\overline{u}^{-1}(0)$ *khi* $u$ *chạy qua* $H$. *Khi đó mọi hàm thực liên tục trên* $X$ *bằng không trên* $A$ *có thể được xấp xỉ đều bởi các đa thức không có số hạng hằng theo các hàm của* $H$.
 
@@ -194,7 +194,7 @@ Trong trường hợp tổng quát, xét quan hệ tương đương $R$ trên $X
 
 ### 3. ỨNG DỤNG : XẤP XỈ CÁC HÀM THỰC LIÊN TỤC ĐƯỢC XÁC ĐỊNH TRÊN TÍCH CỦA CÁC KHÔNG GIAN COMPACT
 
-#### Định lý 4 {#top-x-s4-thm-4 .statement}
+#### Định lý 4 {#top-x-s4-thm-4 .statement tag=0CF7}
 
 Cho $(X_i)_{i \in I}$ là một họ các không gian compact, và cho
 $$
@@ -216,7 +216,7 @@ Cho $X$ là một không gian compact và cho $Y$ là một không gian vectơ c
 
 Cho một tập $H$ gồm các hàm liên tục nhận giá trị thực xác định trên $X$, một họ hữu hạn $(u_i)_{1 \leq i \leq n}$ các hàm thuộc $H$, và một họ hữu hạn $(a_i)_{1 \leq i \leq n}$ các điểm của $Y$: khi đó ánh xạ $x \to \sum_{i=1}^n a_i u_i(x)$ của $X$ vào $Y$ là liên tục; ta ký hiệu nó là $\sum_{i=1}^n a_i u_i$, và ta nói rằng nó là một tổ hợp tuyến tính của các hàm của $H$ với hệ số trong $Y$. Ta nói rằng một ánh xạ liên tục $f : X \to Y$ có thể được xấp xỉ đều bởi các tổ hợp tuyến tính của các hàm của $H$ (với hệ số trong $Y$), nếu $f$ nằm trong bao đóng của không gian con vectơ của $C(X; Y)$ được tạo thành bởi các tổ hợp tuyến tính này.
 
-#### Mệnh đề 5 {#top-x-s4-prop-5 .statement}
+#### Mệnh đề 5 {#top-x-s4-prop-5 .statement tag=0CF8}
 
 Cho $X$ là một không gian compact, $Y$ là một không gian có chuẩn trên $\mathbf{R}$ và $H$ là một tập con của $\mathscr{C}(X; \mathbf{R})$. Nếu mọi hàm liên tục nhận giá trị thực trên $X$ đều có thể được xấp xỉ đều bởi các hàm của $H$, thì mọi ánh xạ liên tục $f$ của $X$ vào $Y$ đều có thể được xấp xỉ đều bởi các tổ hợp tuyến tính của các hàm của $H$ với hệ số trong $Y$.
 
@@ -242,13 +242,13 @@ và chứng minh hoàn tất.
 
 Từ Mệnh đề 5 suy ra rằng, ứng với mỗi mệnh đề mà ta đã chứng minh rằng một tập con $H$ nào đó của $\mathscr{C}(X; \mathbf{R})$ là trù mật, có một mệnh đề tương tự đối với các ánh xạ liên tục của $X$ vào một không gian định chuẩn $Y$ tùy ý. Ta sẽ chỉ viết tường minh mệnh đề tương ứng theo cách này với Định lý 3. Cho một tập $H$ các hàm nhận giá trị thực trên $X$, một đa thức theo các hàm của $H$, với hệ số trong $Y$, được định nghĩa là bất kỳ tổ hợp tuyến tính nào, với hệ số trong $Y$, của các tích của một họ hữu hạn (có thể rỗng) các hàm thuộc $H$. Khi đó:
 
-#### Mệnh đề 6 {#top-x-s4-prop-6 .statement}
+#### Mệnh đề 6 {#top-x-s4-prop-6 .statement tag=0CF9}
 
 Cho $X$ là một không gian compact và cho $H$ là một tập các hàm liên tục nhận giá trị thực trên $X$ phân biệt các điểm của $X$. Khi đó mọi ánh xạ liên tục của $X$ vào một không gian định chuẩn $Y$ trên $\mathbf{R}$ đều có thể được xấp xỉ đều bởi các đa thức theo các hàm của $H$ với hệ số trong $Y$.
 
 Từ đó suy ra:
 
-#### Mệnh đề 7 {#top-x-s4-prop-7 .statement}
+#### Mệnh đề 7 {#top-x-s4-prop-7 .statement tag=0CFA}
 
 Cho $X$ là một không gian compact và cho $H$ là một tập các hàm liên tục nhận giá trị phức trên $X$ phân biệt các điểm của $X$. Khi đó mọi ánh xạ liên tục của $X$ vào một không gian định chuẩn $Y$ trên $\mathbf{C}$ đều có thể được xấp xỉ đều bởi các đa thức theo các hàm $f \in H$ và các liên hợp của chúng $\overline{f}$ với hệ số trong $Y$.
 
@@ -258,13 +258,13 @@ $$
 \Re f = \frac{1}{2} (f + \overline{f}), \quad \Im f = \frac{1}{2i} (f - \overline{f}).
 $$
 
-#### Hệ quả 1 {#top-x-s4-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#top-x-s4-prop-7-cor-1 .statement tag=0CFB}
 
 Nếu $X$ là một tập con compact của không gian $\mathbf{C}^n$, thì mọi ánh xạ liên tục $(z_1, z_2, \ldots, z_n) \to f(z_1, z_2, \ldots, z_n)$ của $X$ vào một không gian chuẩn $Y$ trên trường $\mathbf{C}$ đều có thể được xấp xỉ đều bởi các đa thức theo $z_k$ và $\overline{z}_k$ với hệ số trong $Y$.
 
 Sau này ta sẽ thấy rằng nói chung không thể xấp xỉ đều $f$ bởi các đa thức (với hệ số trong $Y$) chỉ theo các biến $z_k$, ngay cả khi $Y = \mathbf{C}$.
 
-#### Hệ quả 2 {#top-x-s4-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#top-x-s4-prop-7-cor-2 .statement tag=0CFC}
 
 Cho $X$ là một không gian địa phương compact và cho $C_0(X)$ là $\mathbf{C}$-đại số chuẩn của các ánh xạ liên tục của $X$ vào $\mathbf{C}$ tiến tới 0 ở vô cực. Cho $A$ là một đại số con của $C_0(X)$ phân biệt các điểm của $X$ và sao cho (i) $\overline{f} \in A$ mỗi khi $f \in A$, (ii) với mỗi $x \in X$, tồn tại $f \in A$ sao cho $f(x) \neq 0$. Khi đó $A$ trù mật trong $C_0(X)$.
 
@@ -278,7 +278,7 @@ Nhờ Mệnh đề 7, mọi $f \in C_0(X)$ đều có thể được xấp xỉ 
 
 Một ứng dụng khác của Mệnh đề 7 là như sau:
 
-#### Mệnh đề 8 {#top-x-s4-prop-8 .statement}
+#### Mệnh đề 8 {#top-x-s4-prop-8 .statement tag=0CFD}
 
 Cho P là tập của mọi ánh xạ liên tục tuần hoàn của $\mathbf{R}^m$ vào $\mathbf{C}$ mà nhóm chu kỳ của chúng chứa $\mathbf{Z}^m$. Khi đó mọi hàm thuộc P đều có thể được xấp xỉ đều trên $\mathbf{R}^m$ bởi các tổ hợp tuyến tính, với hệ số phức, của các hàm có dạng
 

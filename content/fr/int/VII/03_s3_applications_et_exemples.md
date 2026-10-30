@@ -24,7 +24,7 @@ subsections:
       pdf_page: 78
 statements: 26
 exercises: 12
-content_sha256: 768dfee427aeded9f12c9594c84f63cc38ab3411dc90105e552151ede6e554da
+content_sha256: 1ac5534c947cfe65776ea07f97a4f914abdf675bdcdeb331473b3cabd55d45fc
 ---
 
 ## § 3. Applications et exemples.
@@ -33,7 +33,7 @@ content_sha256: 768dfee427aeded9f12c9594c84f63cc38ab3411dc90105e552151ede6e554da
 
 Soit $E$ un espace vectoriel de dimension finie sur $\mathbf{R}, \mathbf{C}$ ou $\mathbf{H}$. Alors $\mathrm{End}(E)$ est une algèbre de dimension finie sur $\mathbf{R}$, et la topologie canonique sur $\mathrm{End}(E)$ (§ 1, no 10) est la topologie de la convergence compacte. Le groupe $\mathrm{Aut}(E) = \mathbf{GL}(E)$ est une partie ouverte de $\mathrm{End}(E)$, donc est un groupe localement compact. Soit $(e_1, e_2, \ldots, e_n)$ une base de $E$, et pour tout endomorphisme $u$ de $E$, soit $M(u) = (\alpha_{ij}(u))$ la matrice de $u$ par rapport à cette base ; dire qu’une partie $S$ de $\mathrm{End}(E)$ est relativement compacte dans $\mathrm{End}(E)$ équivaut à dire que les fonctions $\alpha_{ij}(u)$ sont bornées dans $S$.
 
-#### Proposition 1 {#int-vii-s3-prop-1 .statement}
+#### Proposition 1 {#int-vii-s3-prop-1 .statement tag=09GS}
 
 Soit $G$ un sous-groupe de $\mathrm{Aut}(E)$. Les trois propriétés suivantes sont équivalentes :
 (i) $G$ est relativement compact dans $\mathrm{End}(E)$ ;
@@ -47,7 +47,7 @@ Soit $G$ un sous-groupe de $\mathrm{Aut}(E)$. Les trois propriétés suivantes s
 
 (ii) ⇒ (iii) : supposons que l’adhérence $\overline{G}$ de G dans Aut(E) soit compacte. Soit Φ une forme hermitienne positive non dégénérée sur E. Si le corps des scalaires est $\mathbf{R}$ ou $\mathbf{C}$, la donnée de Φ fait de E un espace hilbertien de dimension finie, et la condition (iii) résultera du lemme suivant :
 
-#### Lemme 1 {#int-vii-s3-lem-1 .statement}
+#### Lemme 1 {#int-vii-s3-lem-1 .statement tag=09GT}
 
 Soient F un espace hilbertien, K un groupe compact, et s → U(s) une représentation de K dans le groupe des éléments inversibles de $\mathscr{L}(F ; F)$, continue pour la topologie de la convergence simple. Il existe une forme hermitienne positive non dégénérée φ sur F telle que $\varphi(U(s)x, U(s)y) = \varphi(x, y)$ quels que soient s ∈ K, x ∈ F, y ∈ F, et telle que la structure d’espace vectoriel topologique de F définie par φ (Esp. vect. top., chap. V, § 1, no 3) soit identique à la structure initiale de F.
 
@@ -80,19 +80,19 @@ $$
 
 Lorsque le corps des scalaires est $\mathbf{H}$, on raisonne exactement de même, en remplaçant partout la fonction $s \to (U(s)x | U(s)y)$ par la fonction $s \to \Phi(sx, y)$ définie dans $G$, à valeurs dans $\mathbf{H}$. Ce qui achève la démonstration du lemme.
 
-#### Remarque {#int-vii-s3-n1-rem-1 .statement}
+#### Remarque {#int-vii-s3-n1-rem-1 .statement tag=09GU}
 
 Soit $\Phi$ une forme hermitienne positive non dégénérée sur $E$. Le groupe unitaire $\mathbf{U}(\Phi)$ est fermé dans $\mathrm{Aut}(E)$, donc compact (prop. 1). La prop. 1 montre aussi que tout sous-groupe compact de $\mathrm{Aut}(E)$ est contenu dans un sous-groupe de la forme $\mathbf{U}(\Phi)$. Si maintenant $\mathbf{U}(\Phi)$ est contenu dans un sous-groupe compact $K$ de $\mathrm{Aut}(E)$, on voit qu’il existe une forme hermitienne positive non dégénérée $\Phi'$ sur $E$ telle que $\mathbf{U}(\Phi) \subset K \subset \mathbf{U}(\Phi')$ et il en résulte facilement (exerc. 1) que $\Phi$ et $\Phi'$ sont proportionnelles, d’où $\mathbf{U}(\Phi) = K$. Ainsi les sous-groupes compacts maximaux de $\mathrm{Aut}(E)$ sont les sous-groupes de la forme $\mathbf{U}(\Phi)$.
 
 ### 2. Trivialité d’espaces fibrés et d’extensions de groupes.
 
-#### Proposition 2 {#int-vii-s3-prop-2 .statement}
+#### Proposition 2 {#int-vii-s3-prop-2 .statement tag=09GV}
 
 Soit $X$ un espace localement compact dans lequel un groupe localement compact $H$ opère à droite, continûment et proprement, par $(x, \xi) \to x\xi$. Supposons $X/H$ paracompact. Soit $g$ une représentation continue de $H$ dans $\mathbf{R}^n$. Il existe alors une application continue $f$ de $X$ dans $\mathbf{R}^n$ telle que $f(x\xi) = f(x) + g(\xi)$ quels que soient $x \in X$ et $\xi \in H$.
 
 On se ramène aussitôt au cas où $n = 1$. Comme le groupe additif $\mathbf{R}$ est isomorphe au groupe multiplicatif $\mathbf{R}_+^*$, la proposition est alors conséquence immédiate de la prop. 7 du § 2, no 4.
 
-#### Corollaire {#int-vii-s3-n2-cor-1 .statement}
+#### Corollaire {#int-vii-s3-n2-cor-1 .statement tag=09GW}
 
 *Soit X un espace localement compact dans lequel un espace vectoriel réel V de dimension finie opère à droite, continûment et proprement, par $(x, v) \to xv$. Soit $\pi$ l’application canonique de X sur $B = X/V$. Supposons B paracompact.*
 
@@ -102,7 +102,7 @@ b) *Si $f$ est une application vérifiant les conditions de a), l’application 
 
 L’assertion a) résulte de la prop. 2 dans laquelle on prend pour $g$ l’application identique de V. Soit $f$ une application vérifiant les conditions de a). L’application $x \to x.(-f(x))$ de X dans X est continue et constante sur chaque orbite, donc de la forme $\varphi \circ \pi$, où $\varphi$ est une application continue de B dans X ; pour tout $b \in B$, on a $\pi(\varphi(b)) = b$. Les applications $x \to (\pi(x), f(x))$ de X dans $B \times V$ et $(b, v) \to \varphi(b).v$ de $B \times V$ dans X sont réciproques l’une de l’autre, car $\varphi(\pi(x)).f(x) = x.(-f(x)).(f(x)) = x,\ \pi(\varphi(b).v) = \pi(\varphi(b)) = b$, et, si $b = \pi(y), f(\varphi(\pi(y)).v) = f(y.(-f(y)).v) = f(y) - f(y) + v = v$. Comme ces applications sont continues, ce sont des homéomorphismes.
 
-#### Remarque {#int-vii-s3-n2-rem-1 .statement}
+#### Remarque {#int-vii-s3-n2-rem-1 .statement tag=09GX}
 
 Soient E un espace affine réel de dimension finie, T un espace compact, $\mu$ une mesure *de masse totale* 1 sur T, $f$ une application continue de T dans E. Si on choisit une origine $a$ dans E, E se trouve muni d’une structure d’espace vectoriel, et l’intégrale $\int_T f(t)d\mu(t)$ a donc un sens ; elle représente le point $x$ de E tel que
 
@@ -127,7 +127,7 @@ $$
 
 En effet, on peut identifier $\mathbf{E}$ et $\mathbf{E}'$ à des espaces vectoriels de telle sorte que $u$ devienne une application linéaire, et la formule est alors connue (chap. III, § 4, no 2, prop. 4).
 
-#### Lemme 2 {#int-vii-s3-lem-2 .statement}
+#### Lemme 2 {#int-vii-s3-lem-2 .statement tag=09GY}
 
 Soient $G$ un groupe compact, $\mu$ la mesure de Haar normalisée de $G$, $\mathbf{E}$ un espace affine de dimension finie, $A$ le groupe affine de $\mathbf{E}$, $\varrho$ un homomorphisme de $G$ dans $A$. On suppose que, pour tout $x \in \mathbf{E}$, l'application $s \to \varrho(s)x$ de $G$ dans $\mathbf{E}$ est continue. Alors, pour tout $x \in \mathbf{E}$, le point
 
@@ -143,7 +143,7 @@ $$
 \varrho(t)x_0 = \int_G \varrho(t)\varrho(s)x d\mu(s) = \int_G \varrho(ts)x d\mu(s) = \int_G \varrho(s)x d\mu(s) = x_0.
 $$
 
-#### Proposition 3 {#int-vii-s3-prop-3 .statement}
+#### Proposition 3 {#int-vii-s3-prop-3 .statement tag=09GZ}
 
 Soit $G$ un groupe localement compact. Soit $H$ un sous-groupe distingué fermé de $G$, isomorphe à $\mathbf{R}^n$ et tel que $G/H$ soit compact.
 
@@ -213,7 +213,7 @@ On voit que l’application $(g, h_1) \to \psi_g(h_1)$ de $G \times H$ dans $H$ 
 
 Soit L’ un sous-groupe fermé de G contenant L. Alors L’ est produit semi-direct topologique de L et de $L' \cap H$. Si L’ est compact, $L' \cap H$ est compact, donc se réduit à un point (*Top. gén.*, chap. VII, § 1, no 2, cor. 1 du th. 2), donc $L' = L$. Ceci prouve que L est un sous-groupe compact maximal de G ; il en est donc de même des sous-groupes transformés de L par les automorphismes intérieurs de G. Les assertions c) et d) de la prop. 3 sont alors des conséquences immédiates de b).
 
-#### Proposition 4 {#int-vii-s3-prop-4 .statement}
+#### Proposition 4 {#int-vii-s3-prop-4 .statement tag=09H0}
 
 *Soient G un groupe localement compact et H un sous-groupe distingué fermé de G tel que K = G/H soit compact. Alors toute représentation continue u de H dans $\mathbf{R}$, telle que $u(s\xi s^{-1}) = u(\xi)$ quels que soient $\xi \in H$ et $s \in G$, peut être prolongée en une représentation continue de G dans $\mathbf{R}$.*
 
@@ -225,19 +225,19 @@ $$
 
 donc est compact. D’après la prop. 3, et compte tenu du fait que N est dans le centre de L’, L’ est le produit de N et d’un autre sous-groupe. Il existe donc une représentation continue de L’ sur N qui se réduit sur N à l’application identique. Donc il existe une représentation continue $v$ de $L$ sur $\mathbf{R}$ qui est triviale sur $M$ et se réduit sur $\mathbf{R}$ à l’application identique. Pour $\xi \in H$, on a $v((\xi, 0)) = v((\xi, -u(\xi)(e, u(\xi)))) = u(\xi)$, ce qui achève la démonstration.
 
-#### Lemme 3 {#int-vii-s3-lem-3 .statement}
+#### Lemme 3 {#int-vii-s3-lem-3 .statement tag=09H1}
 
 *Soit G un groupe topologique engendré par un voisinage compact de e. Soit H un sous-groupe fermé de G tel que l’espace homogène G/H soit compact. Alors, H est engendré par un voisinage compact de e dans H.*
 
 Soit C un ensemble compact tel que $G = CH$. En agrandissant C, on peut supposer que C engendre G et que $G = \dot{C}H$. Alors $C^2$ est compact et recouvert par les $\dot{C}s$ ($s \in H$) qui sont ouverts. Donc il existe $s_1, \ldots, s_n$ dans H tels que $C^2 \subset \dot{C}s_1 \cup \ldots \cup \dot{C}s_n$. Soit $\Gamma$ le sous-groupe de H engendré par les $s_i$. On a $C^2 \subset C\Gamma$. Par récurrence, on en déduit $C^n \subset C\Gamma$ pour tout $n$, donc $G = C\Gamma$. Tout élément de H se met sous la forme $ab$ avec $a \in C, b \in \Gamma$, d’où $a \in H$, d’où $a \in C \cap H$. Donc H est engendré par $C \cap H$ et les $s_i$, c’est-à-dire par un ensemble compact.
 
-#### Lemme 4 {#int-vii-s3-lem-4 .statement}
+#### Lemme 4 {#int-vii-s3-lem-4 .statement tag=09H2}
 
 *Soient G un groupe topologique connexe, D un sous-groupe totalement discontinu distingué de G. Alors D est contenu dans le centre de G.*
 
 En effet, soit $d \in D$. L’image de G par l’application continue $x \to dx d^{-1}$ est un sous-ensemble connexe de D, donc se réduit à $\{d\}$, ce qui prouve que $xd = dx$ pour tout $x \in G$.
 
-#### Proposition 5 {#int-vii-s3-prop-5 .statement}
+#### Proposition 5 {#int-vii-s3-prop-5 .statement tag=09H3}
 
 *Soit G un groupe topologique connexe admettant un sous-groupe distingué discret D tel que K = G/D soit compact, et que le groupe des commutateurs de K soit dense dans K. Alors D est fini et G est compact.*
 
@@ -249,7 +249,7 @@ Dans ce no (exception faite des exemples 7 et 8), $K$ désignera un corps commut
 
 On rappelle que $\operatorname{mod} x = |x|$ si $K = \mathbf{R}$, $\operatorname{mod} x = |x|^2$ si $K = \mathbf{C}$, $\operatorname{mod} x = |x|_p$ si $K = \mathbf{Q}_p$.
 
-#### Exemple 1 {#int-vii-s3-n3-exa-1 .statement}
+#### Exemple 1 {#int-vii-s3-n3-exa-1 .statement tag=09H4}
 
 **Groupe linéaire.**
 
@@ -265,7 +265,7 @@ est une mesure de Haar à gauche et à droite sur $\mathbf{GL}(n, K)$.
 
 Pour déterminer toutes les mesures relativement invariantes sur $\mathbf{GL}(n, K)$, on s’appuiera sur le lemme suivant :
 
-#### Lemme 5 {#int-vii-s3-lem-5 .statement}
+#### Lemme 5 {#int-vii-s3-lem-5 .statement tag=09H5}
 
 **Les représentations continues de $\mathbf{GL}(n, K)$ dans $\mathbf{C}^*$ sont les applications de la forme $X \to \chi(\det X)$, où $\chi$ est une représentation continue de $K^*$ dans $\mathbf{C}^*$.**
 
@@ -295,7 +295,7 @@ $$
 
 où $\chi$ est une représentation continue de $K^*$ dans $\mathbf{C}^*$.
 
-#### Exemple 2 {#int-vii-s3-n3-exa-2 .statement}
+#### Exemple 2 {#int-vii-s3-n3-exa-2 .statement tag=09H6}
 
 *Groupe affine.*
 Pour tout $X \in \mathbf{GL}(n, K)$ et tout $x \in K^n$, soit $(X, x)$ l’application linéaire affine $\xi \to X\xi + x$ dans $K^n$. L’ensemble des $(X, x)$ est le groupe affine $G$ de $K^n$ (*Alg.*, chap. II, 3e éd., § 9, no 4). L’ensemble $T$ des translations est un sous-groupe distingué fermé de $G$, canoniquement isomorphe à $K^n$; d’autre part, $\mathbf{GL}(n, K)$ est un sous-groupe fermé de $G$, et $G$ est produit semi-direct de $\mathbf{GL}(n, K)$ et $T = K^n$. On munit $G$ de la topologie (localement compacte) pour laquelle $G$ est produit semi-direct topologique de $\mathbf{GL}(n, K)$ et de $T$ (*Top. gén.*, chap. III, § 2, no 10). On a
@@ -330,7 +330,7 @@ $$
 (\operatorname{mod} \det X)^{-n}. (\bigotimes_{i,j} dx_{ij}) \otimes (\bigotimes_i dx_i).
 $$
 
-#### Exemple 3 {#int-vii-s3-n3-exa-3 .statement}
+#### Exemple 3 {#int-vii-s3-n3-exa-3 .statement tag=09H7}
 
 *Groupe trigonal strict*.
 
@@ -347,7 +347,7 @@ z''_{ij} = 0 \text{ pour } i > j,\ z''_{ii} = 1
 $$
 d’où $Z'Z \in T_J$. Si on identifie $T_J$ à $K^s$, l’application $Z \to Z'Z$ (pour $Z'$ fixé) s’identifie à une application affine, et son déterminant est 1, comme on le voit en ordonnant lexicographiquement les couples $(i, j) \in J$ et en appliquant le lemme suivant :
 
-#### Lemme 6 {#int-vii-s3-lem-6 .statement}
+#### Lemme 6 {#int-vii-s3-lem-6 .statement tag=09H8}
 
 *Soit L un ensemble fini totalement ordonné. Pour tout $\lambda \in L$, soit $V_\lambda$ un module libre de dimension finie sur un anneau commutatif $k$; pour $\lambda, \mu$ dans $L$ tels que $\lambda \leq \mu$, soit $f_{\lambda \mu} \in \mathrm{Hom}_k(V_\mu, V_\lambda)$. Alors l’application linéaire*
 
@@ -371,7 +371,7 @@ On a un résultat analogue si on échange, dans la définition de $T_J$, le rôl
 
 Lorsque $J$ est l’ensemble des couples $(i, j)$ tels que $i < j$, le groupe $T_J$ s’appelle *groupe trigonal strict supérieur* d’ordre $n$ sur $K$ et se note $T_1(n, K)$. Son transposé s’appelle *groupe trigonal strict inférieur*.
 
-#### Exemple 4 {#int-vii-s3-n3-exa-4 .statement}
+#### Exemple 4 {#int-vii-s3-n3-exa-4 .statement tag=09H9}
 
 *Groupe trigonal large.*
 
@@ -508,7 +508,7 @@ $$
 \prod_{i=1}^{n} (\text{mod } z_{ii})^{n+1-2i}
 $$
 
-#### Remarque {#int-vii-s3-n3-rem-1 .statement}
+#### Remarque {#int-vii-s3-n3-rem-1 .statement tag=09HA}
 
 Le groupe $T(n, K)^*$ est un sous-groupe fermé de $\mathbf{GL}(n, K)$, et $\Delta_{T(n, K)^*}((z_{ij})) = \prod_{i=1}^{n} (\text{mod } z_{ii})^{2i-n-1}$. On a vu dans l’exemple 1 que $\Delta_{\mathbf{GL}(n, K)} = 1$. Si $n > 1$, la fonction
 
@@ -520,7 +520,7 @@ sur $T(n, K)^*$ ne peut se prolonger en une représentation continue de $G$ dans
 
 Cet espace homogène s’identifie, pour $n = 2$, à la droite projective sur $K$. En effet, soit $(e_1, e_2)$ la base canonique de $K^2$. Le groupe $\mathbf{GL}(2, K)$ opère transitivement sur l’ensemble des droites de $K^2$ privées de 0, et le stabilisateur de $Ke_1 - \{0\}$ est $T(2, K)^*$.
 
-#### Exemple 5 {#int-vii-s3-n3-exa-5 .statement}
+#### Exemple 5 {#int-vii-s3-n3-exa-5 .statement tag=09HB}
 
 **Groupe trigonal spécial.**
 
@@ -591,13 +591,13 @@ $$
 \operatorname{mod} \left( \prod_{i=1}^{n-1} z_{ii}^{2n-2i} \right).
 $$
 
-#### Exemple 6 {#int-vii-s3-n3-exa-6 .statement}
+#### Exemple 6 {#int-vii-s3-n3-exa-6 .statement tag=09HC}
 
 *Groupe linéaire spécial.*
 
 Les sous-groupes fermés $T_1(n, K)$ et $t(T(n, K)^*)$ de $\mathbf{GL}(n, K)$ ont pour intersection $\{e\}$. Donc l’application $(M, N) \to M . N$ est une bijection continue $\varphi$ de $T_1(n, K) \times {}^t(T(n, K)^*)$ sur une partie $\Omega$ de $\mathbf{GL}(n, K)$.
 
-#### Lemme 7 {#int-vii-s3-lem-7 .statement}
+#### Lemme 7 {#int-vii-s3-lem-7 .statement tag=09HD}
 
 a) *Soit $U = (u_{ij}) \in \mathbf{GL}(n, K)$. Pour que $U \in \Omega$, il faut et il suffit que $\det(u_{ij})_{k \leq i, j \leq n} \neq 0$ pour $k = 2, 3, \ldots, n$.
     b) $\Omega$ est une partie ouverte de $\mathbf{GL}(n, K)$.
@@ -627,7 +627,7 @@ pour $i = 1, 2, \ldots, n - 1$. Ceci prouve a). Il en résulte que $\Omega$ est 
 
 Soit maintenant $G'_1 \subset {}^t(T(n, K)^*)$ le groupe trigonal spécial inférieur. L’application $(M, N) \to M.N$ est une bijection continue $\psi$ de $T_1(n, K) \times G'_1$ sur une partie $\Omega'$ de $\mathbf{SL}(n, K)$.
 
-#### Lemme 8 {#int-vii-s3-lem-8 .statement}
+#### Lemme 8 {#int-vii-s3-lem-8 .statement tag=09HE}
 
 a) *Soit $U = (u_{ij}) \in \mathbf{SL}(n, K)$. Pour que $U \in \Omega'$, il faut et il suffit que $\det(u_{ij})_{k \leq i,j \leq n} \neq 0$ pour $k = 2, 3, \ldots, n$.*
 b) *$\Omega'$ est une partie ouverte de $\mathbf{SL}(n, K)$.*
@@ -641,7 +641,7 @@ $$
 
 et le lemme 8 résulte aussitôt du lemme 7.
 
-#### Proposition 6 {#int-vii-s3-prop-6 .statement}
+#### Proposition 6 {#int-vii-s3-prop-6 .statement tag=09HF}
 
 a) *Le groupe $\mathbf{SL}(n, K)$ est unimodulaire.*
 b) *Soient $\mu_1, \mu_2$ des mesures de Haar à gauche sur le groupe trigonal strict supérieur $T_1(n, K)$ et sur le groupe trigonal spécial inférieur $G'_1$. L’image de $\mu_1 \otimes \mu_2$ par l’homéomorphisme
@@ -653,7 +653,7 @@ c) *Le complémentaire de $\Omega'$ dans $\mathbf{SL}(n, K)$ est négligeable po
 
 Le groupe $\mathbf{GL}(n, K)$ est unimodulaire (exemple 1), et $\mathbf{SL}(n, K)$ est un sous-groupe distingué de $\mathbf{GL}(n, K)$, donc est unimodulaire ($§ 2$, no 7, prop. 10, b)). L’assertion b) résulte de a), du lemme 8, et de la prop. 13 du $§ 2$, no 9. Prouvons c). D’après le lemme 8 a), il suffit de prouver ceci : si $p((u_{ij})_{1 \leq i,j \leq n})$ est un polynôme, non identiquement nul sur $\mathbf{SL}(n, K)$, l’ensemble E des $U \in \mathbf{SL}(n, K)$ tels que $p(U) = 0$ est négligeable pour la mesure de Haar. Compte tenu du $§ 1$, no 10, cor. de la prop. 13, la topologie de $\mathbf{SL}(n, K)$ est à base dénombrable. Il suffit donc de prouver que, pour tout $U_0 \in E$, il existe un voisinage de $U_0$ dans $\mathbf{SL}(n, K)$ dont l’intersection avec E est négligeable ; ou encore qu’il existe un voisinage W de I dans $\mathbf{SL}(n, K)$ tel que $U_0^{-1}E \cap W$ soit négligeable. Prenons $W = \Omega$. Compte tenu de b), tout revient à voir que l’ensemble des couples $(M, N) \in T_1(n, K) \times G'_1$ tels que $p(U_0MN) = 0$ est négligeable pour $\mu_1 \otimes \mu_2$. D’après les expressions de $\mu_1$ et $\mu_2$ (calculées aux exemples 3 et 5), ceci résultera du lemme suivant :
 
-#### Lemme 9 {#int-vii-s3-lem-9 .statement}
+#### Lemme 9 {#int-vii-s3-lem-9 .statement tag=09HG}
 
 *Soit $\psi$ un polynôme $\neq 0$ de $K[X_1, \ldots, X_r]$. Dans l’espace $K^r$, l’ensemble $N$ défini par $\psi(x_1, \ldots, x_r) = 0$ est négligeable pour la mesure de Haar.*
 
@@ -665,13 +665,13 @@ $$
 
 avec $m > 0$ et $\psi_0 \neq 0$. Dans l’espace $K^{r-1}$, soit $N_0$ l’ensemble défini par $\psi_0(x_1, \ldots, x_{r-1}) = 0$, qui est négligeable d’après l’hypothèse de récurrence. Pour tout $(x_1, \ldots, x_{r-1}) \notin N_0$, l’ensemble des $x_r \in K$ tels que $(x_1, \ldots, x_{r-1}, x_r) \in N$ est fini, donc négligeable. Comme $K^r$ est dénombrable à l’infini ($§ 1$, no 10, cor. de la prop. 13), $N \cap [(K^{r-1} - N_0) \times K]$ est négligeable dans $K^r$ (chap. V, $§ 8$, no 2, cor. 8 de la prop. 5). Donc $N$ est négligeable.
 
-#### Exemple 7 {#int-vii-s3-n3-exa-7 .statement}
+#### Exemple 7 {#int-vii-s3-n3-exa-7 .statement tag=09HH}
 
 *Décomposition d’Iwasawa de $\mathbf{GL}(n, K)$.*
 
 Dans cet exemple, $K$ désigne l’un des corps $\mathbf{R}, \mathbf{C}, \mathbf{H}$. Si $\lambda \in K$, on définit $\bar{\lambda}$ comme égal à $\lambda$ si $K = \mathbf{R}$, comme égal au conjugué de $\lambda$ si $K = \mathbf{C}$ ou $\mathbf{H}$. Soit $E$ un $K$-espace vectoriel à droite de dimension $n$, et soit $\Phi$ une forme hermitienne positive non dégénérée sur $E$.
 
-#### Lemme 10 {#int-vii-s3-lem-10 .statement}
+#### Lemme 10 {#int-vii-s3-lem-10 .statement tag=09HI}
 
 *Soit $(f_1, f_2, \ldots, f_n)$ une base de $E$.
 a) Il existe une base orthonormale $(e_1, e_2, \ldots, e_n)$ et une seule de $E$ telle qu’on ait $f_i = e_1 \alpha_{i1} + e_2 \alpha_{i2} + \ldots + e_n \alpha_{in}$ ($i = 1, 2, \ldots, n$) avec $\alpha_{ii} > 0$ pour tout $i$.
@@ -697,7 +697,7 @@ dépend continûment de $(f_1, \ldots, f_n)$.
 
 Soit désormais $E = K^n$ et prenons pour $\Phi$ la forme $\overline{x}_1 y_1 + \ldots + \overline{x}_n y_n$. Rappelons qu'on note $\mathbf{U}(n, K)$ le groupe unitaire correspondant. Même si $K$ est non commutatif, nous noterons encore $T_1(n, K)$ le groupe des matrices triangulaires supérieures de $\mathbf{M}_n(K)$ dont la diagonale est formée de 1.
 
-#### Proposition 7 {#int-vii-s3-prop-7 .statement}
+#### Proposition 7 {#int-vii-s3-prop-7 .statement tag=09HJ}
 
 *Soit $D_*^+$ le groupe des matrices diagonales à éléments $> 0$. L’application $(U, D, T) \to UDT$ est un* homéomorphisme de $\mathbf{U}(n, K) \times D^*_+ \times T_1(n, K)$ sur $\mathbf{GL}(n, K)$.
 
@@ -736,7 +736,7 @@ $$
 
 $\alpha$ désignant une mesure de Haar sur $\mathbf{U}(n, K)$.
 
-#### Exemple 8 {#int-vii-s3-n3-exa-8 .statement}
+#### Exemple 8 {#int-vii-s3-n3-exa-8 .statement tag=09HK}
 
 Espaces de formes hermitiennes.
 

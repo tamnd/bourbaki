@@ -33,14 +33,14 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: 96de5ff4897051631e3ee827580eed4c33a462b1e5f34f77bfd9e66ad0129ccd
+content_sha256: c4cced628ead73d8a7f7dea6021c8771973779a0bf6c280142bacc5c87e4b329
 ---
 
 ## 4. THE HEIGHT OF A VALUATION
 
 ### 1. INCLUSION OF VALUATION RINGS OF THE SAME FIELD
 
-#### Proposition 1 {#ac-vi-s4-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s4-prop-1 .statement tag=04TV}
 
 *Let $K$ be a field and $A$ a valuation ring of $K$. Then:*
 (a) *Every ring $B$ such that $A \subset B \subset K$ is a valuation ring of $K$;
@@ -49,13 +49,13 @@ content_sha256: 96de5ff4897051631e3ee827580eed4c33a462b1e5f34f77bfd9e66ad0129ccd
 
 If $B$ is a ring such that $A \subset B \subset K$ and $x \in K - B$, then $x \in K - A$, whence $x^{-1} \in m(A) \subset B$, which proves both that $B$ is a valuation ring of $K$ and that $m(B) \subset m(A)$; as $m(B) = m(B) \cap A$ is a prime ideal of $A$, we have shown (a) and (b). Moreover, $A_{m(B)} \subset B$; conversely, if $x \in B - A$, then $x^{-1} \in A$ and $x^{-1} \notin m(B)$ and hence $x \in A_{m(B)}$; thus $A_{m(B)} = B$. Finally let $\mathfrak{p}$ be a prime ideal of $A$; we write $B = A_{\mathfrak{p}}$; then $m(B) \cap A = \mathfrak{p}$. (Chapter II, § 2, no. 5, Proposition 11) and $m(B) \subset A$ by (b); hence $m(B) = \mathfrak{p}$, which shows that the mappings $\mathfrak{p} \mapsto A$, and $B \mapsto m(B)$ of the statement are inverse bijections.
 
-#### Corollary {#ac-vi-s4-n1-cor-1 .statement}
+#### Corollary {#ac-vi-s4-n1-cor-1 .statement tag=04TW}
 
 *The set & subrings of K containing A is totally ordered by inclusion.*
 
 The set of prime ideals of $A$ is totally ordered by inclusion ($\S$ 1, no. 2, Theorem 1 (e)) and the mapping $\mathfrak{p} \mapsto A_{\mathfrak{p}}$ reverses the inclusion relations.
 
-#### Proposition 2 {#ac-vi-s4-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s4-prop-2 .statement tag=04TX}
 
 *Let K be a field, B a valuation ring of K and h, the place & K associated with B (with values in $\kappa(B)$). Then the mapping $A \mapsto h_B(A)$ defines a bijection of the set $\mathscr{A}$ of valuation rings of K contained in B onto the set $\mathscr{A}'$ of valuation rings of $\kappa(B)$.
 
@@ -63,13 +63,13 @@ If $A \in \mathscr{A}$, then $h_B(A) \in \mathscr{A}'$: for if $x' = h_B(x)$ (wh
 
 $A \mapsto h_B(A)$ is injective. Finally, let $A' \in \mathscr{A}'$ and $A = h_B(A') \subset B$; we shall show, which will complete the proof, that $A \in \mathscr{A}$; if $x \in K - A$, then either $x \notin B$, or $x \in B$; if $x \notin B$, then $x^{-1} \in m(B) \subset A$; if $x \in B$, then $h_B(x) \in \kappa(B)$ and $h_B(x) \notin A$, hence $h_B(x^{-1}) \in A$ and we conclude again that $x^{-1} \in A$; hence $A \in \mathscr{A}$.
 
-#### Corollary {#ac-vi-s4-n1-cor-2 .statement}
+#### Corollary {#ac-vi-s4-n1-cor-2 .statement tag=04TY}
 
 *Let A and B be two valuation rings of K, where $A \subset B$; let $A' = h_B(A)$, which is a valuation ring of $\kappa(B)$. The residue field $\kappa(A')$ of $A'$ is canonically isomorphic to the residue field $\kappa(A)$ of A and the place $h_A$ associated with A is the composition $h_{A'} \circ h_B$ of the places associated with A and B.*
 
 Since the local ring $A'$ is a quotient of the local ring $A$, their residue fields are canonically isomorphic and the equation $h_A(x) = h_{A'}(h_B(x))$ holds for $x \in A$. On the other hand, if $x \in B - A$, then $h_B(x) \notin A'$ and the two sides of the equation are equal to $\infty$; the same is true if $x \in K - B$.
 
-#### Remark {#ac-vi-s4-n1-rem-1 .statement}
+#### Remark {#ac-vi-s4-n1-rem-1 .statement tag=04TZ}
 
 Conversely, let $f$ be a place of K with values in $K'$ and $f'$ a place of $K'$ with values in $K''$. Then $f' \circ f$ is a place of K whose ring is contained in the ring of the place $f$.
 
@@ -77,15 +77,15 @@ Conversely, let $f$ be a place of K with values in $K'$ and $f'$ a place of $K'$
 
 To study the situation in no. 1 from the point of view of valuations we shall need Definition 1 and Proposition 3 below.
 
-#### Definition 1 {#ac-vi-s4-def-1 .statement}
+#### Definition 1 {#ac-vi-s4-def-1 .statement tag=04U0}
 
 *A subgroup H of an ordered group G is called isolated if the relations $0 \leq y \leq x$ and $x \in H$ imply $y \in H$.*
 
-#### Example (1) {#ac-vi-s4-n2-exa-1 .statement}
+#### Example (1) {#ac-vi-s4-n2-exa-1 .statement tag=04U1}
 
 Let $A$ and $B$ be two ordered groups; let $A \times B$ be given the lexicographic order (i.e. "$(a, b) \leq (a', b')$" is equivalent to "$(a < a') \text{ or } (a = a' \text{ and } b \leq b')$"). The second factor $B$ of $A \times B$ is then, as is seen immediately, an isolated subgroup of $A \times B$.
 
-#### Proposition 3 {#ac-vi-s4-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s4-prop-3 .statement tag=04U2}
 
 Let $G$ be an ordered group and $P$ the set of its positive elements.
 
@@ -103,7 +103,7 @@ $$
 
 for, *if* $x$ and $y$ are elements of $P$ such that $g(x) = -g(y)$, then $x + y \in H$, whence $x \in H$ and $y \in H$ since $H$ is isolated; hence $g(x) = g(y) = 0$. Thus $P'$ is the set of positive elements of an ordered group structure on $G/H$ (*Algebra*, Chapter VI, § 1, no. 3, Proposition 3). Finally, if $G$ is totally ordered, then $P \cap (-P) = G$, whence $P' \cup (-P') = G/H$ and therefore $G/H$ is totally ordered (*loc. cit.*).
 
-#### Example (2) {#ac-vi-s4-n2-exa-2 .statement}
+#### Example (2) {#ac-vi-s4-n2-exa-2 .statement tag=04U3}
 
 If we reconsider the example where $G$ is a lexicographic product $A \times B$ and $H = B$, the ordered group $G/H$ is canonically identified with $A$.
 
@@ -119,7 +119,7 @@ $$
 
 As $A \subset B$, $\lambda$ maps the positive elements of $\Gamma_A$ to positive elements of $\Gamma_B$ and hence is increasing. Therefore (Proposition 3) the kernel $H$, of $\lambda$ is an isolated subgroup of $\Gamma_A$ and $\lambda$ factors into $\Gamma_A \to \Gamma_A/H_B \xrightarrow{\mu} \Gamma_B$, where $\mu$ is an increasing bijective homomorphism and hence an *isomorphism* of totally ordered groups; hence $\Gamma_B$ is identified with the quotient totally ordered group $\Gamma_A/H_B$.
 
-#### Proposition 4 {#ac-vi-s4-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s4-prop-4 .statement tag=04U4}
 
 *The mapping* $B \mapsto H_B$ *is an increasing bijection of the set of subrings of* $K$ *containing* $A$ *onto the set of isolated subgroups of* $\Gamma_A$.
 
@@ -131,7 +131,7 @@ $$
 
 is a valuation on $K$ whose ring contains $A$.
 
-#### Remark {#ac-vi-s4-n3-rem-1 .statement}
+#### Remark {#ac-vi-s4-n3-rem-1 .statement tag=04U5}
 
 Under the above hypotheses, let $f$ denote the canonical homomorphism of $B$ onto $\kappa(B)$ and $A' = f(A)$; it is a valuation ring of $\kappa(B)$ (Proposition 2, no. 1). Then $f^{-1}(\kappa(B)^*) = U(B), f^{-1}(A') = A, f^{-1}(m(A')) = m(A)$, hence
 
@@ -151,7 +151,7 @@ $$
 0 \to \Gamma_{A'} \to \Gamma_A \to \Gamma_B \to 0.
 $$
 
-#### Example {#ac-vi-s4-n3-exa-1 .statement}
+#### Example {#ac-vi-s4-n3-exa-1 .statement tag=04U6}
 
 Let $k$ be a field,
 
@@ -167,7 +167,7 @@ Let $G$ be a totally ordered group. Given two isolated subgroups $H$ and $H'$ of
 
 This also follows from Proposition 4 of no. 3 and the Corollary to Proposition 1 of no. 1, taking account of the fact that every totally ordered group is the order group of a valuation (§ 3, no. 4, Example 6).
 
-#### Definition 2 {#ac-vi-s4-def-2 .statement}
+#### Definition 2 {#ac-vi-s4-def-2 .statement tag=04U7}
 
 *Let G be a totally ordered group. If the number of isolated subgroups of G distinct from G is finite and equal to n, G is said to be of height n. If this number is infinite, G is said to be of infinite height.*
 
@@ -186,19 +186,19 @@ $$
 
 On the other hand the height of $\mathbf{Z} \times \mathbf{Z}$ ordered by embedding in $\mathbf{R}$ (cf. § 3, no. 4, end of Example 6) is equal to 1 (cf. Proposition 8 below).
 
-#### Definition 3 {#ac-vi-s4-def-3 .statement}
+#### Definition 3 {#ac-vi-s4-def-3 .statement tag=04U8}
 
 *The height of the order group of a valuation is called the height of that valuation.*
 
 For example a discrete valuation is of height 1. Only improper valuations are of height 0. Propositions 1 and 4 imply:
 
-#### Proposition 5 {#ac-vi-s4-prop-5 .statement}
+#### Proposition 5 {#ac-vi-s4-prop-5 .statement tag=04U9}
 
 *The height of a valuation is equal to the number of non-zero prime ideals in its ring.*
 
 ### 5. VALUATIONS OF HEIGHT 1
 
-#### Proposition 6 {#ac-vi-s4-prop-6 .statement}
+#### Proposition 6 {#ac-vi-s4-prop-6 .statement tag=04UA}
 
 *Let $\mathbf{K}$ be a field and $A$ a subring of $\mathbf{K}$. Suppose that $A$ is not a field. Then the following conditions are equivalent:*
 (a) $A$ is the ring of a valuation of height 1 on $\mathbf{K}$;
@@ -207,13 +207,13 @@ For example a discrete valuation is of height 1. Only improper valuations are of
 
 Proposition 5 of no. 4 shows that (a) implies (b) and Proposition 1 of no. 1 shows that (b) implies (c). It remains to show that (c) implies (a). Suppose A is maximal among the subrings of K distinct from K. Let m be a maximal ideal of A and V a valuation ring of K dominating A_m (§ 1, no. 2, Corollary to Theorem 2); as m(V) ∩ A = m and m ≠ (0) (since A is not a field), V ≠ K, whence V = A, which proves that A is not the ring of a valuation v on K. This being so, v is of height 1 by Propositions 1 (no. 1) and 5 (no. 4).
 
-#### Proposition 7 {#ac-vi-s4-prop-7 .statement}
+#### Proposition 7 {#ac-vi-s4-prop-7 .statement tag=04UB}
 
 For a valuation on a field to be of height 1, it is necessary and sufficient that its order group be isomorphic to a non-zero ordered subgroup of \mathbf{R}.
 
 This follows in fact from the following proposition:
 
-#### Proposition 8 {#ac-vi-s4-prop-8 .statement}
+#### Proposition 8 {#ac-vi-s4-prop-8 .statement tag=04UC}
 
 Let G be a totally ordered group not reduced to O. The following conditions are equivalent:
 (a) G is of height 1;
@@ -230,7 +230,7 @@ $$
 
 for x ∈ P and y ∈ P; by linearity f can be extended to an isomorphism of G onto a subgroup of \mathbf{R}, which proves that (b) implies (c).
 
-#### Proposition 9 {#ac-vi-s4-prop-9 .statement}
+#### Proposition 9 {#ac-vi-s4-prop-9 .statement tag=04UD}
 
 Let K be a field, v a non-improper valuation on K and A the ring of v. For A to be completely integrally closed (Chapter V, § 1, no. 4, Definition 5), it is necessary and sufficient that v be of height 1.
 
@@ -238,7 +238,7 @@ Suppose v is of height 1. Let x ∈ K be such that the x^n (n ≥ 0) are all con
 
 Suppose now that v is not of height 1. Then there exist $y \in m(A)$ and $t \in A$ such that $nv(y) < v(t)$ for all $n \geqslant 0$ (Proposition 8 (b)). Then $ty^{-n} \in A$ for all $n \geqslant 0$, but $y^{-1} \notin A$. Hence A is not completely integrally closed.
 
-#### Corollary {#ac-vi-s4-n5-cor-1 .statement}
+#### Corollary {#ac-vi-s4-n5-cor-1 .statement tag=04UE}
 
 *Let K be a field, $(v_\alpha)_{\alpha \in I}$ a family of valuations of height 1 on K and A the intersection of the rings of the v.* Then A is a completely integrally closed domain.
 

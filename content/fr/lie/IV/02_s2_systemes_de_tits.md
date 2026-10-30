@@ -40,7 +40,7 @@ subsections:
       pdf_page: 29
 statements: 31
 exercises: 29
-content_sha256: 2fced1cd0ba3a54d251e3f3c9b51fcd23517c83d9de939b2767d351e182dd259
+content_sha256: aa36326a2094f06d27bbddff42a215316bebf8189d39b12f59b88a23165c8695
 ---
 
 ## § 2. Systèmes de Tits
@@ -51,7 +51,7 @@ Dans ce paragraphe, les lettres G, B, N, S, T, W ont la signification indiquée 
 
 Soient G un groupe et B un sous-groupe de G. On fait opérer le groupe $B \times B$ sur G par la loi $(b, b') . g = bg{b'}^{-1}$ pour $b, b' \in B$ et $g \in G$. Les orbites de $B \times B$ dans G sont les ensembles $BgB$, pour $g \in G$, qu’on appelle *doubles classes* de G suivant B. Elles forment une *partition* de G ; l’ensemble quotient correspondant se note $B \backslash G / B$. Si C et C’ sont deux doubles classes, CC’ est *réunion* de doubles classes.
 
-#### Définition 1 {#lie-iv-s2-def-1 .statement}
+#### Définition 1 {#lie-iv-s2-def-1 .statement tag=0AN8}
 
 *On appelle système de Tits un quadruplet* $(G, B, N, S)$, *où G est un groupe, B et N deux sous-groupes de G et S une partie de N/(B \cap N)*, *satisfaisant aux axiomes suivants* :
 
@@ -62,7 +62,7 @@ Soient G un groupe et B un sous-groupe de G. On fait opérer le groupe $B \times
 
 Le groupe $W = N/(B \cap N)$ est parfois appelé le *groupe de Weyl* du système de Tits $(G, B, N, S)$.
 
-#### Remarque 1 {#lie-iv-s2-n1-rem-1 .statement}
+#### Remarque 1 {#lie-iv-s2-n1-rem-1 .statement tag=0AN9}
 
 On verra au n° 5 (cor. du th. 3) que, si $(G, B, N)$ sont donnés, il existe au plus une partie S de $N/(B \cap N)$ telle que $(G, B, N, S)$ soit un système de Tits.
 
@@ -70,7 +70,7 @@ On verra au n° 5 (cor. du th. 3) que, si $(G, B, N)$ sont donnés, il existe au
 
 n° 2.1.
 
-#### Remarque 2 {#lie-iv-s2-n1-rem-2 .statement}
+#### Remarque 2 {#lie-iv-s2-n1-rem-2 .statement tag=0ANA}
 
 Soit (G, B, N, S) un système de Tits, et soit Z un sous-groupe distingué de G contenu dans B. Soient $G' = G/Z$, $B' = B/Z$, $N' = N/(Z \cap N)$, et soit $S'$ l’image de S dans $N'/(B' \cap N')$. Alors on voit aussitôt que $(G', B', N', S')$ est un système de Tits.
 
@@ -86,13 +86,13 @@ L’axiome (T3) s’écrit aussi sous la forme
 
 Comme on a par ailleurs $C(sw) \subset C(s) \cdot C(w)$ d’après (1) et que $C(s) \cdot C(w)$ est réunion de doubles classes, il n’y a que deux possibilités
 
-#### Remarque 3 {#lie-iv-s2-n1-rem-3 .statement}
+#### Remarque 3 {#lie-iv-s2-n1-rem-3 .statement tag=0E8Q}
 
 $C(s) \cdot C(w) = \begin{cases} C(sw) & \text{si } C(w) \not\subset C(s) \cdot C(w) \\ C(w) \cup C(sw) & \text{si } C(w) \subset C(s) \cdot C(w) . \end{cases}$
 
 On a $B \neq C(s) \cdot C(s)$ d’après (T4); faisant $w = s$ dans (3) et utilisant la relation $s^2 = 1$, on obtient
 
-#### Remarque 4 {#lie-iv-s2-n1-rem-4 .statement}
+#### Remarque 4 {#lie-iv-s2-n1-rem-4 .statement tag=0E8R}
 
 $C(s) \cdot C(s) = B \cup C(s)$.
 
@@ -102,7 +102,7 @@ $$ B \cdot C(w) = C(w); $$
 
 on obtient
 
-#### Remarque 5 {#lie-iv-s2-n1-rem-5 .statement}
+#### Remarque 5 {#lie-iv-s2-n1-rem-5 .statement tag=0E8S}
 
 $C(s) \cdot C(s) \cdot C(w) = C(w) \cup C(sw)$.
 
@@ -114,7 +114,7 @@ Si l’on prend les inverses des ensembles intervenant dans les formules (2), (3
 
 (5') $C(w) \cdot C(s) \cdot C(s) = C(w) \cup C(ws)$.
 
-#### Lemme 1 {#lie-iv-s2-lem-1 .statement}
+#### Lemme 1 {#lie-iv-s2-lem-1 .statement tag=0ANB}
 
 Soient $s_1, \ldots, s_q \in S$ et soit $w \in W$. On a
 
@@ -167,7 +167,7 @@ comme $B_2^- = s B_2 s$, elle résulte de la précédente par multiplication à 
 
 ### 3. Décomposition de $G$ en doubles classes
 
-#### Théorème 1 {#lie-iv-s2-thm-1 .statement}
+#### Théorème 1 {#lie-iv-s2-thm-1 .statement tag=0ANC}
 
 On a $G = \mathrm{BWB}$. L’application $w \mapsto C(w)$ est une bijection de $W$ sur l’ensemble $B \backslash G / B$ des doubles classes de $G$ suivant $B$.
 
@@ -203,13 +203,13 @@ $$
 
 Comme on a par ailleurs $C(sw') \subset C(s) \cdot C(w')$, on a finalement $C(w) \neq C(w')$.
 
-#### Remarque {#lie-iv-s2-n3-rem-1 .statement}
+#### Remarque {#lie-iv-s2-n3-rem-1 .statement tag=0AND}
 
 L’axiome (T4) n’a pas été utilisé dans la démonstration précédente.
 
 ### 4. Relations avec les systèmes de Coxeter
 
-#### Théorème 2 {#lie-iv-s2-thm-2 .statement}
+#### Théorème 2 {#lie-iv-s2-thm-2 .statement tag=0ANE}
 
 Le couple $(W, S)$ est un système de Coxeter. De plus, pour $s \in S$ et $w \in W$, les relations $C(sw) = C(s) \cdot C(w)$ et $l_s(sw) > l_s(w)$ sont équivalentes.
 
@@ -254,7 +254,7 @@ $$
 
 la formule (10) montre que $C(s)w'$ rencontre $C(w')$ et *a fortiori* que $C(s)w's'B$ rencontre $C(w')s'B$. Il résulte alors des formules (11) et (12) que la double classe $C(sw)$ est égale à l’une des doubles classes $C(ws')$ et $C(w)$; comme on a $sw \neq w$, le th. 1 permet de conclure que $sw = ws'$.
 
-#### Corollaire 1 {#lie-iv-s2-thm-2-cor-1 .statement}
+#### Corollaire 1 {#lie-iv-s2-thm-2-cor-1 .statement tag=0ANF}
 
 *Soient* $w_1, \ldots, w_q \in W$ *et soit* $w = w_1 \ldots w_q$. *Si*
 
@@ -278,7 +278,7 @@ Si $u = s_2 \ldots s_q$, on a alors $w = s_1u$ et $l_s(s_1u) > l_s(u)$, d’où 
 
 n° 2.5.
 
-#### Corollaire 2 {#lie-iv-s2-thm-2-cor-2 .statement}
+#### Corollaire 2 {#lie-iv-s2-thm-2-cor-2 .statement tag=0ANG}
 
 Soit $w \in W$ et soit $T_w$ la partie de $W$ associée à $w$ par le procédé du lemme 2 du § 1, n° 4. Si $t \in T_w$, on a
 $$
@@ -301,7 +301,7 @@ $$
 C(w) \cdot C(w^{-1}) \supset C(w') \cdot C(s) \cdot C({w'}^{-1}) \supset C(t).
 $$
 
-#### Corollaire 3 {#lie-iv-s2-thm-2-cor-3 .statement}
+#### Corollaire 3 {#lie-iv-s2-thm-2-cor-3 .statement tag=0ANH}
 
 Soit $w \in W$ et soit $H_w$ le sous-groupe de $G$ engendré par $C(w) \cdot C(w^{-1})$. Alors :
 a) Pour toute décomposition réduite $(s_1, \ldots, s_q)$ de $w$, on a
@@ -316,7 +316,7 @@ $$
 L’élément $t$ appartient à la partie $T_w$ de $W$ définie dans le lemme 2 du § 1, n° 4. D’après le cor. 2, on a $C(t) \subset H_w$, d’où $C(s_j) \subset H_w$.
 Comme $C(w) = C(s_1) \ldots C(s_q)$, cf. cor. 1, on a $C(w) \subset H_w$, d’où b).
 
-#### Exemple {#lie-iv-s2-n4-exa-1 .statement}
+#### Exemple {#lie-iv-s2-n4-exa-1 .statement tag=0ANI}
 
 Le th. 2, appliqué au système de Tits décrit au n° 2, montre que le groupe symétrique $\mathfrak{S}_n$, muni de l’ensemble des transpositions d’éléments consécutifs, est un groupe de Coxeter.
 
@@ -324,7 +324,7 @@ Le th. 2, appliqué au système de Tits décrit au n° 2, montre que le groupe s
 
 Pour toute partie $X$ de $S$, on note $W_X$ le sous-groupe de $W$ engendré par $X$ (cf. § 1, n° 8) et $G_X$ la réunion $BW_X B$ des doubles classes $C(w)$, $w \in W_X$. On a $G_\varnothing = B$, et $G_S = G$.
 
-#### Théorème 3 {#lie-iv-s2-thm-3 .statement}
+#### Théorème 3 {#lie-iv-s2-thm-3 .statement tag=0ANJ}
 
 a) Pour toute partie $X$ de $S$, l’ensemble $G_X$ est un sous-groupe de $G$, engendré par $\bigcup_{s \in X} C(s)$.
 b) L’application $X \mapsto G_X$ est une bijection de $\mathscr{P}(S)$ sur l’ensemble des sous-groupes de $G$ contenant $B$.
@@ -339,7 +339,7 @@ L’injectivité de $X \mapsto G_X$ résulte de celle de $X \mapsto W_X$ (§ 1, 
 
 Les assertions c) et d) résultent des propriétés analogues des groupes $W_X$ (§ 1, n° 8, th. 2).
 
-#### Corollaire {#lie-iv-s2-n5-cor-1 .statement}
+#### Corollaire {#lie-iv-s2-n5-cor-1 .statement tag=0ANK}
 
 L’ensemble $S$ se compose des éléments $w \in W$ tels que $w \neq 1$ et que $B \cup C(w)$ soit un sous-groupe de $G$.
 
@@ -347,13 +347,13 @@ Les éléments $w \in W$ tels que $B \cup C(w)$ soit un sous-groupe de $G$ sont 
 
 Remarque 1). — Le corollaire ci-dessus montre que $S$ est déterminé par $(G, B, N)$; pour cette raison, on se permet parfois de dire que $(G, B, N)$ est un système de Tits, ou encore que $(B, N)$ est un système de Tits dans $G$.
 
-#### Proposition 1 {#lie-iv-s2-prop-1 .statement}
+#### Proposition 1 {#lie-iv-s2-prop-1 .statement tag=0ANM}
 
 Soient $X$ une partie de $S$, et $N'$ un sous-groupe de $N$ dont l’image dans $W$ soit égale à $W_X$. Alors $(G_X, B, N', X)$ est un système de Tits.
 
 On a $G_X = BW_X B = BN'B$, ce qui prouve que $G_X$ est engendré par $B \cup N'$. La vérification des axiomes (T1) à (T4) est alors immédiate.
 
-#### Proposition 2 {#lie-iv-s2-prop-2 .statement}
+#### Proposition 2 {#lie-iv-s2-prop-2 .statement tag=0ANN}
 
 Soient $X, Y \subset S$ et $w \in W$. On a
 
@@ -381,7 +381,7 @@ n° 2.6.
 
 SYSTÈMES DE TITS
 
-#### Proposition 3 {#lie-iv-s2-prop-3 .statement}
+#### Proposition 3 {#lie-iv-s2-prop-3 .statement tag=0ANP}
 
 Soient $X \subset S$ et $g \in G$. La relation $g B g^{-1} \subset G_X$ entraîne $g \in G_X$.
 
@@ -389,12 +389,12 @@ Soit $w \in W$ tel que $g \in C(w)$. Comme $B$ est un sous-groupe de $G_X$, l’
 
 ### 6. Sous-groupes paraboliques
 
-#### Définition 2 {#lie-iv-s2-def-2 .statement}
+#### Définition 2 {#lie-iv-s2-def-2 .statement tag=0ANQ}
 
 On dit qu’un sous-groupe de $G$ est parabolique s’il contient un conjugué de $B$.
 Il est clair que tout sous-groupe qui contient un sous-groupe parabolique est parabolique.
 
-#### Proposition 4 {#lie-iv-s2-prop-4 .statement}
+#### Proposition 4 {#lie-iv-s2-prop-4 .statement tag=0ANR}
 
 Soit $P$ un sous-groupe de $G$.
 a) Pour que $P$ soit parabolique, il faut et il suffit qu’il existe une partie $X$ de $S$ telle que $P$ soit conjugué de $G_X$ (cf. n° 5 pour la définition de $G_X$).
@@ -411,7 +411,7 @@ $$
 d’où b).
 Si le sous-groupe parabolique $P$ est conjugué de $G_X$, avec $X \subset S$, on dit que $X$ est le type de $P$.
 
-#### Théorème 4 {#lie-iv-s2-thm-4 .statement}
+#### Théorème 4 {#lie-iv-s2-thm-4 .statement tag=0ANS}
 
 (i) Soient $P_1$ et $P_2$ deux sous-groupes paraboliques de $G$ dont l’intersection est parabolique et soit $g \in G$ tel que $g P_1 g^{-1} \subset P_2$. Alors $g \in P_2$ et $P_1 \subset P_2$.
 (ii) Deux sous-groupes paraboliques distincts dont l’intersection est parabolique ne sont pas conjugués.
@@ -419,7 +419,7 @@ Si le sous-groupe parabolique $P$ est conjugué de $G_X$, avec $X \subset S$, on
 (iv) Tout sous-groupe parabolique est son propre normalisateur (*).
 L’assertion (i) résulte des prop. 3 et 4, et entraîne (ii). Sous les hypothèses de (iii), on a $g Q_1 g^{-1} \subset Q$, d’où $g \in Q$ d’après (i). Enfin (iv) résulte de (iii) en prenant $Q_1 = Q_2 = Q$.
 
-#### Proposition 5 {#lie-iv-s2-prop-5 .statement}
+#### Proposition 5 {#lie-iv-s2-prop-5 .statement tag=0ANT}
 
 Soient $P_1$ et $P_2$ deux sous-groupes paraboliques de $G$. Alors $P_1 \cap P_2$ contient un conjugué de $T$.
 
@@ -437,7 +437,7 @@ d’où la proposition.
 
 ### 7. Théorème de simplicité
 
-#### Lemme 2 {#lie-iv-s2-lem-2 .statement}
+#### Lemme 2 {#lie-iv-s2-lem-2 .statement tag=0ANU}
 
 Soit $H$ un sous-groupe distingué de $G$. Il existe une partie $X$ de $S$ telle que $B H = G_X$ et tout élément de $X$ commute à tout élément de $S - X$.
 
@@ -460,7 +460,7 @@ Dans le th. 5 ci-dessous interviendra la propriété suivante d’un groupe $U$:
 
 Tout groupe résoluble vérifie (R); en particulier tout groupe commutatif vérifie (R); il en est de même de tout groupe simple non commutatif. On peut montrer que le groupe symétrique $\mathfrak{S}_n$ vérifie (R) pour tout $n$ (cf. exerc. 29).
 
-#### Théorème 5 {#lie-iv-s2-thm-5 .statement}
+#### Théorème 5 {#lie-iv-s2-thm-5 .statement tag=0ANV}
 
 Soit $Z$ l’intersection des conjugués de $B$, soit $U$ un sous-groupe de $B$ et soit $G_1$ le sous-groupe engendré par les conjugués de $U$ dans $G$. On fait les hypothèses suivantes :
 (1) $U$ est distingué dans $B$ et $B = U T$.
@@ -498,32 +498,32 @@ U/(U \cap H) \simeq UH/H = G_1 H/H \simeq G_1/(G_1 \cap H).
 $$
 D’après l’hypothèse (3), $G_1/(G_1 \cap H)$ est égal à son groupe des commutateurs. L’hypothèse (2) montre alors que le groupe $U/(U \cap H)$, isomorphe à $G_1/(G_1 \cap H)$, est réduit à l’élément neutre. D’où $G_1 \cap H = G_1$ et $G_1 \subset H$, ce qui achève la démonstration.
 
-#### Corollaire {#lie-iv-s2-n7-cor-1 .statement}
+#### Corollaire {#lie-iv-s2-n7-cor-1 .statement tag=0ANW}
 
 Sous les hypothèses du th. 5, le groupe $G_1/(G_1 \cap Z)$ est simple non commutatif, ou réduit à l’élément neutre.
 
 Le th. 5 montre que $G_1/(G_1 \cap Z)$ est simple ou réduit à l’élément neutre; d’autre part l’hypothèse (3) entraîne qu’il est égal à son groupe des commutateurs; d’où le corollaire.
 
-#### Remarque 1 {#lie-iv-s2-n7-rem-1 .statement}
+#### Remarque 1 {#lie-iv-s2-n7-rem-1 .statement tag=0ANX}
 
 Les hypothèses (2), (3), (4) n’ont pas été utilisées pour démontrer que $(G', B', N', S')$ est un système de Tits.
 
-#### Remarque 2 {#lie-iv-s2-n7-rem-2 .statement}
+#### Remarque 2 {#lie-iv-s2-n7-rem-2 .statement tag=0ANY}
 
 Supposons que $Z \cap U = \{1\}$. Comme $Z$ et $U$ sont distingués dans $B$, il en résulte que tout élément de $Z$ commute à tout élément de $U$, donc à tout élément de $G_1$. Vu le corollaire ci-dessus, il s’ensuit que $G_1 \cap Z$ est le centre de $G_1$.
 
-#### Remarque 3 {#lie-iv-s2-n7-rem-3 .statement}
+#### Remarque 3 {#lie-iv-s2-n7-rem-3 .statement tag=0ANZ}
 
 L’hypothèse (3) est entraînée par la condition suivante:
 (3’) $U$ est engendré par les commutateurs $b^{-1}u^{-1}bu$, avec $u \in U$ et $b \in B \cap G_1$.
 
-#### Exemple 1 {#lie-iv-s2-n7-exa-1 .statement}
+#### Exemple 1 {#lie-iv-s2-n7-exa-1 .statement tag=0AO0}
 
 Soient $k$ un corps, $n$ un entier $\geqslant 0$, $G = \mathbf{GL}(n, k)$, et soit $(G, B, N, S)$ le système de Tits décrit au no 2. Soit $U$ le groupe trigonal strict supérieur, i.e. le sous-groupe de $B$ formé des matrices dont les éléments diagonaux sont égaux à 1. La condition (1) du th. 5 se vérifie immédiatement; il en est de même de (2) puisque $U$ est résoluble; la condition (4) est vérifiée si $n \geqslant 2$. On peut prouver (cf. Alg., Chap. II, 3e éd., § 10, exerc. 13) que (3) est vérifiée si $n \geqslant 3$ ou si $n = 2$ et $\mathrm{Card}(k) \geqslant 4$. Sous ces conditions, on en conclut que $G_1/(G_1 \cap Z)$ est simple et que $G_1 \cap Z$ est le centre de $G_1$ (cf. Remarque 2).
 
 Lorsque $k$ est commutatif, on a $G_1 = \mathbf{SL}(n, k)$, cf. Alg., Chap. III, 3e éd., § 8, no 9.
 
-#### Exemple 2 {#lie-iv-s2-n7-exa-2 .statement}
+#### Exemple 2 {#lie-iv-s2-n7-exa-2 .statement tag=0AO1}
 
 Soit $g$ une algèbre de Lie simple sur $\mathbf{C}$, et soit $G$ le groupe adjoint de $g$ (cf. chap. III). On peut montrer, en utilisant le théorème 5, que $G$ est simple non abélien.*
 

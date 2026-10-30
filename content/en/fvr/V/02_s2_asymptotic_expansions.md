@@ -33,7 +33,7 @@ subsections:
       pdf_page: 241
 statements: 12
 exercises: 0
-content_sha256: 05a689b700a4dd803c1309538a663bb9a8d1ffb6549df0a07023c0ede84bcdcc
+content_sha256: 3913fa9ae08c74aef17f721c054e1ae91ca2d4d4ef6bc764fb678147ac681601
 ---
 
 ## § 2. ASYMPTOTIC EXPANSIONS
@@ -42,7 +42,7 @@ content_sha256: 05a689b700a4dd803c1309538a663bb9a8d1ffb6549df0a07023c0ede84bcdcc
 
 Let E be a set filtered by a filter with base $\mathfrak{F}$, and K a non-discrete valued field (most often $K = \mathbf{R}$ or $K = \mathbf{C}$). In the set of functions in $\mathscr{H}(\mathfrak{F}, K)$ not equivalent to 0 modulo $R_\infty$ (that is, those for which in every set in $\mathfrak{F}$ there is at least one point where the function does not vanish), the relation " $f \ll g$ or $f = g$" is an order relation.
 
-#### Definition 1 {#fvr-v-s2-def-1 .statement}
+#### Definition 1 {#fvr-v-s2-def-1 .statement tag=08ES}
 
 *One says that a subset $\mathscr{E}$ of $\mathscr{H}(\mathfrak{F}, K)$ formed of functions not equivalent to 0 modulo $R_\infty$ is a comparison scale when $\mathscr{E}$ is totally ordered by the relation " $f \ll g$ or $f = g$".*
 
@@ -50,23 +50,23 @@ In other words, if $f$ and $g$ are functions in $\mathscr{E}$ then one (and only
 
 Every subset of a comparison scale is clearly also a comparison scale.
 
-#### Example 1 {#fvr-v-s2-n1-exa-1 .statement}
+#### Example 1 {#fvr-v-s2-n1-exa-1 .statement tag=08ET}
 
 For $x$ real and tending to $+\infty$ the set of functions $x^\alpha$ ($\alpha$ an arbitrary real number) is a comparison scale. The same is true for the functions $(x-a)^\alpha$ when $\mathfrak{F}$ is the set of open intervals with left-hand endpoint $a$.
 
-#### Example 2 {#fvr-v-s2-n1-exa-2 .statement}
+#### Example 2 {#fvr-v-s2-n1-exa-2 .statement tag=08EU}
 
 For $z$ complex tending to $\infty$ the set of functions $z^n$ ($n$ a rational integer) is a comparison scale; so are the functions $(z-a)^n$ when $\mathfrak{F}$ is the trace on the complement of the point $a \in \mathbf{C}$ of the filter of neighbourhoods of this point.
 
-#### Example 3 {#fvr-v-s2-n1-exa-3 .statement}
+#### Example 3 {#fvr-v-s2-n1-exa-3 .statement tag=08EV}
 
 Let F be normed space; the family of functions $\|x-\mathbf{a}\|^\alpha$ ($\alpha$ an arbitrary real number) is a comparison scale when $\mathfrak{F}$ is the trace on the complement of $\mathbf{a}$ of the filter of neighbourhoods of this point. Note that if $p$ and $q$ are two distinct norms on F, the union of the two comparison scales $(p(x-\mathbf{a}))^\alpha$ and $(q(x-\mathbf{a}))^\alpha$ is not in general a comparison scale.
 
-#### Example 4 {#fvr-v-s2-n1-exa-4 .statement}
+#### Example 4 {#fvr-v-s2-n1-exa-4 .statement tag=08EW}
 
 For $x$ real tending to $+\infty$ the family $\mathscr{E}$ of functions of the form $\exp(p(x))$, where $p$ runs through the set of *polynomials without constant term* (with real coefficients), is a comparison scale: it suffices to remark that the quotient of two functions in $\mathscr{E}$ is again in $\mathscr{E}$, and that a function $\exp(p(x))$ must tend either to 0 or $+\infty$ if $p \neq 0$; indeed, $p(x) \sim \alpha x^n$ where $n > 0$ and $\alpha \neq 0$; if $\alpha > 0$ then $p(x) > \frac{1}{2} \alpha x^n$ for $x$ sufficiently large; if $\alpha < 0$ then $p(x) < \frac{1}{2} \alpha x^n$ for $x$ sufficiently large; in the first case $\exp(p(x))$ tends to $+\infty$, in the second to 0.
 
-#### Example 5 {#fvr-v-s2-n1-exa-5 .statement}
+#### Example 5 {#fvr-v-s2-n1-exa-5 .statement tag=08EX}
 
 For $x$ real tending to $+\infty$ the set $\mathscr{E}$ of functions of the form $x^\alpha (\log x)^\beta$ (defined for $x > 1$), where $\alpha$ and $\beta$ are arbitrary real numbers, is a comparison scale. Indeed, here again the quotient of two functions in $\mathscr{E}$ is a function in $\mathscr{E}$; it is enough to show that if $\alpha$ and $\beta$ are not both zero then $x^\alpha (\log x)^\beta$ tends to 0 or $+\infty$; this is clear if $\alpha = 0, \beta \neq 0$; if $\alpha > 0$ one has $(\log x)^{-\beta} \ll x^\alpha$, and if $\alpha < 0$ one has $(\log x)^\beta \ll x^{-\alpha}$ for any $\beta$, whence the proposition.
 
@@ -82,11 +82,11 @@ Let $\mathscr{E}$ be a comparison scale formed by functions with values in a non
 
 If $\mathbf{f}$ has a principal part relative to a comparison scale $\mathscr{E}$ it has *the same* principal part relative to every comparison scale $\mathscr{E}' \supset \mathscr{E}$.
 
-#### Example 1 {#fvr-v-s2-n2-exa-1 .statement}
+#### Example 1 {#fvr-v-s2-n2-exa-1 .statement tag=08EY}
 
 For $x$ real (resp. complex) tending to $+\infty$ (resp. $\infty$), every polynomial $a_0 x^n + a_1 x^{n-1} + \ldots + a_n$ with coefficients in V, such that $a_0 \neq 0$, has principal part $a_0 x^n$ with respect to the scale $x^n$ (or any scale containing the $x^n$). It follows that every rational fraction $\frac{a_0 x^n + \cdots + a_m}{b_0 x^n + \cdots + b_n}$ with real or complex coefficients such that $a_0 b_0 \neq 0$ has principal part $\frac{a_0}{b_0} x^n$ with respect to the same scale.
 
-#### Example 2 {#fvr-v-s2-n2-exa-2 .statement}
+#### Example 2 {#fvr-v-s2-n2-exa-2 .statement tag=08EZ}
 
 A function may be comparable to all the functions of a scale and yet not admit a principal part with respect to this scale. For example, for $x$ real tending to $+\infty$, $\sqrt{x}$ has no principal part with respect to the scale $x^n$ where $n$ is a rational integer; $\log x$ has no principal part with respect to the scale of $x^\alpha$ ($\alpha$ arbitrary real); $\exp(\sqrt{\log x})$ and $x' = e^{x \log x}$ have no principal part with respect to the scale of the $x^\alpha (\log x)^\beta$, nor with respect to the scale of the $\exp(p(x))$ ($p$ a polynomial with no constant term).
 
@@ -94,7 +94,7 @@ The concept of principal part admits extensive generalization. Suppose that a fu
 
 More generally, suppose that the scale $\mathscr{E}$ is written parametrically in the form $(g_\alpha)$ where $\alpha$ runs through a set of indices $A$ endowed with a totally ordered structure isomorphic to the *opposite* of the order structure of $\mathscr{E}$: the relation $\alpha < \beta$ is thus equivalent to $g_\beta \ll g_\alpha$. In these circumstances:
 
-#### Definition 2 {#fvr-v-s2-def-2 .statement}
+#### Definition 2 {#fvr-v-s2-def-2 .statement tag=08F0}
 
 *One says that a function* $f \in \mathscr{H}(\mathfrak{F}, V)$ *admits an asymptotic expansion to precision* $g_\alpha$ *(relative to the scale* $\mathscr{E}$*) *if there exists a family* $(a_\lambda)_{\lambda \leq \alpha}$ *of elements of* $V$, *all but a finite number of them being* $0$, *such that* $f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda \ll g_\alpha$. *One says that* $\sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ *is an asymptotic expansion of* $f$ *to precision* $g_\alpha$, *that the* $a_\lambda g_\lambda$ ($\lambda \leq \alpha$) *are its terms, the* $a_\lambda$ *its coefficients, and the function* $r_\alpha = f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ *the remainder of this expansion*.
 
@@ -160,7 +160,7 @@ $$
 $$
 and $\log (1 + h)$ can be expanded, as has been said above, the function $\log (1 + t)$ being indefinitely differentiable on a neighbourhood of 0; if, further, $\log g_\gamma$ admits an asymptotic expansion with respect to $\mathscr{E}$, or with respect to a scale $\mathscr{E}_1 \supset \mathscr{E}$, one obtains an asymptotic expansion for $\log |f|$ on adding the two asymptotic expansions.
 
-#### Example {#fvr-v-s2-n4-exa-1 .statement}
+#### Example {#fvr-v-s2-n4-exa-1 .statement tag=08F1}
 
 We have $(1 + x)^{1/x} = \exp \left( \frac{1}{x} \log (1 + x) \right)$: when $x$ tends to $+\infty$ we have $\log (1 + x) = \log x + \log \left( 1 + \frac{1}{x} \right)$, whence the asymptotic expansion of $\frac{1}{x} \log (1 + x)$ with respect to the scale of the $x^\alpha (\log x)^\beta$:
 $$
@@ -182,7 +182,7 @@ with respect to the scale $x^\alpha (\log x)^\beta$ by the methods explained abo
 
 Keeping the same hypotheses and notation, the asymptotic expansion of $e^f$ does not pose new problems except when $f \gg 1$; one must then distinguish two cases, as $g_\alpha \gg 1$ or $g_\alpha \ll 1$. In the first case, giving an expansion for $f$ does not allow one to obtain a principal part for $e^f$ relative to $\mathscr{E}$, because one does not know in general whether the remainder $r_\alpha$ tends to 0, that is, whether $e^{r_\alpha}$ tends to 1. On the contrary, if $g_\alpha \ll 1$ then $r_\sigma \ll 1$ and so $e^f \sim \exp \left( \sum_{\lambda \leq \alpha} a_\lambda g_\lambda \right)$. One can make this result more precise: let $a_\gamma g_\gamma$ be the principal part of $f$ and let $\delta$ be the index (such that $\gamma < \delta \leq \alpha$) for which $g_\delta = 1$; we put $f_1 = \sum_{\lambda \leq \delta} a_\lambda g_\lambda$, $f_2 = \sum_{\delta < \lambda \leq \alpha} a_\lambda g_\lambda + r_\alpha$; we have $f = f_1 + f_2$, so $e^f = e^{f_1} e^{f_2}$, and the general method explained at the start of this subsection allows one to form an asymptotic expansion of $e^{f_2}$ (starting from the Taylor expansion of $e^t$ at the point $t = 0$). One will then have an asymptotic expansion for $e^f$ if $e^{f_1} = \prod_{\lambda \leq \delta} \exp(a_\lambda g_\lambda)$ belongs to $\mathscr{E}$, or to a scale $\mathscr{E}_1$ containing $\mathscr{E}$.
 
-#### Example {#fvr-v-s2-n4-exa-2 .statement}
+#### Example {#fvr-v-s2-n4-exa-2 .statement tag=08F2}
 
 We have $x^{1/1} = \exp \left( \log x \cdot \exp \left( \frac{1}{x} \log x \right) \right)$; when $x$ tends to $+\infty$ one has $\log x \ll x$, whence the asymptotic expansion of $\log x \cdot \exp \left( \frac{1}{x} \log x \right)$ with respect to the scale $x^\alpha (\log x)^\beta$:
 
@@ -206,7 +206,7 @@ One can generalize the concept of principal part, and that of an asymptotic expa
 
 Now let $f$ be any function in $\mathscr{H}(\mathfrak{F}, V)$; if there exist a function $g \in \mathscr{E}$ and a nonzero function $a \in C$ such that $f - ag \ll g$ one will say that $ag$ is a principal part of $f$, relative to the comparison scale $\mathscr{E}$ and to the domain of coefficients $C$. If such a principal part exists, it is unique: for suppose that there are two principal parts $a_1 g_1$ and $a_2 g_2$; one cannot have $g_1 \ll g_2$ since from (CO₁) one could deduce that $a_1 g_1 \ll g_2$ and $f - a_1 g_1 \ll g_1 \ll g_2$, so $f \ll g_2$; but one would also have $a_2 g_2 \ll g_2$ and consequently $a_2 \ll 1$ contradicting the hypothesis $a_2 \neq 0$ and (CO₂). So one must have $g_1 = g_2$; from the relations $f - a_1 g_1 \ll g_1, f - a_2 g_1 \ll g_1$ one deduces that $(a_2 - a_1)g_1 \ll g_1$ whence $a_2 - a_1 \ll 1$, and consequently $a_2 = a_1$, by (CO₂) and (CO₃).
 
-#### Example {#fvr-v-s2-n5-exa-1 .statement}
+#### Example {#fvr-v-s2-n5-exa-1 .statement tag=08F3}
 
 For $x$ real tending to $+\infty$ the periodic bounded functions on $\mathbf{R}$, having the same period $\tau$, satisfy conditions (CO₁), (CO₂) and (CO₃): if $\lim_{x \to +\infty} a(x) = 0$ then for every $\varepsilon > 0$ there is an $x_0$ such that $|a(x)| \leq \varepsilon$ for every $x \geq x_0$; one deduces that $|a(x)| \leq \varepsilon$ for $0 \leq x \leq \tau$ too, since there exists an integer $n$ such that $x + n\tau \geq x_0$, and such that $a(x) = a(x + n\tau)$; since $\varepsilon$ is arbitrary one has $a(x) = 0$ on $[0, \tau]$, hence everywhere.
 

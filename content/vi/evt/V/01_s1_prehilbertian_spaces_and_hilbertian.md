@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 6
-content_sha256: 090522ca99bc5e417552b54d509ca04cc86c3f8397377be57e97da0435a4c37d
+content_sha256: a5bc9a3b08c2398d368911edd0d41ba9de5f16f05d1a783584df2d11c184f649
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 source_content_sha256: c9078a6b7eb7e8e884984c2c325d3f76b6a9adc1e03ff4786c5071fe62fa78a5
 translation_model: gpt-5.4
@@ -56,7 +56,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Ta nhắc lại định nghĩa sau đây đã cho trong Đại số (A, IX, § 3, No. 1):
 
-#### Định nghĩa 1 {#evt-v-s1-def-1 .statement}
+#### Định nghĩa 1 {#evt-v-s1-def-1 .statement tag=07X0}
 
 Cho E là một không gian vectơ trên trường K. Một dạng Hermit (bên trái) trên E là một ánh xạ f từ E × E vào K thỏa mãn các điều kiện sau đây (với $x_1, x_2, x, y_1, y_2, y$ trong E và $\lambda, \mu$ trong K):
 
@@ -112,13 +112,13 @@ $$
 4f(x, y) = \sum_{\varepsilon^4 = 1, \varepsilon \in \mathbf{C}} \varepsilon Q(x + \overline{\varepsilon} y) \quad \text{nếu } K \text{ là } \mathbf{C}.
 $$
 
-#### Nhận xét {#evt-v-s1-n1-rem-1 .statement}
+#### Nhận xét {#evt-v-s1-n1-rem-1 .statement tag=07X1}
 
 — Ta nhận thấy rằng công thức (6) là đúng với mọi dạng *nửa song tuyến tính* trên $E \times E$ (nghĩa là, với mọi hàm $f$ thỏa mãn (1) và (2), nhưng không nhất thiết thỏa mãn (3)). Nhận xét này cho thấy rằng, khi $K = \mathbf{C}$, một dạng nửa song tuyến tính $f$ sao cho $f(x, x)$ là thực với mọi $x \in E$ thì tất yếu là *Hermit*: khi đó quan hệ (6) cho $\overline{f(y, x)} = f(x, y)$ vì ta có $y + \varepsilon x = \varepsilon(x + \overline{\varepsilon} y)$ và $Q(\varepsilon z) = Q(z)$ mỗi khi $\varepsilon^4 = 1$.
 
 Từ các công thức phân cực, đặc biệt ta có,
 
-#### Mệnh đề 1 {#evt-v-s1-prop-1 .statement}
+#### Mệnh đề 1 {#evt-v-s1-prop-1 .statement tag=07X2}
 
 *Nếu $f$ là một dạng Hermit trên $E$, và $M$ là một không gian con vectơ của $E$ sao cho $f(x, x) = 0$ với mọi $x \in M$, thì ta cũng có $f(x, y) = 0$ với mọi cặp điểm $x, y$ trong $M$.*
 
@@ -126,13 +126,13 @@ Cho $f$ là một dạng Hermit trên $E$; tập hợp $N$ gồm mọi $x \in E$
 
 ### 2. Các dạng Hermit dương
 
-#### Định nghĩa 2 {#evt-v-s1-def-2 .statement}
+#### Định nghĩa 2 {#evt-v-s1-def-2 .statement tag=07X3}
 
 *Cho $E$ là một không gian vectơ trên trường $K$. Một dạng Hermit $f$ trên $E$ được gọi là dương nếu $f(x, x) \geq 0$ với mọi $x \in E$.*
 
 Hiển nhiên các dạng Hermit trên một không gian vectơ $E$ tạo thành một không gian vectơ *trên trường* $\mathbf{R}$ (nhưng không trên trường $\mathbf{C}$, khi $K$ là $\mathbf{C}$) : trong không gian này các dạng Hermit dương tạo thành *một nón lồi nhọn thực sự* (II, p. 10) theo định nghĩa 2 và mệnh đề 1.
 
-#### Mệnh đề 2 {#evt-v-s1-prop-2 .statement}
+#### Mệnh đề 2 {#evt-v-s1-prop-2 .statement tag=07X4}
 
 — *Nếu f là một dạng Hermit dương, ta có*
 
@@ -164,11 +164,11 @@ $$
 
 Thay thế $\xi$ bởi $-\overline{f(x, y)}$ trong bất đẳng thức này, ta được $-2 \ |f(x, y)|^2 \geq 0$, và do đó $f(x, y) = 0$; trong trường hợp này ta lại được (7).
 
-#### Hệ quả 1 {#evt-v-s1-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#evt-v-s1-prop-2-cor-1 .statement tag=07X5}
 
 — *Nếu f là một dạng Hermit dương, tập N gồm mọi x \in E sao cho f(x, x) = 0 trùng với không gian con vectơ gồm mọi x \in E sao cho f(x, y) = 0 với mọi y \in E.*
 
-#### Hệ quả 2 {#evt-v-s1-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#evt-v-s1-prop-2-cor-2 .statement tag=07X6}
 
 — *Để một dạng Hermit dương là phân ly, điều kiện cần và đủ là quan hệ x \neq 0 kéo theo f(x, x) > 0.*
 
@@ -176,7 +176,7 @@ Thay thế $\xi$ bởi $-\overline{f(x, y)}$ trong bất đẳng thức này, ta
 
 Với mọi dạng Hermit dương f trên E, dạng Hermit phân ly liên kết với f (V, p. 2) hiển nhiên là một dạng Hermit dương trên E/N.
 
-#### Mệnh đề 3 {#evt-v-s1-prop-3 .statement}
+#### Mệnh đề 3 {#evt-v-s1-prop-3 .statement tag=07X7}
 
 — *Cho f là một dạng Hermit dương trên E. Đặt*
 
@@ -201,13 +201,13 @@ $$
 = (f(x, x)^{1/2} + f(y, y)^{1/2})^2 .
 $$
 
-#### Nhận xét {#evt-v-s1-n2-rem-1 .statement}
+#### Nhận xét {#evt-v-s1-n2-rem-1 .statement tag=07X8}
 
 — 1) Giả sử f là dương và phân ly, và cho x, y là hai vectơ $\neq 0$. Chứng minh của bất đẳng thức Cauchy-Schwarz cho thấy rằng, nếu hai vế của (7) bằng nhau, thì tồn tại một vô hướng $\xi$ sao cho $f(x + \xi y, x + \xi y) = 0$, do đó $x + \xi y = 0$, nói cách khác, $x$ và $y$ *phụ thuộc tuyến tính*; đảo lại là ngay lập tức. Chứng minh của bất đẳng thức (8) cho thấy rằng đẳng thức $p(x + y) = p(x) + p(y)$ chỉ có thể xảy ra nếu $x$ và $y$ phụ thuộc tuyến tính; nếu $y = \lambda x$, thì đẳng thức trên có thể viết thành $|1 + \lambda| = 1 + |\lambda|$, và suy ra rằng $\lambda$ là *thực và dương*.
 
 2) Cho $f$ là một dạng Hermit dương trên $E$, và gán cho $E$ nửa chuẩn $x \mapsto f(x, x)^{1/2}$; nếu $f$ là dạng Hermit dương, phân ly được xác định trên $E/N$ liên kết với $f$, thì không gian định chuẩn thu được bằng cách gán chuẩn $x \mapsto f(\dot{x}, \dot{x})^{1/2}$ cho $E/N$ là không gian định chuẩn liên kết với $E$ (II, p. 5).
 
-#### Định nghĩa 3 {#evt-v-s1-def-3 .statement}
+#### Định nghĩa 3 {#evt-v-s1-def-3 .statement tag=07X9}
 
 *Cho $E$ là một không gian vectơ trên trường $K$. Một nửa chuẩn $p$ trên $E$ được gọi là tiền Hilbert nếu tồn tại một dạng Hermit dương $f$ trên $E$ sao cho $p(x) = f(x, x)^{1/2}$ với mọi $x \in E$*.
 
@@ -215,19 +215,19 @@ Nhận thấy rằng đối với một nửa chuẩn $p$ trên $E$, có nhiều
 
 ### 3. Các không gian tiền Hilbert
 
-#### Định nghĩa 4 {#evt-v-s1-def-4 .statement}
+#### Định nghĩa 4 {#evt-v-s1-def-4 .statement tag=07XA}
 
 *Một không gian tiền Hilbert là một tập $E$ với cấu trúc không gian vectơ trên $K$ và với một dạng Hermit dương. Ta nói rằng $E$ là một không gian tiền Hilbert thực (resp. phức) khi $K$ là $\mathbf{R}$ (resp. $K$ là $\mathbf{C}$).
 
-#### Ví dụ 1 {#evt-v-s1-n3-exa-1 .statement}
+#### Ví dụ 1 {#evt-v-s1-n3-exa-1 .statement tag=07XB}
 
 Dạng $(\lambda, \mu) \mapsto \overline{\lambda} \mu$ xác định một cấu trúc tiền Hilbert trên $K$, được gọi là *chính tắc*. Khi $K$ được xét như một không gian tiền Hilbert, ta sẽ luôn luôn hiểu, trừ khi có nói rõ khác đi, rằng nó có cấu trúc này.
 
-#### Ví dụ 2 {#evt-v-s1-n3-exa-2 .statement}
+#### Ví dụ 2 {#evt-v-s1-n3-exa-2 .statement tag=07XC}
 
 Cho $I$ là một khoảng (bị chặn hay không) trong $\mathbf{R}$, và cho $E$ là tập các hàm điều hòa được (FVR, II, p. 4) xác định trên $I$ với giá trị trong $\mathbf{C}$, có hỗ compact. Hiển nhiên $E$ là một không gian vectơ trên $\mathbf{C}$; cho $f$ là dạng nửa song tuyến tính $(x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt$; ngay lập tức thấy rằng $f$ là một dạng Hermit dương trên $E$, và do đó xác định một cấu trúc tiền Hilbert trên không gian này.
 
-#### Ví dụ 3 {#evt-v-s1-n3-exa-3 .statement}
+#### Ví dụ 3 {#evt-v-s1-n3-exa-3 .statement tag=07XD}
 
 Cho $n \geqslant 0$ là một số nguyên. Ta định nghĩa một cấu trúc không gian tiền Hilbert trên không gian $K^n$, bằng dạng Hermit
 
@@ -237,11 +237,11 @@ $$
 
 (với $x = (x_1, ..., x_n)$ và $y = (y_1, ..., y_n)$). Khi $K$ là $\mathbf{R}$, ta thấy rằng đây chính là tích vô hướng của hai vectơ của $\mathbf{R}^n$ (GT, VI, § 2, No. 2).
 
-#### Ví dụ 4 {#evt-v-s1-n3-exa-4 .statement}
+#### Ví dụ 4 {#evt-v-s1-n3-exa-4 .statement tag=07XE}
 
 Cho $\ell^2$ (hay $\ell^2(\mathbf{N})$) là tập hợp các dãy $x = (x_n)_{n \in \mathbf{N}}$ gồm các phần tử của $K$ sao cho $\sum_{n=0}^\infty |x_n|^2$ là hữu hạn. Có thể chứng minh rằng $\ell^2$ là một không gian con vectơ của $K^\mathbf{N}$ và định nghĩa trên $\ell^2$ một cấu trúc không gian tiền Hilbert bằng dạng Hermit $(x, y) \mapsto \sum_{n=0}^\infty \overline{x_n} y_n$ (xem V, p. 18).
 
-#### Ví dụ 5 {#evt-v-s1-n3-exa-5 .statement}
+#### Ví dụ 5 {#evt-v-s1-n3-exa-5 .statement tag=07XF}
 
 Cho $E$ là một không gian tiền Hilbert thực, $f$ là dạng song tuyến tính đối xứng tương ứng trên $E$. Cho $E_{(c)}$ là phức hoá không gian vectơ của $E$; ta đồng nhất $E$ với một tập con của $E_{(c)}$ bởi ánh xạ $x \mapsto 1 \otimes x$, theo cách sao cho mọi phần tử của $E_{(c)}$ đều có thể được viết duy nhất dưới dạng $x_1 + ix_2$ với $x_1, x_2$ thuộc $E$. Ánh xạ $f$ kéo dài duy nhất thành một dạng Hermit $f_{(c)}$ trên $E_{(c)}$; ta có,
 
@@ -288,17 +288,17 @@ Nếu E là một không gian tiền Hilbert, M là một không gian con vectơ
 
 ### 4. Các không gian Hilbert
 
-#### Định nghĩa 5 {#evt-v-s1-def-5 .statement}
+#### Định nghĩa 5 {#evt-v-s1-def-5 .statement tag=07XG}
 
 *Một không gian Hilbert* (hay *không gian Hilbert*) *là một không gian tiền Hilbert Hausdorff và đầy đủ*. *Ta nói rằng một chuẩn trên một không gian vectơ E (trên K) là Hilbert nếu nó là tiền Hilbert, và nếu không gian định chuẩn E là đầy đủ*.
 
 Nếu E là một không gian Hilbert và M là một không gian con vectơ đóng của E, thì cấu trúc không gian tiền Hilbert cảm sinh trên M thực ra là một cấu trúc không gian Hilbert. Trong trường hợp này ta nói rằng M, với cấu trúc cảm sinh, là một *không gian con Hilbert* của E.
 
-#### Ví dụ 1 {#evt-v-s1-n4-exa-1 .statement}
+#### Ví dụ 1 {#evt-v-s1-n4-exa-1 .statement tag=07XH}
 
 Các không gian tiền Hilbert được định nghĩa trong các ví dụ 1, 3, 4 của V, p. 4, là các không gian Hilbert. Mặt khác, không gian tiền Hilbert được định nghĩa trong ví dụ 2 không là Hausdorff cũng không đầy đủ. *Phức hoá* của một không gian Hilbert là một không gian Hilbert.
 
-#### Ví dụ 2 {#evt-v-s1-n4-exa-2 .statement}
+#### Ví dụ 2 {#evt-v-s1-n4-exa-2 .statement tag=07XI}
 
 Cho X là một không gian tôpô Hausdorff và $\mu$ là một độ đo dương trên X. Cho $L^2(X, \mu)$ là không gian gồm các lớp tương đương, theo $\mu$, của mọi hàm khả tích bình phương theo $\mu$ trên X nhận giá trị trong $\mathbf{C}$. Đây là một không gian Hilbert phức, có tích vô hướng được cho bởi
 
@@ -306,7 +306,7 @@ $$
 \langle f|g \rangle = \int_X \overline{f(x)}\ g(x)\ d\mu(x) .
 $$
 
-#### Ví dụ 3 {#evt-v-s1-n4-exa-3 .statement}
+#### Ví dụ 3 {#evt-v-s1-n4-exa-3 .statement tag=07XJ}
 
 Cho $n \geqslant 1$ là một số nguyên và cho U là một tập mở trong $\mathbf{R}^n$. Cho $\mu$ là độ đo trên U cảm sinh bởi độ đo Lebesgue trên $\mathbf{R}^n$, và đặt $\mathscr{H}^0 = L^2(U, \mu)$. Ký hiệu $\mathscr{H}^1$ là không gian của mọi hàm $f \in \mathscr{H}^0$ có tính chất sau; với $1 \leqslant i \leqslant n$, tồn tại một hàm $g_i \in \mathscr{H}^\circ$ sao cho
 
@@ -322,7 +322,7 @@ $$
 
 Khi đó $\mathscr{H}^s$ là một không gian Hilbert phức, được gọi là *không gian Sobolev* có chỉ số s.
 
-#### Ví dụ 4 {#evt-v-s1-n4-exa-4 .statement}
+#### Ví dụ 4 {#evt-v-s1-n4-exa-4 .statement tag=07XK}
 
 Cho X là một đa tạp vi phân thuộc lớp $C^r$ (với $r \geqslant 1$) thuần nhất có số chiều hữu hạn $n$.
 
@@ -341,7 +341,7 @@ Khi đó, tồn tại một và chỉ một độ đo $\tilde{\omega}$ trên X s
 
 Cho $\mathscr{V}$ (resp. $\mathscr{N}$) là không gian vectơ các mật độ đo được $\omega$ cấp 1/2 sao cho độ đo liên kết với mật độ $|\omega|^2$ cấp 1 bị chặn (resp. bằng không). Cho $\omega_1$ và $\omega_2$ thuộc $\mathscr{V}$; khi đó $\omega = \overline{\omega_1} \omega_2$ là một mật độ cấp 1, và độ đo $\tilde{\omega}$ liên kết với $\omega$ bị chặn; số $\int_X \tilde{\omega}$ chỉ phụ thuộc vào các lớp $\dot{\omega}_1$ và $\dot{\omega}_2$ của $\omega_1$ và $\omega_2$ theo modulo $\mathscr{N}$ và được ký hiệu bởi $\langle \omega_1 | \omega_2 \rangle$ hoặc $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$. Khi đó ánh xạ $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ gán một cấu trúc không gian Hilbert phức cho không gian vectơ $\Omega_{1/2}(X) = \mathscr{V}/\mathscr{N}$.
 
-#### Ví dụ 5 {#evt-v-s1-n4-exa-5 .statement}
+#### Ví dụ 5 {#evt-v-s1-n4-exa-5 .statement tag=07XL}
 
 Cho D là đĩa mở có tâm 0 và bán kính 1 trong $\mathbf{C}$. *Không gian Hardy* $H^2(D)$ gồm tất cả các hàm chỉnh hình $f : D \to \mathbf{C}$ sao cho
 $$
@@ -361,7 +361,7 @@ với mọi $z \in D$. Khi đó ta có $\|f\|^2 = \sum_{n=0}^\infty |a_n|^2$, đ
 
 Mọi không gian tiền Hilbert Hausdorff đều đẳng cấu với một không gian con trù mật khắp nơi của một không gian Hilbert được xác định đến một đẳng cấu. Chính xác là :
 
-#### Mệnh đề 4 {#evt-v-s1-prop-4 .statement}
+#### Mệnh đề 4 {#evt-v-s1-prop-4 .statement tag=07XM}
 
 — *Cho E là một không gian tiền Hilbert Hausdorff, $\hat{E}$ là phần bù đầy đủ chuẩn hóa của E*(GT, IX, § 3, No. 3). Tích vô hướng* $(x, y) \mapsto \langle x|y \rangle$ *được mở rộng bằng tính liên tụ*c thành một dạng Hermit dương và tách được trên* $\hat{E}$, *và xác định một cấu trúc không gian Hilbert trên* $\hat{E}$.
 
@@ -377,7 +377,7 @@ $$
 
 Không gian tiền Hilbert này không đầy đủ. Bổ sung đầy đủ của nó được gọi là *không gian Dirichlet* liên kết với U. \*
 
-#### Hệ quả {#evt-v-s1-n4-cor-1 .statement}
+#### Hệ quả {#evt-v-s1-n4-cor-1 .statement tag=07XN}
 
 — *Cho V là một không gian vectơ trên K và f một dạng Hermit dương trên V.*
 a) *Tồn tại một không gian Hilbert E và một ánh xạ tuyến tính* $u : V \to E$ *sao cho* $f(x, y) = \langle u(x)|u(y) \rangle$ *với x, y trong V, và sao cho u(V) trù mật trong E.*
@@ -389,7 +389,7 @@ Dưới các giả thiết của *b*), N bằng hạt nhân của $u_1$ và củ
 
 Ta nói rằng không gian Hilbert E là *bổ sung phân ly* của V (đối với dạng *f*).
 
-#### Ví dụ 7 {#evt-v-s1-n4-exa-7 .statement}
+#### Ví dụ 7 {#evt-v-s1-n4-exa-7 .statement tag=07XO}
 
 Cho G là một nhóm (với phần tử đơn vị 1) và $\pi$ một đồng cấu từ G vào nhóm các tự đẳng cấu của một không gian Hilbert phức E ; ta nói rằng $\pi$ là một *biểu diễn unita* của G trong E. Lấy $a \in E$ ; đặt
 
@@ -439,7 +439,7 @@ Từ đẳng thức này ta suy ra mệnh đề sau:
 
 Hình 1.
 
-#### Mệnh đề 5 {#evt-v-s1-prop-5 .statement}
+#### Mệnh đề 5 {#evt-v-s1-prop-5 .statement tag=07XP}
 
 — Cho $E$ là một không gian tiền Hilbert. Cho $d$ là một số thực $> 0$, $\delta$ là một số thực thỏa mãn $0 \leqslant \delta \leqslant d$. Cho $B$ và $B'$ là các tập con của $E$ được xác định bởi $\| x \| < d$,
 
@@ -452,7 +452,7 @@ $$
 $$
 từ đó mệnh đề được suy ra.
 
-#### Định lý 1 {#evt-v-s1-thm-1 .statement}
+#### Định lý 1 {#evt-v-s1-thm-1 .statement tag=07XQ}
 
 *Cho E là một không gian tiền Hilbert, và H là một tập con lồi không rỗng của E sao cho H là một không gian con đều Hausdorff và đầy đủ của E. Với mọi $x \in E$, tồn tại một điểm duy nhất $p_H(x)$ trong H sao cho $\|x - p_H(x)\| = \inf_{y \in H} \|x - y\|$. Phần tử $p_H(x)$ của H cũng là phần tử duy nhất a của H thỏa mãn quan hệ*
 $$
@@ -488,7 +488,7 @@ Phần đầu của định lý 1 vẫn đúng dưới những giả thiết t�
 
 Chứng minh của định lý 1 xác lập, trong số những điều khác, tính chất sau :
 
-#### Hệ quả 1 {#evt-v-s1-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#evt-v-s1-thm-1-cor-1 .statement tag=07XR}
 
 *Cho I là một tập hợp có hướng bởi một bộ lọc $\mathfrak{F}$ và $(y_{i})_{i \in I}$ là một họ các điểm của $\mathbf{H}$. Cho $x \in \mathbf{E}$. Giả sử rằng ta có*
 $$
@@ -496,7 +496,7 @@ $$
 $$
 *Thì $y_{i}$ hội tụ đến $p_{\mathbf{H}}(x)$ đối với bộ lọc $\mathfrak{F}$.*
 
-#### Hệ quả 2 {#evt-v-s1-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#evt-v-s1-thm-1-cor-2 .statement tag=07XS}
 
 *Với mọi $x, y$ trong $\mathbf{E}$, ta có*
 $$
@@ -513,7 +513,7 @@ $$
 $$
 Điều này chứng minh hệ quả 2.
 
-#### Mệnh đề 6 {#evt-v-s1-prop-6 .statement}
+#### Mệnh đề 6 {#evt-v-s1-prop-6 .statement tag=07XT}
 
 *Cho $\mathbf{E}$ là một không gian tiền Hilbert và cho $\Phi$ là một tập hợp không rỗng, có hướng, giảm của các tập con lồi, Hausdorff và đầy đủ không rỗng của $\mathbf{E}$. Với mọi $x \in \mathbf{E}$ và mọi tập con $\mathbf{H}$ của $\mathbf{E}$, đặt $d(x, \mathbf{H}) = \inf_{z \in \mathbf{H}} \| x - z \|$. Để giao M của các tập hợp H thuộc $\Phi$ là không rỗng, điều kiện cần và đủ là tồn tại $x_0$ trong E sao cho $\sup_{H \in \Phi} d(x_0, H)$ là hữu hạn. Khi đó với mọi $x \in E$ ta có
 $$
@@ -529,7 +529,7 @@ d(x, H) \leq \|x - x_0\| + C \quad \text{với mọi } H \in \Phi,
 $$
 do đó số $d = \sup_{H \in \Phi} d(x, H)$ là hữu hạn. Gọi B là tập hợp tất cả $z \in E$ sao cho $\|x - z\| \leq d$. Vì B lồi và đóng trong E, các tập hợp $H \cap B$, với H chạy qua $\Phi$, là lồi, Hausdorff và đầy đủ. Cho $\varepsilon > 0$; tồn tại một tập hợp $H \in \Phi$ sao cho $d(x, H) \geq d - \varepsilon$, và nếu $\varepsilon < d/2$, đường kính của $H \cap B$ bị chặn bởi $\sqrt{12 \varepsilon (d - \varepsilon)}$ theo mệnh đề 5 (V, p. 9). Nói cách khác, với mọi $H_0 \in \Phi$, các tập hợp đóng $H \cap B$, với $H \in \Phi$ và $H \subset H_0$, tạo thành một cơ sở của bộ lọc Cauchy trên không gian Hausdorff và đầy đủ $H_0$. Do đó giao của các tập hợp $H \cap B$ (với $H \in \Phi$) thu về một điểm y. Ta được $y \in M$ và $\|x - y\| = d = d(x, M)$. Vì M đóng trong $H_0$, nó là một tập hợp Hausdorff, lồi và đầy đủ trong E, và do đó $y = p_M(x)$. Với mọi $H \in \Phi$, ta có $p_H(x) \in H \cap B$, từ đó suy ra $p_M(x) = \lim_{H \in \Phi} p_H(x)$.
 
-#### Mệnh đề 7 {#evt-v-s1-prop-7 .statement}
+#### Mệnh đề 7 {#evt-v-s1-prop-7 .statement tag=07XU}
 
 *Cho E là một không gian tiền Hilbert Hausdorff và cho $\Psi$ là một tập hợp không rỗng, có hướng, tăng của các tập con không rỗng, lồi, đầy đủ của E. Đặt $A = \bigcup_{H \in \Psi} H$ và giả sử bao đóng N của A là đầy đủ. Khi đó N là lồi và ta có*
 $$
@@ -554,7 +554,7 @@ Cho A là một tập con của E. Ta nói rằng một vectơ x trong E trực 
 
 Cho A và B là hai tập con của E. Ta nói rằng A và B trực giao nếu mọi vectơ của A trực giao với mọi vectơ của B. Điều này tương đương với việc nói rằng $A \subset B^\circ$, hoặc $B \subset A^\circ$. Nếu E là Hausdorff và nếu A và B trực giao thì $A \cap B$ là rỗng hoặc thu về 0 vì 0 là vectơ duy nhất của E trực giao với chính nó.
 
-#### Định lý 2 {#evt-v-s1-thm-2 .statement}
+#### Định lý 2 {#evt-v-s1-thm-2 .statement tag=07XV}
 
 *Cho E là một không gian tiền Hilbert và M là một không gian con vectơ của E, không gian này là Hausdorff và đầy đủ. Khi đó E là tổng trực tiếp tôpô của M và của $M^\circ$ là không gian con trực giao với M. Phép chiếu từ E lên M liên kết với phân tích $E = M \oplus M^\circ$ là phép chiếu $p_M$ từ E lên M được định nghĩa trong đl. 1 (V, p. 10).
 
@@ -568,7 +568,7 @@ với mọi $\lambda \in K$. Đặc biệt, nếu ta lấy $\lambda = \overline{
 
 Vì M là Hausdorff, 0 là vectơ duy nhất của M trực giao với chính nó, do đó $M \cap M^\circ = \{0\}$. Với mọi $x \in E$, ta có $p_M(x) \in M$ và $x - p_M(x) \in M^\circ$. Do đó, E là tổng trực tiếp của M và $M^\circ$, và $p_M$ là phép chiếu từ E lên M có hạt nhân là $M^\circ$. Vì $p_M$ là một ánh xạ liên tục từ E vào M (V, p. 11, hệ quả 2), nên từ GT, III, § 6, No. 2 suy ra rằng E là tổng trực tiếp tôpô của M và $M^\circ$.
 
-#### Hệ quả {#evt-v-s1-n6-cor-1 .statement}
+#### Hệ quả {#evt-v-s1-n6-cor-1 .statement tag=07XW}
 
 *Cho E là một không gian tiền Hilbert Hausdorff và M là một không gian con vectơ hữu hạn chiều của E. Khi đó E là tổng trực tiếp của M và $M^\circ$.
 
@@ -580,13 +580,13 @@ Ngay lập tức suy ra từ định lý Pythagore rằng ánh xạ chính tắc
 
 Ta sẽ thường dùng các kết quả trên khi E là một không gian Hilbert và M là một không gian con vectơ đóng của E. Trong trường hợp này, $M^\circ$ là một không gian con vectơ đóng của E, và $p_{M^\circ} = 1 - p_M$, và $(M^\circ)^\circ = M$.
 
-#### Mệnh đề 8 {#evt-v-s1-prop-8 .statement}
+#### Mệnh đề 8 {#evt-v-s1-prop-8 .statement tag=07XX}
 
 — Cho E là một không gian Hilbert, M là một không gian con vectơ đóng của E, I là một tập hợp có thứ tự có hướng không rỗng và $(M_i)_{i \in I}$ là một họ các không gian con vectơ đóng của E. Ta giả sử hoặc là ánh xạ $i \mapsto M_i$ tăng và M là bao đóng của $\bigcup_{i \in I} M_i$ hoặc là ánh xạ $i \mapsto M_i$ giảm và $M = \bigcap_{i \in I} M_i$. Khi đó $p_M(x) = \lim_{i \in I} p_{M_i}(x)$ với mọi $x \in E$.
 
 Mệnh đề 8 được suy ra ngay lập tức từ các mệnh đề 6 (V, p. 11) và 7 (V, p. 12).
 
-#### Mệnh đề 9 {#evt-v-s1-prop-9 .statement}
+#### Mệnh đề 9 {#evt-v-s1-prop-9 .statement tag=07XY}
 
 — Cho E là một không gian Hilbert và M, N là hai không gian con vectơ đóng của E.
 
@@ -620,7 +620,7 @@ Hiển nhiên là ảnh của $q$ được chứa trong $M + N$; tuy nhiên, ta 
 
 Ta có $p_M p_N = 0$ khi và chỉ khi ảnh $N$ của $p_N$ được chứa trong hạt nhân $M^\circ$ của $p_M$, nghĩa là, khi và chỉ khi $M$ trực giao với $N$. Phần còn lại của mệnh đề c) khi đó là một trường hợp riêng của b).
 
-#### Nhận xét {#evt-v-s1-n6-rem-1 .statement}
+#### Nhận xét {#evt-v-s1-n6-rem-1 .statement tag=07XZ}
 
 — Cho $E$ là một không gian Hilbert và $M, N$ là hai không gian con vectơ đóng của $E$. Quan hệ $M \subset N$ tương đương với tính trực giao của $M$ và $N^\circ$, nghĩa là tương đương với quan hệ $p_M p_{N^\circ} = 0$ theo mệnh đề 9, c). Vì ta có $p_{N^\circ} = 1 - p_N$, ta kết luận rằng *các quan hệ* $M \subset N$ *và* $p_M = p_M p_N$ *là tương đương* (« định lý ba đường vuông góc », *xem* hình 3).
 
@@ -630,7 +630,7 @@ Hình 3.
 
 ### 7. Đối ngẫu của một không gian Hilbert
 
-#### Định lý 3 {#evt-v-s1-thm-3 .statement}
+#### Định lý 3 {#evt-v-s1-thm-3 .statement tag=07Y0}
 
 *Cho $E$ là một không gian Hilbert. Với mỗi $x \in E$, gọi $x^*$ là dạng tuyến tính liên tục $y \mapsto \langle x | y \rangle$ trên $E$; ánh xạ $x \mapsto x^*$ là một ánh xạ song ánh, nửa tuyến tính (đối với tự đẳng cấu $\xi \mapsto \bar{\xi}$) từ $E$ lên đối ngẫu của nó $E'$, và là một đẳng cự từ không gian định chuẩn $E$ lên không gian định chuẩn $E'$.*
 
@@ -656,13 +656,13 @@ với $x, y$ trong E và $x'$ trong E'.
 
 Nói rằng vectơ $x \in E$ trực giao với một vectơ $y \in E$ tương đương với nói rằng dạng tuyến tính $x^* \in E'$ trực giao với $y$ theo nghĩa đã định nghĩa ở II, p. 41 (điều này biện minh cho việc dùng từ « orthogonal » trong hai trường hợp). Nếu M là một không gian con vectơ đóng của E, không gian con $M^\circ$ trực giao với M trong E' (II, p. 44) là ảnh qua $x \mapsto x^*$ của trực giao của M trong E, được định nghĩa ở V, p. 13 (điều này biện minh cho việc dùng ký hiệu $M^\circ$ trong hai trường hợp).
 
-#### Hệ quả 1 {#evt-v-s1-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#evt-v-s1-thm-3-cor-1 .statement tag=07Y1}
 
 *Để họ $(x_i)_{i \in I}$ các điểm của một không gian Hilbert E là toàn phần, điều kiện cần và đủ là các hệ thức $\langle x_i|y \rangle = 0$ với $y \in E$ và với mọi chỉ số $i \in I$ kéo theo $y = 0$.*
 
 Thật vậy, điều này nói rằng 0 là vectơ duy nhất của E' trực giao với mọi $x_i$ (II, p. 43 and IV, p. 1).
 
-#### Hệ quả 2 {#evt-v-s1-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#evt-v-s1-thm-3-cor-2 .statement tag=07Y2}
 
 *Cho E và F là hai không gian Hilbert. Với $u \in \mathscr{L}(E; F)$, $x \in E$ và $y \in F$, đặt*
 
@@ -693,17 +693,17 @@ $^1$ Nhắc lại (A, IX, § 1, No. 5) rằng một dạng sesquilinear (bên tr
 
 Hệ quả là (IV, p. 17, mệnh đề 6):
 
-#### Định lý 4 {#evt-v-s1-thm-4 .statement}
+#### Định lý 4 {#evt-v-s1-thm-4 .statement tag=07Y3}
 
 *Trong một không gian Hilbert E, quả cầu đơn vị là compac yếu.*
 
-#### Mệnh đề 10 {#evt-v-s1-prop-10 .statement}
+#### Mệnh đề 10 {#evt-v-s1-prop-10 .statement tag=07Y4}
 
 *Nếu, trong một không gian Hilbert E, một bộ lọc $\mathfrak{F}$ hội tụ yếu đến $x_0$, và nếu hơn nữa $\lim_{\mathfrak{F}} \|x\| = \|x_0\|$, thì $\mathfrak{F}$ hội tụ đến $x_0$ theo tôpô ban đầu của E.*
 
 Thật vậy, $\|x - x_0\|^2 = \|x\|^2 - 2\Re \langle x|x_0 \rangle + \|x_0\|^2$. Vì $\langle x|x_0 \rangle$ hội tụ đến $\|x_0\|^2$ theo $\mathfrak{F}$ theo giả thiết, và $\|x\|$ hội tụ đến $\|x_0\|$ theo $\mathfrak{F}$, nên $\|x - x_0\|$ hội tụ đến 0 theo $\mathfrak{F}$, do đó có mệnh đề.
 
-#### Nhận xét {#evt-v-s1-n7-rem-1 .statement}
+#### Nhận xét {#evt-v-s1-n7-rem-1 .statement tag=07Y5}
 
 — Nếu E là một không gian tiền Hilbert Hausdorff và $\hat{E}$ là không gian Hilbert đầy đủ hóa của E, ta biết (III, p. 16) rằng đối ngẫu E' của E có thể được đồng nhất với đối ngẫu của $\hat{E}$; khi đó từ định lý 3 (V, p. 15) suy ra rằng mọi dạng tuyến tính liên tục trên E có thể được viết một cách duy nhất dưới dạng $x \mapsto \langle a|x \rangle$, trong đó $a \in \hat{E}$.
 

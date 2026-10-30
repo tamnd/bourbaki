@@ -29,7 +29,7 @@ subsections:
       pdf_page: 103
 statements: 10
 exercises: 3
-content_sha256: 23066c042a95c37dc85e0d6c361911df3fb2c4c2af4fd5ad812d075edb341b19
+content_sha256: 0c87f14936e5ee2d3ae4e8cb5d03c1e5ae89b785bf83e9067deeaadba6b9fb24
 ---
 
 ## § 8. ESPACES LOCALEMENT CONVEXES COMPLEXES
@@ -40,7 +40,7 @@ Soit E un espace vectoriel topologique sur le corps C des nombres complexes ; la
 
 Inversement, soit F un espace vectoriel topologique sur $\mathbf{R}$, et supposons qu’il existe un automorphisme u de F tel que $u^2 = -1_F$ ($1_F$ automorphisme identique de F). On sait (A, IX, § 3, no 2) qu’on peut alors définir sur F une structure d’espace vectoriel par rapport à C, en posant, pour tout $\lambda = \alpha + i\beta \in C$ et tout $x \in F$, $\lambda x = \alpha x + \beta u(x)$. En outre, l’application $(\alpha, \beta, x) \mapsto \alpha x + \beta u(x)$ de $\mathbf{R}^2 \times F$ dans F étant continue, la topologie de F est compatible avec la structure d’espace vectoriel par rapport à C ainsi définie ; si E désigne l’espace vectoriel topologique sur C défini de cette manière, F est l’espace vectoriel topologique sur $\mathbf{R}$ sous-jacent à E.
 
-#### Remarque {#evt-ii-s8-n1-rem-1 .statement}
+#### Remarque {#evt-ii-s8-n1-rem-1 .statement tag=07KJ}
 
 Étant donné un espace vectoriel topologique F sur $\mathbf{R}$, il n’existe pas toujours d’automorphisme u de F de carré $-1_F$ : par exemple, on ne peut pas définir de structure d’espace vectoriel par rapport à C sur un espace vectoriel de dimension finie *impaire* par rapport à $\mathbf{R}$.
 
@@ -78,7 +78,7 @@ On dit qu’un espace localement convexe complexe est un *espace de Fréchet* lo
 
 ### 3. Le théorème de Hahn-Banach et ses applications
 
-#### Théorème 1 (Hahn-Banach) {#evt-ii-s8-thm-1 .statement}
+#### Théorème 1 (Hahn-Banach) {#evt-ii-s8-thm-1 .statement tag=07KK}
 
 Soient $p$ une semi-norme sur un espace vectoriel complexe $E$, $V$ un sous-espace vectoriel de $E$, $f$ une forme linéaire (complexe) sur $V$ telle que $|f(y)| \leq p(y)$ pour tout $y \in V$. Alors il existe une forme linéaire $f_1$ sur $E$ prolongeant $f$ et telle que $|f_1(x)| \leq p(x)$ pour tout $x \in E$.
 
@@ -90,39 +90,39 @@ $$
 
 puisque $p$ est une semi-norme sur l’espace complexe $E$; ceci entraîne la relation $|f_1(x)| \leq p(x)$, ce qui démontre le théorème.
 
-#### Corollaire 1 {#evt-ii-s8-thm-1-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s8-thm-1-cor-1 .statement tag=07KL}
 
 Soient $E$ un espace vectoriel topologique complexe, $x_0$ un point de $E$, $p$ une semi-norme continue dans $E$; il existe une forme linéaire continue (complexe) $f$ définie dans $E$, telle que $f(x_0) = p(x_0)$ et que $|f(x)| \leq p(x)$ pour tout $x \in E$.
 
-#### Corollaire 2 {#evt-ii-s8-thm-1-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s8-thm-1-cor-2 .statement tag=07KM}
 
 Soient $E$ un espace localement convexe complexe, $V$ un sous-espace vectoriel de $E$, $f$ une forme linéaire (complexe) définie et continue dans $V$; il existe alors une forme linéaire continue $f_1$ définie dans $E$ et prolongeant $f$. Si $E$ est normé, il existe une telle forme $f_1$ telle que $\|f_1\| = \|f\|$.
 
-#### Corollaire 3 {#evt-ii-s8-thm-1-cor-3 .statement}
+#### Corollaire 3 {#evt-ii-s8-thm-1-cor-3 .statement tag=07KN}
 
 Soient $E$ un espace localement convexe complexe séparé, $M$ un sous-espace vectoriel de $E$ de dimension finie. Il existe alors un sous-espace vectoriel fermé $N$ de $E$, supplémentaire topologique de $M$ dans $E$.
 
 Les démonstrations à partir du th. 1 sont les mêmes que celles de II, p. 24, cor. 2, p. 25, cor. 3, p. 26, prop. 2 et p. 27, cor. 2.
 
-#### Proposition 1 {#evt-ii-s8-prop-1 .statement}
+#### Proposition 1 {#evt-ii-s8-prop-1 .statement tag=07KO}
 
 Soient $E$ un espace vectoriel topologique complexe, $A$ un ensemble ouvert convexe non vide dans $E$, $M$ une variété linéaire (complexe) non vide ne rencontrant pas $A$. Il existe alors un hyperplan complexe fermé $H$ contenant $M$ et ne rencontrant pas $A$.
 
 On peut se borner au cas où $0 \in M$. Alors il existe un hyperplan réel fermé $H_0$ contenant $M$ et ne rencontrant pas $A$ (II, p. 39, th. 1). Comme $M = iM$, l’hyperplan complexe fermé $H = H_0 \cap (iH_0)$ répond à la question.
 
-#### Corollaire {#evt-ii-s8-n3-cor-1 .statement}
+#### Corollaire {#evt-ii-s8-n3-cor-1 .statement tag=07KP}
 
 Dans un espace localement convexe complexe $E$, toute variété linéaire complexe fermée $M$ est l’intersection des hyperplans complexes fermés qui la contiennent.
 
 En effet, pour tout $x \notin M$, il existe un voisinage ouvert convexe $V$ de $x$ ne rencontrant pas M, donc un hyperplan complexe fermé H contenant M et ne rencontrant pas V ; a fortiori H ne contient pas x.
 
-#### Proposition 2 {#evt-ii-s8-prop-2 .statement}
+#### Proposition 2 {#evt-ii-s8-prop-2 .statement tag=07KQ}
 
 Soient E un espace vectoriel topologique complexe, A un ensemble ouvert convexe équilibré non vide, B un ensemble convexe non vide ne rencontrant pas A. Il existe alors une forme linéaire complexe continue f sur E et un nombre α > 0 tels que l’on ait |f(x)| < α dans A et |f(y)| ≥ α dans B.
 
 En effet, il existe une forme linéaire continue réelle g sur E et un nombre réel α tels que g(x) < α dans A et g(y) ≥ α dans B (II, p. 40, prop. 1). Comme 0 ∈ A, on a α > 0. Montrons que la forme linéaire complexe continue f(x) = g(x) − ig(ix) et le nombre α répondent à la question. En effet, comme $\Re f = g$, on a $|f(y)| \geq \alpha$ dans B. D’autre part, pour tout $x \in A$ et tout θ réel, $e^{i\theta}x$ appartient à A, puisque A est équilibré, et l’on a $f(x) = e^{-i\theta}f(e^{i\theta}x)$; il existe alors un nombre θ tel que $|f(x)| = \Re(e^{i\theta}f(x)) = g(e^{i\theta}x) < \alpha$, d’où la proposition.
 
-#### Proposition 3 {#evt-ii-s8-prop-3 .statement}
+#### Proposition 3 {#evt-ii-s8-prop-3 .statement tag=07KR}
 
 Soient E un espace localement convexe complexe, A un ensemble fermé convexe équilibré dans E, K un ensemble convexe compact non vide dans E, ne rencontrant pas A. Il existe alors une forme linéaire complexe continue f sur E et un nombre α > 0 tels que l’on ait |f(x)| < α dans A et |f(y)| > α dans K.
 
@@ -132,7 +132,7 @@ La proposition se déduit de II, p. 41, prop. 4 comme la prop. 2 se déduisait d
 
 Les définitions et résultats du § 6, n°s 1 et 2 (II, p. 43 à 47), s’appliquent sans changement aux espaces vectoriels complexes. Si F et G sont deux espaces vectoriels complexes en dualité par une forme bilinéaire B, les espaces réels sous-jacents $F_0, G_0$ sont en dualité par $\Re B$, et il résulte de II, p. 65, formule (1) que les topologies faibles $\sigma(F, G)$ et $\sigma(F_0, G_0)$ sont identiques.
 
-#### Définition 1 {#evt-ii-s8-def-1 .statement}
+#### Définition 1 {#evt-ii-s8-def-1 .statement tag=07KS}
 
 Soient F et G deux espaces vectoriels complexes en dualité. Pour toute partie M de F, on appelle polaire de M dans G et on note $M^\circ$ l’ensemble des $y \in G$ tels que l’on ait $\Re(\langle x, y \rangle) \geq -1$ pour tout $x \in M$.
 

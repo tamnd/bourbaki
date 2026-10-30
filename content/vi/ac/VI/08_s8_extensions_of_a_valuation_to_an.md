@@ -41,7 +41,7 @@ subsections:
       pdf_page: 446
 statements: 36
 exercises: 21
-content_sha256: d5976cc91ca77b3d7d937ab3adea7dd5fe2328a5dfe3ba45b4eb1a9744bf7a39
+content_sha256: 8e1f18a381483193929856186ad8ec4cea974ed5d8994c37dcce1d54e4cdacb9
 translated_from: content/en/ac/VI/08_s8_extensions_of_a_valuation_to_an.md
 source_content_sha256: d853329d68867ccedd9e356c1483209c43fd487e4b1b8709e9d31dca3434d87e
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -61,7 +61,7 @@ m(\mathbf{A}) = m(\mathbf{A}') \cap \mathbf{K}.
 $$
 Nếu $v'$ là một định giá liên kết với $\mathbf{A}'$, hạn chế $v$ của $v'$ trên $\mathbf{K}$ là một định giá trên $\mathbf{K}$ liên kết với $\mathbf{A}$; nhóm cấp $\Gamma_v$ của $v$ là một nhóm con của nhóm cấp $\Gamma_{v'}$ của $v'$.
 
-#### Định nghĩa 1 {#ac-vi-s8-def-1 .statement}
+#### Định nghĩa 1 {#ac-vi-s8-def-1 .statement tag=04W4}
 
 *Chỉ số* $[\mathfrak{p}_v : \Gamma_{v'}]$ *được gọi là chỉ số phân nhánh của* $v'$ *trên* $v$ *(hoặc trên* $\mathbf{K}$*) và được ký hiệu là* $e(v'/v)$ *(hoặc* $e(A'/A)$, *hoặc đôi khi* $e(L/K)$*).
 
@@ -69,20 +69,20 @@ Chỉ số này là một số tự nhiên hoặc $+\infty$. Nếu $v'_0$ là m�
 
 Mặt khác, trường thặng dư $\kappa(\mathbf{A})$ của $v$ được đồng nhất với một trường con của trường thặng dư $\kappa(\mathbf{A}')$ của $v'$.
 
-#### Định nghĩa 2 {#ac-vi-s8-def-2 .statement}
+#### Định nghĩa 2 {#ac-vi-s8-def-2 .statement tag=04W5}
 
 *Bậc* $[\kappa(\mathbf{A}') : \kappa(\mathbf{A})]$ *được gọi là bậc lớp thặng dư của* $v'$ *trên* $v$ *(hoặc trên* $\mathbf{K}$*) và được ký hiệu là* $f(v'/v)$ *(hoặc* $f(A'/A)$, *hoặc đôi khi* $f(L/K)$*).
 
 Bậc này là một số tự nhiên hoặc $+\infty$.
 
-#### Bổ đề 1 {#ac-vi-s8-lem-1 .statement}
+#### Bổ đề 1 {#ac-vi-s8-lem-1 .statement tag=04W6}
 
 *Cho* $\mathbf{K}, \mathbf{K}', \mathbf{K}''$ *là ba trường sao cho* $K \subset K' \subset K''$, $v''$ *là một định giá trên* $K''$ *và* $v$ *và* $v'$ *là các hạn chế của nó trên* $\mathbf{K}$ *và* $\mathbf{K}'$. *Khi đó có các hệ thức:*
 $$(1)\quad e(v''/v) = e(v''/v') e(v'/v), \qquad f(v''/v) = f(v''/v') f(v'/v).$$
 
 Điều này là hiển nhiên.
 
-#### Bổ đề 2 {#ac-vi-s8-lem-2 .statement}
+#### Bổ đề 2 {#ac-vi-s8-lem-2 .statement tag=04W7}
 
 Cho $K$ là một trường, $L$ là một mở rộng hữu hạn của $K$ có bậc $n$, $v'$ là một định giá trên $L$ và $v$ là hạn chế của nó lên $K$. Khi đó bất đẳng thức
 
@@ -120,40 +120,40 @@ $$
 
 và $v'(b_k) \geq 0, v'(z) > 0$. Do đó, trong $\kappa(A')$, một quan hệ có dạng $\sum_k \bar{b}_k \bar{y}_k = 0$. Vì $b_m = 1$, điều này mâu thuẫn với giả thiết đặt ra trên $y_k$.
 
-#### Mệnh đề 1 {#ac-vi-s8-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s8-prop-1 .statement tag=04W8}
 
 Cho $K$ là một trường, $L$ là một mở rộng đại số của $K$, $v'$ là một định giá trên $L$, $v$ là hạn chế của nó trên $K$ và $A$ và $A'$ là các vành của $v$ và $v'$. Khi đó $\Gamma_{v'}/\Gamma_v$ là một nhóm xoắn và $\kappa(A')$ là một mở rộng đại số của $\kappa(A)$.
 
 Cho $(L_\alpha)$ là họ các mở rộng con hữu hạn của $L$; ta viết $\Gamma_\alpha = v'(L_\alpha^*)$. Nhóm $\Gamma_{v'}$ là hợp của họ có hướng phải gồm các $\Gamma_\alpha$; vì các nhóm $\Gamma_\alpha/\Gamma_v$ là hữu hạn (Bổ đề 2), $\Gamma_{v'}/\Gamma_v$ là một nhóm xoắn. Lập luận tương tự để chứng minh rằng $\kappa(A')$ là một mở rộng đại số của $\kappa(A)$.
 
-#### Hệ quả 1 {#ac-vi-s8-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s8-prop-1-cor-1 .statement tag=04W9}
 
 *Chiều cao của $v'$ bằng chiều cao của $v$.*
 
 Điều này suy ra từ Mệnh đề 1 và bổ đề sau:
 
-#### Bổ đề 3 {#ac-vi-s8-lem-3 .statement}
+#### Bổ đề 3 {#ac-vi-s8-lem-3 .statement tag=04WA}
 
 *Cho $G'$ là một nhóm được sắp thứ tự toàn phần, $G$ là một nhóm con của $G$ và $\mathscr{G}'$ (resp. $\mathscr{G}$) là tập hợp các nhóm con cô lập của $G'$ (resp. $G$). Ánh xạ $H' \mapsto H' \cap G$ ánh xạ $\mathscr{G}'$ lên $\mathscr{G}$. Ánh xạ này là song ánh nếu $G'/G$ là một nhóm xoắn.*
 
 Rõ ràng $H' \in \mathscr{G}'$ kéo theo $H' \cap G \in \mathscr{G}$. Bây giờ cho $H \in \mathscr{G}$; gọi $H'$ là tập hợp các $x' \in G'$ sao cho tồn tại $h \in H$ thỏa mãn $-h \leq x' \leq h$; ta kiểm tra ngay lập tức rằng $H'$ là một nhóm con cô lập của $G'$; khi đó $H' \cap G = H$ vì $H$ là cô lập; do đó ánh xạ $H' \mapsto H' \cap G$ là toàn ánh. Cuối cùng giả sử rằng $G'/G$ là một nhóm xoắn; cho $H'_1$ và $H'_2$ là hai nhóm con cô lập của $G'$ sao cho $H'_1 \cap G = H'_2 \cap G$; khi đó, chẳng hạn, $H'_1 \supset H'_2$ (xem § 4, no. 4); khi đó $H'_1/H'_2$ là một nhóm được sắp thứ tự toàn phần và đẳng cấu với một nhóm thương của $H'_1/(H'_1 \cap G)$ mà bản thân nó được đồng nhất với một nhóm con của $G'/G$; do đó $H'_1/H'_2$ là một nhóm xoắn và vì thế rút gọn về 0.
 
-#### Hệ quả 2 {#ac-vi-s8-lem-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s8-lem-3-cor-2 .statement tag=04WB}
 
 *Để $v'$ là không đúng (resp. có chiều cao 1), điều kiện cần và đủ là $v$ là không đúng (resp. có chiều cao 1).*
 
-#### Hệ quả 3 {#ac-vi-s8-lem-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-vi-s8-lem-3-cor-3 .statement tag=04WC}
 
 *Giả sử rằng $L$ là một mở rộng hữu hạn của $K$. Để $v'$ là rời rạc, điều kiện cần và đủ là $v$ rời rạc.*
 Nếu $v'$ là rời rạc, $\Gamma_{v'}$ đẳng cấu với một nhóm con khác không của $\mathbf{Z}$ (Hệ quả 2) và do đó đẳng cấu với $\mathbf{Z}$. Ngược lại, nếu $v$ là rời rạc, $\Gamma_v$ đẳng cấu với $\mathbf{Z}$ và $\Gamma_{v'}/\Gamma_v$ là một nhóm hữu hạn (Bổ đề 2); do đó $\Gamma_{v'}$ là một nhóm giao hoán sinh hữu hạn có hạng 1 và không xoắn; do đó nó đẳng cấu với $\mathbf{Z}$.
 
 ### 2. MỞ RỘNG MỘT ĐỊNH GIÁ VÀ HOÀN THIỆN
 
-#### Định nghĩa 3 {#ac-vi-s8-def-3 .statement}
+#### Định nghĩa 3 {#ac-vi-s8-def-3 .statement tag=04WD}
 
 *Cho $K$ là một trường, $v$ là một định giá trên $K$ và $L$ là một mở rộng của $K$. Một họ $(v'_i)_{i \in I}$ các định giá trên $L$ mở rộng $v$ và sao cho mọi định giá trên $L$ mở rộng $v$ là tương đương với duy nhất một $v'_i$ được gọi là một hệ đầy đủ các mở rộng của $v$ lên $L$.*
 
-#### Mệnh đề 2 {#ac-vi-s8-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s8-prop-2 .statement tag=04WE}
 
 *Cho $K$ là một trường, $v$ là một định giá trên $K$, $\hat{K}$ là sự hoàn thiện của $K$ đối với $v$, $\hat{v}$ là mở rộng liên tục của $v$ lên $\hat{K}$ và $L$ là một mở rộng hữu hạn của $K$ có bậc $n$.
 (a) Cho $v'$ là một định giá trên $L$ mở rộng $v$; ký hiệu $\hat{L}_{v'}$ là sự hoàn thiện của $L$ đối với $v'$ và $8'$ là mở rộng liên tục của $v'$ lên $\hat{L}_{v'}$; đồng nhất $\hat{K}$ với bao đóng của $K$ trong $\hat{L}_{v'}$,
@@ -192,13 +192,13 @@ là toàn ánh và quan hệ (7) đã được chứng minh. Còn phải kiểm 
 
 Chương VIII, § 8, Mệnh đề 1). Tồn tại một định giá w trên L(m) mở rộng $\vartheta$ (§ 3, no. 3, Mệnh đề 5); hạn chế $v'$ của w lên L mở rộng $v$. Vì $[L(m): \hat{K}]$ là hữu hạn, $L(m)$ là đầy đủ đối với w ($§ 5$, no. 2, Mệnh đề 4). Khi đó bao đóng của L trong $L(m)$ là một trường chứa $\mathbf{K}$ và L, nên bằng $L(m)$. Do đó $L(m)$ được đồng nhất với hoàn thành $\hat{L}_{v'}$ và m là hạt nhân của ánh xạ chính tắc từ $\hat{K} \otimes_K L$ lên $\hat{L}_{v'}$. Theo giả thiết, tồn tại một chỉ số $i$ sao cho $v'$ và $v'_i$ phụ thuộc; do đó $L_{v'} = L_i$ ($§ 7$, no. 2, Mệnh đề 3). Vậy $n \subset m$, điều này chứng minh rằng $n \subset r$ và hoàn tất chứng minh.
 
-#### Hệ quả 1 {#ac-vi-s8-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s8-prop-2-cor-1 .statement tag=04WF}
 
 *Nếu K đầy đủ đối với v và v không tầm thường, thì hai định giá trên L mở rộng v là phụ thuộc.*
 
 Điều này suy ra vì $\hat{K} \otimes_K L = L$.
 
-#### Hệ quả 2 {#ac-vi-s8-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s8-prop-2-cor-2 .statement tag=04WG}
 
 *Nếu $\hat{K}$ hoặc L tách được trên K, thì ánh xạ chính tắc*
 
@@ -210,7 +210,7 @@ $$
 
 Khi đó căn Jacobson của $\hat{K} \otimes_K L$ bằng không (*Algebra*, Chương VIII, § 7, no. 3, Định lý 1).
 
-#### Nhận xét {#ac-vi-s8-n2-rem-1 .statement}
+#### Nhận xét {#ac-vi-s8-n2-rem-1 .statement tag=04WH}
 
 Mệnh đề 2 (b) cho thấy rằng mọi mở rộng hợp thành của $\hat{K}$ và L trên K (*Algebra*, Chương VIII, § 8) đều đẳng cấu với một trong các hoàn thành $\hat{L}_i$ và rằng đó là các mở rộng hợp thành mà không có hai mở rộng nào đẳng cấu với nhau.
 
@@ -224,7 +224,7 @@ $$
 
 theo Mệnh đề 2 (các công thức (6) và (7)). Ta sẽ thấy rằng kết quả này đúng trong trường hợp tổng quát. Nói chính xác hơn:
 
-#### Định lý 1 {#ac-vi-s8-thm-1 .statement}
+#### Định lý 1 {#ac-vi-s8-thm-1 .statement tag=04WI}
 
 *Cho K là một trường, v là một định giá trên K và L là một mở rộng hữu hạn của K bậc n. Khi đó:*
 
@@ -292,19 +292,19 @@ $$
 
 là đơn ánh, ta có $H \cap \Gamma_v = \{0\}$, do đó $H = \{0\}$ (Bổ đề 3, no. 1). Khi đó $v_i'$ và $v_j'$ là tương đương, do đó $i = j$.
 
-#### Nhận xét {#ac-vi-s8-n3-rem-1 .statement}
+#### Nhận xét {#ac-vi-s8-n3-rem-1 .statement tag=04WJ}
 
 Giao của các vành $A_i'$ của các định giá $v_i'$ ($i \in I$) là bao đóng nguyên của $A$ trong L (§ 1, no. 3, Hệ quả 3 của Định lý 3); hơn nữa, từ (c) và § 7, no. 1, các Mệnh đề 1 và 2 suy ra rằng C là một vành nửa địa phương, rằng các iđêan cực đại của nó là các giao $m_i = C \cap m(A_i')$ và rằng $A_i' = C$, với mọi $i \in I$.
 
 ### 4. CHỈ SỐ PHÂN NHÁNH BAN ĐẦU
 
-#### Định nghĩa 4 {#ac-vi-s8-def-4 .statement}
+#### Định nghĩa 4 {#ac-vi-s8-def-4 .statement tag=04WK}
 
 Cho G là một nhóm giao hoán được sắp thứ tự toàn phần và H là một nhóm con của G có chỉ số hữu hạn. Số các tập con lớn của G gồm các phần tử dương ngặt và chứa tất cả các phần tử > O của H được gọi là chỉ số ban đầu của H trong G và được ký hiệu bởi $\varepsilon(G, H)$.
 
 Chỉ số ban đầu này là một số tự nhiên theo mệnh đề sau:
 
-#### Mệnh đề 3 {#ac-vi-s8-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s8-prop-3 .statement tag=04WL}
 
 Dưới các giả thiết của Định nghĩa 4, nếu tập hợp các phần tử dương ngặt của G không có phần tử nhỏ nhất, thì $\varepsilon(G, H) = 1$ với mọi H. Nếu tồn tại một phần tử nhỏ nhất > O của G và $G'$ ký hiệu nhóm con do nó sinh ra, thì
 
@@ -316,19 +316,19 @@ Trong trường hợp thứ nhất, cho x là một phần tử > 0 trong G. T�
 
 Trong trường hợp thứ hai, cho $x$ là phần tử nhỏ nhất >0 của G và cho $n$ là số nguyên nhỏ nhất >0 sao cho $nx \in H$. Rõ ràng $n = (G : (G \cap H))$. Mặt khác, viết $M(y)$ cho tập hợp các $z \in G$ sao cho $y \leq z \ (y \in G)$, ta thấy ngay rằng các tập lớn của Định nghĩa 4 chính là $M(x), M(2x), \ldots, M(nx)$.
 
-#### Hệ quả {#ac-vi-s8-n4-cor-1 .statement}
+#### Hệ quả {#ac-vi-s8-n4-cor-1 .statement tag=04WM}
 
 *Chỉ số ban đầu $\varepsilon(G, H)$ chia chỉ số* $(G : H)$ *và bằng nó nếu* $G$ *đẳng cấu với* $\mathbf{Z}$.
 
 Đặc biệt, $\varepsilon(G, H) \leq (G : H)$.
 
-#### Định nghĩa 5 {#ac-vi-s8-def-5 .statement}
+#### Định nghĩa 5 {#ac-vi-s8-def-5 .statement tag=04WN}
 
 *Cho* $K$ *là một trường, L là một mở rộng hữu hạn của* $K$, $w$ *là một định giá trên* $L$, $v$ *là hạn chế của nó lên* $K$ *và* $\Gamma_w$ *và* $\Gamma_v$ *là các nhóm cấp của chúng. Chỉ số ban đầu của* $\Gamma_v$ *trong* $\Gamma_w$ *được gọi là chỉ số phân nhánh ban đầu của* $w$ *đối với* $v$ *(hoặc đối với* $K$*) và được ký hiệu bởi* $\varepsilon(w/v)$.
 
 Từ hệ quả trên, $\varepsilon(w/v)$ chia $e(w/v)$ với đẳng thức xảy ra trong trường hợp một định giá rời rạc.
 
-#### Mệnh đề 4 {#ac-vi-s8-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vi-s8-prop-4 .statement tag=04WO}
 
 *Dưới các giả thiết của Định nghĩa 5, cho* $A$ *và* $m$ *(tương ứng.* $A'$ *và* $m'$*) *là vành và iđêan của định giá* $v$ *(tương ứng.* $w$*). *Khi đó*
 
@@ -340,7 +340,7 @@ Các iđêan của $A'$ chứa $mA'$ và phân biệt với $A'$ tương ứng v
 
 ### 5. QUAN HỆ $\sum_i e_i f_i = n$
 
-#### Mệnh đề 5 {#ac-vi-s8-prop-5 .statement}
+#### Mệnh đề 5 {#ac-vi-s8-prop-5 .statement tag=04WP}
 
 *Cho* $K$ *là một trường, v là một định giá trên* $K$, $A$ *là vành của nó, m là iđêan của nó, L là một mở rộng hữu hạn của* $K$ *bậc* $n$, $B$ *là bao đóng nguyên của* $A$ *trong* $L$ *và* $(v'_i)_{1 \leq i \leq s}$ *là một hệ đầy đủ các mở rộng của* $v$ *tới* $L$. *Khi đó*
 
@@ -354,7 +354,7 @@ B_{m_i}/mB_{m_i} = A_i/mA_i.
 $$
 Vì vậy có một đẳng cấu chính tắc $B/mB \to \prod_{i=1}^s A_i/mA_i$, do đó kết quả suy ra nhờ Mệnh đề 4 của no. 4.
 
-#### Hệ quả {#ac-vi-s8-n5-cor-1 .statement}
+#### Hệ quả {#ac-vi-s8-n5-cor-1 .statement tag=04WQ}
 
 *Với cùng các giả thiết và ký hiệu,
 $$
@@ -362,7 +362,7 @@ $$
 $$
 Ta biết rằng $\varepsilon(v'_i/v) \leq \varepsilon(v'_i/v)$ (no. 4, Hệ quả của Mệnh đề 3) và $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) \leq n$ (no. 3, Định lý 1).
 
-#### Định lý 2 {#ac-vi-s8-thm-2 .statement}
+#### Định lý 2 {#ac-vi-s8-thm-2 .statement tag=04WR}
 
 *Với các giả thiết và ký hiệu của Mệnh đề 5, các điều kiện sau là tương đương :
 (a) B là một A-môđun hữu hạn sinh;
@@ -374,11 +374,11 @@ Sự tương đương của (a) và (b) suy ra từ Bổ đề 1, § 3, no. 6. R
 
 Nói chung, nếu M là một A-môđun, ta sẽ ký hiệu không gian vectơ $M/mM$ trên $A/m$ bởi V(M). Giả thiết (c) có nghĩa là $\dim(V(B)) = n$. Cho $x_1, \ldots, x_n$ là các phần tử của B mà các ảnh chính tắc của chúng trong V(B) lập thành một cơ sở của V(B) và cho L $\subset B$ là A-môđun con do chúng sinh ra. Vì L là không xoắn và sinh hữu hạn, nó là tự do (§ 3, no. 6, Bổ đề 1). Ta sẽ thấy rằng $B = L$. Cho $y \in B$; ta viết $M = L + Ay$; đây cũng là một A-môđun tự do. Các phép nhúng chính tắc $L \to M \to B$ cho các đồng cấu chính tắc $V(L) \to V(M) \to V(B)$. Vì các hạng của L và M là $\leq n$, nên các chiều của V(L) và V(M) cũng vậy. Bây giờ, theo giả thiết, $V(L) \to V(B)$ là toàn ánh và $V(B)$ có chiều n, do đó $V(L)$ và $V(M)$ có chiều n và $V(L) \to V(M)$ là toàn ánh. Vì M sinh hữu hạn, $L \to M$ là toàn ánh (Chương II, § 3, no. 2, Hệ quả 1 của Mệnh đề 4), do đó $L = M, y \in L$ và $B = L$. Suy ra B là tự do.
 
-#### Nhận xét (1) {#ac-vi-s8-n5-rem-1 .statement}
+#### Nhận xét (1) {#ac-vi-s8-n5-rem-1 .statement tag=04WS}
 
 Nếu v là *rời rạc*, $\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$ (no. 4) và điều kiện (d) rút gọn thành $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) = n.$
 
-#### Hệ quả 1 {#ac-vi-s8-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s8-thm-2-cor-1 .statement tag=04WT}
 
 *Với cùng các giả thiết và ký hiệu, giả sử thêm rằng v là rời rạc và L tách được. Khi đó*
 
@@ -388,7 +388,7 @@ $$
 
 Bao đóng nguyên B của A khi đó là một A-môđun tự do có hạng $n$, vì A là một miền iđêan chính (Chương V, § 1, no. 6, Hệ quả 2 của Mệnh đề 18).
 
-#### Hệ quả 2 {#ac-vi-s8-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s8-thm-2-cor-2 .statement tag=04WU}
 
 *Cho K là một trường, v là một định giá rời rạc trên K mà theo đó K là đầy đủ và L là một mở rộng hữu hạn của K có bậc n. Khi đó v thừa nhận một mở rộng duy nhất (tới tương đương) $v'$ tới L, vành A' của $v'$ là một môđun tự do sinh hữu hạn trên vành A của v và $e(v'/v) f(v'/v) = n$.*
 
@@ -416,7 +416,7 @@ $$
 $$
 (Đại số, Chương VIII, § 12, no. 2, công thức (15)), điều này chứng minh công thức của (9).
 
-#### Hệ quả 4 {#ac-vi-s8-thm-2-cor-4 .statement}
+#### Hệ quả 4 {#ac-vi-s8-thm-2-cor-4 .statement tag=04WV}
 
 *Nếu dưới các giả thiết của Hệ quả 3, L là một mở rộng tách được của K, thì mỗi $\hat{L}_i$ là một mở rộng tách được của $\hat{K}$. Nếu hơn nữa L là một mở rộng Galois của K với nhóm Galois $\mathscr{G}$ và $\mathscr{G}_i$ ký hiệu nhóm phân tích của iđêan của $v'_i$ trong B (Chương V, § 2, no. 2, Định nghĩa 2), thì $\hat{L}_i$ là một mở rộng Galois của $\hat{K}$ mà nhóm Galois đẳng cấu với $\mathscr{G}_i$.*
 
@@ -432,31 +432,31 @@ Trước hết, tôpô do $v'$ xác định trên L là Hausdorff và tương th
 
 ### 6. CÁC VÀNH ĐỊNH GIÁ TRONG MỘT MỞ RỘNG ĐẠI SỐ
 
-#### Mệnh đề 6 {#ac-vi-s8-prop-6 .statement}
+#### Mệnh đề 6 {#ac-vi-s8-prop-6 .statement tag=04WW}
 
 Cho K là một trường, $v$ một định giá trên K, A là vành của nó, L là một mở rộng đại số của K và $A'$ là bao đóng nguyên của A trong L. Cho 23 là tập hợp các vành định giá trên L mở rộng $v$ và $\mathfrak{M}'$ là tập hợp các iđêan cực đại của $A'$. Khi đó ánh xạ $V \mapsto m(V) \cap A'$ là một song ánh từ 23 lên $\mathfrak{M}'$ và $m' \mapsto A'_{m'}$ là song ánh ngược.
 
 Mọi iđêan cực đại $m'$ của $A'$ đều có tính chất là $m' \cap A$ là iđêan cực đại của A (Chương V, § 2, no. 1, Mệnh đề 1) và $A'_{m'}$ bị một vành định giá V của L chi phối (do đó V là vành của một định giá trên L mở rộng $v$) ($§ 1$, no. 2, Hệ quả của Định lý 2). Trường L là hợp của một họ có hướng các mở rộng con $K_\alpha$ của L, hữu hạn trên K, và để thấy rằng $V = A'_{m'}$, chỉ cần chứng minh rằng $V \cap K_\alpha = A'_{m'} \cap K_\alpha$, với mọi $\alpha$. Bây giờ, nếu viết $A'_\alpha = A' \cap K_\alpha$, thì $A'_\alpha$ là bao đóng nguyên của A trong K, và do đó là giao của các vành của các định giá trên K mở rộng $v$; các vành này $V_{i\alpha}$ là hữu hạn về số lượng và là các vành địa phương $(A'_\alpha)_{m'_{i\alpha}}$ của $A'_\alpha$ ($1 \leq i \leq n$), trong đó các $m'_{i\alpha}$ là các iđêan cực đại phân biệt của $A'_\alpha$ (no. 3, Nhận xét); nhưng $m' \cap A'_\alpha$ là một trong các $m'_{i\alpha}$ và vì thế $V \cap K_\alpha$ bằng vành địa phương tương ứng $(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$, điều này hoàn tất chứng minh rằng $V = A'_{m'}$. Ngược lại, nếu $V \in \mathfrak{V}$, thì $A' \subset V$ (§ 3, no. 3, Mệnh đề 6) và, nếu $m' = m(V) \cap A'$, thì $m' \cap A = m$, do đó $m'$ là một iđêan cực đại của $A'$ (Chương V, § 2, no. 1, Mệnh đề 1) và lập luận trên cho thấy rằng $V = A'_{m'}$.
 
-#### Mệnh đề 7 {#ac-vi-s8-prop-7 .statement}
+#### Mệnh đề 7 {#ac-vi-s8-prop-7 .statement tag=04WX}
 
 *Cho K là một trường, L là một mở rộng quasi-Galois của K và f và $f'$ là các phép đặt chỗ của L nhận giá trị trong cùng một trường F. Giả sử rằng các hạn chế của f và $f'$ lên K trùng nhau. Khi đó tồn tại một K-tự đẳng cấu s của L sao cho $f' = f \circ s$.*
 
 Cho A là vành của phép đặt chỗ của K là hạn chế chung của f và $f'$. Các vành của f và $f'$ chứa bao đóng nguyên $A'$ của A trong L (§ 1, no. 3, Hệ quả 3 của Định lý 3) và do đó (Chương V, § 2, no. 3, Hệ quả 1 của Mệnh đề 6) tồn tại một K-tự đẳng cấu s của L sao cho các hạn chế của $f'$ và $f \circ s$ lên $A'$ bằng nhau; nếu $m'$ là hạt nhân chung của các hạn chế này, thì $m' \cap A$ là iđêan cực đại của A, do đó $m'$ là một iđêan cực đại của $A'$ và các phép đặt chỗ $f'$ và $f \circ s$ trùng nhau trên vành $A'_{m'}$; nhưng theo Mệnh đề 6, vành định giá duy nhất của L chi phối $A'_{m'}$ là chính vành $A'_{m'}$ và do đó các vành của các phép đặt chỗ $f'$ và $f \circ s$ là như nhau.
 
-#### Hệ quả 1 {#ac-vi-s8-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s8-prop-7-cor-1 .statement tag=04WY}
 
 *Cho K là một trường, v là một định giá trên K, L là một mở rộng quasi-Galois của K và $v'$ và $v''$ là hai mở rộng của v lên L. Khi đó tồn tại một K-tự đẳng cấu s của L sao cho $v''$ tương đương với $v' \circ s$.*
 
 Cho $f'$ và $f''$ là các phép đặt chỗ của K liên kết với $v'$ và $v''$; bằng cách thay thế chúng, nếu cần, bởi các phép đặt chỗ tương đương, có thể giả sử rằng cả hai đều nhận giá trị trong bao đóng đại số của trường thặng dư của v (no. 1, Mệnh đề 1). Khi đó tồn tại một K-tự đẳng cấu s của L sao cho $f'' = f' \circ s$ (Mệnh đề 7); do đó $v''$ tương đương với $v' \circ s$ theo sự tương ứng giữa các phép đặt chỗ và các định giá (§ 3, no. 3).
 
-#### Hệ quả 2 {#ac-vi-s8-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s8-prop-7-cor-2 .statement tag=04WZ}
 
 *Cho K là một trường, f là một phép đặt chỗ của K (tương ứng v là một định giá trên K) và L là một mở rộng radicial của K. Khi đó mọi mở rộng của f (tương ứng của v) lên L đều tương đương.*
 
 L là một mở rộng quasi-Galois và tự đẳng cấu duy nhất của nó là đồng nhất. Do đó Hệ quả 2 suy ra từ Mệnh đề 7 (tương ứng Hệ quả 1).
 
-#### Mệnh đề 8 {#ac-vi-s8-prop-8 .statement}
+#### Mệnh đề 8 {#ac-vi-s8-prop-8 .statement tag=04X0}
 
 *Cho K là một trường, v một định giá trên K, L một mở rộng quasi-Galois hữu hạn của K bậc n và $(v'_i)_{1 \leq i \leq g}$ một hệ đầy đủ các mở rộng của v lên L. Khi đó $e(v'_i/v)$ và $f(v'_i/v)$ có các giá trị e và $\mathfrak{f}$ độc lập với i. Khi đó $ef g \leq n$. Nếu bao đóng nguyên trong L của vành A của v là một A-môđun hữu hạn sinh, thì $ef g = n$.*
 
@@ -464,7 +464,7 @@ L là một mở rộng quasi-Galois và tự đẳng cấu duy nhất của nó
 
 ### 7. SỰ MỞ RỘNG CỦA CÁC GIÁ TRỊ TUYỆT ĐỐI
 
-#### Mệnh đề 9 {#ac-vi-s8-prop-9 .statement}
+#### Mệnh đề 9 {#ac-vi-s8-prop-9 .statement tag=04X1}
 
 *Cho K là một trường, L một mở rộng đại số của K và $\mathfrak{f}$ một giá trị tuyệt đối trên K. Khi đó $\mathfrak{f}$ có thể được mở rộng thành một giá trị tuyệt đối trên L.*
 
@@ -478,7 +478,7 @@ là một giá trị tuyệt đối trên $L$ mở rộng $f$.
 
 Bây giờ giả sử rằng $f$ không siêu mêtric. Khi đó $K$ được đồng nhất với một trường con của $\mathbf{C}$ sao cho $f(x) = |x|^s$ với $0 \leq s \leq 1$ ($§ 6$, no. 4, Định lý 2). Vì $\mathbf{C}$ đóng đại số, nên $L$ được đồng nhất với một trường con của $\mathbf{C}$ và giá trị tuyệt đối $x \mapsto |x|^s$ mở rộng $f$.
 
-#### Mệnh đề 10 {#ac-vi-s8-prop-10 .statement}
+#### Mệnh đề 10 {#ac-vi-s8-prop-10 .statement tag=04X2}
 
 *Cho $K$ là một trường, $f$ một giá trị tuyệt đối trên $K$ sao cho $K$ đầy đủ và không rời rạc đối với $f$ và $L$ một mở rộng đại số của $K$. Khi đó $f$ có thể được mở rộng một cách duy nhất thành một giá trị tuyệt đối $f'$ trên $L$ và, nếu $L$ có bậc hữu hạn $n$, thì*
 
@@ -490,7 +490,7 @@ $$
 
 Sự tồn tại của $f'$ suy ra từ Mệnh đề 9 và tính duy nhất của nó (trên mọi mở rộng con hữu hạn của $L$ và do đó trên toàn thể $L$) suy ra từ Bổ đề 2 của $§ 6$, no. 4. Gọi $f'$ là mở rộng duy nhất của $f$ lên bao đóng đại số của $K$ và giả sử $L$ có bậc hữu hạn $n$. Ta biết rằng $N_{L/K}(x) = \prod_{i=1}^n x_i$, trong đó mỗi $x_i$ là một liên hợp của $x$ trên $K$ (Đại số, Chương VIII, $§ 12$, no. 2, Mệnh đề 4). Xét theo tính duy nhất của $f'$, ta có $f'(x_i) = f'(x)$ với mọi $i$, do đó suy ra công thức đã nêu.
 
-#### Mệnh đề 11 {#ac-vi-s8-prop-11 .statement}
+#### Mệnh đề 11 {#ac-vi-s8-prop-11 .statement tag=04X3}
 
 *Cho $K$ là một trường, $f$ là một giá trị tuyệt đối không siêu Acsimet trên $K$, $\hat{K}$ là phép hoàn thành của $K$ đối với $f$, $\hat{f}$ là mở rộng liên tục của $f$ lên $\hat{K}$ và $L$ là một mở rộng hữu hạn của $K$ bậc $n$.
 
@@ -527,7 +527,7 @@ $$
 r_1 + 2r_2 = n.
 $$
 
-#### Mệnh đề 12 {#ac-vi-s8-prop-12 .statement}
+#### Mệnh đề 12 {#ac-vi-s8-prop-12 .statement tag=04X4}
 
 *Cho K là một trường, f là một giá trị tuyệt đối trên K, L là một mở rộng giả Galois của K và $f'$ và $f''$ là hai mở rộng của f lên L. Khi đó tồn tại một K-tự đẳng cấu s của L sao cho $f'' = f' \circ s$.*
 

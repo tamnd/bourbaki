@@ -24,7 +24,7 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: 88918921eba0e546d5d0606b4b6722543447e3644d5c0ca81efbbb5920b59aee
+content_sha256: aa289bd43c5eebe9da4646ff51df42a38d61101113983ba90e2488b9af2fc9eb
 translated_from: content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md
 source_content_sha256: 0c070915f018ae2f28d7ba10eba8e260e6b24a97ffbf46012a1958fa6e91eda0
 translation_model: gpt-5.4
@@ -107,7 +107,7 @@ $$
 $$
 Cho $r, s \geq 0$ và ký hiệu $\| \tilde{H}_{r,s} \|$ là chuẩn của đa thức liên tục $\tilde{H}_{r,s}$ (Differentiable and Analytic Manifolds, R, Phụ lục, no. 2).
 
-#### Bổ đề 1 {#lie-ii-s7-lem-1 .statement}
+#### Bổ đề 1 {#lie-ii-s7-lem-1 .statement tag=0A6L}
 
 $$
 \| \tilde{H}_{r,s} \| \leq M^{r+s-1} \eta_{r,s}.
@@ -143,7 +143,7 @@ $$
 
 điều đó chứng minh bổ đề.
 
-#### Mệnh đề 1 {#lie-ii-s7-prop-1 .statement}
+#### Mệnh đề 1 {#lie-ii-s7-prop-1 .statement tag=0A6M}
 
 *Chuỗi lũy thừa hình thức* $\tilde{H}$ *là một chuỗi hội tụ* (*Differentiable and Analytic Manifolds*, R, 3.1.1); *miền hội tụ tuyệt đối của nó* (*Differentiable and Analytic Manifolds*, R, 3.1.4) *chứa tập mở*
 
@@ -177,7 +177,7 @@ $$
 \text{(15)} \quad h(0, x) = h(x, 0) = x \quad \text{với } \|x\| < \frac{1}{M} \log 2.
 $$
 
-#### Mệnh đề 2 {#lie-ii-s7-prop-2 .statement}
+#### Mệnh đề 2 {#lie-ii-s7-prop-2 .statement tag=0A6N}
 
 *Đặt*
 
@@ -309,7 +309,7 @@ $$
 $$
 Do đó $\tilde{H}$ xác định một hàm giải tích $h : \Omega \to A$. Khi đó $h(x, y) = \sum_{r,s} H_{r,s}(x, y)$ (x. § 3, no. 1, *Nhận xét 4*).
 
-#### Mệnh đề 3 {#lie-ii-s7-prop-3 .statement}
+#### Mệnh đề 3 {#lie-ii-s7-prop-3 .statement tag=0A6O}
 
 *Với $\|x\| + \|y\| < \frac{1}{2} \log 2$,*
 (23)    $\exp_A x \cdot \exp_A y = \exp_A h(x, y).$

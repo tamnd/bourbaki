@@ -37,7 +37,7 @@ subsections:
       pdf_page: 137
 statements: 24
 exercises: 12
-content_sha256: 96f6fb1b76d6a0266d54052924b2330434106029d89724a5ec22b20b10d9ad6d
+content_sha256: 7869f035c30572b986477c5199213b9bb04665eee47815f7927bcd5fa0b5b003
 ---
 
 ## § 1. ENVELOPING BIGEBRA OF A LIE ALGEBRA
@@ -68,7 +68,7 @@ $$
 \pi_u(x) = x - \varepsilon(x).u, \qquad \eta_u(x) = \varepsilon(x).u.
 $$
 
-#### Definition 1 {#lie-ii-s1-def-1 .statement}
+#### Definition 1 {#lie-ii-s1-def-1 .statement tag=0A1Q}
 
 *An element $x$ of $E$ is called u-primitive if*
 
@@ -79,12 +79,12 @@ $$
 
 The $u$-primitive elements of $E$ form a submodule of $E$, denoted by $P_u(E)$.
 
-#### Proposition 1 {#lie-ii-s1-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s1-prop-1 .statement tag=0A1R}
 
 *Every u-primitive element of $E$ belongs to $E^+$.*
 (2) implies $x = \varepsilon(x).u + \varepsilon(u).x = \varepsilon(x).u + x,$ whence $\varepsilon(x) = 0$.
 
-#### Remark {#lie-ii-s1-n1-rem-1 .statement}
+#### Remark {#lie-ii-s1-n1-rem-1 .statement tag=0A1S}
 
 If $x \in E$ and $c(x) = x' \otimes u + u \otimes x''$, where $x', x''$ are in $E^+$, then $x = \varepsilon(x').u + \varepsilon(u).x'' = x''$; similarly $x = x'$ and $x$ is $u$-primitive.
 
@@ -95,7 +95,7 @@ $$
 c_u^+(x) = c(x) - x \otimes u - u \otimes x.
 $$
 
-#### Proposition 2 {#lie-ii-s1-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s1-prop-2 .statement tag=0A1T}
 
 *We have*
 
@@ -131,13 +131,13 @@ whence formula (4).
 
 As $E^+$ is a direct factor submodule of $E$, $E^+ \otimes E^+$ can be identified with a direct factor submodule of $E \otimes E$. With this identification, $\pi_u \otimes \pi_u$ is a projector of $E \otimes E$ onto $E^+ \otimes E^+$. By formula (4), $c_u^+$ maps $E^+$ into $E^+ \otimes E^+$ and $\pi_u$ is a morphism of the cogebras $(E, c)$ into the cogebras $(E^+, c_u^+)$.
 
-#### Proposition 3 {#lie-ii-s1-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s1-prop-3 .statement tag=0A1U}
 
 *If the cogebras* $(E, c)$ *is coassociative* (resp. cocommutative) (*Algebra*, Chapter III, § 11, no. 2), *so is the cogebras* $(E^+, c_u^+)$.
 
 This follows from the following lemma:
 
-#### Lemma 1 {#lie-ii-s1-lem-1 .statement}
+#### Lemma 1 {#lie-ii-s1-lem-1 .statement tag=0A1V}
 
 *Let* $\pi : E \to E'$ *be a surjective cogebras morphism. If* $E$ *is coassociative* (resp. cocommutative), *so is* $E'$.
 
@@ -153,7 +153,7 @@ $$
 
 We write simply $\pi$, $\eta$, $P(E)$, $c^+$ instead of $\pi_1$, $\eta_1$, $P_1(E)$, $c_1^+$.
 
-#### Proposition 4 {#lie-ii-s1-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s1-prop-4 .statement tag=0A1W}
 
 *The set* $P(E)$ *of primitive elements of* $E$ *is a Lie subalgebra of* $E$.
 
@@ -169,7 +169,7 @@ $$
 c([x, y]) = [x, y] \otimes 1 + 1 \otimes [x, y].
 $$
 
-#### Proposition 5 {#lie-ii-s1-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s1-prop-5 .statement tag=0A1X}
 
 *Let* $f : E \to E'$ *be a bigebra morphism. If* $x$ *is a primitive element of* $E$, *then* $f(x)$ *is a primitive element of* $E'$ *and the restriction of* $f$ *to* $P(E)$ *is a Lie algebra homomorphism* $P(f) : P(E) \to P(E')$.
 
@@ -182,7 +182,7 @@ c'(f(x)) &= (f \otimes f)(c(x)) = (f \otimes f)(x \otimes 1 + 1 \otimes x) \\
 $$
 for $x$ primitive. Hence $f$ maps $P(E)$ into $P(E')$ and $f([x, y]) = [f(x), f(y)]$ since $f$ is an algebra homomorphism.
 
-#### Remark {#lie-ii-s1-n2-rem-1 .statement}
+#### Remark {#lie-ii-s1-n2-rem-1 .statement tag=0A1Y}
 
 (1) Let $p$ be a prime number such that $p \cdot 1 = 0$ in $K$. The binomial formula and the congruences $\binom{p}{i} \equiv 0 \pmod{p}$ for $1 \leq i \leq p - 1$ imply that
 
@@ -210,7 +210,7 @@ is an exact sequence, which implies that $\alpha$ is an isomorphism.
 
 ### 3. FILTERED BIGEBRAS
 
-#### Definition 2 {#lie-ii-s1-def-2 .statement}
+#### Definition 2 {#lie-ii-s1-def-2 .statement tag=0A1Z}
 
 Let $E$ be a bigebra with coproduct $c$. A filtration compatible with the bigebra structure on $E$ is an increasing sequence $(E_n)_{n \geq 0}$ of submodules of $E$ such that
 
@@ -224,11 +224,11 @@ $$
 
 A bigebra with a filtration compatible with its bigebra structure is called a filtered bigebra.
 
-#### Example {#lie-ii-s1-n3-exa-1 .statement}
+#### Example {#lie-ii-s1-n3-exa-1 .statement tag=0A20}
 
 Let $E$ be a graded bigebra (Algebra, Chapter III, § 11, no. 4, Definition 3) and $(E^n)_{n \geq 0}$ its graduation. We write $E_n = \sum_{i=0}^n E^i$. The sequence $(E_n)$ is a filtration compatible with the bigebra structure on $E$.
 
-#### Proposition 6 {#lie-ii-s1-prop-6 .statement}
+#### Proposition 6 {#lie-ii-s1-prop-6 .statement tag=0A21}
 
 Let $E$ be a filtered bigebra and $(E_n)_{n \geq 0}$ its filtration. For every integer $n \geq 0$, let $E_n^+ = E_n \cap E^+$. Then $E_0^+ = \{0\}$ and
 
@@ -246,7 +246,7 @@ $$
 c^+(E_n^+) \subset \sum_{i=0}^n \operatorname{Im}(E_i^+ \otimes E_{n-i}^+) = \sum_{i=1}^{n-1} \operatorname{Im}(E_i^+ \otimes E_{n-i}^+).
 $$
 
-#### Corollary {#lie-ii-s1-n3-cor-1 .statement}
+#### Corollary {#lie-ii-s1-n3-cor-1 .statement tag=0A22}
 
 *The elements of* $E_1^+$ *are primitive.*
 If $x \in E_1^+$, then $c^+(x) = 0$ by (7), whence (5).
@@ -255,7 +255,7 @@ If $x \in E_1^+$, then $c^+(x) = 0$ by (7), whence (5).
 
 Recall that $g$ denotes a Lie algebra and $U$ its enveloping algebra, with its canonical filtration $(U_n)_{n \geq 0}$.
 
-#### Proposition 7 {#lie-ii-s1-prop-7 .statement}
+#### Proposition 7 {#lie-ii-s1-prop-7 .statement tag=0A23}
 
 *There exists on the algebra* $U$ *one and only one coproduct* $c$ *which makes* $U$ *into a bigebra such that the elements of* $\sigma(g)$ *are primitive. The bigebra* $(U, c)$ *is cocommutative; its counit is the linear form* $\varepsilon$ *such that the constant term (Chapter I, § 2, no. 1) of every element* $x$ *of* $U$ *is* $\varepsilon(x) . 1$. *The canonical filtration* $(U_n)_{n \geq 0}$ *of* $U$ *is compatible with this bigebra structure.*
 
@@ -298,11 +298,11 @@ $$
 
 where I(i) denotes the set of permutations of {1, n} which are increasing in each of the intervals {1, i} and {i + 1, n}. As U_n is the K-module generated by the products of at most n elements of σ(g), formula (8) implies that the filtration (U_n) is compatible with the bigebra structure of (U, c).
 
-#### Definition 3 {#lie-ii-s1-def-3 .statement}
+#### Definition 3 {#lie-ii-s1-def-3 .statement tag=0A24}
 
 *The bigebra* (U, c) *is called the* enveloping bigebra *of the Lie algebra* g.
 
-#### Proposition 8 {#lie-ii-s1-prop-8 .statement}
+#### Proposition 8 {#lie-ii-s1-prop-8 .statement tag=0A25}
 
 *Let E be a bigebra with coproduct denoted by c_E and let h be a Lie algebra homomorphism of g into P(E)* (no. 2, Proposition 4). *The unital algebra homomorphism f : U → E such that f(σ(x)) = h(x) for all x ∈ g is a bigebra morphism.*
 
@@ -314,7 +314,7 @@ since f(a) ∈ P(E). Similarly if ε_E is the counit of E, ε_E ∘ f is a unita
 
 It follows from Propositions 5 and 8 that the mapping f ↦ f ∘ σ defines a one-to-one correspondence between bigebra homomorphisms U(g) → E and Lie algebra homomorphisms g → P(E).
 
-#### Corollary {#lie-ii-s1-n4-cor-1 .statement}
+#### Corollary {#lie-ii-s1-n4-cor-1 .statement tag=0A26}
 
 *Let g_i (i = 1, 2) be a Lie algebra, U(g_i) its enveloping bigebra and σ_i : g_i → U(g_i) the canonical mapping. For every Lie algebra homomorphism h : g_1 → g_2, the unital algebra homomorphism U(h) : U(g_1) → U(g_2) such that U(h) ∘ σ_1 = σ_2 ∘ h (Chapter I, § 2, no. 1) is a bigebra morphism.*
 
@@ -336,7 +336,7 @@ $$
 
 Note that by *Algebra*, Chapter III, § 6, no. 1, *Remark 3*, $\eta$ is the unique linear mapping of $S(\mathfrak{g})$ into $U$ satisfying condition (10).
 
-#### Proposition 9 {#lie-ii-s1-prop-9 .statement}
+#### Proposition 9 {#lie-ii-s1-prop-9 .statement tag=0A27}
 
 *For every integer $n \geq 0$, let $U^n$ be the vector subspace of $U$ generated by the $\sigma(x)^n$ for $x \in \mathfrak{g}$.*
 
@@ -373,7 +373,7 @@ On the other hand, formula (10) shows that $\eta(S^n(\mathfrak{g})) = U^n$, whic
 
 The graduation $(U^n)_{n \geq 0}$ of $U$ is called the *canonical graduation*.
 
-#### Corollary {#lie-ii-s1-n5-cor-1 .statement}
+#### Corollary {#lie-ii-s1-n5-cor-1 .statement tag=0A28}
 
 *The canonical mapping $\sigma$ defines an isomorphism of $\mathfrak{g}$ onto the Lie algebra $P(U)$ of primitive elements of $U$.*
 
@@ -388,7 +388,7 @@ $$
 a = \sum_i \lambda_i a_i^n = \mu \left( \sum_i \lambda_i a_i \otimes a_i^{n-1} \right) = 0.
 $$
 
-#### Remark {#lie-ii-s1-n5-rem-1 .statement}
+#### Remark {#lie-ii-s1-n5-rem-1 .statement tag=0A29}
 
 (1) $U_n = \sum_{i=0}^n U^i$ (Chapter I, § 2, no. 7, Corollary 4 to Theorem 1).
 
@@ -447,7 +447,7 @@ $$
 
 and the summation index $\alpha$ runs through $\mathbf{N}^{(\Omega)}$.
 
-#### Proposition 10 {#lie-ii-s1-prop-10 .statement}
+#### Proposition 10 {#lie-ii-s1-prop-10 .statement tag=0A2A}
 
 *The mapping* $\lambda \mapsto f_{\lambda}$ *is an isomorphism of the algebra* $U'$ *onto the algebra of formal power series* $K[[X_i]]_{i \in I}$.
 
@@ -469,7 +469,7 @@ In this no. we continue to assume that K is a *field of characteristic 0*.
 
 If E is a bigebra, the canonical injection $P(E) \to E$ can be extended to a bigebra morphism $f_E : U(P(E)) \to E$ (no. 4, Proposition 8).
 
-#### Theorem 1 {#lie-ii-s1-thm-1 .statement}
+#### Theorem 1 {#lie-ii-s1-thm-1 .statement tag=0A2B}
 
 Let E be a cocommutative bigebra.
 (a) The bigebra morphism $f_E : U(P(E)) \to E$ is injective.
@@ -485,7 +485,7 @@ $$
 since $f_E$ is a cogebra morphism.
 We show that $f_E$ is injective. This results from the following lemma:
 
-#### Lemma 2 {#lie-ii-s1-lem-2 .statement}
+#### Lemma 2 {#lie-ii-s1-lem-2 .statement tag=0A2C}
 
 Let V be a vector space, E a cogebra and $f : S(V) \to E$ a cogebra morphism. If the restriction of f to $S^0(V) + S^1(V)$ is injective, then f is injective.
 Let $n \geq 0$; we write $S_n = \sum_{i \geq n} S^i(V)$ and $c_S$ for the coproduct of $S(V)$ and show by induction on n that $f | S_n$ is injective. Since the assertion is trivial for $n = 0$ and $n = 1$, we assume that $n \geq 2$ and let $u \in S_n$ be such that $f(u) = 0$. Then
@@ -549,7 +549,7 @@ $$
 
 The proof will therefore be complete when we have proved the following lemma:
 
-#### Lemma 3 {#lie-ii-s1-lem-3 .statement}
+#### Lemma 3 {#lie-ii-s1-lem-3 .statement tag=0A2D}
 
 *If a family of scalars* $(\lambda_{\alpha, \beta})$ *of finite support* (with $\alpha, \beta$ in $\mathbf{N}^{(\Omega)} - \{0\}$) *satisfies relations* (20) *and* (21), *there exists a family* $(\mu_\alpha)_{|\alpha| \geq 2}$ *of finite support such that* $\mu_{\alpha + \beta} = \lambda_{\alpha, \beta}$ *for* $\alpha, \beta$ *non-zero*.
 

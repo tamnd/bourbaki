@@ -37,14 +37,14 @@ subsections:
       pdf_page: 69
 statements: 20
 exercises: 11
-content_sha256: 91c29d8f00f5f716b69d38dfd284ef594a9a41ffeef8b96e13fd3f3d03503b7e
+content_sha256: 84b73d5cb91ba66f9fb0a8d46ba877ead06fb7db67a26899eb15f91e622640c2
 ---
 
 ## § 5. INTERSECTIONS COMPLÈTES
 
 ### 1. Idéal engendré par une suite complètement sécante
 
-#### Définition 1 {#ac-x-s5-def-1 .statement}
+#### Définition 1 {#ac-x-s5-def-1 .statement tag=0D6T}
 
 Soient $A$ un anneau, $J$ un idéal de $A$. On dit que l’idéal $J$ est complètement sécant au point $p$ de $V(J)$ si l’idéal $J_p$ de $A_p$ est engendré par une suite complètement sécante pour $A_p$. On dit que $J$ est complètement sécant s’il l’est en tous les points de $V(J)$.
 
@@ -52,7 +52,7 @@ Si l’idéal $J$ de $A$ est complètement sécant, il en est de même de l’id
 
 Tout idéal engendré par une suite complètement sécante est complètement sécant. Plus précisément :
 
-#### Proposition 1 {#ac-x-s5-prop-1 .statement}
+#### Proposition 1 {#ac-x-s5-prop-1 .statement tag=0D6U}
 
 Soient $A$ un anneau, $J$ un idéal de $A$, engendré par une suite finie $x = (x_1, \ldots, x_r)$ d’éléments de $A$. Les conditions suivantes sont équivalentes :
 
@@ -68,13 +68,13 @@ Soit $p$ un idéal premier de $A$ ; notons $x_p$ l’image dans $A_p$ de la suit
 
 L’implication (i) $\Rightarrow$ (iv) est une conséquence du th. 1 de A, X, p. 160. Enfin la condition (iv) implique par localisation la condition analogue pour les $(A_p/J_p)$-modules $J_p^n / J_p^{n+1}$ pour tout $p \in V(J)$, et celle-ci entraîne (ii) d’après le cor. 1 de A, X, p. 160.
 
-#### Remarque 1 {#ac-x-s5-n1-rem-1 .statement}
+#### Remarque 1 {#ac-x-s5-n1-rem-1 .statement tag=0D6V}
 
 Lorsque l’anneau $A$ est noethérien, on peut remplacer dans les conditions (ii) et (ii') « complètement sécante » par « régulière » (A, X, p. 160, cor. 1).
 
 On prendra garde qu’il n’en est pas ainsi dans la condition (i) : une suite complètement sécante pour A n’est pas nécessairement A-régulière (exerc. 1).
 
-#### Remarque 2 {#ac-x-s5-n1-rem-2 .statement}
+#### Remarque 2 {#ac-x-s5-n1-rem-2 .statement tag=0D6W}
 
 Soient A un anneau, J un idéal de type fini de A et p un idéal premier de A contenant J. D’après le cor. 2 du th. 1 du § 1, n° 3, on a
 
@@ -112,7 +112,7 @@ $$
 
 avec $\operatorname{gr}_J(A) = \bigoplus_{n \in \mathbf{N}} J^n / J^{n+1}$.
 
-#### Théorème 1 {#ac-x-s5-thm-1 .statement}
+#### Théorème 1 {#ac-x-s5-thm-1 .statement tag=0D6X}
 
 Soient A un anneau noethérien et J un idéal de A. Les conditions suivantes sont équivalentes :
 
@@ -129,11 +129,11 @@ Soient A un anneau noethérien et J un idéal de A. Les conditions suivantes son
 
 (iv) ⇒ (i) : supposons la condition (iv) satisfaite ; soit p un idéal premier de A contenant J. Alors le A_p/J_p-module J_p/J_p^2 est libre. Soit x = (x_1, ..., x_r) une suite d’éléments de J_p relevant une base de J_p/J_p^2. La suite x engendre J_p (lemme de Nakayama), et satisfait par construction à la condition (iv) de la prop. 1. Par suite l’idéal J_p de A_p est complètement sécant, et J est complètement sécant en p.
 
-#### Remarque 1 {#ac-x-s5-n2-rem-1 .statement}
+#### Remarque 1 {#ac-x-s5-n2-rem-1 .statement tag=0D6Y}
 
 Supposons l’idéal J complètement sécant ; soit (x_1, ..., x_r) une suite d’éléments de J, telle que pour tout idéal maximal m ∈ V(J) les images canoniques des x_i dans J/mJ forment une base de ce A/m-espace vectoriel. Alors le A/J-module J/J^2 est libre et les images canoniques dans J/J^2 des x_i en forment une base : il suffit en effet de vérifier que les images des x_i forment une base du A_m/J_m-module J_m/J_m^2 pour tout m ∈ V(J) (II, § 3, n° 3, th. 1), ce qui résulte de loc. cit., n° 2, prop. 5 et cor. 2, puisque le A_m/J_m-module J_m/J_m^2 est projectif (th. 1).
 
-#### Corollaire 1 {#ac-x-s5-thm-1-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s5-thm-1-cor-1 .statement tag=0D6Z}
 
 Soient $\hat{A}$ l’anneau séparé complété de A pour la topologie J-adique et $\hat{J} = J\hat{A}$ le séparé complété de J. Pour que l’idéal $\hat{J}$ de $\hat{A}$ soit complètement sécant, il faut et il suffit que l’idéal J de A soit complètement sécant.
 
@@ -141,7 +141,7 @@ En effet, l’application canonique gr_J(A) → gr_J(\hat{A}) est un isomorphism
 
 Plus généralement :
 
-#### Corollaire 2 {#ac-x-s5-thm-1-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s5-thm-1-cor-2 .statement tag=0D70}
 
 Soient ρ : A → B un homomorphisme d’anneaux noethériens faisant de B un A-module plat, et J un idéal de A.
 
@@ -151,19 +151,19 @@ b) Supposons que l’idéal JB de B soit complètement sécant et que tout idéa
 
 Remarquons d’abord que, puisque le A-module B est plat, $J^n \otimes_A B$ s’identifie à $J^nB$ et $(J^n/J^{n+1}) \otimes_{A/J} (B/JB)$ à $J^nB/J^{n+1}B$ pour tout entier $n \geq 0$. L’assertion a) résulte alors du critère (iii). Sous les hypothèses de b), le A/J-module B/JB est fidèlement plat (I, § 2, n° 7, cor. 2 de la prop. 8 et § 3, n° 5, prop. 9) et J est complètement sécant d’après le critère (iv), compte tenu de I, § 3, n° 1, prop. 2 et n° 6, prop. 12. La dernière assertion résulte de la prop. 8 de I, § 3, n° 5.
 
-#### Corollaire 3 {#ac-x-s5-thm-1-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s5-thm-1-cor-3 .statement tag=0D71}
 
 Soient $A$ un anneau noethérien et $J$ un idéal complètement sécant de $A$. Si $A$ est un anneau de Macaulay (resp. de Gorenstein), il en est de même de $A/J$.
 
 Soit en effet $m$ un idéal maximal de $A$ contenant $J$. L’idéal $J_m$ de $A_m$ est engendré par une suite $A_m$-régulière ; donc $(A/J)_m$ est un anneau de Macaulay (resp. de Gorenstein) d’après l’exemple 6 du § 2, n° 5 (resp. l’exemple 2 du § 3, n° 9).
 
-#### Remarque 2 {#ac-x-s5-n2-rem-2 .statement}
+#### Remarque 2 {#ac-x-s5-n2-rem-2 .statement tag=0D72}
 
 On dit qu’un anneau noethérien $A$ est un anneau d’intersection complète si, pour tout idéal maximal $m$ de $A$, l’anneau local complet $\widehat{A_m}$ est isomorphe au quotient d’un anneau noethérien local complet régulier par un idéal complètement sécant. Il résulte du cor. 3 ci-dessus et du cor. 2 de la prop. 12 du § 3, n° 8 qu’un tel anneau est un anneau de Gorenstein.
 
 ### 3. Idéaux complètement sécants et anneaux réguliers
 
-#### Proposition 2 {#ac-x-s5-prop-2 .statement}
+#### Proposition 2 {#ac-x-s5-prop-2 .statement tag=0D73}
 
 Soit $A$ un anneau noethérien. Les conditions suivantes sont équivalentes :
 
@@ -177,7 +177,7 @@ Soit $A$ un anneau noethérien. Les conditions suivantes sont équivalentes :
 
 (ii) $\Rightarrow$ (i) : soit $m$ un idéal maximal de $A$ ; sous l’hypothèse (ii), l’idéal maximal $mA_m$ de $A_m$ est engendré par une suite complètement sécante pour $A_m$, donc $A_m$ est régulier (VIII, § 5, n° 2, th. 1). Par conséquent $A$ est régulier.
 
-#### Proposition 3 {#ac-x-s5-prop-3 .statement}
+#### Proposition 3 {#ac-x-s5-prop-3 .statement tag=0D74}
 
 Soient $A$ un anneau noethérien et $J$ un idéal de $A$ tel que $A/J$ soit régulier. Les conditions suivantes sont équivalentes :
 
@@ -187,7 +187,7 @@ Soient $A$ un anneau noethérien et $J$ un idéal de $A$ tel que $A/J$ soit rég
 
 D’après le th. 1, la condition (i) signifie que pour tout idéal premier (resp. maximal) $p$ de $A$ contenant $J$, l’idéal $J_p$ de l’anneau local $A_p$ est engendré par une suite complètement sécante pour $A_p$. Puisque $A_p/J_p$ est régulier par hypothèse, cette dernière condition équivaut à ce que $A_p$ soit régulier (VIII, § 5, n° 3, prop. 2 et son cor. 2) ; cela prouve l’équivalence de (i) et (ii). L’équivalence de (ii) et (iii) résulte du § 4, n° 2, cor. 3 de la prop. 4.
 
-#### Proposition 4 {#ac-x-s5-prop-4 .statement}
+#### Proposition 4 {#ac-x-s5-prop-4 .statement tag=0D75}
 
 Soient $A$ un anneau régulier, $J$ un idéal de $A$ et $A_0$ un sous-anneau de $A$ tel que l’homomorphisme canonique $A_0 \to A/J$ soit bijectif.
 
@@ -207,13 +207,13 @@ Si le $A_0$-module $P$ est gradué libre (A, II, p. 167, remarque 3) et si $(x_i
 
 Lorsque l’anneau $A_0$ est régulier et que le $A_0$-module $P$ est projectif de type fini, l’anneau $S_{A_0}(P)$ est régulier (§ 4, n° 2, cor. 4 de la prop. 4). Inversement :
 
-#### Théorème 2 {#ac-x-s5-thm-2 .statement}
+#### Théorème 2 {#ac-x-s5-thm-2 .statement tag=0D76}
 
 Soit $A$ un anneau régulier, gradué de type $\mathbf{N}$. L’anneau $A_0$ formé des éléments de degré 0 dans $A$ est régulier ; il existe un $A_0$-module projectif de type fini $P$ gradué à degrés $> 0$ tel que $A$ soit isomorphe comme $A_0$-algèbre graduée à $S_{A_0}(P)$.
 
 Notons $P$ le $A_0$-module gradué $A_+/A_+^2$. D’après la prop. 4 du n° 3, l’anneau $A_0$ est régulier et le $A_0$-module $P$ est projectif et de type fini. Les composants homogènes de $P$ sont donc projectifs et il existe une section $A_0$-linéaire $\varphi : P \to A_+$, graduée de degré 0 , de la surjection canonique $A_+ \to P$. Soit $f : S_{A_0}(P) \longrightarrow A$ l’homomorphisme de $A_0$-algèbres graduées qui prolonge $\varphi$. D’après la prop. 4, $f$ s’étend en un isomorphisme du séparé complété de $S_{A_0}(P)$ pour la topologie $S_{A_0}(P)_+$-adique sur le séparé complété de $A$ pour la topologie $A_+$-adique. Par conséquent, $f$ est injectif et son image est dense dans $A$ pour la topologie $A_+$-adique. Mais puisque les topologies induites sur les composants homogènes de $A$ sont discrètes et que l’image de $f$ est un sous-module gradué, cela implique que $f$ est bijectif.
 
-#### Corollaire 1 {#ac-x-s5-thm-2-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s5-thm-2-cor-1 .statement tag=0D77}
 
 *Soit B un anneau régulier, gradué à degrés positifs. Supposons que tout $B_0$-module projectif de type fini soit libre.*
 a) *L’anneau $B_0$ est intègre et régulier et la $B_0$-algèbre $B$ est une $B_0$-algèbre graduée de polynômes, de type fini.*
@@ -230,7 +230,7 @@ Démontrons b).
 
 (ii) $\Leftrightarrow$ (iii) : puisque $B$ est entier sur $A$ et est une $A_0$-algèbre de type fini, $A$ est une $A_0$-algèbre de type fini (V, $§ 1$, n° 9, lemme 5), donc un anneau noethérien. L’équivalence de (ii) et (iii) résulte alors du cor. de la prop. 8 du $§ 4$, n° 5 et de a) appliqué à $A$.
 
-#### Corollaire 2 {#ac-x-s5-thm-2-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s5-thm-2-cor-2 .statement tag=0D78}
 
 *Soient k un corps, B une k-algèbre graduée de polynômes, de type fini, et A une sous-algèbre graduée de B. Les conditions suivantes sont équivalentes :
 (i) B est un $A$-module gradué libre ;
@@ -248,7 +248,7 @@ Les corollaires 1 et 2 impliquent le lemme 5 de LIE, V, § 5, n° 5.
 
 ### 5. Suites régulières et extension des scalaires
 
-#### Proposition 5 {#ac-x-s5-prop-5 .statement}
+#### Proposition 5 {#ac-x-s5-prop-5 .statement tag=0D79}
 
 Soient ρ : A → B un homomorphisme local d’anneaux locaux noethériens, N un B-module de type fini, x = (x_1, ..., x_r) une suite d’éléments de m_B et u : A[T_1, ..., T_r] → B l’unique homomorphisme de A-algèbres tel que u(T_i) = x_i pour i = 1, ..., r. Les conditions suivantes sont équivalentes :
 
@@ -265,7 +265,7 @@ Soient ρ : A → B un homomorphisme local d’anneaux locaux noethériens, N un
 
 (iv) ⇒ (i) : notons t l’idéal de A[T] engendré par T. Le (A[T]/t)-module N/tN est plat par hypothèse et N est idéalement séparé pour t (III, § 5, n° 4, prop. 2). Pour démontrer que N est plat sur A[T], il suffit de prouver, vu le th. 1 de loc. cit., n° 2, que le A-module Tor_1^{A[T]}(A[T]/t, N) est nul. Mais puisque la suite T est A[T]-régulière, ce module est isomorphe à H_1(T, N) (A, X, p. 159, remarque 3), qui est nul puisque la suite T est N-régulière (loc. cit., p. 157, prop. 5).
 
-#### Corollaire {#ac-x-s5-n5-cor-1 .statement}
+#### Corollaire {#ac-x-s5-n5-cor-1 .statement tag=0D7A}
 
 Soient k un corps, Λ une k-algèbre locale noethérienne, x = (x_1, ..., x_r) une suite d’éléments de m_A et M un Λ-module de type fini. Soient Ā et Ĝ les complétés de A et M pour leur topologie (x_1Ā + ... + x_rĀ)-adique ; notons u : k[T_1, ..., T_r] → Ā l’unique homomorphisme de k-algèbres tel que u(T_i) = x_i pour i = 1, ..., r, et ū : k[[T_1, ..., T_r]] → Ā l’unique homomorphisme continu qui le prolonge. Les conditions suivantes sont équivalentes :
 
@@ -290,7 +290,7 @@ En effet la condition (ii) équivaut à dire que la suite $(x_1, \ldots, x_r)$ e
 
 ### 6. Idéaux complètement sécants et extension des scalaires
 
-#### Proposition 6 {#ac-x-s5-prop-6 .statement}
+#### Proposition 6 {#ac-x-s5-prop-6 .statement tag=0D7B}
 
 Soient $\rho : A \to B$ un homomorphisme d’anneaux noethériens et $J$ un idéal de $B$. Les conditions suivantes sont équivalentes :
 
@@ -310,7 +310,7 @@ D’après le th. 1 du n° 2, la condition (i) équivaut à la condition (i') (r
 
 (iii) $\Rightarrow$ (i'') : supposons (iii) vérifiée. Soit $n$ un idéal maximal de $B$ contenant $J$; posons $m = \rho^{-1}(n)$. Soit $x$ une suite d’éléments de $J_n$ dont les images dans $J_n/nJ_n$ forment une base de ce $\kappa(n)$-espace vectoriel. La suite $x$ engendre $J_n$; d’après la prop. 1 du n° 1, elle est $(\kappa(m) \otimes_A B_n)$-régulière. Comme le $A_m$-module $B_n$ est plat par hypothèse, il résulte de l’implication (iii) $\Rightarrow$ (iv) de la prop. 5 que la condition (i'') est satisfaite.
 
-#### Remarque 1 {#ac-x-s5-n6-rem-1 .statement}
+#### Remarque 1 {#ac-x-s5-n6-rem-1 .statement tag=0D7C}
 
 Supposons que les conditions équivalentes de la prop. 6 soient satisfaites. Comme $B/J$ est plat sur $A$, pour toute $A$-algèbre $A'$, la suite canonique de $A'$-modules
 $$

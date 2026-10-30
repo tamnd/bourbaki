@@ -29,9 +29,9 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: 3fafecd082ad7da7084d5c00e50685cf5379d6b7ad8bc9e7a3d20b187e5ec511
+content_sha256: 7848e27bbf146c0d5dd7c5ff7a8b1f4a78bd5dfc9b555dbbb2d3d27f3e814ce1
 translated_from: content/en/evt/V/02_s2_orthogonal_families_in_a_hilbertian.md
-source_content_sha256: 109a66b6721878b6fd9023991b492f899a3e3a39bcc94c4aaa2c3af4ce0616d9
+source_content_sha256: a7de25f8e6403d336b77dd0506a5e00a8938e7643c273332f7c1b37ad5210590
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-b27c62a3
 glossary_version: 34
@@ -43,7 +43,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Tổng Hilbert ngoài của các không gian Hilbert
 
-#### Mệnh đề 1 {#evt-v-s2-prop-1 .statement}
+#### Mệnh đề 1 {#evt-v-s2-prop-1 .statement tag=07Z7}
 
 *Cho $(E_i)_{i \in I}$ là một họ các không gian Hilbert, P là không gian vectơ tích $\prod_{i \in I} E_i$ và E là tập con của P gồm tất cả các họ $x = (x_i)_{i \in I}$ sao cho $\sum_{i \in I} \|x_i\|^2$ là hữu hạn.
 
@@ -67,7 +67,7 @@ suy ra $\sum_{i \in I} |\langle x_i|y_i \rangle| < +\infty$. Nếu $x \neq 0$, t
 
 Ta nhắc lại rằng S là không gian con của P gồm tất cả các họ $x = (x_i)_{i \in I}$ sao cho tập hợp tất cả các $i \in I$ mà $x_i \neq 0$ là hữu hạn. Suy ra ngay lập tức rằng S trù mật trong E; do đó còn phải chứng minh rằng E là *đầy đủ* đối với tôpô $\mathscr{T}_1$ nhận được bởi chuẩn $\|x\| = \langle x|x \rangle^{1/2}$. Gọi $\mathscr{T}_2$ là tôpô cảm sinh trên E bởi tôpô tích trên $\prod_{i \in I} E_i$. Với mọi $r > 0$, gọi $B_r$ là tập hợp tất cả các $x \in E$ sao cho $\|x\| \leq r$. Quan hệ này kéo theo rằng ta có $\sum_{i \in J} \|x_i\|^2 \leq r^2$ với mọi tập con hữu hạn J của I, và do đó $B_r$ là một tập con đóng của $\prod_{i \in I} E_i$, vì vậy cũng đầy đủ. Sự kiện E đầy đủ đối với $\mathscr{T}_1$ giờ đây suy ra từ GT, III, § 3, No. 5, hệ quả 2 cho mệnh đề 10.
 
-#### Định nghĩa 1 {#evt-v-s2-def-1 .statement}
+#### Định nghĩa 1 {#evt-v-s2-def-1 .statement tag=07Z8}
 
 *Cho* $(E_i)_{i \in I}$ *là một họ các không gian Hilbert. Không gian Hilbert E được định nghĩa trong mệnh đề 1 được gọi là tổng Hilbert ngoài của họ* $(E_i)_{i \in I}$ *và được viết là* $\bigoplus_{i \in I} E_i$ *hoặc* $\bigoplus_{i \in I} E_i$^1.
 
@@ -75,13 +75,13 @@ Gọi $f_i$ là ánh xạ từ $E_i$ vào E biến $z \in E_i$ thành một ph�
 
 Khi I là hữu hạn, E là tổng trực tiếp của các $E_i$; vì phép chiếu chính tắc từ E lên $E_i$ là liên tục với mọi $i \in I$, E cũng là tổng trực tiếp tôpô của các $E_i$ (GT, III, § 6, No. 2, mệnh đề 2). Nếu $I = \{1, n\}$, ta cũng viết $E_1 \oplus E_2 \oplus ... \oplus E_n$ thay cho $\bigoplus_{i=1}^n E_i$.
 
-#### Ví dụ {#evt-v-s2-n1-exa-1 .statement}
+#### Ví dụ {#evt-v-s2-n1-exa-1 .statement tag=07Z9}
 
 — Cho E là một không gian Hilbert và I là một tập chỉ số. Ký hiệu $\ell^2_E(I)$ là tổng Hilbert ngoài của họ $(E_i)_{i \in I}$, trong đó $E_i = E$ với mọi $i \in I$. Nói cách khác, $\ell^2_E(I)$ là không gian của mọi họ $x = (x_i)_{i \in I}$ gồm các phần tử của E sao cho $\sum_{i \in I} \|x_i\|^2 < +\infty$, được trang bị tích vô hướng $\langle x|y \rangle = \sum_{i \in I} \langle x_i|y_i \rangle$ (không gian các họ các phần tử của E khả tổng bình phương, được chỉ số hóa bởi I). Ta đặt $\ell^2(I) = \ell^2_K(I)$.
 
 ### 2. Tổng Hilbert của các không gian con trực giao của một không gian Hilbert
 
-#### Định nghĩa 2 {#evt-v-s2-def-2 .statement}
+#### Định nghĩa 2 {#evt-v-s2-def-2 .statement tag=07ZA}
 
 *Một không gian Hilbert E được gọi là tổng Hilbert của một họ* $(E_i)_{i \in I}$ *các không gian con vectơ đóng của E khi* :
 
@@ -90,7 +90,7 @@ Khi I là hữu hạn, E là tổng trực tiếp của các $E_i$; vì phép ch
 
 1 Cần chú ý không nhầm lẫn ký hiệu này với ký hiệu của tổng trực tiếp « đại số » của các không gian $E_i$ (A, II, § 1, No. 6).
 
-#### Định lý 1 {#evt-v-s2-thm-1 .statement}
+#### Định lý 1 {#evt-v-s2-thm-1 .statement tag=07ZB}
 
 — Cho E là một không gian Hilbert là tổng Hilbert của một họ $(E_i)_{i \in I}$ các không gian con vectơ đóng của E. Tồn tại một đẳng cấu $f$ và chỉ một, từ E lên tổng Hilbert ngoài $\bigoplus_{i \in I} E_i = F$ của họ $(E_i)$ sao cho, với mọi $i \in I$, hạn chế của $f$ lên E là ánh xạ chính tắc $f_i$ từ $E_i$ vào F.
 
@@ -110,7 +110,7 @@ $$
 
 Khi E là tổng Hilbert của một họ $(E_i)_{i \in I}$ các không gian con, ta thường đồng nhất E với tổng Hilbert ngoài F của các $E_i$ nhờ đẳng cấu $f$. Nếu tập I hữu hạn, nói rằng E là tổng Hilbert của họ $(E_i)_{i \in I}$ có nghĩa là các $E_i$ từng đôi một trực giao và không gian vectơ E là tổng trực tiếp của họ $(E_i)_{i \in I}$ các không gian con.
 
-#### Hệ quả 1 {#evt-v-s2-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#evt-v-s2-thm-1-cor-1 .statement tag=07ZC}
 
 — Cho E là một không gian Hilbert, là tổng Hilbert của một họ $(E_i)_{i \in I}$ các không gian con vectơ đóng của E; với mọi $i \in I$, ký hiệu $p_{E_i}$ là phép chiếu trực giao (V, p. 13) từ E lên $E_i$.
 
@@ -130,7 +130,7 @@ $$
 
 Các tính chất này thực ra là hiển nhiên đối với tổng hilbert ngoài của các $E_i$, và có thể được chuyển sang E bởi đẳng cấu.
 
-#### Hệ quả 2 {#evt-v-s2-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#evt-v-s2-thm-1-cor-2 .statement tag=07ZD}
 
 — Cho E là một không gian tiềnhilbert Hausdorff, $(E_i)_{i \in I}$ là một họ các không gian con vectơ đầy đủ của E sao cho, với mọi cặp chỉ số phân biệt $i, k$ trong I, các không gian con $E_i$ và $E_k$ là trực giao. Gọi V là không gian con vectơ đóng của E sinh bởi hợp của các $E_i$. Với mọi $i \in I$, gọi $p_{E_i}$ là phép chiếu trực giao từ E lên $E_i$. Gọi $x \in E$.
 
@@ -146,11 +146,11 @@ trong đó $p_V$ ký hiệu phép chiếu trực giao từ E lên V.
 
 Cho $\hat{E}$ là sự hoàn thành không gian hilbert của E; ta đồng nhất E với một không gian con trù mật của $\hat{E}$; các $E_i$, vì đầy đủ, là các không gian con đóng của $\hat{E}$. Bao đóng $\overline{V}$ của V trong $\hat{E}$ là không gian con vectơ đóng của $\hat{E}$ sinh bởi hợp của các $E_i$, và $V = \overline{V} \cap E$. Không gian $\hat{E}$ là tổng hilbert của các $E_i$ và của không gian con W, phần bù trực giao của $\overline{V}$ trong $\hat{E}$; đặt $x_0 = p_W(x)$ và $x_i = p_{E_i}(x)$ với mọi $i \in I$. Theo hệ quả 1, ta có $\|x\|^2 = \|x_0\|^2 + \sum_{i \in I} \|x_i\|^2$, và $x = x_0 + \sum_{i \in I} x_i$ trong $\hat{E}$. Điều này kéo theo mệnh đề 1), và sự kiện rằng các điều kiện b) và c) của 2) tương đương với điều kiện $x_0 = 0$, do đó tương đương với điều kiện $x \in V$. Cuối cùng, nếu V là đầy đủ, và nếu đặt $x' = p_V(x)$, ta có $x' - x_i = (x - x_i) - (x - p_V(x))$, do đó $x' - x_i$ trực giao với $E_i$, và vì vậy $x_i = p_{E_i}(x')$ với mọi $i \in I$; bây giờ chỉ cần áp dụng tính chất 2) cho vectơ $x'$.
 
-#### Nhận xét {#evt-v-s2-n2-rem-1 .statement}
+#### Nhận xét {#evt-v-s2-n2-rem-1 .statement tag=07ZE}
 
 Cho E là một không gian tiền Hilbert Hausdorff, $(V_i)_{i \in I}$ là một họ các không gian con vectơ của E sao cho với mọi cặp chỉ số phân biệt $i, k$, các không gian con $V_i$ và $V_k$ trực giao với nhau. Khi đó, với mọi $k \in I$, giao của $V_k$ và không gian con vectơ đóng $W_k$ sinh bởi hợp của các $V_i$ với mọi $i \neq k$ bằng $0$ vì nếu $x$ thuộc $V_k$ và đồng thời thuộc $W_k$, thì $x$ trực giao với mọi $V_i$ với $i \neq k$, suy ra trực giao với $W_k$. Đặc biệt, $x$ trực giao với chính nó, nên bằng không.
 
-#### Mệnh đề 2 {#evt-v-s2-prop-2 .statement}
+#### Mệnh đề 2 {#evt-v-s2-prop-2 .statement tag=07ZF}
 
 — Cho E là một không gian Hilbert và $(V_\lambda)_{\lambda \in L}$ là một họ các không gian con vectơ đóng của E; với mọi $\lambda \in L$, cho $(W_{\lambda \mu})_{\mu \in M_\lambda}$ là một họ các không gian con vectơ đóng của $V_\lambda$ sao cho $V_\lambda$ là không gian con vectơ đóng sinh bởi hợp của họ này. Để E là tổng Hilbert của họ $(W_{\lambda \mu})_{\lambda \in L, \mu \in M_\lambda}$, cần và đủ rằng E là tổng Hilbert của họ $(V_\lambda)_{\lambda \in L}$ và rằng, với mỗi $\lambda \in L$, $V_\lambda$ là tổng Hilbert của họ $(W_{\lambda \mu})_{\mu \in M_\lambda}$ ("tính kết hợp của tổng Hilbert").
 
@@ -160,7 +160,7 @@ Cho E là một không gian tiền Hilbert Hausdorff, $(V_i)_{i \in I}$ là mộ
 
 ### 3. Các họ trực chuẩn
 
-#### Định nghĩa 3 {#evt-v-s2-def-3 .statement}
+#### Định nghĩa 3 {#evt-v-s2-def-3 .statement tag=07ZG}
 
 Trong một không gian tiền Hilbert, một họ $(e_i)_{i\in I}$ các vectơ được gọi là trực giao nếu $e_i$ và $e_k$ trực giao với nhau với mọi $i \neq k$, và được gọi là trực chuẩn nếu thêm nữa $\|e_i\| = 1$ với mọi $i \in I$.
 
@@ -168,13 +168,13 @@ Một tập con S của E sao cho họ do ánh xạ đồng nhất từ S lên c
 
 Nếu $(e_i)_{i\in I}$ là một họ trực chuẩn, thì các không gian con vectơ một chiều đầy đủ $D_i = Ke_i$ đôi một trực giao. Với mọi $x \in E$, phép chiếu trực giao của $x$ lên $D_i$ là $\lambda_i e_i$ với $⟨e_i|x - \lambda_i e_i⟩ = 0$, suy ra $⟨e_i|x⟩ = \lambda_i ⟨e_i|e_i⟩ = \lambda_i$. Các kết quả của No. 2 áp dụng cho các không gian con $D_i$ suy ra các mệnh đề sau:
 
-#### Mệnh đề 3 {#evt-v-s2-prop-3 .statement}
+#### Mệnh đề 3 {#evt-v-s2-prop-3 .statement tag=07ZH}
 
 Trong một không gian tiền Hilbert Hausdorff E, mọi họ trực chuẩn đều độc lập về mặt tôpô.
 
 Ta lưu ý rằng tính chất này suy ra ngay lập tức từ đặc trưng hóa của các họ độc lập tôpô (IV, p. 1 and II, p. 43, cor. 2), do sự đồng nhất của đối ngẫu của E với sự hoàn tất của E hoặc với không gian liên hợp của E tùy theo K bằng R hay C (V, p. 17, Nhận xét).
 
-#### Mệnh đề 4 {#evt-v-s2-prop-4 .statement}
+#### Mệnh đề 4 {#evt-v-s2-prop-4 .statement tag=07ZI}
 
 Cho E là một không gian tiền Hilbert Hausdorff, $(e_i)_{i\in I}$ là một họ trực chuẩn trong E, V là không gian con vectơ đóng của E sinh bởi các $e_i$.
 
@@ -190,7 +190,7 @@ $$
 
 3) Giả sử V đầy đủ. Với mọi họ $(\lambda_i)_{i\in I}$ của các số vô hướng sao cho $\sum_{i\in I} |\lambda_i|^2 < +\infty$, tồn tại duy nhất một điểm $x \in V$ sao cho $⟨e_i|x⟩ = \lambda_i$ với mọi $i \in I$. Nếu $(\mu_i)_{i\in I}$ là một họ thứ hai các số vô hướng sao cho $\sum_{i\in I} |\mu_i|^2 < +\infty$, và nếu $y \in V$ sao cho $⟨e_i|y⟩ = \mu_i$ với mọi $i \in I$, thì $⟨x|y⟩ = \sum_{i\in I} \overline{\lambda_i} \mu_i$.
 
-#### Mệnh đề 5 {#evt-v-s2-prop-5 .statement}
+#### Mệnh đề 5 {#evt-v-s2-prop-5 .statement tag=07ZJ}
 
 — Cho $(e_i)_{i \in I}$ là một họ trực chuẩn trong một không gian tiền Hilbert Hausdorff E. Các tính chất sau là tương đương :
 a) họ $(e_i)$ là toàn thể ;
@@ -208,7 +208,7 @@ d) các quan hệ $\langle e_i | x \rangle = 0$ với mọi $i \in I$ suy ra r�
 
 Sự tương đương của các điều kiện a), b), c) suy ra ngay lập tức từ mệnh đề 4. Khi E là một không gian hilbert, sự tương đương của các điều kiện a) và d) suy ra từ hệ quả 1 của V, p. 16.
 
-#### Định nghĩa 4 {#evt-v-s2-def-4 .statement}
+#### Định nghĩa 4 {#evt-v-s2-def-4 .statement tag=07ZK}
 
 — Một họ trực chuẩn và đầy đủ trong một không gian tiền Hilbert Hausdorff E được gọi là một cơ sở trực chuẩn của E.
 
@@ -230,7 +230,7 @@ $$
 
 với $i \in I,\ j \in J$. Họ $(u_{ji})_{(i,j) \in I \times J}$ được gọi là ma trận của $u$ đối với các cơ sở trực chuẩn $(e_i)$ và $(f_j)$. Cho $x \in E$ và $y = u(x)$; nếu ta viết $\xi_i = \langle e_i | x \rangle$ và $\eta_j = \langle f_j | y \rangle$ cho các tọa độ tương ứng của $x$ và $y$, ta được $\eta_j = \sum_{i \in I} u_{ji} \xi_i$ với mọi $j \in J$. Khi $(e_i)$ là một cơ sở đại số của E và $(f_j)$ là một cơ sở đại số của F, định nghĩa của chúng tôi phù hợp với định nghĩa ở A, II, § 10, No. 4.
 
-#### Ví dụ {#evt-v-s2-n3-exa-1 .statement}
+#### Ví dụ {#evt-v-s2-n3-exa-1 .statement tag=07ZL}
 
 Cho E là không gian của mọi hàm liên tục nhận giá trị phức trên $\mathbf{R}$, sao cho $f(x + n) = f(x)$ với $x \in \mathbf{R}$ và $n \in \mathbf{Z}$. Ta gán cho E tích vô hướng được xác định bởi
 
@@ -242,19 +242,19 @@ Khi đó E là một không gian tiền Hilbert Hausdorff, nhưng không đầy 
 
 ### 4. Trực chuẩn hóa
 
-#### Định lý 2 {#evt-v-s2-thm-2 .statement}
+#### Định lý 2 {#evt-v-s2-thm-2 .statement tag=07ZM}
 
 *Mọi tập trực chuẩn L trong một không gian hilbert E đều được chứa trong một cơ sở trực chuẩn B của E.*
 
 Thật vậy, cho $\mathfrak{D}$ là họ tất cả các tập hợp trực chuẩn của E, được sắp thứ tự tuyến tính bởi phép bao hàm; hiển nhiên họ này có đặc trưng hữu hạn (S, III, § 4, No. 5). Do đó tồn tại một họ *cực đại* B trong $\mathfrak{D}$ chứa L, theo đl. 1 của S, III, § 4, No. 5. Còn phải chứng minh rằng B là một tập hợp toàn phần. Nếu không, sẽ tồn tại một vectơ $y \neq 0$ trực giao với mọi vectơ của B (V, p. 22, mệnh đề 5), và nhân y với một vô hướng thích hợp, ta có thể giả sử rằng $\|y\| = 1$; khi đó, $B \cup \{y\}$ sẽ là một tập hợp trực chuẩn khác B và chứa B; điều này mâu thuẫn với định nghĩa của B; vậy là định lý.
 
-#### Hệ quả 1 {#evt-v-s2-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#evt-v-s2-thm-2-cor-1 .statement tag=07ZN}
 
 *Trong mọi không gian Hilbert, tồn tại một cơ sở trực chuẩn.*
 
 Chỉ cần áp dụng định lý 2 cho trường hợp $L = \varnothing$.
 
-#### Hệ quả 2 {#evt-v-s2-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#evt-v-s2-thm-2-cor-2 .statement tag=07ZO}
 
 *Mọi không gian Hilbert đều đẳng cấu với một không gian $\ell^2(I)$.*
 
@@ -267,7 +267,7 @@ $$
 \psi((\lambda_i)_{i \in I}) = \sum_{i \in I} \lambda_i e_i .
 $$
 
-#### Mệnh đề 6 {#evt-v-s2-prop-6 .statement}
+#### Mệnh đề 6 {#evt-v-s2-prop-6 .statement tag=07ZP}
 
 *Cho E là một không gian tiền Hilbert Hausdorff, và cho $(a_n)_{n \in I}$ (I là một khoảng của $\mathbf{N}$ có gốc 1) là một họ đếm được (hữu hạn hoặc không) độc lập các vectơ của E. Tồn tại một họ trực chuẩn $(e_n)_{n \in I}$, và chỉ một, trong E, có các tính chất sau:
 
@@ -278,14 +278,14 @@ Thật vậy, cho $V_n$ là không gian con (có chiều n) do $a_1, a_2, ..., a
 
 Dãy $(e_n)_{n \in I}$ được gọi là thu được bằng phép *trực chuẩn hóa* từ họ độc lập $(a_n)_{n \in I}$. Rõ ràng không gian con vectơ do họ $(e_n)$ sinh ra trùng với không gian con vectơ do họ $(a_n)$ sinh ra. Đặc biệt, nếu $(a_n)$ là một dãy toàn phần, thì $(e_n)$ cũng vậy, và khi đó nó là một cơ sở trực chuẩn của E; do đó ta có:
 
-#### Hệ quả {#evt-v-s2-n4-cor-1 .statement}
+#### Hệ quả {#evt-v-s2-n4-cor-1 .statement tag=07ZQ}
 
 *Trong mọi không gian tiền Hilbert Hausdorff E thỏa mãn tiên đề đếm được thứ nhất, tồn tại một cơ sở trực chuẩn đếm được.*
 
 Nếu E thỏa mãn tiên đề đếm được thứ nhất, thì tồn tại một dãy toàn phần trong E, và ta luôn luôn có thể trích ra một họ độc lập toàn phần từ một dãy như vậy (A, II, § 7, No. 1, đl. 2).
 
 Ta có thể nêu các ví dụ về những không gian tiền Hilbert Hausdorff không có cơ sở trực chuẩn nào (V, p. 70, bài tập 2).
-#### Ví dụ {#evt-v-s2-n4-exa-1 .statement}
+#### Ví dụ {#evt-v-s2-n4-exa-1 .statement tag=07ZR}
 
 Cho I là khoảng $(-1, 1)$ của $\mathbf{R}$ và E là không gian vectơ các hàm liên tục nhận giá trị thực trên I. Cho $x$ ký hiệu đơn ánh chính tắc từ I vào $\mathbf{R}$, xét như một phần tử của E. Theo định lý Stone-Weierstrass, dãy $(x^n)_{n \in \mathbf{N}}$ là toàn phần trong E đối với tôpô hội tụ đều GT, X, § 4, No. 2).
 Xét E như một không gian tiền Hilbert Hausdorff thực trong đó tích vô hướng được cho bởi
@@ -297,7 +297,7 @@ $$
 P_n(x) = \frac{1}{2^n n!} \left( \frac{d}{dx} \right)^n (x^2 - 1)^n .
 $$
 
-#### Mệnh đề 7 {#evt-v-s2-prop-7 .statement}
+#### Mệnh đề 7 {#evt-v-s2-prop-7 .statement tag=07ZS}
 
 *Trong một không gian Hilbert E, hai cơ sở trực chuẩn là tương đương lực lượng.*
 
@@ -305,11 +305,11 @@ Let B và C là hai cơ sở trực chuẩn của E. Trường hợp một trong
 
 Lực lượng của một cơ sở trực chuẩn tùy ý của một không gian Hilbert E được gọi là *chiều Hilbert* của E.
 
-#### Hệ quả 1 {#evt-v-s2-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#evt-v-s2-prop-7-cor-1 .statement tag=07ZT}
 
 *Cho hai cơ sở trực chuẩn trong một không gian Hilbert E, tồn tại một tự đẳng cấu của E biến cơ sở thứ nhất thành cơ sở thứ hai.*
 
-#### Hệ quả 2 {#evt-v-s2-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#evt-v-s2-prop-7-cor-2 .statement tag=07ZU}
 
 — Để cho các không gian Hilbert $\ell^2(I)$ và $\ell^2(J)$ đẳng cấu với nhau, điều kiện cần và đủ là I và J là hai tập có cùng lực lượng.
 

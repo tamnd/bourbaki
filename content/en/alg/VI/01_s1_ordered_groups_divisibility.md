@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 53
 exercises: 36
-content_sha256: 1968b64238e7b35aa048d4d0dab1d93aa2192c142ee3f3aa2d043dcf85cab677
+content_sha256: 1339023eced66ef1b9e52222dbf004f549e42eec4f38ebac19c97f31df6e572b
 ---
 
 ## § 1. ORDERED GROUPS. DIVISIBILITY
@@ -74,7 +74,7 @@ The notions and results presented in this section concern the study of order rel
 
 ### 1. Definition of ordered monoids and groups
 
-#### Definition 1 {#alg-vi-s1-def-1 .statement}
+#### Definition 1 {#alg-vi-s1-def-1 .statement tag=06WE}
 
 — A commutative monoid structure (written additively) and an ordering (written $\leq$) on a set $M$ are said to be compatible if they satisfy the following axiom:
 
@@ -86,11 +86,11 @@ In an analogous fashion, we can define the notion of a noncommutative ordered mo
 
 If an ordering is compatible with a given monoid structure, then so is the opposite ordering.
 
-#### Example 1 {#alg-vi-s1-n1-exa-1 .statement}
+#### Example 1 {#alg-vi-s1-n1-exa-1 .statement tag=06WF}
 
 The additive group of the rational integers, and that of the rational numbers, are ordered groups under the ordering defined in I, pp. 21 and 117. *The same is true for the additive group of the real numbers (Gen. Top., IV, p 3). \*
 
-#### Example 2 {#alg-vi-s1-n1-exa-2 .statement}
+#### Example 2 {#alg-vi-s1-n1-exa-2 .statement tag=06WG}
 
 *The additive group of finite numerical functions defined on a set $E$ is an ordered group under the ordering « $f(x) \leq g(x)$ for all $x \in E$ », written $f \leq g$. This relation says that the graph of the function $f$ lies below that of the function $g$. The reader may find it convenient to think in terms of this graphical interpretation occasionally. \*
 
@@ -102,7 +102,7 @@ $$
 
 (that is to say a homomorphism of the monoid M onto the monoid M'), and that the relations $x \leq y$ and $f(x) \leq f(y)$ are equivalent (whence in particular $f(x) = f(y)$ implies $x = y$, that is $f$ is injective).
 
-#### Proposition 1 (« addition of inequalities ») {#alg-vi-s1-prop-1 .statement}
+#### Proposition 1 (« addition of inequalities ») {#alg-vi-s1-prop-1 .statement tag=06WH}
 
 — *In an ordered monoid M*, let $(x_i)$ and $(y_i)$ ($1 \leq i \leq n$) be two sequences of n elements such that $x_i \leq y_i$ for all $i$; then one has
 
@@ -136,7 +136,7 @@ $$
 
 whence $x_2 = y_2$ and $x_1 = y_1$ if $x$, and $y_2$ are cancellable, which proves the second assertion.
 
-#### Proposition 2 {#alg-vi-s1-prop-2 .statement}
+#### Proposition 2 {#alg-vi-s1-prop-2 .statement tag=06WI}
 
 *In an ordered group G* the relations $x \leq y$ *and* $x + z \leq y + z$ *are equivalent*.
 
@@ -144,7 +144,7 @@ Indeed one can obtain each from the other by adding $z$ or $(-z)$ to both sides.
 
 This fact can be expressed by saying that, in an ordered group G, the ordering is *translation-invariant*. In other words a translation is an *automorphism* of the *ordering* of an ordered group.
 
-#### Corollary {#alg-vi-s1-n1-cor-1 .statement}
+#### Corollary {#alg-vi-s1-n1-cor-1 .statement tag=06WJ}
 
 — In an ordered group $G$, the relations $x \leq y$, $0 \leq y - x$, $x - y \leq 0$ and $-y \leq -x$ are equivalent.
 
@@ -156,7 +156,7 @@ In particular we deduce from this corollary that if $G$ is an ordered group, the
 
 Recall that if a relation $x \leq y$ between elements of a set $E$ is reflexive and transitive, it is called a pre-order relation (Set Theory, III, p. 133). The relation « $x \leq y$ and $y \leq x$ » is an equivalence relation $S$ on $E$, compatible with the relation $x \leq y$; on passing to the quotient, the relation $\leq$ induces an order relation on $E/S$, called the order relation associated to $\leq$.
 
-#### Definition 2 {#alg-vi-s1-def-2 .statement}
+#### Definition 2 {#alg-vi-s1-def-2 .statement tag=06WK}
 
 — A pre-order relation (written $\leq$) and a commutative monoid structure (written additively) on a set $M$ are said to be compatible if they satisfy the following axiom:
 
@@ -170,23 +170,23 @@ Let $M$ be a pre-ordered monoid, and $S$ the equivalence relation « $x \leq y$ 
 
 Let $G$ be a pre-ordered group with pre-order relation $\leq$; if $0 \leq x$ and $0 \leq y$ then we deduce that $y \leq x + y$ by (POM), and so $0 \leq x + y$ by transitivity; this says that the set $G_+$ of elements $x \in G$ such that $0 \leq x$ is closed under addition; moreover, the relation $x \leq y$ is equivalent to $0 \leq y - x$, that is to $y - x \in G_+$. Conversely:
 
-#### Proposition 3 {#alg-vi-s1-prop-3 .statement}
+#### Proposition 3 {#alg-vi-s1-prop-3 .statement tag=06WL}
 
 — If $P$ is a subset of an abelian group $G$, containing $0$ and such that $P + P \subset P$, then the relation $y - x \in P$ is a pre-order relation compatible with the group structure of $G$. For this relation to make $G$ an ordered group it is necessary and sufficient to have $P \cap (-P) = \{0\}$; for $G$ to be a totally ordered group under this ordering it is necessary and sufficient to have in addition $P \cup (-P) = G$.
 
 It is immediate that the relation $y - x \in P$ is reflexive and transitive, and (if it is written $x \leq y$) satisfies the axiom *POM*. To prove the second assertion it is enough to remark that $P \cap (-P)$ is the subgroup $G'$ consisting of elements $x$ such that $0 \leq x$ and $x \leq 0$. Finally, to say that $G$ is totally ordered means that, for each pair of elements $x, y$ of $G$, at least one of the elements $x - y, y - x$ belongs to $P$, which completes the proof.
 
-#### Definition 3 {#alg-vi-s1-def-3 .statement}
+#### Definition 3 {#alg-vi-s1-def-3 .statement tag=06WM}
 
 *In an ordered group $G$, any element $x$ such that $0 \leq x$ (resp. $x \leq 0$) is called a positive (resp. negative) element.*
 
 Note that $0$ is the only element which is *both positive and negative* ; any element $x$ such that $0 < x$ (resp. $x < 0$) is called *strictly positive* (resp. *strictly negative*).
 
-#### Example {#alg-vi-s1-n3-exa-1 .statement}
+#### Example {#alg-vi-s1-n3-exa-1 .statement tag=06WN}
 
 — In the additive group $\mathbf{Z} \times \mathbf{Z}$, let $P$ be the set of elements $(x, y)$ satisfying two inequalities $ax + by \geq 0$ and $cx + dy \geq 0$, where $a, b, c, d$ are integers (* or real numbers *) such that $ad - bc \neq 0$; the « cone » $P$ satisfies the first two conditions of Prop. 3. In this way various orderings compatible with the group structure of $\mathbf{Z} \times \mathbf{Z}$ can be defined ; the group is not totally ordered under any of these orderings.
 
-#### Remark {#alg-vi-s1-n3-rem-1 .statement}
+#### Remark {#alg-vi-s1-n3-rem-1 .statement tag=06WO}
 
 — By virtue of the condition $P + P \subset P$, the relation $x \geq 0$ in an ordered group implies that $nx \geq 0$ for every natural number $n$. If in addition the positive element $x$ of $G$ has finite order $n$, then $-x = (n-1)x$ is positive ; since
 
@@ -200,7 +200,7 @@ this implies that $x = 0$. In particular, if every element of $G$ has finite ord
 
 Recall (*Set Theory*, III, p. 145) that an ordered set $G$ is *right* (resp. *left*) *filtered*\footnote{1} if for each pair $(x, y)$ of elements of $G$ there exists $z \in G$ such that $x \leq z$ and $y \leq z$ (resp. $z \leq x$ and $z \leq y$). Every right filtered ordered group $G$ is also left filtered and conversely : indeed, since there exists $z \in G$ such that $-x \leq z$ and $-y \leq z$, we have $-z \leq x$ and $-z \leq y$ (VI, p. 3, Cor.). We will therefore speak simply of filtered groups.
 
-#### Proposition 4 {#alg-vi-s1-prop-4 .statement}
+#### Proposition 4 {#alg-vi-s1-prop-4 .statement tag=06WP}
 
 *For an ordered group $G$ to be filtered it is necessary and sufficient that it be generated by its positive elements, that is that every element be the difference of two positive elements.*
 
@@ -208,7 +208,7 @@ Indeed if $G$ is filtered, then for each $x \in G$ there exists a positive eleme
 
 1 The terminology used in *loc. cit.* is *directed*.
 
-#### Proposition 5 {#alg-vi-s1-prop-5 .statement}
+#### Proposition 5 {#alg-vi-s1-prop-5 .statement tag=06WQ}
 
 — *If* $(x_i)$ *is a finite family of elements of a filtered group G, then there exists* $z \in G$ *such that* $x_i + z$ *is positive for each i.*
 
@@ -220,11 +220,11 @@ Here we will define certain ordered groups which play an important part in algeb
 
 In the multiplicative group $\mathbf{K}^*$ of nonzero elements of $\mathbf{K}$, the set P of nonzero elements of A is closed under multiplication, since A is a ring. Hence it defines a pre-order relation on $\mathbf{K}^*$ by $x^{-1}y \in P$, that is « there exists $z \in P$ such that $y = zx$ », which makes $\mathbf{K}^*$ *apre-ordered group* (written multiplicatively) (*VI*, p. 3, Prop. 3). Extending the terminology relating to elements of A (I, p. 97) to $\mathbf{K}^*$, the relation $x^{-1}y \in P$ can also be expressed as : *x divides y*, or x is a *divisor of y*, or y is a *multiple of x* (relative to the ring A); and we will call the relation $x^{-1}y \in P$ the *divisibility relation* in $\mathbf{K}^*$ relative to the ring A. The relation « x 'divides y » is denoted $x \mid y$, and its negation $x \nmid y$. The elements of P are none other than the *multiples of 1*.
 
-#### Remark 1 {#alg-vi-s1-n5-rem-1 .statement}
+#### Remark 1 {#alg-vi-s1-n5-rem-1 .statement tag=06WR}
 
 The divisibility relation in $\mathbf{K}^*$ depends in an essential way on the particular ring A. If $A = K$ we obtain the « trivial » relation, under which $x \mid y$ for every pair $(x, y)$ of elements of $\mathbf{K}^*$. Let p and q be prime numbers; the rational numbers r/s whose denominators are not multiples of $p$ (resp. q) form a subring $\mathbf{Z}_{(p)}$ (resp. $\mathbf{Z}_{(q)}$) of $\mathbf{Q}$; the divisibility relations in $\mathbf{Q}^*$ relative to these two rings are distinct if $p \neq q$, the number $p/q$ being a multiple of 1 under one relation but not under the other.
 
-#### Remark 2 {#alg-vi-s1-n5-rem-2 .statement}
+#### Remark 2 {#alg-vi-s1-n5-rem-2 .statement tag=06WS}
 
 We will sometimes extend the definition of the relation $x \mid y$ to pairs of elements of $\mathbf{K}$ (rather than only $\mathbf{K}^*$), this relation being taken to mean « there exists $z \in A$ such that $y = zx$ »; hence we will have $x \mid 0$ for all $x \in K$. This allows us to state the following results without restrictions : if $x \mid y$ and $x \mid z$ then $x \mid (y - z)$; if $x \mid y$ and $x \nmid z$ then $x \nmid (y - z)$. In the same way we can extend all the corresponding terminology.
 
@@ -256,11 +256,11 @@ Let $(G_\alpha)$ be a family of ordered groups; according to the definition of t
 
 Let $(G_i)_{i \in I}$ be a family of ordered groups whose index set I is well ordered: recall (Set Theory, III, p. 157) that an order relation, called the lexicographic ordering, is defined on the product set G = $\prod G_i$, the relation « $(x_i) < (y_i)$ » between two elements of G being by definition the same as « if β is the smallest of the indices i such that x_i ≠ y_i, then x_β < y_β ». Recall that the product of a well ordered family of totally ordered sets is totally ordered under the lexicographic ordering. In the general case, the lexicographic ordering on G is compatible with its group structure, as is immediately verified; equipped with this ordering, the group G is thus an ordered group, called the lexicographic product of the well ordered family of ordered groups $(G_i)$.
 
-#### Remark 1 {#alg-vi-s1-n6-rem-1 .statement}
+#### Remark 1 {#alg-vi-s1-n6-rem-1 .statement tag=06WT}
 
 In the commonest cases, the well ordered index set I will be a finite interval (1, n) in N.
 
-#### Remark 2 {#alg-vi-s1-n6-rem-2 .statement}
+#### Remark 2 {#alg-vi-s1-n6-rem-2 .statement tag=06WU}
 
 The set of positive elements of the lexicographic product G consists of 0 and those nonzero elements whose nonzero component of least index is positive.
 
@@ -302,7 +302,7 @@ $$
 $$
 this relation being understood in the same sense as the previous one.
 
-#### Proposition 6 {#alg-vi-s1-prop-6 .statement}
+#### Proposition 6 {#alg-vi-s1-prop-6 .statement tag=06WV}
 
 — Let $(x_i)_{i \in A}, (y_\beta)_{\beta \in B}$ be two families of elements of an ordered group G, each having a supremum. Then the family $(x_\alpha + y_\beta)_{(\alpha, \beta) \in A \times B}$ has a supremum, and
 $$
@@ -318,7 +318,7 @@ Recall that an ordered set in which every non empty finite subset has a supremum
 
 Thus, in the product ordered group $Z \times Z$, the « antidiagonal » (set of pairs $(n, n')$ such that $n + n' = 0$) is ordered with the discrete ordering, and hence is not a lattice ordered group. *The additive group of polynomials in one real variable (VI, p. 1, example 2) is a filtered group (since both $p(x)$ and $q(x)$ are less than $(p(x))^2 + (q(x))^2 + 1$) which one can show is not lattice ordered. \*
 
-#### Proposition 7 {#alg-vi-s1-prop-7 .statement}
+#### Proposition 7 {#alg-vi-s1-prop-7 .statement tag=06WW}
 
 — *If x and y are two elements of an ordered group G, and if one of the elements $\inf(x, y)$, $\sup(x, y)$ exists, then so does the other, and $x + y = \inf(x, y) - \sup(x, y)$.
 
@@ -330,11 +330,11 @@ $$
 
 and it suffices to take $a = x + y$.
 
-#### Proposition 7 {#alg-vi-s1-div-prop-7 .statement}
+#### Proposition 7 {#alg-vi-s1-div-prop-7 .statement tag=06WX}
 
 — *If $a, b \in K^*$, and if d is a gcd of a and b, and m an lcm of a and b, then the product dm is an associate of ab.
 
-#### Proposition 8 {#alg-vi-s1-prop-8 .statement}
+#### Proposition 8 {#alg-vi-s1-prop-8 .statement tag=06WY}
 
 — *Let P be the set of positive elements of an ordered group G. For G to be lattice ordered, it is necessary and sufficient that $G = P - P$, and that in addition P, equipped with the induced ordering, satisfies one or other of the following conditions:
 
@@ -347,7 +347,7 @@ Conversely, note first that under hypothesis a) (resp. b)), every pair of elemen
 
 ### 10. The decomposition theorem
 
-#### Theorem 1 (decomposition theorem) {#alg-vi-s1-thm-1 .statement}
+#### Theorem 1 (decomposition theorem) {#alg-vi-s1-thm-1 .statement tag=06WZ}
 
 — *Let* $(x_i)_{1 \leq i \leq p}$ *and* $(y_j)_{1 \leq j \leq q}$ *be two finite sequences of positive elements of a lattice ordered group* $G$ *such that* $$
 \sum_{i=1}^p x_i = \sum_{j=1}^q y_j ;
@@ -370,7 +370,7 @@ we certainly obtain a double sequence satisfying the conditions of the theorem.
 
 3) By interchanging the $x_i$ and the $y_j$ we see in the same way that, if the theorem is true for $p = m$ and $q < n$ ($m \geq 2,\ n > 2$), then it is true for $p = m$ and $q = n$. The theorem is thus proved by double induction starting from the case $p = q = 2$, for it is trivially true whenever $p \leq 1$ or $q \leq 1$.
 
-#### Corollary {#alg-vi-s1-n10-cor-1 .statement}
+#### Corollary {#alg-vi-s1-n10-cor-1 .statement tag=06X0}
 
 — Let $y, x_1, x_2, \ldots, x_n$ be $n + 1$ positive elements of $G$ such that $y \leq \sum_{i=1}^n x_i$; then there exist $n$ positive elements $y_i$ ($1 \leq i \leq n$) such that $y_i \leq x_i$ and $y = \sum_{i=1}^n y_i$.
 
@@ -378,7 +378,7 @@ It is sufficient to apply theorem 1 to the sequence $(x_i)$ and the sequence con
 
 ### 11. Positive and negative parts
 
-#### Definition 4 {#alg-vi-s1-def-4 .statement}
+#### Definition 4 {#alg-vi-s1-def-4 .statement tag=06X1}
 
 — In a lattice ordered group $G$ the positive part (resp. negative part, absolute value) of an element $x \in G$ is the element $\sup(x, 0)$ (resp. $\sup(-x, 0)$, $\sup(x, -x)$), which is denoted $x^+$ (resp. $x^-$, $|x|$).
 
@@ -393,7 +393,7 @@ $$
 \end{cases}
 $$
 
-#### Proposition 9 {#alg-vi-s1-prop-9 .statement}
+#### Proposition 9 {#alg-vi-s1-prop-9 .statement tag=06X2}
 
 — a) For each element $x$ of a lattice ordered group $G$ we have $x = x^+ - x^-$ and $\inf(x^+, x^-) = 0$.
 
@@ -431,11 +431,11 @@ $$
 $$
 similarly we have $|y| - |x| \leq |y - x| = |x - y|$; whence the stated result.
 
-#### Remark {#alg-vi-s1-n11-rem-1 .statement}
+#### Remark {#alg-vi-s1-n11-rem-1 .statement tag=06X3}
 
 We deduce from d) that $|x| = 0$ implies $x = 0$ (for $x^+$ and $x^-$ are positive); thus $x \neq 0$ implies $|x| > 0$.
 
-#### Proposition 9 {#alg-vi-s1-div-prop-9 .statement}
+#### Proposition 9 {#alg-vi-s1-div-prop-9 .statement tag=06X4}
 
 — If the group $\mathscr{P}^*$ of principal fractional ideals of K is lattice ordered, then every element x of $K^*$ can be written in the form $x = uv^{-1}$, where u and v are elements of A such that $1 = \gcd(u, v)$; for any other expression $x = u'{v'}^{-1}$ of x as the quotient of two elements of A, we have $u' = uw$ and $v' = vw$, where w is a gcd of $u', v'$; in particular if $1 = \gcd(u', v')$ then u' and v' are associates of u and v respectively.
 
@@ -443,7 +443,7 @@ Such an expression $uv^{-1}$ for an element x of $K^*$ is often called a reduced
 
 ### 12. Coprime elements
 
-#### Definition 5 {#alg-vi-s1-def-5 .statement}
+#### Definition 5 {#alg-vi-s1-def-5 .statement tag=06X5}
 
 — In an ordered group two elements x and y are called coprime if $\inf(x, y) = 0$.
 
@@ -459,7 +459,7 @@ If x and y are coprime, we also say that x is coprime to y, or that y is coprime
 
 (DIV) When x and y are coprime, they are often said to be « prime to one another »; it is convenient to avoid this terminology, which can lead to confusion with the notion of prime numbers (I, p. 50, Def. 16).
 
-#### Proposition 10 {#alg-vi-s1-prop-10 .statement}
+#### Proposition 10 {#alg-vi-s1-prop-10 .statement tag=06X6}
 
 *Let x, y and z be three elements of an ordered group ; for x – z and y – z to be coprime, it is necessary and sufficient that z = inf (x, y).*
 
@@ -467,7 +467,7 @@ Indeed the relations $z = \inf(x, y)$ and $0 = \inf(x - z, y - z)$ are equivalen
 
 **Proposition 10 (DIV).** — *Let a, b and c be three elements of K with c $\neq 0$; for the quotients $ac^{-1}$ and $bc^{-1}$ to be coprime, it is necessary and sufficient that c be a gcd of a and b.*
 
-#### Proposition 11 {#alg-vi-s1-prop-11 .statement}
+#### Proposition 11 {#alg-vi-s1-prop-11 .statement tag=06X7}
 
 *If $(x_i), (y_j)$ are two finite families of positive elements of a lattice ordered group, then*
 
@@ -483,56 +483,56 @@ $$
 
 Indeed, put $t = \inf(x, y + z)$; by VI, p. 12, Cor., we can write $t = t_1 + t_2$ with $0 \leq t_1 \leq y$ and $0 \leq t_2 \leq z$; since $t_1$ and $t_2$ are positive, we also have $t_1 \leq x$ and $t_2 \leq x$, whence $t_1 \leq \inf(x, y)$ and $t_2 \leq \inf(x, z)$.
 
-#### Corollary 1 {#alg-vi-s1-prop-11-cor-1 .statement}
+#### Corollary 1 {#alg-vi-s1-prop-11-cor-1 .statement tag=06X8}
 
 *If x and y are two coprime elements, and z a positive element, of a lattice ordered group, then $\inf(x, z) = \inf(x, y + z)$.*
 
 Indeed $\inf(x, y + z) \leq \inf(x, z)$ by Prop. 11, and $\inf(x, z) \leq \inf(x, y + z)$ since $y \geq 0$, whence the corollary.
 
-#### Corollary 2 {#alg-vi-s1-prop-11-cor-2 .statement}
+#### Corollary 2 {#alg-vi-s1-prop-11-cor-2 .statement tag=06X9}
 
 — In a lattice ordered group, if x and y are coprime and if z $\geq 0$ and $x \leq y + z$, then $x \leq z$.
 
-#### Corollary 3 {#alg-vi-s1-prop-11-cor-3 .statement}
+#### Corollary 3 {#alg-vi-s1-prop-11-cor-3 .statement tag=06XA}
 
 — In a lattice ordered group, if x is coprime to y and to z, then it is also coprime to $y + z$.
 
-#### Corollary 4 {#alg-vi-s1-prop-11-cor-4 .statement}
+#### Corollary 4 {#alg-vi-s1-prop-11-cor-4 .statement tag=06XB}
 
 — If $(x_i)_{1 \leq i \leq n}$ and $(y_j)_{1 \leq j \leq m}$ are two finite families of elements of a lattice ordered group G, such that each $x_i$ is coprime to each $y_j$, then $x_1 + \ldots + x_n$ is coprime to $y_1 + \ldots + y_m$.
 This follows from Cor. 3 by induction on m and n.
 
-#### Corollary 5 {#alg-vi-s1-prop-11-cor-5 .statement}
+#### Corollary 5 {#alg-vi-s1-prop-11-cor-5 .statement tag=06XC}
 
 — For any integer $n \geq 0$ we have $(nx)^+ = nx^+$ and $(nx)^- = nx^-$; for all $n \in \mathbf{Z}$ we have $|nx| = |n| \cdot |x|$.
 Indeed $nx = nx^+ - nx^-$; since $x^+$ and x are coprime, so are $nx^+$ and $nx^-$ if $n \geq 0$ (Cor. 4); the first assertion follows by Prop. 9 b) of VI, p. 12. The second follows from the first by Prop. 9 d) in the case $n \geq 0$; the case $n < 0$ follows from this as a result of the relation $|-x| = |x|$.
 
-#### Proposition 11 {#alg-vi-s1-div-prop-11 .statement}
+#### Proposition 11 {#alg-vi-s1-div-prop-11 .statement tag=06XD}
 
 — Suppose the set $\mathscr{P}^*$ is a lattice, and let $(a_i)$, $(b_j)$ be two finite families of elements of A. Then every gcd of $\prod_i a_i$ and $\prod_j b_j$ divides the product $\prod_{i,j} \gcd(a_i, b_j)$.
 
-#### Corollary 1 {#alg-vi-s1-div-prop-11-cor-1 .statement}
+#### Corollary 1 {#alg-vi-s1-div-prop-11-cor-1 .statement tag=06XE}
 
 — If a, b, c are three elements of A such that a is coprime to b, then every gcd of a and c is also a gcd of a and bc.
 
-#### Corollary 2 (Euclid’s lemma) {#alg-vi-s1-div-prop-11-cor-2 .statement}
+#### Corollary 2 (Euclid’s lemma) {#alg-vi-s1-div-prop-11-cor-2 .statement tag=06XF}
 
 — Let a, b, c be three elements of A. If a is coprime to b and divides bc, then it divides c.
 
-#### Corollary 3 {#alg-vi-s1-div-prop-11-cor-3 .statement}
+#### Corollary 3 {#alg-vi-s1-div-prop-11-cor-3 .statement tag=06XG}
 
 — If x is coprime to y and to z, then it is coprime to yz.
 
-#### Corollary 4 {#alg-vi-s1-div-prop-11-cor-4 .statement}
+#### Corollary 4 {#alg-vi-s1-div-prop-11-cor-4 .statement tag=06XH}
 
 — If $(x_i)$ and $(y_j)$ are two finite families of elements of A such that each $x_i$ is coprime to each $y_j$, then the product of the $x_i$ is coprime to the product of the $y_j$.
 
-#### Corollary 5 {#alg-vi-s1-div-prop-11-cor-5 .statement}
+#### Corollary 5 {#alg-vi-s1-div-prop-11-cor-5 .statement tag=06XI}
 
 — If d is a gcd of x and y, then $d^n$ is a gcd of $x^n$ and $y^n$ for each positive integer n.
 Indeed $xd^1$ and $yd^1$ are coprime (Prop. 10 (DIV)), and hence so are $x^n d^{-n}$ and $y^n d^{-n}$ (Cor. 4).
 
-#### Proposition 12 {#alg-vi-s1-prop-12 .statement}
+#### Proposition 12 {#alg-vi-s1-prop-12 .statement tag=06XJ}
 
 — Let $x_i$ ($1 \leq i \leq n$) be n pairwise coprime elements in a lattice ordered group. Then
 $$
@@ -541,15 +541,15 @@ $$
 
 This follows from the formula $u + v = \sup(u, v) + \inf(u, v)$ (VI, p. 10, Prop. 7) by induction on $n$, using the fact that $x_i$ is coprime to $x_1 + \ldots + x_{i-1}$ for $2 \leq i \leq n$ (Cor. 4 to Prop. 11).
 
-#### Remark {#alg-vi-s1-n12-rem-1 .statement}
+#### Remark {#alg-vi-s1-n12-rem-1 .statement tag=06XK}
 
 Prop. 7 of VI, p. 10 also shows that a necessary and sufficient condition for $x$ and $y$ to be coprime is that $x + y = \sup(x, y)$.
 
-#### Proposition 12 {#alg-vi-s1-div-prop-12 .statement}
+#### Proposition 12 {#alg-vi-s1-div-prop-12 .statement tag=06XL}
 
 — *Let $a_i$ be a finite number $n$ of pairwise coprime elements of $\mathbf{A}$; then the product $a_1 \ldots a_n$, is an lcm of $a_1, \ldots, a_n$.*
 
-#### Proposition 13 {#alg-vi-s1-prop-13 .statement}
+#### Proposition 13 {#alg-vi-s1-prop-13 .statement tag=06XM}
 
 — *In a lattice ordered group $G$, let $(x_\alpha)$ be a family having an infimum (resp. supremum), and let $z$ be an arbitrary element of $G$; then the family $(\sup(z, x_\alpha))$ (resp. $(\inf(z, x_\alpha))$) has an infimum (resp. supremum) and*
 
@@ -568,13 +568,13 @@ Indeed $\sup(z, x_\alpha) = z + (x_\alpha - z)^+$ and by translating we can redu
 
 The other formula follows by changing to the opposite order relation.
 
-#### Corollary {#alg-vi-s1-n12-cor-1 .statement}
+#### Corollary {#alg-vi-s1-n12-cor-1 .statement tag=06XN}
 
 — *If an element $z$ of a lattice ordered group $G$ is coprime to each element $x_\alpha$ of a family having an infimum $y$, then $z$ is coprime to $y$.*
 
 This is an immediate consequence of the second formula (4).
 
-#### Remark {#alg-vi-s1-n12-rem-2 .statement}
+#### Remark {#alg-vi-s1-n12-rem-2 .statement tag=06XO}
 
 Applying the formulae of Prop. 13 to a family of two elements $(x, y)$, we obtain the following formulae, which express the fact that each of the laws of composition sup, inf in a lattice ordered group is *distributive* with respect to the other :
 
@@ -589,7 +589,7 @@ This distributivity property is peculiar to lattice ordered *groups*, and does n
 
 ### 13. Irreducible elements
 
-#### Definition 6 {#alg-vi-s1-def-6 .statement}
+#### Definition 6 {#alg-vi-s1-def-6 .statement tag=06XP}
 
 — *An element x of an ordered group G is said to be irreducible if it is a minimal element in the set of strictly positive elements of G.*
 
@@ -597,11 +597,13 @@ Let x be an irreducible element of the ordered group G; if y is a positive eleme
 
 (DIV) An element p of A is called *irreducible* if the ideal (p) is an irreducible element of the ordered group $\mathscr{P}^*$; this says that p is neither zero nor invertible, and that any element of $A$ which divides p is associate either to p or to 1. If $\mathscr{P}^*$ is lattice ordered, then every $a \in A$ is either coprime to p or a multiple of p.
 
-*Examples (DIV). —* 1) An integer $p > 0$ is irreducible in $\mathbf{Z}$ if and only if it is *prime* (I, p. 50).
+#### Examples (DIV) {#alg-vi-s1-n13-exa-1 .statement tag=0EEO}
+
+1) An integer $p > 0$ is irreducible in $\mathbf{Z}$ if and only if it is *prime* (I, p. 50).
 
 2) A polynomial in one indeterminate over a field K is irreducible if and only if it is irreducible in the usual sense (IV, p. 13).
 
-#### Proposition 14 {#alg-vi-s1-prop-14 .statement}
+#### Proposition 14 {#alg-vi-s1-prop-14 .statement tag=06XQ}
 
 — *For an element $x > 0$ of an ordered group G to be irreducible it is sufficient that it satisfy the following property :*
 
@@ -610,15 +612,15 @@ Let x be an irreducible element of the ordered group G; if y is a positive eleme
 
 If G is lattice ordered and x is irreducible, we have just seen that y is either greater than x or coprime to x; in the latter case Cor. 2 of VI, p. 15 shows that z is greater than x. Conversely, suppose the condition is satisfied: if $0 \leq y \leq x$ then it follows, by putting $x = y + z\ (z \geq 0)$, that either $x \leq y$ or $x \leq z$; in the first case we have $x = y$; in the second we have $x \leq x - y$, so $y \leq 0$ and so $y = 0$; this shows that x is indeed irreducible.
 
-#### Proposition 14 {#alg-vi-s1-div-prop-14 .statement}
+#### Proposition 14 {#alg-vi-s1-div-prop-14 .statement tag=06XR}
 
 — *For a nonzero element p of A to be irreducible it is sufficient that it not be a unit, and that it cannot divide a product of two elements of A without dividing one or other of them. This condition is necessary if $\mathscr{P}^*$ is lattice ordered.*
 
-#### Remark {#alg-vi-s1-n13-rem-1 .statement}
+#### Remark {#alg-vi-s1-n13-rem-1 .statement tag=06XS}
 
 Proposition 14 (DIV) can also be expressed as follows: if p is a non zero element of A such that the ideal (p) is *prime* (I, p. 117, Def. 3) then p is irreducible; conversely, if $\mathscr{P}^*$ is lattice ordered and p is irreducible then the ideal (p) is prime.
 
-#### Proposition 15 {#alg-vi-s1-prop-15 .statement}
+#### Proposition 15 {#alg-vi-s1-prop-15 .statement tag=06XT}
 
 — *In an ordered group G, let $(p_i)_{i \in I}$ be a family of pairwise distinct positive elements of G satisfying condition (P) (and hence irreducible). Then the map*
 
@@ -636,7 +638,7 @@ $$
 
 In particular, for $\lambda \in I''$, this implies that $p_\lambda \leq \sum_{\iota \in I'} n_\iota p_\iota$, and it follows by induction from property (P) that we must have $p_\lambda \leq p_\iota$ for some $\iota \in I'$; since $p_\iota$ is irreducible, this would imply $p_\lambda = p_\iota$, which is absurd. Hence $I'$ is empty, which proves the proposition.
 
-#### Theorem 2 {#alg-vi-s1-thm-2 .statement}
+#### Theorem 2 {#alg-vi-s1-thm-2 .statement tag=06XU}
 
 — Let $G$ be a filtered group. Then the following properties are equivalent :
 a) $G$ is isomorphic to an ordered group of the form $\mathbf{Z}^{(I)}$.

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 302
 statements: 5
 exercises: 1
-content_sha256: 992e31b9dca45758a4dd79e783bcd00dc6d4c610b019b6c64e8fcd3ca97188a8
+content_sha256: edccf752a91a67637b05addb946bce3b86a975f9cf28c3e8840d2fe14f0fd989
 translated_from: content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md
 source_content_sha256: 92a86873033ab5647903ff5650d9e5c47095c7b96eae3a0bda3888423a6612e5
 translation_model: gpt-5.4, copied
@@ -48,7 +48,7 @@ $$ (1)
 
 Dưới đây ta sẽ thu được một khai triển thành chuỗi của $\cot z$, đúng với mọi $z$ không phải là bội số nguyên của $\pi$.
 
-#### Mệnh đề 1 {#fvr-vi-s2-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-vi-s2-prop-1 .statement tag=08IC}
 
 *Với mọi số phức* $z$ *và mọi số nguyên* $n$ *ta có*
 
@@ -69,7 +69,7 @@ $$
 A = (2i)^{n-1} e^{-\frac{i\pi}{n}(1+2+\ldots+(n-1))} = (2i)^{n-1} e^{-i(n-1)\frac{\pi}{2}} = 2^{n-1}.
 $$
 
-#### Hệ quả 1 {#fvr-vi-s2-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#fvr-vi-s2-prop-1-cor-1 .statement tag=08ID}
 
 *Với mọi số nguyên n, ta có*
 $$
@@ -79,7 +79,7 @@ $$
 
 Chỉ cần chia cả hai vế của (2) cho $\sin z$ rồi cho $z$ tiến tới 0.
 
-#### Hệ quả 2 {#fvr-vi-s2-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#fvr-vi-s2-prop-1-cor-2 .statement tag=08IE}
 
 *Với mọi số nguyên lẻ $n = 2m + 1$, và mọi số phức $z$ sao cho $nz$ không là một bội nguyên của $\pi$, ta có*
 $$
@@ -143,7 +143,7 @@ $$
 
 đối với $1 \leq k \leq m$. Ta sẽ thấy rằng với mọi $z$ được chứa trong một tập con compắc K của $\mathbf{C}$, không chứa một bội nguyên nào của $\pi$, và với mọi $n$ lẻ đủ lớn, chuỗi có số hạng tổng quát $v_k(n, z)$ là hội tụ chuẩn tắc. Thật vậy, khi $n$ tiến tới $+\infty$, $\tan \frac{z}{n}$ tiến tới $\frac{z}{n}$ đều trên K, nên tồn tại một số $M > 0$ sao cho $\left| n \tan \frac{z}{n} \right| \leq M$ với mọi $m$ đủ lớn và mọi $z \in K$. Mặt khác, với $0 \leq x \leq \pi/2$ ta có $\sin x / x \geq 1 - \frac{x^2}{6} \geq \frac{1}{2}$, nên với $1 \leq k \leq m$ ta có $n \sin \frac{k\pi}{n} \geq k\pi/2$; do đó, khi $m$ đủ lớn, với mọi số nguyên $k$ sao cho t $k\pi /2 > M$ ta có $|v_k(n, z)| \leq \frac{8M}{k^2 \pi^2 - 4M^2}$, điều đó chứng minh mệnh đề của ta. Với $k$ lẻ, $v_k(n, z)$ tiến tới $\frac{2z}{z^2 - k^2 \pi^2}$ (đều trên K) khi $n$ tiến tới $+\infty$. Do đó:
 
-#### Định lý 1 {#fvr-vi-s2-thm-1 .statement}
+#### Định lý 1 {#fvr-vi-s2-thm-1 .statement tag=08IF}
 
 *Với mọi số phức $z$ không phải là bội nguyên của $\pi$ ta có*
 
@@ -172,7 +172,7 @@ $$
 
 Ta có thể viết công thức này dưới dạng $\sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} (1 - w_k(n, z))$, với $w_k(n, z) = 0$ nếu $k > m$ và $w_k(n, z) = \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}}$ đối với $1 \leq k \leq m$. Ta sẽ thấy rằng với mọi $z$ được chứa trong một tập con compắc $K$ của $\mathbf{C}$, và với $n$ lẻ, chuỗi có số hạng tổng quát $(n, z)$ là *hội tụ chuẩn tắc*. Thật vậy, khi $n$ tiến tới $+\infty$, $n \sin \frac{z}{n}$ hội tụ đều trên $K$, nên tồn tại một số $M > 0$ sao cho $\left| n \sin \frac{z}{n} \right| \leq M$ với mọi số nguyên $n$ và mọi $z \in K$. Hơn nữa, trong chứng minh của đl. 1 của VI, p. 286, ta đã thấy rằng với $1 \leq k \leq m$ ta có $n \sin \frac{k \pi}{n} \geq \frac{k \pi}{2}$; do đó với mọi số nguyên $k$ sao cho $k \pi / 2 \geq M$ ta có $|w_k(n, z)| \leq 4M^2 / k^2 \pi^2$, điều này chứng minh mệnh đề của ta. Vì, với mọi $k$ cố định, $w_k(n, z)$ tiến tới (đều trên K) $z^2 / k^2 \pi^2$ khi $n$ tiến tới $+\infty$, ta thấy rằng:
 
-#### Định lý 2 {#fvr-vi-s2-thm-2 .statement}
+#### Định lý 2 {#fvr-vi-s2-thm-2 .statement tag=08IG}
 
 Với mọi số phức $z$ ta có
 

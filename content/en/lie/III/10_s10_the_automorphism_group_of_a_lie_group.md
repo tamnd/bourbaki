@@ -25,7 +25,7 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 4
-content_sha256: 566744cc5db5d2f8a8f195462f4a59807186ff4384adc6aae436da11976fff82
+content_sha256: f9d7400def142eff7395a68ad471a8fd0e9e5f47e8dd9c61b495ed3c4a325f89
 ---
 
 ## § 10. THE AUTOMORPHISM GROUP OF A LIE GROUP
@@ -34,7 +34,7 @@ In this paragraph, K is assumed to be of characteristic zero.
 
 ### 1. INFINITESIMAL AUTOMORPHISMS
 
-#### Lemma 1 {#lie-iii-s10-lem-1 .statement}
+#### Lemma 1 {#lie-iii-s10-lem-1 .statement tag=0AL6}
 
 Let G be a Lie group and $\alpha$ a vector field on G. For all $g \in G$, let
 $$
@@ -59,11 +59,11 @@ $$
 $$
 and hence (ii) $\Leftrightarrow$ (iii).
 
-#### Definition 1 {#lie-iii-s10-def-1 .statement}
+#### Definition 1 {#lie-iii-s10-def-1 .statement tag=0AL7}
 
 Let G be a Lie group. An infinitesimal automorphism of G is any analytic vector field on G satisfying the conditions of Lemma 1.
 
-#### Lemma 2 {#lie-iii-s10-lem-2 .statement}
+#### Lemma 2 {#lie-iii-s10-lem-2 .statement tag=0AL8}
 
 Let $K'$ be a non-discrete closed subfield of K, A a $K'$-manifold, B and C $K$-manifolds and $f$ a $K'$-analytic mapping of $A \times B$ into C. Suppose that, for all
 
@@ -108,13 +108,13 @@ $$
 
 and, for fixed $\lambda$, the mapping $x \mapsto f(\lambda t, x)$ is K-analytic, so that the mapping $h \mapsto (D_2f)(\lambda t, x)(h)$ is K-linear.
 
-#### Proposition 1 {#lie-iii-s10-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s10-prop-1 .statement tag=0AL9}
 
 *Let* K' *be a non-discrete closed subfield of* K, G *a Lie group over* K, V *a manifold over* K' *and* $(v, g) \mapsto vg$ *a* K'-*analytic mapping of* V $\times$ G *into* G. *Suppose that, for all* $v \in V$, *the mapping* $g \mapsto vg$ *of* G *into* G *is an automorphism of* G. *Let* $\varepsilon$ *be an element of* V *such that* $\varepsilon g = g$ *for all* $g \in G$ *and* $a \in T_\varepsilon(V)$. *Then the vector field* $g \mapsto ag$ *on* G *is an infinitesimal automorphism of* G.
 
 For $v \in V,\ g_1 \in G,\ g_2 \in G,\ v(g_1g_2) = (vg_1)(vg_2)$. Hence, for $u_1 \in TG,\ u_2 \in TG,\ a(u_1u_2) = (au_1)(au_2)$ (§ 2, no. 1, Proposition 3). In particular, the mapping $g \mapsto ag$ of G into TG is a group homomorphism. On the other hand, this mapping is analytic by Lemma 2.
 
-#### Proposition 2 {#lie-iii-s10-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s10-prop-2 .statement tag=0ALA}
 
 *Let* G *be a real or complex Lie group and* $\alpha$ *an infinitesimal automorphism of G. There exists a law of analytic operation $(\lambda, g) \mapsto \phi_\lambda(g)$ of K on G with the following properties:
 (1) if D is the associated law of infinitesimal operation, then $D(1) = \alpha$;
@@ -141,7 +141,7 @@ $$
 
 for all $\lambda \in K, g_1 \in G, g_1 \in G$.
 
-#### Proposition 3 {#lie-iii-s10-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s10-prop-3 .statement tag=0ALB}
 
 Suppose that K is ultrametric. Let G be a compact Lie group and $\alpha$ an infinitesimal automorphism of G. There exist an open subgroup I of K and a law of analytic operation $(\lambda, g) \mapsto \phi_\lambda(g)$ of I on G with the following properties:
 (1) if D is the associated law of infinitesimal operation, then $D(1) = \alpha$;
@@ -158,7 +158,7 @@ and $(f_{g_1}f_{g_2})(0) = g_1 g_2 = f_{g_1g_2}(0)$. Hence $f_{g_1'g_2'}(\lambda
 
 in a neighbourhood of $(g_1, g_2, 0)$ (Differentiable and Analytic Manifolds, R, 9.1.8). As $G$ is compact, there exists an open subgroup $I$ of $I'$ such that $f_{g_1g_2}(\lambda) = f_{g_1}(\lambda) f_{g_2}(\lambda)$ for all $g_1 \in G, g_2 \in G, \lambda \in I$. In other words, $\phi_\lambda \in \mathrm{Aut}\, G$ for $\lambda \in I$.
 
-#### Lemma 3 {#lie-iii-s10-lem-3 .statement}
+#### Lemma 3 {#lie-iii-s10-lem-3 .statement tag=0ALC}
 
 Let $G$ and $G'$ be Lie groups and $\phi$ a homomorphism of $G$ into $\mathrm{Aut}(G')$. Let $f(g, g') = (\phi(g))(g')$ for $g \in G, g' \in G'$. Consider the following conditions:
 (i) $f$ is analytic;
@@ -177,7 +177,7 @@ This proves the implication ((ii) and (iii)) $\Rightarrow$ (i). Finally, if $G'$
 
 In this no., we assume that $K = \mathbf{R}$ or $\mathbf{C}$.
 
-#### Lemma 4 {#lie-iii-s10-lem-4 .statement}
+#### Lemma 4 {#lie-iii-s10-lem-4 .statement tag=0ALD}
 
 Let $H$ be a finite-dimensional simply connected Lie group.
 (i) For all $u \in \mathrm{Aut}\, L(H)$, let $\theta(u)$ be the unique automorphism of $H$ such that $L(\theta(u)) = u$. Then the mapping $(u, g) \mapsto \theta(u)g$ of $(\mathrm{Aut}\, L(H)) \times H$ into $H$ is analytic.
@@ -205,7 +205,7 @@ hence $p \circ \eta(w) = w \circ p$ and therefore $\eta(w) \in \mathrm{Aut}(H, N
 
 Let G be a locally compact group and $\Gamma$ the automorphism group of G. Recall that a topology $\mathscr{T}_\beta$ has been defined on $\Gamma$ (General Topology, Chapter X, § 3, no. 5). It is the coarsest topology for which the mappings $v \mapsto v$ and $v \mapsto v^{-1}$ of $\Gamma$ into $C_c(G; G)$ (space of continuous mappings of G into G with the compact convergence topology) are continuous. The topology $\mathscr{T}_\beta$ is compatible with the group structure on $\Gamma$ (loc. cit.). For every compact subset L of G and every neighbourhood U of $e_G$ in G, let $N(L, U)$ be the set of $\phi \in \Gamma$ such that $\phi(g) \in gU$ and $\phi^{-1}(g) \in gU$ for all $g \in L$; then the $N(L, U)$ form a fundamental system of neighbourhoods of $e_\Gamma$. If G is generated by a compact subset C, the topology $\mathscr{T}_\beta$ is also the coarsest topology for which the mappings $v \mapsto v|C$ and $v \mapsto v^{-1}|C$ of $\Gamma$ into $C_u(C; G)$ are continuous (for every compact subset of G is contained in $(C \cup C^{-1})^n$ for sufficiently large n). If K is locally compact and V is a finite-dimensional vector space over K, the topology $\mathscr{T}_\beta$ on $\mathbf{GL}(V)$ is just the usual topology.
 
-#### Theorem 1 {#lie-iii-s10-thm-1 .statement}
+#### Theorem 1 {#lie-iii-s10-thm-1 .statement tag=0ALE}
 
 Let G be a finite-dimensional Lie group and $G_0$ its identity component. Suppose that G is generated by $G_0$ and a finite number of elements.
 
@@ -296,11 +296,11 @@ $$
 
 is an $\mathbf{R}$-automorphism of $a$. This automorphism is also the automorphism of $a$ derived from $w$ by transport of structure; as $w$ is K-analytic, we see that $L(\sigma)$ is K-linear. Hence $\sigma$ is K-analytic ($§ 3$, no. 8, Proposition 32). By $§ 1$, no. 9, Proposition 18, there exists on Aut G one and only one Lie K-group structure such that $\mathrm{Aut}_1 G$ is an open Lie subgroup of Aut G. The fact that this structure has the properties of the theorem follows from the corresponding properties for $\mathrm{Aut}_1 G$.
 
-#### Corollary 1 {#lie-iii-s10-thm-1-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s10-thm-1-cor-1 .statement tag=0ALF}
 
 *Let G be a finite-dimensional real Lie group and $G_0$ its identity component. Suppose that G is generated by $G_0$ and a finite number of elements. Then Aut G has the topology $\mathscr{T}_\beta$ and is a finite-dimensional real Lie group.*
 
-#### Corollary 2 {#lie-iii-s10-thm-1-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s10-thm-1-cor-2 .statement tag=0ALG}
 
 *Let G be a semi-simple connected real or complex Lie group. The group Int G is the identity component of Aut G.*
 
@@ -308,7 +308,7 @@ The mapping $u \mapsto L(u)$ is an isomorphism of Aut G onto a Lie subgroup of A
 
 ### 3. THE AUTOMORPHISM GROUP OF A LIE GROUP (ULTRAMETRIC CASE)
 
-#### Theorem 2 {#lie-iii-s10-thm-2 .statement}
+#### Theorem 2 {#lie-iii-s10-thm-2 .statement tag=0ALH}
 
 *When K is ultrametric and locally compact and G is a compact Lie group, assertions (i), (ii), (iii), (v) and (vi) of Theorem 1 are true.*
 (a) The uniqueness of the analytic structure considered in (i) is obvious.
@@ -327,7 +327,7 @@ Let $\Gamma$ be the set of $\gamma \in \mathrm{Aut}\ L(G)$ such that $\gamma(G) 
 
 (d), (e): the argument is exactly as in parts (d), (e) of the proof of Theorem 1 with R replaced by Q_p and using Proposition 3 instead of Proposition 2.
 
-#### Remark {#lie-iii-s10-n3-rem-1 .statement}
+#### Remark {#lie-iii-s10-n3-rem-1 .statement tag=0ALI}
 
 If K = Q_p, and the Lie group G is generated by a compact subset (cf. Exercise 2), assertions (i), (ii), (iii) and (vi) of Theorem 1 are still true, but not (v) (Exercise 3).
 

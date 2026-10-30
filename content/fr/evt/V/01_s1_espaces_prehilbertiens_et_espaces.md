@@ -40,7 +40,7 @@ subsections:
       pdf_page: 277
 statements: 43
 exercises: 37
-content_sha256: 0c1ac19f1065d57315b7491d77db4c2aec17dbb99b117f9fa6ce2febfc213854
+content_sha256: 8ff3c41421faee895ba10817cb25489a2ce723db24ab19b86e5baf08d37437fd
 ---
 
 ## § 1. ESPACES PRÉHILBERTIENS ET ESPACES HILBERTIENS
@@ -49,7 +49,7 @@ content_sha256: 0c1ac19f1065d57315b7491d77db4c2aec17dbb99b117f9fa6ce2febfc213854
 
 Rappelons la définition suivante donnée en Algèbre (A, IX, § 2, no 1) :
 
-#### Définition 1 {#evt-v-s1-def-1 .statement}
+#### Définition 1 {#evt-v-s1-def-1 .statement tag=07X0}
 
 Soit E un espace vectoriel sur le corps K. On appelle forme hermitienne (à gauche) sur E toute application $f$ de $E \times E$ dans K satisfaisant aux conditions suivantes (pour $x_1, x_2, x, y_1, y_2, y$ dans E et $\lambda, \mu$ dans K) :
 
@@ -102,13 +102,13 @@ $$
 4f(x, y) = \sum_{\varepsilon^4 = 1, \varepsilon \in \mathbf{C}} \varepsilon Q(x + \overline{\varepsilon} y) \quad \text{si } K = \mathbf{C}.
 $$
 
-#### Remarque {#evt-v-s1-n1-rem-1 .statement}
+#### Remarque {#evt-v-s1-n1-rem-1 .statement tag=07X1}
 
 On notera que la formule (6) est valable pour toute forme *sesquilinéaire* sur $E \times E$ (c’est-à-dire toute fonction $f$ satisfaisant à (1) et (2), mais non nécessairement à (3)). Cette remarque montre que, lorsque $K = \mathbf{C}$, une forme sesquilinéaire $f$ telle que $f(x, x)$ soit réel pour tout $x \in E$ est nécessairement hermitienne : la relation (6) donne alors $\overline{f(y, x)} = f(x, y)$ puisque l’on a $y + \varepsilon x = \varepsilon (x + \overline{\varepsilon} y)$ et $Q(\varepsilon z) = Q(z)$ lorsque $\varepsilon^4 = 1$.
 
 Des formules de polarisation, on tire en particulier :
 
-#### Proposition 1 {#evt-v-s1-prop-1 .statement}
+#### Proposition 1 {#evt-v-s1-prop-1 .statement tag=07X2}
 
 *Si $f$ est une forme hermitienne sur $E$, et $M$ un sous-espace vectoriel de $E$ tel que $f(x, x) = 0$ pour tout $x \in M$, on a aussi $f(x, y) = 0$ pour tout couple de points $x, y$ de $M$*.
 
@@ -116,13 +116,13 @@ Soit $f$ une forme hermitienne sur $E$; l’ensemble $N$ des $x \in E$ tels que 
 
 ### 2. Formes hermitiennes positives
 
-#### Définition 2 {#evt-v-s1-def-2 .statement}
+#### Définition 2 {#evt-v-s1-def-2 .statement tag=07X3}
 
 *Soit $E$ un espace vectoriel sur le corps $K$. On dit qu’une forme hermitienne $f$ sur $E$ est positive si l’on a $f(x, x) \geq 0$ pour tout $x \in E$*.
 
 Il est clair que les formes hermitiennes sur un espace vectoriel $E$ forment un espace vectoriel *sur le corps* $\mathbf{R}$ (mais non sur le corps $\mathbf{C}$ lorsque $K = \mathbf{C}$); dans cet espace, les formes hermitiennes positives constituent un *cône convexe pointé saillant* (II, p. 11) comme il résulte de la déf. 2 et de la prop. 1.
 
-#### Proposition 2 {#evt-v-s1-prop-2 .statement}
+#### Proposition 2 {#evt-v-s1-prop-2 .statement tag=07X4}
 
 Si $f$ est une forme hermitienne positive, on a
 
@@ -154,11 +154,11 @@ $$
 
 Remplaçant $\xi$ par $-\overline{f(x, y)}$ dans cette inégalité, il vient $-2|f(x, y)|^2 \geq 0$, d’où $f(x, y) = 0$; on a encore (7) dans ce cas.
 
-#### Corollaire 1 {#evt-v-s1-prop-2-cor-1 .statement}
+#### Corollaire 1 {#evt-v-s1-prop-2-cor-1 .statement tag=07X5}
 
 Si $f$ est une forme hermitienne positive, l’ensemble $N$ des $x \in E$ tels que $f(x, x) = 0$ est identique au sous-espace vectoriel des $x \in E$ tels que $f(x, y) = 0$ pour tout $y \in E$.
 
-#### Corollaire 2 {#evt-v-s1-prop-2-cor-2 .statement}
+#### Corollaire 2 {#evt-v-s1-prop-2-cor-2 .statement tag=07X6}
 
 Pour qu’une forme hermitienne positive $f$ soit séparante, il faut et il suffit que la relation $x \neq 0$ entraîne $f(x, x) > 0$.
 
@@ -166,7 +166,7 @@ Cela résulte immédiatement du cor. 1.
 
 Pour toute forme hermitienne positive $f$ sur $E$, la forme hermitienne séparante associée à $f$ (V, p. 2) est évidemment une forme hermitienne positive sur $E/N$.
 
-#### Proposition 3 {#evt-v-s1-prop-3 .statement}
+#### Proposition 3 {#evt-v-s1-prop-3 .statement tag=07X7}
 
 Soit $f$ une forme hermitienne positive sur $E$. Posons
 
@@ -191,15 +191,15 @@ $$
 = (f(x, x)^{1/2} + f(y, y)^{1/2})^2 .
 $$
 
-#### Remarque 1 {#evt-v-s1-n2-rem-1 .statement}
+#### Remarque 1 {#evt-v-s1-n2-rem-1 .statement tag=07X8}
 
 Supposons $f$ positive et séparante, et soient $x, y$ deux vecteurs $\neq 0$. La démonstration de l’inégalité de Cauchy-Schwarz montre que, si les deux membres de (7) sont égaux, il existe un scalaire $\xi$ tel que $f(x + \xi y, x + \xi y) = 0$ donc $x + \xi y = 0$, autrement dit, $x$ et $y$ sont linéairement dépendants ; la réciproque est immédiate. La démonstration de l’inégalité (8) montre alors que l’égalité $p(x + y) = p(x) + p(y)$ n’est possible que si $x$ et $y$ sont linéairement dépendants ; si $y = \lambda x$, l’égalité précédente s’écrit $|1 + \lambda| = 1 + |\lambda|$, et entraîne donc que $\lambda$ est réel et positif.
 
-#### Remarque 2 {#evt-v-s1-n2-rem-2 .statement}
+#### Remarque 2 {#evt-v-s1-n2-rem-2 .statement tag=0E5A}
 
 Soit $f$ une forme hermitienne positive sur $E$, et munissons $E$ de la semi-norme $x \mapsto f(x, x)^{1/2}$; si $\hat{f}$ est la forme hermitienne positive séparante associée à $f$, définie sur $E/N$, l’espace normé obtenu en munissant $E/N$ de la norme $x \mapsto \hat{f}(x, x)^{1/2}$ est l’espace normé associé à $E$ (II, p. 5).
 
-#### Définition 3 {#evt-v-s1-def-3 .statement}
+#### Définition 3 {#evt-v-s1-def-3 .statement tag=07X9}
 
 *Soit* $E$ *un espace vectoriel sur le corps* $K$. *On dit qu’une semi-norme* $p$ *sur* $E$ *est préhilbertienne s’il existe une forme hermitienne positive* $f$ *sur* $E$ *telle que* $p(x) = f(x, x)^{1/2}$ *pour tout* $x \in E$.
 
@@ -207,19 +207,19 @@ On notera que, pour une semi-norme $p$ sur $E$, il existe au plus une forme herm
 
 ### 3. Espaces préhilbertiens
 
-#### Définition 4 {#evt-v-s1-def-4 .statement}
+#### Définition 4 {#evt-v-s1-def-4 .statement tag=07XA}
 
 *On appelle espace préhilbertien un ensemble* $E$ *muni d’une structure d’espace vectoriel sur* $K$ *et d’une forme hermitienne positive. On dit que* $E$ *est un espace préhilbertien réel* (resp. *complexe*) *lorsque* $K = \mathbf{R}$ (resp. $K = \mathbf{C}$).
 
-#### Exemple 1 {#evt-v-s1-n3-exa-1 .statement}
+#### Exemple 1 {#evt-v-s1-n3-exa-1 .statement tag=07XB}
 
 La forme $(\lambda, \mu) \mapsto \overline{\lambda} \mu$ définit sur $K$ une structure d’espace préhilbertien, dite *canonique*. Lorsque $K$ est considéré comme espace préhilbertien, il s’agit toujours, sauf mention expresse du contraire, de cette structure.
 
-#### Exemple 2 {#evt-v-s1-n3-exa-2 .statement}
+#### Exemple 2 {#evt-v-s1-n3-exa-2 .statement tag=07XC}
 
 Soit $I$ un intervalle (borné ou non) de $\mathbf{R}$, et soit $E$ l’ensemble des fonctions réglées (FVR, II, p. 4) définies dans $I$, à valeurs dans $\mathbf{C}$ et à support compact. Il est clair que $E$ est un espace vectoriel sur $\mathbf{C}$; soit $f$ la forme sesquilinéaire $(x, y) \mapsto \int_I \overline{x(t)}\ y(t)\ dt$; il est immédiat que $f$ est une forme hermitienne positive sur $E$, et définit donc sur cet espace une structure d’espace préhilbertien.
 
-#### Exemple 3 {#evt-v-s1-n3-exa-3 .statement}
+#### Exemple 3 {#evt-v-s1-n3-exa-3 .statement tag=07XD}
 
 Soit $n \geqslant 0$ un entier. Sur l’espace $K^n$, on définit une structure d’espace préhilbertien, au moyen de la forme hermitienne
 
@@ -229,7 +229,7 @@ $$
 
 (pour $x = (x_1, \ldots, x_n)$ et $y = (y_1, \ldots, y_n)$). Lorsque $K = \mathbf{R}$, on retrouve le produit scalaire de deux vecteurs de $\mathbf{R}^n$ (TG, VI, p. 8).
 
-#### Exemple 4 {#evt-v-s1-n3-exa-4 .statement}
+#### Exemple 4 {#evt-v-s1-n3-exa-4 .statement tag=07XE}
 
 \* Soit $\ell^2$ (ou $\ell^2(\mathbf{N})$) l’ensemble des suites $x = (x_n)_{n \in \mathbf{N}}$ d’éléments de $K$ telles que $\sum_{n=0}^\infty |x_n|^2$ soit fini. On montre que $\ell^2$ est un sous-espace vectoriel de $K^\mathbf{N}$ et l’on définit une structure d’espace préhilbertien sur $\ell^2$ au moyen de la forme hermitienne
 
@@ -237,7 +237,7 @@ $$
 (x, y) \mapsto \sum_{n=0}^\infty \overline{x_n} y_n \quad (cf.\ V, p.18).
 $$
 
-#### Exemple 5 {#evt-v-s1-n3-exa-5 .statement}
+#### Exemple 5 {#evt-v-s1-n3-exa-5 .statement tag=07XF}
 
 Soient $E$ un espace préhilbertien réel, $f$ la forme bilinéaire symétrique correspondante sur $E$. Soit $E_{(c)}$ l’espace vectoriel complexifié de $E$; on identifie $E$ à un sous-ensemble de $E_{(c)}$ par l’application $x \mapsto 1 \otimes x$, de sorte que tout élément de $E_{(c)}$ s’écrit de manière unique sous la forme $x_1 + ix_2$ avec $x_1, x_2$ dans E. L’application $f$ s’étend de manière unique en une forme hermitienne $f_{(c)}$ sur $E_{(c)}$; on a
 $$
@@ -285,17 +285,17 @@ Si E est un espace préhilbertien, M un sous-espace vectoriel de E, la restricti
 
 ### 4. Espaces hilbertiens
 
-#### Définition 5 {#evt-v-s1-def-5 .statement}
+#### Définition 5 {#evt-v-s1-def-5 .statement tag=07XG}
 
 On appelle espace hilbertien (ou espace de Hilbert) un espace préhilbertien séparé et complet. On dit qu’une norme sur un espace vectoriel E (sur K) est hilbertienne si elle est préhilbertienne et si l’espace normé E est complet.
 
 Si E est un espace hilbertien et M un sous-espace vectoriel fermé de E, la structure d’espace préhilbertien induite sur M est en fait une structure d’espace hilbertien. On dit dans ce cas que M, muni de la structure induite, est un sous-espace hilbertien de E.
 
-#### Exemple 1 {#evt-v-s1-n4-exa-1 .statement}
+#### Exemple 1 {#evt-v-s1-n4-exa-1 .statement tag=07XH}
 
 Les espaces préhilbertiens définis dans les exemples 1, 3, 4 de V, p. 4, sont des espaces hilbertiens. Par contre, l’espace préhilbertien E défini dans l’exemple 2 n’est ni séparé, ni complet. Le complexifié d’un espace hilbertien est un espace hilbertien.
 
-#### Exemple 2 {#evt-v-s1-n4-exa-2 .statement}
+#### Exemple 2 {#evt-v-s1-n4-exa-2 .statement tag=07XI}
 
 \* Soit X un espace topologique séparé et soit μ une mesure positive sur X. Notons L²(X, μ) l’espace formé des classes d’équivalence pour μ des fonctions de carré μ-intégrable sur X à valeurs dans C. C’est un espace hilbertien complexe, dont le produit scalaire est donné par
 
@@ -303,7 +303,7 @@ $$
 \langle f|g \rangle = \int_X \overline{f(x)}\ g(x)\ d\mu(x) .
 $$
 
-#### Exemple 3 {#evt-v-s1-n4-exa-3 .statement}
+#### Exemple 3 {#evt-v-s1-n4-exa-3 .statement tag=07XJ}
 
 \* Soit n ≥ 1 un entier et soit U un ouvert de Rⁿ. On note μ la mesure sur U induite par la mesure de Lebesgue sur Rⁿ, et l’on pose $\mathscr{H}^0 = L^2(U, \mu)$. On note $\mathscr{H}^1$ l’espace des fonctions $f \in \mathscr{H}^0$ ayant la propriété suivante : pour $1 \leq i \leq n$, il existe une fonction $g_i \in \mathscr{H}^0$ telle que
 
@@ -317,7 +317,7 @@ $$
 $$
 Alors $\mathscr{H}^s$ est un espace hilbertien complexe, qu’on appelle *espace de Sobolev* d’indice $s$.
 
-#### Exemple 4 {#evt-v-s1-n4-exa-4 .statement}
+#### Exemple 4 {#evt-v-s1-n4-exa-4 .statement tag=07XK}
 
 \* Soit $X$ une variété différentielle de classe $C^r$ (avec $r \geqslant 1$), pure de dimension finie $n$. Soit $L$ le complémentaire, dans le fibré vectoriel $\Lambda^n T(X)$, de l’image de la section nulle. Pour tout nombre réel $\lambda \neq 0$, l’application $u \mapsto \lambda u$ de $\Lambda^n T(X)$ dans lui-même laisse stable $L$.
 
@@ -332,7 +332,7 @@ Il existe alors sur $X$ une mesure $\tilde{\omega}$ et une seule telle que pour 
 
 Soit $\mathscr{V}$ (resp. $\mathscr{N}$) l’espace vectoriel des densités $\omega$ d’ordre 1/2 telles que la mesure associée à la densité $|\omega|^2$ d’ordre 1 soit bornée (resp. nulle). Soient $\omega_1$ et $\omega_2$ dans $\mathscr{V}$; alors $\omega = \overline{\omega}_1 \omega_2$ est une densité d’ordre 1, et la mesure $\tilde{\omega}$ associée à $\omega$ est bornée ; le nombre $\int_X \tilde{\omega}$ ne dépend que des classes $\dot{\omega}_1$ et $\dot{\omega}_2$ de $\omega_1$ et $\omega_2$ modulo $\mathscr{N}$ et se note $\langle \omega_1 | \omega_2 \rangle$ ou $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$. Alors l’application $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ munit l’espace vectoriel $\Omega_{1/2}(X) = \mathscr{V}/\mathscr{N}$ d’une structure d’espace hilbertien complexe.
 
-#### Exemple 5 {#evt-v-s1-n4-exa-5 .statement}
+#### Exemple 5 {#evt-v-s1-n4-exa-5 .statement tag=07XL}
 
 \* Soit $D$ le disque ouvert de centre 0 et rayon 1 dans $\mathbf{C}$. L’espace de Hardy $H^2(D)$ se compose des fonctions holomorphes $f : D \to \mathbf{C}$ pour lesquelles on a
 $$
@@ -352,7 +352,7 @@ pour tout $z \in D$. On a alors $\|f\|^2 = \sum_{n=0}^\infty |a_n|^2$, d’où u
 
 Tout espace préhilbertien séparé est isomorphe à un sous-espace partout dense d’un espace hilbertien déterminé à un isomorphisme près ; de façon précise :
 
-#### Proposition 4 {#evt-v-s1-prop-4 .statement}
+#### Proposition 4 {#evt-v-s1-prop-4 .statement tag=07XM}
 
 Soient E un espace préhilbertien séparé, $\hat{E}$ l’espace normé complété de E (TG, IX, p. 33). Le produit scalaire $(x, y) \mapsto \langle x|y \rangle$ se prolonge par continuité en une forme hermitienne positive et séparante sur $\hat{E}$, qui définit sur $\hat{E}$ une structure d’espace hilbertien.
 
@@ -368,7 +368,7 @@ $$
 
 Cet espace préhilbertien n’est pas complet. Son complété s’appelle l’espace de Dirichlet associé à U. \*
 
-#### Corollaire {#evt-v-s1-n4-cor-1 .statement}
+#### Corollaire {#evt-v-s1-n4-cor-1 .statement tag=07XN}
 
 Soient V un espace vectoriel sur K et f une forme hermitienne positive sur V.
 
@@ -382,7 +382,7 @@ Sous les hypothèses de b), N est égal au noyau de $u_1$ et à celui de $u_2$. 
 
 On dit que l’espace hilbertien E est le séparé-complété de V (pour la forme $f$).
 
-#### Exemple 7 {#evt-v-s1-n4-exa-7 .statement}
+#### Exemple 7 {#evt-v-s1-n4-exa-7 .statement tag=07XO}
 
 Soient G un groupe (d’élément unité noté 1) et $\pi$ un homomorphisme de G dans le groupe des automorphismes d’un espace hilbertien complexe E ; on dit encore que $\pi$ est une *représentation unitaire* de $G$ dans $E$. Soit $a \in E$; on pose
 $$
@@ -420,7 +420,7 @@ On déduit de cette identité la proposition suivante :
 
 Fig. 1.
 
-#### Proposition 5 {#evt-v-s1-prop-5 .statement}
+#### Proposition 5 {#evt-v-s1-prop-5 .statement tag=07XP}
 
 Soit E un espace préhilbertien. Soient d un nombre réel > 0, δ un nombre réel tel que 0 ≤ δ < d. Soient B et B' les parties de E définies par \|x\| < d, \|x\| ≤ d + δ respectivement, et soit A un ensemble convexe contenu dans B' − B. Pour tout couple de points x, y de A, on a alors \|x − y\| ≤ \sqrt{12dδ} (fig. 1).
 
@@ -432,7 +432,7 @@ $$
 
 d’où la proposition.
 
-#### Théorème 1 {#evt-v-s1-thm-1 .statement}
+#### Théorème 1 {#evt-v-s1-thm-1 .statement tag=07XQ}
 
 Soient E un espace préhilbertien, H une partie convexe non vide de E telle que H soit un sous-espace uniforme séparé et complet de E. Pour tout $x \in E$, il existe un point $p_H(x)$ de H et un seul tel que $\|x - p_H(x)\| = \inf_{y \in H} \|x - y\|$. L’élément $p_H(x)$ de H est aussi l’unique élément a de H satisfaisant à la relation $^1$
 
@@ -470,7 +470,7 @@ La première partie du th. 1 est valable sous des hypothèses plus générales s
 
 La démonstration du th. 1 établit entre autres la propriété suivante :
 
-#### Corollaire 1 {#evt-v-s1-thm-1-cor-1 .statement}
+#### Corollaire 1 {#evt-v-s1-thm-1-cor-1 .statement tag=07XR}
 
 *Soient $I$ un ensemble filtré par un filtre $\mathfrak{F}$ et $(y_i)_{i \in I}$ une famille de points de $H$. Soit $x \in E$. On suppose que l’on a*
 
@@ -480,7 +480,7 @@ $$
 
 *Alors $y_i$ tend vers $p_H(x)$ suivant le filtre $\mathfrak{F}$.*
 
-#### Corollaire 2 {#evt-v-s1-thm-1-cor-2 .statement}
+#### Corollaire 2 {#evt-v-s1-thm-1-cor-2 .statement tag=07XS}
 
 *Quels que soient $x, y$ dans $E$, on a*
 
@@ -501,7 +501,7 @@ $$
 
 Ceci prouve le cor. 2.
 
-#### Proposition 6 {#evt-v-s1-prop-6 .statement}
+#### Proposition 6 {#evt-v-s1-prop-6 .statement tag=07XT}
 
 *Soit $E$ un espace préhilbertien et soit $\Phi$ un ensemble non vide, filtrant décroissant de parties convexes non vides, séparées et complètes de $E$. Pour tout $x \in E$ et toute partie $H$ de $E$, posons $d(x, H) = \inf_{z \in H} \|x - z\|$. Pour que l’intersection $M$ des ensembles $H$ appartenant à $\Phi$ soit non vide, il faut et il suffit qu’il existe $x_0$ dans $E$ tel que $\sup_{H \in \Phi} d(x_0, H)$ soit fini. Pour tout $x \in E$, on a alors $p_M(x) = \lim_{H \in \Phi} p_H(x)$ (limite suivant l’ensemble filtrant $\Phi$).
 
@@ -514,7 +514,7 @@ d(x, H) \leq \|x - x_0\| + C \text{ pour tout } H \in \Phi,
 $$
 donc le nombre $d = \sup_{H \in \Phi} d(x, H)$ est fini. Soit B l’ensemble des $z \in E$ tels que $\|x - z\| \leq d$. Comme B est convexe et fermé dans E, les ensembles $H \cap B$, pour H parcourant $\Phi$, sont convexes, séparés et complets. Soit $\varepsilon > 0$; il existe un ensemble $H \in \Phi$ tel que $d(x, H) \geq d - \varepsilon$, et si $\varepsilon < d/2$, le diamètre de $H \cap B$ est majoré par $\sqrt{12\varepsilon(d - \varepsilon)}$ d’après la prop. 5 (V, p. 10). Autrement dit, pour tout $H_0 \in \Phi$, les ensembles fermés $H \cap B$, pour $H \in \Phi$ et $H \subset H_0$, forment une base de filtre de Cauchy sur l’espace séparé et complet $H_0$. L’intersection des ensembles $H \cap B$ (pour $H \in \Phi$) est donc réduite à un point $y$. On a $y \in M$ et $\|x - y\| = d = d(x, M)$. Comme M est fermé dans $H_0$, c’est un ensemble convexe, séparé et complet dans E et l’on a donc $y = p_M(x)$. Pour tout $H \in \Phi$, on a $p_H(x) \in H \cap B$, d’où $p_M(x) = \lim_{H \in \Phi} p_H(x)$.
 
-#### Proposition 7 {#evt-v-s1-prop-7 .statement}
+#### Proposition 7 {#evt-v-s1-prop-7 .statement tag=07XU}
 
 *Soit E un espace préhilbertien séparé et soit $\Psi$ un ensemble non vide, filtrant croissant de parties convexes, complètes et non vides de E. Posons $A = \bigcup_{H \in \Psi} H$ et supposons que l’adhérence N de A soit complète. Alors N est convexe et l’on a $p_N(x) = \lim_{H \in \Psi} p_H(x)$ pour tout $x \in E$.*
 
@@ -532,7 +532,7 @@ Soit A une partie de E. On dit qu’un vecteur $x$ de E est *orthogonal* à A s�
 
 Soient A et B deux parties de E. On dit que A et B sont *orthogonales* si tout vecteur de A est orthogonal à tout vecteur de B. Il revient au même de dire que l’on a $A \subset B^\circ$, ou encore $B \subset A^\circ$. Si E est séparé et si A et B sont *orthogonales*, alors $A \cap B$ est vide ou réduit à 0 puisque 0 est le seul vecteur de E orthogonal à lui-même.
 
-#### Théorème 2 {#evt-v-s1-thm-2 .statement}
+#### Théorème 2 {#evt-v-s1-thm-2 .statement tag=07XV}
 
 Soient E un espace préhilbertien et M un sous-espace vectoriel de E, qui est séparé et complet. Alors E est somme directe topologique de M et du sous-espace $M^\circ$ orthogonal de M. Le projecteur de E sur M associé à la décomposition $E = M \oplus M^\circ$ est la projection $p_M$ de E sur M définie dans le th. 1 (V, p. 10).
 
@@ -546,7 +546,7 @@ pour tout $\lambda \in K$. Si l’on prend en particulier $\lambda = \overline{\
 
 Comme M est séparé, 0 est le seul vecteur de M orthogonal à lui-même, d’où $M \cap M^\circ = \{0\}$. Pour tout $x \in E$, on a $p_M(x) \in M$ et $x - p_M(x) \in M^\circ$. Par suite, E est somme directe de M et $M^\circ$, et $p_M$ est le projecteur de E sur M de noyau $M^\circ$. Comme $p_M$ est une application continue de E dans M (V, p. 11, cor. 2), il résulte de TG, III, p. 46 que E est somme directe topologique de M et $M^\circ$.
 
-#### Corollaire {#evt-v-s1-n6-cor-1 .statement}
+#### Corollaire {#evt-v-s1-n6-cor-1 .statement tag=07XW}
 
 Soient E un espace préhilbertien séparé et M un sous-espace vectoriel de dimension finie de E. Alors E est somme directe de M et de $M^\circ$.
 
@@ -558,13 +558,13 @@ Il résulte aussitôt du th. de Pythagore que l’application canonique $\psi$ d
 
 Nous utiliserons le plus souvent les résultats précédents lorsque E est un espace hilbertien et M un sous-espace vectoriel fermé de E. Dans ce cas, $M^\circ$ est un sous-espace vectoriel fermé de E, et l’on a $p_{M^\circ} = 1 - p_M$ et $(M^\circ)^\circ = M$.
 
-#### Proposition 8 {#evt-v-s1-prop-8 .statement}
+#### Proposition 8 {#evt-v-s1-prop-8 .statement tag=07XX}
 
 Soient E un espace hilbertien, M un sous-espace vectoriel fermé de E, I un ensemble ordonné filtrant non vide et $(M_i)_{i \in I}$ une famille de sous-espaces vectoriels fermés de E. On suppose, ou bien que l’application $i \mapsto M_i$ est croissante et que M est l’adhérence de $\bigcup_{i \in I} M_i$, ou bien que l’application $i \mapsto M_i$ est décroissante et que l’on a $M = \bigcap_{i \in I} M_i$. On a alors $p_M(x) = \lim_{i \in I} p_{M_i}(x)$ pour tout $x \in E$.
 
 La prop. 8 résulte aussitôt des prop. 6 (V, p. 11) et 7 (V, p. 12).
 
-#### Proposition 9 {#evt-v-s1-prop-9 .statement}
+#### Proposition 9 {#evt-v-s1-prop-9 .statement tag=07XY}
 
 Soient E un espace hilbertien et M, N deux sous-espaces vectoriels fermés de E.
 
@@ -597,7 +597,7 @@ On a donc prouvé a) et la première partie de b). Supposons que $p_M$ et $p_N$ 
 
 On a $p_M p_N = 0$ si et seulement si l’image $N$ de $p_N$ est contenue dans le noyau $M^\circ$ de $p_M$, c’est-à-dire si et seulement si $M$ est orthogonal à $N$. Le reste de l’assertion c) est alors un cas particulier de b).
 
-#### Remarque {#evt-v-s1-n6-rem-1 .statement}
+#### Remarque {#evt-v-s1-n6-rem-1 .statement tag=07XZ}
 
 Soient E un espace hilbertien et M, N deux sous-espaces vectoriels fermés de E. La relation $M \subset N$ équivaut à l’orthogonalité de M et $N^\circ$, c’est-à-dire à la relation $p_M p_{N^\circ} = 0$ d’après la prop. 9, c). Comme on a $p_{N^\circ} = 1 - p_N$, on conclut que les relations $M \subset N$ et $p_M = p_M p_N$ sont équivalentes (« th. des trois perpendiculaires », cf. fig. 3).
 
@@ -607,7 +607,7 @@ Fig. 3.
 
 ### 7. Dual d’un espace hilbertien
 
-#### Théorème 3 {#evt-v-s1-thm-3 .statement}
+#### Théorème 3 {#evt-v-s1-thm-3 .statement tag=07Y0}
 
 Soit E un espace hilbertien. Pour tout $x \in E$, soit $x^*$ la forme linéaire continue $y \mapsto \langle x | y \rangle$ sur E ; l’application $x \mapsto x^*$ est une application semi-linéaire (pour l’automorphisme $\xi \mapsto \overline{\xi}$) bijective de E sur son dual $E'$, et une isométrie de l’espace normé E sur l’espace normé $E'$.
 
@@ -635,13 +635,13 @@ pour $x, y$ dans $E$ et $x'$ dans $E'$.
 
 Il revient au même de dire que le vecteur $x \in E$ est orthogonal à un vecteur $y \in E$, ou de dire que la forme linéaire $x^* \in E'$ est orthogonale à $y$ au sens défini en II, p. 44 (ce qui justifie l’emploi du mot « orthogonal » dans les deux cas). Si M est un sous-espace vectoriel fermé de E, le sous-espace $M^\circ$ orthogonal à M dans $E'$ (II, p. 48) est l’image par $x \mapsto x^*$ de l’orthogonal de M dans E, défini en V, p. 12 (ce qui justifie l’emploi de la notation $M^\circ$ dans les deux cas).
 
-#### Corollaire 1 {#evt-v-s1-thm-3-cor-1 .statement}
+#### Corollaire 1 {#evt-v-s1-thm-3-cor-1 .statement tag=07Y1}
 
 *Pour qu’une famille $(x_i)_{i \in I}$ de points d’un espace hilbertien E soit totale, il faut et il suffit que pour $y \in E$, les relations $\langle x_i|y\rangle = 0$ pour tout indice $i \in I$ entraînent $y = 0$.*
 
 En effet, cela exprime que 0 est le seul vecteur de $E'$ orthogonal aux $x_i$ (II, p. 46 et IV, p. 1).
 
-#### Corollaire 2 {#evt-v-s1-thm-3-cor-2 .statement}
+#### Corollaire 2 {#evt-v-s1-thm-3-cor-2 .statement tag=07Y2}
 
 *Soient E et F deux espaces hilbertiens. Pour $u \in \mathscr{L}(E; F)$, $x \in E$ et $y \in F$, posons*
 
@@ -676,17 +676,17 @@ isomorphisme de l’espace normé E′ sur E (resp. sur l’espace $\overline{E}
 
 Par suite (IV, p. 17, prop. 6) :
 
-#### Théorème 4 {#evt-v-s1-thm-4 .statement}
+#### Théorème 4 {#evt-v-s1-thm-4 .statement tag=07Y3}
 
 *Dans un espace hilbertien E, la boule unité est faiblement compacte.*
 
-#### Proposition 10 {#evt-v-s1-prop-10 .statement}
+#### Proposition 10 {#evt-v-s1-prop-10 .statement tag=07Y4}
 
 *Si, dans un espace hilbertien E, un filtre $\mathscr{F}$ converge faiblement vers $x_0$, et si en outre $\lim_{\mathscr{F}} \|x\| = \|x_0\|$, alors $\mathscr{F}$ converge vers $x_0$ pour la topologie initiale de E.*
 
 En effet, $\|x - x_0\|^2 = \|x\|^2 - 2\Re \langle x|x_0 \rangle + \|x_0\|^2$. Comme $\langle x|x_0 \rangle$ tend par hypothèse vers $\|x_0\|^2$ suivant $\mathscr{F}$, et que $\|x\|$ tend vers $\|x_0\|$ suivant $\mathscr{F}$, $\|x - x_0\|$ tend vers 0 suivant $\mathscr{F}$, d’où la proposition.
 
-#### Remarque {#evt-v-s1-n7-rem-1 .statement}
+#### Remarque {#evt-v-s1-n7-rem-1 .statement tag=07Y5}
 
 Si E est un espace préhilbertien séparé et $\hat{E}$ l’espace hilbertien complété de E, on sait (III, p. 16) que le dual E′ de E s’identifie au dual de $\hat{E}$; il résulte du th. 3 (V, p. 15) que toute forme linéaire continue sur E s’écrit d’une seule manière $x \mapsto \langle a|x \rangle$, où $a \in \hat{E}$.
 

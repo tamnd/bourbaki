@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: eca8f23b4e671f9167063fefe7efae833700e2cdd4b8ed85c5f37fbd027b6501
+content_sha256: 3140b8d46954e3f568373f3f28851bdd9b6fbf8d195b722e1132bbb165e13ddf
 translated_from: content/en/alg/V/11_s11_abelian_extensions.md
 source_content_sha256: 43c5af3342ac0bbbafe453022e04b05ece3c6ec94573a34e2d29b581bf13d362
 translation_model: gpt-5.4
@@ -66,19 +66,19 @@ Trong suốt tiết này K ký hiệu một trường.
 
 ### 1. Các mở rộng Abel và bao đóng Abel
 
-#### Định nghĩa 1 {#alg-v-s11-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s11-def-1 .statement tag=06OC}
 
 — Một mở rộng E của K được gọi là Abel nếu nó là Galois và nhóm Galois của nó là giao hoán.
 
 Vì mọi nhóm con của một nhóm giao hoán đều là chuẩn tắc, Hệ quả 4 của V, p. 68 cho thấy rằng mọi mở rộng con của một mở rộng Abel đều là Abel.
 
-#### Mệnh đề 1 {#alg-v-s11-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s11-prop-1 .statement tag=06OD}
 
 — Cho E là một mở rộng Galois của K và Γ nhóm Galois của nó. Gọi A là nhóm dẫn xuất của Γ (I, p. 10, Định nghĩa 4) và F là trường bất biến của A. Để một mở rộng con L của E là Abel thì điều kiện cần và đủ là nó được chứa trong F.
 
 Trước hết ta nhận thấy rằng F cũng là trường bất biến của bao đóng $\bar{\Delta}$ của A trong Γ, và $\bar{\Delta}$ là một nhóm con chuẩn tắc đóng của Γ. Theo V, p. 68, Hệ quả 4, do đó F là một mở rộng Galois của K. Hơn nữa, nhóm Galois của F trên K đẳng cấu với $\Gamma / \bar{\Delta}$ và vì thế là giao hoán. Vậy mọi mở rộng con của F đều là Abel. Ngược lại, cho L là một mở rộng Abel của K được chứa trong E, và gọi Π là nhóm Galois của E trên L. Vì L là Galois, Π là một nhóm con chuẩn tắc của Γ và nhóm Galois của L trên K đẳng cấu với $\Gamma / \Pi$ (V, p. 68, Hệ quả 4). Do đó $\Gamma / \Pi$ là giao hoán và Π chứa A, do đó $L \subset F$.
 
-#### Hệ quả {#alg-v-s11-n1-cor-1 .statement}
+#### Hệ quả {#alg-v-s11-n1-cor-1 .statement tag=06OE}
 
 — Cho E là một mở rộng của K và cho $(E_i)_{i \in I}$ là một họ các mở rộng con của E sao cho $E = K \left( \bigcup_{i \in I} E_i \right)$. Giả sử rằng mỗi mở rộng $E_i$ là Abel, thì E cũng vậy.
 
@@ -88,7 +88,7 @@ Một mở rộng E của K được gọi là một bao đóng Abel của K n�
 
 ### 2. Nghiệm của đơn vị
 
-#### Định nghĩa 2 {#alg-v-s11-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s11-def-2 .statement tag=06OF}
 
 *Một phần tử $\zeta$ của K được gọi là một nghiệm của đơn vị nếu tồn tại một số nguyên $n > 0$ sao cho $\zeta^n = 1$; với mọi số nguyên $n > 0$ sao cho $\zeta^n = 1$, $\zeta$ được gọi là một nghiệm bậc n của đơn vị.*
 
@@ -100,13 +100,13 @@ Giả sử rằng K có đặc số khác không $p$ và gọi $r \geq 0$ là m�
 
 Ta nhận thấy rằng một trường có thể không chứa nghiệm đơn vị bậc $n$ nào ngoài 1: chẳng hạn đó là trường hợp của các trường nguyên tố $\mathbf{Q}$ và $\mathbf{F}_p$ với mọi số nguyên lẻ $n$.
 
-#### Định lý 1 {#alg-v-s11-thm-1 .statement}
+#### Định lý 1 {#alg-v-s11-thm-1 .statement tag=06OG}
 
 *Gọi $p$ là số mũ đặc số của K và gọi $n > 0$ là một số nguyên. Khi đó nhóm $\mu_n(K)$ các nghiệm đơn vị bậc $n$ trong K là cyclic và cấp của nó chia hết $n$; khi K đóng đại số và $n$ nguyên tố cùng nhau với $p$, nhóm $\mu_n(K)$ là cyclic cấp $n$.*
 
 Chỉ cần chứng minh mệnh đề thứ nhất của định lý, là hệ quả của bổ đề chính xác hơn sau đây:
 
-#### Bổ đề 1 {#alg-v-s11-lem-1 .statement}
+#### Bổ đề 1 {#alg-v-s11-lem-1 .statement tag=06OH}
 
 *Gọi G là một nhóm con hữu hạn của $K^*$ có cấp $m$; khi đó G là cyclic và ta có $G = \mu_m(K)$.*
 
@@ -114,7 +114,7 @@ Xét G như một Z-môđun; ta có $mx = 0$ với mọi $x \in G$, do đó linh
 
 G' = μ_r(K) ⊃ G và G là cyclic cấp r, vì thế bằng μ_r(K). Vì G có cấp m, ta có m = r và bổ đề được suy ra.
 
-#### Mệnh đề 2 {#alg-v-s11-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s11-prop-2 .statement tag=06OI}
 
 — Gọi K là một trường đóng đại số và gọi p là số mũ đặc số của nó. Tồn tại một đẳng cấu từ μ_∞(K) lên nhóm Q/Z[1/p].
 
@@ -124,15 +124,15 @@ Gọi (v_n), là dãy tăng ngặt gồm tất cả các số nguyên không chi
 
 Mặt khác, gọi β_n là lớp thặng dư mod Z[1/p] của 1/λ_n và gọi H'_n là nhóm con cyclic của Q/Z[1/p] sinh bởi β_n. Rõ ràng β_n = v_{n+1} β_{n+1} và H'_n có cấp λ_n vì X không chia hết cho p nếu p ≠ 1. Vì vậy với mọi n ≥ 1 tồn tại một đẳng cấu φ_n : H_n → H'_n sao cho φ_n(α_n) = β_n và các hệ thức α_n = α_{n+1}^{v_n + 1}, β_n = v_{n+1} β_{n+1}, cho thấy rằng φ_n+, mở rộng φ_n. Cuối cùng tồn tại một đẳng cấu duy nhất φ từ μ_∞(K) lên Q/Z[1/p] mở rộng các đẳng cấu φ_n, nghĩa là, φ(α_n) = β_n với mọi n ≥ 1.
 
-#### Nhận xét 1 {#alg-v-s11-n2-rem-1 .statement}
+#### Nhận xét 1 {#alg-v-s11-n2-rem-1 .statement tag=06OJ}
 
 Khi K là một trường đóng đại số có đặc số 0, nhóm μ_∞(K) vì thế đẳng cấu (không một cách chính tắc) với Q/Z. *Khi K là trường C các số phức, ta có thể viết ra một đẳng cấu như thế một cách tường minh: thật vậy ánh xạ x ↦ e^{2πix} là một đồng cấu từ Q vào C* có hạt nhân Z và ảnh là μ_∞(C); do đó bằng cách chuyển sang thương nó xác định một đẳng cấu từ Q/Z lên μ_∞(C).*
 
-#### Nhận xét 2 {#alg-v-s11-n2-rem-2 .statement}
+#### Nhận xét 2 {#alg-v-s11-n2-rem-2 .statement tag=06OK}
 
 Có thể chứng minh kết quả sau (x. V, p. 165, Ex. 21): gọi G và H là hai nhóm giao hoán mà mọi phần tử đều có cấp hữu hạn. Giả sử rằng với mọi số nguyên n ≥ 1, phương trình nx = 0 có cùng số nghiệm, giả thiết là hữu hạn trong G và trong H. Khi đó các nhóm G và H là đẳng cấu. Điều này cho một chứng minh mới của Mệnh đề 2.
 
-#### Nhận xét 3 {#alg-v-s11-n2-rem-3 .statement}
+#### Nhận xét 3 {#alg-v-s11-n2-rem-3 .statement tag=06OL}
 
 Với mọi số nguyên tố l đặt μ_{l∞}(K) = U μ_{ln}(K). Khi l là đặc số p của K, ta có μ_{p∞}(K) = {1}. Từ I, p. 80, Định lý 4, ta suy ra rằng μ_∞(K) là tổng trực tiếp của các nhóm con μ_{l∞}(K), trong đó l chạy qua tập hợp tất cả các số nguyên tố khác p. Với một số nguyên tố l cho trước chỉ có thể xảy ra hai trường hợp: hoặc μ_{l∞}(K) là hữu hạn và khi đó μ_{l∞}(K) đẳng cấu với Z/l^nZ với một n thích hợp (Định lý 1), hoặc μ_{l∞}(K) là vô hạn và khi đó μ_{l∞}(K) đẳng cấu với Z[l^{-1}]/Z (x. Nhận xét 2).
 
@@ -140,7 +140,7 @@ Với mọi số nguyên tố l đặt μ_{l∞}(K) = U μ_{ln}(K). Khi l là đ
 
 Gọi n ≥ 1 là một số nguyên. Bởi chỉ số Euler của n, viết φ(n), ta hiểu là số các phần tử khả nghịch của vành Z/nZ các số nguyên modulo n. Theo mệnh đề tiếp theo $\varphi(n)$ cũng là số các số nguyên $k$ nguyên tố cùng nhau với $n$ và sao cho $0 \leq k < n$.
 
-#### Mệnh đề 3 {#alg-v-s11-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s11-prop-3 .statement tag=06OM}
 
 *Gọi $k$ và $n \geq 1$ là hai số nguyên. Khi đó các mệnh đề sau là tương đương*:
 
@@ -150,13 +150,13 @@ c) *các số nguyên $k$ và $n$ nguyên tố cùng nhau* (*I*, p. 112).
 
 Mỗi điều kiện a) và b) đều có nghĩa là tồn tại một số nguyên $x$ sao cho $kx \equiv 1 \pmod{n}$, nghĩa là tồn tại hai số nguyên $x$ và $y$ sao cho $kx + ny = 1$. Điều kiện sau cùng này đơn giản có nghĩa là $k$ và $n$ nguyên tố cùng nhau.
 
-#### Hệ quả 1 {#alg-v-s11-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s11-prop-3-cor-1 .statement tag=06ON}
 
 *Cho $G$ là một nhóm cyclic cấp $n$ và cho $d$ là một ước của $n$. Khi đó số phần tử cấp $d$ trong $G$ bằng $\varphi(d)$. Đặc biệt, $\varphi(n)$ là số các phần tử sinh của $G$.*
 
 Vì $G$ đẳng cấu với $\mathbf{Z}/n\mathbf{Z}$, số các phần tử sinh của $G$ bằng $\varphi(n)$ theo Mệnh đề 3. Cho $g$ là một phần tử sinh của $G$; khi đó các phần tử $h$ của $G$ sao cho $h^d = 1$ tạo thành nhóm con $H$ của $G$ sinh bởi $g^{n/d}$; nhóm này là cyclic cấp $d$ và các phần tử cấp $d$ của $G$ là các phần tử sinh của $H$, do đó số của chúng là $\varphi(d)$.
 
-#### Hệ quả 2 {#alg-v-s11-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s11-prop-3-cor-2 .statement tag=06OO}
 
 *Với mọi số nguyên $n \geq 1$, ta có*
 $$
@@ -183,7 +183,7 @@ trong đó $p$ chạy qua tập hợp các ước nguyên tố của $n$.
 
 Một nghiệm đơn vị bậc n được gọi là nguyên thủy nếu nó có cấp $n$; nếu tồn tại một nghiệm như vậy $\zeta$, nhóm $\mu_n(K)$ có cấp $n$ và được sinh bởi $\zeta$. \* Chẳng hạn, các nghiệm đơn vị nguyên thủy bậc n trong $\mathbf{C}$ là các số $e^{2\pi i k / n}$ với $0 \leq k < n$ và $k$ nguyên tố cùng nhau với $n$. \* Hệ quả 1 của Mệnh đề 3 bây giờ suy ra kết quả sau đây.
 
-#### Mệnh đề 4 {#alg-v-s11-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s11-prop-4 .statement tag=06OP}
 
 — Cho $n \geq 1$ là một số nguyên; giả sử rằng tồn tại n nghiệm đơn vị bậc n trong K (điều này đúng chẳng hạn nếu K đóng tách được và $n . 1, \neq 0$). Khi đó số nghiệm đơn vị nguyên thủy bậc n trong K bằng $\varphi(n)$.
 
@@ -199,7 +199,7 @@ $$
 
 là một mở rộng cyclotomic cấp $n$ của K. Ta có thể xem $\mu_n(K_s)$ như một môđun tự do hạng 1 trên vành $\mathbf{Z}/n\mathbf{Z}$, và mọi phần tử $a$ của $\mathrm{Gal}(K_s/K)$ đều cảm sinh một tự đẳng cấu của $\mu_n(K_s)$; do đó tồn tại một đồng cấu $\chi_n : \mathrm{Gal}(K_s/K) \to (\mathbf{Z}/n\mathbf{Z})^*$ được đặc trưng bởi công thức $u(\zeta) = \zeta^j$ với mọi nghiệm bậc $n$ của đơn vị $\zeta$ trong $K_s$, mọi $u$ trong $\mathrm{Gal}(K_s/K)$ và mọi số nguyên $j$ trong lớp thặng dư $\chi_n(u)$ mod $n$. Vì $R_n(K) = K(\mu_n(K_s))$, hạt nhân của $\chi_n$ là nhóm con $\mathrm{Gal}(K_s/R_n(K))$ của $\mathrm{Gal}(K_s/K)$; do đó ta có $\chi_n = \varphi_n \circ \psi_n$ trong đó $\psi_n$ là đồng cấu hạn chế của $\mathrm{Gal}(K_s/K)$ lên $\mathrm{Gal}(R_n(K)/K)$ và $\varphi_n$ là một đơn cấu của $\mathrm{Gal}(R_n(K)/K)$ vào $(\mathbf{Z}/n\mathbf{Z})^*$. Đặc biệt ta có kết quả sau :
 
-#### Mệnh đề 5 {#alg-v-s11-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s11-prop-5 .statement tag=06OQ}
 
 — Với mọi số nguyên $n \geq 1$ nguyên tố cùng nhau với $p$ thì mở rộng $R_n(K)$ của K là Abel có bậc hữu hạn, nhóm Galois của nó đẳng cấu với một nhóm con của $(\mathbf{Z}/n\mathbf{Z})^*$ và bậc của nó chia cấp $\varphi(n)$ của $(\mathbf{Z}/n\mathbf{Z})^*$.
 
@@ -211,7 +211,7 @@ $$
 
 trong đó $S_n$ là tập hợp các nghiệm nguyên thủy bậc $n$ của đơn vị trong $Q$. Đa thức $\Phi_n$ có bậc $\varphi(n)$ (Mệnh đề 4). Rõ ràng $\Phi_n(X)$ là bất biến dưới mọi tự đẳng cấu của $\bar{\mathbf{Q}}$, và vì thế thuộc $\mathbf{Q}[X]$. Vì mọi phần tử $\zeta$ của $S_n$ là một nghiệm của đa thức $X^n - 1$, đa thức $\Phi_n(X)$ chia $X^n - 1$, và bổ đề sau cho thấy rằng $\Phi_n(X)$ là một đa thức đơn khởi với các hệ số nguyên.
 
-#### Bổ đề 2 {#alg-v-s11-lem-2 .statement}
+#### Bổ đề 2 {#alg-v-s11-lem-2 .statement tag=06OR}
 
 *Cho f, g và h là các đa thức đơn khởi trong $\mathbf{Q}[X]$ sao cho $f = gh$. Nếu f có các hệ số nguyên thì g và h cũng vậy.*
 
@@ -279,7 +279,7 @@ $$
 
 Các giá trị của $\Phi_1, \Phi_2, \Phi_3, \Phi_4, \Phi_5, \Phi_7, \Phi_8, \Phi_9$ và $\Phi_{11}$ suy ra trực tiếp từ (7); bây giờ ta có $\Phi_1 \Phi_2 \Phi_3 \Phi_6 = X^6 - 1$ và $\Phi_1 \Phi_2 \Phi_3 \Phi_4 \Phi_6 \Phi_{12} = X^{12} - 1$, do đó $\Phi_4 \Phi_{12} = \frac{X^{12} - 1}{X^6 - 1} - X^6 + 1$ và sau cùng $\Phi_{12} = \frac{X^6 + 1}{X^2 + 1} = X^4 - X^2 + 1$. Các trường hợp $n = 6$ và $n = 10$ có thể được xử lý tương tự.
 
-#### Nhận xét {#alg-v-s11-n4-rem-1 .statement}
+#### Nhận xét {#alg-v-s11-n4-rem-1 .statement tag=06OS}
 
 \* Với mọi số nguyên $n > 0$ một hàm $\mu(n)$ được định nghĩa như sau: nếu $n$ chia hết cho bình phương của một số nguyên tố, ta đặt $\mu(n) = 0$, nếu không thì $\mu(n) = (-1)^h$ nếu $n$ là tích của $h$ số nguyên tố phân biệt (« hàm Mobius »). Có thể chứng minh rằng
 
@@ -299,19 +299,19 @@ trong đó $(p_1, \ldots, p_h)$ chạy trên tập hợp mọi dãy tăng ngặt
 
 Cho $p$ là số mũ đặc số của $K$ và cho $n$ là một số nguyên nguyên tố cùng nhau với $p$. Ta ký hiệu bởi $\Phi_n \in K[X]$ ảnh của đa thức hệ số nguyên $\Phi_n$ dưới đồng cấu duy nhất từ $\mathbf{Z}[X]$ vào $K[X]$ biến $X$ thành $X$.
 
-#### Bổ đề 3 {#alg-v-s11-lem-3 .statement}
+#### Bổ đề 3 {#alg-v-s11-lem-3 .statement tag=06OT}
 
 *Các nghiệm của $\Phi_n$ trong $K_s$ là các căn nguyên thủy bậc $n$ của đơn vị.*
 
 Ký hiệu bởi $S$ tập hợp các nghiệm của $\Phi_n$ trong $K_s$. Theo Công thức (6), tập $\mu_n(K_s)$ là hợp của các $S_d$ với $d$ chia $n$. Vì thế mọi căn nguyên thủy bậc $n$ của đơn vị đều thuộc $S_n$ và bổ đề nay suy ra từ Mệnh đề 4 (V, p. 81).
 
-#### Proposition 6 {#alg-v-s11-prop-6 .statement}
+#### Proposition 6 {#alg-v-s11-prop-6 .statement tag=06OU}
 
 — Cho $p$ là số mũ đặc số của $K$ và cho $n \geq 1$ là một số nguyên nguyên tố cùng nhau với $p$. Để đa thức $\Phi_n(X)$ là bất khả quy trong $K[X]$, điều kiện cần và đủ là đồng cấu $\chi_n : \mathrm{Gal}(K_s/K) \to (\mathbf{Z}/n\mathbf{Z})^*$ phải toàn ánh.
 
 Theo Bổ đề 3, ta có $R_n(K) = K(\zeta)$ với mỗi nghiệm $\zeta$ của $\Phi_n(X)$, và do đó $\Phi_n(X)$ là bất khả quy trong $K[X]$ khi và chỉ khi bậc $\varphi(n)$ của $\Phi_n(X)$ bằng $[R_n(K):K]$. Hơn nữa, nhóm Galois của $R_n(K)$ trên $K$ có cấp $[R_n(K):K]$ và đẳng cấu với nhóm con của $(\mathbf{Z}/n\mathbf{Z})^*$ là ảnh của $\chi_n$. Bây giờ Mệnh đề 6 suy ra từ việc $(\mathbf{Z}/n\mathbf{Z})^*$ có cấp $\varphi(n)$.
 
-#### Định lý 2 (Gauss) {#alg-v-s11-thm-2 .statement}
+#### Định lý 2 (Gauss) {#alg-v-s11-thm-2 .statement tag=06OV}
 
 — Cho $Q$ là một bao đóng đại số của $Q$ và cho $n \geq 1$ là một số nguyên.
 
@@ -331,11 +331,11 @@ Có thể chứng minh rằng với mọi mở rộng Abel $E$ bậc hữu hạn
 
 ### 6. Mở rộng cyclic
 
-#### Định nghĩa 3 {#alg-v-s11-def-3 .statement}
+#### Định nghĩa 3 {#alg-v-s11-def-3 .statement tag=06OW}
 
 — *Một mở rộng E của K được gọi là cyclic nếu nó là Galois và nhóm Galois của nó là cyclic.*
 
-#### Ví dụ {#alg-v-s11-n6-exa-1 .statement}
+#### Ví dụ {#alg-v-s11-n6-exa-1 .statement tag=0DI2}
 
 *1) Mọi mở rộng Galois bậc nguyên tố đều là cyclic, vì mọi nhóm hữu hạn G có cấp nguyên tố $p$ đều là cyclic (vì mọi phần tử $x \neq 1$ của G đều có cấp $p$, nên sinh ra G).
 
@@ -345,7 +345,7 @@ Có thể chứng minh rằng với mọi mở rộng Abel $E$ bậc hữu hạn
 
 Ta biết (I, p. 50) rằng mọi *nhóm con* và mọi *nhóm thương* của một nhóm cyclic đều là cyclic. Vì vậy (V, p. 68, Hệ quả 4), nếu E là một mở rộng cyclic của một trường K, bậc $n$, thì mọi mở rộng con F của E đều *cyclic trên K*, và *E cyclic trên F*. Với mọi ước d của $n$ tồn tại duy nhất một trường con F bậc d trên K được chứa trong E : vì trong một nhóm cyclic cấp $n$ tồn tại duy nhất một nhóm con có chỉ số d.
 
-#### Định lý 3 (*Hilbert*) {#alg-v-s11-thm-3 .statement}
+#### Định lý 3 (*Hilbert*) {#alg-v-s11-thm-3 .statement tag=06OX}
 
 — *Cho E là một mở rộng cyclic của K và gọi a là một phần tử sinh của nhóm Galois $\Gamma$ của E trên K.
 
@@ -355,7 +355,7 @@ b) Để một phần tử $x \in E$ thỏa mãn $\mathrm{Tr}_{E/K}(x) = 0$ thì
 
 Trước hết ta hãy chứng minh một bổ đề.*
 
-#### Bổ đề 4 {#alg-v-s11-lem-4 .statement}
+#### Bổ đề 4 {#alg-v-s11-lem-4 .statement tag=06OY}
 
 *Cho $\Gamma$ là một nhóm cyclic cấp $n$, $\sigma$ là một phần tử sinh của $\Gamma$ và M là một nhóm giao hoán trên đó $\Gamma$ tác động theo quy tắc $\gamma . (m + m') = \gamma . m + \gamma . m'$ với mọi $\gamma \in \Gamma$ và $m, m' \in M$. Gọi Z là tập hợp tất cả các ánh xạ từ $\Gamma$ vào M thỏa mãn quan hệ*
 
@@ -403,19 +403,19 @@ Trong số này, ta ký hiệu bởi $n$ một số nguyên $> 0$ và bởi $T$ 
 
 Với mọi nhóm $G$ ta ký hiệu bởi $\operatorname{Hom}(G, T)$ nhóm các đồng cấu từ $G$ vào $T$; đó là một nhóm giao hoán bị triệt tiêu bởi $n$.
 
-#### Mệnh đề 7 {#alg-v-s11-prop-7 .statement}
+#### Mệnh đề 7 {#alg-v-s11-prop-7 .statement tag=06OZ}
 
 — Cho $G$ là một nhóm giao hoán bị triệt tiêu bởi $n$ và $H$ là một nhóm con của $G$. Khi đó đồng cấu hạn chế $\operatorname{Hom}(G, T) \to \operatorname{Hom}(H, T)$ là toàn ánh.
 
 Vì vậy, cho $f : H \to T$ là một đồng cấu; ta sẽ chứng minh rằng tồn tại một đồng cấu của $G$ vào $T$ kéo dài $f$. Trước hết giả sử rằng $G$ là xyclic, sinh bởi một phần tử $g$ có cấp $r$ chia hết $n$; ký hiệu bởi $t$ một phần tử sinh của $T$. Tồn tại một ước s của r sao cho H được sinh bởi $g^s$ (I, p. 50, Prop. 19), và với mọi $x \in \mathbf{Z}$$f(g^{sx}) = t^{ax}$, trong đó a là một số nguyên sao cho n chia hết $ar/s$. Khi đó $a/s = (ar/ns)(n/r)$ là một số nguyên và đồng cấu $g^x \mapsto t^{(a/s)x}$, $x \in \mathbf{Z}$, của G vào T kéo dài f. Trong trường hợp tổng quát, xét tập hợp các cặp $(H', f')$ trong đó $H'$ là một nhóm con của G chứa H và $f'$ là một đồng cấu của $H'$ vào T kéo dài $f$, và sắp thứ tự tập hợp này bởi quan hệ $(H', f') \leq (H'', f'')$ nếu $H' \subset H''$ và hạn chế của $f''$ trên $H'$ là $f'$. Theo Set Theory, III, p. 154, Def. 3 and Th. 2, tập hợp này có một phần tử cực đại $(H_1, f_1)$ và chỉ cần chứng minh rằng $H_1 = G$; nếu không phải như vậy thì tồn tại $g \in G, g \notin H_1$ và chỉ cần chứng minh rằng $f_1$ có thể được kéo dài thành một đồng cấu T của nhóm con của G được sinh bởi $H_1$ và g. Bây giờ nếu C ký hiệu nhóm xyclic sinh bởi g, thì hạn chế của $f_1$ trên $C \cap H_1$ kéo dài thành một đồng cấu $f_2$ của C vào T và đồng cấu $xy \mapsto f_1(x) f_2(y), x \in H_1, y \in C,$ của $H_1C$ vào T là ánh xạ cần tìm.
 
-#### Hệ quả 1 {#alg-v-s11-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s11-prop-7-cor-1 .statement tag=06P0}
 
 — Nếu G *là* một nhóm giao hoán bị triệt tiêu bởi *n*, và $G \neq \{1\}$, thì $\mathrm{Hom}(G, T) \neq \{1\}$.
 
 Thật vậy, chỉ cần chú ý rằng nếu H là một nhóm con xyclic của G khác $\{1\}$, thì $\mathrm{Hom}(H, T) \neq \{1\}$, rồi áp dụng Prop. 7.
 
-#### Hệ quả 2 {#alg-v-s11-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s11-prop-7-cor-2 .statement tag=06P1}
 
 — Nếu G *là* một nhóm giao hoán *hữu hạn* bị triệt tiêu bởi *n*, thì các nhóm G và $\mathrm{Hom}(G, T)$ có cùng cấp.
 
@@ -447,7 +447,7 @@ $$
 
 bởi $s_f(g)(h) = d_f(h)(g) = f(g, h)$ (cf. II, p. 268, Cor. to Prop. 1, khi G và H giao hoán).
 
-#### Mệnh đề 8 {#alg-v-s11-prop-8 .statement}
+#### Mệnh đề 8 {#alg-v-s11-prop-8 .statement tag=06P2}
 
 — *Giả sử rằng G và H giao hoán và bị triệt tiêu bởi n. Nếu s_f là song ánh và H là hữu hạn, thì d_f là song ánh và ta có Card(G) = Card(H).*
 
@@ -461,13 +461,13 @@ Ta sẽ nói rằng một mở rộng L của K là *Abel có số mũ chia n* n
 
 Cho A là một tập con của $K^*$; ta ký hiệu bởi $K(A^{1/n})$ mở rộng con của $\Omega$ được sinh bởi mọi $0 \in \Omega$ sao cho $\theta^n \in A$.
 
-#### Bổ đề 5 {#alg-v-s11-lem-5 .statement}
+#### Bổ đề 5 {#alg-v-s11-lem-5 .statement tag=06P3}
 
 — *$K(A^{1/n})$ là một mở rộng Abel của K có số mũ chia n.*
 
 Vì các đa thức $X^n - a, a \in A$ là tách được trên K, nên $L = K(A^{1/n})$ là một mở rộng tách được, do đó là Galois, của K. Cho $\sigma \in \mathrm{Gal}(L/K)$ và cho $0 \in \Omega$ sao cho $\theta^n \in A$. Ta có $\sigma(\theta)^n = \theta^n$; do đó tồn tại $\zeta \in \mu_n(\Omega) = \mu_n(K)$ sao cho $\sigma(\theta) = \zeta \theta$; điều này suy ra $\sigma^n(\theta) = \zeta^n \theta = 0$, do đó $\sigma^n = 1$. Nếu $\sigma'$ là một phần tử khác của $\mathrm{Gal}(L/K)$ thì tồn tại $\zeta' \in \mu_n(K)$ sao cho $\sigma'(\theta) = \zeta' \theta$, do đó $\sigma'\sigma(\theta) = \zeta \zeta' \theta = \sigma\sigma'(\theta)$ và vì thế $\sigma'\sigma = \sigma\sigma'$.
 
-#### Bổ đề 6 {#alg-v-s11-lem-6 .statement}
+#### Bổ đề 6 {#alg-v-s11-lem-6 .statement tag=06P4}
 
 — *Cho L là một mở rộng Galois của K. Tồn tại một ánh xạ duy nhất $(\sigma, a) \mapsto \langle \sigma, a \rangle$ từ $\mathrm{Gal}(L/K) \times ((L^n \cap K^*)/K^{*n})$ vào $\mu_n(K)$ sao cho với mọi $\sigma \in \mathrm{Gal}(L/K)$ và mọi phần tử $0 \in L^*$ sao cho $\theta^n \in K$ ta có, khi ký hiệu bởi $\overline{\theta^n}$ lớp thặng dư của $\theta^n$ mod $K^{*n}$:*
 
@@ -490,7 +490,7 @@ $$
 
 cho các đồng cấu dẫn xuất từ ánh xạ nhân tính hai phía ở trên (V, p. 87).
 
-#### Mệnh đề 9 {#alg-v-s11-prop-9 .statement}
+#### Mệnh đề 9 {#alg-v-s11-prop-9 .statement tag=06P5}
 
 *Với mọi mở rộng Galois bậc hữu hạn L của K, đồng cấu $k_L$ là song ánh.*
 
@@ -502,13 +502,13 @@ $$
 
 Theo V, p. 65, Hệ quả 1, tồn tại $0 \in L^*$ sao cho $f(\sigma) = \sigma(\theta)/\theta$ với mọi $\sigma \in \mathrm{Gal}(L/K)$; vì $f(\sigma)^n = 1$, ta có $\sigma(\theta^n) = 0^n$ với mọi $\sigma \in \mathrm{Gal}(L/K)$, do đó $0^n \in K^*$; nếu $a$ là lớp thặng dư của $\theta^n \mod K^{*n}$, thì theo định nghĩa ta có $f(\sigma) = \langle \sigma, a \rangle$ với $\sigma \in \mathrm{Gal}(L/K)$, do đó $f = k_L(a)$.
 
-#### Hệ quả {#alg-v-s11-n8-cor-1 .statement}
+#### Hệ quả {#alg-v-s11-n8-cor-1 .statement tag=06P6}
 
 *Nếu L là một mở rộng Galois của K, thì đồng cấu $k_L$ là đơn ánh và ảnh của nó là nhóm $\mathrm{Hom}_c(\mathrm{Gal}(L/K), \mu_n(K))$ các đồng cấu liên tục từ nhóm tôpô $\mathrm{Gal}(L/K)$ vào nhóm rời rạc $\mu_n(K)$.*
 
 Điều này suy ra ngay từ những gì đã nói, khi dùng sự kiện rằng L là một hợp có hướng tăng của các mở rộng Galois $L_i$ bậc hữu hạn và rằng một đồng cấu từ $\mathrm{Gal}(L/K)$ vào $\mu_n(K)$ là liên tục khi và chỉ khi nó phân tích được qua một trong các thương $\mathrm{Gal}(L_i/K)$ của $\mathrm{Gal}(L/K)$.
 
-#### Định lý 4 {#alg-v-s11-thm-4 .statement}
+#### Định lý 4 {#alg-v-s11-thm-4 .statement tag=06P7}
 
 *a) Ánh xạ $H \mapsto K(H^{1/n})$ là một song ánh bảo toàn bao hàm từ tập hợp các nhóm con của $K^*$ chứa $K^{*n}$ lên tập hợp các mở rộng con Abel của $\Omega$ có số mũ chia hết cho n. Ánh xạ nghịch đảo là $L \mapsto L'' \cap K^*$.
 
@@ -550,23 +550,23 @@ Nếu ta đồng nhất $\operatorname{Hom}(H_L/K^{*n}, \mu_n(K))$ với Gal$(L/
 
 D) Ta hãy chứng minh c). Nếu $a, b \in H$, ta có $\theta_a \theta_b / \theta_{ab} \in K$. Suy ra không gian con vectơ của $K(H^{1/n})$ sinh bởi các $\theta_a$ là ổn định đối với phép nhân và vì thế trùng với $K(H^{1/n})$. Chỉ còn phải chỉ ra rằng các $\theta_a$ độc lập tuyến tính; để làm điều đó hiển nhiên ta có thể giả sử rằng $H/K^{*n}$ là hữu hạn; khi đó $[K(H^{1/n}) : K] = (\operatorname{Gal}(K(H^{1/n})/K) : \{1\}) = (H : K^{*n})$ theo b) và Hệ quả 2 của V, p. 87; vì số các $\theta_a$ bằng với $(H : K^{*n})$ và chúng sinh không gian vectơ K $K(H^{1/n})$, nên chúng độc lập tuyến tính.
 
-#### Ví dụ 1 {#alg-v-s11-n8-exa-1 .statement}
+#### Ví dụ 1 {#alg-v-s11-n8-exa-1 .statement tag=06P8}
 
 Tồn tại một mở rộng Abel lớn nhất có số mũ chia hết cho $n$ của K, được chứa trong $\Omega$; nó thu được bằng cách kề thêm vào K các căn bậc $n$ của mọi phần tử của nó; nhóm Galois của nó có thể được đồng nhất với $\operatorname{Hom}(K^*/K^{*n}, \mu_n(K))$, do đó cũng với $\operatorname{Hom}(K^*, \mu_n(K))$.
 
-#### Ví dụ 2 {#alg-v-s11-n8-exa-2 .statement}
+#### Ví dụ 2 {#alg-v-s11-n8-exa-2 .statement tag=06P9}
 
 Lấy $K = \mathbf{Q}$ và $n = 2$. Khi đó $\mathbf{Q}^*/\mathbf{Q}^{*2}$ là một không gian vectơ trên $\mathbf{F}_2$ có một cơ sở là hợp của $\{-1\}$ và tập hợp mọi số nguyên tố. Vì vậy mở rộng Abel lớn nhất có số mũ 2 của Q chứa trong $\mathbf{C}$ là trường con $\mathbf{Q}(i, \sqrt{2}, \sqrt{3}, \sqrt{5}, \ldots)$ của $\mathbf{C}$. Nhóm Galois của nó gồm tất cả các tự đẳng cấu thu được bằng cách nhân mỗi phần tử $i,\ \sqrt{2},\ \sqrt{3},\ \sqrt{5}$ v.v. với $\pm 1$. \*
 
-#### Ví dụ 3 {#alg-v-s11-n8-exa-3 .statement}
+#### Ví dụ 3 {#alg-v-s11-n8-exa-3 .statement tag=06PA}
 
 Cho $L$ là một mở rộng cyclic của $K$ bậc $n$; khi đó nhóm $(L^n \cap K^*)/K^{*n}$ là cyclic cấp $n$. Nếu $a \in K^*$ sao cho lớp thặng dư của $a$ mod $K^{*n}$ là một phần tử sinh của nhóm này, thì L là K-đẳng cấu với $K[X]/(X^n - a)$ và nhóm $\mathrm{Gal}(L/K)$ gồm $n$ tự đẳng cấu gửi $X$ tới $\zeta X$, $\zeta \in \mu_n(K)$.
 
-#### Ví dụ 4 {#alg-v-s11-n8-exa-4 .statement}
+#### Ví dụ 4 {#alg-v-s11-n8-exa-4 .statement tag=06PB}
 
 Ngược lại, cho $a \in K^*$ và cho $r$ là số nguyên nhỏ nhất $> 0$ sao cho $a' \in K^{*n}$; khi đó trường con $L$ của $\Omega$ sinh bởi các nghiệm của đa thức $X^n - a$ là một mở rộng cyclic của $K$ bậc $r$. Đặc biệt, $X^n - a$ là bất khả quy khi và chỉ khi $r = n$.
 
-#### Nhận xét {#alg-v-s11-n8-rem-1 .statement}
+#### Nhận xét {#alg-v-s11-n8-rem-1 .statement tag=06PC}
 
 Cho $a \in K^*$ và cho r là số nguyên nhỏ nhất $> 0$ sao cho $a' \in K^n$. Gọi B là tập hợp các nghiệm trong K của đa thức $X^{n/r} - a$; khi đó ta có
 
@@ -586,13 +586,13 @@ $$
 
 Theo V, p. 93, hạt nhân của $\varphi$ là trường con nguyên tố $\mathbf{F}_p$ của $K$. Với mọi tập con $A$ của K, ta ký hiệu $K(\varphi^{-1}(A))$ là mở rộng con của $\Omega$ sinh bởi mọi $x \in \Omega$ sao cho $\varphi(x) \in A$.
 
-#### Bổ đề 7 {#alg-v-s11-lem-7 .statement}
+#### Bổ đề 7 {#alg-v-s11-lem-7 .statement tag=06PD}
 
 $K(\varphi^{-1}(A))$ là một mở rộng Abel của $K$ với số mũ chia hết cho $p$.
 
 Vì các đa thức $\varphi - a = X^p - X - a,\ a \in A$ tách được trên $K$, nên mở rộng $L = K(\varphi^{-1}(A))$ là Galois. Cho $a \in \mathrm{Gal}(L/K)$ và $x \in \varphi^{-1}(A)$; ta có $\varphi(\sigma(x)) = \varphi(x)$, do đó $\sigma(x) - x \in \mathbf{F}_p$, nghĩa là $\sigma(x) = x + i,\ i \in \mathbf{F}_p$. Điều này suy ra $\sigma^p(x) = x + pi = x$, nên $u^p = 1$; tương tự, nếu $a' \in \mathrm{Gal}(L/K)$ và $\sigma'(x) = x + j$, thì ta có $\sigma \circ \sigma'(x) = x + i + j = a' \circ \sigma(x)$, nên $\sigma \circ \sigma' = \sigma' \circ \sigma$.
 
-#### Bổ đề 8 {#alg-v-s11-lem-8 .statement}
+#### Bổ đề 8 {#alg-v-s11-lem-8 .statement tag=06PE}
 
 Cho L là một mở rộng Galois của K. Tồn tại một ánh xạ duy nhất $(\sigma, a) \mapsto [a, a')$ từ $\mathrm{Gal}(L/K) \times ((\varphi(L) \cap K)/\varphi(K))$ vào $\mathbf{F}_p$ sao cho với mọi $\sigma \in \mathrm{Gal}(L/K)$ và mọi phần tử $x \in L$ sao cho $\varphi(x) \in K$ ta có, ký hiệu bởi $\overline{\varphi(x)}$ lớp thặng dư của $\varphi(x)$ mod $\varphi(K)$,
 
@@ -615,7 +615,7 @@ $$
 
 cho các đồng cấu thu được từ ánh xạ song tuyến tính trên Z ở trên (V, p. 87).
 
-#### Mệnh đề 10 {#alg-v-s11-prop-10 .statement}
+#### Mệnh đề 10 {#alg-v-s11-prop-10 .statement tag=06PF}
 
 *Với mọi mở rộng Galois $L$ bậc hữu hạn của $K$, đồng cấu $a_L$ là song ánh.*
 
@@ -627,13 +627,13 @@ $$
 
 Theo V, p. 65, Hệ quả 2 tồn tại $x \in L$ sao cho $f(u) = \sigma(x) - x$ với mọi $o \in \mathrm{Gal}(L/K)$. Vì $f(o) \in \mathbf{F}_p$ nên ta có $\mathscr{P}(\sigma(x)) = \mathscr{P}(x)$, do đó $\sigma(\mathscr{P}(x)) = \mathscr{P}(x)$ với mọi $a \in \mathrm{Gal}(L/K)$ và $\mathscr{P}(x) \in K$. Nếu $a$ là lớp thặng dư của $\mathscr{P}(x) \mod \mathscr{P}(K)$, ta có $f(\sigma) = [\sigma, a)$, nên $f = a_L(a)$.
 
-#### Hệ quả {#alg-v-s11-n9-cor-1 .statement}
+#### Hệ quả {#alg-v-s11-n9-cor-1 .statement tag=06PG}
 
 *Nếu $L$ là một mở rộng Galois của $K$, đồng cấu $a_L$ là đơn ánh và ảnh của nó là nhóm $\mathrm{Hom}_c(\mathrm{Gal}(L/K), \mathbf{F}_p)$ các đồng cấu liên tục của nhóm tôpô $\mathrm{Gal}(L/K)$ vào nhóm rời rạc $\mathbf{F}_p$.*
 
 Điều này được chứng minh theo cùng một cách như Hệ quả của Mệnh đề 9, V, p. 89.
 
-#### Định lý 5 {#alg-v-s11-thm-5 .statement}
+#### Định lý 5 {#alg-v-s11-thm-5 .statement tag=06PH}
 
 *a) Ánh xạ $A \mapsto K(\mathscr{P}^{-1}(A))$ là một song ánh từ tập hợp các nhóm con của $K$ chứa $\mathscr{P}(K)$ lên tập hợp các mở rộng con Abel có số mũ chia hết cho $p$ trong $\Omega$. Ánh xạ nghịch đảo là $L \mapsto \mathscr{P}(L) \cap K$.
 b) Với mọi nhóm con $A$ của $K$ chứa $\mathscr{P}(K)$, đồng cấu
@@ -647,15 +647,15 @@ c) Cho $A$ là một nhóm con của $K$ chứa $\mathscr{P}(K)$ và cho $B$ là
 
 Định lý 5 được chứng minh theo cùng một cách như Định lý 4 (V, p. 89) *mutatis mutandis*.
 
-#### Ví dụ 1 {#alg-v-s11-n9-exa-1 .statement}
+#### Ví dụ 1 {#alg-v-s11-n9-exa-1 .statement tag=06PI}
 
 Tồn tại một mở rộng Abel lớn nhất của K có số mũ chia hết cho p, chứa trong \Omega; đó là K(B^1(K)), nhóm Galois của nó có thể được đồng nhất với Horn(K/\mathfrak{p}(K),\mathbf{F}_p).
 
-#### Ví dụ 2 {#alg-v-s11-n9-exa-2 .statement}
+#### Ví dụ 2 {#alg-v-s11-n9-exa-2 .statement tag=06PJ}
 
 Cho L là một mở rộng cyclic của K có bậc p; khi đó nhóm (\mathfrak{p}(L) \cap K)/\mathfrak{p}(K) là cyclic cấp p. Nếu a \in K sao cho lớp thặng dư của a mod \mathfrak{p}(K) là một phần tử sinh của nhóm này, thì L là K-đẳng cấu với K[X]/(X^p - X - a) và nhóm Galois Gal(L/K) gồm p tự đẳng cấu ánh xạ X thành X + i, i \in \mathbf{F}_p.
 
-#### Ví dụ 3 {#alg-v-s11-n9-exa-3 .statement}
+#### Ví dụ 3 {#alg-v-s11-n9-exa-3 .statement tag=06PK}
 
 Ngược lại, nếu a \in K - \mathfrak{p}(K), thì đa thức X^p - X - a là bất khả quy và trường con L của \Omega sinh bởi các nghiệm của nó là một mở rộng cyclic của K có bậc p. Nếu a \in \mathfrak{p}(K), thì X^p - X - a = \prod_{a \in \mathfrak{p}^{-1}(a)} (X - \alpha).
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 86
 statements: 68
 exercises: 41
-content_sha256: fd56f848b75e700c61a9151fe7bedae5c2c70f554e68a1940affbc42e0e7d6aa
+content_sha256: 9c7631a5baa25cb85cab46f8b151d0f6d6cb331558c815c05bbb68d35d9e0c80
 ---
 
 ## § 6. EXTENSIONS, GROUPES RÉSOLUBLES, GROUPES NILPOTENTS
@@ -50,7 +50,7 @@ Dans tout ce paragraphe, les lois de groupe sont, sauf mention expresse du contr
 
 ### 1. Extensions
 
-#### Définition 1 {#alg-i-s6-def-1 .statement}
+#### Définition 1 {#alg-i-s6-def-1 .statement tag=05CQ}
 
 Soient $F$ et $G$ deux groupes. Une extension de $G$ par $F$ est un triplet $\mathscr{E} = (E, i, p)$, où $E$ est un groupe, $i$ un homomorphisme injectif de $F$ dans $E$ et $p$ un homomorphisme surjectif de $E$ sur $G$ tels que $\operatorname{Im}(i) = \operatorname{Ker}(p)$. On appelle section (resp. rétraction) de l’extension $\mathscr{E}$ un homomorphisme $s : G \to E$ (resp. $r : E \to F$) tel que $p \circ s = \operatorname{Id}_G$ (resp. $r \circ i = \operatorname{Id}_F$).
 
@@ -72,7 +72,7 @@ F & & & & G \\
 \end{array}
 $$
 
-#### Proposition 1 {#alg-i-s6-prop-1 .statement}
+#### Proposition 1 {#alg-i-s6-prop-1 .statement tag=05CR}
 
 *Soient $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ et $\mathscr{E}': F \xrightarrow{i'} E' \xrightarrow{p'} G$ des extensions de G par F. Si $u: E \to E'$ est un morphisme de $\mathscr{E}$ dans $\mathscr{E}'$, u est un isomorphisme de E sur $E'$ et $u^{-1}$ est un morphisme de $\mathscr{E}'$ dans $\mathscr{E}$.*
 
@@ -82,7 +82,7 @@ En d’autres termes, les extensions $\mathscr{E}$ et $\mathscr{E}'$ sont isomor
 
 Soient F et G deux groupes ; posons $E_0 = F \times G$; soient $i : F \to E_0$ l’injection canonique et $p : E_0 \to G$ la surjection canonique. Toute extension de G par F isomorphe à l’extension $\mathscr{E}_0 : F \xrightarrow{i} E_0 \xrightarrow{p} G$ est appelée extension triviale.
 
-#### Proposition 2 {#alg-i-s6-prop-2 .statement}
+#### Proposition 2 {#alg-i-s6-prop-2 .statement tag=05CS}
 
 *Soit $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ une extension de G par F. Les conditions suivantes sont équivalentes :
 (i) $\mathscr{E}$ est une extension triviale ;
@@ -93,7 +93,7 @@ Il est clair que (i) entraîne (ii) et (iii). Si (ii) est vérifiée, l’applic
 
 Il peut arriver qu’une extension $\mathscr{E}: F \to E \to G$ ne soit pas triviale, et que cependant le groupe $E$ soit isomorphe à $F \times G$ (I, p. 135, exerc. 6).
 
-#### Définition 2 {#alg-i-s6-def-2 .statement}
+#### Définition 2 {#alg-i-s6-def-2 .statement tag=05CT}
 
 Soient $F$ et $G$ deux groupes, et $\tau$ un homomorphisme de $G$ dans le groupe des automorphismes de $F$. Posons $\tau(g)(f) = ^g f$ pour $g \in G$ et $f \in F$. On appelle produit semi-direct externe de $G$ par $F$ relativement à $\tau$ l’ensemble $F \times G$ muni de la loi de composition
 
@@ -103,7 +103,7 @@ $$
 
 Le produit semi-direct externe de $G$ par $F$ relativement à $\tau$ se note $F \times_{\tau} G$.
 
-#### Proposition 3 {#alg-i-s6-prop-3 .statement}
+#### Proposition 3 {#alg-i-s6-prop-3 .statement tag=05CU}
 
 Le produit semi-direct externe $F \times_{\tau} G$ est un groupe. Les applications $i : F \to F \times_{\tau} G$ définie par $i(f) = (f, e)$, $p : F \times_{\tau} G \to G$ définie par $p(f, g) = g$, et $s : G \to F \times_{\tau} G$ définie par $s(g) = (e, g)$ sont des homomorphismes de groupes. Le triplet $(F \times_{\tau} G, i, p)$ est une extension de $G$ par $F$ et $s$ est une section de l’extension.
 
@@ -124,7 +124,7 @@ $$
 i'(\tau(g, f)) = s'(g)i'(f)s'(g)^{-1} = \operatorname{Int}(s'(g))(i'(f)).
 $$
 
-#### Proposition 4 {#alg-i-s6-prop-4 .statement}
+#### Proposition 4 {#alg-i-s6-prop-4 .statement tag=05CV}
 
 Avec les notations ci-dessus, il existe un isomorphisme $u$ de $\mathscr{E}_{\tau}$ sur $\mathscr{E}'$ et un seul tel que $u \circ s = s'$.
 
@@ -140,19 +140,21 @@ $$
 $$
 Par suite, $u$ est un homomorphisme de $F \times_{\tau} G$ dans $E'$. On a évidemment $u \circ i = i', p' \circ u = p$ et $u \circ s = s'$.
 
-#### Remarque {#alg-i-s6-n1-rem-1 .statement}
+#### Remarque {#alg-i-s6-n1-rem-1 .statement tag=05CW}
 
 La définition de l’opération $\tau$ par la formule (2) fait intervenir l’extension $\mathscr{E}'$ et la section $s'$. Lorsque $F$ est commutatif, l’opération $\tau$ ne dépend pas de $s'$. En effet, $\operatorname{Int}(s'(g))|i'(F)$ ne dépend alors que de la classe de $s'(g)$ mod. $i'(F)$.
 
 Plus généralement, soit $\mathscr{E} : F \to E \to G$ une extension de $G$ par un groupe commutatif $F$ (on ne suppose pas que $\mathscr{E}$ admette une section). Le groupe $E$ opère sur $F$ par automorphismes intérieurs, et cette opération est triviale sur l’image de F, donc définit une opération de G sur F. Si $\mathscr{E}$ admet une section, cette opération est celle définie par la formule (2).
 
-#### Corollaire {#alg-i-s6-n1-cor-1 .statement}
+#### Corollaire {#alg-i-s6-n1-cor-1 .statement tag=05CX}
 
 *Soient G un groupe, H et K deux sous-groupes de G tels que H soit distingué, H ∩ K = {e} et H.K = G. Soit $\tau$ l’opération de K sur H par automorphismes intérieurs de G. L’application $(h, k) \mapsto hk$ est un isomorphisme de $H \times_{\tau} K$ sur G.*
 
 Sous les hypothèses de ce corollaire, on dit que G est *produit semi-direct* de K par H.
 
-*Exemples. —* 1) Soient G un groupe et E un G-ensemble principal homogène. Notons $\Gamma$ le groupe des automorphismes de G. Soit A l’ensemble des permutations $f$ de E possédant la propriété suivante:
+#### Exemples {#alg-i-s6-n1-exa-1 .statement tag=05CY}
+
+1) Soient G un groupe et E un G-ensemble principal homogène. Notons $\Gamma$ le groupe des automorphismes de G. Soit A l’ensemble des permutations $f$ de E possédant la propriété suivante:
 Il existe $\gamma \in \Gamma$ tel que $f$ soit un $\gamma$-morphisme de E dans E (autrement dit, $f(gb) = \gamma(g)f(b)$ pour $b \in E$ et $g \in G$).
 La formule $f(gb) = \gamma(g)f(b)$ précédente montre que, si $f \in A$, il existe *un seul* $\gamma \in \Gamma$ tel que $f$ soit un $\gamma$-morphisme; nous le noterons $p(f)$.
 Soient $f, f'$ dans A, $\gamma = p(f), \gamma' = p(f')$. On a, pour tout $b \in E$ et tout $g \in G$,
@@ -175,7 +177,7 @@ La prop. 4 montre alors que A est isomorphe au produit semi-direct de $\Gamma = 
 
 ### 2. Commutateurs
 
-#### Définition 3 {#alg-i-s6-def-3 .statement}
+#### Définition 3 {#alg-i-s6-def-3 .statement tag=05CZ}
 
 *Soient G un groupe, $x$ et $y$ deux éléments de G. On appelle* commutateur *de $x$ et $y$ l’élément $x^{-1}y^{-1}xy$ de G.*
 
@@ -223,7 +225,7 @@ Par permutation circulaire de $x, y, z$, on en déduit $(y^{z}, (z, x)) = v^{-1}
 
 Si A et B sont deux sous-groupes de G, on note (A, B) le sous-groupe engendré par les commutateurs $(a, b)$ pour $a \in A$ et $b \in B$.\footnote{Nous nous écartons ici de la convention posée dans I, p. 2 pour la notation de l’extension aux parties d’une loi de composition.} On a $(A, B) = \{e\}$ si et seulement si A centralise B. On a $(A, B) \subset A$ si et seulement si B normalise A. Si A et B sont distingués (resp. caractéristiques), il en est de même de (A, B).
 
-#### Proposition 5 {#alg-i-s6-prop-5 .statement}
+#### Proposition 5 {#alg-i-s6-prop-5 .statement tag=05D0}
 
 *Soient A, B, C trois sous-groupes de G.*
 
@@ -259,13 +261,13 @@ $$
 
 d’où (iii).
 
-#### Définition 4 {#alg-i-s6-def-4 .statement}
+#### Définition 4 {#alg-i-s6-def-4 .statement tag=05D1}
 
 Soit G un groupe. On appelle groupe dérivé de G le sous-groupe engendré par les commutateurs d’éléments de G.
 
 Le groupe dérivé de G est donc le sous-groupe (G, G). On le note aussi D(G). Par abus de langage, on l’appelle parfois le groupe des commutateurs de G, bien qu’il soit en général distinct de l’ensemble des commutateurs d’éléments de G (I, p. 137, exerc. 16). On a D(G) = {e} si et seulement si G est commutatif.
 
-#### Proposition 6 {#alg-i-s6-prop-6 .statement}
+#### Proposition 6 {#alg-i-s6-prop-6 .statement tag=05D2}
 
 Soit $f : G \to G'$ un homomorphisme de groupes. On a
 
@@ -277,17 +279,17 @@ Si f est surjectif, l’homomorphisme de D(G) dans D(G') restriction de f est su
 
 L’image par f d’un commutateur d’éléments de G est un commutateur d’éléments de G'. Si f est surjectif, l’image par f de l’ensemble des commutateurs de G est l’ensemble des commutateurs de G'. La proposition résulte donc de I, p. 32, cor. 3.
 
-#### Corollaire 1 {#alg-i-s6-prop-6-cor-1 .statement}
+#### Corollaire 1 {#alg-i-s6-prop-6-cor-1 .statement tag=05D3}
 
 Le groupe dérivé d’un groupe G est un sous-groupe caractéristique de G. En particulier, c’est un sous-groupe distingué de G.
 
-#### Corollaire 2 {#alg-i-s6-prop-6-cor-2 .statement}
+#### Corollaire 2 {#alg-i-s6-prop-6-cor-2 .statement tag=05D4}
 
 Soit G un groupe. Le groupe quotient $G/D(G)$ est commutatif. Soit $\pi : G \to G/D(G)$ l’homomorphisme canonique. Tout homomorphisme f de G dans un groupe commutatif G' se met de façon unique sous la forme $f = \bar{f} \circ \pi$, où $\bar{f} : G/D(G) \to G'$ est un homomorphisme.
 
 On a $\pi(D(G)) = \{e\}$. Comme $\pi$ est surjectif, on en déduit $D(G/D(G)) = \{e\}$, d’où la première assertion. La seconde résulte de I, p. 35, prop. 5.
 
-#### Corollaire 3 {#alg-i-s6-prop-6-cor-3 .statement}
+#### Corollaire 3 {#alg-i-s6-prop-6-cor-3 .statement tag=05D5}
 
 Soit H un sous-groupe de G. Les conditions suivantes sont équivalentes.
 (i) $H \supset D(G)$;
@@ -295,25 +297,25 @@ Soit H un sous-groupe de G. Les conditions suivantes sont équivalentes.
 
 On a (ii) ⇒ (i) par le cor. 2 et (i) ⇒ (ii) par I, p. 39, th. 4, tout sous-groupe d’un groupe commutatif étant distingué.
 
-#### Corollaire 4 {#alg-i-s6-prop-6-cor-4 .statement}
+#### Corollaire 4 {#alg-i-s6-prop-6-cor-4 .statement tag=05D6}
 
 Soient G un groupe et X une partie de G qui engendre G. Le groupe D(G) est le sous-groupe distingué de G engendré par les commutateurs d’éléments de X.
 
 Soient H le sous-groupe distingué de G engendré par les commutateurs d’éléments de X et φ : G → G/H l’homomorphisme canonique. L’ensemble φ(X) engendre G/H. Les éléments de φ(X) sont deux à deux permutables, donc H est commutatif (I, p. 32, cor. 2). Donc (cor. 3) H contient D(G). Par ailleurs on a évidemment H ⊂ D(G).
 
-#### Remarque 1 {#alg-i-s6-n2-rem-1 .statement}
+#### Remarque 1 {#alg-i-s6-n2-rem-1 .statement tag=05D7}
 
 Le cor. 2 peut encore s’énoncer en disant que G/D(G), muni de π, est solution du problème d’application universelle pour G, relativement aux groupes commutatifs et aux homomorphismes de G dans les groupes commutatifs.
 
-#### Remarque 2 {#alg-i-s6-n2-rem-2 .statement}
+#### Remarque 2 {#alg-i-s6-n2-rem-2 .statement tag=0DEH}
 
 Sous les hypothèses du cor. 4, le sous-groupe engendré par les commutateurs d’éléments de X est contenu dans D(G), mais n’est pas en général égal à D(G) (cf. I, p. 137, exerc. 15c).
 
-#### Exemple 1 {#alg-i-s6-n2-exa-1 .statement}
+#### Exemple 1 {#alg-i-s6-n2-exa-1 .statement tag=05D8}
 
 Si G est un groupe simple non commutatif, on a D(G) = G. Par suite, tout homomorphisme de G dans un groupe commutatif est trivial.
 
-#### Exemple 2 {#alg-i-s6-n2-exa-2 .statement}
+#### Exemple 2 {#alg-i-s6-n2-exa-2 .statement tag=0DEI}
 
 Le groupe dérivé du groupe symétrique $\mathfrak{S}_n$ est le groupe alterné $\mathfrak{A}_n$. En effet, $\mathfrak{A}_n$ est engendré par les produits de deux transpositions; si $\tau = \tau_{x,y}$ et $\tau' = \tau_{x',y'}$ sont deux transpositions, soit $\sigma$ une permutation telle que $\sigma(x') = x$ et $\sigma(y') = y$. On a $\tau' = \sigma^{-1} \tau \sigma$ et $\tau \tau' = \tau^{-1} \tau' = \tau^{-1} \sigma^{-1} \tau \sigma$ est un commutateur. Donc $\mathfrak{A}_n \subset D(\mathfrak{S}_n)$. Comme $\mathfrak{S}_n / \mathfrak{A}_n$ est commutatif, on a $\mathfrak{A}_n \supset D(\mathfrak{S}_n)$ (cor. 3).
 
@@ -321,7 +323,7 @@ Le groupe dérivé du groupe symétrique $\mathfrak{S}_n$ est le groupe alterné
 
 Soient G un groupe, H un sous-groupe de G et K un sous-groupe distingué de G. L’image de H dans G/K est contenue dans le centre de G/K si et seulement si (G, H) ⊂ K.
 
-#### Définition 5 {#alg-i-s6-def-5 .statement}
+#### Définition 5 {#alg-i-s6-def-5 .statement tag=05D9}
 
 Soit G un groupe. On appelle suite centrale descendante de G, la suite $(C^n(G))_{n \geq 1}$ de sous-groupes de G définie par récurrence par:
 
@@ -351,29 +353,29 @@ $$
 
 Donc $((F_{m,n}) \text{ et } (F_{m+1,n})) \Rightarrow (F_{m,n+1})$. Comme $(F_{m,1})$ et $(F_{1,n})$ sont évidentes, on obtient $(F_{m,n})$ par récurrence.
 
-#### Définition 6 {#alg-i-s6-def-6 .statement}
+#### Définition 6 {#alg-i-s6-def-6 .statement tag=05DA}
 
 On dit qu’un groupe $G$ est nilpotent s’il existe un entier $n$ tel que $C^{n+1}(G) = \{e\}$. On appelle classe de nilpotence d’un groupe nilpotent $G$ le plus petit entier $n$ tel que $C^{n+1}(G) = \{e\}$.
 
 Si $n \in \mathbf{N}$, un groupe de classe de nilpotence $n$ est appelé groupe nilpotent de classe $n$. On dit parfois que la classe de nilpotence d’un groupe $G$ est finie si $G$ est nilpotent.
 
-#### Exemple 1 {#alg-i-s6-n3-exa-1 .statement}
+#### Exemple 1 {#alg-i-s6-n3-exa-1 .statement tag=05DB}
 
 Un groupe est nilpotent de classe 0 (resp. $\leq 1$) si et seulement s’il est réduit à l’élément neutre (resp. est commutatif).
 
-#### Exemple 2 {#alg-i-s6-n3-exa-2 .statement}
+#### Exemple 2 {#alg-i-s6-n3-exa-2 .statement tag=0DEJ}
 
 *Pour tout anneau commutatif $A$ et tout entier $n \geq 1$, le groupe trigonal strict supérieur $T_1(n, A)$ est nilpotent de classe $\leq n - 1$ (et même de classe $n - 1$ si $A \neq \{0\}$).*
 
-#### Exemple 3 {#alg-i-s6-n3-exa-3 .statement}
+#### Exemple 3 {#alg-i-s6-n3-exa-3 .statement tag=0DEK}
 
 Soit $G$ un groupe nilpotent de classe $n$. Tout sous-groupe (resp. tout groupe quotient) de $G$ est nilpotent de classe $\leq n$. En effet, si $H$ est un sous-groupe de $G$, on a $C^n(H) \subset C^n(G)$. Si $G'$ est un groupe quotient de $G$ et $\pi : G \to G'$ l’homomorphisme canonique, on a $C^n(G') = \pi(C^n(G))$.
 
-#### Exemple 4 {#alg-i-s6-n3-exa-4 .statement}
+#### Exemple 4 {#alg-i-s6-n3-exa-4 .statement tag=0DEL}
 
 Un produit fini de groupes nilpotents est nilpotent.
 
-#### Proposition 7 {#alg-i-s6-prop-7 .statement}
+#### Proposition 7 {#alg-i-s6-prop-7 .statement tag=05DC}
 
 Soient $G$ un groupe et $n$ un entier. Les conditions suivantes sont équivalentes :
 a) $G$ est nilpotent de classe $\leq n$.
@@ -392,11 +394,11 @@ c) $\Rightarrow$ a) : soit $\pi : G \to G/A$ l’homomorphisme canonique ; on a 
 
 En termes plus brefs : un groupe est nilpotent de classe $\leq n$ s’il s’obtient par $n$ extensions centrales successives à partir du groupe $\{e\}$.
 
-#### Corollaire {#alg-i-s6-n3-cor-1 .statement}
+#### Corollaire {#alg-i-s6-n3-cor-1 .statement tag=05DD}
 
 Une extension centrale d’un groupe nilpotent (par un groupe nécessairement commutatif) est nilpotent.
 
-#### Proposition 8 {#alg-i-s6-prop-8 .statement}
+#### Proposition 8 {#alg-i-s6-prop-8 .statement tag=05DE}
 
 Soit G un groupe nilpotent de classe $\leq n$, et soit H un sous-groupe de G. Il existe une suite de sous-groupes
 $$
@@ -416,19 +418,19 @@ et $(G, G^k).H$ est contenu dans $G^{k+1}.H = H^{k+1}$; d’où $s.H^{k+1}.s^{-1
 
 Enfin, l’homomorphisme canonique $G^k/G^{k+1} \to H^k/H^{k+1}$ est évidemment surjectif; comme le premier groupe est commutatif, le second l’est aussi.
 
-#### Corollaire 1 {#alg-i-s6-prop-8-cor-1 .statement}
+#### Corollaire 1 {#alg-i-s6-prop-8-cor-1 .statement tag=05DF}
 
 Soient G un groupe nilpotent et H un sous-groupe de G. Si H est distinct de G, le normalisateur $N_G(H)$ de H dans G est distinct de H.
 
 Soit k le plus grand indice tel que $H^k \neq H$. Le groupe $H^k$ normalise H, et est distinct de H.
 
-#### Corollaire 2 {#alg-i-s6-prop-8-cor-2 .statement}
+#### Corollaire 2 {#alg-i-s6-prop-8-cor-2 .statement tag=05DG}
 
 Soient G un groupe nilpotent et H un sous-groupe de G. Si H est distinct de G, il existe un sous-groupe distingué N de G, contenant H, distinct de G, et tel que $G/N$ soit commutatif.
 
 Soit k le plus petit indice tel que $H^k \neq G$. Le groupe $H^k$ répond à la question.
 
-#### Corollaire 3 {#alg-i-s6-prop-8-cor-3 .statement}
+#### Corollaire 3 {#alg-i-s6-prop-8-cor-3 .statement tag=05DH}
 
 Soient G un groupe nilpotent et H un sous-groupe de G. Si $G = H.(G, G)$, on a $G = H$.
 
@@ -436,7 +438,7 @@ En effet, tout sous-groupe N de G qui contient H et tel que G/N soit commutatif 
 
 Le cor. 3 peut encore se formuler ainsi: soit X une partie de G. Pour que X engendre G, il faut et il suffit que l’image de X dans G/D(G) engendre G/D(G).
 
-#### Corollaire 4 {#alg-i-s6-prop-8-cor-4 .statement}
+#### Corollaire 4 {#alg-i-s6-prop-8-cor-4 .statement tag=05DI}
 
 Soit $f : G' \to G$ un homomorphisme de groupes. Supposons que:
 a) G est nilpotent.
@@ -444,7 +446,7 @@ b) L’homomorphisme $f_1 : G'/(G', G') \to G/(G, G)$, déduit de f par passage 
 Alors f est surjectif.
 Cela résulte du cor. 3 appliqué au sous-groupe $H = f(G')$.
 
-#### Proposition 9 {#alg-i-s6-prop-9 .statement}
+#### Proposition 9 {#alg-i-s6-prop-9 .statement tag=05DJ}
 
 Soit G un groupe nilpotent de classe $\leq n$, et soit N un sous-groupe distingué de G. Il existe une suite de sous-groupes
 $$
@@ -457,13 +459,13 @@ $$
 N^{lc} = G^{lc} \cap N.
 $$
 
-#### Corollaire 1 {#alg-i-s6-prop-9-cor-1 .statement}
+#### Corollaire 1 {#alg-i-s6-prop-9-cor-1 .statement tag=05DK}
 
 *Soient $G$ un groupe nilpotent, $Z$ le centre de $G$, et $N$ un sous-groupe distingué de $G$. Si $N \neq \{e\}$, on a $N \cap Z \neq \{e\}$.
 
 Soit $k$ le plus grand indice tel que $N^{lc} \neq \{e\}$. Le groupe $N^{lc}$ est contenu dans $N$. D’autre part, $(G, N^{lc}) \subset N^{lc+1} = \{e\}$; donc $N^{lc}$ est contenu dans le centre $Z$ de $G$.
 
-#### Corollaire 2 {#alg-i-s6-prop-9-cor-2 .statement}
+#### Corollaire 2 {#alg-i-s6-prop-9-cor-2 .statement tag=05DL}
 
 *Soit $f$ un homomorphisme d’un groupe nilpotent $G$ dans un groupe $G'$. Si la restriction de $f$ au centre de $G$ est injective, $f$ est injectif.
 
@@ -471,7 +473,7 @@ C’est le cor. 1 appliqué à $\mathrm{Ker}(f)$.
 
 ### 4. Suite dérivée, groupes résolubles
 
-#### Définition 7 {#alg-i-s6-def-7 .statement}
+#### Définition 7 {#alg-i-s6-def-7 .statement tag=05DM}
 
 *Soit $G$ un groupe. On appelle suite dérivée de $G$ la suite $(D^n(G))_{n \in \mathbf{N}}$ définie par récurrence par:
 $$
@@ -483,37 +485,37 @@ Soit $f : G \to G'$ un homomorphisme de groupes. On voit, par récurrence sur $n
 
 Soit $(G_0, G_1, \ldots)$ une suite décroissante de sous-groupes de $G$ tels que: 1) $G_0 = G$; 2) pour tout $i$, $G_{i+1}$ est distingué dans $G_i$ et $G_i/G_{i+1}$ est commutatif. Alors $D^i(G) \subset G_i$ pour tout $i$, comme on le voit par récurrence sur $i$.
 
-#### Définition 8 {#alg-i-s6-def-8 .statement}
+#### Définition 8 {#alg-i-s6-def-8 .statement tag=05DN}
 
 *On dit qu’un groupe $G$ est résoluble s’il existe un entier $n$ tel que $D^n(G) = \{e\}$. Si $G$ est un groupe résoluble, le plus petit entier $n$ tel que $D^n(G) = \{e\}$ est appelé la classe de résolvabilité de $G$.
 
 Un groupe résoluble de classe de résolvabilité $n$ est appelé un groupe résoluble de classe $n$. On dit parfois qu’un groupe est de classe de résolvabilité finie s’il est résoluble.
 
-#### Exemple 1 {#alg-i-s6-n4-exa-1 .statement}
+#### Exemple 1 {#alg-i-s6-n4-exa-1 .statement tag=05DO}
 
 Un groupe est résoluble de classe 0 (resp. $\leq 1$) si et seulement s’il est réduit à $e$ (resp. est commutatif).
 
-#### Exemple 2 {#alg-i-s6-n4-exa-2 .statement}
+#### Exemple 2 {#alg-i-s6-n4-exa-2 .statement tag=0DEM}
 
 Tout groupe nilpotent de classe $\leq 2^n - 1$ est résoluble de classe $\leq n$; cela résulte de la formule $D^n(G) \subset C^{2^n}(G)$ démontrée plus haut.
 
-#### Exemple 3 {#alg-i-s6-n4-exa-3 .statement}
+#### Exemple 3 {#alg-i-s6-n4-exa-3 .statement tag=0DEN}
 
 Soit $G$ un groupe résoluble de classe $\leq n$. Tout sous-groupe (resp. groupe quotient) de $G$ est résoluble de classe $\leq n$ (démonstration analogue à celle de I, p. 69, *Exemple 3*).
 
-#### Exemple 4 {#alg-i-s6-n4-exa-4 .statement}
+#### Exemple 4 {#alg-i-s6-n4-exa-4 .statement tag=0DEO}
 
 Si G est un groupe résoluble de classe $p$ et F un groupe résoluble de classe $q$, toute extension E de G par F est un groupe résoluble de classe $\leq p + q$. En effet, soit $\pi : E \to G$ la projection; on a $\pi(D^p(E)) \subset D^p(G) = \{e\}$ et par suite $D^p(E) \subset F$; on en déduit que $D^{p+q}(E) = D^q(D^p(E)) \subset D^q(F) = \{e\}$.
 
-#### Exemple 5 {#alg-i-s6-n4-exa-5 .statement}
+#### Exemple 5 {#alg-i-s6-n4-exa-5 .statement tag=0DEP}
 
 Le groupe symétrique $S_n$ est résoluble si et seulement si $n < 5$ (cf. I, p. 130, exerc. 10 et p. 131, exerc. 16).
 
-#### Exemple 6 {#alg-i-s6-n4-exa-6 .statement}
+#### Exemple 6 {#alg-i-s6-n4-exa-6 .statement tag=0DEQ}
 
 *Si A est un anneau commutatif, le groupe trigonal supérieur $T(n, A)$ est résoluble mais non nilpotent en général.*
 
-#### Proposition 10 {#alg-i-s6-prop-10 .statement}
+#### Proposition 10 {#alg-i-s6-prop-10 .statement tag=05DP}
 
 *Soit G un groupe et soit n un entier. Les conditions suivantes sont équivalentes*:
 
@@ -537,7 +539,7 @@ On a (i) $\Rightarrow$ (ii): il suffit de prendre $G^k$ égal à $D^k(G)$. On a 
 
 En termes plus brefs: un groupe est résoluble de classe $\leq n$ s’il s’obtient par extensions successives de $n$ groupes commutatifs.
 
-#### Corollaire {#alg-i-s6-n4-cor-1 .statement}
+#### Corollaire {#alg-i-s6-n4-cor-1 .statement tag=05DQ}
 
 *Soient G un groupe fini et*
 $$
@@ -551,7 +553,7 @@ En effet, si les quotients d’une suite de composition de G sont cycliques, don
 
 Dans ce numéro et le suivant, la lettre $p$ désigne un nombre premier (I, p. 48, déf. 16).
 
-#### Définition 9 {#alg-i-s6-def-9 .statement}
+#### Définition 9 {#alg-i-s6-def-9 .statement tag=05DR}
 
 *On appelle p-groupe un groupe fini dont l’ordre est une puissance de p.*
 
@@ -563,7 +565,7 @@ Une extension d’un $p$-groupe par un $p$-groupe est un $p$-groupe.
    2) Soit $k$ un corps fini de caractéristique $p$. Le groupe trigonal strict $T_1(n, k)$ est un $p$-groupe.
    3) Le groupe quaternionien $\{ \pm 1, \pm i, \pm j, \pm k \}$ est un 2-groupe (cf. I, p. 134, exerc. 4).*
 
-#### Proposition 11 {#alg-i-s6-prop-11 .statement}
+#### Proposition 11 {#alg-i-s6-prop-11 .statement tag=05DS}
 
 Soient E un ensemble fini et G un $p$-groupe opérant sur E. Notons $E^G$ l’ensemble des $x \in E$ tels que $gx = x$ pour tout $g \in G$ (points fixes). On a
 $$
@@ -571,7 +573,7 @@ $$
 $$
 En effet, $E - E^G$ est réunion disjointe d’orbites non réduites à un point. Le cardinal d’une telle orbite est une puissance de $p$ différente de $p^0 = 1$, donc est un multiple de $p$.
 
-#### Corollaire {#alg-i-s6-n5-cor-1 .statement}
+#### Corollaire {#alg-i-s6-n5-cor-1 .statement tag=05DT}
 
 Soit G un $p$-groupe. Si G n’est pas réduit à e, son centre n’est pas réduit à e.
 
@@ -581,7 +583,7 @@ $$
 $$
 d’où $\operatorname{Card}(Z) \neq 1$ et $Z \neq \{e\}$.
 
-#### Théorème 1 {#alg-i-s6-thm-1 .statement}
+#### Théorème 1 {#alg-i-s6-thm-1 .statement tag=05DU}
 
 Soient G un $p$-groupe, $p^r$ son ordre. Il existe une suite de sous-groupes de G
 $$
@@ -591,13 +593,13 @@ telle que $(G, G^k) \subset G^{k+1}$, pour $1 \leq k \leq r$, et que $G^k/G^{k+1
 
 Le théorème est vrai pour $G = \{e\}$. Démontrons-le par récurrence sur $\operatorname{Card}(G)$. Soient Z le centre de G, $x \neq e$ un élément de Z (cor. de la prop. 11) et $p^s$, avec $s \neq 0$, l’ordre de $x$. Alors $x^{p^{s-1}}$ est un élément d’ordre $p$ et par suite Z contient un sous-groupe $G^r$ cyclique d’ordre $p$. Par l’hypothèse de récurrence, le groupe $G' = G/G^r$ possède une suite de sous-groupes $({G'}^k)_{1 \leq k \leq r}$ ayant les propriétés demandées. Soit $\pi : G \to G'$ l’homomorphisme canonique. La suite de sous-groupes de G définie par $G^k = \pi^{-1}({G'}^k)$ pour $1 \leq k \leq r$, $G^{r+1} = \{e\}$, répond à la question, car $G^k/G^{k+1}$ est isomorphe à ${G'}^k/{G'}^{k+1}$ pour $1 \leq k < r$ (I, p. 39, th. 4).
 
-#### Corollaire {#alg-i-s6-n5-cor-2 .statement}
+#### Corollaire {#alg-i-s6-n5-cor-2 .statement tag=05DV}
 
 Tout $p$-groupe est nilpotent.
 
 Ceci résulte de I, p. 69, prop. 7.
 
-#### Proposition 12 {#alg-i-s6-prop-12 .statement}
+#### Proposition 12 {#alg-i-s6-prop-12 .statement tag=05DW}
 
 Soit G un $p$-groupe et soit H un sous-groupe de G distinct de G. Alors:
 a) Le normalisateur $N_G(H)$ de H dans G est distinct de G.
@@ -605,13 +607,13 @@ b) Il existe un sous-groupe distingué N de G, d’indice $p$ dans G, qui contie
 
 L’assertion a) résulte de I, p. 70, cor. 1. Démontrons b). D’après I, p. 70, cor. 2, il existe un sous-groupe distingué N’ de G contenant H, distinct de G et tel que G/N’ soit commutatif. Soit N un sous-groupe distinct de G contenant N’ et maximal. Alors N est distingué (I, p. 67, cor. 3) et G/N est un $p$-groupe commutatif simple, donc cyclique d’ordre $p$ (I, p. 48, corollaire).
 
-#### Corollaire {#alg-i-s6-n5-cor-3 .statement}
+#### Corollaire {#alg-i-s6-n5-cor-3 .statement tag=05DX}
 
 *Soit G un $p$-groupe. Tout sous-groupe d’indice $p$ de G est distingué.*
 
 ### 6. Sous-groupes de Sylow
 
-#### Définition 10 {#alg-i-s6-def-10 .statement}
+#### Définition 10 {#alg-i-s6-def-10 .statement tag=05DY}
 
 *Soit G un groupe fini. On appelle $p$-sous-groupe de Sylow de G tout sous-groupe P de G vérifiant les deux conditions suivantes:
 a) P est un $p$-groupe;
@@ -619,16 +621,18 @@ b) $(G : P)$ n’est pas un multiple de $p$.
 
 Si l’on écrit l’ordre de G sous la forme $p^r m$, où $m$ n’est pas un multiple de $p$, les conditions a) et b) sont équivalentes à $\mathrm{Card}(P) = p^r$.
 
-*Exemples. — 1) Dans le groupe $\mathfrak{S}_p$, soit $\zeta$ un cycle d’ordre $p$. Le sous-groupe engendré par $\zeta$ est un $p$-sous-groupe de Sylow de $\mathfrak{S}_p$ car $p$ ne divise pas $(p - 1)!$.
+#### Exemples {#alg-i-s6-n6-exa-1 .statement tag=05DZ}
+
+*1) Dans le groupe $\mathfrak{S}_p$, soit $\zeta$ un cycle d’ordre $p$. Le sous-groupe engendré par $\zeta$ est un $p$-sous-groupe de Sylow de $\mathfrak{S}_p$ car $p$ ne divise pas $(p - 1)!$.
 2) *Soit k un corps fini de caractéristique $p$, et soit n un entier positif. Le groupe trigonal strict $T_1(n, k)$ est un $p$-sous-groupe de Sylow du groupe $\mathbf{GL}(n, k)$.*
 
-#### Théorème 2 {#alg-i-s6-thm-2 .statement}
+#### Théorème 2 {#alg-i-s6-thm-2 .statement tag=05E0}
 
 *Tout groupe fini contient un $p$-sous-groupe de Sylow.*
 
 La démonstration s’appuie sur le lemme suivant.
 
-#### Lemme {#alg-i-s6-n6-lem-1 .statement}
+#### Lemme {#alg-i-s6-n6-lem-1 .statement tag=05E1}
 
 *Soit $n = p^r m$ où $m$ est un entier non multiple de $p$. On a*
 $$
@@ -651,17 +655,17 @@ $$
 $$
 d’où, en vertu du lemme, $\operatorname{Card}(E) \not\equiv 0 \pmod{p}$. Considérons l’extension à $E$ de l’opération de $G$ sur lui-même par translations à gauche. Il existe $X \in E$ dont l’orbite a un cardinal non nul mod. $p$. Si $H_X$ désigne le stabilisateur de $X$, on a donc $(G : H_X) \not\equiv 0$ mod. $p$, ce qui signifie que $p^r$ divise $\operatorname{Card}(H_X)$. Mais $H_X$ est formé des $s \in G$ tels que $sX = X$; si $x \in X$, on a donc $H_X \subset X.x^{-1}$, d’où $\operatorname{Card}(H_X) \leq \operatorname{Card}(X) = p^r$. On a donc $\operatorname{Card}(H_X) = p^r$.
 
-#### Corollaire {#alg-i-s6-n6-cor-1 .statement}
+#### Corollaire {#alg-i-s6-n6-cor-1 .statement tag=05E2}
 
 *Si l’ordre de $G$ est divisible par $p$, le groupe $G$ contient un élément d’ordre $p$.*
 
 Grâce au th. 2, on se ramène au cas où $G$ est un $p$-groupe $\neq \{e\}$; si $x \in G$ est différent de $e$, le groupe cyclique engendré par $x$ est alors d’ordre $p^n$ avec $n \geq 1$ et il contient donc un sous-groupe d’ordre $p$.
 
-#### Remarque {#alg-i-s6-n6-rem-1 .statement}
+#### Remarque {#alg-i-s6-n6-rem-1 .statement tag=05E3}
 
 Pour tout nombre premier $q$ divisant $\operatorname{Card}(G)$, soit $P_q$ un $q$-sous-groupe de Sylow de $G$. Alors le sous-groupe $H$ de $G$ engendré par les $P_q$ est d’ordre multiple de $\operatorname{Card}(P_q)$ pour chaque $q$ et d’ordre divisant $\operatorname{Card}(G)$, donc est égal à $G$.
 
-#### Théorème 3 {#alg-i-s6-thm-3 .statement}
+#### Théorème 3 {#alg-i-s6-thm-3 .statement tag=05E4}
 
 *Soit $G$ un groupe fini.*
 
@@ -675,26 +679,26 @@ Si $H$ est un $p$-sous-groupe de Sylow, on a $\operatorname{Card}(H) = \operator
 
 Démontrons la seconde assertion de a). Soit $\mathscr{S}$ l’ensemble des $p$-sous-groupes de Sylow de $G$, et faisons opérer $P$ sur $\mathscr{S}$ par automorphismes intérieurs. L’élément $P \in \mathscr{S}$ est point fixe pour cette opération; montrons que c’est le seul. Soit $Q \in \mathscr{S}$ un point fixe; $Q$ est un sous-groupe de Sylow de $G$ normalisé par $P$, donc $P$ est contenu dans le normalisateur $N$ de $Q$. Les groupes $P$ et $Q$ sont des $p$-sous-groupes de Sylow de $N$; il existe donc $n \in N$ tel que $P = nQn^{-1} = Q$. D’après I, p. 73, prop. 11, on a $\operatorname{Card}(\mathscr{S}) \equiv \operatorname{Card}(\mathscr{S}^P) = 1$ (mod. $p$).
 
-#### Corollaire 1 {#alg-i-s6-thm-3-cor-1 .statement}
+#### Corollaire 1 {#alg-i-s6-thm-3-cor-1 .statement tag=05E5}
 
 *Soit $P$ un $p$-sous-groupe de Sylow de $G$, soit $N$ son normalisateur dans $G$, et soit $M$ un sous-groupe de $G$ contenant $N$. Le normalisateur de $M$ dans $G$ est égal à $M$.*
 
 Soit $s \in G$ tel que $sMs^{-1} = M$. Le sous-groupe $sPs^{-1}$ de $M$ est un $p$-sous-groupe de Sylow de $M$. Il existe donc $t \in M$ tel que $sPs^{-1} = tPt^{-1}$; on a alors $t^{-1}s \in N$, d’où $s \in tN \subset M$.
 
-#### Corollaire 2 {#alg-i-s6-thm-3-cor-2 .statement}
+#### Corollaire 2 {#alg-i-s6-thm-3-cor-2 .statement tag=05E6}
 
 *Soit $f : G_1 \to G_2$ un homomorphisme de groupes finis. Pour tout $p$-sous-groupe de Sylow $P_1$ de $G_1$, il existe un $p$-sous-groupe de Sylow $P_2$ de $G_2$ tel que $f(P_1) \subset P_2$.*
 
 Cela résulte du th. 3, b), appliqué au sous-groupe $f(P_1)$ de $G_2$.
 
-#### Corollaire 3 {#alg-i-s6-thm-3-cor-3 .statement}
+#### Corollaire 3 {#alg-i-s6-thm-3-cor-3 .statement tag=05E7}
 
 a) *Soit $H$ un sous-groupe de $G$. Pour tout $p$-sous-groupe de Sylow $P$ de $H$, il existe un $p$-sous-groupe de Sylow $Q$ de $G$ tel que $P = Q \cap H$.*
 b) *Réciproquement, si $Q$ est un $p$-sous-groupe de Sylow de $G$, et si $H$ est distingué dans $G$, le groupe $Q \cap H$ est un $p$-sous-groupe de Sylow de $H$.*
 a) Le $p$-groupe $P$ est contenu dans un $p$-sous-groupe de Sylow $Q$ de $G$, et $Q \cap H$ est un $p$-sous-groupe de $H$ contenant $P$, donc égal à $P$.
 b) Soit $P'$ un $p$-sous-groupe de Sylow de $H$. Il existe un élément $g \in G$ tel que $gP'g^{-1} \subset Q$. Comme $H$ est distingué, $P = gP'g^{-1}$ est contenu dans $H$, donc dans $Q \cap H$. Comme $Q \cap H$ est un $p$-sous-groupe de $H$ et $P$ un $p$-sous-groupe de Sylow de $H$, on a $P = Q \cap H$.
 
-#### Corollaire 4 {#alg-i-s6-thm-3-cor-4 .statement}
+#### Corollaire 4 {#alg-i-s6-thm-3-cor-4 .statement tag=05E8}
 
 *Soit $N$ un sous-groupe distingué de $G$. L’image dans $G/N$ d’un $p$-sous-groupe de Sylow de $G$ est un $p$-sous-groupe de Sylow de $G/N$, et tout $p$-sous-groupe de Sylow de $G/N$ s’obtient de cette façon.*
 
@@ -702,7 +706,7 @@ Soient $G' = G/N$ et $P'$ l’image dans $G'$ d’un $p$-sous-groupe de Sylow $P
 
 ### 7. Groupes nilpotents finis
 
-#### Théorème 4 {#alg-i-s6-thm-4 .statement}
+#### Théorème 4 {#alg-i-s6-thm-4 .statement tag=05E9}
 
 *Soit $G$ un groupe fini. Les conditions suivantes sont équivalentes :*
 a) $G$ est nilpotent.
@@ -714,22 +718,22 @@ Supposons c) vérifiée, et soit $I$ l’ensemble des nombres premiers divisant 
 
 G. Pour tout $p \neq q$, $P_p \cap P_q$ est réduit à $e$, car c’est à la fois un $p$-groupe et un $q$-groupe, donc $P_p$ et $P_q$ se centralisent mutuellement (I, p. 46, prop. 15). Soit $\varphi$ l’homomorphisme canonique (I, p. 45, prop. 12) de $\prod_{p \in I} P_p$ dans G. L’homomorphisme $\varphi$ est surjectif d’après la Remarque de I, p. 75. Comme Card $(\prod_{p \in I} P_p) = \mathrm{Card}(G)$, il en résulte que $\varphi$ est bijectif.
 
-#### Remarque 1 {#alg-i-s6-n7-rem-1 .statement}
+#### Remarque 1 {#alg-i-s6-n7-rem-1 .statement tag=05EA}
 
 Soit G un groupe fini et soit $p$ un nombre premier. D’après I, p. 75, th. 3, a), et I, p. 74, th. 2, les conditions suivantes sont équivalentes:
 (i) il existe un $p$-sous-groupe de Sylow de G distingué;
 (ii) tout $p$-sous-groupe de Sylow de G est distingué;
 (iii) il existe un seul $p$-sous-groupe de Sylow de G.
 
-#### Remarque 2 {#alg-i-s6-n7-rem-2 .statement}
+#### Remarque 2 {#alg-i-s6-n7-rem-2 .statement tag=0DER}
 
 Soit G un groupe fini nilpotent. Soit I l’ensemble des diviseurs premiers de Card G. D’après le th. 4 et la Remarque 1, on a $G = \prod_{p \in I} G_p$, où $G_p$ est l’unique $p$-groupe de Sylow de G.
 
-#### Remarque 3 {#alg-i-s6-n7-rem-3 .statement}
+#### Remarque 3 {#alg-i-s6-n7-rem-3 .statement tag=0DES}
 
 Appliqué aux groupes commutatifs, le th. 4 donne la décomposition en produit de composantes primaires des groupes finis commutatifs, qui sera étudiée d’un autre point de vue au chap. VII.
 
-#### Exemple {#alg-i-s6-n7-exa-1 .statement}
+#### Exemple {#alg-i-s6-n7-exa-1 .statement tag=05EB}
 
 Le groupe $\mathfrak{S}_3$ est d’ordre 6. Il contient un 3-sous-groupe de Sylow distingué d’ordre 3 : le groupe $A_3$. Il contient trois 2-sous-groupes de Sylow d’ordre 2 : les groupes $\{e, \tau\}$, où $\tau$ est une transposition. Le groupe $\mathfrak{S}_3$ n’est donc pas nilpotent.
 

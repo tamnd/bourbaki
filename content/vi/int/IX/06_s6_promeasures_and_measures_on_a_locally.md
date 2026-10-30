@@ -57,9 +57,9 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: e06116562c4cd249472018815354116bd22d7176d52c5f7f6d82eed878a92461
+content_sha256: 122ab9c4d2846f8ae511605fd7bd596ca606757f09759ce5ddb5c1a459ebb94b
 translated_from: content/en/int/IX/06_s6_promeasures_and_measures_on_a_locally.md
-source_content_sha256: 9014150dd23621beb068a9cff949348c6c1889c2a84b07cd06313dd80e417bed
+source_content_sha256: e617c5fb964b4dfa4c93d927e10519f76530432982d0dd1d298de1585dc144da
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-9d47048b
 glossary_version: 34
@@ -77,7 +77,7 @@ Cho E là một không gian lồi địa phương. Ta ký hiệu bởi $\mathscr
 
 Có thể chỉ ra rằng giới hạn ngược của hệ ngược $\mathscr{Q}(E)$ đẳng cấu chính tắc với đối ngẫu đại số $E'{}^*$ của $E'$, được trang bị tôpô yếu $\sigma(E'{}^*, E')$.
 
-#### Định nghĩa 1 {#int-ix-s6-def-1 .statement}
+#### Định nghĩa 1 {#int-ix-s6-def-1 .statement tag=09S6}
 
 *Cho $E$ là một không gian lồi địa phương. Ta gọi promeasure trên $E$ là mọi hệ ngược$^{(1)}$ các độ đo (§ 4, No. 2, Def. 1) trên hệ ngược các thương hữu hạn chiều của $E$.*
 
@@ -87,7 +87,7 @@ Nói cách khác, một promeasure $\mu$ trên $E$ là một họ $(\mu_V)_{V \i
 
 Cho $\lambda$ là một độ đo bị chặn trên $E$. Với mỗi $V \in \mathscr{F}(E)$, ta ký hiệu bởi $\widetilde{\lambda}_V$ ảnh của $\lambda$ qua ánh xạ chính tắc $p_V$ từ $E$ lên $E/V$. Ta có $p_V = p_{VW} \circ p_W$ với mọi phần tử $V$ và $W$ của $\mathscr{F}(E)$ sao cho $V \supset W$; do đó, họ $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathscr{F}(E)}$ là một prođộ đo trên $E$. Ta sẽ nói rằng $\widetilde{\lambda}$ là prođộ đo *liên kết* với độ đo $\lambda$. Ta thấy ngay lập tức rằng $\lambda$ và $\widetilde{\lambda}$ có cùng tổng khối lượng.
 
-#### Mệnh đề 1 {#int-ix-s6-prop-1 .statement}
+#### Mệnh đề 1 {#int-ix-s6-prop-1 .statement tag=09S7}
 
 *Cho $E$ là một không gian lồi địa phương. Ánh xạ $\lambda \mapsto \widetilde{\lambda}$ là một song ánh từ tập hợp các độ đo bị chặn trên $E$ lên tập hợp các prođộ đo $(\mu_V)_{V \in \mathscr{F}(E)}$ trên $E$ thỏa mãn điều kiện sau:
 
@@ -99,7 +99,7 @@ Ta biết rằng giao các hạt nhân của các dạng tuyến tính liên t�
 
 (1) Cũng được gọi là một 'hệ xạ ảnh'.
 
-#### Mệnh đề 2 {#int-ix-s6-prop-2 .statement}
+#### Mệnh đề 2 {#int-ix-s6-prop-2 .statement tag=09S8}
 
 — Cho T là một tập hợp đếm được, và E là không gian vectơ các hàm thực trên T, được trang bị tôpô của sự hội tụ điểm một. Mọi prođộ đo trên E đều là một độ đo.
 
@@ -174,7 +174,7 @@ $$
 
 với mọi $x' \in V^\circ$. Ta có $E' = \bigcup_{V \in \mathscr{F}(E)} V^\circ$, do đó công thức trước đó đặc trưng hàm $\mathscr{F}\mu$ trên $E'$. Cuối cùng, nếu đặt $x' = 0$ trong (5), ta thấy khối lượng toàn phần của $\mu$ bằng $(\mathscr{F}\mu)(0)$.
 
-#### Mệnh đề 3 {#int-ix-s6-prop-3 .statement}
+#### Mệnh đề 3 {#int-ix-s6-prop-3 .statement tag=09S9}
 
 *Cho $E$ là một không gian lồi địa phương. Ánh xạ $\mu \mapsto \mathscr{F}\mu$ từ tập hợp các độ đo tiền trên $E$ vào tập hợp các hàm trên $E'$ là đơn ánh.*
 
@@ -190,13 +190,13 @@ Với mọi số nguyên $m \geqslant 0$, gọi $G_m$ là nhóm con $m \cdot \ma
 
 Cho $f$ là một hàm liên tục trên $\mathbf{R}^n$ có support compact. Với mọi số nguyên $m \geqslant 0$, đặt $f_m(x) = \sum_{q \in G_m} f(x + q)$. Ngay lập tức thấy rằng với mọi $x \in \mathbf{R}^n$, chuỗi trên chỉ có hữu hạn số hạng, và $f_m$ thuộc $\mathscr{C}_m$. Hơn nữa, dễ thấy rằng dãy $(f_m)$ hội tụ đều tới $f$ trên mọi tập compact, và tồn tại một hằng $C \geqslant 0$ sao cho $|f_m| \leqslant C$ với mọi $m$. Do đó, $\mu(f) = \lim_{m \to \infty} \mu(f_m)$ theo Mệnh đề 12 của §5, No. 6. Vì $f_m \in \mathscr{C}_m$, ta có $\mu(f_m) = 0$, do đó cuối cùng $\mu(f) = 0$. Vậy $\mu = 0$.
 
-#### Nhận xét {#int-ix-s6-n3-rem-1 .statement}
+#### Nhận xét {#int-ix-s6-n3-rem-1 .statement tag=09SA}
 
 — Khi $E$ hữu hạn chiều, mọi đặc trưng của $E$ đều có dạng $x \mapsto e^{i\langle x, x' \rangle}$ với $x' \in E'$ (*Théor. spect.*, Ch. II, §1, No. 9, Hệ quả 3 của Mệnh đề 12). Trong trường hợp này, Mệnh đề 3 suy ra từ định lý duy nhất đối với phép biến đổi Fourier (*loc. cit.*, §1, No. 6, Hệ quả của Mệnh đề 6).*
 
 ### 4. Tính các tích phân Gauss
 
-#### Bổ đề 1 {#int-ix-s6-lem-1 .statement}
+#### Bổ đề 1 {#int-ix-s6-lem-1 .statement tag=09SB}
 
 Với mọi số nguyên $n \geqslant 0$,
 
@@ -245,7 +245,7 @@ Với $n = 0$, quan hệ này thu về $\Gamma(\frac{1}{2}) = \pi^{1/2}$, tức 
 
 Cuối cùng, công thức (8) suy ra từ việc hàm $x \mapsto x^{2n+1} e^{-x^2/2}$ là lẻ.
 
-#### Bổ đề 2 {#int-ix-s6-lem-2 .statement}
+#### Bổ đề 2 {#int-ix-s6-lem-2 .statement tag=09SC}
 
 Với mọi số phức $y$,
 
@@ -309,7 +309,7 @@ theo (14). Công thức (11) khi đó suy ra từ (12).
 
 ### 5. Promesure và mesure Gauss
 
-#### Mệnh đề 4 {#int-ix-s6-prop-4 .statement}
+#### Mệnh đề 4 {#int-ix-s6-prop-4 .statement tag=09SD}
 
 *Cho E là một không gian lồi địa phương. Với mọi dạng toàn phương dương Q trên E', tồn tại một và chỉ một promeasure $\Gamma_Q$ trên E sao cho $\mathscr{F} \Gamma_Q = e^{-Q/2}$. Khối lượng toàn phần của $\Gamma_Q$ bằng 1.*
 
@@ -356,13 +356,13 @@ theo công thức (4) của No. 3.
 C) *Trường hợp tổng quát.*
 Cho $V \in \mathscr{F}(E)$. Ký hiệu bởi $p_V$ ánh xạ chính tắc từ $E$ lên $E/V$, và bởi $Q_V$ dạng toàn phương dương $Q \circ {}^t p_V$ trên $(E/V)'$; sau cùng, cho $\mu_V$ là độ đo trên $E/V$ có biến đổi Fourier là $e^{-Q_V/2}$ (xem B)). Nếu $W \in \mathscr{F}(E)$ được chứa trong $V$, thì $p_V = p_{VW} \circ p_W$, do đó $Q_V = Q_W \circ {}^t p_{VW}$; theo công thức (4) của No. 3, độ đo $p_{VW}(\mu_W)$ có biến đổi Fourier là hàm $(e^{-Q_W/2}) \circ {}^t p_{VW} = e^{-Q_V/2}$, vì thế bằng $\mu_V$. Vậy họ $(\mu_V)_{V \in \mathscr{F}(E)}$ là một prođộ đo $\mu$ trên $E$. Công thức (5) của No. 3 cho thấy rằng $\mathscr{F}\mu$ bằng $e^{-Q/2}$.
 
-#### Định nghĩa 2 {#int-ix-s6-def-2 .statement}
+#### Định nghĩa 2 {#int-ix-s6-def-2 .statement tag=09SE}
 
 *Cho $E$ là một không gian vectơ tôpô lồi. Với mọi dạng bậc hai dương $Q$ trên $E'$, tiền đo trên $E$ có biến đổi Fourier bằng $e^{-Q/2}$ được gọi là tiền đo Gauss trên $E$ với phương sai $Q$, và được ký hiệu $\Gamma_Q$. Một tiền đo $\mu$ trên $E$ được gọi là Gauss nếu tồn tại một dạng bậc hai dương $Q$ trên $E'$ sao cho $\mu = \Gamma_Q$.*
 
 Theo lối nói mở rộng, một độ đo bị chặn $\mu$ trên $E$ sẽ được gọi là Gauss với phương sai $Q$ nếu tiền đo liên kết $\widetilde{\mu}$ bằng $\Gamma_Q$.
 
-#### Nhận xét {#int-ix-s6-n5-rem-1 .statement}
+#### Nhận xét {#int-ix-s6-n5-rem-1 .statement tag=09SF}
 
 — 1) Cho $E$ là một không gian vectơ hữu hạn chiều, và cho $\mu$ là một độ đo dương trên $E$ có khối lượng 1, sao cho mọi dạng tuyến tính trên $E$ đều thuộc $\mathscr{L}^2(E, \mu)$. Người ta xác định một phần tử $m$ của $E$ và một dạng bậc hai dương $V$ trên $E'$ bởi các công thức
 $$
@@ -384,7 +384,7 @@ $$
 
 Ảnh của một tiền độ đo Gauss dưới một ánh xạ tuyến tính liên tục là một tiền độ đo Gauss. Chính xác hơn, ta có kết quả sau:
 
-#### Mệnh đề 5 {#int-ix-s6-prop-5 .statement}
+#### Mệnh đề 5 {#int-ix-s6-prop-5 .statement tag=09SG}
 
 *Cho E và E₁ là hai không gian lồi địa phương, và u là một ánh xạ tuyến tính liên tục từ E vào E₁. Cho Q là một dạng toàn phương dương trên E', và Q₁ là dạng toàn phương dương Q $\circ {}^t u$ trên E'₁. Khi đó $u(\Gamma_Q) = \Gamma_{Q_1}$.*
 
@@ -396,11 +396,11 @@ $$
 
 do đó $\mu = \Gamma_{Q_1}$ theo Mệnh đề 3 của No. 3.
 
-#### Hệ quả {#int-ix-s6-n5-cor-1 .statement}
+#### Hệ quả {#int-ix-s6-n5-cor-1 .statement tag=09SH}
 
 *Cho E là một không gian lồi địa phương và Q là một dạng toàn phương dương trên E'. Với mọi $x' \in E'$, ảnh của $\Gamma_Q$ dưới $x'$ là độ đo Gauss trên $\mathbf{R}$ có phương sai $Q(x')$.*
 
-#### Mệnh đề 6 {#int-ix-s6-prop-6 .statement}
+#### Mệnh đề 6 {#int-ix-s6-prop-6 .statement tag=09SI}
 
 *Cho E là một không gian lồi địa phương, và $\mu$ là một độ đo Gauss trên E, có phương sai Q. Với mọi số nguyên $n \geq 0$ và mọi $x' \in E'$, ta có các hệ thức*
 
@@ -430,7 +430,7 @@ và (16) suy ra ngay lập tức từ (6) (No 4, Bổ đề 1). Tương tự, c�
 
 Bây giờ ta có thể chứng minh mệnh đề đảo lại của Hệ quả của Mệnh đề 5.
 
-#### Mệnh đề 7 {#int-ix-s6-prop-7 .statement}
+#### Mệnh đề 7 {#int-ix-s6-prop-7 .statement tag=09SJ}
 
 *Cho E là một không gian lồi địa phương và $\mu$ là một tiền độ đo trên E. Giả sử rằng $x'(\mu)$ là một độ đo Gauss trên $\mathbf{R}$ với mọi $x' \in E'$. Khi đó $\mu$ là một tiền độ đo Gauss trên E.*
 
@@ -629,7 +629,7 @@ Với mọi số nguyên $n \geqslant 0$, ký hiệu bởi $D_n$ tập hợp cá
 
 Với $t, t'$ thuộc D, đặt $M(t, t') = \inf(t, t')$; ta đã thấy rằng M là một hạt nhân kiểu dương trên D. Vì tập hợp D là đếm được, ta có thể định nghĩa độ đo Gauss *m* trên $\Omega$ với hiệp phương sai M (No. 6, *Ví dụ 2*).
 
-#### Bổ đề 3 {#int-ix-s6-lem-3 .statement}
+#### Bổ đề 3 {#int-ix-s6-lem-3 .statement tag=09SK}
 
 *Với mọi $t, t'$ thuộc D,
 $$
@@ -665,7 +665,7 @@ với $f \in E_n$.
 
 Với mọi hàm $g \in \Omega$ và mọi số nguyên $n \geqslant 0$, tồn tại một và chỉ một hàm $u_n(g)$ thuộc $E_n$ và trùng với $g$ tại mọi điểm của $D_n$; ta sẽ viết $T_n g = u_{n+1}(g) - u_n(g)$. Vì $D_n$ là hữu hạn, ánh xạ $T_n$ từ $\Omega$ vào $\mathscr{C}$ là liên tục, do đó $m$-đo được.
 
-#### Bổ đề 4 {#int-ix-s6-lem-4 .statement}
+#### Bổ đề 4 {#int-ix-s6-lem-4 .statement tag=09SL}
 
 — *Với mọi số nguyên $n \geqslant 0$,*
 
@@ -723,7 +723,7 @@ Vì $u_n(g)$ và $g$ trùng nhau trên $D_m \subset D_n$ với $0 \leq m \leq n$
 C) Phép dựng một độ đo Gaussian trên $\mathscr{C}$:
 Cho $w'$ là độ đo bị chặn trên $\mathscr{C}$ là ảnh của $m$ qua ánh xạ $m$-đo được $u : \Omega \to \mathscr{C}$. Ta sẽ chứng minh rằng $w'$ là một độ đo Gaussian trên $\mathscr{C}$, với phương sai $W$, do đó $w = w'$. Kí hiệu $\mathscr{D}$ là không gian con tuyến tính của $\mathscr{M}^1$ sinh bởi các độ đo $\varepsilon_t$ khi $t$ chạy qua $D$.
 
-#### Bổ đề 5 {#int-ix-s6-lem-5 .statement}
+#### Bổ đề 5 {#int-ix-s6-lem-5 .statement tag=09SM}
 
 Với mọi độ đo $\mu \in \mathscr{D}$,
 
@@ -757,7 +757,7 @@ $$
 
 Công thức (48) suy ra ngay lập tức từ các công thức (49) đến (52).
 
-#### Bổ đề 6 {#int-ix-s6-lem-6 .statement}
+#### Bổ đề 6 {#int-ix-s6-lem-6 .statement tag=09SN}
 
 Cho $\mu \in \mathscr{M}^1$. Tồn tại một dãy các độ đo $\mu_n \in \mathscr{D}$ sao cho $\mu(f) = \lim_{n \to \infty} \mu_n(f)$ với mọi $f \in \mathscr{C}$ và $W(\mu) = \lim_{n \to \infty} W(\mu_n)$.
 
@@ -787,7 +787,7 @@ Q.E.D.
 
 Độ đo $w$ trên $\mathscr{C}$ có biến đổi Fourier bằng $e^{-W/2}$ được gọi là *độ đo Wiener trên $\mathscr{C}$*.
 
-#### Nhận xét {#int-ix-s6-n7-rem-1 .statement}
+#### Nhận xét {#int-ix-s6-n7-rem-1 .statement tag=09SO}
 
 — Với mọi khoảng nửa mở $J = ]a, b]$ được chứa trong T, ta đặt $l(J) = b - a$ (độ dài của J) và ký hiệu $A_J$ là dạng tuyến tính $f \mapsto f(b) - f(a)$ trên $\mathscr{C}$. Có thể chứng minh rằng độ đo Wiener được đặc trưng bởi tính chất sau:
 
@@ -795,7 +795,7 @@ Q.E.D.
 
 ### 8. Tính liên tục của biến đổi Fourier
 
-#### Mệnh đề 8 {#int-ix-s6-prop-8 .statement}
+#### Mệnh đề 8 {#int-ix-s6-prop-8 .statement tag=09SP}
 
 — Cho E là một không gian lồi địa phương, $\mu$ là một tiền độ đo trên E, và $\Phi$ là biến đổi Fourier của $\mu$. Ta có các bất đẳng thức
 
@@ -837,7 +837,7 @@ $$
 
 do đó (54).
 
-#### Hệ quả {#int-ix-s6-n8-cor-1 .statement}
+#### Hệ quả {#int-ix-s6-n8-cor-1 .statement tag=09SQ}
 
 — Trang bị cho $E'$ một tôpô tương thích với cấu trúc không gian vectơ của nó. Để $\Phi$ liên tục, điều kiện cần và đủ là phần thực $\Re \Phi$ của nó liên tục tại gốc, khi đó $\Phi$ liên tục đều.
 
@@ -849,7 +849,7 @@ $$
 (\mathscr{F}\mu)(x) = \int_{F'} e^{i\langle x, x' \rangle} d\mu(x').
 $$
 
-#### Mệnh đề 9 {#int-ix-s6-prop-9 .statement}
+#### Mệnh đề 9 {#int-ix-s6-prop-9 .statement tag=09SR}
 
 — *Nếu F là barreled, thì biến đổi Fourier của mọi độ đo bị chặn trên F' là một hàm liên tục đều trên F*.
 
@@ -877,7 +877,7 @@ Vế thứ hai của bất đẳng thức này tiến tới 0 khi $\varepsilon$ 
 
 Cho T là một không gian vectơ hữu hạn chiều và $\mu$ là một độ đo bị chặn trên $T'$; ta sẽ đồng nhất T với đối ngẫu của $T'$, sao cho biến đổi Fourier $\Phi$ của $\mu$ là một hàm trên T. Giả sử cho trước hai dạng toàn phương dương h và q trên T và một số $\varepsilon > 0$. Với mọi số thực $r > 0$, ta ký hiệu $C_r$ là tập hợp các $x' \in T'$ sao cho $\langle x, x' \rangle^2 \leq r^2 h(x)$ với mọi $x \in T$.
 
-#### Mệnh đề 10 {#int-ix-s6-prop-10 .statement}
+#### Mệnh đề 10 {#int-ix-s6-prop-10 .statement tag=09SS}
 
 — *Dưới giả thiết $\Phi(0) - \Re \Phi \leq \varepsilon + q$, ta có*
 
@@ -970,7 +970,7 @@ Cho F là một không gian lồi địa phương. Gọi $\mathscr{T}_s$ là tô
 
 Người ta gọi tôpô Sazonov trên F là tôpô lồi địa phương $\mathscr{S}$ được xác định bởi các nửa chuẩn liên tục N thỏa mãn điều kiện sau: $N^2$ là một dạng toàn phương dương trên F và tồn tại một dạng toàn phương dương liên tục H trên F sao cho $\operatorname{Tr}(N^2/H) < +\infty$. Tôpô $\mathscr{S}$ thô hơn tôpô đã cho trên F; nếu hai tôpô này trùng nhau thì F được gọi là hạt nhân. Lớp không gian này sẽ được nghiên cứu chi tiết về sau.
 
-#### Định lý 2 (Minlos) {#int-ix-s6-thm-2 .statement}
+#### Định lý 2 (Minlos) {#int-ix-s6-thm-2 .statement tag=09ST}
 
 — *Cho F là một không gian lồi địa phương, $\mathscr{T}$ là một tôpô lồi địa phương trên $F'$ nằm giữa $\mathscr{T}_s$ và $\mathscr{T}_c$, và $\mu$ là một tiền độ đo trên $F'_{\mathscr{T}}$. Giả sử biến đổi Fourier $\Phi$ của $\mu$ liên tục trên F đối với tôpô Sazonov. Khi đó $\mu$ là một độ đo trên $F'_{\mathscr{T}}$.*
 
@@ -1000,13 +1000,13 @@ Vì $p_V$, qua phép đi qua thương, xác định một đẳng cấu của $F
 
 Q.E.D.
 
-#### Hệ quả {#int-ix-s6-n10-cor-1 .statement}
+#### Hệ quả {#int-ix-s6-n10-cor-1 .statement tag=09SU}
 
 — *Cho F là một không gian barreled hạt nhân, $\mathscr{T}$ là một tôpô lồi địa phương trên $F'$ trung gian giữa $\mathscr{T}_s$ và $\mathscr{T}_c$, $\mu$ là một tiền độ đo trên $F'_\mathscr{T}$, và $\Phi$ là biến đổi Fourier của $\mu$. Để $\mu$ là một độ đo, điều kiện cần và đủ là $\Phi$ liên tục trên F.*
 
 Điều kiện cần suy ra từ Mệnh đề 9 của No. 8 và điều kiện đủ từ Định lý 2.
 
-#### Nhận xét {#int-ix-s6-n10-rem-1 .statement}
+#### Nhận xét {#int-ix-s6-n10-rem-1 .statement tag=09SV}
 
 — Cho F là một không gian barreled và $\mathscr{T}$ là một tôpô lồi địa phương trên $F'$ trung gian giữa $\mathscr{T}_s$ và $\mathscr{T}_c$. Mọi tập con của $F'$ compact đối với $\mathscr{T}$ đều compact đối với tôpô yếu hơn $\mathscr{T}_s$. Ngược lại, cho K là một tập con của $F'$ compact đối với $\mathscr{T}_s$. Vì F là barreled, K là đều liên tục (TVS, III, §4, No. 2, Định lý 1); nhưng theo định lý Ascoli, mọi tập con đều liên tục của $F'$ đều tương đối compact đối với $\mathscr{T}_c$ và *a fortiori* đối với $\mathscr{T}$, do đó K được chứa trong một tập con của $F'$ compact đối với $\mathscr{T}$. Không khó suy ra từ đó rằng ánh xạ đồng nhất của $F'_\mathscr{T}$ lên $F'_{\mathscr{T}_s}$ xác định một song ánh giữa các tập hợp các độ đo trên hai không gian này.
 
@@ -1017,7 +1017,7 @@ Cho E là một không gian Hilbert thực, trong đó tích vô hướng đư�
 $$(64)$$
 $$(\mathscr{F}\mu)(x) = \int_{E} e^{i(x|y)} d\mu(y) \quad (x \in E).$$
 
-#### Định lý 3 (Prokhorov–Sazonov) {#int-ix-s6-thm-3 .statement}
+#### Định lý 3 (Prokhorov–Sazonov) {#int-ix-s6-thm-3 .statement tag=09SW}
 
 *Cho E là một không gian Hilbert và Es là không gian E được trang bị tôpô yếu hơn. Cho μ là một tiền độ đo trên E, và Φ là biến đổi Fourier của nó. Các điều kiện sau là tương đương*:
 
@@ -1066,19 +1066,19 @@ với mọi $x \in E$. Vậy b) được kiểm tra.
 
 Q.E.D.
 
-#### Hệ quả 1 {#int-ix-s6-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#int-ix-s6-thm-2-cor-1 .statement tag=09SX}
 
 — *Cho $E_1$ và $E_2$ là hai không gian Hilbert, $u$ là một ánh xạ Hilbert–Schmidt từ $E_1$ vào $E_2$, và $\mu$ là một promeasure trên $E_1$. Giả sử rằng biến đổi Fourier $\Phi$ của $\mu$ liên tục trên $E_1$. Khi đó promeasure $\nu = u(\mu)$ là một độ đo trên $E_2$ được trang bị tôpô yếu.*
 
 Với các đồng nhất hóa của $E_1$ và $E_2$ với các đối ngẫu của chúng được đưa vào trong No. này, biến đổi Fourier của $\nu$ bằng $\Phi \circ u^*$, trong đó $u^*$ là liên hợp của $u$. Mà $u^*$ là một ánh xạ Hilbert–Schmidt từ $E_2$ vào $E_1$ (Phụ lục, No. 2), và do đó dạng toàn phương $y \mapsto \|u^*(y)\|^2$ trên $E_2$ là hạch. Nếu $(E_2)_\mathscr{S}$ ký hiệu $E_2$ được trang bị tôpô Sazonov, thì $u^*$ do đó là một ánh xạ tuyến tính liên tục từ $(E_2)_\mathscr{S}$ vào $E_1$, và $\mathscr{F}_V = \Phi \circ u^*$ liên tục trên $(E_2)_\mathscr{S}$; khi đó Định lý 3 cho thấy rằng $\nu$ là một độ đo trên không gian $E_2$ được trang bị tôpô yếu.
 
-#### Hệ quả 2 {#int-ix-s6-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#int-ix-s6-thm-2-cor-2 .statement tag=09SY}
 
 — *Cho $Q$ là một dạng toàn phương dương hạch trên không gian Hilbert $E$. Promeasure Gauss $\Gamma_Q$ trên $E$ có phương sai $Q$ là một độ đo trên $E_s$.*
 
 Biến đổi Fourier $\Phi$ của $\Gamma_Q$ bằng $e^{-Q/2}$. Bây giờ, $e^t \geq 1 + t$ với mọi số thực $t$, do đó $\Phi(0) - \Re \Phi \leq Q/2$. Vậy điều kiện b) của Định lý 3 được kiểm tra và $\Gamma_Q$ là một độ đo trên $E_s$.
 
-#### Nhận xét {#int-ix-s6-n11-rem-1 .statement}
+#### Nhận xét {#int-ix-s6-n11-rem-1 .statement tag=09SZ}
 
 — 1) Cho $E$ là một không gian Hilbert, $E_s$ là không gian $E$ được trang bị tôpô yếu, và $j$ là ánh xạ đồng nhất của $E$ vào $E_s$. Người ta biết rằng $j$ xác định một song ánh từ tập hợp các tiền độ đo trên $E$ lên tập hợp tương ứng đối với $E_s$. Hơn nữa, nếu $E$ tách được, thì nó là một không gian Polish và $j$ xác định một song ánh từ tập hợp các độ đo bị chặn trên $E$ lên tập hợp các độ đo bị chặn trên $E_s$ (§ 3, No. 3, *Nhận xét*); có thể chứng minh (định lý của Phillips) rằng định lý này vẫn còn đúng nếu $E$ không tách được. Do đó, Định lý 3 cung cấp các tiêu chuẩn để một tiền độ đo trên $E$ là một độ đo.
 
@@ -1086,7 +1086,7 @@ Biến đổi Fourier $\Phi$ của $\Gamma_Q$ bằng $e^{-Q/2}$. Bây giờ, $e^
 
 *12. Liên hệ với các hàm kiểu dương*
 
-#### Định nghĩa 3 {#int-ix-s6-def-3 .statement}
+#### Định nghĩa 3 {#int-ix-s6-def-3 .statement tag=09T0}
 
 — *Cho $G$ là một nhóm. Một hàm nhận giá trị phức $\Phi$ trên $G$ được gọi là có kiểu dương nếu bất đẳng thức*
 
@@ -1098,7 +1098,7 @@ $$
 
 Khái niệm này sẽ được nghiên cứu chi tiết về sau.
 
-#### Mệnh đề 11 {#int-ix-s6-prop-11 .statement}
+#### Mệnh đề 11 {#int-ix-s6-prop-11 .statement tag=09T1}
 
 — Cho E là một không gian vectơ hữu hạn chiều, $\mu$ là một độ đo bị chặn (dương) trên E, và $\Phi$ là biến đổi Fourier của $\mu$. Hàm $\Phi$ là liên tục và có kiểu dương trên $E'$.
 
@@ -1117,7 +1117,7 @@ Q.E.D.
 
 Người ta có thể chứng minh một mệnh đề đảo lại gọi là *định lý Bochner*: mọi hàm liên tục trên $E'$ có kiểu dương đều là biến đổi Fourier của một độ đo bị chặn (dương). (*) Chúng ta sẽ thừa nhận kết quả này trong phần còn lại của No. 12.
 
-#### Định lý 4 {#int-ix-s6-thm-4 .statement}
+#### Định lý 4 {#int-ix-s6-thm-4 .statement tag=09T2}
 
 — Cho E là một không gian lồi địa phương. Phép biến đổi Fourier là một song ánh từ tập hợp các tiền độ đo trên E lên tập hợp các hàm kiểu dương trên $E'$ mà hạn chế của chúng trên mọi không gian con hữu hạn chiều đều liên tục.
 
@@ -1133,7 +1133,7 @@ $$
 
 do đó $pvw(\mu_w) = \mu_v$ theo Mệnh đề 3 của No. 3. Do đó, họ $\mu = (\mu_v)_{v \in \mathscr{F}(E)}$ là một promeasure trên $E$; hiển nhiên $\Phi$ là biến đổi Fourier của $\mu$.
 
-#### Hệ quả {#int-ix-s6-n11-cor-1 .statement}
+#### Hệ quả {#int-ix-s6-n11-cor-1 .statement tag=09T3}
 
 — *Cho F là một không gian hạt nhân lồi địa phương đầy; trang bị cho F' một tôpô lồi địa phương $\mathscr{T}$ nằm giữa tôpô yếu $\sigma(F', F)$ và tôpô hội tụ đều trên các tập con compact lồi của F. Phép biến đổi Fourier là một song ánh từ tập hợp các độ đo bị chặn (dương) trên F' lên tập hợp các hàm liên tục kiểu dương trên F.*
 

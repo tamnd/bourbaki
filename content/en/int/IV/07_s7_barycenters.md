@@ -37,7 +37,7 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: 01a859140339b63e2a3d681a5357be92cc6f3b9feeb7530ab638a41830f20290
+content_sha256: a0b29318ee51bbadb84b433570743b81dc51c686140364de87fd714982b23900
 ---
 
 ## § 7. BARYCENTERS
@@ -46,31 +46,31 @@ content_sha256: 01a859140339b63e2a3d681a5357be92cc6f3b9feeb7530ab638a41830f20290
 
 Let E be a Hausdorff locally convex space over $\mathbf{R}$, $E'$ its dual, and ${E'}^*$ the algebraic dual of $E'$, E being canonically identified with a linear subspace of ${E'}^*$. Let K be a compact subset of E; the canonical injection of K into E being continuous with compact support, for every measure $\mu$ on K the integral $\int x\, d\mu(x)$ is therefore defined and is an element of ${E'}^*$ (Ch. III, §3, No. 1). Moreover, on K, the topology induced by the weak topology $\sigma({E'}^*, E')$ is identical with the original topology. Finally, if C is the closed convex envelope of K in ${E'}^*$ equipped with $\sigma({E'}^*, E')$, then $C \cap E$ is the closed convex envelope of K in E for the original topology (or for the weakened topology $\sigma(E, E')$).
 
-#### Definition 1 {#int-iv-s7-def-1 .statement}
+#### Definition 1 {#int-iv-s7-def-1 .statement tag=08YJ}
 
 *Let K be a compact subset of a Hausdorff locally convex space E. For every positive measure $\mu$ on K of total mass equal to 1, the vector $b_\mu = \int x\, d\mu(x)$ (belonging to ${E'}^*$) is called the barycenter of $\mu$.*
 
-#### Example {#int-iv-s7-n1-exa-1 .statement}
+#### Example {#int-iv-s7-n1-exa-1 .statement tag=08YK}
 
 — Let $\mu$ be a *discrete* measure on K, positive and of total mass 1; it is thus of the form $\mu = \sum_{i=1}^n \lambda_i \varepsilon_{x_i}$, where $x_i \in K$, and the $\lambda_i$ are real numbers such that $\lambda_i \geq 0$ for all $i$ and $\sum_{i=1}^n \lambda_i = 1$. Since $\int x\, d\varepsilon_y(x) = y$ (Ch. III, §3, No. 1, *Example 3*), $b_\mu = \int x\, d\mu(x) = \sum_i \lambda_i x_i$. In particular, for every $x \in K$, x is the barycenter of the measure $\varepsilon_x$.
 
-#### Proposition 1 {#int-iv-s7-prop-1 .statement}
+#### Proposition 1 {#int-iv-s7-prop-1 .statement tag=08YL}
 
 *Let E be a Hausdorff locally convex space, K a compact subset of E, and C the closed convex envelope of K in E. The set C then consists of the points of E that are barycenters of at least one positive measure of mass 1 on K.*
 
 This is nothing more than Prop. 5 of Ch. III, §3, No. 2 applied to the canonical injection of K into E.
 
-#### Corollary {#int-iv-s7-n1-cor-1 .statement}
+#### Corollary {#int-iv-s7-n1-cor-1 .statement tag=08YM}
 
 *If the closed convex envelope C of K in E is compact, then the barycenter of every positive measure of total mass 1 on K belongs to E.*
 
 For, C is then also the closed convex envelope of K in ${E'}^*$ equipped with the weak topology $\sigma(E', E')$, and it suffices to apply, to the canonical injection of K into E, Prop. 4 of Ch. III, §3, No. 2.
 
-#### Remark {#int-iv-s7-n1-rem-1 .statement}
+#### Remark {#int-iv-s7-n1-rem-1 .statement tag=08YN}
 
 The Cor. of Prop. 1 is applicable in particular when K is convex or when E is quasi-complete.
 
-#### Proposition 2 {#int-iv-s7-prop-2 .statement}
+#### Proposition 2 {#int-iv-s7-prop-2 .statement tag=08YO}
 
 — Let K be a compact convex subset of a Hausdorff locally convex space E, $\mu$ a positive measure of total mass 1 on K, $b_\mu$ its barycenter. For every convex numerical function $f \geq 0$ that is lower semi-continuous on K,
 $$
@@ -84,7 +84,7 @@ for every $\alpha$; now, $\int h_\alpha(x) d\mu(x) = c_\alpha + \int \langle x, 
 
 When $\mu$ is a discrete positive measure on K of total mass 1, Prop. 2 yields anew the inequality that defines the convex functions on K.
 
-#### Corollary {#int-iv-s7-n1-cor-2 .statement}
+#### Corollary {#int-iv-s7-n1-cor-2 .statement tag=08YP}
 
 — For every convex numerical function function g on K that is bounded and lower semi-continuous, $g(b_\mu) \leq \int g d\mu$.
 
@@ -92,7 +92,7 @@ It suffices to note that $\inf_{x \in K} g(x) = a$ is finite and apply Prop. 2 t
 
 ### 2. Extremal points and barycenters
 
-#### Proposition 3 {#int-iv-s7-prop-3 .statement}
+#### Proposition 3 {#int-iv-s7-prop-3 .statement tag=08YQ}
 
 — Let K be a compact convex subset of a Hausdorff locally convex space E, x a point of K. Every measure $\mu$ on K, positive, of total mass 1, and admitting x as barycenter, is in the vague closure of the set of discrete positive measures of total mass 1 that admit x as barycenter.
 
@@ -127,7 +127,7 @@ for $1 \leq i \leq p$, whence $|\mu_j(f_i) - \varepsilon_{x_j}(f_i)| \leq \delta
 
 Q.E.D.
 
-#### Corollary {#int-iv-s7-n2-cor-1 .statement}
+#### Corollary {#int-iv-s7-n2-cor-1 .statement tag=08YR}
 
 — *Let $K'$ be a compact subset of $K$ such that $K$ is the closed convex envelope of $K'$. In order that $x \in K'$ be an extremal point of $K$, it is necessary and sufficient that $\varepsilon_x$ be the only positive measure on $K'$, of total mass 1, having $x$ as barycenter.*
 
@@ -135,7 +135,7 @@ Suppose $x$ is an extremal point of $K$; to prove that $\varepsilon_x$ is the on
 
 Conversely, let us assume that $\varepsilon_x$ is the only positive measure on $K'$, of total mass 1, having $x$ as barycenter, and let us show that $x$ is extremal. In the contrary case, there would exist two distinct points $x', x''$ of $K$ and a real number $\lambda$ such that $0 < \lambda < 1$ and $x = \lambda x' + (1 - \lambda) x''$. By Prop. 1, $x'$ (resp. $x''$) is the barycenter of a positive measure $\mu'$ (resp. $\mu''$) on $K'$ of total mass 1. Then $x$ is the barycenter of $\lambda \mu' + (1 - \lambda) \mu''$. Therefore $\lambda \mu' + (1 - \lambda) \mu'' = \varepsilon_x$. Therefore $\mu'$ and $\mu''$ are proportional to $\varepsilon_x$, whence $x' = x'' = x$, which is absurd.
 
-#### Theorem 1 (Choquet) {#int-iv-s7-thm-1 .statement}
+#### Theorem 1 (Choquet) {#int-iv-s7-thm-1 .statement tag=08YS}
 
 — *Let E be a Hausdorff locally convex space over $\mathbf{R}$, K a metrizable compact convex subset of E, and M the set of extremal points of K. The set M is the intersection of a countable family of open sets in K, and every point of K is the barycenter of a measure $\mu$ on K such that $\mu(K - M) = 0$.*
 
@@ -143,7 +143,7 @@ To prove the first assertion, denote by I the interval $[0, 1]$ of $\mathbf{R}$;
 
 In the continuation of the proof, we shall denote by $u$ a continuous and *convex* numerical function on K, by $G \subset E \times \mathbf{R}$ the graph of $u$, and by S the *closed convex envelope* of G in $E \times \mathbf{R}$.
 
-#### Lemma 1 {#int-iv-s7-lem-1 .statement}
+#### Lemma 1 {#int-iv-s7-lem-1 .statement tag=08YT}
 
 — *Let $\overline{u}$ be the lower envelope of the continuous affine linear functions on E that are $\geq u$ on K. Then S is the set of points $(a, b) \in E \times \mathbf{R}$ such that $a \in K$ and $u(a) \leq b \leq \overline{u}(a)$.*
 
@@ -162,7 +162,7 @@ $$
 
 First set $\lambda = 0$; the fact that (4) implies (5) for every continuous affine linear function $f$ on $E$ is equivalent to the relation $a \in K$ by the Hahn-Banach theorem. Next, set $\lambda = -1$ and replace $f$ by $-f$; then the relation $f(x) \leq u(x)$ in $K$ must imply $f(a) \leq b$. But since $u$ is convex and continuous on $K$, $u(a)$ is equal to the supremum of the $f(a)$ for the continuous affine linear functions $f$ on $E$ such that $f(x) \leq u(x)$ on $K$ (TVS, II, §5, No. 4, Prop. 5); we thus obtain the relation $b \geq u(a)$. Finally, set $\lambda = 1$; to say that (4) implies (5) then means, by definition, that $b \leq \overline{u}(a)$. This proves the lemma, since the relation (4) (resp. (5)) is equivalent to the one obtained by multiplying both sides by a scalar $> 0$.
 
-#### Lemma 2 {#int-iv-s7-lem-2 .statement}
+#### Lemma 2 {#int-iv-s7-lem-2 .statement tag=08YU}
 
 *If $u$ is strictly convex on $K$, then $u(x) < \overline{u}(x)$ for every non-extremal point $x$ of $K$.*
 
@@ -194,7 +194,7 @@ $$
 
 But since $u(\mathbf{x}) \leq \overline{u}(\mathbf{x})$ on K, the relation (8) implies that $u(\mathbf{x}) = \overline{u}(\mathbf{x})$ almost everywhere for $\mu$. Taking into account Lemma 2, one sees that Theorem 1 will be proved once the following lemma has been established:
 
-#### Lemma 3 {#int-iv-s7-lem-3 .statement}
+#### Lemma 3 {#int-iv-s7-lem-3 .statement tag=08YV}
 
 *Let E be a Hausdorff locally convex space over $\mathbf{R}$, and K a metrizable compact convex subset of E. Then, there exists a strictly convex numerical function on K.*
 
@@ -202,7 +202,7 @@ For, the Banach space $\mathscr{C}(K; \mathbf{R})$ is separable (GT, X, §3, No.
 
 Q.E.D.
 
-#### Corollary {#int-iv-s7-n2-cor-2 .statement}
+#### Corollary {#int-iv-s7-n2-cor-2 .statement tag=08YW}
 
 *Let E be a Hausdorff locally convex space over $\mathbf{R}$, C a proper convex cone in E with vertex 0, that is complete and metrizable for the uniform structure induced by the weakened uniform structure of E. Let M be the union of the extremal generators of C. For every $\mathbf{x} \in C$ there exist a compact convex subset K of C and a measure $\lambda \geq 0$ on K of total mass 1, such that $K - (M \cap K)$ is $\lambda$-negligible and the barycenter of $\lambda$ is equal to $\mathbf{x}$.
 
@@ -220,7 +220,7 @@ for every function $f \in \mathscr{H}$ and every $x \in X$.
 
 The mapping $i_{\mathscr{H}}$ of X into $\mathscr{H}'$ is injective and continuous when $\mathscr{H}'$ is equipped with the weak topology $\sigma(\mathscr{H}', \mathscr{H})$; the second assertion follows at once from the definitions and (9); as for the first, note that if $x, x'$ are two distinct points of X, by hypothesis there exists a function $h \in \mathscr{H}$ such that $h(x) \neq h(x')$, therefore, by (9), $\langle h, i_{\mathscr{H}}(x) \rangle \neq \langle h, i_{\mathscr{H}}(x') \rangle$ and *a fortiori* $i_{\mathscr{H}}(x) \neq i_{\mathscr{H}}(x')$. The image $i_{\mathscr{H}}(X)$ is therefore a *compact* subset of $\mathscr{H}'$ (for the weak topology), and $i_{\mathscr{H}}$ is a *homeomorphism* of X onto $i_{\mathscr{H}}(X)$.
 
-#### Proposition 4 {#int-iv-s7-prop-4 .statement}
+#### Proposition 4 {#int-iv-s7-prop-4 .statement tag=08YX}
 
 (i) *The closed convex envelope* C *of* $i_{\mathscr{H}}(X)$ *in* $\mathscr{H}'$ *(for the weak topology* $\sigma(\mathscr{H}', \mathscr{H})$) *is compact*.
 
@@ -246,13 +246,13 @@ for every function $h \in \mathscr{H}$. Taking (9) into account, the assertion (
 
 We shall say that a point $x \in X$ satisfying condition (ii) of Prop. 4 is $\mathscr{H}$-extremal; we denote by $\mathrm{Ch}_{\mathscr{H}}(X)$ (or simply $\mathrm{Ch}(X)$) the set of these points, and by $\check{S}_{\mathscr{H}}(X)$ (or simply $\check{S}(X)$) the closure of $\mathrm{Ch}_{\mathscr{H}}(X)$ in $X$.
 
-#### Proposition 5 {#int-iv-s7-prop-5 .statement}
+#### Proposition 5 {#int-iv-s7-prop-5 .statement tag=08YY}
 
 *Every function* $h \in \mathscr{H}$ *attains its supremum at at least one* $\mathscr{H}$*-extremal point*.
 
 Let $x$ be a point of $X$, $h$ a function in $\mathscr{H}$. The relation $h(z) \leq h(x)$ for all $z \in X$ may be written $\langle h, i_{\mathscr{H}}(z) \rangle \leq \langle h, i_{\mathscr{H}}(x) \rangle$ for all $z \in X$, and therefore means that the weakly closed hyperplane of $\mathscr{H}'$ with equation $\langle h, t' \rangle = \langle h, i_{\mathscr{H}}(x) \rangle$ is a *support hyperplane* of $i_{\mathscr{H}}(X)$. It is known (TVS, II, §7, No. 1, Cor. of Prop. 1) that such a hyperplane contains at least one extremal point of the closed convex envelope of $i_{\mathscr{H}}(X)$, and such a point $i_{\mathscr{H}}(y)$ is the image of an $\mathscr{H}$-extremal point $y$ by definition; $h(y)$ is therefore equal to the supremum of $h$ in $X$.
 
-#### Proposition 6 {#int-iv-s7-prop-6 .statement}
+#### Proposition 6 {#int-iv-s7-prop-6 .statement tag=08YZ}
 
 *For every point* $x \in X$, *the following properties are equivalent*:
 
@@ -282,7 +282,7 @@ $$
 
 for every $\varepsilon > 0$, therefore $\lambda(\{x\}) = 1$. Since $\lambda$ is positive and of total mass 1, necessarily $\lambda = \varepsilon_x$, which proves that $x$ is $\mathscr{H}$-extremal, by virtue of Prop. 4, (ii).
 
-#### Proposition 7 {#int-iv-s7-prop-7 .statement}
+#### Proposition 7 {#int-iv-s7-prop-7 .statement tag=08Z0}
 
 *Let F be a closed subset of X. The following properties are equivalent:*
 
@@ -294,7 +294,7 @@ c) *For every point $x \in X$, there exists a positive measure $\mu$ of total ma
 
 Let $G = i_{\mathscr{H}}(F)$. The condition *a)* signifies that G contains the set of extremal points of C. The condition *b)* signifies that G meets the intersection of $i_{\mathscr{H}}(X)$ with each of the closed support hyperplanes of $i_{\mathscr{H}}(X)$. Finally, the condition *c)* signifies that every point of $i_{\mathscr{H}}(X)$ is the barycenter of a measure with support contained in G; by No. 1, Prop. 1, this is also equivalent to saying that the closed convex envelope of $i_{\mathscr{H}}(X)$ is equal to the closed convex envelope of G. The equivalence of the conditions *a)*, *b)* and *c)* therefore follows from TVS, II, §7, No. 1, Cor. of Prop. 2.
 
-#### Proposition 8 {#int-iv-s7-prop-8 .statement}
+#### Proposition 8 {#int-iv-s7-prop-8 .statement tag=08Z1}
 
 *Suppose X is metrizable. Then the set $\operatorname{Ch}_{\mathscr{H}}(X)$ of $\mathscr{H}$-extremal points of X is the intersection of a countable family of open sets in X, and for every $x \in X$, there exists a positive measure $\mu$ of total mass 1 on X such that*
 
@@ -308,7 +308,7 @@ This is the translation of Th. 1 of No. 2, by transport of structure by means of
 
 A certain number of results of this No. may be extended when $\mathscr{H}$ is replaced by a set $\mathscr{P}$ of functions defined on X, with values in $\mathbf{R} \cup \{+\infty\}$, that are lower semi-continuous, $\mathscr{P}$ being assumed to contain the constants and to satisfy $\mathscr{P} + \mathscr{P} \subset \mathscr{P}$ (Exer. 2).
 
-#### Example {#int-iv-s7-n3-exa-1 .statement}
+#### Example {#int-iv-s7-n3-exa-1 .statement tag=08Z2}
 
 — Take X to be the unit ball $\|x\| \leq 1$ in $\mathbf{R}^3$, and let $\mathscr{H}$ be a vector space of continuous functions on X, containing the restrictions to X of the affine linear functions on $\mathbf{R}^3$ and satisfying the *maximum principle*, that is, for every non-constant function $h \in \mathscr{H}$, the set of points of X where h attains its supremum is contained in the sphere $S_2$. It then follows easily from Props. 5 and 7 that $\operatorname{Ch}_{\mathscr{H}}(X) = \check{S}_{\mathscr{H}}(X) = S_2$. An important example of a vector space $\mathscr{H}$ satisfying the preceding conditions is the set of functions continuous on X and *harmonic* in the open ball $\|x\| < 1$. For these functions, one proves that the positive measure $\mu$ of mass 1 such that $\operatorname{Supp}(\mu) \subset S_2$ and $h(x) = \int h \, d\mu$ for all $h \in \mathscr{H}$ is given, if $\|x\| < 1$, by Poisson’s formula
 
@@ -322,7 +322,7 @@ where $\sigma$ is the measure on $S_2$ invariant under the orthogonal group and 
 
 Let $X$ be a nonempty compact space, $\mathscr{H}$ a linear subspace of the complex Banach space $\mathscr{C}(X; \mathbf{C})$ that contains the constants and separates the points of $X$. The set of real parts $\Re(f)$ of the functions $f \in \mathscr{H}$ is a linear subspace $\mathscr{H}_r$ of the real vector space $\mathscr{C}(X; \mathbf{R})$; for every $f \in \mathscr{H}$, the set $\mathscr{H}_r$ also contains $\mathscr{I}(f) = \Re(-if)$; it follows that $\mathscr{H}_r$ separates the points of $X$, because the relation $h(x) = h(y)$ for all $h \in \mathscr{H}_r$ implies that $\Re(f(x)) = \Re(f(y))$ and $\mathscr{I}(f(x)) = \mathscr{I}(f(y))$ and so $f(x) = f(y)$ for all $f \in \mathscr{H}$. The $\mathscr{H}_r$-extremal points in $X$ are again called $\mathscr{H}$-extremal, the set of them is denoted $\mathrm{Ch}_{\mathscr{H}}(X)$, and the closure of the latter set is denoted $\check{S}_{\mathscr{H}}(X)$. The analogues of Props. 5 and 7 are the following:
 
-#### Proposition 9 {#int-iv-s7-prop-9 .statement}
+#### Proposition 9 {#int-iv-s7-prop-9 .statement tag=08Z3}
 
 *For every function $f \in \mathscr{H}$, $\mathrm{Ch}_{\mathscr{H}}(X)$ intersects the set of points where $|f|$ attains its supremum.*
 
@@ -334,7 +334,7 @@ $$
 
 By Prop. 5 of No. 3 applied to $\mathscr{H}_r$, there exists $b \in \mathrm{Ch}_{\mathscr{H}}(X)$ where $\Re((g(x))$ attains its supremum 1, whence $|g(b)| = 1$ since $|g(b)| \leq 1$; it follows that $|f(b)| = |(f(a)| \geq |f(x)|$ for all $x \in X$.
 
-#### Proposition 10 {#int-iv-s7-prop-10 .statement}
+#### Proposition 10 {#int-iv-s7-prop-10 .statement tag=08Z4}
 
 *Let $F$ be a closed subset of $X$. The following properties are equivalent:
 a) $F$ contains $\check{S}_{\mathscr{H}}(X)$.
@@ -354,13 +354,13 @@ b^2 \geq |g - b|^2 = |g|^2 - 2b \mathscr{R}(g) + b^2
 $$
 and so $\mathscr{R}(g) \geq |g|^2 / 2b \geq 0$; since $\mathscr{R}(g) = h - h(a) + \varepsilon$, and $\varepsilon > 0$ is arbitrary, we have $h \geq h(a)$, and $h(a)$ is the infimum of $h$ in X, which completes the proof.
 
-#### Remark {#int-iv-s7-n4-rem-1 .statement}
+#### Remark {#int-iv-s7-n4-rem-1 .statement tag=08Z5}
 
 If $f$ is a continuous real function, a point where $|f|$ attains its supremum is a point where one of the functions $f, -f$ attains its supremum. For a vector space $\mathscr{H}$ of continuous real functions satisfying the hypotheses of No. 3, the Props. 9 and 10 are thus trivial corollaries of Props. 5 and 7, respectively.
 
 ### 5. Applications: III. Algebras of continuous functions
 
-#### Lemma 4 {#int-iv-s7-lem-4 .statement}
+#### Lemma 4 {#int-iv-s7-lem-4 .statement tag=08Z6}
 
 Let X be a compact space, $\mathscr{H}$ a closed linear subspace of the Banach space $\mathscr{C}(X; \mathbf{C})$ (resp. $\mathscr{C}(X; \mathbf{R})$). Let a be a point of X admitting a countable fundamental system of neighborhoods; assume that, for any numbers c and d such that $0 < c < d < 1$ and any open neighborhood U of a, there exists an $f \in \mathscr{H}$ such that
 $$
@@ -416,7 +416,7 @@ $$
 = \sum_{j=1}^{\infty} \lambda^j = |u(a)|.
 $$
 
-#### Theorem 2 (E. Bishop) {#int-iv-s7-thm-2 .statement}
+#### Theorem 2 (E. Bishop) {#int-iv-s7-thm-2 .statement tag=08Z7}
 
 — *Let $X$ be a compact space, $\mathscr{A}$ a closed subalgebra of the complex Banach algebra $\mathscr{C}(X; \mathbf{C})$. Assume that $\mathscr{A}$ contains the constants and separates the points of $X$. Let $a$ be a point of $X$; the following conditions are equivalent:
 
@@ -439,7 +439,7 @@ $$
 
 Q.E.D.
 
-#### Corollary {#int-iv-s7-n5-cor-1 .statement}
+#### Corollary {#int-iv-s7-n5-cor-1 .statement tag=08Z8}
 
 — *Suppose in addition that $X$ is metrizable. Then the following properties are equivalent*:
 
@@ -459,7 +459,7 @@ $$
 
 Since, in a metrizable space, every point admits a countable fundamental system of neighborhoods, the equivalence of a) and b) follows from Th. 2. Let us show that b) implies c): indeed, $a$ is the unique point where $|u|$ attains its supremum; on the other hand, c) implies a) because, for every $f \in \mathscr{A}$, $\mathrm{Ch}_{\mathscr{A}}(X)$ intersects the set of points where $|f|$ attains its supremum (No. 4, Prop. 9). The same reasoning, using Prop. 5 of No. 3, shows that d) implies a). Finally, to see that b) implies d), we can restrict ourselves to the case that $X$ does not reduce to the single point $a$, therefore $u(a) \neq 0$; the function $v = u/u(a)$ then belongs to $\mathscr{A}$, and we have $v(a) = 1$ and $|v(x)| < 1$ for $x \neq a$, whence $\mathscr{R}(v(a)) = 1$ and $\mathscr{R}(v(x)) < 1$ for $x \neq a$. Since the function $\mathscr{R}(v)$ attains its supremum only at the point $a$, we have indeed $a \in N$ for every $N \in \mathfrak{N}$.
 
-#### Example {#int-iv-s7-n5-exa-1 .statement}
+#### Example {#int-iv-s7-n5-exa-1 .statement tag=08Z9}
 
 — Let $X_1$ be the set of points $(z_1, z_2) \in \mathbf{C}^2$ such that $|z_1|^2 + |z_2|^2 \leq 1$ (the unit ball in $\mathbf{R}^4$) and let $\mathscr{A}_1'$ be the set of restrictions to $X_1$ of the holomorphic functions, with values in $\mathbf{C}$, defined in a neighborhood of $X_1$ in $\mathbf{C}^2$ (the neighborhood depending on the function considered); let $\mathscr{A}_1$ be the closure of $\mathscr{A}_1'$ in $\mathscr{C}(X_1; \mathbf{C})$, which is obviously a closed complex subalgebra of $\mathscr{C}(X_1; \mathbf{C})$ and separates the points of $X_1$. Application of the 'maximum principle' for holomorphic functions shows that $\mathrm{Ch}_{\mathscr{A}_1}(X_1)$ is the sphere $S_3$.
 
@@ -471,7 +471,7 @@ From these results, one deduces that there does not exist an *analytic isomorphi
 
 Let E be a Hausdorff weak locally convex space (TVS, II, §6, No. 2), C a proper pointed convex cone in E. One knows that C is the set of elements $\geqslant 0$ of E for an order relation compatible with the vector space structure of E. When C is said to be lattice-ordered, it is of course the order induced on C by that of E that is understood.
 
-#### Lemma 5 {#int-iv-s7-lem-5 .statement}
+#### Lemma 5 {#int-iv-s7-lem-5 .statement tag=08ZA}
 
 *Assume that C is weakly complete. Let $\mathscr{A}$ be the set of restrictions to C of the continuous linear forms on E. Let $(f_\lambda)_{\lambda \in \Lambda}$ be a finite family of elements of $\mathscr{A}$, and $f = \sup(f_\lambda)$. For every $x \in C$, define*
 
@@ -495,7 +495,7 @@ $$
 
 where $(y_1, y_2, \ldots, y_p)$ runs over the set of sequences of $p$ points of C such that $y_1 + y_2 + \cdots + y_p = x$. Set $D = C \cap (x - C)$. Since D is compact (TVS, II, §6, No. 8, Cor. 2 of Prop. 11), so is the set of elements $(y_1, \ldots, y_p)$ of $D^p$ such that $y_1 + \cdots + y_p = x$, thus the supremum (19) is attained.
 
-#### Lemma 6 {#int-iv-s7-lem-6 .statement}
+#### Lemma 6 {#int-iv-s7-lem-6 .statement tag=08ZB}
 
 We maintain the hypotheses and notations of Lemma 5, and assume the $f_\lambda$ to be positive. The function $\overline{f}$ is positively homogeneous, concave and upper semi-continuous in $C$. It is affine if $C$ is lattice-ordered.
 
@@ -523,7 +523,7 @@ $$
 
 Since $\varepsilon$ is an arbitrary number $> 0$, we have proved that $\overline{f}$ is indeed convex.
 
-#### Theorem 3 (Choquet) {#int-iv-s7-thm-3 .statement}
+#### Theorem 3 (Choquet) {#int-iv-s7-thm-3 .statement tag=08ZC}
 
 *Let $E$ be a Hausdorff weak locally convex space, $C$ a weakly complete proper convex cone with vertex 0 in $E$, $G$ the union of the extremal generators of $C$, $K$ a compact convex subset of $C$, $\lambda$ and $\lambda'$ positive measures of mass 1 on $K$, admitting the same barycenter, such that $\lambda^*(K - (K \cap G)) = {\lambda'}^*(K - (K \cap G)) = 0$. Assume that $C$ is lattice-ordered. Then, for every lower semi-continuous, positively homogeneous convex function $f \geq 0$ on $C$, $\lambda^*(f|K) = {\lambda'}^*(f|K)$.*
 
@@ -531,7 +531,7 @@ Let $\mathscr{A}$ (resp. $\mathscr{A}'$) be the set of restrictions to $C$ of th
 
 Define $\overline{f}$ as in Lemma 5. It is clear that $\overline{f}(y) = f(y)$ if $y \in G$. Since $\lambda^*(K - (K \cap G)) = 0$, we have $\lambda(f|K) = \lambda(\overline{f}|K)$. By Lemma 6, $\overline{f}$ is affine and upper semi-continuous. Therefore $\overline{f}|K$ is the lower envelope of a decreasing directed set of restrictions of elements of $\mathscr{A}'$ to K (TVS, II, §5, No. 4, Prop. 6). Let $x \in K$ be the barycenter of $\lambda$. If $g \in \mathscr{A}$ then $\lambda(g|K) = g(x)$. Therefore $\lambda(\overline{f}|K) = \overline{f}(x)$ (§ 4, No. 4, Cor. 2 of Prop. 5). Thus $\lambda(f|K) = \overline{f}(x)$, and one sees similarly that $\lambda'(f|K) = \overline{f}(x)$.
 
-#### Corollary {#int-iv-s7-n6-cor-1 .statement}
+#### Corollary {#int-iv-s7-n6-cor-1 .statement tag=08ZD}
 
 *Let E be a Hausdorff locally convex space, C a proper convex cone with vertex 0 in E, admitting a compact sole M, and let G be the union of the extremal generators of C. Let $x \in M$. If C is lattice-ordered, then there exists at most one positive measure $\lambda$ of mass 1 on M, such that $\lambda^*(M - (G \cap M)) = 0$, and admitting x as barycenter.*
 

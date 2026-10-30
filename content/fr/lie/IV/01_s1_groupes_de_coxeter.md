@@ -48,7 +48,7 @@ subsections:
       pdf_page: 19
 statements: 31
 exercises: 26
-content_sha256: a7cd160ef8c639b226f1d1329ad0579a2ada091805967411464440abbfdb4332
+content_sha256: 2dabd0223b959bf6e435af879a23d202e02827a950be89077e34383c2198b78c
 ---
 
 ## § 1. Groupes de Coxeter
@@ -57,13 +57,13 @@ Dans tout ce paragraphe, on désigne par W un groupe, noté multiplicativement, 
 
 ### 1. Longueur et décompositions réduites
 
-#### Définition 1 {#lie-iv-s1-def-1 .statement}
+#### Définition 1 {#lie-iv-s1-def-1 .statement tag=0ALN}
 
 Soit w \in W. On appelle longueur de w (par rapport à S), et l’on note l_S(w) ou simplement l(w), le plus petit entier q \geq 0 tel que w soit produit d’une suite de q éléments de S. On appelle décomposition réduite de w (par rapport à S) toute suite s = (s_1, \ldots, s_q) d’éléments de S telle que w = s_1 \ldots s_q et q = l(w).
 
 Ainsi 1 est l’unique élément de longueur 0 et S se compose des éléments de longueur 1.
 
-#### Proposition 1 {#lie-iv-s1-prop-1 .statement}
+#### Proposition 1 {#lie-iv-s1-prop-1 .statement tag=0ALO}
 
 Soient w et w' dans W. On a les formules:
 
@@ -78,23 +78,23 @@ Soient (s_1, \ldots, s_p) et (s'_1, \ldots, s'_q) des décompositions réduites 
 
 en échangeant w et w' dans (4), on obtient l(w') - l(w) \leq l(ww'^{-1}) d’après (5), d’où (3).
 
-#### Corollaire {#lie-iv-s1-n1-cor-1 .statement}
+#### Corollaire {#lie-iv-s1-n1-cor-1 .statement tag=0ALP}
 
 Soient s = (s_1, \ldots, s_p) et s' = (s'_1, \ldots, s'_q) deux suites d’éléments de S telles que w = s_1 \ldots s_p et w' = s'_1 \ldots s'_q. Si la suite (s_1, \ldots, s_p, s'_1, \ldots, s'_q) est une décomposition réduite de $w w'$, alors $s$ est une décomposition réduite de $w$ et $s'$ en est une de $w'$.
 
 Par hypothèse, on a $l(w) \leq p$, $l(w') \leq q$ et $l(w w') = p + q$. D’après (1), on a donc $l(w) = p$ et $l(w') = q$, d’où le corollaire.
 
-#### Remarque {#lie-iv-s1-n1-rem-1 .statement}
+#### Remarque {#lie-iv-s1-n1-rem-1 .statement tag=0ALQ}
 
 La formule $d(w, w') = l(w {w'}^{-1})$ définit une distance $d$ sur $W$, invariante par les translations à droite, en vertu des formules (1) et (2).
 
 ### 2. Groupes diédraux
 
-#### Définition 2 {#lie-iv-s1-def-2 .statement}
+#### Définition 2 {#lie-iv-s1-def-2 .statement tag=0ALR}
 
 On appelle groupe diédral tout groupe engendré par deux éléments d’ordre 2, distincts.
 
-#### Exemple {#lie-iv-s1-n2-exa-1 .statement}
+#### Exemple {#lie-iv-s1-n2-exa-1 .statement tag=0ALS}
 
 Soit $M$ le groupe multiplicatif $\{1, -1\}$, et soit $m$ un entier $\geq 2$ (resp. $m = \infty$). On fait opérer $M$ sur le groupe $\mathbf{Z}/m\mathbf{Z}$ (resp. sur $\mathbf{Z}$) par $(-1) \cdot x = -x$, et l’on note $D_m$ le produit semi-direct correspondant de $M$ par $\mathbf{Z}/m\mathbf{Z}$ (resp. de $M$ par $\mathbf{Z}$). Les éléments de $D_m$ sont donc les couples $(\varepsilon, x)$ avec $\varepsilon = \pm 1$ et $x \in \mathbf{Z}/m\mathbf{Z}$ (resp. $x \in \mathbf{Z}$); la loi de groupe dans $D_m$ est donnée par la formule:
 
@@ -116,7 +116,7 @@ $$
 
 montrent que $D_m$ est un groupe diédral engendré par $\{\rho, \rho'\}$.
 
-#### Proposition 2 {#lie-iv-s1-prop-2 .statement}
+#### Proposition 2 {#lie-iv-s1-prop-2 .statement tag=0ALT}
 
 On suppose que $S$ se compose de deux éléments distincts $s$ et $s'$ d’ordre 2.
 
@@ -136,7 +136,7 @@ et $p$, contrairement à l’hypothèse que $W$ contient au moins trois élémen
 
 (ii) Comme on a $s \neq s'$, on a $p \neq 1$, d’où $m \geq 2$. Comme $P$ est d’ordre $m$ et que l’on a $(W : P) = 2$, l’ordre de $W$ est $2m$. Si $m$ est fini (resp. infini), il existe un isomorphisme $\varphi'$ de $\mathbf{Z}/m\mathbf{Z}$ (resp. $\mathbf{Z}$) sur $P$ appliquant $\pi$ sur $p$; il existe de plus un isomorphisme $\varphi''$ de $M = \{1, -1\}$ sur $T$ appliquant — 1 sur $s$. Le groupe $W$ est produit semi-direct de $T$ et $P$; d’après les formules (9) et $\rho \pi^n \rho^{-1} = \pi^{-n}$, on déduit de $\varphi'$ et $\varphi''$ un isomorphisme $\varphi$ de $D_m$ sur $W$ tel que $\varphi(\rho) = s$ et $\varphi(\pi) = p$, d’où $\varphi(\rho') = s'$. L’unicité de $\varphi$ résulte de ce que $D_m$ est engendré par $\{\rho, \rho'\}$.
 
-#### Remarque {#lie-iv-s1-n2-rem-1 .statement}
+#### Remarque {#lie-iv-s1-n2-rem-1 .statement tag=0ALU}
 
 Considérons un groupe diédral $W$ d’ordre $2m$, engendré par deux éléments distincts $s$ et $s'$ d’ordre 2. Désignons par $s_q$ (resp. $s'_q$) la suite de longueur $q$ dont les termes de rang impair (resp. pair) sont égaux à $s$ et les termes de rang pair (resp. impair) à $s'$ et soit $w_q$ (resp. $w'_q$) le produit de la suite $s_q$ (resp. $s'_q$). On a:
 
@@ -155,7 +155,7 @@ Supposons maintenant $m$ fini. Si $q \geq 2m$, on a $w_q = w_{q-2m}$ et $w'_q = 
 
 Rappelons qu’à partir de maintenant, on suppose que les éléments de $S$ sont d’ordre 2.
 
-#### Définition 3 {#lie-iv-s1-def-3 .statement}
+#### Définition 3 {#lie-iv-s1-def-3 .statement tag=0ALV}
 
 On dit que $(W, S)$ est un système de Coxeter s’il satisfait à la condition suivante :
 
@@ -163,25 +163,25 @@ On dit que $(W, S)$ est un système de Coxeter s’il satisfait à la condition 
 
 Lorsque $(W, S)$ est un système de Coxeter, on dit aussi, par abus de langage, que $W$ est un groupe de Coxeter.
 
-#### Exemple 1 {#lie-iv-s1-n3-exa-1 .statement}
+#### Exemple 1 {#lie-iv-s1-n3-exa-1 .statement tag=0ALW}
 
 Soit $m$ un entier $\geq 2$ ou $\infty$ et soit $W$ un groupe défini par un ensemble générateur $S = \{s, s'\}$ et les relations $s^2 = {s'}^2 = 1$ lorsque $m = \infty$, $s^2 = {s'}^2 = (ss')^m = 1$ lorsque $m$ est fini. Considérons d’autre part le groupe diédral $D_m$ (n° 2, Exemple) et les éléments $\rho$ et $\rho'$ de $D_m$ définis par (7). Puisque $\rho^2 = {\rho'}^2 = 1$ et que $(\rho\rho')^m = 1$ lorsque $m$ est fini, il existe un homomorphisme $f$ et un seul de $W$ sur $D_m$ tel que $f(s) = \rho$ et $f(s') = \rho'$. Comme $\rho\rho'$ est d’ordre $m$, il en résulte que $ss'$ est lui aussi d’ordre $m$. Par suite, $(W, S)$ est un système de Coxeter, $W$ est un groupe diédral d’ordre $2m$ et $f$ est un isomorphisme (prop. 2).
 
 Par transport de structure, on en déduit que tout groupe diédral est un groupe de Coxeter.
 
-#### Exemple 2 {#lie-iv-s1-n3-exa-2 .statement}
+#### Exemple 2 {#lie-iv-s1-n3-exa-2 .statement tag=0ALX}
 
 Soit $\mathfrak{S}_n$ le groupe symétrique de degré $n$, avec $n \geq 2$. Soit $s_i$ la transposition de $i$ et $i+1$ pour $1 \leq i < n$, et soit $S = \{s_1, \ldots, s_{n-1}\}$. On peut montrer (§ 2, n° 4, Exemple et § 1, exerc. 4) que $(\mathfrak{S}_n, S)$ est un système de Coxeter.
 
-#### Exemple 3 {#lie-iv-s1-n3-exa-3 .statement}
+#### Exemple 3 {#lie-iv-s1-n3-exa-3 .statement tag=0ALY}
 
 Pour la classification des groupes de Coxeter finis, cf. Chap. VI, § 4.
 
-#### Remarque {#lie-iv-s1-n3-rem-1 .statement}
+#### Remarque {#lie-iv-s1-n3-rem-1 .statement tag=0ALZ}
 
 Supposons que $(W, S)$ soit un système de Coxeter. Il existe un homomorphisme $\varepsilon$ de $W$ dans le groupe $\{1, -1\}$ caractérisé par $\varepsilon(s) = -1$ pour tous $s \in S$. On dit que $\varepsilon(w)$ est la signature de $w$; elle est égale à $(-1)^{l(w)}$. La formule $\varepsilon(ww') = \varepsilon(w) \cdot \varepsilon(w')$ se traduit donc par $l(ww') \equiv l(w) + l(w')$ mod. 2.
 
-#### Proposition 3 {#lie-iv-s1-prop-3 .statement}
+#### Proposition 3 {#lie-iv-s1-prop-3 .statement tag=0AM0}
 
 Supposons que $(W, S)$ soit un système de Coxeter. Pour que deux éléments $s$ et $s'$ de $S$ soient conjugués (***) dans $W$, il faut et il suffit que la condition suivante soit remplie:
 (I) Il existe une suite finie $(s_1, \ldots, s_q)$ d’éléments de $S$ telle que $s_1 = s, s_q = s'$ et que $s_js_{j+1}$ soit d’ordre fini impair pour $1 \leq j < q$.
@@ -216,7 +216,7 @@ $$
 R = \{1, -1\} \times T.
 $$
 
-#### Lemme 1 {#lie-iv-s1-lem-1 .statement}
+#### Lemme 1 {#lie-iv-s1-lem-1 .statement tag=0AM1}
 
 (i) *Soient $w \in W$ et $t \in T$. Le nombre $(-1)^{n(s, t)}$ a la même valeur $\eta(w, t)$ pour toutes les suites $s = (s_1, \ldots, s_q)$ d’éléments de $S$ telles que $w = s_1 \ldots s_q$.*
 
@@ -265,7 +265,7 @@ $$
 
 Comme $p$ est d’ordre $m$, les éléments $t_1, \ldots, t_m$ sont distincts et l’on a $t_{j+m} = t_j$ pour $1 \leq j \leq m$. Pour tout $t \in T$, l’entier $n(s, t)$ est donc égal à 0 ou à 2 et (14) montre que $U_s = \mathrm{Id}_R$. Autrement dit, on a $(U_s U_{s'})^m = \mathrm{Id}_R$. D’après la définition même des systèmes de Coxeter, il existe donc un homomorphisme $w \mapsto U_w$ de $W$ dans le groupe des permutations de $R$ tel que $U_s$ soit donné par le second membre de (13). On a alors $U_w = U_s$ pour toute suite $s = (s_1, \ldots, s_q)$ telle que $w = s_q \ldots s_1$ et le lemme 1 résulte immédiatement de (14).
 
-#### Lemme 2 {#lie-iv-s1-lem-2 .statement}
+#### Lemme 2 {#lie-iv-s1-lem-2 .statement tag=0AM2}
 
 *Soient $s = (s_1, \ldots, s_q)$, $\Phi(s) = (t_1, \ldots, t_q)$ et $w = s_1 \ldots s_q$. Soit $T_w$ l’ensemble des éléments $t \in T$ tels que $\eta(w, t) = -1$. Pour que $s$ soit une décomposition réduite de $w$, il faut et il suffit que les $t_i$ soient distincts; on a alors $T_w = \{t_1, \ldots, t_q\}$ et $\mathrm{Card}(T_w) = l(w)$.*
 
@@ -277,7 +277,7 @@ $$
 
 ce qui montre que $s$ n’est pas une décomposition réduite de $w$.
 
-#### Lemme 3 {#lie-iv-s1-lem-3 .statement}
+#### Lemme 3 {#lie-iv-s1-lem-3 .statement tag=0AM3}
 
 *Soient $w \in W$ et $s \in S$ tels que $l(sw) \leq l(w)$. Pour toute suite $s = (s_1, \ldots, s_q)$ d’éléments de $S$ avec $w = s_1 \ldots s_q$, il existe un entier $j$ tel que $1 \leq j \leq q$ et
 
@@ -301,7 +301,7 @@ n° 1.5.
 
 de $w'$ et posons $s' = (s, s'_1, \ldots, s'_{p-1})$ et $\Phi(s') = (t'_1, \ldots, t'_p)$. Il est clair que $s'$ est une décomposition réduite de $w$ et que l’on a $t'_1 = s$; les éléments $t'_1, \ldots, t'_p$ étant distincts par le lemme 2, on a $n(s', s) = 1$. Comme $w$ est le produit de la suite $s$, on a $n(s, s) \equiv n(s', s)$ mod. 2 d’après le lemme 1, d’où $n(s, s) \neq 0$; par suite, $s$ est égal à l’un des éléments $t_j$ de la suite $\Phi(s)$, d’où le lemme.
 
-#### Remarque {#lie-iv-s1-n4-rem-1 .statement}
+#### Remarque {#lie-iv-s1-n4-rem-1 .statement tag=0AM4}
 
 L’ensemble $T_w$ défini au lemme 2 se compose des éléments de la forme $w''s{w''}^{-1}$ correspondant aux triplets $(w', w'', s) \in W \times W \times S$ tels que $w = w''sw'$ et $l(w') + l(w'') + 1 = l(w)$.
 
@@ -317,7 +317,7 @@ $$
 
 On suppose dans ce numéro que $(W, S)$ satisfait à (E); d’après le lemme 3, il en est ainsi si $(W, S)$ est un système de Coxeter. Les résultats de ce numéro s’appliquent donc aux systèmes de Coxeter.
 
-#### Proposition 4 {#lie-iv-s1-prop-4 .statement}
+#### Proposition 4 {#lie-iv-s1-prop-4 .statement tag=0AM5}
 
 Soient $s \in S$, $w \in W$ et $s = (s_1, \ldots, s_q)$ une décomposition réduite de $w$. Deux cas seulement sont possibles:
 
@@ -354,7 +354,7 @@ $$
 
 comme on a $q - 1 \leq l(w') \leq q$, on a nécessairement $l(w') = q - 1$ et $(s_1, \ldots, s_{j-1}, s_{j+1}, \ldots, s_q)$ est une décomposition réduite de $w'$.
 
-#### Lemme 4 {#lie-iv-s1-lem-4 .statement}
+#### Lemme 4 {#lie-iv-s1-lem-4 .statement tag=0AM6}
 
 Soient $w \in W$ de longueur $q \geq 1$, $D$ l’ensemble des décompositions réduites de $w$, et $F$ une application de $D$ dans un ensemble $E$. On suppose que l’on a $F(s) = F(s')$ si les éléments $s = (s_1, \ldots, s_q)$, $s' = (s'_1, \ldots, s'_q)$ de $D$ satisfont à l’une des hypothèses suivantes :
 
@@ -379,7 +379,7 @@ $$
 
 Notons $(H_j)$ l’assertion « $s_j \in D, s_{j+1} \in D$ et $F(s_j) \neq F(s_{j+1})$ ». D’après (A), on a $(H_j) \implies (H_{j+1})$ pour $0 \leq j < q$, et $(H_q)$ n’est pas satisfaite d’après la condition b). Par suite, $(H_0)$ n’est pas satisfaite. Comme $s_0 = s'$ et $s_1 = s$, il en résulte que $F(s) = F(s')$.
 
-#### Proposition 5 {#lie-iv-s1-prop-5 .statement}
+#### Proposition 5 {#lie-iv-s1-prop-5 .statement tag=0AM7}
 
 Soient $M$ un monoïde (avec élément unité 1) et $f$ une application de $S$ dans $M$. Pour $s, s'$ dans $S$, soit $m(s, s')$ l’ordre de $ss'$; on pose
 
@@ -425,7 +425,7 @@ $$
 
 ### 6. Caractérisation des groupes de Coxeter
 
-#### Théorème 1 {#lie-iv-s1-thm-1 .statement}
+#### Théorème 1 {#lie-iv-s1-thm-1 .statement tag=0AM8}
 
 Pour que $(W, S)$ soit un système de Coxeter, il faut et il suffit qu’il satisfasse à la condition d’échange (E) du n° 5.
 
@@ -479,7 +479,7 @@ Si l’on avait $1 \leq j \leq q$, on aurait $sw = s_1 \ldots s_{j-1}s_{j+1} \ld
 
 Réciproquement, on a le résultat suivant :
 
-#### Proposition 6 {#lie-iv-s1-prop-6 .statement}
+#### Proposition 6 {#lie-iv-s1-prop-6 .statement tag=0AM9}
 
 *Soit* $(P_s)_{s \in S}$ *une famille de parties de* W *satisfaisant à* (C) *et aux conditions suivantes* :
 
@@ -517,13 +517,13 @@ La comparaison de a) et b) prouve que $P_s$ se compose des $w \in W$ tels que $l
 
 Dans ce numéro, on suppose que $(W, S)$ est un système de Coxeter. Pour toute partie $X$ de $S$, on note $W_X$ le sous-groupe de $W$ engendré par $X$.
 
-#### Proposition 7 {#lie-iv-s1-prop-7 .statement}
+#### Proposition 7 {#lie-iv-s1-prop-7 .statement tag=0AMA}
 
 *Soit $w$ dans $W$. Il existe une partie $S_w$ de $S$ telle que l’on ait $\{s_1, \ldots, s_q\} = S_w$ pour toute décomposition réduite $(s_1, \ldots, s_q)$ de $w$.
 
 On note $M$ le monoïde formé des parties de $S$ avec la loi de composition $(A, B) \mapsto A \cup B$; l’élément neutre de $M$ est $\varnothing$. On pose $f(s) = \{s\}$ pour $s \in S$. Nous allons appliquer la prop. 5 du n° 5 à $M$ et $f$; on a $a(s, s') = \{s, s'\}$ pour $s, s'$ dans $S$ si $m(s, s')$ est fini, et il existe donc une application $g : w \mapsto S_w$ de $W$ dans $M$ telle que $g(w) = f(s_1) \cup \cdots \cup f(s_q)$, c’est-à-dire $S_w = \{s_1, \ldots, s_q\}$ pour tout $w \in W$ et toute décomposition réduite $(s_1, \ldots, s_q)$ de $w$.
 
-#### Corollaire 1 {#lie-iv-s1-prop-7-cor-1 .statement}
+#### Corollaire 1 {#lie-iv-s1-prop-7-cor-1 .statement tag=0AMB}
 
 *Pour toute partie $X$ de $S$, le sous-groupe $W_X$ de $W$ se compose des éléments $w$ de $W$ tels que $S_w \subset X$.
 
@@ -541,23 +541,23 @@ $$
 
 par récurrence sur la longueur de $w$. D’après (23) et (24), l’ensemble $U$ des $w \in W$ tels que $S_w \subset X$ est un sous-groupe de $W$; on a $X \subset U \subset W_X$, d’où $U = W_X$.
 
-#### Corollaire 2 {#lie-iv-s1-prop-7-cor-2 .statement}
+#### Corollaire 2 {#lie-iv-s1-prop-7-cor-2 .statement tag=0AMC}
 
 *Pour toute partie $X$ de $S$, on a $W_X \cap S = X$.
 
 Cela résulte du cor. 1 et de la formule $S_s = \{s\}$ pour $s$ dans $S$.
 
-#### Corollaire 3 {#lie-iv-s1-prop-7-cor-3 .statement}
+#### Corollaire 3 {#lie-iv-s1-prop-7-cor-3 .statement tag=0AMD}
 
 L’ensemble S est un ensemble générateur minimal de W.
 Si X ⊂ S engendre W, on a W = W_X, d’où X = S ∩ W_X = S d’après le cor. 2.
 
-#### Corollaire 4 {#lie-iv-s1-prop-7-cor-4 .statement}
+#### Corollaire 4 {#lie-iv-s1-prop-7-cor-4 .statement tag=0AME}
 
 Pour toute partie X de S et tout w dans W_X, la longueur de w par rapport à l’ensemble générateur X de W_X est égale à l_S(w).
 Soit (s_1, ..., s_q) une décomposition réduite de w considéré comme élément de W; on a w = s_1 ... s_q et s_j ∈ X pour 1 ≤ j ≤ q (cor. 1); par ailleurs, w ne peut être produit de q' < q éléments de X ⊂ S par définition de q = l_S(w).
 
-#### Théorème 2 {#lie-iv-s1-thm-2 .statement}
+#### Théorème 2 {#lie-iv-s1-thm-2 .statement tag=0AMF}
 
 (i) Pour toute partie X de S, le couple (W_X, X) est un système de Coxeter.
 (ii) Soit (X_i)_{i ∈ I} une famille de parties de S. Si X = ⋂_{i ∈ I} X_i, on a W_X = ⋂_{i ∈ I} W_{X_i}.
@@ -572,7 +572,7 @@ Les assertions (ii) et (iii) résultent immédiatement du cor. 1 de la prop. 7.
 
 ### 9. Matrices et graphes de Coxeter
 
-#### Définition 4 {#lie-iv-s1-def-4 .statement}
+#### Définition 4 {#lie-iv-s1-def-4 .statement tag=0AMG}
 
 Soit I un ensemble. On appelle matrice de Coxeter de type I toute matrice carrée symétrique M = (m_{ij})_{i,j ∈ I} dont les éléments sont des entiers ou +∞ satisfaisant aux relations:
 (25) $m_{ii} = 1$ pour tout $i \in I$;
@@ -609,7 +609,7 @@ On dit qu’un système de Coxeter (W, S) est irréductible si le graphe $\Gamma
 
 sous-groupes $W_i$ pour $i \in I$. Cela résulte en effet de la proposition plus générale suivante :
 
-#### Proposition 8 {#lie-iv-s1-prop-8 .statement}
+#### Proposition 8 {#lie-iv-s1-prop-8 .statement tag=0AMH}
 
 *Soit* $(S_i)_{i \in I}$ *une partition de S*, *telle que tout élément de S_i commute avec tout élément de S_j pour i \neq j*. *Pour tout i \in I*, *soit* $W_i$ *le sous-groupe engendré par S_i*. *Alors* W *est produit direct restreint de la famille* $(W_i)_{i \in I}$.
 

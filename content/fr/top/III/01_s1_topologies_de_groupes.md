@@ -24,14 +24,14 @@ subsections:
       pdf_page: 188
 statements: 11
 exercises: 9
-content_sha256: 5cfb637a7ea92fbf21bd5178742a4d82f844dbbeb45764ba0b4eb64b80343371
+content_sha256: e1535087648999acc4a375d64125b7b490645f0b6bf918b41f8c2e75f23596ba
 ---
 
 ## § 1. TOPOLOGIES DE GROUPES
 
 ### 1. Groupes topologiques
 
-#### Définition 1 {#top-iii-s1-def-1 .statement}
+#### Définition 1 {#top-iii-s1-def-1 .statement tag=0BH8}
 
 On appelle groupe topologique un ensemble G muni d’une structure de groupe et d’une topologie satisfaisant aux deux axiomes suivants :
 (GT_I) L’application $(x, y) \mapsto xy$ de $G \times G$ dans $G$ est continue.
@@ -39,16 +39,16 @@ On appelle groupe topologique un ensemble G muni d’une structure de groupe et 
 
 Une structure de groupe et une structure topologique étant données sur un ensemble $G$, on dira qu’elles sont compatibles si elles satisfont à (GT_I) et (GT_{II}).
 
-#### Exemple 1 {#top-iii-s1-n1-exa-1 .statement}
+#### Exemple 1 {#top-iii-s1-n1-exa-1 .statement tag=0BH9}
 
 Sur un groupe $G$, la topologie discrète est compatible avec la structure du groupe ; un groupe topologique dont la topologie est discrète est appelé groupe discret.
 De même, la topologie la moins fine (I, p. 11) sur $G$ est compatible avec la structure de groupe de $G$.
 
-#### Exemple 2 {#top-iii-s1-n1-exa-2 .statement}
+#### Exemple 2 {#top-iii-s1-n1-exa-2 .statement tag=0BHA}
 
 Au chap. IV, on verra que la topologie de la droite rationnelle $\mathbf{Q}$ (resp. de la droite numérique $\mathbf{R}$) est compatible avec la structure de groupe additif de $\mathbf{Q}$ (resp. $\mathbf{R}$).*
 
-#### Exemple 3 {#top-iii-s1-n1-exa-3 .statement}
+#### Exemple 3 {#top-iii-s1-n1-exa-3 .statement tag=0BHB}
 
 Si $G$ est un groupe topologique, sa topologie est compatible avec la structure du groupe $G^0$ opposé à $G$ (A, I, p. 2g) ; on dit que $G^0$, muni de cette topologie, est le groupe topologique opposé au groupe topologique $G$.
 
@@ -97,7 +97,7 @@ Enfin, comme $x \mapsto axa^{-1}$ est un homéomorphisme *conservant* $e$, $\mat
 
 Ces trois propriétés du filtre $\mathfrak{V}$ sont caractéristiques. De façon précise:
 
-#### Proposition 1 {#top-iii-s1-prop-1 .statement}
+#### Proposition 1 {#top-iii-s1-prop-1 .statement tag=0BHC}
 
 *Soient* G *un groupe*, et $\mathfrak{V}$ *un filtre sur* G *satisfaisant aux axiomes* (GV_I), (GV_{II}) *et* (GV_{III}). *Il existe une topologie et une seule compatible avec la structure de groupe de* G, *et pour laquelle* $\mathfrak{V}$ *est le filtre des voisinages de l’élément neutre* e. *Pour cette topologie, le filtre des voisinages d’un point quelconque* $a \in G$ *est identique à chacun des deux filtres* $a.\mathfrak{V}$ *et* $\mathfrak{V}.a$.
 
@@ -115,7 +115,7 @@ $(\mathrm{GV}'_{\text{III}})$ *Quels que soient* $a \in G$ *et* $U \in \mathfrak
 
 Tout voisinage de $e$ identique à son image par la symétrie $x \mapsto x^{-1}$ est dit *symétrique*; si $V$ est un voisinage quelconque de $e$, $V \cup V^{-1}, V \cap V^{-1}$ et $V.V^{-1}$ sont des voisinages symétriques; d’après $(\mathrm{GV}_{\text{II}})$, les voisinages symétriques forment un *système fondamental de voisinages* de $e$. De même, d’après $(\mathrm{GV}_I)$, lorsque $V$ parcourt un système fondamental de voisinages de $e$, les ensembles $V^n$ (*n* entier fixe $\neq 0$) forment un système fondamental de voisinages de $e$.
 
-#### Remarque {#top-iii-s1-n2-rem-1 .statement}
+#### Remarque {#top-iii-s1-n2-rem-1 .statement tag=0BHD}
 
 Lorsque $G$ est *commutatif*, on a $x.A.x^{-1} = A$ pour toute partie $A$ et tout élément $x$ de $G$; la condition $(\mathrm{GV}_{\text{III}})$ (resp. $(\mathrm{GV}'_{\text{III}})$) est automatiquement vérifiée pour tout filtre (resp. toute base de filtre) sur $G$. Au contraire, si $G$ n’est pas commutatif, $(\mathrm{GV}_{\text{III}})$ n’est pas une conséquence de $(\mathrm{GV}_I)$ et $(\mathrm{GV}_{\text{II}})$ (voir III, p. 67, exerc. 5).
 
@@ -124,19 +124,19 @@ Pour un groupe commutatif $G$, écrit *additivement*, les axiomes caractérisant
 $(\mathrm{GA}_I)$ *Quel que soit* $U \in \mathfrak{V}$, *il existe* $V \in \mathfrak{V}$ *tel que* $V + V \subset U$.
 $(\mathrm{GA}_{\text{II}})$ *Quel que soit* $U \in \mathfrak{V}$, *on a* $-U \in \mathfrak{V}$.
 
-#### Proposition 2 {#top-iii-s1-prop-2 .statement}
+#### Proposition 2 {#top-iii-s1-prop-2 .statement tag=0BHE}
 
 Pour qu’un groupe topologique G soit séparé, il faut et il suffit que l’ensemble {e} soit fermé.
 
 La condition est évidemment nécessaire; inversement, si elle est satisfaite, la diagonale Δ de G × G, image réciproque de l’ensemble {e} par l’application continue (x, y) ↦ xy⁻¹, est un ensemble fermé, donc (I, p. 52, prop. 1) G est séparé.
 
-#### Corollaire {#top-iii-s1-n2-cor-1 .statement}
+#### Corollaire {#top-iii-s1-n2-cor-1 .statement tag=0BHF}
 
 Pour qu’un groupe topologique G soit séparé, il faut et il suffit que l’intersection des voisinages de e se réduise au point e.
 
 La condition est évidemment nécessaire; inversement, si elle est satisfaite, l’ensemble {e} est fermé: en effet, si x ≠ e, il existe un voisinage V de e tel que x⁻¹ ∉ V, donc e ∉ xV, ce qui montre que x ne peut être adhérent à {e}.
 
-#### Exemple {#top-iii-s1-n2-exa-1 .statement}
+#### Exemple {#top-iii-s1-n2-exa-1 .statement tag=0BHG}
 
 Définition d’une topologie de groupe par un ensemble de sous-groupes.
 
@@ -154,7 +154,7 @@ Par exemple, si a est un point quelconque de G, l’application x ↦ axa⁻¹ e
 
 Si une topologie $\mathscr{T}$ est compatible avec la structure de groupe d’un groupe $G$, et si $G^0$ désigne le groupe topologique obtenu en munissant le groupe opposé de $G$ de la topologie $\mathscr{T}$, la symétrie $x \mapsto x^{-1}$ est un *isomorphisme* du groupe topologique $G$ sur le groupe topologique $G^0$.
 
-#### Définition 2 {#top-iii-s1-def-2 .statement}
+#### Définition 2 {#top-iii-s1-def-2 .statement tag=0BHH}
 
 *Étant donnés deux groupes topologiques* $G, G'$, *on appelle isomorphisme local de* $G$ *à* $G'$ *un homéomorphisme* $f$ *d’un voisinage* $V$ *de l’élément neutre de* $G$ *sur un voisinage* $V'$ *de l’élément neutre de* $G'$, *satisfaisant aux conditions suivantes*:
 
@@ -176,7 +176,7 @@ Un isomorphisme local de $G$ à $G$ s’appelle encore *automorphisme local* de 
 
 En général, si $f$ est un homéomorphisme d’un voisinage $V$ de l’élément neutre de $G$ sur un voisinage $V'$ de l’élément neutre de $G'$, satisfaisant à la condition $1^\circ$ de la déf. 2, il ne satisfait pas nécessairement à la condition $2^\circ$ (voir III, p. 67, exerc. 7). Toutefois, $G$ et $G'$ sont alors *localement isomorphes*; de façon précise:
 
-#### Proposition 3 {#top-iii-s1-prop-3 .statement}
+#### Proposition 3 {#top-iii-s1-prop-3 .statement tag=0BHI}
 
 *Soient* $G$ *et* $G'$ *deux groupes topologiques, et* $f$ *un homéomorphisme d’un voisinage* $V$ *de l’élément neutre de* $G$ *sur un voisinage* $V'$ *de l’élément neutre de* $G'$, *satisfaisant à la condition* $1^\circ$ *de la définition* $2$; $f$ *est alors un prolongement d’un isomorphisme local de* $G$ *à* $G'$.
 

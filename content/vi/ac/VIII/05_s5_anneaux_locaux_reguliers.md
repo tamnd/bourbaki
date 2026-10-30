@@ -29,7 +29,7 @@ subsections:
       pdf_page: 60
 statements: 31
 exercises: 31
-content_sha256: ba933e44b000146c1ea395e48ec650f65757bafeb954fee85c9b8c3ebf1d8c82
+content_sha256: 350e8b614151c896a5f8dcaa93c93692cc33d7fe2a5fce8927537c1719b9f15b
 translated_from: content/en-mt/ac/VIII/05_s5_anneaux_locaux_reguliers.md
 source_lang: en-mt
 translation_method: machine
@@ -53,43 +53,43 @@ $$
 
 đối với mọi họ $(x_i)_{i \in I}$ sinh iđêan $m_A$ của A.
 
-#### Định nghĩa 1 {#ac-viii-s5-def-1 .statement}
+#### Định nghĩa 1 {#ac-viii-s5-def-1 .statement tag=0CPB}
 
 Vành địa phương Noether $A$ được gọi là chính quy nếu ta có $\dim(A) = [\mathfrak{m}_A/\mathfrak{m}_A^2 : \kappa_A]$. Khi đó, một **hệ tọa độ** của $A$ là bất kỳ họ nào gồm các phần tử của $\mathfrak{m}_A$ mà các lớp của chúng modulo $\mathfrak{m}_A^2$ tạo thành một cơ sở của không gian vectơ $\kappa_A$ $\mathfrak{m}_A/\mathfrak{m}_A^2$.
 
 Vì vậy, một hệ tọa độ trong một vành địa phương Noether chính quy $A$ là một họ hữu hạn $(x_i)_{i \in I}$ sinh iđêan $\mathfrak{m}_A$ của $A$ và sao cho $\mathrm{Card}(I) = \dim(A)$. Ngược lại, nếu iđêan $\mathfrak{m}_A$ của một vành địa phương Noether $A$ được sinh bởi $d$ phần tử với $d \leq \dim(A)$, thì vành $A$ là chính quy.
 
-#### Ví dụ 1 {#ac-viii-s5-n1-exa-1 .statement}
+#### Ví dụ 1 {#ac-viii-s5-n1-exa-1 .statement tag=0CPC}
 
 Các vành địa phương Noether chính quy có chiều 0 (resp. 1) là các trường (resp. các vành định giá rời rạc) (VI, § 3, No. 6, Mệnh đề 9 và Hệ quả 1 của Định lý 1 dưới đây). Cho $A$ là một vành định giá rời rạc; khi đó một phần tử $t$ của $\mathfrak{m}_A$ là một tham số đều nếu và chỉ nếu $\{ t \}$ là một hệ tọa độ của $A$.
 
-#### Ví dụ 2 {#ac-viii-s5-n1-exa-2 .statement}
+#### Ví dụ 2 {#ac-viii-s5-n1-exa-2 .statement tag=0CPD}
 
 Cho $k$ là một trường và cho $n$ là một số nguyên dương. Vành chuỗi lũy thừa hình thức $k[[X_1, ..., X_n]]$ là một vành địa phương Noether chính quy có chiều $n$ (§ 3, No. 4, Hệ quả 3 của Mệnh đề 8). Cho $F_1, ..., F_n$ là các chuỗi lũy thừa hình thức không có số hạng hằng trong $k[[X_1, ..., X_n]]$; để dãy $(F_1, ..., F_n)$ là một hệ tọa độ của $k[[X_1, ..., X_n]]$, điều kiện cần và đủ là ma trận $\left( \frac{\partial F_i}{\partial X_j}(0, ..., 0) \right)$ khả nghịch.
 
 Nói chung hơn, cho $A$ là một vành địa phương Noether chính quy có chiều $r$; khi đó $A[[X_1, ..., X_n]]$ là một vành địa phương Noether chính quy có chiều $r + n$. Nếu $(a_1, ..., a_r)$ là một hệ tọa độ của $A$, thì $(a_1, ..., a_r, X_1, ..., X_n)$ là một hệ tọa độ của $A[[X_1, ..., X_n]]$.
 
-#### Ví dụ 3 {#ac-viii-s5-n1-exa-3 .statement}
+#### Ví dụ 3 {#ac-viii-s5-n1-exa-3 .statement tag=0CPE}
 
 Cho $A$ là một vành địa phương Noether chính quy đầy đủ có chiều $r$. Vành $A \{ X_1, ..., X_n \}$ các chuỗi lũy thừa hình thức hạn chế là một vành địa phương Noether chính quy có chiều $r + n$ (§ 3, No. 4, Nhận xét 1). Nếu $(a_1, ..., a_r)$ là một hệ tọa độ của $A$, thì $(a_1, ..., a_r, X_1, ..., X_n)$ là một hệ tọa độ của $A \{ X_1, ..., X_n \}$.
 
-#### Ví dụ 4 {#ac-viii-s5-n1-exa-4 .statement}
+#### Ví dụ 4 {#ac-viii-s5-n1-exa-4 .statement tag=0CPF}
 
 Cho $k$ là một trường định giá đầy đủ rời rạc. Vành các chuỗi lũy thừa hình thức theo $n$ biến hội tụ trong một lân cận của 0 trong $k^n$ là một vành địa phương chính quy Noether chiều $n$ (§ 3, No. 4, Nhận xét 2).
 
-#### Ví dụ 5 {#ac-viii-s5-n1-exa-5 .statement}
+#### Ví dụ 5 {#ac-viii-s5-n1-exa-5 .statement tag=0CPG}
 
 Cho $k$ là một trường, $A$ một $k$-đại số nguyên hữu hạn sinh, và $m$ một iđêan cực đại của $A$. Vành địa phương Noether $A_m$ là chính quy khi và chỉ khi có $\dim(A) = [m/m^2 : A/m]$; thật vậy, ta có $\dim(A_m) = \dim(A)$ (§ 2, No. 4, Hệ quả 2 của Định lý 3) và các không gian vectơ $m/m^2$ và $mA_m/(mA_m)^2$ trên trường $A/m$ là đẳng cấu (II, § 3, No. 3, Prop. 9). Đặc biệt, nếu $k$ đóng đại số, điều kiện đã nêu tương đương với $\dim(A) = [m/m^2 : k]$ (V, § 3, No. 3, Prop. 1).
 
-#### Ví dụ 6 {#ac-viii-s5-n1-exa-6 .statement}
+#### Ví dụ 6 {#ac-viii-s5-n1-exa-6 .statement tag=0CPH}
 
 Cho $X$ là một đa tạp đại số trên một trường hoàn hảo $k$. Khi đó $X$ không kỳ dị tại một điểm $x$ khi và chỉ khi vành địa phương của $X$ tại $x$ là chính quy.
 
-#### Ví dụ 7 {#ac-viii-s5-n1-exa-7 .statement}
+#### Ví dụ 7 {#ac-viii-s5-n1-exa-7 .statement tag=0CPI}
 
 Cho $A$ là một vành địa phương chính quy Noether. Ta sẽ thấy sau rằng vành địa phương Noether $A_p$ là chính quy với mọi iđêan nguyên tố $p$ của $A$.
 
-#### Mệnh đề 1 {#ac-viii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#ac-viii-s5-prop-1 .statement tag=0CPJ}
 
 Cho $A$ và $B$ là các vành địa phương Noether và $\rho : A \to B$ một đồng cấu địa phương làm cho $B$ thành một $A$-môđun phẳng. Giả sử rằng có m_B = B.\rho(m_A). Khi đó dim(A) = dim(B) và $B$ là chính quy khi và chỉ khi $A$ là chính quy.
 
@@ -101,7 +101,7 @@ $$
 $$
 do đó mệnh đề được suy ra ngay.
 
-#### Hệ quả {#ac-viii-s5-n1-cor-1 .statement}
+#### Hệ quả {#ac-viii-s5-n1-cor-1 .statement tag=0CPK}
 
 Một vành địa phương Noether A là chính quy khi và chỉ khi hoàn thành $\hat{A}$ của nó là như vậy.
 
@@ -109,7 +109,7 @@ Thật vậy, $\hat{A}$ phẳng trên A, và ta có $m_{\hat{A}} = \hat{A}.m_A$ 
 
 ### 2. Vành phân bậc liên kết với một vành địa phương chính quy
 
-#### Định lý 1 {#ac-viii-s5-thm-1 .statement}
+#### Định lý 1 {#ac-viii-s5-thm-1 .statement tag=0CPL}
 
 Cho A là một vành địa phương Noether. Các điều kiện sau là tương đương:
 (i) A là chính quy.
@@ -143,7 +143,7 @@ Do đó, theo Định lý 3 của § 4, No. 4 và Bổ đề 2 của § 4, No. 1
 
 Sau cùng, hãy chứng minh sự tương đương của các điều kiện từ (iv) đến (vi). Khi đó (iv) có nghĩa là ta có $H_{A,m_A} = (1 - T)^{-s}$ với $s = [m_A/m_A^2 : \kappa_A]$. Do đó các điều kiện (iv), (v), (vi) có nghĩa là ta có $H_{A,m_A} = (1 - T)^{-m}$, lần lượt với $m = [m_A/m_A^2 : \kappa_A]$, $m \geq 0$, $m = \dim(A)$. Nhưng nếu ta có $H_{A,m_A} = (1 - T)^{-m}$, thì $\dim(A) = m$ theo § 4, No. 4, Định lý 3 và $[m_A/m_A^2 : \kappa_A] = m$ (vì $(1 - T)^{-m} = 1 + mT + \cdots$). Sự tương đương của các điều kiện từ (iv) đến (vi) suy ra ngay lập tức từ điều này.
 
-#### Hệ quả 1 {#ac-viii-s5-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-viii-s5-thm-1-cor-1 .statement tag=0CPM}
 
 Mọi vành địa phương Noether chính quy đều nguyên đóng, và đặc biệt là một miền nguyên.
 
@@ -151,7 +151,7 @@ Giả sử rằng A là chính quy. Khi đó $\mathrm{gr}(A)$ đẳng cấu vớ
 
 Ta sẽ thấy trong một chương sau rằng mọi vành địa phương Noether chính quy đều là phân tích được duy nhất.
 
-#### Hệ quả 2 {#ac-viii-s5-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-viii-s5-thm-1-cor-2 .statement tag=0CPN}
 
 Cho A và B là các vành địa phương Noether và $\sigma$ là một đồng cấu địa phương từ B vào A. Giả sử rằng A là chính quy và B đầy đủ. Điều kiện cần và đủ để $\sigma$ là song ánh là nó cảm sinh các song ánh của $\kappa_B$ lên $\kappa_A$ và của $m_B/m_B^2$ lên $m_A/m_A^2$.
 
@@ -159,7 +159,7 @@ Cho A và B là các vành địa phương Noether và $\sigma$ là một đồn
 
 Ngược lại, giả sử rằng $\sigma$ cảm sinh các đẳng cấu của $\mathrm{gr}_0(B)$ lên $\mathrm{gr}_0(A)$ và của $\mathrm{gr}_1(B)$ lên $\mathrm{gr}_1(A)$. Vì vành $\mathrm{gr}(B)$ được sinh bởi $\mathrm{gr}_0(B) \cup \mathrm{gr}_1(B)$ và $\mathrm{gr}(A)$ là đại số đối xứng của không gian vectơ $\mathrm{gr}_1(A)$ trên trường $\mathrm{gr}_0(A)$, nên đồng cấu $\mathrm{gr}(\sigma)$ là song ánh. Do đó $\sigma$ là song ánh (III, § 2, No. 8, Hệ quả 3 của Định lý 1).
 
-#### Hệ quả 3 {#ac-viii-s5-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#ac-viii-s5-thm-1-cor-3 .statement tag=0CPO}
 
 Cho k là một trường và A là một k-đại số địa phương Noether mà trường thặng dư bằng k. Điều kiện cần và đủ để A là chính quy là hoàn thành của nó $\hat{A}$ đẳng cấu với một k-đại số chuỗi lũy thừa hình thức $k[[X_1, ..., X_n]]$.
 
@@ -167,7 +167,7 @@ Cho k là một trường và A là một k-đại số địa phương Noether 
 
 ### 3. Thương của các Vành Địa phương Chính quy
 
-#### Mệnh đề 2 {#ac-viii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#ac-viii-s5-prop-2 .statement tag=0CPP}
 
 Cho $A$ là một vành địa phương Noether, $x = (x_1, ..., x_r)$ một dãy các phần tử của $m_A$ và $x$ là iđêan sinh bởi $x$. Các điều kiện sau là tương đương:
 
@@ -205,7 +205,7 @@ Các công thức (3) và (4) cho thấy rằng $A/x$ là chính quy.
 
 Mọi vành địa phương Noether chính quy đều là một miền nguyên theo Hệ quả 1 của Định lý 1 của No. 2. Suy ra $x$ là nguyên tố nếu $A/x$ là chính quy.
 
-#### Hệ quả 1 {#ac-viii-s5-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-viii-s5-prop-2-cor-1 .statement tag=0CPQ}
 
 Cho $A$ là một vành địa phương Noether, và $t$ là một phần tử của $m_A$. Các điều kiện sau là tương đương:
 
@@ -213,7 +213,7 @@ Cho $A$ là một vành địa phương Noether, và $t$ là một phần tử c
 (ii) $A/tA$ là chính quy và $\dim(A/tA) < \dim(A)$;
 (iii) $A/tA$ là chính quy, và $t$ không là một ước của 0 trong $A$.
 
-#### Hệ quả 2 {#ac-viii-s5-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-viii-s5-prop-2-cor-2 .statement tag=0CPR}
 
 Cho $A$ là một vành địa phương Noether chính quy, và $q$ là một iđêan của $A$. Khi đó $A/q$ là chính quy khi và chỉ khi $q$ được sinh bởi một tập con của một hệ tọa độ của $A$.
 
@@ -221,17 +221,17 @@ Cho $A$ là một vành địa phương Noether chính quy, và $q$ là một i�
 
 Giả sử $A/q$ chính quy, và cho $x = (x_1, ..., x_r)$ là một dãy các phần tử của $q$ mà các lớp modulo $m_A^2$ của chúng lập thành một cơ sở của $(q + m_A^2)/m_A^2$ trên trường $\kappa_A$. Gọi $x$ là iđêan của $A$ sinh bởi $x$. Khi đó $x \subset q$ và $x$ lập thành một phần của một hệ tọa độ của $A$, do đó vành địa phương Noether $A/x$ là chính quy (Mệnh đề 2); hơn nữa, các không gian vectơ $m_A/(q + m_A^2)$ và $m_A/(x + m_A^2)$ có cùng chiều trên $\kappa_A$. Suy ra các vành địa phương Noether chính quy $A/q$ và $A/x$ có cùng chiều. Vì các iđêan $q$ và $x$ là nguyên tố và ta có $x \subset q$, cuối cùng suy ra $q = x$.
 
-#### Ví dụ {#ac-viii-s5-n3-exa-1 .statement}
+#### Ví dụ {#ac-viii-s5-n3-exa-1 .statement tag=0CPS}
 
 Cho $k$ là một trường, $A = k[[X_1, ..., X_n]]$ và $q$ là một iđêan của $A$, khác $A$. Để $A/q$ là chính quy, điều kiện cần và đủ là có thể tìm được một số nguyên $r \geqslant 0$ và các phần tử $F_1, ..., F_r$ của $A$, sinh $q$, sao cho ma trận $\left( \frac{\partial F_i}{\partial X_j}(0, ..., 0) \right)$ có hạng $r$ ("tiêu chuẩn Jacobi"). Khi đó ta có $\dim(A/q) = n - r$.
 
-#### Nhận xét {#ac-viii-s5-n3-rem-1 .statement}
+#### Nhận xét {#ac-viii-s5-n3-rem-1 .statement tag=0CPT}
 
 Cho $A$ là một vành địa phương Noether chính quy và $q \subset m_A$ là một iđêan của $A$ sao cho $A/q$ là chính quy. Cho $(x_1, ..., x_r)$ là một dãy các phần tử của $q$ mà các lớp modulo $m_A^2$ của chúng sinh không gian vectơ $(q + m_A^2)/m_A^2$ trên trường $\kappa_A$. Chứng minh của Hệ quả 2 cho thấy rằng iđêan $q$ của $A$ được sinh bởi $(x_1, ..., x_r)$.
 
 ### 4. Đa thức Eisenstein
 
-#### Định nghĩa 2 {#ac-viii-s5-def-2 .statement}
+#### Định nghĩa 2 {#ac-viii-s5-def-2 .statement tag=0CPU}
 
 Cho $A$ là một vành, $p$ là một iđêan nguyên tố của $A$, và $P$ là một đa thức trong $A[T]$. Ta nói rằng $P$ là một đa thức Eisenstein đối với $p$ nếu nó thỏa mãn các điều kiện sau:
 a) $P$ là đơn nhất và có bậc $d \geqslant 1$;
@@ -243,7 +243,7 @@ Nói cách khác, một đa thức Eisenstein đối với $p$ là một đa th�
 Người ta nói rằng $P$ là một đa thức Eisenstein đối với $pA_p$ nếu ảnh chính tắc của $P$ trong vành đa thức $A_p[T]$ là một đa thức Eisenstein đối với iđêan $pA_p$; điều đó cũng có nghĩa là $P$ là một đa thức Eisenstein đối với $p$ và hơn nữa nó thỏa mãn điều kiện sau đây, mạnh hơn c):
 c’) mọi phần tử $a$ của $A$ sao cho $aP(0) \in p^2$ đều thuộc $p$.
 
-#### Mệnh đề 3 {#ac-viii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#ac-viii-s5-prop-3 .statement tag=0CPV}
 
 Cho $A$ là một vành, $p$ là một iđêan nguyên tố của $A$ và $P \in A[T]$ là một đa thức Eisenstein đối với $p$.
 a) Không tồn tại một phân tích dạng $P = P_1 P_2$ trong đó $P_1$ và $P_2$ là hai đa thức đơn nhất của $A[T]$ khác 1.
@@ -255,7 +255,7 @@ Mệnh đề b) suy ra từ a) và mệnh đề 11 của V, § 1, no 3.
 
 Cho $A$ là một vành địa phương Noether và $P_1, ..., P_r$ là các đa thức đơn nhất trong $A[T]$, có bậc $\geq 2$. Gọi $q$ là iđêan của $A[T_1, ..., T_r]$ sinh bởi $P_1(T_1), ..., P_r(T_r)$ và gọi $B$ là $A$-đại số thương $A[T_1, ..., T_r]/q$. Với $1 \leq i \leq r$, gọi $d_i$ là bậc của $P_i$, $t_i$ là lớp của $T_i$ theo modulo $q$, và $\gamma_i$ là lớp của $c_i = P_i(0)$ theo modulo $m_A^2$. Giả sử rằng $P_i(T) \equiv T^{d_i} \mod m_A A[T]$ với $1 \leq i \leq r$.
 
-#### Mệnh đề 4 {#ac-viii-s5-prop-4 .statement}
+#### Mệnh đề 4 {#ac-viii-s5-prop-4 .statement tag=0CPW}
 
 **a)** *Vành $B$ là địa phương và Noether, với iđêan cực đại*
 
@@ -301,13 +301,13 @@ $$
 
 Mệnh đề c) suy ra ngay từ các công thức (7) và (8).
 
-#### Hệ quả {#ac-viii-s5-n4-cor-1 .statement}
+#### Hệ quả {#ac-viii-s5-n4-cor-1 .statement tag=0CPX}
 
 *Cho A là một vành địa phương chính quy Noether và cho P $\in A[T]$ là một đa thức Eisenstein đối với $m_A$. Vành $B = A[T]/(P)$ là một vành địa phương chính quy Noether, có cùng chiều với A, và ta có $[ \kappa_A : \kappa_B ] = 1$. Cuối cùng, ta có $m_B = B.m_A + Bt$, trong đó t là lớp của T modulo (P).*
 
 Trường hợp trong đó P có bậc $\geq 2$ suy ra từ mệnh đề 4, khi lấy $r = 1$; khi P có bậc 1, nghĩa là có dạng $T - c$ với $c \in m_A$, thì hệ quả là ngay lập tức.
 
-#### Mệnh đề 5 {#ac-viii-s5-prop-5 .statement}
+#### Mệnh đề 5 {#ac-viii-s5-prop-5 .statement tag=0CPY}
 
 *Cho A là một miền nguyên, với trường phân thức K, và cho L là một mở rộng đại số bậc hữu hạn của K. Ta ký hiệu bởi B bao đóng nguyên của A trong L và bởi p một iđêan nguyên tố của A.
 
@@ -322,7 +322,7 @@ d) Đồng cấu chính tắc từ $A/p$ vào $B/q$ cảm sinh một đẳng c�
 
 Đặt S = A − p. Ta biết (V, § 1, n° 5, mệnh đề 16) rằng bao đóng nguyên của
 
-#### Hệ quả {#ac-viii-s5-n4-cor-2 .statement}
+#### Hệ quả {#ac-viii-s5-n4-cor-2 .statement tag=0CPZ}
 
 Giả sử rằng A_p là một vành định giá rời rạc. Khi đó B_q là một vành định giá rời rạc, t là một phần tử chuẩn hóa của B_q, và ta có
 
@@ -334,11 +334,11 @@ $$
 
 Thật vậy, các vành định giá rời rạc là các vành địa phương Noether chính quy có chiều 1; đặt d = [L : K], ta có t^d \in m_A - m_A^2, do đó d = e(B_q/A_p). Ta có [\kappa_B : \kappa_A] = 1, do đó f(B_q/A_p) = 1.
 
-#### Ví dụ 1 {#ac-viii-s5-n4-exa-1 .statement}
+#### Ví dụ 1 {#ac-viii-s5-n4-exa-1 .statement tag=0CQ0}
 
 Đặt A = \mathbf{Z} và L = \mathbf{Q}(p^{1/d}), trong đó p là một số nguyên tố và d là một số nguyên \geqslant 2. Ký hiệu bởi B bao đóng nguyên của \mathbf{Z} trong L. Vì đa thức T^d - p của \mathbf{Z}[T] là một đa thức Eisenstein đối với p\mathbf{Z}_{(p)}, nên tồn tại một iđêan nguyên tố q duy nhất của B nằm trên p\mathbf{Z}. Do đó tồn tại một định giá rời rạc chuẩn hóa duy nhất v của trường \mathbf{Q}(p^{1/d}) sao cho v(p) > 0; ta có [L : K] = v(p) = d, và B/q là một trường có p phần tử. Vành B_q của định giá v bằng \mathbf{Z}_{(p)}[p^{1/d}].
 
-#### Ví dụ 2 {#ac-viii-s5-n4-exa-2 .statement}
+#### Ví dụ 2 {#ac-viii-s5-n4-exa-2 .statement tag=0CQ1}
 
 Đặt A = \mathbf{Z} và L = R_{pf}(\mathbf{Q}) trong đó p là một số nguyên tố và f là một số nguyên \geqslant 1 (x. A, V, p. 78). Khi đó L = \mathbf{Q}(\zeta) với \zeta = \exp(2\pi i/p^f). Ký hiệu bởi B bao đóng nguyên của \mathbf{Z} trong L và bởi P đa thức của \mathbf{Z}[T] sao cho
 
@@ -368,21 +368,21 @@ Cho A là một vành địa phương Noether chính quy đầy đủ; ký hiệ
 
 A) $p = 0$. Khi đó (IX, § 3, no 3, đl. 1), tồn tại một trường con K của A sao cho phép chiếu chính tắc của A lên $\kappa_A$ cảm sinh một đẳng cấu của K lên $\kappa_A$. Khi đó áp dụng hệ quả 3 của định lý 1 của số 2 cho K-đại số A, ta suy ra:
 
-#### Mệnh đề 6 {#ac-viii-s5-prop-6 .statement}
+#### Mệnh đề 6 {#ac-viii-s5-prop-6 .statement tag=0CQ2}
 
 Cho A là một vành địa phương Noether chính quy đầy đủ, mà trường thặng dư $\kappa_A$ có đặc số 0. Đặt $n = \dim(A)$. Khi đó A đẳng cấu với vành các chuỗi lũy thừa hình thức $\kappa_A[[X_1, ..., X_n]]$.
 
 B) $p \neq 0$. Một vành con Cohen của A là bất kỳ vành con V nào của A là một $p$-vành sao cho $A = m_A + V$ (IX, § 2, no 2, định nghĩa 2). Vành V là địa phương; iđêan cực đại $m_V$ của nó được sinh bởi $p.1_V$; do đó ta có $m_A \cap V = m_V$ và đơn ánh chính tắc từ V vào A xác định, khi chuyển sang thương, một đẳng cấu của trường $\kappa_V$ lên trường $\kappa_A$. Nếu $p.1_A = 0$, V là một trường có đặc số $p$. Nếu không thì V là một vành định giá rời rạc mà trường phân thức có đặc số không (IX, § 2, no 1, hệ quả 1 của mệnh đề 1). Người ta chứng minh được (IX, no 2, đl. 1) rằng A có các vành con Cohen.
 
-#### Ví dụ 3 {#ac-viii-s5-n4-exa-3 .statement}
+#### Ví dụ 3 {#ac-viii-s5-n4-exa-3 .statement tag=0CQ3}
 
 Cho k là một trường có đặc số $p \neq 0$ và cho $n$ là một số nguyên dương. Vành các chuỗi hình thức $k[[X_1, ..., X_n]]$ là địa phương Noether chính quy đầy đủ, có chiều $n$, và k là một vành con Cohen của $k[[X_1, ..., X_n]]$.
 
-#### Ví dụ 4 {#ac-viii-s5-n4-exa-4 .statement}
+#### Ví dụ 4 {#ac-viii-s5-n4-exa-4 .statement tag=0CQ4}
 
 Cho V là một vành định giá rời rạc đầy đủ và cho $n$ là một số nguyên dương. Vành các chuỗi hình thức $V_n = V[[X_1, ..., X_n]]$ là địa phương Noether chính quy đầy đủ, có chiều $n + 1$, và V là một vành con Cohen của $V_n$.
 
-#### Ví dụ 5 {#ac-viii-s5-n4-exa-5 .statement}
+#### Ví dụ 5 {#ac-viii-s5-n4-exa-5 .statement tag=0CQ5}
 
 Giữ các ký hiệu trước đó. Một đa thức P trong $V_n[T]$ có bậc $d \geq 2$ được gọi là đặc biệt nếu nó có dạng $T^d + \sum_{i=1}^d a_i T^{d-i}$, trong đó $a_1, ..., a_{d-1}$ thuộc $m_{V_n}$, $a_d$ thuộc $m_V + m_{V_n}^2$ nhưng không thuộc $m_{V_n}^2$. Đặc biệt, P là một đa thức Eisenstein đối với $m_{V_n}$. Đặt $A = V_n[T]/(P)$. Theo hệ quả của Mệnh đề 4 của No. 4, vành A là Noether địa phương chính quy đầy đủ, có chiều $n + 1$. Nếu t là lớp của T môđun (P), thì dãy $(1, t, ..., t^{d-1})$ là một cơ sở của $V_n$-môđun A, và $(X_1, ..., X_n, t)$ là một hệ tọa độ của A: thật vậy, tồn tại một phần tử đều hoá $\pi$ của V sao cho $a_d \equiv \pi \mod. m_{V_n}^2$; vì ta cũng có
 $$
@@ -390,7 +390,7 @@ a_d = -t(t^{d-1} + a_1 t^{d-2} + \cdots + a_{d-1}),
 $$
 nên có $\pi \in m_A^2$; do $m_A$ được sinh bởi $\{\pi, X_1, ..., X_n, t\}$, điều này chứng minh mệnh đề của ta. Hơn nữa, V là một vành con Cohen của A, vì $\kappa_V$ được đồng nhất với $\kappa_{V_n}$, và $\kappa_{V_n}$ với $\kappa_A$ theo hệ quả của Mệnh đề 4 của No. 4.
 
-#### Định lý 2 {#ac-viii-s5-thm-2 .statement}
+#### Định lý 2 {#ac-viii-s5-thm-2 .statement tag=0CQ6}
 
 Cho $A$ là một vành Noether địa phương chính quy đầy đủ mà trường thặng dư có đặc số $\neq 0$, và cho $V$ là một vành con Cohen của $A$. Đặt $n = \dim(A)$.
 

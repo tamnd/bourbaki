@@ -49,7 +49,7 @@ subsections:
       pdf_page: 148
 statements: 42
 exercises: 5
-content_sha256: 8442ab006744ede6d0858b45206396bcd6fd8f4653e0ba6b462899ba01f3f5eb
+content_sha256: 18e3ed42882c78500bf04f148d8b51b5f18014a5a1bc1d7a50d15cfbe0ee73e7
 ---
 
 ## § 7. EXTENSIONS ALGÉBRIQUES SÉPARABLES
@@ -58,19 +58,19 @@ Dans tout ce paragraphe, on note $K$ un corps.
 
 ### 1. Extensions algébriques séparables
 
-#### Définition 1 {#alg-v-s7-def-1 .statement}
+#### Définition 1 {#alg-v-s7-def-1 .statement tag=06K0}
 
 Soit $E$ une extension algébrique de $K$. On dit que $E$ est séparable (sur $K$) si toute sous-extension $F$ de $E$, de degré fini sur $K$, est une algèbre étale sur $K$ (V, p. 28, déf. 1).
 
 Soit $E$ une extension de degré fini de $K$. Comme toute sous-algèbre d’une algèbre étale est étale (V, p. 29, prop. 3), il revient au même de supposer que $E$ est une extension séparable de $K$, ou que $E$ est une algèbre étale sur $K$.
 
-#### Proposition 1 {#alg-v-s7-prop-1 .statement}
+#### Proposition 1 {#alg-v-s7-prop-1 .statement tag=06K1}
 
 Soit $E$ une extension algébrique de $K$. Si $E$ est séparable, toute sous-extension $E'$ de $E$ est séparable. Réciproquement, si toute sous-extension de degré fini de $E$ est séparable, $E$ est séparable.
 
 Cela résulte immédiatement de la définition 1.
 
-#### Proposition 2 {#alg-v-s7-prop-2 .statement}
+#### Proposition 2 {#alg-v-s7-prop-2 .statement tag=06K2}
 
 Pour que le corps $K$ soit parfait, il faut et il suffit que toute extension algébrique de $K$ soit séparable.
 
@@ -78,7 +78,7 @@ Supposons d’abord $K$ parfait. Comme un corps est un anneau réduit, il résul
 
 Supposons maintenant que $K$ soit un corps imparfait de caractéristique $p \neq 0$. Soit $\Omega$ une clôture algébrique de $K$. Comme $K$ est imparfait, il existe $b \in K$ n’appartenant pas à $K^p$; posons $a = b^{1/p}$. Alors l’extension $K(a)$ de $K$ est radicielle de degré fini. D’après V, p. 25, prop. 3, il existe un seul $K$-homomorphisme de $K(a)$ dans $\Omega$, et comme on a $[K(a):K] > 1$, l’algèbre $K(a)$ n’est pas étale sur $K$ (V, p. 31, prop. 4). Autrement dit, l’extension $K(a)$ de degré fini de $K$ n’est pas séparable.
 
-#### Corollaire {#alg-v-s7-n1-cor-1 .statement}
+#### Corollaire {#alg-v-s7-n1-cor-1 .statement tag=06K3}
 
 *Toute extension algébrique d’un corps de caractéristique 0, ou d’un corps fini, est séparable.*
 
@@ -86,7 +86,7 @@ Cela résulte de V, p. 7, prop. 5.
 
 ### 2. Polynômes séparables
 
-#### Proposition 3 {#alg-v-s7-prop-3 .statement}
+#### Proposition 3 {#alg-v-s7-prop-3 .statement tag=06K4}
 
 *Soient f un polynôme non nul dans $K[X]$ et $\Omega$ une extension algébriquement close de $K$. Les conditions suivantes sont équivalentes :*
 
@@ -116,19 +116,19 @@ $b) \Rightarrow a)$ : Soient $c$ le coefficient dominant et $D$ le discriminant 
 
 $a) \Leftrightarrow e)$ : Soient $A$ la K-algèbre $K[X]/(f)$ et $x$ l’image de $X$ dans $A$; d’après III, p. 137, prop. 22, le $A$-module $\Omega_K(A)$ est engendré par l’élément $dx$, soumis à la seule relation $f'(x)\ dx = 0$. D’après V, p. 32, th. 3, la K-algèbre $A$ est donc étale si et seulement si $f'(x)$ est un élément inversible de $A$, ce qui signifie que $f$ et $f'$ sont étrangers dans $K[X]$.
 
-#### Définition 2 {#alg-v-s7-def-2 .statement}
+#### Définition 2 {#alg-v-s7-def-2 .statement tag=06K5}
 
 *On dit qu’un polynôme* $f \in K[X]$ *est séparable s’il est non nul et satisfait aux conditions équivalentes a), b), c), d) et e) de la prop. 3.*
 
-#### Remarque 1 {#alg-v-s7-n2-rem-1 .statement}
+#### Remarque 1 {#alg-v-s7-n2-rem-1 .statement tag=06K6}
 
 Soient L une extension de K et $f$ un polynôme non constant de $K[X]$. D’après la condition e) de la prop. 3 et V, p. 32, cor. 2, il revient au même de supposer que $f$ est séparable qu’on le considère comme élément de $K[X]$ ou de $L[X]$. Par contre, il se peut fort bien que $f$ soit irréductible dans $K[X]$, mais non dans $L[X]$.
 
-#### Remarque 2 {#alg-v-s7-n2-rem-2 .statement}
+#### Remarque 2 {#alg-v-s7-n2-rem-2 .statement tag=0DHU}
 
 Soit $f \in K[X]$; on sait (IV, p. 13, prop. 13) qu’il existe des polynômes irréductibles $f_1, \ldots, f_m$ dans $K[X]$ tels que $f = f_1 \ldots f_m$. Soit $\Omega$ une clôture algébrique de K ; comme un polynôme irréductible $g \in K[X]$ est polynôme minimal sur K de chacune de ses racines dans $\Omega$, deux polynômes irréductibles distincts dans $K[X]$ n’ont aucune racine commune dans $\Omega$. La condition d) de la prop. 3 montre alors que $f$ est séparable si et seulement si les polynômes $f_1, \ldots, f_m$ sont séparables et deux à deux distincts.
 
-#### Proposition 4 {#alg-v-s7-prop-4 .statement}
+#### Proposition 4 {#alg-v-s7-prop-4 .statement tag=06K7}
 
 *Soit* $f$ *un polynôme irréductible dans* $K[X]$. *Les conditions suivantes sont équivalentes :*
 a) $f$ *est séparable*.
@@ -140,7 +140,7 @@ Notons d’abord qu’un polynôme irréductible dans $K[X]$ n’est pas constan
 
 Supposons enfin qu’on ait $f' \neq 0$; soit x une racine de $f$ dans une extension algébriquement close $\Omega$ de K. Comme $f$ est le polynôme minimal de x sur K et qu’on a $\deg f' < \deg f$, on a $f'(x) \neq 0$ et x est donc racine simple de $f$ (IV, p. 16, prop. 7). Par suite $f$ est séparable, et l’on a prouvé que c) entraîne a).
 
-#### Corollaire 1 {#alg-v-s7-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s7-prop-4-cor-1 .statement tag=06K8}
 
 *Pour que le corps* K *soit parfait, il faut et il suffit que tout polynôme irréductible de* $K[X]$ *soit séparable*.
 
@@ -150,7 +150,7 @@ Supposons d’abord K parfait. On a $K[X^p] = K[X]^p$, donc il n’existe aucun 
 
 Supposons maintenant K imparfait, d’où $K \neq K^p$. Soit a un élément de K n’appartenant pas à $K^p$; le polynôme $X^p - a$ est irréductible dans $K[X]$ (V, p. 24, lemme 1), et il appartient à $K[X^p]$, donc n’est pas séparable.
 
-#### Corollaire 2 {#alg-v-s7-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s7-prop-4-cor-2 .statement tag=06K9}
 
 *Soit* $f \in K[X]$ *un polynôme non nul*. *Pour que* $f$ *soit séparable, il faut et il suffit qu’il existe une extension* L *de* K, *qui soit un corps parfait et telle que* $f$ *soit sans facteur multiple dans* $L[X]$.
 
@@ -158,11 +158,11 @@ Soit $\Omega$ une clôture algébrique de K ; si $f$ est séparable, $f$ est san
 
 ### 3. Éléments algébriques séparables
 
-#### Définition 3 {#alg-v-s7-def-3 .statement}
+#### Définition 3 {#alg-v-s7-def-3 .statement tag=06KA}
 
 Soit E une extension de K. On dit qu’un élément x de E, algébrique sur K, est séparable sur K si l’extension algébrique $K(x)$ de K est séparable.
 
-#### Proposition 5 {#alg-v-s7-prop-5 .statement}
+#### Proposition 5 {#alg-v-s7-prop-5 .statement tag=06KB}
 
 Soient E une extension de K, x un élément de E algébrique sur K, et f le polynôme minimal de x sur K. Les conditions suivantes sont équivalentes :
 a) x est séparable sur K ;
@@ -170,22 +170,22 @@ b) le polynôme f est séparable ;
 c) x est racine simple de f.
 L’équivalence de a) et b) résulte de la proposition 3, celle de b) et c) des propositions 3 et 4 (cf. V, p. 36 et 37).
 
-#### Corollaire 1 {#alg-v-s7-prop-5-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s7-prop-5-cor-1 .statement tag=06KC}
 
 Si un élément x de E est racine simple d’un polynôme g de K[X], il est séparable sur K.
 En effet, le polynôme minimal f de x sur K divise g dans K[X] (V, p. 15, th. 1), donc x est racine simple de f.
 
-#### Corollaire 2 {#alg-v-s7-prop-5-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s7-prop-5-cor-2 .statement tag=06KD}
 
 Si un élément x de E est algébrique et séparable sur K, il est algébrique et séparable sur toute extension K’ de K contenue dans E.
 Soit f le polynôme minimal de x sur K. Alors x est racine simple de f d’après la prop. 5, et comme f appartient à K’[X], l’élément x de E est séparable sur K’ d’après le cor. 1.
 
-#### Corollaire 3 {#alg-v-s7-prop-5-cor-3 .statement}
+#### Corollaire 3 {#alg-v-s7-prop-5-cor-3 .statement tag=06KE}
 
 Supposons K de caractéristique $p \neq 0$. Pour qu’un élément x de E appartienne à K, il faut et il suffit qu’il soit à la fois algébrique séparable et radiciel sur K.
 La condition énoncée est évidemment nécessaire. Réciproquement, supposons que x soit algébrique séparable sur K, et radiciel de hauteur e sur K. Comme x est séparable sur K, le polynôme minimal f de x sur K n’appartient pas à $K[X^p]$ (prop. 4 et 5) ; comme x est radiciel de hauteur e sur K, on a $f(X) = X^{p^e} - x^{p^e}$ (V, p. 23, prop. 1) ; on en conclut $e = 0$, d’où $x \in K$.
 
-#### Proposition 6 {#alg-v-s7-prop-6 .statement}
+#### Proposition 6 {#alg-v-s7-prop-6 .statement tag=06KF}
 
 Soit E une extension de K.
 a) Si E est algébrique et séparable sur K, tout élément de E est algébrique et séparable sur K.
@@ -198,7 +198,7 @@ K(x_1, ..., x_m) = K[x_1, ..., x_m] \quad (\text{V, p. 18, cor. 1}) .
 $$
 D’après l’hypothèse faite sur A, les algèbres $K[x_1], ..., K[x_m]$ sont étales sur K ; il en est donc de même de l’algèbre $K[x_1] \otimes ... \otimes K[x_m]$ (V, p. 31, cor. 1). Or F est isomorphe à une sous-algèbre d’une algèbre quotient de $K[x_1] \otimes ... \otimes K[x_m]$, donc est étale (V, p. 29, prop. 3).
 
-#### Corollaire {#alg-v-s7-n3-cor-1 .statement}
+#### Corollaire {#alg-v-s7-n3-cor-1 .statement tag=06KG}
 
 *Pour qu’une extension algébrique E soit séparable sur K, il faut et il suffit que tout élément de E soit racine simple de son polynôme minimal sur K.*
 Il suffit d’appliquer les prop. 5 et 6.
@@ -207,7 +207,7 @@ Il suffit d’appliquer les prop. 5 et 6.
 
 Soit E une extension de K ; on dit qu’un élément x de E est *primitif* si $E = K[x]$. Pour que l’extension E possède un élément primitif, il est nécessaire que $[E : K]$ soit fini.
 
-#### Théorème 1 {#alg-v-s7-thm-1 .statement}
+#### Théorème 1 {#alg-v-s7-thm-1 .statement tag=06KH}
 
 *Soit E une extension de K. Les conditions suivantes sont équivalentes :
 a) E possède un élément primitif ;
@@ -225,13 +225,13 @@ $^1$ Le lecteur vérifiera que le théorème 1 n’est utilisé nulle part avant
 
 B) Supposons maintenant le corps $K$ *infini*. Si b) est vérifiée, l’extension $E$ est de degré fini, donc b) signifie aussi que $E$ ne possède qu’un nombre fini de sous-algèbres. Cela étant, l’implication $b) \Rightarrow a)$ résulte de la proposition plus générale suivante (pour laquelle l’hypothèse que le corps $K$ est infini est indispensable, cf. V, p. 146, exerc. 5 du § 7) :
 
-#### Proposition 7 {#alg-v-s7-prop-7 .statement}
+#### Proposition 7 {#alg-v-s7-prop-7 .statement tag=06KI}
 
 *Supposons $K$ infini ; soit $A$ une $K$-algèbre commutative ne possédant qu’un nombre fini de sous-algèbres (par exemple une $K$-algèbre étale, V, p. 29, prop. 3), et soit $V$ un sous-espace vectoriel de $A$ qui engendre $A$. Il existe $x \in V$ tel que $A = K[x]$.*
 
 Soient $A_1, ..., A_n$ les sous-algèbres de $A$ distinctes de $A$. Si $x \notin A_1 \cup ... \cup A_n$, la sous-algèbre $K[x]$ ne peut être égale à aucune des $A_i$, donc coïncide avec $A$. Par ailleurs, puisque $V$ engendre $A$, il n’est contenu dans aucun des sous-espaces $A_i$. La proposition 7 résulte donc du lemme suivant :
 
-#### Lemme 1 {#alg-v-s7-lem-1 .statement}
+#### Lemme 1 {#alg-v-s7-lem-1 .statement tag=06KJ}
 
 *Soient $A$ un $K$-espace vectoriel, $V, A_1, ..., A_n$ des sous-espaces de $A$. Si $\mathrm{Card}(K) \geq n$, et si $V$ n’est contenu dans aucun des $A_i$, $V$ n’est pas contenu dans $A_1 \cup ... \cup A_n$.
 
@@ -241,13 +241,13 @@ Cela achève la démonstration de l’équivalence de a) et b) dans le théorèm
 
 ### 5. Propriétés de stabilité des extensions algébriques séparables
 
-#### Proposition 8 {#alg-v-s7-prop-8 .statement}
+#### Proposition 8 {#alg-v-s7-prop-8 .statement tag=06KK}
 
 *Soient $E$ une extension de $K$ et $(E_i)_{i \in I}$ une famille de sous-extensions de $E$ telles que $E = K(\bigcup_{i \in I} E_i)$. Si chacune des extensions $E_i$ est algébrique et séparable sur $K$, il en est de même de $E$.*
 
 Ceci résulte aussitôt de la prop. 6 (V, p. 38).
 
-#### Proposition 9 {#alg-v-s7-prop-9 .statement}
+#### Proposition 9 {#alg-v-s7-prop-9 .statement tag=06KL}
 
 *Soient $F$ une extension algébrique de $K$, et $E$ une sous-extension de $F$. Pour que $F$ soit séparable sur $K$, il faut et il suffit que $F$ soit séparable sur $E$ et $E$ séparable sur $K$.*
 
@@ -255,7 +255,7 @@ Supposons d’abord que $F$ soit séparable sur $K$. Alors $E$ est séparable su
 
 Réciproquement, supposons que F soit séparable sur E et E séparable sur K. Notons x un élément de F et $f \in E[X]$ le polynôme minimal de x sur E. Comme E est algébrique sur K, le th. 2 (V, p. 17) montre qu’il existe une sous-extension E’ de E de degré fini sur K, et telle que $f \in E'[X]$; alors, $f$ est à la fois le polynôme minimal de x sur E et sur E’, et comme x est séparable sur E (V, p. 38, prop. 6), il l’est aussi sur E’ (V, p. 38, prop. 5). Posons $F' = E'(x)$; alors F’ est séparable et de degré fini sur E’, et comme E est séparable sur K, E’ est séparable et de degré fini sur K (V, p. 35, prop. 1). Alors F’ est séparable et de degré fini sur K d’après V, p. 32, cor. 2. Par suite (V, p. 38, prop. 6), x est séparable sur K. On a prouvé que tout élément de F est séparable sur K, donc F est séparable sur K (V, p. 38, prop. 6).
 
-#### Proposition 10 {#alg-v-s7-prop-10 .statement}
+#### Proposition 10 {#alg-v-s7-prop-10 .statement tag=06KM}
 
 *Soient E et K’ deux sous-extensions d’une même extension de K et E’ = K’(E). On suppose E algébrique sur K, donc E’ algébrique sur K’* (V, p. 18, cor. 2).
 
@@ -269,7 +269,7 @@ Sous les hypothèses de b), soit F une sous-extension de E, de degré fini sur K
 
 ### 6. Un critère de séparabilité
 
-#### Proposition 11 {#alg-v-s7-prop-11 .statement}
+#### Proposition 11 {#alg-v-s7-prop-11 .statement tag=06KN}
 
 *Supposons que K soit d’exposant caractéristique p et soit E une extension algébrique de K, engendrée par un ensemble S. Si E est séparable sur K, on a $E = K(S^{p^n})$ pour tout entier $n \geq 0$; réciproquement, si E est de degré fini sur K et si $E = K(S^p)$, alors E est séparable sur K*.
 
@@ -287,34 +287,34 @@ Supposons maintenant E séparable et de degré infini sur K. Alors $K[E^p]$ est 
 
 E' = K[E'^p] \subset K[E^p] par ce qui précède ; finalement, on a E = K[E^p]. Par récurrence sur $n \geq 0$, la relation $E = K[E^p]$ entraîne $E = K[E^{p^n}]$.
 
-#### Corollaire 1 {#alg-v-s7-prop-11-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s7-prop-11-cor-1 .statement tag=06KO}
 
 *Toute extension algébrique d’un corps parfait est un corps parfait.*
 Soient K un corps parfait d’exposant caractéristique $p$, et E une extension algébrique de K. Alors E est séparable sur K (V, p. 35, prop. 2), d’où $E = K(E^p)$ d’après la prop. 11 ; mais on a $K = K^p \subset E^p$, d’où $E = K(E^p) = E^p$, et par suite, E est parfait.
 
-#### Corollaire 2 (MacLane) {#alg-v-s7-prop-11-cor-2 .statement}
+#### Corollaire 2 (MacLane) {#alg-v-s7-prop-11-cor-2 .statement tag=06KP}
 
 *Soient $\overline{K}$ une clôture algébrique de K et $K^{p^{-\infty}}$ la clôture parfaite de K dans $\overline{K}$. Pour qu’une sous-extension E de $\overline{K}$ soit séparable sur K, il faut et il suffit qu’elle soit linéairement disjointe de $K^{p^{-\infty}}$ sur K.*
 On se ramène immédiatement au cas où [E : K] est fini. Soit $(x_i)_{i \in I}$ une base de E sur K. Pour que E soit linéairement disjointe de $K^{p^{-\infty}}$, il faut et il suffit qu’elle le soit de $K^{p^{-n}}$ pour tout $n \geq 0$. Ceci signifie aussi que la relation $\sum_{i \in I} x_i a_i^{p^{-n}} = 0$ entraîne $a_i = 0$ pour tout $i \in I$, quelle que soit la famille $(a_i)_{i \in I}$ d’éléments de K. Ceci signifie encore que la famille $(x_i^{p^n})_{i \in I}$ est libre sur K, ou encore que c’est une base de l’espace vectoriel E sur K. Autrement dit, E est linéairement disjointe de $K^{p^{-n}}$ si et seulement si l’on a $E = K(E^{p^n})$. Il suffit alors d’appliquer la prop. 11.
 
-#### Remarque 1 {#alg-v-s7-n6-rem-1 .statement}
+#### Remarque 1 {#alg-v-s7-n6-rem-1 .statement tag=06KQ}
 
 Lorsque E est algébrique et de degré infini sur K, la condition $E = K(E^p)$ n’assure pas nécessairement que E soit séparable sur K. Par exemple, si K est imparfait et si E est une clôture parfaite de K, on a $E = K(E^p)$, mais E n’est pas extension séparable de K (V, p. 38, cor. 3).
 
-#### Remarque 2 {#alg-v-s7-n6-rem-2 .statement}
+#### Remarque 2 {#alg-v-s7-n6-rem-2 .statement tag=0DHV}
 
 Soit E une extension algébrique séparable d’un corps K d’exposant caractéristique $p$. On a alors $E^p \cap K = K^p$ (cor. 2) ; par suite, si E est parfait, il en est de même de K.
 
 ### 7. Fermeture algébrique séparable
 
-#### Proposition 12 {#alg-v-s7-prop-12 .statement}
+#### Proposition 12 {#alg-v-s7-prop-12 .statement tag=06KR}
 
 *Soient E une extension de K et $E_s$ l’ensemble des éléments de E qui sont algébriques et séparables sur K. Alors $E_s$ est la plus grande sous-extension de E qui soit algébrique et séparable sur K.*
 D’après la prop. 6, *a*) (V, p. 38), toute sous-extension de E qui est algébrique et séparable sur K est contenue dans $E_s$. D’après la prop. 6, *b*) (*loc. cit.*), l’extension $K(E_s)$ de K est algébrique et séparable, d’où $K(E_s) \subset E_s$ et finalement $K(E_s) = E_s$.
 
 Avec les notations de la proposition précédente, on dit que $E_s$ est la *fermeture* (algébrique) *séparable de K dans E*. Lorsque K est parfait, $E_s$ est la fermeture algébrique de K dans E (V, p. 35, prop. 2).
 
-#### Proposition 13 {#alg-v-s7-prop-13 .statement}
+#### Proposition 13 {#alg-v-s7-prop-13 .statement tag=06KS}
 
 *Soit E une extension algébrique de K, et soit $E_s$ la fermeture algébrique séparable de K dans E.*
 a) *E est extension radicielle de $E_s$*.
@@ -328,37 +328,37 @@ Plaçons-nous sous les hypothèses de b), et soit $x \in E_s$. Comme $x$ est sé
 
 Enfin, c) résulte de a) et b) et de la prop. 12.
 
-#### Corollaire 1 {#alg-v-s7-prop-13-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s7-prop-13-cor-1 .statement tag=06KT}
 
 *Soient* $E$ et $K'$ *deux extensions de* $K$, *contenues dans une même extension de* $K$. *On suppose que* $E$ *est algébrique sur* $K$ *et l’on note* $E_s$ *la fermeture algébrique séparable de* $K$ *dans* $E$. *Alors* $K'(E_s)$ *est la fermeture algébrique séparable de* $K'$ *dans* $K'(E)$.
 
 En effet, $K'(E_s)$ est une extension algébrique séparable de $K'$ d’après la prop. 10 (V, p. 41); comme $E$ est radicielle sur $E_s$, l’extension $K'(E)$ de $K'(E_s)$ est radicielle (V, p. 24, cor.). Il suffit alors d’appliquer la prop. 13.
 
-#### Corollaire 2 {#alg-v-s7-prop-13-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s7-prop-13-cor-2 .statement tag=06KU}
 
 *Si* $E$ *est de degré fini sur* $K$, *on a* $E_s = \bigcap_{n \geqslant 0} K(E^{p^n})$.
 
 Pour tout entier $n \geqslant 0$, notons $F_n$ la sous-extension $K(E^{p^n})$ de $E$. La suite $(F_n)_{n \geqslant 0}$ de sous-espaces vectoriels de $E$ est décroissante et $E$ est de dimension finie sur $K$. Il existe donc un entier $m \geqslant 0$ tel que $F_m = F_n$ pour tout $n \geqslant m$. On a alors $K(F_m^p) = F_{m+1} = F_m$, donc $F_m$ est extension séparable de $K$ (V, p. 41, prop. 11); il est clair que $E$ est radiciel sur $F_m$ et la prop. 13 entraîne alors $E_s = F_m = \bigcap_{n \geqslant 0} F_n$.
 
-#### Remarque {#alg-v-s7-n7-rem-1 .statement}
+#### Remarque {#alg-v-s7-n7-rem-1 .statement tag=06KV}
 
 Soient $E$ une extension algébrique de $K$, et $E_r$ la fermeture radicielle de $E$ dans $K$ (V, p. 24). Alors $E_r$ est la plus grande sous-extension de $E$ qui soit radicielle sur $K$ (V, p. 24, prop. 2). Cependant $E$ n’est pas en général séparable sur $E_r$ (V, p. 145, exerc. 2); pour le cas des extensions quasi-galoisiennes, voir V, p. 73.
 
 ### 8. Clôture séparable d’un corps
 
-#### Définition 4 {#alg-v-s7-def-4 .statement}
+#### Définition 4 {#alg-v-s7-def-4 .statement tag=06KW}
 
 *On dit qu’un corps* $K$ *est séparablement clos si toute extension algébrique séparable de* $K$ *est triviale*.
 
 Un corps algébriquement clos est séparablement clos. Réciproquement, si un corps *parfait* $K$ est séparablement clos, il est algébriquement clos, car toute extension algébrique de $K$ est séparable (V, p. 35, prop. 2).
 
-#### Définition 5 {#alg-v-s7-def-5 .statement}
+#### Définition 5 {#alg-v-s7-def-5 .statement tag=06KX}
 
 *Soit* $K$ *un corps*. *On appelle clôture algébrique séparable, ou par abus de langage clôture séparable, de* $K$ *toute extension* $E$ *de* $K$ *qui est algébrique et séparable sur* $K$, *et telle que le corps* $E$ *soit séparablement clos*.
 
 Lorsque K est parfait, il y a identité entre les notions de clôture séparable et de clôture algébrique de K (V, p. 35, prop. 2 et p. 42, cor. 1).
 
-#### Proposition 14 {#alg-v-s7-prop-14 .statement}
+#### Proposition 14 {#alg-v-s7-prop-14 .statement tag=06KY}
 
 Soit $\Omega$ une extension algébriquement close de K.
 a) La fermeture algébrique séparable $\Omega_s$ de K dans $\Omega$ est une clôture séparable de K.
@@ -368,17 +368,17 @@ Soit F une extension algébrique séparable de $\Omega_s$; comme $\Omega$ est al
 
 Soit E une clôture séparable de K. Comme E est une extension algébrique de K, il existe un K-homomorphisme $v$ de E dans $\Omega$ (V, p. 20, th. 1). Alors, $v(E)$ est algébrique séparable sur K, d’où $v(E) \subset \Omega_s$. D’après V, p. 40, prop. 9, $\Omega_s$ est séparable sur $v(E)$ et comme le corps $v(E)$ est séparablement clos, on a $v(E) = \Omega_s$. Par suite, $v$ est un K-isomorphisme de E sur $\Omega_s$. L’assertion b) résulte immédiatement de là.
 
-#### Corollaire {#alg-v-s7-n8-cor-1 .statement}
+#### Corollaire {#alg-v-s7-n8-cor-1 .statement tag=06KZ}
 
 Soient E une extension séparablement close de K et F une extension algébrique séparable de K. Il existe un K-homomorphisme de F dans E.
 
 Soit $\Omega$ une clôture algébrique de E ; on a $\Omega_s \subset E$, et il suffit de traiter le cas où $E = \Omega_s$. Comme F est une extension algébrique de K, il existe un K-homomorphisme $u$ de F dans $\Omega$ (V, p. 20, th. 1). Comme le corps $u(F)$ est séparable sur K, on a $u(F) \subset \Omega_s$, et $u$ définit un K-homomorphisme de F dans $\Omega_s = E$.
 
-#### Remarque 1 {#alg-v-s7-n8-rem-1 .statement}
+#### Remarque 1 {#alg-v-s7-n8-rem-1 .statement tag=06L0}
 
 Soient E et E' deux clôtures séparables de K. Si K n’est pas séparablement clos, il existe plusieurs K-isomorphismes de E sur E'. \* En effet, E est alors une extension galoisienne non triviale de K, et il existe donc des K-automorphismes de E distincts de l’identité (V, p. 54, th. 1). \*
 
-#### Remarque 2 {#alg-v-s7-n8-rem-2 .statement}
+#### Remarque 2 {#alg-v-s7-n8-rem-2 .statement tag=06L1}
 
 \* Soit E une extension algébrique et séparable de K. Si toute extension algébrique et séparable de K est isomorphe à une sous-extension de E, alors E est une clôture séparable de K. En effet, si E' est une clôture séparable de K, chacune des extensions E et E' est isomorphe à une sous-extension de l’autre ; par suite, E et E' sont des extensions isomorphes de K (V, p. 50, prop. 1, a)). \*
 
@@ -386,7 +386,7 @@ Soient E et E' deux clôtures séparables de K. Si K n’est pas séparablement 
 
 Soient E une extension de degré fini de K et $\Omega$ une clôture algébrique de K. Rappelons (V, p. 30) que l’on appelle degré séparable de E sur K, et que l’on note $[E : K]_s$, le nombre des K-homomorphismes de E dans $\Omega$.
 
-#### Proposition 15 {#alg-v-s7-prop-15 .statement}
+#### Proposition 15 {#alg-v-s7-prop-15 .statement tag=06L2}
 
 Soit $E_s$ la fermeture séparable de K dans E. On a $[E : K]_s = [E_s : K]$.
 
@@ -402,7 +402,7 @@ d’après la proposition 15.
 
 Lorsque $K$ est de caractéristique 0, on a $E = E_s$, d’où $[E : K]_s = [E : K]$ et $[E : K]_i = 1$. Si $K$ est de caractéristique $p \neq 0$, le nombre $[E : K]_i$ est une puissance de $p$ car $E$ est radiciel sur $E_s$ (V, p. 42, prop. 13 et p. 25, prop. 4). On prendra garde que $[E : K]_i$ n’est pas nécessairement égal à la plus grande puissance de $p$ qui divise $[E : K]$, ni au degré $[E_r : K]$ de la fermeture radicielle de $E$ dans $K$ (V, p. 145, exerc. 3 et 2).
 
-#### Proposition 16 {#alg-v-s7-prop-16 .statement}
+#### Proposition 16 {#alg-v-s7-prop-16 .statement tag=06L3}
 
 *Soient $\Omega$ une extension de $K$ et $E, F$ deux sous-extensions de $\Omega$, de degré fini sur $K$.*
 

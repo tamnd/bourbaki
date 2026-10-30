@@ -21,9 +21,9 @@ subsections:
       pdf_page: 34
 statements: 13
 exercises: 9
-content_sha256: 1061863f140042d60832ad7e011217ecac630cddd2dfc22f3e0a17e03db85720
+content_sha256: 0f24316311a77f79c1c7d8c0b8a1e2c7d193c138ed22d8fa1f97bf6a39cab989
 translated_from: content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md
-source_content_sha256: 9d00974d8a98c416163496def0aafa85ef87667b850822c6908abf8483ae2617
+source_content_sha256: 417cef2f31fafd157b7a2cbea53f12a17f40a56765605873734c2f538ed5f1ad
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-90bd1f49
 glossary_version: 34
@@ -37,31 +37,31 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Ta nhắc lại định nghĩa sau (TVS, II, §2, No. 5):
 
-#### Định nghĩa 1 {#int-ii-s2-def-1 .statement}
+#### Định nghĩa 1 {#int-ii-s2-def-1 .statement tag=08KI}
 
 Cho một không gian vectơ có thứ tự E, một dạng tuyến tính L trên E được gọi là dương nếu $L(x) \geq 0$ với mọi $x \geq 0$ trong E.
 
 Vì $L(y) - L(x) = L(y - x)$, nên nói rằng quan hệ $x \leq y$ kéo theo $L(x) \leq L(y)$ cũng là tương đương, hay nói cách khác $L$ là một hàm tăng trên E.
 
-#### Ví dụ 1 {#int-ii-s2-n1-exa-1 .statement}
+#### Ví dụ 1 {#int-ii-s2-n1-exa-1 .statement tag=08KJ}
 
 Cho A là một tập hợp bất kỳ, E là một không gian con tuyến tính của không gian $\mathbf{R}^A$ gồm tất cả các hàm giá trị thực xác định trên A. Với mọi phần tử $a \in A$, ánh xạ $x \mapsto x(a)$ là một dạng tuyến tính dương trên E.
 
-#### Ví dụ 2 {#int-ii-s2-n1-exa-2 .statement}
+#### Ví dụ 2 {#int-ii-s2-n1-exa-2 .statement tag=08KK}
 
 Cho $I = [a, b]$ là một khoảng compact của $\mathbf{R}$, E là không gian Riesz được tạo bởi các hàm giá trị thực điều hòa trên I (FRV, II, §1, No. 3); ánh xạ $x \mapsto \int_a^b x(t) \, dt$ là một dạng tuyến tính dương trên E.
 
-#### Ví dụ 3 {#int-ii-s2-n1-exa-3 .statement}
+#### Ví dụ 3 {#int-ii-s2-n1-exa-3 .statement tag=08KL}
 
 Cho F là một tập hợp bất kỳ, $\mathscr{U}$ là một siêu lọc trên F (GT, I, §6, No. 4), E là không gian Riesz $\mathscr{B}(F)$ của các hàm giá trị thực bị chặn trên F. Với mọi $x \in E$, $\lim_{\mathscr{U}} x(t)$ tồn tại, bởi vì $x(\mathscr{U})$ là một cơ sở của một siêu lọc trên tập compact tương đối $x(F)$, do đó là hội tụ. Hơn nữa, nếu $x \geq 0$ thì $\lim_{\mathscr{U}} x(t) \geq 0$ theo nguyên lý mở rộng của các bất đẳng thức; ánh xạ $x \mapsto \lim_{\mathscr{U}} x$ do đó là một dạng tuyến tính dương trên E. Nếu $\mathscr{U}$ được lấy là siêu lọc tạo bởi các tập chứa một phần tử $a \in F$, ta thu được lại dạng tuyến tính dương $x \mapsto x(a)$ (Ví dụ 1).
 
-#### Mệnh đề 1 {#int-ii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#int-ii-s2-prop-1 .statement tag=08KM}
 
 Cho E là một không gian vectơ có thứ tự, L là một ánh xạ của E vào $\mathbf{R}$ sao cho $L(x + y) = L(x) + L(y)$ và sao cho quan hệ $x \geq 0$ kéo theo $L(x) \geq 0$; khi đó $L(\lambda x) = \lambda L(x)$ với mọi vô hướng $\lambda$ và mọi $x \geq 0$.
 
 Vì $L(-x) = -L(x)$ ($L$ là một biểu diễn của nhóm cộng E trong $\mathbf{R}$), ta có thể tự giới hạn vào trường hợp $\lambda \geq 0$. Với mọi số nguyên $n \geq 0$, ta có $L(nx) = nL(x)$, do đó $L((1/n)x) = (1/n)L(x)$ và do đó $L(rx) = rL(x)$ với mọi số hữu tỉ $r \geq 0$. Mặt khác, $L$ tăng trong E; nếu $r$ và $r'$ là các số hữu tỉ sao cho $r \leq \lambda \leq r'$, thì suy ra $rL(x) \leq L(\lambda x) \leq r'L(x)$; vì $rL(x)$ và $r'L(x)$ sai khác với $\lambda L(x)$ nhỏ tùy ý, ta có $L(\lambda x) = \lambda L(x)$.
 
-#### Mệnh đề 2 {#int-ii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#int-ii-s2-prop-2 .statement tag=08KN}
 
 Cho E là một không gian vectơ thực, C là một nón lồi có đỉnh 0 trong E sao cho $E = C - C$, và $x \mapsto M(x)$ là một ánh xạ từ C vào $\mathbf{R}$ sao cho $M(\lambda x + \mu y) = \lambda M(x) + \mu M(y)$ với mọi $x \in C$, $y \in C$, $\lambda \geq 0$, $\mu \geq 0$. Khi đó, tồn tại duy nhất một dạng tuyến tính L mở rộng M lên E.
 
@@ -69,7 +69,7 @@ Theo giả thiết, mọi $z \in E$ có thể được viết $z = y - x$, trong
 
 $M(y) - M(x) = M(y') - M(x')$; vì, từ quan hệ $y - x = y' - x'$ ta suy ra $y + x' = x + y'$, do đó $M(y) + M(x') = M(x) + M(y')$. Ta ký hiệu $L(z)$ là giá trị chung của $M(y) - M(x)$ đối với mọi biểu thức của $z$ dưới dạng hiệu $y - x$ của hai phần tử của $C$; ta kiểm tra ngay lập tức rằng $L$ là một dạng tuyến tính trên $E$ mở rộng $M$; tính duy nhất của $L$ suy ra từ sự kiện $C$ sinh ra không gian $E$.
 
-#### Mệnh đề 3 {#int-ii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#int-ii-s2-prop-3 .statement tag=08KO}
 
 *Cho $E$ là một không gian vectơ có hướng có thứ tự, $P$ là tập hợp các phần tử $\geqslant 0$ của $E$, và $x \mapsto M(x)$ là một ánh xạ của $P$ vào $\mathbf{R}$, với các giá trị $\geqslant 0$, sao cho $M(x + y) = M(x) + M(y)$ với mọi $x, y$ trong $P$. Khi đó, tồn tại một và chỉ một dạng tuyến tính dương $L$ mở rộng $M$ đến $E$.*
 
@@ -79,11 +79,11 @@ Vì $E = P - P$, cùng lập luận như trong Mệnh đề 2 chứng minh, trư
 
 Cho $E$ là một không gian vectơ có thứ tự có hướng. Gọi $Q$ là tập hợp các dạng tuyến tính *dương* trên $E$; đó là một tập con của đối ngẫu đại số $E^*$ của $E$ (không gian của mọi dạng tuyến tính trên $E$). Ngay lập tức thấy rằng $Q + Q \subset Q$ và $\lambda Q \subset Q$ với mọi vô hướng $\lambda > 0$ (nói cách khác, $Q$ là một *nón lồi* trong $E^*$). Hơn nữa, $Q \cap (-Q) = \{0\}$, vì nếu $L$ và $-L$ đều là các dạng tuyến tính dương, thì $L(x) \geqslant 0$ và $L(x) \leqslant 0$ với mọi $x \geqslant 0$, do đó $L(x) = 0$ với mọi $x \geqslant 0$ và vì thế $L = 0$ (No. 1, Prop. 3). Như vậy tập $Q$ xác định trên $E^*$ một *quan hệ thứ tự* $L \leqslant M$, tương đương với « $M - L$ là một dạng tuyến tính dương trên $E$ », hay cũng tương đương với « với mọi $x \geqslant 0$, $L(x) \leqslant M(x)$ »; các phần tử $\geqslant 0$ của $E^*$ đối với cấu trúc thứ tự này là các dạng tuyến tính dương (điều này biện minh cho thuật ngữ đã được đưa vào). Gọi $\Omega$ là không gian con tuyến tính của $E^*$ sinh bởi $Q$, nghĩa là tập hợp các dạng tuyến tính trên $E$ là *hiệu của hai dạng tuyến tính dương*; chúng ta sẽ đưa ra một đặc trưng hóa khác của các phần tử của $\Omega$ khi $E$ là một không gian Riesz.
 
-#### Định nghĩa 2 {#int-ii-s2-def-2 .statement}
+#### Định nghĩa 2 {#int-ii-s2-def-2 .statement tag=08KP}
 
 *Cho một không gian Riesz $E$, một dạng tuyến tính $L$ trên $E$ được gọi là bị chặn tương đối nếu, với mọi $x \geqslant 0$ trong $E$, $L$ bị chặn trên tập hợp các $y \in E$ sao cho $|y| \leqslant x$.*
 
-#### Định lý 1 {#int-ii-s2-thm-1 .statement}
+#### Định lý 1 {#int-ii-s2-thm-1 .statement tag=08KQ}
 
 1° *Điều kiện cần và đủ để một dạng tuyến tính $L$ trên một không gian Riesz $E$ bị chặn tương đối là nó là hiệu của hai dạng tuyến tính dương.*
 
@@ -133,7 +133,7 @@ Còn lại là thấy rằng $\Omega$ là có thứ tự dàn đầy đủ; đ�
 
 Tổng quát hơn, ta có bổ đề sau:
 
-#### Bổ đề {#int-ii-s2-n2-lem-1 .statement}
+#### Bổ đề {#int-ii-s2-n2-lem-1 .statement tag=08KR}
 
 — *Cho E là một không gian vectơ có thứ tự có hướng, $E^*$ là đối ngẫu của nó, được sắp thứ tự bằng cách lấy các dạng tuyến tính dương làm các phần tử dương. Cho $(u_\alpha)$ là một họ tăng có hướng các phần tử của $E^*$. Nếu, với mọi $x \geqslant 0$ trong E, $\sup u_\alpha(x) < +\infty$, thì họ $(u_\alpha)$ có một cận trên bé nhất $u$ trong $E^*$ và, với mọi $x \geqslant 0$ trong E,
 
@@ -178,13 +178,13 @@ $$
 
 với mọi $x \in E$.
 
-#### Mệnh đề 4 {#int-ii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#int-ii-s2-prop-4 .statement tag=08KS}
 
 — Để hai dạng tuyến tính dương $L, M$ trên một không gian Riesz $E$ xa lạ nhau trong không gian $\Omega$, điều kiện cần và đủ là, với mọi số $\varepsilon > 0$ và mọi $x \geq 0$ trong $E$, tồn tại hai phần tử $y \geq 0, z \geq 0$ của $E$ sao cho $x = y + z$ và $L(y) + M(z) \leq \varepsilon$.
 
 Thật vậy, theo công thức thứ hai của (3), điều kiện này biểu thị rằng $\inf(L, M) = 0$.
 
-#### Mệnh đề 5 {#int-ii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#int-ii-s2-prop-5 .statement tag=08KT}
 
 — Cho $L$ là một dạng tuyến tính dương trên một không gian Riesz $E$. Để một dạng tuyến tính dương $M$ trên $E$ thuộc dải sinh bởi $L$ trong $\Omega$, điều kiện cần và đủ là, với mọi $x \geq 0$ trong $E$ và mọi số $\varepsilon > 0$, tồn tại một số $\delta > 0$ sao cho các quan hệ $0 \leq y \leq x$ và $L(y) \leq \delta$ kéo theo $M(y) \leq \varepsilon$.
 
@@ -216,7 +216,7 @@ $$
 
 vì $\varepsilon$ là tùy ý, ta có $V(x) = 0$ với mọi $x \geq 0$, tức là, $V = 0$.
 
-#### Ví dụ {#int-ii-s2-n2-exa-1 .statement}
+#### Ví dụ {#int-ii-s2-n2-exa-1 .statement tag=08KU}
 
 Cho E là một không gian Riesz được trang bị một tôpô lồi địa phương tương thích với cấu trúc không gian vectơ có thứ tự của nó (TVS, II, §2, No. 7). Gọi E' là đối ngẫu tôpô của E, và giả sử thêm rằng nón P gồm các phần tử $\geqslant 0$ của E là *đầy đủ đối với tôpô yếu đi* $\sigma(E, E')$. Khi đó mọi dạng tuyến tính liên tục $x' \in E'$ đều *bị chặn tương đối*, vì người ta biết (TVS, II, §6, No. 8, Hệ quả 2 của Mệnh đề 11) rằng dưới các điều kiện ấy, với mọi $x \geqslant 0$ trong E, tập các $y \in E$ sao cho $|y| \leqslant x$ là *compact* đối với $\sigma(E, E')$. Từ đó ta suy ra rằng khi đó E là *dàn đầy đủ*; thật vậy, theo ($§ 1$, No. 3, Mệnh đề 2), chỉ cần chỉ ra rằng với mọi tập hợp $H \subset E$ bị chặn trên và có hướng đối với $\leqslant$, bộ lọc tiết diện $\mathscr{F}$ của H là *hội tụ trong E đối với tôpô* $\sigma(E, E')$ (tôpô sau tương thích với cấu trúc không gian vectơ có thứ tự của E). Bằng phép tịnh tiến, ta có thể giả sử rằng $H \subset P$, và khi đó chỉ cần chỉ ra rằng $\mathscr{F}$ là một *bộ lọc Cauchy* đối với $\sigma(E, E')$, hay cũng thế, rằng mọi dạng tuyến tính liên tục $x' \in E'$ đều có một giới hạn đối với $\mathscr{F}$. Nhưng điều này suy ra ngay từ định lý giới hạn đơn điệu khi $x'$ là một dạng tuyến tính *dương*, và vì mọi dạng tuyến tính $x' \in E'$ là hiệu của hai dạng tuyến tính dương (Định lý 1) nên mệnh đề của chúng ta được chứng minh.
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 180
 statements: 41
 exercises: 13
-content_sha256: 897fc486c870dc47eb77c12af6cb2037baa1a349c6d52f1f928b33aeff5e3ee5
+content_sha256: 8b512c1063ae996c993046015483056c4ad219a8f13c15faa039b4b898aca060
 ---
 
 ## § 4. Passage des algèbres de Lie aux groupes de Lie
@@ -49,7 +49,7 @@ Rappelons que, jusqu’à la fin du chapitre, K est supposé de caractéristique
 
 ### 1. Passage des morphismes d’algèbres de Lie aux morphismes de groupes de Lie
 
-#### Lemme 1 {#lie-iii-s4-lem-1 .statement}
+#### Lemme 1 {#lie-iii-s4-lem-1 .statement tag=0ACK}
 
 Soient G un groupuscule de Lie, $\mathfrak{h}$ une sous-algèbre de Lie de $L(G)$ admettant un supplémentaire topologique. La réunion des $g\mathfrak{h}$ (resp. $\mathfrak{h}g$) pour $g \in G$ est un sous-fibré vectoriel intégrable de $T(G)$.
 
@@ -57,7 +57,7 @@ En considérant la trivialisation gauche de T(G) ( , n° 3), on voit aussitôt q
 
 Le feuilletage intégral (VAR, R, 9.3.2) de la réunion des $g\mathfrak{h}$ (resp. $\mathfrak{h}g$) s’appelle le feuilletage gauche (resp. droit) de G associé à $\mathfrak{h}$.
 
-#### Théorème 1 {#lie-iii-s4-thm-1 .statement}
+#### Théorème 1 {#lie-iii-s4-thm-1 .statement tag=0ACL}
 
 Soient G et H des groupuscules de Lie, f un morphisme continu de L(G) dans L(H).
 
@@ -92,17 +92,17 @@ T_s(\varphi_i)(sa) = \varphi_i(s)T_e(\varphi_i)(a) = \varphi_i(s)f(a) = f_{s,\va
 $$
 pour $i = 1, 2$. Comme $\varphi_1(e_G) = e_H = \varphi_2(e_G)$, on conclut de VAR, R, 9.3.7, que $\varphi_1$ et $\varphi_2$ coïncident dans un voisinage de $e_G$.
 
-#### Corollaire 1 {#lie-iii-s4-thm-1-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s4-thm-1-cor-1 .statement tag=0ACM}
 
 *Soient G et H deux groupuscules de Lie. Si L(G) et L(H) sont isomorphes, G et H sont localement isomorphes.*
 Cela résulte du th. 1, et du § 1, n° 10, prop. 21.
 
-#### Corollaire 2 {#lie-iii-s4-thm-1-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s4-thm-1-cor-2 .statement tag=0ACN}
 
 *Soit G un groupuscule de Lie. Si L(G) est commutative, G est localement isomorphe au groupe de Lie additif L(G).*
 En effet, l’algèbre de Lie du groupe additif $L(G)$ est isomorphe à $L(G)$. Il suffit donc d’appliquer le cor. 1.
 
-#### Corollaire 3 {#lie-iii-s4-thm-1-cor-3 .statement}
+#### Corollaire 3 {#lie-iii-s4-thm-1-cor-3 .statement tag=0ACO}
 
 *Soit G un groupe de Lie. Si L(G) est commutative, G contient un sous-groupe ouvert commutatif.*
 Il existe un sous-groupuscule de Lie ouvert U de G qui est commutatif (cor. 2). Soit V un voisinage de $e$ tel que $V^2 \subset U$. On a $xy = yx$ quels que soient $x, y$ dans V. Donc le sous-groupe de G engendré par V est commutatif; il est évidemment ouvert.
@@ -111,7 +111,7 @@ Il existe un sous-groupuscule de Lie ouvert U de G qui est commutatif (cor. 2). 
 
 Nous noterons $H(X, Y)$ la série de Hausdorff (chap. II, § 6, n° 4, déf. 1).
 
-#### Lemme 2 {#lie-iii-s4-lem-2 .statement}
+#### Lemme 2 {#lie-iii-s4-lem-2 .statement tag=0ACP}
 
 *Soit L une algèbre de Lie normée complète sur $\mathbf{R}$ ou $\mathbf{C}$. Soit G l’ensemble des $x \in L$ tels que $\|x\| < \frac{1}{3} \log \frac{3}{2}$. Soit $\theta$ l’application $x \mapsto -x$ de G dans G. Soit H la restriction à $G \times G$ de la fonction de Hausdorff de L* (chap. II, § 7, n° 2).
 (i) $(G, 0, \theta; H)$ est un groupuscule de Lie.
@@ -127,7 +127,7 @@ On dit que G est le groupuscule de Lie défini par L.
 
 Supposons K ultramétrique. Soit p la caractéristique du corps résiduel de K. Si $p \neq 0$, posons $\lambda = |p|^{1/(p-1)}$; si $p = 0$, posons $\lambda = 1$.
 
-#### Lemme 3 {#lie-iii-s4-lem-3 .statement}
+#### Lemme 3 {#lie-iii-s4-lem-3 .statement tag=0ACQ}
 
 Soit L une algèbre de Lie normée complète sur K. Soit G l’ensemble des $x \in L$ tels que $\|x\| < \lambda$. Soit $H : G \times G \to G$ la fonction de Hausdorff de L (chap. II, § 8, n° 3).
 
@@ -141,13 +141,13 @@ Les assertions (i) et (iii) résultent du chap. II, § 8, n° 3, prop. 3, et (ii
 
 On dit que G est le groupe de Lie défini par L.
 
-#### Théorème 2 {#lie-iii-s4-thm-2 .statement}
+#### Théorème 2 {#lie-iii-s4-thm-2 .statement tag=0ACR}
 
 Soit L une algèbre de Lie normable complète. Il existe un groupuscule de Lie G tel que $L(G)$ soit isomorphe à L. Deux tels groupuscules de Lie sont localement isomorphes.
 
 La première assertion résulte des lemmes 2 et 3. La deuxième assertion résulte du cor. 1 du th. 1, n° 1.
 
-#### Corollaire 1 {#lie-iii-s4-thm-2-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s4-thm-2-cor-1 .statement tag=0ACS}
 
 Soit G un groupe de Lie. Il existe un voisinage de e qui ne contient aucun sous-groupe fini distinct de $\{e\}$. Si K = $\mathbf{R}$ ou $\mathbf{C}$, il existe un voisinage de e qui ne contient aucun sous-groupe distinct de $\{e\}$.
 
@@ -157,13 +157,13 @@ Supposons K = $\mathbf{R}$ ou $\mathbf{C}$. Soit G' le groupuscule de Lie défin
 
 Supposons K ultramétrique. Il suffit de prouver le corollaire quand G est le groupe de Lie associé à L. Si $g \in G$, les puissances de g calculées dans G sont les éléments de $\mathbf{Z}g$ calculés dans L. Ceux-ci sont deux à deux distincts si $g \neq e$. Donc G ne contient aucun sous-groupe fini distinct de $\{e\}$.
 
-#### Corollaire 2 {#lie-iii-s4-thm-2-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s4-thm-2-cor-2 .statement tag=0ACT}
 
 Soient k un sous-corps fermé non discret de K, G un groupe de Lie sur k, et L = L(G). Supposons donnée sur L une structure L' de K-algèbre de Lie normable, compatible avec la structure de k-algèbre de Lie normable, et invariante par la représentation adjointe de G. Il existe alors sur G une structure de K-groupe de Lie et une seule compatible avec la structure de k-groupe de Lie et pour laquelle l’algèbre de Lie est L'.
 
 Il existe un groupuscule de Lie G₁ sur K tel que L(G₁) = L' (th. 2). D’après le cor. 1 du th. 1, n° 1, G et G₁, considérés comme k-groupuscules de Lie, sont localement isomorphes. Donc il existe un voisinage ouvert G' de e dans G et une structure de K-groupuscule de Lie sur G', d’algèbre de Lie L, compatible avec la structure de groupuscule de Lie sur k. Soit V un voisinage ouvert symétrique de e dans G tel que V² ⊂ G'. Soit g ∈ G. Alors φ = Int g est un k-isomorphisme d’un sous-groupuscule de Lie ouvert assez petit de G' sur un sous-groupuscule de Lie ouvert de G'; et Tₑ(φ) est K-linéaire, donc Tₓ(φ) est K-linéaire pour x assez voisin de e; par suite la restriction de Int g à un voisinage ouvert assez petit de e dans V est K-analytique (VAR, R, 5.14.6). D’après le § 1, n° 9, prop. 18, il existe sur G une structure de K-variété analytique pour laquelle G est un K-groupe de Lie et V une sous-K-variété ouverte de G. Par translation, on voit que la structure de k-variété sous-jacente de G est la structure donnée. L’algèbre de Lie du K-groupe de Lie G est la même que celle du K-sous-groupuscule de Lie ouvert V, donc est L'. Enfin, l’unicité annoncée dans le corollaire résulte du § 3, n° 8, prop. 32.
 
-#### Théorème 3 {#lie-iii-s4-thm-3 .statement}
+#### Théorème 3 {#lie-iii-s4-thm-3 .statement tag=0ACU}
 
 Soient G un groupuscule de Lie, h une sous-algèbre de Lie de L(G) admettant un supplémentaire topologique. Il existe un sous-groupuscule de Lie H de G tel que L(H) = h. Si H₁ et H₂ sont des sous-groupuscules de Lie de G tels que
 
@@ -175,7 +175,7 @@ alors H₁ ∩ H₂ est ouvert dans H₁ et H₂.
 
 Il existe un groupuscule de Lie H' d’algèbre de Lie isomorphe à h (th. 2). Diminuant au besoin H', on peut supposer qu’il existe un morphisme φ de H' dans G tel que L(φ) soit un isomorphisme de L(H') sur h (n° 1, th. 1). Comme h admet un supplémentaire topologique, φ est une immersion en e. Donc, en diminuant encore H', on peut supposer que φ est un isomorphisme de la variété H' sur une sous-variété de G. Ceci prouve l’existence de H. La deuxième assertion résulte de la proposition suivante:
 
-#### Proposition 1 {#lie-iii-s4-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s4-prop-1 .statement tag=0ACV}
 
 Soient G un groupuscule de Lie, H et H' deux sous-groupuscules de Lie. Pour que L(H) ⊃ L(H'), il faut et il suffit que H ∩ H' soit ouvert dans H'.
 
@@ -183,7 +183,7 @@ Si H ∩ H' est ouvert dans H', on a L(H') = L(H ∩ H') ⊂ L(H). Supposons L(H
 
 Alors $L(i \circ \psi) = L(i')$, donc il existe un voisinage $V$ de $e_{H'}$ dans $H'$ tel que $i \circ \psi$ et $i'$ coïncident dans $V$ (th. 1). Par suite, $V \subset H$, donc $V \subset H \cap H'$, et $H \cap H'$ est ouvert dans $H'$ (§ 1, no 10).
 
-#### Proposition 2 {#lie-iii-s4-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s4-prop-2 .statement tag=0ACW}
 
 *Soient G un groupe de Lie sur K, k un sous-corps fermé non discret de K, H un sous-groupe de Lie du k-groupe de Lie G. On suppose que L(H) est un sous-K-espace vectoriel de L(G) admettant un supplémentaire topologique. Alors H est un sous-groupe de Lie du K-groupe de Lie G.*
 
@@ -191,7 +191,7 @@ Il existe un sous-groupuscule de Lie $H'$ du K-groupe de Lie G tel que $L(H') = 
 
 ### 3. Applications exponentielles
 
-#### Théorème 4 {#lie-iii-s4-thm-4 .statement}
+#### Théorème 4 {#lie-iii-s4-thm-4 .statement tag=0ACX}
 
 *Soient G un groupuscule de Lie, L son algèbre de Lie, V un voisinage ouvert de 0 dans L, $\varphi$ une application analytique de V dans G telle que $\varphi(0) = 0$ et $T_0(\varphi) = \mathrm{Id}_L$. Les conditions suivantes sont équivalentes :
 
@@ -221,17 +221,17 @@ quels que soient $x, y$ dans $L$, et un sous-groupuscule ouvert $W \subset V$ du
 
 (iv) ⇒ (v): supposons vérifiée la condition (iv). Choisissons une norme sur L définissant la topologie de L et telle que \| [x, y] \| ≤ \| x \| \| y \| quels que soient x, y dans L. Soit H le groupuscule de Lie défini par l’algèbre de Lie normée L. D’après le th. 1, il existe un sous-groupuscule ouvert S ⊂ V de H et un isomorphisme φ’ de S sur un sous-groupuscule ouvert de G. Comme on sait déjà que (v) ⇒ (iv), l’application φ’_* de TS(L) dans U(G) est l’application canonique de TS(L) dans l’algèbre enveloppante de L. Ainsi, φ_*(t) = φ’_*(t) pour tout t ∈ T_0^{(∞)}(L). Comme φ et φ’ sont analytiques, φ et φ’ coïncident dans un voisinage de 0.
 
-#### Définition 1 {#lie-iii-s4-def-1 .statement}
+#### Définition 1 {#lie-iii-s4-def-1 .statement tag=0ACY}
 
 Soient G un groupuscule de Lie, L son algèbre de Lie. On appelle application exponentielle de G toute application analytique φ, définie dans un voisinage ouvert de 0 dans L, à valeurs dans G, et vérifiant les conditions du th. 4.
 
 Le th. 4 entraîne aussitôt que, pour tout groupuscule de Lie G, il existe une application exponentielle de G, et que deux applications exponentielles de G coïncident dans un voisinage de 0.
 
-#### Exemple 1 {#lie-iii-s4-n3-exa-1 .statement}
+#### Exemple 1 {#lie-iii-s4-n3-exa-1 .statement tag=0ACZ}
 
 Prenons pour G le groupe additif d’un espace normable complet E. L’isomorphisme canonique de L(G) sur E vérifie la condition (i) du th. 4, donc est une application exponentielle de G.
 
-#### Exemple 2 {#lie-iii-s4-n3-exa-2 .statement}
+#### Exemple 2 {#lie-iii-s4-n3-exa-2 .statement tag=0E8F}
 
 Soit A une algèbre associative unifière normée complète. Soit A* le groupe de Lie formé par les éléments inversibles de A. Identifions L(A*) à A (§ 3, n° 9, cor. de la prop. 33). Si K = R ou C, on sait que l’application exp de A dans A* définie au chap. II, § 7, n° 3, vérifie la condition (i) du th. 4, donc est une application exponentielle. Soit maintenant K ultramétrique. Soit p la caractéristique du corps résiduel de K. Si p ≠ 0, posons λ = |p|^{1/(p-1)}; si p = 0, posons λ = 1. Soit U l’ensemble des x ∈ A tels que \| x \| < λ. On sait (chap. II, § 8, n° 4) que l’application exp de U dans A* vérifie la condition (i) du th. 4, donc est une application exponentielle. Remarquons que U est un sous-groupe additif de A.
 
@@ -241,7 +241,7 @@ Soient G un groupuscule de Lie, φ une application exponentielle de G. Alors φ 
 
 On appelle carte canonique (de première espèce) de G une carte ψ de la variété analytique G dont l’application réciproque est une application exponentielle. Si de plus G est de dimension finie et si on choisit une base de L(G), le système de coordonnées défini par ψ et par cette base dans le domaine de ψ s’appelle un système de coordonnées canoniques (de première espèce).
 
-#### Proposition 3 {#lie-iii-s4-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s4-prop-3 .statement tag=0AD0}
 
 Soient G un groupuscule de Lie, L son algèbre de Lie, et φ une application exponentielle de G. Soient L₁, ..., Lₙ des sous-espaces vectoriels de L tels que L soit somme directe topologique de L₁, ..., Lₙ. L’application
 
@@ -253,7 +253,7 @@ Soit kᵢ l’injection canonique de Lᵢ dans L₁ × L₂ × ... × Lₙ. On a
 
 En particulier, θ est étale en (0, 0, ..., 0). Sa restriction à un voisinage ouvert assez petit U de (0, 0, ..., 0) a une image ouverte dans G, et est un isomorphisme de la variété U sur la variété θ(U). L’application réciproque η de θ(U) sur U s’appelle une carte canonique de deuxième espèce de G, associée à la décomposition donnée de L en somme directe. Si de plus G est de dimension finie et si chaque Lᵢ est engendré par un vecteur non nul eᵢ, le système de coordonnées dans θ(U) défini par η et les eᵢ s’appelle un système de coordonnées canoniques de deuxième espèce.
 
-#### Proposition 4 {#lie-iii-s4-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s4-prop-4 .statement tag=0AD1}
 
 Soient G un groupuscule de Lie, φ une application exponentielle injective de G. Quels que soient x, y dans L(G), on a
 
@@ -292,13 +292,13 @@ $$
 $$
 et cela prouve (4).
 
-#### Proposition 5 {#lie-iii-s4-prop-5 .statement}
+#### Proposition 5 {#lie-iii-s4-prop-5 .statement tag=0AD2}
 
 *Soient G un groupe de Lie, k un sous-corps fermé non discret de K, G' le groupe G considéré comme groupe de Lie sur k, φ (resp. φ') une application exponentielle de G (resp. G'). Alors φ et φ' coïncident dans un voisinage de 0.*
 
 En effet, φ vérifie l’hypothèse (i) du th. 4 relativement à G', donc est une application exponentielle de G'.
 
-#### Proposition 6 {#lie-iii-s4-prop-6 .statement}
+#### Proposition 6 {#lie-iii-s4-prop-6 .statement tag=0AD3}
 
 *Soient G un groupuscule de Lie, L son algèbre de Lie, φ : V → G une application exponentielle de G. Pour tout x ∈ V, identifions T_x(L) à L, de telle sorte que la différentielle droite ω(x) de φ en x soit une application linéaire de L dans L. Pour x assez voisin de 0, on a*
 $$
@@ -319,7 +319,7 @@ $$
 
 où $\varphi$ est une application exponentielle injective de G.
 
-#### Proposition 7 {#lie-iii-s4-prop-7 .statement}
+#### Proposition 7 {#lie-iii-s4-prop-7 .statement tag=0AD4}
 
 (i) *Si* $t \in \mathbf{Z}$, *une application puissance t-ème coïncide dans un voisinage de* $e$ *avec l’application* $g \mapsto g^t$.
 
@@ -333,7 +333,7 @@ Il suffit de prouver la proposition quand G est le groupuscule de Lie défini pa
 
 ### 4. Fonctorialité des applications exponentielles
 
-#### Proposition 8 {#lie-iii-s4-prop-8 .statement}
+#### Proposition 8 {#lie-iii-s4-prop-8 .statement tag=0AD5}
 
 *Soient* G *et* H *des groupuscules de Lie, h un morphisme de* G *dans* H, $\varphi_G$ *et* $\varphi_H$ *des applications exponentielles relativement à* G *et* H. *Il existe un voisinage* V *de* 0 *dans* L(G) *tel que* $h \circ \varphi_G$ *et* $\varphi_H \circ L(h)$ *coïncident dans* V.
 
@@ -341,7 +341,7 @@ Munissons L(G) et L(H) de normes définissant leurs topologies et telles que $\|
 
 En termes imagés, si l’on identifie G et H au voisinage de l’élément neutre à L(G) et L(H) grâce à des applications exponentielles, tout morphisme de G dans H est *linéaire* au voisinage de 0.
 
-#### Corollaire 1 {#lie-iii-s4-prop-8-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s4-prop-8-cor-1 .statement tag=0AD6}
 
 *Soient* G *un groupuscule de Lie, G' un sous-groupuscule de Lie de* G, $\varphi$ *une application exponentielle de* G.
 
@@ -350,7 +350,7 @@ En termes imagés, si l’on identifie G et H au voisinage de l’élément neut
 (ii) Soit $x \in L(G)$. Les conditions suivantes sont équivalentes : a) $x \in L(G')$; b) $\varphi(\lambda x) \in G'$ pour $|\lambda|$ assez petit.
 (i) s’obtient en appliquant la prop. 8 à l’injection canonique de $G'$ dans $G$, et (ii) résulte de (i).
 
-#### Corollaire 2 {#lie-iii-s4-prop-8-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s4-prop-8-cor-2 .statement tag=0AD7}
 
 Soient $G$ un groupe de Lie, $\rho$ une représentation linéaire analytique de $G$, $\varphi$ une application exponentielle de $G$. Il existe un voisinage $V$ de $0$ dans $L(G)$ tel que
 $$
@@ -359,7 +359,7 @@ $$
 pour tout $x \in V$.
 Cela résulte de la prop. 8 et de l’Exemple 2 du n° 3.
 
-#### Corollaire 3 {#lie-iii-s4-prop-8-cor-3 .statement}
+#### Corollaire 3 {#lie-iii-s4-prop-8-cor-3 .statement tag=0AD8}
 
 Soient $G$ un groupe de Lie, $\varphi$ une application exponentielle de $G$.
 (i) Il existe un voisinage $V$ de $0$ dans $L(G)$ tel que
@@ -377,7 +377,7 @@ pour tout $x \in W$.
 
 ### 5. Structure induite sur un sous-groupe
 
-#### Lemme 4 {#lie-iii-s4-lem-4 .statement}
+#### Lemme 4 {#lie-iii-s4-lem-4 .statement tag=0AD9}
 
 Soient $G$ un groupe de Lie de dimension finie, $\Omega$ un voisinage ouvert symétrique de $e$ dans $G$, $H$ un sous-ensemble de $\Omega$ contenant $e$, tel que les conditions $x \in H, y \in H, xy^{-1} \in \Omega$ entraînent $xy^{-1} \in H$. Soit $r \in \mathbf{N}_K$. Pour tout $x \in H$, soit $h_x$ l’ensemble des $a \in T_x(G)$ possédant la propriété suivante : il existe un voisinage ouvert $I$ de $0$ dans $K$, et une application de classe $C^r$ de $I$ dans $G$, tels que $f(0) = x, f(I) \subset H, (T_0f)(1) = a$.
 (i) Posons $h_e = h$. Alors $h$ est une sous-algèbre de Lie de $L(G)$, invariant par $\mathrm{Ad}_{L(G)}(H)$.
@@ -395,11 +395,11 @@ Soit $(a_1, \ldots, a_s)$ une base de $\mathfrak{h}$. Il existe un voisinage ouv
 
 Si $a \in \mathfrak{h}$, il existe un voisinage ouvert $I$ de $0$ dans $K$ et une application de classe $C^\omega$ de $I$ dans $G$ tels que $f(0) = e, f(I) \subset H', (T_0 f)1 = a$. Cela, avec (iv), entraîne (v).
 
-#### Définition 2 {#lie-iii-s4-def-2 .statement}
+#### Définition 2 {#lie-iii-s4-def-2 .statement tag=0ADA}
 
 On dit que $\mathfrak{h}$ est la sous-algèbre tangente à $H$ en $e$.
 
-#### Proposition 9 {#lie-iii-s4-prop-9 .statement}
+#### Proposition 9 {#lie-iii-s4-prop-9 .statement tag=0ADB}
 
 Soient $G$ un groupe de Lie de dimension finie, $H$ un sous-groupe de $G$.
 
@@ -409,7 +409,7 @@ Soient $G$ un groupe de Lie de dimension finie, $H$ un sous-groupe de $G$.
 
 Dans (i), l’unicité est évidente. Prouvons l’existence. Soit $\mathfrak{h}$ l’algèbre de Lie tangente en $e$ à $H$. Soit $H'$ un sous-groupuscule de Lie de $G$ d’algèbre de Lie $\mathfrak{h}$. En remplaçant $H'$ par un sous-groupuscule ouvert de $H'$, on peut supposer $H' \subset H$ (lemme 4 (iv)). Pour tout $x \in H$, $x H' x^{-1}$ est un sous-groupuscule de Lie de $G$ d’algèbre de Lie $x h x^{-1} = h$. Donc $H' \cap (x H' x^{-1})$ est ouvert dans $H'$ (n° 2, th. 3), et l’application $y \mapsto xy x^{-1}$ est un isomorphisme de $H' \cap x^{-1} H' x$ sur $x H' x^{-1} \cap H'$. Compte tenu de la prop. 18 du § 1, n° 9, il existe un sous-groupuscule de Lie ouvert W de H', et une structure de groupe de Lie sur H, possédant les propriétés suivantes : W est ouvert dans H, et les structures de variétés de H et H' induisent la même structure sur W. Il résulte de là que l’injection canonique i de H dans G est une immersion, et que L(i)(L(H)) = L(H') = $\mathfrak{g}$. En outre, soient V et f comme dans (i). Si f : V → H est de classe C^r, i ∘ f : V → G est de classe C^r. Supposons que i ∘ f : V → G soit de classe C^r, et prouvons que f : V → H est de classe C^r. Par translation, il suffit d’envisager le cas où il existe un v_0 ∈ V tel que f(v_0) = e, et de prouver que f : V → H est de classe C^r dans un voisinage ouvert de v_0. Or, d’après le lemme 4 (iii), on a f(v) ∈ H' pour v assez voisin de v_0, d’où notre assertion. On a ainsi prouvé (i), et (ii) a été obtenu en cours de route.
 
-#### Définition 3 {#lie-iii-s4-def-3 .statement}
+#### Définition 3 {#lie-iii-s4-def-3 .statement tag=0ADC}
 
 La structure de groupe de Lie sur H définie dans la prop. 9 s’appelle la structure induite sur H par la structure de groupe de Lie de G.
 
@@ -419,7 +419,7 @@ Si G = R et H = Q, on a $\mathfrak{g}$ = {0}, donc la structure induite sur H es
 
 ### 6. Primitives des formes différentielles à valeurs dans une algèbre de Lie
 
-#### Lemme 5 {#lie-iii-s4-lem-5 .statement}
+#### Lemme 5 {#lie-iii-s4-lem-5 .statement tag=0ADD}
 
 Soient X une variété de classe C^r, F et F' des fibrés vectoriels de classe C^r et de base X, φ un morphisme de F dans F'. Pour tout x ∈ X, soit S_x l’ensemble des
 $$(a, \varphi(a)) \in F_x \oplus F'_x$$
@@ -429,7 +429,7 @@ Soient θ et θ' les applications de F ⊕ F' dans lui-même définies de la man
 $$\theta(u, v) = (u, v + \varphi(u)), \quad \theta'(u, v) = (u, v - \varphi(u)).$$
 D’après VAR, R, 7.7.1, θ et θ' sont des morphismes du fibré vectoriel F ⊕ F' dans lui-même. Il est clair que $\theta \circ \theta' = \theta' \circ \theta = \mathrm{Id}_{F \oplus F'}$. Donc θ et θ' sont des automorphismes de F ⊕ F'. Par suite, S = θ(F ⊕ {0}) est un sous-fibré vectoriel de F ⊕ F'.
 
-#### Lemme 6 {#lie-iii-s4-lem-6 .statement}
+#### Lemme 6 {#lie-iii-s4-lem-6 .statement tag=0ADE}
 
 Soient G un groupuscule de Lie, ω la forme différentielle gauche canonique de G (§ 3, n° 18.9), M une variété de classe C^r (r ≥ 2), α une forme différentielle de classe C^{r-1} et de degré 1 sur M, à valeurs dans L(G).
 
@@ -462,7 +462,7 @@ d\theta &= \mathrm{pr}_1^*(d\alpha) - \mathrm{pr}_2^*(d\omega) \\
 $$
 donc $S$ est intégrable (VAR, R, 9.3.6).
 
-#### Théorème 5 {#lie-iii-s4-thm-5 .statement}
+#### Théorème 5 {#lie-iii-s4-thm-5 .statement tag=0ADF}
 
 Soient $G$ un groupuscule de Lie, $M$ une variété de classe $C^r$ ($r \geq 2$), $\alpha$ une forme différentielle de classe $C^{r-1}$ et de degré 1 sur $M$ à valeurs dans $L(G)$, telle que $d\alpha + [\alpha]^2 = 0$. Pour tout $x \in M$ et tout $g \in G$, il existe une application $f$, définie et de classe $C^{r-1}$ dans un voisinage ouvert de $x$, à valeurs dans $G$, telle que $f(x) = g$ et $f^{-1}.df = \alpha$. Deux applications qui vérifient ces conditions coïncident dans un voisinage de $x$.
 
@@ -479,7 +479,7 @@ $$
 
 Soit $f'$ une application de classe $C^{r-1}$ de $U$ dans $G$ telle que $f'(x) = g$ et $f'^{-1}.df' = \alpha$. D’après le , 18.9, $ff'^{-1}$ est localement constante, donc $f' = f$ dans un voisinage de $x$
 
-#### Proposition 10 {#lie-iii-s4-prop-10 .statement}
+#### Proposition 10 {#lie-iii-s4-prop-10 .statement tag=0ADG}
 
 *Soient $M$ une variété analytique, $g$ une algèbre de Lie normable complète, $\alpha$ une forme différentielle de degré 1 analytique sur $M$, à valeurs dans $g$, possédant les propriétés suivantes*:
     *a)* pour tout $m \in M$, $\alpha_m$ est un isomorphisme de $T_m(M)$ sur $g$;
@@ -498,7 +498,7 @@ donc $m \mapsto \alpha_{m_0}^{-1} \circ \alpha_m$ est la forme différentielle c
 
 Soit $M''$ un voisinage ouvert de $m_0$, muni d’une structure de groupuscule de Lie, d’élément neutre $m_0$, avec les propriétés analogues aux propriétés (i) et (ii). Alors $\alpha_{m_0}$ est un isomorphisme de $L(M')$ sur $g$, et aussi de $L(M'')$ sur $g$, donc $L(M') = L(M'')$. Par suite, en diminuant $M'$ et $M''$, on peut supposer qu’il existe un isomorphisme $\varphi$ du groupuscule $M'$ sur le groupuscule $M''$ (n° 1, cor. 1 du th. 1). Alors $\varphi^{-1}.d\varphi$ est la différentielle gauche canonique de $M'$. D’autre part, soit $\psi$ l’injection canonique de la variété $M' \cap M''$ dans le groupuscule de Lie $M''$; il est clair que $\psi^{-1}.d\psi$ est une restriction de la différentielle gauche canonique de $M''$. Donc $(\psi^{-1}.d\psi)(m) = \alpha_{m_0}^{-1} \circ \alpha_m = (\varphi^{-1}.d\varphi)(m)$ pour tout $m \in M' \cap M''$. Par suite $\varphi$ et $\psi$ coïncident dans un voisinage de $m_0$ (§ 3, 18.9). Cela prouve la dernière assertion de la proposition.
 
-#### Corollaire {#lie-iii-s4-n6-cor-1 .statement}
+#### Corollaire {#lie-iii-s4-n6-cor-1 .statement tag=0ADH}
 
 Soit $M$ une variété analytique de dimension finie $n$. Soient $\omega_1, \ldots, \omega_n$ des formes différentielles analytiques de degré 1 sur $M$, à valeurs scalaires, linéairement indépendantes en tout point de $M$, et telles que, pour tout $k = 1, \ldots, n$, $d\omega_k$ soit combinaison linéaire à coefficients constants des $\omega_i \wedge \omega_j$. Alors, pour tout $m_0 \in M$, il existe un voisinage ouvert $M'$ de $m_0$ dans $M$, et une structure de groupuscule de Lie sur $M'$, compatible avec la structure de variété de $M'$, d’élément neutre $m_0$, et telle que $\omega_1|_{M'}, \ldots, \omega_n|_{M'}$ forment une base de l’espace des formes différentielles de degré 1 à valeurs scalaires invariantes à gauche sur $M'$.
 
@@ -531,7 +531,7 @@ Il suffit alors d’appliquer la prop. 10.
 
 ### 7. Passage des lois d’opérations infinitésimales aux lois d’opérations
 
-#### Proposition 11 {#lie-iii-s4-prop-11 .statement}
+#### Proposition 11 {#lie-iii-s4-prop-11 .statement tag=0ADI}
 
 Soient $G_1$ et $G_2$ des groupuscules de Lie, $X_1$ et $X_2$ des variétés de classe $C^r$ ($r \geqslant 2$). Pour $i = 1, 2$, soient $\psi_i$ un morceau de loi d’opération à gauche de classe $C^r$ de $G_i$ dans $X_i$, $D_i$ la loi d’opération infinitésimale associée. Soient $\mu : G_1 \to G_2$ un morphisme, $\varphi : X_1 \to X_2$ une application de classe $C^r$. On suppose que, pour tout $a \in L(G)$, les champs de vecteurs $(D_1)_a$ et $(D_2)_{L(\mu)a}$ soient $\varphi$-liés (VAR, R, 8.2.6). Alors, il existe un voisinage $\Omega$ de $\{e\} \times X_1$ dans $G_1 \times X_1$ tel que $\varphi(\psi_1(g, x)) = \psi_2(\mu(g), \varphi(x))$ pour tout $(g, x) \in \Omega$.
 
@@ -558,11 +558,11 @@ $$
 $$
 pour tout $x \in X$, on conclut de VAR, R, 9.3.7, que $\alpha$ et $\beta$ coïncident dans un voisinage de $(e, x_0)$. D’où la proposition.
 
-#### Corollaire {#lie-iii-s4-n7-cor-1 .statement}
+#### Corollaire {#lie-iii-s4-n7-cor-1 .statement tag=0ADJ}
 
 Soient $G$ un groupuscule de Lie, $X$ une variété de classe $C^r$. Considérons deux morceaux de lois d’opérations à gauche de classe $C^r$ de $G$ dans $X$. On suppose que, pour tout $a \in L(G)$, le champ de vecteurs correspondant $D_a$ sur $X$ soit le même pour les deux morceaux de lois. Alors ces dans deux morceaux de lois coïncident dans un voisinage de $\{e\} \times X$.
 
-#### Théorème 6 {#lie-iii-s4-thm-6 .statement}
+#### Théorème 6 {#lie-iii-s4-thm-6 .statement tag=0ADK}
 
 Soient $G$ un groupuscule de Lie, $X$ une variété de classe $C^r$ ($r \geqslant 2$), et $x_0$ un point de $X$. Soit $a \mapsto D_a$ une loi d’opération infinitésimale à gauche de classe $C^{r-1}$ de $L(G)$ dans $X$.
 
@@ -621,7 +621,7 @@ $$
 
 D’après VAR, R, 9.3.7, $\alpha_1$ et $\alpha_2$ coïncident dans un voisinage de $(e, (e, x_0))$. Ceci posé, (i) résulte de (7) et de la prop. 23 du § 1, n° 11.
 
-#### Corollaire 1 {#lie-iii-s4-thm-6-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s4-thm-6-cor-1 .statement tag=0ADL}
 
 Soient G un groupuscule de Lie, X une variété paracompacte de classe $C^r$ ($r \geq 2$). Soit $a \mapsto D_a$ une loi d’opération infinitésimale à gauche de classe $C^{r-1}$ de $L(G)$ dans X.
 
@@ -631,13 +631,13 @@ Soient G un groupuscule de Lie, X une variété paracompacte de classe $C^r$ ($r
 
 L’assertion (ii) résulte du cor. de la prop. 11. D’après le th. 6 (i), il existe un recouvrement ouvert $(X_i)_{i \in I}$ de X, et, pour tout $i \in I$, un morceau de loi d’opération à gauche $\psi_i$ de classe $C^{r-1}$ de G dans $X_i$, tels que la loi d’opération infinitésimale associée soit $a \mapsto D_a | X_i$. Comme X est paracompacte, on peut supposer le recouvrement $(X_i)_{i \in I}$ localement fini. Pour tout $(i, j) \in I \times I$ et tout $x \in X_i \cap X_j$, $\psi_i$ et $\psi_j$ coïncident dans un voisinage de $(e, x)$ (cor. de la prop. 11). Comme X est normale, on peut appliquer la prop. 24 du § 1, n° 11, ce qui prouve (i).
 
-#### Corollaire 2 {#lie-iii-s4-thm-6-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s4-thm-6-cor-2 .statement tag=0ADM}
 
 Soient X une variété paracompacte de classe $C^r$ ($r \geq 2$), et $\xi$ un champ de vecteurs de classe $C^{r-1}$ sur X. Il existe un morceau de loi d’opération $\psi$ de classe $C^{r-1}$ de K dans X tel que, pour tout $x \in X$, $\xi(x)$ soit l’image par $t \mapsto \psi(t, x)$ du vecteur tangent 1 à K en 0. Deux morceaux de lois d’opérations possédant la propriété précédente coïncident dans un voisinage de $\{0\} \times X$.
 
 C’est un cas particulier du cor. 1.
 
-#### Remarque {#lie-iii-s4-n7-rem-1 .statement}
+#### Remarque {#lie-iii-s4-n7-rem-1 .statement tag=0ADN}
 
 On peut bien entendu remplacer partout, dans ce n°, les lois d’opérations à gauche par les lois d’opérations à droite.
 

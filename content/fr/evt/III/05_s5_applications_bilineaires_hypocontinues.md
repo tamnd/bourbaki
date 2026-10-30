@@ -33,7 +33,7 @@ subsections:
       pdf_page: 168
 statements: 16
 exercises: 15
-content_sha256: 809fedd300858f4ec8ecc8daee3b8c1989c17e2a5d90f8c98a75aaf3dfd80378
+content_sha256: a49dca7034cda81813084cdb07308ad7c0e91203447dd5dfdb499c4f84fa3efb
 ---
 
 ## § 5. APPLICATIONS BILINÉAIRES HYPOCONTINUES
@@ -42,13 +42,13 @@ content_sha256: 809fedd300858f4ec8ecc8daee3b8c1989c17e2a5d90f8c98a75aaf3dfd80378
 
 Soient E, F, G trois espaces localement convexes. Pour toute application bilinéaire $u$ de $E \times F$ dans G, et pour tout $x \in E$ (resp. $y \in F$), on désignera par $u(x, .)$ (resp. $u(., y)$) l’application $y \mapsto u(x, y)$ (resp. $x \mapsto u(x, y)$) de F dans G (resp. de E dans G).
 
-#### Définition 1 {#evt-iii-s5-def-1 .statement}
+#### Définition 1 {#evt-iii-s5-def-1 .statement tag=07P9}
 
 On dit qu’une application bilinéaire $u$ de $E \times F$ dans G est séparément continue si, pour tout $x \in E$, l’application linéaire $u(x, .)$ de F dans G est continue et, pour tout $y \in F$, l’application linéaire $u(., y)$ de E dans G est continue.
 
 La proposition suivante résulte aussitôt de la définition.
 
-#### Proposition 1 {#evt-iii-s5-prop-1 .statement}
+#### Proposition 1 {#evt-iii-s5-prop-1 .statement tag=07PA}
 
 Pour qu’une application bilinéaire $u$ de $E \times F$ dans G soit séparément continue, il faut et il suffit que, pour tout $y \in F$, l’application linéaire $u(., y)$ de E dans G soit continue, et que l’application linéaire $y \mapsto u(., y)$ de F dans $\mathscr{L}_s(E ; G)$ soit continue.
 
@@ -86,13 +86,13 @@ où $t$ est l’isomorphisme de transposition (II, p. 49, prop. 5 et corollaire)
 
 ### 2. Applications bilinéaires séparément continues sur un produit d’espaces de Fréchet
 
-#### Proposition 2 {#evt-iii-s5-prop-2 .statement}
+#### Proposition 2 {#evt-iii-s5-prop-2 .statement tag=07PB}
 
 Soient E, F et G trois espaces localement convexes. On suppose E et F métrisables, et E tonnelé. Soit H un ensemble d’applications bilinéaires séparément continues de E × F dans G. On suppose que pour tout x ∈ E, l’ensemble des applications u(x, .) de F dans G, où u parcourt H, est équicontinu. Alors H est équicontinu.
 
 Soit (U_n) (resp. (V_n)) une suite fondamentale de voisinages de 0 dans E (resp. F). Si H n’est pas équicontinu, il existe un voisinage convexe équilibré fermé W de 0 dans G tel que, pour tout n, H(U_n × V_n) ne soit pas contenu dans W. Il existe donc une suite de couples (x_n, y_n) ∈ U_n × V_n, et une suite (u_n) d’éléments de H, telles que u_n(x_n, y_n) ∉ W. Soit p la jauge de W. Pour tout y ∈ F, et tout u ∈ H, l’application u(., y) de E dans G est continue, donc p ◦ u(., y) est une semi-norme continue sur E. D’autre part, pour tout x ∈ E, l’ensemble des applications u(x, .) pour u ∈ H est équicontinu ; comme la suite (y_n) tend vers 0, elle est bornée, et l’ensemble des u(x, y_n), pour n ≥ 0 et u ∈ H, est borné (III, p. 22, prop. 9). Il résulte de ceci que la fonction $p'(x) = \sup_{\substack{u \in H \\ n \geqslant 0}} p(u(x, y_n))$ est une semi-norme (finie) sur E, semi-continue inférieurement. Comme E est tonnelé, p’ est continue (III, p. 24, corollaire). Comme (x_n) tend vers 0 dans E, p’(x_n) tend vers 0, de sorte qu’on a p’(x_n) ≤ 1 si n est assez grand ; mais dès lors, on a $p(u_n(x_n, y_n)) \leq p'(x_n) \leq 1$, donc $u_n(x_n, y_n) \in W$ ce qui contredit l’hypothèse sur $u_n, x_n, y_n$.
 
-#### Corollaire 1 {#evt-iii-s5-prop-2-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s5-prop-2-cor-1 .statement tag=07PC}
 
 Soient E et F deux espaces de Fréchet, et G un espace localement convexe. Toute application bilinéaire séparément continue de E × F dans G est continue.
 
@@ -106,7 +106,7 @@ $$
 
 (pour $x \in E, y \in F$ et $u \in \mathscr{B}(E, F)$) définit une application linéaire continue et injective $\varphi$ de $\mathscr{B}(E, F)$ dans $\mathscr{L}_b(E; F'_b)$.
 
-#### Corollaire 2 {#evt-iii-s5-prop-2-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s5-prop-2-cor-2 .statement tag=07PD}
 
 Supposons que E et F soient métrisables et que E soit tonnelé. Alors $\varphi$ est un isomorphisme d’espaces vectoriels topologiques de $\mathscr{B}(E, F)$ sur $\mathscr{L}_b(E; F'_b)$.
 
@@ -116,7 +116,7 @@ Soit $f \in \mathscr{L}_b(E; F'_b)$. Posons $u(x, y) = \langle y, f(x) \rangle$ 
 
 Nous allons dans ce qui suit définir une notion intermédiaire entre celle d’application bilinéaire continue et celle d’application bilinéaire séparément continue.
 
-#### Proposition 3 {#evt-iii-s5-prop-3 .statement}
+#### Proposition 3 {#evt-iii-s5-prop-3 .statement tag=07PE}
 
 Soient E, F, G trois espaces localement convexes, $\mathscr{S}$ un ensemble de parties bornées de E. Soit u une application bilinéaire séparément continue de $E \times F$ dans G. Les propriétés suivantes sont équivalentes :
 
@@ -128,7 +128,7 @@ c) L’application $y \mapsto u(., y)$ de F dans $\mathscr{L}_{\mathscr{S}}(E; G
 
 En effet, a) exprime que $y \mapsto u(., y)$ est continue au point 0, compte tenu de la définition des voisinages de 0 dans $\mathscr{L}_{\mathscr{S}}(E; G)$ (III, p. 13); de même a) exprime que l’image de M par l’application $x \mapsto u(x, .)$ est équicontinue au point 0 (III, p. 16).
 
-#### Définition 2 {#evt-iii-s5-def-2 .statement}
+#### Définition 2 {#evt-iii-s5-def-2 .statement tag=07PF}
 
 Soit u une application bilinéaire de $E \times F$ dans G. On dit que u est $\mathscr{S}$-hypocontinue si u est séparément continue et si elle vérifie l’une des conditions équivalentes a), b), c) de la prop. 3.
 
@@ -144,19 +144,19 @@ $$
 
 La réciproque est inexacte en général (III, p. 48, exerc. 3).
 
-#### Proposition 4 {#evt-iii-s5-prop-4 .statement}
+#### Proposition 4 {#evt-iii-s5-prop-4 .statement tag=07PG}
 
 Soit u une application bilinéaire $\mathscr{S}$-hypocontinue de $E \times F$ dans G. Pour tout ensemble $M \in \mathscr{S}$, la restriction de u à $M \times F$ est continue, et $u(M \times Q)$ est bornée dans G pour toute partie bornée Q de F.
 
 La première assertion résulte du cor. 3 de TG, X, p. 13. Soit W un voisinage de 0 dans G ; il existe par hypothèse un voisinage V de 0 dans F tel que $u(M \times V) \subset W$. Comme il existe $\lambda \neq 0$ tel que $\lambda Q \subset V$, on a $\lambda u(M \times Q) = u(M \times \lambda Q) \subset W$, ce qui prouve la seconde partie de la proposition.
 
-#### Proposition 5 {#evt-iii-s5-prop-5 .statement}
+#### Proposition 5 {#evt-iii-s5-prop-5 .statement tag=07PH}
 
 Soit u une application bilinéaire ($\mathscr{S}, \mathscr{T}$)-hypocontinue de $E \times F$ dans $G$. Pour tout couple d’ensembles $M \in \mathscr{S}, N \in \mathscr{T}$, $u$ est uniformément continue dans $M \times N$.
 
 La proposition résulte aussitôt de la prop. 2 de TG, X, p. 13 et de la prop. 5 de TG, X, p. 15.
 
-#### Proposition 6 {#evt-iii-s5-prop-6 .statement}
+#### Proposition 6 {#evt-iii-s5-prop-6 .statement tag=07PI}
 
 Si $F$ est un espace tonnelé, toute application bilinéaire séparément continue $u$ de $E \times F$ dans un espace localement convexe $G$ est $\mathscr{S}$-hypocontinue pour tout ensemble $\mathscr{S}$ de parties bornées de $E$.
 
@@ -164,7 +164,7 @@ Autrement dit, l’application linéaire $y \mapsto u(., y)$ de $F$ dans $\maths
 
 Il suffit en effet (III, p. 31, prop. 3) de prouver que l’image par $x \mapsto u(x, .)$ de toute partie bornée $M$ de $E$ est équicontinue dans $\mathscr{L}(F ; G)$. Or, en vertu de la prop. 1 (III, p. 28), cette image est une partie simplement bornée de $\mathscr{L}(F ; G)$, et comme $F$ est tonnelé, toute partie simplement bornée de $\mathscr{L}(F ; G)$ est équicontinue (III, p. 25, th. 1).
 
-#### Remarque {#evt-iii-s5-n3-rem-1 .statement}
+#### Remarque {#evt-iii-s5-n3-rem-1 .statement tag=07PJ}
 
 Supposons que la topologie de $F$ soit la plus fine des topologies localement convexes sur $F$ rendant continues des applications linéaires $h_\alpha : F_\alpha \to F$ (II, p. 29). Alors, la condition c) de la prop. 3 (III, p. 31) montre que, si $E$ et $G$ sont localement convexes, pour que l’application bilinéaire $u : E \times F \to G$ soit $\mathscr{S}$-hypocontinue, il faut et il suffit que chacune des applications bilinéaires
 
@@ -178,7 +178,7 @@ Supposons maintenant que $E$ soit un espace localement convexe, limite inductive
 
 ### 4. Prolongement d’une application bilinéaire hypocontinue
 
-#### Proposition 7 {#evt-iii-s5-prop-7 .statement}
+#### Proposition 7 {#evt-iii-s5-prop-7 .statement tag=07PK}
 
 Soient $E, F, G$ trois espaces localement convexes, $G$ étant supposé séparé ; soit $E_0$ (resp. $F_0$) un sous-espace vectoriel dense de $E$ (resp. $F$). Soit $u$ une application bilinéaire séparément continue de $E \times F$ dans $G$.
 
@@ -190,7 +190,7 @@ Soient $E, F, G$ trois espaces localement convexes, $G$ étant supposé séparé
 
 2) Pour tout voisinage fermé $W$ de $0$ dans $G$ et pour tout ensemble $M \in \mathscr{S}_0$, il existe par hypothèse un voisinage V de 0 dans F_0 tel que u(M × V) ⊂ W. Or \overline{V} est un voisinage de 0 dans F ; pour tout x ∈ M, de la relation u({x} × V) ⊂ W, on déduit u({x} × \overline{V}) ⊂ W, puisque u(x, .) est continue et W fermé ; on a donc la relation u(M × \overline{V}) ⊂ W, ce qui montre que u est $\mathscr{S}_0$-hypocontinue.
 
-#### Proposition 8 {#evt-iii-s5-prop-8 .statement}
+#### Proposition 8 {#evt-iii-s5-prop-8 .statement tag=07PL}
 
 *Soient E, F, G trois espaces localement convexes, G étant supposé séparé et quasi-complet. Soit E_0 (resp. F_0) un sous-espace vectoriel dense de E (resp. F), $\mathscr{S}_0$ (resp. $\mathscr{T}_0$) un ensemble de parties bornées de E_0 (resp. F_0) tel que tout point de E (resp. F) soit adhérent à un ensemble de $\mathscr{S}_0$ (resp. $\mathscr{T}_0$). Alors toute application bilinéaire ($\mathscr{S}_0, \mathscr{T}_0$)-hypocontinue u de E_0 × F_0 dans G se prolonge d’une seule manière en une application bilinéaire séparément continue $\overline{u}$ de E × F dans G, et $\overline{u}$ est ($\mathscr{S}_0, \mathscr{T}_0$)-hypocontinue.*
 
@@ -198,7 +198,7 @@ L’unicité et l’hypocontinuité de $\overline{u}$ résultent de la prop. 7 ;
 
 ### 5. Hypocontinuité de l’application $(u, v) \mapsto v \circ u$
 
-#### Proposition 9 {#evt-iii-s5-prop-9 .statement}
+#### Proposition 9 {#evt-iii-s5-prop-9 .statement tag=07PM}
 
 *Soient R, S, T trois espaces localement convexes séparés. On suppose les espaces $\mathscr{L}(R; S)$, $\mathscr{L}(S; T)$, $\mathscr{L}(R; T)$ munis tous trois de la topologie de la convergence simple (resp. compacte, bornée). Alors l’application bilinéaire $(u, v) \mapsto v \circ u$ de $\mathscr{L}(R; S) \times \mathscr{L}(S; T)$ dans $\mathscr{L}(R; T)$ est ($\mathscr{S}, \mathscr{T}$)-hypocontinue, lorsque $\mathscr{T}$ est l’ensemble des parties équicontinues de $\mathscr{L}(S; T)$, et $\mathscr{S}$ l’ensemble des parties finies (resp. des parties compactes, des parties bornées) de $\mathscr{L}(R; S)$.
 
@@ -208,12 +208,12 @@ Pour voir que $(u, v) \mapsto v \circ u$ est $\mathscr{S}$-hypocontinue, nous al
 
 Dans les deux corollaires qui suivent, on suppose comme dans la prop. 9 que les espaces $\mathscr{L}(R; S)$, $\mathscr{L}(S; T)$, $\mathscr{L}(R; T)$ sont tous trois munis de la topologie de la convergence simple, ou tous trois de la topologie de la convergence compacte, ou tous trois de la topologie de la convergence bornée.
 
-#### Corollaire 1 {#evt-iii-s5-prop-9-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s5-prop-9-cor-1 .statement tag=07PN}
 
 Pour toute partie équicontinue H de $\mathscr{L}(S; T)$, l’application $(u, v) \mapsto v \circ u$ de $\mathscr{L}(R; S) \times H$ dans $\mathscr{L}(R; T)$ est continue.
 Cela résulte aussitôt des prop. 9 (III, p. 33) et 4 (III, p. 31).
 
-#### Corollaire 2 {#evt-iii-s5-prop-9-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s5-prop-9-cor-2 .statement tag=07PO}
 
 On suppose S tonnelé. Si la suite $(u_n)$ tend vers u dans $\mathscr{L}(R; S)$ et la suite $(v_n)$ vers v dans $\mathscr{L}(S; T)$, la suite $(v_n \circ u_n)$ tend vers $v \circ u$ dans $\mathscr{L}(R; T)$.
 En effet, la suite $(v_n)$ étant simplement bornée dans $\mathscr{L}(S; T)$, est équicontinue puisque S est tonnelé (III, p. 25, th. 1) ; le corollaire est alors conséquence du cor. 1.

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 338
 statements: 15
 exercises: 28
-content_sha256: 53c4ffd11123f80905f3154656c4bf60087bc05a670533b86885dee5fc68c2c7
+content_sha256: 633280f4b09f12e83053371e019858ca83c46ac9a0cf91e6fb5e0ae2e1aaa4b7
 ---
 
 ## § 1. ANNEAUX PRINCIPAUX
@@ -41,11 +41,11 @@ content_sha256: 53c4ffd11123f80905f3154656c4bf60087bc05a670533b86885dee5fc68c2c7
 
 Rappelons (I, p. 99) qu’un idéal d’un anneau commutatif $A$ est dit *principal* s’il est de la forme $(a) = Aa$, avec $a \in A$.
 
-#### Définition 1 {#alg-vii-s1-def-1 .statement}
+#### Définition 1 {#alg-vii-s1-def-1 .statement tag=070X}
 
 *Un anneau principal est un anneau commutatif, intègre* (I, p. 110) *dont tout idéal est principal*.
 
-#### Exemple {#alg-vii-s1-n1-exa-1 .statement}
+#### Exemple {#alg-vii-s1-n1-exa-1 .statement tag=070Y}
 
 L’anneau $\mathbf{Z}$ des entiers rationnels est principal (I, p. 47). Si $K$ est un corps commutatif, l’anneau $K[X]$ des polynômes à une indéterminée sur $K$ est un anneau principal (IV, p. 11, prop. 11); il en est de même de l’anneau de séries formelles $K[[X]]$, car tout idéal de cet anneau est de la forme $(X^n)$ (IV, p. 36, prop. 12). *L’anneau des entiers d’un corps $p$-adique est principal.* \*
 
@@ -57,7 +57,7 @@ L’anneau $K[X, Y]$ des polynômes à deux indéterminées sur un corps $K$ n�
 
 Soient $A$ un anneau principal, et $K$ son corps des fractions (I, p. 110); nous allons voir que le groupe ordonné $\mathscr{P}^*$ des idéaux principaux fractionnaires (VI, p. 6) de $K$ est réticulé ; de façon plus précise :
 
-#### Proposition 1 {#alg-vii-s1-prop-1 .statement}
+#### Proposition 1 {#alg-vii-s1-prop-1 .statement tag=070Z}
 
 *Soient $K$ le corps des fractions d’un anneau principal $A$, et $(x_i)_{i \in I}$ une famille d’éléments de $K$ admettant un dénominateur commun $b \in K^*$ (c’est-à-dire que $bx_i \in A$ pour tout $i$). Alors :*
 
@@ -67,11 +67,11 @@ b) Tout pgcd de $(x_i)$ se met sous la forme $d = \sum a_i x_i$ où les $a_i$ so
 
 En effet l’idéal $\sum Abx_i$ de $A$ est principal, donc de la forme $Ad'$. Posons $d' = bd$ ($d \in K$). De la relation $d' = \sum a_i b x_i$, on tire $d = \sum a_i x_i$, où $a_i \in A$, donc tout diviseur commun des $x_i$ divise $d$. D’autre part, comme $bd$ est un diviseur commun des $bx_i$ par construction, $d$ est un diviseur commun des $x_i$.
 
-#### Remarque {#alg-vii-s1-n2-rem-1 .statement}
+#### Remarque {#alg-vii-s1-n2-rem-1 .statement tag=0710}
 
 La prop. 1 s’applique sans restriction à une famille quelconque $(x_i)$ d’éléments de $A$ (il suffit de prendre $b = 1$), et aussi à une famille *finie* $(x_i)$ d’éléments de $K$ (en effet, si $x_i = c_i b_i^{-1}$, avec $c_i \in A$ et $b_i \in A$, il suffit de prendre pour $b$ le produit des $b_i$).
 
-#### Corollaire {#alg-vii-s1-n2-cor-1 .statement}
+#### Corollaire {#alg-vii-s1-n2-cor-1 .statement tag=0711}
 
 Soit $(x_i)$ une famille quelconque d’éléments d’un sous-anneau principal $A$ d’un anneau intègre $B$, et soit $d$ un pgcd de la famille $(x_i)$ dans $A$. Alors la famille $(x_i)$ admet des pgcd dans $B$, et $d$ est l’un de ces pgcd.
 
@@ -83,13 +83,13 @@ La première assertion de la prop. 1 montre que le groupe ordonné $\mathscr{P}^
 
 Comme conséquence de la seconde assertion de la prop. 1, on a le résultat suivant :
 
-#### Théorème 1 (« identité de Bezout ») {#alg-vii-s1-thm-1 .statement}
+#### Théorème 1 (« identité de Bezout ») {#alg-vii-s1-thm-1 .statement tag=0712}
 
 Pour que les éléments $x_i$ ($i \in I$) d’un anneau principal $A$ soient étrangers dans leur ensemble, il faut et il suffit qu’il existe des éléments $a_i$ ($i \in I$) de $A$, nuls sauf un nombre fini d’entre eux, et tels que $\sum a_i x_i = 1$.
 
 C’est nécessaire d’après la prop. 1. Réciproquement, si $\sum a_i x_i = 1$, tout diviseur commun des $x_i$ dans $K$ divise 1, donc 1 est un pgcd des $x_i$.
 
-#### Proposition 2 {#alg-vii-s1-prop-2 .statement}
+#### Proposition 2 {#alg-vii-s1-prop-2 .statement tag=0713}
 
 Soient $a, b, d, m$ et $p$ des éléments du corps des fractions $K$ d’un anneau principal $A$.
 a) « $d$ est un pgcd de $a$ et $b$ » équivaut à « $(d) = (a) + (b)$ ».
@@ -100,13 +100,13 @@ Nous avons déjà démontré $a$ (prop. 1). Comme les multiples communs de $a$ e
 
 Dans un anneau principal $\mathbf{A}$, on dit encore que la somme (resp. l’intersection) d’un nombre fini d’idéaux de $\mathbf{A}$ est le pgcd (resp. ppcm) de ces idéaux.
 
-#### Proposition 3 {#alg-vii-s1-prop-3 .statement}
+#### Proposition 3 {#alg-vii-s1-prop-3 .statement tag=0714}
 
 *Soient $a, b, c$ des éléments du corps des fractions d’un anneau principal $\mathbf{A}$, et soit $d$ un pgcd de $a$ et $c$; pour que la congruence $ax \equiv b$ (mod. $c$) admette une solution $x_0 \in \mathbf{A}$, il faut et il suffit que $d$ divise $b$; dans ce cas les éléments $x \in \mathbf{A}$ solutions de $ax \equiv b$ (mod. $c$) sont les mêmes que ceux qui satisfont à $x \equiv x_0$ (mod. $cd^{-1}$).
 
 Si $ax \equiv b$ (mod. $c$) avec $x \in \mathbf{A}$, il existe $y \in \mathbf{A}$ tel que $b = ax + cy$, donc $d$ divise $b$. Réciproquement, si $d$ divise $b$, on a $b = ax_0 + cy_0$, où $x_0$ et $y_0$ appartiennent à $\mathbf{A}$ (prop. 1), donc $ax_0 \equiv b$ (mod. $c$); en outre, la relation $ax \equiv b$ (mod. $c$) est alors équivalente à $a(x - x_0) \equiv 0$ (mod. $c$); en posant $a = da'$ et $c = dc'$, ceci s’écrit $a'(x - x_0) \equiv 0$ (mod. $c'$). Mais cette dernière relation équivaut (pour $x \in \mathbf{A}$) à $x - x_0 \equiv 0$ (mod. $c'$), puisque $a'$ et $c'$ sont des éléments étrangers (VI, p. 14, prop. 10 (DIV) et VI, p. 15, cor. 2 de la prop. 11 (DIV)).
 
-#### Proposition 4 {#alg-vii-s1-prop-4 .statement}
+#### Proposition 4 {#alg-vii-s1-prop-4 .statement tag=0715}
 
 *Soit $(a_i)_{1 \leq i \leq n}$ une famille finie d’éléments deux à deux étrangers d’un anneau principal $\mathbf{A}$. Alors l’homomorphisme canonique (I, p. 104) de $\mathbf{A}/(\prod_{i=1}^n a_i)$ dans le produit $\prod_{i=1}^n \mathbf{A}/(a_i)$ est un isomorphisme de $\mathbf{A}$-algèbres.
 
@@ -118,11 +118,11 @@ La conclusion de la prop. 4 n’est plus valable si on ne suppose pas que les $a
 
 Nous allons maintenant appliquer aux anneaux principaux les résultats de VI, p. 17, relatifs à la décomposition en éléments extrémaux. D’après la prop. 2, pour qu’un élément $p \neq 0$ d’un anneau principal $\mathbf{A}$ soit extrémal, il faut et il suffit que l’anneau $\mathbf{A}/(p)$ soit un corps (I, p. 109, cor. 1), c’est-à-dire que la congruence $ax \equiv b$ (mod. $p$) admette une solution dans $\mathbf{A}$ quels que soient $b \in \mathbf{A}$ et $a \in \mathbf{A}$ non multiple de $p$.
 
-#### Définition 2 {#alg-vii-s1-def-2 .statement}
+#### Définition 2 {#alg-vii-s1-def-2 .statement tag=0716}
 
 *Soit $\mathbf{A}$ un anneau intègre. On appelle système représentatif d’éléments extrémaux de $\mathbf{A}$ une famille $(p_\alpha)$ d’éléments extrémaux de $\mathbf{A}$ telle que tout élément extrémal de $\mathbf{A}$ soit associé à un $p_\alpha$ et à un seul.*
 
-#### Théorème 2 {#alg-vii-s1-thm-2 .statement}
+#### Théorème 2 {#alg-vii-s1-thm-2 .statement tag=0717}
 
 *Soient $\mathbf{A}$ un anneau principal et $(p_\alpha)$ un système représentatif d’éléments extrémaux de $\mathbf{A}$. Alors tout élément non nul $x$ du corps des fractions de $\mathbf{A}$ s’écrit, et d’une seule manière, sous la forme*
 
@@ -134,7 +134,7 @@ où u est un élément inversible de A, et où les $n_\alpha$ sont des entiers r
 
 Nous allons utiliser le théorème de décomposition en somme d’éléments extrémaux (VI, p. 17, th. 2), dont l’énoncé ci-dessus n’est qu’une traduction. Comme $\mathscr{P}^*$ est un groupe réticulé, il nous suffira, pour constater que nous sommes bien dans les conditions d’application de ce théorème, de montrer que tout ensemble non vide d’idéaux principaux de A contient un élément maximal ; or c’est ce qui résulte du lemme suivant :
 
-#### Lemme 1 {#alg-vii-s1-lem-1 .statement}
+#### Lemme 1 {#alg-vii-s1-lem-1 .statement tag=0718}
 
 Soit A un anneau tel que tout idéal à gauche de A soit de type fini. Alors tout ensemble non vide $\Phi$ d’idéaux à gauche de A, ordonné par inclusion, possède un élément maximal.
 
@@ -142,7 +142,7 @@ En vertu du th. de Zorn (E, III, p. 20, th. 2), il nous suffit de prouver que $\
 
 Nous étudierons plus tard, sous le nom d’anneaux noethériens, les anneaux B tels que tout ensemble non vide d’idéaux à gauche de B possède un élément maximal.
 
-#### Remarque {#alg-vii-s1-n3-rem-1 .statement}
+#### Remarque {#alg-vii-s1-n3-rem-1 .statement tag=0719}
 
 La famille $(u, (n_\alpha))$ est appelée la décomposition de x en facteurs extrémaux ; par abus de langage, on dit aussi que la formule (1) est la décomposition de x en facteurs extrémaux. Si $x = u \prod_\alpha p_\alpha^{n_\alpha}$ et $y = v \prod_\alpha p_\alpha^{m_\alpha}$ sont les décompositions de x et y en facteurs extrémaux, une condition nécessaire et suffisante pour que x divise y est que l’on ait $n_\alpha \leq m_\alpha$ pour tout $\alpha$ ; de ceci on déduit les formules
 
@@ -164,7 +164,7 @@ Comme il a été dit au n° 1, l’anneau $\mathbf{Z}$ des entiers rationnels es
 
 Les entiers extrémaux $> 0$ de $\mathbf{Z}$ ne sont autres que ceux que nous avons appelés *nombres premiers* (I, p. 48) (on les appelle parfois *nombres premiers rationnels*) ; tout élément extrémal de $\mathbf{Z}$ est donc de la forme $p$ ou $-p$, où $p$ est un nombre premier, et l’ensemble $P$ des nombres premiers est un système représentatif d’éléments extrémaux de $\mathbf{Z}$.
 
-#### Proposition 5 {#alg-vii-s1-prop-5 .statement}
+#### Proposition 5 {#alg-vii-s1-prop-5 .statement tag=071A}
 
 *L’ensemble des nombres premiers est infini.*
 
@@ -190,7 +190,7 @@ $$
 
 où c et les $a_i$ sont des éléments de K.
 
-#### Proposition 6 {#alg-vii-s1-prop-6 .statement}
+#### Proposition 6 {#alg-vii-s1-prop-6 .statement tag=071B}
 
 *Pour tout corps K, l’ensemble des polynômes unitaires irréductibles de K[X] est infini.*
 

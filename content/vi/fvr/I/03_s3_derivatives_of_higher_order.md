@@ -20,9 +20,9 @@ subsections:
       pdf_page: 36
 statements: 8
 exercises: 18
-content_sha256: bf8e311eb1e2630ee2920b7163a9e755c5326851f372fdb1add1d1303a053117
+content_sha256: e75b63628d82fb07cd65b5cde5a50c4fa84ec938bb5abaa52baa6b0c6ba57599
 translated_from: content/en/fvr/I/03_s3_derivatives_of_higher_order.md
-source_content_sha256: df6c54970741a00f1b9a62ec3e7836c5591326bb5afa29b74fdcfa268de3aadc
+source_content_sha256: 699d9104f5cbf89e2acd64f1b847b3d92cb37baff716a8c7f28471e185a92054
 translation_model: gpt-5-6, gpt-5.4
 translation_run: translate-vi-c31cec4e
 glossary_version: 34
@@ -46,7 +46,7 @@ $$
 
 Chính xác hơn, khi một trong hai vế trong (1) được xác định thì vế kia cũng được xác định và bằng nó.
 
-#### Mệnh đề 1 {#fvr-i-s3-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-i-s3-prop-1 .statement tag=084Y}
 
 *Tập hợp các hàm vectơ xác định trên một khoảng* $I \subset \mathbf{R}$, *nhận giá trị trong một không gian vectơ tôpô cho trước* $E$, *và có đạo hàm bậc* $n^{th}$ *trên* $I$, *là một không gian vectơ trên* $\mathbf{R}$, *và* $f \mapsto D^n f$ *là một ánh xạ tuyến tính từ không gian này vào không gian vectơ các ánh xạ tuyến tính từ* $I$ *vào* $E$.
 
@@ -61,7 +61,7 @@ $$
 
 bằng quy nạp theo $n$ khi $f$ và $g$ có đạo hàm bậc $n^{th}$ trên $I$ ($a$ là hằng).
 
-#### Mệnh đề 2 ("công thức Leibniz") {#fvr-i-s3-prop-2 .statement}
+#### Mệnh đề 2 ("công thức Leibniz") {#fvr-i-s3-prop-2 .statement tag=084Z}
 
 *Cho* $E, F, G$ *là ba không gian vectơ tôpô trên* $\mathbf{R}$, *và* $(x, y) \mapsto [x.y]$ *là một ánh xạ song tuyến tính liên tục từ* $E \times F$ *vào* $G$. *Nếu* $f$ *(resp.* $g$) *được xác định trên một khoảng* $I \subset \mathbf{R}$, *nhận giá trị trong* $E$ *(resp.* $F$) *và có đạo hàm bậc* $n^{th}$ *trên* $I$, *thì* $[f.g]$ *có đạo hàm bậc* $n^{th}$ *trên* $I$, *được cho bởi công thức*
 
@@ -89,7 +89,7 @@ $$
 
 hoặc, nói cách khác, rằng $f$ "xấp xỉ bằng" hàm *tuyến tính* $f(a) + f'(a)(x-a)$ trên một lân cận của $a$ (*xem* chap. V, nơi khái niệm này được phát triển một cách tổng quát). Ta sẽ thấy rằng sự tồn tại của đạo hàm cấp $n^{th}$ của $f$ tại điểm $a$ cũng kéo theo theo cùng một cách rằng $f$ "xấp xỉ bằng" một *đa thức bậc $n$ theo $x$*, với các hệ số trong $E$ (*Gen. Top.*, X, p. 315) trên một lân cận của $a$. Nói chính xác:
 
-#### Định lý 1 {#fvr-i-s3-thm-1 .statement}
+#### Định lý 1 {#fvr-i-s3-thm-1 .statement tag=0850}
 
 *Nếu hàm $f$ có một đạo hàm cấp $n^{th}$ tại điểm $a$ thì*
 
@@ -123,7 +123,7 @@ trong đó $u(x)$ tiến tới 0 khi $x$ tiến tới $a$ mà vẫn thuộc I; c
 
 Khi $f$ có một *đạo hàm cấp* $n + 1$ trên I, ta có thể ước lượng $\|r_n(x)\|$ theo đạo hàm cấp $n + 1^{th}$ này, trên toàn bộ I, chứ không chỉ trên một lân cận không xác định của $a$:
 
-#### Mệnh đề 3 {#fvr-i-s3-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-i-s3-prop-3 .statement tag=0851}
 
 *Nếu $\|f^{(n+1)}(x)\| \leq M$ trên I, thì ta có*
 $$
@@ -137,7 +137,7 @@ $$
 $$
 từ đó công thức (9) suy ra theo định lý giá trị trung bình (I, p. 23, định lý 2).
 
-#### Hệ quả {#fvr-i-s3-n2-cor-1 .statement}
+#### Hệ quả {#fvr-i-s3-n2-cor-1 .statement tag=0852}
 
 *Nếu* $f$ *là một hàm thực hữu hạn có đạo hàm cấp* $n + 1$ *trên* I, *và nếu* $m \leq f^{(n+1)}(x) \leq M$ *trên* I, *thì với mọi* $x \geq a$ *trong* I *ta có*
 $$
@@ -147,7 +147,7 @@ $$
 
 Chứng minh được tiến hành theo cùng một cách, nhưng áp dụng đl. 1 của I, p. 14.
 
-#### Nhận xét 1 {#fvr-i-s3-n2-rem-1 .statement}
+#### Nhận xét 1 {#fvr-i-s3-n2-rem-1 .statement tag=0853}
 
 Chúng ta đã nhận thấy trong chứng minh định lý 1 rằng nếu $f$ có đạo hàm cấp $n$ trên I, và nếu
 $$
@@ -160,7 +160,7 @@ $$
 
 Ta nói rằng nó thu được từ khai triển (11) của $f$ bằng cách *lấy đạo hàm từng số hạng*.
 
-#### Nhận xét 2 {#fvr-i-s3-n2-rem-2 .statement}
+#### Nhận xét 2 {#fvr-i-s3-n2-rem-2 .statement tag=0854}
 
 Với cùng các giả thiết, các hệ số $a_i$ trong (11) được xác định truy hồi bởi các hệ thức
 
@@ -188,7 +188,7 @@ $$
 
 trong đó $r_n(x^p)$ là phần dư trong khai triển (*xem* V, p. 222).
 
-#### Nhận xét 3 {#fvr-i-s3-n2-rem-3 .statement}
+#### Nhận xét 3 {#fvr-i-s3-n2-rem-3 .statement tag=0855}
 
 Định nghĩa của đạo hàm cấp $n$ và các kết quả trước đó tổng quát hóa ngay lập tức cho các hàm của một biến phức; ở đây chúng tôi sẽ không đi sâu hơn vào chủ đề này; nó sẽ được trình bày chi tiết trong một Cuốn sau của Bộ sách này.
 

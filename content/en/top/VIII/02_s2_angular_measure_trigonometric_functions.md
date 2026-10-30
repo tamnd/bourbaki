@@ -36,24 +36,24 @@ subsections:
       pdf_page: 119
 statements: 5
 exercises: 4
-content_sha256: 9858af83e87d7a01d163aceffbf907bec6b8ef690b9be1de07f43002a6bc78ad
+content_sha256: 021b6d0e671c54e66a21fa0d56b2ec8b29291d75506ee737a931d924894ce940
 ---
 
 ## 2. ANGULAR MEASURE, TRIGONOMETRIC FUNCTIONS
 
 ### 1. THE MULTIPLICATIVE GROUP U
 
-#### Theorem 1 {#top-viii-s2-thm-1 .statement}
+#### Theorem 1 {#top-viii-s2-thm-1 .statement tag=0C09}
 
 The (multiplicative, topological group $U$ of complex numbers of absolute value 1 is isomorphic to the (additive, topological group $T$ of real numbers mod 1.
 
 $U = S_1$ is compact and connected, and has a neighbourhood of the identity element -1 homeomorphic to an open interval of $\mathbf{R}$ (Chapter VI, § 2, no. 4, Proposition 5); the theorem is therefore a consequence of the topological characterization of $T$ given in Chapter V, § 2, Theorem 2.
 
-#### Corollary {#top-viii-s2-n1-cor-1 .statement}
+#### Corollary {#top-viii-s2-n1-cor-1 .statement tag=0C0A}
 
 The multiplicative group $C^*$ of non-zero complex numbers is isomorphic to the group $\mathbf{R} \times T$ (cf. § 1, no. 3, Proposition 1).
 
-#### Remark {#top-viii-s2-n1-rem-1 .statement}
+#### Remark {#top-viii-s2-n1-rem-1 .statement tag=0C0B}
 
 The isomorphism of the groups $C^*$ and $\mathbf{R} \times T$ implies the existence of roots of every "binomial equation" $z^n = a$ in the field $C$. Using this fact and the local compatibility of $C$, we can obtain another proof of the theorem of d'Alembert-Gauss (Exercise 2).
 
@@ -81,7 +81,7 @@ $$
 
 Thus the function $e(x)$ is *periodic* and has 1 as a principal period.
 
-#### Remark {#top-viii-s2-n1-rem-2 .statement}
+#### Remark {#top-viii-s2-n1-rem-2 .statement tag=0C0C}
 
 The mapping $x + iy \to e^{x}e(y)$ is a strict morphism of the additive group $\mathbf{C}$ onto the multiplicative group $\mathbf{C}^*$, and its restriction to a suitable neighbourhood of 0 is a local isomorphism of $\mathbf{C}$ with $\mathbf{C}^*$. Consequently (Chapter VII, § 2, no. 3) every strict morphism of $\mathbf{C}$ onto $\mathbf{C}^*$ is of the form $x + iy \to e^{\alpha x + \beta y}e(\gamma x + \delta y)$, where $\alpha, \beta, \gamma, \delta$ are any real numbers such that $\alpha \delta - \beta \gamma \neq 0$. We shall see later that there is just one of these homomorphisms, denoted by $z \to e^z$, such that
 
@@ -270,7 +270,7 @@ If we compose the homomorphism $\varphi$ of $\mathfrak{A}$ onto $\mathfrak{A}_0$
 
 Here again, once the base $a$ has been chosen, when we speak of a cross we generally mean, by abuse of language, a measure of this cross relative to the base $a$.
 
-#### Remark {#top-viii-s2-n6-rem-1 .statement}
+#### Remark {#top-viii-s2-n6-rem-1 .statement tag=0C0D}
 
 We can define a homomorphism of $\mathbf{C}^*$ onto $\mathfrak{A}_0$ by mapping each complex number $z \neq 0$ to the cross which the line through o and $z$ makes with the real axis. Clearly this homomorphism is the composition of $\varphi$ and the homomorphism $z \to \mathrm{Am}\,(z)$ of $\mathbf{C}^*$ onto $\mathfrak{A}$; it is therefore a strict morphism of the topological group $\mathbf{C}^*$ onto the topological group $\mathfrak{A}_0$, and the associated bijective homomorphism is an isomorphism of the quotient group $\mathbf{C}^*/\mathbf{R}^*$ onto $\mathfrak{A}_0$.
 

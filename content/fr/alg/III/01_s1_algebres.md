@@ -40,14 +40,14 @@ subsections:
       pdf_page: 397
 statements: 8
 exercises: 1
-content_sha256: 2888bb920ee74a65c8229f336e9a6438634a5d67924c30c5fe5f96d8525a5f33
+content_sha256: 34bed8815a2ee955a83deef9f6e2da51880a899de10e15b3da2dda5c4510a9c1
 ---
 
 ## § 1. ALGÈBRES
 
 ### 1. Définition d’une algèbre
 
-#### Définition 1 {#alg-iii-s1-def-1 .statement}
+#### Définition 1 {#alg-iii-s1-def-1 .statement tag=05YR}
 
 Soit A un anneau commutatif. On appelle algèbre sur A (ou A-algèbre, ou simplement algèbre lorsqu’aucune confusion n’est à craindre), un ensemble E muni d’une structure définie par les données suivantes:
   1) une structure de A-module sur E;
@@ -69,23 +69,23 @@ L’application bilinéaire (x, y) ↦ yx de E × E dans E et la structure de A-
 
 Lorsque la multiplication dans l’algèbre E est associative, on dit que E est une A-algèbre associative. Lorsque la multiplication dans E admet un élément neutre (nécessairement unique (I, p. 12)), on dit que cet élément est l’élément unité de E et que E est une algèbre unifière.
 
-#### Exemple 1 {#alg-iii-s1-n1-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s1-n1-exa-1 .statement tag=05YS}
 
 Tout anneau commutatif A peut être considéré comme une A-algèbre (associative et commutative).
 
-#### Exemple 2 {#alg-iii-s1-n1-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s1-n1-exa-2 .statement tag=0DGC}
 
 Soit E un pseudo-anneau (I, p. 93). La multiplication dans E et l’unique structure de \mathbf{Z}-module de E définissent sur E une structure de \mathbf{Z}-algèbre associative.
 
-#### Exemple 3 {#alg-iii-s1-n1-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s1-n1-exa-3 .statement tag=0DGD}
 
 Soient F un ensemble, A un anneau commutatif. L’ensemble A^F de toutes les applications de F dans A, muni de la structure d’anneau produit (I, p. 103) et de la structure de A-module produit (II, p. 11), est une A-algèbre associative et commutative.
 
-#### Exemple 4 {#alg-iii-s1-n1-exa-4 .statement}
+#### Exemple 4 {#alg-iii-s1-n1-exa-4 .statement tag=0DGE}
 
 Soit E une A-algèbre ; les lois internes $(x, y) \mapsto xy + yx$ et $(x, y) \mapsto xy - yx$ définissent (avec la structure de A-module de E) deux structures de A-algèbres sur E, qui ne sont pas en général associatives ; la première loi $(x, y) \mapsto xy + yx$ est toujours commutative.
 
-#### Définition 2 {#alg-iii-s1-def-2 .statement}
+#### Définition 2 {#alg-iii-s1-def-2 .statement tag=05YT}
 
 *Etant données deux algèbres* E, E′ *sur un anneau commutatif* A, *on appelle homomorphisme de* E *dans* E′ *une application* $f : E \to E'$ *telle que*:
   1) $f$ *soit un homomorphisme de* A-*modules* ;
@@ -231,7 +231,7 @@ $$(x \otimes \beta)(x' \otimes \beta') = (xx') \otimes (\beta \beta')$$
 
 pour $x, x'$ dans $E$, $\beta$ et $\beta'$ dans $B$. On dit que la $B$-algèbre $\rho^*(E)$ est déduite de la $A$-algèbre $E$ par extension à $B$ de l’anneau $A$ des scalaires (au moyen de $\rho$). On la note aussi $E_{(B)}$ ou $E \otimes_A B$. Lorsque $E$ est associative (resp. commutative, resp. unifière), il en est de même de l’algèbre $\rho^*(E)$.
 
-#### Proposition 1 {#alg-iii-s1-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s1-prop-1 .statement tag=05YU}
 
 Pour toute $A$-algèbre $E$, l’application canonique $\varphi_E : x \mapsto x \otimes 1$ de $E$ dans $E_{(B)}$ est un $A$-homomorphisme d’algèbres. En outre, pour toute $B$-algèbre $F$, et tout $A$-homomorphisme $f : E \to F$, il existe un $B$-homomorphisme $\bar{f} : E_{(B)} \to F$ et un seul tel que $\bar{f}(x \otimes 1) = f(x)$ pour tout $x \in E$.
 
@@ -245,7 +245,7 @@ $$
 
 Le couple formé de $E_{(B)}$ et de $\varphi_E$ est donc solution du problème d’application universelle (E, IV, p. 23) où $\Sigma$ est l’espèce de structure de B-algèbre et les $\alpha$-applications les A-homomorphismes de $E$ dans une B-algèbre.
 
-#### Corollaire {#alg-iii-s1-n5-cor-1 .statement}
+#### Corollaire {#alg-iii-s1-n5-cor-1 .statement tag=05YV}
 
 Soient $E, E'$ deux A-algèbres; pour tout A-homomorphisme d’algèbres $u : E \to E'$, $u \otimes 1_B$ est l’unique B-homomorphisme d’algèbres $v : E \otimes_A B \to E' \otimes_A B$ rendant commutatif le diagramme
 

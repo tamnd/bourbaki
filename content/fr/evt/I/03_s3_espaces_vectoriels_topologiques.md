@@ -25,7 +25,7 @@ subsections:
       pdf_page: 23
 statements: 11
 exercises: 9
-content_sha256: 7b0cae573fb12c028af767dbe6ab67d5faf25b8008547f5a7239ef681e206abd
+content_sha256: 3fc88a3f8e2924afd7f94bf26f4c9c5f70525dfb3a0488937767711902ef359e
 ---
 
 ## § 3. ESPACES VECTORIELS TOPOLOGIQUES MÉTRISABLES
@@ -40,7 +40,7 @@ On sait qu’on peut définir la structure uniforme d’un espace vectoriel topo
 
 On a vu (TG, IX, p. 24, prop. 2) comment une telle distance $d$ peut être définie à l’aide d’une suite décroissante $(W_n)$ de voisinages de 0 dans E, formant un système fondamental de voisinages, et telle que $W_{n+1} + W_{n+1} + W_{n+1} \subset W_n$. Lorsque E est un espace vectoriel métrisable sur un corps valué non discret K, on peut supposer en outre que les $W_n$ sont équilibrés (I, p. 7, prop. 4); si on remonte au procédé de définition de d (*loc. cit.*), on voit alors que la relation $|\lambda| \leq 1$ entraîne $|\lambda x| \leq |x|$. En outre, les conditions (EVT$_1$) et (EVT$_1'$) de I, p. 3 entraînent que, pour tout $x_0 \in E$, $|\lambda x_0|$ tend vers 0 avec $\lambda \in K$, et que, pour tout $\lambda_0 \in K$, $|\lambda_0 x|$ tend vers 0 avec $|x|$. Inversement, si la fonction $|x|$ possède toutes les propriétés précédentes, et si $W_n$ désigne l’ensemble des $x \in E$ tels que $|x| \leq 2^{-n}$, on constate aussitôt que les $W_n$ forment un système fondamental de voisinages équilibrés de 0 pour une topologie métrisable sur E, compatible avec la structure d’espace vectoriel de E.
 
-#### Remarque {#evt-i-s3-n1-rem-1 .statement}
+#### Remarque {#evt-i-s3-n1-rem-1 .statement tag=07A5}
 
 Les espaces normés forment l’une des classes d’espaces vectoriels métrisables les plus importantes (I, p. 3). Mais il faut noter qu’il existe des espaces vectoriels métrisables dont la topologie ne peut être définie par une norme (I, p. 28, exerc. 1); nous en étudierons plus tard d’importants exemples.
 
@@ -50,7 +50,7 @@ Tout sous-espace vectoriel d’un espace vectoriel topologique métrisable E est
 
 ### 3. Fonctions linéaires continues dans un espace vectoriel métrisable
 
-#### Théorème 1 (Banach) {#evt-i-s3-thm-1 .statement}
+#### Théorème 1 (Banach) {#evt-i-s3-thm-1 .statement tag=07A6}
 
 Soient E et F deux espaces vectoriels métrisables sur un corps valué non discret K, et u une application linéaire continue de E dans F. Supposons que E soit complet. Alors les conditions suivantes sont équivalentes:
 
@@ -65,7 +65,7 @@ Montrons que (ii) implique (iii). Supposons que F soit complet et u surjectif. L
 
 Le lemme suivant montre que (iii) implique (iv):
 
-#### Lemme 1 {#evt-i-s3-lem-1 .statement}
+#### Lemme 1 {#evt-i-s3-lem-1 .statement tag=07A7}
 
 Soient E et F deux espaces vectoriels topologiques sur un corps valué non discret K, et soit u une application linéaire continue de E dans F dont l’image n’est pas maigre. Pour tout voisinage V de 0 dans E, $\overline{u(V)}$ est un voisinage de 0 dans F.
 
@@ -79,7 +79,7 @@ par suite, $\overline{u(V)}$ est un voisinage de 0 dans F.
 
 Dans l’énoncé suivant, on convient que, dans tout espace métrique, $B_r(x)$ désigne la boule fermée de centre x et de rayon r.
 
-#### Lemme 2 {#evt-i-s3-lem-2 .statement}
+#### Lemme 2 {#evt-i-s3-lem-2 .statement tag=07A8}
 
 Soient E et F deux espaces métriques, E étant en outre supposé complet. Soit u une application continue de E dans F, ayant la propriété suivante : quel que soit le nombre $r > 0$, il existe un nombre $\rho(r) > 0$ tel que, pour tout $x \in E$, on ait
 
@@ -111,29 +111,29 @@ La suite $(x_n)$ est une suite de Cauchy dans E, car la distance de $x_n$ à $x_
 
 Supposons que $u$ satisfasse à la condition (iv). Munissons chacun des espaces E et F d'une distance invariante par translation et définissant sa topologie (I, p. 16). Par hypothèse, l'ensemble $\overline{u(B_r(0))}$ est un voisinage de 0 pour tout nombre $r > 0$, et il existe donc un nombre $\rho(r) > 0$ tel que $B_{\rho(r)}(0) \subset \overline{u(B_r(0))}$. Par translation, on en conclut que $B_{\rho(r)}(u(x))$ est contenue dans $u(B_r(x))$ pour tout $r > 0$ et tout $x \in E$. D'après le lemme 2, pour tout couple $(a, r)$ de nombres réels tel que $a > r > 0$, on a $B_{\rho(r)}(0) \subset u(B_a(0))$, donc $u$ est un morphisme strict de E sur F. On a prouvé que (iv) implique (i).
 
-#### Corollaire 1 {#evt-i-s3-lem-2-cor-1 .statement}
+#### Corollaire 1 {#evt-i-s3-lem-2-cor-1 .statement tag=07A9}
 
 Si E et F sont deux espaces vectoriels métrisables et complets sur un corps valué non discret, toute application linéaire continue et bijective $u$ de E sur F est un isomorphisme.
 
 En particulier, si E et F sont des espaces normés complets, il existe un nombre $a > 0$ tel que $\|u(x)\| \geq a.\|x\|$ pour tout $x \in E$.
 
-#### Corollaire 2 {#evt-i-s3-lem-2-cor-2 .statement}
+#### Corollaire 2 {#evt-i-s3-lem-2-cor-2 .statement tag=07AA}
 
 Soient E un espace vectoriel sur un corps valué non discret, $\mathscr{T}_1$ et $\mathscr{T}_2$ deux topologies sur E compatibles avec sa structure d'espace vectoriel et pour chacune desquelles E est métrisable et complet. Si $\mathscr{T}_1$ et $\mathscr{T}_2$ sont comparables, elles sont identiques.
 
-#### Corollaire 3 {#evt-i-s3-lem-2-cor-3 .statement}
+#### Corollaire 3 {#evt-i-s3-lem-2-cor-3 .statement tag=07AB}
 
 Soient E et F deux espaces vectoriels métrisables et complets sur un corps valué non discret. Pour qu'une application linéaire continue $u$ de E dans F soit un morphisme strict, il faut et il suffit que $u(E)$ soit fermé dans F.
 
 La condition est nécessaire, car si $u$ est un morphisme strict, $u(E)$, isomorphe au quotient $E/u^{-1}(0)$, est complet (I, p. 17) donc fermé dans F. La condition est suffisante, car si $u(E)$ est fermé dans F, c'est un espace vectoriel métrisable et complet, donc $u$ est un morphisme strict de E sur $u(E)$ en vertu du th. 1.
 
-#### Corollaire 4 {#evt-i-s3-lem-2-cor-4 .statement}
+#### Corollaire 4 {#evt-i-s3-lem-2-cor-4 .statement tag=07AC}
 
 Soit E un espace vectoriel métrisable et complet sur un corps valué non discret. Si M et N sont deux sous-espaces vectoriels fermés supplémentaires (algébriques) dans E, E est somme directe topologique de M et de N.
 
 En effet, $M \times N$ est un espace vectoriel métrisable et complet, et l'application $(y, z) \mapsto y + z$ de $M \times N$ sur E est continue et bijective, donc un isomorphisme (cor. 1).
 
-#### Corollaire 5 (théorème du graphe fermé) {#evt-i-s3-lem-2-cor-5 .statement}
+#### Corollaire 5 (théorème du graphe fermé) {#evt-i-s3-lem-2-cor-5 .statement tag=07AD}
 
 Soient E et F deux espaces vectoriels métrisables et complets sur un corps valué non discret. Pour qu'une application linéaire u de E dans F soit continue, il faut et il suffit que son graphe dans l’espace produit E × F soit fermé.
 
@@ -141,7 +141,7 @@ La condition est nécessaire, le graphe d’une application continue dans un esp
 
 On peut encore exprimer ce corollaire sous la forme suivante : si, pour toute suite (xₙ) de points de E qui converge vers 0 et est telle que la suite (u(xₙ)) ait une limite y, on a nécessairement y = 0, alors u est continue.
 
-#### Exemple {#evt-i-s3-n3-exa-1 .statement}
+#### Exemple {#evt-i-s3-n3-exa-1 .statement tag=07AE}
 
 Soit E un sous-espace vectoriel de l’espace des fonctions numériques définies dans I = {0, 1}; soit \|f\| une norme sur E telle que E, muni de cette norme, soit complet, et que sa topologie soit plus fine que la topologie de la convergence simple. Supposons en outre que E contienne l’ensemble $C^\infty(I)$ des fonctions indéfiniment dérivables dans I; nous allons montrer qu’il existe alors un entier $k \geqslant 0$ tel que E contienne l’ensemble $C^k(I)$ de toutes les fonctions admettant une dérivée k-ième continue dans I.
 
@@ -153,7 +153,7 @@ entraîne $\|f\| \leqslant 1$ pour toute fonction $f \in C^\infty(I)$.
 
 Mais $p_k$ est une norme sur l’espace $C^k(I)$, et $C^\infty(I)$ est un sous-espace partout dense de $C^k(I)$ pour cette norme (l’ensemble des polynômes étant déjà partout dense dans $C^k(I)$, comme il résulte aussitôt du th. de Weierstrass-Stone). Comme, en vertu de ce qui précède, l’application identique de $C^\infty(I)$ (muni de la norme $p_k$) dans E est continue, elle se prolonge par continuité à l’espace $C^k(I)$ tout entier (parce que E est complet), ce qui démontre notre assertion.
 
-#### Proposition 1 {#evt-i-s3-prop-1 .statement}
+#### Proposition 1 {#evt-i-s3-prop-1 .statement tag=07AF}
 
 Soient E, F deux espaces vectoriels topologiques sur un corps valué non discret K. On suppose que :
 

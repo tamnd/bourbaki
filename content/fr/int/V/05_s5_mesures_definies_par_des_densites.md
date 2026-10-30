@@ -52,14 +52,14 @@ subsections:
       pdf_page: 72
 statements: 48
 exercises: 31
-content_sha256: 3891377871ff52bef91e9cc11888f1c601219663ee4cdcb2af4f54f8a68889bb
+content_sha256: 61f23ea48116bf16416f76bce31ef2cf8c741244a4f1eba8dc454eb8cef5ad45
 ---
 
 ## § 5. Mesures définies par des densités numériques
 
 ### 1. Fonctions localement intégrables
 
-#### Proposition 1 {#int-v-s5-prop-1 .statement}
+#### Proposition 1 {#int-v-s5-prop-1 .statement tag=092D}
 
 Soit $g$ une fonction définie localement presque partout dans T (pour la mesure positive $\mu$), à valeurs dans un espace de Banach F (resp. dans $\bar{\mathbf{R}}$). Les propriétés suivantes sont équivalentes:
 
@@ -81,7 +81,7 @@ En second lieu, b) entraîne c), car $gh$ est alors mesurable, et si $L$ est le 
 
 Enfin, c) entraîne a). En effet, pour tout $t \in T$, soit $V$ un voisinage compact de $t$. Il existe une application continue $h$ de $T$ dans $[0, 1]$, égale à 1 dans $V$ et à support compact (chap. III, 2e éd., § 1, n° 2, lemme 1); par hypothèse $gh$ est intégrable, donc il en est de même de $g \varphi_V = (gh) \varphi_V$ (chap. IV, § 5, n° 6, cor. 3 du th. 5).
 
-#### Définition 1 {#int-v-s5-def-1 .statement}
+#### Définition 1 {#int-v-s5-def-1 .statement tag=092E}
 
 On dit qu’une fonction $g$, définie localement presque partout dans $T$ (pour la mesure positive $\mu$), à valeurs dans un espace de Banach $F$ (resp. dans $\bar{\mathbf{R}}$) est localement intégrable pour $\mu$ (ou localement $\mu$-intégrable) si elle satisfait aux conditions $a), b), c)$ de la prop. 1. Si $\theta$ est une mesure complexe, on dit qu’une fonction $g$ définie localement $\theta$-presque partout est localement $\theta$-intégrable si elle est localement intégrable pour la mesure positive $|\theta|$.
 
@@ -118,7 +118,7 @@ $$
 
 sur $\mathscr{K}(T)$ est une mesure complexe.
 
-#### Définition 2 {#int-v-s5-def-2 .statement}
+#### Définition 2 {#int-v-s5-def-2 .statement tag=092F}
 
 *Soit $\theta$ une mesure complexe, et soit $u$ une fonction complexe (ou une fonction à valeurs dans $\bar{\mathbf{R}}$) définie localement $\theta$-presque partout et localement $\theta$-intégrable. On dit que la mesure complexe $f \mapsto \int fu\ d\theta$ sur $T$ est le produit de la mesure $\theta$ par la fonction $u$, ou la mesure de densité $u$ par rapport à $\theta$, et on la note $u . \theta$.
 
@@ -136,7 +136,7 @@ Nous nous bornerons désormais au cas des fonctions partout définies ; l’exte
 
 La proposition suivante permet de ramener en grande partie le cas des mesures complexes à celui des mesures positives :
 
-#### Proposition 2 {#int-v-s5-prop-2 .statement}
+#### Proposition 2 {#int-v-s5-prop-2 .statement tag=092G}
 
 *Soient $\theta$ une mesure complexe, $u$ une fonction complexe localement $\theta$-intégrable ; on a*
 
@@ -147,7 +147,7 @@ $$
 
 Nous commencerons par un résultat auxiliaire :
 
-#### Lemme 1 {#int-v-s5-lem-1 .statement}
+#### Lemme 1 {#int-v-s5-lem-1 .statement tag=092H}
 
 *Soit $\theta$ une mesure complexe, et soit $f$ un élément de $\bar{\mathscr{L}}_c^1(T, \theta)$. On a alors
 
@@ -186,7 +186,7 @@ $$
 
 Les deux mesures $|u| . |\theta|$ et $|u . \theta|$ sont donc égales.
 
-#### Corollaire {#int-v-s5-n2-cor-1 .statement}
+#### Corollaire {#int-v-s5-n2-cor-1 .statement tag=092I}
 
 Soient $g_1$ et $g_2$ deux fonctions numériques localement $\mu$-intégrables ; on a
 $\inf(g_1 . \mu, g_2 . \mu) = \inf(g_1, g_2) . \mu$; $\sup(g_1 . \mu, g_2 . \mu) = \sup(g_1, g_2) . \mu$.
@@ -205,7 +205,7 @@ Dans les énoncés de ce numéro, g désigne une fonction numérique positive, p
 
 Les remarques du n° 2 montrent que les résultats du § 4 sont applicables à la mesure $v = g \cdot \mu = \int g(t) \varepsilon_t \, d\mu(t)$ (bien que la mesure $g(t) \varepsilon_t$ ne soit définie que si $g(t) \neq +\infty$). On obtient ainsi l’énoncé suivant:
 
-#### Proposition 3 {#int-v-s5-prop-3 .statement}
+#### Proposition 3 {#int-v-s5-prop-3 .statement tag=092J}
 
 Pour toute fonction numérique $f \geq 0$, définie dans T, on a
 
@@ -215,19 +215,19 @@ $$
 
 Cela résulte du th. 1 du § 4, n° 2.
 
-#### Corollaire 1 {#int-v-s5-prop-3-cor-1 .statement}
+#### Corollaire 1 {#int-v-s5-prop-3-cor-1 .statement tag=092K}
 
 Pour qu’une fonction $\mathbf{f}$, à valeurs dans un espace de Banach ou dans $\bar{\mathbf{R}}$, soit localement négligeable pour la mesure $u \cdot \theta$, il faut et il suffit que $u \mathbf{f}$ soit localement négligeable pour $\theta$.
 
 Dire que $\mathbf{f}$ (resp. $u \mathbf{f}$) est localement négligeable pour $u \cdot \theta$ (resp. pour $\theta$) équivaut à dire que $|\mathbf{f}|$ (resp. $|u| \cdot |\mathbf{f}|$) est localement négligeable pour $|u \cdot \theta|$ (resp. pour $|\theta|$). On est donc ramené, compte tenu de la prop. 2 du n° 2, au cas où $f, u, \theta$ sont positives ; l’énoncé résulte alors aussitôt de la prop. 3.
 
-#### Corollaire 2 {#int-v-s5-prop-3-cor-2 .statement}
+#### Corollaire 2 {#int-v-s5-prop-3-cor-2 .statement tag=092L}
 
 Soient $u_1$ et $u_2$ deux fonctions complexes localement $\theta$-intégrables. Pour que $u_1 \cdot \theta = u_2 \cdot \theta$, il faut et il suffit que $u_1$ et $u_2$ soient égales localement presque partout.
 
 On se ramène aussitôt à montrer que $u \cdot \theta = 0$ entraîne $u(t) = 0$ localement presque partout ; mais $u \cdot \theta = 0$ signifie que la fonction 1 est localement négligeable pour la mesure $u . \theta$. On applique alors le corollaire 1.
 
-#### Corollaire 3 {#int-v-s5-prop-3-cor-3 .statement}
+#### Corollaire 3 {#int-v-s5-prop-3-cor-3 .statement tag=092M}
 
 Soit $u$ une fonction complexe localement intégrable pour la mesure positive $\mu$. Pour que $u . \mu$ soit une mesure positive, il faut et il suffit que $u(t) \geqslant 0$ localement presque partout.
 En effet, $u . \mu$ est positive si et seulement si
@@ -236,17 +236,17 @@ u . \mu = |u . \mu| = |u| . \mu
 $$
 (prop. 2), et cela équivaut à $u = |u|$ localement presque partout (cor. 2).
 
-#### Proposition 4 {#int-v-s5-prop-4 .statement}
+#### Proposition 4 {#int-v-s5-prop-4 .statement tag=092N}
 
 Pour qu’une application $f$ de $T$ dans un espace topologique $G$ soit mesurable pour la mesure $u . \theta$, il faut et il suffit que la restriction de $f$ à l’ensemble $\theta$-mesurable $S$ des $t$ tels que $u(t) \neq 0$ soit $\theta$-mesurable.
 Lorsque $u$ et $\theta$ sont positives, cela résulte aussitôt de la prop. 3 du § 4, n° 3. Le résultat s’étend alors au cas où $u$ et $\theta$ sont complexes grâce à la prop. 2.
 
-#### Corollaire {#int-v-s5-n3-cor-1 .statement}
+#### Corollaire {#int-v-s5-n3-cor-1 .statement tag=092O}
 
 Soit $f$ une fonction définie dans $T$, à valeurs dans un espace de Banach $F$ ou dans $\bar{\mathbf{R}}$. Pour que $f$ soit $(u . \theta)$-mesurable, il faut et il suffit que $uf$ soit $\theta$-mesurable.
 En effet, $uf$ est le prolongement par 0 de $(uf)|_S$ à $T$.
 
-#### Théorème 1 {#int-v-s5-thm-1 .statement}
+#### Théorème 1 {#int-v-s5-thm-1 .statement tag=092P}
 
 Soit $f$ une fonction définie dans $T$, à valeurs dans un espace de Banach $F$ ou dans $\bar{\mathbf{R}}$. Pour que $f$ soit essentiellement intégrable pour la mesure $\eta = u . \theta$, il faut et il suffit que $uf$ soit essentiellement $\theta$-intégrable, et on a alors
 $$
@@ -262,11 +262,11 @@ $$
 
 La formule (6) s’en déduit immédiatement.
 
-#### Corollaire {#int-v-s5-n3-cor-2 .statement}
+#### Corollaire {#int-v-s5-n3-cor-2 .statement tag=092Q}
 
 Pour que la mesure $u.\theta$ soit bornée, il faut et il suffit que $u$ soit essentiellement $\theta$-intégrable.
 
-#### Exemple {#int-v-s5-n3-exa-1 .statement}
+#### Exemple {#int-v-s5-n3-exa-1 .statement tag=092R}
 
 Soit A une partie de T ; pour que $\varphi_A$ soit localement $\mu$-intégrable, il faut et il suffit que A soit $\mu$-mesurable. Supposant cette condition remplie, posons $v = \varphi_A . \mu$; pour toute fonction numérique $f \geqslant 0$ définie dans T, on a alors
 
@@ -292,7 +292,7 @@ Si $f$ est une fonction numérique $\geqslant 0$ définie dans $B \supset A$, on
 
 ### 4. Comportement du produit par rapport aux opérations usuelles
 
-#### Proposition 5 {#int-v-s5-prop-5 .statement}
+#### Proposition 5 {#int-v-s5-prop-5 .statement tag=092S}
 
 *Soit* $(\lambda_\alpha)_{\alpha \in A}$ *une famille de mesures positives sur* $T$, *filtrante pour la relation* $\leqslant$, *admettant dans* $\mathscr{M}(T)$ *une borne supérieure* $\lambda$. *Pour qu’une fonction numérique positive* $g$ *soit localement* $\lambda$-*intégrable*, *il faut et il suffit que* $g$ *soit localement* $\lambda_\alpha$*-intégrable pour tout* $\alpha \in A$, *et que la famille* $(g \cdot \lambda_\alpha)$ *soit majorée dans* $\mathscr{M}(T)$; *on a alors*
 
@@ -308,7 +308,7 @@ $$
 
 (§ 1, n° 4, prop. 11). Cela entraîne d’abord que le premier membre est fini quel que soit $h$, de sorte que $g$ est localement $\lambda$-intégrable ; on peut donc remplacer le symbole $\int^\bullet$ par $\int$, et la formule s’écrit $\int h \, d(g \cdot \lambda) = \int h \, d\lambda'$. Il en résulte que $g \cdot \lambda = \lambda'$, et ceci achève la démonstration.
 
-#### Corollaire {#int-v-s5-n4-cor-1 .statement}
+#### Corollaire {#int-v-s5-n4-cor-1 .statement tag=092T}
 
 *Supposons que* $\mu$ *soit la somme d’une famille* $(\mu_\alpha)_{\alpha \in A}$ *de mesures sur* $T$. *Pour qu’une fonction numérique positive* $g$ *définie dans* $T$ *soit localement* $\mu$*-intégrable*, *il faut et il suffit que* $g$ *soit localement* $\mu_\alpha$*-intégrable pour tout* $\alpha \in A$, *et que la famille* $(g \cdot \mu_\alpha)_{\alpha \in A}$ *soit sommable*. *On a dans ce cas*
 
@@ -319,7 +319,7 @@ $$
 
 Soit $(g_\alpha)_{\alpha \in A}$ une famille de fonctions positives $\mu$-mesurables définies dans $T$. Soit $A_\alpha$ l’ensemble des $t \in T$ tels que $g_\alpha(t) \neq 0$. Nous dirons que la famille $(g_\alpha)$ est *localement dénombrable* si la famille $(A_\alpha)$ est localement dénombrable (chap. IV, 2e éd., , n° 9); cela revient à dire que, pour tout compact $K$ de $T$, l’ensemble des $\alpha \in A$ tels que $g_\alpha|K$ ne soit pas nulle est dénombrable
 
-#### Proposition 6 {#int-v-s5-prop-6 .statement}
+#### Proposition 6 {#int-v-s5-prop-6 .statement tag=092U}
 
 *Soit $(g_\alpha)_{\alpha \in A}$ une famille localement dénombrable de fonctions numériques positives localement $\mu$-intégrables définies dans $T$. Pour que la fonction $g = \sum_{\alpha \in A} g_\alpha$ soit localement $\mu$-intégrable, il faut et il suffit que la famille de mesures $(g_\alpha \cdot \mu)_{\alpha \in A}$ soit sommable, et on a dans ce cas*:
 
@@ -329,13 +329,13 @@ $$
 
 Il est clair que $g$ est $\mu$-mesurable (chap. IV, 2e éd., § 5, n° 10, prop. 16). Pour que $g$ soit localement $\mu$-intégrable, il faut et il suffit par conséquent que $\mu^*(gf)$ soit fini pour tout $f \in \mathscr{H}_+(T)$. Or l’ensemble des $\alpha \in A$ tels que $g_\alpha f \neq 0$ étant dénombrable, on a $\mu^*(gf) = \sum_{\alpha \in A} \mu^*(g_\alpha f)$ (§ 1, n° 1, cor. de la prop. 2). Posons $v_\alpha = g_\alpha \cdot \mu$; la condition $\mu^*(gf) < +\infty$ équivaut à la condition $\sum_{\alpha \in A} v_\alpha(f) < +\infty$: autrement dit, $g$ est localement $\mu$-intégrable si et seulement si la famille $(v_\alpha)$ est sommable. Si l’on désigne alors par $v$ la somme de cette famille, le calcul précédent donne l’égalité $v(f) = \mu^*(gf)$, qui équivaut à (8).
 
-#### Corollaire {#int-v-s5-n4-cor-2 .statement}
+#### Corollaire {#int-v-s5-n4-cor-2 .statement tag=092V}
 
 *Soit $(g_n)$ une suite de fonctions numériques localement $\mu$-intégrables, et telle que la suite des mesures $g_n \cdot \mu$ soit croissante. Pour que cette suite soit majorée dans l’espace vectoriel ordonné $\mathscr{M}(T)$ des mesures sur $T$, il faut et il suffit que la fonction $g = \sup g_n$ soit localement $\mu$-intégrable; la borne supérieure dans $\mathscr{M}(T)$ de la suite $(g_n \cdot \mu)$ est alors la mesure $g \cdot \mu$.
 
 Il suffit d’appliquer la prop. 6 aux fonctions (positives localement presque partout) $g'_n = g_{n+1} - g_n$.
 
-#### Proposition 7 {#int-v-s5-prop-7 .statement}
+#### Proposition 7 {#int-v-s5-prop-7 .statement tag=092W}
 
 *Soit $X$ un espace localement compact dénombrable à l’infini, et soit $t \mapsto \lambda_t$ une application $\mu$-adéquate de $T$ dans $\mathscr{M}_+(X)$. Soit $g$ une fonction numérique positive définie dans $X$, localement intégrable pour la mesure $v = \int \lambda_t \, d\mu(t)$. L’ensemble des $t \in T$ tels que $g$ ne soit pas localement $\lambda_t$-intégrable est alors localement négligeable pour $\mu$, l’application $t \mapsto g . \lambda_t$ (définie localement $\mu$-presque partout) est $\mu$-adéquate, et on a:
 
@@ -351,7 +351,7 @@ $$
 
 Cette formule et la prop. 5 du $§ 3$, no 2 montrent d’abord (en prenant $h \in \mathscr{K}_+(T)$) que l’application $t \mapsto g . \lambda_t$ est scalairement essentiellement $\mu$-intégrable, et que son intégrale est $g . v$; autrement dit, on a la relation (9). Ensuite, remplaçons $\mu$ par une mesure positive $\mu' \leq \mu$, et prenons pour $h$ une fonction semi-continue inférieurement positive : il résulte aussitôt de ces relations que $t \mapsto g . \lambda_t$ est $\mu$-adéquate ($§ 3$, no 1, déf. 1).
 
-#### Proposition 8 {#int-v-s5-prop-8 .statement}
+#### Proposition 8 {#int-v-s5-prop-8 .statement tag=092X}
 
 Soient $\theta$ une mesure complexe sur $T$, $g_1$ une fonction complexe localement $\theta$-intégrable, $\theta_1$ la mesure $g_1 . \theta$. Pour qu’une fonction complexe $g_2$ définie dans $T$ soit localement $\theta_1$-intégrable, il faut et il suffit que $g_2 g_1$ soit localement $\theta$-intégrable, et on a dans ce cas
 
@@ -376,7 +376,7 @@ formule équivalente à (10).
 
 ### 5. Caractérisation des mesures de base $\mu$
 
-#### Théorème 2 (Lebesgue–Nikodym) {#int-v-s5-thm-2 .statement}
+#### Théorème 2 (Lebesgue–Nikodym) {#int-v-s5-thm-2 .statement tag=092Y}
 
 Soient $\mu$ et $\nu$ deux mesures positives sur $T$. Les propriétés suivantes sont équivalentes:
 
@@ -386,7 +386,7 @@ Soient $\mu$ et $\nu$ deux mesures positives sur $T$. Les propriétés suivantes
 
 Il est clair que 1) entraîne 2) (cor. 1 de la prop. 3), et que 2) entraîne 3). Nous allons montrer que 3) entraîne 1). Notons d’abord que, si la condition 3) est remplie, tout ensemble $A$, universellement mesurable et localement $\mu$-négligeable, est localement $\nu$-négligeable ; on a en effet $\nu^*(A) = \sup \nu(K)$, $K$ parcourant l’ensemble des compacts contenus dans $A$ ($§ 1$, n° 3, prop. 10, a) et chap. IV, 2e éd., § 4, n° 6, cor. 2 du th. 4). Nous établirons ensuite deux lemmes.
 
-#### Lemme 2 {#int-v-s5-lem-2 .statement}
+#### Lemme 2 {#int-v-s5-lem-2 .statement tag=092Z}
 
 Soient $\alpha$ une mesure positive bornée sur $T$, $\beta$ une mesure réelle sur $T$ telle que $|\beta| \leq M \alpha$, où $M$ est une constante positive. Il existe alors une fonction réelle $u$, $\alpha$-intégrable, telle que $\beta = u \cdot \alpha$.
 
@@ -398,7 +398,7 @@ $$
 
 L’application $g \mapsto \beta(g)$ est donc une forme linéaire continue sur $\mathscr{L}^2(T, \alpha)$. L’espace séparé associé à $\mathscr{L}^2(T, \alpha)$ étant un espace hilbertien, il existe alors (*Esp. Vect. Top.*, chap. V, § 1, th. 3) une fonction réelle $u \in \mathscr{L}^2(T, \alpha)$, donc appartenant aussi à $\mathscr{L}^1(T, \alpha)$, telle que $\beta(g) = \alpha(ug)$ pour tout $g \in \mathscr{L}^2(T, \alpha)$. En appliquant cette relation pour $g \in \mathscr{H}(T)$, on voit que $\beta = u \cdot \alpha$.
 
-#### Lemme 3 {#int-v-s5-lem-3 .statement}
+#### Lemme 3 {#int-v-s5-lem-3 .statement tag=0930}
 
 Supposons que la mesure positive $v$ soit telle que tout compact $\mu$-négligeable soit $v$-négligeable. Soit $\mathfrak{K}$ l’ensemble des compacts $K$ de $T$ possédant la propriété suivante :
 
@@ -420,7 +420,7 @@ v_\alpha = g_\alpha \cdot \mu_\alpha = g_\alpha \cdot (\varphi_{K_\alpha} \cdot 
 $$
 Posons $g = \sum_{\alpha \in A} g_\alpha$; la famille $(g_\alpha)$ étant localement dénombrable, et la famille $(v_\alpha)$ étant sommable, la proposition 6 entraîne que g est localement $\mu$-intégrable, et que $v = g \cdot \mu$, ce qui établit le théorème.
 
-#### Corollaire 1 {#int-v-s5-lem-3-cor-1 .statement}
+#### Corollaire 1 {#int-v-s5-lem-3-cor-1 .statement tag=0E6H}
 
 Soit $\mathscr{N}$ un ensemble de mesures positives de base $\mu$, admettant dans $\mathscr{M}(T)$ une borne supérieure $v$; alors $v$ est une mesure de base $\mu$.
 
@@ -430,29 +430,31 @@ v^\bullet(A) = \sup_{\lambda \in \mathscr{N}} \lambda^\bullet(A) = 0.
 $$
 Le théorème 2 entraîne donc que $v$ est une mesure de base $\mu$.
 
-#### Corollaire 2 {#int-v-s5-lem-3-cor-2 .statement}
+#### Corollaire 2 {#int-v-s5-lem-3-cor-2 .statement tag=0E6I}
 
 Soit $v$ une mesure réelle sur T. Pour que $v$ appartienne à la bande engendrée par $\mu$ dans l’espace complètement réticulé $\mathscr{M}(T)$ (chap. II, § 1, n° 5), il faut et il suffit que $v$ soit une mesure de base $\mu$.
 
 On se ramène aussitôt, en considérant $v^+$ et $v^-$, au cas d’une mesure $v$ positive (n° 2, cor. de la prop. 2). Posons alors $v_n = \inf(n\mu, v)$; $v$ appartient à la bande engendrée par $\mu$ si et seulement si $v = \sup_n v_n$ (chap. II, 2e éd., § 1, n° 5, cor. de la prop. 6). Or $v_n$, majorée par $n\mu$, est une mesure de base $\mu$ d’après le th. 2; la relation $v = \sup_n v_n$ entraîne donc que $v$ est une mesure de base $\mu$ (cor. 1). Inversement, supposons que $v$ soit une mesure de base $\mu : v = g \cdot \mu$, où $g$ est localement $\mu$-intégrable et positive. On a alors $v_n = \inf(g, n) \cdot \mu$ (cor. de la prop. 2), et il résulte aussitôt du théorème de Lebesgue (chap. IV, § 4, n° 3, prop. 4) que $v = \sup_n v_n$.
 
-#### Corollaire 3 {#int-v-s5-lem-3-cor-3 .statement}
+#### Corollaire 3 {#int-v-s5-lem-3-cor-3 .statement tag=0E6J}
 
 Soit $\theta$ une mesure complexe; il existe une fonction universellement mesurable $v$, telle que $|v| = 1$, et qu’on ait $\theta = v \cdot |\theta|, \ |\theta| = \bar{v} \cdot \theta$.
 
 Posons en effet $\theta = \theta_1 - \theta_2 + i(\theta_3 - \theta_4)$, où $\theta_1 = (\Re \theta)^+$, $\theta_2 = (\Re \theta)^-$, $\theta_3 = (\Im \theta)^+$, $\theta_4 = (\Im \theta^-)$; les mesures positives $\theta_i$ ($i = 1, 2, 3, 4$), étant majorées par $|\theta|$ (chap. III, 2e éd., § 1, n° 6, formule (17)), sont des mesures de base $|\theta|$ d’après le théorème 2. Il en résulte qu’il existe une fonction localement $|\theta|$-intégrable $v$ telle que $\theta = v . |\theta|$. La proposition 2 donne alors la relation $|\theta| = |v| . |\theta|$, ce qui entraîne que $|v| = 1$ localement $|\theta|$-presque partout (cor. 2 de la prop. 3). On a enfin, d’après la prop. 8, $\bar{v} . \theta = (v \bar{v}) . |\theta| = |\theta|$. La fonction $v$ n’étant définie qu’à une fonction localement $|\theta|$-négligeable près, on peut supposer que $v$ est universellement mesurable (§ 3, n° 4, prop. 7) et que $|v| = 1$ partout.
 
-Remarques — 1) Supposons que $\lambda$ soit une mesure positive, que $v$ soit une fonction $\lambda$-mesurable telle que $|v| = 1$ localement $\lambda$-presque partout (ce qui entraîne que $v$ est localement $\lambda$-intégrable), et qu’on ait $\theta = v . \lambda$. La prop. 2 montre aussitôt que $\lambda = |\theta|$; autrement dit, la propriété de l’énoncé précédent caractérise la mesure positive $|\theta|$.
+#### Remarques {#int-v-s5-n5-rem-1 .statement tag=0934}
+
+1) Supposons que $\lambda$ soit une mesure positive, que $v$ soit une fonction $\lambda$-mesurable telle que $|v| = 1$ localement $\lambda$-presque partout (ce qui entraîne que $v$ est localement $\lambda$-intégrable), et qu’on ait $\theta = v . \lambda$. La prop. 2 montre aussitôt que $\lambda = |\theta|$; autrement dit, la propriété de l’énoncé précédent caractérise la mesure positive $|\theta|$.
 
 2) Si $|\theta| \leq a \mu$, où $\mu$ est une mesure positive et $a$ un nombre $\geq 0$, $\theta$ est une mesure de base $\mu$.
 
-#### Corollaire 4 {#int-v-s5-lem-3-cor-4 .statement}
+#### Corollaire 4 {#int-v-s5-lem-3-cor-4 .statement tag=0E6K}
 
 Soient $\rho$ et $\theta$ deux mesures complexes. Pour qu’il existe une fonction $u$, localement $\theta$-intégrable, telle que $\rho = u . \theta$, il faut et il suffit que tout compact $\theta$-négligeable soit $\rho$-négligeable.
 
 Cette condition est évidemment nécessaire. Inversement, supposons que tout compact $\theta$-négligeable soit $\rho$-négligeable ; le théorème 2 entraîne l’existence d’une fonction localement $|\theta|$-intégrable $g$ telle que $|\rho| = g . |\theta|$. Le cor. 3 entraîne d’autre part l’existence d’une fonction $v_1$ (resp. $v_2$), de valeur absolue 1, mesurable pour la mesure $|\rho|$ (resp. $\theta$), telle que $\rho = v_1 . |\rho|$ (resp. $|\theta| = \bar{v}_2 . \theta$). D’après la prop. 8, on a alors $\rho = u . \theta$, où $u = v_1 g \bar{v}_2$.
 
-#### Corollaire 5 {#int-v-s5-lem-3-cor-5 .statement}
+#### Corollaire 5 {#int-v-s5-lem-3-cor-5 .statement tag=0E6L}
 
 Soient $\mu$ et $v$ deux mesures positives sur T. Les conditions 1), 2), 3) du th. 2 sont encore équivalentes aux suivantes:
 
@@ -478,7 +480,7 @@ On a ainsi prouvé que les conditions 4) et 6) sont équivalentes aux conditions
 
 Il est clair que 4) entraîne 5). Enfin, si la condition 5) est remplie, $\nu$ appartient à la bande engendrée par $\mu$ (chap. II, § 2, n° 2, prop. 4), donc est de base $\mu$ (cor. 2).
 
-#### Scholie {#int-v-s5-n5-sch-1 .statement}
+#### Scholie {#int-v-s5-n5-sch-1 .statement tag=0938}
 
 Pour tout $\dot{f} \in L^1_{loc}(T, \mu ; \mathbf{B})$, posons $\varphi(\dot{f}) = f . \mu$, où $f \in \dot{f}$; l’application $\varphi$ est linéaire, croissante, injective (cor. 2 de la prop. 3), et admet pour image dans $\mathscr{M}(T)$ la bande $\mathbf{B}$ engendrée par $\mu$ (cor. 2 du th. 2). L’application $\varphi$ permet donc d’identifier $L^1_{loc}(T, \mu ; \mathbf{R})$ à un espace de mesures réelles sur $T$; comme tous les espaces $L^p_R(T, \mu)$ sont des sous-espaces de $L^1_{loc}(T, \mu ; \mathbf{R})$, ils peuvent eux aussi être identifiés à des sous-espaces de $\mathscr{M}(T)$. On a des considérations analogues pour les fonctions et mesures à valeurs complexes. On notera que l’application $\varphi$ envisagée ci-dessus est un isomorphisme des structures d’espace vectoriel ordonné de $L^1_{loc}$ et de $\mathbf{B}$, mais n’est évidemment pas un isomorphisme pour les structures d’espace vectoriel topologique de ces espaces.
 
@@ -486,7 +488,7 @@ Comme toute bande dans un espace complètement réticulé est elle-même un espa
 
 Voici une conséquence intéressante du corollaire 3 du th. 2:
 
-#### Proposition 9 {#int-v-s5-prop-9 .statement}
+#### Proposition 9 {#int-v-s5-prop-9 .statement tag=0939}
 
 *Soit $\theta$ une mesure complexe bornée ; pour que $\theta$ soit une mesure positive, il faut et il suffit qu’on ait $\| \theta \| = \theta(1)$.*
 
@@ -494,7 +496,7 @@ Cette condition est évidemment nécessaire. Inversement, supposons qu’on ait 
 
 ### 6. Mesures équivalentes
 
-#### Proposition 10 {#int-v-s5-prop-10 .statement}
+#### Proposition 10 {#int-v-s5-prop-10 .statement tag=093A}
 
 *Soient $\mu$ et $v$ deux mesures positives sur $T$. Les conditions suivantes sont équivalentes :
 
@@ -506,17 +508,17 @@ c) On a $v = g . \mu$, où $g$ est localement $\mu$-intégrable et $g(t) > 0$ lo
 
 Les conditions a) et b) sont équivalentes en vertu du cor. du th. 2 du n° 5. Si elles sont remplies, on a $v = g . \mu$ et $\mu = h . v$, où $g$ (resp. $h$) est positive et localement intégrable pour $\mu$ (resp. $v$). Donc (n° 4, prop. 8) $hg$ est localement $\mu$-intégrable, et on a $\mu = (hg) . \mu$. Il en résulte (n° 3, cor. 2 de la prop. 3) que $hg$ est égale à 1 localement presque partout pour $\mu$, de sorte que $g(t) > 0$ et $h(t) = 1/g(t)$ localement presque partout pour $\mu$. Réciproquement, supposons que $v = g . \mu$, avec $g(t) > 0$ localement presque partout pour $\mu$; comme $(1/g)g$ est définie localement presque partout et est localement $\mu$-intégrable, $1/g$ est localement $v$-intégrable et $(1/g) . v = \mu$ (n° 4, prop. 8).
 
-#### Définition 3 {#int-v-s5-def-3 .statement}
+#### Définition 3 {#int-v-s5-def-3 .statement tag=093B}
 
 *Sur un espace localement compact $T$, on dit que deux mesures complexes $\theta, \theta'$ sont équivalentes si les mesures $|\theta|$ et $|\theta'|$ satisfont aux conditions a), b), c) de la prop. 10.*
 
 Pour que $\theta$ et $\theta'$ soient équivalentes, il faut et il suffit donc que $|\theta|$ et $|\theta'|$ le soient.
 
-#### Remarque {#int-v-s5-n6-rem-1 .statement}
+#### Remarque {#int-v-s5-n6-rem-1 .statement tag=093C}
 
 Si $\mu$ et $\nu$ sont deux mesures positives équivalentes, les fonctions mesurables définies dans $T$, à valeurs dans un espace topologique quelconque $G$, sont les mêmes pour $\mu$ et $\nu$, comme il résulte aussitôt de la prop. 4 du n° 3.
 
-#### Proposition 11 {#int-v-s5-prop-11 .statement}
+#### Proposition 11 {#int-v-s5-prop-11 .statement tag=093D}
 
 Soit $\mu$ une mesure positive sur $T$. Si $T$ est dénombrable à l’infini, il existe une fonction continue $h$ telle que $h(t) > 0$ pour tout $t \in T$ et que la mesure $\nu = h . \mu$ (équivalente à $\mu$) soit bornée.
 
@@ -528,7 +530,7 @@ $$
 
 En prenant par exemple $a_n = 2^{-n} (\int f_n \, d\mu)^{-1}$ lorsque $\int f_n \, d\mu > 1$, $a_n = 2^{-n}$ dans le cas contraire, on a $\sum_n a_n < +\infty$ et $\nu^*(1) < +\infty$, ce qui démontre la proposition.
 
-#### Proposition 12 {#int-v-s5-prop-12 .statement}
+#### Proposition 12 {#int-v-s5-prop-12 .statement tag=093E}
 
 Soit $(\mu_n)$ une suite de mesures positives bornées sur $T$; il existe une mesure positive bornée $\mu$ sur $T$ telle que la relation $\mu^*(N) = 0$ soit équivalente à « quel que soit $n$, $\mu_n^*(N) = 0$ »; chacune des mesures $\mu_n$ est de base $\mu$. En outre, si $\mu'$ est une seconde mesure positive sur $T$ ayant cette propriété, $\mu$ et $\mu'$ sont équivalentes.
 
@@ -538,13 +540,13 @@ La dernière partie de l’énoncé résulte aussitôt de la déf. 3. Pour démo
 
 Étant données deux mesures réelles $\rho, \sigma$ sur $T$, rappelons que l’on dit que $\rho$ et $\sigma$ sont étrangères si l’on à $\inf(|\rho|, |\sigma|) = 0$ dans $\mathscr{M}(T)$ (chap. II, § 1, n° 1). On sait que les mesures réelles étrangères à une mesure donnée forment une bande (chap. II, § 1, n° 5, th. 1). Cette définition s’étend aussitôt au cas des mesures complexes.
 
-#### Définition 4 {#int-v-s5-def-4 .statement}
+#### Définition 4 {#int-v-s5-def-4 .statement tag=093F}
 
 On dit qu’une mesure complexe $\theta$ sur $T$ est concentrée sur une partie $M$ de $T$, ou que $M$ porte $\theta$, si $\mathbf{C}M$ est localement négligeable pour $\theta$.
 
 L’ensemble $M$ porte $\theta$ si et seulement s’il porte $|\theta|$. Il est équivalent de dire que $M$ porte $\theta$, ou que $M$ est $\theta$-mesurable et $\theta = \varphi_M \cdot \theta$. Si $\theta$ est concentrée sur $M$, toute mesure de base $|\theta|$ est concentrée sur $M$.
 
-#### Proposition 13 {#int-v-s5-prop-13 .statement}
+#### Proposition 13 {#int-v-s5-prop-13 .statement tag=093G}
 
 Pour que deux mesures complexes $\rho$ et $\sigma$ sur $T$ soient étrangères, il faut et il suffit qu’il existe dans $T$ deux ensembles $R$ et $S$ sans point commun, tels que $\rho$ soit concentrée sur $R$ et $\sigma$ sur $S$; $R$ et $S$ peuvent être supposés universellement mesurables.
 
@@ -556,7 +558,7 @@ $$
 
 (n° 2, cor. de la prop. 2). Soit A (resp. B) l’ensemble des $t \in T$ tels que $u(t) > 0$ et $v(t) = 0$ (resp. $u(t) = 0$ et $v(t) > 0$). Si $\rho$ et $\sigma$ sont étrangères, on a $\inf(u, v) = 0$ localement $\lambda$-presque partout (n° 3, cor. 2 de la prop. 3), de sorte que les ensembles universellement mesurables disjoints A et B portent respectivement $\mu$ et $v$. Inversement, supposons que $\mu$ et $v$ soient portées respectivement par des ensembles disjoints $R$ et $S$; $\varphi_R$ est mesurable pour la mesure $\mu = u \cdot \lambda$, et $\mu = \varphi_R \cdot \mu$. D’après la prop. 8 du n° 4, la fonction $u' = u \varphi_R$ est $\lambda$-mesurable, et $\mu = u' \cdot \lambda$. De même, si $v' = v \varphi_S$, on a $v = v' \cdot \lambda$; on conclut en remarquant que $\inf(u', v') = 0$ (n° 2, cor de la prop. 2).
 
-#### Corollaire 1 {#int-v-s5-prop-13-cor-1 .statement}
+#### Corollaire 1 {#int-v-s5-prop-13-cor-1 .statement tag=093H}
 
 Pour toute mesure réelle $v$ sur $T$, il existe deux ensembles disjoints $M, N$ portant respectivement $v^+$ et $v^-$.
 
@@ -564,17 +566,17 @@ On aura soin de ne pas confondre la notion de support d’une mesure $v$, et cel
 
 On notera aussi que l’intersection des ensembles portant ν est l’ensemble des points t ∈ T tels que |ν|({t}) > 0, et peut être vide (par exemple dans le cas de la mesure de Lebesgue); il n’y a donc pas en général de plus petit ensemble portant ν.
 
-#### Corollaire 2 {#int-v-s5-prop-13-cor-2 .statement}
+#### Corollaire 2 {#int-v-s5-prop-13-cor-2 .statement tag=093I}
 
 Soient ρ et σ deux mesures complexes étrangères, et soient ρ′ et σ′ deux mesures complexes admettant des densités par rapport à ρ et à σ respectivement; ρ′ et σ′ sont alors étrangères.
 
-#### Corollaire 3 {#int-v-s5-prop-13-cor-3 .statement}
+#### Corollaire 3 {#int-v-s5-prop-13-cor-3 .statement tag=093J}
 
 Soient ρ et σ deux mesures complexes étrangères; on a alors |ρ + σ| = |ρ| + |σ|.
 
 Désignons en effet par v (resp. w) une fonction universellement mesurable de valeur absolue 1 telle que ρ = v . |ρ| (resp. σ = w . |σ|) (cor. 3 du th. 2), par A un ensemble universellement mesurable portant ρ, tel que B = CA porte σ (prop. 13); on a alors aussi ρ + σ = (vφ_A + wφ_B) . (|ρ| + |σ|). La fonction vφ_A + wφ_B ayant une valeur absolue égale à 1, le corollaire résulte de la prop. 2.
 
-#### Théorème 3 (Lebesgue) {#int-v-s5-thm-3 .statement}
+#### Théorème 3 (Lebesgue) {#int-v-s5-thm-3 .statement tag=093K}
 
 Toute mesure complexe θ sur T peut s’écrire d’une seule manière sous la forme θ = g . μ + θ′, où g est localement μ-intégrable, et θ′ est une mesure étrangère à μ. On a alors |θ| = |g| . μ + |θ′|.
 
@@ -582,7 +584,7 @@ Lorsque θ est positive, ceci résulte aussitôt du th. de F. Riesz (chap. II, �
 
 Rappelons (th. 2, Scholie) que l’espace $L^1_{loc}(T, \mu; \mathbf{C})$ peut être identifié (au moyen de l’application $\dot{g} \mapsto g . \mu$) à un sous-espace de $\mathscr{M}_\mathbf{C}(T)$. Avec cette convention, le théorème 3 prend la forme suivante:
 
-#### Corollaire {#int-v-s5-n7-cor-1 .statement}
+#### Corollaire {#int-v-s5-n7-cor-1 .statement tag=093L}
 
 *Il existe un projecteur* $p$ *de l’espace* $\mathscr{M}_\mathbf{C}(T)$ *sur l’espace* $L^1_{loc}(T, \mu; \mathbf{C})$, *dont le noyau* $\bar{p}^1(0)$ *est l’ensemble des mesures complexes étrangères à* $\mu$, *tel que*
 $$
@@ -598,7 +600,7 @@ Nous ne traiterons ici que le cas des espaces $L^p$ réels.
 
 Rappelons que deux nombres $p, q$ tels que $1 \leq p \leq +\infty$, $1 \leq q \leq +\infty$, $1/p + 1/q = 1$, sont appelés des *exposants conjugués* (chap. IV, § 6, n° 4). Toute fonction $g \in \mathscr{L}^q$ définit une forme linéaire continue $\theta_g$ sur $L^p$, qu’on obtient par passage au quotient à partir de la forme linéaire $f \mapsto \int fg \, d\mu$ sur $\mathscr{L}^p$, et on a $N_q(g) = \| \theta_g \|$ (chap. IV, 2e éd., § 6, n° 4, cor. de la prop. 3). Par passage au quotient, on déduit donc de l’application $g \mapsto \theta_g$ une application linéaire isométrique $\varphi$ de $L^q$ dans le dual $(L^p)'$ de $L^p$. Nous allons montrer que, pour $1 \leq p < +\infty$, $\varphi$ applique $L^q$ *sur* $(L^p)'$, de sorte que nous pourrons désormais identifier l’espace de Banach $L^q$ à l’espace de Banach $(L^p)'$ par l’isomorphisme $\varphi$. En d’autres termes :
 
-#### Théorème 4 {#int-v-s5-thm-4 .statement}
+#### Théorème 4 {#int-v-s5-thm-4 .statement tag=093M}
 
 *Soient* $p$ *et* $q$ *deux exposants conjugués tels que* $1 \leq p < +\infty$. *Toute forme linéaire continue sur* $\mathscr{L}^p(T, \mu)$ *est du type* $f \mapsto \int fg \, d\mu$, *où* $g$ *est une fonction de* $\mathscr{L}^q(T, \mu)$ *dont la classe dans* $L^q$ *est bien déterminée.*
 
@@ -614,7 +616,7 @@ Il existe donc une fonction positive localement $\mu$-intégrable $h_1$ telle qu
 
 Soit $v$ une fonction (réelle) de valeur absolue 1 universellement mesurable, telle que $v = v \cdot |v|$ (cor. 3 du th. 2), et soit $g = v h_1$; on a $v = g \cdot \mu$, et $g$ appartient à $\mathscr{L}^q$. On a, pour toute fonction $f \in \mathscr{K}(T), \theta(f) = v(f) = \int f g \, d\mu$. Autrement dit, les formes linéaires continues $\theta$ et $\theta_g$ coïncident dans $\mathscr{K}(T)$; elles sont donc égales dans $\mathscr{L}^p$, puisque $\mathscr{K}(T)$ est partout dense dans $\mathscr{L}^p$, et cela achève la démonstration.
 
-#### Corollaire {#int-v-s5-n8-cor-1 .statement}
+#### Corollaire {#int-v-s5-n8-cor-1 .statement tag=093N}
 
 Pour tout nombre $p$ tel que $1 < p < \infty$, l’espace de Banach $L^p(T, \mu)$ est réflexif.
 
@@ -622,7 +624,7 @@ En général, le dual de $L^\infty$ n’est pas isomorphe à $L^1$, et par suite
 
 L’espace vectoriel ordonné $L^\infty(T, \mu)$, qui est un sous-espace de $L^1_{loc}(T, \mu)$, est complètement réticulé; en effet, si $(f_\alpha)$ est une famille de fonctions positives de $\mathscr{L}^\infty$, dont l’ensemble des classes $(\dot{f}_\alpha)$ est majoré dans $L^\infty$, il existe $a \geq 0$ tel que $N_\infty(f_\alpha) \leq a$ pour tout $\alpha$. Comme $L^1_{loc}(T, \mu)$ est complètement réticulé, la famille $(\dot{f}_\alpha)$ admet une borne supérieure $\dot{h}$ dans $L^1_{loc}(T, \mu)$; mais comme $\dot{a} \geq \dot{f}_\alpha$ pour tout $\alpha$, on a $\dot{h} \leq \dot{a}$, et par suite $N_\infty(h) \leq a$, d’où notre assertion.
 
-#### Proposition 14 {#int-v-s5-prop-14 .statement}
+#### Proposition 14 {#int-v-s5-prop-14 .statement tag=093O}
 
 Pour qu’une forme linéaire positive $\theta$ sur $\mathscr{L}^\infty$ soit du type $f \mapsto \int fg\, d\mu$, où $g \in \mathscr{L}^1$, il faut et il suffit que, pour toute famille filtrante croissante $(f_\alpha)_{\alpha \in A}$ de fonctions positives de $\mathscr{L}^\infty$, dont l’ensemble des classes $(\dot{f}_\alpha)_{\alpha \in A}$ est majoré dans $L^\infty$ et admet $\dot{h}$ comme borne supérieure dans cet espace, on ait
 $$
@@ -633,7 +635,7 @@ Montrons d’abord que la condition est nécessaire. En effet, la mesure $h.\mu$
 
 Pour établir que la condition est suffisante, nous utiliserons le lemme suivant :
 
-#### Lemme 4 {#int-v-s5-lem-4 .statement}
+#### Lemme 4 {#int-v-s5-lem-4 .statement tag=093P}
 
 1° Soit $f$ une fonction positive semi-continue inférieurement et bornée dans T. Alors sa classe $\dot{f}$ dans $L^\infty$ est la borne supérieure de l’ensemble des classes $\varphi$, où $\varphi$ parcourt l’ensemble des fonctions de $\mathscr{K}(T)$ telles que $0 \leq \varphi \leq f$.
 
@@ -716,11 +718,11 @@ On peut appliquer cette méthode à la fonction positivement homogène $(x_1^2 +
 
 ### 10. Mesures diffuses; mesures atomiques
 
-#### Définition 5 {#int-v-s5-def-5 .statement}
+#### Définition 5 {#int-v-s5-def-5 .statement tag=093Q}
 
 On dit qu’une mesure $\theta$ sur $T$ est diffuse si, pour tout $t \in T$, on a $|\theta|(\{t\}) = 0$.
 
-#### Exemple {#int-v-s5-n10-exa-1 .statement}
+#### Exemple {#int-v-s5-n10-exa-1 .statement tag=093R}
 
 La mesure de Lebesgue sur $\mathbf{R}$ est diffuse (chap. IV, § 1, n° 3, Remarque 1).
 
@@ -728,7 +730,7 @@ Dire que $\theta$ est une mesure diffuse sur $T$ revient à dire que tout ensemb
 
 Rappelons (chap. III, 2e éd., § 1, n° 3) qu’une mesure complexe $\rho$ sur $T$ est dite atomique si elle est de la forme $\sum_{t \in T} \alpha(t) \varepsilon_t$, où $\alpha$ est une fonction complexe sur $T$, telle que $\sum_{t \in K} |\alpha(t)| < +\infty$ pour tout compact K de T, ce qui exprime que la famille $(\alpha(t)\varepsilon_t)_{t\in T}$ est sommable (§ 2, n° 1, remarque 2). Il résulte alors de la remarque suivant le cor. 3 du th. 2 du n° 5 que $|\rho| = \sum_{t\in T} |\alpha(t)|\varepsilon_t$. La fonction $\alpha$ qui intervient dans ces formules est uniquement déterminée, car $\alpha(t) = \rho(\{t\})$. Une mesure atomique et une mesure diffuse sont étrangères.
 
-#### Proposition 15 {#int-v-s5-prop-15 .statement}
+#### Proposition 15 {#int-v-s5-prop-15 .statement tag=093S}
 
 *Toute mesure complexe $\sigma$ sur $T$ peut s’écrire d’une seule manière sous la forme $\rho + \theta$, où $\rho$ est une mesure atomique, $\theta$ une mesure diffuse ; on a alors $|\sigma| = |\rho| + |\theta|$*.
 

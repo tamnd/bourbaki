@@ -41,9 +41,9 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: fe7edc4b7339881ec4985397b0e5f7236fa5f30ebc32e7c9b4e3aabcca7d93e1
+content_sha256: b4835d8834319ea0fa11b7157c3a41f6975838a328c2968b0f7874a9b1531608
 translated_from: content/en/int/VIII/02_s2_linear_representations_of_groups.md
-source_content_sha256: 857c6c34df766d7411dc9b8547a6d0dc46b57ddebf4766bb04a658531dd882e9
+source_content_sha256: 5dafa58e78dc6307341df4bd75bf3a56cc18775819c83933d0c50e69c45de801
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-vi-6cdc5c31
 glossary_version: 34
@@ -57,7 +57,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho G là một nhóm tôpô, E là một không gian lồi địa phương, U là một biểu diễn tuyến tính của G trong E.
 
-#### Định nghĩa 1 {#int-viii-s2-def-1 .statement}
+#### Định nghĩa 1 {#int-viii-s2-def-1 .statement tag=09IF}
 
 — (i) $U$ được gọi là liên tục riêng nếu, với mọi $s \in G$, $U(s)$ là một tự đồng cấu liên tục của $E$, và nếu, với mọi $x \in E$, ánh xạ $s \mapsto U(s)x$ của $G$ vào $E$ là liên tục.
 
@@ -65,11 +65,11 @@ Cho G là một nhóm tôpô, E là một không gian lồi địa phương, U l
 
 (iii) $U$ được gọi là liên tục đều nếu nó là liên tục và nếu tập hợp các tự đồng cấu $U(s)$, trong đó $s$ chạy trên $G$, là liên tục đều.
 
-#### Nhận xét 1 {#int-viii-s2-n1-rem-1 .statement}
+#### Nhận xét 1 {#int-viii-s2-n1-rem-1 .statement tag=09IG}
 
 Nói rằng $U$ liên tục riêng có nghĩa là $s \mapsto U(s)$ là một ánh xạ liên tục của $G$ vào không gian $\mathscr{L}(E; E)$ các tự đồng cấu liên tục của $E$, được trang bị tôpô hội tụ điểm.
 
-#### Nhận xét 2 {#int-viii-s2-n1-rem-2 .statement}
+#### Nhận xét 2 {#int-viii-s2-n1-rem-2 .statement tag=09IH}
 
 Nói rằng $U$ liên tục tương đương với tập hợp ba điều kiện sau:
 
@@ -80,11 +80,11 @@ Các điều kiện này hiển nhiên là cần thiết. Ngược lại, giả 
 Khi $G$ là compact địa phương, các điều kiện a) và b) tương đương với điều kiện:
 $a')$ với mọi tập con compact $K$ của $G$, $U(K)$ là liên tục đều.
 
-#### Nhận xét 3 {#int-viii-s2-n1-rem-3 .statement}
+#### Nhận xét 3 {#int-viii-s2-n1-rem-3 .statement tag=09II}
 
 Giả sử $U$ là một biểu diễn tuyến tính liên tục của $G$ trong $E$. Với mỗi $s \in G$, gọi $\widehat{U}(s)$ là mở rộng liên tục của $U(s)$ lên phần hoàn thành $\widehat{E}$ của $E$. Khi đó $\widehat{U}$ là một biểu diễn tuyến tính của $G$ trong $\widehat{E}$, thỏa mãn các điều kiện a) và c) của Nhận xét 2, và cả điều kiện b) theo GT, X, §2, No. 2, Prop. 4. Vậy nên $\widehat{U}$ là một biểu diễn tuyến tính liên tục của $G$ trong $\widehat{E}$.
 
-#### Nhận xét 4 {#int-viii-s2-n1-rem-4 .statement}
+#### Nhận xét 4 {#int-viii-s2-n1-rem-4 .statement tag=09IJ}
 
 Khi $E$ là một không gian định chuẩn, người ta nói $U$ là đẳng cự nếu $\|U(s)\| = 1$ với mọi $s \in G$. Để được như vậy, chỉ cần có $\|U(s)\| \leq 1$ với mọi $s \in G$, vì khi đó ta có
 $$
@@ -92,19 +92,19 @@ $$
 $$
 do đó $\|U(s)\| = \|U(s^{-1})\| = 1$ với mọi $s \in G$.
 
-#### Mệnh đề 1 {#int-viii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#int-viii-s2-prop-1 .statement tag=09IK}
 
 — Nếu $G$ là một nhóm địa phương compact và $E$ là tròn hóa, thì mọi biểu diễn tuyến tính riêng liên tục $U$ của $G$ trong $E$ đều liên tục.
 
 Với mọi tập con compact $K$ của $G$, $U(K)$ là compact đối với tôpô hội tụ từng điểm (Nhận xét 1), do đó là đẳng liên tục (TVS, III, §4, No. 2, Định lý 1); khi ấy áp dụng Nhận xét 2.
 
-#### Bổ đề 1 {#int-viii-s2-lem-1 .statement}
+#### Bổ đề 1 {#int-viii-s2-lem-1 .statement tag=09IL}
 
 Cho G là một nhóm địa phương compact, $\rho$ là một hàm số hữu hạn nửa liên tục dưới $\geqslant 0$ trên G sao cho $\rho(st) \leqslant \rho(s)\rho(t)$ với mọi $s,t \in G$. Khi đó $\rho$ bị chặn trên trên mọi tập con compact của G.
 
 Tồn tại một tập con mở khác rỗng U của G sao cho $\rho$ bị chặn trên trên U (GT, IX, §5, No. 4, Định lý 2). Cho K là một tập con compact của G. Khi đó K được phủ bởi một số hữu hạn các tập $s_1U, \ldots, s_nU$. Với mọi $x \in U$, ta có $\rho(s_ix) \leqslant \rho(s_i)\rho(x)$, do đó $\rho$ bị chặn trên trên các $s_iU$, suy ra trên K.
 
-#### Bổ đề 2 {#int-viii-s2-lem-2 .statement}
+#### Bổ đề 2 {#int-viii-s2-lem-2 .statement tag=09IM}
 
 Cho G là một nhóm tôpô, U là một biểu diễn tuyến tính của G trong một không gian định chuẩn E, và A là một tập con trù mật của E. Giả sử rằng với mọi $s \in G$, $U(s)$ là liên tục, và rằng, với mọi $x \in A$, $s \mapsto U(s)x$ là một ánh xạ liên tục từ G vào E. Khi đó hàm số $s \mapsto g(s) = \|U(s)\|$ trên G là nửa liên tục dưới và thỏa mãn $g(st) \leqslant g(s)g(t)$.
 
@@ -114,7 +114,7 @@ $$
 g(st) = \|U(s)U(t)\| \leqslant \|U(s)\| \cdot \|U(t)\| = g(s)g(t).
 $$
 
-#### Mệnh đề 2 {#int-viii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#int-viii-s2-prop-2 .statement tag=09IN}
 
 Cho G là một nhóm địa phương compact, U là một biểu diễn tuyến tính của G trong một không gian định chuẩn E. Gọi A là một tập con trù mật của E. Giả sử rằng với mọi $s \in G$, $U(s)$ là liên tục và rằng, với mọi $x \in A$, $s \mapsto U(s)x$ là một ánh xạ liên tục từ G vào E. Khi đó U là liên tục.
 
@@ -124,7 +124,7 @@ Thật vậy, $\|U(s)\|$ bị chặn trên trên mọi tập con compact của G
 
 Cho U là một biểu diễn tuyến tính liên tục riêng của G trong E. Gọi E' là đối ngẫu của E. Ánh xạ $s \mapsto {}^tU(s)$ là một biểu diễn tuyến tính trong E' của nhóm $G^0$ đối của G; ta sẽ nói rằng biểu diễn này là chuyển vị của U. Ánh xạ $s \mapsto {}^tU(s^{-1}) = {}^tU(s)^{-1}$ là một biểu diễn tuyến tính của G trong E', được gọi là biểu diễn đối ngẫu tương phản của U.
 
-#### Bổ đề 3 {#int-viii-s2-lem-3 .statement}
+#### Bổ đề 3 {#int-viii-s2-lem-3 .statement tag=09IO}
 
 Cho X là một không gian compact địa phương, Y và Z là các không gian tôpô, $\varphi$ là một ánh xạ liên tục từ $X \times Y$ vào Z, và $\varphi_x$ là ánh xạ $y \mapsto \varphi(x,y)$ từ Y vào Z. Các không gian $\mathscr{C}(Y), \mathscr{C}(Z)$ được trang bị tôpô hội tụ compact, ánh xạ $(x,f) \mapsto f \circ \varphi_x$ từ $X \times \mathscr{C}(Z)$ vào $\mathscr{C}(Y)$ là liên tục.
 
@@ -132,7 +132,7 @@ Rõ ràng chỉ cần xét trường hợp X là compact. Cho $(x_0, f_0) \in X 
 
 Bây giờ ta trở lại các ký hiệu trước đây.
 
-#### Mệnh đề 3 {#int-viii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#int-viii-s2-prop-3 .statement tag=09IP}
 
 (i) *Nếu U là liên tục riêng, thì $^tU$ là liên tục riêng khi E' được trang bị tôpô yếu $\sigma(E', E)$.*
 (ii) *Nếu G là compact địa phương và U là liên tục, thì $^tU$ là liên tục khi E' được trang bị tôpô hội tụ compact.*
@@ -170,7 +170,7 @@ do đó $\gamma_\chi$ *là một biểu diễn tuyến tính* của G. Với $\c
 
 Giả sử bây giờ rằng G và X là compact địa phương, G tác động liên tục trên X, và $\chi$ liên tục trên $G \times X$. Khi đó $C(X)$ và $K(X)$ là ổn định đối với các $\gamma_\chi(s)$, do đó có các biểu diễn tuyến tính của G trong $C(X)$ và $K(X)$ mà ta vẫn ký hiệu là $\gamma_\chi$.
 
-#### Mệnh đề 4 {#int-viii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#int-viii-s2-prop-4 .statement tag=09IQ}
 
 *Các biểu diễn tuyến tính $\gamma_\chi$ của G trong $C(X)$ và $K(X)$ là liên tục.*
 
@@ -182,7 +182,7 @@ $$
 $$
 do đó $f \mapsto \gamma_\chi(s_0)f$ là một ánh xạ tuyến tính liên tục của $K(X, H)$ vào $K(X, L)$; suy ra rằng $f \mapsto \gamma_\chi(s_0)f$ là một ánh xạ tuyến tính liên tục của $K(X)$ vào chính nó (TVS, II, §4, No. 4, Mệnh đề 5). Mặt khác, tôpô của $K(X, L)$ được cảm sinh bởi tôpô của $C(X)$. Theo điều đã được chứng minh, ánh xạ $s \mapsto \gamma_\chi(s)f$ của V vào $K(X, L)$ là liên tục. Điều này hoàn tất chứng minh rằng $\gamma_\chi$ là liên tục riêng.
 
-#### Mệnh đề 5 {#int-viii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#int-viii-s2-prop-5 .statement tag=09IR}
 
 *Giả sử rằng mỗi hàm $\chi(s, \cdot)$ là bị chặn. Khi đó $\gamma_\chi$ giữ ổn định $\overline{K(X)}$, và biểu diễn tuyến tính $\gamma_\chi$ của G trong $\overline{K(X)}$ là liên tục.*
 
@@ -210,11 +210,11 @@ $$
 
 Biểu diễn tuyến tính $\gamma_\chi$ của $G$ trong $\mathscr{C}(X)$ thừa nhận một biểu diễn đối ngẫu trong không gian $\mathscr{C}'(X)$ của các độ đo trên $X$ có giá compact, một biểu diễn mà ta cũng ký hiệu lại là $\gamma_\chi$; các tự đồng cấu $\gamma_\chi(s)$ của $\mathscr{C}'(X)$ là các hạn chế của các tự đồng cấu $\gamma_\chi(s)$ của $\mathscr{M}(X)$.
 
-#### Mệnh đề 6 {#int-viii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#int-viii-s2-prop-6 .statement tag=09IS}
 
 *Nếu trang bị cho $\mathscr{M}(X)$ (tương ứng $\mathscr{C}'(X)$) tôpô của sự hội tụ đều trên các tập compact của $\mathscr{K}(X)$ (tương ứng $\mathscr{C}(X)$), thì biểu diễn tuyến tính $\gamma_\chi$ của $G$ trong $\mathscr{M}(X)$ (tương ứng $\mathscr{C}'(X)$) là liên tục.*
 
-#### Mệnh đề 7 {#int-viii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#int-viii-s2-prop-7 .statement tag=09IT}
 
 *Giả sử rằng mỗi hàm $\chi(s, \cdot)$ là bị chặn. Khi đó $\gamma_\chi$ giữ ổn định $\mathscr{M}^1(X)$ và, nếu $\mathscr{M}^1(X)$ được trang bị tôpô của sự hội tụ đều trên các tập compact của $\mathscr{K}(X)$, thì biểu diễn tuyến tính $\gamma_\chi$ của $G$ trong $\mathscr{M}^1(X)$ là liên tục.*
 Các mệnh đề này suy ra từ các Mệnh đề 3, 4, 5.
@@ -256,7 +256,7 @@ $$
 $$
 do đó $\gamma_{\chi,p}(s)f \in \mathscr{L}_C^p(X, \beta)$. Ta thấy rằng $\gamma_{\chi,p}(s)$ là một tự đồng cấu *đẳng cự* của $\mathscr{L}_C^p(X, \beta)$ và xác định, bằng cách chuyển sang thương, một tự đồng cấu đẳng cự của $L_C^p(X, \beta)$, cũng được ký hiệu là $\gamma_{\chi,p}(s)$. Mặt khác, $\chi^{1/p}$ hiển nhiên là một nhân tử, do đó $\gamma_{\chi,p}$ là một biểu diễn tuyến tính của $G$ trong $L_C^p(X, \beta)$ theo điều ta đã thấy ở No. 3.
 
-#### Mệnh đề 8 {#int-viii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#int-viii-s2-prop-8 .statement tag=09IU}
 
 *Biểu diễn tuyến tính $\gamma_{\chi,p}$ của $G$ trong $L_C^p(X, \beta)$ là liên tục và đẳng cự.*
 
@@ -264,7 +264,7 @@ Cho $f \in \mathscr{K}(X)$. Khi $s$ tiến tới $s_0$ trong $G$, $\gamma_{\chi,
 
 Đối với trường hợp không giả thiết $\chi$ liên tục, xem §4, Bài tập 13.
 
-#### Mệnh đề 9 {#int-viii-s2-prop-9 .statement}
+#### Mệnh đề 9 {#int-viii-s2-prop-9 .statement tag=09IV}
 
 *Giả sử rằng mỗi hàm $\chi(s, \cdot)$ đều bị chặn. Khi đó $\gamma_\chi$ để $L_C^p(X, \beta)$ ổn định, và biểu diễn tuyến tính $\gamma_\chi$ của $G$ trong $L_C^p(X, \beta)$ là liên tục.*
 
@@ -304,7 +304,7 @@ Bây giờ giả sử $U$ là một biểu diễn tuyến tính liên tục củ
 
 ### 7. Các quan hệ giữa các nội tự đồng cấu $U(\mu)$ và các nội tự đồng cấu $U(s)$
 
-#### Bổ đề 4 {#int-viii-s2-lem-4 .statement}
+#### Bổ đề 4 {#int-viii-s2-lem-4 .statement tag=09IW}
 
 Cho $T$ là một không gian compact địa phương, $a$ là một điểm của $T$, $M$ là một tập con của $\mathscr{M}(T)$, và $\mathfrak{F}$ là một bộ lọc trên $M$. Giả sử rằng:
 (i) với mọi tập con compact $K$ của $T$, các số $|\mu|(K)$, với $\mu \in M$, đều bị chặn trên;
@@ -333,13 +333,13 @@ $$
 
 Vì số hạng thứ nhất và thứ ba ở vế phải tiến tới 0 đối với $\mathfrak{F}$, ta thấy rằng thật vậy $\lim_{\mu,\mathfrak{F}} \mu(f) = f(a)$.
 
-#### Hệ quả 1 {#int-viii-s2-lem-4-cor-1 .statement}
+#### Hệ quả 1 {#int-viii-s2-lem-4-cor-1 .statement tag=09IX}
 
 Với các giả thiết như trong Bổ đề 4, giả sử thêm rằng tồn tại một tập con compact $K_0$ của $T$ chứa các giá của mọi độ đo $\mu \in M$. Khi đó $\mathfrak{F}$ cũng hội tụ tới $\varepsilon_a$ trong $\mathscr{C}'(T)$ được trang bị tôpô hội tụ compact trên $\mathscr{C}(T)$.
 
 Thật vậy, ánh xạ hạn chế từ $\mathscr{C}(T)$ vào $\mathscr{C}(K_0)$ là liên tục; do đó, nếu $H$ là một tập con compắc của $\mathscr{C}(T)$, thì các hạn chế trên $K_0$ của các hàm trong $H$ tạo thành một tập con compắc của $\mathscr{C}(K_0)$. Khi đó chỉ cần áp dụng Bổ đề 4 sau khi thay thế $T$ bằng $K_0$.
 
-#### Hệ quả 2 {#int-viii-s2-lem-4-cor-2 .statement}
+#### Hệ quả 2 {#int-viii-s2-lem-4-cor-2 .statement tag=09IY}
 
 *Với các giả thiết như trong Hệ quả 1, cho $f$ là một ánh xạ liên tục từ $T$ vào một không gian lồi địa phương tựa-đầy đủ $E$. Khi đó*
 
@@ -349,7 +349,7 @@ $$
 
 Điều này suy ra từ Hệ quả 1, và Mệnh đề 14 của Ch. VI, §1, No. 6.
 
-#### Hệ quả 3 {#int-viii-s2-lem-4-cor-3 .statement}
+#### Hệ quả 3 {#int-viii-s2-lem-4-cor-3 .statement tag=09IZ}
 
 *Cho $G$ là một nhóm địa phương compắc, $E$ một không gian lồi địa phương tựa-đầy đủ, và $U$ một biểu diễn tuyến tính liên tục của $G$ trong $E$. Cho $\beta$ là một độ đo dương trên $G$, $a$ một phần tử của $G$, và $\mathscr{B}$ một cơ sở của bộ lọc các lân cận của $a$, gồm các lân cận compắc. Với mọi $V \in \mathscr{B}$, cho $f_V$ là một hàm liên tục $\geqslant 0$ trên $G$, có giá được chứa trong $V$, và sao cho $\int f_V\, d\beta = 1$. Khi đó, với mọi $x \in E$,
 
@@ -361,7 +361,7 @@ $$
 
 Ánh xạ $s \mapsto U(s)x$ từ $G$ vào $E$ là liên tục. Theo Hệ quả 2, $U(a)x = \lim_V \int (U(s)x) \cdot f_V(s)\, d\beta(s)$ đối với bộ lọc tiết diện của $\mathscr{B}$, nghĩa là, $U(a)x = \lim_V U(f_V \cdot \beta)x$.
 
-#### Mệnh đề 10 {#int-viii-s2-prop-10 .statement}
+#### Mệnh đề 10 {#int-viii-s2-prop-10 .statement tag=09J0}
 
 *Cho $G$ là một nhóm địa phương compắc, $E$ một không gian lồi địa phương tựa-đầy đủ, $U$ một biểu diễn tuyến tính liên tục của $G$ trong $E$, và $\beta$ một độ đo dương trên $G$ có giá là $G$.
 

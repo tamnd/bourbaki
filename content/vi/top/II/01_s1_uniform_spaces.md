@@ -20,7 +20,7 @@ subsections:
       pdf_page: 177
 statements: 14
 exercises: 5
-content_sha256: 55c8282066f9c24622159896e0e9468f4c5088fcac5c241d9eaf0819cbfe8147
+content_sha256: fac5e5c03f80025dd588ee20a7167af68694982ad80a3103c2b43c5431d0a26a
 translated_from: content/en/top/II/01_s1_uniform_spaces.md
 source_content_sha256: dc8b007352158f412e69b7b71913949ecc71b6302a8995f83a3b041d77323d26
 translation_model: gpt-5-6-mini
@@ -34,7 +34,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA CẤU TRÚC UNIFORM
 
-#### Định nghĩa 1 {#top-ii-s1-def-1 .statement}
+#### Định nghĩa 1 {#top-ii-s1-def-1 .statement tag=0BCY}
 
 *Một cấu trúc uniform* (hay *uniformity*) *trên một tập hợp* $X$ *là một cấu trúc được cho bởi một tập hợp* $\mathfrak{U}$ *các tập con của* $X \times X$ *thỏa mãn các tiên đề* $(\mathrm{F}_1)$ *và* $(\mathrm{F}_{\mathrm{II}})$ *của Chương I, § 6, no. 1 và cũng thỏa mãn các tiên đề sau*:
 
@@ -50,13 +50,13 @@ Các tập hợp của $\mathfrak{U}$ được gọi là các lân cận của u
 
 Nếu $V$ là một lân cận của một uniformity trên $X$, ta có thể biểu thị quan hệ $(x, x') \in V$ bằng cách nói rằng "$x$ và $x'$ là $V$-gần".
 
-#### Nhận xét 1 {#top-ii-s1-n1-rem-1 .statement}
+#### Nhận xét 1 {#top-ii-s1-n1-rem-1 .statement tag=0BCZ}
 
 Để làm cho ngôn ngữ biểu đạt hơn, ta có thể sử dụng các biểu thức "$x$ đủ gần với $y$" và "$x$ và $y$ gần nhau tùy ý" trong một số mệnh đề. Chẳng hạn, ta sẽ nói rằng một quan hệ
 
 R $\{ x, y \}$ là đúng bất cứ khi nào $x$ và $y$ đủ gần nếu tồn tại một lân cận $V$ sao cho quan hệ $(x, y) \in V$ kéo theo $R \{ x, y \}$.
 
-#### Nhận xét 2 {#top-ii-s1-n1-rem-2 .statement}
+#### Nhận xét 2 {#top-ii-s1-n1-rem-2 .statement tag=0BD0}
 
 Phép hội của các tiên đề (U_{II}) và (U_{III}) là tương đương (giả sử các tiên đề khác của các cấu trúc uniform) với tiên đề sau:
 
@@ -66,11 +66,11 @@ Rõ ràng (U_{II}) và (U_{III}) kéo theo (U_a). Ngược lại, nếu (U_a) đ
 
 Trong suốt chương này ta sẽ viết $\overline{V}^2$ thay cho $V \circ V$, và nói chung $\overline{V}^{n-1} = \overline{V} \circ V = V \circ \overline{V}^{n-1}$, với mỗi số nguyên $n > 1$ và mỗi tập con $V$ của $X \times X$.
 
-#### Nhận xét 3 {#top-ii-s1-n1-rem-3 .statement}
+#### Nhận xét 3 {#top-ii-s1-n1-rem-3 .statement tag=0BD1}
 
 Nếu $X$ không rỗng, thì tiên đề (U_I) kéo theo rằng không có tập hợp nào của $\mathfrak{U}$ là rỗng, và do đó $\mathfrak{U}$ là một lọc trên $X \times X$. Chỉ có một uniformity trên tập rỗng, đó là $\mathfrak{U} = \{ \emptyset \}$.
 
-#### Định nghĩa 2 {#top-ii-s1-def-2 .statement}
+#### Định nghĩa 2 {#top-ii-s1-def-2 .statement tag=0BD2}
 
 Một hệ cơ sở các lân cận của một uniformity là bất kỳ tập hợp $\mathfrak{B}$ các lân cận nào sao cho mọi lân cận đều chứa một tập hợp thuộc $\mathfrak{B}$.
 
@@ -100,7 +100,7 @@ Chẳng hạn, nếu $X$ và $X'$ là hai tập hợp cùng lực lượng, thì
 
 ### 2. TÔPÔ CỦA MỘT KHÔNG GIAN ĐỀU
 
-#### Mệnh đề 1 {#top-ii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#top-ii-s1-prop-1 .statement tag=0BD3}
 
 *Cho $X$ là một tập hợp được trang bị một cấu trúc đều $U$, và với mỗi $x \in X$ ký hiệu $\mathfrak{B}(x)$ là tập hợp các tập con $V(x)$ của $X (*)$, trong đó $V$ chạy qua tập hợp các lân cận của $U$. Khi đó tồn tại duy nhất một tôpô trên $X$ sao cho, với mỗi $x \in X$, $\mathfrak{B}(x)$ là lọc lân cận của $x$ trong tôpô này.*
 
@@ -110,15 +110,15 @@ Ta phải chứng minh rằng $\mathfrak{B}(x)$ thỏa mãn các điều kiện 
 
 các điều kiện này suy ra ngay lập tức từ sự kiện rằng các lân cận của $\mathfrak{U}$ thỏa mãn $(\mathbf{F}_I),\ (\mathbf{F}_{II})$ và $(\mathbf{U}_I)$. Đối với $(\mathbf{V}_{IV})$, cho $V$ là một lân cận của $\mathfrak{U}$, $W$ là một lân cận của $\mathfrak{U}$ sao cho $\dot{W} \subset V$; khi đó nếu $(x, y) \in W$ và $(y, z) \in W$ thì ta có $(x, z) \in V$, do đó $W(y) \subset V(x)$ với mọi $y \in W(x)$, và vì vậy $V(x) \in \mathfrak{B}(y)$ với mọi $y \in W(x)$. Điều này hoàn tất chứng minh.
 
-#### Định nghĩa 3 {#top-ii-s1-def-3 .statement}
+#### Định nghĩa 3 {#top-ii-s1-def-3 .statement tag=0BD4}
 
 *Tôpô được xác định trong Mệnh đề 1 được gọi là tôpô cảm sinh bởi cấu trúc đều $\mathfrak{U}$.*
 
-#### Ví dụ 1 {#top-ii-s1-n2-exa-1 .statement}
+#### Ví dụ 1 {#top-ii-s1-n2-exa-1 .statement tag=0BD5}
 
 Tôpô cảm sinh bởi cấu trúc đều cộng tính trên tập hợp các số thực là tôpô của đường thẳng thực (Chương I, § 1, no. 2); tương tự, tôpô cảm sinh bởi cấu trúc đều cộng tính trên tập hợp các số hữu tỉ là tôpô của đường thẳng hữu tỉ.*
 
-#### Ví dụ 2 {#top-ii-s1-n2-exa-2 .statement}
+#### Ví dụ 2 {#top-ii-s1-n2-exa-2 .statement tag=0BD6}
 
 Trên một tập hợp bất kỳ $X$, tôpô cảm sinh bởi cấu trúc đều rời rạc (no. 1, Ví dụ 2) là tôpô rời rạc.
 
@@ -129,7 +129,7 @@ Nếu $X$ và $X'$ là hai không gian đều, mọi đẳng cấu $f$ của c�
 Nói cách khác, các cấu trúc đều *phân biệt* trên cùng một tập hợp $X$ có thể cảm sinh cùng một tôpô. *Chẳng hạn, trên ]0, +∞[, các cấu trúc đều *cộng tính* và *nhân tính* (là phân biệt: Chương III, § 6, Bài tập 17) cảm sinh cùng một tôpô.*
 Một ví dụ khác xem § 2, no. 2, Nhận xét 1.
 
-#### Mệnh đề 2 {#top-ii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#top-ii-s1-prop-2 .statement tag=0BD7}
 
 *Cho $X$ là một không gian đều. Với mọi lân cận đối xứng $V$ của $X$ và mọi tập con $M$ của $X \times X$, $VMV$ là một lân cận của $M$ trong không gian tích $X \times X$, và bao đóng của $M$ trong không gian này được cho bởi công thức*
 
@@ -141,7 +141,7 @@ $$
 
 Cho $V$ là một lân cận đối xứng của $X$. Quan hệ $(x, y) \in VMV$ có nghĩa là tồn tại một phần tử $(p, q)$ của $M$ sao cho $(x, p) \in V$ và $(q, y) \in V$: nói cách khác (do $V$ đối xứng) $x \in V(p)$ và $y \in V(q)$, tức là $(x, y) \in V(p) \times V(q)$. Vì $V(p) \times X(q)$ là một lân cận của $(p, q)$ trong $X \times X$, phần đầu tiên của mệnh đề được chứng minh. Các quan hệ $(x, p) \in V, (y, q) \in V$ cũng có thể được viết là $p \in V(x), q \in V(y)$ hoặc $(p, q) \in V(x) \times V(y)$. Khi $V$ chạy qua $\mathscr{S}$, các tập hợp $V(x) \times V(y)$ tạo thành một hệ cơ bản các lân cận của $(x, y)$ trong $X \times X$; vì nếu $U, U'$ là hai lân cận bất kỳ thì luôn tồn tại một lân cận đối xứng $V \subset U \cap U'$, sao cho $V(x) \times V(y) \subset U(x) \times U'(y)$. Do đó $V(x) \times V(y)$ gặp $M$ với mỗi $V \in \mathscr{S}$ khi và chỉ khi $(x, y) \in \overline{M}$, và công thức (1) suy ra.
 
-#### Hệ quả 1 {#top-ii-s1-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#top-ii-s1-prop-2-cor-1 .statement tag=0BD8}
 
 *Nếu $A$ là một tập con bất kỳ của $X$ và $V$ là một lân cận đối xứng bất kỳ của $X$, thì $V(A)$ là một lân cận của $A$ trong $X$, và*
 
@@ -159,17 +159,17 @@ Nếu $V$ là một quan hệ lân cận *mở* trong $X \times X$, thì $V(x)$ 
 
 Cũng cần nhận xét rằng khi $V$ chạy qua tập hợp các quan hệ lân cận của $X$, các tập hợp $V(A)$ không nhất thiết tạo thành một hệ lân cận cơ bản của $A$ trong $X$ (Bài tập 2).
 
-#### Hệ quả 2 {#top-ii-s1-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#top-ii-s1-prop-2-cor-2 .statement tag=0BD9}
 
 *Các phần trong (tương ứng, các bao đóng của) các quan hệ lân cận của $X$ trong $X \times X$ tạo thành một hệ các quan hệ lân cận cơ bản của $X$.*
 
 Nếu $V$ là một quan hệ lân cận bất kỳ của $X$, thì tồn tại một quan hệ lân cận đối xứng $W$ sao cho $W \subset V$; vì $W$ là một lân cận của $W$ (Mệnh đề 2), phần trong của $V$ trong $X \times X$ chứa $W$ và do đó là một quan hệ lân cận. Hơn nữa, ta có $W \subset W \subset W \subset V$ theo Mệnh đề 2, và do đó $V$ chứa bao đóng của một quan hệ lân cận.
 
-#### Hệ quả 3 {#top-ii-s1-prop-2-cor-3 .statement}
+#### Hệ quả 3 {#top-ii-s1-prop-2-cor-3 .statement tag=0BDA}
 
 *Mọi không gian đều thỏa mãn tiên đề* $(O_{III})$.
 
-#### Mệnh đề 3 {#top-ii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#top-ii-s1-prop-3 .statement tag=0BDB}
 
 *Một không gian đều $X$ là Hausdorff khi và chỉ khi giao của tất cả các quan hệ lân cận của cấu trúc đều của nó là đường chéo $\Delta$ của $X \times X$. Mọi không gian đều Hausdorff đều chính quy.*
 

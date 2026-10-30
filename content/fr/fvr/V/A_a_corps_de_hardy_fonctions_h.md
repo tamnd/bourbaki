@@ -38,7 +38,7 @@ subsections:
       pdf_page: 249
 statements: 21
 exercises: 15
-content_sha256: f39fc514fc3aaf43f614ac75943091a33cbbf7bc2e0d6bc1ce3a511b2f3a1c03
+content_sha256: 7e1e2f4c4ac6d5b481a1998e91456c5a316cc6dd70cd8e4823f7a81f8aeeb61d
 ---
 
 ## APPENDICE
@@ -49,7 +49,7 @@ content_sha256: f39fc514fc3aaf43f614ac75943091a33cbbf7bc2e0d6bc1ce3a511b2f3a1c03
 
 Soit $\mathfrak{F}$ la base de filtre sur $\mathbf{R}$ constituée par les intervalles de la forme $[x_0, +\infty[$. Rappelons que, dans l’ensemble $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ des fonctions numériques définies dans des parties appartenant à $\mathfrak{F}$, nous avons défini la relation d’équivalence $R_\infty$: « il existe un ensemble $M \in \mathfrak{F}$ tel que $f(x) = g(x)$ dans $M$ » (V, p. 2), et que l’ensemble quotient $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ est muni d’une structure d’anneau ayant un élément unité.
 
-#### Définition 1 {#fvr-v-a0-def-1 .statement}
+#### Définition 1 {#fvr-v-a0-def-1 .statement tag=08GO}
 
 Étant donné un sous-ensemble $\mathfrak{A}$ de $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, on dit que $\mathfrak{A}/R_\infty$ (image canonique de $\mathfrak{A}$ dans $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) est un corps de Hardy, si $\mathfrak{A}$ satisfait aux conditions suivantes:
 1° $\mathfrak{A}/R_\infty$ est un sous-corps de l’anneau $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$.
@@ -59,11 +59,11 @@ L’hypothèse que $\mathfrak{A}/R_\infty$ est un corps équivaut aux conditions
 
 Par abus de langage, si $\mathfrak{A}$ est tel que $\mathfrak{A}/R_\infty$ soit un corps de Hardy, nous dirons dans ce qui suit que $\mathfrak{A}$ lui-même est un corps de Hardy.
 
-#### Exemple 1 {#fvr-v-a0-n1-exa-1 .statement}
+#### Exemple 1 {#fvr-v-a0-n1-exa-1 .statement tag=08GP}
 
 Tout corps de Hardy contient le corps des constantes rationnelles (plus petit corps de caractéristique 0, cf. A, V, § 1), qu’on peut identifier au corps $\mathbf{Q}$; d’ailleurs, comme deux constantes ne sont congrues modulo $R_{\infty}$ que si elles sont égales, $\mathbf{Q}/R_{\infty}$ est identique à $\mathbf{Q}$. Les *constantes réelles* forment aussi un corps de Hardy, qu’on peut identifier à $\mathbf{R}$.
 
-#### Exemple 2 {#fvr-v-a0-n1-exa-2 .statement}
+#### Exemple 2 {#fvr-v-a0-n1-exa-2 .statement tag=08GQ}
 
 Un exemple plus important de corps de Hardy est l’*ensemble des fonctions rationnelles à coefficients réels*, que nous noterons $\mathbf{R}(x)$ par abus de langage; si $f(x) = p(x)/q(x)$ est une fonction rationnelle à coefficients réels, non identiquement nulle, elle est continue, dérivable et $\neq 0$ dans l’intervalle $(a, +\infty[$, où $a$ est strictement supérieur à la plus grande des racines réelles des polynômes $p(x)$ et $q(x)$; donc tout élément de $\mathbf{R}(x)/R_{\infty}$ autre que 0 est inversible. On notera encore que deux fonctions rationnelles ne peuvent être congrues modulo $R_{\infty}$ que si elles sont égales, donc $\mathbf{R}(x)/R_{\infty}$ peut encore être identifié à $\mathbf{R}(x)$.
 
@@ -71,7 +71,7 @@ Un exemple plus important de corps de Hardy est l’*ensemble des fonctions rati
 
 Étant donné un corps de Hardy $\mathfrak{K}$, nous allons voir comment on peut former de nouveaux corps de Hardy $\mathfrak{K}' \supset \mathfrak{K}$ tels que $\mathfrak{K}'/R_{\infty}$ s’obtienne par *adjonction* à $\mathfrak{K}/R_{\infty}$ (au sens algébrique du terme, cf. A, V, § 2) de nouveaux éléments, d’une forme que nous allons préciser.
 
-#### Lemme 1 {#fvr-v-a0-lem-1 .statement}
+#### Lemme 1 {#fvr-v-a0-lem-1 .statement tag=08GR}
 
 *Soient $a(x)$, $b(x)$ des fonctions numériques continues et ne changeant pas de signe dans un intervalle $(x_0, +\infty[$. Si, dans cet intervalle, la fonction $y(x)$ est continue et dérivable et vérifie l’identité*
 
@@ -83,11 +83,11 @@ $$
 
 En effet, posons $z(x) = y(x) \exp \left( -\int_{x_0}^x a(t)\,dt \right)$ (cf. IV, p. 22); on a, d’après (1), $z'(x) = b(x) \exp \left( -\int_{x_0}^x a(t)\,dt \right)$. Si $b(x) \geqslant 0$ pour $x \geqslant x_0$, $z$ est croissante dans cet intervalle, donc, ou bien est $< 0$ dans tout l’intervalle, ou bien est nulle dans un intervalle $(x_1, +\infty[$, ou bien est $> 0$ dans un intervalle $(x_1, +\infty[$; comme $y$ a le même signe que $z$, la proposition est démontrée dans ce cas. Raisonnement analogue si $b(x) \leqslant 0$ pour $x \geqslant x_0$.
 
-#### Remarque {#fvr-v-a0-n2-rem-1 .statement}
+#### Remarque {#fvr-v-a0-n2-rem-1 .statement tag=08GS}
 
 Cette propriété si élémentaire ne s’étend pas aux équations différentielles linéaires d’ordre $> 1$; par exemple, la fonction $y = \sin x$ satisfait à $y'' + y = 0$, mais change de signe dans tout voisinage de $+\infty$.
 
-#### Lemme 2 {#fvr-v-a0-lem-2 .statement}
+#### Lemme 2 {#fvr-v-a0-lem-2 .statement tag=08GT}
 
 *Soient $a(x)$ et $b(x)$ deux fonctions appartenant à un même corps de Hardy $\mathfrak{K}$, $y(x)$ une fonction satisfaisant à l’identité (1) dans un intervalle $(x_0, +\infty[$ où $a$ et $b$ sont définies et continues. Si $p(u)$ est un polynôme par rapport à $u$, dont les coefficients sont des fonctions de $x$ appartenant à $\mathfrak{K}$, définies et dérivables dans $(x_0, +\infty[$, il existe un intervalle $(x_1, +\infty[$, dans lequel la fonction $p(y)$ ne change pas de signe.*
 
@@ -102,7 +102,7 @@ $$
 
 où $q(u)$ est un polynôme de degré $\leq n - 1$, à coefficients dans $\mathbf{A}$. Par hypothèse, les fonctions $na(x)$ et $q(y(x))$ ne changent pas de signe dans un intervalle $(\beta, +\infty[$; le lemme est donc une conséquence du lemme 1.
 
-#### Théorème 1 {#fvr-v-a0-thm-1 .statement}
+#### Théorème 1 {#fvr-v-a0-thm-1 .statement tag=08GU}
 
 Soient $a(x)$ et $b(x)$ deux fonctions appartenant à un même corps de Hardy $\mathbf{A}$, $y(x)$ une fonction satisfaisant à (1) dans un intervalle $(x_0, +\infty[$. Lorsque $r(u) = p(u)/q(u)$ parcourt l’ensemble des fractions rationnelles en $u$ à coefficients dans $\mathbf{A}$ telles que $q(y)$ ne soit pas identiquement nulle dans un voisinage de $+\infty$, l’ensemble $\mathbf{A}(y)$ des fonctions $r(y)$ forme un corps de Hardy.
 
@@ -116,19 +116,19 @@ $$
 
 Il est clair que $\mathbf{A}(y)/\mathbf{R}_\infty$ s’obtient par adjonction algébrique à $\mathbf{A}/\mathbf{R}_\infty$ de la classe de $y$ modulo $\mathbf{R}_\infty$. On dit encore que $\mathbf{A}(y)$ s’obtient par adjonction de $y$ à $\mathbf{A}$.
 
-#### Corollaire 1 {#fvr-v-a0-thm-1-cor-1 .statement}
+#### Corollaire 1 {#fvr-v-a0-thm-1-cor-1 .statement tag=08GV}
 
 Si $y$ est une fonction de $\mathbf{A}$ non identiquement nulle dans un voisinage de $+\infty$, $\mathbf{A}(\log|y|)$ est un corps de Hardy.
 
 En effet, $(\log|y|)' = y'/y$ est égale à une fonction de $\mathbf{A}$ dans un intervalle $(x_0, +\infty[$.
 
-#### Corollaire 2 {#fvr-v-a0-thm-1-cor-2 .statement}
+#### Corollaire 2 {#fvr-v-a0-thm-1-cor-2 .statement tag=0E5S}
 
 Si $y$ est une fonction quelconque de $\mathbf{A}$, $\mathbf{A}(e^y)$ est un corps de Hardy.
 
 En effet, $(e^y)' = e^y y'$, et $y'$ est égale à une fonction de $\mathbf{A}$ dans un intervalle $(x_0, +\infty[$.
 
-#### Corollaire 3 {#fvr-v-a0-thm-1-cor-3 .statement}
+#### Corollaire 3 {#fvr-v-a0-thm-1-cor-3 .statement tag=0E5T}
 
 Si $\mathbf{A}$ contient les constantes réelles, et si $y$ est une fonction de $\mathbf{A}$ non identiquement nulle dans un voisinage de $+\infty$, $g(|y|^{\alpha})$ est un corps de Hardy pour tout nombre réel $\alpha$.
 
@@ -138,7 +138,7 @@ Notons enfin que si $y$ est une primitive d’une fonction quelconque de $\mathb
 
 ### 3. Comparaison des fonctions d’un corps de Hardy
 
-#### Proposition 1 {#fvr-v-a0-prop-1 .statement}
+#### Proposition 1 {#fvr-v-a0-prop-1 .statement tag=08GW}
 
 Deux fonctions appartenant à un même corps de Hardy sont comparables d’ordre quelconque (V, p. 22).
 
@@ -162,7 +162,7 @@ La prop. 8 de V, p. 23, est donc applicable à toute fonction $f$ d’un corps d
 
 On a en outre la proposition suivante:
 
-#### Proposition 2 {#fvr-v-a0-prop-2 .statement}
+#### Proposition 2 {#fvr-v-a0-prop-2 .statement tag=08GX}
 
 Soit $f$ une fonction appartenant à un corps de Hardy $\mathfrak{A}$.
 1° Si $f$ est d’ordre infini par rapport à $x$, on $a$, pour tout entier $n > 0$,
@@ -195,7 +195,7 @@ Si $f$ est équivalente à une constante $k \neq 0$, on a $f(x) = k + f_2(x)$ av
 
 ### 4. Fonctions (H)
 
-#### Proposition 3 {#fvr-v-a0-prop-3 .statement}
+#### Proposition 3 {#fvr-v-a0-prop-3 .statement tag=08GY}
 
 Si $\mathfrak{R}_0$ est un corps de Hardy, il existe un corps de Hardy $\mathfrak{R}$, contenant $\mathfrak{R}_0$ et tel que, pour toute fonction $z \in \mathfrak{R}$, non identiquement nulle dans un voisinage de $+\infty$, $e^z$ et $\log |z|$ appartiennent à $\mathfrak{R}$.
 
@@ -207,7 +207,7 @@ On dira que le corps de Hardy $\mathfrak{R}$ défini dans la démonstration de l
 
 Si $\mathfrak{R}'$ est un autre corps de Hardy possédant les propriétés énoncées dans la prop. 3, il résulte de la construction de $\mathfrak{R}$ que $\mathfrak{R}/\mathbf{R}_\infty$ est contenu dans $\mathfrak{R}'/\mathbf{R}_\infty$. Par abus de langage, on peut donc dire que l’extension (H) d’un corps de Hardy $\mathfrak{R}_0$ est le plus petit corps de Hardy $\mathfrak{R}$ ayant les propriétés énoncées dans la prop. 3.
 
-#### Définition 2 {#fvr-v-a0-def-2 .statement}
+#### Définition 2 {#fvr-v-a0-def-2 .statement tag=08GZ}
 
 On appelle corps des fonctions (H) l’extension (H) du corps de Hardy $\mathbf{R}(x)$ des fonctions rationnelles à coefficients réels. Toute fonction appartenant à cette extension est dite fonction (H).
 
@@ -269,7 +269,7 @@ Considérons d’abord l’ensemble $\mathscr{E}_0$ des fonctions de la forme $\
 
 Cela étant, si $\mathscr{E}$ est la réunion des $\mathscr{E}_n$ pour $n \geqslant 0$, $\mathscr{E}$ est une échelle de comparaison, car deux fonctions de $\mathscr{E}$ appartiennent à une même échelle $\mathscr{E}_n$; pour la même raison, $\mathscr{E}$ satisfait à a), et il est clair qu’elle satisfait aussi à b) et c). Enfin, si $f \in \mathscr{E}$, il existe $n$ tel que $f \in \mathscr{E}_n$; si $f$ n’est pas la constante 1, $f(x)$ tend vers 0 ou vers $+\infty$ lorsque $x$ tend vers $+\infty$; dans le premier cas, $e^f \sim 1$, et dans le second, $e^f$ appartient à $\mathscr{E}_{n+1}$ par définition, donc à $\mathscr{E}$.
 
-#### Remarque {#fvr-v-a0-n5-rem-1 .statement}
+#### Remarque {#fvr-v-a0-n5-rem-1 .statement tag=08H0}
 
 Malgré l’utilité pratique de l’échelle $\mathscr{E}$ que nous venons de définir, il est facile de donner des exemples de fonctions (H) qui n’ont pas de partie principale par rapport à $\mathscr{E}$. En effet, si $f$ est une fonction (H) telle que $f \sim ag$, où $a$ est une constante $> 0$ et $g \in \mathscr{E}$, $\log f - \log g - \log a$ tend vers 0 avec $1/x$, donc $\log f$ admet, relativement à $\mathscr{E}$, un développement asymptotique dont le reste tend vers 0, en vertu de la propriété c). Or, si on considère par exemple la fonction (H)
 $$
@@ -287,7 +287,7 @@ Si $f$ est une fonction (H), $f$ est monotone et continue dans un intervalle $(x
 
 Nous utiliserons la proposition suivante:
 
-#### Proposition 4 {#fvr-v-a0-prop-4 .statement}
+#### Proposition 4 {#fvr-v-a0-prop-4 .statement tag=08H1}
 
 Soient $p$ et $q$ deux fonctions (H) strictement positives dans un intervalle $(x_0, +\infty)$.
 
@@ -307,7 +307,7 @@ $$
 
 puisque $x - q(x)$ tend vers $+\infty$. Reste uniquement à examiner le cas où $p'/p \ll 1$. Supposons d’abord que $p(x)$ soit d’ordre fini par rapport à $x$, donc (V, p. 22, prop. 7) que $p'(x)/p(x) \ll 1/x$. On a alors $\frac{p'(x-q(x))}{p(x-q(x))} = \frac{1}{x-q(x)} O_1(1)$, donc $q(x) \frac{p'(x-q(x))}{p(x-q(x))} = \frac{q(x)}{x} \left( 1 - \frac{q(x)}{x} \right)^{-1} O_1(1) = \frac{q(x)}{x} O_2(1)$ et on voit que dans ce cas la proposition est vraie sous la seule hypothèse $q(x) \ll x$. Considérons enfin le cas où $1/x \ll p'(x)/p(x) \ll 1$; la fonction $r = p'/p$ est alors d’ordre fini par rapport à $x$; comme d’après la remarque précédente, la prop. 4 de V, p. 44, est applicable à une telle fonction, on a $p'(x-q(x))/p(x-q(x)) \sim p'(x)/p(x)$, et l’hypothèse $qp' \ll p$ permet alors d’achever la démonstration.
 
-#### Remarque {#fvr-v-a0-n6-rem-3 .statement}
+#### Remarque {#fvr-v-a0-n6-rem-3 .statement tag=08H2}
 
 Les conditions imposées à $q(x)$ ne peuvent être améliorées, comme le montrent les exemples suivants:
 
@@ -318,7 +318,7 @@ b) $p(x) = \log x, \quad q(x) = x - \log x \ll \frac{p(x)}{p'(x)} = x \log x,$
 
 Nous allons d’abord étudier les fonctions réciproques d’un type particulier de fonctions (H):
 
-#### Proposition 5 {#fvr-v-a0-prop-5 .statement}
+#### Proposition 5 {#fvr-v-a0-prop-5 .statement tag=08H3}
 
 Soit $g$ une fonction (H) non équivalente à une constante $\neq 0$ et telle que $g(x) \ll x$, et soit $u(x)$ la fonction réciproque de $x - g(x)$, définie dans un voisinage de $+\infty$. Soit $(u_n)$ la suite de fonctions définie, par récurrence sur $n$, par les conditions $u_0(x) = x,$ $u_n(x) = x + g(u_{n-1}(x))$ pour $n \geqslant 1$; on a $u_n \gg 1$, et
 $$
@@ -353,13 +353,13 @@ y - y_n \sim (y - y_{n-1})g'(x),
 $$
 d’où (11) par récurrence sur $n$.
 
-#### Remarque 1 {#fvr-v-a0-n6-rem-1 .statement}
+#### Remarque 1 {#fvr-v-a0-n6-rem-1 .statement tag=08H4}
 
 Si $g$ est d’ordre $< 1$ par rapport à $x$, la fonction $u(x) - u_n(x)$ tend vers 0 avec $1/x$ dès que $n$ est assez grand. En effet, dans le cas contraire, on aurait $gg^n \gg 1$ pour tout $n$, donc $g$ serait d’ordre infini par rapport à $1/g'$; autrement dit, on aurait $\log |g| \gg \log |g'|$, d’où en dérivant $g'/g \gg g''/g'$. Mais, si $g$ est d’ordre $\mu < 1$ par rapport à $x$, on a $g'/g \sim g''/g'$ lorsque $\mu = -\infty$, $\frac{g'}{g} \sim \frac{\mu}{\mu - 1} \frac{g''}{g'}$ lorsque $\mu \neq 0$ et enfin $g'/g \ll g''/g'$ lorsque $\mu = 0$ (V, p. 40, no 3).
 
 Par contre, si $g$ est d’ordre 1 par rapport à $x$, on peut avoir $gg^n \gg 1$ pour tout entier $n > 0$, comme le montre l’exemple $g(x) = x/\log x$.
 
-#### Remarque 2 {#fvr-v-a0-n6-rem-2 .statement}
+#### Remarque 2 {#fvr-v-a0-n6-rem-2 .statement tag=08H5}
 
 Lorsque $g(x)$ est une fonction (H) équivalente à une constante $k \neq 0$, on a $g(x) = k + g_1(x)$, avec $g_1 \ll 1$; la fonction $u_1(x) = u(x) - k$ est fonction réciproque de $x - g_1(x + k)$, et on est ramené au cas traité dans la prop. 5 de V, p. 45.
 
@@ -373,7 +373,9 @@ $$
 
 où $\varphi$ est une fonction (H), $\psi$ une fonction (H) telle que $\psi \gg 1$ et que la fonction réciproque $\theta$ de $\psi$ soit aussi une fonction (H), et $g$ une fonction (H) telle que $g \ll \psi$. Soit alors $v(x)$ la fonction réciproque de $x - g(\theta(x))$; on a $u = \theta \circ v \circ \varphi$, et $g(\theta(x)) \ll x$; si on connaît un développement asymptotique de $v$ grâce à la prop. 5 de V, p. 45, on en déduira un développement asymptotique de $u$ par de V, p. 14 à 17.
 
-**Exemples. — 1)** Cherchons un développement asymptotique de la fonction réciproque $v(x)$ de $x^5 + x$ (pour $x$ tendant vers $+\infty$); en posant $x^5 = t$, on est ramené à chercher un développement de la fonction réciproque $u(t)$ de $t + t^{1/5}$ (pour $t$ tendant vers $+\infty$), c’est-à-dire à appliquer la prop. 5 de V, p. 45, au cas où $g(t) = -t^{1/5}$. Calculons par exemple $u_2(t)$; on a
+#### Exemples {#fvr-v-a0-n6-exa-1 .statement tag=08H6}
+
+**1)** Cherchons un développement asymptotique de la fonction réciproque $v(x)$ de $x^5 + x$ (pour $x$ tendant vers $+\infty$); en posant $x^5 = t$, on est ramené à chercher un développement de la fonction réciproque $u(t)$ de $t + t^{1/5}$ (pour $t$ tendant vers $+\infty$), c’est-à-dire à appliquer la prop. 5 de V, p. 45, au cas où $g(t) = -t^{1/5}$. Calculons par exemple $u_2(t)$; on a
 
 $$
 u_2(t) = t - (t - t^{1/5})^{1/5} = t - t^{1/5} + \frac{1}{5} t^{-3/5} + \frac{2}{25} t^{-7/5} + o_1(t^{-7/5}).
@@ -421,7 +423,7 @@ $$
 v(x) = x \log x + x \log \log x + x \frac{\log \log x}{\log x} + o\left(x \frac{\log \log x}{\log x}\right).
 $$
 
-#### Remarque {#fvr-v-a0-n6-rem-4 .statement}
+#### Remarque {#fvr-v-a0-n6-rem-4 .statement tag=08H8}
 
 On notera que deux fonctions (H) équivalentes peuvent avoir des fonctions réciproques non équivalentes, comme le montre l’exemple des deux fonctions $\log x$ et $1 + \log x$.
 

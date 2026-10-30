@@ -29,9 +29,9 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 7d6c8c7a8a214f0f2c6921955cd8ec82d2d5dcfb08e34a3c000698737def30bc
+content_sha256: bcc108cc8bb113dc00049c789689bab80ae65f2247dd333662d9a707d17fc5da
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
-source_content_sha256: 8e8821ce947a2c6c29610c1d635790feb7ff2e056a08ea9ee06d29dad34cf210
+source_content_sha256: 426a0db21fa5ed22b6760dc79332adbd1c61d03bf2c3a4f077a67b035b99eabb
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-ee3a5201
 glossary_version: 34
@@ -90,7 +90,7 @@ cho $x \in E, y \in F, \gamma \in C$.
 
 Do đó ta đã thiết lập được kết quả sau (với ký hiệu đã đưa vào ở trên):
 
-#### Mệnh đề 1 {#alg-ii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ii-s4-prop-1 .statement tag=05PP}
 
 (a) *Cho E là một (B, A)-song môđun, F là một A-môđun trái và G là một B-môđun trái. Với mọi ánh xạ $g \in \mathrm{Hom}_B(E \otimes_A F, G)$, gọi $g'$ là ánh xạ từ F vào $\mathrm{Hom}_B(E, G)$ được xác định bởi $(g'(y))(x) = g(x \otimes y)$ với $x \in E, y \in F$. Ánh xạ $g \mapsto g'$ là một đẳng cấu*
 
@@ -114,7 +114,7 @@ $$
 
 đẳng cấu chính tắc với môđun $\Gamma$ của các ánh xạ $\Gamma$-*song tuyến tính* từ $E \times F$ vào G thỏa mãn (1). Cụ thể hơn:
 
-#### Hệ quả {#alg-ii-s4-n1-cor-1 .statement}
+#### Hệ quả {#alg-ii-s4-n1-cor-1 .statement tag=05PQ}
 
 *Nếu C là một vành giao hoán và E, F, G là ba C-môđun, thì các C-môđun*
 $$
@@ -137,7 +137,7 @@ $$
 
 Ngay lập tức kiểm tra được rằng, nếu E là một (A, (C'_i); (D'_j))-đa môđun, F là một (B, (C''_h); (D''_k))-đa môđun và G là một (A, (C'''_1); B, (D'''_m))-đa môđun, thì ánh xạ (7) là một đồng cấu đa môđun ((D'_j), (C''_h), (C'''_1); (C'_i), (D''_k), (D'''_m)).
 
-#### Mệnh đề 2 {#alg-ii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ii-s4-prop-2 .statement tag=05PR}
 
 (i) *Khi $F$ là một xạ ảnh (resp. xạ ảnh sinh hữu hạn) B-môđun, thì đồng cấu chính tắc (7) là đơn ánh (resp. song ánh).*
 
@@ -157,7 +157,7 @@ $$
 
 mặt khác ta viết $\nu_F$ thay cho $\nu$. Khi đó ta có các bổ đề sau:
 
-#### Bổ đề 1 {#alg-ii-s4-lem-1 .statement}
+#### Bổ đề 1 {#alg-ii-s4-lem-1 .statement tag=05PS}
 
 *Với mọi đồng cấu $u : F \to F'$, biểu đồ*
 
@@ -173,7 +173,7 @@ $$
 
 Việc kiểm tra là ngay lập tức.
 
-#### Bổ đề 2 {#alg-ii-s4-lem-2 .statement}
+#### Bổ đề 2 {#alg-ii-s4-lem-2 .statement tag=05PT}
 
 Cho $M, N$ là hai môđun con bù nhau trong $F$ và $i : M \to F, j : N \to F$ là các phép nhúng chính tắc. Biểu đồ
 
@@ -189,7 +189,7 @@ là giao hoán và các mũi tên đứng là song ánh.
 
 Tính giao hoán suy ra từ Bổ đề 1, các khẳng định còn lại suy ra từ § 1, no. 6, Hệ quả 2 của Mệnh đề 6 và § 3, no. 7, Mệnh đề 7.
 
-#### Bổ đề 3 {#alg-ii-s4-lem-3 .statement}
+#### Bổ đề 3 {#alg-ii-s4-lem-3 .statement tag=05PU}
 
 Với các giả thiết của Bổ đề 2, để $\nu_F$ là đơn ánh (resp. toàn ánh), điều kiện cần và đủ là $\nu_M$ và $\nu_N$ cũng có tính chất đó.
 
@@ -211,7 +211,7 @@ $$
 
 mặt khác, ta viết $\nu_E$ thay cho $\nu$. Khi đó ta có hai bổ đề sau:
 
-#### Bổ đề 4 {#alg-ii-s4-lem-4 .statement}
+#### Bổ đề 4 {#alg-ii-s4-lem-4 .statement tag=05PV}
 
 Với mọi đồng cấu $v : E \to E'$, biểu đồ
 
@@ -225,7 +225,7 @@ $$
 
 là giao hoán.
 
-#### Bổ đề 5 {#alg-ii-s4-lem-5 .statement}
+#### Bổ đề 5 {#alg-ii-s4-lem-5 .statement tag=05PW}
 
 Cho $M$ và $N$ là hai môđun con bù nhau trong $E$ và $p : E \to M, q : E \to N$ là các phép chiếu chính tắc. Biểu đồ
 
@@ -260,7 +260,7 @@ $$
 $$
 sao cho $1_E$ thuộc ảnh của $\theta_E$.
 
-#### Hệ quả {#alg-ii-s4-n2-cor-1 .statement}
+#### Hệ quả {#alg-ii-s4-n2-cor-1 .statement tag=05PX}
 
 (i) *Khi $F$ là một môđun xạ ảnh* (resp. *môđun xạ ảnh sinh hữu hạn*) *thì đồng cấu chính tắc* (11) *là đơn ánh* (resp. *song ánh*).
 (ii) *Khi $E$ là một môđun xạ ảnh sinh hữu hạn, thì đồng cấu chính tắc* (11) *là song ánh.*
@@ -334,7 +334,7 @@ $$
 
 đối với $u, v$ trong $\mathrm{End}_C(E)$ và $\gamma \in C$. Hơn nữa:
 
-#### Mệnh đề 3 {#alg-ii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ii-s4-prop-3 .statement tag=05PY}
 
 *Cho $C$ là một vành giao hoán, $E, F$ là hai $C$*-môđun* xạ ảnh sinh hữu hạn và $u : E \to F$ cùng $v : F \to E$ là hai ánh xạ tuyến tính; khi đó*
 
@@ -350,7 +350,7 @@ $$
 
 vào $C$ là $C$*-song tuyến tính*; do đó chỉ cần kiểm tra (20) khi $u$ có dạng $x \mapsto \langle x, a^* \rangle b$ và $v$ có dạng $y \mapsto \langle y, b^* \rangle a$, với $a \in E, a^* \in E^*, b \in F, b^* \in F^*$. Nhưng khi đó $v \circ u$ là ánh xạ $x \mapsto \langle x, a^* \rangle \langle b, b^* \rangle a$ và $u \circ v$ là ánh xạ $y \mapsto \langle y, b^* \rangle \langle a, a^* \rangle b$. Công thức (17) chỉ ra rằng các giá trị của hai vế của (20) đều bằng $\langle a, a^* \rangle \langle b, b^* \rangle$.
 
-#### Hệ quả {#alg-ii-s4-n3-cor-1 .statement}
+#### Hệ quả {#alg-ii-s4-n3-cor-1 .statement tag=05PZ}
 
 *Nếu $u_1, \ldots, u_p$ là các tự đồng cấu của $E$, thì*
 
@@ -376,7 +376,7 @@ Cho C là một vành *giao hoán* và $E_1, E_2, F_1, F_2$ là bốn C-môđun;
 
 (21) $\lambda : \operatorname{Hom}(E_1, F_1) \otimes \operatorname{Hom}(E_2, F_2) \to \operatorname{Hom}(E_1 \otimes E_2, F_1 \otimes F_2)$.
 
-#### Mệnh đề 4 {#alg-ii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ii-s4-prop-4 .statement tag=05Q0}
 
 *Khi một trong các cặp có thứ tự* $(E_1, E_2), (E_1, F_1), (E_2, F_2)$ *gồm các C-môđun xạ ảnh sinh hữu hạn, đồng cấu chính tắc* (21) *là song ánh.*
 
@@ -446,11 +446,11 @@ E_1^* \otimes F_1^* & \xrightarrow{\mu} & (E_1 \otimes F_1)^*
 $$
 là *giao hoán*.
 
-#### Hệ quả 1 {#alg-ii-s4-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s4-prop-4-cor-1 .statement tag=05Q1}
 
 *Nếu một trong các môđun E, F là xạ ảnh và sinh hữu hạn, thì đồng cấu chính tắc (23) là song ánh.*
 
-#### Hệ quả 2 {#alg-ii-s4-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s4-prop-4-cor-2 .statement tag=05Q2}
 
 *Cho E₁, E₂ là hai C-môđun xạ ảnh sinh hữu hạn, u₁ là một tự đồng cấu của E₁ và u₂ là một tự đồng cấu của E₂; khi đó*
 
@@ -466,7 +466,7 @@ $$
 
 $x_1^* \otimes x_2^*$ được đồng nhất một cách chính tắc dưới $\mu$ với một phần tử của $(E_1 \otimes E_2)^*$. Vì $\langle y_1 \otimes y_2, x_1^* \otimes x_2^* \rangle = \langle y_1, x_1^* \rangle \langle y_2, x_2^* \rangle$, nên công thức (26) suy ra trong trường hợp này từ (17).
 
-#### Nhận xét {#alg-ii-s4-n4-rem-1 .statement}
+#### Nhận xét {#alg-ii-s4-n4-rem-1 .statement tag=05Q3}
 
 Nếu E, F, G là bất kỳ ba C-môđun nào, thì ngay lập tức kiểm tra được rằng biểu đồ
 

@@ -49,7 +49,7 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: 4ee708f9fa4f7e8fb3054751ddebec9c5c0b8cf15eb9db631c1d5700bde64464
+content_sha256: 4fff5edd8ba62b0c67040f4aad9934e1ca08a8f7749a27d75004f56f99335c47
 ---
 
 ## 3. COMPLETE SPACES
@@ -58,17 +58,17 @@ content_sha256: 4ee708f9fa4f7e8fb3054751ddebec9c5c0b8cf15eb9db631c1d5700bde64464
 
 Once a set $X$ has been endowed with a uniform structure we can define what is meant by a "small" subset of $X$ (relative to this structure): a "small" subset of $X$ is one in which all the points are "very close" to each other. Precisely:
 
-#### Definition 1 {#top-ii-s3-def-1 .statement}
+#### Definition 1 {#top-ii-s3-def-1 .statement tag=0BEE}
 
 If $X$ is a uniform space and if $V$ is an entourage of $X$, a subset $A$ of $X$ is said to be $V$-small if every pair of points of $A$ are $V$-close (in other words, if $A \times A \subset V$).
 
-#### Proposition 1 {#top-ii-s3-prop-1 .statement}
+#### Proposition 1 {#top-ii-s3-prop-1 .statement tag=0BEF}
 
 In a uniform space $X$, if two sets $A$ and $B$ are $V$-small and intersect, then their union $A \cup B$ is $\vec{V}$-small.
 
 Let $x$ and $y$ be any two points of $A \cup B$, and let $Z \in A \cap B$. Then $(x, z) \in V$ and $(z, y) \in V$, so that $(x, y) \in \overline{V}$.
 
-#### Definition 2 {#top-ii-s3-def-2 .statement}
+#### Definition 2 {#top-ii-s3-def-2 .statement tag=0BEG}
 
 *A filter $\mathfrak{F}$ on a uniform space $X$ is a Cauchy filter if for each entourage $V$ of $X$ there is a subset of $X$ which is $V$-small and belongs to $\mathfrak{F}$.*
 
@@ -76,7 +76,7 @@ Here again we may make our language more expressive by the use of the expression
 
 An infinite sequence $(u_n)$ of points of a uniform space $X$ is said to be a *Cauchy sequence* if the elementary filter associated with the sequence is a Cauchy filter. It comes to the same thing to say that for each entourage $V$ of $X$ there is an integer $n_0$ such that for all integers $m \geq n_0$ and $n \geq n_0$ we have $(u_m, u_n) \in V$.
 
-#### Proposition 2 {#top-ii-s3-prop-2 .statement}
+#### Proposition 2 {#top-ii-s3-prop-2 .statement tag=0BEH}
 
 *On a uniform space $X$ every convergent filter is a Cauchy filter.*
 
@@ -84,7 +84,7 @@ If $x$ is any point of $X$ and $V$ is any symmetric entourage of $X$, then the n
 
 Clearly every filter which is *finer* than a Cauchy filter is a Cauchy filter.
 
-#### Proposition 3 {#top-ii-s3-prop-3 .statement}
+#### Proposition 3 {#top-ii-s3-prop-3 .statement tag=0BEI}
 
 *Let $f : X \to X'$ be a uniformly continuous mapping. Then the image under $f$ of a Cauchy filter base on $X$ is a Cauchy filter base on $X'$.*
 
@@ -94,7 +94,7 @@ It follows in particular that if the uniformity of a uniform space $X$ is replac
 
 This fact can be easily remembered in the following form: *the finer the uniformity, the fewer Cauchy filters there are*.
 
-#### Proposition 4 {#top-ii-s3-prop-4 .statement}
+#### Proposition 4 {#top-ii-s3-prop-4 .statement tag=0BEJ}
 
 *Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of uniform spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $X$ carry the coarsest uniformity $U$ for which the $f_i$ are uniformly continuous. Then in order that a filter base $\mathfrak{B}$ on $X$ should be a Cauchy filter base it is necessary and sufficient that $f_i(\mathfrak{B})$ should be a Cauchy filter base on $Y_i$, for each $i \in I$.*
 
@@ -104,11 +104,11 @@ $$
 $$
 This completes the proof.
 
-#### Corollary 1 {#top-ii-s3-prop-4-cor-1 .statement}
+#### Corollary 1 {#top-ii-s3-prop-4-cor-1 .statement tag=0BEK}
 
 *If a Cauchy filter on a uniform space $X$ induces a filter on a subset $A$ of $X$, then this filter is a Cauchy filter on the uniform subspace $A$.*
 
-#### Corollary 2 {#top-ii-s3-prop-4-cor-2 .statement}
+#### Corollary 2 {#top-ii-s3-prop-4-cor-2 .statement tag=0BEL}
 
 *A filter base $\mathfrak{B}$ on a product $\prod_{i \in I} X_i$ of uniform spaces is a Cauchy filter base if and only if, for each $i \in I$, $\operatorname{pr}_i(\mathfrak{B})$ is a Cauchy filter base on $X_i$.*
 
@@ -116,31 +116,31 @@ This completes the proof.
 
 The minimal elements (with respect to inclusion) of the set of Cauchy filters on a uniform space $X$ are called *minimal Cauchy filters* on $X$.
 
-#### Proposition 5 {#top-ii-s3-prop-5 .statement}
+#### Proposition 5 {#top-ii-s3-prop-5 .statement tag=0BEM}
 
 *Let $X$ be a uniform space. For each Cauchy filter $\mathfrak{F}$ on $X$ there is a unique minimal Cauchy filter $\mathfrak{F}_0$ coarser than $\mathfrak{F}$. If $\mathfrak{B}$ is a base of $\mathfrak{F}$ and $\mathfrak{G}$ is a fundamental system of symmetric entourages of $X$, then the sets $V(M)$ ($M \in \mathfrak{B}, V \in \mathfrak{G}$) form a base of $\mathfrak{F}_0$.
 
 If $M, M'$ are in $\mathfrak{B}$ and $V, V'$ are in $\mathfrak{G}$, then there is a set $M'' \in \mathfrak{B}$ (resp. $V'' \in \mathfrak{G}$) such that $M'' \subset M \cap M'$ (resp. $V'' \subset V \cap V'$); hence $V''(M'') \subset V(M) \cap V'(M')$ and therefore the sets $V(M)$ ($M \in \mathfrak{B}, V \in \mathfrak{G}$) indeed form a base of a filter $\mathfrak{F}_0$ on $X$. Further, if $M$ is $V$-small, then $V(M)$ is $V$-small; hence $\mathfrak{F}_0$ is a Cauchy filter and is clearly coarser than $\mathfrak{F}$. To complete the proof it is enough to show that if $\mathfrak{G}$ is a Cauchy filter coarser than $\mathfrak{F}$, then $\mathfrak{G}$ is finer than $\mathfrak{F}_0$. For each $M \in \mathfrak{B}$ and each $V \in \mathfrak{G}$ there is a set $N \in \mathfrak{G}$ which is $V$-small; since $N \in \mathfrak{F}$, $N$ meets $M$; hence $N \subset V(M)$ and so $V(M) \in \mathfrak{G}$.
 
-#### Corollary 1 {#top-ii-s3-prop-5-cor-1 .statement}
+#### Corollary 1 {#top-ii-s3-prop-5-cor-1 .statement tag=0BEN}
 
 *For each $x \in X$, the neighbourhood filter $\mathfrak{B}(x)$ of $x$ in $X$ is a minimal Cauchy filter.*
 
 Take $\mathfrak{F}$ in Proposition 5 to be the filter of all subsets of $X$ which contain $x$, and take $\mathfrak{B}$ to consist of the single element $\{x\}$.
 
-#### Corollary 2 {#top-ii-s3-prop-5-cor-2 .statement}
+#### Corollary 2 {#top-ii-s3-prop-5-cor-2 .statement tag=0BEO}
 
 *Every cluster point* $x$ *of a Cauchy filter* $\mathfrak{F}$ *is a limit point of* $\mathfrak{F}$.
 
 There is a filter $\mathfrak{G}$ which is finer than both $\mathfrak{F}$ and $\mathfrak{B}(x)$ (Chapter I, § 7, no. 2, Proposition 4); since $\mathfrak{F}$ is a Cauchy filter, so is $\mathfrak{G}$. If $\mathfrak{F}_0$ is the unique minimal Cauchy filter coarser than $\mathfrak{F}$, then both $\mathfrak{F}_0$ and $\mathfrak{B}(x)$ are minimal Cauchy filters coarser than $\mathfrak{G}$. Hence $\mathfrak{F}_0 = \mathfrak{B}(x)$, which shows that $\mathfrak{F}$ converges to $x$.
 
-#### Corollary 3 {#top-ii-s3-prop-5-cor-3 .statement}
+#### Corollary 3 {#top-ii-s3-prop-5-cor-3 .statement tag=0BEP}
 
 *Every Cauchy filter, which is coarser than a filter converging to a point* $x$, *also converges to* $x$.
 
 This is a consequence of Corollary 2.
 
-#### Corollary 4 {#top-ii-s3-prop-5-cor-4 .statement}
+#### Corollary 4 {#top-ii-s3-prop-5-cor-4 .statement tag=0BEQ}
 
 *If* $\mathfrak{F}$ *is a minimal Cauchy filter, then every set of* $\mathfrak{F}$ *has a non-empty interior which also belongs to* $\mathfrak{F}$ *(in other words, $\mathfrak{F}$ has a base consisting of open sets)*.
 
@@ -150,7 +150,7 @@ Let $V$ be any entourage of $X$; then there is an open entourage $U \subset V$ (
 
 In a uniform space $X$, *a Cauchy filter need not have a limit point*.
 
-#### Example 1 {#top-ii-s3-n3-exa-1 .statement}
+#### Example 1 {#top-ii-s3-n3-exa-1 .statement tag=0BER}
 
 Consider the sequence $(u_n)$ on the rational line $\mathbf{Q}$ defined by $u_n = \sum_{p=0}^n 2^{-p(p+1)/2}$. If $m > n$ we have
 $$
@@ -166,7 +166,7 @@ $$
 $$
 for all $n$. Now the left-hand side of this inequality is an integer for all $n$, and must therefore be zero whenever $n$ is greater than an integer $n_0$ such that $b < 2^{n_0}$; we should therefore have $a/b = u_n$ for all $n > n_0$, which is absurd.
 
-#### Example 2 {#top-ii-s3-n3-exa-2 .statement}
+#### Example 2 {#top-ii-s3-n3-exa-2 .statement tag=0BES}
 
 Let $X$ be an infinite set, and consider the uniformity of finite partitions on $X$ ($\S$ 2, no. 2, Remark 1). Every *ultrafilter* $\mathfrak{F}$ on $X$ is a
 
@@ -176,19 +176,19 @@ V = \bigcup_i (A_i \times A_i)
 $$
 the corresponding entourage, then at least one of the $A_i$ belongs to $\mathfrak{F}$ (Chapter I, § 6, no. 4, Corollary to Proposition 5), and $A_i$ is V-small. On the other hand, $X$ is an infinite discrete space, hence is not compact, and consequently there are ultrafilters on $X$ which do not converge.
 
-#### Definition 3 {#top-ii-s3-def-3 .statement}
+#### Definition 3 {#top-ii-s3-def-3 .statement tag=0BET}
 
 *A complete space is a uniform space in which every Cauchy filter converges.*
 
 In a complete space every *Cauchy sequence* (no. 1) is therefore convergent.
 
-#### Example {#top-ii-s3-n3-exa-3 .statement}
+#### Example {#top-ii-s3-n3-exa-3 .statement tag=0BEU}
 
 On a *discrete* uniform space $X$ a Cauchy filter is a trivial ultrafilter (Chapter I, § 6, no. 4), hence convergent; consequently, $X$ is complete.
 
 From Definitions 2 and 3 of no. 1 and Proposition 2 of no. 1, we deduce the following proposition, known as *Cauchy’s criterion*:
 
-#### Proposition 6 {#top-ii-s3-prop-6 .statement}
+#### Proposition 6 {#top-ii-s3-prop-6 .statement tag=0BEV}
 
 *Let $\mathfrak{F}$ be a filter on a set $X$, and let $f$ be a mapping of $X$ into a complete uniform space $X'$. Then $f$ has a limit with respect to $\mathfrak{F}$ if and only if the image of $\mathfrak{F}$ under $f$ is a Cauchy filter base.*
 
@@ -196,13 +196,13 @@ This criterion shows the importance of complete spaces in all questions involvin
 
 A uniformity which is *finer* than the uniformity of a complete space need not be a uniformity of a complete space (Exercise 2). However, we have the following proposition:
 
-#### Proposition 7 {#top-ii-s3-prop-7 .statement}
+#### Proposition 7 {#top-ii-s3-prop-7 .statement tag=0BEW}
 
 *Let $\mathfrak{U}_1, \mathfrak{U}_2$ be two uniformities on a set $X$, and let $\mathfrak{T}_1, \mathfrak{T}_2$ be the topologies induced by these uniformities respectively. Suppose that $\mathfrak{U}_1$ is finer than $\mathfrak{U}_2$, and that there is a fundamental system of entourages for $\mathfrak{U}_1$ which are closed in $X \times X$ in the topology $\mathfrak{T}_2 \times \mathfrak{T}_2$. Then a filter $\mathfrak{F}$ on $X$ converges in the topology $\mathfrak{T}_1$ if and only if it is a Cauchy filter in the uniformity $\mathfrak{U}_1$ and converges in the topology $\mathfrak{T}_2$.*
 
 The conditions are clearly necessary, because $\mathfrak{T}_2$ is coarser than $\mathfrak{T}_1$. Conversely, suppose that the conditions are satisfied, and let $x$ be a limit point of $\mathfrak{F}$ with respect to $\mathfrak{T}_2$; we shall show that $x$ is a limit of $\mathfrak{F}$ with respect to $\mathfrak{T}_1$. Let $V$ be a symmetric entourage of $\mathfrak{U}_1$ which is closed in the topology $\mathfrak{T}_2 \times \mathfrak{T}_2$. By hypothesis, $\mathfrak{F}$ contains a set $M$ which is V-small; hence if $x' \in M$ we have $M \subset V(x')$. But $V(x')$ is closed in the topology $\mathfrak{T}_2$; hence $x$, which lies in the closure of $M$ with respect to $\mathfrak{T}_2$, must belong to $V(x')$. It follows that $M \subset \hat{V}(x)$, and the proposition is proved.
 
-#### Corollary {#top-ii-s3-n3-cor-1 .statement}
+#### Corollary {#top-ii-s3-n3-cor-1 .statement tag=0BEX}
 
 In the conditions of Proposition 7, if $U_2$ is a uniformity of a complete space, then so is $U_1$.
 
@@ -212,7 +212,7 @@ Note that the hypotheses of the Corollary to Proposition 7 are satisfied when $\
 
 ### 4. SUBSPACES OF COMPLETE SPACES
 
-#### Proposition 8 {#top-ii-s3-prop-8 .statement}
+#### Proposition 8 {#top-ii-s3-prop-8 .statement tag=0BEY}
 
 Every closed subspace of a complete space is complete. Every complete subspace of a Hausdorff uniform space (complete or not) is closed.
 
@@ -220,7 +220,7 @@ Let $X$ be a complete space and let $A$ be a closed subspace of $X$. If $\mathfr
 
 Now let $\overline{A}$ be a non-closed subset of a Hausdorff uniform space $X$, and let $b \in \overline{A} - A$. The trace $\mathfrak{B}_A$ on $A$ of the neighbourhood filter $\mathfrak{B}$ of $b$ in $X$ is a Cauchy filter on $A$; but it cannot converge to a point $c \in A$, otherwise $c$ would be a limit point of $\mathfrak{B}$ (no. 2, Proposition 5, Corollary 3) which is absurd since $b \neq c$ and $X$ is Hausdorff.
 
-#### Proposition 9 {#top-ii-s3-prop-9 .statement}
+#### Proposition 9 {#top-ii-s3-prop-9 .statement tag=0BEZ}
 
 Let $X$ be a uniform space and let $A$ be a dense subset of $X$ such that every Cauchy filter base on $A$ converges in $X$. Then $X$ is complete.
 
@@ -228,7 +228,7 @@ It is enough to show that every minimal Cauchy filter $\mathfrak{F}$ on $X$ is c
 
 ### 5. PRODUCTS AND INVERSE LIMITS OF COMPLETE SPACES
 
-#### Proposition 10 {#top-ii-s3-prop-10 .statement}
+#### Proposition 10 {#top-ii-s3-prop-10 .statement tag=0BF0}
 
 Every product of complete uniform spaces is complete. Conversely, if a product of non-empty uniform spaces is complete, then each of the factors is a complete uniform space.
 
@@ -246,7 +246,7 @@ $$
 
 $\mathfrak{F}$ is a Cauchy filter (no. 1, Corollary 2 to Proposition 4), hence is convergent, and therefore so is each $\operatorname{pr}_x \mathfrak{F} = \mathfrak{F}_x$ (Chapter I, § 7, no. 6, Corollary 1 to Proposition 10).
 
-#### Corollary {#top-ii-s3-n5-cor-1 .statement}
+#### Corollary {#top-ii-s3-n5-cor-1 .statement tag=0BF1}
 
 *Let* $(X_\alpha, f_{\alpha\beta})$ *be an inverse system of uniform spaces.* *If the* $X_\alpha$ *are Hausdorff and complete, then so is* $X = \varprojlim X_\alpha$.
 
@@ -254,7 +254,7 @@ For $X$ is Hausdorff and can be identified with a *closed* subspace of $\prod_{i
 
 An inverse limit of complete Hausdorff uniform spaces $X_\alpha$ can be *empty*, even if all the $X_\alpha$ are non-empty and all the $f_{\alpha\beta}$ are surjective, as is shown by the case of discrete spaces (*Set Theory*, Chapter III, § 1, Exercise 32). However, we have the following theorem:
 
-#### Theorem 1 (Mittag-Leffler) {#top-ii-s3-thm-1 .statement}
+#### Theorem 1 (Mittag-Leffler) {#top-ii-s3-thm-1 .statement tag=0BF2}
 
 *Let* $(X_\alpha, f_{\alpha\beta})$ *be an inverse system of complete Hausdorff uniform spaces, indexed by a directed set* $I$ *which has a countable cofinal subset; suppose also that, for each* $\alpha \in I$, $X_\alpha$ *has a countable fundamental system of entourages* (*). *Finally, suppose that for each* $\alpha \in I$ *there is an index* $\beta \geq \alpha$ *satisfying the following condition*:
 
@@ -301,13 +301,13 @@ $$ [f_{mp}(x_p), f_{m, p+q}(x_{p+q})] \in V_{k+p+q-1, m} \circ V_{k+p+q-2, m} \c
 
 and by virtue of (2) it is clear that the right-hand side of (6) is contained in V_{k+p-1, m}. Let q increase indefinitely; we infer in particular that, for m = p = 0, we have (x_0, z_0) ∈ V_{k-1, 0}, since V_{k-1, 0} is closed. On the other hand, from the relations z_m = \lim_{n→∞} f_{mn}(x_n) and from the continuity of f_{m, m+1}, we deduce that f_{m, m+1}(z_{m+1}) = z_m for each m ≥ 0. For each γ ∈ I there is at least one integer n such that α_n ≥ γ; putting $z_\gamma = f_{\gamma, \alpha_n}(z_n)$ we verify immediately that $z_\gamma$ does not depend on the value of $n$ such that $\alpha_n \geq \gamma$, and that the family $(z_\alpha)_{\alpha \in I}$ so defined is a point $z$ of $X = \varprojlim X_\alpha$. Since $f_{\alpha_0}(z) = z_0$, the proof is complete.
 
-#### Corollary 1 {#top-ii-s3-thm-1-cor-1 .statement}
+#### Corollary 1 {#top-ii-s3-thm-1-cor-1 .statement tag=0BF3}
 
 *Let* $(X_\alpha, f_{\alpha \beta})$ *be an inverse system of sets indexed by a directed set* $I$ *which has a countable cofinal subset, and suppose that the* $f_{\alpha \beta}$ *are surjective. Then if* $X = \varprojlim X_\alpha$, *the canonical mapping* $f_\alpha : X \to X_\alpha$ *is surjective for each* $\alpha \in I$.
 
 Let each $X_\alpha$ carry the discrete uniformity, and apply Theorem 1.
 
-#### Corollary 2 {#top-ii-s3-thm-1-cor-2 .statement}
+#### Corollary 2 {#top-ii-s3-thm-1-cor-2 .statement tag=0BF4}
 
 *Let* $I$ *be a directed set which has a countable cofinal subset. Let* $(X_\alpha, f_{\alpha \beta})$ *and* $(X'_\alpha, f'_{\alpha \beta})$ *be two inverse systems of sets indexed by* $I$, *and for each* $\alpha \in I$ *let* $u_\alpha : X_\alpha \to X'_\alpha$ *be a mapping, such that the* $u_\alpha$ *form an inverse system of mappings. Let* $u = \varprojlim u_\alpha$. *Let* $x = (x'_\alpha)$ *be an element of*
 
@@ -319,7 +319,7 @@ $$
 
 Apply Theorem 1 to the inverse system of sets $\overline{u}_\alpha^{-1}(x'_\alpha)$, each carrying the discrete uniformity.
 
-#### Example {#top-ii-s3-n5-exa-1 .statement}
+#### Example {#top-ii-s3-n5-exa-1 .statement tag=0BF5}
 
 Suppose we are given in $C$: (i) a sequence $(a_n)$ of distinct points such that the sequence $(|a_n|)$ is increasing and tends to $+\infty$; (ii) for each $n$, a rational function $z \to R_n(z)$ defined in $C - \{a_n\}$ and having a pole at $a_n$; (iii) an increasing sequence $(B_n)$ of open discs centred at 0, whose union is $C$, and such that none of the $a_k$ is on the frontier of any of the discs $B_n$. For each $n$, let $B'_n$ denote the intersection of $\overline{B}_n$ and the complement in $C$ of the set of points $a_n$; and let $X_n$ denote the set of all mappings
 
@@ -347,7 +347,7 @@ this latter sum is a holomorphic function in some neighbourhood of $\overline{B}
 
 The theorem of extension by continuity (Chapter I, § 8, no. 5, Theorem 1) has important additions when the functions in question take their values in a complete Hausdorff uniform space.
 
-#### Proposition 11 {#top-ii-s3-prop-11 .statement}
+#### Proposition 11 {#top-ii-s3-prop-11 .statement tag=0BF6}
 
 *Let $A$ be a dense subset of a topological space $X$, and let $f$ be a mapping of $A$ into a complete Hausdorff uniform space $X'$. Then $f$ can be extended by continuity to $X$ if and only if, for each $x \in X$, the image under $f$ of the trace on $A$ of the neighbourhood filter of $x$ in $X$ is a Cauchy filter base in $X'$.
 
@@ -355,7 +355,7 @@ This follows from the theorem of extension by continuity (loc. cit.) because $X'
 
 When $X$ is also a uniform space, there is the following theorem:
 
-#### Theorem 2 {#top-ii-s3-thm-2 .statement}
+#### Theorem 2 {#top-ii-s3-thm-2 .statement tag=0BF7}
 
 *Let $f$ be a function defined on a dense subspace $A$ of a uniform space $X$, taking its values in a complete Hausdorff uniform space $X'$, and suppose that $f$ is uniformly continuous on $A$. Then $f$ can be extended to the whole of $X$ by continuity, and the extended function $\overline{f}$ is uniformly continuous.*
 
@@ -363,7 +363,7 @@ The existence of $\overline{f}$ is an immediate consequence of Propositions 3 an
 
 Q.E.D.
 
-#### Corollary {#top-ii-s3-n6-cor-1 .statement}
+#### Corollary {#top-ii-s3-n6-cor-1 .statement tag=0BF8}
 
 *Let $X_1, X_2$ be two complete Hausdorff uniform spaces, and let $Y_1, Y_2$ be dense subspaces of $X_1, X_2$ respectively. Then every isomorphism $f$ of $Y_1$ onto $Y_2$ extends to an isomorphism of $X_1$ onto $X_2$.*
 
@@ -373,7 +373,7 @@ It should be remarked that if $f$ is a *bijective* uniformly continuous mapping 
 
 ### 7. THE COMPLETION OF A UNIFORM SPACE
 
-#### Theorem 3 {#top-ii-s3-thm-3 .statement}
+#### Theorem 3 {#top-ii-s3-thm-3 .statement tag=0BF9}
 
 *Let $X$ be a uniform space. Then there exists a complete Hausdorff uniform space $\hat{X}$ and a uniformly continuous mapping $i : X \to \hat{X}$ having the following property:*
 
@@ -426,13 +426,13 @@ Let $g$ be the extension of $g_0$ by continuity to $\hat{X}$ (no. 6, Theorem 2);
 
 Q.E.D.
 
-#### Definition 4 {#top-ii-s3-def-4 .statement}
+#### Definition 4 {#top-ii-s3-def-4 .statement tag=0BFA}
 
 *The complete Hausdorff uniform space* $\hat{X}$ *defined in the proof of Theorem 3 is called the Hausdorff completion of* $X$, *and the mapping* $i : X \to \hat{X}$ *is called the canonical mapping of* $X$ *into its Hausdorff completion.*
 
 We note also the following facts:
 
-#### Proposition 12 {#top-ii-s3-prop-12 .statement}
+#### Proposition 12 {#top-ii-s3-prop-12 .statement tag=0BFB}
 
 (i) *The subspace* $i(X)$ *is dense in* $\hat{X}$.
 (ii) *The graph of the equivalence relation* $i(x) = i(x')$ *is the intersection of the entourages of* $X$.
@@ -445,31 +445,31 @@ i(x) = i(x')
 $$
 means by definition that $x$ and $x'$ have the same neighbourhood filter. But this implies, by definition, that $(x, x') \in V$ for every entourage $V$ of $X$, and the converse is obvious.
 
-#### Corollary {#top-ii-s3-n7-cor-1 .statement}
+#### Corollary {#top-ii-s3-n7-cor-1 .statement tag=0BFC}
 
 *If* $X$ *is a Hausdorff uniform space, then the canonical mapping* $i : X \to \hat{X}$ *is an isomorphism of* $X$ *onto a dense subspace of* $\hat{X}$.
 
 When $X$ is Hausdorff, $\hat{X}$ is said to be the *completion* of $X$, and we generally *identify* $X$ with a dense subset of $\hat{X}$ by means of $i$.
 
-#### Remark {#top-ii-s3-n7-rem-1 .statement}
+#### Remark {#top-ii-s3-n7-rem-1 .statement tag=0BFD}
 
 If this identification is made, the minimal Cauchy filters on X are just the traces on X of the neighbourhood filters of points of $\hat{X}$; this follows from the proof of Theorem 3.
 
 The Corollary to Proposition 12 characterizes the completion of a Hausdorff uniform space:
 
-#### Proposition 13 {#top-ii-s3-prop-13 .statement}
+#### Proposition 13 {#top-ii-s3-prop-13 .statement tag=0BFE}
 
 *If Y is a complete Hausdorff uniform space and X a dense subspace of Y, then the canonical injection $X \to Y$ extends to an isomorphism of $\hat{X}$ onto Y.*
 
 For every uniformly continuous mapping of X into a complete Hausdorff uniform space Z extends uniquely to a uniformly continuous mapping of Y into Z by Theorem 2 of no. 6.
 
-#### Proposition 14 {#top-ii-s3-prop-14 .statement}
+#### Proposition 14 {#top-ii-s3-prop-14 .statement tag=0BFF}
 
 *Let X be a complete Hausdorff uniform space, $\mathfrak{U}$ its uniformity, and let Z be a dense subspace of X. If $\mathfrak{U}'$ is a uniformity on X which is coarser than $\mathfrak{U}$ and which induces the same uniformity as $\mathfrak{U}$ on Z, then $\mathfrak{U} = \mathfrak{U}'$.*
 
 Let X' denote the set X with the uniformity $\mathfrak{U}'$. The composition of the canonical mapping $X' \to \hat{X}'$ and the identity mapping $X \to X'$ is a uniformly continuous mapping $\varphi : X \to \hat{X}'$. Since Z is Hausdorff for the uniform structure induced by $\mathfrak{U}'$, the restriction of $\varphi$ to Z is by hypothesis an isomorphism of Z onto the dense subspace $\varphi(Z)$ of $\hat{X}'$; it follows (no. 6, Corollary to Theorem 2) that $\varphi$ itself is an isomorphism of X onto $\hat{X}'$, hence $X' = \hat{X}'$ and $\mathfrak{U}' = \mathfrak{U}$.
 
-#### Proposition 15 {#top-ii-s3-prop-15 .statement}
+#### Proposition 15 {#top-ii-s3-prop-15 .statement tag=0BFG}
 
 *Let X and X' be two uniform spaces. For each uniformly continuous mapping $f : X \to X'$ there is a unique uniformly continuous mapping $\hat{f} : \hat{X} \to \hat{X}'$ such that the diagram
 
@@ -485,7 +485,7 @@ is commutative (*), where $i : X \to \hat{X}$ and $i' : X' \to \hat{X}'$ are the
 
 Apply Theorem 3 to the function $i' \circ f : X \to \hat{X}'$.
 
-#### Corollary {#top-ii-s3-n7-cor-2 .statement}
+#### Corollary {#top-ii-s3-n7-cor-2 .statement tag=0BFH}
 
 *If $f : X \to X'$ and $g : X' \to X''$ are two uniformly continuous mappings and $h = g \circ f$, then $\hat{h} = \hat{g} \circ \hat{f}$.*
 
@@ -495,7 +495,7 @@ This is an immediate consequence of the uniqueness in Proposition 15.
 
 ### 8. THE HAUSDORFF UNIFORM SPACE ASSOCIATED WITH A UNIFORM SPACE
 
-#### Proposition 16 {#top-ii-s3-prop-16 .statement}
+#### Proposition 16 {#top-ii-s3-prop-16 .statement tag=0BFI}
 
 Let $X$ be a uniform space and $i$ the canonical mapping of $X$ into its Hausdorff completion $\hat{X}$. For each uniformly continuous mapping $f$ of $X$ into a Hausdorff uniform space $Y$, there is a unique uniformly continuous mapping $h : i(X) \to Y$ such that $f = h \circ i$.
 
@@ -503,13 +503,13 @@ We may identify $Y$ with a subspace of its completion $\hat{Y}$ (no. 7, Corollar
 
 The pair $(i, i(X))$ is therefore the solution of a universal mapping problem (Set Theory, Chapter IV, § 3, no. 1), where this time we take the $\Sigma$-sets to be Hausdorff uniform spaces, and the $\sigma$-morphisms (resp. $\alpha$-mappings) to be uniformly continuous mappings (resp. uniformly continuous mappings of $X$ into a Hausdorff uniform space).
 
-#### Definition 5 {#top-ii-s3-def-5 .statement}
+#### Definition 5 {#top-ii-s3-def-5 .statement tag=0BFJ}
 
 The Hausdorff uniform space $i(X)$ defined in the proof of Theorem 3 is called the Hausdorff uniform space associated with $X$.
 
 The Hausdorff completion of $X$ is thus the completion of the Hausdorff uniform space associated with $X$.
 
-#### Corollary {#top-ii-s3-n8-cor-1 .statement}
+#### Corollary {#top-ii-s3-n8-cor-1 .statement tag=0BFK}
 
 Let $X, Y$ be two uniform spaces and $X', Y'$ the associated Hausdorff spaces. For each uniformly continuous mapping $f : X \to Y$ there is a unique uniformly continuous mapping $f' : X' \to Y'$ for which the diagram
 
@@ -527,13 +527,13 @@ Apply Proposition 16 to $i' \circ f : X \to Y'$.
 
 The Hausdorff space associated with a uniform space may also be characterized by the following property:
 
-#### Proposition 17 {#top-ii-s3-prop-17 .statement}
+#### Proposition 17 {#top-ii-s3-prop-17 .statement tag=0BFL}
 
 Let $X$ be a uniform space, $i(X)$ its associated Hausdorff space, and let $f$ be a mapping of $X$ onto a Hausdorff uniform space $X'$, such that the uniformity of $X$ is the inverse image under $f$ of the uniformity of $X'$. Then the mapping $g : i(X) \to X'$ such that $f = g \circ i$ is an isomorphism.
 
 By Proposition 16, $g$ is uniformly continuous; also $g$ is obviously surjective, and is also injective because the relation $f(x) = f(y)$ implies by definition that $(x, y)$ belongs to all the entourages of $X$, and therefore that $i(x) = i(y)$ (no. 7, Proposition 12). Finally, the entourages of $X'$ are the images under $f \times f$ of the entourages of $X$ ($§ 2$, no. 4, Remark), hence they are also the images under $g \times g$ of the entourages of $i(X)$ (no. 7, Proposition 12); hence the result.
 
-#### Remark {#top-ii-s3-n8-rem-1 .statement}
+#### Remark {#top-ii-s3-n8-rem-1 .statement tag=0BFM}
 
 Let $R$ be the equivalence relation $i(x) = i(x')$ on $X$. We have seen (no. 7, Proposition 12) that the graph $C$ of $R$ is the intersection of all the entourages of $X$. It is clear that every open set (and therefore also every closed set) in $X$ is *saturated* with respect to $R$; taking account of the definition of the inverse image of a topology, we conclude that the canonical bijection of the quotient space $X/R$ onto $i(X)$ induced by $i$ is a *homeomorphism*. The Hausdorff space associated with $X$ can therefore be identified, *qua* topological space, with $X/R$. The canonical mapping $i : X \to i(X)$ is open and closed, and even proper (Chapter I, $§ 10$, no. 2, Example).
 
@@ -541,7 +541,7 @@ Let $X'$ be another uniform space, $C'$ the intersection of all the entourages o
 
 ### 9. COMPLETION OF SUBSPACES AND PRODUCT SPACES
 
-#### Proposition 18 {#top-ii-s3-prop-18 .statement}
+#### Proposition 18 {#top-ii-s3-prop-18 .statement tag=0BFN}
 
 *Let $X$ be a set, let $(Y_\lambda)_{\lambda \in L}$ be a family of uniform spaces, and for each $\lambda \in L$ let $f_\lambda$ be a mapping of $X$ into $Y_\lambda$. Let $X$ carry the coarsest uniformity $U$ which makes all the $f_\lambda$ uniformly continuous. Then the uniformity of the Hausdorff completion $\hat{X}$ of $X$ is the coarsest for which all the mappings $\hat{f}_\lambda : \hat{X} \to \hat{Y}_\lambda$ ($\lambda \in L$) (no. 7, Proposition 15) are uniformly continuous. Furthermore, if $j_\lambda$ is the canonical mapping of $Y_\lambda$ into $\hat{Y}_\lambda$, and if $g_\lambda = j_\lambda \circ f_\lambda$, then $\hat{X}$ may be identified with the closure in $\prod_{\lambda \in L} \hat{Y}_\lambda$ of the image of $X$ under the mapping $x \to (g_\lambda(x))$.*
 
@@ -561,11 +561,11 @@ The transitivity of initial uniformities (§ 2, no. 3, Proposition 5) shows on t
 
 This being so, the bijection $x' \to (f'_\lambda(x'))$ identifies $X$ with a uniform subspace of the product $\prod_\lambda Y'_\lambda$ (§ 2, no. 6, Proposition 8). Since the $Y'_\lambda$ are Hausdorff, each $Y'_\lambda$ can be identified with a dense subspace of its completion $\hat{Y}_\lambda$, and hence $\prod_\lambda Y'_\lambda$ can be identified with a dense subspace of $\prod_\lambda \hat{Y}_\lambda$ (Chapter I, § 4, no. 3, Proposition 7). But $\prod_\lambda \hat{Y}_\lambda$ is Hausdorff and complete (no. 5, Proposition 10); the closure $\overline{X'}$ of $X'$ in $\prod_\lambda \hat{Y}_\lambda$ is therefore a complete Hausdorff subspace (no. 4, Proposition 8) which can be identified with the Hausdorff completion $\hat{X}$ of $X$; under this identification the mappings $\hat{f}_\lambda$ become the projections onto the factors $\hat{Y}_\lambda$, and the proposition is proved.
 
-#### Corollary 1 {#top-ii-s3-prop-18-cor-1 .statement}
+#### Corollary 1 {#top-ii-s3-prop-18-cor-1 .statement tag=0BFO}
 
 *Let $X$ be a uniform space and let $i$ be the canonical mapping of $X$ into its Hausdorff completion $\hat{X}$; let $A$ be a subspace of $X$ and $j : A \to X$ the canonical injection. Then $\hat{j} : \hat{A} \to \hat{X}$ is an isomorphism of $\hat{A}$ onto the closure of $i(A)$ in $\hat{X}$.*
 
-#### Corollary 2 {#top-ii-s3-prop-18-cor-2 .statement}
+#### Corollary 2 {#top-ii-s3-prop-18-cor-2 .statement tag=0BFP}
 
 *Let $(Y_\lambda)_{\lambda \in L}$ be a family of uniform spaces. Then the Hausdorff completion of the product space $\prod_{\lambda \in L} Y_\lambda$ is canonically isomorphic to the product $\prod_{\lambda \in L} \hat{Y}_\lambda$.*
 

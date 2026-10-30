@@ -40,7 +40,7 @@ subsections:
       pdf_page: 186
 statements: 27
 exercises: 6
-content_sha256: 82e3f82ac1928d46c7281f642b2dbf39575c2b24d13544b78ba5dc2e9102a7a2
+content_sha256: 79420cd310b2b3ec5eae8b3cdfd7db6e9f70c765484f0ca7d3ad5cd314e80a22
 translated_from: content/en/top/II/02_s2_uniformly_continuous_functions.md
 source_content_sha256: a1ab910e68e815174c047c6d5847b83dc5cbf4da3a07db2324c22291922910fa
 translation_model: gpt-5.4, copied
@@ -54,7 +54,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC ÁNH XẠ LIÊN TỤC ĐỀU
 
-#### Định nghĩa 1 {#top-ii-s2-def-1 .statement}
+#### Định nghĩa 1 {#top-ii-s2-def-1 .statement tag=0BDH}
 
 *Một ánh xạ $f$ từ một không gian đều $X$ vào một không gian đều $X'$ được gọi là liên tục đều nếu, với mỗi entourage $V'$ của $X'$, tồn tại một entourage $V$ của $X$ sao cho quan hệ $(x, y) \in V$ kéo theo $(f(x), f(y)) \in V'$.*
 
@@ -62,19 +62,19 @@ Nói một cách diễn đạt hơn, ta có thể nói rằng $f$ là liên tụ
 
 Nếu ta đặt $g = f \times f$, thì Định nghĩa 1 có nghĩa là *mỗi khi $V'$ là một entourage của $X'$, thì $\overline{g^{-1}}(V')$ là một entourage của $X$*.
 
-#### Ví dụ 1 {#top-ii-s2-n1-exa-1 .statement}
+#### Ví dụ 1 {#top-ii-s2-n1-exa-1 .statement tag=0BDI}
 
 Ánh xạ đồng nhất của một không gian đều vào chính nó là liên tục đều.
 
-#### Ví dụ 2 {#top-ii-s2-n1-exa-2 .statement}
+#### Ví dụ 2 {#top-ii-s2-n1-exa-2 .statement tag=0BDJ}
 
 Một ánh xạ hằng từ một không gian đều vào một không gian đều là liên tục đều.
 
-#### Ví dụ 3 {#top-ii-s2-n1-exa-3 .statement}
+#### Ví dụ 3 {#top-ii-s2-n1-exa-3 .statement tag=0BDK}
 
 Mọi ánh xạ từ một không gian đều rời rạc vào một không gian đều đều là liên tục đều.
 
-#### Mệnh đề 1 {#top-ii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#top-ii-s2-prop-1 .statement tag=0BDL}
 
 Mọi ánh xạ liên tục đều đều là liên tục.
 
@@ -82,7 +82,7 @@ Mọi ánh xạ liên tục đều đều là liên tục.
 
 Mặt khác, một ánh xạ liên tục từ một không gian đều X vào một không gian đều X' không nhất thiết là liên tục đều, \* như được chỉ ra bởi ví dụ $x \to x^3$, một đồng phôi của $\mathbf{R}$ lên chính nó, không liên tục đều đối với cấu trúc đều cộng tính. \* (Xem § 4, no. 1, Định lý 2.)
 
-#### Mệnh đề 2 {#top-ii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#top-ii-s2-prop-2 .statement tag=0BDM}
 
 (a) Nếu $f : X \to X'$ và $g : X' \to X''$ là hai ánh xạ liên tục đều, thì $g \circ f : X \to X''$ là liên tục đều.
 
@@ -94,7 +94,7 @@ Mặt khác, một ánh xạ liên tục từ một không gian đều X vào m�
 
 Mệnh đề 2 của no. 1 cho thấy rằng ta có thể lấy các ánh xạ liên tục đều làm các cấu xạ của các cấu trúc đều (Lý thuyết tập hợp, Chương IV, § 2, no. 1); từ nay về sau, ta sẽ luôn giả sử rằng các cấu xạ đã được chọn như vậy. Phù hợp với các định nghĩa tổng quát (Lý thuyết tập hợp, Chương IV, § 2, no. 2), điều này cho phép ta định nghĩa một quan hệ thứ tự trên tập hợp các cấu trúc đều trên một tập hợp X đã cho:
 
-#### Định nghĩa 2 {#top-ii-s2-def-2 .statement}
+#### Định nghĩa 2 {#top-ii-s2-def-2 .statement tag=0BDN}
 
 Nếu $\mathfrak{U}_1$ và $\mathfrak{U}_2$ là hai cấu trúc đều trên cùng một tập hợp X, thì nói rằng $\mathfrak{U}_1$ mịn hơn $\mathfrak{U}_2$ (và $\mathfrak{U}_2$ thô hơn $\mathfrak{U}_1$) nếu, ký hiệu bởi $X_i$ tập hợp X được trang bị cấu trúc đều $\mathfrak{U}_i$ ($i = 1,2$), thì ánh xạ đồng nhất $X_1 \to X_2$ là liên tục đều.
 
@@ -102,21 +102,21 @@ Nếu $\mathfrak{U}_1$ mịn hơn $\mathfrak{U}_2$ và phân biệt với $\math
 
 Hai cấu trúc đều được gọi là so sánh được nếu một trong hai mịn hơn cấu trúc kia.
 
-#### Ví dụ {#top-ii-s2-n2-exa-1 .statement}
+#### Ví dụ {#top-ii-s2-n2-exa-1 .statement tag=0BDO}
 
 Trong tập hợp có thứ tự các cấu trúc đều trên một tập hợp X, cấu trúc đều rời rạc là mịn nhất, và cấu trúc đều thô nhất là cấu trúc mà tập hợp các entourage chỉ gồm một phần tử duy nhất $X \times X$.
 
 Mệnh đề sau là một hệ quả ngay lập tức của Định nghĩa 1 của no. 1:
 
-#### Mệnh đề 3 {#top-ii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#top-ii-s2-prop-3 .statement tag=0BDP}
 
 Nếu $\mathfrak{U}_1$ và $\mathfrak{U}_2$ là hai cấu trúc đều trên một tập hợp X, thì $\mathfrak{U}_1$ mịn hơn $\mathfrak{U}_2$ khi và chỉ khi mọi entourage của $\mathfrak{U}_2$ đều là một entourage của $\mathfrak{U}_1$.
 
-#### Hệ quả {#top-ii-s2-n2-cor-1 .statement}
+#### Hệ quả {#top-ii-s2-n2-cor-1 .statement tag=0BDQ}
 
 Cho $\mathfrak{U}_1$ và $\mathfrak{U}_2$ là hai cấu trúc đều trên một tập hợp X, và giả sử rằng $\mathfrak{U}_1$ mịn hơn $\mathfrak{U}_2$; khi đó tôpô cảm sinh bởi $\mathfrak{U}_1$ mịn hơn tôpô cảm sinh bởi $\mathfrak{U}_2$.
 
-#### Nhận xét 1 {#top-ii-s2-n2-rem-1 .statement}
+#### Nhận xét 1 {#top-ii-s2-n2-rem-1 .statement tag=0BDR}
 
 Có thể xảy ra trường hợp một cấu trúc đều $\mathfrak{U}_1$ mịn hơn nghiêm ngặt một cấu trúc đều $\mathfrak{U}_2$ nhưng hai tôpô cảm sinh là đồng nhất. Ví dụ sau cho thấy điều đó:
 
@@ -126,13 +126,13 @@ $$
 $$
 Khi đó các tập hợp $V_{\overline{\varpi}}$ tạo thành một hệ cơ bản các lân cận của một cấu trúc đều $\mathfrak{U}$ trên $X$. Thật vậy, nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ của $X$ thì ta có $\Delta \subset V_{\overline{\varpi}}$ và $V_{\overline{\varpi}} \circ V_{\overline{\varpi}} = \overline{V_{\overline{\varpi}}} = V_{\overline{\varpi}}$ (§ 1, no. 1, Ví dụ 2); và nếu $\varpi' = (B_j)$ và $\varpi'' = (C_k)$ là hai phân hoạch hữu hạn của $X$, thì những tập hợp trong số các tập $B_j \cap C_k$ không rỗng tạo thành một phân hoạch hữu hạn $\varpi$ của $X$, và ta có $V_{\overline{\varpi}} \subset V_{\overline{\varpi'}} \cap V_{\overline{\varpi''}}$. $\mathfrak{U}$ được gọi là cấu trúc đều của các phân hoạch hữu hạn trên $X$. Tôpô cảm sinh bởi $\mathfrak{U}$ là tôpô rời rạc, vì với mỗi $x \in X$ các tập hợp $\{x\}$ và $C\{x\}$ tạo thành một phân hoạch hữu hạn của $X$. Tuy nhiên, nếu $X$ là vô hạn, thì hiển nhiên $\mathfrak{U}$ thô hơn thực sự so với cấu trúc đều rời rạc.
 
-#### Nhận xét 2 {#top-ii-s2-n2-rem-2 .statement}
+#### Nhận xét 2 {#top-ii-s2-n2-rem-2 .statement tag=0BDS}
 
 Nếu $f : X \to X'$ là một ánh xạ liên tục đều, thì $f$ vẫn liên tục đều nếu ta thay thế cấu trúc đều của $X$ bằng một cấu trúc đều mịn hơn và cấu trúc đều của $X'$ bằng một cấu trúc đều thô hơn (no. 1, Mệnh đề 2). Nói cách khác, cấu trúc đều của $X$ càng mịn và cấu trúc đều của $X'$ càng thô thì càng có nhiều ánh xạ liên tục đều từ $X$ vào $X'$.
 
 ### 3. CẤU TRÚC ĐỀU BAN ĐẦU
 
-#### Mệnh đề 4 {#top-ii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#top-ii-s2-prop-4 .statement tag=0BDT}
 
 Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian đều, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Với mỗi $i \in I$ gọi $g_i$ là $f_i \times f_i$. Cho $\mathfrak{S}$ là tập hợp các tập con của $X \times X$ có dạng $\overline{g_i}(V_i)$, trong đó $i \in I$ và $V_i$ là một lân cận đều của $Y_i$, và cho $\mathfrak{B}$ là tập hợp mọi giao hữu hạn
 
@@ -148,7 +148,7 @@ W = \bigcap_k W_k,
 $$
 thì đồng thời $n$ quan hệ này được thỏa mãn mỗi khi $z$ và $z'$ là $W$-gần, nên khi đó ta có $(h(z), h(z')) \in U(V_{i_1}, \ldots, V_{i_n})$, và chứng minh là đầy đủ.
 
-#### Hệ quả {#top-ii-s2-n3-cor-1 .statement}
+#### Hệ quả {#top-ii-s2-n3-cor-1 .statement tag=0BDU}
 
 *Tôpô trên $X$ được cảm sinh bởi cấu trúc đều thô nhất $\mathfrak{U}$ sao cho các $f_i$ là liên tục đều cũng là tôpô thô nhất sao cho các $f_i$ là liên tục.*
 
@@ -156,7 +156,7 @@ thì đồng thời $n$ quan hệ này được thỏa mãn mỗi khi $z$ và $z
 
 Các tính chất tổng quát của các cấu trúc ban đầu (*Lý thuyết tập hợp*, Chương IV, § 2, no. 3, tiêu chuẩn CST 10) đặc biệt suy ra tính chất *bắc cầu* sau đây:
 
-#### Mệnh đề 5 {#top-ii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#top-ii-s2-prop-5 .statement tag=0BDV}
 
 *Cho $X$ là một tập hợp, cho $(Z_i)_{i \in I}$ là một họ các không gian đều, cho $(J_\lambda)_{\lambda \in L}$ là một phân hoạch của $I$ và cho $(Y_\lambda)_{\lambda \in L}$ là một họ các tập hợp được đánh chỉ số bởi $L$. Với mỗi $\lambda \in L$, cho $h_\lambda$ là một ánh xạ từ $X$ vào $Y_\lambda$; với mỗi $\lambda \in L$ và mỗi $i \in J_\lambda$, cho $g_{i\lambda}$ là một ánh xạ từ $Y_\lambda$ vào $Z_i$; và đặt $f_i = g_{i\lambda} \circ h_\lambda$. Trang bị cho mỗi $Y_\lambda$ cấu trúc đều thô nhất sao cho các ánh xạ $g_{i\lambda}$ ($i \in J_\lambda$) là liên tục đều. Khi đó cấu trúc đều thô nhất trên $X$ sao cho các $f_i$ là liên tục đều trùng với cấu trúc đều thô nhất trên $X$ sao cho các $h_\lambda$ là liên tục đều.*
 
@@ -164,7 +164,7 @@ Các tính chất tổng quát của các cấu trúc ban đầu (*Lý thuyết 
 
 Cho $X$ là một tập hợp, $Y$ là một không gian đều, $f$ là một ánh xạ từ $X$ vào $Y$. Cấu trúc đều thô nhất $\mathfrak{U}$ trên $X$ mà đối với nó $f$ là liên tục đều được gọi là *ảnh ngược* theo $f$ của cấu trúc đều của $Y$. Suy ra từ Mệnh đề 4 của no. 3, và từ các công thức cho ảnh ngược của một giao, rằng các ảnh ngược theo $g = f \times f$ của các lân cận của đường chéo của $Y$ tạo thành một hệ cơ bản các lân cận của đường chéo đối với $\mathfrak{U}$. Tôpô cảm sinh bởi $\mathfrak{U}$ là *ảnh ngược* theo $f$ của tôpô của $Y$ (no. 3, Hệ quả của Mệnh đề 4).
 
-#### Nhận xét {#top-ii-s2-n4-rem-1 .statement}
+#### Nhận xét {#top-ii-s2-n4-rem-1 .statement tag=0BDW}
 
 Nếu $f : X \to Y$ là toàn ánh, thì các entourage của $Y$ là các ảnh trực tiếp dưới $g$ của các entourage của $X$.
 
@@ -172,7 +172,7 @@ Một ánh xạ $f$ từ một không gian đều $X$ vào một không gian đ�
 
 Cho $A$ là một tập con của một không gian đều $X$. Cấu trúc đều cảm sinh trên $A$ bởi cấu trúc đều của $X$ là ảnh ngược của cấu trúc sau dưới đơn ánh chính tắc $A \to X$. Theo Mệnh đề 4 của no. 3, điều này tương đương với định nghĩa sau:
 
-#### Định nghĩa 3 {#top-ii-s2-def-3 .statement}
+#### Định nghĩa 3 {#top-ii-s2-def-3 .statement tag=0BDX}
 
 Cho $A$ là một tập con của một không gian đều $X$. Cấu trúc đều trên $A$ mà tập các lân cận đều của nó là vết trên $A \times A$ của tập các lân cận đều của $X$ được gọi là cấu trúc đều cảm sinh trên $A$ bởi cấu trúc đều của $X$.
 
@@ -182,7 +182,7 @@ Nếu $A$ là một tập con của một không gian đều $X$ và nếu $f : 
 
 Nếu $B \subset A \subset X$, thì không gian con đều $B$ của $X$ đồng nhất với không gian con đều $B$ của không gian con đều $A$ của $X$ (tính bắc cầu của các cấu trúc đều cảm sinh; no. 3, Mệnh đề 5).
 
-#### Mệnh đề 6 {#top-ii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#top-ii-s2-prop-6 .statement tag=0BDY}
 
 Cho $A$ là một tập con trù mật của một không gian đều $X$. Khi đó các bao đóng, trong $X \times X$, của các lân cận đều của không gian con đều $A$ tạo thành một hệ cơ bản các lân cận đều của $X$.
 
@@ -194,17 +194,17 @@ Mọi họ $(\mathfrak{U}_i)_{i \in I}$ các cấu trúc đều trên một tậ
 
 Cũng suy ra từ Mệnh đề 4 của no. 3 rằng nếu $X$ không rỗng và nếu $\mathfrak{U}_i$ là bộ lọc các entourage của $\mathfrak{U}_i$, thì bộ lọc các entourage của $\mathfrak{U}$ là cận trên bé nhất của các bộ lọc $\mathfrak{U}_i$ (Chương I, § 6, no. 2).
 
-#### Ví dụ {#top-ii-s2-n5-exa-1 .statement}
+#### Ví dụ {#top-ii-s2-n5-exa-1 .statement tag=0BDZ}
 
 Nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ $(A_i)_{1 \leq i \leq n}$ của một tập hợp không rỗng $X$, thì tập hợp $V_\varpi = \bigcup_i (A_i \times A_i)$ tự nó tạo thành một hệ cơ sở các entourage của một cấu trúc đều $\mathfrak{U}_\varpi$ trên $X$ (§ 1, no. 1, Ví dụ 2); khi đó cấu trúc đều của các phân hoạch hữu hạn trên $X$ (no. 2, Nhận xét 1) là cận trên bé nhất của các cấu trúc đều $\mathfrak{U}_\varpi$.
 
-#### Nhận xét {#top-ii-s2-n5-rem-1 .statement}
+#### Nhận xét {#top-ii-s2-n5-rem-1 .statement tag=0BE0}
 
 Một họ $(\mathfrak{U}_i)$ các cấu trúc đều trên $X$ cũng có một cận dưới lớn nhất trong tập hợp có thứ tự của mọi cấu trúc đều trên $X$, cụ thể là cận trên nhỏ nhất của tập hợp mọi cấu trúc đều trên $X$ mà thô hơn từng $\mathfrak{U}_i$ (những cấu trúc đều như vậy có tồn tại, vì tập hợp mọi cấu trúc đều trên $X$ có một phần tử nhỏ nhất). Nhưng (giả sử $X$ không rỗng) bộ lọc các lân cận của đường chéo của cấu trúc đều này không nhất thiết là giao của các bộ lọc các lân cận của đường chéo của các $\mathfrak{U}_i$, vì bộ lọc sau này không nhất thiết thỏa mãn tiên đề $(U_{III})$ (Bài tập 4).
 
 ### 6. TÍCH CỦA CÁC KHÔNG GIAN ĐỀU
 
-#### Định nghĩa 4 {#top-ii-s2-def-4 .statement}
+#### Định nghĩa 4 {#top-ii-s2-def-4 .statement tag=0BE1}
 
 *Nếu* $(X_i)_{i \in I}$ *là một họ các không gian đều, thì không gian đều tích của họ này là tập hợp tích*
 $$
@@ -215,13 +215,13 @@ $$
 
 Tôpô cảm sinh bởi cấu trúc đều tích trên $X$ trùng với tích của các tôpô của các $X_i$ (no. 3, Hệ quả của Mệnh đề 4).
 
-#### Mệnh đề 7 {#top-ii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#top-ii-s2-prop-7 .statement tag=0BE2}
 
 *Cho* $f = (f_i)$ *là một ánh xạ từ một không gian đều* $Y$ *vào một không gian đều tích* $X = \prod_{i \in I} X_i$. *Khi đó* $f$ *liên tục đều khi và chỉ khi mỗi* $f_i$ *đều liên tục đều*.
 
 Vì $f_i = pr_i \circ f$, đây là một trường hợp riêng của Mệnh đề 4 của no. 3.
 
-#### Hệ quả {#top-ii-s2-n6-cor-1 .statement}
+#### Hệ quả {#top-ii-s2-n6-cor-1 .statement tag=0BE3}
 
 *Cho* $(X_i)_{i \in I}, (Y_i)_{i \in I}$ *là hai họ không gian đều được đánh chỉ số bởi cùng một tập* $I$. *Với mỗi* $i \in I$, *cho* $f_i$ *là một ánh xạ từ* $X_i$ *vào* $Y_i$. *Nếu mỗi* $f_i$ *đều liên tục đều, thì ánh xạ tích*
 $$
@@ -231,17 +231,17 @@ $$
 
 Tiêu chuẩn tổng quát về tính bắc cầu của các cấu trúc đều ban đầu (no. 3, Mệnh đề 5) cho thấy rằng, cũng như đối với tích của các không gian tôpô (Chương I, § 4, no. 1), tích của các không gian đều là kết hợp và mệnh đề sau đây là đúng:
 
-#### Mệnh đề 8 {#top-ii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#top-ii-s2-prop-8 .statement tag=0BE4}
 
 *Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian đều, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Gọi $f$ là ánh xạ $x \to (f_i(x))$ từ $X$ vào $Y = \prod_{i \in I} Y_i$, và gọi $U$ là cấu trúc đều thô nhất trên $X$ mà đối với nó các $f_i$ là liên tục đều. Khi đó $U$ là ảnh ngược theo $f$ của cấu trúc đều cảm sinh trên $f(X)$ bởi cấu trúc đều tích trên $Y$.*
 
-#### Hệ quả {#top-ii-s2-n6-cor-2 .statement}
+#### Hệ quả {#top-ii-s2-n6-cor-2 .statement tag=0BE5}
 
 *Với mỗi $i \in I$, cho $A_i$ là một không gian con của $Y_i$. Khi đó cấu trúc đều cảm sinh trên $A = \prod_{i \in I} A_i$ bởi cấu trúc đều tích trên $\prod_{i \in I} Y_i$ cũng chính là tích của các cấu trúc đều của các không gian con $A_i$.*
 
 Ngoài ra, ta thấy ngay lập tức rằng nếu $X_1, X_2$ là hai không gian đều và $a_1$ là một điểm bất kỳ của $X_1$, thì ánh xạ $x_2 \to (a_1, x_2)$ là một đẳng cấu từ $X_2$ lên không gian con $\{a_1\} \times X_2$ của $X_1 \times X_2$; do đó:
 
-#### Mệnh đề 9 {#top-ii-s2-prop-9 .statement}
+#### Mệnh đề 9 {#top-ii-s2-prop-9 .statement tag=0BE6}
 
 *Cho $f$ là một ánh xạ liên tục đều từ một không gian đều tích $X_1 \times X_2$ vào một không gian đều $Y$; khi đó mọi ánh xạ riêng phần*
 
@@ -259,7 +259,7 @@ Nói cách khác, một hàm liên tục đều của hai biến thì liên tụ
 
 Cho $I$ là một tập hợp có thứ tự bộ phận trong đó thứ tự bộ phận được viết là $\alpha \leq \beta$. Với mỗi $\alpha \in I$ cho $X_\alpha$ là một không gian đều, và với mỗi cặp chỉ số $\alpha, \beta$ sao cho $\alpha \leq \beta$ cho $f_{\alpha \beta}$ là một ánh xạ từ $X_\beta$ vào $X_\alpha$.
 
-#### Mệnh đề 10 {#top-ii-s2-prop-10 .statement}
+#### Mệnh đề 10 {#top-ii-s2-prop-10 .statement tag=0BE7}
 
 Cho $I$ là một tập có hướng, cho $(X_\alpha, f_{\alpha\beta})$ là một hệ ngược các không gian đều được đánh chỉ số bởi $I$, và cho $J$ là một tập con đồng tận của $I$. Với mỗi $\alpha \in I$, gọi $f_\alpha$ là ánh xạ chính tắc từ $X = \varprojlim X_\alpha$ vào $X_\alpha$, và ký hiệu $g_\alpha$ là $f_\alpha \times f_\alpha$. Khi đó họ các tập hợp $\overline{g}_\alpha^{-1}(V_\alpha)$, trong đó $\alpha$ chạy qua $J$ và trong đó, với mỗi $\alpha \in J$, $V_\alpha$ chạy qua một hệ cơ bản các lân cận đều của $X_\alpha$, là một hệ cơ bản các lân cận đều của $X$.
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 52
 statements: 34
 exercises: 12
-content_sha256: 220223eab28aa0d61f0293602a7bd7b7781525db1090661de62ebf8c841a6d93
+content_sha256: 50651310375449ab34ffe646730c98645d3a17542a093befd70f4af30dfba69c
 translated_from: content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md
 source_lang: en-mt
 translation_method: machine
@@ -57,7 +57,7 @@ $$
 
 Trong phần sau của chương này, đại số trên A $B$ sẽ được ký hiệu là $A((T))$; nó chứa như các đại số con đại số $A[[T]]$ của các chuỗi hình thức và đại số $A[T, T^{-1}]$; giao của chúng là đại số $A[T]$ của các đa thức.
 
-#### Nhận xét {#ac-viii-s4-n1-rem-1 .statement}
+#### Nhận xét {#ac-viii-s4-n1-rem-1 .statement tag=0CO0}
 
 Vành $A((T))$ được đồng nhất một cách tự nhiên với vành phân thức $A[[T]]_T$ của vành $A[[T]]$ được xác định bởi tập hợp nhân tạo bởi các lũy thừa của $T$.
 
@@ -72,7 +72,7 @@ $$
 
 Ta có $\left[ \begin{array}{c} n \\ p \end{array} \right] = \left[ \begin{array}{c} n \\ n-p \end{array} \right]$ với $n, p \in \mathbf{Z}$.
 
-#### Bổ đề 1 {#ac-viii-s4-lem-1 .statement}
+#### Bổ đề 1 {#ac-viii-s4-lem-1 .statement tag=0CO1}
 
 *Phần tử $1 - T$ của $\mathbf{Z}((T))$ là khả nghịch. Với mọi số nguyên $r > 0$ ta có*
 
@@ -120,7 +120,7 @@ $$
 
 Nếu $F = \sum_{n \in \mathbf{Z}} a_n T^n$ và $G = \sum_{n \in \mathbf{Z}} b_n T^n$ là hai phần tử của $\mathbf{Z}((T))$, người ta ký hiệu bởi “ $F \leq G$ ” quan hệ “ $a_n \leq b_n$ với mọi $n \in \mathbf{Z}$ ”. Đây là một quan hệ thứ tự tương thích với cấu trúc vành của $\mathbf{Z}((T))$ (A, VI, p. 18, Định nghĩa 1). Ta có $(1-T)^{-1} \geq 1$. Nếu $Q \in \mathbf{Z}[T, T^{-1}]$ là $\geq 0$, thì số nguyên $Q(1)$ là dương.
 
-#### Bổ đề 2 {#ac-viii-s4-lem-2 .statement}
+#### Bổ đề 2 {#ac-viii-s4-lem-2 .statement tag=0CO2}
 
 **a)** Cho $F$ là một phần tử khác không của $\mathbf{Z}((T))$ sao cho tồn tại $r \in \mathbf{Z}$, với $(1-T)^r F \in \mathbf{Z}[T, T^{-1}]$; khi đó $F$ có thể được viết duy nhất dưới dạng $F = (1-T)^{-d}.Q$, trong đó $Q \in \mathbf{Z}[T, T^{-1}]$, $Q(1) \neq 0$ và $d \in \mathbf{Z}$. Nếu $F \geq 0$, thì ta có $Q(1) > 0$ và $d \geq 0$.
 
@@ -142,7 +142,7 @@ Cho $H_0$ là một vành, $I$ một tập hợp hữu hạn và $H$ là vành �
 
 Cho $M$ là một $H$-môđun phân bậc kiểu *sinh hữu hạn* mà các thành phần thuần nhất của nó đều là các $H_0$-môđun có độ dài hữu hạn; *chuỗi Poincaré* của $M$ theo định nghĩa là phần tử $P_M$ của $\mathbf{Z}((T))$ sao cho $P_M = \sum_{n \in \mathbf{Z}} \operatorname{long}_{H_0}(M_n) \cdot T^n$, và ta đặt $Q_M = P_M \cdot \prod_{i \in I} (1 - T^{d_i})$.
 
-#### Định lý 1 {#ac-viii-s4-thm-1 .statement}
+#### Định lý 1 {#ac-viii-s4-thm-1 .statement tag=0CO3}
 
 *Phần tử $Q_M$ của $\mathbf{Z}((T))$ thuộc $\mathbf{Z}[T, T^{-1}]$*.
 
@@ -172,7 +172,7 @@ $$
 
 do đó có kết luận.
 
-#### Ví dụ 1 {#ac-viii-s4-n2-exa-1 .statement}
+#### Ví dụ 1 {#ac-viii-s4-n2-exa-1 .statement tag=0CO4}
 
 Giả sử $H_0$ là Artin và lấy $M = H$. Khi đó, với các ký hiệu trước đây, ta có $R = 0$ và $S = H'$, do đó theo (5), $Q_H = Q_{H'}$; vì ta có $Q_{H_0} = \operatorname{long}(H_0)$, suy ra bằng quy nạp rằng $Q_H = \operatorname{long}(H_0)$, nghĩa là,
 
@@ -182,7 +182,7 @@ $$
 
 Bây giờ giả sử H được trang bị phân bậc thông thường, trong đó $d_i = 1$ với mọi $i \in I$, và đặt $r = \mathrm{Card}(I)$; ta có $P_M = Q_M(T).(1 - T)^{-r}$. Đặt $c_M = Q_M(1)$. Khi đó, theo công thức (2) của No. 1, ta có:
 
-#### Hệ quả {#ac-viii-s4-n2-cor-1 .statement}
+#### Hệ quả {#ac-viii-s4-n2-cor-1 .statement tag=0CO5}
 
 a) Nếu $r = 0$, thì ta có $\mathrm{long}_{H_0}(M) = c_M$.
 
@@ -190,11 +190,11 @@ b) Nếu $r = 1$, thì ta có $\mathrm{long}_{H_0}(M_n) = c_M$ với $n$ đủ l
 
 c) Nếu $r > 1$, thì ta có $\mathrm{long}_{H_0}(M_n) = c_M \frac{n^{r-1}}{(r-1)!} + \rho_n n^{r-2}$, trong đó $\rho_n$ tiến tới một giới hạn trong $\mathbf{R}$ khi $n$ tăng vô hạn.
 
-#### Nhận xét 1 {#ac-viii-s4-n2-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s4-n2-rem-1 .statement tag=0CO6}
 
 Số nguyên $c_M$ là dương theo bổ đề 2. Có thể có $M \neq 0$ và $c_M = 0$ (x. mệnh đề 2).
 
-#### Nhận xét 2 {#ac-viii-s4-n2-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s4-n2-rem-2 .statement tag=0CO7}
 
 Cho $0 \to M' \to M \to M'' \to 0$ là một dãy khớp các H-môđun phân bậc và các đồng cấu bậc 0 sao cho M là kiểu hữu hạn trên H và $M_n$ có độ dài hữu hạn trên $H_0$ với mỗi $n$. Khi đó, với mỗi $n \in \mathbf{Z}$, ta có
 $$
@@ -202,11 +202,11 @@ $$
 $$
 do đó $P_M = P_{M'} + P_{M''}$, $Q_M = Q_{M'} + Q_{M''}$ và $c_M = c_{M'} + c_{M''}$.
 
-#### Nhận xét 3 {#ac-viii-s4-n2-rem-3 .statement}
+#### Nhận xét 3 {#ac-viii-s4-n2-rem-3 .statement tag=0CO8}
 
 Cho $M(p)$ là môđun suy ra từ M bằng cách tịnh tiến phân bậc đi $p$ (A, II, p. 165, ví dụ 3). Vì ta có $M(p)_n = M_{p+n}$, nên ta có $P_{M(p)} = T^{-p}P_M$, $Q_{M(p)} = T^{-p}Q_M$ và $c_{M(p)} = c_M$.
 
-#### Ví dụ 2 {#ac-viii-s4-n2-exa-2 .statement}
+#### Ví dụ 2 {#ac-viii-s4-n2-exa-2 .statement tag=0CO9}
 
 Giả sử $H_0$ là Artin, và cho M là một H-môđun phân bậc tự do được sinh bởi s phần tử thuần nhất, độc lập tuyến tính, có các bậc tương ứng $\delta_1, ..., \delta_s$. Khi đó M đẳng cấu với $H(-\delta_1) \oplus \cdots \oplus H(-\delta_s)$. Do các nhận xét 2 và 3 và ví dụ 1, vì vậy ta có
 $$
@@ -219,7 +219,7 @@ $$
 c_M = s.\mathrm{long}(H_0).
 $$
 
-#### Ví dụ 3 {#ac-viii-s4-n2-exa-3 .statement}
+#### Ví dụ 3 {#ac-viii-s4-n2-exa-3 .statement tag=0COA}
 
 Lại giả sử $H_0$ là Artin; cho M là một H-môđun phân bậc, và giả sử rằng tồn tại một dãy khớp các H-môđun phân bậc và các đồng cấu bậc 0
 $$
@@ -233,7 +233,7 @@ $$
 c_M = \mathrm{long}(H_0).\sum_{0 \leq k \leq n} (-1)^k m(k).
 $$
 
-#### Nhận xét 4 {#ac-viii-s4-n2-rem-4 .statement}
+#### Nhận xét 4 {#ac-viii-s4-n2-rem-4 .statement tag=0COB}
 
 Có thể chứng minh (p. 88, bài tập 4) rằng dưới các giả thiết của đ. lý 1, các $H_0$-môđun $\mathrm{Tor}_j^H(H_0, M)$ có độ dài hữu hạn, bằng không với $j > r$, và ta có
 $$
@@ -244,7 +244,7 @@ $$
 Q_M = \sum_{j=0}^r (-1)^j P_{T_j}.
 $$
 
-#### Mệnh đề 1 {#ac-viii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#ac-viii-s4-prop-1 .statement tag=0COC}
 
 Cho $M$ là một $H$-môđun phân bậc. Giả sử rằng $M$ được sinh bởi $M_0$ và $M_0$ là một $H_0$-môđun có độ dài hữu hạn. Khi đó ta có
 $$
@@ -270,11 +270,11 @@ $$
 Các điều kiện (i), (ii) và (iii) lần lượt tương đương với $c_R = 0$, $P_R = 0$ và $R = 0$.
 Do đó ta có (iii) $\Rightarrow$ (ii) $\Rightarrow$ (i), và chỉ cần chứng minh rằng $c_R = 0$ suy ra $R = 0$. Giả sử $R \neq 0$ và cho $0 = N^h \subset N^{h-1} \subset ... \subset N^0 = M_0$ là một dãy Jordan-Hölder của $H_0$-môđun $M_0$. Gọi $R^m$ là giao của $R$ với ảnh của $H \otimes_{H_0} N^m$ trong $H \otimes_{H_0} M_0$; tồn tại một số nguyên $m$ giữa 1 và $h$ sao cho $R^m \neq R^{m-1}$. Đặt $L = R^{m-1}/R^m$; ta có $0 \leq c_L \leq c_R$ và chỉ cần chứng minh rằng $c_L \neq 0$. Bây giờ, nếu $k$ là trường thương của $H_0$ theo iđêan linh hóa tử cực đại của $N^{m-1}/N^m$, thì $L$ được đồng nhất với một môđun con phân bậc khác không của $k[(X_i)_{i \in I}]$. Do đó $L$ chứa một môđun con đẳng cấu với một môđun tịnh tiến của $k[(X_i)_{i \in I}]$; vì $c_{k[(X_i)_{i \in I}]} = 1$, suy ra $c_L \geq 1$ (Nhận xét 2 và 3), điều phải chứng minh.
 
-#### Nhận xét 5 {#ac-viii-s4-n2-rem-5 .statement}
+#### Nhận xét 5 {#ac-viii-s4-n2-rem-5 .statement tag=0COD}
 
 Theo A, X, p. 160, đ. lý 1, điều kiện (iii) có nghĩa là $(X_1, ..., X_r)$ là một dãy hoàn toàn cát tuyến đối với $H$-môđun $M$.
 
-#### Mệnh đề 2 {#ac-viii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#ac-viii-s4-prop-2 .statement tag=0COE}
 
 Giả sử $H_0$ là một trường, và cho $M$ là một $H$-môđun phân bậc sinh hữu hạn. Gọi $K$ là trường phân thức của $H$. Khi đó $c_M$ bằng hạng của $H$-môđun $M$, nghĩa là bằng chiều của không gian vectơ $M \otimes_H K$ trên $K$.
 
@@ -284,7 +284,7 @@ $$
 $$
 và các nhận xét 2 và 3, suy ra $c_{H/xH} = 0$. Do đó mệnh đề được kiểm chứng khi $M$ được sinh bởi một phần tử thuần nhất. Trường hợp tổng quát suy ra từ đây, vì mọi $H$-môđun phân bậc sinh hữu hạn đều có một chuỗi hợp thành mà các thương của nó có dạng trên.
 
-#### Nhận xét 6 {#ac-viii-s4-n2-rem-6 .statement}
+#### Nhận xét 6 {#ac-viii-s4-n2-rem-6 .statement tag=0COF}
 
 Do đó, dưới các giả thiết của Mệnh đề 2, ta có $c_M = 0$ khi và chỉ khi $M$ là một $H$-môđun xoắn, hay cũng tương đương khi $\dim_H(M) < r$ (§ 1, No. 5, ví dụ 4).
 
@@ -306,12 +306,12 @@ q^{n-n_1}M \subset F_n \subset q^{n-n_0}M
 $$
 (nhớ rằng theo quy ước ta đã đặt $q^r = A$ với $r \leq 0$).
 
-#### Bổ đề 3 {#ac-viii-s4-lem-3 .statement}
+#### Bổ đề 3 {#ac-viii-s4-lem-3 .statement tag=0COG}
 
 Nếu $F$ và $F'$ là hai lọc $q$-tốt trên $M$, thì tồn tại một số nguyên $m$ sao cho $F'_n \subset F_{n-m}$ với mọi $n \in \mathbf{Z}$.
 Thật vậy, tồn tại $n_2$ sao cho $F'_n \subset q^{n-n_2}M$ với mọi $n$, do đó $F'_n \subset F_{n-(n_2-n_1)}$ với mọi $n$.
 
-#### Bổ đề 4 {#ac-viii-s4-lem-4 .statement}
+#### Bổ đề 4 {#ac-viii-s4-lem-4 .statement tag=0COH}
 
 Cho $F$ là một lọc $q$-tốt trên $M$. Nếu $M/qM$ có độ dài hữu hạn, thì $M/F_{n+1}$ và $F_n/F_{n+1}$ có độ dài hữu hạn với mọi $n \in \mathbf{Z}$.
 Với ký hiệu của (7), ta có $\operatorname{long}(M/F_{n+1}) \leq \operatorname{long}(M/q^{n-n_1+1}M)$ và chỉ cần chứng minh rằng $q^nM/q^{n+1}M$ có độ dài hữu hạn với mọi $n$. Do đó ta được quy về trường hợp của lọc $q$-adic. Cho $(x_1, ..., x_r)$ là một hệ sinh hữu hạn của $A$-môđun $q$, và gọi $I$ là tập hợp hữu hạn các đơn thức có tổng bậc bằng $n$ theo $r$ biến
@@ -325,7 +325,7 @@ $$
 H_{M,F} = \sum_{n \in \mathbf{Z}} \operatorname{long}_{A/q}(F_n/F_{n+1}). T^n \in \mathbf{Z}((T)).
 $$
 
-#### Định nghĩa 1 {#ac-viii-s4-def-1 .statement}
+#### Định nghĩa 1 {#ac-viii-s4-def-1 .statement tag=0COI}
 
 Chuỗi $H_{M,F}$ được gọi là chuỗi Hilbert-Samuel của A-môđun M (đối với lọc q-tốt F).
 
@@ -338,7 +338,7 @@ $$
 H_{M,q} = \sum_{n \in \mathbf{Z}} \operatorname{long}_{A/q}(q^nM/q^{n+1}M). T^n .
 $$
 
-#### Mệnh đề 3 {#ac-viii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#ac-viii-s4-prop-3 .statement tag=0COJ}
 
 a) Nếu F là một lọc q-tốt trên M, ta có
 
@@ -351,7 +351,7 @@ b) Nếu F và F’ là hai lọc q-tốt trên M, thì tồn tại một số n
 
 Phần a) suy ra ngay lập tức từ định nghĩa của $H_{M,F}^{(1)}$; phần b) suy ra từ a) và Bổ đề 3.
 
-#### Định lý 2 {#ac-viii-s4-thm-2 .statement}
+#### Định lý 2 {#ac-viii-s4-thm-2 .statement tag=0COK}
 
 Cho A là một vành Noether, q là một iđêan của A, M là một A-môđun hữu hạn sinh sao cho M/qM khác không và có độ dài hữu hạn, và F là một lọc q-tốt trên M.
 
@@ -373,7 +373,7 @@ Theo Mệnh đề 3, b), tồn tại một số nguyên $m$ sao cho $(1 - T)^{-d
 Theo Bổ đề 2, b) của No. 1, điều này suy ra $d' \geq d$ và, nếu $d' = d$, thì $R'(1) \geq R(1)$.
 Đổi vai trò của $F$ và $F'$, ta được $d = d'$ và $R(1) = R'(1)$.
 
-#### Nhận xét 1 {#ac-viii-s4-n3-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s4-n3-rem-1 .statement tag=0COL}
 
 Với ký hiệu của a), viết $R = \sum_{i \in \mathbf{Z}} a_i T^i$, và giả sử $d > 0$.
 Theo No. 1, quan hệ $H_{M,F} = (1 - T)^{-d} R$ cũng có thể viết thành
@@ -391,7 +391,7 @@ H_{M,F} = (1 - T)^{-d_q(M)} R , \quad R(1) = e_q(M) .
 $$
 Nếu $M = qM$, theo quy ước ta đặt $d_q(M) = -\infty$, $e_q(M) = 0$.
 
-#### Nhận xét 2 {#ac-viii-s4-n3-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s4-n3-rem-2 .statement tag=0COM}
 
 Nói rằng $M/qM$ có độ dài hữu hạn nghĩa là
 $$
@@ -399,7 +399,7 @@ $$
 $$
 gồm các iđêan cực đại (IV, § 2, No. 5, Mệnh đề 7). Ta sẽ thấy dưới đây (No. 4, hệ quả của Định lý 3) rằng $d_q(M)$ là cận trên bé nhất của các số $\dim_{A_m}(M_m)$, trong đó $m$ chạy qua tập hợp $\operatorname{Supp}(M) \cap V(q)$.
 
-#### Hệ quả {#ac-viii-s4-n3-cor-1 .statement}
+#### Hệ quả {#ac-viii-s4-n3-cor-1 .statement tag=0CON}
 
 *Cho $A$ là một vành Noether, $q$ là một iđêan của $A$, $M$ là một $A$-môđun hữu hạn sinh sao cho $M/qM$ có độ dài hữu hạn, và $F$ là một filtration q-tốt trên $M$.
 a) Để có $d_q(M) \leq 0$, điều kiện cần và đủ là dãy $(q^n M)$ dừng, hay cũng thế, dãy $(F_n)$ dừng. Khi đó, với mọi $n$ đủ lớn,
@@ -416,11 +416,11 @@ $$
 trong đó $\rho_n$ và $\sigma_n$ tiến tới một giới hạn khi $n$ tăng vô hạn.
 Điều này suy ra ngay từ Định lý 2 và công thức (2) của No. 1.*
 
-#### Nhận xét 3 {#ac-viii-s4-n3-rem-3 .statement}
+#### Nhận xét 3 {#ac-viii-s4-n3-rem-3 .statement tag=0COO}
 
 Giả sử q được chứa trong căn của A. Khi đó, theo bổ đề Nakayama, dãy (q^nM) dừng nếu và chỉ nếu ta có q^nM = 0 với n đủ lớn. Khi đó suy ra từ phần a) của hệ quả rằng ta có d_q(M) \leq 0 nếu và chỉ nếu M có độ dài hữu hạn, và khi ấy ta có e_q(M) = \operatorname{long}_A(M).
 
-#### Mệnh đề 4 {#ac-viii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#ac-viii-s4-prop-4 .statement tag=0COP}
 
 Cho A là một vành Noether, x_1, ..., x_r là các phần tử của A, x là iđêan do chúng sinh, và M là một A-môđun hữu hạn sinh sao cho M/xM khác không và có độ dài hữu hạn.
 a) Ta có d_x(M) \leq r.
@@ -431,7 +431,7 @@ Gọi H là vành đa thức (A/x)[X_1, ..., X_r]. Trang bị cho G = \bigoplus_
 
 Vậy hoặc d_x(M) < r và c_G = 0, hoặc d_x(M) = r và c_G = e_x(M). Hơn nữa, theo Mệnh đề 1 của No. 2, ta có c_G \leq \operatorname{long}(M/xM), và có đẳng thức nếu và chỉ nếu đồng cấu chính tắc A/x[X_1, ..., X_r] \otimes_{A/x} M/xM \to \bigoplus_n x^nM/x^{n+1}M là song ánh. Điều này kéo theo mệnh đề, xét theo A, X, p. 160, định lý 1.
 
-#### Mệnh đề 5 {#ac-viii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#ac-viii-s4-prop-5 .statement tag=0COQ}
 
 Cho 0 \to M' \to M \to M'' \to 0 là một dãy khớp của các môđun hữu hạn sinh trên một vành Noether A, và q là một iđêan của A. a) Để M/qM có độ dài hữu hạn, điều kiện cần và đủ là M'/qM' và M''/qM'' cũng có tính chất đó. b) Giả sử M/qM có độ dài hữu hạn. Khi đó ta ở trong một trong ba trường hợp sau: 1) d_q(M) = d_q(M') > d_q(M'') \text{ và } e_q(M) = e_q(M'), 2) d_q(M) = d_q(M'') > d_q(M') \text{ và } e_q(M) = e_q(M''), 3) d_q(M) = d_q(M') = d_q(M'') \text{ và } e_q(M) = e_q(M') + e_q(M''). a) Ta có Supp(M) = Supp(M') \cup Supp(M'') và mệnh đề suy ra từ Nhận xét 2. b) Trang bị cho M một filtration q-tốt F (chẳng hạn filtration q-adic), cho M'' filtration thương F'', và cho M' filtration cảm sinh F'. Các filtrations F' và F'' là q-tốt (III, § 3, No. 1, Mệnh đề 1). Khi đó với mỗi n ta có một dãy khớp các A-môđun $$
 0 \to F'_n/F'_{n+1} \to F_n/F_{n+1} \to F''_n/F''_{n+1} \to 0
@@ -441,7 +441,7 @@ $$ với R, R', R'' \in \mathbf{Z}[T, T^{-1}], R(1) = e_q(M), R'(1) = e_q(M'), R
 
 ### 4. Bậc của hàm Hilbert-Samuel
 
-#### Định lý 3 {#ac-viii-s4-thm-3 .statement}
+#### Định lý 3 {#ac-viii-s4-thm-3 .statement tag=0COR}
 
 Cho $A$ là một vành địa phương Noether, $q$ là một iđêan của $A$ phân biệt với $A$, và $M$ là một $A$-môđun hữu hạn sinh sao cho $M/qM$ có độ dài hữu hạn. Khi đó số nguyên $d_q(M)$ là chiều của $A$-môđun $M$ ($§ 1$, No. 4, Def. 8).
 
@@ -467,23 +467,23 @@ $$
 
 điều này hoàn tất chứng minh.
 
-#### Hệ quả {#ac-viii-s4-n4-cor-1 .statement}
+#### Hệ quả {#ac-viii-s4-n4-cor-1 .statement tag=0COS}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun sinh hữu hạn và $q$ là một iđêan của $A$ sao cho $M/qM$ có độ dài hữu hạn. Khi đó $d_q(M)$ là cận trên bé nhất của các số chiều $\dim_{A_m}(M_m)$, khi $m$ chạy qua tập hợp hữu hạn $S = \operatorname{Supp}(M) \cap V(q)$, và $e_q(M)$ là tổng của các $e_{q_m}(M_m)$ lấy trên những phần tử $m$ của $S$ mà với chúng ta có $\dim_{A_m}(M_m) = d_q(M)$.
 
 Với mỗi số nguyên $n$, độ dài của $M/q^nM$ là tổng của các $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $§ 2$, No. 5, cor. 1 to prop. 7 and hệ quả to prop. 8). Do đó, ta có $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, do đó có hệ quả.
 
-#### Nhận xét 1 {#ac-viii-s4-n4-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s4-n4-rem-1 .statement tag=0COT}
 
 Ta cũng có $d_q(M) = \sup_{m \in V(q)} \dim(M_m)$, nghĩa là, $d_q(M) = \dim(\hat{M})$, trong đó $\hat{M}$ là bổ sung của $M$ đối với tôpô q-adic ($§ 3$, No. 4, prop. 8).
 
-#### Nhận xét 2 {#ac-viii-s4-n4-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s4-n4-rem-2 .statement tag=0COU}
 
 Giả sử q được chứa trong căn của A; khi đó $\dim(\hat{M}) = \dim(M)$ (*loc. cit.*, cor. 1), do đó $d(M) = \dim(M)$.
 
 ### 5. Chuỗi Hilbert-Samuel của một môđun thương
 
-#### Bổ đề 5 {#ac-viii-s4-lem-5 .statement}
+#### Bổ đề 5 {#ac-viii-s4-lem-5 .statement tag=0COV}
 
 Cho A là một vành, M là một A-môđun và $(P_n), (Q_n)$ là hai lọc giảm trên M gồm các môđun con. Giả sử rằng ta có $P_n \supset Q_n$ và $\operatorname{long}_A(P_n/Q_n) < +\infty$ với mọi $n \in \mathbf{Z}$ và rằng tồn tại một số nguyên $n_1$ sao cho $Q_{n_1} = M$. Trong $\mathbf{Z}((T))$, ta có các bất đẳng thức
 
@@ -506,7 +506,7 @@ $$
 
 Nhưng A-môđun $(P_{n+1} \cap Q_i)/(P_{n+1} \cap Q_{i+1})$ đẳng cấu với một môđun con của $(P_{i+1} \cap Q_i)/Q_{i+1}$, và bất đẳng thức (16) suy ra được.
 
-#### Bổ đề 6 {#ac-viii-s4-lem-6 .statement}
+#### Bổ đề 6 {#ac-viii-s4-lem-6 .statement tag=0COW}
 
 Cho A là một vành, M một A-môđun và $(F_n)$ một lọc giảm trên M gồm các môđun con; giả sử rằng tồn tại một số nguyên $n_1$ sao cho $F_{n_1} = M$. Gọi f là một tự đồng cấu của M, $M'$ là hạt nhân của nó và $M''$ là đối hạt nhân của nó. Ta trang bị cho $M'$ lọc $(F'_n)$ cảm sinh bởi $(F_n)$ và cho $M''$ lọc thương $(F''_n)$ của $(F_n)$. Giả sử rằng $F_n/F_{n+1}$ có độ dài hữu hạn với mọi $n \in \mathbf{Z}$ và rằng tồn tại một số nguyên $\delta$ sao cho $f(F_n) \subset F_{n+\delta}$. Gọi $\varphi$ là tự đồng cấu phân bậc bậc $\delta$ của môđun phân bậc $\mathrm{gr}(M) = \bigoplus_{n \in \mathbf{Z}} F_n/F_{n+1}$ suy ra từ f. Giữa các phần tử sau của $\mathbf{Z}((T))$
 
@@ -552,7 +552,7 @@ Nhân với $T^{n+\delta}$ rồi lấy tổng theo $n$, ta thu được
 
 và bất đẳng thức (18) suy ra ngay từ (20) và (21).
 
-#### Bổ đề 7 {#ac-viii-s4-lem-7 .statement}
+#### Bổ đề 7 {#ac-viii-s4-lem-7 .statement tag=0COX}
 
 Giữ lại các ký hiệu của bổ đề 6.
 
@@ -586,7 +586,7 @@ $$
 
 trong đó $\varphi'_n = \varphi_{n-\delta}$ với mọi $n$. Điều này hoàn tất chứng minh của c).
 
-#### Mệnh đề 6 {#ac-viii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#ac-viii-s4-prop-6 .statement tag=0COY}
 
 *Cho A là một vành Noether, M là một A-môđun hữu hạn sinh và q là một iđêan của A sao cho M/qM có độ dài hữu hạn. Cho F là một lọc q-tốt của M, và $\mathrm{gr}(A) = \bigoplus_{n \geq 0} (q^n/q^{n+1})$ là vành phân bậc liên kết với A đối với lọc q-adic.*
 

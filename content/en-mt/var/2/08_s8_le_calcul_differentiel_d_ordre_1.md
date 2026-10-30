@@ -44,7 +44,7 @@ subsections:
       pdf_page: 110
 statements: 0
 exercises: 0
-content_sha256: 5480527fe97e663fdd949ef6b0415b3bfc5a05ba2b0dfc094ad038236b442035
+content_sha256: 151748ed82bb3303d3adeca6e507cd272626be0aff222edcb092fc0aed522a7a
 translated_from: content/fr/var/2/08_s8_le_calcul_differentiel_d_ordre_1.md
 source_lang: fr
 translation_method: machine

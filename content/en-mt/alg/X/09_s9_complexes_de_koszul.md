@@ -53,11 +53,11 @@ subsections:
       pdf_page: 171
 statements: 35
 exercises: 10
-content_sha256: 2c2264c9a2d176b8cd1e6006adf7a403ebf0cd48c85ede8acfc2273cdd89c0ef
+content_sha256: 85a8d249fc4b511df06a90d6138d7361c868715ea23c76067995d02c38eb3731
 translated_from: content/fr/alg/X/09_s9_complexes_de_koszul.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: e050c0ace3b6ae09e3ac8402d6d075509f24c1315d70999695129d52b67dfc1f
+source_content_sha256: ca6f4968b5e296c469f45420152fa140f08b72a7442082626747fce9b5cb1972
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
 translation_run: translate-en-mt-2cb97f2e
 glossary_version: 34
@@ -79,7 +79,7 @@ $$
 
 for $e_1, \ldots, e_n$ in $L$. According to III, p. 164 and 165, the mapping $d_u : \Lambda(L) \to \Lambda(L)$ is an antidifferentiation of degree $(-1)$ and of square zero. It is the unique antidifferentiation of the $A$-algebra $\Lambda(L)$ which extends $u : \Lambda^1(L) \to \Lambda^0(L)$.
 
-#### Definition 1 {#alg-x-s9-def-1 .statement}
+#### Definition 1 {#alg-x-s9-def-1 .statement tag=0E2G}
 
 The complex $(\Lambda(L), d_u)$ is denoted by $\mathbf{K}^A(u)$ or $\mathbf{K}(u)$.
 
@@ -111,25 +111,25 @@ $$
 \end{aligned}
 $$
 
-#### Lemma 1 {#alg-x-s9-lem-1 .statement}
+#### Lemma 1 {#alg-x-s9-lem-1 .statement tag=0E2H}
 
 If the complex $C$ is zero on the right (resp. on the left), then $\mathbf{K}^A(u, C)$ (resp. $\mathbf{K}^*_A(u, c)$) is zero on the right (resp. on the left), and $\gamma_0$ (resp. $\lambda^0$) is bijective.
 
 This follows from X, p. 62, prop. 1 and p. 82, prop. 1.
 
-#### Proposition 1 {#alg-x-s9-prop-1 .statement}
+#### Proposition 1 {#alg-x-s9-prop-1 .statement tag=0E2I}
 
 Let $x \in L$; denote by $R_x : y \mapsto x \wedge y$ the left multiplication by $x$ in the algebra $\Lambda(L)$. Then $d_u \circ R_x + R_x \circ d_u = u(x) \cdot 1_{\Lambda(L)} = u(x)_{\Lambda(L)}$.
 
 Indeed $(d_u \circ R_x + R_x \circ d_u)(y) = d_u(x \wedge y) + x \wedge d_u(y)$; since $d_u$ is an antidifferentiation, $d_u(x \wedge y) + x \wedge d_u(y) = d_u(x) \wedge y = u(x) \cdot y$.
 
-#### Corollary 1 {#alg-x-s9-prop-1-cor-1 .statement}
+#### Corollary 1 {#alg-x-s9-prop-1-cor-1 .statement tag=0E2J}
 
 If $u$ is surjective, $K(u)$ is homotopic to zero (X, p. 34) as well as $K^A(u, C)$ and $K_A^*(u, C)$ for every complex $C$.
 
 Indeed, there exists $x \in L$ such that $u(x) = 1$. Then $K(u)$ is homotopic to zero by the proposition 1, and therefore also $K^A(u, C)$ (X, p. 64, prop. 3) and $K_A^*(u, C)$ (X, p. 83, prop. 3).
 
-#### Corollary 2 {#alg-x-s9-prop-1-cor-2 .statement}
+#### Corollary 2 {#alg-x-s9-prop-1-cor-2 .statement tag=0E2K}
 
 Let $C$ be a complex, Ann (C) its annihilator. Then $q + \mathrm{Ann}(C)$ annihilates $H^A(u, C)$ and $H_A^*(u, C)$.
 
@@ -143,7 +143,7 @@ resp.
 
 If $L$ is projective and $K(u)$ acyclic in degrees > 0, the homomorphisms (2) and (3) above are bijective and reciprocal to one another (X, p. 102, prop. 1).
 
-#### Proposition 2 {#alg-x-s9-prop-2 .statement}
+#### Proposition 2 {#alg-x-s9-prop-2 .statement tag=0E2L}
 
 Let $(L_i)_{i \in I}$ be a family of $A$-modules, where the set $I$ is finite and totally ordered. Let $u$ be a linear form on $\bigoplus_{i \in I} L_i$, $u_i$ its restriction to $L_i$.
 
@@ -226,7 +226,9 @@ By passing to homology, we therefore have *canonical* isomorphisms
 H^A_r(u, C) \to H^{n-r}_A(u, C \otimes_A \Lambda^n L) , \qquad r \in \mathbf{Z} .
 $$
 
-*Remarks. — 1)* \* The above remains valid when $L$ is projective of rank $n$. \*
+#### Remarks {#alg-x-s9-n1-rem-1 .statement tag=0EEQ}
+
+*1)* \* The above remains valid when $L$ is projective of rank $n$. \*
 
 2) Since $L$ is free of rank $n$, $\Lambda^n L$ is isomorphic to $A$, and we have non-canonical isomorphisms $H^A_r(u,C)\to H^{n-r}_A(u,C)$.
 
@@ -357,7 +359,7 @@ $$
 
 is an isomorphism of complexes of A-modules (this follows from prop. 2 of X, p. 148 or from formula (9) above).
 
-#### Proposition 3 {#alg-x-s9-prop-3 .statement}
+#### Proposition 3 {#alg-x-s9-prop-3 .statement tag=0E2M}
 
 *If the A-module L is flat, the sequences $(\mathscr{E}_n)$ above are exact for $n > 0$.*
 
@@ -391,15 +393,15 @@ $$
 
 is an isomorphism of complexes, the proposition follows from X, p. 28, prop. 1.
 
-#### Remark 1 {#alg-x-s9-n3-rem-1 .statement}
+#### Remark 1 {#alg-x-s9-n3-rem-1 .statement tag=0E2N}
 
 We shall see below (X, p. 158, example) another proof of part *c)* above.
 
-#### Remark 2 {#alg-x-s9-n3-rem-2 .statement}
+#### Remark 2 {#alg-x-s9-n3-rem-2 .statement tag=0E2O}
 
 If A is a $\mathbf{Q}$-algebra, the conclusion of prop. 3 remains true without assumption on L (*cf.* X, p. 206, exercise 1).
 
-#### Remark 3 {#alg-x-s9-n3-rem-3 .statement}
+#### Remark 3 {#alg-x-s9-n3-rem-3 .statement tag=0E2P}
 
 Let G be a group and $\rho : G \to \mathbf{GL}(L)$ a linear representation of G in a flat A-module L. Then the $(\mathscr{E}_n)$ are exact sequences of linear representations. Suppose L finitely generated projective, and denote by $R_A(G)$ the ring of representations of G in finitely generated projective A-modules. It follows from prop. 3 that one has in R_A(G) the relations
 
@@ -462,7 +464,7 @@ h(m) = \sum_J h_J(m) ,
 $$
 where $J$ runs through the subsets of $I$ having $p$ elements.
 
-#### Lemma 2 {#alg-x-s9-lem-2 .statement}
+#### Lemma 2 {#alg-x-s9-lem-2 .statement tag=0E2Q}
 
 *If the k-module $L_0$ is free with basis $(e_i)_{i \in I}$, the k-linear mappings g and h are bijective.*
 This follows from III, p. 79, th. 1.
@@ -501,7 +503,7 @@ $$
 \theta_*: K_*(x, M) \to K_A^*(u, M).
 $$
 
-#### Remark {#alg-x-s9-n4-rem-1 .statement}
+#### Remark {#alg-x-s9-n4-rem-1 .statement tag=0E2R}
 
 Conversely, let B be a $k$-algebra, L a free B-module with basis $(e_i)_{i \in I}$, and M a B-module. The datum of a linear form $u : L \to B$ is equivalent to that of a family $x = (x_i)_{i \in I}$ of elements of B, by the relation $x_i = u(e_i)$. The underlying complex of $k$-modules of $K_B^*(u, M)$ (resp. $K^B(u, M)$) is then identified, by the isomorphism $\theta^*$ (resp. $\theta_*$) with the Koszul complex $K^*(x, M)$ (resp. $K_*(x, M)$). For example $K^B(u)$ is identified with $K^*(x, B)$.
 
@@ -537,7 +539,7 @@ $$
 
 if $(\alpha_1, ..., \alpha_p, \beta_1, ..., \beta_{n-p})$ is an *even* permutation of $\{ 1, ..., n \}$. Let us also remark that when $I = \{ 1, ..., n \}$, we can identify $C_1^p(M)$ with the set of families $m(\alpha_1, ..., \alpha_p)$ of elements of M where $\alpha_1 < \alpha_2 < ... < \alpha_p$; formula (12) remains valid, as does relation (13).
 
-#### Example {#alg-x-s9-n4-exa-1 .statement}
+#### Example {#alg-x-s9-n4-exa-1 .statement tag=0E2S}
 
 Take $M = k[T_1, ..., T_n]$; the Koszul complex $K (\partial/\partial T, M)$ associated with the sequence of endomorphisms $(\partial/\partial T_1, ..., \partial/\partial T_n)$ is identified with the de Rham complex of $k[x_1, ..., x_n]$ over $k$ (X, p. 44): with $m \in C_{\{1,...,n\}}^p(M)$, we associate the differential form
 
@@ -564,7 +566,7 @@ $$
 H_1(x, M) \to \mathrm{Hom}_A(A/xA, M) \leftarrow H^0(x, M).
 $$
 
-#### Lemma 3 {#alg-x-s9-lem-3 .statement}
+#### Lemma 3 {#alg-x-s9-lem-3 .statement tag=0E2T}
 
 Let $K$ be a complex such that $K_i = 0$ for $i \neq 0, 1$, and let $C$ be a complex and $p$ an integer.
 
@@ -626,7 +628,7 @@ whence a).
 
 Applying Lemma 3, a) to the complex $K(u)$, and using the commutation isomorphisms, we obtain:
 
-#### Proposition 4 {#alg-x-s9-prop-4 .statement}
+#### Proposition 4 {#alg-x-s9-prop-4 .statement tag=0E2U}
 
 *For every complex $C$, there are exact sequences .*
 
@@ -634,11 +636,11 @@ $$
 0\longrightarrow A/xA\otimes_A H_p(C)\longrightarrow H_p(x,C)\longrightarrow \operatorname{Hom}_A(A/xA,H_{p-1}(C))\longrightarrow 0.
 $$
 
-#### Corollary 1 {#alg-x-s9-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-x-s9-prop-4-cor-1 .statement tag=0E2V}
 
 *For $H_p(x,C)=0$ to hold, it is necessary and sufficient that the homothety with ratio $x$ in $H_p(C)$ be surjective and that the homothety with ratio $x$ in $H_{p-1}(C)$ be injective.*
 
-#### Corollary 2 {#alg-x-s9-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-x-s9-prop-4-cor-2 .statement tag=0E2W}
 
 *Let $x=(x_1,\ldots,x_n)$ be a sequence of elements of $A$, $M$ an $A$-module, $x'$ the sequence $(x_1,\ldots,x_{n-1})$. We have exact sequences*
 
@@ -646,7 +648,7 @@ $$
 0\longrightarrow A/x_nA\otimes_A H_p(x',M)\longrightarrow H_p(x,M)\longrightarrow \operatorname{Hom}_A(A/x_nA,H_{p-1}(x',M))\longrightarrow 0.
 $$
 
-#### Corollary 3 {#alg-x-s9-prop-4-cor-3 .statement}
+#### Corollary 3 {#alg-x-s9-prop-4-cor-3 .statement tag=0E2X}
 
 *For $H_i(x,M)$ to be zero for all $i>0$, it is necessary and sufficient that the homothety with ratio $x_n$ in $H_i(x',M)$ be bijective for $i>0$, and that the homothety with ratio $x_n$ in $M/(x')M$ be injective.*
 
@@ -654,7 +656,7 @@ $$
 
 Let $A$ be a ring, $M$ an $A$-module, $x=(x_i)_{i\in I}$ a family of elements of $A$.
 
-#### Definition 2 {#alg-x-s9-def-2 .statement}
+#### Definition 2 {#alg-x-s9-def-2 .statement tag=0E2Y}
 
 *The family $x$ is said to be completely transverse for $M$ if one has $H_i(x,M)=0$ for $i>0$.*
 
@@ -662,7 +664,7 @@ If $I$ is finite, it amounts to the same thing (X, p. 150) to say that one has $
 
 The following proposition makes it possible to give examples of completely transverse families.
 
-#### Proposition 5 {#alg-x-s9-prop-5 .statement}
+#### Proposition 5 {#alg-x-s9-prop-5 .statement tag=0E2Z}
 
 *Let $x=(x_1,\ldots,x_n)$ be a sequence of elements of $A$. If for $i=1,\ldots,n$, the homothety of ratio $x_i$ in the $A$-module $M/(x_1M+\cdots+x_{i-1}M)$ is injective, the sequence $x$ is completely secant for $M$.*
 
@@ -670,12 +672,12 @@ A sequence satisfying the conditions of the proposition is said to be regular fo
 
 Let us prove the proposition by induction on $n$, the case $n = 0$ being immediate. Put $x' = (x_1, ..., x_{n-1})$; if the sequence $x$ is M-regular, the sequence $x'$ is M-regular and multiplication by $x_n$ in $M/(x')M$ is injective; by the induction hypothesis, we have $H_i(x', M) = 0$ for $i > 0$; it then follows from cor. 3 of X, p. 157, that $H_i(x, M) = 0$ for $i > 0$.
 
-#### Example {#alg-x-s9-n6-exa-1 .statement}
+#### Example {#alg-x-s9-n6-exa-1 .statement tag=0E30}
 
 Let $k$ be a ring; take $A = k[X_1, ..., X_n]$ and $x = (X_1, ..., X_n)$. The sequence $x$ is A-regular and the proposition gives again the acyclicity in degrees $> 0$ of the complex $S_k(k^n) \otimes_k \Lambda_k(k^n)$ (cf. X, p. 152, prop. 3).
 Likewise in the ring of formal series $\hat{A} = k[[X_1, ..., X_n]]$, the sequence $(X_1, ..., X_n)$ is $\hat{A}$-regular, hence completely secant for $\hat{A}$.
 
-#### Proposition 6 {#alg-x-s9-prop-6 .statement}
+#### Proposition 6 {#alg-x-s9-prop-6 .statement tag=0E31}
 
 a) If $\sum_{i \in I} x_i A = A$, the family $(x_i)_{i \in I}$ is completely secant for M.
 b) Let $x = (x_1, ..., x_n)$ be a sequence of elements of A. Let $(a_{ij}) \in \mathrm{GL}_n(A)$; put
@@ -688,11 +690,11 @@ Assertion a) follows from cor. 1, p. 148.
 Let us prove b). Let $f : A^n \to A^n$ be the isomorphism defined by the matrix $^t(a_{ij})$; it follows from X, p. 151, that $1_M \otimes \Lambda(f)$ is an isomorphism of the complex $K.(y, M)$ onto the complex $K.(x, M)$, whence b).
 To prove c), it is obviously enough to prove that if $k$ is an integer $\geqslant 1$, the sequence $(x_1, ..., x_{n-1}, x_n^k)$ is completely secant for M if and only if the same is true of the sequence $x$. Let $x' = (x_1, ..., x_{n-1})$; by cor. 3, p. 157, the first condition (resp. the second) means that the homothety of ratio $x_n^k$ (resp. $x_n$) is bijective in $H_i(x', M)$ for $i \geqslant 1$ and injective in $M/(x')M$. These two conditions are clearly equivalent, whence c).
 
-#### Remark 1 {#alg-x-s9-n6-rem-1 .statement}
+#### Remark 1 {#alg-x-s9-n6-rem-1 .statement tag=0E32}
 
 The assertion analogous to c) for regular sequences is true (X, p. 207, exercise 5).
 
-#### Proposition 7 {#alg-x-s9-prop-7 .statement}
+#### Proposition 7 {#alg-x-s9-prop-7 .statement tag=0E33}
 
 a) Let N be a flat A-module. If the family x is completely secant for M, it is so for $M \otimes_A N$.
 
@@ -708,11 +710,11 @@ $$
 
 assertion b) follows from the associated exact homology sequence.
 
-#### Remark 2 {#alg-x-s9-n6-rem-2 .statement}
+#### Remark 2 {#alg-x-s9-n6-rem-2 .statement tag=0E34}
 
 The analogous assertions to a) and b) for regular sequences are immediate.
 
-#### Remark 3 {#alg-x-s9-n6-rem-3 .statement}
+#### Remark 3 {#alg-x-s9-n6-rem-3 .statement tag=0E35}
 
 If the family $x$ is completely transverse for $A$, the complex $K.(x, A)$ defines a free resolution of the $A$-module $A/x$, with $x = \sum_{i \in I} x_i A$; therefore for every integer $i \geqslant 0$ and for every $A$-module $M$ there are isomorphisms
 
@@ -720,7 +722,7 @@ $$
 \text{Ext}_A^{n-i}(A/x, M) \to H^{n-i}(x, M) \to H_i(x, M) \to \operatorname{Tor}_i^A(A/x, M) .
 $$
 
-#### Remark 4 {#alg-x-s9-n6-rem-4 .statement}
+#### Remark 4 {#alg-x-s9-n6-rem-4 .statement tag=0E36}
 
 One says that the sequence $x = (x_1, ..., x_n)$ is $M$-coregular if (denoting by $(x_i)_M$ the homothety of ratio $x_i$ in $M$) the homothety of ratio $x_i$ in the module
 
@@ -760,7 +762,7 @@ $$
 
 The homomorphisms $a_M^x, \alpha_M^x$ and $\beta_M^x$ are surjective.
 
-#### Theorem 1 {#alg-x-s9-thm-1 .statement}
+#### Theorem 1 {#alg-x-s9-thm-1 .statement tag=0E37}
 
 Consider the following conditions:
 (i) The sequence $x$ is M-regular (X, p. 158).
@@ -773,23 +775,23 @@ Then one has the implications (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) $\Leftr
 
 The theorem will be proved in Nos 8 and 9.
 
-#### Corollary 1 {#alg-x-s9-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-x-s9-thm-1-cor-1 .statement tag=0E38}
 
 *If A is noetherian, if the A-module M is of finite type and if the $x_i$ belong to the radical of A, the conditions (i) to (v) of the theorem are equivalent.
 Indeed, on each of the modules $M/(x_1 M + \cdots + x_{i-1} M)$ the $x$-adic topology is separated (AC III, § 3, No. 3, prop. 6).
 
-#### Corollary 2 {#alg-x-s9-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-x-s9-thm-1-cor-2 .statement tag=0E39}
 
 Suppose that A is a graded ring with positive degrees, M a bounded below graded A-module, and the $x_i$ homogeneous elements of degree > 0 of A. Then the conditions (i) to (v) of the theorem are equivalent.
 The $x$-adic topology is indeed separated for every bounded below graded A-module N, since if $N_n = 0$ for $n < n_0$ one has $x^a N \subset \sum_{j \geq n_0 + a} N_j$ for all $a \geq 0$.
 
-#### Corollary 3 {#alg-x-s9-thm-1-cor-3 .statement}
+#### Corollary 3 {#alg-x-s9-thm-1-cor-3 .statement tag=0E3A}
 
 Suppose that the modules $M/(x_1M+\cdots+x_{i-1}M)$ are separated for the $\mathfrak{x}$-adic topology $(1\leq i\leq n)$ ; let p be an integer between $1$ and $n$. In order that the sequence $\mathfrak{x}$ be completely secant for $M$, it is necessary and sufficient that the sequence $(x_1,\ldots,x_p)$ be completely secant for $M$ and that the sequence $(x_{p+1},\ldots,x_n)$ be completely secant for $M/(x_1M+\cdots+x_pM)$.
 
 Indeed the corollary is evident if in the statement one replaces “completely secant sequences” by “regular sequences”; but the two notions coincide here by the theorem.
 
-#### Remark {#alg-x-s9-n7-rem-1 .statement}
+#### Remark {#alg-x-s9-n7-rem-1 .statement tag=0E3B}
 
 Let $\mathfrak{x}=(x_1,\ldots,x_n)$ be a sequence of elements of $A$ such that $H_1(\mathfrak{x},A)=0$; then the kernel of the surjective homomorphism $u:A^n\to\mathfrak{x}$ such that
 $$
@@ -812,7 +814,7 @@ To show that (iv) implies (iii), consider the homomorphism $(\alpha_M^x)_1$ indu
 
 To prove that (iii) implies (iv), we shall use the following lemma:
 
-#### Lemma 4 {#alg-x-s9-lem-4 .statement}
+#### Lemma 4 {#alg-x-s9-lem-4 .statement tag=0E3C}
 
 Let $A_0$ be the ring $\mathbf{Z}[T_1,\ldots,T_n]$, and let $u:A_0[X_1,\ldots,X_n]\to A_0[U]$ be the homomorphism of $A_0$-algebras such that $u(X_i)=T_iU$. The kernel of $u$ is the ideal $\mathfrak{d}_0$ of $A_0[X_1,\ldots,X_n]$ generated by the elements $(T_iX_j-T_jX_i)$ for $1\leq i<j\leq n$. If $t$ is the ideal of $A_0$ generated by $(T_1,\ldots,T_n)$, $u$ induces an isomorphism
 $$
@@ -1013,7 +1015,7 @@ $$
 $$
 where $\mathbf{K}^0(x, M)$ has been identified with $M$ and where $q$ maps each element $m \in \mathbf{K}^n(x, M)$ to the class in $M/(x)M$ of $m(1, 2, \ldots, n) \in M$.
 
-#### Proposition 8 {#alg-x-s9-prop-8 .statement}
+#### Proposition 8 {#alg-x-s9-prop-8 .statement tag=0E3D}
 
 *Suppose the sequence x is regular for M. The element of $\mathrm{Ext}_A^n(M/(x)M, M)$ associated with the exact sequence (23) is $(-1)^{n(n+1)/2} \theta_x$.*
 For $i = 0, 1, \ldots, n$, define an A-linear mapping
@@ -1034,7 +1036,7 @@ a^{i+1} \circ \partial^i = (-1)^i \overline{x}_{i+1} \circ a^i .
 $$
 By X, p. 120, cor. 1 and 2, the element of $\mathrm{Ext}_A^n(M/(x)M, M)$ associated with (23) is equal to $\prod_{i=1}^n (-1)^i \cdot \theta_x$, whence the assertion.
 
-#### Corollary {#alg-x-s9-n10-cor-1 .statement}
+#### Corollary {#alg-x-s9-n10-cor-1 .statement tag=0E3E}
 
 *Suppose moreover that the modules $M/(x_1 M + \cdots + x_{i-1} M)$ are separated for the (x)-adic topology, and let $(a_{ij}) \in \mathrm{GL}_n(A)$. Put*
 $$
@@ -1043,7 +1045,7 @@ $$
 *Then the sequence y is regular for M, and one has $\theta_y = \det(a_{ij})^{-1} \theta_x$.*
 Indeed, the sequence y is regular for M by Prop. 6 (X, p. 158) and Theorem 1 (X, p. 160); the last assertion follows from Prop. 8, and from Prop. 4 of X, p. 119.
 
-#### Proposition 9 {#alg-x-s9-prop-9 .statement}
+#### Proposition 9 {#alg-x-s9-prop-9 .statement tag=0E3F}
 
 *Suppose the sequence x regular for M. If N is an A-module such that $(x)N = 0$, one has $\mathrm{Ext}_A^i(N, M) = 0$ for $i < n$, and the mapping $\alpha \mapsto \theta_x \circ \alpha$* from Hom_A (N, M/(x) M) into Ext^n_A (N, M) (which is also the iterated connecting homomorphism associated with (19), cf. X, p. 127, Corollary 3) is bijective.
 

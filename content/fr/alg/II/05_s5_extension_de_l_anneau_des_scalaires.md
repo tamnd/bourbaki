@@ -33,7 +33,7 @@ subsections:
       pdf_page: 265
 statements: 15
 exercises: 7
-content_sha256: dd73cbe623fe94f4135745e54c754e51a1033936590f5c97ac538a1adf961109
+content_sha256: 6e48534c97cf34cd7d7d85e067405dd2bae9444443c0e21649b5cf043cb54a23
 ---
 
 ## § 5. EXTENSION DE L’ANNEAU DES SCALAIRE S
@@ -44,7 +44,7 @@ Soient $A, B$ deux anneaux, $\rho : A \to B$ un homomorphisme d’anneaux; consi
 
 (II, p. 54). On dit que ce B-module à gauche est déduit de E par extension à B de l’anneau des scalaires au moyen de ρ, et on le note ρ*(E), ou E(B) si cela n’entraîne pas confusion.
 
-#### Proposition 1 {#alg-ii-s5-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s5-prop-1 .statement tag=05QD}
 
 Pour tout A-module à gauche E, l’application φ : x ↦ 1 ⊗ x de E dans le A-module ρ*(ρ*(E)) est A-linéaire, et l’ensemble φ(E) engendre le B-module ρ*(E). En outre, pour tout B-module à gauche F, et toute application A-linéaire f de E dans le A-module ρ*(F), il existe une application B-linéaire ĝ et une seule de ρ*(E) dans F telle que ĝ(1 ⊗ x) = f(x) pour tout x ∈ E.
 
@@ -69,19 +69,19 @@ $$
 
 La prop. 1 est donc démontrée. L’application φ_E : E → ρ_*(ρ^*(E)) est dite canonique.
 
-#### Remarque 1 {#alg-ii-s5-n1-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s5-n1-rem-1 .statement tag=05QE}
 
 La prop. 1 montre que le couple formé de E(B) et de φ_E est solution du problème d’application universelle (E, IV, p. 23), où Σ est l’espèce de structure de B-module à gauche (les morphismes étant les applications B-linéaires) et les α-applications les applications A-linéaires de E dans un B-module.
 
-#### Remarque 2 {#alg-ii-s5-n1-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s5-n1-rem-2 .statement tag=0DFS}
 
 Si E est un (A, (C'_i); (D'_j))-multimodule, F un (B, (C''_h); (D''_k))-multimodule, alors l’isomorphisme (2) est linéaire pour les structures de ((D'_j), (C''_h); (C'_i), (D''_k))-multimodules des deux membres (II, p. 34 et p. 54).
 
-#### Remarque 3 {#alg-ii-s5-n1-rem-3 .statement}
+#### Remarque 3 {#alg-ii-s5-n1-rem-3 .statement tag=0DFT}
 
 Soient E un A-module à gauche, a un idéal bilatère de A, ρ : A → A/a l’homomorphisme canonique. Avec les notations de II, p. 60, cor. 2, le A-module E/aE est annulé par a, et est donc canoniquement muni d’une structure de (A/a)-module à gauche (II, p. 28); il est immédiat que l’application canonique π : ρ^*(E) → E/aE définie dans II, p. 60, cor. 2, est un isomorphisme pour les structures de (A/a)-module.
 
-#### Corollaire {#alg-ii-s5-n1-cor-1 .statement}
+#### Corollaire {#alg-ii-s5-n1-cor-1 .statement tag=05QF}
 
 Soient E, E’ deux A-modules à gauche; pour toute application A-linéaire u : E → E’, v = 1_B ⊗ u est l’unique application B-linéaire rendant commutatif le diagramme
 
@@ -106,7 +106,7 @@ $$(v \circ u)_{(B)} = v_{(B)} \circ u_{(B)}.$$
 
 L’extension de l’anneau d’opérateurs d’un module est une opération transitive ; de façon précise :
 
-#### Proposition 2 {#alg-ii-s5-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s5-prop-2 .statement tag=05QG}
 
 *Soient $\rho : A \to B, \sigma : B \to C$ des homomorphismes d’anneaux. Pour tout A-module à gauche E, il existe un C-homomorphisme et un seul*
 
@@ -123,7 +123,7 @@ et en le composant avec l’isomorphisme $C \otimes_B (B \otimes_A E) \to (C \ot
 
 Si $\varphi, \varphi', \varphi''$ désignent les applications canoniques $E \to \rho^*(E), \rho^*(E) \to \sigma^*(\rho^*(E))$ et $E \to (\sigma \circ \rho)^*(E)$, $\varphi' \circ \varphi$ s’identifie à $\varphi''$ par l’isomorphisme canonique de la prop. 2.
 
-#### Proposition 3 {#alg-ii-s5-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s5-prop-3 .statement tag=05QH}
 
 *Soient A, B deux anneaux commutatifs, $\rho : A \to B$ un homomorphisme d’anneaux, E, $E'$ deux A-modules. Il existe un B-homomorphisme et un seul*
 
@@ -136,13 +136,13 @@ En effet, le premier membre de (5) s’écrit $(B \otimes_A E) \otimes_B (B \oti
 
 Il est clair que si S est un système générateur de E, l’image de S par l’application canonique $E \to E_{(B)}$ est un système générateur de $E_{(B)}$; en particulier, si E est un A-module de type fini, $E_{(B)}$ est un B-module de type fini.
 
-#### Proposition 4 {#alg-ii-s5-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s5-prop-4 .statement tag=05QI}
 
 *Soit E un A-module admettant une base $(a_\lambda)_{\lambda \in L}$; si $\varphi : x \mapsto 1 \otimes x$ est l’application canonique de E dans $\rho^*(E)$, alors $(\varphi(a_\lambda))_{\lambda \in L}$ est une base de $\rho^*(E)$. Si $\rho$ est injectif, il en est de même de $\varphi$.*
 
 La première assertion résulte aussitôt de II, p. 62, cor. 1. En outre, on a, pour toute famille $(\xi_\lambda)_{\lambda \in L}$ d’éléments de A, de support fini, $\varphi \left( \sum_{\lambda \in L} \xi_\lambda a_\lambda \right) = \sum_{\lambda \in L} \rho(\xi_\lambda) \varphi(a_\lambda)$, et la relation $\varphi \left( \sum_{\lambda \in L} \xi_\lambda a_\lambda \right) = 0$ équivaut donc à $\rho(\xi_\lambda) = 0$ pour tout $\lambda \in L$, d’où la seconde assertion.
 
-#### Corollaire {#alg-ii-s5-n1-cor-2 .statement}
+#### Corollaire {#alg-ii-s5-n1-cor-2 .statement tag=05QJ}
 
 *Pour tout A-module projectif E, le B-module $\rho^*(E)$ est projectif. Si en outre $\rho$ est injectif, l’application canonique de E dans $\rho^*(E)$ est injective.*
 
@@ -184,7 +184,7 @@ $$
 $$
 égale à $\delta(1_{\rho_*(F)})$, et telle par suite que pour tout $y \in F$ et tout $\beta \in B$, on ait $\psi_F(\beta \otimes y) = \beta y$.
 
-#### Proposition 5 {#alg-ii-s5-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s5-prop-5 .statement tag=05QK}
 
 *Soient E un A-module à gauche, F un B-module à gauche; les applications composées*
 $$
@@ -203,13 +203,13 @@ $$
 
 Montrons-le par exemple pour (12); pour tout $x \in E$, l’application $\rho^*(\varphi_E)$ fait correspondre à $1 \otimes x$ l’élément $1 \otimes (1 \otimes x)$ et l’application $\psi_{\rho^*(E)}$ fait correspondre à $1 \otimes (1 \otimes x)$ l’élément $1 \otimes x$; la conclusion résulte de ce que les éléments de la forme $1 \otimes x$ engendrent le B-module $\rho^*(E)$; la démonstration est encore plus simple pour (13).
 
-#### Corollaire {#alg-ii-s5-n2-cor-1 .statement}
+#### Corollaire {#alg-ii-s5-n2-cor-1 .statement tag=05QL}
 
 *Les applications $\rho^*(\varphi_E)$ et $\varphi_{\rho^*(F)}$ sont injectives et identifient respectivement $\rho^*(E)$ à un facteur direct de $\rho^*(\rho_*(\rho^*(E)))$ et $\rho_*(F)$ à un facteur direct de $\rho_*(\rho^*(\rho_*(F)))$*.
 
 C’est une conséquence de la prop. 5 et de II, p. 21, cor. 2.
 
-#### Proposition 6 {#alg-ii-s5-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s5-prop-6 .statement tag=05QM}
 
 *Soient E un A-module à gauche, F un B-module à droite. Il existe un $\mathbf{Z}$-homomorphisme et un seul*
 $$
@@ -251,7 +251,7 @@ En outre, l’hypothèse que $\rho$ est un homomorphisme *central* entraîne que
 
 B-module à droite de $B_d$ est compatible avec sa structure de A-module; elle définit donc sur $B \otimes_A \mathrm{Hom}_A(E, F)$ une structure de B-module à droite (II, p. 54) ainsi que sur $F_{(B)} = B \otimes_A F$, et finalement, comme les structures de B-module à gauche et à droite sur $F_{(B)}$ sont compatibles, on obtient aussi sur $\mathrm{Hom}_B(E_{(B)}, F_{(B)})$ une structure de B-module à droite (II, p. 35). On vérifie alors aussitôt que (17) est un homomorphisme de B-modules à droite pour ces structures.
 
-#### Proposition 7 {#alg-ii-s5-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s5-prop-7 .statement tag=05QN}
 
 Soient A un anneau commutatif, B un anneau, $\rho : A \to B$ un homomorphisme central, E, F deux A-modules.
 (i) Si B est un A-module projectif (resp. projectif de type fini), l’homomorphisme (17) est injectif (resp. bijectif).
@@ -298,7 +298,7 @@ $$
 
 est commutatif.
 
-#### Proposition 8 {#alg-ii-s5-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s5-prop-8 .statement tag=05QO}
 
 *Si l’un des A-modules* $E$, $\rho_*(B_s)$ *est projectif de type fini, l’homomorphisme* $v_E$ *est bijectif*.
 Cela résulte de ce qui précède et de II, p. 75, prop. 2.
@@ -307,7 +307,7 @@ Supposons en particulier que $E$ soit un A-module *libre de type fini* et soient
 
 ### 5. Un critère de finitude
 
-#### Proposition 9 {#alg-ii-s5-prop-9 .statement}
+#### Proposition 9 {#alg-ii-s5-prop-9 .statement tag=05QP}
 
 *Soient B un anneau, A un sous-anneau de B, P un A-module à gauche projectif. Alors, si* $P_{(B)}$ *est un B-module de type fini, P est lui-même un A-module de type fini*.
 

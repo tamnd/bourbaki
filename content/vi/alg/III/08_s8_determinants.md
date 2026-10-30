@@ -57,7 +57,7 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: 269f13105090b9239203a014ce9a80a7b96893ebb5af470edd42aedba5194d33
+content_sha256: c0e87ccff4ee2cc10b0f147ffbe6a37d5c68e52570886864324342f782bdd59b
 translated_from: content/en/alg/III/08_s8_determinants.md
 source_content_sha256: da71ef2a4eba72daedbf68293924b26a3111360474a947e52b32b6bd9d0a572c
 translation_model: gpt-5-6-mini, gpt-5-mini
@@ -73,7 +73,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $M$ là một $A$-môđun có một cơ sở hữu hạn gồm $n$ phần tử và $u$ là một tự đồng cấu của $M$. $A$-môđun $\bigwedge^n(M)$ là một môđun tự do đơn sinh, nghĩa là đẳng cấu với $A$ (no. 8, Hệ quả 1 của Định lý 1); $\bigwedge^n(u)$ là một tự đồng cấu của môđun này và do đó là một phép vị tự $z \mapsto \lambda z$ có tỉ số $\lambda \in A$ được xác định duy nhất (II, § 2, no. 3, Mệnh đề 5).
 
-#### Định nghĩa 1 {#alg-iii-s8-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s8-def-1 .statement tag=0642}
 
 *Định thức của một tự đồng cấu $u$ của một $A$-môđun tự do $M$ có số chiều hữu hạn $n$* (II, § 7, no. 2, Hệ quả của Mệnh đề 3 và Nhận xét 1), *được ký hiệu bởi* $\det u$, *là vô hướng $\lambda$ sao cho* $\bigwedge^n(u)$ *là phép vị tự có tỉ số* $\lambda$.
 
@@ -85,7 +85,7 @@ u(x_1) \wedge u(x_2) \wedge \cdots \wedge u(x_n) = (\det u) \cdot x_1 \wedge x_2
 $$
 với mọi dãy $(x_i)_{1 \leq i \leq n}$ gồm $n$ phần tử của $M$. Nếu $\det(u) = 1$, $u$ được gọi là *đơn môđula*.
 
-#### Mệnh đề 1 {#alg-iii-s8-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s8-prop-1 .statement tag=0643}
 
 (i) *Nếu $u$ và $v$ là hai tự đồng cấu của một $A$-môđun tự do có số chiều hữu hạn $M$, thì*
 
@@ -115,7 +115,7 @@ $$(x_1, \ldots, x_n) \mapsto \alpha \det(x_1, x_2, \ldots, x_n)$$
 
 với một $\alpha \in A$ nào đó.
 
-#### Mệnh đề 2 {#alg-iii-s8-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-s8-prop-2 .statement tag=0644}
 
 *Cho $M$ là một $A$-môđun tự do với một cơ sở hữu hạn $(e_i)_{1 \leq i \leq n}$ và $v$ là một tự đồng cấu của $M$. Với mọi dãy $(x_i)_{1 \leq i \leq n}$ gồm $n$ phần tử của $M$,*
 
@@ -133,7 +133,7 @@ và do đó (5) suy ra từ (2).
 
 ### 2. ĐẶC TRƯNG HÓA CÁC TỰ ĐẲNG CẤU CỦA MỘT MÔĐUN TỰ DO HỮU HẠN CHIỀU
 
-#### Định lý 1 {#alg-iii-s8-thm-1 .statement}
+#### Định lý 1 {#alg-iii-s8-thm-1 .statement tag=0645}
 
 *Cho $M$ là một $A$-môđun tự do hữu hạn chiều và $u$ là một tự đồng cấu của $M$. Các điều kiện sau là tương đương:*
 (a) $u$ là song ánh;
@@ -150,7 +150,7 @@ $$
 
 Theo § 7, no. 9, Định lý 2, một điều kiện cần và đủ để các $x_i$ lập thành một cơ sở của $M$ là $\det u$ là một phần tử khả nghịch của $A$; điều này chứng minh sự tương đương của (a) và (e). Nhận xét rằng (a) hiển nhiên kéo theo từng điều kiện (b), (c) và (d); còn lại phải chứng minh rằng mỗi điều kiện (b), (c) và (d) kéo theo (e). Bây giờ, nếu tồn tại một tự đồng cấu $v$ của $M$ sao cho $v \circ u = 1_M$ hoặc $u \circ v = 1_M$, thì $(\det v)(\det u) = 1$ và do đó $\det u$ khả nghịch trong $A$. Nếu $u$ là toàn ánh, thì $\bigwedge^n(u)$ cũng toàn ánh (§ 7, no. 2, Mệnh đề 3), nói cách khác phép vị tự với tỉ số det $u$ trong $A$ là toàn ánh, điều này ngay lập tức suy ra rằng det $u$ là khả nghịch.
 
-#### Mệnh đề 3 {#alg-iii-s8-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-s8-prop-3 .statement tag=0646}
 
 *Cho $M$ là một $A$-môđun tự do hữu hạn chiều. Với mọi tự đồng cấu $u$ của $M$, các điều kiện sau là tương đương:*
   (f) $u$ là đơn ánh;
@@ -158,13 +158,13 @@ Theo § 7, no. 9, Định lý 2, một điều kiện cần và đủ để các
 
 Với cùng ký hiệu như trong chứng minh của Định lý 1, để $u$ là đơn ánh, điều kiện cần và đủ là các $x_i$ độc lập tuyến tính. Theo § 7, no. 9, Mệnh đề 12, điều kiện cần và đủ cho điều này là quan hệ $\lambda x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0$ (với $\lambda \in A$) kéo theo $\lambda = 0$. Nhưng điều này tương đương với $\lambda (\det u) = 0$ vì $e_1 \wedge \cdots \wedge e_n$ là một cơ sở của $\Lambda^n(M)$; do đó có mệnh đề.
 
-#### Nhận xét {#alg-iii-s8-n2-rem-1 .statement}
+#### Nhận xét {#alg-iii-s8-n2-rem-1 .statement tag=0647}
 
 Khi $A$ là một trường, điều kiện (e) của Định lý 2 tương đương với điều kiện (g) của Mệnh đề 3, vì cả hai đều có nghĩa là $\det u \neq 0$. Do đó trong trường hợp này tất cả các điều kiện của Định lý 1 và Mệnh đề 3 là tương đương (xem II, § 7, no. 4, Hệ quả của Mệnh đề 9).
 
 ### 3. ĐỊNH THỨC CỦA MỘT MA TRẬN BÌNH PHƯƠNG
 
-#### Định nghĩa 2 {#alg-iii-s8-def-2 .statement}
+#### Định nghĩa 2 {#alg-iii-s8-def-2 .statement tag=0648}
 
 *Cho $I$ là một tập hợp hữu hạn, $A$ là một vành giao hoán và $X$ là một ma trận bình phương kiểu $(I, I)$ trên vành $A$ (II, § 10, no. 7). Định thức của tự đồng cấu $u$ của $A$-môđun $A^I$, mà ma trận của nó đối với cơ sở chính tắc của $A^I$ là $X$, được gọi là định thức của $X$ và được ký hiệu bởi $\det X$.*
 
@@ -179,7 +179,7 @@ x_1 \wedge x_2 \wedge \cdots \wedge x_n = (\det X) e_1 \wedge e_2 \wedge \cdots 
 $$
 nói cách khác, $\det X$ bằng định thức $\det(x_1, x_2, \ldots, x_n)$ đối với cơ sở chính tắc của $A^n$. Do đó:
 
-#### Mệnh đề 4 {#alg-iii-s8-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-s8-prop-4 .statement tag=0649}
 
 *Với $n$ vectơ $x_1, \ldots, x_n$ của $A^n$, ký hiệu $X(x_1, \ldots, x_n)$ là ma trận bình phương cấp $n$ mà cột thứ $i$ của nó là $x_i$ với $1 \leq i \leq n$. Khi đó ánh xạ*
 $$
@@ -216,7 +216,7 @@ $$
 
 Khi $X = 1$, ma trận $X$ được gọi là đơn môđula.
 
-#### Ví dụ {#alg-iii-s8-n3-exa-1 .statement}
+#### Ví dụ {#alg-iii-s8-n3-exa-1 .statement tag=064A}
 
 (1) Định thức của ma trận rỗng bằng 1; định thức của một ma trận vuông cấp 1 bằng phần tử duy nhất của ma trận này. Đối với một ma trận cấp 2
 
@@ -244,7 +244,7 @@ $$
 
 Ta chuyển sang ngôn ngữ ma trận một số kết quả của các no. 1 và 2:
 
-#### Mệnh đề 5 {#alg-iii-s8-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iii-s8-prop-5 .statement tag=064B}
 
 *Nếu $X$ và $Y$ là hai ma trận vuông trên một vành giao hoán $A$ với cùng một tập chỉ số hữu hạn, thì*
 
@@ -260,13 +260,13 @@ $$
 
 Điều này suy ra ngay lập tức từ số 1, Mệnh đề 1 và no. 2, Định lý 1.
 
-#### Hệ quả {#alg-iii-s8-n3-cor-1 .statement}
+#### Hệ quả {#alg-iii-s8-n3-cor-1 .statement tag=064C}
 
 *Hai ma trận vuông đồng dạng có các định thức bằng nhau.*
 
 Nếu P là một ma trận vuông khả nghịch, thì $\det(PXP^{-1}) = \det X$ theo (8) và (9).
 
-#### Mệnh đề 6 {#alg-iii-s8-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iii-s8-prop-6 .statement tag=064D}
 
 *Để các cột của một ma trận vuông X có cấp hữu hạn độc lập tuyến tính, điều kiện cần và đủ là det X không là một ước của không trong A.*
 
@@ -274,7 +274,7 @@ Nếu P là một ma trận vuông khả nghịch, thì $\det(PXP^{-1}) = \det X
 
 ### 4. TÍNH ĐỊNH THỨC
 
-#### Bổ đề 1 {#alg-iii-s8-lem-1 .statement}
+#### Bổ đề 1 {#alg-iii-s8-lem-1 .statement tag=064E}
 
 *Cho A là một vành giao hoán và M là một A-môđun tự do với một cơ sở $(e_j)_{j \in J}$, trong đó tập chỉ số J được sắp thứ tự toàn phần. Với mọi số nguyên $p \leq \mathrm{Card}(J)$, mọi hàm p-tuyến tính phản xứng $f : M^p \to N$ (trong đó N là một A-môđun) và mọi họ gồm p phần tử $x_i = \sum_{j \in J} \xi_{ji} e_j$ của M $(1 \leq i \leq p)$,
 
@@ -314,7 +314,7 @@ $$
 
 trong đó $\mathscr{F}_p(J)$ là tập hợp các tập con của $J$ có $p$ phần tử và, với mọi tập con $H \in \mathscr{F}_p(J)$, ta viết $x_{H,i} = \sum_{j \in H} \xi_{ji} e_j$ và $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ là dãy các phần tử của $H$ được sắp theo thứ tự tăng, với quy ước rằng $\det(x_{H,1}, \ldots, x_{H,p})$ được lấy đối với cơ sở $(e_{jk})_{1 \leq k \leq p}$.
 
-#### Mệnh đề 7 {#alg-iii-s8-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iii-s8-prop-7 .statement tag=064F}
 
 *Cho $I$ là một tập hữu hạn và $X = (\xi_{ji})_{(j, i) \in I \times I}$ là một ma trận vuông kiểu (I, I) trên một vành giao hoán $A$. Khi đó*
 
@@ -342,7 +342,7 @@ $$
 \det(X) = \xi_{11} \xi_{22} \xi_{33} + \xi_{12} \xi_{23} \xi_{31} + \xi_{21} \xi_{32} \xi_{13} - \xi_{13} \xi_{22} \xi_{31} - \xi_{12} \xi_{21} \xi_{33} - \xi_{11} \xi_{23} \xi_{32}.
 $$
 
-#### Mệnh đề 8 {#alg-iii-s8-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iii-s8-prop-8 .statement tag=064G}
 
 *Đối với mọi ma trận bình phương $X$ trên một vành giao hoán, định thức của ma trận chuyển vị ${}^t X$ bằng định thức của $X$.*
 
@@ -360,7 +360,7 @@ $$
 
 điều này chứng minh mệnh đề.
 
-#### Hệ quả 1 {#alg-iii-s8-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#alg-iii-s8-prop-8-cor-1 .statement tag=064H}
 
 Cho n vectơ $x_1, \ldots, x_n$ của $\mathbf{A}^n$, ký hiệu $Y(x_1, \ldots, x_n)$ là ma trận bình phương cấp n mà hàng thứ i là $x_i$, với $1 \leq i \leq n$. Khi đó ánh xạ
 $$
@@ -368,7 +368,7 @@ $$
 $$
 từ $(\mathbf{A}^n)^n$ vào $\mathbf{A}$ là phản xứng và n-tuyến tính.
 
-#### Hệ quả 2 {#alg-iii-s8-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#alg-iii-s8-prop-8-cor-2 .statement tag=064I}
 
 Đối với một ma trận bình phương $X$ cấp hữu hạn trên một vành giao hoán $\mathbf{A}$, các điều kiện sau là tương đương:
 (i) các hàng của $X$ độc lập tuyến tính;
@@ -377,7 +377,7 @@ từ $(\mathbf{A}^n)^n$ vào $\mathbf{A}$ là phản xứng và n-tuyến tính.
 
 Điều này suy ra ngay lập tức từ no. 3, Mệnh đề 6 và Mệnh đề 8 ở trên.
 
-#### Hệ quả 3 {#alg-iii-s8-prop-8-cor-3 .statement}
+#### Hệ quả 3 {#alg-iii-s8-prop-8-cor-3 .statement tag=064J}
 
 Cho $u$ là một tự đồng cấu của một $\mathbf{A}$-môđun tự do hữu hạn chiều $M$ và $^t u$ là tự đồng cấu chuyển vị của môđun đối ngẫu $M^*$ (II, § 2, no. 5, Định nghĩa 5); khi đó
 $$
@@ -389,7 +389,7 @@ Nếu $X$ là ma trận của $u$ đối với một cơ sở của $M$, $^t X$ 
 
 Cho $X$ là một ma trận chữ nhật $(\xi_{ij})_{(i,j) \in I \times J}$ kiểu (I, J) mà các tập hợp chỉ số I và J được sắp thứ tự toàn phần. Nếu $H \subset I$ và $K \subset J$ là các tập con hữu hạn có cùng số $p$ phần tử, tồn tại duy nhất một song ánh tăng $\phi : H \to K$ (Lý thuyết tập hợp, III, § 5, no. 3, Mệnh đề 6); ta sẽ ký hiệu $X_{H,K}$ là ma trận bình phương kiểu (H, H) bằng $(\xi_{i,\phi(j)})_{(i,j) \in H \times H}$. Nếu các phần tử của $X$ thuộc một vành giao hoán $\mathbf{A}$, định thức $\det(X_{H,K})$ được gọi là minor của ma trận $X$ có các chỉ số H, K; các định thức này (với mọi cặp có thứ tự (H, K) của các tập con tương ứng của I và J có $p$ phần tử) cũng được gọi là các minor của $X$ cấp $p$. Với ký hiệu này:
 
-#### Mệnh đề 9 {#alg-iii-s8-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iii-s8-prop-9 .statement tag=064K}
 
 Cho $M$ là một $\mathbf{A}$-môđun với một cơ sở $(e_i)_{i \in J}$ (hữu hạn hoặc không) mà tập hợp chỉ số $J$ được sắp thứ tự toàn phần. Với mỗi số nguyên $p > 0$, cho $(e_H)_{H \in \mathfrak{S}_p(J)}$ là cơ sở tương ứng của $\wedge^p(M)$ (§ 7, no. 8). Cho $(x_i)_{1 \leq i \leq p}$ là một dãy gồm $p$ phần tử của $M$; cho
 $$
@@ -406,7 +406,7 @@ trong đó $H$ chạy qua tập hợp $\mathfrak{F}_p(J)$ gồm các tập con c
 
 Điều này suy ra ngay lập tức từ công thức (12) của no. 4 và công thức (6) của no. 3.
 
-#### Mệnh đề 10 {#alg-iii-s8-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iii-s8-prop-10 .statement tag=064L}
 
 Cho $M$ và $N$ là hai $A$-môđun tự do có các số chiều tương ứng là $m$ và $n$, $u : M \to N$ là một ánh xạ tuyến tính và $X$ là ma trận của $u$ đối với một cơ sở $(e_i)_{1 \leq i \leq m}$ của $M$ và một cơ sở $(f_j)_{1 \leq j \leq n}$ của $N$. Khi đó, với mọi số nguyên $p \leq \inf(m, n)$, ma trận của $\wedge^p(u)$ đối với cơ sở $(e_K)_{K \in \mathfrak{F}_p(I)}$ của $\wedge^p(M)$ và cơ sở $(f_H)_{H \in \mathfrak{F}_p(J)}$ của $\wedge^p(N)$ (trong đó ta đã viết $I = \{1, m\}$ và $J = \{1, n\}$) là ma trận $(\det(X_{H,K}))$ kiểu $(\mathfrak{F}_p(J), \mathfrak{F}_p(I))$ (và do đó có $\binom{n}{p}$ hàng và $\binom{m}{p}$ cột).
 
@@ -420,7 +420,7 @@ Do đó, phần tử của ma trận của $\wedge^p(u)$ nằm trên hàng có c
 
 Ma trận $(\det(X_{H,K}))$ được gọi là lũy thừa ngoài thứ $p$ của ma trận $X$ và được ký hiệu là $\wedge^p(X)$. Khi $p = m = n$, $\wedge^n(X)$ là ma trận có phần tử duy nhất $\det(X)$.
 
-#### Mệnh đề 11 {#alg-iii-s8-prop-11 .statement}
+#### Mệnh đề 11 {#alg-iii-s8-prop-11 .statement tag=064M}
 
 Cho $M$ là một $A$-môđun tự do có số chiều hữu hạn $n$; với mọi tự đồng cấu $u$ của $M$ và mọi cặp có thứ tự $\xi, \eta$ của các phần tử của $A$,
 
@@ -460,7 +460,7 @@ $$
 
 Bây giờ $H \cap L \neq \varnothing$ trừ khi $L = K$; do đó, theo $§ 7$, no. 8, công thức (20), ta có $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ và công thức (18) suy ra từ Mệnh đề 10 và định nghĩa vết của một ma trận (II, $§ 10$, no. 11, các công thức (49) và (50)).
 
-#### Hệ quả {#alg-iii-s8-n5-cor-1 .statement}
+#### Hệ quả {#alg-iii-s8-n5-cor-1 .statement tag=064N}
 
 *Với cùng các giả thiết như trong Mệnh đề 11, đối với tự đồng cấu $\bigwedge(u)$ của A-môđun $\bigwedge(M)$*
 
@@ -539,7 +539,7 @@ $$
 
 Do đó:
 
-#### Mệnh đề 12 {#alg-iii-s8-prop-12 .statement}
+#### Mệnh đề 12 {#alg-iii-s8-prop-12 .statement tag=064O}
 
 *Với mọi ma trận vuông khả nghịch $X$ kiểu $(n, n)$, nghịch đảo của $X$ được cho bởi công thức*
 
@@ -567,7 +567,7 @@ $$
 
 $\tilde{u}$ được gọi là *chuyển vị đối ngẫu* của $u$ (cf. § 11, no. 11, Hệ quả của Mệnh đề 13).
 
-#### Ví dụ {#alg-iii-s8-n6-exa-1 .statement}
+#### Ví dụ {#alg-iii-s8-n6-exa-1 .statement tag=064P}
 
 (1) *Định thức Vandermonde.* Cho một dãy $(\zeta_i)_{1 \leq i \leq n}$ gồm $n$ phần tử của $\mathbf{A}$, *định thức Vandermonde* của dãy này là định thức
 
@@ -705,7 +705,7 @@ $$
 
 Cho $u$ là tự đồng cấu $x \mapsto L.x$ của $\mathbf{A}^n$, với $L$ là ma trận đối với cơ sở chính tắc; nói rằng phương trình (35) có (ít nhất) một nghiệm với mọi $y \in \mathbf{A}^n$ có nghĩa là $u$ toàn ánh; Định lý 1 của No. 2 khi đó suy ra mệnh đề sau:
 
-#### Mệnh đề 13 {#alg-iii-s8-prop-13 .statement}
+#### Mệnh đề 13 {#alg-iii-s8-prop-13 .statement tag=064Q}
 
 *Đối với một hệ gồm $n$ phương trình tuyến tính với $n$ ẩn trên một vành giao hoán, để hệ có ít nhất một nghiệm bất kể các vế phải, điều kiện cần và đủ là định thức của ma trận của hệ khả nghịch; trong trường hợp này hệ có một nghiệm duy nhất.*
 
@@ -737,7 +737,7 @@ Một hệ (34) sao cho $\det L$ khả nghịch cũng được gọi là một *
 
 Đặc biệt, lấy $y = 0$; khi đó, từ Mệnh đề 3 của No. 2 suy ra:
 
-#### Mệnh đề 14 {#alg-iii-s8-prop-14 .statement}
+#### Mệnh đề 14 {#alg-iii-s8-prop-14 .statement tag=064R}
 
 *Đối với một hệ tuyến tính thuần nhất gồm $n$ phương trình với $n$ ẩn trên một vành giao hoán để có một nghiệm khác không, điều kiện cần và đủ là định thức của ma trận của nó là một ước của không.*
 
@@ -747,11 +747,11 @@ Tất cả những điều trên đều áp dụng khi vành $\mathbf{A}$ là m�
 
 Do đó Mệnh đề 12 của § 7, No. 9 trong trường hợp này có thể được phát biểu như sau:
 
-#### Mệnh đề 15 {#alg-iii-s8-prop-15 .statement}
+#### Mệnh đề 15 {#alg-iii-s8-prop-15 .statement tag=064S}
 
 Cho $\mathbf{E}$ là một không gian vectơ trên một trường giao hoán; đối với $p$ vectơ $x_i \in \mathbf{E}$ ($1 \leq i \leq p$) độc lập tuyến tính khi và chỉ khi $x_1 \wedge x_2 \wedge \cdots \wedge x_p \neq 0$.
 
-#### Hệ quả {#alg-iii-s8-n8-cor-1 .statement}
+#### Hệ quả {#alg-iii-s8-n8-cor-1 .statement tag=064T}
 
 Cho $X$ là một ma trận kiểu $(m, n)$ trên một trường giao hoán. Hạng của $X$ bằng số nguyên lớn nhất $p$ sao cho tồn tại ít nhất một minor của $X$ cấp $p$ khác $0$.
 
@@ -765,7 +765,7 @@ $$
 
 (41)
 
-#### Mệnh đề 16 {#alg-iii-s8-prop-16 .statement}
+#### Mệnh đề 16 {#alg-iii-s8-prop-16 .statement tag=064U}
 
 Cho $L = (\lambda_{ij})$ là ma trận (kiểu $(m, n)$) của hệ (41). Cho $M$ là ma trận kiểu $(m, n+1)$ thu được bằng cách thêm vào $L$ cột thứ $(n+1)$ $(\eta_i)$ (II, § 10, no. 1). Cho $p$ là hạng của $L$ (tính bằng cách áp dụng Hệ quả cho Mệnh đề 15). Giả sử rằng định thức con $\Delta$ của $L$, định thức của ma trận thu được bằng cách bỏ các hàng và cột có chỉ số $\geq p + 1$ trong $L$, là $\neq 0$ (điều này luôn có thể thực hiện được bằng một phép hoán vị thích hợp trên các hàng của $L$ và một phép hoán vị thích hợp trên các cột của $L$). Khi đó, để hệ (41) có ít nhất một nghiệm, điều kiện cần và đủ là tất cả các định thức con cấp $p + 1$ của $M$, các định thức của các ma trận con cấp $p + 1$ của $M$ mà các cột của chúng có các chỉ số $1, 2, \ldots, p$ và $n+1$, đều bằng không. Nếu điều này đúng, các nghiệm của hệ (41) là các nghiệm của hệ gồm $p$ phương trình đầu tiên; nếu chúng được viết
 
@@ -793,13 +793,13 @@ theo công thức (32) của no. 6.
 
 Trong no. này, ta sẽ xét trường hợp $A$ là một *trường*. Nhắc lại rằng với $1 \leq i \leq n, 1 \leq j \leq n$, $E_{ij}$ là ma trận vuông cấp $n$ mà tất cả các phần tử đều bằng không ngoại trừ phần tử ở hàng có chỉ số $i$ và cột có chỉ số $j$, phần tử này bằng 1; với $I_n$ là ma trận đơn vị cấp $n$, ta viết $B_{ij}(\lambda) = I_n + \lambda E_{ij}$ với mọi cặp chỉ số *phân biệt* $i, j$ có thứ tự và mọi $\lambda \in A$ (II, § 10, no. 13).
 
-#### Mệnh đề 17 {#alg-iii-s8-prop-17 .statement}
+#### Mệnh đề 17 {#alg-iii-s8-prop-17 .statement tag=064V}
 
 *Một trường giao hoán $K$ có nhóm đơn môđula $\mathbf{SL}(n, K)$ được sinh bởi các ma trận $B_{ij}(\lambda)$ với $i \neq j$ và $\lambda \in K$.*
 
 Theo II, § 10, no. 13, Mệnh đề 14, ta biết rằng mọi ma trận trong $\mathbf{GL}(n, K)$ đều là tích của các ma trận dạng $B_{ij}(\lambda)$ và một ma trận dạng $\operatorname{diag}(1, 1, \ldots, 1, \alpha)$ với $\alpha \in K^*$. Bây giờ, ngay lập tức có $\det(B_{ij}(\lambda)) = 1$ và $\det(\operatorname{diag}(1, \ldots, 1, \alpha)) = \alpha$ (no. 6, *Ví dụ 2*); do đó có mệnh đề.
 
-#### Hệ quả {#alg-iii-s8-n9-cor-1 .statement}
+#### Hệ quả {#alg-iii-s8-n9-cor-1 .statement tag=064W}
 
 *Nhóm* $\mathbf{SL}(n, K)$ *là nhóm các giao hoán tử của* $\mathbf{GL}(n, K)$, *ngoại trừ trường hợp* $n = 2$ *và* $K$ *là một trường có 2 phần tử*.
 
@@ -809,7 +809,7 @@ Trước hết giả sử rằng $K$ chứa một phần tử $\lambda$ phân bi
 
 Bây giờ giả sử rằng $n \geq 3$. Tích $B_{21}(1) B_{31}(1)$ là ma trận của một tự đẳng cấu $u$ của $K^n$ sao cho $u(e_1) = e_1 + e_2 + e_3, u(e_i) = e_i$ với $i \neq 1$. Nếu $S$ là ma trận của tự đẳng cấu $u'$ của $K^n$ sao cho $u'(e_2) = e_2 + e_3, u'(e_i) = e_i$ với $i \neq 2$, thì $S . B_{21}(1) B_{31}(1) . S^{-1} = B_{21}(1)$; ta cũng suy ra rằng $s^2 = s$, điều này hoàn tất chứng minh.
 
-#### Nhận xét {#alg-iii-s8-n9-rem-1 .statement}
+#### Nhận xét {#alg-iii-s8-n9-rem-1 .statement tag=064X}
 
 (1) $\mathbf{GL}(2, \mathbf{F}_2) = \mathbf{SL}(2, \mathbf{F}_2)$; đây là một nhóm giải được có cấp 6, nhóm giao hoán tử của nó có chỉ số 2 (II, § 10, Bài tập 14).
 
@@ -847,7 +847,7 @@ $$
 $$
 Gọi $\psi$ là tự đồng cấu $A[X]$ $X - \bar{u}$ của $M[X]$, sao cho $\psi(p \otimes x) = (Xp) \otimes x - p \otimes u(x)$. Ta có mệnh đề sau:
 
-#### Mệnh đề 18 {#alg-iii-s8-prop-18 .statement}
+#### Mệnh đề 18 {#alg-iii-s8-prop-18 .statement tag=064Y}
 
 *Dãy các đồng cấu $A[X]$*
 $$
@@ -873,7 +873,7 @@ chứng minh rằng tồn tại một $y \in M[X]$ sao cho $z = \psi(y)$.
 
 Bây giờ cho $M'$ là một A-môđun khác và $u'$ là một tự đồng cấu của $M'$; cho $M'_{u'}$, $\phi'$, $\bar{u}'$, $\psi'$ là môđun và ánh xạ thu được từ $M'$ và $u'$ như $M_u$, $\phi$, $\bar{u}$, $\psi$ thu được từ $M$ và $u$. Khi đó:
 
-#### Mệnh đề 19 {#alg-iii-s8-prop-19 .statement}
+#### Mệnh đề 19 {#alg-iii-s8-prop-19 .statement tag=064Z}
 
 *Một ánh xạ g từ M vào M' là một đồng cấu A[X] của M_u vào M'_u khi và chỉ khi g là một đồng cấu A của M vào M' sao cho $g \circ u = u' \circ g$. Khi điều này xảy ra, nếu $\bar{g}$ là đồng cấu A[X] của M[X] vào M'[X] bằng với $1_{A[x]} \otimes g$ (II, § 5, no. 1), biểu đồ*
 
@@ -912,7 +912,7 @@ $$
 \mathrm{Tr}(\wedge^j(\bar{u})) = \mathrm{Tr}(\wedge^j(u)).
 $$
 
-#### Định nghĩa 3 {#alg-iii-s8-def-3 .statement}
+#### Định nghĩa 3 {#alg-iii-s8-def-3 .statement tag=0650}
 
 Cho $M$ là một A-môđun tự do hữu hạn chiều và $u$ là một tự đồng cấu của $M$. Định thức của tự đồng cấu $X - \bar{u}$ của A[X]-môđun tự do $M[X]$ được gọi là đa thức đặc trưng của $u$ và được ký hiệu là $\chi_u(X)$.
 
@@ -924,7 +924,7 @@ $$
 
 vì $\det(X - Y \bar{u}) = \det(X . I_n + Y U)$ và $\det(X - \bar{u}) = \det(X . I_n - U)$. Do đó thấy rằng $\chi_u(X)$ là một đa thức đơn khởi có bậc $n$, trong đó hệ số của $X^{n-1}$ là $-\operatorname{Tr}(u)$ và số hạng hằng là $(-1)^n \det(u)$.
 
-#### Mệnh đề 20 ("định lý Cayley–Hamilton") {#alg-iii-s8-prop-20 .statement}
+#### Mệnh đề 20 ("định lý Cayley–Hamilton") {#alg-iii-s8-prop-20 .statement tag=0651}
 
 Với mọi tự đồng cấu $u$ của một A-môđun tự do hữu hạn chiều, $\chi_u(u) = 0$.
 

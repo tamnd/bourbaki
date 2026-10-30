@@ -26,7 +26,7 @@ subsections:
       pdf_page: 202
 statements: 16
 exercises: 8
-content_sha256: ab6ab83a7be20d6d31a5cb9faff75800a97c61a65f3a651a3c634d8fa3f7f2ca
+content_sha256: fe3cc1002a0948bad180ceaef868c29761ff669b36bd2dd85171f4d2384fc2b4
 ---
 
 ## APPENDICE 2
@@ -39,17 +39,17 @@ Soit $A$ une algèbre normée sur un corps valué commutatif non discret (IX, p.
 
 Soit $(x_n)_{n \geq N}$ une suite infinie de points de $A$; toute partie finie $J$ de $\mathbf{N}$, totalement ordonnée par l’ordre de $\mathbf{N}$, définit une séquence (A, I, p. 3) $(x_n)_{n \in J}$ de points de $A$; on a défini en Algèbre (A, I, p. 3) le produit $p_J = \prod_{n \in J} x_n$ de cette séquence, que nous appellerons produit partiel fini de la suite $(x_n)_{n \in \mathbf{N}}$, correspondant à la partie finie $J$ de $\mathbf{N}$ (on rappelle que, pour $J = \varnothing$, on pose $\prod_{n \in \varnothing} x_n = e$).
 
-#### Définition 1 {#top-ix-a2-def-1 .statement}
+#### Définition 1 {#top-ix-a2-def-1 .statement tag=0EDC}
 
 On dit que la suite $(x_n)_{n \geq N}$ est multipliable dans l’algèbre normée $A$ si l’application $J \mapsto p_J$ a une limite suivant le filtre des sections de l’ensemble $\mathscr{F}(\mathbf{N})$ des parties finies de $\mathbf{N}$, ordonné par la relation $\subset$; cette limite est appelée le produit de la suite $(x_n)_{n \in \mathbf{N}}$, et noté $\prod_{n \in \mathbf{N}} x_n$ (ou simplement $\prod_n x_n$); les $x_n$ sont appelés les facteurs de ce produit.
 
 La déf. 1 équivaut à la suivante: la suite $(x_n)$ est multipliable et a pour produit $p$ si, pour tout $\varepsilon > 0$, il existe une partie finie $J_0$ de $\mathbf{N}$ telle que, pour toute partie finie $J \supset J_0$ de $\mathbf{N}$, on ait $\|p_J - p\| \leq \varepsilon$.
 
-#### Remarque 1 {#top-ix-a2-n1-rem-1 .statement}
+#### Remarque 1 {#top-ix-a2-n1-rem-1 .statement tag=0EDD}
 
 Lorsque $A$ est une algèbre commutative, la déf. 1 est identique à celle qui a été donnée dans III, p. 37 (Remarque 3); mais lorsque $A$ n’est pas commutative, la structure d’ordre de l’ensemble d’indices $\mathbf{N}$ intervient de façon essentielle dans la déf. 1 ; si $\sigma$ est une permutation quelconque de $\mathbf{N}$, rien ne permet d’affirmer en général que la suite $(\mathbf{x}_{\sigma(n)})$ soit multipliable lorsque la suite $(\mathbf{x}_n)$ l’est ; en outre, lorsque ces deux suites sont multipliables, leurs produits sont en général différents.
 
-#### Remarque 2 {#top-ix-a2-n1-rem-2 .statement}
+#### Remarque 2 {#top-ix-a2-n1-rem-2 .statement tag=0EDE}
 
 La déf. 1 se généralise immédiatement au cas d’une famille $(\mathbf{x}_n)_{n \in I}$ dont l’ensemble d’indices $I$ est une partie de $\mathbf{Z}$ (totalement ordonnée par l’ordre induit par celui de $\mathbf{Z}$) ; nous laissons au lecteur le soin d’étendre à ce cas les propriétés qui suivent (cf. IX, p. 125, exerc. 1 et 2).
 
@@ -57,7 +57,7 @@ La déf. 1 se généralise immédiatement au cas d’une famille $(\mathbf{x}_n)
 
 Nous allons nous borner désormais au cas où l’algèbre normée $A$ est complète.
 
-#### Théorème 1 {#top-ix-a2-thm-1 .statement}
+#### Théorème 1 {#top-ix-a2-thm-1 .statement tag=0EDF}
 
 Soit $(\mathbf{x}_n)_{n \in \mathbf{N}}$ une suite de points d’une algèbre normée complète $A$.
 
@@ -83,21 +83,21 @@ $$
 
 cela montre que, dans le groupe multiplicatif $G$ des éléments inversibles de $A$, l’image par l’application $J \mapsto p_J$ du filtre des sections de $\mathfrak{F}(N)$ est une base de filtre de Cauchy pour la structure uniforme gauche du groupe $G$; mais comme $G$ est complet ($IX$, p. 40, prop. 14), la limite de l’application $J \mapsto p_J$ appartient à $G$.
 
-#### Remarque {#top-ix-a2-n2-rem-1 .statement}
+#### Remarque {#top-ix-a2-n2-rem-1 .statement tag=0EDG}
 
 Lorsque $(x_n)$ est multipliable et a un produit non inversible, la condition du th. 1 n’est plus nécessairement vérifiée; par exemple, si tous les $x_n$ sont égaux à un même élément $x$ tel que $\| x \| < 1$, la suite $(x_n)$ est multipliable et a pour produit 0, et pour toute partie finie non vide $H$ de $N$, on a $\| p_H \| \leq \| x \| < 1 \leq \| e \|$.
 
-#### Corollaire 1 {#top-ix-a2-thm-1-cor-1 .statement}
+#### Corollaire 1 {#top-ix-a2-thm-1-cor-1 .statement tag=0EDH}
 
 *Si* $(x_n)$ *est une suite multipliable dont le produit est inversible dans* $A$, $\lim_{n \to \infty} x_n = e$.
 
-#### Corollaire 2 {#top-ix-a2-thm-1-cor-2 .statement}
+#### Corollaire 2 {#top-ix-a2-thm-1-cor-2 .statement tag=0EDI}
 
 *Si* $(x_n)$ *est une suite multipliable dont le produit est inversible dans* $A$, *toute suite* $(x_{n_k})_{k \in \mathbf{N}}$ *extraite de* $(x_n)$ *(($n_k$) étant une suite strictement croissante d’entiers) est multipliable*.
 
 C’est ce que montre aussitôt le critère du th. 1 ($IX$, p. 79).
 
-#### Théorème 2 {#top-ix-a2-thm-2 .statement}
+#### Théorème 2 {#top-ix-a2-thm-2 .statement tag=0EDJ}
 
 *Soit* $A$ *une algèbre normée complète; si* $(u_n)$ *est une série absolument convergente de points de* $A$, *la suite* $(e + u_n)$ *est multipliable dans* $A$; *en outre, si tous les éléments* $e + u_n$ *sont inversibles dans* $A$, *il en est de même de* $\prod_{n \in \mathbf{N}} (e + u_n)$.
 
@@ -109,7 +109,7 @@ $$
 
 Or, comme la série de terme général $\| u_n \|$ est convergente par hypothèse, la suite $(1 + \| u_n \|)$ est multipliable dans $\mathbf{R}_+^*$ ($IV$, p. 35, th. 4); pour tout $\varepsilon > 0$, il existe donc une partie finie $J_0$ de $N$ telle que, pour toute partie finie $L$ de $N$ ne rencontrant pas $J_0$, on ait $\left| \prod_{n \in L} (1 + \| u_n \|) - 1 \right| \leq \varepsilon$; d’où le théorème.
 
-#### Corollaire {#top-ix-a2-n2-cor-1 .statement}
+#### Corollaire {#top-ix-a2-n2-cor-1 .statement tag=0EDK}
 
 *Si la série de terme générale* $u_n$ *est absolument convergente, et si aucun des éléments* $e + u_n$ *n’est diviseur de 0 dans* $A$, *le produit* $\prod_{n \in \mathbf{N}} (e + u_n)$ *n’est pas diviseur de 0 dans* $A$.
 
@@ -117,7 +117,7 @@ En effet, il n’y a qu’un nombre fini d’entiers $n$ tels que $\|u_n\| > 1$.
 
 La condition *suffisante* de multipliabilité donnée dans le th. 2 n’est pas nécessaire en général (cf. IX, p. 126, exerc. 6). Elle l’est toutefois dans le cas important où $A$ est une algèbre de rang *fini* sur le corps $\mathbf{R}$ (en particulier lorsque $A$ est le corps des quaternions $\mathbf{K}$, ou une algèbre de matrices $\mathbf{M}_n(\mathbf{R})$):
 
-#### Proposition 1 {#top-ix-a2-prop-1 .statement}
+#### Proposition 1 {#top-ix-a2-prop-1 .statement tag=0EDL}
 
 *Soit $A$ une algèbre normée de rang fini sur $\mathbf{R}$. Si $(\mathbf{e} + u_n)$ est une suite multipliable dans $A$, dont le produit est inversible, la série de terme générale $u_n$ est absolument convergente.*
 
@@ -133,7 +133,7 @@ $$
 p_I = \prod_{i \in I} (\mathbf{e} + a_i) \qquad s_I = \sum_{i \in I} a_i, \qquad \sigma_I = \sum_{i \in I} \|a_i\|.
 $$
 
-#### Lemme 1 {#top-ix-a2-lem-1 .statement}
+#### Lemme 1 {#top-ix-a2-lem-1 .statement tag=0EDM}
 
 *Pour toute partie finie $I$ de $\mathbf{N}$, soit $\varphi(I) = \sup_{J \subset I} \|p_J - \mathbf{e}\|.$ Pour toute partie $J$ de $I$, on a*
 $$
@@ -149,7 +149,7 @@ $$
 $$
 ce qui démontre le lemme.
 
-#### Lemme 2 {#top-ix-a2-lem-2 .statement}
+#### Lemme 2 {#top-ix-a2-lem-2 .statement tag=0EDN}
 
 *Si $I$ est une partie finie de $\mathbf{N}$ telle que $\varphi(I) < 1/c$, on a $\sigma_I \leq \frac{c \varphi(I)}{1 - c \varphi(I)}$*.
 
@@ -170,7 +170,7 @@ D’après le lemme 2, on ne déduit $\sum_{i \in H} \| u_i \| \leq 1$ pour tout
 
 A toute suite $(x_n)$ de points d’une algèbre normée $A$, faisons correspondre la suite des *produits partiels* $p_n = \prod_{k=0}^n x_k$; on appelle *produit infini* de facteur général $x_n$, le *couple* des suites $(x_n)$ et $(p_n)$. Le produit infini de facteur général $x_n$ est dit *convergent* si la suite $(p_n)$ est convergente dans $A$; la limite de cette suite s’appelle alors le *produit* de la suite $(x_n)$, et se note $\prod_{n=0}^\infty x_n$.
 
-#### Proposition 2 {#top-ix-a2-prop-2 .statement}
+#### Proposition 2 {#top-ix-a2-prop-2 .statement tag=0EDO}
 
 *Soit $(x_n)$ une suite de points d’une algèbre normée complète $A$.*
 
@@ -180,11 +180,11 @@ b) *Inversement, si la suite $(x_n)$ satisfait à cette condition, le produit in
 
 Nous laissons au lecteur le développement de la démonstration de cette proposition, qui est calquée pas à pas sur celle du th. 1 de IX, p. 79 (les parties finies $L$ de $\mathbf{N}$ qui figurent dans cette dernière devant simplement être remplacées par des intervalles).
 
-#### Corollaire 1 {#top-ix-a2-prop-2-cor-1 .statement}
+#### Corollaire 1 {#top-ix-a2-prop-2-cor-1 .statement tag=0EDP}
 
 *Si le produit infini de facteur général $x_n$ est convergent, et si $\prod_{n=0}^\infty x_n$ est inversible, $\lim_{n \to \infty} x_n = e$.*
 
-#### Corollaire 2 {#top-ix-a2-prop-2-cor-2 .statement}
+#### Corollaire 2 {#top-ix-a2-prop-2-cor-2 .statement tag=0EDQ}
 
 *Si le produit infini de facteur général $x_n$ est convergent, et si $\prod_{n=0}^\infty x_n$ est inversible, le produit infini de facteur général $y_n = x_{n+h} (n \geq 0)$ est convergent.*
 
@@ -192,7 +192,7 @@ Le produit de la suite $(y_n)$ se note $\prod_{n=h}^\infty x_n$, et s’appelle 
 
 En supposant toujours que $\prod_{n=0}^{\infty} x_n$ est inversible, on déduit encore de la prop. 2 (IX, p. 82) que, si $(z_n)$ est une suite telle que $z_n = x_n$ sauf pour un nombre fini d’indices, le produit de facteur général $z_n$ est convergent.
 
-#### Proposition 3 {#top-ix-a2-prop-3 .statement}
+#### Proposition 3 {#top-ix-a2-prop-3 .statement tag=0EDR}
 
 *Soit* $(k_n)$ *une suite strictement croissante d’entiers* $\geqslant 0$ ($k_0 = 0$) : *si le produit infini de facteur général* $x_n$ *converge, et si on pose* $u_n = \prod_{p=k_n}^{k_{n+1}-1} x_n$, *le produit infini de facteur général* $u_n$ *est convergent, et on a* $\prod_{n=0}^{\infty} u_n = \prod_{n=0}^{\infty} x_n$.
 

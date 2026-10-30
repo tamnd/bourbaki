@@ -26,7 +26,7 @@ subsections:
       pdf_page: 221
 statements: 16
 exercises: 8
-content_sha256: 8ac8a39858022c80b0d394946d918655525055ba0ae1ab6a174d3924458ebb1b
+content_sha256: 4891adafb991bbb34168be7fb8caef2435567acb2d9b3db3045a912f02678465
 ---
 
 ## APPENDIX
@@ -45,17 +45,17 @@ $$
 
 of this sequence; this product is called the finite partial product of the sequence $(x_n)_{n \in \mathbf{N}}$, corresponding to the finite subset $J$ of $\mathbf{N}$ (recall that if $J = \varnothing$ we put $\prod_{n \in \varnothing} x_n = e$).
 
-#### Definition 1 {#top-ix-a0-def-1 .statement}
+#### Definition 1 {#top-ix-a0-def-1 .statement tag=0CA3}
 
 *The sequence* $(x_n)_{n \in \mathbf{N}}$ *is said to be multipliable in the normed algebra* $A$ *if the mapping* $J \to p_J$ *has a limit with respect to the filter of sections of the set* $\mathfrak{F}(\mathbf{N})$ *of finite subsets of* $\mathbf{N}$, *ordered by the relation* $\subset$; *this limit is called the product of the sequence* $(x_n)_{n \in \mathbf{N}}$, *and is denoted by* $\prod_{n \in \mathbf{N}} x_n$ *(or simply* $\prod_n x_n$); *the* $x_n$ *are called the factors of this product.*
 
 Definition 1 is equivalent to the following: *the sequence* $(x_n)$ *is multipliable and its product is* $p$ *if for each* $\varepsilon > 0$ *there exists a finite subset* $J_0$ *of* $\mathbf{N}$ *such that, for every finite subset* $J \supset J_0$ *of* $\mathbf{N}$, *we have* $||p_J - p|| \leq \varepsilon$.
 
-#### Remark 1 {#top-ix-a0-n1-rem-1 .statement}
+#### Remark 1 {#top-ix-a0-n1-rem-1 .statement tag=0CA4}
 
 When $A$ is a commutative algebra, Definition 1 is identical with that given in Chapter III, § 5, no. 1, Remark 3; but when $A$ is not commutative, the order structure of the index set $\mathbf{N}$ is essentially involved in Definition 1. If $\sigma$ is an arbitrary permutation of $\mathbf{N}$, we cannot in general assert that the sequence $(x_{\sigma(n)})$ is multipliable if the sequence (x_n) is multipliable; and if both sequences are multipliable, their products will in general be different.
 
-#### Remark 2 {#top-ix-a0-n1-rem-2 .statement}
+#### Remark 2 {#top-ix-a0-n1-rem-2 .statement tag=0CA5}
 
 Definition 1 can be immediately generalized to the case of a family (x_n)_{n \in I} whose index set I is a subset of \mathbf{Z} (linearly ordered by the order induced by that of \mathbf{Z}). We leave it to the reader to extend to this case the results below (cf. Exercises 1 and 2).
 
@@ -63,7 +63,7 @@ Definition 1 can be immediately generalized to the case of a family (x_n)_{n \in
 
 From now on we shall assume that the normed algebra A is complete.
 
-#### Theorem 1 {#top-ix-a0-thm-1 .statement}
+#### Theorem 1 {#top-ix-a0-thm-1 .statement tag=0CA6}
 
 Let (x_n)_{n \in \mathbf{N}} be a sequence of points in a complete normed algebra A.
 a) If (x_n) is multipliable and if its product is a unit of A, then for each $\varepsilon > 0$ there exists a finite subset J_0 of \mathbf{N} such that, for every finite subset L of \mathbf{N} which does not meet J_0, we have $\|e - p_L\| \leq \varepsilon$.
@@ -99,21 +99,21 @@ $$
 
 and this shows that, in the multiplicative group $G$ of units of $A$, the image under the mapping $J \to p_J$ of the section filter of $\mathfrak{F}(\mathbf{N})$ is a Cauchy filter base with respect to the left uniformity of $G$; but since $G$ is *complete* (Chapter IX, § 3, no. 7, Proposition 13), the limit of the mapping $J \to p_J$ belongs to $G$.
 
-#### Remark {#top-ix-a0-n2-rem-1 .statement}
+#### Remark {#top-ix-a0-n2-rem-1 .statement tag=0CA7}
 
 If $(x_n)$ is multipliable and its product is not a unit, the condition of Theorem 1 is not necessarily satisfied: for example, if all the $x_n$ are equal to the same element $x$, where $\|x\| < 1$, the sequence $(x_n)$ is multipliable and its product is 0, and for each non-empty finite subset $H$ of $\mathbf{N}$, we have $\|p_H\| \leq \|x\| < 1 \leq \|e\|$.
 
-#### Corollary 1 {#top-ix-a0-thm-1-cor-1 .statement}
+#### Corollary 1 {#top-ix-a0-thm-1-cor-1 .statement tag=0CA8}
 
 *If* $(x_n)$ *is a multipliable sequence whose product is a unit of* $A$, *then* $\lim_{n \to \infty} x_n = e$.
 
-#### Corollary 2 {#top-ix-a0-thm-1-cor-2 .statement}
+#### Corollary 2 {#top-ix-a0-thm-1-cor-2 .statement tag=0CA9}
 
 *If* $(x_n)$ *is a multipliable sequence whose product is a unit of* $A$, *then every subsequence* $(x_{n_k})_{k \in \mathbf{N}}$ *of* $(x_n)$ *[$(n_k)$ being a strictly increasing sequence of integers]* *is multipliable*.
 
 This follows immediately from the criterion of Theorem 1.
 
-#### Theorem 2 {#top-ix-a0-thm-2 .statement}
+#### Theorem 2 {#top-ix-a0-thm-2 .statement tag=0CAA}
 
 *Let* $A$ *be a complete normed algebra*. *If* $(u_n)$ *is an absolutely convergent series of elements of* $A$, *then the sequence* $(e + u_n)$ *is multipliable in* $A$; *and if all the elements* $e + u_n$ *are units in* $A$, *then so is* $\prod_{n \in \mathbf{N}} (e + u_n)$.
 
@@ -125,7 +125,7 @@ $$
 
 Now since the series whose general term is $|u_n|$ is convergent by hypothesis, the sequence $1 - |u_n|$ is multipliable in $\mathbf{R}_+^*$ (Chapter IV, § 7, no. 4, Theorem 4). Hence for each $\varepsilon > 0$ there exists a finite subset $J_0$ of $\mathbf{N}$ such that, for every finite subset $L$ of $\mathbf{N}$ which does not meet $J_0$, we have $\left| \prod_{n \in L} (1 + ||u_n||) - 1 \right| \leq \varepsilon$; hence the result.
 
-#### Corollary {#top-ix-a0-n2-cor-1 .statement}
+#### Corollary {#top-ix-a0-n2-cor-1 .statement tag=0CAB}
 
 *If the series whose general term is $u_n$ is absolutely convergent, and if none of the elements $e - u_n$ is a zero divisor in $A$, then the product $\prod_{n \in \mathbf{N}} (e + u_n)$ is not a zero divisor in $A$.*
 
@@ -133,7 +133,7 @@ There is only a finite number of integers $n$ such that $|u_n| > 1$. Let $J = [a
 
 The sufficient condition for multipliability given by Theorem 2 is not in general necessary (cf. Exercise 6). However, it is necessary in the important case where $A$ is an algebra of finite rank over the field $\mathbf{R}$ (i.e., $A$ is finite-dimensional as a vector space over $\mathbf{R}$); in particular this is the case if $A$ is the division ring of quaternions $\mathbf{H}$, or a matrix algebra $\mathbf{M}_n(\mathbf{R})$:
 
-#### Proposition 1 {#top-ix-a0-prop-1 .statement}
+#### Proposition 1 {#top-ix-a0-prop-1 .statement tag=0CAC}
 
 *Let $A$ be a normed algebra of finite rank over $\mathbf{R}$. If $(e + u_n)$ is a multipliable sequence in $A$, whose product is a unit of $A$, then the series whose general term is $u_n$ is absolutely convergent.*
 
@@ -149,7 +149,7 @@ $$
 p_I = \prod_{i \in I} (e + a_i), \quad s_I = \sum_{i \in I} a_i, \quad \sigma_I = \sum_{i \in I} \|a_i\|.
 $$
 
-#### Lemma 1 {#top-ix-a0-lem-1 .statement}
+#### Lemma 1 {#top-ix-a0-lem-1 .statement tag=0CAD}
 
 For each finite subset $I$ of $\mathbf{N}$, let $\varphi(I) = \sup_{J \subset I} ||p_J - e||$. Then for each subset $J$ of $I$ we have
 
@@ -177,7 +177,7 @@ $$
 
 which proves the lemma.
 
-#### Lemma 2 {#top-ix-a0-lem-2 .statement}
+#### Lemma 2 {#top-ix-a0-lem-2 .statement tag=0CAE}
 
 If $I$ is a finite subset of $\mathbf{N}$ such that $\varphi(I) < 1/c$, then
 
@@ -211,7 +211,7 @@ By Lemma 2, it follows that $\sum_{i \in H} ||u_i|| - 1$ for every finite subset
 
 To each sequence $(x_n)$ of points in a normed algebra $A$, let us make correspond the sequence of *partial products* $p_n = \prod_{k=0}^n x_k$; then the *pair* of sequences $(x_n)$ and $(p_n)$ is called the infinite product whose general factor is $x_n$. The infinite product with general factor $x_n$ is said to be convergent if the sequence $(p_n)$ is convergent in $A$; the limit of this sequence is then called the product of the sequence $(x_n)$ and is denoted by $\prod_{n=0}^\infty x_n$.
 
-#### Proposition 2 {#top-ix-a0-prop-2 .statement}
+#### Proposition 2 {#top-ix-a0-prop-2 .statement tag=0CAF}
 
 *Let* $(x_n)$ *be a sequence of points in a complete normed algebra* $A$.
 
@@ -225,11 +225,11 @@ b) *Conversely, if the sequence* $(x_n)$ *satisfies this condition, the infinite
 
 The proof of this proposition follows step by step the proof of Theorem 1, and is left to the reader (the finite subsets $L$ of $N$ in the proof of Theorem 1 are to be replaced by intervals).
 
-#### Corollary 1 {#top-ix-a0-prop-2-cor-1 .statement}
+#### Corollary 1 {#top-ix-a0-prop-2-cor-1 .statement tag=0CAG}
 
 *If the infinite product with general factor* $x_n$ *is convergent, and if* $\prod_{n=0}^\infty x_n$ *is a unit*, *then* $\lim_{n \to \infty} x_n = e$.
 
-#### Corollary 2 {#top-ix-a0-prop-2-cor-2 .statement}
+#### Corollary 2 {#top-ix-a0-prop-2-cor-2 .statement tag=0CAH}
 
 *If the infinite product with general factor* $x_n$ *is convergent, and if* $\prod_{n=0}^\infty x_n$ *is a unit*, *then the infinite product with general factor*
 $$
@@ -241,7 +241,7 @@ The product of the sequence $(y_n)$ is denoted by $\prod_{n=h}^\infty x_n$, and 
 
 Still under the assumption that $\prod_{n=h}^\infty x_n$ is a unit, it follows from Proposition 2 that if $(z_n)$ is a sequence such that $z_n = x_n$ for all but a finite number of indices, then the product with general factor $z_n$ is convergent.
 
-#### Proposition 3 {#top-ix-a0-prop-3 .statement}
+#### Proposition 3 {#top-ix-a0-prop-3 .statement tag=0CAI}
 
 *Let* $(k_n)$ *be a strictly increasing sequence of integers* $\geq 0$, *such that* $k_0 = 0$; *if the infinite product with general factor* $x_n$ *converges*, *and* if we put
 

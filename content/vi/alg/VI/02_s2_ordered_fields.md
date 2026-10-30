@@ -42,7 +42,7 @@ subsections:
       pdf_page: 339
 statements: 33
 exercises: 41
-content_sha256: 4010a2a2ca4f71e4018745cb82e05d0dc6706fac46ce249e1e350a215a05ef11
+content_sha256: 7645eed765ec4fff4cdca17c750d988001e8b1c58bba16817ba97b30ec1cf7c4
 translated_from: content/en/alg/VI/02_s2_ordered_fields.md
 source_content_sha256: 45506056239d65e13de7a37d24141821117f4fc774d40c3a5912d682cb6100c3
 translation_model: gpt-5.4
@@ -56,28 +56,28 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Vành có thứ tự
 
-#### Định nghĩa 1 {#alg-vi-s2-def-1 .statement}
+#### Định nghĩa 1 {#alg-vi-s2-def-1 .statement tag=06YV}
 
 — Cho một vành giao hoán $\mathbf{A}$, ta nói rằng một thứ tự trên $\mathbf{A}$ tương thích với cấu trúc vành của $\mathbf{A}$ nếu nó tương thích với cấu trúc nhóm cộng của $\mathbf{A}$, và nếu nó thỏa mãn tiên đề sau :
 (OR) Các quan hệ $x \geqslant 0$ và $y \geqslant 0$ suy ra $xy \geqslant 0$.
 Vành $\mathbf{A}$, cùng với một thứ tự như vậy, được gọi là một vành có thứ tự.
 
-#### Ví dụ 1 {#alg-vi-s2-n1-exa-1 .statement}
+#### Ví dụ 1 {#alg-vi-s2-n1-exa-1 .statement tag=06YW}
 
 Các vành $\mathbf{Q}$ và $\mathbf{Z}$, với các thứ tự thông thường, là những vành có thứ tự.
 
-#### Ví dụ 2 {#alg-vi-s2-n1-exa-2 .statement}
+#### Ví dụ 2 {#alg-vi-s2-n1-exa-2 .statement tag=06YX}
 
 Một tích của các vành có thứ tự, được trang bị thứ tự tích, là một vành có thứ tự. Đặc biệt, vành $\mathbf{A}^E$ các ánh xạ từ một tập hợp $E$ vào một vành có thứ tự $\mathbf{A}$ là một vành có thứ tự.
 
-#### Ví dụ 3 {#alg-vi-s2-n1-exa-3 .statement}
+#### Ví dụ 3 {#alg-vi-s2-n1-exa-3 .statement tag=06YY}
 
 Một vành con của một vành có thứ tự, với thứ tự cảm sinh, là một vành có thứ tự.
 
 Trong một vành có thứ tự, các quan hệ $x \geqslant y$ và $z \geqslant 0$ suy ra $xz \geqslant yz$. Thật vậy, các bất đẳng thức này tương đương tương ứng với $x - y \geqslant 0$, $z \geqslant 0$ và $(x - y)z \geqslant 0$.
 Tương tự ta có thể chỉ ra rằng các quan hệ $x \leqslant 0$ và $y \geqslant 0$ (resp. $y \leqslant 0$) suy ra $xy \leqslant 0$ (resp. $xy \geqslant 0$). Các kết quả này thường được viện dẫn dưới tên các quy tắc về dấu (hai phần tử được nói là có cùng dấu nếu cả hai đều $\geqslant 0$ hoặc cả hai đều $\leqslant 0$). Chúng suy ra rằng, nếu $\mathbf{A}$ là một vành được sắp thứ tự toàn phần, thì mọi bình phương đều dương, và đặc biệt mọi phần tử lũy đẳng (chẳng hạn phần tử đơn vị) đều dương.
 
-#### Ví dụ {#alg-vi-s2-n1-exa-4 .statement}
+#### Ví dụ {#alg-vi-s2-n1-exa-4 .statement tag=06YZ}
 
 Chỉ có một cấu trúc vành được sắp thứ tự toàn phần trên $\mathbf{Z}$: thật vậy $1 > 0$, do đó $n > 0$ với mọi số tự nhiên $n \neq 0$, theo quy nạp. Trái lại, tồn tại những cấu trúc vành có thứ tự trên $\mathbf{Z}$ mà không được sắp thứ tự toàn phần (xem dưới đây).
 
@@ -99,25 +99,25 @@ $$
 (\mathrm{AP}_{IV}) \quad P \cup (-P) = \mathbf{A}.
 $$
 
-#### Ví dụ {#alg-vi-s2-n1-exa-5 .statement}
+#### Ví dụ {#alg-vi-s2-n1-exa-5 .statement tag=06Z0}
 
 Trong $\mathbf{Z}$, nếu ta lấy $P$ là tập hợp các số nguyên chẵn dương (theo nghĩa thông thường), ta được một vành không được sắp thứ tự toàn phần.
 
 Cũng nhắc lại rằng, trong một nhóm Abel được sắp thứ tự toàn phần, quan hệ $n \cdot x = 0$ (với một số tự nhiên $n \neq 0$) suy ra $x = 0$ (VI, p. 4); điều này cho ta kết quả sau.
 
-#### Mệnh đề 1 {#alg-vi-s2-prop-1 .statement}
+#### Mệnh đề 1 {#alg-vi-s2-prop-1 .statement tag=06Z1}
 
 — *Một vành được sắp thứ tự toàn phần là không xoắn như một $\mathbf{Z}$-môđun* (II, p. 313).
 
 ### 2. Trường có thứ tự
 
-#### Định nghĩa 2 {#alg-vi-s2-def-2 .statement}
+#### Định nghĩa 2 {#alg-vi-s2-def-2 .statement tag=06Z2}
 
 — Một *trường giao hoán, được trang bị một thứ tự toàn phần, được gọi là một trường có thứ tự* nếu *thứ tự của nó và cấu trúc vành của nó là tương thích*.
 
 Ta chỉ xét các quan hệ thứ tự *toàn phần* trên các trường vì các quan hệ khác là rất « bệnh lý » (VI, p. 38, Ex. 6).
 
-#### Ví dụ {#alg-vi-s2-n2-exa-2 .statement}
+#### Ví dụ {#alg-vi-s2-n2-exa-2 .statement tag=0DID}
 
 *1) Trường $\mathbf{Q}$ các số hữu tỉ là một trường có thứ tự.
 2) Một trường con của một trường có thứ tự, với thứ tự cảm sinh, là một trường có thứ tự.
@@ -141,7 +141,7 @@ Với mọi $x$ và $y$ trong $K$ ta có $x = \operatorname{sgn}(x)|x|$ và $|xy
 
 Mặt khác mọi trường có thứ tự đều có đặc số không (Mệnh đề 1).
 
-#### Mệnh đề 2 {#alg-vi-s2-prop-2 .statement}
+#### Mệnh đề 2 {#alg-vi-s2-prop-2 .statement tag=06Z3}
 
 — *Cho $A$ là một miền nguyên được sắp thứ tự toàn phần, và gọi $K$ là trường phân thức của nó. Khi đó tồn tại một và chỉ một thứ tự trên $K$ hạn chế thành thứ tự đã cho trên $A$ và làm cho $K$ thành một trường có thứ tự.*
 
@@ -149,13 +149,13 @@ Mọi $x \in K$ đều có thể được biểu diễn dưới dạng $x = ab^{
 
 Để chứng minh $(\mathrm{AP}_{III})$, xét một đẳng thức có dạng $ab^{-1} = -cd^{-1}$, sao cho $ad + bc = 0$. Nếu ta giả sử rằng $a$ và $b$ cùng dấu và $c$ và $d$ cùng dấu, thì các quy tắc về dấu cho thấy $ad$ và $bc$ cùng dấu; do đó $ad = bc = 0$, nên $a = c = 0$; vì thế $P$ thực sự thỏa mãn $(\mathrm{AP}_{III})$.
 
-#### Ví dụ {#alg-vi-s2-n2-exa-1 .statement}
+#### Ví dụ {#alg-vi-s2-n2-exa-1 .statement tag=06Z4}
 
 — Vì $Z$ chỉ thừa nhận một cấu trúc vành được sắp thứ tự toàn phần duy nhất (*VI*, p. 19, *ví dụ*), nên trường $\mathbf{Q}$ chỉ thừa nhận một thứ tự duy nhất làm cho nó thành một trường có thứ tự: đó là thứ tự thông thường.
 
 ### 3. Mở rộng của các trường có thứ tự
 
-#### Định nghĩa 3 {#alg-vi-s2-def-3 .statement}
+#### Định nghĩa 3 {#alg-vi-s2-def-3 .statement tag=06Z5}
 
 *Cho $K$ là một trường có thứ tự. Một mở rộng có thứ tự của $K$ là một cặp $(E, u)$, trong đó $E$ là một trường có thứ tự và $u$ là một đồng cấu tăng từ $K$ vào $E$.*
 
@@ -165,13 +165,13 @@ x \leq y \quad \text{nếu} \quad u(x) \leq u(y)
 $$
 là một quan hệ thứ tự toàn phần trên $K$ cho nó một cấu trúc trường có thứ tự, được gọi là được *cảm sinh* bởi cấu trúc của $E$. Nếu $K$ và $E$ là các trường có thứ tự, thì một đồng cấu $u : K \to E$ là tăng khi và chỉ khi cấu trúc trường có thứ tự của $K$ được cảm sinh bởi cấu trúc của $E$. Ta sẽ thường đồng nhất $K$ với ảnh của nó trong $E$ qua $u$.
 
-#### Ví dụ {#alg-vi-s2-n3-exa-1 .statement}
+#### Ví dụ {#alg-vi-s2-n3-exa-1 .statement tag=06Z6}
 
 — 1) Mọi trường có thứ tự $K$ đều là một mở rộng có thứ tự của $\mathbf{Q}$. Thật vậy, $K$ là một mở rộng của $\mathbf{Q}$, vì nó có đặc số không, và mặt khác $\mathbf{Q}$ chỉ có thể được sắp thứ tự theo một cách duy nhất, như ta vừa thấy.
 
 2) Cho $K$ là một trường có thứ tự, và cho $K(X)$ là trường các hàm hữu tỉ theo một bất định trên $K$. Ta định nghĩa một thứ tự trên vành đa thức $K[X]$ bằng cách lấy các phần tử dương là $0$ và các đa thức có hệ số đầu dương. Theo cách đó ta thu được một vành được sắp thứ tự toàn phần mà thứ tự của nó mở rộng thứ tự của $K$. Bằng cách áp dụng Mệnh đề 2, ta cho $K(X)$ cấu trúc của một mở rộng có thứ tự của $K$. *Với $K = \mathbf{R}$ có thể chứng minh rằng quan hệ thứ tự được định nghĩa trên $K(X)$ theo cách này là quan hệ tăng trưởng gần $+\infty$ (xem *VI*, p. 24, Mệnh đề 4).*
 
-#### Định lý 1 {#alg-vi-s2-thm-1 .statement}
+#### Định lý 1 {#alg-vi-s2-thm-1 .statement tag=06Z7}
 
 *Một điều kiện cần và đủ để một mở rộng $E$ của $K$ thừa nhận cấu trúc của một mở rộng có thứ tự của $K$ là điều kiện sau đây:*
 *(OE)* *Quan hệ $p_1 x_1^2 + \ldots + p_n x_n^2 = 0$ kéo theo*
@@ -191,7 +191,7 @@ Ngược lại, giả sử điều kiện (OE) được thỏa mãn, khi đó ta
 
 Hơn nữa $\mathscr{M}$ là quy nạp (*Set Theory*, III, p. 154, Định nghĩa 3). Do đó tồn tại, theo Đl. 2 của *Set Theory*, III, p. 154, một phần tử cực đại của $\mathscr{M}$; còn lại là phải chứng minh rằng nó thỏa mãn (APIV); mà điều này suy ra từ bổ đề sau:
 
-#### Bổ đề {#alg-vi-s2-n3-lem-1 .statement}
+#### Bổ đề {#alg-vi-s2-n3-lem-1 .statement tag=06Z8}
 
 — *Cho* $P \in \mathscr{M}$ *và* $x \notin P$; *khi đó tồn tại* $P' \in \mathscr{M}$ *sao cho* $P \subset P'$ *và* $-x \in P'$.
 
@@ -210,7 +210,7 @@ x = (s + q)^{-2}(s + q)(p + r) \in CPP \subset P,
 $$
 trái với giả thiết; do đó $s + q = 0$, suy ra $p + r = 0$; vì P thỏa mãn (AP,,,) ta suy ra $s = q = r = p = 0$, điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 (*« Định lý Artin-Schreier »*) {#alg-vi-s2-thm-1-cor-1 .statement}
+#### Hệ quả 1 (*« Định lý Artin-Schreier »*) {#alg-vi-s2-thm-1-cor-1 .statement tag=06Z9}
 
 — *Một điều kiện cần và đủ để tồn tại một thứ tự trên một trường giao hoán* E *làm cho nó thành một trường có thứ tự, là quan hệ* $x_1^2 + \ldots + x_n^2 = 0$ *kéo theo* $x_1 = \ldots = x_n = 0$.
 
@@ -218,7 +218,7 @@ Tính cần thiết là hiển nhiên. Ngược lại, điều kiện đã phát
 
 *Không* tồn tại bất kỳ cấu trúc trường có thứ tự nào trên một trường E trong đó $-1$ là một bình phương, đặc biệt là trên một trường đóng đại số.
 
-#### Hệ quả 2 {#alg-vi-s2-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-vi-s2-thm-1-cor-2 .statement tag=06ZA}
 
 *Cho E là một mở rộng của K thừa nhận cấu trúc của một mở rộng có thứ tự của K. Để một phần tử $x \in E$ là dương đối với mọi cấu trúc như vậy trên E, điều kiện cần và đủ là x có dạng $\sum_i p_i x_i^2$, trong đó $x_i \in E$ và các $p_i$ là các phần tử dương của K.*
 
@@ -228,7 +228,7 @@ Tính cần thiết là hiển nhiên. Ngược lại, điều kiện đã phát
 
 Cho K là một trường có thứ tự, và f là một đa thức trong K[X]. Ta sẽ nói rằng *f đổi dấu trong K* nếu tồn tại hai phần tử a và b trong K sao cho $f(a) f(b) < 0$; khi đó ta nói rằng *f đổi dấu giữa a và b*.
 
-#### Mệnh đề 3 {#alg-vi-s2-prop-3 .statement}
+#### Mệnh đề 3 {#alg-vi-s2-prop-3 .statement tag=06ZB}
 
 *Cho K là một trường có thứ tự và f là một đa thức bất khả quy trên K đổi dấu giữa a và b trong K. Khi đó mở rộng $E = K[X]/(f)$ của K thừa nhận cấu trúc của một mở rộng có thứ tự.*
 
@@ -246,13 +246,13 @@ $$
 
 trong đó $h \neq 0$ có bậc nhiều nhất là $n - 2$. Thay X bằng a và b trong bất đẳng thức trên, ta thấy rằng $h(a) f(a) > 0$ và $h(b) f(b) > 0$. Vì f đổi dấu giữa a và b theo giả thiết, ta kết luận rằng $h(a) h(b) < 0$. Khi đó ta có một bất đẳng thức tương tự đối với một trong các nhân tử bất khả quy $g(X)$ của $h(X)$: tức là $g(a)\ g(b) < 0$. Nhưng $1 + \sum_i P_i f_i^2(X) \equiv 0 \pmod{g(X)}$, điều đó cho thấy trường $K[X]/(g)$ không thể là một mở rộng có thứ tự của $K$ (Định lý 1), trái với giả thiết quy nạp.
 
-#### Nhận xét {#alg-vi-s2-n4-rem-1 .statement}
+#### Nhận xét {#alg-vi-s2-n4-rem-1 .statement tag=06ZC}
 
 Tồn tại các đa thức bất khả quy $f$ trên một trường có thứ tự $K$ không đổi dấu trong $K$, nhưng sao cho $K[X]/(f)$ thừa nhận cấu trúc của một mở rộng có thứ tự của $K$ (x. VI, p. 43, Bài tập 26, c)).
 
 Để áp dụng mệnh đề trước, ta sẽ cần kết quả sau:
 
-#### Mệnh đề 4 {#alg-vi-s2-prop-4 .statement}
+#### Mệnh đề 4 {#alg-vi-s2-prop-4 .statement tag=06ZD}
 
 — *Cho $K$ là một trường có thứ tự và cho $f \in K[X]$. Tồn tại một khoảng trong $K$, ở phần bù của nó, $f$ nhận cùng dấu với số hạng bậc cao nhất của nó.*
 
@@ -264,19 +264,19 @@ $$
 
 Với $|x| > M$ ta có $1 + a_1 x^{-1} + \ldots + a_n x^{-n} > 0$, điều này hoàn thành chứng minh của mệnh đề.
 
-#### Hệ quả 1 {#alg-vi-s2-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-vi-s2-prop-4-cor-1 .statement tag=06ZE}
 
 — *Mọi mở rộng của một trường có thứ tự có bậc hữu hạn lẻ đều thừa nhận cấu trúc của một mở rộng có thứ tự.*
 
 Một mở rộng như vậy, vì là đơn sinh (V, p. 40, Định lý 1), nên đẳng cấu với $K[X]/(f)$, trong đó $f$ là một đa thức bất khả quy bậc lẻ. Khi đó chỉ cần chứng minh rằng $f$ đổi dấu trong $K$ (Mệnh đề 3), điều này suy ra ngay lập tức từ Mệnh đề 4.
 
-#### Hệ quả 2 {#alg-vi-s2-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-vi-s2-prop-4-cor-2 .statement tag=06ZF}
 
 — *Nếu $a$ là một phần tử dương của một trường có thứ tự $K$, thì mọi trường phân rã $E$ của đa thức $X^2 - a$ đều thừa nhận cấu trúc của một mở rộng có thứ tự của $K$.*
 
 Kết quả là tầm thường nếu $a$ là một bình phương trong $K$. Nếu không thì đa thức $f(X) = X^2 - a$ là bất khả quy và đổi dấu, vì $f(0) < 0$ và $f(x)$ có cùng dấu với $x^2$, nên dương, với $x$ thuộc phần bù của một khoảng nào đó của $K$. Bây giờ ta có thể hoàn thành chứng minh bằng cách áp dụng Mệnh đề 3.
 
-#### Nhận xét {#alg-vi-s2-n4-rem-2 .statement}
+#### Nhận xét {#alg-vi-s2-n4-rem-2 .statement tag=06ZG}
 
 Khi trường có thứ tự $K$ chứa các « căn bậc hai » của một phần tử dương $a$ của $K$ (các nghiệm của đa thức $X^2 - a$) thì ký hiệu $\sqrt{a}$ nói chung được dành cho căn bậc hai *dương*. Nếu $K$ *không* chứa các căn bậc hai $b$ và $-b$ của $a$ trong trường $E$, thì trường sau có thể được làm thành một mở rộng có thứ tự của $K$ theo *hai* cách, mỗi cách được cảm sinh từ cách kia *qua* $K$-tự đẳng cấu gửi $b$ tới $-b$; việc lựa chọn một trong hai thứ tự này xác định $\sqrt{a}$: đó là phần tử nào trong hai phần tử $b$ và $-b$ là dương.
 
@@ -284,17 +284,17 @@ Nếu $a$ và $a'$ là hai phần tử dương của $K$, có các căn bậc ha
 
 ### 5. Trường có thứ tự cực đại
 
-#### Định nghĩa 4 {#alg-vi-s2-def-4 .statement}
+#### Định nghĩa 4 {#alg-vi-s2-def-4 .statement tag=06ZH}
 
 — *Một trường có thứ tự K là cực đại nếu mọi mở rộng đại số có thứ tự của K đều là tầm thường.*
 
-#### Ví dụ {#alg-vi-s2-n5-exa-1 .statement}
+#### Ví dụ {#alg-vi-s2-n5-exa-1 .statement tag=06ZI}
 
 *Ta sẽ thấy về sau (Gen. Top., VIII, p. 1) rằng trường R các số thực là một trường có thứ tự cực đại.*
 
 Sự tồn tại của các trường có thứ tự cực đại là một hệ quả của định lý sau:
 
-#### Định lý 2 {#alg-vi-s2-thm-2 .statement}
+#### Định lý 2 {#alg-vi-s2-thm-2 .statement tag=06ZJ}
 
 — *Mọi trường có thứ tự K đều thừa nhận một mở rộng đại số có thứ tự là một trường có thứ tự cực đại.*
 
@@ -302,19 +302,19 @@ Có thể chứng minh rằng mở rộng có thứ tự này là duy nhất sai
 
 Cho $\Omega$ là một bao đóng đại số của K, và cho $\mathfrak{N}$ là tập hợp các cặp $(A, w)$, trong đó $A$ là một mở rộng con trên K của $\Omega$, và $w$ là một thứ tự trên $A$ làm cho $A$ thành một mở rộng có thứ tự của $K$. Sắp thứ tự $\mathfrak{N}$ bởi quan hệ « L là một mở rộng có thứ tự của M » giữa M và $L$. Được trang bị thứ tự này, $\mathfrak{N}$ là một tập hợp có thứ tự *quy nạp*: thật vậy nếu $(L_i)$ là một họ được sắp thứ tự toàn phần các phần tử của $\mathfrak{N}$, thì trường $L = \bigcup L_i$, được sắp thứ tự bằng cách lấy $L_1 = \bigcup (L_i)_1$, là một cận trên của các $L_i$. Khi đó $\mathfrak{N}$ có một phần tử cực đại, theo *Lý thuyết tập hợp*, III, p. 154, Định lý 2, điều này hoàn tất chứng minh.
 
-#### Mệnh đề 5 {#alg-vi-s2-prop-5 .statement}
+#### Mệnh đề 5 {#alg-vi-s2-prop-5 .statement tag=06ZK}
 
 — *Cho K là một trường có thứ tự cực đại, và cho f là một đa thức trong K[X] đổi dấu giữa hai phần tử a và b của K (với $a < b$). Khi đó f có một nghiệm x trong K sao cho $a < x < b$.*
 
 Ít nhất một trong các nhân tử bất khả quy của f, chẳng hạn $h$, đổi dấu giữa $a$ và $b$. Khi đó trường $K[X]/(h)$ thừa nhận cấu trúc của một mở rộng có thứ tự của $K$ (VI, p. 23, Mệnh đề 3), và $h$ có bậc 1 (Định nghĩa 4). Vì $h(a) h(b) < 0$, nghiệm duy nhất $x$ của $h$ thỏa $a < x < b$, vì một hàm đa thức bậc 1 là đơn điệu.
 
-#### Mệnh đề 6 {#alg-vi-s2-prop-6 .statement}
+#### Mệnh đề 6 {#alg-vi-s2-prop-6 .statement tag=06ZL}
 
 — *Mọi phần tử dương của một trường có thứ tự cực đại K đều có một căn bậc hai trong K. Mọi đa thức bậc lẻ trong K[X] đều có ít nhất một nghiệm trong K.*
 
 Điều này suy ra ngay lập tức từ Hệ quả 2 và 1 của Mệnh đề 4 ở VI, p. 24.
 
-#### Hệ quả {#alg-vi-s2-n5-cor-1 .statement}
+#### Hệ quả {#alg-vi-s2-n5-cor-1 .statement tag=06ZM}
 
 — *Trên một trường có thứ tự cực đại K chỉ tồn tại một thứ tự tương thích với cấu trúc trường.*
 
@@ -324,7 +324,7 @@ Thật vậy các phần tử dương của K được xác định bởi cấu 
 
 Tính chất được biểu thị bởi Mệnh đề 6 của VI, p. 25 đặc trưng cho các trường có thứ tự cực đại. Chính xác hơn:
 
-#### Định lý 3 (Euler-Lagrange) {#alg-vi-s2-thm-3 .statement}
+#### Định lý 3 (Euler-Lagrange) {#alg-vi-s2-thm-3 .statement tag=06ZN}
 
 — Cho K là một trường có thứ tự. Khi đó ba tính chất sau là tương đương:
 a) Trường $K(i)$ là đóng đại số (trong đó i chỉ một căn bậc hai của -1).
@@ -337,7 +337,7 @@ Việc b) kéo theo c) không là gì khác ngoài Mệnh đề 6 của VI, p. 2
 
 Còn lại phải chứng minh rằng c) kéo theo a). Điều đó sẽ suy ra từ hai mệnh đề tiếp theo.
 
-#### Mệnh đề 7 {#alg-vi-s2-prop-7 .statement}
+#### Mệnh đề 7 {#alg-vi-s2-prop-7 .statement tag=06ZO}
 
 — Cho K là một trường có thứ tự trong đó mọi phần tử dương là một bình phương. Khi đó mọi phần tử của $K(i)$ là một bình phương, và mọi đa thức bậc 2 trên $K(i)$ đều có một nghiệm trong $K(i)$.
 
@@ -363,7 +363,7 @@ $$
 
 Ký hiệu c là căn bậc hai dương của $a^2 + b^2$; khi đó $c \geq |a|, c \geq |b|$ và $x^2 + y^2 = c$. Do đó $x^2 = (c + a)/2$ và $y^2 = (c - a)/2$. Vì $c \geq |a|$ nên các phương trình này giải được trong K, và nếu $x_0$ và $y_0$ là hai nghiệm thì $x_0^2 - y_0^2 = a$ và $2x_0y_0 = \pm b$. Ta thu được căn bậc hai cần tìm bằng cách lấy $x = x_0$ và $y = b/2x_0$.
 
-#### Mệnh đề 8 {#alg-vi-s2-prop-8 .statement}
+#### Mệnh đề 8 {#alg-vi-s2-prop-8 .statement tag=06ZP}
 
 — Cho K là một trường giao hoán (có đặc số tùy ý) và cho $K'$ là một trường phân rã của đa thức $X^2 + 1 \in K[X]$ (V, p. 21). Giả sử:
 a) mọi đa thức trong $K[X]$ có bậc lẻ đều có một nghiệm trong $K'$;
@@ -425,13 +425,13 @@ có thể viết thành $(ab' - ba')^2 \geq 0$.
 
 Đl. 3 cho phép ta xác định tất cả các đa thức bất khả quy trên một trường có thứ tự cực đại:
 
-#### Mệnh đề 9 {#alg-vi-s2-prop-9 .statement}
+#### Mệnh đề 9 {#alg-vi-s2-prop-9 .statement tag=06ZQ}
 
 — *Nếu K là một trường có thứ tự cực đại, thì các đa thức bất khả quy duy nhất trong K[X] là các đa thức bậc nhất, và các đa thức bậc hai $aX^2 + bX + c$ sao cho $b^2 - 4ac < 0$.*
 
 Vì $K(i)$ đóng đại số, mọi mở rộng đại số của K, và do đó cả mọi đa thức bất khả quy trên K, đều có bậc 1 hoặc 2. Để thấy những đa thức bậc hai nào là bất khả quy, chỉ cần xét dạng chính tắc $a((X + (b/2a))^2 - (b^2 - 4ac)/4a^2)$ (xem *VI*, p. 26, Mệnh đề 7).
 
-#### Nhận xét {#alg-vi-s2-n6-rem-1 .statement}
+#### Nhận xét {#alg-vi-s2-n6-rem-1 .statement tag=06ZR}
 
 — Việc chuyển về dạng tam thức chính tắc cho kết quả mạnh hơn này: điều kiện cần và đủ để đa thức $aX^2 + bX + c$ trên một trường có thứ tự K đã cho có dấu không đổi trong K là $b^2 - 4ac < 0$, và khi đó dấu của đa thức là dấu của $a$.
 

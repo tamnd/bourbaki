@@ -36,9 +36,9 @@ subsections:
       pdf_page: 383
 statements: 3
 exercises: 6
-content_sha256: 76a4a43de46bc2434fa583c111420f7f6665b299a8302066dba0a45f5c5ac71d
+content_sha256: 82962af0fd997e23476cc8ce098908feb753d2ad71c675d9b16a9644b87ecce3
 translated_from: content/en/top/IV/08_s8_usual_expansions_of_real_numbers_the.md
-source_content_sha256: cc580553600faae651b7943eeadba958e4028101a52e112dfe1c9051a2cb6aa3
+source_content_sha256: fc201404a7a205db6f15d21fa9d01ef19669eb40041bcaa87ccd2d1c2e452490
 translation_model: gpt-5.4
 translation_run: translate-vi-6c609c53
 glossary_version: 34
@@ -50,7 +50,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. XẤP XỈ MỘT SỐ THỰC
 
-#### Định nghĩa 1 {#top-iv-s8-def-1 .statement}
+#### Định nghĩa 1 {#top-iv-s8-def-1 .statement tag=0BUG}
 
 Cho một số $\varepsilon > 0$, một số thực $r$ được gọi là một xấp xỉ với sai số không quá $\varepsilon$ của một số thực $x$, nếu $|x - r| \leq \varepsilon$; $r$ được gọi là một xấp xỉ thiếu nếu $r \leq x$, xấp xỉ thừa nếu $r \geq x$.
 
@@ -166,11 +166,11 @@ Trước hết, nó đẳng lực với tập con $S'$ của S gồm các dãy $
 
 Khi đó S đẳng lực lượng với $\mathfrak{P}(\mathbf{N})$; vì ta có thể định nghĩa một song ánh từ $\mathfrak{P}(\mathbf{N})$ lên S bằng cách ánh xạ mỗi tập con A của $\mathbf{N}$ tới dãy $(u_n)$ sao cho $u_n = 0$ nếu $n \in A$ và $u_n = 1$ nếu $n \notin CA$. Vậy ta đã chứng minh được:
 
-#### Định lý 1 (Cantor) {#top-iv-s8-thm-1 .statement}
+#### Định lý 1 (Cantor) {#top-iv-s8-thm-1 .statement tag=0BUH}
 
 *Tập hợp các số thực đẳng lực lượng với tập hợp tất cả các tập con của một tập vô hạn đếm được.*
 
-#### Hệ quả {#top-iv-s8-n6-cor-1 .statement}
+#### Hệ quả {#top-iv-s8-n6-cor-1 .statement tag=0BUI}
 
 *Tập hợp các số thực có một lực lượng lớn hơn nghiêm ngặt lực lượng của một tập đếm được.*
 

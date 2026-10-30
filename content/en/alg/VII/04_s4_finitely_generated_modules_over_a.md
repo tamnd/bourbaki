@@ -50,7 +50,7 @@ subsections:
       pdf_page: 384
 statements: 40
 exercises: 25
-content_sha256: 6c2fe0a6c590f6a566b071f383cc4f32741a78d13c74d616a15ae4c9b34b6da3
+content_sha256: e417e7dc96e464c48ed19a91e2e8d38e2c97d4afc92adb2cc15edbd954a62d34
 ---
 
 ## § 4. FINITELY GENERATED MODULES OVER A PRINCIPAL IDEAL DOMAIN
@@ -59,7 +59,7 @@ content_sha256: 6c2fe0a6c590f6a566b071f383cc4f32741a78d13c74d616a15ae4c9b34b6da3
 
 Let A be a commutative ring. Recall (II, p. 220, Prop. 22) that a cyclic A-module is isomorphic to a *quotient module* $A/a$, where a is an ideal of A. We will see later (Sect. 4) that every finitely generated module over a principal ideal domain is a direct sum of finitely many cyclic modules.
 
-#### Proposition 1 {#alg-vii-s4-prop-1 .statement}
+#### Proposition 1 {#alg-vii-s4-prop-1 .statement tag=073N}
 
 — *Let E be a module over a commutative ring A; suppose E is a direct sum of n cyclic modules $\Lambda/\mathfrak{a}_k$ ($1 \leq k \leq n$), where the $\mathfrak{a}_k$ are ideals of A;*
 
@@ -69,13 +69,13 @@ Let $x_k$ be the canonical generator of $A / a_k$, that is the image of the unit
 
 We now see that, in the notation of Prop. 1, if the ideals $a_k$ form an increasing sequence, they are completely determined by the module $E$. More precisely :
 
-#### Proposition 2 {#alg-vii-s4-prop-2 .statement}
+#### Proposition 2 {#alg-vii-s4-prop-2 .statement tag=073O}
 
 — *Let $A$ be a commutative ring, and let $E$ be a direct sum of $n$ cyclic modules $A / a_k$, where the $a_k$ satisfy $a_1 \subset a_2 \subset \ldots \subset a_n$. Then, for $1 \leq p \leq n$, the ideal $a_p$ is the annihilator of $\bigwedge^p E$; if $a_n \neq A$ then $\bigwedge^p E \neq 0$ for $1 \leq p \leq n$ and $\bigwedge^m E = 0$ for $m > n$.*
 
 Indeed, in the notation of Prop. 1, we have $a_p = a_{s(H)}$, where $s(H)$ denotes the greatest element of the subset $H$. Since $s(H) \geq p$ for every $p$-element subset $H$, and since $s(H) = p$ for $H = \{ 1, \ldots, p \}$, it follows that $a_p$ is the intersection of $a_r$, as $H$ varies over the set of $p$-element subsets of $(1, n)$; the ideal $a_p$ is thus indeed the annihilator of $\bigwedge^p E$, by Prop. 1.
 
-#### Corollary {#alg-vii-s4-n1-cor-1 .statement}
+#### Corollary {#alg-vii-s4-n1-cor-1 .statement tag=073P}
 
 — *In the notation of Prop. 2, if $a_n \neq A$, and if $E$ is also isomorphic to the direct sum of $m$ cyclic modules $A / a'_j$ with $a'_1 \subset a'_2 \subset \ldots \subset a'_m \neq A$, then $m = n$ and $a_k = a'_k$ for $1 \leq k \leq n$ (*uniqueness of the $a_k *$).
 
@@ -85,7 +85,7 @@ Let $A$ be a principal ideal domain, let $L$ be a free $A$-module, and let $x$ b
 
 We say that $x$ is *indivisible* if $c_L(x) = A$, that is if the coordinates of $x$ with respect to a basis of $L$ are setwise coprime.
 
-#### Lemma 1 {#alg-vii-s4-lem-1 .statement}
+#### Lemma 1 {#alg-vii-s4-lem-1 .statement tag=073Q}
 
 *Let $L$ be a free module over a principal ideal domain $A$ and let $x$ be an element of $L$. Then the following conditions are equivalent*:
 
@@ -99,14 +99,14 @@ We say that $x$ is *indivisible* if $c_L(x) = A$, that is if the coordinates of 
 (iii) $\Rightarrow$ (iv) : let $L'$ be a complement of $Ax$ in $L$, and let $B'$ be a basis of $L'$ (*VII*, p. 15, Cor. 2) ; then $B' \cup \{x\}$ is a basis of $L$.
 (iv) $\Rightarrow$ (i) : trivial.
 
-#### Remark {#alg-vii-s4-n2-rem-1 .statement}
+#### Remark {#alg-vii-s4-n2-rem-1 .statement tag=073R}
 
 — 1) If $x$ is a nonzero element of $L$ and $c$ a content of $x$, then there exists a unique element $y$ of $L$ such that $x = cy$ ; denote this element $x/c$ ; then $x/c$ is an indivisible element of $L$.
 2) The content $c_L(x)$ is the annihilator of the torsion module of $L/Ax$.
 
 Let $L$ be a free module over a principal ideal domain $A$ and let $M$ be a submodule of $L$ ; by *VII*, p. 4, Lemma 1, the family $c_L(x), x \in M$, has a maximal element ; if $M \neq \{0\}$ then such a maximal element is nonzero.
 
-#### Proposition 3 {#alg-vii-s4-prop-3 .statement}
+#### Proposition 3 {#alg-vii-s4-prop-3 .statement tag=073S}
 
 *Let $L$ be a free module over a principal ideal domain $A$ and let $M$ be a nonzero submodule of $L$. Let $x$ be an element of $M$ such that $c_L(x)$ is maximal among the contents of elements of $M$, let $c$ be a content of $x$ in $L$, and let $f$ be a linear form on $L$ such that $f(x) = c$.
 
@@ -128,7 +128,7 @@ b) we have $g(M) \subset Ac + h(K \cap M)$. To prove c), it is therefore suffici
 
 ### 3. Invariant factors of a submodule
 
-#### Theorem 1 {#alg-vii-s4-thm-1 .statement}
+#### Theorem 1 {#alg-vii-s4-thm-1 .statement tag=073T}
 
 — Let $L$ be a free module over a principal ideal domain $A$, and let $M$ be a submodule of $L$ of finite rank $n$. Then there exist a basis $B$ of $L$, $n$ elements $e_i$ of $B$, and $n$ nonzero elements $\alpha_i$ of $A$ ($1 \leq i \leq n$) such that:
 a) the $\alpha_i e_i$ form a basis of $M$;
@@ -152,17 +152,17 @@ Thus the conditions of the Cor. to Prop. 2 (VII, p. 16) are satisfied: the ideal
 
 Since $L$ is the direct sum of $M'$ and $L'$, it follows that $L/M$ is the sum of $M'/M$ and $(L' + M)/M$, and this sum is direct since $(L' + M) \cap M' = M$; on the other hand $(L' + M)/M$ is isomorphic to $L'/(M \cap L')$ (I, p. 41, Th. 4, c)), that is to $L'$, which shows that $(L' + M)/M$ is a free module isomorphic to $L/M'$.
 
-#### Corollary {#alg-vii-s4-n3-cor-1 .statement}
+#### Corollary {#alg-vii-s4-n3-cor-1 .statement tag=073U}
 
 — A submodule $M$ of finite rank in a free module $L$ over a principal ideal domain $A$ has a complement in $L$ if and only if $L/M$ is torsion free.
 
 In the notation of Th. 1, if $L/M$ is torsion free, then $M = M'$, and $M'$ has a complement $L'$ in $L$. Conversely if $M$ has a complement $L'$ in $L$, then $L/M$ is isomorphic to $L'$, which is free (VII, p. 15, Cor. 2), and a fortiori torsion free.
 
-#### Remark {#alg-vii-s4-n3-rem-1 .statement}
+#### Remark {#alg-vii-s4-n3-rem-1 .statement tag=073V}
 
 It can happen that a submodule $M$ of infinite rank in a free module $L$ can be such that $L/M$ is torsion free, but $M$ has no complement in $L$ (VII, p. 60, Ex. 6, b)).
 
-#### Definition 1 {#alg-vii-s4-def-1 .statement}
+#### Definition 1 {#alg-vii-s4-def-1 .statement tag=073W}
 
 — In the notation and hypotheses of Th. 1, the ideals $A\alpha_i$ of $A$ are called the invariant factors of the submodule $M$ with respect to the module $L$.
 
@@ -170,26 +170,26 @@ In the case where $A$ is either the ring $\mathbf{Z}$ of rational integers or th
 
 ### 4. Structure of finitely generated modules
 
-#### Theorem 2 {#alg-vii-s4-thm-2 .statement}
+#### Theorem 2 {#alg-vii-s4-thm-2 .statement tag=073X}
 
 — Every finitely generated module $E$ over a principal ideal domain $A$ is isomorphic to a direct sum of a finite number $m$ of cyclic modules $A/a_k$, where the $a_k$ are ideals of $A$ (some of which may be zero) such that $a_1 \subset a_2 \subset \ldots \subset a_m \neq A$, and which are uniquely determined by these conditions.
 
 If $E$ can be generated by $q$ elements then it is isomorphic to a quotient module $L/M$, where $L = A^q$ (II. p. 218). Since $M$ has finite rank $n \leq q$ (VII, p. 15, Prop. 1), the conditions of Th. 1 (VII, p. 18) are satisfied. Then in the notation of Th. 1 $L/M$ is isomorphic to a direct sum of a complement $L'$ of $M'$ in $L$ and the torsion module $M'/M$. The module $L'$ is free of finite rank $p = q - n$, so isomorphic to $A^p$. If $r$ is the smallest index such that $A\alpha_r \neq A$, then $M'/M$ is isomorphic to the direct sum of modules $A/A\alpha_i$ for $r \leq i \leq n$. The stated conditions will then be satisfied if we take $m = p + (n - r + 1)$, $a_k = (0)$ for $1 \leq k \leq p$, and $a_j = A\alpha_n , - ,$ for $1 \leq j \leq n - r + 1$. Uniqueness follows from the Cor. of VII, p. 16.
 
-#### Corollary 1 {#alg-vii-s4-thm-2-cor-1 .statement}
+#### Corollary 1 {#alg-vii-s4-thm-2-cor-1 .statement tag=073Y}
 
 — *Every finitely generated module E over a principal ideal domain is the direct sum of the torsion submodule of E and a free module.*
 
 The torsion submodule of E has in general several distinct complements. For example, if $E = \mathbf{Z} \times (\mathbf{Z}/(2))$ then the torsion submodule of E is $\{0\} \times (\mathbf{Z}/(2))$; it has as a complement the submodule $\mathbf{Z} \times (0)$, and also the submodule consisting of all elements $(n, \overline{n})$, where $n$ runs through $\mathbf{Z}$ and $\overline{n}$ is the residue class of $n$ mod 2.
 
-#### Corollary 2 {#alg-vii-s4-thm-2-cor-2 .statement}
+#### Corollary 2 {#alg-vii-s4-thm-2-cor-2 .statement tag=073Z}
 
 — *Every torsion free finitely generated module over a principal ideal domain is free of finite rank.*
 This follows immediately from Cor. 1.
 
 The condition that the module be finitely generated is essential. For example the additive group of the field of fractions K of A is torsion free as an A-module; however it is not a free module if $A \neq K$, for on the one hand any two elements of K have a common divisor, and on the other hand K is not a cyclic A-module, for otherwise $K = ab^{-1}A$ ($a, b \in A$), whence $b^{-2} = acb^{-1}$ ($c \in A$), so $b^{-1} = ac \in A$, and $K = A$.
 
-#### Definition 2 {#alg-vii-s4-def-2 .statement}
+#### Definition 2 {#alg-vii-s4-def-2 .statement tag=0740}
 
 — *In the notation and hypotheses of Th. 2, the ideals $a_k$ are called the invariant factors of the module E.*
 As in Def. 1 (VII, p. 19), when $A = \mathbf{Z}$ or $A = K[X]$, the canonical generator of the ideal $a_k$ (a positive integer or a monic polynomial) is also called, by abuse of language, an *invariant factor* of the finitely generated module E.
@@ -198,7 +198,7 @@ We must be careful not to confuse the invariant factors of a module E with those
 
 ### 5. Calculation of invariant factors
 
-#### Proposition 4 {#alg-vii-s4-prop-4 .statement}
+#### Proposition 4 {#alg-vii-s4-prop-4 .statement tag=0741}
 
 — *Let A be a principal ideal domain, let L be a free A-module with finite basis $(u_j)$ ($1 \leq j \leq k$), let M be a submodule of L, let $(x_i)$ be a system of generators of M and let $A \alpha_i$ ($1 \leq i \leq n$) be the invariant factors of M with respect to L. Then for $1 \leq m \leq n$ the product $\delta_m = \alpha_1 \ldots \alpha_m$ is a gcd of the m-th order minors of the matrix whose columns are the coordinate vectors of the $x_i$ with respect to the basis $(u_j)$.
 
@@ -210,13 +210,13 @@ For general $m$, consider the m-th *exterior power* $\bigwedge^m M$ of M (III, p
 
 Let $A$ be a principal ideal domain. Consider a linear mapping $f$ from a free $A$-module $L$ of rank $m$ into a free $A$-module $L'$ of rank $n$. The preceding results allow us, by choosing suitable bases for $L$ and $L'$, to put the matrix for $f$ in a particularly simple form, called the *canonical form* of the matrix.
 
-#### Proposition 5 {#alg-vii-s4-prop-5 .statement}
+#### Proposition 5 {#alg-vii-s4-prop-5 .statement tag=0742}
 
 *Let $A$ be a principal ideal domain, and $f$ a linear map of rank $r$ from a free $A$-module $L$ of rank $m$ into a free $A$-module $L'$ of rank $n$. Then there exist bases $(e_i)$ ($1 \leq i \leq m$) of $L$ and $(e'_j)$ ($1 \leq j \leq n$) of $L'$ such that $f(e_i) = \alpha_i e'_i$ for $1 \leq i \leq r$ and $f(e_i) = 0$ for $i > r$, where the $\alpha_i$ are nonzero elements of $A$, each of which divides the next; the ideals $A \alpha_i$ are the invariant factors of $f(L)$ in $L'$, and are thus uniquely determined.*
 
 Let $L_0 = f^{-1}(0)$ be the kernel of $f$; the quotient $L/L_0$ is isomorphic to the module $f(L)$, which is a submodule of $L'$ and so free (*VII*, p. 15, Cor. 2); thus $L_0$ has a complement $L_1$ in $L$ (*II*, p. 218, Prop. 21), and the restriction of $f$ to $L_1$ is an isomorphism from $L_1$ onto $f(L) = M'$. If the ideals $A \alpha_i$ ($1 \leq i \leq r$) are the invariant factors of $M'$ in $L'$, then Th. 1 of *VII*, p. 18 shows that there exists a basis $(e'_j)$ ($1 \leq j \leq n$) of $L'$ such that $(\alpha_i e'_i)$ ($1 \leq i \leq r$) is a basis of $M'$. Since the restriction of $f$ to $L_1$ is an isomorphism from $L_1$ onto $M'$, there exists a basis $(e_i)$ ($1 \leq i \leq r$) of $L_1$ such that $f(e_i) = \alpha_i e'_i$. This basis extends to a basis $(e_s)$ ($1 \leq k \leq m$) of $L$ by taking $(e_s)$ ($r+1 \leq s \leq m$) to be a basis of the kernel $L_0$.
 
-#### Corollary 1 {#alg-vii-s4-prop-5-cor-1 .statement}
+#### Corollary 1 {#alg-vii-s4-prop-5-cor-1 .statement tag=0743}
 
 — Let X be a matrix of rank r, with n rows and m columns, over a principal ideal domain A; then there exists a matrix $X_0$ equivalent to X (II, p. 354) of the form
 
@@ -236,7 +236,7 @@ Given that two matrices X and $X'$ are equivalent if there exist invertible squa
 
 In the notation of Prop. 5 and Cor. 1, the (nonzero) ideals $Au$, are called the invariant factors of the linear map f, or of the matrix X. It then follows immediately from Cor. I that:
 
-#### Corollary 2 {#alg-vii-s4-prop-5-cor-2 .statement}
+#### Corollary 2 {#alg-vii-s4-prop-5-cor-2 .statement tag=0744}
 
 — Two matrices X and $X'$ with n rows and m columns over a principal ideal domain A are equivalent if and only if they have the same invariant factors.
 
@@ -244,7 +244,7 @@ Note that when A is a field we can take the $\alpha_i$ to be equal to 1, and the
 
 If X is the matrix of the linear mapping f with respect to an arbitrary basis of L and an arbitrary basis of L', then the columns of X are the coordinate vectors, with respect to the basis of L', of elements of L' which form a system of generators for $f(L)$. The following result is thus an immediate consequence of Prop. 4.
 
-#### Proposition 6 {#alg-vii-s4-prop-6 .statement}
+#### Proposition 6 {#alg-vii-s4-prop-6 .statement tag=0745}
 
 — Let X be a matrix of rank r over a principal ideal domain A, and let $A \alpha_i$ ($1 \leq i \leq r$) be its sequence of invariant factors. Then $\alpha_1$ is a gcd of the elements of X; and the product $\alpha_1 \ldots \alpha_q$ is a gcd of the q-th order minors of X for $q \leq r$.
 
@@ -252,41 +252,41 @@ If X is the matrix of the linear mapping f with respect to an arbitrary basis of
 
 In the case $A = \mathbf{Z}$, the results of section 4 can be expressed
 
-#### Theorem 3 {#alg-vii-s4-thm-3 .statement}
+#### Theorem 3 {#alg-vii-s4-thm-3 .statement tag=0746}
 
 — Every finitely generated abelian group G is a direct sum of its torsion subgroup F (subgroup of elements of finite order in G) und a free abelian group of finite rank p (isomorphic to $\mathbf{Z}^p$). The group F is a direct sum of a finite number of cyclic groups of orders $n_1, n_2, \ldots, n_q$, where the $n_i$ are integers $> 1$, each of which divides the previous one; moreover, the integers $p, q$ and $n_i$ ($1 \leq i \leq q$) are uniquely determined by $G$.
 
-#### Remark {#alg-vii-s4-n7-rem-1 .statement}
+#### Remark {#alg-vii-s4-n7-rem-1 .statement tag=0747}
 
 While the orders $n_1, \ldots, n_q$ of the cyclic groups of which F is the direct sum are well defined by the divisibility condition of Th. 3, it is *not* the same for the groups themselves: for example, in the product G of $\mathbf{Z}/(p)$ with itself (for p prime), the subgroups are precisely the $\mathbf{F}_p$-vector subspaces, and G is the direct sum of two 1-dimensional subspaces in $p(p+1)$ different ways.
 
-#### Corollary 1 {#alg-vii-s4-thm-3-cor-1 .statement}
+#### Corollary 1 {#alg-vii-s4-thm-3-cor-1 .statement tag=0748}
 
 — *In a finite abelian group G, there exists an element whose order is the lcm of all the orders of elements of G; this order n is the first invariant factor of G.*
 
-#### Corollary 2 {#alg-vii-s4-thm-3-cor-2 .statement}
+#### Corollary 2 {#alg-vii-s4-thm-3-cor-2 .statement tag=0749}
 
 — *Any finite abelian group G whose order is not divisible by the square of any integer $> 1$ is cyclic.*
 Let us keep to the notation of Th. 3. Then $p = 0$ since G is finite, and $q \leq 1$, for otherwise the order of G would be divisible by $n_q^2$. Hence G is cyclic.
 
-#### Corollary 3 {#alg-vii-s4-thm-3-cor-3 .statement}
+#### Corollary 3 {#alg-vii-s4-thm-3-cor-3 .statement tag=074A}
 
 — *Let L and M be two free $\mathbf{Z}$-modules of rank n, let $(e_i)$ be a basis for L and $(f_i)$ a basis for M ($1 \leq i \leq n$), let u be a homomorphism from L into M, and let U be its matrix with respect to the bases $(e_i)$ and $(f_i)$. Then $\mathrm{Coker}\,u = M/u(L)$ is finite if and only if $\det(U) \neq 0$, and then $\mathrm{Card}(\mathrm{Coker}(u)) = |\det(U)|$.
 By changing bases in L and M if necessary, we may assume that U has the form described in VII, p. 22, Cor. 1 to Prop. 5 (where the $a_i$ are in this case integers); the corollary then becomes obvious, since the order of a direct sum of $\mathbf{Z}$-modules $\mathbf{Z}/\alpha_i \mathbf{Z}$ ($1 \leq i \leq n$) is infinite if one of the $a_i$ is zero, and is equal to $|\alpha_1 \alpha_2 \ldots a_n|$ otherwise.
 
 ### 8. Indecomposable modules. Elementary divisors
 
-#### Definition 3 {#alg-vii-s4-def-3 .statement}
+#### Definition 3 {#alg-vii-s4-def-3 .statement tag=074B}
 
 — *A left module M over a ring A is said to be decomposable if it is the direct sum of a family of proper nonzero submodules. Otherwise it is said to be indecomposable.*
 The zero module is thus *decomposable*, being the direct sum of the empty family of submodules.
 Let $\mathfrak{a}$ be a left ideal of the ring A; the submodules of $A/\mathfrak{a}$ are just the quotients $b/\mathfrak{a}$, where $b$ is an ideal of A containing $\mathfrak{a}$ (I, p. 41, Th. 4); if $b$ and $c$ are two ideals of A containing $\mathfrak{a}$, then the module $A/\mathfrak{a}$ is the direct sum of the submodules $b/\mathfrak{a}$ and $c/\mathfrak{a}$ if and only if $A = b + c$ and $b \cap c = \mathfrak{a}$. As a result:
 
-#### Lemma 2 {#alg-vii-s4-lem-2 .statement}
+#### Lemma 2 {#alg-vii-s4-lem-2 .statement tag=074C}
 
 — *The module $A/\mathfrak{a}$ is indecomposable if and only if $\mathfrak{a} \neq A$ and there is no pair $(b, c)$ of ideals of A, distinct from A and $\mathfrak{a}$, such that $A = b + c$ and $b \cap c = \mathfrak{a}$.*
 
-#### Proposition 7 {#alg-vii-s4-prop-7 .statement}
+#### Proposition 7 {#alg-vii-s4-prop-7 .statement tag=074D}
 
 — Let $A$ be a commutative ring, let $\mathfrak{p}$ be a prime ideal of $A$ (I, p. 117, Def. 3), and let $q$ be an ideal of $A$ contained in $\mathfrak{p}$. Suppose that for every $x \in \mathfrak{p}$ there exists an integer $n > 0$ such that $x^n \in q$. Then the $A$-module $A/q$ is indecomposable.
 
@@ -294,7 +294,7 @@ Let $b$ and $c$ be two ideals of $A$, such that $A = b + c$ and $b \cap c = q$. 
 
 Now suppose that $A$ is a principal ideal domain; by VII, p. 2, Prop. 2, the prime ideals of $A$ are the ideals $(p)$, where $p$ is an irreducible element of $A$, and the ideal $0$; by the previous proposition, the modules $A$ and $A/(p^n)$, for $p$ irreducible and $n > 0$, are indecomposable. Since every cyclic module is a direct sum of modules of this type (VII, p. 3, Prop. 4) and since every finitely generated $A$-module is a direct sum of cyclic modules (VII, p. 19, Th. 2), we deduce:
 
-#### Proposition 8 {#alg-vii-s4-prop-8 .statement}
+#### Proposition 8 {#alg-vii-s4-prop-8 .statement tag=074E}
 
 — Let $A$ be a principal ideal domain and let $M$ be a finitely generated $A$-module.
 
@@ -304,27 +304,27 @@ b) $M$ is a direct sum of a finite family of indecomposable submodules.
 
 Part b) of the above proposition can be made more precise as follows:
 
-#### Proposition 9 {#alg-vii-s4-prop-9 .statement}
+#### Proposition 9 {#alg-vii-s4-prop-9 .statement tag=074F}
 
 — Let $A$ be a principal ideal domain, let $P$ be a system of representatives of irreducible elements of $A$ and let $M$ be a finitely generated $A$-module. Then there exist positive integers $m(0)$ and $m(p^n)$ ($p \in P, n > 0$), uniquely determined by $M$ and zero except for finitely many of them, such that $M$ is isomorphic to the direct sum of $A^{m(0)}$ and the $(A/(p^n))^{m(p^n)}$ ($p \in P, n > 0$).
 
 The existence of the integers $m(0)$ and $m(p^n)$ ($p \in P, n > 0$) follows from Prop. 8. The integer $m(0)$ is uniquely determined: it is the rank of the free module which is the quotient of $M$ by its torsion submodule. Finally, the $p$-primary component of $M$ is isomorphic to the direct sum of the $(A/(p^n))^{m(p^n)}$; since the family of ideals $(p^n)$ ($n \geq 1$) is totally ordered by inclusion, the uniqueness of the $m(p^n)$ follows from the Cor. to Prop. 2 of VII, p. 16.
 
-#### Definition 4 {#alg-vii-s4-def-4 .statement}
+#### Definition 4 {#alg-vii-s4-def-4 .statement tag=074G}
 
 — In the notation of Prop. 9, those ideals $(p^n)$ ($p \in P, n \geq 1$ an integer) such that $m(p^n) > 0$ are called the elementary divisors of the module $M$, and the integers $m(p^n)$ are called their multiplicities; if the integer $m(0)$ is $> 0$, it is called the multiplicity of the elementary divisor 0.
 
 As for the invariant factors (VII, p. 19, Def. 1), when $A = \mathbf{Z}$ or $A = K[X]$ (K a commutative field), then the canonical generator of the ideal $(p^n)$ (a positive integer or a monic polynomial) is also called, by abuse of language, an elementary divisor of the finitely generated module $M$.
 
-#### Remark 1 {#alg-vii-s4-n8-rem-1 .statement}
+#### Remark 1 {#alg-vii-s4-n8-rem-1 .statement tag=074H}
 
 If $M$ is a finite abelian group, then its structure can be described by writing down its elementary divisors, each repeated as often as its multiplicity. We will say, for example, that $M$ is « of type $(2, 2, 4, 27, 27, 25)$ » (or that it is « a group $(2, 2, 4, 27, 27, 25)$ ») if it is isomorphic to the product of two groups $\mathbf{Z}/(2)$, one group $\mathbf{Z}/(2^2)$, two groups $\mathbf{Z}/(3^3)$ and one group $\mathbf{Z}/(5^2)$.
 
-#### Remark 2 {#alg-vii-s4-n8-rem-2 .statement}
+#### Remark 2 {#alg-vii-s4-n8-rem-2 .statement tag=074I}
 
 If a finitely generated torsion module $M$ over a principal ideal domain $A$ is given as a direct sum of cyclic modules isomorphic to $A/(a_i)$ (in particular if the invariant factors of $M$ are known), then the elementary divisors of $M$, and their multiplicities, can be determined by noticing that $A/(a)$ is isomorphic to the product of the $A/(p^{n(p)})$, where $a = e \prod_{p \in P} p^{n(p)}$ is the decomposition of $a$ into irreducible factors ($VII$, p. 3). Let us study for example the multiplicative group $G(464\ 600)$, where $G(n)$ denotes the multiplicative group $(\mathbf{Z}/n\mathbf{Z})^*$ ($VII$, p. 12). Since $464\ 600 = 2^3 \cdot 5 \cdot 23 \cdot 101$, this group is isomorphic to the product of the groups $G(2^3)$, $G(5^2)$, $G(23)$ and $G(101)$ ($VII$, p. 13, Th. 3); now the last three groups are cyclic of orders 20, 22 and 100, and $G(2^3)$ is the product of two cyclic groups of order 2 (\emph{loc. cit.}); since $20 = 2^2 \cdot 5$, $22 = 2 \cdot 11$ and $100 = 2' \cdot 5^2$, the group $G(464\ 600)$ is of type $(2, 2, 2, 2^2, 2^2, 2^2, 5, 5^2, 11)$.
 
-#### Remark 3 {#alg-vii-s4-n8-rem-3 .statement}
+#### Remark 3 {#alg-vii-s4-n8-rem-3 .statement tag=074J}
 
 To calculate the invariant factors of a torsion module whose elementary divisors are known, we again lean on the fact that, if the $a_i$ are pairwise coprime elements of $A$, then the product $\prod A/(a_i)$ is a cyclic module isomorphic to $A/(a_1 a_2 ... a_n)$ ($VII$, p. 3, Prop. 4). Let us illustrate the method by looking at the example of the group $G(464\ 600) = M$: write the elementary divisors $p^n$ of $M$ which are powers of the same irreducible $p$ on the same line, beginning with those of greatest exponent; extend these lines to lines of equal length by putting in 1's where necessary:
 
@@ -338,7 +338,7 @@ $$
 
 Then the invariant factors are the products of elements in the same column: $1100, 20, 2, 2, 2$. Indeed $M$ is isomorphic to a product of cyclic groups of orders 1100, 20, 2, 2, 2 by Prop. 4 of $VII$, p. 3; since each of these orders is a multiple of the next, these are the invariant factors of $M$ ($VII$, p. 22, Th. 3).
 
-#### Remark 4 {#alg-vii-s4-n8-rem-4 .statement}
+#### Remark 4 {#alg-vii-s4-n8-rem-4 .statement tag=074K}
 
 An $A$-module is called simple ($I$, p. 37) if it is nonzero and has no submodules other than itself and $0$; it is then necessarily cyclic, so finitely generated, and indecomposable; since the modules $A/(p^n)$ are not simple for $n \neq 1$, while the modules $A/(p)$ are, and since $A$ is simple only if the ring $A$ is a field, we deduce that the simple $A$-modules are:
 a) free modules of rank 1, when $A$ is a field;
@@ -362,17 +362,17 @@ $$
 
 such that $\langle x', c_M(x) \rangle = \langle x, x' \rangle$ for $x \in M$ and $x' \in D(M)$.
 
-#### Proposition 10 {#alg-vii-s4-prop-10 .statement}
+#### Proposition 10 {#alg-vii-s4-prop-10 .statement tag=074L}
 
 — If *M is an A-module of finite length, then $D(M)$ is* (in general non-naturally) *isomorphic to M, and the canonical map $c_M : M \to D(D(M))$ is an isomorphism.*
 Using VII, p. *19*, Th. 2 and **II**, p. 203, Cor. 1, we reduce to the case where $M$ is cyclic. Thus we may suppose that $M = A/tA$ with $t \neq 0$. Note that any homomorphism $u : A/tA \to K/A$ is completely determined by the image $\xi \in K/A$ under $u$ of the class $\varepsilon$ of *1* mod $tA$, and this element must satisfy the relation $t\xi = 0$ ; conversely, for any $\xi \in K/A$ such that $t\xi = 0$, there exists a homomorphism $u : A/tA \to K/A$ such that $u(\varepsilon) = \xi$. It follows that $D(M)$ is isomorphic to $t^{-1}A/A$, and since the homothety by $t$ is a bijection on K, we also have $D(M)$ isomorphic to $A/tA$, which proves the first assertion. This proves that $M$ and $D(D(M))$ are isomorphic, so have the same length ; on the other hand $c_M$ is injective, for if $y \in A$ is such that the relation $tz \in A$ (for $z \in K$) implies $yz \in A$, then taking $z = t^{-1}$ we have $y \in tA$. It follows that the image $c_M(M)$ is necessarily equal to $D(D(M))$.
 
-#### Corollary {#alg-vii-s4-n9-cor-1 .statement}
+#### Corollary {#alg-vii-s4-n9-cor-1 .statement tag=074M}
 
 — *Let M, N be two A-modules of finite length, and let $\varphi$ be an A-bilinear map from $M \times N$ into $K/A$, such that : 1) the relation $\varphi(x, y) = 0$ for all $y \in N$ implies $x = 0$ ; and 2) the relation $\varphi(x, y) = 0$ for all $x \in M$ implies $y = 0$. Then the A-linear maps $s_\varphi : M \to D(N)$ and $d_\varphi : N \to D(M)$ associated to $\varphi$ are isomorphisms.*
 Indeed the hypotheses on $\varphi$ mean that $s_\varphi$ and $d_\varphi$ are *injective* and since $\mathrm{long}(D(N)) = \mathrm{long}(N)$ and $\mathrm{long}(D(M)) = \mathrm{long}(M)$ by Prop. *10*, this implies that $\mathrm{long}(M) = \mathrm{long}(N)$, and consequently $s_\varphi$ and $d_\varphi$ are bijective.
 
-#### Proposition 11 {#alg-vii-s4-prop-11 .statement}
+#### Proposition 11 {#alg-vii-s4-prop-11 .statement tag=074N}
 
 — *If $M' \xrightarrow{u} M \xrightarrow{v} M''$ is an exact sequence of A-modules of finite length, then the sequence $D(M'') \xrightarrow{D(v)} D(M) \xrightarrow{D(u)} D(M')$ is exact* [^1].
 
@@ -413,7 +413,7 @@ This implies immediately that if $u : M' \to M$ is injective, then $D(u) : D(M) 
 
 For every A-module M, let $\mathfrak{S}(M)$ denote the set of submodules of M. For every submodule N of M (resp. every submodule N' of D(M)), let $N^0$ (resp. ${N'}^0$) denote the submodule of $D(M)$ (resp. M) consisting of those $x' \in D(M)$ (resp. $x \in M$) such that $(y, x') = 0$ for all $y \in N$ (resp. $(x, y') = 0$ for all $y' \in N'$).
 
-#### Proposition 12 {#alg-vii-s4-prop-12 .statement}
+#### Proposition 12 {#alg-vii-s4-prop-12 .statement tag=074O}
 
 *Let M be an A-module of finite length. Then the map which sends every submodule N of M to $N^0$ is a bijection from $\mathfrak{S}(M)$ onto $\mathfrak{S}(D(M))$, and the inverse bijection sends every submodule N' of D(M) to the submodule ${N'}^0$ of M; the module $D(N)$ is naturally identified with $D(M)/N^0$ and $D(M/N)$ with $N^0$. Moreover, we have*
 
@@ -444,11 +444,11 @@ $$
 
 in addition it is clear that $N \subset N^{00}$, so $N^{00} = N$. Furthermore the first relation in (2) is obvious, and by applying it to the submodules $N_1^0$ and $N_2^0$ of $D(M)$, we have $(N_1^0 + N_2^0)^0 = N_1 \cap N_2$, so $N_1^0 + N_2^0 = (N_1^0 + N_2^0)^{00} = (N_1 \cap N_2)^0$. This completes the proof of the proposition.
 
-#### Example 1 {#alg-vii-s4-n9-exa-1 .statement}
+#### Example 1 {#alg-vii-s4-n9-exa-1 .statement tag=074P}
 
 For $A = \mathbf{Z}$, the $\mathbf{Z}$-modules of finite length are precisely the finite abelian groups; then $K = \mathbf{Q}$, so $K/A = \mathbf{Q}/\mathbf{Z}$. Then to define $D(M)$, we sometimes take, instead of $\mathbf{Q}/\mathbf{Z}$, a $\mathbf{Z}$-module isomorphic to it, such as (V, p. 79, Prop. 2) the group $R$ of roots of unity (under multiplication) in an algebraically closed field of characteristic 0 ; we then put $D(M) = \operatorname{Hom}_{\mathbf{Z}}(M, R)$. We leave the reader to rewrite the preceeding results for this special case in the corresponding notation.
 
-#### Example 2 {#alg-vii-s4-n9-exa-2 .statement}
+#### Example 2 {#alg-vii-s4-n9-exa-2 .statement tag=074Q}
 
 Let $a$ be a nonzero element of $A$. The map $x \mapsto x/a$ from $A$ into $K$ induces an isomorphism on quotient modules from $A/(a)$ onto the submodule $(K/A)(a)$ of $K/A$ consisting of elements annihilated by $a$. If $M$ is an $A$-module annihilated by $a$, or equivalently an $A/(a)$-module, then the $A$-module $D(M)$ is identified with $\operatorname{Hom}_{A/(a)}(M, A/(a))$. We leave the reader to rewrite the preceding results for this special case in the corresponding notation (cf. V, p. 86).
 

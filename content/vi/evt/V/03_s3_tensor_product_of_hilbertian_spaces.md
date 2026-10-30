@@ -33,7 +33,7 @@ subsections:
       pdf_page: 293
 statements: 20
 exercises: 23
-content_sha256: 5d2ced79edef242a18a9fc99b8e5db2ff32dfece6471c04786f10ff6e5894468
+content_sha256: 76b703e73ec88b68368bccb67e975b5cee36448b6f82513d1def1e9662e78cc6
 translated_from: content/en/evt/V/03_s3_tensor_product_of_hilbertian_spaces.md
 source_content_sha256: 5320ca96d0fbf7d2dfb98223ff4c96d227dcf10d109366278dc53f396956465c
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
@@ -61,7 +61,7 @@ $$
 $$
 (xem A, IX, § 1, No. 11).
 
-#### Mệnh đề 1 {#evt-v-s3-prop-1 .statement}
+#### Mệnh đề 1 {#evt-v-s3-prop-1 .statement tag=080B}
 
 — Dạng nửa tuyến tính $\Phi$ trên $E_1 \otimes E_2$ là Hermit và dương, do đó gán cấu trúc của một không gian tiền Hilbert cho $E_1 \otimes E_2$. Không gian này là Hausdorff nếu $E_1$ và $E_2$ là Hausdorff.
 
@@ -93,7 +93,7 @@ suy ra ánh xạ song tuyến tính $(x_1, x_2) \mapsto x_1 \otimes x_2$ từ $E
 
 Với $i = 1, 2$ cho $F_i$ là một không gian con vectơ của $E_i$, được trang bị cấu trúc prehilbert cảm sinh. Khi đó $F_1 \otimes F_2$ có thể được đồng nhất với một không gian con vectơ của $E_1 \otimes E_2$ (A, II, § 7, No. 7). Công thức (4) chỉ ra rằng $F_1 \otimes F_2$ với cấu trúc không gian prehilbert cảm sinh bởi cấu trúc của $E_1 \otimes_2 E_2$, chính là $F_1 \otimes_2 F_2$. Từ nay về sau ta sẽ đồng nhất $F_1 \otimes_2 F_2$ với một không gian con prehilbert của $E_1 \otimes_2 E_2$.
 
-#### Mệnh đề 2 {#evt-v-s3-prop-2 .statement}
+#### Mệnh đề 2 {#evt-v-s3-prop-2 .statement tag=080C}
 
 *Với $i = 1, 2$, cho $E_i$ và $F_i$ là hai không gian prehilbert Hausdorff và cho $u_i \in \mathscr{L}(E_i; F_i)$. Ánh xạ tuyến tính $u_1 \otimes u_2$ từ $E_1 \otimes_2 E_2$ vào $F_1 \otimes_2 F_2$ là liên tục và ta có*
 $$
@@ -168,7 +168,7 @@ $^1$ Ở đây một lần nữa ta đặt $\|z\|_2 = \langle z|z \rangle^{1/2}$
 
 ### 2. Tích tenxơ Hilbert của các không gian Hilbert
 
-#### Định nghĩa 1 {#evt-v-s3-def-1 .statement}
+#### Định nghĩa 1 {#evt-v-s3-def-1 .statement tag=080D}
 
 Cho $E_1, ..., E_n$ là các không gian hilbert. *Phép hoàn thiện của không gian tiền hilbert Hausdorff* $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ *được gọi là* tích tenxơ hilbert của các $E_i$ và được ký hiệu bởi $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ (hoặc $\hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i$).
 
@@ -192,11 +192,11 @@ $$
 
 Ta để cho người đọc nhiệm vụ phát biểu « tính giao hoán » và « tính kết hợp » của tích tenxơ hilbert, tương tự như điều đã nói ở trên đối với các không gian tiền hilbert.
 
-#### Nhận xét {#evt-v-s3-n2-rem-1 .statement}
+#### Nhận xét {#evt-v-s3-n2-rem-1 .statement tag=080E}
 
 Cho $E_1, ..., E_n$ là các không gian tiền hilbert Hausdorff, và $\hat{E}_1, ..., \hat{E}_n$ là các phần hoàn thiện tương ứng của chúng. Khi đó $E_1 \otimes_2 ... \otimes_2 E_n$ là một không gian con tiền hilbert của $\hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n$. Vì ánh xạ $(x_1, ..., x_n) \mapsto x_1 \otimes ... \otimes x_n$ từ $\hat{E}_1 \times ... \times \hat{E}_n$ vào $\hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n$ là liên tục, nên $E_1 \otimes_2 ... \otimes_2 E_n$ là trù mật trong $\hat{E}_1 \otimes_2 ... \otimes_2 \hat{E}_n$. *A fortiori* phần hoàn thiện của $E_1 \otimes_2 ... \otimes_2 E_n$ chính xác là không gian hilbert $\hat{E}_1 \hat{\otimes}_2 ... \hat{\otimes}_2 \hat{E}_n$. Phần hoàn thiện này đôi khi được viết đơn giản là $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ (hoặc $\hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i$).
 
-#### Mệnh đề 3 {#evt-v-s3-prop-3 .statement}
+#### Mệnh đề 3 {#evt-v-s3-prop-3 .statement tag=080F}
 
 Cho $E_1, ..., E_n$ là các không gian hilbert. Giả sử rằng với $1 \leq i \leq n$ không gian $E_i$ là một tổng hilbert của một họ $(E_{i,\alpha})_{\alpha \in A(i)}$ các không gian con vectơ đóng. Khi đó $E_1 \otimes_2 ... \otimes_2 E_n$ là một tổng hilbert của họ các không gian con $E_{1,\alpha_1} \hat{\otimes}_2 ... \hat{\otimes}_2 E_{n,\alpha_n}$ với $(\alpha_1, ..., \alpha_n)$ chạy trên $A(1) \times ... \times A(n)$.
 
@@ -204,21 +204,21 @@ Theo công thức (6) của V, p. 27, các không gian con $E_{1,\alpha_1} \hat{
 
 Suy ra rằng hợp của các không gian con $E_{1,\alpha_1} \hat{\otimes}_2 ... \hat{\otimes}_2 E_{n,\alpha_n}$ là toàn thể, do đó prop. 3.
 
-#### Hệ quả 1 {#evt-v-s3-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#evt-v-s3-prop-3-cor-1 .statement tag=080G}
 
 — Với $1 \leq i \leq n$, cho $(e_{i,\alpha})_{\alpha \in A(i)}$ là một cơ sở trực chuẩn của $E_i$. Khi đó họ các vectơ $e_{1,\alpha_1} \otimes \ldots \otimes e_{n,\alpha_n}$ khi $(\alpha_1, \ldots, \alpha_n)$ chạy trên $A(1) \times \cdots \times A(n)$ là một cơ sở trực chuẩn của $E_1 \hat{\otimes}_2 \ldots \hat{\otimes}_2 E_n$.
 
-#### Hệ quả 2 {#evt-v-s3-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#evt-v-s3-prop-3-cor-2 .statement tag=080H}
 
 — Cho $E_1$ và $E_2$ là hai không gian Hilbert, và $(e_i)_{i \in I}$ là một cơ sở trực chuẩn của $E_1$. Cho $(y_i)_{i \in I}$ là một họ các phần tử của $E_2$, sao cho $\sum_{i \in I} \| y_i \| ^2 < + \infty$. Khi đó họ $(e_i \otimes y_i)_{i \in I}$ là khả tổng trong $E_1 \hat{\otimes}_2 E_2$; hơn nữa, mọi phần tử của $E_1 \otimes E_2$ có thể được viết duy nhất dưới dạng $\sum_{i \in I} e_i \otimes y_i$ với $\sum_{i \in I} \| y_i \| ^2 < + \infty$.
 
 Cho $F_i$ là đường thẳng trong $E_1$ sinh bởi các $e_i$ ($i \in I$). Khi đó $E_1$ là tổng Hilbert của họ các không gian con $(F_i)_{i \in I}$. Theo Mệnh đề 3, không gian $E_1 \hat{\otimes}_2 E_2$ là tổng Hilbert của họ các không gian con $(F_i \hat{\otimes}_2 E_2)_{i \in I}$, do đó Hệ quả 2 được suy ra.
 
-#### Ví dụ 1 {#evt-v-s3-n2-exa-1 .statement}
+#### Ví dụ 1 {#evt-v-s3-n2-exa-1 .statement tag=080I}
 
 Theo Hệ quả 1, không gian $\ell^2(I) \hat{\otimes}_2 \ell^2(J)$ đẳng cấu chính tắc với $\ell^2(I \times J)$, tích tenxơ $x \otimes y$ của $x = (x_i)_{i \in I}$ và $y = (y_j)_{j \in J}$ có thể được đồng nhất với họ $(x_i y_j)_{i \in I, j \in J}$. Tương tự, theo Hệ quả 2, $\ell^2(I) \hat{\otimes}_2 E$ có thể được đồng nhất với $\ell^2_E(I)$, sao cho ta có $(x_i)_{i \in I} \otimes y = (x_i y)_{i \in I}$ với mọi $y$ trong không gian Hilbert $E$.
 
-#### Ví dụ 2 {#evt-v-s3-n2-exa-2 .statement}
+#### Ví dụ 2 {#evt-v-s3-n2-exa-2 .statement tag=080J}
 
 Cho $X$ là một không gian tôpô Hausdorff, và $\mu$ là một độ đo dương trên $X$. Cho $E$ là một không gian Hilbert. Ta có thể đồng nhất $L^2(X, \mu) \hat{\otimes}_2 E$ với $L^2_E(X, \mu)$ một cách chính tắc : nếu $f$ là lớp của hàm vô hướng khả tích bình phương $f$ trên $X$, và nếu $a$ thuộc $E$, thì $f \otimes a$ là lớp của hàm $x \mapsto f(x).a$ với các giá trị trong $E$.
 
@@ -270,7 +270,7 @@ $$
 
 Ký hiệu $\hat{\mathbf{S}}^n(E)$ là sự hoàn thiện của không gian tiền Hilbert $\mathbf{S}^n(E)$ và $\hat{\mathbf{S}}(E)$ là tổng Hilbert ngoài của các không gian Hilbert $\hat{\mathbf{S}}^n(E)$. Ta có thể chứng minh (V, p. 73, bài tập 1) rằng phép nhân trong đại số $\mathbf{S}(E)$ không thể được mở rộng liên tục đến $\mathbf{S}(E)$, trừ khi $E$ chỉ là 0.
 
-#### Mệnh đề 4 {#evt-v-s3-prop-4 .statement}
+#### Mệnh đề 4 {#evt-v-s3-prop-4 .statement tag=080K}
 
 *Cho $(e_i)_{i \in I}$ là một cơ sở trực chuẩn của không gian Hilbert $E$. Với mọi $\alpha$ trong $\mathbf{N}^{(I)}$, đặt*
 
@@ -293,7 +293,7 @@ khi $|\alpha| = \sum_{i \in I} \alpha_i$ và $|\beta| = \sum_{i \in I} \beta_i$ 
 
 Xét một phân hoạch $(P_i)_{i \in I}$ của tập hợp $\{ 1, 2, ..., n \}$ sao cho Card $P_i = \alpha_i$ với mọi $i \in I$. Đặt $x_k = e_i$ nếu $k$ thuộc $P_i$, khi đó $x_1 ... x_n = \prod_{i \in I} e_i^{\alpha_i}$. Tương tự ta định nghĩa $(Q_i)_{i \in I}$ và $y_k$ sao cho Card $Q_i = \beta_i$ và $y_1 ... y_n = \prod_{i \in I} e_i^{\beta_i}$. Vì các $e_i$ đôi một trực giao, ta có $\langle x_k | y_{\sigma(k)} \rangle = 0$ trừ khi tồn tại một chỉ số $i \in I$ sao cho $k \in P_i$ và $\sigma(k) \in Q_i$. Theo công thức (15), khi đó ta có $\langle x_1 ... x_n | y_1 ... y_n \rangle = 0$ trừ khi tồn tại một phép hoán vị $\sigma \in \mathfrak{S}_n$ sao cho $\sigma(P_i) = Q_i$ với mọi $i \in I$, điều này suy ra $\alpha = \beta$. Khi đó $\langle z_\alpha | z_\beta \rangle = 0$ đối với $\alpha \neq \beta$. Cùng một lập luận chứng minh rằng $\| x_1 ... x_n \| ^2$ bằng số các $\sigma \in \mathfrak{S}_n$ sao cho $\sigma(P_i) = P_i$ với mọi $i \in I$, do đó bằng $\prod_{i \in I} \alpha_i !$. Ta được $\| z_\alpha \| = 1$, và mệnh đề được chứng minh.
 
-#### Hệ quả {#evt-v-s3-n3-cor-1 .statement}
+#### Hệ quả {#evt-v-s3-n3-cor-1 .statement tag=080L}
 
 — *Giả sử rằng không gian hilbert E là tổng trực tiếp của các không gian con trực giao M và N. Đẳng cấu chính tắc g từ $S(M) \otimes S(N)$ lên $S(E)$ (A, III, § 6, No. 6) mở rộng duy nhất thành một đẳng cấu không gian hilbert h từ $\hat{S}(M) \hat{\otimes}_2 \hat{S}(N)$ lên $\hat{S}(E)$.
 
@@ -352,7 +352,7 @@ $$
 
 Cuối cùng, $\hat{S}^n(u)$ trùng với trên $S^n(E)$ với ánh xạ tuyến tính $S^n(u) : S^n(E) \to S^n(F)$ được định nghĩa trong A, III, § 6, No. 2 vì nó biến $x_1 ... x_n$ thành $u(x_1) ... u(x_n)$ với mọi $x_1, ..., x_n$ trong $E$.
 
-#### Ví dụ 1 {#evt-v-s3-n3-exa-1 .statement}
+#### Ví dụ 1 {#evt-v-s3-n3-exa-1 .statement tag=080M}
 
 Cho $d \geq 1$ là một số nguyên và $\omega$ là một hàm dương trên $\mathbf{R}^d$, khả tích địa phương đối với độ đo Lebesgue $\mu$. Cho $E$ là không gian Hilbert $L^2(\mathbf{R}^d, \omega.\mu)$, và đặt $S = S(E)$. Khi đó $S$ có thể được đồng nhất với không gian của mọi dãy $f = (f_n)_{n \geq 0}$, trong đó mỗi $f_n$ là một hàm trên $(\mathbf{R}^d)^n$ đo được đối với độ đo Lebesgue $\mu \otimes ... \otimes \mu$ ($n$ thừa số) và *bất biến* dưới các hoán vị của $n$ thừa số trong $(\mathbf{R}^d)^n$, và sao cho
 
@@ -362,7 +362,7 @@ $$
 
 là hữu hạn. Chuẩn $\| f \|$ trong $S$ được định nghĩa bởi công thức (22). Không gian Hilbert $S$ được định nghĩa ở trên được gọi là *không gian Fock đối xứng* tương ứng với *trọng số* $\omega$.
 
-#### Ví dụ 2 {#evt-v-s3-n3-exa-2 .statement}
+#### Ví dụ 2 {#evt-v-s3-n3-exa-2 .statement tag=080N}
 
 Cho $X$ là một không gian tôpô Hausdorff, $\mu$ là một độ đo dương có chuẩn 1 trên $X$ và $E$ là một không gian con Hilbert của không gian Hilbert thực $L^2_{\mathbf{R}}(X, \mu)$. Ta nói rằng $E$ là một *không gian gaussian* nếu các điều kiện tương đương sau được thỏa mãn :
 
@@ -409,7 +409,7 @@ với mọi $x_1, ..., x_n$ và $y_1, ..., y_n$ trong E.
 
 Ký hiệu $\hat{\Lambda}^n(E)$ là sự hoàn tất của không gian tiền Hilbert $\Lambda^n(E)$, và $\hat{\Lambda}(E)$ là tổng Hilbert ngoài của các không gian Hilbert $\hat{\Lambda}^n(E)$.
 
-#### Ví dụ {#evt-v-s3-n4-exa-1 .statement}
+#### Ví dụ {#evt-v-s3-n4-exa-1 .statement tag=080O}
 
 — *Với các ký hiệu của ví dụ 1 của V, p. 32, ta có thể đồng nhất không gian Hilbert* $\hat{\Lambda}(E)$ *với tập hợp tất cả các dãy* $(f_n)_{n \geq 0}$ *các hàm đo được sao cho số* $\|f\|$ *được định nghĩa trong* (22) *là hữu hạn, và trong đó mỗi hàm* $f_n$ *là phản đối xứng*, *nghĩa là, thỏa mãn quan hệ*
 
@@ -419,7 +419,7 @@ $$
 
 *với mọi phép hoán vị* $\sigma \in \mathfrak{S}_n$. *Không gian Hilbert* $\hat{\Lambda}(E)$ *được gọi là không gian Fock phản đối xứng tương ứng với* *trọng số* $\omega$. \*
 
-#### Mệnh đề 5 {#evt-v-s3-prop-5 .statement}
+#### Mệnh đề 5 {#evt-v-s3-prop-5 .statement tag=080P}
 
 *Cho* $(e_i)_{i \in I}$ *là một cơ sở trực chuẩn của không gian Hilbert* E. *Trang bị cho* I *một cấu trúc được sắp thứ tự toàn phần. Khi đó tập hợp tất cả các phần tử* $e_{i_1} \wedge ... \wedge e_{i_n}$ *với* $i_1 < ... < i_n$ *là một cơ sở trực chuẩn của* $\hat{\Lambda}^n(E)$.
 
@@ -427,7 +427,7 @@ Ta biết (A, III, § 7, No. 8) rằng các phần tử đang xét tạo thành 
 
 Nhưng $E_0$ trù mật trong E, và ánh xạ $(x_1, ..., x_n) \mapsto x_1 \wedge ... \wedge x_n$ từ $E \times \cdots \times E$ vào $\Lambda^n(E)$ là liên tục. Do đó, $\Lambda^n(E_0)$ trù mật trong $\Lambda^n(E)$, và mệnh đề 5 được suy ra.
 
-#### Hệ quả {#evt-v-s3-n4-cor-1 .statement}
+#### Hệ quả {#evt-v-s3-n4-cor-1 .statement tag=080Q}
 
 *Giả sử không gian Hilbert* E *là tổng trực tiếp của hai không gian con trực giao* M *và* N. *Đẳng cấu chính tắc* g *từ* $\Lambda(M) \otimes \Lambda(N)$ *lên* $\Lambda(E)$ *(A, III, § 7, No. 7)* *mở rộng một cách duy nhất thành một đẳng cấu không gian Hilbert từ* $\hat{\Lambda}(M) \hat{\otimes}_2 \hat{\Lambda}(N)$ *lên* $\hat{\Lambda}(E)$.
 
@@ -473,7 +473,7 @@ $$
 
 Do đó, ánh xạ $(u, v) \mapsto u \wedge v$ mở rộng theo tính liên tục thành một ánh xạ song tuyến tính từ $\hat{\Lambda}^p(E) \times \hat{\Lambda}^q(E)$ vào $\hat{\Lambda}^{p+q}(E)$, với chuẩn không vượt quá $\left( \frac{(p+q)!}{p! \ q!} \right)^{1/2}$ (xem V, p. 73, bài tập 2). Ta lại ký hiệu nó bởi $(u, v) \mapsto u \wedge v$.
 
-#### Mệnh đề 6 {#evt-v-s3-prop-6 .statement}
+#### Mệnh đề 6 {#evt-v-s3-prop-6 .statement tag=080R}
 
 *Cho E là một không gian Hilbert. Ta có*
 
@@ -487,7 +487,7 @@ Rõ ràng chỉ cần xét trường hợp $\| x \| = 1$.
 
 Cho F là không gian con Hilbert của E gồm tất cả các vectơ vuông góc với x. Vì E là tổng Hilbert của F và đường thẳng K.x, suy ra từ hệ quả của V, p. 34 rằng ánh xạ $(v, w) \mapsto v + x \wedge w$ là một đẳng cấu không gian Hilbert từ $\hat{\Lambda}(F) \oplus \hat{\Lambda}(F)$ lên $\hat{\Lambda}(E)$. Nếu $u = v + x \wedge w$ với $v, w$ trong $\hat{\Lambda}(F)$, ta có $x \wedge u = x \wedge v$, do đó $\| x \wedge u \| = \| v \| \leq (\| v \|^2 + \| w \|^2)^{1/2} = \| u \|$.
 
-#### Hệ quả 1 {#evt-v-s3-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#evt-v-s3-prop-6-cor-1 .statement tag=080S}
 
 *a)* *Cho* $x_1, \ldots, x_n$ *là các phần tử của không gian Hilbert* E. *Ta có*
 
@@ -538,7 +538,7 @@ Giả sử rằng các vectơ $x_i$ và các vectơ $y_i$ đều không bằng 0
 
 Theo phần đầu của chứng minh, các đẳng thức (38) suy ra rằng mỗi dãy $(x_1, ..., x_n)$ và $(y_1, ..., y_n)$ đều trực giao, điều này lại suy ra rằng $x_1 \wedge ... \wedge x_n \neq 0$ và $y_1 \wedge ... \wedge y_n \neq 0$. Trong các điều kiện này, quan hệ (37) suy ra rằng tồn tại một vô hướng $\lambda \neq 0$ sao cho $y_1 \wedge ... \wedge y_n = \lambda x_1 \wedge ... \wedge x_n$ (V, p. 3, Nhận xét 1); nói cách khác, $(x_1, ..., x_n)$ và $(y_1, ..., y_n)$ là các cơ sở của cùng một không gian con vectơ của E (A, III, § 11, No. 13).
 
-#### Hệ quả 2 {#evt-v-s3-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#evt-v-s3-prop-6-cor-2 .statement tag=080T}
 
 — Cho $(a_{ij})_{1 \leq i,j \leq n}$ là một ma trận Hermit, với các phần tử phức, và có định thức D. Giả sử rằng bất đẳng thức
 
@@ -566,7 +566,7 @@ Trước hết giả sử rằng $\Phi$ là phân biệt, tức là D khác khô
 
 Vì $a_{ii} = \Phi(e_i, e_i) \geq 0$, ta cũng có bất đẳng thức (40) nếu $D = 0$.
 
-#### Hệ quả 3 (« các bất đẳng thức của Hadamard ») {#evt-v-s3-prop-6-cor-3 .statement}
+#### Hệ quả 3 (« các bất đẳng thức của Hadamard ») {#evt-v-s3-prop-6-cor-3 .statement tag=080U}
 
 — Cho $(a_{ij})_{1 \leq i, j \leq n}$ là một ma trận có phần tử phức, và có định thức D. Đặt
 

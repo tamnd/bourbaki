@@ -36,7 +36,7 @@ subsections:
       pdf_page: 269
 statements: 27
 exercises: 8
-content_sha256: 8d3d3e6b4159f267d135b563c688a05fd9d180921fdd1771d5f01117e603d7a5
+content_sha256: 3e41b683ed7e5f6ac0c609778f85bcdeda4d740f822a8dcc44d797cb9ea6dd19
 ---
 
 ## § 4. Relèvement dans les anneaux complets.
@@ -45,7 +45,7 @@ content_sha256: 8d3d3e6b4159f267d135b563c688a05fd9d180921fdd1771d5f01117e603d7a5
 
 Soit $R$ un anneau commutatif. On dit que deux éléments $x, y$ de $R$ sont fortement étrangers si les idéaux principaux $Rx$ et $Ry$ sont étrangers, autrement dit (chap. II, § 1, no 2) si $Rx + Ry = R$; il revient au même de dire qu’il existe deux éléments $a, b$ de $R$ tels que $ax + by = 1$.
 
-#### Lemme 1 (« lemme d’Euclide ») {#ac-iii-s4-lem-1 .statement}
+#### Lemme 1 (« lemme d’Euclide ») {#ac-iii-s4-lem-1 .statement tag=04HS}
 
 Soient x, y deux éléments fortement étrangers dans R ; si z ∈ R est tel que x divise yz, alors x divise z.
 
@@ -59,7 +59,7 @@ $$
 
 Dans les anneaux de polynômes, on a le résultat suivant :
 
-#### Proposition 1 {#ac-iii-s4-prop-1 .statement}
+#### Proposition 1 {#ac-iii-s4-prop-1 .statement tag=04HT}
 
 Soient A un anneau commutatif, P et P’ deux polynômes fortement étrangers dans A[X]. On suppose que P est unitaire et de degré s. Alors tout polynôme T dans A[X] s’écrit d’une manière et d’une seule sous la forme
 $$
@@ -92,7 +92,7 @@ s + \deg(Q) = \deg(PQ) = \deg(T - P'Q') \leq t
 $$
 d'où $\deg(Q) \leq t - s$.
 
-#### Exemple {#ac-iii-s4-n1-exa-1 .statement}
+#### Exemple {#ac-iii-s4-n1-exa-1 .statement tag=04HU}
 
 Pour qu'un polynôme $P \in A[X]$ soit fortement étranger à $X - a$ (où $a \in A$), il faut et il suffit que $P(a)$ soit *inversible* dans A. En effet, si P et $X - a$ sont fortement étrangers, il résulte de la prop. 1 qu'il existe $c \in A$ et un polynôme $Q \in A[X]$ tels que $cP + (X - a)Q = 1$, d'où $cP(a) = 1$ et $P(a)$ est inversible. Réciproquement, on a, par division euclidienne
 $$
@@ -102,7 +102,7 @@ et si $P(a) = b^{-1}$, où $b \in A$, on en déduit $1 = bP - b(X - a)R$, ce qui
 
 Soient A et B deux anneaux commutatifs, $f : A \to B$ un homomorphisme d'anneaux. Si $P = \sum_{i \geq 0} a_i X^i$ est une série formelle dans $A[[X]]$, on désignera par $\overline{f}(P)$ la série formelle $\sum_{i \geq 0} f(a_i) X^i$ dans $B[[X]]$. Si P est un polynôme, il en est de même de $\overline{f}(P)$, et si de plus P est unitaire, alors $\overline{f}(P)$ est unitaire de même degré que P. Enfin, il est clair que $P \to \overline{f}(P)$ est un homomorphisme de $A[[X]]$ dans $B[[X]]$ qui prolonge $f$ et applique X sur X. *La notation* $\overline{f}$ *sera constamment utilisée dans ce sens dans le reste de ce paragraphe.*
 
-#### Proposition 2 {#ac-iii-s4-prop-2 .statement}
+#### Proposition 2 {#ac-iii-s4-prop-2 .statement tag=04HV}
 
 Soient A et B deux anneaux commutatifs, f un homomorphisme de A dans B, P, P' deux polynômes dans A[X]. Si P et P' sont fortement étrangers dans A[X], alors $\bar{f}(P)$ et $\bar{f}(P')$ sont fortement étrangers dans B[X]. La réciproque est vraie si f est surjectif, si son noyau est contenu dans le radical de A, et si P est unitaire.
 
@@ -110,13 +110,13 @@ Supposons P et P' fortement étrangers ; il existe donc des polynômes Q, Q' dan
 
 ### 2. Séries formelles restreintes.
 
-#### Définition 1 {#ac-iii-s4-def-1 .statement}
+#### Définition 1 {#ac-iii-s4-def-1 .statement tag=04HW}
 
 On dit qu'un anneau topologique commutatif A est linéairement topologisé (et que sa topologie est linéaire) s'il existe un système fondamental $\mathscr{B}$ de voisinages de 0 formé d'idéaux de A.
 
 On notera que dans un tel anneau, les idéaux $\mathfrak{J} \in \mathscr{B}$ sont ouverts et fermés (Top. gén., chap. III, 3e éd., § 2, no 1, cor. de la prop. 4). Pour tout $\mathfrak{J} \in \mathscr{B}$, l'anneau topologique quotient $A/\mathfrak{J}$ est donc discret ; pour $\mathfrak{J} \in \mathscr{B}$, $\mathfrak{J}' \in \mathscr{B}$, $\mathfrak{J}' \subset \mathfrak{J}$, soit $h_{\mathfrak{J}\mathfrak{J}'} : A/\mathfrak{J}' \to A/\mathfrak{J}$ l'application canonique. On sait (Top. gén., chap. III, 3e éd., § 7, no 3) que $(A/\mathfrak{J}, f_{\mathfrak{J}\mathfrak{J}'})$ est un système projectif d'anneaux discrets (relatif à l'ensemble d'indices $\mathscr{B}$, ordonné filtrant par la relation $\supset$), dont la limite projective est un anneau topologique $\tilde{A}$ linéairement topologisé, séparé et complet ; en outre (loc. cit., prop. 2), on définit un morphisme strict $i : A \to \tilde{A}$, dont le noyau est l’adhérence de $\{0\}$ dans $A$, et l’image est partout dense dans $\tilde{A}$, de sorte que $\tilde{A}$ s’identifie canoniquement au séparé complété de $A$.
 
-#### Définition 2 {#ac-iii-s4-def-2 .statement}
+#### Définition 2 {#ac-iii-s4-def-2 .statement tag=04HX}
 
 Étant donné un anneau topologique commutatif $A$, on dit qu’une série formelle $T = \sum_{(n_i)} c_{n_1 n_2 \ldots n_p} X_1^{n_1} X_2^{n_2} \ldots X_p^{n_p}$ de l’anneau $A[[X_1, \ldots, X_p]]$ est restreinte si, pour tout voisinage $V$ de 0 dans $A$, il n’y a qu’un nombre fini de coefficients $c_{n_1 \ldots n_p}$ n’appartenant pas à $V$ (autrement dit, la famille $(c_{n_1 \ldots n_p})$ tend vers 0 dans $A$ suivant le filtre des complémentaires des parties finies de $\mathbf{N}^p$).
 
@@ -148,7 +148,7 @@ $$
 A' = \lim_{\leftarrow \mathfrak{J}} (A/\mathfrak{J})[X_1,...,X_p].
 $$
 
-#### Proposition 3 {#ac-iii-s4-prop-3 .statement}
+#### Proposition 3 {#ac-iii-s4-prop-3 .statement tag=04HY}
 
 Si l’anneau commutatif linéairement topologisé $A$ est séparé et complet, l’homomorphisme canonique $\pi$ est un isomorphisme d’anneaux topologiques.
 
@@ -164,7 +164,7 @@ $$
 $$
 comme $S_{\mathfrak{J}}$ est un polynôme, on voit que $\varphi_{n_1 \ldots n_p}(S) \in \mathfrak{J}$ sauf pour les $(n_1, \ldots, n_p)$ en nombre fini tels que $\varphi_{n_1 \ldots n_p}^{\mathfrak{J}}(S_{\mathfrak{J}}) \neq 0$, ce qui prouve notre première assertion ; la seconde résulte des définitions. Comme $A$ est séparé, l’intersection des $N_{\mathfrak{J}}$ est réduite à 0, donc $\pi$ est *bijectif*, ce qui achève la démonstration, puisque $\pi$ est un morphisme strict.
 
-#### Proposition 4 {#ac-iii-s4-prop-4 .statement}
+#### Proposition 4 {#ac-iii-s4-prop-4 .statement tag=04HZ}
 
 *Soient* $A, B$ *deux anneaux commutatifs linéairement topologisés*, $B$ *étant séparé et complet*, $u : A \to B$ *un homomorphisme continu*. *Pour toute famille* $b = (b_i)_{1 \leq i \leq p}$ *d’éléments de* $B$, *il existe un homomorphisme continu et un seul*
 $$
@@ -176,11 +176,11 @@ Il existe en effet un homomorphisme $v : A[X_1, \ldots, X_p] \to B$ et un seul t
 
 Dans le cas particulier où $A = B$ et où $u$ est l’application identique on écrira $f(b_1, \ldots, b_p)$ ou $f(b)$ la valeur de $\tilde{u}(f)$ pour toute série formelle restreinte $f \in A\{X_1, \ldots, X_p\}$.
 
-#### Remarque 1 {#ac-iii-s4-n2-rem-1 .statement}
+#### Remarque 1 {#ac-iii-s4-n2-rem-1 .statement tag=04I0}
 
 La prop. 4 prouve que pour tout idéal *fermé* $a$ d’un anneau $A$ supposé séparé et complet, les relations $b_i \in a$ pour $1 \leq i \leq p$ entraînent $f(b_1, \ldots, b_p) \in a$ pour toute série formelle restreinte $f \in A\{X_1, \ldots, X_p\}$.
 
-#### Remarque 2 {#ac-iii-s4-n2-rem-2 .statement}
+#### Remarque 2 {#ac-iii-s4-n2-rem-2 .statement tag=04I1}
 
 Supposons $A$ linéairement topologisé ; soit $r$ un entier tel que $1 \leq r \leq p$, et munissons l’anneau $A\{X_1, \ldots, X_r\}$ de la topologie définie ci-dessus. Alors l’anneau topologique $A\{X_1, ..., X_p\}$ s’identifie à l’anneau des séries formelles restreintes
 
@@ -190,7 +190,7 @@ $$
 
 comme il résulte aussitôt des définitions.
 
-#### Remarque 3 {#ac-iii-s4-n2-rem-3 .statement}
+#### Remarque 3 {#ac-iii-s4-n2-rem-3 .statement tag=04I2}
 
 Avec les notations de la Remarque 2, supposons en outre A séparé et complet, et écrivons toute série formelle restreinte $f \in A\{X_1, ..., X_p\}$ sous la forme
 
@@ -212,7 +212,7 @@ Dans un anneau topologique A, on dit qu’un élément $x$ est *topologiquement 
 
 On notera que si A est un anneau, m un idéal bilatère de A, les éléments de m sont topologiquement nilpotents pour la topologie *m-adique*.
 
-#### Théorème 1 (Hensel) {#ac-iii-s4-thm-1 .statement}
+#### Théorème 1 (Hensel) {#ac-iii-s4-thm-1 .statement tag=0CHE}
 
 Soit $A$ un anneau commutatif linéairement topologisé, séparé et complet. Soit $m$ un idéal fermé de $A$, dont les éléments sont topologiquement nilpotents. Soient $B = A/m$ l’anneau topologique quotient, $\varphi : A \to B$ l’application canonique. Soient $R$ une série formelle restreinte dans $A\{X\}$, $\overline{P}$ un polynôme unitaire dans $B[X]$, $\overline{Q}$ une série formelle restreinte dans $B\{X\}$. On suppose que $\overline{\varphi}(R) = \overline{P}.\overline{Q}$ et que $\overline{P}$ et $\overline{Q}$ soient fortement étrangers dans $B\{X\}$. Alors il existe un couple $(P, Q)$ et un seul formé d’un polynôme unitaire $P \in A[X]$ et d’une série formelle restreinte $Q \in A\{X\}$ tel que
 
@@ -329,7 +329,7 @@ $$
 J_{f \circ g}(0) = J_f(0) J_g(0).
 $$
 
-#### Proposition 5 {#ac-iii-s4-prop-5 .statement}
+#### Proposition 5 {#ac-iii-s4-prop-5 .statement tag=04I3}
 
 *Soient A un anneau commutatif, $\hat{f} = (f_1, ..., f_n)$ un système sans terme constant de n séries de $A[[X_1, ..., X_n]]$. Supposons que $J_f(0)$ soit inversible dans A. Alors il existe un système sans terme constant $g = (g_1, ..., g_n)$ de n séries de $A[[X_1, ..., X_n]]$ tel que*
 
@@ -357,7 +357,7 @@ Pour abréger, nous dirons dans ce qui suit qu’un anneau $A$ satisfait aux con
 
 En particulier, si $A$ est un anneau commutatif, $m$ un idéal de $A$, et si $A$ est séparé et complet pour la topologie $m$-adique, le couple $(A, m)$ satisfait aux conditions de Hensel.
 
-#### Proposition 6 {#ac-iii-s4-prop-6 .statement}
+#### Proposition 6 {#ac-iii-s4-prop-6 .statement tag=04I4}
 
 Soient $A$ un anneau commutatif, $B$ un anneau satisfaisant aux conditions de Hensel, $u : A \to B$ un homomorphisme. Pour toute famille $x = (x_1, ..., x_n)$ d’éléments topologiquement nilpotents de $B$, il existe un homomorphisme $\tilde{u}$ et un seul de $A[[X_1, ..., X_n]]$ dans $B$ tel que $\tilde{u}(a) = u(a)$ pour tout $a \in A$ et $\tilde{u}(X_i) = x_i$ pour $1 \leq i \leq n$. En outre, si $m$ désigne l’idéal des séries sans terme constant dans $A[[X_1, ..., X_n]]$, $\tilde{u}$ est continu pour la topologie m-adique.
 
@@ -371,7 +371,7 @@ Lorsque B = A et que $u$ est l’application identique, nous noterons $f(x_1, ..
 
 Prenons pour B un anneau de séries formelles $A[[X_1, \ldots, X_r]]$, et soit $\mathfrak{n}$ l’idéal des séries de B sans terme constant, de sorte que $(B, \mathfrak{n})$ satisfait aux conditions de Hensel ($§\ 2$, no 6, cor. de la prop. 6). On peut appliquer la prop. 6 en prenant pour les $x_i \in B$ des séries sans terme constant ; alors, pour toute série $f \in A[[X_1, \ldots, X_n]]$, $\tilde{u}(f)$ n’est autre que la série formelle $f(x_1, \ldots, x_n)$ définie en Alg., chap. IV, $§\ 5$, no 5. C’est évident si $f$ est un polynôme et on en déduit la proposition dans le cas général en remarquant que $f \to f(x_1, \ldots, x_n)$ est continue dans $A[[X_1, \ldots, X_n]]$ pour la topologie $m$-adique.
 
-#### Corollaire {#ac-iii-s4-n5-cor-1 .statement}
+#### Corollaire {#ac-iii-s4-n5-cor-1 .statement tag=04I5}
 
 Soient $A$ un anneau satisfaisant aux conditions de Hensel, $\mathbf{x} = (x_1, \ldots, x_n)$ une famille d’éléments topologiquement nilpotents dans $A$. Soient $g = (g_1, \ldots, g_q)$ un système sans terme constant de séries de $A[[X_1, \ldots, X_n]]$, $\mathbf{f} = (f_1, \ldots, f_p)$ un système de séries formelles de $A[[X_1, \ldots, X_q]]$. Alors $g(\mathbf{x}) = (g_1(\mathbf{x}), \ldots, g_q(\mathbf{x}))$ est une famille d’éléments topologiquement nilpotents de $A$ et on a
 $$(18)$$
@@ -381,13 +381,13 @@ Le fait que les $g_i(\mathbf{x})$ sont topologiquement nilpotents résulte aussi
 
 Dans ce qui suit, pour un anneau $A$ et un idéal $m$ de $A$, nous noterons $m^{x^n}$ l’ensemble produit $\prod_{i=1}^n m_i$ dans $A^n$, avec $m_i = m$ pour $1 \leq i \leq n$, pour éviter toute confusion.
 
-#### Proposition 7 {#ac-iii-s4-prop-7 .statement}
+#### Proposition 7 {#ac-iii-s4-prop-7 .statement tag=04I6}
 
 Soient $A$ un anneau, $m$ un idéal de $A$ tels que le couple $(A, m)$ satisfasse aux conditions de Hensel. Soit $f = (f_1, ..., f_n)$ un système sans terme constant de séries de $A[[X_1, ..., X_n]]$ tel que $J_f(0)$ soit inversible dans $A$. Alors, pour tout $x \in m^{x^n}$, on a $f(x) \in m^{x^n}$, et $x \to f(x)$ est une bijection de $m^{x^n}$ sur lui-même, la bijection réciproque étant $x \to g(x)$, où $g$ est donné par la relation (16) du no 4.
 
 Le fait que $f(x) \in m^{x^n}$ est évident lorsque les $f_i$ sont des polynômes et résulte en général de la prop. 6 et de ce que $m$ est fermé dans $A$. Les autres assertions de la proposition sont alors des conséquences immédiates de (16), (17) et (18).
 
-#### Corollaire {#ac-iii-s4-n5-cor-2 .statement}
+#### Corollaire {#ac-iii-s4-n5-cor-2 .statement tag=04I7}
 
 Soit $q$ un idéal fermé de $A$ contenu dans $m$. Alors la relation $x \equiv x' \pmod{q^{x^n}}$ est équivalente à $f(x) \equiv f(x') \pmod{q^{x^n}}$.
 
@@ -397,7 +397,7 @@ f(X_1, ..., X_n) - f(Y_1, ..., Y_n) = \sum_{i=1}^n (X_i - Y_i) h_i(X_1, ..., X_n
 $$
 où les $h_i$ appartiennent à $A[[X_1, ..., X_n, Y_1, ..., Y_n]]$ (Alg., chap. IV, § 5, no 8, prop. 9); on en déduit aussitôt que la relation $x \equiv x' \pmod{q^{x^n}}$ entraîne $f(x) \equiv f(x') \pmod{q^{x^n}}$. La réciproque s’obtient en remplaçant $f$ par son « inverse » $g$.
 
-#### Théorème 2 {#ac-iii-s4-thm-2 .statement}
+#### Théorème 2 {#ac-iii-s4-thm-2 .statement tag=04I8}
 
 Soient $A$ un anneau, $m$ un idéal de $A$ tels que le couple $(A, m)$ satisfasse aux conditions de Hensel. Soit $f = (f_1, ..., f_n)$ un système de $n$ éléments de $A \{ X_1, ..., X_n \}$ et soit $a \in A^n$; posons $J_f(a) = e$. Il existe un système $g = (g_1, ..., g_n)$ de séries formelles restreintes sans terme constant dans $A \{ X_1, ..., X_n \}$, telles que :
 (i) $M_g(0) = I_n$ (matrice unité).
@@ -430,31 +430,31 @@ $$
 $$
 En posant $g = 1_n + M' \cdot r$, on voit que $g$ vérifie les conditions (i) et (ii) ; il suffit ensuite de remplacer $\mathbf{x}$ par $h(y)$ pour obtenir (iii).
 
-#### Corollaire 1 {#ac-iii-s4-thm-2-cor-1 .statement}
+#### Corollaire 1 {#ac-iii-s4-thm-2-cor-1 .statement tag=04I9}
 
 Soient $A$ un anneau, $m$ un idéal de $A$ tels que le couple $(A, m)$ satisfasse aux conditions de Hensel. Soient $f \in A\{X\}$, $a \in A$, et posons $e = f'(a)$. Si $f(a) \equiv 0$ (mod. $e^2 m$), alors il existe $b \in A$ tel que $f(b) = 0$ et $b \equiv a$ (mod. $e m$). Si $b'$ est un second élément de $A$ tel que $f(b') = 0$ et $b' \equiv a$ (mod. $e m$), on a $e(b - b') = 0$. En particulier, $b$ est unique si $e$ n’est pas diviseur de zéro dans $A$.
 
 En effet, soit $f(a) = e^2 c$ avec $c \in m$ ; la formule (20) pour $n = 1$ donne $f(a + e h(y)) = e^2 (c + y)$ et il suffit donc de prendre $y = -c$, $b = a + e h(-c)$. En outre si $b = a + e x$, $b' =$ a + ex', x \in m, x' \in m, f(b) = f(b') = 0, on déduit de (19) que $e^2(g(x) - g(x')) = 0$. Comme $g(X) - g(Y) = (X - Y)u(X, Y)$, où $u$ est restreinte et $u(0, 0) = 1$, on a $g(x) - g(x') = (x - x')v$, où $v \in A$ est inversible, car, $m$ étant fermé, on a $v - 1 = u(x, x') - 1 \in m$ et $m$ est contenu dans le radical de $A$; d'où la relation $e(b - b') = 0$.
 
-#### Remarque {#ac-iii-s4-n5-rem-1 .statement}
+#### Remarque {#ac-iii-s4-n5-rem-1 .statement tag=04IA}
 
 Le corollaire s’applique notamment lorsque $e$ est inversible dans $A$; on peut alors déduire aussi l’existence de $b$ du th. de Hensel, car l’image canonique de $f(X)$ dans $(A/m)\{X\}$ est de la forme $(X - \alpha)f_1(X)$, $X - \alpha$ et $f_1(X)$ étant fortement étrangers, car $f_1(x) = f'(x)$ est l’image de $e$ (no 1, Exemple).
 
-#### Exemple 1 {#ac-iii-s4-n5-exa-1 .statement}
+#### Exemple 1 {#ac-iii-s4-n5-exa-1 .statement tag=0CHF}
 
 Soient $p$ un nombre premier $\neq 2$ et $n$ un entier dont la classe mod. $p$ soit un carré $\neq 0$ dans le corps premier $\mathbf{F}_p$. Si $\mathbf{Z}_p$ est l’anneau des entiers $p$-adiques ($\S$ 2, no 12, Exemple 3), l’application du cor. 1 au polynôme $X^2 - n$ montre que $n$ est un carré dans $\mathbf{Z}_p$; par exemple 7 est un carré dans $\mathbf{Z}_3$.
 
-#### Exemple 2 {#ac-iii-s4-n5-exa-2 .statement}
+#### Exemple 2 {#ac-iii-s4-n5-exa-2 .statement tag=0CHG}
 
 Soit $A = K[[Y]]$ l’anneau des séries formelles à une indéterminée à coefficients dans un corps commutatif $K$; muni de la topologie (Y)-adique, l’anneau $A$ est séparé et complet ($\S$ 2, no 6, cor. de la prop. 6) et l’application $f(Y) \to f(0)$ définit par passage au quotient un isomorphisme de $A/(Y)$ sur le corps $K$. En vertu du cor. 1, si $F(Y, X)$ est un polynôme en $X$ à coefficients dans $A$, et si $a$ est une racine simple de $F(0, X)$ dans $K$, il existe une série formelle et une seule $f(Y)$ telle que $f(0) = a$ et $F(Y, f(Y)) = 0$.
 
-#### Corollaire 2 {#ac-iii-s4-thm-2-cor-2 .statement}
+#### Corollaire 2 {#ac-iii-s4-thm-2-cor-2 .statement tag=04IB}
 
 Soient $A$ un anneau, $m$ un idéal de $A$ tels que le couple $(A, m)$ satisfasse aux conditions de Hensel. Soient $r, n$ des entiers tels que $0 \leq r < n$, $f = (f_{r+1}, ..., f_n)$ un système de $n - r$ éléments de $A \{X_1, ..., X_n\}$; désignons par $J^{(n-r)}_i(\mathbf{X})$ le mineur de $M_f(\mathbf{X})$ formé des colonnes d’indice $j$ tel que $r + 1 \leq j \leq n$. Soit $a \in A^n$ tel que $J^{(n-r)}_i(a)$ soit inversible dans $A$ et que l’on ait $f(a) \equiv 0$ (mod. $m^{x(n-r)}$). Alors il existe un $\mathbf{x} = (x_1, ..., x_n) \in A^n$ et un seul tel que $x_k = a_k$ pour $1 \leq k \leq r$, $\mathbf{x} \equiv a$ (mod. $m^{x^n}$) et $f(\mathbf{x}) = 0$.
 
 En substituant $a_k$ à $X_k$ pour $1 \leq k \leq r$ dans les $f_t$ (no 2, Remarque 3) on voit aussitôt qu’on peut se restreindre au cas où r = 0 pour prouver le corollaire. Le th. 2 et la prop. 7 montrent alors que f définit une bijection de $a + m^{x^n}$ sur $f(a) + m^{x^n} = m^{x^n}$; le corollaire résulte de ce que $0 \in m^{x^n}$.
 
-#### Corollaire 3 {#ac-iii-s4-thm-2-cor-3 .statement}
+#### Corollaire 3 {#ac-iii-s4-thm-2-cor-3 .statement tag=04IC}
 
 Les notations étant celles du cor. 2, soit $a \in A^n$; posons $e = J_i^{(n-r)}(a)$ (non nécessairement inversible dans A) et supposons que l'on ait $f(a) \equiv 0$ (mod. $e^2 m^{x(n-r)}$). Alors il existe $n - r$ séries formelles $\varphi_i$ de $A[[X_1, ..., X_r]]$ ($r + 1 \leq i \leq n$) à terme constant dans $m$, telles que, pour tout $t = (t_1, ..., t_r) \in m^{x^r}$, on ait
 
@@ -492,13 +492,13 @@ pour $r + 1 \leq j \leq n$. Pour $r + 1 \leq i \leq n$, en substituant $t_j$ à 
 
 ### 6. Application aux décompositions d'anneaux.
 
-#### Lemme 2 {#ac-iii-s4-lem-2 .statement}
+#### Lemme 2 {#ac-iii-s4-lem-2 .statement tag=04ID}
 
 Soient A un anneau, m un idéal de A tels que le couple $(A, m)$ satisfasse aux conditions de Hensel. Soient B l'anneau quotient $A/m$, $\pi : A \to B$ l'homomorphisme canonique. Pour tout idempotent c de B, il existe un idempotent e ∈ A et un seul tel que π(e) = c.
 
 Soit a ∈ A tel que π(a) = c ; on peut appliquer le cor. 1 du th. 2 du n° 5 au polynôme f(X) = X² − X de A[X] et à l’élément a ∈ A. On a f'(a) = 2a − 1, et comme π(2a − 1) = 2c − 1 et (2c − 1)² = 1 dans B, 2c − 1 est inversible dans B, donc 2a − 1 est inversible dans A (§ 2, n° 13, lemme 3). Comme f(a) ∈ m, le cor. 1 du th. 2 du n° 5 donne aussitôt l’existence et l’unicité de e.
 
-#### Proposition 8 {#ac-iii-s4-prop-8 .statement}
+#### Proposition 8 {#ac-iii-s4-prop-8 .statement tag=04IE}
 
 Soient A un anneau, m un idéal de A tels que le couple (A, m) satisfasse aux conditions de Hensel. Soient B l’anneau quotient A/m, π : A → B l’homomorphisme canonique. Si B est composé direct d’une famille finie (b_i)_{i∈I} d’idéaux, il existe une famille et une seule (α_i)_{i∈I} d’idéaux de A telle que π(α_i) = b_i pour tout i ∈ I et que A soit composé direct de la famille (α_i).
 
@@ -506,7 +506,7 @@ Soit 1 = ∑_{i} c_i où c_i ∈ b_i pour tout i ; les c_i sont des idempotents 
 
 Il reste à démontrer l’unicité d’une telle décomposition. Or, supposons A composé direct d’une seconde famille (α'_i)_{i∈I} d’idéaux avec π(α'_i) = b_i pour tout i ; on a alors 1 = ∑_{i} e'_i avec e'_i ∈ α'_i, d’où, dans B, 1 = ∑_{i} π(e'_i). avec π(e'_i) ∈ b_i, ce qui entraîne π(e'_i) = c_i ; comme e'_i et e_i sont des idempotents, on a nécessairement e'_i = e_i (lemme 2), ce qui achève la démonstration.
 
-#### Remarque {#ac-iii-s4-n6-rem-1 .statement}
+#### Remarque {#ac-iii-s4-n6-rem-1 .statement tag=04IF}
 
 La prop. 8 redonne la structure d’un anneau semi-local A séparé et complet pour la topologie r-adique (r radical de A), déjà obtenue comme conséquence du § 2, n° 13, cor. de la prop. 19.
 

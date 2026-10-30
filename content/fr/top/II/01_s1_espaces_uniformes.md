@@ -20,14 +20,14 @@ subsections:
       pdf_page: 142
 statements: 14
 exercises: 5
-content_sha256: a4da1aa01e45856907af4988a27185de0990e4b76b31e153c8a519ac2ad60cb5
+content_sha256: 406b9564ee924884b949aed96c507a1b40d8929fd59390e93b6d17b84ff4206e
 ---
 
 ## § 1. ESPACES UNIFORMES
 
 ### 1. Définition d’une structure uniforme
 
-#### Définition 1 {#top-ii-s1-def-1 .statement}
+#### Définition 1 {#top-ii-s1-def-1 .statement tag=0BCY}
 
 On appelle structure uniforme sur un ensemble $X$ une structure constituée par la donnée d’un ensemble $\mathfrak{U}$ de parties de $X \times X$ qui satisfait aux axiomes $(F_I)$ et $(F_{II})$ de I, p. 36, et aux axiomes suivants :
 
@@ -45,11 +45,11 @@ On appelle espace uniforme un ensemble muni d’une structure uniforme.
 
 Si V est un entourage d’une structure uniforme sur X, on exprimera la relation $(x, x') \in V$ en disant que « x et $x'$ sont voisins d’ordre V ».
 
-#### Remarque 1 {#top-ii-s1-n1-rem-1 .statement}
+#### Remarque 1 {#top-ii-s1-n1-rem-1 .statement tag=0BCZ}
 
 Pour rendre le langage plus imagé, on pourra employer les expressions « x et y sont assez voisins » et « x et y sont aussi voisins qu’on veut » dans certains énoncés. Par exemple, on dira qu’une relation R $\{x, y\}$ est vérifiée si x et y sont assez voisins, lorsqu’il existe un entourage V tel que la relation $(x, y) \in V$ entraîne R $\{x, y\}$.
 
-#### Remarque 2 {#top-ii-s1-n1-rem-2 .statement}
+#### Remarque 2 {#top-ii-s1-n1-rem-2 .statement tag=0BD0}
 
 La conjonction des axiomes (U_{II}) et (U_{III}) est (compte tenu des autres axiomes des structures uniformes) équivalente à l’axiome:
 
@@ -59,11 +59,11 @@ Il est clair en effet que (U_{II}) et (U_{III}) entraînent (U_a). Inversement, 
 
 Dans toute la suite de ce chapitre, on écrira $\overline{V}^2$ au lieu de $V \circ V$, et on posera, en général, $V^n = V \circ V = V \circ V^{n-1}$ pour tout entier $n > 1$ et toute partie V de $X \times X$.
 
-#### Remarque 3 {#top-ii-s1-n1-rem-3 .statement}
+#### Remarque 3 {#top-ii-s1-n1-rem-3 .statement tag=0BD1}
 
 Si X est non vide, l’axiome (U_I) entraîne qu’aucun ensemble de $\mathfrak{U}$ n’est vide, donc que $\mathfrak{U}$ est un filtre sur $X \times X$. Sur l’ensemble vide, il n’y a qu’une seule structure uniforme, ayant pour ensemble d’entourages $\mathfrak{U} = \{ \varnothing \}$.
 
-#### Définition 2 {#top-ii-s1-def-2 .statement}
+#### Définition 2 {#top-ii-s1-def-2 .statement tag=0BD2}
 
 On appelle système fondamental d’entourages d’une structure uniforme tout ensemble $\mathfrak{B}$ d’entourages tel que tout entourage contienne un ensemble appartenant à $\mathfrak{B}$.
 
@@ -93,21 +93,21 @@ Par exemple, si X et X’ sont deux ensembles équipotents, toute bijection de X
 
 ### 2. Topologie d’un espace uniforme
 
-#### Proposition 1 {#top-ii-s1-prop-1 .statement}
+#### Proposition 1 {#top-ii-s1-prop-1 .statement tag=0BD3}
 
 Soit X un ensemble muni d’une structure uniforme $\mathfrak{U}$. Pour tout $x \in X$, soit $\mathfrak{V}(x)$ l’ensemble des parties $V(x)$ de X, où V parcourt l’ensemble des entourages de $\mathfrak{U}$; il existe sur X une topologie et une seule telle que pour tout $x \in X$, $\mathfrak{V}(x)$ soit le filtre des voisinages de x pour cette topologie.
 
 Il faut montrer que les $\mathfrak{V}(x)$ vérifient les conditions (V_I), (V_{II}), (V_{III}) et (V_{IV}) de I, p. 3. Pour les trois premières, cela résulte aussitôt de ce que l’ensemble des entourages de $\mathfrak{U}$ vérifie (F_I), (F_{II}) et (U_I). D’autre part, si V est un entourage de $\mathfrak{U}$, W un entourage de $\mathfrak{U}$ tel que $\overset{2}{W} \subset V$, $V(x)$ appartient à $\mathfrak{V}(y)$ pour tout $y \in W(x)$; en effet, si $(x, y) \in W$ et $(y, z) \in W$, on a $(x, z) \in \overset{2}{W} \subset V$, donc $W(y) \subset V(x)$ pour tout $y \in W(x)$, ce qui achève la démonstration.
 
-#### Définition 3 {#top-ii-s1-def-3 .statement}
+#### Définition 3 {#top-ii-s1-def-3 .statement tag=0BD4}
 
 On dit que la topologie définie dans la prop. 1 est la topologie déduite de la structure uniforme $\mathfrak{U}$.
 
-#### Exemple 1 {#top-ii-s1-n2-exa-1 .statement}
+#### Exemple 1 {#top-ii-s1-n2-exa-1 .statement tag=0BD5}
 
 La topologie déduite de la structure uniforme additive sur l’ensemble des nombres réels est la topologie de la droite numérique (I, p. 4); de même, la topologie déduite de la structure additive sur l’ensemble des nombres rationnels est la topologie de la droite rationnelle.*
 
-#### Exemple 2 {#top-ii-s1-n2-exa-2 .statement}
+#### Exemple 2 {#top-ii-s1-n2-exa-2 .statement tag=0BD6}
 
 Sur un ensemble quelconque X, la topologie déduite de la structure uniforme discrète (II, p. 3, Exemple 2) est la topologie discrète.
 
@@ -118,7 +118,7 @@ Quand nous parlerons, par la suite, de la topologie d’un espace uniforme X, il
 En d’autres termes, les topologies déduites de deux structures uniformes distinctes sur un même ensemble X peuvent être identiques. *Par exemple, sur ]0, +∞[, la même topologie est déduite de la structure uniforme additive et de la structure uniforme multiplicative, qui sont distinctes (III, p. 80, exerc. 17).*
 Pour un autre exemple, voir II, p. 7, Remarque 1.
 
-#### Proposition 2 {#top-ii-s1-prop-2 .statement}
+#### Proposition 2 {#top-ii-s1-prop-2 .statement tag=0BD7}
 
 Soit X un espace uniforme. Pour tout entourage symétrique V de X et toute partie M de $X \times X$, VMV est un voisinage de M dans l’espace topologique produit $X \times X$, et l’adhérence de M dans cet espace est donnée par la formule
 
@@ -136,7 +136,7 @@ $$
 
 Dire que $V(x) \times V(y)$ rencontre $M$ pour tout $V \in \mathscr{S}$ signifie donc que $(x, y) \in \overline{M}$, d’où la formule (1).
 
-#### Corollaire 1 {#top-ii-s1-prop-2-cor-1 .statement}
+#### Corollaire 1 {#top-ii-s1-prop-2-cor-1 .statement tag=0BD8}
 
 *Pour toute partie A de X et tout entourage symétrique V de X, V(A) est un voisinage de A dans X, et l’on a*
 
@@ -154,19 +154,19 @@ Si $V$ est un entourage de $X$ *ouvert* dans $X \times X$, $V(x)$ est ouvert dan
 
 D’autre part, il convient de remarquer que, lorsque $V$ parcourt l’ensemble des entourages de $X$, les ensembles $V(A)$ ne forment pas nécessairement un système fondamental de voisinages de $A$ dans $X$ (II, p. 34, exerc. 2).
 
-#### Corollaire 2 {#top-ii-s1-prop-2-cor-2 .statement}
+#### Corollaire 2 {#top-ii-s1-prop-2-cor-2 .statement tag=0BD9}
 
 *Les intérieurs (resp. les adhérences) dans $X \times X$ des entourages de X forment un système fondamental d’entourages de X*.
 
 En effet, si $V$ est un entourage quelconque de $X$, il existe un entourage symétrique $W$ tel que $\overset{3}{W} \subset V$; comme $\overset{3}{W}$ est un voisinage de $W$ (prop. 2), l’intérieur de $V$ dans $X \times X$ contient $W$ et est donc un entourage de $X$. En outre (prop. 2), on a $W \subset \overline{W} \subset \overset{3}{W} \subset V$, donc $V$ contient l’adhérence d’un entourage de $X$.
 
-#### Corollaire 3 {#top-ii-s1-prop-2-cor-3 .statement}
+#### Corollaire 3 {#top-ii-s1-prop-2-cor-3 .statement tag=0BDA}
 
 *Tout espace uniforme vérifie l’axiome* ($O_{III}$).
 
 En effet, pour tout $x \in X$, si $V$ parcourt l’ensemble des entourages de $X$ fermés dans $X \times X$, les $V(x)$ forment un système fondamental de voisinages de $x$ dans $X$ en vertu du cor. 2, et les $V(x)$ sont fermés dans $X$ (I, p. 26, cor. de la prop. 4).
 
-#### Proposition 3 {#top-ii-s1-prop-3 .statement}
+#### Proposition 3 {#top-ii-s1-prop-3 .statement tag=0BDB}
 
 *Pour qu’un espace uniforme X soit séparé, il faut et il suffit que l’intersection des entourages de sa structure uniforme soit la diagonale $\Delta$ de $X \times X$. Tout espace uniforme séparé est régulier*.
 

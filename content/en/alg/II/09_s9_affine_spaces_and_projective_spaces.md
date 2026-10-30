@@ -58,14 +58,14 @@ subsections:
       pdf_page: 361
 statements: 12
 exercises: 19
-content_sha256: 6d5414948dceab419cbfb016f0d02a94213bdb1f5a7f8c8b4975a8a4bd8908c9
+content_sha256: deaf2e284f8df7e22f7c5da850928b8f961fc09326f976f2aed34d10f8f21e0e
 ---
 
 ## § 9. AFFINE SPACES AND PROJECTIVE SPACES
 
 ### 1. DEFINITION OF AFFINE SPACES
 
-#### Definition 1 {#alg-ii-s9-def-1 .statement}
+#### Definition 1 {#alg-ii-s9-def-1 .statement tag=05VM}
 
 *Given a left (resp. right) vector space T over a field K, an affine space attached to T is any homogeneous space E of the additive group T* (I, § 5, no. 5) *such that 0 is the only operator in T leaving invariant all the elements of E* (that is, T *operates faithfully and transitively on E*). *Under these conditions, T is called the translation space of E and its elements are called the translations of E* (or *free vectors of E*).
 
@@ -96,13 +96,13 @@ and the commutativity of addition in T show that $b' - b = a' - a$.
 
 Given a point $a \in E$, the mapping $x \mapsto x - a$ is a bijection of $E$ onto $T$; when $E$ is identified with $T$ under this mapping, we say that $E$ is considered as the vector space obtained *by taking $a$ as origin* in $E$. Conversely, every vector space $T$ has canonically the structure of an affine space attached to $T$, namely the homogeneous space structure corresponding to the subgroup $\{0\}$ of $T$ (I, § 5, no. 6).
 
-#### Remark {#alg-ii-s9-n1-rem-1 .statement}
+#### Remark {#alg-ii-s9-n1-rem-1 .statement tag=05VN}
 
 The definitions of this no. and some of the results which follow extend immediately to the case where, instead of a vector space $T$, we consider an arbitrary *commutative group with operators* $T$.
 
 ### 2. BARYCENTRIC CALCULUS
 
-#### Proposition 1 {#alg-ii-s9-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s9-prop-1 .statement tag=05VO}
 
 *Let* $(x_i)_{i \in I}$ *be a family of points in an affine space* $E$ *and* $(\lambda_i)_{i \in L}$ *a family of elements of* $K$ *of finite support such that* $\sum_{i \in I} \lambda_i = 1$ *(*resp. $\sum_{i \in I} \lambda_i = 0$*). *If* $a$ *is any point of* $E$, *the point* $x \in E$ *defined by*
 $$
@@ -133,7 +133,7 @@ $$
 
 ### 3. AFFINE LINEAR VARIETIES
 
-#### Definition 2 {#alg-ii-s9-def-2 .statement}
+#### Definition 2 {#alg-ii-s9-def-2 .statement tag=05VP}
 
 *Given an affine space* $E$, *a subset* $V$ *of* $E$ *is called an affine linear variety* (or simply a *linear variety* or an *affine subset* of $E$) *if, for every family* $(x_i)_{i \in I}$ *of points of* $V$ *and every family* $(\lambda_i)_{i \in I}$ *of elements of* $K$ *of finite support such that* $\sum_{i \in I} \lambda_i = 1$, *the barycentre* $\sum_{i \in I} \lambda_i x_i$ *belongs to* $V$.
 
@@ -147,7 +147,7 @@ x - a = \sum_{i=1}^n \lambda_i (x_i - a)
 $$
 means that $x$ is a barycentre $\sum_{i=1}^n \lambda_i x_i + \left(1 - \sum_{i=1}^n \lambda_i\right)a$ of the family consisting of the $x_i$ and $a$. Therefore:
 
-#### Proposition 2 {#alg-ii-s9-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s9-prop-2 .statement tag=05VQ}
 
 *For a non-empty subset* $V$ *of an affine space* $E$ *to be a linear variety, it is necessary and sufficient that* $V$ *be a vector subspace for the vector space structure on* $E$ *obtained by taking a point of* $V$ *as origin.*
 
@@ -165,7 +165,7 @@ The *codimension* of a linear variety V in E is the codimension of its direction
 
 Two linear varieties with the same direction are called *parallel*; it amounts to the same to say that one is derived from the other by translation. If V is a linear variety in T (considered as an affine space), its direction is the linear variety parallel to V and containing 0.
 
-#### Proposition 3 {#alg-ii-s9-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s9-prop-3 .statement tag=05VR}
 
 *Given a family* $(a_i)_{i \in I}$ *of points of an affine space* E, *the set* V *of barycentres* $\sum_{i \in I} \lambda_i a_i$ *((\lambda_i) of finite support, $\sum_{i \in I} \lambda_i = 1$) is a linear variety of* E.
 
@@ -177,13 +177,13 @@ In the notation of Proposition 3, assuming the family $(a_i)$ is non-empty, for 
 
 A family $(a_i)_{i \in I}$ of points of E which is not affinely free is said to be *affinely related*.
 
-#### Proposition 4 {#alg-ii-s9-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s9-prop-4 .statement tag=05VS}
 
 *For a non-empty family* $(a_i)_{i \in I}$ *of points in an affine space* E *to be affinely related, it is necessary and sufficient that there exist a family* $(\lambda_i)_{i \in I}$ *of elements not all zero in* K, *of finite support, such that* $\sum_{i \in I} \lambda_i = 0$ *and* $\sum_{i \in I} \lambda_i a_i = 0$.
 
 Given an index $\kappa \in I$, to say that the family of vectors $(a_i - a_\kappa)$, where $i$ runs through the set of indices $\neq \kappa$, is related in T, means that there exists a family of scalars $(\lambda_i)_{i \neq \kappa}$ not all zero such that $\sum_{i \neq \kappa} \lambda_i (a_i - a_\kappa) = 0$, which may also be written $\sum_{i \in I} \lambda_i a_i = 0$, with $\lambda_\kappa = -\sum_{i \neq \kappa} \lambda_i$, in other words $\sum_{i \in I} \lambda_i = 0$.
 
-#### Proposition 5 {#alg-ii-s9-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s9-prop-5 .statement tag=05VT}
 
 For a non-empty family $(a_i)_{i \in I}$ of points of an affine space $E$ to be affinely free, it is necessary and sufficient that, for every index $\kappa \in I$, $a_\kappa$ do not belong to the linear variety generated by the $a_i$ of index $\neq \kappa$.
 
@@ -191,7 +191,7 @@ The proposition is obvious if $I$ has only a single element. Otherwise, taking a
 
 ### 4. AFFINE LINEAR MAPPINGS
 
-#### Definition 3 {#alg-ii-s9-def-3 .statement}
+#### Definition 3 {#alg-ii-s9-def-3 .statement tag=05VU}
 
 Given two affine spaces $E, E'$ attached to two vector spaces $T, T'$ over the same field $K$, a mapping $u$ of $E$ into $E'$ is called an affine linear mapping (or an affine mapping) if, for every family $(x_i)_{i \in I}$ of points of $E$ and every family $(\lambda_i)_{i \in I}$ such that $\sum_{i \in I} \lambda_i = 1$,
 
@@ -201,7 +201,7 @@ $$
 
 (3)
 
-#### Proposition 6 {#alg-ii-s9-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s9-prop-6 .statement tag=05VV}
 
 Let $u$ be an affine mapping of $E$ into $E'$. There exists one and only one linear mapping $v$ of $T$ into $T'$ such that
 
@@ -272,7 +272,7 @@ As the field $K$ has canonically a left vector space structure (of dimension 1) 
 
 ### 5. DEFINITION OF PROJECTIVE SPACES
 
-#### Definition 4 {#alg-ii-s9-def-4 .statement}
+#### Definition 4 {#alg-ii-s9-def-4 .statement tag=05VW}
 
 *Given a left (resp. right) vector space* $V$ *over a field* $K$, *the left (resp. right) projective space derived from* $V$, *denoted by* $\mathbf{P}(V)$, *is the quotient of the complement* $V - \{0\}$ *of* $\{0\}$ *in* $V$ *by the equivalence relation* $\Delta(V)$ *"there exists* $\lambda \neq 0$ *in* $K$ *such that* $y = \lambda x$ *(resp.* $y = x \lambda$ ) *between* $x$ *and* $y$ *in* $V - \{0\}$.
 
@@ -396,7 +396,7 @@ As the values taken by a linear mapping on a basis $(e_i)$ of $V$ can be chosen 
 
 The composition of two projective mappings which are bijections is a projective mapping; so is the inverse mapping of such a bijection. The bijective projective mappings of a projective space $\mathbf{P}(V)$ onto itself thus form a group, called the *projective group* of $\mathbf{P}(V)$ and denoted by $\mathbf{PGL}(V)$; we write $\mathbf{PGL}_n(K)$ or $\mathbf{PGL}(n, K)$ instead of $\mathbf{PGL}(K^n_s)$.
 
-#### Remark {#alg-ii-s9-n10-rem-1 .statement}
+#### Remark {#alg-ii-s9-n10-rem-1 .statement tag=05VX}
 
 In a projective space $\mathbf{P}(V)$ over a field $K$, let $H = \mathbf{P}(W)$ be a hyperplane. There exists a bijective linear mapping $f$ of $V$ onto $K_s \times W$ such that $f(W) = W$; let $g$ be the projective mapping obtained from $f$ by passing to the quotients. It has been seen (no. 8) that the complement of $\mathbf{P}(W)$ in $\mathbf{P}(K_s \times W)$ can be identified with an affine space whose translation space is $W$. When $\mathbf{P}(V)$ is identified with $\mathbf{P}(K_s \times W)$ by means of $g$, it is said that $H$ *has been taken as hyperplane at infinity* in $\mathbf{P}(V)$; the complement of $H$ in $\mathbf{P}(V)$ is then identified with an affine space whose translation space is $W$.
 

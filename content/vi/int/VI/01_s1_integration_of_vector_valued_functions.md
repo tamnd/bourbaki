@@ -40,9 +40,9 @@ subsections:
       pdf_page: 406
 statements: 34
 exercises: 27
-content_sha256: 40eb4da8534f1831ee8f27407500b1cae17adf568ed53a9864c57f348ed668a3
+content_sha256: 553fba682d10847a797c2b55d79283547af2bc9d4b918433550366159f09c1e6
 translated_from: content/en/int/VI/01_s1_integration_of_vector_valued_functions.md
-source_content_sha256: 20b28e28c77d2e87f4b2cd1d85b6dade4c7468179f0c916ec9f4ddd2097b44f5
+source_content_sha256: 9798f2a69885491f713db436a4833ff226e18b3becfed322106b65f6897d576a
 translation_model: gpt-5.4, gpt-5.4-mini
 translation_run: translate-vi-e8985126
 glossary_version: 34
@@ -60,7 +60,7 @@ Lưu ý rằng trong định nghĩa này, tôpô của $F$ chỉ can thiệp th�
 
 Nếu $f$ là một ánh xạ khả tích thiết yếu theo $\mu$ một cách vô hướng từ $T$ vào $F$, thì ánh xạ $z' \mapsto \int \langle f(t), z' \rangle d\mu(t)$ là một dạng tuyến tính trên $F'$, nghĩa là, một phần tử của đối ngẫu đại số ${F'}^*$.
 
-#### Định nghĩa 1 {#int-vi-s1-def-1 .statement}
+#### Định nghĩa 1 {#int-vi-s1-def-1 .statement tag=098E}
 
 *Ta gọi* tích phân của $f$ đối với $\mu$, *và ký hiệu bởi* $\int f d\mu$ *hoặc* $\int f(t) d\mu(t)$, *là phần tử của* ${F'}^*$ *được xác định bởi*
 $$
@@ -70,23 +70,23 @@ $$
 
 Nếu $f$ liên tục và có giá compact, thì nó khả tích một cách vô hướng và Định nghĩa 1 trùng với định nghĩa của tích phân của $f$ đã cho trong Ch. III, §3, No. 1. Mặt khác, nếu $F$ là một không gian Banach và $f$ khả tích thiết yếu (Ch. V, §1, No. 3, Định nghĩa 3), thì $f$ khả tích thiết yếu một cách vô hướng và Định nghĩa 1 trùng với định nghĩa của tích phân của $f$ đã cho trong Chương V (Ch. V, §1, No. 3 và Ch. IV, §4, No. 2, Hệ quả 1 của Định lý 1).
 
-#### Ví dụ {#int-vi-s1-n1-exa-1 .statement}
+#### Ví dụ {#int-vi-s1-n1-exa-1 .statement tag=098F}
 
 — Cho $X$ là một không gian địa phương compact, $t \mapsto \lambda_t$ là một ánh xạ của $T$ vào không gian $\mathscr{M}(X)$ các độ đo trên $X$. Nói rằng họ $t \mapsto \lambda_t$ là $\mu$-thích hợp có nghĩa là nó gồm các độ đo dương và ánh xạ $t \mapsto \lambda_t$ là khả tích vô hướng theo nghĩa hầu khắp đối với $\mu$ và $\mu$-đo được đối với tôpô $\sigma(\mathscr{M}(X), \mathscr{K}(X))$.\footnote{Đây là định nghĩa của 'µ-thích hợp' trong ấn bản thứ nhất của Chương 5 (Ch. V, 1st edn., §3, No. 1, Định nghĩa 1). Trong ấn bản thứ hai, mà chương trước là một bản dịch, thuật ngữ 'µ-thích hợp' xác định một khái niệm yếu hơn (tổng quát hơn) (Ch. V, §3, No. 1, Định nghĩa 1); chính xác hơn, một họ $t \mapsto \lambda_t$ các độ đo dương khả tích vô hướng theo nghĩa hầu khắp đối với $\mu$ là $\mu$-thích hợp theo nghĩa của ấn bản thứ nhất của Chương V nếu và chỉ nếu nó là $\mu$-thích hợp theo nghĩa của ấn bản thứ hai và là $\mu$-đo được mờ, tức là, $\mu$-đo được đối với $\sigma(\mathscr{M}(X), \mathscr{K}(X))$ (Ch. V, §3, No. 1, Mệnh đề 2 b)). Hai định nghĩa là tương đương bất cứ khi nào tôpô của $X$ có một cơ sở đếm được (*ibid*. Mệnh đề 2 c)), điều này xảy ra đối với các ứng dụng trong Chương VI (§3); do đó trong phần còn lại của chương, không có sự phân biệt nào được thực hiện giữa hai cách hiểu của 'µ-thích hợp', và các dẫn chiếu đến ấn bản thứ nhất của Ch. V đã được thay bằng các tương đương gần nhất của chúng trong ấn bản thứ hai.}
 
 tích phân đối với $\mu$ là độ đo đã được ký hiệu là $\int \lambda_t\, d\mu(t)$ trong Ch. V, §3, No. 1.
 
-#### Nhận xét 1 {#int-vi-s1-n1-rem-1 .statement}
+#### Nhận xét 1 {#int-vi-s1-n1-rem-1 .statement tag=098G}
 
 Nếu F là hữu hạn chiều, thì mọi ánh xạ khả tích vô hướng theo nghĩa hầu khắp của T vào F đều khả tích theo nghĩa hầu khắp (Ch. V, §1, No. 3). Tuy nhiên, trong trường hợp tổng quát, một hàm vô hướng-không đáng kể trên một không gian compact T thậm chí có thể không $\mu$-đo được (Bài tập 12).
 
-#### Nhận xét 2 {#int-vi-s1-n1-rem-2 .statement}
+#### Nhận xét 2 {#int-vi-s1-n1-rem-2 .statement tag=098H}
 
 Rõ ràng là tích phân của f chỉ phụ thuộc vào lớp của f theo modulo không gian các ánh xạ của T vào F mà vô hướng-địa phương $\mu$-không đáng kể. Chú ý rằng một hàm vô hướng-địa phương không đáng kể g không nhất thiết bằng không hầu khắp nơi (Bài tập 12). Tuy nhiên, điều này thực sự xảy ra khi tồn tại trong F' một dãy $(\mathbf{z}'_n)$ trù mật đối với tôpô $\sigma(F', F)$: thật vậy, nếu $H_n$ là tập địa phương không đáng kể gồm các điểm $t \in T$ sao cho $\langle g(t), \mathbf{z}'_n \rangle \neq 0$, thì hợp H của các $H_n$ là địa phương không đáng kể và, với mọi $t \notin H$, ta có $\langle g(t), \mathbf{z}'_n \rangle = 0$ với mọi n, do đó $g(t) = 0$.
 
 Cho u là một ánh xạ tuyến tính liên tục của F vào một không gian lồi địa phương Hausdorff G; chuyển vị của nó $^t u$ là một ánh xạ tuyến tính của $G'$ vào $F'$, và chuyển vị (đại số) $^t(^t u)$ là một ánh xạ tuyến tính của ${F'}^*$ vào ${G'}^*$ mở rộng u, mà ta lại ký hiệu là u. Với quy ước này:
 
-#### Mệnh đề 1 {#int-vi-s1-prop-1 .statement}
+#### Mệnh đề 1 {#int-vi-s1-prop-1 .statement tag=098I}
 
 — *Nếu f là một ánh xạ của T vào F khả tích vô hướng theo nghĩa hầu khắp đối với $\mu$, thì ánh xạ $u \circ f$ khả tích vô hướng theo nghĩa hầu khắp đối với $\mu$ và*
 $$
@@ -99,7 +99,7 @@ $$
 
 Đặc biệt, nếu f khả tích vô hướng theo nghĩa hầu khắp đối với $\mu$, thì nó vẫn khả tích vô hướng theo nghĩa hầu khắp khi tôpô của F được thay bằng một tôpô thô hơn.
 
-#### Mệnh đề 2 {#int-vi-s1-prop-2 .statement}
+#### Mệnh đề 2 {#int-vi-s1-prop-2 .statement tag=098J}
 
 — *Cho f là một ánh xạ của T vào F khả tích vô hướng theo nghĩa hầu khắp đối với $\mu$. Với mọi hàm số $g \geqslant 0$ $\mu$-đo được và bị chặn, ánh xạ $t \mapsto g(t)f(t)$ (ký hiệu là gf hoặc fg) của T vào F là khả tích vô hướng theo nghĩa hầu khắp đối với $\mu$, f là khả tích vô hướng theo nghĩa hầu khắp đối với $(g \cdot \mu)$, và*
 $$
@@ -112,7 +112,7 @@ Rất nhiều mệnh đề về các hàm số khả tích theo nghĩa hầu kh�
 
 Tuy nhiên, để thu được các mệnh đề tương ứng với các định lý về 'nguyên kép' (Ch. V, §3, No. 3, Định lý 1 và §8, No. 4, Định lý 1 (định lý Lebesgue–Fubini)), cần phải tăng cường các giả thiết (xem Bài tập 1); khi áp dụng các định lý đã dẫn ở trên cho từng hàm $\langle \mathbf{z}', f \rangle$, trong đó $\mathbf{z}' \in F'$, do đó ta thu được các mệnh đề sau:
 
-#### Mệnh đề 3 {#int-vi-s1-prop-3 .statement}
+#### Mệnh đề 3 {#int-vi-s1-prop-3 .statement tag=098K}
 
 — Cho $X$ là một không gian địa phương compact, $t \mapsto \lambda_t$ là một họ $\mu$-thích hợp$^3$ (Ch. V, §3, No. 1, Định nghĩa 1) các độ đo dương trên $X$, và đặt $\nu = \int \lambda_t d\mu(t)$. Cho $f$ là một ánh xạ từ $X$ vào $F$; giả sử rằng $1^\circ$ $f$ là khả tích vô hướng theo $\nu$; $2^\circ$ tồn tại một tập $N \subset T$ địa phương $\mu$-không đáng kể sao cho, với mọi $t \notin N$, $f$ là khả tích vô hướng theo $\lambda_t$ và $\int f d\lambda_t \in F$. Khi đó, hàm $t \mapsto \int f d\lambda_t$, được xác định với $t \notin N$, là khả tích thiết yếu vô hướng theo $\mu$, và$^4$
 
@@ -120,7 +120,7 @@ $$
 \int f(x) d\nu(x) = \int d\mu(t) \int f(x) d\lambda_t(x) .
 $$
 
-#### Mệnh đề 4 {#int-vi-s1-prop-4 .statement}
+#### Mệnh đề 4 {#int-vi-s1-prop-4 .statement tag=098L}
 
 — Cho $T$ và $T'$ là hai không gian địa phương compact, $\mu$ (ứng với $\mu'$) là một độ đo dương trên $T$ (ứng với $T'$), $\nu = \mu \otimes \mu'$ là tích độ đo trên $X = T \times T'$. Cho $f$ là một ánh xạ từ $X$ vào $F$. Giả sử rằng: $1^\circ$ $f$ là khả tích vô hướng theo $\nu$; $2^\circ$ tồn tại một tập $N \subset T$ địa phương $\mu$-không đáng kể sao cho, với mọi $t \notin N$, ánh xạ $t' \mapsto f(t, t')$ là khả tích vô hướng theo $\mu'$, và $\int f(t, t') d\mu'(t') \in F$. Khi đó, hàm $t \mapsto \int f(t, t') d\mu'(t')$, được xác định với $t \notin N$, là khả tích thiết yếu vô hướng theo $\mu$ và$^4$
 
@@ -133,19 +133,19 @@ $^4$Đẳng thức với tư cách là các phần tử của ${F'}^*$.
 
 ### 2. Các tính chất của nguyên của một hàm khả tích thiết yếu vô hướng
 
-#### Mệnh đề 5 {#int-vi-s1-prop-5 .statement}
+#### Mệnh đề 5 {#int-vi-s1-prop-5 .statement tag=098M}
 
 — Cho $\mu$ là một độ đo dương bị chặn trên $T$, $S$ là một tập $\mu$-đo được mang $\mu$ (Ch. V, §5, No. 7, Định nghĩa 4), $f$ là một hàm khả tích vô hướng theo $\mu$ (*) nhận giá trị trong $F$. Gọi $D$ là bao lồi đóng của $f(S)$ trong không gian $F'$* được trang bị tôpô $\sigma(F', F')$. Khi đó $\int f\, d\mu \in \mu(T)D$.
 
 Vì $D$ là giao của các nửa không gian đóng chứa $f(S)$ (TVS, II, §5, No. 3, Hệ quả 1 của Mệnh đề 4), chỉ cần chứng minh rằng quan hệ $\langle f(t), z' \rangle \leq a$ với mọi $t \in S$ (trong đó $z' \in F', a \in \mathbf{R}$) kéo theo $\langle z', \int f\, d\mu \rangle \leq a \cdot \mu(T)$; nhưng vì $\int f\, d\mu = \int_S f\, d\mu$, điều này suy ra từ Ch. IV, §4, No. 2, Hệ quả 1 của Định lý 1.
 
-#### Hệ quả {#int-vi-s1-n2-cor-1 .statement}
+#### Hệ quả {#int-vi-s1-n2-cor-1 .statement tag=098N}
 
 — Cho $\mu$ là một độ đo dương bị chặn trên $T$, $S$ là một tập $\mu$-đo được mang $\mu$, và $f$ là một ánh xạ từ $T$ vào $F$, đo được vô hướng theo $\mu$ và sao cho $f(S)$ được chứa trong một tập con lồi compắc yếu $A$ của $F$. Khi đó $f$ khả tích vô hướng theo $\mu$, và $\int f\, d\mu \in \mu(T)A \subset F$.
 
 Với mọi $z' \in F'$, $\langle z', f \rangle$ là $\mu$-đo được và bị chặn trên $S$, nên khả tích, điều đó chứng tỏ rằng $f$ khả tích vô hướng. Hơn nữa, vì $A$ là compắc trong $F_\sigma$, nên nó đóng trong $F'$*, và bao lồi đóng của $f(S)$ trong $F'$* được chứa trong $A$, do đó có hệ quả.
 
-#### Mệnh đề 6 {#int-vi-s1-prop-6 .statement}
+#### Mệnh đề 6 {#int-vi-s1-prop-6 .statement tag=098O}
 
 — Cho $f$ là một hàm hầu khắp khả tích vô hướng theo $\mu$ nhận giá trị trong $F$, sao cho $\int f\, d\mu \in F$. Với mọi nửa chuẩn nửa liên tục dưới $q$ trên $F$,
 
@@ -157,7 +157,7 @@ $$
 
 Chú ý rằng hàm số $q \circ f$ không nhất thiết $\mu$-đo được (Bài tập 12).
 
-#### Mệnh đề 7 {#int-vi-s1-prop-7 .statement}
+#### Mệnh đề 7 {#int-vi-s1-prop-7 .statement tag=098P}
 
 — Cho $f$ là một ánh xạ từ $T$ vào $F$, cốt yếu $\mu$-khả tích theo từng vô hướng, sao cho với mọi tập con compact $K$ của $T$, $f(K)$ được chứa
 
@@ -187,19 +187,19 @@ $$
 
 điều này chứng minh rằng tập các phần tử $\int f \varphi_K d\mu$ là một tập con *bị chặn* của $F_\sigma$, vì thế cũng là một tập con bị chặn của F (TVS, IV, §1, No. 1, Mệnh đề 1). Do đó Mệnh đề 7 là hệ quả của bổ đề sau:
 
-#### Bổ đề 1 {#int-vi-s1-lem-1 .statement}
+#### Bổ đề 1 {#int-vi-s1-lem-1 .statement tag=098Q}
 
 *Bao đóng trong ${F'}^*$ (đối với tôpô $\sigma({F'}^*, F')$) của mọi tập con bị chặn của F được chứa trong đối ngẫu kép $F''$.*
 
 Thật vậy, một tập con bị chặn của F được chứa trong cực đối của một lân cận của 0 trong đối ngẫu mạnh $F'$ của F, do đó là tương đối compact trong $F''$ đối với $\sigma(F'', F')$ (TVS, III, §3, No. 5, Mệnh đề 7 và No. 4, Hệ quả 2 của Mệnh đề 4); vì $\sigma(F'', F')$ được cảm sinh bởi $\sigma({F'}^*, F')$, bổ đề được chứng minh.
 
-#### Hệ quả {#int-vi-s1-n2-cor-2 .statement}
+#### Hệ quả {#int-vi-s1-n2-cor-2 .statement tag=098R}
 
 *Giả sử F là nửa phản xạ, và cho f là một ánh xạ từ T vào F cốt yếu $\mu$-khả tích theo từng vô hướng sao cho, với mọi tập con compact K của T, $f(K)$ bị chặn. Khi đó $\int f d\mu$ thuộc F.*
 
 Thật vậy, mọi tập con bị chặn của F đều tương đối compact yếu (TVS, IV, §2, No. 2, Định lý 1), và $F = F''$.
 
-#### Mệnh đề 8 {#int-vi-s1-prop-8 .statement}
+#### Mệnh đề 8 {#int-vi-s1-prop-8 .statement tag=098S}
 
 *Cho $\mu$ là một độ đo dương bị chặn trên T, S là một tập $\mu$-đo được mang $\mu$, f là một ánh xạ $\mu$-đo được từ T vào F, sao cho $f(S)$ được chứa trong một tập con đầy đủ, bị chặn, cân bằng, lồi B của F. Khi đó, f là $\mu$-khả tích theo từng vô hướng và $\int f d\mu \in \mu(T)B \subset F$.*
 
@@ -221,7 +221,7 @@ vì $B$ bị chặn và vì chuỗi có số hạng tổng quát $\mu(K_n)$ là 
 
 Cho $G$ và $H$ là hai không gian lồi địa phương Hausdorff trên $\mathbf{R}$, và bây giờ giả sử rằng $F$ là không gian $\mathscr{L}(G; H)$ các ánh xạ tuyến tính liên tục từ $G$ vào $H$, được trang bị tôpô hội tụ *từng điểm*. Mọi dạng tuyến tính liên tục trên $F$ đều có thể mở rộng thành một dạng tuyến tính liên tục trên không gian tích $H^G$ (TVS, II, §4, No. 1, Mệnh đề 2), do đó có thể viết dưới dạng $u \mapsto \sum_{i=1}^n \langle u(a_i), b'_i \rangle$, trong đó các $a_i$ (resp. các $b'_i$) là các phần tử của $G$ (resp. của đối ngẫu $H'$ của $H$). Nói rằng một ánh xạ $U$ từ $T$ vào $F$ là vô hướng hầu khắp $\mu$-khả tích có nghĩa là, với mọi $a \in G$ và mọi $b \in H'$, hàm số $t \mapsto \langle U(t) \cdot a, b' \rangle$ là hầu khắp $\mu$-khả tích.
 
-#### Mệnh đề 9 {#int-vi-s1-prop-9 .statement}
+#### Mệnh đề 9 {#int-vi-s1-prop-9 .statement tag=098T}
 
 *Cho $U$ là một ánh xạ vô hướng hầu khắp $\mu$-khả tích từ $T$ vào $F = \mathscr{L}_s(G; H)$. Để $\int U d\mu \in F$, điều kiện cần và đủ là hai điều kiện sau được thỏa mãn:*
 
@@ -247,7 +247,7 @@ nói cách khác ${}^t S \cdot \mathbf{y}' = u_{\mathbf{y}'}$. Vì $S$ liên t�
 
 Ngược lại, giả sử a) và b) đã được xác minh. Nhờ a), công thức (1) xác định một ánh xạ tuyến tính $S$ của $G$ vào $H$, và, với mọi $\mathbf{y}' \in H'$, ánh xạ này thỏa mãn (2) (No. 1, Mệnh đề 1); nhưng khi đó, điều kiện (b) cho biết rằng $S$ liên tục (TVS, II, §6, No. 4, Mệnh đề 5 và 6, và III, §3, No. 5, Mệnh đề 7), do đó $S \in \mathscr{L}_s(G; H)$. Cuối cùng, công thức (2) chứng tỏ rằng $S = \int U\, d\mu$.
 
-#### Hệ quả {#int-vi-s1-n3-cor-1 .statement}
+#### Hệ quả {#int-vi-s1-n3-cor-1 .statement tag=098U}
 
 — *Điều kiện b) của Mệnh đề 9 được thỏa mãn trong mỗi một trong hai trường hợp sau*:
 
@@ -275,7 +275,7 @@ $$
 |\langle x, u_{K, y'} \rangle| = \left| \int \varphi_K(t) \langle U(t) \cdot x, y' \rangle d\mu(t) \right| \leq \int |\langle U(t) \cdot x, y' \rangle| d\mu(t).
 $$
 
-#### Mệnh đề 10 {#int-vi-s1-prop-10 .statement}
+#### Mệnh đề 10 {#int-vi-s1-prop-10 .statement tag=098V}
 
 — *Cho $U$ là một ánh xạ của $T$ vào $F = \mathscr{L}_s(G; H)$. Trong mỗi một trong ba trường hợp sau, $U$ khả tích theo vô hướng một cách hầu khắp theo $\mu$ và $\int U d\mu \in \mathscr{L}_s(G; H)$:*
 
@@ -297,7 +297,7 @@ Trong No. này chúng ta sẽ xét các không gian lồi địa phương $F$ c�
 
 Mọi không gian Fréchet đều có tính chất (GDF) (TVS, I, §3, No. 3, Hệ quả 5 của Định lý 1). Trong Phụ lục, chúng ta sẽ thấy những ví dụ khác về các không gian có tính chất (GDF).
 
-#### Mệnh đề 11 {#int-vi-s1-prop-11 .statement}
+#### Mệnh đề 11 {#int-vi-s1-prop-11 .statement tag=098W}
 
 *Mọi không gian lồi địa phương Hausdorff F có tính chất (GDF) đều là một không gian thùng.*
 
@@ -307,19 +307,19 @@ $$
 \langle y, x' \rangle = \lim_{\mathscr{F}} \langle \pi(z), x' \rangle = \lim_{\mathscr{F}} \langle z, x' \rangle = \langle x, x' \rangle = \langle \pi(x), x' \rangle .
 $$
 
-#### Định lý 1 {#int-vi-s1-thm-1 .statement}
+#### Định lý 1 {#int-vi-s1-thm-1 .statement tag=098X}
 
 (Gelfand–Dunford)—*Cho F là một không gian lồi địa phương Hausdorff có tính chất (GDF), $F'_s$ là đối ngẫu yếu của nó. Với mọi ánh xạ f từ T vào $F'_s$ khả tích thiết yếu theo vô hướng đối với $\mu$, tích phân $\int f d\mu$ thuộc $F'$.*
 
 Nhắc lại rằng đối ngẫu của $F'_s$ là F (TVS, II, §6, No. 2, Mệnh đề 3). Do đó, với mọi $z \in F$, hàm số $\langle z, f \rangle$ là khả tích thiết yếu đối với $\mu$; gọi $\theta(z)$ là lớp của nó trong $L^1(\mu)$. Để chứng minh rằng $\int f d\mu \in F'$, phải thiết lập rằng dạng tuyến tính $z \mapsto \langle z, \int f d\mu \rangle$ là liên tục trên F; thật ra, chúng ta sẽ chứng minh kết quả mạnh hơn sau đây:
 
-#### Bổ đề 2 {#int-vi-s1-lem-2 .statement}
+#### Bổ đề 2 {#int-vi-s1-lem-2 .statement tag=098Y}
 
 *Cho f là một ánh xạ từ T vào $F'_s$, sao cho với mọi $z \in F$, hàm số $\langle z, f \rangle$ thuộc $\overline{\mathscr{L}}^p(\mu)$ ($1 \leq p \leq +\infty$); gọi $\theta(z)$ là lớp của hàm này trong $L^p(\mu)$. Khi đó $z \mapsto \theta(z)$ là một ánh xạ tuyến tính liên tục từ F vào $L^p(\mu)$.*
 
 Nhờ tính chất (GDF), chỉ cần chứng minh rằng với mọi dãy $(z_n)$ các phần tử của F hội tụ tới $z$, sao cho $(\theta(z_n))$ hội tụ tới $u \in L^p(\mu)$, thì có $u = \theta(z)$. Bây giờ, nếu cần, thay thế dãy $(z_n)$ bằng một dãy con, ta có thể giả sử rằng dãy các hàm $\langle z_n, f \rangle$ hội tụ địa phương hầu khắp nơi tới một hàm $h \in \overline{\mathscr{L}}^p(\mu)$, có lớp là $u$ trong $L^p(\mu)$ (Ch. IV, §3, No. 4, Th. 3 và Ch. V, §1, No. 3). Vì, theo giả thiết, với mọi $t \in T$ dãy $(\langle z_n, f(t) \rangle)$ hội tụ tới $\langle z, f(t) \rangle$, ta có $h(t) = \langle z, f(t) \rangle$ địa phương hầu khắp nơi, do đó $u = \theta(z)$.
 
-#### Hệ quả 1 {#int-vi-s1-lem-2-cor-1 .statement}
+#### Hệ quả 1 {#int-vi-s1-lem-2-cor-1 .statement tag=098Z}
 
 *Cho $G_i$ ($1 \leq i \leq n$) là $n$ không gian lồi địa phương Hausdorff có tính chất (GDF), và gọi $F$ là không gian các dạng đa tuyến tính liên tục riêng rẽ trên $\prod_{i=1}^n G_i$, được trang bị tôpô hội tụ điểm. Với mọi ánh xạ $f$ từ $T$ vào $F$ khả tích thiết yếu vô hướng đối với $\mu$, ta có $\int f d\mu \in F$.*
 
@@ -329,7 +329,7 @@ $$
 $$
 Theo Định lý 1, $\int (\lambda_i(z) \circ f) d\mu \in G_i'$ với $1 \leq i \leq n$, do đó $\int f d\mu \in F$.
 
-#### Hệ quả 2 {#int-vi-s1-lem-2-cor-2 .statement}
+#### Hệ quả 2 {#int-vi-s1-lem-2-cor-2 .statement tag=0990}
 
 *Cho $G$ là một không gian lồi địa phương Hausdorff có tính chất (GDF), và $H$ là một không gian nửa phản xạ mà đối ngẫu mạnh $H_b'$ của nó có tính chất (GDF) (xem Phụ lục, No. 2, Mệnh đề 3). Đặt $F$ là không gian $\mathscr{L}_s(G; H)$; với mọi ánh xạ $U$ từ $T$ vào $F$ khả tích thiết yếu theo vô hướng đối với $\mu$, tích phân $\int U d\mu$ thuộc $F$.
 
@@ -341,13 +341,13 @@ Chú ý rằng Hệ quả 2 áp dụng được đặc biệt khi G là một *k
 
 Nếu một ánh xạ f từ T vào một không gian lồi địa phương Hausdorff F là đo được theo vô hướng đối với $\mu$, thì nói chung không suy ra được rằng f là đo được đối với $\mu$ (Bài tập 12). Tuy nhiên:
 
-#### Mệnh đề 12 {#int-vi-s1-prop-12 .statement}
+#### Mệnh đề 12 {#int-vi-s1-prop-12 .statement tag=0991}
 
 *Nếu F là một không gian lồi địa phương tách được, mêtric hóa được, thì mọi ánh xạ f từ T vào F đo được theo vô hướng đối với $\mu$ đều là đo được đối với $\mu$.*
 
 Thật vậy, có thể xem F như một không gian con của một tích đếm được $\prod_n E_n$ các không gian Banach (TVS, II, §1, No. 3, Mệnh đề 3), và có thể giả sử rằng $\mathrm{pr}_n(F)$ là trù mật trong $E_n$, do đó $E_n$ là tách được. Với mọi n, ánh xạ $\mathrm{pr}_n \circ f$ là đo được theo vô hướng đối với $\mu$, nên đo được đối với $\mu$ (Ch. IV, §5, No. 5, Hệ quả 2 của Mệnh đề 10), do đó f là đo được đối với $\mu$ (Ch. IV, §5, No. 3, Định lý 1).
 
-#### Mệnh đề 13 {#int-vi-s1-prop-13 .statement}
+#### Mệnh đề 13 {#int-vi-s1-prop-13 .statement tag=0992}
 
 *Cho F là một không gian lồi địa phương là giới hạn trực tiếp của một dãy các không gian lồi địa phương tách được, mêtric hóa được $F_n$, F là hợp của các $F_n$. Gọi $F'$ là đối ngẫu của F, được trang bị tôpô $\sigma(F', F)$. Khi đó, mọi ánh xạ f từ T vào $F'$ đo được theo vô hướng đối với $\mu$ đều là đo được đối với $\mu$.*
 
@@ -361,7 +361,7 @@ Cho $T$ là một không gian địa phương compact, $F$ là một không gian
 
 Bây giờ ta hãy nhận xét rằng không gian $\mathscr{C}'(T)$ có thể được đồng nhất với đối ngẫu của không gian $\mathscr{C}(T)$ các hàm số liên tục nhận giá trị số trên $T$ (do đó có ký hiệu như vậy), khi $\mathscr{C}(T)$ được trang bị tôpô hội tụ compact (mà ta sẽ luôn luôn giả thiết trong số này và trong số tiếp theo): vì, một mặt, đã biết rằng (Ch. IV, §4, No. 8, Mệnh đề 14) các độ đo trên $T$ có thể mở rộng thành các dạng tuyến tính liên tục trên $\mathscr{C}(T)$ chính là các độ đo có giá compact, và ngược lại, hạn chế lên $\mathscr{K}(T)$ của một dạng tuyến tính liên tục trên $\mathscr{C}(T)$ là một độ đo (vì tôpô của $\mathscr{K}(T)$ mịn hơn tôpô cảm sinh bởi tôpô của $\mathscr{C}(T)$).
 
-#### Mệnh đề 14 {#int-vi-s1-prop-14 .statement}
+#### Mệnh đề 14 {#int-vi-s1-prop-14 .statement tag=0993}
 
 *Cho T là một không gian địa phương compact, F là một không gian lồi địa phương Hausdorff tựa đầy đủ, và f là một ánh xạ liên tục từ T vào F. Nếu không gian $\mathscr{C}'(T)$ các độ đo trên T có giá compact được trang bị tôpô hội tụ đều trên các tập con compact của $\mathscr{C}(T)$, thì ánh xạ $\lambda \mapsto \int f d\lambda$ là ánh xạ tuyến tính liên tục duy nhất $\tilde{f}$ từ $\mathscr{C}'(T)$ vào F sao cho $\tilde{f}(\varepsilon_t) = f(t)$ với mọi $t \in T$.*
 
@@ -369,7 +369,7 @@ Bây giờ ta hãy nhận xét rằng không gian $\mathscr{C}'(T)$ có thể đ
 
 Bây giờ ta hãy chứng minh rằng $\lambda \mapsto \int f d\lambda$ là liên tục. Cho V là một lân cận lồi cân bằng đóng của 0 trong F; chỉ cần chứng minh rằng tồn tại một tập con tương đối compắc L của $\mathscr{C}(T)$ sao cho các hệ thức $\lambda \in L^\circ$ và $z' \in V^\circ$ kéo theo $|\langle \int f d\lambda, z' \rangle| \leq 1$, hay tương đương, sao cho $|\int \langle f, z' \rangle d\lambda| \leq 1$. Vì mục đích đó, ta sẽ chứng minh rằng khi $z'$ chạy qua $V^\circ$, tập L các hàm số vô hướng $\langle f, z' \rangle$ là tương đối compắc trong $\mathscr{C}(T)$. Vì $V^\circ$ bị chặn đối với $\sigma(F', F)$, cận trên của các số $|\langle f(t), z' \rangle|$, với $t \in T$ cố định và $z'$ chạy qua $V^\circ$, là hữu hạn; theo định lý Ascoli (GT, X, §2, No. 5, Cor. 2 of Th. 2), do đó chỉ còn phải chứng minh rằng tập các $\langle f, z' \rangle$ ($z' \in V^\circ$) là *đồng liên tục*. Nhưng, với mọi $t_0 \in T$ và mọi $\delta > 0$, theo giả thiết tồn tại một lân cận W của $t_0$ trong T sao cho $f(t) - f(t_0) \in \delta V$ với mọi $t \in W$; suy ra $|\langle f(t), z' \rangle - \langle f(t_0), z' \rangle| \leq \delta$ với mọi $t \in W$ và mọi $z' \in V^\circ$, điều này hoàn thành chứng minh.
 
-#### Nhận xét {#int-vi-s1-n6-rem-1 .statement}
+#### Nhận xét {#int-vi-s1-n6-rem-1 .statement tag=0994}
 
 — 1) Ánh xạ $t \mapsto \varepsilon_t$ là một *đồng phôi* của T vào không gian $\mathscr{C}'(T)$; thật vậy, nếu L là một tập con compắc của $\mathscr{C}(T)$, và $t_0 \in T$, thì tồn tại (GT, X, §2, No. 5, Cor. 3 of Th. 2) một lân cận W của $t_0$ sao cho $|g(t) - g(t_0)| \leq 1$ với mọi $t \in W$ và mọi hàm $g \in L$, do đó $\varepsilon_t - \varepsilon_{t_0} \in L^\circ$ với $t \in W$, điều này chứng minh tính liên tục của $t \mapsto \varepsilon_t$ (xem Ch. IV, §4, No. 8, Prop. 15); ngoài ra, người ta còn biết rằng ánh xạ nghịch đảo đã liên tục đối với tôpô mờ (Ch. III, §1, No. 9, Prop. 13), vì thế *a fortiori* đối với tôpô hội tụ đều trên các tập con compắc của $\mathscr{C}(T)$. Nếu khi đó ta đồng nhất T với ảnh của nó trong $\mathscr{C}'(T)$ qua $t \mapsto \varepsilon_t$, thì có thể nói rằng $\lambda \mapsto \int f d\lambda$ là *mở rộng liên tục* duy nhất của f thành một ánh xạ *tuyến tính*.
 
@@ -379,7 +379,7 @@ Bây giờ giả sử rằng $f(T)$ là một tập con *bị chặn* của F. K
 
 (No. 2, Prop. 8). Nếu $\lambda$ là một độ đo thực bị chặn bất kỳ trên $T$, thì $\lambda^+$ và $\lambda^-$ là bị chặn, và người ta thấy ngay lập tức rằng $\lambda \mapsto \int f\, d\lambda$, được xác định như trên, là một ánh xạ *tuyến tính* từ không gian $\mathscr{M}^1(T)$ các độ đo *bị chặn* trên $T$ vào không gian lồi địa phương $F$, hiển nhiên mở rộng ánh xạ $\lambda \mapsto \int f\, d\lambda$ từ $\mathscr{C}'(T)$ vào $F$.
 
-#### Mệnh đề 15 {#int-vi-s1-prop-15 .statement}
+#### Mệnh đề 15 {#int-vi-s1-prop-15 .statement tag=0995}
 
 *Cho $T$ là một không gian compact địa phương, $F$ là một không gian Hausdorff lồi địa phương quasi-đầy đủ, và $f$ là một ánh xạ liên tục từ $T$ vào $F$ sao cho $f(T)$ bị chặn. Nếu $\mathscr{M}^1(T)$ được trang bị tôpô của không gian Banach của nó, thì ánh xạ tuyến tính $\lambda \mapsto \int f\, d\lambda$ từ $\mathscr{M}^1(T)$ vào $F$ là liên tục.*
 
@@ -391,7 +391,7 @@ Cho $G$ là một không gian Hausdorff lồi địa phương, $H$ là một kh�
 
 Điều kiện phụ thêm áp đặt lên $U$ có thể được biểu thị theo cách khác:
 
-#### Bổ đề 3 {#int-vi-s1-lem-3 .statement}
+#### Bổ đề 3 {#int-vi-s1-lem-3 .statement tag=0996}
 
 *Cho $G, H$ là hai không gian lồi địa phương, $U$ là một ánh xạ từ một không gian compact địa phương $T$ vào $\mathscr{L}(G; H)$. Các điều kiện sau là tương đương:
 a) Ánh xạ $(t, x) \mapsto U(t) \cdot x$ từ $T \times G$ vào $H$ là liên tục.
@@ -407,7 +407,7 @@ Sau cùng, khẳng định cuối cùng của bổ đề suy ra từ việc rằ
 
 Vậy, giả sử rằng $U$ thỏa mãn các điều kiện của Bổ đề 3; khi đó (nếu $H$ là gần đầy đủ) ta định nghĩa, như trong No. 6, một ánh xạ tuyến tính $\lambda \mapsto \int U d\lambda$ từ $\mathscr{C}'(T)$ vào $F = \mathscr{L}(G; H)$. Ta đặt $U(\lambda) = \int U d\lambda$.
 
-#### Mệnh đề 16 {#int-vi-s1-prop-16 .statement}
+#### Mệnh đề 16 {#int-vi-s1-prop-16 .statement tag=0997}
 
 — Cho $G, H$ là hai không gian lồi địa phương Hausdorff, với $H$ được giả sử là gần đầy đủ. Cho $U$ là một ánh xạ từ $T$ vào $\mathscr{L}(G; H)$ sao cho $(t, x) \mapsto U(t) \cdot x$ là một ánh xạ liên tục từ $T \times G$ vào $H$. Khi đó ánh xạ song tuyến tính $(\lambda, x) \mapsto U(\lambda) \cdot x$ từ $\mathscr{C}'(T) \times G$ vào $H$ là hạ liên tục đối với các tập con đồng liên tục của $\mathscr{C}'(T)$ và các tập con compắc của $G$ (điều này kéo theo rằng ánh xạ tuyến tính $\lambda \mapsto U(\lambda)$ từ $\mathscr{C}'(T)$ vào $F$ là liên tục).
 
@@ -417,11 +417,11 @@ Tính liên tục của $\lambda \mapsto U(t)$ như một ánh xạ từ $\maths
 
 Bây giờ giả sử rằng U là một ánh xạ liên tục từ T vào F và hơn nữa rằng U(T) là đẳng liên tục. Khi đó, cùng lập luận như trên cho thấy (vì H là gần đầy đủ) rằng với mọi độ đo dương bị chặn $\mu$ trên T, $\int U d\mu \in F$. Do đó, như trên, có thể định nghĩa một ánh xạ tuyến tính $\lambda \mapsto \int U d\lambda = U(\lambda)$ từ M^1(T) vào F, mở rộng ánh xạ tương tự từ C'(T) vào F. Hơn nữa, với mọi lân cận đóng, cân bằng, lồi V của 0 trong H, theo giả thiết tồn tại một lân cận W của 0 trong G sao cho với mọi x ∈ W và mọi t ∈ T, ta có U(t) · x ∈ V, do đó (vì V đóng yếu) ∫ (U(t) · x)dλ(t) ∈ ||λ|| · V (No. 2, Mệnh đề 5). Nói cách khác:
 
-#### Mệnh đề 17 {#int-vi-s1-prop-17 .statement}
+#### Mệnh đề 17 {#int-vi-s1-prop-17 .statement tag=0998}
 
 — Cho G, H là hai không gian Hausdorff lồi địa phương, với H được giả thiết là gần đầy đủ. Cho U là một ánh xạ từ T vào L(G; H) sao cho $(t, x) \mapsto U(t) \cdot x$ liên tục trên T × G, và U(T) là đẳng liên tục. Khi đó, nếu M^1(T) được trang bị tôpô không gian Banach của nó, thì ánh xạ song tuyến tính $(\lambda, x) \mapsto U(\lambda) \cdot x$ từ M^1(T) × G vào H là liên tục (điều này đặc biệt kéo theo rằng ánh xạ tuyến tính $\lambda \mapsto U(\lambda)$ từ M^1(T) vào L(G; H) là liên tục khi L(G; H) được trang bị tôpô hội tụ bị chặn).
 
-#### Mệnh đề 18 {#int-vi-s1-prop-18 .statement}
+#### Mệnh đề 18 {#int-vi-s1-prop-18 .statement tag=0999}
 
 — Cho G_1, G_2, H_1, H_2 là bốn không gian Hausdorff lồi địa phương, với H_1 và H_2 được giả thiết là gần đầy đủ. Cho A : G_1 → G_2 và B : H_1 → H_2 là hai ánh xạ tuyến tính liên tục. Cho U_1 : T → L(G_1; H_1), U_2 : T → L(G_2; H_2) là hai ánh xạ thỏa mãn các điều kiện của Mệnh đề 16 (tương ứng Mệnh đề 17), và giả sử rằng với mọi t ∈ T, B ◦ U_1(t) = U_2(t) ◦ A. Khi đó, với mọi độ đo có giá compac (tương ứng mọi độ đo bị chặn) λ trên T, B ◦ U_1(λ) = U_2(λ) ◦ A.
 
@@ -434,7 +434,7 @@ $$
 = \int \left( (U_2(t) \circ A) \cdot x \right) d\lambda(t) = U_2(\lambda) \cdot (A \cdot x).
 $$
 
-#### Nhận xét 1 {#int-vi-s1-n7-rem-1 .statement}
+#### Nhận xét 1 {#int-vi-s1-n7-rem-1 .statement tag=099A}
 
 Giả sử rằng G và H là các không gian Banach, và cho U là một ánh xạ từ T vào L(G; H) sao cho $(t, x) \mapsto U(t) \cdot x$ liên tục trên T × G. Chú ý rằng điều này kéo theo hàm hữu hạn t ↦ \|U(t)\| bị chặn trên mọi tập con compac của T và nửa liên tục dưới trên T, vì nó là bao trên của các hàm liên tục $t \mapsto |U(t) \cdot x|$ khi $x$ chạy trên quả cầu $|x| \leq 1$ trong G. Đặt $h(t) = \| U(t) \|$. Khi đó, với mọi độ đo dương $\mu$ trên T sao cho $h$ khả tích đối với $\mu$, ta lại có $\int U d\mu \in \mathscr{L}(G; H)$. Thật vậy, độ đo $\nu = h \cdot \mu$ bị chặn theo giả thiết; do đó tồn tại một phân hoạch của T gồm một tập $\nu$-không đáng kể N và một dãy $(K_n)$ các tập con compac. Lập luận được dùng ở đầu Số này, áp dụng cho độ đo $\varphi_{K_n} \cdot \mu$, cho thấy rằng
 
@@ -444,7 +444,7 @@ $$
 
 và hơn nữa (No. 2, Mệnh đề 6), $\| A_n \| \leq \int \varphi_{K_n} \| U \| \, d\mu \leq \nu(K_n)$. Do đó chuỗi có số hạng tổng quát $A_n$ là hội tụ tuyệt đối trong không gian Banach $\mathscr{L}(G; H)$, và ngay lập tức thấy rằng tổng của nó là $\int U \, d\mu$ và rằng $\| \int U \, d\mu \| \leq \int \| U \| \, d\mu$.
 
-#### Nhận xét 2 {#int-vi-s1-n7-rem-2 .statement}
+#### Nhận xét 2 {#int-vi-s1-n7-rem-2 .statement tag=099B}
 
 Giả sử rằng $G = H$ là gần đầy đủ và rằng $U$ thỏa mãn các giả thiết của Mệnh đề 16. Cho M là một tập con trù mật của không gian $\mathscr{C}'(T)$ đối với tôpô yếu $\sigma(\mathscr{C}'(T), \mathscr{C}(T))$, và cho X là một không gian con tuyến tính đóng của H sao cho $U(\lambda)(X) \subset X$ với mọi độ đo $\lambda \in M$. Khi đó cũng có $U(t)(X) \subset X$ với mọi $t \in T$: thật vậy, với mọi $x \in X$ và mọi $x' \in H'$ trực giao với X, theo giả thiết $\langle U(\lambda) \cdot x, x' \rangle = 0$ với mọi $\lambda \in M$, điều này có thể viết là $\int \langle U(t) \cdot x, x' \rangle \, d\mu(t) = 0$. Hàm liên tục $t \mapsto \langle U(t) \cdot x, x' \rangle$, vì trực giao với M, do đó bằng 0, suy ra $\langle U(t) \cdot x, x' \rangle = 0$ với mọi $x' \in X^\circ$, do đó $U(t) \cdot x \in X$ với mọi $t \in T$ và $x \in X$, và điều này chứng minh mệnh đề của ta.
 

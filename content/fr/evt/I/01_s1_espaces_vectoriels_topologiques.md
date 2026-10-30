@@ -40,14 +40,14 @@ subsections:
       pdf_page: 15
 statements: 30
 exercises: 14
-content_sha256: 3897b88478d84bde6970bc91938e81f9b02c30561469e2401ff1cd7d3c0001bb
+content_sha256: 94b4d8239dc44a78b2cae560fddfe4859ab68de74cd50f77adaa63b95bd7b567
 ---
 
 ## § 1. ESPACES VECTORIELS TOPOLOGIQUES
 
 ### 1. Définition d’un espace vectoriel topologique
 
-#### Définition 1 {#evt-i-s1-def-1 .statement}
+#### Définition 1 {#evt-i-s1-def-1 .statement tag=077V}
 
 Étant donné un corps topologique K (TG, III, p. 54), on appelle espace vectoriel topologique à gauche sur K un ensemble E, muni :
   1° d’une structure d’espace vectoriel à gauche sur K ;
@@ -61,19 +61,19 @@ Une structure d’espace vectoriel à gauche par rapport à K et une topologie �
 
 Si E est un espace vectoriel topologique à gauche sur K, on dit que E, muni seulement de sa structure d’espace vectoriel, est sous-jacent à l’espace vectoriel topologique E.
 
-#### Exemple 1 {#evt-i-s1-n1-exa-1 .statement}
+#### Exemple 1 {#evt-i-s1-n1-exa-1 .statement tag=077W}
 
 Si E est un espace vectoriel à gauche sur un corps topologique discret K, la topologie discrète sur E est compatible avec la structure d’espace vectoriel de E (il n’en est pas de même si K est non discret et E non réduit à 0).
 
-#### Exemple 2 {#evt-i-s1-n1-exa-2 .statement}
+#### Exemple 2 {#evt-i-s1-n1-exa-2 .statement tag=0E4C}
 
 Soit A un anneau topologique (TG, III, p. 48) et soit K un sous-anneau de A qui est un corps, et tel que la topologie induite sur K par celle de A soit compatible avec la structure de corps de K ; alors la topologie de A est compatible avec sa structure d’espace vectoriel à gauche sur K.
 
-#### Exemple 3 {#evt-i-s1-n1-exa-3 .statement}
+#### Exemple 3 {#evt-i-s1-n1-exa-3 .statement tag=0E4D}
 
 Soient K un corps topologique quelconque, I un ensemble quelconque. Sur l’espace vectoriel produit $K_s^I$ (A, II, p. 10), la topologie produit est compatible avec la structure d’espace vectoriel (TG, III, p. 53). On peut encore dire que l’espace $K_s^I$ des applications de I dans K, muni de la topologie de la convergence simple, est un espace vectoriel topologique sur K (TG, X, p. 4).
 
-#### Exemple 4 {#evt-i-s1-n1-exa-4 .statement}
+#### Exemple 4 {#evt-i-s1-n1-exa-4 .statement tag=0E4E}
 
 Soit X un espace topologique ; sur l’ensemble E = $\mathscr{C}(X ; \mathbf{R})$ des fonctions numériques finies continues dans X, la topologie de la convergence compacte (TG, X, p. 4) est compatible avec la structure d’espace vectoriel de E sur $\mathbf{R}$. En effet, soient $u_0$ un point de E, H une partie compacte de X, $\varepsilon$ un nombre > 0 arbitraire. La fonction numérique $u_0$ est bornée dans H ; soit $a = \sup_{t \in H} |u_0(t)|$; si $u$ est un point quelconque de E, on peut écrire, pour tout $t \in H$,
 
@@ -89,7 +89,7 @@ ce qui montre que l’axiome (EVT) est vérifié ; on vérifie de même que la t
 
 Par contre, si X n’est pas compact, la topologie de la convergence uniforme (dans X) n’est pas nécessairement compatible avec la structure d’espace vectoriel de E ; par exemple si $X = \mathbf{R}$, et si $u_0$ est une fonction continue non bornée dans $\mathbf{R}$, l’application $\lambda \mapsto \lambda u_0$ de $\mathbf{R}$ dans E n’est pas continue quand on munit E de la topologie de la convergence uniforme.
 
-#### Exemple 5 {#evt-i-s1-n1-exa-5 .statement}
+#### Exemple 5 {#evt-i-s1-n1-exa-5 .statement tag=0E4F}
 
 Soit E un espace vectoriel de dimension finie $n$ sur un corps topologique K ; il existe donc un isomorphisme $u : K_s^n \to E$ de K-espaces vectoriels, et en outre, si $v$ est un second isomorphisme de $K_s^n$ sur E, on peut écrire $v = u \circ f$, où $f$ est un automorphisme du K-espace vectoriel $K_s^n$. Considérons alors sur $K_s^n$ la topologie produit, qui est compatible avec sa structure d’espace vectoriel (Exemple 3) ; comme toute application linéaire de $K_s^n$ dans lui-même est continue pour cette topologie, tout automorphisme de l’espace vectoriel $K_s^n$ est bicontinu. Par suite, si l’on transporte à E la topologie produit de $K_s^n$ au moyen d’un isomorphisme quelconque de $K_s^n$ sur E, la topologie obtenue sur E est indépendante de l’isomorphisme considéré ; on dit que c’est la topologie canonique sur E ; nous la caractériserons autrement (I, p. 14) lorsque K est un corps valué complet non discret. Toute application linéaire de E dans un espace vectoriel topologique sur K est continue pour la topologie canonique sur E.
 
@@ -113,13 +113,13 @@ l’axiome (EVT) est équivalent au système des trois axiomes suivants :
 
 En particulier :
 
-#### Proposition 1 {#evt-i-s1-prop-1 .statement}
+#### Proposition 1 {#evt-i-s1-prop-1 .statement tag=077X}
 
 *Pour tout* $\alpha \in K$ *et tout point* $b \in E$, *l’application* $x \mapsto \alpha x + b$ *de* $E$ *dans lui-même est continue.* *En outre, si* $\alpha \neq 0$, *cette application est un homéomorphisme de* $E$ *sur lui-même*.
 
 La seconde partie de la proposition résulte du fait que, si $\alpha \neq 0$, $x \mapsto \alpha^{-1} x - \alpha^{-1} b$ est l’application réciproque de $x \mapsto \alpha x + b$.
 
-#### Corollaire {#evt-i-s1-n1-cor-1 .statement}
+#### Corollaire {#evt-i-s1-n1-cor-1 .statement tag=077Y}
 
 *Si* $A$ *est un ensemble ouvert* (resp. *fermé*) *dans* $E$, $\alpha A$ *est ouvert* (resp. *fermé*) *dans* $E$ *pour tout* $\alpha \neq 0$ *dans* $K$.
 
@@ -133,7 +133,7 @@ Rappelons d’autre part (TG, IX, p. 31) que si $E$ est un espace vectoriel sur 
 
 On sait (TG, IX, p. 32) que deux normes distinctes sur $E$ peuvent définir la même topologie sur $E$ ; il faut et il suffit pour cela que les deux normes soient *équivalentes* (*loc. cit.*). Une structure d’espace normé est donc plus riche qu’une structure d’espace vectoriel topologique ; si E et F sont deux espaces normés, on aura soin de distinguer entre la notion d’isomorphisme de la structure d’espace normé de E sur celle de F, et la notion d’isomorphisme de la structure d’espace vectoriel topologique de E sur celle de F.
 
-#### Exemple {#evt-i-s1-n2-exa-1 .statement}
+#### Exemple {#evt-i-s1-n2-exa-1 .statement tag=077Z}
 
 Soit I un ensemble d’indices quelconque ; on sait (TG, X, p. 21) que sur l’ensemble $\mathscr{B}(I; K)$ des applications bornées $x = (\xi_j)$ de I dans K (qu’on note aussi $\mathscr{B}_K(I)$ ou $\ell_K^\infty(I)$), on définit une norme $\|x\| = \sup_{i \in I} |\xi_i|$. Lorsque I est un espace topologique, l’ensemble des applications bornées et continues de I dans K est un sous-espace fermé de l’espace $\mathscr{B}(I; K)$ (TG, X, p. 21, cor. 2). Un autre sous-espace de $\mathscr{B}(I; K)$ est l’ensemble $\ell_K^1(I)$ des familles $x = (\xi_i)$ absolument sommables (TG, IX, p. 36) ; on peut définir sur ce sous-espace une autre norme $\|x\|_1 = \sum_{i \in I} |\xi_i|$, qui en général n’est pas équivalente à la norme $\|x\| = \sup_{i \in I} |\xi_i|$ (I, p. 23, exerc. 6) ; quand on considère $\ell_K^1(I)$ comme un espace normé, sans préciser sa norme, c’est toujours de la norme $\|x\|_1$ qu’il s’agit. On écrira $\mathscr{B}(I)$ et $\ell^1(I)$ au lieu de $\mathscr{B}(I; \mathbf{R})$ et $\ell^1_\mathbf{R}(I)$.
 
@@ -149,7 +149,7 @@ Pour certains types d’espaces vectoriels topologiques sur le corps $\mathbf{R}
 
 Tout ce qui a été dit sur les sommes directes finies de sous-groupes stables de groupes topologiques à opérateurs (TG, III, p. 46-48) s’applique aux espaces vectoriels topologiques en remplaçant partout « sous-groupe stable » par « sous-espace vectoriel ».
 
-#### Remarque {#evt-i-s1-n3-rem-1 .statement}
+#### Remarque {#evt-i-s1-n3-rem-1 .statement tag=0780}
 
 Étant donné un sous-espace vectoriel fermé M d’un espace vectoriel topologique séparé E, il n’existe pas nécessairement de sous-espace vectoriel supplémentaire (algébrique) de M qui soit fermé dans E (même si E est un espace normé ; cf. IV, p. 55, exerc. 16, c)) ; à plus forte raison il n’existe pas nécessairement de supplémentaire topologique de M dans E (cf. I, p. 26, exerc. 8). Toutefois, nous verrons au § 2 que lorsque K est un corps valué complet non discret, tout sous-espace fermé M de E, de codimension finie, admet un supplémentaire topologique dans E (I, p. 15, prop. 3).
 
@@ -157,21 +157,21 @@ Tout ce qui a été dit sur les sommes directes finies de sous-groupes stables d
 
 La topologie d’un espace vectoriel topologique E, étant compatible avec la structure de groupe additif de E, définit sur E une structure uniforme (TG, III, p. 20) ; lorsque nous parlerons de la structure uniforme d’un espace vectoriel topologique, c’est toujours de cette structure qu’il sera question, sauf mention expresse du contraire. Toute application linéaire continue d’un espace vectoriel topologique E dans un espace vectoriel topologique F est uniformément continue (TG, III, p. 21, prop. 3) ; toute application de E dans lui-même de la forme $x \mapsto \alpha x + b$ est uniformément continue. Un ensemble équicontinu d’applications linéaires de E dans F est uniformément équicontinu (TG, X, p. 15, prop. 5).
 
-#### Remarque 1 {#evt-i-s1-n4-rem-1 .statement}
+#### Remarque 1 {#evt-i-s1-n4-rem-1 .statement tag=0781}
 
 Si B est une partie précompacte de K, alors, pour tout voisinage V de 0 dans E, il y a un voisinage U de 0 dans E tel que BU ⊂ V. En effet, soit W un voisinage de 0 dans E tel que W + W ⊂ V ; il y a un voisinage T_0 de 0 dans K et un voisinage U_0 de 0 dans E tels que T_0 U_0 ⊂ W, en vertu de (EVT'_III). Comme B est précompact, il y a un nombre fini de points $\lambda_i \in B$ (1 ≤ i ≤ n) tels que les $\lambda_i + T_0$ recouvrent B ; en vertu de (EVT'_II), il y a ensuite un voisinage U ⊂ U_0 de 0 dans E tel que $\lambda_i U \subset W$ pour tout i ; il est clair que U répond à la question. De la même façon (en utilisant (EVT'_I) au lieu de (EVT'_II)), on montre que si H est une partie précompacte de E, alors, pour tout voisinage V de 0 dans E, il y a un voisinage T de 0 dans K tel que TH ⊂ V.
 
-#### Remarque 2 {#evt-i-s1-n4-rem-2 .statement}
+#### Remarque 2 {#evt-i-s1-n4-rem-2 .statement tag=0782}
 
 On déduit de 1) que, si B est une partie précompacte de K et H une partie précompacte de E, alors la restriction à B × H de l’application ($\lambda, x$ ↦ $\lambda x$) est uniformément continue. En effet, étant donné un voisinage V de 0 dans E, il y a un voisinage T de 0 dans K et un voisinage U de 0 dans E tels que TH + BU ⊂ V. Comme on peut écrire $\lambda x - \lambda' x' = (\lambda - \lambda') x + \lambda'(x - x')$, on voit que pour $\lambda, \lambda'$ dans B, x, x' dans H, $\lambda - \lambda' \in T$ et $x - x' \in U$, on a $\lambda x - \lambda' x' \in V$, ce qui prouve notre assertion.
 
 Un espace vectoriel topologique est dit complet si, muni de sa structure uniforme, c’est un espace uniforme complet.
 
-#### Définition 2 {#evt-i-s1-def-2 .statement}
+#### Définition 2 {#evt-i-s1-def-2 .statement tag=0783}
 
 On appelle espace de Banach un espace normé complet sur un corps valué non discret.
 
-#### Exemple {#evt-i-s1-n4-exa-1 .statement}
+#### Exemple {#evt-i-s1-n4-exa-1 .statement tag=0784}
 
 Lorsque K est un corps valué non discret et complet, l’espace $\mathscr{B}(I; K)$ (I, p. 4, Exemple) est complet (TG, X, p. 21, cor. 1). Il en est de même de l’espace $\ell_K^1(I)$ (I, p. 4, Exemple), muni de la norme $\|x\|_1 = \sum_{i \in I} |\xi_i|$ : en effet, soit $(x_n)$ une suite de Cauchy dans cet espace ; si $x_n = (\xi_{n,i})_{i \in I}$, on a, pour tout $i \in I$,
 $$
@@ -188,11 +188,11 @@ Soient $K$ un corps topologique séparé, $E$ un espace vectoriel topologique su
 
 ### 5. Voisinages de l’origine dans un espace vectoriel topologique sur un corps valué
 
-#### Définition 3 {#evt-i-s1-def-3 .statement}
+#### Définition 3 {#evt-i-s1-def-3 .statement tag=0785}
 
 Soient $K$ un corps valué, $E$ un espace vectoriel à gauche sur $K$; on dit qu’une partie $M$ de $E$ est équilibrée si, pour tout $x \in M$ et tout $\lambda \in K$ tel que $|\lambda| \leq 1$, on a $\lambda x \in M$ (ou, en d’autres termes, si $\lambda M \subset M$ pour $|\lambda| \leq 1$).
 
-#### Proposition 2 {#evt-i-s1-prop-2 .statement}
+#### Proposition 2 {#evt-i-s1-prop-2 .statement tag=0786}
 
 Dans un espace vectoriel topologique $E$ sur un corps valué $K$, l’adhérence d’un ensemble équilibré $M$ est un ensemble équilibré.
 
@@ -200,7 +200,7 @@ En effet, soit $B$ l’ensemble des $\xi \in K$ tels que $|\xi| \leq 1$; il est 
 
 Lorsque $M$ est un ensemble quelconque dans un espace vectoriel $E$ sur un corps valué $K$, l’ensemble $M_1$ des $\lambda x$, où $x$ parcourt $M$ et $\lambda$ l’ensemble des éléments de $K$ tels que $|\lambda| \leq 1$, est évidemment le plus petit ensemble équilibré contenant $M$; on l’appelle l’enveloppe équilibrée de $M$.
 
-#### Proposition 3 {#evt-i-s1-prop-3 .statement}
+#### Proposition 3 {#evt-i-s1-prop-3 .statement tag=0787}
 
 Soit $K$ un corps valué localement compact et non discret, et soit $E$ un espace vectoriel topologique séparé (resp. un espace vectoriel topologique) sur $K$. Pour toute partie compacte (resp. précompacte) $H$ de $E$, l’enveloppe équilibrée de $H$ est compacte (resp. précompacte).
 
@@ -210,13 +210,13 @@ On notera que l’enveloppe équilibrée d’un ensemble fermé n’est pas néc
 
 Comme la réunion d’une famille de parties équilibrées de E est équilibrée, pour toute partie M de E, il y a un plus grand ensemble équilibré N contenu dans M, que l’on appelle le noyau équilibré de M ; pour qu’il soit non vide, il faut et il suffit que $0 \in M$. Dire que $x \in N$ signifie que, pour tout $\lambda \in K$ tel que $|\lambda| \leq 1$, on a $\lambda x \in M$, ou encore (si $0 \in M$) que, pour tout $\mu \in K$ tel que $|\mu| \geq 1$, on a $x \in \mu M$. Si $0 \in M$, le noyau équilibré N de M est donc l’intersection $\bigcap_{|\mu| \geq 1} \mu M$. Ceci montre en particulier que si M est fermé, il en est de même de N.
 
-#### Définition 4 {#evt-i-s1-def-4 .statement}
+#### Définition 4 {#evt-i-s1-def-4 .statement tag=0788}
 
 Soient K un corps valué non discret, E un espace vectoriel à gauche sur K, A et B deux parties de E. On dit que A absorbe B s’il existe $\alpha > 0$ tel que l’on ait $\lambda A \supset B$ pour $|\lambda| \geq \alpha$ (ce qui équivaut à $\mu B \subset A$ pour $\mu \neq 0$ et $|\mu| \leq \alpha^{-1}$). Une partie A de E est dite absorbante si elle absorbe toute partie réduite à un point.
 
 Soit A une partie équilibrée de E ; pour qu’elle absorbe une partie B de E, il suffit qu’il existe $\lambda \neq 0$ tel que $\lambda A \supset B$; en effet, pour $|\mu| \geq |\lambda|$, on a $\lambda A = (\lambda \mu^{-1}) \mu A$, et comme $\mu A$ est équilibré et $|\lambda \mu^{-1}| \leq 1$, $\lambda A \subset \mu A$, d’où $B \subset \mu A$. En particulier, pour qu’une partie équilibrée A de E soit absorbante, il faut et il suffit que pour tout $x \in E$, il existe $\lambda \neq 0$ dans K tel que $\lambda x \in A$. Toute partie absorbante de E engendre l’espace vectoriel E. Toute intersection finie d’ensembles absorbants est un ensemble absorbant.
 
-#### Proposition 4 {#evt-i-s1-prop-4 .statement}
+#### Proposition 4 {#evt-i-s1-prop-4 .statement tag=0789}
 
 Dans un espace vectoriel topologique E sur un corps valué non discret K, il existe un système fondamental $\mathscr{B}$ de voisinages fermés de 0, tel que :
 (EV₁) Tout ensemble $V \in \mathscr{B}$ est équilibré et absorbant.
@@ -229,17 +229,17 @@ Remarquons d’abord qu’en vertu de l’axiome (EVT'₃), le noyau équilibré
 
 Soient maintenant E un espace vectoriel sur K, et $\mathscr{B}$ une base de filtre sur E satisfaisant à (EV₁), (EV₂) et (EV₃). L’axiome (EV₁) montre d’abord que pour tout $V \in \mathscr{B}$, on a $-V = V$ et $0 \in V$; ces relations et l’axiome (EV₃) montrent que $\mathscr{B}$ est un système fondamental de voisinages de 0 pour une topologie sur E compatible avec la structure de groupe additif de E (TG, III, p. 4). Comme d’autre part les axiomes (EVT₁'), (EVT₂') et (EVT₃') sont des conséquences immédiates de (EV₁) et (EV₂), la topologie ainsi définie satisfait à l’axiome (EVT), ce qui achève la démonstration.
 
-#### Remarque 1 {#evt-i-s1-n5-rem-1 .statement}
+#### Remarque 1 {#evt-i-s1-n5-rem-1 .statement tag=078A}
 
 Dans un espace normé sur un corps valué non discret, l’ensemble des boules ouvertes (resp. des boules fermées) de centre 0 est un système fondamental de voisinages de 0 qui satisfait aux conditions (EV₁), (EV₂) et (EV₃).
 
-#### Remarque 2 {#evt-i-s1-n5-rem-2 .statement}
+#### Remarque 2 {#evt-i-s1-n5-rem-2 .statement tag=078B}
 
 Lorsque le corps K des scalaires est le corps $\mathbf{R}$ ou le corps $\mathbf{C}$, toute base de filtre $\mathscr{B}$ sur E qui satisfait aux deux seuls axiomes (EV₁) et (EV₃) est un système fondamental de voisinages de 0 pour une topologie compatible avec la structure d’espace vectoriel de E. En effet, tout revient à prouver que, dans ces conditions, pour tout $\lambda \neq 0$ dans K et tout $V \in \mathscr{B}$, il existe $W \in \mathscr{B}$ tel que $\lambda W \subset V$. Or, il résulte aussitôt de (EV₃) qu’il existe $W_1 \in \mathscr{B}$ tel que $2W_1 \subset V$, d’où on déduit, par récurrence sur n, que pour tout entier $n > 0$ il existe $W_n \in \mathscr{B}$ tel que $2^n W_n \subset V$. Comme V est équilibré, il suffit de prendre n assez grand pour que $2^n = |2^n| > |\lambda|$; $W = W_n$ répond à la question.
 
 Ce résultat ne s’étend pas à un corps valué non discret K quelconque, car dans un tel corps on n’a plus nécessairement $|m\varepsilon| = m$ pour tout entier naturel m ($\varepsilon$ désignant l’élément unité du corps ; cf. I, p. 22, exerc. 1).
 
-#### Remarque 3 {#evt-i-s1-n5-rem-3 .statement}
+#### Remarque 3 {#evt-i-s1-n5-rem-3 .statement tag=078C}
 
 Si K est un corps discret, les conditions (EVT₁') et (EVT₃') sont vérifiées pour une topologie quelconque sur E. En raisonnant comme dans la prop. 4, on voit aisément que si E est un espace vectoriel topologique sur K, il existe un système fondamental $\mathscr{B}$ de voisinages fermés de 0 dans E satisfaisant aux conditions (EV₂) et (EV₃). Réciproquement, si une base de filtre $\mathscr{B}$ sur un espace vectoriel E par rapport à K est telle que 0 appartienne à tous les ensembles de $\mathscr{B}$, et satisfait à (EV₂) et (EV₃), $\mathscr{B}$ est un système fondamental de voisinages de 0 pour une topologie compatible avec la structure d’espace vectoriel de E.
 
@@ -247,7 +247,7 @@ Si K est un corps discret, les conditions (EVT₁') et (EVT₃') sont vérifiée
 
 Soient E et F deux espaces vectoriels topologiques sur un même corps K ; pour qu’une application linéaire $f$ de E dans F soit continue, il suffit qu’elle soit continue à l’origine (TG, III, p. 15, prop. 23). Cette proposition se généralise de la façon suivante :
 
-#### Proposition 5 {#evt-i-s1-prop-5 .statement}
+#### Proposition 5 {#evt-i-s1-prop-5 .statement tag=078D}
 
 Soient $E_i$ (1 $\leq i \leq n$) et F des espaces vectoriels topologiques sur un corps valué commutatif et non discret K. Pour qu’une application multilinéaire $f$ de $\prod_{i=1}^n E_i$ dans F soit continue dans l’espace produit $\prod_{i=1}^{n'} E_i$, il suffit qu’elle soit continue au point (0, 0, ..., 0).
 
@@ -265,7 +265,7 @@ $$
 
 où H parcourt les $2^n - 1$ parties de l’intervalle $I = \{1, n\}$ de $\mathbf{N}$ distinctes de I, et où, pour chaque H, on a $u_H = f(y_1, y_2, ..., y_n)$, avec $y_i = a_i$ pour $i \in H$ et $y_i = z_i$ pour $i \notin H$. Il existe $2^n - 1$ voisinages équilibrés $W_H$ de 0 dans F tels que $\sum_H W_H \subset W$; d’autre part, comme $f$ est continue au point $(0, ..., 0)$ par hypothèse, il existe dans chaque $E_i$ un voisinage $U_i$ de 0 $(1 \leq i \leq n)$ tel que les $n$ relations $x_i \in U_i$ entraînent $f(x_1, ..., x_n) \in \bigcap_H W_H$. Comme $U_i$ est absorbant, il existe $\lambda_i \neq 0$ dans K tel que $\lambda_i a_i \in U_i$. Soit $\lambda$ un élément de K tel que $|\lambda| \geq \prod_{i \in H} |\lambda_i|^{-1}$ pour toute partie H de I ; montrons que les voisinages $V_i = \lambda^{-1} U_i$ répondent à la question. En effet, si $p$ est le nombre d’éléments de $I - H$, on peut alors écrire $u_H = \mu f(x_1, ..., x_n)$, avec $x_i \in U_i$ pour $1 \leq i \leq n$, et $\mu = \lambda^{-np} (\prod_{i \in H} \lambda_i^{-1})$, et il résulte des choix précédents que $|\mu| \leq 1$, d’où $u_H \in \mu W_H \subset W_H$, puisque $W_H$ est équilibré. La proposition est donc démontrée.
 
-#### Proposition 6 {#evt-i-s1-prop-6 .statement}
+#### Proposition 6 {#evt-i-s1-prop-6 .statement tag=078E}
 
 *Les hypothèses sur $E_i$ ($1 \leq i \leq n$) et F étant celles de la prop. 5, pour qu’un ensemble $\mathscr{E}$ d’applications multilinéaires de $\prod_{i=1}^n E_i$ dans F soit équicontinu, il suffit qu’il soit équicontinu au point $(0, 0, ..., 0)$*.
 
@@ -273,13 +273,13 @@ En effet, dans la démonstration de la prop. 5, les $U_i$ ($1 \leq i \leq n$) pe
 
 ### 7. Topologies initiales d’espaces vectoriels
 
-#### Proposition 7 {#evt-i-s1-prop-7 .statement}
+#### Proposition 7 {#evt-i-s1-prop-7 .statement tag=078F}
 
 *Soit $(E_i)_{i \in I}$ une famille d’espaces vectoriels topologiques sur un corps topologique K. Soit E un espace vectoriel sur K, et pour chaque $i \in I$, soit $f_i$ une application linéaire de E dans $E_i$. Alors la moins fine des topologies sur E qui rendent continues toutes les fonctions $f_i$ est une topologie $\mathscr{T}$ compatible avec la structure d’espace vectoriel de E. En outre, si pour tout $x \in E$, $\varphi(x)$ désigne le point $(f_i(x))$ de l’espace produit $F = \prod_{i \in I} E_i$, la topologie $\mathscr{T}$ est l’image réciproque par l’application linéaire $\varphi$ de la topologie du sous-espace $\varphi(E)$ de F.*
 
 La dernière partie de la proposition est un cas particulier de TG, I, p. 26, prop. 3. La proposition est alors conséquence du lemme suivant :
 
-#### Lemme {#evt-i-s1-n7-lem-1 .statement}
+#### Lemme {#evt-i-s1-n7-lem-1 .statement tag=078G}
 
 *Soient M et N deux espaces vectoriels, g une application linéaire de M dans N. Si $\mathscr{T}_0$ est une topologie compatible avec la structure d’espace vectoriel de N, l’image réciproque de $\mathscr{T}_0$ par g est compatible avec la structure d’espace vectoriel de M.*
 
@@ -287,22 +287,22 @@ Montrons par exemple que $(\lambda, x) \mapsto \lambda x$ est continue en tout p
 
 Pour chaque indice $i \in I$, soit $\mathscr{B}_i$ un système fondamental de voisinages de 0 dans $E_i$. D’après la définition de la topologie $\mathscr{T}$, le filtre des voisinages de 0 pour cette topologie est engendré par la réunion des ensembles de parties $\overline{f_i^{-1}}(\mathscr{B}_i)$; autrement dit, les ensembles de la forme $\bigcap_k \overline{f_{i_k}^{-1}}(V_{i_k})$ forment un système fondamental de voisinages de 0 pour $\mathscr{T}$, $(i_k)_{1 \leq k \leq n}$ étant une suite finie quelconque d’indices de $I$, et, pour chaque indice $k$, $V_{i_k}$ un ensemble quelconque de $\mathscr{B}_{i_k}$.
 
-#### Corollaire 1 {#evt-i-s1-prop-7-cor-1 .statement}
+#### Corollaire 1 {#evt-i-s1-prop-7-cor-1 .statement tag=078H}
 
 *Soit G un espace vectoriel topologique sur K. Pour qu’un ensemble H d’applications de G dans E soit équicontinu, il faut et il suffit que, pour tout $i \in I$, l’ensemble des $f_i \circ u$, où $u$ parcourt H, soit équicontinu.*
 C’est un cas particulier de TG, X, p. 14, prop. 3.
 
-#### Corollaire 2 {#evt-i-s1-prop-7-cor-2 .statement}
+#### Corollaire 2 {#evt-i-s1-prop-7-cor-2 .statement tag=078I}
 
 *Les espaces $E_i$ étant supposés séparés, pour que la topologie $\mathscr{T}$ soit séparée, il faut et il suffit que, pour tout $x \neq 0$ dans $E$, il existe un indice $i \in I$ tel que $f_i(x) \neq 0$.*
 En effet, $\varphi(E)$ est alors un espace séparé, et pour que $\mathscr{T}$ soit séparée, il faut et il suffit évidemment que $\varphi$ soit injective; on notera qu’on peut alors identifier $E$ (muni de $\mathscr{T}$) au sous-espace $\varphi(E)$ de $\prod_{i \in I} E_i$ par l’application $\varphi$.
 
-#### Corollaire 3 {#evt-i-s1-prop-7-cor-3 .statement}
+#### Corollaire 3 {#evt-i-s1-prop-7-cor-3 .statement tag=078J}
 
 *Supposons les $E_i$ complets et $\varphi(E)$ fermé dans $F = \prod_{i \in I} E_i$. Alors E est complet pour la topologie $\mathscr{T}$.*
 En effet, le sous-espace $\varphi(E)$ de $F$ est alors complet (TG, II, p. 16, prop. 8 et p. 17, prop. 10), donc il en est de même de $E$ pour la topologie image réciproque par $\varphi$ de celle de $\varphi(E)$ (TG, I, p. 51, prop. 10, et TG, II, p. 13, prop. 4).
 
-#### Exemple {#evt-i-s1-n7-exa-1 .statement}
+#### Exemple {#evt-i-s1-n7-exa-1 .statement tag=078K}
 
 Soient $\mathscr{D}'(\mathbf{R})$ l’espace des distributions sur $\mathbf{R}$, $p$ un nombre tel que $1 \leq p \leq +\infty$, $j : L^p(\mathbf{R}) \to \mathscr{D}'(\mathbf{R})$ l’injection canonique, qui est continue (lorsque $L^p(\mathbf{R})$ est muni de sa topologie d’espace normé et $\mathscr{D}'(\mathbf{R})$ de la topologie forte). Pour toute distribution $f \in \mathscr{D}'(\mathbf{R})$, $D(f)$ désigne sa dérivée; on rappelle que $f \mapsto D(f)$ est un endomorphisme continu de $\mathscr{D}'(\mathbf{R})$. Soit alors $E$ le sous-espace vectoriel de $L^p(\mathbf{R})$ formé des $f \in L^p(\mathbf{R})$ telles que $D(f) \in L^p(\mathbf{R})$, et munissons $E$ de la topologie la moins fine rendant continues les injections canoniques $i : E \to L^p(\mathbf{R})$ et $D : E \to L^p(\mathbf{R})$ ($L^p(\mathbf{R})$ étant muni de sa topologie d’espace normé). Pour cette topologie, l’espace $E$ est *complet*. En effet, l’image de $E$ dans $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ par l’application $\varphi : f \mapsto (f, D(f))$ est fermée, car c’est la trace sur $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ de l’image G de $\mathscr{D}'(\mathbf{R})$ dans $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ par l’application
 
@@ -312,7 +312,7 @@ $$
 
 or G est le graphe de $\varphi_0$, donc est fermé dans $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ (TG, I, p. 53, cor. 2 de la prop. 2), et comme $\varphi(E)$ est l’image réciproque de G par $i \times i$, qui est continue, $\varphi(E)$ est fermé dans F. \*
 
-#### Corollaire 4 {#evt-i-s1-prop-7-cor-4 .statement}
+#### Corollaire 4 {#evt-i-s1-prop-7-cor-4 .statement tag=078L}
 
 *Soit E un espace vectoriel sur un corps topologique K, et soit $(\mathscr{T}_i)_{i \in I}$ une famille de topologies compatibles avec la structure d’espace vectoriel de E ; alors la borne supérieure $\mathscr{T}$ des topologies $\mathscr{T}_i$ est compatible avec la structure d’espace vectoriel de E.*
 

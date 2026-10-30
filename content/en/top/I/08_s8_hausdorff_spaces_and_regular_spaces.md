@@ -37,14 +37,14 @@ subsections:
       pdf_page: 88
 statements: 30
 exercises: 29
-content_sha256: 98845ffd2740176e29b6995e11ec7071d0b41b4e401755540de68e36ff921fc8
+content_sha256: daafa83709f77ca8c5f24c854acb749ef62cc4f8fd95a86660a5a0aa731a2fec
 ---
 
 ## 8. HAUSDORFF SPACES AND REGULAR SPACES
 
 ### 1. HAUSDORFF SPACES
 
-#### Proposition 1 {#top-i-s8-prop-1 .statement}
+#### Proposition 1 {#top-i-s8-prop-1 .statement tag=0B65}
 
 Let $X$ be a topological space. Then the following statements are equivalent:
 
@@ -84,13 +84,13 @@ $$
 V \cap W = \varnothing.
 $$
 
-#### Definition 1 {#top-i-s8-def-1 .statement}
+#### Definition 1 {#top-i-s8-def-1 .statement tag=0B66}
 
 *A topological space satisfying the conditions of Proposition 1 is called a Hausdorff or separated space; the topology of such a space is said to be a Hausdorff topology.*
 
 Axiom (H) is *Hausdorff’s axiom*.
 
-#### Example {#top-i-s8-n1-exa-1 .statement}
+#### Example {#top-i-s8-n1-exa-1 .statement tag=0B67}
 
 Any discrete space is Hausdorff. The rational line $Q$ is Hausdorff, for if $x, y$ are two rational numbers such that $x < y$ then there is a rational number $z$ such that $x < z < y$, and the neighbourhoods ]$\leftarrow, z[$ of $x$ and ]$z, \rightarrow[$ of $y$ do not intersect.
 
@@ -98,25 +98,25 @@ A set $X$ having at least two points and carrying the coarsest topology (§ 2, n
 
 Let $f : X \to Y$ be a mapping of a set $X$ into a *Hausdorff* space $Y$; then it follows immediately from Proposition 1 that $f$ can have *at most one limit* with respect to a filter $\mathfrak{F}$ on $X$, and that if $f$ has $y$ as a limit with respect to $\mathfrak{F}$, then $y$ is *the only cluster point* of $f$ with respect to $\mathfrak{F}$.
 
-#### Proposition 2 {#top-i-s8-prop-2 .statement}
+#### Proposition 2 {#top-i-s8-prop-2 .statement tag=0B68}
 
 *Let $f, g$ be two continuous mappings of a topological space $X$ into a Hausdorff space $Y$; then the set of all $x \in X$ such that $f(x) = g(x)$ is closed in $X$.*
 
 For this set is the inverse image of the diagonal of $Y \times Y$ under the mapping $x \mapsto (f(x), g(x))$, which is continuous (§ 4, no. 1, Proposition 1). The result therefore follows from (Hii) and § 2, no. 1, Theorem 1.
 
-#### Corollary 1 (Principle of extension of identities) {#top-i-s8-prop-2-cor-1 .statement}
+#### Corollary 1 (Principle of extension of identities) {#top-i-s8-prop-2-cor-1 .statement tag=0B69}
 
 *Let $f, g$ be two continuous mappings of a topological space $X$ into a Hausdorff space $Y$. If $f(x) = g(x)$ at all points of a dense subset of $X$, then $f = g$.*
 
 In other words, a continuous map of $X$ into $Y$ (Hausdorff) is uniquely determined by its values at all points of a dense subset of $X$.
 
-#### Corollary 2 {#top-i-s8-prop-2-cor-2 .statement}
+#### Corollary 2 {#top-i-s8-prop-2-cor-2 .statement tag=0B6A}
 
 *If $f$ is a continuous mapping of a topological space $X$ into a Hausdorff space $Y$, then the graph of $f$ is closed in $X \times Y$.*
 
 For this graph is the set of all $(x, y) \in X \times Y$ such that $f(x) = y$, and the two mappings $(x, y) \to y$ and $(x, y) \to f(x)$ are continuous.
 
-#### Proposition 3 {#top-i-s8-prop-3 .statement}
+#### Proposition 3 {#top-i-s8-prop-3 .statement tag=0B6B}
 
 *Let $(x_i)_{1 \leq i \leq n}$ be a finite family of distinct points of a Hausdorff space $X$; then each $x_i$ has a neighbourhood $V_i$ in $X$ such that the $V_i$ ($1 \leq i \leq n$) are mutually disjoint.*
 
@@ -126,23 +126,23 @@ V_n = \bigcap_{i=1}^{n-1} U_i,
 $$
 the conditions of the proposition are satisfied.
 
-#### Corollary {#top-i-s8-n1-cor-1 .statement}
+#### Corollary {#top-i-s8-n1-cor-1 .statement tag=0B6C}
 
 *Every finite Hausdorff space is discrete.*
 
-#### Proposition 4 {#top-i-s8-prop-4 .statement}
+#### Proposition 4 {#top-i-s8-prop-4 .statement tag=0B6D}
 
 *Every finite subset of a Hausdorff space is closed.*
 
 For every subset consisting of a single point is closed by reason of axiom (H\textsuperscript{i}).
 
-#### Proposition 5 {#top-i-s8-prop-5 .statement}
+#### Proposition 5 {#top-i-s8-prop-5 .statement tag=0B6E}
 
 *Let $X$ be a topological space and suppose that for each pair of distinct points $x, y$ of $X$ there is a continuous mapping $f$ of $X$ into a Hausdorff space $X'$ such that $f(x) \neq f(y)$. Then $X$ is Hausdorff.*
 
 Let $V'$ and $W'$ be disjoint neighbourhoods of $f(x)$ and $f(y)$ respectively in $X'$; then $\overline{f}^{-1}(V')$ and $\overline{f}^{-1}(W')$ are disjoint neighbourhoods of $x$ and $y$ respectively in $X$.
 
-#### Corollary {#top-i-s8-n1-cor-2 .statement}
+#### Corollary {#top-i-s8-n1-cor-2 .statement tag=0B6F}
 
 *Every topology which is finer than a Hausdorff topology is Hausdorff.*
 
@@ -150,7 +150,7 @@ Let $V'$ and $W'$ be disjoint neighbourhoods of $f(x)$ and $f(y)$ respectively i
 
 *A subspace $A$ of a Hausdorff space $X$ is Hausdorff*, as we see by applying Proposition 5 of no. 1 to the canonical injection $A \to X$. Conversely, we have
 
-#### Proposition 6 {#top-i-s8-prop-6 .statement}
+#### Proposition 6 {#top-i-s8-prop-6 .statement tag=0B6G}
 
 *If every point of a topological space $X$ has a closed neighbourhood which is a Hausdorff subspace of $X$, then $X$ is Hausdorff.*
 
@@ -158,19 +158,19 @@ Let $x \in X$ and let $V$ be a closed neighbourhood of $x$ in $X$ such that the 
 
 There exist *non-Hausdorff* spaces in which every point has a Hausdorff neighbourhood (Exercise 7).
 
-#### Proposition 7 {#top-i-s8-prop-7 .statement}
+#### Proposition 7 {#top-i-s8-prop-7 .statement tag=0B6H}
 
 *Every product of Hausdorff spaces is Hausdorff. Conversely, if a product of non-empty spaces is Hausdorff, then each factor is a Hausdorff space.*
 
 Let $X = \prod_{i \in I} X_i$ be a product of topological spaces. Then if $x, y$ are two distinct points of $X$, we have $\operatorname{pr}_i x \neq \operatorname{pr}_i y$ for some index $i$, and Proposition 5 of no. 1 shows that $X$ is Hausdorff if the $X_i$ are. Conversely, if $X$ is Hausdorff and the $X_i$ are non-empty, then each $X_i$ is homeomorphic to a subspace of $X$ (§ 4, no. 2, Proposition 4) and is therefore Hausdorff.
 
-#### Corollary 1 {#top-i-s8-prop-7-cor-1 .statement}
+#### Corollary 1 {#top-i-s8-prop-7-cor-1 .statement tag=0B6I}
 
 *Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of Hausdorff topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $X$ carry the coarsest topology $\mathfrak{T}$ for which the $f_i$ are continuous. Then a necessary and sufficient condition for $X$ to be Hausdorff is that for each pair of distinct points $x, y$ of $X$ we have $f_i(x) \neq f_i(y)$ for some index $i \in I$.*
 
 The condition is sufficient by reason of Proposition 5 of no. 1. Conversely, suppose $X$ is Hausdorff; let $Y = \prod_{i \in I} Y_i$ and let $f = (f_i)_{i \in I}$ be the mapping $x \to (f_i(x))$. By Proposition 7 above $Y$ is Hausdorff, and by Proposition 3 of § 4, no. 1, $\mathfrak{T}$ is the inverse image under $f$ of the topology of $Y$. If $f(x) = f(y)$ for two distinct points $x, y$ of $X$ it is clear that every open set (in the topology $\mathfrak{T}$) which contains $x$ also contains $y$, contrary to the hypothesis that $X$ is Hausdorff.
 
-#### Corollary 2 {#top-i-s8-prop-7-cor-2 .statement}
+#### Corollary 2 {#top-i-s8-prop-7-cor-2 .statement tag=0B6J}
 
 *Let $(X_\alpha, f_{\alpha \beta})$ be an inverse system of topological spaces. If the $X_\alpha$ are Hausdorff, then $X = \varprojlim X_\alpha$ is Hausdorff and is a closed subspace of $\prod_\alpha X_\alpha$.
 
@@ -184,7 +184,7 @@ Let us look for conditions under which a quotient space $X/R$ is *Hausdorff* (in
 
 The definition of open sets in $X/R$ gives rise to the following necessary and sufficient condition: $X/R$ is Hausdorff if and only if any two distinct equivalence classes in $X$ are contained in disjoint saturated open subsets of $X$. We shall give other more usable conditions.
 
-#### Proposition 8 {#top-i-s8-prop-8 .statement}
+#### Proposition 8 {#top-i-s8-prop-8 .statement tag=0B6K}
 
 *A necessary condition for the quotient space $X/R$ to be Hausdorff is that the graph $C$ of $R$ is closed in $X \times X$. If the equivalence relation $R$ is open, this condition is also sufficient.*
 
@@ -196,11 +196,11 @@ To show that $X/R$ is Hausdorff we can also apply Proposition 5 of no. 1: $M$ an
 
 In particular:
 
-#### Proposition 9 {#top-i-s8-prop-9 .statement}
+#### Proposition 9 {#top-i-s8-prop-9 .statement tag=0B6L}
 
 *If $f$ is a continuous mapping of a topological space $X$ into a Hausdorff space $X'$, and $R$ is the equivalence relation $f(x) = f(y)$, then the quotient space $X/R$ is Hausdorff.*
 
-#### Proposition 10 {#top-i-s8-prop-10 .statement}
+#### Proposition 10 {#top-i-s8-prop-10 .statement tag=0B6M}
 
 *If $X$ is a Hausdorff space, and if $X$ has a continuous section $s$ with respect to the equivalence relation $R$, then $X/R$ is Hausdorff and $s(X/R)$ is closed in $X$.*
 
@@ -208,7 +208,7 @@ For ($§ 3$, no. 5) $X/R$ is homeomorphic to the subspace $s(X/R)$ of $X$, which
 
 ### 4. REGULAR SPACES
 
-#### Proposition 11 {#top-i-s8-prop-11 .statement}
+#### Proposition 11 {#top-i-s8-prop-11 .statement tag=0B6N}
 
 The following properties of a topological space $X$ are equivalent:
 
@@ -220,39 +220,39 @@ The following properties of a topological space $X$ are equivalent:
 
 (O'_{III}) \Longrightarrow (O_{III}): If $W$ is an open neighbourhood of $x \in X$, then there is a neighbourhood $U$ of $x$ and a neighbourhood $V$ of $C_W$ which are disjoint, and therefore $\overline{U} \subset W$.
 
-#### Definition 2 {#top-i-s8-def-2 .statement}
+#### Definition 2 {#top-i-s8-def-2 .statement tag=0B6O}
 
 A topological space is said to be regular if it is Hausdorff and satisfies axiom (O_{III}); its topology is then said to be regular.
 
 A discrete space is regular. \* We shall see in § 9 that every locally compact space (in particular the real line $\mathbf{R}$) is regular. \*
 
-#### Proposition 12 {#top-i-s8-prop-12 .statement}
+#### Proposition 12 {#top-i-s8-prop-12 .statement tag=0B6P}
 
 Every subspace of a regular space is regular.
 
 Let $A$ be a subspace of a regular space $X$. Since $X$ is Hausdorff, so is $A$ (no. 2); on the other hand, every neighbourhood of a point $x \in A$ with respect to $A$ is of the form $V \cap A$, where $V$ is a neighbourhood of $x$ in $X$. Since $X$ is regular there is a neighbourhood $W$ of $x$ in $X$ which is closed in $X$ and contained in $V$; $W \cap A$ is then a neighbourhood of $x$ in $A$, closed in $A$ and contained in $V \cap A$. Hence the result. Conversely:
 
-#### Proposition 13 {#top-i-s8-prop-13 .statement}
+#### Proposition 13 {#top-i-s8-prop-13 .statement tag=0B6Q}
 
 If every point $x$ of a topological space $X$ has a closed neighbourhood which is a regular subspace of $X$, then $X$ is regular.
 
 $X$ is Hausdorff by Proposition 6 of no. 2. Let $x$ be any point of $X$ and let $V$ be a closed regular neighbourhood of $x$. If $U$ is any neighbourhood of $x$ contained in $V$, then $U$ is a neighbourhood of $x$ relative to $V$; hence by hypothesis there is a neighbourhood $W$ of $x$ in $V$ which is closed in $V$ and contained in $U$. But $W$ is a neighbourhood of $x$ in $X$ since $V$ is a neighbourhood of $x$ in $X$, and $W$ is closed in $X$ since $V$ is closed in $X$.
 
-#### Remark 1 {#top-i-s8-n4-rem-1 .statement}
+#### Remark 1 {#top-i-s8-n4-rem-1 .statement tag=0B6R}
 
 There are examples of non-Hausdorff spaces in which every point has a regular neighbourhood (Exercise 7).
 
-#### Remark 2 {#top-i-s8-n4-rem-2 .statement}
+#### Remark 2 {#top-i-s8-n4-rem-2 .statement tag=0B6S}
 
 There are spaces which are Hausdorff but not regular (Exercise 20).
 
-#### Remark 3 {#top-i-s8-n4-rem-3 .statement}
+#### Remark 3 {#top-i-s8-n4-rem-3 .statement tag=0B6T}
 
 A topology which is finer than a regular topology need not be regular (Exercise 20).
 
 ### 5. EXTENSION BY CONTINUITY; DOUBLE LIMIT
 
-#### Theorem 1 {#top-i-s8-thm-1 .statement}
+#### Theorem 1 {#top-i-s8-thm-1 .statement tag=0B6U}
 
 Let X be a topological space, A a dense subset of X, f : A → Y a mapping of A into a regular space Y. A necessary and sufficient condition for f to extend to a continuous mapping $\overline{f} : X \to Y$ is that, for each $x \in X$, $f(y)$ tends to a limit in Y when y tends to x while remaining in A. The continuous extension $\overline{f}$ of f to X is then unique.
 
@@ -274,7 +274,7 @@ The mapping $\overline{f}$ is said to be obtained by extending f by continuity t
 
 In the statement of Theorem 1 the hypothesis that Y is regular cannot be weakened without imposing additional restrictions on X, A or f (Exercise 19).
 
-#### Corollary {#top-i-s8-n5-cor-1 .statement}
+#### Corollary {#top-i-s8-n5-cor-1 .statement tag=0B6V}
 
 Let $\mathfrak{F}_1$ be a filter on a set $X_1$, and $\mathfrak{F}_2$ a filter on a set $X_2$; let $\mathfrak{F}_1 \times \mathfrak{F}_2$ be the product filter (§ 6, no. 7) on $X = X_1 \times X_2$, and let f be a mapping of X into a regular space Y. Suppose that
 a) $\lim_{\mathfrak{F}_1 \times \mathfrak{F}_2} f$ exists.
@@ -287,19 +287,19 @@ Let $X'_1 = X_1 \cup \{\omega_1\}$ (resp. $X'_2 = X_2 \cup \{\omega_2\}$) be the
 
 ### 6. EQUIVALENCE RELATIONS ON A REGULAR SPACE
 
-#### Proposition 14 {#top-i-s8-prop-14 .statement}
+#### Proposition 14 {#top-i-s8-prop-14 .statement tag=0B6W}
 
 *Let* $X$ *be a regular space*, $R$ *a closed equivalence relation on* $X$. *Then the graph* $C$ *of* $R$ *in* $X \times X$ *is closed*.
 
 Let $(a, b)$ be a point of $X \times X$ in the closure of $C$, and let $V$ (resp. $W$) be a *closed* neighbourhood of $a$ (resp. a neighbourhood of $b$) in $X$; then there is a point $(x, y) \in C \cap (V \times W)$. Since $x \in V$, $y$ belongs to the saturation $S$ of $V$ with respect to $R$; hence each neighbourhood $W$ of $b$ meets $S$. By hypothesis $S$ is *closed*, and therefore $b \in S$. Now let $B$ be the saturation of $\{b\}$ with respect to $R$, then each closed neighbourhood $V$ of $a$ meets $B$; since by hypothesis $B$ is *closed* and $X$ is *regular*, it follows that $a \in B$ and therefore that $(a, b) \in C$. This completes the proof.
 
-#### Corollary {#top-i-s8-n6-cor-1 .statement}
+#### Corollary {#top-i-s8-n6-cor-1 .statement tag=0B6X}
 
 *On a regular space, every equivalence relation which is both open and closed is Hausdorff*.
 
 This follows from Proposition 14 and Proposition 8 of no. 3.
 
-#### Proposition 15 {#top-i-s8-prop-15 .statement}
+#### Proposition 15 {#top-i-s8-prop-15 .statement tag=0B6Y}
 
 *Let* $X$ *be a regular space*, $F$ *a closed subset of* $X$, $R$ *the equivalence relation on* $X$ *obtained by identifying all the points of* $F$ *[in other words, the equivalence relation whose equivalence classes are* $F$ *(if* $F \neq \emptyset$*) and the sets* $\{x\}$ *where* $x \in CF$*]. *Then the quotient space* $X/R$ *is Hausdorff*.
 

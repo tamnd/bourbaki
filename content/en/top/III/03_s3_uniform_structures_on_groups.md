@@ -33,7 +33,7 @@ subsections:
       pdf_page: 254
 statements: 18
 exercises: 12
-content_sha256: 770a9ac702c153075f7f5ad5d41d24b3c610f554555092b64ee44ffbb52825d4
+content_sha256: ccad26133e828ceb3575a2c0a99aca5048899ccdf5ec5a7789d9d8ec80447527
 ---
 
 ## 3. UNIFORM STRUCTURES ON GROUPS
@@ -46,7 +46,7 @@ The uniformity defined by $\mathfrak{G}_d$ is compatible with the topology of G,
 
 The argument is analogous when the translations are on the left, and we may therefore make the following definition:
 
-#### Definition 1 {#top-iii-s3-def-1 .statement}
+#### Definition 1 {#top-iii-s3-def-1 .statement tag=0BJX}
 
 *The right (resp. left) uniformity on a topological group G is the uniformity for which a fundamental system of entourages is obtained by making correspond to each neighbourhood V of the identity element e, the set V$_d$ (resp. V$_s$) of pairs $(x, y)$ such that $yx^{-1} \in V$ (resp. $x^{-1}y \in V$).*
 
@@ -64,7 +64,7 @@ The right and left uniformities on a topological group are in general distinct (
 
 In general, we shall denote by $G_s$ (resp. $G_d$) the *uniform space* obtained by giving the set G its left (resp. right) uniformity.
 
-#### Proposition 1 {#top-iii-s3-prop-1 .statement}
+#### Proposition 1 {#top-iii-s3-prop-1 .statement tag=0BJY}
 
 *The left and right translations are isomorphisms of the right uniformity onto itself.*
 
@@ -74,7 +74,7 @@ Similarly, the right and left translations are isomorphisms of the left uniformi
 
 Every *inner automorphism* $x \to axa^{-1}$ of $G$ is therefore an automorphism for the group structure of $G$, for the topology of $G$, and for both the uniformities of $G$.
 
-#### Proposition 2 {#top-iii-s3-prop-2 .statement}
+#### Proposition 2 {#top-iii-s3-prop-2 .statement tag=0BJZ}
 
 *The symmetry* $x \to x^{-1}$ *is an isomorphism of the right uniformity onto the left uniformity.*
 
@@ -82,7 +82,7 @@ This is an immediate consequence of Definition 1.
 
 The reader should beware of supposing that the mapping $(x, y) \to xy$ of the uniform space $G_d \times G_d$ into the uniform space $G_d$ is in general uniformly continuous. Similarly, the symmetry $x \to x^{-1}$, considered as a mapping of $G_d$ onto $G_d$, is not in general uniformly continuous (see Exercises 3 and 4).
 
-#### Proposition 3 {#top-iii-s3-prop-3 .statement}
+#### Proposition 3 {#top-iii-s3-prop-3 .statement tag=0BK0}
 
 *Every continuous homomorphism* $f$ *of a topological group* $G$ *into a topological group* $G'$ *is uniformly continuous when considered as a mapping of* $G_d$ *into* $G'_d$ *(or of* $G_s$ *into* $G'_s$).
 
@@ -105,7 +105,7 @@ The left and right uniformities on the product group $\prod_{i \in I} G_i$ are i
 
 ### 3. COMPLETE GROUPS
 
-#### Definition 2 {#top-iii-s3-def-2 .statement}
+#### Definition 2 {#top-iii-s3-def-2 .statement tag=0BK1}
 
 *A topological group is said to be complete if its left and right uniformities are structures of complete spaces.*
 
@@ -115,31 +115,31 @@ Every *closed* subgroup of a complete group is complete (Chapter II, § 3, no. 4
 
 On the other hand, if $G$ is a complete group and $H$ is a closed normal subgroup of $G$, then the quotient group $G/H$ is not necessarily complete (however, see Chapter IX, § 3, no. 1, Proposition 4).
 
-#### Proposition 4 {#top-iii-s3-prop-4 .statement}
+#### Proposition 4 {#top-iii-s3-prop-4 .statement tag=0BK2}
 
 *If, in a topological group $G$, there is a neighbourhood $V$ of $e$ which is complete with respect to either the right or the left uniformity, then $G$ is complete.*
 
 Suppose for example that $V$ is complete with respect to the right uniformity, and let $\mathfrak{F}$ be a Cauchy filter on $G_d$; then $\mathfrak{F}$ contains a $V_d$-small set $M$, and if $x_1 \in M$ we therefore have $M \subset Vx_1$. Hence the trace of $\mathfrak{F}$ on the complete subspace $Vx_1$ of $G_d$ is a Cauchy filter, which converges to a point $x_0$; since $x_0$ is a cluster point of $\mathfrak{F}$, it is a limit of $\mathfrak{F}$ (Chapter II, § 3, no. 2, Corollary 2 to Proposition 5).
 
-#### Corollary 1 {#top-iii-s3-prop-4-cor-1 .statement}
+#### Corollary 1 {#top-iii-s3-prop-4-cor-1 .statement tag=0BK3}
 
 *A locally compact group is complete.*
 
 For every compact space is complete with respect to its unique uniformity (Chapter II, § 4, no. 1, Theorem 1).
 
-#### Corollary 2 {#top-iii-s3-prop-4-cor-2 .statement}
+#### Corollary 2 {#top-iii-s3-prop-4-cor-2 .statement tag=0BK4}
 
 *Every locally compact subgroup of a Hausdorff topological group $G$ is closed in $G$.*
 
 For every complete subspace of a Hausdorff uniform space is closed (Chapter II, , no. 4, Proposition 8)
 
-#### Proposition 5 {#top-iii-s3-prop-5 .statement}
+#### Proposition 5 {#top-iii-s3-prop-5 .statement tag=0BK5}
 
 Let $G_1$ be a topological group, let $G_2$ be a complete Hausdorff topological group, and let $H_1$ (resp. $H_2$) be a dense subgroup of $G_1$ (resp. $G_2$). Then every continuous homomorphism $u$ of $H_1$ into $H_2$ can be uniquely extended to a continuous homomorphism $\bar{u}$ of $G_1$ into $G_2$. Furthermore, if $G_1$ is Hausdorff and complete, and if $u$ is an isomorphism of $H_1$ onto $H_2$, then $\bar{u}$ is an isomorphism of $G_1$ onto $G_2$.
 
 $\bar{u}$ is uniformly continuous with respect to the right uniformities of $H_1$ and $H_2$ (no. 1, Proposition 3), hence admits a unique extension to a mapping $\bar{u}$ of $G_1$ into $G_2$ which is uniformly continuous with respect to the right uniformities of these groups (Chapter II, § 3, no. 6, Theorem 2). Moreover, by virtue of the principle of extension of identities (Chapter I, § 8, no. 1, Corollary 1 to Proposition 2), $\bar{u}$ is a homomorphism of $G_1$ into $G_2$, whence the first assertion of the Proposition. To prove the second assertion, it is enough to consider the isomorphism $v$ of $H_2$ onto $H_1$, which is the inverse of $u$, and its extension $\bar{v}$ to a continuous homomorphism of $G_2$ into $G_1$; by reason of the uniqueness of the extension, $\bar{v} \circ \bar{u}$ and $\bar{u} \circ \bar{v}$ are the identity mappings of $G_1$ and $G_2$ respectively, and therefore (Set Theory, R, § 2, no. 12) $\bar{u}$ is bijective.
 
-#### Remark {#top-iii-s3-n3-rem-1 .statement}
+#### Remark {#top-iii-s3-n3-rem-1 .statement tag=0BK6}
 
 If the continuous homomorphism $u$ is bijective, it does not follow in general that $\bar{u}$ is either injective or surjective (cf. Exercise 12); but see no. 5, Proposition 9.
 
@@ -150,7 +150,7 @@ Let $G$ be a Hausdorff topological group. The uniform space $G_d$ may be conside
 
 1) Extension of $xy$ and $x^{-1}$ by continuity. Since the functions $xy$ and $x^{-1}$ are not in general uniformly continuous, we cannot apply the theorem of extension of uniformly continuous functions (Chapter II, § 3, no. 6, Theorem 2). Nevertheless, we can extend $xy$, by virtue of Proposition 11 of Chapter II, § 3, no. 6 and the following Proposition:
 
-#### Proposition 6 {#top-iii-s3-prop-6 .statement}
+#### Proposition 6 {#top-iii-s3-prop-6 .statement tag=0BK7}
 
 Let $\mathfrak{F}$ and $\mathfrak{G}$ be two Cauchy filters on $G_d$. Then the image of the filter $\mathfrak{F} \times \mathfrak{G}$ under the mapping $(x, y) \to xy$ is a Cauchy filter base on $G_d$.
 
@@ -170,11 +170,11 @@ In order that $x^{-1}$ can be extended by continuity to $\hat{G}_d$ it is necess
 
 To sum up, we have proved the following theorem:
 
-#### Theorem 1 {#top-iii-s3-thm-1 .statement}
+#### Theorem 1 {#top-iii-s3-thm-1 .statement tag=0BK8}
 
 *A Hausdorff topological group $G$ is isomorphic to a dense subgroup of a complete group $\hat{G}$ if and only if the image, under the symmetry $x \to x^{-1}$, of a Cauchy filter with respect to the right uniformity of $G$ is a Cauchy filter with respect to this uniformity. The complete group $\hat{G}$ (which is called the completion of $G$) is then unique (up to isomorphism).*
 
-#### Proposition 7 {#top-iii-s3-prop-7 .statement}
+#### Proposition 7 {#top-iii-s3-prop-7 .statement tag=0BK9}
 
 *Let $G$ be a Hausdorff topological group which has a completion $\hat{G}$. Then the closures in $\hat{G}$ of the neighbourhoods of the identity element in $G$ form a fundamental system of neighbourhoods of the identity element in $\hat{G}$.*
 
@@ -182,7 +182,7 @@ Since $\hat{G}$ is regular, every neighbourhood of the identity element in $\hat
 
 Let $G$ be a group which is not necessarily Hausdorff; let $N = \overline{\{e\}}$, and let $G' = G/N$ be the Hausdorff group associated with $G$ (§ 2, no. 6). If $G'$ has a completion $\hat{G}'$, this completion is called the *Hausdorff completion* of $G$ and is denoted by $\hat{G}$; $\hat{G}'_d$ (resp. $\hat{G}'_s$) is then the *Hausdorff completion* (Chapter II, § 3, no. 7) of the uniform space $G_d$ (resp. $G_s$).
 
-#### Proposition 8 {#top-iii-s3-prop-8 .statement}
+#### Proposition 8 {#top-iii-s3-prop-8 .statement tag=0BKA}
 
 *Let $G$ be a topological group which has a Hausdorff completion $\hat{G}'$. Then every continuous homomorphism $u$ of $G$ into a complete Hausdorff group $H$ can be uniquely factorized into $u = v \circ \varphi$, where $v$ is a continuous homomorphism of $\hat{G}'$ into $H$ and $\varphi$ is the canonical mapping of $G$ into $\hat{G}'$ (the composition of the canonical injection of $G'$ into $\hat{G}'$ and the canonical homomorphism $\psi$ of $G$ onto $G/N = G'$).*
 
@@ -192,7 +192,7 @@ Since the kernel of $u$ is closed and contains $e$, it contains $N$, and hence $
 
 We have already remarked that the left and right uniformities coincide on a commutative topological group $G$; whenever we speak of *the uniformity* of $G$, it is this unique uniformity to which we refer.
 
-#### Theorem 2 {#top-iii-s3-thm-2 .statement}
+#### Theorem 2 {#top-iii-s3-thm-2 .statement tag=0BKB}
 
 Let $G$ be a commutative topological group. Then the functions $x^{-1}$ and $xy$ are uniformly continuous on $G$ and $G \times G$ respectively. Moreover $G$ admits a Hausdorff completion $\hat{G}$, and $\hat{G}$ is commutative.
 
@@ -200,19 +200,19 @@ The uniform continuity of $x^{-1}$ follows from Proposition 2 of no. 1, and that
 
 It follows in particular from this theorem that if $f$ and $g$ are two uniformly continuous mappings of a uniform space $X$ into a commutative group $G$, written additively, then the functions $-f$ and $f + g$ are uniformly continuous.
 
-#### Proposition 9 {#top-iii-s3-prop-9 .statement}
+#### Proposition 9 {#top-iii-s3-prop-9 .statement tag=0BKC}
 
 Let $G$ be a commutative group, and let $\mathfrak{T}_1, \mathfrak{T}_2$ be two Hausdorff topologies compatible with the group structure of $G$. Suppose that $\mathfrak{T}_1$ is finer than $\mathfrak{T}_2$ and that there is a fundamental system of neighbourhoods of $o$ for $\mathfrak{T}_1$ which are closed for $\mathfrak{T}_2$. Let $G_1, G_2$ be the completions of $G$ with respect to the topologies $\mathfrak{T}_1, \mathfrak{T}_2$ respectively, and let $f : G_1 \to G_2$ be the continuous homomorphism which extends the identity mapping of $G$ (no. 3, Proposition 5). Then $f$ is injective.
 
 Suppose that $G$ is written additively. Let $\mathfrak{U}_1$ be the uniformity on $G$ corresponding (no. 1) to the topology $\mathfrak{T}_1$: it will suffice to show that if $\mathfrak{F}$ and $\mathfrak{F}'$ are two minimal Cauchy filters (Chapter II, § 3, no. 2) with respect to $\mathfrak{U}_1$, which converge in $G_2$ to the same point $a$, then $\mathfrak{F} = \mathfrak{F}'$ (Chapter II, § 3, no. 7). For this, it is enough to show that $\mathfrak{F} \cap \mathfrak{F}'$ is a Cauchy filter with respect to $\mathfrak{U}_1$. Let $V$ be a neighbourhood of $o$ in $G$ with respect to $\mathfrak{T}_1$, such that $V$ is closed in $\mathfrak{T}_2$, and let $W$ be a symmetric neighbourhood of $o$ in $G$ with respect to $\mathfrak{T}_1$, such that $W + W \subset V$. By hypothesis, there is a $W_d$-small set $M$ (resp. $M'$) in $\mathfrak{F}$ (resp. $\mathfrak{F}'$); if $x \in M$ and $y \in M$ we have $y - x \in W$, i.e. $y \in x + W$. If $\overline{W}$ and $\overline{V}$ are the closures of $W$ and $V$ in $G_2$, it follows that $y \in x + \overline{W}$, and therefore, since $a$ is in the closure of $M$, that $a \in x + \overline{W}$ for each $x \in M$. Similarly, $a \in x' + \overline{W}$ for each $x' \in M'$, and hence $x - x' \in \overline{W} + \overline{W}$; but since $(x, y) \to x + y$ is a continuous mapping of $G_2 \times G_2$ into $G_2$, we have $\overline{W} + \overline{W} \subset \overline{W} + \overline{W} \subset \overline{V}$. It follows that if $x \in M$ and $x' \in M'$, then $x - x' \in \overline{V} \cap G = V$, because $V$ is closed in $\mathfrak{T}_2$; and this completes the proof.
 
-#### Corollary 1 {#top-iii-s3-prop-9-cor-1 .statement}
+#### Corollary 1 {#top-iii-s3-prop-9-cor-1 .statement tag=0BKD}
 
 Under the hypotheses of Proposition 9, if $A$ is a subset of $G$ which is a complete subspace with respect to the uniformity $U_2$ corresponding to $\mathfrak{T}_2$, then $A$ is also a complete subspace with respect to the uniformity $U_1$ corresponding to $\mathfrak{T}_1$.
 
 If $A_1$ is the closure of $A$ in $G_1$, then $f(A_1)$ is contained in the closure of $A$ in $G_2$, which by hypothesis is equal to $A$. Since $f(A) = A$ by definition and $f$ is injective, we have $A_1 = A$.
 
-#### Corollary 2 {#top-iii-s3-prop-9-cor-2 .statement}
+#### Corollary 2 {#top-iii-s3-prop-9-cor-2 .statement tag=0BKE}
 
 Let $G$ be a commutative group and let $\mathfrak{T}_1, \mathfrak{T}_2$ be two topologies compatible with the group structure of $G$. Suppose that $\mathfrak{T}_1$ is finer than $\mathfrak{T}_2$ and that there is a fundamental system $\mathfrak{B}$ of neighbourhoods of $O$ with respect to $\mathfrak{T}_1$ which are complete with respect to the uniformity $U_2$ corresponding to $\mathfrak{T}_2$. Then $G$ is complete with respect to the uniformity $U_1$ corresponding to $\mathfrak{T}_1$.
 

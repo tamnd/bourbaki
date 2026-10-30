@@ -28,7 +28,7 @@ subsections:
       pdf_page: 172
 statements: 2
 exercises: 0
-content_sha256: 1392eb42732e48e986a4b120baebb41eb1413b70e59d35e31a21984b15deb2b5
+content_sha256: 13ab96da08e6371d0371ca7851841a5daf6b6c4db5920b01218d4143bb5311bf
 ---
 
 ## § 14. Opérateurs différentiels
@@ -175,7 +175,7 @@ C’est une section de $F|U$. Si $H$ est de classe $C^h$, cette section est de c
 
 Lorsque $E_1, \ldots, E_n$ et $F$ sont égaux à $K_X$, on dit que $H$ est un opérateur $n$-différentiel (ou multidifférentiel) scalaire.
 
-#### Exemple {#var-2-s14-n1-exa-1 .statement}
+#### Exemple {#var-2-s14-n1-exa-1 .statement tag=0EEL}
 
 Soient $J$ un ensemble fini, $X$ un ouvert de $K^J$. Soit $H$ un opérateur $n$-différentiel scalaire d’ordre $\leq k$ sur $X$. Il existe une famille unique de fonctions scalaires
 $$
@@ -391,7 +391,7 @@ $$
 
 En particulier, les hypothèses et notations étant celles de 14.3.2, et $f$ étant une fonction de classe $C^{h'}$ sur $X$ avec $2k\leq h'$, on a $^{t}(D\circ f)=f\circ{}^{t}D$.
 
-#### Exemple {#var-2-s14-n3-exa-1 .statement}
+#### Exemple {#var-2-s14-n3-exa-1 .statement tag=0EEM}
 
 Prenons pour $X$ un ouvert de $K^n$, notons $\xi^1,\ldots,\xi^n$ les fonctions coordonnées sur $X$ et identifions $\Omega$ à $K_X$ au moyen du repère $\omega=d\xi^1\wedge\cdots\wedge d\xi^n$. Si $E=F=K_X$, on a
 

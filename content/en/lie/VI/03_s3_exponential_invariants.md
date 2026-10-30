@@ -28,7 +28,7 @@ subsections:
       pdf_page: 212
 statements: 13
 exercises: 2
-content_sha256: 07ce68925d5873b9647a1c938fea031e089065766e687b0d9f0f17772a1a8fb8
+content_sha256: b9746d131eb1272ab4f94dead490215a8154be0c1a153b0693388de4edd688ad
 ---
 
 ## § 3. EXPONENTIAL INVARIANTS
@@ -42,7 +42,7 @@ $$
 e^p e^{p'} = e^{p + p'}, \quad (e^p)^{-1} = e^{-p}, \quad e^0 = 1.
 $$
 
-#### Lemma 1 {#lie-vi-s3-lem-1 .statement}
+#### Lemma 1 {#lie-vi-s3-lem-1 .statement tag=0AXN}
 
 *Assume that A is factorial* (*Commutative Algebra*, Chap. VII, § 3, no. 1, Def. 1).
 (i) *The ring $A[P]$ is factorial.*
@@ -70,11 +70,11 @@ We retain the notations of the preceding number and let R be a reduced root syst
 
 Let C be a chamber of R (§ 1, no. 5) and let $B = (\alpha_i)_{1 \leq i \leq l}$ be the corresponding basis of R. We provide V (and hence also P) with the order structure defined by C. If $p, p' \in P, p \geq p'$ if and only if $p - p'$ is a linear combination of the $\alpha_i$ with positive coefficients.
 
-#### Definition 1 {#lie-vi-s3-def-1 .statement}
+#### Definition 1 {#lie-vi-s3-def-1 .statement tag=0AXO}
 
 Let $x = \sum_{p \in P} x_p e^p$ be an element of $A[P]$. The set S of $p \in P$ such that $x_p \neq 0$ is called the support of x and the set X of maximal elements of S is called the maximal support of x. A term $x_p e^p$ with $p \in X$ is then called a maximal term of x.
 
-#### Lemma 2 {#lie-vi-s3-lem-2 .statement}
+#### Lemma 2 {#lie-vi-s3-lem-2 .statement tag=0AXP}
 
 Let $x \in A[P]$ and let $(x_p e^p)_{p \in X}$ be the family of maximal terms of x. Let $q \in P$ and let $y \in A[P]$ be such that $e^q$ is the unique maximal term of y. Then, the family of maximal terms of $xy$ is $(x_p e^{p+q})_{p \in X}$.
 
@@ -84,7 +84,7 @@ If $t = p + q = p' + r$ with $p \in X$ and $x_{p'} y_r \neq 0$, then $r \leq q$,
 
 On the other hand, if $t = p' + r$ with $x_{p'} y_r \neq 0$, there exists $p \in X$ such that $p' \leq p$ and we have $t \leq p + q$. The maximal support of $xy$ is therefore contained in $X + q$. Since no two elements of $X + q$ are comparable, it follows that $X + q$ is exactly the maximal support of $xy$ and we have seen above that $z_{p+q} = x_p$ for $p \in X$, which completes the proof of the lemma.
 
-#### Remark {#lie-vi-s3-n2-rem-1 .statement}
+#### Remark {#lie-vi-s3-n2-rem-1 .statement tag=0AXQ}
 
 Since $x \neq 0$ means that the maximal support of $x$ is non-empty, Lemma 2 shows that $x \neq 0$ implies $xy \neq 0$ whenever $y$ admits a unique maximal term of the form $e^q$.
 
@@ -96,7 +96,7 @@ $$
 $$
 the length $l(w)$ being taken relative to the family of reflections $s_{\alpha_i}$.
 
-#### Definition 2 {#lie-vi-s3-def-2 .statement}
+#### Definition 2 {#lie-vi-s3-def-2 .statement tag=0AXR}
 
 *An element* $x \in A[P]$ *is said to be anti-invariant under* $W$ *if*
 $$
@@ -122,7 +122,7 @@ $$
 $$
 is half the sum of the positive roots (*loc. cit.*) so the elements of $P \cap C$ are the weights of the form $\rho + p$ with $p \in P \cap \overline{C}$. Finally, if $p \in P \cap C$, then $w(p) < p$ for all $w \neq 1$ (§ 1, no. 6, Cor. to Prop. 18) and $e^p$ is thus the unique maximal term of $J(e^p)$.
 
-#### Proposition 1 {#lie-vi-s3-prop-1 .statement}
+#### Proposition 1 {#lie-vi-s3-prop-1 .statement tag=0AXS}
 
 *If* 2 *is not a zero divisor in* $A$, *the elements* $J(e^p)$ *for* $p \in P \cap C$ *form a basis of the module of anti-invariant elements of* $A[P]$.
 
@@ -150,7 +150,7 @@ d = \prod_{\alpha \in R, \alpha > 0} (e^{\alpha/2} - e^{-\alpha/2}) \\
 $$
 Since $\rho \in P$, $d \in A[P]$.
 
-#### Proposition 2 {#lie-vi-s3-prop-2 .statement}
+#### Proposition 2 {#lie-vi-s3-prop-2 .statement tag=0AXT}
 
 (i) *The element d defined by (3) is an anti-invariant element of A[P]; its unique maximal term* (no. 2, Def. 1) *is* $e^{\rho}$ *and* $d = J(e^{\rho})$.
 (ii) *For any* $p \in P$, *the element* $J(e^p)$ *is divisible uniquely by* $d$ *and the quotient* $J(e^p)/d$ *is an element of* $A[P]$ *invariant under* $W$.
@@ -197,11 +197,11 @@ Returning to the general case, by extension of scalars from $\mathbf{Z}$ to $A$,
 
 Finally, if 2 is not a zero divisor in $A$, the Remark of no. 2 and Prop. 1 imply (iii).
 
-#### Remark 1 {#lie-vi-s3-n3-rem-1 .statement}
+#### Remark 1 {#lie-vi-s3-n3-rem-1 .statement tag=0AXU}
 
 If 2 is not a zero divisor in $A$, it is easy to check that $d$ is the unique anti-invariant element of $A[P]$ with $e^\rho$ as its maximal term.
 
-#### Remark 2 {#lie-vi-s3-n3-rem-2 .statement}
+#### Remark 2 {#lie-vi-s3-n3-rem-2 .statement tag=0AXV}
 
 Lemma 2 of no. 2 shows that the unique maximal term of the quotient $J(e^p)/d$ (for $p \in P \cap C$) is $e^{p-\rho}$.
 
@@ -221,7 +221,7 @@ $$
 
 We deduce:
 
-#### Lemma 3 {#lie-vi-s3-lem-3 .statement}
+#### Lemma 3 {#lie-vi-s3-lem-3 .statement tag=0AXW}
 
 *The $S(e^p)$ for $p \in P \cap \overline{C}$ form a basis of the $A$-module $A[P]^W$.*
 
@@ -252,7 +252,7 @@ x_p = S(e^p) + \sum_{q < p, q \in I} c_{pq} S(e^q).
 $$
 The proposition now follows from Lemmas 3 and 4.
 
-#### Theorem 1 {#lie-vi-s3-thm-1 .statement}
+#### Theorem 1 {#lie-vi-s3-thm-1 .statement tag=0AXX}
 
 *Let $\overline{\omega}_1, \ldots, \overline{\omega}_l$ be the fundamental weights corresponding to the chamber $C$, and, for $1 \leq i \leq l$, let $x_i$ be an element of $A[P]^W$ with $e^{\overline{\omega}_i}$ as its unique maximal term. Let*
 $$
@@ -262,11 +262,11 @@ $$
 
 Lemma 2 implies that the image under $\varphi$ of the monomial $X_1^{n_1} \ldots X_l^{n_l}$ is an element with unique maximal term $e^{n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l}$. Since every element of $P \cap \overline{C}$ can be written uniquely in the form $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$, Prop. 3 shows that the images under $\varphi$ of the monomials $X_1^{n_1} \ldots X_l^{n_l}$ are a basis of $A[P]^W$, hence the theorem.
 
-#### Example 1 {#lie-vi-s3-n4-exa-1 .statement}
+#### Example 1 {#lie-vi-s3-n4-exa-1 .statement tag=0AXY}
 
 We can take $x_i = S(e^{\overline{\omega}_i})$.
 
-#### Example 2 {#lie-vi-s3-n4-exa-2 .statement}
+#### Example 2 {#lie-vi-s3-n4-exa-2 .statement tag=0AXZ}
 
 By *Remark* 2 of no. 3, we can take $x_i = J(e^{\rho + \overline{\omega}_i})/d$ (with the notation in no. 3).
 

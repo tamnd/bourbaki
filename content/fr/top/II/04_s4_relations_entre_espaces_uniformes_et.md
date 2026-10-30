@@ -29,14 +29,14 @@ subsections:
       pdf_page: 170
 statements: 24
 exercises: 26
-content_sha256: 7a9b65635dcfe5601d86ca7bfaa1e0fd5252fe5d675aa8d0b989f6acf34c9d9d
+content_sha256: 8af15538da911dcb82a43a8ce78f57ec366672f59963b3f30aa5815c0f5f9a41
 ---
 
 ## § 4. RELATIONS ENTRE ESPACES UNIFORMES ET ESPACES COMPACTS
 
 ### 1. Uniformité des espaces compacts
 
-#### Définition 1 {#top-ii-s4-def-1 .statement}
+#### Définition 1 {#top-ii-s4-def-1 .statement tag=0BFX}
 
 On dit qu’une structure uniforme sur un espace topologique $X$ est compatible avec la structure de $X$ si cette dernière est identique à la topologie déduite de la structure uniforme considérée.
 
@@ -46,7 +46,7 @@ Il existe des espaces topologiques non uniformisables, par exemple (en vertu de 
 
 Ce n’est que dans IX, § 1, que nous donnerons une réponse complète à cette question. Dans ce paragraphe, nous n’examinerons qu’un cas particulier important, celui où $X$ est compact. On a alors le théorème suivant:
 
-#### Théorème 1 {#top-ii-s4-thm-1 .statement}
+#### Théorème 1 {#top-ii-s4-thm-1 .statement tag=0BFY}
 
 Sur un espace compact $X$, il existe une structure uniforme et une seule compatible avec la topologie de $X$; l’ensemble des entourages de cette structure est identique à l’ensemble des voisinages de la diagonale $\Delta$ dans $X \times X$; en outre, $X$, muni de cette structure uniforme, est un espace uniforme complet.
 
@@ -66,23 +66,23 @@ $$
 
 de $\Delta$. Il résulte aussitôt de ces définitions que si $(u, v) \in W$ et $u \in V_1$ (resp. $u \in U_1$), on a nécessairement $v \in U_1$ (resp. $v \in U_1 \cup U_3 = \mathscr{C}V_2$); par suite, le voisinage $V_1 \times V_2$ de $(x, y)$ dans $X \times X$ ne rencontre pas $\overline{W}$; nous avons ainsi obtenu une contradiction, ce qui achève la démonstration.
 
-#### Remarque 1 {#top-ii-s4-n1-rem-1 .statement}
+#### Remarque 1 {#top-ii-s4-n1-rem-1 .statement tag=0BFZ}
 
 Pour tout recouvrement ouvert fini $\mathfrak{R} = (U_i)_{1 \leq i \leq n}$ de $X$, $V_{\mathfrak{R}} = \bigcup_{i=1}^n (U_i \times U_i)$ est un voisinage de $\Delta$ dans $X \times X$; ces ensembles forment un système fondamental de voisinages de $\Delta$ (et par suite un système fondamental d’entourages de l’unique structure uniforme de $X$): en effet, soit $W$ un voisinage quelconque de $\Delta$ dans $X \times X$; pour tout $x \in X$ il y a un voisinage ouvert $U_x$ de $x$ dans $X$ tel que $U_x \times U_x \subset W$. Comme les $U_x$ ($x \in X$) forment un recouvrement ouvert de $X$, il existe un nombre fini de points $x_i$ ($1 \leq i \leq n$) tels que les $U_{x_i}$ ($1 \leq i \leq n$) forment un recouvrement $\mathfrak{R}$ de $X$; on a alors $V_{\mathfrak{R}} \subset W$, d’où notre assertion.
 
 En raison de ce résultat, on dit souvent que l’unique structure uniforme de $X$ est la structure uniforme des recouvrements ouverts finis (cf. IX, § 4, exerc. 23).
 
-#### Corollaire 1 {#top-ii-s4-thm-1-cor-1 .statement}
+#### Corollaire 1 {#top-ii-s4-thm-1-cor-1 .statement tag=0BG0}
 
 Tout sous-espace d’un espace compact est uniformisable.
 
-#### Corollaire 2 {#top-ii-s4-thm-1-cor-2 .statement}
+#### Corollaire 2 {#top-ii-s4-thm-1-cor-2 .statement tag=0BG1}
 
 Tout espace localement compact est uniformisable.
 
 Il suffit de remarquer qu’en vertu du th. d’Alexandroff (I, p. 67, th. 4), un espace localement compact est homéomorphe à un sous-espace d’un espace compact.
 
-#### Remarque 2 {#top-ii-s4-n1-rem-2 .statement}
+#### Remarque 2 {#top-ii-s4-n1-rem-2 .statement tag=0BG2}
 
 On notera qu’il peut exister plusieurs structures uniformes distinctes compatibles avec la topologie d’un espace localement compact.
 
@@ -90,7 +90,7 @@ Par exemple, nous avons vu que sur un espace discret infini, il y a plusieurs st
 
 Il ne faudrait pas croire cependant que l’unicité de la structure uniforme compatible avec la topologie d’un espace uniformisable soit une propriété caractérisant les espaces compacts; il y a des espaces localement compacts non compacts qui la possèdent également (II, p. 37, exerc. 4).
 
-#### Théorème 2 {#top-ii-s4-thm-2 .statement}
+#### Théorème 2 {#top-ii-s4-thm-2 .statement tag=0BG3}
 
 Toute application continue $f$ d’un espace compact $X$ dans un espace uniforme $X'$ est uniformément continue.
 
@@ -98,23 +98,23 @@ En effet, soit $g = f \times f$, qui est continue dans $X \times X$ (I, p. 25, c
 
 Sous les hypothèses du th. 2, la restriction de $f$ à tout sous-espace $A$ de $X$ est uniformément continue; donc (II, p. 20, th. 2):
 
-#### Corollaire {#top-ii-s4-n1-cor-1 .statement}
+#### Corollaire {#top-ii-s4-n1-cor-1 .statement tag=0BG4}
 
 Soient $A$ un sous-espace partout dense d’un espace compact $X$, $f$ une application de $A$ dans un espace uniforme séparé et complet $X'$; pour que $f$ puisse être prolongée par continuité à $X$ tout entier, il faut et il suffit que $f$ soit uniformément continue.
 
 ### 2. Compacité des espaces uniformes
 
-#### Définition 2 {#top-ii-s4-def-2 .statement}
+#### Définition 2 {#top-ii-s4-def-2 .statement tag=0BG5}
 
 On dit qu’un espace uniforme $X$ est précompact si son séparé complété $\hat{X}$ est compact. On dit qu’une partie $A$ d’un espace uniforme $X$ est un ensemble précompact si le sous-espace uniforme $A$ de $X$ est précompact.
 
 Pour qu’une partie $A$ d’un espace uniforme $X$ soit précompacte, il faut et il suffit donc que, si $i : X \to \hat{X}$ est l’application canonique, l’adhérence dans $\hat{X}$ de $i(A)$ soit un ensemble compact (II, p. 26, cor. 1).
 
-#### Exemple {#top-ii-s4-n2-exa-1 .statement}
+#### Exemple {#top-ii-s4-n2-exa-1 .statement tag=0BG6}
 
 Dans tout espace uniforme $X$, l’ensemble des points d’une suite de Cauchy $(x_n)$ est précompact: en effet, comme les images des $x_n$ dans $\hat{X}$ forment encore une suite de Cauchy, on peut se borner au cas où $X$ est séparé. L’adhérence dans $\hat{X}$ de l’ensemble des $x_n$ est alors formée des $x_n$ et de $\lim_{n \to \infty} x_n$, donc est compacte (I, p. 61, Exemple 2).
 
-#### Théorème 3 {#top-ii-s4-thm-3 .statement}
+#### Théorème 3 {#top-ii-s4-thm-3 .statement tag=0BG7}
 
 Pour qu’un espace uniforme $X$ soit précompact, il faut et il suffit que, pour tout entourage $V$ de $X$, il existe un recouvrement fini de $X$ dont tous les ensembles sont petits d’ordre $V$.
 
@@ -124,33 +124,33 @@ Soit $i$ l’application canonique de $X$ dans $\hat{X}$; les entourages de $X$ 
 
 C.Q.F.D.
 
-#### Corollaire {#top-ii-s4-n2-cor-1 .statement}
+#### Corollaire {#top-ii-s4-n2-cor-1 .statement tag=0BG8}
 
 Pour qu’un espace uniforme $X$ soit compact, il faut et il suffit qu’il soit séparé et complet, et que pour tout entourage $V$ de $X$, il existe un recouvrement fini de $X$ par des ensembles petits d’ordre $V$.
 
 Cela résulte du th. 3 de II, p. 27, th. 1.
 
-#### Remarque 1 {#top-ii-s4-n2-rem-1 .statement}
+#### Remarque 1 {#top-ii-s4-n2-rem-1 .statement tag=0BG9}
 
 Un espace quasi-compact non séparé n’est pas nécessairement uniformisable, puisqu’il ne vérifie pas nécessairement l’axiome $(\mathrm{O}_{\mathrm{III}})$ (cf. I, p. 61); par exemple la plupart des espaces quasi-compacts non séparés qui interviennent en Géométrie algébrique ne satisfont pas à $(\mathrm{O}_{\mathrm{III}})$ (cf. II, p. 36, exerc. 2 du § 4).
 
-#### Proposition 1 {#top-ii-s4-prop-1 .statement}
+#### Proposition 1 {#top-ii-s4-prop-1 .statement tag=0BGA}
 
 Dans un espace uniforme, toute partie d’un ensemble précompact, toute réunion finie d’ensembles précompacts, toute adhérence d’ensemble précompact, est un ensemble précompact.
 
 Les deux premières assertions découlent aussitôt du th. 3. D’autre part, soient $X$ un espace uniforme, $A$ un ensemble précompact dans $X$, $i$ l’application canonique de $X$ dans son séparé complété $\hat{X}$; $i(\overline{A})$ est contenu dans l’adhérence de $i(A)$ dans $\hat{X}$ (I, p. 9, th. 1), donc l’adhérence de $i(\overline{A})$ dans $\hat{X}$ est contenue par hypothèse dans un ensemble compact, et par suite est compacte.
 
-#### Remarque 2 {#top-ii-s4-n2-rem-2 .statement}
+#### Remarque 2 {#top-ii-s4-n2-rem-2 .statement tag=0BGB}
 
 Dans un espace uniforme $X$, un ensemble relativement compact $A$ est précompact, puisque $A$ est contenu dans un ensemble compact. Par contre, même si $X$ est séparé, un ensemble précompact n’est pas nécessairement relativement compact dans $X$, comme le montre le cas où $X$ lui-même est précompact, mais non compact.
 
-#### Proposition 2 {#top-ii-s4-prop-2 .statement}
+#### Proposition 2 {#top-ii-s4-prop-2 .statement tag=0BGC}
 
 Soit $f : X \to Y$ une application uniformément continue. Pour toute partie précompacte $A$ de $X$, $f(A)$ est une partie précompacte de $Y$.
 
 En effet, si $i : X \to \hat{X}, j : Y \to \hat{Y}$ sont les applications canoniques, on a $j(f(A)) = \hat{f}(i(A))$ (II, p. 24, prop. 15), donc $j(f(A))$ est relativement compact dans $\hat{Y}$ (I, p. 63, cor. 1).
 
-#### Proposition 3 {#top-ii-s4-prop-3 .statement}
+#### Proposition 3 {#top-ii-s4-prop-3 .statement tag=0BGD}
 
 *Soient $X$ un ensemble, $(Y_\lambda)_{\lambda \in L}$ une famille d’espaces uniformes, et pour chaque $\lambda \in L$, soit $f_\lambda$ une application de $X$ dans $Y_\lambda$; on munit $X$ de la structure uniforme la moins fine rendant uniformément continues les $f_\lambda$. Pour qu’une partie $A$ de $X$ soit précompacte, il faut et il suffit que, pour tout $\lambda \in L$, $f_\lambda(A)$ soit une partie précompacte de $Y_\lambda$.*
 
@@ -160,13 +160,13 @@ La condition est nécessaire en vertu de la prop. 2; vu la caractérisation du s
 
 La proposition suivante précise, dans un espace uniforme quelconque, la prop. 3 de I, p. 61 relative aux espaces compacts.
 
-#### Proposition 4 {#top-ii-s4-prop-4 .statement}
+#### Proposition 4 {#top-ii-s4-prop-4 .statement tag=0BGE}
 
 *Dans un espace uniforme $X$, soient $A$ un ensemble compact, $B$ un ensemble fermé tels que $A \cap B = \varnothing$. Il existe alors un entourage $V$ de $X$ tel que $V(A) \cap V(B) = \varnothing$.*
 
 S’il n’en était pas ainsi, aucun des ensembles $A \cap \overline{V}(B)$, où $V$ parcourt l’ensemble des entourages symétriques de $X$, ne serait vide; ces ensembles formeraient donc une base de filtre sur $A$, qui aurait un point adhérent $x_0 \in A$. Pour tout entourage symétrique $V$ de $X$, $\overline{V}(x_0)$ rencontrerait donc $B$, et par suite, comme $B$ est fermé, on aurait $x_0 \in B$, contrairement à l’hypothèse.
 
-#### Corollaire {#top-ii-s4-n3-cor-1 .statement}
+#### Corollaire {#top-ii-s4-n3-cor-1 .statement tag=0BGF}
 
 *Soit $A$ un ensemble compact dans un espace uniforme $X$; lorsque $V$ parcourt l’ensemble des entourages de $X$, les ensembles $V(A)$ forment un système fondamental de voisinages de $A$.*
 
@@ -174,19 +174,19 @@ En effet, soit $U$ un voisinage ouvert quelconque de $A$; l’ensemble $B = \com
 
 ### 4. Ensembles connexes dans un espace compact
 
-#### Définition 3 {#top-ii-s4-def-3 .statement}
+#### Définition 3 {#top-ii-s4-def-3 .statement tag=0BGG}
 
 *Dans un espace uniforme $X$, soit $V$ un entourage symétrique; on dit qu’une suite finie $(x_i)_{0 \leq i \leq n}$ de points de $X$ est une $V$-chaîne si, pour tout indice $i$ tel que $0 \leq i < n$, $x_i$ et $x_{i+1}$ sont voisins d’ordre $V$; les points $x_0$ et $x_n$ sont appelés les extrémités de la $V$-chaîne, et on dit qu’ils sont joints par la $V$-chaîne.*
 
 Étant donné un entourage symétrique $V$, la relation « il existe une $V$-chaîne joignant $x$ et $y$ » est une relation d’équivalence entre $x$ et $y$ dans $X$, comme on le vérifie aussitôt; soit $A_{x,V}$ la classe d’équivalence de $x$ suivant cette relation, c’est-à-dire l’ensemble des points $y \in X$ pouvant être joints à $x$ par une $V$-chaîne. Il est immédiat que si $y \in A_{x,v}$ on a $V(y) \subset A_{x,v}$, donc $A_{x,v}$ est ouvert; mais son complémentaire, qui est réunion de classes d’équivalence, est aussi ouvert. Donc:
 
-#### Proposition 5 {#top-ii-s4-prop-5 .statement}
+#### Proposition 5 {#top-ii-s4-prop-5 .statement tag=0BGH}
 
 *Dans un espace uniforme $X$, l’ensemble $A_{x,v}$ des points qui peuvent être joints à un point donné $x$ par une $V$-chaîne, est à la fois ouvert et fermé.*
 
 Pour tout $x \in X$, désignons par $A_x$ l’intersection des ensembles $A_{x,v}$ lorsque $V$ parcourt l’ensemble des entourages symétriques de $X$; c’est la classe d’équivalence de $x$ suivant la relation d’équivalence: « quel que soit l’entourage symétrique $V$, il existe une $V$-chaîne joignant $x$ et $y$ ».
 
-#### Proposition 6 {#top-ii-s4-prop-6 .statement}
+#### Proposition 6 {#top-ii-s4-prop-6 .statement tag=0BGI}
 
 *Dans un espace compact $X$, la composante connexe d’un point $x$, l’ensemble $A_x$ et l’intersection des voisinages de $x$ à la fois ouverts et fermés sont identiques.*
 
@@ -194,7 +194,7 @@ Il suffit de montrer que $A_x$ est *connexe*; en effet, dans tout espace uniform
 
 Supposons que $A_x$ ne soit pas connexe; comme c’est un ensemble *fermé*, il existerait deux ensembles *fermés* non vides et sans point commun, $B$ et $C$, tels que $B \cup C = A_x$. D’après la prop. 4 (II, p. 31) il existerait alors un entourage $U$ de $X$ tel que $U(B) \cap U(C) = \varnothing$; soit $W$ un entourage *ouvert* tel que $W^2 \subset U$, et désignons par $H$ l’ensemble *fermé* complémentaire dans $X$ de l’ensemble $W(B) \cup W(C)$. Supposons par exemple que $x \in B$, et considérons un point $y \in C$; pour tout entourage symétrique $V \subset W$, on voit aussitôt, par récurrence sur $i$, que toute $V$-chaîne $(x_i)_{0 \leq i \leq n}$ joignant $x$ et $y$ dans $X$ a nécessairement un point dans $H$, en vertu du choix de $W$. Comme par hypothèse $x$ et $y$ peuvent être joints par une $V$-chaîne pour tout entourage symétrique $V$, on voit que, pour $V \subset W$, l’ensemble $H \cap A_{x,v}$ n’est pas vide. D’autre part, si $V' \subset V$, on a évidemment $A_{x,v'} \subset A_{x,v}$; il en résulte que lorsque $V$ parcourt l’ensemble des entourages symétriques de $X$, les ensembles $H \cap A_{x,v}$ formeraient une base de filtre composée d’ensembles *fermés* dans l’espace compact $H$. Il existerait donc un point commun à tous ces ensembles, autrement dit un point commun à $H$ et $A_x$; comme cela est contraire à la définition de $H$, la proposition est démontrée.
 
-#### Corollaire {#top-ii-s4-n4-cor-1 .statement}
+#### Corollaire {#top-ii-s4-n4-cor-1 .statement tag=0BGJ}
 
 *Soient $X$ un espace localement compact, $K$ une composante connexe compacte de $X$. Alors les voisinages à la fois ouverts et fermés de $K$ forment un système fondamental de voisinages de $K$*.
 
@@ -204,7 +204,7 @@ Raisonnons par l’absurde: les intersections avec $F$ des ensembles contenant
 
 K et à la fois ouverts et fermés par rapport à $\overline{V}$ formeraient une base de filtre composée d’ensembles fermés dans F; comme F est compact, ces ensembles auraient un point commun $y \in F$; mais cela est absurde, car $\overline{V}$ est un espace compact, K est une composante connexe de cet espace, et en vertu de la prop. 6, l’intersection des ensembles contenant K et à la fois ouverts et fermés dans $\overline{V}$ se réduit à K. Le corollaire est donc démontré.
 
-#### Proposition 7 {#top-ii-s4-prop-7 .statement}
+#### Proposition 7 {#top-ii-s4-prop-7 .statement tag=0BGK}
 
 Soient X un espace compact, R la relation d’équivalence dans X dont les classes sont les composantes connexes de X. L’espace quotient X/R est compact et totalement discontinu.
 

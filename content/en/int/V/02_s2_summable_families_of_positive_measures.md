@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 4
-content_sha256: 730cfcb70644db90795e20bf6902026aa0227cd8eb96e17932cb562cdb07b859
+content_sha256: ec7d58f4d9ead5ad76e61a986e1e25bc88d93ca5a6598bf0f04e740c0b11cee4
 ---
 
 ## § 2. SUMMABLE FAMILIES OF POSITIVE MEASURES
@@ -49,11 +49,11 @@ for every compact set $K \subset X$.
 
 For, (2) implies (1) because $f \leq \|f\| \cdot \varphi_S$, where S denotes the compact support of $f$. Conversely, if K is a compact set, there exists a function $f \in \mathscr{K}_+(X)$ such that $\varphi_K \leq f$ (Ch. III, §1, No. 2, Lemma 1), and it follows that (1) implies (2).
 
-#### Remark 1 {#int-v-s2-n1-rem-1 .statement}
+#### Remark 1 {#int-v-s2-n1-rem-1 .statement tag=090G}
 
 It is immediate that, when the family $(\lambda_\alpha)_{\alpha \in A}$ is summable, its sum is the supremum in $\mathscr{M}_+(X)$ of the finite partial sums $\sum_{\alpha \in J} \lambda_\alpha$, where J runs over the set of finite subsets of A.
 
-#### Remark 2 {#int-v-s2-n1-rem-2 .statement}
+#### Remark 2 {#int-v-s2-n1-rem-2 .statement tag=090H}
 
 Let $(\theta_\alpha)_{\alpha \in A}$ be a family of complex measures on X; the family $(\theta_\alpha)$ is said to be *summable* if the family $(|\theta_\alpha|)$ of positive measures is summable; *it is not sufficient for this* that the family $(\theta_\alpha)$ be summable in the vector space $\mathscr{M}(X; \mathbf{C})$ equipped with the vague topology (cf. Exer. 3).
 
@@ -61,7 +61,7 @@ Let $(\theta_\alpha)_{\alpha \in A}$ be a family of complex measures on X; the f
 
 *Throughout this No.*, X denotes a locally compact space, $(\lambda_\alpha)_{\alpha \in A}$ a summable family of positive measures on X, and $\nu$ the measure $\sum_{\alpha \in A} \lambda_\alpha$.
 
-#### Proposition 1 {#int-v-s2-prop-1 .statement}
+#### Proposition 1 {#int-v-s2-prop-1 .statement tag=090I}
 
 — *Let f be a positive numerical function defined on X. Then*
 $$
@@ -70,18 +70,18 @@ $$
 
 This follows at once from Remark 1, Prop. 11 of §1, No. 3 and Prop. 3 of §1, No. 1.
 
-#### Corollary 1 {#int-v-s2-prop-1-cor-1 .statement}
+#### Corollary 1 {#int-v-s2-prop-1-cor-1 .statement tag=090J}
 
 — *For every compact (resp. open and relatively compact) subset M of X,
 $$
 \nu(M) = \sum_{\alpha \in A} \lambda_\alpha(M).
 $$*
 
-#### Corollary 2 {#int-v-s2-prop-1-cor-2 .statement}
+#### Corollary 2 {#int-v-s2-prop-1-cor-2 .statement tag=090K}
 
 — *For a subset N of X to be locally $\nu$-negligible, it is necessary and sufficient that, for every $\alpha \in A$, N be locally $\lambda_\alpha$-negligible.*
 
-#### Corollary 3 {#int-v-s2-prop-1-cor-3 .statement}
+#### Corollary 3 {#int-v-s2-prop-1-cor-3 .statement tag=090L}
 
 — *For every function $f \in \mathscr{F}_+(X)$,
 $$
@@ -92,13 +92,13 @@ The inequality is obvious if $f$ is not $\nu$-moderated, because then $\nu^*(f) 
 
 It can happen that the two members of (4) are not equal, even when $A$ is countable and each of the $\lambda_\alpha$ is a point measure ($§ 1$, Exer. 4 a)).
 
-#### Proposition 2 {#int-v-s2-prop-2 .statement}
+#### Proposition 2 {#int-v-s2-prop-2 .statement tag=090M}
 
 — *Let $f$ be a mapping of $X$ into a topological space $G$. For $f$ to be $\nu$-measurable, it is necessary and sufficient that $f$ be $\lambda_\alpha$-measurable for every $\alpha \in A$.*
 
 This follows at once from Cor. 2 of Prop. 11 of $§ 1$.
 
-#### Proposition 3 {#int-v-s2-prop-3 .statement}
+#### Proposition 3 {#int-v-s2-prop-3 .statement tag=090N}
 
 — *For a mapping $f$ of $X$ into a Banach space $F$ to be essentially $\nu$-integrable, it is necessary and sufficient that $f$ be essentially $\lambda_\alpha$-integrable for every $\alpha \in A$ and that*
 
@@ -122,13 +122,13 @@ implies that the family $(\int f \, d\lambda_\alpha)$ is absolutely summable in 
 
 Prop. 3 can also be deduced from the general theorem on integration that will be proved in §3 (No. 3, Th. 1).
 
-#### Corollary 1 {#int-v-s2-prop-3-cor-1 .statement}
+#### Corollary 1 {#int-v-s2-prop-3-cor-1 .statement tag=090O}
 
 — Suppose that $f$ is $\nu$-integrable; then $f$ is $\lambda_\alpha$-integrable for every $\alpha \in A$, and formula (6) holds. Conversely, if the set $A$ is finite and $f$ is $\lambda_\alpha$-integrable for every $\alpha \in A$, then the function $f$ is $\nu$-integrable.
 
 If $f$ is $\nu$-integrable, then $f$ is essentially $\nu$-integrable and $\nu$-moderated (§ 1, No. 3, Cor. of Prop. 9); $f$ is therefore essentially $\lambda_\alpha$-integrable and $\lambda_\alpha$-moderated, hence $\lambda_\alpha$-integrable, for every $\alpha \in A$. Conversely, if $A$ is finite and if $f$ is $\lambda_\alpha$-integrable for all $\alpha \in A$, then $f$ is essentially $\nu$-integrable by Prop. 3, and it suffices to verify that $\nu^*(|f|) < +\infty$; this follows at once from the relation $\nu^* = \sum_{\alpha \in A} \lambda_\alpha^*$ (Ch. IV, §1, No. 3, Prop. 15).
 
-#### Corollary 2 {#int-v-s2-prop-3-cor-2 .statement}
+#### Corollary 2 {#int-v-s2-prop-3-cor-2 .statement tag=090P}
 
 — Let $\theta$ be a complex measure on $X$; set $\theta_1 = (\Re \theta)^+$, $\theta_2 = (\Re \theta)^-$, $\theta_3 = (\Im \theta)^+$, $\theta_4 = (\Im \theta)^-$. In order that a mapping $f$ of $X$ into a topological space $G$ (resp. into a Banach space $F$) be measurable (resp. essentially integrable, integrable) for the measure $\theta$, it is necessary and sufficient that it be measurable (resp. essentially integrable, integrable) for each of the measures $\theta_i$ ($i = 1, 2, 3, 4$).
 
@@ -136,7 +136,7 @@ If $f$ is measurable (resp. essentially integrable, integrable) for $\theta$, th
 
 ### 3. Decomposition of a measure as a sum of measures with compact support
 
-#### Proposition 4 {#int-v-s2-prop-4 .statement}
+#### Proposition 4 {#int-v-s2-prop-4 .statement tag=090Q}
 
 — Let $\mu$ be a positive measure on a locally compact space $T$, and let $\mathfrak{K}$ be a $\mu$-dense set of compact subsets of $T$. There exists a summable family $(\mu_\alpha)_{\alpha \in A}$ of positive measures on $T$ such that $\mu = \sum_{\alpha \in A} \mu_\alpha$, and such that the supports of the measures $\mu_\alpha$ belong to $\mathfrak{K}$ and form a locally countable family of pairwise disjoint compact sets.
 
@@ -159,7 +159,7 @@ $$
 $$
 This completes the proof of the general case. If $\mu$ is moderated, then the set $T$ is $\mu$-moderated and so $T$ is the union of a sequence $(L_n)$ of compact sets and a negligible set (§ 1, No. 2, Prop. 5); let $A'$ be the countable set of $\alpha \in A$ such that $K_\alpha$ intersects one of the $L_n$. Then $\mu_\alpha = 0$ for $\alpha \notin A'$, and the last sentence of the statement follows immediately.
 
-#### Remark {#int-v-s2-n3-rem-1 .statement}
+#### Remark {#int-v-s2-n3-rem-1 .statement tag=090R}
 
 A positive measure may be the sum of a sequence of measures with compact support, and not be moderated (see Exer. 4 a) of § 1).
 

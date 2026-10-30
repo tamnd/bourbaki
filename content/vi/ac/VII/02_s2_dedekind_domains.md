@@ -33,9 +33,9 @@ subsections:
       pdf_page: 517
 statements: 14
 exercises: 27
-content_sha256: 7f18b5b1365f4c8828dfedc9397adb8333d0ee7cddb43e1e5b0d9148790847b9
+content_sha256: 9c6dfcf90f50996aded7e7d6f837c13cbb6b937b317659d76b338c95446da8fa
 translated_from: content/en/ac/VII/02_s2_dedekind_domains.md
-source_content_sha256: 48505af329aa8f7c397057bf19cbe8b89d76984c0ee19147a5591880aa4eaac3
+source_content_sha256: 608c7dd934256b19a42a5a2679369ddf6b2698e699e08b46c35914c9e02a03b8
 translation_model: gpt-5.4
 translation_run: translate-vi-026a06a8
 glossary_version: 34
@@ -52,7 +52,7 @@ Cho $A$ là một miền nguyên. Rõ ràng các điều kiện sau là tương 
 (b) các iđêan nguyên tố khác không của $A$ là cực đại;
 (c) các iđêan nguyên tố khác không của $A$ có chiều cao bằng 1.
 
-#### Định nghĩa 1 {#ac-vii-s2-def-1 .statement}
+#### Định nghĩa 1 {#ac-vii-s2-def-1 .statement tag=050M}
 
 Một miền Krull mà mọi iđêan nguyên tố khác không đều là cực đại được gọi là một miền Dedekind.
 
@@ -64,7 +64,7 @@ Các ví dụ về miền Dedekind
 
 ### 2. CÁC ĐẶC TRƯNG CỦA MIỀN DEDEKIND
 
-#### Định lý 1 {#ac-vii-s2-thm-1 .statement}
+#### Định lý 1 {#ac-vii-s2-thm-1 .statement tag=050N}
 
 Cho A là một miền nguyên và K là trường phân thức của nó. Các điều kiện sau là tương đương:
 (a) A là một miền Dedekind;
@@ -95,7 +95,7 @@ Việc (f) suy ra (g) là hiển nhiên.
 
 Sau cùng ta chỉ ra rằng (g) suy ra (a). Vì $A$ là giao của các $A_{m}$, với $m$ chạy qua tập hợp các iđêan cực đại (Chương II, $§ 3$, no. 3, Hệ quả 4 của Định lý 1), (g) suy ra rằng $A$ là nguyên đóng và Noether và do đó $A$ là một miền Krull ($§ 1$, no. 3, Hệ quả của Định lý 2). Mặt khác, có thể chỉ ra rằng mọi iđêan nguyên tố khác không của $A$ đều cực đại như trong chứng minh rằng (d) $\Rightarrow$ (e).
 
-#### Mệnh đề 1 {#ac-vii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vii-s2-prop-1 .statement tag=050O}
 
 *Một miền Dedekind nửa địa phương là một miền iđêan chính.*
 
@@ -148,7 +148,7 @@ Nếu $A$ là một miền iđêan chính, các kết quả trên lại cho các
 
 Trong các miền Dedekind có một "định lý xấp xỉ" làm mạnh cả Định lý 1 của Chương VI, § 7, no. 2 lẫn Mệnh đề 9 của § 1, no. 5:
 
-#### Mệnh đề 2 {#ac-vii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vii-s2-prop-2 .statement tag=050P}
 
 Cho $A$ là một miền Dedekind, $K$ là trường phân thức của nó và $P$ là tập hợp các iđêan nguyên tố khác không của $A$; với $p \in P$ gọi $v_p$ là định giá cốt yếu tương ứng của $A$. Cho $p_1, \ldots, p_q$ là các phần tử phân biệt của $P$ và $n_1, \ldots, n_q$ là các số nguyên hữu tỉ và $x_1, \ldots, x_q$ là các phần tử của $K$. Khi đó tồn tại $x \in K$ sao cho $v_{p_i}(x - x_i) \geq n_i$ với $1 \leq i \leq q$ và $v_p(x) \geq 0$ với mọi $p \in P$ phân biệt với các $p_i$.
 
@@ -166,7 +166,7 @@ Mệnh đề 2 có thể được diễn giải như một định lý mật đ�
 
 Với mọi $x \in K$, ký hiệu $\Delta(x)$ là phần tử $(x_p) \in \prod_{p \in P} \hat{K}_p$ sao cho $x_p = x$ với mọi $p \in P$; vì $x_p \in \hat{A}_p$ trừ ra với một số hữu hạn giá trị của p, ta có $\Delta(x) \in A$; như vậy ta đã xác định được một đồng cấu $A : K \to A$ là *đơn ánh* nếu $P \neq \varnothing$ (nghĩa là nếu A không phải là một trường); các phần tử của $\Delta(K)$ được gọi là các *adèle hạn chế chính* và rõ ràng $\Delta(A) \subset A$.
 
-#### Mệnh đề 3 {#ac-vii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vii-s2-prop-3 .statement tag=050Q}
 
 *Vành A, (resp. A ) được đồng nhất với phép hoàn bị của A (resp. K) đối với tôpô vành mà một hệ cơ bản các lân cận của 0 gồm tất cả các iđêan nguyên $\neq (0)$ của A.*
 
@@ -176,7 +176,7 @@ Dĩ nhiên ta cũng có thể chứng minh rằng $\Delta(K)$ trù mật trong A
 
 Xét bây giờ nhóm nhân $\mathbf{SL}(n, A)$ gồm các ma trận $U \in \mathbf{M}_n(A)$ sao cho $\det(U) = 1$; nếu $\mathbf{M}_n(A) = A^{n^2}$ được trang bị tôpô tích, thì nó cảm sinh trên $\mathbf{SL}(n, A)$ một tôpô *tương thích với cấu trúc nhóm* trên $\mathbf{SL}(n, A)$. Chỉ cần kiểm tra rằng ánh xạ $U \mapsto U^{-1}$ là liên tục trên $\mathbf{SL}(n, A)$; nhưng vì U là đơn môđula, ta biết rằng (*Đại số*, Chương III, § 6, no. 5, công thức (17)) các phần tử của $U^{-1}$ là các *phần bù đại số* của U và do đó là các đa thức theo các phần tử của U, điều này chứng minh mệnh đề của chúng ta. Nếu K được đồng nhất với một vành con của A thông qua A, thì nhóm $\mathbf{SL}(n, K)$ là một nhóm con của $\mathbf{SL}(n, A)$.
 
-#### Mệnh đề 4 {#ac-vii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vii-s2-prop-4 .statement tag=050R}
 
 *Nhóm $\mathbf{SL}(n, K)$ là trù mật trong $\mathbf{SL}(n, A)$.*
 
@@ -184,23 +184,23 @@ Gọi G là bao đóng của $\mathbf{SL}(n, K)$ trong $\mathbf{SL}(n, A)$; vì 
 
 ### 5. ĐỊNH LÝ KRULL-AKIZUKI
 
-#### Bổ đề 1 {#ac-vii-s2-lem-1 .statement}
+#### Bổ đề 1 {#ac-vii-s2-lem-1 .statement tag=050S}
 
 *Cho $A$ là một miền Noether trong đó mọi iđêan nguyên tố khác không đều là cực đại và $M$ là một $A$-môđun xoắn hữu hạn sinh. Khi đó độ dài $\operatorname{long}_A(M)$ của $M$ là vô hạn.*
 
 Vì $M$ là một môđun xoắn, mọi iđêan nguyên tố liên kết với $M$ đều $\neq (0)$ và do đó đều cực đại. Khi ấy bổ đề suy ra từ Chương IV, § 2, no. 5, Mệnh đề 7.
 
-#### Bổ đề 2 {#ac-vii-s2-lem-2 .statement}
+#### Bổ đề 2 {#ac-vii-s2-lem-2 .statement tag=050T}
 
 *Cho $A$ là một vành, $T$ một $A$-môđun và $(T_i)$ một họ có hướng phải các môđun con của $T$ với hợp là $T$. Khi đó $\operatorname{long}_A(T) = \sup_i (\operatorname{long}_A(T_i))$.*
 
 $\operatorname{long}_A(T_i) \leq \operatorname{long}_A(T)$ với mọi $i$. Bổ đề là hiển nhiên nếu không có số nguyên nào vượt quá các $\operatorname{long}_A(T_i)$, khi đó cả hai vế đều là vô hạn. Nếu không, gọi $i_0$ là một chỉ số sao cho $\operatorname{long}_A(T_{i_0})$ nhận giá trị lớn nhất của nó; khi đó $T_{i_0} = T$ vì họ $(T_i)$ là có hướng; do đó mệnh đề của chúng ta trong trường hợp này.
 
-#### Nhận xét {#ac-vii-s2-n5-rem-1 .statement}
+#### Nhận xét {#ac-vii-s2-n5-rem-1 .statement tag=050U}
 
 Chứng minh này không giả thiết rằng $A$ là giao hoán.
 
-#### Bổ đề 3 {#ac-vii-s2-lem-3 .statement}
+#### Bổ đề 3 {#ac-vii-s2-lem-3 .statement tag=050V}
 
 *Cho $A$ là một miền nguyên Noether sao cho mọi iđêan nguyên tố khác không $\& A$ đều cực đại, $M$ một $A$-môđun không xoắn hạng hữu hạn $r$ và một phần tử khác không của $A$. Khi đó $A/Aa$ là một $A$-môđun có độ dài hữu hạn và:*
 $$
@@ -248,7 +248,7 @@ $$
 
 theo Bổ đề 2.
 
-#### Mệnh đề 5 (Krull-Akizuki) {#ac-vii-s2-prop-5 .statement}
+#### Mệnh đề 5 (Krull-Akizuki) {#ac-vii-s2-prop-5 .statement tag=050W}
 
 *Cho A là một miền nguyên Noether mà mọi iđêan nguyên tố khác không của nó đều cực đại, K là trường phân thức của nó, L là một mở rộng hữu hạn của K và B là một vành con của L chứa A. Khi đó B là Noether và mọi iđêan nguyên tố khác không của B đều cực đại. Hơn nữa, với mọi iđêan $b \neq (0)$ của B, B/b là một A-môđun hữu hạn sinh.*
 
@@ -264,13 +264,13 @@ Phương trình này cho thấy rằng $a_1 \in By \subset b$. Áp dụng Bổ �
 
 Điều trên trước hết cho thấy rằng B là Noether. Mặt khác, nếu $p$ là một iđêan nguyên tố khác không của B, vành $B/p$ là một miền nguyên và có độ dài hữu hạn, do đó là một trường (*Đại số*, Chương VIII, § 6, no. 4, Mệnh đề 9), suy ra $p$ là cực đại.
 
-#### Hệ quả 1 {#ac-vii-s2-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#ac-vii-s2-prop-5-cor-1 .statement tag=050X}
 
 *Với mọi iđêan nguyên tố p của A, tập hợp các iđêan nguyên tố của B nằm trên p là hữu hạn.*
 
 Giả sử trước hết $p = (0)$; khi đó iđêan nguyên tố duy nhất $q$ của $B$ sao cho $q \cap A = (0)$ là $(0)$; nếu không, đặt $S = A - \{0\}$, thì $S^{-1}q$ sẽ là một iđêan nguyên tố khác không của $S^{-1}B$ (Chương 11, § 2, no. 5, Mệnh đề 11) và $S^{-1}B$ chính là trường phân thức của $B$, vì nó là một vành con của $L$ chứa $K$ (\emph{Algebra}, Chương V, § 3, no. 2, Mệnh đề 3); do đó đi đến một kết luận phi lý. Nếu bây giờ $p \neq (0)$, thì từ Mệnh đề 5 suy ra rằng $B/pB$ là một không gian vectơ hữu hạn chiều trên trường $A/p$, nên là một vành \emph{Artin} và vì vậy chỉ có một số hữu hạn iđêan nguyên tố (Chương IV, § 2, no. 5, Mệnh đề 9), điều này chứng minh rằng chỉ có một số hữu hạn iđêan nguyên tố của $B$ chứa $p$.
 
-#### Hệ quả 2 {#ac-vii-s2-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#ac-vii-s2-prop-5-cor-2 .statement tag=050Y}
 
 *Bao đóng nguyên của $A$ trong $L$ là một miền Dedekind.*
 
@@ -278,11 +278,11 @@ Bao đóng nguyên này là một miền Noether đóng nguyên mà mọi iđêa
 
 Đặc biệt:
 
-#### Hệ quả 3 {#ac-vii-s2-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#ac-vii-s2-prop-5-cor-3 .statement tag=050Z}
 
 *Bao đóng nguyên của một miền Dedekind trong một mở rộng hữu hạn của trường phân thức của nó là một miền Dedekind.*
 
-#### Mệnh đề 6 {#ac-vii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#ac-vii-s2-prop-6 .statement tag=0510}
 
 *Cho $A$ là một miền Dedekind, $K$ trường phân thức của nó, $L$ một mở rộng hữu hạn của $K$ và $B$ bao đóng nguyên của $A$ trong $L$. Cho $p$ là một iđêan nguyên tố khác không của $A$, $v$ định giá cốt yếu tương ứng của $K$ và*
 

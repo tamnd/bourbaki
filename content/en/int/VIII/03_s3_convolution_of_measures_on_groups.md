@@ -25,7 +25,7 @@ subsections:
       pdf_page: 122
 statements: 16
 exercises: 13
-content_sha256: d7b8f6ce67aab9318c4bf1d66eb3da65db7aa355768329905786e678f3dc2cd4
+content_sha256: fbb17d2d8dfca6f7e44cfa7592c87c0769532c38cc2550dc3a50ed837fd6ab29
 ---
 
 ## § 3. CONVOLUTION OF MEASURES ON GROUPS
@@ -58,7 +58,7 @@ $$
 
 by §1, No. 1, Example 3. If G is abelian, to say that $\mu_1$ and $\mu_2$ are convolvable is equivalent to saying that $\mu_2$ and $\mu_1$ are convolvable, and one then has $\mu_1 * \mu_2 = \mu_2 * \mu_1$. When G is not abelian, it can happen that $\mu_1$ and $\mu_2$ are convolvable, without $\mu_2$ and $\mu_1$ being so (Exer. 12).
 
-#### Proposition 1 {#int-viii-s3-prop-1 .statement}
+#### Proposition 1 {#int-viii-s3-prop-1 .statement tag=09JB}
 
 — Let G be a locally compact group, $\lambda, \mu, \nu$ measures $\neq 0$ on G.
 
@@ -76,7 +76,7 @@ There can exist measures $\lambda, \mu, \nu$ on G such that the convolution prod
 
 Let $\rho$ be a lower semi-continuous finite function $> 0$ on $G$ such that $\rho(st) \leq \rho(s)\rho(t)$ for all $s, t$ in $G$. We denote by $\mathscr{M}^\rho(G)$ the vector space of measures $\lambda$ on $G$ such that $\rho$ is $\lambda$-integrable, and by $\| \lambda \|_\rho$ (or simply $\| \lambda \|$) the norm $\int_G \rho(s) d|\lambda|(s)$ on this space. When $\rho = 1$, one recovers the set $\mathscr{M}^1(G)$ of bounded measures on $G$.
 
-#### Proposition 2 {#int-viii-s3-prop-2 .statement}
+#### Proposition 2 {#int-viii-s3-prop-2 .statement tag=09JC}
 
 (i) *Any two elements of $\mathscr{M}^\rho(G)$ are convolvable.*
 (ii) *For convolution, and for the norm $\| \lambda \|$, $\mathscr{M}^\rho(G)$ is a complete normed algebra, admitting $\varepsilon_e$ as unity element.*
@@ -110,7 +110,7 @@ One sees that $\lambda * \mu \in \mathscr{M}^\rho(G)$ and that $\| \lambda * \mu
 
 If $\rho = 1$, Prop. 2, (i) and (ii) also follow from §1, Prop. 2.
 
-#### Proposition 3 {#int-viii-s3-prop-3 .statement}
+#### Proposition 3 {#int-viii-s3-prop-3 .statement tag=09JD}
 
 *Let $\mu_1, \ldots, \mu_n$ be measures on G. If all of the $\mu_i$, except at most one, have compact support, then the $\mu_i$ are convolvable.*
 
@@ -122,13 +122,13 @@ $$
 
 Therefore the $\mu_i$ are convolvable (§1, No. 4, Prop. 4).
 
-#### Proposition 4 {#int-viii-s3-prop-4 .statement}
+#### Proposition 4 {#int-viii-s3-prop-4 .statement tag=09JE}
 
 *The mapping $(\lambda, \mu) \mapsto \lambda * \mu$ (resp. $(\lambda, \mu) \mapsto \mu * \lambda$), where $\lambda \in \mathscr{C}'(G)$, $\mu \in \mathscr{M}(G)$, defines on $\mathscr{M}(G)$ the structure of a left (resp. right) module over the algebra $\mathscr{C}'(G)$.*
 
 This follows from Props. 1 and 3.
 
-#### Proposition 5 {#int-viii-s3-prop-5 .statement}
+#### Proposition 5 {#int-viii-s3-prop-5 .statement tag=09JF}
 
 *Let $\lambda$ be a left (resp. right) Haar measure on G, and $\mu \in \mathscr{M}^1(G)$. Then $\mu$ and $\lambda$ (resp. $\lambda$ and $\mu$) are convolvable, and $\mu * \lambda = \mu(1)\lambda$ (resp. $\lambda * \mu = \mu(1)\lambda$).*
 
@@ -140,7 +140,7 @@ $$
 
 therefore the function $(x, y) \mapsto f(xy)$ is $(\mu \otimes \lambda)$-integrable, and its integral for $\mu \otimes \lambda$ is $\lambda(f)\|\mu\|$. One argues similarly when $\lambda$ is a right Haar measure.
 
-#### Proposition 6 {#int-viii-s3-prop-6 .statement}
+#### Proposition 6 {#int-viii-s3-prop-6 .statement tag=09JG}
 
 *Let $\mu$ and $\nu$ be two convolvable measures on G. Let $\chi$ be a continuous representation of G in $\mathbf{C}^*$. Then $\chi \cdot \mu$ and $\chi \cdot \nu$ are convolvable and $(\chi \cdot \mu) * (\chi \cdot \nu) = \chi \cdot (\mu * \nu)$.*
 
@@ -159,7 +159,7 @@ $$
 
 whence $(\chi \cdot \mu) * (\chi \cdot \nu) = \chi \cdot (\mu * \nu)$.
 
-#### Proposition 7 {#int-viii-s3-prop-7 .statement}
+#### Proposition 7 {#int-viii-s3-prop-7 .statement tag=09JH}
 
 *Let G and G' be two locally compact groups, u a continuous representation of G in G', and $\mu_1, \ldots, \mu_n$ measures on G, all $\neq 0$. Then the following assertions are equivalent:
 (i) $u$ is $\mu_i$-proper for all i, and the measures $u(|\mu_i|)$ are convolvable;
@@ -172,7 +172,7 @@ $$
 
 This follows from §1, No. 2, Cor. of Prop. 1.
 
-#### Corollary {#int-viii-s3-n1-cor-1 .statement}
+#### Corollary {#int-viii-s3-n1-cor-1 .statement tag=09JI}
 
 *Let G be a locally compact group, $\mu_1, \ldots, \mu_n$ measures on G. For the sequence $(\mu_i)_{1 \leq i \leq n}$ to be convolvable, it is necessary and sufficient that the sequence $(\check{\mu}_{n-i})_{0 \leq i \leq n-1}$ be so, in which case*
 
@@ -207,19 +207,19 @@ $$
 $$
 by §1, No. 1, Example 3.
 
-#### Proposition 8 {#int-viii-s3-prop-8 .statement}
+#### Proposition 8 {#int-viii-s3-prop-8 .statement tag=09JJ}
 
 — Let $\mu$ be a measure on $G$, $\nu$ a measure on $X$.
 (i) If $\mu$ has compact support, then $\mu$ and $\nu$ are convolvable.
 (ii) If $\nu$ has compact support, and if $G$ operates properly in $X$, then $\mu$ and $\nu$ are convolvable.
 This follows from Prop. 4 of §1, No. 4.
 
-#### Proposition 9 {#int-viii-s3-prop-9 .statement}
+#### Proposition 9 {#int-viii-s3-prop-9 .statement tag=09JK}
 
 — For convolution, $\mathscr{M}^1(X)$ is a left module over $\mathscr{M}^1(G)$, while $\mathscr{M}(X)$ and $\mathscr{C}'(X)$ are left modules over $\mathscr{C}'(G)$.
 This follows from Prop. 8, and from §1, Props. 1, 3 and the Cor. of Prop. 5.
 
-#### Proposition 10 {#int-viii-s3-prop-10 .statement}
+#### Proposition 10 {#int-viii-s3-prop-10 .statement tag=09JL}
 
 — Let $\mu$ be a measure on $G$, $\nu$ a measure on $X$, $\mu$ and $\nu$ being convolvable. Suppose in addition that there exists a positive measure $\beta$ on $X$ such that $\gamma(s)\nu$ has base $\beta$ for every $s \in G$. Then $\mu * \nu$ has base $\beta$.
 Let $K$ be a $\beta$-negligible compact subset of $X$. Then $K$ is $\gamma(s)|\nu|$-negligible for every $s \in G$. Now,
@@ -230,7 +230,7 @@ $$
 
 ### 3. Convolution and linear representations
 
-#### Proposition 11 {#int-viii-s3-prop-11 .statement}
+#### Proposition 11 {#int-viii-s3-prop-11 .statement tag=09JM}
 
 — Let $G$ be a locally compact group, $E$ a quasi-complete locally convex space, $U$ a continuous representation of $G$ in $E$.
 (i) If $\lambda \in \mathscr{C}'(G)$, $\mu \in \mathscr{C}'(G)$, then $U(\lambda * \mu) = U(\lambda)U(\mu)$.
@@ -249,7 +249,7 @@ whence (i). An analogous argument may be applied in case (ii).
 
 With G still a locally compact group, let us assume that G operates continuously on the left in a locally compact space X. This defines (§2, No. 4) a continuous linear representation $\gamma$ of G in $\mathscr{M}(X)$ (equipped with the topology of compact convergence in $\mathscr{H}(X)$).
 
-#### Proposition 12 {#int-viii-s3-prop-12 .statement}
+#### Proposition 12 {#int-viii-s3-prop-12 .statement tag=09JN}
 
 *If $\lambda \in \mathscr{C}'(G)$ and $\mu \in \mathscr{M}(X)$, then*
 
@@ -271,13 +271,13 @@ $$
 
 by the definition of $\gamma(\lambda)$.
 
-#### Corollary {#int-viii-s3-n3-cor-1 .statement}
+#### Corollary {#int-viii-s3-n3-cor-1 .statement tag=09JO}
 
 *The mapping $(\lambda, \mu) \mapsto \lambda * \mu$ of $\mathscr{C}'(G) \times \mathscr{M}(X)$ into $\mathscr{M}(X)$ is hypocontinuous relative to the equicontinuous subsets of $\mathscr{C}'(G)$ and the compact subsets of $\mathscr{M}(X)$ ($\mathscr{C}'(G)$ and $\mathscr{M}(X)$ being equipped with the topology of compact convergence in $\mathscr{C}(G)$ and $\mathscr{H}(X)$, respectively).*
 
 For, $\mathscr{M}(X)$, equipped with the topology of compact convergence in $\mathscr{H}(X)$, is quasi-complete. Therefore the mapping $(\lambda, \mu) \mapsto \gamma(\lambda)\mu$ of $\mathscr{C}'(G) \times \mathscr{M}(X)$ into $\mathscr{M}(X)$ is hypocontinuous relative to the equicontinuous subsets of $\mathscr{C}'(G)$ and the compact subsets of $\mathscr{M}(X)$ (§2, No. 6). It then suffices to apply Prop. 12.
 
-#### Remark {#int-viii-s3-n3-rem-1 .statement}
+#### Remark {#int-viii-s3-n3-rem-1 .statement tag=09JP}
 
 — 1) Let $\lambda_0 \in \mathscr{C}'(G)$. The mapping $\mu \mapsto \lambda_0 * \mu$ of $\mathscr{M}(X)$ into $\mathscr{M}(X)$ is vaguely continuous. For, let $f \in \mathscr{H}(X)$. One has
 
@@ -289,7 +289,7 @@ where $g(x) = \int f(sx) d\lambda_0(s)$. Now, $g$ is continuous (Ch. VII, §1, N
 
 2) Let $\mu_0 \in \mathscr{M}(X)$. The mapping $\lambda \mapsto \lambda * \mu_0$ of $\mathscr{C}'(G)$ into $\mathscr{M}(X)$ is continuous for the topologies $\sigma(\mathscr{C}'(G), \mathscr{C}(G))$ and $\sigma(\mathscr{M}(X), \mathscr{H}(X))$. For, let $f \in \mathscr{K}(X)$. Setting $h(s) = \int f(sx)\, d\mu_0(x)$, we have $\langle f, \lambda * \mu_0 \rangle = \langle h, \lambda \rangle$, and $h \in \mathscr{C}(G)$ (Ch. VII, §1, No. 1, Lemma 1).
 
-#### Proposition 13 {#int-viii-s3-prop-13 .statement}
+#### Proposition 13 {#int-viii-s3-prop-13 .statement tag=09JQ}
 
 *The mapping* $(s, \mu) \mapsto \gamma(s)\mu$ *of* $G \times \mathscr{M}_+(X)$ *into* $\mathscr{M}_+(X)$ *is continuous when the set* $\mathscr{M}_+(X)$ *of positive measures on* $X$ *is equipped with the vague topology*.
 

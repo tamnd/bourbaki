@@ -32,7 +32,7 @@ subsections:
       pdf_page: 194
 statements: 25
 exercises: 30
-content_sha256: 0e222687221056213048b56108fcffae8fb725edb462c65e1c09a14c32ded0b4
+content_sha256: 9659cfc8beeaee4a3f7b73b432335f6ffd60e7f82a5d2d879d79d7ffdfda75df
 ---
 
 ## 4. NORMAL SPACES
@@ -43,7 +43,7 @@ Axiom ($O_{IV}$) for uniformizable spaces ($§ 1$, no. 5) can be stated in the f
 
 We shall now study spaces in which it is possible in the same way to separate two disjoint closed sets by a continuous real-valued function:
 
-#### Definition 1 {#top-ix-s4-def-1 .statement}
+#### Definition 1 {#top-ix-s4-def-1 .statement tag=0C5F}
 
 *A topological space $X$ is said to be normal if it is Hausdorff and satisfies the following axiom:*
 
@@ -53,7 +53,7 @@ Clearly every normal space is completely regular; but there are completely regul
 
 The statement of Axiom $(O_v)$, like that of $(O_{IV})$, involves the real line $\mathbf{R}$ as an auxiliary set. But there is a condition equivalent to $(O_v)$ which involves no auxiliary set:
 
-#### Theorem 1 (Urysohn) {#top-ix-s4-thm-1 .statement}
+#### Theorem 1 (Urysohn) {#top-ix-s4-thm-1 .statement tag=0C5G}
 
 *Axiom $(O_v)$ is equivalent to the following:*
 
@@ -105,7 +105,7 @@ this proves (1) and therefore completes the proof.
 
 Theorem 1 will enable us to show that two important categories of topological spaces are normal. In the first place:
 
-#### Proposition 1 {#top-ix-s4-prop-1 .statement}
+#### Proposition 1 {#top-ix-s4-prop-1 .statement tag=0C5H}
 
 *A compact space is normal.*
 
@@ -113,17 +113,17 @@ A compact space satisfies axiom $(\mathrm{O}'_V)$, by Proposition 2 of Chapter I
 
 As to *locally compact* spaces, every point of such a space has a compact neighbourhood, which is a normal subspace; but there are examples of locally compact spaces which are *not normal* (cf. Exercises 9 and 26, and § 5, Exercise 15).
 
-#### Proposition 2 {#top-ix-s4-prop-2 .statement}
+#### Proposition 2 {#top-ix-s4-prop-2 .statement tag=0C5I}
 
 *A metrizable space is normal.*
 
 Let $X$ be a metrizable space and let $d$ be a metric compatible with the topology of $X$. Let $A, B$ be two disjoint closed subsets of $X$; since the functions $d(x, A)$ and $d(x, B)$ are continuous, the set $U$ (resp. $V$) of points $x$ such that $d(x, A) < d(x, B)$ [resp. $d(x, B) < d(x, A)$] is open; clearly $A \subset U$ and $B \subset V$ and $U \cap V = \varnothing$, hence Axiom $(O'_V)$ is satisfied.
 
-#### Remark 1 {#top-ix-s4-n1-rem-1 .statement}
+#### Remark 1 {#top-ix-s4-n1-rem-1 .statement tag=0C5J}
 
 Proposition 2 gives another *necessary* condition for metrizability; but this condition, even in conjunction with all the necessary conditions given in § 2, does not give a set of sufficient conditions for metrizability (cf. Exercise 6 and § 5, Exercise 10).
 
-#### Remark 2 {#top-ix-s4-n1-rem-2 .statement}
+#### Remark 2 {#top-ix-s4-n1-rem-2 .statement tag=0C5K}
 
 There are examples of normal spaces which are neither metrizable nor locally compact (see § 5, Exercise 16).
 
@@ -137,7 +137,7 @@ Finally we record that the *product* of two normal spaces is not necessarily nor
 
 Let $X$ and $Y$ be two topological spaces and let $A \neq X$ be a *closed* subset of $X$. If $f$ is a continuous mapping of $A$ into $Y$, it is not always possible to *extend* $f$ to a continuous mapping of the whole of $X$ into $Y$. When $Y = \overline{\mathbf{R}}$, the possibility of such an extension is determined by the following theorem:
 
-#### Theorem 2 (Urysohn) {#top-ix-s4-thm-2 .statement}
+#### Theorem 2 (Urysohn) {#top-ix-s4-thm-2 .statement tag=0C5L}
 
 *Axiom* $(O_V)$ *is equivalent to the following property*: $(O''_V)$ *Given any closed subset* $A$ *of* $X$ *and any continuous real-valued function* $f$ *(finite or not)* *defined on* $A$, *there exists an extension* $g$ *of* $f$ *to the whole space* $X$, *which is a continuous mapping of* $X$ *into* $\overline{\mathbf{R}}$.
 
@@ -147,7 +147,7 @@ Let us show conversely that $(O_{V})$ implies $(O''_{V})$. Since $\overline{\mat
 
 The definition of the $g_{n}$ rests on the following lemma:
 
-#### Lemma 1 {#top-ix-s4-lem-1 .statement}
+#### Lemma 1 {#top-ix-s4-lem-1 .statement tag=0C5M}
 
 *Let $u$ be a continuous mapping of $A$ into $[ -i, +i ]$; then there is a continuous mapping $v$ of $X$ into $[ -i/3, +i/3 ]$, such that $|u(x) - v(x)| \leq 2/3$ for all $x \in A$.*
 
@@ -195,7 +195,7 @@ $$
 
 which shows that $g$ is continuous at $x$, and completes the proof of Theorem 2. (The last part of the proof uses, in a particular case, the idea of uniform convergence, which we shall study in general in Chapter X, no. 1.)
 
-#### Corollary {#top-ix-s4-n2-cor-1 .statement}
+#### Corollary {#top-ix-s4-n2-cor-1 .statement tag=0C5N}
 
 *If $f$ is a finite continuous real-valued function defined on $A$, then there exists a finite continuous real-valued function $g$ defined on $X$, which extends $f$.*
 
@@ -203,13 +203,13 @@ First consider the case in which $f(x) \geq 0$ for all $x \in A$; then there is 
 
 To pass to the general case, it is enough to remark that, if $f$ is finite and continuous on $A$, then so are $f^+$ and $f^-$; extending $f^+$ and $f^-$ to $X$ by finite continuous functions $g_1$ and $g_2$ respectively, we see that the function $g_1 - g_2$ is finite and continuous on $X$ and extends $f$.
 
-#### Remark {#top-ix-s4-n2-rem-1 .statement}
+#### Remark {#top-ix-s4-n2-rem-1 .statement tag=0C5O}
 
 If $X$ is a normal space and if $A$ is a closed subset of $X$, there exists also a continuous extension to $X$ of every continuous mapping $f$ of $A$ into a *cube* $K^1$ (§ 1, no. 5); for we have then $f = (f_i)_{i \in I}, f_i$ being a continuous mapping of $A$ into the compact interval $K$ of $\mathbf{R}$; since there exists a continuous mapping $g_i : X \to K$ which extends $f_i$, the mapping $g = (g_i)$ is a continuous extension of $f$ to $X$.
 
 ### 3. LOCALLY FINITE OPEN COVERINGS OF A CLOSED SET IN A NORMAL SPACE
 
-#### Theorem 3 {#top-ix-s4-thm-3 .statement}
+#### Theorem 3 {#top-ix-s4-thm-3 .statement tag=0C5P}
 
 Let $(A_i)_{i \in I}$ be a locally finite open covering of a closed set $Y$ in a normal space $X$. Then there is an open covering $(B_i)_{i \in I}$ of $Y$ such that $\overline{B}_i \subset A_i$ for each $i \in I$.
 
@@ -217,11 +217,11 @@ Well-order the index set $I$ (Set Theory, Chapter III, § 2, no. 3, Theorem 1). 
 
 Now put $C = (\complement Y) \cup \left( \bigcup_{i < \gamma} B_i \right) \cup \left( \bigcup_{i > \gamma} A_i \right)$; $C$ is open, and from what has been said we have $\complement A_\gamma \subset C$; by virtue of Axiom $(O''_V)$ for normal spaces, there is therefore an open set $V$ such that $\complement A_\gamma \subset \overline{V} \subset V \subset C$. If we put $B_\gamma = \complement \overline{V}$, we have $\overline{B}_\gamma \subset \complement V \subset A_\gamma$ and $B_\gamma \cup C = X$, so that the $B_i$ such that $i \leq \gamma$ and the $A_i$ such that $i > \gamma$ cover $Y$.
 
-#### Remark {#top-ix-s4-n3-rem-1 .statement}
+#### Remark {#top-ix-s4-n3-rem-1 .statement tag=0C5Q}
 
 Note that we have used only the fact that the covering $(A_i)$ is point-finite, i.e., that every point of $X$ belongs to only a finite number of sets $A_i$.
 
-#### Definition 2 {#top-ix-s4-def-2 .statement}
+#### Definition 2 {#top-ix-s4-def-2 .statement tag=0C5R}
 
 Let $X$ be a topological space and let $f$ be a real-valued function defined on $X$. The support of $f$, denoted by $\operatorname{Supp}(f)$, is the smallest closed set $S$ in $X$ such that $f(x) = 0$ for all $x \notin S$.
 
@@ -229,13 +229,13 @@ In other words, $\operatorname{Supp}(f)$ is the closure in $X$ of the set of all
 
 Let $(f_i)_{i \in I}$ be a family of finite real-valued functions on $X$ whose supports form a locally finite family; then the sum $\sum_{i \in I} f_i(x)$ is defined for each $x \in X$ (since it contains only a finite number of non-zero terms). The finite real-valued function $x \to \sum_{i \in I} f_i(x)$ is called the sum of the family $(f_i)$, and is denoted by $\sum_{i \in I} f_i$. If each of the $f_i$ is continuous, then so is $f = \sum_{i \in I} f_i$; for if $x$ is any point of $X$, there is a neighbourhood $V$ of $x$ which meets only a finite number of supports of the $f_i$, and hence there is a finite subset $H$ of $I$ such that $f(y) = \sum_{i \in H} f_i(y)$ for all $y \in V$.
 
-#### Definition 3 {#top-ix-s4-def-3 .statement}
+#### Definition 3 {#top-ix-s4-def-3 .statement tag=0C5S}
 
 *Given a family* $(A_i)_{i \in I}$ *of subsets of a topological space* $X$, *a family* $(f_i)_{i \in I}$ *of real-valued functions defined on* $X$ *is said to be subordinate to the family* $(A_i)_{i \in I}$ *if we have* $\operatorname{Supp}(f_i) \subset A_i$ *for each index* $i \in I$.
 
 *A continuous partition of unity on* $X$ *is any family* $(f_i)_{i \in I}$ *of real-valued continuous functions* $\geq 0$ *on* $X$ *whose supports form a locally finite family and which are such that* $\sum_{i \in I} f_i(x) = 1$ *for all* $x \in X$.
 
-#### Proposition 3 {#top-ix-s4-prop-3 .statement}
+#### Proposition 3 {#top-ix-s4-prop-3 .statement tag=0C5T}
 
 *Given any locally finite open covering* $(A_i)_{i \in I}$ *of a normal space* $X$, *there exists a continuous partition of unity* $(f_i)_{i \in I}$ *on* $X$, *subordinate to the covering* $(A_i)_{i \in I}$.
 
@@ -245,7 +245,7 @@ f_i(x) = \frac{g_i(x)}{\sum_{i \in I} g_i(x)}
 $$
 for all $i \in I$ and all $x \in X$, then the $f_i$ form a continuous partition of unity subordinate to the covering $(A_i)$.
 
-#### Corollary {#top-ix-s4-n3-cor-1 .statement}
+#### Corollary {#top-ix-s4-n3-cor-1 .statement tag=0C5U}
 
 *Given any locally finite open covering* $(A_i)$ *of a closed set* $F$ *in a normal space* $X$, *there exists a family* $(f_i)$ *of continuous real-valued functions* $\geq 0$ *on* $X$, *subordinate to the covering* $(A_i)_{i \in I}$ *and such that* $\sum_{i \in I} f_i(x) = 1$ *for all* $x \in F$ *and* $\sum_{i \in I} f_i(x) \leq 1$ *for all* $x \in X$.
 
@@ -255,13 +255,13 @@ The family of sets consisting of $CF$ and the $A_i$ is a locally finite open cov
 
 We recall (Chapter I, § 9, no. 10) that a topological space $X$ is said to be *paracompact* if it is Hausdorff and if every open covering of $X$ has a locally finite open refinement.
 
-#### Proposition 4 {#top-ix-s4-prop-4 .statement}
+#### Proposition 4 {#top-ix-s4-prop-4 .statement tag=0C5V}
 
 *Every paracompact space is normal.*
 
 This is a consequence of the following lemma:
 
-#### Lemma 2 {#top-ix-s4-lem-2 .statement}
+#### Lemma 2 {#top-ix-s4-lem-2 .statement tag=0C5W}
 
 *Let $A, B$ be two disjoint closed subsets of a paracompact space $X$. If for each $x \in A$ there is an open neighbourhood $V_x$ of $x$ and an open neighbourhood $W_x$ of $B$ which do not intersect, then there exists an open neighbourhood $T$ of $A$ and an open neighbourhood $U$ of $B$ which do not intersect.*
 
@@ -271,7 +271,7 @@ To prove the lemma, consider the open covering of $X$ consisting of $CA$ and the
 
 There exist normal spaces which are not paracompact (Exercise 19).
 
-#### Corollary 1 {#top-ix-s4-lem-2-cor-1 .statement}
+#### Corollary 1 {#top-ix-s4-lem-2-cor-1 .statement tag=0C5X}
 
 *Given any open covering $(A_i)_{i \in I}$ of a paracompact space $X$, there exists a continuous partition of unity $(f_i)_{i \in I}$ on $x$, subordinate to the covering $(A_i)$.*
 
@@ -289,7 +289,7 @@ $$
 
 and the proof is complete.
 
-#### Corollary 2 {#top-ix-s4-lem-2-cor-2 .statement}
+#### Corollary 2 {#top-ix-s4-lem-2-cor-2 .statement tag=0C5Y}
 
 *If F is a closed subset of a paracompact space X, then every neighbourhood of F in X contains a closed (and therefore paracompact) neighbourhood of F.*
 
@@ -299,13 +299,13 @@ By Proposition 16 of Chapter I, § 9, no. 10, any closed subspace of X is paraco
 
 The following theorem sharpens the result of Proposition 2 of no. 1:
 
-#### Theorem 4 {#top-ix-s4-thm-4 .statement}
+#### Theorem 4 {#top-ix-s4-thm-4 .statement tag=0C5Z}
 
 *Every metrizable space is paracompact.*
 
 The theorem is a consequence of the following four lemmas.
 
-#### Lemma 3 {#top-ix-s4-lem-3 .statement}
+#### Lemma 3 {#top-ix-s4-lem-3 .statement tag=0C60}
 
 *Let $\mathscr{R} = (U_\alpha)_{\alpha \in A}$ be an open covering of a metrizable space X. Then there is a sequence $(\mathscr{G}_n)$ of locally finite families of open subsets of X, such that $\mathscr{S} = \bigcup_n \mathscr{S}_n$ is an open covering of X which refines $\mathscr{R}$.
 
@@ -319,7 +319,7 @@ $$
 
 so that $y \in U_\alpha$. Furthermore, for each $x \in X$ let $\alpha$ be the smallest index in $A$ such that $x \in U_\alpha$; then there is an integer $n$ such that $x \in F_{n\alpha}$, and the definition of $\alpha$ implies that $x \in G_{n\alpha}$, so that $x \in V_{n\alpha}$. This shows that if we put $\mathfrak{S}_n = (V_{n\alpha})_{\alpha \in A}$, then $\mathfrak{S} = \bigcup_n \mathfrak{S}_n$ is an open covering of $X$ which refines $\mathscr{R}$; thus it remains to be shown that each of the families $\mathfrak{S}_n$ is *locally finite*. To this end we shall first show that $d(G_{n\alpha}, G_{n\beta}) \geq 2^{-n-1}$ if $\alpha \neq \beta$. Suppose that $\beta < \alpha$; then if $x \in G_{n\alpha}$ and $y \in F_{n\beta}$ we have $x \notin F_{n+1,\beta}$ by definition, hence $d(x, X - U_\beta) < 2^{-n-1}$ and $d(y, X - U_\beta) \geq 2^{-n}$, and therefore $d(x, y) \geq 2^{-n-1}$; since $G_{n\beta} \subset F_{n\beta}$, the assertion follows. From this it follows immediately, using the definition of $V_{n\alpha}$ and $V_{n\beta}$, that $d(V_{n\alpha}, V_{n\beta}) \geq 2^{-n-2}$. From this last inequality we deduce that, for each $z \in X$, the open ball with centre $z$ and radius $2^{-n-3}$ meets at most one set of the family $\mathfrak{S}_n$; hence $\mathfrak{S}_n$ is a locally finite family, and the proof is complete.
 
-#### Lemma 4 {#top-ix-s4-lem-4 .statement}
+#### Lemma 4 {#top-ix-s4-lem-4 .statement tag=0C61}
 
 *Let* $(\mathfrak{S}_n)$ *be a sequence of locally finite families of open sets in a topological space* $X$, *such that*
 $$
@@ -329,13 +329,13 @@ $$
 
 Let $E_n$ be the open set in $X$ which is the union of all the sets of $\mathfrak{S}_n$; let $U_n$ denote $\bigcup_{k=1}^n E_k$ and let $A_n$ denote $U_n - U_{n-1}$ (with $U_0 = \varnothing$). Consider the set $\mathscr{B}$ of subsets $V \cap A_n$, where $V \in \mathfrak{S}_n$ and $n$ is any integer; we shall show that $\mathscr{B}$ satisfies the conditions of the lemma. For each $x \in X$ there is an integer $n$ such that $x \in A_n$, since the $A_n$ form a partition of $X$; thus $x \in E_n$ and there exists $V \in \mathfrak{S}_n$ such that $x \in V$; so $x \in V \cap A_n$, and we have proved that $\mathscr{B}$ is a covering of $X$. Clearly, this covering refines $\mathfrak{S}$. On the other hand, for each $x \in X$ there exists an integer $n$ such that $x \in U_n$; since $U_n$ is open and the $\mathfrak{S}_m$ are locally finite families, there exists a neighbourhood $W_m$ of $x$, for each $m$, contained in $U_n$, which meets only a finite number of sets of $\mathfrak{S}_m$; hence the neighbourhood $W = \bigcap_{m=1}^n W_m$ of $x$ meets only a finite number of sets of $\mathscr{B}$, because $W \cap A_p = \varnothing$ for $p > n$. Hence $\mathscr{B}$ is locally finite, and Lemma 4 is proved.
 
-#### Lemma 5 {#top-ix-s4-lem-5 .statement}
+#### Lemma 5 {#top-ix-s4-lem-5 .statement tag=0C62}
 
 *Let* $X$ *be a regular space such that, for each open covering* $\mathscr{R}$ *of* $X$, *there exists a (not necessarily open) locally finite covering* $\mathscr{U}$ *of* $X$ *which refines* $\mathscr{R}$. *Then for each open covering* $\mathscr{R}$ *of* $X$ *there exists a locally finite closed covering* $\mathfrak{F}$ *of* $X$ *which refines* $\mathscr{R}$.
 
 Let $\mathfrak{R}$ be any open covering of $X$. For each $x \in X$ there is an open set $U \in \mathfrak{R}$ which contains $x$, and therefore (since $X$ is regular) an open neighbourhood $V_x$ of $x$ such that $\overline{V}_x \subset U$. The family $\mathscr{B}$ formed by the $V_x$ is an open covering of $X$, hence by hypothesis there is a locally finite covering $\mathscr{B}'$ which is finer than $\mathscr{B}$. Let $\mathscr{F}$ be the family of closures of the sets of $\mathscr{B}$. Since the covering $\mathscr{B}'$ formed by the $\overline{V}_x$ is finer than $\mathfrak{R}$, and since $\mathscr{F}$ is finer than $\mathscr{B}'$, it follows that $\mathscr{F}$ is a closed covering of $X$ which refines $\mathfrak{R}$. But also $\mathscr{F}$ is locally finite, because if an open set does not meet a set $B \in \mathscr{B}$, then it does not meet its closure $\overline{B}$ either.
 
-#### Lemma 6 {#top-ix-s4-lem-6 .statement}
+#### Lemma 6 {#top-ix-s4-lem-6 .statement tag=0C63}
 
 *Let $X$ be a Hausdorff space such that, given any open covering $\mathfrak{R}$ of $X$, there exists a locally finite closed covering $\mathscr{F}$ of $X$ which refines $\mathfrak{R}$. Then $X$ is paracompact.*
 

@@ -41,14 +41,14 @@ subsections:
       pdf_page: 362
 statements: 31
 exercises: 18
-content_sha256: be4dc4d0914fb650ae3fcd82f452150b49d39b09c163a09f3ccec85a7e6bf6ef
+content_sha256: 621e60dc8288e6ddcbaf7c1e586598f735828021aa542b362efd2af2f9c86a93
 ---
 
 ## 5. REAL-VALUED FUNCTIONS
 
 ### 1. REAL-VALUED FUNCTIONS
 
-#### Definition 1 {#top-iv-s5-def-1 .statement}
+#### Definition 1 {#top-iv-s5-def-1 .statement tag=0BR2}
 
 A mapping of a set $X$ into the real line is called a real-valued function (or real function) defined on $X$.
 
@@ -68,13 +68,13 @@ Every bounded function is therefore *finite*. The converse is false, as is shown
 
 ### 2. REAL-VALUED FUNCTIONS DEFINED ON A FILTERED SET
 
-#### Proposition 1 {#top-iv-s5-prop-1 .statement}
+#### Proposition 1 {#top-iv-s5-prop-1 .statement tag=0BR3}
 
 *Let $f$ and $g$ be two real-valued functions defined on a set $X$ filtered by a filter $\mathfrak{F}$. If $\lim_{\mathfrak{F}} f$ and $\lim_{\mathfrak{F}} g$ exist, and if, for each subset $A \in \mathfrak{F}$, there exists $x \in A$ such that $f(x) \leq g(x)$, then we have $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$.*
 
 To prove this result we shall prove the following equivalent statement:
 
-#### Proposition 2 {#top-iv-s5-prop-2 .statement}
+#### Proposition 2 {#top-iv-s5-prop-2 .statement tag=0BR4}
 
 *Let $f$ and $g$ be two real-valued functions defined on a set $X$ filtered by a filter $\mathfrak{F}$. If $\lim_{\mathfrak{F}} f$ and $\lim_{\mathfrak{F}} g$ exist, and if $\lim_{\mathfrak{F}} f > \lim_{\mathfrak{F}} g$, then there is a set $A \in \mathfrak{F}$ such that $f(x) > g(x)$ for all $x \in A$.*
 
@@ -82,27 +82,27 @@ Let $a = \lim_{\mathfrak{F}} f$, let $b = \lim_{\mathfrak{F}} g$ and let $c$ be 
 
 As a particular case of Proposition 1 we have the following theorem:
 
-#### Theorem 1 (Principle of extension of inequalities) {#top-iv-s5-thm-1 .statement}
+#### Theorem 1 (Principle of extension of inequalities) {#top-iv-s5-thm-1 .statement tag=0BR5}
 
 *Let $f$ and $g$ be two real-valued functions, defined on a set $X$ filtered by a filter $\mathfrak{F}$. If $\lim_{\mathfrak{F}} f$ and $\lim_{\mathfrak{F}} g$ exist, and if $f \leq g$, then $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$.*
 
-#### Remark {#top-iv-s5-n2-rem-1 .statement}
+#### Remark {#top-iv-s5-n2-rem-1 .statement tag=0BR6}
 
 If in particular we have $f(x) < g(x)$ for all $x \in X$ (or only for all points of a set of the filter $\overline{\mathbf{R}}$) we can infer, by Theorem 1, that $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$; *but we cannot infer the strong inequality* $\lim_{\mathfrak{F}} f < \lim_{\mathfrak{F}} g$. For example, if we take $X$ to be the set $\mathbf{N}$ of natural numbers, filtered by the Fréchet filter, and if $f(n) = 0$ and $g(n) = 1/n$, then $f(n) < g(n)$ for all $n$, but $\lim_{n \to \infty} f(n) = \lim_{n \to \infty} f(n) = 0$. Thus we *lose strictness* when we pass to the limit in a *strict* inequality.
 
-#### Theorem 2 (Theorem of the monotone limit) {#top-iv-s5-thm-2 .statement}
+#### Theorem 2 (Theorem of the monotone limit) {#top-iv-s5-thm-2 .statement tag=0BR7}
 
 Let $X$ be an ordered set and let $A$ be a directed subset of $X$ (*). Every monotonic real-valued function $f$ defined on $A$ has a limit with respect to $A$ (Chapter I, , no. 3); if $f$ is increasing (resp. decreasing), this limit is equal to the least upper bound (resp. greatest lower bound) of the set $f(A) \subset \overline{\mathbf{R}}$
 
 Suppose for example that $f$ is increasing, and let $a = \sup f(A)$. If $a = -\infty$, the theorem is trivial. If $a > -\infty$, then for each $b < a$ there exists $x \in A$ such that $b < f(x) \leq a$; hence, if $S_x$ is the section of $A$ relative to $x$ (i.e. the set of all $y \geq x$, cf. Chapter I, § 6, no. 3), $f(S_x)$ is contained in the neighbourhood $]b, +\infty]$ of $a$, and the theorem follows. The proof is analogous if $f$ is decreasing.
 
-#### Corollary {#top-iv-s5-n2-cor-1 .statement}
+#### Corollary {#top-iv-s5-n2-cor-1 .statement tag=0BR8}
 
 An increasing (resp. decreasing) real-valued function, defined on a directed subset $A$ of an ordered set $X$, has a finite limit with respect to $A$ if and only if it is bounded above (resp. bounded below) in $A$.
 
 If we apply Theorem 2 to the case where $A = X = \mathbf{N}$ (ordered by the relation $\leq$), we have the following proposition:
 
-#### Proposition 3 {#top-iv-s5-prop-3 .statement}
+#### Proposition 3 {#top-iv-s5-prop-3 .statement tag=0BR9}
 
 Every monotonic sequence of real numbers has a limit in $\overline{\mathbf{R}}$.
 In particular, every increasing (resp. decreasing) sequence of finite numbers converges to a finite real number if it is bounded above (resp. bounded below) and to $+\infty$ (resp. $-\infty$) otherwise. For example, the sequence of positive integers converges to $+\infty$.
@@ -117,7 +117,7 @@ Let $A$ be a non-empty subset of $\overline{\mathbf{R}}$ and let $a \neq -\infty
 
 (*) This statement assumes implicitly that the ordering in $X$ is written $x \leq y$. If this relation is written $x(\sigma) y$, where $(\sigma)$ is a certain sign or group of signs characteristic of the relation envisaged, then the word "directed" in the statement must be replaced by "directed with respect to $(\sigma)$".
 
-#### Definition 2 {#top-iv-s5-def-2 .statement}
+#### Definition 2 {#top-iv-s5-def-2 .statement tag=0BRA}
 
 *Let f be a function defined on a non-empty subset A of $\overline{\mathbf{R}}$, with values in a topological space X. A limit of f with respect to the filter $\mathfrak{F}$, if it exists, is called a limit of f on the left at the point a, relative to A, and is denoted by*
 $$
@@ -133,13 +133,13 @@ $$
 
 The following proposition is an immediate consequence of Theorem 2:
 
-#### Proposition 4 {#top-iv-s5-prop-4 .statement}
+#### Proposition 4 {#top-iv-s5-prop-4 .statement tag=0BRB}
 
 *Let A be a subset of $\overline{\mathbf{R}}$ and let $a \neq -\infty$ be a point in the closure of the intersection $A \cap [-\infty, a[$. If f is a monotonic real-valued function defined on A, then f has a limit $f(a-)$ on the left at a, relative to A.*
 
 ### 4. BOUNDS OF A REAL-VALUED FUNCTION
 
-#### Definition 3 {#top-iv-s5-def-3 .statement}
+#### Definition 3 {#top-iv-s5-def-3 .statement tag=0BRC}
 
 *Let f be a real-valued function defined on a set X, and let A be a non-empty subset of X. Then the least upper bound (resp. greatest lower bound) of the set $f(A)$ in $\overline{\mathbf{R}}$ is called the least upper bound (resp. greatest lower bound) of f in A, and is denoted by*
 $$
@@ -169,7 +169,7 @@ $$
 
 This relation reduces all properties of the greatest lower bound to those of the least upper bound; hence in general we shall speak only of the latter.
 
-#### Proposition 5 {#top-iv-s5-prop-5 .statement}
+#### Proposition 5 {#top-iv-s5-prop-5 .statement tag=0BRD}
 
 *Let $f$ be a real-valued function defined on a set $X$. On the set $\mathfrak{F}(X)$ of all finite subsets of $X$, directed with respect to the relation $\subset$, the real-valued function $H \to \sup_{x \in H} f(x)$ is increasing, the real-valued function $H \to \inf_{x \in H} f(x)$ is decreasing, and we have*
 
@@ -188,7 +188,7 @@ $$
 \sup A = \lim_{H \in \mathfrak{F}(A)} (\sup_{x \in H} x).
 $$
 
-#### Proposition 6 {#top-iv-s5-prop-6 .statement}
+#### Proposition 6 {#top-iv-s5-prop-6 .statement tag=0BRE}
 
 *Let $f$ and $g$ be two real-valued functions defined on $X$. If $f(x) \leq g(x)$ at every point $x$ of a non-empty subset $A$ of $X$, then we have*
 
@@ -199,7 +199,7 @@ $$
 \end{cases}
 $$
 
-#### Proposition 7 {#top-iv-s5-prop-7 .statement}
+#### Proposition 7 {#top-iv-s5-prop-7 .statement tag=0BRF}
 
 *Let $f$ be a real-valued function defined on $X$. If $A$ and $B$ are two non-empty subsets of $X$ such that $A \subset B$, then*
 
@@ -207,7 +207,7 @@ $$
 \sup_{x \in A} f(x) \leq \sup_{x \in B} f(x).
 $$
 
-#### Proposition 8 {#top-iv-s5-prop-8 .statement}
+#### Proposition 8 {#top-iv-s5-prop-8 .statement tag=0BRG}
 
 *Let $f$ be a real-valued function defined on $X$, and let $(A_i)_{i \in I}$ be a non-empty family of non-empty subsets of $X$; then*
 
@@ -217,7 +217,7 @@ $$
 
 Let $f$ be a real-valued function defined on a product set $X_1 \times X_2$. If $A_2$ is a non-empty subset of $X_2$ we shall denote by $\sup_{x_1 \in A_2} f(x_1, x_2)$ the least upper bound in $A_2$ of the real-valued function $x_2 \to f(x_1, x_2)$ defined on $X_2$. From Proposition 8 we deduce in particular:
 
-#### Proposition 9 {#top-iv-s5-prop-9 .statement}
+#### Proposition 9 {#top-iv-s5-prop-9 .statement tag=0BRH}
 
 *Let $f$ be a real-valued function defined on a product set $X_1 \times X_2$. If $A_1, A_2$ are any non-empty subsets of $X_1, X_2$ respectively, then*
 
@@ -227,7 +227,7 @@ $$
 
 ### 5. ENVELOPES OF A FAMILY OF REAL-VALUED FUNCTIONS
 
-#### Definition 4 {#top-iv-s5-def-4 .statement}
+#### Definition 4 {#top-iv-s5-def-4 .statement tag=0BRI}
 
 *Let $(f_i)_{i \in I}$ be a family of real-valued functions defined on a set $X$. The real-valued function on $X$ whose value at each point $x \in X$ is $\sup_{i \in I} (f_i(x))$ [resp. $\inf_{i \in I} (f_i(x))$] is called the upper (resp. lower) envelope of the family $(f_i)$, and is denoted by $\sup_{i \in I} f_i$ or $\sup_i f_i$ (resp. $\inf_{i \in I} f_i$ or $\inf_i f_i$).
 
@@ -235,7 +235,7 @@ The upper envelope of the family $(f_i)$ is thus the least upper bound of this f
 
 Furthermore, if we endow $\overline{\mathbf{R}}^X$ with the topology which is the product of the topologies of its factors (all identical with $\overline{\mathbf{R}}$), we have the following proposition:
 
-#### Proposition 10 {#top-iv-s5-prop-10 .statement}
+#### Proposition 10 {#top-iv-s5-prop-10 .statement tag=0BRJ}
 
 *In the product space $\overline{\mathbf{R}}^X$ the upper envelope $\sup_{i \in I} f_i$ of a family of real-valued functions $(f_i)_{i \in I}$ is the limit, with respect to the directed set $\mathfrak{F}(I)$ of finite subsets of $I$, of the mapping $H \to \sup_{i \in H} f_i$ [which maps each finite subset $H$ of $I$ to the upper envelope of the finite subfamily $(f_i)_{i \in H}$].
 
@@ -247,7 +247,7 @@ $$
 \sup_{i \in I} f_i = \lim_{H \in \mathfrak{F}(I)} (\sup_{i \in H} f_i).
 $$
 
-#### Definition 5 {#top-iv-s5-def-5 .statement}
+#### Definition 5 {#top-iv-s5-def-5 .statement tag=0BRK}
 
 *A family $(f_i)_{i \in I}$ of real-valued functions defined on a set $X$ is said to be uniformly bounded above (resp. uniformly bounded below) in $X$, if there exists a finite number $a$ such that $f_i(x) \leq a$ [resp. $f_i(x) \geq a$] for all $x \in X$ and all $i \in I$. The family $(f_i)$ is said to be uniformly bounded in $X$ if it is uniformly bounded above and below in $X$.
 
@@ -257,7 +257,7 @@ Thus $(f_i)$ is uniformly bounded above in $X$ if and only if the upper envelope
 
 Let $f$ be a real-valued function defined on a set $X$ filtered by a filter $\mathfrak{G}$. $\mathfrak{G}$ is a directed set with respect to the relation $\supseteq$ (Chapter I, § 6). For each $M \in \mathfrak{G}$ consider the real number $\sup_{x \in M} f(x)$: we have a function $M \to \sup_{x \in M} f(x)$ of $\mathfrak{G}$ into $\overline{\mathbf{R}}$, which is a decreasing function on $\mathfrak{G}$, by Proposition 7 of no. 4. Hence, by Theorem 2 of no. 2, it has a limit with respect to the directed set $\mathfrak{G}$.
 
-#### Definition 6 {#top-iv-s5-def-6 .statement}
+#### Definition 6 {#top-iv-s5-def-6 .statement tag=0BRL}
 
 *The limit of the real-valued function* $M \to \sup_{x \in M} f(x)$ *with respect to the directed set* $\mathfrak{G}$ *is called the upper limit of* $f$ *with respect to the filter* $\mathfrak{G}$, *and is denoted by* $\lim \sup_{\mathfrak{G}} f$, *or by* $\lim \sup_{x, \mathfrak{G}} f(x)$.
 
@@ -303,7 +303,7 @@ $$
 
 and therefore we need consider only the upper limit.
 
-#### Theorem 3 {#top-iv-s5-thm-3 .statement}
+#### Theorem 3 {#top-iv-s5-thm-3 .statement tag=0BRM}
 
 *The upper limit of a real-valued function $f$ with respect to a filter $\mathfrak{G}$ is equal to the largest cluster value of $f$ with respect to $\mathfrak{G}$.*
 
@@ -312,7 +312,7 @@ $b \leq \lim \sup_{\mathfrak{G}} f = a.$
 
 On the other hand, let $V$ be any open neighbourhood of $a$ in $\overline{\mathbf{R}}$. Then there exists a set $M_0$ in $\mathfrak{G}$ such that, for each $M \in \mathfrak{G}$ contained in $M_0$, we have $\sup_{x \in M} f(x) \in V$; since $V$ is open it follows that $f(M)$ meets $V$, and therefore $a$ is a *cluster point* of $f$ with respect to $\mathfrak{G}$, and the proof is complete.
 
-#### Corollary 1 {#top-iv-s5-thm-3-cor-1 .statement}
+#### Corollary 1 {#top-iv-s5-thm-3-cor-1 .statement tag=0BRN}
 
 *In order that $\lim \sup_{\mathfrak{G}} f = \lim \inf_{\mathfrak{G}} f$, it is necessary and sufficient that $f$ has a limit with respect to the filter $\mathfrak{G}$, and then*
 $$
@@ -320,7 +320,7 @@ $$
 $$
 For since $\overline{\mathbf{R}}$ is compact, the filter base $f(\mathfrak{G})$ has a limit point if and only if it has only one cluster point (Chapter I, § 9, no. 1, Corollary to Theorem 1).
 
-#### Corollary 2 {#top-iv-s5-thm-3-cor-2 .statement}
+#### Corollary 2 {#top-iv-s5-thm-3-cor-2 .statement tag=0BRO}
 
 *If $\mathfrak{H}$ is a filter finer than $\mathfrak{G}$, we have*
 $$
@@ -332,7 +332,7 @@ $$
 \lim \inf_{\mathfrak{G}} f \leq \lim_{\mathfrak{G}} f \leq \lim \sup_{\mathfrak{G}} f.
 $$
 
-#### Corollary 3 {#top-iv-s5-thm-3-cor-3 .statement}
+#### Corollary 3 {#top-iv-s5-thm-3-cor-3 .statement tag=0BRP}
 
 *Let $A$ be a set of the filter $\mathfrak{G}$, let $\mathfrak{G}_A$ be the filter induced on $A$ by $\mathfrak{G}$, and let $f_A$ be the restriction of $f$ to $A$; then*
 $$
@@ -342,7 +342,7 @@ For every cluster point of the filter base $f(\mathfrak{G})$ is a cluster point 
 
 For this reason, if $f$ is defined only on a subset $A$ of $X$ belonging to $\mathfrak{G}$, we shall often write $\limsup_{\mathfrak{G}} f$ instead of $\limsup_{\mathfrak{G}_A} f_A$, by abuse of language.
 
-#### Proposition 11 {#top-iv-s5-prop-11 .statement}
+#### Proposition 11 {#top-iv-s5-prop-11 .statement tag=0BRQ}
 
 Let $f$ and $g$ be two real-valued functions defined on a filtered set $X$. Then the relation $f \leq g$ implies
 
@@ -402,7 +402,7 @@ This last function is therefore defined provided $f$ does not take the value 0; 
 
 Suppose that $X$ is filtered by a filter $\mathfrak{F}$, and that $\lim_{\mathfrak{F}} f$ and $\lim_{\mathfrak{F}} g$ exist. If on the one hand the function $f + g$ (resp. $fg$, $1/g$) is defined, and if on the other hand the expression $\lim_{\mathfrak{F}} f + \lim_{\mathfrak{F}} g$ (resp. $\lim_{\mathfrak{F}} f \cdot \lim_{\mathfrak{F}} g$, $1/\lim_{\mathfrak{F}} f$) has a sense, then $\lim_{\mathfrak{F}} (f + g)$ [resp. $\lim_{\mathfrak{F}} fg$, $\lim_{\mathfrak{F}} (1/f)$] exists and is equal to this expression by reason of the continuity of the function $x + y$ (resp. $xy$, $1/x$) at points where it is defined.
 
-#### Proposition 12 {#top-iv-s5-prop-12 .statement}
+#### Proposition 12 {#top-iv-s5-prop-12 .statement tag=0BRR}
 
 *Let $f$ and $g$ be two real-valued functions defined on a set $X$, and let $A$ be a non-empty subset of $X$.*
 
@@ -448,7 +448,7 @@ $$
 $$
 The inequalities (17) and (18) follow from this by applying Proposition 5 of no. 4 and Theorem 1 of no. 2. The proofs of the other inequalities are analogous.
 
-#### Corollary 1 {#top-iv-s5-prop-12-cor-1 .statement}
+#### Corollary 1 {#top-iv-s5-prop-12-cor-1 .statement tag=0BRS}
 
 *Let $f$ be a real-valued function defined on $X$, and let $k$ be a real number. Then*
 (22)
@@ -462,7 +462,7 @@ $$
 $$
 *whenever both sides are defined.*
 
-#### Corollary 2 {#top-iv-s5-prop-12-cor-2 .statement}
+#### Corollary 2 {#top-iv-s5-prop-12-cor-2 .statement tag=0BRT}
 
 *Let $f_1$ and $f_2$ be two real-valued functions defined on sets $X_1, X_2$ respectively; then if $A_1, A_2$ are any non-empty subsets of $X_1, X_2$ respectively, we have*
 (24)
@@ -494,7 +494,7 @@ $$
 
 whenever both sides are defined.
 
-#### Proposition 13 {#top-iv-s5-prop-13 .statement}
+#### Proposition 13 {#top-iv-s5-prop-13 .statement tag=0BRU}
 
 *Let $f$ and $g$ be two real-valued functions defined on a filtered set $X$.*
 
@@ -530,7 +530,7 @@ $$
 
 These relations are consequences of Proposition 12 and relations (10)
 
-#### Corollary 1 {#top-iv-s5-prop-13-cor-1 .statement}
+#### Corollary 1 {#top-iv-s5-prop-13-cor-1 .statement tag=0BRV}
 
 *Let $f$ and $g$ be two real-valued functions defined on a filtered set $X$. If $\lim g$ exists, then*
 
@@ -546,7 +546,7 @@ $$
 
 whenever both sides are defined and $f$ and $g$ are $\geqslant 0$.
 
-#### Corollary 2 {#top-iv-s5-prop-13-cor-2 .statement}
+#### Corollary 2 {#top-iv-s5-prop-13-cor-2 .statement tag=0BRW}
 
 Let $f$ and $g$ be two real-valued functions defined on a filtered set $X$. If $\lim f = +\infty$ and $\lim \inf g > -\infty$ and $f + g$ is defined, then $\lim (f + g) = +\infty$. If $\lim f = +\infty$ and $\lim \inf g > 0$ and $fg$ is defined, then $\lim fg = +\infty$.
 

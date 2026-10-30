@@ -29,14 +29,14 @@ subsections:
       pdf_page: 54
 statements: 21
 exercises: 10
-content_sha256: 2c22596e790aa673d73a84e91d28f6d8685cfabc53689f277e2e2063148689a5
+content_sha256: ca28b3bed17cb5f1025ef827c13e6c41b2a4a8dcca42f1668734a8ba2d7c3fa4
 ---
 
 ## 4. PRODUCT OF TOPOLOGICAL SPACES
 
 ### 1. PRODUCT SPACES
 
-#### Definition 1 {#top-i-s4-def-1 .statement}
+#### Definition 1 {#top-i-s4-def-1 .statement tag=0B27}
 
 *Given a family $(X_i)_{i \in I}$ of topological spaces, the product space of this family is the product set $X = \prod_{i \in I} X_i$ with the topology which is the product of the topologies of the $X_i$ (§ 2, no. 3, Example 3). The spaces $X_i (i \in I)$ are called the factors of X.*
 
@@ -46,19 +46,19 @@ If $\mathfrak{B}_i$ is a base of the topology of $X_i$ (for each $i \in I$), it 
 
 If $I$ is a finite set, the construction of the product topology from the topologies of the factors $X_i$ is simpler: the elementary sets are just products $\prod_{i \in I} A_i$, where $A_i$ is any open subset of $X_i$, for each $i \in I$ (cf. Exercise 9).
 
-#### Example {#top-i-s4-n1-exa-1 .statement}
+#### Example {#top-i-s4-n1-exa-1 .statement tag=0B28}
 
 \* The product $\mathbf{R}^n$ of $n$ spaces identical with the real line $\mathbf{R}$ is called real number space of $n$ dimensions; $\mathbf{R}^2$ is also called the real plane (cf. Chapter VI, § 1). Likewise, starting from the rational line $\mathbf{Q}$, we define the rational number space of $n$ dimensions $\mathbf{Q}^n$ (rational plane for $n = 2$).
 
 The topology of the space $\mathbf{R}^n$ has as a base the set of all products of $n$ open intervals in $\mathbf{R}$, which are called open boxes of $n$ dimensions. The open boxes which contain a point $x \in \mathbf{R}^n$ form a fundamental system of neighbourhoods of this point. Likewise the products of $n$ closed intervals in $\mathbf{R}$ are called closed boxes of $n$ dimensions. The closed boxes to which $x$ is interior also form a fundamental system of neighbourhoods of $x$. There are analogous results for $\mathbf{Q}^n$. \*
 
-#### Proposition 1 {#top-i-s4-prop-1 .statement}
+#### Proposition 1 {#top-i-s4-prop-1 .statement tag=0B29}
 
 Let $f = (f_i)$ be a mapping of a topological space $Y$ into a product space $X = \prod_{i \in I} X_i$. Then $f$ is continuous at a point $a \in Y$ if and only if $f_i$ is continuous at $a$ for each $i \in I$.
 
 Since $f_i = \mathrm{pr}_i \circ f$, this is just a particular case of Proposition 4 of § 2, no. 3.
 
-#### Corollary 1 {#top-i-s4-prop-1-cor-1 .statement}
+#### Corollary 1 {#top-i-s4-prop-1-cor-1 .statement tag=0B2A}
 
 Let $(X_i)_{i \in I}, (Y_i)_{i \in I}$ be two families of topological spaces with the same set of indices. For each $i \in I$, let $f_i$ be a mapping of $X_i$ into $Y_i$. In order that the product mapping $f : (x_i) \to (f_i(x_i))$ of
 $$
@@ -68,13 +68,13 @@ should be continuous at a point $a = (a_i)$ it is necessary and sufficient that 
 
 f can be written as $x \to (f_i(\mathrm{pr}_i(x)))$, so that by Proposition 1 the condition is sufficient. Conversely, for each $x \in I$ let $g_x$ be the mapping of $X_x$ into $\prod_{i \in I} X_i$ such that $\mathrm{pr}_x(g_x(x_x)) = x_x$ and $\mathrm{pr}_i(g_x(x_x)) = a_i$ whenever $i \neq x$; then $g_x$ is continuous at the point $a_x$, by Proposition 1. Since $f_x = \mathrm{pr}_x \circ f \circ g_x$ it follows that if $f$ is continuous at $a$, then $f_x$ is continuous at $a_x$.
 
-#### Corollary 2 {#top-i-s4-prop-1-cor-2 .statement}
+#### Corollary 2 {#top-i-s4-prop-1-cor-2 .statement tag=0B2B}
 
 *Let $X, Y$ be two topological spaces. In order that a mapping $f : X \to Y$ should be continuous it is necessary and sufficient that the mapping $g : x \to (x, f(x))$ is a homeomorphism of $X$ onto the graph $G$ of $f$ (considered as a subspace of the product space $X \times Y$).*
 
 Since $f = \mathrm{pr}_2 \circ g$, the condition is sufficient. It is also necessary, for if $f$ is continuous, then $g$ is bijective and continuous (Proposition 1) and the inverse of $g$ is the restriction of $\mathrm{pr}_1$ to $G$, which is continuous (cf. *Set Theory*, Chapter IV, § 2, no. 4, criterion CST 17).
 
-#### Proposition 2 (Associativity of topological products) {#top-i-s4-prop-2 .statement}
+#### Proposition 2 (Associativity of topological products) {#top-i-s4-prop-2 .statement tag=0B2C}
 
 *Let $(X_i)_{i \in I}$ be a family of topological spaces, $(J_x)_{x \in K}$ a partition of the set $I$, and for each $x \in K$ let $X'_x = \prod_{i \in J_x} X_i$ be the product of the spaces $X_i$ for $i \in J_K$. Then the canonical mapping of the product space*
 $$
@@ -86,7 +86,7 @@ This is a particular case of transitivity of initial topologies ($\S$ 2, no. 3, 
 
 Generally we *identify* the product spaces $\prod_{i \in I} X_i$ and $\prod_{x \in K} X'_x$ by means of the canonical mapping.
 
-#### Corollary {#top-i-s4-n1-cor-1 .statement}
+#### Corollary {#top-i-s4-n1-cor-1 .statement tag=0B2D}
 
 *Let $\sigma$ be a permutation of the set $I$. Then the mapping $(x_i) \to (x_{\sigma(i)})$ is a homeomorphism of*
 $$
@@ -95,13 +95,13 @@ $$
 
 Take $K = I$ and $J_i = \{ \sigma(i) \}$ for each $i \in I$ in Proposition 2.
 
-#### Proposition 3 {#top-i-s4-prop-3 .statement}
+#### Proposition 3 {#top-i-s4-prop-3 .statement tag=0B2E}
 
 *Let $X$ be a set, $(Y_i)_{i \in I}$ a family of topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $f$ be the mapping $x \to (f_i(x))$ of $X$ into $Y = \prod_{i \in I} Y_i$, and let $\mathfrak{T}$ be the coarsest topology on $X$ for which the mappings $f_i$ are continuous. Then $\mathfrak{T}$ is the inverse image under $f$ of the topology induced on $f(X)$ by the product topology on $Y$.*
 
 This is another particular case of transitivity of initial topologies (\S\ 2, no. 3, Proposition 5; cf. Set Theory, Chapter IV, \S\ 2, no. 4, criterion CST 15).
 
-#### Corollary {#top-i-s4-n1-cor-2 .statement}
+#### Corollary {#top-i-s4-n1-cor-2 .statement tag=0B2F}
 
 *For each $i \in I$ let $A_i$ be a subspace of $Y_i$. Then the topology induced on $A = \prod_{i \in I} A_i$ by the product topology on $\prod_{i \in I} Y_i$ is the product of the topologies of the subspaces $A_i$.*
 
@@ -109,7 +109,7 @@ Let $j_i$ be the canonical injection $A_i \to Y_i$, and apply Proposition 3 to t
 
 ### 2. SECTION OF AN OPEN SET; SECTION OF A CLOSED SET; PROJECTION OF AN OPEN SET. PARTIAL CONTINUITY
 
-#### Proposition 4 {#top-i-s4-prop-4 .statement}
+#### Proposition 4 {#top-i-s4-prop-4 .statement tag=0B2G}
 
 *Let $X_1, X_2$ be two topological spaces; then for each $a_1 \in X_1$, the mapping $x_2 \to (a_1, x_2)$ is a homeomorphism of $X_2$ onto the subspace $\{a_1\} \times X_2$ of $X_1 \times X_2$.*
 
@@ -117,23 +117,23 @@ This is a particular case of Corollary 1 of Proposition 1 of no. 1 applied to th
 
 The mapping $x_2 \to (a_1, x_2)$ is a *continuous section* (\S\ 3, no. 5) with respect to the equivalence relation $\mathrm{pr}_2 z = \mathrm{pr}_2 z'$ in $X_1 \times X_2$; the quotient space $X_1 \times X_2$ by this equivalence relation is therefore homeomorphic to $X_2$.
 
-#### Corollary {#top-i-s4-n2-cor-1 .statement}
+#### Corollary {#top-i-s4-n2-cor-1 .statement tag=0B2H}
 
 *The section $A(x_1)$ of an open (resp. closed) set $A$ of the product $X_1 \times X_2$ at an arbitrary point $x_1 \in X_1 (*)$ is open (resp. closed) in $X_2$.*
 
-#### Proposition 5 {#top-i-s4-prop-5 .statement}
+#### Proposition 5 {#top-i-s4-prop-5 .statement tag=0B2I}
 
 *The projection of an open set $U$ of the product $X_1 \times X_2$ onto either factor is an open set.*
 
 For example, we have $\mathrm{pr}_2 U = \bigcup_{x_1 \in X_1} U(x_1)$, and the proposition follows from the Corollary to Proposition 4 and axiom (O_1).
 
-#### Remark 1 {#top-i-s4-n2-rem-1 .statement}
+#### Remark 1 {#top-i-s4-n2-rem-1 .statement tag=0B2J}
 
 The projection of a *closed* subset of $X_1 \times X_2$ onto a factor *need not be closed*. For example, in the rational plane $\mathbf{Q}^2$, the hyperbola whose equation is $x_1 x_2 = 1$ is a closed set, but both its projections are equal to the complement of the point 0 in $\mathbf{Q}$, and this is not a closed set.
 
 (*) By the *section* $A(x_1)$ of $A$ at $x_1$ is meant the set of all $x_2 \in X_2$ such that $(x_1, x_2) \in A$ (cf. Set Theory R, \S\ 3, no. 7).
 
-#### Proposition 6 {#top-i-s4-prop-6 .statement}
+#### Proposition 6 {#top-i-s4-prop-6 .statement tag=0B2K}
 
 Let $X_1, X_2, Y$ be three topological spaces, $f$ a mapping of the product space $X_1 \times X_2$ into $Y$. If $f$ is continuous at the point $(a_1, a_2)$ then the partial mapping $x_2 \to f(a_1, x_2)$ of $X_2$ into $Y$ is continuous at the point $a_2$.
 
@@ -141,7 +141,7 @@ For this mapping is the composition of $f$ and the mapping $x_2 \to (a_1, x_2)$;
 
 Proposition 6 is often expressed by saying that a continuous function of two variables is continuous with respect to each of them separately.
 
-#### Remark 2 {#top-i-s4-n2-rem-2 .statement}
+#### Remark 2 {#top-i-s4-n2-rem-2 .statement tag=0B2L}
 
 It is possible for all the partial mappings determined by a map $f : X_1 \times X_2 \to Y$ to be continuous without $f$ being continuous on $X_1 \times X_2$ (cf. Chapter IX, § 5, Exercise 23). \* For example if $f$ is the mapping of the real plane $\mathbf{R}^2$ into $\mathbf{R}$ defined by
 $$
@@ -155,19 +155,19 @@ The results of this subsection are easily extended to an arbitrary product $\pro
 
 ### 3. CLOSURE IN A PRODUCT
 
-#### Proposition 7 {#top-i-s4-prop-7 .statement}
+#### Proposition 7 {#top-i-s4-prop-7 .statement tag=0B2M}
 
 In a product space $\prod_{i \in I} X_i$, the closure of a product of sets $\prod_{i \in I} A_i$ is the same as the product $\prod_{i \in I} \overline{A}_i$ of their closures.
 
 Suppose that $a = (a_i)$ lies in the closure of $\prod_{i \in I} A_i$; then for each $x \in I$, $a_x = \operatorname{pr}_x a$ is in the closure of $A_x$ because of the continuity of $\operatorname{pr}_x$ (§ 2, no. 1, Theorem 1) and therefore $a \in \prod_{i \in I} \overline{A}_i$. Conversely, let $b = (b_i) \in \prod_{i \in I} \overline{A}_i$, and let $\prod_{i \in I} V_i$ be any elementary set containing $b$; for each $i \in I$, $V_i$ contains a point $x_i \in A_i$; hence $\prod_{i \in I} V_i$ contains the point $(x_i) \in \prod_{i \in I} A_i$ and therefore $b$ lies in the closure of $\prod_{i \in I} A_i$.
 
-#### Corollary {#top-i-s4-n3-cor-1 .statement}
+#### Corollary {#top-i-s4-n3-cor-1 .statement tag=0B2N}
 
 *A product* $\prod_{i \in I} A_i$ *of non-empty sets is closed in the product space* $\prod_{i \in I} X_i$ *if and only if* $A_i$ *is closed in* $X_i$ *for each* $i \in I$.
 
 If $I$ is *finite*, a product $\prod_{i \in I} A_i$ is open provided that $A_i$ is open in $X_i$ for each $i \in I$; but this is no longer so if $I$ is infinite.
 
-#### Proposition 8 {#top-i-s4-prop-8 .statement}
+#### Proposition 8 {#top-i-s4-prop-8 .statement tag=0B2O}
 
 *Let* $a = (a_i)$ *be any point of a product space* $X = \prod_{i \in I} X_i$; *then the set* $D$ *of points* $x \in X$ *such that* $\mathrm{pr}_i x = a_i$ *except for a finite number of indices* $i$ *is dense in* $X$.
 
@@ -196,7 +196,7 @@ Let $(X'_\alpha, f'_{\alpha\beta})$ be another inverse system of topological spa
 
 Finally, suppose $I$ is a *directed* set, and let $J$ be a *cofinal* subset of $I$; let $Z$ be the inverse limit of the inverse system of topological spaces $(X_\alpha, f_{\alpha\beta})_{\alpha \in J, \beta \in J}$. Then the canonical bijection $g : X \to Z$ (*Set Theory*, Chapter III, § 7, no. 2, proposition 3) is a *homeomorphism*. For we have $\mathrm{pr}_\lambda(g(x)) = \mathrm{pr}_\lambda(x)$ for each $\lambda \in J$; hence $g$ is continuous (no. 1, Proposition 1); and if $h$ is the inverse of $g$, then for each $\alpha \in I$ there exists $\lambda \in J$ such that $\alpha \leq \lambda$, and therefore $\mathrm{pr}_\alpha(h(z)) = f_{\alpha\lambda}(\mathrm{pr}_\lambda(z))$, which shows that $h$ is continuous (no. 1, Proposition 1), since the $f_{\alpha\lambda}$ are continuous.
 
-#### Proposition 9 {#top-i-s4-prop-9 .statement}
+#### Proposition 9 {#top-i-s4-prop-9 .statement tag=0B2P}
 
 *Let $I$ be a directed set and $J$ a cofinal subset of $I$. Let $(X_\alpha, f_{\alpha\beta})$ be an inverse system of topological spaces indexed by $I$; let $X = \varprojlim X_\alpha$ and let $f_\alpha : X \to X_\alpha$ be the canonical mapping. Then the family of sets $f^{-1}_\alpha(U_\alpha)$, where $\alpha$ runs through $J$ and $U_\alpha$ runs through a base $\mathfrak{B}_\alpha$ of the topology of $X_\alpha$ for each $\alpha \in J$, is a base of the topology of $X$.*
 
@@ -214,7 +214,7 @@ $$
 
 but $V_\gamma$ is open and is therefore a union of sets belonging to $\mathfrak{B}_\gamma$. Hence the result.
 
-#### Corollary {#top-i-s4-n4-cor-1 .statement}
+#### Corollary {#top-i-s4-n4-cor-1 .statement tag=0B2Q}
 
 *Let $A$ be a subset of $X$ and let $A_\alpha$ denote $f_\alpha(A)$ for each $\alpha \in I$. Then:*
 
@@ -238,7 +238,7 @@ A = \lim \overline{A}_\alpha
 $$
 and (ii) follows.
 
-#### Example {#top-i-s4-n4-exa-1 .statement}
+#### Example {#top-i-s4-n4-exa-1 .statement tag=0B2R}
 
 Let $I$ be a directed set and $(X_\alpha)_{\alpha \in I}$ a family of subsets of a set $Y$, such that $X_\alpha \supset X_\beta$ whenever $\alpha \leq \beta$. For each $\alpha \in I$ let $\mathfrak{T}_\alpha$ be a topology on $X_\alpha$ such that $\mathfrak{T}_\beta$ is finer than the topology induced on $X_\beta$ by $\mathfrak{T}_\alpha$ whenever $\alpha \leq \beta$. If we take $f_{\alpha\beta}$ to be the canonical injection $X_\beta \to X_\alpha$ for $\alpha \leq \beta$, then $\lim X_\alpha$ may be identified canonically with the *intersection* $X$ of the $X_\alpha$, with the topology which is the *least upper bound* (§ 2, no. 3, Example 2) of the topologies induced on $X$ by the $\mathfrak{T}_\alpha$.
 

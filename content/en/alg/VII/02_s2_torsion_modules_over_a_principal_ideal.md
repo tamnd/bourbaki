@@ -30,7 +30,7 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: 1669f28cbbdd0a8d5ddd4e646199c1ae3fff0b608b6e24347c3277dc4d3c43ec
+content_sha256: 798b6543b06067240b5dab1244bfefa178a908e9f4cf2fdc3e29b8faab35c2bc
 ---
 
 ## § 2. TORSION MODULES OVER A PRINCIPAL IDEAL DOMAIN
@@ -41,7 +41,7 @@ Let $A$ be a ring and $(b_i)_{i \in I}$ a direct decomposition of $A$, that is (
 
 For every left $A$-module $M$, let $M_i$ denote the set of $m \in M$ such that $b_i m = 0$; since $b_i$ is a two-sided ideal, this is a submodule of $M$; moreover, if $a, b \in A$ and $a - b \in b_i$, then the homotheties $a_{M_i}$ and $b_{M_i}$ coincide; there is thus a unique $(A/b_i)$-module structure on $M_i$ such that the $A$-module structure of $M_i$ is induced via the homomorphism $A \to A/b_i$.
 
-#### Proposition 1 {#alg-vii-s2-prop-1 .statement}
+#### Proposition 1 {#alg-vii-s2-prop-1 .statement tag=0724}
 
 The $A$-module $M$ is the direct sum of its submodules $M_i$.
 
@@ -53,19 +53,19 @@ $$
 
 and the $p_i$ form an orthogonal family of projectors whose sum is the identity (II, p. 209, Def. 7). By *loc. cit.*, Prop. 12, the module M is the direct sum of the submodules $p_i(M) = e_iM$. In addition $e_iM$ is annihilated by $b_i = A(1 - e_i)$; if $i \neq j$ and $m \in M$ then $(1 - e_i)e_jm = e_jm$, whence no nonzero element of $e_jM$ is annihilated by $1 - e_i$, and so a fortiori by $b_i$. It follows that $e_iM = M_i$, and the proposition is proved.
 
-#### Remark 1 {#alg-vii-s2-n1-rem-1 .statement}
+#### Remark 1 {#alg-vii-s2-n1-rem-1 .statement tag=0725}
 
 Conversely, let $M'_i$ be an $(A/b_i)$-module for each i, and consider the A-module M, the direct sum of the A-modules $M'_i$; then the submodules $M_i$ constructed above coincide with the $M'_i$ (it is enough to note that if $i \neq j$ then no nonzero element of $M'_j$ is annihilated by $b_i$ because $b_i + b_j = A$). Thus, roughly speaking, it amounts to the same thing to consider an A-module M or a family $(M_i)$ of modules over the rings $A/b_i = A_i$.
 
-#### Remark 2 {#alg-vii-s2-n1-rem-2 .statement}
+#### Remark 2 {#alg-vii-s2-n1-rem-2 .statement tag=0726}
 
 By the above proof, the projectors of M onto the components $M_i$ are homotheties.
 
-#### Remark 3 {#alg-vii-s2-n1-rem-3 .statement}
+#### Remark 3 {#alg-vii-s2-n1-rem-3 .statement tag=0727}
 
 The A-module M is cyclic if and only if each $M_i$ is cyclic: if $M = Am$, then $M_i = A_i e_i m$; conversely if $M_i = A_i m_i$ and $m = \sum_{i \in I} m_i$, then $M = Am$; indeed, if $n \in M$ projects onto $a_i m_i$ for each i, and if $a \in A$ is congruent to $a_i$ mod $b_i$ for each i, then am and n have the same image in each $M_i$, so coincide.
 
-#### Remark 4 {#alg-vii-s2-n1-rem-4 .statement}
+#### Remark 4 {#alg-vii-s2-n1-rem-4 .statement tag=0728}
 
 Let M and N be two A-modules, with components $(M_i)$ and $(N_i)$. Let $u \in \mathrm{Hom}_A(M, N)$ be an A-linear map from M to N; then for all i and for all $m \in M_i$ we have $u(m) \in N_i$, so u induces an $A_i$-linear map $u_i \in \mathrm{Hom}_{A_i}(M_i, N_i)$. It is easy to check that the map $u \mapsto (u_i)$ is an isomorphism of Z-modules (resp. of A-modules when A is commutative)
 
@@ -77,13 +77,13 @@ $$
 
 Let M be a module over a commutative ring A. For each $a \in A$ let $M(\alpha)$ denote the kernel of the endomorphism $x \mapsto \alpha x$ of M. If $a$ and $\beta$ are two elements of A such that $\alpha$ divides $\beta$, then clearly $M(a) \subset M(\beta)$. In particular, as n runs through the set of rational integers $\geq 1$, the submodules $M(\alpha^n)$ form an increasing sequence; the union $M$, of the $M(\alpha^n)$ is thus a submodule of M, consisting of those elements of M which are annihilated by some power of a. For each submodule N of M, it is clear that $N_1 = N \cap M_a$.
 
-#### Definition 1 {#alg-vii-s2-def-1 .statement}
+#### Definition 1 {#alg-vii-s2-def-1 .statement tag=0729}
 
 Let $\pi$ be an irreducible element of a principal ideal domain A; an A-module M is called rr-primary *if*, for all $x \in M$, there exists an integer $n \geq 1$ such that $\pi^n x = 0$ (in other words, if M is equal to the submodule $M_\pi$).
 
 Clearly every cyclic module of the form $A/(\pi^s)$ is rr-primary. For an arbitrary A-module M, the submodule $M_\pi$ is rr-primary.
 
-#### Lemma 1 {#alg-vii-s2-lem-1 .statement}
+#### Lemma 1 {#alg-vii-s2-lem-1 .statement tag=072A}
 
 Let M be a module over a principal ideal domain A; for all $a \in A$ such that $a \neq 0$, let $\alpha = \varepsilon \sum_{i=1}^r \pi_i^{n(i)}$ be a decomposition of $\alpha$ into irreducible factors (VII, p. 4). The submodule $N = M(a)$ of elements of M annihilated by a is the direct sum of the submodules $M(\pi_i^{n(i)})$, and the map which sends each $x \in M(\alpha)$ to its component in $M(\pi_i^{n(i)})$ has the form $x \mapsto \gamma_i x \ (\gamma_i \in A)$. Moreover
 $$
@@ -91,31 +91,31 @@ M(\pi_i^{n(i)}) = N \cap M_{\pi_i} = N_{\pi_i}
 $$
 Note first that N is annihilated by a, so has a natural $A/(\alpha)$-module structure. By Prop. 4 of VII, p. 3, the canonical homomorphism from $A/(\alpha)$ into the product of the rings $A/(\pi_i^{n(i)})$ is a ring isomorphism; now applying Prop. 1 of VII, p. 6, we deduce that N is the direct sum of the $M(\pi_i^{n(i)})$; the projectors of this decomposition are homotheties, by VII, p. 7, Remark 2. The inclusion $M(\pi_i^{n(i)}) \subset M(\alpha) \cap M_{\pi_i}$ is obvious; conversely, let $x \in M(\alpha) \cap M_{\pi_i}$. Then there exists a power $\pi_i^s$ of $\pi_i$ which annihilates x; we may assume $s \geq n(i)$; by Bezout's identity, there exist $\lambda, \mu \in A$ such that $\pi_i^{n(i)} = \lambda \pi_i^s + pa$, so $\pi_i^{n(i)} x = 0$ and so finally $x \in M(\pi_i^{n(i)})$.
 
-#### Lemma 2 {#alg-vii-s2-lem-2 .statement}
+#### Lemma 2 {#alg-vii-s2-lem-2 .statement tag=072B}
 
 Let M be a torsion module (II, p. 313) over an integral domain A. For every finite family $(x_i)_{1 \leq i \leq n}$ of elements of M, there exists an element $\gamma \neq 0$ in A such that the $x_i$ all belong to $M(\gamma)$.
 Indeed, for each index i there exists an element $\alpha_i \neq 0$ in A which annihilates $x_i$, and the element $\gamma = \prod_{i=1}^n \alpha_i$ will fit the bill.
 
-#### Theorem 1 {#alg-vii-s2-thm-1 .statement}
+#### Theorem 1 {#alg-vii-s2-thm-1 .statement tag=072C}
 
 Let M be a torsion module over a principal ideal domain A; for each irreducible element $\pi$ of A, let $M_\pi$ be the submodule of M consisting of elements annihilated by some power of $\pi$. If P is a system of representatives of irreducible elements of A, then M is the direct sum of its submodules $M_\pi$ for $\pi \in P$.
 Every element $x \in M$ belongs to the submodule $M(\alpha)$ for some $a \neq 0$, so by Lemma 1 is a sum of a finite number of elements, each of which belongs to some submodule $M_\pi$. On the other hand, if $\sum_{\pi \in P} x_\pi = \sum_{\pi \in P} y_\pi$, where $x_\pi, y_\pi \in M_\pi$ for all $\pi \in P$, and where all but finitely many of the $x_\pi$ and $y_\pi$ are zero, then Lemma 2 shows that there exists $\gamma \neq 0$ in A such that all the $x_\pi$ and $y_\pi$ belong to the same submodule $M(\gamma)$; applying Lemma 1 to $M(\gamma)$ shows that $x_\pi = y_\pi$ for all $\pi \in P$, which completes the proof.
 
 Clearly, if $\pi$ and $\pi'$ are two associate irreducible elements, then $M_\pi = M_{\pi'}$; thus, for a given module M, the submodule $M_\pi$ depends only on the ideal $(\pi)$ of A; it is called the rr-primary component of the module M, and the decomposition of M as a direct sum of the $M_\pi$ is called the canonical decomposition of M as a direct sum of its rr-primary components.
 
-#### Corollary 1 {#alg-vii-s2-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-vii-s2-thm-1-cor-1 .statement tag=072D}
 
 — *Every submodule N of a torsion module M is the direct sum of its submodules N ∩ M*.
 
 This follows from the fact that N ∩ M, is the π-primary component N, of N.
 
-#### Corollary 2 {#alg-vii-s2-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-vii-s2-thm-1-cor-2 .statement tag=072E}
 
 — *The submodule N of the torsion A-module M is a direct factor if and only if N, is a direct factor of M, for every irreducible element π of A*.
 
 Indeed, if N and N' are two submodules of M, then M = N ⊕ N' if and only if M, − N, ⊕ N'_π for every irreducible element π of $\mathscr{A}$ (Cor. 1).
 
-#### Corollary 3 {#alg-vii-s2-thm-1-cor-3 .statement}
+#### Corollary 3 {#alg-vii-s2-thm-1-cor-3 .statement tag=072F}
 
 — *Let N be a submodule of the torsion A-module M. If, for every irreducible element π of A, either N, = 0 or $(M/N)_\pi = 0$, then N is a direct factor of M*.
 
@@ -123,7 +123,7 @@ Indeed, the condition $(M/N)_\pi = 0$ implies $N_\pi = M_\pi$ and Cor. 2 applies
 
 An A-module M is called *semi-simple* if every submodule of M is a direct factor (cf. A, VIII, § 3).
 
-#### Corollary 4 {#alg-vii-s2-thm-1-cor-4 .statement}
+#### Corollary 4 {#alg-vii-s2-thm-1-cor-4 .statement tag=072G}
 
 — *Let A be a principal ideal domain which is not a field, and let M be an A-module. Then M is semi-simple if and only if M is a torsion module and M, = M(π) for every irreducible element π of A*.
 
@@ -135,17 +135,17 @@ It follows first of all that M is a torsion module; if moreover $x \in M_\pi$, t
 
 Conversely, by Cor. 2 it is enough to prove that an A-module M annihilated by an irreducible element π is semi-simple; but that is clear, since M then has a natural structure of a vector space over the field $\mathscr{A}/(\pi)$, and the submodules of M are precisely the vector subspaces under this structure.
 
-#### Remark 1 {#alg-vii-s2-n2-rem-1 .statement}
+#### Remark 1 {#alg-vii-s2-n2-rem-1 .statement tag=072H}
 
 — Clearly the annihilator of every element ≠ 0 of a τ-primary module has the form $A\pi^k$ (k > 0 an integer), since it is a principal ideal containing a power of τ. Let x be an element of M; for each $\pi \in P$, let $x_\pi$ be the component of x in $M_\pi$; the annihilator of x is the lcm of the annihilators of the nonzero $x_\pi$, but by the above it is equal in this case to the *product* of the annihilators of the nonzero $x_\pi$ (VI, p. 16, Prop. 12 (DIV)).
 
-#### Proposition 2 {#alg-vii-s2-prop-2 .statement}
+#### Proposition 2 {#alg-vii-s2-prop-2 .statement tag=072I}
 
 — *If M is a finitely generated torsion module over a principal ideal domain A, then the n-primary components of M are zero except for a finite number of them, and the projectors of M onto these components $M_\pi$ are homotheties*.
 
 This follows immediately from Lemma 1, for by Lemma 2 there exists $\alpha \neq 0$ in $\mathscr{A}$ such that $M = M(\alpha)$.
 
-#### Remark 2 {#alg-vii-s2-n2-rem-2 .statement}
+#### Remark 2 {#alg-vii-s2-n2-rem-2 .statement tag=072J}
 
 — By VII, p. 7, Remark 3, a finitely generated torsion A-module is cyclic if and only if each of its π-primary components is cyclic.
 
@@ -153,7 +153,7 @@ An important special case where Th. 1 and Prop. 2 apply is when $A = \mathbf{Z}$
 
 ### 3. Applications : I. Canonical decompositions of rational numbers and of rational functions in one indeterminate
 
-#### Theorem 2 {#alg-vii-s2-thm-2 .statement}
+#### Theorem 2 {#alg-vii-s2-thm-2 .statement tag=072K}
 
 *Let $A$ be a principal ideal domain, let $K$ be its field offructions and let $P$ be a system of representatives of irreducible elements of $A$. Given an element $x \in K$, there exist a finite subset $H$ of $P$, elements $a_0 \in A$ and $a, \in A$ not divisible by $p$ in $A$ ($p \in H$), and integers $s(p) > 0$ ($p \in H$) such that*
 
@@ -217,7 +217,7 @@ $$
 \{1\} \to \mathrm{U}(2^n) \to (\mathbf{Z}/2^n\mathbf{Z})^* \to (\mathbf{Z}/4\mathbf{Z})^* \to \{1\}.
 $$
 
-#### Lemma 3 {#alg-vii-s2-lem-3 .statement}
+#### Lemma 3 {#alg-vii-s2-lem-3 .statement tag=072L}
 
 Let x, y, k be integers with $k \geq 0$, and let $p > 2$ be a prime number. If $x \equiv 1 + py \mod p^2$ then $x^{p^k} \equiv 1 + p^{k+1}y \mod p^{k+2}$. *If* $x \equiv 1 + 4y \mod 8$ then $x^{2^k} \equiv 1 + 2^{k+2}y \mod 2^{k+3}$.
 
@@ -240,25 +240,25 @@ $$
 $$
 whence the second assertion by induction on k.
 
-#### Proposition 3 {#alg-vii-s2-prop-3 .statement}
+#### Proposition 3 {#alg-vii-s2-prop-3 .statement tag=072M}
 
 Let $p > 2$ be a prime number and let $n > 0$ be an integer; then the group $U(p^n)$ is cyclic of order $p^{n-1}$; if $n \geq 2$ then the residue class mod $p^n$ of an integer $x$ congruent to 1 mod $p$ is a generator of $U(p^n)$ if and only if $x$ is not congruent to 1 mod $p^2$. Let $m > 1$ be an integer; then the group $U(2^m)$ is cyclic of order $2^{m-2}$; if $m \geq 3$ then the residue class mod $2^m$ of an integer $x$ congruent to 1 mod 4 is a generator of $U(2^m)$ if and only if $x$ is not congruent to 1 mod 8.
 
 Since $U(p^n)$ has order $p^{n-1}$, the order of every element $u$ of $U(p^n)$ is a power of $p$, and $u$ is a generator of $U(p^n)$ if and only if $u^{p^{n-2}} \neq 1$. Now if $u$ is the class of $x = 1 + py$, then $u^{p^{n-2}}$ is the class of $1 + p^{n-1}y$, by Lemma 3, whence $u$ generates $U(p^n)$ if and only if $y \not\equiv 0 \mod p$, in other words $x \not\equiv 1 \mod p^2$. For example, the class $1 + p$ generates $U(p^n)$. Similarly, the class $u$ of $x$ mod $2^n$ generates $U(2^n)$ if and only if $u^{2^{n-3}} \neq 1$, which means that $x$ is not congruent to 1 mod 8, by Lemma 3; this is satisfied by $x = 5$.
 
-#### Lemma 4 {#alg-vii-s2-lem-4 .statement}
+#### Lemma 4 {#alg-vii-s2-lem-4 .statement tag=072N}
 
 Let $A$ be a principal ideal domain and let $0 \to N \to M \to P \to 0$ be an exact sequence of $A$-modules. Suppose that there exist coprime elements $a, b \in A$ such that $aN = 0$ and $bP = 0$. Then the exact sequence splits. If in addition $N$ and $P$ are both cyclic, then $M$ is cyclic.
 
 The module $M$ is torsion, since $abM = 0$. The first assertion follows from Cor. 3 of VII, p. 9. If $N$ and $P$ are cyclic, then they are finitely generated, and hence so is $M$ (II, p. 17, Cor. 5); since each $p$-primary component of $M$ is isomorphic to a $p$-primary component either of $N$ or of $P$, it follows from Remark 2 of VII, p. 10, that $M$ is cyclic.
 
-#### Theorem 3 {#alg-vii-s2-thm-3 .statement}
+#### Theorem 3 {#alg-vii-s2-thm-3 .statement tag=072O}
 
 If $a = \prod p_i^{n(i)}$ is the prime decomposition of the integer $a > 1$, then the group $(\mathbf{Z}/a\mathbf{Z})^*$ of invertible elements of the ring $\mathbf{Z}/a\mathbf{Z}$ is isomorphic to the product of the groups $(\mathbf{Z}/p_i^{n(i)}\mathbf{Z})^*$. If $p > 2$ is a prime number and $n \geq 1$ an integer, then the group $(\mathbf{Z}/p^n\mathbf{Z})^*$ is cyclic of order $p^n \ ^1(p - 1)$. The group $(\mathbf{Z}/2\mathbf{Z})^*$ is trivial; for $n \geq 2$ the group $(\mathbf{Z}/2^n\mathbf{Z})^*$ is the direct product of the cyclic group of order $2^n \ ^2$ generated by the residue class of 5 mod $2^n$ and the cyclic group of order 2 consisting of the residue classes of 1 and $-1$ mod $2^n$.
 
 The orders $p^n \ ^1$ of $U(p^n)$ and $p - 1$ of $(\mathbf{Z}/p\mathbf{Z})^*$ are coprime; since $U(p^n)$ and $(\mathbf{Z}/p\mathbf{Z})^*$ are cyclic (Prop. 3 and V, p. 78, Lemma 1), the group $(\mathbf{Z}/p^n\mathbf{Z})^*$ is cyclic (apply Lemma 4 to the exact sequence (3)). If $n \geq 2$ then the restriction of the homomorphism $v : (\mathbf{Z}/2^n\mathbf{Z})^* \to (\mathbf{Z}/4\mathbf{Z})^*$ to the subgroup $(1, -1)$ is bijective; the group $(\mathbf{Z}/2^n\mathbf{Z})^*$ is thus the direct product of this subgroup and the kernel $U(2^n)$ of $v$; the result follows from Prop. 3.
 
-#### Remark {#alg-vii-s2-n4-rem-1 .statement}
+#### Remark {#alg-vii-s2-n4-rem-1 .statement tag=072P}
 
 Let $p > 2$ be a prime number and let $x$ be an integer congruent to 1 mod $p$ and not congruent to 1 mod $p^2$; there is an exact sequence
 

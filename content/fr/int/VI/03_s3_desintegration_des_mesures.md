@@ -32,7 +32,7 @@ subsections:
       pdf_page: 70
 statements: 17
 exercises: 12
-content_sha256: db73d159a8152a9f8f8a175a80666a41168df44398c643bcf83fb45125b75a78
+content_sha256: 7a6ef609aca117bbb3b18d48bbf771a19f51aaacc28d185c26ccef101d9c2fca
 ---
 
 ## § 3. Désintégration des mesures
@@ -41,25 +41,25 @@ content_sha256: db73d159a8152a9f8f8a175a80666a41168df44398c643bcf83fb45125b75a78
 
 Soit T un espace localement compact ayant une base dénombrable (en d'autres termes un espace localement compact polonais (Top. gén., chap. IX, 2e éd., § 6, no 1)). On sait que pour toute mesure positive sur T, les notions d'intégrale et d'intégrale essentielle coïncident (chap. V, § 2, no 2, Remarque 1). D'autre part, on a les propriétés suivantes :
 
-#### Lemme 1 {#int-vi-s3-lem-1 .statement}
+#### Lemme 1 {#int-vi-s3-lem-1 .statement tag=09C0}
 
 Si Y est un espace localement compact ayant une base dénombrable, l'espace $\mathscr{K}(Y)$ contient une partie dénombrable partout dense. Plus précisément, il existe dans $\mathscr{K}(Y)$ une partie dénombrable S formée de fonctions $\geq 0$, telle que, pour toute fonction $f \geq 0$ de $\mathscr{K}(Y)$, il existe une suite de fonctions $f_n \in S$ ($n \geqslant 0$) qui converge uniformément vers $f$ et est telle que $f_n \leq f_0$ pour tout $n \geqslant 0$.
 
 En effet, Y est réunion d'une suite croissante $(U_n)$ d'ensembles ouverts relativement compacts tels que $\overline{U}_n \subset U_{n+1}$ pour tout $n$ (Top. gén., chap. I, 2e éd., § 10, no 11, prop. 19); l'espace $\mathscr{K}(Y)$ est réunion de la suite croissante des espaces de Banach $\mathscr{K}(Y, \overline{U}_n)$, et on sait que chacun de ces derniers est de type dénombrable (Top. gén., chap. X, 2e éd., § 3, no 4, th. 1). Soient $S'_n$ un ensemble dénombrable dense dans $\mathscr{K}(Y, \overline{U}_n)$, $S_n$ l'ensemble des fonctions $\varphi^+$ pour $\varphi \in S'_n$, $u_n$ une fonction de $\mathscr{K}(Y, \overline{U}_{n+1})$, à valeurs dans $\{0,1\}$ et égale à 1 dans $U_n$. Nous prendrons pour S la réunion des $S_n$ et de l'ensemble des $m u_n$ pour $m$ et $n$ entiers $\geqslant 0$. Pour toute fonction $f \geqslant 0$ de $\mathscr{K}(Y)$, $f$ a son support dans l'un des $U_n$, donc est limite uniforme d'une suite de fonctions $f_p \in S_n$ ($p \geqslant 1$). Ces fonctions $f_p$ sont uniformément majorées par un entier positif $m$, et il suffit de prendre $f_0 = m u_n$.
 
-#### Lemme 2 {#int-vi-s3-lem-2 .statement}
+#### Lemme 2 {#int-vi-s3-lem-2 .statement tag=09C1}
 
 Si Y est un espace localement compact ayant une base dénombrable, l'espace de Banach $\overline{\mathscr{K}(Y)}$ des fonctions numériques continues tendant vers 0 au point à l'infini est de type dénombrable.
 
 Ce lemme n'est autre que le cor. du th. 1 de Top. gén., chap. X, 2e éd., § 3, no 4. On peut observer qu'il résulte aussi du lemme 1 et du fait que la topologie de la convergence uniforme sur $\mathscr{K}(Y)$ est moins fine que la topologie limite inductive des topologies des sous-espaces $\mathscr{K}(Y, \overline{U}_n)$.
 
-#### Lemme 3 {#int-vi-s3-lem-3 .statement}
+#### Lemme 3 {#int-vi-s3-lem-3 .statement tag=09C2}
 
 Soient T et X deux espaces localement compacts à bases dénombrables, $\mu$ une mesure positive sur T, $t \to \lambda_t$ une famille de mesures positives sur X. Si l'application $t \to \lambda_t$ est scalairement $\mu$-intégrable (pour la topologie $\sigma(\mathscr{M}(X), \mathscr{K}(X))$), alors la famille $t \to \lambda_t$ est $\mu$-adéquate (chap. V, § 3, no 1, déf. 1).
 
 En effet, le lemme 1, appliqué à $\mathscr{K}(X)$, montre que l'application $t \to \lambda_t$ est vaguement $\mu$-mesurable (§ 1, no 5, prop. 13).
 
-#### Théorème 1 {#int-vi-s3-thm-1 .statement}
+#### Théorème 1 {#int-vi-s3-thm-1 .statement tag=09C3}
 
 Soient T et B deux espaces localement compacts ayant des bases dénombrables, $\mu$ une mesure positive sur T, $p$ une application $\mu$-propre (chap. V, § 6, no 1, déf. 1) de T dans B, et $\nu = p(\mu)$ l’image de $\mu$ par $p$. Il existe alors une famille $\nu$-adéquate (chap. V, § 3, no 1, déf. 1) $b \to \lambda_b$ ($b \in B$) de mesures positives sur T, ayant les propriétés suivantes :
 
@@ -128,15 +128,15 @@ On dit que toute famille ν-adéquate $b \to \lambda_b$ de mesures positives sur
 
 ### 2. Mesures pseudo-images.
 
-#### Définition 1 {#int-vi-s3-def-1 .statement}
+#### Définition 1 {#int-vi-s3-def-1 .statement tag=09C4}
 
 Soient T et B deux espaces localement compacts, $\mu$ une mesure positive sur T, $p$ une application $\mu$-mesurable de T dans B. On dit qu’une mesure positive $\nu$ sur B est une mesure pseudo-image de $\mu$ par $p$ si elle vérifie la condition suivante : pour qu’une partie N de B soit localement $\nu$-négligeable, il faut et il suffit que $p^{-1}(N)$ soit localement $\mu$-négligeable.
 
-#### Exemple 1 {#int-vi-s3-n2-exa-1 .statement}
+#### Exemple 1 {#int-vi-s3-n2-exa-1 .statement tag=09C5}
 
 Si $p$ est $\mu$-propre et si $\nu = p(\mu)$, $\nu$ est pseudo-image de $\mu$ par $p$ (chap. V, § 6, no 2, cor. 2 de la prop. 2).
 
-#### Exemple 2 {#int-vi-s3-n2-exa-2 .statement}
+#### Exemple 2 {#int-vi-s3-n2-exa-2 .statement tag=0E6W}
 
 Soient B’ un espace localement compact, $\nu’$ une mesure positive sur B’ ; prenons pour T l’espace $B \times B’$ et pour $\mu$ la mesure $\nu \otimes \nu’$ ; si $p$ est la projection de T sur B, $\nu$ est pseudo-image de $\mu$ par $p$ (chap. V, § 8, no 2, cor. 8 de la prop. 5 et no 1 , cor. de la prop. 2).
 
@@ -144,7 +144,7 @@ On notera que si $\nu$ est une mesure pseudo-image de $\mu$ par $p$, $\nu$ est p
 
 Si $\nu$ est pseudo-image de $\mu$ par $p$, l’ensemble des mesures pseudo-images de $\mu$ par $p$ est la classe des mesures positives équivalentes à $\nu$, et toute mesure positive équivalente à $\mu$ admet les mêmes mesures pseudo-images par $p$. On dit que la classe de $\nu$ est la classe pseudo-image de celle de $\mu$ par $p$.
 
-#### Proposition 1 {#int-vi-s3-prop-1 .statement}
+#### Proposition 1 {#int-vi-s3-prop-1 .statement tag=09C6}
 
 Soient T un espace localement compact dénombrable à l’infini, $\mu$ une mesure positive sur T, $p$ une application $\mu$-mesurable de T dans un espace localement compact B. Il existe alors une mesure pseudo-image de $\mu$ par $p$.
 
@@ -152,7 +152,7 @@ En effet, il existe sur T une mesure bornée $\mu’$ équivalente à $\mu$ (cha
 
 ### 3. Désintégration d'une mesure $\mu$ relative à une pseudo-image de $\mu$.
 
-#### Théorème 2 {#int-vi-s3-thm-2 .statement}
+#### Théorème 2 {#int-vi-s3-thm-2 .statement tag=09C7}
 
 Soient $T$ et $B$ deux espaces localement compacts ayant des bases dénombrables, $\mu$ une mesure positive sur $T$, $p$ une application $\mu$-mesurable de $T$ dans $B$, $\nu$ une mesure pseudo-image de $\mu$ par $p$. Il existe alors une famille $\nu$-adéquate $b \to \lambda_b$ ($b \in B$) de mesures positives sur $T$, ayant les propriétés suivantes :
 
@@ -186,13 +186,13 @@ $$
 
 Le th. 1 du n° 1, appliqué à $\mu''$ et $v''$, entraîne donc, pour presque tout $b \in B$, $\lambda_b''' = \lambda_b''$, d’où $\lambda_b = r(b)\lambda_b'$.
 
-#### Définition 2 {#int-vi-s3-def-2 .statement}
+#### Définition 2 {#int-vi-s3-def-2 .statement tag=09C8}
 
 Soient T et B deux espaces localement compacts polonais. Etant données une mesure positive $\mu$ sur T, une application $\mu$-mesurable $p$ de T dans B, une mesure pseudo-image $\nu$ de $\mu$ par $p$, toute famille $\nu$-adéquate $b \to \lambda_b$ ($b \in B$) de mesures positives sur T possédant les propriétés b) et c) du th. 2 est appelée une désintégration de $\mu$ relative à $\nu$.
 
 Lorsque $p$ est $\mu$-propre et que $\nu = p(\mu)$, la notion de désintégration relative à $p$ coïncide donc avec la notion de désintégration relative à $\nu$. Sous les hypothèses du th. 2, deux désintégrations de $\mu$ relatives à la même mesure pseudo-image $\nu$ sont égales presque partout pour $\nu$.
 
-#### Remarque {#int-vi-s3-n3-rem-1 .statement}
+#### Remarque {#int-vi-s3-n3-rem-1 .statement tag=09C9}
 
 Le th. 1 du chap. V, § 3, n° 4, montre (compte tenu de ce que T et B ont des bases dénombrables) que pour toute fonction $f$ définie dans T, à valeurs dans $\overline{\mathbf{R}}$ ou dans un espace de Banach F et $\mu$-intégrable, l’ensemble des $b \in B$ tels que $f$ ne soit pas $\lambda_b$-intégrable est $\nu$-négligeable, la fonction $b \to \int f(t) d\lambda_b(t)$, définie presque partout, est $\nu$-intégrable, et l’on a
 
@@ -210,7 +210,7 @@ Rappelons (*Top. gén.*, chap. I, 2e éd., § 9, no 9, th. 2) que si $R$ est une
 
 Soit $p$ une application de $X$ dans un espace topologique séparé $B$, et soit $R$ la relation d’équivalence $p(x) = p(y)$ dans $X$; si $K$ est une partie *compacte* de $X$ telle que la restriction de $p$ à $K$ soit *continue*, la relation $R_K$ induite par $R$ sur $K$ est séparée, car l’espace quotient $K/R_K$ est homéomorphe à l’espace $p(K)$, qui est compact (*Top. gén.*, chap. I, 2e éd., § 10, no 6, cor. 1 de la prop. 8). Si $T$ est un espace localement compact, $\mu$ une mesure positive sur $T$, $p$ une application $\mu$-mesurable de $T$ dans un espace topologique séparé $B$, on voit donc que l’ensemble des parties compactes $K$ de $T$ telles que la relation $R_K$ soit séparée, est $\mu$-dense (chap. V, § 1, no 2.) On est donc conduit à poser la définition suivante :
 
-#### Définition 3 {#int-vi-s3-def-3 .statement}
+#### Définition 3 {#int-vi-s3-def-3 .statement tag=09CA}
 
 *Soient T un espace localement compact, $\mu$ une mesure positive sur T. On dit qu’une relation d’équivalence R dans T est $\mu$-mesurable si l’ensemble des parties compactes K de T, telles que $R_K$ soit séparée, est $\mu$-dense.*
 
@@ -218,7 +218,7 @@ Si $R$ est séparée, $R$ est $\mu$-mesurable, car si $\varphi$ est l’applicat
 
 On notera que, si R est $\mu$-mesurable, R est aussi mesurable pour toute mesure de base $\mu$ sur T.
 
-#### Proposition 2 {#int-vi-s3-prop-2 .statement}
+#### Proposition 2 {#int-vi-s3-prop-2 .statement tag=09CB}
 
 *Soient T un espace localement compact dénombrable à l'infini, $\mu$ une mesure positive sur T.*
 
@@ -234,7 +234,7 @@ N' = T - A ⊂ N. Nous allons voir que la relation $p'(x) = p'(y)$ est équivale
 
 Considérons alors l’ensemble quotient $B_0 = N'/R_x$; soient $q_0$ l’application canonique de $N'$ sur $B_0$, $s_0$ une section associée à $q_0$. Posons $p_0(x) = s_0(q_0(x))$ pour $x \in N'$ et prolongeons $p_0$ à T en prenant $p_0$ constante dans A et égale à un élément de T. Alors $p = (p', p_0)$ est une application $\mu$-mesurable de T dans l’espace localement compact $B = B' \times T$; il est immédiat que si $x \in N'$, $y \in N'$, la relation $p_0(x) = p_0(y)$ entraîne R $\{ x, y \}$; donc $p$ répond à la question. En outre, si T admet une base dénombrable, il en est de même de chacun des espaces quotients $B_n$ (Top. gén., chap. IX, 2e éd., § 2, no 10, prop. 17), donc B' admet une base dénombrable, et par suite aussi B.
 
-#### Proposition 3 {#int-vi-s3-prop-3 .statement}
+#### Proposition 3 {#int-vi-s3-prop-3 .statement tag=09CC}
 
 Soient T un espace localement compact polonais, $\mu$ une mesure positive sur T, R une relation d’équivalence dans T. Les propriétés suivantes sont équivalentes :
 
@@ -250,11 +250,11 @@ Montrons ensuite que c) entraîne b). Supposons c) vérifiée ; alors les foncti
 
 Enfin, montrons que a) entraîne c). En vertu de la prop. 2, il existe un espace localement compact à base dénombrable B et une application $\mu$-mesurable $p$ de T dans B telle que la relation $R \{ x, y \}$ soit équivalente à $p(x) = p(y)$. Soit $(U_n)$ une base dénombrable de la topologie de B. Les ensembles $A_n = p^{-1}(U_n)$ sont $\mu$-mesurables (chap. IV, § 5, no 5, prop. 8) et saturés pour R ; et si $x, y$ sont des points de T tels que $p(x) \neq p(y)$, il existe un indice $n$ tel que $p(x) \in U_n$ et $p(y) \notin U_n$, ce qui signifie que $x \in A_n$ et $y \notin A_n$.
 
-#### Remarque {#int-vi-s3-n4-rem-1 .statement}
+#### Remarque {#int-vi-s3-n4-rem-1 .statement tag=09CD}
 
 Si R est une relation d’équivalence $\mu$-mesurable dans T, le saturé pour R d’une partie compacte de T n’est pas nécessairement $\mu$-mesurable (exerc. 5).
 
-#### Théorème 3 {#int-vi-s3-thm-3 .statement}
+#### Théorème 3 {#int-vi-s3-thm-3 .statement tag=09CE}
 
 Soient T un espace localement compact ayant une base dénombrable, $\mu$ une mesure positive sur T, R une relation d’équivalence $\mu$-mesurable dans T. Il existe alors une partie $\mu$-mesurable S de T qui rencontre toute classe suivant R en un point et un seul (« section mesurable » pour R).
 
@@ -270,7 +270,7 @@ Soient T un espace localement compact polonais, $\mu$ une mesure positive sur T,
 
 L’espace B, l’application $p$ et la mesure pseudo-image $\nu$ sur B peuvent en général être choisis d’une infinité de façons. Toutefois les diverses désintégrations de $\mu$ par R peuvent toutes se déduire de l’une d’entre elles, comme il résulte du théorème suivant :
 
-#### Théorème 4 {#int-vi-s3-thm-4 .statement}
+#### Théorème 4 {#int-vi-s3-thm-4 .statement tag=09CF}
 
 Soient T un espace localement compact polonais, $\mu$ une mesure positive sur T, R une relation d’équivalence $\mu$-mesurable dans T. Soient B, B’ deux espaces localement compacts polonais, $p, p’$ deux applications $\mu$-mesurables de T dans B, B’ respectivement, tels que $R \{ x, y \}$ soit équivalente à $p(x) = p(y)$ et à p'(x) = p'(y). Soient $\nu, \nu'$ des mesures pseudo-images de $\mu$ par $p, p'$ respectivement ; soient $b \to \lambda_b, b' \to \lambda'_b$, des désintégrations de $\mu$ relatives à $\nu, \nu'$ respectivement.
 

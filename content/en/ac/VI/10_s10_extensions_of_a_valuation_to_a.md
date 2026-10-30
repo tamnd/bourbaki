@@ -25,14 +25,14 @@ subsections:
       pdf_page: 456
 statements: 14
 exercises: 2
-content_sha256: 34f40a243b26113b5ca170f44a53946190e03c0c9c5132625229fb3ca220d4f2
+content_sha256: d3545f7135c1b975d777e05ac5e9cc067935aed03dd234e1d2fffc43e8d3d49f
 ---
 
 ## 10. EXTENSIONS OF A VALUATION TO A TRANSCENDENTAL EXTENSION
 
 ### 1. THE CASE OF A MONOGENOUS TRANSCENDENTAL EXTENSION
 
-#### Lemma 1 {#ac-vi-s10-lem-1 .statement}
+#### Lemma 1 {#ac-vi-s10-lem-1 .statement tag=04Y5}
 
 Let $K$ be *a field*, $v$ a valuation on $K$, $\Gamma$ *its* order group, $\Gamma'$ a totally ordered group containing $\Gamma$ and $\xi$ *an element of* $\Gamma'$. There exists *a* unique valuation w *on* $K(X)$ such *that*, *for* $P = \sum_j a_j X^j$ ($a_j \in K$), $w(P) = \inf_j (v(a_j) + j\xi)$.
 
@@ -78,7 +78,7 @@ $$
 w(PQ) = \alpha + \beta = w(P) + w(Q).
 $$
 
-#### Proposition 1 {#ac-vi-s10-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s10-prop-1 .statement tag=04Y6}
 
 Let $K$ be *a field*, $v$ *a valuation on* $K$, $\Gamma$ *its order group*, $\Gamma'$ *a totally ordered group containing* $\Gamma$ *and* $\xi$ *an element of* $\Gamma'$ *such that the relations* $n\xi \in \Gamma, n \in \mathbf{Z}$ *imply* $n = 0$. Then there exists *a* unique valuation w *on* $K(X)$ *with values in* $\Gamma'$ *and extending* $v$ *such that* $w(X) = \xi$. The *residue field of* w *is equal to that of* $v$ *and its order group is the subgroup* $\Gamma + \mathbf{Z}\xi$ *of* $\Gamma'$.
 
@@ -90,7 +90,7 @@ where $b \in K^*, n \in \mathbf{Z}, u' \in K(X)$ and $w(u') > 0$; then $w(R) = v
 
 Finally the existence of $w$ follows from Lemma 1.
 
-#### Proposition 2 {#ac-vi-s10-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s10-prop-2 .statement tag=04Y7}
 
 *Let $K$ be a field, $v$ a valuation on $K$, $\Gamma$ its order group and $k$ its residue field. There exists a unique valuation $w$ on $K(X)$ extending $v$ such that $w(X) = 0$ and the image $t$ of $X$ in the residue field $k'$ of $w$ is transcendental over $k$. The order group of $w$ is equal to that of $v$ and its residue field is $k(t)$.*
 
@@ -109,13 +109,13 @@ $$
 
 which proves our assertion.
 
-#### Remark {#ac-vi-s10-n1-rem-1 .statement}
+#### Remark {#ac-vi-s10-n1-rem-1 .statement tag=04Y8}
 
 It should not be thought that the two types of extensions of v to K(X) which we have just met are the only ones; there may exist a third type of extension, where $\Gamma'/\Gamma$ is a torsion group and $k'$ a (not necessarily finite) algebraic extension of $k$. This third type is not necessarily provided by the procedure described in Lemma 1 (cf. § 3, Exercise 1).
 
 ### 2. THE RATIONAL RANK OF A COMMUTATIVE GROUP
 
-#### Definition 1 {#ac-vi-s10-def-1 .statement}
+#### Definition 1 {#ac-vi-s10-def-1 .statement tag=04Y9}
 
 *The rational rank of a commutative group G is the dimension of the vector Q-space* $G \otimes_{\mathbf{Z}} \mathbf{Q}$.
 
@@ -127,7 +127,7 @@ $$
 r(G) = r(G') + r(G/G').
 $$
 
-#### Proposition 3 {#ac-vi-s10-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s10-prop-3 .statement tag=04YA}
 
 *Let G be a totally ordered Commutative group and H a subgroup of G. If $h(G)$ and $h(H)$ denote the heights of G and H* ($§ 4$, no. 4), *then the inequality*
 
@@ -161,11 +161,11 @@ Now $G/G_{n-1}$ is a totally ordered group not reduced to 0; it is therefore not
 
 (b) $H \cap G_{n-1} \neq H$. As $H \cap G_{n-1}$ is an isolated subgroup of $H$, we conclude that $h(H) > h(H \cap G_{n-1}) + 1$. On the other hand, obviously $r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$. Substituting in (7), we again obtain (6).
 
-#### Corollary {#ac-vi-s10-n2-cor-1 .statement}
+#### Corollary {#ac-vi-s10-n2-cor-1 .statement tag=04YB}
 
 *For every totally ordered commutative group G, $h(G) \leq r(G)$.* We set $H = (0)$ in Proposition 3.
 
-#### Proposition 4 {#ac-vi-s10-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s10-prop-4 .statement tag=04YC}
 
 *Let G be a totally ordered commutative group. Suppose that G is finitely generated and that $h(G) = r(G)$. Then G is isomorphic to $\mathbf{Z}^{r(G)}$ ordered lexicographically.*
 
@@ -173,7 +173,7 @@ Let us write $r = r(G) = h(G)$. If $r = 0$, then $G = (0)$. If $r = 1$, the stru
 
 Suppose now that $r \geq 2$ and let us argue by induction on $r$. Let H be an isolated subgroup of G of height $r - 1$. Then $r(H) + r(G/H) = r$ (formula (4)), $r(H) \geq h(H) = r - 1$ and $r(G/H) \geq h(G/H) = 1$ (Corollary to Proposition 3), whence $r(H) = r - 1$ and $r(G/H) = 1$. The induction hypothesis shows that H is isomorphic to $\mathbf{Z}^{r-1}$ ordered lexicographically and the case $r = 1$ shows that $G/H$ is isomorphic to Z. As Z is a free Z-module, H is a *direct factor* of G (*Algebra*, Chapter 11, § 1, no. 11, Proposition 21). The following lemma then shows that G is isomorphic (not canonically) to the lexicographical product $H \times (G/H)$, which completes the proof.
 
-#### Lemma 2 {#ac-vi-s10-lem-2 .statement}
+#### Lemma 2 {#ac-vi-s10-lem-2 .statement tag=04YD}
 
 *Let H be an isolated subgroup of a totally ordered commutative group G. If H is a direct factor of G, the ordered group G is isomorphic to the group $(G/H) \times H$ ordered lexicographically.*
 
@@ -195,7 +195,7 @@ $$
 
 if the right-hand sides are finite; otherwise, we shall make the convention that $d(K'/K) = +\infty$ (resp. $s(v'/v) = +\infty, r(v'/v) = +\infty$).
 
-#### Theorem 1 {#ac-vi-s10-thm-1 .statement}
+#### Theorem 1 {#ac-vi-s10-thm-1 .statement tag=04YE}
 
 *Let $x_1, \ldots, x,$ be elements of the ring of $v'$ whose canonical images $\overline{x}_i$ in $k'$ are algebraically independent over $k$ and $y_1, \ldots, y_r$ elements of $K'$ such that the canonical images of the $v'(y_j)$ in $\Gamma'/\Gamma$ are linearly independent over $\mathbf{Z}$. Then the $r+s$ elements $x_1, \ldots, x, y_1, \ldots, y_r$ of $K'$ are algebraically independent over $K$; the restriction of $v'$ to $K(x_1, \ldots, x, y_1, \ldots, y_r)$ admits $k(\overline{x}_1, \ldots, \overline{x}_s)$ as residue field and*
 
@@ -213,7 +213,7 @@ Our assertion is obvious if $r+s = 0$. We argue by induction on $r+s$. If $r' \l
 
 Now Proposition 1 of § 8, no. 1 shows that $x$ (resp. $y$) cannot be algebraic over $K$. The other assertions of (a) (resp. (b)) follow immediately by Proposition 2 (resp. Proposition 1) of no. 1.
 
-#### Corollary 1 {#ac-vi-s10-thm-1-cor-1 .statement}
+#### Corollary 1 {#ac-vi-s10-thm-1-cor-1 .statement tag=04YF}
 
 *The inequality*
 
@@ -231,7 +231,7 @@ They are therefore algebraically independent over $K$, which shows the inequalit
 
 If $K'$ is a finitely generated extension of $K$, $d(K'/K)$ is finite, hence $s(v'/v)$ and $r(v'/v)$ are also finite; we denote them by $s$ and $r$. There exist elements $x_1, \ldots, x_s, y_1, \ldots, y_r$ of $K'$ which satisfy the hypotheses of Theorem 1. If $r + s = d(K'/K)$, these elements form a transcendence basis of $K'$ over $K$ and $K'$ is therefore a finite algebraic extension of $K'' = K(x_1, \ldots, y_r)$. Let $\Gamma''$ and $k''$ be the order group and residue field of the restriction of $v'$ to $K''$. By Theorem 1, $\Gamma''/\Gamma$ is a finitely generated $\mathbf{Z}$-module and $k''$ is a finitely generated pure extension of $k$. On the other hand, as $K'$ is a finite algebraic extension of $K$, $\Gamma'/\Gamma$ is a finite group and $k'$ is a finite algebraic extension of $k''$ (§ 8, no. 1, Lemma 2). This proves the corollary.
 
-#### Corollary 2 {#ac-vi-s10-thm-1-cor-2 .statement}
+#### Corollary 2 {#ac-vi-s10-thm-1-cor-2 .statement tag=04YG}
 
 *Let h and h' be the heights of v and v'. Then*
 $$
@@ -239,13 +239,13 @@ s(v'/v) + h' \leq d(K'/K) + h.
 $$
 By Proposition 3, $h' \leq r(v'/v) + h$.
 
-#### Corollary 3 {#ac-vi-s10-thm-1-cor-3 .statement}
+#### Corollary 3 {#ac-vi-s10-thm-1-cor-3 .statement tag=04YH}
 
 *Suppose that $K'$ is a finitely generated extension of $K$, that $\Gamma$ is isomorphic to $\mathbf{Z}^{h'}$ (ordered lexicographically) and there is equality in formula (10). Then $\Gamma'$ is isomorphic to $\mathbf{Z}^{h'}$ (ordered lexicographically) and $k'$ is a finitely generated extension of $k$.*
 
 If there is equality in (10), there is equality in (9), whence the fact that $k'$ is a finitely generated extension of $k$ and that $\Gamma''$ is a finitely generated $\mathbf{Z}$-module. Further, comparing (9) and (10), it is seen that $h' - h = r(\Gamma'/\Gamma)$, whence $h' = r(\Gamma')$ and Proposition 4 (no. 2) then shows that $\Gamma'$ is isomorphic to $\mathbf{Z}^{h'}$ ordered lexicographically.
 
-#### Corollary 4 {#ac-vi-s10-thm-1-cor-4 .statement}
+#### Corollary 4 {#ac-vi-s10-thm-1-cor-4 .statement tag=04YI}
 
 *Suppose that v is improper (in which case $k = K$). Then*
 $$

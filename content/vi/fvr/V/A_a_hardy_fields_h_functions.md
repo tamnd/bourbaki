@@ -37,9 +37,9 @@ subsections:
       pdf_page: 270
 statements: 21
 exercises: 15
-content_sha256: c22ddee0d445e02473141984a91571a0b2a653fe0b2edad157caedd76669b79d
+content_sha256: 8a76b5d40beb5e4a0a93ba1f2a7048ae1f990f332253e6ccf5e22d085c25623d
 translated_from: content/en/fvr/V/A_a_hardy_fields_h_functions.md
-source_content_sha256: b95f9ad9bca8cc72d94efcce361bb8861c0b8518e472602d45f215e94dcd28a9
+source_content_sha256: 90e02e3632c6ecc96144815961457f749d0c9a6edf475780ab90b36dc9feca0f
 translation_model: gpt-5.4
 translation_run: translate-vi-75b0505f
 glossary_version: 34
@@ -55,7 +55,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $\mathfrak{F}$ là cơ sở lọc trên $\mathbf{R}$ được tạo thành bởi các khoảng có dạng $[x_0, +\infty[$. Nhắc lại rằng ta đã định nghĩa một quan hệ tương đương $R_\infty$: trên tập hợp $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ các hàm thực được xác định trên các tập hợp thuộc $\mathfrak{F}$, “tồn tại một tập hợp $M \in \mathfrak{F}$ sao cho $f(x) = g(x)$ trên $M$” (V, p. 211), và rằng tập thương $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ được trang bị cấu trúc của một *vành* có phần tử đơn vị.
 
-#### Định nghĩa 1 {#fvr-v-a0-def-1 .statement}
+#### Định nghĩa 1 {#fvr-v-a0-def-1 .statement tag=08GO}
 
 *Cho một tập con $\mathfrak{K}$ của $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, ta nói rằng $\mathfrak{K}/R_\infty$ (ảnh chính tắc của $\mathfrak{K}$ trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) là một trường Hardy, nếu $\mathfrak{K}$ thỏa mãn các điều kiện sau:
 
@@ -65,11 +65,11 @@ Giả thiết rằng $\mathfrak{K}/R_\infty$ là một *trường* tương đư�
 
 Do lạm dụng ngôn ngữ, nếu $\mathfrak{K}$ sao cho $\mathfrak{K}/R_\infty$ là một trường Hardy thì trong phần sau ta sẽ nói rằng bản thân $\mathfrak{K}$ là một *trường Hardy*.
 
-#### Ví dụ 1 {#fvr-v-a0-n1-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-a0-n1-exa-1 .statement tag=08GP}
 
 Mọi trường Hardy đều chứa trường các *hằng hữu tỉ* (trường nhỏ nhất có đặc số 0, *x. Alg.*, V, §1), mà ta có thể đồng nhất với trường $\mathbf{Q}$; hơn nữa, vì hai hằng không thể đồng dư modulo $R_\infty$ trừ khi chúng bằng nhau, $\mathbf{Q}/R_\infty$ đồng nhất với $\mathbf{Q}$. Các *hằng thực* cũng tạo thành một trường Hardy, mà ta có thể đồng nhất với $\mathbf{R}$.
 
-#### Ví dụ 2 {#fvr-v-a0-n1-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-a0-n1-exa-2 .statement tag=08GQ}
 
 Một ví dụ rất quan trọng của trường Hardy là *tập hợp các hàm hữu tỉ với hệ số thực*, mà do lạm dụng ngôn ngữ ta sẽ ký hiệu là $\mathbf{R}(x)$; nếu $f(x) = p(x)/q(x)$ là một hàm hữu tỉ với hệ số thực, không đồng nhất bằng không, thì nó liên tục, khả vi, và $\neq 0$ trên một khoảng $[a, +\infty[$, trong đó $a$ lớn hơn nghiêm ngặt nghiệm thực lớn nhất của các đa thức $p(x)$ và $q(x)$; do đó mọi phần tử của $\mathbf{R}(x)/R_\infty$ khác 0 đều khả nghịch. Ta lại chú ý rằng hai hàm hữu tỉ không thể đồng dư modulo $\mathbf{R}_\infty$ trừ khi chúng bằng nhau, nên $\mathbf{R}(x)/\mathbf{R}_\infty$ lại có thể được đồng nhất với $\mathbf{R}(x)$.
 
@@ -77,7 +77,7 @@ Một ví dụ rất quan trọng của trường Hardy là *tập hợp các h�
 
 Cho một trường Hardy $\mathfrak{K}$, ta sẽ thấy cách lập những trường Hardy mới $\mathfrak{K}' \supset \mathfrak{K}$ sao cho $\mathfrak{K}'/\mathbf{R}_\infty$ được thu được bằng cách *thêm* (theo nghĩa đại số của thuật ngữ này, *x. Alg.*, V. §2) những phần tử mới, có một dạng mà ta sẽ nói chính xác, vào $\mathfrak{K}/\mathbf{R}_\infty$.
 
-#### Bổ đề 1 {#fvr-v-a0-lem-1 .statement}
+#### Bổ đề 1 {#fvr-v-a0-lem-1 .statement tag=08GR}
 
 *Cho* $a(x), b(x)$ *là hai hàm thực liên tục không thay đổi dấu trên một khoảng* $[x_0, +\infty[$. *Nếu, trên khoảng này, hàm* $y(x)$ *liên tục và khả vi, và thỏa mãn đồng nhất thức*
 
@@ -91,11 +91,11 @@ $$
 
 Thật vậy, đặt $z(x) = y(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$ (*x. IV*, p. 183); khi đó, theo (1), $z'(x) = b(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$. Nếu $b(x) \geqslant 0$ với $x \geqslant x_0$ thì $z$ tăng trên khoảng này, nên hoặc là $< 0$ trên toàn bộ khoảng ấy, hoặc bằng không trên một khoảng $[x_1, +\infty[$, hoặc nữa là $> 0$ trên một khoảng $[x_1, +\infty[$; vì $y$ có cùng dấu với $z$ nên mệnh đề được chứng minh trong trường hợp này. Lập luận là tương tự nếu $b(x) \leqslant 0$ với $x \geqslant x_0$.
 
-#### Nhận xét {#fvr-v-a0-n2-rem-1 .statement}
+#### Nhận xét {#fvr-v-a0-n2-rem-1 .statement tag=08GS}
 
 Tính chất rất sơ cấp này không mở rộng được cho các phương trình vi phân tuyến tính cấp $> 1$; chẳng hạn, hàm $y = \sin x$ thỏa mãn $y'' + y = 0$, nhưng đổi dấu trên mọi lân cận của $+\infty$.
 
-#### Bổ đề 2 {#fvr-v-a0-lem-2 .statement}
+#### Bổ đề 2 {#fvr-v-a0-lem-2 .statement tag=08GT}
 
 *Cho* $a(x)$ *và* $b(x)$ *là hai hàm thuộc một trường Hardy cho trước* $\mathfrak{K}$ *và* $y(x)$ *là một hàm thỏa mãn đồng nhất thức* (1) *trên một khoảng* $[x_0, +\infty[$ *mà trên đó* $a$ *và* $b$ *được xác định và liên tục*. *Nếu* $p(u)$ *là một đa thức theo* $u$ *mà các hệ số là những hàm của* $x$ *thuộc* $\mathfrak{K}$, *được xác định và khả vi trên* $[x_0, +\infty[$, *thì tồn tại một khoảng* $[x_1, +\infty[$ *mà trên đó hàm* $p(y)$ *không thay đổi dấu*.
 
@@ -110,7 +110,7 @@ $$
 
 trong đó $q(u)$ là một đa thức bậc $\leq n - 1$, với các hệ số trong $\mathfrak{K}$. Theo giả thiết các hàm $na(x)$ và $q(y(x))$ không đổi dấu trên một khoảng $[ \beta, +\infty[$; do đó định lý được suy ra từ bổ đề 1.
 
-#### Định lý 1 {#fvr-v-a0-thm-1 .statement}
+#### Định lý 1 {#fvr-v-a0-thm-1 .statement tag=08GU}
 
 *Cho $a(x)$ và $b(x)$ là hai hàm thuộc một trường Hardy $\mathfrak{K}$ đã cho và $y(x)$ là một hàm thỏa mãn (1) trên một khoảng $[ x_0, +\infty[$. Khi $r(u) = p(u)/q(u)$ chạy qua tập hợp các phân thức hữu tỉ theo $u$ với các hệ số trong $\mathfrak{K}$ sao cho $q(y)$ không đồng nhất bằng không trên một lân cận của $+\infty$ thì tập hợp $\mathfrak{K}(y)$ các hàm $r(y)$ tạo thành một trường Hardy.*
 
@@ -124,7 +124,7 @@ $$
 
 Rõ ràng $\mathfrak{K}(y)/\mathbf{R}_\infty$ thu được bằng *phép nối* đại số vào $\mathfrak{K}/\mathbf{R}_\infty$ của lớp của $y$ theo môđun $\mathbf{R}_\infty$. Người ta cũng nói rằng $\mathfrak{K}(y)$ thu được bằng cách *nối* $y$ vào $\mathfrak{K}$.
 
-#### Hệ quả 1 {#fvr-v-a0-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#fvr-v-a0-thm-1-cor-1 .statement tag=08GV}
 
 *Nếu $y$ là một hàm trong $\mathfrak{K}$, không đồng nhất bằng không trên một lân cận của $+\infty$, thì $\mathfrak{K}(\log|y|)$ là một trường Hardy.*
 
@@ -142,7 +142,7 @@ Cuối cùng, chú ý rằng nếu $y$ là *nguyên hàm* của một hàm bất
 
 ### 3. SO SÁNH CÁC HÀM TRONG MỘT TRƯỜNG HARDY
 
-#### Mệnh đề 1 {#fvr-v-a0-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-v-a0-prop-1 .statement tag=08GW}
 
 *Hai hàm trong cùng một trường Hardy là khả so sánh đối với mọi cấp* (V, p. 232).
 
@@ -166,7 +166,7 @@ Vì thế Mệnh đề 8 của V, p. 233, áp dụng được cho mọi hàm $f$
 
 Hơn nữa, ta có mệnh đề sau đây:
 
-#### Mệnh đề 2 {#fvr-v-a0-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-v-a0-prop-2 .statement tag=08GX}
 
 Cho $f$ là một hàm thuộc một trường Hardy $\mathscr{K}$.
 
@@ -208,7 +208,7 @@ Nếu $f$ tương đương với một hằng $k \neq 0$ thì ta có $f(x) = k +
 
 ### 4. (H) HÀM
 
-#### Mệnh đề 3 {#fvr-v-a0-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-v-a0-prop-3 .statement tag=08GY}
 
 *Nếu $\mathscr{K}_0$ là một trường Hardy thì tồn tại một trường Hardy $\mathscr{K}$ chứa $\mathscr{K}_0$ và sao cho, với mọi hàm $z \in \mathscr{K}$ không đồng nhất bằng không trên một lân cận của $+\infty$, cả $e^z$ lẫn $\log |z|$ đều thuộc $\mathscr{K}$.*
 
@@ -220,7 +220,7 @@ Ta nói rằng trường Hardy $\mathscr{K}$ được định nghĩa trong chứ
 
 Nếu $\mathscr{K}'$ là một trường Hardy khác có các tính chất được phát biểu trong mệnh đề 3, thì từ phép dựng của $\mathscr{K}$ suy ra rằng $\mathscr{K}/\mathbf{R}_\sim$ *được chứa* trong $\mathscr{K}'/\mathbf{R}_\sim$. Theo lối nói lạm dụng, ta nói rằng mở rộng (H) của trường Hardy $\mathscr{K}_0$ là trường Hardy $\mathscr{K}$ *nhỏ nhất* có các tính chất ấy.
 
-#### Định nghĩa 2 {#fvr-v-a0-def-2 .statement}
+#### Định nghĩa 2 {#fvr-v-a0-def-2 .statement tag=08GZ}
 
 *Trường các hàm (H) được gọi là mở rộng (H) của trường Hardy $\mathbf{R}(x)$ các hàm hữu tỉ với hệ số thực. Mọi hàm thuộc mở rộng này được gọi là một hàm (H).*
 
@@ -285,7 +285,7 @@ Trước hết ta xét tập hợp $\mathscr{E}_0$ gồm các hàm có dạng $\
 
 Do đó, nếu $\mathscr{E}$ là *hợp* của các $\mathscr{E}_n$ với $n \geqslant 0$, thì $\mathscr{E}$ là một thang so sánh, vì hai hàm trong $\mathscr{E}$ thuộc cùng một thang $\mathscr{E}_n$; vì cùng lý do ấy, $\mathscr{E}$ thỏa mãn a), và hiển nhiên nó cũng thỏa mãn b) và c). Sau cùng, nếu $f \in \mathscr{E}$ thì tồn tại một $n$ sao cho $f \in \mathscr{E}_n$; nếu $f$ không phải là hằng 1 thì $f(x)$ tiến tới 0 hoặc tới $+\infty$ khi $x$ tiến tới $+\infty$; trong trường hợp thứ nhất $e^f \sim 1$ và trong trường hợp thứ hai, $e^f$ thuộc $\mathscr{E}_{n+1}$ theo định nghĩa, nên cũng thuộc $\mathscr{E}$.
 
-#### Nhận xét {#fvr-v-a0-n5-rem-1 .statement}
+#### Nhận xét {#fvr-v-a0-n5-rem-1 .statement tag=08H0}
 
 Mặc dù thang $\mathscr{E}$ mà ta vừa định nghĩa có ích lợi thực tế, vẫn dễ cho các ví dụ về những hàm (H) *không có phần chính* đối với $\mathscr{E}$. Thật vậy, nếu $f$ là một hàm (H) sao cho $f \sim a g$, trong đó $a$ là một hằng $> 0$ và $g \in \mathscr{E}$, thì $\log f - \log g - \log a$ tiến tới 0 cùng với $1/x$, do đó $\log f$ thừa nhận, đối với $\mathscr{E}$, một khai triển tiệm cận mà *số dư tiến tới 0*, theo tính chất c). Bây giờ, nếu xét chẳng hạn hàm (H) $f(x) = e_2 \left( x + \frac{1}{x} \right)$ thì ta có $\log f(x) = \exp \left( x + \frac{1}{x} \right)$, nên các khai triển tiệm cận của $\log f$ đối với $\mathscr{E}$ có dạng
 
@@ -301,7 +301,7 @@ Nếu $f$ là một hàm (H), thì $f$ đơn điệu và liên tục trên một
 
 Ta sẽ dùng mệnh đề sau:
 
-#### Mệnh đề 4 {#fvr-v-a0-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-v-a0-prop-4 .statement tag=08H1}
 
 Cho $p$ và $q$ là hai hàm (H) dương ngặt trên một khoảng $[x_0, +\infty[$.
 
@@ -328,7 +328,7 @@ q(x) \frac{p'(x-q(x))}{p(x-q(x))} = \frac{q(x)}{x} \left( 1 - \frac{q(x)}{x} \ri
 $$
 và trong trường hợp này ta thấy mệnh đề là đúng với *chỉ riêng* giả thiết $q(x) \ll x$. Sau cùng xét trường hợp $1/x \ll p'(x)/p(x) \ll 1$; khi đó hàm $r = p'/p$ có cấp hữu hạn đối với $x$; vì, theo nhận xét trước, mệnh đề 4 của V, p. 255, áp dụng được cho một hàm như vậy, nên ta có $p'(x-q(x))/p(x-q(x)) \sim p'(x)/p(x)$, và giả thiết $qp' \ll p$ cho phép hoàn tất chứng minh.
 
-#### Nhận xét {#fvr-v-a0-n6-rem-3 .statement}
+#### Nhận xét {#fvr-v-a0-n6-rem-3 .statement tag=08H2}
 
 Các điều kiện đặt lên $q(x)$ không thể được cải thiện, như các ví dụ sau đây cho thấy:
 
@@ -347,7 +347,7 @@ $$
 
 Trước hết chúng ta sẽ nghiên cứu các hàm ngược của các hàm (H) thuộc một loại riêng:
 
-#### Mệnh đề 5 {#fvr-v-a0-prop-5 .statement}
+#### Mệnh đề 5 {#fvr-v-a0-prop-5 .statement tag=08H3}
 
 *Cho g là một hàm* (H) *không tương đương với một hằng $\neq 0$, và sao cho* $g(x) \ll x$, *và cho* $u(x)$ *là hàm nghịch đảo của* $x - g(x)$, *được xác định trên một lân cận của* $+\infty$. *Cho* $(u_n)$ *là dãy hàm được xác định, bằng quy nạp theo* $n$, *bởi các điều kiện* $u_0(x) = x$, $u_n(x) = x + g(u_{n-1}(x))$ *với* $n \geqslant 1$; *khi đó* $u_n \gg 1$ *và*
 $$
@@ -389,13 +389,13 @@ y - y_n \sim (y - y_{n-1})g'(x),
 $$
 do đó ta thu được (11) bằng quy nạp theo $n$.
 
-#### Nhận xét 1 {#fvr-v-a0-n6-rem-1 .statement}
+#### Nhận xét 1 {#fvr-v-a0-n6-rem-1 .statement tag=08H4}
 
 Nếu $g$ có cấp $< 1$ đối với $x$, thì hàm $u(x) - u_n(x)$ tiến tới 0 khi $x$ tăng một khi $n$ đủ lớn. Thật vậy, trong trường hợp đối, ta sẽ có $g{g''}^n \gg 1$ với mọi $n$, nên $g$ sẽ có cấp vô hạn đối với $1/g'$; nói cách khác, ta sẽ có $\log|g| \gg \log|g'|$, do đó, khi lấy đạo hàm, $g'/g \gg g''/g'$. Nhưng nếu $g$ có cấp $\mu < 1$ đối với $x$ thì ta có $g'/g \sim g''/g'$ khi $\mu = -\infty, \frac{g'}{g} \sim \frac{\mu}{\mu - 1} \frac{g''}{g'}$ khi $\mu \neq 0$, và cuối cùng $g'/g \ll g''/g'$ khi $\mu = 0$ (V, p. 251, n 3).
 
 Ngược lại, nếu $g$ có cấp 1 đối với $x$ thì có thể có $g{g''}^n \gg 1$ với mọi số nguyên $n > 0$, như ví dụ $g(x) = x/\log x$ cho thấy.
 
-#### Nhận xét 2 {#fvr-v-a0-n6-rem-2 .statement}
+#### Nhận xét 2 {#fvr-v-a0-n6-rem-2 .statement tag=08H5}
 
 Khi $g(x)$ là một hàm (H) tương đương với một hằng số $k \neq 0$ thì ta có $g(x) = k + g_1(x)$, với $g_1 \ll 1$; hàm $u_1(x) = u(x) - k$ là hàm nghịch đảo của hàm $x - g_1(x + k)$, và ta được đưa trở lại trường hợp đã xét trong mệnh đề 5 của V, p. 256.
 
@@ -407,7 +407,7 @@ $$
 $$
 trong đó $\varphi$ là một hàm (H), $\psi$ là một hàm (H) sao cho $\psi \gg 1$ và sao cho hàm nghịch đảo $\theta$ của $\psi$ cũng là một hàm (H), còn $g$ là một hàm (H) sao cho $g \ll \psi$. Bây giờ gọi $v(x)$ là hàm nghịch đảo của $x - g(\theta(x))$; ta có $u = \theta \circ v \circ \varphi$, và $g(\theta(x)) \ll x$; nếu ta biết một khai triển tiệm cận của $v$ nhờ mệnh đề 5 của V, p. 256, thì khi đó có thể suy ra một khai triển tiệm cận của $u$ như trong V, p. 223 đến 227.
 
-#### Ví dụ 1 {#fvr-v-a0-n6-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-a0-n6-exa-1 .statement tag=08H6}
 
 Hãy tìm một khai triển tiệm cận của hàm nghịch đảo $v(x)$ của $x^5 + x$ (khi $x$ tiến tới $+\infty$); đặt $x^5 = t$ thì ta được dẫn đến việc tìm một khai triển của hàm nghịch đảo $u(t)$ của $t + t^{1/5}$ (khi $t$ tiến tới $+\infty$), nghĩa là áp dụng mệnh đề 5 của V, p. 256, vào trường hợp $g(t) = -t^{1/5}$. Chẳng hạn, hãy tính $u_2(t)$; ta có
 $$
@@ -427,7 +427,7 @@ v(x) = u(x)^{1/5} = x^{1/5} - \frac{1}{5} x^{-3/5} - \frac{1}{25} x^{-7/5} + o_3
 $$
 cần tìm.
 
-#### Ví dụ 2 {#fvr-v-a0-n6-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-a0-n6-exa-2 .statement tag=08H7}
 
 Hãy tìm một khai triển tiệm cận của hàm nghịch đảo của hàm $x / \log x$; từ đẳng thức $x = y / \log y$, trong đó $y = v(x)$, suy ra $\log x = \log y - \log \log y$; đặt $z = \log y, t = \log x$, ta có $t = z - \log z$, và ta được dẫn đến khai triển hàm nghịch đảo $u(t)$ của $t - \log t$; chẳng hạn, ta có
 $$
@@ -446,7 +446,7 @@ $$
 v(x) = x \log x + x \log \log x + x \frac{\log \log x}{\log x} + o\left( x \frac{\log \log x}{\log x} \right).
 $$
 
-#### Nhận xét {#fvr-v-a0-n6-rem-4 .statement}
+#### Nhận xét {#fvr-v-a0-n6-rem-4 .statement tag=08H8}
 
 Chú ý rằng hai hàm (H) tương đương có thể có các hàm nghịch đảo không tương đương, như ví dụ của hai hàm $\log x$ và $1 + \log x$ cho thấy.
 

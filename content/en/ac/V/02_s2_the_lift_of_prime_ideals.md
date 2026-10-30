@@ -29,14 +29,14 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: eabaac1e7649227ba0fde1bbafef08c734a78b16b9f475d96255435ff0bfef60
+content_sha256: 89a50149d078678d4ea98a688a9a6bd071b42b62e0d62c0a7d340a9d004553ca
 ---
 
 ## 2. THE LIFT OF PRIME IDEALS
 
 ### 1. THE FIRST EXISTENCE THEOREM
 
-#### Definition 1 {#ac-v-s2-def-1 .statement}
+#### Definition 1 {#ac-v-s2-def-1 .statement tag=04PJ}
 
 Let $\mathbf{A}, \mathbf{A}'$ be two rings and $h : \mathbf{A} \to \mathbf{A}'$ a ring homomorphism. An ideal $a' \in A'$ is said to lie above an ideal $a$ of $\mathbf{A}$ if $a = \overline{h}^1(a')$.
 
@@ -46,7 +46,7 @@ Note that for there to exist an ideal of $A'$ lying above the ideal $(0)$ of $\m
 
 Let $a$ be an ideal of $\mathbf{A}$; by taking quotients the homomorphism $h$ gives a homomorphism $h_1 : \mathbf{A}/a \to \mathbf{A}'/a'$; to say that $a'$ is an ideal of $A'$ lying above $a$ is equivalent to saying that $aA' \subset a'$ and that $a'/aA'$ is an ideal of $\mathbf{A}'/aA'$ lying above $(0)$.
 
-#### Lemma 1 {#ac-v-s2-lem-1 .statement}
+#### Lemma 1 {#ac-v-s2-lem-1 .statement tag=04PK}
 
 Let $h : \mathbf{A} \to \mathbf{A}'$ be a ring homomorphism, $S$ a multiplicative subset of $\mathbf{A}$, $i = i_A^S : \mathbf{A} \to S^{-1}\mathbf{A}$, $i' = i_{A'}^{h(S)} : \mathbf{A}' \to S^{-1}\mathbf{A}' = (h(S))^{-1}\mathbf{A}'$ the canonical homomorphisms and $h_1 = S^{-1}h : S^{-1}\mathbf{A} \to S^{-1}\mathbf{A}'$, so that there is a commutative diagram
 
@@ -71,13 +71,13 @@ $\iff a/z \in S^{-1}\mathfrak{p}$.
 
 Hence $h_1^{-1}(S^{-1}a') = S^{-1}\mathfrak{p}$, which completes the proof that the image of $\mathscr{F}$ under the mapping $a' \mapsto S^{-1}a'$ is equal to $\mathscr{F}_1$; the other assertions follow from Chapter 11, § 2, no. 5, Proposition 11.
 
-#### Proposition 1 {#ac-v-s2-prop-1 .statement}
+#### Proposition 1 {#ac-v-s2-prop-1 .statement tag=04PL}
 
 *Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$, $\mathfrak{p}'$ a prime ideal of $A'$ and $\mathfrak{p} = h^{-1}(\mathfrak{p}')$. For $\mathfrak{p}$ to be maximal, it is necessary and sufficient that $\mathfrak{p}'$ be so.*
 
 Let us write $B = A/\mathfrak{p}$, $B' = A'/\mathfrak{p}'$ and let $h_1 : B \to B'$ be the homomorphism derived from $h$ by taking quotients; $B$ and $B'$ are integral domains and $B'$ is integral over $B$ ($§ 1$, no. 1, Proposition 2). To say that $\mathfrak{p}$ (resp. $\mathfrak{p}'$) is maximal means that $B$ (resp. $B'$) is a field. The proposition then follows from the following lemma:
 
-#### Lemma 2 {#ac-v-s2-lem-2 .statement}
+#### Lemma 2 {#ac-v-s2-lem-2 .statement tag=04PM}
 
 *Let $B$ be an integral domain and $A$ a subring of $B$ such that $B$ is integral over $A$. For $B$ to be a field, it is necessary and sufficient that $A$ be a field.*
 
@@ -95,7 +95,7 @@ $$
 
 hence $A$ is certainly a field.
 
-#### Corollary 1 {#ac-v-s2-lem-2-cor-1 .statement}
+#### Corollary 1 {#ac-v-s2-lem-2-cor-1 .statement tag=04PN}
 
 *Let $h : A \to A'$ a ring homomorphism such that $A'$ is integral over $A$, $\mathfrak{p}$ a prime ideal of $A$ and $\mathfrak{p}'$ and $a'$ two ideals of $A'$ lying above $\mathfrak{p}$ such that $\mathfrak{p}' \subset a'$. If $\mathfrak{p}'$ is prime, then $a' = \mathfrak{p}'$.*
 
@@ -103,13 +103,13 @@ Let us write $S = A - \mathfrak{p}$; then $S^{-1}A'$ is integral over $S^{-1}A$ 
 
 16), $S^{-1}p$ is a maximal ideal of $S^{-1}A$ (Chapter 11, § 2, no. 5, Proposition 11), $S^{-1}a'$ and $S^{-1}p'$ are ideals of $S^{-1}A'$ lying above $S^{-1}p$ (Lemma 1) and $S^{-1}a' \supseteq S^{-1}p'$. As $S^{-1}p'$ is prime, it is maximal by Proposition 1 and hence $S^{-1}p' = S^{-1}a'$; therefore $a'$ is contained in the saturation of $p'$ with respect to $h(S)$, which is equal to $p'$ (Chapter II, § 2, no. 5, Proposition 11).
 
-#### Corollary 2 {#ac-v-s2-lem-2-cor-2 .statement}
+#### Corollary 2 {#ac-v-s2-lem-2-cor-2 .statement tag=04PO}
 
 Let $A'$ be an integral domain, $A$ a subring of $A'$ such that $A'$ is integral over $A$ and $f$ a homomorphism from $A'$ to a ring $B$. If the restriction off to $A$ is injective $f$ is injective.
 
 If $a'$ is the kernel off, the hypothesis means that $a' \cap A = (0)$; as $A'$ is an integral domain, Corollary 1 may be applied taking $p$ and $p'$ to be the ideal (0) of $A$ and the ideal (0) of $A'$ respectively, whence $a' = (0)$.
 
-#### Corollary 3 {#ac-v-s2-lem-2-cor-3 .statement}
+#### Corollary 3 {#ac-v-s2-lem-2-cor-3 .statement tag=04PP}
 
 Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$ and $m$ a maximal ideal of $A$ and suppose that there are in $A'$ only a finite number of distinct maximal ideals $m'_j$ ($1 \leq j \leq n$) lying above $m$. Let $q'_j$ be the saturation of $mA'$ with respect to $m'_j$ (Chapter II, § 2, no. 4). Then:
 (i) In the ring $A'/q'_j$ the divisors of zero are the elements of $m'_j/q'_j$ and they are nilpotent ($1 \leq j \leq n$).
@@ -118,11 +118,11 @@ Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$ an
 
 For a prime ideal of $A'$ to contain $mA'$, it is necessary and sufficient that its inverse image under $h$ contain $m$ and hence that it lie above $m$, since $m$ is maximal in $A$; the $m'_j$ are therefore the only prime ideals of $A'$ containing $mA'$ (Proposition 1) and therefore $c' = \bigcap_j m'_j$ is the radical of $mA'$ (Chapter II, § 2, no. 6, Corollary 1 to Proposition 13). By definition of $q'_j$, the class mod. $q'_j$ of an element of $A' - m'_j$ is not a divisor of 0 in $A'/q'_j$; on the other hand, as the $m'_j$ are distinct maximal ideals, for every index $j$ there exists an element $a'_j$ belonging to $\bigcap_j m'_j$ and not to $m'_j$ (Chapter II, § 1, no. 1, Proposition 4): then, for all $x \notin m'_j, a'_j x \in r'$, hence the class mod. $q'_j$ of $a'_j x$ is nilpotent and, as that of $a'_j$ is not a divisor of 0, we conclude that the class of $x$ is nilpotent; in other words $m'_j$ is the radical of $q'_j$, which proves (i). It follows that the $q'_j$ are relatively prime in pairs (Chapter II, § 1, no. 1, Proposition 3); (iii) will therefore be a consequence of (ii), taking account of Chapter II, § 1, no. 2, Proposition 5. To establish (ii), we note that in the ring $A'/mA'$ the $m'_j/mA'$ are the only maximal ideals and $q'_j/mA'$ is the saturation of (0) with respect to $m'_j/mA'$ (Chapter 11, § 2, no. 4); we may therefore restrict our attention to the case $mA' = (0)$; the assertion of (ii) then follows from Chapter II, § 3, no. 3, Corollary 2 to Theorem 1.
 
-#### Remark (1) {#ac-v-s2-n1-rem-1 .statement}
+#### Remark (1) {#ac-v-s2-n1-rem-1 .statement tag=04PQ}
 
 If $A'$ is Noetherian, it follows from (i) and (ii) that $(q'_j)_{1 \leq j \leq n}$ is the unique primary decomposition of $mA'$ (Chapter IV, § 2, no. 3).
 
-#### Theorem 1 {#ac-v-s2-thm-1 .statement}
+#### Theorem 1 {#ac-v-s2-thm-1 .statement tag=04PR}
 
 Let $h : A \to A'$ be an injective ring homomorphism such that $A$ is integral over $A$ and $p$ a prime ideal of $A$. There exists a prime ideal $p'$ of $A'$ lying above $p$.
 
@@ -130,35 +130,35 @@ Suppose first that $A$ is a local ring and $p$ the maximal ideal of $A$; then, f
 
 If $h : A \to A'$ is not injective, Theorem 1 is no longer necessarily true, as the example of the homomorphism $Z \to \mathbf{Z}/n\mathbf{Z} \ (n > 1)$ shows. However Theorem 1 can be applied to the canonical injection $h(A) \to A'$; in other words, the statement of Theorem 1 is true for prime ideals $p$ containing $\mathrm{Ker}(h)$.
 
-#### Corollary 1 {#ac-v-s2-thm-1-cor-1 .statement}
+#### Corollary 1 {#ac-v-s2-thm-1-cor-1 .statement tag=04PS}
 
 With the hypotheses and notation of Theorem 1, $\bar{h}^{-1}(pA') = p$.
 
 $pA' \subset p'$ and $\bar{h}(p') = p$.
 
-#### Corollary 2 {#ac-v-s2-thm-1-cor-2 .statement}
+#### Corollary 2 {#ac-v-s2-thm-1-cor-2 .statement tag=04PT}
 
 Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$, $a$ and $p$ two ideals of $A$ such that $a \subset p$ and $a'$ an ideal of $A'$ lying above $a$. Suppose that $p$ is prime. Then there exists a prime ideal $p'$ of $A'$ lying above $p$ and containing $a'$.
 
 If $h_1 : A/a \to A'/a'$ is the homomorphism derived from $h$ by taking quotients, $h_1$ is injective by hypothesis and $A'/a'$ is integral over $A/a$ ($§ 1$, no. 1, Proposition 2); then there exists a prime ideal $p'/a'$ of $A'/a'$ (p' prime in $A$) lying above $p/a$ (Theorem 1) and $p'$ is the required ideal.
 
-#### Corollary 3 {#ac-v-s2-thm-1-cor-3 .statement}
+#### Corollary 3 {#ac-v-s2-thm-1-cor-3 .statement tag=04PU}
 
 Let $A$ be a ring and $A'$ a ring containing $A$ and integral over $A$. If $\mathscr{R}'$ is the Jacobson radical of $A'$, $\mathscr{R}' \cap A$ is the Jacobson radical of $A$.
 
 Let $32$ be the Jacobson radical of $A$. For every maximal ideal $m'$ of $A'$, $m' \cap A$ is a maximal ideal of $A$ (Proposition 1), hence $\mathscr{R} \subset m' \cap A$ and therefore $\mathscr{R} \subset \mathscr{R}' \cap A$ (Algebra, Chapter VIII, § 5, no. 3, Definition 3). Conversely, let $x \in 32' \cap A$; for every maximal ideal $m$ of $A$, there exists a prime ideal of $A'$ lying above $m$ (Theorem 1) and this ideal $m'$ is necessarily maximal (Proposition 1), hence $x \in m' \cap A = m$ and therefore $x \in 32$.
 
-#### Corollary 4 {#ac-v-s2-thm-1-cor-4 .statement}
+#### Corollary 4 {#ac-v-s2-thm-1-cor-4 .statement tag=04PV}
 
 Let $A$ be a ring, $A'$ a ring containing $A$ and integral over $A$ and $f$ a homomorphism from $A$ to an algebraically closed field $L$. Then $f$ can be extended to a homomorphism from $A'$ to $L$.
 
 Let $\mathfrak{p}$ be the kernel of $f$, which is a prime ideal since $f(A) \subset L$ is an integral domain; let $\mathfrak{p}'$ be a prime ideal of $A'$ lying above $\mathfrak{p}$ (Theorem 1). Then $A/\mathfrak{p}$ is canonically identified with a subring of $A'/\mathfrak{p}'$ and $A'/\mathfrak{p}'$ is integral over $A/\mathfrak{p}$ ($§ 1$, no. 1, Proposition 2). The homomorphism $f$ defines, by taking the quotient, an isomorphism of $A/\mathfrak{p}$ onto the subring $f(A)$ of $L$, which can be extended to an isomorphism $g$ of the field of fractions $K$ of $A/\mathfrak{p}$ onto a subfield of $L$. As the field of fractions $K'$ of $A'/\mathfrak{p}'$ is algebraic over $K$, $g$ can be extended to an isomorphism $g'$ of $K'$ onto a subfield of $L$ (Algebra, Chapter V, $§ 4$, no. 2, Corollary to Theorem 1); if $\pi': A' \to A'/\mathfrak{p}'$ is the canonical homomorphism, $g' \circ \pi'$ is a homomorphism from $A'$ to $L$ extending $f$.
 
-#### Remark (2) {#ac-v-s2-n1-rem-2 .statement}
+#### Remark (2) {#ac-v-s2-n1-rem-2 .statement tag=04PW}
 
 Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$; then the associated continuous mapping $^a h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ is closed. For every ideal $a'$ of $A'$, $A'/a'$ is integral over $A'$, hence also over $A$ ($§ 1$, no. 1, Proposition 6) and $\mathrm{Spec}(A'/a')$ is identified with a closed subspace $V(a')$ of $\mathrm{Spec}(A')$; to show that $^a h$ is closed, we see then (replacing $A'$ by $A'/a'$) that it is sufficient to prove that the image of $\mathrm{Spec}(A)'$ under $^a h$ is a closed subset of $\mathrm{Spec}(A)$; now it follows from Theorem 1 that this image is just the set of prime ideals of $A$ containing the ideal $\mathrm{Ker}(h)$ and this set is closed by definition of the topology on $\mathrm{Spec}(A)$.
 
-#### Proposition 2 {#ac-v-s2-prop-2 .statement}
+#### Proposition 2 {#ac-v-s2-prop-2 .statement tag=04PX}
 
 Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$, $\mathfrak{p}$ a prime ideal of $A$, $S = A - \mathfrak{p}$, $(p'_i)_{i \in I}$ the family of all the prime ideals $\mathfrak{p}$ of $A'$ lying above $\mathfrak{p}$ and $S' = \bigcap_{i \in I} (A' - p_i)$; then $S^{-1}A' = {S'}^{-1}A'$.
 
@@ -170,7 +170,7 @@ $$
 
 it suffices to prove, by virtue of Chapter II, $§ 2$, no. 3, Proposition 8, that, if a prime ideal $q'$ of $A'$ does not meet $h(S)$, it does not meet $S'$ either. Now, suppose that $q' \cap h(S) = \varnothing$ and let $q = h^{-1}(q')$; then $q \cap S = \varnothing$, in other words $q \subset \mathfrak{p}$. As $q'$ lies above $q$ by definition, it follows from Corollary 2 to Proposition 1 that there is an index $c$ such that $q' \subset p'_c$ and hence $q' \cap S' = \varnothing$, which completes the proof.
 
-#### Proposition 3 {#ac-v-s2-prop-3 .statement}
+#### Proposition 3 {#ac-v-s2-prop-3 .statement tag=04PY}
 
 Let $h : A \to A'$ be a ring homomorphism such that $A'$ is a finitely generated $A$-module; then, for every prime ideal $\mathfrak{p}$ of $A$, the set of prime ideals of $A'$ lying above $\mathfrak{p}$ is finite.
 
@@ -178,7 +178,7 @@ Let $S = A - p$; by Lemma 1 we may replace $A$ by $S^{-1}A$, $A'$ by $S^{-1}A'$ 
 
 ### 2. DECOMPOSITION GROUP AND INERTIA GROUP
 
-#### Definition 2 {#ac-v-s2-def-2 .statement}
+#### Definition 2 {#ac-v-s2-def-2 .statement tag=04PZ}
 
 Let $A'$ be a ring and $G$ a group operating on $A'$ ($§ 1$, no. 9). Given a prime ideal $p' \subset A'$ the subgroup of elements $\sigma \in G$ such that $\sigma.p' = p'$ is called the decomposition group of $p'$ (with respect to $G$) and is denoted by $G^z(p')$. The ring of elements of $A'$ invariant under $G^z(p')$ is called the decomposition ring of $p'$ (with respect to $G$) and is denoted by $A^z(p')$ (*).
 
@@ -186,7 +186,7 @@ We often write $G^z$ and $A^z$ instead of $G^z(p')$ and $A^z(p')$ respectively, 
 
 For all $\sigma \in G^z(p')$ we also denote by $z \mapsto \sigma.z$ the endomorphism of the ring $A'/p'$ derived from the endomorphism $x \mapsto \sigma.x$ of $A'$ by taking quotients; clearly the group $G^z(p')$ operates in this way on the ring $A'/p'$.
 
-#### Definition 3 {#ac-v-s2-def-3 .statement}
+#### Definition 3 {#ac-v-s2-def-3 .statement tag=04Q0}
 
 With the notation of Definition 2, the subgroup of $G^z(p')$ consisting of those $\sigma$ such that the endomorphism $z \mapsto \sigma.z$ of $A'/p'$ is the identity is called the inertia group of $p'$ (with respect to $G$) and denoted by $G^T(p')$ (or $G^T$). The ring of elements of $A'$ invariant under $G^T(p')$ is called the inertia ring of $p'$ (with respect to $G$) and is denoted by $A^T(p')$ (or $A^T$) (†).
 
@@ -209,7 +209,7 @@ If, for all $\sigma \in G^z(p')$, $\bar{\sigma}$ is the automorphism $z \mapsto 
 
 A'/p' leaving invariant the elements of $A^{\mathbf{Z}}/(p' \cap A^{\mathbf{Z}})$ (canonically identified with a subring of $A'/p'$) and by definition $\mathscr{G}^{\Gamma}(p')$ is the kernel of this canonical homomorphism; $\mathscr{G}^{\Gamma}$ is therefore a normal subgroup of $\mathscr{G}^{\mathbf{Z}}$. If $k'$ is the field of fractions of $A'/p'$, every automorphism of $A'/p'$ can be extended uniquely to an automorphism of $k'$, so that $\sigma \mapsto \bar{\sigma}$ can be considered as a homomorphism from $\mathscr{G}^{\mathbf{Z}}(p')$ to the group of automorphisms of $k'$. Note finally that, since $\mathscr{G}^{\Gamma}$ is normal in $\mathscr{G}^{\mathbf{Z}}$, $A^{\Gamma}$ is stable under $\mathscr{G}^{\mathbf{Z}}$.
 
-#### Lemma 3 {#ac-v-s2-lem-3 .statement}
+#### Lemma 3 {#ac-v-s2-lem-3 .statement tag=04Q1}
 
 *Let $A'$ be a ring, $\mathscr{G}$ a group operating on $A'$, $A$ the ring of invariants of $\mathscr{G}$, $p'$ a prime ideal of $A'$ and $S$ a multiplicative subset of $A$ not meeting $p'$. Then $\mathscr{G}^{\mathbf{Z}}(S^{-1}p') = \mathscr{G}^{\mathbf{Z}}(p')$, $\mathscr{G}^{\Gamma}(S^{-1}p') = \mathscr{G}^{\Gamma}(p')$ and, if $\mathscr{G}$ is locally finite, $S^{-1}A^{\mathbf{Z}}(p') = A^{\mathbf{Z}}(S^{-1}p')$ and $S^{-1}A^{\Gamma}(p') = A^{\Gamma}(S^{-1}p')$.*
 
@@ -221,7 +221,7 @@ $$
 
 and therefore $\sigma \in \mathscr{G}^{\Gamma}(S^{-1}p')$. Conversely, suppose that $\sigma \in \mathscr{G}^{\Gamma}(S^{-1}p')$; then, for all $x \in A'$, $\sigma.(x/1) - (x/1) \in S^{-1}p'$ and therefore there exists $s \in S$ such that $s(\sigma.x - x) \in p'$, whence as above $\sigma.x - x \in p'$, which proves that $\sigma \in \mathscr{G}^{\Gamma}(p')$. The last two assertions follow from § 1, no. 9, Proposition 23.
 
-#### Theorem 2 {#ac-v-s2-thm-2 .statement}
+#### Theorem 2 {#ac-v-s2-thm-2 .statement tag=04Q2}
 
 *Let $A'$ be a ring, $\mathscr{G}$ a finite group operating on $A'$ and $A$ the ring of invariants of $\mathscr{G}$, so that $A'$ is integral over $A$ (§ 1, no. 9, Proposition 22).*
 
@@ -243,7 +243,7 @@ $$
 
 but $u(\pi'(x)) \neq 0$ and, for $\sigma \in \mathscr{G} - \mathscr{G}^z$, $\sigma.x \in p'$ and hence $\pi'(\sigma.x) = 0$; we conclude that necessarily $\tau \in \mathscr{G}^z$. But as $u$ and $\tilde{\tau}$ have the same value for the primitive element $\pi'(y) = \pi'(x)$ of $k'_s$, they coincide on $k'_s$ and, as $k'$ is a radicial extension of $k'_s$, they coincide on $k'$.
 
-#### Corollary {#ac-v-s2-n2-cor-1 .statement}
+#### Corollary {#ac-v-s2-n2-cor-1 .statement tag=04Q3}
 
 *With the hypotheses and notation Of Theorem 2, let $f_1, f_2$ be two homomorphisms of $A$ to a field $L$ with the same restriction to $A$. Then there exists $\sigma \in \mathscr{G}$ such that*
 
@@ -261,7 +261,7 @@ Let $p'_i$ be the kernel of $f_i$ ($i = 1, 2$) which is a prime ideal of $A'$; b
 
 (2) Clearly $k$ is a *Galois* extension of $k$ if the field $k$ is *perfect*. It is then finite over $k$.
 
-#### Proposition 4 {#ac-v-s2-prop-4 .statement}
+#### Proposition 4 {#ac-v-s2-prop-4 .statement tag=04Q4}
 
 *Let $A'$ be a ring, $\mathscr{G}$ a finite group operating on $A'$, $\mathscr{H}$ a subgroup of $\mathscr{G}$, $A$ and $B$ the rings of invariants of $\mathscr{G}$ and $\mathscr{H}$ respectively and $p'$ a prime ideal of $A$; let us write $p = A \cap p'$ and $p(B) = B \cap p'$.
 
@@ -311,29 +311,29 @@ h a r k s
 
 (4) If $p$ is not a maximal ideal of $A$ relation (3) does not necessarily hold under the hypotheses of (ii) and therefore $A/p$ and $B/p(B)$ are not necessarily isomorphic even if we take $\mathscr{H} = \mathscr{G}^\mathbf{Z}$, whence $B = A''$ (Exercise 10).
 
-#### Corollary 1 {#ac-v-s2-prop-4-cor-1 .statement}
+#### Corollary 1 {#ac-v-s2-prop-4-cor-1 .statement tag=04Q5}
 
 Under the hypotheses Of Theorem 2 the rings $A/p$ and $A^\mathbf{Z}/(p' \cap A^\mathbf{Z})$ have the same field Of fractions and the maximal ideal of the local ring $(A^\mathbf{Z})'_{p' \cap A^\mathbf{Z}}$ is generated by $p$.
 
-#### Corollary 2 {#ac-v-s2-prop-4-cor-2 .statement}
+#### Corollary 2 {#ac-v-s2-prop-4-cor-2 .statement tag=04Q6}
 
 Let $A'$ be an integral domain, $\mathscr{G}$ a finite group operating on $A'$, $A'$ the ring of invariants of $\mathscr{G}$ and $p'$ a prime ideal of $A'$; let $K, K^\mathbf{Z}$ and $K$ be the fields of fractions of $A, A^\mathbf{Z}$ and $A'$ respectively. Then $K'$ is a Galois extension Of $K$ and the subfields $L$ of $K$ containing $K$ and such that $p'$ is the only prime ideal of $A'$ lying above the ideal $p' \cap L$ of $A' \cap L$ are just those which contain $K^\mathbf{Z}$.
 
 $\mathscr{G}$ operates on $K'$ and $K$ is the field of invariants of $\mathscr{G}$ in $K'$ (§ 1, no. 9, Proposition 23 applied to $S = A - \{0\}$) and similarly $K^\mathbf{Z}$ is the field of invariants of $\mathscr{G}^\mathbf{Z}$; by definition $K'$ is therefore a Galois extension of $K$. If is the subgroup of $\mathscr{G}$ consisting of those $\sigma \in \mathscr{G}$ leaving invariant the elements of L, to say that L contains $K^{\mathbf{Z}}$ means that $\mathscr{H}$ is contained in $\mathscr{G}^{\mathbf{Z}}$ (Algebra, Chapter V, § 10, no. 5, Theorem 3) and, as L is the field of invariants of $\mathscr{H}$ in $K'$, $A' \cap L$ is the ring of invariants of $\mathscr{H}$ in $A'$; the second assertion then follows from Proposition 4 (i).
 
-#### Definition 4 {#ac-v-s2-def-4 .statement}
+#### Definition 4 {#ac-v-s2-def-4 .statement tag=04Q7}
 
 *With the hypotheses and notation of Corollary 2 to Proposition 4, a prime ideal $\mathfrak{p}$ of $A$ is said to decompose completely in $K'$ if the number of prime ideals of $A'$ lying above $\mathfrak{p}$ is equal to $[K':K]$.*
 
 It amounts to the same to say that, for a prime ideal $\mathfrak{p}'$ of $A'$ lying over $\mathfrak{p}$, the subgroup $\mathscr{G}^{\mathbf{Z}}(\mathfrak{p}')$ is equal to the subgroup $\mathscr{M}$ leaving invariant all the elements of $A'$, or that $A^{\mathbf{Z}}(\mathfrak{p}') = A'$, or that $\mathscr{G}/\mathscr{M}$ operates faithfully on the set of prime ideals of $A'$ lying above $\mathfrak{p}$.
 
-#### Corollary 3 {#ac-v-s2-def-4-cor-3 .statement}
+#### Corollary 3 {#ac-v-s2-def-4-cor-3 .statement tag=04Q8}
 
 *Let $A'$ be an integral domain, $\mathscr{G}$ a finite commutative group operating on $A'$, $A$ the ring of invariants of $\mathscr{G}$, $\mathfrak{p}$ a prime ideal of $A$ and $K$ and $K'$ the fields of fractions of $A$ and $A'$ respectively. Then the prime ideals of $A'$ lying above $\mathfrak{p}$ all have the same decomposition ring $A^{\mathbf{Z}}$ and the field of fractions $K^{\mathbf{Z}}$ of $A^{\mathbf{Z}}$ is the greatest intermediate field between $K$ and $K'$ in which $\mathfrak{p}$ decomposes completely.*
 
 If $\mathfrak{p}'$ is a prime ideal of $A'$ lying above $\mathfrak{p}$, then $\mathscr{G}^{\mathbf{Z}}(\sigma.\mathfrak{p}') = \mathscr{G}^{\mathbf{Z}}(\mathfrak{p}')$ since $\mathscr{G}$ is commutative (formula (2)), hence (Theorem 2 (i)) all the prime ideals of $A'$ lying above $\mathfrak{p}$ have the same decomposition group $\mathscr{G}^{\mathbf{Z}}$ and therefore the same decomposition ring $A^{\mathbf{Z}}$; their number is $(\mathscr{G}:\mathscr{G}^{\mathbf{Z}})$. Let L be an intermediate field between K and $K'$ and let $\mathscr{H}$ be the subgroup of $\mathscr{G}$ leaving invariant the elements of L; the decomposition group of $\mathfrak{p}'$ with respect to $\mathscr{H}$ is $\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H}$; as $A' \cap L$ is the ring of invariants of $\mathscr{H}$ in $A'$, the number of prime ideals of $A'$ lying above $\mathfrak{p}' \cap L$ is $(\mathscr{H}:(\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H})) = (\mathscr{H}\mathscr{G}^{\mathbf{Z}}:\mathscr{G}^{\mathbf{Z}})$ (since $\mathscr{G}$ is commutative). The number of prime ideals of $A' \cap L$ lying above $\mathfrak{p}$ is therefore $(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}})$. For $\mathfrak{p}$ to decompose completely in L, it is necessary and sufficient therefore that $(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}}) = [L:K] = (\mathscr{G}:\mathscr{H})$ and, as $\mathscr{H} \subset \mathscr{H}\mathscr{G}^{\mathbf{Z}}$, this is equivalent to $\mathscr{H}\mathscr{G}^{\mathbf{Z}} = \mathscr{H}$ or also to $\mathscr{G}^{\mathbf{Z}} \subset \mathscr{H}$ and finally to $L \subset K^{\mathbf{Z}}$.
 
-#### Proposition 5 {#ac-v-s2-prop-5 .statement}
+#### Proposition 5 {#ac-v-s2-prop-5 .statement tag=04Q9}
 
 *With the hypotheses and notation of Theorem 2, the field of fractions $k^T$ of $A^T/(\mathfrak{p}' \cap A^T)$ is equal to the greatest separable extension $k'_s$ of $k$ contained in $k'$.*
 
@@ -349,7 +349,7 @@ $$
 $$
 contains $u^{p'}$ and consequently $k(u^{p'})$. But as $u$ is separable over $k$, $k(u) = k(u^{p'})$ (Algebra, Chapter V, § 8, no. 3, Proposition 4), whence $k(u) \subset k(u - v)$. As $u$ is of degree $q$ over k and $u - v$ of degree $\leq q$, it follows that $k(u) = k(u - v)$, whence $v \in k(u)$. This shows that $v$ is separable over k, hence $k_1 = k$ and $k^T$ is separable over $k$.
 
-#### Corollary {#ac-v-s2-n2-cor-2 .statement}
+#### Corollary {#ac-v-s2-n2-cor-2 .statement tag=04QA}
 
 *If the order of the inertia group $\mathscr{G}^T(p')$ is relatively prime to the characteristic exponent p of k, the field $k'$ is a Galois extension of k.*
 
@@ -357,17 +357,17 @@ With the notation of the proof of Proposition 5, the polynomial $\pi'(P)$ has co
 
 ### 3. DECOMPOSITION AND INERTIA FOR INTEGRALLY CLOSED DOMAINS
 
-#### Lemma 4 {#ac-v-s2-lem-4 .statement}
+#### Lemma 4 {#ac-v-s2-lem-4 .statement tag=04QB}
 
 *Let A be an integrally closed domain, K its field of fractions, p the characteristic exponent of K, K' a radicial extension of K and A' a subring of K' containing A and integral over A. For every prime ideal p of A, there exists a unique prim ideal* p' of $A'$ lying above $p$ and $p'$ is the set of $x \in A'$ such that there exists an integer $m \geq 0$ for which $x^{p^m} \in p$.
 
 The existence of $p'$ follows from no. 1, Theorem 1. If $x \in p'$, there exists $m \geq 0$ such that $x^{p^m} \in K$, whence $x^{p^m} \in A$ since $A$ is integrally closed, hence $x^{p^m} \in p' \cap A = p$. Conversely, if $x \in A'$ is such that $x^{p^m} \in p \subset p'$, then $x \in p$ since $p'$ is prime.
 
-#### Remark (1) {#ac-v-s2-n3-rem-1 .statement}
+#### Remark (1) {#ac-v-s2-n3-rem-1 .statement tag=04QC}
 
 It follows from § 1, no. 3, Corollary to Proposition 11 that the integral closure of $A$ in $K'$ is the set of $x \in K'$ such that there exists $m \geq 0$ for which $x^{p^m} \in A$ (Algebra, Chapter V, § 8, no. 1, Proposition 1).
 
-#### Proposition 6 {#ac-v-s2-prop-6 .statement}
+#### Proposition 6 {#ac-v-s2-prop-6 .statement tag=04QD}
 
 Let $A$ be an integrally closed domain, $K$ its field of fractions, $K'$ a quasi-Galois extension of $K$ and $A'$ the integral closure of $A$ in $K'$. Then:
 
@@ -393,13 +393,13 @@ Moreover, the set of restrictions to $A' \cap K$, of the elements of $\mathscr{G
 
 With the same hypotheses, the ring $A^\mathbf{Z}(p')$ (resp. $A^\mathbf{T}(p')$) is the *union* of the directed family of the $A^\mathbf{Z}(p' \cap K_\alpha)$ (resp. $A^\mathbf{T}(p' \cap K_\alpha)$); in fact, every $x \in A^\mathbf{Z}(p')$ (resp. every $x \in A^\mathbf{T}(p')$) belongs to one of the $K$, and by the above there exists a $\beta$ such that $K_\alpha \subset K_\beta$ and the restrictions to $A' \cap K$, of the elements of $\mathscr{G}^\mathbf{Z}(p')$ (resp. $\mathscr{G}^\mathbf{T}(p')$) are the same as the restrictions to $A' \cap K$, of the elements of $\mathscr{G}^\mathbf{Z}(p' \cap K_\beta)$ (resp. $\mathscr{G}^\mathbf{T}(p' \cap K_\beta)$), the groups $\mathscr{G}^\mathbf{Z}(p' \cap K_\alpha)$ and $\mathscr{G}^\mathbf{T}(p' \cap K_\beta)$ being finite; hence $x$ belongs to $A^\mathbf{Z}(p' \cap K_\beta)$ (resp. $A^\mathbf{T}(p' \cap K_\beta)$).
 
-#### Corollary 1 {#ac-v-s2-prop-6-cor-1 .statement}
+#### Corollary 1 {#ac-v-s2-prop-6-cor-1 .statement tag=04QE}
 
 *Under the hypotheses of Proposition 6, let f be a homomorphism from A to a field L and g_1, g_2 two homomorphisms from A' to L which extend f. Then there exists a K-automorphism $\sigma \in K'$ such that $g_1 = g_2 \circ \sigma$.*
 
 The proof starting from Proposition 6 is the same as that of the Corollary to Theorem 2 starting from the latter.
 
-#### Corollary 2 {#ac-v-s2-prop-6-cor-2 .statement}
+#### Corollary 2 {#ac-v-s2-prop-6-cor-2 .statement tag=04QF}
 
 *Let A be an integrally closed domain, K its field of fractions, K' a finite algebraic extension of K and A' a subring of K' containing A and integral over A.*
 
@@ -410,13 +410,13 @@ The proof starting from Proposition 6 is the same as that of the Corollary to Th
 
 (ii) The coefficients of the minimal polynomial (over $K$) of any element $x' \in A'$ belong to $A$ ($§ 1$, no. 3, Corollary to Proposition 10); applying the canonical homomorphism $\pi': A' \to A'/\mathfrak{p}'$ to the coefficients of this polynomial, an equation of integral dependence with coefficients in $A/\mathfrak{p}$ and of degree $\leq [\mathbf{K}':\mathbf{K}]$ is obtained for the class mod. $\mathfrak{p}'$ of $x$; whence the conclusion.
 
-#### Corollary 3 {#ac-v-s2-prop-6-cor-3 .statement}
+#### Corollary 3 {#ac-v-s2-prop-6-cor-3 .statement tag=04QG}
 
 With the hypotheses and notation of Corollary 2, if $A$ is semi-local, so is $A'$.
 
 For every maximal ideal $m'$ of $A'$, $m' \cap A$ is a maximal ideal of $A$ (no. 1, Proposition 1); the corollary then follows from Corollary 2, since by hypothesis the set of maximal ideals of $A$ is finite.
 
-#### Corollary 4 {#ac-v-s2-prop-6-cor-4 .statement}
+#### Corollary 4 {#ac-v-s2-prop-6-cor-4 .statement tag=04QH}
 
 Let $A$ be an integrally closed domain, $K$ its field of fractions, $K$ a Galois extension of $K$, $A'$ the integral closure of $A$ in $K'$, $\mathfrak{p}'$ a prime ideal of $A$, $\mathfrak{p} = A \cap \mathfrak{p}'$ and $k$ and $k'$ the fields of fractions of $A/\mathfrak{p}$ and $A'/\mathfrak{p}'$ respectively. Then:
 
@@ -440,7 +440,7 @@ $$
 
 and *a fortiori* over $k^T$ (by virtue of Remark 2).
 
-#### Definition 5 {#ac-v-s2-def-5 .statement}
+#### Definition 5 {#ac-v-s2-def-5 .statement tag=04QI}
 
 *With the hypotheses and notation of Proposition 6, the field of invariants $K^Z(p')$ (resp. $K^T(p')$) of the group $G^Z(p')$ (resp. $G^T(p')$) in the field $K'$ is called the decomposition field* (resp. *inertia field*) *of $p'$ with respect to $K$*.
 
@@ -457,7 +457,7 @@ $$
 
 (4) Let $A$ be an integrally closed domain, $K$ its field of fractions, $K'$ a *finite* algebraic extension of $K$ and $A'$ the integral closure of $A$ in $K'$. Then, for every prime ideal $p$ of $A$, *the number* $\&$ *prime ideals* $\&$ *of* $A'$ *lying above* $p$ *is at most* $[K':K]_s$ (the separable factor of the degree of $K$ over $K$). We may first restrict our attention to the case where $K$ is a separable extension of $K$, for in general $K$ is a radicial extension of the greatest separable extension $K_0$ of $K$ contained in $K'$, $[K':K]_s = [K_0:K]$ by definition and, if $A$, is the integral closure of $A$ in $K_0$, the prime ideals of $A$, and $A'$ are in one-to-one correspondence (Lemma 4). Suppose therefore that $K$ is separable over $K$ and let $N$ be the Galois extension of $K$ generated by $K$ in an algebraic closure of $K$, $G$ its Galois group, $B$ the integral closure of $A$ in $N$ and $\mathfrak{P}$ a prime ideal of $B$ lying above $p$. Let $\mathscr{H}$ be the Galois group of $N$ over $K$ and $G^Z$ the decomposition group of $\mathfrak{P}$; the prime ideals of $B$ lying above $p$ are the $s.\mathfrak{P}$ where $s \in G$ (no. 2, Theorem 2) and the relation $s.\mathfrak{P} = s'.\mathfrak{P}$ means that $s' = sg$ where $g \in G^Z$. On the other hand in order that $s.\mathfrak{P} \cap K' = s'.\mathfrak{P} \cap K'$, it is necessary and sufficient that $s'.\mathfrak{P} = ts.\mathfrak{P}$, where $t \in \mathscr{H}$ (no. 2, Theorem 2), whence finally $s' = tsg$ where $t \in \mathscr{H}$ and $g \in G^Z$. The number of prime ideals of $A'$ lying above $p$ is therefore equal to the *number of classes of $G$ under the equivalence relation* "there exists $t \in \mathscr{H}$ and $g \in G^{\mathbf{Z}}$ such that $s' = tsg$" between $s$ and $s'$; clearly this number is at most equal to the index $(G : \mathscr{H})$, the number of right cosets of $\mathscr{H}$ in $G$, and $(G : \mathscr{H}) = [K' : K]$ by Galois theory.
 
-#### Proposition 7 {#ac-v-s2-prop-7 .statement}
+#### Proposition 7 {#ac-v-s2-prop-7 .statement tag=04QJ}
 
 *Let $A$ be an integrally closed domain, $K$ its field of fractions, $K'$ a Galois extension of $K$, $\mathscr{G}$ its Galois group, $A'$ the integral closure of $A$ in $K'$, $p'$ a prime ideal of $A'$ and $p = A \cap p'$. Finally, let $L$ be a subfield of $K'$ containing $K$ and let $p(L) = p' \cap L$.
 
@@ -477,7 +477,7 @@ Suppose now that $L$ is a Galois extension of $K$; the restriction to $L$ of eve
 
 ### 4. THE SECOND EXISTENCE THEOREM
 
-#### Theorem 3 {#ac-v-s2-thm-3 .statement}
+#### Theorem 3 {#ac-v-s2-thm-3 .statement tag=04QK}
 
 Let $A$ be an integrally closed domain and $A'$ a ring containing $A$ and integral over $A$. Suppose that $0$ is the only element of $A$ which is a divisor of $0$ in $A'$. Let $p, q$ be two prime ideals of $A$ such that $q \supset p$ and $q'$ a prime ideal of $A$ lying above $q$. Then there exists a prime ideal $p'$ of $A$ lying above $p$ and such that $q' \supset p'$.
 
@@ -485,7 +485,7 @@ Suppose first that $A'$ is an integral domain. Let $K, K'$ be the fields of frac
 
 We pass to the general case. As $A$ is an integral domain and $q'$ is prime, the subsets $A - \{0\}$ and $A' - q'$ of $A'$ are multiplicative; then their product $S = (A - \{0\})(A' - q')$ is a multiplicative subset of $A'$ which does not contain 0 since the non-zero elements of $A$ are not divisors of 0 in $A'$. Then there exists (Chapter II, §2, no. 5, Corollary 2 to Proposition 11) a prime ideal $m'$ of $A'$ disjoint from $S$, in other words such that $m' \subset q'$ and $m' \cap A = 0$. Let $h$ be the canonical homomorphism $A' \to A'/m'$. The restriction of $h$ to $A$ is injective and hence $h(A)$ is integrally closed. As $m' \subset q'$, $h(q')$ is a prime ideal of $A'/m'$ lying above $h(q)$; since $A'/m'$ is an integral domain, the first part of the proof proves that there exists a prime ideal $n'$ of $A'/m'$ such that $n' \cap h(A) = h(p)$ and $h(q') \supset n'$. The ideal $p' = h^{-1}(n')$ is a prime ideal of $A'$ and $q' \supset p'$, since $q'$ contains the kernel of $h$. As $n' \supset h(p)$, $p' \supset p$. Finally, for $x \in p' \cap A$, $h(x) \in n' \cap h(A) = h(p)$ and hence $x \in p$ since the restriction of $h$ to $A$ is injective; hence $p' \cap A = p$.
 
-#### Corollary {#ac-v-s2-n4-cor-1 .statement}
+#### Corollary {#ac-v-s2-n4-cor-1 .statement tag=04QL}
 
 Under the hypotheses on $A$ and $A'$ of Theorem 3, let $p$ be a prime ideal of $A$. The prime ideals of $A'$ lying above $p$ are the minimal elements of the set $\mathscr{E}$ of prime ideals of $A'$ containing $pA'$.
 

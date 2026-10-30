@@ -22,7 +22,7 @@ subsections:
       pdf_page: 60
 statements: 5
 exercises: 1
-content_sha256: dce45c4fed9a109155a33741cf73d71851258dd23b7562a7adc8ef6a30078403
+content_sha256: 4a8573820af97b6da06837c92813d0e493461cc4545aff36818f190023f8c959
 ---
 
 ## § 2. COUPLES
@@ -87,7 +87,7 @@ Si $A'$, $B'$ sont des ensembles non vides, la relation $A'\times B'\subset A\ti
 
 En premier lieu, la relation $z\in A'\times B'$ est équivalente à « $z$ est un couple et $\mathrm{pr}_1z\in A'$ et $\mathrm{pr}_2z\in B'$ » ; donc, sans hypothèse sur $A'$ et $B'$, la relation « $A'\subset A$ et $B'\subset B$ » entraîne $A'\times B'\subset A\times B$. Réciproquement, montrons d’abord que, si $B'\neq\varnothing$ (sans hypothèse sur $A'$), la relation $A'\times B'\subset A\times B$ entraîne $A'\subset A$. Soit $x$ un élément de $A'$ ; puisque $B'\neq\varnothing$, il y a un objet $y$ qui est élément de $B'$ ; on a $(x,y)\in A'\times B'$, d’où $(x,y)\in A\times B$ et par suite $x\in A$ ; cela montre que $A'\subset A$. On voit de même que si $A'\neq\varnothing$, la relation $A'\times B'\subset A\times B$ entraîne $B'\subset B$, d’où la proposition.
 
-#### Proposition 3 {#ens-ii-s2-prop-3 .statement}
+#### Proposition 3 {#ens-ii-s2-prop-3 .statement tag=0E3Z}
 
 Soient $A$ et $B$ deux ensembles. La relation $A\times B=\varnothing$ est équivalente à « $A=\varnothing$ ou $B=\varnothing$ ».
 

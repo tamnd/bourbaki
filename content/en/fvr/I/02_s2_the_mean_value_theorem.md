@@ -29,7 +29,7 @@ subsections:
       pdf_page: 33
 statements: 21
 exercises: 14
-content_sha256: b3b7f9d38f4a2886f4332338a1ca2047871b449272d4a73cbe30a131219c1587
+content_sha256: cd3afa585ab839f9102101bc5e9f950b6b2590f43edbec61f3394622431f01ca
 ---
 
 ## § 2. THE MEAN VALUE THEOREM
@@ -38,13 +38,13 @@ The hypotheses and conclusions demonstrated in § 1 are local in character: they
 
 ### 1. ROLLE'S THEOREM
 
-#### Proposition 1 ("Rolle's theorem") {#fvr-i-s2-prop-1 .statement}
+#### Proposition 1 ("Rolle's theorem") {#fvr-i-s2-prop-1 .statement tag=083Z}
 
 Let $f$ be a real function which is finite and continuous on a closed interval $I = [a, b]$ (where $a < b$), has a derivative (finite or not) at every point of ]$a, b$[, and is such that $f(a) = f(b)$. Then there exists a point $c$ of ]$a, b$[ such that $f'(c) = 0$.
 
 The proposition is evident if $f$ is constant: if not, $f$ takes, for example, values $> f(a)$, and so attains its least upper bound at a point $c$ interior to I (Gen. Top., IV, p. 359, th. 1). Since $f$ has a relative maximum at this point we have $f'(c) = 0$ (I, p. 20, prop. 7).
 
-#### Corollary {#fvr-i-s2-n1-cor-1 .statement}
+#### Corollary {#fvr-i-s2-n1-cor-1 .statement tag=0840}
 
 Let $f$ be a real function which is finite and continuous on $[a, b]$ (where $a < b$), and has a derivative (finite or not) at every point. Then there exists a point $c$ of ]$a, b$[ such that $f(b) - f(a) = f'(c)(b - a)$.
 
@@ -56,7 +56,7 @@ This corollary signifies that there is a point $M_c = (c, f(c))$ on the graph $C
 
 The following important result is a consequence of the corollary to prop. 1: if one has $m \leq f'(x) \leq M$ on ]$a, b$[, then also $m \leq \frac{f(b) - f(a)}{b - a} \leq M$. In other words, a *bound for the derivative of* $f'$ on the whole interval with endpoints $a, b$ implies the *same bound* for $\frac{f(b) - f(a)}{b - a}$ (the ratio of the "increment" of the function to the "increment" of the variable on the interval). We shall make this fundamental result more precise, and generalize it, in the sequel.
 
-#### Proposition 2 {#fvr-i-s2-prop-2 .statement}
+#### Proposition 2 {#fvr-i-s2-prop-2 .statement tag=0841}
 
 *Let* $f$ *be a real function which is finite and continuous on the closed bounded interval* $I = [a, b]$ *(where* $a < b$*) and has a right derivative* (finite or not) *at all the points of the relative complement in* $[a, b)$ *of a countable subset* $A$ *of this interval. If* $f'_d(x) \geq 0$ *at every point of* $[a, b[$ *not belonging to* $A$, *then one has* $f(b) \geq f(a)$; *if, further,* $f'_d(x) > 0$ *for at least one point of* $[a, b[$, *then* $f(b) > f(a)$.
 
@@ -106,19 +106,19 @@ Since $\varepsilon > 0$ is arbitrary we deduce from (2) that $f(b) \geq f(a)$, w
 
 We remark now that this result applied to an interval $[x, y]$ where $a \leq x < y \leq b$ proves that $f$ is *increasing* on I; if one had $f(b) = f(a)$ one could deduce that $f$ is *constant* on I, and then that $f'_d(x) = 0$ at every point of $[a, b[$; the second part follows from this.
 
-#### Corollary {#fvr-i-s2-n2-cor-1 .statement}
+#### Corollary {#fvr-i-s2-n2-cor-1 .statement tag=0842}
 
 *Let $f$ be a finite continuous real function on $[a, b]$ (where $a < b$) and have a right derivative at all points of the complement in $[a, b[$ of a countable subset $A$ of this interval. For $f$ to be increasing on I it is necessary and sufficient that $f'_d(x) \geq 0$ at every point of $[a, b[$ that does not belong to $A$; for $f$ to be strictly increasing it is necessary and sufficient that that the preceding condition holds, and further that the set of points $x$ where $f'_d(x) > 0$ be dense in $[a, b]$.*
 
-#### Remark 1 {#fvr-i-s2-n2-rem-1 .statement}
+#### Remark 1 {#fvr-i-s2-n2-rem-1 .statement tag=0843}
 
 Prop. 2 remains true when one replaces the interval $[a, b[$ by ]$a, b$ and the words "right derivative" by "left derivative".
 
-#### Remark 2 {#fvr-i-s2-n2-rem-2 .statement}
+#### Remark 2 {#fvr-i-s2-n2-rem-2 .statement tag=0844}
 
 The hypothesis of *continuity* on $f$ on the closed interval I (and not just *right continuity* $^4$ at every point of $[a, b[$) is essential for the validity of prop. 2 (*cf.* I, p. 36, exerc. 8 ).
 
-#### Remark 3 {#fvr-i-s2-n2-rem-3 .statement}
+#### Remark 3 {#fvr-i-s2-n2-rem-3 .statement tag=0845}
 
 The conclusion of prop. 2 is not guaranteed if one merely supposes that the set $A$ of "exceptional" points is nowhere dense in I, but not countable (*cf.* I, p. 37, exerc. 3).
 
@@ -144,11 +144,11 @@ except when one has $f(x) = Mg(x) + k$, or $f(x) = mg(x) + k$ ($k$ constant) for
 
 It suffices to apply prop. 2 to the functions $Mg - f$ and $f - mg$, which, under our hypotheses, have a positive right derivative except at the points of a countable subset of I.
 
-#### Remark {#fvr-i-s2-n2-rem-4 .statement}
+#### Remark {#fvr-i-s2-n2-rem-4 .statement tag=0846}
 
 Th. 1 fails if one allows $f'_d$ and $g'$ to be simultaneously infinite on an uncountable subset of I (cf. I, p. 37, exerc. 3).
 
-#### Corollary {#fvr-i-s2-n2-cor-2 .statement}
+#### Corollary {#fvr-i-s2-n2-cor-2 .statement tag=0847}
 
 Let $f$ be a finite continuous function on $[a,\ b]$ (where $a < b$) and have a right derivative (finite or not) at all points of the relative complement B in $[a,\ b[$ of a countable subset of this interval. If $m$ and $M$ are the greatest lower and least upper bounds of $f'_d$ on B then one has
 
@@ -164,13 +164,13 @@ $$
 
 The inequalities (5) are consequences of (4) when $m$ and $M$ are finite; the case when one or the other of these numbers is infinite is trivial.
 
-#### Remark {#fvr-i-s2-n2-rem-5 .statement}
+#### Remark {#fvr-i-s2-n2-rem-5 .statement tag=0848}
 
 The inequalities (5) prove that a continuous function cannot have right derivative equal to $+\infty$ at all points of an interval (cf. I, p. 38, exerc. 6).
 
 ### 3. THE MEAN VALUE THEOREM FOR VECTOR FUNCTIONS
 
-#### Theorem 2 {#fvr-i-s2-thm-2 .statement}
+#### Theorem 2 {#fvr-i-s2-thm-2 .statement tag=0849}
 
 Let $f$ be a vector function defined and continuous on a closed bounded interval $I = [a,\ b]$ of $\mathbf{R}$ (where $a < b$) and taking values in a normed space E over $\mathbf{R}$; let $g$ be a continuous increasing real function on I. Suppose that $f$ and $g$ have right derivatives at all points of the relative complement in $[a,\ b[$ of a countable subset A of this interval (allowing $g'_r(x)$ to be infinite at some of the points $x \notin A$), and suppose that at each of these points we have
 
@@ -256,23 +256,23 @@ which again entails a contradiction. The proof finishes as that of prop. 2.
 
 Q.E.D.
 
-#### Remark 1 {#fvr-i-s2-n3-rem-1 .statement}
+#### Remark 1 {#fvr-i-s2-n3-rem-1 .statement tag=084A}
 
 Here again, in the statement of th. 2 one can replace the interval $[a, b[$ by ]$a, b]$ and "right derivative" by "left derivative".
 
-#### Remark 2 {#fvr-i-s2-n3-rem-2 .statement}
+#### Remark 2 {#fvr-i-s2-n3-rem-2 .statement tag=084B}
 
 We shall show later how to identify the case of equality in (7), and also how to generalize th. 2 to the case where E is an arbitrary locally convex space, with the help of another method of proof which allows one to deduce th. 2 from th. 1.
 
-#### Corollary {#fvr-i-s2-n3-cor-1 .statement}
+#### Corollary {#fvr-i-s2-n3-cor-1 .statement tag=084C}
 
 For a continuous vector function on an interval $I \subset \mathbf{R}$, with values in a normed space E over $\mathbf{R}$, to be constant on I it suffices that it have zero right derivative at all points of the complement (relative to I) of a countable subset of I.
 
-#### Remark {#fvr-i-s2-n3-rem-3 .statement}
+#### Remark {#fvr-i-s2-n3-rem-3 .statement tag=084D}
 
 The proofs of ths. 1 and 2 rely in an essential manner on the special topological properties of the field $\mathbf{R}$; one can give examples of valued fields K for which there are nonconstant linear maps of K to itself with zero derivative at every point (cf. I, p. 37, exerc. 2).
 
-#### Proposition 3 {#fvr-i-s2-prop-3 .statement}
+#### Proposition 3 {#fvr-i-s2-prop-3 .statement tag=084E}
 
 Let $f$ be a vector function with values in a normed space E over $\mathbf{R}$, defined and continuous on an interval $I \subset \mathbf{R}$, and right differentiable on the complement B (relative to I) of a countable subset of I; then for all points $x_0 \in B, x \in I, y \in I$, one has (supposing that $x < y$, for example)
 
@@ -290,19 +290,19 @@ and $g$ by the linear function whose derivative is $\sup_{z \in B, x < z < y} \|
 
 Theorem 2 extends to vector functions of a complex variable:
 
-#### Proposition 4 {#fvr-i-s2-prop-4 .statement}
+#### Proposition 4 {#fvr-i-s2-prop-4 .statement tag=084F}
 
 *Let $f$ be a continuous differentiable function of a complex variable defined on a convex open subset $A$ of the field $\mathbf{C}$, with values in a normed space $E$ over the field $\mathbf{C}$. If one has $\|f'(z)\| \leq m$ for all $z \in A$, then one has $\|f(b) - f(a)\| \leq m |b - a|$ for every pair of points $a, b$ of $A$.*
 
 We put $g(t) = \frac{1}{b - a} f(a + t(b - a))$ for $0 \leq t \leq 1$; since $g'(t) = f'(a + t(b - a))$, applying th. 2 to the function $g$ yields the proposition immediately.
 
-#### Corollary {#fvr-i-s2-n3-cor-2 .statement}
+#### Corollary {#fvr-i-s2-n3-cor-2 .statement tag=084G}
 
 *For a vector function $f$ of a complex variable, defined and continuous on an open set $A \subset \mathbf{C}$, and with values in a normed space over $\mathbf{C}$, to be constant, it suffices that it have zero derivative at every point of $A$.*
 
 Indeed, let $a$ be an arbitrary point of $A$; the set $B$ of points $z$ of $A$ where $f(z) = f(a)$ is *closed* because $f$ is continuous; it is also *open*, as is shown by applying prop. 4 (with $m = 0$) to a convex open neighbourhood, contained in $A$, of an arbitrary point of $B$; so is identical to $A$.
 
-#### Proposition 5 {#fvr-i-s2-prop-5 .statement}
+#### Proposition 5 {#fvr-i-s2-prop-5 .statement tag=084H}
 
 *Let $f$ be a vector function of a complex variable, defined, continuous and differentiable on a convex open set $A \subset \mathbf{C}$, taking values in a normed space over the field $\mathbf{C}$; then, no matter what the points $x_0, x$ and $y$ in $A$, one has*
 $$
@@ -318,7 +318,7 @@ on the interval $[0, 1]$.
 
 ### 4. CONTINUITY OF DERIVATIVES
 
-#### Proposition 6 {#fvr-i-s2-prop-6 .statement}
+#### Proposition 6 {#fvr-i-s2-prop-6 .statement tag=084I}
 
 *Let $I$ be an open interval in $\mathbf{R}$, let $x_0$ be one of the endpoints of $I$, and $f$ a vector function defined and continuous on $I$, with values in a complete normed space $E$ over $\mathbf{R}$; suppose that $f$ has a right derivative at the points of the complement $B$ in $I$ of a countable subset of $I$. Then for $f'_d(x)$ to have a limit as $x$ tends to $x_0$ while remaining in $B$ and $\neq x_0$ it is necessary and sufficient that $\frac{f(y) - f(x)}{y - x}$ have a limit $c$ as $(x, y)$ tends to $(x_0, x_0)$ subject to $x \in I, y \in I, x \neq x_0, y \neq x_0$ and $x \neq y$. Under these conditions $f$ extends by continuity to the point $x_0$, the right derivative $f'_d(x)$ tends to $c$ as $x$ tends to $x_0$ (while remaining in B) and the function $f$ extended (defined on $I \cup \{x_0\}$) has derivative at $x_0$ equal to $c$.
 
@@ -360,7 +360,7 @@ $$
 
 which proves that $c$ is the derivative at the point $x_0$ of the function $f$ extended by continuity to $I \cup \{x_0\}$.
 
-#### Remark {#fvr-i-s2-n4-rem-1 .statement}
+#### Remark {#fvr-i-s2-n4-rem-1 .statement tag=084J}
 
 A similar argument, based on th. 1, shows that if $f$ is a real function such that $f'_d(x)$ tends to $+\infty$ at the point $x_0$ then the ratio
 

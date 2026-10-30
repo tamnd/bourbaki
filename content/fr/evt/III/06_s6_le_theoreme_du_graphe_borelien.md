@@ -25,38 +25,38 @@ subsections:
       pdf_page: 171
 statements: 8
 exercises: 6
-content_sha256: 29c1c0f7e2408cc73d4599773572c8d155ebfc3ab2b8da3f770861553a6e433a
+content_sha256: 74b28f3634e14c4e6b4b48d36c524387960ae52c12dcd0332431c1b584ab433c
 ---
 
 ## § 6. LE THÉORÈME DU GRAPHE BORÉLIEN
 
 ### 1. Le théorème du graphe borélien
 
-#### Théorème 1 {#evt-iii-s6-thm-1 .statement}
+#### Théorème 1 {#evt-iii-s6-thm-1 .statement tag=07Q4}
 
 Soient E un espace localement convexe limite inductive d’espaces de Banach, F un espace localement convexe souslinien, par exemple lusinien (TG, IX, p. 59 et p. 62), et u une application linéaire de E dans F. Si le graphe de u est un sous-ensemble borélien de $E \times F$, alors u est continue.
 Soient $(E_i)$ une famille d’espaces de Banach et $(u_i)$ une famille d’applications linéaires continues $u_i : E_i \to E$ telles que la topologie de E soit la topologie localement convexe la plus fine rendant continues les $u_i$. Il suffit de démontrer que les applications composées $u \circ u_i$ sont continues, ou encore (TG, IX, p. 17, prop. 10) que la restriction de $u \circ u_i$ à tout sous-espace fermé de type dénombrable G de $E_i$ est continue. Le graphe de cette restriction est l’image réciproque du graphe de u par l’application continue $u_i \times \mathrm{Id}_F : G \times F \to E \times F$, donc est borélien dans $G \times F$. De plus $G \times F$ est un espace souslinien et toute partie borélienne d’un espace souslinien est souslinienne (TG, IX, p. 61, prop. 10). Le th. 1 résulte alors du th. 4 de TG, IX, p. 69.
 
-#### Remarque {#evt-iii-s6-n1-rem-1 .statement}
+#### Remarque {#evt-iii-s6-n1-rem-1 .statement tag=07Q5}
 
 Rappelons (III, p. 12) que tout espace bornologique séparé et semi-complet, par exemple tout espace de Fréchet, est limite inductive d’espaces de Banach.
 \* Il en est de même du dual fort d’un espace de Fréchet réflexif (IV, p. 23, prop. 4). \*
 
 ### 2. Espaces localement convexes lusiniens
 
-#### Proposition 1 {#evt-iii-s6-prop-1 .statement}
+#### Proposition 1 {#evt-iii-s6-prop-1 .statement tag=07Q6}
 
 Soit E un espace localement convexe séparé. On suppose qu’il existe une suite $(E_n)_{n \in \mathbf{N}}$ d’espaces de Fréchet de type dénombrable, et des applications linéaires continues $u_n : E_n \to E$ telles que $E = \bigcup_{n \in \mathbf{N}} u_n(E_n)$. Alors E est lusinien.
 
 Soit $P_n$ le noyau de $u_n$; alors $u_n$ définit par passage au quotient une application bijective continue de $E_n/P_n$ sur $u_n(E_n)$. Comme $E_n/P_n$ est un espace de Fréchet de type dénombrable (TG, IX, p. 25), donc polonais (TG, IX, p. 57, déf. 1), $u_n(E_n)$ est un sous-espace lusinien de E (TG, IX, p. 62, prop. 11). En vertu de TG, IX, p. 68, cor. du th. 3, l’espace E, qui est régulier (TG, III, p. 20), est donc lusinien.
 
-#### Exemple 1 {#evt-iii-s6-n2-exa-1 .statement}
+#### Exemple 1 {#evt-iii-s6-n2-exa-1 .statement tag=07Q7}
 
 Tout espace de Fréchet de type dénombrable est polonais, donc lusinien. Sont par suite lusiniens les espaces $\mathscr{C}(X)$ où X est localement compact à base dénombrable (la topologie de $\mathscr{C}(X)$ étant celle de la convergence compacte, cf. TG, X, p. 25, corollaire et p. 9, cor. 3); \* les espaces $\mathscr{C}^\infty(U)$, où U est une partie ouverte de $\mathbf{R}^n$ (III, p. 9) et $\mathscr{H}(U)$, où U est une partie ouverte de $\mathbf{C}^n$ (III, p. 10).
 
 La prop. 1 montre alors que sont lusiniens les espaces $\mathscr{C}_0^\infty(U)$, où U est ouvert dans $\mathbf{R}^n$ (III, p. 10), $\mathscr{G}_s(I)$, où I est un intervalle compact de $\mathbf{R}$ et $s \geq 1$ (III, p. 10) et $\mathscr{H}(K)$, où K est une partie compacte de $\mathbf{C}^n$ (III, p. 10). \*
 
-#### Théorème 2 {#evt-iii-s6-thm-2 .statement}
+#### Théorème 2 {#evt-iii-s6-thm-2 .statement tag=07Q8}
 
 Soit E un espace localement convexe, limite inductive d’une suite croissante $(E_n)_{n \in \mathbf{N}}$ de sous-espaces de E, munis de topologies d’espaces de Fréchet de type dénombrable. On suppose que toute partie compacte de E est contenue dans l’un des $E_n$ et compacte dans cet espace. Soit F un espace de Fréchet de type dénombrable. Alors l’espace $\mathscr{L}_c(E; F)$ est lusinien.
 
@@ -66,7 +66,7 @@ Comme F est un espace de Fréchet de type dénombrable, il est isomorphe à un s
 
 L’espace $\mathscr{L}_c(E; F)$ est alors réunion d’une famille dénombrable de parties équicontinues et fermées (III, p. 19, cor. 1 et TG, X, p. 15, prop. 6). Or toute partie équicontinue H de $\mathscr{L}_c(E; F)$ est métrisable de type dénombrable (III, p. 18, prop. 6 et TG, X, p. 16, th. 1); si H est fermée, c’est un espace complet pour la structure uniforme induite par celle de $\mathscr{L}_c(E; F)$, puisque ce dernier est complet. Autrement dit, H est un espace polonais, et *a fortiori* lusinien ; par suite l’espace régulier $\mathscr{L}_c(E; F)$ est lusinien (TG, IX, p. 68, cor. du th. 3).
 
-#### Corollaire {#evt-iii-s6-n2-cor-1 .statement}
+#### Corollaire {#evt-iii-s6-n2-cor-1 .statement tag=07Q9}
 
 *Les hypothèses sur E étant celles du th. 2, supposons de plus que toute partie bornée de E soit relativement compacte. Alors le dual fort de E est lusinien.* *En particulier, le dual fort d’un espace de Fréchet de type dénombrable qui est aussi un espace de Montel, est lusinien.*
 
@@ -76,13 +76,13 @@ L’espace $\mathscr{C}_o^\infty(U)$ est limite inductive stricte d’une suite 
 
 On prouve de même que pour toute partie ouverte U de $\mathbf{C}^n$, et toute partie compacte K de $\mathbf{C}^n$, le dual fort de $\mathscr{H}(U)$ et le dual fort de $\mathscr{H}(K)$ sont lusiniens. \*
 
-#### Remarque {#evt-iii-s6-n2-rem-1 .statement}
+#### Remarque {#evt-iii-s6-n2-rem-1 .statement tag=07QA}
 
 Soit E comme dans le th. 2 ; soit F un espace localement convexe séparé, réunion des images d’une suite d’applications linéaires continues $u_n : F_n \to F$, où chaque $F_n$ est un espace de Fréchet de type dénombrable ; alors $\mathscr{L}_c(E; F)$ est lusinien. Comme dans la prop. 1, on se ramène au cas où chaque $u_n$ est injective ; puis, comme dans la preuve du th. 2, on peut supposer que E est un espace de Fréchet de type dénombrable. En vertu de I, p. 20, prop. 1, $\mathscr{L}(E; F)$ est alors réunion des $\mathscr{L}(E; F_n)$; en outre, l’injection canonique $\mathscr{L}_c(E; F_n) \to \mathscr{L}_c(E; F)$ est continue (TG, X, p. 5, prop. 3). Comme chaque espace $\mathscr{L}_c(E; F_n)$ est lusinien d’après le th. 2, $\mathscr{L}(E; F_n)$ est aussi lusinien pour la topologie induite par celle de $\mathscr{L}_c(E; F)$ (TG, IX, p. 62, prop. 11); $\mathscr{L}_c(E; F)$ est par suite lusinien en vertu de TG, IX, p. 68, corollaire du th. 3.
 
 ### \*3. Applications linéaires mesurables sur un espace de Banach¹
 
-#### Proposition 2 {#evt-iii-s6-prop-2 .statement}
+#### Proposition 2 {#evt-iii-s6-prop-2 .statement tag=07QB}
 
 *Soient E un espace de Banach, F un espace localement convexe et u une application linéaire de E dans F. On suppose que, pour toute partie fermée B de F, tout compact X de E et toute mesure $\mu$ sur X, l’intersection $X \cap u^{-1}(B)$ est $\mu$-mesurable. Alors u est continue.*
 

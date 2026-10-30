@@ -41,9 +41,9 @@ subsections:
       pdf_page: 460
 statements: 5
 exercises: 1
-content_sha256: 61e2fa6c4db4aef89bf7117a4f007f41f7f80115eae9b7991361926acc60091b
+content_sha256: dc5e0ac694becb9bf65464601a1f779a54bf8cce42706281987ec3401f8fb049
 translated_from: content/en/alg/III/01_s1_algebras.md
-source_content_sha256: dd48afc8293dd92e993b3c15c11f1e7ccf9b086e70d6282835d98921482fe752
+source_content_sha256: 820912e8d5d630a54cb7380bd85e9cf6d35d1c95d761b599b7ec5d3af2010845
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-118c701b
 glossary_version: 34
@@ -55,7 +55,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA ĐẠI SỐ
 
-#### Định nghĩa 1 {#alg-iii-s1-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s1-def-1 .statement tag=05YR}
 
 Cho $A$ là một vành giao hoán. Một đại số trên $A$ (hay một $A$-đại số, hoặc đơn giản là một đại số, khi không sợ nhầm lẫn) là một tập hợp $E$ với một cấu trúc được xác định bằng cách cho:
 (1) một cấu trúc $A$-môđun trên $E$;
@@ -79,7 +79,7 @@ $$
 
 Khi phép nhân trong đại số $E$ là kết hợp, $E$ được gọi là một $A$-đại số kết hợp. Khi phép nhân trong $E$ có một phần tử đơn vị (duy nhất tất yếu (I, § 2, no. 1)), phần tử này được gọi là phần tử đơn vị của $E$ và $E$ được gọi là một đại số có đơn vị.
 
-#### Ví dụ {#alg-iii-s1-n1-exa-1 .statement}
+#### Ví dụ {#alg-iii-s1-n1-exa-1 .statement tag=05YS}
 
 (1) Mọi vành giao hoán $A$ đều có thể được xem như một $A$-đại số (kết hợp và giao hoán).
 (2) Cho $E$ là một vành giả (I, § 8, no. 1). Phép nhân trên $E$ và cấu trúc $\mathbf{Z}$-môđun duy nhất trên $E$ xác định trên $E$ một cấu trúc $\mathbf{Z}$-đại số kết hợp.
@@ -93,7 +93,7 @@ $$(x, y) \mapsto xy + yx$$
 
 luôn giao hoán.
 
-#### Định nghĩa 2 {#alg-iii-s1-def-2 .statement}
+#### Định nghĩa 2 {#alg-iii-s1-def-2 .statement tag=05YT}
 
 *Cho hai đại số* E, E' *trên một vành giao hoán* A, *một đồng cấu của* E *vào* E' *là một ánh xạ* $f : E \to E'$ *sao cho*
 (1) *f là một đồng cấu* A*-môđun*;
@@ -250,7 +250,7 @@ $$
 
 đối với $x, x'$ trong E, $\beta$ và $\beta'$ trong B. Đại số trên B $\rho^*(E)$ được gọi là dẫn xuất từ đại số trên A E bằng cách mở rộng vành A các vô hướng đến B (thông qua $\rho$). Nó cũng được ký hiệu là $E_{(B)}$ hoặc $E \otimes_A B$. Khi E kết hợp (tương ứng giao hoán, tương ứng có đơn vị), thì $\rho^*(E)$ cũng vậy.
 
-#### Mệnh đề 1 {#alg-iii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s1-prop-1 .statement tag=05YU}
 
 Với mọi đại số trên A E, ánh xạ chính tắc $\phi_E : x \mapsto x \otimes 1$ từ E vào $E_{(B)}$ là một đồng cấu đại số trên A. Hơn nữa, với mọi đại số trên B F và mọi đồng cấu $A$-đại số $f : E \to F$, tồn tại duy nhất một đồng cấu $B$-đại số $\bar{f} : E_{(B)} \to F$ sao cho $\bar{f}(x \otimes 1) = f(x)$ với mọi $x \in E$.
 
@@ -264,7 +264,7 @@ $$
 
 Do đó, cặp có thứ tự gồm $E_{(B)}$ và $\phi_E$ là một nghiệm của bài toán ánh xạ phổ quát (Lý thuyết Tập hợp, IV, § 3, no. 1), trong đó $\Sigma$ là loài cấu trúc đại số trên $B$ và các ánh xạ $\alpha$ là các đồng cấu từ $E$ vào một đại số trên $B$.
 
-#### Hệ quả {#alg-iii-s1-n5-cor-1 .statement}
+#### Hệ quả {#alg-iii-s1-n5-cor-1 .statement tag=05YV}
 
 *Cho $E, E'$ là hai đại số trên $A$; với mọi đồng cấu đại số trên $A$ $u : E \to E'$, $u \otimes 1_B$ là đồng cấu đại số trên $B$ duy nhất $v : E \otimes_A B \to E' \otimes_A B$ làm cho biểu đồ giao hoán*
 

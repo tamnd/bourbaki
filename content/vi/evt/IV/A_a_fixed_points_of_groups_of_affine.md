@@ -29,9 +29,9 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 60f9122230f3127c512723162f55a2ebbccf36171bc9b583405628dfc74fb5a6
+content_sha256: ac0d8c2bdccbf66d081c1e1da390648b0f0a97c9efdcb1a850ef47f88ea182a3
 translated_from: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
-source_content_sha256: 076881490dd895a4130169f869629c7d393bc61787c9bab8671b5d069b539f9f
+source_content_sha256: a3148232ea5c844b272b5847081786d07ced849332b19697c848a4c2a2b6e871
 translation_model: gpt-5.4
 translation_run: translate-vi-1f4f356d
 glossary_version: 34
@@ -60,7 +60,7 @@ với mọi tập hợp hữu hạn I, các điểm $x_i$ trong K và các số 
 
 Cho $u$ và $v$ là hai phép biến đổi afin trên K, khi đó ánh xạ $u \circ v$ là một phép biến đổi afin trên K. Nếu $v : E \to E$ là một ánh xạ tuyến tính sao cho $v(K) \subset K$, thì ánh xạ $u : K \to K$ trùng với $v$ trên K là một phép biến đổi afin.
 
-#### Định lý 1 (Markoff-Kakutani) {#evt-iv-a0-thm-1 .statement}
+#### Định lý 1 (Markoff-Kakutani) {#evt-iv-a0-thm-1 .statement tag=07WI}
 
 — *Cho E là một không gian vectơ lồi địa phương Hausdorff trên trường $\mathbf{R}$, và K là một tập con lồi compact không rỗng của E. Cho $\Gamma$ là một tập hợp các phép biến đổi afin liên tục trên K, khả hoán từng đôi một. Khi đó tồn tại một điểm a trong K sao cho $u(a) = a$ với mọi $u \in \Gamma$.*
 
@@ -70,7 +70,7 @@ Vì K là compact, nên cũng bị chặn (III, p. 3, mệnh đề 2), dãy $(u^
 
 Mỗi tập hợp $K_u$ là một tập con đóng và lồi của không gian compact K, và ta sẽ chứng minh rằng giao $\bigcap_{u \in \Gamma} K_u$ là không rỗng. Để làm điều này, chỉ cần chứng minh rằng, với $n \geq 1$, và $u_1, ..., u_n$ trong $\Gamma$, tập hợp $K_{u_1} \cap ... \cap K_{u_n}$ là không rỗng. Trường hợp $n = 1$ đã được xét, ta lập luận bằng quy nạp theo $n$. Giả sử $n \geq 2$ và đặt $L = K_{u_1} \cap ... \cap K_{u_{n-1}}$. Theo giả thiết quy nạp, L là một tập con lồi compact không rỗng của E. Vì $u_n$ giao hoán với $u_1, ..., u_{n-1}$, ta có $u_n(L) \subset L$. Áp dụng phần đầu của chứng minh cho phép biến đổi afin cảm sinh bởi $u_n$ trên L, ta kết luận rằng tồn tại một điểm $a$ trong L sao cho $u_n(a) = a$; khi đó $a$ thuộc $K_{u_1} \cap ... \cap K_{u_n}$, do đó tập hợp này là không rỗng.
 
-#### Hệ quả {#evt-iv-a0-n1-cor-1 .statement}
+#### Hệ quả {#evt-iv-a0-n1-cor-1 .statement tag=07WJ}
 
 — *Cho G là một nhóm giải được các phép biến đổi afin liên tục trên K. Khi đó tồn tại một điểm trong K bất biến dưới G.*
 
@@ -80,13 +80,13 @@ Theo định nghĩa của một nhóm giải được (A, I, § 6, No. 4) tồn 
 
 Cho X là một không gian tôpô. Gọi $\mathscr{B}(X; \mathbf{R})$ là không gian vectơ thực gồm các ánh xạ liên tục bị chặn từ X vào $\mathbf{R}$. Được trang bị chuẩn $\|f\| = \sup_{x \in X} |f(x)|$, đó là một không gian Banach (GT, X, § 3, No. 1); nó cũng là một không gian vectơ có thứ tự, trong đó quan hệ $f \geq g$ có nghĩa là «$f(x) \geq g(x)$ với mọi $x \in X$».
 
-#### Định nghĩa 1 {#evt-iv-a0-def-1 .statement}
+#### Định nghĩa 1 {#evt-iv-a0-def-1 .statement tag=07WK}
 
 *Một dạng tuyến tính dương $\mu$ trên không gian $\mathscr{B}(X; \mathbf{R})$, trong đó X là một không gian tôpô, và thỏa mãn $\|\mu\| = 1$, được gọi là một trung bình trên X.*
 
 \* Khi X compac, một trung bình trên X là một độ đo dương trên X sao cho $\mu(X) = 1$. \*
 
-#### Bổ đề 1 {#evt-iv-a0-lem-1 .statement}
+#### Bổ đề 1 {#evt-iv-a0-lem-1 .statement tag=07WL}
 
 *Tập hợp K các trung bình trên X là tập con của quả cầu đơn vị của đối ngẫu của không gian Banach $E = \mathscr{B}(X; \mathbf{R})$ mà các phần tử là các dạng tuyến tính $\mu$ sao cho $\mu(1) = 1$. Nó là một tập con của $E'$ lồi và compac đối với $\sigma(E', E)$.*
 
@@ -114,11 +114,11 @@ Nếu $K$ được trang bị tôpô cảm sinh bởi $\sigma(E', E)$, thì ánh
 
 Theo một cách tương tự, hệ quả của đ. l. 1 (IV, p. 40) kéo theo kết quả sau:
 
-#### Mệnh đề 1 {#evt-iv-a0-prop-1 .statement}
+#### Mệnh đề 1 {#evt-iv-a0-prop-1 .statement tag=07WM}
 
 *Cho $X$ là một không gian tôpô và $G$ là một nhóm giải được. Giả sử rằng $G$ tác động lên $X$ ở bên trái, sao cho với mọi $g \in G$, ánh xạ $x \mapsto g.x$ từ $X$ vào $X$ là liên tục. Khi đó tồn tại một trung bình trên $X$ bất biến dưới $G$.*
 
-#### Hệ quả {#evt-iv-a0-n2-cor-1 .statement}
+#### Hệ quả {#evt-iv-a0-n2-cor-1 .statement tag=07WN}
 
 *Cho $G$ là một nhóm tôpô giải được. Khi đó tồn tại một trung bình trên $G$ bất biến dưới các phép tịnh tiến trái và phải.*
 
@@ -137,7 +137,7 @@ d) Tồn tại hai không gian chuẩn $F_1$ và $F_2$ sao cho $E = \mathscr{L}(
 
 Cho $K$ là một tập con lồi của $E$. Giả sử rằng $K$ compắc (đối với tôpô $\mathscr{T}$), và rằng $K$ thỏa mãn tiên đề đếm được thứ nhất đối với khoảng cách được xác định bởi chuẩn của $E$.
 
-#### Bổ đề 2 {#evt-iv-a0-lem-2 .statement}
+#### Bổ đề 2 {#evt-iv-a0-lem-2 .statement tag=07WO}
 
 Giả sử $K$ chứa ít nhất hai điểm. Với mọi $\varepsilon > 0$, tồn tại một phân hoạch của $K$ thành hai tập con không rỗng $K_1$ và $K_2$, có các tính chất sau:
 
@@ -162,7 +162,7 @@ $$
 $$
 Điều này hoàn tất chứng minh.
 
-#### Bổ đề 3 {#evt-iv-a0-lem-3 .statement}
+#### Bổ đề 3 {#evt-iv-a0-lem-3 .statement tag=07WP}
 
 Cho G là một nhóm các phép biến đổi afin liên tục (đối với $\mathscr{T}$) trên K. Giả sử rằng K không rỗng và rằng $\|gx - gy\| = \|x - y\|$ với mọi x, y trong K và mọi g trong G. Khi đó tồn tại một điểm trong K bất biến dưới G.
 
@@ -182,13 +182,13 @@ với $i = 1, 2$. Theo tính chất (A), ta có $gx_i \in L_1$. Vì $L_1$ lồi,
 
 Cho $L'$ là bao lồi đóng của quỹ đạo $Gx$ của x. Tập hợp $L'$ thuộc $\mathfrak{J}$. Theo lập luận trước, ta có $L' \subset L_1$, do đó $L' \subset L, L' \neq L$. Điều này mâu thuẫn với đặc trưng cực tiểu của L và chứng minh được hoàn thành.
 
-#### Định lý 2 (Ryll-Nardzewski) {#evt-iv-a0-thm-2 .statement}
+#### Định lý 2 (Ryll-Nardzewski) {#evt-iv-a0-thm-2 .statement tag=07WQ}
 
 — *Cho E là một không gian định chuẩn và K một tập con lồi không rỗng của E, compact đối với tôpô yếu $\sigma(E, E')$. Cho G là một nhóm các phép biến đổi afin đẳng cự của K. Khi đó tồn tại một điểm trong K bất biến dưới G.*
 
 Với mọi $g \in G$, cho $K_g$ ký hiệu tập hợp tất cả các điểm x trong K sao cho $gx = x$; gán cho K tôpô yếu; mỗi tập $K_g$ là lồi và đóng trong không gian compact K. Ta sẽ chứng minh rằng giao $\bigcap_{g \in G} K_g$ không rỗng; để làm điều này, chỉ cần chứng minh rằng tập $K_{g_1} \cap ... \cap K_{g_n}$ không rỗng với mọi $g_1, ..., g_n$ trong G. Cố định $g_1, ..., g_n$ và cho H là nhóm con của G sinh bởi $\{ g_1, ..., g_n \}$. Chọn một điểm a trong K và cho L ký hiệu bao lồi đóng của quỹ đạo Ha của a. Cho D là tập đếm được gồm các phần tử dạng $\lambda_1 h_1 a + \cdots + \lambda_m h_m a$, trong đó $\lambda_1, ..., \lambda_m$ là các số hữu tỉ dương sao cho $\lambda_1 + \cdots + \lambda_m = 1$, và $h_1, ..., h_m$ là các phần tử của H. Bao đóng $\overline{D}$ của D đối với tôpô mạnh là lồi, do đó nó đóng đối với $\sigma(E, E')$ (IV, p. 4, mệnh đề 2); vì vậy $\overline{D} = L$ và điều này chứng minh rằng L là một không gian metric thỏa mãn tiên đề đếm được thứ nhất đối với khoảng cách $(x, y) \mapsto \|x - y\|$. Bây giờ ta có thể áp dụng bổ đề 2. Tồn tại một điểm b trong L bất biến dưới H, do đó $b \in K_{g_1} \cap ... \cap K_{g_n}$.
 
-#### Hệ quả {#evt-iv-a0-n3-cor-1 .statement}
+#### Hệ quả {#evt-iv-a0-n3-cor-1 .statement tag=07WR}
 
 — Cho E là một không gian Banach phản xạ, G một nhóm các tự đẳng cấu của không gian định chuẩn E, và K một tập con của E. Giả sử rằng K không rỗng, lồi, đóng, bị chặn và ổn định dưới G. Khi đó tồn tại một điểm trong K bất biến dưới G.
 

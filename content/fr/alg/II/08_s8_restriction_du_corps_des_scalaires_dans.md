@@ -41,7 +41,7 @@ subsections:
       pdf_page: 302
 statements: 17
 exercises: 5
-content_sha256: 37040ddb5e6026b7ce8847afb5debf8f8cf63a3b03a2a63593857462fb7a377f
+content_sha256: 1af0bcc606a0030a3e38d5cefc26bdc2deb2f2d421a29e7155a02dd6b6314551
 ---
 
 ## § 8. RESTRICTION DU CORPS DES SCALAIRE S DANS LES ESPACES VECTORIELS
@@ -50,7 +50,7 @@ Dans tout ce paragraphe, $K$ désigne un corps, $K'$ un sous-corps de $K$. Sur u
 
 ### 1. Définition des K'-structures
 
-#### Proposition 1 {#alg-ii-s8-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s8-prop-1 .statement tag=05V0}
 
 Soient V un espace vectoriel à droite sur K, V' une partie de V qui soit un sous-espace vectoriel sur K'. Les conditions suivantes sont équivalentes ;
 a) L’application K-linéaire $\lambda$ de $V'_{(K)} = V' \otimes_{K'} K$ dans V, telle que $\lambda(x' \otimes \xi) = x'\xi$ pour $x' \in V', \xi \in K$, est bijective.
@@ -67,11 +67,11 @@ Comme toute partie de V' libre sur K' est contenue dans une base de V' sur K' (I
 
 C. Q. F. D.
 
-#### Définition 1 {#alg-ii-s8-def-1 .statement}
+#### Définition 1 {#alg-ii-s8-def-1 .statement tag=05V1}
 
 Soient V un espace vectoriel à droite sur un corps K et K' un sous-corps de K. On appelle K'-structure sur V tout sous-K'-espace vectoriel V' de V qui vérifie les conditions équivalentes de la proposition 1.
 
-#### Exemple {#alg-ii-s8-n1-exa-1 .statement}
+#### Exemple {#alg-ii-s8-n1-exa-1 .statement tag=05V2}
 
 Soit B une base de V sur K. Pour tout sous-corps K' de K, le sous-K'-espace vectoriel de V engendré par B admet B pour base sur K', donc est une
 
@@ -79,7 +79,7 @@ K'-structure sur V. *Par exemple, si K est commutatif, et si on prend pour V la 
 
 ### 2. Rationalité pour un sous-espace
 
-#### Définition 2 {#alg-ii-s8-def-2 .statement}
+#### Définition 2 {#alg-ii-s8-def-2 .statement tag=05V3}
 
 Soient V un espace vectoriel à droite sur K, muni d’une K'-structure V'. On dit qu’un vecteur de V est rationnel sur K' s’il appartient à V'. On dit qu’un sous-K-espace vectoriel W de V est rationnel sur K' s’il est engendré (sur K) par des vecteurs rationnels sur K'.
 
@@ -89,13 +89,13 @@ Si W est un sous-K-espace vectoriel de V, rationnel sur K', il résulte de la d�
 
 Pour tout sous-K'-espace vectoriel W' de V' nous noterons W'.K le sous-K-espace vectoriel de V formé des combinaisons linéaires d’éléments de W' à coefficients dans K.
 
-#### Proposition 2 {#alg-ii-s8-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s8-prop-2 .statement tag=05V4}
 
 Soient V un espace vectoriel à droite sur K, V' une K'-structure sur V. L’application W' \mapsto W'.K est une bijection de l’ensemble des sous-K'-espaces vectoriels de V' sur l’ensemble des sous-K-espaces vectoriels de V rationnels sur K', et la bijection réciproque est W \mapsto W \cap V'.
 
 Il est clair en effet que la bijection $\lambda^{-1}: V \to V' \otimes_{K'} K$, réciproque de la bijection $\lambda$ définie dans II, p. 119, prop. 1, applique tout sous-K'-espace vectoriel W' de V' sur son image par l’injection canonique $x' \mapsto x' \otimes 1$, et W'.K sur W' $\otimes_{K'} K$; les assertions de la prop. 2 sont donc conséquences de la déf. 2 et de II, p. 113, prop. 19.
 
-#### Corollaire 1 {#alg-ii-s8-prop-2-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s8-prop-2-cor-1 .statement tag=05V5}
 
 Toute somme et toute intersection de sous-K-espaces vectoriels de V, rationnels sur K', est un sous-espace rationnel sur K'.
 
@@ -103,7 +103,7 @@ L’assertion relative à la somme est évidente. D’autre part, si $(W'_i)_{i 
 
 On dit qu’une base B de V sur K est rationnelle sur K' si elle est formée de vecteurs rationnels sur K'.
 
-#### Corollaire 2 {#alg-ii-s8-prop-2-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s8-prop-2-cor-2 .statement tag=05V6}
 
 Toute base de V sur K, rationnelle sur K', est une base de V' sur K'.
 
@@ -111,13 +111,13 @@ En effet, si $W'$ est le sous-$K'$-espace vectoriel de $V'$ engendré par $B$, o
 
 ### 3. Rationalité pour une application linéaire
 
-#### Définition 3 {#alg-ii-s8-def-3 .statement}
+#### Définition 3 {#alg-ii-s8-def-3 .statement tag=05V7}
 
 Soient $V_1, V_2$ deux espaces vectoriels à droite sur $K$, munis respectivement de $K'$-structures $V'_1, V'_2$. On dit qu’une application $K$-linéaire $f : V_1 \to V_2$ est rationnelle sur $K'$ si l’on a $f(V'_1) \subset V'_2$.
 
 Si $V_3$ est un troisième espace vectoriel à droite sur $K$, muni d’une $K'$-structure $V'_3$, et si une application $K$-linéaire $g : V_2 \to V_3$ est rationnelle sur $K'$, il est clair que $g \circ f : V_1 \to V_3$ est rationnelle sur $K'$.
 
-#### Proposition 3 {#alg-ii-s8-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s8-prop-3 .statement tag=05V8}
 
 Soient $V_1, V_2$ deux espaces vectoriels à droite sur $K$, $V'_1, V'_2$ des $K'$-structures sur $V_1, V_2$ respectivement. On identifie canoniquement $V_1$ (resp. $V_2$) à $V'_1 \otimes_{K'} K$ (resp. $V'_2 \otimes_{K'} K$) (II, p. 119, prop. 1).
 
@@ -129,21 +129,21 @@ Soient $V_1, V_2$ deux espaces vectoriels à droite sur $K$, $V'_1, V'_2$ des $K
 
 (ii) Si $f = f' \otimes 1_K$, on a $f(V_1) = f(V'_1 \otimes_{K'} K) = f'(V'_1) \otimes_{K'} K$, et comme $f'(V'_1) \subset V'_2$, on a $f(V'_1) = f'(V'_1) = f(V_1) \cap V'_2$ (II, p. 113, prop. 19); la formule $f(V'_2) = V'_1 + \mathrm{Ker}(f)$ en résulte aussitôt.
 
-#### Corollaire 1 {#alg-ii-s8-prop-3-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s8-prop-3-cor-1 .statement tag=05V9}
 
 Avec les notations de la prop. 3, on a
 $\mathrm{Im}(f) = (\mathrm{Im}(f'))_{(K)}, \mathrm{Ker}(f) = (\mathrm{Ker}(f'))_{(K)}, \mathrm{Coker}(f) = (\mathrm{Coker}(f'))_{(K)}.$
 En particulier, pour que $f$ soit injective (resp. surjective, nulle) il faut et il suffit que $f'$ le soit. Si $f$ est bijective, son application réciproque est rationnelle sur $K'$.
 C’est un cas particulier de II, p. 113, cor. de la prop. 18.
 
-#### Corollaire 2 {#alg-ii-s8-prop-3-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s8-prop-3-cor-2 .statement tag=05VA}
 
 Soit $f : V_1 \to V_2$ une application $K$-linéaire, rationnelle sur $K'$. Pour tout sous-$K$-espace vectoriel $W_1$ de $V_1$ (resp. $W_2$ de $V_2$) rationnel sur $K'$, $f(W_1)$ (resp. $f(W_2)$) est un sous-$K$-espace vectoriel de $V_2$ (resp. $V_1$) rationnel sur $K'$.
 Avec les notations de la prop. 3, pour tout sous-$K'$-espace vectoriel $W'_1$ de $V'_1$, on a $f'_{(K)}(W'_1 \otimes_{K'} K) = f'(W'_1) \otimes_{K'} K$; d’où l’assertion relative à $W_1$ (II, p. 120, prop. 2). D’autre part, soit $W'_2$ un sous-$K'$-espace vectoriel de $V'_2$, et soit $g'$ l’application $K'$-linéaire canonique $V'_2 \to V'_2/W'_2$; on a $f^{-1}(W'_2) = \mathrm{Ker}(g' \circ f')$; en vertu du cor. 1, on a donc $f_{(K)}^{-1}(W'_2 \otimes_{K'} K) = f^{-1}(W'_2) \otimes_{K'} K$, d’où l’assertion relative à $W_2$.
 
 Soient $V_1, V_2$ deux $K$-espaces vectoriels à droite, munis respectivement de $K'$-structures $V'_1, V'_2$. Il est immédiat que $V'_1 \times V'_2$ est une $K'$-structure sur $V_1 \times V_2$, dite *produit* des $K'$-structures $V'_1$ et $V'_2$.
 
-#### Proposition 4 {#alg-ii-s8-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s8-prop-4 .statement tag=05VB}
 
 *Pour qu’une application K-linéaire $f : V_1 \to V_2$ soit rationnelle sur $K'$, il faut et il suffit que son graphe $\Gamma$ soit rationnel sur $K'$ pour la $K'$-structure produit de $V_1 \times V_2$*.
 
@@ -159,7 +159,7 @@ $$
 
 où $\varphi({x'}^*) = 1 \otimes {x'}^*$, et $\upsilon(\xi \otimes {x'}^*)$ est la forme linéaire $y^*$ sur $V$ telle que $y^*(x') = \xi \langle {x'}^*, x' \rangle$ pour tout $x' \in V'$ (II, p. 87). On sait que cette application est injective (II, p. 114, prop. 20 et p. 113, prop. 19) et il est clair que $R'$ est un sous-$K'$-espace vectoriel à gauche de $V^*$; en outre toute partie de $R'$ libre sur $K'$ est libre sur $K$. Mais en général $R'$ *n’engendre pas nécessairement* $V^*$ sur $K$ et ne définit donc pas une $K'$-structure sur $V^*$ (II, p. 199, exerc. 2). Toutefois, si $V$ est de dimension *finie* $n$ sur $K$, ${V'}^*$ est de dimension $n$ sur $K'$, et $R'$ définit alors canoniquement une $K'$-structure sur $V^*$.
 
-#### Proposition 5 {#alg-ii-s8-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s8-prop-5 .statement tag=05VC}
 
 *Soient $V$ un espace vectoriel à droite sur $K$, $V'$ une $K'$-structure sur $V$, $W$ un sous-K-espace vectoriel de $V$. Pour que $W$ soit rationnel sur $K'$, il faut et il suffit qu’il existe un ensemble $H \subset V^*$ de formes linéaires rationnelles sur $K'$, tel que $W$ soit l’orthogonal de $H$ dans $V$ (II, p. 42).
 
@@ -169,7 +169,7 @@ Inversement, soit $W$ un sous-$K$-espace vectoriel de $V$, rationnel sur $K'$, d
 
 ### 5. Applications aux systèmes linéaires
 
-#### Proposition 6 {#alg-ii-s8-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s8-prop-6 .statement tag=05VD}
 
 (i) Étant donné un système d’équations linéaires homogènes
 
@@ -197,7 +197,7 @@ On dit qu’un anneau $K$ est *fidèlement plat* (à gauche) sur un sous-anneau 
 
 Soit $V$ un $K$-espace vectoriel à droite, muni d’une $K'$-structure $V'$. Pour tout corps $L$ tel que $K' \subset L \subset K$, on posera $V_L = V'.L$; il est clair que toute base de $V'$ sur $K'$ est une base de $V$ sur $K$ et une base de $V_L$ sur $L$. Donc $V_L$ est une $L$-structure sur $V$, et $V'$ une $K'$-structure sur $V_L$.
 
-#### Proposition 7 {#alg-ii-s8-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s8-prop-7 .statement tag=05VE}
 
 (i) *Soit $V$ un $K$-espace vectoriel à droite muni d’une $K'$-structure $V'$. Pour tout vecteur $x \in V$ (resp. tout sous-$K$-espace vectoriel $W$ de $V$), l’ensemble des sous-corps $L$ de $K$ contenant $K'$ et tels que $x$ (resp. $W$) soit rationnel sur $L$, possède un plus petit élément $K'(x)$ (resp. $K'(W)$).*
 
@@ -209,7 +209,7 @@ Démontrons ensuite (ii). Soient $B_1, B_2$ des bases de $V_1, V_2$ respectiveme
 
 Enfin, pour établir l’assertion de (i) relative à un sous-espace $W$ de $V$, nous démontrerons d’abord le lemme suivant:
 
-#### Lemme 1 {#alg-ii-s8-lem-1 .statement}
+#### Lemme 1 {#alg-ii-s8-lem-1 .statement tag=05VF}
 
 *Soient $V$ un $K$-espace vectoriel à droite muni d’une $K'$-structure $V'$, $W$ un sous-$K$-espace vectoriel de $V$. Il existe deux sous-$K$-espaces vectoriels $W_1, W_2$ de $V$, rationnels sur $K'$, tels que $V$ soit somme directe de $W_1$ et $W_2$ et que, si l’on identifie $V$ à $W_1 \times W_2$, $W$ soit le graphe d’une application $K$-linéaire $g$ de $W_1$ dans $W_2$.*
 
@@ -223,7 +223,7 @@ Pour tout sous-corps $L$ de $K$, notons $\mathrm{End}_L(K)$ l’anneau des endom
 
 Soit maintenant $V$ un $K$-espace vectoriel à droite muni d’une $K'$-structure $V'$. Pour tout $\varphi \in \mathrm{End}_{K'}(K)$, il existe un endomorphisme $\varphi_V$ du $\mathbf{Z}$-module $V$ et un seul tel que l’on ait $\varphi_V(x'.\xi) = x'.\varphi(\xi)$ pour $x' \in V'$ et $\xi \in V$: en effet, on a défini dans II, p. 119 un $\mathbf{Z}$-isomorphisme $\lambda$ de $V' \otimes_{K'} K$ sur $V$ transformant $x' \otimes \xi$ en $x'.\xi$, et $\varphi_V$ est nécessairement égal à $\lambda \circ (1_{V'} \otimes \varphi) \circ \lambda^{-1}$.
 
-#### Théorème 1 {#alg-ii-s8-thm-1 .statement}
+#### Théorème 1 {#alg-ii-s8-thm-1 .statement tag=05VG}
 
 *Soient $\mathscr{M}$ une partie de $\mathrm{End}_{K'}(K)$, $L = \chi(\mathscr{M})$ le sous-corps de $K$ commutant de $\mathscr{M}$.*
 

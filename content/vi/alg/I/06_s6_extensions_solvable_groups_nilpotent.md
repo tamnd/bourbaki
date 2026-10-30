@@ -42,7 +42,7 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 8
-content_sha256: 97441ed60d0c18dba531e73c4cbc7dc7b025b03837584ba4636365f575929eb9
+content_sha256: d3d9eb5f5ea99281f35862ab15d588b423cb6a477e591a939216caf950eb8668
 translated_from: content/en/alg/I/06_s6_extensions_solvable_groups_nilpotent.md
 source_content_sha256: 05d57b4e159fb6f8076f49d79a8f2aa87f069986c6d14e5d1113470e55b7a64a
 translation_model: gpt-5.4
@@ -58,7 +58,7 @@ Trong suốt đoạn này, các luật nhóm, trừ khi có nói rõ ngược l�
 
 ### 1. MỞ RỘNG
 
-#### Định nghĩa 1 {#alg-i-s6-def-1 .statement}
+#### Định nghĩa 1 {#alg-i-s6-def-1 .statement tag=05CQ}
 
 Cho $F$ và $G$ là hai nhóm. Một mở rộng của $G$ bởi $F$ là một bộ ba $\mathscr{E} = (E, i, p)$, trong đó $E$ là một nhóm, $i$ là một đơn cấu của $F$ vào $E$ và $p$ là một đồng cấu toàn ánh của $E$ lên $G$ sao cho $\operatorname{Im}(i) = \operatorname{Ker}(p)$. Một đồng cấu $s : G \to E$ (tương ứng, $r : E \to F$) sao cho $p \circ s = \operatorname{Id}_G$ (tương ứng, $r \circ i = \operatorname{Id}_F$) được gọi là một tiết diện (tương ứng, một co rút) của mở rộng $\mathscr{E}$.
 
@@ -86,7 +86,7 @@ $$
 u \uparrow \quad \text{và} \quad p' \uparrow
 $$
 
-#### Mệnh đề 1 {#alg-i-s6-prop-1 .statement}
+#### Mệnh đề 1 {#alg-i-s6-prop-1 .statement tag=05CR}
 
 Cho $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ và $\mathscr{E}': F \xrightarrow{i'} E' \xrightarrow{p'} G$ là các mở rộng của $G$ bởi $F$. Nếu $u: E \to E'$ là một cấu xạ từ $\mathscr{E}$ vào $\mathscr{E}'$, thì $u$ là một đẳng cấu từ $E$ lên $E'$ và $u^{-1}$ là một cấu xạ từ $\mathscr{E}'$ vào $\mathscr{E}$.
 
@@ -96,7 +96,7 @@ Nói cách khác, các mở rộng $\mathscr{E}$ và $\mathscr{E}'$ là *đẳng
 
 Cho $F$ và $G$ là hai nhóm và đặt $E_0 = F \times G$; cho $i: F \to E_0$ là đơn ánh chính tắc và $p: E_0 \to G$ là phép chiếu chính tắc. Mọi mở rộng của $G$ bởi $F$ đẳng cấu với mở rộng $\mathscr{E}_0: F \xrightarrow{i} E_0 \xrightarrow{p} G$ được gọi là một *mở rộng tầm thường*.
 
-#### Mệnh đề 2 {#alg-i-s6-prop-2 .statement}
+#### Mệnh đề 2 {#alg-i-s6-prop-2 .statement tag=05CS}
 
 *Cho $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ là một mở rộng của $G$ bởi $F$. Các điều kiện sau là tương đương*:
 
@@ -108,7 +108,7 @@ Rõ ràng (i) suy ra (ii) và (iii). Nếu (ii) đúng, ánh xạ $(r, p): E \to
 
 Có thể xảy ra trường hợp một mở rộng $\mathscr{E}: F \to E \to G$ không tầm thường mà nhóm $E$ lại đẳng cấu với $F \times G$ (Bài tập 6).
 
-#### Định nghĩa 2 {#alg-i-s6-def-2 .statement}
+#### Định nghĩa 2 {#alg-i-s6-def-2 .statement tag=05CT}
 
 *Cho $F$ và $G$ là hai nhóm và $\tau$ là một đồng cấu của $G$ vào nhóm tự đẳng cấu của $F$. Viết $\tau(g)(f) = gf$ với $g \in G$ và $f \in F$. Tập hợp $F \times G$ với luật hợp thành*
 
@@ -120,7 +120,7 @@ $$
 
 Tích nửa trực tiếp ngoài của $G$ bởi $F$ đối với $\tau$ được ký hiệu là $F \times_{\tau} G$.
 
-#### Mệnh đề 3 {#alg-i-s6-prop-3 .statement}
+#### Mệnh đề 3 {#alg-i-s6-prop-3 .statement tag=05CU}
 
 *Tích nửa trực tiếp ngoài $F \times_{\tau} G$ là một nhóm. Các ánh xạ $i: F \to F \times_{\tau} G$ xác định bởi $i(f) = (f, e)$, $p: F \times_{\tau} G \to G$ xác định bởi $p(f, g) = g$, và $s: G \to F \times_{\tau} G$ xác định bởi $s(g) = (e, g)$ là các đồng cấu nhóm. Bộ ba $(F \times_{\tau} G, i, p)$ là một mở rộng của $G$ bởi $F$ và $s$ là một tiết diện của mở rộng ấy.*
 
@@ -150,7 +150,7 @@ $$
 i'(\tau(g, f)) = s'(g)i'(f)s'(g)^{-1} = \operatorname{Int}(s'(g))(i'(f)).
 $$
 
-#### Mệnh đề 4 {#alg-i-s6-prop-4 .statement}
+#### Mệnh đề 4 {#alg-i-s6-prop-4 .statement tag=05CV}
 
 *Với các ký hiệu trên, tồn tại một và chỉ một đẳng cấu u của $\mathscr{E}_{\tau}$ lên $\mathscr{E}'$ sao cho $u \circ s = s'$.
 
@@ -168,19 +168,19 @@ $$
 
 Vì vậy, $u$ là một đồng cấu của $F \times_{\tau} G$ vào $E'$. Hiển nhiên $u \circ i = i'$, $p' \circ u = p$ và $u \circ s = s'$.
 
-#### Nhận xét {#alg-i-s6-n1-rem-1 .statement}
+#### Nhận xét {#alg-i-s6-n1-rem-1 .statement tag=05CW}
 
 Định nghĩa của phép toán $\tau$ bởi công thức (2) phụ thuộc vào mở rộng $\mathscr{E}'$ và tiết diện $s'$. Khi $F$ giao hoán, phép toán $\tau$ không phụ thuộc vào $s'$. Vì $\operatorname{Int}(s'(g)) | i'(F)$ khi đó chỉ phụ thuộc vào lớp kề của $s'(g)$ mod. $i'(F)$.
 
 Nói chung hơn, cho $\mathscr{E} : F \to E \to G$ là một mở rộng của $G$ bởi một nhóm giao hoán $F$ (không giả thiết rằng $\mathscr{E}$ thừa nhận một tiết diện). Nhóm $E$ tác động trên $F$ bởi các tự đẳng cấu nội, ảnh này là tầm thường trên ảnh của $F$ và do đó xác định một phép toán của $G$ trên $F$. Nếu $\mathscr{E}$ thừa nhận một tiết diện, phép toán này là phép toán được xác định bởi công thức (2).
 
-#### Hệ quả {#alg-i-s6-n1-cor-1 .statement}
+#### Hệ quả {#alg-i-s6-n1-cor-1 .statement tag=05CX}
 
 *Cho $G$ là một nhóm và $H$ và $K$ là hai nhóm con của $G$ sao cho $H$ là chuẩn tắc, $H \cap K = \{e\}$ và $H.K = G$. Cho $\tau$ là phép toán của $K$ trên $H$ bởi các tự đẳng cấu nội của $G$. Ánh xạ $(h, k) \mapsto hk$ là một đẳng cấu của $H \times_{\tau} K$ lên $G$.
 
 Dưới các giả thiết của hệ quả này, $G$ được gọi là tích nửa trực tiếp của $K$ bởi $H$.
 
-#### Ví dụ {#alg-i-s6-n1-exa-1 .statement}
+#### Ví dụ {#alg-i-s6-n1-exa-1 .statement tag=05CY}
 
 (1) Cho $G$ là một nhóm và $E$ là một $G$-tập hợp chính thuần nhất; ký hiệu $\Gamma$ là nhóm tự đẳng cấu của $G$. Cho $A$ là tập hợp các phép hoán vị $f$ của $E$ có tính chất sau:
 Tồn tại $\gamma \in \Gamma$ sao cho $f$ là một $\gamma$-cấu xạ từ $E$ vào $E$ (nghĩa là, $f(gb) = \gamma(g)f(b)$ với $b \in E$ và $g \in G$).
@@ -202,7 +202,7 @@ Mệnh đề 4 khi đó cho thấy rằng $A$ đẳng cấu với tích nửa tr
 
 ### 2. GIAO HOÁN TỬ
 
-#### Định nghĩa 3 {#alg-i-s6-def-3 .statement}
+#### Định nghĩa 3 {#alg-i-s6-def-3 .statement tag=05CZ}
 
 Cho $G$ là một nhóm và $x$ và $y$ là hai phần tử của $G$. Phần tử $x^{-1}y^{-1}xy$ của $G$ được gọi là giao hoán tử của $x$ và $y$.
 
@@ -252,7 +252,7 @@ Nếu A và B là hai nhóm con của G, thì (A, B) chỉ nhóm con sinh bởi 
 
 † Ở đây chúng tôi bác bỏ quy ước ký hiệu đã dùng ở § 1, no 1 về việc mở rộng một luật hợp thành cho các tập con.
 
-#### Mệnh đề 5 {#alg-i-s6-prop-5 .statement}
+#### Mệnh đề 5 {#alg-i-s6-prop-5 .statement tag=05D0}
 
 Cho $A, B, C$ là ba nhóm con của $G$.
 
@@ -292,29 +292,29 @@ $$
 
 do đó có (iii).
 
-#### Định nghĩa 4 {#alg-i-s6-def-4 .statement}
+#### Định nghĩa 4 {#alg-i-s6-def-4 .statement tag=05D1}
 
 Cho $G$ là một nhóm. Nhóm con sinh bởi các giao hoán tử của các phần tử của $G$ được gọi là nhóm dẫn xuất của $G$.
 
 Như vậy nhóm dẫn xuất của $G$ là nhóm con $(G, G)$. Nó cũng được ký hiệu là $D(G)$. Do một sự lạm dụng ngôn ngữ, đôi khi nó được gọi là *nhóm giao hoán tử* của $G$ mặc dù nói chung nó phân biệt với tập hợp các giao hoán tử của các phần tử của $G$ (Bài tập 16). $D(G) = \{e\}$ khi và chỉ khi $G$ là giao hoán.
 
-#### Mệnh đề 6 {#alg-i-s6-prop-6 .statement}
+#### Mệnh đề 6 {#alg-i-s6-prop-6 .statement tag=05D2}
 
 Cho $f : G \to G'$ là một đồng cấu nhóm. Khi đó $f(D(G)) \subset D(G')$. Nếu $f$ là toàn ánh, thì đồng cấu từ $D(G)$ vào $D(G')$ là hạn chế của $f$ là toàn ánh.
 
 Ảnh qua $f$ của một giao hoán tử của các phần tử của $G$ là một giao hoán tử của các phần tử của $G'$. Nếu $f$ là toàn ánh, ảnh qua $f$ của tập hợp các giao hoán tử của $G$ là tập hợp các giao hoán tử của $G'$. Do đó mệnh đề suy ra từ § 4, no. 3, Hệ quả 3 của Mệnh đề 2.
 
-#### Hệ quả 1 {#alg-i-s6-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#alg-i-s6-prop-6-cor-1 .statement tag=05D3}
 
 Nhóm dẫn xuất của một nhóm $G$ là một nhóm con đặc số của $G$. Đặc biệt nó là một nhóm con chuẩn tắc của $G$.
 
-#### Hệ quả 2 {#alg-i-s6-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#alg-i-s6-prop-6-cor-2 .statement tag=05D4}
 
 Cho G là một nhóm. Nhóm thương G/D(G) là giao hoán. Cho $\pi : G \to G/D(G)$ là đồng cấu chính tắc. Mọi đồng cấu f từ G vào một nhóm giao hoán G' đều có thể được biểu diễn duy nhất dưới dạng $f = \bar{f} \circ \pi$, trong đó $\bar{f} : G/D(G) \to G'$ là một đồng cấu.
 
 Bây giờ $\pi(D(G)) = \{e\}$. Vì $\pi$ là toàn ánh, suy ra $D(G/D(G)) = \{e\}$, do đó có mệnh đề thứ nhất. Mệnh đề thứ hai suy ra từ § 4, no. 4, Mệnh đề 5.
 
-#### Hệ quả 3 {#alg-i-s6-prop-6-cor-3 .statement}
+#### Hệ quả 3 {#alg-i-s6-prop-6-cor-3 .statement tag=05D5}
 
 Cho H là một nhóm con của G. Các điều kiện sau là tương đương:
 
@@ -322,19 +322,19 @@ Cho H là một nhóm con của G. Các điều kiện sau là tương đương:
 (ii) H là một nhóm con chuẩn tắc và $G/H$ là giao hoán.
 (ii) $\Rightarrow$ (i) theo Hệ quả 2 và (i) $\Rightarrow$ (ii) theo § 4, no. 7, Định lý 4, vì mọi nhóm con của một nhóm giao hoán đều là chuẩn tắc.
 
-#### Hệ quả 4 {#alg-i-s6-prop-6-cor-4 .statement}
+#### Hệ quả 4 {#alg-i-s6-prop-6-cor-4 .statement tag=05D6}
 
 Cho G là một nhóm và X là một tập con của G sinh ra G. Nhóm D(G) là nhóm con chuẩn tắc của G sinh bởi các giao hoán tử của các phần tử của X.
 
 Cho H là nhóm con chuẩn tắc của G sinh bởi các giao hoán tử của các phần tử của X và $\phi : G \to G/H$ là đồng cấu chính tắc. Tập $\phi(X)$ sinh ra $G/H$. Các phần tử của $\phi(X)$ giao hoán từng đôi một và do đó H là giao hoán (§ 4, no. 3, Hệ quả 2 của Mệnh đề 2). Vậy (Hệ quả 3) H chứa D(G). Mặt khác, hiển nhiên $H \subset D(G)$.
 
-#### Nhận xét {#alg-i-s6-n2-rem-1 .statement}
+#### Nhận xét {#alg-i-s6-n2-rem-1 .statement tag=05D7}
 
 (1) Hệ quả 2 cũng có thể được phát biểu bằng cách nói rằng $G/D(G)$, cùng với $\pi$, là một nghiệm của bài toán ánh xạ phổ quát đối với G, tương đối với các nhóm giao hoán và các đồng cấu từ G đến các nhóm giao hoán.
 
 (2) Dưới các giả thiết của Hệ quả 4, nhóm con sinh bởi các giao hoán tử của các phần tử của X được chứa trong D(G) nhưng nói chung không bằng D(G) (xem Bài tập 15e).
 
-#### Ví dụ {#alg-i-s6-n2-exa-1 .statement}
+#### Ví dụ {#alg-i-s6-n2-exa-1 .statement tag=05D8}
 
 (1) Nếu G là một nhóm đơn không giao hoán, thì $D(G) = G$. Do đó mọi đồng cấu của G vào một nhóm giao hoán đều là tầm thường.
 
@@ -344,7 +344,7 @@ Cho H là nhóm con chuẩn tắc của G sinh bởi các giao hoán tử của 
 
 Cho G là một nhóm, H là một nhóm con của G và K là một nhóm con chuẩn tắc của G. Ảnh của H trong G/K được chứa trong tâm của G/K khi và chỉ khi $(G, H) \subset K$.
 
-#### Định nghĩa 5 {#alg-i-s6-def-5 .statement}
+#### Định nghĩa 5 {#alg-i-s6-def-5 .statement tag=05D9}
 
 Cho G là một nhóm. Chuỗi trung tâm giảm của G là dãy $(C^n(G))_{n \geq 1}$ các nhóm con của G được định nghĩa quy nạp bởi:
 $$
@@ -368,13 +368,13 @@ $$
 $$
 Do đó $((F_{m,n}) \text{ và } (F_{m+1,n})) \Rightarrow (F_{m,n+1})$. Vì $(F_{m,1})$ và $(F_{1,n})$ là hiển nhiên nên $(F_{m,n})$ suy ra bằng quy nạp.
 
-#### Định nghĩa 6 {#alg-i-s6-def-6 .statement}
+#### Định nghĩa 6 {#alg-i-s6-def-6 .statement tag=05DA}
 
 *Một nhóm $G$ được gọi là lũy linh nếu tồn tại một số nguyên $n$ sao cho $C^{n+1}(G) = \{e\}$. Số nguyên nhỏ nhất $n$ sao cho $C^{n+1}(G) = \{e\}$ được gọi là lớp lũy linh của một nhóm lũy linh $G$.*
 
 Nếu $n \in \mathbf{N}$, một nhóm có lớp lũy linh $n$ được gọi là một nhóm lũy linh lớp $n$. Đôi khi người ta nói rằng lớp lũy linh của một nhóm $G$ là hữu hạn nếu $G$ là lũy linh.
 
-#### Ví dụ {#alg-i-s6-n3-exa-1 .statement}
+#### Ví dụ {#alg-i-s6-n3-exa-1 .statement tag=05DB}
 
 (1) Một nhóm là lũy linh lớp 0 (tương ứng, $\leq 1$) khi và chỉ khi nó chỉ gồm phần tử đơn vị (tương ứng, là giao hoán).
 
@@ -384,7 +384,7 @@ Nếu $n \in \mathbf{N}$, một nhóm có lớp lũy linh $n$ được gọi là
 
 (4) Một tích hữu hạn của các nhóm lũy linh là lũy linh.
 
-#### Mệnh đề 7 {#alg-i-s6-prop-7 .statement}
+#### Mệnh đề 7 {#alg-i-s6-prop-7 .statement tag=05DC}
 
 *Cho $G$ là một nhóm và $n$ là một số nguyên. Các điều kiện sau là tương đương:*
 
@@ -404,11 +404,11 @@ $$
 
 Nói vắn tắt hơn: một nhóm lũy linh cấp $\leq n$ nếu nó có thể thu được từ nhóm $\{e\}$ bằng $n$ mở rộng trung tâm liên tiếp.
 
-#### Hệ quả {#alg-i-s6-n3-cor-1 .statement}
+#### Hệ quả {#alg-i-s6-n3-cor-1 .statement tag=05DD}
 
 *Một mở rộng trung tâm của một nhóm lũy linh (bởi một nhóm tất yếu giao hoán) là lũy linh.*
 
-#### Mệnh đề 8 {#alg-i-s6-prop-8 .statement}
+#### Mệnh đề 8 {#alg-i-s6-prop-8 .statement tag=05DE}
 
 *Cho $G$ là một nhóm lũy linh cấp $\leq n$ và $H$ là một nhóm con của $G$. Tồn tại một dãy các nhóm con*
 
@@ -434,19 +434,19 @@ và $(G, G^k).H$ được chứa trong $G^{k+1}.H = H^{k+1}$; do đó $s.H^{k+1}
 
 Sau cùng, đồng cấu chính tắc $G^k/G^{k+1} \to H^k/H^{k+1}$ hiển nhiên là toàn ánh; vì nhóm thứ nhất là giao hoán, nên nhóm thứ hai cũng vậy.
 
-#### Hệ quả 1 {#alg-i-s6-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#alg-i-s6-prop-8-cor-1 .statement tag=05DF}
 
 *Cho $G$ là một nhóm lũy linh và $H$ là một nhóm con của $G$. Nếu $H$ khác $G$, thì chuẩn hóa tử $N_G(H)$ của $H$ trong $G$ khác $H$.*
 
 Lấy $k$ là chỉ số lớn nhất sao cho $H^k \neq H$. Nhóm $H^k$ chuẩn hóa $H$ và khác $H$.
 
-#### Hệ quả 2 {#alg-i-s6-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#alg-i-s6-prop-8-cor-2 .statement tag=05DG}
 
 *Cho $G$ là một nhóm lũy linh và $H$ là một nhóm con của $G$. Nếu $H$ khác $G$, thì tồn tại một nhóm con chuẩn tắc $N$ của $G$, chứa $H$, khác $G$ và sao cho $G/N$ là giao hoán.*
 
 Lấy $k$ là chỉ số nhỏ nhất sao cho $H^k \neq G$. Nhóm $H^k$ thỏa mãn các điều kiện đòi hỏi.
 
-#### Hệ quả 3 {#alg-i-s6-prop-8-cor-3 .statement}
+#### Hệ quả 3 {#alg-i-s6-prop-8-cor-3 .statement tag=05DH}
 
 *Cho G là một nhóm lũy linh và H là một nhóm con của G. Nếu G = H.(G, G), thì G = H.*
 
@@ -454,7 +454,7 @@ Mọi nhóm con N của G chứa H và sao cho G/N là giao hoán đều chứa 
 
 Hệ quả 3 cũng có thể được phát biểu như sau: cho X là một tập con của G. Để X sinh ra G, điều kiện cần và đủ là ảnh của X trong G/D(G) sinh ra G/D(G).
 
-#### Hệ quả 4 {#alg-i-s6-prop-8-cor-4 .statement}
+#### Hệ quả 4 {#alg-i-s6-prop-8-cor-4 .statement tag=05DI}
 
 *Cho f: G' → G là một đồng cấu nhóm. Giả sử rằng*
 (a) *G là lũy linh.*
@@ -463,7 +463,7 @@ Hệ quả 3 cũng có thể được phát biểu như sau: cho X là một t�
 
 Điều này suy ra từ Hệ quả 3 áp dụng cho nhóm con H = f(G').
 
-#### Mệnh đề 9 {#alg-i-s6-prop-9 .statement}
+#### Mệnh đề 9 {#alg-i-s6-prop-9 .statement tag=05DJ}
 
 *Cho G là một nhóm lũy linh có lớp ≤ n và N là một nhóm con chuẩn tắc của G. Tồn tại một chuỗi các nhóm con*
 
@@ -479,13 +479,13 @@ $$
 N^k = G^k \cap N.
 $$
 
-#### Hệ quả 1 {#alg-i-s6-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#alg-i-s6-prop-9-cor-1 .statement tag=05DK}
 
 *Cho G là một nhóm lũy linh, Z là tâm của G và N là một nhóm con chuẩn tắc của G. Nếu N ≠ {e}, thì N ∩ Z ≠ {e}.*
 
 Lấy k là chỉ số lớn nhất sao cho N^k ≠ {e}. Nhóm N^k được chứa trong N. Mặt khác, (G, N^k) ⊂ N^{k+1} = {e}; do đó N^k được chứa trong tâm Z của G.
 
-#### Hệ quả 2 {#alg-i-s6-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#alg-i-s6-prop-9-cor-2 .statement tag=05DL}
 
 *Cho f là một đồng cấu từ một nhóm lũy linh G vào một nhóm G'. Nếu hạn chế của f lên tâm của G là đơn ánh, thì f là đơn ánh.*
 
@@ -493,7 +493,7 @@ Lấy k là chỉ số lớn nhất sao cho N^k ≠ {e}. Nhóm N^k được ch�
 
 ### 4. CHUỖI DẪN XUẤT, NHÓM GIẢI ĐƯỢC
 
-#### Định nghĩa 7 {#alg-i-s6-def-7 .statement}
+#### Định nghĩa 7 {#alg-i-s6-def-7 .statement tag=05DM}
 
 *Cho G là một nhóm. Chuỗi dẫn xuất của G là chuỗi $(D^n(G))_{n \in \mathbf{N}}$ được định nghĩa bằng quy nạp như sau:*
 
@@ -507,13 +507,13 @@ Cho $f : G \to G'$ là một đồng cấu nhóm. Ta thấy, bằng quy nạp th
 
 Cho $(G_0, G_1, \ldots)$ là một dãy giảm các nhóm con của G sao cho: (1) $G_0 = G$; (2) với mọi $i$, $G_{i+1}$ là một nhóm con chuẩn tắc của $G_i$ và $G_i/G_{i+1}$ là giao hoán. Khi đó $D^i(G) \subset G_i$ với mọi $i$, như thấy được bằng quy nạp theo $i$.
 
-#### Định nghĩa 8 {#alg-i-s6-def-8 .statement}
+#### Định nghĩa 8 {#alg-i-s6-def-8 .statement tag=05DN}
 
 *Một nhóm G được gọi là giải được nếu tồn tại một số nguyên n sao cho $D^n(G) = \{e\}$. Nếu G là một nhóm giải được, thì số nguyên nhỏ nhất n sao cho $D^n(G) = \{e\}$ được gọi là lớp giải được của G.*
 
 Một nhóm giải được có lớp giải được $n$ được gọi là một nhóm giải được lớp $n$. Đôi khi người ta nói rằng một nhóm có lớp giải được hữu hạn nếu nó giải được.
 
-#### Ví dụ {#alg-i-s6-n4-exa-1 .statement}
+#### Ví dụ {#alg-i-s6-n4-exa-1 .statement tag=05DO}
 
 (1) Một nhóm giải được lớp 0 (tương ứng, $\leq 1$) nếu và chỉ nếu nó rút về $\{e\}$ (tương ứng, là giao hoán).
 
@@ -527,7 +527,7 @@ Một nhóm giải được có lớp giải được $n$ được gọi là m�
 
 (6) *Nếu A là một vành giao hoán, nhóm tam giác trên T(n, A) là giải được nhưng nói chung không lũy linh.*
 
-#### Mệnh đề 10 {#alg-i-s6-prop-10 .statement}
+#### Mệnh đề 10 {#alg-i-s6-prop-10 .statement tag=05DP}
 
 *Cho G là một nhóm và n là một số nguyên. Các điều kiện sau là tương đương:*
 
@@ -549,7 +549,7 @@ $$
 
 Nói vắn tắt hơn: một nhóm giải được lớp $\leq n$ nếu nó có thể thu được bằng các mở rộng liên tiếp của $n$ nhóm giao hoán.
 
-#### Hệ quả {#alg-i-s6-n4-cor-1 .statement}
+#### Hệ quả {#alg-i-s6-n4-cor-1 .statement tag=05DQ}
 
 Cho $G$ là một nhóm hữu hạn và
 $$
@@ -563,7 +563,7 @@ Nếu các thương của một chuỗi hợp thành của $G$ là cyclic và do
 
 Trong số này và số tiếp theo, chữ cái $p$ chỉ một số nguyên tố ($§ 4$, no 10, mệnh đề 16).
 
-#### Định nghĩa 9 {#alg-i-s6-def-9 .statement}
+#### Định nghĩa 9 {#alg-i-s6-def-9 .statement tag=05DR}
 
 Một nhóm hữu hạn có cấp là một lũy thừa của $p$ được gọi là một nhóm $p$.
 
@@ -573,7 +573,7 @@ Một mở rộng của một nhóm $p$ bởi một nhóm $p$ là một nhóm $p
 
 *Ví dụ. (1) Một nhóm $p$ giao hoán đẳng cấu với một tích các nhóm cyclic $\mathbf{Z}/p^n\mathbf{Z}$ (xem Bài tập 19 và cả VII, $§ 4$, no. 7, mệnh đề 7). (2) Cho $k$ là một trường hữu hạn có đặc số $p$. Nhóm tam giác ngặt $T_1(n, k)$ là một nhóm $p$. (3) Nhóm quaternion $\{ \pm 1, \pm i, \pm j, \pm k \}$ là một nhóm 2 (xem Bài tập 4).*
 
-#### Mệnh đề 11 {#alg-i-s6-prop-11 .statement}
+#### Mệnh đề 11 {#alg-i-s6-prop-11 .statement tag=05DS}
 
 Cho $E$ là một tập hợp hữu hạn và $G$ là một nhóm $p$ tác động lên $E$. Gọi $E^G$ là tập hợp các $x \in E$ sao cho $gx = x$ với mọi $g \in G$ (các điểm bất động). Khi đó
 $$
@@ -582,7 +582,7 @@ $$
 
 E — E^G là một hợp rời nhau của các quỹ đạo không thu về một điểm. Lực lượng của một quỹ đạo như vậy là một lũy thừa của $p$ phân biệt với $p^0 = 1$ và do đó là một bội của $p$.
 
-#### Hệ quả {#alg-i-s6-n5-cor-1 .statement}
+#### Hệ quả {#alg-i-s6-n5-cor-1 .statement tag=05DT}
 
 *Cho G là một nhóm p. Nếu G không thu về e, thì tâm của nó không thu về e.*
 
@@ -594,7 +594,7 @@ $$
 
 do đó $\operatorname{Card}(Z) \neq 1$ và $Z \neq \{e\}$.
 
-#### Định lý 1 {#alg-i-s6-thm-1 .statement}
+#### Định lý 1 {#alg-i-s6-thm-1 .statement tag=05DU}
 
 *Cho G là một nhóm p và $p^r$ là cấp của nó. Tồn tại một dãy các nhóm con của G*
 
@@ -606,13 +606,13 @@ $$
 
 Định lý là đúng đối với $G = \{e\}$. Ta chứng minh nó bằng quy nạp theo $\operatorname{Card}(G)$. Gọi Z là tâm của G, $x \neq e$ một phần tử của Z (Hệ quả của Mệnh đề 11) và $p^s, s \neq 0,$ là cấp của x. Khi đó $x^{p^s - 1}$ là một phần tử cấp $p$ và vì thế Z chứa một nhóm con $G'$ là cyclic cấp $p$. Theo giả thiết quy nạp, nhóm $G' = G/G'$ có một chuỗi nhóm con $({G'}^k)_{1 \leq k \leq r}$ với các tính chất cần có. Gọi $\pi : G \to G'$ là đồng cấu chính tắc. Dãy các nhóm con của G được xác định bởi $G^k = \pi^{-1}({G'}^k), 1 \leq k \leq r, G^{r+1} = \{e\}$ là một nghiệm vì $G^k/G^{k+1}$ đẳng cấu với ${G'}^k/{G'}^{k+1}$ đối với $1 \leq k \leq r$ (§ 4, no. 7, Định lý 4).
 
-#### Hệ quả {#alg-i-s6-n5-cor-2 .statement}
+#### Hệ quả {#alg-i-s6-n5-cor-2 .statement tag=05DV}
 
 *Mọi p-nhóm đều lũy linh.*
 
 Điều này suy ra từ no. 3, Mệnh đề 7.
 
-#### Mệnh đề 12 {#alg-i-s6-prop-12 .statement}
+#### Mệnh đề 12 {#alg-i-s6-prop-12 .statement tag=05DW}
 
 *Cho G là một p-nhóm và H là một nhóm con của G phân biệt với G. Khi đó:*
 
@@ -621,13 +621,13 @@ $$
 
 Mệnh đề (a) suy ra từ no. 3, Hệ quả 1 của Mệnh đề 8. Ta chứng minh (b). Theo no. 3, Hệ quả 2 của Mệnh đề 8, tồn tại một nhóm con chuẩn tắc $N'$ của G chứa H, phân biệt với G và sao cho $G/N'$ giao hoán. Gọi N là một nhóm con cực đại phân biệt với G và chứa $N'$. Khi đó N là chuẩn tắc (no. 2, Hệ quả 3 của Mệnh đề 6) và $G/N$ là một p-nhóm giao hoán đơn, nên cyclic cấp $p$ (§ 4, no. 10, Hệ quả của Mệnh đề 20).
 
-#### Hệ quả {#alg-i-s6-n5-cor-3 .statement}
+#### Hệ quả {#alg-i-s6-n5-cor-3 .statement tag=05DX}
 
 *Cho G là một p-nhóm. Mọi nhóm con của G có chỉ số p đều là chuẩn tắc.*
 
 ### 6. CÁC NHÓM CON SYLOW
 
-#### Định nghĩa 10 {#alg-i-s6-def-10 .statement}
+#### Định nghĩa 10 {#alg-i-s6-def-10 .statement tag=05DY}
 
 Cho G là một nhóm hữu hạn. Một nhóm con Sylow p của G là bất kỳ nhóm con P nào của G thỏa mãn hai điều kiện sau:
 
@@ -636,18 +636,18 @@ Cho G là một nhóm hữu hạn. Một nhóm con Sylow p của G là bất k�
 
 Nếu cấp của G được viết dưới dạng $p^r m$, trong đó m không là bội của $p$, thì các điều kiện (a) và (b) tương đương với $\mathrm{Card}(P) = p^r$.
 
-#### Ví dụ {#alg-i-s6-n6-exa-1 .statement}
+#### Ví dụ {#alg-i-s6-n6-exa-1 .statement tag=05DZ}
 
 (1) Trong nhóm $\mathfrak{S}_p$, gọi $\zeta$ là một chu trình cấp $p$. Nhóm con sinh bởi $\zeta$ là một nhóm con Sylow $p$ của $\mathfrak{S}_p$ vì $p$ không chia hết $(p - 1)!$.
 (2) *Cho k là một trường hữu hạn có đặc số $p$ và n là một số nguyên dương. Nhóm tam giác ngặt $T_1(n, k)$ là một nhóm con Sylow $p$ của nhóm $\mathbf{GL}(n, k)$.*
 
-#### Định lý 2 {#alg-i-s6-thm-2 .statement}
+#### Định lý 2 {#alg-i-s6-thm-2 .statement tag=05E0}
 
 Mọi nhóm hữu hạn đều chứa một nhóm con Sylow $p$.
 
 Chứng minh dựa trên bổ đề sau đây.
 
-#### Bổ đề {#alg-i-s6-n6-lem-1 .statement}
+#### Bổ đề {#alg-i-s6-n6-lem-1 .statement tag=05E1}
 
 Cho $n = p^r m$, trong đó m là một số nguyên không là bội của $p$. Khi đó
 $$
@@ -668,17 +668,17 @@ do đó, theo bổ đề, $\mathrm{Card}(E) \not\equiv 0 \pmod{p}$. Xét mở r�
 
 $(G:H_x) \not\equiv 0 \pmod{p}$, điều đó có nghĩa là $p^r$ chia $\mathrm{Card}(H_x)$. Nhưng $H_x$ gồm các $s \in G$ sao cho $sX = X$; nếu $x \in X$, thì $H_x \subset X.x^{-1}$, do đó $\mathrm{Card}(H_x) \leqslant \mathrm{Card}(X) = p^r$. Suy ra $\mathrm{Card}(H_x) = p^r$.
 
-#### Hệ quả {#alg-i-s6-n6-cor-1 .statement}
+#### Hệ quả {#alg-i-s6-n6-cor-1 .statement tag=05E2}
 
 *Nếu cấp của G chia được cho p, thì nhóm G chứa một phần tử có cấp p.*
 
 Theo Định lý 2, điều này được quy về trường hợp G là một $p$-nhóm $\neq \{e\}$; nếu $x \in G$ khác e, thì nhóm cyclic sinh bởi x khi đó có cấp $p^n$ với $n \geqslant 1$ và vì vậy nó chứa một nhóm con có cấp $p$.
 
-#### Nhận xét {#alg-i-s6-n6-rem-1 .statement}
+#### Nhận xét {#alg-i-s6-n6-rem-1 .statement tag=05E3}
 
 Với mọi số nguyên tố q chia Card(G), cho P_q là một nhóm con Sylow q của G. Khi đó nhóm con H của G sinh bởi các P_q có cấp là một bội của Card(P_q) với mỗi q và có cấp là một ước của Card(G), nên nó bằng G.
 
-#### Định lý 3 {#alg-i-s6-thm-3 .statement}
+#### Định lý 3 {#alg-i-s6-thm-3 .statement tag=05E4}
 
 *Cho G là một nhóm hữu hạn.*
 (a) *Các nhóm con Sylow p của G liên hợp với nhau. Số lượng của chúng đồng dư với 1 mod. p.*
@@ -690,19 +690,19 @@ Nếu H là một nhóm con Sylow $p$, thì Card(H) = Card(P) = Card($gPg^{-1}$)
 
 Bây giờ chúng ta chứng minh mệnh đề thứ hai của (a). Cho $\mathscr{S}$ là tập hợp các nhóm con Sylow $p$ của G và cho P tác dụng trên $\mathscr{S}$ bằng các tự đẳng cấu nội. Phần tử $P \in \mathscr{S}$ là một điểm cố định dưới phép toán này, ta chứng minh rằng nó là điểm duy nhất. Cho $Q \in \mathscr{S}$ là một điểm cố định; Q là một nhóm con Sylow của G được chuẩn hóa bởi P và vì thế P được chứa trong chuẩn hóa tử N của Q. Các nhóm P và Q là những nhóm con Sylow $p$ của N; do đó tồn tại $n \in N$ sao cho $P = nQn^{-1} = Q$. Theo no. 5, Mệnh đề 11, Card($\mathscr{S}^P$) $\equiv$ Card($\mathscr{S}^{P^P}$) = 1 (mod. $p$).
 
-#### Hệ quả 1 {#alg-i-s6-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-i-s6-thm-3-cor-1 .statement tag=05E5}
 
 *Cho P là một nhóm con Sylow p của G, cho N là chuẩn hóa tử của nó trong G và cho M là một nhóm con của G chứa N. Chuẩn hóa tử của M trong G bằng M.*
 
 Cho $s \in G$ sao cho $sMs^{-1} = M$. Nhóm con $sPs^{-1}$ của M là một nhóm con Sylow $p$ của M. Vì thế tồn tại $t \in M$ sao cho $sPs^{-1} = tPt^{-1}$; khi đó $t^{-1}s \in N$, do đó $s \in tN \subset M$.
 
-#### Hệ quả 2 {#alg-i-s6-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-i-s6-thm-3-cor-2 .statement tag=05E6}
 
 *Cho $f : G_1 \to G_2$ là một đồng cấu của các nhóm hữu hạn. Với mọi nhóm con Sylow p $P_1$ của $G_1$ đều tồn tại một nhóm con Sylow p $P_2$ của $G_2$ sao cho $f(P_1) \subset P_2$.*
 
 Điều này suy ra từ Định lý 3 (b) áp dụng cho nhóm con $f(P_1)$ của $G_2$.
 
-#### Hệ quả 3 {#alg-i-s6-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#alg-i-s6-thm-3-cor-3 .statement tag=05E7}
 
 (a) Cho $H$ là một nhóm con của $G$. Với mọi nhóm con Sylow $p$ $P$ của $H$ đều tồn tại một nhóm con Sylow $p$ $Q$ của $G$ sao cho $P = Q \cap H$.
 
@@ -712,7 +712,7 @@ Cho $s \in G$ sao cho $sMs^{-1} = M$. Nhóm con $sPs^{-1}$ của M là một nh�
 
 (b) Cho $P'$ là một nhóm con Sylow $p$ của $H$. Tồn tại một phần tử $g \in G$ sao cho $gP'g^{-1} \subset Q$. Vì $H$ là chuẩn tắc, $P = gP'g^{-1}$ được chứa trong $H$ và do đó trong $Q \cap H$. Vì $Q \cap H$ là một nhóm con $p$ của $H$ và $P$ là một nhóm con Sylow $p$ của $H$, nên $P = Q \cap H$.
 
-#### Hệ quả 4 {#alg-i-s6-thm-3-cor-4 .statement}
+#### Hệ quả 4 {#alg-i-s6-thm-3-cor-4 .statement tag=05E8}
 
 Cho $N$ là một nhóm con chuẩn tắc của $G$. Ảnh trong $G/N$ của một nhóm con Sylow $p$ của $G$ là một nhóm con Sylow $p$ của $G/N$, và mọi nhóm con Sylow $p$ của $G/N$ đều thu được theo cách này.
 
@@ -720,7 +720,7 @@ Cho $G' = G/N$ và $P'$ là ảnh trong $G'$ của một nhóm con Sylow $p$ $P$
 
 ### 7. NHÓM LŨY LINH HỮU HẠN
 
-#### Định lý 4 {#alg-i-s6-thm-4 .statement}
+#### Định lý 4 {#alg-i-s6-thm-4 .statement tag=05E9}
 
 Cho $G$ là một nhóm hữu hạn. Các điều kiện sau là tương đương:
 
@@ -733,7 +733,7 @@ Giả sử (a) đúng và cho $P$ là một nhóm con Sylow $p$ của $G$. Nếu
 
 Giả sử (c) đúng và gọi $I$ là tập hợp các số nguyên tố chia $\mathrm{Card}(G)$. Với mọi $p \in I$, gọi $P_p$ là một nhóm con Sylow $p$ chuẩn tắc của $G$. Với mọi $p \neq q$, $P_p \cap P_q$ thu về $e$ vì nó vừa là một $p$-nhóm vừa là một $q$-nhóm, do đó $P_p$ và $P_q$ chuẩn hóa lẫn nhau ($§ 4$, no. 9, mệnh đề 15). Gọi $\phi$ là đồng cấu chính tắc ($§ 4$, no. 9, mệnh đề 12) từ $\prod_{p \in I} P_p$ vào $G$. Đồng cấu $\phi$ là toàn ánh theo Nhận xét của no. 6. Vì $\mathrm{Card}\left(\prod_{p \in I} P_p\right) = \mathrm{Card}(G)$, suy ra $\phi$ là song ánh.
 
-#### Nhận xét {#alg-i-s6-n7-rem-1 .statement}
+#### Nhận xét {#alg-i-s6-n7-rem-1 .statement tag=05EA}
 
 (1) Cho G là một nhóm hữu hạn và $p$ là một số nguyên tố. Theo no. 6, Định lý 3 (a) và no. 6, Định lý 2, các điều kiện sau là tương đương:
 (i) tồn tại một nhóm con Sylow $p$ chuẩn tắc của G;
@@ -744,7 +744,7 @@ Giả sử (c) đúng và gọi $I$ là tập hợp các số nguyên tố chia 
 
 (3) Áp dụng cho các nhóm giao hoán, Định lý 4 cho phân tích các nhóm hữu hạn giao hoán thành một tích của các thành phần nguyên sơ; điều này sẽ được nghiên cứu theo một quan điểm khác trong Chương VII.
 
-#### Ví dụ {#alg-i-s6-n7-exa-1 .statement}
+#### Ví dụ {#alg-i-s6-n7-exa-1 .statement tag=05EB}
 
 Nhóm $\mathfrak{S}_3$ có cấp 6. Nó chứa một nhóm con Sylow 3 chuẩn tắc có cấp 3: nhóm $A_3$. Nó chứa ba nhóm con Sylow 2 có cấp 2: các nhóm $\{e, \tau\}$, trong đó $\tau$ là một phép hoán vị đổi chỗ. Do đó nhóm $\mathfrak{S}_3$ không lũy linh.
 

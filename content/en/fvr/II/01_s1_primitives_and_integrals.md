@@ -37,7 +37,7 @@ subsections:
       pdf_page: 77
 statements: 28
 exercises: 23
-content_sha256: ce676b7be24a9e9f40e9596ed447132bffd5c794bd4a52cc88d3027b8f4b73a5
+content_sha256: 966025e49c722d33da4fca08c6c4f13c4514b7e1ed5ae715959b710f37572bbe
 ---
 
 ## § 1. PRIMITIVES AND INTEGRALS
@@ -48,7 +48,7 @@ Unless expressly mentioned to the contrary, in this chapter we shall only consid
 
 A vector function $f$ defined on an interval $I \subset \mathbf{R}$ cannot be the derivative at every point of this interval of a vector function $g$ (defined and continuous on $I$) unless it satisfies quite stringent conditions: for example, if $f$ admits a right limit and a left limit at a point $x_0$ interior to $I$ then $f$ must be continuous at the point $x_0$, as follows from prop. 6 of I, p. 18; it follows, that if one takes the interval $[ -1 , 1 ]$ for $I$, and for $f$ the real function equal to $-1$ on $[ -1 , 0[$, and to $+1$ on $[0 , 1]$, then $f$ is not the derivative of any continuous function on $I$; all the same, the function $|x|$ has $f(x)$ as its derivative at every point $\neq 0$; one is thus led to make the following definition:
 
-#### Definition 1 {#fvr-ii-s1-def-1 .statement}
+#### Definition 1 {#fvr-ii-s1-def-1 .statement tag=0870}
 
 *Given a vector function $f$ defined on an interval $I \subset \mathbf{R}$ we say that a function $g$ defined on $I$ is a primitive of $f$ if $g$ is continuous on $I$ and has a derivative equal to $f(x)$ at every point $x$ of the complement (with respect to $I$) of a countable subset of $I$.*
 
@@ -58,7 +58,7 @@ With this definition, one sees that the real function $f$ considered above admit
 
 It is clear that if $f$ admits a primitive on $I$ then every primitive of $f$ is also a primitive of every function which is equal to $f$ except at the points of a countable subset of $I$. By an abuse of language one speaks of a primitive on $I$ of a function $f_0$ defined only on the complement (with respect to $I$) of a countable subset of $I$: this will be the primitive of every function $f$ defined on $I$ and equal to $f_0$ at the points where $f_0$ is defined.
 
-#### Proposition 1 {#fvr-ii-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-ii-s1-prop-1 .statement tag=0871}
 
 *Let $f$ be a vector function defined on $I$ with values in $E$; if $f$ admits a primitive $g$ on $I$ then the set of primitives of $f$ on $I$ is identical to the set of functions $g + a$, where $a$ is a constant function with its values in $E$.*
 
@@ -70,7 +70,7 @@ One says that the primitives of a function $f$ (when they exist) are defined “
 
 Let $f$ be a function defined on an arbitrary interval $I \subset \mathbf{R}$; for a function $g$ defined on $I$ to be a primitive of $f$, it is necessary and sufficient that the restriction of $g$ to every compact interval $J \subset I$ be a primitive of the restriction of $f$ to $J$.
 
-#### Theorem 1 {#fvr-ii-s1-thm-1 .statement}
+#### Theorem 1 {#fvr-ii-s1-thm-1 .statement tag=0872}
 
 *Let $A$ be a set filtered by a filter $\mathfrak{F}$, and $(f_\alpha)_{\alpha \in A}$ a family of vector functions with values in a complete normed space $E$ over $\mathbf{R}$, defined on an interval $I \subset \mathbf{R}$: for each $\alpha \in A$ let $g_\alpha$ be a primitive of $f_\alpha$. We suppose that:
 1. with respect to the filter $\mathfrak{F}$ the functions $f_\alpha$ converge uniformly on every compact subset of $I$ to a function $f$;
@@ -107,11 +107,11 @@ $$
 
 for $y \in I$ and $|y - x| \leq h$, which completes the proof.
 
-#### Corollary 1 {#fvr-ii-s1-thm-1-cor-1 .statement}
+#### Corollary 1 {#fvr-ii-s1-thm-1-cor-1 .statement tag=0873}
 
 *The set $\mathscr{H}$ of maps from I into E which admit a primitive on an interval I is a closed (and so complete) vector subspace of the complete vector space $\mathscr{F}_c(I; E)$ of maps from I into E, endowed with the topology of uniform convergence on every compact subset of I* (*Gen. Top.*, X, p. 277).
 
-#### Corollary 2 {#fvr-ii-s1-thm-1-cor-2 .statement}
+#### Corollary 2 {#fvr-ii-s1-thm-1-cor-2 .statement tag=0874}
 
 *Let $x_0$ be a point of I, and for each function $f \in \mathscr{H}$ let $P(f)$ be the primitive of $f$ which vanishes at the point $x_0$; the map $f \mapsto P(f)$ of $\mathscr{H}$ into $\mathscr{F}_c(I; E)$ is a continuous linear mapping.*
 
@@ -119,19 +119,19 @@ Cor. 1 to th. 1 allows us to establish the existence of primitives for certain c
 
 ### 3. REGULATED FUNCTIONS
 
-#### Definition 2 {#fvr-ii-s1-def-2 .statement}
+#### Definition 2 {#fvr-ii-s1-def-2 .statement tag=0875}
 
 *One says that a map $f$ of an interval $I \subset \mathbf{R}$ into a set E is a step function if there is a partition of I into a finite number of intervals $J_k$ such that $f$ is constant on each of the $J_k$.*
 
 Let $(a_i)_{0 \leq i \leq n}$ be the strictly increasing sequence formed by the distinct endpoints of the $J_k$; since the $J_k$ are pairwise disjoint each of them either reduces to a singleton $a_i$ or is an interval with two consecutive points $a_i, a_{i+1}$ as endpoints; moreover, since I is the union of the $J_k$, the point $a_0$ is the left-hand endpoint, and $a_n$ is the right-hand endpoint of I. Every step function on I can thus be characterised as a function which is constant on each of the open intervals ]$a_i,\ a_{i+1}[\ (0 \leq i \leq n - 1)$, where $(a_i)_{0 \leq i \leq n}$ is a strictly increasing sequence of points of $I$ with $a_0$ being the left-hand endpoint and $a_n$ the right-hand endpoint of $I$.
 
-#### Proposition 2 {#fvr-ii-s1-prop-2 .statement}
+#### Proposition 2 {#fvr-ii-s1-prop-2 .statement tag=0876}
 
 *The set of step functions defined on $I$, with values in a vector space $E$ over $\mathbf{R}$, is a vector subspace $\mathscr{E}$ of the vector space $\mathscr{F}(I; E)$ of all maps of $I$ into $E$.*
 
 Indeed, let $f$ and $g$ be two step functions, and $(A_i)$ and $(B_j)$ two partitions of $I$ into a finite number of intervals such that $f$ (resp. $g$) is constant on each of the $A_i$ (resp. $B_j$); whatever the real numbers $\lambda, \mu$, it is clear that $\lambda f + \mu g$ is constant on each of the nonempty intervals $A_i \cap B_j$, and that these intervals form a partition of $I$.
 
-#### Corollary {#fvr-ii-s1-n3-cor-1 .statement}
+#### Corollary {#fvr-ii-s1-n3-cor-1 .statement tag=0877}
 
 *The vector subspace $\mathscr{E}$ is generated by the characteristic functions of intervals.*
 
@@ -139,7 +139,7 @@ Now let us consider the case where $E$ is a normed space over $\mathbf{R}$; it i
 
 We can now apply the method set out in n' 2.
 
-#### Definition 3 {#fvr-ii-s1-def-3 .statement}
+#### Definition 3 {#fvr-ii-s1-def-3 .statement tag=0878}
 
 *One says that a vector function, defined on an interval $I$, with values in a complete normed space $E$ over $\mathbf{R}$, is a regulated function, if it is the uniform limit of step functions on every compact subset of $I$.*
 
@@ -147,13 +147,13 @@ In other words, the regulated functions are the elements of the closure in $\mat
 
 Cor. I to II, p. 53 shows:
 
-#### Theorem 2 {#fvr-ii-s1-thm-2 .statement}
+#### Theorem 2 {#fvr-ii-s1-thm-2 .statement tag=0879}
 
 *Every regulated function on an interval $I$ admits a primitive on $I$.*
 
 We shall transform def. 3 of II, p. 4 to another equivalent one:
 
-#### Theorem 3 {#fvr-ii-s1-thm-3 .statement}
+#### Theorem 3 {#fvr-ii-s1-thm-3 .statement tag=087A}
 
 *For a vector function $f$ defined on an interval $I$, with values in a complete normed space $E$ over $\mathbf{R}$, to be regulated, it is necessary and sufficient that it have a right limit and a left limit at every interior point of $I$, and a right limit at the left-hand endpoint of $I$ and a left limit at the right-hand endpoint of $I$, when these points belong to $I$. The set of points of discontinuity of $f$ in $I$ is thus countable.*
 
@@ -165,13 +165,13 @@ Since every interval is a countable union of compact intervals, one can restrict
 
 Finally, let us show that if f is regulated on I then its set of points of discontinuity is countable. For every n > 0 there exists a step function g_n such that \|f(x) - g_n(x)\| \leq 1/n on I; since the sequence (g_n) converges uniformly to f on I, we see that f is continuous at every point where the g_n are all continuous (Gen. Top., X, p. 281, cor. 1); but since g_n is continuous except at the points of a finite set H_n it follows that f is continuous at the points of the complement of the set H = \bigcup_{n} H_n, which is countable.
 
-#### Corollary 1 {#fvr-ii-s1-thm-3-cor-1 .statement}
+#### Corollary 1 {#fvr-ii-s1-thm-3-cor-1 .statement tag=087B}
 
 Let f be a regulated function on I; at every point of I, apart from the right-hand endpoint (resp. the left-hand endpoint) of I, every primitive of f has a right derivative equal to f(x+) (resp. a left derivative equal to f(x-)); in particular, at every point x where f is continuous, f(x) is the derivative of one of its primitives.
 
 This is an immediate consequence of th. 3 of II, p. 54 and of prop. 6 of I, p. 18.
 
-#### Corollary 2 {#fvr-ii-s1-thm-3-cor-2 .statement}
+#### Corollary 2 {#fvr-ii-s1-thm-3-cor-2 .statement tag=087C}
 
 Let f_i (1 \leq i \leq n) be n regulated functions on an interval I, each f_i having its values in a complete normed space E_i over \mathbf{R} (1 \leq i \leq n). If g is a continuous map of the subspace \prod_{i=1}^{n} \overline{f_i(I)} of \prod_{i=1}^{n} E_i into a complete normed space F over \mathbf{R}, then the composite function x \mapsto g(f_1(x), f_2(x), \ldots, f_n(x)) is regulated on I.
 
@@ -181,31 +181,31 @@ Thus one sees that if f is a regulated vector function on I, then the real funct
 
 moreover, if $f$ and $g$ are two real regulated functions, then $\sup(f, g)$ and $\inf(f, g)$ are regulated.
 
-#### Remark 1 {#fvr-ii-s1-n3-rem-1 .statement}
+#### Remark 1 {#fvr-ii-s1-n3-rem-1 .statement tag=087D}
 
 If $f$ is a real regulated function on $I$, and $g$ is a regulated vector function on an interval containing $f(I)$, then the composite function $g \circ f$ is not necessarily regulated ($cf.$ II, p. 79, exerc. 4).
 
 Two particular cases of th. 3 of II, p. 54 are especially important:
 
-#### Proposition 3 {#fvr-ii-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-ii-s1-prop-3 .statement tag=087E}
 
 *Every continuous vector function on an interval $I \subset \mathbf{R}$ taking its values in a complete normed space $E$ over $\mathbf{R}$ is regulated, and admits a primitive on $I$, of which it is the derivative at every point.*
 
-#### Remark 2 {#fvr-ii-s1-n3-rem-2 .statement}
+#### Remark 2 {#fvr-ii-s1-n3-rem-2 .statement tag=087F}
 
 To show that a continuous function admits a primitive, one can use the fact that every *polynomial function* of a real variable (with coefficients in $E$) admits a primitive; since from the theorem of Weierstrass (*Gen. Top.*, X, p. 313, prop. 3) every continuous function is the uniform limit of polynomials on every compact interval, th. 1 of II, p. 52 shows that every continuous function admits a primitive.
 
-#### Remark 3 {#fvr-ii-s1-n3-rem-3 .statement}
+#### Remark 3 {#fvr-ii-s1-n3-rem-3 .statement tag=087G}
 
 The principle of the preceding remark extends without significant modification to vector functions of a *complex* variable taking values in a complete normed space over $\mathbf{C}$. If $U$ is an open set in $\mathbf{C}$, homeomorphic to $\mathbf{C}$, a *primitive* of such a vector function $f$ defined on $U$ is by definition a continuous function on $U$, having derivative equal to $f$ at every point of $U$. With this definition, th. 1 of II, p. 52 extends without modification (one proves, using the connectedness of $U$, that $(g_\alpha)$ is uniformly convergent with respect to $\mathscr{F}$ on a neighbourhood of each point of $U$, from which it follows that $(g_\alpha)$ is uniformly convergent with respect to $\mathscr{F}$ on every compact subset of $U$; the proof is completed using prop. 4 of I, p. 18). Consequently, every function which is a *uniform limit of polynomials* on every compact subset of $U$, admits a primitive on $U$; these functions are no other than the functions called *holomorphic* on $U$, which we shall study further in detail in a later Book.
 
-#### Proposition 4 {#fvr-ii-s1-prop-4 .statement}
+#### Proposition 4 {#fvr-ii-s1-prop-4 .statement tag=087H}
 
 *Every monotone real function $f$ on an interval $I \subset \mathbf{R}$ is regulated, and every primitive of $f$ is convex on $I$.*
 
 Indeed, $f$ satisfies the criterion of th. 3 of *Gen. Top.*, IV, p. 350, prop. 4; the second part of the proposition follows from cor. 1, from II, p. 55, and from prop. 5 of I, p. 27.
 
-#### Remark 4 {#fvr-ii-s1-n3-rem-4 .statement}
+#### Remark 4 {#fvr-ii-s1-n3-rem-4 .statement tag=087I}
 
 One must not think that the regulated functions on an interval $I$ are the only functions having a primitive on $I$ ($cf.$ II, p. 80, exercises 7 and 8).
 
@@ -217,7 +217,7 @@ $$
 $$
 where the $t_i$ belong to $[x_i,\ x_{i+1}]$ for $0 \leq i \leq n-1$. One then has the following proposition:
 
-#### Proposition 5 {#fvr-ii-s1-prop-5 .statement}
+#### Proposition 5 {#fvr-ii-s1-prop-5 .statement tag=087J}
 
 *Let $f$ be a regulated function on an interval I, let $g$ be a primitive of $f$ on I, and $[x_0,\ x]$ a compact interval contained in I. For every $\varepsilon > 0$ there exists a number $\rho > 0$ such that for every subdivision of $[x_0,\ x]$ into intervals of length $\leq \rho$ one has*
 $$
@@ -249,7 +249,7 @@ $$
 $$
 cannot exceed $4Mm\rho$; it therefore suffices to take $\rho \leq \varepsilon / 4Mm$ to obtain (1).
 
-#### Remark 1 {#fvr-ii-s1-n4-rem-1 .statement}
+#### Remark 1 {#fvr-ii-s1-n4-rem-1 .statement tag=087K}
 
 When $f$ is *continuous* prop. 5 can be proved more simply: since $f$ is uniformly continuous on $[x_0,\ x]$ there exists a $\rho > 0$ such that on every interval of length $\leq \rho$ contained in $[x_0,\ x]$ the oscillation of $f$ is $\leq \frac{\varepsilon}{x - x_0}$; for every subdivision of $[x_0,\ x]$ into intervals $[x_i,\ x_{i+1}]$ of length $\leq \rho$ and every choice of $t_i$ in $[x_i,\ x_{i+1}]$ for $0 \leq i \leq n-1$ the step function $f_1$ equal to $f(t_i)$ on $[x_i,\ x_{i+1}]$ ($0 \leq i \leq n-1$), and to $f(x)$ at the point x, is such that $\| f(y) - f_1(y) \| \leq \frac{\varepsilon}{x - x_0}$ on $[x_0, x]$; if $g_1$ is a primitive of $f_1$ one has
 $$
@@ -267,7 +267,7 @@ In other words, the element $\frac{1}{x - x_0} \int_{x_0}^x f(t) dt$ is the limi
 
 By definition, the function $x \mapsto \int_{x_0}^x f(t) dt$ is none other than the primitive of $f$ which vanishes at the point $x_0 \in I$; one also denotes it by $\int_{x_0}^x f(t) dt$ or $\int_{x_0}^x f$.
 
-#### Remark 2 {#fvr-ii-s1-n4-rem-2 .statement}
+#### Remark 2 {#fvr-ii-s1-n4-rem-2 .statement tag=087L}
 
 For an arbitrary function $h$ defined on I, with values in E, the element $h(x) - h(x_0)$ is also written as $h(t)\Big|_{x_0}^x$; with this notation one sees that if $g$ is any primitive of a regulated function $f$ on I, one has
 
@@ -275,11 +275,11 @@ $$
 \int_{x_0}^x f(t) dt = g(t)\Big|_{x_0}^x.
 $$
 
-#### Remark 3 {#fvr-ii-s1-n4-rem-3 .statement}
+#### Remark 3 {#fvr-ii-s1-n4-rem-3 .statement tag=087M}
 
 The expressions $\int_{x_0}^x f(t) dt$ and $g(t)\Big|_{x_0}^x$ are abbreviating symbols representing assemblies in which the letters $x, x_0, f, g$, but *not* the letter $t$, appear (*cf. Set Theory*, I, p. 15); one says that among these symbols $t$ is a "*dummy variable*": one can thus replace $t$ by any other variable distinct from $x, x_0, f$ and $g$ (and from variables which may possibly enter into the proof where these symbols appear) without changing the sense of the symbol so obtained (the reader may compare these symbols with symbols such as $\sum_{i=1}^n x_i$, or $\bigcup X_i$, where $i$ is likewise a dummy variable).
 
-#### Remark 4 {#fvr-ii-s1-n4-rem-4 .statement}
+#### Remark 4 {#fvr-ii-s1-n4-rem-4 .statement tag=087N}
 
 The approximation of an integral by Riemann sums is closely connected to one of the historical origins of the concept of an integral, the problem of the *measure* of areas. We shall come back to this point in the Book on Integration which is devoted to generalizations of the concept of integral to which this problem leads; in these generalizations the functions to be "*integrated*" are not necessarily defined on a subset of $\mathbf{R}$; moreover, even when one deals with (not necessarily regulated) real functions $f$ of a real variable for which one can define an integral $\int_{x_0}^x f(t)\,dt$, the function $x \mapsto \int_{x_0}^x f(t)\,dt$ is not always a primitive of $f$, and there exist functions which have a primitive but are not "integrable" in the sense to which we allude.
 
@@ -360,7 +360,7 @@ If, for example, one takes $f(x) = x^2$, one sees that the formula (12) reduces 
 
 To translate the mean value theorem (I, p. 14, th. 1) for primitives of real regulated functions, we first remark that a real regulated function $f$ on a compact interval $I$ is bounded on $I$; let $J$ be the set of points of $I$ where $f$ is *continuous*, and put $m = \inf_{x \in J} f(x)$, $M = \sup_{x \in J} f(x)$; one knows (II, p. 54, th. 3) that $I \cap \mathbf{C}J$ is countable; further, if $B$ is the complement, with respect to $I$, of any countable subset of $I$, and $m' = \inf_{x \in B} f(x)$, $M' = \sup_{x \in B} f(x)$, then one has $m' \leq m \leq M \leq M'$: indeed, for every point $x \in J$, there are points $y$ of B arbitrarily close to $x$, whence $m' \leq f(y) \leq M'$; since $f$ is continuous at the point $x$ one sees, making $y$ approach $x$ ($y$ remaining in B) that $m' \leq f(x) \leq M'$, which proves our assertion. This being so, translating the mean value theorem gives the following proposition:
 
-#### Proposition 6 (theorem of the mean) {#fvr-ii-s1-prop-6 .statement}
+#### Proposition 6 (theorem of the mean) {#fvr-ii-s1-prop-6 .statement tag=087O}
 
 *Let $f$ be a real regulated function on a compact interval $l = [a, b]$; if $J$ is the set of points of I where $f$ is continuous, and $m = \inf_{x \in J} f(x)$, $M = \sup_{x \in J} f(x)$, then*
 
@@ -374,11 +374,11 @@ $$
 
 In other words, the *mean* of the regulated function $f$ in I lies between the bounds of $f$ over the subset of I where $f$ is continuous.
 
-#### Corollary 1 {#fvr-ii-s1-prop-6-cor-1 .statement}
+#### Corollary 1 {#fvr-ii-s1-prop-6-cor-1 .statement tag=087P}
 
 *If a real regulated function $f$ on I is such that $f(x) \geq 0$ at the points where $f$ is continuous, then* $\frac{1}{b-a} \int_a^b f(t)\,dt > 0$ *unless* $f(x) = 0$ *at the points where* $f$ *is continuous.*
 
-#### Corollary 2 {#fvr-ii-s1-prop-6-cor-2 .statement}
+#### Corollary 2 {#fvr-ii-s1-prop-6-cor-2 .statement tag=087Q}
 
 *Let $f$ and $g$ be two real regulated functions on I, such that $g(x) \geq 0$ *at the points where* $g$ *is continuous; if* $m$ *and* $M$ *are the greatest lower bound and least upper bound of* $f$ *over the set of points where* $f$ *is continuous, then*
 
@@ -392,7 +392,7 @@ $$
 
 For vector functions the mean value theorem (I, p. 15, th. 2) yields the following proposition:
 
-#### Proposition 7 {#fvr-ii-s1-prop-7 .statement}
+#### Proposition 7 {#fvr-ii-s1-prop-7 .statement tag=087R}
 
 *Let* $\mathbf{f}$ *be a regulated vector function on a compact interval* $I = [a, b]$, *with values in a complete normed space* $E$, *and let* $g$ *be a real regulated function on* $I$, *such that* $g(x) \geq 0$ *at the points where* $g$ *is continuous; in these circumstances*
 

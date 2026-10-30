@@ -29,7 +29,7 @@ subsections:
       pdf_page: 111
 statements: 30
 exercises: 21
-content_sha256: bc8172c0efe500e14a509da134b6e01070541065f3c3b73ee943f9cf79f130a4
+content_sha256: 5a1cc21b1eb39135e8b2b41344fcaf3ba40ecd043ec0192b77c8b672b5efb1a1
 ---
 
 ## 10. PROPER MAPPINGS
@@ -40,11 +40,11 @@ content_sha256: bc8172c0efe500e14a509da134b6e01070541065f3c3b73ee943f9cf79f130a4
 
 If $f : X \to Y$ and $f' : X' \to Y'$ are two *continuous closed* mappings, the product $f \times f' : X \times X' \to Y \times Y'$ is not necessarily a closed map, even if $f$ is of the form $\iota_X$.
 
-#### Example {#top-i-s10-n1-exa-1 .statement}
+#### Example {#top-i-s10-n1-exa-1 .statement tag=0BA1}
 
 Every constant mapping into a Hausdorff space is closed. But it $f$ is the constant mapping $Q \to 0$, then $f \times \iota_Q$ is the mapping $(x, y) \to (0, y)$ of $Q^2$ into $Q^2$, so it is the second projection and is not closed (§ 4, no. 2, Remark 1).
 
-#### Definition 1 {#top-i-s10-def-1 .statement}
+#### Definition 1 {#top-i-s10-def-1 .statement tag=0BA2}
 
 *Let $f$ be a mapping of a topological space $X$ into a topological space $Y$. $f$ is said to be proper if $f$ is continuous and if the mapping $f \times \iota_Z : X \times Z \to Y \times Z$ is closed, for every topological space $Z$.*
 
@@ -52,11 +52,11 @@ We shall give other characterizations of proper mappings in no. 2 and 3.
 
 If in Definition 1 we take the space $Z$ to consist of a single point, we see that:
 
-#### Proposition 1 {#top-i-s10-prop-1 .statement}
+#### Proposition 1 {#top-i-s10-prop-1 .statement tag=0BA3}
 
 *Every proper mapping is closed.*
 
-#### Proposition 2 {#top-i-s10-prop-2 .statement}
+#### Proposition 2 {#top-i-s10-prop-2 .statement tag=0BA4}
 
 *Let $f : X \to Y$ be a continuous injection. Then the following three statements are equivalent:*
 a) $f$ is proper.
@@ -65,7 +65,7 @@ c) $f$ is a homeomorphism of $X$ onto a closed subset of $Y$.
 
 We have just seen that a) implies b). Since the equivalence relation $f(x) = f(x')$ is the equality relation, the quotient space of $X$ with respect to this relation can be identified with $X$; hence b) implies c) by reason of § 5, no. 2, Proposition 3. Finally, if c) is satisfied then $f \times \iota_Z$ is a homeomorphism of $X \times Z$ onto a closed subspace of $Y \times Z$ and is therefore a closed mapping; hence c) implies a).
 
-#### Proposition 3 {#top-i-s10-prop-3 .statement}
+#### Proposition 3 {#top-i-s10-prop-3 .statement tag=0BA5}
 
 *Let $f : X \to Y$ be a continuous mapping. If $T$ is any subset of $Y$, let $f_T$ denote the mapping $\overline{f}^{-1}(T) \to T$ which agrees with $f$ on $\overline{f}^{-1}(T)$.*
 a) *If $f$ is proper, so is $f_T$.*
@@ -81,7 +81,7 @@ $$
 $$
 are closed, whence $f \times \iota_Z$ is closed [§ 5, no. 1, Proposition 2 b)]. This completes the proof.
 
-#### Proposition 4 {#top-i-s10-prop-4 .statement}
+#### Proposition 4 {#top-i-s10-prop-4 .statement tag=0BA6}
 
 *Let $I$ be a finite set and for each $i \in I$ let $f_i : X_i \to Y_i$ be a continuous mapping. Let $X = \prod_{i \in I} X_i, \ Y = \prod_{i \in I} Y_i,$ and let $f : X \to Y$* be the product mapping $(x_i) \to (f_i(x_i))$. Then:
 a) *If each of the $f_i$ is proper, then $f$ is proper.*
@@ -98,7 +98,7 @@ these two mappings are closed by hypothesis, hence so is $f_1 \times f_2 \times 
 
 b) Now suppose $f$ is proper. Let $F$ be a closed subset of $X_2 \times Z$ and let $G$ be the image of $F$ in $Y_2 \times Z$ under the mapping $f_2 \times \iota_Z$. Then the image of $X_1 \times F$ in $Y_1 \times Y_2 \times Z$ under $f_1 \times f_2 \times \iota_Z$ is $f_1(X_1) \times G$. By hypothesis, this is closed in $Y_1 \times Y_2 \times Z$; if $X_1 \neq \emptyset$, then $f_1(X_1)$ is not empty, which implies that $G$ is closed in $Y_2 \times Z$ (§ 4, no. 3, Corollary to Proposition 7); hence $f_2$ is proper. Similarly $f_1$ is proper if $X_2 \neq \emptyset$.
 
-#### Proposition 5 {#top-i-s10-prop-5 .statement}
+#### Proposition 5 {#top-i-s10-prop-5 .statement tag=0BA7}
 
 *Let $f : X \to X'$ and $g : X' \to X''$ be two continuous mappings.*
 a) *If $f$ and $g$ are proper, then $g \circ f$ is proper.*
@@ -122,29 +122,29 @@ $$
 
 where $\varphi(x) = (x, f(x))$ and $\psi(x') = (g(x'), x')$. The mapping $\varphi$ (resp. $\psi$) is a homeomorphism of $X$ (resp. $X'$) onto the graph of $f$ (resp. the reflection of the graph of $g$) (§ 4, no. 1, Proposition 1, Corollary 2). Further, since $X'$ is Hausdorff, the graph $\varphi(X)$ of $f$ is closed in $X \times X'$ (§ 8, no. 1, Proposition 2, Corollary 2). Hence (Proposition 2) $\varphi$ is proper; on the other hand Proposition 4 shows that $(g \circ f) \times i_{X'}$ is proper. By a) above and the commutativity of the diagram (1), $\psi \circ f$ is proper; but $\psi$ is injective and therefore $f$ is proper by c) above.
 
-#### Remark {#top-i-s10-n1-rem-1 .statement}
+#### Remark {#top-i-s10-n1-rem-1 .statement tag=0BA8}
 
 If $X'$ is not Hausdorff it can happen that $g \circ f$ is proper and $f$ not; for example, take $X$ and $X''$ to consist of one point and $X'$ to consist of two points, with the coarsest topology.
 
-#### Corollary 1 {#top-i-s10-prop-5-cor-1 .statement}
+#### Corollary 1 {#top-i-s10-prop-5-cor-1 .statement tag=0BA9}
 
 *If $f : X \to Y$ is a proper mapping, then the restriction of $f$ to a closed subset $F$ of $X$ is a proper mapping of $F$ into $Y$.*
 
 For this restriction is the composition $f \circ j$, where $j : F \to X$ is the canonical injection, which is proper by Proposition 2.
 
-#### Corollary 2 {#top-i-s10-prop-5-cor-2 .statement}
+#### Corollary 2 {#top-i-s10-prop-5-cor-2 .statement tag=0BAA}
 
 *Let $f : X \to Y$ be a proper mapping, where $X$ is Hausdorff. Then the subspace $f(X)$ of $Y$ is Hausdorff.*
 
 By reason of Proposition 5 c) we need only consider the case where $f(X) = Y$. Then the diagonal of $Y \times Y$ is the image under $f \times f$ of the diagonal of $X$, which is closed (§ 8, no. 1, Proposition 1); $f \times f$ is proper (Proposition 4); hence the diagonal of $Y \times Y$ is closed (Proposition 1) and therefore $Y$ is Hausdorff (§ 8, no. 1, Proposition 1).
 
-#### Corollary 3 {#top-i-s10-prop-5-cor-3 .statement}
+#### Corollary 3 {#top-i-s10-prop-5-cor-3 .statement tag=0BAB}
 
 *Let $I$ be a finite set and for each $i \in I$, let $f_i : X \to Y_i$ be a proper mapping. If $X$ is Hausdorff, then the mapping $x \mapsto (f_i(x))$ of $X$ into $\prod_{i \in I} Y_i$ is proper.*
 
 This mapping is the composition of the product mapping $(x_i) \mapsto (f_i(x_i))$ of $X^I$ into $\prod_i Y_i$ and the diagonal mapping of $X$ into $X^I$; since the latter is proper (by Proposition 2 and § 8, no. 1, Proposition 1) the conclusion follows from Proposition 4 and Proposition 5 a).
 
-#### Corollary 4 {#top-i-s10-prop-5-cor-4 .statement}
+#### Corollary 4 {#top-i-s10-prop-5-cor-4 .statement tag=0BAC}
 
 *Let $X$ and $Y$ be two topological spaces, $f : X \to Y$ a continuous mapping, $R$ the equivalence relation $f(x) = f(y)$ on $X$, and*
 $$
@@ -158,7 +158,7 @@ The conditions are sufficient by virtue of Proposition 5 a) and Proposition 2. C
 
 In this subsection we shall denote by $P$ a space consisting of a single point, with its unique topology.
 
-#### Lemma 1 {#top-i-s10-lem-1 .statement}
+#### Lemma 1 {#top-i-s10-lem-1 .statement tag=0BAD}
 
 *Let $X$ be a topological space such that the constant mapping $X \to P$ is proper. Then $X$ is quasi-compact.*
 
@@ -168,7 +168,7 @@ We may restrict ourselves to the case where $X$ is not empty. Let $\mathfrak{F}$
 
 Q.E.D.
 
-#### Theorem 1 {#top-i-s10-thm-1 .statement}
+#### Theorem 1 {#top-i-s10-thm-1 .statement tag=0BAE}
 
 *Let $f : X \to Y$ be a continuous mapping. Then the following four statements are equivalent:
 
@@ -187,7 +187,7 @@ d) $\Longrightarrow$ a): We show first that if d) is satisfied, then $f$ is a cl
 
 To complete the proof we have to show that $f \times \iota_Z$ is closed for every topological space $Z$. From what has been proved it is enough to show that if $f$ satisfies condition d), then so does $f \times \iota_Z$. This is a consequence of the following general lemma:
 
-#### Lemma 2 {#top-i-s10-lem-2 .statement}
+#### Lemma 2 {#top-i-s10-lem-2 .statement tag=0BAF}
 
 *If* $(f_i)_{i \in I}$ *is a family of continuous mappings* $f_i : X_i \to Y_i$, *each of which satisfies condition d)* of Theorem 1, *then the product mapping*
 $$
@@ -197,19 +197,19 @@ $$
 
 Let $U$ be an ultrafilter on $X = \prod_i X_i$, and let $y = (y_i)$ be a point of $Y = \prod_i Y_i$ such that $f(U)$ converges to $y$. This means that each of the ultrafilter bases $\operatorname{pr}_i(f(U)) = f_i(\operatorname{pr}_i(U))$ converges to $y_i$ (§ 7, no. 6, Proposition 10, Corollary 1). By virtue of condition d), for each $i \in I$ there exists $x_i \in X_i$ such that $f_i(x_i) = y_i$ and $\operatorname{pr}_i(U)$ converges to $x_i$; but then $U$ converges to $x = (x_i)$ (*loc. cit.*) and we have $f(x) = y$. This completes the proof of Lemma 2 and hence of Theorem 1.
 
-#### Corollary 1 {#top-i-s10-lem-2-cor-1 .statement}
+#### Corollary 1 {#top-i-s10-lem-2-cor-1 .statement tag=0BAG}
 
 *A topological space* $X$ *is quasi-compact if and only if the mapping* $X \to P$ *is proper*.
 
 Apply a) $\iff$ b) to $X \to P$.
 
-#### Corollary 2 {#top-i-s10-lem-2-cor-2 .statement}
+#### Corollary 2 {#top-i-s10-lem-2-cor-2 .statement tag=0BAH}
 
 *Every continuous mapping* $f$ *of a quasi-compact space* $X$ *into a Hausdorff space* $Y$ *is proper*.
 
 The composition $X \xrightarrow{f} Y \to P$ is proper by Corollary 1; hence $f$ is proper by no. 1, Proposition 5 d). Alternatively we may apply the criterion b) of Theorem 1, using § 9, no. 4, Theorem 2, Corollary 2.
 
-#### Corollary 3 {#top-i-s10-lem-2-cor-3 .statement}
+#### Corollary 3 {#top-i-s10-lem-2-cor-3 .statement tag=0BAI}
 
 *If* $(f_i)$ *is a family of proper mappings, then the product mapping* $(x_i) \to (f_i(x_i))$ *is proper*.
 
@@ -217,23 +217,23 @@ In view of Theorem 1, this is just Lemma 2 above.
 
 If we apply this corollary to the family of mappings $X_i \to P$ and use Corollary 1, we have Tychonoff’s theorem (§ 9, no 5, Theorem 3).
 
-#### Corollary 4 {#top-i-s10-lem-2-cor-4 .statement}
+#### Corollary 4 {#top-i-s10-lem-2-cor-4 .statement tag=0BAJ}
 
 *Let* $X$ *be a Hausdorff space, and let* $f_i : X \to Y_i$ *be a family of proper mappings. Then the mapping* $f : x \to (f_i(x))$ *of* $X$ *into* $\prod_i Y_i$ *is proper*.
 
 The proof is the same as in the case of a finite family (no. 1, Proposition 5, Corollary 3), using Corollary 3 above and the fact that the diagonal of $X^1$ is closed (§ 8, no. 1, Proposition 1).
 
-#### Corollary 5 {#top-i-s10-lem-2-cor-5 .statement}
+#### Corollary 5 {#top-i-s10-lem-2-cor-5 .statement tag=0BAK}
 
 *If* $X$ *is any quasi-compact space and* $Y$ *is any topological space, then the projection* $\mathrm{pr}_2 : X \times Y \to Y$ *is proper*.
 
 For we may identify $Y$ with $P \times Y$ and $\mathrm{pr}_2$ with the product of $X \to P$ and $\iota_Y$, both of which are proper mappings.
 
-#### Example {#top-i-s10-n2-exa-1 .statement}
+#### Example {#top-i-s10-n2-exa-1 .statement tag=0BAL}
 
 Let $X$ be a set, and let $f : X \to X'$ be a mapping of $X$ onto a topological space $X'$; topologize $X$ with the inverse image under $f$ of the topology of $X'$. Then $f$ is *proper*, for $f$ is closed (§ 5, no. 1, Example 3) and the inverse image of a point of $X'$ is a subspace of $X$ whose topology is the coarsest topology and is therefore quasi-compact.
 
-#### Remark {#top-i-s10-n2-rem-1 .statement}
+#### Remark {#top-i-s10-n2-rem-1 .statement tag=0BAM}
 
 When $Y$ is *Hausdorff*, condition d) of Theorem 1 is equivalent to the following:
 
@@ -247,7 +247,7 @@ For c) $\Longrightarrow$ c') $\Longrightarrow$ d') $\Longrightarrow$ d) $\Longri
 
 On the other hand, if Y is not Hausdorff, then d') no longer implies d); for example, take X to consist of one point and Y to consist of two points, with the coarsest topology.
 
-#### Proposition 6 {#top-i-s10-prop-6 .statement}
+#### Proposition 6 {#top-i-s10-prop-6 .statement tag=0BAN}
 
 *Let $f : X \to Y$ be a proper mapping, and let K be a quasi-compact subset of Y. Then $\overline{f}^{-1}(K)$ is quasi-compact.*
 
@@ -255,13 +255,13 @@ By Proposition 3 of no. 1, the mapping $f_K : \overline{f}^{-1}(K) \to K$ is pro
 
 ### 3. PROPER MAPPINGS INTO LOCALLY COMPACT SPACES
 
-#### Proposition 7 {#top-i-s10-prop-7 .statement}
+#### Proposition 7 {#top-i-s10-prop-7 .statement tag=0BAO}
 
 *Let f be a continuous mapping of a Hausdorff space X into a locally compact space Y. Then f is proper if and only if the inverse image under f of every compact subset of Y is compact. Further, if f is proper then X is locally compact.*
 
 If f is proper and K is a compact subset of Y, then $\overline{f}^{-1}(K)$ is compact by Proposition 6 of no. 2. Conversely, if this condition is satisfied, let $(\mathbf{U}_\alpha)$ be a covering of Y by relatively compact open sets. Then the sets $\overline{f}^{-1}(\overline{\mathbf{U}}_\alpha)$ are compact in X and their interiors cover X; since X is Hausdorff this shows that X is locally compact. Furthermore, each of the mappings $f_{\overline{\mathbf{U}}_\alpha} : \overline{f}^{-1}(\alpha \overline{\mathbf{U}}) \to \overline{\mathbf{U}}_\alpha$ is proper (no. 2, Theorem 1, Corollary 2) and therefore f is proper by Proposition 3 b) of no. 1.
 
-#### Corollary {#top-i-s10-n3-cor-1 .statement}
+#### Corollary {#top-i-s10-n3-cor-1 .statement tag=0BAP}
 
 *Let X, X' be two locally compact spaces, and let Y (resp. Y') be the compact space obtained by adjoining a point at infinity $\omega$ (resp. $\omega'$) to X (resp. X') (§ 9, no. 8). Then a continuous mapping $f : X \to X'$ is proper if and only if its extension $\overline{f} : Y \to Y'$, such that $\overline{f}(\omega) = \omega'$, is continuous.*
 
@@ -269,7 +269,7 @@ By Proposition 7, f is proper if and only if, for each compact subset K' of X', 
 
 ### 4. QUOTIENT SPACES OF COMPACT SPACES AND LOCALLY COMPACT SPACES
 
-#### Proposition 8 {#top-i-s10-prop-8 .statement}
+#### Proposition 8 {#top-i-s10-prop-8 .statement tag=0BAQ}
 
 Let $X$ be a compact space, $R$ an equivalence relation on $X$, $C$ the graph of $R$ in $X \times X$, $f$ the canonical mapping $X \to X/R$. Then the following conditions are equivalent:
 
@@ -287,7 +287,7 @@ $R$ is closed if and only if $f$ is closed; hence b) implies c) by reason of The
 
 Finally it is clear that if $X/R$ is Hausdorff then it is compact ($\S$ 9, no. 4, Theorem 2).
 
-#### Proposition 9 {#top-i-s10-prop-9 .statement}
+#### Proposition 9 {#top-i-s10-prop-9 .statement tag=0BAR}
 
 Let $X$ be a locally compact space, $R$ an equivalence relation on $X$, $C$ the graph of $R$ in $X \times X$, $f$ the canonical mapping $X \to X/R$; let $X'$ be the compact space obtained by adjoining a point at infinity $\omega$ to $X$, and let $R'$ be the equivalence relation on $X'$ whose graph is $C' = C \cup \{(\omega, \omega)\}$. Then the following conditions are equivalent:
 
@@ -319,17 +319,17 @@ Finally we have to prove that $X/R$ is locally compact. $X'/R'$ is compact by c)
 
 Q.E.D.
 
-#### Corollary {#top-i-s10-n4-cor-1 .statement}
+#### Corollary {#top-i-s10-n4-cor-1 .statement tag=0BAS}
 
 *Let $X$ be a Hausdorff space, $Y$ a topological space, $f : X \to Y$ a proper mapping. Then for $X$ to be compact (resp. locally compact) it is necessary and sufficient that $f(X)$ is compact (resp. locally compact), and it is sufficient that $Y$ is compact (resp. locally compact).*
 
 f_z : X \to f(X) is proper [no. 1, Proposition 3 a)] it follows that X is compact (resp. locally compact) by reason of Proposition 6 of no. 2 and Proposition 7 of no. 3. Finally, if Y is compact (resp. locally compact) then so is f(X) which is closed in Y (no. 1, Proposition 1 and , no. 7, Proposition 13)
 
-#### Remark {#top-i-s10-n4-rem-1 .statement}
+#### Remark {#top-i-s10-n4-rem-1 .statement tag=0BAT}
 
 If X is locally compact but not compact, then a closed equivalence relation R on X need not be Hausdorff (Chapter IX, § 4, Exercise 14); and even if R is Hausdorff, X/R need not be locally compact (Exercise 17). However, we have the following criterion:
 
-#### Proposition 10 {#top-i-s10-prop-10 .statement}
+#### Proposition 10 {#top-i-s10-prop-10 .statement tag=0BAU}
 
 Let X be a locally compact space, R an open Hausdorff equivalence relation on X, and let f : X \to X/R be the canonical mapping. Then X/R is locally compact, and if K' is any compact subset of X/R there is a compact subset K of X such that f(K) = K'.
 

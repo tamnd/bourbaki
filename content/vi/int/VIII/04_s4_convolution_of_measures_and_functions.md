@@ -41,9 +41,9 @@ subsections:
       pdf_page: 144
 statements: 38
 exercises: 28
-content_sha256: d0cc40c46752873eb3f75b2d492590e25c054643327a8c0ad61b408aaed5fd94
+content_sha256: 19ffb4c7a82f0f660957ecd18c48fe5315283ba46e58036192bc8effeae4da85
 translated_from: content/en/int/VIII/04_s4_convolution_of_measures_and_functions.md
-source_content_sha256: b1665fd1179be03704f3694225ccbadfccbe04f954c892e971e58097b5644e43
+source_content_sha256: 95b7ec6ff7cbef1ba7740490a53cad1a14ca28185aac5574eb562cb861e78110
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-22bd618f
 glossary_version: 34
@@ -73,7 +73,7 @@ Nhắc lại (§2, No. 5) rằng nếu $\chi$ liên tục và $\beta$ có giá l
 
 Cho $f$ là một hàm phức địa phương $\beta$-khả tích trên $X$, và cho $\mu$ là một độ đo trên $G$. Với mọi $s \in G$, độ đo $\gamma(s)(f \cdot \beta)$ có cơ sở là $\beta$ vì $\beta$ là tựa-bất biến. Do đó, nếu $\mu$ và $f \cdot \beta$ chập được, thì $\mu * (f \cdot \beta)$ có cơ sở là $\beta$ (§3, No. 2, Prop. 10).
 
-#### Định nghĩa 1 {#int-viii-s4-def-1 .statement}
+#### Định nghĩa 1 {#int-viii-s4-def-1 .statement tag=09K4}
 
 *Nếu $\mu$ và $f \cdot \beta$ chập được, thì nói rằng $\mu$ và $f$ chập được đối với $\beta$. Mọi mật độ của $\mu * (f \cdot \beta)$ đối với $\beta$ được gọi là một tích chập của $\mu$ và $f$ đối với $\beta$ và được ký hiệu là $\mu *_{\beta} f$.*
 
@@ -95,7 +95,7 @@ $$
 
 địa phương $\beta$-hầu khắp mọi nơi.
 
-#### Bổ đề 1 {#int-viii-s4-lem-1 .statement}
+#### Bổ đề 1 {#int-viii-s4-lem-1 .statement tag=09K5}
 
 *Cho $\mu$ là một độ đo trên $G$. Khi đó $\chi$ là địa phương $(\mu \otimes \beta)$-khả tích, và ảnh của $\mu \otimes \beta$ dưới phép đồng phôi $(s, x) \mapsto (s, s^{-1}x)$ từ $G \times X$ lên $G \times X$ là $\chi \cdot (\mu \otimes \beta)$.*
 
@@ -113,7 +113,7 @@ $$
 $$
 Điều này đồng thời chứng minh cả hai khẳng định của Bổ đề 1.
 
-#### Mệnh đề 1 {#int-viii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#int-viii-s4-prop-1 .statement tag=09K6}
 
 *Cho $\mu$ là một độ đo trên $\mathbf{G}$, $f$ là một hàm phức địa phương $\beta$-khả tích trên $\mathbf{X}$. Giả sử rằng hàm $s \mapsto f(s^{-1}x)\chi(s^{-1}, x)$ là khả tích thiết yếu theo $\mu$ trừ ra trên một tập các giá trị của $x$ không đáng kể địa phương đối với $\beta$, và rằng hàm $x \mapsto \int |f(s^{-1}x)|\chi(s^{-1}, x) d|\mu|(s)$, được xác định địa phương hầu khắp nơi đối với $\beta$, là địa phương $\beta$-khả tích. Khi đó $\mu$ và $f$ chập được với nhau.*
 
@@ -138,7 +138,7 @@ $$
 
 trong đó S ký hiệu giá của h. Do đó suy ra mệnh đề.
 
-#### Mệnh đề 2 {#int-viii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#int-viii-s4-prop-2 .statement tag=09K7}
 
 — Cho $\mu$ là một độ đo trên G, f là một hàm phức địa phương $\beta$-khả tích trên X. Giả sử rằng một trong các điều kiện sau được thỏa mãn:
 (i) f và $\chi$ liên tục;
@@ -173,7 +173,7 @@ $$
 
 về bản chất là $(\mu \otimes \beta)$-khả tích, và bằng không ngoài một hợp đếm được các tập compact, do đó là $(\mu \otimes \beta)$-khả tích. Vì $\mu = \varphi_S \cdot \mu$, lập luận kết thúc như trên.
 
-#### Nhận xét {#int-viii-s4-n1-rem-1 .statement}
+#### Nhận xét {#int-viii-s4-n1-rem-1 .statement tag=09K8}
 
 Giả thiết (iii) của Mệnh đề 2 đặc biệt được thỏa mãn khi $\mu$ bị chặn. Thật vậy, với mọi $n > 0$, khi đó tồn tại một tập con compact $K_n$ của $G$ sao cho
 $$
@@ -185,7 +185,7 @@ $$
 
 Trong Mệnh đề 3 và 4, $\mathscr{C}'(G)$ và $\mathscr{M}(G)$ được trang bị tôpô hội tụ compact trong $\mathscr{C}(G)$ và $\mathscr{K}(G)$, tương ứng.
 
-#### Mệnh đề 3 {#int-viii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#int-viii-s4-prop-3 .statement tag=09K9}
 
 — Giả sử $\chi$ liên tục. Cho $\mu \in \mathscr{C}'(G)$, $f \in \mathscr{C}(X)$. Khi đó:
 (i) $\mu$ và $f$ có thể lấy tích chập đối với $\beta$.
@@ -202,7 +202,7 @@ $$
 $$
 Điều này, kết hợp với Prop. 2 (i), và §2, No. 6, chứng minh (ii). Cuối cùng, nếu $f \in \mathscr{K}(X)$ thì $\mu * (f \cdot \beta)$ có giá đỡ compact (§3, No. 2, Prop. 9), do đó $\mu *_{\beta} f \in \mathscr{K}(X)$. Thật vậy, xét biểu diễn liên tục $U$ của $G$ trong phần hoàn thành $\mathscr{K}(X)^{\sim}$ thu được bằng cách mở rộng theo tính liên tục các toán tử liên tục $\gamma_\chi(s)$ trong $\mathscr{K}(X)$ (§ 2, No. 1, *Nhận xét 3*). Gọi $S$ là giá đỡ của $\mu$. Các hàm $\gamma_\chi(s)f$, với $s \in S$, có giá đỡ được chứa trong một tập compact cố định $K$. Tập hợp $\mathscr{K}(X, K)$ là một không gian con tuyến tính đầy đủ của $\mathscr{K}(X)$. Do đó $U(\mu)f \in \mathscr{K}(X)$. Như trước đây ta thấy rằng $U(\mu)f = \mu *^\beta f$, và (iii) lại suy ra từ § 2, No. 6.
 
-#### Mệnh đề 4 {#int-viii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#int-viii-s4-prop-4 .statement tag=09KA}
 
 *Giả sử rằng G tác động đúng trong X và rằng $\chi$ là liên tục. Cho $\mu \in \mathscr{M}(G)$ và $f \in \mathscr{K}(X)$.*
 
@@ -221,7 +221,7 @@ $$
 
 Do đó $\int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s)$ là một hàm liên tục của $x$ và xác định một tích chập $\mu *^\beta f \in \mathscr{C}(X)$. Hơn nữa, ánh xạ $\mu \mapsto \varphi \cdot \mu$ của $\mathscr{M}(G)$ vào $\mathscr{C}'(G)$ là liên tục đối với các tôpô hội tụ compact. Mệnh đề 3 (iii) do đó suy ra rằng ánh xạ $(\mu, f) \mapsto \mu *^\beta f$ của $\mathscr{M}(G) \times \mathscr{K}(X, L)$ vào $\mathscr{C}(X)$ là, với mọi tập con compact $L$ của $X$, nửa liên tục đối với các tập con compact của $\mathscr{K}(X, L)$. Đặc biệt, ánh xạ $(\mu, f) \mapsto \mu *^\beta f$ của $\mathscr{M}(G) \times \mathscr{K}(X)$ vào $\mathscr{C}(X)$ là liên tục riêng. Vì $\mathscr{K}(X)$ là không gian thùng, ánh xạ này là nửa liên tục đối với các tập con bị chặn của $\mathscr{M}(G)$ (TVS, III, § 5, No. 3, Mệnh đề 6).
 
-#### Nhận xét 1 {#int-viii-s4-n2-rem-1 .statement}
+#### Nhận xét 1 {#int-viii-s4-n2-rem-1 .statement tag=09KB}
 
 — Dưới các giả thiết của Mệnh đề 4, ánh xạ $\mu \mapsto \mu *^\beta f$ của $\mathscr{M}_+(G)$ vào $\mathscr{C}(X)$ là liên tục khi $\mathscr{M}_+(G)$ được trang bị tôpô *mơ hồ*, với mọi $f \in \mathscr{K}(X)$. Thật vậy, cho $K$ là một tập compact con của $X$, $S$ là giá đỡ (compact) của $f$; vì $G$ tác động đúng trong $X$, tập hợp các $s \in G$ sao cho tồn tại một $x \in K$ với $s^{-1}x \in S$ là một tập compact con $L$ của $G$ (GT, III, § 4, No. 5, Th. 1). Cho $\varepsilon$ là một số $> 0$, $\varphi$ là một hàm trong $\mathscr{K}_+(G)$ bằng 1 trên tập compact $L$, $\mu_0$ là một phần tử của $\mathscr{M}_+(G)$; tập hợp $W_0$ các độ đo $\mu \in \mathscr{M}_+(G)$ sao cho
 $$
@@ -251,7 +251,7 @@ $$
 $$
 và vì $\varepsilon$ là tùy ý, điều này chứng minh mệnh đề của chúng ta.
 
-#### Mệnh đề 5 {#int-viii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#int-viii-s4-prop-5 .statement tag=09KC}
 
 *Giả sử $\chi$ là một nhân tử liên tục và mỗi hàm $\chi(s, \cdot)$ bị chặn.*
 (i) *Hàm $s \mapsto \rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$ trên $G$ là nửa liên tục dưới $> 0$ và thỏa mãn $\rho(st) \leq \rho(s)\rho(t)$ với mọi $s, t$ thuộc $G$.*
@@ -301,7 +301,7 @@ $$
 
 do đó $\gamma_\chi(\mu)f$ là tích chập $\mu *^\beta f$ được định nghĩa bởi (3).
 
-#### Mệnh đề 6 {#int-viii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#int-viii-s4-prop-6 .statement tag=09KD}
 
 *Giả sử $\chi$ là một nhân tử liên tục và mỗi hàm $\chi(s, \cdot)$ bị chặn. Đặt $\rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$. Cho $p$ và $q$ là hai số mũ liên hợp ($1 \leq p < +\infty$). Cho $\mu \in \mathscr{M}^{\rho^{1/q}}(G)$ và $f \in L^p(X, \beta)^2$ Khi đó:
 (i) $\mu$ và $f$ là lấy tích chập được;
@@ -333,13 +333,13 @@ $$
 
 Nếu $X$ là đếm được tại vô cùng, kiểu ký hiệu này hơn nữa hoàn toàn được biện minh.
 
-#### Hệ quả {#int-viii-s4-n2-cor-1 .statement}
+#### Hệ quả {#int-viii-s4-n2-cor-1 .statement tag=09KE}
 
 *Dưới các giả thiết của Mệnh đề 6, ánh xạ* $(\mu, f) \mapsto \mu *^\beta f$ *xác định trên* $L^p(X, \beta)$ *cấu trúc của một môđun trái trên* $\mathscr{M}^{\rho^{1/q}}(G)$ $(1 \leq p \leq +\infty)$.
 
 Điều này suy ra từ các Mệnh đề 5 và 6 và tính kết hợp của tích chập.
 
-#### Nhận xét 2 {#int-viii-s4-n2-rem-2 .statement}
+#### Nhận xét 2 {#int-viii-s4-n2-rem-2 .statement tag=09KF}
 
 — Cho $X$ là một không gian compact địa phương trên đó một nhóm compact địa phương $G$ tác động liên tục bên phải bởi $(x, s) \mapsto xs$. Cho $\beta$ là một độ đo dương trên $X$. Cho $\chi$ là một hàm $> 0$ trên $G \times X$, đo được đối với mọi độ đo trên $G \times X$, sao cho $\delta(s)\beta = \chi(s, \cdot) \cdot \beta$ với mọi $s \in G$. Cho $f$ là một hàm khả tích địa phương theo $\beta$ trên $X$ và cho $\mu$ là một độ đo trên $G$. Nếu $f \cdot \beta$ và $\mu$ là khả tích chập được (đối với ánh xạ $(x, s) \mapsto xs$ của $X \times G$ vào $X$), thì $(f \cdot \beta) * \mu$ có cơ sở $\beta$. Khi đó ta nói rằng $f$ và $\mu$ là khả tích chập được tương đối với $\beta$; mọi mật độ của $(f \cdot \beta) * \mu$ đối với $\beta$ được gọi là một tích chập của $f$ và $\mu$ tương đối với $\beta$, và được ký hiệu $f *^\beta \mu$ hoặc đơn giản là $f * \mu$.
 
@@ -367,7 +367,7 @@ $$
 
 Ta quay lại các giả thiết và ký hiệu ở đầu No. 1, nhưng giả sử thêm rằng $\beta$ là *bất biến tương đối với nhân tử* $\chi$; do đó $\chi$ là một hàm liên tục trên $G$.
 
-#### Mệnh đề 7 {#int-viii-s4-prop-7 .statement}
+#### Mệnh đề 7 {#int-viii-s4-prop-7 .statement tag=09KG}
 
 *Cho $f$ là một hàm khả tích $\beta$-địa phương trên $X$, $\nu$ là một độ đo trên $X$, và $\mu$ là một độ đo trên $G$. Giả sử rằng:*
 (i) $\mu$ và $f$ là tích chập được với nhau và công thức (3) của No. 1 xác định địa phương $\beta$-hầu khắp nơi một tích chập $\mu *_{\beta} f$.
@@ -388,7 +388,7 @@ $$
 \end{align*}
 $$
 
-#### Ví dụ {#int-viii-s4-n3-exa-1 .statement}
+#### Ví dụ {#int-viii-s4-n3-exa-1 .statement tag=09KH}
 
 — 1) Có thể lấy $f \in \mathscr{C}(X)$, $\nu \in \mathscr{C}'(X)$ và $\mu \in \mathscr{C}'(G)$ theo Mệnh đề 3, và Hệ quả của Mệnh đề 5 của §1, No. 4. Công thức (7) khi đó có nghĩa là tự đồng cấu $\nu \mapsto (\chi \cdot \check{\mu}) * \nu$ của $\mathscr{C}'(X)$ là *chuyển vị* của tự đồng cấu $f \mapsto \mu * f$ của $\mathscr{C}(X)$.
 
@@ -396,7 +396,7 @@ $$
 
 3) Nếu $G$ tác động đúng trên $X$, ta có thể lấy $f \in \mathscr{K}(X)$, $\nu \in \mathscr{C}'(X)$ và $\mu \in \mathscr{M}(G)$ theo Mệnh đề 4, Mệnh đề 8 của §3, No. 2, và cùng nhận xét như trong *Ví dụ 2*.
 
-#### Mệnh đề 8 {#int-viii-s4-prop-8 .statement}
+#### Mệnh đề 8 {#int-viii-s4-prop-8 .statement tag=09KI}
 
 *Cho $f$ và $g$ là hai hàm địa phương $\beta$-khả tích vành trên $X$ và cho $\mu \in \mathscr{M}(G)$. Giả sử rằng:*
 
@@ -474,7 +474,7 @@ $$\mathrm{I} = \int f(x)(((\chi \cdot \check{\mu}) *^\beta g)(x))\, d\beta(x).$$
 
 Điều này chứng minh mệnh đề.
 
-#### Ví dụ {#int-viii-s4-n3-exa-2 .statement}
+#### Ví dụ {#int-viii-s4-n3-exa-2 .statement tag=09KJ}
 
 — 4) Có thể lấy $f \in \mathscr{C}(X)$, $g \in \mathscr{K}(X)$ và $\mu \in \mathscr{C}'(G)$ (với $\psi = 1$).
 
@@ -565,7 +565,7 @@ $$
 f *_{\beta}^{\beta} g = (f \cdot \beta) *_{\beta}^{\beta} g = f *_{\beta}^{\beta} (g \cdot \beta).
 $$
 
-#### Mệnh đề 9 {#int-viii-s4-prop-9 .statement}
+#### Mệnh đề 9 {#int-viii-s4-prop-9 .statement tag=09KK}
 
 *Cho $f, g$ thuộc $\mathscr{L}(G)$. Giả sử rằng hàm $s \mapsto g(s^{-1}x)f(s)\chi(s^{-1})$ là khả tích $\beta$ theo nghĩa thiết yếu ngoại trừ một tập hợp địa phương $\beta$-không đáng kể các giá trị của $x$, và rằng hàm*
 
@@ -577,7 +577,7 @@ $$
 
 Điều này suy ra từ Mệnh đề 1 của No. 1.
 
-#### Mệnh đề 10 {#int-viii-s4-prop-10 .statement}
+#### Mệnh đề 10 {#int-viii-s4-prop-10 .statement tag=09KL}
 
 *Cho $f, g$ thuộc $\mathscr{L}(G)$. Giả sử rằng một trong hai hàm này là liên tục hoặc bằng không trên phần bù của một hợp đếm được các tập hợp compact. Nếu $f$ và $g$ có thể lấy tích chập, thì hàm $f * g$ được cho địa phương $\beta$-hầu khắp nơi bởi*
 
@@ -600,13 +600,13 @@ $$
 (f * g)(e) = (g * f)(e) = \int f(s)g(s^{-1})\, d\beta(s).
 $$
 
-#### Mệnh đề 11 {#int-viii-s4-prop-11 .statement}
+#### Mệnh đề 11 {#int-viii-s4-prop-11 .statement tag=09KM}
 
 — Cho $f, g$ thuộc $\mathscr{L}(G)$. Giả sử một trong hai hàm $f, g$ là liên tục, và một trong hai hàm $f, g$ có giá compact. Khi đó $f$ và $g$ chập được với nhau. Công thức (15) xác định với mọi $x \in G$ một tích $f * g$ liên tục. Nếu $f \in \mathscr{K}(G)$ và $g \in \mathscr{K}(G)$, thì $f * g \in \mathscr{K}(G)$.
 
 Điều này suy ra từ các Mệnh đề 3 và 4 của No. 2.
 
-#### Mệnh đề 12 {#int-viii-s4-prop-12 .statement}
+#### Mệnh đề 12 {#int-viii-s4-prop-12 .statement tag=09KN}
 
 — Cho $p$ và $q$ là hai số mũ liên hợp ($1 \leq p \leq +\infty$). Nếu $f \chi^{-1/q} \in L^1(G, \beta)$ và $g \in L^p(G, \beta)$, thì $f$ và $g$ chập được với nhau, $f * g$ bằng địa phương $\beta$-hầu khắp nơi với một hàm thuộc $L^p(G, \beta)$, và
 $$
@@ -618,13 +618,13 @@ $$
 $$
 Điều này suy ra từ các Mệnh đề 5 và 6 của No. 2 và các nhận xét trong No. 4.
 
-#### Mệnh đề 13 {#int-viii-s4-prop-13 .statement}
+#### Mệnh đề 13 {#int-viii-s4-prop-13 .statement tag=09KO}
 
 — Nếu $f \chi^{-1} \in L^1(G, \beta)$ và $g \in \overline{\mathscr{K}(G)}$, hoặc nếu $f \in \mathscr{K}(G)$ và $g {\chi'}^{-1} \in L^1(G, \beta)$, thì $f$ và $g$ chập được với nhau, và (15) xác định với mọi $x \in G$ một tích $f * g$ thuộc $\mathscr{K}(G)$.
 
 Điều này suy ra từ Mệnh đề 5 của No. 2, và các nhận xét trong No. 4.
 
-#### Mệnh đề 14 {#int-viii-s4-prop-14 .statement}
+#### Mệnh đề 14 {#int-viii-s4-prop-14 .statement tag=09KP}
 
 — Nếu $f \chi^{-1} \in L^1(G, \beta)$ và $g \in L^\infty(G, \beta)$, thì công thức (15) xác định với mọi $x \in G$ một tích $f * g$ bị chặn và liên tục đều đối với cấu trúc đều phải của $G$.
 
@@ -637,7 +637,7 @@ $$
 $$
 và tích phân sau có thể nhỏ tùy ý với điều kiện $x'x^{-1}$ thuộc một lân cận thích hợp của $e$ (§ 2, No. 5, Mệnh đề 8).
 
-#### Mệnh đề 15 {#int-viii-s4-prop-15 .statement}
+#### Mệnh đề 15 {#int-viii-s4-prop-15 .statement tag=09KQ}
 
 — Cho $p$ và $q$ là hai số mũ liên hợp ($1 < p < +\infty$). Giả sử rằng $\beta$ là bất biến trái. Cho $f \in L^p(G, \beta)$, $g \in L^q(G, \check{\beta})$. Khi đó $f$ và $g$ chập được với nhau. Công thức (15) xác định, với mọi $x \in G$, một tích $f * g$ thuộc $\mathscr{K}(G)$ và thỏa mãn
 $$
@@ -659,7 +659,7 @@ $$
 
 Với $f, g$ trong $\mathscr{K}(G)$, ta có $f * g \in \mathscr{K}(G)$ (Mệnh đề 11); do đó, với $f \in L^p(G, \beta)$ và $g \in L^q(G, \dot{\beta})$, tích $f * g$ do (15) cung cấp là giới hạn đều của các hàm trong $\mathscr{K}(G)$, nên thuộc $\overline{\mathscr{K}(G)}$.
 
-#### Hệ quả {#int-viii-s4-n5-cor-1 .statement}
+#### Hệ quả {#int-viii-s4-n5-cor-1 .statement tag=09KR}
 
 — Cho $f \in L^2(G, \beta)$, $g \in L^2(G, \beta)$. Khi đó $f$ và $\dot{g}$ chập được với nhau. Một trong các tích chập $f * \dot{g}$ thuộc $\overline{\mathscr{K}(G)}$ và giá trị của nó tại $e$ là $\int_G f(s)g(s) d\beta(s)$.
 
@@ -673,7 +673,7 @@ $$
 
 đối với $f \in L^\rho(G, \beta)$, sự đồng nhất này tương thích với các chuẩn, do đó $L^\rho(G, \beta)$ xuất hiện như một đại số con chuẩn đầy đủ của $\mathscr{M}^\rho(G)$. Hơn nữa, nó là một iđêan hai phía của $\mathscr{M}^\rho(G)$ theo Mệnh đề 10 của §3, No. 2. (Với $\rho = 1$, ta thu được một trong các khẳng định của No. 4.) Đặc biệt, $L^1(G, \beta)$ có thể được đồng nhất với một iđêan hai phía đóng của $\mathscr{M}^1(G)$.
 
-#### Mệnh đề 16 {#int-viii-s4-prop-16 .statement}
+#### Mệnh đề 16 {#int-viii-s4-prop-16 .statement tag=09KS}
 
 — Cho $U$ là một biểu diễn liên tục của $G$ trong một không gian Banach $E$. Đặt $\rho(s) = \|U(s)\|$ với mọi $s \in G$. Với mọi $f \in L^\rho(G, \beta)$, đặt $U(f) = U(f \cdot \beta)$. Khi đó $f \mapsto U(f)$ là một biểu diễn tuyến tính của đại số $L^\rho(G, \beta)$ trong $E$, sao cho $\|U(f)\| \leq \|f\|_\rho$.
 
@@ -681,7 +681,7 @@ $$
 
 ### 6. Các áp dụng
 
-#### Mệnh đề 17 {#int-viii-s4-prop-17 .statement}
+#### Mệnh đề 17 {#int-viii-s4-prop-17 .statement tag=09KT}
 
 — Cho G là một nhóm địa phương compact, A là một tập con của G, đo được và không địa phương không đáng kể đối với một độ đo Haar. Khi đó $A \cdot A^{-1}$ là một lân cận của e.
 
@@ -693,19 +693,19 @@ $$
 
 Do đó, với $x \in V$, ta có $B \cap xB \neq \emptyset$, do đó $x \in B \cdot B^{-1}$. Vậy $V \subset B \cdot B^{-1} \subset A \cdot A^{-1}$.
 
-#### Hệ quả 1 {#int-viii-s4-prop-17-cor-1 .statement}
+#### Hệ quả 1 {#int-viii-s4-prop-17-cor-1 .statement tag=09KU}
 
 — Cho H là một nhóm con của G đo được đối với một độ đo Haar $\beta$. Khi đó H hoặc mở, hoặc địa phương $\beta$-không đáng kể.
 
 Thật vậy, $H = H \cdot H^{-1}$, do đó nếu H không địa phương $\beta$-không đáng kể, thì H chứa một lân cận của e (Mệnh đề 17), nên là mở (GT, III, §2, No. 1, Hệ quả của Mệnh đề 4).
 
-#### Hệ quả 2 {#int-viii-s4-prop-17-cor-2 .statement}
+#### Hệ quả 2 {#int-viii-s4-prop-17-cor-2 .statement tag=09KV}
 
 — Cho L là một tập con của G ổn định đối với phép nhân và có phần bù địa phương không đáng kể đối với một độ đo Haar $\beta$. Khi đó $L = G$.
 
 Thật vậy, $L^{-1}$ và $L \cap L^{-1}$ có các phần bù địa phương $\beta$-không đáng kể. Mà $L \cap L^{-1}$ là một nhóm con, nên là mở (Hệ quả 1) và vì thế đóng. Do đó $G - (L \cap L^{-1})$, là tập mở và địa phương $\beta$-không đáng kể, là rỗng. Vậy $G = L \cap L^{-1}$.
 
-#### Mệnh đề 18 {#int-viii-s4-prop-18 .statement}
+#### Mệnh đề 18 {#int-viii-s4-prop-18 .statement tag=09KW}
 
 — Cho G là một nhóm địa phương compact, $\Gamma$ là một tập hợp được trang bị một phép nhân $(u, v) \mapsto uv$ và một tôpô Hausdorff sao cho:
 1) tôpô của $\Gamma$ là bất biến đối với các phép tịnh tiến;
@@ -715,13 +715,13 @@ Cho $f : G \to \Gamma$ là một ánh xạ từ G vào $\Gamma$ sao cho $f(xy) =
 
 Đặt $g(x) = f(x^{-1})$ với $x \in G$. Vì $f$ và $g$ là $\beta$-đo được, nên tồn tại một tập con compắc K của G không $\beta$-không đáng kể sao cho các hạn chế của $f$ và $g$ lên K là liên tục. Ánh xạ $(x, y) \mapsto f(xy^{-1}) = f(x)g(y)$ từ $K \times K$ vào $\Gamma$ là liên tục vì phép nhân của $\Gamma$ liên tục trên $f(K) \times g(K)$; bây giờ, ánh xạ này có thể được viết thành $\varphi \circ \psi$, trong đó $\psi$ là ánh xạ $(x, y) \mapsto xy^{-1}$ từ $K \times K$ lên $K \cdot K^{-1}$, và $\varphi$ là hạn chế của $f$ lên $K \cdot K^{-1}$. Gọi $R$ là quan hệ tương đương được xác định trên $K \times K$ bởi $\psi$. Ánh xạ $\psi'$ từ $(K \times K)/R$ lên $K \cdot K^{-1}$ suy ra từ $\psi$ bằng cách chuyển sang thương là liên tục, do đó $(K \times K)/R$ là Hausdorff và $\psi'$ là một đồng phôi. Vì $\varphi \circ \psi$ là liên tục, ta thấy rằng hạn chế của $f$ lên $K \cdot K^{-1}$ là liên tục. Bây giờ, $K \cdot K^{-1}$ là một lân cận của $e$ (Mệnh đề 17), do đó $f$ liên tục tại $e$. Với mọi $x_0 \in G$, $f(x_0x) = f(x_0)f(x)$, vì thế $f$ liên tục tại $x_0$ vì tôpô của $\Gamma$ là bất biến dưới các phép tịnh tiến.
 
-#### Hệ quả 1 {#int-viii-s4-prop-18-cor-1 .statement}
+#### Hệ quả 1 {#int-viii-s4-prop-18-cor-1 .statement tag=09KX}
 
 *Cho $G$ là một nhóm địa phương compắc, $\beta$ là một độ đo Haar trên $G$, $E$ là một không gian lồi địa phương thùng Hausdorff, $U$ là một biểu diễn tuyến tính của $G$ trong $E$, sao cho $U(s) \in \mathscr{L}(E;E)$ với mọi $s \in G$, $\beta$-đo được khi $\mathscr{L}(E;E)$ được trang bị tôpô hội tụ từng điểm. Khi đó $U$ là một biểu diễn tuyến tính liên tục.*
 
 Cho $\Gamma$ là nhóm các tự đẳng cấu của $E$, được trang bị tôpô hội tụ từng điểm. Tôpô này là Hausdorff và bất biến qua các phép tịnh tiến. Cho $K$ là một tập con compact của $\Gamma$. Khi đó $K$ bị chặn trong $\mathscr{L}(E;E)$ được trang bị tôpô hội tụ từng điểm, do đó là đều liên tục (TVS, III, §4, No. 2, Th. 1); vì vậy ánh xạ $(u,v) \mapsto v \circ u$ từ $K \times K$ vào $\mathscr{L}(E;E)$ là liên tục (*loc. cit.*, §5, No. 5, Hệ quả 1 của Mệnh đề 9). Do đó, với mọi $x \in E$, ánh xạ $s \mapsto U(s)x$ từ $G$ vào $E$ là liên tục (Mệnh đề 18). Vì $E$ là barreled, $U$ là liên tục (§2, No. 1, Mệnh đề 1).
 
-#### Hệ quả 2 {#int-viii-s4-prop-18-cor-2 .statement}
+#### Hệ quả 2 {#int-viii-s4-prop-18-cor-2 .statement tag=09KY}
 
 *Cho $G$ là một nhóm compact địa phương, $\beta$ là một độ đo Haar trên $G$, $E$ là một không gian Banach tách được, và $U$ là một biểu diễn tuyến tính của $G$ trong $E$ sao cho $U(s) \in \mathscr{L}(E;E)$ với mọi $s \in G$. Cho $(a_m)$ là một dãy toàn phần trong $E$, và cho $(a'_n)$ là một dãy trù mật trong quả cầu đơn vị $B'$ của không gian đối ngẫu $E'$ của $E$, được trang bị tôpô yếu. Giả sử rằng các hàm $s \mapsto \langle U(s)a_m, a'_n \rangle$ trên $G$ là $\beta$-đo được. Khi đó $U$ là một biểu diễn tuyến tính liên tục.*
 
@@ -741,7 +741,7 @@ do đó là giới hạn của một dãy các hàm $\beta$-đo được, do đ�
 
 ### 7. Chính quy hóa
 
-#### Mệnh đề 19 {#int-viii-s4-prop-19 .statement}
+#### Mệnh đề 19 {#int-viii-s4-prop-19 .statement tag=09KZ}
 
 — *Cho $G$ là một nhóm địa phương compắc, $\beta$ là một độ đo dương tương đối bất biến $\neq 0$ trên $G$, $\mathscr{B}$ là một cơ sở của bộ lọc các lân cận của $e$ trong $G$, gồm các lân cận compắc. Với mỗi $V \in \mathscr{B}$, cho $f_V$ là một hàm liên tục $\geq 0$ trên $G$, có giá được chứa trong $V$, sao cho $\int f_V d\beta = 1$. Nếu $\mu$ là một độ đo trên $G$ thì, trong $\mathscr{M}(G)$ được trang bị tôpô hội tụ compắc trong $\mathscr{H}(G)$,
 
@@ -753,15 +753,15 @@ giới hạn được lấy theo bộ lọc tiết diện của $\mathscr{B}$.
 
 Đối với tôpô hội tụ compắc trong $\mathscr{C}(G)$, $f_V \cdot \beta$ hội tụ đến $\varepsilon_e$ theo bộ lọc tiết diện của $\mathscr{B}$ (§ 2, No. 7, Hệ quả 1 của Bổ đề 4). Vì vậy $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ trong $\mathscr{M}(G)$ được trang bị tôpô hội tụ compắc trong $\mathscr{H}(G)$ (§ 3, No. 3, Hệ quả của Mệnh đề 12).
 
-#### Nhận xét 1 {#int-viii-s4-n7-rem-1 .statement}
+#### Nhận xét 1 {#int-viii-s4-n7-rem-1 .statement tag=09L0}
 
 Như vậy ta thấy rằng mọi độ đo trên $G$ đều là giới hạn của các độ đo thừa nhận một *mật độ liên tục* đối với mọi độ đo Haar (đối với tôpô được chỉ ra trong Mệnh đề 19 và *a fortiori* đối với tôpô mơ hồ).
 
-#### Nhận xét 2 {#int-viii-s4-n7-rem-2 .statement}
+#### Nhận xét 2 {#int-viii-s4-n7-rem-2 .statement tag=09L1}
 
 Nếu $G$ khả mêtric hóa được, thì có thể lấy $\mathscr{B}$ là một dãy $(V_n)$ các lân cận. Khi đó $\mu$ là giới hạn của dãy các độ đo $(\mu * f_{V_n}) \cdot \beta$ có mật độ liên tục. *Nếu $G$ là một nhóm Lie thực, thì có thể lấy các $f_{V_n}$ khả vi vô hạn lần; sau này ta sẽ thấy rằng khi đó các mật độ $\mu * f_{V_n}$ cũng khả vi vô hạn lần.*
 
-#### Mệnh đề 20 {#int-viii-s4-prop-20 .statement}
+#### Mệnh đề 20 {#int-viii-s4-prop-20 .statement tag=09L2}
 
 — *Giữ nguyên các giả thiết và ký hiệu của Mệnh đề 19.* Cho $p \in [1, +\infty[$ và $g \in L^p(G, \beta)$. Khi đó
 
@@ -773,17 +773,17 @@ theo nghĩa của chuẩn $N_p$, giới hạn được lấy đối với bộ l
 
 Chỉ cần áp dụng Mệnh đề 6 (iii), và §2, No. 7, Hệ quả 3 của Bổ đề 4.
 
-#### Nhận xét 3 {#int-viii-s4-n7-rem-3 .statement}
+#### Nhận xét 3 {#int-viii-s4-n7-rem-3 .statement tag=09L3}
 
 Theo Mệnh đề 15, các hàm $g * f_V$, $f_V * g$ thuộc $\mathscr{K}(G)$.
 
-#### Hệ quả {#int-viii-s4-n7-cor-1 .statement}
+#### Hệ quả {#int-viii-s4-n7-cor-1 .statement tag=09L4}
 
 — Cho $W$ là một không gian con tuyến tính đóng của $L^1(G, \beta)$. Để $W$ là một iđêan trái (tương ứng, phải) của $L^1(G, \beta)$, điều kiện cần và đủ là $W$ bất biến đối với các phép tịnh tiến trái (tương ứng, phải) của $G$.
 
 Giả sử $W$ là một iđêan trái. Cho $s \in G$ và $g \in W$. Ta có $\varepsilon_s * g = \lim_V f_V * (\varepsilon_s * g) = \lim_V (f_V * \varepsilon_s) * g$, và $(f_V * \varepsilon_s) * g \in W$, do đó $\varepsilon_s * g \in W$, suy ra $\gamma(s)g \in W$. Ngược lại, nếu $W$ bất biến dưới các phép tịnh tiến trái, thì $\mu *^\beta g \in W$ với $\mu \in \mathscr{M}^1(G)$ và $g \in W$, do đó $W$ a fortiori là một iđêan trái của $L^1(G, \beta)$. Lập luận tương tự đối với các iđêan phải.
 
-#### Ví dụ {#int-viii-s4-n7-exa-1 .statement}
+#### Ví dụ {#int-viii-s4-n7-exa-1 .statement tag=09L5}
 
 Ta lấy $G = \mathbf{R}$. Hãy định nghĩa một hàm $F_n \in \mathscr{K}(\mathbf{R})$ bởi
 $$

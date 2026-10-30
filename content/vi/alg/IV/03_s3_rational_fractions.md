@@ -30,9 +30,9 @@ subsections:
       pdf_page: 32
 statements: 6
 exercises: 7
-content_sha256: ea8eece537bc1f49c081b9f50300f4dcfc3af8beb146a77c27e2349dc6080c31
+content_sha256: 3e73cbe70dba2f644e50c071537730910645ad7f856570234b118cec3cb494f0
 translated_from: content/en/alg/IV/03_s3_rational_fractions.md
-source_content_sha256: 593462112374e18f7a898bd77ebfef253b2fa8f6d7c6692cd836f5b6d7e1af23
+source_content_sha256: adebb07e34c4e82901da99d345bb6f746140b39d50f239de82732119ccaa1a31
 translation_model: gpt-5.4
 translation_run: translate-vi-f4318889
 glossary_version: 34
@@ -44,7 +44,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Định nghĩa các phân thức hữu tỉ
 
-#### Định nghĩa 1 {#alg-iv-s3-def-1 .statement}
+#### Định nghĩa 1 {#alg-iv-s3-def-1 .statement tag=06BL}
 
 *Cho K là một trường giao hoán và I một tập hợp. Trường phân thức (I, p. 116) của miền nguyên $K[(X_i)_{i \in I}]$ được ký hiệu là $K((X_i)_{i \in I})$ hoặc $K(X_i)_{i \in I}$. Các phần tử của nó được gọi là các phân thức hữu tỉ theo các ẩn số $X_i$ với hệ số trong K.*
 
@@ -58,7 +58,7 @@ Bây giờ cho K là một trường giao hoán, I một tập hợp và J ⊂ I
 
 Cho K là một trường giao hoán. Với mọi phần tử r của K((X_i)_{i ∈ I}) tồn tại u, v ∈ K[(X_i)_{i ∈ I}] sao cho v ≠ 0 và r = $\frac{u}{v}$. Quan hệ $\frac{u}{v} = \frac{u_1}{v_1}$, trong đó v ≠ 0, v_1 ≠ 0, là tương đương với uv_1 = vu_1; nếu r ≠ 0, ta có u ≠ 0 và u_1 ≠ 0, nên deg u + deg v_1 = deg v + deg u_1 (IV, p. 9), hay cũng vậy deg u − deg v = deg u_1 − deg v_1. Vì thế số nguyên hữu tỉ deg u − deg v chỉ phụ thuộc vào r; ta gọi nó là bậc, hay tổng bậc, của r, và ký hiệu nó là deg r. Ta quy ước viết deg 0 = −∞. Nếu J ⊂ I, ta cũng có thể định nghĩa bậc đối với các X_j có chỉ số j ∈ J. Khi r là một đa thức, các khái niệm này trùng với các khái niệm được định nghĩa trong IV, p. 2.
 
-#### Mệnh đề 1 {#alg-iv-s3-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iv-s3-prop-1 .statement tag=06BM}
 
 — Cho r, s là hai phân thức hữu tỉ.
 
@@ -112,13 +112,13 @@ $$
 
 Cho $f \in K((X_i)_{i \in I})$. Nếu tồn tại *ít nhất một cặp* $(u, v)$ sao cho $f = \frac{u}{v}$ và $v \in S_x$, ta sẽ nói rằng x *có thể thế được* vào $f$; khi đó phần tử $u(x)\ v(x)^{-1}$, chỉ phụ thuộc vào $f$ và $x$, được ký hiệu là $f(x)$ hoặc $f((x_i))$ hoặc $f((x_i)_{i \in I})$.
 
-#### Mệnh đề 2 {#alg-iv-s3-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iv-s3-prop-2 .statement tag=06BN}
 
 *Cho K là một trường giao hoán, E là một K-đại số kết hợp có đơn vị và $x = (x_i)_{i \in I}$ là một họ các phần tử của E hoán vị từng đôi một. Tập $S_x^{-1}B$ các $f \in K((X_i)_{i \in I})$ sao cho có thể thế x vào $f$ là một K-đại số con của $K((X_i)_{i \in I})$. Ánh xạ $f \mapsto f(x)$ là một đồng cấu có đơn vị $\varphi$ từ $S_x^{-1}B$ vào E. Ảnh $\varphi(S_x^{-1}B)$ là tập tất cả các $yz^{-1}$, trong đó y chạy qua đại số con có đơn vị $K[x]_E$ của E được sinh bởi họ x và z chạy qua tập tất cả các phần tử khả nghịch của $K[x]_E$.
 
 Cho $f_1 = \frac{u_1}{v_1},\ f_2 = \frac{u_2}{v_2}$ là hai phần tử của $K((X_i)_{i \in I})$ sao cho $v_1,\ v_2 \in S_x$. Ta có $f_1 + f_2 = \frac{u_1v_2 + u_2v_1}{v_1v_2},\ f_1f_2 = \frac{u_1u_2}{v_1v_2}$ và $v_1,\ v_2 \in S_x$. Do đó $S_x^{-1}B$ là một K-đại số con của $K((X_i)_{i \in I})$. Phần còn lại của mệnh đề là hiển nhiên.
 
-#### Hệ quả {#alg-iv-s3-n3-cor-1 .statement}
+#### Hệ quả {#alg-iv-s3-n3-cor-1 .statement tag=06BO}
 
 *Cho L là một trường giao hoán, K là một trường con của L, $x = (x_i)_{i \in I}$ là một họ các phần tử của L, M là tập gồm các $x_i$, U là tập tất cả các $f \in K((X_i)_{i \in I})$ sao cho có thể thế x vào $f$ và $\varphi$ là đồng cấu $f \mapsto f(x)$ từ U vào L. Khi đó $\varphi(U)$ là trường con của L được sinh bởi $KUM$.*
 
@@ -130,7 +130,7 @@ và $\varphi(U)$ là một vành con của L. Bây giờ Mệnh đề 2 suy ra r
 
 Cho $f \in K((X_i)_{i \in I})$ và cho $(g_i)_{i \in I}$ là một họ các phần tử của $K((Y_l)_{l \in L})$. Nếu có thể thế (g_i) vào f, thì f((g_i)) là một phần tử của K((Y_l)_{l \in L}). Đặc biệt, có thể thế $(X_i)_{i \in I}$ vào f và $f = f((X_i)_{i \in I})$.
 
-#### Mệnh đề 3 {#alg-iv-s3-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iv-s3-prop-3 .statement tag=06BP}
 
 — Cho E là một đại số trên K, kết hợp, giao hoán, có đơn vị và khác không. Cho f \in K((X_i)_{i \in I}) và với mỗi i \in I, cho $g_i \in K((Y_l)_{l \in L})$. Với một họ y = (y_l)_{l \in L} các phần tử của E, giả sử rằng có thể thế y vào mỗi $g_i$ và có thể thế $(g_i(y))_{i \in I}$ vào f. Khi đó:
 (i) có thể thế $(g_i)_{i \in I}$ vào f;
@@ -162,7 +162,7 @@ $$
 
 với mọi $u \in C$. Nếu $I$ hữu hạn, $(D_i)_{i \in I}$ là một cơ sở của không gian vectơ trên $C$ các đạo hàm của $C$.
 
-#### Mệnh đề 4 {#alg-iv-s3-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iv-s3-prop-4 .statement tag=06BQ}
 
 — *Cho $E$ là một $K$-đại số kết hợp, giao hoán và có đơn vị, $x = (x_i)_{i, I}$ một họ các phần tử của $E$ và $f \in K((X_i)_{i, I})$. Giả sử rằng có thể thế $x$ vào trong $f$ và $y = f(x)$.
 (i) Với mọi đạo hàm $A$ của $K((X_i)_{i, I})$ ánh xạ $K[(X_i)_{i, I}]$ vào chính nó, có thể thế $x$ vào trong $Af$.

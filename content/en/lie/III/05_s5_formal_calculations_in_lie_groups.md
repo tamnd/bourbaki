@@ -29,7 +29,7 @@ subsections:
       pdf_page: 321
 statements: 5
 exercises: 2
-content_sha256: 4018c4beb2ee03f8be21f730d567b35b84d29744806b1d273615632c7f2274ba
+content_sha256: 11ac709b8f3f88dc9c56e0725f4895fcc0f9592e0b472ff993cd89dad5d027d2
 ---
 
 ## § 5. FORMAL CALCULATIONS IN LIE GROUPS
@@ -144,7 +144,7 @@ $$
 [x, y] = B(x, y) - B(y, x).
 $$
 
-#### Proposition 1 {#lie-iii-s5-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s5-prop-1 .statement tag=0AE1}
 
 (i) $$ x^{[-1]} \equiv -x + B(x, x) \mod \deg 3 $$
 (ii) $$ x.y.x^{[-1]} \equiv y + [x, y] \mod \deg 3 $$
@@ -221,7 +221,7 @@ where the right hand side is a convergent integral series in the variable $x \in
 
 If $t \in \mathbf{K}$, all the t-th power mappings of G have the same expansion as an integral series about the origin, since any two of them coincide on a neighbourhood of 0. We denote this expansion as an integral series by $x^{[t]}$.
 
-#### Proposition 2 {#lie-iii-s5-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s5-prop-2 .statement tag=0AE2}
 
 (i) $\psi_j \equiv 0 \mod \deg j$.
 (ii) *If $t \in \mathbf{K}$, then*
@@ -280,7 +280,7 @@ Then we write $x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$ for all $t \
 
 As $x^{[t]} = x^{[t]'}$ for $t$ an integer $\geq 0$, it then follows that $x^{[t]} = x^{[t]'}$ for all $t \in \mathbf{K}$.
 
-#### Remark {#lie-iii-s5-n3-rem-1 .statement}
+#### Remark {#lie-iii-s5-n3-rem-1 .statement tag=0AE3}
 
 (1) We write condition (ii) of Proposition 2 for t an integer $\geqslant 0$:
 
@@ -341,7 +341,7 @@ E(tX) = (E(X))^{[t]}, \quad L(X^{[t]}) = tL(X)
 $$
 for $t \in K$.
 
-#### Proposition 3 {#lie-iii-s5-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s5-prop-3 .statement tag=0AE4}
 
 (27)
 $$
@@ -395,7 +395,7 @@ $$
 = \sum_{m \geq 0} \frac{1}{m!} \psi_{m,m}(x) \quad \text{by (26).}
 $$
 
-#### Proposition 4 {#lie-iii-s5-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s5-prop-4 .statement tag=0AE5}
 
 *For the chart of G used to be canonical, it is necessary and sufficient that $\psi_j = 0$ for $j \geq 2$.*
 

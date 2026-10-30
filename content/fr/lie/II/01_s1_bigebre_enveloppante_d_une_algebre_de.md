@@ -36,7 +36,7 @@ subsections:
       pdf_page: 13
 statements: 28
 exercises: 12
-content_sha256: bea84c532a88efa7886981737b7cd978a84404424ef06d34fa5c7d0d97b1f0bc
+content_sha256: c2df8df418436b772c4c37b3999553ef91aa918745f91155d1e46e4352423ba2
 ---
 
 ## § 1. Bigèbre enveloppante d’une algèbre de Lie
@@ -63,7 +63,7 @@ $$
 \pi_u(x) = x - \varepsilon(x).u, \qquad \eta_u(x) = \varepsilon(x).u.
 $$
 
-#### Définition 1 {#lie-ii-s1-def-1 .statement}
+#### Définition 1 {#lie-ii-s1-def-1 .statement tag=0A1Q}
 
 *On dit qu’un élément $x$ de $E$ est $u$-primitif si l’on a*
 (2)
@@ -74,13 +74,13 @@ Les éléments $u$-primitifs de $E$ forment un sous-module de $E$, noté $P_u(E)
 
 ¹ Les résultats des chapitres II et III dépendent des six premiers Livres (E, A, TG, FVR, EVT, INT) de LIE I, de AC et de VAR, R ; le n° 9 du § 6 du chap. III dépend en outre de TS I.
 
-#### Proposition 1 {#lie-ii-s1-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s1-prop-1 .statement tag=0A1R}
 
 Tout élément u-primitif de E appartient à E^+.
 
 En effet, (2) entraîne $x = \varepsilon(x).u + \varepsilon(u).x = \varepsilon(x).u + x$, d’où $\varepsilon(x) = 0$.
 
-#### Remarque {#lie-ii-s1-n1-rem-1 .statement}
+#### Remarque {#lie-ii-s1-n1-rem-1 .statement tag=0A1S}
 
 Si $x \in E$ et si $c(x) = x' \otimes u + u \otimes x''$, où $x', x''$ sont dans $E^+$, alors $x = \varepsilon(x').u + \varepsilon(u).x'' = x''$; de même $x = x'$, et $x$ est u-primitif.
 
@@ -90,7 +90,7 @@ $$
 c_u^+(x) = c(x) - x \otimes u - u \otimes x.
 $$
 
-#### Proposition 2 {#lie-ii-s1-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s1-prop-2 .statement tag=0A1T}
 
 On a
 
@@ -135,13 +135,13 @@ d’où la formule (4).
 
 Comme $E^+$ est un sous-module facteur direct de $E$, on peut identifier $E^+ \otimes E^+$ à un sous-module facteur direct de $E \otimes E$. Avec cette identification, $\pi_u \otimes \pi_u$ est un projecteur de $E \otimes E$ sur $E^+ \otimes E^+$. D’après la formule (4), $c_u^+$ applique $E^+$ dans $E^+ \otimes E^+$ et $\pi_u$ est un morphisme de la cogèbre $(E, c)$ dans la cogèbre $(E^+, c_u^+)$.
 
-#### Proposition 3 {#lie-ii-s1-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s1-prop-3 .statement tag=0A1U}
 
 Si la cogèbre $(E, c)$ est coassociative (resp. cocommutative) (A, III, p. 143–144), il en est de même de la cogèbre $(E^+, c_u^+)$.
 
 Cela résulte du lemme suivant:
 
-#### Lemme 1 {#lie-ii-s1-lem-1 .statement}
+#### Lemme 1 {#lie-ii-s1-lem-1 .statement tag=0A1V}
 
 Soit $\pi : E \to E'$ un morphisme surjectif de cogèbres. Si $E$ est coassociative (resp. cocommutative), il en est de même de $E'$.
 
@@ -157,7 +157,7 @@ $$
 
 On écrira simplement π, η, P(E), c⁺ au lieu de π₁, η₁, P₁(E), c₁⁺.
 
-#### Proposition 4 {#lie-ii-s1-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s1-prop-4 .statement tag=0A1W}
 
 L’ensemble P(E) des éléments primitifs de E est une sous-algèbre de Lie de E.
 
@@ -176,7 +176,7 @@ $$
 c([x, y]) = [x, y] \otimes 1 + 1 \otimes [x, y].
 $$
 
-#### Proposition 5 {#lie-ii-s1-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s1-prop-5 .statement tag=0A1X}
 
 Soit f : E → E' un morphisme de bigèbres. Si x est un élément primitif de E, alors f(x) est un élément primitif de E', et la restriction de f à P(E) est un homomorphisme d’algèbres de Lie P(f) : P(E) → P(E').
 
@@ -188,11 +188,11 @@ $$
 
 pour x primitif. Donc f applique P(E) dans P(E') et l’on a f([x, y]) = [f(x), f(y)] puisque f est un homomorphisme d’algèbres.
 
-#### Remarque 1 {#lie-ii-s1-n2-rem-1 .statement}
+#### Remarque 1 {#lie-ii-s1-n2-rem-1 .statement tag=0A1Y}
 
 Soit p un nombre premier tel que p . 1 = 0 dans K. La formule du binôme et les congruences $\binom{p}{i} \equiv 0 \pmod{p}$ pour $1 \leq i \leq p - 1$ entraînent que P(E) est stable par l’application $x \mapsto x^p$.
 
-#### Remarque 2 {#lie-ii-s1-n2-rem-2 .statement}
+#### Remarque 2 {#lie-ii-s1-n2-rem-2 .statement tag=0E7X}
 
 Par définition, le diagramme
 
@@ -214,7 +214,7 @@ est une suite exacte, ce qui entraîne que $\alpha$ est un isomorphisme.
 
 ### 3. Bigèbres filtrées
 
-#### Définition 2 {#lie-ii-s1-def-2 .statement}
+#### Définition 2 {#lie-ii-s1-def-2 .statement tag=0A1Z}
 
 Soit E une bigèbre de coproduit c. On appelle filtration compatible avec la structure de bigèbre de E une suite croissante $(E_n)_{n \geq 0}$ de sous-modules de E telle que\footnote{Si A et B sont deux sous-modules de E, on désigne par $\operatorname{Im}(A \otimes B)$ l’image de l’application canonique $A \otimes B \to E \otimes E$.}
 
@@ -231,11 +231,11 @@ $$
 
 On appelle bigèbre filtrée une bigèbre munie d’une filtration compatible avec sa structure de bigèbre.
 
-#### Exemple {#lie-ii-s1-n3-exa-1 .statement}
+#### Exemple {#lie-ii-s1-n3-exa-1 .statement tag=0A20}
 
 Soient E une bigèbre graduée (A, III, p. 148, déf. 3), $(E^n)_{n \geq 0}$ sa graduation. Posons $E_n = \sum_{i=0}^n E^i$. La suite $(E_n)$ est une filtration compatible avec la structure de bigèbre de E.
 
-#### Proposition 6 {#lie-ii-s1-prop-6 .statement}
+#### Proposition 6 {#lie-ii-s1-prop-6 .statement tag=0A21}
 
 Soient E une bigèbre filtrée, $(E_n)_{n \geq 0}$ sa filtration. Pour tout entier $n \geq 0$, soit $E_n^+ = E_n \cap E^+$. Alors $E_0^+ = \{0\}$ et
 (7)
@@ -249,7 +249,7 @@ $$
 c^+(E_n^+) \subset \sum_{i=0}^n \operatorname{Im}(E_i^+ \otimes E_{n-i}^+) = \sum_{i=1}^{n-1} \operatorname{Im}(E_i^+ \otimes E_{n-i}^+).
 $$
 
-#### Corollaire {#lie-ii-s1-n3-cor-1 .statement}
+#### Corollaire {#lie-ii-s1-n3-cor-1 .statement tag=0A22}
 
 Les éléments de $E_1^+$ sont primitifs.
 Si $x \in E_1^+$, on a $c^+(x) = 0$ d’après (7), d’où (5).
@@ -260,7 +260,7 @@ Rappelons que g désigne une algèbre de Lie, et U son algèbre enveloppante, mu
 
 1 Si A et B sont deux sous-modules de E, on désigne par $\operatorname{Im}(A \otimes B)$ l’image de l’application canonique $A \otimes B \to E \otimes E$.
 
-#### Proposition 7 {#lie-ii-s1-prop-7 .statement}
+#### Proposition 7 {#lie-ii-s1-prop-7 .statement tag=0A23}
 
 Il existe sur l’algèbre U un coproduit c et un seul faisant de U une bigèbre telle que les éléments de $\sigma(g)$ soient primitifs. La bigèbre $(U, c)$ est cocommutative; sa coïunité est la forme linéaire $\varepsilon$ telle que le terme constant (chap. I, , n° 1) de tout élément $x$ de U soit $\varepsilon(x) . 1$. La filtration canonique $(U_n)_{n \geq 0}$ de U est compatible avec cette structure de bigèbre
 
@@ -307,11 +307,11 @@ $$
 
 où $I(i)$ désigne l’ensemble des permutations de $\{1, n\}$ croissantes dans chacun des intervalles $\{1, i\}$ et $\{i+1, n\}$. Comme $U_n$ est le K-module engendré par les produits d’au plus n éléments de $\sigma(g)$, la formule (8) entraîne que la filtration $(U_n)$ est compatible avec la structure de bigèbre de $(U, c)$.
 
-#### Définition 3 {#lie-ii-s1-def-3 .statement}
+#### Définition 3 {#lie-ii-s1-def-3 .statement tag=0A24}
 
 *La bigèbre* $(U, c)$ *est appelée* bigèbre enveloppante *de l’algèbre de Lie* g.
 
-#### Proposition 8 {#lie-ii-s1-prop-8 .statement}
+#### Proposition 8 {#lie-ii-s1-prop-8 .statement tag=0A25}
 
 *Soit* E *une bigèbre de coproduit noté* $c_E$ *et soit* h *un homomorphisme d’algèbres de Lie de* g *dans* P(E) *(n° 2, prop. 4)*. *L’homomorphisme d’algèbres unifères* $f : U \to E$ *tel que* $f(\sigma(x)) = h(x)$ *pour tout* $x \in g$ *est un morphisme de bigèbres*.
 
@@ -325,7 +325,7 @@ puisque $f(a) \in P(E)$. De même, si $\varepsilon_E$ est la coïunité de E, $\
 
 Il résulte des propositions 5 et 8 que l’application $f \mapsto f \circ \sigma$ définit une correspondance biunivoque entre homomorphismes de bigèbres $U(g) \to E$ et homomorphismes d’algèbres de Lie $g \to P(E)$.
 
-#### Corollaire {#lie-ii-s1-n4-cor-1 .statement}
+#### Corollaire {#lie-ii-s1-n4-cor-1 .statement tag=0A26}
 
 *Soient* $g_i$ ($i = 1, 2$) *une algèbre de Lie*, $U(g_i)$ *sa bigèbre enveloppante*, $\sigma_i : g_i \to U(g_i)$ *l’application canonique*. *Pour tout homomorphisme d’algèbres de Lie* $h : g_1 \to g_2$, *l’homomorphisme d’algèbres unifères* $U(h) : U(g_1) \to U(g_2)$ *tel que* $U(h) \circ \sigma_1 = \sigma_2 \circ h$ *(chap. I, § 2, n° 1)* *est un morphisme de bigèbres*.
 
@@ -347,7 +347,7 @@ $$
 
 Remarquons, d’après A, III, p. 68, *Remarque* 3, que $\eta$ est l’unique application linéaire de S(g) dans U satisfaisant à la condition (10).
 
-#### Proposition 9 {#lie-ii-s1-prop-9 .statement}
+#### Proposition 9 {#lie-ii-s1-prop-9 .statement tag=0A27}
 
 Pour tout entier $n \geqslant 0$, soit $U^n$ le sous-espace vectoriel de $U$ engendré par les $\sigma(x)^n$ pour $x \in g$.
 
@@ -374,7 +374,7 @@ Par ailleurs, la formule (10) montre que $\eta(S^n(g)) = U^n$, ce qui achève de
 
 La graduation $(U^n)_{n \geqslant 0}$ de $U$ est appelée graduation canonique.
 
-#### Corollaire {#lie-ii-s1-n5-cor-1 .statement}
+#### Corollaire {#lie-ii-s1-n5-cor-1 .statement tag=0A28}
 
 L’application canonique $\sigma$ définit un isomorphisme de $g$ sur l’algèbre de Lie $P(U)$ des éléments primitifs de $U$.
 Comme $c^+$ est un homomorphisme gradué de degré 0, on a
@@ -386,15 +386,15 @@ $$
 a = \sum_i \lambda_i a_i^n = \mu \left( \sum_i \lambda_i a_i \otimes a_i^{n-1} \right) = 0.
 $$
 
-#### Remarque 1 {#lie-ii-s1-n5-rem-1 .statement}
+#### Remarque 1 {#lie-ii-s1-n5-rem-1 .statement tag=0A29}
 
 On a $U_n = \sum_{i=0}^n U^i$ (chap. I, § 2, no 7, cor. 4 du th. 1).
 
-#### Remarque 2 {#lie-ii-s1-n5-rem-2 .statement}
+#### Remarque 2 {#lie-ii-s1-n5-rem-2 .statement tag=0E7Y}
 
 L’application $\eta$ est l’unique morphisme de cogèbres graduées de $S(g)$ dans $U$ tel que $\eta(1) = 1$ et $\eta(x) = \sigma(x)$ pour $x \in g$. En effet, si $\eta'$ est un morphisme satisfaisant à ces conditions, prouvons par récurrence sur $n$ que $\eta'(x^n) = \eta(x^n)$ pour $x \in \mathfrak{g}$ et $n > 1$. Comme $c_S^+(x^n) = \sum_{i=1}^{n-1} \binom{n}{i} x^i \otimes x^{n-i}$ d’après (3) et (11), on a $(\eta \otimes \eta)(c_S^+(x^n)) = (\eta' \otimes \eta')(c_S^+(x^n))$ par l’hypothèse de récurrence. Il s’ensuit que $c^+(\eta(x^n)) = c^+(\eta'(x^n))$; il en résulte que $\eta(x^n) - \eta'(x^n)$ est un élément primitif de degré $n$, donc est nul (cor. de la prop. 9).
 
-#### Remarque 3 {#lie-ii-s1-n5-rem-3 .statement}
+#### Remarque 3 {#lie-ii-s1-n5-rem-3 .statement tag=0E7Z}
 
 Soit $\psi$ l’isomorphisme canonique de la bigèbre TS($\mathfrak{g}$) sur la bigèbre S($\mathfrak{g}$) (A, IV, § 5, cor. 1 de la prop. 12). L’application
 $$
@@ -402,7 +402,7 @@ $$
 $$
 est dite *canonique*. C’est l’unique morphisme $\eta'$ de cogèbres graduées de TS($\mathfrak{g}$) dans $\mathbf{U}$ tel que $\eta'(1) = 1$ et $\eta'(x) = \sigma(x)$ pour tout $x \in \mathfrak{g}$.
 
-#### Remarque 4 {#lie-ii-s1-n5-rem-4 .statement}
+#### Remarque 4 {#lie-ii-s1-n5-rem-4 .statement tag=0E80}
 
 Soit V un espace vectoriel. Les éléments primitifs de la bigèbre S(V) sont les éléments de degré 1. Cela résulte en effet du cor. de la prop. 9 appliqué à l’algèbre de Lie commutative V.
 
@@ -434,7 +434,7 @@ f_\lambda = \sum_\alpha \langle \lambda, e_\alpha \rangle X^\alpha, \quad \text{
 $$
 l’indice de sommation $\alpha$ parcourant $\mathbf{N}^{(I)}$.
 
-#### Proposition 10 {#lie-ii-s1-prop-10 .statement}
+#### Proposition 10 {#lie-ii-s1-prop-10 .statement tag=0A2A}
 
 *L’application* $\lambda \mapsto f_\lambda$ *est un isomorphisme de l’algèbre* $U'$ *sur l’algèbre de séries formelles* $K[[X_i]]_{i \in I}$.
 Du fait que $(e_\alpha)$ est une base de $U$, l’application $\lambda \mapsto f_\lambda$ est $K$-linéaire et bijective.
@@ -455,7 +455,7 @@ ce qui montre que $\lambda \mapsto f_\lambda$ est un isomorphisme *d’algèbres
 Dans ce n°, on continue de supposer que $K$ est un *corps de caractéristique 0*.
 Si $E$ est une bigèbre, l’injection canonique $P(E) \to E$ se prolonge en un morphisme de bigèbres $f_E : U(P(E)) \to E$ (n° 4, prop. 8).
 
-#### Théorème 1 {#lie-ii-s1-thm-1 .statement}
+#### Théorème 1 {#lie-ii-s1-thm-1 .statement tag=0A2B}
 
 *Soit* $E$ *une bigèbre cocommutative*.
 a) *Le morphisme de bigèbres* $f_E : U(P(E)) \to E$ *est injectif*.
@@ -471,7 +471,7 @@ $$
 puisque $f_E$ est un morphisme de cogèbres.
 *Montrons que* $f_E$ *est injectif*. Cela résulte du lemme suivant:
 
-#### Lemme 2 {#lie-ii-s1-lem-2 .statement}
+#### Lemme 2 {#lie-ii-s1-lem-2 .statement tag=0A2C}
 
 *Soit* $V$ *un espace vectoriel*, *et soient* $E$ *une cogèbre*, $f : S(V) \to E$ *un morphisme de cogèbres*. *Si la restriction de* $f$ *à* $S^0(V) + S^1(V)$ *est injective, alors* $f$ *est injectif*.
 Soit $n \geq 0$; posons $S_n = \sum_{i \leq n} S^i(V)$, notons $c_S$ le coproduit de $S(V)$, et montrons par récurrence sur $n$ que $f|_{S_n}$ est injectif. L’assertion étant triviale pour $n = 0$ et $n = 1$, supposons $n \geq 2$ et soit $u \in S_n$ tel que $f(u) = 0$. On a
@@ -543,7 +543,7 @@ $$
 
 La démonstration sera donc achevée lorsque nous aurons démontré le lemme suivant:
 
-#### Lemme 3 {#lie-ii-s1-lem-3 .statement}
+#### Lemme 3 {#lie-ii-s1-lem-3 .statement tag=0A2D}
 
 *Si une famille de scalaires* $(\lambda_{\alpha,\beta})$ *de support fini* (pour $\alpha, \beta$ dans $\mathbf{N}^{(I)} - \{0\}$) *satisfait aux relations* (20) *et* (21), *il existe une famille* $(\mu_\alpha)_{|\alpha| \geq 2}$ *de support fini telle que* $\mu_{\alpha+\beta} = \lambda_{\alpha,\beta}$ *pour* $\alpha, \beta$ *non nuls*.
 

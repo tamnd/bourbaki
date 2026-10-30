@@ -24,7 +24,7 @@ subsections:
       pdf_page: 33
 statements: 14
 exercises: 4
-content_sha256: e31d156b081e12dc289b4dcc3cbefb47007cefc08de434a02a05a96a20cee321
+content_sha256: abfb1b97fec877400c967f5825bff6121f9c6751cd5a47f95d2b69799b117710
 ---
 
 ## § 3. Algèbre enveloppante de l’algèbre de Lie libre
@@ -33,7 +33,7 @@ Dans ce paragraphe, on note $A(X) = A_K(X)$ l’algèbre associative libre Libas
 
 ### 1. Algèbre enveloppante de $L(X)$
 
-#### Théorème 1 {#lie-ii-s3-thm-1 .statement}
+#### Théorème 1 {#lie-ii-s3-thm-1 .statement tag=0A42}
 
 Soit $\alpha : L(X) \to A(X)$ l’unique homomorphisme d’algèbres de Lie prolongeant l’injection canonique de $X$ dans $A(X)$ (§ 2, n° 2, prop. 1). Soit $\sigma : L(X) \to U(L(X))$ l’application canonique de $L(X)$ dans son algèbre enveloppante et soit $\beta : U(L(X)) \to A(X)$ l’unique homomorphisme d’algèbres unifères tel que $\beta \circ \sigma = \alpha$ (chap. I, § 2, n° 1, prop. 1). Alors:
 a) $\alpha$ est injectif, et $\alpha(L(X))$ est un sous-module facteur direct de $A(X)$.
@@ -43,7 +43,7 @@ Soient $B$ une $K$-algèbre unifière et $\varphi$ une application de $X$ dans $
 
 Enfin, comme $L(X)$ est un $K$-module libre (§ 2, n° 11, cor. du th. 1), $\sigma$ est injectif et $\sigma(L(X))$ est un sous-module facteur direct de $U(L(X))$ (chap. I, § 2, n° 7, cor. 3 du th. 1). D’après $b$, cela démontre $a$.
 
-#### Corollaire 1 {#lie-ii-s3-thm-1-cor-1 .statement}
+#### Corollaire 1 {#lie-ii-s3-thm-1-cor-1 .statement tag=0A43}
 
 Il existe sur l’algèbre $A(X)$ un unique coproduit faisant de $A(X)$ une bigèbre et tel que les éléments de $X$ soient primitifs. De plus, $\beta$ est un isomorphisme de la bigèbre $U(L(X))$ sur $A(X)$ munie de cette structure de bigèbre.
 
@@ -51,30 +51,30 @@ Cela résulte de l’assertion b) du théorème et du fait que $X$ engendre l’
 
 Dorénavant, on munit $A(X)$ de cette structure de bigèbre et *on identifie* $L(X)$ à son image par $\alpha$, c’est-à-dire *à la sous-algèbre de Lie de $A(X)$ engendrée par $X$*.
 
-#### Corollaire 2 {#lie-ii-s3-thm-1-cor-2 .statement}
+#### Corollaire 2 {#lie-ii-s3-thm-1-cor-2 .statement tag=0A44}
 
 *Si $K$ est un corps de caractéristique 0, $L(X)$ est l’algèbre de Lie des éléments primitifs de $A(X)$.*
     Cela résulte du cor. 1 et du cor. de la prop. 9 du § 1, n° 5.
 
-#### Remarque 1 {#lie-ii-s3-n1-rem-1 .statement}
+#### Remarque 1 {#lie-ii-s3-n1-rem-1 .statement tag=0A45}
 
 Soit $K'$ un anneau commutatif contenant $K$. Si on identifie $A(X), L(X)$ et $L_{K'}(X)$ à des parties de $A_{K'}(X)$, il résulte de la partie *a)* du th. 1 la relation
 $$
 L(X) = L_{K'}(X) \cap A(X).
 $$
 
-#### Remarque 2 {#lie-ii-s3-n1-rem-2 .statement}
+#### Remarque 2 {#lie-ii-s3-n1-rem-2 .statement tag=0E81}
 
 Le cor. 2 du th. 1 reste valable si on suppose seulement que le groupe additif de l’anneau $K$ est sans torsion. En effet, supposons d’abord $K = \mathbf{Z}$; tout élément primitif de $A(X)$ est un élément primitif de $A_{\mathbf{Q}}(X)$, donc est dans $L_{\mathbf{Q}}(X) \cap A(X) = L(X)$ (cor. 2 et formule (1)). Dans le cas général, $K$ est plat sur $\mathbf{Z}$ et on applique la *Remarque* 2 du § 1, n° 2 et la prop. 3 du § 2, n° 5.
 
-#### Remarque 3 {#lie-ii-s3-n1-rem-3 .statement}
+#### Remarque 3 {#lie-ii-s3-n1-rem-3 .statement tag=0E82}
 
 Soient $\Delta$ un monoïde commutatif, $\varphi_0$ une application de $X$ dans $\Delta$, $\varphi : Mo(X) \to \Delta$ l’homomorphisme de monoïde associé; si on munit $A(X)$ de la graduation $(A^\delta(X))_{\delta \in \Delta}$ définie en A, III, p. 31, *Exemple* 3 et $L(X)$ de la graduation $(L^\delta(X))_{\delta \in \Delta}$ définie au § 2, n° 6, on a aussitôt, pour $\delta \in \Delta$, $L^\delta(X) \subset L(X) \cap A^\delta(X)$. Comme $L$ est la somme des $L^\delta(X)$ pour $\delta \in \Delta$, et que la somme des $L(X) \cap A^\delta(X)$ pour $\delta \in \Delta$ est directe, cela entraîne
 $$
 L^\delta(X) = L(X) \cap A^\delta(X).
 $$
 
-#### Remarque 4 {#lie-ii-s3-n1-rem-4 .statement}
+#### Remarque 4 {#lie-ii-s3-n1-rem-4 .statement tag=0E83}
 
 Soit $A$ une algèbre associative unifère, et soit $t = (t_i)_{i \in I}$ une famille d’éléments de $A$. On a un diagramme
 
@@ -96,7 +96,7 @@ $$
 $$
 pour $n > 0, x_1, \ldots, x_n$ dans $X$.
 
-#### Proposition 1 {#lie-ii-s3-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s3-prop-1 .statement tag=0A46}
 
 *a)* *La restriction $\pi_0$ de $\pi$ à $L(X)$ est une dérivation de $L(X)$.*
 *b)* *Pour tout entier $n \geqslant 1$ et tout $u$ dans $L^n(X)$, on a $\pi(u) = n.u$.*
@@ -122,7 +122,7 @@ donc $\pi_0$ est une dérivation de $L(X)$.
 
 *b)* Soit $\pi_1$ l’endomorphisme du module $L(X)$ qui coïncide dans $L^n(X)$ avec la multiplication par l’entier $n \geqslant 1$. La formule $[L^n(X), L^m(X)] \subset L^{n+m}(X)$ montre que $\pi_1$ est une dérivation (A, III, p. 119, *Exemple 6*). La dérivation $\pi_1 - \pi_0$ de $L(X)$ s’annule dans $X$, et comme $X$ engendre $L(X)$, on a $\pi_0 = \pi_1$, d’où *b)*.
 
-#### Corollaire {#lie-ii-s3-n2-cor-1 .statement}
+#### Corollaire {#lie-ii-s3-n2-cor-1 .statement tag=0A47}
 
 *Supposons que $K$ soit une $\mathbf{Q}$-algèbre. Soit $P$ l’application linéaire de $A^+(X)$ dans lui-même telle que*
 $$
@@ -132,7 +132,7 @@ $$
 
 L’image de $P$ est contenue dans $L(X)$. De plus, pour tout $n \geqslant 1$ et tout $u$ dans $L^n(X)$, on a $P(u) = \frac{1}{n} \pi(u)$, d’où $P(u) = u$ d’après la prop. 1. Comme $L(X) = \sum_{n \geqslant 1} L^n(X)$, on voit que la restriction de $P$ à $L(X)$ est l’identité.
 
-#### Remarque {#lie-ii-s3-n2-rem-1 .statement}
+#### Remarque {#lie-ii-s3-n2-rem-1 .statement tag=0A48}
 
 Supposons que K soit un corps de caractéristique zéro et soit Q le projecteur de $A(X) = U(L(X))$ sur $L(X)$ associé à la graduation canonique de $U(L(X))$, cf. , n° 5. *Pour $\alpha \in \mathbf{N}^{(X)}$, on a* $Q(A^\alpha(X)) \subset L^\alpha(X)$. En effet, il suffit de vérifier que l’image et le noyau de Q sont des sous-modules gradués de $A(X)$ pour la graduation de type $\mathbf{N}^{(X)}$. C’est évident pour l’image, qui est égale à $L(X)$. D’autre part, soit $n$ un entier $\geqslant 1$. Le sous-espace vectoriel de $A(X)$ engendré par les $y^n$, où $y \in L(X)$, est égal au sous-espace vectoriel de $A(X)$ engendré par les $\sum_{\sigma \in S_n} y_{\sigma(1)} y_{\sigma(2)} \cdots y_{\sigma(n)}$, où $y_1, y_2, \ldots, y_n$ sont des éléments homogènes de $L(X)$; ce sous-espace est donc un sous-module gradué de $A(X)$
 
@@ -148,7 +148,7 @@ On a $Q(z) = 0$ et $P(z) = \frac{1}{3}[x, [x, y]] \neq 0$, cf. § 2, n° 10, *Ex
 
 Soient X un ensemble, $\alpha$ un élément de $\mathbf{N}^{(X)}$, et d un entier $> 0$. On écrit $d|\alpha$ s’il existe un $\beta \in \mathbf{N}^{(X)}$ tel que $\alpha = d\beta$. L’élément $\beta$, qui est unique, se note alors $\alpha/d$.
 
-#### Lemme 1 {#lie-ii-s3-lem-1 .statement}
+#### Lemme 1 {#lie-ii-s3-lem-1 .statement tag=0A49}
 
 *Soient n un entier $> 0$, $T_1, \ldots, T_n$ des indéterminées, et $u_1, \ldots, u_n$ dans $\mathbf{Z}$. Soit $(c(\alpha))_{\alpha \in \mathbf{N}^n - \{0\}}$ une famille d’éléments de $\mathbf{Z}$ telle que*
 
@@ -211,7 +211,7 @@ pour tout $\lambda \in \Lambda$ et tout $m \geq 1$.
 
 C.Q.F.D.
 
-#### Théorème 2 {#lie-ii-s3-thm-2 .statement}
+#### Théorème 2 {#lie-ii-s3-thm-2 .statement tag=0A4A}
 
 *Soient X un ensemble fini et n = Card(X).*
     *a)* *Pour tout entier r $\geq 1$, le K-module L^r(X) est libre de rang*
@@ -284,7 +284,7 @@ $$
 
 En appliquant de nouveau le lemme 1, on en déduit a).
 
-#### Exemple {#lie-ii-s3-n3-exa-1 .statement}
+#### Exemple {#lie-ii-s3-n3-exa-1 .statement tag=0A4B}
 
 On a:
 
@@ -293,7 +293,7 @@ c(1) = n, \quad c(2) = \frac{1}{2}(n^2 - n), \quad c(3) = \frac{1}{3}(n^3 - n),
 c(4) = \frac{1}{4}(n^4 - n^2), \quad c(5) = \frac{1}{5}(n^5 - n), \quad c(6) = \frac{1}{6}(n^6 - n^3 - n^2 + n).
 $$
 
-#### Remarque {#lie-ii-s3-n3-rem-1 .statement}
+#### Remarque {#lie-ii-s3-n3-rem-1 .statement tag=0A4C}
 
 Soit X un ensemble et soit $\alpha \in \mathbf{N}^{(X)}$; le rang du K-module libre $L^\alpha(X)$ est encore donné par la formule (16). Cela résulte aussitôt du th. 2b) et de la prop. 4 du § 2, no 6.
 

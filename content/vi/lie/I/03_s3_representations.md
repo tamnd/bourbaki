@@ -44,9 +44,9 @@ subsections:
       pdf_page: 54
 statements: 24
 exercises: 12
-content_sha256: 3bd0d9e9aa167a183e8b54e7e0ecbcc3fa90ba033ed46a7fbf0b247a08ede0ee
+content_sha256: 5e34ddcee75ae45659c15c6e3a5a3b6c67cc545a5fff1accbf3a48df9ecc9adb
 translated_from: content/en/lie/I/03_s3_representations.md
-source_content_sha256: e9e8544872aca4afd6e935784cea1e8509f6c074913cee91197e92a4cc8b55b8
+source_content_sha256: a021ec46ba121f306f571608589128b59fe9512dee7105b93f2d9f49b1ae24bd
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-ca1be95b
 glossary_version: 34
@@ -58,7 +58,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. BIỂU DIỄN
 
-#### Định nghĩa 1 {#lie-i-s3-def-1 .statement}
+#### Định nghĩa 1 {#lie-i-s3-def-1 .statement tag=09VS}
 
 *Cho $g$ là một đại số Lie trên $K$ và $M$ là một $K$-môđun. Một đồng cấu của $g$ vào đại số Lie $gl(M)$ được gọi là một biểu diễn của $g$ trên môđun $M$. Một biểu diễn đơn ánh được gọi là trung thành. Nếu $K$ là một trường, chiều (hữu hạn hoặc vô hạn) của $M$ trên $K$ được gọi là chiều của biểu diễn. Biểu diễn $x \mapsto \operatorname{ad} x$ của $g$ trên $K$-môđun $g$ được gọi là biểu diễn liên hợp của $g$.*
 
@@ -70,13 +70,13 @@ $$
 
 với mọi $x \in g, y \in g, m \in M$.
 
-#### Ví dụ {#lie-i-s3-n1-exa-1 .statement}
+#### Ví dụ {#lie-i-s3-n1-exa-1 .statement tag=09VT}
 
 Cho G là một nhóm Lie thực, g là đại số Lie của nó và θ là một biểu diễn giải tích của G trên một không gian vectơ thực hữu hạn chiều E. Khi đó đồng cấu tương ứng của g vào gl(E) là một biểu diễn của g trên E.*
 
 Cho U là đại số bao quanh của g. Mệnh đề 1 của § 2, no. 1 xác định một sự tương ứng một-một giữa tập hợp các biểu diễn của g trên M và tập hợp các biểu diễn của U trên M. Mặt khác ta biết (Đại số, Chương VIII, § 13, no. 1) rằng có một sự tương đương giữa khái niệm biểu diễn của đại số kết hợp U và khái niệm môđun trái U.
 
-#### Định nghĩa 2 {#lie-i-s3-def-2 .statement}
+#### Định nghĩa 2 {#lie-i-s3-def-2 .statement tag=09VU}
 
 *Cho g là một đại số Lie trên K và U là đại số bao quanh của nó. Một môđun trái đơn vị trên U được gọi là một môđun trái g, hoặc đơn giản là một g-môđun.*
 
@@ -118,7 +118,7 @@ Từ đây về sau, cho M là một $g$-môđun và giả sử rằng tập h�
 
 Giả sử $g$-môđun M thừa nhận một chuỗi Jordan-Hölder $(M_i)_{0 \leq i \leq n}$. Để M thuần loài N, điều kiện cần và đủ là $M_0/M_1, M_1/M_2, \ldots, M_{n-1}/M_n$ đẳng cấu với N; vì điều kiện này hiển nhiên là cần và tính đủ của nó suy ra ngay lập tức bằng quy nạp theo $n$ từ điều đã thấy ở trên.
 
-#### Mệnh đề 1 {#lie-i-s3-prop-1 .statement}
+#### Mệnh đề 1 {#lie-i-s3-prop-1 .statement tag=09VV}
 
 *Cho g là một đại số Lie trên K và a là một iđêan của g. Cho M là một môđun g* và $N$ là một $a$-môđun đơn. Xét $M$ như một $a$-môđun và giả sử rằng tập hợp các môđun con-$a$ của $M$ thuần nhất thuộc loài $N$ thừa nhận một phần tử cực đại $M'$. Khi đó $M'$ là một môđun con-$g$ của $M$.
 
@@ -136,7 +136,7 @@ $$
 
 Suy ra $x_{M/M'} \cdot f(m) = f(x_M \cdot m)$. Từ đó suy ra rằng $f(M')$ là một môđun con-$a$ của $M/M'$ đẳng cấu với một thương của $M'$ và do đó thuần nhất thuộc loài $N$; do đó $f(M') = \{0\}$.
 
-#### Hệ quả {#lie-i-s3-n1-cor-1 .statement}
+#### Hệ quả {#lie-i-s3-n1-cor-1 .statement tag=09VW}
 
 *Cho $g$ là một đại số Lie trên $K$ và $a$ là một iđêan của $g$. Cho $M$ là một môđun $g$ đơn, có độ dài hữu hạn như một môđun $K$. Tồn tại một $a$-môđun đơn $N$ sao cho $M$ là một $a$-môđun thuần nhất thuộc loài $N$.*
 
@@ -165,7 +165,7 @@ $$
 
 Bằng một lập luận tương tự ta thấy rằng:
 
-#### Mệnh đề 2 {#lie-i-s3-prop-2 .statement}
+#### Mệnh đề 2 {#lie-i-s3-prop-2 .statement tag=09VX}
 
 Cho $g$ là một đại số Lie trên $K$ và $M_i$ là một $g$-môđun ($1 \leq i \leq n$). Trên tích tenxơ $M_1 \otimes_K M_2 \otimes \cdots \otimes M_n$, tồn tại một và chỉ một cấu trúc $g$-môđun sao cho
 
@@ -214,7 +214,7 @@ $$
 
 Kết hợp các kết quả này với Mệnh đề 2, ta thấy rằng:
 
-#### Mệnh đề 3 {#lie-i-s3-prop-3 .statement}
+#### Mệnh đề 3 {#lie-i-s3-prop-3 .statement tag=09VY}
 
 *Cho $g$ là một đại số Lie trên $K$ và $M_i$ là một $g$-môđun ($1 \leq i \leq n + 1$). Cho $N$ là $K$-môđun $\mathscr{L}_K(M_1, \ldots, M_n; M_{n+1})$ gồm các ánh xạ đa tuyến từ $\prod_{i=1}^n M_i$ vào $M_{n+1}$. Tồn tại duy nhất một cấu trúc $g$-môđun trên $N$ sao cho*
 
@@ -241,7 +241,7 @@ $$
 
 Khi $K$ là một trường và $M$ là hữu hạn chiều, $g$-môđun $M$ là đơn (tương ứng, nửa đơn) khi và chỉ khi $g$-môđun $M^*$ là đơn (tương ứng, nửa đơn).
 
-#### Mệnh đề 4 {#lie-i-s3-prop-4 .statement}
+#### Mệnh đề 4 {#lie-i-s3-prop-4 .statement tag=09VZ}
 
 *Cho $M_1, M_2$ là hai $g$-môđun. Các ánh xạ $K$-tuyến tính chính tắc* (Đại số, Chương II, § 4, no. 2, Mệnh đề 2 và no. 1, Mệnh đề 1):
 
@@ -283,7 +283,7 @@ Các $g$-môđun $\mathscr{L}(M_1, M_2^*)$ và $(M_1 \otimes M_2)^*$ được đ
 
 ### 4. VÍ DỤ
 
-#### Ví dụ 1 {#lie-i-s3-n4-exa-1 .statement}
+#### Ví dụ 1 {#lie-i-s3-n4-exa-1 .statement tag=09W0}
 
 Cho $g$ là một đại số Lie trên $K$ và $M$ là một $g$-môđun. Cấu trúc $g$-môđun trên $M$ và cấu trúc $g$-môđun tầm thường trên $K$ xác định một cấu trúc $g$-môđun trên $K$-môđun $N = \mathscr{L}(M, M; K)$ của các dạng song tuyến tính trên $M$. Khi đó
 
@@ -345,7 +345,7 @@ D = -tA \quad B = tB \quad C = tC.
 $$
 *Khi $K = \mathbf{R}$, đại số Lie thu được là đại số Lie của nhóm symplectic $\mathbf{Sp}(2m, \mathbf{R})$.*
 
-#### Ví dụ 2 {#lie-i-s3-n4-exa-2 .statement}
+#### Ví dụ 2 {#lie-i-s3-n4-exa-2 .statement tag=09W1}
 
 Ta giữ ký hiệu của *Ví dụ 1*.
 
@@ -363,25 +363,25 @@ trong $\mathscr{L}(\mathscr{L}(M, M)) = \mathscr{L}(\mathrm{gl}(M))$.
 
 ### 5. CÁC PHẦN TỬ BẤT BIẾN
 
-#### Định nghĩa 3 {#lie-i-s3-def-3 .statement}
+#### Định nghĩa 3 {#lie-i-s3-def-3 .statement tag=09W2}
 
 *Một phần tử $m \in M$ của một đại số Lie $g$ và một môđun-$g$ $M$ được gọi là bất biến (đối với cấu trúc môđun-$g$ trên $M$ hoặc đối với biểu diễn tương ứng của $g$) nếu $x_M \cdot m = 0$ với mọi $x \in g$.*
 
 *Một nhóm Lie thực liên thông $G$, $g$ là đại số Lie của nó, $\theta$ là một biểu diễn giải tích của $G$ trên một không gian vectơ thực hữu hạn chiều $E$ và $\rho$ là biểu diễn tương ứng của $g$ trên $E$. Cho $m \in E$. Phần tử $m$ là bất biến đối với $\rho$ khi và chỉ khi $\theta(g) \cdot m = m$ với mọi $g \in G$. Điều này giải thích việc sử dụng từ "bất biến".*
 
-#### Ví dụ 1 {#lie-i-s3-n5-exa-1 .statement}
+#### Ví dụ 1 {#lie-i-s3-n5-exa-1 .statement tag=09W3}
 
 Cho $M, N$ là hai $g$-môđun và $P = \mathscr{L}_K(M, N)$. Để một phần tử $f$ của $P$ là bất biến, theo (6), điều kiện cần và đủ là $f$ là một đồng cấu của $g$-môđun $M$ vào $g$-môđun $N$. Đặc biệt, nếu $M = N$ và $x_M = x_N$ với mọi $x \in g$, thì $f$ là bất biến khi và chỉ khi $f$ giao hoán được với các $x_M$.
 
-#### Ví dụ 2 {#lie-i-s3-n5-exa-2 .statement}
+#### Ví dụ 2 {#lie-i-s3-n5-exa-2 .statement tag=09W4}
 
 Cho M là một K-môđun có một cơ sở hữu hạn. Nếu M có một cấu trúc $g$-môđun, $\mathscr{L}(M, M)$ và $M^* \otimes M$ có các cấu trúc $g$-môđun và ánh xạ chính tắc của $M^* \otimes M$ vào $\mathscr{L}(M, M)$ là một đẳng cấu $g$-môđun (Mệnh đề 4). Vì $1 \in \mathscr{L}(M, M)$ hiển nhiên là một phần tử bất biến (xem Ví dụ 1), nên phần tử $u$ tương ứng của $M^* \otimes M$ là một phần tử bất biến. Nếu $(e_i)_{1 \leq i \leq n}$ là một cơ sở của M và $(e_i^*)_{1 \leq i \leq n}$ là cơ sở đối ngẫu, ta có $u = \sum_{i=1}^n e_i^* \otimes e_i$.
 
-#### Ví dụ 3 {#lie-i-s3-n5-exa-3 .statement}
+#### Ví dụ 3 {#lie-i-s3-n5-exa-3 .statement tag=09W5}
 
 Cho M là một $g$-môđun. Cho $\beta$ là một dạng song tuyến tính trên M và f là phần tử tương ứng của $\mathscr{L}(M, M^*)$. Để $\beta$ là bất biến, điều kiện cần và đủ là f là một đồng cấu $g$-môđun (Mệnh đề 4 và Ví dụ 1). Giả sử rằng K là một trường và rằng $\dim_K M < +\infty$. Một dạng song tuyến tính bất biến không suy biến $\beta$ trên M xác định một đẳng cấu của $g$-môđun M lên $g$-môđun $M^*$ và do đó một đẳng cấu của $g$-môđun $M \otimes M$ lên $g$-môđun $M^* \otimes M$. Vì vậy, theo Ví dụ 2, việc cho $\beta$ xác định một cách chính tắc một phần tử bất biến c trong $g$-môđun $M \otimes M$, phần tử này có thể được xây dựng như sau: cho $(e_i)_{1 \leq i \leq n}$ là một cơ sở của M và $(e'_i)_{1 \leq i \leq n}$ là cơ sở của M sao cho $\beta(e_i, e'_j) = \delta_{ij}$; khi đó $c = \sum_{i=1}^n e_i \otimes e'_i$.
 
-#### Mệnh đề 5 {#lie-i-s3-prop-5 .statement}
+#### Mệnh đề 5 {#lie-i-s3-prop-5 .statement tag=09W6}
 
 *Cho g là một đại số Lie trên K, h là một iđêan của g, $\rho$ là một biểu diễn của g trên M và $\rho'$ là hạn chế của $\rho$ vào h. Khi đó tập hợp N các phần tử của M bất biến đối với $\rho'$ là ổn định dưới $\rho(g)$.*
 
@@ -391,7 +391,7 @@ $$
 $$
 do đó $\rho(y)n \in N$.
 
-#### Mệnh đề 6 {#lie-i-s3-prop-6 .statement}
+#### Mệnh đề 6 {#lie-i-s3-prop-6 .statement tag=09W7}
 
 *Cho M là một $g$-môđun nửa đơn. Khi đó môđun con $M_0$ gồm các phần tử bất biến của M thừa nhận duy nhất một phần bù ổn định dưới các $x_M$, cụ thể là môđun con $M_1$ sinh bởi các $x_M.m$ ($x \in g, m \in M$).*
 
@@ -421,7 +421,7 @@ $$
 
 với mọi $x, y$ trong $g$ và $D \in \mathfrak{d}$.
 
-#### Mệnh đề 7 {#lie-i-s3-prop-7 .statement}
+#### Mệnh đề 7 {#lie-i-s3-prop-7 .statement tag=09W8}
 
 *Cho $g$ là một đại số Lie, $\beta$ là một dạng song tuyến tính đối xứng bất biến trên $g$ và $a$ là một iđêan của $g$.*
 
@@ -435,11 +435,11 @@ Cho $D$ là một đạo hàm của $g$. Giả sử rằng $a$ ổn định dư�
 
 Bây giờ cho $b$ là một iđêan của $g$ và giả sử rằng hạn chế của $\beta$ lên $b$ là không. Với $x, y$ thuộc $b$ và $z \in g$, $\beta([x, y], z) = \beta(x, [y, z]) = 0$, vì $[y, z] \in b$. Do đó $[b, b]$ trực giao với $g$. Nếu $\beta$ không suy biến, thì $b$ do đó là giao hoán. Kết quả này áp dụng cho $a \cap a'$ chứng minh (c).
 
-#### Định nghĩa 4 {#lie-i-s3-def-4 .statement}
+#### Định nghĩa 4 {#lie-i-s3-def-4 .statement tag=09W9}
 
 *Cho $g$ là một đại số $K$-Lie và $M$ là một $g$-môđun. Giả sử rằng $M$, được xem như một $K$-môđun, thừa nhận một cơ sở hữu hạn. Dạng song tuyến tính liên kết với $g$-môđun $M$ (hoặc với biểu diễn tương ứng) là dạng song tuyến tính đối xứng $(x, y) \mapsto \operatorname{Tr}(x_M y_M)$ trên $g$. Nếu biểu diễn đang xét là biểu diễn phụ hợp, dạng song tuyến tính liên kết được gọi là dạng Killing của $g$.*
 
-#### Mệnh đề 8 {#lie-i-s3-prop-8 .statement}
+#### Mệnh đề 8 {#lie-i-s3-prop-8 .statement tag=09WA}
 
 *Cho $g$ là một đại số Lie và $M$ là một $g$-môđun. Giả sử rằng $M$, được xem như một $K$-môđun, thừa nhận một cơ sở hữu hạn. Dạng song tuyến tính liên kết với $M$ là bất biến.*
 
@@ -452,13 +452,13 @@ $$
 \end{align*}
 $$
 
-#### Mệnh đề 9 {#lie-i-s3-prop-9 .statement}
+#### Mệnh đề 9 {#lie-i-s3-prop-9 .statement tag=09WB}
 
 *Giả sử rằng $K$ là một trường và rằng đại số Lie $g$ là hữu hạn chiều* trên $K$. *Cho $a$ là một iđêan của $g$, $\beta$ là dạng Killing của $g$ và $\beta'$ là dạng Killing của $a$. Khi đó $\beta'$ là hạn chế của $\beta$ lên $a$.*
 
 Cho $u$ là một tự đồng cấu của không gian vectơ $g$ giữ ổn định $a$. Cho $v$ là hạn chế của $u$ vào $a$ và $w$ là tự đồng cấu của không gian vectơ $g/a$ dẫn xuất từ $u$ khi chuyển qua thương. Khi đó $\operatorname{Tr} u = \operatorname{Tr} v + \operatorname{Tr} w$ như thấy được bằng cách lấy một cơ sở $(x_1, \ldots, x_n)$ của $g$ mà $p$ phần tử đầu tiên lập thành một cơ sở của $a$. Khi đó cho $x \in a, y \in a$ và áp dụng công thức trên vào trường hợp $u = (\operatorname{ad}_g x)(\operatorname{ad}_g y)$. Khi đó $v = (\operatorname{ad}_a x)(\operatorname{ad}_a y)$ và $w = 0$. Suy ra $\beta(x, y) = \beta'(x, y)$.
 
-#### Mệnh đề 10 {#lie-i-s3-prop-10 .statement}
+#### Mệnh đề 10 {#lie-i-s3-prop-10 .statement tag=09WC}
 
 *Giả sử rằng $K$ là một trường và đại số Lie $g$ là hữu hạn chiều trên $K$. Dạng Killing $\beta$ của $g$ là hoàn toàn bất biến.*
 
@@ -466,7 +466,7 @@ Cho $D$ là một đạo hàm của $g$. Tồn tại một đại số Lie $g'$ 
 
 ### 7. PHẦN TỬ CASIMIR
 
-#### Mệnh đề 11 {#lie-i-s3-prop-11 .statement}
+#### Mệnh đề 11 {#lie-i-s3-prop-11 .statement tag=09WD}
 
 *Cho $g$ là một đại số Lie trên một trường $K$, $U$ là đại số bao quanh của nó, $h$ là một iđêan hữu hạn chiều của $g$ và $\beta$ là một dạng song tuyến tính bất biến trên $g$, mà hạn chế của nó vào $h$ là không suy biến. Cho $(e_i)_{1 \leq i \leq n}, (e'_j)_{1 \leq j \leq n}$ là hai cơ sở của $h$ sao cho $\beta(e_i, e'_j) = \delta_{ij}$. Khi đó phần tử $c = \sum_{i=1}^n e_i e'_i$ của $U$ thuộc về tâm của $U$ và độc lập với lựa chọn cơ sở $(e_i)$.*
 
@@ -474,7 +474,7 @@ Với $x \in g$, cho $x_h$ là hạn chế xuống $h$ của $\operatorname{ad}_
 
 Khi $\beta$ là dạng song tuyến tính liên kết với một $g$-môđun $M$, phần tử $c$ của Mệnh đề 11 được gọi là *phần tử Casimir* liên kết với $M$ (hoặc với biểu diễn tương ứng). Phần tử này tồn tại nếu hạn chế của $\beta$ xuống $h$ là không suy biến.
 
-#### Mệnh đề 12 {#lie-i-s3-prop-12 .statement}
+#### Mệnh đề 12 {#lie-i-s3-prop-12 .statement tag=09WE}
 
 *Cho $g$ là một đại số Lie trên một trường $K$, $h$ là một iđêan của $g$ có số chiều hữu hạn n và M là một g-môđun có số chiều hữu hạn trên K. Cho c là phần tử Casimir (giả sử tồn tại) liên kết với M và h.
 
@@ -499,7 +499,7 @@ Cho K, $K_1$, g, $\rho$, M như trong đoạn trước. Cho b là một không g
 
 Cho $K, K_1$ và $\phi$ như ở đầu số này. Cho $g$ là một đại số Lie $K$ và M và N là các g-môđun. Nếu M và N là các g-môđun đẳng cấu, thì $M_{(K_1)}$ và $N_{(K_1)}$ là các $g_{(K_1)}$-môđun đẳng cấu. Ngược lại:
 
-#### Mệnh đề 13 {#lie-i-s3-prop-13 .statement}
+#### Mệnh đề 13 {#lie-i-s3-prop-13 .statement tag=09WF}
 
 *Cho $K$ là một trường, $K_1$ là một mở rộng của $K$, $g$ là một đại số Lie trên $K$ và $M, N$ là hai $g$-môđun có số chiều hữu hạn trên $K$. Nếu $M_{(K_1)}$ và $N_{(K_1)}$ là các $g_{(K_1)}$-môđun đẳng cấu, thì $M$ và $N$ là các $g$-môđun đẳng cấu.*
 

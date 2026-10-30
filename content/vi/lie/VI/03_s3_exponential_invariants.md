@@ -28,7 +28,7 @@ subsections:
       pdf_page: 212
 statements: 13
 exercises: 2
-content_sha256: 253a169b04bb5ebc35df9c8c76ecec33157f0a1b2485470aa26c6774c5587a29
+content_sha256: 042a4da671a1e435999ec421f416b9fd58bd32e69a75a90572f0fbc0504cf77e
 translated_from: content/en/lie/VI/03_s3_exponential_invariants.md
 source_content_sha256: 16fff2ef91958e3176073428ac5aa96104b5766117545ca5b13d57989a8e0cf7
 translation_model: gpt-5.4
@@ -49,7 +49,7 @@ $$
 e^p e^{p'} = e^{p + p'}, \quad (e^p)^{-1} = e^{-p}, \quad e^0 = 1.
 $$
 
-#### Bổ đề 1 {#lie-vi-s3-lem-1 .statement}
+#### Bổ đề 1 {#lie-vi-s3-lem-1 .statement tag=0AXN}
 
 *Giả sử rằng A là một vành factorial* (*Đại số giao hoán*, Chương VII, § 3, no. 1, Định nghĩa 1).
 (i) *Vành $A[P]$ là factorial.*
@@ -77,11 +77,11 @@ Ta giữ lại các ký hiệu của số trước và cho R là một hệ căn
 
 Cho C là một buồng của R (§ 1, no. 5) và cho $B = (\alpha_i)_{1 \leq i \leq l}$ là cơ sở tương ứng của R. Ta trang bị cho V (và do đó cũng cho P) cấu trúc thứ tự được xác định bởi C. Nếu $p, p' \in P, p \geq p'$ khi và chỉ khi $p - p'$ là một tổ hợp tuyến tính của các $\alpha_i$ với các hệ số dương.
 
-#### Định nghĩa 1 {#lie-vi-s3-def-1 .statement}
+#### Định nghĩa 1 {#lie-vi-s3-def-1 .statement tag=0AXO}
 
 Cho $x = \sum_{p \in P} x_p e^p$ là một phần tử của $A[P]$. Tập hợp S các $p \in P$ sao cho $x_p \neq 0$ được gọi là giá của x và tập hợp X các phần tử cực đại của S được gọi là giá cực đại của x. Khi đó một số hạng $x_p e^p$ với $p \in X$ được gọi là một số hạng cực đại của x.
 
-#### Bổ đề 2 {#lie-vi-s3-lem-2 .statement}
+#### Bổ đề 2 {#lie-vi-s3-lem-2 .statement tag=0AXP}
 
 Cho $x \in A[P]$ và gọi $(x_p e^p)_{p \in X}$ là họ các số hạng cực đại của x. Cho $q \in P$ và cho $y \in A[P]$ sao cho $e^q$ là số hạng cực đại duy nhất của y. Khi đó, họ các số hạng cực đại của $xy$ là $(x_p e^{p+q})_{p \in X}$.
 
@@ -91,7 +91,7 @@ Nếu $t = p + q = p' + r$ với $p \in X$ và $x_{p'} y_r \neq 0$, thì $r \leq
 
 Mặt khác, nếu $t = p' + r$ với $x_{p'} y_r \neq 0$, thì tồn tại $p \in X$ sao cho $p' \leq p$ và ta có $t \leq p + q$. Vậy giá của $xy$ là cực đại được chứa trong $X + q$. Vì không có hai phần tử nào của $X + q$ là so sánh được với nhau, suy ra $X + q$ chính xác là giá cực đại của $xy$ và ở trên ta đã thấy rằng $z_{p+q} = x_p$ với $p \in X$, điều này hoàn thành chứng minh của bổ đề.
 
-#### Nhận xét {#lie-vi-s3-n2-rem-1 .statement}
+#### Nhận xét {#lie-vi-s3-n2-rem-1 .statement tag=0AXQ}
 
 Vì $x \neq 0$ có nghĩa là giá cực đại của $x$ là không rỗng, Bổ đề 2 cho thấy rằng $x \neq 0$ kéo theo $xy \neq 0$ bất cứ khi nào $y$ có một số hạng cực đại duy nhất có dạng $e^q$.
 
@@ -103,7 +103,7 @@ $$
 $$
 trong đó độ dài $l(w)$ được lấy đối với họ các phép đối xứng $s_{\alpha_i}$.
 
-#### Định nghĩa 2 {#lie-vi-s3-def-2 .statement}
+#### Định nghĩa 2 {#lie-vi-s3-def-2 .statement tag=0AXR}
 
 *Một phần tử* $x \in A[P]$ *được gọi là phản-bất biến dưới* $W$ *nếu*
 $$
@@ -129,7 +129,7 @@ $$
 $$
 là nửa tổng của các căn dương (*loc. cit.*) nên các phần tử của $P \cap C$ là các trọng có dạng $\rho + p$ với $p \in P \cap \overline{C}$. Cuối cùng, nếu $p \in P \cap C$, thì $w(p) < p$ với mọi $w \neq 1$ (§ 1, no. 6, Hệ quả của Mệnh đề 18) và do đó $e^p$ là số hạng cực đại duy nhất của $J(e^p)$.
 
-#### Mệnh đề 1 {#lie-vi-s3-prop-1 .statement}
+#### Mệnh đề 1 {#lie-vi-s3-prop-1 .statement tag=0AXS}
 
 *Nếu* 2 *không phải là một ước của không trong* $A$, *thì các phần tử* $J(e^p)$ *với* $p \in P \cap C$ *lập thành một cơ sở của môđun các phần tử phản bất biến của* $A[P]$.
 
@@ -157,7 +157,7 @@ d = \prod_{\alpha \in R, \alpha > 0} (e^{\alpha/2} - e^{-\alpha/2}) \\
 $$
 Vì $\rho \in P$, nên $d \in A[P]$.
 
-#### Mệnh đề 2 {#lie-vi-s3-prop-2 .statement}
+#### Mệnh đề 2 {#lie-vi-s3-prop-2 .statement tag=0AXT}
 
 (i) *Phần tử d được xác định bởi (3) là một phần tử phản bất biến của A[P]; số hạng cực đại duy nhất của nó* (no. 2, Định nghĩa 1) *là* $e^{\rho}$ *và* $d = J(e^{\rho})$.
 (ii) *Với mọi* $p \in P$, *phần tử* $J(e^p)$ *chia được duy nhất cho* $d$ *và thương* $J(e^p)/d$ *là một phần tử của* $A[P]$ *bất biến dưới* $W$.
@@ -204,11 +204,11 @@ Trở lại trường hợp tổng quát, bằng phép mở rộng các vô hư�
 
 Cuối cùng, nếu 2 không là một ước của không trong $A$, thì Nhận xét của no. 2 và Mệnh đề 1 suy ra (iii).
 
-#### Nhận xét 1 {#lie-vi-s3-n3-rem-1 .statement}
+#### Nhận xét 1 {#lie-vi-s3-n3-rem-1 .statement tag=0AXU}
 
 Nếu 2 không phải là một ước của không trong $A$, thì dễ kiểm tra rằng $d$ là phần tử phản bất biến duy nhất của $A[P]$ có $e^\rho$ là số hạng cực đại của nó.
 
-#### Nhận xét 2 {#lie-vi-s3-n3-rem-2 .statement}
+#### Nhận xét 2 {#lie-vi-s3-n3-rem-2 .statement tag=0AXV}
 
 Bổ đề 2 của no. 2 cho thấy rằng số hạng cực đại duy nhất của thương $J(e^p)/d$ (với $p \in P \cap C$) là $e^{p-\rho}$.
 
@@ -228,7 +228,7 @@ $$
 
 Ta suy ra:
 
-#### Bổ đề 3 {#lie-vi-s3-lem-3 .statement}
+#### Bổ đề 3 {#lie-vi-s3-lem-3 .statement tag=0AXW}
 
 *Các $S(e^p)$ với $p \in P \cap \overline{C}$ tạo thành một cơ sở của $A$-môđun $A[P]^W$.*
 
@@ -259,7 +259,7 @@ x_p = S(e^p) + \sum_{q < p, q \in I} c_{pq} S(e^q).
 $$
 Mệnh đề bây giờ suy ra từ các Bổ đề 3 và 4.
 
-#### Định lý 1 {#lie-vi-s3-thm-1 .statement}
+#### Định lý 1 {#lie-vi-s3-thm-1 .statement tag=0AXX}
 
 *Cho $\overline{\omega}_1, \ldots, \overline{\omega}_l$ là các trọng số cơ bản tương ứng với buồng $C$, và, với $1 \leq i \leq l$, cho $x_i$ là một phần tử của $A[P]^W$ có $e^{\overline{\omega}_i}$ là số hạng cực đại duy nhất. Cho*
 $$
@@ -269,11 +269,11 @@ $$
 
 Bổ đề 2 kéo theo rằng ảnh qua $\varphi$ của đơn thức $X_1^{n_1} \ldots X_l^{n_l}$ là một phần tử có số hạng cực đại duy nhất $e^{n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l}$. Vì mọi phần tử của $P \cap \overline{C}$ đều có thể viết một cách duy nhất dưới dạng $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$, Mệnh đề 3 cho thấy rằng các ảnh qua $\varphi$ của các đơn thức $X_1^{n_1} \ldots X_l^{n_l}$ tạo thành một cơ sở của $A[P]^W$, do đó suy ra định lý.
 
-#### Ví dụ 1 {#lie-vi-s3-n4-exa-1 .statement}
+#### Ví dụ 1 {#lie-vi-s3-n4-exa-1 .statement tag=0AXY}
 
 Ta có thể lấy $x_i = S(e^{\overline{\omega}_i})$.
 
-#### Ví dụ 2 {#lie-vi-s3-n4-exa-2 .statement}
+#### Ví dụ 2 {#lie-vi-s3-n4-exa-2 .statement tag=0AXZ}
 
 Theo *Nhận xét* 2 của no. 3, ta có thể lấy $x_i = J(e^{\rho + \overline{\omega}_i})/d$ (với ký hiệu ở no. 3).
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 91
 statements: 18
 exercises: 10
-content_sha256: ccc2568c4916acda926675b9e03e64cce2568dd1f6751eeebaef414d1ede8617
+content_sha256: 1712fd29361905197cdbe60cb21fedbb00a09d82c6950f26f66623012941aafc
 translated_from: content/en/fvr/II/03_s3_derivatives_and_integrals_of_functions.md
 source_content_sha256: 62bb6cd48dfc0b7f2b01d57475721e621137ba34388ad9ae689438f7ab394731
 translation_model: gpt-5.4, copied
@@ -52,7 +52,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Định lý 1 của II, p. 52, áp dụng cho trường hợp riêng của các hàm điều chỉnh trên một đoạn compact, được phát biểu như sau theo ký hiệu thích hợp cho tích phân:
 
-#### Mệnh đề 1 {#fvr-ii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-ii-s3-prop-1 .statement tag=088Y}
 
 Cho A là một tập hợp được lọc bởi một bộ lọc $\mathfrak{F}$, và $(f_\alpha)_{\alpha \in A}$ là một họ các hàm điều chỉnh trên một đoạn compact $I = [a, b]$; nếu các hàm $f_\alpha$ hội tụ đều trên I đến một hàm f (điều chỉnh) đối với bộ lọc $\mathfrak{F}$, thì
 
@@ -62,7 +62,7 @@ $$
 
 Hai hệ quả của mệnh đề này là quan trọng trong các áp dụng:
 
-#### Hệ quả 1 {#fvr-ii-s3-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#fvr-ii-s3-prop-1-cor-1 .statement tag=088Z}
 
 Cho $(f_n)$ là một dãy các hàm điều chỉnh trên một đoạn compact $I = [a, b]$. Nếu dãy $(f_n)$ hội tụ đều trên I đến một hàm f (điều chỉnh), ta có
 
@@ -72,7 +72,7 @@ $$
 
 Đặc biệt, nếu một chuỗi mà số hạng tổng quát $u_n$ là một hàm điều chỉnh trên I, hội tụ đều đến f trên I, thì chuỗi có số hạng tổng quát $\int_a^b u_n(t) \, dt$ là hội tụ và tổng của nó là $\int_a^b f(t) \, dt$ ("lấy tích phân từng số hạng của một chuỗi hội tụ đều").
 
-#### Hệ quả 2 {#fvr-ii-s3-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#fvr-ii-s3-prop-1-cor-2 .statement tag=0890}
 
 Cho $A$ là một tập con của một không gian tôpô $F$, và $f$ là một ánh xạ từ $I \times A$ vào một không gian định chuẩn đầy đủ $E$ trên $\mathbf{R}$, sao cho, với mỗi $\alpha \in A$, hàm $x \mapsto f(x, \alpha)$ là điều hòa trên $I$. Nếu các hàm $x \mapsto f(x, \alpha)$ hội tụ đều trên $I$ tới một hàm (điều hòa) $x \mapsto g(x)$, khi $\alpha$ tiến tới một điểm $\alpha_0 \in \overline{A}$ mà vẫn nằm trong $A$, thì ta có
 
@@ -82,7 +82,7 @@ $$
 
 Đặc biệt:
 
-#### Mệnh đề 2 ("tính liên tục của một nguyên đối với một tham số") {#fvr-ii-s3-prop-2 .statement}
+#### Mệnh đề 2 ("tính liên tục của một nguyên đối với một tham số") {#fvr-ii-s3-prop-2 .statement tag=0891}
 
 Cho $F$ là một không gian compact, $I = [a,\ b]$ là một khoảng compact trong $\mathbf{R}$, và $f$ là một ánh xạ liên tục từ $I \times F$ vào một không gian định chuẩn đầy đủ $E$ trên $\mathbf{R}$; khi đó hàm $h(\alpha) = \int_a^b f(x, \alpha)\, dx$ liên tục trên $F$.
 
@@ -131,7 +131,7 @@ Sau cùng, bổ đề ở II, p. 65 cho phép ta viết điều kiện cuối c�
 
 Thông thường nhất, người ta dùng một điều kiện chặt hơn thu được bằng cách giả sử rằng, trong mệnh đề sau cùng, tập hợp $M$ *không phụ thuộc vào $\varepsilon$*:
 
-#### Định nghĩa 1 {#fvr-ii-s3-def-1 .statement}
+#### Định nghĩa 1 {#fvr-ii-s3-def-1 .statement tag=0892}
 
 *Người ta nói rằng tích phân $\int_I \mathbf{f}_\alpha(t)\,dt$ hội tụ đều đối với $\alpha \in A$ (hay hội tụ đều trên $A$) nếu, với mọi $\varepsilon > 0$ tồn tại một khoảng compact $J_0 \subset J$ sao cho, với mọi khoảng compact $K \subset I$ không có điểm trong nào chung với $J_0$, và mọi $\alpha \in A$, ta có*
 
@@ -141,7 +141,7 @@ $$
 
 Định nghĩa này tương đương với việc nói rằng họ các ánh xạ $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$ *hội tụ đều trên $A$* (về ánh xạ $\alpha \mapsto \int_I \mathbf{f}_\alpha(t)\,dt$) đối với bộ lọc các thiết diện $\Phi$ của $\mathscr{K}(I)$; mỗi một trong các tích phân $\int_I \mathbf{f}_\alpha(t)\,dt$ *a fortiori* là hội tụ (đảo lại là sai). Hơn nữa, từ điều ta vừa thấy (hoặc từ *Gen. Top.*, X, p. 281, hệ quả 2):
 
-#### Mệnh đề 3 {#fvr-ii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-ii-s3-prop-3 .statement tag=0893}
 
 *Cho* $(\mathbf{f}_\alpha )$ *là một họ các hàm điều hòa trên một khoảng* $I$ *sao cho: 1* đối với bộ lọc $\mathfrak{F}$ *họ* $(\mathbf{f}_\alpha )$ *hội tụ đều đến một hàm* $f$ *(điều hòa trên* $I$) *trên mọi khoảng compact được chứa trong* $I$; *2* tích phân $\int_I \mathbf{f}_\alpha(t)\,dt$ *hội tụ đều theo* $\alpha \in A$. *Dưới các giả thiết đó, tích phân* $\int_I f(t)\,dt$ *hội tụ, và ta có*
 
@@ -153,7 +153,7 @@ Các giả thiết của mệnh đề 3 được thỏa mãn chẳng hạn khi $
 
 Cũng như đối với mệnh đề 1 của II, p. 68, hai hệ quả của mệnh đề 3 là quan trọng trong các ứng dụng:
 
-#### Hệ quả 1 {#fvr-ii-s3-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#fvr-ii-s3-prop-3-cor-1 .statement tag=0894}
 
 *Cho* $(f_n)$ *là một dãy các hàm điều chỉnh trên một khoảng tùy ý* $I$, *hội tụ đều về một hàm* $f$ *trên mỗi khoảng compắc được chứa trong* $I$; *nếu tích phân* $\int_I f_n(t)\,dt$ *hội tụ đều, thì tích phân* $\int_I f(t)\,dt$ *hội tụ, và*
 $$
@@ -161,11 +161,11 @@ $$
 $$
 (9)
 
-#### Nhận xét {#fvr-ii-s3-n2-rem-1 .statement}
+#### Nhận xét {#fvr-ii-s3-n2-rem-1 .statement tag=0895}
 
 Các giả thiết đặt ra trong hệ quả này là đủ, nhưng không cần, để công thức (9) đúng; về sau chúng tôi sẽ tổng quát hóa công thức này, đồng thời với khái niệm tích phân (xem INT, IV), và thu được những điều kiện ít hạn chế hơn nhiều.
 
-#### Hệ quả 2 {#fvr-ii-s3-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#fvr-ii-s3-prop-3-cor-2 .statement tag=0896}
 
 *Cho* $A$ *là một tập con của một không gian tôpô* $F$, *và* $f$ *là một ánh xạ từ* $I \times A$ *vào một không gian định chuẩn đầy đủ* $E$ *trên* $\mathbf{R}$, *sao cho, với mọi* $\alpha \in A$, *hàm* $x \mapsto f(x, \alpha)$ *là điều hòa trên* $I$. *Nếu, một mặt, các hàm* $x \mapsto f(x, \alpha)$ *hội tụ đều trên mọi khoảng compact được chứa trong* $I$ *đến một hàm* $x \mapsto f(x)$ *khi* $\alpha$ *tiến tới* $\alpha_0 \in \overline{A}$ *trong khi vẫn thuộc* $A$; *nếu, mặt khác, tích phân* $\int_I f(x, \alpha)\,dx$ *hội tụ đều trên* $A$, *thì tích phân* $\int_I f(x)\,dx$ *hội tụ, và ta có*
 $$
@@ -175,7 +175,7 @@ $$
 
 Đặc biệt:
 
-#### Mệnh đề 4 ("tính liên tục của một nguyên suy rộng đối với một tham số") {#fvr-ii-s3-prop-4 .statement}
+#### Mệnh đề 4 ("tính liên tục của một nguyên suy rộng đối với một tham số") {#fvr-ii-s3-prop-4 .statement tag=0897}
 
 *Cho* $F$ *là một không gian compact, cho* $I$ *là một khoảng bất kỳ trong* $\mathbf{R}$, *và* $f$ *là một ánh xạ liên tục từ* $I \times F$ *vào một không gian định chuẩn đầy đủ* $E$ *trên* $\mathbf{R}$; *nếu nguyên* $h(\alpha) = \int_I f(x, \alpha)\,dx$ *hội tụ đều trên* $F$ *thì nó là một hàm liên tục theo* $\alpha$ *trên* $F$.
 
@@ -224,7 +224,7 @@ $$
 
 Mệnh đề sau đây cho một điều kiện đủ rất đơn giản để công thức (12) đúng:
 
-#### Mệnh đề 5 {#fvr-ii-s3-prop-5 .statement}
+#### Mệnh đề 5 {#fvr-ii-s3-prop-5 .statement tag=0898}
 
 *Giả sử rằng đạo hàm riêng* $\mathbf{f}'_{\alpha}(x, \alpha)$ *tồn tại với mọi* $x \in I$ *và mọi* $\alpha$ *trong một lân cận mở* $V$ *của* $\alpha_0$, *và rằng, với mọi* $\alpha \in V$, *ánh xạ* $x \mapsto \mathbf{f}'_{\alpha}(x, \alpha)$ *là bị chặn điều hòa trên* $I$. *Trong các điều kiện ấy, nếu* $x \mapsto \mathbf{f}'_{\alpha}(x, \alpha)$ *hội tụ đều trên* $I$ *về* $x \mapsto \mathbf{f}'_{\alpha}(x, \alpha_0)$ *khi* $\alpha$ *tiến tới* $\alpha_0$, *thì hàm* $g(\alpha) = \int_a^b \mathbf{f}(t, \alpha)\,dt$ *có đạo hàm, được cho bởi công thức* (12), *tại điểm* $\alpha_0$.
 
@@ -236,7 +236,7 @@ $$
 
 điều đó chứng minh sự hội tụ đều của $\frac{\mathbf{f}(x, \alpha) - \mathbf{f}(x, \alpha_0)}{\alpha - \alpha_0}$ về $\mathbf{f}'_{\alpha}(x, \alpha_0)$ trên I khi $\alpha$ tiến tới $\alpha_0$ (vẫn $\neq \alpha_0$), và do đó thiết lập công thức (12).
 
-#### Hệ quả {#fvr-ii-s3-n4-cor-1 .statement}
+#### Hệ quả {#fvr-ii-s3-n4-cor-1 .statement tag=0899}
 
 *Nếu đạo hàm riêng* $\mathbf{f}'_{\alpha}(x, \alpha)$ *tồn tại trên* $I \times V$ *và là một hàm liên tục theo* $(x, \alpha)$ *trên tập hợp này, thì hàm* $g$ *có đạo hàm cho bởi công thức* (12) *tại điểm* $\alpha_0$.
 
@@ -244,7 +244,7 @@ Thật vậy, nếu W là một lân cận compact của $\alpha_0$ được ch�
 
 Từ mệnh đề 5 suy ra một mệnh đề tổng quát hơn cho phép tính đạo hàm của một tích phân khi không những hàm dưới dấu tích phân $\mathbf{f}$, mà cả các cận lấy tích phân, đều phụ thuộc vào một tham số $\alpha$:
 
-#### Mệnh đề 6 {#fvr-ii-s3-prop-6 .statement}
+#### Mệnh đề 6 {#fvr-ii-s3-prop-6 .statement tag=089A}
 
 *Giả sử các giả thiết của mệnh đề 5 được thỏa mãn, và gọi* $a(\alpha)$, $b(\alpha)$ *là hai hàm xác định trên* $V$, *nhận giá trị trong* $I$; *nếu các đạo hàm* $a'(\alpha_0),\ b'(\alpha_0)$ *tồn tại và hữu hạn thì hàm* $g(\alpha) = \int_{a(\alpha)}^{b(\alpha)} f(t, \alpha)\, dt$ *có tại* $\alpha_0$ *một đạo hàm được cho bởi công thức*
 
@@ -283,7 +283,7 @@ Tập hợp $V$ có cùng nghĩa như trong mệnh đề 5 của II, p. 74, bây
 
 Một điều kiện đủ để công thức (12) (II, p. 74) vẫn đúng được cho bởi mệnh đề sau:
 
-#### Mệnh đề 7 {#fvr-ii-s3-prop-7 .statement}
+#### Mệnh đề 7 {#fvr-ii-s3-prop-7 .statement tag=089B}
 
 Cho I là một khoảng tùy ý trong $\mathbf{R}$, và $f$ là một hàm liên tục trên $I \times V$. Giả sử rằng:
 1. đạo hàm riêng $f'_\alpha(x, \alpha)$ tồn tại với mọi $x \in I$ và mọi $\alpha \in V$, và, với mọi $\alpha \in V$, ánh xạ $x \mapsto f'_\alpha(x, \alpha)$ là bị chặn điều hòa trên I;
@@ -299,11 +299,11 @@ $$
 
 Sự hội tụ đều của $\int_I f'_\alpha(t, \alpha) \, dt$ trên $V$ có nghĩa là hàm $\alpha \mapsto \int_J f'_\alpha(t, \alpha) \, dt$ hội tụ đều trên $V$ đối với bộ lọc các thiết diện $\Phi$ của tập có hướng $\mathfrak{K}(I)$ gồm các khoảng compact $J$ được chứa trong I. Đặt $u_J(\alpha) = \int_J f(t, \alpha) \, dt$; các giả thiết cho thấy một mặt $u_J(\alpha_0)$ có một giới hạn đối với $\Phi$, và mặt khác, theo mệnh đề 5 của II, p. 74, rằng $u'_J(\alpha) = \int_J f'_\alpha(t, \alpha) \, dt$ với mọi $\alpha \in V$. Vì vậy ta có thể áp dụng định lý 1 của II, p. 52 cho các hàm $u_J$, trong đó vai trò của tập hợp chỉ số ở đây do $\mathfrak{K}(I)$ đảm nhiệm, và vai trò của bộ lọc trên tập hợp này do bộ lọc $\Phi$ đảm nhiệm; mệnh đề được suy ra ngay lập tức.
 
-#### Nhận xét 1 {#fvr-ii-s3-n5-rem-1 .statement}
+#### Nhận xét 1 {#fvr-ii-s3-n5-rem-1 .statement tag=089C}
 
 Các điều kiện 1 và 2 của mệnh đề 7 được thỏa mãn a fortiori khi $f'_\alpha(x, \alpha)$ là một hàm liên tục của $(x, \alpha)$ trên $I \times V$.
 
-#### Nhận xét 2 {#fvr-ii-s3-n5-rem-2 .statement}
+#### Nhận xét 2 {#fvr-ii-s3-n5-rem-2 .statement tag=089D}
 
 Khi, trong một tích phân $\int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt$, các đầu mút của khoảng là các hàm hữu hạn của tham số, việc nghiên cứu tích phân này như một hàm của $\alpha$ có thể liên quan đến việc nghiên cứu một tích phân trên $[0, 1]$; thật vậy, với phép thay đổi biến $t = a(\alpha)(1 - u) + b(\alpha)u$, ta có
 
@@ -315,7 +315,7 @@ $$
 
 Cho $I = [a, b]$ và $A = [c, d]$ là hai khoảng compắc trong $\mathbf{R}$; cho $f$ là một hàm liên tục trên $I \times A$ nhận giá trị trong một không gian định chuẩn đầy đủ E trên $\mathbf{R}$; theo mệnh đề 2 của II, p. 69, $\int_a^b f(x, \alpha) \, dx$ là một hàm liên tục của $\alpha$ trên $A$; tích phân của nó $\int_c^d \left( \int_a^b f(x, \alpha) \, dx \right) d\alpha$ cũng được ký hiệu, để đơn giản, bởi $\int_c^d d\alpha \int_a^b f(x, \alpha) \, dx$.
 
-#### Mệnh đề 8 {#fvr-ii-s3-prop-8 .statement}
+#### Mệnh đề 8 {#fvr-ii-s3-prop-8 .statement tag=089E}
 
 *Nếu f liên tục trên I × A thì ta có*
 
@@ -341,7 +341,7 @@ Bây giờ, đạo hàm của số hạng thứ nhất đối với $y$ là $g(y
 
 Giả sử bây giờ $A = [c, d]$ là một khoảng *compact* trong $\mathbf{R}$, và I là một khoảng *tùy ý* trong $\mathbf{R}$; giả sử $f$ là một hàm liên tục trên $I \times A$, nhận giá trị trong E, sao cho nguyên hàm $g(\alpha) = \int_I f(t, \alpha) dt$ hội tụ với mọi $\alpha \in A$; ngay cả khi $g(\alpha)$ liên tục trên $A$ thì người ta cũng không phải lúc nào cũng có thể đổi thứ tự lấy tích phân trong nguyên hàm $\int_c^d d\alpha \int_I f(t, \alpha) dt$, vì nguyên hàm $\int_I dt \int_c^d f(t, \alpha) d\alpha$ có thể không tồn tại, hoặc có thể khác với nguyên hàm $\int_c^d d\alpha \int_I f(t, \alpha) dt$ (*xem* II, p. 87, exerc. 7). Tuy nhiên, ta có kết quả sau:
 
-#### Mệnh đề 9 {#fvr-ii-s3-prop-9 .statement}
+#### Mệnh đề 9 {#fvr-ii-s3-prop-9 .statement tag=089F}
 
 *Nếu hàm f liên tục trên I × A, và nếu nguyên hàm $\int_I f(t, \alpha) dt$ hội tụ đều trên A, thì nguyên hàm $\int_I dt \int_c^d f(t, \alpha) d\alpha$ hội tụ, và ta có*
 

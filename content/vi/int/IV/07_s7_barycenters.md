@@ -37,9 +37,9 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: ad690be93ce4cf9b4be6bd19486b34e29e818bda3e8b5292e909d883ca682dda
+content_sha256: f60f778520401f81ee43676af571abe5ec0498769fb63842e9fbaf54ce989f84
 translated_from: content/en/int/IV/07_s7_barycenters.md
-source_content_sha256: 01a859140339b63e2a3d681a5357be92cc6f3b9feeb7530ab638a41830f20290
+source_content_sha256: a0b29318ee51bbadb84b433570743b81dc51c686140364de87fd714982b23900
 translation_model: gpt-5.4
 translation_run: translate-vi-69c0d390
 glossary_version: 34
@@ -53,31 +53,31 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho E là một không gian lồi địa phương Hausdorff trên $\mathbf{R}$, $E'$ là đối ngẫu của nó, và ${E'}^*$ là đối ngẫu đại số của $E'$, trong đó E được đồng nhất một cách chính tắc với một không gian con tuyến tính của ${E'}^*$. Cho K là một tập con compắc của E; do đơn ánh chính tắc từ K vào E là liên tục với giá compact, nên với mọi độ đo $\mu$ trên K, tích phân $\int x\, d\mu(x)$ được xác định và là một phần tử của ${E'}^*$ (Ch. III, §3, No. 1). Hơn nữa, trên K, tôpô cảm sinh bởi tôpô yếu $\sigma({E'}^*, E')$ trùng với tôpô ban đầu. Cuối cùng, nếu C là bao lồi đóng của K trong ${E'}^*$ được trang bị $\sigma({E'}^*, E')$, thì $C \cap E$ là bao lồi đóng của K trong E đối với tôpô ban đầu (hoặc đối với tôpô yếu đi $\sigma(E, E')$).
 
-#### Định nghĩa 1 {#int-iv-s7-def-1 .statement}
+#### Định nghĩa 1 {#int-iv-s7-def-1 .statement tag=08YJ}
 
 *Cho K là một tập con compắc của một không gian lồi địa phương Hausdorff E. Với mọi độ đo dương $\mu$ trên K có tổng khối lượng bằng 1, vectơ $b_\mu = \int x\, d\mu(x)$ (thuộc ${E'}^*$) được gọi là trọng tâm của $\mu$.*
 
-#### Ví dụ {#int-iv-s7-n1-exa-1 .statement}
+#### Ví dụ {#int-iv-s7-n1-exa-1 .statement tag=08YK}
 
 — Cho $\mu$ là một độ đo *rời rạc* trên K, dương và có tổng khối lượng bằng 1; khi đó nó có dạng $\mu = \sum_{i=1}^n \lambda_i \varepsilon_{x_i}$, trong đó $x_i \in K$, và các $\lambda_i$ là những số thực sao cho $\lambda_i \geq 0$ với mọi $i$ và $\sum_{i=1}^n \lambda_i = 1$. Vì $\int x\, d\varepsilon_y(x) = y$ (Ch. III, §3, No. 1, *Ví dụ 3*), nên $b_\mu = \int x\, d\mu(x) = \sum_i \lambda_i x_i$. Đặc biệt, với mọi $x \in K$, x là trọng tâm của độ đo $\varepsilon_x$.
 
-#### Mệnh đề 1 {#int-iv-s7-prop-1 .statement}
+#### Mệnh đề 1 {#int-iv-s7-prop-1 .statement tag=08YL}
 
 *Cho E là một không gian lồi địa phương Hausdorff, K là một tập con compắc của E, và C là bao lồi đóng của K trong E. Khi đó tập C gồm các điểm của E là trọng tâm của ít nhất một độ đo dương khối lượng 1 trên K.*
 
 Điều này không là gì khác hơn Mệnh đề 5 của Ch. III, §3, No. 2 áp dụng cho đơn ánh chính tắc từ K vào E.
 
-#### Hệ quả {#int-iv-s7-n1-cor-1 .statement}
+#### Hệ quả {#int-iv-s7-n1-cor-1 .statement tag=08YM}
 
 *Nếu bao lồi đóng C của K trong E là compắc, thì trọng tâm của mọi độ đo dương có tổng khối lượng 1 trên K đều thuộc E.*
 
 Thật vậy, khi đó C cũng là bao lồi đóng của K trong ${E'}^*$ được trang bị tôpô yếu $\sigma(E', E')$, và chỉ cần áp dụng, cho đơn ánh chính tắc từ K vào E, Mệnh đề 4 của Ch. III, §3, No. 2.
 
-#### Nhận xét {#int-iv-s7-n1-rem-1 .statement}
+#### Nhận xét {#int-iv-s7-n1-rem-1 .statement tag=08YN}
 
 Hệ quả của Mệnh đề 1 áp dụng được đặc biệt khi K lồi hoặc khi E là gần đầy đủ.
 
-#### Mệnh đề 2 {#int-iv-s7-prop-2 .statement}
+#### Mệnh đề 2 {#int-iv-s7-prop-2 .statement tag=08YO}
 
 — Cho K là một tập con compắc lồi của một không gian lồi địa phương Hausdorff E, $\mu$ là một độ đo dương có tổng khối lượng 1 trên K, $b_\mu$ là trọng tâm của nó. Với mọi hàm số lồi $f \geq 0$ nửa liên tục dưới trên K,
 $$
@@ -91,7 +91,7 @@ với mọi $\alpha$; mà $\int h_\alpha(x) d\mu(x) = c_\alpha + \int \langle x,
 
 Khi $\mu$ là một độ đo dương rời rạc trên K có tổng khối lượng 1, Mệnh đề 2 lại cho bất đẳng thức dùng để định nghĩa các hàm lồi trên K.
 
-#### Hệ quả {#int-iv-s7-n1-cor-2 .statement}
+#### Hệ quả {#int-iv-s7-n1-cor-2 .statement tag=08YP}
 
 — Với mọi hàm số lồi g trên K bị chặn và nửa liên tục dưới, $g(b_\mu) \leq \int g d\mu$.
 
@@ -99,7 +99,7 @@ Chỉ cần chú ý rằng $\inf_{x \in K} g(x) = a$ là hữu hạn và áp d�
 
 ### 2. Các điểm cực biên và trọng tâm
 
-#### Mệnh đề 3 {#int-iv-s7-prop-3 .statement}
+#### Mệnh đề 3 {#int-iv-s7-prop-3 .statement tag=08YQ}
 
 — Cho K là một tập con compắc lồi của một không gian lồi địa phương Hausdorff E, x là một điểm của K. Mọi độ đo $\mu$ trên K, dương, có tổng khối lượng 1, và nhận x làm trọng tâm, đều nằm trong bao đóng mờ của tập các độ đo dương rời rạc có tổng khối lượng 1 và nhận x làm trọng tâm.
 
@@ -134,7 +134,7 @@ với $1 \leq i \leq p$, do đó $|\mu_j(f_i) - \varepsilon_{x_j}(f_i)| \leq \de
 
 Điều phải chứng minh.
 
-#### Hệ quả {#int-iv-s7-n2-cor-1 .statement}
+#### Hệ quả {#int-iv-s7-n2-cor-1 .statement tag=08YR}
 
 — *Cho $K'$ là một tập con compắc của $K$ sao cho $K$ là bao lồi đóng của $K'$. Để $x \in K'$ là một điểm cực biên của $K$, điều kiện cần và đủ là $\varepsilon_x$ là độ đo dương duy nhất trên $K'$, có khối lượng toàn phần bằng 1, nhận $x$ làm trọng tâm.*
 
@@ -142,7 +142,7 @@ Giả sử $x$ là một điểm cực biên của $K$; để chứng minh rằn
 
 Ngược lại, giả sử rằng $\varepsilon_x$ là độ đo dương duy nhất trên $K'$, có tổng khối lượng bằng 1, nhận $x$ làm trọng tâm, và hãy chứng minh rằng $x$ là cực biên. Trong trường hợp ngược lại, sẽ tồn tại hai điểm phân biệt $x', x''$ của $K$ và một số thực $\lambda$ sao cho $0 < \lambda < 1$ và $x = \lambda x' + (1 - \lambda) x''$. Theo Mệnh đề 1, $x'$ (tương ứng $x''$) là trọng tâm của một độ đo dương $\mu'$ (tương ứng $\mu''$) trên $K'$ có tổng khối lượng bằng 1. Khi đó $x$ là trọng tâm của $\lambda \mu' + (1 - \lambda) \mu''$. Vậy $\lambda \mu' + (1 - \lambda) \mu'' = \varepsilon_x$. Do đó $\mu'$ và $\mu''$ tỉ lệ với $\varepsilon_x$, suy ra $x' = x'' = x$, điều này vô lý.
 
-#### Định lý 1 (Choquet) {#int-iv-s7-thm-1 .statement}
+#### Định lý 1 (Choquet) {#int-iv-s7-thm-1 .statement tag=08YS}
 
 — *Cho E là một không gian lồi địa phương Hausdorff trên $\mathbf{R}$, K là một tập con lồi compắc khả mêtric của E, và M là tập hợp các điểm cực biên của K. Tập hợp M là giao của một họ đếm được các tập mở trong K, và mọi điểm của K đều là trọng tâm của một độ đo $\mu$ trên K sao cho $\mu(K - M) = 0$.*
 
@@ -150,7 +150,7 @@ Ngược lại, giả sử rằng $\varepsilon_x$ là độ đo dương duy nh�
 
 Trong phần tiếp theo của chứng minh, ta sẽ ký hiệu bởi $u$ một hàm số liên tục và *lồi* trên K, bởi $G \subset E \times \mathbf{R}$ đồ thị của $u$, và bởi S *bao lồi đóng* của G trong $E \times \mathbf{R}$.
 
-#### Bổ đề 1 {#int-iv-s7-lem-1 .statement}
+#### Bổ đề 1 {#int-iv-s7-lem-1 .statement tag=08YT}
 
 — *Cho $\overline{u}$ là bao dưới của các hàm afin tuyến tính liên tục trên E mà $\geq u$ trên K. Khi đó S là tập hợp các điểm $(a, b) \in E \times \mathbf{R}$ sao cho $a \in K$ và $u(a) \leq b \leq \overline{u}(a)$.*
 
@@ -169,7 +169,7 @@ $$
 
 Trước hết đặt $\lambda = 0$; việc (4) kéo theo (5) với mọi hàm afin tuyến tính liên tục $f$ trên $E$ là tương đương với quan hệ $a \in K$ theo định lý Hahn-Banach. Tiếp theo, đặt $\lambda = -1$ và thay $f$ bởi $-f$; khi đó quan hệ $f(x) \leq u(x)$ trong K phải kéo theo $f(a) \leq b$. Nhưng vì $u$ lồi và liên tục trên $K$, nên $u(a)$ bằng cận trên đúng của các $f(a)$ đối với các hàm afin tuyến tính liên tục $f$ trên $E$ sao cho $f(x) \leq u(x)$ trên $K$ (TVS, II, §5, No. 4, Mệnh đề 5); do đó ta thu được quan hệ $b \geq u(a)$. Cuối cùng, đặt $\lambda = 1$; khi đó nói rằng (4) kéo theo (5) có nghĩa, theo định nghĩa, là $b \leq \overline{u}(a)$. Điều này chứng minh bổ đề, vì quan hệ (4) (tương ứng. (5)) là tương đương với quan hệ thu được bằng cách nhân hai vế với một vô hướng $> 0$.
 
-#### Bổ đề 2 {#int-iv-s7-lem-2 .statement}
+#### Bổ đề 2 {#int-iv-s7-lem-2 .statement tag=08YU}
 
 *Nếu $u$ là chặt lồi trên $K$, thì $u(x) < \overline{u}(x)$ với mọi điểm không cực biên $x$ của $K$.*
 
@@ -201,7 +201,7 @@ $$
 
 Nhưng vì $u(\mathbf{x}) \leq \overline{u}(\mathbf{x})$ trên K, quan hệ (8) suy ra rằng $u(\mathbf{x}) = \overline{u}(\mathbf{x})$ hầu khắp nơi đối với $\mu$. Tính đến Bổ đề 2, ta thấy rằng Định lý 1 sẽ được chứng minh một khi bổ đề sau đây được thiết lập:
 
-#### Bổ đề 3 {#int-iv-s7-lem-3 .statement}
+#### Bổ đề 3 {#int-iv-s7-lem-3 .statement tag=08YV}
 
 *Cho E là một không gian lồi địa phương Hausdorff trên $\mathbf{R}$, và K là một tập con lồi compac khả mêtric của E. Khi đó tồn tại một hàm số thực chặt lồi trên K.*
 
@@ -209,7 +209,7 @@ Vì không gian Banach $\mathscr{C}(K; \mathbf{R})$ là tách được (GT, X, �
 
 Q.E.D.
 
-#### Hệ quả {#int-iv-s7-n2-cor-2 .statement}
+#### Hệ quả {#int-iv-s7-n2-cor-2 .statement tag=08YW}
 
 *Cho E là một không gian lồi địa phương Hausdorff trên $\mathbf{R}$, C là một nón lồi thực sự trong E có đỉnh 0, đầy đủ và mêtric hóa được đối với cấu trúc đều cảm sinh bởi cấu trúc đều yếu hóa của E. Gọi M là hợp của các đường sinh cực biên của C. Với mọi $\mathbf{x} \in C$ đều tồn tại một tập con lồi compắc K của C và một độ đo $\lambda \geq 0$ trên K có tổng khối lượng bằng 1, sao cho $K - (M \cap K)$ là $\lambda$-không đáng kể và trọng tâm của $\lambda$ bằng $\mathbf{x}$.
 
@@ -227,7 +227,7 @@ với mọi hàm $f \in \mathscr{H}$ và mọi $x \in X$.
 
 Ánh xạ $i_{\mathscr{H}}$ từ X vào $\mathscr{H}'$ là đơn ánh và liên tục khi $\mathscr{H}'$ được trang bị tôpô yếu $\sigma(\mathscr{H}', \mathscr{H})$; mệnh đề thứ hai suy ra ngay từ các định nghĩa và (9); còn về mệnh đề thứ nhất, chú ý rằng nếu $x, x'$ là hai điểm phân biệt của X, thì theo giả thiết tồn tại một hàm $h \in \mathscr{H}$ sao cho $h(x) \neq h(x')$, do đó, theo (9), $\langle h, i_{\mathscr{H}}(x) \rangle \neq \langle h, i_{\mathscr{H}}(x') \rangle$ và *a fortiori* $i_{\mathscr{H}}(x) \neq i_{\mathscr{H}}(x')$. Vì vậy ảnh $i_{\mathscr{H}}(X)$ là một tập con *compắc* của $\mathscr{H}'$ (đối với tôpô yếu), và $i_{\mathscr{H}}$ là một *đồng phôi* từ X lên $i_{\mathscr{H}}(X)$.
 
-#### Mệnh đề 4 {#int-iv-s7-prop-4 .statement}
+#### Mệnh đề 4 {#int-iv-s7-prop-4 .statement tag=08YX}
 
 (i) *Bao lồi đóng* C *của* $i_{\mathscr{H}}(X)$ *trong* $\mathscr{H}'$ *(đối với tôpô yếu* $\sigma(\mathscr{H}', \mathscr{H})$) *là compắc*.
 
@@ -253,13 +253,13 @@ $$
 
 Ta sẽ nói rằng một điểm $x \in X$ thỏa mãn điều kiện (ii) của Mệnh đề 4 là $\mathscr{H}$-cực biên; ta ký hiệu bởi $\mathrm{Ch}_{\mathscr{H}}(X)$ (hoặc đơn giản là $\mathrm{Ch}(X)$) tập hợp các điểm ấy, và bởi $\check{S}_{\mathscr{H}}(X)$ (hoặc đơn giản là $\check{S}(X)$) bao đóng của $\mathrm{Ch}_{\mathscr{H}}(X)$ trong $X$.
 
-#### Mệnh đề 5 {#int-iv-s7-prop-5 .statement}
+#### Mệnh đề 5 {#int-iv-s7-prop-5 .statement tag=08YY}
 
 *Mọi hàm* $h \in \mathscr{H}$ *đều đạt tới cận trên đúng của nó tại ít nhất một điểm* $\mathscr{H}$*-cực biên*.
 
 Cho $x$ là một điểm của $X$, $h$ là một hàm trong $\mathscr{H}$. Quan hệ $h(z) \leq h(x)$ với mọi $z \in X$ có thể viết thành $\langle h, i_{\mathscr{H}}(z) \rangle \leq \langle h, i_{\mathscr{H}}(x) \rangle$ với mọi $z \in X$, và do đó có nghĩa là siêu phẳng đóng yếu của $\mathscr{H}'$ có phương trình $\langle h, t' \rangle = \langle h, i_{\mathscr{H}}(x) \rangle$ là một *siêu phẳng tựa* của $i_{\mathscr{H}}(X)$. Ta biết rằng (TVS, II, §7, No. 1, Hệ quả của Mệnh đề 1) một siêu phẳng như vậy chứa ít nhất một điểm cực biên của bao lồi đóng của $i_{\mathscr{H}}(X)$, và một điểm như vậy $i_{\mathscr{H}}(y)$ là ảnh của một điểm $\mathscr{H}$-cực biên $y$ theo định nghĩa; do đó $h(y)$ bằng cận trên đúng của $h$ trong $X$.
 
-#### Mệnh đề 6 {#int-iv-s7-prop-6 .statement}
+#### Mệnh đề 6 {#int-iv-s7-prop-6 .statement tag=08YZ}
 
 *Với mọi điểm* $x \in X$, *các tính chất sau là tương đương*:
 
@@ -289,7 +289,7 @@ $$
 
 với mọi $\varepsilon > 0$, do đó $\lambda(\{x\}) = 1$. Vì $\lambda$ là dương và có tổng khối lượng bằng 1, tất yếu $\lambda = \varepsilon_x$, điều này chứng minh rằng $x$ là $\mathscr{H}$-cực biên, theo Mệnh đề 4, (ii).
 
-#### Mệnh đề 7 {#int-iv-s7-prop-7 .statement}
+#### Mệnh đề 7 {#int-iv-s7-prop-7 .statement tag=08Z0}
 
 *Cho F là một tập con đóng của X. Các tính chất sau là tương đương:*
 
@@ -301,7 +301,7 @@ c) *Với mọi điểm* $x \in X$, *tồn tại một độ đo dương* $\mu$ 
 
 Đặt $G = i_{\mathscr{H}}(F)$. Điều kiện *a)* có nghĩa là G chứa tập hợp các điểm cực biên của C. Điều kiện *b)* có nghĩa là G gặp giao của $i_{\mathscr{H}}(X)$ với mỗi siêu phẳng tựa đóng của $i_{\mathscr{H}}(X)$. Sau cùng, điều kiện *c)* có nghĩa là mỗi điểm của $i_{\mathscr{H}}(X)$ là trọng tâm của một độ đo có giá được chứa trong G; theo No. 1, Mệnh đề 1, điều này cũng tương đương với việc nói rằng bao lồi đóng của $i_{\mathscr{H}}(X)$ bằng bao lồi đóng của G. Do đó tính tương đương của các điều kiện *a)*, *b)* và *c)* suy ra từ EVT, II, §7, No. 1, Hệ quả của Mệnh đề 2.
 
-#### Mệnh đề 8 {#int-iv-s7-prop-8 .statement}
+#### Mệnh đề 8 {#int-iv-s7-prop-8 .statement tag=08Z1}
 
 *Giả sử X là khả mêtric. Khi đó tập hợp $\operatorname{Ch}_{\mathscr{H}}(X)$ các điểm $\mathscr{H}$-cực biên của X là giao của một họ đếm được các tập mở trong X, và với mọi $x \in X$, tồn tại một độ đo dương $\mu$ có tổng khối lượng 1 trên X sao cho*
 
@@ -315,7 +315,7 @@ $$
 
 Một số kết quả của Số này có thể được mở rộng khi $\mathscr{H}$ được thay bằng một tập hợp $\mathscr{P}$ các hàm xác định trên X, nhận giá trị trong $\mathbf{R} \cup \{+\infty\}$, nửa liên tục dưới, với giả thiết $\mathscr{P}$ chứa các hằng và thỏa mãn $\mathscr{P} + \mathscr{P} \subset \mathscr{P}$ (Bài tập 2).
 
-#### Ví dụ {#int-iv-s7-n3-exa-1 .statement}
+#### Ví dụ {#int-iv-s7-n3-exa-1 .statement tag=08Z2}
 
 — Lấy X là quả cầu đơn vị $\|x\| \leq 1$ trong $\mathbf{R}^3$, và gọi $\mathscr{H}$ là một không gian vectơ các hàm liên tục trên X, chứa các hạn chế lên X của các hàm afin tuyến tính trên $\mathbf{R}^3$ và thỏa mãn *nguyên lý cực đại*, nghĩa là, với mọi hàm không hằng $h \in \mathscr{H}$, tập hợp các điểm của X tại đó h đạt tới cận trên của nó được chứa trong mặt cầu $S_2$. Khi đó dễ dàng suy ra từ các Mệnh đề 5 và 7 rằng $\operatorname{Ch}_{\mathscr{H}}(X) = \check{S}_{\mathscr{H}}(X) = S_2$. Một ví dụ quan trọng của một không gian vectơ $\mathscr{H}$ thỏa mãn các điều kiện trên là tập hợp các hàm liên tục trên X và *điều hòa* trong quả cầu mở $\|x\| < 1$. Đối với các hàm này, người ta chứng minh rằng độ đo dương $\mu$ có khối lượng 1 sao cho $\operatorname{Supp}(\mu) \subset S_2$ và $h(x) = \int h \, d\mu$ với mọi $h \in \mathscr{H}$ được cho, nếu $\|x\| < 1$, bởi công thức Poisson
 
@@ -329,7 +329,7 @@ trong đó $\sigma$ là độ đo trên $S_2$ bất biến dưới nhóm trực 
 
 Cho $X$ là một không gian compact khác rỗng, $\mathscr{H}$ là một không gian con tuyến tính của không gian Banach phức $\mathscr{C}(X; \mathbf{C})$ chứa các hằng và tách các điểm của $X$. Tập hợp các phần thực $\Re(f)$ của các hàm $f \in \mathscr{H}$ là một không gian con tuyến tính $\mathscr{H}_r$ của không gian vectơ thực $\mathscr{C}(X; \mathbf{R})$; với mọi $f \in \mathscr{H}$, tập hợp $\mathscr{H}_r$ cũng chứa $\mathscr{I}(f) = \Re(-if)$; suy ra $\mathscr{H}_r$ tách các điểm của $X$, vì quan hệ $h(x) = h(y)$ với mọi $h \in \mathscr{H}_r$ kéo theo $\Re(f(x)) = \Re(f(y))$ và $\mathscr{I}(f(x)) = \mathscr{I}(f(y))$, và do đó $f(x) = f(y)$ với mọi $f \in \mathscr{H}$. Các điểm $\mathscr{H}_r$-cực biên trong $X$ lại được gọi là $\mathscr{H}$-cực biên, tập hợp các điểm đó được ký hiệu là $\mathrm{Ch}_{\mathscr{H}}(X)$, và bao đóng của tập hợp sau được ký hiệu là $\check{S}_{\mathscr{H}}(X)$. Các tương tự của các Mệnh đề 5 và 7 là như sau:
 
-#### Mệnh đề 9 {#int-iv-s7-prop-9 .statement}
+#### Mệnh đề 9 {#int-iv-s7-prop-9 .statement tag=08Z3}
 
 *Với mọi hàm $f \in \mathscr{H}$, $\mathrm{Ch}_{\mathscr{H}}(X)$ giao với tập hợp các điểm mà tại đó $|f|$ đạt tới chặn trên đúng của nó.*
 
@@ -341,7 +341,7 @@ $$
 
 Theo Mệnh đề 5 của No. 3 áp dụng cho $\mathscr{H}_r$, tồn tại $b \in \mathrm{Ch}_{\mathscr{H}}(X)$ tại đó $\Re((g(x))$ đạt tới chặn trên đúng 1 của nó, do đó $|g(b)| = 1$ vì $|g(b)| \leq 1$; suy ra $|f(b)| = |(f(a)| \geq |f(x)|$ với mọi $x \in X$.
 
-#### Mệnh đề 10 {#int-iv-s7-prop-10 .statement}
+#### Mệnh đề 10 {#int-iv-s7-prop-10 .statement tag=08Z4}
 
 *Cho $F$ là một tập con đóng của $X$. Các tính chất sau là tương đương:
 a) $F$ chứa $\check{S}_{\mathscr{H}}(X)$.
@@ -361,13 +361,13 @@ b^2 \geq |g - b|^2 = |g|^2 - 2b \mathscr{R}(g) + b^2
 $$
 và vì thế $\mathscr{R}(g) \geq |g|^2 / 2b \geq 0$; vì $\mathscr{R}(g) = h - h(a) + \varepsilon$, và $\varepsilon > 0$ là tùy ý, ta có $h \geq h(a)$, và $h(a)$ là cận dưới của $h$ trong X, điều này hoàn tất chứng minh.
 
-#### Nhận xét {#int-iv-s7-n4-rem-1 .statement}
+#### Nhận xét {#int-iv-s7-n4-rem-1 .statement tag=08Z5}
 
 Nếu $f$ là một hàm thực liên tục, một điểm tại đó $|f|$ đạt tới cận trên của nó là một điểm tại đó một trong hai hàm $f, -f$ đạt tới cận trên của nó. Đối với một không gian vectơ $\mathscr{H}$ các hàm thực liên tục thỏa mãn các giả thiết của No. 3, các Mệnh đề 9 và 10 do đó là những hệ quả tầm thường của các Mệnh đề 5 và 7, tương ứng.
 
 ### 5. Các ứng dụng: III. Các đại số của các hàm liên tục
 
-#### Bổ đề 4 {#int-iv-s7-lem-4 .statement}
+#### Bổ đề 4 {#int-iv-s7-lem-4 .statement tag=08Z6}
 
 Cho X là một không gian compact, $\mathscr{H}$ là một không gian con tuyến tính đóng của không gian Banach $\mathscr{C}(X; \mathbf{C})$ (tương ứng $\mathscr{C}(X; \mathbf{R})$). Cho a là một điểm của X có một hệ cơ bản đếm được các lân cận; giả sử rằng, với mọi số c và d sao cho $0 < c < d < 1$ và mọi lân cận mở U của a, tồn tại một $f \in \mathscr{H}$ sao cho
 $$
@@ -428,7 +428,7 @@ $$
 = \sum_{j=1}^{\infty} \lambda^j = |u(a)|.
 $$
 
-#### Định lý 2 (E. Bishop) {#int-iv-s7-thm-2 .statement}
+#### Định lý 2 (E. Bishop) {#int-iv-s7-thm-2 .statement tag=08Z7}
 
 — *Cho $X$ là một không gian compact, $\mathscr{A}$ là một đại số con đóng của đại số Banach phức $\mathscr{C}(X; \mathbf{C})$. Giả sử rằng $\mathscr{A}$ chứa các hằng số và phân biệt các điểm của $X$. Cho $a$ là một điểm của $X$; các điều kiện sau là tương đương:
 
@@ -451,7 +451,7 @@ $$
 
 Q.E.D.
 
-#### Hệ quả {#int-iv-s7-n5-cor-1 .statement}
+#### Hệ quả {#int-iv-s7-n5-cor-1 .statement tag=08Z8}
 
 — *Giả sử thêm rằng $X$ mêtric hóa được. Khi đó các tính chất sau là tương đương*:
 
@@ -471,7 +471,7 @@ $$
 
 Vì trong một không gian mêtric hóa được, mỗi điểm có một hệ cơ bản đếm được các lân cận, nên tính tương đương của a) và b) suy ra từ Định lý 2. Ta hãy chỉ ra rằng b) kéo theo c): thật vậy, $a$ là điểm duy nhất tại đó $|u|$ đạt cận trên đúng của nó; mặt khác, c) kéo theo a) vì, với mọi $f \in \mathscr{A}$, $\mathrm{Ch}_{\mathscr{A}}(X)$ cắt tập hợp các điểm tại đó $|f|$ đạt cận trên đúng của nó (No. 4, Mệnh đề 9). Cùng một lập luận ấy, dùng Mệnh đề 5 của No. 3, cho thấy rằng d) kéo theo a). Sau hết, để thấy rằng b) kéo theo d), ta có thể tự giới hạn vào trường hợp $X$ không rút gọn thành điểm duy nhất $a$, do đó $u(a) \neq 0$; khi đó hàm $v = u/u(a)$ thuộc $\mathscr{A}$, và ta có $v(a) = 1$ và $|v(x)| < 1$ với $x \neq a$, do đó $\mathscr{R}(v(a)) = 1$ và $\mathscr{R}(v(x)) < 1$ với $x \neq a$. Vì hàm $\mathscr{R}(v)$ chỉ đạt cận trên đúng của nó tại điểm $a$, nên quả thật ta có $a \in N$ với mọi $N \in \mathfrak{N}$.
 
-#### Ví dụ {#int-iv-s7-n5-exa-1 .statement}
+#### Ví dụ {#int-iv-s7-n5-exa-1 .statement tag=08Z9}
 
 — Cho $X_1$ là tập hợp các điểm $(z_1, z_2) \in \mathbf{C}^2$ sao cho $|z_1|^2 + |z_2|^2 \leq 1$ (quả cầu đơn vị trong $\mathbf{R}^4$) và cho $\mathscr{A}_1'$ là tập hợp các hạn chế lên $X_1$ của các hàm chỉnh hình, nhận giá trị trong $\mathbf{C}$, được xác định trong một lân cận của $X_1$ trong $\mathbf{C}^2$ (lân cận tùy thuộc vào hàm đang xét); cho $\mathscr{A}_1$ là bao đóng của $\mathscr{A}_1'$ trong $\mathscr{C}(X_1; \mathbf{C})$, hiển nhiên là một đại số con phức đóng của $\mathscr{C}(X_1; \mathbf{C})$ và phân ly các điểm của $X_1$. Áp dụng 'nguyên lý cực đại' đối với các hàm chỉnh hình cho thấy rằng $\mathrm{Ch}_{\mathscr{A}_1}(X_1)$ là mặt cầu $S_3$.
 
@@ -483,7 +483,7 @@ Từ các kết quả ấy, suy ra rằng không tồn tại một *đẳng cấ
 
 Cho E là một không gian Hausdorff lồi địa phương yếu (TVS, II, §6, No. 2), C là một nón lồi nhọn thực sự trong E. Ta biết rằng C là tập hợp các phần tử $\geqslant 0$ của E đối với một quan hệ thứ tự tương thích với cấu trúc không gian vectơ của E. Khi nói rằng C được sắp thứ tự như một dàn, dĩ nhiên điều được hiểu là thứ tự cảm sinh trên C bởi thứ tự của E.
 
-#### Bổ đề 5 {#int-iv-s7-lem-5 .statement}
+#### Bổ đề 5 {#int-iv-s7-lem-5 .statement tag=08ZA}
 
 *Giả sử rằng C là yếu đầy đủ. Cho $\mathscr{A}$ là tập hợp các hạn chế lên C của các dạng tuyến tính liên tục trên E. Cho $(f_\lambda)_{\lambda \in \Lambda}$ là một họ hữu hạn các phần tử của $\mathscr{A}$, và $f = \sup(f_\lambda)$. Với mọi $x \in C$, định nghĩa*
 
@@ -507,7 +507,7 @@ $$
 
 trong đó $(y_1, y_2, \ldots, y_p)$ chạy qua tập hợp các dãy gồm $p$ điểm của C sao cho $y_1 + y_2 + \cdots + y_p = x$. Đặt $D = C \cap (x - C)$. Vì D là compắc (TVS, II, §6, No. 8, Hệ quả 2 của Mệnh đề 11), nên tập hợp các phần tử $(y_1, \ldots, y_p)$ của $D^p$ sao cho $y_1 + \cdots + y_p = x$ cũng vậy, do đó cận trên đúng (19) đạt được.
 
-#### Bổ đề 6 {#int-iv-s7-lem-6 .statement}
+#### Bổ đề 6 {#int-iv-s7-lem-6 .statement tag=08ZB}
 
 Ta giữ nguyên các giả thiết và ký hiệu của Bổ đề 5, và giả sử các $f_\lambda$ là dương. Hàm $\overline{f}$ là thuần nhất dương, lõm và nửa liên tục trên trong C. Nó là afin nếu $C$ có thứ tự dàn.
 
@@ -535,7 +535,7 @@ $$
 
 Vì $\varepsilon$ là một số tùy ý $> 0$, ta đã chứng minh rằng $\overline{f}$ quả thật là lồi.
 
-#### Định lý 3 (Choquet) {#int-iv-s7-thm-3 .statement}
+#### Định lý 3 (Choquet) {#int-iv-s7-thm-3 .statement tag=08ZC}
 
 *Cho $E$ là một không gian lồi địa phương yếu Hausdorff, $C$ là một nón lồi thực sự đầy đủ yếu có đỉnh 0 trong $E$, $G$ là hợp của các đường sinh cực biên của $C$, $K$ là một tập con lồi compắc của $C$, $\lambda$ và $\lambda'$ là các độ đo dương có khối lượng 1 trên $K$, có cùng trọng tâm, sao cho $\lambda^*(K - (K \cap G)) = {\lambda'}^*(K - (K \cap G)) = 0$. Giả sử rằng $C$ có thứ tự dàn. Khi đó, với mọi hàm lồi nửa liên tục dưới, thuần nhất dương $f \geq 0$ trên $C$, ta có $\lambda^*(f|K) = {\lambda'}^*(f|K)$.*
 
@@ -543,7 +543,7 @@ Gọi $\mathscr{A}$ (tương ứng $\mathscr{A}'$) là tập các hạn chế l�
 
 Định nghĩa $\overline{f}$ như trong Bổ đề 5. Hiển nhiên là $\overline{f}(y) = f(y)$ nếu $y \in G$. Vì $\lambda^*(K - (K \cap G)) = 0$, ta có $\lambda(f|K) = \lambda(\overline{f}|K)$. Theo Bổ đề 6, $\overline{f}$ là afin và nửa liên tục trên. Do đó $\overline{f}|K$ là bao dưới của một tập có hướng giảm gồm các hạn chế lên K của các phần tử của $\mathscr{A}'$ (TVS, II, §5, No. 4, Mệnh đề 6). Gọi $x \in K$ là trọng tâm của $\lambda$. Nếu $g \in \mathscr{A}$ thì $\lambda(g|K) = g(x)$. Do đó $\lambda(\overline{f}|K) = \overline{f}(x)$ (§ 4, No. 4, Hệ quả 2 của Mệnh đề 5). Vậy $\lambda(f|K) = \overline{f}(x)$, và cũng thấy tương tự rằng $\lambda'(f|K) = \overline{f}(x)$.
 
-#### Hệ quả {#int-iv-s7-n6-cor-1 .statement}
+#### Hệ quả {#int-iv-s7-n6-cor-1 .statement tag=08ZD}
 
 *Cho E là một không gian lồi địa phương Hausdorff, C là một nón lồi thực sự có đỉnh 0 trong E, thừa nhận một đáy compắc M, và gọi G là hợp của các đường sinh cực biên của C. Cho $x \in M$. Nếu C có thứ tự dàn, thì tồn tại nhiều nhất một độ đo dương $\lambda$ có khối lượng 1 trên M, sao cho $\lambda^*(M - (G \cap M)) = 0$, và có x làm trọng tâm.*
 

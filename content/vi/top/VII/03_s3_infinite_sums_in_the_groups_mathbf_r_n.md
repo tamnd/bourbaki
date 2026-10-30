@@ -20,7 +20,7 @@ subsections:
       pdf_page: 92
 statements: 9
 exercises: 2
-content_sha256: e87b89c7b0aeee5820d3110f4ea985864da1cfb07622467026474898d1ab8256
+content_sha256: 7623bfdfbbcf81ad6d62485579d412fbaf01a2df5625524fb028622bbba0ff45
 translated_from: content/en/top/VII/03_s3_infinite_sums_in_the_groups_mathbf_r_n.md
 source_content_sha256: 7bb9d8c6584112e9559c49dbcd9c2f4e99bcb4f450d7cf7d15f5643a61cb0daf
 translation_model: gpt-5-6-mini
@@ -36,7 +36,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Vì mọi điểm của $\mathbf{R}^n$ đều có một *hệ cơ bản đếm được* các lân cận, một họ $(x_t)$ các điểm của nhóm cộng $\mathbf{R}^n$ chỉ khả tổng nếu tập hợp các chỉ số $t$ sao cho $X_t \neq 0$ là *đếm được* (Chương III, § 5, no. 2, Hệ quả của Mệnh đề 1); do đó, về cơ bản, việc nghiên cứu các họ khả tổng
 
-#### Mệnh đề 1 {#top-vii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#top-vii-s3-prop-1 .statement tag=0BZK}
 
 *Một họ* $(x_i)_{i \in I}$ *các điểm* $x_i = (x_{i,k})_{1 \leq k \leq n}$ *của* $\mathbf{R}^n$ *là khả tổng khi và chỉ khi mỗi một trong* $n$ *họ* $(x_{i,k})_{i \in I}$ *các số thực là khả tổng trong* $\mathbf{R}$.
 
@@ -44,7 +44,7 @@ Vì mọi điểm của $\mathbf{R}^n$ đều có một *hệ cơ bản đếm �
 
 Điều kiện của Mệnh đề 1 có thể được biến đổi như sau:
 
-#### Định lý 1 {#top-vii-s3-thm-1 .statement}
+#### Định lý 1 {#top-vii-s3-thm-1 .statement tag=0BZL}
 
 *Một họ* $(x_i)_{i \in I}$ *các điểm của* $\mathbf{R}^n$ *là khả tổng khi và chỉ khi họ* $(||x_i||)$ *các chuẩn Euclid của các* $x_i$ *là khả tổng trong* $\mathbf{R}$.
 
@@ -58,7 +58,7 @@ và nguyên lý so sánh (Chương IV, § 7, no. 1, Định lý 2).
 
 Cũng có thể tiến hành hơi khác, bằng cách trước hết chứng minh mệnh đề sau:
 
-#### Mệnh đề 2 {#top-vii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#top-vii-s3-prop-2 .statement tag=0BZM}
 
 *Nếu* $(x_i)_{i \in I}$ *là một họ hữu hạn bất kỳ các điểm trong* $\mathbf{R}^n$, *thì*
 
@@ -96,13 +96,13 @@ $$
 
 bất đẳng thức này có được bằng cách chuyển qua giới hạn từ bất đẳng thức tương ứng đối với các tổng riêng hữu hạn.
 
-#### Hệ quả {#top-vii-s3-n1-cor-1 .statement}
+#### Hệ quả {#top-vii-s3-n1-cor-1 .statement tag=0BZN}
 
 *Một họ* $(x_i)$ *các điểm của* $\mathbf{R}^n$ *là khả tổng khi và chỉ khi tập hợp các tổng riêng hữu hạn của họ bị chặn trong* $\mathbf{R}^n$.
 
 Theo Định lý 1 và bất đẳng thức tam giác, điều kiện này là cần; nó là đủ theo bất đẳng thức (1) và Định lý 1.
 
-#### Mệnh đề 3 {#top-vii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#top-vii-s3-prop-3 .statement tag=0BZO}
 
 *Cho* $(x_\lambda)_{\lambda \in L}$ *là một họ khả tổng các điểm của* $\mathbf{R}^m$, $(y_\mu)_{\mu \in M}$ *là một họ khả tổng các điểm của* $\mathbf{R}^n$, *và cho* $f$ *là một ánh xạ song tuyến tính từ* $\mathbf{R}^m \times \mathbf{R}^n$ *vào* $\mathbf{R}^p$. *Khi đó họ* $(f(x_\lambda, y_\mu))_{(\lambda, \mu) \in L \times M}$ *là khả tổng và ta có*
 
@@ -120,7 +120,7 @@ và do đó ta quy về trường hợp $f(x, y) = x_i y_j$, và trong trường
 
 Bằng cách chuyên biệt hóa hàm $f$, ta thu được đặc biệt các hệ quả sau:
 
-#### Hệ quả 1 {#top-vii-s3-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#top-vii-s3-prop-3-cor-1 .statement tag=0BZP}
 
 *Nếu* $(a_\lambda)_{\lambda \in L}$ *là một họ khả tổng các số thực và nếu* $(x_\mu)_{\mu \in M}$ *là một họ khả tổng các điểm của* $\mathbf{R}^n$, *thì họ* $(a_\lambda x_\mu)_{(\lambda, \mu) \in L \times M}$ *là khả tổng và ta có*
 
@@ -128,7 +128,7 @@ $$
 \sum_{(\lambda, \mu) \in L \times M} a_\lambda x_\mu = \left( \sum_{\lambda \in L} a_\lambda \right) \left( \sum_{\mu \in M} x_\mu \right).
 $$
 
-#### Hệ quả 2 {#top-vii-s3-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#top-vii-s3-prop-3-cor-2 .statement tag=0BZQ}
 
 *Nếu* $(x_\lambda)_{\lambda \in L}$ *và* $(y_\mu)_{\mu \in M}$ *là hai họ điểm khả tổng của* $\mathbf{R}^n$, *thì họ* $(x_\lambda | y_\mu)$ *(xem Chương VI, § 2, no. 2)* *là khả tổng trong* $\mathbf{R}$, *và ta có*
 
@@ -140,11 +140,11 @@ $$
 
 Một chuỗi có số hạng tổng quát là $x_m = (x_{mi})_{1 \leq i \leq n}$ hội tụ trong $\mathbf{R}^n$ khi và chỉ khi mỗi trong số $n$ chuỗi $(x_{mi})_{m \in \mathbf{N}}$ hội tụ trong $\mathbf{R}$.
 
-#### Định nghĩa 1 {#top-vii-s3-def-1 .statement}
+#### Định nghĩa 1 {#top-vii-s3-def-1 .statement tag=0BZR}
 
 *Một chuỗi các điểm của* $\mathbf{R}^n$ *được gọi là hội tụ tuyệt đối nếu chuỗi các chuẩn Euclid của các số hạng của nó hội tụ.*
 
-#### Mệnh đề 4 {#top-vii-s3-prop-4 .statement}
+#### Mệnh đề 4 {#top-vii-s3-prop-4 .statement tag=0BZS}
 
 *Một chuỗi các điểm của* $\mathbf{R}^n$ *được gọi là hội tụ giao hoán khi và chỉ khi nó hội tụ tuyệt đối.*
 

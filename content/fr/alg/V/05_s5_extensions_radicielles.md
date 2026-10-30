@@ -21,7 +21,7 @@ subsections:
       pdf_page: 128
 statements: 9
 exercises: 3
-content_sha256: e5aeb9cce45f7b1cbf9fb672ac8eaabd6a12d9a4d67808f1e02a277cfb3e60f8
+content_sha256: d44c7f6eca380d533c87c650c1604b3efc41e600d42fb9ef41a593e78353ca17
 ---
 
 ## § 5. EXTENSIONS RADICIELLES
@@ -30,16 +30,16 @@ Dans tout ce paragraphe, la lettre p désigne un entier qui est, soit égal à 1
 
 ### 1. Éléments radiciels
 
-#### Définition 1 {#alg-v-s5-def-1 .statement}
+#### Définition 1 {#alg-v-s5-def-1 .statement tag=06IZ}
 
 Soient K un corps et E une extension de K. On dit qu’un élément x de E est radiciel sur K s’il existe un entier m \geqslant 0 tel que x^{p^m} \in K ; le plus petit de ces entiers s’appelle la hauteur de x (sur K).
 
-#### Proposition 1 {#alg-v-s5-prop-1 .statement}
+#### Proposition 1 {#alg-v-s5-prop-1 .statement tag=06J0}
 
 Soient E une extension d’un corps K et x un élément radiciel de hauteur e sur K ; posons a = x^{p^e}. On a alors a \in K, et le polynôme minimal de x sur K est X^{p^e} - a. De plus, on a [K(x) : K] = p^e.
 Il suffit évidemment de prouver que le polynôme X^{p^e} - a est irréductible dans K[X]. D’après la définition de la hauteur de x, on a a \notin K^p, de sorte que la proposition résulte du lemme suivant :
 
-#### Lemme 1 {#alg-v-s5-lem-1 .statement}
+#### Lemme 1 {#alg-v-s5-lem-1 .statement tag=06J1}
 
 Soient $K$ un corps et $a$ un élément de $K$ tel que $a \notin K^p$. Pour tout entier $e \geqslant 0$, le polynôme $f(X) = X^{p^e} - a$ est irréductible dans $K[X]$.
 
@@ -47,7 +47,7 @@ Soient $\Omega$ une clôture algébrique de $K$, et $b$ l’élément $a^{p^{-e}
 
 ### 2. Extensions radicielles
 
-#### Définition 2 {#alg-v-s5-def-2 .statement}
+#### Définition 2 {#alg-v-s5-def-2 .statement tag=06J2}
 
 Soit $E$ une extension d’un corps $K$. On dit que $E$ est radicielle (sur $K$) si tout élément de $E$ est radiciel sur $K$. S’il en est ainsi, on dit que $E$ est de hauteur finie si l’ensemble des hauteurs des éléments de $E$ est majoré, et on appelle hauteur de $E$ le maximum des hauteurs de ses éléments.
 
@@ -55,13 +55,13 @@ On notera que toute extension radicielle d’un corps parfait (en particulier d�
 
 Soit $K$ un corps. Les extensions radicielles de hauteur 0 de $K$ sont les extensions triviales. Toute extension radicielle de $K$ est algébrique. Si $E$ est une extension radicielle de $K$ et $F$ une extension radicielle de $E$, alors $F$ est une extension radicielle de $K$ : en effet, pour tout $x \in F$, il existe un entier $m \geqslant 0$ tel que $x^{p^m} \in E$, puis un entier $n \geqslant 0$ tel que $(x^{p^m})^{p^n} \in K$, c’est-à-dire $x^{p^{m+n}} \in K$.
 
-#### Proposition 2 {#alg-v-s5-prop-2 .statement}
+#### Proposition 2 {#alg-v-s5-prop-2 .statement tag=06J3}
 
 Soit $E$ une extension d’un corps $K$. Pour tout entier $n \geqslant 0$, soit $E_n$ l’ensemble des éléments de $E$ qui sont radiciels de hauteur $\leqslant n$ sur $K$, et soit $E_\infty$ l’ensemble des éléments de $E$ radiciels sur $K$. Alors $(E_n)_{n \geqslant 0}$ est une suite croissante de sous-extensions de $E$, de réunion $E_\infty$, et $E_\infty$ est la plus grande extension radicielle de $K$ contenue dans $E$.
 
 Pour tout entier $n \geqslant 0$, l’ensemble $E_n$ se compose des éléments $x$ de $E$ tels que $x^{p^n} \in K$ ; comme l’application $x \mapsto x^{p^n}$ est un endomorphisme du corps $E$, on en conclut que $E_n$ est une sous-extension de $E$. La suite $(E_n)_{n \geqslant 0}$ est croissante, de réunion $E_\infty$, et par suite $E_\infty$ est une sous-extension de $E$ (V, p. 11, prop. 3). Il est clair que $E_\infty$ est une extension radicielle de $K$, et que $E_\infty$ contient toute sous-extension de $E$ qui est radicielle sur $K$.
 
-#### Corollaire {#alg-v-s5-n2-cor-1 .statement}
+#### Corollaire {#alg-v-s5-n2-cor-1 .statement tag=06J4}
 
 Si une extension $E$ d’un corps $K$ est engendrée par un ensemble d’éléments radiciels sur $K$, elle est radicielle sur $K$.
 
@@ -77,7 +77,7 @@ $$
 
 pour $n \geq 1$ : les sous-corps $K^{p^{-n}}$ de E sont donc deux à deux distincts, et $K^{p^{-\infty}}$ est une extension algébrique de degré *infini* de K.
 
-#### Proposition 3 {#alg-v-s5-prop-3 .statement}
+#### Proposition 3 {#alg-v-s5-prop-3 .statement tag=06J5}
 
 *Soient K un corps, E un surcorps de K radiciel sur K et u un homomorphisme de K dans un corps parfait F. Il existe un homomorphisme v de E dans F prolongeant u, et un seul.*
 
@@ -85,13 +85,13 @@ Soit $E_n$ l’ensemble des éléments de E qui sont radiciels de hauteur $\leq 
 
 Soit $n$ un entier positif ; pour tout $x \in E_n$, on a $x^{p^n} \in K$, et comme F est parfait, on définit un élément $v_n(x)$ de F par $v_n(x) = u(x^{p^n})^{p^{-n}}$. Il est immédiat que $v_n$ est un homomorphisme de $E_n$ dans F, qu’on a $v_0 = u$ et que $v_{n+1}$ induit $v_n$ sur $E_n$. Il existe donc un homomorphisme $v$ de E dans F induisant $v_n$ sur $E_n$ pour tout $n \geq 0$ et en particulier, coïncidant avec $v_0 = u$ sur $E_0 = K$.
 
-#### Corollaire {#alg-v-s5-n2-cor-2 .statement}
+#### Corollaire {#alg-v-s5-n2-cor-2 .statement tag=06J6}
 
 *Pour qu’une extension E d’un corps K soit une clôture parfaite de K, il faut et il suffit que ce soit une extension radicielle de K et que le corps E soit parfait.*
 
 Le corollaire est trivial lorsque $p = 1$ ; supposons donc $p \neq 1$. Les conditions énoncées sont nécessaires d’après V, p. 5, th. 3 ; elles sont suffisantes d’après la prop. 3.
 
-#### Proposition 4 {#alg-v-s5-prop-4 .statement}
+#### Proposition 4 {#alg-v-s5-prop-4 .statement tag=06J7}
 
 *Soit E une extension radicielle de degré fini d’un corps K. Alors [E : K] est une puissance de l’exposant caractéristique p de K.*
 

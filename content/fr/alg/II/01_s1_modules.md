@@ -68,14 +68,14 @@ subsections:
       pdf_page: 210
 statements: 101
 exercises: 27
-content_sha256: 2e06c39aabc65cfc4bd7360ab41d47d960fff0e93904d8ef9ce133abfdd93269
+content_sha256: 0acfcbe567fb9c64ad4800864f8e36b4b38782db4afbaeb333ab28b1835233d6
 ---
 
 ## § 1. MODULES
 
 ### 1. Modules; espaces vectoriels; combinaisons linéaires
 
-#### Définition 1 {#alg-ii-s1-def-1 .statement}
+#### Définition 1 {#alg-ii-s1-def-1 .statement tag=05JO}
 
 Étant donné un anneau $\mathbf{A}$, on appelle module à gauche sur $\mathbf{A}$ (ou $\mathbf{A}$-module à gauche), un ensemble $\mathbf{E}$ muni d’une structure algébrique définie par la donnée:
 $1^\circ$ d’une loi de groupe commutatif dans $\mathbf{E}$ (notée additivement dans ce qui suit);
@@ -109,31 +109,31 @@ De même, en vertu de $(M_{II})$, pour tout $x \in E$, l’application $\alpha \
 
 Lorsque l’anneau $A$ est réduit au seul élément 0, *tout* $A$-module $E$ est aussi réduit à l’élément 0, car on a alors $1 = 0$ dans $A$, d’où, pour tout $x \in E$, $x = 1.x = 0.x = 0$.
 
-#### Exemple 1 {#alg-ii-s1-n1-exa-1 .statement}
+#### Exemple 1 {#alg-ii-s1-n1-exa-1 .statement tag=05JP}
 
 Soit $\varphi$ un homomorphisme d’un anneau $A$ dans un anneau $B$; l’application $(a, x) \mapsto \varphi(a)x$ (resp. $(a, x) \mapsto x \varphi(a)$) de $A \times B$ dans $B$ définit sur $B$ une structure de $A$-module à gauche (resp. à droite). Quand on prend en particulier pour $\varphi$ l’application identique de $A$ on obtient sur $A$ une structure canonique de A-module à gauche (resp. à droite); on notera $A_s$ (resp. $A_d$) l’ensemble A muni de cette structure, pour éviter des confusions.
 
-#### Exemple 2 {#alg-ii-s1-n1-exa-2 .statement}
+#### Exemple 2 {#alg-ii-s1-n1-exa-2 .statement tag=05JR}
 
 Sur un groupe commutatif G (noté additivement), la structure de groupe à opérateurs définie par la loi d’action $(n, x) \mapsto n.x$ (I, p. 24) est une structure de module sur l’anneau $\mathbf{Z}$ des entiers rationnels.
 
-#### Exemple 3 {#alg-ii-s1-n1-exa-3 .statement}
+#### Exemple 3 {#alg-ii-s1-n1-exa-3 .statement tag=0DF4}
 
 Soient E un groupe commutatif noté additivement, $\mathscr{E}$ l’anneau des endomorphismes de E (I, p. 96: on rappelle que le produit $fg$ de deux endomorphismes est par définition l’endomorphisme composé $f \circ g$). La loi d’action $(f, x) \mapsto f(x)$ entre opérateurs $f \in \mathscr{E}$ et éléments $x \in E$ définit sur E une structure canonique de $\mathscr{E}$-module à gauche.
 
 Considérons maintenant un anneau A et supposons donnée sur E une structure de A-module à gauche (resp. à droite); pour tout $\alpha \in A$, l’homothétie $h_\alpha : x \mapsto \alpha x$ (resp. $x \mapsto x\alpha$) appartient à $\mathscr{E}$; l’application $\varphi : \alpha \mapsto h_\alpha$ est un homomorphisme de l’anneau A (resp. de l’anneau opposé $A^0$) dans l’anneau $\mathscr{E}$ et on a par définition $\alpha x = (\varphi(\alpha))(x)$ (resp. $x\alpha = (\varphi(\alpha))(x)$). Réciproquement, la donnée d’un homomorphisme d’anneaux $\varphi : A \to \mathscr{E}$ (resp. $\varphi : A^0 \to \mathscr{E}$) définit sur E une structure de A-module à gauche (resp. à droite) par les formules précédentes. Autrement dit, se donner une structure de A-module à gauche (resp. à droite) sur un groupe additif E, ayant pour loi additive la loi de groupe donnée, équivaut à se donner un homomorphisme d’anneaux $A \to \mathscr{E}$ (resp. $A^0 \to \mathscr{E}$).
 
-#### Définition 2 {#alg-ii-s1-def-2 .statement}
+#### Définition 2 {#alg-ii-s1-def-2 .statement tag=05JQ}
 
 On appelle espace vectoriel à gauche (resp. à droite) sur un corps K, un K-module à gauche (resp. à droite).
 
 Les éléments d’un espace vectoriel sont parfois appelés vecteurs.
 
-#### Exemple 4 {#alg-ii-s1-n1-exa-4 .statement}
+#### Exemple 4 {#alg-ii-s1-n1-exa-4 .statement tag=0DF5}
 
 Un corps est à la fois espace vectoriel à gauche et à droite par rapport à un quelconque de ses sous-corps.
 
-#### Exemple 5 {#alg-ii-s1-n1-exa-5 .statement}
+#### Exemple 5 {#alg-ii-s1-n1-exa-5 .statement tag=0DF6}
 
 \* L’espace numérique à 3 dimensions $\mathbf{R}^3$ est un espace vectoriel par rapport au corps des nombres réels $\mathbf{R}$, le produit $tx$ d’un nombre réel t et d’un point x de coordonnées $x_1, x_2, x_3$ étant le point de coordonnées $tx_1, tx_2, tx_3$. De même, l’ensemble des fonctions numériques définies dans un ensemble quelconque F est un espace vectoriel par rapport à $\mathbf{R}$, le produit $tf$ d’un nombre réel t et d’une fonction f étant la fonction numérique $x \mapsto tf(x)$*
 
@@ -151,7 +151,7 @@ $$
 
 on se ramène en effet aussitôt aux formules analogues pour les sommes finies en considérant une partie finie H de I contenant les supports de $(x_i)$ et $(y_i)$.
 
-#### Définition 3 {#alg-ii-s1-def-3 .statement}
+#### Définition 3 {#alg-ii-s1-def-3 .statement tag=05JS}
 
 On dit qu’un élément x d’un A-module E est une combinaison linéaire, à coefficients dans $A$, d’une famille $(a_i)_{i \in I}$ d’éléments de $E$, s’il existe une famille $(\lambda_i)_{i \in I}$ d’éléments de $A$, de support fini, telle que $x = \sum_{i \in I} \lambda_i a_i$.
 
@@ -161,7 +161,7 @@ On notera que 0 est la seule combinaison linéaire de la famille vide d’élém
 
 ### 2. Applications linéaires
 
-#### Définition 4 {#alg-ii-s1-def-4 .statement}
+#### Définition 4 {#alg-ii-s1-def-4 .statement tag=05JT}
 
 Soient $E$ et $F$ deux modules (à gauche) par rapport au même anneau $A$. On appelle application linéaire (ou application A-linéaire, ou homomorphisme, ou A-homomorphisme) de $E$ dans $F$ toute application $u : E \to F$ telle que:
 
@@ -177,15 +177,15 @@ Si $E$ et $F$ sont deux $A$-modules à droite, une application linéaire $u : E 
 u(x \cdot \lambda) = u(x) \cdot \lambda \quad \text{pour } \lambda \in A, x \in E.
 $$
 
-#### Remarque {#alg-ii-s1-n2-rem-1 .statement}
+#### Remarque {#alg-ii-s1-n2-rem-1 .statement tag=05JU}
 
 Lorsque $E$ et $F$ sont deux groupes commutatifs, considérés comme modules sur l’anneau $\mathbf{Z}$ (II, p. 3), tout homomorphisme $u$ du groupe $E$ (sans opérateur) dans le groupe $F$ (sans opérateur) est aussi une application linéaire de $E$ dans $F$, car pour $n$ entier $> 0$ la relation $u(n \cdot x) = n \cdot u(x)$ se déduit de $u(x + y) = u(x) + u(y)$ par récurrence sur $n$, et pour $n = -m < 0$, on a encore $u(n \cdot x) = u(-(m \cdot x)) = -u(m \cdot x) = -(m \cdot u(x)) = n \cdot u(x)$.
 
-#### Exemple 1 {#alg-ii-s1-n2-exa-1 .statement}
+#### Exemple 1 {#alg-ii-s1-n2-exa-1 .statement tag=05JV}
 
 Soient $E$ un $A$-module, $a$ un élément de $E$; l’application $\lambda \mapsto \lambda a$ du $A$-module $A_s$ dans $E$ est une application linéaire $\theta_a$, telle que $\theta_a(1) = a$.
 
-#### Exemple 2 {#alg-ii-s1-n2-exa-2 .statement}
+#### Exemple 2 {#alg-ii-s1-n2-exa-2 .statement tag=0DF7}
 
 \* Soient $I$ un intervalle ouvert de la droite numérique $\mathbf{R}$, $E$ l’espace vectoriel des fonctions numériques dérivables dans $I$, $F$ l’espace vectoriel de toutes les fonctions numériques définies dans $I$. L’application $x \mapsto x'$ qui, à toute fonction dérivable $x$, fait correspondre sa dérivée, est une application linéaire de $E$ dans $F$*
 
@@ -198,11 +198,11 @@ $$
 
 comme il résulte aussitôt de (3) et (4G) par récurrence sur le cardinal du support de la famille $(\lambda_i x_i)$.
 
-#### Proposition 1 {#alg-ii-s1-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s1-prop-1 .statement tag=05JW}
 
 *Soient E, F, G trois A-modules, u une application linéaire de E dans F, v une application linéaire de F dans G. Alors l’application composée $v \circ u$ est linéaire.*
 
-#### Proposition 2 {#alg-ii-s1-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s1-prop-2 .statement tag=0DF8}
 
 *Soient E, F deux A-modules.
 1° Si $u : E \to F$ et $v : F \to E$ sont deux applications linéaires telles que $v \circ u$ soit l’application identique de E et $u \circ v$ l’application identique de F, u est un isomorphisme de E sur F et v l’isomorphisme réciproque.
@@ -260,23 +260,23 @@ Si $h$ (resp. $k$) est un endomorphisme de E (resp. F), $\operatorname{Hom}(h, 1
 
 Soient E un A-module, M une partie de E ; pour que la structure de A-module de E induise sur M une structure de A-module, il faut et il suffit que M soit un sous-groupe stable de E (I, p. 31), car lorsqu’il en est ainsi, la structure de groupe à opérateurs induite sur M vérifie évidemment les axiomes (M_{II}), (M_{III}) et (M_{IV}) ; alors M, muni de cette structure (ou, par abus de langage, l’ensemble M lui-même) est appelé sous-module de E ; l’injection canonique M → E est une application linéaire. Lorsque E est un espace vectoriel, ses sous-modules s’appellent aussi sous-espaces vectoriels (ou simplement sous-espaces si aucune confusion n’en résulte).
 
-#### Exemple 1 {#alg-ii-s1-n3-exa-1 .statement}
+#### Exemple 1 {#alg-ii-s1-n3-exa-1 .statement tag=05JX}
 
 Dans un module quelconque E, l’ensemble réduit à 0 est un sous-module (sous-module nul, souvent noté 0 par abus de notation).
 
-#### Exemple 2 {#alg-ii-s1-n3-exa-2 .statement}
+#### Exemple 2 {#alg-ii-s1-n3-exa-2 .statement tag=0DF9}
 
 Soit A un anneau. Les sous-modules de A_s (resp. A_d) ne sont autres que les idéaux à gauche (resp. idéaux à droite) de l’anneau A (I, p. 98).
 
-#### Exemple 3 {#alg-ii-s1-n3-exa-3 .statement}
+#### Exemple 3 {#alg-ii-s1-n3-exa-3 .statement tag=0DFA}
 
 Soient E un A-module, x un élément de E, a un idéal à gauche de A. L’ensemble des éléments $\alpha x$, où $\alpha$ parcourt a, est un sous-module de E, qu’on note $\alpha x$.
 
-#### Exemple 4 {#alg-ii-s1-n3-exa-4 .statement}
+#### Exemple 4 {#alg-ii-s1-n3-exa-4 .statement tag=0DFB}
 
 Dans un groupe commutatif G, considéré comme $\mathbf{Z}$-module (II, p. 3), tout sous-groupe de G est aussi un sous-module.
 
-#### Exemple 5 {#alg-ii-s1-n3-exa-5 .statement}
+#### Exemple 5 {#alg-ii-s1-n3-exa-5 .statement tag=0DFC}
 
 \* Soit I un intervalle ouvert de la droite numérique $\mathbf{R}$; l’ensemble C des fonctions numériques définies et continues dans I est un sous-espace vectoriel de l’espace vectoriel $\mathbf{R}^I$ de toutes les fonctions numériques définies dans I. De même, l’ensemble D des fonctions dérivables dans I est un sous-espace vectoriel de C.*
 
@@ -294,13 +294,13 @@ $v$ est un isomorphisme de la coïmage de u sur l’image de u (II, p. 5, prop. 
 
 Le noyau, l’image, la coïmage et le conoyau de u se notent respectivement Ker $u$, Im $u$, Coïm $u$, Coker $u$.
 
-#### Remarque {#alg-ii-s1-n3-rem-1 .statement}
+#### Remarque {#alg-ii-s1-n3-rem-1 .statement tag=05JY}
 
 Soient M un sous-module d’un A-module E, $\varphi : E \to E/M$ l’homomorphisme canonique. Pour qu’une application A-linéaire $u : E \to F$ soit de la forme $v \circ \varphi$, où $v$ est une application linéaire de $E/M$ dans F, il faut et il suffit que $M \subset \mathrm{Ker}(u)$; en effet, si cette condition est vérifiée, la relation $x - y \in M$ entraîne $u(x) = u(y)$, donc u est compatible avec cette relation d’équivalence et il est clair que l’application $v : E/M \to F$ déduite de u par passage au quotient est linéaire.
 
 ### 4. Suites exactes
 
-#### Définition 5 {#alg-ii-s1-def-5 .statement}
+#### Définition 5 {#alg-ii-s1-def-5 .statement tag=05JZ}
 
 Soient F, G, H trois A-modules; soit f un homomorphisme de F dans G et soit g un homomorphisme de G dans H. On dit que le couple (f, g) est une suite exacte si l’on a
 
@@ -338,7 +338,7 @@ Remarque 1). — Si le couple (f, g) est une suite exacte, on a $g \circ f = 0$;
 
 Dans les énoncés ci-dessous, E, F, G désignent des A-modules, 0 un A-module réduit à son élément neutre; les flèches représentent des homomorphismes de A-modules. Comme il n’y a qu’un seul homomorphisme du module 0 dans un module E (resp. de E dans 0), il sera inutile de désigner les homomorphismes de ce type plus explicitement dans les suites exactes où ils figurent.
 
-#### Proposition 3 {#alg-ii-s1-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s1-prop-3 .statement tag=05K1}
 
 a) Pour que
 
@@ -394,7 +394,7 @@ $$
 
 La proposition résulte aussitôt des définitions et de la prop. 2 de II, p. 5.
 
-#### Remarque 2 {#alg-ii-s1-n4-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s1-n4-rem-2 .statement tag=05K2}
 
 Dire qu’on a une suite exacte
 $$
@@ -402,7 +402,7 @@ $$
 $$
 signifie que f est injectif, g surjectif et que la bijection canonique associée à g est un isomorphisme de F/f(E) sur G. On dit encore alors que le triplet (F, f, g) est une extension du module G par le module E (I, p. 62).
 
-#### Remarque 3 {#alg-ii-s1-n4-rem-3 .statement}
+#### Remarque 3 {#alg-ii-s1-n4-rem-3 .statement tag=05K3}
 
 Si on a une suite exacte à 4 termes
 $$
@@ -413,7 +413,7 @@ $$
 \operatorname{Coker} f \to \operatorname{Ker} h.
 $$
 
-#### Remarque 4 {#alg-ii-s1-n4-rem-4 .statement}
+#### Remarque 4 {#alg-ii-s1-n4-rem-4 .statement tag=0DFD}
 
 Considérons un couple d’homomorphismes de A-modules
 (15)
@@ -453,7 +453,7 @@ Les formules (17) expriment que les projections $pr_i : E \to E_i$ sont des appl
 
 Rappelons que si l’ensemble d’indices I est vide, l’ensemble produit $\prod_{i \in I} E_i$ est alors réduit à un seul élément; la structure de module produit sur cet ensemble est alors celle pour laquelle cet unique élément est 0.
 
-#### Proposition 4 {#alg-ii-s1-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s1-prop-4 .statement tag=05K4}
 
 Soit $E = \prod_{i \in I} E_i$ le produit d’une famille de A-modules $(E_i)_{i \in I}$. Pour tout A-module F et toute famille d’applications linéaires $f_i : F \to E_i$, il existe une application f de F dans E et une seule, telle que $pr_i \circ f = f_i$ pour tout $i \in I$ et cette application est linéaire.
 
@@ -467,7 +467,7 @@ $$
 
 est un isomorphisme.
 
-#### Proposition 5 {#alg-ii-s1-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s1-prop-5 .statement tag=05K5}
 
 (i) Soient $(E_i)_{i \in I}, (F_i)_{i \in I}$ deux familles de A-modules ayant même ensemble d’indices I; pour toute famille d’applications linéaires $f_i : E_i \to F_i$ ($i \in I$), l’application $f : (x_i) \mapsto (f_i(x_i))$ de $\prod_i E_i$ dans $\prod_i F_i$ (parfois notée $\prod_i f_i$) est linéaire.
 
@@ -481,7 +481,7 @@ soit exacte.
 
 L’assertion de (i) résulte aussitôt des définitions. D’autre part, dire que $y = (y_i)$ appartient à $\mathrm{Ker}(g)$ signifie que $g_i(y_i) = 0$ pour tout $i \in I$, donc que $y_i \in \mathrm{Ker}(g_i)$ pour tout $i \in I$; de même, dire que $y$ appartient à $\mathrm{Im}(f)$ signifie qu’il existe $x = (x_i) \in \prod_i E_i$ tel que $y = f(x)$, ce qui équivaut à dire que $y_i = f_i(x_i)$ pour tout $i \in I$, ou encore que $y_i \in \mathrm{Im}(f_i)$ pour tout $i \in I$; d’où (ii).
 
-#### Corollaire {#alg-ii-s1-n5-cor-1 .statement}
+#### Corollaire {#alg-ii-s1-n5-cor-1 .statement tag=05K6}
 
 Sous les conditions de la prop. 5, (i), on a
 
@@ -518,7 +518,7 @@ x = \sum_{i \in I} j_i(\mathrm{pr}_i x).
 $$
 (20)
 
-#### Proposition 6 {#alg-ii-s1-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s1-prop-6 .statement tag=05K7}
 
 *Soient* $(E_i)_{i \in I}$ *une famille de* $A$*-modules*, $M$ *un* $A$*-module*, et *pour tout* $i \in I$, *soit* $f_i : E_i \to M$ *une application linéaire*. *Il existe alors une application linéaire* $g : \bigoplus_{i \in I} E_i \to M$ *et une seule telle que*, *pour tout* $i \in I$, *on ait*:
 $$
@@ -532,7 +532,7 @@ Lorsque aucune confusion n’en résulte, on pose $g = \sum_{i \in I} f_i$ (ce q
 
 En particulier, si $J$ est une partie quelconque de $I$, les injections canoniques $j_i$ pour $i \in J$ définissent une application linéaire canonique $j_J : \bigoplus_{i \in J} E_i \to \bigoplus_{i \in I} E_i$ qui à tout $(x_i)_{i \in J}$ fait correspondre l’élément $(x'_i)_{i \in I}$ tel que $x'_i = x_i$ pour $i \in J$, $x'_i = 0$ pour $i \notin J$; cette application est évidemment injective. En outre, si $(J_\lambda)_{\lambda \in L}$ est une partition de $I$, l’application $i : \bigoplus_{\lambda \in L} (\bigoplus_{i \in J_\lambda} E_i) \to \bigoplus_{i \in I} E_i$ correspondant à la famille $(j_{J_\lambda})$ par la prop. 6 est un *isomorphisme*, dit canonique (*« associativité »* de la somme directe).
 
-#### Corollaire 1 {#alg-ii-s1-prop-6-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s1-prop-6-cor-1 .statement tag=05K8}
 
 Soient $(E_i)_{i \in I}, (F_\lambda)_{\lambda \in L}$ deux familles de $A$-modules. L’application
 $$
@@ -541,7 +541,7 @@ $$
 qui, à tout $g \in \text{Hom}_A\left(\bigoplus_{i \in L} E_i, \prod_{\lambda \in L} F_\lambda\right)$, fait correspondre la famille $(\operatorname{pr}_\lambda \circ g \circ j_i)$, est un isomorphisme (dit canonique) de $\mathbf{Z}$-modules.
 Cela résulte de la prop. 6 et de II, p. 10, prop. 4.
 
-#### Corollaire 2 {#alg-ii-s1-prop-6-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s1-prop-6-cor-2 .statement tag=05K9}
 
 Soient $(E_i)_{i \in I}$ une famille de $A$-modules, $F$ un $A$-module, et pour chaque $i \in I$, soit $f_i : E_i \to F$ une application linéaire. Pour que $f = \sum_{i \in I} f_i$ soit un isomorphisme de $E = \bigoplus_{i \in I} E_i$ sur $F$, il faut et il suffit qu’il existe pour chaque $i \in I$ une application linéaire $g_i : F \to E_i$ vérifiant les propriétés suivantes:
 $1^\circ$ $g_i \circ f_i = 1_{E_i}$ pour tout $i \in I$.
@@ -556,7 +556,7 @@ $$
 $$
 Il est évident que les conditions sont nécessaires, car elles sont vérifiées par les $g_i = \operatorname{pr}_i \circ f_i^{-1}$. Inversement, si elles sont vérifiées, pour tout $y \in F$, $g(y) = \sum_i j_i(g_i(y))$ est défini, et il est immédiat que $g$ est une application linéaire de $F$ dans $E$. Pour tout $y \in F$, on a $f(g(y)) = \sum_i f_i(g_i(y)) = y$ par hypothèse. D’autre part, pour tout $x \in E$, on a $g_\kappa(f(x)) = g_\kappa\left(\sum_i f_i(\operatorname{pr}_i(x))\right) = g_\kappa(f_\kappa(\operatorname{pr}_\kappa(x))) = \operatorname{pr}_\kappa(x)$ par hypothèse; par suite $g(f(x)) = \sum_i j_i(g_i(f(x))) = \sum_i j_i(\operatorname{pr}_i(x)) = x$, ce qui démontre le corollaire.
 
-#### Proposition 7 {#alg-ii-s1-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s1-prop-7 .statement tag=05KA}
 
 (i) Soient $(E_i)_{i \in I}, (F_i)_{i \in I}$ deux familles de $A$-modules ayant même ensemble d’indices $I$; pour toute famille d’applications linéaires $f_i : E_i \to F_i$ ($i \in I$), la restriction à $\bigoplus_{i \in I} E_i$ de l’application linéaire $(x_i) \mapsto (f_i(x_i))$ est une application linéaire $f : \bigoplus_{i \in I} E_i \to \bigoplus_{i \in I} F_i$ que l’on note $\bigoplus_{i \in I} f_i$ ou $\bigoplus_i f_i$ (ou $f = f_p \oplus f_{p+1} \oplus \cdots \oplus f_q$ si $I = [p, q]$ est un intervalle de $\mathbf{Z}$).
 (ii) Soit $(G_i)_{i \in I}$ une troisième famille de $A$-modules ayant $I$ pour ensemble d’indices, et pour tout $i \in I$, soit $g_i : F_i \to G_i$ une application linéaire; posons $g = \bigoplus_i g_i$. Pour que chacune des suites $E_i \xrightarrow{f_i} F_i \xrightarrow{g_i} G_i$ soit exacte, il faut et il suffit que la suite
@@ -567,7 +567,7 @@ soit exacte.
 
 Il est évident que, pour tout $(x_i) \in \bigoplus_i E_i$, la famille $(f_i(x_i))$ a un support fini, d’où (i). D’autre part, dire qu’un élément $y = (y_i)$ de $\bigoplus_i F_i$ appartient à $\mathrm{Ker}(g)$ signifie que $y_i \in \mathrm{Ker}(g_i)$ pour tout $i \in I$ (II, p. 10, prop. 5); de même, si $y_i \in \mathrm{Im}(f_i)$ pour tout $i \in I$, il existe, pour chaque $i \in I$ un $x_i \in E_i$ tel que $y_i = f_i(x_i)$, et lorsque $y_i = 0$ on peut supposer $x_i = 0$; on a donc bien $y \in \mathrm{Im}(f)$, et la réciproque est évidente.
 
-#### Corollaire 1 {#alg-ii-s1-prop-7-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s1-prop-7-cor-1 .statement tag=05KB}
 
 Sous les conditions de la prop. 7, (i), on a
 $$
@@ -584,7 +584,7 @@ $$
 \bigoplus_{i \in I} (E_i/F_i) \to (\bigoplus_{i \in I} E_i)/(\bigoplus_{i \in I} F_i).
 $$
 
-#### Corollaire 2 {#alg-ii-s1-prop-7-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s1-prop-7-cor-2 .statement tag=05KC}
 
 Soient $(E_i)_{i \in I}$, $(E'_i)_{i \in I}$, $(F_\lambda)_{\lambda \in L}$, $(F'_\lambda)_{\lambda \in L}$ quatre familles de A-modules, et pour chaque $i \in I$ (resp. chaque $\lambda \in L$) soit $u_i : E'_i \to E_i$ (resp. $v_\lambda : F_\lambda \to F'_\lambda$) une application linéaire. Alors le diagramme
 $$
@@ -600,7 +600,7 @@ La vérification découle immédiatement des définitions.
 
 Lorsque tous les $E_i$ sont identiques à un même A-module $E$, la somme directe $\bigoplus_{i \in I} E_i$ se note aussi $E^{(I)}$: ses éléments sont les applications de $I$ dans $E$, de support fini. Si, pour tout $i$, on prend pour $f_i$ l’application identique $E \to E$, on obtient par la prop. 6 de II, p. 12, une application linéaire canonique $E^{(I)} \to E$, dite application *codiagonale*, et qui à toute famille $(x_i)_{i \in I}$ d’éléments de $E$, de support fini, fait correspondre sa *somme* $\sum_{i \in I} x_i$.
 
-#### Remarque {#alg-ii-s1-n6-rem-1 .statement}
+#### Remarque {#alg-ii-s1-n6-rem-1 .statement tag=05KD}
 
 Rappelons que la définition de la somme directe s’étend aussitôt à une famille $(E_i)_{i \in I}$ de *groupes* non nécessairement commutatifs, la notation multiplicative remplaçant bien entendu la notation additive; on dit alors « *somme restreinte* » au lieu de « *somme directe* » (I, p. 45). On notera que $E$ est sous-groupe *distingué* du produit $F = \prod_{i \in I} E_i$, et chacun des $j_k(E_k)$ est un sous-groupe *distingué* de $F$; en outre, pour deux indices distincts $\lambda, \mu$, tout élément de $j_\lambda(E_\lambda)$ est *permutable* à tout élément de $j_\mu(E_\mu)$. La prop. 6 (II p. 12) s’étend au cas général moyennant l’hypothèse que pour deux indices distincts $\lambda, \mu$, tout élément de $f_\lambda(E_\lambda)$ soit *permutable* dans $M$ à tout élément de $f_\mu(E_\mu)$ (I, p. 45, prop. 12). On en déduit aussitôt la propriété d’« associativité » de la somme restreinte. La prop. 7 et ses corollaires 1 et 2 (II, p. 13–14) subsistent sans modification.
 
@@ -619,7 +619,7 @@ $$
 qu’on en déduit par passage au quotient, sont dites *canoniques*.
 
 En particulier:
-#### Proposition 8 {#alg-ii-s1-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s1-prop-8 .statement tag=05KE}
 
 *Si une famille* $(M_i)_{i \in I}$ *de sous-modules de* $E$ *a une intersection réduite à* $0$, *E est canoniquement isomorphe à un sous-module de* $\prod_{i \in I} (E/M_i)$.
 
@@ -627,25 +627,25 @@ En particulier:
 
 On dit qu’un A-module est *de type fini* s’il possède un ensemble générateur *fini*.
 
-#### Proposition 9 {#alg-ii-s1-prop-9 .statement}
+#### Proposition 9 {#alg-ii-s1-prop-9 .statement tag=05KF}
 
 *Le sous-module engendré par une famille* $(a_i)_{i \in I}$ *d’éléments d’un A-module E est l’ensemble des combinaisons linéaires de la famille* $(a_i)$.
 
 En effet, tout sous-module de E qui contient tous les $a_i$ contient aussi les combinaisons linéaires des $a_i$. Inversement, les formules (1) et (2) de II, p. 3 prouvent que l’ensemble des combinaisons linéaires des $a_i$ est un sous-module de E qui contient évidemment tous les $a_i$, et est donc le plus petit sous-module les contenant.
 
-#### Corollaire 1 {#alg-ii-s1-prop-9-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s1-prop-9-cor-1 .statement tag=05KG}
 
 *Soient* $u : E \to F$ *une application linéaire, S une partie de E, M le sous-module de E engendré par S. Alors* $u(M)$ *est le sous-module de F engendré par* $u(S)$.
 
 En particulier, l’image par $u$ de tout sous-module de type fini de E est un sous-module de type fini de F.
 
-#### Remarque {#alg-ii-s1-n7-rem-1 .statement}
+#### Remarque {#alg-ii-s1-n7-rem-1 .statement tag=05KH}
 
 Si l’on a $u(x) = 0$ pour tout $x \in S$, on a aussi $u(x) = 0$ pour tout $x \in M$. Nous nous référerons parfois à ce résultat sous le nom de « principe de prolongement des identités linéaires » ou « principe de prolongement par linéarité ».
 
 En particulier, pour vérifier qu’une application linéaire $u : E \to F$ est de la forme $v \circ \varphi$, où $v : E/M \to F$ est linéaire et $\varphi : E \to E/M$ est l’application canonique, il suffit de vérifier que $u(S) = 0$.
 
-#### Corollaire 2 {#alg-ii-s1-prop-9-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s1-prop-9-cor-2 .statement tag=05KI}
 
 *Le sous-module engendré par la réunion d’une famille* $(M_i)_{i \in I}$ *de sous-modules d’un module E, est identique à l’ensemble des sommes* $\sum_{i \in I} x_i$, *où* $(x_i)_{i \in I}$ *parcourt l’ensemble des familles d’éléments de E, de support fini et telles que* $x_i \in M_i$ *pour tout* $i \in I$.
 
@@ -659,23 +659,23 @@ $$
 
 (28)
 
-#### Corollaire 3 {#alg-ii-s1-prop-9-cor-3 .statement}
+#### Corollaire 3 {#alg-ii-s1-prop-9-cor-3 .statement tag=05KJ}
 
 *Si* $(M_\lambda)_{\lambda \in L}$ *est une famille filtrante croissante de sous-modules d’un A-module E, la somme* $\sum_{\lambda \in L} M_\lambda$ *est identique à la réunion* $\bigcup_{\lambda \in L} M_\lambda$.
 
 En effet, on a toujours $\bigcup_{\lambda \in L} M_\lambda \subset \sum_{\lambda \in L} M_\lambda$ sans hypothèse; en outre, pour toute sous-famille finie $(M_\lambda)_{\lambda \in J}$ de $(M_\lambda)_{\lambda \in L}$, il existe par hypothèse un $\mu \in L$ tel que $M_\lambda \subset M_\mu$ pour tout $\lambda \in J$, donc $\sum_{\lambda \in J} M_\lambda \subset M_\mu$, et il résulte donc du cor. 2 que $\sum_{\lambda \in L} M_\lambda \subset \bigcup_{\lambda \in L} M_\lambda$.
 
-#### Corollaire 4 {#alg-ii-s1-prop-9-cor-4 .statement}
+#### Corollaire 4 {#alg-ii-s1-prop-9-cor-4 .statement tag=05KK}
 
 Soient $0 \longrightarrow E \longrightarrow F \xrightarrow{g} G \longrightarrow 0$ une suite exacte de A-modules, S un système générateur de E, T un système générateur de G. Si T' est une partie de F telle que $g(T') = T, T' \cup f(S)$ est un système générateur de F.
 
 En effet, le sous-module F' de F engendré par T' $\cup f(S)$ contient $f(E)$, et comme $g(F')$ contient T, on a $g(F') = G$; d'où $F' = F$.
 
-#### Corollaire 5 {#alg-ii-s1-prop-9-cor-5 .statement}
+#### Corollaire 5 {#alg-ii-s1-prop-9-cor-5 .statement tag=05KL}
 
 Dans une suite exacte $0 \to E \to F \to G \to 0$ de A-modules, si E et G sont de type fini, il en est de même de F.
 
-#### Proposition 10 {#alg-ii-s1-prop-10 .statement}
+#### Proposition 10 {#alg-ii-s1-prop-10 .statement tag=05KM}
 
 Soient M, N deux sous-modules d'un A-module E. On a alors deux suites exactes
 
@@ -704,17 +704,17 @@ Prouvons l'exactitude de (30): il est clair que $p - q$ est surjective. D'autre 
 
 ### 8. Sommes directes de sous-modules
 
-#### Définition 6 {#alg-ii-s1-def-6 .statement}
+#### Définition 6 {#alg-ii-s1-def-6 .statement tag=05KN}
 
 On dit qu'un A-module E est somme directe d'une famille $(M_i)_{i \in I}$ de sous-modules de E si l'application canonique $\bigoplus_{i \in I} M_i \to E$ (II, p. 12) est un isomorphisme.
 
 Il revient au même de dire que tout $x \in E$ peut s'écrire d'une seule manière sous la forme $x = \sum_{\iota \in I} x_\iota$, où $x_\iota \in E_\iota$ pour tout $\iota \in I$; l’élément $x_\iota$ correspondant ainsi à $x$ est appelé le *composant* de $x$ dans $E_\iota$; l’application $x \mapsto x_\iota$ est *linéaire*.
 
-#### Remarque 1 {#alg-ii-s1-n8-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s1-n8-rem-1 .statement tag=05KO}
 
 Soient $(M_\iota)_{\iota \in I}$, $(N_\iota)_{\iota \in I}$ deux familles de sous-modules d’un module $E$, ayant même ensemble d’indices; supposons que $E$ soit *à la fois* somme directe de la famille $(M_\iota)$ et de la famille $(N_\iota)$, *et que l’on ait* $N_\iota \subset M_\iota$ pour tout $\iota \in I$. Alors *on a* $N_\iota = M_\iota$ *pour tout* $\iota \in I$, comme il résulte aussitôt du cor. 1 de II, p. 14 appliqué aux injections canoniques $f_\iota : N_\iota \to M_\iota$.
 
-#### Proposition 11 {#alg-ii-s1-prop-11 .statement}
+#### Proposition 11 {#alg-ii-s1-prop-11 .statement tag=05KP}
 
 *Soit* $(M_\iota)_{\iota \in I}$ *une famille de sous-modules d’un A-module* $E$. *Les propriétés suivantes sont équivalentes*:
 
@@ -726,11 +726,11 @@ c) *Pour tout* $\kappa \in I$, *l’intersection de* $M_\kappa$ *et de* $\sum_{\
 
 Il est immédiat que a) et b) sont équivalentes, puisque la relation $\sum_\iota x_\iota = \sum_\iota y_\iota$ est équivalente à $\sum_\iota (x_\iota - y_\iota) = 0$. D’autre part, en vertu de la déf. 6, a) entraîne c) puisque l’expression d’un élément de $\bigoplus_{\iota \in I} M_\iota$ comme somme d’éléments $x_\iota \in M_\iota$ est unique. Enfin, la relation $\sum_\iota x_\iota = 0$, où $x_\iota \in M_\iota$ pour tout $\iota$, s’écrit, pour tout $\kappa \in I$, $x_\kappa = \sum_{\iota \neq \kappa} (-x_\iota)$; la condition c) entraîne alors $x_\kappa = 0$ pour tout $\kappa \in I$, donc c) entraîne b).
 
-#### Définition 7 {#alg-ii-s1-def-7 .statement}
+#### Définition 7 {#alg-ii-s1-def-7 .statement tag=05KQ}
 
 *On dit qu’un endomorphisme* $e$ *d’un A-module* $E$ *est un projecteur si* $e \circ e = e$ *(autrement dit, si* $e$ *est un idempotent dans l’anneau* $\mathrm{End}(E)$*).* *Dans* $\mathrm{End}(E)$, *on dit qu’une famille* $(e_\lambda)_{\lambda \in L}$ *de projecteurs est orthogonale si l’on a* $e_\lambda \circ e_\mu = 0$ *pour* $\lambda \neq \mu$.
 
-#### Proposition 12 {#alg-ii-s1-prop-12 .statement}
+#### Proposition 12 {#alg-ii-s1-prop-12 .statement tag=05KR}
 
 *Soit* $E$ *un A-module*.
 
@@ -747,7 +747,7 @@ $$
 1_E = \sum_{\lambda \in L} e_\lambda.
 $$
 
-#### Corollaire {#alg-ii-s1-n8-cor-1 .statement}
+#### Corollaire {#alg-ii-s1-n8-cor-1 .statement tag=05KS}
 
 *Pour tout projecteur e de E, E est somme directe de l’image M = e(E) et du noyau N = \overline{e}^{-1}(0) de e; pour tout x = x_1 + x_2 \in E avec x_1 \in M et x_2 \in N, on a x_1 = e(x); 1 - e est un projecteur de E, d’image N et de noyau M.*
 
@@ -770,25 +770,25 @@ la famille $(w_{ki})$ correspond canoniquement à l’application linéaire *com
 
 ### 9. Sous-modules supplémentaires
 
-#### Définition 8 {#alg-ii-s1-def-8 .statement}
+#### Définition 8 {#alg-ii-s1-def-8 .statement tag=05KU}
 
 *Dans un A-module E, on dit que deux sous-modules $M_1, M_2$ sont supplémentaires si E est somme directe de $M_1$ et $M_2$.*
 
 La prop. 11 de II, p. 18 montre que, pour que $M_1$ et $M_2$ soient supplémentaires, il faut et il suffit que $M_1 + M_2 = E$ et $M_1 \cap M_2 = \{0\}$ (cf. I, p. 46, prop. 15).
 
-#### Proposition 13 {#alg-ii-s1-prop-13 .statement}
+#### Proposition 13 {#alg-ii-s1-prop-13 .statement tag=05KV}
 
 Soient $M_1, M_2$ deux sous-modules supplémentaires dans un A-module E. La restriction à $M_1$ de l’application canonique $E \to E/M_2$ est un isomorphisme de $M_1$ sur $E/M_2$.
 
 En effet, cette application linéaire est surjective puisque $M_1 + M_2 = E$, et elle est injective puisque son noyau est l’intersection de $M_1$ et du noyau $M_2$ de $E \to E/M_2$, donc est réduit à 0.
 
-#### Corollaire {#alg-ii-s1-n9-cor-1 .statement}
+#### Corollaire {#alg-ii-s1-n9-cor-1 .statement tag=05KW}
 
 Si $M_2$ et $M'_2$ sont tous deux supplémentaires d’un même sous-module $M_1$ de E, l’ensemble des couples $(x, x') \in M_2 \times M'_2$ tels que $x - x' \in M_1$ est le graphe d’un isomorphisme de $M_2$ sur $M'_2$.
 
 Il est immédiat en effet que c’est le graphe de l’isomorphisme composé $M_2 \to E/M_1 \to M'_2$.
 
-#### Définition 9 {#alg-ii-s1-def-9 .statement}
+#### Définition 9 {#alg-ii-s1-def-9 .statement tag=05KX}
 
 On dit qu’un sous-module M d’un A-module E est facteur direct de E s’il possède un sous-module supplémentaire dans E.
 
@@ -796,13 +796,13 @@ Lorsqu’il en est ainsi, $E/M$ est isomorphe à un supplémentaire de M (prop. 
 
 Un sous-module n’admet pas nécessairement de supplémentaire (II, p. 180, exerc. 11). Lorsqu’un sous-module est facteur direct, il a en général plusieurs supplémentaires distincts ; ces supplémentaires sont toutefois deux à deux canoniquement isomorphes (cor. de la prop. 13).
 
-#### Proposition 14 {#alg-ii-s1-prop-14 .statement}
+#### Proposition 14 {#alg-ii-s1-prop-14 .statement tag=05KY}
 
 Pour qu’un sous-module M d’un module E soit facteur direct, il faut et il suffit qu’il existe un projecteur de E dont l’image soit M, ou un projecteur de E dont le noyau soit M.
 
 Cela résulte immédiatement de II, p. 18–19, prop. 12 et corollaire.
 
-#### Proposition 15 {#alg-ii-s1-prop-15 .statement}
+#### Proposition 15 {#alg-ii-s1-prop-15 .statement tag=05KZ}
 
 Étant donnée une suite exacte de A-modules
 
@@ -826,19 +826,19 @@ On notera que la donnée de r (resp. s) équivaut à la donnée d’un suppléme
 
 Lorsque la suite exacte (33) vérifie les conditions de la prop. 15, on dit qu’elle est scindée ou que (F, f, g) est une extension triviale de G par E (I, p. 63).
 
-#### Corollaire 1 {#alg-ii-s1-prop-15-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s1-prop-15-cor-1 .statement tag=05L0}
 
 Soit u : E → F une application linéaire. Pour qu’il existe une application linéaire v : F → E telle que u ◦ v = 1_F (cas où on dit que u est inversible à droite et que v est inverse à droite de u), il faut et il suffit que u soit surjective et que son noyau soit facteur direct dans E. Le sous-module Im(v) de E est alors supplémentaire de Ker(u).
 
 Il est évidemment nécessaire que u soit surjective; comme v est alors une section associée à u, la conclusion résulte de la prop. 15.
 
-#### Corollaire 2 {#alg-ii-s1-prop-15-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s1-prop-15-cor-2 .statement tag=05L1}
 
 Soit u : E → F une application linéaire. Pour qu’il existe une application linéaire v : F → E telle que v ◦ u = 1_E (cas où on dit que u est inversible à gauche et que v est inverse à gauche de u), il faut et il suffit que u soit injective et que son image soit facteur direct dans F. Le sous-module Ker(v) de F est alors supplémentaire de Im(u).
 
 Il est évidemment nécessaire que u soit injective; comme v est alors une rétraction associée à u, la conclusion résulte encore de la prop. 15.
 
-#### Remarque 1 {#alg-ii-s1-n9-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s1-n9-rem-1 .statement tag=05L2}
 
 Soient M, N deux sous-modules supplémentaires dans un A-module E, p, q les projecteurs de E sur M et N respectivement, correspondant à la décomposition de E en somme directe de M et N. On sait (II, p. 13, cor. 1) que, pour tout A-module F, l’application (u, v) ↦ u ◦ p + v ◦ q est un isomorphisme de
 $$
@@ -846,7 +846,7 @@ $$
 $$
 sur $\operatorname{Hom}_A(E, F)$. L’image de $\operatorname{Hom}_A(M, F)$ par cet isomorphisme est l’ensemble des applications linéaires $w : E \to F$ telles que $w(x) = 0$ pour tout $x \in N$.
 
-#### Remarque 2 {#alg-ii-s1-n9-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s1-n9-rem-2 .statement tag=0DFE}
 
 Si M, N sont deux sous-modules de E tels que $M \cap N$ soit facteur direct de M et de N, alors $M \cap N$ est aussi facteur direct de $M + N$: en effet, si P (resp. Q) est un supplémentaire de $M \cap N$ dans M (resp. N), $M + N$ est somme directe de $M \cap N$, P et Q, comme on le vérifie aussitôt.
 
@@ -854,7 +854,7 @@ Si M, N sont deux sous-modules de E tels que $M \cap N$ soit facteur direct de M
 
 Rappelons (I, p. 36, déf. 7) qu’un A-module M est dit simple s’il n’est pas réduit à 0 et s’il ne contient aucun sous-module distinct de M et de {0}. Un A-module M est dit de longueur finie s’il possède une suite de Jordan-Hölder $(M_i)_{0 \leq i \leq n}$, et le nombre n des quotients de cette suite (qui ne dépend pas de la suite de Jordan-Hölder de M considérée) est alors appelé la longueur de M (I, p. 42, déf. 11); nous le noterons $\operatorname{long}(M)$, ou $\operatorname{long}_A(M)$. Un A-module réduit à 0 est de longueur 0; si M est un A-module de longueur finie non réduit à 0, on a $\operatorname{long}(M) > 0$.
 
-#### Proposition 16 {#alg-ii-s1-prop-16 .statement}
+#### Proposition 16 {#alg-ii-s1-prop-16 .statement tag=05L3}
 
 Soient M un A-module, N un sous-module de M; pour que M soit de longueur finie, il faut et il suffit que N et $M/N$ le soient, et l’on a
 
@@ -862,11 +862,11 @@ Soient M un A-module, N un sous-module de M; pour que M soit de longueur finie, 
 
 La démonstration a été donnée dans I, p. 42, prop. 10.
 
-#### Corollaire 1 {#alg-ii-s1-prop-16-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s1-prop-16-cor-1 .statement tag=05L4}
 
 Soit $M$ un $A$-module de longueur finie; pour qu’un sous-module $N$ de $M$ soit égal à $M$, il faut et il suffit que $\operatorname{long}(N) = \operatorname{long}(M)$.
 
-#### Corollaire 2 {#alg-ii-s1-prop-16-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s1-prop-16-cor-2 .statement tag=05L5}
 
 Soit $u : M \to N$ un homomorphisme de $A$-modules. Si $M$ ou $N$ est de longueur finie, il en est de même de $\operatorname{Im}(u)$. Si $M$ est de longueur finie, il en est de même de $\operatorname{Ker}(u)$ et l’on a
 
@@ -876,7 +876,7 @@ Si $N$ est de longueur finie, il en est de même de $\operatorname{Coker}(u)$ et
 
 (36) $$ \operatorname{long}(\operatorname{Im}(u)) + \operatorname{long}(\operatorname{Coker}(u)) = \operatorname{long}(N). $$
 
-#### Corollaire 3 {#alg-ii-s1-prop-16-cor-3 .statement}
+#### Corollaire 3 {#alg-ii-s1-prop-16-cor-3 .statement tag=05L6}
 
 Soit $(M_i)_{0 \leq i \leq n}$ une famille finie de $A$-modules de longueur finie. S’il existe une suite exacte d’applications linéaires
 
@@ -906,7 +906,7 @@ $$
 
 d’où la relation (38).
 
-#### Corollaire 4 {#alg-ii-s1-prop-16-cor-4 .statement}
+#### Corollaire 4 {#alg-ii-s1-prop-16-cor-4 .statement tag=05L7}
 
 Soient $M$ et $N$ deux sous-modules de longueur finie d’un $A$-module $E$; alors $M + N$ est de longueur finie et l’on a
 
@@ -920,7 +920,7 @@ $$
 
 en tenant compte de ce que $\operatorname{long}(M \oplus N) = \operatorname{long}(M) + \operatorname{long}(N)$ d’après (34).
 
-#### Corollaire 5 {#alg-ii-s1-prop-16-cor-5 .statement}
+#### Corollaire 5 {#alg-ii-s1-prop-16-cor-5 .statement tag=05L8}
 
 Soit $M$ un $A$-module somme d’une famille finie $(N_i)$ de sous-modules de longueur finie. Alors $M$ est de longueur finie et on a
 
@@ -932,7 +932,7 @@ En outre, pour que les deux membres de (40) soient égaux, il faut et il suffit 
 
 En effet, on a vu (II, p. 16, formule (28)) que l’on a une application linéaire surjective canonique $h : \bigoplus_i N_i \to M$; le corollaire résulte donc de (35) (II, p. 22).
 
-#### Corollaire 6 {#alg-ii-s1-prop-16-cor-6 .statement}
+#### Corollaire 6 {#alg-ii-s1-prop-16-cor-6 .statement tag=05L9}
 
 Soient $M$ et $N$ deux sous-modules d’un $A$-module $E$ tels que $E/M$ et $E/N$ soient des modules de longueur finie; alors $E/(M \cap N)$ est de longueur finie et l’on a
 
@@ -952,7 +952,7 @@ $$
 \text{long}((E/M) \oplus (E/N)) = \text{long}(E/M) + \text{long}(E/N).
 $$
 
-#### Corollaire 7 {#alg-ii-s1-prop-16-cor-7 .statement}
+#### Corollaire 7 {#alg-ii-s1-prop-16-cor-7 .statement tag=05LA}
 
 Soit $(M_i)$ une famille finie de sous-modules d’un $A$-module $E$, tels que les $E/M_i$ soient des modules de longueur finie. Alors $E/(\bigcap_i M_i)$ est de longueur finie, et l’on a
 
@@ -962,7 +962,7 @@ $$
 
 En effet, on a vu (II, p. 15, formule (27)) que l’on a une application linéaire injective canonique $E/(\bigcap_i M_i) \to \bigoplus_i (E/M_i)$.
 
-#### Remarque {#alg-ii-s1-n10-rem-1 .statement}
+#### Remarque {#alg-ii-s1-n10-rem-1 .statement tag=05LB}
 
 A l’exception de II, p. 16, prop. 9, tous les résultats des n°s 2 à 10 sont valables pour les groupes commutatifs à opérateurs quelconques, les sous-modules (resp. les modules quotients) étant remplacés dans les énoncés par les sous-groupes stables (resp. par les groupes quotients par des sous-groupes stables); on convient d’appeler encore « applications linéaires » les homomorphismes de groupes à opérateurs. Les corollaires de II, p. 16, prop. 9 sont encore valables pour les groupes commutatifs à opérateurs: c’est évident pour les cor. 4 et 5, ainsi que pour le cor. 2, puisque $\alpha \left( \sum_{i \in I} x_i \right) = \sum_{i \in I} \alpha x_i$ pour tout opérateur $\alpha$, et le cor. 3 s’en déduit. Quant au cor. 1, il suffit de remarquer que si $N$ est un sous-groupe stable de $F$ contenant $u(S)$, $\bar{u}^1(N)$ est un sous-groupe stable de $E$ contenant $S$, donc $\bar{u}^1(N)$ contient $M$ et par suite $u(M) \subset N$.
 
@@ -970,7 +970,7 @@ A l’exception de II, p. 16, prop. 9, tous les résultats des n°s 2 à 10 sont
 
 Soient $A$ un anneau, $T$ un ensemble, et considérons le $A$-module $A_s^{(T)}$. Par définition, c’est la somme directe externe d’une famille $(M_t)_{t \in T}$ de $A$-modules tous égaux à $A_s$ et pour tout $t \in T$ on a une injection canonique $j_t : A_s \to A_s^{(T)}$ (II, p. 12). Posons $j_t(1) = e_t$, de sorte que $e_t = (\delta_{tt'})_{t' \in T}$, où $\delta_{tt'}$ est égal à 0 si $t' \neq t$, à 1 si $t' = t$ (« symbole de Kronecker »; $(t, t') \mapsto \delta_{tt'}$ n’est autre que la fonction caractéristique de la diagonale de $T \times T$); tout $x = (\xi_t)_{t \in T} \in A_s^{(T)}$ s’écrit donc d’une seule manière: $x = \sum_{t \in T} \xi_t e_t$. L’application $\varphi : t \mapsto e_t$ de $T$ dans $A_s^{(T)}$ est dite canonique; elle est injective si $A$ n’est pas réduit à 0. Nous allons voir que le couple $(A_s^{(T)}, \varphi)$ est solution d’un problème d’application universelle (E, IV, p. 22).
 
-#### Proposition 17 {#alg-ii-s1-prop-17 .statement}
+#### Proposition 17 {#alg-ii-s1-prop-17 .statement tag=05LC}
 
 Pour tout $A$-module $E$ et toute application $f : T \to E$ il existe une application $A$-linéaire et une seule $g : A_s^{(T)} \to E$ telle que $f = g \circ \varphi$.
 
@@ -990,7 +990,7 @@ $$
 
 est déterminée par la famille $(f(t))_{t \in T}$.
 
-#### Corollaire 1 {#alg-ii-s1-prop-17-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s1-prop-17-cor-1 .statement tag=05LD}
 
 Soient $T, T'$ deux ensembles, $g : T \to T'$ une application. Il existe alors une application $A$-linéaire $f : A^{(T)} \to A^{(T')}$ et une seule rendant commutatif le diagramme
 
@@ -1006,13 +1006,13 @@ où $\varphi$ et $\varphi'$ sont les applications canoniques.
 
 Il suffit d’appliquer la prop. 17 à l’application composée $T \xrightarrow{g} T' \xrightarrow{\varphi'} A^{(T')}$.
 
-#### Corollaire 2 {#alg-ii-s1-prop-17-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s1-prop-17-cor-2 .statement tag=05LE}
 
 Pour qu’une famille $(a_t)_{t \in T}$ d’éléments d’un $A$-module $E$ soit un système générateur de E, il faut et il suffit que l’application linéaire $A_s^{(T)} \to E$ déterminée par cette famille soit surjective.
 
 Ce n’est qu’une autre manière d’exprimer la prop. 9 de II, p. 16.
 
-#### Définition 10 {#alg-ii-s1-def-10 .statement}
+#### Définition 10 {#alg-ii-s1-def-10 .statement tag=05LF}
 
 On dit qu’une famille $(a_t)_{t \in T}$ d’éléments d’un A-module E est une famille libre (resp. est une base de E) si l’application linéaire $A_s^{(T)} \to E$ déterminée par cette famille est injective (resp. bijective). On dit qu’un module est libre s’il possède une base.
 
@@ -1024,7 +1024,7 @@ Par définition, le A-module $A_s^{(T)}$ est libre et la famille $(e_t)_{t \in T
 
 La définition 10 et la prop. 17 donnent aussitôt le résultat suivant:
 
-#### Corollaire 3 {#alg-ii-s1-def-10-cor-3 .statement}
+#### Corollaire 3 {#alg-ii-s1-def-10-cor-3 .statement tag=05LG}
 
 Soient E un A-module libre, $(a_t)_{t \in T}$ une base de E, F un A-module, $(b_t)_{t \in T}$ une famille d’éléments de F. Il existe une application linéaire $f : E \to F$ et une seule telle que l’on ait
 
@@ -1044,7 +1044,7 @@ Si une partie de E n’est pas libre, on dit qu’elle est liée, ou est un syst
 
 Toute partie d’une partie libre de E est libre; en particulier la partie vide est libre et est une base du sous-module {0} de E.
 
-#### Proposition 18 {#alg-ii-s1-prop-18 .statement}
+#### Proposition 18 {#alg-ii-s1-prop-18 .statement tag=05LH}
 
 Pour qu’une famille $(a_t)_{t \in T}$ d’éléments d’un module E soit libre, il faut et il suffit que toute sous-famille finie de $(a_t)_{t \in T}$ soit libre.
 
@@ -1052,7 +1052,7 @@ Cela résulte aussitôt de la définition.
 
 La prop. 18 montre que l’ensemble des parties libres de E, ordonné par inclusion, est inductif (E, III, p. 20); comme il n’est pas vide (puisque $\varnothing$ lui appartient), il possède un élément maximal $(a_i)_{i \in I}$ en vertu du th. de Zorn. On en déduit (si $A \neq \{0\}$) que pour tout $x \in E$, il existe un élément $\mu \neq 0$ de A et une famille $(\xi_i)$ d’éléments de A tels que $\mu x = \sum_i \xi_i a_i$ (cf. II, p. 95–96).
 
-#### Proposition 19 {#alg-ii-s1-prop-19 .statement}
+#### Proposition 19 {#alg-ii-s1-prop-19 .statement tag=05LI}
 
 Soit E un A-module, somme directe d’une famille $(M_\lambda)_{\lambda \in L}$ de sous-modules. Si, pour chaque $\lambda \in L$, $S_\lambda$ est une partie libre (resp. un ensemble générateur, une base) de $M_\lambda$, alors $S = \bigcup_{\lambda \in L} S_\lambda$ est une partie libre (resp. un ensemble générateur, une base) de E.
 
@@ -1062,19 +1062,19 @@ Remarque 1). — D’après la déf. 10 (II, p. 25), si $A \neq \{0\}$ et si $(a
 
 On dit qu’un élément $x$ d’un module E est libre si $\{x\}$ est une partie libre, c’est-à-dire si la relation $\alpha x = 0$ entraîne $\alpha = 0$. Tout élément d’une partie libre est libre, et en particulier 0 ne peut appartenir à aucune partie libre lorsque $A \neq \{0\}$.
 
-#### Remarque 2 {#alg-ii-s1-n11-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s1-n11-rem-2 .statement tag=05LK}
 
 Un module libre peut avoir des éléments $\neq 0$ qui ne sont pas libres: par exemple, le A-module $A_s$ est libre mais les diviseurs de zéro à droite dans A ne sont pas des éléments libres de $A_s$.
 
-#### Remarque 3 {#alg-ii-s1-n11-rem-3 .statement}
+#### Remarque 3 {#alg-ii-s1-n11-rem-3 .statement tag=05LN}
 
 Dans le groupe additif $\mathbf{Z}/(n)$ ($n$ entier $\geqslant 2$) considéré comme $\mathbf{Z}$-module, aucun élément n’est libre, et $a$ fortiori $\mathbf{Z}/(n)$ n’est pas un module libre.
 
-#### Remarque 4 {#alg-ii-s1-n11-rem-4 .statement}
+#### Remarque 4 {#alg-ii-s1-n11-rem-4 .statement tag=0DFF}
 
 Il peut se faire que tout élément $\neq 0$ d’un A-module soit libre, sans que ce module soit libre. Par exemple, le corps $\mathbf{Q}$ des nombres rationnels est un $\mathbf{Z}$-module qui possède cette propriété, car deux éléments $\neq 0$ de $\mathbf{Q}$ forment toujours un système lié, et une base de $\mathbf{Q}$ ne pourrait donc comporter qu’un seul élément $a$; mais les éléments de $\mathbf{Q}$ ne sont pas tous de la forme $na$, avec $n \in \mathbf{Z}$ (cf. VII, § 3).
 
-#### Proposition 20 {#alg-ii-s1-prop-20 .statement}
+#### Proposition 20 {#alg-ii-s1-prop-20 .statement tag=05LL}
 
 *Tout A-module E est isomorphe à un module quotient d’un A-module libre.*
 
@@ -1090,7 +1090,7 @@ $$
 
 On notera que si $A \neq \{0\}$, toute base d’un module libre *de type fini* E est nécessairement *finie*, car si S est un système générateur fini et B une base de E, chaque élément de S est combinaison linéaire d’un nombre fini d’éléments de B, et si B’ est l’ensemble de tous les éléments de B qui figurent ainsi dans l’expression des éléments de S, B’ est fini et tout $x \in E$ est combinaison linéaire d’éléments de B’, donc $B' = B$.
 
-#### Proposition 21 {#alg-ii-s1-prop-21 .statement}
+#### Proposition 21 {#alg-ii-s1-prop-21 .statement tag=05LM}
 
 *Toute suite exacte de A-modules*
 
@@ -1114,7 +1114,7 @@ on voit que $(b_i)_{1 \leq i \leq n}$ est un système générateur de E, ce qui 
 
 ### 12. Annulateurs. Modules fidèles. Modules monogènes
 
-#### Définition 11 {#alg-ii-s1-def-11 .statement}
+#### Définition 11 {#alg-ii-s1-def-11 .statement tag=05LO}
 
 On appelle annulateur d’une partie S d’un A-module E l’ensemble des éléments $\alpha \in A$ tels que $\alpha x = 0$ pour tout $x \in S$.
 
@@ -1130,25 +1130,25 @@ Pour tout $\alpha \in A$, soit $h_\alpha$ l’homothétie $x \mapsto \alpha x$; 
 
 Soient E un A-module quelconque, $a$ un idéal bilatère de A contenu dans Ann(E), et soit $\dot{\alpha}$ un élément de l’anneau quotient $A/a$; pour tout $x \in E$, l’élément $\alpha x$ est le même pour tous les $\alpha \in A$ appartenant à la classe $\dot{\alpha}$ mod. $a$; si on désigne cet élément par $\dot{\alpha} x$, on voit aussitôt que l’application $(\dot{\alpha}, x) \mapsto \dot{\alpha} x$ définit (avec l’addition dans E) une structure de $(A/a)$-module sur E. Lorsqu’on prend $a = \mathrm{Ann}(E)$, le $(A/a)$-module E ainsi défini est fidèle; nous dirons que c’est le module fidèle associé au A-module E. On observera que tout sous-module d’un A-module E est aussi un sous-module du module fidèle associé, et réciproquement.
 
-#### Définition 12 {#alg-ii-s1-def-12 .statement}
+#### Définition 12 {#alg-ii-s1-def-12 .statement tag=05LP}
 
 On dit qu’un module est monogène s’il est engendré par un seul élément.
 
 La prop. 9 de II, p. 16 montre que, si E est un A-module monogène, et si $a$ est un élément engendrant E, E est identique à l’ensemble $A.a$ des $\xi a$, où $\xi$ parcourt A.
 
-#### Exemple 1 {#alg-ii-s1-n12-exa-1 .statement}
+#### Exemple 1 {#alg-ii-s1-n12-exa-1 .statement tag=05LQ}
 
 Tout groupe monogène étant commutatif (I, p. 47, prop. 18) est un $\mathbf{Z}$-module monogène.
 
-#### Exemple 2 {#alg-ii-s1-n12-exa-2 .statement}
+#### Exemple 2 {#alg-ii-s1-n12-exa-2 .statement tag=0DFG}
 
 Si $A$ est un anneau commutatif, les sous-modules monogènes du $A$-module $A$ ne sont autres que les *idéaux principaux* (I, p. 99) de l’anneau $A$.
 
-#### Exemple 3 {#alg-ii-s1-n12-exa-3 .statement}
+#### Exemple 3 {#alg-ii-s1-n12-exa-3 .statement tag=0DFH}
 
 Tout $A$-module *simple* $E$ est monogène, puisque le sous-module de $E$ engendré par un élément $\neq 0$ de $E$ est nécessairement égal à $E$.
 
-#### Proposition 22 {#alg-ii-s1-prop-22 .statement}
+#### Proposition 22 {#alg-ii-s1-prop-22 .statement tag=05LR}
 
 *Soit $A$ un anneau. Tout module quotient de $A_s$ est monogène. Inversement, soient $E$ un $A$-module monogène, $c$ un générateur de $E$, et $a$ son annulateur; l’application linéaire $\xi \mapsto \xi c$ définit, par passage au quotient, un isomorphisme de $A_s/a$ sur $E$.*
 
@@ -1156,7 +1156,7 @@ Comme $A_s$ est lui-même monogène, étant engendré par 1, la première assert
 
 On notera que si $A$ n’est pas commutatif, les annulateurs de deux générateurs distincts $c, c'$ d’un $A$-module monogène $E$ sont en général *distincts*, et sont aussi distincts de l’annulateur du module $E$. Au contraire, si $A$ est *commutatif*, l’annulateur d’un générateur $c$ de $E$ est contenu dans l’annulateur de tout élément de $E$, donc est l’annulateur de $E$ tout entier.
 
-#### Corollaire {#alg-ii-s1-n12-cor-1 .statement}
+#### Corollaire {#alg-ii-s1-n12-cor-1 .statement tag=05LS}
 
 *Tout sous-module d’un $A$-module monogène $E$ est isomorphe à un module quotient $b/a$, où $a$ et $b$ sont deux idéaux à gauche de $A$ tels que $a \subset b$. Tout module quotient d’un $A$-module monogène est monogène.*
 
@@ -1166,19 +1166,19 @@ On notera par contre qu’un sous-module d’un module monogène n’est pas né
 
 Il résulte des définitions que le sous-module d’un $A$-module $E$ engendré par une famille $(a_i)$ d’éléments de $E$ est la *somme* des sous-modules monogènes $Aa_i$ de $E$; pour que $(a_i)$ soit une *base* de $E$, il faut et il suffit que chacun des $a_i$ soit un élément *libre* de $E$ et que la somme des $Aa_i$ soit *directe*.
 
-#### Proposition 23 {#alg-ii-s1-prop-23 .statement}
+#### Proposition 23 {#alg-ii-s1-prop-23 .statement tag=05LT}
 
 *Soit $E$ un $A$-module, somme directe d’une famille infinie $(M_i)_{i \in I}$ de sous-modules non réduits à 0. Pour tout système générateur $S$ de $E$, on a $\mathrm{Card}(S) \geqslant \mathrm{Card}(I)$.*
 
 Pour $x \in S$, soit $C_x$ l’ensemble fini des indices $i \in I$ tels que le composant de $x$ dans $M_i$ soit $\neq 0$, et posons $C = \bigcup_{x \in S} C_x$. Tout $x \in S$ appartient par définition au sous-module de $E$ somme directe des $M_i$ pour $i \in C$, et l’hypothèse que $S$ engendre $E$ entraîne donc $C = I$; comme $I$ est infini par hypothèse, il en est de même de $S$ (E, III, p. 36, cor. 1); on a par suite $\mathrm{Card}(I) = \mathrm{Card}(C) \leqslant \mathrm{Card}(S)$ (E, III, p. 49, cor. 3).
 
-#### Corollaire 1 {#alg-ii-s1-prop-23-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s1-prop-23-cor-1 .statement tag=05LU}
 
 *Les hypothèses étant celles de la prop. 23, supposons que chaque $M_i$ soit monogène, et que $E$ soit somme directe d’une seconde famille $(N_\lambda)_{\lambda \in L}$ de sous-modules monogènes non réduits à 0. Alors, on a $\mathrm{Card}(L) = \mathrm{Card}(I)$.*
 
 En effet, si $b_\lambda$ est un générateur de $N_\lambda$, l’ensemble des $b_\lambda$ est un système générateur de $E$, donc $\mathrm{Card}(L) \geqslant \mathrm{Card}(I)$. En particulier $L$ est infini, et en échangeant les rôles de $(M_i)$ et de $(N_\lambda)$, on a de même $\mathrm{Card}(I) \geqslant \mathrm{Card}(L)$, d’où le corollaire.
 
-#### Corollaire 2 {#alg-ii-s1-prop-23-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s1-prop-23-cor-2 .statement tag=05LV}
 
 *Si un module $E$ admet une base infinie $B$, tout système générateur de $E$ a un cardinal $\geqslant \mathrm{Card}(B)$, et toute base de $E$ est équipotente à $B$.*
 
@@ -1200,7 +1200,7 @@ Il est immédiat que pour toute famille $(E_t)_{t \in I}$ de $A$-modules, le $B$
 
 Tout système générateur de $\rho_*(E)$ est un système générateur de $E$, la réciproque n’étant pas nécessairement vraie.
 
-#### Proposition 24 {#alg-ii-s1-prop-24 .statement}
+#### Proposition 24 {#alg-ii-s1-prop-24 .statement tag=05LW}
 
 *Soient $A, B$ deux anneaux, $\rho : B \to A$ un homomorphisme d’anneaux.*
 
@@ -1214,23 +1214,23 @@ On notera que même si $\rho$ est injectif, une famille libre dans $\rho_*(E)$ n
 
 \* Par exemple, 1 et $\sqrt{2}$ ne forment pas un système libre dans $\mathbf{R}$ considéré comme $\mathbf{R}$-espace vectoriel, bien qu’ils forment un système libre dans $\mathbf{R}$ considéré comme $\mathbf{Q}$-espace vectoriel (cf. Remarque 1).*
 
-#### Proposition 25 {#alg-ii-s1-prop-25 .statement}
+#### Proposition 25 {#alg-ii-s1-prop-25 .statement tag=05LX}
 
 *Soient $A, B$ deux anneaux, $\varphi : B \to A$ un homomorphisme d’anneaux, $E$ un $A$-module. Soit $(\alpha_\lambda)_{\lambda \in L}$ un système générateur (resp. une famille libre d’éléments, une base) de $A$ considéré comme $B$-module à gauche. Soit $(a_\mu)_{\mu \in M}$ un système générateur (resp. une famille libre d’éléments, une base) du $A$-module $E$. Alors $(\alpha_\lambda a_\mu)_{(\lambda, \mu) \in L \times M}$ est un système générateur (resp. (lorsque $\varphi$ est injectif) une famille libre d’éléments, une base) du $B$-module $\rho_*(E)$.*
 
 En effet, si $x = \sum_{\mu \in M} \gamma_\mu a_\mu$, où $\gamma_\mu \in A$, et si $(\alpha_\lambda)$ est un système générateur de $A$, on peut écrire $\gamma_\mu = \sum_{\lambda \in L} \rho(\beta_{\lambda \mu}) \alpha_\lambda$, avec $\beta_{\lambda \mu} \in B$, pour tout $\mu \in M$, d’où $x = \sum_{\mu, \lambda} \rho(\beta_{\lambda \mu}) \alpha_\lambda a_\mu$. D’autre part, si $(\alpha_\lambda)$ et $(a_\mu)$ sont des familles libres, une relation $\sum_{\lambda, \mu} \rho(\beta_{\lambda \mu}) \alpha_\lambda a_\mu = 0$, avec $\beta_{\lambda \mu} \in B$, s’écrit $\sum_{\mu \in M} \left( \sum_{\lambda \in L} \rho(\beta_{\lambda \mu}) \alpha_\lambda \right) a_\mu = 0$; elle entraîne donc $\sum_{\lambda \in L} \rho(\beta_{\lambda \mu}) \alpha_\lambda = 0$ pour tout $\mu \in M$, et par suite $\beta_{\lambda \mu} = 0$ quels que soient $\lambda, \mu$ si $\rho$ est injectif.
 
-#### Corollaire {#alg-ii-s1-n13-cor-1 .statement}
+#### Corollaire {#alg-ii-s1-n13-cor-1 .statement tag=05LY}
 
 *Si $A$ est un $B$-module à gauche de type fini et $E$ un $A$-module à gauche de type fini, $\rho_*(E)$ est un $B$-module à gauche de type fini.*
 
 Soient $C$ un troisième anneau, $\rho' : C \to B$ un homomorphisme d’anneau, $\rho'' = \rho \circ \rho'$ l’homomorphisme composé. Il résulte aussitôt des définitions que l’on a $\rho''_*(E) = \rho'_*(\rho_*(E))$ pour tout $A$-module $E$. En particulier si $\rho$ est un *isomorphisme* de $B$ sur $A$, on a $E = \rho'_*(\rho_*(E))$, en désignant par $\rho'$ l’isomorphisme réciproque de $\rho$.
 
-#### Remarque 1 {#alg-ii-s1-n13-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s1-n13-rem-1 .statement tag=05LZ}
 
 Soient $K$ un corps, $A$ un sous-anneau de $K$ ayant la propriété suivante: pour toute famille finie $(\xi_i)_{1 \leq i \leq n}$ d’éléments de $K$, il existe un $\gamma \in A$, non nul et tel que $\gamma \xi_i \in A$ pour $1 \leq i \leq n$ (hypothèse toujours vérifiée lorsque $A$ est *commutatif* et $K$ le corps des fractions de $A$). Soient $E$ un espace vectoriel sur $K$, $E_{[A]}$ le $A$-module obtenu par restriction à $A$ de l’anneau des scalaires. Alors, si une famille $(x_\lambda)_{\lambda \in L}$ est *libre dans* $E_{[A]}$, elle est aussi *libre dans* $E$. On peut en effet se borner au cas où $L = \{1, n\}$; si on avait une relation $\sum_{i=1}^n \xi_i x_i = 0$ avec $\xi_i \in K$, $\xi_i$ non tous nuls, on en déduirait, pour tout $\beta \in A$, $\sum_{i=1}^n (\beta \xi_i) x_i = 0$. Par hypothèse on peut trouver $\beta \neq 0$ dans $A$ tel que $\beta \xi_i = \alpha_i$ appartienne à $A$ pour tout $i$; mais la relation $\sum_{i=1}^n \alpha_i x_i = 0$ est contraire à l’hypothèse, les $\alpha_i$ n’étant pas tous nuls.
 
-#### Remarque 2 {#alg-ii-s1-n13-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s1-n13-rem-2 .statement tag=0DFI}
 
 Si l’homomorphisme d’anneaux $\rho : B \to A$ est surjectif, et si $b$ est son noyau (de sorte que $A$ s’identifie canoniquement à $B/b$), alors, pour tout $A$-module $E$, $b$ est contenu dans l’annulateur de $\rho_*(E)$, et $E$ est le $A$-module déduit de $\rho_*(E)$ par le procédé défini dans II, p. 28.
 
@@ -1247,7 +1247,7 @@ L’ensemble $\mathrm{Hom}_B(F, \rho_*(E))$ des applications $B$-linéaires de $
 
 Lorsque $\rho$ est un *isomorphisme* de $B$ sur $A$, la relation $u(\beta x) = \rho(\beta)u(x)$ pour tout $\beta \in B$ s’écrit aussi $u(\rho'(\alpha)x) = \alpha u(x)$ pour tout $\alpha \in A$, en désignant par $\rho'$ l’isomorphisme réciproque de $\rho$; dire que $u$ est semi-linéaire pour $\rho$ équivaut alors à dire que $u$ est une application $A$-linéaire de $\rho'_*(F)$ *dans* $E$.
 
-#### Exemple {#alg-ii-s1-n13-exa-1 .statement}
+#### Exemple {#alg-ii-s1-n13-exa-1 .statement tag=05M0}
 
 On a vu (II, p. 2) qu’une homothétie $h_\alpha : x \mapsto \alpha x$ dans un $A$-module $E$ n’est pas nécessairement une application linéaire. Mais si $\alpha$ est *inversible*, $h_\alpha$ est une application *semi-linéaire* (d’ailleurs bijective) relative à l’automorphisme intérieur $\xi \mapsto \alpha \xi \alpha^{-1}$ de $A$, car on a $\alpha (\lambda x) = (\alpha \lambda \alpha^{-1})(\alpha x)$.
 
@@ -1262,7 +1262,7 @@ On voit donc que pour l’espèce de structure définie par la donnée sur un co
 Soient $A$, $B$ deux anneaux, et considérons sur un ensemble $E$ deux structures de module à gauche ayant la même loi additive, et dont les anneaux d’opérateurs sont respectivement $A$ et $B$; soit $\mathscr{E}$ l’anneau des endomorphismes du groupe additif $E$, et pour tout $\alpha \in A$ (resp. $\beta \in B$) désignons par $h_\alpha$ (resp. $h'_\beta$) l’élément $x \mapsto \alpha x$ (resp. $x \mapsto \beta x$) de $\mathscr{E}$. Il est clair que les trois propriétés suivantes sont équivalentes :
 a) $h_\alpha \circ h'_\beta = h'_\beta \circ h_\alpha$ quels que soient $\alpha$ et $\beta$; b) l’image de $A$ par l’homomorphisme $\alpha \mapsto h_\alpha$ est contenue dans $\mathrm{Hom}_B(E, E)$; c) l’image de $B$ par l’homomorphisme $\beta \mapsto h'_\beta$ est contenue dans $\mathrm{Hom}_A(E, E)$. Lorsque la structure de $A$-module (resp. de $B$-module) considérée est une structure de module à droite, il faut remplacer dans b) (resp. c)) l’anneau $A$ par $A^0$ (resp. $B^0$). On exprime les propriétés précédentes en disant que les deux structures de module (à droite ou à gauche) définies sur $E$ sont compatibles.
 
-#### Définition 13 {#alg-ii-s1-def-13 .statement}
+#### Définition 13 {#alg-ii-s1-def-13 .statement tag=05M1}
 
 Soient $(A_\lambda)_{\lambda \in L}$, $(B_\mu)_{\mu \in M}$ deux familles d’anneaux; on appelle $((A_\lambda), (B_\mu))$-multimodule (ou multimodule sur les familles d’anneaux $(A_\lambda)_{\lambda \in L}$, $(B_\mu)_{\mu \in M}$) un ensemble $E$ muni, pour chaque $\lambda \in L$, d’une structure de $A_\lambda$-module à gauche, et pour chaque $\mu \in M$ d’une structure de $B_\mu$-module à droite, toutes ces structures de module étant deux à deux compatibles.
 
@@ -1276,11 +1276,11 @@ On dit alors aussi que $E$ est un $(A, B)$-bimodule.
 
 On dit que deux structures de multimodule sur un ensemble $E$ sont compatibles si toutes les structures de module sur $E$ qui définissent l’une ou l’autre de ces structures de multimodule sont deux à deux compatibles.
 
-#### Exemple 1 {#alg-ii-s1-n14-exa-1 .statement}
+#### Exemple 1 {#alg-ii-s1-n14-exa-1 .statement tag=05M2}
 
 Sur un anneau A, les structures de module de $A_s$ et $A_d$ sont compatibles, et A peut donc être canoniquement considéré comme un $(A, A)$-bimodule.
 
-#### Exemple 2 {#alg-ii-s1-n14-exa-2 .statement}
+#### Exemple 2 {#alg-ii-s1-n14-exa-2 .statement tag=0DFJ}
 
 Un A-module à gauche E est canoniquement muni d’une structure de module à gauche sur l’anneau $\mathrm{End}_A(E)$, et sur E la structure de A-module et celle de $\mathrm{End}_A(E)$-module sont compatibles.
 
@@ -1302,11 +1302,11 @@ $$
 
 est défini comme dans II, p. 6 et est un homomorphisme de *multimodules*.
 
-#### Remarque 1 {#alg-ii-s1-n14-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s1-n14-rem-1 .statement tag=05M3}
 
 Soient F un A-module, C le *centre* de l’anneau A; comme les homothéties centrales permutent à toutes les homothéties, F est muni d’une structure de *bimodule* dont les anneaux d’opérateurs à gauche sont A et C. Si E est un second A-module, $\mathrm{Hom}_A(E, F)$ est donc muni canoniquement d’une structure de C-*module* (où, pour $f \in \mathrm{Hom}_A(E, F)$ et $\gamma \in C$, $\gamma f$ est l’homomorphisme $x \mapsto \gamma f(x)$); si E’, F’ sont deux A-modules, $u : E' \to E, v : F \to F'$ deux A-homomorphismes, l’application $\mathrm{Hom}(u, v)$ est C-*linéaire*.
 
-#### Remarque 2 {#alg-ii-s1-n14-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s1-n14-rem-2 .statement tag=0DFK}
 
 Soit E un A-module à gauche; comme A est canoniquement muni d’une structure de (A, A)-bimodule, il en est de même de la somme directe $A^{(T)}$ pour tout ensemble d’indices T; d’après ce qui précède, $\mathrm{Hom}_A(A_s^{(T)}, E)$ est canoniquement muni d’une structure de A-*module à gauche* provenant de la structure de A-module *à droite* de $A_s^{(T)}$: pour $f \in \mathrm{Hom}_A(A_s^{(T)}, E)$ et $\alpha \in A$, $\alpha f$ est l’application linéaire $x \mapsto f(x \alpha)$. Le cor. 2 de II, p. 24 définit une application canonique $j_{E, T}$ du module produit $E^T$ dans $\mathrm{Hom}_A(A_s^{(T)}, E)$, l’image par $j_{E, T}$ d’une famille $(x_t)_{t \in T}$ étant l’application linéaire $f : A_s^{(T)} \to E$ telle que $f(e_t) = x_t$ pour tout $t \in T$ (où $(e_t)$ est la base canonique de $A_s^{(T)}$); on sait (*loc. cit.*) que $j_{E, T}$ est *bijective* et il résulte de la définition donnée ci-dessus de la structure de A-module de $\mathrm{Hom}_A(A_s^{(T)}, E)$ que $j_{E, T}$ est A-*linéaire*. Enfin, si $u : E \to F$ est un homomorphisme de A-modules, le diagramme
 

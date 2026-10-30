@@ -32,7 +32,7 @@ subsections:
       pdf_page: 197
 statements: 38
 exercises: 25
-content_sha256: e26a0b06ed407bc263caf452d0124f6aa0fd27faeaff7e87f38c01cc71f61e72
+content_sha256: ee416205d56708403ff00230a46523208be3654de4ca643c01ec7bb07b298e43
 ---
 
 ## § 1. DUALITÉ
@@ -54,13 +54,13 @@ $$
 
 pour $x \in E,\ y \in F$.
 
-#### Définition 1 {#evt-iv-s1-def-1 .statement}
+#### Définition 1 {#evt-iv-s1-def-1 .statement tag=07QI}
 
 On dit qu’une topologie localement convexe $\mathscr{T}$ sur E est compatible avec la dualité entre E et F si $d_B$ est une bijection de F sur le dual de l’espace localement convexe obtenu en munissant E de $\mathscr{T}$.
 
 S’il existe une telle topologie $\mathscr{T}$, l’application $d_B$ est injective, c’est-à-dire que la dualité entre E et F est séparante en F (II, p. 44).
 
-#### Proposition 1 {#evt-iv-s1-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s1-prop-1 .statement tag=07QJ}
 
 (i) Les parties convexes fermées dans E sont les mêmes pour toutes les topologies localement convexes sur E compatibles avec la dualité entre E et F.
 
@@ -76,7 +76,7 @@ $$
 
 où $A$ parcourt $\mathscr{S}$. En particulier, lorsque $\mathscr{S}$ est l’ensemble des parties finies de $F$, la $\mathscr{S}\text{-topologie}$ n’est autre que la topologie faible $\sigma(E, F)$.
 
-#### Définition 2 {#evt-iv-s1-def-2 .statement}
+#### Définition 2 {#evt-iv-s1-def-2 .statement tag=07QK}
 
 *Soient* $E$ et $F$ *deux espaces en dualité*. *On appelle topologie de Mackey sur* $E$, *et l’on note* $\tau(E, F)$, *la* $\mathscr{S}\text{-topologie sur } E$, *où* $\mathscr{S}$ *est l’ensemble des parties de* $F$ *dont l’image dans* $E^*$ *(par* $d_B$) *est convexe, équilibrée et compacte pour* $\sigma(E^*, E)$.
 
@@ -91,7 +91,7 @@ On en déduit en particulier que, lorsque la dualité entre $E$ et $F$ est sépa
 
 On définit de manière analogue la topologie de Mackey $\tau(F, E)$ sur $F$.
 
-#### Théorème 1 (Mackey) {#evt-iv-s1-thm-1 .statement}
+#### Théorème 1 (Mackey) {#evt-iv-s1-thm-1 .statement tag=07QM}
 
 *Soient* $E$ et $F$ *deux espaces en dualité* ; *on suppose la dualité séparante en* $F$. *Pour qu’une topologie localement convexe* $\mathscr{T}$ *sur* $E$ *soit compatible avec la dualité entre* $E$ *et* $F$, *il faut et il suffit que* $\mathscr{T}$ *soit plus fine que la topologie* $\sigma(E, F)$ *et moins fine que la topologie de Mackey* $\tau(E, F)$.
 
@@ -103,7 +103,7 @@ Tout élément de F est une application continue pour $\sigma(E, F)$, donc pour 
 
 Réciproquement, soit $f \in E^*$ continue pour $\tau(E, F)$. Il existe un voisinage U de 0 dans E (pour $\tau(E, F)$), tel que $|f| \leq 1$ sur U ; on peut supposer qu’il existe un ensemble $A \in \mathscr{S}_0$ tel que $U = A^\circ$. Autrement dit, $f$ appartient au bipolaire $A^{\circ\circ}$ de A pour la dualité entre $E^*$ et E. Or la topologie $\sigma(F, E)$ sur F est induite par $\sigma(E^*, E)$; par suite, A est convexe, équilibré et compact pour $\sigma(E^*, E)$, et le th. des bipolaires (II, p. 48, th. 1) entraîne l’égalité $A = A^{\circ\circ}$. On a donc $f \in F$, d’où le lemme 1.
 
-#### Lemme 2 {#evt-iv-s1-lem-2 .statement}
+#### Lemme 2 {#evt-iv-s1-lem-2 .statement tag=07QO}
 
 Soit $\mathscr{T}$ une topologie localement convexe sur E telle que toute forme linéaire sur E continue pour $\mathscr{T}$ appartienne à F. Alors $\mathscr{T}$ est moins fine que $\tau(E, F)$.
 
@@ -111,7 +111,7 @@ Soit $\mathscr{U}$ l’ensemble des voisinages convexes et équilibrés de 0 pou
 
 Soit $\mathscr{T}$ une topologie sur E compatible avec la dualité entre E et F. Alors $\mathscr{T}$ est moins fine que $\tau(E, F)$ d’après le lemme 2, et il est évident que $\mathscr{T}$ est plus fine que $\sigma(E, F)$. Réciproquement, F est le dual de E pour la topologie $\tau(E, F)$ (lemme 1) et pour la topologie $\sigma(E, F)$ (II, p. 46, prop. 3), donc aussi pour toute topologie intermédiaire entre $\tau(E, F)$ et $\sigma(E, F)$.
 
-#### Corollaire {#evt-iv-s1-n1-cor-1 .statement}
+#### Corollaire {#evt-iv-s1-n1-cor-1 .statement tag=07QP}
 
 Soit p une semi-norme sur E. Les conditions suivantes sont équivalentes :
 
@@ -122,7 +122,7 @@ Soit p une semi-norme sur E. Les conditions suivantes sont équivalentes :
 
 (ii) $\Rightarrow$ (i) : soit $\mathscr{T}$ la topologie sur E définie par la semi-norme $p$. Si la condition (ii) est satisfaite, les formes linéaires sur E continues pour $\mathscr{T}$ appartiennent à F. D’après le lemme 2, $\mathscr{T}$ est moins fine que $\tau(E, F)$, donc $p$ est continue pour $\tau(E, F)$.
 
-#### Remarque 2 {#evt-iv-s1-n1-rem-2 .statement}
+#### Remarque 2 {#evt-iv-s1-n1-rem-2 .statement tag=07QQ}
 
 \* Soient K une partie convexe de F compacte pour la topologie faible $\sigma(F, E)$ et $\mu$ une mesure positive sur K. Posons
 
@@ -132,25 +132,25 @@ $$
 
 pour tout $x \in E$. Il est immédiat que $p$ est une semi-norme. De plus, pour tout $x \in E$, la relation « $|\mathbf{B}(x, y)| \leq 1$ pour tout $y \in K$ » entraîne $p(x) \leq \mu(K)$. Ceci prouve que la semi-norme $p$ sur E est continue pour la topologie de Mackey $\tau(E, F)$. \*
 
-#### Exemple {#evt-iv-s1-n1-exa-1 .statement}
+#### Exemple {#evt-iv-s1-n1-exa-1 .statement tag=07QR}
 
 Soient G un espace localement convexe et $G'$ son dual. Sur $G'$, la topologie faible $\sigma(G', G)$ et la topologie de la convergence convexe compacte (III, p. 14) sont compatibles avec la dualité entre G' et G. En général, la topologie forte et la topologie de la convergence compacte sur G' ne sont pas compatibles avec la dualité entre G' et G. Rappelons cependant que lorsque G est séparé et quasi-complet, la topologie de la convergence compacte sur G' coïncide avec celle de la convergence convexe compacte (III, p. 8), donc est compatible avec la dualité entre G' et G.
 
-#### Définition 3 {#evt-iv-s1-def-3 .statement}
+#### Définition 3 {#evt-iv-s1-def-3 .statement tag=07QS}
 
 Soient E et F deux espaces vectoriels en dualité. On note $\beta(E, F)$ la $\mathscr{S}$-topologie, où $\mathscr{S}$ est l’ensemble des parties de F qui sont bornées pour $\sigma(F, E)$.
 
 On définit de manière symétrique la topologie $\beta(F, E)$ sur F. On montre facilement que la topologie $\beta(E, F)$ est identique à $\beta(E, F/E^\circ)$, ce qui permet de se ramener au cas où la dualité entre E et F est séparante en F.
 
-#### Remarque 3 {#evt-iv-s1-n1-rem-3 .statement}
+#### Remarque 3 {#evt-iv-s1-n1-rem-3 .statement tag=0E55}
 
 Notons $E_\sigma$ l’espace E muni de la topologie $\sigma(E, F)$. Les tonneaux (III, p. 24) dans $E_\sigma$ sont les parties de E qui sont convexes, équilibrées, fermées pour $\sigma(E, F)$ et absorbantes. Ce ne sont autres que les polaires des parties de F qui sont convexes, équilibrées et bornées pour $\sigma(F, E)$. Par suite, l’ensemble des tonneaux dans $E_\sigma$ est un système fondamental de voisinages de 0 pour la topologie $\beta(E, F)$ dans E. Autrement dit, une semi-norme sur E est continue pour $\beta(E, F)$ si et seulement si elle est semi-continue inférieurement pour $\sigma(E, F)$ (cf. III, p. 24, prop. 1).
 
-#### Remarque 4 {#evt-iv-s1-n1-rem-4 .statement}
+#### Remarque 4 {#evt-iv-s1-n1-rem-4 .statement tag=0E56}
 
 Soit $\mathscr{T}$ une topologie sur E compatible avec la dualité entre E et F. D’après la prop. 1, (ii) de IV, p. 1, la topologie $\beta(F, E)$ sur F n’est autre que la topologie forte sur F identifié au dual de E (muni de $\mathscr{T}$).
 
-#### Remarque 5 {#evt-iv-s1-n1-rem-5 .statement}
+#### Remarque 5 {#evt-iv-s1-n1-rem-5 .statement tag=0E57}
 
 La topologie $\beta(E, F)$ sur E est plus fine que $\tau(E, F)$. Elle n’est pas en général compatible avec la dualité entre E et F (cf. cependant § 2). En particulier, une partie de E bornée pour $\sigma(E, F)$ n’est pas nécessairement bornée pour $\beta(E, F)$.
 
@@ -165,35 +165,35 @@ La topologie initiale est plus fine que la topologie affaiblie et moins fine que
 
 D’après la prop. 1 de IV, p. 1, ces trois topologies ont les mêmes ensembles convexes fermés, les mêmes tonneaux, les mêmes ensembles bornés et les mêmes bornologies adaptées. En particulier :
 
-#### Proposition 2 {#evt-iv-s1-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s1-prop-2 .statement tag=07QT}
 
 Soit E un espace localement convexe, et soit A une partie convexe de E (par exemple, un sous-espace vectoriel de E). L’adhérence de A est la même pour la topologie initiale et pour la topologie affaiblie de E.
 
-#### Remarque 1 {#evt-iv-s1-n2-rem-1 .statement}
+#### Remarque 1 {#evt-iv-s1-n2-rem-1 .statement tag=07QU}
 
 Pour qu’une famille $(x_i)_{i\in I}$ d’éléments de $E$ soit totale (resp. topologiquement libre) pour la topologie initiale, il faut et il suffit qu’elle le soit pour la topologie affaiblie ; cela résulte de la prop. 2. On peut donc appliquer les critères de II, p. 46.
 
-#### Remarque 2 {#evt-iv-s1-n2-rem-2 .statement}
+#### Remarque 2 {#evt-iv-s1-n2-rem-2 .statement tag=07QV}
 
 Soient $\mathscr{T}_1$ et $\mathscr{T}_2$ deux topologies localement convexes sur $E$, compatibles avec la dualité entre $E$ et $E'$, $\mathscr{T}_1$ étant plus fine que $\mathscr{T}_2$. Alors tout voisinage de 0 pour $\mathscr{T}_1$ qui est convexe et fermé pour $\mathscr{T}_1$ est fermé pour $\mathscr{T}_2$ d’après la prop. 1 de IV, p. 1. Par suite (TG, II, p. 16, corollaire), toute partie de $E$ qui est complète pour $\mathscr{T}_2$ l’est aussi pour $\mathscr{T}_1$.
 
 En particulier, toute partie de $E$ complète pour la topologie affaiblie l’est pour la topologie initiale, toute partie de $E$ complète pour la topologie initiale l’est pour la topologie de Mackey. Si $E$ est quasi-complet pour la topologie affaiblie, il l’est pour toute topologie compatible avec la dualité entre $E$ et $E'$. S’il est quasi-complet pour la topologie initiale, il l’est pour la topologie de Mackey.
 
-#### Remarque 3 {#evt-iv-s1-n2-rem-3 .statement}
+#### Remarque 3 {#evt-iv-s1-n2-rem-3 .statement tag=07QW}
 
 Supposons $E$ séparé (pour la topologie initiale). Soit $A$ une partie de $E$, bornée et fermée pour $\sigma(E, E')$, donc aussi pour toute topologie compatible avec la dualité entre $E$ et $E'$. Comme $A$ est précompacte pour $\sigma(E, E')$ (III, p. 3, Remarque 5), il revient au même de supposer que $A$ est complète ou compacte pour $\sigma(E, E')$.
 
 Compte tenu de la remarque 2, on voit donc que :
 
-#### Proposition 3 {#evt-iv-s1-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s1-prop-3 .statement tag=07QX}
 
 *Supposons* $E$ séparé, et soit $E'$ son dual. *Toute partie de* $E$ *qui est précompacte pour la topologie initiale, et compacte pour* $\sigma(E, E')$, *est compacte pour la topologie initiale*.
 
-#### Remarque 4 {#evt-iv-s1-n2-rem-4 .statement}
+#### Remarque 4 {#evt-iv-s1-n2-rem-4 .statement tag=07QY}
 
 La topologie $\beta(E, E')$ (IV, p. 4, déf. 3) est plus fine que la topologie de Mackey. Si $\beta(E, E')$ est distincte de $\tau(E, E')$, elle n’est pas compatible avec la dualité entre $E$ et $E'$. L’espace $E$ est tonnelé si et seulement si la topologie initiale est égale à $\beta(E, E')$ (III, p. 24).
 
-#### Proposition 4 {#evt-iv-s1-prop-4 .statement}
+#### Proposition 4 {#evt-iv-s1-prop-4 .statement tag=07QZ}
 
 *Soit* $E$ *un espace localement convexe*. *La topologie de Mackey sur* $E$ *est identique à la topologie initiale dans chacun des cas suivants* :
     a) $E$ *est tonnelé* ;
@@ -212,7 +212,7 @@ Dans ce numéro, on note $E_1$ et $E_2$ deux espaces localement convexes, ayant 
 
 Soit $u$ une application linéaire de $E_1$ dans $E_2$. Pour que $u$ soit continue lorsqu’on munit $E_1$ et $E_2$ des topologies affaiblies, il faut et il suffit que $f \circ u$ appartienne à $E'_1$ pour toute $f \in E'_2$; c’est le cas si $u$ est continue. On appelle alors transposée de $u$, et l’on note $^t u$, l’application linéaire $f \mapsto f \circ u$ de $E'_2$ dans $E'_1$.
 
-#### Proposition 5 {#evt-iv-s1-prop-5 .statement}
+#### Proposition 5 {#evt-iv-s1-prop-5 .statement tag=07R0}
 
 *Soit $u$ une application linéaire continue de $E_1$ dans $E_2$.*
 
@@ -222,13 +222,13 @@ Soit $u$ une application linéaire de $E_1$ dans $E_2$. Pour que $u$ soit contin
 
 Un sous-espace vectoriel de $E_2$ est dense pour la topologie initiale si et seulement s’il l’est pour la topologie affaiblie (IV, p. 4, prop. 2). La prop. 5 résulte alors de II, p. 51, cor. 2.
 
-#### Proposition 6 {#evt-iv-s1-prop-6 .statement}
+#### Proposition 6 {#evt-iv-s1-prop-6 .statement tag=07R1}
 
 *Soit $u$ une application linéaire de $E_1$ dans $E_2$, continue pour les topologies affaiblies. Pour $i = 1, 2$, soit $\mathscr{S}_i$ un ensemble de parties bornées de $E_i$. Pour que $^t u$ soit une application continue de $(E'_2)_{\mathscr{S}_2}$ dans $(E'_1)_{\mathscr{S}_1}$, il faut et il suffit que, pour tout ensemble $A \in \mathscr{S}_1$, il existe des ensembles $A_1, ..., A_n$ dans $\mathscr{S}_2$ et un nombre réel $\lambda > 0$ tels que $\lambda . u(A)$ soit contenu dans l’enveloppe fermée convexe équilibrée de $A_1 \cup ... \cup A_n$^1.*
 
 C’est une conséquence immédiate de la prop. 2 de III, p. 15.
 
-#### Corollaire {#evt-iv-s1-n3-cor-1 .statement}
+#### Corollaire {#evt-iv-s1-n3-cor-1 .statement tag=07R2}
 
 *Soit $u$ une application linéaire continue de $E_1$ dans $E_2$. Alors $^t u$ est continue lorsqu’on munit les duals $E'_i$ des topologies suivantes :*
   a) *les topologies faibles $\sigma(E'_i, E_i)$;*
@@ -242,7 +242,7 @@ Le seul point qui demande une démonstration est le cas c), lorsque les topologi
 
 ^1 Autrement dit, $u(\mathscr{S}_1)$ est contenu dans la plus petite bornologie adaptée contenant $\mathscr{S}_2$ (III, p. 3).
 
-#### Proposition 7 {#evt-iv-s1-prop-7 .statement}
+#### Proposition 7 {#evt-iv-s1-prop-7 .statement tag=07R3}
 
 Soit $u : E_1 \to E_2$ une application linéaire. On suppose que $u$ est continue pour les topologies affaiblies de $E_1$ et $E_2$.
 
@@ -254,7 +254,7 @@ Soit $u : E_1 \to E_2$ une application linéaire. On suppose que $u$ est continu
 
 L’hypothèse entraîne que $'u$ est continue pour les topologies faibles $\sigma(E_2', E_2)$ et $\sigma(E_1', E_1)$ (II, p. 50, corollaire); donc l’image par $'u$ d’une partie convexe, équilibrée et compacte pour $\sigma(E_2', E_2)$ est convexe, équilibrée et compacte pour $\sigma(E_1', E_1)$, les topologies $\sigma(E_2', E_2)$ et $\sigma(E_1', E_1)$ étant séparées. L’assertion (i) résulte alors de TG, X, p. 5, prop. 3, b). L’assertion (ii) est conséquence de (i): en effet, si $E_1$ est bornologique ou tonnelé, sa topologie initiale est celle de Mackey, et la topologie de Mackey de $E_2$ est de toute façon plus fine que la topologie initiale de $E_2$. Enfin, la topologie initiale de $E_i$ est celle de la convergence uniforme dans les parties équicontinues de $E_i'$ (III, p. 19, cor. 1 de la prop. 7), d’où (iii).
 
-#### Corollaire {#evt-iv-s1-n3-cor-2 .statement}
+#### Corollaire {#evt-iv-s1-n3-cor-2 .statement tag=07R4}
 
 Supposons que $E_1$ soit un espace normé. Soit $u$ une application linéaire de $E_1$ dans $E_2$. Les propriétés suivantes sont équivalentes:
 
@@ -265,7 +265,7 @@ d) pour toute suite $(x_n)$ de points de $E_1$ tendant vers 0 pour la topologie 
 
 Comme $E_1$ est bornologique, l’équivalence de a) et b) résulte de la prop. 7. Celle de a) et c) est immédiate. L’équivalence de a) et d) résulte de la prop. 1 de IV, p. 1 et de la prop. 1 de III, p. 11.
 
-#### Proposition 8 {#evt-iv-s1-prop-8 .statement}
+#### Proposition 8 {#evt-iv-s1-prop-8 .statement tag=07R5}
 
 (i) Soit $E$ un espace normé, de dual $E'$. Pour tout $x \in E$, on a
 $$
@@ -287,15 +287,15 @@ $$
 = \sup_{\|x\| \leq 1, \|y'\| \leq 1} |\langle u(x), y' \rangle| = \sup_{\|x\| \leq 1} \|u(x)\| = \|u\|.
 $$
 
-#### Remarque 1 {#evt-iv-s1-n3-rem-1 .statement}
+#### Remarque 1 {#evt-iv-s1-n3-rem-1 .statement tag=07R6}
 
 La formule (3) est le cas particulier de (4) correspondant à l’application linéaire $\lambda \mapsto \lambda x$ de K dans E.
 
-#### Remarque 2 {#evt-iv-s1-n3-rem-2 .statement}
+#### Remarque 2 {#evt-iv-s1-n3-rem-2 .statement tag=07R7}
 
 Posons $B(x, y') = \langle u(x), y' \rangle = \langle x, 'u(y') \rangle$ pour $x \in E_1,\ y' \in E'_2$. La démonstration précédente montre que B est une forme bilinéaire continue sur $E_1 \times E'_2$, de norme (TG, X, p. 23) égale à $\|u\|$.
 
-#### Corollaire {#evt-iv-s1-n3-cor-3 .statement}
+#### Corollaire {#evt-iv-s1-n3-cor-3 .statement tag=07R8}
 
 Soit E un espace normé de type dénombrable. Il existe une partie dénombrable D de $E' - \{0\}$ telle que l’on ait
 
@@ -325,7 +325,7 @@ $$
 i : E'/M^\circ \to M'.
 $$
 
-#### Proposition 9 {#evt-iv-s1-prop-9 .statement}
+#### Proposition 9 {#evt-iv-s1-prop-9 .statement tag=07R9}
 
 (i) Pour qu’une partie A de $(E/M)'$ soit équicontinue, il faut et il suffit que $\pi(A)$ soit une partie équicontinue de $E'$.
 (ii) Soient $\mathfrak{S}$ un ensemble de parties bornées de E, et $\mathfrak{S}_1$ l’ensemble des images dans $E/M$ des parties $A \in \mathfrak{S}$. Alors $\pi$ est un isomorphisme de $(E/M)'_{\mathfrak{S}_1}$ sur $M^\circ$ muni de la topologie induite par celle de $E'_{\mathfrak{S}}$.
@@ -358,7 +358,7 @@ $$
 
 et $'p$ induit une isométrie de $(E/M)'$ sur $M^\circ$.
 
-#### Proposition 10 {#evt-iv-s1-prop-10 .statement}
+#### Proposition 10 {#evt-iv-s1-prop-10 .statement tag=07RA}
 
 (i) *Pour qu’une partie A de M’ soit équicontinue, il faut et il suffit qu’elle soit l’image par $'i$ d’une partie équicontinue de E’*.
 
@@ -384,11 +384,11 @@ $$
 $$
 D’après le th. de Hahn-Banach (II, p. 25, cor. 3), il existe une forme linéaire $x'_0$ sur $E$, prolongeant $y'$ et de même norme, d’où l’inégalité opposée à (7) puisque $'i(x'_0) = y'$.
 
-#### Remarque {#evt-iv-s1-n4-rem-1 .statement}
+#### Remarque {#evt-iv-s1-n4-rem-1 .statement tag=07RB}
 
 On sait (II, p. 51, prop. 7, (ii)) que $i$ est un isomorphisme d’espaces vectoriels topologiques de $E'_s/M^\circ$ sur $M'_s$ (duals faibles). En ce qui concerne la topologie de la convergence convexe compacte, la prop. 10 montre que $i$ est un isomorphisme de $E'_{cc}/M^\circ$ sur $M'_{cc}$ lorsque $E$ est séparé et $M$ fermé dans $E$. Pour les topologies fortes, $i$ est une application continue de $E'_b/M^\circ$ sur $M'_b$; c’est un isomorphisme si $E$ est un espace de Banach \* ou si $E$ est semi-réflexif et $M$ fermé dans $E$ (IV, p. 15) *, mais il n’en est pas toujours ainsi si $E$ est un espace de Fréchet (IV, p. 58, exerc. 5, c)).
 
-#### Proposition 11 {#evt-iv-s1-prop-11 .statement}
+#### Proposition 11 {#evt-iv-s1-prop-11 .statement tag=07RC}
 
 (i) La topologie affaiblie sur $E/M$ est quotient de celle de $E$; la topologie affaiblie sur $M$ est induite par celle de $E$.
 (ii) La topologie de Mackey sur $E/M$ est quotient de celle de $E$; la topologie de Mackey de $M$ est plus fine que la topologie induite par $\tau(E, E')$.
@@ -409,7 +409,7 @@ $$
 
 On rappelle (II, p. 53, prop. 8) que la topologie faible $\sigma(E, F)$ est produit des topologies faibles $\sigma(E_i, F_i)$.
 
-#### Lemme 3 {#evt-iv-s1-lem-3 .statement}
+#### Lemme 3 {#evt-iv-s1-lem-3 .statement tag=07RD}
 
 (i) Pour tout $i \in I$, soit $\mathscr{S}_i$ un ensemble de parties de $F_i$, bornées pour $\sigma(F_i, E_i)$; posons $\mathscr{S} = \bigcup_{i \in I} \mathscr{S}_i$. Alors la $\mathscr{S}$-topologie sur $E$ est produit des $\mathscr{S}_i$-topologies sur les $E_i$.
 
@@ -433,7 +433,7 @@ $$
 
 où la dernière égalité résulte de (8) puisque la famille $(y_i)_{i \in I}$ est à support fini et les $A_i$ sont non vides et peuvent être supposées équilibrées (TG, IV, p. 26, cor. 2). Cette inégalité prouve que $q$ est continue sur $F$, d’où (ii).
 
-#### Proposition 12 {#evt-iv-s1-prop-12 .statement}
+#### Proposition 12 {#evt-iv-s1-prop-12 .statement tag=07RE}
 
 La topologie $\beta(F, E)$ est somme directe des topologies $\beta(F_i, E_i)$. La topologie $\beta(E, F)$ est produit des topologies $\beta(E_i, F_i)$.
 
@@ -445,7 +445,7 @@ Munissons $F = \bigoplus_{i \in I} F_i$ de la topologie $\mathscr{T}$ somme dire
 
 Dans le cas général, soit $N_i$ l’intersection des voisinages de 0 pour $\sigma(F_i, E_i)$, et soit $N = \sum_{i \in I} N_i$, de sorte que $F/N$ est somme directe topologique des $F_i/N_i$ (II, p. 33, prop. 8) ; on en déduit que toute partie bornée de $F$ pour $\mathscr{T}$ est contenue dans un ensemble de la forme $N + \sum_{i \in J} B_i$ avec $J \subset I$ fini et $B_i$ borné dans $F_i$ pour tout $i \in J$ (III, p. 2, Remarque 3) ; comme le polaire de cet ensemble dans $E$ est le même que celui de $\sum_{i \in J} B_i$, on conclut comme ci-dessus.
 
-#### Proposition 13 {#evt-iv-s1-prop-13 .statement}
+#### Proposition 13 {#evt-iv-s1-prop-13 .statement tag=07RF}
 
 *La topologie de Mackey* $\tau(F, E)$ *est somme directe des topologies de Mackey* $\tau(F_i, E_i)$. *La topologie* $\tau(E, F)$ *est produit des topologies* $\tau(E_i, F_i)$.
 
@@ -463,7 +463,7 @@ $$
 $$
 (on a noté S' le dual de S, et E'_i celui de E_i).
 
-#### Proposition 14 {#evt-iv-s1-prop-14 .statement}
+#### Proposition 14 {#evt-iv-s1-prop-14 .statement tag=07RG}
 
 (i) *L’application $\theta$ est un isomorphisme du dual fort (resp. faible) de $S = \bigoplus_{i \in I} E_i$ sur le produit des duals forts (resp. faibles) des $E_i$.*
 (ii) *Pour qu’une partie A de S' soit équicontinue, il faut et il suffit que la projection de $\theta(A)$ sur $E'_i$ soit équicontinue pour tout $i \in I$.*
@@ -490,7 +490,7 @@ $$
 $$
 pour $x = (x_i)$ dans $P$ et $x' = (x'_i)$ dans $\bigoplus_{i \in I} E'_i$.
 
-#### Proposition 15 {#evt-iv-s1-prop-15 .statement}
+#### Proposition 15 {#evt-iv-s1-prop-15 .statement tag=07RH}
 
 (i) *L’application $\varphi$ est un isomorphisme de la somme directe topologique des duals forts des $E_i$ sur le dual fort de $P = \prod_{i \in I} E_i$.*
 (ii) *Pour qu’une partie A de $P'$ soit équicontinue, il faut et il suffit qu’elle soit contenue dans une somme finie $\sum_{i \in J} \varphi(A_i)$, où $J \subset I$ est fini et $A_i$ est équicontinu dans $E'_i$ pour tout $i \in J$.*
@@ -504,7 +504,7 @@ Ceci démontre à la fois la surjectivité de $\varphi$ et l’assertion (ii).
 
 Les assertions (i) et (iv) résultent alors de la prop. 12 (IV, p. 11) et (iii) de la prop. 13 (IV, p. 12).
 
-#### Corollaire {#evt-iv-s1-n5-cor-1 .statement}
+#### Corollaire {#evt-iv-s1-n5-cor-1 .statement tag=07RI}
 
 *Tout produit d’espaces tonnelés est tonnelé*.
 

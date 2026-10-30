@@ -21,14 +21,14 @@ subsections:
       pdf_page: 358
 statements: 9
 exercises: 7
-content_sha256: 69f4f2193868425a1a6066153825bbab55bdad1e9ad4cf8dd79a6c6484cea684
+content_sha256: 9a8748db60c9fd84976b7413bf30ec32e2a4b17c04a06e968ec301e544a51660
 ---
 
 ## § 8. LIE GROUPS OVER $\mathbf{R}$ AND $\mathbf{Q}_p$
 
 ### 1. CONTINUOUS MORPHISMS
 
-#### Theorem 1 {#lie-iii-s8-thm-1 .statement}
+#### Theorem 1 {#lie-iii-s8-thm-1 .statement tag=0AI2}
 
 *Let G and H be two Lie group germs over $\mathbf{R}$ or $\mathbf{Q}_p$. Let f be a continuous morphism of G into H. Then f is analytic.*
 
@@ -86,31 +86,31 @@ $$
 $$
 Thus $h$ is continuous and linear, hence $g = h|V$ is analytic, hence $f$ is analytic on $\phi(V)$ and hence $f$ is analytic (§ 1, no. 10).
 
-#### Corollary 1 {#lie-iii-s8-thm-1-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s8-thm-1-cor-1 .statement tag=0AI3}
 
 Let $G$ be a topological group. There exists on $G$ at most one analytic manifold structure over $\mathbf{R}$ (resp. $\mathbf{Q}_p$) compatible with the topological group structure on $G$.
 
 This follows immediately from Theorem 1.
 
-#### Definition 1 {#lie-iii-s8-def-1 .statement}
+#### Definition 1 {#lie-iii-s8-def-1 .statement tag=0AI4}
 
 *A topological group G is called a real (resp. p-adic) Lie group if there exists on G a real (resp. p-adic) Lie group structure compatible with its topology.*
 
 That structure is then unique and we can speak of the *dimension* of such a group. If G and H are two such groups, every continuous morphism of G into H is analytic.
 
-#### Corollary 2 {#lie-iii-s8-def-1-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s8-def-1-cor-2 .statement tag=0AI5}
 
 *Let G be a topological group and V an open neighbourhood of e. Suppose that V has an analytic manifold structure which makes it into a real (resp. p-adic) Lie group germ. Then G is a real (resp. p-adic) Lie group.*
 
 Let $g \in G$. There exists an open neighbourhood $V'$ of $e$ in G such that $V' \cup gV'g^{-1} \subset V$. The mapping $v \mapsto gv g^{-1}$ of $V'$ into $V$ is a continuous and hence analytic morphism of the Lie group germ $V'$ into the Lie group germ $V$. It then suffices to apply Proposition 18 of § 1, no. 9.
 
-#### Remark {#lie-iii-s8-n1-rem-1 .statement}
+#### Remark {#lie-iii-s8-n1-rem-1 .statement tag=0AI6}
 
 (1) Theorem 1 and its corollaries are no longer true if $\mathbf{R}$ (resp. $\mathbf{Q}_p$) is replaced by $\mathbf{C}$ (Exercise 1).
 
 (2) Let G be a topological group. It can be shown† that the following conditions are equivalent: (a) G is a finite-dimensional real Lie group; (b) G is locally compact and there exists a neighbourhood of $e$ containing no subgroup distinct from $\{e\}$; (c) there exists an open neighbourhood of $e$ homeomorphic to an open ball of a space $\mathbf{R}^n$. (For a much less difficult result, cf. Exercise 6.)
 
-#### Proposition 1 {#lie-iii-s8-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s8-prop-1 .statement tag=0AI7}
 
 *Let G, G' be topological groups and f a continuous morphism of G into G'. Suppose that one of the following three cases holds:
 (a) G is a real Lie group and G' is a p-adic Lie group;
@@ -130,7 +130,7 @@ to $e$ as $n$ tends to $+\infty$. There exists a neighbourhood $V$ of $e$ in $G$
 
 ### 2. CLOSED SUBGROUPS
 
-#### Theorem 2 {#lie-iii-s8-thm-2 .statement}
+#### Theorem 2 {#lie-iii-s8-thm-2 .statement tag=0AI8}
 
 *Let $G$ be a finite-dimensional Lie group over $\mathbf{R}$ or $\mathbf{Q}_p$. Every closed subgroup of $G$ is a Lie subgroup of $G$. More generally, let $U$ be a symmetric open neighbourhood of $e$ in $G$ and $H$ a non-empty closed subspace of $U$ such that the conditions $x \in H$, $y \in H$ and $xy^{-1} \in U$ imply $xy^{-1} \in H$. Then $H$ is a Lie subgroup germ of $G$.*
 
@@ -158,13 +158,13 @@ Hence the mapping $f : \lambda \mapsto \exp \lambda y$, where $\lambda y \in \fr
 
 Theorem 2 is no longer true if $G$ is not assumed to be finite-dimensional (Exercise 12).
 
-#### Corollary 1 {#lie-iii-s8-thm-2-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s8-thm-2-cor-1 .statement tag=0AI9}
 
 *Let $G'$ be a locally compact group, $G$ a finite-dimensional Lie group over $\mathbf{R}$ (resp. $\mathbf{Q}_p$) and $f$ a continuous morphism of $G'$ into $G$. If the kernel of $f$ is discrete, $G'$ is a finite-dimensional real (resp. $p$-adic) Lie group.*
 
 There exists a compact neighbourhood $V$ of $e$ in $G'$ such that $f|V$ is a homeomorphism of $V$ onto a compact subspace of $G$. If $U$ is a sufficiently small open neighbourhood of $e$ in $G$, the hypotheses of Theorem 2 are satisfied with $H = f(V) \cap U$. Hence $H$ is a Lie subgroup germ of $G$. Let $W$ be the inverse image of $H$ under $f|V$. Then $W$ is a neighbourhood of $e$ in $G'$. Let $W$ be given the analytic manifold structure transported from that on $H$ by $(f|W)^{-1}$. For all $z \in G'$, the mapping $x \mapsto f(z)x f(z)^{-1}$ of $G$ into $G$ is analytic; hence there exists an open neighbourhood $W'$ of $e$ in $W$ such that the mapping $x' \mapsto zx'z^{-1}$ of $W'$ into $W$ is analytic. By Proposition 18 of § 1, no. 9, there exists on $G'$ a Lie group structure which induces on a sufficiently small open neighbourhood of $e$ the same analytic structure as $W$ and hence the same topology as the initial topology on $G'$.
 
-#### Corollary 2 {#lie-iii-s8-thm-2-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s8-thm-2-cor-2 .statement tag=0AIA}
 
 *Let $G$ be a finite-dimensional Lie group over $K$, $H$ a subgroup of $G$, $V$ an open neighbourhood of $e$ in $G$ and $(M_i)_{i \in I}$ a family of analytic manifolds over $K$; for all $i \in I$, let $f_i$ be a $K$-analytic mapping of $V$ into $M_i$ such that*
 

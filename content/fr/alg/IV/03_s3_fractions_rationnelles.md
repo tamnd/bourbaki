@@ -21,14 +21,14 @@ subsections:
       pdf_page: 25
 statements: 6
 exercises: 7
-content_sha256: 68c70016579af41dd9dcc3badac39acf1f7369cf41b9a027166f3247ae709df5
+content_sha256: 4e38d14e8abbd793ac531d0655aec100cecbad908a38ade164b4807bfb69e726
 ---
 
 ## § 3. FRACTIONS RATIONNELLES
 
 ### 1. Définition des fractions rationnelles
 
-#### Définition 1 {#alg-iv-s3-def-1 .statement}
+#### Définition 1 {#alg-iv-s3-def-1 .statement tag=06BL}
 
 Soient K un corps commutatif, I un ensemble. Le corps des fractions (I, p. 110) de l’anneau intègre $K[(X_i)_{i \in I}]$ se note $K((X_i)_{i \in I})$ ou $K(X_i)_{i \in I}$. Ses éléments s’appellent les fractions rationnelles à coefficients dans K par rapport aux indéterminées $X_i$.
 
@@ -42,7 +42,7 @@ Soient maintenant K un corps commutatif, I un ensemble et $J \subset I$. Posons 
 
 Soit K un corps commutatif. Pour tout élément $r$ de $K((X_i)_{i \in I})$, il existe $u, v \in K[(X_i)_{i \in I}]$ tels que $v \neq 0$ et $r = \frac{u}{v}$. La relation $\frac{u}{v} = \frac{u_1}{v_1}$ où $v \neq 0, v_1 \neq 0$, équivaut à $uv_1 = vu_1$; si $r \neq 0$, on a $u \neq 0$ et $u_1 \neq 0$ et alors $\deg u + \deg v_1 = \deg v + \deg u_1$ (IV, p. 9), ou encore $\deg u - \deg v = \deg u_1 - \deg v_1$. L’entier rationnel $\deg u - \deg v$ ne dépend donc que de $r$; on dit que c’est le *degré*, ou le *degré total* de $r$. On le note $\deg r$. On convient que $\deg 0 = -\infty$. Si $J \subset I$, on définit de même le degré par rapport aux $X_j$ d’indices $j \in J$. Lorsque $r$ est un polynôme, ces notions coïncident avec celles qu’on a définies en IV, p. 3.
 
-#### Proposition 1 {#alg-iv-s3-prop-1 .statement}
+#### Proposition 1 {#alg-iv-s3-prop-1 .statement tag=06BM}
 
 *Soient r, s deux fractions rationnelles.*
 (i) *Si $\deg r \neq \deg s$, on a*
@@ -84,7 +84,7 @@ $$
 
 Soit $f \in K((X_i)_{i \in I})$. S’il existe au moins un couple $(u, v)$ tel que $f = \frac{u}{v}$ et $v \in S_x$, on dit que x est substituable dans $f$; l’élément $u(x)\ v(x)^{-1}$, qui ne dépend que de $f$ et x, se note alors $f(x)$ ou $f((x_i))$ ou $f((x_i)_{i \in I})$.
 
-#### Proposition 2 {#alg-iv-s3-prop-2 .statement}
+#### Proposition 2 {#alg-iv-s3-prop-2 .statement tag=06BN}
 
 *Soient K un corps commutatif, E une K-algèbre associative unifère, x = $(x_i)_{i \in I}$ une famille d’éléments de E deux à deux permutables. L’ensemble $S_x^{-1}B$ des $f \in K((X_i)_{i \in I})$ telles que x soit substituable dans f est une sous-K-algèbre de $K((X_i)_{i \in I})$. L’application $f \mapsto f(x)$ est un homomorphisme unifère $\varphi$ de $S_x^{-1}B$ dans E. L’image $\varphi(S_x^{-1}B)$ est l’ensemble des $yz^{-1}$ où y parcourt la sous-algèbre unifère $K[x]_E$ de E engendrée par la famille x et où z parcourt l’ensemble des éléments inversibles de $K[x]_E$.*
 
@@ -93,7 +93,7 @@ $$
 f_1 + f_2 = \frac{u_1 v_2 + u_2 v_1}{v_1 v_2},\ f_1 f_2 = \frac{u_1 u_2}{v_1 v_2},\ \text{et}\ v_1 v_2 \in S_x.$$
 Donc $S_x^{-1}B$ est une sous-K-algèbre de $K((X_i)_{i \in I})$. Le reste de la proposition est évident.
 
-#### Corollaire {#alg-iv-s3-n2-cor-1 .statement}
+#### Corollaire {#alg-iv-s3-n2-cor-1 .statement tag=0DHG}
 
 *Soient L un corps commutatif, K un sous-corps de L, x = $(x_i)_{i \in I}$ une famille d’éléments de L, M l’ensemble des $x_i$, U l’ensemble des $f \in K((X_i)_{i \in I})$ telles que x soit substituable dans f, $\varphi$ l’homomorphisme $f \mapsto f(x)$ de U dans L. Alors $\varphi(U)$ est le sous-corps de L engendré par K $\cup$ M.*
 
@@ -105,7 +105,7 @@ et $\varphi(U)$ est un sous-anneau de L. La prop. 2 entraîne que $\varphi(U)$ e
 
 Soit $f \in K((X_i)_{i \in I})$. Soit $(g_i)_{i \in I}$ une famille d’éléments de $K((Y_l)_{l \in L})$. Si $(g_i)$ est substituable dans $f$, $f((g_i))$ est un élément de $K((Y_l)_{l \in L})$. En particulier, $(X_i)_{i \in I}$ est substituable dans $f$, et $f = f((X_i)_{i \in I})$.
 
-#### Proposition 3 {#alg-iv-s3-prop-3 .statement}
+#### Proposition 3 {#alg-iv-s3-prop-3 .statement tag=06BP}
 
 *Soit E une algèbre sur K, associative, commutative, unifère et non nulle. Soit $f \in K((X_i)_{i \in I})$. Pour tout $i \in I$, soit $g_i \in K((Y_l)_{l \in L})$. Soit $y = (y_l)_{l \in L}$ une famille d’éléments de E. On suppose que y est substituable dans chaque $g_i$, et que $(g_i(y))_{i \in I}$ est substituable dans $f$. Alors :*
 
@@ -140,7 +140,7 @@ du = \sum_{i \in I} (D_i u) \, dX_i
 $$
 pour tout $u \in C$. Si $I$ est fini, $(D_i)_{i \in I}$ est une base du $C$-espace vectoriel des dérivations de $C$.
 
-#### Proposition 4 {#alg-iv-s3-prop-4 .statement}
+#### Proposition 4 {#alg-iv-s3-prop-4 .statement tag=06BQ}
 
 *Soient E une K-algèbre associative, commutative et unifère, $x = (x_i)_{i \in I}$ une famille d’éléments de E, et $f \in K((X_i)_{i \in I})$. On suppose que x est substituable dans f. Soit $y = f(x)$.*
 

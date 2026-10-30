@@ -37,26 +37,26 @@ subsections:
       pdf_page: 460
 statements: 19
 exercises: 5
-content_sha256: 535fa5c20aafed0aad81abf47bab473f5fb0f8f01b8d7f1857b86721917d0577
+content_sha256: 0fb14654b359481581325a19f087178ad03bf1fad08181a16f3158f9667d8ad7
 ---
 
 ## § 6. ALGÈBRE SYMÉTRIQUE
 
 ### 1. Définition de l’algèbre symétrique d’un module
 
-#### Définition 1 {#alg-iii-s6-def-1 .statement}
+#### Définition 1 {#alg-iii-s6-def-1 .statement tag=0626}
 
 Soient $A$ un anneau commutatif, $M$ un $A$-module. On appelle algèbre symétrique de $M$, et on note $S(M)$ ou $\mathrm{Sym}(M)$ ou $S_A(M)$, l’algèbre sur $A$ quotient de l’algèbre tensorielle $T(M)$ par l’idéal bilatère $\mathfrak{J}'$ (aussi noté $\mathfrak{J}_M$) engendré par les éléments $xy - yx = x \otimes y - y \otimes x$ de $T(M)$, où $x$ et $y$ parcourent $M$.
 
 L’idéal $\mathfrak{J}'$ étant engendré par des éléments homogènes de degré 2, est un idéal gradué (II, p. 167, prop. 2); on pose $\mathfrak{J}'_n = \mathfrak{J}' \cap T^n(M)$; l’algèbre $S(M)$ est donc graduée par la graduation (dite canonique) formée des $S^n(M) = T^n(M)/\mathfrak{J}'_n$. On a $\mathfrak{J}'_0 = \mathfrak{J}'_1 = \{0\}$, donc $S^0(M)$ s’identifie canoniquement à $A$ et $S^1(M)$ à $T^1(M) = M$; nous ferons toujours par la suite ces identifications, et nous noterons $\varphi'$ ou $\varphi'_M$ l’injection canonique $M \to S(M)$.
 
-#### Proposition 1 {#alg-iii-s6-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s6-prop-1 .statement tag=0627}
 
 L’algèbre $S(M)$ est commutative.
 
 En effet, on a par définition $\varphi'(x)\varphi'(y) = \varphi'(y)\varphi'(x)$ pour $x, y$ dans $M$, et comme les éléments $\varphi'(x)$, où $x$ parcourt $M$, engendrent $S(M)$, la conclusion résulte de III, p. 11.
 
-#### Proposition 2 {#alg-iii-s6-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s6-prop-2 .statement tag=0628}
 
 Soient $E$ une $A$-algèbre, $f : M \to E$ une application $A$-linéaire telle que
 $$
@@ -69,7 +69,7 @@ En d’autres termes, $(S(M), \varphi')$ est solution du problème d’applicati
 
 L’unicité de $g$ résulte de ce que $\varphi'(M) = M$ engendre $S(M)$. Pour prouver l’existence de $g$, notons qu’en vertu de III, p. 56, prop. 1, il existe un homomorphisme $g_1 : T(M) \to E$ de A-algèbres tel que $f = g_1 \circ \varphi$; tout revient à voir que $g_1$ s’annule dans l’idéal $\mathfrak{J}'$, car alors, si $p : T(M) \to S(M) = T(M)/\mathfrak{J}'$ est l’homomorphisme canonique, on pourra écrire $g_1 = g \circ p$, où $g : S(M) \to E$ est un homomorphisme d’algèbres, et la conclusion résultera de ce que $p \circ \varphi = \varphi'$. Or le noyau de $g_1$ est un idéal bilatère qui, en vertu de (1) et de la relation $g_1 \circ \varphi = f$, contient les éléments $x \otimes y - y \otimes x$ pour $x, y$ dans M. Ceci termine la démonstration.
 
-#### Remarque 1 {#alg-iii-s6-n1-rem-1 .statement}
+#### Remarque 1 {#alg-iii-s6-n1-rem-1 .statement tag=0629}
 
 Supposons que E soit une A-algèbre graduée de type $\mathbf{Z}$, de graduation $(E_n)$, et supposons en outre que l’application linéaire $f$ (supposée vérifier (1)) soit telle que
 $$
@@ -77,17 +77,17 @@ f(M) \subset E_1.
 $$
 Alors la relation $g(x_1 x_2 \ldots x_p) = f(x_1) f(x_2) \ldots f(x_p)$ pour les $x_i \in M$ montre que $g(S^p(M)) \subset E_p$ pour tout $p \geq 0$, donc $g$ est un homomorphisme d’algèbres graduées.
 
-#### Remarque 2 {#alg-iii-s6-n1-rem-2 .statement}
+#### Remarque 2 {#alg-iii-s6-n1-rem-2 .statement tag=0DGR}
 
 Tout élément de $S(M)$ est somme de produits de la forme $x_1 x_2 \ldots x_n$, où les $x_i$ appartiennent à M; on aura soin de ne pas confondre de tels produits pris dans $S(M)$ et les produits analogues pris dans $T(M)$.
 
-#### Remarque 3 {#alg-iii-s6-n1-rem-3 .statement}
+#### Remarque 3 {#alg-iii-s6-n1-rem-3 .statement tag=0DGS}
 
 Si $n! . 1$ est inversible dans A, le A-module $S^n(M)$ est engendré par les éléments de la forme $x^n$, où $x \in M$; cela résulte de la remarque précédente et de (I, p. 95, prop. 2).
 
 ### 2. Propriétés fonctorielles de l’algèbre symétrique
 
-#### Proposition 3 {#alg-iii-s6-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s6-prop-3 .statement tag=062A}
 
 Soient A un anneau commutatif, M et N deux A-modules, $u : M \to N$ une application A-linéaire. Il existe un homomorphisme de A-algèbres et un seul, $u' : S(M) \to S(N)$, tel que le diagramme
 
@@ -128,7 +128,7 @@ S^n(u)(x_1 x_2 \ldots x_n) = u(x_1) u(x_2) \ldots u(x_n)
 $$
 pour les $x_i \in M$, puisque $S(u)$ est un homomorphisme d’algèbres et $S^1(u) = u$; la restriction $S^0(u)$ à $A$ est l’application identique. On notera que $S^n(u)$ provient de $T^n(u) : T^n(M) \to T^n(N)$ par passage aux quotients.
 
-#### Proposition 4 {#alg-iii-s6-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s6-prop-4 .statement tag=062B}
 
 *Si $u : M \to N$ est une application A-linéaire surjective, l’homomorphisme $S(u) : S(M) \to S(N)$ est surjectif, et son noyau est l’idéal de $S(M)$ engendré par le noyau $P \subset M \subset S(M)$ de $u$.
 
@@ -136,7 +136,7 @@ Posons $v = T(u) : T(M) \to T(N)$; on sait (III, p. 57, prop. 3) que $v$ est sur
 
 Si $u : M \to N$ est une application linéaire injective, il n’est pas toujours vrai que $S(u)$ soit une application injective (III, p. 187, exerc. 1). Toutefois il en est ainsi lorsque $u$ est une injection telle que $u(M)$ soit facteur direct de $N$, et alors l’image de $S(u)$ (isomorphe à $S(M)$) est facteur direct de $S(N)$; la démonstration est la même que celle des assertions analogues pour $T(u)$ (III, p. 58) en remplaçant $T$ par $S$.
 
-#### Proposition 5 {#alg-iii-s6-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s6-prop-5 .statement tag=062C}
 
 *Soient $N$ et $P$ deux sous-modules d’un A-module $M$, tels que leur somme $N + P$ soit facteur direct dans $M$, et que leur intersection $N \cap P$ soit facteur direct dans $N$ et dans $P$. Alors les homomorphismes $S(N) \to S(M)$, $S(P) \to S(M)$ et $S(N \cap P) \to S(M)$ prolongements canoniques des injections canoniques, sont injectifs; si l’on identifie $S(N)$, $S(P)$ et $S(N \cap P)$ à des sous-algèbres de $S(M)$ au moyen de ces homomorphismes, on a*
 $$
@@ -145,7 +145,7 @@ $$
 
 La démonstration se déduit de celle de III, p. 58–59, prop. 4, en remplaçant partout $T$ par $S$. Les hypothèses de la prop. 5 sont toujours vérifiées pour des sous-modules quelconques $N, P$ de $M$ lorsque $A$ est un corps.
 
-#### Corollaire {#alg-iii-s6-n2-cor-1 .statement}
+#### Corollaire {#alg-iii-s6-n2-cor-1 .statement tag=062D}
 
 Soient $K$ un corps commutatif, $M$ un espace vectoriel sur $K$. Pour tout élément $z \in S(M)$, il existe un plus petit sous-espace vectoriel $N$ de $M$ tel que $z \in S(N)$, et $N$ est de dimension finie.
 
@@ -163,7 +163,7 @@ Comme les transpositions échangeant deux entiers consécutifs engendrent le gro
 
 Lorsque $Y$ est un module sur un anneau commutatif $A$, il est clair que l’ensemble des applications symétriques de $X^n$ dans $Y$ est un sous-module du $A$-module $Y^{X^n}$ de toutes les applications de $X^n$ dans $Y$.
 
-#### Proposition 6 {#alg-iii-s6-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s6-prop-6 .statement tag=062E}
 
 Soient $A$ un anneau commutatif, $M$ et $N$ deux $A$-modules. Si, à toute application $A$-linéaire $g : S^n(M) \to N$ ($n \geqslant 1$) on associe l’application $n$-linéaire
 $$
@@ -191,7 +191,7 @@ autrement dit, d’après ce qu’on a vu plus haut, cela signifie que $\bar{f}$
 
 On dit que le A-module $S^n(M)$ est la puissance symétrique $n$-ème de M. Pour tout homomorphisme de A-modules $u : M \to N$, l’application $S^n(u) : S^n(M) \to S^n(N)$ qui coïncide avec $S(u)$ dans $S^n(M)$ s’appelle la puissance symétrique $n$-ème de $u$.
 
-#### Remarque {#alg-iii-s6-n3-rem-1 .statement}
+#### Remarque {#alg-iii-s6-n3-rem-1 .statement tag=062F}
 
 Soit $\sigma$ une permutation de $\mathfrak{S}_n$; comme l’application
 
@@ -231,7 +231,7 @@ $$
 
 correspond au $A$-homomorphisme composé $g \circ f : M \to M''$ (relatif à $\sigma \circ \rho$).
 
-#### Proposition 7 {#alg-iii-s6-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s6-prop-7 .statement tag=062G}
 
 Soient $A, B$ deux anneaux commutatifs, $\rho : A \to B$ un homomorphisme d’anneaux, $M$ un $A$-module. Le prolongement canonique
 
@@ -247,7 +247,7 @@ La démonstration se déduit de celle de III, p. 60, prop. 5 en y remplaçant $T
 
 Soient $(A_\alpha, \varphi_{\beta \alpha})$ un système inductif filtrant d’anneaux commutatifs, $(M_\alpha, f_{\beta \alpha})$ un système inductif de $A_\alpha$-modules, $A = \lim \to A_\alpha, M = \lim \to M_\alpha$. Pour $\alpha \leq \beta$, on déduit canoniquement du $A_\alpha$-homomorphisme $f_{\beta \alpha}: M_\alpha \to M_\beta$ un homomorphisme de $A_\alpha$-algèbres (III, p. 72, formule (8)), $f'_{\beta \alpha}: S_{A_\alpha}(M_\alpha) \to S_{A_\beta}(M_\beta)$ et il résulte de (9) (III, p. 72) que $(S_{A_\alpha}(M_\alpha), f'_{\beta \alpha})$ est un *système inductif de $A_\alpha$-algèbres*. Soit d’autre part $f_\alpha: M_\alpha \to M$ le $A_\alpha$-homomorphisme canonique; on en déduit (III, p. 72, formule (8)) un homomorphisme de $A_\alpha$-algèbres, $f'_\alpha: S_{A_\alpha}(M_\alpha) \to S_A(M)$, et il résulte encore de (9) que les $f'_\alpha$ constituent un système inductif de $A_\alpha$-homomorphismes.
 
-#### Proposition 8 {#alg-iii-s6-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s6-prop-8 .statement tag=062H}
 
 *Le A-homomorphisme* $f' = \varprojlim f'_\alpha : \varprojlim S_{A_\alpha}(M_\alpha) \to S_A(M)$ *est un isomorphisme d’algèbres graduées*.
 
@@ -269,7 +269,7 @@ $$
 
 l’homomorphisme canonique.
 
-#### Proposition 9 {#alg-iii-s6-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s6-prop-9 .statement tag=062I}
 
 *L’homomorphisme canonique* $g$ (*formule (10)*) *est un isomorphisme d’algèbres graduées* (cf. III, p. 53, *Remarque 1*).
 
@@ -315,13 +315,13 @@ S^\nu(M) = \lim_{\longrightarrow} S^{J', \nu}(M)
 $$
 on voit donc que l’on a, compte tenu de II, p. 91, prop. 5:
 
-#### Corollaire {#alg-iii-s6-n6-cor-1 .statement}
+#### Corollaire {#alg-iii-s6-n6-cor-1 .statement tag=062J}
 
 *Le A-module* $S^n(M)$ *est l’image par l’isomorphisme* (10) (III, p. 74) *du sous-module de* $\bigotimes_{\lambda \in L} S(M_\lambda)$ *somme directe des sous-modules* $S^\nu(M)$ *pour toutes les familles* $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ *telles que* $\sum_{\lambda \in L} n_\lambda = n$; *si* $J$ *est le support de* $\nu$, $S^\nu(M)$ *est canoniquement isomorphe à* $\bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)$.
 
 On identifiera en général $S^\nu(M)$, $\bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)$ et leur image dans $S^n(M)$.
 
-#### Théorème 1 {#alg-iii-s6-thm-1 .statement}
+#### Théorème 1 {#alg-iii-s6-thm-1 .statement tag=062K}
 
 *Soient* $A$ *un anneau commutatif*, $M$ *un A-module libre ayant une base* $(e_\lambda)_{\lambda \in L}$. *Pour toute application* $\alpha : L \to N$, *de support fini*, *posons*
 $$
@@ -339,13 +339,13 @@ où $\alpha + \beta$ est l’application $\lambda \mapsto \alpha(\lambda) + \bet
 
 Remarque 2). — Les résultats précédents peuvent également s’obtenir comme conséquence des propriétés universelles des algèbres de polynômes et des algèbres symétriques, compte tenu de (II, p. 25, cor. 3).
 
-#### Corollaire {#alg-iii-s6-n6-cor-2 .statement}
+#### Corollaire {#alg-iii-s6-n6-cor-2 .statement tag=062L}
 
 Si $M$ est un $A$-module projectif, $S(M)$ est un $A$-module projectif.
 
 La démonstration est la même que celle de III, p. 62, corollaire, en remplaçant $T$ par $S$.
 
-#### Proposition 10 {#alg-iii-s6-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s6-prop-10 .statement tag=062M}
 
 Soient $\Delta$ un monoïde commutatif à élément neutre, $M$ un $A$-module gradué de type $\Delta$, $(M_{\alpha})_{\alpha \in \Delta}$ sa graduation. Pour tout couple $(\alpha, n) \in \Delta \times \mathbf{N}$, soit $S^{\alpha, n}(M)$ le sous-module de $S^n(M)$ somme directe des sous-modules $\bigotimes_{\lambda \in J} S^{n_{\lambda}}(M_{\alpha_{\lambda}})$, où $(n_{\lambda})_{\lambda \in L}$ parcourt l’ensemble des familles d’entiers $\geqslant 0$ telles que $\sum_{\lambda \in L} n_{\lambda} = n$, $J$ est son support et, pour chaque $(n_{\lambda})$, $(\alpha_{\lambda})_{\lambda \in J}$ parcourt l’ensemble des familles de $\Delta^J$ telles que $\sum_{\lambda \in J} \alpha_{\lambda} = \alpha$. Alors $(S^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ est la seule graduation de type $\Delta \times \mathbf{N}$ compatible avec la structure d’algèbre de $S(M)$, et qui induise sur $M = S^1(M)$ la graduation donnée.
 

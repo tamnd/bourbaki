@@ -33,14 +33,14 @@ subsections:
       pdf_page: 28
 statements: 30
 exercises: 12
-content_sha256: c29d142de08ef8f29c722bf241287cba418fdda690d915304c72eab9112f823a
+content_sha256: 98e2dae994c2e71b013b96b3fd2b66044ef75333b8acda58ae6b0cea72eb35d3
 ---
 
 ## § 2. FONCTIONS CONTINUES
 
 ### 1. Fonctions continues
 
-#### Définition 1 {#top-i-s2-def-1 .statement}
+#### Définition 1 {#top-i-s2-def-1 .statement tag=0AZY}
 
 *On dit qu’une application* $f$ *d’un espace topologique* $X$ *dans un espace topologique* $X'$ *est continue en un point* $x_0 \in X$ *si, quel que soit le voisinage* $V'$ *de* $f(x_0)$ *dans* $X'$, *il existe un voisinage* $V$ *de* $x_0$ *dans* $X$ *tel que la relation* $x \in V$ *entraîne* $f(x) \in V'$.
 
@@ -48,35 +48,35 @@ On peut énoncer la déf. 1 sous la forme plus imagée suivante: dire que $f$ es
 
 La relation « pour tout $x \in V, f(x) \in V'$ » est équivalente à $f(V) \subset V'$ ou encore à $V \subset f^{-1}(V')$; tenant compte de l’axiome ($V_1$) des voisinages, la déf. 1 est équivalente à la suivante: *on dit que* $f : X \to X'$ *est continue au point* $x_0$ *si, pour tout voisinage* $V'$ *de* $f(x_0)$ *dans* $X'$, $f^{-1}(V')$ *est un voisinage de* $x_0$ *dans* $X$. Il suffit d’ailleurs que $f^{-1}(V')$ soit un voisinage de $x_0$ pour tout voisinage $V'$ appartenant à un *système fondamental de voisinages* de $f(x_0)$ dans $X'$ (I, p. 4).
 
-#### Proposition 1 {#top-i-s2-prop-1 .statement}
+#### Proposition 1 {#top-i-s2-prop-1 .statement tag=0AZZ}
 
 *Soit* $f$ *une application d’un espace topologique* $X$ *dans un espace topologique* $X'$. *Si* $f$ *est continue au point* $x$, *et si* $x$ *est adhérent à une partie* $A$ *de* $X$, *alors* $f(x)$ *est adhérent à* $f(A)$.
 
 Soit en effet $V'$ un voisinage de $f(x)$ dans $X'$; comme $f^{-1}(V')$ est un voisinage de $x$ dans $X$, il existe un point $y \in A \cap f^{-1}(V')$, donc on a $f(y) \in f(A) \cap V'$, ce qui prouve que $f(x)$ est adhérent à $f(A)$.
 
-#### Proposition 2 {#top-i-s2-prop-2 .statement}
+#### Proposition 2 {#top-i-s2-prop-2 .statement tag=0B00}
 
 *Soient* $X, X', X''$ *trois espaces topologiques*, $f$ *une application de* $X$ *dans* $X'$ *continue au point* $x \in X$, $g$ *une application de* $X'$ *dans* $X''$ *continue au point* $f(x)$. *Alors l’application composée* $h = g \circ f$ *de* $X$ *dans* $X''$ *est continue au point* $x$.
 
 En effet, soit $V''$ un voisinage de $h(x) = g(f(x))$ dans $X''$; comme $g$ est continue au point $f(x)$, $g(V'')$ est un voisinage de $f(x)$ dans $X'$; comme $f$ est continue au point $x$, $f^{-1}(g(V'')) = h^{-1}(V'')$ est un voisinage de $x$ dans $X$, d’où la proposition.
 
-#### Définition 2 {#top-i-s2-def-2 .statement}
+#### Définition 2 {#top-i-s2-def-2 .statement tag=0B01}
 
 *On dit qu’une application d’un espace topologique* $X$ *dans un espace topologique* $X'$ *est continue dans* $X$ *(ou simplement qu’elle est continue)* *si elle est continue en tout point de* $X$.
 
-#### Exemple 1 {#top-i-s2-n1-exa-1 .statement}
+#### Exemple 1 {#top-i-s2-n1-exa-1 .statement tag=0B02}
 
 L’application identique d’un espace topologique $X$ sur lui-même est continue.
 
-#### Exemple 2 {#top-i-s2-n1-exa-2 .statement}
+#### Exemple 2 {#top-i-s2-n1-exa-2 .statement tag=0B03}
 
 Une application constante d’un espace topologique dans un espace topologique est continue.
 
-#### Exemple 3 {#top-i-s2-n1-exa-3 .statement}
+#### Exemple 3 {#top-i-s2-n1-exa-3 .statement tag=0B04}
 
 Toute application d’un espace discret dans un espace topologique est continue.
 
-#### Théorème 1 {#top-i-s2-thm-1 .statement}
+#### Théorème 1 {#top-i-s2-thm-1 .statement tag=0B05}
 
 *Soit* $f$ *une application d’un espace topologique* $X$ *dans un espace topologique* $X'$; *les propriétés suivantes sont équivalentes*:
 a) $f$ *est continue dans* $X$;
@@ -86,23 +86,23 @@ d) *l’image réciproque par* $f$ *de toute partie ouverte de* $X'$ *est une pa
 
 On a déjà vu que a) entraîne b) (prop. 1). Montrons que b) entraîne c): si $F'$ est une partie fermée de $X'$ et $F = f^{-1}(F')$, on a par hypothèse $f(\overline{F}) \subset \overline{f(F)} \subset \overline{F'} = F'$, donc $\overline{F} \subset f^{-1}(F') = F \subset \overline{F}$, autrement dit $F = \overline{F}$ et $F$ est fermé. En vertu de la relation $\complement f^{-1}(A') = f^{-1}(\complement A')$ pour toute partie $A'$ de $X'$, c) implique d). Enfin, si d) est vérifiée, pour tout $x \in X$ et tout voisinage $V'$ de $f(x)$ dans $X'$, il existe un ensemble $A'$ ouvert dans $X'$ tel que $f(x) \in A' \subset V'$; donc $x \in f^{-1}(A') \subset f^{-1}(V')$, et comme $f^{-1}(A')$ est ouvert, $f^{-1}(V')$ est un voisinage de $x$ dans $X$, ce qui prouve que d) entraîne a).
 
-#### Remarque 1 {#top-i-s2-n1-rem-1 .statement}
+#### Remarque 1 {#top-i-s2-n1-rem-1 .statement tag=0B09}
 
 Soit $\mathfrak{B}$ une base (I, p. 5) de la topologie de $X'$; pour que $f : X \to X'$ soit continue, il faut et il suffit que $f^{-1}(U')$ soit un ensemble ouvert dans $X$ pour tout $U' \in \mathfrak{B}$.
 
-#### Exemple {#top-i-s2-n1-exa-4 .statement}
+#### Exemple {#top-i-s2-n1-exa-4 .statement tag=0B06}
 
 Soit $a$ un nombre rationnel quelconque; l’application $x \mapsto a + x$ de la droite rationnelle $\mathbf{Q}$ dans elle-même est continue dans $\mathbf{Q}$, car l’image réciproque par cette application d’un intervalle ouvert $]b, c[$ est l’intervalle ouvert $]b - a, c - a[$. De même, l’application $x \mapsto ax$ est continue dans $\mathbf{Q}$: c’est évident si $a = 0$, puisque alors $ax = 0$ pour tout $x$; si $a \neq 0$, l’image réciproque par cette application de l’intervalle ouvert $]b, c[$ est l’intervalle ouvert d’extrémités $b/a$ et $c/a$.
 
-#### Remarque 2 {#top-i-s2-n1-rem-2 .statement}
+#### Remarque 2 {#top-i-s2-n1-rem-2 .statement tag=0B0A}
 
 L’image directe d’un ensemble ouvert (resp. fermé) de $X$ par une application continue $f : X \to X'$ n’est pas nécessairement un ensemble ouvert (resp. fermé) dans $X'$ (cf. I, p. 30).
 
-#### Exemple {#top-i-s2-n1-exa-5 .statement}
+#### Exemple {#top-i-s2-n1-exa-5 .statement tag=0B07}
 
 *L’application $f : x \mapsto 1/(1 + x^2)$ de $\mathbf{R}$ dans lui-même est continue, mais $f(\mathbf{R})$ est l’intervalle semi-ouvert $]0, 1]$, qui n’est ni ouvert ni fermé dans $\mathbf{R}$.*
 
-#### Théorème 2 {#top-i-s2-thm-2 .statement}
+#### Théorème 2 {#top-i-s2-thm-2 .statement tag=0B08}
 
 1° Si $f : X \to X'$ et $g : X' \to X''$ sont deux applications continues, alors $g \circ f : X \to X''$ est continue.
 
@@ -110,15 +110,15 @@ L’image directe d’un ensemble ouvert (resp. fermé) de $X$ par une applicati
 
 La première assertion est une conséquence immédiate de la prop. 2; la seconde résulte du th. 1, d) et de la définition d’un homéomorphisme (I, p. 2).
 
-#### Remarque 3 {#top-i-s2-n1-rem-3 .statement}
+#### Remarque 3 {#top-i-s2-n1-rem-3 .statement tag=0B0B}
 
 Il peut exister une bijection continue d’un espace topologique $X$ sur un espace topologique $X'$ qui ne soit pas bicontinue; on en a un exemple en prenant pour $X'$ la droite rationnelle $\mathbf{Q}$, pour $X$ l’ensemble $\mathbf{Q}$ muni de la topologie discrète; l’application identique $X \to X'$ est continue, mais non un homéomorphisme.
 
-#### Remarque 4 {#top-i-s2-n1-rem-4 .statement}
+#### Remarque 4 {#top-i-s2-n1-rem-4 .statement tag=0E95}
 
 Pour vérifier qu’une bijection continue $f : X \to X'$ est un homéomorphisme, il suffit de prouver que pour tout $x \in X$ et tout voisinage $V$ de $x, f(V)$ est un voisinage de $f(x)$ dans $X'$.
 
-#### Remarque 5 {#top-i-s2-n1-rem-5 .statement}
+#### Remarque 5 {#top-i-s2-n1-rem-5 .statement tag=0E96}
 
 Soient $X$ un espace topologique, et pour tout $x \in X$, soit $\mathfrak{V}(x)$ l’ensemble des voisinages de $x$. Soit $x_0$ un point de $X$; pour tout $x \in X$, définissons un ensemble $\mathfrak{V}_0(x)$ de parties de $X$ de la façon suivante: $\mathfrak{V}_0(x_0) = \mathfrak{V}(x_0)$, et pour $x \neq x_0, \mathfrak{V}_0(x)$ est l’ensemble de toutes les parties de $X$ contenant $x$. On vérifie aussitôt (I, p. 3, prop. 2) que les $\mathfrak{V}_0(x)$ sont les ensembles de voisinages des points de $X$ pour une topologie sur $X$; désignons par $X_0$ l’espace topologique ainsi obtenu, par $j$ l’application identique $X_0 \to X$, qui est continue mais non bicontinue en général. Pour qu’une application $f$ de $X$ dans un espace topologique $X'$ soit continue au point $x_0$, il faut et il suffit que l’application composée $X_0 \xrightarrow{j} X \xrightarrow{f} X'$ soit continue dans $X_0$, ainsi qu’il résulte aussitôt des définitions.
 
@@ -126,14 +126,14 @@ Soient $X$ un espace topologique, et pour tout $x \in X$, soit $\mathfrak{V}(x)$
 
 Le th. 2 de I, p. 10 montre que l’on peut prendre pour morphismes des structures topologiques les applications continues (E, IV, p. 11); nous supposerons toujours par la suite que l’on a fait ce choix de morphismes. Conformément aux définitions générales (E, IV, p. 13), cela permet de définir une relation d’ordre dans l’ensemble des topologies sur un même ensemble X:
 
-#### Définition 3 {#top-i-s2-def-3 .statement}
+#### Définition 3 {#top-i-s2-def-3 .statement tag=0B0C}
 
 Étant données deux topologies $\mathscr{T}_1, \mathscr{T}_2$ sur un même ensemble X, on dit que $\mathscr{T}_1$ est plus fine que $\mathscr{T}_2$ (et que $\mathscr{T}_2$ est moins fine que $\mathscr{T}_1$) si, en désignant par $X_i$ l’ensemble X muni de la topologie $\mathscr{T}_i$ ($i = 1, 2$), l’application identique $X_1 \to X_2$ est continue. Si de plus $\mathscr{T}_1 \neq \mathscr{T}_2$, on dit que $\mathscr{T}_1$ est strictement plus fine que $\mathscr{T}_2$ (et que $\mathscr{T}_2$ est strictement moins fine que $\mathscr{T}_1$).
 
 Deux topologies dont l’une est plus fine que l’autre sont dites comparables.
 
 Les critères de continuité d’une application (I, p. 8, déf. 1 et I, p. 9, th. 1) donnent aussitôt la proposition suivante:
-#### Proposition 3 {#top-i-s2-prop-3 .statement}
+#### Proposition 3 {#top-i-s2-prop-3 .statement tag=0B0D}
 
 Étant données deux topologies $\mathscr{T}_1, \mathscr{T}_2$ sur un ensemble X, les propositions suivantes sont équivalentes:
 a) $\mathscr{T}_1$ est plus fine que $\mathscr{T}_2$.
@@ -142,25 +142,25 @@ c) Pour toute partie A de X, l’adhérence de A pour $\mathscr{T}_1$ est conten
 d) Toute partie de X fermée pour $\mathscr{T}_2$ est fermée pour $\mathscr{T}_1$.
 e) Toute partie de X ouverte pour $\mathscr{T}_2$ est ouverte pour $\mathscr{T}_1$.
 
-#### Exemple {#top-i-s2-n2-exa-1 .statement}
+#### Exemple {#top-i-s2-n2-exa-1 .statement tag=0B0E}
 
 *Dans l’espace de Hilbert H des suites $x = (x_n)$ de nombres réels tels que $\|x\|^2 = \sum_{n=0}^\infty x_n^2 < +\infty$, les voisinages d’un point $x_0$ pour la topologie forte sur H sont les ensembles contenant une boule $\|x - x_0\| < \alpha$ de centre $x_0$; les voisinages de $x_0$ pour la topologie faible sur H sont les ensembles contenant un ensemble défini par une relation de la forme $\sup_{1 \leq i \leq n} |(x - x_0 | a_i)| \leq 1$ (où les $a_i$ sont des points de H et $(x | y) = \sum_{n=0}^\infty x_n y_n$ pour $x = (x_n)$ et $y = (y_n)$) (EVT, chap. V). Or, si $\beta = \sup_{1 \leq i \leq n} \|a_i\|$, la relation $\|x - x_0\| \leq 1/\beta$ entraîne $|(x - x_0 | a_i)| \leq \|x - x_0\| \cdot \|a_i\| \leq 1$ pour $1 \leq i \leq n$, ce qui prouve que la topologie forte sur H est plus fine que la topologie faible. D’autre part, pour toute famille finie $(a_i)_{1 \leq i \leq n}$ de points de H, il existe dans H des points x tels que $(x - x_0 | a_i) = 0$ pour $1 \leq i \leq n$, et que $\|x - x_0\|$ soit arbitrairement grand, ce qui prouve que la topologie forte est strictement plus fine que la topologie faible.*
 
-#### Remarque 1 {#top-i-s2-n2-rem-1 .statement}
+#### Remarque 1 {#top-i-s2-n2-rem-1 .statement tag=0B0F}
 
 Dans l’ensemble ordonné des topologies sur un ensemble X, la topologie dont les seuls ensembles ouverts sont $\varnothing$ et X est la topologie la moins fine et la topologie discrète est la topologie la plus fine.
 
-#### Remarque 2 {#top-i-s2-n2-rem-2 .statement}
+#### Remarque 2 {#top-i-s2-n2-rem-2 .statement tag=0B0G}
 
 D’une manière plus imagée, plus une topologie est fine, plus il y a d’ensembles ouverts, d’ensembles fermés, de voisinages; l’adhérence (resp. l’intérieur) d’un ensemble est d’autant plus petite (resp. d’autant plus grand) que la topologie est plus fine; plus une topologie est fine, moins il y a d’ensembles partout denses.
 
-#### Remarque 3 {#top-i-s2-n2-rem-3 .statement}
+#### Remarque 3 {#top-i-s2-n2-rem-3 .statement tag=0B0H}
 
 Si $f : X \to X'$ est une application continue, elle reste continue lorsqu’on remplace la topologie de X par une topologie plus fine et la topologie de X’ par une topologie moins fine (I, p. 10, th. 2). Autrement dit, il y a d’autant plus d’applications continues de X dans X’ que la topologie de X est plus fine et celle de X’ moins fine.
 
 ### 3. Topologies initiales
 
-#### Proposition 4 {#top-i-s2-prop-4 .statement}
+#### Proposition 4 {#top-i-s2-prop-4 .statement tag=0B0I}
 
 Soient X un ensemble, $(Y_i)_{i \in I}$ une famille d’espaces topologiques, et pour chaque $i \in I$, soit $f_i$ une application de X dans $Y_i$. Soit $\mathscr{S}$ l’ensemble des parties de X de la forme $f_i^{-1}(U_i)$ ($i \in I$, $U_i$ ouvert dans $Y_i$), et soit $\mathfrak{B}$ l’ensemble des intersections finies d’ensembles de $\mathscr{S}$. Alors $\mathfrak{B}$ est une base d’une topologie $\mathscr{T}$ sur X qui est la structure topologique initiale sur X pour la famille $(f_i)$ (E, IV, p. 14) et en particulier est la moins fine sur X rendant continues les applications $f_i$. De façon plus précise, soit g une application d’un espace topologique Z dans X. Pour que g soit continue en un point $z \in Z$ (lorsque X est muni de la topologie $\mathscr{T}$), il faut et il suffit que chacune des fonctions $f_i \circ g$ soit continue au point z.
 
@@ -172,11 +172,11 @@ Soit $\mathfrak{B}_i$ une base de la topologie de $Y_i$ ($i \in I$); désignons 
 
 Les propriétés générales des structures initiales (E, IV, p. 14, critère CST 10) entraînent en particulier la propriété suivante de transitivité (dont la démonstration directe est d’ailleurs immédiate):
 
-#### Proposition 5 {#top-i-s2-prop-5 .statement}
+#### Proposition 5 {#top-i-s2-prop-5 .statement tag=0B0J}
 
 *Soient X un ensemble, $(Z_i)_{i \in I}$ une famille d’espaces topologiques, $(J_\lambda)_{\lambda \in L}$ une partition de I et $(Y_\lambda)_{\lambda \in L}$ une famille d’ensembles ayant L pour ensembles d’indices. Enfin, pour tout $\lambda \in L$, soit $h_\lambda$ une application de X dans $Y_\lambda$; pour tout $\lambda \in L$ et tout $i \in J_\lambda$, soit $g_{i\lambda}$ une application de $Y_\lambda$ dans $Z_i$; on pose alors $f_i = g_{i\lambda} \circ h_\lambda$. On munit chacun des $Y_\lambda$ de la topologie la moins fine rendant continues les $g_{i\lambda}$ ($i \in J_\lambda$); alors, sur X, la topologie la moins fine rendant continues les $f_i$ est identique à la topologie la moins fine rendant continues les $h_\lambda$.
 
-#### Exemple {#top-i-s2-n3-exa-1 .statement}
+#### Exemple {#top-i-s2-n3-exa-1 .statement tag=0B0K}
 
 I : *Image réciproque d’une topologie.* — Soient X un ensemble, Y un espace topologique, $f$ une application de X dans Y; la topologie la moins fine $\mathscr{T}$ sur X rendant continue $f$ est appelée l’*image réciproque* par $f$ de la topologie de Y. Il résulte de la prop. 4 (I, p. 12) et des formules donnant l’image réciproque d’une réunion et d’une intersection (E, II, p. 25, prop. 3 et 4) que les ensembles ouverts (resp. fermés) pour $\mathscr{T}$ sont les *images réciproques* par $f$ des ensembles ouverts (resp. fermés) de Y; par suite, pour tout $x \in X$, les ensembles $f^{-1}(W)$, où W parcourt un système fondamental de voisinages de $f(x)$ dans Y, forment un système fondamental de voisinages de $x$ pour $\mathscr{T}$. Nous étudierons au § 3, sous le nom de *topologie induite*, le cas particulier où X est une partie de Y et $f$ l’injection canonique $X \to Y$; X, muni de cette topologie, prend alors le nom de *sous-espace* de Y (cf. I, p. 17).
 
@@ -190,13 +190,13 @@ III: Topologie produit. — Soit $(X_i)_{i \in I}$ une famille d’espaces topol
 
 ### 4. Topologies finales
 
-#### Proposition 6 {#top-i-s2-prop-6 .statement}
+#### Proposition 6 {#top-i-s2-prop-6 .statement tag=0B0N}
 
 Soient $X$ un ensemble, $(Y_i)_{i \in I}$ une famille d’espaces topologiques, et pour chaque $i \in I$, soit $f_i$ une application de $Y_i$ dans $X$. Soit $\mathscr{O}$ l’ensemble des parties $U$ de $X$ telles que, pour tout $i \in I$, $f_i^{-1}(U)$ soit ouvert dans $Y_i$; $\mathscr{O}$ est l’ensemble des parties ouvertes de $X$ pour une topologie $\mathscr{T}$ sur $X$ qui est la structure finale sur $X$ pour la famille $(f_i)$ (E, IV, p. 19), et en particulier, la plus fine sur $X$ rendant continues les applications $f_i$. En d’autres termes, soit $g$ une application de $X$ dans un espace topologique $Z$; pour que $g$ soit continue (lorsque $X$ est muni de la topologie $\mathscr{T}$) il faut et il suffit que chacune des applications $g \circ f_i$ soit continue.
 
 On vérifie immédiatement que $\mathscr{O}$ satisfait aux axiomes $(O_1)$ et $(O_{II})$ (E, II, p. 25, prop. 3 et 4); prouvons la dernière assertion de l’énoncé, qui entraînera la proposition en raison des propriétés générales des structures finales (E, IV, p. 19, critère CST 18). Il est clair que les $f_i$ sont continues pour $\mathscr{T}$ par définition de $\mathscr{O}$ (I, p. 9, th. 1), donc, si $g$ est continue, il en est de même des $g \circ f_i$ (I, p. 10, th. 2). Inversement, supposons toutes les $g \circ f_i$ continues, et soit $V$ un ensemble ouvert dans $Z$; par hypothèse, pour tout $i \in I$, $f_i^{-1}(g(V))$ est ouvert dans $Y_i$, donc $g^{-1}(V) \in \mathscr{O}$, ce qui achève la démonstration.
 
-#### Corollaire {#top-i-s2-n4-cor-1 .statement}
+#### Corollaire {#top-i-s2-n4-cor-1 .statement tag=0B0O}
 
 Sous les hypothèses de la prop. 6, pour qu’une partie $F$ de $X$ soit fermée pour $\mathscr{T}$, il faut et il suffit que pour tout $i \in I$, $f_i^{-1}(F)$ soit fermé dans $Y_i$.
 
@@ -204,11 +204,11 @@ Cela résulte par passage aux complémentaires de la définition des ensembles o
 
 Les propriétés générales des structures finales (E, IV, p. 20, critère CST 19) entraînent la propriété suivante de transitivité (dont la démonstration directe est immédiate):
 
-#### Proposition 7 {#top-i-s2-prop-7 .statement}
+#### Proposition 7 {#top-i-s2-prop-7 .statement tag=0B0P}
 
 Soient $X$ un ensemble, $(Z_i)_{i \in I}$ une famille d’espaces topologiques, $(J_\lambda)_{\lambda \in L}$ une partition de $I$ et $(Y_\lambda)_{\lambda \in L}$ une famille d’ensembles ayant $L$ pour ensemble d’indices. Enfin, pour tout $\lambda \in L$, soit $h_\lambda$ une application de $Y_\lambda$ dans $X$; pour tout $\lambda \in L$ et tout $i \in J_\lambda$, soit $g_{\lambda i}$ une application de $Z_i$ dans $Y_\lambda$; on pose alors $f_i = h_\lambda \circ g_{\lambda i}$. On munit chacun des $Y_\lambda$ de la topologie la plus fine rendant continues les $g_{\lambda i}$ ($i \in J_\lambda$); alors, sur $X$, la topologie la plus fine rendant continues les $f_i$ est identique à la topologie la plus fine rendant continues les $h_\lambda$.
 
-#### Exemple {#top-i-s2-n4-exa-1 .statement}
+#### Exemple {#top-i-s2-n4-exa-1 .statement tag=0E97}
 
 I: Topologie quotient. — Soient $X$ un espace topologique, $R$ une relation d’équivalence sur $X$, $Y = X/R$ l’ensemble quotient de $X$ par cette relation, $\varphi : X \to Y$ l’application canonique. La topologie la plus fine sur $Y$ rendant continue $\varphi$ est appelée topologie quotient de celle de $X$ par la relation $R$; nous l’étudierons plus en détail au § 3.
 
@@ -218,7 +218,7 @@ III: Somme d’espaces topologiques. — Soit $(X_i)_{i \in I}$ une famille d’
 
 IV: La proposition suivante généralise la situation de l’exemple III:
 
-#### Proposition 8 {#top-i-s2-prop-8 .statement}
+#### Proposition 8 {#top-i-s2-prop-8 .statement tag=0B0Q}
 
 Soient $X$ un ensemble, $(X_\lambda)_{\lambda \in L}$ une famille de parties de $X$. Supposons chaque $X_\lambda$ munie d’une topologie $\mathscr{T}_\lambda$ telle que, pour tout couple $(\lambda, \mu)$ d’indices:
 1° $X_\lambda \cap X_\mu$ soit ouvert (resp. fermé) pour chacune des topologies $\mathscr{T}_\lambda, \mathscr{T}_\mu$.
@@ -251,7 +251,7 @@ Supposons maintenant que chaque $X_\lambda$ soit un *espace topologique*, et soi
 
 Comme la restriction de $\varphi$ à chaque $X_\lambda$ est une bijection sur la partie $X'_\lambda=\varphi(X_\lambda)$ de $X/R$, on peut transporter au moyen de cette bijection la topologie $\mathscr{T}_\lambda$, de sorte que $X'_\lambda$ est alors muni d’une topologie $\mathscr{T}'_\lambda$ et que la topologie $\mathscr{T}$ sur $X/R$ est la plus fine rendant continues les injections canoniques $X'_\lambda \to X/R$. En général, la topologie induite par $\mathscr{T}$ sur $X'_\lambda$ est moins fine que $\mathscr{T}'_\lambda$, mais non identique à cette dernière même lorsque les $h_{\lambda\mu}$ sont des homéomorphismes (I, p. 94, exerc. 15). Toutefois, il résulte de I, p. 15, prop. 8, que l’on a, avec les notations précédentes :
 
-#### Proposition 9 {#top-i-s2-prop-9 .statement}
+#### Proposition 9 {#top-i-s2-prop-9 .statement tag=0B0R}
 
 Supposons que les $h_{\lambda\mu}$ soient des homéomorphismes et que chaque $A_{\lambda\mu}$ soit ouvert (resp. fermé) dans $X_\lambda$; alors chaque $\varphi(X_\lambda)$ est ouvert (resp. fermé) dans $X/R$ et la restriction de $\varphi$ à $X_\lambda$ est un homéomorphisme de $X_\lambda$ sur le sous-espace $\varphi(X_\lambda)$ de $X/R$.
 

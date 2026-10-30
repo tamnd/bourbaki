@@ -25,7 +25,7 @@ subsections:
       pdf_page: 82
 statements: 9
 exercises: 9
-content_sha256: c881c36ec5ea7370c5059147e2a0654f1e10dbdf7b324df291c68bf94faa7276
+content_sha256: c9b52ed8d14396c752cf882b9999823a887d9dfcc853a8cd546dc7a96f2d2721
 ---
 
 ## § 2. INTEGRALS OVER NON-COMPACT INTERVALS
@@ -38,7 +38,7 @@ We shall restrict ourselves to the following case: there exists a finite strictl
 
 If $f$ admits a primitive $g$ (in the sense made precise above), and if $c$ is a point of the interval $[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$, one has, by hypothesis, for each $x$ in this interval, that $g(x) - g(c) = \int_c^x f(t)\,dt$; since $g$ is continuous on $I$ by hypothesis, one sees that $\int_c^x f(t)\,dt$ tends to a limit in $E$ when $x$ tends to $c_i$ from the right and when $x$ tends to $c_{i+1}$ from the left. Conversely, suppose that these conditions are satisfied for all $t$, and let $g_i$ be a primitive of $f$ on the interval $[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$; we note immediately that the function $g$, defined on the complement with respect to $I$ of the set of $c_i$, by the condition that it be equal to $g_i(x) + \sum_{k=1}^i (g_{k-1}(c_k-) - g_k(c_k+))$ on $[c_i,\ c_{i+1}[$ for $0 \leq i \leq n - 1$, is continuous at every point of $I$ distinct from the $c_i$ and admits a limit at each of these points; it can therefore be extended by continuity to each of these points, and the extended function is evidently a primitive of $f$ on $I$. It is clear, moreover, that every other primitive of $f$ is of the form $g + a$ ($a$ an element of $E$).
 
-#### Definition 1 {#fvr-ii-s2-def-1 .statement}
+#### Definition 1 {#fvr-ii-s2-def-1 .statement tag=088F}
 
 *One says that a vector function* $f$, *piecewise regulated on an interval* $[a,\ b[$ *of* $\overline{\mathbf{R}}$, *admits an integral on this interval if* $f$ *admits a primitive on* $[a,\ b[$*; if* $g$ *is any one of the primitives of* $f$ *on* $[a,\ b[$*, and* $x_0$ *and* $x$ *are any two points of* $[a,\ b[$*, *one calls the element* $g(x) - g(x_0)$ *the integral of* $f$ *from* $x_0$ *to* $x$, *and one denotes it by* $\int_{x_0}^x f(t)\,dt$.
 
@@ -46,7 +46,7 @@ This concept clearly agrees with that defined when the interval $[x_0,\ x]$ cont
 
 The remarks which precede def. 1 show that for $f$ to have an integral on $[a,\ b[$ it is necessary and sufficient that its restriction to each of the intervals $[c_i,\ c_{i+1}[$ should admit an integral over this interval. In other words, one reduces to the case where $f$ is regulated on a *non-compact* interval $I \subset \mathbf{R}$, with endpoints $a,\ b$ ($a < b$), and where: 1 either one of the numbers $a,\ b$ (at least) is infinite; 2 or $f$ is not regulated on a compact interval containing at least one of the points $a,\ b$ (these two hypotheses not being mutually exclusive). For $f$ to have an integral over $I$ it is necessary and sufficient that the integral $\int_a^x f(t)\,dt$ approaches a limit when the point $(x,\ y)$ approaches $(a,\ b) \in \overline{\mathbf{R}}^2$ while remaining in $I \times I$: and this limit is no other than $\int_a^b f(t)\,dt$ according to def. 1. By an abuse of language, instead of saying that $f$ has an integral over $I$, one says that the integral $\int_a^b f(t)\,dt$ is *convergent* (or *converges*).
 
-#### Example {#fvr-ii-s2-n1-exa-1 .statement}
+#### Example {#fvr-ii-s2-n1-exa-1 .statement tag=088G}
 
 i) The integral $\int_1^{+\infty} dt/t^2$ is convergent and equal to 1, for
 $$
@@ -80,13 +80,13 @@ $$
 
 for $f$ to admit an integral over $I$ it is necessary and sufficient that the map $J \mapsto \int_J f(t) \, dt$ have a limit with respect to the directed set $\mathfrak{K}(I)$; this limit is then the integral $\int_a^b f(t) \, dt$, which we again denote by $\int_I f(t) \, dt$.
 
-#### Proposition 1 (Cauchy’s criterion for integrals) {#fvr-ii-s2-prop-1 .statement}
+#### Proposition 1 (Cauchy’s criterion for integrals) {#fvr-ii-s2-prop-1 .statement tag=088H}
 
 *Let $f$ be a regulated function on an interval $I \subset \mathbf{R}$ having endpoints $a$ and $b$ ($a < b$). For the integral $\int_a^b f(t) \, dt$ to exist it is necessary and sufficient that for every $\varepsilon > 0$ there exist a compact interval $J_0 = [\alpha, \beta]$ contained in $I$, such that for any compact interval $K = [x, y]$ contained in $I$ and having no interior points in common with $J_0$, one has $\| \int_K f(t) \, dt \| \leq \varepsilon$.*
 
 Indeed, since $E$ is complete the Cauchy criterion shows that for the integral $\int_I f(t) \, dt$ to be convergent it is necessary and sufficient that for any $\varepsilon > 0$ there exists a compact interval $J_0 = [\alpha, \beta]$ with for every compact interval $J$ such that $J_0 \subset J \subset I$ one has $\| \int_J f(t) \, dt - \int_{J_0} f(t) \, dt \| \leq \varepsilon$. The proposition will follow from the following lemma:
 
-#### Lemma {#fvr-ii-s2-n1-lem-1 .statement}
+#### Lemma {#fvr-ii-s2-n1-lem-1 .statement tag=088I}
 
 *Let $J_0 = [\alpha, \beta]$ be a compact interval contained in $I$. In order that $\| \int_J f(t) \, dt - \int_{J'} f(t) \, dt \| \leq \varepsilon$ for every pair of compact intervals $J, J'$ contained in $I$ and containing $J'$ it is necessary that $\| \int_K f(t) \, dt \| \leq \varepsilon$, and it suffices that $\| \int_K f(t) \, dt \| \leq \varepsilon / 2$, for every compact interval $K$ contained in $I$ and having no interior point in common with $J_0$.*
 
@@ -108,7 +108,7 @@ $$
 x \leq \alpha \leq \beta \leq y \quad \text{and} \quad z \leq \alpha \leq \beta \leq t.
 $$
 
-#### Example {#fvr-ii-s2-n1-exa-2 .statement}
+#### Example {#fvr-ii-s2-n1-exa-2 .statement tag=088J}
 
 If the interval I is *bounded*, and if $f$ is *bounded* on I, then the integral $\int_I f(t)\,dt$ always exists, for, by the mean value theorem, one has, for $y \leq \alpha \leq \beta \leq z$,
 $$
@@ -120,7 +120,7 @@ One may note that in this case a primitive of $f$ on I does not necessarily have
 
 ### 2. INTEGRALS OF POSITIVE FUNCTIONS OVER A NON-COMPACT INTERVAL
 
-#### Proposition 2 {#fvr-ii-s2-prop-2 .statement}
+#### Proposition 2 {#fvr-ii-s2-prop-2 .statement tag=088K}
 
 *Let $f$ be a real regulated function $\geq 0$ on an interval $I \subset \mathbf{R}$ with endpoints $a$ and $b$ ($a < b$). For the integral $\int_a^b f(t)\,dt$ to exist it is necessary and sufficient that the set of numbers $\int_J f(t)\,dt$ be bounded above when J runs through the set of compact intervals contained in I; the integral $\int_a^b f(t)\,dt$ is then the least upper bound of the set of $\int_J f(t)\,dt$.*
 
@@ -146,11 +146,11 @@ This proposition provides the most frequently used means for deciding if the int
 
 ### 3. ABSOLUTELY CONVERGENT INTEGRALS
 
-#### Definition 2 {#fvr-ii-s2-def-2 .statement}
+#### Definition 2 {#fvr-ii-s2-def-2 .statement tag=088L}
 
 *One says that the integral of a regulated function $\mathbf{f}$ over an interval $I \subset \mathbf{R}$ is absolutely convergent if the integral of the positive function $\| \mathbf{f}(x) \|$ is convergent.*
 
-#### Proposition 4 {#fvr-ii-s2-prop-4 .statement}
+#### Proposition 4 {#fvr-ii-s2-prop-4 .statement tag=088M}
 
 *If the integral of $\mathbf{f}$ over $I$ is absolutely convergent then it is convergent, and one has*
 
@@ -166,7 +166,7 @@ $$
 
 If the integral of the positive function $\| \mathbf{f}(x) \|$ is convergent, then for every $\varepsilon > 0$ there exists a compact interval $[\alpha,\ \beta]$ contained in $I$, such that, for every compact interval $[\lambda,\ \gamma]$ contained in $I$ and having no interior point in common with $[\alpha,\ \beta]$, one has $\int_{\lambda}^{\gamma} \| \mathbf{f}(t) \, dt \| \leq \varepsilon$ (II, p. 65, prop. 1); one deduces that $\left| \int_{\lambda}^{\gamma} \mathbf{f}(t)\,dt \right| \leq \varepsilon$, which shows convergence of the integral over $I$ (II, p. 16, prop. 1); on passing to the limit in (3) one deduces the inequality (2).
 
-#### Corollary {#fvr-ii-s2-n3-cor-1 .statement}
+#### Corollary {#fvr-ii-s2-n3-cor-1 .statement tag=088N}
 
 *Let $E, F, G$ be three complete normed spaces over $\mathbf{R}$, and $(x, y) \mapsto x.y$ a continuous bilinear map from $E \times F$ into $G$. Let $\mathbf{f}, \mathbf{g}$ be two regulated functions on $I$, with values in $E$ and $F$ respectively. If $\mathbf{f}$ is bounded on $I$ and if the* integral of g is absolutely convergent over I, then the integral of [f, g] is absolutely convergent.
 
@@ -176,7 +176,7 @@ $$
 \left\| \int_I [f(t).g(t)] \, dt \right\| \leq h k \int_I \| g(t) \| \, dt.
 $$
 
-#### Remark {#fvr-ii-s2-n3-rem-1 .statement}
+#### Remark {#fvr-ii-s2-n3-rem-1 .statement tag=088O}
 
 An integral can be convergent without being absolutely convergent; this is what is shown by Example 3 of II, p. 64, where the series with general term $u_n$ is convergent without being absolutely convergent.
 

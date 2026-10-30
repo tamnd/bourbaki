@@ -21,7 +21,7 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: f923d9ab56bf1c3407def12208ac24c9a78c015ddd76e02ea195f3e1539c70cc
+content_sha256: 0f5f27152d636e2b4a3f4de2fe99a74694ba33c12058af8b625950449ac3a190
 ---
 
 ## § 7. INTEGRATION WITH RESPECT TO AN INDUCED MEASURE
@@ -44,7 +44,7 @@ $$
 
 Let us now define a mapping $\pi$ of T into X by setting $\pi(t) = t$ for $t \in X$, and $\pi(t) = t_0$ for $t \in \mathbf{C}X$, $t_0$ being an arbitrary point of X; one can write $\lambda_t = \varphi_X(t)\varepsilon_{\pi(t)}$ for every $t \in T$. The mapping $\pi$ is $\mu$-measurable, because its restrictions to X and $\mathbf{C}X$ are (Ch. IV, §5, No. 10, Prop. 16); it follows at once that the pair $(\pi, \varphi_X)$ is $\mu$-adapted (§4, No. 1). We therefore have the following results:
 
-#### Proposition 1 {#int-v-s7-prop-1 .statement}
+#### Proposition 1 {#int-v-s7-prop-1 .statement tag=0963}
 
 — *For every numerical function* $g \geqslant 0$ *defined on* X,
 
@@ -56,33 +56,33 @@ $$
 
 Taking into account the preceding remarks and (2), the relation (3) follows from Th. 1 of §4.
 
-#### Corollary 1 {#int-v-s7-prop-1-cor-1 .statement}
+#### Corollary 1 {#int-v-s7-prop-1-cor-1 .statement tag=0964}
 
 — *For every subset* B *of* X, $\mu_X^\bullet(B) = \mu^\bullet(B)$; *for* B *to be locally* $\mu_X$*-negligible, it is necessary and sufficient that* B *be locally* $\mu$*-negligible*.
 
-#### Corollary 2 {#int-v-s7-prop-1-cor-2 .statement}
+#### Corollary 2 {#int-v-s7-prop-1-cor-2 .statement tag=0965}
 
 — *Let* M *be a subset of* T. *If* $\mu$ *is concentrated on* M, *then* $\mu_X$ *is concentrated on* $M \cap X$.
 
-#### Corollary 3 {#int-v-s7-prop-1-cor-3 .statement}
+#### Corollary 3 {#int-v-s7-prop-1-cor-3 .statement tag=0966}
 
 — *For the measure* $\mu_X$ *to be zero, it is necessary and sufficient that* X *be locally* $\mu$*-negligible*.
 
-#### Remark {#int-v-s7-n1-rem-1 .statement}
+#### Remark {#int-v-s7-n1-rem-1 .statement tag=0967}
 
 — If S is the support of $\mu$, then $S \cap X$ (which is closed in X) contains the support of $\mu_X$ by Cor. 2, but may be distinct from it. For example, if $\mu$ is a diffuse measure and X is a subspace reduced to a point, then the induced measure $\mu_X$ is zero, hence its support is empty. Note, however, that the support of $\mu_X$ is equal to $S \cap X$ if X is open in T.
 
-#### Proposition 2 {#int-v-s7-prop-2 .statement}
+#### Proposition 2 {#int-v-s7-prop-2 .statement tag=0968}
 
 — *For a mapping* g *of* X *into a topological space to be* $\mu_X$*-measurable, it is necessary and sufficient that* g *be* $\mu$*-measurable in* X *(§5, No. 3, *Example*)*.
 
 This follows from Prop. 3 of §4.
 
-#### Corollary {#int-v-s7-n1-cor-1 .statement}
+#### Corollary {#int-v-s7-n1-cor-1 .statement tag=0969}
 
 — *For a subset* B *of* X *to be* $\mu_X$*-measurable, it is necessary and sufficient that* B *be* $\mu$*-measurable*.
 
-#### Theorem 1 {#int-v-s7-thm-1 .statement}
+#### Theorem 1 {#int-v-s7-thm-1 .statement tag=096A}
 
 — *Let* g *be a function defined on* X, *with values in* $\overline{\mathbf{R}}$ *or in a Banach space. For* g *to be essentially* $\mu_X$*-integrable, it is necessary* and sufficient that $g$ be essentially $\mu$-integrable in $X$ (§ 5, No. 3, Example), in which case
 
@@ -92,11 +92,11 @@ $$
 
 This follows from Th. 2 of § 4.
 
-#### Corollary 1 {#int-v-s7-thm-1-cor-1 .statement}
+#### Corollary 1 {#int-v-s7-thm-1-cor-1 .statement tag=096B}
 
 *For a subset B of X to be essentially $\mu_X$-integrable, it is necessary and sufficient that it be essentially $\mu$-integrable, in which case $\mu_X(B) = \mu(B)$.*
 
-#### Corollary 2 {#int-v-s7-thm-1-cor-2 .statement}
+#### Corollary 2 {#int-v-s7-thm-1-cor-2 .statement tag=096C}
 
 *Let g be a complex function defined on T and locally $\mu$-integrable; the restriction $g_X$ of g to X is then locally $\mu_X$-integrable, and*
 
@@ -106,7 +106,7 @@ $$
 
 This follows at once from Th. 1, applied to the functions $fg_X$ ($f \in \mathscr{K}(X; \mathbf{C})$), and the definition of the measure induced on X by a complex measure (Ch. IV, § 5, No. 7).
 
-#### Corollary 3 {#int-v-s7-thm-1-cor-3 .statement}
+#### Corollary 3 {#int-v-s7-thm-1-cor-3 .statement tag=096D}
 
 *Let $\theta$ be a complex measure on T; then*
 
@@ -116,18 +116,18 @@ $$
 
 Set $|\theta| = \mu$ and apply Cor. 2 on taking $g$ to be a complex function of absolute value 1 such that $\theta = g \cdot \mu$ (§ 5, No. 5, Cor. 3 of Th. 2); then $\theta_X = g_X \cdot \mu_X$; but $g_X$ is a function of absolute value 1, and the formula (6) follows from Prop. 2 of § 5, No. 2.
 
-#### Remark {#int-v-s7-n1-rem-2 .statement}
+#### Remark {#int-v-s7-n1-rem-2 .statement tag=096E}
 
 — a) Cor. 3 has already been proved by another method (Ch. IV, § 5, No. 7, Lemma 3).
     b) By virtue of Cor. 3, the corollaries 1,2,3 of Prop. 1, Prop. 2, Theorem 1 and its corollaries 1,2 extend at once to a complex measure.
 
-#### Scholium {#int-v-s7-n1-sch-1 .statement}
+#### Scholium {#int-v-s7-n1-sch-1 .statement tag=096F}
 
 — For every function $f$ (resp. $g$) defined on $X$ (resp. $T$) with values in the Banach space $F$ or in $\overline{\mathbf{R}}$, let us denote by $\zeta(f)$ (resp. $\rho(g)$) the extension by 0 of $f$ to $T$ (resp. the restriction of $g$ to $X$). Then $\zeta(\rho(g)) = \varphi_X \cdot g$, $\rho(\zeta(f)) = f$. We denote by $\mu'$ the measure $\varphi_X \cdot \mu$ on $T$. For every $p \in [1, +\infty]$, Props. 1 and 2 imply that $\zeta$ maps $\mathscr{L}_F^p(X, \mu_X)$ into $\mathscr{L}_F^p(T, \mu')$, and that $\rho$ maps $\mathscr{L}_F^p(T, \mu')$ onto $\mathscr{L}_F^p(X, \mu_X)$, with preservation of norm in both cases, as well as of the integral when $p = 1$ (Th. 1); passing to the associated Hausdorff spaces, we obtain two isomorphisms inverse to each other. Similarly, if $\zeta$ and $\rho$ are applied to positive numerical functions, the essential upper integral is preserved (Prop. 1). Thus, if we agree to *identify* a function on $X$ with a function on T that is zero on X − T, and the measure $\mu_X$ with the measure $\mu'$, problems concerning induced measures are reduced to problems concerning measures defined by densities, treated in §5. This sort of reasoning is applicable to complex measures as well, by Cor. 3 of Th. 1.
 
 ### 2. Properties of induced measures
 
-#### Proposition 3 {#int-v-s7-prop-3 .statement}
+#### Proposition 3 {#int-v-s7-prop-3 .statement tag=096G}
 
 — Let X be a locally compact subspace of T, and $\lambda$ a complex measure on X. The following properties are equivalent:
 a) the canonical injection $i : X \to T$ is $\lambda$-proper;
@@ -154,25 +154,25 @@ $$
 
 because $g \varphi_X$ is the extension by 0 of $g \circ i$ to T. This proves the second formula of (7).
 
-#### Corollary 1 {#int-v-s7-prop-3-cor-1 .statement}
+#### Corollary 1 {#int-v-s7-prop-3-cor-1 .statement tag=096H}
 
 — If X is closed, then every complex measure $\lambda$ on X is induced by a measure on T.
 
 For, if K is a compact set in T then K ∩ X is compact, hence λ-integrable.
 
-#### Corollary 2 {#int-v-s7-prop-3-cor-2 .statement}
+#### Corollary 2 {#int-v-s7-prop-3-cor-2 .statement tag=096I}
 
 — Let θ be a complex measure on T, π a θ-proper mapping of T into a locally compact space Y, and π_X its restriction to X. Then π_X is θ_X-proper, and π_X(θ_X) = π(φ_X · θ).
 
 For, π_X = π ∘ i, where i is the canonical injection X → T. When θ is positive the corollary may therefore be deduced from Prop. 3 and the transitivity of image measures (§6, No. 3, Prop. 4). The case of a non-positive complex measure then follows by linearity.
 
-#### Proposition 4 {#int-v-s7-prop-4 .statement}
+#### Proposition 4 {#int-v-s7-prop-4 .statement tag=096J}
 
 — Let X and Y be two locally compact subspaces of T such that Y ⊂ X. If θ is a complex measure on T, then the measure (θ_X)_Y induced by θ_X on Y is equal to θ_Y ('transitivity of induced measures').
 
 It suffices to observe that if g is an element of $\mathscr{H}(Y; \mathbf{C})$, then the extension by 0 of g to T may be obtained by extending by 0 the extension by 0 of g to X, or again, making use of the identifications of the Scholium, that $\varphi_Y · \theta = \varphi_Y(\varphi_X · \theta)$ (§5, No. 4, Prop. 8).
 
-#### Proposition 5 {#int-v-s7-prop-5 .statement}
+#### Proposition 5 {#int-v-s7-prop-5 .statement tag=096K}
 
 — Let $(\lambda_\alpha)_{\alpha \in A}$ be an increasing directed family of positive measures on T, admitting a supremum λ, and let X be a locally compact subspace of T. The family of induced measures $\lambda_\alpha|X$ is then bounded above in $\mathscr{M}(X)$, and
 
@@ -182,7 +182,7 @@ $$
 
 In view of the identifications in the Scholium, this proposition is a special case of Prop. 5 of §5, No. 4.
 
-#### Corollary {#int-v-s7-n2-cor-1 .statement}
+#### Corollary {#int-v-s7-n2-cor-1 .statement tag=096L}
 
 — Let $(\mu_i)_{i \in I}$ be a summable family of positive measures on T, with sum μ. The family of induced measures $\mu_i|X$ is then summable, and
 
@@ -190,7 +190,7 @@ $$
 \sum_{i \in I} (\mu_i|X) = \mu|X.
 $$
 
-#### Proposition 6 {#int-v-s7-prop-6 .statement}
+#### Proposition 6 {#int-v-s7-prop-6 .statement tag=096M}
 
 — Let $\Lambda : t \mapsto \lambda_t$ be a μ-adequate mapping of T into $\mathscr{M}_+(X)$, where X is a locally compact space that is countable at infinity, and let Y be a locally compact subspace of X. Set $\int \lambda_t d\mu(t) = \nu$. The mapping $t \mapsto \lambda_t|Y$ of T into $\mathscr{M}_+(Y)$ is then μ-adequate, and
 

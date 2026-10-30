@@ -25,7 +25,7 @@ subsections:
       pdf_page: 162
 statements: 24
 exercises: 22
-content_sha256: 41cb6156e3b391476e7b20d67de3b367d04d347ce9c49ebe5a6a3fb9255fa3e3
+content_sha256: b9b1cf7d9d803c6cb6bf4f77ed72908baad9370f1917f466902feeadb2e7dd5d
 ---
 
 ## § 4. LE THÉORÈME DE BANACH-STEINHAUS
@@ -34,7 +34,7 @@ Dans ce paragraphe, on désigne par E un espace localement convexe et par E’ s
 
 ### 1. Tonneaux et espaces tonnelés
 
-#### Proposition 1 {#evt-iii-s4-prop-1 .statement}
+#### Proposition 1 {#evt-iii-s4-prop-1 .statement tag=07NZ}
 
 Soit T une partie de E. Les conditions suivantes sont équivalentes :
 (i) T est convexe, équilibré, fermé et absorbant.
@@ -49,56 +49,56 @@ Il est immédiat que $T = M^\circ$ se compose des $x \in E$ tels que $p(x) \leq 
 
 (iii) $\Rightarrow$ (i) : c’est clair.
 
-#### Corollaire {#evt-iii-s4-n1-cor-1 .statement}
+#### Corollaire {#evt-iii-s4-n1-cor-1 .statement tag=07O0}
 
 Les conditions suivantes sont équivalentes :
 (i) toute partie faiblement bornée de E’ est équicontinue ;
 (ii) tout ensemble convexe, équilibré, fermé et absorbant dans E est un voisinage de 0 ;
 (iii) toute semi-norme semi-continue inférieurement dans E est continue.
 
-#### Définition 1 {#evt-iii-s4-def-1 .statement}
+#### Définition 1 {#evt-iii-s4-def-1 .statement tag=07O1}
 
 On appelle tonneau dans E tout ensemble T satisfaisant aux conditions équivalentes de la prop. 1.
 
-#### Définition 2 {#evt-iii-s4-def-2 .statement}
+#### Définition 2 {#evt-iii-s4-def-2 .statement tag=07O2}
 
 On dit que l’espace E est tonnelé s’il satisfait aux conditions équivalentes du corollaire de la prop. 1.
 
 On sait (III, p. 22, prop. 9) que toute partie équicontinue du dual E’ de E est fortement et faiblement bornée. On peut donc traduire la définition des espaces tonnelés de la manière suivante :
 
-#### Scholie {#evt-iii-s4-n1-sch-1 .statement}
+#### Scholie {#evt-iii-s4-n1-sch-1 .statement tag=07O3}
 
 Dans le dual d’un espace tonnelé, il y a identité entre ensembles équicontinus, ensembles fortement bornés, ensembles faiblement bornés et ensembles relativement compacts pour la topologie faible. Si E est tonnelé et séparé et si $E'_b$ est son dual fort, les polaires des voisinages de 0 dans l’un de ces espaces forment une base de la bornologie canonique de l’autre, et les polaires des parties bornées de l’un de ces espaces forment une base du filtre des voisinages de 0 de l’autre.
 
-#### Proposition 2 {#evt-iii-s4-prop-2 .statement}
+#### Proposition 2 {#evt-iii-s4-prop-2 .statement tag=07O4}
 
 Tout espace localement convexe E qui est un espace de Baire (TG, IX, p. 54) est tonnelé.
 
 En effet, soit T un tonneau dans E ; comme T est absorbant, E est réunion des ensembles fermés $nT$ ($n$ entier $> 0$) ; puisque E est un espace de Baire, un au moins de ces ensembles admet un point intérieur, donc T lui-même admet un point intérieur x. Si $x \neq 0$, comme on a $-x \in T$ et que 0 est un point du segment ouvert d’extrémités x et $-x$, 0 est un point intérieur de l’ensemble convexe T (II, p. 15, prop. 16). Donc T est un voisinage de 0.
 
-#### Corollaire {#evt-iii-s4-n1-cor-2 .statement}
+#### Corollaire {#evt-iii-s4-n1-cor-2 .statement tag=07O5}
 
 Tout espace de Fréchet (et en particulier tout espace de Banach) est tonnelé.
 
 Cela résulte du th. de Baire (TG, IX, p. 55, th. 1).
 
-#### Proposition 3 {#evt-iii-s4-prop-3 .statement}
+#### Proposition 3 {#evt-iii-s4-prop-3 .statement tag=07O6}
 
 Soit $(F_i)_{i \in I}$ une famille d’espaces tonnelés, et pour chaque $i \in I$, soit $f_i$ une application linéaire de $F_i$ dans un espace vectoriel E. L’espace E, muni de la topologie localement convexe la plus fine rendant continues les $f_i$ (II, p. 29, prop. 5), est un espace tonnelé.
 
 En effet, soit T un tonneau dans E. Comme $f_i$ est continue, $f_i^{-1}(T)$ est un ensemble convexe, fermé, équilibré et absorbant dans $F_i$, autrement dit un tonneau dans $F_i$; comme $F_i$ est tonnelé, $f_i^{-1}(T)$ est un voisinage de 0 dans $F_i$, pour tout $i \in I$, ce qui entraîne que T est un voisinage de 0 dans E (II, p. 29, prop. 5).
 
-#### Corollaire 1 {#evt-iii-s4-prop-3-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s4-prop-3-cor-1 .statement tag=07O7}
 
 Tout espace quotient d’un espace tonnelé est tonnelé.
 
-#### Corollaire 2 {#evt-iii-s4-prop-3-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s4-prop-3-cor-2 .statement tag=07O8}
 
 Soit $(E_i)_{i \in I}$ une famille d’espaces localement convexes, et soit E la somme directe topologique de cette famille. Pour que E soit tonnelé, il faut et il suffit que chacun des $E_i$ le soit.
 
 La condition est évidemment suffisante en vertu de la prop. 3 ; elle est nécessaire d’après le cor. 1, puisque chacun des $E_i$ est isomorphe à un espace quotient de E (II, p. 33, prop. 8).
 
-#### Corollaire 3 {#evt-iii-s4-prop-3-cor-3 .statement}
+#### Corollaire 3 {#evt-iii-s4-prop-3-cor-3 .statement tag=07O9}
 
 Toute limite inductive d’espaces tonnelés est un espace tonnelé.
 
@@ -106,33 +106,33 @@ On prouvera plus loin (IV, p. 14, corollaire) que tout produit d’espaces tonne
 
 ### 2. Le théorème de Banach-Steinhaus
 
-#### Théorème 1 {#evt-iii-s4-thm-1 .statement}
+#### Théorème 1 {#evt-iii-s4-thm-1 .statement tag=07OA}
 
 Soient E un espace tonnelé, F un espace localement convexe. Toute partie simplement bornée H de $\mathscr{L}(E; F)$ est équicontinue.
 
 En effet, soit $p$ une semi-norme continue sur $F$; posons $q = \sup_{u \in H} (p \circ u)$. Puisque $H$ est simplement bornée, on a $q(x) < +\infty$ pour tout $x \in E$ et $q$ est une semi-norme semi-continue inférieurement, comme enveloppe supérieure finie de semi-normes continues. Comme $E$ est tonnelé, $q$ est une semi-norme continue et $H$ est donc équicontinue.
 
-#### Corollaire 1 {#evt-iii-s4-thm-1-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s4-thm-1-cor-1 .statement tag=07OB}
 
 *Soient* $E$ et $F$ *des espaces de Banach*, $H$ *un ensemble d’applications linéaires continues de* $E$ *dans* $F$; *si, pour tout* $x \in E$, *on a* $\sup_{u \in H} \|u(x)\| < +\infty$, *on a aussi* $\sup_{u \in H} \|u\| < +\infty$.
 
 En effet, l’hypothèse signifie que $H$ est simplement bornée et la conclusion qu’elle est équicontinue. De plus, tout espace de Banach est tonnelé (III, p. 25).
 
-#### Corollaire 2 (théorème de Banach-Steinhaus) {#evt-iii-s4-thm-1-cor-2 .statement}
+#### Corollaire 2 (théorème de Banach-Steinhaus) {#evt-iii-s4-thm-1-cor-2 .statement tag=07OC}
 
 *Soient* $E$ *un espace tonnelé*, $F$ *un espace localement convexe séparé et* $(u_n)$ *une suite d’applications linéaires continues de* $E$ *dans* $F$, *convergeant simplement vers une application* $u$ *de* $E$ *dans* $F$. *Alors on a* $u \in \mathscr{L}(E; F)$, *et* $(u_n)$ *converge vers* $u$ *uniformément sur toute partie précompacte de* $E$.
 
 La suite $(u_n)$ est en effet simplement bornée, donc équicontinue et le corollaire résulte du cor. à la prop. 5 de III, p. 18.
 
-#### Remarque 1 {#evt-iii-s4-n2-rem-1 .statement}
+#### Remarque 1 {#evt-iii-s4-n2-rem-1 .statement tag=07OD}
 
 La propriété exprimée par le cor. 2 n’entraîne pas que $E$ soit tonnelé : nous verrons plus loin que le dual fort d’un espace de Fréchet la possède, bien que n’étant pas nécessairement tonnelé (IV, p. 22, corollaire et p. 58, exerc. 5).
 
-#### Remarque 2 {#evt-iii-s4-n2-rem-2 .statement}
+#### Remarque 2 {#evt-iii-s4-n2-rem-2 .statement tag=07OE}
 
 Soient $E$ et $F$ deux espaces de Banach et soit $(u_n)$ une suite d’applications linéaires continues de $E$ dans $F$ telle que $\sup \|u_n\| = +\infty$. L’ensemble $X$ des $x \in E$ tels que $\sup \|u_n(x)\| = +\infty$ est alors *dense* dans $E$ et est l’intersection d’une suite d’ouverts de $E$. En effet, notons $X_k$ l’ensemble des $x \in E$ tels que $\sup \|u_n(x)\| > k$ (pour $k$ entier $> 0$). Chaque $X_k$ est ouvert et $X$ est l’intersection des $X_k$. Comme $E$ est un espace de Baire, il suffit de montrer que chaque $X_k$ est dense dans $E$. Or si le complémentaire de $X_k$ contenait un ouvert non vide $U$, on aurait $\|u_n(x)\| \leq 2k$ pour $x \in U - U$ et, comme $U - U$ est un voisinage de $0$, on aurait $\sup \|u_n\| < +\infty$.
 
-#### Corollaire 3 {#evt-iii-s4-thm-1-cor-3 .statement}
+#### Corollaire 3 {#evt-iii-s4-thm-1-cor-3 .statement tag=07OF}
 
 *Soient* $E$ *un espace tonnelé*, $F$ *un espace localement convexe séparé*, $\Phi$ *un filtre sur* $\mathscr{L}(E; F)$ *qui converge simplement dans* $E$ *vers une application* $u$ *de* $E$ *dans* $F$. *Si* $\Phi$ *contient une partie simplement bornée de* $\mathscr{L}(E; F)$ *ou si* $\Phi$ *admet une base dénombrable*, $u$ *est une application linéaire continue de* $E$ *dans* $F$, *et* $\Phi$ *converge uniformément vers* $u$ *dans toute partie précompacte de* $E$.
 
@@ -140,31 +140,31 @@ Supposons d’abord que $\Phi$ contienne un ensemble simplement borné $H$; comm
 
 On notera qu’un filtre sur $\mathscr{L}(E; F)$, qui converge simplement et admet une base dénombrable, ne contient pas nécessairement un ensemble simplement borné : c’est ce que montre l’exemple du filtre des voisinages de 0 dans $F = \mathscr{L}(K ; F)$ lorsque la topologie de $F$ est métrisable mais ne peut être définie par une seule norme.
 
-#### Exemple {#evt-iii-s4-n2-exa-1 .statement}
+#### Exemple {#evt-iii-s4-n2-exa-1 .statement tag=07OG}
 
 Soit $E$ l’espace de Banach (sur $\mathbf{C}$) formé des fonctions complexes continues et de période 1 dans $\mathbf{R}$, avec la norme $\|f\| = \sup_x |f(x)|$.
 
 Pour tout entier $n \in \mathbf{Z}$ et toute fonction $f \in E$, posons $c_n(f) = \int_0^1 f(x)\ e^{-2i\pi nx} dx$ ($n$-ième coefficient de Fourier de $f$) ; chacune des applications $f \mapsto c_n(f)$ est une forme linéaire continue sur $E$. Soit $(\alpha_n)$ une suite de nombres complexes telle que, pour toute fonction $f \in E$, la série de terme général $\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)$ soit convergente. Dans ces conditions, l’application $u : f \mapsto \alpha_0 c_0(f) + \sum_{n \geq 1} [\alpha_0 c_n(f) + \alpha_{-n} c_{-n}(f)]$ est une forme linéaire continue sur $E$ ; \* autrement dit, il existe une mesure $\mu$ sur $[0, 1]$ telle que $u(f) = \int f(x)\ d\mu(x)$ pour toute fonction $f \in E$, ou encore que $\alpha_{-n}$ soit le $n$-ième coefficient de Fourier de $\mu$. \* En effet, pour tout entier $m > 0$, l’application $f \mapsto \sum_{k = -m}^m \alpha_k c_k(f)$ est une forme linéaire continue $u_m$ sur $E$, et pour toute $f \in E$, la suite $(u_m(f))$ converge vers $u(f)$ par hypothèse. L’assertion résulte donc du th. de Banach-Steinhaus, puisque $E$ est tonnelé.
 
-#### Corollaire 4 {#evt-iii-s4-thm-1-cor-4 .statement}
+#### Corollaire 4 {#evt-iii-s4-thm-1-cor-4 .statement tag=07OH}
 
 *Soient $E$ et $F$ deux espaces localement convexes, $\mathfrak{S}$ un recouvrement de $E$ formé de parties bornées. Si $E$ est tonnelé et si $F$ est séparé et quasi-complet, l’espace $\mathscr{L}_{\mathfrak{S}}(E ; F)$ est séparé et quasi-complet.*
 
 En effet, toute partie bornée et fermée de $\mathscr{L}_{\mathfrak{S}}(E ; F)$ est simplement bornée (puisque $\mathfrak{S}$ est un recouvrement de $E$), donc équicontinue (III, p. 25, th. 1) et par suite est un sous-espace complet de $\mathscr{L}_{\mathfrak{S}}(E ; F)$ en vertu de la prop. 11 (III, p. 22).
 
-#### Corollaire 5 {#evt-iii-s4-thm-1-cor-5 .statement}
+#### Corollaire 5 {#evt-iii-s4-thm-1-cor-5 .statement tag=07OI}
 
 *Le dual fort et le dual faible d’un espace tonnelé sont quasi-complets.*
 
 ### 3. Parties bornées de $\mathscr{L}(E ; F)$ (cas quasi-complet)
 
-#### Théorème 2 {#evt-iii-s4-thm-2 .statement}
+#### Théorème 2 {#evt-iii-s4-thm-2 .statement tag=07OJ}
 
 *Soient $E$ un espace localement convexe séparé, $F$ un espace localement convexe, $\mathfrak{S}$ l’ensemble des parties de $E$ convexes, équilibrées, bornées, fermées et semi-complètes (III, p. 7). Toute partie simplement bornée $H$ de $\mathscr{L}(E ; F)$ est bornée pour la $\mathfrak{S}$-topologie.*
 
 Soit $A \in \mathfrak{S}$. L’espace $E_A$ est alors un espace de Banach (III, p. 8, corollaire), donc tonnelé. D’autre part, l’image canonique de $H$ dans $\mathscr{L}(E_A ; F)$ est simplement bornée, donc équicontinue (III, p. 25, th. 1). Par suite, l’ensemble des $u(x)$ pour $u \in H$ et $x \in A$ est borné dans $F$, ce qui montre que $H$ est bornée pour la $\mathfrak{S}$-topologie.
 
-#### Corollaire 1 {#evt-iii-s4-thm-2-cor-1 .statement}
+#### Corollaire 1 {#evt-iii-s4-thm-2-cor-1 .statement tag=07OK}
 
 *Soient $E$ un espace localement convexe séparé, $F$ un espace localement convexe, et $\mathfrak{S}$ un ensemble de parties bornées de $E$. Si $E$ est semi-complet, toute partie simplement bornée de $\mathscr{L}(E ; F)$ est bornée pour la $\mathfrak{S}$-topologie.*
 
@@ -172,13 +172,13 @@ Il suffit d’appliquer le th. 2, quitte à remplacer les ensembles de $\mathscr
 
 Lorsque E est semi-complet (par exemple quasi-complet), on peut donc parler de parties bornées de $\mathscr{L}(E ; F)$ sans préciser pour quelle $\mathscr{S}$-topologie, puisque celles-ci sont les mêmes pour toutes les $\mathscr{S}$-topologies dès que $\mathscr{S}$ est un recouvrement de E.
 
-#### Corollaire 2 {#evt-iii-s4-thm-2-cor-2 .statement}
+#### Corollaire 2 {#evt-iii-s4-thm-2-cor-2 .statement tag=07OL}
 
 Tout espace bornologique semi-complet est tonnelé.
 
 Toute partie simplement bornée de son dual est fortement bornée (cor. 1), donc équicontinue (III, p. 22, prop. 10).
 
-#### Corollaire 3 {#evt-iii-s4-thm-2-cor-3 .statement}
+#### Corollaire 3 {#evt-iii-s4-thm-2-cor-3 .statement tag=07OM}
 
 Soit E un espace localement convexe. Toute partie de E bornée pour $\sigma(E, E')$ est bornée.
 

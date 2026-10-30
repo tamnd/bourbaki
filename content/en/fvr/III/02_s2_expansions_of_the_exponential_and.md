@@ -29,7 +29,7 @@ subsections:
       pdf_page: 126
 statements: 1
 exercises: 9
-content_sha256: f6b088ac6701be2b05fce77ca968574d31c178217f434b3fda6539f2d3368691
+content_sha256: 9b4d042c915247a66706e89ec93b075b9470428497af056aac806e76d9a56cf9
 ---
 
 ## § 2. EXPANSIONS OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS, AND OF THE FUNCTIONS ASSOCIATED WITH THEM
@@ -72,7 +72,7 @@ $$
 
 to within $1/10^9$. Formula (5) proves, moreover, that $e$ is an *irrational* number $^{2}$ (*Gen. Top.*, IV, p. 375).
 
-#### Remark {#fvr-iii-s2-n1-rem-1 .statement}
+#### Remark {#fvr-iii-s2-n1-rem-1 .statement tag=08B3}
 
 Since the remainder in formula (1) is $> 0$ for $x > 0$ one has, for $x > 0$
 

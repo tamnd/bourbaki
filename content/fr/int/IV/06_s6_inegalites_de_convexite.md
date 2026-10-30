@@ -32,14 +32,14 @@ subsections:
       pdf_page: 217
 statements: 23
 exercises: 20
-content_sha256: af81f067a5e3acc267fe175e6df1e7af0e529ace4d439ab4bab117289a276276
+content_sha256: f9fb111cfea184d5433c8b58063374085c05d9f9938076a6cb24c7f07e047fd5
 ---
 
 ## § 6. Inégalités de convexité
 
 ### 1. Le théorème de convexité
 
-#### Théorème 1 {#int-iv-s6-thm-1 .statement}
+#### Théorème 1 {#int-iv-s6-thm-1 .statement tag=08XD}
 
 Soient $X$ un espace localement compact, $\mu$ une mesure positive sur $X$, $F$ un espace de Banach réel, $D$ un ensemble convexe fermé dans $F$, $f$ une fonction sur $X$ telle que $f(X) \subset D$. Pour toute fonction numérique intégrable $g \geq 0$ non négligeable et telle que $fg$ soit intégrable, le point $\frac{\int fg\,d\mu}{\int g\,d\mu}$ appartient à $D$.
 
@@ -49,7 +49,7 @@ $$
 $$
 Cela prouve que le point $\frac{\int fg\,d\mu}{\int g\,d\mu}$ appartient à tout demi-espace fermé contenant $D$; mais en vertu du th. de Hahn-Banach, $D$ est l’intersection des demi-espaces fermés qui le contiennent (*Esp. vect. top.*, chap. II, 2e éd., § 5, n° 3, cor. 1 de la prop. 4), d’où le théorème.
 
-#### Corollaire {#int-iv-s6-n1-cor-1 .statement}
+#### Corollaire {#int-iv-s6-n1-cor-1 .statement tag=08XE}
 
 Si la mesure positive $\mu$ est de masse totale égale à 1, et si $f$ est intégrable, $\int f d\mu$ appartient à l’enveloppe fermée convexe de $f(X)$ dans $F$.
 
@@ -59,7 +59,7 @@ Il suffit de prendre pour fonction $g$ la constante 1.
 
 Nous allons préciser le th. 1 pour les fonctions mesurables numériques (finies ou non).
 
-#### Définition 1 {#int-iv-s6-def-1 .statement}
+#### Définition 1 {#int-iv-s6-def-1 .statement tag=08XF}
 
 Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$. Etant donnée une fonction numérique $f$ (finie ou non), définie localement presque partout dans $X$, on appelle maximum en mesure, ou $\mu$-maximum (resp. minimum en mesure, ou $\mu$-minimum) de la fonction $f$, et on désigne par $M_\infty(f)$ (resp. $m_\infty(f)$) la borne inférieure (resp. supérieure) de l’ensemble des nombres $\alpha$ tels que l’on ait $f(x) \leq \alpha$ (resp. $f(x) \geq \alpha$) localement presque partout (pour $\mu$).
 
@@ -89,7 +89,7 @@ si le second membre est défini.
 
 Lorsque $M_\infty(f) < +\infty$, on a $f(x) < +\infty$ localement presque partout, mais pas nécessairement presque partout. On dit qu’une fonction numérique $f$ est *bornée en mesure* (pour la mesure $\mu$) si elle est *définie et finie presque partout*, et si en outre les nombres $m_\infty(f)$ et $M_\infty(f)$ sont tous deux finis (cette dernière condition revenant à dire que $M_\infty(|f|) < +\infty$).
 
-#### Proposition 1 (inégalité de la moyenne) {#int-iv-s6-prop-1 .statement}
+#### Proposition 1 (inégalité de la moyenne) {#int-iv-s6-prop-1 .statement tag=08XG}
 
 *Soit $f$ une fonction numérique mesurable et bornée en mesure. Pour toute fonction numérique intégrable $g \geq 0$, la fonction $fg$ (définie presque partout) est intégrable et on a*
 
@@ -110,7 +110,7 @@ appartient à la frontière de $D$ (exerc. 2).
 
 ### 3. Les espaces $L_F^\infty$
 
-#### Définition 2 {#int-iv-s6-def-2 .statement}
+#### Définition 2 {#int-iv-s6-def-2 .statement tag=08XH}
 
 Pour toute application $f$ de $X$ dans un espace de Banach $F$, on pose $N_\infty(f) = M_\infty(|f|)$; on dit que $f$ est bornée en mesure (pour la mesure $\mu$) si $N_\infty(f)$ est fini. On désigne par $\mathscr{L}_F^\infty(X, \mu)$ (ou $\mathscr{L}_F^\infty(\mu)$, ou simplement $\mathscr{L}_F^\infty$) l’ensemble des applications mesurables et bornées en mesure de $X$ dans $F$.
 
@@ -124,13 +124,13 @@ d’autre part, on a $N_\infty(\alpha f) = |\alpha| N_\infty(f)$ pour tout scala
 
 Il est clair que toute fonction égale localement presque partout à une fonction de $\mathscr{L}_F^\infty$ appartient à $\mathscr{L}_F^\infty$. En particulier, les fonctions *localement négligeables* définies dans $X$ et à valeurs dans $F$ forment un sous-espace vectoriel $\mathscr{N}_F^\infty$ de $\mathscr{L}_F^\infty$, caractérisé par la relation $N_\infty(f) = 0$ (adhérence de 0 pour la topologie définie par $N_\infty(f)$). On désigne par $L_F^\infty(X, \mu)$ (ou $L_F^\infty(\mu)$ ou $L_F^\infty$) l’espace séparé associé à $\mathscr{L}_F^\infty$, c’est-à-dire l’espace quotient $\mathscr{L}_F^\infty / \mathscr{N}_F^\infty$; sa topologie est définie par la *norme* déduite de $N_\infty$ par passage au quotient; la norme d’une classe $\dot{f} \in L_F^\infty$ s’écrit $N_\infty(\dot{f})$, ou encore $\| \dot{f} \|_\infty$. Lorsque $F = \mathbf{R}$ (resp. $\mathbf{C}$), on écrit $\mathscr{L}^\infty$ et $L^\infty$ au lieu de $\mathscr{L}_\mathbf{R}^\infty$ et $L_\mathbf{R}^\infty$ (resp. $\mathscr{L}_\mathbf{C}^\infty$ et $L_\mathbf{C}^\infty$) s’il n’en résulte pas de confusion.
 
-#### Proposition 2 {#int-iv-s6-prop-2 .statement}
+#### Proposition 2 {#int-iv-s6-prop-2 .statement tag=08XI}
 
 L’espace $\mathscr{L}_F^\infty$ est complet ; l’espace $L_F^\infty$ est un espace de Banach.
 
 Soit en effet $(\mathbf{f}_n)$ une suite de Cauchy dans $\mathscr{L}_F^\infty$; pour tout entier $n$, il existe un entier $k_n$ tel que, pour $r \geq k_n$ et $s \geq k_n$, on ait $N_\infty(\mathbf{f}_r - \mathbf{f}_s) \leq 1/n$; il existe donc un ensemble localement négligeable $A_{rs}$ tel que l’on ait $|\mathbf{f}_r(x) - \mathbf{f}_s(x)| \leq 1/n$ pour tout $x \notin A_{rs}$. Si $A_n$ est la réunion des ensembles $A_{rs}$ (pour $r \geq k_n$ et $s \geq k_n$), $A_n$ est localement négligeable, et pour tout $x \notin A_n$, on a $|\mathbf{f}_r(x) - \mathbf{f}_s(x)| \leq 1/n$ pour tous les indices $r \geq k_n, s \geq k_n$. Soit $A$ l’ensemble localement négligeable réunion des $A_n$, et posons $g_n(x) = \mathbf{f}_n(x)$ pour $x \notin A$, $g_n(x) = 0$ pour $x \in A$; $g_n$ appartient à $\mathscr{L}_F^\infty$, et d’après la définition de $A$, la suite $(g_n)$ converge uniformément dans $X$ vers une fonction $g$. Il en résulte que la fonction $g$ est mesurable (§ 5, n° 4, th. 2); en outre, $g$ est bornée dans l’ensemble des $x \in X$ où $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$, et comme le complémentaire de cet ensemble est localement négligeable, $g$ appartient à $\mathscr{L}_F^\infty$. Il est clair que dans $\mathscr{L}_F^\infty$, la suite $(g_n)$ a pour limite $g$, et il en est donc de même de la suite $(\mathbf{f}_n)$, puisque $N_\infty(\mathbf{f}_n - g_n) = 0$ pour tout $n$. La seconde partie de la proposition s’en déduit immédiatement.
 
-#### Remarque 1 {#int-iv-s6-n3-rem-1 .statement}
+#### Remarque 1 {#int-iv-s6-n3-rem-1 .statement tag=08XJ}
 
 Toute fonction $f$ continue et bornée dans $X$, à valeurs dans $F$, appartient à $\mathscr{L}_F^\infty$, et l’on a
 $$
@@ -144,7 +144,7 @@ $$
 $$
 (§ 3, n° 4, déf. 2).
 
-#### Remarque 2 {#int-iv-s6-n3-rem-2 .statement}
+#### Remarque 2 {#int-iv-s6-n3-rem-2 .statement tag=0E69}
 
 Il est immédiat que la topologie définie par la semi-norme $N_\infty$ est plus fine que la topologie induite sur $\mathscr{L}_F^\infty$ par la topologie de la convergence en mesure ($§ 5, n° 11$).
 
@@ -152,7 +152,7 @@ Il est immédiat que la topologie définie par la semi-norme $N_\infty$ est plus
 
 Dans ce numéro, $p$ et $q$ désigneront deux nombres réels tels que $1 \leq p \leq +\infty, 1 \leq q \leq +\infty$, liés par la relation $1/p + 1/q = 1$; on a donc $q = p/(p - 1)$ si $1 < p < +\infty, \ q = +\infty$ si $p = 1$ et $q = 1$ si $p = +\infty$; $p$ et $q$ seront appelés des exposants conjugués. On remarquera que la relation $1 \leq p \leq 2$ équivaut à $2 \leq q \leq +\infty$; on n’a $p = q$ que lorsque $p$ et $q$ sont égaux à 2.
 
-#### Théorème 2 (inégalité de Hölder) {#int-iv-s6-thm-2 .statement}
+#### Théorème 2 (inégalité de Hölder) {#int-iv-s6-thm-2 .statement tag=08XK}
 
 Soient $f$ et $g$ deux fonctions numériques finies presque partout et telles que $f$ soit égale presque partout à une fonction de $\mathscr{L}^p$ et $g$ à une fonction de $\mathscr{L}^q$. Alors la fonction $fg$ (définie presque partout) est intégrable, et on a
 
@@ -168,7 +168,7 @@ $$
 
 l’inégalité de Hölder pour l’intégrale supérieure (chap. I, n° 3, prop. 4) donne l’inégalité (4), et la relation $N_1(fg) < +\infty$ montre alors que $fg$ est intégrable ($§ 5,$ n° 6, th. 5). Si $p = 1, \ q = +\infty$, l’inégalité (4) et le fait que $fg$ soit intégrable sont des conséquences immédiates de l’inégalité de la moyenne (n° 2, prop. 1); le théorème est donc démontré dans tous les cas.
 
-#### Corollaire 1 {#int-iv-s6-thm-2-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s6-thm-2-cor-1 .statement tag=08XL}
 
 Soient $F, G, H$ trois espaces de Banach, et $(\mathbf{u}, \mathbf{v}) \mapsto \Phi(\mathbf{u}, \mathbf{v})$ une application bilinéaire continue de $F \times G$ dans $H$, telle que $|\Phi(\mathbf{u}, \mathbf{v})| \leq |\mathbf{u}| \cdot |\mathbf{v}|$. Si $\mathbf{f} \in \mathscr{L}_F^p$ et $\mathbf{g} \in \mathscr{L}_G^q$, la fonction $\Phi(\mathbf{f}, \mathbf{g})$ est intégrable, et on a
 
@@ -180,7 +180,7 @@ En effet, $\Phi(\mathbf{f}, \mathbf{g})$ est mesurable ($§ 5,$ n° 3, cor. 5 du
 
 Deux cas particuliers du cor. 1 sont importants dans les applications :
 
-#### Corollaire 2 {#int-iv-s6-thm-2-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s6-thm-2-cor-2 .statement tag=08XM}
 
 Soit F un espace de Banach réel (resp. complexe), F' son dual fort (Esp. vect. top., chap. IV, § 3), et soit (z, z') \mapsto \langle z, z' \rangle la forme bilinéaire canonique sur F × F'. Si f \in \mathscr{L}_F^p et g \in \mathscr{L}_{F'}^q, la fonction numérique (resp. complexe) $\langle f, g \rangle$ est intégrable, et on a
 
@@ -192,7 +192,7 @@ En effet, on a $|\langle z, z' \rangle| \leq |z| \cdot |z'|$.
 
 Lorsque F est un espace hilbertien réel ou complexe, on sait qu’on peut l’identifier canoniquement à son dual F' (Esp. vect. top., chap. V, § 1, n° 6). Comme l’espace L_F^2 est complet, on a le résultat suivant :
 
-#### Corollaire 3 {#int-iv-s6-thm-2-cor-3 .statement}
+#### Corollaire 3 {#int-iv-s6-thm-2-cor-3 .statement tag=08XN}
 
 Soient $\mu$ une mesure positive sur X, F un espace hilbertien réel (resp. complexe). Sur l’espace L_F^2, la forme symétrique (resp. hermitienne)
 
@@ -202,7 +202,7 @@ $$
 
 définit une structure d’espace hilbertien, pour laquelle la norme est égale à $\| \tilde{f} \|_2$.
 
-#### Corollaire 4 {#int-iv-s6-thm-2-cor-4 .statement}
+#### Corollaire 4 {#int-iv-s6-thm-2-cor-4 .statement tag=08XO}
 
 Soient F un espace de Banach, f une fonction de $\mathscr{L}_F^p$, g une fonction numérique appartenant à $\mathscr{L}^q$; la fonction fg est intégrable et on a
 
@@ -210,7 +210,7 @@ $$
 \left| \int fg \, d\mu \right| \leq \int |fg| \, d|\mu| \leq N_p(f)N_q(g).
 $$
 
-#### Corollaire 5 {#int-iv-s6-thm-2-cor-5 .statement}
+#### Corollaire 5 {#int-iv-s6-thm-2-cor-5 .statement tag=08XP}
 
 Soient $f_1, f_2, \ldots, f_n$ n fonctions positives intégrables, $\alpha_1, \alpha_2, \ldots, \alpha_n$ n nombres > 0 tels que $\sum_{i=1}^n \alpha_i = 1$; dans ces conditions, la fonction $f_1^{\alpha_1} f_2^{\alpha_2} \ldots f_n^{\alpha_n}$ est intégrable, et on a
 
@@ -222,7 +222,7 @@ En effet, le produit $f_1^{\alpha_1} f_2^{\alpha_2} \ldots f_n^{\alpha_n}$ est m
 
 Le cor. 2 du th. 2 se précise par la proposition suivante:
 
-#### Proposition 3 {#int-iv-s6-prop-3 .statement}
+#### Proposition 3 {#int-iv-s6-prop-3 .statement tag=08XQ}
 
 *Soient $\mu$ une mesure positive sur $X$, $F$ un espace de Banach réel ou complexe, $F'$ son dual fort, $(z, z') \mapsto \langle z, z' \rangle$ la forme bilinéaire canonique sur $F \times F'$.
 
@@ -301,7 +301,7 @@ comme $\varepsilon$ est arbitraire et $\alpha$ un nombre quelconque < $N_\infty(
 
 On raisonne exactement de la même manière pour démontrer la relation (10), en considérant séparément le cas $1 \leq q < +\infty$, et le cas $q = +\infty$, et en utilisant le fait que, pour tout $z' \in F'$, on a $|z'| = \sup_{|z| \leq 1} |\langle z, z' \rangle|$ par définition de la norme dans $F'$.
 
-#### Remarque 1 {#int-iv-s6-n4-rem-1 .statement}
+#### Remarque 1 {#int-iv-s6-n4-rem-1 .statement tag=08XR}
 
 Soit $\mathscr{E}$ un sous-espace vectoriel partout dense de $\mathscr{L}_{F'}^q$; alors la formule (9) subsiste lorsque $g$ parcourt l’intersection de $\mathscr{E}$ avec l’ensemble $B$ des fonctions de $\mathscr{L}_{F'}^q$, telles que $N_q(g) \leq 1$. Il suffit en effet de remarquer que l’intérieur $\dot{B}$ de $B$ est dense par rapport à $B$, et que $\dot{B} \cap \mathscr{E}$ est dense par rapport à $\dot{B}$, puisque $\dot{B}$ est ouvert. Cette remarque s’applique en particulier à l’ensemble $\mathscr{E} = \mathscr{K}(X; F')$ des fonctions continues à support compact (à valeurs dans $F'$) lorsque $1 \leq q < +\infty$, c’est-à-dire $1 < p \leq +\infty$. Mais dans ce cas, la formule (9) est vraie lorsque $g$ parcourt $B \cap \mathscr{K}(X; F')$, même pour $p = 1$. En effet, on peut comme ci-dessus se borner au cas où $f$ est étagée. On a vu alors que si $N_1(f) = 1$, pour tout $\varepsilon > 0$, il existe une fonction étagée $g \in \mathscr{L}_{F'}^\infty$ telle que $|g(x)| \leq 1$ pour tout $x \in X$ et que $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. Il existe un nombre fini d’ensembles compacts $K_i$ deux à deux sans point commun, tels que $g$ ait une valeur constante $a'_i$ dans chacun des $K_i$ et que, si $K$ est la réunion des $K_i$, on ait $\int |f| \varphi_{CK} d\mu \leq \varepsilon$. Soit $U_i$ un voisinage de $K_i$ tel que les ensembles $U_i$ soient deux à deux sans point commun, et soit $h_i$ une application continue de $X$ dans $\{0, 1\}$, de support contenu dans $U_i$ et égale à 1 dans $K_i$. Si on pose $h = \sum a'_i h_i$, on a $h(x) = g(x)$ dans $K$ et $|h(x)| \leq 1$ dans $X$, donc
 $$
@@ -309,7 +309,7 @@ $$
 $$
 et par suite $|\int \langle f, h \rangle d\mu| \geq 1 - 3\varepsilon$, ce qui prouve notre assertion. On peut faire des remarques analogues pour la formule (10).
 
-#### Remarque 2 {#int-iv-s6-n4-rem-2 .statement}
+#### Remarque 2 {#int-iv-s6-n4-rem-2 .statement tag=0E6A}
 
 Soient $\mu$ une mesure positive sur $X$, $f$ une fonction mesurable $\geq 0$ (finie ou non), dont le support est contenu dans une réunion dénombrable d’ensembles compacts $K_n$. On a alors, pour tout $p$ tel que $1 \leq p \leq +\infty$,
 $$
@@ -325,13 +325,13 @@ $$
 
 d’où, en passant à la limite (§ 1, n° 3, th. 3), $\sup \int^* |f g| d\mu = +\infty$.
 
-#### Corollaire {#int-iv-s6-n4-cor-1 .statement}
+#### Corollaire {#int-iv-s6-n4-cor-1 .statement tag=08XS}
 
 Soient $\mu$ une mesure positive sur X, F un espace de Banach, F' son dual fort, g une fonction quelconque de $\mathscr{L}^q_{F'}$. La forme linéaire sur $L^p_F$, déduite par passage au quotient de la forme linéaire $f \mapsto \int \langle f, g \rangle d\mu$ sur $\mathscr{L}^p_F$, est continue et a pour norme $N_q(g)$.
 
 ### 5. Application: relations entre les espaces $L^p_F$ ($1 \leqslant p \leqslant +\infty$)
 
-#### Proposition 4 {#int-iv-s6-prop-4 .statement}
+#### Proposition 4 {#int-iv-s6-prop-4 .statement tag=08XT}
 
 Soit f une fonction mesurable à valeurs dans un espace de Banach F; l’ensemble I des nombres p tels que 1 \leq p \leq +\infty et que N_p(f) soit finie, est vide ou est un intervalle de $\bar{\mathbf{R}}$. Si I n’est pas vide, la restriction à I de l’application p \mapsto N_p(f) est continue; en outre, si f n’est pas négligeable, log N_p(f) est une fonction convexe de 1/p dans $\bar{I}$.
 
@@ -359,7 +359,7 @@ Lorsque $p \in J$ tend vers r, $|f|^p \varphi_A$ tend vers $|f|^r \varphi_A$ en 
 
 Le même raisonnement s’applique au point s si $s < +\infty$. Supposons enfin $s = +\infty$. Compte tenu de (13), il suffit de prouver que $\liminf_{p \to +\infty} N_p(f) \geq N_\infty(f)$. Or, soit $a$ un nombre tel que $0 < a < N_\infty(f)$. Comme par hypothèse il existe des valeurs finies de $p$ telles que $N_p(f) < +\infty$, l’ensemble A des $x \in X$ tels que $|f(x)| \geq a$, qui est mesurable et non négligeable, est intégrable en raison de l’inégalité $\varphi_A \leq (|f|/a)^p$; en outre, on tire de cette inégalité que $N_p(f) \geq a . (|\mu|(A))^{1/p}$; faisant tendre $p$ vers $+\infty$, il vient $\liminf_{p \to +\infty} N_p(f) \geq a$, ce qui achève la démonstration.
 
-#### Corollaire {#int-iv-s6-n5-cor-1 .statement}
+#### Corollaire {#int-iv-s6-n5-cor-1 .statement tag=08XU}
 
 Si $r, s, p$ sont trois nombres tels que $1 \leq r < p < s \leq +\infty$, l’intersection $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ est contenue dans $\mathscr{L}_F^p$.
 
@@ -367,7 +367,7 @@ On notera qu’en général, les topologies induites sur l’intersection $\math
 
 La prop. 4 peut être précisée lorsque $\mu$ est une mesure bornée :
 
-#### Proposition 5 {#int-iv-s6-prop-5 .statement}
+#### Proposition 5 {#int-iv-s6-prop-5 .statement tag=08XV}
 
 Soit $\mu$ une mesure bornée, et soit $f$ une fonction $\mu$-mesurable à valeurs dans un espace de Banach F. L’ensemble I des nombres $p$ tels que $1 \leq p \leq +\infty$ et que $N_p(f)$ soit finie, est vide ou est un intervalle d’origine $p = 1$ et contenant ce point; en outre, $(\mu(X))^{-1/p} N_p(f)$ est fonction croissante de $p$ dans I.
 
@@ -375,13 +375,13 @@ BARYCENTRES
 
 C’est une conséquence immédiate de la prop. 4 ci-dessus, et du cor. de la prop. 4 du chap. I, n° 3.
 
-#### Corollaire {#int-iv-s6-n5-cor-2 .statement}
+#### Corollaire {#int-iv-s6-n5-cor-2 .statement tag=08XW}
 
 Si la mesure $\mu$ est bornée, la relation $r < s$ entraîne $\mathscr{L}_F^s \subset \mathscr{L}_F^r$; en outre, la topologie de la convergence en moyenne d’ordre $s$ est plus fine que la topologie de la convergence en moyenne d’ordre $r$ (sur $\mathscr{L}_F^s$).
 
 On peut montrer qu’en général la topologie de la convergence en moyenne d’ordre $s$ est strictement plus fine que la topologie de la convergence en moyenne d’ordre $r$ (exerc. 8).
 
-#### Proposition 6 {#int-iv-s6-prop-6 .statement}
+#### Proposition 6 {#int-iv-s6-prop-6 .statement tag=08XX}
 
 Soient $X$ un espace discret, $\mu$ la mesure sur $X$ définie par la masse $+1$ placée en chaque point de $X$. Si $f$ est une application de $X$ dans l’espace de Banach $F$, l’ensemble $I$ des nombres $p$ tels que $1 \leq p \leq +\infty$ et que $N_p(f)$ soit finie, est vide ou est un intervalle d’extrémité $+\infty$ et contenant ce point ; en outre, $N_p(f)$ est fonction décroissante de $p$ dans $I$.
 
@@ -391,7 +391,7 @@ N_\infty(f) = |f(x_0)| \leq N_p(f)
 $$
 pour tout $p$ fini. Comme la fonction $\log N_p(f)$ est convexe par rapport à $1/p$ et prend sa plus petite valeur au point $+\infty$, elle est nécessairement fonction décroissante de $p$ dans $I$ (Fonct. var. réelle, chap. I, §4, n° 3, prop. 5), ce qui achève la démonstration.
 
-#### Corollaire {#int-iv-s6-n5-cor-3 .statement}
+#### Corollaire {#int-iv-s6-n5-cor-3 .statement tag=08XY}
 
 Si $X$ est discret et si la mesure $\mu$ est définie par la masse $+1$ en chaque point de $X$, la relation $r < s$ entraîne $\mathscr{L}_F^r \subset \mathscr{L}_F^s$; en outre, la topologie de la convergence en moyenne d’ordre $r$ est plus fine que la topologie de la convergence en moyenne d’ordre $s$ (sur $\mathscr{L}_F^r$).
 

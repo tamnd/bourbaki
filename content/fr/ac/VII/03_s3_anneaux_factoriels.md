@@ -48,28 +48,28 @@ subsections:
       pdf_page: 236
 statements: 23
 exercises: 27
-content_sha256: bd58b2a9c389cecc00a730d25e8d44b0a759280d80ba2a928402bc8c6d17834b
+content_sha256: d2ef36892e7b89d8bfdf27b36d91f44224c46e14838484ef769161a941708c5c
 ---
 
 ## § 3. Anneaux factoriels
 
 ### 1. Définition des anneaux factoriels
 
-#### Définition 1 {#ac-vii-s3-def-1 .statement}
+#### Définition 1 {#ac-vii-s3-def-1 .statement tag=051N}
 
 On appelle anneau factoriel un anneau de Krull dont tous les idéaux divisoriels sont principaux.
 
 En d’autres termes, le groupe des classes de diviseurs ($§ 1$, n° 2) est réduit à 0.
 
-#### Exemple 1 {#ac-vii-s3-n1-exa-1 .statement}
+#### Exemple 1 {#ac-vii-s3-n1-exa-1 .statement tag=0CIQ}
 
 Tout anneau principal est factoriel (et, rappelons-le, est un anneau de Dedekind). Réciproquement tout anneau de Dedekind factoriel est principal en vertu du § 2, n° 2, th. 1, c).
 
-#### Exemple 2 {#ac-vii-s3-n1-exa-2 .statement}
+#### Exemple 2 {#ac-vii-s3-n1-exa-2 .statement tag=0CIR}
 
 En particulier, si $K$ est un corps, les anneaux $K[X]$ et $K[[X]]$ sont factoriels (voir th. 2 et prop. 8 ci-dessous pour des généralisations).
 
-#### Exemple 3 {#ac-vii-s3-n1-exa-3 .statement}
+#### Exemple 3 {#ac-vii-s3-n1-exa-3 .statement tag=0CIS}
 
 \* L’anneau local d’un point simple d’une variété algébrique est factoriel. L’anneau des germes de fonctions analytiques à l’origine de $\mathbf{C}^n$ est factoriel. \*
 
@@ -79,7 +79,7 @@ Etant donné un anneau $A$, nous aurons à considérer la condition suivante:
 
 (M) Toute famille non vide d’idéaux principaux entiers de $A$ possède un élément maximal.
 
-#### Théorème 1 {#ac-vii-s3-thm-1 .statement}
+#### Théorème 1 {#ac-vii-s3-thm-1 .statement tag=051O}
 
 Soit $A$ un anneau intègre. Les conditions suivantes sont équivalentes:
 a) $A$ est factoriel;
@@ -113,7 +113,7 @@ Montrons enfin que e) implique a). Soit $a$ un idéal divisoriel de A. Il existe
 
 C.Q.F.D.
 
-#### Proposition 1 {#ac-vii-s3-prop-1 .statement}
+#### Proposition 1 {#ac-vii-s3-prop-1 .statement tag=051P}
 
 Soit A un anneau de Krull. Si tout idéal divisoriel de A est inversible, alors, pour tout idéal maximal m de A, $A_m$ est factoriel. La réciproque est vraie si on suppose en outre que tout idéal divisoriel de A est de type fini (en particulier si A est noethérien).
 
@@ -123,7 +123,7 @@ Supposons que tout idéal divisoriel de A soit inversible; comme $A_m$ est un an
 
 Soient A un anneau intègre, K son corps des fractions, et U le groupe multiplicatif des éléments inversibles de A. Rappelons (Alg., chap. VI, § 1, n° 5) qu’on a un isomorphisme canonique de $K^*/U$ sur le groupe $\mathscr{P}^*$ des idéaux principaux fractionnaires non nuls de A. La condition b) du th. 1 se traduit alors de la manière suivante:
 
-#### Proposition 2 {#ac-vii-s3-prop-2 .statement}
+#### Proposition 2 {#ac-vii-s3-prop-2 .statement tag=051Q}
 
 Soit A un anneau intègre. Pour que A soit factoriel, il faut et il suffit qu’il existe une partie P de A telle que tout $a \in A - \{0\}$ s’écrive de manière unique sous la forme $a = u \prod_{p \in P} p^{n(p)}$, où $u \in U$, et où les $n(p)$ sont des entiers positifs, nuls sauf un nombre fini d’entre eux.
 
@@ -141,7 +141,7 @@ Pour tout $p \in P$, l’application $a \to n(p)$ est une valuation discrète $v
 
 ### 4. Anneaux de fractions d’un anneau factoriel
 
-#### Proposition 3 {#ac-vii-s3-prop-3 .statement}
+#### Proposition 3 {#ac-vii-s3-prop-3 .statement tag=051R}
 
 Soient A un anneau de Krull, S une partie multiplicative de A ne contenant pas 0.
 (i) Si A est factoriel, $S^{-1}A$ est factoriel.
@@ -153,12 +153,12 @@ Cela résulte aussitôt de la déf. 1 du n° 1 et du § 1, n° 10, prop. 17.
 
 Soient A un anneau factoriel, K son corps des fractions, et $f$ un élément non nul de $K[X]$; un élément c de $K^*$ sera appelé un contenu de $f$ si c’est un p.g.c.d. des coefficients de $f$. Soient $v$ une valuation de K essentielle pour A, et $\bar{v}$ son prolongement canonique à K[X] (défini par $\bar{v}\left( \sum_i a_i X^i \right) = \inf_i v(a_i)$; cf. chap. VI, , n° 1, prop. 2); on a $\bar{v}(f) = v(c)$
 
-#### Lemme 1 (Gauss) {#ac-vii-s3-lem-1 .statement}
+#### Lemme 1 (Gauss) {#ac-vii-s3-lem-1 .statement tag=051S}
 
 Soient $f, f'$ des éléments non nuls de K[X], $c, c'$ des contenus de $f, f'$. Alors $cc'$ est un contenu de $ff'$.
 Soit $d$ un contenu de $ff'$. Pour toute valuation $v$ de K essentielle pour A, notons $\bar{v}$ son prolongement canonique à K[X]. On a $v(d) = \bar{v}(ff') = \bar{v}(f) + \bar{v}(f') = v(c) + v(c') = v(cc')$. Donc $cc'd^{-1}$ est un élément inversible de A.
 
-#### Théorème 2 {#ac-vii-s3-thm-2 .statement}
+#### Théorème 2 {#ac-vii-s3-thm-2 .statement tag=051T}
 
 Soient A un anneau factoriel, K son corps des fractions, ($p_\lambda$) un système représentatif d’éléments extrémaux de A, et ($P_\lambda$) un système représentatif de polynômes irréductibles de K[X], chaque $P_\lambda$ ayant pour contenu 1. Alors :
 (i) A[X] est un anneau factoriel ;
@@ -179,7 +179,7 @@ On notera que cette proposition prouve que tout élément de A admet la même d�
 
 On peut aussi utiliser la prop. 18 du § 1, n° 10, pour montrer que A[X] est un anneau factoriel si et seulement si A est factoriel.
 
-#### Corollaire {#ac-vii-s3-n5-cor-1 .statement}
+#### Corollaire {#ac-vii-s3-n5-cor-1 .statement tag=051U}
 
 Si A est un anneau factoriel, l’anneau $A[X_1, \ldots, X_n]$ est factoriel.
 On raisonne par récurrence sur $n$.
@@ -188,18 +188,18 @@ Ce corollaire s’étend au cas d’une famille infinie d’indéterminées (cf.
 
 ### 6. Anneaux factoriels et anneaux de Zariski
 
-#### Proposition 4 {#ac-vii-s3-prop-4 .statement}
+#### Proposition 4 {#ac-vii-s3-prop-4 .statement tag=051V}
 
 Soient $\mathbf{A}$ un anneau de Zariski, $\hat{\mathbf{A}}$ son complété. Si $\hat{\mathbf{A}}$ est factoriel, $\mathbf{A}$ est factoriel.
 Cela résulte du n° 1, déf. 1, et du § 1, n° 10, prop. 16.
 
-#### Corollaire {#ac-vii-s3-n6-cor-1 .statement}
+#### Corollaire {#ac-vii-s3-n6-cor-1 .statement tag=051W}
 
 Si le complété d’un anneau local noethérien $\mathbf{A}$ est factoriel, $\mathbf{A}$ est factoriel.
 
 ### 7. Préliminaires sur les automorphismes des anneaux de séries formelles
 
-#### Lemme 2 {#ac-vii-s3-lem-2 .statement}
+#### Lemme 2 {#ac-vii-s3-lem-2 .statement tag=051X}
 
 Soit $f(X_1, X_2, \ldots, X_n)$ une série formelle $\neq 0$ à coefficients dans un anneau $E$. Il existe des entiers $u(i) \geqslant 1$ ($1 \leqslant i \leqslant n - 1$) tels que $f(T^{u(1)}, \ldots, T^{u(n-1)}, T) \neq 0$.
 Supposons déterminés des entiers $u(i) \geqslant 1$ ($1 \leqslant i \leqslant k - 1$) tels que $f(X_n^{u(1)}, \ldots, X_n^{u(k-1)}, X_k, \ldots, X_n) \neq 0$. Nous allons déterminer un entier $u(k) \geqslant 1$ tel que
@@ -223,7 +223,7 @@ Dans l’anneau $E[[X_1, \ldots, X_n]]$, soit $\alpha$ l’idéal des séries fo
 
 Prenons $w_1 = X_1 + X_n^{u(1)}, \ldots, w_{n-1} = X_{n-1} + X_n^{u(n-1)}, w_n = X_n$, où les $u(i)$ sont des entiers $\geq 1$. Soit $s'$ l’endomorphisme de $E[[X_1, \ldots, X_n]]$ qui transforme $X_1$ en $X_1 - X_n^{u(1)}, \ldots, X_{n-1}$ en $X_{n-1} - X_n^{u(n-1)}$, et $X_n$ en $X_n$. On a $s'(s(X_i)) = X_i$ pour $1 \leq i \leq n$, donc $s' \circ s$ est l’automorphisme identique; de même $s \circ s'$. Donc $s$ est un automorphisme.
 
-#### Lemme 3 {#ac-vii-s3-lem-3 .statement}
+#### Lemme 3 {#ac-vii-s3-lem-3 .statement tag=051Y}
 
 Soit $f$ un élément non nul de $E' = E[[X_1, ..., X_n]]$. Il existe des entiers $u(i) \geq 1$ ($1 \leq i \leq n-1$) tels que l’automorphisme $s$ de $E'$ défini par $s(X_i) = X_i + X_n^{u(i)}$ ($1 \leq i \leq n-1$) et $s(X_n) = X_n$ transforme $f$ en un élément $g$ tel que $g(0, ..., 0, X_n) \neq 0$.
 
@@ -243,7 +243,7 @@ $$
 $$
 où $\bar{a}_i$ désigne l’image canonique de $a_i$ dans $k$. La série $\bar{f}$ sera appelée la série réduite de $f$; si $\bar{f} \neq 0$, l’ordre de $\bar{f}$ (c’est-à-dire le plus petit entier $s$ tel que $a_s \notin m$) sera appelé l’ordre réduit de $f$.
 
-#### Proposition 5 {#ac-vii-s3-prop-5 .statement}
+#### Proposition 5 {#ac-vii-s3-prop-5 .statement tag=051Z}
 
 Soit $f \in B$ une série dont la série réduite n’est pas nulle. Notons $s$ son ordre réduit, et $M$ le sous-A-module de $B$ ayant $\{1, X, ..., X^{s-1}\}$ pour base. Alors $B$ est somme directe de $M$ et de $fB$ et $f$ n’est pas diviseur de zéro dans $B$.
 
@@ -294,19 +294,19 @@ C.Q.F.D.
 
 On peut aussi utiliser les résultats du chap. III, § 2, pour démontrer la relation $B = fB + M$ (cf. exerc. 12): La méthode suivie ici a l’avantage de s’appliquer aux séries convergentes.
 
-#### Corollaire {#ac-vii-s3-n8-cor-1 .statement}
+#### Corollaire {#ac-vii-s3-n8-cor-1 .statement tag=0520}
 
 Les hypothèses et notations étant celles de la prop. 5, on suppose que $s \geqslant 1$, de sorte que $f \in Bm + BX$. Alors le $A$-homomorphisme $h$ de $B' = A[[T]]$ dans $B = A[[X]]$ tel que $h(T) = f$ (chap. III, § 2, n° 9, prop. 11, a) définit sur $B$ une structure de $B'$-module libre admettant $\{1, X, \ldots, X^{s-1}\}$ pour base. En particulier $h$ est injectif.
 
 Munissons en effet le $B'$-module $B$ de la filtration (T)-adique, qui est formée des $f^n B$ pour $n \geqslant 0$ (chap. III, § 2, n° 1). Alors $B/fB$ est un module libre sur l’anneau $A = B'/TB'$, et les images des $X^i$ ($0 \leqslant i \leqslant s-1$) dans cet $A$-module en forment une base (prop. 5); comme en outre $f$ n’est pas diviseur de zéro dans $B$ (prop. 5), $Bf^n/Bf^{n+1}$ est aussi un $(B'/TB')$-module libre de rang $s$, de sorte que la condition (GR) du chap. III, § 2, n° 8 est satisfaite (en y remplaçant $A$ par $B'$ et $M$ par $B$). D’autre part, puisque $B'$ est séparé et complet pour la filtration (T)-adique, et que $\mathrm{gr}(B)$ est un $\mathrm{gr}(B')$-module de type fini en vertu de ce qui précède, on voit d’abord (chap. III, § 2, n° 9, cor. 1 de la prop. 12) que $B$ est un $B'$-module de type fini. La première assertion du corollaire résulte alors du chap. III, § 2, n° 9, prop. 13. La seconde s’en déduit aussitôt.
 
-#### Définition 2 {#ac-vii-s3-def-2 .statement}
+#### Définition 2 {#ac-vii-s3-def-2 .statement tag=0521}
 
 On dit qu’un polynôme $F = A[X]$ est distingué s’il est de la forme $F = X^s + a_{s-1} X^{s-1} + \cdots + a_0$, avec $a_i \in m$ pour $0 \leqslant i \leqslant s-1$.
 
 Notons que le produit de deux polynômes distingués est un polynôme distingué.
 
-#### Proposition 6 (Théorème de préparation) {#ac-vii-s3-prop-6 .statement}
+#### Proposition 6 (Théorème de préparation) {#ac-vii-s3-prop-6 .statement tag=0522}
 
 Soient $f \in \mathbf{B}$ une série dont la série réduite n’est pas nulle, et s son ordre réduit. Il existe alors un couple $(u, F)$ et un seul tel que $u$ soit un élément inversible de $\mathbf{B}$, $F$ un polynôme distingué de degré $s$, et $f = uF$.
 
@@ -320,13 +320,13 @@ puisque $\bar{f}$ est d’ordre $s$, on a $\bar{g}_i = 0$ pour tout $i$, et $\ba
 
 C.Q.F.D.
 
-#### Proposition 7 {#ac-vii-s3-prop-7 .statement}
+#### Proposition 7 {#ac-vii-s3-prop-7 .statement tag=0523}
 
 Soient $F$ un polynôme distingué, et $g, h$ deux séries formelles de $\mathbf{B}$ telles que $F = gh$. Il existe alors un élément inversible $u$ de $\mathbf{B}$ tel que $ug$ et $u^{-1}h$ soient des polynômes distingués, et l’on a $F = (ug)(u^{-1}h)$.
 
 En effet, les séries réduites de $g$ et $h$ sont $\neq 0$; donc, d’après la prop. 6, il existe des éléments inversibles $u, v$ de $\mathbf{B}$ tels que $ug$ et $vh$ soient des polynômes distingués. Alors $uvF = (ug)(vh)$ est un polynôme distingué, et $uv$ est inversible. Par passage aux séries réduites, on voit aussitôt que $F$ et $uvF$ ont même ordre réduit, c’est-à-dire même degré. L’assertion d’unicité dans la prop. 6 montre donc qu’on a $F = uvF$, d’où $uv = 1$.
 
-#### Corollaire {#ac-vii-s3-n8-cor-2 .statement}
+#### Corollaire {#ac-vii-s3-n8-cor-2 .statement tag=0524}
 
 Supposons en outre que $\mathbf{A}$ soit intègre, et soit $F$ un polynôme distingué de degré $s$. Pour que $F$ soit extrémal dans $\mathbf{A}[X]$, il faut et il suffit qu’il soit extrémal dans $\mathbf{B} = \mathbf{A}[[X]]$.
 
@@ -336,7 +336,7 @@ Réciproquement, si F n’est pas extrémal dans $A[[X]]$, on a $F = gh$, où ni
 
 ### 9. *Factorialité des anneaux de séries formelles*
 
-#### Proposition 8 {#ac-vii-s3-prop-8 .statement}
+#### Proposition 8 {#ac-vii-s3-prop-8 .statement tag=0525}
 
 *Soit C un anneau qui est, soit un corps, soit un anneau de valuation discrète. Alors l’anneau de séries formelles $C[[X_1, \ldots, X_n]]$ est factoriel.*
 
@@ -350,11 +350,11 @@ X_n, ne sont pas tous dans m. Il suffira de démontrer notre assertion pour $f'$
 
 Dans la suite, tous les éléments de B seront considérés comme des séries formelles en $X_n$ à coefficients dans A. D’après la prop. 6 du n° 8 (applicable puisque C, et donc A, sont séparés et complets, et que la série réduite de $f'$ est $\neq 0$), $f'$ est associée, dans B, à un polynôme distingué et à un seul F. D’après la prop. 7 du n° 8, toute série qui divise $f'$ (ou, ce qui revient au même, qui divise F) est associée à un polynôme distingué qui divise F, et toute décomposition de $f'$ est, à des facteurs inversibles près, de la forme $f' = u F_1 \ldots F_q$, où $u$ est inversible et où les $F_i$ sont des polynômes distingués extrémaux (dans B) tels que $F = F_1 \ldots F_q$. D’après le cor. de la prop. 7 du n° 8, les $F_i$ sont aussi extrémaux dans $A[X_n]$. Or, comme A est factoriel d’après l’hypothèse de récurrence, il en est de même de $A[X_n]$ (th. 2, n° 5); donc, puisqu’ils sont unitaires, les $F_i$ sont déterminés de façon unique par F (à une permutation près). Ceci montre l’unicité de la décomposition $f' = u F_1 \ldots F_q$; son existence résulte du fait que B est noethérien ce qui termine la démonstration.
 
-#### Remarque 1 {#ac-vii-s3-n9-rem-1 .statement}
+#### Remarque 1 {#ac-vii-s3-n9-rem-1 .statement tag=0CIT}
 
 Il existe des anneaux factoriels A tels que l’anneau $A[[X]]$ ne soit pas factoriel (exerc. 8). Cependant, si A est principal, $A[[X_1, \ldots, X_n]]$ est factoriel (exerc. 9).
 
-#### Remarque 2 {#ac-vii-s3-n9-rem-2 .statement}
+#### Remarque 2 {#ac-vii-s3-n9-rem-2 .statement tag=0CIU}
 
 \* Nous verrons plus tard, par des méthodes homologiques, que tout anneau local régulier est factoriel (cf. § 4, n° 7, cor. 3 de la prop. 16). Cela donnera une autre démonstration, conceptuellement plus simple, de la prop. 8.*
 

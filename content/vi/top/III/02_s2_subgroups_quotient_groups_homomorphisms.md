@@ -52,7 +52,7 @@ subsections:
       pdf_page: 245
 statements: 45
 exercises: 31
-content_sha256: 8ee28faf5465ad5da2979314c182193b08c64157c28e05fe3b499f62d07a7281
+content_sha256: ac42ab16de9ef922aec8c46cfdca4e102fada8e8488a34fe850fa35292fee017
 translated_from: content/en/top/III/02_s2_subgroups_quotient_groups_homomorphisms.md
 source_content_sha256: 01217d9945f06d0b2ed58cc8843dc54bec8461b84d6d1966ebb0af8867a7d247
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
@@ -68,7 +68,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho G là một nhóm tôpô và H là một nhóm con của G. Theo (GT'), tôpô cảm sinh trên H bởi tôpô của G là tương thích với cấu trúc nhóm của H. Cấu trúc của một nhóm tôpô được xác định như vậy trên $H$ được gọi là *cảm sinh* bởi cấu trúc của $G$. Mỗi khi ta xét một nhóm con $H$ của $G$ như một nhóm tôpô, thì luôn luôn chính cấu trúc cảm sinh này đang được xét đến, trừ khi điều ngược lại được phát biểu rõ ràng.
 
-#### Mệnh đề 1 {#top-iii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#top-iii-s2-prop-1 .statement tag=0BHS}
 
 *Bao đóng $\overline{H}$ của một nhóm con $H$ của một nhóm tôpô $G$ là một nhóm con của $G$. Nếu $H$ là một nhóm con chuẩn của $G$, thì $\overline{H}$ cũng vậy.*
 
@@ -76,37 +76,37 @@ Nếu $a, b \in \overline{H}$ thì $ab^{-1} \in \overline{H}$, bởi vì ánh x�
 
 Đặc biệt, bao đóng $N$ của tập hợp $\{ e \}$ chỉ gồm phần tử đơn vị của $G$, là một *nhóm con chuẩn* của $G$; và $N = \{ e \}$ khi và chỉ khi $G$ là *Hausdorff* ($\S$ 1, no. 2, Mệnh đề 2).
 
-#### Mệnh đề 2 {#top-iii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#top-iii-s2-prop-2 .statement tag=0BHT}
 
 *Nếu $G$ là một nhóm tôpô Hausdorff, thì bao đóng của một nhóm con giao hoán của $G$ là một nhóm con giao hoán của $G$.*
 
 Theo Mệnh đề 1, ta có thể hạn chế vào trường hợp $H$ trù mật trong $G$. Các hàm liên tục $xy$ và $yx$ bằng nhau trên $H \times H$, và do đó bằng nhau trên $G \times G$, theo nguyên lý mở rộng của các đẳng thức (Chương I, § 8, no. 1, Mệnh đề 2, Hệ quả 1).
 
-#### Mệnh đề 3 {#top-iii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#top-iii-s2-prop-3 .statement tag=0BHU}
 
 *Cho $G$ là một nhóm tôpô Hausdorff và cho $M$ là một tập con bất kỳ của $G$. Khi đó tập hợp $M'$ gồm các phần tử của $G$ giao hoán với mỗi phần tử của $M$ là một nhóm con đóng của $G$. Đặc biệt, tâm của $G$ là đóng trong $G$.*
 
 Vì $M'$ là giao của các tập hợp $F_m (m \in M)$, trong đó $F_m$ là tập hợp tất cả các $x \in G$ sao cho $xm = mx$; và $F_m$ là đóng (Chương I, § 8, no. 1, Mệnh đề 2).
 
-#### Mệnh đề 4 {#top-iii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#top-iii-s2-prop-4 .statement tag=0BHV}
 
 *Cho $G$ là một nhóm tôpô và cho $H$ là một nhóm con của $G$ địa phương đóng tại một điểm của $H$ (Chương I, § 3, no. 3, Định nghĩa 2). Khi đó $H$ là đóng trong $G$.*
 
 Do phép tịnh tiến, $H$ là đóng địa phương tại mỗi điểm của nó, tức là $H$ là đóng địa phương trong $G$. Cho $V$ là một lân cận mở đối xứng của $e$ trong $G$ sao cho $V \cap H$ là đóng trong $V$. Nếu $x \in \overline{H}$, thì $xV$ gặp $H$; nếu $y \in xV \cap H$, ta có $x \in yV$, và $y(V \cap H) = (yV) \cap H$ là đóng trong $yV$. Nhưng $x$ nằm trong bao đóng của $(yV) \cap H$, do đó $x \in H$.
 
-#### Hệ quả {#top-iii-s2-n1-cor-1 .statement}
+#### Hệ quả {#top-iii-s2-n1-cor-1 .statement tag=0BHW}
 
 *Một nhóm con của một nhóm tôpô là mở khi và chỉ khi nó có một điểm trong. Mọi nhóm con mở đều đóng.*
 
 Nếu một nhóm con $H$ có một điểm trong, thì do phép tịnh tiến mọi điểm của $H$ đều là điểm trong và do đó $H$ là mở. Mệnh đề thứ hai của hệ quả là một trường hợp riêng của Mệnh đề 4.
 
-#### Mệnh đề 5 {#top-iii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#top-iii-s2-prop-5 .statement tag=0BHX}
 
 *Một nhóm con $H$ của một nhóm tôpô $G$ là rời rạc khi và chỉ khi $H$ có một điểm cô lập. Mọi nhóm con rời rạc của một nhóm Hausdorff đều đóng.*
 
 Nếu $H$ là rời rạc, mọi điểm của $H$ đều là cô lập. Ngược lại, nếu $H$ có một điểm cô lập, thì do phép tịnh tiến mọi điểm của $H$ đều là cô lập và do đó $H$ là rời rạc. Nếu $H$ là rời rạc và $G$ là Hausdorff, thì tồn tại một lân cận $V$ của $e$ sao cho $V \cap H = \{e\}$; $\{e\}$ là đóng trong $G$ và do đó *a fortiori* trong $V$, vì thế $H$ là đóng địa phương tại $e$. Suy ra $H$ là đóng trong $G$ theo Mệnh đề 4.
 
-#### Nhận xét {#top-iii-s2-n1-rem-1 .statement}
+#### Nhận xét {#top-iii-s2-n1-rem-1 .statement tag=0BHY}
 
 Cho $H$ là một nhóm con bất kỳ của một nhóm tôpô $G$. Với mỗi $x \in \overline{H}$ ta có $x \overline{H} = x$. $\overline{H} = \overline{H}$, vì phép tịnh tiến bởi $x$ là một đồng phôi của $G$ lên $G$. Nói cách khác, với mỗi $x \in \overline{H}$, $xH$ là *trù mật* trong $\overline{H}$. Suy ra rằng nếu $H$ không đóng, thì $\overline{H} \cap CH$ là *trù mật* trong $\overline{H}$.
 
@@ -114,7 +114,7 @@ Cho $H$ là một nhóm con bất kỳ của một nhóm tôpô $G$. Với mỗi
 
 Cho $V$ là một lân cận *đối xứng* của $e$ trong $G$. Nhóm con sinh bởi $V$, được ký hiệu là $V^\infty$, gồm tất cả các tích $\prod_{i=1}^n x_i$ của các dãy hữu hạn các phần tử của $V$. $V^\infty$ là *mở*, vì $e$ là một điểm trong của nó, và do đó là *đóng* theo Mệnh đề 4 của no. 1. Suy ra rằng:
 
-#### Mệnh đề 6 {#top-iii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#top-iii-s2-prop-6 .statement tag=0BHZ}
 
 *Một nhóm tôpô liên thông được sinh bởi mọi lân cận của phần tử đơn vị.*
 
@@ -122,7 +122,7 @@ Mệnh đề đảo lại của mệnh đề này nói chung là sai, như ta s�
 
 \* Như một ví dụ về một nhóm không liên thông $G$ có một nhóm con mở phân biệt với $G$, ta có thể nêu *nhóm nhân* $\mathbf{R}^*$ của các số thực khác không, trong đó nhóm con $\mathbf{R}_+^*$ của các số thực $> 0$ vừa mở vừa đóng (xem Chương IV, § 3, no. 2). \*
 
-#### Mệnh đề 7 {#top-iii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#top-iii-s2-prop-7 .statement tag=0BI0}
 
 *Trong một nhóm tôpô $G$, thành phần $K$ của phần tử đơn vị $e$ là một nhóm con chuẩn tắc đóng. Thành phần của bất kỳ điểm nào $x \in G$ là lớp kề $x.K = K.x$.*
 
@@ -132,13 +132,13 @@ Thành phần của phần tử đơn vị $e$ của $G$ được gọi là *th�
 
 Mệnh đề sau tổng quát hóa Mệnh đề 1 của no. 1:
 
-#### Mệnh đề 8 {#top-iii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#top-iii-s2-prop-8 .statement tag=0BI1}
 
 *Cho $H$ là một nhóm con trù mật của một nhóm tôpô $G$, và $K$ là một nhóm con chuẩn tắc của $H$. Khi đó bao đóng $\overline{K}$ của $K$ trong $G$ là một nhóm con chuẩn tắc của $G$.*
 
 Vì ánh xạ $(z, x) \to zxz^{-1}$ liên tục trên $G \times G$, và ánh xạ $H \times K$ vào $K$; do đó (Chương I, § 2, no. 1, Định lý 1) nó ánh xạ $G \times \overline{K} = \overline{H} \times K$ vào $\overline{K}$.
 
-#### Mệnh đề 9 {#top-iii-s2-prop-9 .statement}
+#### Mệnh đề 9 {#top-iii-s2-prop-9 .statement tag=0BI2}
 
 *Cho $H$ là một nhóm con trù mật của một nhóm tôpô $G$. Nếu $H$ được sinh bởi mọi lân cận của phần tử đơn vị trong $H$, thì $G$ được sinh bởi mọi lân cận của phần tử đơn vị trong $G$.*
 
@@ -152,7 +152,7 @@ Cho $X$ là một không gian tôpô và cho $G$ là một nhóm tôpô. $G$ đ�
 
 2) Ánh xạ $(s, x) \to s.x$ từ $G \times X$ vào $X$ là *liên tục*.
 
-#### Bổ đề 1 {#top-iii-s2-lem-1 .statement}
+#### Bổ đề 1 {#top-iii-s2-lem-1 .statement tag=0BI3}
 
 *Nếu một nhóm tôpô* $G$ *tác động liên tục trên một không gian tôpô* $X$, *thì với mỗi* $s \in G$ *ánh xạ* $x \to s.x$ *là một đồng phôi của* $X$ *lên* $X$.
 
@@ -160,37 +160,37 @@ Vì ánh xạ này là một song ánh liên tục mà ánh xạ nghịch đảo
 
 Ta nhắc lại rằng với mỗi $x \in X$, tập hợp $G.x$ gồm các ảnh $s.x$ của $x$ bởi các phần tử $s$ của $G$ được gọi là *quỹ đạo* của $x$ (đối với nhóm các toán tử $G$), và tập hợp tất cả các $s \in G$ sao cho $s.x = x$ là một nhóm con của $G$ được gọi là *nhóm ổn định* của $x$. Quan hệ $R(x, y) : "y$ thuộc quỹ đạo của $x"$ là một quan hệ tương đương trên $X$, được gọi là quan hệ tương đương *xác định bởi* $G$; các lớp tương đương đối với quan hệ này là các quỹ đạo của các điểm của $X$. Không gian tôpô $X/R$ được gọi là *không gian quỹ đạo* của $X$ (đối với $G$), hoặc *không gian thương của* $X$ *bởi nhóm* $G$, và được ký hiệu là $X/G$; và tôpô của $X/G$ được gọi là *thương của tôpô của* $X$ *bởi* $G$.
 
-#### Bổ đề 2 {#top-iii-s2-lem-2 .statement}
+#### Bổ đề 2 {#top-iii-s2-lem-2 .statement tag=0BI4}
 
 *Nếu một nhóm tôpô* $G$ *tác động liên tục trên một không gian tôpô* $X$, *thì quan hệ tương đương* $R$ *xác định bởi* $G$ *là mở*.
 
 Vì phần bão hòa đối với $R$ của một tập con mở $U$ của $X$ là tập hợp $\bigcup_{s \in G} s.U$, và mỗi $s.U$ là mở theo Bổ đề 1.
 
-#### Ví dụ 1 {#top-iii-s2-n4-exa-1 .statement}
+#### Ví dụ 1 {#top-iii-s2-n4-exa-1 .statement tag=0BI5}
 
 Cho $H$ là một nhóm con của nhóm tôpô $G$. $H$ tác động liên tục lên $G$ theo phép toán ngoài $(s, x) \to sx$. $H$ cũng tác động liên tục lên $G$ theo phép toán ngoài $(x, s) \to sxs^{-1}$.
 
-#### Ví dụ 2 {#top-iii-s2-n4-exa-2 .statement}
+#### Ví dụ 2 {#top-iii-s2-n4-exa-2 .statement tag=0BI6}
 
 \* Nếu $K$ là một vành chia tôpô ($§ 6$, no. 7), nhóm nhân $K^*$ tác động liên tục lên $K$ theo phép toán ngoài $(s, x) \to sx$. \*
 
-#### Ví dụ 3 {#top-iii-s2-n4-exa-3 .statement}
+#### Ví dụ 3 {#top-iii-s2-n4-exa-3 .statement tag=0BI7}
 
 Cho $G$ là một nhóm tôpô, $X$ là một không gian tôpô. Khi đó ánh xạ $(s, x) \to x$ từ $G \times X$ vào $X$ là một phép toán ngoài của hợp thành trên $X$, và $G$ tác động liên tục lên $X$ đối với luật này; khi đó ta nói $G$ tác động *tầm thường* lên $X$.
 
-#### Nhận xét {#top-iii-s2-n4-rem-1 .statement}
+#### Nhận xét {#top-iii-s2-n4-rem-1 .statement tag=0BI8}
 
 Thay vì nói rằng một nhóm tôpô $G$ tác động liên tục lên một không gian tôpô $X$, người ta thường nói rằng $G$ tác động liên tục *bên trái* lên $X$. Khi nhóm tôpô $G^0$ đối của $G$ tác động liên tục lên $X$, ta nói rằng $G$ tác động liên tục *bên phải* lên $X$. Điều đó tương đương với việc nói rằng $X$ có một luật hợp thành ngoài liên tục $(s, x) \to s.x$ với $G$ làm tập hợp các toán tử, sao cho $s.(t.x) = (ts).x$ và $e.x = x$. Một luật như vậy thường được viết *bên phải* : $(s, x) \to x.s$ (do đó có thuật ngữ này), và khi đó ta có $(x.t).s = x.(ts)$. Nếu $G$ tác động liên tục bên phải lên $X$ theo luật $(s, x) \to x.s$, thì $G$ cũng tác động liên tục bên trái lên $X$ theo phép toán ngoài $(s, x) \to x.s^{-1}$, theo tiên đề (GT$_{II}$).
 
 Cho $G$ là một nhóm tôpô tác động liên tục trên một không gian tôpô $X$, và cho $\varphi$ là ánh xạ chính tắc của $X$ lên không gian quỹ đạo $X/G$. Cho $A$ là một tập con bất kỳ của $X$, và cho $A'$ là không gian con của $X$ là bao bão hòa của $A$ đối với quan hệ tương đương $R$ xác định bởi $G$ (do đó $A'$ là hợp của các quỹ đạo của các điểm thuộc $A$, và được gọi là *bao bão hòa của $A$ đối với $G$*). $G$ tác động liên tục trên $A'$ bởi hạn chế của $(s, x) \to s.x$ lên $G \times A'$. Hơn nữa, vì $R$ là mở (Bổ đề 2) và $A'$ là bão hòa, từ Mệnh đề 4 của Chương I, § 5, no. 2, và từ quan hệ $\varphi(A) = \varphi(A')$, suy ra rằng:
 
-#### Mệnh đề 10 {#top-iii-s2-prop-10 .statement}
+#### Mệnh đề 10 {#top-iii-s2-prop-10 .statement tag=0BI9}
 
 *Song ánh chính tắc của không gian con $\varphi(A)$ của $X/G$ lên không gian quỹ đạo $A'/G$ là một phép đồng phôi.*
 
 Bây giờ cho $S$ là một quan hệ tương đương trên $X$ sao cho, với mỗi $s \in G$, ánh xạ $x \to s.x$ là *tương thích* với $S$ [nói cách khác, sao cho quan hệ $x \equiv y \pmod{S}$ kéo theo $s.x \equiv s.y \pmod{S}$]; để ngắn gọn, ta sẽ nói rằng quan hệ $S$ là *tương thích với nhóm* $G$. Nếu $\psi$ là ánh xạ chính tắc của $X$ lên $X/S$, và nếu $s.\psi(x)$ ký hiệu lớp mod $S$ của $s.x$, thì $X/S$ có $G$ làm nhóm các toán tử đối với phép toán ngoài $(s, \psi(x)) \to s.\psi(x) = \psi(s.x)$. Hơn nữa:
 
-#### Mệnh đề 11 {#top-iii-s2-prop-11 .statement}
+#### Mệnh đề 11 {#top-iii-s2-prop-11 .statement tag=0BIA}
 
 *Nếu quan hệ tương đương $S$ trên $X$ là mở và tương thích với $G$, thì $G$ tác động liên tục trên $X/S$.*
 
@@ -200,7 +200,7 @@ $$
 (s, x) \to s.x.
 $$
 
-#### Nhận xét {#top-iii-s2-n4-rem-2 .statement}
+#### Nhận xét {#top-iii-s2-n4-rem-2 .statement tag=0BIB}
 
 Cho $G'$ là một nhóm tôpô khác tác động liên tục trên $X$, và giả sử rằng $s.(s'x) = s'(s.x)$ với mọi $s \in G, s' \in G'$ và x \in X. Khi đó quan hệ tương đương S xác định bởi G' tương thích với G, và vì S là mở (Bổ đề 2) nên suy ra G tác động liên tục trên X/G'. Tương tự, G' tác động liên tục trên X/G. Trong những trường hợp này, hai phép tác động của hai nhóm G và G' trên X được gọi là giao hoán.
 
@@ -208,19 +208,19 @@ Cho $G'$ là một nhóm tôpô khác tác động liên tục trên $X$, và gi
 
 Cho G là một nhóm tôpô và H là một nhóm con của G. H tác động liên tục bên phải trên G theo phép toán ngoài $(t, x) \to xt$, và quỹ đạo của một điểm $x \in G$ là lớp ghép trái $xH$. Do đó tập các quỹ đạo chính là không gian thuần nhất $G/H$ mà trong đại số ta đã gọi như vậy. Mỗi khi nói đến $G/H$ như một không gian tôpô, ta luôn hiểu đó là không gian quỹ đạo của G (đối với H) trừ khi có tuyên bố rõ ràng ngược lại; tức là không gian thương của G theo quan hệ tương đương $x^{-1}y \in H$. Phù hợp với các định nghĩa tổng quát, ta nói rằng tôpô của không gian này là thương theo H của tôpô của G.
 
-#### Mệnh đề 12 {#top-iii-s2-prop-12 .statement}
+#### Mệnh đề 12 {#top-iii-s2-prop-12 .statement tag=0BIC}
 
 Nhóm G tác động liên tục trên mọi không gian thuần nhất $G/H$.
 
 Vì quan hệ tương đương $x^{-1}y \in H$ là mở (no. 4, Bổ đề 2), đây là một trường hợp riêng của Mệnh đề 11 của no. 4.
 
-#### Mệnh đề 13 {#top-iii-s2-prop-13 .statement}
+#### Mệnh đề 13 {#top-iii-s2-prop-13 .statement tag=0BID}
 
 Cho G là một nhóm tôpô và H là một nhóm con của G. Khi đó không gian thuần nhất $G/H$ là Hausdorff khi và chỉ khi H đóng trong G.
 
 H là một lớp tương đương đối với quan hệ $x^{-1}y \in H$ và do đó, nếu $G/H$ là Hausdorff, thì H đóng trong G. Ngược lại, nếu H đóng, thì đồ thị của quan hệ này đóng trong $G \times G$, vì nó là ảnh ngược của H qua ánh xạ liên tục $(x, y) \to x^{-1}y$. Vì quan hệ $x^{-1}y \in H$ là mở, suy ra từ Chương I, § 8, no. 3, Mệnh đề 8 rằng $G/H$ là Hausdorff.
 
-#### Mệnh đề 14 {#top-iii-s2-prop-14 .statement}
+#### Mệnh đề 14 {#top-iii-s2-prop-14 .statement tag=0BIE}
 
 Cho G là một nhóm tôpô và H là một nhóm con của G. Khi đó không gian thuần nhất $G/H$ là rời rạc khi và chỉ khi H mở trong G.
 
@@ -234,7 +234,7 @@ $$
 
 trong đó f_x là ánh xạ chính tắc từ G lên không gian thuần nhất G/H_x, và g_x là song ánh s.H_x → s.x từ G/H_x lên X; hơn nữa (Chương I, § 3, no. 4, Mệnh đề 6) g_x là một ánh xạ liên tục. Nhưng g_x không nhất thiết là một phép đồng phôi từ G/H_x lên X (Bài tập 29). Nếu g_x là một phép đồng phôi với mỗi x ∈ X, thì ta nói X là một không gian thuần nhất tôpô (của nhóm tôpô G); để được như vậy, điều kiện cần và đủ là, với mỗi x ∈ E, ánh xạ s → s.x từ G vào X phải là mở.
 
-#### Mệnh đề 15 {#top-iii-s2-prop-15 .statement}
+#### Mệnh đề 15 {#top-iii-s2-prop-15 .statement tag=0BIF}
 
 Cho X là một không gian tôpô trên đó một nhóm tôpô G tác động liên tục và bắc cầu. Để X là một không gian thuần nhất tôpô (đối với G), chỉ cần tồn tại một điểm x_0 ∈ X sao cho ánh xạ s → s.x_0 biến mỗi lân cận của e trong G thành một lân cận của x_0 trong X.
 
@@ -242,7 +242,7 @@ Mọi x ∈ X đều có thể viết dưới dạng x = t.x_0 với một t ∈
 
 ### 6. NHÓM THƯƠNG
 
-#### Mệnh đề 16 {#top-iii-s2-prop-16 .statement}
+#### Mệnh đề 16 {#top-iii-s2-prop-16 .statement tag=0BIG}
 
 Cho G là một nhóm tôpô và H là một nhóm con chuẩn tắc của G. Khi đó thương theo H của tôpô của G tương thích với cấu trúc nhóm của G/H.
 
@@ -250,7 +250,7 @@ Nếu x → x̂ là ánh xạ chính tắc từ G lên G/H, thì ta phải chứ
 
 Mỗi khi trong phần sau ta xét một nhóm thương $G/H$ của một nhóm tôpô $G$ như một nhóm tôpô, luôn hiểu rằng tôpô của $G/H$ là thương theo $H$ của tôpô của $G$, trừ khi có tuyên bố rõ ràng ngược lại.
 
-#### Mệnh đề 17 {#top-iii-s2-prop-17 .statement}
+#### Mệnh đề 17 {#top-iii-s2-prop-17 .statement tag=0BIH}
 
 *Cho $\varphi$ là ánh xạ chính tắc từ một nhóm tôpô $G$ lên một nhóm thương $G/H$. Nếu $\mathfrak{B}$ là một hệ cơ bản các lân cận của $e$ trong $G$, thì $\varphi(\mathfrak{B})$ là một hệ cơ bản các lân cận của phần tử đơn vị $\varphi(e)$ của $G/H$.*
 
@@ -258,7 +258,7 @@ Mỗi khi trong phần sau ta xét một nhóm thương $G/H$ của một nhóm 
 
 Các Mệnh đề 13 và 14 cho ta, đặc biệt, đối với các nhóm thương:
 
-#### Mệnh đề 18 {#top-iii-s2-prop-18 .statement}
+#### Mệnh đề 18 {#top-iii-s2-prop-18 .statement tag=0BII}
 
 *Cho $G$ là một nhóm tôpô và cho $H$ là một nhóm con chuẩn tắc của $G$.
 a) *Nhóm thương $G/H$ là Hausdorff khi và chỉ khi $H$ đóng trong $G$.
@@ -266,7 +266,7 @@ b) *Nhóm thương $G/H$ là rời rạc khi và chỉ khi $H$ mở trong $G$.*
 
 Nếu $G$ là một nhóm tôpô và $N$ là bao đóng của $\{e\}$ trong $G$, thì $N$ là một nhóm con chuẩn tắc đóng của $G$ (no. 1, Mệnh đề 1), do đó $G/N$ là Hausdorff; $G/N$ được gọi là *nhóm Hausdorff liên kết với* $G$.
 
-#### Mệnh đề 19 {#top-iii-s2-prop-19 .statement}
+#### Mệnh đề 19 {#top-iii-s2-prop-19 .statement tag=0BIJ}
 
 *Nếu $H$ là một nhóm con chuẩn tắc rời rạc của một nhóm tôpô $G$, thì $G/H$ đẳng cấu địa phương với $G$.*
 
@@ -276,7 +276,7 @@ Cho $V$ là một lân cận của $e$ trong $G$ không chứa điểm nào củ
 
 Cho $G$ là một nhóm tôpô, cho $H$ là một nhóm con chuẩn tắc của $G$, và cho $\varphi : G \to G/H$ là ánh xạ chính tắc. Ta biết rằng nếu $A'$ là một nhóm con của $G/H$, thì $\overline{\varphi}(A')$ là một nhóm con của $G$ chứa $H$. Ngược lại, nếu $A$ là một nhóm con của $G$, thì $\varphi(A)$ là một nhóm con của $G/H$; hơn nữa, có một song ánh chính tắc từ nhóm thương $A/(A \cap H)$ lên nhóm con $\varphi(A)$ của $G/H$, và một song ánh chính tắc từ $\varphi(A)$ lên nhóm thương $AH/H$, và cả hai song ánh này đều là các đẳng cấu *đối với các cấu trúc nhóm*.
 
-#### Mệnh đề 20 {#top-iii-s2-prop-20 .statement}
+#### Mệnh đề 20 {#top-iii-s2-prop-20 .statement tag=0BIK}
 
 Cho $A$ là một nhóm con của một nhóm tôpô $G$, cho $H$ là một nhóm con chuẩn tắc của $G$, và cho $\varphi$ ký hiệu ánh xạ chính tắc của $G$ lên $G/H$. Khi đó song ánh chính tắc từ $\varphi(A)$ lên $AH/H$ là một đẳng cấu của các nhóm tôpô.
 
@@ -288,7 +288,7 @@ Song ánh chính tắc từ $A/(A \cap H)$ lên $\varphi(A)$ là một đồng c
 
 Tuy nhiên, ta có mệnh đề sau:
 
-#### Mệnh đề 21 {#top-iii-s2-prop-21 .statement}
+#### Mệnh đề 21 {#top-iii-s2-prop-21 .statement tag=0BIL}
 
 Cho $G$ là một nhóm tôpô, $G_0$ là một nhóm con trù mật của $G$, $H_0$ là một nhóm con chuẩn tắc của $G_0$, $H$ là bao đóng của $H_0$ trong $G$ và $\varphi$ là ánh xạ chính tắc $G \to G/H$. Khi đó song ánh chính tắc $G_0/H_0 \to \varphi(G_0)$ là một đẳng cấu của nhóm tôpô $G_0/H_0$ lên một nhóm con trù mật của $G/H$.
 
@@ -306,11 +306,11 @@ $$(s, \psi(x)) \to \psi(s.x)$$
 
 (no. 4, Mệnh đề 11). Hơn nữa, nhóm H được chứa trong nhóm ổn định của mỗi điểm của X/S; như đã thấy ở trên, G/H tác động liên tục lên $X/S = X/H$ đối với phép toán ngoài $(s', \psi(x)) \to \psi(s.x)$. Nếu R ký hiệu quan hệ tương đương trên X do G xác định, thì quan hệ S kéo theo R, và quan hệ tương đương R/S trên X/S là quan hệ được xác định bởi nhóm G/H. Vậy nên (Chương I, § 3, no. 4, Mệnh đề 7):
 
-#### Mệnh đề 22 {#top-iii-s2-prop-22 .statement}
+#### Mệnh đề 22 {#top-iii-s2-prop-22 .statement tag=0BIM}
 
 *Cho G là một nhóm tôpô tác động liên tục lên một không gian tôpô X, và cho H là một nhóm con chuẩn tắc của G. Khi đó song ánh chính tắc từ X/G lên $(X/H)/(G/H)$ là một đồng phôi.*
 
-#### Hệ quả {#top-iii-s2-n7-cor-1 .statement}
+#### Hệ quả {#top-iii-s2-n7-cor-1 .statement tag=0BIN}
 
 *Cho G là một nhóm tôpô, H là một nhóm con chuẩn tắc của G, và K là một nhóm con chuẩn tắc của G chứa H. Khi đó song ánh chính tắc từ G/K lên $(G/H)/(K/H)$ là một đẳng cấu của các nhóm tôpô.*
 
@@ -318,7 +318,7 @@ Ta đã biết rằng song ánh này là một đẳng cấu nhóm, và Mệnh �
 
 ### 8. ĐỒNG CẤU LIÊN TỤC VÀ CẤU XẠ NGẶT
 
-#### Mệnh đề 23 {#top-iii-s2-prop-23 .statement}
+#### Mệnh đề 23 {#top-iii-s2-prop-23 .statement tag=0BIO}
 
 *Một đồng cấu f từ một nhóm tôpô G vào một nhóm tôpô $G'$ là liên tục trên G khi và chỉ khi nó liên tục tại một điểm của G.*
 
@@ -334,13 +334,13 @@ Cho $f$ là một đồng cấu liên tục của một nhóm tôpô $G$ vào m�
 
 Ví dụ, cho $G'$ là một nhóm tôpô không rời rạc, và $G$ là nhóm tôpô thu được bằng cách trang bị cho $G'$ tôpô rời rạc; khi đó ánh xạ đồng nhất từ $G$ vào $G'$ là một đồng cấu liên tục song ánh, nhưng không song liên tục.
 
-#### Định nghĩa 1 {#top-iii-s2-def-1 .statement}
+#### Định nghĩa 1 {#top-iii-s2-def-1 .statement tag=0BIP}
 
 *Một đồng cấu liên tục của một nhóm tôpô $G$ vào một nhóm tôpô $G'$ được gọi là một cấu xạ ngặt của $G$ vào $G'$ nếu đồng cấu song ánh $\dot{f}$ của $G/\overline{f^{-1}}(e')$ lên $f(G)$, liên kết với $f$, là một đẳng cấu của các nhóm tôpô (nói cách khác, nếu $\dot{f}$ là song liên tục).*
 
 Vì vậy một đẳng cấu của một nhóm tôpô $G$ lên một nhóm tôpô $G'$ là một cấu xạ ngặt song ánh của $G$ lên $G'$.
 
-#### Mệnh đề 24 {#top-iii-s2-prop-24 .statement}
+#### Mệnh đề 24 {#top-iii-s2-prop-24 .statement tag=0BIQ}
 
 *Cho $f$ là một đồng cấu liên tục của một nhóm tôpô $G$ vào một nhóm tôpô $G'$. Khi đó ba mệnh đề sau là tương đương:*
 a) $f$ *là một cấu xạ ngặt.*
@@ -349,17 +349,17 @@ c) *Ảnh theo $f$ của mọi lân cận của phần tử đơn vị trong $G$
 
 Theo Bổ đề 2 của no. 4, tính tương đương của a) và b) suy ra ngay lập tức từ các định nghĩa (Chương I, § 5, no. 3, Mệnh đề 5). Tính tương đương của b) và c) là một trường hợp riêng của Mệnh đề 15 của no. 5, nếu ta nhận thấy rằng $G$ tác động liên tục trên $f(G)$ bởi luật ngoài $(s, f(t)) \to f(st)$.
 
-#### Nhận xét 1 {#top-iii-s2-n8-rem-1 .statement}
+#### Nhận xét 1 {#top-iii-s2-n8-rem-1 .statement tag=0BIR}
 
 Từ điều kiện b) của Mệnh đề 24 suy ra rằng mọi đồng cấu liên tục của một nhóm tôpô vào một nhóm rời rạc đều là một cấu xạ ngặt.
 
 Nếu G compact và $f(G)$ là Hausdorff, thì đồng cấu song ánh $f$ liên kết với $f$ là song liên tục (Chương I, § 10, no. 2, Định lý 1, Hệ quả 2, và no. 1, Mệnh đề 5, Hệ quả 4). Do đó mọi đồng cấu liên tục của một nhóm compact vào một nhóm Hausdorff đều là một cấu xạ ngặt.
 
-#### Nhận xét 2 {#top-iii-s2-n8-rem-2 .statement}
+#### Nhận xét 2 {#top-iii-s2-n8-rem-2 .statement tag=0BIS}
 
 Cho $f$ là một cấu xạ ngặt từ G vào $G'$ và $g$ là một cấu xạ ngặt từ $G'$ vào $G''$. Nếu $f$ toàn ánh hoặc nếu $g$ đơn ánh, thì suy ra ngay lập tức từ Mệnh đề 24 rằng $g \circ f$ là một cấu xạ ngặt từ G vào $G''$. Nhưng kết luận này không còn nhất thiết đúng nữa nếu không điều kiện nào trong hai điều kiện trước được thỏa mãn, ngay cả khi $f$ đơn ánh và $g$ toàn ánh (Bài tập 19).
 
-#### Nhận xét 3 {#top-iii-s2-n8-rem-3 .statement}
+#### Nhận xét 3 {#top-iii-s2-n8-rem-3 .statement tag=0BIT}
 
 Cho $f$ là một đồng cấu liên tục từ một nhóm tôpô G vào một nhóm tôpô $G'$, và cho H là một nhóm con chuẩn tắc của G. $f$ cảm sinh một đồng cấu $g$ từ nhóm $G/H$ lên nhóm thương $f(G)/f(H)$. Đồng cấu này $g$ là liên tục. Hơn nữa, nếu $f$ là một cấu xạ ngặt từ G vào $G'$, thì $g$ là một cấu xạ ngặt từ $G/H$ lên $f(G)/f(H)$; thật vậy, nếu U là mở trong $G/H$, và nếu $\varphi$ (tương ứng $\varphi'$) ký hiệu ánh xạ chính tắc từ G lên $G/H$ [tương ứng từ $f(G)$ lên $f(G)/f(H)$], thì ta có $g(u) = \varphi'(f(\overline{\varphi}^{-1}(u)))$, và vì $\overline{\varphi}^{-1}(u)$ là mở trong G, suy ra $g(u)$ là mở trong $f(G)/f(H)$, điều đó chứng minh mệnh đề của chúng ta.
 
@@ -385,7 +385,7 @@ $$
 
 và cả hai ánh xạ này đều liên tục (Chương I, § 4, no. 1, Hệ quả 1 của Mệnh đề 1, và Mệnh đề 2).
 
-#### Định nghĩa 2 {#top-iii-s2-def-2 .statement}
+#### Định nghĩa 2 {#top-iii-s2-def-2 .statement tag=0BIU}
 
 *Nhóm tôpô thu được bằng cách trang bị cho tập hợp tích*
 
@@ -399,7 +399,7 @@ Nếu $(J_x)_{x \in K}$ là một *phân hoạch* của $I$, thì $G$ đẳng c�
 
 Nếu $H_i$ là một nhóm con của $G_i$, thì tích các nhóm tôpô $H_i$ đẳng cấu với nhóm con $\prod_{i \in J} H_i$ của $\prod_{i \in I} G_i$. Đặc biệt, nếu $J$ là một tập con bất kỳ của $I$, và $J' = C J$, thì nhóm tôpô $\prod_{i \in J} G_i$ đẳng cấu với nhóm con chuẩn tắc $G'_J = (\prod_{i \in J} G_i) \times (\prod_{i \in J'} \{e_i\})$ của $G$. Vì phép chiếu của mọi tập mở là một tập mở, phép chiếu $\mathrm{pr}_J$ của $G$ lên $\prod_{i \in J} G_i$ là một *cấu xạ ngặt*, và do đó nhóm thương $G/G'$ đẳng cấu với $G'_J$; $G$ đẳng cấu với tích $G'_J \times (G/G'_J)$.
 
-#### Mệnh đề 25 {#top-iii-s2-prop-25 .statement}
+#### Mệnh đề 25 {#top-iii-s2-prop-25 .statement tag=0BIV}
 
 *Cho $(G_i)_{i \in I}$ là một họ các nhóm tôpô, và cho $H$ là nhóm con chuẩn tắc của $G = \prod_{i \in I} G_i$ gồm mọi $x = (x_i)$ sao cho các $x_i$ bằng phần tử đơn vị $e_i$ của $G_i$ trừ ra chỉ với một số hữu hạn chỉ số. Khi đó nhóm con $H$ trù mật trong $G$.*
 
@@ -413,13 +413,13 @@ $$
 
 (Chương I, § 4, no. 1, Mệnh đề 1, Hệ quả 1, và Mệnh đề 2). Hơn nữa quỹ đạo dưới tác động của $G$ của một điểm $x = (x_i)$ của $X$ là tích của các quỹ đạo của các $x_i$ (đối với các nhóm $G_i$). Gọi $\varphi_i$ là ánh xạ chính tắc từ $X_i$ lên $X_i/G_i$, và gọi $\varphi = (\varphi_i)$ là ánh xạ tích từ $X$ lên $\prod_{i \in I} (X_i/G_i)$; khi đó nhận xét trên cho thấy song ánh liên kết với $\varphi$ một cách chính tắc ánh xạ không gian quỹ đạo $X/G$ lên $\prod_{i \in I} (X_i/G_i)$. Hơn nữa:
 
-#### Hệ quả {#top-iii-s2-n9-cor-1 .statement}
+#### Hệ quả {#top-iii-s2-n9-cor-1 .statement tag=0BIX}
 
 *Cho* $(G_i)_{i \in I}$ *là một họ các nhóm tôpô, và với mỗi* $i \in I$ *cho* $H_i$ *là một nhóm con chuẩn tắc của* $G_i$; *gọi* $\varphi_i$ *là ánh xạ chính tắc từ* $G_i$ *lên* $G_i/H_i$. *Đặt* $G = \prod_{i \in I} G_i, \ H = \prod_{i \in I} H_i$. *Khi đó đồng cấu song ánh từ* $G/H$ *lên* $\prod_{i \in I} (G_i/H_i)$ *liên kết với đồng cấu liên tục* $(x_i) \to (\varphi_i(x_i))$ *là một đẳng cấu các nhóm tôpô.*
 
 Vì đồng cấu này là một đẳng cấu của các cấu trúc nhóm.
 
-#### Nhận xét {#top-iii-s2-n9-rem-1 .statement}
+#### Nhận xét {#top-iii-s2-n9-rem-1 .statement tag=0BIY}
 
 Nếu $G$ là một nhóm tôpô *giao hoán*, viết theo lối cộng, thì ánh xạ $(x, y) \to x + y$ từ $G \times G$ lên $G$ là một *cấu xạ ngặt*. Thật vậy, vì $(x + x') + (y + y') = (x + y) + (x' + y')$ nên nó là một *đồng cấu* từ $G \times G$ lên $G$; ngoài ra nó liên tục, và ảnh của một lân cận $V \times V$ của phần tử không trong $G \times G$ qua ánh xạ này là lân cận $V + V$ của phần tử không trong $G$.
 
@@ -447,7 +447,7 @@ $$(xy)(x'y') = (x\sigma_y(x'))(yy').$$
 
 Ngược lại:
 
-#### Mệnh đề 27 {#top-iii-s2-prop-27 .statement}
+#### Mệnh đề 27 {#top-iii-s2-prop-27 .statement tag=0BIZ}
 
 *Cho $\mathbf{N}$ và $\mathbf{L}$ là hai nhóm, $e'$ và $e''$ là các phần tử đơn vị tương ứng của chúng. Giả sử rằng ta được cho một đồng cấu $y \to \sigma_y$ từ $\mathbf{L}$ vào nhóm $\Gamma$ các tự đẳng cấu của $\mathbf{N}$. Khi đó:*
 
@@ -480,7 +480,7 @@ $$f(x\sigma_y(x'))g(yy') = f(x)g(y)f(x')g(y^{-1})g(y)g(y') = f(x)g(y)f(x')g(y')$
 
 điều đó chứng tỏ rằng ánh xạ $(x, y) \to f(x)g(y)$ quả thật là một đồng cấu từ S vào G thỏa mãn các điều kiện của 2).
 
-#### Hệ quả {#top-iii-s2-n10-cor-1 .statement}
+#### Hệ quả {#top-iii-s2-n10-cor-1 .statement tag=0BJ0}
 
 *Đồng cấu h được xác định trong 2) của Mệnh đề 27 là đơn ánh khi và chỉ khi f và g là đơn ánh và $f(N) \cap g(L) = \{e\}$; và h là toàn ánh khi và chỉ khi $f(N)g(L) = G$.*
 
@@ -490,7 +490,7 @@ Nhóm S được xác định trong Mệnh đề 27 được gọi là *tích n�
 
 Bây giờ cho G là một nhóm, và cho L và N là hai nhóm con của G sao cho $LN = NL$ và sao cho N là *chuẩn tắc* trong NL, nên với mỗi $y \in L$, $\sigma_y : x \to yxy^{-1}$ là một tự đẳng cấu của N, và $y \to \sigma_y$ là một đồng cấu từ L vào nhóm tự đẳng cấu $\Gamma$ của N. Khi đó suy ra từ Mệnh đề 27 rằng nếu S là tích nửa trực tiếp ngoài của N và L (ứng với $\sigma$), thì $h : (x, y) \to xy$ là một *đồng cấu* từ S vào G. h là song ánh khi và chỉ khi ta có $N \cap L = \{e\}$ và $NL = G$ (Hệ quả của Mệnh đề 27); khi đó G được gọi là *tích nửa trực tiếp* của nhóm con chuẩn tắc N của nó và nhóm con L của nó, và ta thường đồng nhất G với S qua h.
 
-#### Mệnh đề 28 {#top-iii-s2-prop-28 .statement}
+#### Mệnh đề 28 {#top-iii-s2-prop-28 .statement tag=0BJ1}
 
 *Cho L, N là hai nhóm tôpô, cho $y \to \sigma_y$ là một đồng cấu từ L vào nhóm các tự đẳng cấu $\Gamma$ của cấu trúc nhóm (phi tôpô) của N; và giả sử rằng ánh xạ $(x, y) \to \sigma_y(x)$ từ $N \times L$ vào N là liên tục. Khi đó:
 

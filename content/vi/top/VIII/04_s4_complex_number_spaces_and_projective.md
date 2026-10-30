@@ -28,9 +28,9 @@ subsections:
       pdf_page: 127
 statements: 3
 exercises: 8
-content_sha256: aaa47bb096e212186ce67b58e048f7d8dcc8cbfcedbfbabfa4863c21f9ca35ed
+content_sha256: cfe993fa3e13a6463e6103c35033304574b637e6330c469253e4ef83cd1aa13d
 translated_from: content/en/top/VIII/04_s4_complex_number_spaces_and_projective.md
-source_content_sha256: 5ec593cebbee52dc556dcb0f772698b7cf66722f409a4e9d29745d7be45ccbab
+source_content_sha256: a0635aa3afab1817d675f46cf3f74b8d72a27d4aefcae7dd03e7963e1016fe2d
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-837ccc39
 glossary_version: 34
@@ -68,7 +68,7 @@ Tất cả các định nghĩa và tất cả các kết quả của các số 5
 
 Với ký hiệu được nhắc lại trong Chương VI, § 3, no. 1, ta đưa ra định nghĩa sau đây, tương tự như định nghĩa về các không gian xạ ảnh thực:
 
-#### Định nghĩa 1 {#top-viii-s4-def-1 .statement}
+#### Định nghĩa 1 {#top-viii-s4-def-1 .statement tag=0C0W}
 
 *Không gian xạ ảnh* $\mathbf{P}_n(\mathbf{C})$, *được trang bị tôpô là thương của tôpô của* $\mathbf{C}_{n+1}^*$ *bởi quan hệ tương đương* $\Delta_n(\mathbf{C})$, *được gọi là không gian xạ ảnh phức có* $n$ *chiều.*
 
@@ -102,7 +102,7 @@ Vì mọi không gian con vectơ có $p + 1$ chiều của $\mathbf{R}^{n+1}$ si
 
 Với ký hiệu đã nhắc lại trong Chương VI, § 3, no. 5, ta định nghĩa tương tự các không gian của các đa tạp tuyến tính xạ ảnh trong một không gian xạ ảnh phức:
 
-#### Định nghĩa 2 {#top-viii-s4-def-2 .statement}
+#### Định nghĩa 2 {#top-viii-s4-def-2 .statement tag=0C0X}
 
 *Không gian thương* $P_{n,p}(\mathbf{C})$ *của không gian tôpô* $L_{n+1,\ p+1}(\mathbf{C})$ *theo quan hệ tương đương* $\Delta_{n,p}(\mathbf{C})$ *được gọi là không gian của các đa tạp tuyến tính xạ ảnh có* $p \geqslant 0$ *chiều trong không gian xạ ảnh* $P_n(\mathbf{C})$.
 
@@ -117,7 +117,7 @@ $$
 
 Chứng minh của Mệnh đề 8 của Chương VI, § 3, no. 5 được mở rộng không thay đổi cho không gian $P_{n,p}(\mathbf{C})$ và chỉ ra rằng không gian này là *liên thông* và *liên thông địa phương* và mỗi điểm của nó có một lân cận đồng phôi với $\mathbf{C}^{p+1,(n-p)}$. Cuối cùng chứng minh của Mệnh đề 9 của Chương VI, § 3, no. 6 áp dụng không thay đổi, và do đó đa tạp Grassmann $G_{n,p}(\mathbf{C})$ đồng phôi với $\mathbf{P}_{n,p}(\mathbf{C})$.
 
-#### Nhận xét {#top-viii-s4-n4-rem-1 .statement}
+#### Nhận xét {#top-viii-s4-n4-rem-1 .statement tag=0C0Y}
 
 Phần lớn các tính chất chung của các không gian số thực và phức (tương ứng các không gian xạ ảnh) cũng đúng đối với các không gian số (tương ứng các không gian xạ ảnh) được định nghĩa theo cùng một cách trên vành chia của các quaternion $\mathbf{H}$; thực vậy, chúng có khả năng mở rộng đến nhiều trường tôpô và vành chia khác (xem các Bài tập 2 và 6).
 

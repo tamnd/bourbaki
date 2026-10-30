@@ -40,14 +40,14 @@ subsections:
       pdf_page: 130
 statements: 26
 exercises: 25
-content_sha256: d0dc5b7fbf4a86a988a0565efd3a1a163d123255ce985acaa82d4bae2336718d
+content_sha256: f188369a92c513f11f05b8695ce142bcd6c7a7b7ba65c4700a9c58f9a827a83e
 ---
 
 ## § 1. GÉNÉRATION D’UNE STRUCTURE UNIFORME PAR UNE FAMILLE D’ÉCARTS. ESPACES UNIFORMISABLES
 
 ### 1. Écarts
 
-#### Définition 1 {#top-ix-s1-def-1 .statement}
+#### Définition 1 {#top-ix-s1-def-1 .statement tag=0EB9}
 
 Étant donné un ensemble $X$, on appelle écart sur $X$ toute application $f$ de $X \times X$ dans l’intervalle $[0, +\infty)$ de la droite achevée $\overline{\mathbf{R}}$, satisfaisant aux conditions suivantes :
 
@@ -59,27 +59,27 @@ f(x, y) \leq f(x, z) + f(z, y)
 $$
 (inégalité du triangle).
 
-#### Exemple 1 {#top-ix-s1-n1-exa-1 .statement}
+#### Exemple 1 {#top-ix-s1-n1-exa-1 .statement tag=0C17}
 
 Sur l’espace numérique $\mathbf{R}^n$, la distance euclidienne (VI, p. 7) est un écart.
 
-#### Exemple 2 {#top-ix-s1-n1-exa-2 .statement}
+#### Exemple 2 {#top-ix-s1-n1-exa-2 .statement tag=0C18}
 
 Étant donné un ensemble quelconque $X$, la fonction $f$ définie sur $X \times X$ par les conditions : $f(x, x) = 0$ pour tout $x \in X$, $f(x, y) = +\infty$ si $x \neq y$, est un écart sur $X$.
 
-#### Exemple 3 {#top-ix-s1-n1-exa-3 .statement}
+#### Exemple 3 {#top-ix-s1-n1-exa-3 .statement tag=0C19}
 
 Étant donnée une fonction numérique finie $g$ définie dans un ensemble quelconque $X$, la fonction $f$ définie dans $X \times X$ par $f(x, y) = |g(x) - g(y)|$ est un écart sur $X$.
 
-#### Exemple 4 {#top-ix-s1-n1-exa-4 .statement}
+#### Exemple 4 {#top-ix-s1-n1-exa-4 .statement tag=0C1A}
 
 Soit $X$ l’ensemble des applications continues de l’intervalle $[0, 1]$ de $\mathbf{R}$ dans $\mathbf{R}$. Si, pour tout couple d’éléments $x, y$ de $X$, on pose $f(x, y) = \int_0^1 |x(t) - y(t)| \, dt$, $f$ est un écart sur $X$.*
 
-#### Remarque 1 {#top-ix-s1-n1-rem-1 .statement}
+#### Remarque 1 {#top-ix-s1-n1-rem-1 .statement tag=0EBA}
 
 L’exemple 2 ci-dessus montre qu’un écart peut prendre la valeur $+\infty$ pour certains couples d’éléments de $X$.
 
-#### Remarque 2 {#top-ix-s1-n1-rem-2 .statement}
+#### Remarque 2 {#top-ix-s1-n1-rem-2 .statement tag=0EBB}
 
 Si $f$ est un écart sur $X$, on peut en général avoir $f(x, y) = 0$ pour des couples $(x, y)$ tels que $x \neq y$; c’est ce que montre l’exemple 3 ci-dessus (cf. IX, p. 1).
 
@@ -111,17 +111,17 @@ Dans l’espace numérique $\mathbf{R}^n$, on a vu (VI, p. 9) que si, pour tout 
 
 Plus généralement, soit $f$ un écart sur un ensemble $X$; pour tout $a > 0$, posons $U_a = f^{-1}([0, a])$; montrons que, lorsque $a$ parcourt l’ensemble des nombres $> 0$, les $U_a$ forment un système fondamental d’entourages d’une structure uniforme sur $X$. En effet, l’axiome $(U'_I)$ (II, p. 2) est vérifié en vertu de $(EC_I)$ (IX, p. 1); si $a \leq b$, on a $U_a \subset U_b$, donc les $U_a$ forment une base de filtre; d’après $(EC_{II})$, on a $U_a^{-1} = U_a$, donc $(U'_{II})$ est vérifié; enfin, d’après $(EC_{III})$, on a $U_a^2 \subset U_{2a}$, donc $(U'_{III})$ est vérifié. On peut par suite poser la définition suivante:
 
-#### Définition 2 {#top-ix-s1-def-2 .statement}
+#### Définition 2 {#top-ix-s1-def-2 .statement tag=0C1B}
 
 Étant donné un écart $f$ sur un ensemble $X$, on appelle structure uniforme définie par $f$ la structure uniforme sur $X$ ayant pour système fondamental d’entourages la famille des ensembles $f^{-1}([0, a])$, où $a$ parcourt l’ensemble des nombres $> 0$.
 
 On dit que deux écarts sur $X$ sont équivalents s’ils définissent la même structure uniforme.
 
-#### Remarque 1 {#top-ix-s1-n2-rem-1 .statement}
+#### Remarque 1 {#top-ix-s1-n2-rem-1 .statement tag=0C1C}
 
 Pour toute suite $(a_n)$ de nombres $> 0$ tendant vers $0$, les $U_{a_n}$ forment un système fondamental d’entourages de la structure uniforme définie par $f$.
 
-#### Remarque 2 {#top-ix-s1-n2-rem-2 .statement}
+#### Remarque 2 {#top-ix-s1-n2-rem-2 .statement tag=0C1D}
 
 La définition d’une structure uniforme par un écart $f$ revient à prendre comme système fondamental d’entourages de cette structure, l’image réciproque par $f$ du filtre des voisinages de 0 dans le sous-espaces $[0, +\infty)$ de $\overline{\mathbf{R}}$. On notera que ce procédé est tout à fait analogue à celui qui nous a permis de définir les structures uniformes d’un groupe topologique (III, p. 19).
 
@@ -139,7 +139,7 @@ $$
 
 Les deux derniers exemples prouvent qu’il existe toujours des écarts bornés équivalents à un écart quelconque donné (fini ou non).
 
-#### Définition 3 {#top-ix-s1-def-3 .statement}
+#### Définition 3 {#top-ix-s1-def-3 .statement tag=0C1E}
 
 Étant donnée une famille $(f_i)_{i \in I}$ d’écarts sur un ensemble $X$, on appelle structure uniforme définie par la famille $(f_i)$ sur l’ensemble $X$, la borne supérieure de l’ensemble des structures uniformes définies sur $X$ par chacun des écarts $f_i$.
 
@@ -184,7 +184,7 @@ Si Y est une partie non vide de X, la restriction à $Y \times Y$ d’un écart 
 
 Étudions maintenant le complété de l’espace uniforme X, lorsque $\mathscr{U}$ est séparée.
 
-#### Proposition 1 {#top-ix-s1-prop-1 .statement}
+#### Proposition 1 {#top-ix-s1-prop-1 .statement tag=0C1F}
 
 *Soit X un espace uniforme séparé, dont la structure uniforme $\mathscr{U}$ est définie par une famille d’écarts finis ($f_i$); soit $\hat{X}$ le complété de X. Les fonctions $f_i$ se prolongent par continuité à $\hat{X} \times \hat{X}$; les fonctions prolongées $\tilde{f}_i$ sont des écarts finis sur $\hat{X}$, et la structure uniforme de $\hat{X}$ est identique à la structure uniforme définie par la famille ($\tilde{f}_i$).*
 
@@ -200,13 +200,13 @@ tout entourage de la structure $\mathscr{U}_2$ est donc un entourage de la struc
 
 L’intérêt du mode de définition d’une structure uniforme par une famille d’écarts réside dans le fait qu’il permet d’obtenir *toutes les structures uniformes*. De façon précise:
 
-#### Théorème 1 {#top-ix-s1-thm-1 .statement}
+#### Théorème 1 {#top-ix-s1-thm-1 .statement tag=0C1G}
 
 *Étant donnée une structure uniforme $\mathscr{U}$ sur un ensemble X, il existe une famille d’écarts sur X telle que la structure uniforme définie par cette famille soit identique à $\mathscr{U}$.*
 
 Pour tout entourage V de la structure uniforme $\mathscr{U}$, définissons par récurrence une suite d’entourages symétriques $(\mathbf{U}_n)$ telle que $\mathbf{U}_1 \subset V$, et $\mathbf{U}_{n+1}^2 \subset \mathbf{U}_n$ quel que soit $n \geqslant 1$; la suite $(\mathbf{U}_n)$ est un système fondamental d’entourages d’une structure uniforme $\mathscr{U}_V$ moins fine que $\mathscr{U}$; en outre, il est clair que $\mathscr{U}$ est la *borne supérieure* de toutes les structures $\mathscr{U}_V$, lorsque V parcourt le filtre des entourages de $\mathscr{U}$. Le th. 1 sera donc une conséquence de la proposition suivante:
 
-#### Proposition 2 {#top-ix-s1-prop-2 .statement}
+#### Proposition 2 {#top-ix-s1-prop-2 .statement tag=0C1H}
 
 *Si une structure uniforme $\mathscr{U}$ sur $X$ possède un système fondamental dénombrable d’entourages, il existe un écart $f$ sur $X$ tel que $\mathscr{U}$ soit identique à la structure uniforme définie par $f$.*
 
@@ -249,7 +249,7 @@ Cela étant, les inégalités (2) montrent que, pour tout $a > 0$, l’ensemble 
 
 C.Q.F.D.
 
-#### Remarque {#top-ix-s1-n4-rem-1 .statement}
+#### Remarque {#top-ix-s1-n4-rem-1 .statement tag=0C1I}
 
 Une structure uniforme $\mathscr{U}$ sur $X$ est définie par la famille $\Phi$ de tous les écarts sur $X$ qui sont uniformément continus dans $X \times X$. En effet, il est clair que la structure uniforme définie par la famille $\Phi$ est moins fine que $\mathscr{U}$; d’autre part, le th. 1 prouve qu’il existe une sous-famille de $\Phi$ qui définit la structure uniforme $\mathscr{U}$, donc la structure uniforme définie par $\Phi$ est plus fine que $\mathscr{U}$, ce qui achève de montrer qu’elle est identique à $\mathscr{U}$.
 
@@ -257,7 +257,7 @@ Une structure uniforme $\mathscr{U}$ sur $X$ est définie par la famille $\Phi$ 
 
 Dans II, p. 27, nous avons posé le problème de la caractérisation des espaces topologiques uniformisables; la solution en est donnée par le th. suivant:
 
-#### Théorème 2 {#top-ix-s1-thm-2 .statement}
+#### Théorème 2 {#top-ix-s1-thm-2 .statement tag=0C1J}
 
 Pour qu’un espace topologique $X$ soit uniformisable, il faut et il suffit qu’il vérifie l’axiome suivant:
 (OIV) Quels que soient le point $x_0 \in X$ et le voisinage $V$ de $x_0$, il existe une fonction numérique continue dans $X$, prenant ses valeurs dans $[0, 1]$, égale à 0 au point $x_0$ et à 1 dans $CV$.
@@ -266,19 +266,19 @@ La condition est nécessaire. En effet, s’il existe une structure uniforme com
 
 La condition est suffisante. En effet, soit $\Phi$ l’ensemble des applications continues de $X$ dans $[0, 1]$. L’axiome (OIV) prouve que la structure uniforme la moins fine rendant uniformément continues les fonctions appartenant à $\Phi$ est compatible avec la topologie de $X$ (II, p. 8, corollaire).
 
-#### Définition 4 {#top-ix-s1-def-4 .statement}
+#### Définition 4 {#top-ix-s1-def-4 .statement tag=0C1K}
 
 On dit qu’un espace topologique est complètement régulier s’il est uniformisable et séparé.
 
 Il revient au même, d’après le th. 2, de dire qu’un espace est complètement régulier s’il satisfait aux axiomes (H) et (O_{IV}).
 
-#### Remarque {#top-ix-s1-n5-rem-1 .statement}
+#### Remarque {#top-ix-s1-n5-rem-1 .statement tag=0C1L}
 
 L’axiome (O_{IV}) entraîne (O_{III}) (cf. I, p. 56, car si V est un voisinage de $x_0$, et $f$ une fonction numérique continue dans $X$, à valeurs dans $(0, 1)$, telle que $f(x_0) = 0, f(x) = 1$ pour tout $x \in \mathscr{V}$, l’ensemble $f^{-1}([0, \frac{1}{2}])$ est un voisinage fermé de $x_0$ contenu dans V. En particulier, tout espace complètement régulier est régulier (ce qui justifie la terminologie). On peut par contre donner des exemples d’espaces réguliers qui ne sont pas complètement réguliers (IX, p. 85, exerc. 8), ce qui montre que (O_{III}) n’entraîne pas (O_{IV}).
 
 On sait (II, p. 27, th. 1) que tout espace compact est complètement régulier, et par suite aussi tout sous-espace d’un espace compact. Nous pouvons maintenant compléter cette proposition en démontrant sa réciproque ; autrement dit :
 
-#### Proposition 3 {#top-ix-s1-prop-3 .statement}
+#### Proposition 3 {#top-ix-s1-prop-3 .statement tag=0C1M}
 
 Pour qu’un espace topologique $X$ soit complètement régulier, il faut et il suffit qu’il soit homéomorphe à un sous-espace d’un espace compact.
 
@@ -288,17 +288,17 @@ On peut encore dire qu’un espace complètement régulier peut être plongé da
 
 Appelons, de façon générale, cube un espace topologique $I^L$, produit d’une famille d’espaces topologiques identiques à un intervalle compact I de $\mathbf{R}$, et ayant pour ensemble d’indices un ensemble L quelconque (si L est fini et a $n$ éléments, on retrouve la notion de cube fermé à $n$ dimensions définie dans VI, p. 1); un cube est un espace compact (I, p. 63, th. 3).
 
-#### Proposition 4 {#top-ix-s1-prop-4 .statement}
+#### Proposition 4 {#top-ix-s1-prop-4 .statement tag=0C1N}
 
 Si un espace topologique $X$ est complètement régulier, il est homéomorphe à un sous-espace d’un cube.
 
 Désignons en effet par $(f_\lambda)_{\lambda \in L}$ la famille de toutes les applications continues de $X$ dans $I = (0, 1)$, et considérons l’application $x \mapsto (f_\lambda(x))$ de $X$ dans $I^L$, que nous désignerons par g. D’après les axiomes (H) et (O_{IV}), pour tout couple de points distincts $x, y$ de $X$, il existe un indice $\lambda$ tel que $f_\lambda(x) \neq f_\lambda(y)$, donc g est une application injective de $X$ dans $I^L$. En outre, il est immédiat que g est un isomorphisme de la structure uniforme la moins fine rendant uniformément continues les f_\lambda, sur la structure uniforme induite sur g(X) par la structure uniforme (produit) de I^L; a fortiori, g est un homéomorphisme de X sur g(X).
 
-#### Définition 5 {#top-ix-s1-def-5 .statement}
+#### Définition 5 {#top-ix-s1-def-5 .statement tag=0EBC}
 
 Étant donné un ensemble X, on dit qu’un ensemble H d’applications de X dans un ensemble Y sépare les éléments d’une partie A de X (ou est un ensemble séparant pour les éléments de A) si, quels que soient les éléments distincts x, y de A, il existe une fonction f \in H telle que f(x) \neq f(y).
 
-#### Proposition 5 {#top-ix-s1-prop-5 .statement}
+#### Proposition 5 {#top-ix-s1-prop-5 .statement tag=0C1O}
 
 Soient X un espace compact, H un ensemble de fonctions numériques continues dans X et séparant les points de X. Pour toute partie finie K de H et tout réel $\varepsilon > 0$, soit $U_{K,\varepsilon}$ l’ensemble des couples $(x, y) \in X \times X$ tels que $|f(x) - f(y)| \leq \varepsilon$ pour toute application $f \in K$. Les ensembles $U_{K,\varepsilon}$ forment un système fondamental d’entourages de la structure uniforme de X.
 
@@ -306,7 +306,7 @@ En effet, soit $\varphi : X \to \mathbf{R}^H$ l’application $x \mapsto (f(x))_
 
 ### 6. Compactifié de Stone-Čech
 
-#### Proposition 6 {#top-ix-s1-prop-6 .statement}
+#### Proposition 6 {#top-ix-s1-prop-6 .statement tag=0EBD}
 
 Soit X un espace topologique; il existe un espace compact Z et une application continue $f : X \to Z$ ayant la propriété suivante: pour toute application continue g de X dans un espace compact Y, il existe une application continue et une seule $h : Z \to Y$ telle que $g = h \circ f$. En outre, si $Z_1$ est un espace compact et $f_1$ une application continue de X dans $Z_1$ ayant les mêmes propriétés que Z et f, il existe un homéomorphisme unique u de Z sur $Z_1$ tel que $f_1 = u \circ f$.
 
@@ -320,7 +320,7 @@ pour tout $x \in X$; l’application $h = (h_\alpha)$ de Z dans $I^A$ est donc t
 
 Supposons donc $Y = I$; alors par définition, si $g : X \to I$ est continue, il existe un indice $\lambda \in L$ tel que $g = f_\lambda$, et on a donc la factorisation $g = (\mathrm{pr}_\lambda | Z) \circ f$. L’unicité de $h$ résulte de ce que $Y$ est séparé et de ce que $h$ est déterminé de façon unique dans $\varphi(X)$, qui est partout dense dans $Z$. L’unicité du couple $(Z, f)$ à isomorphisme unique près est un résultat général sur les problèmes d’application universelle (E, IV, p. 23).
 
-#### Corollaire {#top-ix-s1-n6-cor-1 .statement}
+#### Corollaire {#top-ix-s1-n6-cor-1 .statement tag=0EBE}
 
 *Pour que $f$ soit injective, il faut et il suffit que l’ensemble des applications continues de $X$ dans $I = (0, 1)$ sépare les points de $X$. Pour que $f$ soit un homéomorphisme de $X$ sur $f(X)$, il faut et il suffit que $X$ soit complètement régulier.*
 
@@ -332,7 +332,7 @@ L’espace compact $Z$ défini dans la prop. 6 est appelé *compactifié de Ston
 
 Dans IV, p. 31, corollaire, on a vu que, dans un espace topologique, l’enveloppe supérieure d’une famille de fonctions numériques continues est une fonction semi-continue inférieurement. Dans un espace *uniformisable*, on a en outre une *réciproque* de cette proposition:
 
-#### Proposition 7 {#top-ix-s1-prop-7 .statement}
+#### Proposition 7 {#top-ix-s1-prop-7 .statement tag=0EBF}
 
 *Pour que toute fonction numérique $f$ (finie ou non) semi-continue inférieurement dans un espace topologique $X$, soit l’enveloppe supérieure des fonctions numériques (finies ou non) continues dans $X$ et $\leq f$, il faut et il suffit que $X$ soit uniformisable.*
 
@@ -342,7 +342,7 @@ La condition est *suffisante*. Considérons d’abord le cas où $f$ prend ses v
 
 Le cas général se déduit du cas précédent par transport de structure : il existe en effet un homéomorphisme strictement croissant de $(-1, +1)$ sur $\overline{\mathbf{R}}$ (IV, p. 14, prop. 2).
 
-#### Remarque {#top-ix-s1-n7-rem-1 .statement}
+#### Remarque {#top-ix-s1-n7-rem-1 .statement tag=0EBG}
 
 Dans la démonstration précédente, on voit que la fonction $g$ ne prend pas la valeur $+1$. Par transport de structure, on en déduit que toute fonction numérique $f$, semi-continue inférieurement dans l’espace uniformisable E, est enveloppe supérieure des fonctions numériques $g \leq f$, continues dans E et ne prenant pas la valeur $+\infty$.
 

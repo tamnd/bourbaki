@@ -37,7 +37,7 @@ subsections:
       pdf_page: 80
 statements: 27
 exercises: 8
-content_sha256: 1046c25411274de2c45dfa9114699e8bc7293edc50ce34fed321721ce1aa4809
+content_sha256: 4481aeb48edb8d81ff42838879bade6efd859de916e3c3290f7c5c9dd3c4398d
 ---
 
 ## § 7. REPRÉSENTATIONS IRRÉDUCTIBLES DES GROUPES DE LIE COMPACTS CONNEXES $^1$
@@ -283,13 +283,13 @@ $$
 
 Pour tout $\lambda \in X_{++}$, notons $\chi_\lambda$ le caractère d'une représentation irréductible de $G$ de plus grand poids $\lambda$.
 
-#### Théorème 2 (H. Weyl) {#lie-ix-s7-thm-2 .statement}
+#### Théorème 2 (H. Weyl) {#lie-ix-s7-thm-2 .statement tag=01GD}
 
 — *Pour tout $\lambda \in X_{++}$, on a $J(\rho) \cdot \chi_\lambda|T = J(\lambda \rho)$.*
 
 La fonction $J(\rho) \cdot \chi_\lambda|T$ est anti-invariante par $W$, et est combinaison linéaire à coefficients entiers des éléments de $X(T)$. D'après VI, § 3, n° 3, prop. 1, elle s'écrit donc $\sum_\mu a_\mu J(\mu \rho)$, où $\mu$ parcourt $X_{++}$, et où les $a_\mu$ sont entiers et tous nuls sauf un nombre fini d'entre eux ; puisque $\int_G |\chi_\lambda(g)|^2 dg = 1$ (TS), il résulte de la prop. 3 et du lemme 4 que l'on a $\sum_\mu (a_\mu)^2 = 1$; les $a_\mu$ sont donc tous nuls, sauf l'un d'entre eux qui vaut 1 ou -1. Mais le coefficient de $\lambda$ dans $\chi_\lambda|T$ vaut 1 (th. 1), donc le coefficient de $\lambda \rho$ dans $J(\rho) \cdot \chi_\lambda|T$ vaut 1 (VI, § 3, n° 3, remarque 2), ce qui implique $a_{\lambda \rho} = 1$, d'où le théorème.
 
-#### Corollaire 1 {#lie-ix-s7-lem-4-cor-1 .statement}
+#### Corollaire 1 {#lie-ix-s7-lem-4-cor-1 .statement tag=0E90}
 
 *Avec les notations du n° 3, on a dans $\mathbf{Z}[X(T)]$*
 
@@ -299,7 +299,7 @@ $$
 
 Cela résulte du théorème et de la commutativité du diagramme (2) (n° 3).
 
-#### Corollaire 2 {#lie-ix-s7-lem-4-cor-2 .statement}
+#### Corollaire 2 {#lie-ix-s7-lem-4-cor-2 .statement tag=0E91}
 
 *Pour tout $\lambda \in X_{++}$ et tout élément régulier $t$ de $T$, on a*
 
@@ -315,11 +315,11 @@ Si $\varphi$ est une fonction centrale sur $G$, la restriction de $\varphi$ à $
 
 On déduit donc de la prop. 3 et du th. 2 :
 
-#### Corollaire 3 {#lie-ix-s7-lem-4-cor-3 .statement}
+#### Corollaire 3 {#lie-ix-s7-lem-4-cor-3 .statement tag=0E92}
 
 *L’application qui, à chaque fonction continue centrale $\varphi$ sur G, associe la fonction $w(G)^{-1/2}J(\rho)\ (\varphi|T)$ induit un isomorphisme de l’espace des fonctions représentatives centrales sur G sur l’espace des éléments anti-invariants de $\Theta(T)$ ; elle se prolonge par continuité en un isomorphisme d’espaces hilbertiens de $\mathrm{ZL}^2(G)$ sur le sous-espace des éléments anti-invariants de $L^2(T)$.*
 
-#### Corollaire 4 {#lie-ix-s7-lem-4-cor-4 .statement}
+#### Corollaire 4 {#lie-ix-s7-lem-4-cor-4 .statement tag=0E93}
 
 *Soit $\varphi$ une fonction continue centrale sur G. On a*
 

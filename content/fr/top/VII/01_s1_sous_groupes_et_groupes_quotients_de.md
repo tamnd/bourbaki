@@ -36,7 +36,7 @@ subsections:
       pdf_page: 68
 statements: 21
 exercises: 18
-content_sha256: cee27bf556d4189e085f3d7b8842128378e32512ddfd8c818cb08ce223ec2b48
+content_sha256: b9e7ad5c2c53eb3d29019b6e5a104572b24ab569da78d875035c23f57e46b6bd
 ---
 
 ## § 1. SOUS-GROUPES ET GROUPES QUOTIENTS DE $\mathbf{R}^n$
@@ -57,7 +57,7 @@ La structure du groupe $\mathbf{Z}^p$, et par suite du groupe $G$, a été étud
 
 Nous allons maintenant montrer que les sous-groupes discrets de $\mathbf{R}^n$ que nous venons de considérer sont les *seuls*.
 
-#### Proposition 1 {#top-vii-s1-prop-1 .statement}
+#### Proposition 1 {#top-vii-s1-prop-1 .statement tag=0BY4}
 
 *Soient* $G$ *un sous-groupe discret de* $\mathbf{R}^n$, *de rang* $p$, $(a_i)_{1 \leq i \leq p}$ *un système libre de* $p$ *points de* $G$, $P$ *le parallélétope fermé de centre* $0$, *construit sur les vecteurs* $a_i$ (VI, p. 3); alors l’ensemble $G \cap P$ est fini et engendre $G$, et tout point de $G$ est une combinaison linéaire des $a_i$ à coefficients rationnels.
 
@@ -69,7 +69,7 @@ $$
 
 il appartient à $G$, et comme $0 \leq m t_i - [m t_i] < 1$, il est contenu dans $P$. On en déduit tout d’abord que $x = z_1 + \sum_{i=1}^p [t_i] a_i$, donc $G$ est engendré par $G \cap P$. D’autre part, comme $G \cap P$ est fini, il existe deux entiers distincts $h, k$ tels que $z_h = z_k$, ce qui entraîne $(h - k) t_i = [h t_i] - [k t_i]$ pour $1 \leq i \leq p$; donc les $t_i$ sont rationnels.
 
-#### Corollaire {#top-vii-s1-n1-cor-1 .statement}
+#### Corollaire {#top-vii-s1-n1-cor-1 .statement tag=0BY5}
 
 Soient $(a_i)_{1 \leq i \leq p}$ un système libre de $p$ points de $\mathbf{R}^n$ et $b = \sum_{i=1}^p t_i a_i$ une combinaison linéaire à coefficients réels des $a_i$. Pour que le sous-groupe $G$ de $\mathbf{R}^n$ engendré par les $p + 1$ points $a_i$ ($1 \leq i \leq p$) et $b$ soit discret, il faut et il suffit que les nombres $t_i$ soient rationnels.
 
@@ -79,7 +79,7 @@ On peut encore exprimer le résultat de la prop. 1 de la façon suivante: si $q$
 
 Le corollaire de la prop. 1, appliqué au cas où les $a_i$ sont les $n$ vecteurs $e_i$ de la base canonique, donne la proposition suivante:
 
-#### Proposition 2 (Kronecker) {#top-vii-s1-prop-2 .statement}
+#### Proposition 2 (Kronecker) {#top-vii-s1-prop-2 .statement tag=0BY6}
 
 Soient $\theta_1, \theta_2, \ldots, \theta_n$ des nombres réels. Les conditions suivantes sont équivalentes:
 a) pour tout $\varepsilon > 0$, il existe un entier $q$ et $n$ entiers $p_i$ ($1 \leq i \leq n$) tels que
@@ -91,7 +91,7 @@ b) l’un au moins des $\theta_i$ est irrationnel.
 
 1 On rappelle (IV, p. 41) que pour tout nombre réel $x$, $[x]$ est la partie entière de $x$, c’est-à-dire le plus grand entier rationnel qui soit $\leq x$.
 
-#### Théorème 1 {#top-vii-s1-thm-1 .statement}
+#### Théorème 1 {#top-vii-s1-thm-1 .statement tag=0BY7}
 
 *Tout sous-groupe discret* G de $\mathbf{R}^n$, de rang égal à p, est engendré par un système libre de p points.
 
@@ -106,7 +106,7 @@ Nous connaissons déjà deux sortes de sous-groupes fermés de $\mathbf{R}^n$; d
 
 Nous nous appuierons sur la proposition suivante:
 
-#### Proposition 3 {#top-vii-s1-prop-3 .statement}
+#### Proposition 3 {#top-vii-s1-prop-3 .statement tag=0BY8}
 
 *Tout sous-groupe fermé non discret de* $\mathbf{R}^n$ *contient une droite passant par* 0.
 
@@ -118,7 +118,7 @@ Figure 5
 ![Figure 6](https://i.imgur.com/5zXzX.png)
 Figure 6
 
-#### Théorème 2 {#top-vii-s1-thm-2 .statement}
+#### Théorème 2 {#top-vii-s1-thm-2 .statement tag=0BY9}
 
 *Soit $G$ un sous-groupe fermé de $\mathbf{R}^n$, de rang $r$ ($0 \leq r \leq n$); il existe un plus grand sous-espace vectoriel $V$ contenu dans $G$; pour tout espace vectoriel $W$ supplémentaire de $V$, $W \cap G$ est discret, et $G$ est somme directe de $V$ et de $W \cap G$.*
 
@@ -128,7 +128,7 @@ D’une manière imagée, lorsque $G \neq V$, on peut dire que $G$ est la réuni
 
 Si $p$ est la dimension du sous-espace vectoriel $V$, on a $p \leq r$, et $W \cap G$ est un sous-groupe discret de rang $r - p$.
 
-#### Corollaire 1 {#top-vii-s1-thm-2-cor-1 .statement}
+#### Corollaire 1 {#top-vii-s1-thm-2-cor-1 .statement tag=0BYA}
 
 *Il existe une base $(a_i)_{1 \leq i \leq n}$ de $\mathbf{R}^n$, telle que $a_i \in G$ pour $1 \leq i \leq r$, $a_i \in V$ pour $1 \leq i \leq p$, et que $G$ soit identique à l’ensemble des points*
 $$
@@ -137,7 +137,7 @@ $$
 *où les $t_i$ prennent toutes les valeurs réelles, les $n_j$ toutes les valeurs entières.*
 Cela résulte du th. 2, et du th. 1 de VII, p. 4 appliqué au groupe discret $W \cap G$.
 
-#### Corollaire 2 {#top-vii-s1-thm-2-cor-2 .statement}
+#### Corollaire 2 {#top-vii-s1-thm-2-cor-2 .statement tag=0BYB}
 
 Il existe un automorphisme de $\mathbf{R}^n$ qui applique $G$ sur le groupe $G'$, isomorphe à $\mathbf{R}^p \times \mathbf{Z}^{r-p}$, somme directe du sous-espace vectoriel engendré par $e_1, e_2, \ldots, e_p$ et du sous-groupe additif (discret) engendré par $e_{p+1}, e_{p+2}, \ldots, e_r$.
 
@@ -149,7 +149,7 @@ Le cor. 2 du th. 2 montre qu’un sous-groupe fermé $G$ de $\mathbf{R}^n$ est e
 
 Soit $G$ un sous-groupe quelconque (fermé ou non) de $\mathbf{R}^n$. Considérons l’ensemble $G^*$ des points $u = (u_i)$ de $\mathbf{R}^n$ tels que, pour *tout* point $x = (x_i) \in G$, le nombre $(u \mid x) = \sum_{i=1}^n u_i x_i$ soit un *entier*. Il est immédiat que $G^*$ est un *sous-groupe* de $\mathbf{R}^n$; on dit que c’est le sous-groupe *associé* à $G$. Si $G$ et $H$ sont deux sous-groupes de $\mathbf{R}^n$ tels que $H \subset G$, il est clair que $G^* \subset H^*$.
 
-#### Proposition 4 {#top-vii-s1-prop-4 .statement}
+#### Proposition 4 {#top-vii-s1-prop-4 .statement tag=0BYC}
 
 *Le sous-groupe* $G^*$ *associé à un sous-groupe* $G$ *de* $\mathbf{R}^n$ *est fermé*, et on a $(\overline{G})^* = G^*$.
 
@@ -158,23 +158,23 @@ En effet, si pour tout $x \in G$, on pose $f_x(u) = (u \mid x)$, $f_x$ est une f
 Étudions la structure de $G^*$ lorsque $G$ est *fermé*. D’après VII, p. 5, cor. 1, il existe une base $(a_i)_{1 \leqslant i \leqslant n}$ de $\mathbf{R}^n$, telle que $G$ soit identique à l’ensemble des points $x = \sum_{i=1}^p t_i a_i + \sum_{j=p+1}^{p+q} n_j a_j$, où les $t_i$ prennent toutes les valeurs réelles, les $n_j$ toutes les valeurs entières. Pour que $(u \mid x)$ soit entier pour *tous* ces points $x$, il faut et il suffit que $(u \mid a_i) = 0$ pour $1 \leqslant i \leqslant p$, et que $(u \mid a_i)$ soit entier pour $p+1 \leqslant i \leqslant p+q$. Désignons par $(a'_i)_{1 \leqslant i \leqslant n}$ la base de $\mathbf{R}^n$ telle que $(a'_i \mid a_j) = 0$ pour $i \neq j$, $(a'_i \mid a_i) = 1$ pour tout $i$ (A, IX, §1, n° 6); si l’on pose $u = \sum_{i=1}^n u_i a_i$, on voit que les points $u \in G^*$ sont caractérisés par les conditions: $u_i = 0$ pour $1 \leqslant i \leqslant p$, et $u$ entier pour $p+1 \leqslant i \leqslant p+q$; donc $G^*$ est somme directe du sous-espace vectoriel $W$ ayant pour base les $a'_i$ d’indice tel que $p+q+1 \leqslant i \leqslant n$, et du sous-groupe discret engendré par les $a'_i$ d’indice tel que $p+1 \leqslant i \leqslant p+q$.
 
 Autrement dit:
-#### Proposition 5 {#top-vii-s1-prop-5 .statement}
+#### Proposition 5 {#top-vii-s1-prop-5 .statement tag=0BYD}
 
 *Pour tout sous-groupe fermé G de $\mathbf{R}^n$, on a $r(G^*) = n - d(G)$, et $d(G^*) = n - r(G)$.*
 
 Appliquons le même raisonnement à $G^*$; en remarquant que la base duale de $(\mathbf{a}_i')$ est $(\mathbf{a}_i)$, on voit que:
 
-#### Proposition 6 {#top-vii-s1-prop-6 .statement}
+#### Proposition 6 {#top-vii-s1-prop-6 .statement tag=0BYE}
 
 *Pour tout sous-groupe G de $\mathbf{R}^n$, on a $(G^*)^* = \overline{G}$.*
 
-#### Corollaire {#top-vii-s1-n3-cor-1 .statement}
+#### Corollaire {#top-vii-s1-n3-cor-1 .statement tag=0BYF}
 
 *Pour qu’un point $\mathbf{x}$ soit adhérent à un sous-groupe G de $\mathbf{R}^n$, il faut et il suffit que $(\mathbf{u} \mid \mathbf{x})$ soit entier pour tout $\mathbf{u} \in \mathbf{R}^n$ tel que $(\mathbf{u} \mid \mathbf{y})$ soit entier pour tout $\mathbf{y} \in G$.*
 
 Appliquons cette caractérisation des points adhérents à un sous-groupe G, au cas du sous-groupe G engendré par les $n$ vecteurs $\mathbf{e}_j$ de la base canonique $(1 \leq j \leq n)$, et par un nombre quelconque $m$ de points $\mathbf{a}_i$ $(1 \leq i \leq m)$ de $\mathbf{R}^n$. Dire que $(\mathbf{u} \mid \mathbf{e}_j)$ est entier pour $1 \leq j \leq n$ signifie que les $n$ coordonnées de $\mathbf{u}$ sont entières; donc:
 
-#### Proposition 7 (Kronecker) {#top-vii-s1-prop-7 .statement}
+#### Proposition 7 (Kronecker) {#top-vii-s1-prop-7 .statement tag=0BYG}
 
 — *Soient $\mathbf{a}_i = (a_{ji})$ $(1 \leq i \leq m, 1 \leq j \leq n)$ m points de $\mathbf{R}^n$, $\mathbf{b} = (b_j)$ $(1 \leq j \leq n)$ un point de $\mathbf{R}^n$. Afin que, pour tout $\varepsilon > 0$, il existe m entiers $q_i$ $(1 \leq i \leq m)$ et n entiers $p_j$ $(1 \leq j \leq n)$ tels que*
 $$
@@ -182,7 +182,7 @@ $$
 $$
 *il faut et il suffit que, pour toute suite finie $(r_j)$ $(1 \leq j \leq n)$ de n entiers telle que les m nombres $\sum_{j=1}^n a_{ij} r_j$ $(1 \leq i \leq m)$ soient tous entiers, le nombre $\sum_{j=1}^n b_j r_j$ soit aussi entier.*
 
-#### Corollaire 1 {#top-vii-s1-prop-6-cor-1 .statement}
+#### Corollaire 1 {#top-vii-s1-prop-6-cor-1 .statement tag=0EAO}
 
 *Afin que, pour tout $\mathbf{x} = (x_j)$ $(1 \leq j \leq n)$ et tout $\varepsilon > 0$, il existe m entiers $q_i$ $(1 \leq i \leq m)$ et n entiers $p_j$ $(1 \leq j \leq n)$ tels que*
 $$
@@ -194,7 +194,7 @@ En effet, si G est dense dans $\mathbf{R}^n$, c’est-à-dire si $\overline{G} =
 
 En particulier, pour $m = 1$:
 
-#### Corollaire 2 {#top-vii-s1-prop-6-cor-2 .statement}
+#### Corollaire 2 {#top-vii-s1-prop-6-cor-2 .statement tag=0EAP}
 
 *Soient $\theta_1, \theta_2, \ldots, \theta_n$ n nombres réels. Afin que, quels que soient les n nombres réels $x_1, x_2, \ldots, x_n$ et le nombre $\varepsilon > 0$, il existe un entier q et n entiers $p_j$ tels que*
 $$
@@ -204,7 +204,7 @@ $$
 
 On peut interpréter ce résultat de la façon suivante: pour tout entier $q \in \mathbf{Z}$, désignons par $\mathbf{x}_q$ le point de coordonnées $q\theta_j - [q\theta_j]$ ($1 \leq j \leq n$); alors le cor. 2 donne une condition nécessaire et suffisante pour que l’ensemble des $\mathbf{x}_q$ soit dense dans le cube produit des intervalles $(0, 1)$ des espaces facteurs de $\mathbf{R}^n$.
 
-#### Proposition 8 {#top-vii-s1-prop-8 .statement}
+#### Proposition 8 {#top-vii-s1-prop-8 .statement tag=0BYJ}
 
 *Quels que soient les sous-groupes fermés* $G_1, G_2$ de $\mathbf{R}^n$, *on a*
 $$
@@ -217,7 +217,7 @@ $$
 
 En effet, pour que $(\mathbf{u} \mid \mathbf{x} + \mathbf{y})$ soit entier quels que soient $\mathbf{x} \in G_1$ et $\mathbf{y} \in G_2$, il faut et il suffit que $(\mathbf{u} \mid \mathbf{x})$ soit entier pour tout $\mathbf{x} \in G_1$ et que $(\mathbf{u} \mid \mathbf{y})$ soit entier pour tout $\mathbf{y} \in G_2$, en raison de la relation $(\mathbf{u} \mid \mathbf{x} + \mathbf{y}) = (\mathbf{u} \mid \mathbf{x}) + (\mathbf{u} \mid \mathbf{y})$; on a donc $(G_1 + G_2)^* = G_1^* \cap G_2^*$ pour tout couple de sous-groupes $G_1, G_2$ de $\mathbf{R}^n$. Si maintenant on suppose $G_1$ et $G_2$ fermés, on a $(G_1^* + G_2^*)^* = G_1 \cap G_2$ d’après la prop. 6 (VII, p. 7), d’où, en prenant les groupes associés, et appliquant de nouveau la prop. 6, $(G_1 \cap G_2)^* = \overline{G_1^* + G_2^*}$.
 
-#### Remarque {#top-vii-s1-n3-rem-1 .statement}
+#### Remarque {#top-vii-s1-n3-rem-1 .statement tag=0BYK}
 
 Soient $G_1, G_2$ deux *réseaux* de $\mathbf{R}^n$ (n° 1) tels que $G_2 \subset G_1$; alors (VII, p. 7, prop. 5) $G_1^*$ et $G_2^*$ sont des *réseaux* de $\mathbf{R}^n$ tels que $G_1^* \subset G_2^*$. On a vu (VII, p. 2, prop. 1) qu’il existe un entier $m > 0$ tel que $mG_1 \subset G_2$. Pour $\mathbf{x} \in G_1$ et $\mathbf{u} \in G_2^*$, on a donc $m(\mathbf{u} \mid \mathbf{x}) \in \mathbf{Z}$, donc $(\mathbf{u} \mid \mathbf{x}) \in \mathbf{Q}$. En outre, si $\mathbf{x} \in G_2$ et $\mathbf{u} \in G_2^*$, ou si $\mathbf{x} \in G_1$ et $\mathbf{u} \in G_1^*$, on a par définition $(\mathbf{u} \mid \mathbf{x}) \in \mathbf{Z}$. On en déduit que, par passage aux quotients, l’application $\mathbf{Z}$-bilinéaire $(\mathbf{x}, \mathbf{u}) \to (\mathbf{u} \mid \mathbf{x})$ de $G_1 \times G_2^*$ dans $\mathbf{Q}$ définit une application $\mathbf{Z}$-bilinéaire B de $(G_1/G_2) \times (G_2^*/G_1^*)$ dans $\mathbf{Q}/\mathbf{Z}$. En outre, il est clair que si $\overline{\mathbf{x}}_0 \in G_1/G_2$ (resp. $\overline{\mathbf{u}}_0 \in G_2^*/G_1^*$) est tel que, pour *tout* $\overline{\mathbf{u}} \in G_2^*/G_1^*$ (resp. pour *tout* $\overline{\mathbf{x}} \in G_1/G_2$), on ait $B(\overline{\mathbf{x}}_0, \overline{\mathbf{u}}) = 0$ (resp. $B(\overline{\mathbf{x}}, \overline{\mathbf{u}}_0) = 0$) on a nécessairement $\overline{\mathbf{x}}_0 = 0$ (resp. $\overline{\mathbf{u}}_0 = 0$). On en conclut qu’il existe une *bijection* $\mathbf{Z}$-linéaire $h$ de $G_2^*/G_1^*$ sur $D(G_1/G_2)$ (avec les notations de A, VII, § 4, n° 8) telle que $\langle \overline{\mathbf{x}}, h(\overline{\mathbf{u}}) \rangle = B(\overline{\mathbf{x}}, \overline{\mathbf{u}})$ pour $\overline{\mathbf{x}} \in G_1/G_2$ et $\overline{\mathbf{u}} \in G_2^*/G_1^*$ (*loc. cit.*); en particulier, les groupes finis $G_1/G_2$ et $G_2^*/G_1^*$ sont *isomorphes*.
 
@@ -225,7 +225,7 @@ Soient $G_1, G_2$ deux *réseaux* de $\mathbf{R}^n$ (n° 1) tels que $G_2 \subse
 
 Tout groupe quotient séparé de $\mathbf{R}^n$ est de la forme $\mathbf{R}^n/H$, où $H$ est un sous-groupe *fermé* de $\mathbf{R}^n$ (III, p. 13, prop. 18). D’après le cor. 2 de VII, p. 6, il existe un automorphisme $f$ de $\mathbf{R}^n$ transformant $H$ en un sous-groupe $H'$, somme directe d’un sous-espace vectoriel engendré par $p$ des vecteurs $\mathbf{e}_i$ de la base canonique, et du groupe discret engendré par $q$ des $n - p$ vecteurs $\mathbf{e}_i$ restants ($0 \leq p + q \leq n$). Par passage aux quotients, $f$ donne un isomorphisme de $\mathbf{R}^n/H$ sur $\mathbf{R}^n/H'$ (III, p. 17, *Remarque 3*); or, $\mathbf{R}^n/H'$ est isomorphe à $\mathbf{R}^{n-p-q} \times \mathbf{T}^q$ (III, p. 18, corollaire). Donc:
 
-#### Proposition 9 {#top-vii-s1-prop-9 .statement}
+#### Proposition 9 {#top-vii-s1-prop-9 .statement tag=0BYL}
 
 *Tout groupe quotient séparé de* $\mathbf{R}^n$ *est isomorphe à un groupe produit* $\mathbf{R}^h \times \mathbf{T}^k$ ($0 \leq h + k \leq n$).
 
@@ -233,13 +233,13 @@ L’espace produit $T^n$ (et, par abus de langage, le groupe topologique $T^n$) 
 
 En outre, si on désigne par C un cube fermé de côté 1 dans $\mathbf{R}^n$, $T^n$ est homéomorphe à l’espace quotient de C par la relation d’équivalence: « quel que soit i, $x_i \equiv y_i \pmod{1}$ » entre les points $\mathbf{x} = (x_i)$ et $\mathbf{y} = (y_i)$ de C. De façon plus imagée on dit que $T^n$ provient du cube C par « identification des faces opposées ».
 
-#### Proposition 10 {#top-vii-s1-prop-10 .statement}
+#### Proposition 10 {#top-vii-s1-prop-10 .statement tag=0BYM}
 
 *Le groupe topologique $T^n$ est localement isomorphe à $\mathbf{R}^n$.* En effet, $T^n = (\mathbf{R}/\mathbf{Z})^n$ est isomorphe à $\mathbf{R}^n/\mathbf{Z}^n$ (III, p. 18, corollaire) et $\mathbf{Z}^n$ est un sous-groupe discret de $\mathbf{R}^n$ d’où la conclusion (III, p. 13, prop. 19).
 
 Il en résulte que les groupes $\mathbf{R}^p \times T^{n-p}$ sont localement isomorphes à $\mathbf{R}^n$ pour $0 \leq p \leq n$; nous verrons dans VII, p. 13, que ce sont les seuls groupes connexes ayant cette propriété.
 
-#### Proposition 11 {#top-vii-s1-prop-11 .statement}
+#### Proposition 11 {#top-vii-s1-prop-11 .statement tag=0EAQ}
 
 *Tout sous-groupe fermé de $\mathbf{T}$, distinct de $\mathbf{T}$, est un groupe cyclique fini. Pour tout entier $n > 0$, $\mathbf{T}$ contient un sous-groupe d’ordre $n$ et un seul, qui est l’ensemble des éléments de $\mathbf{T}$ dont l’ordre divise $n$. Tout groupe quotient séparé de $\mathbf{T}$, non réduit à l’élément neutre, est isomorphe à $\mathbf{T}$.*
 
@@ -255,17 +255,17 @@ Identifions $T^n$ et $\mathbf{R}^n/\mathbf{Z}^n$, et soit $\varphi$ l’homomorp
 
 En résumé:
 
-#### Proposition 12 {#top-vii-s1-prop-12 .statement}
+#### Proposition 12 {#top-vii-s1-prop-12 .statement tag=0EAR}
 
 *Soient T un groupe topologique isomorphe à $\mathbf{T}^n$ et G un sous-groupe fermé de T. Il existe un isomorphisme de groupes topologiques f de T sur $\mathbf{T}^n$ et des sous-groupes fermés $G_1, \ldots, G_n$ de T tels que $f(G) = G_1 \times \cdots \times G_n$.*
 
-#### Remarque {#top-vii-s1-n5-rem-1 .statement}
+#### Remarque {#top-vii-s1-n5-rem-1 .statement tag=0EAS}
 
 Il résulte notamment des prop. 11 et 12 qu’un sous-groupe fermé $G$ de $\mathbf{T}^n$ est le produit direct de sa composante neutre $G^0$, qui est isomorphe à un groupe $\mathbf{T}^h$ ($0 \leq h \leq n$), et d’un sous-groupe fini (qui est produit de $n - h$ sous-groupes cycliques, éventuellement réduits à l’élément neutre).
 
 ### 6. Fonctions périodiques
 
-#### Définition 1 {#top-vii-s1-def-1 .statement}
+#### Définition 1 {#top-vii-s1-def-1 .statement tag=0EAT}
 
 *On dit qu’une fonction f, définie dans $\mathbf{R}^n$, et prenant ses valeurs dans un ensemble quelconque E, est périodique s’il existe un point $\mathbf{a} \neq 0$ de $\mathbf{R}^n$ tel que*
 

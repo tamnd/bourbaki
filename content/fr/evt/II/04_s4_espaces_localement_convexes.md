@@ -41,14 +41,14 @@ subsections:
       pdf_page: 72
 statements: 36
 exercises: 17
-content_sha256: 4615116d5ec52a042877b820687a6ace07b153a24d046e743b44e1d853e964cf
+content_sha256: 8f96b10a233cc26bca7c1815a3100736c6285ac45e162001403f833227f8c410
 ---
 
 ## § 4. ESPACES LOCALEMENT CONVEXES
 
 ### 1. Définition d’un espace localement convexe
 
-#### Définition 1 {#evt-ii-s4-def-1 .statement}
+#### Définition 1 {#evt-ii-s4-def-1 .statement tag=07E4}
 
 On dit qu’un espace vectoriel topologique est localement convexe (réel) s’il existe un système fondamental de voisinages de 0 formé d’ensembles convexes.
 
@@ -58,7 +58,7 @@ Les espaces vectoriels topologiques sur $\mathbf{R}$ que nous aurons à étudier
 
 Soit V un voisinage convexe de 0 dans un espace localement convexe E ; alors $V \cap (-V)$ est un voisinage convexe et symétrique de 0. Comme l’adhérence d’un ensemble convexe est convexe (II, p. 14, prop. 14), il résulte de I, p. 7, prop. 4 que, dans E, les voisinages de 0 qui sont convexes, symétriques et fermés forment un système fondamental de voisinages de 0, invariant par toute homothétie de centre 0 et de rapport $\neq 0$.
 
-#### Proposition 1 {#evt-ii-s4-prop-1 .statement}
+#### Proposition 1 {#evt-ii-s4-prop-1 .statement tag=07E5}
 
 Soient E un espace vectoriel, $\mathfrak{S}$ une base de filtre sur E formée de parties convexes, symétriques et absorbantes. Alors l’ensemble $\mathfrak{B}$ des transformés des ensembles de $\mathfrak{S}$ par les homothéties de rapport $> 0$ est un système fondamental de voisinages de 0 pour une topologie localement convexe sur E.
 
@@ -66,7 +66,7 @@ En effet, il est clair que $\mathfrak{B}$ est une base de filtre et satisfait au
 
 On notera que si $\mathscr{T}$ est la topologie localement convexe sur E ayant $\mathfrak{B}$ pour système fondamental de voisinages de 0, les ensembles $(1/n)V$, où $n$ parcourt l’ensemble des entiers $> 0$ et V parcourt $\mathfrak{S}$, forment encore un système fondamental de voisinages de 0 pour $\mathscr{T}$. Pour que $\mathscr{T}$ soit séparée, il faut et il suffit que, pour tout $x \neq 0$ dans E, il existe un entier $n$ et un ensemble $V \in \mathfrak{S}$ tels que $nx \notin V$ ; si de plus $\mathfrak{S}$ est dénombrable, la topologie $\mathscr{T}$ est une topologie localement convexe métrisable. Inversement, il est clair que si $\mathscr{T}$ est une topologie localement convexe métrisable, il existe un système fondamental dénombrable de voisinages convexes symétriques et fermés de 0 pour $\mathscr{T}$.
 
-#### Corollaire {#evt-ii-s4-n1-cor-1 .statement}
+#### Corollaire {#evt-ii-s4-n1-cor-1 .statement tag=07E6}
 
 Pour que la topologie $\mathscr{T}$ d’un espace vectoriel topologique E soit définie par un ensemble de semi-normes (II, p. 3), il faut et il suffit que $\mathscr{T}$ soit localement convexe.
 
@@ -76,31 +76,31 @@ Ceci montre en outre qu’une topologie localement convexe $\mathscr{T}$ est dé
 
 Compte tenu du corollaire de la prop. 1, les résultats du § 1 sur les topologies définies par des ensembles de semi-normes s’appliquent en particulier aux topologies localement convexes sur les espaces vectoriels réels. Le complété $\hat{E}$ d’un espace localement convexe séparé E est donc un espace localement convexe. On appelle espace de Fréchet un espace localement convexe métrisable et complet ; tout espace de Banach est donc un espace de Fréchet.
 
-#### Proposition 2 {#evt-ii-s4-prop-2 .statement}
+#### Proposition 2 {#evt-ii-s4-prop-2 .statement tag=07E7}
 
 Soient E un espace localement convexe, M un sous-espace vectoriel de E, f une forme linéaire définie et continue dans M ; il existe alors une forme linéaire continue h définie dans E et prolongeant f.
 
 En effet, compte tenu de II, p. 26, corollaire et de II, p. 7, cor. 2, il existe une semi-norme $p$ continue sur E, et telle que $|f(y)| \leq p(y)$ pour tout $y \in M$. En vertu du th. de Hahn-Banach (II, p. 24, cor. 1), il existe une forme linéaire $h$ sur E prolongeant $f$ et telle que $|h(x)| \leq p(x)$ pour tout $x \in E$, ce qui entraîne que $h$ est continue (II, p. 7, prop. 5).
 
-#### Remarque {#evt-ii-s4-n1-rem-1 .statement}
+#### Remarque {#evt-ii-s4-n1-rem-1 .statement tag=07E8}
 
 Si g est une application linéaire continue de M dans un espace produit $\mathbf{R}^l$, il existe une application linéaire continue $h$ de E dans $\mathbf{R}^l$ qui prolonge $g$ : en effet, on peut écrire $g = (g_i)$, où les $g_i$ sont des formes linéaires continues dans M ; si, pour tout $i \in I$, $h_i$ est une forme linéaire continue dans E et prolongeant $g_i$, l’application linéaire continue $h = (h_i)$ répond à la question.
 
 On notera que si F est un espace localement convexe séparé quelconque et g une application linéaire continue de M dans F, il n’existe pas nécessairement d’application linéaire continue de E dans F qui prolonge g (IV, p. 55, exerc. 16, c)). Il existe toutefois un tel prolongement lorsque M est de dimension finie (cf. cor. 2 ci-dessous).
 
-#### Corollaire 1 {#evt-ii-s4-prop-2-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s4-prop-2-cor-1 .statement tag=07E9}
 
 Soit E un espace localement convexe. Pour tout point $x_0$ non adhérent à 0 dans E, il existe une forme linéaire continue f définie dans E et telle que $f(x_0) \neq 0$.
 
 Il suffit d’appliquer la prop. 2 au sous-espace vectoriel M de dimension 1 engendré par $x_0$ (qui est séparé) et à la forme linéaire $\xi x_0 \mapsto \xi$ définie dans M, qui est continue en vertu de I, p. 13, prop. 2.
 
-#### Corollaire 2 {#evt-ii-s4-prop-2-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s4-prop-2-cor-2 .statement tag=07EA}
 
 Soient E un espace localement convexe séparé, M un sous-espace vectoriel de E de dimension finie. Il existe alors un sous-espace vectoriel fermé N de E, supplémentaire topologique de M dans E.
 
 Pour qu’un sous-espace M de E admette un supplémentaire topologique, il faut et il suffit en effet que l’application identique de M sur lui-même se prolonge en une application linéaire continue u de E sur M, qui est alors nécessairement un projecteur continu (TG, III, p. 47, corollaire). Or, ceci résulte de la remarque (II, p. 26) puisque M est alors isomorphe à un espace $\mathbf{R}^n$ (I, p. 14, th. 2).
 
-#### Proposition 3 {#evt-ii-s4-prop-3 .statement}
+#### Proposition 3 {#evt-ii-s4-prop-3 .statement tag=07EB}
 
 Dans un espace localement convexe E, l’enveloppe convexe équilibrée d’un ensemble précompact est un ensemble précompact.
 
@@ -108,7 +108,7 @@ Soit A un ensemble précompact dans E. Pour tout voisinage convexe équilibré V
 
 On notera que, dans un espace localement convexe séparé de dimension infinie, l’enveloppe convexe d’un ensemble compact n’est pas nécessairement fermée (II, p. 79, exerc. 3).
 
-#### Corollaire {#evt-ii-s4-n1-cor-2 .statement}
+#### Corollaire {#evt-ii-s4-n1-cor-2 .statement tag=07EC}
 
 Dans un espace localement convexe séparé E, si un ensemble compact est contenu dans un ensemble convexe complet (pour la structure uniforme induite par celle de E), alors son enveloppe fermée convexe est compacte.
 
@@ -136,7 +136,7 @@ Notons enfin que si E est muni d’une topologie $\mathscr{T}$ compatible avec s
 
 ### 3. Topologies localement convexes initiales
 
-#### Proposition 4 {#evt-ii-s4-prop-4 .statement}
+#### Proposition 4 {#evt-ii-s4-prop-4 .statement tag=07ED}
 
 Soient E un espace vectoriel, $(E_i)_{i\in I}$ une famille d’espaces localement convexes, et pour chaque $i \in I$, soit $f_i$ une application linéaire de E dans $E_i$; alors la topologie $\mathscr{T}$ sur E définie comme la moins fine rendant continues toutes les applications $f_i$ est une topologie localement convexe.
 
@@ -150,7 +150,7 @@ Tout espace localement convexe séparé E est isomorphe à un sous-espace d’un
 
 ### 4. Topologies localement convexes finales
 
-#### Proposition 5 {#evt-ii-s4-prop-5 .statement}
+#### Proposition 5 {#evt-ii-s4-prop-5 .statement tag=07EE}
 
 Soient E un espace vectoriel, $(F_\alpha)_{\alpha \in A}$ une famille d’espaces vectoriels topologiques, et, pour tout $\alpha \in A$, soit $g_\alpha$ une application linéaire de $F_\alpha$ dans E.
 
@@ -172,13 +172,13 @@ Il peut se faire que $\mathscr{T}$ ne soit pas la plus fine des topologies sur $
 
 Dans le cas (le plus important) où $E = \sum_{\alpha \in A} g_\alpha(F_\alpha)$ on obtient encore un système fondamental de voisinages de 0 pour $\mathscr{T}$ de la façon suivante : on considère toutes les familles $(V_\alpha)_{\alpha \in A}$ où, pour tout $\alpha \in A$, $V_\alpha$ est un voisinage symétrique de 0 pour $\mathscr{T}_\alpha$, et on prend l’enveloppe convexe dans $E$, $\Gamma((g_\alpha(V_\alpha)))$, de la réunion des $g_\alpha(V_\alpha)$. En effet, tout élément de $E$ étant de la forme $\sum_{\alpha \in J} x_\alpha$, où $J$ est une partie finie de $A$ et $x_\alpha \in g_\alpha(F_\alpha)$, il est immédiat que $\Gamma((g_\alpha(V_\alpha)))$ est un ensemble convexe symétrique et absorbant dans $E$ (chacun des $V_\alpha$ étant absorbant dans $F_\alpha$) ; comme $\Gamma((g_\alpha(V_\alpha)))$ contient tous les $g_\alpha(V_\alpha)$, c’est un voisinage de 0 pour $\mathscr{T}$. D’autre part, il est clair que pour tout voisinage convexe symétrique $V$ de 0 pour $\mathscr{T}$, on a $V \supset \Gamma((V \cap g_\alpha(F_\alpha)))$, d’où notre assertion.
 
-#### Corollaire 1 {#evt-ii-s4-prop-5-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s4-prop-5-cor-1 .statement tag=07EF}
 
 Avec les notations de la prop. 5, soit $H$ un ensemble d’applications linéaires de $E$ dans un espace localement convexe $G$. Supposons que $E$ soit somme des sous-espaces $g_\alpha(F_\alpha)$ ; alors, pour que $H$ soit équicontinu pour $\mathscr{T}$, il faut et il suffit que, pour tout $\alpha$, l’ensemble des $f \circ g_\alpha$, où $f$ parcourt $H$, soit équicontinu dans $F_\alpha$.
 
 Compte tenu de I, p. 9, prop. 6, la démonstration suit la même marche que pour l’assertion (ii) de la prop. 5, en considérant un voisinage convexe symétrique $W$ de 0 dans $G$ et en notant que, si l’ensemble des $f \circ g_\alpha$ pour $f \in H$ est équicontinu dans $G$ et en notant que, si l’ensemble des $f \circ g_\alpha$ pour $f \in H$ est équicontinu dans $F_\alpha$, l’intersection $\bigcap_{f \in H} g_\alpha^{-1}(f^{-1}(W))$ est un voisinage convexe symétrique de 0 dans $F_\alpha$. Comme cette intersection est égale à $g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$ et que l’ensemble $\bigcap_{f \in H} f^{-1}(W)$ est convexe et symétrique, tout revient à voir qu’il est aussi absorbant. Or, par hypothèse, tout $x \in E$ s’écrit sous la forme $\sum_{i=1}^n g_{\alpha_i}(z_{\alpha_i})$, où $z_{\alpha_i} \in F_{\alpha_i}$. Pour montrer qu’il existe $\lambda > 0$ tel que $f(\lambda x) \in W$ pour toute $f \in H$, il suffit donc de le faire lorsque $x$ est de la forme $g_\alpha(z_\alpha)$ avec $z_\alpha \in F_\alpha$ (car on passera de là au cas général en remplaçant $W$ par l’ensemble $W/n$). Mais alors la conclusion résulte de ce que l’ensemble $g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$ est un voisinage de 0 dans $F_\alpha$.
 
-#### Corollaire 2 {#evt-ii-s4-prop-5-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s4-prop-5-cor-2 .statement tag=07EG}
 
 Soient $E$ un espace vectoriel, $(G_\alpha)_{\alpha \in A}$ une famille d’espaces localement convexes, $(J_\lambda)_{\lambda \in L}$ une partition de $A$, et $(F_\lambda)_{\lambda \in L}$ une famille d’espaces vectoriels.
 
@@ -194,11 +194,11 @@ Soient $F$ un espace localement convexe, $M$ un sous-espace de $F$, $\varphi$ l�
 II. Limites inductives d’espaces localement convexes.
 Soient $A$ un ensemble ordonné filtrant à droite, $(E_\alpha, f_{\beta \alpha})$ un système inductif d’espaces vectoriels relatif à l’ensemble $A$ (A, II, p. 90); soit $E = \lim_{\longrightarrow} E_\alpha$ et soit $f_\alpha : E_\alpha \to E$ l’application linéaire canonique pour tout $\alpha \in A$. Supposons chaque $E_\alpha$ muni d’une topologie localement convexe $\mathscr{T}_\alpha$, et en outre, supposons que pour $\alpha \leq \beta$, $f_{\beta \alpha} : E_\alpha \to E_\beta$ soit continue. On dit alors que la topologie localement convexe finale $\mathscr{T}$ de la famille $(\mathscr{T}_\alpha)$ relativement aux applications linéaires $f_\alpha$ (resp. l’espace $E$ muni de $\mathscr{T}$) est la limite inductive de la famille $(\mathscr{T}_\alpha)$ (resp. l’espace limite inductive du système $(E_\alpha, f_{\beta \alpha})$), ou simplement des espaces localement convexes $E_\alpha$. Rappelons que $E$ est réunion des sous-espaces vectoriels $f_\alpha(E_\alpha)$ et que lorsque $\alpha \leq \beta$, on a $f_\alpha(E_\alpha) \subset f_\beta(E_\beta)$; si l’on munit $f_\alpha(E_\alpha)$ de la topologie finale pour l’application $f_\alpha$ (ce qui revient à identifier $f_\alpha(E_\alpha)$ à l’espace quotient $E_\alpha/f_\alpha^{-1}(0)$), la topologie $\mathscr{T}$ est aussi la topologie finale de la famille des topologies des $f_\alpha(E_\alpha)$, relativement aux injections canoniques (II, p. 30, cor. 2). En outre, la continuité de $f_{\beta \alpha}$ pour $\alpha \leq \beta$ entraîne que l’injection canonique $j_{\beta \alpha} : f_\alpha(E_\alpha) \to f_\beta(E_\beta)$ est continue, de sorte que $E$ est aussi l’espace limite inductive des $f_\alpha(E_\alpha)$ munis des topologies précédentes, relativement aux injections $j_{\beta \alpha}$.
 
-#### Exemple {#evt-ii-s4-n4-exa-1 .statement}
+#### Exemple {#evt-ii-s4-n4-exa-1 .statement tag=07EH}
 
 Soient $X$ un espace localement compact, $E = \mathscr{K}(X; \mathbf{R})$ l’espace vectoriel des fonctions numériques finies $f$ continues dans $X$ à support compact. Pour toute partie compacte $K$ de $X$, soit $E_K$ le sous-espace vectoriel de $E$ formé des fonctions $f \in E$ nulles hors de $K$, et désignons par $\mathscr{T}_K$ la topologie induite sur $E_K$ par la topologie $\mathscr{T}_u$ de la convergence uniforme sur $X$. La limite inductive $\mathscr{T}$ des topologies $\mathscr{T}_K$ est plus fine que $\mathscr{T}_u$; on peut montrer que si $X$ est paracompact et non compact $\mathscr{T}$ est strictement plus fine que $\mathscr{T}_u$ (cf. INT, III, 2e éd., § 1, no 8). L’importance de la topologie $\mathscr{T}$ tient à ce que les formes linéaires sur $E$, continues pour $\mathscr{T}$, ne sont autres que les mesures (réelles) sur $X$ (INT, III, 2e éd., § 1, no 3).
 
-#### Remarque {#evt-ii-s4-n4-rem-1 .statement}
+#### Remarque {#evt-ii-s4-n4-rem-1 .statement tag=07EI}
 
 Dans ce dernier exemple, la topologie induite par $\mathscr{T}$ sur $E_K$ est identique à $\mathscr{T}_K$, car elle est par définition moins fine que $\mathscr{T}_K$, et comme par ailleurs $\mathscr{T}$ est plus fine que $\mathscr{T}_u$, la topologie induite par $\mathscr{T}$ sur $E_K$ est plus fine que celle induite par $\mathscr{T}_u$, c’est-à-dire $\mathscr{T}_K$.
 
@@ -208,7 +208,7 @@ Plus généralement, on peut se demander si, lorsque l’on suppose que pour $E_
 
 ### 5. Somme directe topologique d’une famille d’espaces localement convexes
 
-#### Définition 2 {#evt-ii-s4-def-2 .statement}
+#### Définition 2 {#evt-ii-s4-def-2 .statement tag=07EJ}
 
 Soit $(E_i)_{i \in I}$ une famille d’espaces localement convexes, et soit $E$ l’espace vectoriel somme directe de la famille $(E_i)$ (A, II, p. 12). Pour tout $i \in I$, soit $f_i$ l’injection canonique de $E_i$ dans $E$. On appelle somme directe topologique de la famille $(E_i)$ l’espace $E$ muni de la topologie localement convexe la plus fine rendant continues les $f_i$ (topologie dite somme directe des topologies des $E_i$).
 
@@ -216,11 +216,11 @@ Dans toute la suite de ce n°, nous garderons (sauf mention expresse du contrair
 
 En vertu de la description générale des voisinages d’une topologie localement convexe finale donnée dans II, p. 30, on obtient ici un système fondamental de voisinages de 0 dans $E$ pour la topologie somme directe de la façon suivante : pour toute famille $(V_i)_{i \in I}$, où $V_i$ est un voisinage convexe symétrique de 0 dans $E_i$, on considère l’enveloppe convexe $\Gamma((V_i))$ de la réunion des $V_i$; les $\Gamma((V_i))$, pour toutes les familles $(V_i)$ (ou seulement en prenant pour chaque $i$ les $V_i$ dans un système fondamental de voisinages de 0 dans $E_i$) forment un système fondamental de voisinages de 0 dans $E$.
 
-#### Exemple {#evt-ii-s4-n5-exa-1 .statement}
+#### Exemple {#evt-ii-s4-n5-exa-1 .statement tag=07EK}
 
 Soient $E$ un espace vectoriel, $(a_i)_{i \in I}$ une base de $E$, et considérons sur chaque droite $Ra_i$ la topologie canonique (I, p. 2, Exemple 5) ; la topologie somme directe de ces topologies n’est autre que la topologie localement convexe la plus fine sur $E$ (II, p. 28) : en effet, si $V$ est un ensemble convexe, symétrique et absorbant dans $E$, $V_i = V \cap Ra_i$ est un voisinage de 0 dans $Ra_i$, et $V$ contient évidemment l’enveloppe convexe $\Gamma((V_i))$.
 
-#### Proposition 6 {#evt-ii-s4-prop-6 .statement}
+#### Proposition 6 {#evt-ii-s4-prop-6 .statement tag=07EL}
 
 Pour qu’une topologie localement convexe $\mathscr{T}$ sur $E$ soit somme directe des topologies des $E_i$, il faut et il suffit qu’elle possède la propriété suivante : pour qu’une application linéaire $g$ de $E$ dans un espace localement convexe $G$ (resp. une semi-norme $p$ sur $E$) soit continue, il faut et il suffit que, pour tout $i \in I$, $g \circ f_i$ (resp. $p \circ f_i$) soit continue dans $E_i$.
 
@@ -234,13 +234,13 @@ $$
 
 pour tout espace localement convexe $G$.
 
-#### Corollaire {#evt-ii-s4-n5-cor-1 .statement}
+#### Corollaire {#evt-ii-s4-n5-cor-1 .statement tag=07EM}
 
 Les notations étant celles de la prop. 5 de II, p. 29, supposons que $E$ soit somme des $g_\alpha(F_\alpha)$. Soient $F$ l’espace somme directe topologique de la famille $(F_\alpha)_{\alpha \in A}$, $j_\alpha : F_\alpha \to F$ l’injection canonique, et soit $g : F \to E$ l’application linéaire telle que $g \circ j_\alpha = g_\alpha$ pour tout $\alpha \in A$. Si $N$ est le noyau de $g$, la bijection canonique $F/N \to E$ associée à $g$ est un isomorphisme topologique de $F/N$ sur $E$ muni de $\mathscr{T}$.
 
 C’est un cas particulier de II, p. 30, cor. 2, compte tenu de II, p. 31, Exemple I.
 
-#### Proposition 7 {#evt-ii-s4-prop-7 .statement}
+#### Proposition 7 {#evt-ii-s4-prop-7 .statement tag=07EN}
 
 L’injection canonique $j : E \to \prod_{i \in I} E_i$ est continue lorsqu’on munit $E$ de la topologie somme directe des topologies des $E_i$ et $\prod_{i \in I} E_i$ de la topologie produit. Lorsque $I$ est fini, cette application est un isomorphisme d’espaces vectoriels topologiques.
 
@@ -248,7 +248,7 @@ La première assertion résulte de ce que les injections canoniques $E_k \to \pr
 
 Lorsque $I$ est infini, si, pour toute partie finie $J$ de $I$, on note $E_J$ l’espace $\prod_{i \in J} E_i$, muni de la topologie produit, $E$ est limite inductive des $E_J$ (identifiés à des sous-espaces de $E$).
 
-#### Proposition 8 {#evt-ii-s4-prop-8 .statement}
+#### Proposition 8 {#evt-ii-s4-prop-8 .statement tag=07EO}
 
 Pour tout $i \in I$, soit $N_i$ un sous-espace de $E_i$.
 (i) La topologie induite sur $N = \sum_i N_i$ par la topologie somme directe $\mathscr{T}$ sur $E$ est identique à la somme directe des topologies des $N_i$.
@@ -258,13 +258,13 @@ Pour tout $i \in I$, soit $N_i$ un sous-espace de $E_i$.
 
 (ii) Soient $f_i : E_i \to E, h_i : E_i/N_i \to E/N, p_i : E_i \to E_i/N_i$ et $p : E \to E/N$ les applications canoniques. On a $h_i \circ p_i = p \circ f_i$ pour tout $i \in I$, et la proposition résulte de II, p. 30, cor. 2 et p. 31, Exemple I.
 
-#### Corollaire 1 {#evt-ii-s4-prop-8-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s4-prop-8-cor-1 .statement tag=07EP}
 
 *Si, pour tout $i \in I, N_i$ est fermé dans $E_i$, alors $N = \sum N_i$ est fermé dans $E$.*
 
 En effet, pour tout $i \in I$, la projection canonique $p_i : E \to E_i$ est continue (II, p. 32, prop. 6) ; par suite $p_i^{-1}(N_i)$ est fermé dans $E$, donc il en est de même de l’intersection $N = \bigcap_{i \in I} p_i^{-1}(N_i)$.
 
-#### Corollaire 2 {#evt-ii-s4-prop-8-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s4-prop-8-cor-2 .statement tag=07EQ}
 
 *Si chacun des $E_i$ est séparé, il en est de même de $E$, et chacun des $E_i$ est fermé dans $E$.*
 
@@ -278,7 +278,7 @@ Dans ce n°, nous allons considérer une *suite croissante* ($E_n$) de sous-espa
 
 Il peut se faire que les $\mathscr{T}_n$ soient toutes *séparées* sans que $\mathscr{T}$ le soit ; il peut se faire aussi que pour tout couple d’entiers $n, m$ tels que $n \leq m$, $E_n$ soit fermé (pour $\mathscr{T}_m$) dans $E_m$, sans que $E_n$ soit fermé dans $E$ pour $\mathscr{T}$ (II, p. 85, exerc. 26).
 
-#### Lemme 1 {#evt-ii-s4-lem-1 .statement}
+#### Lemme 1 {#evt-ii-s4-lem-1 .statement tag=07ER}
 
 *Soit $\mathfrak{F}$ un filtre de Cauchy sur $E$ (pour $\mathscr{T}$) ; il existe un entier $k$ tel que, pour tout $N \in \mathfrak{F}$ et tout voisinage $V$ de 0 dans $E$, $E_k$ rencontre $N + V$.*
 
@@ -298,7 +298,7 @@ M \subset E_m + V \subset E_m + V_m ;
 $$
 comme $\mathscr{F}$ est un filtre, l’ensemble $M_m$ rencontre $M$, donc $E_m + V_m$, et nous avons abouti à une contradiction, d’où le lemme.
 
-#### Proposition 9 {#evt-ii-s4-prop-9 .statement}
+#### Proposition 9 {#evt-ii-s4-prop-9 .statement tag=07ES}
 
 *Supposons que, pour chaque entier n, la topologie induite sur $E_n$ par $\mathscr{T}_{n+1}$ soit identique à $\mathscr{T}_n$. Dans ces conditions :*
 (i) *Pour tout n, la topologie induite par $\mathscr{T}$ sur $E_n$ est identique à $\mathscr{T}_n$; si les $\mathscr{T}_n$ sont séparées, $\mathscr{T}$ est séparée.*
@@ -309,7 +309,7 @@ comme $\mathscr{F}$ est un filtre, l’ensemble $M_m$ rencontre $M$, donc $E_m +
 
 Pour définir les $V_{n+p}$, il suffit de procéder par récurrence sur $p$, en utilisant le lemme suivant :
 
-#### Lemme 2 {#evt-ii-s4-lem-2 .statement}
+#### Lemme 2 {#evt-ii-s4-lem-2 .statement tag=07ET}
 
 *Soient F un espace localement convexe, M un sous-espace vectoriel de F, V un voisinage convexe de 0 dans M. Il existe alors un voisinage convexe W de 0 dans F tel que $W \cap M = V$. En outre, si M est fermé dans F, alors, pour tout point $x_0 \in \mathbf{C} M$, il existe un voisinage convexe $W_0$ de 0 dans F tel que $W_0 \cap M = V$ et $x_0 \notin W_0$.*
 
@@ -323,19 +323,19 @@ Pour achever de prouver (i), il suffit de remarquer que tout $x \in E$ appartien
 
 Lorsque pour tout $n$ la topologie induite sur $E_n$ par $\mathscr{T}_{n+1}$ est égale à $\mathscr{T}_n$, on dit que $\mathscr{T}$ est la limite inductive stricte de la suite $(\mathscr{T}_n)$, et que l’espace $E$, muni de $\mathscr{T}$, est limite inductive stricte de la suite des espaces localement convexes $E_n$.
 
-#### Remarque 1 {#evt-ii-s4-n6-rem-1 .statement}
+#### Remarque 1 {#evt-ii-s4-n6-rem-1 .statement tag=07EU}
 
 Supposons que $E$ soit réunion d’une famille filtrante croissante non dénombrable de sous-espaces $(E_\alpha)_{\alpha \in I}$, chaque $E_\alpha$ étant muni d’une topologie localement convexe $\mathscr{T}_\alpha$ telle que, pour $E_\alpha \subset E_\beta$, la topologie induite sur $E_\alpha$ par $\mathscr{T}_\beta$ soit égale à $\mathscr{T}_\alpha$. Il peut se faire alors que la topologie induite sur tout $E_\alpha$ par la topologie $\mathscr{T}$ soit égale à $\mathscr{T}_\alpha$, et que les $E_\alpha$ soient séparés et complets, sans que $E$ soit complet pour $\mathscr{T}$ (INT, III, 2e éd., § 1, exerc. 2).
 
-#### Remarque 2 {#evt-ii-s4-n6-rem-2 .statement}
+#### Remarque 2 {#evt-ii-s4-n6-rem-2 .statement tag=0E4O}
 
 Soit $F$ un espace localement convexe, réunion d’une suite croissante $(F_n)$ de sous-espaces vectoriels, et pour chaque indice $n$, soit $\mathscr{T}_n$ la topologie induite sur $F_n$ par la topologie $\mathscr{T}$ de $F$. On se gardera de croire qu’en général $\mathscr{T}$ soit égale à la limite inductive des $\mathscr{T}_n$.
 
-#### Remarque 3 {#evt-ii-s4-n6-rem-3 .statement}
+#### Remarque 3 {#evt-ii-s4-n6-rem-3 .statement tag=0E4P}
 
 Supposons que $E$ soit limite inductive stricte de la suite $(E_n)$; si $F$ est un sous-espace vectoriel fermé de $E$ (pour $\mathscr{T}$), il peut se faire que la limite inductive stricte des topologies induites par les $\mathscr{T}_n$ sur $F \cap E_n$ soit strictement plus fine que la topologie induite par $\mathscr{T}$ (IV, p. 64, exerc. 10).
 
-#### Proposition 10 {#evt-ii-s4-prop-10 .statement}
+#### Proposition 10 {#evt-ii-s4-prop-10 .statement tag=07EV}
 
 Soient $E, F$ deux espaces localement convexes. On suppose que :
 
@@ -347,7 +347,7 @@ Alors toute application linéaire $u$ de $E$ dans $F$ dont le graphe est fermé 
 
 Pour prouver que $u$ est continue, il suffit de voir que pour tout $\alpha$, $u \circ g_\alpha : E_\alpha \to F$ est continue (II, p. 29, prop. 5). Or, le graphe de $u \circ g_\alpha$ est l’image réciproque du graphe de $u$ par l’application continue $g_\alpha \times 1_F : E_\alpha \times F \to E \times F$, donc est fermé par hypothèse dans $E_\alpha \times F$. On peut ainsi se borner au cas où $E$ lui-même est un espace de Fréchet. Mais alors la proposition est un cas particulier de I, p. 20, prop. 1.
 
-#### Corollaire {#evt-ii-s4-n6-cor-1 .statement}
+#### Corollaire {#evt-ii-s4-n6-cor-1 .statement tag=07EW}
 
 Les hypothèses sur $E$ et $F$ étant les mêmes que dans la prop. 10, et $E$ étant supposé séparé, toute application continue surjective $v$ de $F$ dans $E$ est un morphisme strict.
 
@@ -359,7 +359,7 @@ Soit en effet N le noyau de v, et posons $N_n = j_n^{-1}(N)$; alors l’applicat
 
 Nous allons préciser dans le cas des espaces localement convexes la prop. 2 de TG, IX, p. 24.
 
-#### Proposition 11 {#evt-ii-s4-prop-11 .statement}
+#### Proposition 11 {#evt-ii-s4-prop-11 .statement tag=07EX}
 
 Soit E un espace localement convexe métrisable. Il existe dans E une distance invariante par translation, définissant la topologie de E, et pour laquelle les boules ouvertes soient convexes.
 
@@ -367,7 +367,7 @@ Soit $(p_n)_{n \in \mathbf{N}}$ une suite de semi-normes définissant la topolog
 
 Pour $x, y$ dans E, posons $d(x, y) = \sup_{n \in \mathbf{N}} d_n(x, y)$. On voit aussitôt que $d$ est une distance invariante par translation sur E, définissant sa topologie. Soient $x_0 \in E$ et $R \geq 0$ ; la boule ouverte de centre $x_0$ et de rayon R (pour la distance $d$) est égale à $\bigcap_{n \in \mathbf{N}} (x_0 + B_{n,R})$, donc elle est convexe.
 
-#### Proposition 12 {#evt-ii-s4-prop-12 .statement}
+#### Proposition 12 {#evt-ii-s4-prop-12 .statement tag=07EY}
 
 Soient E et F des espaces de Fréchet et u une application linéaire continue de E sur F. Il existe une section continue, non nécessairement linéaire, de u.
 
@@ -385,15 +385,15 @@ Supposons que l’on ait $n = 0$, ou bien $n \geqslant 1$ mais que $s_{n-1}$ soi
 
 Les applications $s_n : F \to E$ forment une suite de Cauchy pour la convergence uniforme d’après l’inégalité (3). Comme $E$ est complet, la suite $(s_n)_{n \in \mathbf{N}}$ converge uniformément vers une application continue $s : F \to E$ (TG, X, p. 9) ; la formule (2) montre que $u \circ s$ est l’application identique de $F$, donc $s$ est une section continue de $u$.
 
-#### Corollaire {#evt-ii-s4-n7-cor-1 .statement}
+#### Corollaire {#evt-ii-s4-n7-cor-1 .statement tag=07EZ}
 
 *Si $L$ est une partie compacte de $F$, il existe une partie compacte $K$ de $E$ telle que $u(K) = L$.* Il suffit de poser $K = s(L)$, où $s$ est une section continue de $u$.
 
-#### Remarque 1 {#evt-ii-s4-n7-rem-1 .statement}
+#### Remarque 1 {#evt-ii-s4-n7-rem-1 .statement tag=07F0}
 
 Le corollaire de la prop. 12 peut aussi se déduire du th. 1 de I, p. 17 et de la prop. 18 de TG, IX, p. 22.
 
-#### Remarque 2 {#evt-ii-s4-n7-rem-2 .statement}
+#### Remarque 2 {#evt-ii-s4-n7-rem-2 .statement tag=0E4Q}
 
 Conservons les notations de la prop. 12. Soit $p$ une semi-norme continue sur $E$ ; pour tout $y \in F$, posons $q(y) = \inf_{u(x) = y} p(x)$, de sorte que $q$ est une semi-norme continue sur $F$ (II, p. 4). Soit $\varphi$ une application semi-continue inférieurement de $F$ dans l’intervalle $]0, +\infty[$ de $\overline{\mathbf{R}}$. Montrons qu’il existe une section continue $s$ de $u$ telle que $p \circ s < q + \varphi$.
 

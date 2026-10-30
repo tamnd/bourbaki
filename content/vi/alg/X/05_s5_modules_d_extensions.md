@@ -41,7 +41,7 @@ subsections:
       pdf_page: 104
 statements: 36
 exercises: 8
-content_sha256: d35a910fe107ab44f53f876e17e1719a29d56b37489235fd63d8993d119dd2d0
+content_sha256: c6a930d221364ef1ba648cd248fb44adad51b013739e6529e799b40e7ec86f23
 translated_from: content/en-mt/alg/X/05_s5_modules_d_extensions.md
 source_lang: en-mt
 translation_method: machine
@@ -116,7 +116,7 @@ $$
 \lambda^n(C, C') : H^n(\mathrm{Homgr}_A (C, C')) \to \prod_{p+q=n} \mathrm{Hom}_A (H_p(C), H^q(C')) .
 $$
 
-#### Mệnh đề 1 {#alg-x-s5-prop-1 .statement}
+#### Mệnh đề 1 {#alg-x-s5-prop-1 .statement tag=0DWL}
 
 *Nếu C là không ở bên phải và C' là không ở bên trái, thì Homgr_A (C, C') là không ở bên trái, và ánh xạ K-tuyến tính chính tắc*
 
@@ -147,7 +147,7 @@ H(\mathrm{Homgr}_A(\tilde{C}, \tilde{C}')) & \xrightarrow{\lambda(\tilde{C}, \ti
 \end{array}
 $$
 
-#### Mệnh đề 2 {#alg-x-s5-prop-2 .statement}
+#### Mệnh đề 2 {#alg-x-s5-prop-2 .statement tag=0DWM}
 
 *a) Cho $C' \xrightarrow{u} C \xrightarrow{v} C''$ là một dãy khớp của các phức $A$, $P$ là một phức xạ ảnh, $E$ là một phức đơn ánh (X, p. 25). Khi đó các dãy*
 
@@ -191,7 +191,7 @@ là khớp với mọi $p, q \in \mathbf{Z}$, và ta áp dụng II, p. 10, prop.
 
 ### 2. Các phức của các đồng cấu và các đồng luân
 
-#### Mệnh đề 3 {#alg-x-s5-prop-3 .statement}
+#### Mệnh đề 3 {#alg-x-s5-prop-3 .statement tag=0DWN}
 
 *Cho $C, \tilde{C}, C', \tilde{C}'$ là bốn phức $A$, $u : \tilde{C} \to C, v : \tilde{C} \to C, u' : C' \to \tilde{C}'$ và $v' : C' \to \tilde{C}'$ là bốn cấu xạ của các phức.
 
@@ -255,7 +255,7 @@ tương tự $\mathrm{Homgr}(\alpha,\alpha')\circ\mathrm{Homgr}(u,u')$ là đồ
 
 Cuối cùng c) được suy ra từ b) (áp dụng cho trường hợp $\widetilde C$ hoặc $\widetilde C'$ là không).
 
-#### Hệ quả 1 {#alg-x-s5-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s5-prop-3-cor-1 .statement tag=0DWO}
 
 Nếu $C$ là tách và $H(C)$ xạ ảnh (tương ứng, nếu $C'$ là tách và $H_n(C')$ đơn ánh với mỗi $n$), thì đồng cấu chính tắc
 
@@ -302,13 +302,13 @@ $$
 
 do đó một đẳng cấu $\varphi : H(\mathrm{Homgr}_A(C, C')) \to \mathrm{Homgr}_A(H(C), C')$ sao cho, nếu $a \in \mathrm{Homgr}_A(C/B(C), C')$, ảnh của lớp của $P(a)$ qua $\varphi$ là $J(a)$; ta kiểm tra ngay lập tức rằng $\varphi$ trùng với đồng cấu chính tắc $\lambda$.
 
-#### Hệ quả 2 {#alg-x-s5-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s5-prop-3-cor-2 .statement tag=0DWP}
 
 Giả sử rằng $B(C)$ và $H(C)$ là xạ ảnh (tương ứng, $B_n(C')$ và $H_n(C')$ là đơn ánh với mọi $n$). Khi đó $\lambda(C, C')$ là song ánh.
 
 Thật vậy, khi đó $C$ (tương ứng, $C'$) là tách, theo X, p. 35, Ví dụ 4, và ta áp dụng Hệ quả 1.
 
-#### Hệ quả 3 {#alg-x-s5-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#alg-x-s5-prop-3-cor-3 .statement tag=0DWQ}
 
 Cho $M$ là một $A$-môđun xạ ảnh (tương ứng, một $A$-môđun đơn ánh). Với mọi phức $C$ của các $A$-môđun và mọi số nguyên $n$, đồng cấu chính tắc
 
@@ -318,14 +318,14 @@ $$
 
 (tương ứng, $H^n(\mathrm{Homgr}_A(C, M)) \to \mathrm{Hom}_A(H_n(C), M)$) là song ánh.
 
-#### Bổ đề 1 {#alg-x-s5-lem-1 .statement}
+#### Bổ đề 1 {#alg-x-s5-lem-1 .statement tag=0DWR}
 
 a) Nếu $C$ hoặc $C'$ bị chặn về phải, nếu $C$ là xạ ảnh và nếu $H(C') = 0$, thì $H(\mathrm{Homgr}_A(C, C')) = 0$.
     b) Nếu $C$ hoặc $C'$ bị chặn về trái, nếu $C'$ là đơn ánh và nếu $H(C) = 0$, thì $H(\mathrm{Homgr}_A(C, C')) = 0$.
 
 Cho $f \in Z_n(\mathrm{Homgr}_A(C, C'))$; khi đó $f$ là một cấu xạ của các phức từ $C$ đến $C'(n)$; trong trường hợp a) (tương ứng, b)), $f_m$ triệt tiêu với $m$ đủ nhỏ (tương ứng, đủ lớn). Theo X, p. 47, Mệnh đề 1, khi đó $f$ đồng luân với không, do đó thuộc về $B_n(\mathrm{Homgr}_A(C, C'))$, điều này cho kết luận.
 
-#### Mệnh đề 4 {#alg-x-s5-prop-4 .statement}
+#### Mệnh đề 4 {#alg-x-s5-prop-4 .statement tag=0DWS}
 
 Cho $u : C' \to C$ là một cấu xạ của các phức, $P$ là một phức xạ ảnh, $E$ là một phức đơn ánh.
 
@@ -355,7 +355,7 @@ Trong trường hợp tổng quát, tồn tại (X, p. 38, hệ quả của Mệ
 
 Với mọi $A$-môđun $E$, ta ký hiệu bởi $p_E : L(E) \to E$ (tương ứng $e_E : E \to I(E)$) phép giải chính tắc tự do (tương ứng đơn ánh), cf. X, p. 50 (tương ứng p. 52).
 
-#### Định nghĩa 1 {#alg-x-s5-def-1 .statement}
+#### Định nghĩa 1 {#alg-x-s5-def-1 .statement tag=0DWT}
 
 Cho $M$ và $N$ là hai $A$-môđun. Môđun các mở rộng của $N$ bởi $M$ là $k$-môđun phân bậc
 
@@ -376,7 +376,7 @@ $$
 \operatorname{Ext}^{n}_{A}(M,N)=0\qquad\text{cho }n<0.
 $$
 
-#### Nhận xét 1 {#alg-x-s5-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s5-n3-rem-1 .statement tag=0DWU}
 
 Ta sẽ thấy dưới đây (X, p. 107, Mệnh đề 6) một số tính chất hữu hạn của các môđun $\operatorname{Ext}^{n}_{A}(M,N)$. Chẳng hạn, nếu $A$ là giao hoán và Noether, và nếu $M$ và $N$ là các $A$-môđun kiểu hữu hạn, thì mỗi $A$-môđun $\operatorname{Ext}^{n}_{A}(M,N)$ là kiểu hữu hạn.
 
@@ -414,7 +414,7 @@ $$
 
 *Ta sẽ luôn đồng nhất* $\operatorname{Ext}^{0}_{A}(M,N)$ với $\operatorname{Hom}_{A}(M,N)$ qua đẳng cấu này. Khi đó ánh xạ $k$-tuyến tính $\operatorname{Ext}_{A}(f,g)$ có thể được đồng nhất với $\operatorname{Hom}_{A}(f,g)$.
 
-#### Nhận xét 2 {#alg-x-s5-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s5-n3-rem-2 .statement tag=0DWV}
 
 Cấu xạ của các phức
 
@@ -454,7 +454,7 @@ H(\operatorname{Homgr}_A(L(M), N)) \xrightarrow{\varphi_{M(N)}} \operatorname{Ex
 $$
 Theo Mệnh đề 4 của X, p. 86, $\operatorname{Homgr}_A(1, e_N)$ và $\operatorname{Homgr}_A(p_M, 1)$ là các đồng cấu đồng điều, do đó:
 
-#### Mệnh đề 5 {#alg-x-s5-prop-5 .statement}
+#### Mệnh đề 5 {#alg-x-s5-prop-5 .statement tag=0DWW}
 
 *Các $k$-đồng cấu*
 $$
@@ -464,7 +464,7 @@ $$
 \end{aligned}
 $$
 
-#### Hệ quả {#alg-x-s5-n3-cor-1 .statement}
+#### Hệ quả {#alg-x-s5-n3-cor-1 .statement tag=0DWX}
 
 Nếu $M$ là xạ ảnh (tương ứng, nếu $N$ là đơn ánh), thì $\operatorname{Ext}_A^i(M, N) = 0$ với $i > 0$.
 Thật vậy, $\operatorname{Homgr}_A(1, e_N) : \operatorname{Hom}_A(M, N) \to \operatorname{Homgr}_A(M, I(N))$ (tương ứng, $\operatorname{Homgr}_A(p_M, 1) : \operatorname{Hom}_A(M, N) \to \operatorname{Homgr}_A(L(M), N)$) khi đó là một đồng cấu đồng điều (X, p. 86, Mệnh đề 4), suy ra kết luận.
@@ -493,7 +493,7 @@ H(\operatorname{Homgr}_A(M', I(N))) & \xrightarrow{\overline{\varphi}_{N(M')}} &
 $$
 là giao hoán.
 
-#### Mệnh đề 6 {#alg-x-s5-prop-6 .statement}
+#### Mệnh đề 6 {#alg-x-s5-prop-6 .statement tag=0DWY}
 
 Ánh xạ $(f,g) \mapsto \operatorname{Ext}_A(f,g) :$
 $$
@@ -508,11 +508,11 @@ Cho $f\in\operatorname{Hom}_A(M',M)$, $g_1,g_2\in\operatorname{Hom}_A(N,N')$, $\
 
 Lập luận tương tự đối với ánh xạ $f \mapsto \operatorname{Ext}_A(f,g)$.
 
-#### Hệ quả {#alg-x-s5-n3-cor-2 .statement}
+#### Hệ quả {#alg-x-s5-n3-cor-2 .statement tag=0DWZ}
 
 Cho $\lambda \in k$. Nếu $\lambda$ triệt tiêu $M$ hoặc $N$, thì nó triệt tiêu $\operatorname{Ext}_A(M,N)$. Thật vậy, $\lambda \cdot 1_{\operatorname{Ext}_A(M,N)} = \operatorname{Ext}_A(\lambda 1_M, 1_N) = \operatorname{Ext}_A(1_M, \lambda 1_N)$.
 
-#### Mệnh đề 7 {#alg-x-s5-prop-7 .statement}
+#### Mệnh đề 7 {#alg-x-s5-prop-7 .statement tag=0DX0}
 
 Cho $I$ và $J$ là hai tập hợp, $(M_\alpha)_{\alpha\in I}$ và $(N_\beta)_{\beta\in J}$ là hai họ các $A$-môđun; đồng cấu
 $$
@@ -530,7 +530,7 @@ $$
 (tương ứng $\operatorname{Ext}(\bigoplus M_\alpha,N)\to\prod_\alpha\operatorname{Ext}(M_\alpha,N)$)
 là song ánh. Điều này suy ra từ những gì đã được chứng minh, từ Mệnh đề 1 của X, p. 28, và các đẳng cấu chính tắc $\operatorname{Homgr}_A(L(M), \prod N_\beta) \to \prod \operatorname{Homgr}_A(L(M),N_\beta)$ và $\operatorname{Homgr}_A(\bigoplus M_\alpha, I(N)) \to \prod \operatorname{Homgr}_A(M_\alpha, I(N))$.
 
-#### Nhận xét 5 {#alg-x-s5-n3-rem-5 .statement}
+#### Nhận xét 5 {#alg-x-s5-n3-rem-5 .statement tag=0DX1}
 
 Cho $P^\circ$ và $Q^\circ$ là hai $A$-môđun phải. Ta định nghĩa $\operatorname{Ext}_A(P,Q)$ bởi
 
@@ -571,7 +571,7 @@ $$
 
 là đồng cấu nối tương ứng ($X$, p. 29).
 
-#### Định nghĩa 2 {#alg-x-s5-def-2 .statement}
+#### Định nghĩa 2 {#alg-x-s5-def-2 .statement tag=0DX2}
 
 *Ta gọi đồng cấu hợp thành là đồng cấu nối của các môđun mở rộng tương đối với môđun $M$ và với dãy khớp $\mathscr{E}$*
 
@@ -581,7 +581,7 @@ $$
 
 Đây là một $k$-đồng cấu phân bậc có bậc tăng 1, các thành phần thuần nhất của nó được ký hiệu $\delta^n(M, \mathscr{E}) : \operatorname{Ext}_A^n(M, N'') \to \operatorname{Ext}_A^{n+1}(M, N')$.
 
-#### Định lý 1 {#alg-x-s5-thm-1 .statement}
+#### Định lý 1 {#alg-x-s5-thm-1 .statement tag=0DX3}
 
 *Dãy phải không bị chặn của các đồng cấu các $k$-môđun*
 
@@ -600,7 +600,7 @@ $$
 Xét thực sự biểu đồ ở trang X.91.
 Nó giao hoán theo *nhận xét* 3 của $X$, p. 88 và định nghĩa 2; hơn nữa hàng dưới là khớp ($X$, p. 30, định lý 1), và các mũi tên đứng là song ánh ($X$, p. 88, mệnh đề 5).
 
-#### Hệ quả {#alg-x-s5-n4-cor-1 .statement}
+#### Hệ quả {#alg-x-s5-n4-cor-1 .statement tag=0DX4}
 
 *Nếu* $\operatorname{Ext}_A^1(M, N') = 0$, *dãy*
 
@@ -610,7 +610,7 @@ $$
 
 *là khớp*.
 
-#### Mệnh đề 8 {#alg-x-s5-prop-8 .statement}
+#### Mệnh đề 8 {#alg-x-s5-prop-8 .statement tag=0DX5}
 
 *Cho* $f : M_1 \to M$ *là một đồng cấu các* $A$*-môđun* và
 
@@ -663,14 +663,14 @@ là khớp (X, p. 83, mệnh đề 2, $a$) ; đặt
 $$\partial(\mathscr{F}_N) : \mathrm{H}(\mathrm{Homgr}_A(M', I(N))) \to \mathrm{H}(\mathrm{Homgr}_A(M'', I(N)))$$
 là đồng cấu nối tương ứng.
 
-#### Định nghĩa 3 {#alg-x-s5-def-3 .statement}
+#### Định nghĩa 3 {#alg-x-s5-def-3 .statement tag=0DX6}
 
 Ta gọi đồng cấu nối của các môđun mở rộng tương ứng với dãy khớp $(\mathscr{F})$ và với môđun $N$, là đồng cấu hợp thành
 $$\delta(\mathscr{F}, N) : \overline{\varphi}_N(M'') \circ \partial(\mathscr{F}_N) \circ \overline{\varphi}_N(M')^{-1} : \mathrm{Ext}_A(M', N) \to \mathrm{Ext}_A(M'', N).$$
 Nó là một $k$-đồng cấu phân bậc có bậc tăng 1, các thành phần thuần nhất của nó được ký hiệu là $\delta^n(\mathscr{F}, N) : \mathrm{Ext}_A^n(M', N) \to \mathrm{Ext}_A^{n+1}(M'', N)$.
 Khi đó ta chứng minh như trên các mệnh đề sau:
 
-#### Định lý 2 {#alg-x-s5-thm-2 .statement}
+#### Định lý 2 {#alg-x-s5-thm-2 .statement tag=0DX7}
 
 Dãy phải không bị chặn của các đồng cấu của các $k$-môđun
 $$0 \longrightarrow \mathrm{Hom}_A(M'', N) \xrightarrow{\mathrm{Hom}(s, 1)} \mathrm{Hom}_A(M, N) \xrightarrow{\mathrm{Hom}(r, 1)} \mathrm{Hom}_A(M', N)$$
@@ -678,7 +678,7 @@ $$\xrightarrow{\delta^0(\mathscr{F}, N)} \mathrm{Ext}_A^1(M'', N) \to \cdots \xr
 $$\xrightarrow{\mathrm{Ext}^n(r, 1)} \mathrm{Ext}_A^n(M', N) \xrightarrow{\delta^n(\mathscr{F}, N)} \mathrm{Ext}_A^{n+1}(M'', N) \to \cdots$$
 là khớp.
 
-#### Hệ quả {#alg-x-s5-n4-cor-2 .statement}
+#### Hệ quả {#alg-x-s5-n4-cor-2 .statement tag=0DX8}
 
 Nếu $\operatorname{Ext}_A^1(M'', N) = 0$, dãy
 
@@ -688,7 +688,7 @@ $$
 
 là khớp.
 
-#### Mệnh đề 9 {#alg-x-s5-prop-9 .statement}
+#### Mệnh đề 9 {#alg-x-s5-prop-9 .statement tag=0DX9}
 
 Cho $g : N \to N_1$ là một đồng cấu của các $A$-môđun và
 
@@ -714,7 +714,7 @@ là giao hoán.
 
 ### 5. Các môđun xạ ảnh, các môđun đơn ánh và các môđun mở rộng
 
-#### Mệnh đề 10 {#alg-x-s5-prop-10 .statement}
+#### Mệnh đề 10 {#alg-x-s5-prop-10 .statement tag=0DXA}
 
 Cho $M$ là một $A$-môđun. Các điều kiện sau là tương đương:
 
@@ -740,7 +740,7 @@ $$
 
 là toàn ánh (X, p. 90, hệ quả); do đó tồn tại một tiết diện $A$-tuyến tính của $\nu$ và $M$ đẳng cấu với một nhân tử trực tiếp của $P$, và vì vậy là xạ ảnh.
 
-#### Mệnh đề 11 {#alg-x-s5-prop-11 .statement}
+#### Mệnh đề 11 {#alg-x-s5-prop-11 .statement tag=0DXB}
 
 Cho $N$ là một $A$-môđun. Các điều kiện sau là tương đương:
 
@@ -817,7 +817,7 @@ $$
 
 Với các ký hiệu này:
 
-#### Định lý 3 {#alg-x-s5-thm-3 .statement}
+#### Định lý 3 {#alg-x-s5-thm-3 .statement tag=0DXC}
 
 Giả sử các $A$-môđun $B(C)$ và $Z(C)$ là xạ ảnh. Với mỗi $n$, tồn tại một đồng cấu duy nhất của các $k$-môđun
 
@@ -847,7 +847,7 @@ $$
 
 là khớp.
 
-#### Nhận xét {#alg-x-s5-n6-rem-1 .statement}
+#### Nhận xét {#alg-x-s5-n6-rem-1 .statement tag=0DXD}
 
 Người ta có thể chứng minh một mệnh đề tương tự, giả sử $B_n(C')$ và $C'/B_n(C')$ là đơn ánh với mỗi $n$.
 
@@ -859,7 +859,7 @@ $$
 \xrightarrow{\mathrm{Homgr}(i, 1)} \mathrm{Homgr}_A(Z, C') \to 0 .
 $$
 
-#### Bổ đề 2 {#alg-x-s5-lem-2 .statement}
+#### Bổ đề 2 {#alg-x-s5-lem-2 .statement tag=0DXE}
 
 Đồng cấu nối
 
@@ -898,12 +898,12 @@ do đó có biểu đồ với các hàng khớp ở trang X.97.
 
 Biểu đồ này giao hoán theo phép dựng các đồng cấu $\lambda$. Hơn nữa, vì các phức $B$ và $Z$ là tách và xạ ảnh, $\lambda_B$ và $\lambda_Z$ là song ánh ($\lambda$, p. 84, hệ quả 1). Từ đó suy ra, một mặt, $\lambda_C^n$ là toàn ánh, với hạt nhân bằng $\mathrm{Im}\ H^n(\mathrm{Homgr}(\delta, 1))$, và mặt khác, $\varphi^{n-1} \circ \lambda_B^{n-1}$ là toàn ánh, với hạt nhân bằng $\mathrm{Ker}\ H^n(\mathrm{Homgr}(\delta, 1))$. Định lý suy ra ngay lập tức từ đó.
 
-#### Hệ quả 1 {#alg-x-s5-lem-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s5-lem-2-cor-1 .statement tag=0DXF}
 
 Giả sử $B(C)$ và $Z(C)$ xạ ảnh và $B^n(C')$ đơn ánh với mỗi $n$. Khi đó các dãy khớp (11) là tách.
 Điều này suy ra từ định lý và bổ đề sau:
 
-#### Bổ đề 3 {#alg-x-s5-lem-3 .statement}
+#### Bổ đề 3 {#alg-x-s5-lem-3 .statement tag=0DXG}
 
 Nếu $B(C)$ là xạ ảnh và $B_n(C')$ đơn ánh với mỗi $n$, đồng cấu chính tắc $\lambda(C, C') : \mathrm{H}(\mathrm{Homgr}_A(C, C')) \to \mathrm{Homgr}_A(\mathrm{H}(C), \mathrm{H}(C'))$ có một tiết diện tuyến tính $k$.
 
@@ -959,18 +959,18 @@ H^n(\operatorname{Homgr}_{A}(B,C'))
 \end{array}
 $$
 
-#### Hệ quả 2 {#alg-x-s5-lem-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s5-lem-3-cor-2 .statement tag=0DXH}
 
 Nếu $B(C)$ và $Z(C)$ là xạ ảnh, thì với mọi $A$-môđun $N$ và mọi số nguyên $n$, ta có một dãy khớp tách:
 
 (13) $0 \longrightarrow \mathrm{Ext}_A^1(H_{n-1}(C), N) \xrightarrow{\beta^n} H^n(\mathrm{Homgr}_A(C, N)) \xrightarrow{\lambda^n} \mathrm{Hom}_A(H_n(C), N) \longrightarrow 0$.
 
-#### Hệ quả 3 (« công thức hệ số phổ quát ») {#alg-x-s5-lem-3-cor-3 .statement}
+#### Hệ quả 3 (« công thức hệ số phổ quát ») {#alg-x-s5-lem-3-cor-3 .statement tag=0DXI}
 
 Giả sử $A$ là chính và $C$ tự do. Với mọi $A$-môđun $N$ và mọi số nguyên $n$, ta có một dãy khớp tách (13).
 Thật vậy, $B(C)$ và $Z(C)$ là tự do như các môđun con của môđun tự do $C$ (VII. § 3, hệ quả 2 của định lý 1).
 
-#### Hệ quả 4 {#alg-x-s5-lem-3-cor-4 .statement}
+#### Hệ quả 4 {#alg-x-s5-lem-3-cor-4 .statement tag=0DXJ}
 
 Nếu $C$ bị chặn về bên phải và nếu $C$ và $H(C)$ là xạ ảnh, thì
 
@@ -1029,7 +1029,7 @@ một đồng cấu phân bậc có bậc không :
 
 Đồng cấu này là song ánh khi C là một môđun xạ ảnh hữu hạn sinh (II, p. 75, mệnh đề 2).
 
-#### Mệnh đề 12 {#alg-x-s5-prop-12 .statement}
+#### Mệnh đề 12 {#alg-x-s5-prop-12 .statement tag=0DXK}
 
 Các đồng cấu (14), (15), (16) là các cấu xạ của các phức.
 

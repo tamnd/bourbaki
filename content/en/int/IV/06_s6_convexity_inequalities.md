@@ -33,14 +33,14 @@ subsections:
       pdf_page: 205
 statements: 22
 exercises: 20
-content_sha256: e7543f369626f54b7975ca90acc1c06c4323ed604b1e0ef42f46355d0815b55d
+content_sha256: 5da8e094f0389b678ca69f52f247e8417940837f7695de9c80ebdf9dcbcce321
 ---
 
 ## § 6. CONVEXITY INEQUALITIES
 
 ### 1. The convexity theorem
 
-#### Theorem 1 {#int-iv-s6-thm-1 .statement}
+#### Theorem 1 {#int-iv-s6-thm-1 .statement tag=08XD}
 
 — Let $X$ be a locally compact space, $\mu$ a positive measure on $X$, $F$ a real Banach space, $D$ a closed convex set in $F$, and $f$ a function on $X$ such that $f(X) \subset D$. For every non-negligible integrable numerical function $g \geqslant 0$ such that $fg$ is integrable, the point $\frac{\int fg\, d\mu}{\int g\, d\mu}$ belongs to $D$.
 
@@ -58,7 +58,7 @@ $$
 
 This proves that the point $\frac{\int fg\, d\mu}{\int g\, d\mu}$ belongs to every closed half-space containing $D$; but, by the Hahn–Banach theorem, $D$ is the intersection of the closed half-spaces containing it (TVS, II, §5, No. 3, Cor. 1 of Prop. 4), whence the theorem.
 
-#### Corollary {#int-iv-s6-n1-cor-1 .statement}
+#### Corollary {#int-iv-s6-n1-cor-1 .statement tag=08XE}
 
 — *If the positive measure $\mu$ has total mass equal to 1 and if $f$ is integrable, then $\int f\, d\mu$ belongs to the closed convex envelope of $f(X)$ in $F$*.
 
@@ -68,7 +68,7 @@ It suffices to take for $g$ the constant function 1.
 
 We are going to sharpen Th. 1 for numerical measurable functions (finite or not).
 
-#### Definition 1 {#int-iv-s6-def-1 .statement}
+#### Definition 1 {#int-iv-s6-def-1 .statement tag=08XF}
 
 — Let X be a locally compact space, $\mu$ a measure on X. Given a numerical function f (finite or not), defined locally almost everywhere in X, we call maximum in measure, or $\mu$-maximum (resp. minimum in measure, or $\mu$-minimum) of the function f, and denote by $M_\infty(f)$ (resp. $m_\infty(f)$), the infimum (resp. supremum) of the set of numbers $\alpha$ such that $f(x) \leq \alpha$ (resp. $f(x) \geq \alpha$) locally almost everywhere (for $\mu$).
 
@@ -98,7 +98,7 @@ provided the second member is defined.
 
 If $M_\infty(f) < +\infty$, then $f(x) < +\infty$ locally almost everywhere, but not necessarily almost everywhere. A numerical function $f$ is said to be bounded in measure (for the measure $\mu$) if it is defined and finite almost everywhere and if, moreover, the numbers $m_\infty(f)$ and $M_\infty(f)$ are both finite (the latter condition amounts to saying that $M_\infty(|f|) < +\infty$).
 
-#### Proposition 1 (Inequality of the mean) {#int-iv-s6-prop-1 .statement}
+#### Proposition 1 (Inequality of the mean) {#int-iv-s6-prop-1 .statement tag=08XG}
 
 — *Let f be a measurable numerical function that is bounded in measure. For every integrable numerical function $g \geqslant 0$, the function $fg$ (defined almost everywhere) is integrable and*
 
@@ -114,7 +114,7 @@ Setting aside the trivial case that $\int g d|\mu| = 0$, the inequality (3) may 
 
 ### 3. The spaces $L^\infty_F$
 
-#### Definition 2 {#int-iv-s6-def-2 .statement}
+#### Definition 2 {#int-iv-s6-def-2 .statement tag=08XH}
 
 *For every mapping $f$ of $X$ into a Banach space $F$, one sets $N_\infty(f) = M_\infty(|f|)$; $f$ is said to be bounded in measure (for the measure $\mu$) if $N_\infty(f)$ is finite. The set of mappings of $X$ into $F$ that are measurable and bounded in measure is denoted $\mathscr{L}_F^\infty(X, \mu)$ (or $\mathscr{L}_F^\infty(\mu)$, or simply $\mathscr{L}_F^\infty$).*
 
@@ -130,13 +130,13 @@ on the other hand, $N_\infty(\alpha f) = |\alpha| N_\infty(f)$ for every scalar 
 
 It is clear that every function equal locally almost everywhere to a function in $\mathscr{L}_F^\infty$ belongs to $\mathscr{L}_F^\infty$. In particular, the *locally negligible* functions defined on $X$ with values in $F$ form a linear subspace $\mathscr{N}_F^\infty$ of $\mathscr{L}_F^\infty$, characterized by the relation $N_\infty(f) = 0$ (the closure of 0 for the topology defined by $N_\infty(f)$). The Hausdorff space associated with $\mathscr{L}_F^\infty$, that is, the quotient space $\mathscr{L}_F^\infty / \mathscr{N}_F^\infty$, is denoted $L_F^\infty(X, \mu)$ (or $L_F^\infty(\mu)$ or $L_F^\infty$); its topology is defined by the *norm* deduced from $N_\infty$ by passage to the quotient; the norm of a class $\dot{f} \in L_F^\infty$ is denoted $N_\infty(\dot{f})$, or also $\| \dot{f} \|_\infty$. When $F = \mathbf{R}$ (resp. $\mathbf{C}$), we write $\mathscr{L}^\infty$ and $L^\infty$ in place of $\mathscr{L}_\mathbf{R}^\infty$ and $L_\mathbf{R}^\infty$ (resp. $\mathscr{L}_\mathbf{C}^\infty$ and $L_\mathbf{C}^\infty$) if this can cause no confusion.
 
-#### Proposition 2 {#int-iv-s6-prop-2 .statement}
+#### Proposition 2 {#int-iv-s6-prop-2 .statement tag=08XI}
 
 *The space* $\mathscr{L}_F^\infty$ *is complete; the space* $L_F^\infty$ *is a Banach space*.
 
 For, let $(f_n)$ be a Cauchy sequence in $\mathscr{L}_F^\infty$; for every integer $n$, there exists an integer $k_n$ such that $N_\infty(f_r - f_s) \leq 1/n$ for $r \geq k_n$ and $s \geq k_n$; thus, there exists a locally negligible set $A_{rs}$ such that $|f_r(x) - f_s(x)| \leq 1/n$ for all $x \notin A_{rs}$. If $A_n$ is the union of the sets $A_{rs}$ (for $r \geq k_n$ and $s \geq k_n$), then $A_n$ is locally negligible and, for every $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ for all indices $r \geq k_n, s \geq k_n$. Let $A$ be the locally negligible set formed by the union of the $A_n$, and set $g_n(x) = f_n(x)$ for $x \notin A$, $g_n(x) = 0$ for $x \in A$; then $g_n$ belongs to $\mathscr{L}_F^\infty$ and, by the definition of $A$, the sequence $(g_n)$ converges *uniformly* on $X$ to a function $g$. It follows that the function $g$ is measurable (§ 5, No. 4, Th. 2); moreover, $g$ is bounded on the set of $x \in X$ where $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ and, since the complement of this set is locally negligible, $g$ belongs to $\mathscr{L}_F^\infty$. It is clear that in $\mathscr{L}_F^\infty$, the sequence $(g_n)$ has limit $g$, and the same is therefore true of the sequence $(f_n)$, since $N_\infty(f_n - g_n) = 0$ for all $n$. The second part of the proposition may be deduced immediately from this.
 
-#### Remark {#int-iv-s6-n3-rem-1 .statement}
+#### Remark {#int-iv-s6-n3-rem-1 .statement tag=08XJ}
 
 — 1) Every *bounded continuous* function $f$ on $X$ with values in $F$ belongs to $\mathscr{L}_F^\infty$, and
 
@@ -154,7 +154,7 @@ When the support of $\mu$ is equal to $X$, we may therefore identify the normed 
 
 In this No., $p$ and $q$ will denote two real numbers such that $1 \leq p \leq +\infty$, $1 \leq q \leq +\infty$, bound by the relation $1/p + 1/q = 1$; thus $q = p/(p-1)$ if $1 < p < +\infty$, $q = +\infty$ if $p = 1$, and $q = 1$ if $p = +\infty$; $p$ and $q$ will be called conjugate exponents. Note that the relation $1 \leq p \leq 2$ is equivalent to $2 \leq q \leq +\infty$; $p = q$ only when $p$ and $q$ are equal to 2.
 
-#### Theorem 2 (Hölder’s inequality) {#int-iv-s6-thm-2 .statement}
+#### Theorem 2 (Hölder’s inequality) {#int-iv-s6-thm-2 .statement tag=08XK}
 
 — Let $f$ and $g$ be two numerical functions that are finite almost everywhere and are such that $f$ is equal almost everywhere to a function in $L^p$ and $g$ to a function in $L^q$. Then, the function $fg$ (defined almost everywhere) is integrable, and
 
@@ -164,7 +164,7 @@ $$
 
 Let $f_1$ (resp. $g_1$) be a function in $L^p$ (resp. $L^q$) to which $f$ (resp. $g$) is equal almost everywhere; $fg$ is equal almost everywhere to the function $f_1 g_1$, which is everywhere defined and finite, and which is measurable, being the product of two measurable functions (§ 5, No. 3, Cor. 5 of Th. 1). If $1 < p < +\infty$, Hölder’s inequality for the upper integral (Ch. I, No. 3, Prop. 4) yields the inequality (4), and the relation $N_1(fg) < +\infty$ then shows that $fg$ is integrable (§ 5, No. 6, Th. 5). If $p = 1$, $q = +\infty$, the inequality (4) and the fact that $fg$ is integrable are immediate consequences of the inequality of the mean (No. 2, Prop. 1); thus the theorem is proved in all cases.
 
-#### Corollary 1 {#int-iv-s6-thm-2-cor-1 .statement}
+#### Corollary 1 {#int-iv-s6-thm-2-cor-1 .statement tag=08XL}
 
 — Let $F, G, H$ be three Banach spaces, and let $(u, v) \mapsto \Phi(u, v)$ be a continuous bilinear mapping of $F \times G$ into $H$ such that $|\Phi(u, v)| \leq |u| \cdot |v|$. If $f \in \mathscr{L}_F^p$ and $g \in \mathscr{L}_G^q$, then the function $\Phi(f, g)$ is integrable and
 
@@ -176,7 +176,7 @@ For, $\Phi(f, g)$ is measurable (§ 5, No. 3, Cor. 5 of Th. 1); since $|\Phi(f, 
 
 Two special cases of Cor. 1 are important in applications:
 
-#### Corollary 2 {#int-iv-s6-thm-2-cor-2 .statement}
+#### Corollary 2 {#int-iv-s6-thm-2-cor-2 .statement tag=08XM}
 
 — Let $F$ be a real (resp. complex) Banach space, $F'$ its strong dual (TVS, III, § 3, No. 1), and let $(z, z') \mapsto \langle z, z' \rangle$ be the canonical bilinear form on $F \times F'$. If $f \in \mathscr{L}_F^p$ and $g \in \mathscr{L}_{F'}^q$, then the real (resp. complex) function $\langle f, g \rangle$ is integrable and
 
@@ -188,7 +188,7 @@ For, $|\langle z, z' \rangle| \leq |z| \cdot |z'|$.
 
 When $F$ is a real or complex Hilbert space, one knows that it can be canonically identified with its dual $F'$ (TVS, V, § 1, No. 7). Since the space $L_F^2$ is complete, we have the following result:
 
-#### Corollary 3 {#int-iv-s6-thm-2-cor-3 .statement}
+#### Corollary 3 {#int-iv-s6-thm-2-cor-3 .statement tag=08XN}
 
 — Let $\mu$ be a positive measure on $X$, $F$ a real (resp. complex) Hilbert space. On the space $L_F^2$, the symmetric (resp. Hermitian) form
 
@@ -198,7 +198,7 @@ $$
 
 defines a Hilbert space structure, for which the norm is equal to $\| \widetilde{f} \|_2$.
 
-#### Corollary 4 {#int-iv-s6-thm-2-cor-4 .statement}
+#### Corollary 4 {#int-iv-s6-thm-2-cor-4 .statement tag=08XO}
 
 — Let $F$ be a Banach space, $f$ a function in $\mathscr{L}_F^p$, and $g$ a numerical function belonging to $\mathscr{L}^q$; then, the function $fg$ is integrable and
 
@@ -206,7 +206,7 @@ $$
 \left| \int fg\, d\mu \right| \leq \int |fg|\, d|\mu| \leq N_p(f) N_q(g).
 $$
 
-#### Corollary 5 {#int-iv-s6-thm-2-cor-5 .statement}
+#### Corollary 5 {#int-iv-s6-thm-2-cor-5 .statement tag=08XP}
 
 — Let $f_1, f_2, \ldots, f_n$ be n positive integrable functions, and let $\alpha_1, \alpha_2, \ldots, \alpha_n$ be n numbers $> 0$ such that $\sum_{i=1}^n \alpha_i = 1$; under these conditions, the function $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ is integrable and
 
@@ -219,7 +219,7 @@ For, the product $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ is measur
 
 Cor. 2 of Th. 2 is sharpened by the following proposition:
 
-#### Proposition 3 {#int-iv-s6-prop-3 .statement}
+#### Proposition 3 {#int-iv-s6-prop-3 .statement tag=08XQ}
 
 — Let $\mu$ be a positive measure on X, F a real or complex Banach space, F' its strong dual, and $(z, z') \mapsto \langle z, z' \rangle$ the canonical bilinear form on $F \times F'$.
 
@@ -311,7 +311,7 @@ since $\varepsilon$ is arbitrary and $\alpha$ is any number < $N_\infty(f)$, the
 
 One argues in exactly the same manner to prove the relation (10), on considering separately the case $1 \leq q < +\infty$ and the case $q = +\infty$, and using the fact that for every $z' \in F'$, $|z'| = \sup_{|z| \leq 1} |\langle z, z' \rangle|$ by the definition of the norm in $F'$.
 
-#### Remark {#int-iv-s6-n4-rem-1 .statement}
+#### Remark {#int-iv-s6-n4-rem-1 .statement tag=08XR}
 
 — 1) Let $\mathscr{E}$ be a dense linear subspace of $\mathscr{L}_{F'}^q$; then the formula (9) holds when $g$ runs over the intersection of $\mathscr{E}$ with the set $B$ of functions in $\mathscr{L}_{F'}^q$ such that $N_q(g) \leq 1$. For, it suffices to observe that the interior $\overset{\circ}{B}$ of $B$ is dense in $B$ and that $\overset{\circ}{B} \cap \mathscr{E}$ is dense in $\overset{\circ}{B}$, since $\overset{\circ}{B}$ is open. This remark applies in particular to the set $\mathscr{E} = \mathscr{K}(X; F')$ of continuous functions with compact support (with values in $F'$) when $1 \leq q < +\infty$, that is, $1 < p \leq +\infty$. But in this case, the formula (9) is true as $g$ runs over $B \cap \mathscr{K}(X; F')$, even for $p = 1$. For, we may, as above, restrict ourselves to the case that $f$ is a step function. We saw then that if $N_1(f) = 1$, then for every $\varepsilon > 0$ there exists a step function $g \in \mathscr{L}_{F'}^\infty$ such that $|g(x)| \leq 1$ for all $x \in X$ and $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. There exists a finite number of pairwise disjoint compact sets $K_i$ such that $g$ has a constant value $a'_i$ on each $K_i$ and such that, if $K$ is the union of the $K_i$, then $\int |f| \varphi_{\mathscr{C}_K} d\mu \leq \varepsilon$. Let $U_i$ be a neighborhood of $K_i$ such that the sets $U_i$ are pairwise disjoint, and let $h_i$ be a continuous mapping of $X$ into $[0, 1]$ with support contained in $U_i$ and equal to 1 on $K_i$. Setting $h = \sum a'_i h_i$, we have $h(x) = g(x)$ on $K$ and $|h(x)| \leq 1$ on $X$, therefore
 
@@ -335,13 +335,13 @@ $$
 
 whence, on passing to the limit (assuming, as we may, that the sequence $(K_n)$ is increasing), we have $\sup \int^* |f g| d\mu = +\infty$ (§ 1, No. 3, Th. 3).
 
-#### Corollary {#int-iv-s6-n4-cor-1 .statement}
+#### Corollary {#int-iv-s6-n4-cor-1 .statement tag=08XS}
 
 — *Let $\mu$ be a positive measure on $X$, $F$ a Banach space, $F'$ its strong dual, and $g$ any function in $\mathscr{L}^q_{F'}$. Then, the linear form on $L^p_F$, deduced from the linear form $f \mapsto \int \langle f, g \rangle d\mu$ on $\mathscr{L}^p_F$ by passage to the quotient, is continuous and has norm $N_q(g)$.*
 
 ### 5. Application: relations between the spaces $L^p_F$ ($1 \leq p \leq +\infty$)
 
-#### Proposition 4 {#int-iv-s6-prop-4 .statement}
+#### Proposition 4 {#int-iv-s6-prop-4 .statement tag=08XT}
 
 — *Let $f$ be a measurable function with values in a Banach space $F$; the set $I$ of numbers $p$, such that $1 \leq p \leq +\infty$ and $N_p(f)$ is finite, is either empty or is an interval of $\overline{\mathbf{R}}$. If $I$ is nonempty, the restriction to $I$ of the mapping $p \mapsto N_p(f)$ is continuous; moreover, if $f$ is not negligible, $\log N_p(f)$ is a convex function of $1/p$ on $\bar{I}$.
 
@@ -375,7 +375,7 @@ $$
 
 Now, let $a$ be a number such that $0 < a < N_\infty(f)$. Since, by hypothesis, there exist finite values of $p$ such that $N_p(f) < +\infty$, the set $A$ of $x \in X$ such that $|f(x)| \geq a$, which is measurable and non-negligible, is integrable by virtue of the inequality $\varphi_A \leq (|f|/a)^p$; moreover, we infer from this inequality that $N_p(f) \geq a \cdot (|\mu|(A))^{1/p}$; letting $p$ tend to $+\infty$, it follows that $\liminf_{p \to +\infty} N_p(f) \geq a$, which completes the proof.
 
-#### Corollary {#int-iv-s6-n5-cor-1 .statement}
+#### Corollary {#int-iv-s6-n5-cor-1 .statement tag=08XU}
 
 — *If* $r, s, p$ *are three numbers such that*
 
@@ -389,19 +389,19 @@ Note that in general the topologies induced on the intersection $\mathscr{L}_F^r
 
 Prop. 4 may be sharpened when $\mu$ is a bounded measure:
 
-#### Proposition 5 {#int-iv-s6-prop-5 .statement}
+#### Proposition 5 {#int-iv-s6-prop-5 .statement tag=08XV}
 
 — Let $\mu$ be a bounded measure, and let $f$ be a $\mu$-measurable function with values in a Banach space $F$. The set I of numbers $p$ such that $1 \leq p \leq +\infty$ and $N_p(f)$ is finite, is either empty or is an interval with left end-point $p = 1$ and containing this point; moreover, $(|\mu|(X))^{-1/p} N_p(f)$ is an increasing function of $p$ on I.
 
 This is an immediate consequence of Prop. 4 above and of the Cor. of Prop. 4 of Ch. I, No. 3.
 
-#### Corollary {#int-iv-s6-n5-cor-2 .statement}
+#### Corollary {#int-iv-s6-n5-cor-2 .statement tag=08XW}
 
 — If the measure $\mu$ is bounded, the relation $r < s$ implies $\mathscr{L}_F^s \subset \mathscr{L}_F^r$; moreover, the topology of convergence in mean of order $s$ is finer than the topology of convergence in mean of order $r$ (on $\mathscr{L}_F^s$).
 
 One can show that in general the topology of convergence in mean of order $s$ is strictly finer than the topology of convergence in mean of order $r$ (Exer. 8).
 
-#### Proposition 6 {#int-iv-s6-prop-6 .statement}
+#### Proposition 6 {#int-iv-s6-prop-6 .statement tag=08XX}
 
 — Let $X$ be a discrete space, $\mu$ the measure on $X$ defined by placing a mass $+1$ at each point of $X$. If $f$ is a mapping of $X$ into the Banach space $F$, the set I of numbers $p$ such that $1 \leq p \leq +\infty$ and $N_p(f)$ is finite, is either empty or is an interval with right end-point $+\infty$ and containing this point; moreover, $N_p(f)$ is a decreasing function of $p$ on I.
 
@@ -413,7 +413,7 @@ $$
 
 for every finite $p$. Since the function $\log N_p(f)$ is convex with respect to $1/p$ and takes its smallest value at the point $+\infty$, it is necessarily a decreasing function of $p$ on I (FRV, I, § 4, No. 3, Prop. 5), which completes the proof.
 
-#### Corollary {#int-iv-s6-n5-cor-3 .statement}
+#### Corollary {#int-iv-s6-n5-cor-3 .statement tag=08XY}
 
 — If $X$ is discrete and the measure $\mu$ is defined by a mass $+1$ at each point of $X$, then the relation $r < s$ implies $\mathscr{L}_F^r \subset \mathscr{L}_F^s$; moreover, the topology of convergence in mean of order $r$ is finer than the topology of convergence in mean of order $s$ (on $\mathscr{L}_F^r$).
 

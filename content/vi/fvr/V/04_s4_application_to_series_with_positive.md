@@ -28,9 +28,9 @@ subsections:
       pdf_page: 259
 statements: 13
 exercises: 3
-content_sha256: 0892b6650f8958203f19d37ba85c113cb6e33d20827291fa13355f92a7185dfa
+content_sha256: 5040411bf84ba6d1fcc2b48af0573041e86f146cc44ce09805be3c6a1a73a989
 translated_from: content/en/fvr/V/04_s4_application_to_series_with_positive.md
-source_content_sha256: 7aef1df43eff09df6e9442552cc56e53595b077c4cc4257843aa13c45dda4aec
+source_content_sha256: c18bf105a0a19fb75952b1cd2547b25be59f3bbcc6840083c077e38c89496107
 translation_model: gpt-5.4
 translation_run: translate-vi-2cce6ac7
 glossary_version: 34
@@ -46,11 +46,11 @@ Trong mục này, bởi một *chuỗi có các số hạng dương* ta sẽ hi�
 
 Cho $(u_n)$ và $(v_n)$ là hai chuỗi có các số hạng dương, và $u$ và $v$ là các hàm bậc thang liên kết: quan hệ $u_n \leq v_n$ với $n \geq n_0$ là tương đương với $u(x) \leq v(x)$ với $x \geq n_0$. Do đó mỗi quan hệ trong các quan hệ $u_n \preccurlyeq v_n, u_n \ll v_n, u_n \sim v_n$ là tương đương lần lượt với $u(x) \preccurlyeq v(x), u(x) \ll v(x)$ và $u(x) \sim v(x)$; nhận xét này cho phép chúng ta dịch các mệnh đề 1 (V, p. 228) và 6 (V, p. 230) như sau:
 
-#### Mệnh đề 1 {#fvr-v-s4-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-v-s4-prop-1 .statement tag=08FZ}
 
 *Cho* $(u_n)$ *và* $(v_n)$ *là hai chuỗi có các số hạng dương. Nếu* $u_n \preccurlyeq v_n$ *và nếu chuỗi* $(v_n)$ *hội tụ, thì* $(u_n)$ *hội tụ; nếu* $u_n \succ v_n$ *và nếu* $\sum_{n=1}^{\infty} v_n = +\infty$, *thì* $\sum_{n=1}^{\infty} u_n = +\infty$.
 
-#### Mệnh đề 2 {#fvr-v-s4-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-v-s4-prop-2 .statement tag=08G0}
 
 *Cho* $(u_n)$ *và* $(v_n)$ *là hai chuỗi có các số hạng dương*:
 1. *Nếu chuỗi* $(v_n)$ *hội tụ thì quan hệ* $u_n \ll v_n$ *(tương ứng* $u_n \sim v_n$) *suy ra* $\sum_{p=n}^{\infty} u_p \ll \sum_{p=n}^{\infty} v_p$ *(tương ứng* $\sum_{p=n}^{\infty} u_p \sim \sum_{p=n}^{\infty} v_p$).
@@ -58,7 +58,7 @@ Cho $(u_n)$ và $(v_n)$ là hai chuỗi có các số hạng dương, và $u$ v�
 
 Ta thu được các tiêu chuẩn hội tụ tiện lợi bằng cách lấy, đối với chuỗi so sánh $(v_n)$ trong mệnh đề 1, một chuỗi có các số hạng dạng $v_n = f(n)$, trong đó $f$ là một hàm $\geq 0$ được xác định với mọi số thực $x > x_0$ và giảm trên khoảng $[x_0, +\infty[$; thực vậy:
 
-#### Mệnh đề 3 (tiêu chuẩn Cauchy-Maclaurin) {#fvr-v-s4-prop-3 .statement}
+#### Mệnh đề 3 (tiêu chuẩn Cauchy-Maclaurin) {#fvr-v-s4-prop-3 .statement tag=08G1}
 
 *Nếu* $f$ *là một hàm* $\geq 0$ *và giảm trên* $[x_0, +\infty[$, *thì chuỗi có số hạng tổng quát* $v_n = f(n)$ *hội tụ khi và chỉ khi tích phân* $\int_{x_0}^{+\infty} f(t)\,dt$ *hội tụ*.
 
@@ -66,11 +66,11 @@ Ta thu được các tiêu chuẩn hội tụ tiện lợi bằng cách lấy, �
 
 Vì các hàm xuất hiện trong các tiêu chuẩn hội tụ lôgarit đối với tích phân (V, p. 229, mệnh đề 2, 3 và 4) là giảm trên một khoảng $[x_0, +\infty[$, áp dụng mệnh đề 1 và 3 của V, p. 237, cho ta các tiêu chuẩn sau:
 
-#### Mệnh đề 4 ("tiêu chuẩn lôgarit cấp 0") {#fvr-v-s4-prop-4 .statement}
+#### Mệnh đề 4 ("tiêu chuẩn lôgarit cấp 0") {#fvr-v-s4-prop-4 .statement tag=08G2}
 
 Cho $(u_n)$ là một chuỗi có các số hạng dương; nếu $u_n \preccurlyeq n^\mu$ với một $\mu < -1$ thì chuỗi $(u_n)$ hội tụ; nếu $u_n \succcurlyeq n^\mu$ với một $\mu \geq -1$ thì chuỗi $(u_n)$ có tổng vô hạn.
 
-#### Mệnh đề 5 ("tiêu chuẩn lôgarit cấp $p$") {#fvr-v-s4-prop-5 .statement}
+#### Mệnh đề 5 ("tiêu chuẩn lôgarit cấp $p$") {#fvr-v-s4-prop-5 .statement tag=08G3}
 
 Cho $(u_n)$ là một chuỗi có các số hạng dương. Nếu $u_n \preccurlyeq \frac{1}{nl_1(n)l_2(n)\ldots l_{p-1}(n)(l_p(n))^\mu}$ với một $\mu > 1$ thì chuỗi $(u_n)$ hội tụ; nếu $u_n \succcurlyeq \frac{1}{nl_1(n)l_2(n)\ldots l_{p-1}(n)(l_p(n))^\mu}$ với một $\mu \leq 1$ thì chuỗi $(u_n)$ có tổng vô hạn.
 
@@ -112,7 +112,7 @@ với độ chính xác $g_{\rho}$ thì do đó suy ra được một khai tri�
 
 Do đó ta được dẫn tới trường hợp riêng của các chuỗi $(g(n))$ trong đó $g \in \mathscr{E}$. Ta sẽ thấy rằng, với những điều kiện nào đó, có thể thu được ngay một phần chính của $s_{n} = \sum_{m=1}^{n} g(m)$ (khi $\sum_{n=1}^{\infty} g(n) = +\infty$) hoặc của $r_{n} = \sum_{m=n+1}^{\infty} g(m)$ (khi $\sum_{n=1}^{n} g(n) < +\infty$).
 
-#### Mệnh đề 6 {#fvr-v-s4-prop-6 .statement}
+#### Mệnh đề 6 {#fvr-v-s4-prop-6 .statement tag=08G4}
 
 *Cho g là một hàm thực, > 0 và đơn điệu, xác định trên một khoảng [x_0, +\infty[ (trong đó x_0 \leq 1 ), và sao cho log g và x so sánh được cấp 1.*
 
@@ -186,7 +186,7 @@ $$
 
 và chỉ cần khai triển (đối với $\mathscr{E}'$) mỗi hàm trong các hàm $g(n-k)$ ($0 \leq k \leq p$), bằng cách giới hạn độ chính xác của các khai triển tới phần chính của $g(n-p)$, để thu được một khai triển của $s_n$.
 
-#### Ví dụ {#fvr-v-s4-n2-exa-1 .statement}
+#### Ví dụ {#fvr-v-s4-n2-exa-1 .statement tag=08G5}
 
 Cho $g(x) = x^\lambda = \exp(\lambda \log x)$, có cấp $+\infty$ đối với $e^\lambda$. Lấy $p = 2$ ta có
 
@@ -222,7 +222,7 @@ trong đó $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)
 
 Từng bước một, do đó rốt cuộc có thể thu được một biểu thức của $s_n$ dưới dạng tổng của một số nhất định nguyên hàm, mỗi nguyên hàm đều không đáng kể đối với nguyên hàm đứng trước, của một số hạng còn lại không đáng kể đối với nguyên hàm cuối cùng đã viết, và cuối cùng là một hằng số (trường hợp số hạng dư tiến tới 0). Khi đó còn phải khai triển mỗi nguyên hàm thu được theo $\mathscr{E}'$ (x. V, p. 235).
 
-#### Ví dụ {#fvr-v-s4-n2-exa-2 .statement}
+#### Ví dụ {#fvr-v-s4-n2-exa-2 .statement tag=08G6}
 
 Cho $g(n) = \frac{1}{n}$; khi đó
 $$
@@ -264,7 +264,7 @@ do đó, để tích có nhân tử tổng quát $1 + u_n$ là hội tụ giao h
 
 Quan hệ giữa tích vô hạn và các chuỗi số thực đôi khi cho phép thu được một khai triển tiệm cận của tích riêng phần $p_n = \prod_{k=1}^{n} (1 + u_k)$; chỉ cần có một khai triển tiệm cận của tổng riêng phần $s_n = \sum_{k=1}^{n} \log(1 + u_k)$, rồi khai triển $p_n = \exp(s_n)$; như vậy ta lại quay về hai bài toán đã xét trước đây (V, p. 238 và p. 226).
 
-#### Ví dụ {#fvr-v-s4-n3-exa-1 .statement}
+#### Ví dụ {#fvr-v-s4-n3-exa-1 .statement tag=08G7}
 
 *công thức Stirling.* Ta hãy tìm một khai triển tiệm cận của $n!$; điều này dẫn ta đến việc khai triển $s_n = \sum_{p=1}^{n} \log p$, rồi sau đó $\exp(s_n)$. Phương pháp ở n 2 lần lượt cho
 
@@ -306,7 +306,7 @@ với mọi số thực $a$ không là một số nguyên $> 0$, trong đó $\va
 
 Khá thường gặp những chuỗi $(u_n)$ mà từ một chỗ nào đó trở đi có $u_n > 0$, và $u_{n+1}/u_n$ có một khai triển tiệm cận dễ xác định. Đối với những chuỗi như vậy, thật thuận tiện khi có các tiêu chuẩn (gọi là *các tiêu chuẩn loại thứ hai*) cho phép xác định chuỗi có hội tụ hay không chỉ từ dạng của $u_{n+1}/u_n$. Sau đây là một tiêu chuẩn như vậy:
 
-#### Mệnh đề 7 ("tiêu chuẩn Raabe") {#fvr-v-s4-prop-7 .statement}
+#### Mệnh đề 7 ("tiêu chuẩn Raabe") {#fvr-v-s4-prop-7 .statement tag=08G8}
 
 *Cho $(u_n)$ là một chuỗi mà từ một chỗ nào đó trở đi các hạng đều $> 0$. Nếu, kể từ một chỉ số nào đó, $u_{n+1}/u_n \leqslant 1 - \frac{\alpha}{n}$ với một $\alpha > 1$, thì chuỗi $(u_n)$ hội tụ; nếu, từ một chỗ nào đó trở đi, $u_{n+1}/u_n \geqslant 1 - \frac{1}{n}$, thì chuỗi $(u_n)$ có tổng vô hạn.*
 
@@ -316,7 +316,7 @@ Mặt khác, nếu $u_{n+1}/u_n \geq 1 - \frac{1}{n}$ kể từ một điểm n�
 
 Cũng có thể chứng minh theo cùng cách, bằng cách dùng các tiêu chuẩn lôgarit cấp $> 0$, tiêu chuẩn sau đây loại thứ hai:
 
-#### Mệnh đề 8 {#fvr-v-s4-prop-8 .statement}
+#### Mệnh đề 8 {#fvr-v-s4-prop-8 .statement tag=08G9}
 
 *Cho $(u_n)$ là một chuỗi có các số hạng $> 0$ kể từ một điểm nào đó. Nếu, kể từ một điểm nào đó, ta có*
 
@@ -332,7 +332,7 @@ $$
 
 *thì chuỗi $(u_n)$ có tổng vô hạn.*
 
-#### Ví dụ {#fvr-v-s4-n4-exa-1 .statement}
+#### Ví dụ {#fvr-v-s4-n4-exa-1 .statement tag=08GA}
 
 Xét *chuỗi siêu bội*, có số hạng tổng quát
 
@@ -353,11 +353,11 @@ $$
 
 Tiêu chuẩn Raabe cho thấy rằng chuỗi hội tụ khi $\alpha + \beta < \gamma$, và có tổng vô hạn khi $\alpha + \beta > \gamma$; khi $\alpha + \beta = \gamma$ thì chuỗi cũng có tổng vô hạn, như được chỉ ra bởi mệnh đề 8.
 
-#### Nhận xét 1 {#fvr-v-s4-n4-rem-1 .statement}
+#### Nhận xét 1 {#fvr-v-s4-n4-rem-1 .statement tag=08GB}
 
 Như một trường hợp riêng của tiêu chuẩn của Raabe, ta thấy rằng nếu $\limsup_{n \to \infty} u_{n+1}/u_n < 1$ thì chuỗi $(u_n)$ hội tụ; còn nếu $\liminf_{n \to \infty} u_{n+1}/u_n > 1$ thì chuỗi $(u_n)$ có tổng vô hạn (*tiêu chuẩn của d'Alembert*).
 
-#### Nhận xét 2 {#fvr-v-s4-n4-rem-2 .statement}
+#### Nhận xét 2 {#fvr-v-s4-n4-rem-2 .statement tag=08GC}
 
 Các tiêu chuẩn loại thứ hai chỉ có thể được áp dụng cho những chuỗi mà số hạng tổng quát biến thiên theo một cách rất chính quy khi $n$ tiến tới $+\infty$; nói cách khác, phạm vi áp dụng của chúng hạn chế hơn nhiều so với các tiêu chuẩn lôgarit, và sẽ là một sai lầm nếu cố dùng chúng vượt ra ngoài những trường hợp đặc biệt mà chúng đặc biệt thích hợp. Chẳng hạn, đối với chuỗi $(u_n)$ xác định bởi $u_{2m} = 2^{-m}$, $u_{2m+1} = 3^{-m}$ ta có $u_{2m+1}/u_{2m} = \left(\frac{2}{3}\right)^m$, $u_{2m+2}/u_{2m+1} = \frac{1}{2} \left(\frac{3}{2}\right)^m$; tỉ số thứ nhất trong các tỉ số này tiến tới 0 và tỉ số thứ hai tiến tới $+\infty$ khi $m$ tăng vô hạn, nên không tiêu chuẩn nào thuộc loại thứ hai có thể áp dụng được; tuy nhiên, vì $u_n \preccurlyeq 2^{-n/2}$, nên ngay lập tức suy ra rằng chuỗi hội tụ.
 

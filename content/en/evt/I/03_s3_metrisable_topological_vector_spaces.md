@@ -25,7 +25,7 @@ subsections:
       pdf_page: 25
 statements: 11
 exercises: 9
-content_sha256: 7a8271ea9a010eadcfd81401d5686401ccfd341113f515ff0a694af1cc324c3d
+content_sha256: 78359984fd72f570938f28fdd80715c249ddc585d312089e4556c2677edeb57f
 ---
 
 ## § 3. METRISABLE TOPOLOGICAL VECTOR SPACES
@@ -40,7 +40,7 @@ Also we know that the uniform structure of a metrisable topological vector space
 
 We saw (GT, IX.§ 3.1, prop. 2) how such a distance d could be defined using a decreasing sequence $(W_n)$ of neighbourhoods of 0 in E, forming a fundamental system of neighbourhoods and such that $W_{n+1} + W_{n+1} + W_{n+1} \subset W_n$. When E is a metrisable vector space over a non-discrete valued division ring K, we can also suppose that the $W_n$ are balanced (I, p. 7, prop. 4); if we revert to the process of definition of $d$ (*loc. cit.*) we can see that the *relation* $|\lambda| \leq 1 \implies |\lambda x| \leq |x|$. Further the conditions (EVT$_I$) and (EVT$_{II}$) of I, p. 2 imply both that $|\lambda x_0|$ *tends to 0 as $\lambda$ tends to 0 in K* for every $x_0 \in E$, and that $|\lambda_0 x|$ *tends to 0 as $|x|$ tends to 0* for every $\lambda_0 \in K$. Conversely, if the function $|x|$ possesses all the preceding properties and if $W_n$ is the set of $x \in E$ such that $|x| \leq 2^{-n}$, then the $W_n$ form a fundamental system of balanced neighbourhoods of 0 for a metrisable topology on E that is compatible with the vector space structure of E.
 
-#### Remark {#evt-i-s3-n1-rem-1 .statement}
+#### Remark {#evt-i-s3-n1-rem-1 .statement tag=07A5}
 
 One of the most important classes of metrisable vector spaces are the normed spaces (I, p. 3). But it must be noted that there exist metrisable vector spaces whose topology cannot be defined by a norm (I, § 3, exerc. 1); we shall study important examples later.
 
@@ -50,7 +50,7 @@ Every vector subspace of a metrisable topological vector space E is metrisable; 
 
 ### 3. Continuous linear functions in a metrisable vector space
 
-#### Theorem 1 (Banach) {#evt-i-s3-thm-1 .statement}
+#### Theorem 1 (Banach) {#evt-i-s3-thm-1 .statement tag=07A6}
 
 Let E and F be two metrisable vector spaces over a non-discrete valued division ring K, and let u be a continuous linear mapping of E in F. Suppose that E is complete. Then the following conditions are equivalent:
 (i) u is a strict surjective morphism.
@@ -64,7 +64,7 @@ Next (ii) implies (iii). Let F be complete and u be surjective. The image of u i
 
 The following lemma shows that (iii) implies (iv).
 
-#### Lemma 1 {#evt-i-s3-lem-1 .statement}
+#### Lemma 1 {#evt-i-s3-lem-1 .statement tag=07A7}
 
 Let E and F be two topological vector spaces over a non-discrete valued division ring K, and let u be a continuous linear mapping of E in F such that the image of E is not meagre. Then, for every neighbourhood V of 0 in E, the set $\overline{u(V)}$ is a neighbourhood of 0 in F.
 
@@ -80,7 +80,7 @@ hence $\overline{u(V)}$ is a neighbourhood of 0 in $F$.
 
 Before proving that (iv) implies (i) we prove the following lemma, where we make the convention that, in all metric spaces, $B_r(x)$ denotes the *closed* ball of centre $x$ and radius $r$.
 
-#### Lemma 2 {#evt-i-s3-lem-2 .statement}
+#### Lemma 2 {#evt-i-s3-lem-2 .statement tag=07A8}
 
 *Let E and F be two metric spaces, and suppose that E is also complete. Let u be a linear mapping of E in F having the following property: whatever the number $r > 0$, there exists a number $\rho(r) > 0$ such that, for all $x \in E$, we have*
 
@@ -112,29 +112,29 @@ Since the distance of $x_n$ from $x_{n+p}$ is less than $r_{n+1} + r_{n+2} + \cd
 
 We return to the theorem and show that (iv) implies (i). Suppose that $u$ satisfies condition (iv). For each of the spaces E and F, consider a distance that is invariant under translation and defines its topology (I, p. 16). By hypothesis, the set $\overline{u(B_r(0))}$ is a neighbourhood of 0 in F for every $r > 0$, and thus there exists a number $\rho(r) > 0$ such that $B_{\rho(r)}(0) \subset u(B_r(0))$. By translation we conclude that $B_{\rho(r)}(u(x)) \subset \overline{u(B_r(x))}$ for all $r > 0$ and all $x \in E$. From lemma 2, for every pair of real positive numbers $(a, r), a > r > 0$, we have $B_{\rho(r)}(0) \subset u(B_a(0))$; thus $u$ is a strict morphism of E on F. We have shown that (iv) implies (i) and the proof of the theorem is completed.
 
-#### Corollary 1 {#evt-i-s3-lem-2-cor-1 .statement}
+#### Corollary 1 {#evt-i-s3-lem-2-cor-1 .statement tag=07A9}
 
 *If E and F are two complete metrisable vector spaces over a non-discrete valued division ring, then every bijective continuous linear mapping of E on F is an isomorphism.*
 
 In particular, if E and F are two complete *normed* spaces, there exists a number $a > 0$ such that $\|u(x)\| \geq a.\|x\|$ for all $x \in E$.
 
-#### Corollary 2 {#evt-i-s3-lem-2-cor-2 .statement}
+#### Corollary 2 {#evt-i-s3-lem-2-cor-2 .statement tag=07AA}
 
 *Let E be a vector space over a non-discrete valued division ring, let $\mathscr{T}_1$ and $\mathscr{T}_2$ be two topologies on E compatible with its vector space structure and for each of which E is metrisable and complete. Then, if $\mathscr{T}_1$ and $\mathscr{T}_2$ are comparable, they are identical.*
 
-#### Corollary 3 {#evt-i-s3-lem-2-cor-3 .statement}
+#### Corollary 3 {#evt-i-s3-lem-2-cor-3 .statement tag=07AB}
 
 *Let E and F be two complete metrisable vector spaces over a non-discrete valued division ring. In order that a continuous linear mapping u of E in F should be a strict morphism, it is necessary and sufficient that $u(E)$ be closed in F.*
 
 The condition is necessary, because if $u$ is a strict morphism, the image $u(E)$, being isomorphic to the quotient $E/u^{-1}(0)$, is complete (I, p. 17) and therefore closed in F. The condition is sufficient, since, if $u(E)$ is closed in F, then $u(E)$ must be a complete metrisable vector space and thus by theorem 1 $u$ is a strict morphism of E on $u(E)$.
 
-#### Corollary 4 {#evt-i-s3-lem-2-cor-4 .statement}
+#### Corollary 4 {#evt-i-s3-lem-2-cor-4 .statement tag=07AC}
 
 *Let E be a complete metrisable vector space over a non-discrete valued division ring. If M and N are two closed vector subspaces, that are (algebraic) complements in E, then E is the direct topological sum of M and N.*
 
 For $M \times N$ is a complete metrisable vector space and the mapping $(y, z) \mapsto y + z$ of $M \times N$ on E is continuous and bijective, therefore an isomorphism (cor. 1).
 
-#### Corollary 5 (The closed graph theorem) {#evt-i-s3-lem-2-cor-5 .statement}
+#### Corollary 5 (The closed graph theorem) {#evt-i-s3-lem-2-cor-5 .statement tag=07AD}
 
 — *Let E and F be two complete metrisable vector spaces over a non-discrete valued division ring. In order that a linear mapping u of E in F be continuous, it is necessary and sufficient that its graph, in the product space $E \times F$, be closed.*
 
@@ -142,7 +142,7 @@ The condition is necessary since the graph of a continuous mapping into a Hausdo
 
 We can express this corollary in the following form : $u$ is continuous if the following situation holds : if the sequence $(x_n)$ of points of E both converges to 0 and *is such that the sequence* $(u(x_n))$ *converges to* $y$, then it is necessarily the case that $y = 0$.
 
-#### Example {#evt-i-s3-n3-exa-1 .statement}
+#### Example {#evt-i-s3-n3-exa-1 .statement tag=07AE}
 
 — Let E be a vector subspace of the space of real-valued functions defined on $I = [0, 1]$; let $\| f \|$ be a norm on E, under which E is *complete*, and such that its topology is finer than the topology of simple convergence. Suppose further that E contains the set $\mathscr{C}^\infty(I)$ of functions infinitely differentiable on I; we shall show that there exists an integer $k \geq 0$, such that E contains the set $\mathscr{C}^k(I)$ of all functions with a continuous $k$-th derivative in I.
 
@@ -156,7 +156,7 @@ implies $\| f \| \leq 1$ for all $f \in \mathscr{C}^\infty(I)$.
 
 But $p_k$ is a norm on the space $\mathscr{C}^k(I)$ and $\mathscr{C}^\infty(I)$ is a subspace that is everywhere dense in $\mathscr{C}^k(I)$ for this norm (the set of polynomials being already everywhere dense in $\mathscr{C}^k(I)$, an immediate consequence of the Weierstrass-Stone theorem). By what has gone before, the identity mapping of $\mathscr{C}^\infty(I)$ (carrying the norm $p_k$) in E, is continuous, and so it can be extended continuously to the whole space $\mathscr{C}^k(I)$ (since E is complete). This proves our assertion.
 
-#### Proposition 1 {#evt-i-s3-prop-1 .statement}
+#### Proposition 1 {#evt-i-s3-prop-1 .statement tag=07AF}
 
 *Let E, F be two topological vector spaces over a non-discrete valued division ring K. We suppose that :*
 

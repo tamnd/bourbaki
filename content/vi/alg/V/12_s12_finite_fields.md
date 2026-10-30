@@ -30,9 +30,9 @@ subsections:
       pdf_page: 211
 statements: 11
 exercises: 14
-content_sha256: 072715d9d83bb07d43d7a32300f7c4df0e9edbc9f31b8892c735d4e130e7fe48
+content_sha256: 3899c73675e8a3c8ea44d7f704b7432f58383383344c7b6732333adc9e0c2f6a
 translated_from: content/en/alg/V/12_s12_finite_fields.md
-source_content_sha256: 015df9588250490b3cf29a4070314574c53be485d5b18a0be1ed1cd6516770b3
+source_content_sha256: bd8e10c4a05eb5e291baa4ec9c998a38d9874d55fab72a3f4d3987c8ee8ea686
 translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-826667eb
 glossary_version: 34
@@ -44,7 +44,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Cấu trúc của các trường hữu hạn
 
-#### Mệnh đề 1 {#alg-v-s12-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s12-prop-1 .statement tag=06Q8}
 
 — Cho K là một trường hữu hạn có q phần tử.
 
@@ -58,7 +58,7 @@ Vì Z là vô hạn và K hữu hạn, đồng cấu vành duy nhất \varphi : 
 
 Mệnh đề c) suy ra từ Bổ đề 1 (V, p. 78).
 
-#### Mệnh đề 2 {#alg-v-s12-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s12-prop-2 .statement tag=06Q9}
 
 — Cho K là một trường hữu hạn có q phần tử. Trường K là một trường phân rã của đa thức X^q - X của \mathbf{F}_p[X] và nó là tập hợp tất cả các nghiệm của đa thức này.
 
@@ -72,7 +72,7 @@ $$
 
 Mệnh đề 2 suy ra ngay từ điều này.
 
-#### Hệ quả {#alg-v-s12-n1-cor-1 .statement}
+#### Hệ quả {#alg-v-s12-n1-cor-1 .statement tag=06QA}
 
 — *Hai trường hữu hạn có cùng lực lượng thì đẳng cấu.*
 
@@ -100,7 +100,7 @@ $$
 
 ### 2. Các mở rộng đại số của một trường hữu hạn
 
-#### Mệnh đề 3 {#alg-v-s12-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s12-prop-3 .statement tag=06QB}
 
 — *Cho $K$ là một trường hữu hạn có $q$ phần tử, $\Omega$ là một mở rộng đóng đại số của $K$ và $m$ là một số nguyên $\geqslant 1$.
 a) Tồn tại duy nhất một mở rộng con $K_m$ của $\Omega$ có bậc $m$ trên $K$.
@@ -112,7 +112,7 @@ Bây giờ cho L là một mở rộng con của $\Omega$, có bậc $m$ trên $
 
 Vậy ta đã chứng minh các khẳng định a) và b), còn c) là tầm thường.
 
-#### Hệ quả {#alg-v-s12-n2-cor-1 .statement}
+#### Hệ quả {#alg-v-s12-n2-cor-1 .statement tag=06QC}
 
 — *Cho $K$ là một trường hữu hạn và $\Omega$ là một mở rộng đóng đại số của $K$. Bao đóng đại số tương đối $\overline{K}$ của $K$ trong $\Omega$ gồm có () và các căn của đơn vị và là một bao đóng đại số của $K$.*
 
@@ -120,7 +120,7 @@ Ta biết $K$ là một bao đóng đại số của $K$ (V, p. 22, Ví dụ 2) 
 
 Cho $p$ là một số nguyên tố và gọi $\mathbf{F}_p = \mathbf{Z}/p\mathbf{Z}$ là trường có $p$ phần tử. Chọn một bao đóng đại số $\Omega$ của $\mathbf{F}_p$, sự tồn tại của nó suy ra từ định lý của Steinitz (V, p. 23, Th. 2). Gọi $f$ là một số nguyên dương và $q = p^f$. Theo Mệnh đề 3 tồn tại một trường con duy nhất của $\Omega$ có bậc $f$ trên $\mathbf{F}_p$; ta sẽ ký hiệu nó bởi $\mathbf{F}_q(\Omega)$ hoặc, do lạm dụng ký hiệu, bởi $\mathbf{F}_q$. Đó là trường con mở rộng duy nhất của $\Omega$ có bậc $f$ trên $\mathbf{F}_p$. Đó là trường con duy nhất của $\Omega$ có lực lượng $q$, và mọi trường có lực lượng $q$ đều đẳng cấu (không một cách chính tắc) với $\mathbf{F}_q$ (Hệ quả của Mệnh đề 2). Chú ý rằng $\mathbf{F}_q$ gồm các $x$ thuộc $\Omega$ sao cho $x^q = x$ và rằng $F, \subset \mathbf{F}_{q'}$ khi và chỉ khi $q'$ là một lũy thừa của $q$.
 
-#### Mệnh đề 4 {#alg-v-s12-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s12-prop-4 .statement tag=06QD}
 
 — *Cho $\mathbf{K}$ là một trường hữu hạn có $q$ phần tử và $\mathbf{K}_m$ là một mở rộng bậc hữu hạn $m$ của $K$.
 
@@ -158,7 +158,7 @@ $$
 
 Cho K là một trường hữu hạn có q phần tử và K là một bao đóng đại số của K. Với mọi số nguyên $m \geq 1$ ta ký hiệu bởi $K_m$ trường con duy nhất của K có bậc m trên K (Mệnh đề 3). Ta có $\overline{K} = \bigcup_{m \geq 1} K_m$. Hơn nữa ta ký hiệu bởi $\sigma_q$ tự đẳng cấu $x \mapsto x^q$ của trường hoàn hảo $\overline{K}$; nó được gọi là *tự đẳng cấu Frobenius* của K (đối với K).
 
-#### Mệnh đề 5 {#alg-v-s12-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s12-prop-5 .statement tag=06QE}
 
 — Tồn tại một đẳng cấu duy nhất của các nhóm tôpô $\pi_K : \mathbf{Z} \to \mathrm{Gal}(\bar{K}/K)$ sao cho $\pi_K(1) = \sigma_q$.
 
@@ -186,21 +186,21 @@ sao cho $\sigma(\zeta) = \zeta^j$ với $\sigma \in \mathrm{Gal}(R_n/K)$, $\zeta
 
 Hơn nữa, nếu $f$ là bậc của $R_n$ trên $K$, thì nhóm Galois của $R_n$ trên $K$ là tuần hoàn cấp $f$, sinh bởi tự đẳng cấu $\sigma_q : x \mapsto x^q$ (V, p. 95, Prop. 4). Ta lập tức có:
 
-#### Mệnh đề 6 {#alg-v-s12-prop-6 .statement}
+#### Mệnh đề 6 {#alg-v-s12-prop-6 .statement tag=06QF}
 
 — Ảnh qua $\varphi_n$ của tự đẳng cấu Frobenius $\sigma_q$ là lớp thặng dư của $q \mod n$.
 
 Vì vậy, có tính đến Mệnh đề 6 của V, p. 84 :
 
-#### Hệ quả {#alg-v-s12-n4-cor-1 .statement}
+#### Hệ quả {#alg-v-s12-n4-cor-1 .statement tag=06QG}
 
 — Bậc của $R_n$ trên $K$ là số nguyên nhỏ nhất $f \geq 1$ sao cho $q^f \equiv 1 \pmod{n}$. Để đa thức cyclotomic $\Phi_n$ là bất khả quy trên $K$ thì điều kiện cần và đủ là nhóm $(\mathbf{Z}/n\mathbf{Z})^*$ phải được sinh bởi lớp thặng dư của $q$ modulo $n$.
 
-#### Ví dụ 1 {#alg-v-s12-n4-exa-1 .statement}
+#### Ví dụ 1 {#alg-v-s12-n4-exa-1 .statement tag=06QH}
 
 Đa thức $\Phi_3(X) = X^2 + X + 1$ là bất khả quy trong $F_q[X]$ khi và chỉ khi $q \equiv 2 \pmod{3}$. Tương tự, $\Phi_4(X) = X^2 + 1$ là bất khả quy trong $F_q[X]$ khi và chỉ khi $q \equiv 3 \pmod{4}$ và đối với $\Phi_5 = X^4 + X^3 + X^2 + X + 1$, điều kiện bất khả quy được viết là $q \equiv 2,\ 3 \pmod{5}$.
 
-#### Ví dụ 2 {#alg-v-s12-n4-exa-2 .statement}
+#### Ví dụ 2 {#alg-v-s12-n4-exa-2 .statement tag=06QI}
 
 Ta có $5^2 \equiv 1 \pmod{12}$, do đó lớp thặng dư của 5 (mod 12) không sinh $(\mathbf{Z}/12\mathbf{Z})^*$. Vì vậy đa thức $\Phi_{12}(X) = X^4 - X^2 + 1$ không bất khả quy trong $F_5[X]$; thực ra ta có
 $$

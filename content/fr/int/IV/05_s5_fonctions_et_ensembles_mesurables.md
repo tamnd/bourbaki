@@ -60,14 +60,14 @@ subsections:
       pdf_page: 204
 statements: 81
 exercises: 30
-content_sha256: 771cda5e376b27ffa895b3b706fb6f4dbc807861673f3f5e6a50834884adb707
+content_sha256: f2b6d0a9b7a1bc9f5de78e9e7c9b883651040a1128d3abaa42ac57b3a1c8ec31
 ---
 
 ## § 5. Fonctions et ensembles mesurables
 
 ### 1. Définition des fonctions et ensembles mesurables
 
-#### Définition 1 {#int-iv-s5-def-1 .statement}
+#### Définition 1 {#int-iv-s5-def-1 .statement tag=08UC}
 
 Soient X un espace localement compact, $\mu$ une mesure sur X. On dit qu’une application f de X dans un espace topologique F est mesurable pour la mesure $\mu$ (ou encore $\mu$-mesurable) si, pour toute partie compacte K de X, il existe un ensemble $\mu$-négligeable N $\subset K$ et une partition de $K - N$ formée d’une suite (finie ou infinie) $(K_n)$ d’ensembles compacts, tels que la restriction de f à chacun des $K_n$ soit continue.
 
@@ -77,13 +77,13 @@ On notera que si $\mu$ et $\nu$ sont deux mesures sur X telles que tout ensemble
 
 La déf. 1 se transforme en le critère suivant:
 
-#### Proposition 1 {#int-iv-s5-prop-1 .statement}
+#### Proposition 1 {#int-iv-s5-prop-1 .statement tag=08UD}
 
 Pour qu’une application f de X dans F soit mesurable, il faut et il suffit que, pour tout ensemble compact K $\subset X$ et tout nombre $\varepsilon > 0$, il existe un ensemble compact $K_1 \subset K$, tel que $|\mu|(K - K_1) \leq \varepsilon$, et que la restriction de f à $K_1$ soit continue.
 
 En effet, si cette condition est remplie, on peut définir par récurrence une suite d’ensembles compacts $K_n \subset K$, deux à deux sans point commun, tels que $|\mu|\left(K - \left( \bigcup_{i=1}^n K_i \right)\right) \leq 1/n$, et que la restriction de f à chacun des $K_n$ soit continue; le complémentaire par rapport à K de la réunion des $K_n$ est alors négligeable (§ 4, n° 5, cor. de la prop. 7), donc f est mesurable. Inversement, supposons qu’il existe un ensemble négligeable N $\subset K$ et une partition $(K_n)$ de $K - N$ formée d’ensembles compacts tels que la restriction de f à chacun des $K_n$ soit continue; pour tout $\varepsilon > 0$, il existe un entier $n$ tel que, si $H = \bigcup_{i=1}^n K_i$, on ait $|\mu|(K - H) \leq \varepsilon$ (§ 4, n° 5, cor. de la prop. 7); l’ensemble $H$ est compact, les $K_i$ ($1 \leq i \leq n$) forment une partition finie de $H$ en ensembles compacts et la restriction de $f$ à chacun des $K_i$ est continue; donc la restriction de $f$ à $H$ est continue.
 
-#### Proposition 2 {#int-iv-s5-prop-2 .statement}
+#### Proposition 2 {#int-iv-s5-prop-2 .statement tag=08UE}
 
 *Soit* $(F_n)$ *une suite d’espaces topologiques, et pour chaque* $n$, *soit* $f_n$ *une application mesurable de* $X$ *dans* $F_n$. *Pour tout ensemble compact* $K \subset X$ *et tout* $\varepsilon > 0$, *il existe un ensemble compact* $K_0 \subset K$ *tel que* $|\mu|(K - K_0) \leq \varepsilon$, *et que la restriction à* $K_0$ *de chacune des fonctions* $f_n$ *soit continue*.
 
@@ -93,7 +93,7 @@ $$
 |\mu|(K - K_0) \leq \sum_{n=1}^\infty \frac{\varepsilon}{2^n} = \varepsilon.
 $$
 
-#### Définition 2 {#int-iv-s5-def-2 .statement}
+#### Définition 2 {#int-iv-s5-def-2 .statement tag=08UF}
 
 *On dit qu’une partie* $A$ *de* $X$ *est mesurable si sa fonction caractéristique* $\varphi_A$ *est mesurable*.
 
@@ -101,19 +101,19 @@ En vertu de la déf. 1, il revient au même de dire qu’un ensemble mesurable $
 
 Cette définition donne aussitôt le critère suivant:
 
-#### Proposition 3 {#int-iv-s5-prop-3 .statement}
+#### Proposition 3 {#int-iv-s5-prop-3 .statement tag=08UG}
 
 *Pour qu’un ensemble* $A$ *soit mesurable, il faut et il suffit que, pour tout ensemble compact* $K$, $A \cap K$ *soit intégrable*.
 
 La condition est nécessaire parce que la réunion d’une suite d’ensembles intégrables $A_n$ est intégrable lorsque $\sum_n |\mu|(A_n)$ est finie (§ 4, n° 5, cor. de la prop. 8). La condition est suffisante parce que, pour tout ensemble intégrable $B$, il existe un ensemble négligeable $N \subset B$ et une partition de $B - N$ en une suite d’ensembles compacts ($§ 4$, n° 6, cor. 2 du th. 4).
 
-#### Corollaire 1 {#int-iv-s5-prop-3-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s5-prop-3-cor-1 .statement tag=08UH}
 
 Les ensembles ouverts et les ensembles fermés sont mesurables.
 
 En particulier l’espace $X$ tout entier est mesurable.
 
-#### Corollaire 2 {#int-iv-s5-prop-3-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s5-prop-3-cor-2 .statement tag=08UI}
 
 Si $X$ est métrisable, tout sous-ensemble souslinien $A$ de $X$ (Top. gén., chap. IX, 2e éd., § 6, n° 2) est $\mu$-mesurable pour toute mesure $\mu$ sur $X$.
 
@@ -127,7 +127,7 @@ Alors $|\mu|^*(U - K) = |\mu|(U) - |\mu|(K) \leq 2\varepsilon$, donc $|\mu|^*(A 
 
 ### 2. Principe de localisation. Ensembles localement négligeables
 
-#### Proposition 4 (principe de localisation) {#int-iv-s5-prop-4 .statement}
+#### Proposition 4 (principe de localisation) {#int-iv-s5-prop-4 .statement tag=08UJ}
 
 Soit $f$ une application de $X$ dans un espace topologique $F$. On suppose que pour tout $x \in X$, il existe un voisinage intégrable $V_x$ de $x$, et une application mesurable $g_x$ de $X$ dans $F$ telle que $f(y) = g_x(y)$ presque partout dans $V_x$. Alors $f$ est mesurable.
 
@@ -135,31 +135,31 @@ En effet, soit $K$ un ensemble compact ; il existe un nombre fini de points $x_i
 
 La notion de fonction mesurable est donc une notion de caractère local.
 
-#### Définition 3 {#int-iv-s5-def-3 .statement}
+#### Définition 3 {#int-iv-s5-def-3 .statement tag=08UK}
 
 On dit qu’un ensemble $A \subset X$ est localement négligeable (pour la mesure $\mu$) si, pour tout $x \in X$, il existe un voisinage $V$ de $x$ tel que $V \cap A$ soit négligeable.
 
 En vertu du principe de localisation, tout ensemble localement négligeable est mesurable. Les propriétés des ensembles négligeables (§ 2) montrent que toute partie d'un ensemble localement négligeable est localement négligeable, et que toute réunion dénombrable d'ensembles localement négligeables est localement négligeable.
 
-#### Proposition 5 {#int-iv-s5-prop-5 .statement}
+#### Proposition 5 {#int-iv-s5-prop-5 .statement tag=08UL}
 
 Pour qu'un ensemble $A$ soit localement négligeable, il faut et il suffit que, pour tout ensemble compact $K$, $A \cap K$ soit négligeable.
 
 La condition est évidemment suffisante puisque tout point de $X$ a un voisinage compact. Elle est nécessaire, car si, pour tout $x \in K$, il existe un voisinage $V_x$ de $x$ tel que $A \cap V_x$ soit négligeable, alors il existe un nombre fini de points $x_i \in K$ tels que les $V_{x_i}$ forment un recouvrement de $K$, et $A \cap K$ est contenu dans la réunion des ensembles négligeables $A \cap V_{x_i}$.
 
-#### Corollaire 1 {#int-iv-s5-prop-5-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s5-prop-5-cor-1 .statement tag=08UM}
 
 Pour qu'un ensemble $A$ soit négligeable, il faut et il suffit qu'il soit localement négligeable et de mesure extérieure finie.
 
 La condition est évidemment nécessaire. Inversement, si elle est vérifiée, $A$ est contenu dans un ensemble ouvert intégrable $G$, réunion d'un ensemble négligeable $N$ et d'une suite $(K_n)$ d'ensembles compacts (§ 4, n° 6, cor. 2 du th. 4); comme $A \cap N$ et les ensembles $A \cap K_n$ sont négligeables, il en est de même de leur réunion $A$.
 
-#### Corollaire 2 {#int-iv-s5-prop-5-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s5-prop-5-cor-2 .statement tag=08UN}
 
 Tout ensemble ouvert localement négligeable est négligeable (et par suite contenu dans le complémentaire du support de $\mu$).
 
 En effet, la mesure extérieure d’un ensemble ouvert G est la borne supérieure des mesures $|\mu|(K)$ des ensembles compacts $K \subset G$ (§ 4, n° 6, cor. 4 du th. 4); si G est localement négligeable, on a $|\mu|(K) = 0$ pour tout ensemble compact K contenu dans G, donc $|\mu|^*(G) = 0$.
 
-#### Corollaire 3 {#int-iv-s5-prop-5-cor-3 .statement}
+#### Corollaire 3 {#int-iv-s5-prop-5-cor-3 .statement tag=08UO}
 
 Dans un espace localement compact X dénombrable à l’infini, tout ensemble localement négligeable est négligeable.
 
@@ -167,7 +167,7 @@ En effet, X étant réunion d’une suite $(K_n)$ d’ensembles compacts, tout e
 
 On peut donner des exemples d’espaces localement compacts non dénombrables à l’infini, et de mesures sur un tel espace X, tels qu’il existe dans X des ensembles localement négligeables et non négligeables (§ 1, exerc. 5).
 
-#### Corollaire 4 {#int-iv-s5-prop-5-cor-4 .statement}
+#### Corollaire 4 {#int-iv-s5-prop-5-cor-4 .statement tag=08UP}
 
 Soit f une application de X dans un espace topologique F. Si l’ensemble N des points de discontinuité de f est localement négligeable, f est mesurable.
 
@@ -175,13 +175,13 @@ En effet, pour tout ensemble compact $K \subset X$, $K \cap N$ est négligeable 
 
 Si $P\{x\}$ est une propriété, la propriété « $P\{x\}$ localement presque partout (par rapport à $\mu$) » est par définition équivalente à la propriété « l’ensemble des x tels que $(x \in X$ et non $P\{x\})$ est localement négligeable (pour la mesure $\mu$) ». Si F est un ensemble quelconque, la relation « $f(x) = g(x)$ localement presque partout » est une relation d’équivalence dans l’ensemble des applications de X dans F. En particulier, si F est un espace vectoriel, une application $f$ de X dans F telle que $f(x) = 0$ localement presque partout est dite localement négligeable. Nous-laissons au lecteur le soin d’établir pour ces notions la plupart des propriétés correspondant à celles qui ont été énumérées au § 2, n°s 4, 5 et 6 pour les fonctions égales presque partout. Nous nous bornerons à remarquer que si deux applications continues $f, g$ de X dans un espace topologique séparé F sont égales localement presque partout, elles sont égales presque partout en vertu du cor. 2 de la prop. 5 (et par suite égales en tout point du support de $\mu$ ($§ 2, n^o\ 4,$ prop. 9)); d’autre part, nous expliciterons la proposition suivante, conséquence immédiate du principe de localisation:
 
-#### Proposition 6 {#int-iv-s5-prop-6 .statement}
+#### Proposition 6 {#int-iv-s5-prop-6 .statement tag=08UQ}
 
 *Soit f une application mesurable de X dans un espace topologique F. Toute application de X dans F, égale à f localement presque partout, est mesurable.*
 
 ### 3. Propriétés élémentaires des fonctions mesurables
 
-#### Théorème 1 {#int-iv-s5-thm-1 .statement}
+#### Théorème 1 {#int-iv-s5-thm-1 .statement tag=08UR}
 
 *Soient X un espace localement compact, $\mu$ une mesure sur X, $(F_n)$ une suite d’espaces topologiques, $F = \prod_n F_n$ leur produit. Pour chaque indice n, soit $f_n$ une application mesurable de X dans $F_n$, et soit $f(x) = (f_n(x)) \in F$; pour toute application continue u de $f(X)$ dans un espace topologique G, la fonction $x \to u(f(x))$ est mesurable.
 
@@ -191,49 +191,49 @@ $$
 $$
 et que les restrictions à $K_1$ de toutes les fonctions $f_n$ soient continues (n° 1, prop. 2); il est clair que $u \circ f$ est continue dans $K_1$, d’où le théorème.
 
-#### Remarque 1 {#int-iv-s5-n3-rem-1 .statement}
+#### Remarque 1 {#int-iv-s5-n3-rem-1 .statement tag=08US}
 
 Le théorème ne s’étend pas à un produit quelconque d’espaces topologiques (exerc. 1).
 
-#### Remarque 2 {#int-iv-s5-n3-rem-2 .statement}
+#### Remarque 2 {#int-iv-s5-n3-rem-2 .statement tag=0E67}
 
 Si f est une application continue de X dans lui-même, g une application mesurable de X dans F, $g \circ f$ n’est pas nécessairement mesurable (exerc. 2).
 
-#### Corollaire 1 {#int-iv-s5-thm-1-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s5-thm-1-cor-1 .statement tag=08UT}
 
 *L’enveloppe supérieure et l’enveloppe inférieure d’un nombre fini de fonctions numériques mesurables (finies ou non) est mesurable.
 
 En effet, $\sup(u, v)$ et $\inf(u, v)$ sont continues dans $\bar{\mathbf{R}} \times \bar{\mathbf{R}}$.
 
-#### Corollaire 2 {#int-iv-s5-thm-1-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s5-thm-1-cor-2 .statement tag=08UU}
 
 *Pour qu’une fonction numérique (finie ou non) soit mesurable, il faut et il suffit que $f^+$ et $f^-$ le soient.
 
 La condition est nécessaire d’après le cor. 1; elle est suffisante parce que l’image A de X par l’application $x \mapsto (f^+(x), f^-(x))$ dans $\bar{\mathbf{R}} \times \bar{\mathbf{R}}$ ne contient pas les points $(+\infty, +\infty)$ et $(-\infty, -\infty)$; par suite, l’application $(u, v) \mapsto u - v$ est continue dans A.*
 
-#### Corollaire 3 {#int-iv-s5-thm-1-cor-3 .statement}
+#### Corollaire 3 {#int-iv-s5-thm-1-cor-3 .statement tag=08UV}
 
 Si $f$ et $g$ sont deux applications mesurables de $X$ dans un espace vectoriel topologique $F$, $f + g$ et $\alpha f$ sont mesurables ($\alpha$ scalaire quelconque).
 
 L’ensemble des applications mesurables de $X$ dans un espace vectoriel topologique $F$ est donc un espace vectoriel.
 
-#### Corollaire 4 {#int-iv-s5-thm-1-cor-4 .statement}
+#### Corollaire 4 {#int-iv-s5-thm-1-cor-4 .statement tag=08UW}
 
 Soit $F$ un espace vectoriel de dimension $n$ sur $\mathbf{R}$, et soit $(e_k)_{1 \leq k \leq n}$ une base de $F$. Pour qu’une fonction $f = \sum_{k=1}^n e_k f_k$ soit mesurable, il faut et il suffit que chacune des fonctions numériques $f_k$ soit mesurable.
 
-#### Corollaire 5 {#int-iv-s5-thm-1-cor-5 .statement}
+#### Corollaire 5 {#int-iv-s5-thm-1-cor-5 .statement tag=08UX}
 
 Soient $F$, $G$, $H$ trois espaces vectoriels topologiques et soit $(u, v) \mapsto [u . v]$ une application bilinéaire continue de $F \times G$ dans $H$. Si $f$ est une application mesurable de $X$ dans $F$, $g$ une application mesurable de $X$ dans $G$, $[f . g]$ est une application mesurable de $X$ dans $H$.
 
 En particulier, si $f$ est une application mesurable de $X$ dans un espace normé $F$ réel (resp. complexe) et $g$ une application mesurable de $X$ dans $\mathbf{R}$ (resp. $\mathbf{C}$), $gf$ est mesurable. Si $F$ est une algèbre normée, $f$ et $g$ deux applications mesurables de $X$ dans $F$, $fg$ est mesurable.
 
-#### Corollaire 6 {#int-iv-s5-thm-1-cor-6 .statement}
+#### Corollaire 6 {#int-iv-s5-thm-1-cor-6 .statement tag=08UY}
 
 Si $f$ est une application mesurable de $X$ dans un espace normé $F$, la fonction numérique $|f|$ est mesurable.
 
 ### 4. Limites de fonctions mesurables
 
-#### Théorème 2 (Egoroff) {#int-iv-s5-thm-2 .statement}
+#### Théorème 2 (Egoroff) {#int-iv-s5-thm-2 .statement tag=08UZ}
 
 Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$, $A$ un ensemble dénombrable, $\mathfrak{F}$ un filtre sur $A$ ayant une base dénombrable, $(f_\alpha)_{\alpha \in A}$ une famille d’applications mesurables de $X$ dans un espace métrisable $F$. On suppose que $\lim_{\mathfrak{F}} f_\alpha(x) = f(x)$ existe dans le complémentaire d’une partie localement négligeable $N$ de $X$. Dans ces conditions :
 1° la fonction $f$ (prolongée de façon arbitraire dans $N$) est mesurable ;
@@ -247,13 +247,13 @@ $$
 
 Les conclusions du th. 2 ne subsistent plus nécessairement si $F$ n’est pas métrisable (exerc. 1). Si $F$ est métrisable et si l’ensemble $A$ n’est pas dénombrable, mais si le filtre $\mathscr{F}$ possède une base dénombrable, la première conclusion du th. 2 est encore valable; en effet, si $(A_n)$ est une base dénombrable de $\mathscr{F}$, et $\alpha_n$ un élément de $A_n$, $f$ est limite localement presque partout de la suite $(f_{\alpha_n})$, donc est mesurable; mais la seconde conclusion du th. 2 n’est plus nécessairement valable (cf. exerc. 4).
 
-#### Corollaire 1 {#int-iv-s5-thm-2-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s5-thm-2-cor-1 .statement tag=08V0}
 
 Soit $(f_n)$ une suite de fonctions numériques (finies ou non). Si les $f_n$ sont mesurables, les fonctions $\sup_n f_n$, $\inf_n f_n$, $\limsup_n f_n$, $\liminf_n f_n$, sont mesurables.
 
 En effet, la droite achevée $\bar{\mathbf{R}}$, homéomorphe à un intervalle compact de $\mathbf{R}$, est métrisable. La fonction $\sup f_n$ est limite simple de la suite croissante des fonctions $g_n = \sup^n (f_1, f_2, \ldots, f_n)$, qui sont mesurables (n° 3, cor. 1 du th. 1); de même, $\lim_{n \to \infty} \sup f_n$ est limite simple de la suite décroissante des fonctions $h_n = \sup_{p \geq 0} f_{n+p}$, dont chacune est mesurable d’après ce qui précède. Enfin, comme $\inf f_n = -\sup(-f_n)$ et $\liminf f_n = -\limsup(-f_n)$, ces fonctions sont mesurables.
 
-#### Corollaire 2 {#int-iv-s5-thm-2-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s5-thm-2-cor-2 .statement tag=08V1}
 
 Les ensembles mesurables dans X forment une tribu (Top. gén., chap. IX, 2e éd., § 6, n° 3).
 En effet, si M et N sont mesurables,
@@ -266,7 +266,7 @@ et $\varphi_{M \cap N} = \varphi_M - \varphi_M \varphi_N$ sont mesurables en ver
 
 En particulier, comme les ensembles ouverts sont mesurables :
 
-#### Corollaire 3 {#int-iv-s5-thm-2-cor-3 .statement}
+#### Corollaire 3 {#int-iv-s5-thm-2-cor-3 .statement tag=08V2}
 
 Les ensembles boréliens dans X (Top. gén., chap. IX, 2e éd., § 6, n° 3, déf. 4) sont $\mu$-mesurables pour toute mesure $\mu$ sur X.
 
@@ -274,31 +274,31 @@ Les ensembles boréliens dans X (Top. gén., chap. IX, 2e éd., § 6, n° 3, dé
 
 Lorsque F est un espace vectoriel topologique, toute fonction étagée sur les ensembles mesurables ($§ 4$, n° 9, déf. 4), à valeurs dans F, est évidemment mesurable (n° 3, cor. 3 du th. 1); une telle fonction $f$ ne prend qu’un nombre fini de valeurs, et pour tout $y \in F$, $\overline{f^{-1}}(y)$ est mesurable. Plus généralement, soient F un espace topologique quelconque, $f$ une application de X dans F ne prenant qu’un nombre fini de valeurs distinctes $a_i$ ($1 \leq i \leq m$); si les ensembles $A_i = \overline{f^{-1}}(a_i)$ sont mesurables, la fonction $f$ est mesurable. En effet, pour tout ensemble compact K, et pour chacun des ensembles $A_i \cap K$, il existe un ensemble négligeable $N_i \subset A_i \cap K$ et une partition de $A_i \cap K \cap \mathbf{C} N_i$ formée d’une suite $(K_{in})$ d’ensembles compacts ; comme K est la réunion des ensembles $A_i \cap K$, et que la restriction de $f$ à chacun des $K_{in}$ est constante, donc continue, $f$ est mesurable. Par abus de langage, nous dirons qu’une application $f$ de $X$ dans $F$ est une fonction étagée mesurable si elle ne prend qu’un nombre fini de valeurs et si, pour tout $y \in F$, $f^{-1}(y)$ est mesurable.
 
-#### Théorème 3 {#int-iv-s5-thm-3 .statement}
+#### Théorème 3 {#int-iv-s5-thm-3 .statement tag=08V3}
 
 *Pour qu’une application $f$ de $X$ dans un espace métrisable $F$ soit mesurable, il faut et il suffit que, pour tout ensemble compact $K \subset X$, il existe une suite $(g_n)$ de fonctions étagées mesurables, à valeurs dans $F$, telle que $g_n(x)$ tende vers $f(x)$ pour presque tout $x \in K$.*
 
 La condition est suffisante, en raison du th. d’Egoroff et du principe de localisation. Montrons qu’elle est nécessaire : par hypothèse, il existe un ensemble négligeable $N \subset K$ et une partition $(K_m)$ de $K - N$ formée d’ensembles compacts tels que la restriction de $f$ à chacun des $K_m$ soit continue. Pour définir la suite $(g_n)$, il suffit de procéder de la façon suivante : soit $d$ une distance compatible avec la topologie de $F$; pour chaque $K_i$ d’indice $i \leq n$, il existe une partition finie de $K_i$ en ensembles intégrables assez petits $A_{ij}$ ($1 \leq j \leq q_i$) tels que l’oscillation de $f$ dans chacun des $A_{ij}$ soit $\leq 1/n$ (§ 4, n° 9, lemme 1); on prendra $g_n$ constante dans chacun des $A_{ij}$ et égale à une des valeurs de $f$ dans cet ensemble (pour $1 \leq i \leq n, 1 \leq j \leq q_i$), et égale à un élément fixe $a \in F$ pour tout point de $X$ n’appartenant à aucun des $A_{ij}$. Il est clair que la suite $(g_n(x))$ converge vers $f(x)$ en tout point de $K$ n’appartenant pas à $N$.
 
-#### Corollaire 1 {#int-iv-s5-thm-3-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s5-thm-3-cor-1 .statement tag=08V4}
 
 *Soit $f$ une application mesurable de $X$ dans un espace de Banach $F$; pour tout ensemble compact $K \subset X$, il existe une suite $(g_n)$ de fonctions étagées mesurables, de support contenu dans $K$, telles que $|g_n(x)| \leq |f(x)|$ pour tout $x \in X$ et que $g_n(x)$ tende vers $f(x)$ pour presque tout $x \in K$.*
 
 Avec les notations de la démonstration du th. 3, et en désignant par $a_{ij}$ une des valeurs de $f$ dans $A_{ij}$, il suffira de prendre pour valeur de $g_n$ dans $A_{ij}$, le point 0 si $|a_{ij}| \leq 1/n$, et le point $a_{ij}(1 - 1/(n|a_{ij}|))$ dans le cas contraire; enfin, on prendra $g_n(x) = 0$ dans le complémentaire de la réunion des $A_{ij} (1 \leq i \leq n, 1 \leq j \leq q_i)$.
 
-#### Corollaire 2 {#int-iv-s5-thm-3-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s5-thm-3-cor-2 .statement tag=08V5}
 
 Soit X un espace localement compact dénombrable à l’infini. Si f est une application mesurable de X dans un espace métrisable F, il existe une suite $(g_n)$ de fonctions étagées mesurables, à valeurs dans F, telle que $g_n(x)$ tende vers $f(x)$ pour presque tout $x \in X$.
 
 En effet, si X est réunion d’une suite croissante $(A_n)$ d’ensembles compacts, les ensembles $A_n - A_{n-1}$ non vides forment une partition de X en ensembles intégrables ; il existe par suite un ensemble négligeable $N \subset X$ et une partition de $\mathbf{C}N$ formée d’une suite $(K_n)$ d’ensembles compacts, tels que la restriction de $f$ à chacun des $K_n$ soit continue ; la démonstration du th. 3 peut alors se terminer sans modification.
 
-#### Proposition 7 {#int-iv-s5-prop-7 .statement}
+#### Proposition 7 {#int-iv-s5-prop-7 .statement tag=08V6}
 
 Soit f une application mesurable de X dans un espace topologique F ; l’image réciproque par f de tout ensemble fermé (resp. ouvert) dans F est mesurable.
 
 Il suffit de faire la démonstration pour l’image réciproque $\bar{f}^{-1}(A)$ d’un ensemble A fermé dans F. Soit K une partie compacte de X ; il existe un ensemble négligeable $N \subset K$ et une partition $(K_n)$ de $K - N$ formée d’ensembles compacts tels que la restriction de $f$ à chacun des $K_n$ soit continue. L’intersection $K_n \cap \bar{f}^{-1}(A)$ est donc l’image réciproque de l’ensemble fermé A par la restriction de $f$ à $K_n$ ; c’est par suite un ensemble fermé dans $K_n$, donc compact. L’ensemble $K \cap \bar{f}^{-1}(A)$ est donc réunion de l’ensemble négligeable $N \cap \bar{f}^{-1}(A)$ et des ensembles compacts $K_n \cap \bar{f}^{-1}(A)$, ce qui prouve que $\bar{f}^{-1}(A)$ est mesurable.
 
-#### Théorème 4 {#int-iv-s5-thm-4 .statement}
+#### Théorème 4 {#int-iv-s5-thm-4 .statement tag=08V7}
 
 Soit F un espace métrisable, et soit d une distance sur F compatible avec la topologie. Pour qu’une application f de X dans F soit mesurable, il faut et il suffit qu’elle vérifie les deux conditions suivantes :
 
@@ -310,21 +310,21 @@ La condition a) est nécessaire en vertu de la prop. 7 ; d’autre part, avec le
 
 Montrons maintenant que les conditions a) et b) sont suffisantes. Soit K une partie compacte quelconque de X; il existe une partie négligeable N de K telle que $f(K - N)$ soit contenu dans l’adhérence d’un ensemble dénombrable de points de F, que nous rangerons en une suite $(a_n)$. Soit $A_{n,p}$ l’ensemble des $x \in K - N$ tels que $d(f(x), a_n) \leq 1/p$. Il résulte de la condition a) que $A_{n,p}$ est mesurable. Pour $p$ fixé, définissons par récurrence une suite d’ensembles $B_{n,p} \subset K - N$ en posant $B_{1,p} = A_{1,p}$ et $B_{n+1,p} = A_{n+1,p} \cap \bigcap_{k \leq n} C(\bigcup_k A_{k,p})$; les $B_{n,p}$ sont mesurables et ceux qui ne sont pas vides forment une partition de $K - N$. Soit $g_{m,p}$ la fonction égale à $a_i$ dans l’ensemble $B_{i,p}$ pour $1 \leq i \leq m$, et égale à une constante $b \in F$ dans le complémentaire de la réunion de ces ensembles ; $g_{m,p}$ est une fonction étagée mesurable ; lorsque $m$ croît indéfiniment, $g_{m,p}$ converge simplement vers la fonction $f_p$ égale à $a_n$ dans $B_{n,p}$ ($n \geq 1$) et à $b$ dans $N \cup C K$, donc (th. 2) $f_p$ est mesurable. Lorsque $p$ croît indéfiniment, $f_p(x)$ tend vers $f(x)$ pour tout $x \in K - N$, et vers $b$ pour $x \in N \cup C K$; la limite des $f_p$ est donc mesurable, et le principe de localisation prouve que $f$ elle-même est mesurable.
 
-#### Remarque 1 {#int-iv-s5-n5-rem-1 .statement}
+#### Remarque 1 {#int-iv-s5-n5-rem-1 .statement tag=08V8}
 
 La condition a) seule ne suffit pas pour que $f$ soit mesurable (exerc. 7).
 
-#### Remarque 2 {#int-iv-s5-n5-rem-2 .statement}
+#### Remarque 2 {#int-iv-s5-n5-rem-2 .statement tag=08V9}
 
 Si la topologie de F admet une base dénombrable, la condition b) du th. 4 est automatiquement remplie pour toute application de X dans F. La démonstration prouve en outre qu’il suffit de supposer que les images réciproques par $f$ des boules fermées de rayon rationnel, dont le centre appartient à un ensemble dénombrable partout dense dans F, sont des ensembles mesurables.
 
-#### Remarque 3 {#int-iv-s5-n5-rem-3 .statement}
+#### Remarque 3 {#int-iv-s5-n5-rem-3 .statement tag=08VA}
 
 On peut remplacer l’hypothèse a) par la condition que l’image réciproque par $f$ de toute boule ouverte de F est mesurable.
 
 Le cas des fonctions numériques (finies ou non) mérite une mention particulière :
 
-#### Proposition 8 {#int-iv-s5-prop-8 .statement}
+#### Proposition 8 {#int-iv-s5-prop-8 .statement tag=08VB}
 
 Soit D un ensemble dénombrable partout dense dans $\mathbf{R}$. Pour qu’une fonction numérique (finie ou non) $f$ soit mesurable, il suffit (et il faut) que pour tout $a \in D$, l’ensemble des $x \in X$ tels que $f(x) \geq a$ soit mesurable.
 
@@ -332,7 +332,7 @@ En effet, s’il en est ainsi, pour tout $b \in \bar{\mathbf{R}}$, l’ensemble 
 
 On montrerait de même qu’il suffit que pour tout $a \in D$, l’ensemble des $x$ tels que $f(x) > a$ soit mesurable.
 
-#### Corollaire {#int-iv-s5-n5-cor-1 .statement}
+#### Corollaire {#int-iv-s5-n5-cor-1 .statement tag=08VC}
 
 *Toute fonction semi-continue inférieurement* (resp. *supérieurement*) *est mesurable*.
 
@@ -340,13 +340,13 @@ En effet, si $f$ est semi-continue inférieurement, l’ensemble des $x \in X^-$
 
 La prop. 7 permet de préciser comme suit le th. 3 lorsque F est métrisable et *compact* :
 
-#### Proposition 9 {#int-iv-s5-prop-9 .statement}
+#### Proposition 9 {#int-iv-s5-prop-9 .statement tag=08VD}
 
 *Si F est un espace métrisable et compact, toute application mesurable f de X dans F est limite uniforme (dans X tout entier) d’une suite de fonctions étagées mesurables*.
 
 Soit $d$ une distance compatible avec la topologie de F. Pour tout entier $n$, il existe un nombre *fini* de points $a_k \in F$ tels que les boules fermées $B_k$ de centre $a_k$ et de rayon $1/n$ forment un recouvrement de F ; les ensembles $A_k = f^{-1}(B_k)$ sont donc mesurables (prop. 7), et forment un recouvrement de X. Il existe par suite (§ 4, n° 9, lemme 1) une partition $(C_i)$ de X en un nombre fini d’ensembles mesurables telle que chacun des $A_h$ soit réunion d’un nombre fini des $C_i$. Soient $c_i$ un point de $C_i$, et $g_n$ la fonction étagée mesurable égale à $f(c_i)$ dans $C_i$ (pour chaque indice i). Il est clair que $d(f(x), g_n(x)) \leq 2/n$ pour tout $x \in X$.
 
-#### Proposition 10 {#int-iv-s5-prop-10 .statement}
+#### Proposition 10 {#int-iv-s5-prop-10 .statement tag=08VE}
 
 *Soient F un espace de Banach de type dénombrable, F' son dual, $(\mathbf{a}'_n)$ une suite faiblement dense dans la boule unité de F' (Esp.-vect.-top., chap.-IV,-§ 5; n° 1, prop.-2). Pour qu’une application f de X dans F soit mesurable, il faut et il suffit que pour tout n la fonction scalaire $x \mapsto \langle \mathbf{f}(x), \mathbf{a}'_n \rangle$ soit mesurable*.
 
@@ -360,7 +360,7 @@ $$
 $$
 comme ces ensembles sont mesurables par hypothèse, A est mesurable.
 
-#### Corollaire 1 {#int-iv-s5-prop-10-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s5-prop-10-cor-1 .statement tag=08VF}
 
 Soit F un espace de Banach. Pour qu’une application $f$ de X dans F soit mesurable, il faut et il suffit qu’elle vérifie les deux conditions suivantes:
 a) pour tout $a' \in F'$, la fonction scalaire $x \mapsto \langle f(x), a' \rangle$ est mesurable;
@@ -368,13 +368,13 @@ b) pour tout ensemble compact $K \subset X$, il existe une partie dénombrable $
 
 La nécessité des conditions résulte du n° 3, th. 1 et du th. 4. Pour prouver que les conditions sont suffisantes, il suffit encore de vérifier la condition a) du th. 4. Avec les mêmes notations que dans la démonstration de la prop. 10, on peut (en vertu de b)) supposer, en modifiant au besoin $f$ dans un ensemble négligeable, que l’on a $f(K) \subset \overline{H}$, où $H$ est une partie dénombrable de F. Si V est le sous-espace vectoriel fermé de F engendré par l’ensemble $H \cup \{a\}$, V est un espace de Banach de type dénombrable et toute forme linéaire continue dans V est la restriction d’une forme $a' \in F'$; le même raisonnement que dans la prop. 10 montre alors que $K \cap f^{-1}(B)$ est mesurable.
 
-#### Corollaire 2 {#int-iv-s5-prop-10-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s5-prop-10-cor-2 .statement tag=08VG}
 
 Soient F un espace localement convexe métrisable de type dénombrable, $F'$ son dual. Pour qu’une application $f$ de X dans F soit mesurable, il faut et il suffit que pour tout $a' \in F'$, la fonction scalaire $x \mapsto \langle f(x), a' \rangle$ soit mesurable.
 
 En effet, F peut être considéré comme un sous-espace d’un produit dénombrable $\prod_n E_n$ d’espaces de Banach (Esp. vect. top., chap. II, 2e éd., § 4, n° 3), et l’on peut supposer que $\mathrm{pr}_n(F)$ est dense dans $E_n$, qui est donc de type dénombrable. Pour tout $n$, l’application $\mathrm{pr}_n \circ f$ est alors mesurable en vertu de la prop. 10, donc $f$ est mesurable en vertu du n° 3, th. 1.
 
-#### Proposition 11 {#int-iv-s5-prop-11 .statement}
+#### Proposition 11 {#int-iv-s5-prop-11 .statement tag=08VH}
 
 Soit F un espace localement convexe, limite inductive d’une suite d’espaces localement convexes métrisables $F_n$ de type dénombrable, F étant réunion des $F_n$. Soit $F'$ le dual de F muni de la topologie faible $\sigma(F', F)$. Pour qu’une application $f$ de X dans $F'$ soit mesurable, il faut et il suffit que, pour tout $a \in F$, la fonction scalaire $x \mapsto \langle a, f(x) \rangle$ soit mesurable.
 
@@ -384,7 +384,7 @@ Passons au cas général. Si $z'$ est une forme linéaire continue sur F, sa res
 
 ### 6. Critères d’intégrabilité
 
-#### Théorème 5 {#int-iv-s5-thm-5 .statement}
+#### Théorème 5 {#int-iv-s5-thm-5 .statement tag=08VI}
 
 Pour qu’une application $f$ de $X$ dans un espace de Banach $F$ soit de puissance $p$-ième intégrable ($1 \leq p < +\infty$), il faut et il suffit que $f$ soit mesurable et que $N_p(f)$ soit finie.
 
@@ -392,7 +392,7 @@ La condition est nécessaire : en effet, si $f \in \mathscr{L}_F^p$, il existe u
 
 Pour prouver que les conditions sont suffisantes, nous établirons d’abord un lemme :
 
-#### Lemme 1 {#int-iv-s5-lem-1 .statement}
+#### Lemme 1 {#int-iv-s5-lem-1 .statement tag=08VJ}
 
 Soit $g$ une fonction à valeurs dans $F$, telle que $N_p(g) < +\infty$ (autrement dit, une fonction de $\mathscr{F}_F^p$). L’ensemble $A$ de points $x \in X$ tels que $g(x) \neq 0$ est contenu dans la réunion d’un ensemble négligeable et d’une suite d’ensembles compacts.
 
@@ -410,17 +410,17 @@ Dans le cas général, il résulte du lemme 1 qu’il existe une suite croissant
 
 On aura soin de noter qu’une fonction localement négligeable mais non négligeable n’est pas intégrable; une fonction égale localement presque partout à une fonction intégrable n’est donc pas nécessairement intégrable.
 
-#### Corollaire 1 {#int-iv-s5-lem-1-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s5-lem-1-cor-1 .statement tag=08VK}
 
 Pour qu’un ensemble soit intégrable, il faut et il suffit qu’il soit mesurable et de mesure extérieure finie.
 
-#### Corollaire 2 {#int-iv-s5-lem-1-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s5-lem-1-cor-2 .statement tag=08VL}
 
 Soit $(\mathbf{F}_n)$ une suite d’espaces topologiques; pour chaque indice $n$, soit $f_n$ une application mesurable de $X$ dans $\mathbf{F}_n$, et soit $f(x) = (f_n(x)) \in F = \prod_n \mathbf{F}_n$; soit enfin $\mathbf{u}$ une application continue de $f(X)$ dans un espace de Banach $G$. Pour que la fonction $g(x) = \mathbf{u}(f(x))$ soit intégrable, il faut et il suffit que $N_1(g) < +\infty$.
 
 En effet, $g$ est mesurable (n° 3, th. 1).
 
-#### Corollaire 3 {#int-iv-s5-lem-1-cor-3 .statement}
+#### Corollaire 3 {#int-iv-s5-lem-1-cor-3 .statement tag=08VM}
 
 Pour toute fonction intégrable $f$ et tout ensemble mesurable $A$, la fonction $f \varphi_A$ est intégrable.
 
@@ -428,7 +428,7 @@ En effet, il résulte du th. 5 et du n° 3, cor. 5 du th. 1 que $f \varphi_A$ es
 
 On pose $\int_A f d\mu = \int f \varphi_A d\mu$ (ou $\int_A f \mu$) pour toute fonction intégrable $f$ et tout ensemble mesurable $A$. On écrit aussi $\int_A^* f d|\mu|$ (ou $\int_A^* f |\mu|$) au lieu de $\int_A^* f \varphi_A d|\mu|$ pour toute fonction numérique (finie ou non) $f \geq 0$ (en posant $f(x) \varphi_A(x) = 0$ si $f(x) = +\infty$ et $\varphi_A(x) = 0$).
 
-#### Corollaire 4 {#int-iv-s5-lem-1-cor-4 .statement}
+#### Corollaire 4 {#int-iv-s5-lem-1-cor-4 .statement tag=08VN}
 
 Pour toute suite $(f_n)$ de fonctions mesurables $\geq 0$ sur $X$, on a
 
@@ -446,7 +446,7 @@ $$
 
 Ce n’est autre que l’additivité de l’intégrale lorsque $f$ et $g$ sont intégrables. Dans le cas contraire, si par exemple $f$ est non intégrable, on a $\int^* f d|\mu| = +\infty$ en vertu du th. 5; $a$ fortiori, on a $\int^* (f + g) d|\mu| = +\infty$.
 
-#### Corollaire 5 {#int-iv-s5-lem-1-cor-5 .statement}
+#### Corollaire 5 {#int-iv-s5-lem-1-cor-5 .statement tag=08VO}
 
 Pour toute suite $(A_n)$ d’ensembles mesurables deux à deux disjoints, on a
 $$
@@ -458,7 +458,7 @@ Cela résulte du cor. 4 appliqué aux $\varphi_{A_n}$.
 
 Soient X un espace localement compact, $\mu$ une mesure sur X, Y un sous-espace localement compact de X. Comme Y est l’intersection d’un ensemble ouvert et d’un ensemble fermé dans X (Top. gén., chap. I, 3e éd., §9, n° 7, prop. 12), il est $\mu$-mesurable (n° 1, cor. de la prop. 3). Pour toute fonction $g \in \mathscr{K}(Y; \mathbf{C})$, soit $g'$ la fonction définie dans X, égale à g dans Y et à 0 dans X − Y ; montrons que $g'$ est $\mu$-intégrable. On peut se borner au cas où g est réelle et $\geqslant 0$ (en écrivant g comme combinaison linéaire de telles fonctions); comme $g'$ est bornée et à support compact, il suffit de montrer que $g'$ est $\mu$-mesurable (n° 6, th. 5); mais cela résulte de ce que $g'$ est semi-continue supérieurement dans X (n° 5, cor. de la prop. 8). On peut donc poser la définition suivante :
 
-#### Définition 4 {#int-iv-s5-def-4 .statement}
+#### Définition 4 {#int-iv-s5-def-4 .statement tag=08VP}
 
 Etant donné un sous-espace localement compact Y d’un espace localement compact X, on appelle mesure induite sur Y par une mesure $\mu$ sur X, et l’on note $\mu_Y$ ou $\mu|Y$, la mesure définie par la formule
 $$
@@ -466,7 +466,7 @@ $$
 $$
 pour toute fonction $g \in \mathscr{K}(Y; \mathbf{C})$, $g'$ désignant la fonction égale à g dans Y et à 0 dans X − Y.
 
-#### Exemple {#int-iv-s5-n7-exa-1 .statement}
+#### Exemple {#int-iv-s5-n7-exa-1 .statement tag=08VQ}
 
 Soient $\mu$ la mesure de Lebesgue sur $\mathbf{R}$, I un intervalle quelconque dans $\mathbf{R}$; I est un sous-espace localement compact de $\mathbf{R}$ et la mesure induite par $\mu$ sur I est la forme linéaire
 $$
@@ -478,7 +478,7 @@ Lorsque Y est un sous-espace ouvert de X, la déf. 1 coïncide avec la définiti
 
 Nous étudierons en détail au chap. V, § 5 l’intégration par rapport à une mesure induite, et n’aurons besoin jusque-là que des résultats suivants :
 
-#### Lemme 2 {#int-iv-s5-lem-2 .statement}
+#### Lemme 2 {#int-iv-s5-lem-2 .statement tag=08VR}
 
 Soient $\mu$ une mesure positive sur X, K une partie compacte de X.
 
@@ -502,7 +502,7 @@ donc $\mu(N) = 0$ puisque $\varepsilon$ est arbitraire.
 
 (iii) Pour toute partie ouverte U de K rencontrant S, on a par hypothèse $\mu_K(U \cap S) \neq 0$, donc $\mu(U \cap S) \neq 0$ par (i), et comme $U \cap S$ est ouvert dans S, $\mu_S(U \cap S) \neq 0$ par (i); comme tout ensemble ouvert non vide dans S est de la forme $U \cap S$, où U est ouvert dans K, cela prouve que $\mathrm{Supp}(\mu_S) = S$.
 
-#### Lemme 3 {#int-iv-s5-lem-3 .statement}
+#### Lemme 3 {#int-iv-s5-lem-3 .statement tag=08VS}
 
 Soit Y un sous-espace localement compact de X ; pour toute mesure $\mu$ sur X, on a $|\mu_Y| = |\mu|_Y$.
 
@@ -534,7 +534,7 @@ et comme $\varepsilon$ est arbitraire, $|\mu|_Y(f) \leq |\mu_Y|(f)$, ce qui ach�
 
 ### 8. Familles $\mu$-denses d’ensembles compacts.
 
-#### Proposition 12 {#int-iv-s5-prop-12 .statement}
+#### Proposition 12 {#int-iv-s5-prop-12 .statement tag=08VT}
 
 Soient $\mu$ une mesure sur un espace localement compact $X$, $A$ une partie $\mu$-mesurable de $X$, $\mathfrak{R}$ un ensemble de parties compactes de $A$, satisfaisant aux conditions suivantes :
 
@@ -558,7 +558,7 @@ $$
 
 Mais $L_n \cup H$ appartient à $A$ en vertu de (PL_{II}), et cela contredit la définition de $\alpha$.
 
-#### Définition 6 {#int-iv-s5-def-6 .statement}
+#### Définition 6 {#int-iv-s5-def-6 .statement tag=08VU}
 
 Soit A une partie $\mu$-mesurable de X. On dit qu’un ensemble $A$ de parties compactes de A est $\mu$-dense dans A s’il vérifie les conditions (PL_I), (PL_{II}), a), b), c), d) de la prop. 12.
 
@@ -566,13 +566,13 @@ L’ensemble de toutes les parties compactes de A est $\mu$-dense dans A.
 
 Lorsque $A = X$, on dira simplement « ensemble $\mu$-dense » au lieu de « ensemble $\mu$-dense dans X ». Si $X - A$ est localement $\mu$-négligeable, tout ensemble de parties compactes de A, $\mu$-dense dans A, est $\mu$-dense dans X.
 
-#### Remarque {#int-iv-s5-n8-rem-1 .statement}
+#### Remarque {#int-iv-s5-n8-rem-1 .statement tag=08VV}
 
 Supposons que A soit réunion d’une suite $(L_n)$ d’ensembles compacts et d’un ensemble $\mu$-négligeable (resp. localement $\mu$-négligeable), et soit $A$ un ensemble de parties compactes, μ-dense dans A. Appliquant à chaque $L_n$ la propriété c) de l’énoncé de la prop. 12, on voit que A est réunion d’une suite d’ensembles compacts appartenant à $\mathfrak{R}$ et d’un ensemble $\mu$-négligeable (resp. localement $\mu$-négligeable).
 
 Si K est une partie compacte de X, il revient au même de dire qu’un ensemble de parties compactes de K est $\mu$-dense dans K ou $\mu_K$-dense dans K ; cela résulte des lemmes 2 et 3 du n° 7 et de la condition b) de la prop. 12.
 
-#### Proposition 13 {#int-iv-s5-prop-13 .statement}
+#### Proposition 13 {#int-iv-s5-prop-13 .statement tag=08VW}
 
 Soient A une partie $\mu$-mesurable de X, $\mathfrak{R}$ un ensemble de parties compactes, $\mu$-dense dans A. Soit $\mathfrak{H}$ un ensemble de parties compactes de A satisfaissant à (PL_I) et (PL_{II}) et tel que, pour tout $K \in \mathfrak{R}$, l’ensemble des $H \in \mathfrak{H}$ tels que $H \subset K$ soit $\mu_K$-dense (ou, ce qui revient au même, $\mu$-dense) dans K. Alors $\mathfrak{H}$ est $\mu$-dense dans A.
 
@@ -580,7 +580,7 @@ En effet, soit L une partie compacte de A. Pour tout $\varepsilon > 0$, il exist
 
 ### 9. Partitions localement dénombrables
 
-#### Définition 7 {#int-iv-s5-def-7 .statement}
+#### Définition 7 {#int-iv-s5-def-7 .statement tag=08VX}
 
 On dit qu’un ensemble de parties $\mathfrak{U}$ d’un espace topologique T est localement dénombrable si, pour tout $t \in T$, il existe un voisinage V de t tel que l’ensemble des $A \in \mathfrak{U}$ rencontrant V soit dénombrable.
 
@@ -588,7 +588,7 @@ Si l’ensemble $\mathfrak{U}$ de parties de T est localement dénombrable, alor
 
 La déf. 7 montre que la réunion d’une ensemble localement dénombrable de parties $\mu$-mesurables (resp. localement $\mu$-négligeables) d’un espace localement compact est $\mu$-mesurable (resp. localement $\mu$-négligeable) (n° 1, prop. 3 et n° 2, prop. 5).
 
-#### Proposition 14 {#int-iv-s5-prop-14 .statement}
+#### Proposition 14 {#int-iv-s5-prop-14 .statement tag=08VY}
 
 Soient X un espace localement compact, $\mu$ une mesure sur X, A une partie $\mu$-mesurable de X, $\mathfrak{R}$ un ensemble de parties compactes de A, $\mu$-dense dans A. Il existe un ensemble $\mathfrak{H} \subset \mathfrak{R}$ localement dénombrable, formé de parties deux à deux disjointes, tel que $A - \bigcup_{K \in \mathscr{H}} K$ soit localement $\mu$-négligeable et que, pour tout $K \in \mathscr{H}$, le support de $\mu_K$ soit $K$ tout entier.
 
@@ -600,7 +600,7 @@ et comme $|\mu|(K \cap V) > 0$ pour tout $K \in \mathscr{H}_V$, $\mathscr{H}_V$ 
 
 ### 10. Fonctions mesurables définies dans une partie mesurable
 
-#### Proposition 15 {#int-iv-s5-prop-15 .statement}
+#### Proposition 15 {#int-iv-s5-prop-15 .statement tag=08VZ}
 
 Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$, $A$ une partie $\mu$-mesurable de $X$, $f$ une application de $A$ dans un espace topologique $F$. Les conditions suivantes sont équivalentes :
 
@@ -618,25 +618,25 @@ Q \subset L \cap (X - A)
 $$
 telles que $|\mu|(L \cap A) - P) \leq \varepsilon/4$ et $|\mu|(L \cap (X - A)) - Q) \leq \varepsilon/4$. Il existe d’autre part une partie $H \in \mathfrak{H}$ contenue dans $P$ et telle que $|\mu|(P - H) \leq \varepsilon/2$; la restriction de $g$ à l’ensemble compact $K = H \cup Q$ est alors continue ($g$ étant constante dans $Q$) et l’on a $|\mu|(L - K) \leq \varepsilon$, ce qui achève la démonstration.
 
-#### Définition 8 {#int-iv-s5-def-8 .statement}
+#### Définition 8 {#int-iv-s5-def-8 .statement tag=08W0}
 
 Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$, $A$ une partie $\mu$-mesurable de $X$. On dit qu’une application $f$ de $A$ dans un espace topologique $F$ est $\mu$-mesurable si elle vérifie les conditions équivalentes de la prop. 15.
 
 Si $A$ est localement $\mu$-négligeable, toute application de $A$ dans $F$ est donc $\mu$-mesurable.
 
-#### Corollaire 1 {#int-iv-s5-def-8-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s5-def-8-cor-1 .statement tag=08W1}
 
 Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$, $A$ une partie $\mu$-mesurable de $X$, $f$ une application $\mu$-mesurable de $A$ dans un espace topologique $F$. Soit $\mathfrak{R}$ un ensemble de parties compactes de $X$, $\mu$-dense dans $X$. Il existe alors une partition de $A$ formée d’un ensemble localement négligeable $N$ et d’une famille localement dénombrable $(K_\lambda)_{\lambda \in L}$ d’ensembles $K_\lambda \in \mathfrak{R}$, telle que $f|K_\lambda$ soit continue pour tout $\lambda \in L$.
 
 Compte tenu du n° 9, prop. 14, il suffit de montrer que l’ensemble $\mathfrak{H} \subset \mathfrak{K}$ des parties $K \in \mathfrak{K}$ telles que $K \subset A$ et que $f|K$ soit continue, est $\mu$-dense dans $A$. Or, il résulte aussitôt de la prop. 1 du n° 1 et de la condition d) de la prop. 15 que, pour toute partie compacte $K_0$ de $A$ et tout $\varepsilon > 0$, il existe une partie $K \subset K_0$ appartenant à $\mathfrak{K}$, telle que $|\mu|(K_0 - K) \leq \varepsilon$ et que $f|K$ soit continue; la conclusion résulte donc de la prop. 12 du n° 8.
 
-#### Corollaire 2 {#int-iv-s5-def-8-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s5-def-8-cor-2 .statement tag=08W2}
 
 Soit $K$ un sous-espace compact de $X$; pour qu’une application $f$ de $K$ dans un espace topologique $F$ soit $\mu$-mesurable, il faut et il suffit qu’elle soit $\mu_K$-mesurable.
 
 Compte tenu du lemme 2 du n° 7, cela résulte aussitôt de la prop. 1 du n° 1, et de la condition a) de la prop. 15.
 
-#### Proposition 16 {#int-iv-s5-prop-16 .statement}
+#### Proposition 16 {#int-iv-s5-prop-16 .statement tag=08W3}
 
 Soit $\mathfrak{U}$ un ensemble localement dénombrable de parties $\mu$-mesurables de $X$, et soit $B = \bigcup_{A \in \mathfrak{U}} A$. Pour qu’une application $f$ de $B$ dans un espace topologique $F$ soit $\mu$-mesurable, il faut et il suffit que la restriction de $f$ à tout $A \in \mathfrak{U}$ soit $\mu$-mesurable.
 
@@ -662,7 +662,7 @@ W(V', B, \delta/2) \circ W(V', B, \delta/2) \subset W(V, B, \delta).
 $$
 On notera que lorsque K parcourt un ensemble $\mu$-dense $\mathfrak{K}$ de parties compactes de A, les ensembles $W(V, K, \delta)$ forment aussi un système fondamental d’entourages de la structure uniforme précédente: en effet, pour tout ensemble intégrable $B \subset A$, il existe une partie compacte $K \in \mathfrak{K}$ contenue dans B et telle que $|\mu|(B - K) \leq \delta$, et par suite $W(V, K, \delta) \subset W(V, B, 2\delta)$.
 
-#### Définition 9 {#int-iv-s5-def-9 .statement}
+#### Définition 9 {#int-iv-s5-def-9 .statement tag=08W4}
 
 On dit que la structure uniforme sur $\mathscr{S}(A, \mu ; F)$ dont les $W(V, B, \delta)$ forment un système fondamental d’entourages est la structure uniforme de la convergence en mesure dans A.
 
@@ -672,7 +672,7 @@ Supposons F séparé; alors, pour tout ensemble $\mu$-intégrable $B \subset A$,
 
 On en conclut que, lorsque $F$ est séparé, l’intersection de tous les entourages de $\mathscr{S}(A, \mu; F)$ est l’ensemble des couples $(f, g)$ tels que $f(x) = g(x)$ localement presque partout dans $A$. L’espace uniforme séparé associé à $\mathscr{S}(A, \mu; F)$, que nous noterons $S(A, \mu; F)$ ou $S_F(A, \mu)$ (ou même $S_F(\mu)$ ou $S_F$ lorsque $A = X$) est donc formé des classes d’équivalence pour la relation «$f(x) = g(x)$ localement presque partout dans $A$ » dans l’ensemble $\mathscr{S}(A, \mu; F)$.
 
-#### Proposition 17 {#int-iv-s5-prop-17 .statement}
+#### Proposition 17 {#int-iv-s5-prop-17 .statement tag=08W5}
 
 Soit $(A_\lambda)_{\lambda \in L}$ une famille localement dénombrable de parties $\mu$-mesurables de $A$, deux à deux disjointes et telles que $A - \bigcup_{\lambda \in L} A_\lambda$ soit localement $\mu$-négligeable. Alors, si, pour toute classe $f \in S(A, \mu; F)$, et tout $\lambda \in L$, $f_\lambda$ désigne la classe de la restriction à $A_\lambda$ de l’une quelconque des fonctions de la classe $f$, l’application $\psi : f \mapsto (f_\lambda)_{\lambda \in L}$ est un isomorphisme de l’espace uniforme $S(A, \mu; F)$ sur l’espace uniforme produit $\prod_{\lambda \in L} S(A_\lambda, \mu; F)$.
 
@@ -682,13 +682,13 @@ $$
 $$
 Ceci posé, l’image de $T$ par $\psi \times \psi$ est contenue dans l’image canonique du produit $\prod_{\lambda \in H} W(V, B \cap A_\lambda, \delta)$. D’autre part, si $m$ est le nombre des éléments de $H$, l’image de $T$ par $\psi \times \psi$ contient l’image canonique de l’entourage $\prod_{\lambda \in H} W(V, A_\lambda, \delta/2m)$, ce qui prouve la proposition.
 
-#### Proposition 18 {#int-iv-s5-prop-18 .statement}
+#### Proposition 18 {#int-iv-s5-prop-18 .statement tag=08W6}
 
 Si F est métrisable, et si A est réunion d’un ensemble localement μ-négligeable et d’une suite (A_n) d’ensembles μ-intégrables, l’espace S(A, μ; F) est métrisable.
 
 Comme chaque A_n est réunion d’un ensemble négligeable et d’une suite d’ensembles compacts, on peut déjà supposer que les A_n sont compacts et deux à deux disjoints. La prop. 17 permet ensuite de supposer que A est compact. Si (V_n) est un système fondamental dénombrable d’entourages de F, il est clair que les W(V_n, K, 1/n) forment un système fondamental d’entourages de $\mathscr{S}(A, \mu; F)$ lorsque n parcourt $\mathbf{N}$, d’où la proposition.
 
-#### Lemme 4 {#int-iv-s5-lem-4 .statement}
+#### Lemme 4 {#int-iv-s5-lem-4 .statement tag=08W7}
 
 Soit F un espace uniforme métrisable, et soit B ⊂ A une réunion dénombrable d’ensembles μ-intégrables. Alors, pour toute suite de Cauchy (f_n) dans $\mathscr{S}(A, \mu; F)$, il existe une suite (f_{n_k}) extraite de (f_n), telle que (f_{n_k}(x)) soit une suite de Cauchy dans F pour presque tout x ∈ B.
 
@@ -704,7 +704,7 @@ Posons $\varepsilon_n = f_{nn}$ pour tout n ≥ 0; pour tout m, la suite (g_n)_{
 
 Si maintenant B est réunion d’une suite (B_m) d’ensembles intégrables, on peut définir par récurrence une suite double (g_{mn}) telle que g_{0n} = f_n, que (g_{mn})_{n ≥ 0} soit une suite extraite de (g_{m-1,n})_{n ≥ 0} pour tout $m > 0$, et que la suite $(g_{mn}(x))_{n \geq 0}$ soit une suite de Cauchy dans $B_m - P_m$, où $P_m$ est négligeable. Posons $h_n = g_{nn}$ pour tout $n \geq 0$, de sorte que, pour tout $m$, la suite $(h_n)_{n \geq m}$ soit extraite de $(g_{mn})_{n \geq 0}$; la suite $(h_n(x))_{n \geq 0}$ est alors une suite de Cauchy dans $F$ pour tout $x \in B - P$, où $P = \bigcup_{m=0}^{\infty} P_m$ est négligeable.
 
-#### Proposition 19 {#int-iv-s5-prop-19 .statement}
+#### Proposition 19 {#int-iv-s5-prop-19 .statement tag=08W8}
 
 *Si l’espace uniforme $F$ est métrisable et complet, l’espace uniforme $S(A, \mu; F)$ est complet.*
 
@@ -712,7 +712,7 @@ Il existe une famille $(K_\lambda)_{\lambda \in L}$ de parties compactes de $A$,
 
 C.Q.F.D.
 
-#### Corollaire {#int-iv-s5-n11-cor-1 .statement}
+#### Corollaire {#int-iv-s5-n11-cor-1 .statement tag=08W9}
 
 *Soit $F$ un espace uniforme métrisable.*
 (i) *Toute suite* $(f_n)$ *d’éléments de* $\mathscr{S}(A, \mu; F)$ *qui converge localement presque partout vers une application* $f$ *(nécessairement $\mu$-mesurable)* *de* $A$ *dans* $F$, *converge en mesure vers* $f$ *dans* $A$.
@@ -721,7 +721,7 @@ C.Q.F.D.
 (i) L’assertion résulte aussitôt de l’extension du th. d’Egoroff mentionnée au n° 10.
 (ii) En vertu du lemme 4, il existe une suite $(f_{n_k})$ extraite de $(f_n)$ telle que $(f_{n_k}(x))$ soit une suite de Cauchy dans $F$ pour tout x ∈ B − N, où N est négligeable ; soit f′(x) ∈ $\hat{F}$ la limite de cette suite pour x ∈ B − N. Il est clair que f′ est une application μ-mesurable de B − N dans $\hat{F}$, et la suite (f_n) converge en mesure vers f′ dans B − N, en vertu de (i); f′ est par suite égale à f presque partout dans B.
 
-#### Proposition 20 {#int-iv-s5-prop-20 .statement}
+#### Proposition 20 {#int-iv-s5-prop-20 .statement tag=08WA}
 
 Soit F un espace de Banach, muni de la structure uniforme définie par sa norme.
 
@@ -743,15 +743,15 @@ d’où $|\mu|^*(C) \leq \delta$, ce qui démontre (iii).
 
 (ii) En vertu de (iii), il suffit de montrer par exemple que $\mathscr{L}_F^1$ est partout dense dans $\mathscr{S}_F$, puisque par définition $\mathscr{K}(X; F)$ est dense dans $\mathscr{L}_F^1$ pour la topologie de la convergence en moyenne. Or, soient $f$ un élément quelconque de $\mathscr{S}_F$, et $T(B, \delta)$ un voisinage de 0 dans cet espace ; on voit comme dans (i) qu’il existe une partie intégrable $C$ de $B$ telle que $|\mu|(C) \leq \delta$ et que $f$ soit *bornée* dans $B - C$; désignant alors par $g$ la fonction égale à $f$ dans $B - C$, à 0 dans $X - (B - C)$, il résulte du n° 6, th. 5 que $g$ est intégrable, et l’on a évidemment $f - g \in T(B, \delta)$.
 
-#### Remarque 1 {#int-iv-s5-n11-rem-1 .statement}
+#### Remarque 1 {#int-iv-s5-n11-rem-1 .statement tag=08WB}
 
 L’espace vectoriel topologique $\mathscr{S}(X, \mu; F)$ n’est pas nécessairement localement convexe (exerc. 24).
 
-#### Remarque 2 {#int-iv-s5-n11-rem-2 .statement}
+#### Remarque 2 {#int-iv-s5-n11-rem-2 .statement tag=08WD}
 
 La topologie induite par la topologie de la convergence en mesure sur l’ensemble des $f$ telles que $N_p(f) \leq 1$ peut être strictement moins fine que la topologie induite sur cet ensemble par la topologie de la convergence en moyenne d’ordre $p$ (exerc. 22). Voir toutefois la prop. 21 ci-dessous.
 
-#### Définition 10 {#int-iv-s5-def-10 .statement}
+#### Définition 10 {#int-iv-s5-def-10 .statement tag=08WC}
 
 Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$, $F$ un espace de Banach, et $p \in [1, +\infty[$. Une partie $H$ de $\mathscr{L}_F^p(X, \mu)$ est dite équiintégrable d’ordre $p$ (pour $\mu$) si elle satisfait aux conditions suivantes :
 (i) Pour tout $\varepsilon > 0$, il existe $\delta > 0$ tel que, pour tout ensemble intégrable $A$ de mesure $|\mu|(A) \leq \delta$ et pour toute $f \in H$, on ait
@@ -762,11 +762,11 @@ $$
 
 Si $p = 1$, on dit « équiintégrable » au lieu de « équiintégrable d’ordre $p$ ».
 
-#### Remarque {#int-iv-s5-n11-rem-3 .statement}
+#### Remarque {#int-iv-s5-n11-rem-3 .statement tag=0E68}
 
 Supposons $\mu$ bornée. Pour tout $a > 0$, l’ensemble des applications mesurables de $X$ dans $F$ telles que $|f(x)| \leq a$ presque partout est équiintégrable d’ordre $p$, et ceci quel que soit $p \in [1, +\infty[$.
 
-#### Proposition 21 {#int-iv-s5-prop-21 .statement}
+#### Proposition 21 {#int-iv-s5-prop-21 .statement tag=08WE}
 
 Soit $H$ une partie de $\mathscr{L}_F^p(X, \mu)$ équiintégrable d’ordre $p$. Sur $H$, la structure uniforme de la convergence en mesure est égale à la structure uniforme induite par celle de $\mathscr{L}_F^p(X, \mu)$.
 
@@ -807,7 +807,7 @@ Donc la structure uniforme de la convergence en mesure sur $H$ est plus fine que
 
 ### 12. Une propriété de la convergence vague
 
-#### Lemme 5 {#int-iv-s5-lem-5 .statement}
+#### Lemme 5 {#int-iv-s5-lem-5 .statement tag=08WF}
 
 Soient $X$ un espace localement compact, $\mu$ une mesure positive bornée sur $X$, $F$ un espace de Banach, $f$ une fonction bornée sur $X$ à valeurs dans $F$. Les conditions suivantes sont équivalentes:
 
@@ -825,7 +825,7 @@ sur X, d’où $k \leq 2M$. L’ensemble N’ des points de discontinuité de k 
 
 (ii) ⇒ (i). Supposons la condition (ii) satisfaite. Pour tout $x \in X$, soit $\omega(x)$ l’oscillation de f en x. Soit $\varepsilon > 0$. Il existe a_1, ..., a_n, g_1, ..., g_n, h avec les propriétés de (ii). Pour tout $x \in X$, $\omega(x)$ est l’oscillation de $f - g_1 a_1 - ... - g_n a_n$ en x, donc $\omega(x) \leq 2h(x)$. Donc $\int \omega\ d\mu \leq 2\varepsilon$. Par suite, l’ensemble $A_\varepsilon$ des $x \in X$ tels que $\omega(x) \geq \sqrt{\varepsilon}$ est tel que $\mu(A_\varepsilon) \leq 2\sqrt{\varepsilon}$. Ceci prouve que $\mu(N) \leq 2\sqrt{\varepsilon}$, d’où $\mu(N) = 0$.
 
-#### Proposition 22 {#int-iv-s5-prop-22 .statement}
+#### Proposition 22 {#int-iv-s5-prop-22 .statement tag=08WG}
 
 Soient F un espace de Banach, X un espace localement compact, $\mathscr{E}$ l’ensemble des mesures positives bornées sur X, $\mu$ un élément de $\mathscr{E}$, $\mathscr{B}$ une base de filtre sur $\mathscr{E}$. On suppose que $\mathscr{B}$ converge vaguement vers $\mu$ et que $\|v\|$ tend vers $\|\mu\|$ suivant $\mathscr{B}$. Soit f une application de X dans F vérifiant les conditions suivantes:
 (i) f est bornée, intégrable pour $\mu$ et pour toute mesure appartenant à un élément de $\mathscr{B}$;
@@ -862,11 +862,11 @@ $$
 
 ce qui démontre la proposition.
 
-#### Remarque {#int-iv-s5-n12-rem-1 .statement}
+#### Remarque {#int-iv-s5-n12-rem-1 .statement tag=08WH}
 
 Les conditions (i) et (ii) de la proposition 22 sont satisfaites si f est continue et bornée.
 
-#### Exemple {#int-iv-s5-n12-exa-1 .statement}
+#### Exemple {#int-iv-s5-n12-exa-1 .statement tag=08WI}
 
 Prenons pour X l’espace compact U des nombres complexes de valeur absolue 1. En posant, pour toute $f \in \mathscr{K}(U)$,
 $$

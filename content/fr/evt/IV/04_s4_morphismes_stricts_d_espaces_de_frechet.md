@@ -25,7 +25,7 @@ subsections:
       pdf_page: 216
 statements: 13
 exercises: 23
-content_sha256: 0c38ea7a26c0e854406223222585fe8582e898a00f79b95f9850845a18154768
+content_sha256: 60805dc2a16c7d4843efe0b7a404bba05db515adbfa75c4684dc364e552b22d4
 ---
 
 ## § 4. MORPHISMES STRICTS D’ESPACES DE FRÉCHET
@@ -34,7 +34,7 @@ Pour tout espace localement convexe $E$, on note $S(E)$ l’ensemble des semi-no
 
 ### 1. Caractérisations des morphismes stricts
 
-#### Proposition 1 {#evt-iv-s4-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s4-prop-1 .statement tag=07UR}
 
 Soient $E$ et $F$ deux espaces localement convexes et $u$ une application linéaire continue de $E$ dans $F$. Pour que $u$ soit un morphisme strict, il faut et il suffit que la condition suivante soit satisfaite :
 
@@ -46,7 +46,7 @@ E \xrightarrow{\pi} E/N \xrightarrow{\tilde{u}} M \to F .
 $$
 Les semi-normes continues sur $E$, nulles sur $N$, sont les semi-normes $p_1 \circ \pi$ où $p_1$ parcourt $S(E/N)$; de même $S(M)$ se compose des semi-normes $q_1$ pour lesquelles il existe $q \in S(F)$ avec $q_1 \leq q|F$. Enfin, $u$ est un morphisme strict si et seulement si l’application linéaire bijective continue $\tilde{u}$ a un inverse continu ; ceci signifie aussi que toute semi-norme dans $S(E/N)$ est de la forme $q_1 \circ \tilde{u}$ avec $q_1$ dans $S(M)$. La prop. 1 résulte aussitôt de ces remarques.
 
-#### Proposition 2 {#evt-iv-s4-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s4-prop-2 .statement tag=07US}
 
 Soient E et F des espaces localement convexes séparés et u une application linéaire continue de E dans F. Pour que u soit un morphisme strict, il faut et il suffit que sa transposée $^t u : F' \to E'$ satisfasse aux conditions suivantes :
 
@@ -64,11 +64,11 @@ Comme $N^{\circ}$ s’identifie au dual de $E/N$, la prop. 9, (i) de IV, p. 8 mo
 
 Supposons que u soit un morphisme strict. On a déjà vu que le noyau de $^t u$ est l’orthogonal de I et que l’image de $^t u$ est l’orthogonal de N. Le conoyau de u est l’espace F/I et son dual s’identifie à $I^{\circ} = \mathrm{Ker}\ ^t u$. De même, le dual de $N = \mathrm{Ker}\ u$ s’identifie à $E'/N^{\circ}$ (IV, p. 8), c’est-à-dire au conoyau de $^t u$ puisque $N^{\circ}$ est l’image de $^t u$.
 
-#### Remarque {#evt-iv-s4-n1-rem-1 .statement}
+#### Remarque {#evt-iv-s4-n1-rem-1 .statement tag=07UT}
 
 Avec les notations de la prop. 2, la propriété a) signifie encore que u est un morphisme strict pour les topologies affaiblies (II, p. 52, cor. 3).
 
-#### Proposition 3 {#evt-iv-s4-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s4-prop-3 .statement tag=07UU}
 
 Soient E et F deux espaces localement convexes et u une application linéaire continue de E dans F. On suppose E séparé et F métrisable. Pour que u soit un morphisme strict, il faut et il suffit que l’image de $^t u$ soit fermée dans $E'$ pour la topologie faible $\sigma(E', E)$.
 
@@ -78,7 +78,7 @@ Supposons réciproquement l’image de $^t u$ fermée pour $\sigma(E', E)$ et in
 
 ### 2. Morphismes stricts d’espaces de Fréchet
 
-#### Théorème 1 {#evt-iv-s4-thm-1 .statement}
+#### Théorème 1 {#evt-iv-s4-thm-1 .statement tag=07UV}
 
 Soient E et F deux espaces de Fréchet et u une application linéaire continue de E dans F. Les conditions suivantes sont équivalentes :
 
@@ -98,13 +98,13 @@ Comme $E'_B$ est un espace de Baire, et que chacun des ensembles $B_n$ est conve
 
 Enfin, l’équivalence de g) et des conditions précédentes résulte de la prop. 18 de TG, IX, p. 22, et du lemme suivant :
 
-#### Lemme 1 {#evt-iv-s4-lem-1 .statement}
+#### Lemme 1 {#evt-iv-s4-lem-1 .statement tag=07UW}
 
 Soient E et F deux espaces localement convexes séparés quasi-complets et u une application linéaire continue de E dans F. Pour que $'u$ soit un morphisme strict de $F'_c$ dans $E'_c$, il faut et il suffit que l’image $u(E)$ de u soit fermée, et que toute partie compacte de $u(E)$ soit l’image par u d’une partie compacte de E.
 
 D’après le th. de Mackey (IV, p. 2, th. 1) et le fait que sur E’ (resp. F’) la topologie de la convergence compacte coïncide avec celle de la convergence convexe compacte (IV, p. 4), on peut identifier E (resp. F) au dual de $E'_c$ (resp. $F'_c$). Alors $u$ est la transposée de $'u$, et les parties équicontinues de E (resp. F) sont les ensembles relativement compacts. Le lemme 1 résulte alors de la prop. 2 (IV, p. 27), car $u(E)$ est fermé dans F si et seulement s’il l’est pour la topologie affaiblie $\sigma(F, F')$ (IV, p. 4, prop. 2).
 
-#### Corollaire 1 {#evt-iv-s4-lem-1-cor-1 .statement}
+#### Corollaire 1 {#evt-iv-s4-lem-1-cor-1 .statement tag=07UX}
 
 Sous les hypothèses du th. 1, les conditions suivantes sont équivalentes :
 (i) $u$ est un morphisme strict injectif ;
@@ -112,7 +112,7 @@ Sous les hypothèses du th. 1, les conditions suivantes sont équivalentes :
 (iii) $^t u$ est surjectif.
 L’implication (i) $\Rightarrow$ (ii) résulte aussitôt de l’équivalence des conditions $a), d)$ et e) du th. 1 et de IV, p. 6, prop. 5. Il est clair que (ii) entraîne (iii). Montrons enfin que (iii) entraîne (i) : si $^t u$ est surjectif, $u$ est un morphisme strict d’après l’équivalence de a) et e) dans le th. 1 ; que $u$ soit injectif résulte de la prop. 5 de IV, p. 6.
 
-#### Corollaire 2 {#evt-iv-s4-lem-1-cor-2 .statement}
+#### Corollaire 2 {#evt-iv-s4-lem-1-cor-2 .statement tag=07UY}
 
 Sous les hypothèses du th. 1, les conditions suivantes sont équivalentes :
 (i) $u$ est surjectif ;
@@ -123,7 +123,7 @@ D’après l’équivalence de a) et c) dans le th. 1, la condition (ii) signifi
 
 Si $u : E \to F$ est un morphisme strict d’espaces de Fréchet, la transposée $^t u$ n’est pas nécessairement un morphisme strict de $F'_b$ dans $E'_b$ (IV, p. 62, exerc. 3). On a cependant le résultat partiel suivant :
 
-#### Corollaire 3 {#evt-iv-s4-lem-1-cor-3 .statement}
+#### Corollaire 3 {#evt-iv-s4-lem-1-cor-3 .statement tag=07UZ}
 
 Sous les hypothèses du th. 1, les propriétés a) à g) sont entraînées par la suivante :
 h) $^t u$ est un morphisme strict de $F'_b$ dans $E'_b$.
@@ -135,13 +135,13 @@ Si E et F sont des espaces de Montel, la topologie forte sur E' (resp. F') coïn
 
 Si E et F sont des espaces de Banach, il en est de même de E'_b et F'_b, et la condition h) équivaut à f) d’après l’équivalence de a) et c) appliquée à 'u : F'_b → E'_b.
 
-#### Corollaire 4 {#evt-iv-s4-lem-1-cor-4 .statement}
+#### Corollaire 4 {#evt-iv-s4-lem-1-cor-4 .statement tag=07V0}
 
 Supposons que E et F soient des espaces de Banach. Pour que 'u soit surjective, il faut et il suffit qu’il existe un nombre réel r > 0 tel que $\|x\| \leq r \cdot \|u(x)\|$ pour tout $x \in E$.
 
 Cela ne fait que traduire l’équivalence des conditions (i) et (iii) du cor. 1.
 
-#### Corollaire 5 {#evt-iv-s4-lem-1-cor-5 .statement}
+#### Corollaire 5 {#evt-iv-s4-lem-1-cor-5 .statement tag=07V1}
 
 Soient E et F des espaces de Fréchet et u une application linéaire continue de E dans F. Les conditions suivantes sont équivalentes :
 
@@ -159,7 +159,7 @@ Réciproquement, supposons que l’une des conditions c), d) ou e) soit satisfai
 
 ### 3. Critères de surjectivité
 
-#### Proposition 4 {#evt-iv-s4-prop-4 .statement}
+#### Proposition 4 {#evt-iv-s4-prop-4 .statement tag=07V2}
 
 Soient E et F deux espaces de Fréchet, et u une application linéaire continue de E dans F. Les conditions suivantes sont équivalentes :
 
@@ -189,7 +189,7 @@ et la relation (1) est satisfaite.
 
 Montrons enfin que (iv) entraîne (i). Soient $p \in S(E)$ et $q$ l’enveloppe supérieure des fonctions $|f|$ pour $f \in F'$ satisfaisant à $|f \circ u| \leq p$. D’après (iv), $q$ est fini sur $F$, et c’est évidemment une semi-norme semi-continue inférieurement sur $F$; comme $F$ est tonnelé (III, p. 25, corollaire), on a $q \in S(F)$. Notons $B_p$ (resp. $B_q$) l’ensemble des $x \in E$ (resp. $y \in F$) tels que $p(x) \leq 1$ (resp. $q(y) \leq 1$). On a $q \circ u \leq p$, d’où $u(B_p) \subset B_q$. Le polaire de $u(B_p)$ dans $F'$ se compose des formes linéaires $f \in F'$ telles que $|f \circ u| \leq p$, d’où $|f| \leq q$; autrement dit, on a $u(B_p)^{\circ} \subset B_q^{\circ}$, d’où finalement $\overline{u(B_p)} = B_q$ d’après le th. des bipolaires (II, p. 49, cor. 3). Si $U$ est un voisinage de 0 dans $E$, il existe $p \in S(E)$ telle que $B_p \subset U$, donc $u(U)$ contient le voisinage $B_q$ de 0 dans $F$. Ceci entraîne que $u$ est surjective (I, p. 17, th. 1).
 
-#### Corollaire {#evt-iv-s4-n3-cor-1 .statement}
+#### Corollaire {#evt-iv-s4-n3-cor-1 .statement tag=07V3}
 
 *Supposons que E et F soient des espaces de Banach. Les conditions suivantes sont équivalentes* :
 

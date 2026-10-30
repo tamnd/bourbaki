@@ -28,9 +28,9 @@ subsections:
       pdf_page: 126
 statements: 1
 exercises: 9
-content_sha256: aeac53d0d0b194674ebdcfd3f0be3540fcaf7652a96c36c30b1a189cabd0b74d
+content_sha256: 20243f6b35b8279ce71365a5c1d71c7c90b0ef082739f41c7ca034be35227df0
 translated_from: content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md
-source_content_sha256: f6b088ac6701be2b05fce77ca968574d31c178217f434b3fda6539f2d3368691
+source_content_sha256: 9b4d042c915247a66706e89ec93b075b9470428497af056aac806e76d9a56cf9
 translation_model: gpt-5.4
 translation_run: translate-vi-0774c73d
 glossary_version: 34
@@ -78,7 +78,7 @@ $$
 
 với sai số nhỏ hơn $1/10^9$. Hơn nữa, công thức (5) chứng minh rằng $e$ là một số *vô tỉ* $^{2}$ (*Gen. Top.*, IV, p. 375).
 
-#### Nhận xét {#fvr-iii-s2-n1-rem-1 .statement}
+#### Nhận xét {#fvr-iii-s2-n1-rem-1 .statement tag=08B3}
 
 Vì số dư trong công thức (1) là $> 0$ với $x > 0$ nên, với $x > 0$, ta có
 

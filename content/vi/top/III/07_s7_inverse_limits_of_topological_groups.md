@@ -28,9 +28,9 @@ subsections:
       pdf_page: 299
 statements: 15
 exercises: 5
-content_sha256: 07df51121378d3819f98e6c64a35b17a16cfd0ac0ddb8328acecbdb2007d8b76
+content_sha256: 92a112951d33ae9ee2e179488ae63cd1e20420f16dce92e080b8397baae8a205
 translated_from: content/en/top/III/07_s7_inverse_limits_of_topological_groups.md
-source_content_sha256: da72beb407a42503880dae63dda66a50e3bc4b2d19533c7e937095d250c0e5cd
+source_content_sha256: 7ec501cdab64114d3db1a7a9418dc84f5a203ec2564d94a09a0b43191852ce4d
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-64f04776
 glossary_version: 34
@@ -100,7 +100,7 @@ Ta sẽ nói rằng một hệ ngược $(G_\alpha, f_{\alpha\beta})$ là một 
 
 Nếu $(G'_\alpha, f'_{\alpha\beta})$ là một hệ ngược các nhóm tôpô khác và nếu, với mỗi $\alpha$, $u_\alpha : G_\alpha \to G'_\alpha$ là một đồng cấu liên tục sao cho các $u_\alpha$ tạo thành một hệ ngược các ánh xạ, thì $u = \varprojlim u_\alpha$ là một đồng cấu liên tục của $G$ vào $G' = \varprojlim G'_\alpha$ (Chương I, § 4, no. 4). Các kết quả tương tự cũng đúng khi thay thế "nhóm tôpô" bằng "vành tôpô"; ta để lại cho bạn đọc việc phát biểu các kết quả tương tự cho môđun tôpô (§ 6, no. 6).
 
-#### Mệnh đề 1 {#top-iii-s7-prop-1 .statement}
+#### Mệnh đề 1 {#top-iii-s7-prop-1 .statement tag=0BOG}
 
 *Giả sử rằng các $X_\alpha$ và các $G_\alpha$ thỏa mãn các giả thiết trên.*
 
@@ -108,19 +108,19 @@ a) *Nếu nhóm ổn định của mỗi điểm của $X_\alpha$ là một nhó
 
 b) *Nếu, với mỗi $\alpha \in I$, mọi quỹ đạo của một điểm của $X_\alpha$ (đối với $G_\alpha$) đều compact, thì mọi quỹ đạo của một điểm của $X$ (đối với $G$) đều tương đối compact, và $h$ là toàn ánh. Nếu thêm nữa $h$ là song ánh, thì mọi quỹ đạo của một điểm của $X$ đều compact.*
 
-#### Hệ quả 1 {#top-iii-s7-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#top-iii-s7-prop-1-cor-1 .statement tag=0BOH}
 
 *Nếu $G_\alpha$ compact và $X_\alpha$ Hausdorff, thì các kết luận của a) và b) đều đúng.*
 
 Thật vậy, các giả thiết của a) và b) được thỏa mãn, vì mọi nhóm con đóng của $G_\alpha$ đều compact và $u_\alpha : s_\alpha \to s_\alpha \cdot x_\alpha$ là một ánh xạ liên tục từ một không gian compact vào một không gian Hausdorff.
 
-#### Hệ quả 2 {#top-iii-s7-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#top-iii-s7-prop-1-cor-2 .statement tag=0BOI}
 
 *Nếu, với mỗi $\alpha \in I$, nhóm $G_\alpha$ tác động bắc cầu trên không gian $X_\alpha$, và nếu nhóm ổn định của mỗi điểm của $X_\alpha$ là một nhóm con compact của $G_\alpha$, thì $G$ tác động bắc cầu trên $X$ và nhóm ổn định của mỗi điểm của $X$ là một nhóm con compact của $G$. \*
 
 Vì giả thiết a) được thỏa mãn, và $X'_\alpha = X_\alpha$ với mỗi $\alpha$.
 
-#### Hệ quả 3 {#top-iii-s7-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#top-iii-s7-prop-1-cor-3 .statement tag=0BOJ}
 
 Cho $x = (x_\alpha) \in X$, và với mỗi $\alpha \in I$ đặt $X'_\alpha = G_\alpha \cdot x_\alpha$ là quỹ đạo của $x_\alpha$. Nếu $\alpha \leq \beta$, thì từ (i) và quan hệ $g_{\alpha\beta}(x_\beta) = x_\alpha$ suy ra $g_{\alpha\beta}(X'_\beta) \subset X'_\alpha$, và do đó $(X'_\alpha)$ là một hệ ngược các tập con của $X_\alpha$. Với mỗi $\alpha \in I$, đặt $u_\alpha : G_\alpha \to X'_\alpha$ là ánh xạ liên tục $s_\alpha \to s_\alpha \cdot x_\alpha$; các $u_\alpha$ lập thành một hệ ngược các ánh xạ, và $u = \varprojlim u_\alpha$ là ánh xạ liên tục $s \to s.x$ của $G$ vào không gian con $X' = \varprojlim X'_\alpha$ của $X$. Giả thiết của a) suy ra rằng $\overline{u}_\alpha(y_\alpha)$ là compact với mỗi $y_\alpha \in X'_\alpha$. Vì đồng thời $u_\alpha$ là toàn ánh, nên các điều kiện của Chương I, § 9, no. 6, Mệnh đề 8, Hệ quả 2 được thỏa mãn, và do đó hai khẳng định đầu tiên của a) được thiết lập. Suy ra, nếu $x = (x_\alpha)$ và $y = (y_\alpha)$ sao cho $x_\alpha$ và $y_\alpha$ thuộc cùng một quỹ đạo đối với $G_\alpha$ với mỗi $\alpha \in I$, thì $x$ và $y$ thuộc cùng một quỹ đạo đối với $G$, và do đó $h$ là đơn ánh.
 
@@ -145,7 +145,7 @@ Cho $G$ là một nhóm và cho $(H_\alpha)_{\alpha \in I}$ là một họ các 
 
 Giả sử bây giờ rằng $G$ là một *nhóm tôpô*; nếu ta cho mỗi $G_\alpha = G / H_\alpha$ tôpô thương, thì rõ ràng $(G_\alpha, f_{\alpha \beta})$ là một hệ ngược các nhóm tôpô, và $i : G \to \tilde{G}$ là một đồng cấu liên tục.
 
-#### Mệnh đề 2 {#top-iii-s7-prop-2 .statement}
+#### Mệnh đề 2 {#top-iii-s7-prop-2 .statement tag=0BOK}
 
 *Cho $G$ là một nhóm tôpô và cho $(H_\alpha)_{\alpha \in I}$ là một họ các nhóm con chuẩn tắc của $G$ sao cho $H_\alpha \supset H_\beta$ bất cứ khi nào $\alpha \leq \beta$, và thỏa mãn điều kiện sau:*
 
@@ -165,13 +165,13 @@ Cuối cùng, giả sử rằng có một chỉ số $\gamma \in I$ sao cho $H_\
 
 Q.E.D.
 
-#### Hệ quả 1 {#top-iii-s7-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#top-iii-s7-prop-2-cor-1 .statement tag=0BOL}
 
 *Nếu điều kiện (AP) được thỏa mãn và nếu thêm vào đó các nhóm (Hausdorff) $G/H_\alpha$ đầy đủ, thì nhóm $G$ có một sự đầy đủ hóa Hausdorff có thể được đồng nhất với $\tilde{G}$; và ánh xạ $i : G \to \tilde{G}$ khi đó được đồng nhất với ánh xạ chính tắc ($§ 3$, no. 3, Mệnh đề 5).*
 
 Vì $\tilde{G}$ khi đó đầy đủ (no. 2), và Mệnh đề 2 cho thấy $i(G)$ đẳng cấu với nhóm Hausdorff liên kết với $G$; vì nó trù mật trong $\tilde{G}$, hệ quả suy ra ($§ 3$, no. 3, Mệnh đề 5). Nói riêng:
 
-#### Hệ quả 2 {#top-iii-s7-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#top-iii-s7-prop-2-cor-2 .statement tag=0BOM}
 
 *Cho $G$ là một nhóm và cho $(H_\alpha)$ là một họ các nhóm con chuẩn tắc của $G$, có hướng đối với quan hệ $H_\alpha \supset H_\beta$. Nếu ta trang bị cho $G$ tôpô nhóm sao cho các $H_\alpha$ tạo thành một hệ cơ sở của các lân cận của phần tử đơn vị $e$, thì nhóm Hausdorff liên kết với $G$ đẳng cấu với $G_1 = G / \left( \bigcap_\alpha H_\alpha \right)$; $G_1$ có một sự đầy đủ hóa $\hat{G}_1 = \tilde{G}$; và ánh xạ chính tắc $G_1 \to \tilde{G} = \varprojlim G/H_\alpha$ mở rộng thành một đẳng cấu của $\hat{G} = \hat{G}_1$ lên $\tilde{G}$.*
 
@@ -185,13 +185,13 @@ $$
 
 khi đó là một *đẳng cấu của các nhóm tôpô* cho phép ta đồng nhất $G$ và $\tilde{G}$. Ta ký hiệu $f_\alpha$ là ánh xạ chính tắc $G \to G/H_\alpha$.
 
-#### Bổ đề 1 {#top-iii-s7-lem-1 .statement}
+#### Bổ đề 1 {#top-iii-s7-lem-1 .statement tag=0BON}
 
 *Dưới các giả thiết của Mệnh đề 2, nếu $E$ là bất kỳ tập con đóng nào của $G$ thì ta có* $E = \bigcap_\alpha E H_\alpha$.
 
 Vì $E$ là giao của các tập $EV$ khi $V$ chạy qua họ lân cận của $e$ [$\S$ 3, no. 1, công thức (1)], và mọi lân cận của $e$ đều chứa một $H_\alpha$; do đó có kết quả, vì $E \subset EH_\alpha$.
 
-#### Mệnh đề 3 {#top-iii-s7-prop-3 .statement}
+#### Mệnh đề 3 {#top-iii-s7-prop-3 .statement tag=0BOO}
 
 *Giả sử rằng $G$ là Hausdorff và rằng các $H_\alpha$ là compact và thỏa mãn* (AP).
 
@@ -203,13 +203,13 @@ a) Vì $H_\alpha$ là compact, $LH_\alpha$ đóng trong $G$ ($\S$ 4, no. 1, Mệ
 
 b) Đặt $f'_{\alpha \beta}$ là hạn chế của $f_{\alpha \beta}$ lên $L_\beta$ ($\alpha \leq \beta$). Khi đó $(L_\alpha, f'_{\alpha \beta})$ là một hệ ngược các nhóm tôpô, mà giới hạn ngược $L$ có thể được đồng nhất với nhóm con $G \cap \prod_\alpha L_\alpha$ của $G$. Theo giả thiết, $f'_{\alpha \beta}$ là toàn ánh và hạt nhân của nó là nhóm con compact $f_\beta(H_\alpha) \cap L_\beta$ của $L_\beta$; do đó (Chương I, $\S$ 9, no. 6, Hệ quả 1 của Mệnh đề 8) ta có $L_\alpha = f_\alpha(L)$ với mọi $\alpha \in I$. Nếu $L'$ là một nhóm con đóng khác của $G$ sao cho $f_\alpha(L') = L_\alpha$ với mọi $\alpha \in I$, thì $L'H_\alpha = \overline{f'}_\alpha(L_\alpha)$, do đó (Bổ đề 1) $L' = \bigcap_\alpha L'H_\alpha = \bigcap_\alpha \overline{f'}_\alpha(L_\alpha) = L$. Cuối cùng, khẳng định cuối cùng của b) suy ra từ công thức $L = \bigcap_\alpha \overline{f'}_\alpha(L_\alpha)$, vì các $\overline{f'}_\alpha(L_\alpha)$ nay là các nhóm con chuẩn tắc của $G$.
 
-#### Mệnh đề 4 {#top-iii-s7-prop-4 .statement}
+#### Mệnh đề 4 {#top-iii-s7-prop-4 .statement tag=0BOP}
 
 *Giả sử $G$ là Hausdorff, các $H_\alpha$ là compact và (AP) được thỏa mãn. Nếu $C_\alpha$ là thành phần liên thông đơn vị của $G_\alpha = G/H_\alpha$, thì thành phần liên thông đơn vị $C$ của $G$ có thể được đồng nhất với $\varprojlim C_\alpha$, và ta có $f_\alpha(C) = C_\alpha$.*
 
 Mệnh đề là một hệ quả của bổ đề sau đây:
 
-#### Bổ đề 2 {#top-iii-s7-lem-2 .statement}
+#### Bổ đề 2 {#top-iii-s7-lem-2 .statement tag=0BOQ}
 
 *Cho $G$ là một nhóm tôpô Hausdorff và cho $H$ là một nhóm con chuẩn tắc compact của $G$, và $\varphi$ là ánh xạ chính tắc $G \to G/H$. Nếu $C$ là thành phần liên thông của đơn vị của $G$, thì $\varphi(C)$ là thành phần liên thông của đơn vị của $G' = G/H$.*
 
@@ -225,13 +225,13 @@ Bây giờ đặt $F$ là giao của các lân cận của phần tử đơn v�
 
 Q.E.D.
 
-#### Nhận xét {#top-iii-s7-n3-rem-1 .statement}
+#### Nhận xét {#top-iii-s7-n3-rem-1 .statement tag=0BOR}
 
 Nếu nhóm con $H_\alpha$ là compact đối với *một* $\alpha \in I$, thì $H_\beta$ là compact với mọi $\beta \geq \alpha$, vì nó là một nhóm con đóng của $H_\alpha$. Vì tập tất cả các $\beta \in I$ sao cho $\beta \geq \alpha$ là đồng cuối trong $I$, nên trong việc nghiên cứu nhóm $G$, hầu như không có khác biệt nào giữa việc giả sử rằng một trong các $H_\alpha$ là compact hay rằng *tất cả* các $H_\alpha$ đều compact.
 
 ### 4. ỨNG DỤNG VÀO GIỚI HẠN NGƯỢC
 
-#### Mệnh đề 5 {#top-iii-s7-prop-5 .statement}
+#### Mệnh đề 5 {#top-iii-s7-prop-5 .statement tag=0BOS}
 
 ==========
 
@@ -247,13 +247,13 @@ $$
 
 Nếu $H_\alpha = f_\alpha^{-1}(e_\alpha)$, thì mỗi $H_\alpha$ là một nhóm con chuẩn tắc compact của $G$; các $H_\alpha$ rõ ràng thỏa mãn điều kiện (AP) của no. 3; và $G_\alpha$ có thể được đồng nhất với $G/H_\alpha$. Đặc biệt, Mệnh đề 3 và 4 của no. 3 áp dụng cho $G$ và các $H_\alpha$.
 
-#### Hệ quả 1 {#top-iii-s7-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#top-iii-s7-prop-5-cor-1 .statement tag=0BOT}
 
 *Cho* $(G_\alpha, f_{\alpha \beta})$ *là một hệ ngược các nhóm tôpô thỏa mãn các giả thiết của Mệnh đề 5; cho* $(G'_\alpha, f'_{\alpha \beta})$ *là một hệ ngược các nhóm tôpô, và với mỗi* $\alpha$ *cho* $u_\alpha : G_\alpha \to G'_\alpha$ *là một cấu xạ ngặt toàn ánh có hạt nhân compact, sao cho các* $u_\alpha$ *tạo thành một hệ ngược các ánh xạ. Khi đó* $u = \varprojlim u_\alpha$ *là một cấu xạ ngặt của* $G = \varprojlim G_\alpha$ *lên* $G' = \varprojlim G'_\alpha$, *và hạt nhân của nó là compact*.
 
 Cho $N_\alpha$ là hạt nhân của $u_\alpha$. Khi đó $L_\alpha = f_\alpha^{-1}(N_\alpha)$ là hạt nhân của cấu xạ ngặt toàn ánh $v_\alpha = u_\alpha \circ f_\alpha : G \to G'_\alpha$; vì $L_\alpha / H_\alpha$ đẳng cấu với $N_\alpha$ (§ 2, no. 7, Mệnh đề 20), nên $L_\alpha$ là một nhóm con chuẩn tắc *compact* của $G$ (§ 4, no. 1, Hệ quả 2 của Mệnh đề 2). Hạt nhân $L$ của $u$ là giao của các $L_\alpha$. Ký hiệu $\varphi$ là ánh xạ chính tắc $G \to G/L$; khi đó ta có thể viết $v_\alpha = w_\alpha \circ \varphi$, trong đó $w_\alpha$ là một cấu xạ ngặt của $G/L$ lên $G'_\alpha$, có hạt nhân là $L_\alpha / L$. Vì giao của các $L_\alpha / L$ là phần tử đơn vị của $G/L$, và vì các $L_\alpha / L$ tạo thành một cơ sở lọc và là compact, nên cơ sở lọc này hội tụ về phần tử đơn vị của $G/L$ (Chương I, § 9, no. 1, Hệ quả của Định lý 1). Mệnh đề 2 của no. 3 suy ra rằng $w = \varprojlim w_\alpha$ là một *đẳng cấu* từ $G/L$ lên $G'$; suy ra $w \circ \varphi$ là một cấu xạ ngặt của $G$ lên $G'$, với hạt nhân $L$. Nhưng hiển nhiên $u = w \circ \varphi$, và do đó hệ quả được chứng minh.
 
-#### Hệ quả 2 {#top-iii-s7-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#top-iii-s7-prop-5-cor-2 .statement tag=0BOU}
 
 *Cho* $(G_\alpha, f_{\alpha \beta})$ *là một hệ ngược của các nhóm tôpô thỏa mãn các điều kiện của Mệnh đề 5, và cho* $G'$ *là một nhóm tôpô trong đó có một lân cận* $V'$ *của phần tử đơn vị* $e'$ *không chứa nhóm con nào* của $G'$ *khác* $\{ e' \}$. Khi đó nếu $v : G \to G'$ là một đồng cấu liên tục bất kỳ, thì tồn tại một chỉ số $\alpha \in I$ và một đồng cấu liên tục $v_\alpha : G_\alpha \to G'$ sao cho $v = v_\alpha \circ f_\alpha$.
 

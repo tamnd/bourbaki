@@ -37,7 +37,7 @@ subsections:
       pdf_page: 340
 statements: 10
 exercises: 4
-content_sha256: 827c18f8ce46c39a3cc2ccd9545ab82eb720d25d52cf9078700bbc167f4583ac
+content_sha256: f4c12bd1cb845b5f3c66dbac6fe917b0b8b7c5cafbedd83622f13c0a4a7e7248
 ---
 
 ## 1. DEFINITION OF REAL NUMBERS
@@ -122,7 +122,7 @@ Consider the set $\mathfrak{F}$ of *symmetric open intervals* $]-a, +a[$, where 
 
 The group $\mathbf{Q}$ is commutative, and axiom $(\mathrm{GV}'_{\mathrm{II}})$ is clearly satisfied; it is therefore enough to show that axiom $(\mathrm{GV}'_{\mathrm{I}})$ is also satisfied, in other words, that for each $a > 0$ there exists $b > 0$ such that the conditions $|x| < b$ and $|y| < b$ together imply $|x + y| < a$. The triangle inequality shows that we may take $b = a/2$.
 
-#### Definition 1 {#top-iv-s1-def-1 .statement}
+#### Definition 1 {#top-iv-s1-def-1 .statement tag=0BP1}
 
 *The rational line is the topological space consisting of the set $\mathbf{Q}$ together with the additive group topology for which the symmetric open intervals $]-a, +a[$ $(a > 0)$ form a fundamental system of neighbourhoods of $0$.*
 
@@ -140,7 +140,7 @@ For each $a > 0$, let $U_a$ be the set of pairs $(x, y)$ in $\mathbf{Q} \times \
 
 ### 3. THE REAL LINE AND REAL NUMBERS
 
-#### Definition 2 {#top-iv-s1-def-2 .statement}
+#### Definition 2 {#top-iv-s1-def-2 .statement tag=0BP2}
 
 Let $\mathbf{R}$ denote the topological group which is the completion of the additive group $\mathbf{Q}$ of the rational line. The elements of $\mathbf{R}$ are called real numbers; as a topological space, $\mathbf{R}$ is called the real line; as a topological group, $\mathbf{R}$ is called the additive group of the real line.
 
@@ -148,7 +148,7 @@ We shall always identify $\mathbf{Q}$ with the dense subgroup of $\mathbf{R}$ to
 
 We shall show that the order structure of $\mathbf{Q}$ can be extended to $\mathbf{R}$ in such a way that the extended ordering is still compatible with the additive group structure of $\mathbf{R}$:
 
-#### Proposition 1 {#top-iv-s1-prop-1 .statement}
+#### Proposition 1 {#top-iv-s1-prop-1 .statement tag=0BP3}
 
 The relation $y - x \in \overline{\mathbf{Q}}_+$ is an ordering on $\mathbf{R}$ which makes $\mathbf{R}$ into a linearly ordered set; is compatible with the additive group structure on $\mathbf{R}$, and induces the ordering $x \leq y$ on $\mathbf{Q}$.
 
@@ -164,7 +164,7 @@ The relation $y - x \in \overline{\mathbf{Q}}_+$ is again denoted by $x \leq y$.
 
 ### 4. PROPERTIES OF INTERVALS IN $\mathbf{R}$
 
-#### Proposition 2 {#top-iv-s1-prop-2 .statement}
+#### Proposition 2 {#top-iv-s1-prop-2 .statement tag=0BP4}
 
 *Every closed (resp. open) interval in $\mathbf{R}$ is a closed (resp. open) set in $\mathbf{R}$.*
 
@@ -172,7 +172,7 @@ The sets $[a, \to[ = a + \mathbf{R}_+$ and $]\leftarrow, a] = a - \mathbf{R}_+$ 
 
 The closed intervals $[-a, +a]$ ($a > 0$) in $\mathbf{R}$ are therefore neighbourhoods of 0. Let us show that they form a *fundamental system of neighbourhoods* of 0 as $a$ runs through $\mathbf{R}_+^*$. For this it is enough to establish the following proposition:
 
-#### Proposition 3 {#top-iv-s1-prop-3 .statement}
+#### Proposition 3 {#top-iv-s1-prop-3 .statement tag=0BP5}
 
 *As $r$ runs through the set of rational numbers $> 0$, the intervals $s_r = [-r, +r]$ in $\mathbf{R}$ form a fundamental system of neighbourhoods of 0.*
 
@@ -180,23 +180,23 @@ By Proposition 7 of Chapter III, § 3, no. 4 we obtain a fundamental system of n
 
 S_r \cap \mathbf{Q} = [-r, +r] \textit{of} \mathbf{Q}. The proof will be complete if we show that S_r is the closure of S_r \cap \mathbf{Q}. Now S_r is closed in \mathbf{R}, and we need therefore only prove that, if x is a real number such that -r < x < r, then x is in the closure of S_r \cap \mathbf{Q}. The interval ]-r, +r[ is an open set in \mathbf{R} and therefore for all sufficiently small neighbourhoods V of o in \mathbf{R} we have x + V \subset ]-r, +r[; but \mathbf{Q} being dense in \mathbf{R}, there is a rational number r' \in x + V, so that -r < r' < r and therefore r' \in S_r \cap \mathbf{Q}.
 
-#### Corollary {#top-iv-s1-n4-cor-1 .statement}
+#### Corollary {#top-iv-s1-n4-cor-1 .statement tag=0BP6}
 
 *Every point of the real line has a countable fundamental system of neighbourhoods.*
 
-#### Proposition 4 {#top-iv-s1-prop-4 .statement}
+#### Proposition 4 {#top-iv-s1-prop-4 .statement tag=0BP7}
 
 *If (x, y) is any pair of real numbers such that x < y, there is a rational number r such that x < r < y.*
 
 Since \mathbf{Q} is dense in \mathbf{R}, it is enough to show that ]x, y[ is not empty; by translation we may assume x = 0 and y > 0. Now \mathbf{R} is a Hausdorff space and therefore, by Proposition 3, there is a rational number r > 0 such that y \notin ]-r, +r[, and this implies that 0 < r < y.
 
-#### Proposition 5 {#top-iv-s1-prop-5 .statement}
+#### Proposition 5 {#top-iv-s1-prop-5 .statement tag=0BP8}
 
 *Let I be any interval in \mathbf{R}. Then the topology induced on I by the topology of \mathbf{R} is generated by the open intervals of I (where I is considered as linearly ordered by the relation x \leq y).*
 
 Every open interval of I is the trace on I of an open interval of \mathbf{R}. This is clear for a bounded interval, and the unbounded interval ]a, \to[ of I is the trace of the unbounded interval ]a, \to[ of \mathbf{R}. We may therefore restrict ourselves to the case I = \mathbf{R}; but in this case the result follows from Proposition 3, since every neighbourhood of a point x \in \mathbf{R} contains an open interval ]x - a, x + a[.
 
-#### Remark {#top-iv-s1-n4-rem-1 .statement}
+#### Remark {#top-iv-s1-n4-rem-1 .statement tag=0BP9}
 
 If A is a dense subset of \mathbf{R}, the topology of \mathbf{R} is generated by the open intervals whose end-points belong to A. For if
 
@@ -206,7 +206,7 @@ is an open interval containing x, there exist two points y, z of A such that x -
 
 ### 5. LENGTH OF AN INTERVAL
 
-#### Definition 3 {#top-iv-s1-def-3 .statement}
+#### Definition 3 {#top-iv-s1-def-3 .statement tag=0BPA}
 
 *The length of a bounded interval with end-points a and b (a \leq b) is defined to be b - a.*
 

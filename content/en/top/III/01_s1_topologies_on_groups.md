@@ -25,7 +25,7 @@ subsections:
       pdf_page: 230
 statements: 11
 exercises: 9
-content_sha256: ea2137e40e141a233cab0cbc1865aad0c9e32302bb4d5c2cfa3d6634e68de3bc
+content_sha256: f983e9d3b98ec2684f1a28bb47c3f0112d4c5196bbdba56270d17585e82bcb5b
 ---
 
 ## 1. TOPOLOGIES ON GROUPS
@@ -34,7 +34,7 @@ content_sha256: ea2137e40e141a233cab0cbc1865aad0c9e32302bb4d5c2cfa3d6634e68de3bc
 
 In the first four sections of this chapter the law of composition of a group will generally be written multiplicatively, and e shall denote the identity element; translation of results into additive notation (which, we recall, is reserved exclusively to commutative groups) is usually left to the reader.
 
-#### Definition 1 {#top-iii-s1-def-1 .statement}
+#### Definition 1 {#top-iii-s1-def-1 .statement tag=0BH8}
 
 A topological group is a set G which carries a group structure and a topology and satisfies the following two axioms:
 
@@ -44,17 +44,17 @@ A topological group is a set G which carries a group structure and a topology an
 
 A group structure and a topology on a set G are said to be compatible if they satisfy (GT_I) and (GT_{II}).
 
-#### Example 1 {#top-iii-s1-n1-exa-1 .statement}
+#### Example 1 {#top-iii-s1-n1-exa-1 .statement tag=0BH9}
 
 The discrete topology on a group G is compatible with the group structure. A topological group whose topology is discrete is called a discrete group.
 
 Again, the coarsest topology (Chapter I, § 2, no. 2) on G is compatible with the group structure of G.
 
-#### Example 2 {#top-iii-s1-n1-exa-2 .statement}
+#### Example 2 {#top-iii-s1-n1-exa-2 .statement tag=0BHA}
 
 \* In Chapter IV we shall see that the topology of the rational line Q (resp. the real line R) is compatible with the additive group structure of Q (resp. R).
 
-#### Example 3 {#top-iii-s1-n1-exa-3 .statement}
+#### Example 3 {#top-iii-s1-n1-exa-3 .statement tag=0BHB}
 
 If G is a topological group, its topology is compatible with the structure of the group $G^0$ which is the opposite of G; $G^0$, with this topology, is said to be the topological group opposite to G.
 
@@ -115,7 +115,7 @@ $(GV_{III}).$ *For all* $a \in G$ *and all* $V \in \mathfrak{B}$, *we have* $a.V
 
 These three properties of the filter $\mathfrak{B}$ are *characteristic*:
 
-#### Proposition 1 {#top-iii-s1-prop-1 .statement}
+#### Proposition 1 {#top-iii-s1-prop-1 .statement tag=0BHC}
 
 *Let* $G$ *be a group and let* $\mathfrak{B}$ *be a filter on* $G$ *satisfying the axioms* $(GV_1)$, $(GV_{II})$ *and* $(GV_{III})$. *Then there is a unique topology on* $G$, *compatible with the group structure of* $G$, *for which* $\mathfrak{B}$ *is the neighbourhood filter of the identity element* $e$. *For this topology the neighbourhood filter of any point* $a \in G$ *is the same as each of the two filters* $a.\mathfrak{B}$ *and* $\mathfrak{B}.a$.
 
@@ -135,7 +135,7 @@ $(GV'_1).$ *Given any* $U \in \mathfrak{B}$, *there exists* $V \in \mathfrak{B}$
 
 A neighbourhood of $e$ which coincides with its image under the symmetry $x \to x^{-1}$ is said to be *symmetric*. If $V$ is any neighbourhood of $e$, then $V \cup V^{-1}$, $V \cap V^{-1}$ and $V . V^{-1}$ are symmetric neighbourhoods. By (GV_{II}), the symmetric neighbourhoods form a *fundamental system of neighbourhoods* of $e$. Also it follows from (GV_{I}) that when $V$ runs through a fundamental system of neighbourhoods of $e$, the sets $V^n$ (where $n$ is a fixed integer $\neq 0$) form a fundamental system of neighbourhoods of $e$.
 
-#### Remark {#top-iii-s1-n2-rem-1 .statement}
+#### Remark {#top-iii-s1-n2-rem-1 .statement tag=0BHD}
 
 If $G$ is *commutative*, we have $x . A . x^{-1} = A$ for every subset $A$ of $G$ and every $x \in G$, and therefore (GV_{III}) [resp. (GV'_{III})] is automatically satisfied for every filter (resp. filter base) on $G$. On the other hand, if $G$ is not abelian, then (GV_{III}) is not a consequence of (GV_{I}) and (GV_{II}) [see Exercise 5].
 
@@ -145,19 +145,19 @@ If $G$ is a commutative group, written *additively*, the axioms which characteri
 
 (GA_{II}). *Given any* $U \in \mathfrak{B}$, *we have* $-U \in \mathfrak{B}$.
 
-#### Proposition 2 {#top-iii-s1-prop-2 .statement}
+#### Proposition 2 {#top-iii-s1-prop-2 .statement tag=0BHE}
 
 *A topological group* $G$ *is Hausdorff if and only if the set* $\{e\}$ *is closed*.
 
 Clearly, if $G$ is Hausdorff, then $\{e\}$ is closed. Conversely, if $\{e\}$ is closed, then the diagonal $\Delta$ of $G \times G$ is closed, because it is the inverse image of $\{e\}$ under the continuous mapping $(x, y) \to xy^{-1}$; hence (Chapter I, § 8, no. 1, Proposition 1) $G$ is Hausdorff.
 
-#### Corollary {#top-iii-s1-n2-cor-1 .statement}
+#### Corollary {#top-iii-s1-n2-cor-1 .statement tag=0BHF}
 
 *A topological group* $G$ *is Hausdorff if and only if the intersection of the neighbourhoods of* $e$ *consists only of the point* $e$.
 
 The condition is clearly necessary. Conversely, if the intersection of all the neighbourhoods of $e$ is just $\{e\}$, then given any $x \neq e$ there is a neighbourhood $V$ of $e$ such that $x^{-1} \notin V$ and therefore $e \notin xV$. This shows that $x$ is not in the closure of $\{e\}$, and thus $\{e\}$ is closed, so that $G$ is Hausdorff.
 
-#### Example {#top-iii-s1-n2-exa-1 .statement}
+#### Example {#top-iii-s1-n2-exa-1 .statement tag=0BHG}
 
 *Definition of a topology on a group by means of a set of subgroups.* If $\mathfrak{B}$ is a *filter base* on a group $G$, formed of *subgroups* of $G$, then it is immediately seen that $\mathfrak{B}$ satisfies axioms (GV_{I}) and (GV_{II}), since $H . H^{-1} = H$ for any subgroup $H$ of $G$. Hence the set $\mathfrak{B}$ will be a *fundamental system of neighbourhoods* of $e$ in a topology compatible with the group structure of $G$, provided that $\mathfrak{B}$ satisfies (GV_{III}); this will in particular be the case if all the subgroups in $\mathfrak{B}$ are normal, hence always if $G$ is *commutative*. The topology thus defined is *Hausdorff*, by Proposition 2, if and only if *the intersection of all the subgroups in $\mathfrak{B}$ consists only of* $e$. The most interesting cases are those in which the subgroup $\{ e \}$ *is not in* $\mathfrak{B}$ (otherwise the topology defined by $\mathfrak{B}$ is the *discrete* topology): if $\{ e \} \notin \mathfrak{B}$, the topology defined by $\mathfrak{B}$ is Hausdorff only if $\mathfrak{B}$ is an *infinite* set.
 
@@ -173,7 +173,7 @@ For example, if $a$ is any point of $G$, the mapping $x \to axa^{-1}$ is an isom
 
 If a topology $\mathscr{C}$ is compatible with the group structure of a group $G$, then $\mathscr{C}$ is also compatible with the group structure *opposite* to that of $G$. If $G^0$ denotes the topological group obtained by giving the group opposite to $G$ the topology $\mathscr{C}$, then the symmetry $x \to x^{-1}$ is an *isomorphism* of the topological group $G$ onto the topological group $G^0$.
 
-#### Definition 2 {#top-iii-s1-def-2 .statement}
+#### Definition 2 {#top-iii-s1-def-2 .statement tag=0BHH}
 
 *If* $G$ *and* $G'$ *are two topological groups, a local isomorphism of* $G$ *with* $G'$ *is a homeomorphism* $f$ *of a neighbourhood* $V$ *of the identity element of* $G$ *onto a neighbourhood* $V'$ *of the identity element of* $G'$ *which satisfies the following conditions:*
 
@@ -196,7 +196,7 @@ A local isomorphism of G with G is called a local automorphism of G.
 
 In general, if f is a homeomorphism of a neighbourhood V of the identity element of G onto a neighbourhood V' of the identity element of G' which satisfies condition 1) of Definition 2, f does not necessarily satisfy condition 2) (see Exercise 7). Nevertheless, G and G' are in fact locally isomorphic.
 
-#### Proposition 3 {#top-iii-s1-prop-3 .statement}
+#### Proposition 3 {#top-iii-s1-prop-3 .statement tag=0BHI}
 
 Let G and G' be two topological groups, and let f be a homeomorphism of a neighbourhood V of the identity element of G onto a neighbourhood V' of the identity element of G', which satisfies condition 1) of Definition 2. Then f is an extension of a local isomorphism of G with G'.
 

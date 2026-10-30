@@ -34,7 +34,7 @@ subsections:
       pdf_page: 138
 statements: 16
 exercises: 11
-content_sha256: e4cb1c0f59e216b1e2bf508d5c5536fa1040ed140f5aa74885fc51851e6bb0c4
+content_sha256: 3241339997ce73c5c7c8e2d89726d212c0114ffe550ca62f6d99a3555f81af86
 ---
 
 ## § 4. ENTIERS NATURELS. ENSEMBLES FINIS
@@ -132,7 +132,7 @@ $$
 
 Pour ce faire, on utilise souvent la méthode de l’hypothèse auxiliaire (I, p. 27) et c’est pourquoi la relation « $n$ est un entier et $R^{n}$ » (ou même $R^{n}$) est appelée l’hypothèse de récurrence.
 
-#### Remarque {#ens-iii-s4-n3-rem-1 .statement}
+#### Remarque {#ens-iii-s4-n3-rem-1 .statement tag=077T}
 
 On utilise souvent, sous le nom de « principe de récurrence » divers critères qui se déduisent aisément de C61, et dont nous allons indiquer les plus importants:
 

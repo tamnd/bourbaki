@@ -53,7 +53,7 @@ subsections:
       pdf_page: 561
 statements: 56
 exercises: 26
-content_sha256: 3e3bb9ce163e9ba611881a7029e173493d806504fe1118f6e0b1d2a7f4b8ad75
+content_sha256: e844bc07328baa63d18f9cc872ccc1bfdf37962fcce4ea5fa1839529126044ae
 translated_from: content/en/ac/VII/04_s4_modules_over_integrally_closed.md
 source_content_sha256: 9d84176bb7197646c99917a0bb7b2b182f503cbfb4e79c05c4c5e64df82e6cb5
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -71,7 +71,7 @@ Phương pháp tổng quát để nghiên cứu các môđun sinh hữu hạn tr
 
 ### 1. CÁC DÀN
 
-#### Định nghĩa 1 {#ac-vii-s4-def-1 .statement}
+#### Định nghĩa 1 {#ac-vii-s4-def-1 .statement tag=052X}
 
 *Cho $V$ là một không gian vectơ hữu hạn chiều trên trường $K$. Một dàn của $V$ đối với $\mathbf{A}$ (hay đơn giản là một dàn của $V$) được định nghĩa là bất kỳ môđun con-$\mathbf{A}$ $M$ nào của $V$ thỏa mãn điều kiện sau:*
 
@@ -84,27 +84,27 @@ Ví dụ
 
 (3) Nếu A là *một miền iđêan chính*, mọi dàn M của V là một A-môđun sinh hữu hạn (vì A là Noether) không xoắn và do đó là một A-môđun *tự do* (*Đại số*, Chương VII, § 4, no. 3, Hệ quả 2 của Định lý 2).
 
-#### Mệnh đề 1 {#ac-vii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vii-s4-prop-1 .statement tag=052Y}
 
 *Đối với một môđun con-A M của V là một dàn của V, điều kiện cần và đủ là KM = V và M được chứa trong một môđun con-A sinh hữu hạn của V.*
 
 Các điều kiện rõ ràng là cần thiết, vì một môđun con-A tự do của V có cùng hạng với V sinh ra V. Ngược lại, nếu KM = V, M chứa một cơ sở $(a_i)_{1 \leq i \leq n}$ của V trên K và do đó nó chứa môđun con-A tự do L, sinh bởi các $a_i$; mặt khác, nếu $M \subset M_1$, trong đó M, là một môđun con-A của V được sinh bởi một số hữu hạn phần tử b, và $(e_i)_{1 \leq i \leq n}$ là một cơ sở của V trên K, tồn tại một phần tử s $\neq 0$ của A sao cho mỗi b, là một tổ hợp tuyến tính của các $s^{-1}e_i$ với các hệ số *trong* A; nếu L, là các môđun con-A tự do của V được sinh bởi các $s^{-1}e_i$, thì $M \subset L_2$.
 
-#### Hệ quả {#ac-vii-s4-n1-cor-1 .statement}
+#### Hệ quả {#ac-vii-s4-n1-cor-1 .statement tag=052Z}
 
 *Giả sử rằng A là Noether; đối với một môđun con-A M của V là một dàn của V, điều kiện cần và đủ là KM = V và M sinh hữu hạn.*
 
-#### Nhận xét (1) {#ac-vii-s4-n1-rem-1 .statement}
+#### Nhận xét (1) {#ac-vii-s4-n1-rem-1 .statement tag=0530}
 
 Nhắc lại rằng với mọi môđun con-A M của V, ánh xạ chính tắc $M \otimes_A K \to V$ là đơn ánh và có ảnh KM (*Đại số*, Chương II, § 7, no. 10, Mệnh đề 26); nói rằng KM = V có nghĩa là do đó ánh xạ này là *song ánh*.
 
-#### Mệnh đề 2 {#ac-vii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vii-s4-prop-2 .statement tag=0531}
 
 *Cho M là một dàn của V và M, một môđun con-A của V. Nếu tồn tại hai phần tử x, y của $K^*$ sao cho $xM \subset M_1 \subset yM$, $M_1$ là một dàn của V; ngược lại, nếu $M_1$ là một dàn của V, tồn tại hai phần tử khác không a, b của A sao cho $aM \subset M, \subset b^{-1}M$.*
 
 Nếu $L_1, L_2$ là hai dàn tự do của V sao cho $L, \subset M \subset L,$, các quan hệ $xM \subset M_1 \subset yM$ kéo theo $xL_1 \subset M, \subset yL_2$ và $xL_1$ và $yL_2$ là các dàn tự do; ngược lại, nếu M, là một dàn và $(e_i)_{1 \leq i \leq n}$ là một cơ sở của L, trên A, thì quan hệ KM, = V kéo theo sự tồn tại của $x = a/s \in K^*$ (trong đó a và s là các phần tử khác không của A) sao cho $xe_i \in M,$ với mọi $i$, do đó $xM \subset xL_2 \subset M_1$ và *a fortiori* $aM \subset M,$; khi đổi vai trò của M và M, cũng có thể chứng minh tương tự rằng tồn tại $b \neq 0$ trong A sao cho $bM_1 \subset M$.
 
-#### Mệnh đề 3 {#ac-vii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vii-s4-prop-3 .statement tag=0532}
 
 (i) *Nếu $M_1$ và $M_2$ là các dàn của V, thì $M_1 \cap M,$ và $M_1 + M_2$ cũng vậy.
 
@@ -126,7 +126,7 @@ là một ánh xạ đa tuyến tính mà ảnh sinh ra $V$. *Nếu $M_i$ là m�
 
 (iv) Cho $P$ (resp. $Q$) là một dàn tự do của $V$ (resp. $W$) chứa $M$ (resp. được chứa trong $N$); hiển nhiên $N : M \supset Q : P$. Bây giờ ngay lập tức có được rằng $Q : P$ đẳng cấu với $\mathrm{Hom}_A(P, Q)$, do đó là một A-môđun tự do có hạng $(\mathrm{rg}_A P)(\mathrm{rg}_A Q)$ (*Đại số*, Chương II, § 1, no. 6, Hệ quả 1 của Mệnh đề 6) và vì thế là một dàn của $\mathrm{Hom}_K(V, W)$. Tương tự, nếu $P'$ (resp. $Q'$) là một dàn tự do của $V$ (resp. $W$) được chứa trong $M$ (resp. chứa $N$), thì $Q' : P' \supset N : M$ và $Q' : P'$ là một dàn của $\mathrm{Hom}_K(V, W)$; do đó kết luận.
 
-#### Nhận xét (2) {#ac-vii-s4-n1-rem-2 .statement}
+#### Nhận xét (2) {#ac-vii-s4-n1-rem-2 .statement tag=0CIY}
 
 Mệnh đề 3 (i) cho thấy tập $R(V)$ các dàn của $V$ là *có thứ tự dàn* đối với quan hệ bao hàm; hơn nữa, nếu $M$ là một dàn cố định của $V$, thì các $xM$, với $x$ chạy qua $K^*$, tạo thành một tập con của $R(V)$ vừa *đồng đầu* vừa *đồng cuối* (*Lý thuyết tập hợp*, Chương III, § 1, no. 7).
 
@@ -143,7 +143,7 @@ và ta đã thấy rằng $M \otimes_A K$ và $N \otimes_A K$ được đồng n
 
 Đặc biệt, nếu ta lấy $W = K$, $N = A$, thì $\operatorname{Hom}_K(V, W)$ chính là *không gian vectơ K đối ngẫu* $V^*$ của $V$ và $A$: $M$ được đồng nhất với *A-môđun đối ngẫu* $M^*$ của $M$; từ nay về sau ta sẽ thực hiện sự đồng nhất này và ta sẽ nói rằng $M^*$ là *dàn đối ngẫu* của $M$: do đó nó là *tập hợp các* $x^* \in V^*$ *sao cho* $\langle x, x^* \rangle \in A$ *với mọi* $x \in M$.
 
-#### Hệ quả {#ac-vii-s4-n1-cor-2 .statement}
+#### Hệ quả {#ac-vii-s4-n1-cor-2 .statement tag=0533}
 
 *Cho U, V, W là ba không gian vectơ hạng hữu hạn trên K và f: U × V → W là một ánh xạ K-song tuyến tính không suy biến trái* (Đại số, Chương IX, § 1, no. 1, Định nghĩa 3). *Nếu M là một dàn của V và N là một dàn của W, thì tập hợp N: ,M các x ∈ U sao chof (x, y) ∈ N với mọiy ∈ M là một dàn của U*.
 
@@ -161,7 +161,7 @@ với $i \geq 2$ và $j \geq 2$; dàn của $S$ có cơ sở là $e_1$ và các 
 
 (5) Cho $V$ là một không gian vectơ hữu hạn chiều trên $K$ và $f$ là một dạng song tuyến tính không suy biến trên $V$. Nếu $M$ là một dàn của $V$, thì từ Hệ quả của Mệnh đề 3 suy ra rằng tập $M^*_f$ các $x \in V$ sao cho $f(x, y) \in A$ với mọi y $\in M$ cũng là một dàn của $V$; nếu $s_f: V \to V^*$ là ánh xạ tuyến tính trái liên kết với $f$ (là song ánh), thì $s_f(M^*_f)$ chính là dàn đối ngẫu $M^*$ của $M$.
 
-#### Mệnh đề 4 {#ac-vii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vii-s4-prop-4 .statement tag=0534}
 
 *Cho B là một miền nguyên, A là một vành con của B và K và L là các trường & trường phân thức tương ứng của A và B. Cho V là một không gian vectơ hữu hạn chiều trên K.*
 
@@ -173,7 +173,7 @@ với $i \geq 2$ và $j \geq 2$; dàn của $S$ có cơ sở là $e_1$ và các 
 
 (ii) $V_{(L)} = V \otimes_K L = V \otimes_A L$ (Chương II, § 2, no. 7, Mệnh đề 18) và, vì $L$ là một $B$-môđun phẳng, nó cũng là một $A$-môđun phẳng (Chương I, § 2, no. 7, Hệ quả 3 của Mệnh đề 8). Vì $B$ là một $A$-môđun phẳng, ánh xạ chính tắc $M \otimes_A B \to V \otimes_A B$ là đơn ánh; mặt khác, vì $V$ là một $K$-môđun tự do và $K$ là một $A$-môđun phẳng, $V$ là một $A$-môđun phẳng (Chương I, § 2, no. 7, Hệ quả 3 của Mệnh đề 8) và do đó ánh xạ chính tắc $V \otimes_A B \to V \otimes_A L$ là đơn ánh, điều này chứng minh mệnh đề thứ nhất. Để thấy thêm rằng quan hệ $BM_1 = BM_2$ kéo theo $M_1 = M_2$ đối với hai dàn $M_1, M_2$ của $V$ đối với $A$ khi $B$ là một $A$-môđun phẳng trung thành, trước hết chú ý rằng $BM_1 \cap BM_2 = B(M_1 \cap M_2)$ (Chương I, § 2, no. 6, Mệnh đề 6); vì vậy ta có thể chỉ xét trường hợp $M_1 \subset M$, và khi đó mệnh đề của ta suy ra từ Chương I, § 3, no. 1, Mệnh đề 3 áp dụng cho đơn ánh chính tắc $M_1 \to M_2$.
 
-#### Hệ quả {#ac-vii-s4-n1-cor-3 .statement}
+#### Hệ quả {#ac-vii-s4-n1-cor-3 .statement tag=0535}
 
 Giả sử rằng $A$ là một vành định giá rời rạc. Gọi $\hat{A}$ là phép hoàn thành của nó và gọi $\hat{K}$ là trường phân thức của $\hat{A}$ (Chương VI, § 5, no. 3). Ánh xạ $\phi$, gửi mỗi dàn $M$ của $V$ tới dàn $\hat{A}M$ của $\hat{V} = V \otimes_K \hat{K}$ đối với $\hat{A}$, là song ánh và nghịch đảo của nó gửi mỗi dàn $M'$ của $\hat{V}$ đối với $\hat{A}$ tới giao $M' \cap V$ của nó ($V$ được đồng nhất một cách chính tắc với một không gian con vectơ-$K$ của $\hat{V}$).
 
@@ -181,7 +181,7 @@ Nếu $L$ là một dàn tự do của $V$, thì các dàn $aL$ (với $a \in A,
 
 Ví dụ (6) Cho $S$ là một tập con nhân tính của $A$ không chứa 0; ta áp dụng Mệnh đề 4 cho $B = S^{-1}A$; khi đó $L = K$, $BM = S^{-1}M$; do đó $S^{-1}M$ là một dàn của $V$ đối với $S^{-1}A$. Hơn nữa:
 
-#### Mệnh đề 5 {#ac-vii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#ac-vii-s4-prop-5 .statement tag=0536}
 
 *Cho $V, W$ là các không gian vectơ hạng hữu hạn trên $K$, $M$ là một dàn của $V$ và $N$ là một dàn của $W$. Nếu $M$ sinh hữu hạn, thì (theo ký hiệu của Mệnh đề 3):*
 
@@ -201,7 +201,7 @@ Cho $V$ là một không gian vectơ hạng hữu hạn trên $K$, $V^*$ là đ�
 
 Nếu $p$ là một iđêan nguyên tố, thì Mệnh đề 5 áp dụng với $N = A$ cho quan hệ $(M^*)_p = (M_p)^*$, điều này biện minh cho ký hiệu $M_p^*$ cho cả hai vế.
 
-#### Định lý 1 {#ac-vii-s4-thm-1 .statement}
+#### Định lý 1 {#ac-vii-s4-thm-1 .statement tag=0537}
 
 *Nếu $M$ là một dàn của $V$, thì* $M^* = \bigcap_{p \in P} M_p^*$.
 
@@ -211,11 +211,11 @@ Rõ ràng $M^*$ được chứa trong mỗi $M_p^*$. Ngược lại, giả sử 
 
 Với mọi dàn $M$ đối với $A$, ánh xạ chính tắc $c_M : M \to M^{**}$ (*Đại số*, Chương 11, $§ 2$, no. **7**) đồng nhất một phần tử $x \in M$ với chính nó, vì $x$ là phần tử duy nhất $y$ của $V = V^{**}$ sao cho $\langle x, x^* \rangle = \langle y, x^* \rangle$ với mọi $x^* \in M^*$, vì $M^*$ sinh $V^*$. Ta sẽ nói rằng $M$ là *phản xạ* nếu $M^{**} = M$ (*loc. cit.*). Vì ở trên ta có $M^* = (M^*)^{**}$, suy ra rằng *đối ngẫu* của mọi dàn $M$ luôn luôn *phản xạ*.
 
-#### Nhận xét (1) {#ac-vii-s4-n2-rem-1 .statement}
+#### Nhận xét (1) {#ac-vii-s4-n2-rem-1 .statement tag=0538}
 
 Cho $M$ là một $A$-môđun sinh hữu hạn; ngay lập tức thấy rằng đối ngẫu $M^*$ của $M$, được đồng nhất với một môđun con-$A$ của $\operatorname{Hom}_A(M, K)$, là một *dàn* của không gian vectơ $K$ $\operatorname{Hom}_A(M, K)$; đặc biệt, mọi $A$-môđun *phản xạ* sinh hữu hạn đều đẳng cấu với một dàn của một không gian vectơ $K$ thích hợp.
 
-#### Định lý 2 {#ac-vii-s4-thm-2 .statement}
+#### Định lý 2 {#ac-vii-s4-thm-2 .statement tag=0539}
 
 *Nếu $M$ là một dàn của* $V$, *thì các điều kiện sau là tương đương*:
 (a) $M$ *là phản xạ*.
@@ -238,7 +238,7 @@ $$
 
 Mặt khác, nếu $p \in P$, thì trong chứng minh của Hệ quả của Định lý 1 đã thấy rằng $M_p^{**} = M_p$, do đó $p \notin \operatorname{Ass}(M^{**}/M)$ (Chương IV, $§ 1$, no. 3, Hệ quả 1 của Mệnh đề 7). Ta kết luận rằng Ass(M**/M) = ∅, do đó M** = M (Chương IV, § 1, no. 1, Hệ quả 1 của Mệnh đề 2).
 
-#### Hệ quả {#ac-vii-s4-n2-cor-1 .statement}
+#### Hệ quả {#ac-vii-s4-n2-cor-1 .statement tag=053A}
 
 Cho M, N là hai dàn của V đối với A sao cho N là phản xạ. Để có M ⊂ N, điều kiện cần và đủ là, với mọi p ∈ P, M_p ⊂ N_p.
 
@@ -255,7 +255,7 @@ Ví dụ
 (2) Lấy V = K. Để một iđêan phân thức a của K là một dàn phản xạ, điều kiện cần và đủ là nó là một iđêan chia được, theo tiêu chuẩn (b) của Định lý 2 và § 1, no. 4, các Mệnh đề 5 và 7.
 (3) Cho M là một dàn đối với A; nếu S là một tập con nhân tính của A không chứa 0, Mệnh đề 5 của no. 1 chỉ ra rằng S^{-1}(M*) = (S^{-1}M)*; do đó nếu M phản xạ, thì S^{-1}M là một dàn phản xạ đối với S^{-1}A.
 
-#### Mệnh đề 6 {#ac-vii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#ac-vii-s4-prop-6 .statement tag=053B}
 
 (i) Nếu M_1 và M là các dàn phản xạ của V, thì M, n M cũng vậy.
 (ii) Nếu W là một không gian con vectơ của V và M là một dàn phản xạ của V, thì M n W là một dàn phản xạ của W.
@@ -287,7 +287,7 @@ Nhận xét
 (2) Nếu $M_1$ và $M_2$ là các dàn phản xạ của $V$, thì dàn $M_1 + M_2$ không nhất thiết là phản xạ (xem § 1, Bài tập 2).
 (3) Nếu $M$ là một $A$-môđun sinh hữu hạn và $T$ là môđun con xoắn của nó, thì đối ngẫu $M^*$ của $M$ cũng chính là đối ngẫu của $M/T$, vì với mọi dạng tuyến tính $f$ trên $M$, ảnh $f(T)$ là một môđun con xoắn của $A$ và do đó bằng không. Vì $M/T$ đẳng cấu với một dàn của một không gian vectơ trên $K$, ta thấy rằng đối ngẫu của mọi $A$-môđun sinh hữu hạn đều là phản xạ.
 
-#### Mệnh đề 7 {#ac-vii-s4-prop-7 .statement}
+#### Mệnh đề 7 {#ac-vii-s4-prop-7 .statement tag=053C}
 
 Cho $0 \to M \to N \to Q \to 0$ là một dãy khớp các $A$-môđun. Giả sử rằng $N$ sinh hữu hạn và không xoắn.
 (i) Nếu $M$ phản xạ, thì $\operatorname{Ass}(Q) \subset P \cup \{\{0\}\}$ (nói cách khác, mọi iđêan liên kết với $Q$ hoặc là $(0)$, hoặc có chiều cao bằng 1).
@@ -309,7 +309,7 @@ $$
 $$
 Do đó các giả thiết kéo theo $\operatorname{Ass}(V/M) \subset P \cup \{\{0\}\}$. Nhưng $V/M$ là một $A$-môđun xoắn và vì thế $\{0\} \notin \operatorname{Ass}(V/M)$; khi đó Định lý 2 cho thấy rằng $M$ phản xạ.
 
-#### Mệnh đề 8 {#ac-vii-s4-prop-8 .statement}
+#### Mệnh đề 8 {#ac-vii-s4-prop-8 .statement tag=053D}
 
 Cho $R$ và $S$ là hai vành giao hoán, $p : R \to S$ là một đồng cấu vành và $M$ là một $R$-môđun sinh hữu hạn. Giả sử rằng $R$ là Noether và $S$ là một $R$-môđun phẳng. Khi đó, nếu $M$ phản xạ, thì $S$-môđun $M_{(S)} = M \otimes_R S$ cũng phản xạ.
 Ta biết (Chương I, § 2, no. 10, Mệnh đề 11) rằng tồn tại một đẳng cấu chính tắc $\omega_M : (M^*)_{(S)} \to (M_{(S)})^*$, sao cho
@@ -360,7 +360,7 @@ và từ sự kiện rằng các phần tử $\omega_M(x^* \otimes 1)$ sinh ra $
 
 Ta giữ ký hiệu và giả thiết của no. 2. Ta sẽ nói rằng một tính chất đúng *với hầu hết* $p \in P$ nếu tập hợp các $p \in P$ mà đối với chúng tính chất đó không đúng *là hữu hạn*.
 
-#### Định lý 3 {#ac-vii-s4-thm-3 .statement}
+#### Định lý 3 {#ac-vii-s4-thm-3 .statement tag=053E}
 
 *Cho V là một không gian vectơ hạng hữu hạn trên K và M là một dàn của V đối với A.*
 
@@ -378,7 +378,7 @@ $$
 
 Vì mỗi $N(p_i)$ chứa một mạng tự do đối với $A_{p_i}$, nên nó chứa *a fortiori* một mạng của $V$ đối với $A$, do đó $Q$ chứa một mạng của $V$ đối với $A$ (no. 1, Mệnh đề 3) và, vì $Q$ được chứa trong $M$, $Q$ là một mạng đối với $A$. Để chứng minh rằng $Q_p = N(p)$ với mọi $p \in P$, ta sẽ dùng bổ đề sau:
 
-#### Bổ đề 1 {#ac-vii-s4-lem-1 .statement}
+#### Bổ đề 1 {#ac-vii-s4-lem-1 .statement tag=053F}
 
 *Cho $p$ và $p'$ là hai iđêan nguyên tố của $A$ sao cho (0) là iđêan nguyên tố duy nhất của $A$ được chứa trong $p \cap p'$. Khi đó, với mọi môđun con-A $E$ của $V$, $(E_p)_{p'} = K.E.$*
 
@@ -404,7 +404,7 @@ $$
 
 là phản xạ và thỏa mãn các hệ thức $N_p = Q_p = N(p)$ với mọi $p \in P$; tính duy nhất suy ra ngay lập tức từ Định lý 2 của no. 2.
 
-#### Nhận xét {#ac-vii-s4-n3-rem-1 .statement}
+#### Nhận xét {#ac-vii-s4-n3-rem-1 .statement tag=053G}
 
 Cho $L$ là một dàn tự do của $V$ đối với $A$. Vì $A$, là một miền iđêan chính nên với $p \in P$, $N(p)$ là một A-môđun tự do có cùng hạng với $L$ và tồn tại $u(p) \in \mathbf{GL}(V)$ sao cho $u(p)(L_p) = N(p)$; hơn nữa điều kiện này xác định $u(p)$ sai khác bởi phép nhân bên phải với một phần tử của $\mathbf{GL}(L_p)$. Điều kiện $N(p) = L$, với hầu hết mọi $p \in P$ có nghĩa là tất yếu $u(p) \in \mathbf{GL}(L_p)$ với hầu hết mọi $p \in P$. Các họ $(u(p))_{p \in P}$ thỏa mãn tính chất sau cùng này tạo thành một nhóm nhân $\mathbf{GL}_a(V)$ chứa như nhóm con tích $\prod_{p \in P} \mathbf{GL}(L_p)$. Khi đó Định lý 3 cho thấy rằng *tập hợp các dàn phản xạ của V tương ứng một-một chính tắc với không gian thuần nhất* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$. Nếu chọn một cơ sở $(e_i)_{1 \leq i \leq n}$ của L trên A, thì $\mathbf{GL}(V)$ (resp. $\mathbf{GL}(L_p)$) được đồng nhất với nhóm các ma trận khả nghịch $\mathbf{GL}(n, K)$ (resp. $\mathbf{GL}(n, A, )$) và nhóm $\mathbf{GL}_a(V)$ với nhóm các hệ ma trận cấp $n$, $(U(p))_{p \in P}$, sao cho $U(p) \in \mathbf{GL}(n, K)$ với mọi $p \in P$ và $U(p) \in \mathbf{GL}(n, A_p)$ với hầu hết mọi $p \in P$. Nếu A là một miền Dedekind, nhóm $\mathbf{GL}_a(V)$ cũng được đồng nhất với nhóm $\mathbf{GL}(n, A)$, trong đó A là vành các adèle hạn chế ($§ 2$, no. 4).
 
@@ -412,7 +412,7 @@ Cho $L$ là một dàn tự do của $V$ đối với $A$. Vì $A$, là một mi
 
 Ta giữ nguyên các ký hiệu và giả thiết của các số 2 và 3.
 
-#### Mệnh đề 9 {#ac-vii-s4-prop-9 .statement}
+#### Mệnh đề 9 {#ac-vii-s4-prop-9 .statement tag=053H}
 
 *Cho M là một A-môđun hữu hạn sinh. Các điều kiện sau là tương đương*:
 
@@ -421,11 +421,11 @@ Ta giữ nguyên các ký hiệu và giả thiết của các số 2 và 3.
 
 Ta biết (Chương II, $§ 2$, no. 2, Hệ quả 2 của Mệnh đề 4) rằng điều kiện $M_p = 0$ tương đương với $a + p$ và do đó tương đương với $aA_p = A$, (Chương II, $§ 2$, no. 5, *Nhận xét*); mặt khác, với mọi iđêan nguyên $b \neq 0$ của A, quan hệ "*$bA_p = A$, với mọi $p \in P$*" tương đương với $\operatorname{div} b = \operatorname{div} A = 0$ trong $D(A)$ ($§ 1$, no. 4, Mệnh đề 7), hoặc cũng tương đương với $\operatorname{div}(A : b) = 0$ và, vì $A : b$ là divisorial ($§ 1$, no. 1, Mệnh đề 1), quan hệ này cũng tương đương với $A : b = A$. Khi đó mệnh đề suy ra bằng cách nhận thấy rằng nói $a \notin p$ với $p = (0)$ có nghĩa là $a \neq (0)$.
 
-#### Nhận xét (1) {#ac-vii-s4-n4-rem-1 .statement}
+#### Nhận xét (1) {#ac-vii-s4-n4-rem-1 .statement tag=053I}
 
 Các điều kiện tương đương của Mệnh đề 9 còn có nghĩa là $\operatorname{Ass}(M)$ không chứa iđêan nguyên tố nào có chiều cao $\leq 1$. *Chúng cũng có thể được diễn giải bằng cách nói rằng* $\operatorname{Supp}(M)$ *có đối chiều* $\geq 2$ *trong* $\operatorname{Spec}(A)$. \*
 
-#### Định nghĩa 2 {#ac-vii-s4-def-2 .statement}
+#### Định nghĩa 2 {#ac-vii-s4-def-2 .statement tag=053J}
 
 *Một A-môđun M được gọi là giả-không nếu nó sinh hữu hạn và nó thỏa mãn các điều kiện tương đương của Mệnh đề 9.*
 
@@ -436,7 +436,7 @@ Các điều kiện tương đương của Mệnh đề 9 còn có nghĩa là $\
 
 (2) Cho $k$ là trường và $A = k[X, Y]$ là vành đa thức trên $k$ theo hai bất định; nếu $m$ là iđêan cực đại $AX + AY$ của $A$, thì A-môđun $A/m$ là giả-không; vì linh hóa tử của nó là $m$ không có chiều cao $\leq 1$ bởi nó chứa các iđêan nguyên tố chính $AX$ và $AY$ và phân biệt với chúng; do đó $A : m = A$ (§ 1, no. 6, Hệ quả 1 của Định lý 3).
 
-#### Định nghĩa 3 {#ac-vii-s4-def-3 .statement}
+#### Định nghĩa 3 {#ac-vii-s4-def-3 .statement tag=053K}
 
 *Cho $M$ và $N$ là hai $A$-môđun và $f : M \to N$ là một đồng cấu. Ta gọi $f$ là giả-đơn ánh (tương ứng, giả-toàn ánh giả-không) nếu $\mathrm{Ker}(f)$ (tương ứng, $\mathrm{Coker}(f)$, $\mathrm{Im}(f)$) là giả-không; ta gọi $f$ là giả-song ánh nếu nó vừa giả-đơn ánh vừa giả-toàn ánh.*
 
@@ -446,7 +446,7 @@ Giả sử rằng $M$ và $N$ sinh hữu hạn; khi đó, để $f : M \to N$ l�
 
 *Ví dụ (3)* Cho $M$ là một A-môđun không xoắn sinh hữu hạn; khi đó ánh xạ chính tắc $c_M : M \to M^{**}$ từ $M$ vào song đối ngẫu của nó là một *giả đẳng cấu*. Thật vậy, $M$ được đồng nhất với một dàn của $V = M \otimes_A K$ (no. 1, Mệnh đề 1); ta đã thấy rằng $M_p = M_p^{**}$ với mọi $p \in P$ (no. 2, Ví dụ 2) và, với $p = 0$, cả $M_p$ lẫn $M_p^{**}$ đều bằng $V$.
 
-#### Định lý 4 {#ac-vii-s4-thm-4 .statement}
+#### Định lý 4 {#ac-vii-s4-thm-4 .statement tag=053L}
 
 *Cho $E$ là một A-môđun sinh hữu hạn, $T$ là môđun con xoắn của $E$ và $M = E/T$. Tồn tại một giả đẳng cấu*
 
@@ -456,13 +456,13 @@ $$
 
 Trước hết ta sẽ chứng minh hai bổ đề.
 
-#### Bổ đề 2 {#ac-vii-s4-lem-2 .statement}
+#### Bổ đề 2 {#ac-vii-s4-lem-2 .statement tag=053M}
 
 *Cho $(p_i)_{1 \leq i \leq k}$ là một họ hữu hạn không rỗng các iđêan nguyên tố của $A$ có chiều cao 1 và đặt $S = \bigcap_i (A - p_i)$; khi đó vành $S^{-1}A$ là một miền iđêan chính.*
 
 $S^{-1}A$ là một vành nửa địa phương mà các iđêan cực đại là các $m_i = p_i S^{-1}A$ với $1 \leq i \leq k$, và vành địa phương $(S^{-1}A)_{m_i}$ đẳng cấu với $A$, (Chương 11, § 3, no. 5, Mệnh đề 17) và do đó là một vành định giá rời rạc. Vậy nên vành $S^{-1}A$ là một miền Dedekind (§ 2, no. 2, Định lý 1 (f)) và, vì nó là nửa địa phương, nó là một miền iđêan chính (§ 2, no. 2, Mệnh đề 1).
 
-#### Bổ đề 3 {#ac-vii-s4-lem-3 .statement}
+#### Bổ đề 3 {#ac-vii-s4-lem-3 .statement tag=053N}
 
 *Tồn tại một đồng cấu $g : E \to T$ mà hạn chế của nó lên $T$ vừa là một phép vị tự vừa là một giả đẳng cấu.*
 
@@ -494,7 +494,7 @@ và do đó $\operatorname{Ker}(f)$ đẳng cấu với $\operatorname{Ker}(h)$ 
 
 Có thể nói rằng "xét đến giả đẳng cấu" thì Định lý 4 quy việc nghiên cứu các $A$-môđun sinh hữu hạn về một phía là việc nghiên cứu các môđun không xoắn và về phía kia là việc nghiên cứu các môđun xoắn. Hơn nữa, ta đã thấy ở trên (*Ví dụ 3*) rằng một môđun không xoắn là giả đẳng cấu với song đối ngẫu của nó và do đó với một môđun *phản xạ*. Còn đối với các môđun xoắn, có kết quả sau đây, xác định chúng xét đến giả đẳng cấu:
 
-#### Định lý 5 {#ac-vii-s4-thm-5 .statement}
+#### Định lý 5 {#ac-vii-s4-thm-5 .statement tag=053O}
 
 Cho $T$ là một A-môđun xoắn sinh hữu hạn. Tồn tại hai họ hữu hạn $(n_i)_{i \in I}$ và $(p_i)_{j \in I}$, trong đó các $n_i$ là những số nguyên $\geq 1$ và các $p_i$ là những iđêan nguyên tố của $A$ có chiều cao $1$ sao cho, nếu viết $T' = \bigoplus_{i \in I} A/p_i^{n_i}$, thì tồn tại một giả đẳng cấu từ $T$ tới $T'$. Hơn nữa, các họ $(n_i)_{i \in I}$ và $(p_i)_{i \in I}$ có tính chất này là duy nhất, sai khác đến một song ánh của tập hợp chỉ số, và các $p_i$ chứa linh hóa tử của $T$.
 
@@ -502,7 +502,7 @@ Tính duy nhất: Thật vậy, nếu $T \to T'$ là một giả đẳng cấu v
 
 Sự tồn tại: Ta có thể chỉ xét trường hợp $T \neq 0$. Gọi $a$ là linh hóa tử (khác không và phân biệt với $A$) của $T$, gọi $p_i$ ($1 \leq i \leq k$) là các iđêan nguyên tố của $A$ có chiều cao 1 chứa $a$ (chúng chỉ có hữu hạn về số lượng ($§ 1$, no. 6, Định lý 4)) và đặt $S = \bigcap_i (A - p_i)$. Vành nửa địa phương $A' = S^{-1}A$ là một miền iđêan chính (Bổ đề 2) và có các iđêan cực đại là $m_i = p_iA'$; vì $S^{-1}T$ là một $A$-môđun xoắn sinh hữu hạn, nó đẳng cấu với một tổng trực tiếp hữu hạn $\bigoplus_{j \in I} A'/m_{\phi(j)}^{n_j}$, trong đó $\phi$ là một ánh xạ từ một tập hợp hữu hạn $I$ vào $[1, k]$ (*Algebra*, Chương VII, § 4, no. 7, Mệnh đề 7); vì $A'/m_{\phi(j)}^{n_j}$ đẳng cấu với $S^{-1}(A/p_{\phi(j)}^{n_j})$ (Chương II, § 2, no. 4), ta đã thu được một $A$-môđun xoắn $T'$ thuộc kiểu mong muốn và một đẳng cấu $f_0$ từ $S^{-1}T$ lên $S^{-1}T'$. Vì $\operatorname{Hom}_{S^{-1}A}(S^{-1}T, S^{-1}T')$ bằng $S^{-1} \operatorname{Hom}_A(T, T')$ (Chương 11, § 2, no. 7, Mệnh đề 19), tồn tại $s \in S$ và một đồng cấu $f : T \to T'$ sao cho $f_0 = s^{-1}f$. Còn phải chứng minh rằng $f$ là một giả đẳng cấu: thật vậy, nếu $p = 0$ hoặc nếu $p \in P$ phân biệt với các $p_i$, thì $T_p = T'_p = 0$ (Chương II, § 4, no. 4, Mệnh đề 17); ngược lại, nếu $p$ là một trong các $p_i$ ($1 \leq i \leq k$), thì $s$ khả nghịch trong $A_p$, và, vì $f_{p_i} = s(f_0)_{p_i}$ và $(f_0)_{p_i}$ là một đẳng cấu từ $T_{p_i} = (S^{-1}T)_{m_i}$ lên $T'_{p_i} = (S^{-1}T')_{m_i}$, nên $f_{p_i}$ cũng vậy.
 
-#### Nhận xét (2) {#ac-vii-s4-n4-rem-2 .statement}
+#### Nhận xét (2) {#ac-vii-s4-n4-rem-2 .statement tag=053P}
 
 Trong mệnh đề của Định lý 5, các môđun $A/p_i^{n_i}$ có thể được thay bởi $A/p_i^{(n_i)}$ ($§ 1$, no. 4, Mệnh đề 8). Với mọi $p \in P$, ánh xạ chính tắc $g : A/p^n \to A/p^{(n)} = A/(A \cap p^nA_p)$ là một giả đẳng cấu, vì, với mọi $q \in P$ phân biệt với $p$, $A_q/p^nA_q = A_q/p^{(n)}A_q = 0$ và $A_p/p^nA_p = A_p/p^{(n)}A_p$.
 
@@ -514,7 +514,7 @@ Ta giữ nguyên các ký hiệu và giả thiết như trong các số 2, 3 và
 
 Cho $T$ là một $A$-môđun xoắn sinh hữu hạn. Với mọi $p \in P$, $T_p$ là một $A_p$-môđun xoắn sinh hữu hạn và do đó là một môđun có *độ dài hữu hạn* (Chương IV, § 2, no. 5, Hệ quả 2 của Mệnh đề 7); ta sẽ ký hiệu độ dài này bởi $l_p(T)$. Mặt khác $T_p = 0$ với mọi $p$ không chứa linh hóa tử của $T$ và do đó với hầu hết mọi $p$ (§ 1, no. 6, Định lý 4), điều này biện minh cho định nghĩa sau:
 
-#### Định nghĩa 4 {#ac-vii-s4-def-4 .statement}
+#### Định nghĩa 4 {#ac-vii-s4-def-4 .statement tag=053Q}
 
 *Nếu $T$ là một $A$-môđun xoắn sinh hữu hạn, thì ước:*
 
@@ -524,7 +524,7 @@ $$
 
 *được gọi là nội dung của $T$*.
 
-#### Mệnh đề 10 {#ac-vii-s4-prop-10 .statement}
+#### Mệnh đề 10 {#ac-vii-s4-prop-10 .statement tag=053R}
 
 (i) *Cho $0 \to T_1 \to T_2 \to T_3 \to 0$ là một dãy khớp các $A$-môđun xoắn sinh hữu hạn. Khi đó*
 
@@ -538,7 +538,7 @@ $$
 
 Theo Định nghĩa 4, với mỗi $p \in P$ chỉ cần xét các giá trị của $l_p$ đối với các môđun xoắn đang được xét. Khi đó tính chất (i) suy ra từ Chương II, § 2, no. 4, Định lý 1 và tính cộng được của các độ dài trong một dãy khớp (*Algebra* Chương 11, § 1, no. 10, Mệnh đề 16), còn các tính chất (ii) và (iii) suy ra ngay lập tức từ các định nghĩa ở no. 4.
 
-#### Hệ quả {#ac-vii-s4-n5-cor-1 .statement}
+#### Hệ quả {#ac-vii-s4-n5-cor-1 .statement tag=053S}
 
 *Cho $0 \to T_n \to T_{n-1} \to \ldots \to T_0 \to 0$ là một dãy khớp các $A$-môđun xoắn sinh hữu hạn. Khi đó* $\sum_{i=0}^n (-1)^i \chi(T_i) = 0$.
 
@@ -546,7 +546,7 @@ Theo Chương II, § 2, no. 4, Định lý 1, điều này lại suy ra từ tí
 
 Nhắc lại rằng (Chương II, § 5, no. 4) ta có thể nói đến *tập hợp* $F(A)$ các *lớp của các A-môđun hữu hạn sinh* đối với quan hệ đẳng cấu; với mọi A-môđun hữu hạn sinh M, ký hiệu $\mathrm{cl}(M)$ là phần tử tương ứng của $F(A)$; ta sẽ ký hiệu bởi $T(A)$ tập con của $F(A)$ gồm các lớp của các A-môđun xoắn hữu hạn sinh. Rõ ràng $\chi$ xác định một ánh xạ từ $T(A)$ vào $D(A)$, cũng được ký hiệu bởi $\chi$, sao cho $\chi(\mathrm{cl}(T)) = \chi(T)$.
 
-#### Mệnh đề 11 {#ac-vii-s4-prop-11 .statement}
+#### Mệnh đề 11 {#ac-vii-s4-prop-11 .statement tag=053T}
 
 *Cho G là một nhóm giao hoán viết theo phép cộng và $\phi : T(A) \to G$ là một ánh xạ; với mọi A-môđun xoắn hữu hạn sinh T, do lạm dụng ngôn ngữ, ta cũng viết $\phi(T) = \phi(\mathrm{cl}(T))$. Giả sử rằng các điều kiện sau được thỏa mãn:
 (1) *Nếu* $0 \to T_1 \to T_2 \to T_3 \to 0$ *là một dãy khớp của các A-môđun xoắn hữu hạn sinh, thì* $\phi(T_2) = \phi(T_1) + \phi(T_3)$.
@@ -563,7 +563,7 @@ với mọi A-môđun xoắn hữu hạn sinh T; rõ ràng các điều kiện (
 
 \* Ta có thể, như trong no. 4, xét phạm trù thương $\mathscr{T}/\mathscr{T}'$ của phạm trù $\mathscr{T}$ các A-môđun xoắn hữu hạn sinh theo phạm trù con đầy đủ $\mathscr{T}'$ của các A-môđun xoắn hữu hạn sinh giả-không. Theo ngôn ngữ của các phạm trù Abel, Mệnh đề 11 khi đó biểu thị sự kiện rằng *nhóm Grothendieck* của phạm trù Abel $\mathscr{T}/\mathscr{T}'$ đẳng cấu một cách chính tắc với $D(A)$. \*
 
-#### Mệnh đề 12 {#ac-vii-s4-prop-12 .statement}
+#### Mệnh đề 12 {#ac-vii-s4-prop-12 .statement tag=053U}
 
 *Nếu a là một iđêan $\neq 0$ của A,
 
@@ -601,7 +601,7 @@ $$
 $$
 khi đồng nhất $D(A_p)$ với môđun con-Z của $D(A)$ sinh bởi $p$.
 
-#### Mệnh đề 13 {#ac-vii-s4-prop-13 .statement}
+#### Mệnh đề 13 {#ac-vii-s4-prop-13 .statement tag=053V}
 
 *Cho M là một dàn của V và u là một K-tự đẳng cấu của V. Khi đó* :
 (6)
@@ -615,7 +615,7 @@ $$
 
 và $\bigwedge^n (u(M_p)) = A_p \cdot \det(u) e_1 \wedge e_2 \mathbf{A} \ldots \mathbf{A} e_n$, do đó suy ra mệnh đề theo công thức (5).
 
-#### Mệnh đề 14 {#ac-vii-s4-prop-14 .statement}
+#### Mệnh đề 14 {#ac-vii-s4-prop-14 .statement tag=053W}
 
 *Nếu M, M' là hai dàn của V sao cho M' \subset M, M/M' là một A-môđun xoắn sinh hữu hạn và:*
 
@@ -627,7 +627,7 @@ Rõ ràng M/M' \subset V/M' là một môđun xoắn sinh hữu hạn; mặt kh�
 
 $$(M/M')_p = M_p/M'_p$$ đẳng cấu với A,-môđun xoắn $\bigoplus_{i=1}^n A_p/p^{v_i} A_p$ và do đó độ dài của nó là $\sum_{i=1}^n v_i$, điều này chứng minh mệnh đề, theo (5) và Định nghĩa 4 của no. 5.
 
-#### Hệ quả {#ac-vii-s4-n6-cor-1 .statement}
+#### Hệ quả {#ac-vii-s4-n6-cor-1 .statement tag=053X}
 
 *Cho L,, L_2 là hai A-môđun tự do cùng hạng n và cho f: L_1 \to L_2 là một đồng cấu. Cho U là ma trận của f đối với các cơ sở của L, và L_2. Để Coker(f) là một A-môđun xoắn, điều kiện cần và đủ là \det(U) \neq 0 và khi đó:*
 
@@ -645,7 +645,7 @@ $$\operatorname{Coker}(f) = L_2/u(L_2),$$
 
 công thức (8) suy ra từ (7) và (6).
 
-#### Ví dụ {#ac-vii-s4-n6-exa-1 .statement}
+#### Ví dụ {#ac-vii-s4-n6-exa-1 .statement tag=053Y}
 
 Nếu $A = \mathbf{Z}$, thì nhóm ước của $A$ được đồng nhất với nhóm nhân $\mathbf{Q}_+^*$ của các số hữu tỉ > 0. Với mọi nhóm giao hoán hữu hạn T, $\chi(T)$ là *cấp* của T; hệ quả trên cho thấy cấp của nhóm $\operatorname{Coker}(f)$ bằng *giá trị tuyệt đối* của $\det(U)$ (x. *Đại số*, Chương VII, § 4, no. 7, Hệ quả 3 của Định lý 3).
 
@@ -653,7 +653,7 @@ Nếu $A = \mathbf{Z}$, thì nhóm ước của $A$ được đồng nhất vớ
 
 Ta giữ các ký hiệu và giả thiết của các số 2 đến 6. Nhớ rằng C(A) (hoặc đơn giản là C) ký hiệu nhóm lớp ước của $A$, là thương của $D(A)$ bởi nhóm con các ước chính. Với mọi ước $d \in D$, ta sẽ ký hiệu bởi $c(d)$ lớp của nó trong C.
 
-#### Mệnh đề 15 {#ac-vii-s4-prop-15 .statement}
+#### Mệnh đề 15 {#ac-vii-s4-prop-15 .statement tag=053Z}
 
 *Cho M là một A-môđun hữu hạn sinh. Tồn tại một môđun con tự do L của M sao cho M/L là một môđun xoắn và phần tử $c(\chi(M/L))$ của C không phụ thuộc vào môđun con tự do L được chọn.*
 
@@ -673,7 +673,7 @@ $$
 
 Phần tử $c(\chi(M/L))$ trong phần sau sẽ được ký hiệu bởi $-c(M)$; ta sẽ nói rằng $c(M)$ là lớp ước gắn với M.
 
-#### Mệnh đề 16 {#ac-vii-s4-prop-16 .statement}
+#### Mệnh đề 16 {#ac-vii-s4-prop-16 .statement tag=0540}
 
 (i) *Cho $0 \to M_1 \xrightarrow{\alpha} M_2 \xrightarrow{g} M_3 \to 0$ là một dãy khớp của các A-môđun hữu hạn sinh. Khi đó*
 
@@ -746,7 +746,7 @@ Khi $M$ là một *dàn* của $V$ đối với $A$, $\chi(M/L) = -\chi(M, L)$ (
 
 $M_w = a \cdot e$ (ký hiệu của no. 6); khi đó $\chi(M, L) = \operatorname{div}(a)$, do đó $c(M) = c(\operatorname{div}(a))$, điều này tổng quát hóa Mệnh đề 16 (v).
 
-#### Hệ quả 1 {#ac-vii-s4-prop-16-cor-1 .statement}
+#### Hệ quả 1 {#ac-vii-s4-prop-16-cor-1 .statement tag=0541}
 
 *Cho* $0 \to M, \xrightarrow{u} M_{n-1} \to \cdots \to M_0 \to 0$ *là một dãy khớp các A-môđun sinh hữu hạn.* Khi đó
 
@@ -785,7 +785,7 @@ $$
 
 trong đó các $L_i$ ($0 \leq i \leq n$) là các A-môđun *tự do sinh hữu hạn*, được gọi là một *phân giải tự do hữu hạn* của A-môđun E.
 
-#### Hệ quả 2 {#ac-vii-s4-prop-16-cor-2 .statement}
+#### Hệ quả 2 {#ac-vii-s4-prop-16-cor-2 .statement tag=0542}
 
 *Nếu một iđêan phân thức ước tính được* $a \neq 0$ *của* $\mathbf{A}$ *thừa nhận một phân giải tự do hữu hạn, thì nó là chính.*
 
@@ -797,7 +797,7 @@ $$
 
 Do Mệnh đề 16 (v), $c(a) = 0$ và vì thế, do Mệnh đề 16 (iv), $\operatorname{div}(a)$ là chính; vì $a$ được giả thiết là ước tính được, nên nó là chính (§ 1, no. 1).
 
-#### Hệ quả 3 {#ac-vii-s4-prop-16-cor-3 .statement}
+#### Hệ quả 3 {#ac-vii-s4-prop-16-cor-3 .statement tag=0543}
 
 *Nếu mọi iđêan ước tính được* $\neq 0$ *của* $\mathbf{A}$ *thừa nhận một phân giải tự do hữu hạn,* $\mathbf{A}$ *là giai thừa.*
 
@@ -819,7 +819,7 @@ $$
 
 vì vậy $\gamma$ thỏa mãn tính chất (i) của Mệnh đề 16 và, nếu M là giả-không, thì $\gamma(M) = 0$ (vì M là một môđun xoắn). Tồn tại một ánh xạ duy nhất từ $F(A)$ vào $\mathbf{Z} \times C(A)$, cũng được ký hiệu là y, sao cho $\gamma(M) = \gamma(\mathrm{cl}(M))$ với mọi A-môđun sinh hữu hạn M. Ta sẽ thấy rằng các tính chất trên về cơ bản đặc trưng cho y:
 
-#### Mệnh đề 17 {#ac-vii-s4-prop-17 .statement}
+#### Mệnh đề 17 {#ac-vii-s4-prop-17 .statement tag=0544}
 
 Cho G là một nhóm giao hoán viết *theo lối cộng* và $\phi$ một *ánh xạ* từ tập hợp $F(A)$ các lớp của các A-môđun *sinh* hữu hạn vào G; với *mọi* A-môđun sinh hữu hạn M, do lạm dụng ngôn ngữ, ta cũng viết $\phi(M) = \phi(\mathrm{cl}(M))$. *Giả sử* các điều kiện sau *được thỏa mãn*:
   (1) *Nếu* $0 \to M_1 \to M_2 \to M_3 \to 0$ là một dãy khớp *của các* A-môđun sinh hữu hạn, thì $\phi(M_2) = \phi(M_1) + \phi(M_3)$.
@@ -901,7 +901,7 @@ Chú ý rằng đồng cấu $i : C(A) \to C(B)$ nói chung không đơn ánh (�
 
 Nhớ rằng đối với mọi $B$-môđun $R$, $R_{[A]}$ ký hiệu $A$-môđun thu được từ $R$ bằng cách hạn chế các vô hướng xuống $A$ (Đại số, Chương 11, § 1, no. 13).
 
-#### Mệnh đề 18 {#ac-vii-s4-prop-18 .statement}
+#### Mệnh đề 18 {#ac-vii-s4-prop-18 .statement tag=0545}
 
 (i) *Để $R$ là một $B$-môđun giả-không, điều kiện cần và đủ là $A$-môđun $R_{[A]}$ là giả-không.*
 
@@ -940,13 +940,13 @@ $$
 
 khi đó chỉ cần áp dụng Mệnh đề 16 (i) để thu được (20).
 
-#### Mệnh đề 19 {#ac-vii-s4-prop-19 .statement}
+#### Mệnh đề 19 {#ac-vii-s4-prop-19 .statement tag=0546}
 
 Cho $R$ là *một môđun* $B$ sinh *hữu hạn*. Điều kiện cần *và đủ* để $R$ *phản xạ* là $R_{[A]}$ là *một môđun* $A$ *phản xạ*.
 
 Ta đã nhận xét trong chứng minh của Mệnh đề 18 rằng điều kiện cần và đủ để R là một B-môđun không xoắn là $R_{[A]}$ là một A-môđun không xoắn. Do đó ta có thể giả thiết rằng R là một dàn của $W = R \otimes_B L$ đối với B. Ta sẽ dùng bổ đề sau:
 
-#### Bổ đề 4 {#ac-vii-s4-lem-4 .statement}
+#### Bổ đề 4 {#ac-vii-s4-lem-4 .statement tag=0547}
 
 *Cho W là một không gian vectơ hạng hữu hạn trên L và cho R là một dàn của W đối với B. Khi đó, với mọi $p \in P(A)$, $(R_{[A]})_p = \bigcap_{\mathfrak{p}/p} R_{\mathfrak{p}}$.*
 
@@ -960,11 +960,11 @@ $$
 
 và kết luận suy ra từ no. 2, Định lý 2.
 
-#### Hệ quả {#ac-vii-s4-n8-cor-1 .statement}
+#### Hệ quả {#ac-vii-s4-n8-cor-1 .statement tag=0548}
 
 *Vành B là một A-môđun phản xạ.*
 
-#### Mệnh đề 20 {#ac-vii-s4-prop-20 .statement}
+#### Mệnh đề 20 {#ac-vii-s4-prop-20 .statement tag=0549}
 
 (i) *Điều kiện cần và đủ để một A-môđun hữu hạn sinh M là giả-không là $M \otimes_A B$ là một B-môđun giả-không.*
 (ii) *Nếu M là một A-môđun xoắn hữu hạn sinh, thì $M \otimes_A B$ là một B-môđun hữu hạn sinh và:*
@@ -990,7 +990,7 @@ vì thế quan hệ $M_p = 0$ là tương đương với $(M \otimes_A B)_{\math
 
 Để chứng minh (ii), chúng ta sẽ dùng bổ đề sau:
 
-#### Bổ đề 5 {#ac-vii-s4-lem-5 .statement}
+#### Bổ đề 5 {#ac-vii-s4-lem-5 .statement tag=054A}
 
 *Cho $M_1, M$, là hai $A$-môđun hữu hạn sinh, và $f : M_1 \to M_2$ là một đồng cấu đơn cấu. Khi đó hạt nhân của $f \otimes 1 ; M_1 \otimes_A B \to M_2 \otimes_A B$ là giả-không.*
 
@@ -1045,7 +1045,7 @@ chúng suy ra ngay lập tức từ các công thức bắc cầu đối với c
 
 Ta giữ nguyên ký hiệu và các giả thiết của các số 2 đến 7.
 
-#### Bổ đề 6 {#ac-vii-s4-lem-6 .statement}
+#### Bổ đề 6 {#ac-vii-s4-lem-6 .statement tag=054B}
 
 *Cho $R$ là một vành giao hoán và $p_i$ ($1 \leq i \leq n$) là các iđêan nguyên tố phân biệt của $R$.*
 
@@ -1057,7 +1057,7 @@ Ta giữ nguyên ký hiệu và các giả thiết của các số 2 đến 7.
 
 (ii) Vì $\mathbf{R}/p_i$ là một miền nguyên, mọi iđêan $\neq 0$ của $\mathbf{R}/p_i$ đều có lực lượng bằng lực lượng của $\mathbf{R}/p_i$ và điều tương tự cũng đúng với mọi phép tịnh tiến của một iđêan bởi một phần tử của $\mathbf{R}/p_i$, do đó suy ra kết luận.
 
-#### Định lý 6 {#ac-vii-s4-thm-6 .statement}
+#### Định lý 6 {#ac-vii-s4-thm-6 .statement tag=054C}
 
 *Cho M là một A-môđun không xoắn hữu hạn sinh. Tồn tại một môđun con tự do L của M sao cho M/L đẳng cấu với một iđêan của A.*
 
@@ -1069,7 +1069,7 @@ $$
 
 Ta sẽ ký hiệu bởi $k(p)$ trường phân thức của $A/p$ (đẳng cấu với trường thặng dư của $A_p$); do đó $M(p) = M \otimes_A k(p)$ là một không gian vectơ hạng $n$ trên $k(p)$. Với mọi $x \in M$, ta sẽ ký hiệu bởi $x(p)$ ảnh chính tắc của $x$ trong $M(p)$.
 
-#### Bổ đề 7 {#ac-vii-s4-lem-7 .statement}
+#### Bổ đề 7 {#ac-vii-s4-lem-7 .statement tag=054D}
 
 *Cho $x_i$ ($1 \leq i \leq m$) là các phần tử độc lập tuyến tính của $M$ (trên $A$ hoặc $K$, điều này là như nhau) và cho $L$ là môđun con-A của $M$ sinh bởi các $x_i$. Khi đó, với hầu hết mọi $p \in P$, các $x_i(p) \in M(p)$ là độc lập tuyến tính trên $k(p)$; để chúng độc lập tuyến tính trên $k(p)$ với mọi $p \in P$, điều kiện cần và đủ là $M/L$ không xoắn.*
 
@@ -1079,7 +1079,7 @@ Nếu $M/L$ không xoắn, thì $(M/L)_p = M_p/L_p$ cũng không xoắn với m�
 
 Ngược lại, giả sử rằng các $x_i(p)$ ($1 \leq i \leq m$) là độc lập tuyến tính trên $k(p)$ với mọi $p \in P$. Khi đó $L$, là một nhân tử trực tiếp của $M$, với mọi $p$ (Chương II, § 3, no. 2, Hệ quả 1 của Mệnh đề 5) và do đó $M_p/L_p = (M/L)_p$ không xoắn với mọi $p \in P$. Ta kết luận rằng $P \cap \operatorname{Ass}(M/L) = \varnothing$ theo Chương IV, § 1, no. 2, Hệ quả của Mệnh đề 5. Nhưng vì L là phản xạ, suy ra từ no. 2, Mệnh đề 7 (i) rằng iđêan nguyên tố duy nhất có thể thuộc $\operatorname{Ass}(M/L)$ là iđêan (0); do đó $M/L$ không xoắn.
 
-#### Bổ đề 8 {#ac-vii-s4-lem-8 .statement}
+#### Bổ đề 8 {#ac-vii-s4-lem-8 .statement tag=054E}
 
 *Giả sử rằng hạng $n$ của $M$ là $\geqslant 2$; khi đó tồn tại một phần tử $x \neq 0$ của $M$ sao cho $M/Ax$ không xoắn.*
 
@@ -1101,7 +1101,7 @@ Vậy giả sử rằng $y$ và $z$ độc lập tuyến tính trên $K$, đặt
 
 Sau khi đã thiết lập các bổ đề này, ta chuyển sang chứng minh Định lý 6. Ta lập luận bằng quy nạp theo $n$, trường hợp $n \leq 1$ là tầm thường vì khi đó chính $M$ đẳng cấu với một iđêan của $A$. Vậy giả sử rằng $n \geq 2$; theo Bổ đề 8, tồn tại một môđun con tự do $L_0$ của $M$ có hạng 1 sao cho $M/L_0$ không xoắn; do đó $M/L_0$ có hạng $n - 1$. Theo giả thiết quy nạp, tồn tại một môđun con tự do $L$, của $M/L_0$ sao cho $(M/L_0)/L_1$ đẳng cấu với một iđêan của $A$. Gọi $L$ là ảnh ngược của $L_1$ trong $M$; $L/L_0$ đẳng cấu với $L_1$ và, vì $L_1$ là tự do, $L$ đẳng cấu với $L_0 \oplus L_1$ (Đại số, Chương II, § 1, số 11, Mệnh đề 21) và do đó là tự do; vì $M/L$ đẳng cấu với $(M/L_0)/L_1$, định lý được chứng minh.
 
-#### Nhận xét {#ac-vii-s4-n9-rem-1 .statement}
+#### Nhận xét {#ac-vii-s4-n9-rem-1 .statement tag=054F}
 
 Nếu $M$ là phản xạ, thì điều tương tự không nhất thiết còn đúng đối với $M/L$ (Bài tập 9).
 
@@ -1109,13 +1109,13 @@ Nếu $M$ là phản xạ, thì điều tương tự không nhất thiết còn 
 
 Bây giờ ta giả thiết rằng $A$ là một miền Dedekind; khi đó ta biết rằng các iđêan $p \in P$ là cực đại và chúng là các iđêan nguyên tố duy nhất $\neq 0$ của $A$ ($§ 2$, no. 1 ); nhóm $D(A)$ được đồng nhất với nhóm $I(A)$ các iđêan phân thức $\neq 0$ của $A$.
 
-#### Mệnh đề 21 {#ac-vii-s4-prop-21 .statement}
+#### Mệnh đề 21 {#ac-vii-s4-prop-21 .statement tag=054G}
 
 Cho $A$ là một miền Dedekind. Mọi A-môđun giả-không đều bằng không. Mọi đồng cấu A-môđun giả-đơn ánh (resp. giả-toàn ánh, giả-song ánh, giả-không) đều là đơn ánh (resp. toàn ánh, song ánh, không).
 
 Mệnh đề thứ nhất đã được chứng minh rồi (no. 4, Ví dụ 1); các mệnh đề khác suy ra từ đó ngay lập tức.
 
-#### Mệnh đề 22 {#ac-vii-s4-prop-22 .statement}
+#### Mệnh đề 22 {#ac-vii-s4-prop-22 .statement tag=054H}
 
 Cho $A$ là một miền Dedekind và $M$ là một A-môđun sinh hữu hạn. Các tính chất sau là tương đương:
 (a) $M$ không xoắn.
@@ -1124,19 +1124,19 @@ Cho $A$ là một miền Dedekind và $M$ là một A-môđun sinh hữu hạn. 
 
 Ta đã biết rồi (không cần giả thiết nào trên miền nguyên $A$) rằng (b) suy ra (a) (no. 2, Nhận xét 1) và rằng (c) suy ra (b) (Đại số, Chương II, § 2, no. 7, Hệ quả 4 của Mệnh đề 14). Nếu $M$ không xoắn, nó được đồng nhất với một dàn của $V = M \otimes_A K$ đối với $A$; do đó $M$, là một $A_p$-môđun tự do với mọi iđêan cực đại $p \in P$, vì $A$, là một miền iđêan chính. Kết luận khi đó suy ra từ Chương II, § 5, no. 2, Định lý 1 (b).
 
-#### Hệ quả {#ac-vii-s4-n10-cor-1 .statement}
+#### Hệ quả {#ac-vii-s4-n10-cor-1 .statement tag=054I}
 
 Cho $M$ là một A-môđun sinh hữu hạn và $T$ là môđun con xoắn của nó. Khi đó $T$ là một hạng tử trực tiếp của $M$.
 
 Vì $M/T$ không xoắn và sinh hữu hạn, nên nó xạ ảnh theo Mệnh đề 22 và do đó hệ quả suy ra từ Đại số, Chương II, § 2, no. 2, Mệnh đề 4.
 
-#### Mệnh đề 23 {#ac-vii-s4-prop-23 .statement}
+#### Mệnh đề 23 {#ac-vii-s4-prop-23 .statement tag=054J}
 
 Cho $A$ là một miền Dedekind và $T$ là một A-môđun xoắn sinh hữu hạn. Tồn tại hai họ hữu hạn $(n_i)_{i \in I}$ và $(\mathfrak{p}_i)_{i \in I}$, trong đó các $n_i$ là các số nguyên $\geq 1$ và các $\mathfrak{p}_i$ là các phần tử của $P$, sao cho $T$ đẳng cấu với tổng trực tiếp $\bigoplus_{i \in I} (A/\mathfrak{p}_i^{n_i})$. Hơn nữa, các họ $(n_i)_{i \in I}$ và $(\mathfrak{p}_i)_{i \in I}$ là duy nhất sai khác bởi một song ánh của tập hợp chỉ số.
 
 Điều này suy ra từ no. 4, Định lý 5, có lưu ý đến thực tế là ở đây một giả-đẳng cấu là một đẳng cấu.
 
-#### Mệnh đề 24 {#ac-vii-s4-prop-24 .statement}
+#### Mệnh đề 24 {#ac-vii-s4-prop-24 .statement tag=054K}
 
 Cho $A$ là một miền Dedekind và $M$ là một A-môđun sinh hữu hạn không xoắn có hạng $n \geq 1$. Khi đó tồn tại một iđêan $b \neq 0$ của $A$ sao cho $M$ đẳng cấu với tổng trực tiếp của các môđun $A^{n-1}$ và $b$. Hơn nữa, lớp của iđêan $b$ được xác định duy nhất bởi điều kiện này.
 

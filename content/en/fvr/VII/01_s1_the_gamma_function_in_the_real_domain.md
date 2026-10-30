@@ -25,7 +25,7 @@ subsections:
       pdf_page: 325
 statements: 8
 exercises: 6
-content_sha256: b96aff8e476c3a1bd226a1e82711f8860c8fc7b03fe7bf814d522b07d1765caa
+content_sha256: c14b2d3b10b39cdfef4ea9acb546a2878e81232b29d6cdb8928fc7269171f7f2
 ---
 
 ## § 1. THE GAMMA FUNCTION IN THE REAL DOMAIN
@@ -72,7 +72,7 @@ on this interval.
 
 If $g_1$ is a second continuous solution of (3) on ]0, +∞[, and if $h = g_1 - g$, then one has $h(x+1) - h(x) = 0$ for every $x > 0$; in other words, $h$ is a continuous periodic function of period 1, defined on ]0, +∞[; conversely, for every $h$ of this nature, $g + h$ is a continuous solution of (3).
 
-#### Proposition 1 {#fvr-vii-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-vii-s1-prop-1 .statement tag=08IX}
 
 *There exists one and only one convex function* $g$ *defined on* ]0, +∞[ *that satisfies the equation* (3) *and takes the value 0 for* $x = 1$.
 
@@ -139,7 +139,7 @@ g(x+1) = -\log(x+1) + x \log 2 + \sum_{n=3}^{\infty} u_n(x) = \log x + g(x);
 $$
 in other words, $g$ satisfies equation (3) of VII, p. 306.
 
-#### Definition 1 {#fvr-vii-s1-def-1 .statement}
+#### Definition 1 {#fvr-vii-s1-def-1 .statement tag=08IY}
 
 *We denote by* $\Gamma(x)$ *the function* $> 0$ *which is defined on the interval* $]0, +\infty[$, *that satisfies the equation*
 $$
@@ -150,7 +150,7 @@ $$
 
 ### 2. PROPERTIES OF THE GAMMA FUNCTION
 
-#### Proposition 2 {#fvr-vii-s1-prop-2 .statement}
+#### Proposition 2 {#fvr-vii-s1-prop-2 .statement tag=08IZ}
 
 *For every* $x > 0$ *one has*
 $$
@@ -241,7 +241,7 @@ For brevity we shall say that a function $f$ defined on an interval $I \subset \
 
 It is clear that the *product* of two logarithmically convex functions on $I$ is also logarithmically convex on $I$. Further:
 
-#### Lemma 1 {#fvr-vii-s1-lem-1 .statement}
+#### Lemma 1 {#fvr-vii-s1-lem-1 .statement tag=08J0}
 
 *Let $f$ and $g$ be two functions $> 0$ and twice differentiable on an open interval $I$. If $f$ and $g$ are logarithmically convex functions on $I$, then $f + g$ is logarithmically convex on $I$.*
 
@@ -253,7 +253,7 @@ $$
 
 on $\mathbf{R}^2$ then also $(a + a')x^2 + 2(b + b')xy + (c + c')y^2 \geq 0$ on $\mathbf{R}^2$.
 
-#### Lemma 2 {#fvr-vii-s1-lem-2 .statement}
+#### Lemma 2 {#fvr-vii-s1-lem-2 .statement tag=08J1}
 
 Let $f$ be a finite real function, $> 0$, defined and continuous on the product $I \times J$ of two open intervals of $\mathbf{R}$, and such that, for every $t \in J$ the function $x \mapsto f(x, t)$ is logarithmically convex and twice differentiable on $I$. Under these hypotheses, if the integral $g(x) = \int_J f(x, t) dt$ converges for every $x \in I$, then $g$ is logarithmically convex on $I$.
 
@@ -269,13 +269,13 @@ On the other hand, $g$ is the pointwise limit of the $g_K$ along the directed se
 
 One can show easily that lemmas 1 and 2 remain valid even when one does not assume that the functions are twice differentiable (VII, p. 327, exerc. 5).
 
-#### Lemma 3 {#fvr-vii-s1-lem-3 .statement}
+#### Lemma 3 {#fvr-vii-s1-lem-3 .statement tag=08J2}
 
 Let $\varphi$ be a continuous function and $> 0$ on an open interval $J$ contained in $[0, +\infty[$. If $I$ is an open interval such that the integral $g(x) = \int_J t^{x-1} \varphi(t) dt$ converges for all $x \in I$, then $g$ is logarithmically convex on $I$.
 
 Indeed, $\log t^{x-1} = (x-1) \log t$ is a function of $x$ which is convex and twice differentiable for all $t > 0$, so lemma 2 applies.
 
-#### Proposition 3 {#fvr-vii-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-vii-s1-prop-3 .statement tag=08J3}
 
 For all $x > 0$
 
@@ -323,7 +323,7 @@ $$
 \Gamma \left( \frac{3}{2} \right) = \frac{1}{2} \Gamma \left( \frac{1}{2} \right) = \int_0^\infty e^{-t^2} \, dt.
 $$
 
-#### Proposition 4 {#fvr-vii-s1-prop-4 .statement}
+#### Proposition 4 {#fvr-vii-s1-prop-4 .statement tag=08J4}
 
 *For $x > 0$ and $y > 0$ the integral*
 

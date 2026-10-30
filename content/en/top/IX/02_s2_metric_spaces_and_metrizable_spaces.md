@@ -52,20 +52,20 @@ subsections:
       pdf_page: 165
 statements: 33
 exercises: 25
-content_sha256: 33ca67282e519f8e66ce957d7fae9b4166b6a19981067bcccd545f4a0f28d811
+content_sha256: d331e64864dcc1e0126c3bba0d6705f7cf12cadc6c25e95836fc8a8baa92e612
 ---
 
 ## 2. METRIC SPACES AND METRIZABLE SPACES
 
 ### 1. METRICS AND METRIC SPACES
 
-#### Definition 1 {#top-ix-s2-def-1 .statement}
+#### Definition 1 {#top-ix-s2-def-1 .statement tag=0C2C}
 
 *A metric on a set* $X$ *is a finite pseudometric* $d$ *on* $X$ *such that the relation* $d(x, y) = 0$ *implies* $x = y$. *A metric space is a set* $X$ *endowed with the structure defined by a given metric on* $X$.
 
 A metric space $X$ is always considered as carrying the uniformity and the topology defined by the given metric on $X$.
 
-#### Example 1 {#top-ix-s2-n1-exa-1 .statement}
+#### Example 1 {#top-ix-s2-n1-exa-1 .statement tag=0C2D}
 
 The Euclidean distance $d(x, y)$ (Chapter VI, § 2, no. 1) is a metric on real $n$-dimensional number space $\mathbf{R}^n$; so are the functions
 
@@ -75,7 +75,7 @@ $$
 
 All these metrics are *equivalent* ($\S$ 1, no. 2).
 
-#### Example 2 {#top-ix-s2-n1-exa-2 .statement}
+#### Example 2 {#top-ix-s2-n1-exa-2 .statement tag=0C2E}
 
 On any set $X$ the pseudometric $d$, defined by the relations $d(x, x) = 0$ and $d(x, y) = 1$ if $x \neq y$, is a metric. The uniformity it defines on $X$ is the *discrete* uniformity.
 
@@ -91,7 +91,7 @@ and similarly $f(x', y) \leq f(x, y)$, so that $f(x, y) = f(x', y)$; in other wo
 
 Proposition 1 of § 1, no. 3 determines the structure of the *completion* of a metric space:
 
-#### Proposition 1 {#top-ix-s2-prop-1 .statement}
+#### Proposition 1 {#top-ix-s2-prop-1 .statement tag=0C2F}
 
 *Let $X$ be a metric space and let $d$ be its metric. If $\hat{X}$ is the completion of $X$ (with respect to the uniformity defined by $d$), the function $d$ can be extended by continuity to $\hat{X} \times \hat{X}$; the extended function $\overline{d}$ is a metric on $\hat{X}$, and the uniformity of $\hat{X}$ coincides with that defined by the metric $\overline{d}$.*
 
@@ -132,17 +132,17 @@ d(A, B) = \inf_{x \in A} d(x, B)
 $$
 (Chapter IV, § 5, no. 4, Proposition 9).
 
-#### Remark {#top-ix-s2-n2-rem-1 .statement}
+#### Remark {#top-ix-s2-n2-rem-1 .statement tag=0C2G}
 
 If $d(x, A) = a$, it can happen that there is no point of A whose distance from x is equal to a. However, this situation can never arise if A is compact, for then Weierstrass's theorem (Chapter IV, § 6, no. 1, Theorem 1) shows that there exists $y \in A$ such that $d(x, A) = d(x, y)$.
 
-#### Proposition 2 {#top-ix-s2-prop-2 .statement}
+#### Proposition 2 {#top-ix-s2-prop-2 .statement tag=0C2H}
 
 *The statements* $d(x, A) = 0$ *and* $x \in \overline{A}$ *are equivalent*.
 
 For $d(x, A) = 0$ expresses the fact that the ball $V_a(x)$ meets $A$ whatever the value of $a > 0$; and this is equivalent to $x \in \overline{A}$.
 
-#### Proposition 3 {#top-ix-s2-prop-3 .statement}
+#### Proposition 3 {#top-ix-s2-prop-3 .statement tag=0C2I}
 
 *The function* $d(x, A)$ *is uniformly continuous on* $X$.
 
@@ -162,7 +162,7 @@ $$
 $$
 whence the result follows.
 
-#### Remark {#top-ix-s2-n2-rem-2 .statement}
+#### Remark {#top-ix-s2-n2-rem-2 .statement tag=0C2J}
 
 We can have $d(A, B) = 0$ for two subsets $A, B$ of $X$ such that $\overline{A} \cap \overline{B} = \varnothing$, provided that neither subset consists of a single point. For example, on the real line $\mathbf{R}$, the set of integers $> 0$ and the set of points of the sequence $(n + 1/2^n)_{n \geq 1}$ are two disjoint closed sets whose distance a part is zero.
 
@@ -193,7 +193,7 @@ $$
 $$
 (as $V$ runs through the neighbourhood filter of $x$ in $Y$) is called the oscillation of $f$ at $x \in \overline{X}$.
 
-#### Proposition 4 {#top-ix-s2-prop-4 .statement}
+#### Proposition 4 {#top-ix-s2-prop-4 .statement tag=0C2K}
 
 *The oscillation $\omega(x; f)$ of an arbitrary function $f$, defined on a subset $X$ of a topological space $Y$ and taking its values in a metric space $X'$, is upper semi-continuous on $\overline{X}$.*
 
@@ -205,20 +205,20 @@ which shows that $\omega$ is upper semi-continuous at the point $a$.
 
 In order that $\omega(x; f) = 0$ at a point $x \in \overline{X}$ it is necessary and sufficient that for each $\varepsilon > 0$ there should exist a neighbourhood $V$ of $x$ such that $f(V \cap X)$ is contained in a ball of radius $\varepsilon$; if $x \in X$, this condition expresses the fact that $f$ is continuous at the point $x$ (with respect to $X$); if $x \in \overline{X} \cap \mathbf{C}X$, the image under $f$ of the trace on $X$ of the neighbourhood filter of $x$ in $Y$ is a Cauchy filter base on $X'$; in particular:
 
-#### Proposition 5 {#top-ix-s2-prop-5 .statement}
+#### Proposition 5 {#top-ix-s2-prop-5 .statement tag=0C2L}
 
 *Let $f$ be a function defined on a subset $X$ of a topological space $Y$, taking its values in a complete metric space $X'$. Then $f$ has a limit relative to $X$ at a point $x \in \overline{X}$ if and only if the oscillation of $f$ at $x$ is zero.*
 
 ### 4. METRIZABLE UNIFORM SPACES
 
-#### Definition 2 {#top-ix-s2-def-2 .statement}
+#### Definition 2 {#top-ix-s2-def-2 .statement tag=0C2M}
 
 *A metric on a set $X$ is said to be compatible with a uniformity $U$ on $X$ if the uniformity defined by the metric coincides with $U$.
 A uniformity on a set $X$ is said to be metrizable if there is a metric on $X$ compatible with this uniformity. A uniform space is said to be metrizable if its uniformity is metrizable.*
 
 Distinct metrics can be compatible with the same uniformity; they are then *equivalent* (§ 1, no. 2, Definition 2).
 
-#### Theorem 1 {#top-ix-s2-thm-1 .statement}
+#### Theorem 1 {#top-ix-s2-thm-1 .statement tag=0C2N}
 
 *A uniformity is metrizable if and only if it is Hausdorff and the filter of entourages of the uniformity has a countable base.*
 
@@ -226,13 +226,13 @@ The condition is *necessary*, for (with the notation of no. 2) the entourages $V
 
 The condition is *sufficient*, for, if it is satisfied, the uniformity under consideration is defined by a single pseudometric, by Proposition 2 of § 1, no. 4; since the uniformity is Hausdorff, this pseudometric is a metric.
 
-#### Corollary 1 {#top-ix-s2-thm-1-cor-1 .statement}
+#### Corollary 1 {#top-ix-s2-thm-1-cor-1 .statement tag=0C2O}
 
 *A Hausdorff uniformity defined by a countable family of pseudometrics is metrizable.*
 
 For if $(f_n)$ is a sequence of pseudometrics defining such a structure, the filter of entourages is generated by the countable family of sets $\overline{f}_n^1([0, 1/m])$, where $m$ and $n$ each run through the set of integers $> 0$.
 
-#### Corollary 2 {#top-ix-s2-thm-1-cor-2 .statement}
+#### Corollary 2 {#top-ix-s2-thm-1-cor-2 .statement tag=0C2P}
 
 *Every countable product of metrizable uniform spaces is metrizable.*
 
@@ -240,7 +240,7 @@ For such a space is Hausdorff and its uniformity has a countable fundamental sys
 
 ### 5. METRIZABLE TOPOLOGICAL SPACES
 
-#### Definition 3 {#top-ix-s2-def-3 .statement}
+#### Definition 3 {#top-ix-s2-def-3 .statement tag=0C2Q}
 
 *A metric on a set $X$ is said to be compatible with a topology $\mathscr{T}$ on $X$ if the topology defined by this metric coincides with $\mathscr{T}$. A topological space is said to be metrizable if there exists a metric on $X$ compatible with the topology of $X$.*
 
@@ -252,23 +252,23 @@ We remark also that there can exist *non-metrizable* uniformities compatible wit
 
 We shall content ourselves here with *necessary* conditions for the metrizability of a topological space (for a necessary and sufficient condition, cf. § 4, Exercise 22). In the first place, a space cannot be metrizable unless it is completely regular (indeed we shall see, in § 4, no. 1, Proposition 2, that a metrizable space is necessarily "normal", which is a stronger condition). On the other hand, Theorem 1 shows that:
 
-#### Proposition 6 {#top-ix-s2-prop-6 .statement}
+#### Proposition 6 {#top-ix-s2-prop-6 .statement tag=0C2R}
 
 Every point of a metrizable space has a countable fundamental system of neighbourhoods.
 
 More generally:
 
-#### Proposition 7 {#top-ix-s2-prop-7 .statement}
+#### Proposition 7 {#top-ix-s2-prop-7 .statement tag=0C2S}
 
 In a metrizable space, every closed set is the intersection of a countable family of open sets, and every open set is the union of a countable family of closed sets.
 
 Let $d$ be a metric compatible with the topology of a metrizable space $X$. If $A$ is a closed subset of $X$, it is the intersection of the open sets $V_{1/n}(A)$ [the set of all $x \in X$ such that $d(x, A) < 1/n$; cf. Proposition 2]. The second part of the proposition follows by taking complements.
 
-#### Remark 1 {#top-ix-s2-n5-rem-1 .statement}
+#### Remark 1 {#top-ix-s2-n5-rem-1 .statement tag=0C2T}
 
 These necessary conditions are not sufficient (cf. Exercise 13).
 
-#### Remark 2 {#top-ix-s2-n5-rem-2 .statement}
+#### Remark 2 {#top-ix-s2-n5-rem-2 .statement tag=0C2U}
 
 There are spaces in which every point has a countable fundamental system of neighbourhoods but in which there exist closed sets which are not countable intersections of open sets (Exercise 15); such spaces are not metrizable.
 
@@ -282,7 +282,7 @@ On the other hand, the notion of a convergent sequence is not adapted to the stu
 
 As examples of the use of countable sequences we give the following propositions:
 
-#### Proposition 8 {#top-ix-s2-prop-8 .statement}
+#### Proposition 8 {#top-ix-s2-prop-8 .statement tag=0C2V}
 
 *In a metrizable space* $X$, *a point* $x$ *lies in the closure of a non-empty subset* $A$ *of* $X$ *if and only if there is a sequence of points of* $A$ *which converges to* $x$.
 
@@ -290,13 +290,13 @@ We know already, from Chapter I, § 7, no. 3, that the condition is *sufficient*
 
 From Proposition 8 we deduce:
 
-#### Proposition 9 {#top-ix-s2-prop-9 .statement}
+#### Proposition 9 {#top-ix-s2-prop-9 .statement tag=0C2W}
 
 *A metric space* $X$ *is complete if and only if every Cauchy sequence in* $X$ *is convergent*.
 
 Let $\hat{X}$ be the completion of $X$. If there is a point $x \in \hat{X}$ which does not belong to $X$, then there is a sequence $(x_n)$ of points of $X$ which converges to $x$, and this is a non-convergent Cauchy sequence in $X$.
 
-#### Proposition 10 {#top-ix-s2-prop-10 .statement}
+#### Proposition 10 {#top-ix-s2-prop-10 .statement tag=0C2X}
 
 *Let* $X$ *be a metrizable space and let* $f$ *be a mapping of* $X$ *into a topological space* $X'$. *Then* $f$ *is continuous at a point* $x \in X$ *if and only if, whenever* $(x_n)$ *is a sequence of points of* $X$ *which converges to* $x$, *the sequence* $(f(x_n))$ *converges to* $f(x)$ *in* $X'$.
 
@@ -311,7 +311,7 @@ Note that Propositions 8 and 10 are valid in any space $X$ in which every point 
 
 ### 7. SEMI-CONTINUOUS FUNCTIONS ON A METRIZABLE SPACE
 
-#### Proposition 11 {#top-ix-s2-prop-11 .statement}
+#### Proposition 11 {#top-ix-s2-prop-11 .statement tag=0C2Y}
 
 *Let $X$ be a metrizable space and let $f$ be a lower semi-continuous function on $X$ which takes its values in a closed interval $[a, b]$ of $\overline{\mathbf{R}}$. Then $f$ is the upper envelope of an increasing sequence of continuous functions on $X$ which take their values in $[a, b]$.*
 
@@ -335,13 +335,13 @@ we see that the sequence $(f_n)$ is an increasing sequence of continuous functio
 
 ### 8. METRIZABLE SPACES OF COUNTABLE TYPE
 
-#### Definition 4 {#top-ix-s2-def-4 .statement}
+#### Definition 4 {#top-ix-s2-def-4 .statement tag=0C2Z}
 
 *A metrizable space is said to be of countable type (or separable) if its topology has a countable base.*
 
 Clearly every subspace of a metrizable space of countable type is again of countable type. The definition of the base of the topology of a product space (Chapter I, § 4, no. 1) and Corollary 2 to Theorem 1 of no. 4 show that the product of a countable family of metrizable spaces of countable type is a metrizable space of countable type. Again, the sum of a countable family of metrizable spaces of countable type is a metrizable space of countable type (no. 5).
 
-#### Proposition 12 {#top-ix-s2-prop-12 .statement}
+#### Proposition 12 {#top-ix-s2-prop-12 .statement tag=0C30}
 
 *If X is a metrizable topological space, the following statements are equivalent*:
 
@@ -371,7 +371,7 @@ which shows that W is a neighbourhood of $x_0$ contained in B, and therefore tha
 
 Note that for an arbitrary topological space X, property b) does not necessarily imply the existence of a countable base, even if X is compact and every point of X has a countable fundamental system of neighbourhoods (Exercise 13; cf. Chapter I, § 1, Exercise 7).
 
-#### Proposition 13 {#top-ix-s2-prop-13 .statement}
+#### Proposition 13 {#top-ix-s2-prop-13 .statement tag=0C31}
 
 *Let X be a topological space which has a countable base $(U_n)$; then for each open covering $(V_i)_{i \in I}$ of X there exists a countable subset J of I such that $(V_i)_{i \in J}$ is a covering of X.*
 
@@ -381,7 +381,7 @@ Let H be the subset of N consisting of indices n such that U_n is contained in a
 
 The criterion for precompactness of a uniform space (Chapter II, § 4, no. 2, Theorem 3) gives rise to the following proposition for metric spaces:
 
-#### Proposition 14 {#top-ix-s2-prop-14 .statement}
+#### Proposition 14 {#top-ix-s2-prop-14 .statement tag=0C32}
 
 *A metric space X is precompact if and only if, for each $\varepsilon > 0$, there is a finite covering of X by sets of diameter $\leq \varepsilon$.*
 
@@ -389,13 +389,13 @@ If we adjoin the hypothesis that X is *complete* we have a criterion for *compac
 
 From Proposition 14 we get a *topological* criterion for compactness, applicable to metrizable spaces:
 
-#### Proposition 15 {#top-ix-s2-prop-15 .statement}
+#### Proposition 15 {#top-ix-s2-prop-15 .statement tag=0C33}
 
 *A metrizable topological space X is compact if and only if every infinite sequence of points of X has a cluster point in X.*
 
 Axiom (C) of Chapter I, § 9, no. 1 shows that the condition is *necessary*. To show *sufficiency*, let d be a metric compatible with the topology of X. We show first that the metric space X so defined is *complete*: every Cauchy sequence in X has a cluster point and is therefore convergent (Chapter II, § 3, no. 2, Proposition 5, Corollary 2); hence X is complete, by Proposition 9. Next we shall show that X is *precompact*; if this were not so, then by Proposition 14 there would exist a real number $\alpha > 0$ such that X could not be covered by any finite number of subsets of X of diameter $\leq \alpha$. We could then define by induction on n an infinite sequence $(x_n)$ of points of X by the condition $d(x_p, x_n) > \frac{1}{2} \alpha$ for all $p < n$; and such a sequence can have no cluster point, since every ball of radius $< \frac{1}{2} \alpha$ contains at most one point of the sequence.
 
-#### Corollary {#top-ix-s2-n9-cor-1 .statement}
+#### Corollary {#top-ix-s2-n9-cor-1 .statement tag=0C34}
 
 *A subset A of a metrizable topological space X is relatively compact if and only if every infinite sequence of points of A has a cluster point in X.*
 
@@ -403,7 +403,7 @@ Let d be a metric compatible with the topology of X. We shall show that the spac
 
 It should be remarked that Proposition 15 is not a consequence of the existence of a countable fundamental system of neighbourhoods at each point of $X$; there are examples of non-metrizable, non-compact spaces in which every point has a countable fundamental system of neighbourhoods and every infinite sequence of points has a cluster point (Exercise 15).
 
-#### Proposition 16 {#top-ix-s2-prop-16 .statement}
+#### Proposition 16 {#top-ix-s2-prop-16 .statement tag=0C35}
 
 *A compact space $X$ is metrizable if and only if its topology has a countable base.*
 
@@ -411,7 +411,7 @@ The condition is *necessary*. By Proposition 14, for each integer $n \geq 1$ the
 
 The condition is *sufficient*. Let $(U_n)$ be a countable base of the topology of $X$. Every neighbourhood of a point of the diagonal $\Delta$ of $X \times X$ therefore contains a neighbourhood of the form $U_n \times U_n$; applying the Borel-Lebesgue axiom to the compact subset $\Delta$ of $X \times X$, it follows that every neighbourhood of $\Delta$ contains a finite union of sets of the form $U_n \setminus U_n$, which is a neighbourhood of $\Delta$. Hence the neighbourhoods of $\Delta$ which are finite unions of sets of the form $U_n \times U_n$ form a fundamental system of entourages of the uniformity of $X$ (Chapter II, § 4, no. 1, Theorem 1), and the result therefore follows from Theorem 1 of no. 4.
 
-#### Corollary {#top-ix-s2-n9-cor-2 .statement}
+#### Corollary {#top-ix-s2-n9-cor-2 .statement tag=0C36}
 
 *Let $X$ be a locally compact space and let $X'$ be the compact space obtained by adjoining a point at infinity $\omega$ to $X$ (Chapter I, § 9, no. 8). Then the following statements are equivalent:*
 
@@ -429,7 +429,7 @@ c) $\Longrightarrow a)$: By hypothesis, there is an increasing sequence $(V_n)$ 
 
 If $X$ is a metrizable space and $R$ is an equivalence relation on $X$, the quotient space $X/R$ is not necessarily metrizable (even if $X$ is locally compact \* and $X/R$ is normal *). However:
 
-#### Proposition 17 {#top-ix-s2-prop-17 .statement}
+#### Proposition 17 {#top-ix-s2-prop-17 .statement tag=0C37}
 
 Every Hausdorff quotient space of a compact metrizable space is compact and metrizable.
 
@@ -437,7 +437,7 @@ Equivalently, if $f$ is a continuous mapping of a compact metrizable space $X$ i
 
 Let $X$ be a compact metrizable space, and let $R$ be an equivalence relation on $X$ such that $X/R$ is Hausdorff. Then $X/R$ is compact (Chapter I, § 9, no. 4, Theorem 2), hence by Proposition 16 it is enough to show that the topology of $X/R$ has a countable base. To do this, we use the facts that $R$ is closed (Chapter I, § 10, no. 4, Proposition 8) and that the classes mod $R$ are compact. Let $\varphi$ be the canonical mapping of $X$ onto $X/R$, and let $(U_n)$ be a countable base of the topology of $X$. Let $z$ be any point of $X/R$ and let $V$ be a neighbourhood of $z$ in $X/R$; then $\overline{\varphi}^{-1}(V)$ is a neighbourhood in $X$ of the compact set $\overline{\varphi}^{-1}(z)$. If $x$ is any point of $\overline{\varphi}^{-1}(z)$, there is a set $U_n$ containing $x$ and contained in $\overline{\varphi}^{-1}(V)$, and therefore by the Borel-Lebesgue axiom there is a finite open covering $(U_{n_k})_{1 \leq k \leq r}$ of $\overline{\varphi}^{-1}(z)$ such that, if $W$ denotes $\bigcup_k U_{n_k}$, $W$ is a neighbourhood of $\overline{\varphi}^{-1}(z)$ contained in $\overline{\varphi}^{-1}(V)$. Since $R$ is closed, it follows that $\varphi(W)$ is a neighbourhood of $z$ in $X/R$, contained in $V$ (Chapter I, § 5, no. 4, Proposition 10). Let $\mathscr{B}$ denote the set of interiors of sets of the form $\varphi(W)$, where $W$ runs through the set $\mathscr{F}$ of all finite unions of sets of the form $U_n$; we have then shown that $\mathscr{B}$ is a base of the topology of $X/R$, and since $\mathfrak{F}$ is countable, so is $\mathscr{B}$.
 
-#### Proposition 18 {#top-ix-s2-prop-18 .statement}
+#### Proposition 18 {#top-ix-s2-prop-18 .statement tag=0C38}
 
 *Let $X$ be a complete metric space, let $R$ be an open equivalence relation on $X$ such that $X/R$ is Hausdorff, and let $\varphi : X \to X/R$ be the canonical mapping. Then if $K$ is any compact subset of $X/R$, there is a compact subset $K'$ of $X$ such that $\varphi(K') = K$.*
 

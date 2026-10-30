@@ -38,7 +38,7 @@ subsections:
       pdf_page: 399
 statements: 28
 exercises: 1
-content_sha256: 37bce07c0427eabe99cd01d758109ab262fac328c645d602b6a24c6368dc128f
+content_sha256: cee0143d544bc99c4e8496ec6bc7458982857f3f0ed4fb081e4de491d7e81dfd
 ---
 
 ## § 11. GRADED MODULES AND RINGS
@@ -49,13 +49,13 @@ content_sha256: 37bce07c0427eabe99cd01d758109ab262fac328c645d602b6a24c6368dc128f
 
 We are going to translate into another language the definitions concerning direct sums (§ 1, no. 8).
 
-#### Definition 1 {#alg-ii-s11-def-1 .statement}
+#### Definition 1 {#alg-ii-s11-def-1 .statement tag=05XX}
 
 *Given a commutative group $G$ written additively and a set $\Delta$, a graduation of type $\Delta$ on $G$ is a family $(G_\lambda)_{\lambda \in \Delta}$ of subgroups of $G$, of which $G$ is the direct sum. The set $G$, with the structure defined by its group law and its graduation, is called a graded (commutative) group of type $\Delta$.*
 
 $\Delta$ is called the *set of degrees* of $G$. An element $x \in G$ is called *homogeneous* if it belongs to one of the $G_\lambda$, *homogeneous of degree* $\lambda$ if $x \in G_\lambda$. The element 0 is therefore homogeneous of all degrees; but if $x \neq 0$ is homogeneous, it belongs to only one of the $G_\lambda$; the index $\lambda$ such that $x \in G_\lambda$ is then called *the degree of* $x$ (or sometimes the *weight* of $x$) and is sometimes denoted by $\deg(x)$. Every $y \in G$ may be written uniquely as a sum $\sum_\lambda y_\lambda$ of homogeneous elements with $y_\lambda \in G_\lambda$; $y_\lambda$ is called the *homogeneous component of degree* $\lambda$ (or simply the *component of degree* $\lambda$) of $y$. When the word "weight" is used instead of "degree", the adjective "homogeneous" is replaced by "isobaric".
 
-#### Example {#alg-ii-s11-n1-exa-1 .statement}
+#### Example {#alg-ii-s11-n1-exa-1 .statement tag=05XY}
 
 (1) Given any commutative monoid $\Delta$ (with identity element 0) and a commutative group $G$, a graduation $(G_\lambda)_{\lambda \in \Delta}$ is defined on $G$ by taking $G_0 = G$ and $G_\lambda = \{0\}$ for $\lambda \neq 0$; this graduation is called *trivial*.
 
@@ -71,7 +71,7 @@ The definitions and examples of this no. extend immediately to the case where $G
 
 ### 2. GRADED RINGS AND MODULES
 
-#### Definition 2 {#alg-ii-s11-def-2 .statement}
+#### Definition 2 {#alg-ii-s11-def-2 .statement tag=05XZ}
 
 *Given a ring $A$ and a graduation $(A_\lambda)$ of type $\Delta$ on the additive group $A$, this graduation is said to be compatible with the ring structure on $A$ if*
 
@@ -81,13 +81,13 @@ $$
 
 *The ring $A$ with this graduation is then called a graded ring of type $\Delta$.*
 
-#### Proposition 1 {#alg-ii-s11-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s11-prop-1 .statement tag=05Y0}
 
 *If every element of $\Delta$ is cancellable and $(A_\lambda)$ is a graduation of type $\Delta$ compatible with the structure of a ring $A$, $A_0$ is a subring of $A$ (and in particular $1 \in A_0$).*
 
 As $A_0 A_0 \subset A_0$ by definition, it suffices to prove that $1 \in A_0$. Let $1 = \sum_{\lambda \in \Delta} e_\lambda$ be the decomposition of 1 into its homogeneous components. If $x \in A_\mu$, then $x = x . 1 = \sum_{\lambda \in \Delta} x e_\lambda$; comparing the components of degree $\mu$, (since $\mu + \lambda = \mu$ implies $\lambda = 0$) $x = x e_0$. Since this relation is true for every homogeneous element of $A$, it is true for all $x \in A$; in particular $1 = 1 . e_0 = e_0 \in A_0$.
 
-#### Definition 3 {#alg-ii-s11-def-3 .statement}
+#### Definition 3 {#alg-ii-s11-def-3 .statement tag=05Y1}
 
 *Let $A$ be a graded ring of type $\Delta$, $(A_\lambda)$ its graduation and $M$ a left (resp. right) $A$-module; a graduation $(M_\lambda)$ of type $\lambda$ on the additive group $M$ is compatible with the $A$-module structure on $M$ if*
 
@@ -101,7 +101,7 @@ When the elements of $\Delta$ are cancellable, it follows from (2) and Propositi
 
 Clearly if $A$ is a graded ring of type $\Delta$, the left $A$-module $A_s$ (resp. the right $A$-module $A_d$) is graded of type $\Delta$.
 
-#### Example {#alg-ii-s11-n2-exa-1 .statement}
+#### Example {#alg-ii-s11-n2-exa-1 .statement tag=05Y2}
 
 (1) On any ring $A$ the trivial graduation of type $\Delta$ is compatible with the ring structure. If $A$ is graded by the trivial graduation, for a graduation $(M_\lambda)$ of type $\Delta$ on an $A$-module $M$ to be compatible with the $A$-module structure, it is necessary and sufficient that the $M_\lambda$ be *submodules* of $M$.
 
@@ -117,13 +117,13 @@ Similarly, if $\Delta = \Delta_0^{(r)}$ (where $\Delta_0$ is a commutative monoi
 
 *(5) Let $B$ be a commutative ring, $E$ a $B$-module, $Q$ a quadratic form on $E$ and $C(Q)$ the Clifford algebra of $Q$ (cf. IX, § 9). The sub-$B$-modules $C^+(Q)$ and $C^-(Q)$ form on $C(Q)$ a graduation of type $\mathbf{Z}/2\mathbf{Z}$ compatible with the ring structure on $C(Q)$.*
 
-#### Remark {#alg-ii-s11-n2-rem-1 .statement}
+#### Remark {#alg-ii-s11-n2-rem-1 .statement tag=05Y3}
 
 (1) The graduations most often used are of type $\mathbf{Z}$ or of type $\mathbf{Z}^n$; when we speak of graded (resp. bigraded, trigraded, etc.) modules and rings without mentioning the type, it is understood that we mean graduations of type $\mathbf{Z}$ (resp. $\mathbf{Z}^2, \mathbf{Z}^3$, etc.); a graded ring (resp. module) of type $\mathbf{N}$ is also called a graded ring (resp. module) with positive degrees.
 
 (2) The graded $\mathbf{Z}$-modules of type $\Delta$, when $\mathbf{Z}$ has the trivial graduation, are just the graded commutative groups (whose set of degrees is a commutative monoid) of Definition 1 (no. 1).
 
-#### Definition 4 {#alg-ii-s11-def-4 .statement}
+#### Definition 4 {#alg-ii-s11-def-4 .statement tag=05Y4}
 
 *Let $A, A'$ be two graded rings of the same type $\Delta$ and $(A_\lambda), (A'_\lambda)$ their respective graduations. A ring homomorphism $h : A \to A'$ is called graded if $h(A_\lambda) \subset A'_\lambda$ for all $\lambda \in \Delta$.
 
@@ -137,7 +137,7 @@ If $h : A \to A', h' : A' \to A''$ are two graded homomorphisms of graded rings 
 
 Similarly, if $u : M \to M'$ and $u' : M' \to M''$ are two graded homomorphisms of graded A-modules of type $\Delta$, of respective degrees $\delta$ and $\delta'$, $u' \circ u : M \to M''$ is a graded homomorphism of degree $\delta + \delta'$. If $\delta$ admits an inverse $-\delta$ in $\Delta$ and $u : M \to M'$ is a bijective graded homomorphism of degree $\delta$, the inverse mapping $u' : M' \to M$ is a bijective graded homomorphism of degree $-\delta$. It follows as above that the *graded homomorphisms of degree* 0 can be taken as the morphisms of the species of graded A-module of type $\Delta$. But a bijective graded homomorphism $u : M \to N$ of degree $\neq 0$ is not a graded A-module isomorphism if $M$ and $N$ are non-zero and the elements of $\Delta$ are cancellable.
 
-#### Example {#alg-ii-s11-n2-exa-2 .statement}
+#### Example {#alg-ii-s11-n2-exa-2 .statement tag=05Y5}
 
 (6) If $M$ is a graded A-module and $M(\lambda_0)$ is a graded A-module obtained by shifting (no. 2, *Example 3*), the $\mathbf{Z}$-linear mapping of $M(\lambda_0)$ into $M$ which coincides with the canonical injection on each $M_{\lambda + \lambda_0}$ is a graded homomorphism of degree $\lambda_0$ (which is bijective when $\Delta$ is a *group*).
 
@@ -149,7 +149,7 @@ Assuming always that $\Delta$ is a commutative group, now let $N$ be a graded A-
 
 ### 3. GRADED SUBMODULES
 
-#### Proposition 2 {#alg-ii-s11-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s11-prop-2 .statement tag=05Y6}
 
 *Let A be a graded ring of type $\Delta$, M a graded A-module of type $\Delta$, $(M_\lambda)$ its graduation and N a sub-A-module of M. The following properties are equivalent:*
 
@@ -167,11 +167,11 @@ $$
 
 When a submodule N of M has the equivalent properties stated in Proposition 2, clearly the $N \cap M_\lambda$ form a graduation compatible with the A-module structure of N, called the *graduation induced* by that on M; N with this graduation is called a *graded submodule* of M.
 
-#### Corollary 1 {#alg-ii-s11-prop-2-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s11-prop-2-cor-1 .statement tag=05Y7}
 
 *If N is a graded submodule of M and $(x_i)$ is a generating system of N, the homogeneous components of the $x_i$ form a generating system of N.*
 
-#### Corollary 2 {#alg-ii-s11-prop-2-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s11-prop-2-cor-2 .statement tag=05Y8}
 
 *If N is a finitely generated submodule of M, N admits a finite generating system consisting of homogeneous elements.*
 
@@ -192,7 +192,7 @@ tion. The graduation ((M_\lambda + N)/N)_{\lambda \in \Delta} is called the quot
 
 If b is a graded two-sided ideal of A, the quotient graduation on A/b is compatible with the ring structure on A/b; the ring A/b with this graduation is called the quotient graded ring of A by b; the canonical homomorphism A \to A/b is a homomorphism of graded rings for this graduation.
 
-#### Proposition 3 {#alg-ii-s11-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s11-prop-3 .statement tag=05Y9}
 
 *Let A be a graded ring of type \Delta, M, N two graded A-modules of type \Delta and u: M \to N a graded A-homomorphism of degree \delta. Then:*
 (i) Im(u) is a graded submodule of N.
@@ -205,13 +205,13 @@ $$
 $$
 and u(x_\lambda) is of degree \lambda + \delta; if \delta is regular the relation \lambda + \delta = \mu + \delta implies \lambda = \mu, hence the u(x_\lambda) are the homogeneous components of u(x) and necessarily u(x_\lambda) = 0 for all \lambda \in \Delta, which proves (ii). The bijection v: M/Ker(u) \to Im(u) canonically associated with u is then a graded homomorphism of degree \delta, as follows from the definition of the quotient graduation; whence (iii) when \delta = 0.
 
-#### Corollary {#alg-ii-s11-n3-cor-1 .statement}
+#### Corollary {#alg-ii-s11-n3-cor-1 .statement tag=05YA}
 
 *Let A, B be two graded rings of type \Delta and u: A \to B a graded homomorphism of graded rings. Then Im(u) is a graded submodule of B, Ker(u) a graded two-sided ideal of A and the bijection A/Ker(u) \to Im(u) canonically associated with u is an isomorphism of graded rings.*
 
 It suffices to apply Proposition 3 to u considered as a homomorphism of degree 0 of graded \mathbf{Z}-modules.
 
-#### Proposition 4 {#alg-ii-s11-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s11-prop-4 .statement tag=05YB}
 
 *Let A be a graded ring of type \Delta and M a graded A-module of type \Delta.*
 (i) *Every sum and every intersection of graded submodules of M is a graded submodule.*
@@ -222,17 +222,17 @@ If $(\mathbf{N}_i)$ is a family of graded submodules of $M$, property (c) of Pro
 
 To prove (ii), it suffices to note that $\operatorname{Ann}(x)$ is the kernel of the homomorphism $a \mapsto ax$ of the $A$-module $A_s$ into $M$ and that this homomorphism is graded of degree $\mu$; the conclusion follows from Proposition 3(ii). Finally (iii) is a consequence of (i) and (ii) for the annihilator of a graded submodule $N$ of $M$ is the intersection of the annihilators of the homogeneous elements of $N$, by virtue of Proposition 2.
 
-#### Remark 2 {#alg-ii-s11-n3-rem-2 .statement}
+#### Remark 2 {#alg-ii-s11-n3-rem-2 .statement tag=05YC}
 
 Let $M$ be a graded $A$-module and $E$ a submodule of $M$; it follows from Proposition 4(i) that there exists a *largest* graded submodule $N'$ of $M$ contained in $E$ and a *smallest* graded submodule $N''$ of $M$ containing $E$; $N'$ is the set of $x \in E$ all of whose homogeneous components belong to $E$ and $N''$ is the submodule of $M$ generated by the homogeneous components of a generating system of $E$.
 
-#### Proposition 5 {#alg-ii-s11-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s11-prop-5 .statement tag=05YD}
 
 *Let $A$ be a graded ring of type $\Delta$. If every element of $\Delta$ is cancellable, then, for every homogeneous element $a \in A$, the centralizer of $a$ in $A$ (I, § 1, no. 5) is a graded subring of $A$.*
 
 Suppose that $a$ is of degree $\delta$; let $b = \sum_\lambda b_\lambda$ be an element permutable with $a$, $b_\lambda$ being the homogeneous component of $b$ of degree $\lambda$ for all $\lambda \in \Delta$. Then by hypothesis $\sum_\lambda (ab_\lambda - b_\lambda a) = 0$ and $ab_\lambda - b_\lambda a$ is homogeneous of degree $\lambda + \delta$; as $\delta$ is cancellable, it follows that $ab_\lambda = b_\lambda a$ for all $\lambda$, which proves our assertion.
 
-#### Corollary {#alg-ii-s11-n3-cor-2 .statement}
+#### Corollary {#alg-ii-s11-n3-cor-2 .statement tag=05YE}
 
 *If every element of $\Delta$ is cancellable, the centralizer of the graded subring $B$ of $A$ (and in particular the centre of $A$) is a graded subring of $A$.*
 
@@ -252,25 +252,25 @@ An order structure (denoted by $\leq$) on a commutative group $\Delta$ written a
 
 Let $\Delta$ be an ordered commutative group, A a graded ring of type $\Delta$ and $(A_\lambda)$ its graduation and suppose that the relation $A_\lambda \neq \{0\}$ implies $\lambda \geq 0$; then it follows from the definitions that $\mathfrak{I}_0 = \sum_{\lambda > 0} A_\lambda$ is a *graded two-sided ideal* of A, by virtue of the remark made above.
 
-#### Proposition 6 {#alg-ii-s11-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s11-prop-6 .statement tag=05YF}
 
 *Let $\Delta$ be an ordered commutative group, A a graded ring of type $\Delta$, $(A_\lambda)$ its graduation, M a graded A-module of type $\Delta$ and $(M_\lambda)$ its graduation. Suppose that the relation $A_\lambda \neq \{0\}$ implies $\lambda \geq 0$ and that there exists $\lambda_0$ such that $M_{\lambda_0} \neq \{0\}$ and $M_\lambda = \{0\}$ for $\lambda < \lambda_0$. Then, if $\mathfrak{I}_0 = \sum_{\lambda > 0} A_\lambda$, $\mathfrak{I}_0 M \neq M$.*
 
 Let $x$ be a non-zero element of $M_{\lambda_0}$; suppose that $x \in \mathfrak{I}_0 M$. Then $x = \sum_i a_i x_i$, where the $a_i$ are homogeneous elements $\neq 0$ of $\mathfrak{I}_0$ and the $x_i$ homogeneous elements $\neq 0$ of M with $\deg(x) = \deg(a_i) + \deg(x_i)$ for all $i$ (no. 2). But, as $\deg(a_i) > 0$, $\lambda_0 = \deg(a_i) + \deg(x_i) > \deg(x_i)$, which contradicts the hypothesis.
 
-#### Corollary 1 {#alg-ii-s11-prop-6-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s11-prop-6-cor-1 .statement tag=05YG}
 
 *With the hypotheses on $\Delta$ and A of Proposition 6, if M is a finitely generated graded A-module such that $\mathfrak{I}_0 M = M$, then $M = \{0\}$.*
 
 Suppose $M \neq \{0\}$. Let $\lambda_0$ be a minimal element of the set of degrees of a finite generating system of M consisting of homogeneous elements $\neq 0$; then the hypotheses of Proposition 6 would be fulfilled, which implies a contradiction.
 
-#### Corollary 2 {#alg-ii-s11-prop-6-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s11-prop-6-cor-2 .statement tag=05YH}
 
 *With the hypotheses on $\Delta$ and A of Proposition 6, let M be a finitely* generated graded $\mathbf{A}$-module and $\mathbf{N}$ a graded submodule of $\mathbf{M}$ such that $\mathbf{N} + \mathfrak{J}_0 \mathbf{M} = \mathbf{M}$; then $\mathbf{N} = \mathbf{M}$.
 
 $\mathbf{M}/\mathbf{N}$ is a finitely generated graded $\mathbf{A}$-module and the hypothesis implies that $\mathfrak{J}_0 . (\mathbf{M}/\mathbf{N}) = \mathbf{M}/\mathbf{N}$; hence $\mathbf{M}/\mathbf{N} = 0$.
 
-#### Corollary 3 {#alg-ii-s11-prop-6-cor-3 .statement}
+#### Corollary 3 {#alg-ii-s11-prop-6-cor-3 .statement tag=05YI}
 
 *With the hypotheses on $\Delta$ and $\mathbf{A}$ of Proposition 6, let $u : \mathbf{M} \to \mathbf{N}$ be a graded homomorphism of graded right $\mathbf{A}$-modules, where $\mathbf{N}$ is assumed to be finitely generated. If the homomorphism*
 
@@ -288,7 +288,7 @@ $$
 
 is isomorphic to $(N \otimes_{\mathbf{A}} (\mathbf{A}/\mathfrak{J}_0))/\mathrm{Im}(u \otimes 1)$ (§ 3, no. 6, Proposition 6). The hypothesis therefore implies $(N/u(\mathbf{M})) \otimes_{\mathbf{A}} (\mathbf{A}/\mathfrak{J}_0) = 0$ and hence $\mathbf{N} = u(\mathbf{M})$ by Corollary 1.
 
-#### Remark {#alg-ii-s11-n4-rem-1 .statement}
+#### Remark {#alg-ii-s11-n4-rem-1 .statement tag=05YJ}
 
 It follows from the proof of Corollary 1 that Corollaries 1 and 2 (resp. Corollary 3) are still valid when, instead of assuming that $\mathbf{M}$ (resp. $\mathbf{N}$) is finitely generated, the following hypothesis is made: there exists a subset $\Delta^+$ of $\Delta$ satisfying the following conditions:
 
@@ -297,7 +297,7 @@ It follows from the proof of Corollary 1 that Corollaries 1 and 2 (resp. Corolla
 
 This will be the case if $\Delta = \mathbf{Z}$ and $\mathbf{M}$ (resp. $\mathbf{N}$) is a graded module with *positive* degrees.
 
-#### Proposition 7 {#alg-ii-s11-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s11-prop-7 .statement tag=05YK}
 
 *Suppose that $\Delta = \mathbf{Z}$. With the hypotheses on $\mathbf{A}$ and $\mathbf{M}$ of Proposition 6, consider the graded $\mathbf{A}_0$-module $\mathbf{N} = \mathbf{M}/\mathfrak{J}_0 \mathbf{M}$ and suppose the following conditions hold:
 (i) each of the $N_\lambda$ considered as an $\mathbf{A}_0$-module admits a basis $(y_{i\lambda})_{i \in I_\lambda}$;
@@ -325,13 +325,13 @@ where $j$ and $\bar{p}$ derive from $j$ and $p$ when passing to the quotients an
 
 We shall show later (Commutative Algebra, II, § 3, no. 2, Proposition 5) how this proposition can be extended to non-graded modules.
 
-#### Lemma 1 {#alg-ii-s11-lem-1 .statement}
+#### Lemma 1 {#alg-ii-s11-lem-1 .statement tag=05YL}
 
 *For a commutative group $\Delta$ to be such that there exists on $\Delta$ a total ordering compatible with the group structure of $\Delta$, it is necessary and sufficient that $\Delta$ be torsion-free.*
 
 If there exists such an order structure on $\Delta$ and if $\lambda > 0$, then $\lambda + \mu > 0$ for all $\mu \geq 0$ and in particular, by induction on the integer $n > 0$, $n.\lambda > 0$, which proves that $\Delta$ is torsion-free (since every element $\neq 0$ of $\Delta$ is either $> 0$ or $< 0$). Conversely, if $\Delta$ is torsion-free, $\Delta$ is a sub-$\mathbf{Z}$-module of a vector $\mathbf{Q}$-space (§ 7, no. 10, Corollary 1 to Proposition 26) which may be assumed of the form $\mathbf{Q}^{(I)}$; if $I$ is given a well-ordering (*Set Theory*, III, § 2, no. 3, Theorem 1) and $\mathbf{Q}$ its usual ordering, the set $\mathbf{Q}^{(I)}$ with the *lexicographical ordering* is totally ordered (*Set Theory*, III, § 2, no. 6); it is immediate that this ordering is compatible with the additive group structure of $\mathbf{Q}^{(I)}$.
 
-#### Proposition 8 {#alg-ii-s11-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s11-prop-8 .statement tag=05YM}
 
 *Let $\Delta$ be a torsion-free commutative group and $A$ a graded ring of type $\Delta$. If the product in $A$ of two homogeneous elements $\neq 0$ is $\neq 0$, the ring $A$ has no divisor of 0.*
 
@@ -353,7 +353,7 @@ Let $M'$ (resp. $N'$) be another graded right (resp. left) $A$-module and $u : M
 
 When $A$ is commutative, a graduation (compatible with the $A$-module structure) is similarly defined on the tensor product of any finite number of graded $A$-modules; it is moreover immediate that the associativity isomorphisms such as $(M \otimes N) \otimes P \to M \otimes (N \otimes P)$ ($§ 3$, no. 8, Proposition 8) are isomorphisms of *graded* modules.
 
-#### Remark {#alg-ii-s11-n5-rem-1 .statement}
+#### Remark {#alg-ii-s11-n5-rem-1 .statement tag=05YN}
 
 When $A$ has the *trivial* graduation (no. 1, *Example* 1), $(M \otimes_A N)_\lambda$ is then simply the direct sum of the sub-$Y$-modules $M_\mu \otimes_A N_\nu$ of $M \otimes_A N$ such that $\mu + \nu = \lambda$.
 
@@ -377,7 +377,7 @@ Let $M'$ and $N'$ be two graded left $A$-modules of type $\Delta$ and $u': M' \t
 
 In particular $\mathrm{Homgr}_A(M, M)$ is a *graded subring* of $\mathrm{End}_A(M)$, which is denoted by $\mathrm{Endgr}_A(M)$.
 
-#### Remark {#alg-ii-s11-n6-rem-1 .statement}
+#### Remark {#alg-ii-s11-n6-rem-1 .statement tag=05YO}
 
 If $M$ and $N$ are graded left $A$-modules, $\mathrm{Homgr}_A(M, N)$ is in general distinct from $\mathrm{Hom}_A(M, N)$. However these two sets are equal when $M$ is a *finitely generated* $A$-module. For $M$ is then generated by a finite number of homogeneous elements $x_i$ ($1 \leq i \leq n$); let $d(i)$ be the degree of $x_i$; let $u \in \mathrm{Hom}_A(M, N)$ and for all $\lambda \in \Delta$ let $z_{i,\lambda}$ denote the homogeneous component of $u(x_i)$ of degree $\lambda + d(i)$. We show that there exists a homomorphism $u_\lambda : M \to N$ such that $u_\lambda(x_i) = z_{i,\lambda}$ for all $i$. It suffices to prove that if $\sum_i a_ix_i = 0$ with $a_i \in A$ for $1 \leq i \leq n$, then $\sum_i a_iz_{i,\lambda} = 0$ for all $\lambda \in \Delta$ ($§ 1$, no. 7, *Remark*). It can be assumed that each $a_i$ is homogeneous of degree $d'(i)$ such that $d(i) + d'(i) = \mu$ for all $i$ (no. 3, *Remark* 1); then $\sum_i a_iu(x_i) = 0$; taking the homogeneous component of degree $\lambda + \mu$ on the left-hand side, we obtain $\sum_i a_iz_{i,\lambda} = 0$, whence the existence of the homomorphism $u_\lambda$; clearly moreover $u_\lambda$ is *graded* of degree $\lambda$. Finally, $u_\lambda = 0$ except for a finite number of values of $\lambda$, and $u = \sum_\lambda u_\lambda$ by definition, which proves our assertion.
 

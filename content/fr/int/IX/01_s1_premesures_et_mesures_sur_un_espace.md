@@ -52,14 +52,14 @@ subsections:
       pdf_page: 22
 statements: 55
 exercises: 10
-content_sha256: 75307d5fa26ca44599f55e94fb694e68b8d1205d588903363e407f4b0f035a84
+content_sha256: 876564efa52c81c8896e74dcbd24b6185e43b3b32aa19c1bd8068b2d52fa2f2c
 ---
 
 ## § 1. Prémesures et mesures sur un espace topologique
 
 ### 1. Encombrements
 
-#### Définition 1 {#int-ix-s1-def-1 .statement}
+#### Définition 1 {#int-ix-s1-def-1 .statement tag=09MO}
 
 Soit T un ensemble. On appelle encombrement sur T toute application p de $\mathscr{F}_+(T)$ dans $\overline{\mathbf{R}}_+$ qui possède les propriétés suivantes:
 
@@ -78,7 +78,7 @@ $$
 
 Par exemple, soient T un espace localement compact, $\mu$ une mesure positive sur T; alors $\mu^*$ et $\mu^*$ sont des encombrements sur T. Cela résulte des prop. 10, 11, 12 et du th. 3 du chap. IV, 2e éd., § 1, n° 3 pour $\mu^*$, et de la prop. 1 du chap. V, 2e éd., § 1, n° 1 pour $\mu^*$.
 
-#### Proposition 1 {#int-ix-s1-prop-1 .statement}
+#### Proposition 1 {#int-ix-s1-prop-1 .statement tag=09MP}
 
 *Soit* $(p_\alpha)_{\alpha \in A}$ *une famille d’encombrements sur* T. *La somme et l’enveloppe supérieure de la famille* $(p_\alpha)$ *(dans* $\mathscr{F}_+ (\mathscr{F}_+ (T))$) *sont alors des encombrements*.
 
@@ -88,7 +88,7 @@ $$
 p(f) = \sup_\alpha p_\alpha(f) = \sup_\alpha \sup_n p_\alpha(f_n) = \sup_n \sup_\alpha p_\alpha(f_n) = \sup_n p(f_n).
 $$
 
-#### Définition 2 {#int-ix-s1-def-2 .statement}
+#### Définition 2 {#int-ix-s1-def-2 .statement tag=09MQ}
 
 *Soit* p *un encombrement sur un ensemble* T. *On dit que* p *est borné si* $p(T) < +\infty$. *Si* T *est un espace topologique, on dit que* p *est localement borné si tout* $x \in T$ *admet un voisinage* V *tel que* $p(V) < +\infty$.
 
@@ -104,7 +104,7 @@ $$
 
 Soit p un encombrement sur un ensemble T; on dit que p est *concentré* sur une partie A de T si $p(T - A) = 0$.
 
-#### Lemme 1 {#int-ix-s1-lem-1 .statement}
+#### Lemme 1 {#int-ix-s1-lem-1 .statement tag=09MR}
 
 *Si l’encombrement* p *est concentré sur* A $\subset$ T, *on a* $p(f) = p(f \varphi_A)$ *pour tout* $f \in \mathscr{F}_+(T)$.
 
@@ -120,7 +120,7 @@ donc $p(f \varphi_B) = 0$ d’après les propriétés $a), b), d)$, de la déf. 
 
 Soit T un espace topologique, et soit $\mathfrak{A}$ l’ensemble des parties compactes de T, ordonné par inclusion. Pour tout $K \in \mathfrak{A}$, soit $\mathscr{M}(K; \mathbf{C})$ l’ensemble des mesures complexes sur K. Pour tout couple (K, L) d’éléments de $\mathfrak{A}$, tel que $K \subset L$, soit $t_{KL}$ l’application de $\mathscr{M}(L; \mathbf{C})$ dans $\mathscr{M}(K; \mathbf{C})$ qui associe à toute mesure $\mu$ sur L la mesure $\mu_K$ induite par $\mu$ sur K (chap. IV, 2e éd., § 5, n° 7, déf. 4). On a $t_{KM} = t_{KL} \circ t_{LM}$ lorsque K, L et M sont des parties compactes de T telles que $K \subset L \subset M$; ceci résulte de la transitivité des mesures induites (chap. V, 2e éd., § 7, n° 2, prop. 4). Les éléments de la limite projective de la famille $(\mathscr{M}(K; \mathbf{C}))_{K \in \mathfrak{A}}$ pour les applications $t_{KL}$ seront appelés prémesures sur T. Autrement dit:
 
-#### Définition 3 {#int-ix-s1-def-3 .statement}
+#### Définition 3 {#int-ix-s1-def-3 .statement tag=09MS}
 
 On appelle prémesure sur un espace topologique T toute application w qui associe, à toute partie compacte K de T, une mesure $w_K$ sur K, et qui possède la propriété suivante :
 
@@ -135,7 +135,7 @@ $$
 $$
 pour toute partie compacte K de T.
 
-#### Définition 4 {#int-ix-s1-def-4 .statement}
+#### Définition 4 {#int-ix-s1-def-4 .statement tag=09MT}
 
 Soit w une prémesure positive sur T. Nous poserons pour toute fonction $f \in \mathscr{F}_+(T)$
 (1)
@@ -150,7 +150,7 @@ On dit que $w^\bullet$ est l'intégrale supérieure essentielle associée à la 
 
 Remarque 1). — Si $v$ et $w$ sont deux prémesures positives, on a $(v + w)^\bullet = v^\bullet + w^\bullet$ (chap. V, 2e éd., § 1, n° 1, prop. 3). Si $v$ et $w$ sont deux prémesures complexes, on a $|v + w|^\bullet \leq |v|^\bullet + |w|^\bullet$.
 
-#### Proposition 2 {#int-ix-s1-prop-2 .statement}
+#### Proposition 2 {#int-ix-s1-prop-2 .statement tag=09MU}
 
 a) Soit $w$ une prémesure positive. Pour toute partie compacte $K$ de $T$, l’encombrement $(w^\bullet)_K$ induit par $w^\bullet$ sur $K$ est égal à $(w_K)^\bullet$. Pour toute fonction $f \in \mathscr{F}_+(T)$, on a les relations $(w_K)^\bullet(f_K) = w^\bullet(f_{\varphi_K})$ et
 $$
@@ -174,7 +174,7 @@ C.Q.F.D.
 
 L’encombrement induit $(w^\bullet)_K$ étant égal à $(w_K)^\bullet$, il n’y a aucune ambiguïté à écrire simplement $w_K^\bullet$. Nous emploierons cette notation dans toute la suite.
 
-#### Corollaire {#int-ix-s1-n2-cor-1 .statement}
+#### Corollaire {#int-ix-s1-n2-cor-1 .statement tag=09MV}
 
 Soient $v$ et $w$ deux prémesures positives sur $T$, telles que $v^\bullet(L) = w^\bullet(L)$ pour toute partie compacte $L$ de $T$; on a alors $v = w$. En particulier, la relation $v^\bullet = w^\bullet$ entraîne $v = w$.
 
@@ -185,7 +185,7 @@ $$
 
 d’après la prop. 2; on a donc $w_K = v_K$ (chap. IV, 2e éd., § 4, n° 10, cor. 3 de la prop. 19), et enfin $w = v$ par la définition des prémesures.
 
-#### Définition 5 {#int-ix-s1-def-5 .statement}
+#### Définition 5 {#int-ix-s1-def-5 .statement tag=09MW}
 
 Soit $w$ une prémesure sur un espace topologique $T$. On dit que $w$ est une mesure (resp. une mesure bornée) si l’encombrement $|w|^*$ est localement borné (resp. borné) (cf. n° 1, déf. 2).
 
@@ -193,11 +193,11 @@ L’ensemble des mesures complexes sur $T$ est évidemment un espace vectoriel (
 
 Si $w$ est une mesure complexe, sa partie réelle et sa partie imaginaire sont des mesures réelles. Si $w$ est une mesure réelle, $w^+$ et $w^-$ sont des mesures positives. Toute mesure complexe (resp. réelle) est donc combinaison linéaire (resp. différence) de mesures positives.
 
-#### Remarque 2 {#int-ix-s1-n2-rem-2 .statement}
+#### Remarque 2 {#int-ix-s1-n2-rem-2 .statement tag=09MX}
 
 Si $T$ est localement compact, toute prémesure $w$ sur $T$ est une mesure. En effet, tout $x \in T$ admet un voisinage compact $K$, et on a $|w|^*(K) = \|w_K\| < +\infty$, de sorte que l’encombrement $|w|^*$ est localement borné.
 
-#### Remarque 3 {#int-ix-s1-n2-rem-3 .statement}
+#### Remarque 3 {#int-ix-s1-n2-rem-3 .statement tag=09MY}
 
 Pour toute partie borélienne $A$ de $T$ (en particulier pour $A = T$), et toute mesure positive $\mu$ sur $T$, le nombre $\mu^*(A)$ est la borne supérieure des mesures $\mu^*(K)$ des parties compactes de $A$. En effet, pour toute partie compacte $K$ de $A$, on a $\mu^*(K) \leq \mu^*(A)$; d’autre part, si $\mathfrak{K}$ est l’ensemble des parties compactes de $T$, on a
 $$
@@ -207,13 +207,13 @@ d’après le cor. 1 du th. 4 du chap. IV, § 4, n° 6 (2e éd.).
 
 ### 3. Exemples de mesures
 
-#### Exemple 1 {#int-ix-s1-n3-exa-1 .statement}
+#### Exemple 1 {#int-ix-s1-n3-exa-1 .statement tag=09MZ}
 
 Mesures sur un espace localement compact
 
 La proposition suivante montre que la théorie de ce chapitre contient celle du chap. IV. Dans l’énoncé, le mot « mesure » et la notation $\mathscr{M}(T; \mathbf{C})$ sont pris au sens des chapitres antérieurs.
 
-#### Proposition 3 {#int-ix-s1-prop-3 .statement}
+#### Proposition 3 {#int-ix-s1-prop-3 .statement tag=09N0}
 
 Soit $T$ un espace localement compact, et soit $\mu$ une mesure sur $T$. Désignons par $W(\mu)$ l’application qui à chaque partie compacte $K$ de $T$ associe la mesure induite $\mu_K$. Alors $W(\mu)$ est une prémesure sur $T$, on a $W(|\mu|) = |W(\mu)|$, et l’application linéaire $W : \mu \mapsto W(\mu)$ est une bijection de l’espace $\mathscr{M}(T; \mathbf{C})$ sur l’espace $\mathscr{P}(T; \mathbf{C})$ des prémesures sur $T$. En outre, si $\mu$ est positive, on a $\mu^* = (W(\mu))^*$.
 
@@ -237,11 +237,11 @@ C.Q.F.D.
 
 Lorsque $T$ est *localement compact*, nous *identifierons* dans toute la suite les espaces $\mathscr{M}(T; \mathbf{C})$ et $\mathscr{P}(T; \mathbf{C})$ au moyen de la bijection $W$.
 
-#### Exemple 2 {#int-ix-s1-n3-exa-2 .statement}
+#### Exemple 2 {#int-ix-s1-n3-exa-2 .statement tag=09N1}
 
 *Mesures à support compact sur un espace topologique.*
 
-#### Lemme 2 {#int-ix-s1-lem-2 .statement}
+#### Lemme 2 {#int-ix-s1-lem-2 .statement tag=09N2}
 
 *Soient* $T$ *un espace topologique, L une partie compacte de* $T$, $\lambda$ *une mesure positive sur* $L$. *Il existe une mesure positive unique* $\mu$ *sur* $T$, *telle que l’on ait, pour toute fonction* $f \in \mathscr{F}_+(T)$,
 
@@ -262,11 +262,11 @@ C.Q.F.D.
 
 On dira que $\mu$ est la mesure sur $T$ définie par $\lambda$. En particulier, pour tout point $x$ de $T$, on peut définir la mesure $\varepsilon_x$; elle est caractérisée par $(\varepsilon_x)^*(f) = f(x)$ pour $f \in \mathscr{F}_+(T)$.
 
-#### Remarque 1 {#int-ix-s1-n3-rem-1 .statement}
+#### Remarque 1 {#int-ix-s1-n3-rem-1 .statement tag=09N3}
 
 Lorsque $T$ est localement compact, $\mu$ est l’image de $\lambda$ par l’injection de $L$ dans $T$. Nous verrons au § 2, n° 3, Exemple 1, lorsque les mesures images auront été traitées, que cette interprétation vaut encore pour des espaces quelconques.
 
-#### Remarque 2 {#int-ix-s1-n3-rem-2 .statement}
+#### Remarque 2 {#int-ix-s1-n3-rem-2 .statement tag=0E7F}
 
 Nous verrons aussi que les mesures définies dans l’Exemple 2 sont les mesures positives à support compact dans $T$ (n° 6, Remarque 2)).
 
@@ -276,26 +276,26 @@ De nombreux résultats des n°s suivants s’étendent aux prémesures positives
 
 ### 4. Ensembles et fonctions localement négligeables
 
-#### Définition 6 {#int-ix-s1-def-6 .statement}
+#### Définition 6 {#int-ix-s1-def-6 .statement tag=09N4}
 
 On dit qu’une fonction $f \in \mathscr{F}_+$ (resp. une partie $A$ de $T$) est localement négligeable pour la mesure $\mu$ si $\mu^*(f) = 0$ (resp. $\mu^*(A) = 0$). On dit que $\mu$ est concentrée sur une partie $A$ de $T$ si $T - A$ est localement $\mu$-négligeable.
 
-#### Remarque 1 {#int-ix-s1-n4-rem-1 .statement}
+#### Remarque 1 {#int-ix-s1-n4-rem-1 .statement tag=09N5}
 
 Les notions ainsi définies coïncident, lorsque $T$ est localement compact, avec les notions usuelles.
 
-#### Remarque 2 {#int-ix-s1-n4-rem-2 .statement}
+#### Remarque 2 {#int-ix-s1-n4-rem-2 .statement tag=0E7G}
 
 Lorsque nous aurons défini les ensembles négligeables, nous verrons que les ensembles localement négligeables sont bien ceux dont le germe, en tout point de $T$, est un germe d’ensemble négligeable (n° 9, cor. 2 de la prop. 14).
 
-#### Remarque 3 {#int-ix-s1-n4-rem-3 .statement}
+#### Remarque 3 {#int-ix-s1-n4-rem-3 .statement tag=0E7H}
 
 Comme aux chap. IV et V, l’expression « localement presque partout » sera synonyme de « sauf sur un ensemble localement négligeable ».
 
-#### Remarque 4 {#int-ix-s1-n4-rem-4 .statement}
+#### Remarque 4 {#int-ix-s1-n4-rem-4 .statement tag=0E7I}
 
 Si $\theta$ est une mesure complexe, on dira qu’une fonction (resp. une partie de $T$) est localement négligeable pour $\theta$ si elle l’est pour la mesure positive $|\theta|$.
-#### Exemple {#int-ix-s1-n4-exa-1 .statement}
+#### Exemple {#int-ix-s1-n4-exa-1 .statement tag=09N6}
 
 Soient $L$ une partie compacte de $T$, $\lambda$ une mesure sur $L$, et $\mu$ la mesure sur $T$ définie par $\lambda$ (n° 3, Exemple 2). La formule (3) entraîne aussitôt qu’une fonction $f \in \mathscr{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_L$ est $\lambda$-négligeable.
 
@@ -308,7 +308,7 @@ Il résulte immédiatement de la formule (1) qu’une fonction $f \in \mathscr{F
 
 ### 5. Ensembles et fonctions mesurables
 
-#### Définition 7 {#int-ix-s1-def-7 .statement}
+#### Définition 7 {#int-ix-s1-def-7 .statement tag=09N7}
 
 *On dit qu'une fonction* $f$ *définie dans* $T$, *à valeurs dans un espace topologique* $F$ *(séparé ou non)* *est mesurable pour la mesure* $\mu$ *(ou* $\mu$-*mesurable)* *si, pour toute partie compacte* $K$ *de* $T$, *la fonction* $f_K$ *est* $\mu_K$*-mesurable*.
 
@@ -318,7 +318,7 @@ On dit qu'une partie $A$ de $T$ est mesurable si sa fonction caractéristique es
 
 Si $\theta$ est une mesure complexe sur $T$, on dit qu'une fonction $f$ (resp. une partie de $T$) est $\theta$-mesurable si elle est mesurable pour la mesure positive $|\theta|$. Les résultats ci-dessous s'étendent aux mesures complexes.
 
-#### Exemple {#int-ix-s1-n5-exa-1 .statement}
+#### Exemple {#int-ix-s1-n5-exa-1 .statement tag=09N8}
 
 Soient $L$ une partie compacte de $T$, $\lambda$ une mesure sur $L$ et $\mu$ la mesure sur $T$ définie par $\lambda$ (n° 3, *Exemple* 2). Une fonction $f$ définie dans $T$ est $\mu$-mesurable si et seulement si $f_L$ est $\lambda$-mesurable. En effet, cette condition est évidemment nécessaire. Inversement, si elle est vérifiée, il existe une partition de $L$ en un ensemble $\lambda$-négligeable $N$ et une suite $(L_n)$ d'ensembles compacts, tels que $f_{L_n}$ soit continue pour tout $n$. Si $K$ est une partie compacte de $T$, l'ensemble $K - \bigcup_n (K \cap L_n)$ a une intersection avec $L$ qui est $\lambda$-négligeable, donc cet ensemble est $\mu$-négligeable d'après la formule (3) du n° 3, et la restriction de $f$ à $K \cap L_n$ est continue pour tout $n$.
 
@@ -326,7 +326,7 @@ La déf. 7 permet d'étendre, sans nouvelle démonstration, nombre de résultats
 
 1. La démonstration de ce corollaire est valable sans modification pour les ensembles sousliniens dans un espace localement compact non métrisable (*Top. gén.*, chap. IX, 3e éd., § 6, n° 9, th. 5).
 
-#### Proposition 4 {#int-ix-s1-prop-4 .statement}
+#### Proposition 4 {#int-ix-s1-prop-4 .statement tag=09N9}
 
 Soient f une fonction positive et $(g_n)_{n \geq 1}$ une suite de fonctions positives $\mu$-mesurables sur T. Si l’on pose $g = \sum_{n \geq 1} g_n$, on a
 $$
@@ -343,7 +343,7 @@ $$
 $$
 Or $fg$ est la limite de la suite croissante $(fh_n)_{n \geq 1}$, d’où $\mu^\bullet(fg) = \lim_{n \to \infty} \mu^\bullet(fh_n)$; la formule précédente entraîne alors immédiatement (4).
 
-#### Corollaire {#int-ix-s1-n5-cor-1 .statement}
+#### Corollaire {#int-ix-s1-n5-cor-1 .statement tag=09NA}
 
 Soit $(A_n)$ une suite de parties mesurables deux à deux disjointes, de réunion A. Pour toute partie B de T, on a
 $$
@@ -358,7 +358,7 @@ Parmi les propriétés des fonctions ou ensembles mesurables qui s’étendent c
 
 ### 6. Familles filtrantes; support d’une mesure
 
-#### Proposition 5 {#int-ix-s1-prop-5 .statement}
+#### Proposition 5 {#int-ix-s1-prop-5 .statement tag=09NB}
 
 a) Soit H un ensemble filtrant croissant de fonctions $\geq 0$, semi-continues inférieurement dans toute partie compacte de T. On a alors
 $$
@@ -391,7 +391,7 @@ $$
 
 Par conséquent, le premier membre de (6) majore le second; l’inégalité inverse étant évidente, la proposition est établie.
 
-#### Corollaire {#int-ix-s1-n6-cor-1 .statement}
+#### Corollaire {#int-ix-s1-n6-cor-1 .statement tag=09NC}
 
 a) Soit $(\mathbf{U}_\alpha)_{\alpha \in I}$ une famille filtrante croissante de parties ouvertes de $T$, de réunion $U$. On a $\mu^*(U) = \sup_{\alpha \in I} \mu^*(\mathbf{U}_\alpha)$.
 
@@ -399,17 +399,17 @@ b) Soit $(\mathbf{F}_\alpha)_{\alpha \in I}$ une famille filtrante décroissante
 
 D’après le cor. précédent, il existe un plus grand ouvert localement négligeable; ceci justifie la définition suivante:
 
-#### Définition 8 {#int-ix-s1-def-8 .statement}
+#### Définition 8 {#int-ix-s1-def-8 .statement tag=09ND}
 
 On appelle support d’une mesure $\mu$ sur $T$ le complémentaire du plus grand ensemble ouvert localement $\mu$-négligeable de $T$.
 
 Le support de $\mu$ est désigné par la notation $\operatorname{Supp}(\mu)$.
 
-#### Remarque 1 {#int-ix-s1-n6-rem-1 .statement}
+#### Remarque 1 {#int-ix-s1-n6-rem-1 .statement tag=09NE}
 
 Si $\mu$ est une mesure complexe, on appelle support de $\mu$ le support de la mesure positive $|\mu|$; c’est encore le complémentaire du plus grand ensemble ouvert localement $\mu$-négligeable.
 
-#### Remarque 2 {#int-ix-s1-n6-rem-2 .statement}
+#### Remarque 2 {#int-ix-s1-n6-rem-2 .statement tag=09NF}
 
 Montrons que les mesures introduites dans l’Exemple 2 du n° 3 sont les mesures à support compact dans $T$. Soit $\mu$ une mesure positive sur $T$ dont le support est un ensemble compact $K$, et soit $\nu$ la mesure définie par $\mu_K$ (au sens du n° 3). Soit $f \in \mathscr{F}_+(T)$; on a
 
@@ -427,7 +427,7 @@ d’où $\mu^* = \nu^*$, et enfin $\mu = \nu$. Inversement, si $K$ est un ensemb
 
 ### 7. Enveloppes supérieures et sommes de mesures
 
-#### Proposition 6 {#int-ix-s1-prop-6 .statement}
+#### Proposition 6 {#int-ix-s1-prop-6 .statement tag=09NG}
 
 Soit $(\lambda_\alpha)_{\alpha \in A}$ une famille filtrante croissante de mesures sur $T$, et soit $p = \sup_\alpha \lambda_\alpha^\bullet$. Pour que la famille $(\lambda_\alpha)$ soit majorée dans $\mathscr{M}(T)$, il faut et il suffit que l’encombrement $p$ soit localement borné. La famille $(\lambda_\alpha)$ admet alors une borne supérieure $\lambda$ dans $\mathscr{M}(T)$, et on a $\lambda^\bullet = p$. Pour tout ensemble compact $K$, la mesure $\lambda_K$ est la borne supérieure des mesures $(\lambda_\alpha)_K$ dans $\mathscr{M}(K)$.
 
@@ -439,30 +439,30 @@ $$
 
 D’autre part, soit $K$ un ensemble compact; l’encombrement $p_K$ est égal à l’enveloppe supérieure des encombremens $(\lambda_\alpha^\bullet)_K$, et il est borné puisque $p$ est localement borné. Les mesures $(\lambda_\alpha)_K$ admettent donc une borne supérieure $\lambda_K$ dans $\mathscr{M}(K)$, et on a $\lambda_K^\bullet = p_K$ (chap. V, 2e éd., § 1, n° 4, prop. 11). La condition 1) de la prop. 2, b) du n° 2 est donc satisfaite, et il existe donc une mesure $\lambda$ sur $T$ telle que $\lambda^\bullet = p$; il est clair que $\lambda$ est la borne supérieure des mesures $\lambda_\alpha$.
 
-#### Définition 9 {#int-ix-s1-def-9 .statement}
+#### Définition 9 {#int-ix-s1-def-9 .statement tag=09NH}
 
 Soit $(\mu_i)_{i \in I}$ une famille de mesures sur $T$. Soit $A$ l’ensemble des parties finies de $I$; pour tout $\alpha \in A$, soit $\lambda_\alpha = \sum_{i \in \alpha} \mu_i$. Si la famille $(\lambda_\alpha)$ admet dans $\mathscr{M}(T)$ une borne supérieure $\mu$, on dit que la famille $(\mu_i)$ est sommable, que $\mu$ est la somme de la famille $(\mu_i)$, et on écrit $\mu = \sum_{i \in I} \mu_i$.
 
 Cette définition étend la déf. du chap. V, 2e éd., § 2, n° 1.
 
-#### Proposition 7 {#int-ix-s1-prop-7 .statement}
+#### Proposition 7 {#int-ix-s1-prop-7 .statement tag=09NI}
 
 Pour que la famille $(\mu_i)_{i \in I}$ soit sommable, il faut et il suffit que l’encombrement $p = \sum_{i \in I} \mu_i^\bullet$ soit localement borné, et l’on a dans ce cas $p = \mu^\bullet$. Pour toute partie compacte $K$ de $T$, la famille $((\mu_i)_K)_{i \in I}$ est alors sommable dans $\mathscr{M}(K)$, et l’on a $\mu_K = \sum_{i \in I} (\mu_i)_K$.
 
 Les notations étant celles de la déf. 9, on a $\lambda_\alpha^\bullet = \sum_{i \in \alpha} \mu_i^\bullet$ pour toute partie finie $\alpha$ de $A$ (n° 2, Remarque 1). L’énoncé est alors une conséquence immédiate de la prop. 6.
 
 La relation $\mu_K = \sum_{i \in I} (\mu_i)_K$ et la prop. 2 du chap. V, 2e éd., § 2, n° 2 nous donnent le résultat suivant:
-#### Proposition 8 {#int-ix-s1-prop-8 .statement}
+#### Proposition 8 {#int-ix-s1-prop-8 .statement tag=09NJ}
 
 Soit $\mu$ la somme d’une famille sommable $(\mu_i)_{i \in I}$ de mesures sur $T$. Pour qu’une application $f$ de $T$ dans un espace topologique $F$ (séparé ou non) soit $\mu$-mesurable, il faut et il suffit que $f$ soit $\mu_i$-mesurable pour tout $i \in I$.
 
 ### 8. Concassages
 
-#### Définition 10 {#int-ix-s1-def-10 .statement}
+#### Définition 10 {#int-ix-s1-def-10 .statement tag=09NK}
 
 On appelle concassage de T pour μ, ou μ-concassage, une famille localement dénombrable $(K_\alpha)_{\alpha \in A}$ de parties compactes de T deux à deux disjointes, telles que l’ensemble $N = T - \bigcup_{\alpha \in A} K_\alpha$ soit localement μ-négligeable.
 
-#### Proposition 9 {#int-ix-s1-prop-9 .statement}
+#### Proposition 9 {#int-ix-s1-prop-9 .statement tag=09NL}
 
 a) Il existe un concassage $(K_\alpha)_{\alpha \in A}$ de T pour μ.
 b) Soit $(K_\alpha)_{\alpha \in A}$ un concassage de T pour μ. Si $\mu_\alpha$ est la mesure sur T définie par $\mu_{K_\alpha}$ (n° 3, Exemple 2), la famille $(\mu_\alpha)_{\alpha \in A}$ est sommable, sa somme est égale à μ, et on a pour toute fonction $f \in \mathscr{F}_+(T)$ la relation
@@ -510,13 +510,13 @@ Pour qu’une fonction g définie dans T soit $\mu$-mesurable, il faut et il suf
 
 Comme dans la prop. 14 du chap. IV, 2e éd., § 5, n° 9, on peut assujettir les compacts $K_\alpha$ à appartenir à un ensemble $\mu$-dense de parties compactes de T, donné à l’avance. Nous aurons seulement besoin du résultat suivant, que nous établirons directement.
 
-#### Proposition 10 {#int-ix-s1-prop-10 .statement}
+#### Proposition 10 {#int-ix-s1-prop-10 .statement tag=09NM}
 
 Si g est une application $\mu$-mesurable à valeurs dans un espace topologique G (séparé ou non), il existe un $\mu$-concassage $(L_\beta)_{\beta \in B}$ de T tel que les restrictions $g_{L_\beta}$ soient continues pour tout $\beta \in B$.
 
 Considérons un concassage $(K_\alpha)_{\alpha \in A}$ de T pour $\mu$. L’application g étant mesurable, il existe pour chaque $\alpha \in A$ une partition de $K_\alpha$ en une suite $(K_{\alpha n})$ d’ensembles compacts et un ensemble localement négligeable $N_\alpha$, tels que la restriction de g à chacun des ensembles $K_{\alpha n}$ soit continue. La famille $(K_{\alpha n})_{(\alpha, n) \in A \times \mathbf{N}}$ est alors le concassage cherché. Elle est en effet localement dénombrable, et l’ensemble $N' = N \cup (\bigcup_{\alpha} N_\alpha)$ est localement négligeable, car un ensemble compact rencontre au plus une infinité dénombrable d’ensembles $N_\alpha$.
 
-#### Scholie {#int-ix-s1-n8-sch-1 .statement}
+#### Scholie {#int-ix-s1-n8-sch-1 .statement tag=09NN}
 
 Soit $(K_\alpha)_{\alpha \in A}$ un concassage de $T$, et soit $N = T - \bigcup_{\alpha} K_\alpha$. Nous désignerons par $T'$ l’espace localement compact obtenu en munissant $T$ de la topologie somme des topologies des sous-espaces $K_\alpha$, et d’une topologie localement compacte quelconque sur $N$ (sauf mention du contraire, nous munirons toujours $N$ de la topologie discrète). Pour chaque $\alpha \in A$, soit $i_\alpha$ l’injection canonique de $K_\alpha$ dans $T'$, et soit $\mu'_\alpha$ la mesure sur $T'$, image de $\mu_{K_\alpha}$ par $i_\alpha$. La famille $(\mu'_\alpha)$ est sommable: en effet, si $f$ est une fonction continue à support compact dans $T'$, $\operatorname{Supp}(f)$ ne rencontre $K_\alpha$ que pour un nombre fini d’indices $\alpha$. Nous poserons $\mu' = \sum_{\alpha \in A} \mu'_\alpha$. L’ensemble $N$ étant localement négligeable pour $\mu'$, puisqu’il l’est pour chaque $\mu'_\alpha$ (prop. 9), la famille $(K_\alpha)_{\alpha \in A}$ est un $\mu'$-concassage de $T'$; or la mesure induite par $\mu'$ sur $K_\alpha$ est évidemment $\mu_{K_\alpha}$ et la formule (7), appliquée à $\mu$ et à $\mu'$, montre que $\mu^* = {\mu'}^*$. De même, la dernière assertion de l’énoncé, appliquée à $\mu$ et à $\mu'$, montre que les applications mesurables sont les mêmes pour les deux mesures $\mu$ et $\mu'$.
 
@@ -524,7 +524,7 @@ Ces deux propriétés permettent de ramener presque toute la théorie de l’int
 
 Voici une autre application de la notion de concassage:
 
-#### Proposition 11 {#int-ix-s1-prop-11 .statement}
+#### Proposition 11 {#int-ix-s1-prop-11 .statement tag=09NO}
 
 Soit $X$ une partie $\mu$-mesurable de $T$. Il existe une famille localement dénombrable $(L_\alpha)_{\alpha \in A}$ de parties compactes de $X$, deux à deux disjointes, telle que $X - \bigcup_{\alpha \in A} L_\alpha$ soit localement $\mu$-négligeable. Si, de plus, $X$ est réunion d’une suite $(X_n)$ d’ensembles mesurables tels que $\mu^*(X_n) < +\infty$, l’ensemble $B$ des $\alpha \in A$ tels que $\mu^*(L_\alpha) \neq 0$ est dénombrable, et $X - \bigcup_{\beta \in B} L_\beta$ est localement $\mu$-négligeable.
 
@@ -534,7 +534,7 @@ Mais soit $K$ un ensemble compact; la famille $(L_\alpha)_{\alpha \in A}$ étant
 
 ### 9. Intégrale supérieure
 
-#### Définition 11 {#int-ix-s1-def-11 .statement}
+#### Définition 11 {#int-ix-s1-def-11 .statement tag=09NP}
 
 Pour toute fonction $f \in \mathscr{F}_+(\mathrm{T})$, on appelle intégrale supérieure de $f$ (par rapport à la mesure $\mu$) le nombre positif fini ou infini
 
@@ -548,39 +548,39 @@ On utilise aussi les notations $\int^* f(t)\ d\mu(t)$ et $\int^* f\ d\mu$. Lorsq
 
 Une fonction $\mathbf{f}$ à valeurs dans un espace de Banach ou dans $\overline{\mathbf{R}}$ telle que $\mu^*(|\mathbf{f}|) = 0$ est dite négligeable; un ensemble $A \subset \mathrm{T}$ est dit négligeable si $\varphi_A$ est négligeable, c’est-à-dire si l’on a $\mu^*(A) = 0$. On introduit l’expression presque partout comme au chap. IV, 2e éd., § 2, no 3.
 
-#### Proposition 12 {#int-ix-s1-prop-12 .statement}
+#### Proposition 12 {#int-ix-s1-prop-12 .statement tag=09NQ}
 
 La fonction $\mu^*$ est un encombrement sur $\mathrm{T}$.
 
 Les propriétés $a), b), c)$ de la déf. 1 du no 1 sont évidentes. La démonstration de la propriété d) est identique à celle du th. 3 du chap. IV, 2e éd., § 1, no 3, compte tenu des prop. 4 et 5, a).
 
-#### Corollaire {#int-ix-s1-n9-cor-1 .statement}
+#### Corollaire {#int-ix-s1-n9-cor-1 .statement tag=09NR}
 
 Une fonction $\mathbf{f}$, à valeurs dans un espace de Banach ou dans $\overline{\mathbf{R}}$, est négligeable si et seulement si $\mathbf{f}(t) = 0$ presque partout.
 
 On se ramène immédiatement au cas d’une fonction positive. La démonstration est alors identique à celle du th. 1 du chap. IV, 2e éd., § 2, no 3.
 
-#### Proposition 13 {#int-ix-s1-prop-13 .statement}
+#### Proposition 13 {#int-ix-s1-prop-13 .statement tag=09NS}
 
 Pour toute partie $A$ de $\mathrm{T}$, $\mu^*(A)$ est la borne inférieure des mesures extérieures des ensembles ouverts contenant $A$.
 
 La démonstration est identique à celle de la prop. 19 du chap. IV, 2e éd., § 1, no 4.
 
-#### Définition 12 {#int-ix-s1-def-12 .statement}
+#### Définition 12 {#int-ix-s1-def-12 .statement tag=09NT}
 
 Soit $\mathbf{f}$ une fonction définie dans $\mathrm{T}$, à valeurs dans un espace de Banach ou dans $\overline{\mathbf{R}}$. On dit que $\mathbf{f}$ est modérée pour la mesure $\mu$, ou $\mu$-modérée, si $\mathbf{f}$ est nulle dans le complémentaire d’une réunion dénombrable d’ouverts intégrables. On dit qu’une partie $A$ de $\mathrm{T}$ est modérée si la fonction $\varphi_A$ est modérée. On dit que la mesure $\mu$ est modérée si la fonction $1$ est $\mu$-modérée.
 
 Par exemple, l’encombrement $\mu^*$ étant localement borné, toute partie compacte $K$ de $\mathrm{T}$ est contenue dans un ensemble ouvert $V$ tel que $\mu^*(V) < +\infty$; une fonction nulle hors d’un ensemble compact est donc modérée. Une fonction négligeable est modérée. Les remarques qui suivent la déf. 2 du chap. V, 2e éd., § 1, no 2 s’étendent aussitôt à la présente situation. En particulier, la somme d'une suite de fonctions positives modérées est modérée.
 
-#### Remarque 1 {#int-ix-s1-n9-rem-1 .statement}
+#### Remarque 1 {#int-ix-s1-n9-rem-1 .statement tag=09NU}
 
 Sur un espace de Lindelöf T (Top. Gén., chap. IX, 3e édit., Appendice I, déf. 1), et en particulier sur un espace souslinien, toute mesure est modérée. Les ouverts de mesure finie forment en effet un recouvrement de T, dont on peut extraire un recouvrement dénombrable de T.
 
-#### Remarque 2 {#int-ix-s1-n9-rem-2 .statement}
+#### Remarque 2 {#int-ix-s1-n9-rem-2 .statement tag=09NV}
 
 On prendra garde que l’existence d’une suite d’ensembles boréliens de mesure finie pour $\mu$, de réunion T, n’entraîne pas nécessairement l’existence d’une suite d’ensembles ouverts de mesure finie, de réunion T (autrement dit, n’entraîne pas que $\mu$ est modérée). Voir l’exerc. 8.
 
-#### Proposition 14 {#int-ix-s1-prop-14 .statement}
+#### Proposition 14 {#int-ix-s1-prop-14 .statement tag=09NW}
 
 Soit $f \in \mathscr{F}_+(T)$. Si $f$ est $\mu$-modérée, on a $\mu^*(f) = \mu^*(f)$; si $f$ n’est pas $\mu$-modérée, on a $\mu^*(f) = +\infty$.
 
@@ -609,29 +609,29 @@ $$
 \mu_i^*(g) \leq \mu_i^*(k) = \lambda^*(k_L) \leq \lambda^*(f_L) + c = \mu_i^*(f) + c.
 $$
 
-#### Corollaire 1 {#int-ix-s1-prop-14-cor-1 .statement}
+#### Corollaire 1 {#int-ix-s1-prop-14-cor-1 .statement tag=09NX}
 
 Pour qu’une fonction soit négligeable, il faut et il suffit qu’elle soit localement négligeable et modérée.
 
-#### Corollaire 2 {#int-ix-s1-prop-14-cor-2 .statement}
+#### Corollaire 2 {#int-ix-s1-prop-14-cor-2 .statement tag=09NY}
 
 Pour qu’une fonction $f$ soit localement négligeable, il faut et il suffit que tout $x \in T$ possède un voisinage $V$ tel que $f_{\varphi_V}$ soit négligeable.
 
 En effet, si cette propriété est satisfaite, $f_{\varphi_K}$ est négligeable pour tout ensemble compact $K$, et $f$ est donc localement négligeable (n° 2, prop. 2). Inversement, supposons que $f$ soit localement négligeable, et soit $x$ un point de $T$; il admet un voisinage ouvert $V$ de mesure finie. La fonction $f_{\varphi_V}$ est alors localement négligeable et modérée, donc négligeable.
 
-#### Corollaire 3 {#int-ix-s1-prop-14-cor-3 .statement}
+#### Corollaire 3 {#int-ix-s1-prop-14-cor-3 .statement tag=09NZ}
 
 Soit $f$ une fonction modérée définie dans $T$. Il existe une suite $(K_n)$ de parties compactes deux à deux disjointes, et un ensemble négligeable $H$, tels que $f = f_{\varphi_H} + \sum_n f_{\varphi_{K_n}}$.
 
 En effet, soit $G$ un ensemble, réunion dénombrable d’ouverts intégrables tels que $f$ soit nulle hors de $G$; alors $G$ est réunion d’une suite $(K_n)$ d’ensembles compacts disjoints deux à deux, et d’un ensemble localement négligeable $H$ (n° 8, prop. 11); mais $H$ est modéré, donc négligeable.
 
-#### Corollaire 4 {#int-ix-s1-prop-14-cor-4 .statement}
+#### Corollaire 4 {#int-ix-s1-prop-14-cor-4 .statement tag=09O0}
 
 Soient $\mu$ et $\nu$ deux mesures sur $T$ telles que $\mu^* = \nu^*$, on a alors $\mu = \nu$.
 
 En effet, l’égalité $\mu^* = \nu^*$ entraîne $\mu^*(f) = \nu^*(f)$ pour toute fonction positive $f$, modérée pour $\mu$ et $\nu$, donc pour toute fonction positive à support compact. On en déduit $\mu^* = \nu^*$ (n° 2, prop. 2), puis $\mu = \nu$ (n° 2, cor. de la prop. 2).
 
-#### Corollaire 5 {#int-ix-s1-prop-14-cor-5 .statement}
+#### Corollaire 5 {#int-ix-s1-prop-14-cor-5 .statement tag=09O1}
 
 Si $\mu$ est une mesure modérée sur $T$, il existe une suite $(\mu_n)_{n \in \mathbf{N}}$ de mesures à support compact telle que $\mu = \sum_{n \in \mathbf{N}} \mu_n$.
 
@@ -639,7 +639,7 @@ Par hypothèse, la fonction constante 1 est $\mu$-modérée. Appliquons le cor. 
 
 ### 10. Théorie de l’intégration
 
-#### Définition 13 {#int-ix-s1-def-13 .statement}
+#### Définition 13 {#int-ix-s1-def-13 .statement tag=09O2}
 
 Soit $p \in (1, +\infty[ ;$ on désigne par $\overline{\mathscr{L}}^p(T, \mu)$ (resp. $\overline{\mathscr{L}}_F^p(T, \mu)$ si F est un espace de Banach) l’ensemble des applications $f$ de T dans $\overline{\mathbf{R}}$ (resp. dans F), $\mu$-mesurables et telles que $\mu^*(|f|^p) < +\infty$. On désigne par $\mathscr{L}^p(T, \mu)$ (resp. $\mathscr{L}_F^p(T, \mu)$) l’ensemble des éléments $\mu$-modérés de $\overline{\mathscr{L}}^p(T, \mu)$ (resp. $\overline{\mathscr{L}}_F^p(T, \mu)$).
 
@@ -665,7 +665,7 @@ $$
 
 où $\mathbf{f}_\alpha$ est, pour tout $\alpha$, le prolongement par 0 d’une fonction continue sur $K_\alpha$, où $\mathbf{f}_\alpha = 0$ sauf pour un nombre fini d’indices, et où $\mathbf{g}$ est localement $\mu$-négligeable. Nous avons donc le résultat suivant:
 
-#### Proposition 15 {#int-ix-s1-prop-15 .statement}
+#### Proposition 15 {#int-ix-s1-prop-15 .statement tag=09O3}
 
 *L’ensemble des fonctions $\mathbf{f}$ à valeurs dans $F$, telles que $\mathrm{Supp}(\mathbf{f})$ soit compact, et que la restriction de $\mathbf{f}$ à $\mathrm{Supp}(\mathbf{f})$ soit continue, est dense dans $\overline{\mathscr{L}}_F^p(\mu)$ et dans $\mathscr{L}_F^p(\mu)$, pour $1 \leq p < +\infty$.*
 
@@ -673,7 +673,7 @@ On notera que ces fonctions *ne sont pas* des fonctions continues *dans* $T$ à 
 
 Passons à la définition de l’intégrale.
 
-#### Proposition 16 {#int-ix-s1-prop-16 .statement}
+#### Proposition 16 {#int-ix-s1-prop-16 .statement tag=09O4}
 
 *Il existe une application linéaire continue et une seule $\mathbf{f} \mapsto \int \mathbf{f} \, d\mu$, de l’espace $\overline{\mathscr{L}}_F^1(\mu)$ dans $F$, qui possède la propriété suivante:
 Si $\mathbf{f}$ est de la forme $t \mapsto g(t)\mathbf{a}$, avec $\mathbf{a} \in F$, et où $g$ est une fonction positive, finie, $\mu$-mesurable et telle que $\mu^*(g) < +\infty$, on a $\int \mathbf{f} \, d\mu = \mu^*(g) \cdot \mathbf{a}$.

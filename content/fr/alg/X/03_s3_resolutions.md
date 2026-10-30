@@ -49,7 +49,7 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 21
-content_sha256: 78ca3fd785b2b1360a93f67d9c559b085dcd26f276ad74007f29b76e87929cb9
+content_sha256: 12969001d124d8656ce3c60f9c3f40303daa5f2ee1943f5f98a41adadbad95d0
 ---
 
 ## § 3. RÉSOLUTIONS
@@ -58,7 +58,7 @@ On conserve les conventions du paragraphe précédent.
 
 ### 1. Prolongement de morphismes de complexes
 
-#### Lemme 1 {#alg-x-s3-lem-1 .statement}
+#### Lemme 1 {#alg-x-s3-lem-1 .statement tag=0DTO}
 
 Considérons un diagramme de A-modules et d’homomorphismes
 
@@ -84,7 +84,7 @@ $$
 $$
 Cela implique $\mathrm{Im}\ (g) \subset \mathrm{Ker}\ (\beta) = \mathrm{Im}\ (\beta')$. Comme $M'$ est projectif, il existe donc un A-homomorphisme $k': M' \to N'$ tel que $\beta' \circ k' = g$, d’où le lemme.
 
-#### Lemme 2 {#alg-x-s3-lem-2 .statement}
+#### Lemme 2 {#alg-x-s3-lem-2 .statement tag=0DTP}
 
 Si dans le diagramme commutatif de A-modules et d’homomorphismes
 
@@ -143,7 +143,7 @@ $$
 on a $\mathrm{Ker}\, \alpha = \mathrm{Im}\, \alpha', \beta \circ \beta' = 0$ et si $N''$ est injectif, il existe un $A$-homomorphisme $u'' : M'' \to N''$ tel que $u'' \circ \alpha = \beta \circ u$.
 Il suffit de poser $u' = k', u = -k, f = 0, f' = 0$ et $k'' = u''$ dans le lemme 1 bis.
 
-#### Proposition 1 {#alg-x-s3-prop-1 .statement}
+#### Proposition 1 {#alg-x-s3-prop-1 .statement tag=0DTQ}
 
 Soient $(P, d_P)$ et $(E, d_E)$ deux complexes de $A$-modules et $r$ un entier.
 
@@ -169,13 +169,13 @@ La démonstration de b) est analogue, via les lemmes 1 bis et 2 bis.
 
 Dans la suite, on identifie toujours un module au complexe dont il est la composante de degré zéro et dont toutes les autres composantes sont nulles.
 
-#### Définition 1 {#alg-x-s3-def-1 .statement}
+#### Définition 1 {#alg-x-s3-def-1 .statement tag=0DTR}
 
 Soit $M$ un $A$-module. Une résolution gauche de $M$ est un couple $(P,p)$ où $P$ est un complexe nul à droite et $p:P\to M$ est un homomorphisme. Une résolution droite de $M$ est un couple $(e,E)$ où $E$ est un complexe nul à gauche et $e:M\to E$ un homomorphisme.
 
 On appelle longueur de la résolution $(P,p)$ (resp. $(e,E)$) la longueur du complexe $P$ (resp. $E$). Si $(P,p)$ et $(P',p')$ (resp. $(e,E)$ et $(e',E')$) sont deux résolutions gauches (resp. droites) de $M$, un morphisme de complexes $f:P\to P'$ tel que $p'\circ f=p$ (resp. $g:E\to E'$ tel que $g\circ e=e'$) est appelé un morphisme de résolutions.
 
-#### Proposition 2 {#alg-x-s3-prop-2 .statement}
+#### Proposition 2 {#alg-x-s3-prop-2 .statement tag=0DTS}
 
 Soient $P$ un complexe nul à droite et $p:P\to M$ un morphisme.
 Pour que $(P,p)$ soit une résolution gauche de $M$, il faut et il suffit que la suite
@@ -205,11 +205,11 @@ soit exacte.
 
 Par abus de langage, on dit souvent que la suite (1) (resp. (1 bis)) est une résolution gauche (resp. droite) de $M$.
 
-#### Définition 2 {#alg-x-s3-def-2 .statement}
+#### Définition 2 {#alg-x-s3-def-2 .statement tag=0DTT}
 
 Une résolution projective (resp. libre, resp. plate) du $A$-module $M$ est une résolution gauche $(P,p)$ de $M$ telle que le complexe $P$ soit projectif (resp. libre, resp. plat) (X, p. 25). Une résolution injective de $M$ est une résolution droite $(e,E)$ de $M$ telle que le complexe $E$ soit injectif (loc. cit.).
 
-#### Exemple 1 {#alg-x-s3-n2-exa-1 .statement}
+#### Exemple 1 {#alg-x-s3-n2-exa-1 .statement tag=0DTU}
 
 Supposons que l’anneau $A$ soit principal ; soient $M$ un $A$-module et $(x_i)_{i\in I}$ une famille génératrice de $M$. Notons $L_0$ le module libre $A^{(I)}$, $(e_i)$ sa base canonique et définissons $p:L_0\to M$ par $p(e_i)=x_i$. Le morphisme $p$ est surjectif et son noyau $L_1$ est un $A$-module libre d’après VII, § 3, cor. 2 au th. 1, donc la suite exacte
 
@@ -219,7 +219,7 @@ $$
 
 est une résolution libre de $M$ de longueur 1. Si $I$ est fini, $L_0$ et $L_1$ sont de type fini.
 
-#### Exemple 2 {#alg-x-s3-n2-exa-2 .statement}
+#### Exemple 2 {#alg-x-s3-n2-exa-2 .statement tag=0DTV}
 
 Supposons A commutatif ; soient E un A-module et u un endomorphisme de E. Notons $E_u$ le $A[X]$-module obtenu en munissant E de la structure définie par
 
@@ -235,7 +235,7 @@ $$
 
 où $\varphi(p \otimes x) = p.x$ et $\psi(p \otimes x) = Xp \otimes x - p \otimes u(x)$ pour $p \in A[X]$ et $x \in E$. Cette suite exacte est une résolution de longueur 1 de $E_u$, libre (resp. projective, resp. de type fini) si E est un A-module libre (resp. projectif, resp. de type fini).
 
-#### Exemple 3 {#alg-x-s3-n2-exa-3 .statement}
+#### Exemple 3 {#alg-x-s3-n2-exa-3 .statement tag=0DTW}
 
 Si A est principal, la suite exacte
 
@@ -245,13 +245,13 @@ $$
 
 est une résolution injective de longueur 1 du A-module $A_s$ (X, p. 18, exemple 1).
 
-#### Proposition 3 {#alg-x-s3-prop-3 .statement}
+#### Proposition 3 {#alg-x-s3-prop-3 .statement tag=0DTX}
 
 Soient $f : M' \to M$ un homomorphisme de A-modules, $p' : P' \to M'$ un morphisme dans $M'$ d’un complexe nul à droite et projectif $P'$, et $p : P \to M$ une résolution gauche de M. Il existe un morphisme de complexes $\tilde{f} : P' \to P$, et un seul à homotopie près, tel que $p \circ \tilde{f} = f \circ p'$.
 
 Considérons le complexe $\overline{P}$ défini comme suit : $\overline{P}_n = P_n$ pour $n \neq -1$, $\overline{P}_{-1} = M$, $d_{\overline{P},n} = d_{P,n}$ pour $n \neq 0, -1$, $d_{\overline{P},0} = p_0$, $d_{\overline{P},-1} = 0$, et le complexe $\overline{P}'$ défini de façon analogue. Appliquant aux complexes $\overline{P}$ et $\overline{P}'$ la prop. 1 a) avec $r = 0$, $u_i = 0$ pour $i < -1$ et $u_{-1} = f$, on obtient la prop. 3.
 
-#### Corollaire {#alg-x-s3-n2-cor-1 .statement}
+#### Corollaire {#alg-x-s3-n2-cor-1 .statement tag=0DTY}
 
 Soient $(P, p)$ et $(P', p')$ deux résolutions projectives de M. Il existe un homotopisme et un seul à homotopie près $\alpha : P' \to P$ tel que $p \circ \alpha = p'$.
 
@@ -261,7 +261,7 @@ PROPOSITION 3 bis. — Soient $g : N \to N'$ un homomorphisme de A-modules, $e' 
 
 Cela se démontre comme la prop. 3 à l’aide de la prop. 1 b).
 
-#### Corollaire {#alg-x-s3-n2-cor-2 .statement}
+#### Corollaire {#alg-x-s3-n2-cor-2 .statement tag=0DTZ}
 
 Soient $(e, E)$ et $(e', E')$ deux résolutions injectives de N ; il existe un homotopisme $\alpha : E \to E'$ et un seul à homotopie près tel que $\alpha \circ e = e'$.
 
@@ -317,7 +317,7 @@ Z_n(f) = Z_0(Z_{n-1}(f)) .
 \end{array} \right.
 $$
 
-#### Proposition 4 {#alg-x-s3-prop-4 .statement}
+#### Proposition 4 {#alg-x-s3-prop-4 .statement tag=0DU0}
 
 $L(f) : L(M) \to L(N)$ est un morphisme de complexes de A-modules ; on a $p_M \circ L(f) = f \circ p_N$.
 
@@ -370,7 +370,7 @@ L_0(g \circ f)(e_m) = e_{g \circ f(m)} = L_0(g)(e_{f(m)}) = L_0(g) \circ L_0(f)(
 $$
 donc $L_0(g \circ f) = L(g) \circ L(f)$; par conséquent $Z_0(g \circ f) = Z_0(g) \circ Z_0(f)$; d’où aussitôt $L_n(g \circ f) = L_n(g) \circ L_n(f)$, pour $n \geqslant 0$, par récurrence sur $n$, d’où (8).
 
-#### Remarque {#alg-x-s3-n3-rem-1 .statement}
+#### Remarque {#alg-x-s3-n3-rem-1 .statement tag=0DU1}
 
 Si $f, g \in \mathrm{Hom}_A(M, N)$, on n’a pas $L(f + g) = L(f) + L(g)$. Cependant ces deux morphismes sont homotopes d’après X, p. 49, prop. 3.
 
@@ -448,7 +448,7 @@ K^n(f)&=K^0(K^{n-1}(f)).
 \right.
 $$
 
-#### Proposition 5 {#alg-x-s3-prop-5 .statement}
+#### Proposition 5 {#alg-x-s3-prop-5 .statement tag=0DU2}
 
 I(f) : I(M) → I(N) est un morphisme de complexes de A-modules ; on a I(f) ◦ e_M = e_N ◦ f.
 Cela se démontre de manière analogue à la prop. 4.
@@ -464,7 +464,7 @@ $$
 I(g \circ f) = I(g) \circ I(f) .
 $$
 
-#### Remarque {#alg-x-s3-n4-rem-1 .statement}
+#### Remarque {#alg-x-s3-n4-rem-1 .statement tag=0DU3}
 
 Si $f, g \in \mathrm{Hom}_A(M, N)$, on n’a pas $I(f + g) = I(f) + I(g)$. Cependant, ces deux morphismes sont homotopes d’après X, p. 49, prop. 3 bis.
 
@@ -485,12 +485,12 @@ $$
 $$
 d’où :
 
-#### Proposition 6 {#alg-x-s3-prop-6 .statement}
+#### Proposition 6 {#alg-x-s3-prop-6 .statement tag=0DU4}
 
 Lorsque A est noethérien à gauche, tout A-module de type fini M possède une résolution libre $p : L \to M$ telle que $L_n$ soit de type fini pour tout entier n.
 Plus généralement :
 
-#### Proposition 7 {#alg-x-s3-prop-7 .statement}
+#### Proposition 7 {#alg-x-s3-prop-7 .statement tag=0DU5}
 
 Soit C un A-complexe et soit $a \in \mathbf{Z}$ tel que $H_n(C) = 0$ pour $n < a$.
 a) Il existe un A-complexe libre L tel que $L_n = 0$ pour $n < a$ et un homologisme $f : L \to C$.
@@ -500,7 +500,7 @@ Il existe un $A$-complexe libre $L$ tel que $L_n=0$ pour $n<a$ et que $L_n$ soit
 
 Soit $C'$ le sous-complexe de $C$ tel que $C'_n=C_n$ pour $n>a$, $C'_a=Z_a(C)$, $C'_n=0$ pour $n<a$ ; alors l’injection canonique de $C'$ dans $C$ est un homomorphisme. Remplaçant $C$ par $C'$, on peut donc supposer que $C_n=0$ pour $n<a$. L’énoncé résulte alors de l’application itérée du lemme suivant, pour $r=a,a+1,\ldots$ :
 
-#### Lemme 3 {#alg-x-s3-lem-3 .statement}
+#### Lemme 3 {#alg-x-s3-lem-3 .statement tag=0DU6}
 
 Soient $C$ un complexe et $r\in \mathbf{Z}$. Il existe un complexe $C'$ et un homomorphisme $f:C'\to C$ tels que $f_n:C'_n\to C_n$ soit un isomorphisme pour $n<r$ et que $C'_r$ soit un $A$-module libre. Si $A$ est noethérien et les $A$-modules $H_r(C)$ et $C_{r-1}$ de type fini, on peut imposer que $C'_r$ soit de type fini.
 
@@ -528,7 +528,7 @@ $$
 
 une résolution de $M$. On dit que $(P)$ est une résolution projective minimale si, pour tout $n\geq 0$, l’homomorphisme $\delta_n:P_n\to \operatorname{Im}(d_n)$ induit par $d_n$ est une couverture projective (VIII, § 8, no 5).
 
-#### Proposition 8 {#alg-x-s3-prop-8 .statement}
+#### Proposition 8 {#alg-x-s3-prop-8 .statement tag=0DU7}
 
 Soient $M$ un $A$-module, $P$ et $P'$ deux résolutions projectives minimales de $M$ et $f:P\to P'$ un morphisme de résolutions. Alors $f$ est un isomorphisme.
 En particulier, deux résolutions projectives minimales de $M$ sont isomorphes.
@@ -555,7 +555,7 @@ $$
 
 et de VIII, *loc. cit.*, que $f_{n+1}$ est un isomorphisme.
 
-#### Corollaire {#alg-x-s3-n6-cor-1 .statement}
+#### Corollaire {#alg-x-s3-n6-cor-1 .statement tag=0DU8}
 
 *Soient $M$ un $A$-module, $P$ et $P'$ deux résolutions projectives de $M$ ; on suppose que $P$ est minimale. Soient $f:P\to P'$ et $g:P'\to P$ deux morphismes de résolutions. Alors $f$ est injectif, $g$ est surjectif, et $P'$ est somme directe des sous-complexes $\operatorname{Im}f$ et $\operatorname{Ker}g$. De plus $\operatorname{Ker}g$ est d’homologie nulle.*
 
@@ -578,7 +578,7 @@ $$
 
 est exacte et que $g$ est un homomorphisme, $\operatorname{Ker}g$ est d’homologie nulle.
 
-#### Proposition 9 {#alg-x-s3-prop-9 .statement}
+#### Proposition 9 {#alg-x-s3-prop-9 .statement tag=0DU9}
 
 *Soient $M$ un $A$-module et $(P,p)$ une résolution projective de $M$. Notons $r$ le radical de $A$. On suppose, ou bien que $P_n$ est un $A$-module de type fini pour tout $n$, ou bien que $r$ est nilpotent. Alors pour que $(P,p)$ soit minimale, il faut et il suffit que le complexe $(A/r)\otimes_A P$ soit à différentielle nulle, autrement dit que*
 
@@ -605,7 +605,7 @@ que l’homomorphisme $1 \otimes j_n : (A/r) \otimes_A \operatorname{Im} d_{n+1}
 
 Inversement, supposons que pour tout $n \geqslant 1$, $1 \otimes d_n$ soit nul, autrement dit que $\operatorname{Im} d_n = \operatorname{Ker} d_{n-1}$ soit contenu dans $rP_{n-1}$. Puisque $\delta_{n-1}$ est surjectif, il résulte de VIII, loc. cit. que $\delta_{n-1}$ est une couverture projective pour $n \geqslant 1$, donc que $(P, p)$ est minimale.
 
-#### Proposition 10 {#alg-x-s3-prop-10 .statement}
+#### Proposition 10 {#alg-x-s3-prop-10 .statement tag=0DUA}
 
 *Supposons que A soit un anneau local nœthérien à gauche, et soit M un A-module de type fini. Alors M possède une résolution minimale (P, p) ; pour tout $n \geqslant 0$, $P_n$ est un module libre de type fini.*
 
@@ -619,7 +619,7 @@ En effet, dans la construction faite au n° 5 (p. 53), on peut en vertu de VIII,
 
 Dans ce numéro, on suppose que l’anneau A est muni d’une graduation $(A_n)_{n \in \mathbf{Z}}$, telle que $A_n = 0$ pour $n < 0$. On dit qu’un A-module gradué M est *borné inférieurement* si $M_n = 0$ pour $n$ assez petit ; tout A-module gradué de type fini est borné inférieurement.
 
-#### Proposition 11 {#alg-x-s3-prop-11 .statement}
+#### Proposition 11 {#alg-x-s3-prop-11 .statement tag=0DUB}
 
 *Si M est un A-module gradué borné inférieurement (resp. si M est un A-module gradué de type fini et si A est nœthérien à gauche), il existe une suite exacte illimitée à gauche de A-modules gradués*
 
@@ -671,7 +671,7 @@ Par conséquent, si l’on pose $B_n = 0$ pour $n < 0$ et $d_n = 0$ pour $n \leq
 
 On définit une application A-linéaire $\varepsilon_M$ de $B_0(A, M) = (A \otimes_k A) \otimes_A M$ dans $M$ par la formule $\varepsilon_M(a \otimes b \otimes m) = abm$ pour $a, b \in A, m \in M$. On a $\varepsilon_M \circ d_1 = 0$, de sorte que l’homomorphisme gradué $\overline{\varepsilon}_M : B(A, M) \to M$, qui coïncide avec $\varepsilon_M$ en degré 0, est un morphisme de complexes de A-modules.
 
-#### Proposition 12 {#alg-x-s3-prop-12 .statement}
+#### Proposition 12 {#alg-x-s3-prop-12 .statement tag=0DUC}
 
 L’application $\overline{\varepsilon}_M : B(A, M) \to M$ est un homotopisme de complexes de $k$-modules. En particulier, le complexe $B(A, M)$ est scindé sur $k$, et $(B(A, M), \overline{\varepsilon}_M)$ est une résolution gauche du $A$-module $M$.
 
@@ -706,7 +706,7 @@ $$
 
 Notons $\eta : A \to A \otimes_k A$ l’application définie par $\eta(a) = 1 \otimes a$, et $\overline{\eta} : A \to B(A)$ le morphisme de complexes qui coïncide avec $\eta$ en degré 0. Il est clair que $\overline{\varepsilon}_A \circ \overline{\eta} = 1_A$; les formules (16) et (17) montrent que $d \circ s + s \circ d = 1_{B(A)} - \overline{\eta} \circ \overline{\varepsilon}_A$. Posant $\overline{\eta}_M = \overline{\eta} \otimes 1_M$, $d_M = d \otimes 1_M$ et $s_M = s \otimes 1_M$, on en déduit que $\overline{\varepsilon}_M \circ \overline{\eta}_M = 1_M$ et $d_M \circ s_M + s_M \circ d_M = 1_{B(A,M)} - \overline{\eta}_M \circ \overline{\varepsilon}_M$. Autrement dit, (X, p. 33, déf. 5), $\overline{\varepsilon}_M$ est un homotopisme de complexes de $k$-modules. Les autres assertions de la proposition s’en déduisent aussitôt.
 
-#### Définition 3 {#alg-x-s3-def-3 .statement}
+#### Définition 3 {#alg-x-s3-def-3 .statement tag=0DUD}
 
 La résolution gauche $(B(A, M), \overline{\varepsilon}_M)$ de $M$ s’appelle la résolution standard du $A$-module $M$.
 
@@ -716,11 +716,11 @@ Si $A$ et $M$ sont des $k$-modules projectifs (resp. libres, resp. plats), la r�
 
 Si $\mathscr{C}$ est un ensemble de classes de $A$-modules, on dira qu’une résolution gauche $(P, p)$ est bornée de type $\mathscr{C}$ si le complexe $P$ est borné de type $\mathscr{C}$ (X, p. 41).
 
-#### Théorème 1 {#alg-x-s3-thm-1 .statement}
+#### Théorème 1 {#alg-x-s3-thm-1 .statement tag=0DUE}
 
 Soient $\mathscr{C}_0$ et $\mathscr{C}$ deux ensembles additifs et exacts à gauche de classe de $A$-modules tels que $\mathscr{C}_0 \subset \mathscr{C}$ et que tout $A$-module de type $\mathscr{C}$ possède une résolution gauche bornée de type $\mathscr{C}_0$. Alors l’homomorphisme $\alpha : K(\mathscr{C}_0) \to K(\mathscr{C})$ déduit de l’inclusion de $\mathscr{C}_0$ dans $\mathscr{C}$ est bijectif ; si $M$ est un $A$-module de type $\mathscr{C}$ et $P$ une résolution gauche de $M$ bornée de type $\mathscr{C}_0$, on a $\alpha^{-1}([M]_{\mathscr{C}}) = \chi_{\mathscr{C}_0}(P)$ (X, p. 41, exemple 6).
 
-#### Lemme 4 {#alg-x-s3-lem-4 .statement}
+#### Lemme 4 {#alg-x-s3-lem-4 .statement tag=0DUF}
 
 Soient $f : M' \to M$ un homomorphisme de $A$-modules de type $\mathscr{C}$, et $p : P \to M$ une résolution gauche de $P$ bornée de type $\mathscr{C}_0$. Il existe une résolution gauche $p' : P' \to M'$ bornée de type $\mathscr{C}_0$ et un morphisme de complexes $u : P' \to P$ tel que $p \circ u = f \circ p'$.
 
@@ -749,7 +749,7 @@ $$
 
 déduit de $u_0$.
 
-#### Lemme 5 {#alg-x-s3-lem-5 .statement}
+#### Lemme 5 {#alg-x-s3-lem-5 .statement tag=0DUG}
 
 Considérons un diagramme commutatif
 

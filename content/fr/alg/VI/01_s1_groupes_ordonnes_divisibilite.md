@@ -64,7 +64,7 @@ subsections:
       pdf_page: 305
 statements: 54
 exercises: 36
-content_sha256: 16de2c1b1e33d51e18a8ed5db06080bc79bae228a7afd8366ca0a77c054e5ca3
+content_sha256: f461e4b4ce38a3c625d9907f8478c44904ed2ac23792bb0bb800c6ae95257170
 ---
 
 ## § 1. GROUPES ORDONNÉS. DIVISIBILITÉ
@@ -73,7 +73,7 @@ Les notions et résultats exposés dans ce paragraphe concernent l’étude des 
 
 ### 1. Définition des monoïdes et groupes ordonnés
 
-#### Définition 1 {#alg-vi-s1-def-1 .statement}
+#### Définition 1 {#alg-vi-s1-def-1 .statement tag=06WE}
 
 Sur un ensemble $M$, on dit qu’une structure de monoïde commutatif (notée additivement) et une structure d’ordre (notée $\leq$) sont compatibles si elles satisfont à l’axiome suivant :
 (MO) Quel que soit $z \in M$, la relation $x \leq y$ entraîne $x + z \leq y + z$.
@@ -83,12 +83,12 @@ On peut définir de façon analogue la notion de monoïde ordonné non commutati
 
 Si une structure d’ordre est compatible avec la structure d’un monoïde, il en est de même de la structure d’ordre opposée.
 
-#### Exemple 1 {#alg-vi-s1-n1-exa-1 .statement}
+#### Exemple 1 {#alg-vi-s1-n1-exa-1 .statement tag=06WF}
 
 Le groupe additif des entiers rationnels et celui des nombres rationnels sont des groupes ordonnés quand on les munit des structures d’ordre définies en I, p. 20 et 112.
 \* Il en est de même du groupe additif des nombres réels (TG, IV, p. 3). \*
 
-#### Exemple 2 {#alg-vi-s1-n1-exa-2 .statement}
+#### Exemple 2 {#alg-vi-s1-n1-exa-2 .statement tag=06WG}
 
 \* Le groupe additif des fonctions numériques finies définies dans un ensemble E est un groupe ordonné pour la structure d’ordre définie par la relation « quel que soit $x \in E, f(x) \leq g(x)$ » que l’on écrit « $f \leq g$ ». Cette relation exprime que le graphe de la fonction $f$ est au-dessous de celui de la fonction $g$; le lecteur pourra trouver commode de se reporter quelquefois à cette interprétation graphique. \*
 
@@ -100,7 +100,7 @@ $$
 
 (c’est-à-dire un homomorphisme du monoïde $M$ sur le monoïde $M'$), et que les relations $x \leq y$ et $f(x) \leq f(y)$ sont équivalentes (d’où résulte en particulier que $f(x) = f(y)$ entraîne $x = y$, c’est-à-dire que $f$ est injective).
 
-#### Proposition 1 (« addition des inégalités ») {#alg-vi-s1-prop-1 .statement}
+#### Proposition 1 (« addition des inégalités ») {#alg-vi-s1-prop-1 .statement tag=06WH}
 
 Dans un monoïde ordonné $M$, soient $(x_i)$ et $(y_i)$ ($1 \leq i \leq n$) deux suites de $n$ éléments telles que, pour tout $i$, on ait $x_i \leq y_i$; alors on a
 
@@ -124,7 +124,7 @@ $$
 
 impliquerait $x_1 + x_2 = x_1 + y_2 = y_1 + y_2$, d’où $x_2 = y_2$ et $x_1 = y_1$ si $x_1$ et $y_2$ sont simplifiables, ce qui démontre la seconde assertion.
 
-#### Proposition 2 {#alg-vi-s1-prop-2 .statement}
+#### Proposition 2 {#alg-vi-s1-prop-2 .statement tag=06WI}
 
 Dans un groupe ordonné $G$ les relations $x \leq y$ et $x + z \leq y + z$ sont équivalentes.
 
@@ -132,7 +132,7 @@ On passe en effet de l’une à l’autre par addition aux deux membres de $z$, 
 
 On exprime ce fait en disant que, dans un groupe ordonné $G$, la structure d’ordre est invariant par translation. En d’autres termes une translation est un automorphisme pour la structure d’ordre d’un groupe ordonné.
 
-#### Corollaire {#alg-vi-s1-n1-cor-1 .statement}
+#### Corollaire {#alg-vi-s1-n1-cor-1 .statement tag=06WJ}
 
 Dans un groupe ordonné $G$, les relations $x \leq y,\ 0 \leq y - x,\ x - y \leq 0$ et $-y \leq -x$ sont équivalentes.
 
@@ -144,7 +144,7 @@ On déduit en particulier de ce corollaire que, si $G$ est un groupe ordonné, l
 
 Rappelons que, si une relation $x \leqslant y$ entre éléments d’un ensemble $E$ est réflexive et transitive, on dit que c’est une relation de préordre (E, III, p. 3). La relation « $x \leqslant y$ et $y \leqslant x$ » est une relation d’équivalence $S$ dans $E$, compatible avec la relation $x \leqslant y$; par passage au quotient, la relation $\leqslant$ définit sur l’ensemble $E/S$ une relation d’ordre, dite associée à $\leqslant$.
 
-#### Définition 2 {#alg-vi-s1-def-2 .statement}
+#### Définition 2 {#alg-vi-s1-def-2 .statement tag=06WK}
 
 Sur un ensemble $M$, on dit qu’une relation de préordre (notée $\leqslant$) et une structure de monoïde commutatif (notée additivement) sont compatibles si elles satisfont à l’axiome suivant :
 
@@ -157,23 +157,23 @@ Soient $M$ un monoïde préordonné, et $S$ la relation d’équivalence « $x \
 
 Soit $G$ un groupe préordonné par une relation de préordre $\leqslant$; de $0 \leqslant x$ et $0 \leqslant y$ on déduit $y \leqslant x + y$ en vertu de (MPO), et $0 \leqslant x + y$ par transitivité ; ceci exprime que l’ensemble $G_+$ des $x \in G$ tels que $0 \leqslant x$ est stable pour l’addition ; en outre, la relation $x \leqslant y$ est équivalente à $0 \leqslant y - x$, c’est-à-dire à $y - x \in G_+$. Inversement :
 
-#### Proposition 3 {#alg-vi-s1-prop-3 .statement}
+#### Proposition 3 {#alg-vi-s1-prop-3 .statement tag=06WL}
 
 Si $P$ est une partie d’un groupe commutatif $G$, contenant $0$ et telle que $P + P \subset P$, la relation $y - x \in P$ est une relation de préordre compatible avec la structure de groupe de $G$. Pour que cette relation définisse sur $G$ une structure de groupe ordonné, il faut et il suffit que l’on ait $P \cap (-P) = \{0\}$; pour que $G$ soit un groupe totalement ordonné pour cette structure, il faut et il suffit que l’on ait en outre $P \cup (-P) = G$.
 
 On vérifie aussitôt que la relation $y - x \in P$ est réflexive et transitive, et (si on la note $x \leq y$) satisfait à l’axiome (MPO). Pour démontrer la seconde assertion, il suffit de remarquer que $P \cap (-P)$ est le sous-groupe $G'$ des éléments $x$ tels que $x \leq 0$ et $0 \leq x$. Enfin, dire que $G$ est totalement ordonné signifie que, pour tout couple d’éléments $x, y$ de $G$, l’un des éléments $x - y, y - x$ appartient à $P$, ce qui achève la démonstration.
 
-#### Définition 3 {#alg-vi-s1-def-3 .statement}
+#### Définition 3 {#alg-vi-s1-def-3 .statement tag=06WM}
 
 Dans un groupe ordonné $G$, on appelle élément positif (resp. négatif) tout élément $x$ tel que $0 \leq x$ (resp. $x \leq 0$).
 
 On notera que $0$ est l’unique élément à la fois positif et négatif ; tout élément $x$ tel que $0 < x$ (resp. $x < 0$) est dit strictement positif (resp. strictement négatif).
 
-#### Exemple {#alg-vi-s1-n3-exa-1 .statement}
+#### Exemple {#alg-vi-s1-n3-exa-1 .statement tag=06WN}
 
 Dans le groupe additif $\mathbf{Z} \times \mathbf{Z}$, soit $P$ l’ensemble des éléments $(x, y)$ satisfaisant à deux inégalités $ax + by \geq 0, cx + dy \geq 0$, où $a, b, c, d$ sont des entiers (* ou des nombres réels *) tels que $ad - bc \neq 0$; le « cône » $P$ satisfait aux deux premières conditions de la prop. 3. On définit ainsi sur $\mathbf{Z} \times \mathbf{Z}$ diverses structures d’ordre compatibles avec sa structure de groupe ; le groupe n’est totalement ordonné pour aucune de ces structures.
 
-#### Remarque {#alg-vi-s1-n3-rem-1 .statement}
+#### Remarque {#alg-vi-s1-n3-rem-1 .statement tag=06WO}
 
 En vertu de la condition $P + P \subset P$, dans un groupe ordonné $G$, la relation $x \geq 0$ implique $nx \geq 0$ pour tout entier naturel $n$. Si, de plus, l’élément positif $x$ du groupe $G$ est d’ordre fini $n$, $-x = (n-1)x$ est positif ; comme
 $$
@@ -185,13 +185,13 @@ ceci entraîne $x = 0$. En particulier, si tous les éléments de $G$ sont d’o
 
 Rappelons (E, III, p. 12, déf. 7) qu’un ensemble ordonné $G$ est dit filtrant à droite (resp. à gauche) si, pour tout couple $(x, y)$ d’éléments de $G$, il existe $z \in G$ tel que $x \leq z$ et $y \leq z$ (resp. $z \leq x$ et $z \leq y$). Tout groupe ordonné filtrant à droite $G$ est aussi filtrant à gauche, et réciproquement : en effet, comme il existe $z \in G$ tel que $-x \leq z$ et $-y \leq z$, on a $-z \leq x$ et $-z \leq y$ (VI, p. 2, cor.). Nous parlerons donc simplement de groupe filtrant.
 
-#### Proposition 4 {#alg-vi-s1-prop-4 .statement}
+#### Proposition 4 {#alg-vi-s1-prop-4 .statement tag=06WP}
 
 Pour qu’un groupe ordonné $G$ soit filtrant, il faut et il suffit qu’il soit engendré par ses éléments positifs, c’est-à-dire que tout élément de $G$ soit différence de deux éléments positifs.
 
 En effet, si $G$ est filtrant, il existe, pour tout $x \in G$, un élément positif $z$ tel que $x \leq z$, et $x$ est différence des éléments positifs $z$ et $z - x$. Si, réciproquement, on a $x = u - v$ et $y = w - t$ avec $u, v, w, t$ positifs, l’élément $u + w$ est supérieur à $x$ et à $y$.
 
-#### Proposition 5 {#alg-vi-s1-prop-5 .statement}
+#### Proposition 5 {#alg-vi-s1-prop-5 .statement tag=06WQ}
 
 Si $(x_i)$ est une famille finie d’éléments d’un groupe filtrant $G$, il existe $z \in G$ tel que $x_i + z$ soit positif pour tout $i$.
 
@@ -203,11 +203,11 @@ Nous allons ici définir certains groupes ordonnés qui jouent un rôle importan
 
 Dans le groupe multiplicatif K* des éléments non nuls de K, l’ensemble P des éléments non nuls de A est stable, puisque A est un anneau. Il définit donc sur K* la relation de préordre $x^{-1}y \in P$, c’est-à-dire « il existe $z \in P$ tel que $y = zx$ », qui en fait un groupe préordonné (noté multiplicativement) (VI, p. 3, prop. 3). Généralisant au cas où $x$ et $y$ sont des éléments de K* la terminologie relative aux éléments de A (I, p. 93), la relation $x^{-1}y \in P$ s’énonce aussi : $x$ divise $y$, ou $x$ est diviseur de $y$, ou $y$ est multiple de $x$ (relativement à l’anneau A) ; et nous dirons que la relation $x^{-1}y \in P$ est la relation de divisibilité dans K* relativement à l’anneau A. La relation « $x$ divise $y$ » se note $x|y$, et sa négation $x \nmid y$. Les éléments de P ne sont autres que les multiples de 1.
 
-#### Remarque 1 {#alg-vi-s1-n5-rem-1 .statement}
+#### Remarque 1 {#alg-vi-s1-n5-rem-1 .statement tag=06WR}
 
 La relation de divisibilité dans K* dépend essentiellement de l’anneau A choisi. Si A = K, on obtient la relation « triviale » où $x|y$ pour tout couple $(x, y)$ d’éléments de K*. Soit $p$ (resp. $q$) un nombre premier ; les nombres rationnels $r/s$ dont le dénominateur n’est pas multiple de $p$ (resp. $q$) forment un sous-anneau $\mathbf{Z}_{(p)}$ (resp. $\mathbf{Z}_{(q)}$) de $\mathbf{Q}$ ; les relations de divisibilité dans $\mathbf{Q}^*$ relatives à ces deux anneaux sont distinctes si $p \neq q$, le nombre $p/q$ étant multiple de 1 pour l’une et non pour l’autre.
 
-#### Remarque 2 {#alg-vi-s1-n5-rem-2 .statement}
+#### Remarque 2 {#alg-vi-s1-n5-rem-2 .statement tag=06WS}
 
 Nous étendrons parfois la définition de la relation $x|y$ à un couple d’éléments de K (et non plus seulement de K*), cette relation étant synonyme de « il existe $z \in A$ tel que $y = zx$ » ; on aura donc $x|0$ pour tout $x \in K$. Ceci permet d’énoncer sans restriction les résultats suivants : si $x|y$ et $x|z$, alors $x|(y - z)$; si $x|y$ et $x \nmid z$, alors $x \nmid (y - z)$. On étend de même la terminologie correspondante.
 
@@ -241,11 +241,11 @@ Soit (G_α) une famille de groupes ordonnés ; conformément à la définition d
 
 Soit (G_i)_{i \in I} une famille de groupes ordonnés dont l’ensemble d’indices I est bien ordonné ; rappelons (E, III, p. 22) que l’on définit, sur l’ensemble produit G = $\prod_{i} G_{i}$, une relation d’ordre, dite lexicographique, la relation « (x_i) < (y_i) » entre deux éléments de G étant, par définition, synonyme de « si β est le plus petit des indices tels que x_i ≠ y_i, on a x_β < y_β ». Rappelons que le produit d’une famille bien ordonnée d’ensembles totalement ordonnés est totalement ordonné pour l’ordre lexicographique. Dans le cas général, la relation d’ordre lexicographique sur G est compatible avec sa structure de groupe, comme on le vérifie aussitôt ; muni de cette structure, G est donc un groupe ordonné, qu’on appelle le produit lexicographique de la famille bien ordonnée de groupes ordonnés (G_i).
 
-#### Remarque 1 {#alg-vi-s1-n6-rem-1 .statement}
+#### Remarque 1 {#alg-vi-s1-n6-rem-1 .statement tag=06WT}
 
 Le cas le plus fréquent est celui où l’ensemble bien ordonné d’indices I est un intervalle fini {1, n} de N.
 
-#### Remarque 2 {#alg-vi-s1-n6-rem-2 .statement}
+#### Remarque 2 {#alg-vi-s1-n6-rem-2 .statement tag=06WU}
 
 L’ensemble des éléments positifs du produit lexicographique G se compose de 0 et des éléments dont la composante non nulle de plus petit indice est positive.
 
@@ -289,7 +289,7 @@ $$
 
 cette relation étant entendue dans le même sens que la précédente.
 
-#### Proposition 6 {#alg-vi-s1-prop-6 .statement}
+#### Proposition 6 {#alg-vi-s1-prop-6 .statement tag=06WV}
 
 Soient $(x_\alpha)_{\alpha \in A}$, $(y_\beta)_{\beta \in B}$ deux familles d’éléments d’un groupe ordonné G, ayant chacune une borne supérieure. Alors la famille $(x_\alpha + y_\beta)_{(\alpha, \beta) \in A \times B}$ a une borne supérieure, et l’on a $\sup_{(\alpha, \beta) \in A \times B} (x_\alpha + y_\beta) = \sup_{\alpha \in A} x_\alpha + \sup_{\beta \in B} y_\beta$.
 
@@ -301,7 +301,7 @@ Rappelons qu’un ensemble ordonné dans lequel toute partie finie non vide a un
 
 Ainsi, dans le groupe ordonné produit $\mathbf{Z} \times \mathbf{Z}$, la « seconde bissectrice » (ensemble des couples $(n, n')$ tels que $n + n' = 0$) est ordonnée par l’ordre discret, et n’est donc pas un groupe réticulé. \* Le groupe additif des polynômes à une variable réelle (VI, p. 1, exemple 2) est un groupe filtrant (puisque $p(x)$ et $q(x)$ sont majorés par $(p(x))^2 + (q(x))^2 + 1$) dont on peut montrer qu’il n’est pas réticulé. \*
 
-#### Proposition 7 {#alg-vi-s1-prop-7 .statement}
+#### Proposition 7 {#alg-vi-s1-prop-7 .statement tag=06WW}
 
 Si x et y sont deux éléments d’un groupe ordonné G, et si l’un des éléments inf(x, y), sup(x, y) existe, il en est de même de l’autre, et l’on a x + y = inf(x, y) + sup(x, y).
 
@@ -313,11 +313,11 @@ $$
 
 et il suffit de prendre $a = x + y$.
 
-#### Proposition 7 {#alg-vi-s1-div-prop-7 .statement}
+#### Proposition 7 {#alg-vi-s1-div-prop-7 .statement tag=06WX}
 
 Si $a, b \in \mathbf{K}^*$, et si d est un pgcd de a et b et m un ppcm de a et b, alors le produit dm est associé à ab.
 
-#### Proposition 8 {#alg-vi-s1-prop-8 .statement}
+#### Proposition 8 {#alg-vi-s1-prop-8 .statement tag=06WY}
 
 Soit P l’ensemble des éléments positifs d’un groupe ordonné G. Pour que G soit réticulé, il faut et il suffit que l’on ait $G = P - P$, et que de plus P, muni de l’ordre induit, satisfasse à l’une ou l’autre des conditions suivantes :
 
@@ -330,7 +330,7 @@ Réciproquement, remarquons d’abord que dans l’hypothèse a) (resp. b)), tou
 
 ### 10. Le théorème de décomposition
 
-#### Théorème 1 (théorème de décomposition) {#alg-vi-s1-thm-1 .statement}
+#### Théorème 1 (théorème de décomposition) {#alg-vi-s1-thm-1 .statement tag=06WZ}
 
 Soient $(x_i)_{1 \leq i \leq p}$ et $(y_j)_{1 \leq j \leq q}$ deux suites finies d’éléments positifs d’un groupe réticulé G telles que $\sum_{i=1}^p x_i = \sum_{j=1}^q y_j$; il existe alors une suite double $(z_{ij})_{1 \leq i \leq p, 1 \leq j \leq q}$ d’éléments positifs de G telle que l’on ait $x_i = \sum_{j=1}^q z_{ij}$ pour tout i, et $y_j = \sum_{i=1}^p z_{ij}$ pour tout j.
 
@@ -352,7 +352,7 @@ on obtient bien une suite double satisfaisant aux conditions du théorème.
 
 3° En échangeant les rôles des $x_i$ et des $y_j$ on voit de même que, si le théorème est vrai pour $p = m$ et $q < n$ ($m \geq 2, n > 2$), il est vrai pour $p = m$ et $q = n$. Le théorème est donc démontré par double récurrence à partir du cas $p = q = 2$, puisqu’il est trivial lorsque $p \leq 1$ ou $q \leq 1$.
 
-#### Corollaire {#alg-vi-s1-n10-cor-1 .statement}
+#### Corollaire {#alg-vi-s1-n10-cor-1 .statement tag=06X0}
 
 *Soient* $y, x_1, x_2, ..., x_n, n + 1$ *éléments positifs de* $G$ *tels que* $y \leq \sum_{i=1}^n x_i ;$ *il existe alors* $n$ *éléments positifs* $y_i$ *$(1 \leq i \leq n)$ tels que* $y_i \leq x_i$ *et*
 $$
@@ -362,7 +362,7 @@ Il suffit d’appliquer le th. 1 à la suite $(x_i)$ et à la suite formée des 
 
 ### 11. Partie positive et partie négative
 
-#### Définition 4 {#alg-vi-s1-def-4 .statement}
+#### Définition 4 {#alg-vi-s1-def-4 .statement tag=06X1}
 
 *Dans un groupe réticulé* $G$ *on appelle partie positive* (resp. *partie négative, valeur absolue*) *d’un élément* $x \in G$, *et on note* $x^+$ (resp. $x^-$, $|x|$) *l’élément* $\sup(x, 0)$ (resp. $\sup(-x, 0)$, $\sup(x, -x)$).
 
@@ -379,7 +379,7 @@ $$
 \right.
 $$
 
-#### Proposition 9 {#alg-vi-s1-prop-9 .statement}
+#### Proposition 9 {#alg-vi-s1-prop-9 .statement tag=06X2}
 
 a) Pour tout élément $x$ d’un groupe réticulé $G$, on a $x = x^+ - x^-$ et $\inf(x^+, x^-) = 0$.
 
@@ -416,11 +416,11 @@ $$
 $$
 on a de même $|y| - |x| \leq |y - x| = |x - y|$; d’où le résultat annoncé.
 
-#### Remarque {#alg-vi-s1-n11-rem-1 .statement}
+#### Remarque {#alg-vi-s1-n11-rem-1 .statement tag=06X3}
 
 On déduit de d) que $|x| = 0$ entraîne $x = 0$ (car $x^+$ et $x^-$ sont positifs); donc $x \neq 0$ entraîne $|x| > 0$.
 
-#### Proposition 9 {#alg-vi-s1-div-prop-9 .statement}
+#### Proposition 9 {#alg-vi-s1-div-prop-9 .statement tag=06X4}
 
 Si le groupe $\mathscr{P}^*$ des idéaux principaux fractionnaires de $K$ est réticulé, tout élément $x$ de $K^*$ peut être mis sous la forme $x = uv^{-1}$, où $u$ et $v$ sont des éléments de $A$ tels que $1 = \operatorname{pgcd}(u, v)$; pour toute autre expression $x = u'{v'}^{-1}$ de $x$ comme quotient de deux éléments de $A$, on a $u' = uw, v' = vw$, où $w \in A$ est un pgcd de $u'$ et $v'$; en particulier si $1 = \operatorname{pgcd}(u', v')$, $u'$ et $v'$ sont respectivement associés à $u$ et $v$.
 
@@ -428,7 +428,7 @@ Une telle expression $uv^{-1}$ d’un élément $x$ de $K^*$ est souvent appelé
 
 ### 12. Éléments étrangers
 
-#### Définition 5 {#alg-vi-s1-def-5 .statement}
+#### Définition 5 {#alg-vi-s1-def-5 .statement tag=06X5}
 
 Dans un groupe ordonné, deux éléments $x$ et $y$ sont dits étrangers si l’on a $\inf(x, y) = 0$.
 
@@ -444,16 +444,16 @@ Si $x$ et $y$ sont étrangers, on dit aussi que $x$ est étranger à $y$, ou que
 
 (DIV) On dit souvent, quand $x$ et $y$ sont étrangers, que $x$ et $y$ sont « premiers entre eux »; il convient d’éviter cette terminologie, qui entraîne confusion avec la notion d’entier premier (I, p. 48, déf. 16).
 
-#### Proposition 10 {#alg-vi-s1-prop-10 .statement}
+#### Proposition 10 {#alg-vi-s1-prop-10 .statement tag=06X6}
 
 Soient x, y, z trois éléments d’un groupe ordonné ; pour que x − z et y − z soient étrangers, il faut et il suffit que l’on ait z = inf(x, y).
 En effet les relations z = inf(x, y) et 0 = inf(x − z, y − z) sont équivalentes.
 
-#### Proposition 10 {#alg-vi-s1-div-prop-10 .statement}
+#### Proposition 10 {#alg-vi-s1-div-prop-10 .statement tag=0DIB}
 
 Soient a, b, c trois éléments de K tels que c ≠ 0 ; pour que les quotients ac−1 et bc−1 soient étrangers, il faut et il suffit que c soit un pgcd de a et de b.
 
-#### Proposition 11 {#alg-vi-s1-prop-11 .statement}
+#### Proposition 11 {#alg-vi-s1-prop-11 .statement tag=06X7}
 
 Si (x_i), (y_j) sont deux familles finies d’éléments ≥ 0 d’un groupe réticulé, on a
 $$
@@ -465,56 +465,56 @@ $$
 $$
 En effet, posons t = inf(x, y + z) ; en vertu de VI, p. 11, cor., on peut écrire t = t_1 + t_2 avec 0 ≤ t_1 ≤ y et 0 ≤ t_2 ≤ z ; comme t_1 et t_2 sont positifs, on a aussi t_1 ≤ x et t_2 ≤ x, d’où t_1 ≤ inf(x, y) et t_2 ≤ inf(x, z).
 
-#### Corollaire 1 {#alg-vi-s1-prop-11-cor-1 .statement}
+#### Corollaire 1 {#alg-vi-s1-prop-11-cor-1 .statement tag=06X8}
 
 Si x et y sont deux éléments étrangers et z un élément ≥ 0 d’un groupe réticulé, on a inf(x, z) = inf(x, y + z).
 
 En effet, inf(x, y + z) ≤ inf(x, z) en vertu de la prop. 11, et comme y ≥ 0, inf(x, z) ≤ inf(x, y + z), d’où le corollaire.
 
-#### Corollaire 2 {#alg-vi-s1-prop-11-cor-2 .statement}
+#### Corollaire 2 {#alg-vi-s1-prop-11-cor-2 .statement tag=06X9}
 
 Dans un groupe réticulé, si x et y sont étrangers et si on a z ≥ 0 et x ≤ y + z, alors on a x ≤ z.
 
-#### Corollaire 3 {#alg-vi-s1-prop-11-cor-3 .statement}
+#### Corollaire 3 {#alg-vi-s1-prop-11-cor-3 .statement tag=06XA}
 
 Dans un groupe réticulé, si x est étranger à y et z, il l’est aussi à y + z.
 
-#### Corollaire 4 {#alg-vi-s1-prop-11-cor-4 .statement}
+#### Corollaire 4 {#alg-vi-s1-prop-11-cor-4 .statement tag=06XB}
 
 Si (x_i)_{1 ≤ i ≤ n}, (y_j)_{1 ≤ j ≤ m} sont deux familles finies d’éléments d’un groupe réticulé G telles que chacun des x_i soit étranger à chacun des y_j, alors x_1 + ⋯ + x_n est étranger à y_1 + ⋯ + y_m.
 Ceci se déduit du cor. 3 par récurrence sur m et n.
 
-#### Corollaire 5 {#alg-vi-s1-prop-11-cor-5 .statement}
+#### Corollaire 5 {#alg-vi-s1-prop-11-cor-5 .statement tag=06XC}
 
 Quel que soit l’entier n ≥ 0, on a (nx)^+ = nx^+ et (nx)^- = nx^- ; pour tout n ∈ \mathbf{Z}, on a |nx| = |n|.|x|.
 On a en effet nx = nx^+ − nx^- ; comme x^+ et x^- sont étrangers, il en est de même de nx^+ et nx^- si n ≥ 0 (cor. 4) ; d’où la première assertion en vertu de la prop. 9, b) de VI, p. 12. La seconde s’ensuit en vertu de la prop. 9, d) dans le cas n ≥ 0 ; on passe de là au cas n < 0 grâce à la relation |− x| = |x|.
 
-#### Proposition 11 {#alg-vi-s1-div-prop-11 .statement}
+#### Proposition 11 {#alg-vi-s1-div-prop-11 .statement tag=06XD}
 
 L’ensemble $\mathscr{P}^*$ étant supposé réticulé, soient $(a_i), (b_j)$ deux familles finies d’éléments de $\mathbf{A}$. Alors tout pgcd de $\prod_i a_i$ et de $\prod_j b_j$ divise le produit $\prod_{i,j} \operatorname{pgcd}(a_i, b_j)$.
 
-#### Corollaire 1 {#alg-vi-s1-div-prop-11-cor-1 .statement}
+#### Corollaire 1 {#alg-vi-s1-div-prop-11-cor-1 .statement tag=06XE}
 
 Si $a, b, c$ sont trois éléments de $\mathbf{A}$ tels que $a$ soit étranger à $b$, tout pgcd de $a$ et de $c$ est aussi un pgcd de $a$ et de $bc$.
 
-#### Corollaire 2 (lemme d’Euclide) {#alg-vi-s1-div-prop-11-cor-2 .statement}
+#### Corollaire 2 (lemme d’Euclide) {#alg-vi-s1-div-prop-11-cor-2 .statement tag=06XF}
 
 Soient $a, b, c$ trois éléments de $\mathbf{A}$. Si $a$ est étranger à $b$ et divise $bc$, il divise $c$.
 
-#### Corollaire 3 {#alg-vi-s1-div-prop-11-cor-3 .statement}
+#### Corollaire 3 {#alg-vi-s1-div-prop-11-cor-3 .statement tag=06XG}
 
 Si $x$ est étranger à $y$ et $z$, il l’est à $yz$.
 
-#### Corollaire 4 {#alg-vi-s1-div-prop-11-cor-4 .statement}
+#### Corollaire 4 {#alg-vi-s1-div-prop-11-cor-4 .statement tag=06XH}
 
 Si $(x_i)$ et $(y_j)$ sont deux familles finies d’éléments de $\mathbf{A}$ telles que chaque $x_i$ soit étranger à chaque $y_j$, alors le produit des $x_i$ est étranger au produit des $y_j$.
 
-#### Corollaire 5 {#alg-vi-s1-div-prop-11-cor-5 .statement}
+#### Corollaire 5 {#alg-vi-s1-div-prop-11-cor-5 .statement tag=06XI}
 
 Si $d$ est un pgcd de $x$ et $y$, $d^n$ est un pgcd de $x^n$ et $y^n$ pour tout entier positif $n$.
 En effet $xd^{-1}$ et $yd^{-1}$ sont étrangers (prop. 10 (DIV)), et il en est de même de $x^n d^{-n}$ et $y^n d^{-n}$ (cor. 4).
 
-#### Proposition 12 {#alg-vi-s1-prop-12 .statement}
+#### Proposition 12 {#alg-vi-s1-prop-12 .statement tag=06XJ}
 
 Soient $x_i$ ($1 \leq i \leq n$) $n$ éléments étrangers deux à deux dans un groupe réticulé. Alors
 
@@ -524,15 +524,15 @@ $$
 
 Ceci se déduit de la formule $u + v = \sup(u, v) + \inf(u, v)$ (VI, p. 10, prop. 7) par récurrence sur $n$, en tenant compte de ce que $x_i$ est étranger à $x_1 + \cdots + x_{i-1}$ pour $2 \leq i \leq n$ (cor. 4 de la prop. 11).
 
-#### Remarque {#alg-vi-s1-n12-rem-1 .statement}
+#### Remarque {#alg-vi-s1-n12-rem-1 .statement tag=06XK}
 
 La prop. 7 de VI, p. 10 montre aussi que, pour que $x$ et $y$ soient étrangers, il faut et il suffit que l’on ait $x + y = \sup(x, y)$.
 
-#### Proposition 12 {#alg-vi-s1-div-prop-12 .statement}
+#### Proposition 12 {#alg-vi-s1-div-prop-12 .statement tag=06XL}
 
 Soient $a_i$ des éléments de $\mathbf{A}$ en nombre fini $n$ et étrangers deux à deux ; alors le produit $a_1 \ldots a_n$ est un ppcm de $a_1, ..., a_n$.
 
-#### Proposition 13 {#alg-vi-s1-prop-13 .statement}
+#### Proposition 13 {#alg-vi-s1-prop-13 .statement tag=06XM}
 
 Dans un groupe réticulé $\mathbf{G}$, soit $(x_\alpha)$ une famille admettant une borne inférieure (resp. supérieure), et soit $z$ un élément quelconque de $\mathbf{G}$; alors la famille $(\sup(z, x_\alpha))$ (resp. $(\inf(z, x_\alpha))$) admet une borne inférieure (resp. supérieure) et l’on a respectivement
 
@@ -549,13 +549,13 @@ On a en effet $\sup(z, x_\alpha) = z + (x_\alpha - z)^+$, et, par translation, n
 
 L’autre formule s’en déduit par passage à la relation d’ordre opposée.
 
-#### Corollaire {#alg-vi-s1-n12-cor-1 .statement}
+#### Corollaire {#alg-vi-s1-n12-cor-1 .statement tag=06XN}
 
 *Si, dans un groupe réticulé G, un élément z est étranger à chacun des éléments $x_\alpha$ d’une famille admettant une borne supérieure y, alors z est étranger à y.*
 
 Ceci est conséquence immédiate de la seconde formule (4).
 
-#### Remarque {#alg-vi-s1-n12-rem-2 .statement}
+#### Remarque {#alg-vi-s1-n12-rem-2 .statement tag=06XO}
 
 En appliquant les formules de la prop. 13 à une famille de deux éléments $(x, y)$, on obtient les formules suivantes qui expriment que, dans un groupe réticulé, chacune des lois de composition sup, inf est *distributive* par rapport à l’autre :
 
@@ -570,7 +570,7 @@ Cette propriété de distributivité est spéciale aux *groupes* réticulés et 
 
 ### 13. Éléments extrémaux
 
-#### Définition 6 {#alg-vi-s1-def-6 .statement}
+#### Définition 6 {#alg-vi-s1-def-6 .statement tag=06XP}
 
 *On dit qu’un élément x d’un groupe ordonné G est extrémal si c’est un élément minimal de l’ensemble des éléments strictement positifs de G.*
 
@@ -578,10 +578,12 @@ Soit $x$ un élément extrémal du groupe ordonné $G$; si $y$ est un élément 
 
 (DIV) Un élément $p$ de $A$ est dit *extrémal* si l’idéal $(p)$ est un élément extrémal du groupe ordonné $\mathscr{P}^*$; ceci exprime que $p$ n’est ni nul, ni inversible, et que tout élément de $A$ qui divise $p$ est associé, soit à $p$, soit à 1. Si $\mathscr{P}^*$ est réticulé, tout $a \in A$ est, soit étranger à $p$, soit multiple de $p$.
 
-*Exemples* (DIV). — 1) Un entier $p > 0$ est extrémal dans $\mathbf{Z}$ si et seulement s’il est *premier* (I, p. 48).
+#### Exemples (DIV) {#alg-vi-s1-n13-exa-1 .statement tag=0EEO}
+
+1) Un entier $p > 0$ est extrémal dans $\mathbf{Z}$ si et seulement s’il est *premier* (I, p. 48).
 2) Un polynôme à une indéterminée sur un corps $K$ est extrémal dans l’anneau $K[X]$ si et seulement s’il est *irréductible* (IV, p. 13).
 
-#### Proposition 14 {#alg-vi-s1-prop-14 .statement}
+#### Proposition 14 {#alg-vi-s1-prop-14 .statement tag=06XQ}
 
 *Pour qu’un élément $x > 0$ d’un groupe ordonné G soit extrémal, il suffit qu’il possède la propriété suivante :*
 (P) *Les relations* $x \leq y + z,\ y \geq 0,\ z \geq 0$ *entraînent* $x \leq y$ *ou* $x \leq z$.
@@ -589,15 +591,15 @@ Soit $x$ un élément extrémal du groupe ordonné $G$; si $y$ est un élément 
 
 Si G est réticulé et si x est extrémal, nous venons de voir que y est, soit supérieur à x, soit étranger à x ; dans ce dernier cas le cor. 2 de VI, p. 14 montre que z est supérieur à x. Réciproquement, supposons la condition satisfaite : de $0 \leq y \leq x$, on déduit, en posant $x = y + z$ ($z \geq 0$) que l’on a, soit $x \leq y$, soit $x \leq z$; dans le premier cas on a $x = y$; dans le second on a $x \leq x - y$, donc $y \leq 0$ et par suite $y = 0$; ceci montre que x est bien extrémal.
 
-#### Proposition 14 {#alg-vi-s1-div-prop-14 .statement}
+#### Proposition 14 {#alg-vi-s1-div-prop-14 .statement tag=06XR}
 
 Pour qu’un élément p non nul de A soit extrémal, il suffit qu’il ne soit pas une unité, et qu’il ne puisse diviser un produit de deux éléments de A sans diviser l’un d’eux. Cette condition est nécessaire si $\mathscr{P}^*$ est réticulé.
 
-#### Remarque {#alg-vi-s1-n13-rem-1 .statement}
+#### Remarque {#alg-vi-s1-n13-rem-1 .statement tag=06XS}
 
 On peut aussi exprimer la proposition 14 (DIV) comme suit : si p est un élément non nul de A tel que l’idéal (p) soit premier (I, p. 111, déf. 3), alors p est extrémal ; inversement, si $\mathscr{P}^*$ est réticulé et p extrémal, l’idéal (p) est premier.
 
-#### Proposition 15 {#alg-vi-s1-prop-15 .statement}
+#### Proposition 15 {#alg-vi-s1-prop-15 .statement tag=06XT}
 
 Dans un groupe ordonné G, soit $(p_i)_{i \in I}$ une famille d’éléments $> 0$ deux à deux distincts et vérifiant la propriété (P) (donc extrémaux). Alors l’application
 
@@ -615,7 +617,7 @@ $$
 
 En particulier, pour $\lambda \in I''$, cela entraîne $p_\lambda \leq \sum_{i \in I'} n_i p_i$, et, par récurrence, il résulte de la propriété (P) que l’on doit avoir $p_\lambda \leq p_i$ pour un $i \in I'$; comme $p_i$ est extrémal, cela entraînerait $p_\lambda = p_i$, ce qui est absurde. Donc $I''$ est vide, ce qui prouve la proposition.
 
-#### Théorème 2 {#alg-vi-s1-thm-2 .statement}
+#### Théorème 2 {#alg-vi-s1-thm-2 .statement tag=06XU}
 
 Soit G un groupe ordonné filtrant. Les propriétés suivantes sont équivalentes :
 a) G est isomorphe à un groupe ordonné de la forme $\mathbf{Z}^{(I)}$.

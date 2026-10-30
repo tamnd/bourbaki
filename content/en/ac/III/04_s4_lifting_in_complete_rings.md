@@ -37,7 +37,7 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: f912ce448ee1a4126b48a8dd56b73d600b24151c918435c56cc969e0399db275
+content_sha256: e207aa232d5bd052ada28a852533dc7566c32021e210764a8b52a3fbf49d5170
 ---
 
 ## 4. LIFTING IN COMPLETE RINGS
@@ -46,7 +46,7 @@ content_sha256: f912ce448ee1a4126b48a8dd56b73d600b24151c918435c56cc969e0399db275
 
 Let $R$ be a commutative ring. Two elements $x, y$ of $R$ are called *strongly relatively prime* if the principal ideals $Rx$ and $Ry$ are relatively prime, in other words (Chapter II, § 1, no. 2) if $R x + R y = R$; it amounts to the same to say that there exist two elements $a, b$ of $R$ such that $ax + by = 1$.
 
-#### Lemma 1 ("Euclid's Lemma") {#ac-iii-s4-lem-1 .statement}
+#### Lemma 1 ("Euclid's Lemma") {#ac-iii-s4-lem-1 .statement tag=04HS}
 
 *Let $x, y$ be two strongly relatively prime elements of $R$; if $z \in R$ is such that $x$ divides $yz$, then $x$ divides $z$.*
 
@@ -60,7 +60,7 @@ $$
 
 For polynomial rings there is the following result:
 
-#### Proposition 1 {#ac-iii-s4-prop-1 .statement}
+#### Proposition 1 {#ac-iii-s4-prop-1 .statement tag=04HT}
 
 *Let $\mathbf{A}$ be a commutative ring and $P$ and $P'$ two strongly relatively prime polynomials in $\mathbf{A}[X]$. Suppose that $P$ is monic and of degree $s$. Then every polynomial $T$ in $\mathbf{A}[X]$ may be written uniquely in the form*
 $$
@@ -107,7 +107,7 @@ $$
 
 whence $\deg(Q) \leq t - s$.
 
-#### Example {#ac-iii-s4-n1-exa-1 .statement}
+#### Example {#ac-iii-s4-n1-exa-1 .statement tag=04HU}
 
 For a polynomial $P \in \mathbf{A}[X]$ to be strongly relatively prime to $X - a$ (where $a \in \mathbf{A}$), it is necessary and sufficient that $P(a)$ be *invertible* in $\mathbf{A}$. For if P and $X - a$ are strongly relatively prime, it follows from Proposition 1 that there exist $c \in \mathbf{A}$ and a polynomial $Q \in \mathbf{A}[X]$ such that $cP + (X - a)Q = 1$, whence $cP(a) = 1$ and $P(a)$ is invertible. Conversely, by Euclidean division
 
@@ -119,7 +119,7 @@ and, if $P(a) = b^{-1}$, where $b \in \mathbf{A}$, we deduce that $1 = bP - b(X 
 
 Let $\mathbf{A}$ and $\mathbf{B}$ be two commutative rings and $f : \mathbf{A} \to \mathbf{B}$ a ring homomorphism. If $P = \sum_{i \geq 0} a_i X^i$ is a formal power series in $\mathbf{A}[[X]]$, let $\bar{f}(P)$ denote the formal power series $\sum_{i \geq 0} f(a_i) X^i$ in $\mathbf{B}[[X]]$. If P is a polynomial, so is $\bar{f}(P)$ and, if further P is monic, then $\bar{f}(P)$ is monic of the same degree as P. Finally, $P \mapsto \bar{f}(P)$ is clearly a homomorphism of $\mathbf{A}[[X]]$ to $\mathbf{B}[[X]]$ which extends $f$ and maps X to X. *The notation will be constantly used in this sense in the rest of this paragraph.*
 
-#### Proposition 2 {#ac-iii-s4-prop-2 .statement}
+#### Proposition 2 {#ac-iii-s4-prop-2 .statement tag=04HV}
 
 *Let $\mathbf{A}$ and $\mathbf{B}$ be two commutative rings, $f$ a homomorphism from $\mathbf{A}$ to $\mathbf{B}$ and $P, P'$ two polynomials in $\mathbf{A}[X]$. If $P$ and $P'$ are strongly relatively prime in $\mathbf{A}[X]$, then $\bar{f}(P)$ and $\bar{f}(P')$ are strongly relatively prime in $\mathbf{B}[X]$. The converse is true iff is surjective, if its kernel is contained in the Jacobson radical of $\mathbf{A}$ and if $P$ is monic.*
 
@@ -139,7 +139,7 @@ whence the relation $E = F + aE$. Now, $E/F$ is a finitely generated $A$-module,
 
 ### 2. RESTRICTED FORMAL POWER SERIES
 
-#### Definition 1 {#ac-iii-s4-def-1 .statement}
+#### Definition 1 {#ac-iii-s4-def-1 .statement tag=04HW}
 
 A commutative topological ring $A$ is said to be linearly topologized (and its topology is said to be linear) if there exists a fundamental system $\mathscr{B}$ of neighbourhoods $\mathfrak{o}$ consisting of ideals $\mathfrak{o} \subset A$.
 
@@ -149,7 +149,7 @@ h_{\mathfrak{J}\mathfrak{J}'} : A/\mathfrak{J}' \to A/\mathfrak{J}
 $$
 be the canonical mapping. We know (General Topology, Chapter III, § 7, no. 3) that $(A/\mathfrak{J}, h_{\mathfrak{J}\mathfrak{J}'})$ is an inverse system of discrete rings (relative to the indexing set $\mathscr{B}$ which is ordered by $\supset$ and directed), whose inverse limit is a complete Hausdorff linearly topologized ring $\tilde{A}$; further (loc. cit., Proposition 2 ), a strict morphism $i : A \to \tilde{A}$ is defined, whose kernel is the closure of $\{0\}$ in $A$ and whose image is everywhere dense in $\tilde{A}$, so that $\tilde{A}$ is canonically identified with the Hausdorff completion of $A$.
 
-#### Definition 2 {#ac-iii-s4-def-2 .statement}
+#### Definition 2 {#ac-iii-s4-def-2 .statement tag=04HX}
 
 Given a commutative topological ring $A$, a formal power series
 $$
@@ -195,7 +195,7 @@ $$
 \mathbf{A}' = \lim_{\rightarrow} (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_n].
 $$
 
-#### Proposition 3 {#ac-iii-s4-prop-3 .statement}
+#### Proposition 3 {#ac-iii-s4-prop-3 .statement tag=04HY}
 
 *If the linearly topologized commutative ring $\mathbf{A}$ is Hausdorff and complete, the canonical homomorphism $\pi$ is a topological ring isomorphism.*
 
@@ -205,7 +205,7 @@ $$
 $$
 as $S_{\mathfrak{J}}$ is a polynomial, we see that $\phi_{n_1 \ldots n_p}(S) \in \mathfrak{J}$ except for those $(n_1, \ldots, n_p)$, finite in number, such that $\phi_{n_1 \ldots n_p}^{\mathfrak{J}}(S_{\mathfrak{J}}) \neq 0$, which proves our first assertion; the second follows from the definitions. As $A$ is Hausdorff, the intersection of the $\mathbf{N}_\mathfrak{J}$ reduces to 0 and hence $\pi$ is *bijective*, which completes the proof, since $\pi$ is a strict morphism.
 
-#### Proposition 4 {#ac-iii-s4-prop-4 .statement}
+#### Proposition 4 {#ac-iii-s4-prop-4 .statement tag=04HZ}
 
 *Let $A, B$ be two linearly topologized commutative rings, $B$ being Hausdorff and complete, and $u : A \to B$ a continuous homomorphism. For every family $b = (b_i)_{1 \leq i \leq p}$ of elements of $B$, there exists a unique continuous homomorphism*
 $$
@@ -219,11 +219,11 @@ In the special case where $A = B$ and $u$ is the identity mapping we shall write
 
 *Remarks*
 
-#### Remark 1 {#ac-iii-s4-n2-rem-1 .statement}
+#### Remark 1 {#ac-iii-s4-n2-rem-1 .statement tag=04I0}
 
 Proposition 4 proves that for every *closed* ideal $a$ in a ring $A$ which is assumed to be Hausdorff and complete, the relations $b_i \in a$ for $1 \leq i \leq p$ imply $f(b_1, \ldots, b_p) \in a$ for every restricted formal power series $f \in A\{X_1, \ldots, X_p\}$.
 
-#### Remark 2 {#ac-iii-s4-n2-rem-2 .statement}
+#### Remark 2 {#ac-iii-s4-n2-rem-2 .statement tag=04I1}
 
 Suppose that $A$ is linearly topologized; let $r$ be an integer such that 1 $\leq r \leq p$ and let the ring $A\{X_1, \ldots, X_r\}$ be given the topology defined above. Then the topological ring $A\{X_1, \ldots, X_r\}$ is identified with the ring of restricted formal power series
 
@@ -233,7 +233,7 @@ $$
 
 as follows immediately from the definitions.
 
-#### Remark 3 {#ac-iii-s4-n2-rem-3 .statement}
+#### Remark 3 {#ac-iii-s4-n2-rem-3 .statement tag=04I2}
 
 With the notation of *Remark 2*, suppose further that $A$ is Hausdorff and complete and let us write every restricted formal power series $f \in A\{X_1, \ldots, X_r\}$ in the form
 
@@ -363,7 +363,7 @@ $$J_{f \circ g} = J_f(g) \cdot J_g$$
 $$(15)$$
 $$J_{f \circ g}(0) = J_f(g) J_g(0).$$
 
-#### Proposition 5 {#ac-iii-s4-prop-5 .statement}
+#### Proposition 5 {#ac-iii-s4-prop-5 .statement tag=04I3}
 
 *Let $\mathbf{A}$ be a commutative ring and $\mathbf{f} = (f_1, \ldots, f_n)$ a system without constant term of $n$ series in $\mathbf{A}[[X_1, \ldots, X_n]]$. Suppose that $J_f(0)$ is invertible in $\mathbf{A}$. Then there exists a system without constant term $\mathbf{g} = (g_1, \ldots, g_n)$ of $n$ series in $\mathbf{A}[[X_1, \ldots, X_n]]$ such that*
 $$(16)$$
@@ -393,7 +393,7 @@ To abbreviate, we shall say in what follows that a ring satisfies *Hensel’s co
 
 In particular, if $A$ is a commutative ring and $m$ an ideal of $A$ and $A$ is Hausdorff and complete with respect to the *m-adic* topology, the ordered pair $(A, m)$ satisfies Hensel’s conditions.
 
-#### Proposition 6 {#ac-iii-s4-prop-6 .statement}
+#### Proposition 6 {#ac-iii-s4-prop-6 .statement tag=04I4}
 
 *Let $A$ be a commutative ring, $B$ a ring satisfying Hensel’s conditions and $u : A \to B$ a homomorphism. For every family $x = (x_1, \ldots, x_n)$ of topologically nilpotent elements of $B$, there exists a unique homomorphism $\tilde{u}$ from $A[[X_1, \ldots, X_n]]$ to $B$ such that $\tilde{u}(a) = u(a)$ for all $a \in A$ and $\tilde{u}(X_i) = x_i$ for $1 \leq i \leq n$. Moreover, if $m$ denotes the ideal of series without constant term in $A[[X_1, \ldots, X_n]]$, $\tilde{u}$ is continuous for the m-adic topology.*
 
@@ -419,7 +419,7 @@ denote the formal power series in $A[[X_{n+1}, \ldots, X_m]]$ obtained by substi
 
 Let us take $B$ to be the ring of formal power series $A[[X_1, \ldots, X_r]]$ and let $n$ be the ideal of series in $B$ without constant term, so that $(B, n)$ satisfies Hensel's conditions ($§ 2$, no. 6, Corollary to Proposition 6). Proposition 6 may be applied by taking the $x_i \in B$ to be series without constant term; then, for every series $\mathbf{f} \in A[[X_1, \ldots, X_r]]$, $\tilde{u}(f)$ is just the formal power series $f(x_1, \ldots, x_n)$ defined in Algebra, Chapter IV, $§ 5$, no. 5. This is obvious if $f$ is a polynomial and it follows from the proposition in the general case by remarking that $f \mapsto f(x_1, \ldots, x_n)$ is continuous on $A[[X_1, \ldots, X_n]]$ with respect to the m-adic topology.
 
-#### Corollary {#ac-iii-s4-n5-cor-1 .statement}
+#### Corollary {#ac-iii-s4-n5-cor-1 .statement tag=04I5}
 
 Let $A$ be a ring satisfying Hensel's condition and $x = (x_1, \ldots, x_n)$ a family of topologically nilpotent elements of $A$. Let $g = (g_1, \ldots, g_q)$ be a system without constant term of series in $A[[X_1, \ldots, X_s]]$ and $f = (f_1, \ldots, f_p)$ a system of formal power series in $A[[X_1, \ldots, X_q]]$. Then $g(x) = (g_1(x), \ldots, g_q(x))$ is a family of topologically nilpotent elements of $A$ and
 
@@ -437,13 +437,13 @@ respectively, clearly the relation $f \in {m'}^k$ implies $f(g_1, \ldots, g_q) \
 
 In what follows, for a ring $A$ and an ideal $m$ of $A$ we shall denote by $m^{x^n}$ the product set $\prod_{i=1}^n m$, in $A^n$, where $m_i = m$ for $1 \leq i \leq n$, to avoid ambiguity.
 
-#### Proposition 7 {#ac-iii-s4-prop-7 .statement}
+#### Proposition 7 {#ac-iii-s4-prop-7 .statement tag=04I6}
 
 *Let $A$ be a ring and $m$ an ideal of $A$ such that the ordered pair $(A, m)$ satisfies Hensel's conditions. Let $f = (f_1, \ldots, f_n)$ be a system without constant term of series in $A[[X_1, \ldots, X_n]]$ such that $J_f(0)$ is invertible in $A$. Then, for all $x \in m^{x^n}$, $f(x) \in m^{x^n}$ and $x \mapsto f(x)$ is a bijection of $m^{x^n}$ onto itself, the inverse bijection being $x \mapsto g(x)$, where $g$ is given by relation (16) in no. 4.*
 
 The fact that $f(x) \in m^{x^n}$ is obvious when theft are polynomials and follows in the general case from Proposition 6 and the fact that $m$ is closed in $A$. The other assertions of the proposition are then immediate consequences of (16), (17) and (18).
 
-#### Corollary {#ac-iii-s4-n5-cor-2 .statement}
+#### Corollary {#ac-iii-s4-n5-cor-2 .statement tag=04I7}
 
 *Let $q$ be a closed ideal of $A$ contained in $m$. Then the relation $x \equiv x' \pmod{q^{x^n}}$ is equivalent to $f(x) \equiv f(x') \pmod{q^{x^n}}$.*
 
@@ -455,7 +455,7 @@ $$
 
 where the $h_i$ belong to $A[[X_1, \ldots, X_n, Y_1, \ldots, Y_n]]$ (Algebra, Chapter IV, § 5, no. 8, Proposition 9); it follows immediately that the relation $x \equiv x' \pmod{q^{x^n}}$ implies $f(x) \equiv f(x') \pmod{q^{x^n}}$. The converse is obtained by replacing $f$ by its "inverse" $g$.
 
-#### Theorem 2 {#ac-iii-s4-thm-2 .statement}
+#### Theorem 2 {#ac-iii-s4-thm-2 .statement tag=04I8}
 
 *Let $A$ be a ring and $m$ an ideal of $A$ such that the ordered pair $(A, m)$ satisfies Hensel's conditions. Let $f = (f_1, \ldots, f_n)$ be a system of $n$ elements of
 
@@ -486,7 +486,7 @@ $$f(a + ex) = f(a) + M_t(a) \cdot ex + M_t(a) M' \cdot er(x).$$
 
 Writing $g = 1, + M' \cdot r$, we see that $g$ satisfies conditions (i) and (ii); then it is sufficient to replace $x$ by $h(y)$ to obtain (iii).
 
-#### Corollary 1 {#ac-iii-s4-thm-2-cor-1 .statement}
+#### Corollary 1 {#ac-iii-s4-thm-2-cor-1 .statement tag=04I9}
 
 Let $A$ be a ring and $m$ an ideal of $A$ such that the ordered pair $(A, m)$ satisfies Hensel's conditions. Let $f \in A\{X\}$, $a \in A$ and write $e = f'(a)$. If $f(a) \equiv 0$ (mod. $e^2 m$), then there exists $b \in A$ such that $f(b) = 0$ and $b \equiv a$ (mod. $em$). If b' is another element of $\mathbf{A}$ such that $f(b') = 0$ and $b' \equiv a \pmod{\mathfrak{m}}$, then $e(b - b') = 0$. In particular, $b$ is unique if $e$ is not a divisor of zero in $\mathbf{A}$.
 
@@ -496,7 +496,7 @@ f(a + eh(y)) = e^2(c + y)
 $$
 and it is therefore sufficient to take $y = -c$, $b = a + eh(-c)$. Moreover if $b = a + ex, b' = a + ex', x \in \mathfrak{m}, x' \in m, f(b) = f(b') = 0$, we deduce from (19) that $e^2(g(x) - g(x')) = 0$. As $g(\mathbf{X}) - g(\mathbf{Y}) = (\mathbf{X} - \mathbf{Y})u(\mathbf{X}, \mathbf{Y})$, where $u$ is restricted and $u(0, 0) = 1$, $g(x) - g(x') = (x - x')v$, where $v \in \mathbf{A}$ is invertible, for, since $m$ is closed, $v - 1 = u(x, x') - 1 \in \mathfrak{m}$ and $m$ is contained in the Jacobson radical of $\mathbf{A}$; whence the relation $e(b - b') = 0$.
 
-#### Remark {#ac-iii-s4-n5-rem-1 .statement}
+#### Remark {#ac-iii-s4-n5-rem-1 .statement tag=04IA}
 
 The corollary applies notably when $e$ is invertible in $\mathbf{A}$; we can then also deduce the existence of $b$ from Hensel's Theorem, for the canonical image of $f(\mathbf{X})$ in $(\mathbf{A}/\mathfrak{m})\{\mathbf{X}\}$ is of the form $(\mathbf{X} - a)f_1(\mathbf{X}), \mathbf{X} - a$ and $f_1(\mathbf{X})$ being strongly relatively prime, for $f_1(\alpha) = f'(\alpha)$ is the image of $e$ (no. 1, Example).
 
@@ -504,13 +504,13 @@ Examples
 (1) Let $p$ be a prime number $\neq 2$ and $n$ an integer whose class mod. $p$ is a square $\neq 0$ in the prime field $\mathbf{F}_p$. If $\mathbf{Z}_p$ is the ring of $p$-adic integers (§ 2, no. 12, Example 3), the application of Corollary 1 to the polynomial $\mathbf{X}^2 - n$ shows that $n$ is a square in $\mathbf{Z}_p$; for example 7 is a square in $\mathbf{Z}_3$.
 (2) Let $\mathbf{A} = \mathbf{K}[[\mathbf{Y}]]$ be the ring of formal power series in one indeterminate with coefficients in a commutative field $\mathbf{K}$; with the $(\mathbf{Y})$-adic topology, the ring $\mathbf{A}$ is Hausdorff and complete (§ 2, no. 6, Corollary to Proposition 6) and the mapping $f(\mathbf{Y}) \mapsto f(0)$ defines by passing to the quotient ring an isomorphism of $\mathbf{A}/(\mathbf{Y})$ onto the field $\mathbf{K}$. By Corollary 1, if $F(\mathbf{Y}, \mathbf{X})$ is a polynomial in $\mathbf{X}$ with coefficients in $\mathbf{A}$ and $a$ is a simple root of $F(0, \mathbf{X})$ in $\mathbf{K}$, there exists a unique formal power series $f(\mathbf{Y})$ such that $f(0) = a$ and $F(\mathbf{Y}, f(\mathbf{Y})) = 0$.
 
-#### Corollary 2 {#ac-iii-s4-thm-2-cor-2 .statement}
+#### Corollary 2 {#ac-iii-s4-thm-2-cor-2 .statement tag=04IB}
 
 Let $\mathbf{A}$ be a ring and $\mathfrak{m}$ an ideal of $\mathbf{A}$ such that the ordered pair $(\mathbf{A}, m)$ satisfies Hensel's conditions. Let $r, n$ be integers such that $0 \leq r < n$ and $\mathbf{f} = (f_{r+1}, \ldots, f_n)$ is a system of $n - r$ elements of $\mathbf{A}\{\mathbf{X}_1, \ldots, \mathbf{X}_n\}$; let $J^{(n-r)}_{\mathbf{f}}(\mathbf{X})$ denote the minor of $M_{\mathbf{f}}(\mathbf{X})$ consisting of the columns of index $j$ such that $r + 1 \leq j \leq n$. Let $a \in \mathbf{A}^n$ be such that $J^{(n-r)}_{\mathbf{f}}(a)$ is invertible in $\mathbf{A}$ and $\mathbf{f}(a) \equiv 0 \pmod{\mathfrak{m}^{(n-r)}}$. Then there exists a unique $\mathbf{x} = (x_1, \ldots, x_n) \in \mathbf{A}^n$ such that $x_k = a_k$ for $1 \leq k \leq r$, $\mathbf{x} \equiv a \pmod{\mathfrak{m}^n}$ and $\mathbf{f}(\mathbf{x}) = 0$.
 
 Substituting $a$, for $X_k$ for $1 \leq k \leq r$ in the $f_i$ (no. 2, Remark 3 ), we see immediately that we may restrict our attention to the case where $r = 0$ to prove the corollary. Theorem 1 and Proposition 7 show then that $\mathbf{f}$ defines a bijection of $a + \mathfrak{m}^n$ onto $\mathbf{f}(a) + \mathfrak{m}^n = \mathfrak{m}^n$; the corollary follows from the fact that $0 \in \mathfrak{m}^n$.
 
-#### Corollary 3 {#ac-iii-s4-thm-2-cor-3 .statement}
+#### Corollary 3 {#ac-iii-s4-thm-2-cor-3 .statement tag=04IC}
 
 *With the notation & Corollary 2, let $a \in \mathbf{A}^n$; let us write $e = J_r^{(n-r)}(\mathbf{a})$ (not necessarily invertible in $\mathbf{A}$) and suppose that $f(\mathbf{a}) \equiv 0$ (mod. $e^{2m^{\times(n-r)}}$). Then there exist $n - r$ formal power series without constant term $\phi_i$ ($r + 1 \leq i \leq n$) in $\mathbf{A}[[X_1, \ldots, X_r]]$ such that, for all $t = (t_1, \ldots, t_r) \in m^{\times r}$,
 
@@ -546,13 +546,13 @@ for $r + 1 \leq j \leq n$. For $r + 1 \leq i \leq n$, substituting $t_j$ for $z_
 
 ### 6. APPLICATION TO DECOMPOSITIONS OF RINGS
 
-#### Lemma 2 {#ac-iii-s4-lem-2 .statement}
+#### Lemma 2 {#ac-iii-s4-lem-2 .statement tag=04ID}
 
 *Let $\mathbf{A}$ be a ring and $m$ an ideal of $\mathbf{A}$ such that the ordered pair $(\mathbf{A}, m)$ satisfies Hensel’s conditions. Let $\mathbf{B}$ be the quotient ring $\mathbf{A}/m$ and $\pi : \mathbf{A} \to \mathbf{B}$ be the canonical homomorphism. For every idempotent $c$ of $\mathbf{B}$ there exists a unique idempotent $e$ of $\mathbf{A}$ such that $\pi(e) = c$.*
 
 Let $a$ be such that $\pi(a) = c$; Corollary 1 to Theorem 2 of no. 5 may be applied to the polynomial $f(X) = X^2 - X$ in $\mathbf{A}[X]$ and the element $a \in \mathbf{A}$. Then $f'(a) = 2a - 1$ and, as $\pi(2a - 1) = 2c - 1$ and $(2c - 1)^2 = 1$ in $\mathbf{B}$, $2c - 1$ is invertible in $\mathbf{B}$ and hence $2a - 1$ is invertible in $\mathbf{A}$ (§ 2, no. 13, Lemma 3). As $f(a) \in m$, Corollary 1 to Theorem 2 of no. 5 immediately gives the existence and uniqueness of $e$.
 
-#### Proposition 8 {#ac-iii-s4-prop-8 .statement}
+#### Proposition 8 {#ac-iii-s4-prop-8 .statement tag=04IE}
 
 *Let $\mathbf{A}$ be a ring and $m$ an ideal of $\mathbf{A}$ such that the ordered pair $(\mathbf{A}, m)$ satisfies Hensel’s conditions. Let $\mathbf{B}$ be the quotient ring $\mathbf{A}/m$ and $\pi : \mathbf{A} \to \mathbf{B}$ the canonical homomorphism. *If B is the direct composition of a finite family* $(\mathfrak{b}_i)_{i \in I}$ *of ideals, there exists a unique family* $(\mathfrak{a}_i)_{i \in I}$ *of ideals of A such that* $\pi(\mathfrak{a}_i) = \mathfrak{b}_i$ *for all* $i \in I$ *and A is the direct composition of the family* $(\mathfrak{a}_i)$.
 
@@ -568,7 +568,7 @@ similarly $1 = \sum_i e_i$. It follows that $A$ is the direct composition of the
 
 It remains to show the uniqueness of such a decomposition. Now, suppose that $A$ is the direct composition of another family $(\mathfrak{a}'_i)_{i \in I}$ of ideals such that $\pi(\mathfrak{a}'_i) = \mathfrak{b}_i$ for all $i$; then $1 = \sum_i e'_i$ where $e'_i \in \mathfrak{a}'_i$, whence, in $B$, $1 = \sum_i \pi(e'_i)$ where $\pi(e'_i) \in \mathfrak{b}_i$, which implies $\pi(e'_i) = c_i$; as $e'_i$ and $e_i$ are idempotents, necessarily $e'_i = e_i$ (Lemma 2), which completes the proof.
 
-#### Remark {#ac-iii-s4-n6-rem-1 .statement}
+#### Remark {#ac-iii-s4-n6-rem-1 .statement tag=04IF}
 
 Proposition 8 again gives the structure of a semi-local ring on $A$ which is Hausdorff and complete with the $c$-adic topology (c the Jacobson radical of $A$), which has already been obtained as a consequence of § 2, no. 13, Corollary to Proposition 19.
 

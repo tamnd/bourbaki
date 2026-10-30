@@ -37,9 +37,9 @@ subsections:
       pdf_page: 98
 statements: 22
 exercises: 8
-content_sha256: 879a23660ee00e825f24d6894424a7b935ac181d2c4e6860df8878343207971b
+content_sha256: ec38e727a5fd06becdc569a5aebb9e102046fd6b54f68dc0e6ae44d17f0c2eb1
 translated_from: content/en/int/III/04_s4_products_of_measures.md
-source_content_sha256: 46090ffe596a66de5ee06a18db66166b3f5d84751493c9d0ef4a1e9a6e249f77
+source_content_sha256: 375b3e9104624766e0c67616cc70666473c13c687b42ef6fceaaffeead1b1903
 translation_model: gpt-5.4
 translation_run: translate-vi-74c3c443
 glossary_version: 34
@@ -51,7 +51,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Tích của hai độ đo
 
-#### Định lý 1 {#int-iii-s4-thm-1 .statement}
+#### Định lý 1 {#int-iii-s4-thm-1 .statement tag=08O8}
 
 — *Cho X và Y là hai không gian địa phương compact, $\lambda$ là một độ đo trên X, $\mu$ là một độ đo trên Y; tồn tại một và chỉ một độ đo $\nu$ trên $X \times Y$ sao cho, với mọi hàm* $g \in \mathscr{K}(X; \mathbf{C})$ *và mọi hàm* $h \in \mathscr{K}(Y; \mathbf{C})$,
 
@@ -59,7 +59,7 @@ $$
 \int g(x)h(y)\, d\nu(x, y) = \left( \int g(x)\, d\lambda(x) \right) \left( \int h(y)\, d\mu(y) \right).
 $$
 
-#### Bổ đề {#int-iii-s4-n1-lem-1 .statement}
+#### Bổ đề {#int-iii-s4-n1-lem-1 .statement tag=08O9}
 
 1— *Cho X và Y là hai không gian địa phương compact, K (tương ứng L) là một tập con compact của X (tương ứng của Y).*
 
@@ -89,7 +89,7 @@ $$
 
 Sau khi đã chứng minh bổ đề, bây giờ ta nhận thấy rằng mọi tập con compact của $X \times Y$ đều được chứa trong một tích $K \times L$, trong đó $K$ (tương ứng $L$) là một tập con compact của $X$ (tương ứng của $Y$). Vì vậy từ Bổ đề 1, (ii) suy ra rằng không gian con $\mathscr{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathscr{K}(Y; \mathbf{C})$ là *trù mật* trong $\mathscr{K}(X \times Y; \mathbf{C})$; vì quan hệ (1) cũng có thể viết là $\nu(g \otimes h) = \lambda(g)\mu(h)$ với $g \in \mathscr{K}(X; \mathbf{C})$, $h \in \mathscr{K}(Y; \mathbf{C})$, nên *tính duy nhất* của $\nu$ suy ra ngay lập tức. Để chứng minh sự tồn tại của $\nu$, ta sẽ dùng bổ đề sau:
 
-#### Bổ đề 2 {#int-iii-s4-lem-2 .statement}
+#### Bổ đề 2 {#int-iii-s4-lem-2 .statement tag=08OA}
 
 *Với các ký hiệu như trong Bổ đề 1, với mọi hàm* $f \in \mathscr{K}(X \times Y, K \times L; \mathbf{C})$ *hàm*
 
@@ -115,7 +115,7 @@ $$
 
 với mọi $y \in Y$, do đó $|\nu(f)| \leq a_K b_L \|f\|$. Dạng tuyến tính $\nu$ trên $\mathscr{K}(X \times Y; \mathbf{C})$ vì thế là một độ đo trên $X \times Y$ hiển nhiên thỏa mãn (1), điều này hoàn tất chứng minh của Định lý 1.
 
-#### Định nghĩa 1 {#int-iii-s4-def-1 .statement}
+#### Định nghĩa 1 {#int-iii-s4-def-1 .statement tag=08OB}
 
 *Cho hai độ đo $\lambda, \mu$ được định nghĩa, tương ứng, trên hai không gian compact địa phương $X, Y$, tích độ đo của $\lambda$ với $\mu$ được định nghĩa là độ đo duy nhất $\nu$ trên $X \times Y$ thỏa mãn quan hệ (1) với mọi hàm $g \in \mathscr{K}(X; \mathbf{C})$ và mọi hàm $h \in \mathscr{K}(Y; \mathbf{C})$.*
 
@@ -127,7 +127,7 @@ $$
 
 mà lại thỏa mãn điều kiện (1). Như vậy ta đã chứng minh định lý sau đây:
 
-#### Định lý 2 {#int-iii-s4-thm-2 .statement}
+#### Định lý 2 {#int-iii-s4-thm-2 .statement tag=08OC}
 
 *Cho $\lambda, \mu$ là hai độ đo được định nghĩa, tương ứng, trên hai không gian compact địa phương $X, Y$. Với mọi hàm $f$ trong $\mathscr{K}(X \times Y; \mathbf{C})$, tích phân của $f$ đối với tích độ đo $\nu$ của $\lambda$ với $\mu$ có giá trị*
 
@@ -150,11 +150,11 @@ $$
 
 Công thức (3) cho thấy rằng nếu $\lambda$ và $\mu$ là các độ đo thực (resp. dương), thì tích độ đo $\nu$ là thực (resp. dương).
 
-#### Ví dụ 1 {#int-iii-s4-n1-exa-1 .statement}
+#### Ví dụ 1 {#int-iii-s4-n1-exa-1 .statement tag=08OD}
 
 Độ đo tích của các độ đo Dirac $\varepsilon_x$ ($x \in X$) và $\varepsilon_y$ ($y \in Y$) là độ đo Dirac $\varepsilon_{(x, y)}$.
 
-#### Ví dụ 2 {#int-iii-s4-n1-exa-2 .statement}
+#### Ví dụ 2 {#int-iii-s4-n1-exa-2 .statement tag=08OE}
 
 Lấy $X = Y = \mathbf{R}$, và $\lambda$ và $\mu$ là *độ đo Lebesgue* trên $\mathbf{R}$ (§1, No. 3); tích của chúng được gọi là *độ đo Lebesgue* trên $\mathbf{R}^2$; tích phân của một hàm $f \in \mathscr{K}(\mathbf{R}^2; \mathbf{C})$ đối với độ đo này được ký hiệu là $\iint f(x, y)\, dx\, dy$ hoặc $\iint f(x, y)\, dy\, dx$; công thức (4), đối với một hàm bằng không ở ngoài một hình chữ nhật compắc $[a, b] \times [c, d]$, cho công thức
 
@@ -166,7 +166,7 @@ $$
 
 Vì độ đo Lebesgue trên $\mathbf{R}$ là bất biến dưới mọi phép tịnh tiến (§1, No. 3), do đó suy ra ngay rằng độ đo Lebesgue trên $\mathbf{R}^2$ là *bất biến dưới mọi phép tịnh tiến của $\mathbf{R}^2$*.
 
-#### Nhận xét {#int-iii-s4-n1-rem-1 .statement}
+#### Nhận xét {#int-iii-s4-n1-rem-1 .statement tag=08OF}
 
 Cho $E$ là một không gian lồi địa phương Hausdorff, và cho $f$ là một ánh xạ thuộc $\mathscr{K}(X \times Y; E)$ sao cho $f(X \times Y)$ được chứa trong một tập con *lồi đầy đủ* $C$ của $E$. Khi đó, với mọi $y \in Y$, tích phân $h(y) = \int f(x, y)\, d\lambda(x)$ thuộc $E$ (§3, No. 3, Prop. 7); hơn nữa, hàm $h$ thuộc $\widetilde{\mathscr{K}}(Y; E)$: thật vậy, với mọi $z' \in E'$ ta có
 
@@ -200,7 +200,7 @@ với mọi $g \in \mathscr{K}(X; \mathbf{C})$ và $h \in \mathscr{K}(Y; \mathbf
 
 Ánh xạ $(\lambda, \mu) \mapsto \lambda \otimes \mu$ từ $\mathscr{M}(X; \mathbf{C}) \times \mathscr{M}(Y; \mathbf{C})$ vào $\mathscr{M}(X \times Y; \mathbf{C})$ hiển nhiên là *song tuyến tính*, theo công thức (3) của No. 1.
 
-#### Mệnh đề 1 {#int-iii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#int-iii-s4-prop-1 .statement tag=08OG}
 
 *Cho $\lambda$ là một độ đo trên X, $\mu$ là một độ đo trên Y; nếu $g \in \mathscr{C}(X; \mathbf{C}),\ h \in \mathscr{C}(Y; \mathbf{C}),$ thì*
 $$
@@ -214,13 +214,13 @@ $$
 $$
 điều này chứng minh công thức (6).
 
-#### Mệnh đề 2 {#int-iii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#int-iii-s4-prop-2 .statement tag=08OH}
 
 *Giá của tích $\lambda \otimes \mu$ bằng tích của giá của $\lambda$ và giá của $\mu$.*
 
 Trước hết ta nhận thấy rằng quan hệ $\lambda \otimes \mu = 0$ kéo theo một trong hai độ đo $\lambda, \mu$ là không (A, II, §7, No. 7, Prop. 16, (ii)). Mặt khác, nếu U (tương ứng V) là một tập mở trong X (tương ứng trong Y), thì hạn chế của $\lambda \otimes \mu$ lên tích $U \times V$ là tích của các hạn chế của $\lambda$ lên U và của $\mu$ lên V, như suy ra từ Th. 1 của No. 1 và định nghĩa của hạn chế của một độ đo lên một tập mở (§ 2, No. 1). Do đó suy ra rằng để hạn chế của $\lambda \otimes \mu$ lên $U \times V$ là không thì điều kiện cần và đủ là hoặc hạn chế của $\lambda$ lên U hoặc hạn chế của $\mu$ lên V là không; điều này chứng minh mệnh đề, có tính đến định nghĩa của giá của một độ đo (§ 2, No. 2).
 
-#### Mệnh đề 3 {#int-iii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#int-iii-s4-prop-3 .statement tag=08OI}
 
 *Cho $\lambda \in \mathscr{M}(X; \mathbf{C}),\ \mu \in \mathscr{M}(Y; \mathbf{C})$. Khi đó*
 
@@ -272,7 +272,7 @@ $$
 
 Vì mọi hàm trong $\mathscr{K}(X; \mathbf{C})$ (tương ứng $\mathscr{K}(Y; \mathbf{C})$) đều là một tổ hợp tuyến tính của các hàm trong $\mathscr{K}_+(X)$ (tương ứng $\mathscr{K}_+(Y)$), công thức trước vẫn đúng cho $u \in \mathscr{K}(X; \mathbf{C})$ và $v \in \mathscr{K}(Y; \mathbf{C})$; do đó mệnh đề suy ra từ việc $\mathscr{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathscr{K}(Y; \mathbf{C})$ trù mật trong $\mathscr{K}(X \times Y; \mathbf{C})$.
 
-#### Hệ quả {#int-iii-s4-n2-cor-1 .statement}
+#### Hệ quả {#int-iii-s4-n2-cor-1 .statement tag=08OJ}
 
 — *Cho* $\lambda \in \mathscr{M}(X; \mathbf{R}), \ \mu \in \mathscr{M}(Y; \mathbf{R})$. *Khi đó*
 
@@ -295,7 +295,7 @@ $$
 
 Lập luận đối với $(\lambda \otimes \mu)^-$ là tương tự.
 
-#### Mệnh đề 4 {#int-iii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#int-iii-s4-prop-4 .statement tag=08OK}
 
 — *Cho* $\lambda \in \mathscr{M}(X; \mathbf{C}), \ \mu \in \mathscr{M}(Y; \mathbf{C})$. *Khi đó*
 
@@ -339,13 +339,13 @@ Khi đó $g \otimes h \in \mathscr{K}_+(X \times Y) , \ \| g \otimes h \| \leqsl
 
 ### 3. Tính liên tục của các độ đo tích
 
-#### Mệnh đề 5 {#int-iii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#int-iii-s4-prop-5 .statement tag=08OL}
 
 *Với mọi độ đo* $\lambda_0 \in \mathscr{M}(X; \mathbf{C})$, *ánh xạ* $\mu \mapsto \lambda_0 \otimes \mu$ *từ* $\mathscr{M}(Y; \mathbf{C})$ *vào* $\mathscr{M}(X \times Y; \mathbf{C})$ *là liên tục mơ hồ*.
 
 Với mọi hàm $f \in \mathscr{K}(X \times Y; \mathbf{C})$, ta biết rằng hàm $h(y) = \int f(x, y) d\lambda_0(x)$ thuộc $\mathscr{K}(Y; \mathbf{C})$ (No. 1, Bổ đề 2), và $\langle f , \lambda_0 \otimes \mu \rangle = \langle h , \mu \rangle$, do đó suy ra mệnh đề.
 
-#### Mệnh đề 6 {#int-iii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#int-iii-s4-prop-6 .statement tag=08OM}
 
 *Nếu* $\mathscr{M}(X; \mathbf{C}) , \ \mathscr{M}(Y; \mathbf{C})$ *và* $\mathscr{M}(X \times Y; \mathbf{C})$ *được trang bị tôpô hội tụ chặt trên compáct* (§ 1, No. 10), *thì ánh xạ song tuyến tính* $(\lambda, \mu) \mapsto \lambda \otimes \mu$ *từ* $\mathscr{M}(X; \mathbf{C}) \times \mathscr{M}(Y; \mathbf{C})$ *vào* $\mathscr{M}(X \times Y; \mathbf{C})$ *là hypocontinuous đối với tập hợp các tập con bị chặn mơ hồ của* $\mathscr{M}(X; \mathbf{C})$ *và* $\mathscr{M}(Y; \mathbf{C})$ *(TVS, III, § 5, No. 3)*.
 
@@ -374,7 +374,7 @@ $$
 \langle f_1 \otimes f_2 \otimes \cdots \otimes f_n, \mu_1 \otimes \mu_2 \otimes \cdots \otimes \mu_n \rangle = \prod_{i=1}^n \langle f_i, \mu_i \rangle.
 $$
 
-#### Mệnh đề 7 ('tính kết hợp của tích các độ đo') {#int-iii-s4-prop-7 .statement}
+#### Mệnh đề 7 ('tính kết hợp của tích các độ đo') {#int-iii-s4-prop-7 .statement tag=08ON}
 
 —
 *Cho* $(I_k)_{1 \leq k \leq r}$ *là một phân hoạch của khoảng* $[1, n]$ *của* $\mathbf{N}$; *khi đó*
@@ -442,11 +442,11 @@ Bây giờ ta xét một tập tiền thứ tự có hướng $I$, và một *h�
 
 Hiển nhiên $(\mathscr{M}(X_\alpha; \mathbf{C}), (p_{\alpha\beta})_* )$ là một *hệ ngược* các không gian vectơ, và $((p_\alpha)_*)$ là một *hệ ngược* các ánh xạ tuyến tính, điều này biện minh cho định nghĩa sau:
 
-#### Định nghĩa 2 {#int-iii-s4-def-2 .statement}
+#### Định nghĩa 2 {#int-iii-s4-def-2 .statement tag=08OO}
 
 *Một họ* $(\mu_\alpha)_{\alpha \in I}$, *trong đó, với mọi* $\alpha \in I$, $\mu_\alpha$ *là một độ đo trên* $X_\alpha$, *được gọi là một hệ ngược các độ đo nếu, mỗi khi* $\alpha \leq \beta$, $\mu_\alpha = (p_{\alpha\beta})_*(\mu_\beta)$. *Một độ đo* $\mu$ *trên* $X = \lim_{\leftarrow} X_\alpha$ *được gọi là một giới hạn ngược của hệ ngược* $(\mu_\alpha)$ *nếu* $\mu_\alpha = (p_\alpha)_*(\mu)$ *với mọi* $\alpha \in I$.
 
-#### Mệnh đề 8 {#int-iii-s4-prop-8 .statement}
+#### Mệnh đề 8 {#int-iii-s4-prop-8 .statement tag=08OP}
 
 (i) *Nếu một hệ ngược* $(\mu_\alpha)$ *các độ đo trên các* $X_\alpha$ *có một giới hạn ngược, thì giới hạn đó là duy nhất.*
 (ii) *Nếu một hệ ngược* $(\mu_\alpha)$ *có một giới hạn ngược, thì họ các chuẩn* $(\|\mu_\alpha\|)$ *bị chặn.*
@@ -456,7 +456,7 @@ Hiển nhiên $(\mathscr{M}(X_\alpha; \mathbf{C}), (p_{\alpha\beta})_* )$ là m�
 
 (i) Trước hết ta chứng minh bổ đề sau:
 
-#### Bổ đề 3 {#int-iii-s4-lem-3 .statement}
+#### Bổ đề 3 {#int-iii-s4-lem-3 .statement tag=08OQ}
 
 — *Cho F là tập các hàm $f \in \mathscr{C}(X; \mathbf{C})$ có tính chất sau: tồn tại một $\alpha \in I$ và một hàm $f_\alpha \in \mathscr{C}(X_\alpha; \mathbf{C})$ sao cho $f = f_\alpha \circ p_\alpha$. Khi đó F là một không gian con tuyến tính trù mật của $\mathscr{C}(X; \mathbf{C})$.*
 
@@ -501,7 +501,7 @@ vì $p_\alpha$ là toàn ánh. Điều này cho thấy dạng tuyến tính $\la
 
 (iv) Để chứng minh sự tồn tại của $\mu$ thì theo (iii), chỉ cần kiểm tra rằng họ các chuẩn $(\| \mu_\alpha \|)$ bị chặn. Nhưng $\| \mu_\alpha \| = \mu_\alpha(1)$ và, khi $\alpha \leq \beta$, quan hệ $\mu_\alpha = (p_{\alpha \beta})_*(\mu_\beta)$ kéo theo $\mu_\alpha(1) = \mu_\beta(1)$; vì $I$ có hướng, nên các khối lượng toàn phần của mọi độ đo $\mu_\alpha$ do đó đều bằng nhau, do đó có mệnh đề của chúng ta. Hơn nữa, không gian con $F$ hiển nhiên thỏa mãn tính chất (P) của §1, No. 7, Mệnh đề 9, vì vậy độ đo giới hạn ngược $\mu$ của $(\mu_\alpha)$ là dương. Cuối cùng, quan hệ $\mu_\alpha = (p_\alpha)_*(\mu)$ cho thấy như trên rằng $\mu(1) = \mu_\alpha(1)$.
 
-#### Ví dụ {#int-iii-s4-n5-exa-1 .statement}
+#### Ví dụ {#int-iii-s4-n5-exa-1 .statement tag=08OR}
 
 — Cho $(X_\lambda)_{\lambda \in L}$ là một họ các không gian compact; đặt $X = \prod_{\lambda \in L} X_\lambda$ và, với mọi tập con hữu hạn $J$ của $L$, đặt $X_J = \prod_{\lambda \in J} X_\lambda$; ký hiệu bởi $\mathrm{pr}_J : X \to X_J$ và $\mathrm{pr}_{J, K} : X_K \to X_J$ (với $J \subset K$) các phép chiếu chính tắc. Ta biết rằng $(X_J, \mathrm{pr}_{JK})$ là một hệ ngược các không gian compact, và rằng giới hạn ngược của hệ các ánh xạ liên tục $(\mathrm{pr}_J)$ là một *đồng cấu* từ $X$ lên không gian giới hạn ngược $\lim_{\leftarrow} X_J$, cho phép đồng nhất hai không gian này (GT, I, §4, No. 4 và S, III, §7, No. 2, *Nhận xét* 3). Vì các phép chiếu $\mathrm{pr}_{J, K}$ là toàn ánh, từ Mệnh đề 8 suy ra rằng tập hợp $\mathscr{M}(X; \mathbf{C})$ (ứng với $\mathscr{M}_+(X)$) có thể được đồng nhất với tập hợp các hệ ngược $(\mu_J)$ sao cho họ các chuẩn $(\| \mu_J \|)$ bị chặn (ứng với sao cho các $\mu_J$ đều dương, và tất yếu có cùng khối lượng toàn phần).
 
@@ -517,7 +517,7 @@ $$
 
 Cho $(X_\lambda)_{\lambda \in L}$ là một họ các không gian compact, và với mỗi $\lambda \in L$ cho một độ đo $\mu_\lambda$ trên $X_\lambda$. Ta giữ lại các ký hiệu của Ví dụ ở No. 5, để đặc biệt có $\mu_J = \bigotimes_{\lambda \in J} \mu_\lambda$ với mọi tập con hữu hạn $J$ của $L$.
 
-#### Mệnh đề 9 {#int-iii-s4-prop-9 .statement}
+#### Mệnh đề 9 {#int-iii-s4-prop-9 .statement tag=08OS}
 
 *Giả sử rằng tất cả các độ đo $\mu_\lambda$ đều dương và rằng họ $(\mu_\lambda(1))_{\lambda \in L}$ là khả nhân trong $\mathbf{R}_+$ (với tích có thể bằng 0). Khi đó tồn tại một và chỉ một độ đo $\mu$ trên $X$ sao cho, với mọi tập con hữu hạn $J$ của $L$ và mọi hàm $f_J \in \mathscr{C}(X_J; \mathbf{C})$,*
 
@@ -548,7 +548,7 @@ $$
 
 Độ đo $\mu$ được xác định trong Mệnh đề 9 được gọi là *độ đo tích* của họ các độ đo dương $(\mu_\lambda)_{\lambda \in L}$ và được ký hiệu là $\bigotimes_{\lambda \in L} \mu_\lambda$.
 
-#### Hệ quả {#int-iii-s4-n6-cor-1 .statement}
+#### Hệ quả {#int-iii-s4-n6-cor-1 .statement tag=08OT}
 
 *Giả sử rằng các điều kiện của Mệnh đề 9 được thỏa mãn, và gọi $(L_\rho)_{\rho \in R}$ là một phân hoạch của $L$. Khi đó mỗi họ độ đo $(\mu_\lambda)_{\lambda \in L_\rho}$ đều thừa nhận một độ đo tích, họ các độ đo tích $\left( \bigotimes_{\lambda \in L_\rho} \mu_\lambda \right)_{\rho \in R}$ thừa nhận một độ đo tích, và*
 

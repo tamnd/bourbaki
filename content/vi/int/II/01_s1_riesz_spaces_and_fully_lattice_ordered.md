@@ -32,7 +32,7 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 12
-content_sha256: 8683d5018af12062d6e635f916667e3a2b13635267e5f807ec8845184e11fd52
+content_sha256: 9d9af6a8e2386173e9d955a900c5d66de4e0041a9501c1d341671e29809f81ed
 translated_from: content/en/int/II/01_s1_riesz_spaces_and_fully_lattice_ordered.md
 source_content_sha256: 3b9eb027da08c7a53f7df3e86e6b00d1cb2b27951fa304777c39b88f1388325d
 translation_model: gpt-5.4
@@ -58,7 +58,7 @@ Tiên đề (OVS_I) có nghĩa rằng cấu trúc thứ tự và cấu trúc nh�
 
 Tiên đề (OVS_I) kéo theo rằng các quan hệ $x \leq y$ và $x + z \leq y + z$ là tương đương. Tương tự, từ (OVS_{II}) suy ra rằng, với mọi vô hướng $\lambda > 0$, các quan hệ $x \leq y$ và $\lambda x \leq \lambda y$ là tương đương, vì $\lambda^{-1} > 0$ và do đó quan hệ $\lambda x \leq \lambda y$ suy ra $\lambda^{-1}(\lambda x) \leq \lambda^{-1}(\lambda y)$. Vậy có thể nói rằng, trong một không gian vectơ có thứ tự, các phép tịnh tiến và các phép vị tự có tỷ số $> 0$ là các tự đẳng cấu của cấu trúc thứ tự; sự kiện này cũng được diễn đạt bằng cách nói rằng thứ tự là *bất biến* dưới mọi phép tịnh tiến và mọi phép vị tự có tỷ số $> 0$. Hơn nữa, phép đối xứng $x \mapsto -x$ là một đẳng cấu từ cấu trúc thứ tự của E lên cấu trúc thứ tự *đối*.
 
-#### Định nghĩa 1 {#int-ii-s1-def-1 .statement}
+#### Định nghĩa 1 {#int-ii-s1-def-1 .statement tag=08JO}
 
 *Một không gian vectơ có thứ tự được gọi là một không gian Riesz (hay không gian vectơ có thứ tự dàn)*$^1$ *nếu cấu trúc thứ tự của nó là một thứ tự dàn* (nghĩa là, nếu mọi cặp phần tử $x, y$ của E đều có một cận trên đúng $\sup(x, y)$ và một cận dưới lớn nhất $\inf(x, y)$ ).$^2$
 
@@ -67,7 +67,7 @@ Tiên đề (OVS_I) kéo theo rằng các quan hệ $x \leq y$ và $x + z \leq y
 
 (2) Borne supérieure (supremum) cũng được dịch là "least upper bound" (S, R, §6, 7). Tương tự, borne inférieure (infimum) cũng được dịch là "greatest lower bound".
 
-#### Ví dụ {#int-ii-s1-n1-exa-1 .statement}
+#### Ví dụ {#int-ii-s1-n1-exa-1 .statement tag=08JP}
 
 Không gian $\mathbf{R}^A$ của mọi hàm thực xác định trên một tập hợp bất kỳ $A$ là một không gian Riesz (đối với quan hệ thứ tự $\langle x(t) \leq y(t) \text{ với mọi } t \in A \rangle$); vì, mọi cặp hàm thực $x, y$ xác định trên $A$ đều có một cận trên đúng (resp. một cận dưới lớn nhất) bằng ánh xạ $t \mapsto \sup(x(t), y(t))$ (resp. $t \mapsto \inf(x(t), y(t))$).
 
@@ -158,19 +158,19 @@ b) mọi cặp phần tử của P đều có một infimum trong P (A, VI, §1,
 
 ### 3. Các không gian được sắp dàn đầy đủ
 
-#### Định nghĩa 2 {#int-ii-s1-def-2 .statement}
+#### Định nghĩa 2 {#int-ii-s1-def-2 .statement tag=08JQ}
 
 *Một không gian Riesz E được gọi là được sắp dàn đầy đủ nếu mọi tập con khác rỗng của E bị chặn trên đều có một supremum trong E.*
 
 Ngay lập tức suy ra rằng trong một không gian được sắp dàn đầy đủ E, mọi tập con khác rỗng bị chặn dưới đều có một infimum trong E.
 
-#### Ví dụ {#int-ii-s1-n3-exa-1 .statement}
+#### Ví dụ {#int-ii-s1-n3-exa-1 .statement tag=08JR}
 
 — 1) Nếu A là một tập hợp bất kỳ, không gian $\mathbf{R}^A$ các hàm thực xác định trên A là được sắp dàn đầy đủ, supremum trong $\mathbf{R}^A$ của một họ bị chặn trên là *bao trên* của nó (GT, IV, §5, No. 5).
 
 2) Cho F là một tập hợp bất kỳ; không gian $\mathscr{B}(F)$ các hàm thực *bị chặn* trên F, được trang bị cấu trúc thứ tự cảm sinh bởi cấu trúc của $\mathbf{R}^F$, là một không gian được sắp thứ tự dàn đầy đủ. Tuy nhiên, nếu F là một không gian tôpô, thì không gian $\mathscr{C}(F)$ các hàm thực *liên tục* trên F (được trang bị cấu trúc thứ tự cảm sinh bởi cấu trúc của $\mathbf{R}^F$) là một không gian Riesz mà nói chung không được sắp thứ tự dàn đầy đủ (x. Bài tập 13). Chẳng hạn xét trường hợp $F = \mathbf{R}$; đặt I là khoảng ]0, 1[, $\varphi_I$ là hàm đặc trưng của I, và H là tập hợp các hàm liên tục $x(t)$ sao cho $x \leq \varphi_I$; hiển nhiên H bị chặn trên trong $\mathscr{C}(F)$. Hàm $\varphi_I$ là *bao trên* của các $x \in H$, nhưng nó không phải là cận trên bé nhất của chúng trong $\mathscr{C}(F)$, vì $\varphi_I$ là nửa liên tục dưới nhưng không liên tục. Ta hãy chỉ ra rằng thật ra H không có cận trên bé nhất trong $\mathscr{C}(F)$; chỉ cần chứng minh rằng nếu $u$ là một hàm liên tục sao cho $u \geq \varphi_I$, thì tồn tại một hàm liên tục $v \neq u$ sao cho $u \geq v \geq \varphi_I$. Thật vậy, $u(0) \geq 1$, do đó tồn tại một số $\alpha > 0$ sao cho $u(t) > 0$ với $-\alpha \leq t \leq 0$; nếu w là một hàm liên tục bằng không ở ngoài khoảng ]$-\alpha, 0$ và sao cho $0 < w(t) < u(t)$ trên khoảng này, thì hàm $v = u - w$ thỏa mãn các yêu cầu.
 
-#### Mệnh đề 1 {#int-ii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#int-ii-s1-prop-1 .statement tag=08JS}
 
 *Để một không gian vectơ có thứ tự E được sắp thứ tự dàn đầy đủ, điều kiện cần và đủ là E là một không gian Riesz và thỏa mãn một trong hai điều kiện sau đây:*
 
@@ -182,7 +182,7 @@ Các điều kiện ấy hiển nhiên là cần thiết. Ngược lại, giả 
 
 Mặt khác, điều kiện *b)* kéo theo *a)*: thật vậy, nếu $F$ là một tập khác rỗng gồm các phần tử $\geqslant 0$ của $E$, bị chặn trên và có hướng đối với $\leqslant$, và nếu $c$ là một cận trên của $F$, thì $c - F$ là một tập các phần tử $\geqslant 0$ có hướng đối với $\geqslant$; nếu nó có cận dưới đúng $m$, thì $c - m$ là cận trên đúng của $F$.
 
-#### Mệnh đề 2 {#int-ii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#int-ii-s1-prop-2 .statement tag=08JT}
 
 — *Cho* $E$ *là một không gian Riesz được trang bị một tôpô Hausdorff tương thích với cấu trúc không gian vectơ có thứ tự của nó* (TVS, II, §2, No. 7). *Nếu, với mọi tập* $H \subset E$ *bị chặn trên và có hướng đối với quan hệ* $\leqslant$, *bộ lọc tiết diện của* $H$ *là hội tụ, thì* $E$ *được sắp thứ tự dàn đầy đủ*.
 
@@ -198,7 +198,7 @@ Hơn nữa, nếu $H$ là một không gian Riesz (được sắp thứ tự dà
 
 Cho $(E_\iota)_{\iota \in I}$ là một họ bất kỳ các không gian vectơ có thứ tự. Nhắc lại rằng, trong không gian tích $E = \prod_{\iota \in I} E_\iota$, quan hệ thứ tự *tích* của các quan hệ thứ tự của các không gian nhân tử là quan hệ $« x_\iota \leqslant y_\iota \text{ với mọi } \iota \in I »$ (S, III, §1, No. 4). Người ta kiểm tra ngay lập tức rằng quan hệ này tương thích với cấu trúc không gian vectơ của E; E, được trang bị cấu trúc này, được gọi là không gian tích của các không gian có thứ tự $E_\iota$.
 
-#### Mệnh đề 3 {#int-ii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#int-ii-s1-prop-3 .statement tag=08JU}
 
 *Cho $(E_\iota)_{\iota \in I}$ là một họ các không gian vectơ có thứ tự. Điều kiện cần và đủ để không gian tích $E = \prod_{\iota \in I} E_\iota$ là một không gian Riesz (tương ứng, một không gian được sắp thứ tự dàn đầy đủ) là mỗi không gian $E_\iota$ đều là một không gian Riesz (tương ứng, một không gian được sắp thứ tự dàn đầy đủ).*
 
@@ -206,11 +206,11 @@ Ta chỉ xét trường hợp các không gian có thứ tự dàn đầy đủ.
 
 Ngược lại, giả sử $E$ có thứ tự dàn đầy đủ. Cho $A_\kappa$ là một tập con của $E_\kappa$ bị chặn trên, $A'_\kappa$ là tập con của $E$ gồm các $x = (x_\iota)$ sao cho $x_\kappa \in A_\kappa$ và $x_\iota = 0$ với $\iota \neq \kappa$. Ngay lập tức thấy rằng $A'_\kappa$ bị chặn trên trong $E$, nên có một cận trên đúng $b = (b_\iota)$; theo định nghĩa của quan hệ thứ tự tích, tất yếu $b_\iota = 0$ với $\iota \neq \kappa$, và $b_\kappa$ là cận trên đúng của $A_\kappa$, điều này hoàn tất chứng minh.
 
-#### Định nghĩa 3 {#int-ii-s1-def-3 .statement}
+#### Định nghĩa 3 {#int-ii-s1-def-3 .statement tag=08JV}
 
 *Cho $E$ là một không gian vectơ có thứ tự, $V$ và $W$ là hai không gian con tuyến tính bù nhau của $E$. Người ta nói rằng $E$ là tổng trực tiếp có thứ tự của $V$ và $W$ nếu ánh xạ chính tắc $(x, y) \mapsto x + y$ từ không gian vectơ có thứ tự $V \times W$ lên không gian vectơ có thứ tự $E$ là một đẳng cấu.*
 
-#### Mệnh đề 4 {#int-ii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#int-ii-s1-prop-4 .statement tag=08JW}
 
 *Để một không gian vectơ có thứ tự $E$ là tổng trực tiếp có thứ tự của hai không gian con tuyến tính bù nhau $V, W$, điều kiện cần và đủ là các quan hệ $x \in V, y \in W, x + y \geq 0$ kéo theo $x \geq 0$ và $y \geq 0$.*
 
@@ -218,15 +218,15 @@ Vì $x \geq 0$ và $y \geq 0$ kéo theo $x + y \geq 0$ trong $E$, điều kiện
 
 ### 5. Các dải trong một không gian có thứ tự dàn đầy đủ
 
-#### Định nghĩa 4 {#int-ii-s1-def-4 .statement}
+#### Định nghĩa 4 {#int-ii-s1-def-4 .statement tag=08JX}
 
 *Trong một không gian dàn có thứ tự đầy đủ $E$, một không gian con tuyến tính $B$ của $E$ được gọi là một dải nếu nó thỏa mãn các điều kiện sau: 1) các quan hệ $x \in B, y \in E$ và $|y| \leq |x|$ kéo theo $y \in B$; 2) với mọi tập con khác rỗng $X$ của $B$ bị chặn trên trong $E$, cận trên đúng $\sup X$ của $X$ trong $E$ thuộc về $B$.*
 
-#### Ví dụ {#int-ii-s1-n5-exa-1 .statement}
+#### Ví dụ {#int-ii-s1-n5-exa-1 .statement tag=08JY}
 
 Trong không gian $\mathbf{R}^A$ các hàm thực xác định trên một tập hợp $A$, tập hợp các hàm bằng không tại mọi điểm của một tập con $M$ của $A$ là một dải.
 
-#### Nhận xét {#int-ii-s1-n5-rem-1 .statement}
+#### Nhận xét {#int-ii-s1-n5-rem-1 .statement tag=08JZ}
 
 Trong không gian $\mathbf{R}^A$, không gian con $\mathscr{B}(A)$ các hàm thực bị chặn trên $A$ thỏa mãn điều kiện 1) của Định nghĩa 4; hơn nữa, với mọi tập con $X$ của $\mathscr{B}(A)$ bị chặn trên *trong* $\mathscr{B}(A)$, bao trên của $X$ thuộc về $\mathscr{B}(A)$. Tuy nhiên, nếu $A$ là vô hạn, một tập con của $\mathscr{B}(A)$ có thể *bị chặn trên trong* $\mathbf{R}^A$ *mà không bị chặn trên trong* $\mathscr{B}(A)$; trong trường hợp đó $\mathscr{B}(A)$ không phải là một dải trong $\mathbf{R}^A$.
 
@@ -236,13 +236,13 @@ Giao của một họ bất kỳ các dải trong một không gian dàn có th�
 
 Các tính chất của các dải trong một không gian dàn có thứ tự đầy đủ dựa trên mệnh đề sau:
 
-#### Mệnh đề 5 {#int-ii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#int-ii-s1-prop-5 .statement tag=08K0}
 
 — *Cho $E$ là một không gian có thứ tự dàn đầy đủ, $A$ là một tập con không rỗng của $E$ gồm các phần tử $\geqslant 0$, sao cho: 1) $A + A \subset A$, và 2) các quan hệ $x \in A,\ 0 \leqslant y \leqslant x$ kéo theo $y \in A$. Gọi $M$ là tập các cận trên đúng trong $E$ của những tập con của $A$ bị chặn trên trong $E$. Với các điều kiện đó, mọi phần tử $x \geqslant 0$ của $E$ đều có thể viết dưới dạng $y + z$, trong đó $y \in M$ là cận trên đúng của các phần tử $v \in A$ sao cho $v \leqslant x$, và $z$ là một phần tử $\geqslant 0$ rời với mọi phần tử của $M$.*
 
 Dù sao thì $y \leqslant x$, nên việc còn lại chỉ là chỉ ra rằng $z = x - y$ rời với mọi phần tử $t \in A$ (No. 1), nói cách khác, $u = \inf(z, t)$ bằng không. Theo giả thiết, $u \in A$ và $u \leqslant x - y$, do đó $u + y \leqslant x$; với mọi $v \in A$ sao cho $v \leqslant x$, theo định nghĩa ta có $v \leqslant y$, do đó $u + v \leqslant u + y \leqslant x$; vì $u + v \in A$ theo giả thiết, nên cũng có $u + v \leqslant y$ theo định nghĩa của $y$; sau hết, vì $u + y$ là cận trên đúng trong $E$ của các phần tử $u + v$ sao cho $v \in A$ và $v \leqslant x$, nên ta có $u + y \leqslant y$, do đó $u \leqslant 0$, điều này hoàn tất chứng minh.
 
-#### Định lý 1 (F. Riesz) {#int-ii-s1-thm-1 .statement}
+#### Định lý 1 (F. Riesz) {#int-ii-s1-thm-1 .statement tag=08K1}
 
 — *Cho $A$ là một tập con của một không gian có thứ tự dàn đầy đủ $E$. Tập $A'$ gồm các phần tử rời với mọi phần tử của $A$ là một dải; dải $A''$ gồm các phần tử rời với mọi phần tử của $A'$ là đồng nhất với dải sinh bởi $A$, và $E$ là tổng trực tiếp có thứ tự của các dải $A'$ và $A''$.*
 
@@ -252,13 +252,13 @@ Còn phải chỉ ra rằng $A''$ đồng nhất với dải $B$ sinh bởi $A$.
 
 Định lý 1 và Mệnh đề 5 cho phép đưa ra một định nghĩa khác của dải sinh bởi một tập hợp các phần tử của $E$:
 
-#### Mệnh đề 6 {#int-ii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#int-ii-s1-prop-6 .statement tag=08K2}
 
 — *Cho $E$ là một không gian dàn đầy đủ, $M$ là một tập con của $E$, và $B$ là dải sinh bởi $M$. Gọi $M_1$ là tập hợp các phần tử $\geqslant 0$ của $E$ mà mỗi phần tử đều $\leqslant$ một phần tử nào đó có dạng $\sum_i |x_i|$, với $x_i \in M$; gọi $M_2$ là tập hợp các cận trên đúng của những tập con của $M_1$ bị chặn trên; khi đó tập hợp $M_2$ đồng nhất với tập hợp các phần tử $\geqslant 0$ của $B$.*
 
 Rõ ràng $M_2 \subset B$ theo định nghĩa của một dải; mặt khác, nếu $B'$ là dải các phần tử rời với mọi phần tử của $M_1$, Định lý 1 cho thấy rằng $E$ là tổng trực tiếp có thứ tự của $B$ và $B'$. Nhưng Mệnh đề 5 cho thấy rằng mọi phần tử $\geqslant 0$ của $E$ đều là tổng của một phần tử của $M_2$ và một phần tử của $B'$, do đó mệnh đề được chứng minh.
 
-#### Hệ quả {#int-ii-s1-n5-cor-1 .statement}
+#### Hệ quả {#int-ii-s1-n5-cor-1 .statement tag=08K3}
 
 — *Cho $a$ là một phần tử của một không gian có thứ tự dàn đầy đủ $E$, $B_a$ là dải sinh bởi $a$, $B'_a$ là dải các phần tử rời với $a$. Với mọi phần tử $x \geqslant 0$ của $E$, thành phần của $x$ trong $B_a$ (đối với phân tích của $E$ thành tổng trực tiếp có thứ tự của $B_a$ và $B'_a$) bằng $\sup_{n \in \mathbf{N}} (\inf(n|a|, x))$.*
 

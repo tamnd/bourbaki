@@ -49,7 +49,7 @@ subsections:
       pdf_page: 86
 statements: 39
 exercises: 9
-content_sha256: 89b20b9fd560d914e6238bcbeaf626fc3d20e104e0368e014572c1a4af3bd3e1
+content_sha256: 9f4b3259d05df0ba05cb02a7d0174347156acc88716712e126e2f57d8b2ee531
 translated_from: content/en-mt/alg/X/04_s4_produits_de_torsion.md
 source_lang: en-mt
 translation_method: machine
@@ -97,11 +97,11 @@ $$
 
 Phức của các môđun $k$ $(C\otimes_A C',D)$ được gọi là *phức tích tenxơ* của các phức $(C,d)$ và $(C',d')$.
 
-#### Nhận xét 1 {#alg-x-s4-n1-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s4-n1-rem-1 .statement tag=0DV2}
 
 Khi $C'$ thu gọn thành $C'_0=M$, thì $(C\otimes_A C')_n=C_n\otimes_A M$ và $D=d\otimes 1_M$; ví dụ $C\otimes_A A_s$ được đồng nhất một cách tự nhiên với $C$. Tương tự, khi $C$ thu gọn thành $C_0=P$, thì $(C\otimes_A C')_n=P\otimes_A C'_n$ và $D=1_P\otimes d$.
 
-#### Nhận xét 2 {#alg-x-s4-n1-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s4-n1-rem-2 .statement tag=0DV3}
 
 Với mọi số nguyên $r$, ta có $(C\otimes_A C')(r)=C(r)\otimes_A C'$, nhưng nói chung $(C\otimes_A C')(r)$ và $C\otimes_A C'(r)$ không có cùng vi phân.
 
@@ -123,7 +123,7 @@ $$
 $$
 Mệnh đề 6 của II, p. 59, có thể được phát biểu lại như sau:
 
-#### Mệnh đề 1 {#alg-x-s4-prop-1 .statement}
+#### Mệnh đề 1 {#alg-x-s4-prop-1 .statement tag=0DV4}
 
 *Nếu các phức $C$ và $C'$ bằng không ở bên phải, thì $C \otimes_A C'$ bằng không ở bên phải và ánh xạ tuyến tính trên $k$ chính tắc*
 $$
@@ -154,7 +154,7 @@ $$
 \sigma(C, C') (x \otimes x') = (-1)^{pq} x' \otimes x .
 $$
 
-#### Mệnh đề 2 {#alg-x-s4-prop-2 .statement}
+#### Mệnh đề 2 {#alg-x-s4-prop-2 .statement tag=0DV5}
 
 Ánh xạ $\sigma(C, C') : C \otimes_A C' \to {C'}^\circ \otimes_A C^\circ$ là một đẳng cấu của các phức của $k$-môđun, mà đẳng cấu ngược là $\sigma({C'}^\circ, C^\circ)$.
 
@@ -214,11 +214,11 @@ $$
 \gamma((C^{(i)})) : \bigotimes_{i \in I} H(C^{(i)}) \to H \left( \bigotimes_{i \in I} C^{(i)} \right)
 $$
 
-#### Nhận xét 3 {#alg-x-s4-n1-rem-3 .statement}
+#### Nhận xét 3 {#alg-x-s4-n1-rem-3 .statement tag=0DV6}
 
 Có thể định nghĩa tích tenxơ của một họ hữu hạn các phức mà không trang bị cho tập hợp chỉ số một thứ tự toàn phần (X, p. 185, Bài tập 3).
 
-#### Nhận xét 4 {#alg-x-s4-n1-rem-4 .statement}
+#### Nhận xét 4 {#alg-x-s4-n1-rem-4 .statement tag=0DV7}
 
 Giả sử mỗi $C^{(i)}$ được trang bị một cấu trúc đại số phân bậc tương thích với cấu trúc phân bậc của nó và sao cho các $d^{(i)}$ là các phản đạo hàm (III, p. 117). Khi đó ta trang bị $\bigotimes_{i \in I} C^{(i)}$ cấu trúc đại số tích tenxơ phân bậc trái của các cấu trúc đã cho (III, p. 49). Khi đó $D$ là một phản đạo hàm. Thật vậy, sử dụng tính kết hợp của tích tenxơ, ta có thể giả sử rằng $I = \{1, 2\}$; khi đó cho $p_1,\ q_1,\ p_2,\ q_2 \in \mathbf{Z},\ x_1 \in (C^{(1)})_{p_1},\ y_1 \in (C^{(1)})_{q_1},\ x_2 \in (C^{(2)})_{p_2},\ y_2 \in (C^{(2)})_{q_2}$; ta có
 
@@ -252,7 +252,7 @@ $$
 
 ### 2. Tích tenxơ và đồng luân
 
-#### Mệnh đề 3 {#alg-x-s4-prop-3 .statement}
+#### Mệnh đề 3 {#alg-x-s4-prop-3 .statement tag=0DV8}
 
 Cho $C,\ C_1$ là hai phức của các $A$-môđun phải, $C',\ C'_1$ là hai phức của các $A$-môđun trái, và $u : C \to C_1,\ v : C \to C_1,\ u' : C' \to C'_1,\ v' : C' \to C'_1$ là các xạ của các phức.
 
@@ -293,7 +293,7 @@ $$
 
 Ta chứng minh b). Nếu $u$ và $u'$ là các tương đương đồng luân, thì tồn tại các đồng cấu của các phức $\alpha:C_1\to C$ và $\alpha':C'_1\to C'$ sao cho $u\circ\alpha,\ \alpha\circ u',\ \alpha'\circ u'$ lần lượt đồng luân với $\mathrm{Id}_{C_1},\ \mathrm{Id}_C,\ \mathrm{Id}_{C'_1},\ \mathrm{Id}_{C'}$. Khi đó $(u\otimes u')\circ(\alpha\otimes\alpha')$, bằng $(u\circ\alpha)\otimes(u'\circ\alpha')$, là đồng luân theo a) với $\mathrm{Id}_{C_1}\otimes\mathrm{Id}_{C'_1}=\mathrm{Id}_{C_1\otimes C'_1}$, trong khi $(\alpha\otimes\alpha')\circ(u\otimes u')$ đồng luân với $\mathrm{Id}_{C\otimes C'}$, do đó b). Cuối cùng, c) suy ra từ b) áp dụng vào trường hợp $C_1$ hoặc $C'_1$ là không.
 
-#### Hệ quả 1 {#alg-x-s4-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s4-prop-3-cor-1 .statement tag=0DV9}
 
 Cho $C'$ là một phức tách của các $A$-môđun trái sao cho $H(C')$ là phẳng. Với mọi phức $C$ của các $A$-môđun phải, ánh xạ chính tắc
 
@@ -331,7 +331,7 @@ $$
 
 Vì $d=i\circ j\circ\delta$, ta có $D=d\otimes 1_{C'}=(i\otimes 1)\circ(j\otimes 1)\circ(\delta\otimes 1)$, điều này chỉ ra rằng các ánh xạ chính tắc $Z(C)\otimes_A C'\to Z(C\otimes_A C')$ và $B(C)\otimes_A C'\to B(C\otimes_A C')$ là song ánh, do đó $\gamma(C,C')$ cũng vậy bằng cách chuyển qua thương.
 
-#### Hệ quả 2 {#alg-x-s4-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s4-prop-3-cor-2 .statement tag=0DVA}
 
 Cho $\mathbf N$ là một $A$-môđun trái phẳng. Với mọi phức $C$ của các $A$-môđun phải, các đồng cấu chính tắc
 
@@ -341,23 +341,23 @@ $$
 
 là song ánh.
 
-#### Hệ quả 3 {#alg-x-s4-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#alg-x-s4-prop-3-cor-3 .statement tag=0DVB}
 
 Cho $C'$ là một phức của các $A$-môđun trái sao cho $B(C')$ và $H(C')$ là xạ ảnh. Với mọi phức $C$ của các $A$-môđun phải, ánh xạ $\gamma(C,C')$ là song ánh.
 
 Thật vậy, $C'$ là tách (X, p. 35, ví dụ 4) và $H(C')$ là xạ ảnh; do đó ta có thể áp dụng hệ quả 1.
 
-#### Nhận xét 1 {#alg-x-s4-n2-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s4-n2-rem-1 .statement tag=0DVC}
 
 Sử dụng các đẳng cấu giao hoán, từ các hệ quả 1, 2 và 3 ta suy ra các mệnh đề tương tự thu được bằng cách hoán đổi vai trò của hai đối số của các tích tenxơ.
 
-#### Nhận xét 2 {#alg-x-s4-n2-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s4-n2-rem-2 .statement tag=0DVD}
 
 Ta sẽ thấy dưới đây (X, p. 79, Hệ quả 4) rằng kết luận của Hệ quả 1 cũng đúng khi giả sử $C'$ và $H(C')$ phẳng và $C'$ bị chặn về phía phải.
 
 ### 3. Tích tenxơ bởi một phức phẳng bị chặn về phía phải
 
-#### Bổ đề 1 {#alg-x-s4-lem-1 .statement}
+#### Bổ đề 1 {#alg-x-s4-lem-1 .statement tag=0DVE}
 
 Cho C là một phức của các $A$-môđun phải và E là một phức của các $A$-môđun trái. Ta giả sử rằng $H(C)=0$ và rằng E là phẳng và bị chặn về phía phải. Khi đó $H(C\otimes_A E)=0$.
 
@@ -375,7 +375,7 @@ $$
 
 trong đó $i_k$ là đơn ánh chính tắc và $\pi$ chiếu tổng trực tiếp trước đó lên nhân tử của nó $C_{n-k}\otimes_A E_k=(C\otimes_A E_k(-k))_n$. Theo Hệ quả 2 ở trên, ta có $H(C\otimes_A E_k(-k))=0$, do đó $i_k$ là một đồng cấu. Ta có $T^{(k)}=0$ với $k$ đủ nhỏ, vì E bị chặn về phía phải, do đó $H(T^{(k)})=0$ với mọi $k$ theo quy nạp trên $k$. Cuối cùng, cấu xạ chính tắc $\underset{\longrightarrow}{\lim}\,T^{(k)}\to C\otimes_A E$ hiển nhiên là một đẳng cấu, do đó $H(C\otimes_A E)=0$ (X, p. 28, Mệnh đề 1).
 
-#### Bổ đề 2 {#alg-x-s4-lem-2 .statement}
+#### Bổ đề 2 {#alg-x-s4-lem-2 .statement tag=0DVF}
 
 Nếu $u:C\to C'$ là một cấu xạ của các phức của $A$-môđun phải và E là một phức của các $A$-môđun trái, thì các phức $\operatorname{Con}(u)\otimes_A E$ và $\operatorname{Con}(u\otimes 1_E)$ là đẳng cấu.
 
@@ -398,7 +398,7 @@ $$
 
 do đó có mệnh đề.
 
-#### Mệnh đề 4 {#alg-x-s4-prop-4 .statement}
+#### Mệnh đề 4 {#alg-x-s4-prop-4 .statement tag=0DVG}
 
 Cho $u:C\to C'$ là một đẳng cấu đồng điều của các phức của $A$-môđun phải và E là một phức của các $A$-môđun trái, phẳng và bị chặn về phía phải. Khi đó
 
@@ -410,7 +410,7 @@ là một đẳng cấu đồng điều của các phức của $k$-môđun.
 
 Thật vậy, theo X, p. 38, Hệ quả, $u$ (tương ứng $u\otimes 1_E$) là một đẳng cấu đồng điều khi và chỉ khi $H(\operatorname{Con}(u))=0$ (tương ứng $H(\operatorname{Con}(u\otimes 1_E))=0$). Kết luận suy ra từ các Bổ đề 1 và 2.
 
-#### Nhận xét {#alg-x-s4-n3-rem-1 .statement}
+#### Nhận xét {#alg-x-s4-n3-rem-1 .statement tag=0DVH}
 
 Sử dụng các đẳng cấu giao hoán, từ các mệnh đề trước đó ta suy ra các mệnh đề tương tự thu được bằng cách hoán đổi vai trò của hai đối số của các tích tenxơ.
 
@@ -418,7 +418,7 @@ Sử dụng các đẳng cấu giao hoán, từ các mệnh đề trước đó 
 
 Với mọi A-môđun $E$, ta ký hiệu bởi $p_E:L(E)\to E$ phân giải tự do chính tắc của $E$ (X, p. 50).
 
-#### Định nghĩa 1 {#alg-x-s4-def-1 .statement}
+#### Định nghĩa 1 {#alg-x-s4-def-1 .statement tag=0DVI}
 
 Cho $M$ là một A-môđun phải và $N$ là một A-môđun trái. Ta gọi tích xoắn của $M$ và $N$ là môđun $k$ phân bậc
 
@@ -441,7 +441,7 @@ $$
 \operatorname{Tor}_n^A(M, N) = 0 \quad \text{cho } n < 0 .
 $$
 
-#### Nhận xét 1 {#alg-x-s4-n4-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s4-n4-rem-1 .statement tag=0DVJ}
 
 Ta sẽ thấy dưới đây (X, p. 107, Mệnh đề 6) các tính chất hữu hạn của các môđun $\operatorname{Tor}^A(M, N)$. Chẳng hạn, nếu $A$ là giao hoán Noether và nếu $M$ và $N$ là các $A$-môđun kiểu hữu hạn, thì mọi $A$-môđun $\operatorname{Tor}_n^A(M, N)$ đều là kiểu hữu hạn.
 
@@ -472,7 +472,7 @@ $$
 
 Ta sẽ luôn đồng nhất $\operatorname{Tor}_0^A(M, N)$ với $M \otimes_A N$ qua đẳng cấu này. Do đó ánh xạ tuyến tính $k$ $\operatorname{Tor}_0^A(f, g)$ được đồng nhất với $f \otimes g$.
 
-#### Nhận xét 2 {#alg-x-s4-n4-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s4-n4-rem-2 .statement tag=0DVK}
 
 Cấu xạ phức $p_M \otimes p_N : L(M) \otimes_A L(N) \to M \otimes_A N$ cảm sinh trên đồng điều bậc 0 đẳng cấu
 
@@ -510,7 +510,7 @@ $$
 
 theo Mệnh đề 4 của X, p. 67, $1 \otimes p_N$ và $p_M \otimes 1$ là các cấu xạ đồng điều. Do đó:
 
-#### Mệnh đề 5 {#alg-x-s4-prop-5 .statement}
+#### Mệnh đề 5 {#alg-x-s4-prop-5 .statement tag=0DVL}
 
 **Các đồng cấu $k$**
 
@@ -523,13 +523,13 @@ $$
 
 là *song ánh*.
 
-#### Hệ quả {#alg-x-s4-n4-cor-3 .statement}
+#### Hệ quả {#alg-x-s4-n4-cor-3 .statement tag=0DVM}
 
 **Nếu $M$ hoặc $N$ là phẳng, $\mathrm{Tor}_i^A(M, N) = 0$ với $i \geqslant 0$.**
 
 Giả sử $N$ (resp. $M$) là phẳng. Khi đó $p_M \otimes 1 : L(M) \otimes_A N \to M \otimes_A N$ (resp. $1 \otimes p_N : M \otimes_A L(N) \to M \otimes_A N$) là một cấu xạ đồng luân (X, p. 67, Mệnh đề 4), do đó $H_i(L(M) \otimes_A N)$ (resp. $H_i(M \otimes_A L(N))$) triệt tiêu với $i > 0$.
 
-#### Nhận xét 3 {#alg-x-s4-n4-rem-3 .statement}
+#### Nhận xét 3 {#alg-x-s4-n4-rem-3 .statement tag=0DVN}
 
 *Nếu $g : N \to N'$ là một đồng cấu của các môđun trái A, thì*
 
@@ -559,7 +559,7 @@ $$
 \end{array}
 $$
 
-#### Mệnh đề 6 {#alg-x-s4-prop-6 .statement}
+#### Mệnh đề 6 {#alg-x-s4-prop-6 .statement tag=0DVO}
 
 **Ánh xạ** $(f, g) \mapsto \mathrm{Tor}^A(f, g) :$
 
@@ -583,13 +583,13 @@ $$
 
 Ta lập luận tương tự đối với ánh xạ $f \mapsto \mathrm{Tor}^A(f, g)$.
 
-#### Hệ quả {#alg-x-s4-n4-cor-1 .statement}
+#### Hệ quả {#alg-x-s4-n4-cor-1 .statement tag=0DVP}
 
 *Cho $\lambda \in k$. Nếu $\lambda$ triệt tiêu $M$ hoặc $N$, thì nó triệt tiêu $\mathrm{Tor}^A(M, N)$.*
 
 Thật vậy, $\lambda . 1_{\mathrm{Tor}(M, N)} = \mathrm{Tor}(\lambda . 1_M, 1_N) = \mathrm{Tor}(1_M, \lambda . 1_N)$.
 
-#### Mệnh đề 7 {#alg-x-s4-prop-7 .statement}
+#### Mệnh đề 7 {#alg-x-s4-prop-7 .statement tag=0DVQ}
 
 *Cho I và J là hai tập hợp, $(M_\alpha)_{\alpha \in I}$ là một họ các môđun phải A, $(N_\beta)_{\beta \in J}$ là một họ các môđun trái A. Đồng cấu*
 
@@ -617,7 +617,7 @@ $$
 
 Một lập luận tương tự cho :
 
-#### Mệnh đề 8 {#alg-x-s4-prop-8 .statement}
+#### Mệnh đề 8 {#alg-x-s4-prop-8 .statement tag=0DVR}
 
 *Cho I (resp. J) là một tập tiền thứ tự lọc phải, (($M_\alpha$, $u_{\alpha', \alpha}$) (resp. (($N_\beta$, $v_{\beta', \beta}$))) là một hệ quy nạp các môđun phải A (resp. trái) tương ứng với I (resp. J). Đồng cấu của các môđun k phân bậc*
 
@@ -629,7 +629,7 @@ $$
 
 Đặc biệt, lấy $J = I$ và nhận xét rằng $(\alpha, \alpha), \alpha \in I$, tạo thành một tập con đồng cuối của $I \times I$, ta thu được :
 
-#### Hệ quả {#alg-x-s4-n4-cor-2 .statement}
+#### Hệ quả {#alg-x-s4-n4-cor-2 .statement tag=0DVS}
 
 Cho I là một tập tiền thứ tự lọc phải, $(M_i, u_{ji})$ (resp. $(N_i, v_{ji})$) là một hệ quy nạp các môđun phải $A$ (resp. trái) tương ứng với I. Đồng cấu của các môđun $k$ phân bậc
 
@@ -685,7 +685,7 @@ $$
 
 đồng cấu liên kết tương ứng (X, p. 29).
 
-#### Định nghĩa 2 {#alg-x-s4-def-2 .statement}
+#### Định nghĩa 2 {#alg-x-s4-def-2 .statement tag=0DVT}
 
 Đồng cấu liên kết của các tích xoắn, tương ứng với môđun $M$ và dãy khớp $\mathscr{E}$, là đồng cấu hợp thành
 
@@ -695,7 +695,7 @@ $$
 
 Đây là một $k$-đồng cấu phân bậc bậc $-1$, các thành phần thuần nhất của nó được ký hiệu là $\partial_n(M, \mathscr{E}) : \mathrm{Tor}_n^A(M, N'') \to \mathrm{Tor}_{n-1}^A(M, N')$.
 
-#### Định lý 1 {#alg-x-s4-thm-1 .statement}
+#### Định lý 1 {#alg-x-s4-thm-1 .statement tag=0DVU}
 
 Dãy vô hạn về bên trái của các $k$-đồng cấu môđun
 
@@ -723,7 +723,7 @@ $$
 
 Nó giao hoán theo (X, p. 69, Nhận xét 3) và Định nghĩa 2. Hơn nữa, hàng dưới là khớp (X, p. 30, Định lý 1), và các $\psi_M$ khác nhau là các song ánh (X, p. 69, prop. 5).
 
-#### Hệ quả 1 {#alg-x-s4-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s4-thm-1-cor-1 .statement tag=0DVV}
 
 Nếu $\mathrm{Tor}_1^A(M, N'') = 0$, dãy
 
@@ -733,7 +733,7 @@ $$
 
 là khớp.
 
-#### Hệ quả 2 {#alg-x-s4-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s4-thm-1-cor-2 .statement tag=0DVW}
 
 Cho $0 \to C' \xrightarrow{u} C \xrightarrow{v} C'' \to 0$ là một dãy khớp của các phức các $A$-môđun trái, và cho $E$ là một phức các $A$-môđun phải. Nếu $C''$ hoặc $E$ là phẳng, dãy
 
@@ -745,7 +745,7 @@ là khớp.
 
 Thật vậy, $\mathrm{Tor}_1^A(E, C'') = 0$ theo X, p. 69, Hệ quả của prop. 5.
 
-#### Ví dụ {#alg-x-s4-n5-exa-1 .statement}
+#### Ví dụ {#alg-x-s4-n5-exa-1 .statement tag=0DVX}
 
 Cho $a$ là một iđêan của $A$. Dãy khớp
 
@@ -769,7 +769,7 @@ suy ra rằng $\operatorname{Tor}_1^A(M, A/\alpha)$ được đồng nhất vớ
 
 Ví dụ, lấy M là một môđun có dạng $A_d/b$, trong đó b là một iđêan phải của A, ta thu được một đẳng cấu của $\operatorname{Tor}_1^A(A/b, A/\alpha)$ lên $(\alpha \cap b)/ba$.
 
-#### Mệnh đề 9 {#alg-x-s4-prop-9 .statement}
+#### Mệnh đề 9 {#alg-x-s4-prop-9 .statement tag=0DVY}
 
 *Cho f : M → M$_1$ là một đồng cấu của các A-môđun phải và*
 
@@ -837,7 +837,7 @@ $$\cdots\longrightarrow \operatorname{Tor}_1^A(M'',N)\xrightarrow{\partial_1(\ma
 
 Ta để lại cho độc giả nhiệm vụ phát biểu và chứng minh các tính chất tương tự với các hệ quả của định lý 1 và với mệnh đề 9. Hơn nữa:
 
-#### Mệnh đề 10 {#alg-x-s4-prop-10 .statement}
+#### Mệnh đề 10 {#alg-x-s4-prop-10 .statement tag=0DVZ}
 
 *Ta ký hiệu bởi $(\mathscr F^\circ)$ dãy khớp của các A-môđun trái*
 
@@ -869,7 +869,7 @@ Ta sẽ thấy sau này các quan hệ giao hoán khác *(xem* X, p. 131, hệ q
 
 ### 6. Các môđun phẳng và các tích xoắn
 
-#### Định lý 2 {#alg-x-s4-thm-2 .statement}
+#### Định lý 2 {#alg-x-s4-thm-2 .statement tag=0DW0}
 
 *Cho E là một A-môđun phải. Các điều kiện sau là tương đương :*
 
@@ -916,7 +916,7 @@ $$
 $$
 Nếu (v) được thỏa mãn, ta có $\operatorname{Tor}_1^A(E, F) = 0$, do đó (iii).
 
-#### Hệ quả 1 {#alg-x-s4-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s4-thm-2-cor-1 .statement tag=0DW1}
 
 Cho $0 \to E' \to E \to E'' \to 0$ là một dãy khớp của các $A$-môđun phải. Giả sử rằng $E''$ là phẳng. Khi đó $E$ phẳng khi và chỉ khi $E'$ phẳng.
 
@@ -926,7 +926,7 @@ $$
 $$
 do đó là mệnh đề (Định lý 2, (i) $\Leftrightarrow$ (iii)).
 
-#### Hệ quả 2 {#alg-x-s4-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s4-thm-2-cor-2 .statement tag=0DW2}
 
 *Cho*
 $$
@@ -1015,7 +1015,7 @@ $$
 0 \longrightarrow Z \otimes_A C' \xrightarrow{j \otimes 1} C \otimes_A C' \xrightarrow{\delta \otimes 1} (B \otimes_A C')(-1) \longrightarrow 0 .
 $$
 
-#### Bổ đề 3 {#alg-x-s4-lem-3 .statement}
+#### Bổ đề 3 {#alg-x-s4-lem-3 .statement tag=0DW4}
 
 Đồng cấu nối $\mathrm{H}(B \otimes_A C') \to \mathrm{H}(Z \otimes_A C')$ liên kết với dãy khớp (12) bằng $\mathrm{H}(i \otimes 1)$.
 
@@ -1064,18 +1064,18 @@ $$
 
 mà là *giao hoán theo định nghĩa của các đồng cấu $\gamma$*. Nhưng vì các phức $B$ và $Z$ là tách và phẳng, $\gamma_B$ và $\gamma_Z$ là *song ánh* (X, p. 65, Hệ quả 1). Từ đó, một mặt, ta suy ra rằng $\gamma_C$ là đơn ánh và có ảnh bằng $\operatorname{Ker} H(\delta \otimes 1)$, và mặt khác, rằng $\gamma_B \circ \partial(\mathrm{II}, H')$ là đơn ánh với ảnh bằng $\operatorname{Im} H(\delta \otimes 1)$. Định lý được suy ra ngay lập tức từ đó.
 
-#### Hệ quả 1 {#alg-x-s4-lem-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s4-lem-3-cor-1 .statement tag=0DW5}
 
 *Nếu $B(C)$ và $Z(C)$ là phẳng, thì với mọi A-môđun trái $N$ và mọi số nguyên $n$, có một dãy khớp*
 
 (13) $$ 0 \longrightarrow H_n(C) \otimes_A N \xrightarrow{\gamma_n} H_n(C \otimes_A N) \xrightarrow{\alpha_n} \operatorname{Tor}_1^A(H_{n-1}(C), N) \longrightarrow 0 . $$
 
-#### Hệ quả 2 {#alg-x-s4-lem-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s4-lem-3-cor-2 .statement tag=0DW6}
 
 *Giả sử $B(C)$ và $B(C')$ là xạ ảnh và $Z(C)$ là phẳng. Khi đó các dãy của $k$-môđun (11) và (13) là khớp và tách.*
 Điều này suy ra từ định lý và bổ đề sau:
 
-#### Bổ đề 4 {#alg-x-s4-lem-4 .statement}
+#### Bổ đề 4 {#alg-x-s4-lem-4 .statement tag=0DW7}
 
 *Nếu $B(C)$ và $B(C')$ là xạ ảnh, thì đồng cấu chính tắc*
 $$ \gamma(C, C') : H(C) \otimes_A H(C') \to H(C \otimes_A C') $$
@@ -1092,12 +1092,12 @@ $$
 
 $H(\varphi) \otimes H(\varphi')$ và $\gamma(H(C), H(C'))$ là đồng nhất, do đó có khẳng định.
 
-#### Hệ quả 3 (công thức hệ số phổ quát) {#alg-x-s4-lem-4-cor-3 .statement}
+#### Hệ quả 3 (công thức hệ số phổ quát) {#alg-x-s4-lem-4-cor-3 .statement tag=0DW8}
 
 *Giả sử vành $A$ là chính. Nếu các phức $C$ và $C'$ là tự do, các dãy của A-môđun (11) là khớp và tách; nếu phức $C$ là tự do, các dãy của A-môđun (13) là khớp và tách với mọi A-môđun $N$.*
 Thật vậy, $B(C), Z(C)$ và $B(C')$ là các môđun con của các môđun tự do $C, C, C'$, nên là tự do (VII, § 3, hệ quả 2 của định lý 1), và ta áp dụng hệ quả 2.
 
-#### Hệ quả 4 (« công thức Künneth ») {#alg-x-s4-lem-4-cor-4 .statement}
+#### Hệ quả 4 (« công thức Künneth ») {#alg-x-s4-lem-4-cor-4 .statement tag=0DW9}
 
 Giả sử C bị chặn bên phải, C và H(C) phẳng; khi đó đồng cấu chính tắc
 
@@ -1118,7 +1118,7 @@ $$
 
 do đó, theo X, p. 75, hệ quả 1, các kéo theo (B_{n-1}(C) là phẳng) $\Rightarrow$ (Z_n(C) là phẳng) $\Rightarrow$ (B_n(C) là phẳng) ; ta kết luận bằng cách nhận xét rằng B_n(C) = 0 với n đủ nhỏ.
 
-#### Hệ quả 5 {#alg-x-s4-lem-4-cor-5 .statement}
+#### Hệ quả 5 {#alg-x-s4-lem-4-cor-5 .statement tag=0DWA}
 
 Cho u : C \to C' là một đồng luân của các phức của a-môđun phải, phẳng và bị chặn bên phải. Với mọi phức E của các a-môđun trái, cấu xạ $u \otimes 1_E : C \otimes_A E \to C' \otimes_A E$ là một đồng luân.
 
@@ -1126,7 +1126,7 @@ Thật vậy, Con (u) là một phức phẳng, bị chặn bên phải và có 
 
 ### 8. Các phức bị chặn và phẳng trên một vành Noether
 
-#### Mệnh đề 11 {#alg-x-s4-prop-11 .statement}
+#### Mệnh đề 11 {#alg-x-s4-prop-11 .statement tag=0DWB}
 
 Giả sử A Noether trái, và cho C là một phức bị chặn và phẳng của các a-môđun trái sao cho H(C) là một a-môđun sinh hữu hạn. Cho a và b là hai số nguyên sao cho a \leq b và H_n(C) = 0 với n < a, C_n = 0 với n > b. Tồn tại một phức P của các a-môđun trái sao cho P_n là xạ ảnh và sinh hữu hạn với mỗi n, và P_n = 0 với n \notin [a, b], cùng một đồng luân u : P \to C. Hơn nữa, với mọi phức E của các a-môđun phải, đồng cấu
 

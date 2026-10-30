@@ -41,9 +41,9 @@ subsections:
       pdf_page: 85
 statements: 32
 exercises: 29
-content_sha256: 4f61fbf02ed37e8ad57cf601d5991d4ab6fac1df228fce1a86643fa7a7e86b02
+content_sha256: 61c988f60f15d75fbcd73ba7031c63b788eb8bcb835b2e0b20df3c6da4209a6e
 translated_from: content/en/alg/I/05_s5_groups_operating_on_a_set.md
-source_content_sha256: d92fcadd5cf3457976d613413dc10c6bce670352e24cbb59900cd4f89d17b9dd
+source_content_sha256: dfbb9d78abb1e74cb8df10a3c8d7099cfe102e2e7a75bb6d300412ab223621fa
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4c9756fc
 glossary_version: 34
@@ -55,7 +55,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐƠN VỊ TÁC ĐỘNG TRÊN MỘT TẬP HỢP
 
-#### Định nghĩa 1 {#alg-i-s5-def-1 .statement}
+#### Định nghĩa 1 {#alg-i-s5-def-1 .statement tag=05B1}
 
 Cho M là một đơn vị, với luật được viết theo phép nhân và phần tử đơn vị được ký hiệu bởi e, và E là một tập hợp. Một tác động $\alpha \mapsto f_\alpha$ của M trên E được gọi là tác động trái (resp. phải) của M trên E nếu $f_e = \mathrm{Id}_E$ và $f_{\alpha \beta} = f_\alpha \circ f_\beta$ (resp. $f_{\alpha \beta} = f_\beta \circ f_\alpha$) với mọi $\alpha, \beta \in M$.
 
@@ -71,7 +71,7 @@ Với các điều kiện này, người ta cũng nói rằng M tác động tr�
 
 Cho M là một đơn vị; một tập hợp E với một tác động trái (resp. phải) của M trên E được gọi là một M-tập hợp trái (resp. phải). Đơn vị M được nói là tác động trung thành ở bên trái (resp. phải) nếu ánh xạ $\alpha \mapsto f_\alpha$ của M vào $E^E$ là đơn ánh.
 
-#### Ví dụ {#alg-i-s5-n1-exa-1 .statement}
+#### Ví dụ {#alg-i-s5-n1-exa-1 .statement tag=05B2}
 
 (1) Cho E là một tập hợp; tác động chính tắc của $E^E$ trên E (§ 3, no. 1, Ví dụ 3) là một tác động trái.
 
@@ -85,7 +85,7 @@ Cho E là một tập hợp. Cho G là một nhóm tác động trên E. Với m
 
 Phù hợp với $\S$ 3, no. 3, ta đưa ra định nghĩa sau:
 
-#### Định nghĩa 2 {#alg-i-s5-def-2 .statement}
+#### Định nghĩa 2 {#alg-i-s5-def-2 .statement tag=05B3}
 
 *Cho M là một đơn vị và E và E' là các M-tập hợp. Một ánh xạ f của E vào E' sao cho, với mọi $x \in E$ và mọi $\alpha \in M$, $f(\alpha.x) = \alpha.f(x)$ được gọi là một đồng cấu M-tập hợp (hay một M-cấu xạ, hay một ánh xạ tương thích với các tác động của M).*
 
@@ -115,13 +115,13 @@ Chẳng hạn, cho K và L là hai thang trên $F_1, F_2, F_3$; lấy F là tậ
 
 ### 2. NHÓM ỔN ĐỊNH, NHÓM CỐ ĐỊNH
 
-#### Định nghĩa 3 {#alg-i-s5-def-3 .statement}
+#### Định nghĩa 3 {#alg-i-s5-def-3 .statement tag=05B4}
 
 *Cho M là một monoid tác động trên một tập hợp E và A và B là các tập con của E. Tập hợp các $\alpha \in M$ sao cho $\alpha A \subset B$ (tương ứng, $\alpha A = B$) được gọi là tập chuyển của A vào B (tương ứng, tập chuyển ngặt). Tập chuyển (tương ứng, tập chuyển ngặt) của A vào A được gọi là nhóm ổn định (tương ứng, nhóm ổn định ngặt) của A. Tập hợp các $\alpha \in M$ sao cho $\alpha a = a$ với mọi $a \in A$ được gọi là tập cố định của A.*
 
 Một phần tử $\alpha$ của M được nói là ổn định (tương ứng, ổn định ngặt, tương ứng, cố định) một tập con A của E nếu $\alpha$ thuộc nhóm ổn định (tương ứng, nhóm ổn định ngặt, tương ứng, tập cố định) của A. Một tập con P của M được nói là ổn định (tương ứng, ổn định ngặt, tương ứng, cố định) một tập con A của E nếu mọi phần tử của P đều ổn định (tương ứng, ổn định ngặt, tương ứng, cố định) A. Tập cố định của A được chứa trong nhóm ổn định ngặt của A, mà chính nó được chứa trong nhóm ổn định của A.
 
-#### Mệnh đề 1 {#alg-i-s5-prop-1 .statement}
+#### Mệnh đề 1 {#alg-i-s5-prop-1 .statement tag=05B5}
 
 *Cho M là một monoid tác động trên một tập hợp E và A là một tập con của E.*
 (a) *Nhóm ổn định, nhóm ổn định ngặt và tập cố định của A là các monoid con của M.*
@@ -129,7 +129,7 @@ Một phần tử $\alpha$ của M được nói là ổn định (tương ứng
 
 Cho e là phần tử đơn vị của M; khi đó $ea = a$ với mọi phần tử $a \in A$ và do đó e thuộc tập cố định của A. Cho $\alpha$ và $\beta$ là các phần tử của E ổn định A. Khi đó $(\alpha \beta)A = \alpha(\beta A) \subset \alpha A \subset A$ và do đó nhóm ổn định của A là một monoid con của M. Tương tự đối với nhóm ổn định ngặt và tập cố định của A, do đó có (a). Nếu $\alpha A = A$, thì $A = \alpha^{-1}(\alpha A) = \alpha^{-1}A$. Nếu với mọi $a \in A$, $\alpha a = a$, thì $a = \alpha^{-1}(\alpha a) = \alpha^{-1}a$, do đó có (b).
 
-#### Hệ quả {#alg-i-s5-n2-cor-1 .statement}
+#### Hệ quả {#alg-i-s5-n2-cor-1 .statement tag=05B6}
 
 *Cho G là một nhóm tác động trên một tập hợp E và A là một tập con của E. Nhóm ổn định ngặt S và tập cố định F của A là các nhóm con của G và F là một nhóm con chuẩn tắc của S.*
 
@@ -139,7 +139,7 @@ Một nhóm G tác động trung thành trên một tập hợp E khi và chỉ 
 
 Cho M là một monoid, E một M-tập và $a$ một phần tử của E. Tập cố định, nhóm ổn định ngặt và nhóm ổn định của $\{a\}$ bằng nhau; monoid này cũng được gọi là tập cố định hoặc nhóm ổn định của $a$. Tập cố định của một tập con A của E là giao của các tập cố định của các phần tử của A. $a$ được gọi là một phần tử bất biến của E nếu tập cố định của $a$ là monoid M. M được nói là tác động tầm thường trên E nếu mọi phần tử của E đều bất biến.
 
-#### Mệnh đề 2 {#alg-i-s5-prop-2 .statement}
+#### Mệnh đề 2 {#alg-i-s5-prop-2 .statement tag=05B7}
 
 *Cho G là một nhóm tác động trên một tập hợp E và, với mọi $x \in E$, cho $S_x$ là nhóm ổn định của x. Với mọi $\alpha \in G$, $S_{\alpha x} = \alpha S_x \alpha^{-1}$.*
 
@@ -151,7 +151,7 @@ Tương tự, ta thấy rằng, nếu A và B là hai tập con của E và T l�
 
 Cho G là một nhóm. Tập hợp Aut(G) các tự đẳng cấu của nhóm G là một nhóm con của $\mathscr{G}_G$ (§ 4, no. 1, Ví dụ 2).
 
-#### Mệnh đề 3 {#alg-i-s5-prop-3 .statement}
+#### Mệnh đề 3 {#alg-i-s5-prop-3 .statement tag=05B8}
 
 *Cho G là một nhóm. Với mọi phần tử x của G, ánh xạ Int(x): $y \mapsto xyx^{-1}$ từ G vào chính nó là một tự đẳng cấu của G. Ánh xạ Int: $x \mapsto \operatorname{Int}(x)$ từ G vào Aut(G) là một đồng cấu nhóm, có hạt nhân là tâm của G và có ảnh là một nhóm con chuẩn tắc của Aut(G).*
 
@@ -175,7 +175,7 @@ $$
 
 Do đó $\alpha \cdot \operatorname{Int}(G) \cdot \alpha^{-1} \subset \operatorname{Int}(G)$.
 
-#### Định nghĩa 4 {#alg-i-s5-def-4 .statement}
+#### Định nghĩa 4 {#alg-i-s5-def-4 .statement tag=05B9}
 
 *Cho G là một nhóm và $x \in G$. Tự đẳng cấu $y \mapsto xyx^{-1}$ được gọi là tự đẳng cấu trong của G xác định bởi x và được ký hiệu là $\operatorname{Int} x$.*
 
@@ -185,7 +185,7 @@ Một nhóm con của G là chuẩn nếu và chỉ nếu nó ổn định dư�
 
 Tâm của một nhóm G không nhất thiết ổn định dưới mọi đồng cấu của G (Bài tập 22). Đặc biệt, tâm của một nhóm có toán tử không nhất thiết là một nhóm con ổn định.
 
-#### Mệnh đề 4 {#alg-i-s5-prop-4 .statement}
+#### Mệnh đề 4 {#alg-i-s5-prop-4 .statement tag=05BA}
 
 Cho G là một nhóm, H là một nhóm con bất biến (tương ứng, chuẩn) của G và K là một nhóm con bất biến của H. Khi đó K là một nhóm con bất biến (tương ứng, chuẩn) của G.
 
@@ -195,7 +195,7 @@ Cho G là một nhóm, A $\subset$ G và $b \in G$. b được gọi là chuẩn
 
 Tập hợp các $g \in G$ chuẩn hóa (tương ứng, trung tâm hóa) A được gọi là nhóm chuẩn hóa (tương ứng, nhóm trung tâm hóa) của A (xem § 1, no. 5, Định nghĩa 9); nó đôi khi được ký hiệu bởi $N_G(A)$ hoặc đơn giản là $N(A)$ (tương ứng, $C_G(A)$ hoặc $C(A)$). Nó là một nhóm con của G. Khi A là một nhóm con của G, $N_G(A)$ có thể được đặc trưng như là nhóm con lớn nhất của G chứa A và trong đó A là chuẩn.
 
-#### Nhận xét {#alg-i-s5-n3-rem-1 .statement}
+#### Nhận xét {#alg-i-s5-n3-rem-1 .statement tag=05BB}
 
 (1) Nhóm chuẩn hóa (tương ứng, nhóm trung tâm hóa) của A là nhóm ổn định ngặt (tương ứng, nhóm cố định) của A khi G tác động lên chính nó bởi các tự đẳng cấu trong. Đặc biệt nhóm trung tâm hóa là một nhóm con chuẩn của nhóm chuẩn hóa.
 
@@ -203,7 +203,7 @@ Tập hợp các $g \in G$ chuẩn hóa (tương ứng, trung tâm hóa) A đư�
 
 ### 4. QUỸ ĐẠO
 
-#### Định nghĩa 5 {#alg-i-s5-def-5 .statement}
+#### Định nghĩa 5 {#alg-i-s5-def-5 .statement tag=05BC}
 
 Cho G là một nhóm, E là một G-tập hợp và $x \in G$. Một phần tử $y \in E$ được gọi là liên hợp với x dưới tác động của G nếu tồn tại một phần tử $\alpha \in G$ sao cho $y = \alpha x$. Tập hợp các phần tử liên hợp với x được gọi là quỹ đạo của x trong E.
 
@@ -215,7 +215,7 @@ Một tập con X của E ổn định khi và chỉ khi nó là tập hợp bã
 
 G được nói là tác động tự do trên E nếu, với mọi $x \in E$, ánh xạ quỹ đạo xác định bởi x là đơn ánh, hay tương đương nếu ánh xạ $(g, x) \mapsto (gx, x)$ từ $G \times E$ vào $E \times E$ là đơn ánh.
 
-#### Ví dụ {#alg-i-s5-n4-exa-1 .statement}
+#### Ví dụ {#alg-i-s5-n4-exa-1 .statement tag=05BD}
 
 (1) Cho G là một nhóm và xét tác động của G lên chính nó bởi các tự đẳng cấu trong. Hai phần tử của G liên hợp dưới tác động này được gọi là liên hợp dưới các tự đẳng cấu trong hoặc đơn giản là liên hợp. Các quỹ đạo được gọi là các lớp liên hợp. Tương tự, hai tập con H và H' của G được gọi là liên hợp nếu tồn tại một phần tử $\alpha \in G$ sao cho $H' = \alpha . H . \alpha^{-1}$, tức là nếu chúng liên hợp dưới mở rộng lên $\mathscr{P}(G)$ của tác động của G lên chính nó bởi các tự đẳng cấu trong.
 
@@ -254,19 +254,19 @@ Cho G là một nhóm và H và K là hai nhóm con của G. Cho H tác động 
 
 ### 5. TẬP HỢP THUẦN NHẤT
 
-#### Định nghĩa 6 {#alg-i-s5-def-6 .statement}
+#### Định nghĩa 6 {#alg-i-s5-def-6 .statement tag=05BE}
 
 *Cho G là một nhóm. Một tác động của G trên một tập hợp E được gọi là bắc cầu nếu tồn tại một phần tử $x \in E$ có quỹ đạo là E. Một G-tập hợp E được gọi là thuần nhất nếu tác động của G trên E là bắc cầu.*
 
 Người ta cũng nói rằng G *tác động bắc cầu* trên E; hoặc E là một *tập hợp thuần nhất dưới tác động của* G. Điều đó tương đương với việc nói rằng E *khác rỗng* và rằng, với mọi phần tử $x$ và $y$ của E, tồn tại một phần tử $\alpha \in G$ sao cho $\alpha.x = y$.
 
-#### Ví dụ {#alg-i-s5-n5-exa-1 .statement}
+#### Ví dụ {#alg-i-s5-n5-exa-1 .statement tag=05BF}
 
 Nếu E là một G-tập hợp, mỗi quỹ đạo của E, với tác động cảm sinh, là một tập hợp thuần nhất dưới tác động của G.
 
 Cho G là một nhóm và H là một nhóm con của G. Xét tập hợp $G/H$ các lớp ghép trái theo H. Nhóm G tác động lên $G/H$ ở bên trái theo $(g, xH) \mapsto gxH$. Gọi N là chuẩn tắc hóa tử của H. Nhóm N tác động lên $G/H$ ở bên phải theo $(xH, n) \mapsto xHn = xnH$. Tác động này cảm sinh trên H tác động tầm thường và do đó, chuyển qua thương, $N/H$ tác động lên $G/H$ ở bên phải. Gọi $\phi : (N/H)^0 \to S_{G/H}$ là đồng cấu tương ứng với tác động này.
 
-#### Mệnh đề 5 {#alg-i-s5-prop-5 .statement}
+#### Mệnh đề 5 {#alg-i-s5-prop-5 .statement tag=05BG}
 
 *Với các ký hiệu trên, G/H là một G-tập hợp thuần nhất. Ánh xạ $\phi$ cảm sinh một đẳng cấu từ $(N/H)^0$ lên nhóm các tự đẳng cấu của G-tập hợp G/H.*
 
@@ -274,13 +274,13 @@ Quỹ đạo trong $G/H$ của phần tử $e = H$ là $G/H$, do đó mệnh đ�
 
 N/H tác động trung thành trên G/H ở bên phải và $\phi$ là đơn ánh. Phép toán bên trái của G và phép toán bên phải của N/H trên G/H giao hoán với nhau và do đó các toán tử của N/H xác định các G-cấu xạ của G/H vào chính nó, nhất thiết là các G-đẳng cấu vì chúng song ánh. Do đó $\phi$ nhận giá trị trong nhóm $\Phi$ các G-đẳng cấu của G/H. Ta chứng minh rằng ảnh của $\phi$ là $\Phi$. Cho $f \in \Phi$. Bằng phép chuyển cấu trúc, nhóm ổn định của $f(\dot{e})$ trong G bằng nhóm ổn định của $\dot{e}$ và do đó bằng H. Cho $n \in G$ sao cho $f(\dot{e}) = n\dot{e}$. Nhóm ổn định của $n\dot{e}$ trong G là $nHn^{-1}$ (no. 2, Mệnh đề 2), do đó $nHn^{-1} = H$ và $n \in N$. Với mọi phần tử $xH$ của G/H, $f(xH) = f(x.\dot{e}) = x.f(\dot{e}) = xnH = xHn$ và $f$ trùng với ánh xạ được xác định bởi $n$.
 
-#### Nhận xét {#alg-i-s5-n5-rem-1 .statement}
+#### Nhận xét {#alg-i-s5-n5-rem-1 .statement tag=05BH}
 
 (1) Cho G là một nhóm, H là một nhóm con của G và $\phi : G \to \mathscr{S}_{G/H}$ là đồng cấu tương ứng với phép toán của G trên G/H. Hạt nhân của $\phi$ là giao của các liên hợp của H (no. 2, Mệnh đề 2). Nó cũng là nhóm con chuẩn tắc lớn nhất được chứa trong H (no. 3). Đặc biệt, G tác động trung thành trên G/H khi và chỉ khi giao của các liên hợp của H thu gọn thành $\{e\}$.
 
 (2) Cho G là một nhóm và H và K là các nhóm con sao cho H là một nhóm con chuẩn tắc của K. K/H tác động trên G-tập hợp G/H ở bên phải và ánh xạ chính tắc từ G/H lên G/K xác định, khi chuyển qua thương, một G-tập hợp đẳng cấu $(G/H)/(K/H) \to G/K$ (xem no. 4).
 
-#### Mệnh đề 6 {#alg-i-s5-prop-6 .statement}
+#### Mệnh đề 6 {#alg-i-s5-prop-6 .statement tag=05BI}
 
 *Cho G là một nhóm, E là một G-tập hợp thuần nhất, $a \in E$, H là nhóm ổn định của a và K là một nhóm con của G được chứa trong H. Tồn tại duy nhất một G-cấu xạ f từ G/K vào E sao cho $f(e.K) = a$. Nếu K = H, f là một đẳng cấu.*
 
@@ -290,7 +290,7 @@ y.a = xk.a = x.a.
 $$
 Do đó suy ra một ánh xạ f từ G/K vào H thỏa mãn $f(x.K) = x.a$ với mọi x trong G. Ánh xạ này là một G-cấu xạ và $f(K) = a$. Ánh xạ này là toàn ánh vì ảnh của nó là một tập con khác rỗng ổn định của E. Giả sử K = H và ta chứng minh rằng f là đơn ánh. Nếu $f(x.H) = f(y.H)$, thì $x.a = y.a$, do đó $x^{-1}y.a = a$ và $x^{-1}y \in H$, do đó $x.H = y.H$.
 
-#### Định lý 1 {#alg-i-s5-thm-1 .statement}
+#### Định lý 1 {#alg-i-s5-thm-1 .statement tag=05BJ}
 
 *Cho G là một nhóm.*
 (a) *Mọi G-tập hợp thuần nhất đều đẳng cấu với một G-tập hợp thuần nhất có dạng G/H, trong đó H là một nhóm con của G.*
@@ -298,7 +298,7 @@ Do đó suy ra một ánh xạ f từ G/K vào H thỏa mãn $f(x.K) = x.a$ vớ
 
 Vì một G-tập hợp thuần nhất là khác rỗng, mệnh đề (a) suy ra từ Mệnh đề 6. Ta chứng minh (b). Cho $f : G/H \to G/H'$ là một G-tập hợp đẳng cấu. Nhóm con H là nhóm ổn định của H và do đó, bằng phép chuyển cấu trúc, là nhóm ổn định của một phần tử của $G/H'$. Vì vậy các nhóm con $H$ và $H'$ liên hợp với nhau (no. 2, Mệnh đề 2). Nếu $H' = \alpha H \alpha^{-1}$, thì $H'$ là nhóm ổn định của phần tử $\alpha . H$ của $G/H$ (no. 2, Mệnh đề 2) và do đó $G/H'$ đẳng cấu với $G/H$ (Mệnh đề 6).
 
-#### Ví dụ {#alg-i-s5-n5-exa-2 .statement}
+#### Ví dụ {#alg-i-s5-n5-exa-2 .statement tag=05BK}
 
 (1) Cho $E$ là một tập hợp khác rỗng. Nhóm $S_E$ tác động bắc cầu trên $E$. Nếu $x$ và $y$ là hai phần tử của $E$, ánh xạ $\tau : E \to E$ sao cho $\tau(x) = y$, $\tau(y) = x$ và $\tau(z) = z$ với $z \neq x, y$, là một phép hoán vị của $E$. Cho $a \in E$. Nhóm ổn định của $a$ được đồng nhất với $S_F$, trong đó $F = E - \{a\}$. $G$-tập thuần nhất $E$ do đó đẳng cấu với $S_E / S_F$.
 
@@ -320,7 +320,7 @@ với $1 \leq i \leq r$. Gọi $S$ là tập hợp các $\tau \in S_E$ sao cho $
 
 ### 6. CÁC TẬP CHÍNH THUẦN NHẤT
 
-#### Định nghĩa 7 {#alg-i-s5-def-7 .statement}
+#### Định nghĩa 7 {#alg-i-s5-def-7 .statement tag=05BL}
 
 *Cho $G$ là một nhóm. Một phép toán của $G$ trên một tập $E$ được gọi là đơn tác nếu tồn tại một phần tử $x$ của $E$ sao cho ánh xạ quỹ đạo xác định bởi $x$ là một song ánh. Một tập $E$, cùng với một tác động trái đơn tác của $G$ trên $E$, được gọi là một tập $G$ chính thuần nhất trái (hoặc tập chính thuần nhất trái dưới $G$).*
 
@@ -335,7 +335,7 @@ Nói cách khác, $G$ tác động tự do và bắc cầu trên $E$, hoặc cũ
 
 Ta để cho người đọc định nghĩa các tập G chính thuần nhất phải.
 
-#### Ví dụ {#alg-i-s5-n6-exa-1 .statement}
+#### Ví dụ {#alg-i-s5-n6-exa-1 .statement tag=05BM}
 
 (1) Cho G tác động trên chính nó bằng phép tịnh tiến trái (tương ứng phải). Khi đó một cấu trúc tập G chính thuần nhất trái (tương ứng phải) được xác định trên G, đôi khi được ký hiệu là $G_s$ (tương ứng $G_d$).
 
@@ -369,7 +369,7 @@ $$
 
 Nếu E là một tập hợp hữu hạn có $n$ phần tử, nhóm đối xứng $\mathfrak{S}_E$ (§ 4, no. 1) là một nhóm hữu hạn có cấp $n!$. Khi E là khoảng $\{1, n\}$ của tập hợp $\mathbf{N}$ các số tự nhiên, nhóm đối xứng tương ứng được ký hiệu là $\mathfrak{S}_n$; nhóm đối xứng của bất kỳ tập hợp nào có $n$ phần tử đều đẳng cấu với $\mathfrak{S}_n$.
 
-#### Định nghĩa 8 {#alg-i-s5-def-8 .statement}
+#### Định nghĩa 8 {#alg-i-s5-def-8 .statement tag=05BN}
 
 Cho E là một tập hợp hữu hạn, $\zeta \in \mathfrak{S}_E$ là một phép hoán vị của E và $\bar{\zeta}$ là nhóm con của $\mathfrak{S}_E$ sinh bởi $\zeta$. $\zeta$ được gọi là một chu trình nếu, dưới phép toán của $\bar{\zeta}$ trên E, tồn tại một và chỉ một quỹ đạo không thu về một phần tử duy nhất. Quỹ đạo này được gọi là giá của $\zeta$.
 
@@ -377,7 +377,7 @@ Cho $\zeta$ là một chu trình. Giá $\operatorname{supp}(\zeta)$ của $\zeta
 
 Cấp của một chu trình $\zeta$ bằng lực lượng của giá của nó. Nhóm con $\bar{\zeta}$ sinh bởi $\zeta$ tác động bắc cầu và trung thành trên $\operatorname{supp}(\zeta)$. Vì $\zeta$ là giao hoán, $\operatorname{supp}(\zeta)$ là một tập hợp chính dưới $\bar{\zeta}$ (no. 6, Ví dụ 2) và do đó $\operatorname{Card}(\operatorname{supp}(\zeta)) = \operatorname{Card}(\bar{\zeta})$.
 
-#### Bổ đề 1 {#alg-i-s5-lem-1 .statement}
+#### Bổ đề 1 {#alg-i-s5-lem-1 .statement tag=05BO}
 
 Cho $(\zeta_i)_{i \in I}$ là một họ các chu trình có các giá từng đôi một rời nhau. Khi đó các $\zeta_i$ từng đôi một khả hoán. Đặt $\sigma = \prod_{i \in I} \zeta_i$ và $\bar{\sigma}$ là nhóm con sinh bởi $\sigma$. Khi đó $\sigma(x) = \zeta_i(x)$ với $x \in S_i, i \in I$, và $\sigma(x) = x$ với $x \notin \bigcup_{i \in I} S_i$. Ánh xạ $i \mapsto S_i$ là một song ánh của I lên tập hợp các quỹ đạo của $\bar{\sigma}$ không gồm một phần tử duy nhất.
 
@@ -387,7 +387,7 @@ x \notin \operatorname{supp}(\zeta) \cup \operatorname{supp}(\zeta'),
 $$
 thì $\zeta \zeta'(x) = \zeta' \zeta(x) = x$. Nếu $x$ thuộc giá mang của $\zeta$, thì $\zeta'(x) = x$, và $\zeta(x)$ thuộc giá mang của $\zeta$, do đó $\zeta \zeta'(x) = \zeta' \zeta(x) = \zeta(x)$. Tương tự, khi $x$ thuộc giá mang của $\zeta'$, thì $\zeta' \zeta(x) = \zeta \zeta'(x) = \zeta'(x)$. Suy ra $\zeta \zeta' = \zeta' \zeta$. Do đó các $\zeta_i$ từng đôi một khả hoán và, với $i \in I$ và $x \in S_i$, $\sigma(x) = \zeta_i(x) \in S_i$. Các ánh xạ $\sigma$ và $\zeta_i$ trùng nhau trên $S_i$, do đó $S_i$ ổn định dưới $\sigma$ và nhóm con của $\mathfrak{S}_{S_i}$ sinh bởi hạn chế của $\sigma$ lên $S_i$ tác động bắc cầu trên $S_i$; do đó $S_i$ là một quỹ đạo $\bar{\sigma}$. Vì các $S_i$ đều không rỗng và từng đôi một rời nhau, ánh xạ $i \mapsto S_i$ là đơn ánh. Vì $\bigcup_i S_i$ là tập hợp các $x$ sao cho $\sigma(x) \neq x$, nên mọi quỹ đạo $\bar{\sigma}$ không gồm một phần tử duy nhất đều là một trong các $S_i$.
 
-#### Mệnh đề 7 {#alg-i-s5-prop-7 .statement}
+#### Mệnh đề 7 {#alg-i-s5-prop-7 .statement tag=05BP}
 
 Cho E là một tập hợp hữu hạn và $\sigma$ là một phép hoán vị của E. Tồn tại duy nhất một tập hợp hữu hạn C gồm các chu trình thỏa mãn hai điều kiện sau:
 
@@ -397,7 +397,7 @@ Cho E là một tập hợp hữu hạn và $\sigma$ là một phép hoán vị 
 
 Cho $\bar{\sigma}$ là nhóm con sinh bởi $\sigma$ và S là tập hợp các quỹ đạo $\bar{\sigma}$ không gồm một phần tử duy nhất. Với $s \in S$, đặt $\zeta_s(x) = \sigma(x)$ nếu $x \in s$ và $\zeta_s(x) = x$ nếu $x \notin s$. Với mọi $s \in S$, $\zeta_s$ là một chu trình có giá mang là $s$ và $\sigma = \prod_{s \in S} \zeta_s$, như thấy được bằng cách áp dụng hai vế cho một phần tử bất kỳ của E. Tính duy nhất của C suy ra từ Bổ đề 1.
 
-#### Định nghĩa 9 {#alg-i-s5-def-9 .statement}
+#### Định nghĩa 9 {#alg-i-s5-def-9 .statement tag=05BQ}
 
 *Một chu trình có cấp 2 được gọi là một phép chuyển vị.*
 
@@ -412,13 +412,13 @@ $$
 
 Các phép chuyển vị do đó tạo thành một lớp liên hợp trong nhóm $\mathfrak{S}_E$.
 
-#### Mệnh đề 8 {#alg-i-s5-prop-8 .statement}
+#### Mệnh đề 8 {#alg-i-s5-prop-8 .statement tag=05BR}
 
 *Một tập hợp hữu hạn E. Nhóm $\mathfrak{S}_E$ được sinh bởi các phép chuyển vị.*
 
 Với mọi phép hoán vị $\sigma$, gọi $F_\sigma$ là tập hợp các $x \in E$ sao cho $\sigma(x) = x$. Ta chứng minh bằng quy nạp giảm dần theo $p$ rằng mọi phép hoán vị $\sigma$ sao cho $\mathrm{Card}(F_\sigma) = p$ đều là một tích của các phép chuyển trí. Nếu $p \geq \mathrm{Card}(E)$, phép hoán vị $\sigma$ là ánh xạ đồng nhất của E; nó là tích của họ rỗng các phép chuyển trí. Nếu $p < \mathrm{Card}(E)$, giả sử tính chất đã được chứng minh cho mọi phép hoán vị $\sigma'$ sao cho $\mathrm{Card}(F_{\sigma'}) > p$. Khi đó $E - F_\sigma \neq \varnothing$; lấy $x \in E - F_\sigma$ và $y \in \sigma(x)$. Khi đó $y \neq x$ và $y \in E - F_\sigma$. Đặt $\sigma' = \tau_{x,y} \cdot \sigma$. Tập hợp $F_{\sigma'}$ chứa $F_\sigma$ và $x$ và do đó $\mathrm{Card}(F_{\sigma'}) > \mathrm{Card}(F_\sigma) = p$. Theo giả thiết quy nạp $\sigma'$ là một tích của các phép chuyển trí và do đó $\sigma = \tau_{x,y} \cdot \sigma'$ là một tích của các phép chuyển trí.
 
-#### Mệnh đề 9 {#alg-i-s5-prop-9 .statement}
+#### Mệnh đề 9 {#alg-i-s5-prop-9 .statement tag=05BS}
 
 *Cho n là một số nguyên $\geq 0$. Nhóm $\mathfrak{S}_n$ được sinh bởi các phép chuyển trí* $(\tau_{i, i+1})_{1 \leq i \leq n-1}$.
 
@@ -448,7 +448,7 @@ $$
 p(z_1, \ldots, z_n) = \prod_{i < j} (z_j - z_i).
 $$
 
-#### Bổ đề 2 {#alg-i-s5-lem-2 .statement}
+#### Bổ đề 2 {#alg-i-s5-lem-2 .statement tag=05BT}
 
 $p \neq 0$ và $\sigma p = (-1)^{\nu(\sigma)}$ với $\sigma \in \mathfrak{S}_n$.
 
@@ -460,7 +460,7 @@ $$
 
 Cho C là tập hợp các cặp có thứ tự $(i, j)$ sao cho $1 \leq i \leq n,\ 1 \leq j \leq n,\ i < j$. Một phép hoán vị $\theta$ được xác định trên C bằng cách đặt $\theta(i, j) = (\sigma(i), \sigma(j))$ nếu $(i, j)$ không phải là một nghịch thế, $\theta(i, j) = (\sigma(j), \sigma(i))$ nếu $(i, j)$ là một nghịch thế. Điều này suy ra $\sigma p = (-1)^{\nu(\sigma)} p$.
 
-#### Định lý 2 {#alg-i-s5-thm-2 .statement}
+#### Định lý 2 {#alg-i-s5-thm-2 .statement tag=05BU}
 
 *Một tập hợp hữu hạn E có một và chỉ một đồng cấu $\varepsilon$ từ $\mathfrak{S}_n$ vào nhóm nhân $\{-1, +1\}$ sao cho $\varepsilon(\tau) = -1$ với mọi phép chuyển vị $\tau$.*
 
@@ -478,13 +478,13 @@ $$
 
 Vì $p \neq -p$, suy ra $\varepsilon(\sigma \sigma') = \varepsilon(\sigma) \varepsilon(\sigma')$ và do đó $\varepsilon$ là một đồng cấu. Bây giờ ta chứng minh rằng, với mọi phép chuyển vị $\tau$, $\varepsilon(\tau) = -1$. $\nu(\tau_{n-1, n}) = 1$, do đó $\varepsilon(\tau_{n-1, n}) = -1$. Vì mọi phép chuyển vị $\tau$ đều liên hợp với $\tau_{n-1, n}$ và nhóm $\{-1, +1\}$ là giao hoán, $\varepsilon(\tau) = \varepsilon(\tau_{n-1, n}) = -1$.
 
-#### Định nghĩa 10 {#alg-i-s5-def-10 .statement}
+#### Định nghĩa 10 {#alg-i-s5-def-10 .statement tag=05BV}
 
 *Theo ký hiệu của Định lý 2, số $\varepsilon(\sigma)$ (cũng được ký hiệu là $\varepsilon_\sigma$) được gọi là dấu của phép hoán vị $\sigma$. Hạt nhân của đồng cấu $\varepsilon$ được gọi là nhóm phản xứng của E.*
 
 $\sigma$ được gọi là *chẵn* (resp. *lẻ*) nếu $\varepsilon(\sigma) = 1$ (resp. $\varepsilon(\sigma) = -1$). Nhóm phản xứng của E được ký hiệu là $\mathfrak{A}_E$. Nó là một nhóm con chuẩn tắc của $\mathfrak{S}_E$. Khi $E = \{1, n\}$, nó được ký hiệu đơn giản là $\mathfrak{A}_n$. Khi lực lượng $n$ của E là $\geq 2$, nó là một nhóm con có chỉ số 2 và do đó có cấp $n! / 2$. Có thể chứng minh rằng, với $n = 3$ hoặc $n \geq 5$, nhóm $\mathfrak{A}_n$ là một nhóm đơn (*xem Bài tập 16*).
 
-#### Ví dụ {#alg-i-s5-n7-exa-1 .statement}
+#### Ví dụ {#alg-i-s5-n7-exa-1 .statement tag=05BW}
 
 Nếu $\sigma$ là một chu trình có cấp $d$, thì
 $$

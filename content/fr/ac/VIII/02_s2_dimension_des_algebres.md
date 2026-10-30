@@ -29,7 +29,7 @@ subsections:
       pdf_page: 23
 statements: 33
 exercises: 18
-content_sha256: 824849cc7a62ef82141e84ff6c74c4336f7b8b3c6c66a18539de92d3e43bae07
+content_sha256: 0b24f30323a97b9c5a7e952b77190b085f0ada74f567608f332e21146938dbd3
 ---
 
 ## § 2. DIMENSION DES ALGÈBRES
@@ -39,19 +39,19 @@ content_sha256: 824849cc7a62ef82141e84ff6c74c4336f7b8b3c6c66a18539de92d3e43bae07
 Soit $\rho : A \to B$ un homomorphisme d’anneaux. On note (PM) la condition suivante :
 (PM) Il existe un B-module N fidèlement plat sur A tel que, pour tout idéal premier q de B, on ait $N \otimes_B \kappa(q) \neq 0$.
 
-#### Remarque 1 {#ac-viii-s2-n1-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s2-n1-rem-1 .statement tag=0CL9}
 
 La condition (PM) est satisfaite lorsqu’il existe un B-module de type fini, fidèlement plat sur A et de support égal à Spec(B). C’est le cas, en particulier, si le A-module B est fidèlement plat.
 
-#### Remarque 2 {#ac-viii-s2-n1-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s2-n1-rem-2 .statement tag=0CLA}
 
 L’existence d’un B-module N fidèlement plat sur A implique l’injectivité de ρ (I, § 3, n° 5, prop. 8), et la surjectivité de l’application “ρ : Spec(B) → Spec(A) (II, § 2, n° 5, cor. 4 à la prop. 11).
 
-#### Remarque 3 {#ac-viii-s2-n1-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s2-n1-rem-3 .statement tag=0CLB}
 
 Supposons que ρ : A → B soit un homomorphisme local d’anneaux locaux et qu’il existe un B-module N plat sur A et tel que N ⊗_B κ(q) ≠ 0 pour tout idéal premier q de B. Alors N est fidèlement plat sur A et ρ jouit donc de la propriété (PM) : en effet on a N/m_B N = N ⊗_B κ(m_B) ≠ 0, donc N ≠ m_B N et a fortiori N ≠ m_A N, et la conclusion résulte de la prop. 1 de I, § 3, n° 1.
 
-#### Proposition 1 {#ac-viii-s2-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s2-prop-1 .statement tag=0CLC}
 
 Soit ρ : A → B un homomorphisme d’anneaux satisfaisant à la condition (PM).
 
@@ -73,7 +73,7 @@ Démontrons b). D’après les prop. 13 et 14 de II, § 3, n° 4, le A_p-modulé
 
 Démontrons c). L’homomorphisme local ρ_q : A_p → B_q déduit de ρ satisfait à la condition (PM) d’après b). L’application Spec(B_q) → Spec(A_p) est donc surjective (remarque 2), ce qu’on voulait démontrer.
 
-#### Corollaire {#ac-viii-s2-n1-cor-1 .statement}
+#### Corollaire {#ac-viii-s2-n1-cor-1 .statement tag=0CLD}
 
 Soit F une partie fermée de Spec(A). Si Y est une composante irréductible de l’image réciproque de F par l’application “ρ : Spec(B) → Spec(A), alors l’adhérence de “ρ(Y) est une composante irréductible de F.
 
@@ -81,7 +81,7 @@ Soient en effet a un idéal de A tel que F = V(a) et q l’idéal premier de B t
 
 Il s’agit de prouver que si q est minimal parmi les idéaux premiers de B contenant $\rho(a)$, alors $\rho^{-1}(q)$ est minimal parmi les idéaux premiers de A contenant a. Dans le cas contraire, il existerait un idéal premier $p'$ de A avec $a \subset p' \subset \rho^{-1}(q)$ et $p' \neq \rho^{-1}(q)$; d’après la prop. 1, c), il existerait un idéal premier $q'$ de B tel que $q' \subset q$ et $p' = \rho^{-1}(q')$, d’où $\rho(a) \subset q' \subset q$ et $q' \neq q$ contrairement à l’hypothèse faite sur q.
 
-#### Proposition 2 {#ac-viii-s2-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s2-prop-2 .statement tag=0CLE}
 
 Soit $\rho : A \to B$ un homomorphisme d’anneaux non nuls possédant la propriété (PM). On a l’inégalité
 
@@ -105,23 +105,23 @@ $$
 $$
 si $p_0 \subset ... \subset p_n$ est une chaîne d’idéaux premiers de A contenus dans m et $\overline{q}_0 \subset ... \subset \overline{q}_r$ une chaîne d’idéaux premiers de B/mB. Pour $0 \leq i \leq r$, il existe un idéal premier $q_{n+i}$ de B au-dessus de m tel que $\overline{q}_i = q_{n+i}/mB$, et $q_n \subset ... \subset q_{n+r}$ est une chaîne d’idéaux premiers de B. Posons $p'_i = p_i$ pour $0 \leq i \leq n-1$ et $p'_n = m$, de sorte que $p'_0 \subset ... \subset p'_n$ est une chaîne d’idéaux premiers de A et que $q_n$ est au-dessus de $p'_n$. Si $q_i$ est un idéal premier de B au-dessus de $p'_i$ ($1 \leq i \leq n$), la prop. 1, c) prouve qu’il existe un idéal premier $q_{i-1}$ de B au-dessus de $p'_{i-1}$ et contenu dans $q_i$. Par récurrence descendante, on construit donc une chaîne $q_0 \subset ... \subset q_n$ d’idéaux premiers de B telle que $q_i$ soit au-dessus de $p_i$ pour $0 \leq i \leq n$. Comme $q_0 \subset ... \subset q_{n+r}$ est une chaîne d’idéaux premiers de B, on a prouvé l’inégalité (3).
 
-#### Remarque 4 {#ac-viii-s2-n1-rem-4 .statement}
+#### Remarque 4 {#ac-viii-s2-n1-rem-4 .statement tag=0CLF}
 
 Soit $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens satisfaisant à la condition (PM). On verra plus loin (§ 3, no 4, prop. 7) qu’on a dans ce cas égalité dans (1). Dans le cas général il peut y avoir inégalité stricte (p. 84, exercice 1).
 
-#### Corollaire {#ac-viii-s2-n1-cor-2 .statement}
+#### Corollaire {#ac-viii-s2-n1-cor-2 .statement tag=0CLG}
 
 Pour tout idéal a de A, on a $\mathrm{ht}(a) \leq \mathrm{ht}(\rho(a)B)$.
 
 Soient q un idéal premier de B contenant $\rho(a)B$, et $p = \rho^{-1}(q)$. D’après la prop. 1, l’homomorphisme local $\rho_q : A_p \to B_q$ déduit de $\rho$ satisfait à (PM), et l’on a donc $\dim(A_p) \leq \dim(B_q)$ d’après la prop. 2. D’après la prop. 7 du § 7, no 3, on a $\mathrm{ht}(a) \leq \dim(A_p)$ puisque p contient a, d’où $\mathrm{ht}(a) \leq \dim(B_q)$ pour tout idéal premier q de B contenant $\rho(a)B$. Le corollaire résulte alors de loc. cit.
 
-#### Lemme 1 {#ac-viii-s2-lem-1 .statement}
+#### Lemme 1 {#ac-viii-s2-lem-1 .statement tag=0CLH}
 
 Soient $\rho : A \to B$ un homomorphisme d’anneaux et p un idéal premier de A. L’application continue $^a h : \mathrm{Spec}(B \otimes_A \kappa(p)) \to \mathrm{Spec}(B)$, associée à l’homomorphisme canonique $h : B \to B \otimes_A \kappa(p)$, *induit un homéomorphisme de* $\mathrm{Spec}(B \otimes_A \kappa(p))$ *sur le sous-espace* $(\alpha\rho)^{-1}(p)$ *de* $\mathrm{Spec}(B)$ *formé des idéaux premiers de* $B$ *au-dessus de* $p$.
 
 L’homomorphisme $h$ est composé de l’homomorphisme de passage au quotient de $B$ dans $B/\rho(p)$ $B$ et de l’homomorphisme canonique de $B/\rho(p)$ $B$ dans son anneau de fractions $(\rho(A - p))^{-1}(B/\rho(p) \ B)$. D’après la remarque et le corollaire à la prop. 13 de II, § 4, no 3, $^a h$ induit donc un homéomorphisme de $\mathrm{Spec}(B \otimes_A \kappa(p))$ sur le sous-espace de $\mathrm{Spec}(B)$ formé des idéaux premiers $q$ de $B$ qui contiennent $\rho(p)$ et sont disjoints de $\rho(A - p)$, c’est-à-dire qui sont au-dessus de $p$.
 
-#### Remarque 5 {#ac-viii-s2-n1-rem-5 .statement}
+#### Remarque 5 {#ac-viii-s2-n1-rem-5 .statement tag=0CLI}
 
 D’après la prop. 2 et le lemme 1, on a donc, sous les hypothèses de la prop. 2, l’inégalité
 $$
@@ -130,7 +130,7 @@ $$
 
 ### 2. Dimension d’une algèbre de type fini
 
-#### Proposition 3 {#ac-viii-s2-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s2-prop-3 .statement tag=0CLJ}
 
 *Soit* $\rho : A \to B$ *un homomorphisme d’anneaux*. *Posons*
 $n = \sup_{p \in \mathrm{Spec}(A)} \dim(B \otimes_A \kappa(p))$. *On a l’inégalité*
@@ -140,15 +140,15 @@ $$
 
 On peut supposer $\dim(A) \neq -\infty$ et $n < +\infty$. Soit $q_0 \subset ... \subset q_m$ une chaîne d’idéaux premiers de $B$; posons $p_i = \rho^{-1}(q_i)$. La suite des $p_i$ est croissante, donc l’ensemble de ses valeurs est de cardinal $\leq \dim(A) + 1$. Pour chaque $p \in \mathrm{Spec}(A)$, l’ensemble des $q_j$ tels que $p_j = p$ est une chaîne de la partie $^a\rho^{-1}(p)$ de $\mathrm{Spec}(B)$, donc est de cardinal inférieur à $\dim(B \otimes_A \kappa(p)) + 1$ (no 1, lemme 1), et par conséquent à $(n + 1)$. Il en résulte que $m + 1 \leq (\dim(A) + 1)(n + 1)$, d’où la proposition.
 
-#### Remarque 1 {#ac-viii-s2-n2-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s2-n2-rem-1 .statement tag=0CLK}
 
 Si les anneaux $A$ et $B$ sont noethériens, nous verrons ci-dessous (§ 3, no 4, cor. 2 à la prop. 7) qu’on a l’inégalité $\dim(B) \leq \dim(A) + n$, plus forte que celle de la prop. 3.
 
-#### Corollaire 1 {#ac-viii-s2-prop-3-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s2-prop-3-cor-1 .statement tag=0CLL}
 
 *Supposons qu’on ait* $\dim(A) < +\infty$ *et qu’il existe un entier* $n$ *tel que* $\dim(B \otimes_A \kappa(p)) \leq n$ *pour tout* $p \in \mathrm{Spec}(A)$. *Alors on a* $\dim(B) < +\infty$.
 
-#### Corollaire 2 {#ac-viii-s2-prop-3-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s2-prop-3-cor-2 .statement tag=0CLM}
 
 *Soient* $A$ *un anneau et* $B = A[X]$ *l’anneau des polynômes en une indéterminée à coefficients dans* $A$. *On a* :
 $$
@@ -157,13 +157,13 @@ $$
 
 La première inégalité a déjà été démontrée (§ 1, no 3, exemple 4). Démontrons la seconde. Pour tout idéal premier $p$ de $A$, l’anneau $B \otimes_A \kappa(p)$, isomorphe à $\kappa(p)[X]$, est principal et n’est pas un corps, donc est de dimension 1 (§ 1, no 3, exemple 2), et l’inégalité résulte de la prop. 3.
 
-#### Remarque 2 {#ac-viii-s2-n2-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s2-n2-rem-2 .statement tag=0CLN}
 
 Nous verrons plus loin ( , no 4, cor. 3 à la prop. 7) que, si A est noethérien, on a dim(A[X]) = 1 + dim(A)
 
 Cependant, quels que soient les entiers n et q avec n + 1 ≤ q ≤ 2n + 1, il existe un anneau A de dimension n tel que dim(A[X]) = q (voir p. 84, exerc. 7).
 
-#### Corollaire 3 {#ac-viii-s2-prop-3-cor-3 .statement}
+#### Corollaire 3 {#ac-viii-s2-prop-3-cor-3 .statement tag=0CLO}
 
 Si A est de dimension finie, toute A-algèbre non nulle de type fini est de dimension finie.
 
@@ -171,13 +171,13 @@ On déduit en effet du cor. 2, par récurrence sur n, que l’anneau A[T₁, ...
 
 ### 3. Dimension d’une algèbre entière
 
-#### Lemme 2 {#ac-viii-s2-lem-2 .statement}
+#### Lemme 2 {#ac-viii-s2-lem-2 .statement tag=0CLP}
 
 Soit ρ : A → B un homomorphisme d’anneaux tel que, pour tout idéal premier p de A, la κ(p)-algèbre B ⊗ₓₐ κ(p) soit entière (V, § 1, no 1, déf. 2). Soient q et q’ deux idéaux premiers de B tels que q ⊂ q’ et q ≠ q’. Alors ρ⁻¹(q) ≠ ρ⁻¹(q’).
 
 En effet, si q et q’ sont au-dessus d’un même idéal premier p de A, on a dim(B ⊗ₓₐ κ(p)) ≥ 1 d’après le lemme 1 du no 1, ce qui contredit le fait que dim(B ⊗ₓₐ κ(p)) ≤ 0 (§ 1, no 3, exemple 6).
 
-#### Théorème 1 {#ac-viii-s2-thm-1 .statement}
+#### Théorème 1 {#ac-viii-s2-thm-1 .statement tag=0CLQ}
 
 Soit ρ : A → B un homomorphisme d’anneaux faisant de B une A-algèbre entière.
 
@@ -203,13 +203,13 @@ d’après la prop. 6 du § 1, no 3 et l’assertion $a$ ci-dessus. On a ainsi p
 
 Enfin, $c$ résulte de $b$ appliqué à l’annulateur $b$ de $N$.
 
-#### Théorème 2 {#ac-viii-s2-thm-2 .statement}
+#### Théorème 2 {#ac-viii-s2-thm-2 .statement tag=0CLR}
 
 Soient $A$ un anneau intégralement clos, et $B$ un anneau contenant $A$, entier sur $A$. On suppose que $B$ est un $A$-module sans torsion. Pour tout idéal $a$ de $A$, on a $\operatorname{ht}(a) = \operatorname{ht}(aB)$. Soient $b$ un idéal de $B$ et $a = b \cap A$; on a alors $\operatorname{ht}(a) = \operatorname{ht}(b)$.
 
 Soit $\rho$ l’application canonique de $A$ dans $B$. Soient $a$ un idéal de $A$. Si $a = A$, la première égalité est claire. Supposons $a \neq A$. Comme $\rho$ est injectif, $^a\rho$ est surjectif (V, § 2, no 1, th. 1). Par suite $aB \neq B$. Soit alors $q$ un idéal premier de $B$ contenant $aB$. Posons $p = q \cap A$. On a $a \subset p$, d’où $\operatorname{ht}(a) \leq \operatorname{ht}(p)$. Soit $p_0 \subset ... \subset p_n$ une chaîne d’idéaux premiers de $A$ avec $p_n = p$. D’après le deuxième théorème d’existence (V, § 2, no 4, th. 3), on construit par récurrence une chaîne $q_0 \subset ... \subset q_n$ d’idéaux premiers de $B$ telle que $q_n = q$ et $q_i$ soit au-dessus de $p_i$ pour $0 \leq i \leq n$. On a $n \leq \operatorname{ht}(q)$, d’où $\operatorname{ht}(a) \leq \operatorname{ht}(q)$. En passant à la borne inférieure on obtient $\operatorname{ht}(a) \leq \operatorname{ht}(aB)$ ($§ 1$, no 3, prop. 7). L’inégalité $\operatorname{ht}(aB) \leq \operatorname{ht}(a)$ résulte du th. 1, d’où la première égalité. Soit $b$ un idéal de $B$. Posons $a = \rho^{-1}(b)$. On a $aB \subset b$, d’où $\operatorname{ht}(a) = \operatorname{ht}(aB) \leq \operatorname{ht}(b)$. L’inégalité $\operatorname{ht}(b) \leq \operatorname{ht}(a)$ résulte du th. 1, d’où le théorème.
 
-#### Remarque {#ac-viii-s2-n3-rem-1 .statement}
+#### Remarque {#ac-viii-s2-n3-rem-1 .statement tag=0CLS}
 
 Soient $A$ un anneau intègre et $B$ un anneau contenant $A$, entier sur $A$. Soit $p$ un idéal premier de $A$ tel que la clôture intégrale de $A_p$ soit un anneau local. On peut démontrer que, pour tout idéal premier $q$ de $B$ au-dessus de $p$, on a $\operatorname{ht}(p) = \operatorname{ht}(q)$ (p. 85, exerc. 9) lorsque $B$ est intègre.
 
@@ -217,7 +217,7 @@ Soient $A$ un anneau intègre et $B$ un anneau contenant $A$, entier sur $A$. So
 
 Dans ce numéro, $k$ désigne un corps.
 
-#### Lemme 3 {#ac-viii-s2-lem-3 .statement}
+#### Lemme 3 {#ac-viii-s2-lem-3 .statement tag=0CLT}
 
 Soient $A$ une $k$-algèbre de type fini et $p_0 \subset ... \subset p_m$ une chaîne maximale d’idéaux premiers de $A$. Il existe un entier $n \geq m$, une suite $(x_1, ..., x_n)$ d’éléments de $A$, algébriquement libre sur $k$ (A, IV, p. 4), et telle que :
 a) $A$ soit entier sur l’anneau $B = k[x_1, ..., x_n]$;
@@ -231,7 +231,7 @@ $$
 
 Il en résulte que l’on a $h(j+1) \leq h(j) + 1$ et $q_{j+1} \neq q_j$, d’où $h(j+1) = h(j) + 1$. Mais on a $h(m) = n$ puisque $q_m$ est maximal (V, § 2, no 1, prop. 1), d’où finalement $h(j) = n - m + j$.
 
-#### Théorème 3 {#ac-viii-s2-thm-3 .statement}
+#### Théorème 3 {#ac-viii-s2-thm-3 .statement tag=0CLU}
 
 Soit $A$ une $k$-algèbre de type fini.
 a) Pour tout idéal premier minimal $p$ de $A$, toutes les chaînes maximales d’idéaux premiers de $A$ d’origine $p$ ont pour longueur l’entier $\deg.\mathrm{tr}_k \kappa(p)$.
@@ -240,7 +240,7 @@ c) Si $A$ est intègre, alors toutes les chaînes maximales d’idéaux premiers
 
 Supposons $A$ intègre et considérons une chaîne maximale $p_0 \subset ... \subset p_m$ d’idéaux premiers de $A$. On a $p_0 = 0$. On déduit alors du lemme 3 l’existence d’un homomorphisme injectif $\varphi : k[X_1, ..., X_m] \to A$ de $k$-algèbres qui fait de $A$ une $k[X_1, ..., X_m]$-algèbre finie. Par suite, le degré de transcendance sur $k$ du corps des fractions de $A$ est égal à $m$, d’où c). L’assertion a) résulte de l’assertion c) appliquée à l’anneau $A/p$ et l’assertion b) est une conséquence immédiate de a) et de la prop. 5 du § 1, no 2.
 
-#### Corollaire 1 {#ac-viii-s2-thm-3-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s2-thm-3-cor-1 .statement tag=0CLV}
 
 Soit $n$ un entier positif. On a
 
@@ -252,7 +252,7 @@ Pour qu’une k-algèbre A de type fini soit de dimension n, il faut et il suffi
 
 Cela résulte du th. 3, du lemme de normalisation (V, § 3, no 1, th. 1) et du th. 1, a) du no 3.
 
-#### Corollaire 2 {#ac-viii-s2-thm-3-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s2-thm-3-cor-2 .statement tag=0CLW}
 
 Soit A une k-algèbre intègre de type fini. Pour tout idéal premier p de A, on a
 
@@ -267,13 +267,13 @@ En particulier, on a $\operatorname{ht}(m) = \dim(A_m) = \dim(A)$ pour tout idé
 
 Cela résulte du th. 3 et de la remarque 4 du § 1, no 3.
 
-#### Corollaire 3 {#ac-viii-s2-thm-3-cor-3 .statement}
+#### Corollaire 3 {#ac-viii-s2-thm-3-cor-3 .statement tag=0CLX}
 
 Soit A une k-algèbre de type fini et soit f un élément de A qui n’appartienne à aucun idéal premier minimal de A (par exemple un élément de A non diviseur de zéro, cf. IV, § 1, no 1, cor. 3 à la prop. 2 et no 3, cor. 1 à la prop. 7). On a $\dim(A) = \dim(A_f)$.
 
 L’application $p \mapsto pA_f$ est une bijection de l’ensemble des idéaux premiers minimaux de A sur l’ensemble des idéaux premiers minimaux de $A_f$. Par ailleurs les anneaux $A/p$ et $A_f/pA_f = (A/p)_f$ ont même corps des fractions. Il suffit donc d’appliquer le th. 3, b).
 
-#### Corollaire 4 {#ac-viii-s2-thm-3-cor-4 .statement}
+#### Corollaire 4 {#ac-viii-s2-thm-3-cor-4 .statement tag=0CLY}
 
 Soient A une k-algèbre de type fini et p un idéal premier de A.
 
@@ -285,7 +285,7 @@ Si p est un idéal maximal de A, alors $A/p$ est un corps, donc un anneau de dim
 
 L’assertion a) du cor. 4 est une forme du théorème des zéros (V, § 3, no 3, prop. 1).
 
-#### Corollaire 5 {#ac-viii-s2-thm-3-cor-5 .statement}
+#### Corollaire 5 {#ac-viii-s2-thm-3-cor-5 .statement tag=0CLZ}
 
 Soient A une k-algèbre de type fini, p un idéal premier de A et $(\mathfrak{p}_i)_{i \in I}$ la famille des idéaux premiers minimaux de A contenus dans p. On a :
 
@@ -303,7 +303,7 @@ On a $\dim_p(A) = \sup_{i \in I} \dim_{p/p_i}(A/p_i)$ (§ 1, n° 3, prop. 6). Ma
 
 Ainsi $\dim_p(A)$ est la borne supérieure des longueurs des chaînes d’idéaux premiers de $A$ dont $p$ est un élément.
 
-#### Corollaire 6 {#ac-viii-s2-thm-3-cor-6 .statement}
+#### Corollaire 6 {#ac-viii-s2-thm-3-cor-6 .statement tag=0CM0}
 
 *Soit A une k-algèbre de type fini non réduite à 0, et soit n un entier $\geqslant 0$. Les conditions suivantes sont équivalentes :*
 
@@ -317,11 +317,11 @@ L’équivalence de a) et b) est immédiate. Montrons que a) implique c). D’ap
 
 Inversement, supposons la condition c) satisfaite. Pour tout idéal premier $p \in \operatorname{Ass}(A)$, l’homomorphisme $k[X_1, ..., X_n] \to A/p$ déduit de $\varphi$ est injectif (*loc. cit.*). On a donc $\dim(A/p) = n$ d’après le cor. 1.
 
-#### Remarque 1 {#ac-viii-s2-n4-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s2-n4-rem-1 .statement tag=0CM1}
 
 D’après le cor. 5, les conditions a), b), c) du cor. 6 impliquent qu’on a $\dim_p(A) = \dim(A)$ pour tout idéal premier $p$ de A.
 
-#### Proposition 4 {#ac-viii-s2-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s2-prop-4 .statement tag=0CM2}
 
 *Soient A et B deux k-algèbres de type fini et $\rho : A \to B$ un homomorphisme d’algèbres. Supposons que A soit intègre et que le A-module B soit sans torsion, et notons K le corps des fractions de A. On a*
 
@@ -348,19 +348,19 @@ d’où le résultat dans ce cas.
 
 Passons au cas général. Tout idéal premier minimal $p$ de $B$ est formé de diviseurs de zéro dans $B$, donc est au-dessus de l’idéal 0 de $A$. Il en résulte que l’application $p \mapsto p . (B \otimes_A K)$ est une bijection de l’ensemble des idéaux premiers minimaux de $B$ sur l’ensemble des idéaux premiers minimaux de $B \otimes_A K$. La proposition résulte donc de la première partie de la démonstration et de la prop. 6, c) du § 1, no 3.
 
-#### Corollaire {#ac-viii-s2-n4-cor-1 .statement}
+#### Corollaire {#ac-viii-s2-n4-cor-1 .statement tag=0CM3}
 
 *Soit $\rho : A \to B$ un homomorphisme injectif de k-algèbres de type fini.* *On a* $\dim(A) \leq \dim(B)$.
 
 En effet, soit $p$ un idéal premier minimal de $A$ tel que $\dim(A) = \dim(A/p)$. Il existe un idéal premier $q$ de $B$ au-dessus de $p$ (II, § 2, no 6, prop. 16). D’après la prop. 4 appliquée à $A/p$ et $B/q$, on a $\dim(A) = \dim(A/p) \leq \dim(B/q) \leq \dim(B)$, d’où le corollaire.
 
-#### Lemme 4 {#ac-viii-s2-lem-4 .statement}
+#### Lemme 4 {#ac-viii-s2-lem-4 .statement tag=0CM4}
 
 *Soient $A$ et $B$ deux k-algèbres intègres, $M$ un $A$-module sans torsion, $N$ un $B$-module sans torsion. Si l’anneau $A \otimes_k B$ est intègre, alors $M \otimes_k N$ est un module sans torsion sur $A \otimes_k B$.
 
 Soit $K$ (resp. $L$) le corps des fractions de $A$ (resp. $B$). Il existe un ensemble $I$ (resp. $J$) tel que $M$ (resp. $N$) soit isomorphe à un sous-module de $K^{(I)}$ (resp. $L^{(J)}$). Le $(A \otimes_k B)$-module $M \otimes_k N$ est alors isomorphe à un sous-module de $K^{(I)} \otimes_k L^{(J)}$, qui est isomorphe à $(K \otimes_k L)^{(I \times J)}$. Comme $K \otimes_k L$ est un anneau de fractions de l’anneau intègre $A \otimes_k B$, c’est un module sans torsion sur $A \otimes_k B$, d’où le lemme.
 
-#### Proposition 5 {#ac-viii-s2-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s2-prop-5 .statement tag=0CM5}
 
 *Soient $k'$ une extension de $k$, $A$ une k-algèbre de type fini et $B$ une $k'$-algèbre de type fini.
 
@@ -410,7 +410,7 @@ $$
 
 ce qui achève la démonstration.
 
-#### Corollaire {#ac-viii-s2-n4-cor-2 .statement}
+#### Corollaire {#ac-viii-s2-n4-cor-2 .statement tag=0CM6}
 
 *Soient A une k-algèbre de type fini, k' une extension de k, et A' la k'-algèbre A \otimes_k k'.*
 
@@ -426,7 +426,7 @@ $$
 \dim(A'/p') = \dim_{p'}(A') = \dim_p(A) = \dim(A/p).
 $$
 
-#### Remarque 2 {#ac-viii-s2-n4-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s2-n4-rem-2 .statement tag=0CM7}
 
 *Supposons l’extension k' de k radicielle. Alors l’application canonique $f : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ est un homéomorphisme.*
 

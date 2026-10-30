@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: 1d3318a3bf52d063938f4e248e40b6c17af05eae04d9e78600c4a072e2fe0e57
+content_sha256: d6a221a394b3f767a59c9e2031bfc9d68c5a70c5b21c22dfd6eef5d7f40d0051
 translated_from: content/en-mt/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md
 source_lang: en-mt
 translation_method: machine
@@ -58,7 +58,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $A$ là một vành. Quan hệ "$I$ là một lớp các $A$-môđun đơn ánh không phân tích được" là xác định tập (A, X, p. 21, Hệ quả 1); ta ký hiệu bởi $\mathscr{J}(A)$ tập hợp các lớp các $A$-môđun đơn ánh không phân tích được.
 
-#### Mệnh đề 1 {#ac-x-s8-prop-1 .statement}
+#### Mệnh đề 1 {#ac-x-s8-prop-1 .statement tag=0DAA}
 
 Cho $A$ là một vành Noether. Với mọi iđêan nguyên tố $\mathfrak{p}$ của $A$, gọi $e_{\mathfrak{p}} : A/\mathfrak{p} \to I(\mathfrak{p})$ là một bao đơn ánh của $A/\mathfrak{p}$ (A, X, § 1, No. 9).
 
@@ -74,23 +74,23 @@ Cho $I$ là một $A$-môđun đơn ánh không phân tích được, và cho $\
 
 Như vậy ta đã xác định hai ánh xạ $\mathfrak{p} \mapsto \mathrm{cl}(I(\mathfrak{p}))$ từ $\mathrm{Spec}(A)$ vào $\mathscr{J}(A)$ và $I \mapsto \mathfrak{p}(I)$ từ $\mathscr{J}(A)$ vào $\mathrm{Spec}(A)$; hãy chứng minh rằng hai ánh xạ này là hai song ánh nghịch đảo của nhau. Cho $\mathfrak{p} \in \mathrm{Spec}(A)$; khi đó $\mathfrak{p}$ thuộc $\mathrm{Ass}(I(\mathfrak{p}))$, và vì thế là phần tử duy nhất của $\mathrm{Ass}(I(\mathfrak{p}))$. Cho $I$ là một $A$-môđun đơn ánh không phân tích được, và $\mathfrak{p}$ là phần tử duy nhất của $\mathrm{Ass}(I)$; khi đó $I$ là một bao đơn ánh của $A/\mathfrak{p}$ (A, X, p. 21, Mệnh đề 14). Điều này hoàn tất chứng minh của mệnh đề.
 
-#### Nhận xét 1 {#ac-x-s8-n1-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s8-n1-rem-1 .statement tag=0DAB}
 
 Cho $I$ là một $A$-môđun đơn ánh không phân tích được, và cho $\mathfrak{p}$ là phần tử duy nhất của $\mathrm{Ass}(I)$; theo Mệnh đề 1, $I$ chứa một môđun con đẳng cấu với $A/\mathfrak{p}$ mà nó là bao đơn ánh. Nói chung một môđun con như thế không duy nhất, như thấy được khi lấy $A = \mathbf{Z}$, $\mathfrak{p} = 0$, $I = \mathbf{Q}$.
 
 Với mỗi iđêan nguyên tố $\mathfrak{p}$ của $A$, ta hãy chọn như trên một bao đơn ánh $(I(\mathfrak{p}), e_{\mathfrak{p}})$ của $A/\mathfrak{p}$. Theo A, X, p. 22, Định lý 3, ta có:
 
-#### Định lý 1 {#ac-x-s8-thm-1 .statement}
+#### Định lý 1 {#ac-x-s8-thm-1 .statement tag=0DAC}
 
 Cho $A$ là một vành Noether. Với mọi $A$-môđun đơn ánh $I$, tồn tại một và chỉ một họ các lực lượng $(a_{\mathfrak{p}})_{\mathfrak{p} \in \mathrm{Spec}(A)}$ sao cho $I$ đẳng cấu với $\bigoplus_{\mathfrak{p}} I(\mathfrak{p})^{(a_{\mathfrak{p}})}$.
 
-#### Nhận xét 2 {#ac-x-s8-n1-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s8-n1-rem-2 .statement tag=0DAD}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun, $e : M \to I$ là một bao đơn ánh của $M$. *Tập hợp Ass(M) bằng Ass(I)*: thật vậy, bao hàm $Ass(M) \subset Ass(I)$ là hiển nhiên. Mặt khác, nếu $p$ là một phần tử của $Ass(I)$, thì $I$ chứa một môđun con $N$ đẳng cấu với $A/p$; vì $A$-môđun $e^{-1}(N)$ là khác không, nên ta có $Ass(e^{-1}(N)) = \{p\}$ (IV, § 1, No. 1, Mệnh đề 1). Điều này chứng minh rằng $p$ liên kết với $e^{-1}(N)$, do đó với $M$, do đó mệnh đề của ta.
 
 Giữ lại các ký hiệu của định lý, và giả sử thêm rằng $Ass(M)$ là hữu hạn. Với mọi $q \in Ass(M)$, gọi $Q_q$ là giao với $M$ của $\bigoplus_{p \in Ass(M) - \{q\}} I(p)^{(a_p)}$. Khi đó $(Q_q)_{q \in Ass(M)}$ *là một phân tích nguyên sơ tối giản của 0 trong M* (IV, § 2, No. 3, Def. 3). Thật vậy $\cap Q_q = 0$; vì $M/Q_q$ được đồng nhất với một môđun con khác không của $I(q)^{(a_q)}$, ta có $Ass(M/Q_q) = \{q\}$, và chỉ cần áp dụng Mệnh đề 4 của *loc. cit*.
 
-#### Ví dụ {#ac-x-s8-n1-exa-1 .statement}
+#### Ví dụ {#ac-x-s8-n1-exa-1 .statement tag=0DAE}
 
 Cho $A$ là một miền iđêan chính, và gọi $K$ là trường phân thức của nó. Các $A$-môđun nội xạ là các $A$-môđun chia được (A, X, p. 17, Hệ quả 2). $A$-môđun $K$ là một bao nội xạ của $A$ (A, X, p. 20, Ví dụ 1). Gọi $p$ là một phần tử cực đại của $A$, và $p$ là iđêan (cực đại) $Ap$; gọi $e : A/p \longrightarrow K/A_p$ là đồng cấu ánh xạ lớp của một phần tử $a \in A$ vào lớp của $a/p$. Ta sẽ chứng minh rằng $(K/A_p, e)$ *là một bao nội xạ của $A/p$*. Đồng cấu $e$ là đơn ánh. $A$-môđun $K/A_p$ là một thương của một môđun chia được, nên là chia được. Gọi $x$ là một phần tử khác không của $K/A_p$; nó là lớp của một phần tử $a/p^n$ của $K$, với $a \in A - \{0\}$ và $n \geqslant 1$ (A, VII, p. 10, định lý 2). Khi đó $p^{n-1}x = e(a)$, nên $e^{-1}(Ax) \neq 0$, điều này chứng minh mệnh đề của ta.
 
@@ -98,7 +98,7 @@ Khi đó từ định lý 1 suy ra rằng *mọi $A$-môđun chia được đề
 
 ### 2. Cấu trúc của các môđun nội xạ không phân tích được
 
-#### Bổ đề 1 {#ac-x-s8-lem-1 .statement}
+#### Bổ đề 1 {#ac-x-s8-lem-1 .statement tag=0DAF}
 
 Cho $A$ là một vành, $a$ là một iđêan của $A$, và $I$ là một $A$-môđun. Với mọi số nguyên $n \geqslant 0$, gọi $I_n$ là môđun con của $I$ gồm các phần tử bị triệt tiêu bởi $a^n$.
 
@@ -124,7 +124,7 @@ $$
 
 Với $a \in \mathrm{gr}(A)$, $x \in \mathrm{gr}^\alpha(E)$, theo định nghĩa $\beta_E(x)(a)$ là thành phần trong $\mathrm{gr}^\alpha(E)_0 = E_1$ của phần tử $ax$ của $\mathrm{gr}^\alpha(E)$. Suy ra rằng $\beta_E$ là $\mathrm{gr}(A)$-tuyến tính khi ta trang bị cho $\mathrm{Hom}_{\mathrm{gr}_{A/\alpha}}(\mathrm{gr}(A), E_1)$ cấu trúc $\mathrm{gr}(A)$-môđun được xác định bởi công thức $(bf)(a) = f(ab)$ với $a, b$ trong $\mathrm{gr}(A)$ và $f$ trong $\mathrm{Hom}_{\mathrm{gr}_{A/\alpha}}(\mathrm{gr}(A), E_1)$.
 
-#### Mệnh đề 2 {#ac-x-s8-prop-2 .statement}
+#### Mệnh đề 2 {#ac-x-s8-prop-2 .statement tag=0DAG}
 
 *Cho $A$ là một vành Noether, $\alpha$ là một iđêan của $A$, $E$ là một $A$-môđun và $M$ là một môđun con-$A$ của $E$ bị triệt tiêu bởi $\alpha$. Các điều kiện sau là tương đương:*
     (i) *$E$ là một bao đơn ánh của $M$* ;
@@ -150,7 +150,7 @@ $$
 
 Vì $E_1$ và $I_1$ là các bao đơn ánh của $A/\alpha$-môđun $M$, nên đồng cấu $\varphi_1$ là song ánh; vì $\beta_E$ và $\beta_I$ là song ánh, suy ra $\operatorname{gr}^{a}(\varphi)$ là song ánh. Điều này kéo theo, bằng quy nạp theo $n$, rằng $\varphi$ cảm sinh một song ánh từ $E_n$ lên $I_n$ với mọi $n \geq 1$; do đó $\varphi$ là song ánh, điều này kéo theo (i).
 
-#### Bổ đề 2 {#ac-x-s8-lem-2 .statement}
+#### Bổ đề 2 {#ac-x-s8-lem-2 .statement tag=0DAH}
 
 *Cho $A$ là một vành, $\alpha$ là một iđêan hữu hạn sinh của $A$, và $M$ là một $A$-môđun mà mỗi phần tử đều bị triệt tiêu bởi một lũy thừa của $\alpha$. Ký hiệu $\widehat{A}$ là bổ sung tách của $A$ đối với tôpô $\alpha$-adic.*
 
@@ -170,7 +170,7 @@ $$
 
 nên $u$ là $\widehat{A}$-tuyến tính.
 
-#### Mệnh đề 3 {#ac-x-s8-prop-3 .statement}
+#### Mệnh đề 3 {#ac-x-s8-prop-3 .statement tag=0DAI}
 
 *Cho $A$ là một vành Noether, $p$ là một iđêan nguyên tố của $A$, và $e : A/p \to I$ là một bao nội xạ của $A$-môđun $A/p$. Với mỗi số nguyên $n \geq 0$, ký hiệu $I_n$ là môđun con của $I$ gồm các phần tử bị triệt tiêu bởi $p^n$.*
 
@@ -200,11 +200,11 @@ $$
 
 (công thức (1)). Ánh xạ tuyến tính $I_{n+1}/I_n \longrightarrow \mathrm{Hom}_{\kappa(\mathfrak{p})}(\mathfrak{p}^n A_p/\mathfrak{p}^{n+1} A_p, I_1)$ liên kết với nó ở bên trái được đồng nhất với $\beta_{I,-n}$, và ánh xạ liên kết với nó ở bên phải là $\alpha'_{n+1}$. Vì $\beta_{I,-n}$ là song ánh theo a), điều tương tự cũng đúng với $\alpha'_{n+1}$; khi đó từ biểu đồ trên, bằng quy nạp theo $n$, suy ra $\alpha_n$ là một đẳng cấu với mọi $n$. Vì $I$ là hợp của các $I_n$, ánh xạ chính tắc $\mathrm{End}_A(I) \to \varprojlim \mathrm{Hom}_A(I_n, I)$ là song ánh; do đó đồng cấu vành $\widehat{A_p} \to \mathrm{End}_A(I)$, được đồng nhất với giới hạn xạ ảnh của các ánh xạ $\alpha_n$, là song ánh.
 
-#### Nhận xét {#ac-x-s8-n2-rem-1 .statement}
+#### Nhận xét {#ac-x-s8-n2-rem-1 .statement tag=0DAJ}
 
 Suy ra từ chứng minh trước rằng linh hóa tử của $I_n$ trong $\widehat{A_p}$ (resp. trong $A_p$) là $\mathfrak{p}^n \widehat{A_p}$ (resp. $\mathfrak{p}^n A_p$). Do đó linh hóa tử của A-môđun $I_n$ là ảnh ngược trong $A$ của iđêan $\mathfrak{p}^n A_p$, đôi khi được ký hiệu bởi $\mathfrak{p}^{(n)}$ và được gọi là lũy thừa ký hiệu thứ $n$ của iđêan nguyên tố $\mathfrak{p}$.
 
-#### Hệ quả {#ac-x-s8-n2-cor-1 .statement}
+#### Hệ quả {#ac-x-s8-n2-cor-1 .statement tag=0DAK}
 
 Cho J là một A-môđun đơn ánh sao cho Ass_A(J) = {p}.
 
@@ -218,7 +218,7 @@ Thật vậy, J đẳng cấu với một A-môđun I^{(c)}, trong đó c là m�
 
 Trong No. này, ta giả sử rằng vành A là địa phương Noether.
 
-#### Định nghĩa {#ac-x-s8-n3-def-1 .statement}
+#### Định nghĩa {#ac-x-s8-n3-def-1 .statement tag=0DAL}
 
 Ta nói rằng một A-môđun I là một Matlis A-môđun nếu nó là đơn ánh, nếu m_A là iđêan nguyên tố liên kết duy nhất của nó, và nếu không gian vectơ trên κ_A Hom_A(κ_A, I) có chiều bằng 1.
 
@@ -232,7 +232,7 @@ $$
 
 là một đẳng cấu. Theo mệnh đề 3 của No. 2, cấu trúc A-môđun của I kéo dài thành một cấu trúc $\widehat{A}$-môđun duy nhất, và đồng cấu chính tắc $\widehat{A} \to \operatorname{End}_A(I)$ là song ánh.
 
-#### Bổ đề 3 {#ac-x-s8-lem-3 .statement}
+#### Bổ đề 3 {#ac-x-s8-lem-3 .statement tag=0DAM}
 
 Cho I là một Matlis A-môđun. Khi đó:
 
@@ -247,7 +247,7 @@ Như vậy, cho $M_0 \supset M_1 \supset \ldots \supset M_n \supset \ldots$ là 
 
 Cho $M$ là một A-môđun. Nhắc lại (A, VIII, § 4, No. 6) rằng đế của $M$ là tổng của các môđun con đơn của $M$, tức là tập các phần tử của $M$ bị triệt tiêu bởi $m_A$; nó là một không gian vectơ trên $\kappa_A$, đẳng cấu chính tắc với $\mathrm{Hom}_A(\kappa_A, M)$.
 
-#### Bổ đề 4 {#ac-x-s8-lem-4 .statement}
+#### Bổ đề 4 {#ac-x-s8-lem-4 .statement tag=0DAN}
 
 *Cho I là một Matlis A-môđun và M là một $A$-môđun. Các điều kiện sau là tương đương :*
 
@@ -263,7 +263,7 @@ Cho $M$ là một A-môđun. Nhắc lại (A, VIII, § 4, No. 6) rằng đế c�
 
 (ii) $\Rightarrow$ (iii): giả sử điều kiện (ii) được thỏa mãn; gọi $e : M \to J$ là một bao nội xạ của $M$. Ta có $\mathrm{Ass}(M) \subset \{m_A\}$, do đó $\mathrm{Ass}(J) \subset \{m_A\}$ (No. 1, Nhận xét 2), và $J$ đẳng cấu với $I^{(c)}$ với một lực lượng $c$ (No. 1, Định lý 1). Gọi $x$ là một phần tử khác không của $J$ bị triệt tiêu bởi $m_A$; vì A-môđun $Ax$ là đơn và giao của nó với $e(M)$ không phải chỉ là 0, nên $x$ thuộc $e(M)$. Vậy $e$ gây ra một đẳng cấu từ đế của $M$ lên đế của $J$; do đó đế của $M$ có số chiều bằng $c$, điều này chứng minh (iii) cũng như khẳng định cuối cùng.
 
-#### Bổ đề 5 {#ac-x-s8-lem-5 .statement}
+#### Bổ đề 5 {#ac-x-s8-lem-5 .statement tag=0DAO}
 
 *Mọi $\widehat{A}$-môđun Artin đều là Artin như một $A$-môđun.*
 
@@ -289,7 +289,7 @@ $$
 $$
 Ta ký hiệu bởi $\widehat{\alpha}_M : \widehat{A} \otimes_A M \longrightarrow D_{\widehat{A}}(D_A(M))$ ánh xạ tuyến tính $\widehat{A}$ suy ra từ $\alpha_M$.
 
-#### Định lý 2 {#ac-x-s8-thm-2 .statement}
+#### Định lý 2 {#ac-x-s8-thm-2 .statement tag=0DAP}
 
 *Cho $M$ là một $A$-môđun.*
 
@@ -359,7 +359,7 @@ $$
 
 kết luận bằng quy nạp theo số nguyên $\operatorname{long}_A(M)$.
 
-#### Nhận xét {#ac-x-s8-n3-rem-1 .statement}
+#### Nhận xét {#ac-x-s8-n3-rem-1 .statement tag=0DAQ}
 
 Giả sử vành $A$ là Artin. Ta có $\operatorname{long}_A(I) = \operatorname{long}_A(D_A(A)) = \operatorname{long}(A)$ (Định lý 2, c)). Cho $M$ là một A-môđun sinh hữu hạn; nó thừa nhận một bao nội xạ đẳng cấu với $I^s$, trong đó $s$ là chiều của đế của $M$ (Bổ đề 4). Do đó ta có $\operatorname{long}_A(M) \leq s \operatorname{long}(A)$; để có đẳng thức, điều kiện cần và đủ là $M$ nội xạ. Đặc biệt, để A-môđun $A$ là nội xạ, điều kiện cần và đủ là đế của nó có chiều 1; như vậy ta thu được lại Bổ đề 1 của § 3, No. 7.
 
@@ -377,7 +377,7 @@ ta có $\operatorname{long}_A(M) = \varepsilon(z_0(M))$ (*loc. cit.*, ví dụ 3
 
 Cho $J$ là một $A$-môđun Matlis. Với mọi $A$-môđun $M$, ta sẽ ký hiệu bởi $D_A(M)$, hoặc đơn giản bởi $D(M)$, $A$-môđun $\operatorname{Hom}_A(M, J)$. Cho $\alpha_M$ là đồng cấu từ $M$ vào $D(D(M))$ được xác định bởi $\alpha_M(m)(f) = f(m)$ với $m \in M,\ f \in D(M)$.
 
-#### Mệnh đề 4 {#ac-x-s8-prop-4 .statement}
+#### Mệnh đề 4 {#ac-x-s8-prop-4 .statement tag=0DAR}
 
 Điều kiện cần và đủ để A-môđun M có độ dài hữu hạn là D(M) có độ dài hữu hạn. Khi đó ta có $z_0(D(M)) = z_0(M)$, $\operatorname{long}_A(M) = \operatorname{long}_A D(M)$, $\operatorname{Ann}_A(M) = \operatorname{Ann}_A(D(M))$, và ánh xạ A-tuyến tính $\alpha_M$ là song ánh.
 
@@ -385,7 +385,7 @@ Với mọi $m \in \Omega$, $A_m$-môđun $D(M)_m$ được đồng nhất với
 
 Với mọi $a \in A$ ta có $D(a_M) = a_{D(M)}$ và do đó $\operatorname{Ann}_A(M) \subset \operatorname{Ann}_A(D(M))$. Áp dụng điều này cho A-môđun D(M), ta suy ra bao hàm đối, do đó có đẳng thức $\operatorname{Ann}_A(M) = \operatorname{Ann}_A(D(M))$.
 
-#### Ví dụ {#ac-x-s8-n4-exa-1 .statement}
+#### Ví dụ {#ac-x-s8-n4-exa-1 .statement tag=0DAS}
 
 Cho A là một miền iđêan chính, K là trường phân thức của nó. *A-môđun K/A là một môđun Matlis*: thật vậy, ánh xạ chính tắc từ K/A vào $\prod_{m \in \Omega} K/A_m$ cảm sinh một đẳng cấu từ K/A lên $\bigoplus_{m \in \Omega} K/A_m$ (A, VII, p. 10, đl. 2); khi đó mệnh đề suy ra từ No. 1, ví dụ 1. Hơn nữa, trong A, VII, § 4, No. 9, ta đã chứng minh rằng ánh xạ $\alpha_M$ là song ánh đối với mọi A-môđun M có độ dài hữu hạn khi vành A là chính.
 
@@ -411,11 +411,11 @@ $$
 $$
 là một đẳng cấu.
 
-#### Ví dụ 1 {#ac-x-s8-n5-exa-1 .statement}
+#### Ví dụ 1 {#ac-x-s8-n5-exa-1 .statement tag=0DAT}
 
 Cho $J$ là một $A$-môđun Matlis. Đặt $T(M) = \operatorname{Hom}_A(M, J)$ với mọi $A$-môđun $M$ có độ dài hữu hạn và $T(f) = \operatorname{Hom}_A(f, 1_J)$ với mọi ánh xạ A-tuyến tính $f$ giữa các $A$-môđun có độ dài hữu hạn. Khi đó các điều kiện FD 1) đến FD 5) được thỏa mãn. Ta sẽ thấy dưới đây (đl. 3) rằng mọi phép dựng thỏa mãn các điều kiện FD 1) đến FD 5) đều thu được theo cách này.
 
-#### Ví dụ 2 {#ac-x-s8-n5-exa-2 .statement}
+#### Ví dụ 2 {#ac-x-s8-n5-exa-2 .statement tag=0DAU}
 
 Cho $C$ là một phức nội xạ của các $A$-môđun và $d$ là một số nguyên sao cho $H^i(\operatorname{Homgr}_A(\kappa_A, C))$ bằng không với $i \neq d$ và có độ dài 1 với $i = d$. Với mọi $A$-môđun $M$ có độ dài hữu hạn, ta có $H^i(\operatorname{Homgr}_A(M, C)) = 0$ với $i \neq d$; thực vậy, hãy lập luận bằng quy nạp theo độ dài của $M$, được giả sử $> 0$; tồn tại một dãy khớp các $A$-môđun $0 \to \kappa_A \to M \to N \to 0$, dãy này suy ra một dãy khớp các phức
 $$
@@ -425,11 +425,11 @@ và kết luận suy ra từ giả thiết quy nạp áp dụng cho $N$.
 
 Đặt $T(M) = H^d(\operatorname{Homgr}_A(M, C))$ với mọi $A$-môđun $M$ có độ dài hữu hạn, và $T(f) = H^d(\operatorname{Homgr}_A(f, 1_C))$ với mọi ánh xạ tuyến tính $A$-tuyến tính $f$ giữa các $A$-môđun có độ dài hữu hạn; các điều kiện FD 1) đến FD 5) được thỏa mãn.
 
-#### Ví dụ 3 {#ac-x-s8-n5-exa-3 .statement}
+#### Ví dụ 3 {#ac-x-s8-n5-exa-3 .statement tag=0DAV}
 
 Cho $\Omega$ là một $A$-môđun và $d$ là một số nguyên $\geqslant 0$ sao cho $\operatorname{Ext}_A^i(\kappa_A, \Omega)$ bằng không với $i \neq d$ và có độ dài 1 với $i = d$. Đặt $T(M) = \operatorname{Ext}_A^d(M, \Omega)$ với mọi $A$-môđun $M$ có độ dài hữu hạn và $T(f) = \operatorname{Ext}_A^d(f, 1_\Omega)$ với mọi ánh xạ tuyến tính $A$-tuyến tính $f$ giữa các $A$-môđun có độ dài hữu hạn. Khi đó $\operatorname{Ext}_A^i(M, \Omega) = 0$ với mọi $A$-môđun $M$ có độ dài hữu hạn và mọi $i \neq d$, và các điều kiện FD 1) đến FD 5) được thỏa mãn: thực vậy, chỉ cần áp dụng ví dụ trước trong trường hợp $C$ là phân giải nội xạ chính tắc của $\Omega$.
 
-#### Ví dụ 4 {#ac-x-s8-n5-exa-4 .statement}
+#### Ví dụ 4 {#ac-x-s8-n5-exa-4 .statement tag=0DAW}
 
 Nếu $A$ là một vành Gorenstein, chẳng hạn một vành chính quy, thì có thể áp dụng Ví dụ 3 bằng cách lấy $\Omega = A$ và $d = \dim(A)$ (§ 3, No. 7, Mệnh đề 11).
 
@@ -441,7 +441,7 @@ $$
 $$
 thỏa mãn $\theta_M(u)(x) = T(\varphi_{M,x})(u)$ với $u \in T(M),\ x \in M$.
 
-#### Định lý 3 {#ac-x-s8-thm-3 .statement}
+#### Định lý 3 {#ac-x-s8-thm-3 .statement tag=0DAX}
 
 a) A-môđun I là một môđun Matlis. Với mọi số nguyên $m \geqslant 0$, $I_m$ là A-môđun con của I gồm các phần tử bị triệt tiêu bởi $m_A^m$.
 
@@ -497,11 +497,11 @@ $$
 $$
 có hạt nhân là $I_n$. Theo c), $\gamma$ là hợp thành của các ánh xạ $\theta_{I_{n+1}} : I_{n+1} \to \mathrm{Hom}_A(A/\mathfrak{m}_A^{n+1}, I)$ và $\mathrm{Hom}(u, 1) : \mathrm{Hom}_A(A/\mathfrak{m}_A^{n+1}, I) \to \mathrm{Hom}_A(\mathfrak{m}_A^n/\mathfrak{m}_A^{n+1}, I)$; vì $\theta_{I_{n+1}}$ là ánh xạ tuyến tính liên kết với phép nhân $A/\mathfrak{m}_A^{n+1} \times I_{n+1} \to I$, nên đẳng cấu $I_{n+1}/I_n \to \mathrm{Hom}_A(\mathfrak{m}_A^n/\mathfrak{m}_A^{n+1}, I)$ suy ra từ $\gamma$ trùng với $\beta$, điều này hoàn tất chứng minh.
 
-#### Ví dụ 5 {#ac-x-s8-n5-exa-5 .statement}
+#### Ví dụ 5 {#ac-x-s8-n5-exa-5 .statement tag=0DAY}
 
 Hãy xét lại các giả thiết và ký hiệu của Ví dụ 1. Khi đó $T(A/\mathfrak{m}_A^n) = \mathrm{Hom}_A(A/\mathfrak{m}_A^n, J)$ được đồng nhất với môđun con $J_n$ của $J$ tạo bởi các phần tử bị triệt tiêu bởi $\mathfrak{m}_A^n$; bằng cách chuyển qua giới hạn quy nạp người ta thu được một đẳng cấu chính tắc từ $I$ lên $J$.
 
-#### Ví dụ 6 {#ac-x-s8-n5-exa-6 .statement}
+#### Ví dụ 6 {#ac-x-s8-n5-exa-6 .statement tag=0DAZ}
 
 Hãy xét lại các giả thiết và ký hiệu của Ví dụ 3. Người ta thu được rằng $I = \varinjlim \mathrm{Ext}_A^d(A/\mathfrak{m}_A^n, \Omega)$ là một A-môđun Matlis. Với mọi $A$-môđun có độ dài hữu hạn $M$, có một A-đẳng cấu chính tắc
 $$
@@ -513,7 +513,7 @@ hơn nữa đẳng cấu này là $\mathrm{End}_A(M)$-tuyến tính (Định lý
 
 ### 6. Thay đổi vành; đối ngẫu Macaulay
 
-#### Mệnh đề 5 {#ac-x-s8-prop-5 .statement}
+#### Mệnh đề 5 {#ac-x-s8-prop-5 .statement tag=0DB0}
 
 Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether, sao cho mở rộng thặng dư $\kappa_A \to \kappa_B$ cảm sinh bởi $\rho$ là bậc hữu hạn. Gọi $I_A$ là một A-môđun Matlis.
 
@@ -545,7 +545,7 @@ $$
 
 gắn với $v \in \mathrm{Hom}_A(M, I_A)$ ánh xạ $v'$ từ $M$ vào $\mathrm{Hom}_A(B, I_A)$ sao cho $v'(m)(b) = v(bm)$ (A, II, p. 74, mệnh đề 1). Để $v'$ nhận giá trị trong $I_B$, điều kiện cần và đủ là $v$ thuộc $\mathrm{Hom}_A^{cont}(M, I_A)$, do đó b).
 
-#### Hệ quả {#ac-x-s8-n6-cor-1 .statement}
+#### Hệ quả {#ac-x-s8-n6-cor-1 .statement tag=0DB1}
 
 a) Nếu $A$-đại số $B$ là hữu hạn, thì $B$-môđun $I_B = \mathrm{Hom}_A(B, I_A)$ là một $B$-môđun Matlis.
 
@@ -611,7 +611,7 @@ $$
 
 độc lập với lựa chọn phân giải $C$; nó là $\mathrm{End}_A(J)$-tuyến tính. Cho $p$ là một số nguyên, $\xi \in \mathrm{Tor}_p^A(M, \mathrm{Hom}_A(P, J))$, $\lambda \in \mathrm{Ext}_A^p(M, P), J)$; nếu $\xi$ được biểu diễn với sự trợ giúp của $\psi(C, \mathrm{Hom}_A(P, J))$ bởi một phần tử $\sum c_\mu \otimes u_\mu$ của $C \otimes \mathrm{Hom}_A(P, J)$ sao cho $\sum d_C(c_\mu) \otimes u_\mu = 0$, và $\lambda$ với sự trợ giúp của $\varphi(C, P)$ bởi một đồng cấu $\ell : C_p \to P$ sao cho $\ell \circ d_C = 0$, thì ta có $\rho(M, P)(\xi)(\lambda) = (-1)^p \sum u_\mu(\ell(c_\mu))$.
 
-#### Mệnh đề 6 {#ac-x-s8-prop-6 .statement}
+#### Mệnh đề 6 {#ac-x-s8-prop-6 .statement tag=0DB2}
 
 *Giả sử A-môđun J là nội xạ; với mọi A-môđun N, đặt $D(N) = \mathrm{Hom}_A(N, J)$.*
 
@@ -623,7 +623,7 @@ a) Theo phép dựng, đồng cấu $\theta(M, P)$ là song ánh ngay khi $\lamb
 
 b) Chọn phân giải $C$ sao cho mỗi môđun $C_p$ là tự do thuộc kiểu hữu hạn (A, X, p. 53, Mệnh đề 6). Khi đó đồng cấu $\nu$ là song ánh, và điều tương tự cũng đúng với $\lambda(\mathrm{Homgr}_A(C, P), J)$ vì $J$ là nội xạ; do đó $\rho(M, P)$ là song ánh.
 
-#### Nhận xét 1 {#ac-x-s8-n7-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s8-n7-rem-1 .statement tag=0DB3}
 
 Với mọi đồng cấu $f : N \to N'$ của các $A$-môđun, ký hiệu bởi $D(f) : D(N') \to D(N)$ đồng cấu $\mathrm{Hom}(f, 1_J)$. Cho $u : M \to M'$ và $v : P \to P'$ là các đồng cấu của $A$-môđun. Chọn các phân giải xạ ảnh $(C, p)$ của $M$ và $(C', p')$ của $M'$, và một cấu xạ của các phức $\tilde{u} : C \to C'$ sao cho $p' \circ \tilde{u} = u \circ p$ (A, X, p. 49, Mệnh đề 3). Biểu đồ
 
@@ -655,7 +655,7 @@ $$
 \end{array}
 $$
 
-#### Nhận xét 2 {#ac-x-s8-n7-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s8-n7-rem-2 .statement tag=0DB4}
 
 Cho
 

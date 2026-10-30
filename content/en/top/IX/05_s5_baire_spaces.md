@@ -28,14 +28,14 @@ subsections:
       pdf_page: 200
 statements: 16
 exercises: 30
-content_sha256: a78fb82444d16ea24a2754a196d4056a293a2226bea0b831a8a986b6b09a213a
+content_sha256: 3b572897191a59b0bea951cffb8413b1fee09841bf812d8d9ace5e683fa0e3ca
 ---
 
 ## 5. BAIRE SPACES
 
 ### 1. NOWHERE DENSE SETS
 
-#### Definition 1 {#top-ix-s5-def-1 .statement}
+#### Definition 1 {#top-ix-s5-def-1 .statement tag=0C6Y}
 
 *A subset $A$ of a topological space $X$ is said to be nowhere dense if its closure has no interior points.*
 
@@ -43,23 +43,23 @@ Equivalently, $A$ is nowhere dense in $X$ if and only if the exterior of $A$ is 
 
 A closed set $A$ is nowhere dense if and only if it has no interior points; that is, if and only if it coincides with its frontier. An arbitrary subset $A$ is nowhere dense if and only if the closure of $A$ is nowhere dense. Every subset of a nowhere dense set is nowhere dense.
 
-#### Example 1 {#top-ix-s5-n1-exa-1 .statement}
+#### Example 1 {#top-ix-s5-n1-exa-1 .statement tag=0C6Z}
 
 The empty subset of $X$ is nowhere dense. In a Hausdorff space $X$, a set consisting of a single point is nowhere dense if and only if the point is not isolated in $X$. A dense subset is never nowhere dense (unless $X = \emptyset$).
 
-#### Example 2 {#top-ix-s5-n1-exa-2 .statement}
+#### Example 2 {#top-ix-s5-n1-exa-2 .statement tag=0C70}
 
 The frontier of an open or of a closed set is always nowhere dense.
 
-#### Example 3 {#top-ix-s5-n1-exa-3 .statement}
+#### Example 3 {#top-ix-s5-n1-exa-3 .statement tag=0C71}
 
 In the space $\mathbf{R}^n$, every linear subspace of dimension $p < n$ is a nowhere dense set (Chapter VI, § 1, no. 4, Proposition 2).
 
-#### Remark {#top-ix-s5-n1-rem-1 .statement}
+#### Remark {#top-ix-s5-n1-rem-1 .statement tag=0C72}
 
 The frontier of an arbitrary subset need not be nowhere dense: for example, if $A$ and $\overline{C}A$ are both dense sets, then the frontier of $A$ is the whole space.
 
-#### Proposition 1 {#top-ix-s5-prop-1 .statement}
+#### Proposition 1 {#top-ix-s5-prop-1 .statement tag=0C73}
 
 *The union of a finite number of nowhere dense sets is nowhere dense.*
 
@@ -73,7 +73,7 @@ is open and non-empty.
 
 Let $Y$ be a subspace of a topological space $X$. A subspace $A$ of $Y$ is said to be *nowhere dense relative to* $Y$ if $A$ is nowhere dense when considered as a subset of the topological space $Y$.
 
-#### Proposition 2 {#top-ix-s5-prop-2 .statement}
+#### Proposition 2 {#top-ix-s5-prop-2 .statement tag=0C74}
 
 *Let $Y$ be a subspace of a topological space $X$, and let $A$ be a subset of $Y$. If $A$ is nowhere dense relative to $Y$, then $A$ is nowhere dense relative to $X$. Conversely, if $Y$ is open in $X$ and $A$ is nowhere dense relative to $X$, then $A$ is nowhere dense relative to $Y$.*
 
@@ -85,7 +85,7 @@ The second part of Proposition 2 is clearly not valid if $Y$ is not open in $X$;
 
 ### 2. MEAGRE SETS
 
-#### Definition 2 {#top-ix-s5-def-2 .statement}
+#### Definition 2 {#top-ix-s5-def-2 .statement tag=0C75}
 
 *A subset* $A$ *of a topological space* $X$ *is said to be meagre if it is the union of a countable family of nowhere dense sets.*
 
@@ -101,7 +101,7 @@ Let $Y$ be a subspace of $X$. A subset $A$ of $Y$ is said to be *meagre relative
 
 ### 3. BAIRE SPACES
 
-#### Definition 3 {#top-ix-s5-def-3 .statement}
+#### Definition 3 {#top-ix-s5-def-3 .statement tag=0C76}
 
 *A topological space* $X$ *is said to be a Baire space if it satisfies one or the other of the following two equivalent conditions:*
 
@@ -118,7 +118,7 @@ Indeed a set is meagre if and only if it is contained in a countable union of cl
 
 This signifies that a meagre set cannot contain a non-empty open set, and is therefore equivalent to (EB").
 
-#### Proposition 3 {#top-ix-s5-prop-3 .statement}
+#### Proposition 3 {#top-ix-s5-prop-3 .statement tag=0C77}
 
 *Every non-empty open subspace $Y$ of a Baire space $X$ is a Baire space.*
 
@@ -126,19 +126,19 @@ This follows from (EB"), for every open (resp. meagre) set in $Y$ is open (resp.
 
 It follows from Proposition 3 that every point of a Baire space has a fundamental system of neighbourhoods, each of which is a Baire space. Conversely:
 
-#### Proposition 4 {#top-ix-s5-prop-4 .statement}
+#### Proposition 4 {#top-ix-s5-prop-4 .statement tag=0C78}
 
 *If every point of a topological space $X$ has a neighbourhood which is a Baire space, then $X$ is a Baire space.*
 
 Let $A$ be a non-empty open set in $X$, let $x \in A$ and let $V$ be an open neighbourhood of $x$ which is a Baire space. If $A$ were meagre in $X$, then $V \cap A$ would be meagre in $V$ and open in $V$, which is contrary to hypothesis.
 
-#### Proposition 5 {#top-ix-s5-prop-5 .statement}
+#### Proposition 5 {#top-ix-s5-prop-5 .statement tag=0C79}
 
 *In a Baire space $X$, the complement of a meagre set is a Baire space.*
 
 Let $A$ be a meagre set in $X$; then its complement $Y = \complement_A$ in $X$ is dense in $X$. Let $B$ be a meagre set relative to $Y$; $B$ is also meagre relative to $X$, hence $A \cup B$ is meagre relative to $X$. Hence the complement of $A \cup B$ in $X$, which is also the complement of $B$ in $Y$, is dense in $X$ and *a fortiori* dense in $Y$. Hence $Y$ is a Baire space.
 
-#### Theorem 1 (Baire) {#top-ix-s5-thm-1 .statement}
+#### Theorem 1 (Baire) {#top-ix-s5-thm-1 .statement tag=0C7A}
 
 (i) *Every locally compact space $X$ is a Baire space.* (ii) *Every topological space $X$ on which there exists a metric, compatible with the topology of $X$ and which defines on $X$ the structure of a complete metric space, is a Baire space.*
 
@@ -146,13 +146,13 @@ We shall show that axiom (EB) is satisfied in each case. Let $(A_n)$ be a sequen
 
 Q.E.D.
 
-#### Remark {#top-ix-s5-n3-rem-1 .statement}
+#### Remark {#top-ix-s5-n3-rem-1 .statement tag=0C7B}
 
 There are Baire spaces which belong to neither of these two categories, in particular Baire spaces which are neither metrizable nor locally compact (Exercise 16); there are also metrizable Baire spaces which possess no complete metric space structure compatible with their topology (Exercise 14).
 
 ### 4. SEMI-CONTINUOUS FUNCTIONS ON A BAIRE SPACE
 
-#### Theorem 2 {#top-ix-s5-thm-2 .statement}
+#### Theorem 2 {#top-ix-s5-thm-2 .statement tag=0C7C}
 
 Let $X$ be a Baire space and let $(f_\alpha)$ be a family of lower semi-continuous real-valued functions on $X$ such that, at every point $x$ of $X$, the upper envelope $\sup_\alpha f_\alpha(x)$ is finite. Then every non-empty open set in $X$ contains a non-empty open set on which the family $(f_\alpha)$ is uniformly bounded above.
 
@@ -162,7 +162,7 @@ Let $f = \sup_\alpha f_\alpha$ be the upper envelope of the family $(f_\alpha)$.
 
 In applications of this theorem it is generally the case that the $f_\alpha$ are continuous on $X$.
 
-#### Remark {#top-ix-s5-n4-rem-1 .statement}
+#### Remark {#top-ix-s5-n4-rem-1 .statement tag=0C7D}
 
 The theorem may be false if we do not suppose that $X$ is a Baire space. For example if, for each rational number $p/q$ ($p, q$ being coprime integers, $q > 0$) we put $f(p/q) = q$, we have a lower semi-continuous function $f$ on the rational line $Q$ which is finite at each point (cf. Chapter IV, § 6, no. 2); but there is no non-empty open set in $Q$ on which $f$ is bounded above.
 

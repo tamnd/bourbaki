@@ -56,7 +56,7 @@ subsections:
       pdf_page: 39
 statements: 41
 exercises: 24
-content_sha256: aa24a7dbdbc92a85a8b640414c52c0ba3e9e58886ead1d029ddea821c28c1a34
+content_sha256: 46ff7be5252d45cc7a0231c6c4449bf3936df4b7167e197cba2db8c4bcd82423
 ---
 
 ## § 2. Modules plats (*)
@@ -69,7 +69,7 @@ $$
 u \otimes v : E \otimes_A M \to E' \otimes_A M'.
 $$
 
-#### Lemme 1 {#ac-i-s2-lem-1 .statement}
+#### Lemme 1 {#ac-i-s2-lem-1 .statement tag=042F}
 
 Soit $M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0$ une suite exacte de $A$-modules à gauche, et soit $E$ un $A$-module à droite. La suite
 
@@ -90,25 +90,25 @@ $$
 
 Les notations étant celles du lemme 1, on sait (loc. cit.) que si $v$ est injectif, c’est-à-dire si la suite $0 \to M' \xrightarrow{v} M \xrightarrow{v} M'' \to 0$ est exacte, il n’en résulte pas nécessairement que $1_E \otimes v$ soit injectif et l’on ne peut donc pas en général identifier $E \otimes_A M'$ à un sous-groupe de $E \otimes_A M$. Rappelons toutefois (Alg., chap. II, 3e éd., § 3, n° 7, cor. 5 de la prop. 7) le résultat suivant :
 
-#### Lemme 2 {#ac-i-s2-lem-2 .statement}
+#### Lemme 2 {#ac-i-s2-lem-2 .statement tag=042G}
 
 *Si $v : M' \to M$ est injectif et si $v(M')$ est facteur direct de $M$, l’homomorphisme $1_E \otimes v$ est injectif, et son image est facteur direct de $E \otimes_A M$.*
 
 ### 2. *Modules M-plats*.
 
-#### Définition 1 {#ac-i-s2-def-1 .statement}
+#### Définition 1 {#ac-i-s2-def-1 .statement tag=042H}
 
 *Soient $A$ un anneau, $E$ un $A$-module à droite et $M$ un $A$-module à gauche. On dit que $E$ est plat pour $M$ (ou $M$-plat) si, pour tout $A$-module à gauche $M'$ et tout homomorphisme injectif $v : M' \to M$, l’homomorphisme $1_E \otimes v : E \otimes_A M' \to E \otimes_A M$ est injectif.*
 
 On définit de même, pour tout $A$-module à droite $N$, la notion de *module à gauche $N$-plat*. Dire qu’un $A$-module à droite $E$ est plat pour un $A$-module à gauche $M$ équivaut à dire que $E$, considéré comme $A^0$-module à gauche (on rappelle que $A^0$ désigne l’anneau opposé de $A$), est plat pour le $A^0$-module à droite $M$.
 
-#### Lemme 3 {#ac-i-s2-lem-3 .statement}
+#### Lemme 3 {#ac-i-s2-lem-3 .statement tag=042I}
 
 *Pour qu’un $A$-module à droite $E$ soit $M$-plat, il suffit que pour tout sous-module de type fini $M'$ de $M$, l’homomorphisme canonique $1_E \otimes j : E \otimes_A M' \to E \otimes_A M$ ( $j$ étant l’injection canonique $M' \to M$) soit injectif.*
 
 En effet, supposons cette condition vérifiée et soit N un sous-module quelconque de M. Supposons que l’image canonique dans $E \otimes_A M$ d’un élément $z = \sum_i x_i \otimes y_i \in E \otimes_A N$ ($x_i \in E,\ y_i \in N$) soit nulle, et soit $M'$ le sous-module de type fini de N engendré par les $y_i$; comme par hypothèse l’application composée $E \otimes_A M' \to E \otimes_A N \to E \otimes_A M$ est injective, la somme $z' = \sum_i x_i \otimes y_i$, considérée comme élément de $E \otimes_A M'$, est nulle. Comme $z$ est l’image de $z'$, on a aussi $z = 0$, d’où le lemme.
 
-#### Lemme 4 {#ac-i-s2-lem-4 .statement}
+#### Lemme 4 {#ac-i-s2-lem-4 .statement tag=042J}
 
 *Soient E un A-module à droite et M un A-module à gauche tel que E soit M-plat. Si N est, soit un sous-module, soit un module quotient de M, alors E est N-plat.*
 
@@ -146,7 +146,7 @@ n° 2
 
 De plus, puisque E est M-plat, l’homomorphisme T(m) est injectif. Comme T(r) et T(p') sont surjectifs, il résulte du § 1, n° 4, cor. 2 de la prop. 2, que T(n) est injectif, ce qui démontre le lemme.
 
-#### Lemme 5 {#ac-i-s2-lem-5 .statement}
+#### Lemme 5 {#ac-i-s2-lem-5 .statement tag=042K}
 
 Soit $(M_i)_{i \in I}$ une famille de A-modules à gauche, $M = \bigoplus_{i \in I} M_i$ leur somme directe, et E un A-module à droite. Si, pour tout $i \in I$, E est plat pour $M_i$, alors E est plat pour M.
 
@@ -180,7 +180,7 @@ E \otimes_A M' \to E \otimes_A M_j est donc injectif. D’autre part, comme M_j 
 
 ### 3. Modules plats.
 
-#### Proposition 1 {#ac-i-s2-prop-1 .statement}
+#### Proposition 1 {#ac-i-s2-prop-1 .statement tag=042L}
 
 Soit E un A-module à droite. Les trois propriétés suivantes sont équivalentes :
 
@@ -208,7 +208,7 @@ Montrons que c) implique b). Si v : M' \to M est un homomorphisme injectif, la s
 
 Enfin, l’implication b) \Rightarrow c) est la conséquence du lemme plus précis suivant :
 
-#### Lemme 6 {#ac-i-s2-lem-6 .statement}
+#### Lemme 6 {#ac-i-s2-lem-6 .statement tag=042M}
 
 Si M' \xrightarrow{v} M \xrightarrow{w} M'' est une suite exacte de A-modules à gauche et si E est un A-module à droite plat pour M'', la suite
 
@@ -232,17 +232,17 @@ $$
 
 est exacte (§ 1, n° 3).
 
-#### Définition 2 {#ac-i-s2-def-2 .statement}
+#### Définition 2 {#ac-i-s2-def-2 .statement tag=042N}
 
 On dit qu’un A-module à droite E est plat s’il vérifie les propriétés équivalentes de la prop. 1.
 
 On définit de même les A-modules à gauche plats. Dire qu’un A-module à droite E est plat équivaut à dire que E, considéré comme A^0-module à gauche, est plat.
 
-#### Remarque 1 {#ac-i-s2-n3-rem-1 .statement}
+#### Remarque 1 {#ac-i-s2-n3-rem-1 .statement tag=0CFZ}
 
 En vertu du n° 2, lemme 3, pour qu’un A-module à droite E soit plat, il faut et il suffit que, pour tout idéal à gauche α de A, de type fini, l’application canonique E ⊗_A α → E (prop. 1) d’image Ea, soit injective.
 
-#### Remarque 2 {#ac-i-s2-n3-rem-2 .statement}
+#### Remarque 2 {#ac-i-s2-n3-rem-2 .statement tag=0CG0}
 
 Soit E un A-module à droite plat. Si M’ est un sous-module d’un A-module à gauche M, l’injection canonique E ⊗_A M’ → E ⊗_A M permet d’identifier E ⊗_A M’ à un sous-groupe de E ⊗_A M. Ceci étant, soient N un A-module à gauche, u : M → N un homomorphisme, K = Ker u, I = Im u. La considération de la suite exacte.
 
@@ -252,7 +252,7 @@ $$
 
 montre aussitôt (prop. 1) que E ⊗_A (Ker u) s’identifie à Ker (1_E ⊗ u). D’autre part, en notant u’ l’homomorphisme surjectif M → I ayant même graphe que u, et i l’injection canonique I → N, 1_E ⊗ u’ est surjectif (n° 1, lemme 1) et 1_E ⊗ i est injectif puisque E est plat. Comme 1_E ⊗ u = (1_E ⊗ i) ∘ (1_E ⊗ u’), E ⊗_A (Im u) s’identifie à Im (1_E ⊗ u).
 
-#### Proposition 2 {#ac-i-s2-prop-2 .statement}
+#### Proposition 2 {#ac-i-s2-prop-2 .statement tag=042O}
 
 (i) Soit $(E_i)_{i \in I}$ une famille de $A$-modules à droite. Pour que $E = \bigoplus_{i \in I} E_i$ soit plat, il faut et il suffit que chacun des $E_i$ soit plat.
 
@@ -284,7 +284,7 @@ puisque le passage à la limite inductive commute avec le produit tensoriel ($Al
 
 *3) Aux chap. II et III, nous étudierons en détail deux exemples importants de A-modules plats : les anneaux de fractions $S^{-1}A$ et les séparés complétés $\hat{A}$ de A pour les topologies $\mathfrak{J}$-adiques.*
 
-#### Proposition 3 {#ac-i-s2-prop-3 .statement}
+#### Proposition 3 {#ac-i-s2-prop-3 .statement tag=042P}
 
 *Soient A un anneau, E un A-module à droite.
 
@@ -298,13 +298,13 @@ Prouvons (ii). D’après (i), si E est plat, E est sans torsion. Inversement, s
 
 (*) Rappelons qu’un *diviseur à droite* (resp. *à gauche*) de 0 dans un anneau A est un élément $b \in A$ tel que l’application $x \to xb$ (resp. $x \to bx$) ne soit pas injective.
 
-#### Exemple {#ac-i-s2-n4-exa-1 .statement}
+#### Exemple {#ac-i-s2-n4-exa-1 .statement tag=042Q}
 
 Appliquant la prop. 3 à l’anneau $\mathbf{Z}$, on voit que $\mathbf{Q}$ est un $\mathbf{Z}$-module plat, mais que $\mathbf{Z}/n\mathbf{Z}$ (pour $n \geq 2$) n’est pas un $\mathbf{Z}$-module plat.
 
 ### 5. Platitude des modules quotients.
 
-#### Proposition 4 {#ac-i-s2-prop-4 .statement}
+#### Proposition 4 {#ac-i-s2-prop-4 .statement tag=042R}
 
 Soit E un A-module à droite. Les trois propriétés suivantes sont équivalentes :
 a) E est plat.
@@ -344,7 +344,7 @@ Cela étant, si E est plat, $1_E \otimes i$ est injectif, autrement dit $\mathrm
 
 Comme b) implique évidemment c), il nous reste à prouver que c) entraîne a). Considérons le diagramme (3) dans le cas $R = a$, $L = A_s$, $F = A_s/a$, et appliquons la suite exacte (4). Par hypothèse, $v \otimes 1_F$ est injectif, donc $\mathrm{Im}\,(d) = 0$; en outre, comme H est plat, on a $\mathrm{Ker}\,(1_H \otimes i) = 0$; l’exactitude de la suite (4) entraîne donc $\mathrm{Ker}\,(1_E \otimes i) = 0$, autrement dit $1_E \otimes i$ est injectif et cela prouve que E est plat (n° 3, Remarque 1).
 
-#### Proposition 5 {#ac-i-s2-prop-5 .statement}
+#### Proposition 5 {#ac-i-s2-prop-5 .statement tag=042S}
 
 Soit $0 \to E' \xrightarrow{v} E \xrightarrow{w} E'' \to 0$ une suite exacte de A-modules à droite. Supposons que $E''$ soit plat. Alors, pour que E soit plat, il faut et il suffit que $E'$ soit plat.
 
@@ -362,17 +362,17 @@ $$
 
 Il est commutatif et ses lignes sont exactes (n° 1, lemme 1). Puisque $E''$ est plat, $1_{E''} \otimes u$ est injectif ; en outre, la prop. 4 prouve que $v \otimes 1_{F'}$ et $v \otimes 1_F$ sont injectifs. Cela étant, si E est plat, $1_E \otimes u$ est injectif, donc aussi $(1_E \otimes u) \circ (v \otimes 1_{F'}) = (v \otimes 1_F) \circ (1_{E'} \otimes u)$; on en conclut que $1_{E'} \otimes u$ est injectif, et par suite $E'$ est plat. Réciproquement, si $E'$ est plat, $1_{E'} \otimes u$ est injectif ; on conclut alors du § 1, n° 4, cor. 1 de la prop. 2, que $1_E \otimes u$ est injectif, et par suite E est plat.
 
-#### Remarque 1 {#ac-i-s2-n5-rem-1 .statement}
+#### Remarque 1 {#ac-i-s2-n5-rem-1 .statement tag=0CG1}
 
 Il peut se faire que E et $E'$ soient plats sans que $E''$ le soit, comme le montre l’exemple des $\mathbf{Z}$-modules $E = \mathbf{Z},\ E' = n\mathbf{Z},\ E'' = \mathbf{Z}/n\mathbf{Z}\ (n \geq 2)$.
 
-#### Remarque 2 {#ac-i-s2-n5-rem-2 .statement}
+#### Remarque 2 {#ac-i-s2-n5-rem-2 .statement tag=0CG2}
 
 Un sous-module d’un module plat n’est pas nécessairement un module plat (exerc. 3).
 
 ### 6. Propriétés d’intersection.
 
-#### Lemme 7 {#ac-i-s2-lem-7 .statement}
+#### Lemme 7 {#ac-i-s2-lem-7 .statement tag=042T}
 
 Soient E un A-module à droite, F un A-module à gauche, F’, F'' deux sous-modules de F tels que F = F' + F''. Alors l’intersection des images canoniques de E ⊗ F’ et E ⊗ F'' dans E ⊗ F est égale à l’image canonique de E ⊗ (F' ∩ F'').
 
@@ -398,7 +398,7 @@ $$
 
 Les lignes de ce diagramme sont exactes (no 1, lemme 1) et $1_E \otimes j$ est un isomorphisme. Notre assertion est alors un cas particulier du § 1, no 4, prop. 1, (i). (Cf. exerc. 5.)
 
-#### Proposition 6 {#ac-i-s2-prop-6 .statement}
+#### Proposition 6 {#ac-i-s2-prop-6 .statement tag=042U}
 
 Soient E un A-module à droite et F un A-module à gauche tels que E soit plat pour F. Pour tout sous-module F’ de F, notons $v(F')$ l’image de $E \otimes F'$ par l’application canonique de $E \otimes F'$ dans $E \otimes F$ (qui est injective en vertu de la déf. 1 du no 2). Alors, si F’, F'' sont deux sous-modules de F, on a
 
@@ -410,7 +410,7 @@ En effet, comme E est plat pour F, $v(F' + F'')$ s’identifie à $E \otimes (F'
 
 n° 6
 
-#### Remarque 1 {#ac-i-s2-n6-rem-1 .statement}
+#### Remarque 1 {#ac-i-s2-n6-rem-1 .statement tag=042V}
 
 Les hypothèses étant celles de la prop. 6, on identifie d’ordinaire $E \otimes F'$ à $v(F')$ pour tout sous-module $F'$ de $F$, ce qui donne la formule
 
@@ -418,7 +418,7 @@ $$
 E \otimes_A (F' \cap F'') = (E \otimes_A F') \cap (E \otimes_A F'').
 $$
 
-#### Proposition 7 {#ac-i-s2-prop-7 .statement}
+#### Proposition 7 {#ac-i-s2-prop-7 .statement tag=042W}
 
 Soient $E$ un $A$-module à droite, $E'$ un sous-module de $E$, $F$ un $A$-module à gauche et $F'$ un sous-module de $F$. Supposons que $E/E'$ ou $F/F'$ soit un module plat. Alors l’image canonique de $E' \otimes F'$ dans $E \otimes F$ est l’intersection des images canoniques de $E' \otimes F$ et de $E \otimes F'$ dans $E \otimes F$.
 
@@ -434,7 +434,7 @@ $$
 
 où les flèches sont les homomorphismes canoniques. Ce diagramme est commutatif et ses lignes sont exactes (n° 1, lemme 1). Comme $E/E'$ est plat, $u$ est injectif. Notre assertion est alors un cas particulier du § 1, n° 4, prop. 1, (i).
 
-#### Corollaire {#ac-i-s2-n6-cor-1 .statement}
+#### Corollaire {#ac-i-s2-n6-cor-1 .statement tag=042X}
 
 Soient $E$ un $A$-module à droite, $E'$ un sous-module de $E$.
 
@@ -456,7 +456,7 @@ $$
 
 est exacte en $E'/E'a$ pour tout idéal à gauche $a$ de type fini de $A$. Or, c’est exactement ce qu’exprime la relation (5).
 
-#### Remarque 2 {#ac-i-s2-n6-rem-2 .statement}
+#### Remarque 2 {#ac-i-s2-n6-rem-2 .statement tag=042Y}
 
 La conclusion de la prop. 7 reste vraie si l’on suppose seulement que E/E’ est plat pour F ou que F/F’ est plat pour E.
 
@@ -466,7 +466,7 @@ Soient A, B deux anneaux, E un A-module à droite, F un (A, B)-bimodule (Alg., c
 
 $$(x \otimes y)b = x \otimes (yb)$$ pour $x \in E,\ y \in F,\ b \in B.$
 
-#### Proposition 8 {#ac-i-s2-prop-8 .statement}
+#### Proposition 8 {#ac-i-s2-prop-8 .statement tag=042Z}
 
 Soient A, B deux anneaux, E un A-module à droite, F un (A, B)-bimodule. Supposons que E soit plat, et que F soit plat en tant que B-module. Alors le B-module E ⊗_A F est plat.
 
@@ -476,25 +476,25 @@ $$E \otimes_A (F \otimes_B G') \to E \otimes_A (F \otimes_B G)$$
 
 est injectif. Comme $E \otimes_A (F \otimes_B G')$ et $E \otimes_A (F \otimes_B G)$ s’identifient canoniquement à $(E \otimes_A F) \otimes_B G'$ et $(E \otimes_A F) \otimes_B G$ respectivement (Alg., chap. II, 3e éd., § 3, no 8, prop. 8), l’homomorphisme canonique $(E \otimes_A F) \otimes_B G' \to (E \otimes_A F) \otimes_B G$ est injectif, ce qui prouve que $E \otimes_A F$ est un B-module plat.
 
-#### Corollaire 1 {#ac-i-s2-prop-8-cor-1 .statement}
+#### Corollaire 1 {#ac-i-s2-prop-8-cor-1 .statement tag=0430}
 
 Soient C un anneau commutatif, E, F deux C-modules plats. Alors $E \otimes_C F$ est un C-module plat.
 
 En effet, F est un (C, C)-bimodule et il suffit d’appliquer la prop. 8 avec $B = A = C$.
 
-#### Corollaire 2 {#ac-i-s2-prop-8-cor-2 .statement}
+#### Corollaire 2 {#ac-i-s2-prop-8-cor-2 .statement tag=0431}
 
 Soit ρ un homomorphisme d’un anneau A dans un anneau B. Si E est un A-module à droite plat, le B-module à droite $\rho^*(E) = E_{(B)}$ obtenu par extension à B de l’anneau des scalaires (Alg., chap. II, 3e éd., § 5, no 1) est plat.
 
 En effet, on a par définition $E_{(B)} = E \otimes_A B$, où B est considéré comme (A, B)-bimodule au moyen de ρ. Comme le B-module à droite B_d est plat, il suffit d’appliquer la prop. 8.
 
-#### Corollaire 3 {#ac-i-s2-prop-8-cor-3 .statement}
+#### Corollaire 3 {#ac-i-s2-prop-8-cor-3 .statement tag=0432}
 
 Soient R, S deux anneaux, φ : R → S un homomorphisme d’anneaux. Si M est un S-module à droite plat et si φ_*(S_d) est un R-module à droite plat, alors φ_*(M) est un R-module à droite plat.
 
 Rappelons que φ_*(M) est le R-module à droite défini par x.r = x.φ(r) pour tout x ∈ M et tout r ∈ R (Alg., chap. II, 3e éd., § 1, no 13). On applique alors la prop. 8 avec A = S, B = R, E = M et F = S, S étant muni de la structure de (S, R)-bimodule définie par φ ; le R-module à droite M ⊗_S S n’est autre alors que φ_*(M).
 
-#### Proposition 9 {#ac-i-s2-prop-9 .statement}
+#### Proposition 9 {#ac-i-s2-prop-9 .statement tag=0433}
 
 Soient (A_α, f_{βα}) un système inductif filtrant d’anneaux, A = lim → A_α sa limite inductive, (E_α, g_{βα}) un système inductif de A_α-modules à droite ayant même ensemble d’indices, E = lim → E_α sa limite inductive, qui est un A-module à droite (Alg., chap. II, 3e éd., § 6, no 6). Si chacun des E_α est un A_α-module plat, E est un A-module plat.
 
@@ -522,7 +522,7 @@ en vertu du no 1, lemme 1 et du fait que $L \otimes_A B$ est un $B$-module libre
 
 On dit qu’une présentation (6) d’un module $E$ est *finie* si les modules libres $L_0$ et $L_1$ ont des bases finies. Il est clair que si la présentation (6) est finie, il en est de même de la présentation (7). On dit que $E$ est un *A-module de présentation finie* s’il admet une présentation finie.
 
-#### Lemme 8 {#ac-i-s2-lem-8 .statement}
+#### Lemme 8 {#ac-i-s2-lem-8 .statement tag=0434}
 
 (i) *Tout module admettant une présentation finie est de type fini*.
 
@@ -534,7 +534,7 @@ L’assertion (i) résulte trivialement des définitions. Si $A$ est noethérien
 
 Enfin, supposons que $E$ soit un module projectif de type fini ; il est alors facteur direct d’un module libre de type fini $L_0$ (*Alg.*, chap. II, 3e éd., § 2, no 2, cor. de la prop. 4) ; le noyau $R$ de l’homomorphisme surjectif $L_0 \to E$ est alors isomorphe à un quotient de $L_0$, donc est de type fini, et on termine comme ci-dessus.
 
-#### Lemme 9 {#ac-i-s2-lem-9 .statement}
+#### Lemme 9 {#ac-i-s2-lem-9 .statement tag=0435}
 
 Soient $A$ un anneau, $E$ un $A$-module de présentation finie. Pour toute suite exacte
 
@@ -579,7 +579,7 @@ $$
 
 tel que, pour $y \in F$ et $u \in \mathrm{Hom}_A(E, G)$, $\nu(y \otimes u)$ soit l’application $A$-linéaire $x \to y \otimes u(x)$.
 
-#### Proposition 10 {#ac-i-s2-prop-10 .statement}
+#### Proposition 10 {#ac-i-s2-prop-10 .statement tag=0436}
 
 Soient $A, B$ deux anneaux, $E$ un $A$-module à droite, $F$ un $B$-module à droite, $G$ un $(B, A)$-bimodule. Supposons que $F$ soit plat. Alors, si $E$ est de type fini (resp. de présentation finie) l’homomorphisme canonique (8) est injectif (resp. bijectif).
 
@@ -621,7 +621,7 @@ $$
 $$
 tel que pour $u \in \mathrm{Hom}_A(E, F)$, $\omega(u \otimes 1) = u \otimes 1_B$ (*Alg.*, chap. II, 3e éd., § 5, n° 3).
 
-#### Proposition 11 {#ac-i-s2-prop-11 .statement}
+#### Proposition 11 {#ac-i-s2-prop-11 .statement tag=0437}
 
 *Soient $A$ un anneau commutatif, $B$ un anneau, $\rho$ un homomorphisme de $A$ dans le centre de $B$, $E$ et $F$ deux $A$-modules. On suppose que $B$ est un $A$-module plat, et que $E$ est de type fini (resp. de présentation finie). Alors l’homomorphisme canonique (10) est injectif (resp. bijectif).*
 
@@ -639,7 +639,7 @@ Supposons maintenant $A$ et $B$ commutatifs, et considérons trois $A$-modules, 
 
 Dans l’énoncé qui suit, nous supposerons que $B$ est un $A$-module *plat* et, pour tout sous-module $E'$ d’un $E_i$ ($i = 1, 2, 3$), nous identifierons canoniquement $E'_{(B)}$ à son image dans $E_{i(B)}$ (n° 3, *Remarque* 2).
 
-#### Proposition 12 {#ac-i-s2-prop-12 .statement}
+#### Proposition 12 {#ac-i-s2-prop-12 .statement tag=0438}
 
 *Soient $A, B$ des anneaux commutatifs, $\rho$ un homomorphisme de $A$ dans $B$, $E_1, E_2, E_3$ trois $A$-modules, $f : E_1 \times E_2 \to E_3$ une application $A$-bilinéaire,
 $$
@@ -667,19 +667,19 @@ $$
 
 est exacte. Il résulte aussitôt des définitions que u(x'_1), pour x'_1 = 1 ⊗ x_1 \in E_{1(u)}, est l'application linéaire qui, à tout x'_2 \in F_{2(u)}, fait correspondre la classe mod. F_{3(u)} de f_B(x'_1, x'_2) ; par linéarité, cela est encore vrai pour tout x'_1 \in E_{1(u)} ; le noyau de u étant T_{(u)}, la proposition est démontrée.
 
-#### Corollaire 1 {#ac-i-s2-prop-12-cor-1 .statement}
+#### Corollaire 1 {#ac-i-s2-prop-12-cor-1 .statement tag=0439}
 
 Soient A, B deux anneaux commutatifs, ρ : A → B un homomorphisme tel que B soit un A-module plat, E un A-module de présentation finie. Pour tout sous-module de type fini F de E, l'orthogonal de F_{(u)} dans le dual de E_{(u)} est égal à (F')_{(u)}, en désignant par F' l'orthogonal de F dans le dual E* de E.
 
 Il résulte de la prop. 11 que (E*)_{(u)} est canoniquement isomorphe au dual (E_{(u)})* de E_{(u)}. Il suffit alors d'appliquer la prop. 12 à E_1 = E*, E_2 = E, E_3 = A, F_2 = F, F_3 = \{0\}, f étant la forme bilinéaire canonique sur E* × E.
 
-#### Corollaire 2 {#ac-i-s2-prop-12-cor-2 .statement}
+#### Corollaire 2 {#ac-i-s2-prop-12-cor-2 .statement tag=043A}
 
 Soient A, B, deux anneaux commutatifs, ρ : A → B un homomorphisme tel que B soit un A-module plat. Alors, pour tout A-module de type fini E, l'annulateur de E_{(u)} est l'idéal aB de B, où a est l'annulateur de E dans A.
 
 Il suffit d’appliquer la prop. 12 à $E_1 = A,\ E_2 = E_3 = E,\ F_2 = E,\ F_3 = \{0\}$.
 
-#### Remarque {#ac-i-s2-n10-rem-1 .statement}
+#### Remarque {#ac-i-s2-n10-rem-1 .statement tag=043B}
 
 Lorsqu’il n’y a pas d’ambiguïté sur les modules $E_i$ et sur l’application bilinéaire $f$, on note parfois $F_3 : F_2$ le module désigné par T dans la prop. 12, et on l’appelle le transporteur de $F_2$ dans $F_3$. La conclusion de la prop. 12 s’écrit alors
 
@@ -702,7 +702,7 @@ Dans tout ce no A désigne un anneau, E un A-module à droite et F un A-module �
 
 Tout élément de $E \otimes_A F$ s’écrit, au moins d’une façon, sous la forme $z = \sum_{i=1}^n e_i \otimes f_i$ où $e_i \in E$ et $f_i \in F$. Le lemme suivant donne une condition pour qu’une telle somme soit nulle :
 
-#### Lemme 10 {#ac-i-s2-lem-10 .statement}
+#### Lemme 10 {#ac-i-s2-lem-10 .statement tag=043C}
 
 Soient $(f_\lambda)_{\lambda \in L}$ une famille de générateurs de F, $(e_\lambda)_{\lambda \in L}$ une famille d’éléments de E, de support fini. Pour que $\sum_{\lambda \in L} e_\lambda \otimes f_\lambda = 0$, il faut et il suffit qu’il existe un ensemble fini J, une famille $(x_j)_{j \in J}$ d’éléments de E et une famille $(a_{j\lambda})$ ($j \in J,\ \lambda \in L$) d’éléments de A ayant les propriétés suivantes :
 1° la famille $(a_{j\lambda})$ a un support fini ;
@@ -733,7 +733,7 @@ $$
 
 où $x_j \in E$, $r_j \in R$ et $J$ est fini. Si l’on pose $i(r_j) = \sum_{\lambda \in L} a_{j\lambda} u_\lambda$, l’hypothèse $r_j \in R$ se traduit par la relation $\sum_{\lambda \in L} a_{j\lambda} f_\lambda = 0$ pour tout $j \in J$; la relation (14) se traduit d’autre part par $e_\lambda = \sum_{j \in J} x_j a_{j\lambda}$ pour tout $\lambda \in L$ ($Alg.$, chap. II, 3e éd., § 3, no 7, cor. 1 de la prop. 7), ce qui achève la démonstration.
 
-#### Proposition 13 {#ac-i-s2-prop-13 .statement}
+#### Proposition 13 {#ac-i-s2-prop-13 .statement tag=043D}
 
 *Pour que E soit plat pour F* (no 2, déf. 1), *il faut et il suffit que la condition suivante soit satisfaite*:
 
@@ -754,7 +754,7 @@ $$
 
 Donc $E \otimes_A F' \to E \otimes_A F$ est injectif. C. Q. F. D.
 
-#### Corollaire 1 {#ac-i-s2-prop-13-cor-1 .statement}
+#### Corollaire 1 {#ac-i-s2-prop-13-cor-1 .statement tag=043E}
 
 *Pour qu’un A-module à droite E soit plat, il faut et il suffit qu’il vérifie la condition suivante*:
 
@@ -766,7 +766,7 @@ En termes imagés, (RP) s’énonce ainsi : toute « relation » entre les $b_i$
 
 Considérons plus particulièrement un homomorphisme de A dans un anneau B, faisant de B un A-module à droite. On sait (n° 3, prop. 1) qu’il revient au même de dire que ce A-module est plat, ou qu’il est plat pour tout A-module à gauche $A_s^m$ ($m \geq 1$). Si on applique la condition (R) de la prop. 13 à $E = B, F = A_s^m$, on obtient la condition suivante :
 
-#### Corollaire 2 {#ac-i-s2-prop-13-cor-2 .statement}
+#### Corollaire 2 {#ac-i-s2-prop-13-cor-2 .statement tag=043F}
 
 *Pour que l’anneau B soit un A-module à droite plat, il faut et il suffit qu’il vérifie la condition suivante :*
 (RP') *Toute solution* $(y_k)_{1 \leq k \leq n}$, *formée d’éléments de B, d’un système d’équations linéaires et homogènes*

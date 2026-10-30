@@ -66,7 +66,7 @@ subsections:
       pdf_page: 633
 statements: 40
 exercises: 25
-content_sha256: 9c7b4e127fe09ee8609310f4b85f86bc773f875119f7c780156674549783b793
+content_sha256: d9e2a61c3971782f685be044252b3450406801250b05574efb54eb00ac04501c
 ---
 
 ## § 11. COGEBRAS, PRODUCTS OF MULTILINEAR FORMS, INNER PRODUCTS AND DUALITY
@@ -75,13 +75,13 @@ In this paragraph, A is a commutative ring with the trivial graduation. For a gr
 
 ### 1. COGEBRAS
 
-#### Definition 1 {#alg-iii-s11-def-1 .statement}
+#### Definition 1 {#alg-iii-s11-def-1 .statement tag=067H}
 
 A cogebr a over A (or A-cogebra, or simply cogebr a if no confusion can arise) is a set E with a structure defined by giving the following:
 (1) an A-module structure on E;
 (2) an A-linear mapping c: E → E ⊗_A E called the coproduct of E.
 
-#### Definition 2 {#alg-iii-s11-def-2 .statement}
+#### Definition 2 {#alg-iii-s11-def-2 .statement tag=067I}
 
 Given two cogebras E, E', whose coproducts are denoted respectively by c and c', a morphism of E into E' is an A-linear mapping u: E → E' such that
 (1) $(u \otimes u) \circ c = c' \circ u,$ in other words, it renders commutative the diagram of A-linear mappings
@@ -96,7 +96,7 @@ $$
 
 It is immediately verified that the identity mapping is a morphism, that the composition of two morphisms is a morphism and that every bijective morphism is an isomorphism.
 
-#### Example {#alg-iii-s11-n1-exa-1 .statement}
+#### Example {#alg-iii-s11-n1-exa-1 .statement tag=067J}
 
 (1) The canonical isomorphism $A \to A \otimes_A A$ (II, § 3, no. 5) defines an A-cogebra structure on A.
 
@@ -202,7 +202,7 @@ $$(10)\quad c(E_\lambda) \subset \sum_{\mu + \nu = \lambda} E_\mu \otimes_A E_\n
 
 In what follows, we shall most often limit our attention to graduations of type $\mathbf{N}$ compatible with the coproduct; a cogebrà with such a graduation will also be called a *graded cogebrà*. If F is another graded cogebrà, a *graded cogebrà morphism* $\phi : E \to F$ is by definition a cogebrà morphism (Definition 2) which is also a *graded homomorphism of degree* 0 of graded A-modules.
 
-#### Example {#alg-iii-s11-n1-exa-2 .statement}
+#### Example {#alg-iii-s11-n1-exa-2 .statement tag=067K}
 
 (9) It is immediate that the cogebras $T(M)$, $S(M)$ and $\Lambda(M)$ defined above are graded cogebras.
 
@@ -218,7 +218,7 @@ Clearly we have thus defined an A-bilinear mapping $(u, v) \mapsto m(u, v)$ of $
 
 When E is a graded cogebrà, N, $N'$, $N''$ graded A-modules of the same type and $\tilde{m}$ a graded homomorphism of degree k of $N \otimes_A N'$ into $N''$, then, if $u$ (resp. $v$) is a graded homomorphism of degree $p$ (resp. $q$), $m(u, v)$ is a graded homomorphism of degree $p + q + k$.
 
-#### Example {#alg-iii-s11-n2-exa-1 .statement}
+#### Example {#alg-iii-s11-n2-exa-1 .statement tag=067L}
 
 (1) Take E to be the graded cogebrà $T(M)$ (no. 1) and suppose that N, $N'$, $N''$ have the trivial graduation. A graded homomorphism of degree $-p$ of $T(M)$ into N (resp. $N'$, $N''$) then corresponds to a multilinear mapping of $M^p$ into N (resp. $N'$, $N''$). Given a multilinear mapping $u : M^p \to N$ and a multilinear mapping $v : M^q \to N'$, the above method allows us to deduce a multilinear mapping $m(u, v) : M^{p+q} \to N''$ called the *product* (relative to $m$) of $u$ and $v$. Formulae (3) (no. 1) and (11) show that, for $x_1, \ldots, x_{p+q}$ in M,
 
@@ -258,11 +258,11 @@ and therefore $\tilde{\phi}(uv) = \tilde{\phi}(u)\tilde{\phi}(v)$, which proves 
 
 In particular, the graded transpose $^t\phi : F^{*gr} \to E^{*gr}$ is a graded algebra homomorphism.
 
-#### Remark {#alg-iii-s11-n2-rem-1 .statement}
+#### Remark {#alg-iii-s11-n2-rem-1 .statement tag=067M}
 
 Suppose that the $E_p$ are finitely generated projective $A$-modules, so that the graded $A$-modules $(E \otimes_A E)^{*gr}$ and $E^{*gr} \otimes_A E^{*gr}$ can be canonically identified (II, § 4, no. 4, Corollary 1 to Proposition 4). If also the $A$-modules $A \otimes_A A$ and $A$ are then canonically identified (II, § 3, no. 4), the linear mapping $E^{*gr} \otimes_A E^{*gr} \to E^{*gr}$ which defines multiplication in $E^{*gr}$ can be called the graded transpose of the coproduct $c$.
 
-#### Proposition 1 {#alg-iii-s11-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s11-prop-1 .statement tag=067N}
 
 *Let $E$ be a cogebra over $A$. In order that, for every associative $A$-algebra $B$, the $A$-algebra $\mathrm{Hom}_A(E, B)$ be associative, it is necessary and sufficient that the coproduct $c : E \to E \otimes_A E$ be such that the diagram*
 
@@ -292,7 +292,7 @@ It follows that if diagram (12) is commutative, the algebra $\mathrm{Hom}_A(E, B
 
 When the cogebra $E$ satisfies the condition of Proposition 1, it is said to be coassociative.
 
-#### Example {#alg-iii-s11-n2-exa-2 .statement}
+#### Example {#alg-iii-s11-n2-exa-2 .statement tag=067O}
 
 (4) It is immediately verified that the cogebra $A$ (no. 1, Example (1)) the cogebra $A^{(X)}$ (no. 1, Example 4) and the cogebra $\mathscr{T}(M)$ (no. 1, Example 5) are coassociative. If $B$ is an associative $A$-algebra which is a finitely generated projective $A$-module, the cogebra $B^*$ (no. 1, Example 3) is coassociative: for the commutativity of diagram (12) then follows by transposition from that of the diagram which expresses the associativity of $B$ (§ 1, no. 3). Conversely, the same argument and the canonical identification of the A-module B with its bidual (II, § 2, no. 7, Corollary 4 to Proposition 13) show that if the cogebras B* is coassociative, the algebra B is associative. Finally, the cogebras S(M) and $\Lambda(M)$ (no. 1, Examples 6 and 7) are coassociative; this follows from the commutativity of the diagram
 
@@ -327,7 +327,7 @@ $$
 
 and the existence and functoriality of canonical isomorphisms for symmetric and exterior algebras of a direct sum (§ 6, no. 6 and § 7, no. 7).
 
-#### Proposition 2 {#alg-iii-s11-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s11-prop-2 .statement tag=067P}
 
 *Let E be a cogebras over A. In order that, for every commutative A-algebra B, the A-algebra $\mathrm{Hom}_A(E, B)$ be commutative, it is necessary and sufficient that the coproduct $c : E \to E \otimes_A E$ be such that the diagram*
 
@@ -359,11 +359,11 @@ It follows that if diagram (15) is commutative the algebra $\mathrm{Hom}_A(E, B)
 
 When the cogebra E satisfies the condition of Proposition 2, it is said to be cocommutative.
 
-#### Example {#alg-iii-s11-n2-exa-3 .statement}
+#### Example {#alg-iii-s11-n2-exa-3 .statement tag=067Q}
 
 (5) It is immediate that the cogebra A (no. 1, Example 1) and the cogebra $A^{(X)}$ (II, § 11, no. 1, Example 4) are cocommutative. It follows from formula (5) of no. 1 that the cogebra $S(M)$ is cocommutative. Finally, for an A-algebra B such that the A-module B is projective and finitely generated to have the property that the cogebra $B^*$ (no. 1, Example 3) is cocommutative, it is necessary and sufficient that B be commutative; for (using the canonical identification of the A-module B with its bidual (II, § 2, no. 7)), this follows from the fact that the commutativity of diagram (14) is equivalent by transposition to that of the diagram which expressed the commutativity of B (§ 1, no. 3).
 
-#### Proposition 3 {#alg-iii-s11-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s11-prop-3 .statement tag=067R}
 
 *Let E be a cogebra over A. In order that, for every unital A-algebra B, the A-algebra $\mathrm{Hom}_A(E, B)$ be unital, it is necessary and sufficient that there exist a linear form $\gamma$ on E rendering commutative the diagrams*
 
@@ -405,11 +405,11 @@ of C. The condition $fe = f$ implies the commutativity of the second diagram of 
 
 A linear form $\gamma$ on E rendering diagrams (16) commutative is called a *counit* of the cogebra E. A cogebra admits *at most one* counit: for it is the unit element of the algebra Hom$_A$(E, A). A cogebra with a counit is called *counital*.
 
-#### Example {#alg-iii-s11-n2-exa-4 .statement}
+#### Example {#alg-iii-s11-n2-exa-4 .statement tag=067S}
 
 (6) The identity mapping is the counit of the cogebra A; on the cogebra A$^{(X)}$ (no. 1, *Example 4*) the linear form $\gamma$ such that $\gamma(e_x) = 1$ for all $x \in X$ is the counit. On the cogebra T(M) (resp. S(M), $\Lambda(M)$) the linear form $\gamma$ such that $\gamma(1) = 1$ and $\gamma(z) = 0$ for $z$ in the $T^n(M)$ (resp. $S^n(M)$, $\Lambda^n(M)$) for $n \geq 1$ is the counit. Finally, let B be an A-algebra which is a finitely generated projective A-module and has a unit element $e$; then on the cogebra B* (no. 1, *Example 3*) the linear form $\gamma: x^* \mapsto \langle e, x^* \rangle$ is the counit, for this form is just the transpose of the A-linear mapping $\eta_e: \xi \mapsto \xi e$ of A into B and by transposition the commutativity of diagrams (16) follows from that of the diagrams which express (using $\eta_e$) the fact that $e$ is unit element of B (§ 1, no. 3); the same argument moreover shows that conversely, if the cogebra B* admits a counit $\gamma$, the transpose of $\gamma$ defines a unit element $e = t_\gamma(1)$ of B.
 
-#### Proposition 4 {#alg-iii-s11-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s11-prop-4 .statement tag=067T}
 
 *Let E be a cogebra admitting a counit $\gamma$ and suppose that there exists in E an element e such that $\gamma(e) = 1$; then E is the direct sum of the sub-A-modules Ae and $E_{\gamma} = \mathrm{Ker}(\gamma)$ and*
 
@@ -436,7 +436,7 @@ A(e \otimes e) \oplus ((Ae) \otimes E_\gamma) \oplus (E_\gamma \otimes (Ae)) \op
 $$
 allows us to write, for $x \in E_\gamma$, $c(x) = \lambda(e \otimes e) + (e \otimes y) + z \otimes e) + u$ where $u = \sum_j v_j \otimes w_j, y, z$ and the $v_j$ and $w_j$ belong to $E_\gamma$. The definition of the counit $\gamma$ then gives $x = \lambda e + y = \lambda e + z$ and, as $\gamma(x) = 0$, necessarily $\lambda = 0, x = y = z$, whence the second relation of (18).
 
-#### Remark {#alg-iii-s11-n2-rem-2 .statement}
+#### Remark {#alg-iii-s11-n2-rem-2 .statement tag=067U}
 
 Let C be a counital coassociative A-coalgebra, B a unital associative A-algebra and M a left B-module. The A-bilinear mapping $(b, m) \mapsto bm$ of $B \times M$ into M defines an A-bilinear mapping
 $$
@@ -446,7 +446,7 @@ by the general procedure described at the beginning of this no. It is immediatel
 
 ### 3. PROPERTIES OF GRADED COGEBRAS OF TYPE N
 
-#### Proposition 5 {#alg-iii-s11-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s11-prop-5 .statement tag=067V}
 
 (i) *Let E be a graded cogebra admitting a counit $\gamma$; then $\gamma$ is a homogeneous linear form of degree 0.*
 
@@ -481,7 +481,7 @@ and therefore $\gamma(x) = \sum_i \gamma(y_{in}) \gamma(z_{i0}) = \gamma(0) = 0$
 
 (ii) Since $\mathrm{Ker}(\gamma)$ and $E_+$ are both supplementary sub-A-modules of $Ae = E_0$ and $E_+ \subset \mathrm{Ker}(\gamma)$ by (i), $E_+ = \mathrm{Ker}(\gamma)$ (II, § 1, no. 8, Remark 1); the other assertions follow from Proposition 4 of no. 2.
 
-#### Proposition 6 {#alg-iii-s11-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s11-prop-6 .statement tag=067W}
 
 *Let E be a graded cogebra over A. In order that, for every commutative A-algebra B, with the trivial graduation, the graded A-algebra of type $\mathbf{Z} \mathrm{Homgr}_A(E, B)$ (no. 2) be anticommutative (§ 4, no. 9, Definition 7), it is necessary and sufficient that, if $\sigma_g$ denotes the automorphism of the A-module $E \otimes_A E$ such that*
 
@@ -505,13 +505,13 @@ The proof is analogous to that of Proposition 2 of no. 2.
 
 When the graded cogebra E satisfies the condition of Proposition 6, it is said to be *anticocommutative*.
 
-#### Example {#alg-iii-s11-n3-exa-1 .statement}
+#### Example {#alg-iii-s11-n3-exa-1 .statement tag=067X}
 
 It follows immediately from formula (8) of no. 1 that for every A-module M, the graded cogebra $\bigwedge(M)$ is *anticocommutative*.
 
 ### 4. BIGEBRAS AND SKEW-BIGEBRAS
 
-#### Definition 3 {#alg-iii-s11-def-3 .statement}
+#### Definition 3 {#alg-iii-s11-def-3 .statement tag=067Y}
 
 *A graded bigebra (resp. skew graded bigebra) over a ring A is a set E with a graded A-algebra structure of type $\mathbf{N}$ and a graded A-cogebra structure of type $\mathbf{N}$, with the same underlying graded A-module structure and such that:*
 
@@ -532,7 +532,7 @@ $$
 
 If E and F are two graded bigebras (resp. two skew graded bigebras), a mapping $\phi : E \to F$ is called a *graded bigebra morphism* (resp. *skew graded bigebra morphism*) if: (1) $\phi$ is a graded algebra morphism (and hence maps the unit element of E to the unit element of F); (2) $\phi$ is a graded cogebra morphism such that, if $\gamma$ and $\gamma'$ are the respective counits of E and F, then $\gamma = \gamma' \circ \phi$.
 
-#### Example {#alg-iii-s11-n4-exa-1 .statement}
+#### Example {#alg-iii-s11-n4-exa-1 .statement tag=067Z}
 
 (1) Let S be a monoid with identity element u, so that the algebra $E = A^{(S)}$ of the monoid S over A admits the unit element $e_u$ (§ 2, no. 6); it has been seen on the other hand that E has canonically a coassociative cocommutative A-cogebra structure with a counit $\gamma$ such that $\gamma(e_s) = 1$ for all $s \in S$ (no. 1, Example 4 and no. 2, Examples 4, 5 and 6). The formula $c(e_s) = e_s \otimes e_s$ giving the coproduct shows also immediately that c is an algebra homomorphism. Thus a *cocommutative bigebra* structure has been defined on E and E, with this structure, is called the *bigebra of the monoid S over A*.
 
@@ -542,7 +542,7 @@ If T is another monoid with unit element v, $f : S \to T$ a homomorphism such th
 
 (3) Let M be an A-module. We see as in Example 2 that the graded A-algebra (§ 7, no. 1) and graded A-cogebra (no. 1, Example 7) structures on $\bigwedge(M)$ define on this set an *anticommutative anticocommutative skew graded bigebra* structure.
 
-#### Remark {#alg-iii-s11-n4-rem-1 .statement}
+#### Remark {#alg-iii-s11-n4-rem-1 .statement tag=0680}
 
 If M is an A-module such that $M \otimes_A M \neq \{0\}$, the graded A-algebra (§ 5, no. 1) and graded A-cogebra (no. 1, Example 5) structures on $T(M)$ *do not define* a bigebra structure, for in general
 
@@ -641,7 +641,7 @@ m_n = m \circ (m_{n-1} \otimes 1_A)
 $$
 writing $m = m_2$. With this notation:
 
-#### Lemma 1 {#alg-iii-s11-lem-1 .statement}
+#### Lemma 1 {#alg-iii-s11-lem-1 .statement tag=0681}
 
 (i) *In the associative algebra $E^* = \mathrm{Hom}_A(E, A)$, the product of $n$ elements $u_1, u_2, \ldots, u_n$ of degree 1 is given by*
 $$
@@ -751,7 +751,7 @@ $$
 = (-1)^{n(n-1)/2} \det(\langle x_i^*, x_j \rangle).
 $$
 
-#### Proposition 7 {#alg-iii-s11-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s11-prop-7 .statement tag=0682}
 
 *Let M be a finitely generated projective A-module. Then the canonical homomorphisms $\theta_T : T(M^*) \to T(M)^{*gr}$ and $\theta_\Lambda : \bigwedge(M^*) \to (\bigwedge(M)^{*gr})^0$ are bijective. Also the graded dual $\bigwedge(M)^{*gr}$ is then equal to the dual $\bigwedge(M)^*$ of the A-module $\bigwedge(M)$.*
 
@@ -784,7 +784,7 @@ $$
 
 and an analogous commutative diagram where $T$ is replaced by $\Lambda$. The proposition then follows from the following lemma:
 
-#### Lemma 2 {#alg-iii-s11-lem-2 .statement}
+#### Lemma 2 {#alg-iii-s11-lem-2 .statement tag=0683}
 
 *Let*
 
@@ -846,7 +846,7 @@ $$
 $$
 in the notation of § 6, no. 6. Hence the homomorphism $\theta_S$ is bijective if and only if the $\alpha! u_\alpha$ form a *basis* of $S(M)^{*gr}$, or also if the elements $\alpha! 1$ are *invertible*.
 
-#### Proposition 8 {#alg-iii-s11-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s11-prop-8 .statement tag=0684}
 
 *Suppose that the ring $A$ is an algebra over the field $\mathbf{Q}$ of rational numbers; then, for every finitely generated projective $A$-module $M$, the homomorphism*
 
@@ -857,7 +857,7 @@ $$
 
 It amounts to proving this when $M$ is finitely generated and free; we pass from this to the general case using Lemma 2 as in the proof of Proposition 7.
 
-#### Remark {#alg-iii-s11-n5-rem-1 .statement}
+#### Remark {#alg-iii-s11-n5-rem-1 .statement tag=0685}
 
 Let $M$ be an $A$-module and $\rho : A \to B$ a commutative ring homomorphism. Then there is a commutative diagram of graded $B$-algebra homomorphisms
 
@@ -960,7 +960,7 @@ $$
 
 In other words, when Homgr_A(F, P) is considered as an (E, E)-bimodule by means of the ring homomorphism $\phi : E \to F$, it is seen that $\tilde{\phi}$ is an (E, E)-bimodule homomorphism (or also an E-homomorphism of the (F, F)-bimodule Homgr_A(F, P) into the (E, E)-bimodule Homgr_A(E, P)).
 
-#### Example {#alg-iii-s11-n6-exa-1 .statement}
+#### Example {#alg-iii-s11-n6-exa-1 .statement tag=0686}
 
 In particular the above may be applied when E is one of the graded algebras T(M), S(M) or $\bigwedge(M)$ for an A-module M and P an A-module (with the trivial graduation). To find explicitly the bimodule structures thus obtained, note that the elements of degree $-n$ of Homgr_A(T(M), P) (resp. Homgr_A(S(M), P), resp. Homgr_A($\bigwedge(M)$, P)) are identified with the *n-linear mappings* (resp. *symmetric n-linear mappings*, resp. *alternating n-linear mappings*) of $M^n$ into P. It suffices to express the products
 
@@ -1140,7 +1140,7 @@ $$
 t\phi : F^{*\mathrm{gr}} \to E^{*\mathrm{gr}}.
 $$
 
-#### Example {#alg-iii-s11-n7-exa-1 .statement}
+#### Example {#alg-iii-s11-n7-exa-1 .statement tag=0687}
 
 In particular the above can be applied when E is one of the graded cogebras T(M), S(M) or $\Lambda(M)$ for an A-module M (no. 1, Examples 5, 6 and 7). To find explicitly the bimodule structures thus obtained, we again identify a homogeneous element f of degree n in $T(M)^{*gr}$ (resp. $S(M)^{*gr}$, resp. $\Lambda(M)^{*gr}$) with an *n-linear form* (resp. *symmetric n-linear form*, resp. *alternating n-linear form*, also called an *n-form*) on $M^n$. It suffices to express the products
 
@@ -1180,7 +1180,7 @@ For $p \geq n$, we have respectively
 
 Let E be a graded bigebra (resp. skew graded bigebra) (no. 4, Definition 3); then the results of nos. 6 and 7 can be applied to define the right (resp. left) inner products $x \triangleleft u \in E$ and $u \triangleleft x \in E^{*gr}$ (resp. $u \triangleright x \in E$ and $x \triangleright u \in E^{*gr}$) for all $x \in E$ and all $u \in E^{*\mathrm{gr}}$. Thus an $(E, E)$-bimodule structure and an $(E^{*\mathrm{gr}}, E^{*\mathrm{gr}})$-bimodule structure are obtained on $E$. Further:
 
-#### Proposition 9 {#alg-iii-s11-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s11-prop-9 .statement tag=0688}
 
 *Let $E$ be a graded bigebra (resp. skew graded bigebra). For every element $x$ of degree 1 in $E$, the left and right inner products by $x$ are derivations (resp. antiderivations) ($§ 10$, no. 2) of the algebra $E^{*\mathrm{gr}}$.*
 
@@ -1232,7 +1232,7 @@ $$
 $$
 in other words $i(x)$ is an *antiderivation* in $E^{*gr}$. The assertions relating to the left inner product by an element $x$ of degree 1 in $E$ are proved similarly.
 
-#### Remark {#alg-iii-s11-n8-rem-1 .statement}
+#### Remark {#alg-iii-s11-n8-rem-1 .statement tag=0689}
 
 (1) Let $E$ be a graded bigebra over $A$ and $N, N', N''$ three graded $A$-modules. Let $m$ be an $A$-bilinear mapping of $N \times N'$ into $N''$; for $u \in \mathrm{Homgr}_A(E, N)$ and $v \in \mathrm{Homgr}_A(E, N')$, let $u.v$ denote the graded homomorphism $m \circ (u \otimes v) \circ c$ of $E$ into $N''$. On the other hand, let $i(x)$ denote the (right or left) inner product by $x \in E$ in the $A$-modules $\mathrm{Homgr}_A(E, N)$, $\mathrm{Homgr}_A(E, N')$ and $\mathrm{Homgr}_A(E, N'')$. Then, if $x$ is *of degree* 1,
 $$
@@ -1252,7 +1252,7 @@ $$
 $$
 holds. In particular, for every *primitive* element of a graded bigebra $E$, that is such that $c(x) = x \otimes 1 + 1 \otimes x$, $i(x)$ is a *derivation* of $E^{*gr}$.
 
-#### Proposition 10 {#alg-iii-s11-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s11-prop-10 .statement tag=068A}
 
 *Let $E$ be a graded bigebra (resp. skew graded bigebra). For every element $f$ of degree 1 in $E^{*gr}$, the left and right inner products are derivations (resp. antiderivations) of the algebra $E$.*
 
@@ -1285,7 +1285,7 @@ $$
 $$
 which shows that $i(f)$ is then an *antiderivation*. The argument is similar for the left inner product by $f$.
 
-#### Example {#alg-iii-s11-n8-exa-1 .statement}
+#### Example {#alg-iii-s11-n8-exa-1 .statement tag=068B}
 
 Propositions 9 and 10 apply in particular to the graded bigebra $S(M)$ and the skew graded bigebra $\Lambda(M)$. The inner products by elements of degree 1 in $S(M)$ (resp. $S(M)^{*gr}$) are *derivations* which *commute with one another*, since $S(M)$ (resp. $S(M)^{*gr}$) is commutative.
 
@@ -1341,7 +1341,7 @@ We leave to the reader the task of finding explicitly the analogous formulae for
 
 The above can be applied with $M$ replaced by its dual $M^*$; $M^*$ must then be replaced by the bidual $M^{**}$ and $T(M^*)$, for example, thus has a right module structure over the algebra $T(M^{**})$. But the canonical mapping $c_M : M \to M^{**}$ defines an algebra homomorphism $T(c_M) : T(M) \to T(M^{**})$, by means of which $T(M^*)$ has a *right* $T(M)$-*module* structure. Similarly $S(M^*)$ (resp. $\Lambda(M^*)$) has a *right* $S(M)$-*module* (resp. *left* $\Lambda(M)$-*module*) structure. The explicit formulae giving the external laws of these modules are derived immediately from the above by exchanging the roles of $M$ and $M^*$. Note that, for all $x \in M$, $i(x)$ is always a *derivation* (resp. *antiderivation of zero square*) of the graded algebra $S(M^*)$ (resp. $\Lambda(M^*)$).
 
-#### Proposition 11 {#alg-iii-s11-prop-11 .statement}
+#### Proposition 11 {#alg-iii-s11-prop-11 .statement tag=068C}
 
 *The canonical homomorphism* $\theta_T : T(M^*) \to T(M)^{*gr}$ (resp. $\theta_S : S(M) \to S(M)^{*gr}$, resp. $\theta_\Lambda : \Lambda(M^*) \to \Lambda(M)^{*gr}$) *is a right* $T(M)$-*module* (resp. *right* $S(M)$-*module*, resp. *left* $\Lambda(M)$-*module*) *homomorphism.*
 
@@ -1423,7 +1423,7 @@ $$
 
 There are analogous formulae for the inner product of an element of $S(M^*)$ by an element of $S(M)$ interchanging the roles of $M$ and $M^*$ (since $M^{**}$ is here identified with $M$).
 
-#### Remark {#alg-iii-s11-n10-rem-1 .statement}
+#### Remark {#alg-iii-s11-n10-rem-1 .statement tag=068D}
 
 Being given the basis $(e_i)_{1 \leq i \leq n}$ allows us to identify the algebra $S(M)$ with the polynomial algebra $A[X_1, \ldots, X_n]$ (§ 6, no. 6); formula (75) shows that the inner product by $e^{*\alpha}$ is just the differential operator $D^\alpha = D_1^{\alpha_1}D_2^{\alpha_2}\ldots D_n^{\alpha_n}$, where $D_i = \partial/\partial X_i$ for $1 \leq i \leq n$ (§ 10, no. 11, Example).
 
@@ -1442,7 +1442,7 @@ where $\rho_{K, J-K}$ is the number defined by formula (19) of § 7, no. 8. Ther
 
 ### 11. ISOMORPHISMS BETWEEN $\wedge^p(M)$ AND $\wedge^{n-p}(M^*)$ FOR AN $n$-DIMENSIONAL FREE MODULE M
 
-#### Proposition 12 {#alg-iii-s11-prop-12 .statement}
+#### Proposition 12 {#alg-iii-s11-prop-12 .statement tag=068E}
 
 *Let M be a free A-module of dimension n; let $e \in \wedge^n(M)$ be an element forming a basis of $\wedge^n(M)$ and let $e^*$ be the element of $\wedge^n(M^*)$ such that $\{(-1)^{n(n-1)/2} \theta_{\wedge}(e^*)\}$ is the dual basis of $\{e\}$ in $(\wedge^n(M))^*$. Let $\phi : \wedge(M^*) \to \wedge(M)$ be the mapping $z \mapsto z \wedge e^*$ and $\phi' : \wedge(M^*) \to \wedge(M)$ the mapping $z^* \mapsto z^* \wedge e$. Let $\phi_p$ (resp. $\phi'_p$) be the restriction of $\phi$ (resp. $\phi'$) to $\wedge^p(M)$ (resp. $\wedge^p(M^*)$). Then:
 
@@ -1481,7 +1481,7 @@ is even, it follows that $\phi$ and $\phi'$ are inverses of one another. Finally
 
 B(\phi_p'(u^*), v^*) is, to within a sign, the coefficient of $u^* \wedge v^*$ with respect to the basis $\{e^*\}$ of $\Lambda^n(M^*)$.
 
-#### Proposition 13 {#alg-iii-s11-prop-13 .statement}
+#### Proposition 13 {#alg-iii-s11-prop-13 .statement tag=068F}
 
 *With the hypotheses and notation of Proposition 11, for every endomorphism g of the A-module M.*
 
@@ -1497,7 +1497,7 @@ $$
 $$
 taking account of § 8, no. 4, Proposition 8.
 
-#### Corollary {#alg-iii-s11-n11-cor-1 .statement}
+#### Corollary {#alg-iii-s11-n11-cor-1 .statement tag=068G}
 
 *For every automorphism g of E,*
 $$(80)$$
@@ -1507,7 +1507,7 @@ $$\Lambda^{(tg^{-1})} = (\det g)^{-1}\phi \circ (\Lambda(g)) \circ \phi^{-1}.$$
 
 Let K be a field and E a vector space over K. Recall that with every $p$-vector $z \in \Lambda^p(E)$ is associated a finite-dimensional subspace $M_z$ of E, namely the smallest vector subspace M of E such that $z \in \Lambda^p(M)$ (§ 7, no. 2, Corollary to Proposition 4).
 
-#### Proposition 14 {#alg-iii-s11-prop-14 .statement}
+#### Proposition 14 {#alg-iii-s11-prop-14 .statement tag=068H}
 
 (i) *The orthogonal of $M_z$ in $E^*$ is the set of $x^* \in E^*$ such that $x^* \perp z = 0$.*
 
@@ -1541,17 +1541,17 @@ which shows that the relation $x^* \perp z = 0$ implies $a_H = 0$ for $1 \in H$.
 
 Let K be a field and E a vector space over K. A $p$-vector $z \in \wedge^p(E)$ is called *pure* (or sometimes *decomposable*) if it is non-zero and there exist vectors $x_1, \ldots, x_p$ in E such that $z = x_1 \wedge x_2 \wedge \cdots \wedge x_p$. For this, it is necessary and sufficient that the subspace $M_z$ associated with $z$ (which is always of dimension $\geq p$ for $z \neq 0$) be *exactly* of dimension $p$ (since $\wedge^p(M_z)$ is then of dimension 1). In particular, every *non-zero* scalar, every non-zero element of $E = \wedge^1(E)$, every non-zero element of $\wedge^n(E)$, when E is of dimension $n$, is *pure*.
 
-#### Proposition 15 {#alg-iii-s11-prop-15 .statement}
+#### Proposition 15 {#alg-iii-s11-prop-15 .statement tag=068I}
 
 *Let E be a vector space of dimension n and let e be an element $\neq 0$ of $\wedge^n(E)$ (hence forming a basis of this vector space). Let $\phi : \wedge(E) \to \wedge(E^*)$ be the vector space isomorphism associated with e (no. 11, Proposition 12). If z is a pure element of $\wedge^p(E)$, then $\phi(z)$ is a pure element of $\wedge^{n-p}(E^*)$ and the subspaces associated with z and $\phi(z)$ are orthogonal.*
 
 The cases $p = 0$ and $p = n$ are trivial. Suppose therefore that $1 \leq p \leq n - 1$ and let $z = x_1 \wedge \cdots \wedge x_p \neq 0$. Then there exists a basis $(e_i)_{1 \leq i \leq n}$ of E such that $e_i = x_i$ for $1 \leq i \leq p$ and $e = e_1 \wedge e_2 \wedge \cdots \wedge e_n$. It then follows from formula (78) of no. 11 that $\phi(z) = \pm e_{p+1}^* \wedge \cdots \wedge e_n^*$, whence the proposition.
 
-#### Corollary {#alg-iii-s11-n13-cor-1 .statement}
+#### Corollary {#alg-iii-s11-n13-cor-1 .statement tag=068J}
 
 *If E is of dimension n, every non-zero $(n-1)$-vector E is pure.*
 
-#### Proposition 16 {#alg-iii-s11-prop-16 .statement}
+#### Proposition 16 {#alg-iii-s11-prop-16 .statement tag=068K}
 
 *For an element $z \neq 0$ of $\bigwedge^p(E)$ to be pure, it is necessary and sufficient that, for all $u^* \in \bigwedge^{p-1}(E^*)$,
 

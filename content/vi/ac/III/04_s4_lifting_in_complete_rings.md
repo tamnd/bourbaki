@@ -37,9 +37,9 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: 2ac2fdd78d00d73615cd83c03ad473866be5a891e82d161cb49895d2f70c793a
+content_sha256: 263944b496d1f594d3ad6ede6c3b1e8b1c038ce570f7735d7ae2b09e90d1b925
 translated_from: content/en/ac/III/04_s4_lifting_in_complete_rings.md
-source_content_sha256: f912ce448ee1a4126b48a8dd56b73d600b24151c918435c56cc969e0399db275
+source_content_sha256: e207aa232d5bd052ada28a852533dc7566c32021e210764a8b52a3fbf49d5170
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-76b01779
 glossary_version: 34
@@ -53,7 +53,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $R$ là một vành giao hoán. Hai phần tử $x, y$ của $R$ được gọi là *nguyên tố cùng nhau mạnh* nếu các iđêan chính $Rx$ và $Ry$ là nguyên tố cùng nhau, nói cách khác (Chương II, § 1, no. 2) nếu $R x + R y = R$; điều này tương đương với việc nói rằng tồn tại hai phần tử $a, b$ của $R$ sao cho $ax + by = 1$.
 
-#### Bổ đề 1 ("Bổ đề Euclid") {#ac-iii-s4-lem-1 .statement}
+#### Bổ đề 1 ("Bổ đề Euclid") {#ac-iii-s4-lem-1 .statement tag=04HS}
 
 *Cho $x, y$ là hai phần tử nguyên tố cùng nhau mạnh của $R$; nếu $z \in R$ là sao cho $x$ chia hết $yz$, thì $x$ chia hết $z$.*
 
@@ -67,7 +67,7 @@ $$
 
 Đối với các vành đa thức ta có kết quả sau:
 
-#### Mệnh đề 1 {#ac-iii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#ac-iii-s4-prop-1 .statement tag=04HT}
 
 *Cho $\mathbf{A}$ là một vành giao hoán và $P$ và $P'$ là hai đa thức nguyên tố cùng nhau mạnh trong $\mathbf{A}[X]$. Giả sử rằng $P$ là đơn thức cao nhất và có bậc $s$. Khi đó mọi đa thức $T$ trong $\mathbf{A}[X]$ có thể được viết duy nhất dưới dạng*
 $$
@@ -108,7 +108,7 @@ $$
 
 do đó $\deg(Q) \leq t - s$.
 
-#### Ví dụ {#ac-iii-s4-n1-exa-1 .statement}
+#### Ví dụ {#ac-iii-s4-n1-exa-1 .statement tag=04HU}
 
 Để một đa thức $P \in \mathbf{A}[X]$ nguyên tố cùng nhau mạnh với $X - a$ (trong đó $a \in \mathbf{A}$), điều kiện cần và đủ là $P(a)$ khả nghịch trong $\mathbf{A}$. Thật vậy, nếu P và $X - a$ nguyên tố cùng nhau mạnh, từ Mệnh đề 1 suy ra rằng tồn tại $c \in \mathbf{A}$ và một đa thức $Q \in \mathbf{A}[X]$ sao cho $cP + (X - a)Q = 1$, do đó $cP(a) = 1$ và $P(a)$ khả nghịch. Ngược lại, theo phép chia Euclid
 
@@ -120,7 +120,7 @@ và, nếu $P(a) = b^{-1}$, trong đó $b \in \mathbf{A}$, ta suy ra rằng $1 =
 
 Cho $\mathbf{A}$ và $\mathbf{B}$ là hai vành giao hoán và $f : \mathbf{A} \to \mathbf{B}$ là một đồng cấu vành. Nếu $P = \sum_{i \geq 0} a_i X^i$ là một chuỗi lũy thừa hình thức trong $\mathbf{A}[[X]]$, ký hiệu $\bar{f}(P)$ là chuỗi lũy thừa hình thức $\sum_{i \geq 0} f(a_i) X^i$ trong $\mathbf{B}[[X]]$. Nếu P là một đa thức, thì $\bar{f}(P)$ cũng là một đa thức và, nếu thêm nữa P là đơn thức cao nhất, thì $\bar{f}(P)$ là đơn thức cao nhất cùng bậc với P. Cuối cùng, $P \mapsto \bar{f}(P)$ rõ ràng là một đồng cấu từ $\mathbf{A}[[X]]$ vào $\mathbf{B}[[X]]$ mở rộng $f$ và biến X thành X. *Ký hiệu này sẽ được sử dụng thường xuyên theo nghĩa này trong phần còn lại của đoạn này.*
 
-#### Mệnh đề 2 {#ac-iii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#ac-iii-s4-prop-2 .statement tag=04HV}
 
 *Cho $\mathbf{A}$ và $\mathbf{B}$ là hai vành giao hoán, $f$ một đồng cấu từ $\mathbf{A}$ đến $\mathbf{B}$ và $P, P'$ là hai đa thức trong $\mathbf{A}[X]$. Nếu $P$ và $P'$ nguyên tố cùng nhau mạnh trong $\mathbf{A}[X]$, thì $\bar{f}(P)$ và $\bar{f}(P')$ nguyên tố cùng nhau mạnh trong $\mathbf{B}[X]$. Mệnh đề đảo lại là đúng khi và chỉ khi là toàn ánh, nếu hạt nhân của nó được chứa trong căn Jacobson của $\mathbf{A}$ và nếu $P$ là đơn nhất.*
 
@@ -140,7 +140,7 @@ do đó có quan hệ $E = F + aE$. Bây giờ, $E/F$ là một A-môđun sinh h
 
 ### 2. CHUỖI LŨY THỪA HÌNH THỨC HẠN CHẾ
 
-#### Định nghĩa 1 {#ac-iii-s4-def-1 .statement}
+#### Định nghĩa 1 {#ac-iii-s4-def-1 .statement tag=04HW}
 
 Một vành tôpô giao hoán $A$ được gọi là tôpô hóa tuyến tính (và tôpô của nó được gọi là tuyến tính) nếu tồn tại một hệ cơ bản $\mathscr{B}$ các lân cận $\mathfrak{o}$ gồm các iđêan $\mathfrak{o} \subset A$.
 
@@ -150,7 +150,7 @@ h_{\mathfrak{J}\mathfrak{J}'} : A/\mathfrak{J}' \to A/\mathfrak{J}
 $$
 là ánh xạ chính tắc. Ta biết (Tôpô đại cương, chương III, § 7, no. 3) rằng $(A/\mathfrak{J}, h_{\mathfrak{J}\mathfrak{J}'})$ là một hệ ngược của các vành rời rạc (đối với tập chỉ số $\mathscr{B}$ có thứ tự bởi $\supset$ và có hướng), mà giới hạn ngược của nó là một vành Hausdorff đầy đủ được tôpô hóa tuyến tính $\tilde{A}$; hơn nữa (sđd., Mệnh đề 2 ), một cấu xạ ngặt $i : A \to \tilde{A}$ được xác định, có hạt nhân là bao đóng của $\{0\}$ trong $A$ và có ảnh trù mật khắp nơi trong $\tilde{A}$, sao cho $\tilde{A}$ được đồng nhất một cách chính tắc với phần đầy đủ Hausdorff của $A$.
 
-#### Định nghĩa 2 {#ac-iii-s4-def-2 .statement}
+#### Định nghĩa 2 {#ac-iii-s4-def-2 .statement tag=04HX}
 
 Cho một vành tôpô giao hoán $A$, một chuỗi lũy thừa hình thức
 $$
@@ -196,7 +196,7 @@ $$
 \mathbf{A}' = \lim_{\rightarrow} (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_n].
 $$
 
-#### Mệnh đề 3 {#ac-iii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#ac-iii-s4-prop-3 .statement tag=04HY}
 
 *Nếu vành giao hoán $\mathbf{A}$ được trang bị tôpô tuyến tính là Hausdorff và đầy đủ, thì đồng cấu chính tắc $\pi$ là một đẳng cấu vành tôpô.*
 
@@ -206,7 +206,7 @@ $$
 $$
 vì $S_{\mathfrak{J}}$ là một đa thức, ta thấy rằng $\phi_{n_1 \ldots n_p}(S) \in \mathfrak{J}$ ngoại trừ các $(n_1, \ldots, n_p)$, có số lượng hữu hạn, sao cho $\phi_{n_1 \ldots n_p}^{\mathfrak{J}}(S_{\mathfrak{J}}) \neq 0$, điều này chứng minh mệnh đề đầu tiên của ta; mệnh đề thứ hai suy ra từ các định nghĩa. Vì $A$ là Hausdorff, giao của các $\mathbf{N}_\mathfrak{J}$ thu gọn về 0 và do đó $\pi$ là *song ánh*, điều này hoàn tất chứng minh, vì $\pi$ là một cấu xạ ngặt.
 
-#### Mệnh đề 4 {#ac-iii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#ac-iii-s4-prop-4 .statement tag=04HZ}
 
 *Cho $A, B$ là hai vành giao hoán có tôpô tuyến tính, $B$ là Hausdorff và đầy đủ, và $u : A \to B$ là một đồng cấu liên tục. Với mọi họ $b = (b_i)_{1 \leq i \leq p}$ các phần tử của $B$, tồn tại một đồng cấu liên tục duy nhất*
 $$
@@ -220,11 +220,11 @@ Trong trường hợp đặc biệt khi $A = B$ và $u$ là ánh xạ đồng nh
 
 *Các nhận xét*
 
-#### Nhận xét 1 {#ac-iii-s4-n2-rem-1 .statement}
+#### Nhận xét 1 {#ac-iii-s4-n2-rem-1 .statement tag=04I0}
 
 Mệnh đề 4 chứng minh rằng với mọi iđêan *đóng* $a$ trong một vành $A$ được giả thiết là Hausdorff và đầy đủ, các quan hệ $b_i \in a$ với $1 \leq i \leq p$ kéo theo $f(b_1, \ldots, b_p) \in a$ với mọi chuỗi lũy thừa hình thức hạn chế $f \in A\{X_1, \ldots, X_p\}$.
 
-#### Nhận xét 2 {#ac-iii-s4-n2-rem-2 .statement}
+#### Nhận xét 2 {#ac-iii-s4-n2-rem-2 .statement tag=04I1}
 
 Giả sử rằng $A$ có tôpô tuyến tính; cho $r$ là một số nguyên sao cho 1 $\leq r \leq p$ và cho vành $A\{X_1, \ldots, X_r\}$ được trang bị tôpô đã định nghĩa ở trên. Khi đó vành tôpô $A\{X_1, \ldots, X_r\}$ được đồng nhất với vành các chuỗi lũy thừa hình thức hạn chế
 
@@ -234,7 +234,7 @@ $$
 
 như suy ra ngay lập tức từ các định nghĩa.
 
-#### Nhận xét 3 {#ac-iii-s4-n2-rem-3 .statement}
+#### Nhận xét 3 {#ac-iii-s4-n2-rem-3 .statement tag=04I2}
 
 Với ký hiệu của *Nhận xét 2*, giả sử thêm rằng $A$ là Hausdorff và đầy đủ và hãy viết mọi chuỗi lũy thừa hình thức hạn chế $f \in A\{X_1, \ldots, X_r\}$ dưới dạng
 
@@ -364,7 +364,7 @@ $$J_{f \circ g} = J_f(g) \cdot J_g$$
 $$(15)$$
 $$J_{f \circ g}(0) = J_f(g) J_g(0).$$
 
-#### Mệnh đề 5 {#ac-iii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#ac-iii-s4-prop-5 .statement tag=04I3}
 
 *Cho $\mathbf{A}$ là một vành giao hoán và $\mathbf{f} = (f_1, \ldots, f_n)$ là một hệ không có số hạng hằng gồm $n$ chuỗi trong $\mathbf{A}[[X_1, \ldots, X_n]]$. Giả sử rằng $J_f(0)$ là khả nghịch trong $\mathbf{A}$. Khi đó tồn tại một hệ không có số hạng hằng $\mathbf{g} = (g_1, \ldots, g_n)$ gồm $n$ chuỗi trong $\mathbf{A}[[X_1, \ldots, X_n]]$ sao cho*
 $$(16)$$
@@ -394,7 +394,7 @@ Mệnh đề 5 và các công thức (10) và (15) chỉ ra rằng với luật 
 
 Đặc biệt, nếu $A$ là một vành giao hoán và $m$ là một iđêan của $A$ và $A$ là Hausdorff và đầy đủ đối với tôpô *m-adic*, thì cặp có thứ tự $(A, m)$ thỏa mãn các điều kiện Hensel.
 
-#### Mệnh đề 6 {#ac-iii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#ac-iii-s4-prop-6 .statement tag=04I4}
 
 *Cho $A$ là một vành giao hoán, $B$ là một vành thỏa mãn các điều kiện của Hensel và $u : A \to B$ là một đồng cấu. Với mọi họ $x = (x_1, \ldots, x_n)$ gồm các phần tử lũy linh về mặt tôpô của $B$, tồn tại một đồng cấu duy nhất $\tilde{u}$ từ $A[[X_1, \ldots, X_n]]$ vào $B$ sao cho $\tilde{u}(a) = u(a)$ với mọi $a \in A$ và $\tilde{u}(X_i) = x_i$ với $1 \leq i \leq n$. Hơn nữa, nếu m ký hiệu iđêan các chuỗi không có số hạng hằng trong $A[[X_1, \ldots, X_n]]$, thì $\tilde{u}$ liên tục đối với tôpô m-adic.*
 
@@ -420,7 +420,7 @@ là chuỗi lũy thừa hình thức trong $A[[X_{n+1}, \ldots, X_m]]$ thu đư�
 
 Ta lấy $B$ là vành các chuỗi lũy thừa hình thức $A[[X_1, \ldots, X_r]]$ và lấy $n$ là iđêan của các chuỗi trong $B$ không có số hạng hằng, sao cho $(B, n)$ thỏa mãn các điều kiện Hensel ($§ 2$, no. 6, Hệ quả của Mệnh đề 6). Mệnh đề 6 có thể được áp dụng bằng cách lấy các $x_i \in B$ là các chuỗi không có số hạng hằng; khi đó, với mọi chuỗi $\mathbf{f} \in A[[X_1, \ldots, X_r]]$, $\tilde{u}(f)$ chính là chuỗi lũy thừa hình thức $f(x_1, \ldots, x_n)$ được định nghĩa trong Đại số, Chương IV, $§ 5$, no. 5. Điều này là hiển nhiên nếu $f$ là một đa thức và trong trường hợp tổng quát nó suy ra từ mệnh đề bằng cách nhận xét rằng $f \mapsto f(x_1, \ldots, x_n)$ là liên tục trên $A[[X_1, \ldots, X_n]]$ đối với tôpô m-adic.
 
-#### Hệ quả {#ac-iii-s4-n5-cor-1 .statement}
+#### Hệ quả {#ac-iii-s4-n5-cor-1 .statement tag=04I5}
 
 Cho $A$ là một vành thỏa mãn điều kiện Hensel và $x = (x_1, \ldots, x_n)$ là một họ các phần tử lũy linh tôpô của $A$. Cho $g = (g_1, \ldots, g_q)$ là một hệ không có số hạng hằng của các chuỗi trong $A[[X_1, \ldots, X_s]]$ và $f = (f_1, \ldots, f_p)$ là một hệ các chuỗi lũy thừa hình thức trong $A[[X_1, \ldots, X_q]]$. Khi đó $g(x) = (g_1(x), \ldots, g_q(x))$ là một họ các phần tử lũy linh tôpô của $A$ và
 
@@ -438,13 +438,13 @@ tương ứng, rõ ràng quan hệ $f \in {m'}^k$ kéo theo $f(g_1, \ldots, g_q)
 
 Trong phần sau, với một vành $A$ và một iđêan $m$ của $A$ chúng tôi sẽ ký hiệu bởi $m^{x^n}$ tập hợp tích $\prod_{i=1}^n m$, trong $A^n$, ở đó $m_i = m$ với $1 \leq i \leq n$, để tránh nhập nhằng.
 
-#### Mệnh đề 7 {#ac-iii-s4-prop-7 .statement}
+#### Mệnh đề 7 {#ac-iii-s4-prop-7 .statement tag=04I6}
 
 *Cho $A$ là một vành và $m$ là một iđêan của $A$ sao cho cặp có thứ tự $(A, m)$ thỏa mãn các điều kiện Hensel. Cho $f = (f_1, \ldots, f_n)$ là một hệ không có số hạng hằng gồm các chuỗi trong $A[[X_1, \ldots, X_n]]$ sao cho $J_f(0)$ khả nghịch trong $A$. Khi đó, với mọi $x \in m^{x^n}$, $f(x) \in m^{x^n}$ và $x \mapsto f(x)$ là một song ánh của $m^{x^n}$ lên chính nó, song ánh ngược là $x \mapsto g(x)$, trong đó $g$ được cho bởi quan hệ (16) ở no. 4.*
 
 Sự kiện rằng $f(x) \in m^{x^n}$ là hiển nhiên khi các chuỗi ấy là các đa thức và trong trường hợp tổng quát suy ra từ Mệnh đề 6 và từ sự kiện rằng $m$ là đóng trong $A$. Khi đó các khẳng định khác của mệnh đề là những hệ quả ngay lập tức của (16), (17) và (18).
 
-#### Hệ quả {#ac-iii-s4-n5-cor-2 .statement}
+#### Hệ quả {#ac-iii-s4-n5-cor-2 .statement tag=04I7}
 
 *Cho $q$ là một iđêan đóng của $A$ được chứa trong $m$. Khi đó quan hệ $x \equiv x' \pmod{q^{x^n}}$ là tương đương với $f(x) \equiv f(x') \pmod{q^{x^n}}$.*
 
@@ -456,7 +456,7 @@ $$
 
 trong đó các $h_i$ thuộc $A[[X_1, \ldots, X_n, Y_1, \ldots, Y_n]]$ (Đại số, Chương IV, § 5, no. 8, Mệnh đề 9); ngay lập tức suy ra rằng quan hệ $x \equiv x' \pmod{q^{x^n}}$ kéo theo $f(x) \equiv f(x') \pmod{q^{x^n}}$. Đảo lại thu được bằng cách thay thế $f$ bởi "nghịch đảo" $g$ của nó.
 
-#### Định lý 2 {#ac-iii-s4-thm-2 .statement}
+#### Định lý 2 {#ac-iii-s4-thm-2 .statement tag=04I8}
 
 *Cho $A$ là một vành và $m$ là một iđêan của $A$ sao cho cặp có thứ tự $(A, m)$ thỏa mãn các điều kiện Hensel. Cho $f = (f_1, \ldots, f_n)$ là một hệ gồm $n$ phần tử của
 
@@ -487,7 +487,7 @@ $$f(a + ex) = f(a) + M_t(a) \cdot ex + M_t(a) M' \cdot er(x).$$
 
 Viết $g = 1, + M' \cdot r$, ta thấy rằng $g$ thỏa mãn các điều kiện (i) và (ii); khi đó chỉ cần thay thế $x$ bởi $h(y)$ để thu được (iii).
 
-#### Hệ quả 1 {#ac-iii-s4-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-iii-s4-thm-2-cor-1 .statement tag=04I9}
 
 Cho $A$ là một vành và $m$ là một iđêan của $A$ sao cho cặp có thứ tự $(A, m)$ thỏa mãn các điều kiện của Hensel. Cho $f \in A\{X\}$, $a \in A$ và đặt $e = f'(a)$. Nếu $f(a) \equiv 0$ (mod. $e^2 m$), thì tồn tại $b \in A$ sao cho $f(b) = 0$ và $b \equiv a$ (mod. $em$). Nếu b' là một phần tử khác của $\mathbf{A}$ sao cho $f(b') = 0$ và $b' \equiv a \pmod{\mathfrak{m}}$, thì $e(b - b') = 0$. Đặc biệt, $b$ là duy nhất nếu $e$ không phải là một ước của không trong $\mathbf{A}$.
 
@@ -497,7 +497,7 @@ f(a + eh(y)) = e^2(c + y)
 $$
 và do đó chỉ cần lấy $y = -c$, $b = a + eh(-c)$. Hơn nữa nếu $b = a + ex, b' = a + ex', x \in \mathfrak{m}, x' \in m, f(b) = f(b') = 0$, ta suy ra từ (19) rằng $e^2(g(x) - g(x')) = 0$. Vì $g(\mathbf{X}) - g(\mathbf{Y}) = (\mathbf{X} - \mathbf{Y})u(\mathbf{X}, \mathbf{Y})$, trong đó $u$ là hạn chế và $u(0, 0) = 1$, nên $g(x) - g(x') = (x - x')v$, trong đó $v \in \mathbf{A}$ là khả nghịch, vì, do $m$ là đóng, ta có $v - 1 = u(x, x') - 1 \in \mathfrak{m}$ và $m$ được chứa trong căn Jacobson của $\mathbf{A}$; do đó có quan hệ $e(b - b') = 0$.
 
-#### Nhận xét {#ac-iii-s4-n5-rem-1 .statement}
+#### Nhận xét {#ac-iii-s4-n5-rem-1 .statement tag=04IA}
 
 Hệ quả này áp dụng đáng chú ý khi $e$ khả nghịch trong $\mathbf{A}$; khi đó ta cũng có thể suy ra sự tồn tại của $b$ từ Định lý Hensel, vì ảnh chính tắc của $f(\mathbf{X})$ trong $(\mathbf{A}/\mathfrak{m})\{\mathbf{X}\}$ có dạng $(\mathbf{X} - a)f_1(\mathbf{X}), \mathbf{X} - a$ và $f_1(\mathbf{X})$ nguyên tố cùng nhau mạnh, vì $f_1(\alpha) = f'(\alpha)$ là ảnh của $e$ (no. 1, Ví dụ).
 
@@ -505,13 +505,13 @@ Ví dụ
 (1) Cho $p$ là một số nguyên tố $\neq 2$ và $n$ là một số nguyên sao cho lớp của nó mod. $p$ là một bình phương $\neq 0$ trong trường nguyên tố $\mathbf{F}_p$. Nếu $\mathbf{Z}_p$ là vành các số nguyên $p$-adic (§ 2, no. 12, Ví dụ 3), việc áp dụng Hệ quả 1 cho đa thức $\mathbf{X}^2 - n$ cho thấy rằng $n$ là một bình phương trong $\mathbf{Z}_p$; chẳng hạn 7 là một bình phương trong $\mathbf{Z}_3$.
 (2) Cho $\mathbf{A} = \mathbf{K}[[\mathbf{Y}]]$ là vành các chuỗi lũy thừa hình thức theo một ẩn với hệ số trong một trường giao hoán $\mathbf{K}$; với tôpô $(\mathbf{Y})$-adic, vành $\mathbf{A}$ là Hausdorff và đầy đủ (§ 2, no. 6, Hệ quả của Mệnh đề 6) và ánh xạ $f(\mathbf{Y}) \mapsto f(0)$ xác định, bằng cách chuyển qua vành thương, một đẳng cấu từ $\mathbf{A}/(\mathbf{Y})$ lên trường $\mathbf{K}$. Theo Hệ quả 1, nếu $F(\mathbf{Y}, \mathbf{X})$ là một đa thức theo $\mathbf{X}$ với hệ số trong $\mathbf{A}$ và $a$ là một nghiệm đơn của $F(0, \mathbf{X})$ trong $\mathbf{K}$, thì tồn tại duy nhất một chuỗi lũy thừa hình thức $f(\mathbf{Y})$ sao cho $f(0) = a$ và $F(\mathbf{Y}, f(\mathbf{Y})) = 0$.
 
-#### Hệ quả 2 {#ac-iii-s4-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-iii-s4-thm-2-cor-2 .statement tag=04IB}
 
 Cho $\mathbf{A}$ là một vành và $\mathfrak{m}$ là một iđêan của $\mathbf{A}$ sao cho cặp có thứ tự $(\mathbf{A}, m)$ thỏa mãn các điều kiện của Hensel. Cho $r, n$ là các số nguyên sao cho $0 \leq r < n$ và $\mathbf{f} = (f_{r+1}, \ldots, f_n)$ là một hệ gồm $n - r$ phần tử của $\mathbf{A}\{\mathbf{X}_1, \ldots, \mathbf{X}_n\}$; gọi $J^{(n-r)}_{\mathbf{f}}(\mathbf{X})$ là định thức con của $M_{\mathbf{f}}(\mathbf{X})$ gồm các cột có chỉ số $j$ sao cho $r + 1 \leq j \leq n$. Cho $a \in \mathbf{A}^n$ sao cho $J^{(n-r)}_{\mathbf{f}}(a)$ khả nghịch trong $\mathbf{A}$ và $\mathbf{f}(a) \equiv 0 \pmod{\mathfrak{m}^{(n-r)}}$. Khi đó tồn tại duy nhất $\mathbf{x} = (x_1, \ldots, x_n) \in \mathbf{A}^n$ sao cho $x_k = a_k$ với $1 \leq k \leq r$, $\mathbf{x} \equiv a \pmod{\mathfrak{m}^n}$ và $\mathbf{f}(\mathbf{x}) = 0$.
 
 Thay $a$, cho $X_k$ với $1 \leq k \leq r$ trong các $f_i$ (no. 2, Nhận xét 3 ), ta thấy ngay lập tức rằng để chứng minh hệ quả này, ta có thể chỉ cần xét trường hợp $r = 0$. Khi đó Định lý 1 và Mệnh đề 7 cho thấy $\mathbf{f}$ xác định một song ánh từ $a + \mathfrak{m}^n$ lên $\mathbf{f}(a) + \mathfrak{m}^n = \mathfrak{m}^n$; hệ quả suy ra từ việc $0 \in \mathfrak{m}^n$.
 
-#### Hệ quả 3 {#ac-iii-s4-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#ac-iii-s4-thm-2-cor-3 .statement tag=04IC}
 
 *Với ký hiệu và Hệ quả 2, cho $a \in \mathbf{A}^n$; đặt $e = J_r^{(n-r)}(\mathbf{a})$ (không nhất thiết khả nghịch trong $\mathbf{A}$) và giả sử rằng $f(\mathbf{a}) \equiv 0$ (mod. $e^{2m^{\times(n-r)}}$). Khi đó tồn tại $n - r$ chuỗi lũy thừa hình thức không có hằng số $\phi_i$ ($r + 1 \leq i \leq n$) trong $\mathbf{A}[[X_1, \ldots, X_r]]$ sao cho, với mọi $t = (t_1, \ldots, t_r) \in m^{\times r}$,*
 
@@ -547,13 +547,13 @@ $$
 
 ### 6. ÁP DỤNG VÀO SỰ PHÂN RÃ CỦA CÁC VÀNH
 
-#### Bổ đề 2 {#ac-iii-s4-lem-2 .statement}
+#### Bổ đề 2 {#ac-iii-s4-lem-2 .statement tag=04ID}
 
 *Cho $\mathbf{A}$ là một vành và $m$ là một iđêan của $\mathbf{A}$ sao cho cặp có thứ tự $(\mathbf{A}, m)$ thỏa mãn các điều kiện của Hensel. Cho $\mathbf{B}$ là vành thương $\mathbf{A}/m$ và $\pi : \mathbf{A} \to \mathbf{B}$ là đồng cấu chính tắc. Với mọi lũy đẳng $c$ của $\mathbf{B}$, tồn tại một lũy đẳng duy nhất $e$ của $\mathbf{A}$ sao cho $\pi(e) = c$.*
 
 Cho $a$ sao cho $\pi(a) = c$; Hệ quả 1 của Định lý 2 ở no. 5 có thể được áp dụng cho đa thức $f(X) = X^2 - X$ trong $\mathbf{A}[X]$ và phần tử $a \in \mathbf{A}$. Khi đó $f'(a) = 2a - 1$ và, vì $\pi(2a - 1) = 2c - 1$ và $(2c - 1)^2 = 1$ trong $\mathbf{B}$, nên $2c - 1$ khả nghịch trong $\mathbf{B}$ và do đó $2a - 1$ khả nghịch trong $\mathbf{A}$ (§ 2, no. 13, Bổ đề 3). Vì $f(a) \in m$, Hệ quả 1 của Định lý 2 ở no. 5 ngay lập tức cho sự tồn tại và tính duy nhất của $e$.
 
-#### Mệnh đề 8 {#ac-iii-s4-prop-8 .statement}
+#### Mệnh đề 8 {#ac-iii-s4-prop-8 .statement tag=04IE}
 
 *Cho $\mathbf{A}$ là một vành và $m$ là một iđêan của $\mathbf{A}$ sao cho cặp có thứ tự $(\mathbf{A}, m)$ thỏa mãn các điều kiện của Hensel. Cho $\mathbf{B}$ là vành thương $\mathbf{A}/m$ và $\pi : \mathbf{A} \to \mathbf{B}$ là đồng cấu chính tắc. *Nếu B là hợp thành trực tiếp của một họ hữu hạn* $(\mathfrak{b}_i)_{i \in I}$ *các iđêan, thì tồn tại một họ duy nhất* $(\mathfrak{a}_i)_{i \in I}$ *các iđêan của A sao cho* $\pi(\mathfrak{a}_i) = \mathfrak{b}_i$ *với mọi* $i \in I$ *và A là hợp thành trực tiếp của họ* $(\mathfrak{a}_i)$.
 
@@ -569,7 +569,7 @@ tương tự suy ra $1 = \sum_i e_i$. Suy ra $A$ là hợp thành trực tiếp 
 
 Còn phải chỉ ra tính duy nhất của một phân tích như vậy. Bây giờ, giả sử rằng $A$ là hợp thành trực tiếp của một họ khác $(\mathfrak{a}'_i)_{i \in I}$ các iđêan sao cho $\pi(\mathfrak{a}'_i) = \mathfrak{b}_i$ với mọi $i$; khi đó $1 = \sum_i e'_i$ trong đó $e'_i \in \mathfrak{a}'_i$, do đó, trong $B$, $1 = \sum_i \pi(e'_i)$ trong đó $\pi(e'_i) \in \mathfrak{b}_i$, điều này kéo theo $\pi(e'_i) = c_i$; vì $e'_i$ và $e_i$ là các phần tử lũy đẳng, tất yếu $e'_i = e_i$ (Bổ đề 2), điều này hoàn tất chứng minh.
 
-#### Nhận xét {#ac-iii-s4-n6-rem-1 .statement}
+#### Nhận xét {#ac-iii-s4-n6-rem-1 .statement tag=04IF}
 
 Mệnh đề 8 lại cho cấu trúc của một vành nửa địa phương trên $A$ mà đối với tôpô $c$-adic thì Hausdorff và đầy đủ ($c$ là căn Jacobson của $A$), điều này đã thu được như một hệ quả của § 2, no. 13, Hệ quả của Mệnh đề 19.
 

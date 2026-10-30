@@ -40,7 +40,7 @@ subsections:
       pdf_page: 149
 statements: 42
 exercises: 22
-content_sha256: 9041f9c78a28b4b410fb87acbc75b09567f20dece253102f1bdab3a0070f6b46
+content_sha256: 07ae4a61de770d5c798eb97aa060cdf3df439e95327174a3395dfa8ad8f3bf92
 ---
 
 ## § 8. Prolongements d’une valuation à une extension algébrique.
@@ -51,7 +51,7 @@ Soient K un corps, L une extension de K, et A’ un anneau de valuation pour L. 
 
 le groupe des ordres $\Gamma_v$ de $v$ est un sous-groupe du groupe des ordres $\Gamma_{v'}$ de $v'$.
 
-#### Définition 1 {#ac-vi-s8-def-1 .statement}
+#### Définition 1 {#ac-vi-s8-def-1 .statement tag=04W4}
 
 On appelle indice de ramification de $v'$ par rapport à $v$ (ou par rapport à $K$), et l’on note $e(v'/v)$, (ou $e(A'/A)$, ou parfois $e(L/K)$) l’indice $(\Gamma_{v'} : \Gamma_v)$.
 
@@ -59,13 +59,13 @@ Cet indice est un entier naturel, ou $+\infty$. Lorsque $v'_0$ est une valuation
 
 D’autre part le corps résiduel $\kappa(A)$ de $v$ s’identifie à un sous-corps du corps résiduel $\kappa(A')$ de $v'$.
 
-#### Définition 2 {#ac-vi-s8-def-2 .statement}
+#### Définition 2 {#ac-vi-s8-def-2 .statement tag=04W5}
 
 On appelle degré résiduel de $v'$ par rapport à $v$ (ou par rapport à $K$), et l’on note $f(v'/v)$ (ou $f(A'/A)$, ou parfois $f(L/K)$), le degré $[\kappa(A') : \kappa(A)]$.
 
 Ce degré est un entier naturel, ou bien $+\infty$.
 
-#### Lemme 1 {#ac-vi-s8-lem-1 .statement}
+#### Lemme 1 {#ac-vi-s8-lem-1 .statement tag=04W6}
 
 Soient $K, K', K''$ trois corps tels que $K \subset K' \subset K''$; $v''$ une valuation de $K''$, $v$ et $v'$ ses restrictions à $K$ et $K'$. On a les relations :
 
@@ -73,7 +73,7 @@ Soient $K, K', K''$ trois corps tels que $K \subset K' \subset K''$; $v''$ une v
 
 C’est évident.
 
-#### Lemme 2 {#ac-vi-s8-lem-2 .statement}
+#### Lemme 2 {#ac-vi-s8-lem-2 .statement tag=04W7}
 
 Soient $K$ un corps, $L$ une extension de degré fini $n$ de $K$, $v'$ une valuation de $L$, et $v$ sa restriction à $K$. On a l’inégalité
 
@@ -103,19 +103,19 @@ $$
 $$
 et $v'(b_k) \geq 0,\ v'(z) > 0$. D’où, dans $\kappa(A')$, une relation de la forme $\sum_k \overline{b_k} \overline{y_k} = 0$. Comme $b_m = 1$, ceci contredit l’hypothèse faite sur $y_k$.
 
-#### Proposition 1 {#ac-vi-s8-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s8-prop-1 .statement tag=04W8}
 
 *Soient K un corps, L une extension algébrique de K, $v'$ une valuation de L, $v$ sa restriction à K, A et A' les anneaux de $v$ et $v'$. Alors $\Gamma_{v'}/\Gamma_v$ est un groupe de torsion, et $\kappa(A')$ est une extension algébrique de $\kappa(A)$*.
 
 Soit en effet $(L_\alpha)$ la famille des sous-extensions de degré fini de L; posons $\Gamma_\alpha = v'(L_\alpha^*)$. Le groupe $\Gamma_{v'}$ est réunion de la famille filtrante croissante formée par les $\Gamma_\alpha$; comme les groupes $\Gamma_\alpha/\Gamma_v$ sont finis (lemme 2), $\Gamma_{v'}/\Gamma_v$ est un groupe de torsion. On raisonne de même pour prouver que $\kappa(A')$ est une extension algébrique de $\kappa(A)$.
 
-#### Corollaire 1 {#ac-vi-s8-prop-1-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s8-prop-1-cor-1 .statement tag=04W9}
 
 *La hauteur de $v'$ est égale à celle de $v$*.
 
 Ceci résulte en effet de la prop. 1 et du lemme suivant:
 
-#### Lemme 3 {#ac-vi-s8-lem-3 .statement}
+#### Lemme 3 {#ac-vi-s8-lem-3 .statement tag=04WA}
 
 *Soient G' un groupe totalement ordonné, G un sous-groupe de G' et $\mathfrak{S}'$ (resp. $\mathfrak{S}$) l’ensemble des sous-groupes isolés de G' (resp. G). L’application $H' \to H' \cap G$ applique $\mathfrak{S}'$ sur $\mathfrak{S}$. Cette application est bijective si $G'/G$ est un groupe de torsion*.
 
@@ -123,11 +123,11 @@ Il est clair que $H' \in \mathfrak{S}'$ implique $H' \cap G \in \mathfrak{S}$. S
 
 C.Q.F.D.
 
-#### Corollaire 2 {#ac-vi-s8-lem-3-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s8-lem-3-cor-2 .statement tag=04WB}
 
 Pour que $v'$ soit impropre (resp. de hauteur 1), il faut et il suffit que $v$ soit impropre (resp. de hauteur 1).
 
-#### Corollaire 3 {#ac-vi-s8-lem-3-cor-3 .statement}
+#### Corollaire 3 {#ac-vi-s8-lem-3-cor-3 .statement tag=04WC}
 
 Supposons que $L$ soit une extension de degré fini de $K$. Pour que $v'$ soit discrète, il faut et il suffit que $v$ soit discrète.
 
@@ -135,11 +135,11 @@ Si $v'$ est discrète, $\Gamma_v$ est isomorphe à un sous-groupe non nul de $\m
 
 ### 2. Prolongement d’une valuation et complétion
 
-#### Définition 3 {#ac-vi-s8-def-3 .statement}
+#### Définition 3 {#ac-vi-s8-def-3 .statement tag=04WD}
 
 Soient $K$ un corps, $v$ une valuation de $K$, et $L$ une extension de $K$. On appelle système complet de prolongements de $v$ à $L$ une famille $(v'_i)_{i \in I}$ de valuations de $L$ prolongeant $v$, telle que toute valuation de $L$ prolongeant $v$ soit équivalente à une $v'_i$ et à une seule.
 
-#### Proposition 2 {#ac-vi-s8-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s8-prop-2 .statement tag=04WE}
 
 Soient $K$ un corps, $v$ une valuation de $K$, $\hat{K}$ le complété de $K$ pour $v$, $\hat{v}$ le prolongement continu de $v$ à $\hat{K}$, et $L$ une extension de degré fini $n$ de $K$.
 
@@ -169,15 +169,15 @@ Passons à b). On peut encore supposer $v$ non impropre. Soit $(v'_1, \ldots, v'
 
 Prenons maintenant $(v'_1, \ldots, v'_s)$ comme dans l’énoncé. La surjectivité de $\varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i$ et la relation (7) ont déjà été démontrées. Il reste à vérifier que le noyau $n$ de $\varphi$ est le radical $r$ de $\hat{K} \otimes_K L$. Comme $\prod_{i=1}^s \hat{L}_i$ est semi-simple, on a $r \subset n$. D'autre part, pour tout idéal maximal $m$ de $\hat{K} \otimes_K L$, le corps quotient $L(m) = (\hat{K} \otimes_K L)/m$ est une extension composée de $\hat{K}$ et $L$ sur $K$ (*Alg.*, chap. VIII, , prop. 1). Il existe une valuation $w$ de $L(m)$ prolongeant $\hat{v}$ (§ 3, no 3, prop. 5); la restriction $v'$ de $w$ à $L$ prolonge $v$. Comme $[L(m) : \hat{K}]$ est fini, $L(m)$ est complet pour $w$ (§ 5, no 2, prop. 4). Or l’adhérence de $L$ dans $L(m)$ est un corps contenant $\hat{K}$ et $L$, donc est égale à $L(m)$. Par conséquent $L(m)$ s’identifie au complété $\hat{L}_{v'}$, et $m$ est le noyau de l’application canonique de $\hat{K} \otimes_K L$ sur $\hat{L}_{v'}$. Or, par hypothèse il existe un indice $i$ tel que $v'$ et $v'_i$ soient dépendantes; d’où $\hat{L}_{v'} = \hat{L}_i$ (§ 7, no 2, prop. 3). Ainsi on a $n \subset m$, ce qui prouve qu’on a $n \subset r$, et achève la démonstration
 
-#### Corollaire 1 {#ac-vi-s8-prop-2-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s8-prop-2-cor-1 .statement tag=04WF}
 
 *Si $K$ est complet pour $v$, et si $v$ est non impropre, deux valuations de $L$ prolongeant $v$ sont dépendantes.* En effet, on a $\hat{K} \otimes_K L = L$.
 
-#### Corollaire 2 {#ac-vi-s8-prop-2-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s8-prop-2-cor-2 .statement tag=04WG}
 
 *Si $\hat{K}$ ou $L$ est séparable sur $K$, l’application canonique $\varphi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i$ est un isomorphisme.* En effet le radical de $\hat{K} \otimes_K L$ est alors nul (*Alg.*, chap. VIII, § 7, no 3, th. 1).
 
-#### Remarque {#ac-vi-s8-n2-rem-1 .statement}
+#### Remarque {#ac-vi-s8-n2-rem-1 .statement tag=04WH}
 
 La prop. 2, b) montre que toute *extension composée* de $\hat{K}$ et $L$ sur $K$ (*Alg.*, chap. VIII, § 8) est isomorphe à l’un des complétés $\hat{L}_i$, et que ceux-ci sont des extensions composées deux à deux non isomorphes.
 
@@ -185,7 +185,7 @@ La prop. 2, b) montre que toute *extension composée* de $\hat{K}$ et $L$ sur $K
 
 Soient $K$ un corps, $v$ une valuation de $K$, et $L$ une extension de degré fini $n$ de $K$. Soient $(v'_1, \ldots, v'_r)$ des valuations deux à deux *inéquivalentes* de $L$ prolongeant $v$; si elles sont *indépendantes* (ce qui est toujours le cas si $v$ est de hauteur 1), on a $\sum_{i=1}^r e(v'_i/v)f(v'_i/v) \leq n$ en vertu de la prop. 2 (formules (6)) et (7)). Nous allons voir que ce résultat est vrai dans le cas général. De façon précise :
 
-#### Théorème 1 {#ac-vi-s8-thm-1 .statement}
+#### Théorème 1 {#ac-vi-s8-thm-1 .statement tag=04WI}
 
 Soient K un corps, $v$ une valuation de K, et L une extension de degré fini n de K. Alors :
 a) Tout système complet $(v'_i)_{i \in I}$ de prolongements de $v$ à L est fini.
@@ -243,19 +243,19 @@ en vertu du chap. I, $§ 1$, n° 4, prop. 2.
 
 Pour terminer la démonstration du th. 1, il reste à prouver c). Si l’anneau de $v'_i$ contient celui de $v'_j$, $\Gamma_{v_i'}$ s’identifie à un groupe quotient $\Gamma_{v_j'}/H$, $H$ étant un sous-groupe isolé ($§ 4$, n° 3). Comme l’application canonique composée $\Gamma_{v} \to \Gamma_{v_j'} \to \Gamma_{v_j'}/H = \Gamma_{v_i'}$ est injective, on a $H \cap \Gamma_{v} = \{0\}$, d’où $H = \{0\}$ (lemme 3, n° 1). Alors $v'_i$ et $v'_j$ sont équivalentes, d’où $i = j$.
 
-#### Remarque {#ac-vi-s8-n3-rem-1 .statement}
+#### Remarque {#ac-vi-s8-n3-rem-1 .statement tag=04WJ}
 
 L’intersection C des anneaux $A'_i$ des valuations $v'_i (i \in I)$ est la fermeture intégrale de A dans L ($§ 1, n^o 3$, cor. 3 du th. 3); il résulte en outre de c) et du $§ 7, n^o 1$, prop. 1 et 2, que C est un anneau semi-local, que ses idéaux maximaux sont les intersections $m_i = C \cap m(A'_i)$ et que $A'_i = C_{m_i}$ pour tout $i \in I$.
 
 ### 4. Indice initial de ramification
 
-#### Définition 4 {#ac-vi-s8-def-4 .statement}
+#### Définition 4 {#ac-vi-s8-def-4 .statement tag=04WK}
 
 Soient G un groupe commutatif totalement ordonné, et H un sous-groupe d’indice fini de G. On appelle indice initial de H dans G, et l’on note $\varepsilon(G, H)$, le nombre des sous-ensembles majeurs de G formés d’éléments strictement positifs, et contenant tous les éléments $> 0$ de H.
 
 Cet indice initial est un entier naturel, en vertu de la proposition suivante :
 
-#### Proposition 3 {#ac-vi-s8-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s8-prop-3 .statement tag=04WL}
 
 Les hypothèses sont celles de la déf. 4. Si l’ensemble des éléments strictement positifs de G n’a pas de plus petit élément, on a $\varepsilon(G, H) = 1$ quel que soit H. S’il existe un plus petit élément $> 0$ de G, et si l’on note G’ le sous-groupe qu’il engendre, on a $\varepsilon(G, H) = (G' : (G' \cap H))$.
 
@@ -265,12 +265,12 @@ Dans le second cas, soit x le plus petit élément $> 0$ de G, et soit n le plus
 
 C.Q.F.D.
 
-#### Corollaire {#ac-vi-s8-n4-cor-1 .statement}
+#### Corollaire {#ac-vi-s8-n4-cor-1 .statement tag=04WM}
 
 L’indice initial $\varepsilon(G, H)$ divise l’indice $(G : H)$, et lui est égal si G est isomorphe à $\mathbf{Z}$.
 En particulier, on a $\varepsilon(G, H) \leq (G : H)$.
 
-#### Définition 5 {#ac-vi-s8-def-5 .statement}
+#### Définition 5 {#ac-vi-s8-def-5 .statement tag=04WN}
 
 Soient K un corps, L une extension de degré fini de K, $w$ une valuation de L, $v$ sa restriction à K,
 
@@ -278,7 +278,7 @@ Soient K un corps, L une extension de degré fini de K, $w$ une valuation de L, 
 
 D’après le corollaire ci-dessus, ε(w/v) divise e(w/v), avec égalité dans le cas d’une valuation discrète.
 
-#### Proposition 4 {#ac-vi-s8-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s8-prop-4 .statement tag=04WO}
 
 Les hypothèses sont celles de la déf. 5. Soient A et m (resp. A' et m') l’anneau et l’idéal de la valuation v (resp. w). On a
 
@@ -288,7 +288,7 @@ Les idéaux de A' contenant mA' et distincts de A' correspondent en effet aux so
 
 ### 5. La relation $\sum_i e_i f_i = n$
 
-#### Proposition 5 {#ac-vi-s8-prop-5 .statement}
+#### Proposition 5 {#ac-vi-s8-prop-5 .statement tag=04WP}
 
 Soient K un corps, v une valuation de K, A son anneau, m son idéal, L une extension de degré fini n de K, B la fermeture intégrale de A dans L, et (v'_i)_{1 \leq i \leq s} un système complet de prolongements de v à L. On a alors
 
@@ -296,7 +296,7 @@ $$ [B/mB : A/m] = \sum_{i=1}^s \varepsilon(v'_i/v)f(v'_i/v). $$
 
 Soit A_i l’anneau de v'_i; on a A_i = B_{m_i}, où m_i parcourt la famille des idéaux maximaux de B (n° 3, Remarque). Soit q_i le saturé de mB par rapport à m_i (Chap. II, § 2, n° 4). D’après le Chap. V, cor. 3 de la prop. 1, n° 1, § 2, l’homomorphisme canonique B/mB → $\prod_{i=1}^s B/q_i$ est un isomorphisme, et m_i est le seul idéal maximal de B contenant q_i. Donc B/q_i est canoniquement isomorphe à (B/q_i)_{m_i} (Chap. II, § 3, n° 3, prop. 8), c’est-à-dire à $B_{m_i}/mB_{m_i} = A_i/mA_i$. On a donc un isomorphisme canonique $B/mB \to \prod_{i=1}^s A_i/mA_i$, d’où le résultat en vertu de la prop. 4 du no 4.
 
-#### Corollaire {#ac-vi-s8-n5-cor-1 .statement}
+#### Corollaire {#ac-vi-s8-n5-cor-1 .statement tag=04WQ}
 
 Avec les mêmes hypothèses et notations, on a
 
@@ -306,7 +306,7 @@ $$
 
 On sait en effet qu’on a $\varepsilon(v'_i/v) \leq e(v'_i/v)$ (no 4, cor. de la prop. 3) et $\sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n$ (no 3, th. 1).
 
-#### Théorème 2 {#ac-vi-s8-thm-2 .statement}
+#### Théorème 2 {#ac-vi-s8-thm-2 .statement tag=04WR}
 
 Les hypothèses et notations étant celles de la prop. 5, les conditions suivantes sont équivalentes:
 
@@ -321,11 +321,11 @@ De façon générale, si M est un A-module, nous noterons V(M) l’espace vector
 
 C.Q.F.D.
 
-#### Remarque 1 {#ac-vi-s8-n5-rem-1 .statement}
+#### Remarque 1 {#ac-vi-s8-n5-rem-1 .statement tag=04WS}
 
 Lorsque $v$ est discrète, on a $\varepsilon(v_i'/v) = e(v_i'/v)$ (no 4), et la condition d) se réduit à $\sum_{i=1}^s e(v_i'/v)f(v_i'/v) = n.$
 
-#### Corollaire 1 {#ac-vi-s8-thm-2-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s8-thm-2-cor-1 .statement tag=04WT}
 
 Avec les mêmes hypothèses et notations, on suppose de plus $v$ discrète et $\mathbf{L}$ séparable. Alors
 
@@ -335,13 +335,13 @@ $$
 
 En effet la fermeture intégrale $B$ de $A$ est alors un $A$-module libre de rang $n$, puisque $A$ est principal (Chap. V, § 1, no 6, cor. 2 de la prop. 18).
 
-#### Corollaire 2 {#ac-vi-s8-thm-2-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s8-thm-2-cor-2 .statement tag=04WU}
 
 Soient $K$ un corps, $v$ une valuation discrète de $K$ pour laquelle $K$ est complet, et $\mathbf{L}$ une extension de degré fini $n$ de $K$. Alors $v$ admet un prolongement $v'$ et un seul à $\mathbf{L}$ (à une équivalence près), l’anneau $A'$ de $v'$ est un module libre de type fini sur l’anneau $A$ de $v$, et l’on a $e(v'/v)f(v'/v) = n$.
 
 En effet, tous les prolongements de $v$ à $\mathbf{L}$ sont dépendants (no 2, cor. de la prop. 2); puisqu’ils sont discrets (no 1, cor. 3 de la prop. 1), ils sont par conséquent équivalents ($§ 4$, no 5, prop. 6, c)). Ceci démontre l’unicité de $v'$. La fermeture intégrale de $A$ dans $\mathbf{L}$ est donc $A'$ ($§ 1$, no 3, cor. 3 du th. 3). Comme $v$ est discrète, la topologie induite sur $A$ par celle de $K$ est la topologie $m$-adique (où $m = m(A)$); l’anneau $A$ est complet, car il est fermé dans $K$. On en conclut que, puisque $A'/mA'$ est un $(A/m)$-espace vectoriel de dimension finie (no 4, prop. 4), $A'$ est un $A$-module de type fini (chap. III, § 2; no 9, cor. 3 de la prop. 12). Il est donc libre et l’on a $e(v'/v)f(v'/v) = n$ en vertu du th. 2.
 
-#### Corollaire 3 {#ac-vi-s8-thm-2-cor-3 .statement}
+#### Corollaire 3 {#ac-vi-s8-thm-2-cor-3 .statement tag=0CIG}
 
 Supposons que $v$ soit de hauteur 1 et que les conditions équivalentes du th. 2 soient vérifiées; si $\hat{\mathbf{L}}_i$ est le complété de $\mathbf{L}$ pour $v_i'$, le degré $n_i = [\hat{\mathbf{L}}_i : \hat{K}]$ est égal à $e(v_i'/v)f(v_i'/v)$ pour tout $i$ et l’homomorphisme canonique
 
@@ -365,7 +365,7 @@ $$
 
 Comme les $v_i'$ sont deux à deux inéquivalentes et de hauteur 1, elles sont indépendantes, et la prop. 2 du no 2 montre donc que l’on a $e(v_i'/v)f(v_i'/v) \leq n_i$ pour tout $i$, et $\sum_{i=1}^s n_i \leq n$. La première assertion résulte donc de ces inégalités et de la relation $\sum_{i=1}^s e(v_i'/v)f(v_i'/v) = n$. Par l’isomorphisme $\varphi$, l’endomorphisme $z \to z(1 \otimes x)$ de $\hat{K} \otimes_K L$ (pour $x \in L$) se transporte en l’endomorphisme de $\prod_{i=1}^s \hat{L}_i$ laissant stable chacun des facteurs et se réduisant dans chaque facteur à la multiplication par $x$ (L étant plongé canoniquement dans son complété $\hat{L}_i$); d’où l’assertion relative au polynôme caractéristique de $x$ et les deux premières formules (9). Enfin, soit E une extension quasi-galoisienne de $\hat{K}$ de degré fini, contenant $\hat{L}_i$; comme $\hat{K}$ est complet et $\hat{v}$ de hauteur 1, il n’existe (à une équivalence près) qu’une seule valuation $v$ sur E prolongeant $\hat{v}$ (no 2, cor. 1 de la prop. 2); pour tout $\hat{K}$-automorphisme $\sigma$ de E, on a donc $v(\sigma(x)) = v_i'(x)$. Par suite $\hat{v}(\mathrm{N}_{\hat{L}_i/\hat{K}}(x)) = n_i v_i'(x)$ (Alg., chap. VIII, § 12, no 2, formule (15)), ce qui prouve la troisième formule (9).
 
-#### Corollaire 4 {#ac-vi-s8-thm-2-cor-4 .statement}
+#### Corollaire 4 {#ac-vi-s8-thm-2-cor-4 .statement tag=04WV}
 
 Sous les hypothèses du cor. 3, si L est une extension séparable de K, chacun des $\hat{L}_i$ est une extension séparable de $\hat{K}$. Si de plus L est une extension galoisienne de K, de groupe de Galois $G_f$, et si $G_i$ désigne le groupe de décomposition de l’idéal de $v_i'$ dans B (chap. V, § 2, no 2, déf. 2), alors $\hat{L}_i$ est une extension galoisienne de $\hat{K}$, dont le groupe de Galois est isomorphe à $G_i$.
 
@@ -377,7 +377,7 @@ $$
 
 et d’autre part $n = sn_i$ en vertu du cor. 3; cela prouve que $\hat{L}_i$ est une extension galoisienne de $\hat{K}$ et que les prolongements par continuité des automorphismes $\sigma \in G_i$ sont les seuls $\hat{K}$-automorphismes de $\hat{L}_i$.
 
-#### Remarque 2 {#ac-vi-s8-n5-rem-2 .statement}
+#### Remarque 2 {#ac-vi-s8-n5-rem-2 .statement tag=0CIH}
 
 Une partie des résultats précédents s’étend au cas des valuations sur un corps $K$ non nécessairement commutatif (cf. § 3, no 1). Soit $L$ un surcorps de $K$, et soient $v'$ une valuation sur $L$, $v$ sa restriction à $K$, $A'$ et $A$ les anneaux respectifs des valuations $v'$ et $v$; on définit alors l’indice de ramification $e(v'/v)$ comme au no 1; d’autre part, $\kappa(A)$ s’identifie à un sous-corps de $\kappa(A')$, et l’on appelle rang résiduel (à gauche) de $v'$ par rapport à $v$ le nombre $f(v'/v)$ égal à la dimension du $\kappa(A)$-espace vectoriel à gauche $\kappa(A')$, lorsque cette dimension est finie, et $+\infty$ dans le cas contraire. Alors, si $L$ est un $K$-espace vectoriel à gauche de dimension finie $n$, le lemme 2 du no 1 et sa démonstration subsistent sans changement. En outre, si $K$ est complet pour $v$, les assertions du cor. 2 du th. 2 du no 5 (autres que l’existence de $v'$) sont encore valables ($n$ désignant la dimension de $L$ comme $K$-espace vectoriel à gauche) avec la démonstration suivante:
 
@@ -385,7 +385,7 @@ En premier lieu la topologie définie par $v'$ sur $L$ est séparée et compatib
 
 ### 6. Anneaux de valuation dans une extension algébrique
 
-#### Proposition 6 {#ac-vi-s8-prop-6 .statement}
+#### Proposition 6 {#ac-vi-s8-prop-6 .statement tag=04WW}
 
 Soient $K$ un corps, $v$ une valuation de $K$, $A$ son anneau, $L$ une extension algébrique de $K$, $A'$ la fermeture intégrale de $A$ dans $L$. Soient $\mathscr{B}$ l’ensemble des anneaux des valuations de $L$ qui prolongent $v$, $\mathscr{M}'$ l’ensemble des idéaux maximaux de $A'$. Alors l’application $V \to m(V) \cap A'$ est une bijection de $\mathscr{B}$ sur $\mathscr{M}'$, et $m' \to A'_{m'}$ est la bijection réciproque.
 
@@ -395,7 +395,7 @@ V = A'_{m'}. Inversement, si V \in \mathscr{B}, on a $A' \subset V$ (\S 3, n° 3
 
 C.Q.F.D.
 
-#### Proposition 7 {#ac-vi-s8-prop-7 .statement}
+#### Proposition 7 {#ac-vi-s8-prop-7 .statement tag=04WX}
 
 Soient K un corps, L une extension quasi-galoisienne de K, $f$ et $f'$ des places de L à valeurs dans un même corps F. On suppose que les restrictions de $f$ et $f'$ à K coïncident. Il existe alors un K-automorphisme s de L tel que $f' = f \circ s$.
 
@@ -403,19 +403,19 @@ Soit en effet A l’anneau de la place de K restriction commune de $f$ et $f'$. 
 
 C.Q.F.D.
 
-#### Corollaire 1 {#ac-vi-s8-prop-7-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s8-prop-7-cor-1 .statement tag=04WY}
 
 Soient K un corps, $v$ une valuation de K, L une extension quasi-galoisienne de K, et $v', v''$ deux extensions de $v$ à L. Il existe alors un K-automorphisme s de L tel que $v''$ soit équivalente à $v' \circ s$.
 
 Soient $f'$ et $f''$ des places de K associées à $v'$ et $v''$; en les remplaçant au besoin par des places équivalentes, on peut supposer qu’elles prennent toutes deux leurs valeurs dans la clôture algébrique du corps résiduel de $v$ (n° 1, prop. 1). Il existe alors un K-automorphisme s de L tel que $f'' = f' \circ s$ (prop. 7); ainsi $v''$ est équivalente à $v' \circ s$ en vertu de la correspondance entre places et valuations (§ 3, n° 3).
 
-#### Corollaire 2 {#ac-vi-s8-prop-7-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s8-prop-7-cor-2 .statement tag=04WZ}
 
 Soient K un corps, $f$ une place (resp. $v$ une valuation) de K, et L une extension radicielle de K. Alors toutes les extensions de $f$ (resp. $v$) à L sont équivalentes.
 
 En effet L est une extension quasi-galoisienne, et son seul automorphisme est l’identité. Le cor. 2 résulte donc de la prop. 7 (resp. du cor. 1).
 
-#### Proposition 8 {#ac-vi-s8-prop-8 .statement}
+#### Proposition 8 {#ac-vi-s8-prop-8 .statement tag=04X0}
 
 Soient K un corps, $v$ une valuation de K, L une extension quasi-galoisienne de degré fini n de K, et $(v'_i)_{1 \leq i \leq g}$ un système complet de prolongements de $v$ à L. Alors $e(v'_i/v)$ et $f(v'_i/v)$ ont des valeurs $e$ et $f$ indépendantes de $i$. On a $efg \leq n$. Si la fermeture intégrale dans L de l’anneau A de $v$ est un A-module de type fini, on a $efg = n$.
 
@@ -423,7 +423,7 @@ Ceci résulte aussitôt des th. 1 (no 3) et 2 (no 5).
 
 ### 7. Prolongement des valeurs absolues.
 
-#### Proposition 9 {#ac-vi-s8-prop-9 .statement}
+#### Proposition 9 {#ac-vi-s8-prop-9 .statement tag=04X1}
 
 Soient K un corps, L une extension algébrique de K, et $f$ une valeur absolue sur K. Alors $f$ se prolonge en une valeur absolue sur L.
 
@@ -437,13 +437,13 @@ est une valeur absolue sur L prolongeant $f$.
 
 Supposons maintenant $f$ non ultramétrique. Alors K s’identifie à un sous-corps de C de manière que $f(x) = |x|^s$ où $0 \leq s \leq 1$ (§ 6, no 4, th. 2). Comme C est algébriquement clos, L s’identifie à un sous-corps de C, et la valeur absolue $x \to |x|^s$ prolonge $f$.
 
-#### Proposition 10 {#ac-vi-s8-prop-10 .statement}
+#### Proposition 10 {#ac-vi-s8-prop-10 .statement tag=04X2}
 
 Soient K un corps, $f$ une valeur absolue sur K telle que K soit complet et non discret pour $f$, et L une extension algébrique de K. Alors $f$ se prolonge de manière unique en une valeur absolue $f'$ sur L, et si L est de degré fini $n$, on a $f'(x) = (f(\mathrm{N}_{L/K}(x)))^{1/n}$ pour tout $x \in L$.
 
 L’existence de $f'$ résulte de la prop. 9, et son unicité (sur toute sous-extension de degré fini de L, donc sur L tout entier) du lemme 2 du § 6, no 4. Soit $f'$ l’unique prolongement de $f$ à la clôture algébrique de K, et supposons L de degré fini $n$. On sait que $\mathrm{N}_{L/K}(x) = \prod_{i=1}^n x_i$, où chaque $x_i$ est conjugué de $x$ sur K (Alg., chap. VIII, § 12, no 2, prop. 4). Vu l’unicité de $f'$, on a $f'(x_i) = f'(x)$ pour tout $i$, d’où la formule annoncée.
 
-#### Proposition 11 {#ac-vi-s8-prop-11 .statement}
+#### Proposition 11 {#ac-vi-s8-prop-11 .statement tag=04X3}
 
 Soient K un corps, f une valeur absolue non ultramétrique sur K, $\hat{K}$ le complété de K pour f, $\hat{f}$ le prolongement continu de f à $\hat{K}$, et L une extension de degré fini n de K.
 
@@ -465,11 +465,11 @@ par les suivantes:
 
 On observe que deux prolongements de f à L qui définissent la même topologie sont égaux (Top. gén., chap. IX, § 3, no 2, prop. 5). Enfin, comme f est non ultramétrique, K est de caractéristique 0, donc le radical de $\hat{K} \otimes_K L$ est nul.
 
-#### Remarque 1 {#ac-vi-s8-n7-rem-1 .statement}
+#### Remarque 1 {#ac-vi-s8-n7-rem-1 .statement tag=0CII}
 
 La prop. 11 b) montre que toute extension composée de $\hat{K}$ et L sur K est isomorphe à l’un des complétés $\hat{L}_i$, et que ceux-ci sont des extensions composées deux à deux non isomorphes.
 
-#### Remarque 2 {#ac-vi-s8-n7-rem-2 .statement}
+#### Remarque 2 {#ac-vi-s8-n7-rem-2 .statement tag=0CIJ}
 
 Nous savons que les complétés $\hat{K}$ et $\hat{L}_i$ sont isomorphes à $\mathbf{R}$ ou $\mathbf{C}$ (§ 6, no 4, th. 2). Lorsque $\hat{K}$ est isomorphe à $\mathbf{C}$, il en est de même de $\hat{L}_i$ pour tout i, et (10) montre que le nombre des prolongements $f'_i$ est égal à n. Lorsque $\hat{K}$ est isomorphe à $\mathbf{R}$ (par exemple lorsque $K = \mathbf{Q}$), notons $r_1$ (resp. $r_2$) le nombre d’indices i tels que $\hat{L}_i$ soit isomorphe à $\mathbf{R}$ (resp. $\mathbf{C}$); alors (10) s’écrit:
 
@@ -477,7 +477,7 @@ $$
 r_1 + 2r_2 = n.
 $$
 
-#### Proposition 12 {#ac-vi-s8-prop-12 .statement}
+#### Proposition 12 {#ac-vi-s8-prop-12 .statement tag=04X4}
 
 Soient K un corps, f une valeur absolue sur K, L une extension quasi-galoisienne de K, f' et f'' deux prolongements de f à L. Il existe alors un K-automorphisme s de L tel que f'' = f' o s.
 
@@ -487,7 +487,7 @@ Si f est non ultramétrique, il existe des Q-isomorphismes u', u'' de L sur des 
 
 C.Q.F.D.
 
-#### Remarque 3 {#ac-vi-s8-n7-rem-3 .statement}
+#### Remarque 3 {#ac-vi-s8-n7-rem-3 .statement tag=0CIK}
 
 Lorsque $\hat{K}$ est isomorphe à R, la prop. 12 montre que tous les complétés $\hat{L}_i$ de L (notations de la prop. 11) sont isomorphes entre eux. Ainsi, avec les notations de la Remarque 2) ci-dessus, on a, soit r_1 = n et r_2 = 0, soit r_1 = 0 et 2r_2 = n.
 

@@ -38,7 +38,7 @@ subsections:
       pdf_page: 126
 statements: 27
 exercises: 20
-content_sha256: 987f14a1f447a0fd1fd3c7d5a2603a787f57c3a952d0c0b452e3a1d80816d413
+content_sha256: 4166cbfa6b438b0ac0da5e0e29cd76add72ddaa973077f18ff33417c3b0e88ef
 ---
 
 ## § 2. ENSEMBLES BIEN ORDONNÉS
@@ -178,7 +178,7 @@ On peut alors appliquer à l’ensemble des $U = \mathrm{pr}_1 G$ (pour $G \in \
 
 On notera que si $\varnothing \notin \mathfrak{S}$ (et en particulier si $\mathfrak{S}$ est vide), l’ensemble M dont l’existence est affirmée par le lemme 3 est l’ensemble vide, comme le montre la condition 1° de l’énoncé.
 
-#### Théorème 1 (Zermelo) {#ens-iii-s2-thm-1 .statement}
+#### Théorème 1 (Zermelo) {#ens-iii-s2-thm-1 .statement tag=03QS}
 
 — *Sur tout ensemble E il existe un bon ordre.*
 

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 77
 statements: 33
 exercises: 7
-content_sha256: f8146ad58576601331f03faeb0a568f6f2e8d9eeece04ea66d445456ad61083e
+content_sha256: f988c464cf2dffdfa0e0637f3fe587b9fac0a02e9737eb550c31183b705c94f8
 ---
 
 ## § 6. EXTENSION DES SCALAires DANS LES ALGÈBRES RÉGULIÈRES
@@ -43,15 +43,15 @@ Soit $k$ un anneau. Soient $A$ une $k$-algèbre et $x = (x_i)_{i \in I}$ une fam
 
 Nous dirons qu’une $k$-algèbre $A$ est essentiellement de type fini si elle admet une famille essentiellement génératrice finie. Il revient au même de dire qu’il existe une $k$-algèbre $A'$ de type fini et une partie multiplicative $S$ de $A'$ telle que la $k$-algèbre $A$ soit isomorphe à $S^{-1}A'$.
 
-#### Exemple 1 {#ac-x-s6-n1-exa-1 .statement}
+#### Exemple 1 {#ac-x-s6-n1-exa-1 .statement tag=0D7O}
 
 Dire qu’une extension $L$ d’un corps $K$ est une $K$-algèbre essentiellement de type fini signifie que c’est une extension de type fini au sens de A, V, p. 11, déf. 2. La $K$-algèbre $L$ n’est de type fini que si c’est une extension de degré fini de $K$ (V, § 3, n° 4, cor. 3 du th. 3).
 
-#### Exemple 2 {#ac-x-s6-n1-exa-2 .statement}
+#### Exemple 2 {#ac-x-s6-n1-exa-2 .statement tag=0D7P}
 
 Pour qu’une $k$-algèbre locale soit essentiellement de type fini, il faut et il suffit qu’elle soit isomorphe à une $k$-algèbre de la forme $A_p$, où $A$ est une $k$-algèbre de type fini et $p$ un idéal premier de $A$ (cf. II, § 2, n° 5, prop. 11 (iii)).
 
-#### Proposition 1 {#ac-x-s6-prop-1 .statement}
+#### Proposition 1 {#ac-x-s6-prop-1 .statement tag=0D7Q}
 
 Si l’anneau $k$ est noethérien, toute $k$-algèbre essentiellement de type fini est un anneau noethérien.
 
@@ -59,7 +59,7 @@ Cela résulte de III, § 2, n° 10, cor. 3 du th. 2 et II, § 2, n° 4, cor. 2 d
 
 On déduit de la définition les propriétés suivantes :
 
-#### Proposition 2 {#ac-x-s6-prop-2 .statement}
+#### Proposition 2 {#ac-x-s6-prop-2 .statement tag=0D7R}
 
 a) Toute algèbre quotient d’une $k$-algèbre essentiellement de type fini est essentiellement de type fini.
 
@@ -69,13 +69,13 @@ c) La $k$-algèbre produit d’une famille finie de $k$-algèbres essentiellemen
 
 d) Soit $k \to k'$ un homomorphisme d’anneaux ; pour toute $k$-algèbre $A$ essentiellement de type fini, la $k'$-algèbre $A_{(k')} = k' \otimes_k A$ est essentiellement de type fini.
 
-#### Corollaire {#ac-x-s6-n1-cor-1 .statement}
+#### Corollaire {#ac-x-s6-n1-cor-1 .statement tag=0D7S}
 
 Soient $A$ une $k$-algèbre essentiellement de type fini et $B$ une $k$-algèbre noethérienne. Alors l’anneau $A \otimes_k B$ est noethérien.
 
 En effet, c’est une $B$-algèbre essentiellement de type fini (prop. 2, d)) et on applique la proposition 1.
 
-#### Proposition 3 {#ac-x-s6-prop-3 .statement}
+#### Proposition 3 {#ac-x-s6-prop-3 .statement tag=0D7T}
 
 Soient $k$ un anneau, $A$ une $k$-algèbre et $B$ une $A$-algèbre. Si $A$ est essentiellement de type fini sur $k$ et $B$ essentiellement de type fini sur $A$, alors $B$ est essentiellement de type fini sur $k$.
 
@@ -87,7 +87,7 @@ $$
 
 Ainsi les éléments $\rho(x_i)$ pour $i \in I$ et $y_j$ pour $j \in J$ forment une famille essentiellement génératrice finie de la $k$-algèbre $B$.
 
-#### Corollaire {#ac-x-s6-n1-cor-2 .statement}
+#### Corollaire {#ac-x-s6-n1-cor-2 .statement tag=0D7U}
 
 Le produit tensoriel de deux $k$-algèbres essentiellement de type fini est une $k$-algèbre essentiellement de type fini.
 
@@ -95,7 +95,7 @@ Soient en effet $A$ et $B$ deux $k$-algèbres essentiellement de type fini. Alor
 
 ### 2. Produits tensoriels d’algèbres de Macaulay ou de Gorenstein
 
-#### Proposition 4 {#ac-x-s6-prop-4 .statement}
+#### Proposition 4 {#ac-x-s6-prop-4 .statement tag=0D7V}
 
 Soient $k$ un corps, $A$ une $k$-algèbre essentiellement de type fini et $B$ une $k$-algèbre.
 
@@ -115,13 +115,13 @@ $$
 
 telles que $K_i$ soit une $K_{i-1}$-algèbre monogène pour $i = 1, \ldots, m$, et cela nous permet de nous ramener au cas où l’extension $K$ de $k$ est monogène (de degré fini). L’homomorphisme canonique $B \to K \otimes_k B$ fait de $K \otimes_k B$ une $B$-algèbre plate et, pour tout $q \in \mathrm{Spec}(B)$, l’anneau $(K \otimes_k B) \otimes_B \kappa(q)$, isomorphe à $K \otimes_k \kappa(q)$, est une $\kappa(q)$-algèbre monogène, donc un anneau de Gorenstein ($§ 3$, n° 9, exemple 5). Ainsi $K \otimes_k B$ est un anneau de Gorenstein ($§ 3$, n° 8, cor. 1 de la prop. 12), ce qui achève de prouver b).
 
-#### Corollaire 1 {#ac-x-s6-prop-4-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s6-prop-4-cor-1 .statement tag=0D7W}
 
 Soient $k$ un corps, $K$ une extension de $k$ et $A$ une $k$-algèbre essentiellement de type fini. Pour que $A_{(K)}$ soit un anneau de Macaulay (resp. de Gorenstein), il faut et il suffit qu’il en soit de même de $A$.
 
 Si $A$ est un anneau de Macaulay (resp. de Gorenstein), il en est de même de $A_{(K)}$ d’après la prop. 4. Puisque $A_{(K)}$ est un $A$-module fidèlement plat, la réciproque résulte de la prop. 10 du § 2, n° 7 (resp. du cor. 1 de la prop. 12 du § 3, n° 8).
 
-#### Corollaire 2 {#ac-x-s6-prop-4-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s6-prop-4-cor-2 .statement tag=0D7X}
 
 Soient $k$ un anneau noethérien, $A$ et $B$ des $k$-algèbres. On suppose que $A$ est plate et essentiellement de type fini sur $k$. Si $A$ et $B$ sont des anneaux de Macaulay (resp. de Gorenstein), alors $A \otimes_k B$ est un anneau de Macaulay (resp. de Gorenstein).
 
@@ -131,7 +131,7 @@ Passons au cas général. La $B$-algèbre $A \otimes_k B$ est plate, et noethér
 
 ### 3. Extension séparable du corps de base dans les algèbres régulières¹ ou normales
 
-#### Lemme 1 {#ac-x-s6-lem-1 .statement}
+#### Lemme 1 {#ac-x-s6-lem-1 .statement tag=0D7Y}
 
 Soit $A$ un anneau noethérien, réunion d’une famille filtrante croissante $(A_\alpha)_{\alpha \in I}$ de sous-anneaux noethériens.
 
@@ -143,7 +143,7 @@ a) Soit $m$ un idéal maximal de $A$; pour tout $\alpha \in I$, notons $m_\alpha
 
 b) Puisque les $A_\alpha$ sont réduits, $A$ est réduit. Soient $a$ et $b$ des éléments de $A$ tels que $b$ ne soit pas diviseur de zéro et que l’élément $a/b$ de l’anneau total des fractions de $A$ soit entier sur $A$. Il existe un polynôme unitaire $P \in A[X]$ tel que $P(a/b) = 0$. Soit $\alpha$ un élément de $I$ tel que l’anneau $A_\alpha$ contienne $a$, $b$ et les coefficients de $P$. Puisque $A_\alpha$ est normal, il existe $c \in A_\alpha$ tel que $a = bc$. Ainsi $a/b = c$ appartient à $A$ et $A$ est normal.
 
-#### Lemme 2 {#ac-x-s6-lem-2 .statement}
+#### Lemme 2 {#ac-x-s6-lem-2 .statement tag=0D7Z}
 
 Soient $k$ un corps, $K$ et $L$ des extensions de $k$. On suppose que $K$ est de type fini et que l’une des extensions $K$ ou $L$ est séparable. Alors l’anneau $K \otimes_k L$ est régulier.
 
@@ -151,7 +151,7 @@ Notons $A$ l’anneau $K \otimes_k L$; il est noethérien d’après le cor. de 
 
 Supposons maintenant que $L$ soit séparable sur $k$. D’après la première partie de la démonstration, l’anneau $K \otimes_k L'$ est régulier pour toute sous-extension de type fini $L'$ de $L$. On conclut en appliquant le lemme 1.
 
-#### Proposition 5 {#ac-x-s6-prop-5 .statement}
+#### Proposition 5 {#ac-x-s6-prop-5 .statement tag=0D80}
 
 Soient $k$ un corps, $A$ une $k$-algèbre et $K$ une extension de $k$. Supposons que $A$ soit essentiellement de type fini ou que l’extension $K$ soit de type fini.
 
@@ -165,17 +165,17 @@ Le $A$-module $A_{(K)}$ est libre, donc fidèlement plat ; l’assertion a) rés
 
 ### 4. Algèbres absolument régulières ou absolument normales
 
-#### Définition 1 {#ac-x-s6-def-1 .statement}
+#### Définition 1 {#ac-x-s6-def-1 .statement tag=0D81}
 
 Soient $k$ un corps et $A$ une $k$-algèbre. On dit que $A$ est absolument régulière (resp. absolument normale)$^1$ si l’anneau $A_{(k')}$ est régulier (resp. normal) pour toute extension $k'$ radicielle et de degré fini de $k$.
 
 Toute $k$-algèbre absolument régulière (resp. absolument normale) est régulière (resp. normale), comme on le voit en prenant $k' = k$ dans la définition 1. Rappelons que les $k$-algèbres $A$ telles que l’anneau $A_{(k')}$ soit réduit pour toute extension $k'$ radicielle et de degré fini de $k$ sont les $k$-algèbres séparables (A, V, p. 117, th. 2).
 
-#### Exemple 1 {#ac-x-s6-n4-exa-1 .statement}
+#### Exemple 1 {#ac-x-s6-n4-exa-1 .statement tag=0D82}
 
 Si $k$ est parfait, toute $k$-algèbre régulière (resp. normale) est absolument régulière (resp. absolument normale).
 
-#### Exemple 2 {#ac-x-s6-n4-exa-2 .statement}
+#### Exemple 2 {#ac-x-s6-n4-exa-2 .statement tag=0D83}
 
 Soit $A$ une $k$-algèbre artinienne. Si $A$ est normale, elle est réduite, donc isomorphe à un produit fini d’extensions de $k$ (A, VIII, § 8, n° 1, prop. 2). Les conditions suivantes sont équivalentes :
 
@@ -187,13 +187,13 @@ En effet, si $A$ est absolument normale, elle est séparable ; si $A$ est sépar
 
 Si de plus la $k$-algèbre $A$ est de degré fini, les conditions précédentes équivalent encore à dire que $A$ est étale (A, V, p. 34, th. 4).
 
-#### Exemple 3 {#ac-x-s6-n4-exa-3 .statement}
+#### Exemple 3 {#ac-x-s6-n4-exa-3 .statement tag=0D84}
 
 Soit $A$ une $k$-algèbre locale régulière. Si l’extension $\kappa_A$ de $k$ est séparable, l’algèbre $A$ est absolument régulière. Soit en effet $k'$ une extension de degré fini de $k$. Le $A$-module $A_{(k')}$ est libre. Puisqu’il est de type fini, chaque idéal maximal de $A_{(k')}$ est au-dessus de $\mathfrak{m}_A$ (V, § 2, n° 1, prop. 1). L’anneau $\kappa_A \otimes_A A_{(k')}$, isomorphe à $\kappa_A \otimes_k k'$, est régulier (n° 3, lemme 2). D’après le cor. de la prop. 9 du § 4, n° 5, l’anneau $A_{(k')}$ est régulier, ce qui prouve que la $k$-algèbre $A$ est absolument régulière.
 
 $^1$ Certains auteurs utilisent la terminologie « géométriquement régulière » (resp. « géométriquement normale ».
 
-#### Proposition 6 {#ac-x-s6-prop-6 .statement}
+#### Proposition 6 {#ac-x-s6-prop-6 .statement tag=0D85}
 
 Soient k un corps et A une k-algèbre noethérienne.
 
@@ -207,13 +207,13 @@ b) Supposons que $A_m$ soit absolument régulière (resp. absolument normale, re
 
 L’homomorphisme canonique $A \to A_{(k')}$ fait de $A_{(k')}$ une A-algèbre finie. L’idéal $m'$ est au-dessus d’un idéal maximal m de A (V, § 2, n° 1, prop. 1) et $(A_{(k')})_{m'}$ est isomorphe à un anneau de fractions de l’anneau régulier (resp. normal, resp. réduit) $(A_m)_{(k')}$, donc est régulier (resp. normal, resp. réduit).
 
-#### Lemme 3 {#ac-x-s6-lem-3 .statement}
+#### Lemme 3 {#ac-x-s6-lem-3 .statement tag=0D86}
 
 Soient k un corps et K une extension de type fini de k. Il existe une extension L de K, de degré fini, et une sous-k-extension $k'$ de L, radicielle et de degré fini sur k, telles que l’extension L de $k'$ soit séparable.
 
 Choisissons une extension composée E de K et d’une clôture parfaite $\hat{k}$ de k, et des éléments $(t_1, \ldots, t_n)$ de E tels que E soit une extension algébrique séparable de $\hat{k}(t_1, \ldots, t_n)$ (A, V, p. 130, cor.). Soit I une partie génératrice finie de K sur k. Le corps $\hat{k}(t_1, \ldots, t_n)$ (resp. $\hat{k}K$) est réunion des sous-corps $k'(t_1, \ldots, t_n)$ (resp. $k'K$), où $k'$ parcourt l’ensemble des sous-extensions de $\hat{k}$ de degré fini sur k ; on peut donc trouver une telle sous-extension $k'$ telle que les éléments $t_1, \ldots, t_n$ de E = $\hat{k}K$ appartiennent à $k'K$ et que chaque élément de I soit algébrique et séparable sur $k'(t_1, \ldots, t_n)$. Alors L = $k'K$ est une extension séparable de $k'$, de degré fini sur K, et $k'$ est une extension radicielle de degré fini de k.
 
-#### Proposition 7 {#ac-x-s6-prop-7 .statement}
+#### Proposition 7 {#ac-x-s6-prop-7 .statement tag=0D87}
 
 Soient k un corps, A et B des k-algèbres dont l’une est essentiellement de type fini. Supposons que A soit absolument régulière (resp. absolument normale). Si l’anneau B est régulier (resp. normal), il en est de même de l’anneau $A \otimes_k B$.
 
@@ -223,13 +223,13 @@ Supposons l’anneau B régulier (resp. normal) et démontrons la proposition. L
 
 Si la $k$-algèbre $B$ est essentiellement de type fini, l’extension $\kappa(p)$ de $k$ est de type fini et l’anneau $A \otimes_k \kappa(p)$ est régulier (resp. normal) d’après ce qu’on a vu plus haut. Supposons maintenant la $k$-algèbre $A$ essentiellement de type fini ; l’anneau $A \otimes_k \kappa(p)$ est noethérien et réunion de la famille filtrante croissante des sous-anneaux noethériens $A \otimes_k K$, où $K$ parcourt les sous-extensions de type fini de $\kappa(p)$. Ces derniers sont réguliers (resp. normaux), et on applique le lemme 1 du n° 3.
 
-#### Corollaire 1 {#ac-x-s6-prop-7-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s6-prop-7-cor-1 .statement tag=0D88}
 
 Soit $k$ un corps. Le produit tensoriel de deux $k$-algèbres absolument régulières (resp. absolument normales) dont l’une est essentiellement de type fini, est une $k$-algèbre absolument régulière (resp. absolument normale).
 
 Soient $A$ et $B$ deux $k$-algèbres satisfaisant aux hypothèses du corollaire. Soit $k'$ une extension radicielle de $k$ de degré fini. L’anneau $B_{(k')}$ est régulier (resp. normal) ; l’anneau $A \otimes_k B_{(k')}$ est régulier (resp. normal) d’après la prop. 7, ainsi que l’anneau $(A \otimes_k B) \otimes_k k'$ qui lui est isomorphe.
 
-#### Corollaire 2 {#ac-x-s6-prop-7-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s6-prop-7-cor-2 .statement tag=0D89}
 
 Soient $k$ un corps, $A$ une $k$-algèbre absolument régulière (resp. absolument normale) et $K$ une extension de $k$. Supposons que $A$ soit essentiellement de type fini ou que l’extension $K$ de $k$ soit de type fini.
 
@@ -239,7 +239,7 @@ b) Si l’extension $K$ de $k$ est séparable, la $k$-algèbre $A_{(K)}$ est abs
 
 L’assertion a) résulte de la proposition 7 ; l’assertion b) résulte du cor. 1 et de l’exemple 2.
 
-#### Corollaire 3 {#ac-x-s6-prop-7-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s6-prop-7-cor-3 .statement tag=0D8A}
 
 Soient $k$ un corps, $A$ une $k$-algèbre et $K$ une extension de $k$. Supposons que la $k$-algèbre $A$ soit essentiellement de type fini ou que l’extension $K$ de $k$ soit de type fini. Pour que la $k$-algèbre $A$ soit absolument régulière (resp. absolument normale), il faut et il suffit qu’il en soit ainsi de la $K$-algèbre $A_{(K)}$.
 
@@ -247,7 +247,7 @@ Supposons $A$ absolument régulière (resp. absolument normale) et soit $K'$ une
 
 Supposons inversement la $K$-algèbre $A_{(K)}$ absolument régulière (resp. absolument normale) et soit $k'$ une extension radicielle de $k$ de degré fini. Soit $L$ une extension composée de $k'$ et de $K$ ; alors l’anneau $A_{(L)}$ s’identifie à $L \otimes_K A_{(K)}$, donc est régulier (resp. normal) ; par suite, l’anneau $A_{(k')}$ est régulier (resp. normal) d’après la prop. 5, a) du n° 3.
 
-#### Corollaire 4 {#ac-x-s6-prop-7-cor-4 .statement}
+#### Corollaire 4 {#ac-x-s6-prop-7-cor-4 .statement tag=0D8B}
 
 Soient $k$ un corps, $A$ une $k$-algèbre essentiellement de type fini et $K$ une extension de $k$ qui soit un corps parfait. Pour que $A$ soit absolument régulière (resp. absolument normale), il faut et il suffit que l’anneau $A_{(K)}$ soit régulier (resp. normal).
 
@@ -255,7 +255,7 @@ Cela résulte du cor. 3 et de l’exemple 1.
 
 ### 5. Caractérisations des algèbres absolument régulières
 
-#### Proposition 8 {#ac-x-s6-prop-8 .statement}
+#### Proposition 8 {#ac-x-s6-prop-8 .statement tag=0D8C}
 
 Soient k un corps et A une k-algèbre essentiellement de type fini. Notons I le noyau de l’homomorphisme de k-algèbres $\mu : A \otimes_k A \to A$ tel que $\mu(x \otimes y) = xy$ pour x et y dans A. Les conditions suivantes sont équivalentes :
 
@@ -289,7 +289,7 @@ n = \sup \deg.\mathrm{tr}_k(\kappa(\mathfrak{p}))
 $$
 où \mathfrak{p} parcourt la famille (finie) des idéaux premiers minimaux de A. Si A est intègre, n est donc le degré de transcendance du corps des fractions de A.
 
-#### Théorème 1 {#ac-x-s6-thm-1 .statement}
+#### Théorème 1 {#ac-x-s6-thm-1 .statement tag=0D8D}
 
 *Soient k un corps et A une k-algèbre locale essentiellement de type fini. Posons n = \dim(A) + \deg.\mathrm{tr}_k(\kappa_A).*
 
@@ -327,7 +327,7 @@ ce qui prouve (ii).
 
 (iii') \Rightarrow (i) : Supposons que l’on ait [\kappa_A \otimes_A \Omega_k(A) : \kappa_A] \leq n , c’est-à-dire [\kappa(q) \otimes_B \Omega_k(B) : \kappa(q)] \leq n , et prouvons que la k-algèbre B est absolument régulière. Soit (x_1, \ldots , x_n) une suite d’éléments de B telle que 1 \otimes dx_1, \ldots , 1 \otimes dx_n engendrent le \kappa(q)-espace vectoriel \kappa(q) \otimes_B \Omega_k(B) . Remplaçant B par B_f , pour un élément f convenable de B - q , on peut supposer que dx_1, \ldots , dx_n engendrent le B-module \Omega_k(B) (lemme de Nakayama et II, § 5, n° 1, prop. 2). Soit \bar{k} une extension algébriquement close de k . Il nous suffit de prouver que la \bar{k}-algèbre B_{(\bar{k})} est régulière, puisque cela impliquera que B est absolument régulière (cor. 4 de la prop. 7 du n° 4). Pour tout composant canonique C de B_{(k)} , les différentielles d(1 \otimes x_i) engendrent le C-module \Omega_{\bar{k}}(C) (A, III, § 10, n° 12, prop. 20). Le théorème résulte donc des deux lemmes suivants :
 
-#### Lemme 4 {#ac-x-s6-lem-4 .statement}
+#### Lemme 4 {#ac-x-s6-lem-4 .statement tag=0D8E}
 
 Soient k un corps, K une extension algébrique de k , B une k-algèbre dont le spectre est connexe. Pour tout composant canonique C de B_{(K)} , on a \dim(C) = \dim(B) .
 
@@ -335,7 +335,7 @@ Traitons d’abord le cas où l’extension K est de degré fini sur k . Le B-mo
 
 Passons au cas général. Soit e l’élément idempotent de B_{(K)} tel que C = B_{(K)}/B_{(K)}e . Il existe une sous-extension K' de K de degré fini tel que e soit l’image d’un élément idempotent e' de B_{(K')} . Posons C' = B_{(K')}/B_{(K')}e' . L’anneau C' \otimes_{K'} K s’identifie à C , et C' est un composant canonique de B_{(K')} . On a \dim(C') = \dim(B) d’après le cas déjà traité, et \dim(C') = \dim(C) d’après loc. cit. , d’où le lemme.
 
-#### Lemme 5 {#ac-x-s6-lem-5 .statement}
+#### Lemme 5 {#ac-x-s6-lem-5 .statement tag=0D8F}
 
 Soient k un corps algébriquement clos, A une k-algèbre de type fini dont le spectre est connexe, n un entier et (x_1, \ldots , x_n) une suite finie d’éléments de A . On suppose que A est de dimension n et que les différentielles dx_1, \ldots , dx_n engendrent le A-module \Omega_k(A) . Alors l’anneau A est intègre et régulier et le A-module \Omega_k(A) est libre de base (dx_1, \ldots , dx_n) .
 
@@ -349,11 +349,11 @@ Prouvons maintenant que l’anneau $A$ est intègre et régulier. Il existe un i
 
 Enfin, soit $\sum_{i=1}^n a_i dx_i = 0$ une relation linéaire entre les $dx_i$ à coefficients dans $A$. Si les $a_i$ ne sont pas tous nuls, il existe un indice $i$ et un idéal maximal $\mathfrak{m}$ de $A$ tel que $a_i$ n’appartienne pas à $\mathfrak{m}$ (V, § 3, n° 3, prop. 1, (iii) et (iv)) ; mais cela contredit le fait démontré plus haut que les classes des $dx_i$ dans $(A/\mathfrak{m}) \otimes_A \Omega_k(A)$ sont linéairement indépendantes.
 
-#### Exemple {#ac-x-s6-n5-exa-1 .statement}
+#### Exemple {#ac-x-s6-n5-exa-1 .statement tag=0D8G}
 
 Lorsque $A$ est une extension de type fini de $k$, le théorème 1 redonne le cor. 1 de A, V, p. 128, compte tenu de l’exemple 2 du n° 4.
 
-#### Corollaire 1 {#ac-x-s6-lem-5-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s6-lem-5-cor-1 .statement tag=0D8H}
 
 *Soient $k$ un corps et $A$ une $k$-algèbre essentiellement de type fini. L’ensemble des éléments $\mathfrak{p}$ de $\operatorname{Spec}(A)$ tels que la $k$-algèbre $A_{\mathfrak{p}}$ soit absolument régulière est ouvert dans $\operatorname{Spec}(A)$.*
 
@@ -361,7 +361,7 @@ On peut supposer que la $k$-algèbre $A$ est de type fini. L’ensemble considé
 
 Nous verrons plus loin (§ 7, n° 9, cor. 4 du th. 3) que sous les hypothèses du cor. 1, l’ensemble des idéaux premiers $\mathfrak{p}$ de $A$ tels que l’anneau $A_{\mathfrak{p}}$ soit régulier est ouvert dans $\operatorname{Spec}(A)$.
 
-#### Corollaire 2 {#ac-x-s6-lem-5-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s6-lem-5-cor-2 .statement tag=0D8I}
 
 *Soient $k$ un corps et $A$ une $k$-algèbre essentiellement de type fini. Pour que $A$ soit absolument régulière, il faut et il suffit que le $A$-module $\Omega_k(A)$ soit projectif et que pour tout idéal premier minimal $\mathfrak{q}$ de $A$, la $k$-algèbre $A_{\mathfrak{q}}$ soit séparable.*
 
@@ -381,11 +381,11 @@ $$
 
 Il résulte alors du th. 1 que la $k$-algèbre $A_p$ est absolument régulière, d’où le corollaire.
 
-#### Remarque {#ac-x-s6-n5-rem-1 .statement}
+#### Remarque {#ac-x-s6-n5-rem-1 .statement tag=0D8J}
 
 Supposons la $k$-algèbre $A$ absolument régulière. Alors l’anneau total des fractions $F$ de $A$ s’identifie au produit des $A_q$, où $q$ parcourt l’ensemble des idéaux premiers minimaux de $A$ (IV, § 2, n° 5, prop. 10); c’est donc une $k$-algèbre séparable. Supposons inversement que $F$ soit une $k$-algèbre séparable; pour tout idéal premier minimal $q$ de $A$, la $k$-algèbre $A_q$ est un anneau de fractions de $F$ (IV, § 1, n° 1, cor. 3 de la prop. 2 et n° 3, cor. 1 de la prop. 7), donc une $k$-algèbre séparable (n° 4, prop. 6). Si en outre le $A$-module $\Omega_k(A)$ est projectif, il résulte du cor. 2 que la $k$-algèbre $A$ est absolument régulière.
 
-#### Corollaire 3 {#ac-x-s6-lem-5-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s6-lem-5-cor-3 .statement tag=0D8K}
 
 Soient $k$ un corps de caractéristique 0 et $A$ une $k$-algèbre essentiellement de type fini. Pour que $A$ soit régulière, il faut et il suffit que le $A$-module $\Omega_k(A)$ soit projectif.
 

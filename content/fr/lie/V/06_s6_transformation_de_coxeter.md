@@ -20,7 +20,7 @@ subsections:
       pdf_page: 116
 statements: 14
 exercises: 4
-content_sha256: 892fe1aeea3cb663caac4de5b459d8cc48e601eee1d40995cd3c54f7e65be74a
+content_sha256: abc0d27c24072a4a75d8087f88fb2f9f3abb534edd59bbb31433b07a83cd5ae0
 ---
 
 ## § 6. Transformation de Coxeter
@@ -32,17 +32,17 @@ On note $\mathfrak{H}$ l’ensemble des hyperplans $H$ de $V$ tels que la réfle
 
 Nous appellerons chambre ordonnée relative à $W$ le couple formé d’une chambre $C$ déterminée par $\mathfrak{H}$ et d’une bijection $i \mapsto H_i$ de $\{1, 2, \ldots, l\}$ sur l’ensemble des murs de $C$ (cf. § 3, n° 9, prop. 7).
 
-#### Définition 1 {#lie-v-s6-def-1 .statement}
+#### Définition 1 {#lie-v-s6-def-1 .statement tag=0ATH}
 
 On appelle transformation de Coxeter définie par une chambre ordonnée $(C, (H_i)_{1 \leq i \leq l})$ l’élément $c = s_{H_1} s_{H_2} \cdots s_{H_l}$ de $W$.
 
-#### Proposition 1 {#lie-v-s6-prop-1 .statement}
+#### Proposition 1 {#lie-v-s6-prop-1 .statement tag=0ATI}
 
 Toutes les transformations de Coxeter de $W$ sont conjuguées dans $W$.
 
 Comme $W$ permutte transitivement les chambres déterminées par $\mathfrak{H}$ (§ 3, n° 2, th. 1), tout revient à prouver ceci : soient $(C, (H_i)_{1 \leq i \leq l})$ une chambre ordonnée, et $\pi \in \mathfrak{S}_l$; alors $s_{H_1} s_{H_2} \cdots s_{H_l}$ et $s_{H_{\pi(1)}} s_{H_{\pi(2)}} \cdots s_{H_{\pi(l)}}$ sont conjugués dans W. Compte tenu du § 4, n° 8, prop. 8, ceci résultera aussitôt du lemme suivant:
 
-#### Lemme 1 {#lie-v-s6-lem-1 .statement}
+#### Lemme 1 {#lie-v-s6-lem-1 .statement tag=0ATJ}
 
 Soient X une forêt finie, x ↦ g_x une application de X dans un groupe Γ, telle que g_x et g_y commutent toutes les fois que x et y ne sont pas liés dans X. Soit T l’ensemble des ordres totaux sur X. Pour tout ξ ∈ T, soit p_ξ le produit dans Γ de la séquence (g_x)_{x ∈ X} définie par ξ. Les éléments p_ξ sont alors conjugués dans Γ.
 
@@ -62,7 +62,7 @@ et cet élément est conjugué de p_{ξ_1} p_{ξ_2} g_b g_a. On est donc ramené
 
 Il résulte de la prop. 1 que toutes les transformations de Coxeter ont le même ordre h = h(W). Ce nombre s’appelle le nombre de Coxeter de W.
 
-#### Remarque {#lie-v-s6-n1-rem-1 .statement}
+#### Remarque {#lie-v-s6-n1-rem-1 .statement tag=0ATK}
 
 Soient W_1, ..., W_m des groupes finis essentiels dans des espaces V_1, ..., V_m, engendrés par des réflexions. Soit C_f une chambre relative à W_f. Soit W le groupe W_1 × ... × W_m opérant dans V_1 × ... × V_m. Alors C_1 × ... × C_m est une chambre relative à W. Les transformations de Coxeter de W définies par C sont les produits c_1 c_2 ... c_m, où c_j est une transformation de Coxeter de W_f définie par C_f.
 
@@ -80,7 +80,7 @@ $$
 0 \leq m_1 \leq m_2 \leq \cdots \leq m_l < h.
 $$
 
-#### Définition 2 {#lie-v-s6-def-2 .statement}
+#### Définition 2 {#lie-v-s6-def-2 .statement tag=0ATL}
 
 Les entiers $m_1, m_2, \ldots, m_l$ s’appellent les exposants de W.
 
@@ -124,7 +124,7 @@ $$
 m_1 + m_2 + \cdots + m_l = \frac{1}{2} lh.
 $$
 
-#### Lemme 2 {#lie-v-s6-lem-2 .statement}
+#### Lemme 2 {#lie-v-s6-lem-2 .statement tag=0ATM}
 
 Supposons W irréductible. Avec les notations précédentes, il existe deux vecteurs linéairement indépendants $z', z''$ tels que :
 (i) le plan P engendré par $z', z''$ est stable par $s'$ et $s''$;
@@ -159,7 +159,7 @@ $$
 
 Ainsi, $(a - 1)z'' + z'$ est orthogonal à $e^1, \ldots, e^r$, c’est-à-dire à $V''$. Donc $s''$ laisse stable le plan engendré par $z''$ et $(a - 1)z'' + z'$, c’est-à-dire $P$. De même, $s'$ laisse stable $P$. Comme $z' \in P \cap V'$ et $z'' \in P \cap V''$, $s'|P$ et $s''|P$ sont les réflexions par rapport à $Rz'$ et $Rz''$.
 
-#### Théorème 1 {#lie-v-s6-thm-1 .statement}
+#### Théorème 1 {#lie-v-s6-thm-1 .statement tag=0ATN}
 
 On suppose $W$ irréductible. Alors :
 
@@ -197,11 +197,11 @@ $$
 r = \frac{l}{2}, \text{ et Card}(\mathfrak{S}) = \frac{h-1}{2} l + \frac{l}{2} = \frac{h}{2} l.
 $$
 
-#### Remarque {#lie-v-s6-n2-rem-1 .statement}
+#### Remarque {#lie-v-s6-n2-rem-1 .statement tag=0ATO}
 
 Conservons les notations de la démonstration précédente. Soient $c'$ l’extension $\mathbf{C}$-linéaire de $c$ à $V \otimes_{\mathbf{R}} \mathbf{C}$, et $c''$ la restriction de $c'$ à $P \otimes_{\mathbf{R}} \mathbf{C}$. D’après l’étude de $c|P$, $c''$ admet un vecteur propre $x$ correspondant à la valeur propre $\exp \frac{2i\pi}{h}$, et ce vecteur propre n’appartient à aucun ensemble $D \cap \mathbf{C}$, où $D$ désigne une droite de $P$ (puisque $D$ n’est pas stable par $c$). Or, pour tout $H \in \mathfrak{S}$, on a vu que $H \cap P$ est une droite; donc $x \in H \otimes_{\mathbf{R}} \mathbf{C}$.
 
-#### Corollaire {#lie-v-s6-n2-cor-1 .statement}
+#### Corollaire {#lie-v-s6-n2-cor-1 .statement tag=0ATP}
 
 *Soit $R_0$ l’ensemble des vecteurs unitaires de $V$ orthogonaux à un élément de $\mathfrak{S}$. Si $W$ est irréductible, on a, pour tout $x \in V$,*
 
@@ -220,13 +220,13 @@ $$
 
 D’où $\beta = h$, ce qui prouve (4).
 
-#### Proposition 2 {#lie-v-s6-prop-2 .statement}
+#### Proposition 2 {#lie-v-s6-prop-2 .statement tag=0ATQ}
 
 *Si $h$ est pair, l’unique élément de $W$ qui transforme $\mathbf{C}$ en $-\mathbf{C}$ est $c^{h/2}$.
 
 Adoptons les notations de la démonstration du th. 1. Puisque $c|P$ est une rotation d’angle $\frac{2\pi}{h}$, $c^{h/2}$ transforme $z'$ en $-z'$, $z''$ en $-z''$, donc $z' + z'' = z$ en $-z$. Or $z \in \mathbf{C}$, donc la chambre $c^{h/2}(\mathbf{C})$ est nécessairement $-\mathbf{C}$.*
 
-#### Proposition 3 {#lie-v-s6-prop-3 .statement}
+#### Proposition 3 {#lie-v-s6-prop-3 .statement tag=0ATR}
 
 *Supposons $W$ irréductible. Soient $u_1, \ldots, u_l$ des éléments homogènes de l’algèbre symétrique $S = S(V)$, algébriquement indépendants sur $\mathbf{R}$ et engendrant l’algèbre des éléments de $S$ invariants par $W$ (§ 5, n° 3, th. 3). Si $p_j$ est le degré de $u_j$, les exposants de $W$ sont $p_1 - 1, \ldots, p_l - 1$.
 
@@ -240,12 +240,12 @@ $$\mathrm{Card}(\mathfrak{S}) = \sum_{j=1}^l (p_j - 1) = \sum_{j=1}^l m_j + h \s
 
 Compte tenu de la formule (3) et du th. 1 (ii), on obtient $h \sum_{j=1}^l \mu_j = 0$, donc $\mu_j = 0$, pour tout $j$ et finalement $p_j - 1 = m_j$ pour tout $j$.
 
-#### Corollaire 1 {#lie-v-s6-prop-3-cor-1 .statement}
+#### Corollaire 1 {#lie-v-s6-prop-3-cor-1 .statement tag=0ATS}
 
 *Si* $(m_i)_{1 \leq i \leq l}$ *est la suite croissante des exposants de* $W$, *l’ordre de* $W$ *est égal à* $(m_1 + 1)(m_2 + 1) \ldots (m_l + 1)$.
 Ceci résulte des relations $m_j + 1 = p_j$ et du § 5, n° 3, cor. du th. 3.
 
-#### Corollaire 2 {#lie-v-s6-prop-3-cor-2 .statement}
+#### Corollaire 2 {#lie-v-s6-prop-3-cor-2 .statement tag=0ATT}
 
 *Si* $c$ *est une transformation de Coxeter de* $W$,
 
@@ -255,7 +255,7 @@ $$\exp \left( \frac{2i\pi}{h} \right) \text{ et } \exp \left( -\frac{2i\pi}{h} \
 
 Dans le cas contraire, il existerait deux invariants homogènes de degré 2 non proportionnels dans $S$, d’où deux formes quadratiques non proportionnelles sur $V^*$ invariantes par $W$, contrairement au § 2, n° 1, prop. 1.
 
-#### Corollaire 3 {#lie-v-s6-prop-3-cor-3 .statement}
+#### Corollaire 3 {#lie-v-s6-prop-3-cor-3 .statement tag=0ATU}
 
 Pour que l’homothétie de rapport — 1 dans V appartienne à W, il faut et il suffit que tous les exposants de W soient impairs. Lorsqu’il en est ainsi, h est pair et l’on a $c^{h/2} = -1$ pour toute transformation de Coxeter c de W.
 

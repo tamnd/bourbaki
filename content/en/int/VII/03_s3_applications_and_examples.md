@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 545985b214fff7ad8efdda0e5383d9fd0827ee3cf67fd7da1b0ca794915722c8
+content_sha256: 77d86192dc78c3caea75d568c8ef5d05992c7bdcaed4b1daac8f963f1400d1ea
 ---
 
 ## § 3. APPLICATIONS AND EXAMPLES
@@ -34,7 +34,7 @@ content_sha256: 545985b214fff7ad8efdda0e5383d9fd0827ee3cf67fd7da1b0ca794915722c8
 
 Let $E$ be a finite-dimensional vector space over $\mathbf{R}, \mathbf{C}$ or $\mathbf{H}$. Then $\mathrm{End}(E)$ is a finite-dimensional algebra over $\mathbf{R}$, and the canonical topology on $\mathrm{End}(E)$ (§ 1, No. 10) is the topology of compact convergence. The group $\mathrm{Aut}(E) = \mathbf{GL}(E)$ is an open subset of $\mathrm{End}(E)$, hence is a locally compact group. Let $(e_1, e_2, \ldots, e_n)$ be a basis of $E$ and, for every endomorphism $u$ of $E$, let $M(u) = (\alpha_{ij}(u))$ be the matrix of $u$ with respect to this basis; to say that a subset $S$ of $\mathrm{End}(E)$ is relatively compact in $\mathrm{End}(E)$ is equivalent to saying that the functions $\alpha_{ij}(u)$ are bounded in $S$.
 
-#### Proposition 1 {#int-vii-s3-prop-1 .statement}
+#### Proposition 1 {#int-vii-s3-prop-1 .statement tag=09GS}
 
 — *Let G be a subgroup of Aut(E)*. *The following three properties are equivalent*:
 
@@ -50,7 +50,7 @@ Let $E$ be a finite-dimensional vector space over $\mathbf{R}, \mathbf{C}$ or $\
 
 $^1$ Non dégénérée; in EVT, the term is replaced by séparante, subsequently translated as "separating" (TVS, V, § 1, No. 1).
 
-#### Lemma 1 {#int-vii-s3-lem-1 .statement}
+#### Lemma 1 {#int-vii-s3-lem-1 .statement tag=09GT}
 
 Let F be a Hilbert space, K a compact group, and s ↦ U(s) a representation of K in the group of invertible elements of $\mathscr{L}(F; F)$, continuous for the topology of pointwise convergence. There exists a nondegenerate positive hermitian form $\varphi$ on F such that
 
@@ -89,7 +89,7 @@ $$
 
 When the field of scalars is $\mathbf{H}$, one argues exactly as before on replacing everywhere the function $s \mapsto (U(s)x|U(s)y)$ by the function $s \mapsto \Phi(sx, sy)$ defined on G, with values in $\mathbf{H}$. This completes the proof of the proposition.
 
-#### Remark {#int-vii-s3-n1-rem-1 .statement}
+#### Remark {#int-vii-s3-n1-rem-1 .statement tag=09GU}
 
 Let $\Phi$ be a nondegenerate positive hermitian form on E. The unitary group $\mathbf{U}(\Phi)$ is closed in $\mathrm{Aut}(E)$, hence is compact (Prop. 1). Prop. 1 also shows that every compact subgroup of $\mathrm{Aut}(E)$ is contained in a subgroup of the form $\mathbf{U}(\Phi)$. If now $\mathbf{U}(\Phi)$ is contained in a compact subgroup K of $\mathrm{Aut}(E)$, one sees that there exists a nondegenerate positive hermitian form $\Phi'$ on E such that $\mathbf{U}(\Phi) \subset K \subset \mathbf{U}(\Phi')$, and it follows easily
 
@@ -97,13 +97,13 @@ Let $\Phi$ be a nondegenerate positive hermitian form on E. The unitary group $\
 
 ### 2. Triviality of fibered spaces and of group extensions
 
-#### Proposition 2 {#int-vii-s3-prop-2 .statement}
+#### Proposition 2 {#int-vii-s3-prop-2 .statement tag=09GV}
 
 *Let X be a locally compact space in which a locally compact group H acts on the right, continuously and properly, by $(x, \xi) \mapsto x\xi$. Assume that X/H is paracompact. Let g be a continuous representation of H in $\mathbf{R}^n$. Then there exists a continuous mapping f of X into $\mathbf{R}^n$ such that $f(x\xi) = f(x) + g(\xi)$ for all $x \in X$ and $\xi \in H$.*
 
 One reduces immediately to the case that $n = 1$. Since the additive group $\mathbf{R}$ is isomorphic to the multiplicative group $\mathbf{R}_+^*$, the proposition is then an immediate consequence of Prop. 7 of §2, No. 4.
 
-#### Corollary {#int-vii-s3-n2-cor-1 .statement}
+#### Corollary {#int-vii-s3-n2-cor-1 .statement tag=09GW}
 
 *Let X be a locally compact space in which a finite-dimensional real vector space V operates on the right, continuously and properly, by $(x, v) \mapsto xv$. Let $\pi$ be the canonical mapping of X onto $B = X/V$. Assume that B is paracompact.*
 
@@ -119,7 +119,7 @@ $$
 
 Since these mappings are continuous, they are homeomorphisms.
 
-#### Remark {#int-vii-s3-n2-rem-1 .statement}
+#### Remark {#int-vii-s3-n2-rem-1 .statement tag=09GX}
 
 — Let E be a finite-dimensional real affine space, T a compact space, $\mu$ a measure on T of *total mass* 1, and f a continuous mapping of T into E. If an origin a in E is chosen, E becomes equipped with a vector space structure, and the integral $\int_T f(t) d\mu(t)$ therefore has meaning; it represents the point x of E such that
 
@@ -144,7 +144,7 @@ $$
 
 For, $\mathbf{E}$ and $\mathbf{E}'$ may be identified with vector spaces in such a way that $u$ becomes a linear mapping, in which case the formula is known (Ch. III, §3, No. 2, Prop. 2 and No. 3, Prop. 7).
 
-#### Lemma 2 {#int-vii-s3-lem-2 .statement}
+#### Lemma 2 {#int-vii-s3-lem-2 .statement tag=09GY}
 
 *Let $G$ be a compact group, $\mu$ the normalized Haar measure of $G$, $\mathbf{E}$ a finite-dimensional real affine space, $A$ the affine group of $\mathbf{E}$, and $\rho$ a homomorphism of $G$ into $A$. Assume that, for every $x \in \mathbf{E}$, the mapping $s \mapsto \rho(s)x$ of $G$ into $\mathbf{E}$ is continuous. Then, for every $x \in \mathbf{E}$, the point*
 
@@ -160,7 +160,7 @@ $$
 \rho(t)x_0 = \int_G \rho(t)\rho(s)x\, d\mu(s) = \int_G \rho(ts)x\, d\mu(s) = \int_G \rho(s)x\, d\mu(s) = x_0.
 $$
 
-#### Proposition 3 {#int-vii-s3-prop-3 .statement}
+#### Proposition 3 {#int-vii-s3-prop-3 .statement tag=09GZ}
 
 *Let $G$ be a locally compact group. Let $H$ be a closed normal subgroup of $G$, isomorphic to $\mathbf{R}^n$ and such that $G/H$ is compact.*
 
@@ -246,25 +246,25 @@ One sees that the mapping $(g, h_1) \mapsto \psi_g(h_1)$ of $G \times H$ into H 
 
 Let $L'$ be a closed subgroup of G containing L. Then $L'$ is the topological semi-direct product of L and $L' \cap H$. If $L'$ is compact, then $L' \cap H$ is compact hence reduces to a point (GT, IV, §2, No. 2, Cor. 1 of Th. 2), therefore $L' = L$. This proves that L is a maximal compact subgroup of G; the same is therefore true of the subgroups that are the transforms of L by the inner automorphisms of G. The assertions c) and d) of Prop. 3 are then immediate consequences of b).
 
-#### Proposition 4 {#int-vii-s3-prop-4 .statement}
+#### Proposition 4 {#int-vii-s3-prop-4 .statement tag=09H0}
 
 *Let G be a locally compact group and H a closed normal subgroup of G such that K = G/H is compact. Then every continuous representation u of H in $\mathbf{R}$, such that $u(s\xi s^{-1}) = u(\xi)$ for all $\xi \in H$ and $s \in G$, may be extended to a continuous representation of G in $\mathbf{R}$.*
 
 Let $L = G \times \mathbf{R}$ and let M be the set of $(\xi, -u(\xi))$, where $\xi$ runs over H. It is clear that M is a closed normal subgroup of L. Let $L' = L/M$ and let $\pi$ be the canonical mapping of L onto $L'$. The subgroup of L generated by M and R is H × R, hence is closed; therefore π(R) is a closed subgroup N of L'. The restriction ρ of π to R is a bijective continuous representation of R onto N. Lemma 2 of Appendix 1 proves that ρ is bicontinuous. Moreover, L'/N is isomorphic to L/(H × R) = G/H, hence is compact. By Prop. 3, and taking into account the fact that N is in the center of L', L' is the product of N with another subgroup. Therefore there exists a continuous representation of L' onto N that reduces on N to the identity mapping. Therefore there exists a continuous representation v of L onto R that is trivial on M and reduces on R to the identity mapping. For ξ ∈ H, one has v((ξ, 0)) = v((ξ, −u(ξ))(e, u(ξ))) = u(ξ), which completes the proof.
 
-#### Lemma 3 {#int-vii-s3-lem-3 .statement}
+#### Lemma 3 {#int-vii-s3-lem-3 .statement tag=09H1}
 
 Let G be a topological group generated by a compact neighborhood of e. Let H be a closed subgroup of G such that the homogeneous space G/H is compact. Then H is generated by a compact neighborhood of e in H.
 
 Let C be a compact set such that G = CH. Enlarging C if necessary, we can suppose that C generates G and that G = ĈH. Then C^2 is compact and is covered by the Ĉs (s ∈ H), which are open. Therefore there exist s_1, ..., s_n in H such that C^2 ⊂ Ĉs_1 ∪ ... ∪ Ĉs_n. Let Γ be the subgroup of H generated by the s_i. Then C^2 ⊂ CΓ. By induction, it follows that C^n ⊂ CΓ for every n, therefore G = CΓ. Every element of H may be put in the form ab with a ∈ C, b ∈ Γ, whence a ∈ H, whence a ∈ C ∩ H. Therefore H is generated by C ∩ H and the s_i, that is, by a compact set.
 
-#### Lemma 4 {#int-vii-s3-lem-4 .statement}
+#### Lemma 4 {#int-vii-s3-lem-4 .statement tag=09H2}
 
 Let G be a connected topological group, D a totally disconnected normal subgroup of G. Then D is contained in the center of G.
 
 For, let d ∈ D. The image of G under the continuous mapping x ↦ xdx^{-1} is a connected subset of D, hence reduces to {d}, which proves that xd = dx for all x ∈ G.
 
-#### Proposition 5 {#int-vii-s3-prop-5 .statement}
+#### Proposition 5 {#int-vii-s3-prop-5 .statement tag=09H3}
 
 Let G be a connected topological group admitting a discrete normal subgroup D such that K = G/D is compact, and such that the commutator subgroup of K is dense in K. Then D is finite and G is compact.
 
@@ -276,7 +276,7 @@ In this subsection (with the exception of Examples 7 and 8), $K$ denotes a nondi
 
 Recall that $\operatorname{mod} x = |x|$ when $K = \mathbf{R}$, $\operatorname{mod} x = |x|^2$ when $K = \mathbf{C}$, $\operatorname{mod} x = |x|_p$ when $K = \mathbf{Q}_p$.
 
-#### Example 1 {#int-vii-s3-n3-exa-1 .statement}
+#### Example 1 {#int-vii-s3-n3-exa-1 .statement tag=09H4}
 
 General linear group.
 
@@ -296,7 +296,7 @@ is a left and right Haar measure on $\mathbf{GL}(n, K)$.
 
 To determine the relatively invariant measures on $\mathbf{GL}(n, K)$, we shall rely on the following lemma:
 
-#### Lemma 5 {#int-vii-s3-lem-5 .statement}
+#### Lemma 5 {#int-vii-s3-lem-5 .statement tag=09H5}
 
 The continuous representations of $\mathbf{GL}(n, K)$ in $\mathbf{C}^*$ are the mappings of the form $X \mapsto \chi(\det X)$, where $\chi$ is a continuous representation of $K^*$ in $\mathbf{C}^*$.
 
@@ -321,7 +321,7 @@ $$
 $$
 where $\chi$ is a continuous representation of $K^*$ in $\mathbf{C}^*$.
 
-#### Example 2 {#int-vii-s3-n3-exa-2 .statement}
+#### Example 2 {#int-vii-s3-n3-exa-2 .statement tag=09H6}
 
 **Affine group.**
 For every $X \in \mathbf{GL}(n, K)$ and every $x \in K^n$, let $(X, x)$ be the affine linear mapping $\xi \mapsto X\xi + x$ in $K^n$. The set of $(X, x)$ is the affine group $G$ of $K^n$ (A, II, §9, No. 4). The set $T$ of translations is a closed normal subgroup of $G$, canonically isomorphic to $K^n$; on the other hand, $\mathbf{GL}(n, K)$ is a closed subgroup of $G$, and $G$ is the semi-direct product of $\mathbf{GL}(n, K)$ and $T = K^n$. One equips $G$ with the (locally compact) topology for which $G$ is the topological semi-direct product of $\mathbf{GL}(n, K)$ and $T$ (GT, III, §2, No. 10). One has
@@ -351,7 +351,7 @@ $$
 (\mod \det X)^{-n} \cdot \left( \bigotimes_{ij} dx_{ij} \right) \otimes \left( \bigotimes_i dx_i \right).
 $$
 
-#### Example 3 {#int-vii-s3-n3-exa-3 .statement}
+#### Example 3 {#int-vii-s3-n3-exa-3 .statement tag=09H7}
 
 **Strict triangular group.**
 
@@ -370,7 +370,7 @@ $$
 
 whence $Z'Z \in T_J$. If $T_J$ is identified with $K^s$, then the mapping $Z \mapsto Z'Z$ (for fixed $Z'$) is identified with an affine mapping, and its determinant is 1, as one sees by ordering the pairs $(i, j) \in J$ lexicographically and applying the following lemma:
 
-#### Lemma 6 {#int-vii-s3-lem-6 .statement}
+#### Lemma 6 {#int-vii-s3-lem-6 .statement tag=09H8}
 
 **Let $L$ be a totally ordered finite set. For every $\lambda \in L$, let $V_\lambda$ be a free module of finite dimension over a commutative ring $k$; for $\lambda, \mu$ in $L$ such that $\lambda \leq \mu$, let $f_{\lambda \mu} \in \mathrm{Hom}_k(V_\mu, V_\lambda)$. Then the linear mapping
 $$
@@ -392,7 +392,7 @@ There is an analogous result if, in the definition of $T_J$, the roles of rows a
 
 When $J$ is the set of pairs $(i, j)$ such that $i < j$, the group $T_J$ is called the *upper strict triangular group* of order $n$ over $K$, and is denoted $T_1(n, K)$. Its transpose is called the *lower strict triangular group*.
 
-#### Example 4 {#int-vii-s3-n3-exa-4 .statement}
+#### Example 4 {#int-vii-s3-n3-exa-4 .statement tag=09H9}
 
 — *Large triangular group.*
 
@@ -541,7 +541,7 @@ $$
 \prod_{i=1}^n (\operatorname{mod} z_{ii})^{n+1-2i}.
 $$
 
-#### Remark {#int-vii-s3-n3-rem-1 .statement}
+#### Remark {#int-vii-s3-n3-rem-1 .statement tag=09HA}
 
 The group $T(n, K)^*$ is a closed subgroup of $\mathbf{GL}(n, K)$, and $\Delta_{T(n, K)^*}((z_{ij})) = \prod_{i=1}^n (\operatorname{mod} z_{ii})^{2i-n-1}$. We saw in Example 1 that $\Delta_{\mathbf{GL}(n, K)} = 1$. If $n > 1$, the function
 $$
@@ -551,7 +551,7 @@ on $T(n, K)^*$ cannot be extended to a continuous representation of $\mathbf{GL}
 
 This homogeneous space may be identified, for $n = 2$, with the *projective line* over $K$. For, let $(e_1, e_2)$ be the canonical basis of $K^2$. The group $\mathbf{GL}(2, K)$ operates transitively on the set of lines of $K^2$ with 0 omitted, and the stabilizer of $Ke_1 - \{0\}$ is $T(2, K)^*$.
 
-#### Example 5 {#int-vii-s3-n3-exa-5 .statement}
+#### Example 5 {#int-vii-s3-n3-exa-5 .statement tag=09HB}
 
 — *Special triangular group.*
 Let us take up again the notations at the beginning of Example 4, and consider the subgroup $G_1 = G \cap \mathbf{SL}(n, K)$. This subgroup is the topological semi-direct product of the group $D_1 = D \cap \mathbf{SL}(n, K)$ with $T_J$. The group $D_1$ has a normal subgroup $A$ isomorphic to $\mathbf{SL}(n_r, K)$, namely the subgroup consisting of the elements $\operatorname{diag}(Z_{kk})$ with $Z_{kk} = 1$ for $k < r$. The homomorphism
@@ -600,12 +600,12 @@ $$
 \operatorname{mod} \left( \prod_{i=1}^{n-1} z_{ii}^{2n-2i} \right).
 $$
 
-#### Example 6 {#int-vii-s3-n3-exa-6 .statement}
+#### Example 6 {#int-vii-s3-n3-exa-6 .statement tag=09HC}
 
 — *Special linear group.*
 The closed subgroups $T_1(n, K)$ and ${}^t(T(n, K)^*)$ of $\mathbf{GL}(n, K)$ have intersection $\{e\}$. Thus the mapping $(M, N) \mapsto M \cdot N$ is a continuous bijection $\varphi$ of $T_1(n, K) \times {}^t(T(n, K)^*)$ onto a subset $\Omega$ of $\mathbf{GL}(n, K)$.
 
-#### Lemma 7 {#int-vii-s3-lem-7 .statement}
+#### Lemma 7 {#int-vii-s3-lem-7 .statement tag=09HD}
 
 — a) *Let $U = (u_{ij}) \in \mathbf{GL}(n, K)$. In order that $U \in \Omega$, it is necessary and sufficient that $\det(u_{ij})_{k \leq i, j \leq n} \neq 0$ for $k = 2, 3, \ldots, n$.*
 b) $\Omega$ *is an open subset of $\mathbf{GL}(n, K)$*.
@@ -635,7 +635,7 @@ for $i = 1, 2, \ldots, n-1$. This proves a). From this it follows that $\Omega$ 
 
 Now let $G'_1 \subset {}^t(T(n, K)^*)$ be the lower special triangular group. The mapping $(M, N) \mapsto M \cdot N$ is a continuous bijection $\psi$ of $T_1(n, K) \times G'_1$ onto a subset $\Omega'$ of $\mathbf{SL}(n, K)$.
 
-#### Lemma 8 {#int-vii-s3-lem-8 .statement}
+#### Lemma 8 {#int-vii-s3-lem-8 .statement tag=09HE}
 
 **a)** *Let $U = (u_{ij}) \in \mathbf{SL}(n, K)$. In order that $U \in \Omega'$, it is necessary and sufficient that $\det(u_{ij})_{k \leq i, j \leq n} \neq 0$ for $k = 2, 3, \ldots, n$.*
 
@@ -645,7 +645,7 @@ c) *The mapping $\psi$ is a homeomorphism of $T_1(n, K) \times G'_1$ onto $\Omeg
 
 For, let $M \in T_1(n, K)$ and $N \in {}^t(T(n, K)^*)$. In order that $M \cdot N \in \mathbf{SL}(n, K)$, it is necessary and sufficient that $N \in G'_1$. Therefore $\Omega' = \mathbf{SL}(n, K) \cap \Omega$ and Lemma 8 follows at once from Lemma 7.
 
-#### Proposition 6 {#int-vii-s3-prop-6 .statement}
+#### Proposition 6 {#int-vii-s3-prop-6 .statement tag=09HF}
 
 **a)** *The group $\mathbf{SL}(n, K)$ is unimodular.*
 
@@ -655,7 +655,7 @@ c) *The complement of $\Omega'$ in $\mathbf{SL}(n, K)$ is negligible for the Haa
 
 The group $\mathbf{GL}(n, K)$ is unimodular (Example 1), and $\mathbf{SL}(n, K)$ is a normal subgroup of $\mathbf{GL}(n, K)$, hence is unimodular (§ 2, No. 7, Prop. 10 b)). The assertion b) follows from a), Lemma 8, and Prop. 13 of § 2, No. 9. Let us prove c). By Lemma 8 a), it suffices to prove the following: if $p((u_{ij})_{1 \leq i,j \leq n})$ is a polynomial, not identically zero on $\mathbf{SL}(n, K)$, then the set E of $U \in \mathbf{SL}(n, K)$ such that $p(U) = 0$ is negligible for the Haar measure. Taking into account § 1, No. 10, Cor. of Prop. 13, the topology of $\mathbf{SL}(n, K)$ has a countable base. It therefore suffices to prove that for every $U_0 \in E$, there exists a neighborhood of $U_0$ in $\mathbf{SL}(n, K)$ whose intersection with E is negligible; or again that there exists a neighborhood W of I in $\mathbf{SL}(n, K)$ such that $U_0^{-1}E \cap W$ is negligible. Let us take $W = \Omega'$. In view of b), it all comes down to showing that the set of pairs $(M, N) \in T_1(n, K) \times G'_1$ such that $p(U_0 MN) = 0$ is negligible for $\mu_1 \otimes \mu_2$. By the expressions for $\mu_1$ and $\mu_2$ (calculated in Examples 3 and 5), this will result from the following lemma:
 
-#### Lemma 9 {#int-vii-s3-lem-9 .statement}
+#### Lemma 9 {#int-vii-s3-lem-9 .statement tag=09HG}
 
 *Let $\psi$ be a polynomial $\neq 0$ of $K[X_1, \ldots, X_r]$. In the space $K^r$, the set N defined by $\psi(x_1, \ldots, x_r) = 0$ is negligible for the Haar measure.*
 
@@ -667,13 +667,13 @@ $$
 
 with $m > 0$ and $\psi_0 \neq 0$. In the space $K^{r-1}$, let $N_0$ be the set defined by $\psi_0(x_1, \ldots, x_{r-1}) = 0$, which is negligible by the induction hypothesis. For every $(x_1, \ldots, x_{r-1}) \notin N_0$, the set of $x_r \in K$ such that $(x_1, \ldots, x_{r-1}, x_r) \in N$ is finite, therefore negligible. Since $K^r$ is countable at infinity (§ 1, No. 10, Cor. of Prop. 13), $N \cap [(K^{r-1} - N_0) \times K]$ is negligible in $K^r$ (Ch. V, § 8, No. 2, Prop. 4). Therefore N is negligible.
 
-#### Example 7 {#int-vii-s3-n3-exa-7 .statement}
+#### Example 7 {#int-vii-s3-n3-exa-7 .statement tag=09HH}
 
 *Iwasawa decomposition of $\mathbf{GL}(n, K)$.*
 
 In this example, K denotes one of the fields $\mathbf{R}, \mathbf{C}, \mathbf{H}$. If $\lambda \in K$, $\overline{\lambda}$ is defined to be equal to $\lambda$ if $K = \mathbf{R}$, and to the conjugate of $\lambda$ if $K = \mathbf{C}$ or $\mathbf{H}$. Let E be a right vector space over K of dimension $n$, and let $\Phi$ be a nondegenerate positive hermitian form on E.
 
-#### Lemma 10 {#int-vii-s3-lem-10 .statement}
+#### Lemma 10 {#int-vii-s3-lem-10 .statement tag=09HI}
 
 *Let $(f_1, f_2, \ldots, f_n)$ be a basis of E.*
 a) *There exists one and only one orthonormal basis $(e_1, e_2, \ldots, e_n)$ of E such that $f_i = e_1 \alpha_{i1} + e_2 \alpha_{i2} + \cdots + e_i \alpha_{ii}$ ($i = 1, 2, \ldots, n$) with $\alpha_{ii} > 0$ for all $i$.
@@ -713,7 +713,7 @@ $$
 
 Recall that $\mathbf{U}(n, \mathbf{K})$ denotes the corresponding unitary group. Even when $\mathbf{K}$ is noncommutative, we shall again denote by $\mathbf{T}_1(n, \mathbf{K})$ the group of upper triangular matrices of $\mathbf{M}_n(\mathbf{K})$ whose diagonal entries are all 1.
 
-#### Proposition 7 {#int-vii-s3-prop-7 .statement}
+#### Proposition 7 {#int-vii-s3-prop-7 .statement tag=09HJ}
 
 *Let $D_+^*$ be the group of diagonal matrices with diagonal elements $> 0$. The mapping $(U, D, T) \mapsto UDT$ is a homeomorphism of $\mathbf{U}(n, \mathbf{K}) \times D_+^* \times \mathbf{T}_1(n, \mathbf{K})$ onto $\mathbf{GL}(n, \mathbf{K})$.*
 
@@ -758,7 +758,7 @@ $$
 
 where $\alpha$ denotes a Haar measure on $\mathbf{U}(n, K)$.
 
-#### Example 8 {#int-vii-s3-n3-exa-8 .statement}
+#### Example 8 {#int-vii-s3-n3-exa-8 .statement tag=09HK}
 
 Spaces of hermitian forms.
 

@@ -66,9 +66,9 @@ subsections:
       pdf_page: 384
 statements: 35
 exercises: 12
-content_sha256: b2a835f74562463b9a308557929977108ddbeec80e8e899ef145967342056a76
+content_sha256: 3160ec3bc7f57343eca2bd5ca0dc9a40df7f6dd86a54a94a3d94d63791affa58
 translated_from: content/en/alg/II/10_s10_matrices.md
-source_content_sha256: a47679ba1ab8c0e078a09ebdfca77031eefe61db8ddab4faffc08a0fa8c19aa5
+source_content_sha256: 9f20d99617c7f5aad6362a5f7207c5eb84fe7bf5906f6a9107df6de45c2d511a
 translation_model: gpt-5.4
 translation_run: translate-vi-5f9ccca3
 glossary_version: 34
@@ -80,7 +80,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA MA TRẬN
 
-#### Định nghĩa 1 {#alg-ii-s10-def-1 .statement}
+#### Định nghĩa 1 {#alg-ii-s10-def-1 .statement tag=05WH}
 
 Cho $I, K, H$ là ba tập hợp; một ma trận kiểu $(I, K)$ với các phần tử trong $H$ (hoặc một ma trận kiểu $(I, K)$ trên $H$) là một họ bất kỳ $M = (m_{i\kappa})_{(i, \kappa) \in I \times K}$ gồm các phần tử của $H$ mà tập hợp chỉ số là tích $I \times K$. Với mọi $i \in I$, họ $(m_{i\kappa})_{\kappa \in K}$ được gọi là hàng của $M$ có chỉ số $i$; với mọi $\kappa \in K$, họ $(m_{i\kappa})_{i \in I}$ được gọi là cột của $M$ có chỉ số $\kappa$.
 
@@ -118,7 +118,7 @@ Mọi ma trận trên $H$ mà một trong các tập hợp chỉ số $I, K$ là
 
 Một họ con $M' = (m_{\iota \kappa})_{(\iota, \kappa) \in J \times L}$ của một ma trận $M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K}$, mà tập hợp chỉ số là tích của một tập con $J$ của $I$ và một tập con $L$ của $K$, được gọi là một *ma trận con* của ma trận $M$; ta nói rằng nó thu được bằng cách *bỏ đi* trong $M$ các hàng có chỉ số $\iota \notin J$ và các cột có chỉ số $\kappa \notin L$; ngược lại, ta nói rằng $M$ thu được bằng cách *viền thêm* vào $M'$ các hàng có chỉ số $\iota \notin J$ và các cột có chỉ số $\kappa \notin L$.
 
-#### Định nghĩa 2 {#alg-ii-s10-def-2 .statement}
+#### Định nghĩa 2 {#alg-ii-s10-def-2 .statement tag=05WI}
 
 *Ma trận chuyển vị của một ma trận* $M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K}$, *ký hiệu bởi* $^tM$, *là ma trận* $(m'_{\kappa \iota})_{(\kappa, \iota) \in K \times I}$ *trên* $H$ *xác định bởi* $m'_{\kappa \iota} = m_{\iota \kappa}$ *với mọi* $(\iota, \kappa) \in K \times L$.
 
@@ -194,7 +194,7 @@ do các giả thiết đã nêu.
 
 Hai vế của (6) cũng được ký hiệu bởi $M'M''M'''$. Những quy ước tương tự được đặt ra cho các tích có hơn ba thừa số.
 
-#### Nhận xét {#alg-ii-s10-n2-rem-1 .statement}
+#### Nhận xét {#alg-ii-s10-n2-rem-1 .statement tag=05WJ}
 
 Các công thức trên mở rộng được cho một tình huống tổng quát hơn. Cụ thể:
 
@@ -250,7 +250,7 @@ $$
 ^t(XY) = ^tY.^tX
 $$
 
-#### Mệnh đề 1 {#alg-ii-s10-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ii-s10-prop-1 .statement tag=05WK}
 
 *Cho $\mathbf{A}, \mathbf{B}$ là hai vành và $M = (m_{ik})_{(i,k) \in I \times K}$ và*
 $$
@@ -295,7 +295,7 @@ Bây giờ ta xét hai A-môđun (trái hoặc phải) E và F với các cơ s�
 
 Trong phần sau, ta sẽ gắn chữ (D) (tương ứng (G)) vào các công thức áp dụng cho các môđun phải (tương ứng trái).
 
-#### Định nghĩa 3 {#alg-ii-s10-def-3 .statement}
+#### Định nghĩa 3 {#alg-ii-s10-def-3 .statement tag=05WL}
 
 *Trong mỗi một trong hai trường hợp trên, ma trận của u đối với các cơ sở* $(e_i), (f_k)$ *là ma trận* $M(u) = (u_{ki})_{(k, i) \in K \times I}$ *sao cho*
 
@@ -327,7 +327,7 @@ M(\gamma u) = \gamma M(u)
 $$
 với mọi phần tử $\gamma$ của *tâm* $\Gamma$ của A. Nói cách khác, một khi các cơ sở $(e_i), (f_k)$ đã được cố định, ánh xạ $u \mapsto M(u)$ là một *đẳng cấu môđun trên $\Gamma$* của $\mathrm{Hom}_A(E, F)$ lên một tập con của tập hợp $A^{K \times I}$, bằng $A^{K \times I}$ nếu K là *hữu hạn*.
 
-#### Mệnh đề 2 {#alg-ii-s10-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ii-s10-prop-2 .statement tag=05WM}
 
 *Giả sử I và K là hữu hạn. Với mọi phần tử* $x \in E$, *ma trận* $M(u(x))$ *đối với cơ sở* $(f_k)$ *được cho bởi công thức*
 
@@ -348,7 +348,7 @@ trong đó $u'_{ik} = u_{ki}$; khi đó $y_{k0} = \sum_i x'_{0i} u'_{ik}$ và v�
 
 Khi A là giao hoán, (17 G) quy về (17 D) bởi công thức (4) của no. 2.
 
-#### Hệ quả {#alg-ii-s10-n4-cor-1 .statement}
+#### Hệ quả {#alg-ii-s10-n4-cor-1 .statement tag=05WN}
 
 *Cho E, F, G là ba môđun phải (resp. trái) trên một vành A, $(e_i)_{i \in I}$, $(f_k)_{k \in K}$, $(g_l)_{l \in L}$ các cơ sở hữu hạn tương ứng của E, F, G, $u : E \to F$, $v : F \to G$ là hai ánh xạ tuyến tính, $M(u)$ là ma trận của u đối với các cơ sở $(e_i)$, $(f_k)$, $M(v)$ là ma trận của v đối với các cơ sở $(f_k)$, $(g_l)$ và $M(v \circ u)$ là ma trận của $v \circ u$ đối với các cơ sở $(e_i)$, $(g_l)$; khi đó*
 
@@ -372,7 +372,7 @@ $$
 \theta_{u(x)} = u \circ \theta_x.
 $$
 
-#### Mệnh đề 3 {#alg-ii-s10-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ii-s10-prop-3 .statement tag=05WO}
 
 *Cho E, F là hai A-môđun phải (tương ứng trái) và $(e_i)_{i \in I}$, $(f_k)_{k \in K}$ là các cơ sở hữu hạn của E và F tương ứng. Với mọi ánh xạ tuyến tính u từ E vào F, gọi $M(u)$ là ma trận của u đối với các cơ sở $(e_i)$ và $(f_k)$. Khi đó ma trận của ${}^t u : F^* \to E^*$ đối với các cơ sở đối ngẫu $(f_k^*)$ và $(e_i^*)$ bằng ${}^t M(u)$.*
 
@@ -382,7 +382,7 @@ $$
 $$
 do đó có mệnh đề.
 
-#### Nhận xét {#alg-ii-s10-n4-rem-1 .statement}
+#### Nhận xét {#alg-ii-s10-n4-rem-1 .statement tag=05WP}
 
 (2) Cho E và F là hai A-môđun trái với các cơ sở $(e_i)_{i \in I}$ và $(f_k)_{k \in K}$ tương ứng. Với mọi ánh xạ A-tuyến tính $u : E \to F$, theo (14 G), $u(e_i) = \sum_k u_{ki} f_k$; các hệ thức này cũng có thể được giải thích bằng cách nói rằng ma trận cột $(u(e_i))_{i \in I}$ với các phần tử trong F bằng tích $^tM(u) \cdot (f_k)$, trong đó $(f_k)_{k \in K}$ được coi như một ma trận cột với các phần tử trong F và tích được tính đối với ánh xạ $A \times F \to F$ xác định luật tác động trên A-môđun F (no. 2).
 
@@ -514,7 +514,7 @@ $$
 $$
 khi $\sigma$ được ký hiệu bởi $x \mapsto x^\sigma$.
 
-#### Nhận xét {#alg-ii-s10-n6-rem-1 .statement}
+#### Nhận xét {#alg-ii-s10-n6-rem-1 .statement tag=05WQ}
 
 Cho A là một vành và $\sigma$ là một *phản tự đồng cấu* của A (no. 3); xét hai tình huống sau:
 
@@ -534,13 +534,13 @@ các tích ở hai vế được tính *trong* A. Điều này suy ra ngay lập
 
 ### 7. MA TRẬN VUÔNG
 
-#### Định nghĩa 4 {#alg-ii-s10-def-4 .statement}
+#### Định nghĩa 4 {#alg-ii-s10-def-4 .statement tag=05WR}
 
 *Một ma trận mà các hàng và các cột có cùng tập hợp chỉ số được gọi là ma trận vuông.*
 
 Một ma trận vuông có $n$ hàng và $n$ cột được gọi là một *ma trận cấp* $n$.
 
-#### Nhận xét {#alg-ii-s10-n7-rem-1 .statement}
+#### Nhận xét {#alg-ii-s10-n7-rem-1 .statement tag=05WS}
 
 Cần lưu ý rằng một ma trận mà các tập hợp chỉ số của các hàng và các cột có *cùng lực lượng* nhưng *không đồng nhất*, thì không được xem là một ma trận vuông; đặc biệt, tích của hai ma trận như vậy trên một vành *không được định nghĩa*.
 
@@ -637,7 +637,7 @@ Với ký hiệu này, (32) sẽ được gọi là một ma trận chéo (tươ
 
 ### 8. THAY ĐỔI CƠ SỞ
 
-#### Mệnh đề 4 {#alg-ii-s10-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ii-s10-prop-4 .statement tag=05WT}
 
 *Cho E là một A-môđun phải có cơ sở hữu hạn $(e_i)_{1 \leq i \leq n}$ gồm n phần tử. Để một họ gồm n phần tử $e'_i = \sum_{j=1}^n e_j a_{ji} (1 \leq i \leq n)$ là một cơ sở của E, điều kiện cần và đủ là ma trận bình phương $P = (a_{ji})$ cấp n khả nghịch.*
 
@@ -645,13 +645,13 @@ $P$ chính là ma trận, đối với cơ sở $(e_i)$, của tự đồng cấ
 
 Ma trận khả nghịch $P$ được gọi là *ma trận chuyển từ cơ sở* $(e_i)$ *sang cơ sở* $(e'_i)$. Nó cũng có thể được hiểu là ma trận của ánh xạ đồng nhất $l_E$ đối với các cơ sở $(e'_i)$ và $(e_i)$ (*theo thứ tự đó*); khi đó rõ ràng ma trận chuyển *từ cơ sở* $(e'_i)$ *sang cơ sở* $(e_i)$ là *nghịch đảo* $P^{-1}$ của $P$.
 
-#### Mệnh đề 5 {#alg-ii-s10-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ii-s10-prop-5 .statement tag=05WU}
 
 *Cho $(e_i), (e'_i)$ là hai cơ sở gồm n phần tử của E và P là ma trận chuyển từ $(e_i)$ sang $(e'_i)$. Nếu $(e_i^*)$ và $({e'_i}^*)$ là các cơ sở đối ngẫu tương ứng của $(e_i)$ và $(e'_i)$, thì ma trận chuyển từ $(e_i^*)$ sang $({e'_i}^*)$ là phản biến $^tP^{-1}$ của P.*
 
 Chuyển vị của ánh xạ đồng nhất $l_E$ là ánh xạ đồng nhất $l_{E^*}$; theo Mệnh đề 3, no. 4, ma trận của $l_{E^*}$ đối với các cơ sở $({e'_i}^*)$ và $(e_i^*)$ (theo thứ tự đó) là chuyển vị của ma trận của $l_E$ đối với các cơ sở $(e_i)$ và $(e'_i)$ (theo thứ tự đó), tức là chuyển vị của $P^{-1}$.
 
-#### Mệnh đề 6 {#alg-ii-s10-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ii-s10-prop-6 .statement tag=05WV}
 
 *Cho E và F là hai A-môđun phải, $(e_i)$ và $(e'_i)$ là hai cơ sở của E* gồm $n$ phần tử, $(f_j)$ và $(f'_j)$ là hai cơ sở của $F$ gồm $m$ phần tử, $P$ là ma trận chuyển từ $(e_i)$ sang $(e'_i)$ và $Q$ là ma trận chuyển từ $(f_j)$ sang $(f'_j)$. Với mọi ánh xạ tuyến tính $u$ từ $E$ vào $F$, gọi $M(u)$ là ma trận của $u$ đối với các cơ sở $(e_i)$ và $(f_j)$ và $M'(u)$ là ma trận của $u$ đối với các cơ sở $(e'_i)$ và $(f'_j)$; khi đó*
 
@@ -661,7 +661,7 @@ $$
 
 Ta có thể viết $u = l_F \circ u \circ l_E$. Công thức (33) suy ra ngay lập tức từ no. 4, Hệ quả của Mệnh đề 2 khi lấy ma trận của $l_E$ đối với $(e'_i)$ và $(e_i)$, ma trận của $u$ đối với $(e_i)$ và $(f_i)$ và ma trận của $l_F$ đối với $(f_i)$ và $(f'_j)$.
 
-#### Hệ quả 1 {#alg-ii-s10-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s10-prop-6-cor-1 .statement tag=05WW}
 
 *Nếu $u$ là một tự đồng cấu của $E$ và $M(u)$ và $M'(u)$ là các ma trận của nó đối với các cơ sở $(e_i)$ và $(e'_i)$ tương ứng, thì*
 
@@ -669,7 +669,7 @@ $$
 M'(u) = P^{-1} M(u) P.
 $$
 
-#### Hệ quả 2 {#alg-ii-s10-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s10-prop-6-cor-2 .statement tag=05WX}
 
 *Nếu $M(x)$ và $M'(x)$ là các ma trận một cột của cùng phần tử $x \in E$ đối với các cơ sở $(e_i)$ và $(e'_i)$ tương ứng, thì*
 
@@ -687,7 +687,7 @@ $$
 
 đối với các phần tử $x_i$ và $x'_i$ của các ma trận $M(x)$ và $M'(x)$ tương ứng. Các công thức (36 D) được gọi là *các công thức thay đổi tọa độ*. Hãy lưu ý rằng chúng biểu thị các thành phần của $x$ đối với cơ sở "cũ" $(e_i)$ như những hàm của các thành phần của $x$ đối với cơ sở "mới" $(e'_i)$ và các phần tử của $P$, nghĩa là các thành phần của cơ sở "mới" đối với cơ sở "cũ".
 
-#### Nhận xét {#alg-ii-s10-n8-rem-1 .statement}
+#### Nhận xét {#alg-ii-s10-n8-rem-1 .statement tag=05WY}
 
 (1) Bây giờ ta bắt đầu với một $A$-môđun trái $E$ có hai cơ sở $(e_i), (e'_i)$, mỗi cơ sở có $n$ phần tử; nếu ta viết $e'_i = \sum_{j=1}^n a_{ji} e_i$, thì $P = (a_{ji})$ cũng được gọi là *ma trận chuyển qua* từ $(e_i)$ đến $(e'_i)$; nó cũng là ma trận của tự đẳng cấu của $E$ sao cho $u(e_i) = e'_i$, đối với cơ sở $(e_i)$, và cũng là ma trận của $l_E$ đối với các cơ sở $(e'_i)$ và $(e_i)$ *theo thứ tự đó*. Khi đó các kết quả trên vẫn đúng, chỉ với những sửa đổi sau đây: các công thức (33 D) đến (36 D) lần lượt được thay bằng
 
@@ -756,7 +756,7 @@ Chứng minh giống như chứng minh của (33 D) và (33 G), lần này dùng
 
 ### 9. MA TRẬN TƯƠNG ĐƯƠNG; MA TRẬN TƯƠNG TỰ
 
-#### Định nghĩa 5 {#alg-ii-s10-def-5 .statement}
+#### Định nghĩa 5 {#alg-ii-s10-def-5 .statement tag=05WZ}
 
 *Hai ma trận* $X, X'$ *có m hàng và n cột trên một vành được gọi là tương đương nếu tồn tại một ma trận bình phương khả nghịch* $P$ *cấp m và một ma trận bình phương khả nghịch* $Q$ *cấp n sao cho*
 
@@ -787,7 +787,7 @@ Tương tự, cho $h, i$ là hai phần tử phân biệt của $[1, m]$ và $a$
 
 Tương tự, nếu $X'$ được dẫn xuất từ $X'$ bằng cách nhân bên trái hàng của $X$ có chỉ số $i$ với một phần tử khả nghịch $c \in A$, thì $X'$ và $X$ tương đương, vì $X' = PX$ trong đó $P$ là ma trận $\operatorname{diag}(b_h)$ với $b_i = c$, $b_h = 1$ với $h \neq i$.
 
-#### Định nghĩa 6 {#alg-ii-s10-def-6 .statement}
+#### Định nghĩa 6 {#alg-ii-s10-def-6 .statement tag=05X0}
 
 *Hai ma trận vuông X, X' cấp n trên một vành A được gọi là đồng dạng nếu tồn tại một ma trận vuông khả nghịch P cấp n sao cho*
 
@@ -798,7 +798,7 @@ Rõ ràng quan hệ "X và X' là đồng dạng" là một *quan hệ tương �
 
 Với định nghĩa này, Hệ quả 1 của Mệnh đề 6 ở no. 8 có thể được phát biểu bằng cách nói rằng khi thay đổi cơ sở của một A-môđun E (có một cơ sở hữu hạn), thì ma trận của một tự đồng cấu u đối với cơ sở mới là *đồng dạng* với ma trận của u đối với cơ sở cũ.
 
-#### Nhận xét {#alg-ii-s10-n9-rem-1 .statement}
+#### Nhận xét {#alg-ii-s10-n9-rem-1 .statement tag=05X1}
 
 (1) Hai ma trận vuông chỉ khác nhau ở thứ tự các hàng của chúng (hoặc thứ tự các cột của chúng) thì tương đương, nhưng nói chung *không đồng dạng*. Một ma trận đồng dạng với một ma trận vuông $X = (x_{ij})$ có thể thu được bằng cách thực hiện *cùng một phép hoán vị* $\sigma^{-1}$ trên các hàng và các cột, nghĩa là bằng cách xét ma trận $X' = (x'_{ij})$, trong đó $x'_{ij} = x_{\sigma(i), \sigma(j)}$ với mọi cặp có thứ tự các chỉ số; vì nếu X là ma trận của một tự đồng cấu u của $A^n_d$ đối với một cơ sở $(e_i)_{1 \leq i \leq n}$, thì $X'$ là ma trận của u đối với cơ sở $(e_{\sigma(i)})_{1 \leq i \leq n}$.
 
@@ -931,11 +931,11 @@ $$
 
 theo (49). Hơn nữa công thức sau cùng chứng minh:
 
-#### Mệnh đề 7 {#alg-ii-s10-prop-7 .statement}
+#### Mệnh đề 7 {#alg-ii-s10-prop-7 .statement tag=05X2}
 
 *Cho $C$ là một vành giao hoán và với mỗi ma trận $P \in \mathbf{M}_n(C)$, ký hiệu $f_P$ là dạng tuyến tính $X \mapsto \operatorname{Tr}(PX)$ trên $\mathbf{M}_n(C)$; ánh xạ $P \mapsto f_P$ là một song ánh $C$-tuyến tính từ $\mathbf{M}_n(C)$ lên đối ngẫu của nó.*
 
-#### Mệnh đề 8 {#alg-ii-s10-prop-8 .statement}
+#### Mệnh đề 8 {#alg-ii-s10-prop-8 .statement tag=05X3}
 
 *Nếu $g$ là một dạng tuyến tính trên $C$-môđun $\mathbf{M}_n(C)$ sao cho $g(XY) = g(YX)$ với mọi ma trận $X, Y$ trong $\mathbf{M}_n(C)$, thì tồn tại một và chỉ một vô hướng $c \in C$ sao cho $g(X) = c \cdot \operatorname{Tr}(X)$ với mọi ma trận $X \in \mathbf{M}_n(C)$.*
 
@@ -945,7 +945,7 @@ Vì mệnh đề là tầm thường đối với $n = 1$, ta có thể chỉ x�
 
 Các ma trận hữu hạn có $m$ hàng và $n$ cột trên một trường $K$ tương ứng song ánh với các ánh xạ tuyến tính từ không gian vectơ phải $E = K_d^n$ vào không gian vectơ phải $K_d^m$ khi các ma trận của các ánh xạ ấy được lấy đối với các cơ sở chính tắc của $E$ và $F$. Theo định nghĩa, *hạng* của một ma trận như thế $X$ là hạng của ánh xạ tuyến tính $u : E \to F$ tương ứng với nó; vì số này theo định nghĩa là chiều của không gian con $u(E)$ của $F$, nên cũng tương đương như vậy (khi đồng nhất các cột của $X$ với các ảnh qua $u$ của cơ sở chính tắc của $E$) khi đưa ra định nghĩa sau:
 
-#### Định nghĩa 7 {#alg-ii-s10-def-7 .statement}
+#### Định nghĩa 7 {#alg-ii-s10-def-7 .statement tag=05X4}
 
 *Cho một ma trận $X$ có $m$ hàng và $n$ cột trên một trường $K$, chiều của không gian con của $K_d^m$ sinh bởi $n$ cột của $X$ được gọi là hạng của $X$ đối với $K$ và được ký hiệu là $\operatorname{rg}(X)$.*
 
@@ -953,13 +953,13 @@ Cũng có thể nói rằng hạng của $X$ là *số lớn nhất các cột �
 
 Nếu $E$ và $F$ là hai không gian vectơ hữu hạn chiều trên $K$ và $u$ là một ánh xạ tuyến tính từ $E$ vào $F$, thì hạng của ma trận $M(u)$ đối với hai cơ sở bất kỳ bằng hạng của $u$.
 
-#### Mệnh đề 9 {#alg-ii-s10-prop-9 .statement}
+#### Mệnh đề 9 {#alg-ii-s10-prop-9 .statement tag=05X5}
 
 *Nếu các phần tử của một ma trận $X$ có $m$ hàng và $n$ cột thuộc một trường con $K_0$ của một trường $K$, thì hạng của $X$ đối với $K_0$ bằng hạng của $X$ đối với $K$.*
 
 Cho $F_0$ là không gian vectơ phải $K_0$ sinh bởi cơ sở chính tắc của không gian vectơ phải $K$ $E = K_d^m$; theo giả thiết các cột của $X$ thuộc $E_0$. Gọi $V_0$ (resp. $V$) là không gian con vectơ trên-$K_0$ của $F_0$ (resp. không gian con vectơ trên-$K$ của $E$) sinh bởi các cột ấy. Khi đó $V = V_0 \otimes_{K_0} K$ (§ 8, no. 2, Mệnh đề 2) và do đó $\dim_K V = \dim_{K_0} V_0$.
 
-#### Mệnh đề 10 {#alg-ii-s10-prop-10 .statement}
+#### Mệnh đề 10 {#alg-ii-s10-prop-10 .statement tag=05X6}
 
 *Hạng của một ma trận $X$ trên một trường $K$ bằng hạng của ma trận chuyển vị của nó ${}^t X$ trên trường đối $K^0$.*
 
@@ -971,7 +971,7 @@ Các ma trận vuông cấp $n$ trên một trường $K$ tương ứng song án
 
 End$_{\mathbf{K}}$ (E) (no. 7); tương ứng với các tự đẳng cấu của E là các ma trận vuông khả nghịch.
 
-#### Mệnh đề 11 {#alg-ii-s10-prop-11 .statement}
+#### Mệnh đề 11 {#alg-ii-s10-prop-11 .statement tag=05X7}
 
 *Cho X là một ma trận vuông cấp n trên một trường K. Các tính chất sau là tương đương:*
 
@@ -982,7 +982,7 @@ End$_{\mathbf{K}}$ (E) (no. 7); tương ứng với các tự đẳng cấu củ
 
 Đây chỉ là bản dịch của § 7, no. 4, Hệ quả của Mệnh đề 9.
 
-#### Mệnh đề 12 {#alg-ii-s10-prop-12 .statement}
+#### Mệnh đề 12 {#alg-ii-s10-prop-12 .statement tag=05X8}
 
 *Để một hệ gồm m phương trình tuyến tính với n ẩn*
 
@@ -998,7 +998,7 @@ Chú ý rằng điều kiện của Mệnh đề 12 luôn được thỏa mãn k
 
 ### 13. TƯƠNG ĐƯƠNG CỦA CÁC MA TRẬN TRÊN MỘT TRƯỜNG
 
-#### Mệnh đề 13 {#alg-ii-s10-prop-13 .statement}
+#### Mệnh đề 13 {#alg-ii-s10-prop-13 .statement tag=05X9}
 
 *Cho E, F là hai không gian vectơ hữu hạn chiều trên một trường K. Nếu $u : E \to F$ là một ánh xạ tuyến tính có hạng r, thì tồn tại các cơ sở của E và F sao cho, đối với các cơ sở ấy,*
 
@@ -1010,7 +1010,7 @@ $$
 
 Mệnh đề thứ hai hiển nhiên tương đương với mệnh đề thứ nhất. Để chứng minh mệnh đề sau, đặt $\dim E = n$, $\dim F = m$. Hạt nhân $N = u^{-1}(0)$ có chiều $n - r$ (§ 7, no. 4, công thức (11)); gọi V là một không gian con bù của N trong E và $(e_i)_{1 \leq i \leq n}$ là một cơ sở của E sao cho $(e_i)_{1 \leq i \leq r}$ là một cơ sở của V và $(e_i)_{r+1 \leq i \leq n}$ là một cơ sở của N. Khi đó các $u(e_j)$ $(1 \leq j \leq r)$ lập thành một cơ sở của $u(E)$; do đó tồn tại một cơ sở $(f_j)_{1 \leq j \leq m}$ của F sao cho $f_j = u(e_j)$ với $1 \leq j \leq r$ (§ 7, no. 1, Định lý 2) và rõ ràng, đối với các cơ sở $(e_i)$ và $(f_j)$, ma trận $M(u)$ được cho bởi (55).
 
-#### Hệ quả {#alg-ii-s10-n13-cor-1 .statement}
+#### Hệ quả {#alg-ii-s10-n13-cor-1 .statement tag=05XA}
 
 *Điều kiện cần và đủ để hai ma trận trên một trường, cùng kiểu $(m, n)$, tương đương với nhau là chúng có cùng hạng.*
 
@@ -1022,7 +1022,7 @@ $$
 
 là một ma trận khả nghịch cấp $m$ theo no. 8.
 
-#### Bổ đề 1 {#alg-ii-s10-lem-1 .statement}
+#### Bổ đề 1 {#alg-ii-s10-lem-1 .statement tag=05XB}
 
 *Cho $X = (\xi_{ij})$ là một ma trận kiểu $(m, n)$ trên một vành $A$. Giả sử rằng $m \geqslant 2$ và tồn tại một phần tử $\xi_{i1}$ trong cột thứ nhất của $X$ khả nghịch trong $A$. Khi đó tồn tại hai ma trận vuông khả nghịch $P \in \mathbf{M}_m(A)$, $Q \in \mathbf{M}_n(A)$ và một ma trận $Y$ kiểu $(m - 1, n - 1)$ trên $A$ sao cho $P$ (tương ứng $Q$) là một tích các ma trận dạng $B_{ij}(\lambda)$ cấp $m$ (tương ứng $n$) và*
 
@@ -1037,7 +1037,7 @@ $$
 
 Ma trận $B_{ij}(\lambda)X$ thu được bằng cách cộng vào hàng của $X$ có chỉ số $i$ hàng có chỉ số $j$ được nhân bên trái với $\lambda$ (no. 9, *Ví dụ 2*); nếu $\xi_{i1}$ khả nghịch, thì tồn tại $\lambda \in A$ sao cho, đối với ma trận $X' = B_{1i}(\lambda)X = (\xi'_{kl})$, ta có $\xi'_{11} = 1$; nhân $X'$ ở bên trái với các ma trận $B_{k1}(\mu_k)$ cấp $m$ được chọn thích hợp (với $1 \leq k \leq m$), ta thu được một ma trận $X'' = (\xi''_{kl})$ sao cho $\xi''_{j1} = 1$, $\xi''_{k1} = 0$ với $k \neq 1$. Sau đó nhân liên tiếp ma trận thu được *ở bên phải* với các ma trận $B_{1j}(v_j)$ cấp $n$ thích hợp $(2 \leq j \leq n)$ và ta thu được một ma trận có dạng (57).
 
-#### Mệnh đề 14 {#alg-ii-s10-prop-14 .statement}
+#### Mệnh đề 14 {#alg-ii-s10-prop-14 .statement tag=05XC}
 
 *Cho $X$ là một ma trận kiểu $(m, n)$ trên một trường $K$. Nếu $X$ có hạng $r$, thì tồn tại hai ma trận vuông khả nghịch $P \in \mathbf{M}_m(K)$, $Q \in M_n(K)$ sao cho $P$ (tương ứng $Q$) là một tích của các ma trận cấp $m$ (tương ứng $n$) có dạng $B_{ij}(\lambda)$ và*
 
@@ -1080,7 +1080,7 @@ Sau cùng, nếu $j \neq 1$, thì chỉ cần xét ma trận $XB_{j1}(1)$ để 
 
 Mệnh đề 14 suy ra lại Mệnh đề 13 ngay lập tức.
 
-#### Hệ quả 1 {#alg-ii-s10-prop-14-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s10-prop-14-cor-1 .statement tag=05XD}
 
 *Nếu $X$ là một ma trận vuông khả nghịch cấp $n$ trên một trường $\mathbf{K}$, thì tồn tại ba ma trận khả nghịch $P, Q, D$ cấp $n$ sao cho $X = PDQ$, trong đó $P$ và $Q$ là các tích của các ma trận có dạng $B_{ij}(\lambda)$ và $D$ là một ma trận đường chéo có dạng*
 
@@ -1090,13 +1090,13 @@ $$
 
 *ở đây $\delta \neq 0$ (xem Bài tập 13).*
 
-#### Hệ quả 2 {#alg-ii-s10-prop-14-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s10-prop-14-cor-2 .statement tag=05XE}
 
 *Với mọi trường $\mathbf{K}$, nhóm các ma trận khả nghịch $\mathbf{GL}(n, \mathbf{K})$ được sinh bởi các ma trận hoán vị (no. 7, Ví dụ 2), các ma trận đường chéo $\operatorname{diag}(a, 1, \ldots, 1)$ ($a \neq 0$ trong $\mathbf{K}$) và các ma trận $B_{12}(\lambda)$ ($\lambda \in \mathbf{K}$).*
 
 Ta đã thấy (no. 9) rằng tích bên phải (resp. bên trái) của một ma trận với ma trận của một phép đổi chỗ thích hợp sẽ đổi chỗ hai cột bất kỳ (resp. hai hàng bất kỳ). Khi đó ma trận $\operatorname{diag}(1, \ldots, 1, a)$ bằng tích của $\operatorname{diag}(a, 1, \ldots, 1)$ với các ma trận hoán vị, và mọi ma trận $B_{ij}(\lambda)$ đều bằng tích của $B_{12}(\lambda)$ với các ma trận hoán vị, do đó có hệ quả.
 
-#### Nhận xét {#alg-ii-s10-n13-rem-1 .statement}
+#### Nhận xét {#alg-ii-s10-n13-rem-1 .statement tag=05XF}
 
 (1) Trong Chương III, ta sẽ thấy rằng, nếu $m = n = r$ và $K$ là *giao hoán*, thì với mọi cách chọn $P$ và $Q$ thỏa mãn các điều kiện của Mệnh đề 14, phần tử $\delta_r$ luôn luôn như nhau và bằng *định thức* của $X$ (III, § 8, no. 6).
 

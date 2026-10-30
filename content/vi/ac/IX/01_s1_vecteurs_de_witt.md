@@ -45,7 +45,7 @@ subsections:
       pdf_page: 127
 statements: 29
 exercises: 58
-content_sha256: f6ca90e1e5831041eb0a7f4053633aa6f2d9e8b2e14d1519537f9bd72f495efb
+content_sha256: 681c93b84da903f3a20a1c387b678688e5b7b14fea676230a20154860000cf56
 translated_from: content/en-mt/ac/IX/01_s1_vecteurs_de_witt.md
 source_lang: en-mt
 translation_method: machine
@@ -80,7 +80,7 @@ $$
 
 Khi gán cho $X_i$ trọng số $p^i$, đa thức $\Phi_n$ là đẳng trọng của trọng số $p^n$ (A, IV, p. 3).
 
-#### Mệnh đề 1 {#ac-ix-s1-prop-1 .statement}
+#### Mệnh đề 1 {#ac-ix-s1-prop-1 .statement tag=0CTV}
 
 Cho A là một vành lọc và $(\mathbf{J}_n)_{n \in \mathbf{Z}}$ là phép lọc của nó. Giả sử rằng có $\mathbf{J}_0 = \mathbf{A}$ và $p.1_A \in \mathbf{J}_1$. Cho m và n là các số nguyên sao cho $m \geqslant 1$ và $n \geqslant 0$, và cho $a_0, ..., a_n, b_0, ..., b_n$ là các phần tử của A.
 
@@ -91,7 +91,7 @@ $$
 
 b) Giả sử rằng, với mọi số nguyên $k \geqslant 1$, và mọi $x \in \mathbf{A}$, quan hệ $p.x \in \mathbf{J}_{k+1}$ kéo theo $x \in \mathbf{J}_k$. Nếu có $\Phi_i(a_0, ..., a_i) \equiv \Phi_i(b_0, ..., b_i) \mod \mathbf{J}_{m+i}$ với $0 \leqslant i \leqslant n$, thì có $a_i \equiv b_i \mod \mathbf{J}_m$ với $0 \leqslant i \leqslant n$.
 
-#### Bổ đề 1 {#ac-ix-s1-lem-1 .statement}
+#### Bổ đề 1 {#ac-ix-s1-lem-1 .statement tag=0CTW}
 
 Nếu x và y là hai phần tử của A đồng dư modulo $\mathbf{J}_m$, ta có
 $$
@@ -118,7 +118,7 @@ Cho A là một vành. Trang bị $\mathbf{A}^\mathbf{N}$ cấu trúc vành tíc
 
 Với mỗi số nguyên $m \geqslant 0$, ký hiệu bởi $\Phi_m$ ánh xạ từ $\mathbf{A}^{\mathbf{N}}$ vào $\mathbf{A}$ gán $\Phi_m(a_0, ..., a_m)$ với $a = (a_n)_{n \in \mathbf{N}}$. Ta ký hiệu bởi $\Phi_A$, hoặc đơn giản là $\Phi$, ánh xạ $a \mapsto (\Phi_n(a))_{n \in \mathbf{N}}$ từ $\mathbf{A}^{\mathbf{N}}$ vào chính nó.
 
-#### Bổ đề 2 {#ac-ix-s1-lem-2 .statement}
+#### Bổ đề 2 {#ac-ix-s1-lem-2 .statement tag=0CTX}
 
 Cho $\mathbf{A}$ là một vành được trang bị một tự đồng cấu $\sigma$ thỏa mãn $\sigma(a) \equiv a^p \mod. p \cdot \mathbf{A}$ đối với mọi $a \in \mathbf{A}$. Cho $n \geqslant 1$ là một số nguyên và cho $a_0, ..., a_{n-1}$ là các phần tử của $\mathbf{A}$. Đặt $u_i = \Phi_i(a_0, ..., a_i)$ với $0 \leqslant i \leqslant n - 1$. Cho $u_n$ là một phần tử của $\mathbf{A}$. Các điều kiện sau là tương đương:
 
@@ -146,7 +146,7 @@ $$
 
 Bổ đề được suy ra.
 
-#### Mệnh đề 2 {#ac-ix-s1-prop-2 .statement}
+#### Mệnh đề 2 {#ac-ix-s1-prop-2 .statement tag=0CTY}
 
 Cho $\mathbf{A}$ là một vành.
 
@@ -169,7 +169,7 @@ Cho $u = (u_n)_{n \in \mathbf{N}}$ thuộc $\mathbf{A}^{\mathbf{N}}$. Khi $p \cd
 
 Ta chứng minh c). Theo Bổ đề 2, ảnh $\mathbf{A}'$ của $\mathbf{A}^{\mathbf{N}}$ qua $\Phi_A$ là tập hợp các $u = (u_n)_{n \in \mathbf{N}}$ trong $\mathbf{A}^{\mathbf{N}}$ sao cho $\sigma(u_n) \equiv u_{n+1} \mod. p^{n+1} \cdot \mathbf{A}$ với mọi $n \in \mathbf{N}$. Suy ra ngay lập tức rằng $\mathbf{A}'$ là một vành con của $\mathbf{A}^{\mathbf{N}}$, ổn định dưới $f_A$ và $v_A$.
 
-#### Nhận xét {#ac-ix-s1-n2-rem-1 .statement}
+#### Nhận xét {#ac-ix-s1-n2-rem-1 .statement tag=0CTZ}
 
 Cho $a = (a_n)_{n \in \mathbf{N}}$ và $u = (u_n)_{n \in \mathbf{N}}$ là các phần tử của $A^\mathbf{N}$ sao cho $u = \Phi_A(a)$, và cho $m$ là một số nguyên $\geqslant 0$. Từ (10) suy ra các khẳng định sau:
 
@@ -210,7 +210,7 @@ d) Ta có $F_n \in \mathbf{Z}[X_0, ..., X_{n+1}]$ và $F_n$ là đẳng trọng 
 
 Công thức (2) cho phép trong thực tế xác định lần lượt các đa thức $S_n, P_n, I_n$ và $F_n$.
 
-#### Ví dụ 1 {#ac-ix-s1-n3-exa-1 .statement}
+#### Ví dụ 1 {#ac-ix-s1-n3-exa-1 .statement tag=0CU0}
 
 Ta có
 
@@ -223,7 +223,7 @@ $$
 
 Hơn nữa, $S_n - X_n - Y_n$ thuộc về vành $\mathbf{Z}[X_0, ..., X_{n-1}, Y_0, ..., Y_{n-1}]$.
 
-#### Ví dụ 2 {#ac-ix-s1-n3-exa-2 .statement}
+#### Ví dụ 2 {#ac-ix-s1-n3-exa-2 .statement tag=0CU1}
 
 Ta có
 
@@ -234,7 +234,7 @@ $$
 P_1 = p X_1 Y_1 + X_0^p Y_1 + X_1 Y_0^p.
 $$
 
-#### Ví dụ 3 {#ac-ix-s1-n3-exa-3 .statement}
+#### Ví dụ 3 {#ac-ix-s1-n3-exa-3 .statement tag=0CU2}
 
 Khi $p \neq 2$, ta có $I_n = - X_n$. Với $p = 2$, ta có
 
@@ -248,7 +248,7 @@ $$
 I_2 = - X_0^4 - X_0^2 X_1 - X_1^2 - X_2.
 $$
 
-#### Ví dụ 4 {#ac-ix-s1-n3-exa-4 .statement}
+#### Ví dụ 4 {#ac-ix-s1-n3-exa-4 .statement tag=0CU3}
 
 Ta có
 
@@ -261,7 +261,7 @@ $$
 
 Vì ta có $\Phi_n(F_0, ..., F_n) \equiv \Phi_n(X_0^p, ..., X_n^p) \mod. p^{n+1}$. Và với mọi $n \in \mathbf{N}$ (các công thức (2) và (15)), suy ra từ mệnh đề 1, b) rằng ta có $F_n \equiv X_n^p \mod. p$. Và với mọi $n \in \mathbf{N}$.
 
-#### Nhận xét {#ac-ix-s1-n3-rem-1 .statement}
+#### Nhận xét {#ac-ix-s1-n3-rem-1 .statement tag=0CU4}
 
 Cho $J$ là tập hợp các số nguyên $j \geq 1$. Với mỗi phần tử $j$ của $J$, định nghĩa đa thức $\varphi_j$ của $\mathbf{Z}[(X_j)_{j \in J}]$ bởi công thức
 
@@ -333,13 +333,13 @@ $$
 \rho^\mathbf{N} \circ \Phi_B = \Phi_A \circ W(\rho) .
 $$
 
-#### Bổ đề 3 {#ac-ix-s1-lem-3 .statement}
+#### Bổ đề 3 {#ac-ix-s1-lem-3 .statement tag=0CU5}
 
 Cho A là một vành. Tồn tại một đồng cấu toàn ánh của các vành $\rho : B \to A$, trong đó B là một vành thỏa mãn các điều kiện sau: p không là một ước của 0 trong B, và tồn tại một tự đồng cấu $\sigma$ của B sao cho $\sigma(b) \equiv b^p \mod. p.B$ với mọi $b \in B$.
 
 Thật vậy, chỉ cần đặt $B = \mathbf{Z}[(X_a)_{a \in A}]$, lấy $\sigma$ là tự đồng cấu của B được xác định bởi $\sigma(X_a) = X_a^p$ với mọi $a \in A$, và lấy $\rho$ là đồng cấu từ B vào A được xác định bởi $\rho(X_a) = a$ với mọi $a \in A$.
 
-#### Định lý 1 {#ac-ix-s1-thm-1 .statement}
+#### Định lý 1 {#ac-ix-s1-thm-1 .statement tag=0CU6}
 
 a) Cho A là một vành (giao hoán). Được trang bị phép cộng $S_A$ và phép nhân $P_A$, W(A) là một vành (giao hoán). Phần tử đơn vị đối với phép cộng là dãy $0_A$ mà tất cả các số hạng của nó đều bằng không; phần tử đơn vị đối với phép nhân là dãy $1_A$ mà tất cả các số hạng của nó đều bằng không ngoại trừ số hạng có chỉ số 0 bằng $1_A$. Phần tử đối của một phần tử a của W(A) là $I_A(a)$.
 
@@ -353,13 +353,13 @@ Cho $\rho : B \to A$ là một đồng cấu của các vành thỏa mãn các �
 
 Ánh xạ $W(\rho) : W(B) \to W(A)$ là toàn ánh. Theo các công thức (19) và (20), quan hệ tương đương R trên $W(B)$ liên kết với ánh xạ $W(\rho)$ tương thích với cấu trúc vành của $W(B)$. Vì $W(\rho)$ cảm sinh một song ánh $\Psi$ từ vành thương $W(B)/R$ lên $W(A)$, tương thích với các luật của phép cộng và phép nhân, nên mệnh đề $a$ suy ra từ đây bằng phép chuyển cấu trúc.
 
-#### Định nghĩa 1 {#ac-ix-s1-def-1 .statement}
+#### Định nghĩa 1 {#ac-ix-s1-def-1 .statement tag=0CU7}
 
 Cho $A$ là một vành. Vành $W(A)$ được gọi là vành các vectơ Witt với các hệ số trong $A$.
 
 Đối với $a$ trong $W(A)$ và $n$ trong $\mathbf{N}$, phần tử $\Phi_n(a) = \Phi_n(a_0, ..., a_n)$ đôi khi được gọi là thành phần ma của chỉ số $n$ của $a$.
 
-#### Nhận xét {#ac-ix-s1-n4-rem-1 .statement}
+#### Nhận xét {#ac-ix-s1-n4-rem-1 .statement tag=0CU8}
 
 Ta nhắc lại các ký hiệu của nhận xét ở No. 3. Cho $A$ là một vành. Nếu $a$ và $b$ là các phần tử của $A^J$ và $r = (r_j)_{j \in J}$ là một phần tử của $A^J$, ta ký hiệu bởi $r_A(a, b)$ phần tử $(r_j(a, b))_{j \in J}$ của $A^J$. Ta ký hiệu bởi $U(A)$ tập hợp $A^J$ được trang bị các luật hợp thành $s_A$ và $p_A$. Có thể chỉ ra (p. 52, Bài tập 35) rằng, được trang bị phép cộng $s_A$ và phép nhân $p_A$, $U(A)$ là một vành (giao hoán); nó được gọi là vành Witt phổ quát của $A$. Phần tử đơn vị đối với phép cộng là phần tử của $U(A)$ mà mọi thành phần của nó đều bằng không; phần tử đơn vị đối với phép nhân là phần tử của $U(A)$ mà mọi thành phần của nó đều bằng không ngoại trừ thành phần có chỉ số 1 bằng $1_A$; phần tử đối của một phần tử $a$ của $U(A)$ là $i_A(a)$. Ánh xạ $\varphi_A$ là một đồng cấu vành từ $U(A)$ vào vành tích $A^J$.
 
@@ -401,7 +401,7 @@ $$
 $$
 suy ra ngay lập tức từ các định nghĩa.
 
-#### Mệnh đề 3 {#ac-ix-s1-prop-3 .statement}
+#### Mệnh đề 3 {#ac-ix-s1-prop-3 .statement tag=0CU9}
 
 *Cho A là một vành.*
   a) *Ánh xạ $F_A$ là một tự đồng cấu của vành $W(A)$.*
@@ -481,13 +481,13 @@ $$
 
 Điều này chứng minh quan hệ cần chứng minh.
 
-#### Nhận xét {#ac-ix-s1-n5-rem-1 .statement}
+#### Nhận xét {#ac-ix-s1-n5-rem-1 .statement tag=0CUA}
 
 Để biết định nghĩa các ánh xạ tương tự các ánh xạ F và V, trong trường hợp của vành Witt phổ quát, xem các bài tập 36, 37 và 38, p. 52 và các trang tiếp theo.
 
 ### 6. Lọc và tôpô của vành W(A)
 
-#### Bổ đề 4 {#ac-ix-s1-lem-4 .statement}
+#### Bổ đề 4 {#ac-ix-s1-lem-4 .statement tag=0CUB}
 
 Cho A là một vành và m $\geqslant 1$ là một số nguyên. Ta có
 
@@ -535,7 +535,7 @@ Trong phần tiếp theo, ta sẽ trang bị cho $W(A)$ tôpô $\mathscr{T}$ li�
 
 Ký hiệu $\tau_A$ (hoặc đơn giản là $\tau$) là ánh xạ của $A$ vào $W(A)$ liên kết với một phần tử $a$ của $A$ phần tử $(a, 0, 0, ...)$ . Ta có $\Phi_n(\tau(a)) = a^{p^n}$ với mọi $n \in \mathbf{N}$. Với mọi đồng cấu vành $\rho : B \to A$, ta có $W(\rho) \circ \tau_B = \tau_A \circ \rho$.
 
-#### Mệnh đề 4 {#ac-ix-s1-prop-4 .statement}
+#### Mệnh đề 4 {#ac-ix-s1-prop-4 .statement tag=0CUC}
 
 *Cho $a$ và $b$ thuộc $A$ và cho $x = (x_n)_{n \in \mathbf{N}}$ là một phần tử của $W(A)$.*
 
@@ -572,7 +572,7 @@ với mọi số nguyên $m \geq 0$; ta suy ra b) bằng cách chuyển qua gi�
 
 ### 7. Các vành $W_n(A)$ của các vectơ Witt có độ dài hữu hạn
 
-#### Định nghĩa 2 {#ac-ix-s1-def-2 .statement}
+#### Định nghĩa 2 {#ac-ix-s1-def-2 .statement tag=0CUD}
 
 Cho $A$ là một vành và cho $n \geq 1$ là một số nguyên. Ta ký hiệu bởi $W_n(A)$ vành thương $W(A)/V_n(A)$.
 
@@ -614,11 +614,11 @@ với $[a_0, ..., a_{m-1}]$ trong $W_m(A)$. Họ $(W_n(A), \pi_{n,m})$ là một
 
 Kể từ nay, các đồng cấu $\pi_n$ và $\pi_{n,m}$ sẽ được gọi là *các đồng cấu phép chiếu* từ $W(A)$ vào $W_n(A)$, và từ $W_m(A)$ vào $W_n(A)$ tương ứng.
 
-#### Ví dụ 1 {#ac-ix-s1-n7-exa-1 .statement}
+#### Ví dụ 1 {#ac-ix-s1-n7-exa-1 .statement tag=0CUE}
 
 Đồng cấu $\Phi_0 : W_1(A) \to A$ là một đẳng cấu.
 
-#### Ví dụ 2 {#ac-ix-s1-n7-exa-2 .statement}
+#### Ví dụ 2 {#ac-ix-s1-n7-exa-2 .statement tag=0CUF}
 
 Ta hãy mô tả tường minh các phép toán trong $W_2(A)$. Ta có
 
@@ -632,7 +632,7 @@ $$
 
 với $[a_0, a_1]$ và $[b_0, b_1]$ trong $W_2(A)$. Các thành phần ma của $[a_0, a_1]$ là $a_0$ và $a_0^p + p \cdot a_1$.
 
-#### Ví dụ 3 {#ac-ix-s1-n7-exa-3 .statement}
+#### Ví dụ 3 {#ac-ix-s1-n7-exa-3 .statement tag=0CUG}
 
 Cho $n \geq 1$ là một số nguyên. Nếu $a_0, ..., a_{n-1}, b_0, ..., b_{n-1}$ là các số nguyên sao cho $a_i \equiv b_i \bmod p$ với $0 \leq i < n$, ta có (No. 1, Mệnh đề 1)
 
@@ -706,7 +706,7 @@ Cho $a \in W_m(A)$, $a' \in W_m(A)$ và $b \in W_{m+1}(A)$. Các công thức sa
 
 ### 8. Vành các vectơ Witt với hệ số trong một vành có đặc số $p$
 
-#### Mệnh đề 5 {#ac-ix-s1-prop-5 .statement}
+#### Mệnh đề 5 {#ac-ix-s1-prop-5 .statement tag=0CUH}
 
 Cho $A$ là một vành có đặc số $p$ (A, V, p. 2). Với mọi phần tử $a$ và $b$ của $W(A)$, và các số nguyên dương $m, n$, ta có, nếu $a = (a_n)_{n \in \mathbf{N}}$,
 
@@ -742,7 +742,7 @@ $$
 
 Công thức (53) khi đó suy ra từ (54) và (55) và từ quan hệ $F^m \circ V^n = V^n \circ F^m$, bản thân nó là một hệ quả của (51).
 
-#### Hệ quả {#ac-ix-s1-n8-cor-1 .statement}
+#### Hệ quả {#ac-ix-s1-n8-cor-1 .statement tag=0CUI}
 
 Nếu $m$ và $n$ là hai số nguyên dương, ta có
 
@@ -752,7 +752,7 @@ $$
 
 Điều này suy ra từ công thức (53), vì $V_m(A)$ là ảnh của $V^m : W(A) \to W(A)$.
 
-#### Mệnh đề 6 {#ac-ix-s1-prop-6 .statement}
+#### Mệnh đề 6 {#ac-ix-s1-prop-6 .statement tag=0CUJ}
 
 Cho $A$ là một vành.
 
@@ -772,7 +772,7 @@ ta suy ra từ a) các bao hàm $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.W(A
 
 Cho $k$ là một số nguyên $\geqslant 1$. Theo công thức (52), iđêan $p^k.W(A)$ của $W(A)$ là tập hợp các phần tử $a = (a_n)_{n \in \mathbf{N}}$ của $W(A)$ sao cho có $a_n = 0$ với $n < k$ và $a_n \in A^{p^k}$ với $n \geqslant k$. Do đó nó là đóng đối với tôpô $\mathscr{G}$. Vì $W(A)$ là tách được và đầy đủ đối với tôpô $\mathscr{G}$ (no 6) và vì các iđêan $p^k.W(A)$ của $W(A)$, với $k \geqslant 1$, tạo thành một cơ sở các lân cận của $0$ trong $W(A)$ đối với tôpô $p$-adic, nên vành $W(A)$ là tách được và đầy đủ đối với tôpô $p$-adic (TG, III, p. 26, hệ quả 1 của mệnh đề 10).
 
-#### Mệnh đề 7 {#ac-ix-s1-prop-7 .statement}
+#### Mệnh đề 7 {#ac-ix-s1-prop-7 .statement tag=0CUK}
 
 *Cho A là một vành hoàn hảo có đặc số p.*
 
@@ -796,7 +796,7 @@ $$
 
 và mệnh đề a) suy ra từ mệnh đề 4 của no 6.
 
-#### Mệnh đề 8 {#ac-ix-s1-prop-8 .statement}
+#### Mệnh đề 8 {#ac-ix-s1-prop-8 .statement tag=0CUL}
 
 *Cho A là một trường có đặc số p. Vành $W(A)$ là một vành địa phương nguyên, tách được và đầy đủ, với iđêan cực đại $V_1(A)$ và trường thặng dư đẳng cấu với A. Nếu trường A là hoàn hảo, vành $W(A)$ là một vành định giá rời rạc, và iđêan cực đại của nó là $p.W(A)$.*
 
@@ -806,11 +806,11 @@ Cho $a$ và $b$ là hai phần tử khác không của $W(A)$. Tồn tại các 
 
 Nếu trường $A$ là hoàn hảo, iđêan cực đại $V_1(A)$ của $W(A)$ bằng $p.W(A)$ (Prop. 7, b)) và do đó W(A) là một vành định giá rời rạc (VI, § 3, No. 6, Prop. 9, c)).
 
-#### Nhận xét 1 {#ac-ix-s1-n8-rem-1 .statement}
+#### Nhận xét 1 {#ac-ix-s1-n8-rem-1 .statement tag=0CUM}
 
 Cho A là một trường có đặc số p. Bây giờ có thể chứng minh rằng vành W(A) là Noether khi và chỉ khi A là hoàn hảo (p. 43, Bài tập 9).
 
-#### Nhận xét 2 {#ac-ix-s1-n8-rem-2 .statement}
+#### Nhận xét 2 {#ac-ix-s1-n8-rem-2 .statement tag=0CUN}
 
 Cho A là một vành có đặc số p. Theo Prop. 5, ta có các công thức
 

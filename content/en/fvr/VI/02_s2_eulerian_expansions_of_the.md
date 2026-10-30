@@ -25,7 +25,7 @@ subsections:
       pdf_page: 302
 statements: 5
 exercises: 13
-content_sha256: a4ab00fd8982c423f1b9d167f8dd4fe22c4f8e55abfd12288dee2b85f56bdd60
+content_sha256: 3c79b30ff58a4995c02b9783d2b22927cb3d4728ceeaf6e2ab3524761187a1a8
 ---
 
 ## § 2. EULERIAN EXPANSIONS OF THE TRIGONOMETRIC FUNCTIONS AND BERNOULLI NUMBERS
@@ -42,7 +42,7 @@ $$ (1)
 
 We shall obtain below a series expansion for $\cot z$, valid for every $z$ not an integer multiple of $\pi$.
 
-#### Proposition 1 {#fvr-vi-s2-prop-1 .statement}
+#### Proposition 1 {#fvr-vi-s2-prop-1 .statement tag=08IC}
 
 *For every complex number* $z$ *and every integer* $n$ *one has*
 
@@ -63,7 +63,7 @@ $$
 A = (2i)^{n-1} e^{-\frac{i\pi}{n}(1+2+\ldots+(n-1))} = (2i)^{n-1} e^{-i(n-1)\frac{\pi}{2}} = 2^{n-1}.
 $$
 
-#### Corollary 1 {#fvr-vi-s2-prop-1-cor-1 .statement}
+#### Corollary 1 {#fvr-vi-s2-prop-1-cor-1 .statement tag=08ID}
 
 *For every integer n one has*
 $$
@@ -73,7 +73,7 @@ $$
 
 It suffices to divide both sides of (2) by $\sin z$ and let $z$ tend to 0.
 
-#### Corollary 2 {#fvr-vi-s2-prop-1-cor-2 .statement}
+#### Corollary 2 {#fvr-vi-s2-prop-1-cor-2 .statement tag=08IE}
 
 *For every odd integer $n = 2m + 1$, and every complex number $z$ such that $nz$ is not an integral multiple of $\pi$, one has*
 $$
@@ -137,7 +137,7 @@ $$
 
 for $1 \leq k \leq m$. We shall see that for every $z$ contained in a compact subset K of $\mathbf{C}$, not containing any integral multiple of $\pi$, and for every sufficiently large odd $n$, the series with general term $v_k(n, z)$ is normally convergent. Indeed, as $n$ tends to $+\infty$, $\tan \frac{z}{n}$ tends to $\frac{z}{n}$ uniformly on K, so there exists a number $M > 0$ such that $\left| n \tan \frac{z}{n} \right| \leq M$ for every sufficiently large $m$ and every $z \in K$. On the other hand, for $0 \leq x \leq \pi/2$ one has $\sin x / x \geq 1 - \frac{x^2}{6} \geq \frac{1}{2}$, so for $1 \leq k \leq m$ one has $n \sin \frac{k\pi}{n} \geq k\pi/2$; consequently, when $m$ is sufficiently large, for every integer $k$ such that $k\pi /2 > M$ one has $|v_k(n, z)| \leq \frac{8M}{k^2 \pi^2 - 4M^2}$, which proves our assertion. For $k$ odd, $v_k(n, z)$ tends (uniformly on K) to $\frac{2z}{z^2 - k^2 \pi^2}$ as $n$ tends to $+\infty$. Consequently:
 
-#### Theorem 1 {#fvr-vi-s2-thm-1 .statement}
+#### Theorem 1 {#fvr-vi-s2-thm-1 .statement tag=08IF}
 
 *For every complex number $z$ not an integral multiple of $\pi$ one has*
 
@@ -166,7 +166,7 @@ $$
 
 We can write this formula as $\sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} (1 - w_k(n, z))$, with $w_k(n, z) = 0$ if $k > m$ and $w_k(n, z) = \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}}$ for $1 \leq k \leq m$. We shall see that for every $z$ contained in a compact subset $K$ of $\mathbf{C}$, and for $n$ odd, the series with general term $w_k(n, z)$ is *normally convergent*. Indeed, as $n$ tends to $+\infty$, $n \sin \frac{z}{n}$ tends uniformly to $z$ on $K$, so there exists a number $M > 0$ such that $\left| n \sin \frac{z}{n} \right| \leq M$ for every integer $n$ and every $z \in K$. We saw, moreover, in the proof of th. 1 of VI, p. 286, that for $1 \leq k \leq m$ one has $n \sin \frac{k \pi}{n} \geq \frac{k \pi}{2}$; thus for every integer $k$ such that $k \pi / 2 \geq M$ one has $|w_k(n, z)| \leq 4M^2 / k^2 \pi^2$, which proves our assertion. Since, for every fixed $k$, $w_k(n, z)$ tends (uniformly on K) to $z^2 / k^2 \pi^2$ as $n$ tends to $+\infty$, one sees that:
 
-#### Theorem 2 {#fvr-vi-s2-thm-2 .statement}
+#### Theorem 2 {#fvr-vi-s2-thm-2 .statement tag=08IG}
 
 For every complex number $z$ one has
 

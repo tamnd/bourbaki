@@ -29,7 +29,7 @@ subsections:
       pdf_page: 239
 statements: 9
 exercises: 11
-content_sha256: d3692499aca0610a6b558828919cea9b0266b4bc55b68d1ccd293c97f3f470dc
+content_sha256: 6ccf44fd9c0220b9a87a046fcff478e0fb255a7356781ab2a8dff08335648436
 ---
 
 ## § 4. APPLICATION AUX SÉRIES À TERMES POSITIFS
@@ -42,11 +42,11 @@ On a vu (II, p. 14, Exemple 3) qu’à toute suite $(u_n)_{n \geqslant 1}$ de po
 
 Soient $(u_n)$ et $(v_n)$ deux séries à termes positifs, $u$ et $v$ les fonctions en escalier associées: la relation $u_n \leqslant v_n$ pour $n \geqslant n_0$ équivaut à $u(x) \leqslant v(x)$ pour $x \geqslant n_0$. Par suite, chacune des relations $u_n \ll v_n$, $u_n \ll v_n$, $u_n \sim v_n$ est respectivement équivalente à $u(x) \ll v(x)$, $u(x) \ll v(x)$, $u(x) \sim v(x)$; cette remarque permet de traduire comme suit les propositions 1 (V, p. 18) et 6 (V, p. 20):
 
-#### Proposition 1 {#fvr-v-s4-prop-1 .statement}
+#### Proposition 1 {#fvr-v-s4-prop-1 .statement tag=08FZ}
 
 Soient $(u_n)$ et $(v_n)$ deux séries à termes positifs. Si $u_n \ll v_n$, et si la série $(v_n)$ est convergente, la série $(u_n)$ est convergente; si $u_n \gg v_n$ et si $\sum_{n=1}^\infty v_n = +\infty$, on a $\sum_{n=1}^\infty u_n = +\infty$.
 
-#### Proposition 2 {#fvr-v-s4-prop-2 .statement}
+#### Proposition 2 {#fvr-v-s4-prop-2 .statement tag=08G0}
 
 Soient $(u_n)$ et $(v_n)$ deux séries à termes positifs:
 1° Si la série $(v_n)$ est convergente, la relation $u_n \ll v_n$ (resp. $u_n \sim v_n$) entraîne $\sum_{p=n}^\infty u_p \ll \sum_{p=n}^\infty v_p$ (resp. $\sum_{p=n}^\infty u_p \sim \sum_{p=n}^\infty v_p$).
@@ -54,7 +54,7 @@ Soient $(u_n)$ et $(v_n)$ deux séries à termes positifs:
 
 On obtient des critères commodes de convergence en prenant pour série de comparaison $(v_n)$ dans la prop. 1 une série dont les termes sont de la forme $v_n = f(n)$, où $f$ est une fonction $\geqslant 0$, définie pour tout nombre réel $x > x_0$ et décroissante dans l’intervalle $[x_0, +\infty[$; en effet:
 
-#### Proposition 3 (critère de Cauchy-Maclaurin) {#fvr-v-s4-prop-3 .statement}
+#### Proposition 3 (critère de Cauchy-Maclaurin) {#fvr-v-s4-prop-3 .statement tag=08G1}
 
 Si $f$ est une fonction $\geqslant 0$ et décroissante dans $[x_0, +\infty[$, pour que la série de terme général $v_n = f(n)$ soit convergente, il faut et il suffit que l’intégrale $\int_{x_0}^{+\infty} f(t)\,dt$ soit convergente.
 
@@ -62,11 +62,11 @@ Il suffit pour le voir de remarquer que si $v$ est la fonction en escalier assoc
 
 Comme les fonctions qui figurent dans les critères logarithmiques de convergence des intégrales (V, p. 19–20, prop. 2, 3 et 4) sont décroissantes dans un intervalle $[x_0, +\infty[$, l’application des prop. 1 et 3 de V, p. 27, donne les critères suivants:
 
-#### Proposition 4 (critère logarithmique d’ordre 0) {#fvr-v-s4-prop-4 .statement}
+#### Proposition 4 (critère logarithmique d’ordre 0) {#fvr-v-s4-prop-4 .statement tag=08G2}
 
 Soit $(u_n)$ une série à termes positifs; si $u_n \leq n^\mu$ pour un $\mu < -1$, la série $(u_n)$ est convergente; si $u_n \geq n^\mu$ pour un $\mu \geq -1$, la série $(u_n)$ a une somme infinie.
 
-#### Proposition 5 (critère logarithmique d’ordre $p$) {#fvr-v-s4-prop-5 .statement}
+#### Proposition 5 (critère logarithmique d’ordre $p$) {#fvr-v-s4-prop-5 .statement tag=08G3}
 
 Soit $(u_n)$ une série à termes positifs. Si $u_n \leq \frac{1}{n.l_1(n).l_2(n)\ldots l_{p-1}(n)\,(l_p(n))^\mu}$ pour un $\mu > 1$, la série $(u_n)$ est convergente; si $u_n \geq \frac{1}{n.l_1(n)\ldots l_{p-1}(n)\,(l_p(n))^\mu}$ pour un $\mu \leq 1$, la série $(u_n)$ a une somme infinie.
 
@@ -114,7 +114,7 @@ $$
 
 On est ainsi ramené au cas particulier des séries $(g(n))$ où $g \in \mathscr{E}$. Nous allons voir comment, moyennant certaines conditions, on peut tout d’abord obtenir une partie principale de $s_n = \sum_{m=1}^{n} g(m)$ (lorsque $\sum_{n=1}^{\infty} g(n) = +\infty$) ou de $r_n = \sum_{m=n+1}^{\infty} g(m)$ (lorsque $\sum_{n=1}^{\infty} g(n) < +\infty$).
 
-#### Proposition 6 {#fvr-v-s4-prop-6 .statement}
+#### Proposition 6 {#fvr-v-s4-prop-6 .statement tag=08G4}
 
 *Soit g une fonction numérique > 0 et monotone définie dans un intervalle $[x_0, +\infty[$ (où $x_0 \leq 1$), et telle que log g et x soient comparables d’ordre 1.*
 
@@ -177,7 +177,7 @@ s_n = g(n) + g(n-1) + \cdots + g(n-p) + o(g(n-p))
 $$
 et il suffira de développer (relativement à $e^x$) chacune des fonctions $g(n-k)$ ($0 \leq k \leq p$) en limitant la précision de ces développements à la partie principale de $g(n-p)$, pour avoir un développement de $s_n$.
 
-#### Exemple {#fvr-v-s4-n2-exa-1 .statement}
+#### Exemple {#fvr-v-s4-n2-exa-1 .statement tag=08G5}
 
 Soit $g(x) = x^x = \exp(x \log x)$, d’ordre $+\infty$ par rapport à $e^x$. En prenant $p = 2$, on a
 $$
@@ -207,7 +207,7 @@ où $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_{n-1}^n g(t) \, dt \ll g(n)$ 
 
 De proche en proche, on peut obtenir ainsi éventuellement une expression de $s_n$ sous forme de la somme d’un certain nombre de primitives, dont chacune est négligeable devant la précédente, d’un terme restant négligeable devant la dernière primitive écrite, et éventuellement d’une constante (cas où le terme restant tend vers 0). Il reste ensuite à développer chacune des primitives obtenues relativement à $\mathscr{E}'$ (cf. V, p. 25).
 
-#### Exemple {#fvr-v-s4-n2-exa-2 .statement}
+#### Exemple {#fvr-v-s4-n2-exa-2 .statement tag=08G6}
 
 Soit $g(n) = \frac{1}{n}$; on a
 $$
@@ -246,7 +246,7 @@ donc, pour que le produit de facteur général $1 + u_n$ soit commutativement co
 
 La relation entre produits infinis et séries de nombres réels permet parfois d’obtenir un développement asymptotique du produit partiel $p_n = \prod_{k=1}^n (1 + u_k)$; il suffit d’avoir un développement asymptotique de la somme partielle $s_n = \sum_{k=1}^n \log (1 + u_k)$, puis de développer $p_n = \exp(s_n)$; on est donc ramené à deux problèmes examinés antérieurement (V, p. 28, et p. 16).
 
-#### Exemple {#fvr-v-s4-n3-exa-1 .statement}
+#### Exemple {#fvr-v-s4-n3-exa-1 .statement tag=08G7}
 
 formule de Stirling. — Cherchons un développement asymptotique de $n!$; on est ramené à développer $s_n = \sum_{p=1}^n \log p$, puis $\exp(s_n)$. La méthode du no 2 donne successivement
 $$
@@ -289,7 +289,7 @@ pour tout nombre réel $a$ distinct d’un entier $> 0$, $\varphi(a)$ étant une
 
 On rencontre assez souvent des séries $(u_n)$, pour lesquelles $u_n > 0$ à partir d’un certain rang, et $u_{n+1}/u_n$ a un développement asymptotique facile à déterminer. Il est commode, pour de telles séries, d’avoir des critères (dits *critères de seconde espèce*) permettant de déterminer si la série est convergente d’après le seul aspect de $u_{n+1}/u_n$. Un tel critère est le suivant:
 
-#### Proposition 7 (critère de Raabe) {#fvr-v-s4-prop-7 .statement}
+#### Proposition 7 (critère de Raabe) {#fvr-v-s4-prop-7 .statement tag=08G8}
 
 *Soit* $(u_n)$ *une série à termes* $> 0$ *à partir d’un certain rang. Si, à partir d’un certain rang,*
 $$ u_{n+1}/u_n \leq 1 - \frac{\alpha}{n} \text{ pour un } \alpha > 1,$$
@@ -303,7 +303,7 @@ Si au contraire $u_{n+1}/u_n \geq 1 - \frac{1}{n}$ à partir d’un certain rang
 
 On démontrerait de la même manière, en utilisant les critères logarithmiques d’ordre $> 0$, le critère de seconde espèce suivant:
 
-#### Proposition 8 {#fvr-v-s4-prop-8 .statement}
+#### Proposition 8 {#fvr-v-s4-prop-8 .statement tag=08G9}
 
 Soit $(u_n)$ une série à termes $> 0$ à partir d’un certain rang. Si, à partir d’un certain rang, on a
 $$
@@ -318,7 +318,7 @@ $$
 $$
 la série $(u_n)$ a une somme infinie.
 
-#### Exemple {#fvr-v-s4-n4-exa-1 .statement}
+#### Exemple {#fvr-v-s4-n4-exa-1 .statement tag=08GA}
 
 Considérons la série hypergéométrique, de terme général
 $$
@@ -334,11 +334,11 @@ $$
 
 Le critère de Raabe montre donc que la série est convergente pour $\alpha + \beta < \gamma$, et a une somme infinie pour $\alpha + \beta > \gamma$ ; lorsque $\alpha + \beta = \gamma$, la série a encore une somme infinie, comme le montre la prop. 8.
 
-#### Remarque 1 {#fvr-v-s4-n4-rem-1 .statement}
+#### Remarque 1 {#fvr-v-s4-n4-rem-1 .statement tag=08GB}
 
 Comme cas particulier du critère de Raabe, on voit que si $\limsup_{n \to \infty} u_{n+1}/u_n < 1$, la série $(u_n)$ est convergente ; si au contraire $\liminf_{n \to \infty} u_{n+1}/u_n > 1$, la série a une somme infinie (critère de d’Alembert).
 
-#### Remarque 2 {#fvr-v-s4-n4-rem-2 .statement}
+#### Remarque 2 {#fvr-v-s4-n4-rem-2 .statement tag=08GC}
 
 Les critères de seconde espèce ne peuvent s’appliquer qu’à des séries dont le terme général se comporte de façon très régulière lorsque $n$ tend vers $+\infty$ ; autrement dit, leur champ d’application est bien plus restreint que celui des critères logarithmiques, et ce serait une maladresse que de vouloir les utiliser en dehors des cas spéciaux auxquels ils sont particulièrement adaptés. Par exemple, pour la série $(u_n)$ définie par $u_{2m} = 2^{-m}$, $u_{2m+1} = 3^{-m}$, on a $u_{2m+1}/u_{2m} = (\frac{3}{2})^m$, $u_{2m+2}/u_{2m+1} = \frac{1}{2}(\frac{3}{2})^m$ ; le premier de ces rapports tend vers 0 et le second vers $+\infty$ lorsque $m$ croît indéfiniment, donc aucun critère de seconde espèce n’est applicable ; cependant, comme $u_n \leq 2^{-n/2}$, il est immédiat que la série est convergente.
 

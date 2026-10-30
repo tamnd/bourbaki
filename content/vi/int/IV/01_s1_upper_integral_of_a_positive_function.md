@@ -28,9 +28,9 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: 0e24cfa99e632f85691b1f6f1e30d7b92bd5c00f8d6a7160074e98f5728d37a3
+content_sha256: 341df1e1f1a2136e9460fce66df47f89b7209d7f8934b83dabf60b6e30d3a9f1
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
-source_content_sha256: 33c34b08425c4858837ea23c60cb0cbddeb27a95602cf279ab92c1b26cc06a8b
+source_content_sha256: faecbc2539033964cc900d67680366e3bd2e09f8e66d8294cd0ca0a84e783552
 translation_model: gpt-5.4
 translation_run: translate-vi-cbe59f39
 glossary_version: 34
@@ -46,7 +46,7 @@ Cho X là một không gian compact địa phương, $\mu$ một độ đo dươ
 
 Ta ký hiệu bởi $\mathscr{I}_+(X)$ (hoặc đơn giản là $\mathscr{I}_+$) tập hợp các hàm số trên X, hữu hạn hoặc không, dương và nửa liên tục dưới trên X.\footnote{1} Nhắc lại rằng tổng của một họ bất kỳ các hàm thuộc $\mathscr{I}_+$ thuộc $\mathscr{I}_+$; tích của một hàm thuộc $\mathscr{I}_+$ với một số hữu hạn $\alpha > 0$ thuộc $\mathscr{I}_+$; bao trên của *mọi* họ hàm thuộc $\mathscr{I}_+$ và bao dưới của một họ *hữu hạn* các hàm thuộc $\mathscr{I}_+$ cũng thuộc $\mathscr{I}_+$ (GT, IV, §6, No. 2, Mệnh đề 2 và Định lý 4). Ta cũng sẽ dùng bổ đề sau:
 
-#### Bổ đề {#int-iv-s1-n1-lem-1 .statement}
+#### Bổ đề {#int-iv-s1-n1-lem-1 .statement tag=08P2}
 
 — *Mọi hàm* $f \in \mathscr{I}_+$ *đều là bao trên của tập hợp* (có hướng đối với quan hệ $\leq$) *của mọi hàm* $g \in \mathscr{K}_+$ *sao cho* $g \leq f$.
 
@@ -56,7 +56,7 @@ Với mọi $x \in X$ sao cho $f(x) > 0$, và với mọi số thực $a$ sao ch
 
 trên V (GT, IX, §1, No. 5, Định lý 2); do đó $0 \leq g \leq f$ và $g(x) \geq a$, điều này chứng minh bổ đề.
 
-#### Định nghĩa 1 {#int-iv-s1-def-1 .statement}
+#### Định nghĩa 1 {#int-iv-s1-def-1 .statement tag=08P3}
 
 *Cho một độ đo dương $\mu$ trên $X$, người ta gọi tích phân trên của một hàm $f \in \mathscr{J}_+$ (đối với $\mu$) là số dương (hữu hạn hoặc bằng $+\infty$)*
 
@@ -66,7 +66,7 @@ $$
 
 Đối với mọi hàm $f \in \mathscr{H}_+$, rõ ràng là $\mu^*(f) = \mu(f)$, nói cách khác $\mu^*$ là một *mở rộng* của $\mu$ lên $\mathscr{J}_+$.
 
-#### Ví dụ {#int-iv-s1-n1-exa-1 .statement}
+#### Ví dụ {#int-iv-s1-n1-exa-1 .statement tag=08P4}
 
 — Cho $X$ là một không gian *rời rạc*, $\mu$ là một độ đo dương trên $X$, và đặt $\alpha(x) = \mu(\varphi_{\{x\}})$ với mọi $x \in X$. Khi đó mọi hàm số trị số $f$ xác định trên $X$ đều liên tục; đối với một hàm như vậy thỏa $f \geq 0$, ta có $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$, trong đó ta quy ước đặt $\alpha(x)f(x) = 0$ mỗi khi $\alpha(x) = 0$ và $f(x) = +\infty$. Thật vậy,
 $$
@@ -74,19 +74,19 @@ $$
 $$
 trong đó $M$ chạy qua tập hợp tất cả các tập con hữu hạn của $X$. Nếu tồn tại một $x_0 \in X$ sao cho $f(x_0) = +\infty$ và $\alpha(x_0) > 0$, thì $\sum_{x \in M} \alpha(x)f(x) = +\infty$ mỗi khi $x_0 \in M$, và mặt khác $f \geq n \cdot \varphi_{\{x_0\}}$ với mọi số nguyên $n > 0$, do đó $\mu^*(f) \geq n \alpha(x_0)$ và vì thế $\mu^*(f) = +\infty$. Nếu ngược lại, $\alpha(x) = 0$ tại mọi điểm mà ở đó $f(x) = +\infty$, thì hàm $g$ bằng $f$ tại các điểm $x \in M$ mà $\alpha(x) > 0$ và bằng 0 ở nơi khác thuộc $\mathscr{H}_+$, và do đó, theo các quy ước đã đặt ra, $\mu(g) = \sum_{x \in M} \alpha(x)f(x)$, điều này lại chứng minh quan hệ $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$.
 
-#### Mệnh đề 1 {#int-iv-s1-prop-1 .statement}
+#### Mệnh đề 1 {#int-iv-s1-prop-1 .statement tag=08P5}
 
 *Với mọi số thực hữu hạn $\alpha > 0$ và mọi hàm $f \in \mathscr{J}_+$,*
 $$
 \mu^*(\alpha f) = \alpha \mu^*(f).
 $$
 
-#### Mệnh đề 2 {#int-iv-s1-prop-2 .statement}
+#### Mệnh đề 2 {#int-iv-s1-prop-2 .statement tag=08P6}
 
 *Trên tập hợp $\mathscr{J}_+$, hàm $\mu^*$ là tăng.*
 Các chứng minh suy ra ngay lập tức từ Định nghĩa 1.
 
-#### Định lý 1 {#int-iv-s1-thm-1 .statement}
+#### Định lý 1 {#int-iv-s1-thm-1 .statement tag=08P7}
 
 *Cho $H$ là một tập hợp khác rỗng các hàm trong $\mathscr{J}_+$, có hướng đối với quan hệ $\leq$. Với mọi độ đo dương $\mu$ trên $X$,*
 $$
@@ -109,7 +109,7 @@ $$
 
 từ đó suy ra ngay rằng $\mu(\psi) \leq \sup_{g \in \mathbf{H}} \mu^*(g)$. Như vậy ta đã chứng minh rằng $\mu^*(f) = \sup_{g \in \mathbf{H}} \mu^*(g)$; quan hệ $\mu^*(f) = \lim_{g \in \mathbf{H}} \mu^*(g)$ khi đó là một hệ quả của định lý giới hạn đơn điệu (GT, IV, §5, No. 2, Th. 2).
 
-#### Định lý 2 {#int-iv-s1-thm-2 .statement}
+#### Định lý 2 {#int-iv-s1-thm-2 .statement tag=08P8}
 
 *Nếu $f_1$ và $f_2$ là hai hàm thuộc $\mathscr{I}_+$ thì*
 
@@ -131,7 +131,7 @@ $$
 
 (GT, IV, §5, No. 7, Hệ quả 2 của Mệnh đề 12), nên định lý được chứng minh.
 
-#### Mệnh đề 3 {#int-iv-s1-prop-3 .statement}
+#### Mệnh đề 3 {#int-iv-s1-prop-3 .statement tag=08P9}
 
 — *Với mọi họ* $(f_\iota)_{\iota \in I}$ *các hàm trong* $J_+$,
 
@@ -141,7 +141,7 @@ $$
 
 Với mọi tập con hữu hạn $J$ của $I$, suy ra từ Định lý 2 (bằng quy nạp theo số phần tử của $J$) rằng $\mu^*\left( \sum_{\iota \in J} f_\iota \right) = \sum_{\iota \in J} \mu^*(f_\iota)$; khi $J$ chạy qua tập hợp các tập con hữu hạn của $I$, các hàm $g_J = \sum_{\iota \in J} f_\iota$ thuộc $J_+$ và tạo thành một tập có hướng đối với quan hệ $\leq$, mà bao trên của nó là hàm $\sum_{\iota \in I} f_\iota$; do đó mệnh đề được suy ra từ Định lý 1.
 
-#### Mệnh đề 4 {#int-iv-s1-prop-4 .statement}
+#### Mệnh đề 4 {#int-iv-s1-prop-4 .statement tag=08PA}
 
 — *Cho* $f$ *là một hàm trong* $J_+$. *Ánh xạ* $\mu \mapsto \mu^*(f)$ *của tập hợp* $\mathscr{M}_+(X)$ *các độ đo dương trên* $X$, *vào đường thẳng thực mở rộng* $\overline{\mathbf{R}}$, *là nửa liên tục dưới đối với tôpô mơ hồ trên* $\mathscr{M}_+(X)$ *(Ch. III, §1, No. 9)*.
 
@@ -151,13 +151,13 @@ Thật vậy, ánh xạ này theo định nghĩa là bao trên của các ánh x
 
 Cho một tập hợp *mở* $G \subset X$, hàm đặc số $\varphi_G$ của nó là *nửa liên tục dưới* trên $X$ (GT, IV, §6, No. 2, Hệ quả của Mệnh đề 1). Vì vậy ta có thể đưa ra định nghĩa sau:
 
-#### Định nghĩa 2 {#int-iv-s1-def-2 .statement}
+#### Định nghĩa 2 {#int-iv-s1-def-2 .statement tag=08PB}
 
 — *Cho một độ đo dương* $\mu$ *trên* $X$, *với mọi tập hợp mở* $G \subset X$ *tích phân trên* $\mu^*(\varphi_G)$ *được gọi là độ đo ngoài của* $G$ *và được ký hiệu là* $\mu^*(G)$.
 
 Do đó độ đo ngoài của một tập hợp mở $G$ là một số $\geq 0$, hữu hạn hoặc bằng $+\infty$. Rõ ràng $\mu^*(\varnothing) = 0$. Hơn nữa, $\mu^*(X) = \| \mu \|,$ như được chỉ ra bởi công thức (22) của Ch. III, §1, No. 8.
 
-#### Mệnh đề 5 {#int-iv-s1-prop-5 .statement}
+#### Mệnh đề 5 {#int-iv-s1-prop-5 .statement tag=08PC}
 
 — *Độ đo ngoài của một tập hợp mở compact tương đối* $G$ *là hữu hạn*.
 
@@ -169,12 +169,12 @@ $$
 
 Một tập hợp mở có ngoại độ đo hữu hạn không phải lúc nào cũng là tương đối compắc (Bài tập 3).
 
-#### Mệnh đề 6 {#int-iv-s1-prop-6 .statement}
+#### Mệnh đề 6 {#int-iv-s1-prop-6 .statement tag=08PD}
 
 — *Nếu* G₁ và G₂ *là hai tập hợp mở sao cho* G₁ ⊂ G₂, *thì* μ*(G₁) ≤ μ*(G₂).
 Thật vậy, quan hệ G₁ ⊂ G₂ tương đương với φG₁ ≤ φG₂.
 
-#### Mệnh đề 7 {#int-iv-s1-prop-7 .statement}
+#### Mệnh đề 7 {#int-iv-s1-prop-7 .statement tag=08PE}
 
 — *Cho* $\mathfrak{B}$ *là một tập hợp các tập con mở của* X *có hướng đối với quan hệ* ⊂; *khi đó*
 
@@ -184,7 +184,7 @@ $$
 
 Các hàm φ_G lập thành một tập có hướng (đối với ≤) trong $\mathscr{I}_+$ và bao trên của chúng là hàm đặc số của hợp các tập hợp G ∈ $\mathfrak{B}$; vì vậy mệnh đề là một hệ quả của Định lý 1.
 
-#### Mệnh đề 8 {#int-iv-s1-prop-8 .statement}
+#### Mệnh đề 8 {#int-iv-s1-prop-8 .statement tag=08PF}
 
 — *Cho* (G_ι)_{ι \in I} *là một họ bất kỳ các tập hợp mở; khi đó*
 
@@ -200,7 +200,7 @@ $$
 
 Thật vậy, nếu G = $\bigcup_{\iota \in I} G_\iota$ thì φ_G = sup_{ι \in I} φ_{G_ι} ≤ $\sum_{\iota \in I} \varphi_{G_\iota}$; khi các G_ι rời nhau từng đôi một, φ_G = $\sum_{\iota \in I} \varphi_{G_\iota}$; do đó mệnh đề là một hệ quả của các Mệnh đề 2 và 3.
 
-#### Ví dụ {#int-iv-s1-n2-exa-1 .statement}
+#### Ví dụ {#int-iv-s1-n2-exa-1 .statement tag=08PG}
 
 — Cho X = \mathbf{R} và cho μ là độ đo Lebesgue trên \mathbf{R} (Ch. III, §1, No. 3); chúng ta sẽ xác định ngoại độ đo của một *khoảng mở* G = ]a, b[ (−∞ ≤ a < b ≤ +∞). Trước hết giả sử rằng a và b là hữu hạn. Với mọi hàm f trong $\mathscr{K}_+$ sao cho f ≤ φ_G, ta có, theo định lý giá trị trung bình (FRV, II, §1, No. 5, Prop. 6),
 
@@ -218,7 +218,7 @@ $$
 
 (Mệnh đề 8); nói cách khác:
 
-#### Mệnh đề 9 {#int-iv-s1-prop-9 .statement}
+#### Mệnh đề 9 {#int-iv-s1-prop-9 .statement tag=08PH}
 
 *Đối với độ đo Lebesgue trên $\mathbf{R}$, độ đo ngoài của một tập mở trong $\mathbf{R}$ bằng tổng các độ dài của các thành phần liên thông của nó.*
 
@@ -228,7 +228,7 @@ $$
 
 Với mọi hàm số $f \geq 0$ (hữu hạn hoặc không) xác định trên $X$, tồn tại các hàm $h \in \mathscr{I}_+$ sao cho $f \leq h$, nếu không có hàm nào khác thì ít ra cũng có hàm hằng $+\infty$.
 
-#### Định nghĩa 3 {#int-iv-s1-def-3 .statement}
+#### Định nghĩa 3 {#int-iv-s1-def-3 .statement tag=08PI}
 
 *Cho $\mu$ là một độ đo dương trên $X$; với mọi hàm số $f \geq 0$ (hữu hạn hoặc không) xác định trên $X$, số dương*
 
@@ -242,15 +242,15 @@ Khi $f \in \mathscr{I}_+$, số $\mu^*(f)$ được định nghĩa như vậy b�
 
 Thay cho ký hiệu $\mu^*(f)$, chúng tôi cũng sẽ dùng các ký hiệu $\int^* f d\mu$, $\int^* f(x) d\mu(x)$, $\int^* f \mu$ và $\int^* f(x) \mu(x)$.
 
-#### Ví dụ {#int-iv-s1-n3-exa-1 .statement}
+#### Ví dụ {#int-iv-s1-n3-exa-1 .statement tag=08PJ}
 
 — Nếu $X$ là một không gian *rời rạc*, $\mu$ là một độ đo dương trên $X$, và nếu đặt $\alpha(x) = \mu(\varphi_{\{x\}})$, thì $\mu^*(f) = \sum_{x \in X} \alpha(x) f(x)$ với mọi hàm số $f \geq 0$ xác định trên $X$, vì một hàm như vậy là liên tục (No. 1, *Ví dụ*).
 
-#### Mệnh đề 10 {#int-iv-s1-prop-10 .statement}
+#### Mệnh đề 10 {#int-iv-s1-prop-10 .statement tag=08PK}
 
 — *Nếu f và g là hai hàm số $\geqslant 0$ xác định trên X sao cho $f \leqslant g$, thì $\mu^*(f) \leqslant \mu^*(g)$.*
 
-#### Mệnh đề 11 {#int-iv-s1-prop-11 .statement}
+#### Mệnh đề 11 {#int-iv-s1-prop-11 .statement tag=08PL}
 
 — *Với mọi số thực hữu hạn $\alpha > 0$ và mọi hàm số $f \geqslant 0$ xác định trên X,
 
@@ -258,7 +258,7 @@ $$
 \mu^*(\alpha f) = \alpha \mu^*(f).
 $$
 
-#### Mệnh đề 12 {#int-iv-s1-prop-12 .statement}
+#### Mệnh đề 12 {#int-iv-s1-prop-12 .statement tag=08PM}
 
 — *Nếu $f_1$ và $f_2$ là hai hàm số trị số $\geqslant 0$ xác định trên X, thì
 
@@ -280,7 +280,7 @@ $$
 
 Các Mệnh đề 10, 11 và 12 biểu thị rằng $\mu^*$ là một hàm *tăng, thuần nhất dương* và *lồi* trên tập hợp các hàm số trị số $\geqslant 0$ xác định trên X (Ch. I, No. 1). Chú ý rằng nếu $f_1$ và $f_2$ là hai hàm dương bất kỳ, thì hai vế của (9) không nhất thiết bằng nhau (§ 4, Exer. 8 d)); trong §5, No. 6 chúng tôi sẽ cho các điều kiện để có đẳng thức.
 
-#### Định lý 3 {#int-iv-s1-thm-3 .statement}
+#### Định lý 3 {#int-iv-s1-thm-3 .statement tag=08PN}
 
 — *Với mọi dãy tăng $(f_n)$ các hàm số $\geqslant 0$ xác định trên X,
 
@@ -315,7 +315,7 @@ $$
 
 ĐPCM.
 
-#### Hệ quả {#int-iv-s1-n3-cor-1 .statement}
+#### Hệ quả {#int-iv-s1-n3-cor-1 .statement tag=08PO}
 
 — *Cho $\mathfrak{F}$ là một tập hợp các hàm số $\geq 0$, có hướng đối với quan hệ $\leq$, sao cho tồn tại một tập con đồng tận đếm được $\mathfrak{G}$ của $\mathfrak{F}$* (S, III, §1, No. 7); khi đó
 
@@ -325,13 +325,13 @@ $$
 
 Thật vậy, tồn tại một dãy tăng các hàm trong $\mathfrak{G}$ có cùng bao trên như $\mathfrak{F}$: nếu $(f_n)$ là dãy các hàm của $\mathfrak{G}$, được xếp theo một thứ tự tùy ý, thì đặt $(f_{n_k})$ là một dãy con được xác định đệ quy bởi các điều kiện $n_1 = 1$, $f_{n_{k+1}} \geq \sup(f_{n_k}, f_k)$; hiển nhiên dãy con này có các tính chất đã nêu.
 
-#### Nhận xét {#int-iv-s1-n3-rem-1 .statement}
+#### Nhận xét {#int-iv-s1-n3-rem-1 .statement tag=08PP}
 
 — 1) Quan hệ (11) không nhất thiết đúng khi $\mathfrak{F}$ là một tập có hướng *không đếm được* các hàm $\geq 0$ không nửa liên tục dưới. Chẳng hạn, lấy $X = \mathbf{R}$, $\mu$ là độ đo Lebesgue trên $\mathbf{R}$, và xét tập có hướng (đối với $\leq$) $\mathfrak{F}$ gồm các hàm đặc trưng $\varphi_M$ của mọi tập con *hữu hạn* M của $\mathbf{R}$. Khi đó $\mu^*(\varphi_M) = 0$ với mọi tập con hữu hạn M, vì một điểm được chứa trong một khoảng mở có độ dài nhỏ tùy ý, và do đó hàm đặc trưng của một tập hợp thu về một điểm có tích phân trên bằng không theo Định nghĩa 3 và Mệnh đề 9 của No. 2. Nhưng bao trên của $\mathscr{F}$ là hàm hằng bằng 1, và $\mu^*(1) = +\infty$.
 
 2) Chú ý rằng đối với một dãy *giảm* $(f_n)$ các hàm số $\geqslant 0$, không nhất thiết có $\mu^*(\inf_n f_n) = \inf_n \mu^*(f_n)$, ngay cả khi $\mu^*(f_n) < +\infty$ với mọi $n$ (xem §4, Exer. 8 c)).
 
-#### Mệnh đề 13 {#int-iv-s1-prop-13 .statement}
+#### Mệnh đề 13 {#int-iv-s1-prop-13 .statement tag=08PQ}
 
 *Với mọi dãy* $(f_n)$ *các hàm số* $\geqslant 0$ *xác định trên* $X$,
 
@@ -347,7 +347,7 @@ $$
 
 Trong §5, No. 6, chúng tôi sẽ nêu các điều kiện để hai vế của (12) bằng nhau.
 
-#### Mệnh đề 14 (bổ đề Fatou) {#int-iv-s1-prop-14 .statement}
+#### Mệnh đề 14 (bổ đề Fatou) {#int-iv-s1-prop-14 .statement tag=08PR}
 
 — *Với mọi dãy* $(f_n)$ *các hàm số* $\geqslant 0$,
 
@@ -367,13 +367,13 @@ $$
 \mu^*\left( \liminf_{n \to \infty} f_n \right) \leqslant \sup_n \left( \inf_{p \geqslant 0} \mu^*(f_{n+p}) \right) = \liminf_{n \to \infty} \mu^*(f_n).
 $$
 
-#### Hệ quả {#int-iv-s1-n3-cor-2 .statement}
+#### Hệ quả {#int-iv-s1-n3-cor-2 .statement tag=08PS}
 
 *Cho* $(f_n)$ *là một dãy các hàm số* $\geqslant 0$ *sao cho, với mọi* $x \in X$, $\lim_{n \to \infty} f_n(x) = +\infty$. *Nếu* $\mu$ *không phải là độ đo không, thì* $\lim_{n \to \infty} \mu^*(f_n) = +\infty$.
 
 Nếu $f_0$ là hàm hằng bằng $+\infty$, thì $f_0$ là bao trên của tất cả các hàm của $\mathscr{K}_+$, và, vì $\mu \neq 0$, ta có $\mu^*(f_0) > 0$; nhưng do $f_0 = \alpha f_0$ với mọi $\alpha > 0$, tất yếu $\mu^*(f_0) = +\infty$ (Mệnh đề 11). Khi đó bất đẳng thức (13) cho thấy rằng $\mu^*(f_n)$ tiến tới $+\infty$ khi $n$ tăng.
 
-#### Mệnh đề 15 {#int-iv-s1-prop-15 .statement}
+#### Mệnh đề 15 {#int-iv-s1-prop-15 .statement tag=08PT}
 
 *Với mọi vô hướng $\alpha > 0$ và mọi cặp độ đo dương $\mu, \nu$ trên $X$,*
 
@@ -390,27 +390,27 @@ Hãy chứng minh quan hệ (15). Đặt $\lambda = \mu + \nu$; do đó $\lambda
 
 ### 4. Độ đo ngoài của một tập hợp tùy ý
 
-#### Định nghĩa 4 {#int-iv-s1-def-4 .statement}
+#### Định nghĩa 4 {#int-iv-s1-def-4 .statement tag=08PU}
 
 *Cho $\mu$ là một độ đo dương trên $X$; với mọi tập con $A$ của $X$, tích phân trên $\mu^*(\varphi_A)$ được gọi là độ đo ngoài của $A$ (đối với độ đo $\mu$) và được ký hiệu là $\mu^*(A)$.*
 
 Vậy độ đo ngoài của một tập hợp là một số $\geq 0$, hữu hạn hoặc bằng $+\infty$, mà đối với một tập mở, trùng với độ đo ngoài được định nghĩa trong Định nghĩa 2 của No. 2.
 
-#### Mệnh đề 16 {#int-iv-s1-prop-16 .statement}
+#### Mệnh đề 16 {#int-iv-s1-prop-16 .statement tag=08PV}
 
 *Nếu $A$ và $B$ là hai tập con của $X$ sao cho $A \subset B$, thì $\mu^*(A) \leq \mu^*(B)$.*
 
-#### Hệ quả {#int-iv-s1-n4-cor-1 .statement}
+#### Hệ quả {#int-iv-s1-n4-cor-1 .statement tag=08PW}
 
 *Mọi tập compact tương đối trong $X$ đều có độ đo ngoài hữu hạn.*
 
 Thật vậy, một tập như vậy được chứa trong một tập mở compact tương đối (GT, I, §9, No. 7, Mệnh đề 10), mà độ đo ngoài của nó là hữu hạn (No. 2, Mệnh đề 5).
 
-#### Mệnh đề 17 {#int-iv-s1-prop-17 .statement}
+#### Mệnh đề 17 {#int-iv-s1-prop-17 .statement tag=08PX}
 
 — *Nếu* $(A_n)$ *là một dãy tăng các tập con của X*, thì $\mu^*(\bigcup_n A_n) = \sup_n \mu^*(A_n)$.
 
-#### Mệnh đề 18 {#int-iv-s1-prop-18 .statement}
+#### Mệnh đề 18 {#int-iv-s1-prop-18 .statement tag=08PY}
 
 — *Với mọi dãy* $(A_n)$ *các tập con của X*,
 
@@ -420,7 +420,7 @@ $$
 
 Các mệnh đề này là các bản dịch của các Mệnh đề 10 và 13 và của Định lý 3 của No. 3 cho các hàm đặc trưng của tập hợp.
 
-#### Mệnh đề 19 {#int-iv-s1-prop-19 .statement}
+#### Mệnh đề 19 {#int-iv-s1-prop-19 .statement tag=08PZ}
 
 — *Với mọi tập con A của X*, $\mu^*(A)$ *là cận dưới đúng của các độ đo ngoài của những tập mở chứa A*.
 

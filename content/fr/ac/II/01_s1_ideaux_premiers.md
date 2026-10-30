@@ -20,14 +20,14 @@ subsections:
       pdf_page: 69
 statements: 9
 exercises: 11
-content_sha256: 3f5986b3b0b9fc5bf46e08c855d7c25a7cdd2ae8e0bfc096ae2ca1109fc46ebc
+content_sha256: d522e65bb4cbc538e856e81b6395fdc0f7c3391461e614dbefaf262811348743
 ---
 
 ## § 1. Idéaux premiers
 
 ### 1. Définition des idéaux premiers.
 
-#### Définition 1 {#ac-ii-s1-def-1 .statement}
+#### Définition 1 {#ac-ii-s1-def-1 .statement tag=0450}
 
 On dit qu’un idéal p d’un anneau A est premier si l’anneau A/p est intègre.
 
@@ -44,19 +44,19 @@ Un idéal maximal $m$ de $A$ est premier, puisque $A/m$ est un corps ; il résul
 
 Soit $f : A \to B$ un homomorphisme d’anneaux, et soit $q$ un idéal de $B$. Posons $p = \overline{f}(q)$; l’homomorphisme $\bar{f} : A/p \to B/q$ déduit de $f$ par passage aux quotients est injectif. Supposons $q$ premier ; comme l’anneau $B/q$ est intègre, il en est de même de $A/p$ qui est isomorphe à un sous-anneau de $B/q$; par conséquent l’idéal $p = \overline{f}(q)$ est premier. En particulier, soit $A$ un sous-anneau de $B$; pour tout idéal premier $q$ de $B$, $q \cap A$ est un idéal premier de $A$. Si $f$ est surjectif, $\bar{f}$ est un isomorphisme; les conditions «$p$ est premier » et «$q$ est premier » sont alors équivalentes. Donc, si $p$ et $a$ sont des idéaux de $A$ tels que $a \subset p$, une condition nécessaire et suffisante pour que $p$ soit premier est que $p/a$ soit premier dans $A/a$.
 
-#### Proposition 1 {#ac-ii-s1-prop-1 .statement}
+#### Proposition 1 {#ac-ii-s1-prop-1 .statement tag=0451}
 
 *Soient $A$ un anneau, $a_1, a_2, ..., a_n$ des idéaux de $A$, $p$ un idéal premier de $A$. Si $p$ contient le produit $a_1 a_2 ... a_n$, il contient l’un au moins des $a_i$.*
 
 Supposons en effet que $p$ ne contienne aucun des $a_i$. Pour $1 \leq i \leq n$, il existe donc un élément $s_i \in a_i \cap \mathbf{C}p$; alors $s = s_1 s_2 ... s_n$ est contenu dans $a_1 a_2 ... a_n$ et n’est pas contenu dans $p$, ce qui est absurde.
 
-#### Corollaire {#ac-ii-s1-n1-cor-1 .statement}
+#### Corollaire {#ac-ii-s1-n1-cor-1 .statement tag=0452}
 
 *Soit $m$ un idéal maximal de $A$; pour tout entier $n > 0$, le seul idéal premier contenant $m^n$ est $m$.*
 
 En effet, un tel idéal $p$ doit contenir $m$ en vertu de la prop. 1 appliquée à $a_i = m$ pour $1 \leq i \leq n$; comme $m$ est maximal, on a $p = m$.
 
-#### Proposition 2 {#ac-ii-s1-prop-2 .statement}
+#### Proposition 2 {#ac-ii-s1-prop-2 .statement tag=0453}
 
 *Soient $A$ un anneau, $a$ un sous-ensemble non vide de $A$ stable par addition et multiplication, et $(p_i)_{i \in I}$ une famille finie non vide d’idéaux de $A$. On suppose que $a$ est contenu dans la réunion des $p_i$ et qu’il y a au plus deux des $p_i$ qui ne sont pas premiers. Alors $a$ est contenu dans un des $p_i$.*
 
@@ -68,19 +68,19 @@ Soit $A$ un anneau ; on dit que deux idéaux $a, b$ de $A$ sont étrangers si $a
 
 Lorsque $A$ est un anneau principal ($Alg.$, chap. VII, § 1), pour que deux éléments $a, b$ de $A$ soient étrangers, il faut et il suffit, en vertu de l’identité de Bezout ($loc. cit.$, no 2, th. 1), que les idéaux $Aa$ et $Ab$ soient étrangers.
 
-#### Proposition 3 {#ac-ii-s1-prop-3 .statement}
+#### Proposition 3 {#ac-ii-s1-prop-3 .statement tag=0454}
 
 Soient $a$ et $b$ deux idéaux étrangers d’un anneau $A$. Soient $a'$ et $b'$ deux idéaux de $A$ tels que tout élément de $a$ (resp. $b$) ait une puissance dans $a'$ (resp. $b'$). Alors $a'$ et $b'$ sont étrangers.
 
 Vu l’hypothèse faite, tout idéal premier qui contient $a'$ contient $a$ et tout idéal premier qui contient $b'$ contient $b$. Si un idéal premier contient $a'$ et $b'$, il contient donc $a$ et $b$, ce qui est absurde puisque $a$ et $b$ sont étrangers ; donc $a'$ et $b'$ sont étrangers.
 
-#### Proposition 4 {#ac-ii-s1-prop-4 .statement}
+#### Proposition 4 {#ac-ii-s1-prop-4 .statement tag=0455}
 
 *Soient $a, b_1, ..., b_n$ des idéaux d’un anneau $A$. Si $a$ est étranger à chacun des $b_i$ ($1 \leq i \leq n$), il est étranger à $b_1 b_2 ... b_n$.
 
 Soit $p$ un idéal premier de $A$. Si $p$ contient $a$ et $b_1 b_2 ... b_n$, il contient un des $b_i$ (no 1, prop. 1), ce qui est absurde puisque $a$ et $b_i$ sont étrangers.*
 
-#### Proposition 5 {#ac-ii-s1-prop-5 .statement}
+#### Proposition 5 {#ac-ii-s1-prop-5 .statement tag=0456}
 
 *Soit $(a_i)_{i \in I}$ une famille finie non vide d’idéaux d’un anneau $A$. Les propriétés suivantes sont équivalentes :
 a) Pour $i \neq j$, $a_i$ et $a_j$ sont étrangers.
@@ -109,13 +109,13 @@ $f$ étant le produit des homomorphismes canoniques $A/a_i \to A/a'_i$; il est c
 
 C. Q. F. D.
 
-#### Proposition 6 {#ac-ii-s1-prop-6 .statement}
+#### Proposition 6 {#ac-ii-s1-prop-6 .statement tag=0457}
 
 *Soit* $(a_i)_{i \in I}$ *une famille finie non vide d’idéaux d’un anneau* $A$, *étrangers deux à deux* ; *soit* $a$ *l’intersection des* $a_i$. *Pour tout* $A$*-module* $M$, *l’application canonique* $M \to \prod_{i \in I} (M/a_iM)$ *est surjective*, *et son noyau est* $aM$.
 
 Il est clair que l’application canonique de $M$ dans $\prod_{i \in I} (M/a_iM)$ s’annule dans $aM$; elle définit donc par passage au quotient un homomorphisme $\lambda : M/aM \to \prod_{i \in I} (M/a_iM)$. D’autre part, d’après la prop. 5, l’homomorphisme canonique $\psi : A/a \to \prod_{i \in I} (A/a_i)$ est bijectif. Il en est donc de même de $1_M \otimes \psi : M \otimes (A/a) \to M \otimes \prod_{i \in I} (A/a_i)$. Or $M \otimes (A/a)$ s’identifie à $M/aM$, et $M \otimes \prod_{i \in I} (A/a_i)$ s’identifie à $\prod_{i \in I} M \otimes (A/a_i)$, qui s’identifie lui-même à $\prod_{i \in I} (M/a_iM)$. On vérifie immédiatement que les identifications précédentes transforment $1_M \otimes \psi$ en $\lambda$, d’où la proposition.
 
-#### Exemple {#ac-ii-s1-n2-exa-1 .statement}
+#### Exemple {#ac-ii-s1-n2-exa-1 .statement tag=0458}
 
 Soient K un corps, $a_i (1 \leq i \leq m)$ des éléments deux à deux distincts de K, et pour chaque $i$, soit $g_i$ un polynôme dans $K[X]$; l’idéal principal $(X - a_i) = m_i$ est maximal dans $K[X]$, donc pour tout système $(n_i)_{1 \leq i \leq m}$ de m entiers $\geq 1$, les idéaux $m_i^{n_i}$ sont deux à deux étrangers. On déduit donc de la prop. 5 qu’il existe un polynôme $f \in K[X]$ tel que l’on ait $f(X) \equiv g_i(X)$ (mod. $(X - a_i)^{n_i}$) pour $1 \leq i \leq m$, la différence de deux tels polynômes étant divisible par $\omega(X) = \prod_{i=1}^m (X - a_i)^{n_i}$. Lorsqu’on prend tous les $n_i$ égaux à 1, on retrouve le problème résolu explicitement par la formule d’interpolation de Lagrange (Alg., chap. IV, § 2, no 4).
 

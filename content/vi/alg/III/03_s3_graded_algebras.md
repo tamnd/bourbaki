@@ -26,9 +26,9 @@ subsections:
       pdf_page: 484
 statements: 4
 exercises: 1
-content_sha256: 3366e99f7620051c5e6fc996ce5025eab7b62fdae4a592c9741c3239d7bf81ae
+content_sha256: ad6b5ac844255b70a6fa9d60f87b72845014f3cc15c5bda29635503504db3def
 translated_from: content/en/alg/III/03_s3_graded_algebras.md
-source_content_sha256: 5b8c0001e1f65aae80fa1c4e32957ad15793bdfe4f97284a4030ab6e387e4852
+source_content_sha256: d496b7e9119afe9a64c71792995d77ced2c25e2dbf7df0912c545226ff6cffa2
 translation_model: gpt-5.4
 translation_run: translate-vi-470070e5
 glossary_version: 34
@@ -42,7 +42,7 @@ Các phân bậc được xét trong mục này sẽ có tập bậc là một *
 
 ### 1. ĐẠI SỐ PHÂN BẬC
 
-#### Định nghĩa 1 {#alg-iii-s3-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s3-def-1 .statement tag=0603}
 
 *Cho $\Delta$ là một monoïde giao hoán, $A$ là một vành phân bậc kiểu $\Delta$* (II, § 11, no. 2), $(A_\lambda)_{\lambda \in \Delta}$ *là phân bậc của nó và E là một đại số trên A. Một phân bậc* $(E_\lambda)_{\lambda \in \Delta}$ *kiểu $\Delta$ trên nhóm cộng E được gọi là tương thích với cấu trúc đại số trên A của E nếu nó tương thích cả với cấu trúc A-môđun lẫn với cấu trúc vành trên E, nói cách khác, nếu, với mọi $\lambda, \mu$ trong $\Delta$,*
 
@@ -61,7 +61,7 @@ Cho $E$ và $E'$ là hai đại số phân bậc kiểu $\Delta$ trên một và
 
 Cho $E$ là một đại số phân bậc trên $A$ kiểu $N$. Ta đồng nhất $E$ với một đại số phân bậc trên $A$ kiểu $\mathbf{Z}$ bằng cách viết $E_n = \{0\}$ với $n < 0$.
 
-#### Nhận xét {#alg-iii-s3-n1-rem-1 .statement}
+#### Nhận xét {#alg-iii-s3-n1-rem-1 .statement tag=0604}
 
 Định nghĩa 1 cũng có thể được diễn giải bằng cách nói rằng $E$ là một A-môđun phân bậc và rằng ánh xạ tuyến tính trên A
 
@@ -83,7 +83,7 @@ $$
 \alpha . m_{\mu \nu}(x, y) = m_{\lambda + \mu, \nu}(\alpha x, y) = m_{\mu, \lambda + \nu}(x, \alpha y).
 $$
 
-#### Ví dụ {#alg-iii-s3-n1-exa-1 .statement}
+#### Ví dụ {#alg-iii-s3-n1-exa-1 .statement tag=0605}
 
 (1) Cho $B$ là một *vành phân bậc* kiểu $\Delta$; nếu $B$ được trang bị cấu trúc đại số $\mathbf{Z}$ chính tắc của nó (§ 1, no. 1, *Ví dụ* 2), thì $B$ là một đại số $A$ phân bậc ($\mathbf{Z}$ được trang bị phép phân bậc tầm thường).
 
@@ -101,7 +101,7 @@ Tương tự, nếu $a$ là một iđêan trái (resp. phải) của $E$ mà là
 
 Nếu $u : E \to E'$ là một đồng cấu đại số phân bậc, thì $\operatorname{Im}(u)$ là một đại số con phân bậc của $E'$, $\operatorname{Ker}(u)$ là một iđêan hai phía phân bậc của $E$ và song ánh $E/\operatorname{Ker}(u) \to \operatorname{Im}(u)$ liên kết với $u$ một cách chính tắc là một đẳng cấu đại số phân bậc.
 
-#### Mệnh đề 1 {#alg-iii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s3-prop-1 .statement tag=0606}
 
 *Cho $A$ là một vành giao hoán phân bậc kiểu $\Delta$, $E$ một đại số trên $A$ phân bậc kiểu $\Delta$ và $S$ một tập hợp các phần tử thuần nhất của $E$. Khi đó đại số con trên $A$ (resp. iđêan trái, iđêan phải, iđêan hai phía) sinh bởi $S$ là một đại số con phân bậc (resp. iđêan phân bậc).*.
 

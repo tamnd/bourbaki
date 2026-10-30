@@ -49,7 +49,7 @@ subsections:
       pdf_page: 86
 statements: 41
 exercises: 9
-content_sha256: 339ca7832854415ba24c73f21a5671d353b7286e033de89341609251515f3f77
+content_sha256: 799ca5ab8972d08a96e3c878e691c379f9045c6a7513ce0474df0d45a4d9d381
 ---
 
 ## § 4. PRODUIT DE TORSION
@@ -88,11 +88,11 @@ $$
 
 Le complexe de $k$-modules $(C\otimes_A C',D)$ est appelé le *complexe produit tensoriel* des complexes $(C,d)$ et $(C',d')$.
 
-#### Remarque 1 {#alg-x-s4-n1-rem-1 .statement}
+#### Remarque 1 {#alg-x-s4-n1-rem-1 .statement tag=0DV2}
 
 Lorsque $C'$ est réduit à $C'_0=M$, alors $(C\otimes_A C')_n=C_n\otimes_A M$ et $D=d\otimes 1_M$; par exemple $C\otimes_A A_s$ s’identifie naturellement à $C$. De même, lorsque $C$ est réduit à $C_0=P$, alors $(C\otimes_A C')_n=P\otimes_A C'_n$ et $D=1_P\otimes d$.
 
-#### Remarque 2 {#alg-x-s4-n1-rem-2 .statement}
+#### Remarque 2 {#alg-x-s4-n1-rem-2 .statement tag=0DV3}
 
 Pour tout entier $r$, on a $(C\otimes_A C')(r)=C(r)\otimes_A C'$, mais $(C\otimes_A C')(r)$ et $C\otimes_A C'(r)$ n’ont pas en général la même différentielle.
 
@@ -114,7 +114,7 @@ $$
 $$
 La prop. 6 de II, p. 59, se reformule ainsi :
 
-#### Proposition 1 {#alg-x-s4-prop-1 .statement}
+#### Proposition 1 {#alg-x-s4-prop-1 .statement tag=0DV4}
 
 *Si les complexes $C$ et $C'$ sont nuls à droite, $C \otimes_A C'$ est nul à droite et l’application $k$-linéaire canonique*
 $$
@@ -145,7 +145,7 @@ $$
 \sigma(C, C') (x \otimes x') = (-1)^{pq} x' \otimes x .
 $$
 
-#### Proposition 2 {#alg-x-s4-prop-2 .statement}
+#### Proposition 2 {#alg-x-s4-prop-2 .statement tag=0DV5}
 
 L’application $\sigma(C, C') : C \otimes_A C' \to {C'}^\circ \otimes_A C^\circ$ est un isomorphisme de complexes de $k$-modules, dont l’isomorphisme réciproque est $\sigma({C'}^\circ, C^\circ)$.
 
@@ -205,11 +205,11 @@ $$
 \gamma((C^{(i)})) : \bigotimes_{i \in I} H(C^{(i)}) \to H \left( \bigotimes_{i \in I} C^{(i)} \right)
 $$
 
-#### Remarque 3 {#alg-x-s4-n1-rem-3 .statement}
+#### Remarque 3 {#alg-x-s4-n1-rem-3 .statement tag=0DV6}
 
 On peut définir le produit tensoriel d’une famille finie de complexes sans munir l’ensemble d’indices d’un ordre total (X, p. 185, exercice 3).
 
-#### Remarque 4 {#alg-x-s4-n1-rem-4 .statement}
+#### Remarque 4 {#alg-x-s4-n1-rem-4 .statement tag=0DV7}
 
 Supposons que chaque $C^{(i)}$ soit muni d’une structure d’algèbre graduée compatible avec sa graduation et telle que les $d^{(i)}$ soient des antidérivations (III, p. 117). Munissons alors $\bigotimes_{i \in I} C^{(i)}$ de la structure d’algèbre produit tensoriel gradué gauche des structures données (III, p. 49). Alors D est une antidérivation. En effet, utilisant l’associativité du produit tensoriel, on peut supposer que $I = \{1, 2\}$; soit alors $p_1,\ q_1,\ p_2,\ q_2 \in \mathbf{Z},\ x_1 \in (C^{(1)})_{p_1},\ y_1 \in (C^{(1)})_{q_1},\ x_2 \in (C^{(2)})_{p_2},\ y_2 \in (C^{(2)})_{q_2}$; on a
 
@@ -243,7 +243,7 @@ $$
 
 ### 2. Produits tensoriels et homotopie
 
-#### Proposition 3 {#alg-x-s4-prop-3 .statement}
+#### Proposition 3 {#alg-x-s4-prop-3 .statement tag=0DV8}
 
 Soient $C,\ C_1$ deux complexes de $A$-modules à droite, $C',\ C'_1$ deux complexes de $A$-modules à gauche, et $u : C \to C_1,\ v : C \to C_1,\ u' : C' \to C'_1,\ v' : C' \to C'_1$ des morphismes de complexes.
 
@@ -291,7 +291,7 @@ est égal à $(u\circ\alpha)\otimes(u'\circ\alpha')$, est homotope d’après a)
 tandis que $(\alpha\otimes\alpha')\circ(u\otimes u')$ est homotope à $\mathrm{Id}_{C\otimes C'}$, d’où b). Enfin, c) résulte
 de b) appliqué au cas où $C_1$ ou $C'_1$ est nul.
 
-#### Corollaire 1 {#alg-x-s4-prop-3-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s4-prop-3-cor-1 .statement tag=0DV9}
 
 Soit $C'$ un complexe scindé de $A$-modules à gauche tel que $H(C')$
 soit plat. Pour tout complexe $C$ de $A$-modules à droite, l’application canonique
@@ -333,7 +333,7 @@ $$
 
 Comme $d=i\circ j\circ\delta$, on a $D=d\otimes 1_{C'}=(i\otimes 1)\circ(j\otimes 1)\circ(\delta\otimes 1)$, ce qui montre que les applications canoniques $Z(C)\otimes_A C'\to Z(C\otimes_A C')$ et $B(C)\otimes_A C'\to B(C\otimes_A C')$ sont bijectives, donc aussi $\gamma(C,C')$ par passage aux quotients.
 
-#### Corollaire 2 {#alg-x-s4-prop-3-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s4-prop-3-cor-2 .statement tag=0DVA}
 
 Soit $\mathbf N$ un A-module à gauche plat. Pour tout complexe C de A-modules à droite, les homomorphismes canoniques
 
@@ -343,23 +343,23 @@ $$
 
 sont bijectifs.
 
-#### Corollaire 3 {#alg-x-s4-prop-3-cor-3 .statement}
+#### Corollaire 3 {#alg-x-s4-prop-3-cor-3 .statement tag=0DVB}
 
 Soit $C'$ un complexe de A-modules à gauche tel que $B(C')$ et $H(C')$ soient projectifs. Pour tout complexe C de A-modules à droite, l’application $\gamma(C,C')$ est bijective.
 
 En effet, $C'$ est scindé (X, p. 35, exemple 4) et $H(C')$ est projectif ; on peut donc appliquer le corollaire 1.
 
-#### Remarque 1 {#alg-x-s4-n2-rem-1 .statement}
+#### Remarque 1 {#alg-x-s4-n2-rem-1 .statement tag=0DVC}
 
 En utilisant les isomorphismes de commutation, on déduit des corollaires 1, 2 et 3 les énoncés analogues obtenus en échangeant les rôles des deux arguments des produits tensoriels.
 
-#### Remarque 2 {#alg-x-s4-n2-rem-2 .statement}
+#### Remarque 2 {#alg-x-s4-n2-rem-2 .statement tag=0DVD}
 
 Nous verrons ci-dessous (X, p. 79, cor. 4) que la conclusion du cor. 1 est également vraie lorsqu’on suppose $C'$ et $H(C')$ plats et $C'$ borné à droite.
 
 ### 3. Produit tensoriel par un complexe plat borné à droite
 
-#### Lemme 1 {#alg-x-s4-lem-1 .statement}
+#### Lemme 1 {#alg-x-s4-lem-1 .statement tag=0DVE}
 
 Soient C un complexe de A-modules à droite et E un complexe de A-modules à gauche. On suppose que $H(C)=0$ et que E est plat et borné à droite. Alors $H(C\otimes_A E)=0$.
 
@@ -377,7 +377,7 @@ $$
 
 où $i_k$ est l’injection canonique et où $\pi$ projette la somme directe précédente sur son facteur $C_{n-k}\otimes_A E_k=(C\otimes_A E_k(-k))_n$. D’après le cor. 2 ci-dessus, on a $H(C\otimes_A E_k(-k))=0$, donc $i_k$ est un homomorphisme. On a $T^{(k)}=0$ pour $k$ assez petit, puisque $E$ est borné à droite, donc $H(T^{(k)})=0$ pour tout $k$ par récurrence sur $k$. Enfin, le morphisme canonique $\underset{\longrightarrow}{\lim}\,T^{(k)}\to C\otimes_A E$ est évidemment un isomorphisme, donc $H(C\otimes_A E)=0$ (X, p. 28, prop. 1).
 
-#### Lemme 2 {#alg-x-s4-lem-2 .statement}
+#### Lemme 2 {#alg-x-s4-lem-2 .statement tag=0DVF}
 
 Si $u:C\to C'$ est un morphisme de complexes de A-modules à droite et $E$ un complexe de A-modules à gauche, alors les complexes $\operatorname{Con}(u)\otimes_A E$ et $\operatorname{Con}(u\otimes 1_E)$ sont isomorphes.
 
@@ -400,7 +400,7 @@ $$
 
 d’où l’assertion.
 
-#### Proposition 4 {#alg-x-s4-prop-4 .statement}
+#### Proposition 4 {#alg-x-s4-prop-4 .statement tag=0DVG}
 
 Soient $u:C\to C'$ un homologisme de complexes de A-modules à droite et $E$ un complexe de A-modules à gauche, plat et borné à droite. Alors
 
@@ -412,7 +412,7 @@ est un homologisme de complexes de $k$-modules.
 
 En effet, d’après X, p. 38, cor., $u$ (resp. $u\otimes 1_E$) est un homologisme si et seulement si $H(\operatorname{Con}(u))=0$ (resp. $H(\operatorname{Con}(u\otimes 1_E))=0$). On conclut alors par les lemmes 1 et 2.
 
-#### Remarque {#alg-x-s4-n3-rem-1 .statement}
+#### Remarque {#alg-x-s4-n3-rem-1 .statement tag=0DVH}
 
 En utilisant les isomorphismes de commutation, on déduit des énoncés précédents les énoncés analogues obtenus en échangeant les rôles des deux arguments des produits tensoriels.
 
@@ -420,7 +420,7 @@ En utilisant les isomorphismes de commutation, on déduit des énoncés précéd
 
 Pour tout A-module $E$, on note $p_E:L(E)\to E$ la résolution libre canonique de $E$ (X, p. 50).
 
-#### Définition 1 {#alg-x-s4-def-1 .statement}
+#### Définition 1 {#alg-x-s4-def-1 .statement tag=0DVI}
 
 Soit $M$ un A-module à droite et $N$ un A-module à gauche. On appelle produit de torsion de $M$ et $N$ le $k$-module gradué
 
@@ -443,7 +443,7 @@ $$
 \operatorname{Tor}_n^A(M, N) = 0 \quad \text{pour } n < 0 .
 $$
 
-#### Remarque 1 {#alg-x-s4-n4-rem-1 .statement}
+#### Remarque 1 {#alg-x-s4-n4-rem-1 .statement tag=0DVJ}
 
 Nous verrons ci-dessous (X, p. 107, prop. 6) des propriétés de finitude des modules $\operatorname{Tor}^A(M, N)$. Par exemple, si $A$ est commutatif noethérien et si $M$ et $N$ sont des $A$-modules de type fini, chaque $A$-module $\operatorname{Tor}_n^A(M, N)$ est de type fini.
 
@@ -474,7 +474,7 @@ $$
 
 Nous identifierons toujours $\operatorname{Tor}_0^A(M, N)$ à $M \otimes_A N$ par cet isomorphisme. Alors l’application $k$-linéaire $\operatorname{Tor}_0^A(f, g)$ s’identifie à $f \otimes g$.
 
-#### Remarque 2 {#alg-x-s4-n4-rem-2 .statement}
+#### Remarque 2 {#alg-x-s4-n4-rem-2 .statement tag=0DVK}
 
 Le morphisme de complexes $p_M \otimes p_N : L(M) \otimes_A L(N) \to M \otimes_A N$ induit sur l’homologie de degré 0 l’isomorphisme
 
@@ -512,7 +512,7 @@ $$
 
 d’après la prop. 4 de X, p. 67, $1 \otimes p_N$ et $p_M \otimes 1$ sont des homologismes. D’où :
 
-#### Proposition 5 {#alg-x-s4-prop-5 .statement}
+#### Proposition 5 {#alg-x-s4-prop-5 .statement tag=0DVL}
 
 **Les $k$-homomorphismes**
 
@@ -525,13 +525,13 @@ $$
 
 sont *bijectifs*.
 
-#### Corollaire {#alg-x-s4-n4-cor-3 .statement}
+#### Corollaire {#alg-x-s4-n4-cor-3 .statement tag=0DVM}
 
 **Si $M$ ou $N$ est plat, $\mathrm{Tor}_i^A(M, N) = 0$ pour $i \geqslant 0$.**
 
 Supposons $N$ (resp. $M$) plat ; alors $p_M \otimes 1 : L(M) \otimes_A N \to M \otimes_A N$ (resp. $1 \otimes p_N : M \otimes_A L(N) \to M \otimes_A N$) est un homologisme (X, p. 67, prop. 4), donc $H_i(L(M) \otimes_A N)$ (resp. $H_i(M \otimes_A L(N))$) est nul pour $i > 0$.
 
-#### Remarque 3 {#alg-x-s4-n4-rem-3 .statement}
+#### Remarque 3 {#alg-x-s4-n4-rem-3 .statement tag=0DVN}
 
 *Si $g : N \to N'$ est un homomorphisme de A-modules à gauche, alors*
 
@@ -561,7 +561,7 @@ $$
 \end{array}
 $$
 
-#### Proposition 6 {#alg-x-s4-prop-6 .statement}
+#### Proposition 6 {#alg-x-s4-prop-6 .statement tag=0DVO}
 
 **L’application** $(f, g) \mapsto \mathrm{Tor}^A(f, g) :$
 
@@ -585,12 +585,12 @@ $$
 
 On raisonne de même pour l’application $f \mapsto \mathrm{Tor}^A(f, g)$.
 
-#### Corollaire {#alg-x-s4-n4-cor-1 .statement}
+#### Corollaire {#alg-x-s4-n4-cor-1 .statement tag=0DVP}
 
 *Soit $\lambda \in k$. Si $\lambda$ annule $M$ ou $N$, il annule $\mathrm{Tor}^A(M, N)$.*
 En effet, $\lambda . 1_{\mathrm{Tor}(M, N)} = \mathrm{Tor}(\lambda . 1_M, 1_N) = \mathrm{Tor}(1_M, \lambda . 1_N)$.
 
-#### Proposition 7 {#alg-x-s4-prop-7 .statement}
+#### Proposition 7 {#alg-x-s4-prop-7 .statement tag=0DVQ}
 
 *Soient I et J deux ensembles, $(M_\alpha)_{\alpha \in I}$ une famille de A-modules à droite, $(N_\beta)_{\beta \in J}$ une famille de A-modules à gauche. L’homomorphisme*
 
@@ -617,7 +617,7 @@ $$
 
 Un raisonnement analogue donne :
 
-#### Proposition 8 {#alg-x-s4-prop-8 .statement}
+#### Proposition 8 {#alg-x-s4-prop-8 .statement tag=0DVR}
 
 *Soient I (resp. J) un ensemble préordonné filtrant à droite, (($M_\alpha$, $u_{\alpha', \alpha}$) (resp. (($N_\beta$, $v_{\beta', \beta}$))) un système inductif de A-modules à droite (resp. gauche) relatif à I (resp. J). L’homomorphisme de k-modules gradués*
 
@@ -629,7 +629,7 @@ $$
 
 En particulier, prenant $J = I$ et remarquant que les $(\alpha, \alpha), \alpha \in I$, forment une partie cofinale de $I \times I$, on obtient :
 
-#### Corollaire {#alg-x-s4-n4-cor-2 .statement}
+#### Corollaire {#alg-x-s4-n4-cor-2 .statement tag=0DVS}
 
 Soient I un ensemble préordonné filtrant à droite, $(M_i, u_{ji})$ (resp. $(N_i, v_{ji})$) un système inductif de $A$-modules à droite (resp. à gauche) relatif à I. L’homomorphisme de $k$-modules gradués
 
@@ -683,7 +683,7 @@ $$
 
 l’homomorphisme de liaison correspondant (X, p. 29).
 
-#### Définition 2 {#alg-x-s4-def-2 .statement}
+#### Définition 2 {#alg-x-s4-def-2 .statement tag=0DVT}
 
 On appelle homomorphisme de liaison des produits de torsion, relatif au module M et à la suite exacte $\mathscr{E}$, l’homomorphisme composé
 
@@ -693,7 +693,7 @@ $$
 
 C’est un $k$-homomorphisme gradué de degré ($-1$), dont les composantes homogènes sont notées $\partial_n(M, \mathscr{E}) : \mathrm{Tor}_n^A(M, N'') \to \mathrm{Tor}_{n-1}^A(M, N')$.
 
-#### Théorème 1 {#alg-x-s4-thm-1 .statement}
+#### Théorème 1 {#alg-x-s4-thm-1 .statement tag=0DVU}
 
 La suite illimitée à gauche d’homomorphismes de $k$-modules
 
@@ -721,7 +721,7 @@ $$
 
 Il est commutatif d’après (X, p. 69, remarque 3) et la déf. 2. D’autre part, la ligne inférieure est exacte (X, p. 30, th. 1), et les différents $\psi_M$ sont bijectifs (X, p. 69, prop. 5).
 
-#### Corollaire 1 {#alg-x-s4-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s4-thm-1-cor-1 .statement tag=0DVV}
 
 Si $\mathrm{Tor}_1^A(M, N'') = 0$, la suite
 
@@ -731,7 +731,7 @@ $$
 
 est exacte.
 
-#### Corollaire 2 {#alg-x-s4-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s4-thm-1-cor-2 .statement tag=0DVW}
 
 Soient $0 \to C' \xrightarrow{u} C \xrightarrow{v} C'' \to 0$ une suite exacte de complexes de $A$-modules à gauche et $E$ un complexe de $A$-modules à droite. Si $C''$ ou $E$ est plat, la suite
 
@@ -743,7 +743,7 @@ est exacte.
 
 En effet, $\mathrm{Tor}_1^A(E, C'') = 0$ d’après X, p. 69, cor. à la prop. 5.
 
-#### Exemple {#alg-x-s4-n5-exa-1 .statement}
+#### Exemple {#alg-x-s4-n5-exa-1 .statement tag=0DVX}
 
 Soit $a$ un idéal de $A$. La suite exacte
 
@@ -767,7 +767,7 @@ il en résulte que $\operatorname{Tor}_1^A(M, A/\alpha)$ s’identifie au noyau 
 
 Par exemple, prenant pour M un module de la forme $A_d/b$, où b est un idéal à droite de A, on obtient un isomorphisme de $\operatorname{Tor}_1^A(A/b, A/\alpha)$ sur $(\alpha \cap b)/ba$.
 
-#### Proposition 9 {#alg-x-s4-prop-9 .statement}
+#### Proposition 9 {#alg-x-s4-prop-9 .statement tag=0DVY}
 
 *Soient f : M → M$_1$ un homomorphisme de A-modules à droite et*
 
@@ -837,7 +837,7 @@ $$\cdots\longrightarrow \operatorname{Tor}_1^A(M'',N)\xrightarrow{\partial_1(\ma
 On laisse au lecteur le soin d’énoncer et de démontrer les propriétés analogues
 aux corollaires du th. 1 et à la prop. 9. D’ailleurs :
 
-#### Proposition 10 {#alg-x-s4-prop-10 .statement}
+#### Proposition 10 {#alg-x-s4-prop-10 .statement tag=0DVZ}
 
 *Notons $(\mathscr F^\circ)$ la suite exacte de $A$-modules à gauche*
 
@@ -869,7 +869,7 @@ Nous verrons plus tard d’autres relations de commutation *(cf.* X, p. 131, cor
 
 ### 6. Modules plats et produits de torsion
 
-#### Théorème 2 {#alg-x-s4-thm-2 .statement}
+#### Théorème 2 {#alg-x-s4-thm-2 .statement tag=0DW0}
 
 *Soit E un $A$-module à droite. Les conditions suivantes sont équi-*
 *valentes :*
@@ -917,7 +917,7 @@ $$
 $$
 Si (v) est satisfait, on a $\operatorname{Tor}_1^A(E, F) = 0$ d’où (iii).
 
-#### Corollaire 1 {#alg-x-s4-thm-2-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s4-thm-2-cor-1 .statement tag=0DW1}
 
 Soit $0 \to E' \to E \to E'' \to 0$ une suite exacte de $A$-modules à droite. Supposons que $E''$ soit plat. Alors pour que $E$ soit plat, il faut et il suffit que $E'$ soit plat.
 
@@ -929,7 +929,7 @@ $$
 
 d’où l’assertion (th. 2, (i) $\Leftrightarrow$ (iii)).
 
-#### Corollaire 2 {#alg-x-s4-thm-2-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s4-thm-2-cor-2 .statement tag=0DW2}
 
 *Soit $0\longrightarrow E_n\longrightarrow E_{n-1}\longrightarrow\cdots\longrightarrow E_1\longrightarrow0$ une suite exacte de A-modules à droite. Si $E_i$ est plat pour $i=1,\ldots,n-1$, alors $E_n$ est plat.*
 
@@ -975,7 +975,7 @@ $$
 
 Avec ces notations :
 
-#### Théorème 3 {#alg-x-s4-thm-3 .statement}
+#### Théorème 3 {#alg-x-s4-thm-3 .statement tag=0DW3}
 
 *Supposons les A-modules $B(C)$ et $Z(C)$ plats. Il existe un unique homomorphisme de $k$-modules gradués, de degré $-1$,*
 
@@ -1020,7 +1020,7 @@ $$
 0 \longrightarrow Z \otimes_A C' \xrightarrow{j \otimes 1} C \otimes_A C' \xrightarrow{\delta \otimes 1} (B \otimes_A C')(-1) \longrightarrow 0 .
 $$
 
-#### Lemme 3 {#alg-x-s4-lem-3 .statement}
+#### Lemme 3 {#alg-x-s4-lem-3 .statement tag=0DW4}
 
 L’homomorphisme de liaison $\mathrm{H}(B \otimes_A C') \to \mathrm{H}(Z \otimes_A C')$ associé à la suite exacte (12) est égal à $\mathrm{H}(i \otimes 1)$.
 
@@ -1069,18 +1069,18 @@ $$
 
 qui est *commutatif* par définition des homomorphismes $\gamma$. Mais, les complexes $B$ et $Z$ étant scindés et plats, $\gamma_B$ et $\gamma_Z$ sont *bijectifs* (X, p. 65, cor. 1). On en déduit, d’une part que $\gamma_C$ est injectif et d’image égale à $\operatorname{Ker} H(\delta \otimes 1)$, d’autre part que $\gamma_B \circ \partial(\Pi, H')$ est injectif, d’image égale à $\operatorname{Im} H(\delta \otimes 1)$. Le théorème résulte immédiatement de là.
 
-#### Corollaire 1 {#alg-x-s4-lem-3-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s4-lem-3-cor-1 .statement tag=0DW5}
 
 *Si $B(C)$ et $Z(C)$ sont plats, on a pour tout $A$-module à gauche $N$ et tout entier $n$ une suite exacte*
 
 (13) $$ 0 \longrightarrow H_n(C) \otimes_A N \xrightarrow{\gamma_n} H_n(C \otimes_A N) \xrightarrow{\alpha_n} \operatorname{Tor}_1^A(H_{n-1}(C), N) \longrightarrow 0 . $$
 
-#### Corollaire 2 {#alg-x-s4-lem-3-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s4-lem-3-cor-2 .statement tag=0DW6}
 
 *Supposons $B(C)$ et $B(C')$ projectifs et $Z(C)$ plat. Alors les suites de $k$-modules (11) et (13) sont exactes et scindées.*
 Cela résulte du théorème et du lemme suivant :
 
-#### Lemme 4 {#alg-x-s4-lem-4 .statement}
+#### Lemme 4 {#alg-x-s4-lem-4 .statement tag=0DW7}
 
 *Si $B(C)$ et $B(C')$ sont projectifs, alors l’homomorphisme canonique*
 $$ \gamma(C, C') : H(C) \otimes_A H(C') \to H(C \otimes_A C') $$
@@ -1097,12 +1097,12 @@ $$
 
 $H(\varphi) \otimes H(\varphi')$ et $\gamma(H(C), H(C'))$ sont l’identité, d’où l’assertion.
 
-#### Corollaire 3 (formule des coefficients universels) {#alg-x-s4-lem-4-cor-3 .statement}
+#### Corollaire 3 (formule des coefficients universels) {#alg-x-s4-lem-4-cor-3 .statement tag=0DW8}
 
 *Supposons l’anneau $A$ principal. Si les complexes $C$ et $C'$ sont libres, les suites de $A$-modules (11) sont exactes et scindées ; si le complexe $C$ est libre, les suites de $A$-modules (13) sont exactes et scindées pour tout $A$-module $N$.*
 En effet, $B(C), Z(C)$ et $B(C')$ sont des sous-modules des modules libres $C, C, C'$, donc sont libres (VII, § 3, cor. 2 au th. 1), et on applique le cor. 2.
 
-#### Corollaire 4 (« formule de Künneth ») {#alg-x-s4-lem-4-cor-4 .statement}
+#### Corollaire 4 (« formule de Künneth ») {#alg-x-s4-lem-4-cor-4 .statement tag=0DW9}
 
 Supposons C borné à droite, C et H(C) plats ; alors l’homomorphisme canonique
 
@@ -1123,7 +1123,7 @@ $$
 
 d’où, d’après X, p. 75, cor. 1, des implications (B_{n-1}(C) est plat) $\Rightarrow$ (Z_n(C) est plat) $\Rightarrow$ (B_n(C) est plat) ; on conclut en remarquant que B_n(C) = 0 pour n assez petit.
 
-#### Corollaire 5 {#alg-x-s4-lem-4-cor-5 .statement}
+#### Corollaire 5 {#alg-x-s4-lem-4-cor-5 .statement tag=0DWA}
 
 Soit u : C \to C' un homologisme de complexes de A-modules à droite, plats et bornés à droite. Pour tout complexe E de A-modules à gauche, le morphisme $u \otimes 1_E : C \otimes_A E \to C' \otimes_A E$ est un homologisme.
 
@@ -1131,7 +1131,7 @@ En effet, Con (u) est un complexe plat, borné à droite et d’homologie nulle 
 
 ### 8. Complexes bornés et plats sur un anneau noethérien
 
-#### Proposition 11 {#alg-x-s4-prop-11 .statement}
+#### Proposition 11 {#alg-x-s4-prop-11 .statement tag=0DWB}
 
 Supposons A noethérien à gauche, et soit C un complexe borné et plat de A-modules à gauche tel que H(C) soit un A-module de type fini. Soient a et b deux entiers tels que a \leq b et que H_n(C) = 0 pour n < a, C_n = 0 pour n > b. Il existe un complexe P de A-modules à gauche tel que P_n soit projectif et de type fini pour chaque n, et que P_n = 0 pour n \notin [a, b], et un homologisme u : P \to C. De plus, pour tout complexe E de A-modules à droite, l’homomorphisme
 

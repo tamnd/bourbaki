@@ -21,9 +21,9 @@ subsections:
       pdf_page: 445
 statements: 6
 exercises: 0
-content_sha256: 00b3f2d5ad85832cc420909477bc9838fd297266db61cfba15be1cb3013367c4
+content_sha256: a7d0edef588234954761da2534f77376fa07fd274c7fb398dd5dc55e64e9790a
 translated_from: content/en/int/VI/A_a_complements_on_topological_vector_spaces.md
-source_content_sha256: fa681336d1c7c3ce37804fe10a6c5f646652b8a98de152b669f16c59e6f5d371
+source_content_sha256: 02f42b389f24a36ddcc58d04da30cbfa4dd5961e3192d18701403d3e92f17929
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-8e8fb815
 glossary_version: 34
@@ -70,13 +70,13 @@ Bây giờ cho $E, F$ là hai không gian lồi địa phương Hausdorff, $E', 
 
 Cho $\mathscr{B}(E, F)$ là không gian các dạng song tuyến tính liên tục trên $E \times F$ ($E$ và $F$ được trang bị với các tôpô ban đầu của chúng); thì $\mathscr{B}(E, F) \subset \mathscr{B}(E, F)$.
 
-#### Mệnh đề 1 {#int-vi-a0-prop-1 .statement}
+#### Mệnh đề 1 {#int-vi-a0-prop-1 .statement tag=09CS}
 
 *Để một dạng song tuyến tính $\Phi \in \mathscr{B}(E, F)$ thuộc $\mathscr{B}(E, F)$, điều cần và đủ là tồn tại một lân cận của 0 trong $E$ mà ảnh của nó qua ${}^l \Phi$ là một tập con đều liên tục của $F'$.*
 
 Thật vậy, nói rằng $\Phi$ liên tục có nghĩa là tồn tại một lân cận lồi cân bằng $V$ (resp. $W$) của 0 trong $E$ (resp. $F$) sao cho $|\Phi(x, y)| \leq 1$ với $x \in V$, $y \in W$; điều này có thể viết là $|\langle {}^l \Phi(x), y \rangle| \leq 1$ với $x \in V$, $y \in W$, hoặc cũng có thể là ${}^l \Phi(V) \subset W^\circ$; do đó suy ra mệnh đề, lưu ý rằng mọi tập con đều liên tục của $F'$ đều được chứa trong đối cực của một lân cận của 0 trong $F$.
 
-#### Hệ quả {#int-vi-a0-n1-cor-1 .statement}
+#### Hệ quả {#int-vi-a0-n1-cor-1 .statement tag=09CT}
 
 *Nếu $\Phi$ là một dạng song tuyến tính liên tục trên $E \times F$, thì ${}^l \Phi$ là một ánh xạ tuyến tính liên tục của $E$ vào đối ngẫu mạnh $F'_b$ của $F$. Nếu, hơn nữa, $E$ và $F$ là các không gian chuẩn, thì $\|{}^l \Phi\| = \|\Phi\|$.*
 
@@ -95,23 +95,23 @@ do đó khẳng định thứ hai.
 
 Ta đã biết rằng mọi không gian Fréchet đều có tính chất (GDF) (TVS, I, §3, No. 3, Hệ quả 5 của Định lý 1).
 
-#### Mệnh đề 2 {#int-vi-a0-prop-2 .statement}
+#### Mệnh đề 2 {#int-vi-a0-prop-2 .statement tag=09CU}
 
 — Cho E là một không gian vectơ, $(F_\alpha)_{\alpha \in A}$ là một họ các không gian địa phương compact có tính chất (GDF), và với mỗi $\alpha \in A$ cho $h_\alpha$ là một ánh xạ tuyến tính của $F_\alpha$ vào E. Nếu E được trang bị tôpô lồi địa phương mạnh nhất làm cho các $h_\alpha$ liên tục, thì E có tính chất (GDF).
 
 Cho $u$ là một ánh xạ tuyến tính từ E vào một không gian Banach B, sao cho mọi giới hạn trong $E \times B$ của mọi dãy hội tụ các điểm của đồ thị $\Gamma$ của $u$ cũng thuộc $\Gamma$. Chỉ cần chứng minh rằng, với mọi $\alpha \in A$, $u \circ h_\alpha$ liên tục trên $F_\alpha$ (TVS, II, §4, No. 4, Mệnh đề 5). Bây giờ, cho $(x_n)$ là một dãy các phần tử của $F_\alpha$ có giới hạn $a$ và sao cho dãy $\left(u(h_\alpha(x_n))\right)$ có giới hạn $b \in B$. Vì $h_\alpha$ liên tục, $h_\alpha(a)$ là một giới hạn của dãy $(h_\alpha(x_n))$ trong E; do đó theo giả thiết $b = u(h_\alpha(a))$ và, vì $F_\alpha$ có tính chất (GDF), $u \circ h_\alpha$ liên tục.
 
-#### Hệ quả {#int-vi-a0-n2-cor-1 .statement}
+#### Hệ quả {#int-vi-a0-n2-cor-1 .statement tag=09CV}
 
 — Mọi không gian thương của một không gian lồi địa phương có tính chất (GDF) đều có tính chất (GDF).
 
-#### Mệnh đề 3 {#int-vi-a0-prop-3 .statement}
+#### Mệnh đề 3 {#int-vi-a0-prop-3 .statement tag=09CW}
 
 — Đối ngẫu mạnh của một không gian Fréchet phản xạ có tính chất (GDF).
 
 Đây là hệ quả của Mệnh đề 2 và bổ đề sau (hoặc TVS, IV, §3, No. 4, Mệnh đề 4):
 
-#### Bổ đề {#int-vi-a0-n2-lem-1 .statement}
+#### Bổ đề {#int-vi-a0-n2-lem-1 .statement tag=09CX}
 
 Cho F là một không gian Fréchet, $F'$ là đối ngẫu mạnh của nó, $F''$ là đối ngẫu kép của nó. Nếu mọi tập con của $F''$, bị chặn đối với $\sigma(F'', F')$, đều được chứa trong bao đóng (theo $\sigma(F'', F')$) của một tập con bị chặn của F, thì $F'$ là giới hạn trực tiếp của một dãy các không gian Banach.
 

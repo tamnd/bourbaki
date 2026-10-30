@@ -62,9 +62,9 @@ subsections:
       pdf_page: 594
 statements: 41
 exercises: 5
-content_sha256: a11f0b0d3510c23fb93d9ba5e09e524c8efb457763770505dc899f818847cbd4
+content_sha256: 2538afc43103f80053bbf45b460dccd8b951356265e5b45d0489f0e4e974fcb3
 translated_from: content/en/alg/III/10_s10_derivations.md
-source_content_sha256: 321a0214d9f86881e7cc2493bc5c6c5f347dd080ee2ae7987600113edd176f01
+source_content_sha256: aaeacce850abcb26b3dc2f0a2b6232e064f49c1f74a413c96833e391ff1f75f3
 translation_model: gpt-5.4
 translation_run: translate-vi-6a225208
 glossary_version: 34
@@ -116,7 +116,7 @@ A \otimes_K A' \to A'', \qquad B \otimes_K A' \to B'', \qquad A \otimes_K B' \to
 $$
 là *phân bậc bậc* 0. Ảnh $\mu(a, a')$ với $a \in A, a' \in A'$ được ký hiệu đơn giản là $a.a'$ hoặc thậm chí $aa'$, và tương tự đối với hai ánh xạ song tuyến tính kia. Do đó, *bậc* của $a.a'$ là *tổng* các bậc của $a$ và $a'$.
 
-#### Định nghĩa 1 {#alg-iii-s10-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s10-def-1 .statement tag=0667}
 
 *Với các dữ kiện trên và một nhân tử giao hoán $\varepsilon$ trên $\Delta \times \Delta$, một $\varepsilon$-đạo hàm (hay đạo hàm $(K, \varepsilon)$) bậc $\delta \in \Delta$ từ $(A, A', A'')$ vào $(B, B', B'')$ là một bộ ba ánh xạ $K$-tuyến tính phân bậc bậc $\delta$:*
 $$
@@ -154,7 +154,7 @@ d(a.a') = (da).a' + (-1)^{\deg(a)} a.(da')
 $$
 đối với một phần tử *thuần nhất* $a \in A$.
 
-#### Nhận xét {#alg-iii-s10-n2-rem-1 .statement}
+#### Nhận xét {#alg-iii-s10-n2-rem-1 .statement tag=0668}
 
 (1) Khái niệm *đạo hàm* có thể được định nghĩa cho các môđun không phân bậc bằng cách quy ước cho các môđun này phân bậc tầm thường.
 
@@ -197,7 +197,7 @@ $$
 
 ### 3. VÍ DỤ VỀ CÁC ĐẠO HÀM
 
-#### Ví dụ 1 {#alg-iii-s10-n3-exa-1 .statement}
+#### Ví dụ 1 {#alg-iii-s10-n3-exa-1 .statement tag=0669}
 
 Cho A là một đại số trên $\mathbf{R}$ các ánh xạ khả vi từ $\mathbf{R}$ vào $\mathbf{R}$ và $x_0$ là một điểm của $\mathbf{R}$; $\mathbf{R}$ có thể được xét như một A-môđun với phép toán ngoài $(f, a) \mapsto f(x_0)a$. Khi đó ánh xạ $f \mapsto Df(x_0)$ là một đạo hàm, vì (Functions of a Real Variable, I, § 1, no. 3)
 
@@ -205,19 +205,19 @@ $$
 (D(fg))(x_0) = (Df(x_0))g(x_0) + f(x_0)(Dg(x_0)).*
 $$
 
-#### Ví dụ 2 {#alg-iii-s10-n3-exa-2 .statement}
+#### Ví dụ 2 {#alg-iii-s10-n3-exa-2 .statement tag=066A}
 
 Cho X là một đa tạp khả vi lớp $C^\infty$ và A là đại số trên $\mathbf{R}$ phân bậc các dạng vi phân trên X. Ánh xạ gán cho mỗi dạng vi phân $\omega$ trên X vi phân ngoài $d\omega$ của nó là một phản đạo hàm bậc +1 (Differentiable and Analytic Manifolds, R, § 8).*
 
-#### Ví dụ 3 {#alg-iii-s10-n3-exa-3 .statement}
+#### Ví dụ 3 {#alg-iii-s10-n3-exa-3 .statement tag=066B}
 
 Cho A là một đại số trên K kết hợp. Với mọi $a \in A$, ánh xạ $x \mapsto ax - xa$ là một đạo hàm của đại số A (xem no. 6).
 
-#### Ví dụ 4 {#alg-iii-s10-n3-exa-4 .statement}
+#### Ví dụ 4 {#alg-iii-s10-n3-exa-4 .statement tag=066C}
 
 Cho M là một K-môđun và A là đại số ngoài $\bigwedge(M^*)$ với phân bậc thông thường của nó (§ 7, no. 1). *Sẽ thấy ở § 11, no. 9 rằng, với mọi $x \in M$, tích trong bên phải $i(x)$ là một phản đạo hàm của A bậc $-1$.*
 
-#### Ví dụ 5 {#alg-iii-s10-n3-exa-5 .statement}
+#### Ví dụ 5 {#alg-iii-s10-n3-exa-5 .statement tag=066D}
 
 Trở lại tình huống tổng quát của Định nghĩa 1 ở no. 2, cho $\overline{K}$ là một vành giao hoán khác và $\rho : K \to \overline{K}$ là một đồng cấu vành; ký hiệu $\overline{A}, \overline{A}', \overline{A}'', \overline{B}, \overline{B}', \overline{B}''$ lần lượt là các $\overline{K}$-môđun phân bậc thu được từ $A, A', A'', B, B', B''$ bằng cách mở rộng vành vô hướng lên $\overline{K}$ (II, § 11, no. 5); từ $\mu, \lambda_1$ và $\lambda_2$ ta suy ra các ánh xạ $\overline{K}$-song tuyến tính
 $$
@@ -225,7 +225,7 @@ $$
 $$
 bằng cách xét các tích tenxơ theo $l_{\overline{K}}$ của các ánh xạ K-tuyến tính tương ứng với $\mu, \lambda_1$ và $\lambda_2$ (II, § 5, no. 1). Khi đó, nếu $d$ là một $\varepsilon$-đạo hàm bậc $\delta$ của $(A, A', A'')$ vào $(B, B', B'')$, thì ánh xạ $\bar{d} = d \otimes l_{\overline{K}}$ từ $\overline{A} \oplus \overline{A}' \oplus \overline{A}''$ vào $\overline{B} \oplus \overline{B}' \oplus \overline{B}''$ là một $\varepsilon$-đạo hàm bậc $\delta$ của $(\overline{A}, \overline{A}', \overline{A}'')$ vào $(\overline{B}, \overline{B}', \overline{B}'')$.
 
-#### Ví dụ 6 {#alg-iii-s10-n3-exa-6 .statement}
+#### Ví dụ 6 {#alg-iii-s10-n3-exa-6 .statement tag=066E}
 
 Cho $A$ là một đại số $K$ phân bậc kiểu $\mathbf{Z}$$;$ một ánh xạ $K$-tuyến tính phân bậc bậc 0, $d : A \to A$, được định nghĩa bằng cách đặt, với $x_n \in A_n (n \in \mathbf{Z})$, $d(x_n) = nx_n$. Ánh xạ này là một đạo hàm của $A$, vì, với $x_p \in A_p, x_q \in A_q$,
 $$
@@ -246,7 +246,7 @@ $$
 $$
 Áp dụng định nghĩa này cho đại số phân bậc $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$, như vậy ngoặc $\varepsilon$ của hai nội đồng cấu phân bậc được định nghĩa.
 
-#### Mệnh đề 1 {#alg-iii-s10-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s10-prop-1 .statement tag=066F}
 
 *Cho $d_1, d_2$ là hai $\varepsilon$-đạo hàm của $(A, A', A'')$ có các bậc tương ứng $\delta_1, \delta_2$. Khi đó ngoặc $\varepsilon$*
 $$
@@ -277,7 +277,7 @@ d^2(xy) = (d^2 x)y + \varepsilon_{2\delta, \xi} x(d^2 y)
 $$
 và vì $\varepsilon_{2\delta, \xi} = 1$ nên ta thấy $d^2$ là một đạo hàm.
 
-#### Hệ quả {#alg-iii-s10-n4-cor-1 .statement}
+#### Hệ quả {#alg-iii-s10-n4-cor-1 .statement tag=066G}
 
 *Giả sử rằng $\Delta = \mathbf{Z}$. Khi đó:*
 (i) *Bình phương của một phản đạo hàm là một đạo hàm.*
@@ -287,7 +287,7 @@ và vì $\varepsilon_{2\delta, \xi} = 1$ nên ta thấy $d^2$ là một đạo h
 
 Dưới các giả thiết ở đầu số này, bây giờ xét một dãy hữu hạn $D = (d_i)_{1 \leq i \leq n}$ gồm các *đạo hàm hoán vị từng đôi một* của $(A, A', A'')$. Với mọi đa thức $P(X_1, \ldots, X_n)$ trong đại số $K[X_1, \ldots, X_n]$, phần tử $P(d_1, \ldots, d_n)$ của $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ khi đó được xác định (§ 2, no. 9); ký hiệu rút gọn của nó là $P(D)$.
 
-#### Mệnh đề 2 {#alg-iii-s10-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-s10-prop-2 .statement tag=066H}
 
 *Với các giả thiết và ký hiệu trên đây, xét 2n ẩn số $T_1, \ldots, T_n, T'_1, \ldots, T'_n$ và với mọi đa thức $F \in K[X_1, \ldots, X_n]$ viết $F(T) = F(T_1, \ldots, T_n), F(T') = F(T'_1, \ldots, T'_n)$ và*
 $$
@@ -345,7 +345,7 @@ $$
 
 trong đó các $G_i$ là những phần tử của $B$. Do đó, quan hệ (14) là một hệ quả ngay lập tức của các quan hệ (15).
 
-#### Hệ quả (công thức Leibniz) {#alg-iii-s10-n4-cor-2 .statement}
+#### Hệ quả (công thức Leibniz) {#alg-iii-s10-n4-cor-2 .statement tag=066I}
 
 *Cho $d_i$ ($1 \leq i \leq n$) là $n$ đạo hàm của $(A, A', A'')$ hoán vị được với nhau. Với mọi $\alpha = (\alpha_1, \ldots, \alpha_n) \in \mathbf{N}^n$, ta viết*
 
@@ -387,19 +387,19 @@ $$
 x \otimes a \mapsto x.a \quad \text{và} \quad a \otimes x \mapsto a.x \quad \text{cho } a \in A \text{ và } x \in E.
 $$
 
-#### Mệnh đề 3 {#alg-iii-s10-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-s10-prop-3 .statement tag=066J}
 
 Cho $d : A \to E$ là một $\varepsilon$-đạo hàm bậc $\delta$. Khi đó $\mathrm{Ker}(d)$ là một đại số con phân bậc của A; nếu A có một phần tử đơn vị, thì phần tử ấy thuộc $\mathrm{Ker}(d)$.
 
 Rõ ràng $\mathrm{Ker}(d)$ là một K-môđun con phân bậc của A; hơn nữa, quan hệ (8) của no. 2 cho thấy rằng, nếu $x$ và $y$ là hai phần tử thuần nhất thuộc $\mathrm{Ker}(d)$, thì $d(xy) = 0$ và do đó $xy \in \mathrm{Ker}(d)$. Sau cùng, nếu A có một phần tử đơn vị 1 (bậc 0, xem § 3, no. 1), thì quan hệ (8) của no. 2, trong đó $x$ và $y$ được thay bởi 1, cho $d(1) = d(1) + d(1)$ và do đó $d(1) = 0$.
 
-#### Hệ quả {#alg-iii-s10-n5-cor-1 .statement}
+#### Hệ quả {#alg-iii-s10-n5-cor-1 .statement tag=066K}
 
 Cho $d_1$ và $d_2$ là hai $\varepsilon$-đạo hàm từ A đến E cùng bậc $\delta$. Nếu $d_1$ và $d_2$ nhận cùng giá trị tại mỗi phần tử của một hệ sinh của đại số A, thì $d_1 = d_2$.
 
 $d_1 - d_2$ là một $\varepsilon$-đạo hàm bậc $\delta$, vì vậy $\mathrm{Ker}(d_1 - d_2)$ là một đại số con của A chứa một hệ sinh của A và do đó bằng A.
 
-#### Mệnh đề 4 {#alg-iii-s10-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-s10-prop-4 .statement tag=066L}
 
 Cho $d : A \to E$ là một $\varepsilon$-đạo hàm bậc $\delta$. Giả sử rằng A có một phần tử đơn vị 1 và cho $x$ là một phần tử thuần nhất của A có một nghịch đảo $x^{-1}$ trong A. Khi đó
 
@@ -413,7 +413,7 @@ $$
 $$
 điều này chứng minh công thức thứ nhất của (19). Mặt khác, $x^{-1}$ là thuần nhất bậc $-\deg(x)$ và $\varepsilon_{\delta, \deg(x)} = \varepsilon_{\delta, -\deg(x)}$ theo các công thức (1) của no. 1; viết $d(x^{-1}x) = 0$, ta thu được công thức thứ hai của (19) một cách tương tự.
 
-#### Mệnh đề 5 {#alg-iii-s10-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iii-s10-prop-5 .statement tag=066M}
 
 *Giả sử rằng $\mathbf{A}$ là một miền nguyên và $\mathbf{L}$ là trường phân thức của nó. Mọi đạo hàm của $\mathbf{A}$ vào một không gian vectơ $\mathbf{E}$ trên $\mathbf{L}$ (được coi như một $\mathbf{A}$-môđun) đều có thể được mở rộng duy nhất thành một đạo hàm của $\mathbf{L}$ vào $\mathbf{E}$.*
 
@@ -423,7 +423,7 @@ $$
 $$
 điều này chứng minh tính duy nhất của $\bar{d}$. Ngược lại, ta chỉ ra rằng $\bar{d}$ có thể được xác định bởi công thức (20); trước hết phải kiểm tra rằng nếu $u/v = u'/v'$ thì giá trị của vế phải của (20) không thay đổi khi thay $u$ bằng $u'$ và $v$ bằng $v'$. Thật vậy, $uv' = vu'$, nên $v'(du) + u(dv') = v(du') + u'(dv)$ và do đó $v'(du - uv^{-1}dv) = v(du' - u'{v'}^{-1}dv')$, vì $uv'v^{-1} = u'$ và $u'{v'}^{-1}v = u$. Như vậy đã xác định được một ánh xạ $\bar{d}: \mathbf{L} \to \mathbf{E}$ mở rộng $d$; kiểm tra ngay lập tức được rằng nó là $\mathbf{K}$-tuyến tính và là một đạo hàm.
 
-#### Mệnh đề 6 {#alg-iii-s10-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iii-s10-prop-6 .statement tag=066N}
 
 *Giả sử rằng $\mathbf{A}$ là một $\mathbf{K}$-đại số phân bậc kết hợp có đơn vị và $\mathbf{E}$ là một song môđun phân bậc $(\mathbf{A}, \mathbf{A})$. Nếu $d : \mathbf{A} \to \mathbf{E}$ là một $\varepsilon$-đạo hàm bậc $\delta$, thì với mọi dãy hữu hạn $(x_i)_{1 \leq i \leq n}$ gồm các phần tử thuần nhất của $\mathbf{A}$, có các bậc tương ứng $\xi_i$ ($1 \leq i \leq n$),
 $$
@@ -431,7 +431,7 @@ d(x_1 x_2 \ldots x_n) = \sum_{i=1}^n \varepsilon_{\delta, \xi_1 + \cdots + \xi_{
 $$
 Công thức (21) là tầm thường đối với $n = 0$ và được chứng minh bằng quy nạp theo $n$, có tính đến (4) (no. 2).
 
-#### Hệ quả {#alg-iii-s10-n5-cor-2 .statement}
+#### Hệ quả {#alg-iii-s10-n5-cor-2 .statement tag=066O}
 
 *Giả sử rằng $\mathbf{A}$ là một đại số giao hoán kết hợp có đơn vị và $\mathbf{E}$ là một $\mathbf{A}$-môđun. Nếu $d : \mathbf{A} \to \mathbf{E}$ là một đạo hàm, thì, với mọi số nguyên $n \geq 0$,
 $$
@@ -446,7 +446,7 @@ $$
 
 Nếu $A$ là một đại số phân bậc kết hợp có đơn vị và $E$ là một song môđun phân bậc $(A, A)$ thì theo định nghĩa này suy ra ngay lập tức rằng $Z_\varepsilon$ là một *đại số con phân bậc* của $A$ chứa phần tử đơn vị.
 
-#### Mệnh đề 7 {#alg-iii-s10-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iii-s10-prop-7 .statement tag=066P}
 
 *Giả sử rằng $A$ là một đại số phân bậc kết hợp có đơn vị và $E$ là một song môđun phân bậc $(A, A)$. Cho $d : A \to E$ là một $\varepsilon$-đạo hàm bậc $\delta$ và $a$ là một phần tử thuần nhất của $Z_\varepsilon$ có bậc $\alpha$. Khi đó ánh xạ $x \mapsto a(dx)$ là một $\varepsilon$-đạo hàm bậc $\delta + \alpha$.*
 
@@ -468,7 +468,7 @@ x \mapsto [a, x]_\varepsilon
 $$
 (no. 4, công thức (10)) *phân bậc bậc* $\deg a$.
 
-#### Mệnh đề 8 {#alg-iii-s10-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iii-s10-prop-8 .statement tag=066Q}
 
 *Cho $A$ là một đại số trên K phân bậc.*
 
@@ -501,7 +501,7 @@ có tính đến (1) và tính kết hợp của $A$.
 
 Khi $A$ là kết hợp, $\mathrm{ad}_\varepsilon(a)$ được gọi là *đạo hàm $\varepsilon$-nội* của $A$ xác định bởi $a$.
 
-#### Hệ quả {#alg-iii-s10-n6-cor-1 .statement}
+#### Hệ quả {#alg-iii-s10-n6-cor-1 .statement tag=066R}
 
 *Cho $A$ là một đại số phân bậc kết hợp. Với hai phần tử thuần nhất $a, b$ của $A$,*
 $$
@@ -521,7 +521,7 @@ $$
 
 *Trong số này, mọi đại số đều được giả sử là kết hợp và có đơn vị và mọi đồng cấu đại số đều được giả sử là có đơn vị.*
 
-#### Mệnh đề 9 {#alg-iii-s10-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iii-s10-prop-9 .statement tag=066S}
 
 *Cho $A, B$ là hai $K$-đại số phân bậc, $E$ là một $(A, A)$-song môđun và $F$ là một $(B, B)$-song môđun phân bậc; giả sử $\rho : A \to B$ là một đồng cấu đại số phân bậc và $\theta : E \to F$ là một $A$-đồng cấu phân bậc của các $A$-song môđun (đối với $\rho$), bậc 0. Khi đó:*
 
@@ -537,7 +537,7 @@ $$
 $$
 với $x \in A$ thuần nhất bậc $\xi$ và $y \in A$, $\delta$ và $\delta'$ chỉ các bậc tương ứng của $d$ và $d'$.
 
-#### Hệ quả {#alg-iii-s10-n7-cor-1 .statement}
+#### Hệ quả {#alg-iii-s10-n7-cor-1 .statement tag=066T}
 
 *Cho $S$ là một hệ sinh của đại số $A$. Để có $d' \circ \rho = \theta \circ d$, điều kiện cần và đủ là $d'(\rho(x)) = \theta(d(x))$ với mọi $x \in S$.*
 
@@ -545,7 +545,7 @@ với $x \in A$ thuần nhất bậc $\xi$ và $y \in A$, $\delta$ và $\delta'$
 
 Trong các điều kiện của Mệnh đề 9, ta biết rằng $B$ có (thông qua $\rho$) một cấu trúc song môđun $(A, A)$ (II, § 1, no. 14, *Ví dụ 1*).
 
-#### Mệnh đề 10 {#alg-iii-s10-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iii-s10-prop-10 .statement tag=066U}
 
 *Trong các điều kiện của Mệnh đề 9, để một $\varepsilon$-đạo hàm $d' : B \to F$ là $A$-tuyến tính đối với các cấu trúc A-môđun trái (tương ứng phải) trên $B$ và $\rho^*(F)$, điều kiện cần và đủ là $d'$ bằng không trên đại số con $\rho(A)$ của $B$.*
 
@@ -563,7 +563,7 @@ $$
 
 Bây giờ cho A, B, C là ba đại số trên K phân bậc, $\rho : A \to B, \sigma : B \to C$ là hai đồng cấu đại số phân bậc và G là một song môđun $(C, C)$ phân bậc; nếu $D_A(B, G)$, $D_B(C, G)$ và $D_A(C, G)$ chỉ các K-môđun tương ứng $D_{A,\rho}(B, \sigma_*(G))$, $D_{B,\sigma}(C, G)$ và $D_{A,\sigma \circ \rho}(C, G)$, thì $D_B(C, G)$ rõ ràng là một môđun con trên K của $D_A(C, G)$ vì $\sigma(\rho(A)) \subset \sigma(B)$.
 
-#### Mệnh đề 11 {#alg-iii-s10-prop-11 .statement}
+#### Mệnh đề 11 {#alg-iii-s10-prop-11 .statement tag=066V}
 
 *Trong các điều kiện trên, có một dãy khớp các K-đồng cấu*
 $$
@@ -593,7 +593,7 @@ $$
 
 là đồng nhất ánh xạ $1_A$ là các ánh xạ có dạng $x \mapsto (x, f(x))$, trong đó $f : A \to E$ là một ánh xạ K-tuyến tính phân bậc bậc $\delta$.
 
-#### Mệnh đề 12 {#alg-iii-s10-prop-12 .statement}
+#### Mệnh đề 12 {#alg-iii-s10-prop-12 .statement tag=066W}
 
 *Điều kiện cần và đủ để một ánh xạ K-tuyến tính phân bậc $f : A \to E$ bậc $\delta$ là một $\varepsilon$-đạo hàm là ánh xạ $x \mapsto (x, f(x))$ từ A vào $A \oplus E(\delta)$ là một đồng cấu đại số trên K phân bậc.*
 
@@ -611,7 +611,7 @@ $$
 
 do đó có mệnh đề.
 
-#### Mệnh đề 13 {#alg-iii-s10-prop-13 .statement}
+#### Mệnh đề 13 {#alg-iii-s10-prop-13 .statement tag=066X}
 
 *Điều kiện cần và đủ để đại số $A \oplus E(\delta)$ là kết hợp và có đơn vị là $A$ kết hợp và có đơn vị, và các ánh xạ $(a, x) \mapsto a.x$ và $(a, x) \mapsto x.a$ xác định trên $E$ một cấu trúc song môđun $(A, A)$; khi đó phần tử đơn vị của $A \oplus E(\delta)$ là $(1, 0)$.*
 
@@ -629,7 +629,7 @@ $$
 
 ### 9. MỞ RỘNG CÁC ĐẠO HÀM
 
-#### Mệnh đề 14 {#alg-iii-s10-prop-14 .statement}
+#### Mệnh đề 14 {#alg-iii-s10-prop-14 .statement tag=066Y}
 
 *Cho $A$ là một vành giao hoán, $M$ là một $A$-môđun, $B$ là $A$-đại số $T(M)$ (resp. $S(M)$, resp. $\Lambda(M)$) và $E$ là một $(B, B)$-song môđun. Cho $d_0 : A \to E$ là một đạo hàm của vành $\mathbf{A}$ vào $\mathbf{A}$-môđun $\mathbf{E}$ và $d_1 : M \to \mathbf{E}$ là một đồng cấu nhóm cộng sao cho, với mọi $a \in \mathbf{A}$ và mọi $x \in M$,
 
@@ -659,7 +659,7 @@ $$
 
 mà có $(1, 0)$ làm phần tử đơn vị (no. 8, Mệnh đề 13). Dưới đơn ánh chính tắc $t \mapsto (0, t)$, $\mathbf{E}$ được đồng nhất với một iđêan hai phía của $B \oplus \mathbf{E}$ sao cho $\mathbf{E}^2 = \{0\}$. Mặt khác, ánh xạ $h_0 : B \oplus \mathbf{E}$ xác định bởi $h_0(a) = (a, d_0(a))$ là một đồng cấu vành có đơn vị (no. 8, Mệnh đề 12); qua ánh xạ này, $B \oplus \mathbf{E}$ khi đó trở thành một $\mathbf{A}$-đại số. Hơn nữa, nếu với mọi $x \in M$, ta viết $h_1(x) = (x, d_1(x))$, thì từ định nghĩa của $h_0$ và (29) suy ra rằng $h_1(ax) = h_0(a)h_1(x)$; nói cách khác, $h_1$ là một ánh xạ $\mathbf{A}$-tuyến tính từ $M$ vào $B \oplus \mathbf{E}$. Khi đó tồn tại một và chỉ một đồng cấu đại số $\mathbf{A}$, $h : B \to B \oplus \mathbf{E}$ sao cho $h|_M = h_1$ (và tất yếu $h|_{\mathbf{A}} = h_0$): thật vậy, nếu $B = T(M)$, điều này suy ra từ $§ 5$, no. 1, Mệnh đề 1; nếu $B = S(M)$, điều kiện (30) cho thấy rằng $h(x)h(y) = h(y)h(x)$ với mọi $x, y$ trong $M$ và kết luận suy ra từ $§ 6$, no. 1, Mệnh đề 2; sau cùng nếu $B = \bigwedge(M)$, điều kiện (31) cho thấy rằng $(h(x))^2 = 0$ với mọi $x \in M$, vì $x \wedge x = 0$ và kết luận suy ra từ $§ 7$, no. 1, Mệnh đề 1. Đồng cấu $h$ có tính chất là hợp thành $p \circ h : B \to B$ với phép tăng cường $\rho : B \oplus \mathbf{E} \to B$ là đồng nhất $l_B$, vì $p \circ h$ và $l_B$ trùng nhau theo định nghĩa trên các phần tử của $\mathbf{A}$ và các phần tử của $M$ và tập hợp các phần tử ấy là một hệ sinh của $B$. Do đó ta có thể viết $h(b) = (b, d(b))$ với mọi $b \in B$ và ánh xạ $b \mapsto d(b)$ từ $B$ vào $\mathbf{E}$ là một đạo hàm có các tính chất đã yêu cầu, theo Mệnh đề 12 của no. 8.
 
-#### Hệ quả {#alg-iii-s10-n9-cor-1 .statement}
+#### Hệ quả {#alg-iii-s10-n9-cor-1 .statement tag=066Z}
 
 *Cho $M$ là một K-môđun phân bậc kiểu $\Delta$; các K-đại số $T(M)$, $S(M)$ và $\bigwedge(M)$ được cho các phân bậc tương ứng kiểu $\Delta' = \Delta \times \mathbf{Z}$ ($§ 5$, no. 5, Proposition 7, $§ 6$, no. 6, Proposition 10 và $§ 7$, no. 7, Proposition 11). Mặt khác $M$ được cho phân bậc kiểu $\Delta'$ sao cho $M_{\alpha, 1} = M_{\alpha}$ với mọi $\alpha \in \Delta$ và $M_{\alpha, n} = \{0\}$ với $\alpha \in \Delta$ và $n \neq 1$. Cho $\varepsilon'$ là một nhân tử giao hoán trên $\Delta'$.*
 
@@ -711,7 +711,7 @@ $$
 
 Trong trường hợp của đại số $\Lambda(M)$, có cách giải thích sau đây về $D_s$:
 
-#### Mệnh đề 15 {#alg-iii-s10-prop-15 .statement}
+#### Mệnh đề 15 {#alg-iii-s10-prop-15 .statement tag=0670}
 
 *Nếu $M$ là một K-môđun tự do hạng hữu hạn $n$, thì với mọi tự đồng cấu $s$ của $M$, hạn chế của đạo hàm $D_s$ lên $\Lambda^n(M)$ là phép vị tự có tỷ số $\operatorname{Tr}(s)$.*
 
@@ -731,7 +731,7 @@ i(x^*)(x_1 \wedge \cdots \wedge x_n)
 $$
 và đây là một trường hợp riêng của tích nội sẽ được định nghĩa trong § 11, no. 9, công thức (68).
 
-#### Mệnh đề 16 {#alg-iii-s10-prop-16 .statement}
+#### Mệnh đề 16 {#alg-iii-s10-prop-16 .statement tag=0671}
 
 *Cho $A$ là một K-đại số giao hoán, $M_i$ ($1 \leq i \leq n$) và $P$ là các A-môđun và $H$ là A-môđun các ánh xạ A-đa tuyến tính của $M_1 \times M_2 \times \cdots \times M_n$* vào P. Giả sử cho một K-đạo hàm $d_0 : A \to A$ của đại số A, với mỗi i, một ánh xạ K-tuyến tính $d_i : M_i \to M_i$ và một ánh xạ K-tuyến tính $D : P \to P$, sao cho, với $1 \leq i \leq n$, $(d_0, d_i, d_i)$ là một K-đạo hàm của $(A, M_i, M_i)$ vào chính nó và $(d_0, D, D)$ là một K-đạo hàm của $(A, P, P)$ vào chính nó. Khi đó tồn tại một ánh xạ K-tuyến tính $D' : H \to H$ sao cho $(d_0, D', D')$ là một K-đạo hàm của $(A, H, H)$ vào chính nó và
 
@@ -790,7 +790,7 @@ $$
 
 điều này chứng minh mệnh đề.
 
-#### Ví dụ {#alg-iii-s10-n9-exa-1 .statement}
+#### Ví dụ {#alg-iii-s10-n9-exa-1 .statement tag=0672}
 
 (3) Áp dụng Mệnh đề 16 cho trường hợp $n = 1$, $M_1 = M$, $P = A$, khi đó $H = M^*$, đối ngẫu của M, và thấy rằng từ một K-đạo hàm $(d_0, d, d')$ của $(A, M, M)$ suy ra một K-đạo hàm $(d_0, d^*, d^*)$ của $(A, M^*, M^*)$ sao cho
 
@@ -820,7 +820,7 @@ x . (u \otimes v) . y = (xu) \otimes (vy)
 $$
 với mọi $x, y, u, v$ trong $A$ ($§ 4$, no. 3, Ví dụ 2). Ánh xạ $K$-tuyến tính $m : A \otimes_K A \to A$ tương ứng với phép nhân trong $A$ (và do đó thỏa mãn $m(x \otimes y) = xy$) là một đồng cấu song môđun $(A, A)$; vì vậy hạt nhân $I$ của nó là một môđun con song của $A \otimes_K A$.
 
-#### Bổ đề 1 {#alg-iii-s10-lem-1 .statement}
+#### Bổ đề 1 {#alg-iii-s10-lem-1 .statement tag=0673}
 
 *Ánh xạ $\delta_A : x \mapsto x \otimes 1 - 1 \otimes x$ là một đạo hàm $K$ của $A$ vào $I$ và $I$ được sinh, như một A-môđun trái, bởi ảnh của $\delta_A$.*
 
@@ -836,7 +836,7 @@ $$
 $$
 theo (40), điều này hoàn thành chứng minh của bổ đề.
 
-#### Mệnh đề 17 {#alg-iii-s10-prop-17 .statement}
+#### Mệnh đề 17 {#alg-iii-s10-prop-17 .statement tag=0674}
 
 *Đạo hàm* $\delta_A$ *có tính chất phổ quát sau*: với mọi song môđun $(A, A)$ $E$ và mọi đạo hàm $K$ $d : A \to E$, tồn tại một và chỉ một đồng cấu song môđun $(A, A)$ $f : I \to E$ sao cho $d = f \circ \delta_A$.
 
@@ -902,11 +902,11 @@ $$
 
 Có tính đến Mệnh đề 17 của no. 10, ta thấy rằng ta đã chứng minh mệnh đề sau:
 
-#### Mệnh đề 18 {#alg-iii-s10-prop-18 .statement}
+#### Mệnh đề 18 {#alg-iii-s10-prop-18 .statement tag=0675}
 
 *Cho $A$ là một $K$-đại số giao hoán và $\mathfrak{J}$ là iđêan bằng hạt nhân của đồng cấu chính tắc toàn ánh $m : A \otimes_K A \to A$, sao cho $A$ đẳng cấu với $(A \otimes_K A)/\mathfrak{J}$ và $\mathfrak{J}/\mathfrak{J}^2$ một cách chính tắc có cấu trúc $A$-môđun. Gọi $d_{A/K} : A \to I/I^2$ là ánh xạ $K$-tuyến tính gán cho mỗi $x \in A$ lớp của $x \otimes 1 - 1 \otimes x$ modulo $\mathfrak{J}^2$. Ánh xạ $d_{A/K}$ là một $K$-đạo hàm và, với mọi $A$-môđun $E$ và mọi $K$-đạo hàm $D : A \to E$, tồn tại một và chỉ một ánh xạ $A$-tuyến tính $g : \mathfrak{J}/\mathfrak{J}^2 \to E$ sao cho $D = g \circ d_{A/K}$.*
 
-#### Ví dụ {#alg-iii-s10-n11-exa-1 .statement}
+#### Ví dụ {#alg-iii-s10-n11-exa-1 .statement tag=0676}
 
 Cho M là một K-môđun; từ Mệnh đề 14 của no. 9 suy ra rằng với mọi S(M)-môđun E, ánh xạ D ↦ D | M xác định một đẳng cấu S(M)-môđun từ D_K(S(M), E) lên Hom_K(M, E); mặt khác, vì E là một S(M)-môđun, Hom_K(M, E) đẳng cấu chính tắc với
 
@@ -944,7 +944,7 @@ với $D_i P \in K[X_1, \ldots, X_n]$ và, theo điều trên, các ánh xạ $P
 
 ### 12. CÁC TÍNH CHẤT HÀM TỬ CỦA VI PHÂN K
 
-#### Mệnh đề 19 {#alg-iii-s10-prop-19 .statement}
+#### Mệnh đề 19 {#alg-iii-s10-prop-19 .statement tag=0677}
 
 *Cho*
 
@@ -1013,7 +1013,7 @@ $$
 
 điều này suy ra ngay lập tức từ Mệnh đề 19 và định nghĩa của các đẳng cấu $\phi_A$ và $\phi_{A'}$.
 
-#### Mệnh đề 20 {#alg-iii-s10-prop-20 .statement}
+#### Mệnh đề 20 {#alg-iii-s10-prop-20 .statement tag=0678}
 
 *Giả sử rằng $A' = A \otimes_K K'$, với $\eta': K' \to A'$ và $u: A \to A'$ là các đồng cấu chính tắc. Khi đó ánh xạ $A'$-tuyến tính*
 
@@ -1055,7 +1055,7 @@ $$
 
 trong đó $j_u$ là đơn ánh chính tắc (no. 7); điều này suy ra ngay lập tức từ Mệnh đề 18 của no. 11.
 
-#### Mệnh đề 21 {#alg-iii-s10-prop-21 .statement}
+#### Mệnh đề 21 {#alg-iii-s10-prop-21 .statement tag=0679}
 
 *Dãy các ánh xạ $B$-tuyến tính*
 
@@ -1099,7 +1099,7 @@ $$
 
 và vì $\mathfrak{J}$ triệt tiêu A-môđun $\mathfrak{J}/\mathfrak{J}^2$, nên $\bar{d}$ là một ánh xạ B-tuyến tính.
 
-#### Mệnh đề 22 {#alg-iii-s10-prop-22 .statement}
+#### Mệnh đề 22 {#alg-iii-s10-prop-22 .statement tag=067A}
 
 *Cho $\mathfrak{J}$ là một iđêan của đại số giao hoán trên K A, $B = A/\mathfrak{J}$ và $u : A \to B$ là đồng cấu chính tắc. Khi đó dãy các ánh xạ B-tuyến tính*
 
@@ -1121,7 +1121,7 @@ Có tính đến tính duy nhất của nghiệm của một bài toán ánh x�
 
 Không được nghĩ rằng, ngay cả nếu u: A → B là một đơn cấu, Ω_0(u): Ω_K(A) ⊗_A B → Ω_K(B) cũng là đơn ánh (Bài tập 5). Tuy nhiên ta có mệnh đề sau:
 
-#### Mệnh đề 23 {#alg-iii-s10-prop-23 .statement}
+#### Mệnh đề 23 {#alg-iii-s10-prop-23 .statement tag=067B}
 
 Cho A là một đại số nguyên trên K, B là trường các phân thức của nó và u: A → B là đơn ánh chính tắc. Khi đó Ω_0(u): Ω_K(A) ⊗_A B → Ω_K(B) là một đẳng cấu.
 

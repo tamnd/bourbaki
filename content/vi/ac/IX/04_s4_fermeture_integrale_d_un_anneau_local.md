@@ -29,7 +29,7 @@ subsections:
       pdf_page: 146
 statements: 25
 exercises: 32
-content_sha256: 923a9d4c9119e4dce0be1ba954e46e8882a8325f0c6eb5cecd8015888b444a55
+content_sha256: 0a13699f5da5afb770d88a648afc40a433a84c240a4dbf4fb3e3315df8c65625
 translated_from: content/en-mt/ac/IX/04_s4_fermeture_integrale_d_un_anneau_local.md
 source_lang: en-mt
 translation_method: machine
@@ -45,29 +45,29 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các vành Nhật Bản
 
-#### Định nghĩa 1 {#ac-ix-s4-def-1 .statement}
+#### Định nghĩa 1 {#ac-ix-s4-def-1 .statement tag=0CY1}
 
 Cho $A$ là một vành nguyên Noether. Ta nói rằng $A$ là Nhật Bản nếu đóng nguyên của $A$ trong mọi mở rộng hữu hạn của trường phân thức của nó là một đại số hữu hạn trên $A$.
 
-#### Nhận xét 1 {#ac-ix-s4-n1-rem-1 .statement}
+#### Nhận xét 1 {#ac-ix-s4-n1-rem-1 .statement tag=0CY2}
 
 Điều này tương đương với việc nói rằng $A$ thỏa mãn điều kiện sau: mọi đại số nguyên $A$ $B$ nguyên trên $A$, được chứa trong một mở rộng sinh hữu hạn của trường phân thức $K$ của $A$, là một đại số hữu hạn trên $A$. Thật vậy, trường phân thức $L$ của $B$ là một mở rộng đại số của $K$, và do đó có bậc hữu hạn trên $K$ (A, V, p. 112, hệ quả 1 của mệnh đề 17). Đại số trên $A$ $B$ được chứa trong đóng nguyên của $A$ trong $L$, và do đó là hữu hạn nếu cái sau là hữu hạn.
 
-#### Ví dụ {#ac-ix-s4-n1-exa-1 .statement}
+#### Ví dụ {#ac-ix-s4-n1-exa-1 .statement tag=0CY4}
 
 Mọi đại số nguyên sinh hữu hạn trên một trường đều là một vành Nhật Bản (V, § 3, No. 2, định lý 2).
 
-#### Mệnh đề 1 {#ac-ix-s4-prop-1 .statement}
+#### Mệnh đề 1 {#ac-ix-s4-prop-1 .statement tag=0CY5}
 
 Cho A là một vành nguyên Noether, K là trường phân thức của nó. Giả sử rằng với mọi mở rộng radicial hữu hạn L của K, đóng nguyên của A trong L là một đại số hữu hạn trên A. Khi đó vành A là Nhật Bản.
 
 Cho E là một mở rộng hữu hạn của K. Cho N là một mở rộng gần-Galois hữu hạn của K chứa E (A, V, p. 54, hệ quả 1), và L là trường các bất biến của nhóm các tự đẳng cấu K của N. Khi đó (A, V, p. 73, mệnh đề 13), L là một mở rộng radicial của K và N là một mở rộng tách được của L. Đóng nguyên B của A trong L do đó theo giả thiết là một đại số hữu hạn trên A; đóng nguyên C của B trong N là một đại số hữu hạn trên B (V, § 1, No. 6, hệ quả 1 của mệnh đề 18), do đó là một đại số hữu hạn trên A. Đóng nguyên của A trong E được chứa trong C, và do đó là một đại số hữu hạn trên A vì A là Noether.
 
-#### Hệ quả {#ac-ix-s4-n1-cor-1 .statement}
+#### Hệ quả {#ac-ix-s4-n1-cor-1 .statement tag=0CY6}
 
 Giả sử trường K hoàn hảo (chẳng hạn có đặc số 0). Khi đó A là Nhật Bản khi và chỉ khi đóng nguyên của nó là một đại số hữu hạn trên A.
 
-#### Mệnh đề 2 {#ac-ix-s4-prop-2 .statement}
+#### Mệnh đề 2 {#ac-ix-s4-prop-2 .statement tag=0CY7}
 
 Cho B là một vành nguyên Noether và A là một vành con Noether của B, sao cho B là một đại số hữu hạn trên A. Để A là Nhật Bản, điều kiện cần và đủ là B là Nhật Bản.
 
@@ -77,7 +77,7 @@ Ngược lại, giả sử B là Nhật Bản và cho N là một mở rộng h�
 
 ### 2. Định lý Nagata
 
-#### Định lý 1 (Tate) {#ac-ix-s4-thm-1 .statement}
+#### Định lý 1 (Tate) {#ac-ix-s4-thm-1 .statement tag=0CY8}
 
 Cho A là một vành Noether đóng nguyên, a là một phần tử của A. Giả sử rằng iđêan $aA$ là nguyên tố, rằng vành $A/aA$ là Nhật Bản, và rằng A là đầy đủ đối với tôpô $aA$-adic. Khi đó vành A là Nhật Bản.
 
@@ -93,19 +93,19 @@ d) Vành $B/xB$ là nguyên trên vành Nhật Bản $A/aA$ và trường phân 
 
 e) Ta trang bị cho vành A với lọc $(aA)$-adic và vành B với lọc $(aB)$-adic. Khi đó A là đầy đủ theo giả thiết; vì $B_{xB}$ là một miền nguyên và Noether, lọc $aB_{xB}$-adic của $B_{xB}$ là tách được (III, § 3, No. 2, hệ quả của mệnh đề 5); do đó ta có $\bigcap a^nB \subset \bigcap a^nB_{xB} = {0}$, và lọc $aB$-adic của B là tách được; môđun gr(A)-môđun gr(B) được sinh bởi gr_0(B), do đó là sinh hữu hạn theo d). Từ III, § 2, No. 9, hệ quả 1 của mệnh đề 12, suy ra rằng B là một A-môđun sinh hữu hạn, điều này hoàn tất chứng minh.
 
-#### Hệ quả {#ac-ix-s4-n2-cor-1 .statement}
+#### Hệ quả {#ac-ix-s4-n2-cor-1 .statement tag=0CY9}
 
 Cho R là một miền nguyên Noether và n là một số nguyên. Nếu R là Japanese, vành $R[[T_1, ..., T_n]]$ là Japanese.
 
 Lập luận bằng quy nạp, ta có thể giả sử rằng $n = 1$. Gọi S là bao đóng nguyên của R; nếu R là Japanese, S là một đại số hữu hạn trên R, do đó là một vành Japanese (No. 1, mệnh đề 2). Vành S[[T]] là Noether và đóng nguyên (V, § 1, No. 4, mệnh đề 14); áp dụng Định lý 1 cho $A = S[[T]]$ và $a = T$, ta suy ra S[[T]] là Japanese. Do đó R[[T]] là Japanese (No. 1, mệnh đề 2).
 
-#### Định lý 2 (Nagata) {#ac-ix-s4-thm-2 .statement}
+#### Định lý 2 (Nagata) {#ac-ix-s4-thm-2 .statement tag=0CYA}
 
 Mọi miền nguyên Noether địa phương đầy đủ A đều là Japanese.
 
 Theo Định lý 3 của § 2, No. 5 và Định lý 2 của § 3, No. 3, tồn tại một số nguyên $n \geq 0$, một vành R là một trường hoặc một vành định giá rời rạc với trường phân thức có đặc số 0, và một vành con B của A, đẳng cấu với R[[T₁, ..., Tₙ]] và sao cho A là một đại số hữu hạn trên B. Khi đó R là Japanese (No. 1, ví dụ và hệ quả của mệnh đề 1), do đó B là Japanese (hệ quả của Định lý 1), và A là Japanese (No. 1, mệnh đề 2).
 
-#### Hệ quả {#ac-ix-s4-n2-cor-2 .statement}
+#### Hệ quả {#ac-ix-s4-n2-cor-2 .statement tag=0CYB}
 
 Cho A là một vành Noether nửa địa phương có hoàn thành là giảm. Khi đó bao đóng nguyên A' của A trong vành phân thức toàn phần R của nó là một A-đại số hữu hạn.
 
@@ -117,7 +117,7 @@ Ta chuyển sang trường hợp tổng quát, và nhận xét rằng hoàn thà
 
 Nhắc lại (A, V, p. 114, định nghĩa 1) rằng một đại số E trên một trường K được gọi là tách được nếu vành L ⊗_K E là giảm với mọi mở rộng L của K; chỉ cần điều này đúng với mọi mở rộng hữu hạn của K. Mệnh đề sau đây mở rộng Định lý 2:
 
-#### Mệnh đề 3 {#ac-ix-s4-prop-3 .statement}
+#### Mệnh đề 3 {#ac-ix-s4-prop-3 .statement tag=0CYC}
 
 Cho A là một miền nguyên Noether nửa địa phương, K là trường phân thức của nó. Nếu K-đại số K ⊗_A Â là tách được, vành A là Japanese.
 
@@ -125,7 +125,7 @@ Cho L là một mở rộng hữu hạn của K và B là bao đóng nguyên c�
 
 ### 3. Một số bổ đề
 
-#### Bổ đề 1 {#ac-ix-s4-lem-1 .statement}
+#### Bổ đề 1 {#ac-ix-s4-lem-1 .statement tag=0CYD}
 
 Cho A là một vành Noether nửa địa phương và B là một A-đại số hữu hạn. Khi đó vành B là nửa địa phương và Noether; gọi m₁, ..., mₙ là các iđêan cực đại của nó.
 
@@ -133,19 +133,19 @@ Cho A là một vành Noether nửa địa phương và B là một A-đại s�
 
 Theo IV, § 2, No. 5, hệ quả 3 của mệnh đề 9, vành B là nửa địa phương và $m_A B$ là một iđêan định nghĩa của nó. Theo III, § 3, No. 4, định lý 3, (ii), vành $\hat{A} \otimes_A B$ là hoàn thành của B đối với tôpô được xác định bởi căn của nó; khi đó áp dụng III, § 2, No. 13, hệ quả của mệnh đề 19.
 
-#### Bổ đề 2 {#ac-ix-s4-lem-2 .statement}
+#### Bổ đề 2 {#ac-ix-s4-lem-2 .statement tag=0CYE}
 
 Cho A là một vành Noether và M là một A-môđun. Ánh xạ chính tắc của M vào tích $\prod_{p \in \mathrm{Ass}(M)} M_p$ là đơn ánh.
 
 Thật vậy, cho m là một phần tử khác không của M; khi đó Ann(m) được chứa trong một iđêan nguyên tố p của A liên kết với M (IV, § 1, No. 1, mệnh đề 2), và ảnh của m trong $M_p$ là khác không (II, § 2, No. 2, mệnh đề 4).
 
-#### Bổ đề 3 {#ac-ix-s4-lem-3 .statement}
+#### Bổ đề 3 {#ac-ix-s4-lem-3 .statement tag=0CYF}
 
 Cho $A$ là một vành Noether, $x$ là một phần tử của $A$, $M$ là một A-môđun sinh hữu hạn, và $p$ là một iđêan nguyên tố của $A$ liên kết với $M$. Giả sử rằng phép vị tự $x_M$ là đơn ánh. Gọi $q$ là một iđêan nguyên tố của $A$, cực tiểu trong số các iđêan chứa $p + xA$. Khi đó $q$ liên kết với A-môđun $M/xM$.
 
 Cho $N$ là môđun con của $M$ tạo bởi các phần tử $m$ sao cho $pm = 0$. Ta có $N \cap xM = xN$; thật vậy, nếu một phần tử $m$ của $M$ sao cho $pxm = 0$, thì $pm = 0$ vì $x_M$ là đơn ánh, do đó $m \in N$. Do đó, $A$-môđun $N/xN$ là đẳng cấu với môđun con $(N + xM)/xM$ của $M/xM$, và chỉ cần chứng minh rằng $q$ liên kết với $N/xN$. Vì $p$ liên kết với $M$, tồn tại một phần tử $m$ của $M$ sao cho $p = \mathrm{Ann}(m)$; ta có $m \in N$, do đó $p = \mathrm{Ann}(N)$ và vì vậy $\mathrm{Supp}(N/xN) = V(p + xA)$ theo II, § 4, No. 4, hệ quả của mệnh đề 18; do đó, $q$ liên kết với $N/xN$ (IV, § 1, No. 4, định lý 2).
 
-#### Bổ đề 4 {#ac-ix-s4-lem-4 .statement}
+#### Bổ đề 4 {#ac-ix-s4-lem-4 .statement tag=0CYG}
 
 Cho $A$ là một vành định giá rời rạc, $B$ là một vành địa phương Noether, và $\rho : A \to B$ là một đồng cấu địa phương và phẳng. Nếu vành $\kappa_A \otimes_A B$ là giảm, thì $B$ là giảm.
 
@@ -153,27 +153,27 @@ Giả sử tồn tại một phần tử lũy linh khác không $x$ của $B$, v
 
 ### 4. Vành Nagata
 
-#### Định nghĩa 2 {#ac-ix-s4-def-2 .statement}
+#### Định nghĩa 2 {#ac-ix-s4-def-2 .statement tag=0CYH}
 
 Một vành $A$ được gọi là một vành Nagata nếu nó là Noether và nếu, với mọi iđêan nguyên tố $p$ của $A$, vành nguyên Noether $A/p$ là Japanese (No. 1, định nghĩa 1).
 
-#### Ví dụ 1 {#ac-ix-s4-n4-exa-1 .statement}
+#### Ví dụ 1 {#ac-ix-s4-n4-exa-1 .statement tag=0CYI}
 
 Mọi đại số sinh hữu hạn trên một trường đều là một vành Nagata (No. 1, ví dụ).
 
-#### Ví dụ 2 {#ac-ix-s4-n4-exa-2 .statement}
+#### Ví dụ 2 {#ac-ix-s4-n4-exa-2 .statement tag=0CYJ}
 
 Mọi vành địa phương Noether đầy đủ đều là một vành Nagata (No. 2, định lý 2).
 
-#### Ví dụ 3 {#ac-ix-s4-n4-exa-3 .statement}
+#### Ví dụ 3 {#ac-ix-s4-n4-exa-3 .statement tag=0CYK}
 
 Vành $\mathbf{Z}$ là một vành Nagata (No. 1, ví dụ và hệ quả của mệnh đề 1).
 
-#### Ví dụ 4 {#ac-ix-s4-n4-exa-4 .statement}
+#### Ví dụ 4 {#ac-ix-s4-n4-exa-4 .statement tag=0CYL}
 
 Có thể chứng minh (bài tập 30) rằng mọi đại số sinh hữu hạn trên một vành Nagata đều là một vành Nagata.
 
-#### Mệnh đề 4 {#ac-ix-s4-prop-4 .statement}
+#### Mệnh đề 4 {#ac-ix-s4-prop-4 .statement tag=0CYM}
 
 Cho $A$ là một vành Nagata.
 a) Mọi đại số $A$ hữu hạn đều là một vành Nagata.
@@ -181,7 +181,7 @@ b) Với mọi tập con nhân $S$ của $A$, vành $S^{-1}A$ là một vành Na
 a) Cho $B$ là một đại số $A$ hữu hạn, $\rho : A \to B$ là đồng cấu chính tắc. Với mọi iđêan nguyên tố $p$ của $B$, vành $B/p$, là một đại số hữu hạn trên vành Nhật $A/\rho^{-1}(p)$, là Nhật (No. 1, mệnh đề 2).
 b) Cho $q$ là một iđêan nguyên tố của $S^{-1}A$; khi đó tồn tại một iđêan nguyên tố $p$ của $A$ sao cho $q = S^{-1}p$. Vành $(S^{-1}A)/q$ là một vành phân thức của vành Nhật $A/p$, và do đó là Nhật (No. 1, nhận xét 2).
 
-#### Định lý 3 (Zariski-Nagata) {#ac-ix-s4-thm-3 .statement}
+#### Định lý 3 (Zariski-Nagata) {#ac-ix-s4-thm-3 .statement tag=0CYN}
 
 Cho $A$ là một vành Noether nửa địa phương. Các điều kiện sau là tương đương:
 (i) $A$ là một vành Nagata;
@@ -197,17 +197,17 @@ Ta chứng minh sự kéo theo (i) $\Rightarrow$ (ii) bằng quy nạp theo $\di
 
 Cho $A$ là một vành Nagata Noether nửa địa phương có chiều $n$, cho $p$ là một iđêan nguyên tố của $A$ và $L$ là một mở rộng hữu hạn của trường $\kappa(p)$; chỉ cần chứng minh,
 
-#### Hệ quả 1 {#ac-ix-s4-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-ix-s4-thm-3-cor-1 .statement tag=0CYO}
 
 *Hoàn thành của một vành Nagata địa phương rút gọn là rút gọn.*
 Thực vậy, chỉ cần đặt R = A trong Định lý 3, (iii).
 
-#### Hệ quả 2 (Chevalley) {#ac-ix-s4-thm-3-cor-2 .statement}
+#### Hệ quả 2 (Chevalley) {#ac-ix-s4-thm-3-cor-2 .statement tag=0CYP}
 
 *Cho A là một đại số rút gọn hữu hạn kiểu trên một trường, và p là một iđêan nguyên tố của A. Hoàn thành của vành địa phương $A_p$ là rút gọn.*
 Vì A là rút gọn, vành địa phương $A_p$ là rút gọn; hơn nữa A là một vành Nagata (ví dụ 1), do đó $A_p$ là một vành Nagata (Mệnh đề 4), và Hệ quả 2 suy ra từ Hệ quả 1, áp dụng cho vành $A_p$.
 
-#### Hệ quả 3 {#ac-ix-s4-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-ix-s4-thm-3-cor-3 .statement tag=0CYQ}
 
 *Cho $k$ là một trường có đặc số 0, và $A$ là một $k$-đại số địa phương Noether. Để $A$ là một vành Nagata, điều kiện cần và đủ là, với mọi iđêan nguyên tố $p$ của $A$, vành $(\widehat{A/p})$ là giảm.*
 Thật vậy, vì các trường $\kappa(p)$ có đặc số 0, điều này tương đương với việc nói rằng các đại số $\kappa(p) \otimes_A \hat{A} = \kappa(p) \otimes_{A/p} (\widehat{A/p})$ là giảm hoặc chúng là tách được (A, V, p. 117, Định lý 1), điều này cho thấy điều kiện đã nêu là đủ (Định lý 3, (ii) ⇒ (i)); hơn nữa nó là cần thiết (Định lý 3, (i) ⇒ (iii) với R = A/p).

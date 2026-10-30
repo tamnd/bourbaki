@@ -58,9 +58,9 @@ subsections:
       pdf_page: 361
 statements: 12
 exercises: 6
-content_sha256: 5aa86ccc358d8bb2246b6bfef34a536a96a0d9e83120ad11d2225820cfc956cd
+content_sha256: c8e919df66376cab10535a896d0ffe4ac37dbd78e31cd32b6a0b26c09bf03ba9
 translated_from: content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md
-source_content_sha256: 6d5414948dceab419cbfb016f0d02a94213bdb1f5a7f8c8b4975a8a4bd8908c9
+source_content_sha256: deaf2e284f8df7e22f7c5da850928b8f961fc09326f976f2aed34d10f8f21e0e
 translation_model: gpt-5.4
 translation_run: translate-vi-57309ea3
 glossary_version: 34
@@ -72,7 +72,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA KHÔNG GIAN AFIN
 
-#### Định nghĩa 1 {#alg-ii-s9-def-1 .statement}
+#### Định nghĩa 1 {#alg-ii-s9-def-1 .statement tag=05VM}
 
 *Cho một không gian vectơ trái (tương ứng phải) T trên một trường K, một không gian afin gắn với T là mọi không gian thuần nhất E của nhóm cộng T* (I, § 5, no. 5) *sao cho 0 là toán tử duy nhất trong T để bất biến mọi phần tử của E* (nghĩa là, T *tác động trung thành và bắc cầu trên E*). *Trong các điều kiện đó, T được gọi là không gian tịnh tiến của E và các phần tử của nó được gọi là các phép tịnh tiến của E* (hoặc *các vectơ tự do của E*).
 
@@ -103,13 +103,13 @@ và tính giao hoán của phép cộng trong T cho thấy rằng $b' - b = a' -
 
 Cho một điểm $a \in E$, ánh xạ $x \mapsto x - a$ là một song ánh từ $E$ lên $T$; khi E được đồng nhất với $T$ qua ánh xạ này, ta nói rằng E được xét như không gian vectơ thu được *bằng cách lấy $a$ làm gốc* trong E. Ngược lại, mọi không gian vectơ $T$ đều có một cách chính tắc cấu trúc của một không gian afin gắn với $T$, cụ thể là cấu trúc không gian thuần nhất tương ứng với nhóm con $\{0\}$ của $T$ (I, § 5, no. 6).
 
-#### Nhận xét {#alg-ii-s9-n1-rem-1 .statement}
+#### Nhận xét {#alg-ii-s9-n1-rem-1 .statement tag=05VN}
 
 Các định nghĩa của số này và một số kết quả tiếp theo được mở rộng ngay lập tức cho trường hợp trong đó, thay vì một không gian vectơ $T$, ta xét một *nhóm giao hoán có toán tử* tùy ý $T$.
 
 ### 2. PHÉP TÍNH TRỌNG TÂM
 
-#### Mệnh đề 1 {#alg-ii-s9-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ii-s9-prop-1 .statement tag=05VO}
 
 *Cho* $(x_i)_{i \in I}$ *là một họ các điểm trong một không gian afin* $E$ *và* $(\lambda_i)_{i \in L}$ *là một họ các phần tử của* $K$ *có giá hữu hạn sao cho* $\sum_{i \in I} \lambda_i = 1$ *(*tương ứng $\sum_{i \in I} \lambda_i = 0$*). *Nếu* $a$ *là một điểm tùy ý của* $E$, *thì điểm* $x \in E$ *được xác định bởi*
 $$
@@ -140,7 +140,7 @@ $$
 
 ### 3. ĐA TẠP TUYẾN TÍNH AFIN
 
-#### Định nghĩa 2 {#alg-ii-s9-def-2 .statement}
+#### Định nghĩa 2 {#alg-ii-s9-def-2 .statement tag=05VP}
 
 *Cho một không gian afin* $E$, *một tập con* $V$ *của* $E$ *được gọi là một đa tạp tuyến tính afin* (hay đơn giản là một *đa tạp tuyến tính* hoặc một *tập con afin* của $E$) *nếu, với mọi họ* $(x_i)_{i \in I}$ *các điểm của* $V$ *và mọi họ* $(\lambda_i)_{i \in I}$ *các phần tử của* $K$ *có giá hữu hạn sao cho* $\sum_{i \in I} \lambda_i = 1$, *trọng tâm* $\sum_{i \in I} \lambda_i x_i$ *thuộc* $V$.
 
@@ -154,7 +154,7 @@ x - a = \sum_{i=1}^n \lambda_i (x_i - a)
 $$
 có nghĩa là $x$ là một trọng tâm $\sum_{i=1}^n \lambda_i x_i + \left(1 - \sum_{i=1}^n \lambda_i\right)a$ của họ gồm các $x_i$ và $a$. Do đó:
 
-#### Mệnh đề 2 {#alg-ii-s9-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ii-s9-prop-2 .statement tag=05VQ}
 
 *Để một tập con khác rỗng* $V$ *của một không gian afin* $E$ *là một đa tạp tuyến tính, điều kiện cần và đủ là* $V$ *là một không gian con vectơ đối với cấu trúc không gian vectơ trên* $E$ *nhận được bằng cách lấy một điểm của* $V$ *làm gốc.*
 
@@ -172,7 +172,7 @@ Mọi vectơ $\neq 0$ thuộc phương của một đường thẳng được g�
 
 Hai đa tạp tuyến tính có cùng phương được gọi là *song song*; điều đó tương đương với việc nói rằng một đa tạp được dẫn xuất từ đa tạp kia bằng phép tịnh tiến. Nếu V là một đa tạp tuyến tính trong T (được xét như một không gian afin), thì phương của nó là đa tạp tuyến tính song song với V và chứa 0.
 
-#### Mệnh đề 3 {#alg-ii-s9-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ii-s9-prop-3 .statement tag=05VR}
 
 *Cho một họ* $(a_i)_{i \in I}$ *các điểm của một không gian afin* E, *tập hợp* V *các trọng tâm* $\sum_{i \in I} \lambda_i a_i$ *((\lambda_i) có giá hữu hạn, $\sum_{i \in I} \lambda_i = 1$) *là một đa tạp tuyến tính của* E.
 
@@ -184,13 +184,13 @@ Theo ký hiệu của Mệnh đề 3, giả sử họ $(a_i)$ là khác rỗng, 
 
 Một họ $(a_i)_{i \in I}$ các điểm của E không tự do afin được gọi là *liên hệ afin*.
 
-#### Mệnh đề 4 {#alg-ii-s9-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ii-s9-prop-4 .statement tag=05VS}
 
 *Để một họ khác rỗng* $(a_i)_{i \in I}$ *các điểm trong một không gian afin* E *là liên hệ afin, điều kiện cần và đủ là tồn tại một họ* $(\lambda_i)_{i \in I}$ *các phần tử không đồng thời bằng không trong* K, *có giá hữu hạn, sao cho* $\sum_{i \in I} \lambda_i = 0$ *và* $\sum_{i \in I} \lambda_i a_i = 0$.
 
 Cho một chỉ số $\kappa \in I$, nói rằng họ các vectơ $(a_i - a_\kappa)$, trong đó $i$ chạy qua tập hợp các chỉ số $\neq \kappa$, là liên hệ trong T, có nghĩa là tồn tại một họ các vô hướng $(\lambda_i)_{i \neq \kappa}$ không đồng thời bằng không sao cho $\sum_{i \neq \kappa} \lambda_i (a_i - a_\kappa) = 0$, điều này cũng có thể viết là $\sum_{i \in I} \lambda_i a_i = 0$, với $\lambda_\kappa = -\sum_{i \neq \kappa} \lambda_i$, nói cách khác $\sum_{i \in I} \lambda_i = 0$.
 
-#### Mệnh đề 5 {#alg-ii-s9-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ii-s9-prop-5 .statement tag=05VT}
 
 Để một họ không rỗng $(a_i)_{i \in I}$ các điểm của một không gian afin $E$ là afin tự do, điều kiện cần và đủ là, với mọi chỉ số $\kappa \in I$, $a_\kappa$ không thuộc đa tạp tuyến tính sinh bởi các $a_i$ có chỉ số $\neq \kappa$.
 
@@ -198,7 +198,7 @@ Mệnh đề là hiển nhiên nếu $I$ chỉ có một phần tử. Nếu khô
 
 ### 4. ÁNH XẠ TUYẾN TÍNH AFIN
 
-#### Định nghĩa 3 {#alg-ii-s9-def-3 .statement}
+#### Định nghĩa 3 {#alg-ii-s9-def-3 .statement tag=05VU}
 
 Cho hai không gian afin $E, E'$ gắn với hai không gian vectơ $T, T'$ trên cùng trường $K$, một ánh xạ $u$ từ $E$ vào $E'$ được gọi là một ánh xạ tuyến tính afin (hay một ánh xạ afin) nếu, với mọi họ $(x_i)_{i \in I}$ các điểm của $E$ và mọi họ $(\lambda_i)_{i \in I}$ sao cho $\sum_{i \in I} \lambda_i = 1$,
 
@@ -208,7 +208,7 @@ $$
 
 (3)
 
-#### Mệnh đề 6 {#alg-ii-s9-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ii-s9-prop-6 .statement tag=05VV}
 
 Cho $u$ là một ánh xạ afin từ $E$ vào $E'$. Tồn tại một và chỉ một ánh xạ tuyến tính $v$ từ $T$ vào $T'$ sao cho
 
@@ -279,7 +279,7 @@ Vì trường $K$ một cách chính tắc có một cấu trúc không gian vec
 
 ### 5. ĐỊNH NGHĨA CỦA CÁC KHÔNG GIAN XẠ ẢNH
 
-#### Định nghĩa 4 {#alg-ii-s9-def-4 .statement}
+#### Định nghĩa 4 {#alg-ii-s9-def-4 .statement tag=05VW}
 
 *Cho một không gian vectơ trái (resp. phải)* $V$ *trên một trường* $K$, *không gian xạ ảnh trái (resp. phải) dẫn xuất từ* $V$, *ký hiệu bởi* $\mathbf{P}(V)$, *là thương của phần bù* $V - \{0\}$ *của* $\{0\}$ *trong* $V$ *theo quan hệ tương đương* $\Delta(V)$ *"tồn tại* $\lambda \neq 0$ *trong* $K$ *sao cho* $y = \lambda x$ *(resp.* $y = x \lambda$ ) *giữa* $x$ *và* $y$ *trong* $V - \{0\}$.
 
@@ -397,7 +397,7 @@ Vì các giá trị mà một ánh xạ tuyến tính lấy trên một cơ sở
 
 Hợp thành của hai ánh xạ xạ ảnh là các song ánh là một ánh xạ xạ ảnh; ánh xạ nghịch đảo của một song ánh như vậy cũng thế. Do đó các ánh xạ xạ ảnh song ánh của một không gian xạ ảnh $\mathbf{P}(V)$ lên chính nó lập thành một nhóm, gọi là *nhóm xạ ảnh* của $\mathbf{P}(V)$ và ký hiệu bởi $\mathbf{PGL}(V)$; ta viết $\mathbf{PGL}_n(K)$ hoặc $\mathbf{PGL}(n, K)$ thay cho $\mathbf{PGL}(K^n_s)$.
 
-#### Nhận xét {#alg-ii-s9-n10-rem-1 .statement}
+#### Nhận xét {#alg-ii-s9-n10-rem-1 .statement tag=05VX}
 
 Trong một không gian xạ ảnh $\mathbf{P}(V)$ trên một trường $K$, cho $H = \mathbf{P}(W)$ là một siêu phẳng. Tồn tại một ánh xạ tuyến tính song ánh $f$ của $V$ lên $K_s \times W$ sao cho $f(W) = W$; gọi $g$ là ánh xạ xạ ảnh thu được từ $f$ bằng cách chuyển sang thương. Đã thấy (no. 8) rằng phần bù của $\mathbf{P}(W)$ trong $\mathbf{P}(K_s \times W)$ có thể được đồng nhất với một không gian afin mà không gian tịnh tiến là $W$. Khi $\mathbf{P}(V)$ được đồng nhất với $\mathbf{P}(K_s \times W)$ nhờ $g$, người ta nói rằng $H$ *đã được lấy làm siêu phẳng ở vô tận* trong $\mathbf{P}(V)$; khi đó phần bù của $H$ trong $\mathbf{P}(V)$ được đồng nhất với một không gian afin mà không gian tịnh tiến là $W$.
 

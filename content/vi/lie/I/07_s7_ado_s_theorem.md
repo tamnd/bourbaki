@@ -24,7 +24,7 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 06912ea90c9940765d00c45847350fa4dcdc04aa52a9af4e734b0908f320d61f
+content_sha256: a8dea1b5511305e8b7e9e629bdd74f2df23fc97511ba10498164d41bff217027
 translated_from: content/en/lie/I/07_s7_ado_s_theorem.md
 source_content_sha256: 88c99569fd7f93541de8470999a923ed72c5b349486bddb4207865298e2f0c53
 translation_model: gpt-5.4, copied
@@ -63,13 +63,13 @@ $$
 
 Ta cũng sẽ xét biểu diễn đối ngẫu $x \mapsto {}^t x_{U'}$ của g trên ${U'}^*$. Với $x \in g'$, ${}^t x_{U'}$ là chuyển vị của phép nhân phải bởi x trong $U'$; do đó biểu diễn tương ứng của $U'$ là biểu diễn đối chính quy của $U'$.
 
-#### Định nghĩa 1 {#lie-i-s7-def-1 .statement}
+#### Định nghĩa 1 {#lie-i-s7-def-1 .statement tag=0A1F}
 
 Cho $g$ là một đại số Lie, $g'$ là một đại số con của $g$ và $\rho'$ là một biểu diễn của $g'$ trên $V'$. Một biểu diễn $\rho$ của $g$ trên $V$ được gọi là một mở rộng của $\rho'$ lên $g$ nếu tồn tại một đồng cấu đơn cấu của $g'$-môđun vào $g'$-môđun $V$. Ta cũng nói rằng $g$-môđun $V$ là một mở rộng của $g'$-môđun $V'$.
 
 Nếu $\rho'$ là hữu hạn chiều và $g'$ là một iđêan giải được của $g$, thì điều kiện cần để tồn tại một mở rộng hữu hạn chiều là $[g, g']$ được chứa trong iđêan lũy linh lớn nhất của $\rho'$ (§ 5, no. 3, Định lý 1).
 
-#### Định lý 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement}
+#### Định lý 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement tag=0A1G}
 
 Cho $g = g' + h$ là một đại số Lie là tổng trực tiếp của một iđêan $g'$ và một đại số con $h$, và $\rho'$ là một biểu diễn hữu hạn chiều của $g'$ mà iđêan lũy linh lớn nhất của nó chứa $[h, g']$.
 
@@ -98,7 +98,7 @@ Ta đã thấy ở no. 1 rằng $g'$-môđun $V'$ đẳng cấu với một mô�
 
 Giả sử sau cùng rằng với mọi $x \in h$ phép hạn chế lên $g'$ của $\mathrm{ad}_{\psi}x$ là lũy linh. Vì các phần tử của $h$ tác động lên $U'$ bởi các phép dẫn xuất, nên với mọi $u \in U'$ và mọi $x \in h$ tồn tại một số nguyên $e$ sao cho $(x_{U'})^e.u = 0$; do đó các nội cấu dẫn xuất từ $x_{U'}$ trên $U'/{I'}^d$ và trên $S$ (là các không gian hữu hạn chiều) đều lũy linh. Vậy $\rho(x)$ là lũy linh với mọi $x \in h$. Ta đã thấy trước đó rằng điều này cũng đúng với $x \in I' \cap g'$. Vì $I' \cap g'$ là một iđêan của $g'$ chứa $[h, g']$, nên tổng $h + (I' \cap g')$ cũng là một iđêan của $g$. Mệnh đề (b) của Định lý 1 khi đó suy ra từ bổ đề sau:
 
-#### Bổ đề 1 {#lie-i-s7-lem-1 .statement}
+#### Bổ đề 1 {#lie-i-s7-lem-1 .statement tag=0A1H}
 
 *Cho $g = g' + h$ là một đại số Lie là tổng của một iđêan $g'$ và một đại số con $h$. Cho $\sigma$ là một biểu diễn hữu hạn chiều của $g$. Giả sử rằng $\sigma(x)$ là lũy linh với mọi $x \in g'$ và mọi $x \in h$. Khi đó $\sigma(x)$ là lũy linh với mọi $x \in g$.*
 
@@ -108,7 +108,7 @@ Chuyển qua thương theo hạt nhân của $\sigma$, có thể giả sử $\si
 
 ### 3. ĐỊNH LÝ ADO
 
-#### Mệnh đề 1 {#lie-i-s7-prop-1 .statement}
+#### Mệnh đề 1 {#lie-i-s7-prop-1 .statement tag=0A1I}
 
 *Cho $g$ là một đại số Lie, $n$ là iđêan lũy linh lớn nhất của nó, $a$ là một iđêan lũy linh của $g$ và $\rho$ là một biểu diễn hữu hạn chiều của $a$ sao cho mọi phần tử của $\rho(a)$ đều lũy linh. Khi đó $\rho$ có một mở rộng hữu hạn chiều $\sigma$ lên $g$ sao cho mọi phần tử của $\sigma(n)$ đều lũy linh.*
 
@@ -118,13 +118,13 @@ Gọi $r$ là căn của $g$ và gọi $n = r_0 \subset r_1 \subset \cdots \subs
 
 Cuối cùng $g$ là tổng trực tiếp của $r$ và một đại số con $s$ (§ 6, no. 8, Định lý 5). Vì $[s, r] \subset n$, nên có thể (Định lý 1) tìm được một mở rộng hữu hạn chiều $\sigma$ của $\rho''$ lên $g$ sao cho mọi phần tử của $\sigma(n)$ đều lũy linh.
 
-#### Định lý 2 {#lie-i-s7-thm-2 .statement}
+#### Định lý 2 {#lie-i-s7-thm-2 .statement tag=0A1J}
 
 *Mọi đại số Lie đều có một biểu diễn tuyến tính trung thành hữu hạn chiều.*
 
 Chính xác hơn:
 
-#### Định lý 3 (Ado) {#lie-i-s7-thm-3 .statement}
+#### Định lý 3 (Ado) {#lie-i-s7-thm-3 .statement tag=0A1K}
 
 *Cho $g$ là một đại số Lie và $n$ là iđêan lũy linh lớn nhất của nó. Tồn tại một biểu diễn trung thành hữu hạn chiều $\varphi$ của $g$ sao cho mọi phần tử của $\varphi(n)$ đều lũy linh.*
 

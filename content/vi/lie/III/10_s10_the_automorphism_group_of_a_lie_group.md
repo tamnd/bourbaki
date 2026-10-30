@@ -24,7 +24,7 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 3
-content_sha256: 9927a07aa5460200e6c663fe5f569540170552b352d946f87de2f3410d29dd34
+content_sha256: 98d2639d43bab14561c97102b5d1b9d6a9ed49df572795fc3efbb3635fe96eef
 translated_from: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
 source_content_sha256: 9324e1961b118ac5c4f73e3fb335e08c0b72a588687b17147d05e2b458b10af4
 translation_model: gpt-5-6-mini
@@ -40,7 +40,7 @@ Trong đoạn này, K được giả sử là có đặc số không.
 
 ### 1. CÁC TỰ ĐẲNG CẤU VÔ CÙNG BÉ
 
-#### Bổ đề 1 {#lie-iii-s10-lem-1 .statement}
+#### Bổ đề 1 {#lie-iii-s10-lem-1 .statement tag=0AL6}
 
 Cho G là một nhóm Lie và $\alpha$ là một trường vectơ trên G. Với mọi $g \in G$, đặt
 $$
@@ -65,11 +65,11 @@ $$
 $$
 và do đó (ii) $\Leftrightarrow$ (iii).
 
-#### Định nghĩa 1 {#lie-iii-s10-def-1 .statement}
+#### Định nghĩa 1 {#lie-iii-s10-def-1 .statement tag=0AL7}
 
 Cho G là một nhóm Lie. Một tự đẳng cấu vô cùng bé của G là bất kỳ trường vectơ giải tích nào trên G thỏa mãn các điều kiện của Bổ đề 1.
 
-#### Bổ đề 2 {#lie-iii-s10-lem-2 .statement}
+#### Bổ đề 2 {#lie-iii-s10-lem-2 .statement tag=0AL8}
 
 Cho $K'$ là một trường con đóng không rời rạc của K, A là một $K'$-đa tạp, B và C là các $K$-đa tạp và $f$ là một ánh xạ giải tích $K'$ từ $A \times B$ vào C. Giả sử rằng, với mọi
 
@@ -114,13 +114,13 @@ $$
 
 và, với $\lambda$ cố định, ánh xạ $x \mapsto f(\lambda t, x)$ là K-giải tích, do đó ánh xạ $h \mapsto (D_2f)(\lambda t, x)(h)$ là K-tuyến tính.
 
-#### Mệnh đề 1 {#lie-iii-s10-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iii-s10-prop-1 .statement tag=0AL9}
 
 *Cho* K' *là một trường con đóng rời rạc của* K, G *là một nhóm Lie trên* K, V *là một đa tạp trên* K' *và* $(v, g) \mapsto vg$ *là một ánh xạ* K'-*giải tích từ* V $\times$ G *vào* G. *Giả sử rằng, với mọi* $v \in V$, *ánh xạ* $g \mapsto vg$ *của* G *vào* G *là một tự đẳng cấu của* G. *Cho* $\varepsilon$ *là một phần tử của* V *sao cho* $\varepsilon g = g$ *với mọi* $g \in G$ *và* $a \in T_\varepsilon(V)$. *Khi đó trường vectơ* $g \mapsto ag$ *trên* G *là một tự đẳng cấu vô cùng bé của* G.
 
 Với $v \in V,\ g_1 \in G,\ g_2 \in G,\ v(g_1g_2) = (vg_1)(vg_2)$. Do đó, với $u_1 \in TG,\ u_2 \in TG,\ a(u_1u_2) = (au_1)(au_2)$ (§ 2, no. 1, Mệnh đề 3). Đặc biệt, ánh xạ $g \mapsto ag$ của G vào TG là một đồng cấu nhóm. Mặt khác, ánh xạ này là giải tích theo Bổ đề 2.
 
-#### Mệnh đề 2 {#lie-iii-s10-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iii-s10-prop-2 .statement tag=0ALA}
 
 *Cho* G *là một nhóm Lie thực hoặc phức và* $\alpha$ *là một tự đẳng cấu vô cùng bé của G. Tồn tại một luật phép toán giải tích $(\lambda, g) \mapsto \phi_\lambda(g)$ của K trên G với các tính chất sau:
 (1) nếu D là luật liên kết của phép toán vô cùng bé, thì $D(1) = \alpha$;
@@ -147,7 +147,7 @@ $$
 
 với mọi $\lambda \in K, g_1 \in G, g_1 \in G$.
 
-#### Mệnh đề 3 {#lie-iii-s10-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iii-s10-prop-3 .statement tag=0ALB}
 
 Giả sử K là ultrametric. Cho G là một nhóm Lie compact và $\alpha$ là một tự đẳng cấu vi phân của G. Tồn tại một nhóm con mở I của K và một luật của phép toán giải tích $(\lambda, g) \mapsto \phi_\lambda(g)$ của I trên G có các tính chất sau:
 (1) nếu D là luật liên kết của phép toán vi phân, thì $D(1) = \alpha$;
@@ -164,7 +164,7 @@ và $(f_{g_1}f_{g_2})(0) = g_1 g_2 = f_{g_1g_2}(0)$. Do đó $f_{g_1'g_2'}(\lamb
 
 trong một lân cận của $(g_1, g_2, 0)$ (Differentiable and Analytic Manifolds, R, 9.1.8). Vì G compact, tồn tại một nhóm con mở I của I' sao cho $f_{g_1g_2}(\lambda) = f_{g_1}(\lambda) f_{g_2}(\lambda)$ với mọi $g_1 \in G, g_2 \in G, \lambda \in I$. Nói cách khác, $\phi_\lambda \in \mathrm{Aut}\, G$ với $\lambda \in I$.
 
-#### Bổ đề 3 {#lie-iii-s10-lem-3 .statement}
+#### Bổ đề 3 {#lie-iii-s10-lem-3 .statement tag=0ALC}
 
 Cho $G$ và $G'$ là các nhóm Lie và $\phi$ là một đồng cấu từ $G$ vào $\mathrm{Aut}(G')$. Đặt $f(g, g') = (\phi(g))(g')$ với $g \in G, g' \in G'$. Xét các điều kiện sau:
 (i) $f$ giải tích;
@@ -183,7 +183,7 @@ $$
 
 Trong số này, ta giả sử rằng $K = \mathbf{R}$ hoặc $\mathbf{C}$.
 
-#### Bổ đề 4 {#lie-iii-s10-lem-4 .statement}
+#### Bổ đề 4 {#lie-iii-s10-lem-4 .statement tag=0ALD}
 
 Cho $H$ là một nhóm Lie đơn liên hữu hạn chiều.
 (i) Với mọi $u \in \mathrm{Aut}\, L(H)$, gọi $\theta(u)$ là tự đẳng cấu duy nhất của $H$ sao cho $L(\theta(u)) = u$. Khi đó ánh xạ $(u, g) \mapsto \theta(u)g$ từ $(\mathrm{Aut}\, L(H)) \times H$ vào $H$ là giải tích.
@@ -211,7 +211,7 @@ suy ra $p \circ \eta(w) = w \circ p$ và do đó $\eta(w) \in \mathrm{Aut}(H, N)
 
 Cho G là một nhóm compact địa phương và $\Gamma$ là nhóm tự đẳng cấu của G. Nhắc lại rằng một tôpô $\mathscr{T}_\beta$ đã được xác định trên $\Gamma$ (Tôpô đại cương, Chương X, § 3, no. 5). Đây là tôpô thô nhất sao cho các ánh xạ $v \mapsto v$ và $v \mapsto v^{-1}$ từ $\Gamma$ vào $C_c(G; G)$ (không gian các ánh xạ liên tục từ G vào G với tôpô hội tụ compact) là liên tục. Tôpô $\mathscr{T}_\beta$ tương thích với cấu trúc nhóm trên $\Gamma$ (loc. cit.). Với mọi tập con compact L của G và mọi lân cận U của $e_G$ trong G, gọi $N(L, U)$ là tập hợp các $\phi \in \Gamma$ sao cho $\phi(g) \in gU$ và $\phi^{-1}(g) \in gU$ với mọi $g \in L$; khi đó các $N(L, U)$ tạo thành một hệ cơ bản các lân cận của $e_\Gamma$. Nếu G được sinh bởi một tập con compact C, tôpô $\mathscr{T}_\beta$ cũng là tôpô thô nhất sao cho các ánh xạ $v \mapsto v|C$ và $v \mapsto v^{-1}|C$ từ $\Gamma$ vào $C_u(C; G)$ là liên tục (vì mọi tập con compact của G đều được chứa trong $(C \cup C^{-1})^n$ với n đủ lớn). Nếu K là compact địa phương và V là một không gian vectơ hữu hạn chiều trên K, tôpô $\mathscr{T}_\beta$ trên $\mathbf{GL}(V)$ chính là tôpô thông thường.
 
-#### Định lý 1 {#lie-iii-s10-thm-1 .statement}
+#### Định lý 1 {#lie-iii-s10-thm-1 .statement tag=0ALE}
 
 Cho G là một nhóm Lie hữu hạn chiều và $G_0$ là thành phần đơn vị của nó. Giả sử rằng G được sinh bởi $G_0$ và một số hữu hạn phần tử.
 
@@ -302,11 +302,11 @@ $$
 
 là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $a$. Tự đẳng cấu này cũng là tự đẳng cấu của $a$ dẫn xuất từ $w$ bằng phép chuyển cấu trúc; vì $w$ là K-giải tích, ta thấy rằng $L(\sigma)$ là K-tuyến tính. Do đó $\sigma$ là K-giải tích ($§ 3$, no. 8, Mệnh đề 32). Theo $§ 1$, no. 9, Mệnh đề 18, trên Aut G tồn tại duy nhất một cấu trúc nhóm Lie K sao cho $\mathrm{Aut}_1 G$ là một nhóm con Lie mở của Aut G. Việc cấu trúc này có các tính chất của định lý suy ra từ các tính chất tương ứng của $\mathrm{Aut}_1 G$.
 
-#### Hệ quả 1 {#lie-iii-s10-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s10-thm-1-cor-1 .statement tag=0ALF}
 
 *Một nhóm Lie thực hữu hạn chiều G và $G_0$ là thành phần đơn vị của nó. Giả sử rằng G được sinh bởi $G_0$ và một số hữu hạn phần tử. Khi đó Aut G có tôpô $\mathscr{T}_\beta$ và là một nhóm Lie thực hữu hạn chiều.*
 
-#### Hệ quả 2 {#lie-iii-s10-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s10-thm-1-cor-2 .statement tag=0ALG}
 
 *Nếu G là một nhóm Lie thực hoặc phức liên thông nửa đơn. Nhóm Int G là thành phần đơn vị của Aut G.*
 
@@ -314,7 +314,7 @@ là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $a$. Tự đẳng 
 
 ### 3. NHÓM TỰ ĐẲNG CẤU CỦA MỘT NHÓM LIE (TRƯỜNG HỢP SIÊU METRIC)
 
-#### Định lý 2 {#lie-iii-s10-thm-2 .statement}
+#### Định lý 2 {#lie-iii-s10-thm-2 .statement tag=0ALH}
 
 *Khi K là siêu metric và compact địa phương và G là một nhóm Lie compact, các mệnh đề (i), (ii), (iii), (v) và (vi) của Định lý 1 là đúng.*
 (a) Tính duy nhất của cấu trúc giải tích được xét trong (i) là hiển nhiên.
@@ -333,7 +333,7 @@ Gọi $\Gamma$ là tập hợp các $\gamma \in \mathrm{Aut}\ L(G)$ sao cho $\ga
 
 (d), (e): lập luận hoàn toàn giống như trong các phần (d), (e) của chứng minh Định lý 1, với R được thay bằng Q_p và sử dụng Mệnh đề 3 thay cho Mệnh đề 2.
 
-#### Nhận xét {#lie-iii-s10-n3-rem-1 .statement}
+#### Nhận xét {#lie-iii-s10-n3-rem-1 .statement tag=0ALI}
 
 Nếu K = Q_p và nhóm Lie G được sinh bởi một tập con compact (xem Bài tập 2), các mệnh đề (i), (ii), (iii) và (vi) của Định lý 1 vẫn đúng, nhưng (v) thì không (Bài tập 3).
 

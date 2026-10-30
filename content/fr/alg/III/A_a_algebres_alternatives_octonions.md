@@ -26,7 +26,7 @@ subsections:
       pdf_page: 563
 statements: 11
 exercises: 3
-content_sha256: 82ab9a33f3a100f739e32b7b60484e5cad6ddc66b5ff9a2c17d00898dfd480a3
+content_sha256: fbbe0ce29fd9c46bfedf3b1a9e3b0d90d2568383eaa040fabe881be8c3a1bf0e
 ---
 
 ## APPENDICE
@@ -43,7 +43,7 @@ $$
 
 (associateur de $x, y, z$); $a$ est évidemment une application A-trilinéaire de $\mathbf{F} \times \mathbf{F} \times \mathbf{F}$ dans $\mathbf{F}$.
 
-#### Lemme 1 {#alg-iii-a0-lem-1 .statement}
+#### Lemme 1 {#alg-iii-a0-lem-1 .statement tag=069A}
 
 Quels que soient $p, q, r, s$ dans l’algèbre $\mathbf{F}$, on a
 $$
@@ -51,7 +51,7 @@ a(pq, r, s) - a(p, qr, s) + a(p, q, rs) = a(p, q, r)s + pa(q, r, s).
 $$
 La vérification résulte aussitôt de la définition (1).
 
-#### Proposition 1 {#alg-iii-a0-prop-1 .statement}
+#### Proposition 1 {#alg-iii-a0-prop-1 .statement tag=069B}
 
 Pour une A-algèbre $\mathbf{F}$, les conditions suivantes sont équivalentes:
 a) Pour tout couple d’éléments $x, y$ de $\mathbf{F}$, la sous-algèbre engendrée par $x$ et $y$ est associative.
@@ -61,7 +61,7 @@ Il est clair que a) implique c). Montrons que c) implique b): en effet, par déf
 
 Pour établir l’implication $b) \Rightarrow a)$, nous prouverons les 4 lemmes suivants.
 
-#### Lemme 2 {#alg-iii-a0-lem-2 .statement}
+#### Lemme 2 {#alg-iii-a0-lem-2 .statement tag=069C}
 
 Soient $\mathbf{E}$ une A-algèbre telle que l’application trilinéaire $(x, y, z) \mapsto a(x, y, z)$ soit alternée, $S$ un système générateur de $\mathbf{E}$, $\mathbf{U}$ un sous-A-module de $\mathbf{E}$ contenant $S$ et tel que $s\mathbf{U} \subset \mathbf{U}$ et $\mathbf{Us} \subset \mathbf{U}$ pour tout $s \in S$. Alors on a $\mathbf{U} = \mathbf{E}$.
 En effet, l’ensemble $\mathbf{U}'$ des $x \in \mathbf{E}$ tels que $x\mathbf{U} \subset \mathbf{U}$ et $\mathbf{U}x \subset \mathbf{U}$ est évidemment un sous-A-module de $\mathbf{E}$, qui contient $S$ par hypothèse. D’autre part, pour $x, y$ dans $\mathbf{U}'$ et $u \in \mathbf{U}$, on a par hypothèse
@@ -72,7 +72,7 @@ par passage à l’algèbre opposée, on a de même $u(xy) \in \mathbf{U}$. Donc
 
 Disons qu’une partie $\mathbf{H}$ de $\mathbf{F}$ est fortement associative si $a(u, v, w) = 0$ lorsque deux au moins des éléments $u, v, w$ appartiennent à $\mathbf{H}$.
 
-#### Lemme 3 {#alg-iii-a0-lem-3 .statement}
+#### Lemme 3 {#alg-iii-a0-lem-3 .statement tag=069D}
 
 Supposons l’application $a$ alternée. Si $\mathbf{H}$ est une partie fortement associative de $\mathbf{F}$, la sous-algèbre de $\mathbf{F}$ engendrée par $\mathbf{H}$ est fortement associative.
 Comme l’ensemble des parties fortement associatives de $\mathbf{F}$ est inductif, il suffit de prouver que si $\mathbf{H}$ est une partie fortement associative maximale de $\mathbf{F}$, $\mathbf{H}$ est alors une sous-algèbre de $\mathbf{F}$. Comme $\mathbf{H}$ est évidemment un sous-A-module de $\mathbf{F}$, il suffit de voir que pour deux éléments quelconques $u, v$ de $\mathbf{H}$, $\mathbf{H} \cup \{uv\}$ est encore fortement associative, car en vertu de la définition de $\mathbf{H}$, cela entraînera $uv \in \mathbf{H}$. Or, pour tout $z \in \mathbf{H}$ et tout $t \in \mathbf{F}$, on a en vertu de (2)
@@ -81,13 +81,13 @@ a(uv, t, z) - a(u, vt, z) + a(u, v, tz) = 0
 $$
 puisque $\mathbf{H}$ est fortement associative; comme $u, v, z$ sont dans $\mathbf{H}$, on a aussi a(u, vt, z) = a(u, v, tz) = 0, d’où $a(uv, t, z) = 0$. Compte tenu de ce que $a$ est alternée, cela montre que $a(p, q, r) = 0$ chaque fois que deux au moins des éléments $p, q, r$ appartiennent à $\mathrm{H} \cup \{uv\}$, d’où le lemme.
 
-#### Lemme 4 {#alg-iii-a0-lem-4 .statement}
+#### Lemme 4 {#alg-iii-a0-lem-4 .statement tag=069E}
 
 *Supposons l’application a alternée. Alors, pour tout $x \in \mathbf{F}$, la sous-algèbre de $\mathbf{F}$ engendrée par $x$ est fortement associative.*
 
 En effet, on a $a(u, v, w) = 0$ chaque fois que deux des trois éléments $u, v, w$ sont égaux à $x$, et il suffit d’appliquer le lemme 3.
 
-#### Lemme 5 {#alg-iii-a0-lem-5 .statement}
+#### Lemme 5 {#alg-iii-a0-lem-5 .statement tag=069F}
 
 *Supposons l’application a alternée, et soient $X, Y$ deux sous-algèbres fortement associatives de $\mathbf{F}$. Alors la sous-algèbre $E$ engendrée par $X \cup Y$ est associative.*
 
@@ -101,7 +101,7 @@ en vertu du fait que $X$ est fortement associative et de la définition de $Z$. 
 
 Il suffit maintenant, pour achever de montrer que b) implique a) dans la prop. 1, de prendre $X = \{x\}$ et $Y = \{y\}$, en utilisant le lemme 4.
 
-#### Définition 1 {#alg-iii-a0-def-1 .statement}
+#### Définition 1 {#alg-iii-a0-def-1 .statement tag=069G}
 
 *On dit qu’une A-algèbre $F$ est alternative si elle satisfait aux condition équivalentes de la prop. 1.*
 
@@ -111,7 +111,7 @@ Si $F$ est une A-algèbre alternative, toute A-algèbre $F \otimes_A A'$ obtenue
 
 ### 2. Algèbres cayleyennes alternatives
 
-#### Proposition 2 {#alg-iii-a0-prop-2 .statement}
+#### Proposition 2 {#alg-iii-a0-prop-2 .statement tag=069H}
 
 *Soient $A$ un anneau, $F$ une A-algèbre cayleyenne, e son élément unité, $s : x \mapsto \bar{x}$ sa conjugaison, $N : F \to A$ sa norme cayleyenne (III, p. 15).
 
@@ -135,7 +135,7 @@ Démontrons enfin c). Si N(x) est inversible dans Ae, et si l’on pose x' = N(x
 
 C. Q. F. D.
 
-#### Proposition 3 {#alg-iii-a0-prop-3 .statement}
+#### Proposition 3 {#alg-iii-a0-prop-3 .statement tag=069I}
 
 Soient E une A-algèbre cayleyenne, γ un élément de A et F l’extension cayleyenne de E définie par γ et la conjugaison de E (III, p. 17, prop. 5). Pour que F soit alternative, il faut et il suffit que E soit associative.
 
@@ -209,7 +209,7 @@ $$
 
 \* Si l’on prend pour A le corps $\mathbf{R}$ des nombres réels, les octonions de type $(-1, 0, -1, -1)$ sur $\mathbf{R}$ s’appellent les octonions (ou octaves) de Cayley. Il résulte de la prop. 2, (ii) de III, p. 174 que tout octonion de Cayley $\neq 0$ est inversible.*
 
-#### Proposition 4 {#alg-iii-a0-prop-4 .statement}
+#### Proposition 4 {#alg-iii-a0-prop-4 .statement tag=069J}
 
 Soit F une algèbre d’octonions de type (−1, 0, −1, −1) sur A. Il existe un espace vectoriel V de dimension 3 sur le corps à deux éléments $\mathbf{Z}/2\mathbf{Z}$ et une bijection $\lambda \mapsto e'_\lambda$ de V sur la base $(e_i)_{0 \leq i \leq 7}$ telle que
 
@@ -231,7 +231,7 @@ En particulier, soient A'' le corps $\mathbf{Z}/2\mathbf{Z}$ à deux éléments,
 
 Pour tout $\lambda \in V$, notons alors $e'_\lambda$ l’élément de $(e_i)_{0 \leq i \leq 7}$ tel que $\theta(e'_\lambda) = \lambda$; on a $e'_0 = e_0$; en outre, comme $\theta$ est un homomorphisme et que la relation $\theta(x) = \theta(y)$ équivaut à $x = \pm y$, on a $e'_\lambda e'_\mu = \pm e'_{\lambda + \mu}$. Si $\lambda, \mu, v$ sont linéairement indépendants sur $\mathbf{Z}/2\mathbf{Z}$, ils forment une base de V, donc tous les éléments $e_i$ ($0 \leq i \leq 7$) appartiennent à la sous-algèbre engendrée par $e'_\lambda, e'_\mu$ et $e'_v$; lorsque $2 \neq 0$ dans A, on ne peut par suite avoir $e'_\lambda(e'_\mu e'_v) = (e'_\lambda e'_\mu)e'_v$, car F serait associative, donc E serait commutative (III, p. 17, prop. 5), ce qui contredit les relations (33) de III, p. 18. Au contraire, si $\lambda, \mu, v$ sont linéairement dépendants dans V, les trois éléments $e'_\lambda, e'_\mu, e'_v$ appartiennent à une sous-algèbre à 2 générateurs de F, qui est par suite associative (III, p. 173, prop. 1); d’où la conclusion.
 
-#### Remarque {#alg-iii-a0-n3-rem-1 .statement}
+#### Remarque {#alg-iii-a0-n3-rem-1 .statement tag=069K}
 
 Comme $\bar{e}'_\lambda = -e'_\lambda$ pour $\lambda \neq 0$, on a
 $$

@@ -70,14 +70,14 @@ subsections:
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: 1fce08e179b3202964d946df72f3d63e346c660550e13850a4c76b9631949171
+content_sha256: 7b2cea857b009f809085412ca64248b0f317359a2bcbd7a3a189e12a6f0b01fe
 ---
 
 ## § 1. MODULES
 
 ### 1. MODULES; VECTOR SPACES; LINEAR COMBINATIONS
 
-#### Definition 1 {#alg-ii-s1-def-1 .statement}
+#### Definition 1 {#alg-ii-s1-def-1 .statement tag=05JO}
 
 *Given a ring* $\mathbf{A}$, *a left module over* $\mathbf{A}$ (*or left* $\mathbf{A}$-*module*) *is a set* $\mathbf{E}$ *with an algebraic structure defined by giving*:
 
@@ -117,7 +117,7 @@ Similarly, by virtue of (M_{II}), for all $x \in E$, the mapping $\alpha \mapsto
 When the ring A consists only of the element 0, every A-module E consists only of the element 0, for then $1 = 0$ in A, whence, for all $x \in E$,
 $x = 1.x = 0.x = 0$.
 
-#### Example {#alg-ii-s1-n1-exa-1 .statement}
+#### Example {#alg-ii-s1-n1-exa-1 .statement tag=05JP}
 
 (1) Let $\phi$ be a homomorphism of a ring A into a ring B; the mapping $(a, x) \mapsto \phi(a)x$ (resp. $(a, x) \mapsto x\phi(a)$) of $A \times B$ into B defines on B a left (resp. right) A-module structure. In particular if $\phi$ is taken to be the identity mapping on A, a canonical left (resp. right) A-module structure is obtained on A; to avoid confusion, the set A with this structure is denoted by $A_s$ (resp. $A_d$).
 
@@ -127,13 +127,13 @@ $x = 1.x = 0.x = 0$.
 
 Consider now a ring A and suppose there is given on E a left (resp. right) A-module structure; for all $\alpha \in A$, the homothety $h_\alpha : x \mapsto \alpha x$ (resp. $x \mapsto x\alpha$) belongs to $\mathscr{E}$; the mapping $\phi : \alpha \mapsto h_\alpha$ is a homomorphism of the ring A (resp. the opposite ring $A^0$) into the ring $\mathscr{E}$ and by definition $\alpha x = (\phi(\alpha))(x)$ (resp. $x\alpha = (\phi(\alpha))(x)$). Conversely, giving a ring homomorphism $\phi : A \to \mathscr{E}$ (resp. $\phi : A^0 \to \mathscr{E}$) defines a left (resp. right) A-module structure on E by the above formulae. In other words, being given a left (resp. right) A-module structure on an additive group E with additive law the given group law is equivalent to being given a ring homomorphism $A \to \mathscr{E}$ (resp. $A^0 \to \mathscr{E}$).
 
-#### Definition 2 {#alg-ii-s1-def-2 .statement}
+#### Definition 2 {#alg-ii-s1-def-2 .statement tag=05JQ}
 
 *A left (resp. right) vector space over a field K is a left (resp. right) K-module.*
 
 The elements of a vector space are sometimes called *vectors*.
 
-#### Example {#alg-ii-s1-n1-exa-2 .statement}
+#### Example {#alg-ii-s1-n1-exa-2 .statement tag=05JR}
 
 (4) A field is both a left and a right vector space with respect to any of its subfields.
 
@@ -152,7 +152,7 @@ $$
 $$
 the equations are immediately reduced to the analogous equations for finite sums by considering a finite subset H of I containing the supports of $(x_i)$ and $(y_i)$.
 
-#### Definition 3 {#alg-ii-s1-def-3 .statement}
+#### Definition 3 {#alg-ii-s1-def-3 .statement tag=05JS}
 
 *An element x of an A-module E is said to be a linear combination with coefficients in A of a family $(a_i)_{i \in I}$ of elements of E if there exists a family $(\lambda_i)_{i \in I}$ of elements of A, of finite support, such that $x = \sum_{i \in I} \lambda_i a_i$.*
 
@@ -162,7 +162,7 @@ Note that 0 is the only linear combination of the empty family of elements of E 
 
 ### 2. LINEAR MAPPINGS
 
-#### Definition 4 {#alg-ii-s1-def-4 .statement}
+#### Definition 4 {#alg-ii-s1-def-4 .statement tag=05JT}
 
 Let E and F be two (left) modules with respect to the same ring A. A linear mapping (or A-linear mapping, or homomorphism, or A-homomorphism) of E into F is any mapping u : E → F such that:
 
@@ -174,14 +174,14 @@ If E and F are two right A-modules, a linear mapping $u : E \to F$ is a mapping 
 
 (4D) $u(x . \lambda) = u(x) . \lambda$ for $\lambda \in A, x \in E.$
 
-#### Remark {#alg-ii-s1-n2-rem-1 .statement}
+#### Remark {#alg-ii-s1-n2-rem-1 .statement tag=05JU}
 
 When E and F are two commutative groups considered as modules over the ring $\mathbf{Z}$ (no. 1), every homomorphism $u$ of the group E (without operators) into the group F (without operators) is also a linear mapping of E into F, since for n an integer > 0, the relation $u(n . x) = n . u(x)$ follows from $u(x + y) = u(x) + u(y)$ by induction on n and for $n = -m < 0$,
 $$
 u(n . x) = u(-(m . x)) = -u(m . x) = -(m . u(x)) = n . u(x).
 $$
 
-#### Example {#alg-ii-s1-n2-exa-1 .statement}
+#### Example {#alg-ii-s1-n2-exa-1 .statement tag=05JV}
 
 (1) Let E be an A-module and a an element of E; the mapping $\lambda \mapsto \lambda a$ of the A-module $A_s$ into E is a linear mapping $\theta_a$ such that $\theta_a(1) = a.$
 *(2) Let I be an open interval of the real line $\mathbf{R}$, E the vector space of differentiable real-valued functions on I and F the vector space of all real-valued functions defined on I. The mapping $x \mapsto x'$ which associates with every differentiable function x its derivative is a linear mapping from E to F.*
@@ -196,7 +196,7 @@ $$
 
 as follows immediately from (3) and (4G) by induction on the cardinal of the support of the family $(\lambda_i x_i)$.
 
-#### Proposition 1 {#alg-ii-s1-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s1-prop-1 .statement tag=05JW}
 
 Let E, F, G be three A-modules, u a linear mapping of E into F and v a linear mapping of F into G. Then the composite mapping $v \circ u$ is linear.
 
@@ -251,7 +251,7 @@ If $h$ (resp. $k$) is an endomorphism of $E$ (resp. $F$), $\mathrm{Hom}(h, 1_F)$
 
 Let $E$ be an $A$-module and $M$ a subset of $E$; for the $A$-module structure on $E$ to induce an $A$-module structure on $M$, it is necessary and sufficient that $M$ be a stable subgroup of $E$ (I, § 4, no. 3), for if this is so, the structure of a group with operators induced on $M$ obviously satisfies axioms ($M_{II}$), ($M_{III}$) and ($M_{IV}$); then $M$ with this structure (or, by an abuse of language, the set $M$ itself) is called a submodule of $E$; the canonical injection $M \to E$ is a linear mapping. When $E$ is a vector space, its submodules are called vector subspaces (or simply subspaces if no confusion can arise).
 
-#### Example {#alg-ii-s1-n3-exa-1 .statement}
+#### Example {#alg-ii-s1-n3-exa-1 .statement tag=05JX}
 
 (1) In any module $E$ the set consisting of 0 is a submodule (the zero submodule, often denoted by 0, by an abuse of notation).
 (2) Let $A$ be a ring. The submodules of $A_s$ (resp. $A_d$) are just the left ideals (resp. right ideals) of the ring $A$.
@@ -274,13 +274,13 @@ $v$ is an *isomorphism* of the coimage of $u$ onto the image of $u$ (no. 2, Prop
 
 The kernel, image, coimage and cokernel of $u$ are denoted respectively by Ker $u$, Im $u$, Coim $u$, Coker $u$.
 
-#### Remark {#alg-ii-s1-n3-rem-1 .statement}
+#### Remark {#alg-ii-s1-n3-rem-1 .statement tag=05JY}
 
 Let M be a submodule of an A-module E and $\phi : E \to E/M$ the canonical homomorphism. For an A-linear mapping $u : E \to F$ to be of the form $v \circ \phi$, where $v$ is a linear mapping of E/M into F, it is necessary and sufficient that $M \subset \mathrm{Ker}(u)$; for, if this condition holds, the relation $x - y \in M$ implies $u(x) = u(y)$, hence $u$ is compatible with this equivalence relation and clearly the mapping $v : E/M \to F$ derived from $u$ by taking quotients is linear.
 
 ### 4. EXACT SEQUENCES
 
-#### Definition 5 {#alg-ii-s1-def-5 .statement}
+#### Definition 5 {#alg-ii-s1-def-5 .statement tag=05JZ}
 
 *Let F, G, H be three A-modules; let f be a homomorphism of F into G and g a homomorphism of G into H. The ordered pair (f, g) is called an exact sequence if*
 
@@ -307,13 +307,13 @@ $$
 
 This diagram is called *exact at* F if the diagram $E \xrightarrow{f} F \xrightarrow{g} G$ is exact; it is called *exact at* G if $F \xrightarrow{g} G \xrightarrow{h} H$ is exact. If diagram (13) is *exact at* F *and at* G, it is simply called *exact*, or an *exact sequence*. Exact sequences with an arbitrary number of terms are defined similarly.
 
-#### Remark {#alg-ii-s1-n4-rem-1 .statement}
+#### Remark {#alg-ii-s1-n4-rem-1 .statement tag=05K0}
 
 (1) If the ordered pair $(f, g)$ is an exact sequence, then $g \circ f = 0$; but of course this property does not characterize exact sequences, for it only means that the image of $f$ is *contained* in the kernel of $g$.
 
 In the statements below, E, F, G denote A-modules, 0 the A-module reduced to its identity element; the arrows represent A-module homomorphisms. As there is only one homomorphism from the module 0 to a module E (resp. of E to 0), there is no point in giving these homomorphisms a name in the exact sequences where they appear.
 
-#### Proposition 3 {#alg-ii-s1-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s1-prop-3 .statement tag=05K1}
 
 (a) *For*
 $$
@@ -350,7 +350,7 @@ $$
 
 The proposition follows immediately from the definitions and Proposition 2 of no. 2.
 
-#### Remark {#alg-ii-s1-n4-rem-2 .statement}
+#### Remark {#alg-ii-s1-n4-rem-2 .statement tag=05K2}
 
 (2) To say that there is an exact sequence
 
@@ -396,7 +396,7 @@ If (15) is an exact sequence, then take $S = f(E) = g^{-1}(0)$ and $T = g(F)$, $
 
 The use of explicit letters to denote homomorphisms in an exact sequence is often dispensed with when it is not necessary for the arguments.
 
-#### Remark {#alg-ii-s1-n4-rem-3 .statement}
+#### Remark {#alg-ii-s1-n4-rem-3 .statement tag=05K3}
 
 (5) The definition of an exact sequence extends immediately to groups which are not necessarily commutative; in this case of course multiplicative notation is used with 0 replaced by 1 in the formulae (if no confusion arises). Parts (a), (b), (c) of Proposition 3 are still valid and also (d) when F is a normal subgroup of E. Remark 2 and Proposition 3(e) hold on condition that $f(E)$ is a normal subgroup of F; Remarks 3 and 4 are valid without modification.
 
@@ -416,7 +416,7 @@ Formulae (17) express the fact that the projections $pr_i : E \to E_i$ are linea
 
 Recall that if the indexing set I is empty, the product set $\prod_{i \in I} E_i$ then consists of a single element; the product module structure on this set is then that under which this unique element is 0.
 
-#### Proposition 4 {#alg-ii-s1-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s1-prop-4 .statement tag=05K4}
 
 *Let* $E = \prod_{i \in I} E_i$ *be the product of a family of A-modules* $(E_i)_{i \in I}$. *For every A-module* F *and every family of linear mappings* $f_i : F \to E_i$ *there exists one and only one mapping* f *of* F *into* E *such that* $pr_i \circ f = f_i$ *for all* $i \in I$ *and this mapping is linear*.
 
@@ -428,7 +428,7 @@ $$
 $$
 is an isomorphism.
 
-#### Proposition 5 {#alg-ii-s1-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s1-prop-5 .statement tag=05K5}
 
 (i) *Let* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *be two families of A-modules with the same indexing set* I; *for every family of linear mappings* $f_i : E_i \to F_i$ ($i \in I$), *the mapping* $f : (x_i) \to (f_i(x_i))$ *of* $\prod_i E_i$ *into* $\prod_i F_i$ *(sometimes denoted by* $\prod_i f_i$) *is linear*.
 
@@ -442,7 +442,7 @@ be exact.
 
 Assertion (i) follows immediately from the definitions. On the other hand, to say that $y = (y_i)$ belongs to $\operatorname{Ker}(g)$ means that $g_i(y_i) = 0$ for all $i \in I$ and hence that $y_i \in \operatorname{Ker}(g_i)$ for all $i \in I$; similarly, to say that $y$ belongs to $\operatorname{Im}(f)$ means that there exists $x = (x_i) \in \prod_i E_i$ such that $y = f(x)$, which is equivalent to saying that $y_i = f_i(x_i)$ for all $i \in I$ or also that $y_i \in \operatorname{Im}(f_i)$ for all $i \in I$; whence (ii).
 
-#### Corollary {#alg-ii-s1-n5-cor-1 .statement}
+#### Corollary {#alg-ii-s1-n5-cor-1 .statement tag=05K6}
 
 Under the conditions of Proposition 5, (i),
 
@@ -486,7 +486,7 @@ $$
 
 (20)
 
-#### Proposition 6 {#alg-ii-s1-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s1-prop-6 .statement tag=05K7}
 
 *Let* $(E_i)_{i \in I}$ *be a family of A-modules*, $M$ *an A-module and, for all* $i \in I$, *let* $f_i : E_i \to M$ *be a linear mapping*. *Then there exists one and only one linear mapping* $g : \bigoplus_{i \in I} E_i \to M$ *such that, for all* $i \in I$:
 
@@ -508,7 +508,7 @@ When no confusion can arise, we write $g = \sum_{i \in I} f_i$ (which is contrar
 
 In particular, if J is any subset of I, the canonical injections $j_i$ for $i \in J$ define a canonical linear mapping $j_J : \bigoplus_{i \in J} E_i \to \bigoplus_{i \in I} E_i$, which associates with each $(x_i)_{i \in I}$ the element $(x'_i)_{i \in I}$ such that $x'_i = x_i$ for $i \in J$, $x'_i = 0$ for $i \notin J$; this mapping is obviously injective. Moreover, if $(J_\lambda)_{\lambda \in L}$ is a partition of I, the mapping $i : \bigoplus_{\lambda \in L} \left( \bigoplus_{i \in J_\lambda} E_i \right) \to \bigoplus_{i \in I} E_i$ corresponding to the family $(j_{J_\lambda})$ by Proposition 6 is an *isomorphism* called canonical ("associativity" of direct sums).
 
-#### Corollary 1 {#alg-ii-s1-prop-6-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s1-prop-6-cor-1 .statement tag=05K8}
 
 *Let $(E_i)_{i \in I}, (F_\lambda)_{\lambda \in L}$ be two families of A-modules. The mapping*
 $$
@@ -518,7 +518,7 @@ $$
 
 This follows from Proposition 6 and no. 5, Proposition 4.
 
-#### Corollary 2 {#alg-ii-s1-prop-6-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s1-prop-6-cor-2 .statement tag=05K9}
 
 *Let $(E_i)_{i \in I}$ be a family of A-modules, F an A-module and, for each $i \in I$, let $f_i : E_i \to F$ be a linear mapping. For $f = \sum_{i \in I} f_i$ to be an isomorphism of $E = \bigoplus_{i \in I} E_i$ onto F, it is necessary and sufficient that there exist for each $i \in I$ a linear mapping $g_i : F \to E_i$ with the following properties:*
 (1) $g_i \circ f_i = 1_{E_i}$ for all $i \in I$.
@@ -535,7 +535,7 @@ Obviously the conditions are necessary for they are satisfied by the $g_i = \ope
 
 therefore $g(f(x)) = \sum_i j_i(g_i(f(x))) = \sum_i j_i(\mathrm{pr}_i(x)) = x$, which proves the corollary.
 
-#### Proposition 7 {#alg-ii-s1-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s1-prop-7 .statement tag=05KA}
 
 (i) *Let* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *be two families of* $A$*-modules with the same indexing set* $I$; *for every family of linear mappings* $f_i : E_i \to F_i$ ($i \in I$), *the restriction to* $\bigoplus_{i \in I} E_i$ *of the linear mapping* $(x_i) \mapsto (f_i(x_i))$ *is a linear mapping* $f : \bigoplus_{i \in I} E_i \to \bigoplus_{i \in I} F_i$ *denoted by* $\bigoplus_{i \in I} f_i$ *or* $\bigoplus_i f_i$ *(where* $f = f_p \oplus f_{p+1} \oplus \cdots \oplus f_q$ *if* $I = [p, q]$ *is an interval in* $\mathbf{Z}$*).*
 
@@ -547,7 +547,7 @@ $$
 
 Obviously, for all $(x_i) \in \bigoplus_i E_i$, the family $(f_i(x_i))$ has finite support, whence (i). On the other hand, to say that an element $y = (y_i)$ of $\bigoplus_i F_i$ belongs to $\mathrm{Ker}(g)$ means that $y_i \in \mathrm{Ker}(g_i)$ for all $i \in I$ (no. 5, Proposition 5); similarly, if $y_i \in \mathrm{Im}(f_i)$ for all $i \in I$, there exists for each $i \in I$ an $x_i \in E_i$ such that $y_i = f_i(x_i)$ and when $y_i = 0$, it may be supposed that $x_i = 0$; hence $y \in \mathrm{Im}(f)$ and the converse is obvious.
 
-#### Corollary 1 {#alg-ii-s1-prop-7-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s1-prop-7-cor-1 .statement tag=05KB}
 
 *Under the conditions of Proposition 7, (i),*
 $$
@@ -564,7 +564,7 @@ $$
 \bigoplus_{i \in I} (E_i/F_i) \to \left( \bigoplus_{i \in I} E_i \right) / \left( \bigoplus_{i \in I} F_i \right).
 $$
 
-#### Corollary 2 {#alg-ii-s1-prop-7-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s1-prop-7-cor-2 .statement tag=05KC}
 
 Let $(E_i)_{i \in I}, (E'_i)_{i \in I}, (F_\lambda)_{\lambda \in L}, (F'_\lambda)_{\lambda \in L}$ be four families of $A$-modules and, for each $i \in I$ (resp. each $\lambda \in L$), $u_i : E'_i \to E_i$ (resp. $v_\lambda : F_\lambda \to F'_\lambda$) a linear mapping. Then the diagram
 
@@ -583,7 +583,7 @@ The verification follows immediately from the definitions.
 
 When all the $E_i$ are equal to the same $A$-module $E$, the direct sum $\bigoplus_{i \in I} E_i$ is also denoted by $E^{(I)}$: its elements are the mappings of $I$ into $E$ with finite support. If, for all $i$, $f_i$ is taken to be the identity mapping $E \to E$, by Proposition 6, a linear mapping $E^{(I)} \to E$ is obtained, called *codiagonal*, which associates with every family $(x_i)_{i \in I}$ of elements of $E$, of finite support, its *sum* $\sum_{i \in I} x_i$.
 
-#### Remark {#alg-ii-s1-n6-rem-1 .statement}
+#### Remark {#alg-ii-s1-n6-rem-1 .statement tag=05KD}
 
 Recall that the definition of direct sum extends immediately to a family $(E_i)_{i \in I}$ of *groups* which are not necessarily commutative, multiplicative notation of course replacing the additive notation; we then say "*restricted product*" or "*restricted sum*" instead of "*direct sum*" (I, § 4, no. 9).
 
@@ -605,7 +605,7 @@ which is obtained by passing to the quotient, are called canonical.
 
 In particular:
 
-#### Proposition 8 {#alg-ii-s1-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s1-prop-8 .statement tag=05KE}
 
 *If a family* $(M_i)_{i \in I}$ *of submodules of* $E$ *has intersection reduced to* $0$ *E is canonically isomorphic to a submodule of* $\prod_{i \in I} (E / M_i)$.
 
@@ -613,25 +613,25 @@ Given a subset $X$ of an $A$-module $E$, the intersection $F$ of the submodules 
 
 An $A$-module is called *finitely generated* if it has a *finite* generating set.
 
-#### Proposition 9 {#alg-ii-s1-prop-9 .statement}
+#### Proposition 9 {#alg-ii-s1-prop-9 .statement tag=05KF}
 
 *The submodule generated by a family* $(a_i)_{i \in I}$ *of elements of an* $A$*-module* $E$ *is the set of linear combinations of the family* $(a_i)$.
 
 Every submodule of $E$ which contains all the $a_i$ also contains the linear combinations of the $a_i$. Conversely, formulae (1) and (2) of no. 1 prove that the set of linear combinations of the $a_i$ is a submodule of $E$ which obviously contains all the $a_i$ and is therefore the smallest submodule containing them.
 
-#### Corollary 1 {#alg-ii-s1-prop-9-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s1-prop-9-cor-1 .statement tag=05KG}
 
 *Let* $u : E \to F$ *be a linear mapping, S a subset of* $E$ *and* $M$ *the submodule of* $E$ *generated by* $S$. *Then* $u(M)$ *is the submodule of* $F$ *generated by* $u(S)$.
 
 In particular, the image under $u$ of any finitely generated submodule of $E$ is a finitely generated submodule of $F$.
 
-#### Remark {#alg-ii-s1-n7-rem-1 .statement}
+#### Remark {#alg-ii-s1-n7-rem-1 .statement tag=05KH}
 
 If $u(x) = 0$ for all $x \in S$, then also $u(x) = 0$ for all $x \in M$. We shall sometimes refer to this result as the *"principle of extension of linear identities"* or *"principle of extension by linearity"*.
 
 In particular, to verify that a linear mapping $u : E \to F$ is of the form $v \circ \phi$, where $v : E / M \to F$ is linear and $\phi : E \to E / M$ is the canonical projection, it suffices to verify that $u(S) = 0$.
 
-#### Corollary 2 {#alg-ii-s1-prop-9-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s1-prop-9-cor-2 .statement tag=05KI}
 
 *The submodule generated by the union of a family* $(M_i)_{i \in I}$ *of submodules of a module* $E$ *is identical with the set of sums* $\sum_{i \in I} x_i$, *where* $(x_i)_{i \in I}$ *runs through the set of families of elements of* $E$ *of finite support such that* $x_i \in M_i$ *for all* $i \in I$.
 
@@ -645,23 +645,23 @@ $$
 \bigoplus_{i \in I} M_i \xrightarrow{h} E \longrightarrow E / \left( \sum_{i \in I} M_i \right) \longrightarrow 0.
 $$
 
-#### Corollary 3 {#alg-ii-s1-prop-9-cor-3 .statement}
+#### Corollary 3 {#alg-ii-s1-prop-9-cor-3 .statement tag=05KJ}
 
 *If* $(M_\lambda)_{\lambda \in L}$ *is a right directed family of submodules of an A-module E, the sum* $\sum_{\lambda \in L} M_\lambda$ *is identical with the union* $\bigcup_{\lambda \in L} M_\lambda$.
 
 $\bigcup_{\lambda \in L} M_\lambda \subset \sum_{\lambda \in L} M_\lambda$ *is always true without hypothesis; on the other hand, for every finite subfamily* $(M_\lambda)_{\lambda \in J}$ *of* $(M_\lambda)_{\lambda \in L}$, *there exists by hypothesis a* $\mu \in L$ *such that* $M_\lambda \subset M_\mu$ *for all* $\lambda \in J$, *hence* $\sum_{\lambda \in L} M_\lambda \subset M_\mu$ *and it thus follows from Corollary 2 that* $\sum_{\lambda \in L} M_\lambda \subset \bigcup_{\lambda \in L} M_\lambda$.
 
-#### Corollary 4 {#alg-ii-s1-prop-9-cor-4 .statement}
+#### Corollary 4 {#alg-ii-s1-prop-9-cor-4 .statement tag=05KK}
 
 *Let* $0 \to E \xrightarrow{f} F \xrightarrow{g} G \to 0$ *be an exact sequence of A-modules, S a generating system of* E, *T a generating system of* G. *If T' is a subset of F such that* $g(T') = T$, *T' \cup f(S) is a generating system of* F.
 
 The submodule F' of F generated by T' \cup f(S) contains $f(E)$ and, as $g(F')$ contains T, $g(F') = G$; hence $F' = F$.
 
-#### Corollary 5 {#alg-ii-s1-prop-9-cor-5 .statement}
+#### Corollary 5 {#alg-ii-s1-prop-9-cor-5 .statement tag=05KL}
 
 *In an exact sequence* $0 \to E \to F \to G \to 0$ *of A-modules, if E and G are finitely generated, so is F.*
 
-#### Proposition 10 {#alg-ii-s1-prop-10 .statement}
+#### Proposition 10 {#alg-ii-s1-prop-10 .statement tag=05KM}
 
 *Let* M, N *be two submodules of an A-module E. Then there are two exact sequences*
 
@@ -695,17 +695,17 @@ Let $w$ be the class mod. $(M \cap N)$ of $z; r(w)$ is the class mod. $M$ of $z$
 
 ### 8. DIRECT SUMS OF SUBMODULES
 
-#### Definition 6 {#alg-ii-s1-def-6 .statement}
+#### Definition 6 {#alg-ii-s1-def-6 .statement tag=05KN}
 
 *An A-module* $E$ *is said to be the direct sum of a family* $(M_\iota)_{\iota \in I}$ *of submodules of* $E$ *if the canonical mapping* $\bigoplus_{\iota \in I} M_\iota \to E$ *(no. 6)* *is an isomorphism*.
 
 It amounts to the same to say that every $x \in E$ can be written *in a unique way* in the form $x = \sum_{\iota \in I} x_\iota$, where $x_\iota \in E_\iota$ for all $\iota \in I$; the element $x_\iota$ thus corresponding to $x$ is called the *component* of $x$ in $E_\iota$; the mapping $x \mapsto x_\iota$ is *linear*.
 
-#### Remark {#alg-ii-s1-n8-rem-1 .statement}
+#### Remark {#alg-ii-s1-n8-rem-1 .statement tag=05KO}
 
 (1) Let $(M_\iota)_{\iota \in I}, (N_\iota)_{\iota \in I}$ be two families of submodules of a module $E$, with the same indexing set; suppose that $E$ is *both* the direct sum of the family $(M_\iota)$ and of the family $(N_\iota)$ and *that* $N_\iota \subset M_\iota$ for all $\iota \in I$. Then $N_\iota = M_\iota$ *for all* $\iota \in I$, as follows immediately from no. 6, Corollary 1 to Proposition 7 applied to the canonical injections $f_\iota : N_\iota \to M_\iota$.
 
-#### Proposition 11 {#alg-ii-s1-prop-11 .statement}
+#### Proposition 11 {#alg-ii-s1-prop-11 .statement tag=05KP}
 
 *Let* $(M_\iota)_{\iota \in I}$ *be a family of submodules of an A-module* $E$. *The following properties are equivalent*:
 
@@ -717,11 +717,11 @@ It amounts to the same to say that every $x \in E$ can be written *in a unique w
 
 It is immediate that (a) and (b) are equivalent, since the relation $\sum_i x_i = \sum_i y_i$ is equivalent to $\sum_i (x_i - y_i) = 0$. On the other hand, by virtue of Definition 6, (a) implies (c) by the uniqueness of the expression of an element of $\bigoplus_{i \in I} M_i$ as a direct sum of elements $x_i \in M_i$. Finally, the relation $\sum_i x_i = 0$, where $x_i \in M_i$ for all $i$, can be written, for all $\kappa \in I$, $x_\kappa = \sum_{i \neq \kappa} (-x_i)$; condition (c) then implies $x_\kappa = 0$ for all $\kappa \in I$, hence (c) implies (b).
 
-#### Definition 7 {#alg-ii-s1-def-7 .statement}
+#### Definition 7 {#alg-ii-s1-def-7 .statement tag=05KQ}
 
 *An endomorphism e of an A-module E is called a projector if* $e \circ e = e$ *(in other words, if e is an idempotent in the ring End(E)). In* $\operatorname{End}(E)$ *a family* $(e_\lambda)_{\lambda \in L}$ *of projectors is called orthogonal if* $e_\lambda \circ e_\mu = 0$ *for* $\lambda \neq \mu$.
 
-#### Proposition 12 {#alg-ii-s1-prop-12 .statement}
+#### Proposition 12 {#alg-ii-s1-prop-12 .statement tag=05KR}
 
 *Let E be an A-module.*
 
@@ -738,7 +738,7 @@ $$
 1_E = \sum_{\lambda \in L} e_\lambda.
 $$
 
-#### Corollary {#alg-ii-s1-n8-cor-1 .statement}
+#### Corollary {#alg-ii-s1-n8-cor-1 .statement tag=05KS}
 
 *For every projector e of E, E is the direct sum of the image* $M = e(E)$ *and the kernel* $N = e^{-1}(0)$ *of e; for all* $x = x_1 + x_2 \in E$ *with* $x_1 \in M$ *and* $x_2 \in N$, $x_1 = e(x)$; *1 − e is a projector of E of image N and kernel M*.
 
@@ -746,7 +746,7 @@ $(1 - e)^2 = 1 - 2e + e^2 = 1 - e$ *in* $\operatorname{End}(E)$ *and hence* $1 -
 
 this shows therefore that M is the kernel of $1 - e$ and, exchanging the roles of $e$ and $1 - e$, it is similarly seen that N is the kernel of $e$.
 
-#### Remark {#alg-ii-s1-n8-rem-2 .statement}
+#### Remark {#alg-ii-s1-n8-rem-2 .statement tag=05KT}
 
 (2) Let E, F be two A-modules such that E is the direct sum of a finite family $(M_i)_{1 \leq i \leq m}$ of submodules and F the direct sum of a finite family $(N_j)_{1 \leq j \leq n}$ of submodules. Then it is known (no. 6, Corollary 1 to Proposition 6) that $\mathrm{Hom}_A(E, F)$ is canonically identified with the product $\prod_{i,j} \mathrm{Hom}_A(M_i, N_j)$; to be precise, to a family $(u_{ji})$, where $u_{ji} \in \mathrm{Hom}_A(M_i, N_j)$ there corresponds the linear mapping $u : E \to F$ defined as follows. It suffices to define the restriction of $u$ to each of the $M_i$ and for each $x_i \in M_i$,
 $$
@@ -764,25 +764,25 @@ the family $(w_{ki})$ corresponds canonically to the composite linear mapping $w
 
 ### 9. SUPPLEMENTARY SUBMODULES
 
-#### Definition 8 {#alg-ii-s1-def-8 .statement}
+#### Definition 8 {#alg-ii-s1-def-8 .statement tag=05KU}
 
 In an A-module E, two submodules $M_1, M_2$ are said to be supplementary if E is the direct sum of $M_1$ and $M_2$.
 
 Proposition 11 of no. 8 shows that, for $M_1$ and $M_2$ to be supplementary, it is necessary and sufficient that $M_1 + M_2 = E$ and $M_1 \cap M_2 = \{0\}$ (cf. I, § 4, no. 9, Proposition 15).
 
-#### Proposition 13 {#alg-ii-s1-prop-13 .statement}
+#### Proposition 13 {#alg-ii-s1-prop-13 .statement tag=05KV}
 
 Let $M_1, M_2$ be two supplementary submodules in an A-module E. The restriction to $M_1$ of the canonical mapping $E \to E/M_2$ is an isomorphism of $M_1$ onto $E/M_2$.
 
 This linear mapping is surjective since $M_1 + M_2 = E$ and it is injective since its kernel is the intersection of $M_1$ and the kernel $M_2$ of $E \to E/M_2$ and hence reduces to $\{0\}$.
 
-#### Corollary {#alg-ii-s1-n9-cor-1 .statement}
+#### Corollary {#alg-ii-s1-n9-cor-1 .statement tag=05KW}
 
 If $M_2$ and $M_2'$ are two supplements of the same submodule $M_1$ of E, the set of ordered pairs $(x, x') \in M_2 \times M_2'$ such that $x - x' \in M_1$ is the graph of an isomorphism of $M_2$ onto $M_2'$.
 
 It is immediate that it is the graph of the composite isomorphism $M_2 \to E/M_1 \to M'_2$.
 
-#### Definition 9 {#alg-ii-s1-def-9 .statement}
+#### Definition 9 {#alg-ii-s1-def-9 .statement tag=05KX}
 
 *A submodule $M$ of an $A$-module $E$ is called a direct factor of $E$ if it has a supplementary submodule in $E$.*
 
@@ -790,13 +790,13 @@ When this is so, $E/M$ is isomorphic to a supplement of $M$ (Proposition 13).
 
 A submodule does not necessarily admit a supplement (Exercise 11). When a submodule is a direct factor, it has in general several distinct supplements; these supplements are however canonically isomorphic to one another (Corollary to Proposition 13).
 
-#### Proposition 14 {#alg-ii-s1-prop-14 .statement}
+#### Proposition 14 {#alg-ii-s1-prop-14 .statement tag=05KY}
 
 *For a submodule $M$ of a module $E$ to be a direct factor, it is necessary and sufficient that there exist a projector of $E$ whose image is $M$ or a projector of $E$ whose kernel is $M$.*
 
 This follows immediately from no. 8, Proposition 12 and Corollary.
 
-#### Proposition 15 {#alg-ii-s1-prop-15 .statement}
+#### Proposition 15 {#alg-ii-s1-prop-15 .statement tag=05KZ}
 
 *Given an exact sequence of $A$-modules*
 $$
@@ -814,19 +814,19 @@ Note that being given $r$ (resp. $s$) is equivalent to being given a supplement 
 
 When the exact sequence (33) satisfies the conditions of Proposition 15, it is said to *split* or $(F, f, g)$ is said to be a *trivial* extension of $G$ by $E$ (I, § 6, no. 1).
 
-#### Corollary 1 {#alg-ii-s1-prop-15-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s1-prop-15-cor-1 .statement tag=05L0}
 
 Let $u : E \to F$ be a linear mapping. For there to exist a linear mapping $v : F \to E$ such that $u \circ v = 1_F$ (the case where $u$ is said to be right invertible and $v$ is said to be the right inverse of $u$), it is necessary and sufficient that $u$ be surjective and that its kernel be a direct factor in $E$. The submodule $\operatorname{Im}(v)$ of $E$ is then a supplement of $\operatorname{Ker}(u)$.
 
 It is obviously necessary that $u$ be surjective; as $v$ is then a section associated with $u$, the conclusion follows from Proposition 15.
 
-#### Corollary 2 {#alg-ii-s1-prop-15-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s1-prop-15-cor-2 .statement tag=05L1}
 
 Let $u : E \to F$ be a linear mapping. For there to exist a linear mapping $v : F \to E$ such that $v \circ u = 1_E$ (the case where $u$ is said to be left invertible and $v$ is said to be the left inverse of $u$), it is necessary and sufficient that $u$ be injective and that its image be a direct factor in $F$. The submodule $\operatorname{Ker}(v)$ of $F$ is then a supplement of $\operatorname{Im}(u)$.
 
 It is obviously necessary that $u$ be injective; as $v$ is then a retraction associated with $u$, the conclusion also follows from Proposition 15.
 
-#### Remark {#alg-ii-s1-n9-rem-1 .statement}
+#### Remark {#alg-ii-s1-n9-rem-1 .statement tag=05L2}
 
 (1) Let $M, N$ be two supplementary submodules in an $A$-module $E$, $p, q$ the projectors of $E$ onto $M$ and $N$ respectively, corresponding to the decomposition of $E$ as a direct sum of $M$ and $N$. It is known (no. 6, Corollary 1 to Proposition 6) that, for every $A$-module $F$, the mapping $(u, v) \mapsto u \circ p + v \circ q$ is an isomorphism of
 $$
@@ -840,7 +840,7 @@ onto $\operatorname{Hom}_A(E, F)$. The image of $\operatorname{Hom}_A(M, F)$ und
 
 Recall (I, § 4, no. 4, Definition 7) that an $A$-module $M$ is called simple if it is not reduced to 0 and it contains no submodule distinct from $M$ and $\{0\}$. An $A$-module $M$ is said to be of finite length if it has a Jordan-Hölder series $(M_i)_{0 \leq i \leq n}$ and the number $n$ of quotients of this series (which does not depend on the Jordan-Hölder series of $M$ considered) is then called the length of $M$ (I, § 4, no. 7, Definition 11); we shall denote it by $\operatorname{long}(M)$ or $\operatorname{long}_A(M)$. An $A$-module which is reduced to 0 is of length 0; if $M$ is a non-zero $A$-module of finite length then $\operatorname{long}(M) > 0$.
 
-#### Proposition 16 {#alg-ii-s1-prop-16 .statement}
+#### Proposition 16 {#alg-ii-s1-prop-16 .statement tag=05L3}
 
 Let $M$ be an $A$-module and $N$ a submodule of $M$; for $M$ to be of finite length, it is necessary and sufficient that $N$ and $M/N$ be so, and then
 $$
@@ -848,11 +848,11 @@ $$
 $$
 The proof has been given in I, § 4, no. 7, Proposition 10.
 
-#### Corollary 1 {#alg-ii-s1-prop-16-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s1-prop-16-cor-1 .statement tag=05L4}
 
 Let $M$ be an $A$-module of finite length; for a submodule $N$ of $M$ to be equal to $M$, it is necessary and sufficient that $\operatorname{long}(N) = \operatorname{long}(M)$.
 
-#### Corollary 2 {#alg-ii-s1-prop-16-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s1-prop-16-cor-2 .statement tag=05L5}
 
 Let $u : M \to N$ be an $A$-module homomorphism. If $M$ or $N$ is of finite length, so is $\operatorname{Im}(u)$. If $M$ is of finite length, so is $\operatorname{Ker}(u)$ and
 $$
@@ -863,7 +863,7 @@ $$
 \operatorname{long}(\operatorname{Im}(u)) + \operatorname{long}(\operatorname{Coker}(u)) = \operatorname{long}(N).
 $$
 
-#### Corollary 3 {#alg-ii-s1-prop-16-cor-3 .statement}
+#### Corollary 3 {#alg-ii-s1-prop-16-cor-3 .statement tag=05L6}
 
 Let $(M_i)_{0 \leq i \leq n}$ be a finite family of $A$-modules of finite length. If there exists an exact sequence of linear mappings
 $$
@@ -883,7 +883,7 @@ $$
 $$
 whence relation (38).
 
-#### Corollary 4 {#alg-ii-s1-prop-16-cor-4 .statement}
+#### Corollary 4 {#alg-ii-s1-prop-16-cor-4 .statement tag=05L7}
 
 Let $M$ and $N$ be two submodules of finite length of an $A$-module $E$; then $M + N$ is of finite length and
 $$
@@ -895,7 +895,7 @@ $$
 $$
 using the fact that $\operatorname{long}(M \oplus N) = \operatorname{long}(M) + \operatorname{long}(N)$ by (34).
 
-#### Corollary 5 {#alg-ii-s1-prop-16-cor-5 .statement}
+#### Corollary 5 {#alg-ii-s1-prop-16-cor-5 .statement tag=05L8}
 
 Let $M$ be an $A$-module the sum of a family $(N_i)$ of submodules of finite length. Then $M$ is of finite length and
 $$
@@ -906,7 +906,7 @@ Moreover, for the two sides of (40) to be equal, it is necessary and sufficient 
 
 It has been seen (no. 7, formula (28)) that there is a canonical surjective linear mapping $h : \bigoplus_i N_i \to M$; hence the corollary follows from (35).
 
-#### Corollary 6 {#alg-ii-s1-prop-16-cor-6 .statement}
+#### Corollary 6 {#alg-ii-s1-prop-16-cor-6 .statement tag=05L9}
 
 *Let M and N be two submodules of an A-module E such that E/M and E/N are modules of finite length; then E/(M \cap N) is of finite length and*
 
@@ -926,7 +926,7 @@ $$
 \text{long}((E/M) \oplus (E/N)) = \text{long}(E/M) + \text{long}(E/N).
 $$
 
-#### Corollary 7 {#alg-ii-s1-prop-16-cor-7 .statement}
+#### Corollary 7 {#alg-ii-s1-prop-16-cor-7 .statement tag=05LA}
 
 *Let $(M_i)$ be a finite family of submodules of an A-module E such that the $E/M_i$ are modules of finite length. Then $E/(\bigcap_i M_i)$ is of finite length and*
 
@@ -936,7 +936,7 @@ $$
 
 It has been seen (formula (27)) that there is a canonical injective linear mapping $E/(\bigcap_i M_i) \to \bigoplus_i (E/M_i)$.
 
-#### Remark {#alg-ii-s1-n10-rem-1 .statement}
+#### Remark {#alg-ii-s1-n10-rem-1 .statement tag=05LB}
 
 With the exception of no. 7, Proposition 9, *all* the results of nos. 2 to 10 are valid for arbitrary *commutative groups with operators*, submodules (resp. quotient modules) being replaced in the statements by stable subgroups (resp. quotient groups by stable subgroups); we also make the convention of calling homomorphisms of groups with operators "linear mappings". The corollaries to no. 7, Proposition 9 are also valid for commutative groups with operators: this is obvious for Corollaries 4 and 5, as also for Corollary 2, since $\alpha \left( \sum_{i \in I} x_i \right) = \sum_{i \in I} \alpha x_i$ for every operator $\alpha$, and Corollary 3 follows from it. As for Corollary 1, it suffices to note that if N is a stable subgroup of F containing $u(S)$, $u^{-1}(N)$ is a stable subgroup of E containing S, hence $u^{-1}(N)$ contains M and therefore $u(M) \subset N$.
 
@@ -948,7 +948,7 @@ x = \sum_{t \in T} \xi_t e_t.
 $$
 The mapping $\phi : t \mapsto e_t$ of $T$ into $A_s^{(T)}$ is called canonical; it is injective if $A$ is non-zero. We shall see that the ordered pair $(A_s^{(T)}, \phi)$ is a solution of a universal mapping problem (Set Theory, IV, § 3, no. 1).
 
-#### Proposition 17 {#alg-ii-s1-prop-17 .statement}
+#### Proposition 17 {#alg-ii-s1-prop-17 .statement tag=05LC}
 
 *For every A-module E and every mapping $f : T \to E$, there exists one and only one A-linear mapping $g : A_s^{(T)} \to E$ such that $f = g \circ \phi$.*
 
@@ -965,7 +965,7 @@ $$
 $$
 is said to be *determined* by the family $(f(t))_{t \in T}$.
 
-#### Corollary 1 {#alg-ii-s1-prop-17-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s1-prop-17-cor-1 .statement tag=05LD}
 
 *Let $T, T'$ be two sets, $g : T \to T'$ a mapping. Then there exists one and only one A-linear mapping $f : A^{(T)} \to A^{(T')}$ which renders commutative the diagram*
 $$
@@ -979,13 +979,13 @@ $$
 
 It suffices to apply Proposition 17 to the composite mapping $T \overset{g}{\to} T' \overset{\phi'}{\to} A^{(T')}$.
 
-#### Corollary 2 {#alg-ii-s1-prop-17-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s1-prop-17-cor-2 .statement tag=05LE}
 
 *For a family $(a_t)_{t \in T}$ of elements of an A-module E to be a generating system of E, it is necessary and sufficient that the linear mapping $A_s^{(T)} \to E$ determined by this family be surjective.*
 
 This is just another way of expressing Proposition 9 of no. 7.
 
-#### Definition 10 {#alg-ii-s1-def-10 .statement}
+#### Definition 10 {#alg-ii-s1-def-10 .statement tag=05LF}
 
 *A family* $(a_t)_{t \in T}$ *of elements of an* $\mathbf{A}$*-module* $E$ *is called a free family* (resp. *a basis of* $E$) *if the linear mapping* $A_s^{(T)} \to E$ *determined by this family is injective* (resp. *bijective*). *A module is called free if it has a basis*.
 
@@ -997,7 +997,7 @@ By definition, the $\mathbf{A}$-module $A_s^{(T)}$ is free and the family $(e_t)
 
 Definition 10 and Proposition 17 give immediately the following result:
 
-#### Corollary 3 {#alg-ii-s1-def-10-cor-3 .statement}
+#### Corollary 3 {#alg-ii-s1-def-10-cor-3 .statement tag=05LG}
 
 *Let* $E$ *be a free* $\mathbf{A}$*-module*, $(a_t)_{t \in T}$ *a basis of* $E$, $F$ *an* $\mathbf{A}$*-module and* $(b_t)_{t \in T}$ *a family of elements of* $F$. *There exists one and only one linear mapping* $f : E \to F$ *such that*
 $$
@@ -1013,7 +1013,7 @@ If a subset of E is not free, it is called related or a related system and its e
 
 Every subset of a free subset is free; in particular, the empty subset is free and is a basis of the submodule {0} of E.
 
-#### Proposition 18 {#alg-ii-s1-prop-18 .statement}
+#### Proposition 18 {#alg-ii-s1-prop-18 .statement tag=05LH}
 
 *For a family $(a_t)_{t \in T}$ of a module E to be free, it is necessary and sufficient that every finite subfamily of $(a_t)_{t \in T}$ be free.*
 
@@ -1021,19 +1021,19 @@ This follows immediately from the definition.
 
 Proposition 18 shows that the set of free subsets of E, ordered by inclusion, is inductive (*Set Theory*, III, § 2, no. 4); as it is non-empty (since $\varnothing$ belongs to it), it has a maximal element $(a_l)_{l \in I}$ by Zorn’s Lemma. It follows (if $A \neq \{0\}$) that for all $x \in E$ there exist an element $\mu \neq 0$ of A and a family $(\xi_l)$ of element A such that $\mu x = \sum_l \xi_l a_l$ (cf. § 7, no. 1).
 
-#### Proposition 19 {#alg-ii-s1-prop-19 .statement}
+#### Proposition 19 {#alg-ii-s1-prop-19 .statement tag=05LI}
 
 *Let E be an A-module, the direct sum of a family $(M_\lambda)_{\lambda \in L}$ of submodules. If, for each $\lambda \in L$, $S_\lambda$ is a free subset (resp. generating set, basis) of $M_\lambda$, then $S = \bigcup_{\lambda \in L} S_\lambda$ is a free subset (resp. generating set, basis) of E.*
 
 The proposition follows from the definitions and the relation $A_s^{(S)} = \bigoplus_{\lambda \in L} A_s^{(S_\lambda)}$ (associativity of direct sums, cf. no. 6).
 
-#### Remark {#alg-ii-s1-n11-rem-1 .statement}
+#### Remark {#alg-ii-s1-n11-rem-1 .statement tag=05LJ}
 
 (1) By Definition 10, if $A \neq \{0\}$ and $(a_l)_{l \in I}$ is a free family, no element $a_\kappa$ can be equal to a linear combination of the $a_l$ of index $l \neq \kappa$. But conversely, a family $(a_l)$ satisfying this condition is not necessarily a free family. For example, let A be an integral domain and $a, b$ two distinct non-zero elements; in A, considered as an A-module, $a$ and $b$ form a related system, since $(-b)a + ab = 0$. But in general there does not exist an element $x \in A$ such that $a = xb$ of $b = xa$ (cf. however § 7, no. 1, *Remark*).
 
 An element $x$ of a module E is called *free* if $\{x\}$ is a free subset, that is if the relation $\alpha x = 0$ implies $\alpha = 0$. Every element of a free subset is free and in particular 0 cannot belong to any free subset when $A \neq \{0\}$.
 
-#### Remark {#alg-ii-s1-n11-rem-2 .statement}
+#### Remark {#alg-ii-s1-n11-rem-2 .statement tag=05LK}
 
 (2) A free module can have elements $\neq 0$ which are not free: for example, the A-module $A_s$ is free but the right divisors of zero in A are not free elements of $A_s$.
 
@@ -1041,7 +1041,7 @@ An element $x$ of a module E is called *free* if $\{x\}$ is a free subset, that 
 
 (4) It can happen that every element $\neq 0$ of an A-module is free without the module being free. For example, the field $\mathbf{Q}$ of rational numbers is a $\mathbf{Z}$-module with this property, for two elements $\neq 0$ of $\mathbf{Q}$ always form a related system and a basis of $\mathbf{Q}$ could therefore only contain a single element $a$; but the elements of $\mathbf{Q}$ are not all of the form $na$ with $n \in \mathbf{Z}$ (cf. VII, § 3).
 
-#### Proposition 20 {#alg-ii-s1-prop-20 .statement}
+#### Proposition 20 {#alg-ii-s1-prop-20 .statement tag=05LL}
 
 *Every A-module E is isomorphic to a quotient module of a free A-module.*
 
@@ -1057,7 +1057,7 @@ $$
 
 Note that if $A \neq \{0\}$ every basis of a *finitely generated* free module E is necessarily *finite*, for if S is a finite generating system and B a basis of E, each element of S is a linear combination of a finite number of elements of B and if B' is the set of all the elements of B which figure thus in the expression for the elements of S, B' is finite and every $x \in E$ is a linear combination of elements of B', hence $B' = B$.
 
-#### Proposition 21 {#alg-ii-s1-prop-21 .statement}
+#### Proposition 21 {#alg-ii-s1-prop-21 .statement tag=05LM}
 
 *Every exact sequence of A-modules*
 
@@ -1069,7 +1069,7 @@ $$
 
 There exists one and only one linear mapping $h : F \to E$ such that $h(b_\lambda) = a_\lambda$ for all $\lambda \in L$ (Corollary 3 to Proposition 17). As h is a linear section associated with f, the proposition follows from I, § 4, no. 9, Proposition 15.
 
-#### Remark {#alg-ii-s1-n11-rem-3 .statement}
+#### Remark {#alg-ii-s1-n11-rem-3 .statement tag=05LN}
 
 (5) Let $(a_i)_{1 \leq i \leq n}$ be a *basis* of an A-module E and let $(b_i)_{1 \leq i \leq n}$ be a family of elements of E given by the relations
 
@@ -1085,7 +1085,7 @@ it is seen that $(b_i)_{1 \leq i \leq n}$ is a generating system of E, which com
 
 ### 12. ANNIHILATORS. FAITHFUL MODULES. MONOGENOUS MODULES
 
-#### Definition 11 {#alg-ii-s1-def-11 .statement}
+#### Definition 11 {#alg-ii-s1-def-11 .statement tag=05LO}
 
 *The annihilator of a subset S of an A-module E is the set of elements $\alpha \in A$ such that $\alpha x = 0$ for all $x \in S$.*
 
@@ -1101,19 +1101,19 @@ For all $\alpha \in A$, let $h_\alpha$ be the homothety $x \mapsto \alpha x$; it
 
 Let E be any A-module, $a$ a two-sided ideal of A contained in Ann(E) and let $\dot{\alpha}$ be an element of the quotient ring $A/a$; for all $x \in E$, the element $\alpha x$ is the same for all the $\alpha \in A$ belonging to the class $\dot{\alpha}$ mod. $a$; if this element is denoted by $\dot{\alpha} x$, it is immediately seen that the mapping (α, x) ↦ αx defines (with addition on E) an (A/α)-module structure on E. When α = Ann(E), the (A/α)-module E thus defined is *faithful*; we shall say that it is the faithful module *associated* with the A-module E. Observe that every submodule of an A-module E is also a submodule of the associated faithful module and conversely.
 
-#### Definition 12 {#alg-ii-s1-def-12 .statement}
+#### Definition 12 {#alg-ii-s1-def-12 .statement tag=05LP}
 
 *A module is called monogenous if it is generated by a single element.*
 
 Proposition 9 of no. 7 shows that, if E is a monogenous A-module and a is an element generating E, E is identical with the set A.a of ξa, where ξ runs through A.
 
-#### Example {#alg-ii-s1-n12-exa-1 .statement}
+#### Example {#alg-ii-s1-n12-exa-1 .statement tag=05LQ}
 
 (1) Every monogenous group, being commutative (I, § 4, no. 10, Proposition 18), is a monogenous $\mathbf{Z}$-module.
 (2) If A is a commutative ring, the monogenous submodules of the A-module A are just the *principal ideals* (I, § 8, no. 6) of the ring A.
 (3) Every *simple* A-module E is monogenous, since the submodule of E generated by an element ≠ 0 of E is necessarily equal to E.
 
-#### Proposition 22 {#alg-ii-s1-prop-22 .statement}
+#### Proposition 22 {#alg-ii-s1-prop-22 .statement tag=05LR}
 
 *Let A be a ring. Every quotient module of $A_s$ is monogenous. Conversely, let E be a monogenous A-module, c a generator of E and a its annihilator; the linear mapping $\xi \mapsto \xi c$ defines, when passing to the quotient, an isomorphism of $A_s/a$ onto E.*
 
@@ -1121,7 +1121,7 @@ As $A_s$ is itself monogenous, being generated by 1, the first assertion follows
 
 Note that, if A is not commutative, the annihilators of two distinct generators c, c' of a monogenous A-module E are in general *distinct* and are also distinct from the annihilator of the module E. On the other hand, if A is *commutative*, the annihilator of a generator c of E is contained in the annihilator of every element of E and hence is the annihilator of the whole of E.
 
-#### Corollary {#alg-ii-s1-n12-cor-1 .statement}
+#### Corollary {#alg-ii-s1-n12-cor-1 .statement tag=05LS}
 
 *Every submodule of a monogenous A-module E is isomorphic to a quotient module b/a where a and b are two left-ideals of A such that a ⊂ b. Every quotient module of a monogenous A-module is monogenous.*
 
@@ -1133,19 +1133,19 @@ It follows from the definitions that a submodule of an A-module E generated by a
 
 Aa_i of E; for (a_i) to be a basis of E, it is necessary and sufficient that each of the a_i be a free element of E and that the sum of the Aa_i be direct.
 
-#### Proposition 23 {#alg-ii-s1-prop-23 .statement}
+#### Proposition 23 {#alg-ii-s1-prop-23 .statement tag=05LT}
 
 Let E be an A-module, the direct sum of an infinite family (M_i)_{i \in I} of non-zero submodules. For every generating system S of E, Card(S) \geq Card(I).
 
 For all x \in S, let C_x be the finite set of indices i \in I such that the component of x in M_i is \neq 0 and let C = \bigcup_{x \in S} C_x. Every x \in S belongs by definition to the submodule of E the direct sum of the M_i for i \in C and the hypothesis that S generates E implies therefore that C = I; as I is by hypothesis infinite, so is S (Set Theory, III, § 5, no. 1, Corollary 1 to Proposition 1); therefore Card(I) = Card(C) \leq Card(S) (Set Theory, III, § 6, no. 3, Corollary 3 to Theorem 2).
 
-#### Corollary 1 {#alg-ii-s1-prop-23-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s1-prop-23-cor-1 .statement tag=05LU}
 
 Under the hypotheses of Proposition 23, suppose that each M_i is monogenous and that E is the direct sum of a second family (N_\lambda)_{\lambda \in L} of non-zero monogenous submodules. Then Card(L) = Card(I).
 
 If b_\lambda is a generator of N_\lambda, the set of b_\lambda is a generating system of E, hence Card(L) \geq Card(I). In particular L is infinite and, exchanging the roles of (M_i) and (N_\lambda), similarly Card(I) \geq Card(L), whence the corollary.
 
-#### Corollary 2 {#alg-ii-s1-prop-23-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s1-prop-23-cor-2 .statement tag=05LV}
 
 If a module E admits an infinite basis B, every generating system of E has cardinal \geq Card(B) and every basis of E is equipotent to B.
 
@@ -1168,7 +1168,7 @@ It is immediate that, for every family $(E_i)_{i \in I}$ of $A$-modules, the $B$
 
 Every generating system of $\rho_*(E)$ is a generating system of $E$ but the converse is not necessarily true.
 
-#### Proposition 24 {#alg-ii-s1-prop-24 .statement}
+#### Proposition 24 {#alg-ii-s1-prop-24 .statement tag=05LW}
 
 *Let $A, B$ be two rings and $\rho : B \to A$ a ring homomorphism.*
 
@@ -1182,19 +1182,19 @@ Note that even if $\rho$ is injective, a free family in $\rho_*(E)$ is not neces
 
 *For example, 1 and $\sqrt{2}$ do not form a free system in $\mathbf{R}$ considered as a vector $\mathbf{R}$-space, although they form a free system in $\mathbf{R}$ considered as a vector $\mathbf{Q}$-space (cf. Remark 1).*
 
-#### Proposition 25 {#alg-ii-s1-prop-25 .statement}
+#### Proposition 25 {#alg-ii-s1-prop-25 .statement tag=05LX}
 
 *Let $A, B$ be two rings, $\rho : B \to A$ a ring homomorphism and $E$ an $A$-module. Let $(\alpha_\lambda)_{\lambda \in L}$ be a generating system (resp. free family of elements, basis) of $A$ considered as a left $B$-module. Let $(a_\mu)_{\mu \in M}$ be a generating system (resp. free family of elements, basis) of the $A$-module $E$. Then $(\alpha_\lambda a_\mu)_{(\lambda, \mu) \in L \times M}$ is a generating system (resp. (when $\rho$ is injective) free family of elements, basis) of the $B$-module $\rho_*(E)$.*
 
 If $x = \sum_{\mu \in M} \gamma_\mu a_\mu$, where $\gamma_\mu \in A$ and $(\alpha_\lambda)$ is a generating system of $A$, we may write $\gamma_\mu = \sum_{\lambda \in L} \rho(\beta_{\lambda \mu}) \alpha_\lambda$, with $\beta_{\lambda \mu} \in B$, for all $\mu \in M$, whence $x = \sum_{\lambda, \mu} \rho(\beta_{\lambda \mu}) \alpha_\lambda a_\mu$. On the other hand, if $(\alpha_\lambda)$ and $(a_\mu)$ are free families, a relation $\sum_{\lambda, \mu} \rho(\beta_{\lambda \mu}) \alpha_\lambda a_\mu = 0$, with $\beta_{\lambda \mu} \in B$, may be written $\sum_{\mu \in M} \left( \sum_{\lambda \in L} \rho(\beta_{\lambda \mu}) \alpha_\lambda \right) a_\mu = 0$; it thus implies $\sum_{\lambda \in L} \rho(\beta_{\lambda \mu}) \alpha_\lambda = 0$ for all $\mu \in M$ and therefore $\beta_{\lambda \mu} = 0$ for all $\lambda, \mu$ if $\rho$ is injective.
 
-#### Corollary {#alg-ii-s1-n13-cor-1 .statement}
+#### Corollary {#alg-ii-s1-n13-cor-1 .statement tag=05LY}
 
 *If $A$ is a finitely generated left $B$-module and $E$ a finitely generated left $A$-module, $\rho_*(E)$ is a finitely generated left $A$-module.*
 
 Let $C$ be a third ring, $\rho' : C \to B$ a ring homomorphism and $\rho'' = \rho \circ \rho'$ the composite homomorphism. It follows immediately from the definitions that $\rho''_*(E) = \rho'_*(\rho_*(E))$ for every $A$-module $E$. In particular, if $\rho$ is an *isomorphism* of $B$ onto $A$, then $E = \rho'_*(\rho_*(E))$, where $\rho'$ denotes the inverse isomorphism of $\rho$.
 
-#### Remark {#alg-ii-s1-n13-rem-1 .statement}
+#### Remark {#alg-ii-s1-n13-rem-1 .statement tag=05LZ}
 
 (1) Let $K$ be a field and $A$ a subring of $K$ with the following property: for every finite family $(\xi_i)_{1 \leq i \leq n}$ of elements of $K$, there exists a $\gamma \in A$ which is non-zero and such that $\gamma \xi_i \in A$ for $1 \leq i \leq n$ (a hypothesis which is always satisfied when $A$ is *commutative* and $K$ is the field of fractions of $A$). Let $E$ be a vector space over $K$ and $E_{[A]}$ the $A$-module obtained by restricting the ring of scalars to $A$. Then, if a family $(x_\lambda)_{\lambda \in L}$ is *free in* $E_{[A]}$ it is also *free in* $E$. Attention may be confined to the case where $L = \{1, n\}$; if there were a relation $\sum_{i=1}^n \xi_i x_i = 0$ with $\xi_i \in K$, the $\xi_i$ not all zero, it would follow that for all $\beta \in A$, $\sum_{i=1}^n (\beta \xi_i) x_i = 0$. By hypothesis we can suppose $\beta \neq 0$ in $A$ such that $\beta \xi_i = \alpha_i$ belongs to $A$ for all $i$; but the relation $\sum_{i=1}^n \alpha_i x_i = 0$ is contrary to the hypothesis, the $\alpha_i$ being not all zero.
 
@@ -1213,7 +1213,7 @@ The set $\mathrm{Hom}_B(F, \rho_*(E))$ of $B$-linear mappings of $F$ into $E$ is
 
 When $\rho$ is an *isomorphism* of $B$ onto $A$, the relation $u(\beta x) = \rho(\beta) u(x)$ for all $\beta \in B$ may also be written as $u(\rho'(\alpha)x) = \alpha x$ for all $\alpha \in A$, where $\rho'$ denotes the inverse isomorphism of $\rho$; to say that $u$ is semi-linear for $\rho$ is then equivalent to saying that $u$ is an *A-linear mapping of* $\rho'_*(F)$ *into* $E$.
 
-#### Example {#alg-ii-s1-n13-exa-1 .statement}
+#### Example {#alg-ii-s1-n13-exa-1 .statement tag=05M0}
 
 It has been seen (no. 1) that a homothety $h_\alpha : x \mapsto \alpha x$ on an $A$-module $E$ is not necessarily a linear mapping. But if $\alpha$ is *invertible*, $h_\alpha$ is a *semi-linear* mapping (which is moreover bijective) relative to the inner automorphism $\xi \mapsto \alpha \xi \alpha^{-1}$ of $A$, for $\alpha(\lambda x) = (\alpha \lambda \alpha^{-1})(\alpha x)$.
 
@@ -1227,7 +1227,7 @@ It is thus seen that, for the species of structure defined by giving on an order
 
 Let A, B be two rings and consider on a set E two left module structures with the *same* additive law and whose ring of operators are respectively A and B; let $\mathscr{E}$ be the endomorphism ring of the additive group E and for all $\alpha \in A$ (resp. $\beta \in B$) let $h_\alpha$ (resp. $h'_\beta$) denote the element $x \mapsto \alpha x$ (resp. $x \mapsto \beta x$) of $\mathscr{E}$. Clearly the three following properties are equivalent: (a) $h_\alpha \circ h'_\beta = h'_\beta \circ h_\alpha$ for all $\alpha$ and $\beta$; (b) the image of A under the homomorphism $a \mapsto h_\alpha$ is *contained in* $\mathrm{Hom}_B(E, E)$; (c) the image of B under the homomorphism $\beta \mapsto h'_\beta$ is *contained in* $\mathrm{Hom}_A(E, E)$. When the A-module (resp. B-module) structure in question is a right module structure, the ring A (resp. B) must be replaced in (b) (resp. (c)) by $A^0$ (resp. $B^0$). The above properties can be expressed by saying that the two (left or right) module structures defined on E are *compatible*.
 
-#### Definition 13 {#alg-ii-s1-def-13 .statement}
+#### Definition 13 {#alg-ii-s1-def-13 .statement tag=05M1}
 
 *Let* $(A_\lambda)_{\lambda \in L},\ (B_\mu)_{\mu \in M}$ *be two families of rings; an* $((A_\lambda),\ (B_\mu))$*-multimodule* (or *multimodule over the families of rings* $(A_\lambda)_{\lambda \in L},\ (B_\mu)_{\mu \in M}$) *is a set* E *with, for each* $\lambda \in L$, *a left* $A_\lambda$*-module structure and, for each* $\mu \in M$, *a right* $B_\mu$*-module structure, all these module structures being compatible with one another.*
 
@@ -1241,7 +1241,7 @@ It is then also said that E is an *(A, B)*-*bimodule*.
 
 Two *multimodule* structures on a set E are said to be *compatible* if all the module structures on E which define one or the other of these multimodule structures are compatible with one another.
 
-#### Example {#alg-ii-s1-n14-exa-1 .statement}
+#### Example {#alg-ii-s1-n14-exa-1 .statement tag=05M2}
 
 (1) On a ring A the module structures of $A_s$ and $A_d$ are compatible and A can therefore be considered canonically as an (A, A)-bimodule.
 
@@ -1282,7 +1282,7 @@ $$
 
 is defined as in no. 2 and is a *multimodule* homomorphism.
 
-#### Remark {#alg-ii-s1-n14-rem-1 .statement}
+#### Remark {#alg-ii-s1-n14-rem-1 .statement tag=05M3}
 
 (1) Let F be an A-module and C the *centre* of the ring A; as central homotheties commute with all homotheties, F has a *bimodule* structure whose rings of left operators are A and C. If E is another A-module, $\operatorname{Hom}_A(E, F)$ has therefore a canonical C-*module* structure (where, for $f \in \operatorname{Hom}_A(E, F)$ and $\gamma \in C$, $\gamma f$ is the homomorphism $x \mapsto \gamma f(x)$); if E', F' are two A-modules, $u : E' \to E, v : F \to F'$ two A-homomorphisms, the mapping $\operatorname{Hom}(u, v)$ is C-*linear*.
 

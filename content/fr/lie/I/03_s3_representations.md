@@ -44,14 +44,14 @@ subsections:
       pdf_page: 50
 statements: 23
 exercises: 12
-content_sha256: d3e0af8b948333e2e9a69b8bf7fbc365cbd542348b596451c3f827d5e23a7f76
+content_sha256: d68a8bc8ac0ded4bae02128f341f85d206eceb7ab16cbb750fffd8394e787ece
 ---
 
 ## § 3. Représentations
 
 ### 1. Représentations
 
-#### Définition 1 {#lie-i-s3-def-1 .statement}
+#### Définition 1 {#lie-i-s3-def-1 .statement tag=09VS}
 
 Soient g une algèbre de Lie sur K, et M un K-module. Un homomorphisme de g dans l’algèbre de Lie gl(M) s’appelle une représentation de g dans le module M. Une représentation injective est dite fidèle. Si K est un corps, la dimension (finie ou infinie) de M sur K s’appelle la dimension de la représentation. La représentation $x \mapsto \mathrm{ad}\, x$ de g dans le K-module g s’appelle la représentation adjointe de g.
 
@@ -61,13 +61,13 @@ $$
 $$
 quels que soient $x \in g, y \in g, m \in M$.
 
-#### Exemple {#lie-i-s3-n1-exa-1 .statement}
+#### Exemple {#lie-i-s3-n1-exa-1 .statement tag=09VT}
 
 *Soient G un groupe de Lie réel, g son algèbre de Lie, θ une représentation analytique de G dans un espace vectoriel réel E de dimension finie. Alors l’homomorphisme correspondant de g dans gl(E) est une représentation de g dans E.*
 
 Soit U l’algèbre enveloppante de g. La proposition 1 du § 2, no 1 définit une correspondance biunivoque entre l’ensemble des représentations de g dans M et l’ensemble des représentations de U dans M. On sait d’autre part (Alg., chap. VIII, § 13, no 1) qu’il y a équivalence entre la notion de représentation de l’algèbre associative U et celle de U-module à gauche.
 
-#### Définition 2 {#lie-i-s3-def-2 .statement}
+#### Définition 2 {#lie-i-s3-def-2 .statement tag=09VU}
 
 Soient g une algèbre de Lie sur K, et U son algèbre enveloppante. Un module unitaire à gauche sur U est appelé un g-module à gauche, ou simplement un g-module.
 
@@ -107,7 +107,7 @@ Soit toujours M un g-module, et supposons que l’ensemble des sous-g-modules de
 
 Supposons que le g-module M admette une suite de Jordan-Hölder (M_i)_{0 \leq i \leq n}. Pour que M soit pur d’espèce N, il faut et il suffit que M_0/M_1, M_1/M_2, ..., M_{n-1}/M_n soient isomorphes à N ; en effet, la condition est évidemment nécessaire ; sa suffisance résulte aussitôt, par récurrence sur n, de ce qu’on a vu plus haut.
 
-#### Proposition 1 {#lie-i-s3-prop-1 .statement}
+#### Proposition 1 {#lie-i-s3-prop-1 .statement tag=09VV}
 
 Soient g une algèbre de Lie sur K, et a un idéal de g. Soient M un g-module, et N un a-module simple. Considérons M comme un a-module et supposons que l’ensemble des sous-a-modules de M qui sont purs d’espèce N admette un élément maximal M’. Alors M’ est un sous-g-module de M.
 
@@ -117,7 +117,7 @@ x_{M/M’} . f(m) = φ(x_M y_M . m) = φ(y_M x_M . m) + φ([x, y]_M . m).
 
 Or, $[x, y] \in \alpha$, d’où $\varphi([x, y]_M \cdot m) = 0$; par ailleurs, $\varphi(y_M x_M \cdot m) = f(x_M \cdot m)$. Donc $x_{M/M'} \cdot f(m) = f(x_M \cdot m)$. Il en résulte que $f(M')$ est un sous-$\alpha$-module de $M/M'$ isomorphe à un quotient de $M'$, donc pur d’espèce $N$; d’où $f(M') = \{0\}$.
 
-#### Corollaire {#lie-i-s3-n1-cor-1 .statement}
+#### Corollaire {#lie-i-s3-n1-cor-1 .statement tag=09VW}
 
 Soient $g$ une algèbre de Lie sur $K$, et $\alpha$ un idéal de $g$. Soit $M$ un $g$-module simple, de longueur finie en tant que $K$-module. Il existe un $\alpha$-module simple $N$ tel que $M$ soit un $\alpha$-module pur d’espèce $N$.
 
@@ -144,7 +144,7 @@ Si maintenant $g_1 = g_2 = g$, l’homomorphisme $x \mapsto (x, x)$ de $g$ dans 
 
 Par un raisonnement analogue, on voit que :
 
-#### Proposition 2 {#lie-i-s3-prop-2 .statement}
+#### Proposition 2 {#lie-i-s3-prop-2 .statement tag=09VX}
 
 Soient g une algèbre de Lie sur K, et $M_i$ un g-module ($1 \leq i \leq n$). Dans le produit tensoriel $M_1 \otimes_K M_2 \otimes \cdots \otimes_K M_n$ il existe une structure de g-module et une seule telle que
 
@@ -191,7 +191,7 @@ $$
 
 En combinant ce résultat avec la prop. 2, on voit que :
 
-#### Proposition 3 {#lie-i-s3-prop-3 .statement}
+#### Proposition 3 {#lie-i-s3-prop-3 .statement tag=09VY}
 
 *Soient $g$ une algèbre de Lie sur $K$, et $M_i$ un $g$-module ($1 \leq i \leq n+1$). Soit $N$ le $K$-module $\mathscr{L}_K(M_1, \ldots, M_n ; M_{n+1})$ des applications multilinéaires de $\prod_{i=1}^n M_i$ dans $M_{n+1}$. Il existe une structure de $g$-module et une seule sur $N$ telle que*
 
@@ -219,7 +219,7 @@ $$
 
 Lorsque K est un corps et que M est de dimension finie, le g-module M est simple (resp. semi-simple) si et seulement si le g-module $M^*$ est simple (resp. semi-simple).
 
-#### Proposition 4 {#lie-i-s3-prop-4 .statement}
+#### Proposition 4 {#lie-i-s3-prop-4 .statement tag=09VZ}
 
 *Soient* $M_1, M_2$ *deux g-modules*. *Les applications* K-linéaires canoniques (*Alg.*, chap. II, 3e éd., § 4, no 2, prop. 2 et no 1, prop. 1) :
 $$
@@ -254,7 +254,7 @@ On identifie les g-modules $\mathscr{L}(M_1, M_2^*)$ et $(M_1 \otimes M_2)^*$ pa
 
 ### 4. Exemples
 
-#### Exemple 1 {#lie-i-s3-n4-exa-1 .statement}
+#### Exemple 1 {#lie-i-s3-n4-exa-1 .statement tag=09W0}
 
 Soient g une algèbre de Lie sur K, M un g-module. La structure de g-module de M et la structure de g-module trivial de K définissent une structure de g-module sur le K-module $N = \mathscr{L}(M, M; K)$ des formes bilinéaires sur M. On a
 $$
@@ -292,7 +292,7 @@ D = -{}^tA \quad B = {}^tB \quad C = {}^tC.
 $$
 *Lorsque $K = \mathbf{R}$, l’algèbre de Lie obtenue est l’algèbre de Lie du groupe symplectique $\mathbf{Sp} (2m, \mathbf{R})$.*
 
-#### Exemple 2 {#lie-i-s3-n4-exa-2 .statement}
+#### Exemple 2 {#lie-i-s3-n4-exa-2 .statement tag=09W1}
 
 Conservons les notations de l’exemple 1.
 La structure de g-module de M définit dans le K-module $P = \mathscr{L}_K(M, M)$ des endomorphismes de M une structure de g-module. D’après (6), on a, quels que soient $x \in g$, et $u \in P$:
@@ -309,31 +309,31 @@ dans $\mathscr{L}(\mathscr{L}(M, M)) = \mathscr{L}(\mathrm{gl}(M))$.
 
 ### 5. Éléments invariants
 
-#### Définition 3 {#lie-i-s3-def-3 .statement}
+#### Définition 3 {#lie-i-s3-def-3 .statement tag=09W2}
 
 *Soient g une algèbre de Lie, M un g-module. Un élément $m \in M$ est dit invariant (pour la structure de g-module de M, ou pour la représentation correspondante de g) si $x_M \cdot m = 0$ pour tout $x \in g$.*
 
 *Soient G un groupe de Lie réel connexe, g son algèbre de Lie, $\theta$ une représentation analytique de G dans un espace vectoriel réel E de dimension finie, $\rho$ la représentation correspondante de g dans E. Soit $m \in E$. L’élément $m$ est invariant pour $\rho$ si et seulement si $\theta(g) \cdot m = m$ quel que soit $g \in G$. Ceci justifie l’emploi du mot « invariant ».*
 
-#### Exemple 1 {#lie-i-s3-n5-exa-1 .statement}
+#### Exemple 1 {#lie-i-s3-n5-exa-1 .statement tag=09W3}
 
 Soient M, N deux g-modules, et P = $\mathscr{L}_K(M, N)$. Pour qu’un élément f de P soit invariant, il faut et il suffit, d’après (6), que f soit un homomorphisme du g-module M dans le g-module N. En particulier, si M = N et $x_M = x_N$ pour tout $x \in g$, f est invariant si et seulement si f est permutable aux $x_M$.
 
-#### Exemple 2 {#lie-i-s3-n5-exa-2 .statement}
+#### Exemple 2 {#lie-i-s3-n5-exa-2 .statement tag=09W4}
 
 Soit M un K-module admettant une base finie. Si M est muni d’une structure de g-module, $\mathscr{L}(M, M)$ et $M^* \otimes M$ sont munis de structures de g-modules, et l’application canonique de $M^* \otimes M$ dans $\mathscr{L}(M, M)$ est un isomorphisme de g-modules (prop. 4). Comme $1 \in \mathscr{L}(M, M)$ est évidemment un invariant (cf. exemple 1), l’élément correspondant u de $M^* \otimes M$ est un invariant. Si $(e_i)_{1 \leq i \leq n}$ est une base de M, et si $(e_i^*)_{1 \leq i \leq n}$ est la base duale, on a $u = \sum_{i=1}^n e_i^* \otimes e_i$.
 
-#### Exemple 3 {#lie-i-s3-n5-exa-3 .statement}
+#### Exemple 3 {#lie-i-s3-n5-exa-3 .statement tag=09W5}
 
 Soit M un g-module. Soit $\beta$ une forme bilinéaire sur M, et soit f l’élément correspondant de $\mathscr{L}(M, M^*)$. Pour que $\beta$ soit invariante, il faut et il suffit que f soit un homomorphisme de g-modules (prop. 4 et exemple 1). Supposons que K soit un corps, et que $\dim_K M < +\infty$. Une forme bilinéaire $\beta$ sur M invariante et non dégénérée définit un isomorphisme du g-module M sur le g-module $M^*$, donc un isomorphisme du g-module $M \otimes M$ sur le g-module $M^* \otimes M$. Ainsi, compte tenu de l’exemple 2, la donnée de $\beta$ définit canoniquement un élément invariant c dans le g-module $M \otimes M$, qu’on peut construire de la manière suivante : soit $(e_i)_{1 \leq i \leq n}$ une base de M, $(e_i')_{1 \leq i \leq n}$ la base de M telle que $\beta(e_i, e_j') = \delta_{ij}$; alors $c = \sum_{i=1}^n e_i \otimes e_i'$.
 
-#### Proposition 5 {#lie-i-s3-prop-5 .statement}
+#### Proposition 5 {#lie-i-s3-prop-5 .statement tag=09W6}
 
 Soient g une K-algèbre de Lie, h un idéal de g, $\rho$ une représentation de g dans M, et $\rho'$ la restriction de $\rho$ à h. Alors l’ensemble N des éléments de M invariants pour $\rho'$ est stable pour $\rho(g)$.
 
 En effet, soient $n \in N$ et $y \in g$; quel que soit $x \in h$, on a $[x, y] \in h$, donc $\rho(x)\rho(y)n = \rho([x, y])n + \rho(y)\rho(x)n = 0$; donc $\rho(y)n \in N$.
 
-#### Proposition 6 {#lie-i-s3-prop-6 .statement}
+#### Proposition 6 {#lie-i-s3-prop-6 .statement tag=09W7}
 
 Soit M un g-module semi-simple. Alors le sous-module $M_0$ des éléments invariants de M admet un et un seul supplémentaire stable pour les $x_M$, à savoir le sous-module $M_1$ engendré par les $x_M \cdot m$ ($x \in g, m \in M$).
 
@@ -357,7 +357,7 @@ $$
 
 quels que soient $x, y$ dans $g$ et $D \in \mathfrak{d}$.
 
-#### Proposition 7 {#lie-i-s3-prop-7 .statement}
+#### Proposition 7 {#lie-i-s3-prop-7 .statement tag=09W8}
 
 *Soient $g$ une algèbre de Lie, $\beta$ une forme bilinéaire symétrique invariante sur $g$, et $a$ un idéal de $g$.*
 
@@ -371,11 +371,11 @@ Soit D une dérivation de g. Supposons que $a$ soit stable pour D et que $\beta(
 
 Soit maintenant b un idéal de g, et supposons que la restriction de $\beta$ à b soit nulle. Pour $x, y$ dans b et $z \in g$, on a $\beta([x, y], z) = \beta(x, [y, z]) = 0$, car $[y, z] \in b$. Ainsi, $[b, b]$ est orthogonal à g. Si $\beta$ est non dégénérée, b est donc commutatif. Ce résultat, appliqué à $a \cap a'$, prouve c).
 
-#### Définition 4 {#lie-i-s3-def-4 .statement}
+#### Définition 4 {#lie-i-s3-def-4 .statement tag=09W9}
 
 Soient g une K-algèbre de Lie, M un g-module. Supposons que M, considéré comme K-module, admette une base finie. On appelle forme bilinéaire associée au g-module M (ou à la représentation correspondante) la forme bilinéaire symétrique $(x, y) \mapsto \operatorname{Tr}(x_M y_M)$ sur g. Si la représentation considérée est la représentation adjointe, la forme bilinéaire associée s’appelle la forme de Killing de g.
 
-#### Proposition 8 {#lie-i-s3-prop-8 .statement}
+#### Proposition 8 {#lie-i-s3-prop-8 .statement tag=09WA}
 
 Soient g une algèbre de Lie, M un g-module. Supposons que M, considéré comme K-module, admette une base finie. La forme bilinéaire associée à M est invariante.
 
@@ -386,13 +386,13 @@ $$
 = \operatorname{Tr}(x_M [y, z]_M).
 $$
 
-#### Proposition 9 {#lie-i-s3-prop-9 .statement}
+#### Proposition 9 {#lie-i-s3-prop-9 .statement tag=09WB}
 
 Supposons que K soit un corps et que l’algèbre de Lie g soit de dimension finie sur K. Soient a un idéal de g, $\beta$ la forme de Killing de g, et $\beta'$ celle de a. Alors, $\beta'$ est la restriction de $\beta$ à a.
 
 En effet, soit u un endomorphisme de l’espace vectoriel g qui laisse stable a. Soient $v$ la restriction de u à a, et $w$ l’endomorphisme de l’espace vectoriel $g/a$ déduit de u par passage au quotient. On a $\operatorname{Tr} u = \operatorname{Tr} v + \operatorname{Tr} w$ comme on le voit en prenant une base $(x_1, \ldots, x_n)$ de g dont les p premiers éléments constituent une base de $a$. Ceci posé, soient $x \in a,\ y \in a$, et appliquons la formule précédente au cas où $u = (\mathrm{ad}_g x)(\mathrm{ad}_g y)$. On a $v = (\mathrm{ad}_a x)(\mathrm{ad}_a y)$, et $w = 0$. Donc $\beta(x, y) = \beta'(x, y)$.
 
-#### Proposition 10 {#lie-i-s3-prop-10 .statement}
+#### Proposition 10 {#lie-i-s3-prop-10 .statement tag=09WC}
 
 *Supposons que K soit un corps, et que l’algèbre de Lie g soit de dimension finie sur K. La forme de Killing $\beta$ de g est complètement invariante.*
 
@@ -400,7 +400,7 @@ Soit D une dérivation de g. Il existe une algèbre de Lie $g'$ contenant g comm
 
 ### 7. Élément de Casimir
 
-#### Proposition 11 {#lie-i-s3-prop-11 .statement}
+#### Proposition 11 {#lie-i-s3-prop-11 .statement tag=09WD}
 
 *Soient g une algèbre de Lie sur un corps K, U son algèbre enveloppante, $h$ un idéal de dimension finie de g, et $\beta$ une forme bilinéaire invariante sur g, dont la restriction à $h$ soit non dégénérée. Soient $(e_i)_{1 \leq i \leq n},\ (e'_j)_{1 \leq j \leq n}$ deux bases de $h$ telles que $\beta(e_i, e'_j) = \delta_{ij}$. Alors l’élément $c = \sum_{i=1}^n e_i e'_i$ de U appartient au centre de U et est indépendant du choix de la base $(e_i)$.
 
@@ -408,7 +408,7 @@ Pour $x \in g$, soit $x_h$ la restriction à $h$ de $\mathrm{ad}_g x$. Alors, $x
 
 Lorsque $\beta$ est la forme bilinéaire associée à un g-module M, on dit que l’élément c de la proposition 11 est l’élément de Casimir associé à M (ou à la représentation correspondante). Cet élément existe si la restriction de $\beta$ à $\mathfrak{h}$ est non dégénérée.
 
-#### Proposition 12 {#lie-i-s3-prop-12 .statement}
+#### Proposition 12 {#lie-i-s3-prop-12 .statement tag=09WE}
 
 *Soient g une algèbre de Lie sur un corps K, $\mathfrak{h}$ un idéal de dimension finie n de g, et M un g-module de dimension finie sur K. Soit c l’élément de Casimir (supposé exister) associé à M et $\mathfrak{h}$.
 
@@ -428,7 +428,7 @@ Soient $K, K_1, g, \rho, M$ comme dans l’alinéa précédent. Soient $b$ un so
 
 Soient $K, K_1$ et $\varphi$ comme au début de ce no. Soient $g$ une $K$-algèbre de Lie, $M$ et $N$ des $g$-modules. Si $M$ et $N$ sont des $g$-modules isomorphes, $M_{(K_1)}$ et $N_{(K_1)}$ sont des $g_{(K_1)}$-modules isomorphes. Inversement :
 
-#### Proposition 13 {#lie-i-s3-prop-13 .statement}
+#### Proposition 13 {#lie-i-s3-prop-13 .statement tag=09WF}
 
 *Soient K un corps, K₁ une extension de K, g une K-algèbre de Lie, M, N deux g-modules de dimension finie sur K. Si M_{(K₁)} et N_{(K₁)} sont des g_{(K₁)}-modules isomorphes, M et N sont des g-modules isomorphes.*
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: 255120f84b97bf4d0f823974da96071e46f81593b376ea46499286e430c53663
+content_sha256: 45241c463c412759530543e47d68134dd29f155bef3bcf010a91aef6db3fd147
 translated_from: content/en/ac/VI/04_s4_the_height_of_a_valuation.md
 source_content_sha256: cdc27e73ee54626a8784a6f26f479defcd8d5066ee817997176c38e0199904ea
 translation_model: gpt-5-6-mini
@@ -47,7 +47,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. SỰ BAO HÀM CỦA CÁC VÀNH ĐỊNH GIÁ CỦA CÙNG MỘT TRƯỜNG
 
-#### Mệnh đề 1 {#ac-vi-s4-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s4-prop-1 .statement tag=04TV}
 
 *Cho $K$ là một trường và $A$ là một vành định giá của $K$. Khi đó:*
 (a) *Mọi vành $B$ sao cho $A \subset B \subset K$ đều là một vành định giá của $K$;
@@ -56,13 +56,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Nếu $B$ là một vành sao cho $A \subset B \subset K$ và $x \in K - B$, thì $x \in K - A$, do đó $x^{-1} \in m(A) \subset B$, điều này chứng minh cả rằng $B$ là một vành định giá của $K$ và rằng $m(B) \subset m(A)$; vì $m(B) = m(B) \cap A$ là một iđêan nguyên tố của $A$, ta đã chứng minh (a) và (b). Hơn nữa, $A_{m(B)} \subset B$; ngược lại, nếu $x \in B - A$, thì $x^{-1} \in A$ và $x^{-1} \notin m(B)$ và do đó $x \in A_{m(B)}$; vậy $A_{m(B)} = B$. Cuối cùng cho $\mathfrak{p}$ là một iđêan nguyên tố của $A$; ta viết $B = A_{\mathfrak{p}}$; khi đó $m(B) \cap A = \mathfrak{p}$. (Chương II, § 2, no. 5, Mệnh đề 11) và $m(B) \subset A$ theo (b); do đó $m(B) = \mathfrak{p}$, điều này cho thấy các ánh xạ $\mathfrak{p} \mapsto A$, và $B \mapsto m(B)$ của mệnh đề là các song ánh ngược.
 
-#### Hệ quả {#ac-vi-s4-n1-cor-1 .statement}
+#### Hệ quả {#ac-vi-s4-n1-cor-1 .statement tag=04TW}
 
 *Tập hợp & các vành con của K chứa A được sắp thứ tự toàn phần bởi quan hệ bao hàm.*
 
 Tập hợp các iđêan nguyên tố của $A$ được sắp thứ tự toàn phần bởi quan hệ bao hàm ($\S$ 1, no. 2, Định lý 1 (e)) và ánh xạ $\mathfrak{p} \mapsto A_{\mathfrak{p}}$ đảo ngược các quan hệ bao hàm.
 
-#### Mệnh đề 2 {#ac-vi-s4-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s4-prop-2 .statement tag=04TX}
 
 *Cho K là một trường, B là một vành định giá của K và h, là nơi & K liên kết với B (với các giá trị trong $\kappa(B)$). Khi đó ánh xạ $A \mapsto h_B(A)$ xác định một song ánh của tập hợp $\mathscr{A}$ các vành định giá của K được chứa trong B lên tập hợp $\mathscr{A}'$ các vành định giá của $\kappa(B)$.
 
@@ -70,13 +70,13 @@ Nếu $A \in \mathscr{A}$, thì $h_B(A) \in \mathscr{A}'$: thật vậy nếu $x
 
 $A \mapsto h_B(A)$ là đơn ánh. Cuối cùng, cho $A' \in \mathscr{A}'$ và $A = h_B(A') \subset B$; ta sẽ chứng minh, điều này sẽ hoàn tất chứng minh, rằng $A \in \mathscr{A}$; nếu $x \in K - A$, thì hoặc $x \notin B$, hoặc $x \in B$; nếu $x \notin B$, thì $x^{-1} \in m(B) \subset A$; nếu $x \in B$, thì $h_B(x) \in \kappa(B)$ và $h_B(x) \notin A$, do đó $h_B(x^{-1}) \in A$ và ta lại kết luận rằng $x^{-1} \in A$; do đó $A \in \mathscr{A}$.
 
-#### Hệ quả {#ac-vi-s4-n1-cor-2 .statement}
+#### Hệ quả {#ac-vi-s4-n1-cor-2 .statement tag=04TY}
 
 *Cho A và B là hai vành định giá của K, trong đó $A \subset B$; đặt $A' = h_B(A)$, đây là một vành định giá của $\kappa(B)$. Trường thặng dư $\kappa(A')$ của $A'$ đẳng cấu chính tắc với trường thặng dư $\kappa(A)$ của A và nơi $h_A$ liên kết với A là hợp thành $h_{A'} \circ h_B$ của các nơi liên kết với A và B.*
 
 Vì vành địa phương $A'$ là một thương của vành địa phương $A$, nên các trường thặng dư của chúng đẳng cấu chính tắc và phương trình $h_A(x) = h_{A'}(h_B(x))$ đúng với $x \in A$. Mặt khác, nếu $x \in B - A$, thì $h_B(x) \notin A'$ và hai vế của phương trình bằng $\infty$; điều tương tự đúng nếu $x \in K - B$.
 
-#### Nhận xét {#ac-vi-s4-n1-rem-1 .statement}
+#### Nhận xét {#ac-vi-s4-n1-rem-1 .statement tag=04TZ}
 
 Ngược lại, cho $f$ là một nơi của K với các giá trị trong $K'$ và $f'$ là một nơi của $K'$ với các giá trị trong $K''$. Khi đó $f' \circ f$ là một nơi của K có vành được chứa trong vành của nơi $f$.
 
@@ -84,15 +84,15 @@ Ngược lại, cho $f$ là một nơi của K với các giá trị trong $K'$ 
 
 Để nghiên cứu tình huống ở no. 1 dưới quan điểm của các định giá, ta sẽ cần Định nghĩa 1 và Mệnh đề 3 dưới đây.
 
-#### Định nghĩa 1 {#ac-vi-s4-def-1 .statement}
+#### Định nghĩa 1 {#ac-vi-s4-def-1 .statement tag=04U0}
 
 *Một nhóm con H của một nhóm có thứ tự G được gọi là cô lập nếu các quan hệ $0 \leq y \leq x$ và $x \in H$ kéo theo $y \in H$.*
 
-#### Ví dụ (1) {#ac-vi-s4-n2-exa-1 .statement}
+#### Ví dụ (1) {#ac-vi-s4-n2-exa-1 .statement tag=04U1}
 
 Cho $A$ và $B$ là hai nhóm có thứ tự; trang bị cho $A \times B$ thứ tự từ điển (nghĩa là "$(a, b) \leq (a', b')$" tương đương với "$(a < a') \text{ hoặc } (a = a' \text{ và } b \leq b')$"). Nhân tử thứ hai $B$ của $A \times B$ khi đó, như thấy ngay lập tức, là một nhóm con cô lập của $A \times B$.
 
-#### Mệnh đề 3 {#ac-vi-s4-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s4-prop-3 .statement tag=04U2}
 
 Cho $G$ là một nhóm có thứ tự và $P$ là tập hợp các phần tử dương của nó.
 
@@ -110,7 +110,7 @@ $$
 
 vì, *nếu* $x$ và $y$ là các phần tử của $P$ sao cho $g(x) = -g(y)$, thì $x + y \in H$, do đó $x \in H$ và $y \in H$ vì $H$ là cô lập; suy ra $g(x) = g(y) = 0$. Vậy $P'$ là tập hợp các phần tử dương của một cấu trúc nhóm có thứ tự trên $G/H$ (*Đại số*, Chương VI, § 1, no. 3, Mệnh đề 3). Cuối cùng, nếu $G$ được sắp thứ tự toàn phần, thì $P \cap (-P) = G$, do đó $P' \cup (-P') = G/H$ và vì thế $G/H$ được sắp thứ tự toàn phần (*loc. cit.*).
 
-#### Ví dụ (2) {#ac-vi-s4-n2-exa-2 .statement}
+#### Ví dụ (2) {#ac-vi-s4-n2-exa-2 .statement tag=04U3}
 
 Nếu xét lại ví dụ trong đó $G$ là một tích từ điển $A \times B$ và $H = B$, thì nhóm có thứ tự $G/H$ được đồng nhất một cách chính tắc với $A$.
 
@@ -126,7 +126,7 @@ $$
 
 Vì $A \subset B$, $\lambda$ ánh xạ các phần tử dương của $\Gamma_A$ vào các phần tử dương của $\Gamma_B$ và do đó là tăng. Vì vậy (Mệnh đề 3) hạt nhân $H$, của $\lambda$ là một nhóm con cô lập của $\Gamma_A$ và $\lambda$ phân tích thành $\Gamma_A \to \Gamma_A/H_B \xrightarrow{\mu} \Gamma_B$, trong đó $\mu$ là một đồng cấu song ánh tăng và do đó là một *đẳng cấu* của các nhóm có thứ tự toàn phần; do đó $\Gamma_B$ được đồng nhất với nhóm thương có thứ tự toàn phần $\Gamma_A/H_B$.
 
-#### Mệnh đề 4 {#ac-vi-s4-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vi-s4-prop-4 .statement tag=04U4}
 
 *Ánh xạ* $B \mapsto H_B$ *là một song ánh tăng từ tập hợp các vành con của* $K$ *chứa* $A$ *lên tập hợp các nhóm con cô lập của* $\Gamma_A$.
 
@@ -138,7 +138,7 @@ $$
 
 là một định giá trên $K$ có vành chứa $A$.
 
-#### Nhận xét {#ac-vi-s4-n3-rem-1 .statement}
+#### Nhận xét {#ac-vi-s4-n3-rem-1 .statement tag=04U5}
 
 Dưới các giả thiết trên, cho $f$ là đồng cấu chính tắc của $B$ lên $\kappa(B)$ và $A' = f(A)$; nó là một vành định giá của $\kappa(B)$ (Mệnh đề 2, no. 1). Khi đó $f^{-1}(\kappa(B)^*) = U(B), f^{-1}(A') = A, f^{-1}(m(A')) = m(A)$, do đó
 
@@ -158,7 +158,7 @@ $$
 0 \to \Gamma_{A'} \to \Gamma_A \to \Gamma_B \to 0.
 $$
 
-#### Ví dụ {#ac-vi-s4-n3-exa-1 .statement}
+#### Ví dụ {#ac-vi-s4-n3-exa-1 .statement tag=04U6}
 
 Cho $k$ là một trường,
 
@@ -174,7 +174,7 @@ Cho $G$ là một nhóm có thứ tự toàn phần. Cho hai nhóm con cô lập
 
 Điều này cũng suy ra từ Mệnh đề 4 của no. 3 và Hệ quả của Mệnh đề 1 của no. 1, xét đến sự kiện rằng mọi nhóm có thứ tự toàn phần đều là nhóm thứ tự của một định giá (§ 3, no. 4, Ví dụ 6).
 
-#### Định nghĩa 2 {#ac-vi-s4-def-2 .statement}
+#### Định nghĩa 2 {#ac-vi-s4-def-2 .statement tag=04U7}
 
 *Cho G là một nhóm có thứ tự toàn phần. Nếu số các nhóm con cô lập của G phân biệt với G là hữu hạn và bằng n, thì G được gọi là có chiều cao n. Nếu số này là vô hạn, thì G được gọi là có chiều cao vô hạn.*
 
@@ -193,19 +193,19 @@ $$
 
 Mặt khác, cấp của $\mathbf{Z} \times \mathbf{Z}$ được sắp thứ tự bởi phép nhúng vào $\mathbf{R}$ (xem § 3, no. 4, cuối Ví dụ 6) bằng 1 (xem Mệnh đề 8 dưới đây).
 
-#### Định nghĩa 3 {#ac-vi-s4-def-3 .statement}
+#### Định nghĩa 3 {#ac-vi-s4-def-3 .statement tag=04U8}
 
 *Cấp của nhóm thứ tự của một định giá được gọi là cấp của định giá đó.*
 
 Chẳng hạn một định giá rời rạc có cấp 1. Chỉ các định giá không đúng mới có cấp 0. Các Mệnh đề 1 và 4 kéo theo:
 
-#### Mệnh đề 5 {#ac-vi-s4-prop-5 .statement}
+#### Mệnh đề 5 {#ac-vi-s4-prop-5 .statement tag=04U9}
 
 *Cấp của một định giá bằng số các iđêan nguyên tố khác không trong vành của nó.*
 
 ### 5. CÁC ĐỊNH GIÁ CẤP 1
 
-#### Mệnh đề 6 {#ac-vi-s4-prop-6 .statement}
+#### Mệnh đề 6 {#ac-vi-s4-prop-6 .statement tag=04UA}
 
 *Cho $\mathbf{K}$ là một trường và $A$ là một vành con của $\mathbf{K}$. Giả sử rằng $A$ không là một trường. Khi đó các điều kiện sau là tương đương:*
 (a) $A$ là vành của một định giá cấp 1 trên $\mathbf{K}$;
@@ -214,13 +214,13 @@ Chẳng hạn một định giá rời rạc có cấp 1. Chỉ các định gi�
 
 Mệnh đề 5 của no. 4 chỉ ra rằng (a) kéo theo (b) và Mệnh đề 1 của no. 1 chỉ ra rằng (b) kéo theo (c). Còn phải chứng minh rằng (c) kéo theo (a). Giả sử A là cực đại trong các vành con của K phân biệt với K. Gọi m là một iđêan cực đại của A và V là một vành định giá của K trội hơn A,, (§ 1, no. 2, Hệ quả của Định lý 2); vì m(V) ∩ A = m và m ≠ (0) (vì A không là một trường), V ≠ K, do đó V = A, điều này chứng tỏ rằng A không phải là vành của một định giá v trên K. Như vậy, v có cấp 1 theo các Mệnh đề 1 (no. 1) và 5 (no. 4).
 
-#### Mệnh đề 7 {#ac-vi-s4-prop-7 .statement}
+#### Mệnh đề 7 {#ac-vi-s4-prop-7 .statement tag=04UB}
 
 Để một định giá trên một trường có cấp 1, điều kiện cần và đủ là nhóm cấp của nó đẳng cấu với một nhóm con có thứ tự khác không của $\mathbf{R}$.
 
 Điều này thực ra suy ra từ mệnh đề sau:
 
-#### Mệnh đề 8 {#ac-vi-s4-prop-8 .statement}
+#### Mệnh đề 8 {#ac-vi-s4-prop-8 .statement tag=04UC}
 
 Cho G là một nhóm được sắp thứ tự toàn phần không rút gọn về O. Các điều kiện sau là tương đương:
 (a) G có cấp 1;
@@ -237,7 +237,7 @@ $$
 
 với x ∈ P và y ∈ P; theo tính tuyến tính f có thể được mở rộng thành một đẳng cấu của G lên một nhóm con của $\mathbf{R}$, điều này chứng minh rằng (b) kéo theo (c).
 
-#### Mệnh đề 9 {#ac-vi-s4-prop-9 .statement}
+#### Mệnh đề 9 {#ac-vi-s4-prop-9 .statement tag=04UD}
 
 Cho K là một trường, v là một định giá không đúng trên K và A là vành của v. Để A đóng toàn nguyên (Chương V, § 1, no. 4, Định nghĩa 5), điều kiện cần và đủ là v có cấp 1.
 
@@ -245,7 +245,7 @@ Giả sử v có cấp 1. Cho x ∈ K sao cho các x^n (n ≥ 0) đều được
 
 Bây giờ giả sử v không có cấp 1. Khi đó tồn tại $y \in m(A)$ và $t \in A$ sao cho $nv(y) < v(t)$ với mọi $n \geqslant 0$ (Mệnh đề 8 (b)). Khi đó $ty^{-n} \in A$ với mọi $n \geqslant 0$, nhưng $y^{-1} \notin A$. Do đó A không đóng toàn nguyên.
 
-#### Hệ quả {#ac-vi-s4-n5-cor-1 .statement}
+#### Hệ quả {#ac-vi-s4-n5-cor-1 .statement tag=04UE}
 
 *Cho K là một trường, $(v_\alpha)_{\alpha \in I}$ là một họ các định giá cấp 1 trên K và A là giao của các vành của các v.* Khi đó A là một miền đóng toàn nguyên.
 

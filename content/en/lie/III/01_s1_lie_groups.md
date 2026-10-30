@@ -57,7 +57,7 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: daff3230df35a1d3795f1c3aa51cd9719e5f2ee8ea1fdee0d10ab6220950dbdb
+content_sha256: c28e00b85f74025ecd9db6adb574f2c95ce70e7ad72db45eba1ee38c85b62c4a
 ---
 
 ## § 1. LIE GROUPS
@@ -67,7 +67,7 @@ content_sha256: daff3230df35a1d3795f1c3aa51cd9719e5f2ee8ea1fdee0d10ab6220950dbdb
 Let G be a set. A group structure and an analytic K-manifold structure on G are called compatible if the following condition holds:
 (GL) The mapping $(g, h) \mapsto gh^{-1}$ of $G \times G$ into G is analytic.
 
-#### Definition 1 {#lie-iii-s1-def-1 .statement}
+#### Definition 1 {#lie-iii-s1-def-1 .statement tag=0A76}
 
 *A Lie group over K is a set G with a group structure and an analytic K-manifold structure such that these two structures are compatible.*
 
@@ -87,7 +87,7 @@ Let G be a Lie group. For all $g \in G$, $\gamma(g)$ and $\delta(g)$ are automor
 
 Since an analytic mapping is continuous, a Lie group is a topological group with the underlying topology of its manifold structure. Let G be a set. A topological group structure and an analytic K-manifold structure on G are called *compatible* if the group structure and the manifold structure are compatible and the topology on G is the topology underlying the manifold structure.
 
-#### Lemma 1 {#lie-iii-s1-lem-1 .statement}
+#### Lemma 1 {#lie-iii-s1-lem-1 .statement tag=0A77}
 
 *Let G be a Lie group, U an open neighbourhood of e, E a complete normed space and $\phi : U \to E$ a chart of the manifold G. There exists a neighbourhood W of e contained in U such that $\phi | W$ is an isomorphism of W (with the right uniform structure) onto $\phi(W)$ (with the uniform structure induced by that on E).*
 
@@ -119,13 +119,13 @@ $$
 
 and hence $W$ has the property of the lemma.
 
-#### Proposition 1 {#lie-iii-s1-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s1-prop-1 .statement tag=0A78}
 
 *A Lie group is a complete metrizable topological group.*
 
 Since $e$ admits an open neighbourhood homeomorphic to an open ball of a normed space, $e$ admits a countable fundamental system of neighbourhoods whose intersection is $\{e\}$. Hence $G$ is metrizable (*General Topology*, Chapter III, § 1, Corollary to Proposition 2 and Chapter IX, § 3, Proposition 1). By Lemma 1, there exists a neighbourhood of $e$ which is complete under the right uniform structure and hence $G$ is complete (*General Topology*, Chapter III, § 3, Proposition 4).
 
-#### Proposition 2 {#lie-iii-s1-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s1-prop-2 .statement tag=0A79}
 
 *Let $G$ be a Lie group.*
 (i) *If $K = \mathbf{R}$ or $\mathbf{C}$, $G$ is locally connected.*
@@ -141,11 +141,11 @@ $$
 
 if there exists a sequence dense in $V$, we see that there exists a sequence dense in G and, as G is metrizable (Proposition 1), the topology on G admits a countable base.
 
-#### Corollary {#lie-iii-s1-n1-cor-1 .statement}
+#### Corollary {#lie-iii-s1-n1-cor-1 .statement tag=0A7A}
 
 If K = R or C and G is connected and finite-dimensional, then G is locally connected and locally compact and its topology admits a countable base.
 
-#### Lemma 2 {#lie-iii-s1-lem-2 .statement}
+#### Lemma 2 {#lie-iii-s1-lem-2 .statement tag=0A7B}
 
 Let X be a manifold of class C^r, e a point of X, U and V open neighbourhoods of e and m a mapping of class C^r of U × U into X satisfying the following conditions:
 (a) m(e, x) = m(x, e) = x for all x ∈ U;
@@ -170,7 +170,7 @@ $$
 
 and hence θ(x) ∈ W. We see that θ | W defines an automorphism of the manifold W.
 
-#### Proposition 3 {#lie-iii-s1-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s1-prop-3 .statement tag=0A7C}
 
 Let X be an analytic manifold and m an analytic associative law of composition on X admitting an identity element. The set G of invertible elements of X is open in X and G is a Lie group with m | (G × G) and the manifold structure induced by that on X.
 
@@ -192,13 +192,13 @@ For example, let E be a complete normable space over K and let $A = \mathscr{L}(
 
 ### 2. MORPHISMS OF LIE GROUPS
 
-#### Definition 2 {#lie-iii-s1-def-2 .statement}
+#### Definition 2 {#lie-iii-s1-def-2 .statement tag=0A7D}
 
 *Let G and H be Lie groups. A Lie group morphism of G into H (or simply a morphism of G into H if no confusion can arise) is a mapping of G into H which is a group homomorphism and is analytic. The automorphism group of G is denoted by $\operatorname{Aut}(G)$.*.
 
 The identity mapping of G is a morphism. The composition of two morphisms is a morphism. If $f : G \to H$ and $f' : H \to G$ are two inverse morphisms, $f$ and $f'$ are Lie group isomorphisms.
 
-#### Example {#lie-iii-s1-n2-exa-1 .statement}
+#### Example {#lie-iii-s1-n2-exa-1 .statement tag=0A7E}
 
 (1) Let G be a Lie group. For all $x \in G$, $\operatorname{Int}(x)$ is an automorphism of the Lie group G.
 
@@ -214,13 +214,13 @@ Let G be a real Lie group, E a real complete normable space and $\rho$ a homomor
 
 (4) Let G be a real Lie group and E a complex complete normable space. An analytic linear representation of G on E is a morphism of G into the underlying real Lie group of $\mathbf{GL}(E)$.
 
-#### Proposition 4 {#lie-iii-s1-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s1-prop-4 .statement tag=0A7F}
 
 Let G and H be Lie groups and f a homomorphism of the group G into the group H. For f to be analytic, it is necessary and sufficient that there exist a non-empty open subset U of G such that $f|_U$ is analytic.
 
 The condition is obviously necessary. Suppose that it holds. For all $x_0 \in G$, $f(x_0x) = f(x_0)f(x)$ for all $x \in U$ and hence $f|_{x_0U}$ is analytic. But the sets $x_0U$, where $x_0 \in G$, form an open covering of G.
 
-#### Remark {#lie-iii-s1-n2-rem-1 .statement}
+#### Remark {#lie-iii-s1-n2-rem-1 .statement tag=0A7G}
 
 If f is an immersion at e (resp. a submersion at e), clearly f is an immersion (resp. a submersion).
 
@@ -228,13 +228,13 @@ If f is an immersion at e (resp. a submersion at e), clearly f is an immersion (
 
 Let G be a Lie group and H a subgroup of G which is at the same time a submanifold of G. Then the mapping $(x, y) \mapsto xy^{-1}$ of $H \times H$ into G is analytic and hence the mapping $(x, y) \mapsto xy^{-1}$ of $H \times H$ into H is analytic. (Differentiable and Analytic Manifolds, R, 5.8.5). Thus H, with the group and manifold structures induced by those on G, is a Lie group.
 
-#### Definition 3 {#lie-iii-s1-def-3 .statement}
+#### Definition 3 {#lie-iii-s1-def-3 .statement tag=0A7H}
 
 Let G be a Lie group. A subset H of G is called a Lie subgroup if H is a subgroup and a submanifold of G.
 
 An open subgroup of G is a Lie subgroup of G. In particular, if G is a real or complex Lie group, its identity component is a Lie subgroup of G.
 
-#### Proposition 5 {#lie-iii-s1-prop-5 .statement}
+#### Proposition 5 {#lie-iii-s1-prop-5 .statement tag=0A7I}
 
 Let G be a Lie group and H a Lie subgroup of G.
 (i) H is closed in G.
@@ -243,7 +243,7 @@ Let G be a Lie group and H a Lie subgroup of G.
 
 By Differentiable and Analytic Manifolds, R, 5.8.3, H is locally closed. Hence H is closed (General Topology, Chapter III, § 2, Proposition 4). Assertion (ii) is obvious. Assertion (iii) follows from Differentiable and Analytic Manifolds, R, 5.8.5.
 
-#### Proposition 6 {#lie-iii-s1-prop-6 .statement}
+#### Proposition 6 {#lie-iii-s1-prop-6 .statement tag=0A7J}
 
 Let G be a Lie group and H a subgroup of G. For H to be a Lie subgroup of G, it is necessary and sufficient that there exist a point h ∈ H and an open neighbourhood U of h in G such that H ∩ U is a submanifold of G.
 
@@ -253,7 +253,7 @@ Let G be a Lie group and H a Lie subgroup of G. If L is a Lie subgroup of H, L i
 
 Let k be a non-discrete closed subfield of K. A Lie k-subgroup of G is a Lie subgroup of the underlying Lie k-group of G.
 
-#### Remark {#lie-iii-s1-n3-rem-1 .statement}
+#### Remark {#lie-iii-s1-n3-rem-1 .statement tag=0A7K}
 
 If "submanifold" is replaced by "quasi-submanifold" in Definition 3, we obtain the definition of Lie quasi-subgroups of G. (For finite-dimensional G, the Lie quasi-subgroups are just the Lie subgroups.) Suppose that K is of characteristic 0. Proposition 5 remains valid with the same proof for Lie quasi-subgroups. Proposition 6 remains valid with the same proof, replacing "Lie subgroup" by "Lie quasi-subgroup" and "submanifold" by "quasi-submanifold".
 
@@ -263,7 +263,7 @@ Let I be a finite set and (L_i)_{i \in I} a family of Lie groups. The group and 
 
 Let L and M be Lie groups and σ a homomorphism of L into the automorphism group of the group M. Let S be the external semi-direct product of L by M relative to σ (Algebra, Chapter I, § 6, no. 1, Definition 2).
 
-#### Proposition 7 {#lie-iii-s1-prop-7 .statement}
+#### Proposition 7 {#lie-iii-s1-prop-7 .statement tag=0A7L}
 
 *If the mapping* $(m, l) \mapsto \sigma(l)m$ *of* $M \times L$ *into* $M$ *is analytic, the group* $S$, *with the product manifold structure of* $M$ *and* $L$, *is a Lie group*.
 
@@ -282,11 +282,11 @@ Clearly the canonical injection of $L$ (resp. $M$) into $S$ is an isomorphism of
 
 Conversely, let $G$ be a Lie group and $L$, $M$ two Lie subgroups such that the group $G$ is (algebraically) the semi-direct product of $L$ by $M$ (*Algebra*, Chapter I, § 6, no. 1). We write $\sigma(l)m = lml^{-1}$ for $l \in L$ and $m \in M$. Then $\sigma$ satisfies the conditions of Proposition 7. We can therefore form the semi-direct product Lie group $S$ of $L$ by $M$ relative to $\sigma$. The mapping $j: (m, l) \mapsto ml$ of $S$ onto $G$ is a group isomorphism and is analytic. If $j$ is a Lie group isomorphism, *the Lie group* $G$ *is called the* (*internal*) *semi-direct product of* $L$ *by* $M$ *and* $S$ *and* $G$ *are identified*. For all $g \in G$, we write $g = p(g)q(g)$, where $p(g) \in M$ and $q(g) \in L$. For the Lie group $G$ to be the semi-direct product of $L$ by $M$, it is necessary and sufficient that one of the mappings $p: G \to M$ and $q: G \to L$ be analytic, in which case both are analytic; or alternatively, it is necessary and sufficient that $T_e(G)$ be the topological direct sum of $T_e(M)$ and $T_e(L)$ (for, if this condition holds, $j$ is étale at $e_S$).
 
-#### Example {#lie-iii-s1-n4-exa-1 .statement}
+#### Example {#lie-iii-s1-n4-exa-1 .statement tag=0A7M}
 
 Let $E$ be a normable space, $G = \mathbf{GL}(E)$, $T$ the translation group of $E$ and $A$ the permutation group of $E$ generated by $G$ and $T$. The group $A$ is algebraically the semi-direct product of $G$ by $T$. (If $E$ is finite-dimensional, $A$ is the affine group of $E$, cf. *Algebra*, Chapter II, § 9, no. 4). Let $\sigma$ be the identity linear representation of $G$ on $E$ and $S$ the external semi-direct product of $G$ by $E$ relative to $\sigma$. For all $x \in E$, let $t_x$ be the translation of $E$ defined by $x$. The mapping $(x, u) \mapsto t_x \circ u$ is isomorphism $\Phi$ of the group $S$ onto the group $A$. The mapping $(x, u) \mapsto \sigma(u)x = u(x)$ of $E \times \mathscr{L}(E)$ into $E$ is continuous and bilinear and hence analytic; its restriction to $E \times G$ is therefore analytic. Thus the group $S$, with the product manifold structure of $E$ and $G$, is a Lie group. We transport this structure to $A$ by means of $\Phi$. Then $A$ becomes a Lie group, the internal semi-direct product of $G$ by $T$ as a Lie group.
 
-#### Proposition 8 {#lie-iii-s1-prop-8 .statement}
+#### Proposition 8 {#lie-iii-s1-prop-8 .statement tag=0A7N}
 
 *Let* $G$ *and* $H$ *be Lie groups, $p: G \to H$ and $s: H \to G$ Lie group morphisms such that* $p \circ s = \mathrm{id}_H$ *and* $N = \mathrm{Ker}\ p$. *Then* $N$ *is a Lie subgroup of* $G$, *s is an isomorphism of* $H$ *onto a Lie subgroup of* $G$ *and the Lie group* $G$ *is the internal semi-direct product of* $s(H)$ *by* $N$.
 
@@ -309,7 +309,7 @@ $$
 T_g(\rho(x)) = T_x(\tau(g)) \circ T_e(\rho(x)) \circ T_g(\gamma(g^{-1}))
 $$
 
-#### Proposition 9 {#lie-iii-s1-prop-9 .statement}
+#### Proposition 9 {#lie-iii-s1-prop-9 .statement tag=0A7O}
 
 *Let $x \in X$ and $g_0 \in G$.*
 
@@ -319,7 +319,7 @@ $$
 
 This follows immediately from formulae (4) and (5) since $T_g(\delta(g)), T_x(\tau(g))$ and $T_g(\gamma(g^{-1}))$ are isomorphisms.
 
-#### Corollary {#lie-iii-s1-n5-cor-1 .statement}
+#### Corollary {#lie-iii-s1-n5-cor-1 .statement tag=0A7P}
 
 *Let $x \in X$. If K is of characteristic 0 and X is finite-dimensional, $\rho(x)$ is a subimmersion. If further $\rho(x)$ is injective, $\rho(x)$ is an immersion.*
 
@@ -337,7 +337,7 @@ $$
 T_{(g, x)}(\eta)(u, v) = T_g(\rho(x))u + T_x(\tau(g))v.
 $$
 
-#### Proposition 10 {#lie-iii-s1-prop-10 .statement}
+#### Proposition 10 {#lie-iii-s1-prop-10 .statement tag=0A7Q}
 
 *Let G be a Lie group and X a manifold of class $C^r$ with a law of left operation of class $C^r$ of G on X. Suppose that:*
 
@@ -377,7 +377,7 @@ $$
 
 and hence the inverse bijection of $\phi$ is of class $C^r$. Clearly $\phi(gg', w) = g\phi(g', w)$ for $w \in W,\ g \in G,\ g' \in G$. Hence $(X, G, X/G, \pi)$ is a principal left fibre bundle.
 
-#### Remark {#lie-iii-s1-n5-rem-1 .statement}
+#### Remark {#lie-iii-s1-n5-rem-1 .statement tag=0A7R}
 
 With the above hypotheses, further let $H$ be a manifold of class $C^r$ and $(x, h) \mapsto m(x, h)$ a mapping of class $C^r$ of $X \times H$ into $X$ such that $m(gx, h) = gm(x, h)$ for $x \in X,\ g \in G,\ h \in H$. Let $n$ be the mapping of $(X/G) \times H$ into $X/G$ derived from $m$ by taking quotients. We show that $n$ *is of class* $C^r$. Consider the diagram
 
@@ -411,7 +411,7 @@ On the other hand, if $\eta$ denotes the mapping $(g, x) \mapsto xg$ of $G \time
 
 ### 6. HOMOGENEOUS SPACES AND QUOTIENT GROUPS
 
-#### Proposition 11 {#lie-iii-s1-prop-11 .statement}
+#### Proposition 11 {#lie-iii-s1-prop-11 .statement tag=0A7S}
 
 *Let $X$ be a Lie group and $G$ a Lie subgroup of $X$.*
 
@@ -431,7 +431,7 @@ Suppose that $G$ is normal. Let $m$ be the mapping $(x, y) \mapsto xy^{-1}$ of $
 
 The homogeneous set $X/G$ with the manifold structure defined in (i) is called the quotient (left) Lie homogeneous space of $X$ by $G$. The (right) Lie homogeneous space $G \setminus X$ is defined analogously. When $G$ is normal, the Lie group $X/G$ defined in (ii) is called the quotient Lie group of $X$ by $G$.
 
-#### Proposition 12 {#lie-iii-s1-prop-12 .statement}
+#### Proposition 12 {#lie-iii-s1-prop-12 .statement tag=0A7T}
 
 Let $X$ be a Lie group and $Y$ a non-empty analytic manifold with a law of analytic left operation of $X$ on $Y$. For all $y \in Y$, let $\varphi(y)$ be the orbital mapping by $y$ and $X_y$ the stabilizer of $y$ in $X$. The following conditions are equivalent:
 (i) there exists $y \in Y$ such that $\varphi(y)$ is a surjective submersion;
@@ -444,7 +444,7 @@ As the canonical mapping of $X$ onto $X/X_y$ is a submersion, the equivalences (
 
 Under the conditions of Proposition 12, $Y$ is called a (left) Lie homogeneous space of $X$. Right Lie homogeneous spaces of $X$ are defined analogously.
 
-#### Example {#lie-iii-s1-n6-exa-1 .statement}
+#### Example {#lie-iii-s1-n6-exa-1 .statement tag=0A7U}
 
 Let $G$ be a Lie group. We make $G \times G$ operate on $G$ on the left by $(g_1, g_2)x = g_1xg_2^{-1}$. Let $\rho$ be the orbital mapping of $e$. Then the restrictions of $T_{(e, e)}(\rho)$ to $T_{(e, e)}(G \times \{e\}) = T_e(G) \times \{0\}$ and to
 $$
@@ -452,7 +452,7 @@ T_{(e, e)}(\{e\} \times G) = \{0\} \times T_e(G)
 $$
 are isomorphisms of these spaces onto $T_e(G)$. Hence $T_{(e, e)}(\rho)$ is surjective and $\operatorname{Ker} T_{(e, e)}(\rho)$ admits for example the topological supplement $T_e(G) \times \{0\}$ in $T_{(e, e)}(G \times G)$. Thus $\rho$ is a submersion at $(e, e)$. Hence $G$ is a left Lie homogeneous space of $G \times G$.
 
-#### Proposition 13 {#lie-iii-s1-prop-13 .statement}
+#### Proposition 13 {#lie-iii-s1-prop-13 .statement tag=0A7V}
 
 Let $G$ be a Lie group, $H$ a normal Lie subgroup of $G$, $X$ a manifold of class $C^r$ and $(g, x) \mapsto gx$ a law of left operation of class $C^r$ of $G$ on $X$. Suppose that conditions (a) and (b) of Proposition 10 hold.
 
@@ -490,13 +490,13 @@ Let $u \in T_e(G/H)$ be such that $T_e(\rho(y))u = 0$. There exists $v \in T_e(G
 
 Assertion (iii) follows from the above and Differentiable and Analytic Manifolds, R, 5.9.7.
 
-#### Corollary {#lie-iii-s1-n6-cor-1 .statement}
+#### Corollary {#lie-iii-s1-n6-cor-1 .statement tag=0A7W}
 
 Let G be a Lie group and H and L normal Lie subgroups of G with L ⊂ H. Then H/L is a normal Lie subgroup of G/L and the canonical bijection of G/H onto (G/L)/(H/L) is a Lie group isomorphism.
 
 ### 7. ORBITS
 
-#### Proposition 14 {#lie-iii-s1-prop-14 .statement}
+#### Proposition 14 {#lie-iii-s1-prop-14 .statement tag=0A7X}
 
 Let G be a Lie group, X an analytic manifold and (g, x) ↦ gx a law of analytic left operation of G on X. Let x ∈ X. Suppose that the corresponding orbital mapping ρ(x) is a subimmersion (which is always the case if K is of characteristic 0 and X is finite-dimensional (Corollary to Proposition 9)). Let G_x be the stabilizer of x in G.
 (i) G_x is a Lie subgroup and T_e(G_x) = Ker T_e(ρ(x)).
@@ -511,11 +511,11 @@ $$
 T_x(Gx) = \operatorname{Im} T_{\pi(e)}(i_x) = \operatorname{Im} T_e(\rho(x)).
 $$
 
-#### Remark {#lie-iii-s1-n7-rem-1 .statement}
+#### Remark {#lie-iii-s1-n7-rem-1 .statement tag=0A7Y}
 
 Let G be a finite-dimensional Lie group, X a manifold of class C^r and (g, x) ↦ gx a law of left operation of class C^r of G on X. Then Proposition 14 remains valid. The only point which needs a different proof is the fact that G_x is a Lie subgroup. But if r ≠ ω, K = \mathbf{R}; as clearly G_x is closed, G_x is a Lie subgroup by § 8, Theorem 2.
 
-#### Corollary {#lie-iii-s1-n7-cor-1 .statement}
+#### Corollary {#lie-iii-s1-n7-cor-1 .statement tag=0A7Z}
 
 Let G be a Lie group whose topology admits a countable base and X a non-empty finite-dimensional analytic manifold with a law of analytic left operation of G on X. Suppose that G operates transitivity on X and that K is of characteristic 0. Then X is a Lie homogeneous space for G.
 
@@ -527,7 +527,7 @@ Let G be a Lie group, X a manifold of class C^r and (g, x) ↦ gx a law of left 
 
 Let φ be the automorphism (g, x) ↦ (g, gx) of the manifold G × X. Let p be the canonical projection of G × X onto X and E' the inverse image of E under p. Let ψ : E' → E' be the mapping the sum of the ψ_{g, x} : E'_{(g, x)} → E'_{(g, gx)}.
 
-#### Definition 4 {#lie-iii-s1-def-4 .statement}
+#### Definition 4 {#lie-iii-s1-def-4 .statement tag=0A80}
 
 If ψ is a φ-morphism of vector bundles of class C^r, E is called a vector G-bundle of class C^r.
 
@@ -545,33 +545,33 @@ $$
 
 The τ(ψ_{g, x}) define a law of left operation (g, u) ↦ gu of G on τE and the canonical projection of τE onto X is compatible with the operations of G on X and τE.
 
-#### Proposition 15 {#lie-iii-s1-prop-15 .statement}
+#### Proposition 15 {#lie-iii-s1-prop-15 .statement tag=0A81}
 
 *If E is a vector G-bundle of class C^r, τE is a vector G-bundle of class C^r*.
 
 Let g_0, x_0, U, M, N be as in the paragraph following Definition 4. Then the mapping (g, x) ↦ τ(ψ_{g,x}) of U into $\mathscr{L}(\tau M, \tau N)$ is the composition of the mapping (g, x) ↦ ψ_{g,x} of U into $\mathscr{L}(M, N)$ and the mapping f ↦ τ(f) of Isom(M, N) into Isom(τM, τN); these two mappings are of class C^r and hence so is their composition, whence the proposition.
 
-#### Proposition 16 {#lie-iii-s1-prop-16 .statement}
+#### Proposition 16 {#lie-iii-s1-prop-16 .statement tag=0A82}
 
 *Let G be a Lie group, X a manifold of class C^r (r ≥ 2) and (g, x) ↦ gx a law of left operation of class C^r of G on X, whence, by transporting the structure, there is a law of left operation of G on TX. Under this law, TX is a vector G-bundle of class C^{r-1}.*
 
 Let pr_1 (resp. pr_2) be the canonical projection of G × X onto G (resp. X) and let E_1 (resp. E_2) be the inverse image of TG (resp. TX) relative to pr_1 (resp. pr_2). Then the vector bundle T(G × X) is the direct sum of E_1 and E_2. Let i: E_2 → T(G × X) and q: T(G × X) → E_2 be the canonical vector bundle morphisms defined by this decomposition into a direct sum. Let φ be the mapping (g, x) ↦ (g, gx) of G × X into G × X. Then the mapping denoted by ψ in Definition 4 (where we put E = TX) is just q ∘ T(φ) ∘ i. But T(φ) is a φ-morphism of vector bundles of class C^{r-1} (*Differentiable and Analytic Manifolds*, R, 8.1.2).
 
-#### Corollary {#lie-iii-s1-n8-cor-1 .statement}
+#### Corollary {#lie-iii-s1-n8-cor-1 .statement tag=0A83}
 
 *If τ is a vector functor of class C^r for isomorphisms, τ(TX) is a vector G-bundle of class C^{r-1}.*
 
 This follows from Propositions 15 and 16.
 
-#### Remark 1 {#lie-iii-s1-n8-rem-1 .statement}
+#### Remark 1 {#lie-iii-s1-n8-rem-1 .statement tag=0A84}
 
 If τ is a vector functor of class C^r for isomorphisms *in finite dimension* and E is of finite rank, τE is defined similarly and Proposition 15 remains valid; the Corollary to Proposition 16 remains valid provided X is finite-dimensional.
 
-#### Example {#lie-iii-s1-n8-exa-1 .statement}
+#### Example {#lie-iii-s1-n8-exa-1 .statement tag=0A85}
 
 With the hypotheses and notation of Proposition 16, let F be a complete normable space. Then $\mathscr{L}((TX)^p; F)$ is a vector G-bundle of class C^{r-1}; so is Alt^p(TX; F) if K is of characteristic zero or X is finite-dimensional (*Differentiable and Analytic Manifolds*, R, 7.7, 7.8). If X is finite-dimensional, $\bigotimes^p (TX) \otimes \bigotimes^q (TX)^*$ is a vector G-bundle of class C^{r-1}.
 
-#### Proposition 17 {#lie-iii-s1-prop-17 .statement}
+#### Proposition 17 {#lie-iii-s1-prop-17 .statement tag=0A86}
 
 *Let G be a Lie group, X a left Lie homogeneous space of G, x_0 a point of X, G_0 the stabilizer of x_0 in G, E and E' left vector G-bundles of class C^r and base space X, E_0 (resp. E'_0) the fibre of E (resp. E') at x_0 and f an element of $\mathscr{L}(E_0, E'_0)$ such that f(gu) = gf(u) for all u ∈ E_0 and g ∈ G_0. Then there exists one and only one morphism of E into E' compatible with the operations of G and extending f.*
 
@@ -585,7 +585,7 @@ For x ∈ V, let φ_x : M → N be the restriction of φ to E_x = M. Then φ_x i
 (3) the mapping ψ'_θ^{-1,x} of E_0 into M'.
 Hence we see that the mapping x ↦ φ_x of V into $\mathscr{L}(M, M')$ is of class C^r.
 
-#### Corollary 1 {#lie-iii-s1-prop-17-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s1-prop-17-cor-1 .statement tag=0A87}
 
 Let E_0^{G_0} be the set of elements of E_0 which are invariant under G_0. For all u ∈ E_0^{G_0}, let σ_u be the mapping of X into E defined by σ_u(gx_0) = gu for all g ∈ G.
 (i) The G-invariant sections† of E are of class C^r.
@@ -603,19 +603,19 @@ and hence σ_u(x) = φ((u, x)) for all x ∈ X, which proves our assertion.
 
 † By a section of E we here mean a mapping σ (not necessarily of class C^r) of X into E such that p ∘ σ = Id_X, where p denotes the projection of E onto X.
 
-#### Corollary 2 {#lie-iii-s1-prop-17-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s1-prop-17-cor-2 .statement tag=0A88}
 
 Suppose that $G_0$ operates trivially on $E_0$. Let $E'$ be the trivial $G$-bundle with base space $X$ and fibre $E_0$. There exists one and only one isomorphism of $E$ onto $E'$ compatible with the operations of $G$ and extending $\mathrm{Id}_{E_0}$.
 
 This follows immediately from Proposition 17.
 
-#### Remark 2 {#lie-iii-s1-n8-rem-2 .statement}
+#### Remark 2 {#lie-iii-s1-n8-rem-2 .statement tag=0A89}
 
 In this no., the laws of left operation can be replaced throughout by laws of right operation.
 
 ### 9. LOCAL DEFINITION OF A LIE GROUP
 
-#### Proposition 18 {#lie-iii-s1-prop-18 .statement}
+#### Proposition 18 {#lie-iii-s1-prop-18 .statement tag=0A8A}
 
 Let $G$ be a group and $U$ and $V$ two subsets of $G$ containing $e$. Suppose that $U$ has an analytic manifold structure satisfying the following conditions:
 (i) $V = V^{-1}, V^2 \subset U, V$ is open in $U$;
@@ -647,7 +647,7 @@ by (a) we see that $\phi_{g_2} \circ \phi_{g_1}^{-1}$ is analytic.
 
 (f) If a manifold structure on G is compatible with the group structure of G and is such that V is an open submanifold of G, then (\phi_g)_{g\in G} is an atlas on G. Hence the uniqueness assertion of the proposition.
 
-#### Proposition 19 {#lie-iii-s1-prop-19 .statement}
+#### Proposition 19 {#lie-iii-s1-prop-19 .statement tag=0A8B}
 
 Let G be a topological group, H a Lie group and f a homomorphism of the group G into the group H. Suppose that there exist an open neighbourhood of e_G in G, a chart (V, \phi, E) of the manifold H at e_H and a closed vector subspace F of E admitting a topological supplement, such that f(U) \subset V and \phi \circ f)|U is a homeomorphism of U onto \phi(V) \cap F. Then there exists a unique manifold structure on G such that f is an immersion; this structure is the inverse image under f of the manifold structure on H. With this structure G is a Lie group.
 
@@ -665,11 +665,11 @@ where m(x, y) = xy^{-1} (resp. n(x, y) = xy^{-1}) for x, y in G (resp. H). Then 
 
 The Lie group structure on G is called the inverse image of the Lie group structure on H under f.
 
-#### Corollary {#lie-iii-s1-n9-cor-1 .statement}
+#### Corollary {#lie-iii-s1-n9-cor-1 .statement tag=0A8C}
 
 Let G be a topological group, N a discrete normal subgroup of G and \pi the canonical mapping of G onto G/N. Suppose that an analytic manifold structure is given on G/N, compatible with the topological group structure on G/N. Then there exists a unique manifold structure on G such that \pi is an immersion; this structure is the inverse image under \pi of the manifold structure on G/N. With this structure, \pi is étale, G is a Lie group and G/N is the quotient Lie group of G by N.
 
-#### Remark {#lie-iii-s1-n9-rem-1 .statement}
+#### Remark {#lie-iii-s1-n9-rem-1 .statement tag=0A8D}
 
 Let H be a connected real or complex Lie group, \tilde{H} its universal covering† and \pi the canonical mapping of \tilde{H} onto H. When we speak of \tilde{H}
 
@@ -681,7 +681,7 @@ as a Lie group, we shall always mean with the inverse image structure of that on
 
 ### 10. GROUP GERMS
 
-#### Definition 5 {#lie-iii-s1-def-5 .statement}
+#### Definition 5 {#lie-iii-s1-def-5 .statement tag=0A8E}
 
 *A Lie group germ over K* is a system $(G, e, \theta, m)$ satisfying the following conditions:
 (i) $G$ is an analytic manifold over $K$;
@@ -726,7 +726,7 @@ $$
 (gh)^{-1} = h^{-1}g^{-1} \quad \text{for } g, h \text{ sufficiently close to } e.
 $$
 
-#### Proposition 20 {#lie-iii-s1-prop-20 .statement}
+#### Proposition 20 {#lie-iii-s1-prop-20 .statement tag=0A8F}
 
 *Let $G$ be a Lie group germ and $g \in G$. There exist an open neighbourhood $U$ of $e$ and an open neighbourhood $V$ of $g$ with the following properties:*
 (a) $ug$ is defined for all $u \in U$;
@@ -766,7 +766,7 @@ If $G$ is a Lie group germ with identity element $e$, every symmetric open neigh
 
 The *product* Lie group germ of a finite number of Lie group germs is defined in an obvious way.
 
-#### Proposition 21 {#lie-iii-s1-prop-21 .statement}
+#### Proposition 21 {#lie-iii-s1-prop-21 .statement tag=0A8G}
 
 *Let $G, H$ be two Lie group germs and $\phi$ a morphism of $G$ into $H$. The following conditions are equivalent:*
 
@@ -783,7 +783,7 @@ Hence $\phi|G'$ is an isomorphism of the Lie group germ $G'$ onto the open Lie s
 
 If the conditions of Proposition 21 hold, $G$ and $H$ are called *locally isomorphic*.
 
-#### Proposition 22 {#lie-iii-s1-prop-22 .statement}
+#### Proposition 22 {#lie-iii-s1-prop-22 .statement tag=0A8H}
 
 *Let $H$ be a Lie group, $U$ a Lie subgroup germ of $H$ and $N$ the set of $g \in H$ such that $U$ and $gUg^{-1}$ have the same germ at $e$ (General Topology, Chapter I, § 6, no. 10). Then $N$ is a subgroup of $H$ containing $U$. There exists one and only one analytic manifold structure on $N$ with the following properties:*
 
@@ -799,11 +799,11 @@ Finally, we consider an analytic manifold structure on N with properties (i) and
 
 Let H be a Lie group, U a Lie quasi-subgroup germ of H and N the set of $g \in H$ such that U and $gUg^{-1}$ have the same germ at e. If K is of characteristic 0, there exists on G one and only one manifold structure with properties (i) and (ii) of Proposition 22. The proof is the same as for Proposition 22.
 
-#### Corollary {#lie-iii-s1-n10-cor-1 .statement}
+#### Corollary {#lie-iii-s1-n10-cor-1 .statement tag=0A8I}
 
 Preserving the notation of Proposition 22, let G be the subgroup of H generated by U. Then G is an open subgroup of N. There exists one and only one Lie group structure on G such that U is an open submanifold of G and the canonical injection of G into H is an immersion.
 
-#### Remark {#lie-iii-s1-n10-rem-1 .statement}
+#### Remark {#lie-iii-s1-n10-rem-1 .statement tag=0A8J}
 
 Preserving the notation of Proposition 22 and its corollary, suppose that K is of characteristic 0, that H is finite-dimensional and that the topology on U admits a countable base. Even with all these hypotheses it is possible that G is not closed in H (Exercise 3). But, if G is closed, G is a Lie subgroup of H. For the mapping $(g, h) \mapsto gh$ is a law of analytic left operation of G on H. The orbit of e is G. Our assertion then follows from Propositions 2 (iv) and 14 (iii).
 
@@ -811,7 +811,7 @@ Preserving the notation of Proposition 22 and its corollary, suppose that K is o
 
 Let $(G, e, \theta, m)$ be a Lie group germ and X a manifold of class $C^r$.
 
-#### Definition 6 {#lie-iii-s1-def-6 .statement}
+#### Definition 6 {#lie-iii-s1-def-6 .statement tag=0A8K}
 
 A law chunk of left operation of class $C^r$ of G on X is a mapping $\psi$ defined on an open subset $\Omega$ of $G \times X$ containing $\{e\} \times X$, with values in X and with the following properties:
 (i) $\psi$ is of class $C^r$;
@@ -822,7 +822,7 @@ Law chunks of right operation of class $C^r$ are defined similarly.
 We often write $gx$ instead of $\psi(g, x)$.
 Let G' be a Lie subgroup germ of G and X' a submanifold of X. Suppose that the set $\Omega'$ of $(g, x) \in \Omega \cap (G' \times X')$ such that $\psi(g, x) \in X'$ is open in $G' \times X'$ (a condition which is always fulfilled if $X'$ is open in $X$). Then $\psi|_{\Omega'}$ is a law chunk of left operation of class $C^r$ of $G'$ on $X'$, which is said to be derived from $\psi$ by restriction to $G'$ and $X'$.
 
-#### Proposition 23 {#lie-iii-s1-prop-23 .statement}
+#### Proposition 23 {#lie-iii-s1-prop-23 .statement tag=0A8L}
 
 *Let $(G, e, \theta, m)$ be a Lie group germ, $X$ a manifold of class $C^r$, $x_0$ a point of $X$, $\Omega$ an open neighbourhood of $(e, x_0)$ in $G \times X$ and $\psi$ a mapping of $\Omega$ into $X$ with the following properties:
 (i) $\psi$ is of class $C^r$;
@@ -835,7 +835,7 @@ $$
 $$
 for $(g, g', x) \in G' \times G' \times X'$. Let $\Omega'$ be the set of $(g, x) \in \Omega \cap (G' \times X')$ such that $\psi(g, x) \in X'$. Then $\Omega'$ is open in $G \times X'$ and $X'$, $\Omega'$ have the properties of the proposition.*
 
-#### Lemma 3 {#lie-iii-s1-lem-3 .statement}
+#### Lemma 3 {#lie-iii-s1-lem-3 .statement tag=0A8M}
 
 *Let $X$ be a normal space and $(X_i)_{i \in I}$ a locally finite open covering of $X$. For all $(i, j) \in I \times I$ and all $x \in X_i \cap X_j$, let $V_{ij}(x)$ be a neighbourhood of $x$ contained in $X_i \cap X_j$. Then we can associate with every $x \in X$ a neighbourhood $V(x)$ of $x$ such that the following conditions are fulfilled:
 (a) the relation $x \in X_i \cap X_j$ implies $V(x) \subset V_{ij}(x)$;
@@ -848,7 +848,7 @@ is a neighbourhood of $x$. If $x \in X_i \cap X_j$, then $V_1(x) \subset X_i \ca
 
 § 2.1
 
-#### Proposition 24 {#lie-iii-s1-prop-24 .statement}
+#### Proposition 24 {#lie-iii-s1-prop-24 .statement tag=0A8N}
 
 Let G be a Lie group germ, X a manifold of class C^r and (X_i)_{i \in I} a locally finite open covering of X. For all i \in I, let $\psi_i$ be a law chunk of left operation of class C^r of G on X_i. Suppose that the underlying topological space of X is normal and that, for all (i, j) \in I \times I and all x \in X_i \cap X_j, $\psi_i$ and $\psi_j$ coincide on a neighbourhood of (e, x). There exists a law chunk $\psi$ of left operation of class C^r of G on X such that, for all i \in I and all x \in X_i, $\psi_i$ and $\psi$ coincide on a neighbourhood of (e, x).
 

@@ -29,9 +29,9 @@ subsections:
       pdf_page: 84
 statements: 17
 exercises: 4
-content_sha256: 90bc2ae156a1e426cec89446d283fc262200dcbeb9b724014bb29ab10074753c
+content_sha256: 55677e972520164af171bc1870a1f3d53b9eddee4f628ab5fbf24a5719661b11
 translated_from: content/en/int/III/03_s3_integrals_of_continuous_vector_valued.md
-source_content_sha256: b66320a56aff4c02286ce8fafb4d825f43e0c1a2c4513a808a564a314da65e7d
+source_content_sha256: fe78ffc7611951df252f5590889a4a16218a67a71377a0b79b5c7914e9bc3371
 translation_model: gpt-5.4
 translation_run: translate-vi-f3da66a2
 glossary_version: 34
@@ -61,7 +61,7 @@ $$
 
 Hiển nhiên $\varphi$ là một dạng tuyến tính trên $E'$, do đó là *một phần tử của ${E'}^*$*.
 
-#### Định nghĩa 1 {#int-iii-s3-def-1 .statement}
+#### Định nghĩa 1 {#int-iii-s3-def-1 .statement tag=08NN}
 
 *Với mọi hàm $f \in \widetilde{\mathscr{K}}(X;E)$, ta gọi là tích phân của $f$ đối với $\mu$, và ký hiệu bởi $\int f d\mu$ hoặc $\int f(x) d\mu(x)$, hoặc $\int f \mu$, hoặc $\int f(x)\mu(x)$, phần tử của ${E'}^*$ được xác định bởi*
 
@@ -71,7 +71,7 @@ $$
 
 Ta lưu ý rằng ngay cả khi $E$ là *Hausdorff* và $f \in \mathscr{K}(X;E)$, *không nhất thiết có* $\int f d\mu \in E$ (Bài tập 1; xem No. 3).
 
-#### Ví dụ {#int-iii-s3-n1-exa-1 .statement}
+#### Ví dụ {#int-iii-s3-n1-exa-1 .statement tag=08NO}
 
 — 1) Giả sử rằng $E$ là *hữu hạn chiều* trên $\mathbf{C}$ và Hausdorff, để nếu $(e_i)_{1 \leq i \leq n}$ là một cơ sở của $E$ thì ánh xạ
 
@@ -107,17 +107,17 @@ $$
 
 vì theo định nghĩa $\int \langle f, z' \rangle d\varepsilon_y = \langle f(y), z' \rangle$.
 
-#### Nhận xét 1 {#int-iii-s3-n1-rem-1 .statement}
+#### Nhận xét 1 {#int-iii-s3-n1-rem-1 .statement tag=08NP}
 
 Nếu $E$ là một không gian lồi địa phương và $N$ là bao đóng của $\{0\}$ trong $E$, để $E_1 = E/N$ là không gian lồi địa phương Hausdorff liên kết với $E$, thì ta biết rằng các đối ngẫu $E'$ và $E'_1$ là đồng nhất; để một hàm $f$ thuộc $\widetilde{\mathscr{K}}(X; E)$, điều kiện cần và đủ là $f_1 = \pi \circ f$ (trong đó $\pi : E \to E_1$ là đồng cấu chính tắc) thuộc $\widetilde{\mathscr{K}}(X; E_1)$, và trong trường hợp đó $\int f d\mu = \int f_1 d\mu$. Do đó ta có thể chỉ giới hạn ở việc xét các không gian lồi địa phương *Hausdorff*.
 
-#### Nhận xét 2 {#int-iii-s3-n1-rem-2 .statement}
+#### Nhận xét 2 {#int-iii-s3-n1-rem-2 .statement tag=08NQ}
 
 Cho $E$ là một không gian lồi địa phương *trên* $\mathbf{C}$, và gọi $E_0$ là không gian lồi địa phương *trên* $\mathbf{R}$ nằm dưới $E$; ta biết rằng ánh xạ $z' \mapsto \Re z'$ mà với mọi dạng tuyến tính liên tục (phức) $z'$ trên $E$, tương ứng dạng tuyến tính liên tục (thực) $z \mapsto \Re \langle z, z' \rangle$ trên $E_0$, là một $\mathbf{R}$-đẳng cấu của đối ngẫu $E'$ lên đối ngẫu $E'_0$ của $E_0$ (TVS, II, §8, No. 1). Tương tự, đối ngẫu đại số $E'_0*$ của không gian vectơ thực $E'_0$ có thể được đồng nhất một cách chính tắc với không gian thực nằm dưới đối ngẫu đại số $E'*$ của $E'$. Suy ra rằng nếu $\mu$ là một *độ đo thực* và $f$ là một ánh xạ trong $\widetilde{\mathscr{K}}(X; E)$, thì công thức (1) vẫn còn đúng khi coi $f$ như nhận giá trị trong $E_0$ và các dạng song tuyến tính chính tắc xuất hiện trong hai vế lần lượt là tương đối với đối ngẫu giữa $E'_0$ và $E'_0*$ đối với vế thứ nhất và đối ngẫu giữa $E_0$ và $E'_0$ đối với vế thứ hai.
 
 ### 2. Các tính chất của tích phân vectơ
 
-#### Mệnh đề 1 {#int-iii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#int-iii-s3-prop-1 .statement tag=08NR}
 
 — *Ánh xạ*
 
@@ -131,7 +131,7 @@ Mệnh đề được suy ra ngay lập tức từ Định nghĩa 1 của No. 1.
 
 Cho $u$ là một ánh xạ tuyến tính liên tục từ $E$ vào một không gian lồi địa phương $F$; ta biết rằng chuyển vị $^t u$ là một ánh xạ tuyến tính từ đối ngẫu $F'$ của $F$ vào đối ngẫu $E'$ của $E$; ta sẽ ký hiệu bởi $^{tt} u$ ánh xạ ${E'}^* \to {F'}^*$, chuyển vị của $^t u$ (theo nghĩa đại số); khi $E$ và $F$ là Hausdorff và được đồng nhất một cách chính tắc với các không gian con của ${E'}^*$ và ${F'}^*$ tương ứng, thì $^{tt} u$ mở rộng ánh xạ $u$. Với các ký hiệu này:
 
-#### Mệnh đề 2 {#int-iii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#int-iii-s3-prop-2 .statement tag=08NS}
 
 — Cho $u$ là một ánh xạ tuyến tính liên tục từ $E$ vào một không gian lồi địa phương $F$; với mọi hàm $f \in \widetilde{\mathscr{K}}(X;E)$, hàm $u \circ f$ thuộc $\widetilde{\mathscr{K}}(X;F)$ và
 
@@ -148,7 +148,7 @@ $$
 
 do đó có công thức (2).
 
-#### Mệnh đề 3 {#int-iii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#int-iii-s3-prop-3 .statement tag=08NT}
 
 — Với mọi hàm $g \in \mathscr{C}(X;\mathbf{C})$ và mọi hàm $f \in \widetilde{\mathscr{K}}(X;E)$, hàm $gf$ thuộc $\widetilde{\mathscr{K}}(X;E)$ và
 
@@ -165,7 +165,7 @@ $$
 
 do đó có (3).
 
-#### Mệnh đề 4 {#int-iii-s3-prop-4 .statement}
+#### Mệnh đề 4 {#int-iii-s3-prop-4 .statement tag=08NU}
 
 — Cho $\mu$ là một độ đo dương trên $X$, $S$ là giá của nó, và $f$ là một hàm trong $\widetilde{\mathscr{K}}(X;E)$. Giả sử $E$ là Hausdorff, và trang bị cho không gian ${E'}^*$ tôpô yếu $\sigma({E'}^*, E')$.
 
@@ -197,7 +197,7 @@ $$
 
 nhưng điều này suy ra từ §2, No. 3, Hệ quả 3 của Mệnh đề 8.
 
-#### Hệ quả {#int-iii-s3-n2-cor-1 .statement}
+#### Hệ quả {#int-iii-s3-n2-cor-1 .statement tag=08NV}
 
 *Cho* $\mu$ *là một độ đo dương trên* X, $f$ *là một ánh xạ thuộc* $\mathscr{K}(X;E)$, *và* D *là bao lồi đóng của* f(X) *trong* E'**. *Tồn tại một số* $a > 0$ *sao cho* $\int f\, d\mu \in a \cdot D$.
 
@@ -205,13 +205,13 @@ nhưng điều này suy ra từ §2, No. 3, Hệ quả 3 của Mệnh đề 8.
 
 Trước hết giả sử $\mu$ là dương; theo giả thiết, giá K của f là compact; nếu $\nu$ là hạn chế của $\mu$ lên một lân cận mở tương đối compact của K, thì $\nu$ bị chặn và $\int f\, d\mu = \int f\, d\nu \in \| \nu \| \cdot D$ theo Mệnh đề 4, (ii). Kết quả thứ hai suy ra từ đó, vì mọi độ đo phức đều có thể viết dưới dạng $\mu_1 - \mu_2 + i \mu_3 - i \mu_4$, trong đó các $\mu_j$ là dương.
 
-#### Mệnh đề 5 {#int-iii-s3-prop-5 .statement}
+#### Mệnh đề 5 {#int-iii-s3-prop-5 .statement tag=08NW}
 
 *Giả sử rằng không gian* X *là compact, và cho* f *là một ánh xạ liên tục từ* X *vào một không gian lồi địa phương Hausdorff* E. *Bao lồi đóng của* f(X) *trong* E'** *(đối với* $\sigma(E', E')$) *bằng tập hợp các vectơ* $\int f\, d\mu$ *ứng với mọi độ đo dương* $\mu$ *trên* X *có tổng khối lượng* 1.
 
 Cho C là bao lồi đóng của $f(X)$ trong $E'**$; vì $f(X)$ là compact và $E'**$ là *đầy đủ*, C là compact. Ta đã biết (Mệnh đề 4) rằng $\int f d\mu \in C$ với mọi độ đo $\mu$ thuộc tập lồi H gồm các độ đo dương trên $X$ có tổng khối lượng bằng 1. Mặt khác, H là lồi và *compact* đối với tôpô mờ (§ 1, No. 9, Hệ quả 3 của Mệnh đề 15) và là bao đóng (đối với tôpô này) của tập lồi $H_0$ gồm các độ đo dương có khối lượng 1 và giá hữu hạn (§ 2, No. 4, Hệ quả 3 của Định lý 1). Khi đó, ảnh của $H_0$ dưới ánh xạ $\mu \mapsto \int f d\mu$ là bao lồi $C_0$ của $f(X)$ trong ${E'}^*$. Mặt khác, ánh xạ này liên tục đối với tôpô mờ trên $\mathscr{M}(X; C)$ và tôpô $\sigma({E'}^*, E')$ trên ${E'}^*$ vì $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ theo định nghĩa; do đó ảnh của $H = \overline{H_0}$ là một tập lồi *compact* chứa $C_0$ và được chứa trong $C$; vì $C = \overline{C_0}$, ảnh này bằng $C$.
 
-#### Mệnh đề 6 {#int-iii-s3-prop-6 .statement}
+#### Mệnh đề 6 {#int-iii-s3-prop-6 .statement tag=08NX}
 
 *Với mọi ánh xạ liên tục có giá compact $f$ từ $X$ vào một không gian lồi địa phương Hausdorff $E$, mọi nửa chuẩn liên tục $q$ trên $E$ và mọi độ đo $\mu$ trên $X$ sao cho $\int f d\mu \in E$,*
 
@@ -241,19 +241,19 @@ với mọi $x \in X$, bất đẳng thức cần chứng minh suy ra từ bất
 
 ### 3. Các tiêu chuẩn để tích phân thuộc $E$
 
-#### Mệnh đề 7 {#int-iii-s3-prop-7 .statement}
+#### Mệnh đề 7 {#int-iii-s3-prop-7 .statement tag=08NY}
 
 *Cho $E$ là một không gian lồi địa phương Hausdorff, và $f \in \mathscr{K}(X; E)$. Nếu $f(X)$ được chứa trong một tập con lồi đầy đủ $A$ của $E$, thì $\int f d\mu \in E$.*
 
 Cho K là giá của f, tập này compact theo giả thiết. Vì f bằng không trên X − K, $f(X)$ bằng $f(K)$ hoặc $f(K) \cup \{0\}$, do đó là compact vì f liên tục và E là Hausdorff; khi đó bao lồi đóng C của $f(X)$ trong E là tiền compact (đối với cấu trúc đều do cấu trúc đều của E cảm sinh) (TVS, II, §4, No. 1, Mệnh đề 3). Nhưng vì C là một tập con đóng của không gian đầy đủ A, C là đầy đủ và do đó compact; a fortiori, C là compact đối với tôpô yếu đi σ(E, E′); nhưng vì tôpô đó được cảm sinh bởi σ(E′*, E′), C là bao lồi đóng của $f(X)$ trong E′* đối với tôpô σ(E′*, E′); vì vậy chứng minh được kết thúc nhờ Hệ quả của Mệnh đề 4 ở No. 2.
 
-#### Hệ quả 1 {#int-iii-s3-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#int-iii-s3-prop-7-cor-1 .statement tag=08NZ}
 
 — Cho E là một không gian lồi địa phương Hausdorff; với mọi hàm f ∈ $\mathscr{K}(X; E)$, $\int f d\mu$ thuộc hoàn thành $\widehat{E}$ của E.
 
 Vì các đối ngẫu của E và $\widehat{E}$ là đồng nhất, chỉ cần áp dụng Mệnh đề 7 khi xem f như nhận giá trị trong $\widehat{E}$.
 
-#### Hệ quả 2 {#int-iii-s3-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#int-iii-s3-prop-7-cor-2 .statement tag=08O0}
 
 — Nếu E là một không gian lồi địa phương Hausdorff quasi-đầy đủ, thì $\int f d\mu \in E$ với mọi hàm f ∈ $\mathscr{K}(X; E)$.
 
@@ -274,7 +274,7 @@ $$
 
 ### 4. Các tính chất liên tục của tích phân
 
-#### Mệnh đề 8 {#int-iii-s3-prop-8 .statement}
+#### Mệnh đề 8 {#int-iii-s3-prop-8 .statement tag=08O1}
 
 — Giả sử E là Hausdorff; gọi $\mu$ là một độ đo trên X. Ánh xạ $f \mapsto \int f d\mu$ từ $\mathscr{K}(X;E)$ vào $\widehat{E}$ (No. 3, Hệ quả 1 của Mệnh đề 7) là ánh xạ tuyến tính liên tục duy nhất $\Phi$ sao cho $\Phi(g \cdot a) = \mu(g) \cdot a$ với mọi vectơ $a \in E$ và mọi hàm $g \in \mathscr{K}(X;\mathbf{C})$.
 
@@ -298,7 +298,7 @@ $$
 
 do No. 1, Ví dụ 1 và Mệnh đề 2 của No. 2 áp dụng cho đơn ánh chính tắc $\mathbf{C} \cdot a \to E$. Hơn nữa, không gian con của $\mathscr{K}(X;E)$ tạo thành bởi các tổ hợp tuyến tính $\sum_i g_i \cdot a_i$, trong đó $a_i \in E$ và $g_i \in \mathscr{K}(X;\mathbf{C})$, là trù mật trong $\mathscr{K}(X;E)$ (§1, No. 2, Mệnh đề 5), điều này hoàn tất chứng minh.
 
-#### Mệnh đề 9 {#int-iii-s3-prop-9 .statement}
+#### Mệnh đề 9 {#int-iii-s3-prop-9 .statement tag=08O2}
 
 — Giả sử E là Hausdorff; gọi $f$ là một ánh xạ liên tục từ X vào E có giá compắc. Khi không gian $\mathscr{M}(X;\mathbf{C})$ được trang bị tôpô hội tụ compắc chặt (§1, No. 10), ánh xạ $\mu \mapsto \int f d\mu$ từ $\mathscr{M}(X;\mathbf{C})$ vào $\widehat{E}$ là ánh xạ tuyến tính liên tục duy nhất $\Psi$ sao cho $\Psi(\varepsilon_x) = f(x)$ với mọi $x \in X$.
 
@@ -310,7 +310,7 @@ $$
 
 do đó $\int f\, d\varepsilon_x = f(x)$. Hơn nữa, ta biết rằng tập hợp các độ đo điểm là toàn phần trong $\mathscr{M}(X; \mathbf{C})$ đối với tôpô hội tụ chặt-compact (§ 2, No. 4, Hệ quả 4 của Định lý 1). Vì vậy, tất cả quy về việc chứng minh tính liên tục của ánh xạ tuyến tính $u : \mu \mapsto \int f\, d\mu$. Để làm điều đó, xét ánh xạ tuyến tính $v : z' \mapsto \langle f, z' \rangle$ từ $E'$ vào $\mathscr{K}(X; \mathbf{C})$, và ta sẽ chỉ ra rằng ảnh qua $v$ của một tập con đồng liên tục $H$ của $E'$ được chứa trong một tập con chặt-compact của $\mathscr{K}(X; \mathbf{C})$. Thật vậy, nếu $K$ là giá của $f$, thì các hàm $\langle f, z' \rangle$ với $z' \in H$ có giá được chứa trong $K$; mặt khác, các hàm này tạo thành một tập đồng liên tục, và với mỗi $x \in X$ thì tập hợp các $z'(f(x))$ là bị chặn; do đó mệnh đề của chúng ta suy ra từ định lý Ascoli (GT, X, § 2, No. 5, Hệ quả 3 của Định lý 2). Bây giờ, từ công thức (1) của No. 1 suy ra rằng $u$ không là gì khác hơn hạn chế của chuyển vị $^t v$ lên $\mathscr{M}(X; \mathbf{C})$ (theo nghĩa đại số); vì vậy tính liên tục của nó suy ra từ điều nói trên (TVS, IV, § 1, No. 3, Mệnh đề 6).
 
-#### Hệ quả {#int-iii-s3-n4-cor-1 .statement}
+#### Hệ quả {#int-iii-s3-n4-cor-1 .statement tag=08O3}
 
 — *Với các giả thiết và ký hiệu như trong Mệnh đề 9, hạn chế của ánh xạ* $\mu \mapsto \int f\, d\mu$ *trên tập* $\mathscr{M}_+(X)$ *các độ đo dương, hoặc trên một tập con B bị chặn mơ hồ của* $\mathscr{M}(X; \mathbf{C})$, *là liên tục mơ hồ.*
 

@@ -34,7 +34,7 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: b6197df9a8aa019ce7bbd53439ae89b52be171c24e2b80a5ca96af38b9e1b237
+content_sha256: b07b7ce28c5ec4cebf51e51a369145ff5f0d99cab971bd69c71b3b417b968e57
 ---
 
 ## 4. NATURAL INTEGERS. FINITE SETS
@@ -133,7 +133,7 @@ $$(n \text{ is an integer and } R\{n\}) \Rightarrow R\{n+1\}.$$
 
 For this purpose the method of the auxiliary hypothesis (Chapter I, § 3, no. 3) is commonly used, and it is for this reason that the relation "$n$ is an integer and $R\{n\}$" (or even $R\{n\}$) is called the *inductive hypothesis*.
 
-#### Remark {#ens-iii-s4-n3-rem-1 .statement}
+#### Remark {#ens-iii-s4-n3-rem-1 .statement tag=077T}
 
 There are various criteria which are frequently used under the name of "principle of induction". They can all be easily deduced from C61, and we indicate here the most important of them :
 

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: aa61614446311d96600cef595ab56decefe1c2648476408f316396c7dd1c3f0f
+content_sha256: e688fc60b2968e10aff47394f903b707995bb242a8f06bd405a6ffd1841b6e15
 translated_from: content/en-mt/alg/IX/05_s5_proprietes_speciales_aux_formes.md
 source_lang: en-mt
 translation_method: machine
@@ -40,7 +40,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Quy giản các dạng song tuyến tính phản xứng.
 
-#### Định lý 1 {#alg-ix-s5-thm-1 .statement}
+#### Định lý 1 {#alg-ix-s5-thm-1 .statement tag=0DL3}
 
 Cho $A$ là một vành chính (giao hoán), $E$ là một $A$-môđun tự do có số chiều hữu hạn $n$ và $\Phi$ là một dạng song tuyến tính phản xứng trên $E$. Khi đó tồn tại một cơ sở $(e_i)_{1 \leq i \leq n}$ của $E$ và một số nguyên chẵn $2r \leq n$, sao cho
 
@@ -72,7 +72,7 @@ $$
 
 Nhưng ta biết (*loc. cit.*) rằng ảnh của $f(E)$ bởi mọi dạng tuyến tính trên $E^*$ đều được chứa trong iđêan $A\alpha_1$, nói cách khác mọi giá trị $\Phi(x, y) = \langle x, f(y) \rangle$ đều thuộc $A\alpha_1$; do đó có sự tồn tại và tính duy nhất của $\xi_1$ và $\xi_2$. Vậy $P^0$ là một môđun tự do hạng $n-2$; do đó tồn tại, trong $P^0$, theo giả thiết quy nạp, một cơ sở $(e_3, e_4, \ldots, e_n)$ thỏa mãn các điều kiện của mệnh đề. Để chứng minh rằng cơ sở $(e_1, \ldots, e_n)$ của $E$ thu được như vậy cũng thỏa mãn các điều kiện này, chỉ cần chứng minh rằng $\alpha_1$ chia $\alpha_2$; mà điều này suy ra từ việc mọi giá trị $\Phi(x, y)$ đều là bội của $\alpha_1$. Khi đó rõ ràng là $e_{2r+1}, \ldots, e_n$ sinh $E^0$. Sau cùng, nếu $(e'_i)$ là cơ sở đối ngẫu của $(e_i)$, ta có $f(e_{2j-1}) = -\alpha_j e'_{2j}$ và $f(e_{2j}) = \alpha_j e'_{2j}$ với $j = 1, \ldots, r$ và $f(e_k) = 0$ với $k = 2r+1, \ldots, n$; do đó các iđêan $A\alpha_1, A\alpha_1, A\alpha_2, A\alpha_2, \ldots, A\alpha_r, A\alpha_r$ là các nhân tử bất biến của $f(E)$ đối với $E^*$, điều này chứng minh tính duy nhất của chúng (Chương VII, $§ 4$, No. 2, Định lý 1).
 
-#### Hệ quả 1 {#alg-ix-s5-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-ix-s5-thm-1-cor-1 .statement tag=0DL4}
 
 *Cho $A$ là một trường giao hoán, $E$ là một không gian vectơ hữu hạn chiều chiều $n$ trên $A$, và $\Phi$ là một dạng song tuyến tính phản xứng trên E. Khi đó tồn tại một cơ sở $(e_i)_{1 \leq i \leq n}$ của E và một số nguyên chẵn $2r \leq n$ sao cho
 
@@ -84,11 +84,11 @@ $$
 
 Một cơ sở thỏa mãn (2) được gọi là một cơ sở symplectic của $\Phi$.
 
-#### Nhận xét {#alg-ix-s5-n1-rem-1 .statement}
+#### Nhận xét {#alg-ix-s5-n1-rem-1 .statement tag=0DL5}
 
 Cần chú ý rằng hệ quả này cũng là một hệ quả ngay lập tức của Mệnh đề 3 của § 4, No. 2 và của Hệ quả 1 của nó, bởi vì với ký hiệu của mệnh đề này, tất yếu có $H = \{0\}$ vì $\Phi$ là phản xứng.
 
-#### Hệ quả 2 {#alg-ix-s5-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-ix-s5-thm-1-cor-2 .statement tag=0DL6}
 
 Cho A là một trường giao hoán, E là một không gian vectơ hữu hạn chiều chiều n trên A. Với mọi bivectơ $z \in \bigwedge^2 E$, tồn tại một cơ sở $(e_i)_{1 \leq i \leq n}$ của E sao cho
 
@@ -100,7 +100,7 @@ Thật vậy, chỉ cần chú ý rằng z đồng nhất một cách chính t�
 
 Bằng cách dịch Hệ quả 1 sang ngôn ngữ ma trận, ta thu được:
 
-#### Hệ quả 3 {#alg-ix-s5-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-ix-s5-thm-1-cor-3 .statement tag=0DL7}
 
 Cho $A$ là một trường giao hoán, $R$ là một ma trận vuông phản xứng trên $A$. Hạng của $R$ là một số chẵn $2r$, và tồn tại một ma trận khả nghịch $P$ trên $A$ sao cho
 
@@ -112,7 +112,7 @@ $$
 \end{pmatrix}.
 $$
 
-#### Nhận xét {#alg-ix-s5-n1-rem-2 .statement}
+#### Nhận xét {#alg-ix-s5-n1-rem-2 .statement tag=0DL8}
 
 Nếu $A$ là một vành giao hoán bất kỳ và $R$ là một ma trận vuông phản xứng cấp lẻ n trên $A$, ta có det $R = 0$. Điều này suy ra từ Hệ quả 3 khi $A$ là một trường. Một chứng minh trực tiếp trong trường hợp $A$ là một trường có đặc số $\neq 2$ như sau: vì ${}^tR = -R$, ta có det $R = \det {}^tR = (-1)^n \det R$, do đó $2 \det {}^tR = 0$. Bây giờ, vì định thức của một ma trận phản xứng $(\alpha_{ij})$ là một đa thức với hệ số nguyên theo các $\alpha_{ij}$ sao cho $i < j$, nguyên lý mở rộng các đồng nhất thức đại số (Chương IV, § 2, No. 5, Chú giải) cho thấy khi đó mệnh đề của chúng ta đúng đối với một vành giao hoán tùy ý $A$.
 
@@ -140,11 +140,11 @@ Do đó ta có
 
 (6) $\bigwedge^m u = m! \mathrm{P}((\alpha_{hk})) . e.$
 
-#### Định nghĩa 1 {#alg-ix-s5-def-1 .statement}
+#### Định nghĩa 1 {#alg-ix-s5-def-1 .statement tag=0DL9}
 
 Cho một ma trận phản xứng $R = (\alpha_{ij})$ $(i, j = 1, \ldots, 2m)$ cấp chẵn $2m$ trên một vành giao hoán tùy ý $A$, pfaffian của $R$, ký hiệu là $\mathrm{Pf}(R)$, là phần tử $\mathrm{P}((\alpha_{hk}))$ của $A$, trong đó $1 \leq h < k \leq 2m$.
 
-#### Ví dụ {#alg-ix-s5-n2-exa-1 .statement}
+#### Ví dụ {#alg-ix-s5-n2-exa-1 .statement tag=0DLA}
 
 Giả sử:
 
@@ -152,7 +152,7 @@ $\alpha_{12} = -\alpha_{21} = \beta_1, \alpha_{34} = -\alpha_{43} = \beta_2, \ld
 
 tất cả các $\alpha_{ij}$ khác đều bằng không (x. đl. 1). Khi đó pfaffian của $R = (\alpha_{ij})$ là $\beta_1 \beta_2 \ldots \beta_m$.
 
-#### Mệnh đề 1 {#alg-ix-s5-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ix-s5-prop-1 .statement tag=0DLB}
 
 Cho $R$ là một ma trận phản xứng cấp chẵn $2m$ trên một vành giao hoán $A$, và cho $P$ là một ma trận bình phương cấp $2m$ trên $A$. Ta có
 
@@ -164,7 +164,7 @@ $$ u = \sum_{i < j} \alpha_{ij} e_i \wedge e_j = \frac{1}{2} \sum_{1 \leq i, j \
 
 của $\bigwedge^2 \mathbf{A}^{2m}$, trong đó $(e_i)$ ký hiệu cơ sở chính tắc của $\mathbf{A}^{2m}$; coi ${}^t P$ là ma trận, đối với cơ sở $(e_i)$, của một tự đồng cấu $f$ của $\mathbf{A}^{2m}$. Khi đó bivectơ $(\bigwedge f)(u)$ liên kết với ma trận ${}^t P . R . P$ vì nó bằng $\frac{1}{2} \sum_{i, j, s, t} \beta_{is} \alpha_{ij} \beta_{jt} e_s \wedge e_t$. Vì phép mở rộng $\bigwedge f$ của $f$ lên đại số ngoài $\bigwedge \mathbf{A}^{2m}$ là một tự đồng cấu của đại số này (ch. III, § 5, số 9), ta có $\bigwedge ((\bigwedge f)(u)) = (\bigwedge f)(\bigwedge u)$; vì $\bigwedge f$ là phép vị tự với tỉ số $\det f$, do đó suy ra từ (6) và đn. 1 rằng ta có $m! \mathrm{Pf}({}^t P . R . P) = m! (\det P) \mathrm{Pf}(R)$, do đó có (7) trong trường hợp đang xét. Trường hợp tổng quát suy ra bằng cách nhận thấy rằng hai vế của (7) là những đa thức với hệ số nguyên theo các phần tử của các ma trận $R$ và $P$ (ch. IV, § 2, số 5, Chú giải).
 
-#### Mệnh đề 2 {#alg-ix-s5-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ix-s5-prop-2 .statement tag=0DLC}
 
 Với mọi ma trận phản xứng $R$ cấp chẵn $2m$ trên một vành giao hoán $A$, ta có
 $$
@@ -193,7 +193,7 @@ $$
 
 Ngược lại, nếu một ma trận bình phương $A$ cấp $2m$ trên $A$ thỏa mãn (9), thì nó là symplectic: quả thật chỉ cần chứng minh rằng nó khả nghịch; mà (9) kéo theo $\mathrm{Pf}(R_m) = \mathrm{Pf}({}^tA . R_m . A) = (\det A) \mathrm{Pf}(R_m)$ theo mệnh đề 1 của No. 2, do đó $\det A = 1$. Đồng thời ta đã chứng minh mệnh đề sau:
 
-#### Mệnh đề 3 {#alg-ix-s5-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ix-s5-prop-3 .statement tag=0DLD}
 
 *Định thức của một ma trận symplectic bằng 1.*
 

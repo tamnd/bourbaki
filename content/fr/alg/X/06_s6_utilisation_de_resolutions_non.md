@@ -45,7 +45,7 @@ subsections:
       pdf_page: 117
 statements: 30
 exercises: 29
-content_sha256: f2824ea7a326afeeb795cba28326778ff310ae6be0985b203c746f3eead38fee
+content_sha256: d6e1b7f140cc4e2e29f4ef354ecba5aa63fec35da0cf02d13f958f6787b587c3
 ---
 
 ## § 6. UTILISATION DE RÉSOLUTIONS NON CANONIQUES
@@ -78,7 +78,7 @@ indépendants des choix de $\alpha, \beta, \gamma$.
 
 Par exemple, prenant pour $a, b, c$ les applications identiques de $M, P, N$ respectivement, on trouve les homomorphismes $\psi(P, M) : \mathrm{Tor}^A(P, M) \to P \otimes_A M$ et $\varphi(M, N) : \mathrm{Hom}_A(M, N) \to \mathrm{Ext}_A(M, N)$ introduits en $X$, p. 68, remarque 2) et $X$, p. 87, remarque 2).
 
-#### Théorème 1 {#alg-x-s6-thm-1 .statement}
+#### Théorème 1 {#alg-x-s6-thm-1 .statement tag=0DXT}
 
 a) Si l’une des résolutions $R$ ou $S$ est plate, alors $\psi(S, R)$ est un isomorphisme de $k$-modules gradués.
 
@@ -94,7 +94,7 @@ Comme $L(P)$ (resp. $\mathbf R$) est plat et $\alpha$ (resp. $\beta$) est un hom
 
 b) On raisonne de même, en utilisant la prop. 4 de X, p. 86.
 
-#### Corollaire {#alg-x-s6-n1-cor-1 .statement}
+#### Corollaire {#alg-x-s6-n1-cor-1 .statement tag=0DXU}
 
 Si $R$ est une résolution plate de $M$, l’homomorphisme
 
@@ -116,7 +116,7 @@ $$
 
 est bijectif.
 
-#### Remarque {#alg-x-s6-n1-rem-1 .statement}
+#### Remarque {#alg-x-s6-n1-rem-1 .statement tag=0DXV}
 
 Le diagramme de $k$-modules
 
@@ -167,7 +167,7 @@ $$
 
 dont on vérifie comme ci-dessus qu'ils sont indépendants du choix de $\alpha_1, \beta_1, \gamma_1$.
 
-#### Proposition 1 {#alg-x-s6-prop-1 .statement}
+#### Proposition 1 {#alg-x-s6-prop-1 .statement tag=0DXW}
 
 *Si* $a_1, b_1, c_1$ *sont des homologismes,* $\psi'(S_1, R_1)$ *et* $\varphi'(R_1, E_1)$ *sont les bijections réciproques des bijections* $\psi(S_1, R_1)$ *et* $\varphi(R_1, E_1)$ *respectivement.*
 
@@ -179,7 +179,7 @@ $$
 
 de même $\psi'(S_1, R_1) \circ \psi(S_1, R_1) = 1$. On raisonne de manière analogue pour les applications $\varphi$ et $\varphi'$.
 
-#### Exemple 1 {#alg-x-s6-n1-exa-1 .statement}
+#### Exemple 1 {#alg-x-s6-n1-exa-1 .statement tag=0DXX}
 
 Soit $a$ un élément de $A$ tel que l'application $\varphi : x \mapsto xa$ de $A$ dans lui-même soit injective (*«* $a$ n'est pas diviseur de zéro à droite *»*). En utilisant la résolution
 
@@ -203,7 +203,7 @@ $$
 
 et le $k$-module $\operatorname{Ext}_A^1 (A/Aa, M)$ est isomorphe à $M/aM$.
 
-#### Exemple 2 {#alg-x-s6-n1-exa-2 .statement}
+#### Exemple 2 {#alg-x-s6-n1-exa-2 .statement tag=0DXY}
 
 Supposons $A$ intègre ; soient $K$ le corps des fractions de $A$ et $M$ un $A$-module. En utilisant la résolution plate
 
@@ -213,7 +213,7 @@ $$
 
 (X, p. 9, *exemple* 5), on voit que $\operatorname{Tor}_i^A (K/A, M) = 0$ pour $i > 1$; de plus, compte tenu de II, p. 116, prop. 26, (ii), le $A$-module $\operatorname{Tor}_1^A (K, A, M)$ est isomorphe au sous-module de torsion de $M$.
 
-#### Exemple 3 {#alg-x-s6-n1-exa-3 .statement}
+#### Exemple 3 {#alg-x-s6-n1-exa-3 .statement tag=0DXZ}
 
 Supposons que $A$ soit un anneau local noethérien, notons $m$ son idéal maximal, et posons $\kappa = A/m$. Soient $M$ un $A$-module de type fini et $P$ une résolution projective minimale de $M$ (X, p. 54). Pour tout $n \geqslant 0$, les $\kappa$-espaces vectoriels $\mathrm{Tor}_n^A(\kappa, M)$ et $\mathrm{Ext}_A^n(M, \kappa)$ sont de dimension finie, égale au rang du $A$-module libre $P_n$; en effet, les complexes $\kappa \otimes_A P$ et $\mathrm{Homgr}_A(P, \kappa)$ sont à différentielle nulle.
 
@@ -225,7 +225,7 @@ $$
 a' \circ \tilde{f} = f \circ a, \quad b' \circ \tilde{g} = g \circ b, \quad \tilde{h} \circ c' = c \circ h .
 $$
 
-#### Proposition 2 {#alg-x-s6-prop-2 .statement}
+#### Proposition 2 {#alg-x-s6-prop-2 .statement tag=0DY0}
 
 *Les deux diagrammes suivants sont commutatifs* :
 
@@ -274,7 +274,7 @@ $$
 
 On raisonne de manière analogue pour le second diagramme.
 
-#### Remarque {#alg-x-s6-n2-rem-1 .statement}
+#### Remarque {#alg-x-s6-n2-rem-1 .statement tag=0DY1}
 
 Considérons de même des diagrammes commutatifs de morphismes de complexes
 
@@ -328,7 +328,7 @@ $$
 
 où la première ligne (1) est une suite exacte de complexes de A-modules à gauche, la seconde ligne (2) est une suite exacte de A-modules à gauche et où les flèches verticales sont des résolutions gauches.
 
-#### Proposition 3 {#alg-x-s6-prop-3 .statement}
+#### Proposition 3 {#alg-x-s6-prop-3 .statement tag=0DY2}
 
 a) Soient $P$ un A-module, $b : S \to P$ une résolution gauche de $P$; supposons que la suite de complexes de k-modules
 
@@ -412,11 +412,11 @@ $$
 
 de même, $\psi(S, R') = H(\beta \otimes 1) ◦ H(1 \otimes a')^{-1} ◦ \psi_p(M')$, et l’assertion cherchée $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ résulte de la commutativité du diagramme précédent.
 
-#### Remarque 1 {#alg-x-s6-n3-rem-1 .statement}
+#### Remarque 1 {#alg-x-s6-n3-rem-1 .statement tag=0DY3}
 
 Utilisant les isomorphismes de commutation, on déduit de a) l’énoncé analogue obtenu en échangeant les rôles des deux arguments du produit tensoriel.
 
-#### Remarque 2 {#alg-x-s6-n3-rem-2 .statement}
+#### Remarque 2 {#alg-x-s6-n3-rem-2 .statement tag=0DY4}
 
 Avec les notations de a), supposons soit S plat, soit R, R', R'' plats ; alors d’une part la suite (3) est exacte (X, p. 72, cor. 2) et on peut appliquer la prop. 3 ; d’autre part $\psi(S, R')$ est bijectif (th. 1), donc
 
@@ -424,7 +424,7 @@ $$
 \partial(P, (2)) = \psi(S, R')^{-1} ◦ \partial((3)) ◦ \psi(S, R'').
 $$
 
-#### Remarque 3 {#alg-x-s6-n3-rem-3 .statement}
+#### Remarque 3 {#alg-x-s6-n3-rem-3 .statement tag=0DY5}
 
 Avec les notations de b), supposons soit E injectif, soit R, R', R'' projectifs ; alors d’une part la suite (4) est exacte (X, p. 83, prop. 2) et on peut appliquer la prop. 3 ; d’autre part, $\varphi(R', E)$ est bijectif (th. 1) ; donc
 
@@ -451,7 +451,7 @@ $$
 
 dont la première ligne (5) est une suite exacte de A-modules à gauche, la seconde ligne (6) une suite exacte de complexes de A-modules à gauche et où les flèches verticales sont des résolutions droites. En raisonnant comme dans la prop. 3, on démontre la proposition suivante :
 
-#### Proposition 4 {#alg-x-s6-prop-4 .statement}
+#### Proposition 4 {#alg-x-s6-prop-4 .statement tag=0DY6}
 
 Soient M un A-module à gauche, a : R → M une résolution gauche de M telle que la suite
 
@@ -470,7 +470,7 @@ $$
 \end{array}
 $$
 
-#### Remarque 4 {#alg-x-s6-n3-rem-4 .statement}
+#### Remarque 4 {#alg-x-s6-n3-rem-4 .statement tag=0DY7}
 
 Si R est projectif ou si E, E', E'' sont injectifs, la suite (7) est exacte ($\lambda$, p. 83, prop. 2); de plus, $\varphi(R, E'')$ est bijectif (th. 1); donc
 
@@ -478,7 +478,7 @@ $$
 \delta(M, (5)) = \varphi(R, E') \circ \partial((7)) \circ \varphi(R, E'')^{-1}.
 $$
 
-#### Remarque 5 {#alg-x-s6-n3-rem-5 .statement}
+#### Remarque 5 {#alg-x-s6-n3-rem-5 .statement tag=0DY8}
 
 Nous laissons au lecteur le soin d’énoncer et de démontrer les propositions analogues aux prop. 3 et 4 et relatives aux homomorphismes $\psi_1$ et $\varphi_1$.
 
@@ -490,7 +490,7 @@ $$
 \lim_{i \in I} \mathrm{Ext}_A(M, N_i) \to \mathrm{Ext}_A(M, \lim_{i \in I} N_i).
 $$
 
-#### Proposition 5 {#alg-x-s6-prop-5 .statement}
+#### Proposition 5 {#alg-x-s6-prop-5 .statement tag=0DY9}
 
 *Si A est nœthérien à gauche et si M est un A-module de type fini, l’homomorphisme canonique (8) est bijectif.*
 
@@ -508,7 +508,7 @@ $$
 
 déduit des homomorphismes $\mathrm{H}(\mathrm{Homgr}(l, u_i))$ (X, p. 28, prop. 1). On conclut alors par la prop. 2 (X, p. 103) et le th. 1 (X, p. 100).
 
-#### Proposition 6 {#alg-x-s6-prop-6 .statement}
+#### Proposition 6 {#alg-x-s6-prop-6 .statement tag=0DYA}
 
 *Soient B un anneau et N un (A, B)-bimodule, qui est un B-module nœthérien (resp. de longueur finie).
 
@@ -518,7 +518,7 @@ b) Supposons A nœthérien à gauche et soit M un A-module à gauche de type fin
 
 Choisissons une résolution libre $p : L \to M$ telle que chacun des A-modules $L_n$ soit de type fini (X, p. 53, prop. 6), et soit C le complexe de B-modules $L \otimes_A N$ dans le cas $a$, $\mathrm{Homgr}_A(L, N)$ dans le cas $b$. Chacun des B-modules $C_n$ est isomorphe à un produit d’un nombre fini d’exemplaires de N, donc est nœthérien (resp. de longueur finie); il en est donc de même des modules $\mathrm{H}_n(C)$. Or, d’après X, p. 100, th. 1, ceux-ci sont isomorphes aux $\mathrm{Tor}_n^A(M, N)$ dans le cas $a$, aux $\mathrm{Ext}_A^{-n}(M, N)$ dans le cas $b$.
 
-#### Corollaire {#alg-x-s6-n4-cor-1 .statement}
+#### Corollaire {#alg-x-s6-n4-cor-1 .statement tag=0DYB}
 
 Soient $\rho : A \to B$ un homomorphisme d’anneaux commutatifs noethériens, $M$ un $A$-module de type fini, $N$ un $B$-module. Si $N$ est un $B$-module de type fini (resp. de longueur finie), il en est de même des $B$-modules $\operatorname{Tor}^{A}_{n}(M,N)$ et $\operatorname{Ext}^{n}_{A}(M,N)$.
 
@@ -588,7 +588,7 @@ $$
 \varphi_{M}(N \otimes_{A} Q) \circ H(\alpha) \circ (\varphi_{M}(N) \otimes 1_{Q})^{-1} \,.
 $$
 
-#### Proposition 7 {#alg-x-s6-prop-7 .statement}
+#### Proposition 7 {#alg-x-s6-prop-7 .statement tag=0DYC}
 
 a) Si le $A$-module $Q$ est plat, l’homomorphisme (9) est bijectif.
 b) Si le $A$-module $Q$ est projectif de type fini, l’homomorphisme (10) est bijectif.
@@ -639,7 +639,7 @@ on en déduit des homomorphismes gradués de degré 0 dits *canoniques* :
 (11) $$ \mathrm{Tor}^B(P, N \otimes_A Q) \to \mathrm{Tor}^A(P \otimes_B N, Q) $$
 (12) $$ \mathrm{Ext}_A(Q, \mathrm{Hom}_B(N, M)) \to \mathrm{Ext}_B(N \otimes_A Q, M). $$
 
-#### Proposition 8 {#alg-x-s6-prop-8 .statement}
+#### Proposition 8 {#alg-x-s6-prop-8 .statement tag=0DYD}
 
 *a)* Si $N$ est plat sur $A$ et sur $B$, l’homomorphisme (11) est bijectif.
 
@@ -679,7 +679,7 @@ $$
 
 est défini comme le composé $\psi'(L(E) \otimes_A B, B \otimes_A L(F)) \circ H(u) \circ \gamma$.
 
-#### Proposition 9 {#alg-x-s6-prop-9 .statement}
+#### Proposition 9 {#alg-x-s6-prop-9 .statement tag=0DYE}
 
 *Si $B$ est plat sur $A$, l'homomorphisme (13) est bijectif.*
 En effet $\psi'(L(E) \otimes_A B, B \otimes_A L(F))$ est bijectif (X, p. 102, prop. 1) et $\gamma$ est bijectif (X, p. 66, cor. 2).
@@ -703,7 +703,7 @@ $$
 B \otimes_A \mathrm{Ext}_A(E, F) \to \mathrm{Ext}_B(B \otimes_A E, B \otimes_A F).
 $$
 
-#### Proposition 10 {#alg-x-s6-prop-10 .statement}
+#### Proposition 10 {#alg-x-s6-prop-10 .statement tag=0DYF}
 
 L’homomorphisme (14) est bijectif dans les cas suivants :
 a) B est un A-module projectif de type fini ;
@@ -714,7 +714,7 @@ Cela résulte de la prop. 7 (X, p. 108).
 
 Soient G un groupe, $\mathbf{Z}^{(G)}$ son algèbre sur $\mathbf{Z}$ (III, p. 19). Rappelons (cf. III, p. 20, exemple) que si M est un groupe commutatif, il revient au même de se donner une action de G sur M (c’est-à-dire un homomorphisme $\tau : G \to \mathrm{Aut}(M)$), ou une structure de $\mathbf{Z}^{(G)}$-module à gauche sur le groupe additif M. En particulier, on considérera le groupe $\mathbf{Z}$ comme un $\mathbf{Z}^{(G)}$-module à gauche en le munissant de l’action triviale.
 
-#### Définition 1 {#alg-x-s6-def-1 .statement}
+#### Définition 1 {#alg-x-s6-def-1 .statement tag=0DYG}
 
 Soient M un $\mathbf{Z}^{(G)}$-module à gauche (resp. à droite), n un entier $\geqslant 0$. Le groupe $\mathrm{Ext}_{\mathbf{Z}^{(G)}}^n(\mathbf{Z}, M)$ (resp. $\mathrm{Tor}_n^{\mathbf{Z}^{(G)}}(M, \mathbf{Z})$) est noté $H^n(G, M)$ (resp. $H_n(G, M)$) et appelé n-ième groupe de cohomologie (resp. d’homologie) de G à coefficients dans M.
 
@@ -746,11 +746,11 @@ $$
 
 quels que soient $n \geqslant 1$, $m$ dans M et $g_1, ..., g_n$ dans G.
 
-#### Exemple 1 {#alg-x-s6-n8-exa-1 .statement}
+#### Exemple 1 {#alg-x-s6-n8-exa-1 .statement tag=0DYH}
 
 Il résulte directement de la définition que $H^0(G, M)$ est isomorphe au sous-module des éléments de $M$ invariants sous l’action de $G$, et $H_0(G, M)$ au module quotient de $M$ par le sous-module engendré par les éléments $m.g-m$ pour $m\in M$, $g\in G$.
 
-#### Exemple 2 {#alg-x-s6-n8-exa-2 .statement}
+#### Exemple 2 {#alg-x-s6-n8-exa-2 .statement tag=0DYI}
 
 Il résulte de ce qui précède que $H^1(G, M)$ est isomorphe au $\mathbf{Z}$-module $Z^1(G, M)/B^1(G, M)$, où $Z^1(G, M)$ est le $\mathbf{Z}$-module des applications $f$ de $G$ dans $M$ vérifiant :
 
@@ -770,7 +770,7 @@ Notons $\iota:G\to \operatorname{Aut}(M)$ l’homomorphisme déduit de l’actio
 
 Lorsque $G$ opère trivialement sur $M$, on a $B^1(G,M)=0$ et $H^1(G,M)$ est isomorphe au $\mathbf{Z}$-module des homomorphismes de groupes de $G$ dans $M$.
 
-#### Exemple 3 {#alg-x-s6-n8-exa-3 .statement}
+#### Exemple 3 {#alg-x-s6-n8-exa-3 .statement tag=0DYJ}
 
 De même $H^2(G,M)$ est isomorphe au $\mathbf{Z}$-module $Z^2(G,M)/B^2(G,M)$, où $Z^2(G,M)$ est le $\mathbf{Z}$-module des applications $f$ de $G\times G$ dans $M$, vérifiant :
 
@@ -788,13 +788,13 @@ quels que soient $g_1,g_2$ dans $G$.
 
 On retrouve ainsi la définition du groupe $H^2(G,M)$ donnée en VIII, App. II en particulier qu’il existe un isomorphisme canonique de $H^2(G,M)$ sur le groupe des classes d’extension de $G$ par $M$ (loc. cit.).
 
-#### Exemple 4 {#alg-x-s6-n8-exa-4 .statement}
+#### Exemple 4 {#alg-x-s6-n8-exa-4 .statement tag=0DYK}
 
 Soit $M$ un $\mathbf{Z}$-module, que l’on considère comme un $\mathbf{Z}^{(G)}$-module à droite en faisant opérer $G$ trivialement. Le groupe $H_1(G,M)$ est isomorphe au quotient de $M\otimes_{\mathbf{Z}}\mathbf{Z}^{(G)}$ par le sous-$\mathbf{Z}$-module engendré par les éléments $m\otimes(e_{g_1g_2}-e_{g_1}-e_{g_2})$ pour $m$ dans $M$, $g_1,g_2$ dans $G$ ; il en résulte facilement que $H_1(G,M)$ est isomorphe à $M\otimes_{\mathbf{Z}}(G/(G,G))$.
 
 Notons $\sigma$ l’anti-automorphisme de $\mathbf{Z}^{(G)}$ défini par $\sigma(e_g) = e_{g^{-1}}$ pour $g \in G$. Tout $\mathbf{Z}^{(G)}$-module à gauche peut être considéré comme un $\mathbf{Z}^{(G)}$-module à droite à l’aide de $\sigma$, et réciproquement. Ceci permet par exemple de définir les groupes $H_q(G, M)$ pour un $\mathbf{Z}^{(G)}$-module à gauche $M$, en posant $H_q(G, M) = H_q(G, \sigma_*(M)) = \mathrm{Tor}_q^{\mathbf{Z}^{(G)}}(\mathbf{Z}, M)$.
 
-#### Lemme 1 {#alg-x-s6-lem-1 .statement}
+#### Lemme 1 {#alg-x-s6-lem-1 .statement tag=0DYL}
 
 *Soit $M$ un $\mathbf{Z}$-module ; notons $M^G$ le groupe $\mathrm{Hom}_{\mathbf{Z}}(\mathbf{Z}^{(G)}, M)$ muni de sa structure naturelle de $\mathbf{Z}^{(G)}$-module à gauche. Alors :*
 
@@ -810,7 +810,7 @@ $$
 
 d’où le lemme.
 
-#### Proposition 11 {#alg-x-s6-prop-11 .statement}
+#### Proposition 11 {#alg-x-s6-prop-11 .statement tag=0DYM}
 
 *Soit $L$ une extension galoisienne de degré fini d’un corps commutatif $K$, de groupe de Galois $G$.
 a) *On a* $H^i(G, L) = 0$ *pour* $i \geqslant 1$.

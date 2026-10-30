@@ -33,7 +33,7 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 28
-content_sha256: f42e2230f351e1bc8e1f789cc51497f38a8dea64f679f0db66b57e2cc558e73e
+content_sha256: fccb95f1c743016175d920f3d9b4107ca71a6669ffca75cd9cc5695d9f404b32
 ---
 
 ## § 1. PRINCIPAL IDEAL DOMAINS
@@ -42,11 +42,11 @@ content_sha256: f42e2230f351e1bc8e1f789cc51497f38a8dea64f679f0db66b57e2cc558e73e
 
 Recall (I, p. 104) that an ideal of a commutative ring $A$ is said to be *principal* if it has the form $(a) = Aa$ for some $a \in A$.
 
-#### Definition 1 {#alg-vii-s1-def-1 .statement}
+#### Definition 1 {#alg-vii-s1-def-1 .statement tag=070X}
 
 *A principal ideal domain is an integral domain (I, p. 116) in which every ideal is principal.*
 
-#### Example {#alg-vii-s1-n1-exa-1 .statement}
+#### Example {#alg-vii-s1-n1-exa-1 .statement tag=070Y}
 
 The ring $\mathbf{Z}$ of rational integers is a principal ideal domain (I, p. 111). If $K$ is a commutative field, then the polynomial ring $K[X]$ in one indeterminate over $K$ is a principal ideal domain (IV, p. 11, Prop. 11); the same is true of the ring of formal power series $K[[X]]$, for every ideal of this ring has the form $(X^n)$ (IV, p. 38, Prop. 12). \* The ring of integers in a p-adic field is a principal ideal domain. \*
 
@@ -58,7 +58,7 @@ The polynomial ring $K[X, Y]$ in two indeterminates over a field $K$ is not a pr
 
 Let $A$ be a principal ideal domain and let $K$ be its field of fractions (I, p. 116); we will see that the ordered group $\mathscr{P}^*$ of principal fractional ideals (*VI*, p. 6) of $K$ is lattice ordered; more precisely:
 
-#### Proposition 1 {#alg-vii-s1-prop-1 .statement}
+#### Proposition 1 {#alg-vii-s1-prop-1 .statement tag=070Z}
 
 *Let $K$ be the field of fractions of a principal ideal domain $A$, and let $(x_i)_{i \in I}$ be a family of elements of $K$ having a common denominator $b \in K^*$ (in other words $bx_i \in A$ for all $i$). Then:*
 
@@ -67,11 +67,11 @@ b) Every gcd of $(x_i)$ can be expressed in the form $d = \sum a_i x_i$, where t
 
 Indeed the ideal $\sum Abx$, of $A$ is principal, and so of the form $Ad'$. Put $d' = bd \ (d \in K)$. From the relation $d' = \sum a_i b x_i$, we deduce $d = \sum a_i x_i$, where $a_i \in A$. Hence every common divisor of the $x_i$ divides $d$. On the other hand, since $bd$ is a common divisor of the $bx$, by construction, it follows that $d$ is a common divisor of the $x_i$.
 
-#### Remark {#alg-vii-s1-n2-rem-1 .statement}
+#### Remark {#alg-vii-s1-n2-rem-1 .statement tag=0710}
 
 Prop. 1 applies with no restrictions to an arbitrary family $(x_i)$ of elements of $A$ (take $b = 1$), and also to any finite family $(x_i)$ of elements of $K$ (if $x_i = c_i b_i$ with $c_i \in A$ and $b_i \in A$, then take $b$ to be the product of the $b_i$).
 
-#### Corollary {#alg-vii-s1-n2-cor-1 .statement}
+#### Corollary {#alg-vii-s1-n2-cor-1 .statement tag=0711}
 
 — Let $(x_i)$ be an arbitrary family of elements of a principal ideal domain $A$ contained as a subring in an integral domain $B$, and let $d$ be a gcd of the family $(x_i)$ in $A$. Then the family $(x_i)$ has gcd's in $B$, and $d$ is one of them.
 
@@ -83,13 +83,13 @@ The first assertion of Prop. 1 shows that the ordered group $\mathscr{P}^*$ is l
 
 The following result is a consequence of the second assertion of Prop. I :
 
-#### Theorem 1 (« Bezout's identity ») {#alg-vii-s1-thm-1 .statement}
+#### Theorem 1 (« Bezout's identity ») {#alg-vii-s1-thm-1 .statement tag=0712}
 
 — Elements $x_i \ (i \in I)$ of a principal ideal domain $A$ are setwise coprime if and only if there exist elements $a_i \ (i \in I)$ of $A$, all but finitely many of them zero, such that $\sum a_i x_i = 1$.
 
 The necessity of the condition is just Prop. 1. Conversely, if $\sum a_i x_i = 1$ then every common divisor of the $x_i$ divides 1, and so 1 is a gcd of the $x_i$.
 
-#### Proposition 2 {#alg-vii-s1-prop-2 .statement}
+#### Proposition 2 {#alg-vii-s1-prop-2 .statement tag=0713}
 
 — Let $a, b, d, m$ and $p$ be elements of the field of fractions $K$ of a principal ideal domain $A$.
 a) « $d$ is a gcd of $a$ and $b$ » is equivalent to « $(d) = (a) + (b)$ ».
@@ -100,13 +100,13 @@ We have already proved a) (Prop. *1*). Since the common multiples of $a$ and $b$
 
 In a principal ideal domain $A$, the sum (resp. the intersection) of a finite number of ideals is also called the gcd (resp. lcm) of these ideals.
 
-#### Proposition 3 {#alg-vii-s1-prop-3 .statement}
+#### Proposition 3 {#alg-vii-s1-prop-3 .statement tag=0714}
 
 *Let $a, b, c$ be elements of the field of fractions of a principal ideal domain $A$, and let $d$ be a gcd of $a$ and $c$; then the congruence $ax \equiv b \pmod{c}$ has a solution $x_0 \in A$ if and only if $d$ divides $b$; in this case the elements $x$ of $A$ which satisfy $ax \equiv b \pmod{c}$ are precisely those which satisfy $x \equiv x_0 \pmod{cd}$*.
 
 If $ax \equiv b \pmod{c}$, with $x \in A$, then there exists $y \in A$ such that $b = ax + cy$, so $d$ divides $b$. Conversely, if $d$ divides $b$ then $b = ax_0 + cy_0$ with $x_0, y_0 \in A$ (Prop. *1*), so $ax_0 \equiv b \pmod{c}$; moreover, the relation $ax \equiv b \pmod{c}$ is then equivalent to $a(x - x_0) \equiv 0 \pmod{c}$; putting $a = da'$ and $c = dc'$, the latter becomes $a'(x - x_0) \equiv 0 \pmod{c'}$. But this is equivalent (for $x \in A$) to $x - x_0 \equiv 0 \pmod{c'}$, since $a'$ and $c'$ are coprime (VI, p. 14, Prop. *10* (DIV) and VI, p. 15, Cor. 2 to Prop. 11 (DIV)).
 
-#### Proposition 4 {#alg-vii-s1-prop-4 .statement}
+#### Proposition 4 {#alg-vii-s1-prop-4 .statement tag=0715}
 
 *Let $(a_i)$, $i \leq n$ be a finite family of pairwise coprime elements of the principal ideal domain $A$. Then the canonical homomorphism (I, p. 110) from $A / \left( \prod_{r=1}^n a_r \right)$ into the product $\prod_{r=1}^n A/(a_r)$ is an isomorphism of $A$-algebras.*
 
@@ -118,11 +118,11 @@ The conclusion of Prop. 4 is not valid if it is not assumed that the $a_i$ are p
 
 We will now apply the results of VI, p. *18*, relating to decomposition into irreducible elements, to principal ideal domains. By Prop. 2, an element $p \neq 0$ of $A$ is irreducible if and only if the ring $A/(p)$ is a field (I, p. *115*, Cor. 1), that is if and only if the congruence $ax \equiv b \pmod{p}$ admits a solution in $A$ for each $b \in A$ and for each $a \in A$ which is not a multiple of $p$.
 
-#### Definition 2 {#alg-vii-s1-def-2 .statement}
+#### Definition 2 {#alg-vii-s1-def-2 .statement tag=0716}
 
 *Let $A$ be an integral domain. A system of representatives of irreducible elements of $A$ is a family $(p_\alpha)$ of irreducible elements of $A$ such that every irreducible element of $A$ is an associate of precisely one $p_\alpha$.*
 
-#### Theorem 2 {#alg-vii-s1-thm-2 .statement}
+#### Theorem 2 {#alg-vii-s1-thm-2 .statement tag=0717}
 
 — Let $\mathbf{A}$ be a principal ideal domain and let $(p_\alpha)$ be a system of representatives of irreducible elements of $\mathbf{A}$. Then every nonzero element $x$ of the field of fractions of $A$ can be uniquely expressed in the form
 
@@ -134,7 +134,7 @@ where $u$ is an invertible element of $\mathbf{A}$, and where the $n_{\alpha}$ a
 
 We will use the theorem about decomposition as a sum of irreducible elements (VI, p. 18, Th. 2), of which the above statement is only a translation. Since $\mathscr{P}^*$ is a lattice ordered group it will be sufficient for us to show that every nonempty set of principal ideals of $\mathbf{A}$ contains a maximal element, in order to check that the hypotheses of this theorem are indeed satisfied; now this follows from the next Lemma:
 
-#### Lemma 1 {#alg-vii-s1-lem-1 .statement}
+#### Lemma 1 {#alg-vii-s1-lem-1 .statement tag=0718}
 
 Let $A$ be a ring such that every left ideal of $A$ is finitely generated. Then every nonempty set $\Phi$ of left ideals of $\mathbf{A}$, ordered by inclusion, has a maximal element.
 
@@ -142,7 +142,7 @@ By Zorn's Lemma (Set Theory, III, p. 154, Th. 2) it is enough to prove that $\Ph
 
 Later we will study those rings $B$, called noetherian rings, such that every nonempty set of ideals of $B$ contains a maximal element.
 
-#### Remark {#alg-vii-s1-n3-rem-1 .statement}
+#### Remark {#alg-vii-s1-n3-rem-1 .statement tag=0719}
 
 The family $(u, (n_\alpha))$ is called the decomposition of $x$ into irreducible factors; by abuse of language, we also say that the formula (1) is the decomposition of $x$ into irreducible factors. If $x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}}$ and $y = v \prod_{\alpha} p_{\alpha}^{m_{\alpha}}$ are the decompositions of $x$ and $y$ into irreducible factors, then a necessary and sufficient condition for $x$ to divide $y$ is that $n_{\alpha} \leq m_{\alpha}$, for all $\alpha$; from this we deduce the formulae
 
@@ -161,7 +161,7 @@ As was pointed out in section 1, the ring $\mathbf{Z}$ of rational integers is a
 
 The irreducible integers $> 0$ in $\mathbf{Z}$ are precisely those we have called prime numbers (I, p. 50) (they are sometimes called rational prime numbers); every irreducible element of $\mathbf{Z}$ is thus of the form $p$ or $-p$, where $p$ is a prime number, and the set $P$ of prime numbers is a system of representatives of irreducible elements of $\mathbf{Z}$.
 
-#### Proposition 5 {#alg-vii-s1-prop-5 .statement}
+#### Proposition 5 {#alg-vii-s1-prop-5 .statement tag=071A}
 
 — The set of prime numbers is infinite.
 
@@ -187,7 +187,7 @@ $$
 
 where $c$ and the $a_i$ are elements of $K$.
 
-#### Proposition 6 {#alg-vii-s1-prop-6 .statement}
+#### Proposition 6 {#alg-vii-s1-prop-6 .statement tag=071B}
 
 For any field $K$, the *set* of monic irreducible polynomials in $K[X]$ is infinite.
 

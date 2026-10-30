@@ -52,7 +52,7 @@ subsections:
       pdf_page: 208
 statements: 76
 exercises: 30
-content_sha256: 4c5fdb43bb6ef6b91a0d033414b28148b47b9256174feb562818ef5fa8a3cef4
+content_sha256: a98cd5f064005c9b7ccc8fa3bd7c309daf01bf40b9b57ba9bd3ad433384eb6fd
 ---
 
 ## § 6. Groupes de Lie réels ou complexes
@@ -61,7 +61,7 @@ Dans ce paragraphe, on suppose que K est égal à $\mathbf{R}$ ou à $\mathbf{C}
 
 ### 1. Passage des morphismes d’algèbres de Lie aux morphismes de groupes de Lie
 
-#### Lemme 1 {#lie-iii-s6-lem-1 .statement}
+#### Lemme 1 {#lie-iii-s6-lem-1 .statement tag=0AE8}
 
 Soient $G$ un groupe topologique simplement connexe,$^1$ $W$ un voisinage ouvert connexe symétrique de $e$, $H$ un groupe, $f$ une application de $W^3$ dans $H$ telle que
 $$
@@ -81,29 +81,29 @@ Comme $w^{-1} \in W$, on voit que $(w, f(w)) \in Y'_0$. Ainsi, $A(e, e, W) \subs
 
 $^1$ Cf. le chap. XI de TG (à paraître). Il est prouvé dans ce chapitre que si $G_1, G_2$ sont des groupes topologiques connexes, si $\varphi$ est un homomorphisme continu ouvert de $G_1$ sur $G_2$ à noyau discret, et si $G_2$ est simplement connexe, alors $\varphi$ est un homéomorphisme. Rappelons d’autre part qu’un espace simplement connexe est connexe.
 
-#### Théorème 1 {#lie-iii-s6-thm-1 .statement}
+#### Théorème 1 {#lie-iii-s6-thm-1 .statement tag=0AE9}
 
 Soient G et H des groupes de Lie, h un morphisme continu de L(G) dans L(H). On suppose G simplement connexe. Alors il existe un morphisme φ de groupes de Lie de G dans H, et un seul, tel que h = L(φ).
 
 L’existence de φ résulte du lemme 1, et du § 4, n° 1, th. 1 (i). L’unicité de φ résulte du § 4, n° 1, th. 1(ii) et du fait que G est connexe.
 
-#### Corollaire {#lie-iii-s6-n1-cor-1 .statement}
+#### Corollaire {#lie-iii-s6-n1-cor-1 .statement tag=0AEA}
 
 Soit G un groupe de Lie simplement connexe de dimension finie. Il existe une représentation linéaire analytique de dimension finie de G dont le noyau est discret.
 
 Il existe (chap. I, § 7, th. 2) un espace vectoriel E de dimension finie, et un morphisme injectif h de L(G) dans l’algèbre de Lie End(E). D’après le th. 1, il existe un morphisme φ de G dans GL(E) tel que L(φ) = h. Donc φ est une immersion, et par suite son noyau est discret.
 
-#### Remarque 1 {#lie-iii-s6-n1-rem-1 .statement}
+#### Remarque 1 {#lie-iii-s6-n1-rem-1 .statement tag=0AEB}
 
 Il existe des groupes de Lie simplement connexes de dimension finie qui ne possèdent aucune représentation linéaire analytique injective de dimension finie (exerc. 2).
 
-#### Remarque 2 {#lie-iii-s6-n1-rem-2 .statement}
+#### Remarque 2 {#lie-iii-s6-n1-rem-2 .statement tag=0E8K}
 
 Il existe des groupes de Lie connexes G de dimension finie tels que toute représentation linéaire analytique de dimension finie de G ait un noyau non discret (exerc. 3 et 4).
 
 ### 2. Sous-groupes intégraux
 
-#### Définition 1 {#lie-iii-s6-def-1 .statement}
+#### Définition 1 {#lie-iii-s6-def-1 .statement tag=0AEC}
 
 Soit G un groupe de Lie. On appelle sous-groupe intégral de G un sous-groupe H muni d’une structure de groupe de Lie connexe telle que l’injection canonique de H dans G soit une immersion.
 
@@ -111,19 +111,19 @@ On appelle sous-groupe à un paramètre de G un sous-groupe intégral de dimensi
 
 Soient H un sous-groupe intégral de G, i l’injection canonique de H dans G. Alors L(i) définit un isomorphisme de L(H) sur une sous-algèbre de Lie de L(G) admettant un supplémentaire topologique. On identifie L(H) à son image par L(i).
 
-#### Exemple 1 {#lie-iii-s6-n2-exa-1 .statement}
+#### Exemple 1 {#lie-iii-s6-n2-exa-1 .statement tag=0AED}
 
 Un sous-groupe de Lie connexe de G est un sous-groupe intégral de G.
 
-#### Exemple 2 {#lie-iii-s6-n2-exa-2 .statement}
+#### Exemple 2 {#lie-iii-s6-n2-exa-2 .statement tag=0E8L}
 
 Supposons G de dimension finie. Soit H un sous-groupe de G; munissons-le de la structure induite par la structure de groupe de Lie de G (§ 4, n° 5, déf. 3). Alors sa composante neutre H_0 est un sous-groupe intégral de G, et la sous-algèbre tangente en e à H est L(H_0) (§ 4, n° 5, prop. 9 (ii)).
 
-#### Exemple 3 {#lie-iii-s6-n2-exa-3 .statement}
+#### Exemple 3 {#lie-iii-s6-n2-exa-3 .statement tag=0E8M}
 
 Soient G un groupe de Lie complexe, H un sous-groupe intégral de G, G_1 (resp. H_1) le groupe de Lie réel sous-jacent à G (resp. H). Alors H_1 est un sous-groupe intégral de G_1, et L(H_1) est l’algèbre de Lie réelle sous-jacente à L(H).
 
-#### Théorème 2 {#lie-iii-s6-thm-2 .statement}
+#### Théorème 2 {#lie-iii-s6-thm-2 .statement tag=0AEE}
 
 Soit G un groupe de Lie.
 
@@ -135,17 +135,17 @@ a) Soit $\mathfrak{h}$ une sous-algèbre de Lie de $L(G)$ admettant un suppléme
 
 b) Soient H un sous-groupe intégral de G, et $N_1$ un sous-groupuscule de Lie connexe de G d’algèbre de Lie $L(H)$. Comme l’injection canonique de H dans G est une immersion, il existe un sous-groupuscule ouvert $H_1$ de H qui est en même temps sous-variété de G, donc un sous-groupuscule de Lie de G d’algèbre de Lie $L(H)$. D’autre part, soit N le sous-groupe de G engendré par $N_1$; d’après la partie a) de la démonstration, il est muni d’une structure de sous-groupe intégral de G tel que $N_1$ soit une sous-variété ouverte de N. D’après le § 4, th. 3, $H_1 \cap N_1$ est ouvert dans $H_1$ et $N_1$. Donc le sous-groupe de G engendré par $H_1 \cap N_1$ est égal d’une part à H, d’autre part à N. Par suite les groupes de Lie H et N sont égaux. Cela prouve (ii), et prouve aussi que l’application considérée en (i) est injective.
 
-#### Remarque 1 {#lie-iii-s6-n2-rem-1 .statement}
+#### Remarque 1 {#lie-iii-s6-n2-rem-1 .statement tag=0AEF}
 
 Soit H un sous-groupe intégral de G. Soit Y le feuilletage gauche de G associée à $L(H)$. Si $g \in G$, munissons $gH$ de la structure de variété déduite de celle de H par $\gamma(g)$. D’après VAR, R, 9.3.2, l’injection canonique de $gH$ dans Y est un morphisme. Ce morphisme est étale. Donc les feuilles connexes maximales de Y sont les classes à gauche suivant H.
 
-#### Proposition 1 {#lie-iii-s6-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s6-prop-1 .statement tag=0AEG}
 
 Soient G et M des groupes de Lie, H un sous-groupe intégral de G, $\varphi$ un morphisme de M dans G tel que $L(\varphi)(L(M)) \subset L(H)$. On suppose M connexe. Alors $\varphi(M) \subset H$, et $\varphi$, considéré comme application de M dans H, est un morphisme de groupes de Lie.
 
 En effet, avec les notations de la Remarque 1, $\varphi$ est un morphisme de M dans Y (VAR, R, 9.3.2), donc $\varphi(M) \subset H$ puisque M est connexe.
 
-#### Corollaire 1 {#lie-iii-s6-prop-1-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s6-prop-1-cor-1 .statement tag=0AEH}
 
 Soient G et H des groupes de Lie, $\varphi$ un morphisme de groupes de Lie de G dans H, N le noyau de $\varphi$, et $h = L(\varphi)$. Supposons G connexe et H de dimension finie.
 
@@ -156,7 +156,7 @@ Soient G et H des groupes de Lie, $\varphi$ un morphisme de groupes de Lie de G 
 (i) a déjà été démontré ($§ 3$, no 8, prop. 28).
 Soit $\psi$ le morphisme de groupes de Lie de $G/N$ dans $H$ déduit de $\varphi$ par passage au quotient; c’est une immersion ($§ 3$, no 8, prop. 28). D’après la prop. 1, $\psi$ est un morphisme de groupes de Lie de $G/N$ dans $H'$. Ce morphisme est étale, donc $\psi(G/N) = H'$ puisque $H'$ est connexe; cela prouve (ii). Alors $\psi : G/N \to H'$ est bijectif, et est un isomorphisme de groupes de Lie, ce qui prouve (iii).
 
-#### Corollaire 2 {#lie-iii-s6-prop-1-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s6-prop-1-cor-2 .statement tag=0AEI}
 
 Soient $G$ un groupe de Lie, $H_1$ et $H_2$ des sous-groupes intégraux de $G$. Si $L(H_2) \subset L(H_1)$, alors $H_2$ est un sous-groupe intégral de $H_1$.
 Soient $i_1 : H_1 \to G$, $i_2 : H_2 \to G$ les injections canoniques. Alors
@@ -165,7 +165,7 @@ L(i_2)(L(H_2)) = L(H_2) \subset L(H_1).
 $$
 D’après la prop. 1, $i_2$ est une application analytique de $H_2$ dans $H_1$, et même une immersion de $H_2$ dans $H_1$ puisque $L(i_2)$ est un isomorphisme de $L(H_2)$ sur une sous-algèbre de $L(H_1)$ admettant un supplémentaire topologique.
 
-#### Corollaire 3 {#lie-iii-s6-prop-1-cor-3 .statement}
+#### Corollaire 3 {#lie-iii-s6-prop-1-cor-3 .statement tag=0AEJ}
 
 Soient $G$ un groupe de Lie de dimension finie, $(H_i)_{i \in I}$ une famille de sous-groupes de Lie de $G$. Alors $H = \bigcap_{i \in I} H_i$ est un sous-groupe de Lie de $G$, et
 $$
@@ -173,7 +173,7 @@ L(H) = \bigcap_{i \in I} L(H_i).
 $$
 Il existe une partie finie $J$ de $I$ telle que $\bigcap_{i \in J} L(H_i)$ soit égal à l’intersection $M$ de tous les $L(H_i)$. On sait que $H^* = \bigcap_{i \in J} H_i$ est un sous-groupe de Lie tel que $L(H^*) = M$ ($§ 3$, no 8, cor. 2 de la prop. 29). Soit $H_0$ la composante neutre de $H^*$. C’est un sous-groupe de Lie de $G$, et $L(H_0) = M$. D’après le cor. 2, on a $H_0 \subset H_i$ pour tout $i$, donc $H_0 \subset H \subset H^*$, d’où le corollaire.
 
-#### Corollaire 4 {#lie-iii-s6-prop-1-cor-4 .statement}
+#### Corollaire 4 {#lie-iii-s6-prop-1-cor-4 .statement tag=0AEK}
 
 Soit $G$ un groupe de Lie connexe de dimension finie. Les conditions suivantes sont équivalentes:
 (i) $G$ est unimodulaire (INT, VII, $§ 1$, no 3, déf. 3);
@@ -183,7 +183,7 @@ L’application $g \mapsto \det \operatorname{Ad} g$ est un morphisme $\varphi$ 
 
 Im $\varphi = \{1\}$ (resp. Im $\varphi = K^*$) d’après le cor. 1, donc G est unimodulaire (resp. non unimodulaire) d’après le , no 16, cor. de la prop. 55
 
-#### Proposition 2 {#lie-iii-s6-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s6-prop-2 .statement tag=0AEL}
 
 *Soient G un groupe de Lie de dimension finie, H un sous-groupe intégral de G.* Les conditions suivantes sont équivalentes:
 (i) H est fermé;
@@ -193,7 +193,7 @@ Im $\varphi = \{1\}$ (resp. Im $\varphi = K^*$) d’après le cor. 1, donc G est
 (iii) $\Rightarrow$ (ii): évident.
 (ii) $\Rightarrow$ (i): si la topologie de H est induite par celle de G, H est fermé parce que H est complet (§ 1, n° 1, prop. 1).
 
-#### Proposition 3 {#lie-iii-s6-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s6-prop-3 .statement tag=0AEM}
 
 *Soient G un groupe de Lie, H un sous-groupe intégral de G, M une variété analytique connexe non vide, f une application de M dans G et r $\in N_K$. Considérons les conditions suivantes:*
 (i) $f$ est de classe $C^r$, et $f(M) \subset H$;
@@ -204,12 +204,12 @@ Im $\varphi = \{1\}$ (resp. Im $\varphi = K^*$) d’après le cor. 1, donc G est
 (iii) $\Rightarrow$ (ii): supposons vérifiée la condition (iii). D’après VAR, R, 9.2.8, $f$ est un morphisme de classe $C^r$ de M dans le feuilletage gauche associé à $L(H)$. Comme M est connexe, on a $f(M) \subset H$.
 Si la topologie de H admet une base dénombrable, la condition (i) implique que $f$ est une application de classe $C^r$ de M dans H (VAR, R,9.2.8); donc (i) $\Rightarrow$ (ii).
 
-#### Corollaire 1 {#lie-iii-s6-prop-3-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s6-prop-3-cor-1 .statement tag=0AEN}
 
 *Soient G un groupe de Lie de dimension finie, H un sous-groupe intégral de G. Alors la sous-algèbre de Lie tangente en e à H ($§ 4$, n° 5, déf. 2 et 3) est $L(H)$, et la structure de groupe de Lie de H est la structure induite par celle de G.*
 En effet, comme H est connexe de dimension finie, sa topologie admet une base dénombrable.
 
-#### Corollaire 2 {#lie-iii-s6-prop-3-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s6-prop-3-cor-2 .statement tag=0AEO}
 
 *Soient G un groupe de Lie, $H_1$ et $H_2$ des sous-groupes intégraux de G. On suppose que la topologie de $H_1$ admet une base dénombrable. Alors*
 $$
@@ -219,22 +219,22 @@ $$
 
 La dernière assertion, et l’implication $L(H_2) \subset L(H_1) \Rightarrow H_2 \subset H_1$, résultent du cor. 2 de la prop. 1. L’implication inverse résulte de la prop. 3.
 
-#### Corollaire 3 {#lie-iii-s6-prop-3-cor-3 .statement}
+#### Corollaire 3 {#lie-iii-s6-prop-3-cor-3 .statement tag=0AEP}
 
 Soient $G$ un groupe de Lie, $H_1$ et $H_2$ des sous-groupes intégraux de $G$ dont la topologie admet une base dénombrable. Si $H_1$ et $H_2$ ont même ensemble sous-jacent, les structures de groupes de Lie de $H_1$ et $H_2$ sont égales.
 Cela résulte du cor. 2.
 
-#### Remarque 2 {#lie-iii-s6-n2-rem-2 .statement}
+#### Remarque 2 {#lie-iii-s6-n2-rem-2 .statement tag=0AEQ}
 
 Soit $G$ un groupe de Lie de dimension finie. Soit $H$ un sous-groupe de $G$. Nous dirons, par abus de langage, que $H$ est un sous-groupe intégral de $G$ s’il existe une structure $S$ de groupe de Lie sur $H$ telle que $H$, muni de $S$, soit un sous-groupe intégral de $G$. D’après le cor. 3 de la prop. 3, si $S$ existe, $S$ est unique.
 
-#### Remarque 3 {#lie-iii-s6-n2-rem-3 .statement}
+#### Remarque 3 {#lie-iii-s6-n2-rem-3 .statement tag=0AER}
 
 Soit $V$ une variété de classe $C^r$. Soient $M$ une partie de $V$, $x$ et $y$ des éléments de $M$. Considérons la propriété suivante:
 $P_{M,x,y}$: il existe $I, x_0, x_1, \ldots, x_n f_1, \ldots, f_n$ tels que: a) $I$ est une partie ouverte connexe de $K$; b) $x_0, \ldots, x_n$ sont dans $M$, $x_0 = x, x_n = y$; c) pour $1 \leq i \leq n$, $f_i$ est une application de classe $C^r$ de $I$ dans $V$ qui prend les valeurs $x_{i-1}$ et $x_i$, et $f_i(I) \subset M$.
 Nous dirons que $M$ est une partie $C^r$-connexe de $V$ si, quels que soient les éléments $x, y$ de $M$, on a la propriété $P_{M,x,y}$.
 
-#### Proposition 4 {#lie-iii-s6-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s6-prop-4 .statement tag=0AES}
 
 Soient $G$ un groupe de Lie de dimension finie, $H$ un sous-groupe de $G$. Soit $r \in \mathbf{N}_K$. Les conditions suivantes sont équivalentes:
 (i) $H$ est un sous-groupe intégral de $G$;
@@ -244,11 +244,11 @@ Soient $G$ un groupe de Lie de dimension finie, $H$ un sous-groupe de $G$. Soit 
 (i) $\Rightarrow$ (iii): supposons $H$ muni d’une structure de groupe de Lie telle que $H$ soit un sous-groupe intégral de $G$. Utilisons les notations de la Remarque 3. L’ensemble des $y \in H$ tels que la propriété $P_{H,e,y}$ soit vraie est un sous-groupe ouvert de $H$. Comme $H$ est connexe, ce sous-groupe est égal à $H$, donc la condition (iii) est vérifiée.
 (iii) $\Rightarrow$ (ii): supposons la condition (iii) vérifiée, et munissons $H$ de la structure induite par la structure de groupe de Lie de $G$. Soit $\mathfrak{h}$ la sous-algèbre tangente à $H$ en $e$. La composante neutre $H_0$ de $H$ est un sous-groupe intégral de $G$ tel que $L(H_0) = \mathfrak{h}$. Montrons que $H = H_0$. Il suffit de prouver ceci: soient $I$ une partie ouverte connexe de $K$, $f$ une application de classe $C^r$ de $I$ dans $G$ telle que $f(I) \subset H$, $\lambda$ et $\mu$ deux points de $I$; si $f(\lambda) \in H_0$, alors $f(\mu) \in H_0$. Or, pour tout $v \in I$, on a $(T_v f)(K) \subset f(v) \mathfrak{h}$ par définition de $\mathfrak{h}$, de sorte que notre assertion résulte de la prop. 3.
 
-#### Remarque 4 {#lie-iii-s6-n2-rem-4 .statement}
+#### Remarque 4 {#lie-iii-s6-n2-rem-4 .statement tag=0AET}
 
 Si $K = \mathbf{R}$, on peut aussi caractériser les sous-groupes intégraux de $G$ comme les sous-groupes qui, munis de la topologie induite par celle de $G$, sont connexes *par arcs* (§ 8, exerc. 4). Toutefois, il peut exister des sous-groupes *connexes* qui ne sont pas intégraux (AC, VI, § 9, \S g, exerc. 9).
 
-#### Corollaire {#lie-iii-s6-n2-cor-1 .statement}
+#### Corollaire {#lie-iii-s6-n2-cor-1 .statement tag=0AEU}
 
 *Soient $G$ un groupe de Lie de dimension finie, $H_1$ et $H_2$ deux sous-groupes intégraux de $G$. Le sous-groupe de $G$ engendré par $H_1$ et $H_2$, et le sous-groupe $(H_1, H_2)$ de $G$, sont des sous-groupes intégraux de $G$*.
 
@@ -256,7 +256,7 @@ Le sous-groupe $(G, G)$ de $G$ n’est pas toujours fermé (§ 9, exerc. 6).
 
 Rappelons (§ 3, no 11, cor. 5 de la prop. 41) que si $a$ est une algèbre de dimension finie, $\mathrm{Aut}(a)$ est un sous-groupe de Lie de $\mathbf{GL}(a)$ et que $L(\mathrm{Aut}(a))$ est l’algèbre de Lie des dérivations de $a$.
 
-#### Définition 2 {#lie-iii-s6-def-2 .statement}
+#### Définition 2 {#lie-iii-s6-def-2 .statement tag=0AEV}
 
 *Soit $a$ une algèbre de Lie de dimension finie. On note $\mathrm{Ad}(a)$ ou $\mathrm{Int}(a)$, le sous-groupe intégral de $\mathrm{Aut}(a)$ d’algèbre de Lie $\mathrm{ad}(a)$. Les éléments de ce groupe s’appellent automorphismes intérieurs de $a$*.
 
@@ -264,7 +264,7 @@ Par transport de structure, $\mathrm{ad}(a)$ est invariant par $\mathrm{Aut}(a)$
 
 ### 3. Passage des algèbres de Lie aux groupes de Lie
 
-#### Théorème 3 {#lie-iii-s6-thm-3 .statement}
+#### Théorème 3 {#lie-iii-s6-thm-3 .statement tag=0AEW}
 
 (i) *Si $L$ est une algèbre de Lie de dimension finie, il existe un groupe de Lie $G$ simplement connexe tel que $L(G)$ soit isomorphe à $L$*.
 
@@ -274,7 +274,7 @@ Soit $L$ une algèbre de Lie de dimension finie. Il existe un espace vectoriel $
 
 Soient $G_1, G_2, f, \varphi, N$ comme dans (ii). Alors $\varphi$ est étale, donc $\varphi(G_1)$ est un sous-groupe ouvert de $G_2$, donc $\varphi(G_1) = G_2$. D’autre part, $N$ est discret, donc contenu dans le centre de $G_1$ (INT, VII, § 3, lemme 4). Il est clair que le morphisme de $G/N$ sur $G_2$ déduit de $\varphi$ est un isomorphisme de groupe de Lie. Si $G_2$ est simplement connexe, toute application étale de $G_1$ sur $G_2$ est injective, donc $N = \{e\}$.
 
-#### Proposition 5 {#lie-iii-s6-prop-5 .statement}
+#### Proposition 5 {#lie-iii-s6-prop-5 .statement tag=0AEX}
 
 Soit G un groupe de Lie réel connexe. Supposons donnée sur L(G) une structure d’algèbre de Lie normable complexe L’ compatible avec sa structure d’algèbre de Lie normable réelle. Il existe sur G une structure de groupe de Lie complexe et une seule compatible avec la structure de groupe de Lie réel et pour laquelle l’algèbre de Lie est L’.
 
@@ -282,7 +282,7 @@ D’après le § 4, n° 2, cor. 2 du th. 2, il suffit de prouver que la structur
 
 La conclusion de la prop. 5 ne subsiste pas nécessairement si G n’est pas supposé connexe (exerc. 7).
 
-#### Proposition 6 {#lie-iii-s6-prop-6 .statement}
+#### Proposition 6 {#lie-iii-s6-prop-6 .statement tag=0AEY}
 
 Soit G un groupe de Lie complexe connexe. Si G est compact, G est commutatif.
 
@@ -290,7 +290,7 @@ L’application holomorphe g ↦ Ad g de G dans $\mathscr{L}(L(G))$ est constant
 
 ### 4. Application exponentielle
 
-#### Théorème 4 {#lie-iii-s6-thm-4 .statement}
+#### Théorème 4 {#lie-iii-s6-thm-4 .statement tag=0AEZ}
 
 Soit G un groupe de Lie. Il existe une application exponentielle de G et une seule définie dans L(G).
 
@@ -312,17 +312,17 @@ donc $\left(\varphi\left(\frac{1}{n} a\right)\right)^n = \left(\varphi\left(\fra
 
 Quand on parlera désormais de l’application exponentielle de G, il s’agira de l’application considérée au th. 4. On la note exp_G ou exp s’il n’y a pas risque de confusion.
 
-#### Exemple {#lie-iii-s6-n4-exa-1 .statement}
+#### Exemple {#lie-iii-s6-n4-exa-1 .statement tag=0AF0}
 
 Soit A une algèbre associative unifière normée complète. Alors exp_A* est l’application exponentielle définie au chap. II, § 7, n° 3.
 
-#### Proposition 7 {#lie-iii-s6-prop-7 .statement}
+#### Proposition 7 {#lie-iii-s6-prop-7 .statement tag=0AF1}
 
 Soient G un groupe de Lie, a un élément de L(G). L’application $\lambda \mapsto \exp(\lambda a)$ de K dans G est l’unique morphisme $\varphi$ du groupe de Lie K dans G tel que $(\mathrm{T}_0 \varphi)1 = a$.
 
 Les applications $(\lambda, \lambda') \mapsto \exp(\lambda a) \exp(\lambda' a)$ et $(\lambda, \lambda') \mapsto \exp(\lambda + \lambda') a$ de $K \times K$ dans G sont analytiques et coïncident dans un voisinage de $(0, 0)$. Comme $K \times K$ est connexe, ces applications sont égales. Donc $\varphi : \lambda \mapsto \exp(\lambda a)$ est un morphisme de groupes de Lie de K dans G. L’application tangente en 0 à $\lambda \mapsto \lambda a$ est l’application $\lambda \mapsto \lambda a$; et $T_e(\exp) = \mathrm{Id}_{L(G)}$; donc $(\mathrm{T}_0 \varphi)1 = a$. L’assertion d’unicité de la proposition résulte du th. 1.
 
-#### Proposition 8 {#lie-iii-s6-prop-8 .statement}
+#### Proposition 8 {#lie-iii-s6-prop-8 .statement tag=0AF2}
 
 Soit G un groupe de Lie. Quels que soient x, y dans L(G), on a, en notant n un entier,
 
@@ -336,13 +336,13 @@ $$
 
 Compte tenu de la prop. 7, cela résulte de la prop. 4 du § 4, n° 3, en y prenant $\lambda = \frac{1}{n}$.
 
-#### Proposition 9 {#lie-iii-s6-prop-9 .statement}
+#### Proposition 9 {#lie-iii-s6-prop-9 .statement tag=0AF3}
 
 Soient G un groupe de Lie complexe, G’ le groupe de Lie réel sous-jacent. Alors $\exp_G = \exp_{G'}$.
 
 Cela résulte de la prop. 5 du § 4, n° 3, et de l’analyticité de $\exp_G$ et $\exp_{G'}$.
 
-#### Proposition 10 {#lie-iii-s6-prop-10 .statement}
+#### Proposition 10 {#lie-iii-s6-prop-10 .statement tag=0AF4}
 
 Soient G et H des groupes de Lie, $\varphi$ un morphisme de G dans H.
 (i) $\varphi \circ \exp_G = \exp_H \circ \mathrm{L}(\varphi)$.
@@ -350,7 +350,7 @@ Soient G et H des groupes de Lie, $\varphi$ un morphisme de G dans H.
 
 Les deux membres de l’égalité (i) sont des applications analytiques de L(G) dans H qui coïncident dans un voisinage de 0 (§ 4, prop. 8, n° 4), donc sont égales. L’assertion (ii) est un cas particulier de (i).
 
-#### Corollaire 1 {#lie-iii-s6-prop-10-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s6-prop-10-cor-1 .statement tag=0AF5}
 
 Soient G un groupe de Lie, G’ un sous-groupe de Lie de G, et $a \in L(G)$.
 Les conditions suivantes sont équivalentes:
@@ -360,7 +360,7 @@ Les conditions suivantes sont équivalentes:
 (iii) $\exp(\lambda a) \in G'$ pour tout $\lambda \in K$.
 On raisonne comme au § 4, n° 4, cor. 1 de la prop. 8.
 
-#### Corollaire 2 {#lie-iii-s6-prop-10-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s6-prop-10-cor-2 .statement tag=0AF6}
 
 Soient $G$ un groupe de Lie, $H$ un sous-groupe intégral de $G$, et $a \in L(G)$.
 Considérons les conditions suivantes:
@@ -373,7 +373,7 @@ $$
 $$
 Donc (i) $\Rightarrow$ (ii). La réciproque pour $H$ à base dénombrable résulte de la prop. 3.
 
-#### Corollaire 3 {#lie-iii-s6-prop-10-cor-3 .statement}
+#### Corollaire 3 {#lie-iii-s6-prop-10-cor-3 .statement tag=0AF7}
 
 Soient $G$ un groupe de Lie, $\rho$ une représentation linéaire analytique de $G$, $x \in L(G)$ et $g \in G$.
 (i) $\rho(\exp x) = \exp L(\rho)x$;
@@ -381,18 +381,18 @@ Soient $G$ un groupe de Lie, $\rho$ une représentation linéaire analytique de 
 (iii) $g(\exp x)g^{-1} = \exp(\mathrm{Ad}\, g.x)$.
 On raisonne comme au § 4, n° 4, cor. 2 et 3 de la prop. 8.
 
-#### Corollaire 4 {#lie-iii-s6-prop-10-cor-4 .statement}
+#### Corollaire 4 {#lie-iii-s6-prop-10-cor-4 .statement tag=0AF8}
 
 Soit $G$ un groupe de Lie connexe de dimension finie.
 (i) On a $\mathrm{Int}(L(G)) = \mathrm{Ad}(G)$.
 (ii) Soit $Z$ le centre de $G$. Alors $Z$ est un sous-groupe de Lie de $G$ dont l’algèbre de Lie est le centre de $L(G)$. L’application de $G/Z$ dans $\mathrm{Int}\, L(G)$ déduite de $g \mapsto \mathrm{Ad}\, g$ par passage au quotient est un isomorphisme de groupes de Lie.
 L’assertion (i) résulte du cor. 3 (ii) et des remarques suivant la déf. 2. Soit $g \in G$. Pour que $\mathrm{Ad}\, g = \mathrm{Id}_{L(G)}$, il faut et il suffit que $\mathrm{Int}\, g$ coïncide avec $\mathrm{Id}_G$ dans un voisinage de $e$ (§ 4, n° 1, th. 1(ii)), donc dans $G$ tout entier; autrement dit, il faut et il suffit que $g \in Z$. Ceci posé, (ii) résulte du cor. 1 de la prop. 1.
 
-#### Définition 3 {#lie-iii-s6-def-3 .statement}
+#### Définition 3 {#lie-iii-s6-def-3 .statement tag=0AF9}
 
 Soit $G$ un groupe de Lie connexe de dimension finie. Le groupe de Lie $\mathrm{Int}(L(G)) = \mathrm{Ad}(G)$ s’appelle le groupe adjoint de $G$.
 
-#### Proposition 11 {#lie-iii-s6-prop-11 .statement}
+#### Proposition 11 {#lie-iii-s6-prop-11 .statement tag=0AFA}
 
 Soit $G$ un groupe de Lie commutatif connexe.
 (i) $\exp$ est un morphisme étale du groupe de Lie additif $L(G)$ sur $G$.
@@ -405,7 +405,7 @@ $$
 
 D’où (i). L’assertion (ii) résulte de (i) et de TG, VII, § 1, prop. 9.
 
-#### Proposition 12 {#lie-iii-s6-prop-12 .statement}
+#### Proposition 12 {#lie-iii-s6-prop-12 .statement tag=0AFB}
 
 *Soient G un groupe de Lie, et L = L(G). Pour tout x ∈ L, identifions T_x(L) à L, de sorte que la différentielle droite ω(x) de exp en x est une application linéaire de L dans L. Pour tout x ∈ L, on a*
 
@@ -415,7 +415,7 @@ $$
 
 Les deux membres sont des fonctions analytiques de x, et sont égaux pour x assez voisin de 0 (§ 4, n° 3, prop. 6).
 
-#### Remarque {#lie-iii-s6-n4-rem-1 .statement}
+#### Remarque {#lie-iii-s6-n4-rem-1 .statement tag=0AFC}
 
 On a ω(x) . (ad x) = exp ad x − 1. On écrit, par abus de notation,
 
@@ -423,13 +423,13 @@ $$
 \omega(x) = \frac{\exp \mathrm{ad}\ x - 1}{\mathrm{ad}\ x}.
 $$
 
-#### Corollaire {#lie-iii-s6-n4-cor-1 .statement}
+#### Corollaire {#lie-iii-s6-n4-cor-1 .statement tag=0AFD}
 
 *Soient G un groupe de Lie complexe, et x ∈ L(G). L’application tangente en x à exp_G a pour noyau $\bigoplus_{n \in \mathbf{Z} - \{0\}} \mathrm{Ker}(\mathrm{ad}\ x - 2i\pi n)$.*
 
 La fonction entière $z \mapsto \sum_{n \geq 0} \frac{1}{(n + 1)!} z^n$, égale à $\frac{e^z - 1}{z}$ pour $z \neq 0$, admet pour zéros les points de $2\pi i \mathbf{Z} - \{0\}$, qui sont tous des zéros simples. Le corollaire résulte alors de la prop. 12 et du lemme suivant:
 
-#### Lemme 2 {#lie-iii-s6-lem-2 .statement}
+#### Lemme 2 {#lie-iii-s6-lem-2 .statement tag=0AFE}
 
 *Soient E un espace de Banach complexe, u un élément de $\mathscr{L}(E)$, S le spectre de u dans $\mathscr{L}(E)$ (TS, I, § 1, n° 2), f une fonction complexe holomorphe dans un voisinage ouvert Ω de S. On suppose que f n’admet dans Ω qu’un nombre fini de zéros $z_1, \ldots, z_n$ deux à deux distincts, de multiplicités $h_1, \ldots, h_n$. Alors Kerf(u) est somme directe des Ker$(u - z_i)^{h_i}$ pour $1 \leq i \leq n$.
 
@@ -439,7 +439,7 @@ Il existe une fonction holomorphe g dans Ω, partout non nulle, telle que $f(z) 
 
 ### 5. Application aux représentations linéaires
 
-#### Proposition 13 {#lie-iii-s6-prop-13 .statement}
+#### Proposition 13 {#lie-iii-s6-prop-13 .statement tag=0AFF}
 
 Soient G un groupe de Lie connexe, ρ une représentation linéaire analytique de G dans un espace normable complet E. Soient E₁, E₂ deux sous-espaces vectoriels fermés de E tels que E₂ ⊂ E₁. Les conditions suivantes sont équivalentes:
 (i) ρ(g)x ≡ x (mod E₂) pour tout g ∈ G et tout x ∈ E₁;
@@ -461,34 +461,34 @@ $$
 $$
 d’où la proposition.
 
-#### Corollaire 1 {#lie-iii-s6-prop-13-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s6-prop-13-cor-1 .statement tag=0AFG}
 
 Pour que E₁ soit stable pour ρ, il faut et il suffit que E₁ soit stable pour L(ρ).
 Il suffit de faire E₁ = E₂ dans la prop 13.
 
-#### Corollaire 2 {#lie-iii-s6-prop-13-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s6-prop-13-cor-2 .statement tag=0AFH}
 
 Supposons ρ de dimension finie. Pour que ρ soit simple (resp. semi-simple), il faut et il suffit que L(ρ) soit simple (resp. semi-simple).
 Cela résulte du cor. 1.
 
-#### Corollaire 3 {#lie-iii-s6-prop-13-cor-3 .statement}
+#### Corollaire 3 {#lie-iii-s6-prop-13-cor-3 .statement tag=0AFI}
 
 Soit x ∈ E. Pour que x soit invariant par ρ(G), il faut et il suffit que x soit annulé par L(ρ)(L(G)) (c’est-à-dire que x soit invariant par L(ρ) au sens du chap. I, § 3, déf. 3).
 Il suffit de faire E₁ = Kx, E₂ = 0 dans la prop. 13.
 
-#### Corollaire 4 {#lie-iii-s6-prop-13-cor-4 .statement}
+#### Corollaire 4 {#lie-iii-s6-prop-13-cor-4 .statement tag=0AFJ}
 
 Soit ρ' une autre représentation linéaire analytique de G dans un espace normable complet E'. Soit T ∈ $\mathscr{L}(E, E')$. Les conditions suivantes sont équivalentes:
 (i) Tρ(g) = ρ'(g)T pour tout g ∈ G;
 (ii) TL(ρ)(a) = L(ρ')(a)T pour tout a ∈ L(G).
 Soit σ la représentation linéaire de G dans $\mathscr{L}(E, E')$ déduite de ρ et ρ' (§ 3, n° 11, cor. 1 de la prop. 41). La condition (i) signifie que T est invariant par σ(G). La condition (ii) signifie que T est annulé par L(σ)(L(G)). Il suffit alors d’appliquer le cor. 3.
 
-#### Corollaire 5 {#lie-iii-s6-prop-13-cor-5 .statement}
+#### Corollaire 5 {#lie-iii-s6-prop-13-cor-5 .statement tag=0AFK}
 
 Supposons ρ et ρ' de dimension finie. Pour que ρ et ρ' soient équivalentes, il faut et il suffit que L(ρ) et L(ρ') soient équivalentes.
 C’est un cas particulier du cor. 4.
 
-#### Corollaire 6 {#lie-iii-s6-prop-13-cor-6 .statement}
+#### Corollaire 6 {#lie-iii-s6-prop-13-cor-6 .statement tag=0AFL}
 
 Supposons G de dimension finie. Soit t ∈ U(G). Pour que L_t (resp. R_t) soit invariant à droite (resp. à gauche), il faut et il suffit que t appartienne au centre de U(G).
 
@@ -496,7 +496,7 @@ Pour que L_t (resp. R_t) soit invariant à droite (resp. à gauche), il faut et 
 
 ### 6. Sous-groupes intégraux distingués
 
-#### Lemme 3 {#lie-iii-s6-lem-3 .statement}
+#### Lemme 3 {#lie-iii-s6-lem-3 .statement tag=0AFM}
 
 Soient G un groupe de Lie, H_1 et H_2 des sous-groupes intégraux dont la topologie admet une base dénombrable, et g ∈ G. Alors
 
@@ -506,7 +506,7 @@ $$
 
 On a Ad g = T_e(Int g). Donc, par transport de structure, (Int g)(H_1) a pour algèbre de Lie (Ad g)(L(H_1)). Comme H_1 et H_2 sont à base dénombrable, dire que les ensembles H_2 et (Int g)(H_1) sont égaux revient à dire que les sous-groupes intégraux H_2 et (Int g)H_1 sont égaux (n° 2, cor. 3 de la prop. 3). Ceci posé, le lemme résulte du th. 2 (i).
 
-#### Proposition 14 {#lie-iii-s6-prop-14 .statement}
+#### Proposition 14 {#lie-iii-s6-prop-14 .statement tag=0AFN}
 
 Soient G un groupe de Lie, H un sous-groupe intégral dont la topologie admet une base dénombrable. Les conditions suivantes sont équivalentes:
 (i) H est distingué dans G;
@@ -519,7 +519,7 @@ L’équivalence (i) ⇔ (ii) résulte du lemme 3. Si de plus G est connexe, la 
 
 Supposons que G soit simplement connexe et que L(H) soit un idéal de codimension finie dans L(G). D’après le th. 3 du n° 3, il existe un groupe de Lie simplement connexe G' tel que L(G') soit isomorphe à L(G)/L(H). Il existe un morphisme continu f de L(G) sur L(G') de noyau L(H). D’après le th. 1 du n° 1, il existe un morphisme φ de G dans G' tel que L(φ) = f. Ce morphisme est une submersion, donc son noyau N est un sous-groupe de Lie de G tel que L(N) = Ker f = L(H). Donc H est la composante neutre de N et est par suite un sous-groupe de Lie de G. Soit ψ le morphisme de G/H dans G' déduit de φ par passage au quotient. Ce morphisme est étale; puisque G' est simplement connexe, ψ est un isomorphisme de G/H sur G'.
 
-#### Corollaire 1 {#lie-iii-s6-prop-14-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s6-prop-14-cor-1 .statement tag=0AFO}
 
 Soit $G$ un groupe de Lie simplement connexe de dimension finie. Soient $m, h$ des sous-algèbres de Lie de $L(G)$ telles que $L(G)$ soit produit semi-direct de $m$ par $h$. Soient $M, H$ les sous-groupes intégraux correspondants de $G$. Alors $M$ et $H$ sont des sous-groupes de Lie simplement connexes de $G$, et, en tant que groupe de Lie, $G$ est produit semi-direct de $M$ par $H$.
 
@@ -531,7 +531,7 @@ $$
 
 donc $\pi \circ \theta = \mathrm{Id}_{G/H}$. D’après le n° 1, cor. 1 de la prop. 1, $\theta(G/H) = M$. D’après la prop. 8 du § 1, n° 4, $M$ est un sous-groupe de Lie de $G$, et le groupe de Lie $G$ est produit semi-direct de $M$ par $H$.
 
-#### Corollaire 2 {#lie-iii-s6-prop-14-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s6-prop-14-cor-2 .statement tag=0AFP}
 
 Soient $G$ un groupe de Lie simplement connexe de dimension finie, $H$ un sous-groupe de Lie connexe distingué de $G$, et $\pi$ le morphisme canonique de $G$ sur $G/H$.
 
@@ -564,7 +564,7 @@ L’assertion (ii) est évidente. L’assertion (iii) résulte de (i) et (ii).
 
 Les conclusions du cor. 2 ne sont plus nécessairement vraies quand G est de dimension infinie, ou quand H n’est pas distingué (exerc. 8 et 15).
 
-#### Corollaire 3 {#lie-iii-s6-prop-14-cor-3 .statement}
+#### Corollaire 3 {#lie-iii-s6-prop-14-cor-3 .statement tag=0AFQ}
 
 Soient G un groupe de Lie connexe de dimension finie, H un sous-groupe de Lie connexe distingué de G. Le morphisme canonique de $\pi_1(H)$ dans $\pi_1(G)$ est injectif.
 
@@ -572,7 +572,7 @@ Soient $G_1$ le revêtement universel de G, $\lambda$ l’application canonique 
 
 ### 7. Primitives des formes différentielles à valeurs dans une algèbre de Lie
 
-#### Proposition 15 {#lie-iii-s6-prop-15 .statement}
+#### Proposition 15 {#lie-iii-s6-prop-15 .statement tag=0AFR}
 
 Soient G un groupe de Lie, M une variété de classe $C^r$ ($r \geqslant 2$), $\alpha$ une forme différentielle de classe $C^{r-1}$ et de degré 1 sur M à valeurs dans $L(G)$, telle que $d\alpha + [\alpha]^2 = 0$. On suppose M simplement connexe. Pour tout $x \in M$ et tout $s \in G$, il existe une application f de classe $C^{r-1}$ de M dans G et une seule telle que $f(x) = s$ et $f^{-1}.df = \alpha$.
 
@@ -580,18 +580,18 @@ L’unicité de f résulte du § 3, no 17, cor. 2 de la prop. 59, et du fait que
 
 ### 8. Passage des lois d’opérations infinitésimales aux lois d’opérations
 
-#### Lemme 4 {#lie-iii-s6-lem-4 .statement}
+#### Lemme 4 {#lie-iii-s6-lem-4 .statement tag=0AFS}
 
 Soient G un groupe topologique connexe, X un espace topologique séparé, et $f_1, f_2$ des lois d’opérations à gauche (resp. à droite) de G dans X telles que, pour tout $x \in X$, les applications $s \mapsto f_1(s, x), s \mapsto f_2(s, x)$ de G dans X soient continues. On suppose qu’il existe un voisinage V de $\{e\} \times X$ dans $G \times X$ tel que $f_1$ et $f_2$ coïncident sur V. Alors $f_1 = f_2$.
 
 Soient $x \in X$, et A l’ensemble des $g \in G$ tels que $f_1(g, x) = f_2(g, x)$. Alors A est fermé dans G. D’autre part, soit $g \in A$; posons $y = f_1(g, x) = f_2(g, x)$. Il existe un voisinage U de e dans G tel que $f_1(t, y) = f_2(t, y)$ pour $t \in U$, autrement dit tel que $f_1(t', x) = f_2(t', x)$ pour $t' \in Ug$ (resp. $gU$). Donc A est ouvert dans G, et par suite $A = G$.
 
-#### Proposition 16 {#lie-iii-s6-prop-16 .statement}
+#### Proposition 16 {#lie-iii-s6-prop-16 .statement tag=0AFT}
 
 *Soient G un groupe de Lie connexe, X une variété séparée de classe $C^r$, et $f_1, f_2$ des lois d’opérations à gauche (resp. à droite) de classe $C^r$ de G dans X. Si les lois d’opérations infinitésimales associées à $f_1$ et $f_2$ sont égales, on a $f_1 = f_2$.*
    D’après le § 4, n° 7, cor. de la prop. 11, il existe un voisinage V de $\{e\} \times X$ dans $G \times X$ tel que $f_1$ et $f_2$ coïncident dans V. Donc $f_1 = f_2$ (lemme 4).
 
-#### Lemme 5 {#lie-iii-s6-lem-5 .statement}
+#### Lemme 5 {#lie-iii-s6-lem-5 .statement tag=0AFU}
 
 *Soient G un groupe topologique simplement connexe, X un espace topologique séparé, U un voisinage ouvert de e dans G, $\psi$ une application continue de $U \times X$ dans X telle que $\psi(e, x) = x$ et $\psi(s, \psi(t, x)) = \psi(st, x)$ quels que soient $x \in X$ et $s, t$ dans U tels que $st \in U$. Soit W un voisinage ouvert connexe symétrique de e tel que $W^3 \subset U$. Il existe une loi d’opération à gauche continue $\psi'$ de G dans X et une seule telle que $\psi'$ et $\psi$ coïncident dans $W \times X$. Si G est un groupe de Lie et X une variété de classe $C^r$, et si $\psi$ est de classe $C^r$, alors $\psi'$ est de classe $C^r$.
    L’unicité de $\psi$ résulte du lemme 4. Soit P le groupe des permutations de X. Pour $u \in W^3$, l’application $x \mapsto \psi(u, x)$ est un élément $f(u)$ de P, et
@@ -600,20 +600,20 @@ Soient $x \in X$, et A l’ensemble des $g \in G$ tels que $f_1(g, x) = f_2(g, x
    $$
    pour $u_1, u_2, u_3$ dans W. Appliquant le lemme 1 du n° 1, on obtient un morphisme $f'$ de G dans P qui prolonge $f|W$. Posons $\psi'(g, x) = f'(g)(x)$ pour tout $(g, x) \in G \times X$. Alors $\psi'$ est une loi d’opération à gauche de G dans X qui coïncide avec $\psi$ dans $W \times X$. Comme $\psi'(g, \psi'(g', x)) = \psi'(gg', x)$ pour $(g, g', x) \in G \times G \times X$, la continuité de $\psi$ dans $W \times X$ entraîne la continuité de $\psi'$ dans $gW \times X$ quel que soit $g \in G$. Donc $\psi'$ est continue. Si $\psi$ est de classe $C^r$, on voit de même que $\psi'$ est de classe $C^r$.
 
-#### Théorème 5 {#lie-iii-s6-thm-5 .statement}
+#### Théorème 5 {#lie-iii-s6-thm-5 .statement tag=0AFV}
 
 *Soient G un groupe de Lie simplement connexe, X une variété compacte de classe $C^r$ ($r \geq 2$), et $a \mapsto D_a$ une loi d’opération infinitésimale à gauche (resp. à droite) de classe $C^{r-1}$ de $L(G)$ dans X. Il existe une loi d’opération à gauche (resp. à droite) de classe $C^{r-1}$, et une seule, de G dans X telle que la loi d’opération infinitésimale associée soit $a \mapsto D_a$.
    L’unicité résulte de la prop. 16. D’après le § 4, n° 7, cor. 1 du th. 6, il existe un voisinage V de $\{e\} \times X$ dans $G \times X$, et un morceau de loi d’opération à gauche (resp. à droite) de classe $C^{r-1}$ de G dans X, défini dans V, tel que la loi d’opération infinitésimale associée soit $a \mapsto D_a$. Comme X est compacte, on peut supposer V de la forme $U \times X$, où U est un voisinage ouvert de e dans G. Il suffit alors d’appliquer le lemme 5.
 
 ### 9. Application exponentielle dans le groupe linéaire
 
-#### Proposition 17 {#lie-iii-s6-prop-17 .statement}
+#### Proposition 17 {#lie-iii-s6-prop-17 .statement tag=0AFW}
 
 Soient $\Delta$ l’ensemble des $z \in \mathbf{C}$ tels que $-\pi < \mathscr{J}(z) < \pi$, et $\Delta'$ l’ensemble des $z \in \mathbf{C}$ qui ne sont pas réels $\leqslant 0$. Soient $E$ un espace normable complet sur $\mathbf{C}$, $A$ (resp. $A'$) l’ensemble des $x \in \mathscr{L}(E)$ dont le spectre $\mathrm{Sp}\,x$ est contenu dans $\Delta$ (resp. dans $\Delta'$). Alors $A$ (resp. $A'$) est une partie ouverte de $\mathscr{L}(E)$ (resp. de $\mathbf{GL}(E)$), et les applications $\exp : A \to A'$ et $\log : A' \to A$ (TS, I, § 4, n° 9) sont des isomorphismes réciproques de variétés analytiques.
 
 Cela résulte de TS, I, § 4, prop. 10 et n° 9.
 
-#### Théorème 6 {#lie-iii-s6-thm-6 .statement}
+#### Théorème 6 {#lie-iii-s6-thm-6 .statement tag=0AFX}
 
 Soient $E$ un espace hilbertien réel ou complexe, $U$ le groupe unitaire de $E$.
 
@@ -631,13 +631,13 @@ Supposons $K = \mathbf{C}$. Avec les notations de la prop. 17, $H'$ est l’ense
 
 Supposons $K = \mathbf{R}$. Soient $\tilde{E}$ l’espace hilbertien complexifié de $E$ et $J$ l’application $\xi + i\eta \mapsto \xi - i\eta$ (pour $\xi, \eta$ dans $E$) de $\tilde{E}$ dans $\tilde{E}$. Notons $\tilde{H}, \tilde{H}', \tilde{U}$ les ensembles définis pour $\tilde{E}$ comme $H, H', U$ pour $E$. Alors $H$ (resp. $H', U$) s’identifie à l’ensemble des $x \in \tilde{H}$ (resp. $\tilde{H}', \tilde{U}$) tels que $J x J^{-1} = x$. Les propriétés (ii), (iii), (iv) résultent alors facilement de (i) et des propriétés analogues dans le cas complexe.
 
-#### Proposition 18 {#lie-iii-s6-prop-18 .statement}
+#### Proposition 18 {#lie-iii-s6-prop-18 .statement tag=0AFY}
 
 Soient $E$ un espace normable complet sur $\mathbf{C}$, $v \in \mathscr{L}(E)$, et $g = \exp v$. On suppose que $\mathrm{Sp}(v)$ ne contient aucun des points $2i\pi n$ avec $n \in \mathbf{Z} - \{0\}$. Alors, pour tout $x \in E$, les conditions $vx = 0$ et $gx = x$ sont équivalentes.
 
 Cela résulte du lemme 2 du n° 4, appliqué à la fonction $z \mapsto e^z - 1$.
 
-#### Corollaire 1 {#lie-iii-s6-prop-18-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s6-prop-18-cor-1 .statement tag=0AFZ}
 
 Soient $E$ un espace normable complet sur $\mathbf{C}$, $F$ l’espace des applications n-linéaires continues de $E^n$ dans $E$. Pour tout $v \in \mathscr{L}(E)$, soit $\sigma(v)$ l’élément de $\mathscr{L}(F)$ défini par
 $$
@@ -651,7 +651,7 @@ Soit $u \in \mathscr{L}(E)$ tel que tout $z \in \mathrm{Sp}\,u$ vérifie $|\math
 
 On a $\mathbf{L}(\rho) = \sigma$ (§ 3, no 11, cor. 1 de la prop. 41), donc $\rho(\exp u) = \exp \sigma(u)$ (no 4, cor. 3 de la prop. 10). Compte tenu de la prop. 18, il suffit alors de prouver que $\mathrm{Sp}\,\sigma(u)$ ne rencontre pas $2i\pi(\mathbf{Z} - \{0\})$. Or cela résulte du lemme suivant:
 
-#### Lemme 6 {#lie-iii-s6-lem-6 .statement}
+#### Lemme 6 {#lie-iii-s6-lem-6 .statement tag=0AG0}
 
 Si $v \in \mathscr{L}(E)$, on a $\mathrm{Sp}\,\sigma(v) \subset \mathrm{Sp}\,v + \mathrm{Sp}\,v + \cdots + \mathrm{Sp}\,v$ où la somme comporte $n+1$ termes.
 
@@ -664,7 +664,7 @@ $$
 $$
 Alors $\sigma(v) = \sum_{i=0}^n v_i$, et les $v_i$ sont deux à deux permutables. Soit $A$ la sous-algèbre fermée pleine de $\mathscr{L}(F)$ engendrée par les $v_i$; elle est commutative (TS, I, § 1, no 4), et $\mathrm{Sp}_{\mathscr{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (TS, I, § 3, prop. 3 (ii)). Or, si $\lambda \in \mathbf{C}$ est tel que $v - \lambda$ soit inversible, il est clair que les $v_i - \lambda$ sont inversibles, donc $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ pour tout $i$.
 
-#### Corollaire 2 {#lie-iii-s6-lem-6-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s6-lem-6-cor-2 .statement tag=0E8N}
 
 Soient $E$ une algèbre normable complète sur $\mathbf{C}$, et $w \in \mathscr{L}(E)$. On suppose que tout $z \in \mathrm{Sp}\,w$ vérifie $|\mathscr{J}(z)| < \frac{2\pi}{3}$. Les conditions suivantes sont équivalentes:
 (i) $w$ est une dérivation de $E$;
@@ -672,13 +672,13 @@ Soient $E$ une algèbre normable complète sur $\mathbf{C}$, et $w \in \mathscr{
 
 Cela résulte du cor. 1 où l’on fait $n = 2$ et où l’on prend pour $f$ la multiplication de $E$.
 
-#### Proposition 19 {#lie-iii-s6-prop-19 .statement}
+#### Proposition 19 {#lie-iii-s6-prop-19 .statement tag=0AG2}
 
 Soient $E$ un espace normable complet sur $\mathbf{C}$, $v \in \mathscr{L}(E)$, et $g = \exp v$. On suppose que tout $z \in \mathrm{Sp}\,v$ vérifie $-\pi < \mathscr{J}(z) < \pi$. Alors, pour tout sous-espace vectoriel fermé $E'$ de $E$, les conditions $v(E') \subset E'$ et $g(E') = E'$ sont équivalentes.
 
 La condition $v(E') \subset E'$ entraîne $g(E') \subset E'$ et $g^{-1}(E') \subset E'$ donc $g(E') = E'$. Supposons $g(E') = E'$. Utilisons les notations $\Delta, \Delta'$ de la prop. 17. Puisque $\mathrm{Sp}\,v$ est une partie compacte de $\Delta$, il existe un rectangle compact $Q = \{a, b\} \times \{a', b'\}$ tel que $Sp\ v \subset Q \subset \Delta$. L’ensemble $\Delta - Q$ est connexe. Donc $Sp\ g \subset \exp Q \subset \Delta'$, l’ensemble $\exp Q$ est compact, et l’ensemble $\Delta' - \exp Q$ est connexe. L’adhérence de ce dernier contient $]-\infty, 0]$, donc $(\Delta' - \exp Q) \cup ]-\infty, 0] = \mathbf{C} - \exp Q$ est connexe. Alors $\exp Q$ est polynomialement convexe (TS, I, , cor. 2 de la prop. 9), donc la fonction log, définie dans $\Delta'$, est limite dans $\mathscr{O}(\exp Q)$ de fonctions polynômes (TS, I, § 4, prop. 3). Donc $v = \log g$ est limite dans $\mathscr{L}(E)$ d’éléments de la forme $P(g)$, où $P$ est un polynôme (TS, I, § 4, th. 3). Comme $P(g)(E') \subset E'$, on en déduit que $v(E') \subset E'$
 
-#### Corollaire {#lie-iii-s6-n9-cor-1 .statement}
+#### Corollaire {#lie-iii-s6-n9-cor-1 .statement tag=0AG3}
 
 *Soient E un espace normable complet sur $\mathbf{C}$, $v \in \mathscr{L}(E)$, et $g = \exp v$. On suppose que tout $z \in Sp\ v$ vérifie $-\frac{\pi}{2} < \mathscr{J}(z) < \frac{\pi}{2}$. Alors, pour tout sous-espace vectoriel fermé M de $\mathscr{L}(E)$, les conditions $gMg^{-1} = M$ et $[v, M] \subset M$ sont équivalentes.*
 
@@ -686,7 +686,7 @@ Soient $F = \mathscr{L}(E)$, $g'$ l’application $f \mapsto gfg^{-1}$ de $F$ da
 
 ### 10. Complexification d’un groupe de Lie réel de dimension finie
 
-#### Lemme 7 {#lie-iii-s6-lem-7 .statement}
+#### Lemme 7 {#lie-iii-s6-lem-7 .statement tag=0AG4}
 
 *Soient B un groupe, A un sous-groupe distingué de B, C le groupe B/A, i : A → B et p : B → C les morphismes canoniques. Soient A' un groupe, f un homomorphisme de A dans A'. Soit ω un morphisme de B dans le groupe des automorphismes de A'. On suppose que, pour $a \in A, a' \in A', b \in B$, on a*
 
@@ -761,7 +761,7 @@ g(b)i'(a')g(b)^{-1} = r(b)r(a')r(b)^{-1} = r(ba'b^{-1})
 = r(\omega(b)a') = i'(\omega(b)a').
 $$
 
-#### Proposition 20 {#lie-iii-s6-prop-20 .statement}
+#### Proposition 20 {#lie-iii-s6-prop-20 .statement tag=0AG5}
 
 Soit G un groupe de Lie réel de dimension finie.
 
@@ -837,11 +837,11 @@ $$
 $$
 donc $\psi' \circ \tilde{i} = \psi \circ \tilde{i}$. Comme $\tilde{G}$ est engendré par $\tilde{i}(\tilde{F})$ et $\gamma(G)$, on a $\psi' = \psi$.
 
-#### Définition 4 {#lie-iii-s6-def-4 .statement}
+#### Définition 4 {#lie-iii-s6-def-4 .statement tag=0AG6}
 
 *On dit que* $(\tilde{G}, \gamma)$, *ou simplement* $\tilde{G}$, *est la complexification universelle de* $G$.
 
-#### Remarque 1 {#lie-iii-s6-n10-rem-1 .statement}
+#### Remarque 1 {#lie-iii-s6-n10-rem-1 .statement tag=0AG7}
 
 Soit $(\tilde{G}, \gamma)$ la complexification universelle de $G$. Soit $G_0$ (resp. $\tilde{G}_0$) la composante neutre de $G$ (resp. $\tilde{G}$). D’après la démonstration de la prop. 20, $(\tilde{G}_0, \gamma|G_0)$ est la complexification universelle de $G_0$, et le morphisme composé
 $$
@@ -849,7 +849,7 @@ G \to \tilde{G} \to \tilde{G}/\tilde{G}_0
 $$
 définit par passage au quotient un isomorphisme de $G/G_0$ sur $\tilde{G}/\tilde{G}_0$.
 
-#### Remarque 2 {#lie-iii-s6-n10-rem-2 .statement}
+#### Remarque 2 {#lie-iii-s6-n10-rem-2 .statement tag=0E8O}
 
 Supposons $G$ simplement connexe. Soient $g = L(G)$, $g_C$ la complexification de $g$, $S'$ le groupe de Lie complexe simplement connexe d’algèbre de Lie $g_C$, $\sigma$ le morphisme de $G$ dans $S'$ tel que $L(\sigma)$ soit l’injection canonique de $g$ dans $g_C$. Reprenons les notations de la démonstration de la prop. 20, partie *a*). Si $H = S'$ et $\varphi = \sigma$, on a $\varphi^* = \mathrm{Id}_{S'}$. Donc $(S', \sigma)$ est la complexification universelle de $G$. On notera que $\sigma$ n’est pas injectif en général (exerc. 16); toutefois *son noyau est discret* puisque $L(\sigma)$ est injectif. D’autre part, soit $\theta$ l’involution de $g_C$ définie par $g$, et soit $\eta$ l’automorphisme correspondant du groupe de Lie réel sous-jacent à $S'$; soit ${S'}^n$ l’ensemble des points de $S'$ invariants par $\eta$; c’est un sous-groupe de Lie réel de $S'$ d’algèbre de Lie $g$ (§ 3, n° 8, cor. 1 de la prop. 29). D’après le n° 1, cor. 1 de la prop. 1, $\sigma(G)$ est le sous-groupe intégral réel de $S'$ d’algèbre de Lie $g$, donc $\sigma(G)$ *est la composante neutre de* ${S'}^n$; en particulier $\sigma(G)$ est un sous-groupe de Lie réel de $S'$.
 

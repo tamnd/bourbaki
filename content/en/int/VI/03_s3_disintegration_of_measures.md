@@ -33,7 +33,7 @@ subsections:
       pdf_page: 441
 statements: 16
 exercises: 12
-content_sha256: 750dc65d96c7938829c2e5588a97c1f03c8e0f04512b8bc62408a08635b07019
+content_sha256: af4e8435c165da3e46c8e743b1fe384a343285c290d2c1854e12b375334ea66b
 ---
 
 ## § 3. DISINTEGRATION OF MEASURES
@@ -42,25 +42,25 @@ content_sha256: 750dc65d96c7938829c2e5588a97c1f03c8e0f04512b8bc62408a08635b07019
 
 Let T be a locally compact space having a countable base (in other words, a locally compact Polish space (GT, IX, §6, No. 1). We know that for every positive measure on T, the concepts of integral and essential integral coincide (Ch. V, §1, No. 3, Cor. of Prop. 9). On the other hand, we have the following properties:
 
-#### Lemma 1 {#int-vi-s3-lem-1 .statement}
+#### Lemma 1 {#int-vi-s3-lem-1 .statement tag=09C0}
 
 *If Y is a locally compact space with a countable base, the space $\mathscr{H}(Y)$ contains a countable dense subset. More precisely, there exists in $\mathscr{H}(Y)$ a countable subset S consisting of functions $\geq 0$, such that, for every function $f \geq 0$ of $\mathscr{H}(Y)$, there exists a sequence of functions $f_n \in S$ ($n \geq 0$) that converges uniformly to $f$ and is such $f_n \leq f_0$ for all $n \geq 0$.
 
 For, Y is the union of an increasing sequence $(U_n)$ of relatively compact open sets such that $\overline{U}_n \subset U_{n+1}$ for all $n$ (GT, I, §9, No. 9, Prop. 15); the space $\mathscr{H}(Y)$ is the union of the increasing sequence of Banach spaces $\mathscr{H}(Y, \overline{U}_n)$, and each of the latter is known to be separable (GT, Ch. X, §3, No. 3, Th. 1). Let $S'_n$ be a countable dense set in $\mathscr{H}(Y, \overline{U}_n)$, $S_n$ the set of functions $\varphi^+$ for $\varphi \in S'_n$, and $u_n$ a function in $\mathscr{H}(Y, \overline{U}_{n+1})$, with values in $[0, 1]$ and equal to 1 on $U_n$. We take for S the union of the $S_n$ and the set of $m u_n$ for $m$ and $n$ integers $\geq 0$. For every function $f \geq 0$ of $\mathscr{H}(Y)$, $f$ has support contained in one of the $U_n$, hence is the uniform limit of a sequence of functions $f_p \in S_n$ ($p \geq 1$). These functions $f_p$ are uniformly bounded by a positive integer $m$, and it suffices to take $f_0 = m u_n$.*
 
-#### Lemma 2 {#int-vi-s3-lem-2 .statement}
+#### Lemma 2 {#int-vi-s3-lem-2 .statement tag=09C1}
 
 *If T is a locally compact space with a countable base, then the Banach space $\mathscr{K}(Y)$ of continuous numerical functions tending to 0 at the point at infinity is separable.*
 
 This lemma is none other than the Cor. to Th. 1 of GT, X, §3, No. 3. One may observe that it also follows from Lemma 1 and the fact that the topology of uniform convergence on $\mathscr{K}(Y)$ is coarser than the direct limit topology of the topologies of the subspaces $\mathscr{K}(Y, \overline{U}_n)$.
 
-#### Lemma 3 {#int-vi-s3-lem-3 .statement}
+#### Lemma 3 {#int-vi-s3-lem-3 .statement tag=09C2}
 
 — *Let T and X be two locally compact spaces with countable bases, $\mu$ a positive measure on T, and $t \mapsto \lambda_t$ ($t \in T$) a family of positive measures on X. If the mapping $t \mapsto \lambda_t$ is scalarly $\mu$-integrable (for the topology $\sigma(\mathscr{M}(X), \mathscr{K}(X))$), then the family $t \mapsto \lambda_t$ is $\mu$-adequate ($§ 1$, No. 1, Example).*
 
 For, Lemma 1, applied to $\mathscr{K}(X)$, shows that the mapping $t \mapsto \lambda_t$ is vaguely $\mu$-measurable ($§ 1$, No. 5, Prop. 13).
 
-#### Theorem 1 {#int-vi-s3-thm-1 .statement}
+#### Theorem 1 {#int-vi-s3-thm-1 .statement tag=09C3}
 
 *Let T and B be two locally compact spaces having countable bases, $\mu$ a positive measure on T, p a $\mu$-proper mapping (Ch. V, §6, No. 1, Def. 1) of T into B, and $\nu = p(\mu)$ the image of $\mu$ under p. Then there exists a $\nu$-adequate family ($§ 1$, No. 1, Example) $b \mapsto \lambda_b$ ($b \in B$) of positive measures on T, having the following properties:
 
@@ -126,11 +126,11 @@ Every $\nu$-adequate family $b \mapsto \lambda_b$ of positive measures on T, hav
 
 ### 2. Pseudo-image measures
 
-#### Definition 1 {#int-vi-s3-def-1 .statement}
+#### Definition 1 {#int-vi-s3-def-1 .statement tag=09C4}
 
 *Let T and B be two locally compact spaces, $\mu$ a positive measure on T, and p a $\mu$-measurable mapping of T into B. A positive measure $\nu$ on B is said to be a pseudo-image measure of $\mu$ under p if it satisfies the following condition: for a subset N of B to be locally $\nu$-negligible, it is necessary and sufficient that $\overline{p}^{-1}(N)$ be locally $\mu$-negligible.*
 
-#### Example {#int-vi-s3-n2-exa-1 .statement}
+#### Example {#int-vi-s3-n2-exa-1 .statement tag=09C5}
 
 — 1) If $p$ is $\mu$-proper and $\nu = p(\mu)$, then $\nu$ is a pseudo-image measure of $\mu$ under $p$ (Ch. V, §6, No. 2, Cor. 2 of Prop. 2).
 
@@ -140,7 +140,7 @@ Note that if $\nu$ is a pseudo-image measure of $\mu$ under $p$, then $\nu$ is c
 
 If $\nu$ is a pseudo-image of $\mu$ under $p$, the set of measures that are pseudo-images of $\mu$ under $p$ is the class of positive measures equivalent to $\nu$, and every positive measure equivalent to $\mu$ admits the same pseudo-image measures under $p$. The class of $\nu$ is said to be the *pseudo-image class* of that of $\mu$ under $p$.
 
-#### Proposition 1 {#int-vi-s3-prop-1 .statement}
+#### Proposition 1 {#int-vi-s3-prop-1 .statement tag=09C6}
 
 — *Let T be a locally compact space countable at infinity, $\mu$ a positive measure on T, and $p$ a $\mu$-measurable mapping of T into a locally compact space B. Then there exists a pseudo-image measure of $\mu$ under $p$.*
 
@@ -148,7 +148,7 @@ For, there exists a *bounded* measure $\mu'$ on T equivalent to $\mu$ (Ch. V, §
 
 ### 3. Disintegration of a measure $\mu$ relative to a pseudo-image of $\mu$
 
-#### Theorem 2 {#int-vi-s3-thm-2 .statement}
+#### Theorem 2 {#int-vi-s3-thm-2 .statement tag=09C7}
 
 — *Let T and B be two locally compact spaces having countable bases, $\mu$ a positive measure on T, $p$ a $\mu$-measurable mapping of T into B, and $\nu$ a pseudo-image measure of $\mu$ under $p$. Then there exists a $\nu$-adequate family $b \mapsto \lambda_b$ ($b \in B$) of positive measures on T, having the following properties:
 a) $\lambda_b \neq 0$ for $b \in p(T)$;
@@ -187,13 +187,13 @@ $$
 
 Therefore Th. 1 of No. 1, applied to $\mu''$ and $\nu''$, implies that for almost every $b \in B$, $\lambda'''_b = \lambda''_b$, whence $\lambda_b = r(b)\lambda'_b$.
 
-#### Definition 2 {#int-vi-s3-def-2 .statement}
+#### Definition 2 {#int-vi-s3-def-2 .statement tag=09C8}
 
 *Let T and B be two Polish locally compact spaces. Given a positive measure $\mu$ on T, a $\mu$-measurable mapping p of T into B, and a pseudo-image measure $\nu$ of $\mu$ under p, every $\nu$-adequate family $b \mapsto \lambda_b$ ($b \in B$) of positive measures on T having the properties b) and c) of Th. 2 is called a disintegration of $\mu$ relative to $\nu$.*
 
 When $p$ is $\mu$-proper and $\nu = p(\mu)$, the concept of disintegration relative to $p$ thus coincides with the concept of disintegration relative to $\nu$. Under the hypotheses of Th. 2, two disintegrations of $\mu$ relative to the same pseudo-image measure $\nu$ are equal almost everywhere for $\nu$.
 
-#### Remark {#int-vi-s3-n3-rem-1 .statement}
+#### Remark {#int-vi-s3-n3-rem-1 .statement tag=09C9}
 
 — Th. 1 of Ch. V, §3, No. 4 shows (taking into account the fact that T and B have countable bases) that for every function $f$ defined on T, with values in $\overline{\mathbf{R}}$ or in a Banach space F and $\mu$-integrable, the set of $b \in B$ such that $f$ is not $\lambda_b$-integrable is $\nu$-negligible, the function $b \mapsto \int f(t) d\lambda_b(t)$, defined almost everywhere, is $\nu$-integrable, and
 
@@ -211,7 +211,7 @@ Recall (GT, I, §8, No. 3, Prop. 8) that when R is an open equivalence relation,
 
 Let p be a mapping of X into a Hausdorff topological space B, and let R be the equivalence relation $p(x) = p(y)$ in X; if K is a compact subset of X such that the restriction of p to K is continuous, then the relation $R_K$ induced by R on K is Hausdorff, because the quotient space $K / R_K$ is homeomorphic to the space $p(K)$, which is compact (GT, I, §9, No. 4, Th. 2 and its Cor. 2). If T is a locally compact space, $\mu$ is a positive measure on T, and p is a $\mu$-measurable mapping of T into a Hausdorff topological space B, one thus sees that there exists a $\mu$-dense set (Ch. IV, §5, No. 8) of compact subsets K of T for which the relation $R_K$ is Hausdorff. We are thus led to make the following definition:
 
-#### Definition 3 {#int-vi-s3-def-3 .statement}
+#### Definition 3 {#int-vi-s3-def-3 .statement tag=09CA}
 
 *Let T be a locally compact space, $\mu$ a positive measure on T. An equivalence relation R in T is said to be $\mu$-measurable if there exists a $\mu$-dense set of compact subsets K of T for which the relation $R_K$ is Hausdorff.*
 
@@ -219,7 +219,7 @@ If R is Hausdorff then R is $\mu$-measurable, because if $\varphi$ is the canoni
 
 Note that if R is $\mu$-measurable, then R is also measurable for every measure on T with base $\mu$.
 
-#### Proposition 2 {#int-vi-s3-prop-2 .statement}
+#### Proposition 2 {#int-vi-s3-prop-2 .statement tag=09CB}
 
 *Let T be a locally compact space countable at infinity, $\mu$ a positive measure on T.
 
@@ -235,7 +235,7 @@ Let A be the saturation of $\bigcup_n K_n$ for the relation R, and let $N' = T -
 
 Consider then the quotient set $B_0 = N'/R_{N'}$; let $q_0$ be the canonical mapping of $N'$ onto $B_0$, $s_0$ a section of $q_0$. Set $p_0(x) = s_0(q_0(x))$ for $x \in N'$ and extend $p_0$ to T by taking $p_0$ to be constant on A equal to an element of T. Then $p = (p', p_0)$ is a $\mu$-measurable mapping of T into the locally compact space $B = B' \times T$; it is immediate that if $x \in N'$, $y \in N'$, the relation $p_0(x) = p_0(y)$ implies $R\{x, y\}$; thus $p$ meets the requirements. Moreover, if T admits a countable base, then so do each of the quotient spaces $B_n$ (GT, IX, §2, No. 10, Prop. 17), therefore B' admits a countable base, hence so does B.
 
-#### Proposition 3 {#int-vi-s3-prop-3 .statement}
+#### Proposition 3 {#int-vi-s3-prop-3 .statement tag=09CC}
 
 — *Let T be a Polish locally compact space, $\mu$ a positive measure on T, and R an equivalence relation in T. The following properties are equivalent:*
 
@@ -251,11 +251,11 @@ Next let us show that c) implies b). Suppose c) verified; then the characteristi
 
 Finally, let us show that a) implies c). By Prop. 2, there exist a locally compact space B with a countable base, and a $\mu$-measurable mapping $p$ of T into B, such that the relation $R\{x, y\}$ is equivalent to $p(x) = p(y)$. Let $(U_n)$ be a countable base for the topology of B. The sets $A_n = \overline{p^{-1}(U_n)}$ are $\mu$-measurable (Ch. IV, §5, No. 5, Prop. 7) and saturated for R; and if $x, y$ are points of T such that $p(x) \neq p(y)$, there exists an index $n$ such that $p(x) \in U_n$ and $p(y) \notin U_n$, which means that $x \in A_n$ and $y \notin A_n$.
 
-#### Remark {#int-vi-s3-n4-rem-1 .statement}
+#### Remark {#int-vi-s3-n4-rem-1 .statement tag=09CD}
 
 If R is a $\mu$-measurable equivalence relation in T, the saturation for R of a compact subset of T is not necessarily $\mu$-measurable (Exer. 5).
 
-#### Theorem 3 {#int-vi-s3-thm-3 .statement}
+#### Theorem 3 {#int-vi-s3-thm-3 .statement tag=09CE}
 
 — *Let T be a locally compact space with a countable base, $\mu$ a positive measure on T, and R a $\mu$-measurable equivalence relation in T. Then, there exists a $\mu$-measurable subset S of T that intersects each class with respect to R at one and only one point (a 'measurable section' for R).*
 
@@ -269,7 +269,7 @@ Let T be a Polish locally compact space, $\mu$ a positive measure on T, and R a 
 
 The space B, the mapping p and the pseudo-image measure $\nu$ on B can in general be chosen in infinitely many ways. Nevertheless, the various disintegrations of $\mu$ by R can all be deduced from one among them, as a consequence of the following theorem:
 
-#### Theorem 4 {#int-vi-s3-thm-4 .statement}
+#### Theorem 4 {#int-vi-s3-thm-4 .statement tag=09CF}
 
 *Let T be a Polish locally compact space, $\mu$ a positive measure on T, and R a $\mu$-measurable equivalence relation in T. Let B, B' be two Polish locally compact spaces, p, p' two $\mu$-measurable mappings of T into B, B' respectively, such that R$\{x, y\}$ is equivalent to $p(x) = p(y)$ and to $p'(x) = p'(y)$. Let $\nu, \nu'$ be pseudo-image measures of $\mu$ under p, p' respectively; let $b \mapsto \lambda_b, b' \mapsto \lambda_{b'}$ be disintegrations of $\mu$ relative to $\nu, \nu'$ respectively.*
 

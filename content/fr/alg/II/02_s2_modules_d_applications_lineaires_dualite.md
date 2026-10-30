@@ -45,14 +45,14 @@ subsections:
       pdf_page: 225
 statements: 43
 exercises: 26
-content_sha256: 173afe51ccd024b5cbe1b44c6fbaef6f4d92480a620e83fd991be21236b18bfa
+content_sha256: 71e604739c951cf509ca5c6f8b0d5cc838846501cddfa6165a6ec09d088850ba
 ---
 
 ## § 2. MODULES D’APPLICATIONS LINÉAIRES. DUALITÉ
 
 ### 1. Propriétés de Hom_A(E, F) relatives aux suites exactes
 
-#### Théorème 1 {#alg-ii-s2-thm-1 .statement}
+#### Théorème 1 {#alg-ii-s2-thm-1 .statement tag=05MV}
 
 Soient A un anneau, E', E, E'' trois A-modules, u : E' → E, v : E → E'' deux homomorphismes. Pour que la suite
 
@@ -72,7 +72,7 @@ Supposons la suite (1) exacte. Si $w \in \operatorname{Hom}(E'', F)$ et si $\bar
 
 Inversement, supposons que (2) soit exacte pour tout A-module F. Comme $\bar{u} \circ \bar{v} = \operatorname{Hom}(v \circ u, 1_F) = 0$, on a $w \circ v \circ u = 0$ pour tout homomorphisme $w : E'' \to F$. Prenant $F = E''$ et $w = 1_{E''}$, on voit d’abord que $v \circ u = 0$, donc $u(E') \subset \operatorname{Ker}(v)$. Prenons ensuite $F = \operatorname{Coker}(u)$, et soit $\varphi : E \to F = E/u(E')$ l’application canonique. On a $\bar{u}(\varphi) = \varphi \circ u = 0$ par définition, donc il existe un $\psi \in \operatorname{Hom}(E'', F)$ tel que $\varphi = \bar{v}(\psi) = \psi \circ v$; cela entraîne évidemment $u(E') = \operatorname{Ker}(\varphi) \supset \operatorname{Ker}(v)$, ce qui prouve que la suite (1) est exacte en E. Enfin, soit $\theta$ l’homomorphisme canonique de $E''$ sur $F = E''/v(E)$; on a $\bar{v}(0) = \theta \circ v = 0$, donc $\theta = 0$; par suite, $F = \{0\}$ et $v$ est surjectif. La suite (1) est donc exacte en $E''$.
 
-#### Corollaire {#alg-ii-s2-n1-cor-1 .statement}
+#### Corollaire {#alg-ii-s2-n1-cor-1 .statement tag=05MW}
 
 Pour qu’une application A-linéaire $u : E \to F$ soit surjective (resp. bijective, resp. nulle), il faut et il suffit que, pour tout A-module G, l’application $\operatorname{Hom}(u, 1_G) : \operatorname{Hom}(F, G) \to \operatorname{Hom}(E, G)$ soit injective (resp. bijective, resp. nulle).
 
@@ -89,7 +89,7 @@ $$
 
 n’est pas nécessairement exacte, autrement dit, l’homomorphisme $\bar{u}$ n’est pas nécessairement surjectif. Si on identifie $E'$ à un sous-module de $E$, cela signifie qu’une application linéaire de $E'$ dans $F$ ne peut pas toujours se prolonger en une application linéaire de $E$ dans $F$ (II, p. 184–185, exerc. 11 et 12). Toutefois:
 
-#### Proposition 1 {#alg-ii-s2-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s2-prop-1 .statement tag=05MX}
 
 *Si la suite exacte d’applications linéaires*
 
@@ -115,7 +115,7 @@ le fait que $u' \circ u$ soit l’identité entraîne que $\bar{u} \circ \bar{u}
 
 On notera que la première assertion de la prop. 1 peut aussi être considérée comme un cas particulier de II, p. 13, cor. 1, identifiant canoniquement $\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$ à $\mathrm{Hom}(E' \oplus E'', F)$ au moyen de l’application $\mathbf{Z}$-linéaire $\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$, où $p': E' \oplus E'' \to E'$ et $p'': E' \oplus E'' \to E''$ sont les projections canoniques.
 
-#### Théorème 2 {#alg-ii-s2-thm-2 .statement}
+#### Théorème 2 {#alg-ii-s2-thm-2 .statement tag=05MY}
 
 *Soient A un anneau, F', F, F'' trois A-modules, u: F' \to F, v: F \to F'' deux homomorphismes. Pour que la suite*
 
@@ -141,7 +141,7 @@ $$
 $$
 car si $u \in \mathrm{Hom}(E, F)$ appartient à chacun des $\mathrm{Hom}(E, M_\lambda)$, on a, pour tout $x \in E$, $u(x) \in M_\lambda$ pour tout $\lambda$, donc $u$ applique E dans $\bigcap_\lambda M_\lambda$.
 
-#### Corollaire {#alg-ii-s2-n1-cor-2 .statement}
+#### Corollaire {#alg-ii-s2-n1-cor-2 .statement tag=05N0}
 
 Pour qu’une application A-linéaire $u : E \to F$ soit injective, il faut et il suffit que pour tout A-module G, l’application $\mathrm{Hom}(1_G, u) : \mathrm{Hom}(G, E) \to \mathrm{Hom}(G, F)$ soit injective.
 
@@ -157,7 +157,7 @@ $$
 $$
 n’est pas nécessairement exacte, autrement dit $\bar{v}$ n’est pas nécessairement surjectif. Si on identifie $F'$ à un sous-module de F et $F''$ au module quotient $F/F'$, cela signifie qu’une application linéaire de E dans $F''$ n’est pas nécessairement de la forme $v \circ w$, où $w$ est une application linéaire de E dans F. Toutefois:
 
-#### Proposition 2 {#alg-ii-s2-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s2-prop-2 .statement tag=05N1}
 
 Si la suite exacte
 $$
@@ -179,7 +179,7 @@ Remarque 2). — Les résultats de ce n° sont valables sans modification pour t
 
 ### 2. Modules projectifs
 
-#### Définition 1 {#alg-ii-s2-def-1 .statement}
+#### Définition 1 {#alg-ii-s2-def-1 .statement tag=05N2}
 
 On dit qu’un A-module P est projectif si, pour toute suite exacte $F' \to F \to F''$ d’applications A-linéaires, la suite
 $$
@@ -187,7 +187,7 @@ $$
 $$
 est exacte.
 
-#### Proposition 3 {#alg-ii-s2-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s2-prop-3 .statement tag=05N3}
 
 Pour qu’un A-module P, somme directe d’une famille de sous-modules $(M_i)$, soit projectif, il faut et il suffit que chacun des $M_i$ soit projectif.
 En effet, pour tout homomorphisme $u : E \to F$ de A-modules,
@@ -196,12 +196,12 @@ $$
 $$
 s’identifie à $\prod_i \operatorname{Hom}(1_{M_i}, u)$ (II, p. 13, cor. 1); la conclusion résulte donc de la déf. 1 et de II, p. 10, prop. 5(ii).
 
-#### Corollaire {#alg-ii-s2-n2-cor-1 .statement}
+#### Corollaire {#alg-ii-s2-n2-cor-1 .statement tag=05N4}
 
 Tout A-module libre est projectif.
 Il suffit en effet, en vertu de la prop. 3, de montrer que $A_s$ est projectif, ce qui résulte aussitôt de la commutativité du diagramme (50) de II, p. 35.
 
-#### Proposition 4 {#alg-ii-s2-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s2-prop-4 .statement tag=05N5}
 
 Soit P un A-module. Les propriétés suivantes sont équivalentes:
 a) P est projectif.
@@ -226,13 +226,13 @@ $$
 
 est scindée (II, p. 20, prop. 15). Comme pour tout A-module M, il existe un A-module libre L et une suite exacte $0 \to R \to L \to M \to 0$ (II, p. 27, prop. 20), il est clair que d) entraîne e). Enfin e) entraîne a) en vertu de la prop. 3 et de son corollaire.
 
-#### Corollaire 1 {#alg-ii-s2-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s2-prop-4-cor-1 .statement tag=05N6}
 
 *Pour qu’un A-module soit projectif et de type fini, il faut et il suffit qu’il soit facteur direct d’un A-module libre ayant une base finie.*
 
 La condition est évidemment suffisante; inversement, un module projectif de type fini E est isomorphe à un quotient d’un module libre F ayant une base finie (II, p. 27) et E est isomorphe à un facteur direct de F en vertu de la prop. 4 d).
 
-#### Corollaire 2 {#alg-ii-s2-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s2-prop-4-cor-2 .statement tag=05N7}
 
 *Soient C un anneau commutatif, E, F deux C-modules projectifs de type fini; alors Hom_C(E, F) est un C-module projectif de type fini.*
 
@@ -242,7 +242,7 @@ En effet, on peut supposer qu’il y a deux C-modules libres de type fini M, N t
 
 Soit E un A-module *à gauche*. Comme A est un (A, A)-bimodule, $\mathrm{Hom}_A(E, A_s)$ est canoniquement muni d’une structure de A-module *à droite* (II, p. 35).
 
-#### Définition 2 {#alg-ii-s2-def-2 .statement}
+#### Définition 2 {#alg-ii-s2-def-2 .statement tag=05N8}
 
 *Pour tout A-module à gauche E, le A-module à droite $\mathrm{Hom}_A(E, A_s)$ s’appelle le module dual de E (ou simplement le dual¹ de E) et ses éléments s’appellent les formes linéaires sur E.*
 
@@ -252,7 +252,7 @@ Dans ce chapitre, nous désignerons par E* le dual d’un A-module E (à gauche 
 
 ¹ Dans EVT, IV, nous définirons, pour des espaces vectoriels munis d’une *topologie*, une notion d’« espace dual » qui dépendra de cette topologie, et sera distincte de celle qui est définie ici. Le lecteur aura soin de ne pas appliquer inconsidérément à l’espace dual « topologique » les propriétés du dual « algébrique » qui sont établies dans ce paragraphe.
 
-#### Exemple {#alg-ii-s2-n3-exa-1 .statement}
+#### Exemple {#alg-ii-s2-n3-exa-1 .statement tag=05N9}
 
 \* Sur l’espace vectoriel (par rapport au corps $\mathbf{R}$) des fonctions numériques continues dans un intervalle $[a, b]$ de $\mathbf{R}$, l’application $x \mapsto \int_a^b x(t)dt$ est une forme linéaire.*
 
@@ -280,7 +280,7 @@ $$
 
 Lorsque $A$ est commutatif, on peut indifféremment utiliser l’une ou l’autre notation.
 
-#### Proposition 5 {#alg-ii-s2-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s2-prop-5 .statement tag=05NA}
 
 *Pour tout anneau $A$, l’application qui, à tout $\xi \in A$, fait correspondre la forme linéaire $\eta \mapsto \eta \xi$ sur $A_s$, est un isomorphisme de $A_d$ sur le dual de $A_s$.*
 
@@ -300,23 +300,23 @@ $$
 
 ### 4. Orthogonalité
 
-#### Définition 3 {#alg-ii-s2-def-3 .statement}
+#### Définition 3 {#alg-ii-s2-def-3 .statement tag=05NB}
 
 *Soient $E$ un $A$-module, $E^*$ son dual; on dit qu’un élément $x \in E$ et un élément $x^* \in E^*$ sont orthogonaux si $\langle x, x^* \rangle = 0$.*
 
 On dit qu’une partie $M$ de $E$ et une partie $M'$ de $E^*$ sont des *ensembles orthogonaux* si, quels que soient $x \in M,\ x^* \in M'$, $x$ et $x^*$ sont orthogonaux. En particulier, $x^* \in E^*$ (resp. $x \in E$) est dit orthogonal à $M$ (resp. $M'$) s’il est orthogonal à tout élément de $M$ (resp. $M'$). Si $x^*$ et $y^*$ sont orthogonaux à $M$, il en est de même de $x^* + y^*$ et de $x^* \alpha$ pour tout $\alpha \in A$ en vertu de (10) et (12) (II, p. 40), ce qui justifie la définition suivante:
 
-#### Définition 4 {#alg-ii-s2-def-4 .statement}
+#### Définition 4 {#alg-ii-s2-def-4 .statement tag=05NC}
 
 *Étant donnée une partie M de E* (resp. *une partie M' de E*), on appelle sous-module totalement orthogonal à M (resp. M') (ou simplement sous-module orthogonal à M (resp. M') si aucune confusion n’en résulte) *l’ensemble des* $x^* \in E^*$ (resp. *l’ensemble des* $x \in E$) *qui sont orthogonaux à M* (resp. M').
 
 Par définition d’une forme linéaire, le sous-module de E* orthogonal à E se réduit à 0; le sous-module de E* orthogonal à {0} est identique à E*.
 
-#### Proposition 6 {#alg-ii-s2-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s2-prop-6 .statement tag=05ND}
 
 *Soient M, N deux parties de E telles que M \subset N; si M' et N' sont les sous-modules de E* orthogonaux à M et N respectivement, on a N' \subset M'.*
 
-#### Proposition 7 {#alg-ii-s2-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s2-prop-7 .statement tag=05NE}
 
 *Soit (M_i) une famille de parties de E; le sous-module orthogonal à la réunion des M_i est l’intersection des sous-modules M'_i respectivement orthogonaux aux M_i; ce sous-module est aussi le sous-module orthogonal au sous-module de E engendré par la réunion des M_i.*
 
@@ -332,7 +332,7 @@ Soient E, F deux A-modules à gauche; pour toute application linéaire $u : E \t
 
 En d’autres termes:
 
-#### Définition 5 {#alg-ii-s2-def-5 .statement}
+#### Définition 5 {#alg-ii-s2-def-5 .statement tag=05NF}
 
 *Pour toute application linéaire u d’un A-module E dans un A-module F, on appelle transposée de u et on note $^t u$ l’application linéaire $y^* \mapsto y^* \circ u$ du dual F* de F dans le dual E* de E.*
 
@@ -360,17 +360,17 @@ pour $u \in \mathrm{Hom}_A(E, F)$ et $v \in \mathrm{Hom}_A(F, G)$, $G$ étant un
 
 (18) $$ t 1_E = 1_{E^*}. $$
 
-#### Remarque {#alg-ii-s2-n5-rem-1 .statement}
+#### Remarque {#alg-ii-s2-n5-rem-1 .statement tag=05NG}
 
 On déduit de (17) et (18) que si $u$ est *inversible à gauche* (resp. *à droite*), $t u$ est *inversible à droite* (resp. *à gauche*).
 
-#### Proposition 8 {#alg-ii-s2-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s2-prop-8 .statement tag=05NH}
 
 Soient $u : E \to F$ une application A-linéaire, $M$ un sous-module de $E$, $M'$ l’orthogonal de $M$ dans $E^*$; l’orthogonal de $u(M)$ dans $F^*$ est l’image réciproque $t u^{-1}(M')$.
 
 Cela résulte aussitôt de (15).
 
-#### Corollaire {#alg-ii-s2-n5-cor-1 .statement}
+#### Corollaire {#alg-ii-s2-n5-cor-1 .statement tag=05NI}
 
 L’orthogonal de l’image $u(E)$ dans $F^*$ est le noyau $t u^{-1}(0)$ de $t u$.
 
@@ -378,7 +378,7 @@ En effet, l’orthogonal de $E$ dans $E^*$ est réduit à 0.
 
 Si $u : E \to F$ est un isomorphisme, $t u : F^* \to E^*$ est un isomorphisme et si $v : F \to E$ est l’isomorphisme réciproque de $u$, $t v$ est l’isomorphisme réciproque de $t u$ (formules (17) et (18)).
 
-#### Définition 6 {#alg-ii-s2-def-6 .statement}
+#### Définition 6 {#alg-ii-s2-def-6 .statement tag=05NJ}
 
 Étant donné un isomorphisme $u$ d’un A-module $E$ sur un A-module $F$, on appelle isomorphisme contragrédient de $u$ et on note $\check{u}$ le transposé de l’isomorphisme réciproque de $u$ (égal à l’isomorphisme réciproque du transposé de $u$).
 
@@ -400,7 +400,7 @@ pour $x \in E, y^* \in F^*$. On vérifie immédiatement que $^t u$ est une appli
 
 Appliquons le th. 1 de II, p. 36 au cas où $F = A_s$:
 
-#### Proposition 9 {#alg-ii-s2-prop-9 .statement}
+#### Proposition 9 {#alg-ii-s2-prop-9 .statement tag=05NK}
 
 *Soient $E', E, E''$ des A-modules,*
 
@@ -414,7 +414,7 @@ $$
 $$
 *est exacte.*
 
-#### Corollaire {#alg-ii-s2-n6-cor-1 .statement}
+#### Corollaire {#alg-ii-s2-n6-cor-1 .statement tag=05NL}
 
 *Soient $M$ un sous-module d’un A-module $E$, $\varphi : E \to E/M$ l’homomorphisme canonique. Alors $^t \varphi$ est un isomorphisme du dual de $E/M$ sur le sous-module $M'$ de $E^*$ orthogonal à $M$.*
 
@@ -422,7 +422,7 @@ En effet, si $j : M \to E$ est l’injection canonique, le noyau de $^t j$ est p
 
 En outre, avec les notations du corollaire, on obtient par passage au quotient à partir de $^t j$ un homomorphisme *injectif* $E^*/M' \to M^*$.
 
-#### Proposition 10 {#alg-ii-s2-prop-10 .statement}
+#### Proposition 10 {#alg-ii-s2-prop-10 .statement tag=05NM}
 
 *Soit $(E_i)_{i \in I}$ une famille de A-modules, et pour tout $i \in I$, soit $j_i : E_i \to E = \bigoplus_{i \in I} E_i$ l’injection canonique. Alors l’application produit $x^* \mapsto (j_i(x^*))$ est un isomorphisme du dual $E^*$ de $E$ sur le produit $\prod_{i \in I} E_i^*$.*
 
@@ -435,7 +435,7 @@ $$
 \langle (x_i), (x_i^*) \rangle = \sum_{i \in I} \langle x_i, x_i^* \rangle.
 $$
 
-#### Corollaire {#alg-ii-s2-n6-cor-2 .statement}
+#### Corollaire {#alg-ii-s2-n6-cor-2 .statement tag=05NN}
 
 Soient M, N deux sous-modules supplémentaires dans un A-module E, $p : E \to M, q : E \to N$ les projecteurs correspondants; alors $^t p + ^t q : M^* \oplus N^* \to E^*$ est un isomorphisme, et $^t p$ (resp. $^t q$) est un isomorphisme de $M^*$ (resp. $N^*$) sur le sous-module de $E^*$ orthogonal à N (resp. M). En outre, si $i : M \to E$ et $j : N \to E$ sont les injections canoniques, $^t p \circ ^t i$ et $^t q \circ ^t j$ sont les projecteurs $E^* \to ^t p(M^*)$, $E^* \to ^t q(N^*)$ correspondant à la décomposition de $E^*$ en somme directe de $^t p(M^*)$ et $^t q(N^*)$.
 
@@ -455,13 +455,13 @@ $$
 Il revient au même de dire que, pour tout $x = \sum_{t \in T} \xi_t e_t \in E$, on a $e_t^*(x) = \xi_t$; aussi dit-on que $e_t^*$ est la forme coordonnée d’indice $t$ sur E. Il résulte de (23) que $(e_t^*)$ est un système libre dans $E^*$.
 
 En particulier, si T est fini, les $e_t^*$ forment une base de $E^*$, les $f_t$ formant alors la base canonique de $A_d^T$. Donc:
-#### Proposition 11 {#alg-ii-s2-prop-11 .statement}
+#### Proposition 11 {#alg-ii-s2-prop-11 .statement tag=05NO}
 
 Le dual d’un module libre ayant une base de n éléments est un module libre ayant une base de n éléments.
 
 On notera que le dual d’un module libre ayant une base infinie n’est pas nécessairement un module libre (VII, § 3, exerc. 10).
 
-#### Définition 7 {#alg-ii-s2-def-7 .statement}
+#### Définition 7 {#alg-ii-s2-def-7 .statement tag=05NP}
 
 Si E est un module libre ayant une base finie $(e_t)$, on appelle base duale de $(e_t)$ la base $(e_t^*)$ du dual $E^*$ de E définie par les relations (23).
 
@@ -479,13 +479,13 @@ $$
 
 On définit bien entendu de la même manière la base duale d’une base finie d’un A-module à droite.
 
-#### Corollaire {#alg-ii-s2-n6-cor-3 .statement}
+#### Corollaire {#alg-ii-s2-n6-cor-3 .statement tag=05NQ}
 
 *Le dual d’un module projectif de type fini est un module projectif de type fini.*
 
 En effet, un A-module à gauche projectif de type fini peut être identifié à un facteur direct M d’un A-module libre $A_s^n$ ayant une base finie (II, p. 40, cor. 1). Alors (II, p. 45, prop. 11 et corollaire) M* est isomorphe à un facteur direct de $A_d^n$, d’où le corollaire.
 
-#### Proposition 12 {#alg-ii-s2-prop-12 .statement}
+#### Proposition 12 {#alg-ii-s2-prop-12 .statement tag=05NR}
 
 *Soient E un A-module, $(a_t)_{t \in T}$ un système générateur de E. Les conditions suivantes sont équivalentes*:
 
@@ -517,37 +517,37 @@ $$
 
 est commutatif, comme il résulte aussitôt des définitions et de la formule (15) (II, p. 42) donnant la transposée d’une application linéaire.
 
-#### Proposition 13 {#alg-ii-s2-prop-13 .statement}
+#### Proposition 13 {#alg-ii-s2-prop-13 .statement tag=05NS}
 
 *Si E est un module libre* (resp. *un module libre ayant une base finie*), *l’application canonique* $c_E : E \to E^{**}$ *est injective* (resp. *bijective*).
 
 En effet, soit $(e_t)_{t \in T}$ une base de E, et soit $(e_t^*)$ la famille des formes coordonnées correspondantes; par définition, si $x \in E$ est tel que $\tilde{x} = 0$, on a $\langle x, e_t^* \rangle = 0$ pour tout $t \in T$, autrement dit, toutes les coordonnées de $x$ sont nulles, donc $x = 0$. Supposons de plus T fini; puisque $\langle \tilde{e}_t, e_{t'}^* \rangle = \delta_{tt'}$, $(\tilde{e}_t)$ est la base duale de $(e_t^*)$ dans $E^{**}$, et comme $c_E$ transforme une base de E en une base de $E^{**}$, $c_E$ est bijective (II, p. 25, cor. 3). On a en outre prouvé:
 
-#### Corollaire 1 {#alg-ii-s2-prop-13-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s2-prop-13-cor-1 .statement tag=05NT}
 
 *Soit E un A-module libre ayant une base finie; pour toute base* $(e_t)$ *de E, $(c_E(e_t))$ est la base duale de la base* $(e_t^*)$ *de* $E^*$, *duale de* $(e_t)$.
 
 On dit dans ce cas que $(e_t)$ et $(e_t^*)$ sont deux bases *duales l’une de l’autre*.
 
-#### Corollaire 2 {#alg-ii-s2-prop-13-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s2-prop-13-cor-2 .statement tag=05NU}
 
 *Si E est un A-module libre ayant une base finie, toute base finie de* $E^*$ *est la base duale d’une base de* E.
 
 Il suffit en effet de considérer dans $E^{**}$ la base duale de la base donnée et d’identifier canoniquement E et $E^{**}$.
 
-#### Corollaire 3 {#alg-ii-s2-prop-13-cor-3 .statement}
+#### Corollaire 3 {#alg-ii-s2-prop-13-cor-3 .statement tag=05NV}
 
 *Soient E, F deux A-modules ayant chacun une base finie, E (resp. F) étant canoniquement identifié à son bidual* $E^{**}$ *resp. F**). *Pour toute application linéaire* $u : E \to F$, *on a alors* $^{tt}u = u$.
 
 Cela résulte aussitôt de la commutativité du diagramme (27).
 
-#### Corollaire 4 {#alg-ii-s2-prop-13-cor-4 .statement}
+#### Corollaire 4 {#alg-ii-s2-prop-13-cor-4 .statement tag=05NW}
 
 *Si P est un module projectif* (resp. *un module projectif de type fini*) *l’application canonique* $c_P : P \to P^{**}$ *est injective* (resp. *bijective*).
 
 Nous utiliserons le lemme suivant:
 
-#### Lemme 1 {#alg-ii-s2-lem-1 .statement}
+#### Lemme 1 {#alg-ii-s2-lem-1 .statement tag=05NX}
 
 *Soient M, N deux sous-modules supplémentaires dans un A-module* E, $i : M \to E, j : N \to E$ *les injections canoniques. Alors le diagramme* (28)
 
@@ -585,7 +585,7 @@ On dit souvent, de façon imagée, qu’un problème est linéaire s’il est é
 
 Étant donnée une équation linéaire $u(x) = y_0$, l’équation $u(x) = 0$ est appelée l’équation linéaire et homogène associée à $u(x) = y_0$.
 
-#### Proposition 14 {#alg-ii-s2-prop-14 .statement}
+#### Proposition 14 {#alg-ii-s2-prop-14 .statement tag=05NY}
 
 Si $x_0$ est une solution de l’équation linéaire $u(x) = y_0$, l’ensemble des solutions de cette équation est égal à l’ensemble des éléments $x_0 + z$, où $z$ parcourt l’ensemble des solutions de l’équation homogène associée $u(x) = 0$.
 
@@ -597,7 +597,7 @@ Autrement dit, si l’équation $u(x) = y_0$ a au moins une solution $x_0$, l’
 
 En vertu de la prop. 14, pour qu’une équation $u(x) = y_0$ ait exactement une solution, il faut et il suffit qu’elle ait au moins une solution, et que l’on ait $\overline{u}^1(0) = \{0\}$ (autrement dit, que l’équation homogène associée n’ait pas de solution non nulle, ou encore que $u$ soit injective); dans ce cas, pour tout $y \in F$, l’équation $u(x) = y$ a au plus une solution.
 
-#### Proposition 15 {#alg-ii-s2-prop-15 .statement}
+#### Proposition 15 {#alg-ii-s2-prop-15 .statement tag=05NZ}
 
 *Soit u une application linéaire d’un module E dans un module F. Si l’équation $u(x) = y_0$ a au moins une solution, $y_0$ est orthogonal au noyau de $^t u$.*
 
@@ -605,7 +605,7 @@ En effet, dire que $u(x) = y_0$ admet une solution signifie que $y_0 \in u(E)$ e
 
 On observera que le critère nécessaire d’existence d’une solution de $u(x) = y_0$, donné par la prop. 15, est suffisant lorsque A est un corps (II, p. 106, prop. 12) mais *non en général* (II, p. 184, exerc. 10).
 
-#### Remarque 1 {#alg-ii-s2-n8-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s2-n8-rem-1 .statement tag=05O0}
 
 Soient E un A-module, $(F_i)_{i \in I}$ une famille de A-modules, et pour tout $i \in I$, soit $u_i : E \to F_i$ une application linéaire. Tout système d’équations linéaires
 $$
@@ -613,7 +613,7 @@ u_i(x) = y_i \quad (i \in I)
 $$
 où les $y_i \in F_i$ sont donnés, est équivalent à *une seule* équation linéaire $u(x) = y$, où $u$ est l’application $x \mapsto (u_i(x))$ de E dans $F = \prod_{i \in I} F_i$, et $y = (y_i)$. On dit que le système (29) est *homogène* si $y_i = 0$ pour tout $i \in I$.
 
-#### Remarque 2 {#alg-ii-s2-n8-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s2-n8-rem-2 .statement tag=0DFL}
 
 Supposons que E admette une *base* $(a_\lambda)_{\lambda \in L}$; si on pose $u(a_\lambda) = b_\lambda$ pour tout $\lambda \in L$, dire que $x = \sum_{\lambda \in L} \xi_\lambda a_\lambda$ vérifie l’équation $u(x) = y_0$ équivaut à dire que la famille (de support fini) $(\xi_\lambda)_{\lambda \in L}$ d’éléments de A vérifie la relation
 $$
@@ -621,7 +621,7 @@ $$
 $$
 Inversement, la recherche des familles $(\xi_\lambda)_{\lambda \in L}$ d’éléments de A, de support fini, vérifiant (30), équivaut à la résolution de l’équation linéaire $u(x) = y_0$, où $u$ est l’unique application linéaire de E dans F telle que $u(a_\lambda) = b_\lambda$ pour tout $\lambda \in L$ (II, p. 25, cor. 3).
 
-#### Remarque 3 {#alg-ii-s2-n8-rem-3 .statement}
+#### Remarque 3 {#alg-ii-s2-n8-rem-3 .statement tag=0DFM}
 
 Une équation linéaire $u(x) = y_0$ est dite *scalaire* lorsque $F = A_s$, et par suite $u$ est une *forme linéaire* sur E et $y_0$ un *scalaire*. Si E admet une base $(a_\lambda)_{\lambda \in L}$, il résulte de la *Remarque 2*) qu’une telle équation s’écrit aussi
 $$
@@ -636,7 +636,7 @@ $$
 (\xi_\lambda) \mapsto \left( \sum_{\lambda \in L} \xi_\lambda \alpha_{\lambda l} \right).
 $$
 
-#### Remarque 4 {#alg-ii-s2-n8-rem-4 .statement}
+#### Remarque 4 {#alg-ii-s2-n8-rem-4 .statement tag=0DFN}
 
 Un système linéaire (32) est encore appelé système d’équations linéaires scalaires à gauche lorsqu’il y a lieu d’éviter des confusions. Un système d’équations
 $$

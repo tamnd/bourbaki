@@ -29,7 +29,7 @@ subsections:
       pdf_page: 292
 statements: 10
 exercises: 2
-content_sha256: bf86c912bfbf840d62882f953aad2b6c1a84d05aab80bb348e1c142949b363e1
+content_sha256: dd55e7fee706c3d9d06f24460ca7220536b2e52fe66b64ab093af515c9c25f41
 ---
 
 ## § 4. INTEGRATION OF POSITIVE POINT MEASURES
@@ -38,13 +38,13 @@ content_sha256: bf86c912bfbf840d62882f953aad2b6c1a84d05aab80bb348e1c142949b363e1
 
 Let X and T be two locally compact spaces, $\pi$ a mapping of T into X, and $g$ a finite numerical function $\geqslant 0$ defined on T; these two functions define a mapping $t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)}$ of T into the space $\mathscr{M}(X)$ of measures on X, such that for every $t \in T$, $\lambda_t$ is either a point measure (Ch. III, §2, No. 4) or is equal to 0. If $f$ is a numerical function $\geqslant 0$ defined on X, then $\int^* f(x) d\lambda_t(x) = \int^\bullet f(x) d\lambda_t(x) = f(\pi(t))g(t)$ (recall our convention of taking this product to be 0 when $g(t) = 0$ and $f(\pi(t)) = +\infty$). Every function (with values in a topological space) defined on X is $\lambda_t$-measurable for every $t \in T$. Every mapping $f$ of X into a Banach space F is $\lambda_t$-integrable for all $t \in T$, and $\int f(x) d\lambda_t(x) = f(\pi(t))g(t)$. Finally, if $f$ is an arbitrary numerical function defined on X, for $f$ to be $\lambda_t$-integrable it is necessary and sufficient that $f(\pi(t))g(t)$ be finite, in which case $\int f(x) d\lambda_t(x) = f(\pi(t))g(t)$.
 
-#### Definition 1 {#int-v-s4-def-1 .statement}
+#### Definition 1 {#int-v-s4-def-1 .statement tag=0921}
 
 Let $\mu$ be a positive measure on T. The pair $(\pi, g)$ is said to be $\mu$-adapted if the following conditions are satisfied:
 1° The functions $\pi$ and $g$ are $\mu$-measurable.
 2° For every function $f \in \mathscr{K}(X)$, the mapping $t \mapsto f(\pi(t))g(t)$ is essentially $\mu$-integrable.
 
-#### Proposition 1 {#int-v-s4-prop-1 .statement}
+#### Proposition 1 {#int-v-s4-prop-1 .statement tag=0922}
 
 If the pair $(\pi, g)$ is $\mu$-adapted, then the mapping $\Lambda : t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)}$ of T into $\mathscr{M}_+(X)$ is scalarly essentially $\mu$-integrable, vaguely $\mu$-measurable and $\mu$-adequate. Conversely, if $\Lambda$ is scalarly essentially $\mu$-integrable and vaguely $\mu$-measurable, then the function $g$ is $\mu$-measurable and the restriction of $\pi$ to the set $S$ of $t \in T$ such that $g(t) \neq 0$ is $\mu$-measurable.
 
@@ -54,7 +54,7 @@ Conversely, suppose that $\Lambda$ is scalarly essentially $\mu$-integrable and 
 
 We shall make use of the following lemma:
 
-#### Lemma {#int-v-s4-n1-lem-1 .statement}
+#### Lemma {#int-v-s4-n1-lem-1 .statement tag=0923}
 
 *Let $T$ and $X$ be two topological spaces, $\pi$ a proper continuous mapping (GT, I, §10, No. 1, Def. 1) of $T$ into $X$. Let $g$ be a lower semi-continuous numerical function defined on $T$. For every $x \in X$, let $f(x)$ be the infimum of the function $g(t)$ in the set $\overline{\pi}^{-1}(x)$ (infimum equal to $+\infty$ if $\overline{\pi}^{-1}(x) = \varnothing$; cf. S, III, §1, No. 9). Then $f$ is lower semi-continuous on $X$.*
 
@@ -68,7 +68,7 @@ $$
 
 We are going to see that, when $(\pi, g)$ is a $\mu$-adapted pair, one can sharpen the results obtained by applying the propositions of $§ 3$ to the family $t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)},$ which is $\mu$-adequate by Prop. 1.
 
-#### Theorem 1 {#int-v-s4-thm-1 .statement}
+#### Theorem 1 {#int-v-s4-thm-1 .statement tag=0924}
 
 *Let* $(\pi, g)$ *be a $\mu$-adapted pair, and let*
 $$
@@ -120,11 +120,11 @@ $$
 
 One has an analogous relation for the second member of (5), and (1) therefore follows from (5) by summing over $\alpha$.
 
-#### Corollary {#int-v-s4-n2-cor-1 .statement}
+#### Corollary {#int-v-s4-n2-cor-1 .statement tag=0925}
 
 — *In order that a subset N of X be locally negligible for $\nu$, it is necessary and sufficient that the intersection of $\pi^{-1}(N)$ with the set of points $t \in T$ where $g(t) > 0$ be locally negligible for $\mu$.*
 
-#### Proposition 2 {#int-v-s4-prop-2 .statement}
+#### Proposition 2 {#int-v-s4-prop-2 .statement tag=0926}
 
 — *Let $\pi$ be a proper continuous mapping (GT, I, §10, No. 1) of T into X, and let g be a continuous, finite numerical function on T such that $g(t) > 0$ for all $t \in T$. The pair $(\pi, g)$ is then $\mu$-adapted, and if one sets*
 $$
@@ -177,7 +177,7 @@ which establishes (8), and completes the proof.
 
 ### 3. Measurability with respect to an integral of point measures
 
-#### Proposition 3 {#int-v-s4-prop-3 .statement}
+#### Proposition 3 {#int-v-s4-prop-3 .statement tag=0927}
 
 — Let $(\pi, g)$ be a $\mu$-adapted pair, and let
 
@@ -197,13 +197,13 @@ $$
 
 but since $H$ is compact, $H \cap \overline{\pi}(N)$ is $\mu$-negligible, which completes the proof.
 
-#### Remark {#int-v-s4-n3-rem-1 .statement}
+#### Remark {#int-v-s4-n3-rem-1 .statement tag=0928}
 
 If $f$ is a mapping of $X$ into a Banach space $F$, it comes to the same to say that the restriction of $f \circ \pi$ to $S$ is $\mu$-measurable or to say that the function $(f \circ \pi)g$ (defined on $T$) is $\mu$-measurable, since $g$ is $\mu$-measurable, is not zero in $S$, and is zero on $T - S$ (Ch. IV, §5, No. 10, Prop. 15).
 
 ### 4. Integration of functions with values in a Banach space, with respect to an integral of point measures
 
-#### Theorem 2 {#int-v-s4-thm-2 .statement}
+#### Theorem 2 {#int-v-s4-thm-2 .statement tag=0929}
 
 *Let* $(\pi, g)$ *be a $\mu$-adapted pair, and let*
 $$
@@ -231,7 +231,7 @@ $$
 
 The second part of the statement therefore follows from the first part and Proposition 2.
 
-#### Remark {#int-v-s4-n4-rem-1 .statement}
+#### Remark {#int-v-s4-n4-rem-1 .statement tag=092A}
 
 — Let $(\pi, g)$ be a $\mu$-adapted pair, $\pi'$ a mapping of T into X, and $g'$ a finite numerical function $\geq 0$ defined on T, such that $\pi'$ (resp. $g'$) is equal to $\pi$ (resp. $g$) locally almost everywhere for $\mu$. Then the pair $(\pi', g')$ is $\mu$-adapted, the measures $\lambda_t = g(t)\varepsilon_{\pi(t)}$ and $\lambda'_t = g'(t)\varepsilon_{\pi'(t)}$ are equal locally almost everywhere, and $\int g(t)\varepsilon_{\pi(t)}\,d\mu(t) = \int g'(t)\varepsilon_{\pi'(t)}\,d\mu(t)$. If now $\pi'$ and $g'$ are only defined locally almost everywhere (for $\mu$) and if there exists a $\mu$-adapted pair $(\pi, g)$ such that $\pi'$ (resp. $g'$) is equal to $\pi$ (resp. $g$) locally almost everywhere, one again says that the pair $(\pi', g')$ is $\mu$-adapted and one sets
 

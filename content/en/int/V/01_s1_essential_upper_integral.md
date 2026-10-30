@@ -29,14 +29,14 @@ subsections:
       pdf_page: 265
 statements: 22
 exercises: 6
-content_sha256: ed3f86d415aca60dc4b5aac4b085985e62b299c49c4cf9f6e524280c4a654cc5
+content_sha256: d19dbe1131a1bb0064d0db8332b6983acb2090fbcf25d4ea5abb63e1585fb1b0
 ---
 
 ## § 1. ESSENTIAL UPPER INTEGRAL
 
 ### 1. Definition of the essential upper integral
 
-#### Definition 1 {#int-v-s1-def-1 .statement}
+#### Definition 1 {#int-v-s1-def-1 .statement tag=08ZO}
 
 For every function $f \in \mathscr{F}_+(T)$ one calls essential upper integral of $f$ with respect to $\mu$, and denotes by $\mu^\bullet(f)$, the supremum, finite or not, of the set of numbers $\mu^*(f \varphi_K)$, where $K$ runs over the set of compact subsets of $T$. For every subset $A$ of $T$, one sets $\mu^\bullet(A) = \mu^\bullet(\varphi_A)$.
 
@@ -51,7 +51,7 @@ It can happen that $\mu^\bullet(f) \neq \mu^*(f)$; for, the condition $\mu^*(f) 
 
 The mapping $\mu^\bullet$ of $\mathscr{F}_+(T)$ into $\overline{\mathbf{R}}$ coincides with $\mu$ on $\mathscr{K}_+(T)$. It follows that two measures $\mu_1$ and $\mu_2$ such that $\mu_1^\bullet = \mu_2^\bullet$ are equal.
 
-#### Proposition 1 {#int-v-s1-prop-1 .statement}
+#### Proposition 1 {#int-v-s1-prop-1 .statement tag=08ZP}
 
 a) If $f$ and $g$ are two numerical functions $\geq 0$ that are equal locally almost everywhere, then $\mu^\bullet(f) = \mu^\bullet(g)$.
 b) If $f$ and $g$ are two numerical functions $\geq 0$ such that $f \leq g$, then $\mu^\bullet(f) \leq \mu^\bullet(g)$.
@@ -68,7 +68,7 @@ $$
 
 Equality holds in the relation d) if $f$ and $g$ are measurable, by Cor. 4 of Th. 5, Ch. IV, §5, No. 6. More generally, we have the following result:
 
-#### Proposition 2 {#int-v-s1-prop-2 .statement}
+#### Proposition 2 {#int-v-s1-prop-2 .statement tag=08ZQ}
 
 *Let $f, g, h$ be three elements of $\mathscr{F}_+$; if $g$ and $h$ are measurable, then*
 
@@ -97,13 +97,13 @@ $$
 
 which implies the desired inequality since $u$ is arbitrary.
 
-#### Corollary {#int-v-s1-n1-cor-1 .statement}
+#### Corollary {#int-v-s1-n1-cor-1 .statement tag=08ZR}
 
 *Let $f$ be a function $\geq 0$, $(g_n)$ a sequence of measurable functions $\geq 0$; then $\int^\bullet f \left( \sum_n g_n \right) d\mu = \sum_n \left( \int^\bullet f g_n\, d\mu \right)$.
 
 For the case of a finite sequence, this is an immediate consequence of Prop. 2. The case of an infinite sequence may be deduced from this by means of Prop. 1, e).
 
-#### Proposition 3 {#int-v-s1-prop-3 .statement}
+#### Proposition 3 {#int-v-s1-prop-3 .statement tag=08ZS}
 
 *For every finite number $\alpha \geq 0$ and every pair of measures $\mu, \nu$ on $\mathbf{T}$,
 
@@ -116,7 +116,7 @@ Moreover, the relation $\mu \leq \nu$ implies $\mu^\bullet \leq \nu^\bullet$.*
 
 The proof is immediate from the analogous statement in Ch. IV (§1, No. 3, Prop. 15).
 
-#### Proposition 4 {#int-v-s1-prop-4 .statement}
+#### Proposition 4 {#int-v-s1-prop-4 .statement tag=08ZT}
 
 — *For every numerical function* $f \geqslant 0$ *that is lower semi-continuous on* $T$, $\mu^\bullet(f) = \mu^*(f)$.
 
@@ -124,7 +124,7 @@ For, let $g$ be a function in $\mathscr{K}_+(T)$ such that $g \leqslant f$. If $
 
 ### 2. Moderated functions and measures
 
-#### Proposition 5 {#int-v-s1-prop-5 .statement}
+#### Proposition 5 {#int-v-s1-prop-5 .statement tag=08ZU}
 
 — *Let* $A$ *be a subset of* $T$; *the following properties are equivalent*:
 a) *The set* $A$ *is contained in the union of a sequence of* $\mu$*-integrable open sets*.
@@ -133,13 +133,13 @@ c) *The set* $A$ *is contained in the union of a sequence of compact sets and a*
 
 It is clear that each of the properties a) and c) implies b). Conversely, b) implies a) because every set of finite outer measure is contained in an integrable open set (Ch. IV, §1, No. 4, Prop. 19), and b) implies c) because every integrable set is the union of a sequence of compact sets and a negligible set (Ch. IV, §4, No. 6, Cor. 2 of Th. 4).
 
-#### Definition 2 {#int-v-s1-def-2 .statement}
+#### Definition 2 {#int-v-s1-def-2 .statement tag=08ZV}
 
 — *A subset of* $T$ *is said to be* $\mu$*-moderated if it satisfies the equivalent conditions of Proposition 5*. *A function defined on* $T$, *with values in a vector space or in* $\overline{\mathbf{R}}$, *is said to be* $\mu$*-moderated if it is zero on the complement of a* $\mu$*-moderated subset of* $T$. *The measure* $\mu$ *is said to be moderated if* $T$ *is a* $\mu$*-moderated set*.
 
 If $\mu$ is a moderated measure, then every function on $T$ is $\mu$-moderated and every subset of $T$ is $\mu$-moderated.
 
-#### Remark {#int-v-s1-n2-rem-1 .statement}
+#### Remark {#int-v-s1-n2-rem-1 .statement tag=08ZW}
 
 — 1) If $\theta$ is a complex measure on $T$, one says that a function $f$ is $\theta$-moderated (resp. that $\theta$ is moderated) if $f$ is $|\theta|$-moderated (resp. if $|\theta|$ is moderated).
 2) Every bounded measure is moderated; if $T$ is a countable union of compact sets, then every measure on $T$ is moderated.
@@ -147,7 +147,7 @@ If $\mu$ is a moderated measure, then every function on $T$ is $\mu$-moderated a
 
 4) A function equal almost everywhere to a moderated function is moderated.
 
-#### Proposition 6 {#int-v-s1-prop-6 .statement}
+#### Proposition 6 {#int-v-s1-prop-6 .statement tag=08ZX}
 
 — *Let $f$ be a positive numerical function defined on $T$ that is $\mu$-measurable and $\mu$-moderated. Then there exists a sequence $(h_n)_{n \in \mathbf{N}}$ of elements of $\mathscr{F}_+(T)$, with sum equal to $f$, having the following properties:*
 
@@ -164,7 +164,7 @@ Let $\mathscr{K}$ be the set of compact subsets $K$ of $T$ such that $f|K$ is co
 
 The following proposition makes it possible to reduce the study of the upper integral to that of the essential upper integral.
 
-#### Proposition 7 {#int-v-s1-prop-7 .statement}
+#### Proposition 7 {#int-v-s1-prop-7 .statement tag=08ZY}
 
 — *Let $f$ be an element of $\mathscr{F}_+(T)$.*
 1) *If the function $f$ is not $\mu$-moderated, then $\mu^*(f) = +\infty$.*
@@ -185,15 +185,15 @@ $$
 
 Set $A = \bigcup_n A_n$; the second member is equal to $\mu^*(f \varphi_A)$ (Ch. IV, §1, No. 3, Th. 3), that is, to $\mu^\bullet(f \varphi_A)$ (by Prop. 1, or by 2) above). Since $\mu^\bullet(f) = \mu^\bullet(f \varphi_A) + \mu^\bullet(f \varphi_{\mathbf{C}_A})$ (Prop. 2), we have $\mu^\bullet(f \varphi_{\mathbf{C}_A}) = 0$, from which 3) follows.
 
-#### Corollary 1 {#int-v-s1-prop-7-cor-1 .statement}
+#### Corollary 1 {#int-v-s1-prop-7-cor-1 .statement tag=08ZZ}
 
 *For f to be negligible, it is necessary and sufficient that it be locally negligible and moderated.*
 
-#### Corollary 2 {#int-v-s1-prop-7-cor-2 .statement}
+#### Corollary 2 {#int-v-s1-prop-7-cor-2 .statement tag=0900}
 
 *If $\mu$ is a moderated measure (in particular if $\mu$ is bounded, or if T is countable at infinity), then $\mu^* = \mu^\bullet$.*
 
-#### Proposition 8 {#int-v-s1-prop-8 .statement}
+#### Proposition 8 {#int-v-s1-prop-8 .statement tag=0901}
 
 a) *Let H be a set of functions $\geq 0$, lower semi-continuous, directed for the relation $\leq$; then*
 
@@ -231,7 +231,7 @@ The inequality $\mu^\bullet(\eta) \leqslant \inf_{h \in H} \mu^\bullet(h)$ being
 
 Let $F$ be a real Banach space; recall that the elements of the spaces $\mathscr{F}_F^p$ (Ch. IV, §3, No. 3) and $\mathscr{L}_F^p$ (Ch. IV, §3, No. 4, Def. 2) are $\mu$-moderated functions (Ch. IV, §5, No. 6, Lemma 1); with $\mathscr{N}_F$ still denoting the space of negligible mappings of $T$ into $F$, we shall introduce the space $\mathscr{N}_F^\infty$ of locally negligible mappings of $T$ into $F$.
 
-#### Lemma {#int-v-s1-n3-lem-1 .statement}
+#### Lemma {#int-v-s1-n3-lem-1 .statement tag=0902}
 
 *Let $g$ and $g'$ be two $\mu$-moderated mappings with values in $F$; if $g$ and $g'$ are equal locally almost everywhere to a same function $f$, then $g = g'$ almost everywhere.*
 
@@ -243,7 +243,7 @@ We shall similarly denote by $\overline{\mathscr{L}}_F^p(T, \mu)$ (or $\overline
 
 The normed space $\overline{\mathscr{L}}_F^p / \mathscr{N}_F^\infty$ may be canonically identified with $L_F^p$; $\overline{\mathscr{L}}_F^p$ is therefore complete. Its elements are called the *p-th power essentially integrable functions*, this terminology being justified by the following proposition:
 
-#### Proposition 9 {#int-v-s1-prop-9 .statement}
+#### Proposition 9 {#int-v-s1-prop-9 .statement tag=0903}
 
 *For a mapping f of T into F to belong to $\overline{\mathscr{F}}_F^p$ (resp. to $\overline{\mathscr{L}}_F^p$), if is necessary and sufficient that* (resp. *that f be measurable and that*)
 
@@ -267,11 +267,11 @@ $$
 
 Conversely, suppose that $\mu^\bullet(|f|^p) < +\infty$; then there exists a moderated set A such that f is zero locally almost everywhere in T − A (Prop. 7). The function $f \varphi_A$, equal locally almost everywhere to f, is such that $N_p(f \varphi_A) = \overline{N}_p(f) < +\infty$, therefore it belongs to $\mathscr{F}_F^p$, and $f \in \overline{\mathscr{F}}_F^p$.
 
-#### Corollary {#int-v-s1-n3-cor-1 .statement}
+#### Corollary {#int-v-s1-n3-cor-1 .statement tag=0904}
 
 *For f to belong to $\mathscr{L}_F^p$, it is necessary and sufficient that f belong to $\overline{\mathscr{L}}_F^p$ and be moderated.*
 
-#### Definition 3 {#int-v-s1-def-3 .statement}
+#### Definition 3 {#int-v-s1-def-3 .statement tag=0905}
 
 *The elements of $\overline{\mathscr{L}}_F^1$ are called essentially $\mu$-integrable functions with values in F. On composing the mapping $\tilde{f} \mapsto \mu(f)$ of $L_F^1$ into F with the canonical mapping of $\overline{\mathscr{L}}_F^1$ onto $L_F^1$, one obtains a continuous linear mapping of $\overline{\mathscr{L}}_F^1$ into F that extends the mapping $f \mapsto \int f d\mu$ of $\mathscr{L}_F^1$ into F. One again denotes by $\int f d\mu$ or $\mu(f)$ the value of this mapping for $f \in \overline{\mathscr{L}}_F^1$, and this element is called the integral of f with respect to $\mu$.*
 
@@ -289,7 +289,7 @@ $$
 $$
 valid for every essentially integrable function $f$ with values in a Banach space.
 
-#### Proposition 10 {#int-v-s1-prop-10 .statement}
+#### Proposition 10 {#int-v-s1-prop-10 .statement tag=0906}
 
 *Let $\mathfrak{K}$ be a $\mu$-dense set of compact subsets of $T$.*
 a) *If $f$ is a numerical function $\geq 0$, then*
@@ -327,7 +327,7 @@ Let $\theta$ be a complex measure; we set $\overline{\mathscr{L}}_F^p(T, \theta)
 
 The following result will be used frequently in the sequel. In the statement, one cannot replace essential upper integrals by ordinary upper integrals (see Exer. 4).
 
-#### Proposition 11 {#int-v-s1-prop-11 .statement}
+#### Proposition 11 {#int-v-s1-prop-11 .statement tag=0907}
 
 — Let $(\lambda_\alpha)_{\alpha \in A}$ be a family of positive measures on T, directed for the relation $\leq$ and having a supremum $\lambda$ in $\mathscr{M}(T)$. Then, for every numerical function $f \geq 0$,
 
@@ -349,11 +349,11 @@ $$
 = \sup_{\alpha \in A} \sup_{K \in \mathscr{K}} \lambda_\alpha^\bullet(f \varphi_K) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
-#### Corollary 1 {#int-v-s1-prop-11-cor-1 .statement}
+#### Corollary 1 {#int-v-s1-prop-11-cor-1 .statement tag=0908}
 
 *For a subset N of T to be locally $\lambda$-negligible, it is necessary and sufficient that N be locally $\lambda_\alpha$-negligible for every $\alpha \in A$.*
 
-#### Corollary 2 {#int-v-s1-prop-11-cor-2 .statement}
+#### Corollary 2 {#int-v-s1-prop-11-cor-2 .statement tag=0909}
 
 *For a mapping g of T into a topological space G to be $\lambda$-measurable, it is necessary and sufficient that it be $\lambda_\alpha$-measurable for every $\alpha \in A$.*
 

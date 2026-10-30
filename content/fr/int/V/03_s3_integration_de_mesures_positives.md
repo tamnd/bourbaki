@@ -36,7 +36,7 @@ subsections:
       pdf_page: 37
 statements: 30
 exercises: 11
-content_sha256: 3c437487954dc0b591cb3ded77271add440535b2e6fa699cd563fc8610ecd4d0
+content_sha256: b2b8e3e6c0b168127699c40cfb6928a1a88b43a897da5bd9d591f4935ababa29
 ---
 
 ## § 3. Intégration de mesures positives
@@ -58,15 +58,15 @@ $$
 
 Nous ferons des abus de notation analogues dans la suite, pour les intégrales supérieures, les intégrales supérieures essentielles, les intégrales de fonctions à valeurs dans un espace de Banach.
 
-#### Exemple 1 {#int-v-s3-n1-exa-1 .statement}
+#### Exemple 1 {#int-v-s3-n1-exa-1 .statement tag=090W}
 
 Supposons que T soit un espace discret, et que $\mu$ soit la mesure sur T définie par la masse +1 placée en chaque point de T (chap. III, 2e éd., § 1, n° 3). Soit $h$ une fonction $\geqslant 0$ définie dans T : la fonction $h$ étant semi-continue inférieurement (et même continue) dans T, on a $\mu^*(h) = \mu^*(h) = \sum_{t \in T} h(t)$ (chap. IV, § 1, n° 1, *Exemple*). Pour la mesure $\mu$, les notions de fonction intégrable et de fonction essentiellement intégrable sont donc identiques. Cela étant, dire qu’une application $t \mapsto \lambda_t$ de T dans $\mathscr{M}_+(X)$ est scalairement essentiellement $\mu$-intégrable revient à dire que la famille $(\lambda_t)_{t \in T}$ est sommable (§ 2, n° 1), et on a alors $\int \lambda_t\ d\mu(t) = \sum_{t \in T} \lambda_t$. On notera que l’application $t \mapsto \lambda_t$ est vaguement continue.
 
-#### Exemple 2 {#int-v-s3-n1-exa-2 .statement}
+#### Exemple 2 {#int-v-s3-n1-exa-2 .statement tag=090X}
 
 L’application $t \mapsto \varepsilon_t$ de T dans $\mathscr{M}_+(T)$ est vaguement continue, scalairement essentiellement $\mu$-intégrable pour toute mesure positive $\mu$ sur T, et on a $\int \varepsilon_t\ d\mu(t) = \mu$.
 
-#### Proposition 1 {#int-v-s3-prop-1 .statement}
+#### Proposition 1 {#int-v-s3-prop-1 .statement tag=090Y}
 
 Supposons que $\mu$ soit la borne supérieure d’une famille filtrante croissante $(\mu_i)_{i \in I}$ de mesures positives sur $T$; pour que $\Lambda : t \mapsto \lambda_t$ soit scalairement essentiellement $\mu$-intégrable, il faut et il suffit que $\Lambda$ soit scalairement essentiellement $\mu_i$-intégrable pour tout $i \in I$, et que la famille $(\int \lambda_t \, d\mu_i(t))_{i \in I}$ soit majorée dans $\mathscr{M}(X)$. On a dans ce cas
 $$
@@ -74,7 +74,7 @@ $$
 $$
 En effet, vérifier que $\Lambda$ est scalairement essentiellement intégrable pour une mesure positive $\eta$ sur $T$ revient à vérifier que $t \mapsto \lambda_t(g)$ est $\eta$-mesurable et admet une intégrable supérieure essentielle finie par rapport à $\eta$, quelle que soit la fonction $g \in \mathscr{K}_+(X)$. La proposition résulte donc aussitôt de la prop. 11 du § 1, n° 4 et de son corollaire 2.
 
-#### Corollaire {#int-v-s3-n1-cor-1 .statement}
+#### Corollaire {#int-v-s3-n1-cor-1 .statement tag=090Z}
 
 Supposons que $\mu$ soit la somme d’une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures positives sur $T$; pour que $\Lambda : t \mapsto \lambda_t$ soit scalairement essentiellement $\mu$-intégrable, il faut et il suffit que $\Lambda$ soit scalairement essentiellement $\mu_\alpha$-intégrable pour $\alpha \in A$, et que la famille des mesures $\int \lambda_t \, d\mu_\alpha(t)$ soit sommable. On a alors
 $$
@@ -84,7 +84,7 @@ Il en résulte immédiatement que toute application scalairement essentiellement
 
 Nous nous bornerons dans ce paragraphe à l’étude des applications scalairement essentiellement intégrables de $T$ dans $\mathscr{M}_+(X)$ qui possèdent la propriété envisagée dans la définition suivante.
 
-#### Définition 1 {#int-v-s3-def-1 .statement}
+#### Définition 1 {#int-v-s3-def-1 .statement tag=0910}
 
 Soient $X$ un espace localement compact, $\Lambda : t \mapsto \lambda_t$ une application scalairement essentiellement $\mu$-intégrable de $T$ dans $\mathscr{M}_+(X)$, et $v$ l’intégrale de $\Lambda$.
 On dit que $\Lambda$ est $\mu$-pré-adéquate si, pour toute fonction semi-continue inférieurement $f \geq 0$ définie dans $X$, la fonction $t \mapsto \int^\cdot f \, d\lambda_t$ est $\mu$-mesurable dans $T$, et si l’on a
@@ -98,7 +98,7 @@ On peut montrer que si $\Lambda$ est $\mu$-pré-adéquate, et si la mesure $\nu$
 
 La proposition suivante permet souvent de vérifier qu’une application donnée est $\mu$-adéquate.
 
-#### Proposition 2 {#int-v-s3-prop-2 .statement}
+#### Proposition 2 {#int-v-s3-prop-2 .statement tag=0911}
 
 Soit $\Lambda : t \mapsto \lambda_t$ une application scalairement essentiellement intégrable de $T$ dans $\mathscr{M}_+(X)$, et soit $\nu = \int \lambda_t \, d\mu(t)$.
 
@@ -143,7 +143,7 @@ La formule (4) s’en déduit en sommant sur $\alpha$ (§ 2, n° 2, prop. 1). En
 
 Enfin, supposons que la topologie de X admette une base dénombrable, et montrons que toute application scalairement essentiellement $\mu$-intégrable $\Lambda : t \mapsto \lambda_t$ de $T$ dans $\mathscr{M}_+(X)$ est vaguement $\mu$-mesurable. Cela résultera du lemme suivant:
 
-#### Lemme 1 {#int-v-s3-lem-1 .statement}
+#### Lemme 1 {#int-v-s3-lem-1 .statement tag=0E6F}
 
 *Soit X un espace localement compact ayant une base dénombrable. Il existe alors dans $\mathscr{K}(X)$ une partie dénombrable S possédant la propriété suivante: pour toute fonction $f \in \mathscr{K}(X)$, il existe une suite $(f_n)$ d’éléments de S, une fonction positive $\varphi \in S$, telles que, quel que soit le nombre $\varepsilon > 0$, l’on ait $|f_n - f| \leq \varepsilon \varphi$ dès que n est suffisamment grand.*
 
@@ -155,7 +155,7 @@ Ce lemme étant établi, et l’application $t \mapsto \lambda_t(g)$ étant scal
 
 Dans toute la suite de ce paragraphe, sauf mention expresse du contraire, nous désignons par X un espace localement compact, par $\Lambda : t \mapsto \lambda_t$ une application $\mu$-adéquate de T dans $\mathscr{M}_+(X)$, et par $v$ l’intégrale de $\Lambda$.
 
-#### Proposition 3 {#int-v-s3-prop-3 .statement}
+#### Proposition 3 {#int-v-s3-prop-3 .statement tag=0913}
 
 Soit $f$ une fonction numérique $\geqslant 0$ définie dans $X$.
 
@@ -198,19 +198,19 @@ $$
 
 Si l’on ne fait aucune hypothèse analogue à celle de c), l’inégalité (8) peut être mise en défaut (exerc. 2).
 
-#### Corollaire 1 {#int-v-s3-prop-3-cor-1 .statement}
+#### Corollaire 1 {#int-v-s3-prop-3-cor-1 .statement tag=0914}
 
 Soit $f$ une fonction $\geq 0$ définie dans $X$, et soit $H$ l’ensemble des $t \in T$ tels que $f$ ne soit pas $\lambda_t$-négligeable.
 a) Si $f$ est $v$-négligeable, $H$ est localement $\mu$-négligeable.
 b) Si $f$ est $v$-négligeable, et si $\Lambda$ est vaguement continue, $H$ est $\mu$-négligeable.
 c) Si $f$ est localement $v$-négligeable, et si $\lambda_t^*(1) < +\infty$ localement $\mu$-presque partout, $H$ est localement $\mu$-négligeable.
 
-#### Corollaire 2 {#int-v-s3-prop-3-cor-2 .statement}
+#### Corollaire 2 {#int-v-s3-prop-3-cor-2 .statement tag=0915}
 
 Soit $f$ une fonction $\geq 0$ définie dans $X$ et $v$-modérée. L’ensemble des $t \in T$ tels que $f$ ne soit pas $\lambda_t$-modérée est alors localement $\mu$-négligeable (et même $\mu$-négligeable si $\Lambda$ est vaguement continue).
 En effet, $f$ est la somme d’une suite de fonctions $f_n \geq 0$, telle que $f_n$ soit nulle hors d’un compact $K_n$ pour $n \geq 1$, et que $f_0$ soit $v$-négligeable (§ 1, n° 2, prop. 6); $f_0$ est alors $\lambda_t$-négligeable, sauf pour des $t$ qui forment un ensemble localement $\mu$-négligeable (et même $\mu$-négligeable si $\Lambda$ est vaguement continue) d’après le cor. 1, et l’énoncé en résulte aussitôt.
 
-#### Proposition 4 {#int-v-s3-prop-4 .statement}
+#### Proposition 4 {#int-v-s3-prop-4 .statement tag=0916}
 
 Soit $f$ une fonction $v$-mesurable définie dans $X$, à valeurs dans un espace topologique $G$, et soit $M$ l’ensemble des $t \in T$ tels que $f$ ne soit pas $\lambda_t$-mesurable.
 a) Supposons que $f$ soit constante dans le complémentaire d’une partie $v$-modérée de $X$; $M$ est alors localement $\mu$-négligeable.
@@ -222,7 +222,7 @@ Démontrons d’abord a) (resp. b)). Tout ensemble $v$-intégrable étant conten
 
 Pour établir c), reprenons les notations de la démonstration de la prop. 3 ; $f$ étant $v$-mesurable, est mesurable pour chacune des mesures $\nu_\alpha \leq \nu$. Or ces mesures sont bornées, donc modérées, et il résulte de a) que M est localement $\mu_\alpha$-négligeable pour tout $\alpha \in A$. Cela entraîne que M est localement $\mu$-négligeable ($§ 2$, n° 2, cor. 2 de la prop. 1).
 
-#### Proposition 5 {#int-v-s3-prop-5 .statement}
+#### Proposition 5 {#int-v-s3-prop-5 .statement tag=0917}
 
 Soit $f$ une fonction numérique positive $v$-mesurable définie dans X, et soit N l’ensemble des $t \in T$ tels que $f$ ne soit pas $\lambda_t$-mesurable et $\lambda_t$-modérée.
 
@@ -253,7 +253,7 @@ Il ne reste plus qu’à sommer sur $\alpha$, en appliquant les prop. 1 et 2 du 
 
 Si $f$ n’est pas supposée $\nu$-modérée, et si l’on ne fait pas l’hypothèse de c), la relation (9) peut être inexacte (exerc. 3).
 
-#### Corollaire {#int-v-s3-n2-cor-1 .statement}
+#### Corollaire {#int-v-s3-n2-cor-1 .statement tag=0918}
 
 Soit $\mathbf{f}$ une fonction définie dans $X$, à valeurs dans un espace de Banach $F$ ou dans $\bar{\mathbf{R}}$, $\nu$-mesurable et $\nu$-modérée. Pour que $\mathbf{f}$ soit $\nu$-intégrable, il faut et il suffit que
 $$
@@ -263,7 +263,7 @@ Cela résulte aussitôt de la prop. 5 et du critère d’intégrabilité (chap. 
 
 ### 3. Intégrales superposées de fonctions à valeurs dans un espace de Banach
 
-#### Théorème 1 {#int-v-s3-thm-1 .statement}
+#### Théorème 1 {#int-v-s3-thm-1 .statement tag=0919}
 
 Soit $\mathbf{f}$ une fonction à valeurs dans un espace de Banach $F$ ou dans $\bar{\mathbf{R}}$, et soit $H$ l’ensemble des $t \in T$ pour lesquels $\mathbf{f}$ n’est pas $\lambda_t$-intégrable.
 
@@ -303,25 +303,25 @@ Comme $\int f_n(x)\, dv(x)$ tend vers $\int f(x)\, dv(x)$ lorsque $n$ tend vers 
 
 Supposons maintenant que $\lambda_t^*(1) < +\infty$ localement $\mu$-presque partout, et que $g$ soit une fonction essentiellement $v$-intégrable. Soit $f$ une fonction $v$-intégrable telle que $g = f$ localement $v$-presque partout ($§ 1, n° 3$). On a alors $g = f$ presque partout pour $\lambda_t$, sauf pour des $t$ qui forment un ensemble localement $\mu$-négligeable $P$ (cor. 1 c) de la prop. 3). On a $\int g\, d\lambda_t = \int f\, d\lambda_t$ pour $t \notin P \cup H$, et cela achève la démonstration.
 
-#### Remarque {#int-v-s3-n3-rem-1 .statement}
+#### Remarque {#int-v-s3-n3-rem-1 .statement tag=091A}
 
 Soit $\Lambda : t \mapsto \lambda_t$ une application $\mu$-adéquate de $T$ dans $\mathscr{M}_+(X)$. Si une application $\Lambda' : t \mapsto \lambda'_t$ de $T$ dans $\mathscr{M}_+(X)$ est égale à $\Lambda$ localement $\mu$-presque partout, il résulte aussitôt des définitions que $\Lambda'$ est aussi $\mu$-adéquate, et que $\Lambda$ et $\Lambda'$ ont même intégrale. Si maintenant $H : t \mapsto \eta_t$ est une fonction à valeurs dans $\mathscr{M}_+(X)$, définie localement $\mu$-presque partout, nous dirons encore que $H$ est $\mu$-adéquate si elle est égale localement $\mu$-presque partout à une application $\Lambda : t \mapsto \lambda_t$, partout définie et $\mu$-adéquate. On pose alors $\int \eta_t\, d\mu(t) = \int \lambda_t\, d\mu(t)$, définition qui ne dépend pas de la fonction $\Lambda$ utilisée. Nous laisserons au lecteur le soin de vérifier que les propositions démontrées dans les numéros précédents s’étendent aux fonctions $\mu$-adéquates définies localement $\mu$-presque partout.
 
 ### 4. Fonctions universellement mesurables
 
-#### Définition 2 {#int-v-s3-def-2 .statement}
+#### Définition 2 {#int-v-s3-def-2 .statement tag=091B}
 
 On dit qu’une application $f$ de $T$ dans un espace topologique $F$ est universellement mesurable si elle est $\mu$-mesurable pour toute mesure positive $\mu$ sur $T$.
 
 Les sous-ensembles de $T$ dont la fonction caractéristique est universellement mesurable sont appelés ensembles universellement mesurables. Ils forment une tribu sur $T$ (chap. IV, 2e éd., § 5, n° 4, cor. 2 du th. 2) qui contient les ensembles boréliens (même réf., cor. 3), et les ensembles sousliniens si $T$ est métrisable (chap. IV, 2e éd., § 5, n° 1, cor. 2 de la prop. 3). Pour qu’une application $f$ de $T$ dans un espace topologique $F$, métrisable de type dénombrable, soit universellement mesurable, il faut et il suffit que l’image réciproque par $f$ de toute boule fermée de $F$ soit une partie universellement mesurable de $T$ (chap. IV, § 5, n° 5, th. 4).
 
-#### Proposition 6 {#int-v-s3-prop-6 .statement}
+#### Proposition 6 {#int-v-s3-prop-6 .statement tag=091C}
 
 Pour qu’une application $f$ de $T$ dans un espace topologique $F$ soit universellement mesurable, il faut et il suffit que $f$ soit mesurable pour toute mesure positive sur $T$ à support compact.
 
 Cette condition est évidemment nécessaire; elle est d’autre part suffisante, car toute mesure positive $\mu$ est somme d’une famille de mesures à support compact ($§ 2, n° 3,$ prop. 4): l’énoncé résulte alors de la prop. 2 du $§ 2, n° 2$.
 
-#### Proposition 7 {#int-v-s3-prop-7 .statement}
+#### Proposition 7 {#int-v-s3-prop-7 .statement tag=091D}
 
 Soit $\mu$ une mesure positive sur $T$, et soit $f$ une application $\mu$-mesurable de $T$ dans un espace topologique $F$. Il existe alors une application universellement mesurable $f'$ de $T$ dans $F$, telle que $f = f'$ localement $\mu$-presque partout.
 
@@ -340,13 +340,13 @@ D'autre part, $N \cap K$ est une partie borélienne de $K$ pour tout compact $K$
 
 ### 5. Diffusions
 
-#### Définition 3 {#int-v-s3-def-3 .statement}
+#### Définition 3 {#int-v-s3-def-3 .statement tag=091E}
 
 Soit $X$ un espace localement compact, et soit $\Lambda : t \mapsto \lambda_t$ une application de $T$ dans $\mathscr{M}_+(X)$. On dit que $\Lambda$ est une diffusion de $T$ dans $X$ si $\Lambda$ est adéquate pour toute mesure positive sur $T$ à support compact. On dit que la diffusion $\Lambda$ est bornée si toutes les mesures $\lambda_t$ sont bornées et si on a $\sup_{t \in T} \| \lambda_t \| < +\infty$; cette quantité est alors appelée la norme de $\Lambda$, et notée $\| \Lambda \|$.
 
 La proposition suivante ne fait que traduire la définition :
 
-#### Proposition 8 {#int-v-s3-prop-8 .statement}
+#### Proposition 8 {#int-v-s3-prop-8 .statement tag=091F}
 
 Pour qu’une application $\Lambda : t \mapsto \lambda_t$ de $T$ dans $\mathscr{M}_+(X)$ soit une diffusion, il faut et il suffit que les conditions suivantes soient satisfaites :
 1) Pour toute fonction semi-continue inférieurement $f \geqslant 0$ définie dans $X$, la fonction $t \mapsto \lambda_t^*(f)$ est universellement mesurable dans $T$.
@@ -359,7 +359,7 @@ $$
 
 Supposons que $\Lambda$ soit une diffusion. La condition 1) est alors satisfaite d’après la définition des applications adéquates (n° 1, déf. 1), et la prop. 6 ; la condition 3) est satisfaite d’après la formule (4), puisque $\Lambda$ est $\mu$-adéquate. Soit $g \in \mathscr{K}_+(X)$, et soit $u$ la fonction $t \mapsto \lambda_t(g)$ (universellement mesurable d’après 1)); supposons que $u$ ne soit pas localement bornée. Il existe alors un compact $K$ tel que $u$ ne soit pas bornée sur $K$, et il existe donc une suite $(t_n)$ d’éléments de $K$ telle que $u(x_n) \geqslant n^2$ pour tout $n \geqslant 1$; $u$ n’est donc pas intégrable pour la mesure à support compact $\mu = \sum_{n \geqslant 1} \frac{1}{n^2} \varepsilon_{t_n}$, en contradiction avec l’hypothèse faite sur $\Lambda$, qui entraîne que $t \mapsto \lambda_t(g)$ est intégrable pour toute mesure positive à support compact. Les trois conditions ci-dessus sont donc nécessaires. Inversement, les conditions 1) et 2) entraînent que $\Lambda$ est scalairement essentiellement $\mu$-intégrable pour toute mesure $\mu$ à support compact. Comme toute mesure $\mu' \geq 0$ majorée par une mesure $\mu$ à support compact a aussi un support compact, les conditions 1) et 3) expriment que $\Lambda$ est $\mu$-adéquate pour toute mesure positive à support compact, ce qui est bien le résultat cherché.
 
-#### Proposition 9 {#int-v-s3-prop-9 .statement}
+#### Proposition 9 {#int-v-s3-prop-9 .statement tag=091G}
 
 *Soit $\Lambda : t \mapsto \lambda_t$ une application de $T$ dans $\mathscr{M}_+(X)$, telle que la fonction $t \mapsto \lambda_t(g)$ soit universellement mesurable et localement bornée dans $T$ pour tout $g \in \mathscr{K}_+(X)$. On peut affirmer que $\Lambda$ est une diffusion dans chacun des cas suivants :
 a) la topologie de $X$ admet une base dénombrable ;
@@ -372,7 +372,7 @@ $$
 $$
 Nous dirons qu’une mesure positive $\mu$ sur $T$ appartient au domaine de $\Lambda$ si $\Lambda$ est $\mu$-adéquate : cela revient à dire (compte tenu de la prop. 8) que $\Lambda$ est scalairement essentiellement $\mu$-intégrable et qu’on a $\langle \mu' \Lambda, f \rangle = \langle \mu', \Lambda f \rangle$ pour toute mesure positive $\mu' \leq \mu$ et pour toute fonction $f$ positive semi-continue inférieurement.
 
-#### Proposition 10 {#int-v-s3-prop-10 .statement}
+#### Proposition 10 {#int-v-s3-prop-10 .statement tag=091H}
 
 *Soient $f, g$ deux fonctions universellement mesurables positives sur $X$, $a$ un nombre $\geq 0$, $\mu$ et $\nu$ deux mesures positives sur $T$.*
 
@@ -382,7 +382,7 @@ b) Si $\mu$ et $\nu$ appartiennent au domaine de $\Lambda$, il en est de même d
 
 Le seul point non évident est l’appartenance de $(\mu + \nu)$ au domaine de $\Lambda$, qui se traite en remarquant que toute mesure positive majorée par $\mu + \nu$ est de la forme $\mu' + \nu'$, où $\mu' \leq \mu, \nu' \leq \nu$ (« lemme de décomposition », chap. II, § 1, n° 1). Voir aussi la prop. 11 ci après.
 
-#### Proposition 11 {#int-v-s3-prop-11 .statement}
+#### Proposition 11 {#int-v-s3-prop-11 .statement tag=091I}
 
 Pour qu’une mesure positive $\mu$ sur $T$ appartienne au domaine de $\Lambda$, il faut et il suffit que $\Lambda$ soit scalairement essentiellement $\mu$-intégrable.
 
@@ -400,7 +400,7 @@ $$
 \langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i, \Lambda f \rangle = \langle \mu, \Lambda f \rangle.
 $$
 
-#### Corollaire 1 {#int-v-s3-prop-11-cor-1 .statement}
+#### Corollaire 1 {#int-v-s3-prop-11-cor-1 .statement tag=091J}
 
 Si $\Lambda$ est une diffusion bornée, toute mesure positive bornée $\mu$ appartient au domaine de $\Lambda$, et on a
 
@@ -408,7 +408,7 @@ $$
 \| \mu \Lambda \| \leq \| \mu \| \| \Lambda \|.
 $$
 
-#### Corollaire 2 {#int-v-s3-prop-11-cor-2 .statement}
+#### Corollaire 2 {#int-v-s3-prop-11-cor-2 .statement tag=091K}
 
 Supposons que $\mu$ soit somme d’une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures positives appartenant au domaine de $\Lambda$. Pour que $\mu$ appartienne au domaine de $\Lambda$, il faut et il suffit que la famille des mesures $\mu_\alpha \Lambda$ soit sommable, et on a dans ce cas
 $$
@@ -418,20 +418,20 @@ Il suffit d’appliquer le cor. de la prop. 1 du n° 1.
 
 La proposition 5, exprimée dans le langage des diffusions, prend la forme suivante :
 
-#### Proposition 12 {#int-v-s3-prop-12 .statement}
+#### Proposition 12 {#int-v-s3-prop-12 .statement tag=091L}
 
 Soit $\mu$ une mesure positive sur $T$ qui appartient au domaine de $\Lambda$, et soit $f$ une fonction universellement mesurable $\geqslant 0$ définie dans $X$. Si $f$ est modérée pour la mesure $\mu \Lambda$, ou si les mesures $\lambda_t$ sont bornées, la fonction $\Lambda f$ est $\mu$-mesurable et on a
 $$
 \langle \mu \Lambda, f \rangle = \langle \mu, \Lambda f \rangle.
 $$
 
-#### Corollaire {#int-v-s3-n5-cor-1 .statement}
+#### Corollaire {#int-v-s3-n5-cor-1 .statement tag=091M}
 
 Si $X$ est dénombrable à l’infini, ou si les mesures $\lambda_t$ sont bornées, la fonction $\Lambda f$ est universellement mesurable dans $T$ pour toute fonction universellement mesurable $f \geqslant 0$ définie dans $X$, et on a (13).
 
 ### 6. Composition des diffusions bornées
 
-#### Proposition 13 {#int-v-s3-prop-13 .statement}
+#### Proposition 13 {#int-v-s3-prop-13 .statement tag=091N}
 
 Soient $T, X, Y$ trois espaces localement compacts, $\Lambda : t \mapsto \lambda_t$ une diffusion bornée de $T$ dans $X$, $H : x \mapsto \eta_x$ une diffusion bornée de $X$ dans $Y$. L’application $t \mapsto \lambda_t H$ est alors une diffusion bornée de $T$ dans $Y$, que l’on désigne par $\Lambda H$, et on a
 $$
@@ -466,7 +466,7 @@ $$
 
 Lorsque $f$ est semi-continue inférieurement, et lorsque $\mu$ parcourt l’ensemble des mesures positives à support compact, ces relations expriment que $\Gamma$ est une diffusion de $T$ dans $Y$. L’énoncé ne fait alors qu’expliciter les relations obtenues au cours de la démonstration ci-dessus.
 
-#### Définition 4 {#int-v-s3-def-4 .statement}
+#### Définition 4 {#int-v-s3-def-4 .statement tag=091O}
 
 *Les notations étant celles de la proposition 13, la diffusion $\Lambda H$ est appelée la diffusion composée des diffusions bornées $H$ et $\Lambda$.*
 
@@ -478,7 +478,7 @@ $$
 
 On utilisera donc des notations sans parenthèses pour la composition des diffusions.
 
-#### Exemple {#int-v-s3-n6-exa-1 .statement}
+#### Exemple {#int-v-s3-n6-exa-1 .statement tag=091P}
 
 Soient $u$ une application universellement mesurable de $T$ dans $X$, $v$ une application universellement mesurable de $X$ dans $Y$; d’après la prop. 2b), on définit des diffusions $\Lambda$ et $H$ par les formules :
 

@@ -29,14 +29,14 @@ subsections:
       pdf_page: 285
 statements: 24
 exercises: 19
-content_sha256: 470d5844ca28a94c5255be9bb84e59e7adab1ce52d0bdae1a5cc72579b15672d
+content_sha256: 41bc8b6bc73ee003f10c2b0789585e99cc74ba8b5cfcd5f713cf440dd2d53406
 ---
 
 ## 1. PRIME IDEALS ASSOCIATED WITH A MODULE
 
 ### 1. DEFINITION OF ASSOCIATED PRIME IDEALS
 
-#### Definition 1 {#ac-iv-s1-def-1 .statement}
+#### Definition 1 {#ac-iv-s1-def-1 .statement tag=04J7}
 
 Let M be a module over a ring A. A prime ideal p is said to be associated with M if there exists x ∈ M such that p is equal to the annihilator & x. The set of prime ideals associated with M is denoted by Ass_A(M), or simply Ass(M).
 
@@ -53,35 +53,35 @@ $$
 \operatorname{Ass}(M) = \bigcup_{i \in I} \operatorname{Ass}(M_i).
 $$
 
-#### Proposition 1 {#ac-iv-s1-prop-1 .statement}
+#### Proposition 1 {#ac-iv-s1-prop-1 .statement tag=04J8}
 
 *For every prime ideal $p$ of a ring $A$ and every submodule $M \neq 0$ of $A/p$, $\operatorname{Ass}(M) = \{p\}$.*
 
 As the ring $A/p$ is an integral domain, the annihilator of an element $\neq 0$ of $A/p$ is $p$.
 
-#### Proposition 2 {#ac-iv-s1-prop-2 .statement}
+#### Proposition 2 {#ac-iv-s1-prop-2 .statement tag=04J9}
 
 *Let $M$ be a module over a ring $A$. Every maximal element of the set of ideals $\operatorname{Ann}(x)$ of $A$, where $x$ runs through the set of elements $\neq 0$ of $M$, belongs to $\operatorname{Ass}(M)$.*
 
 Let $a = \operatorname{Ann}(x)$ ($x \in M, x \neq 0$) be such a maximal element; it is sufficient to show that $a$ is prime. As $x \neq 0$, $a \neq A$. Let $b, c$ be elements of $A$ such that $bc \in a$ and $c \notin a$. Then $cx \neq 0$, $b \in \operatorname{Ann}(cx)$ and $a \subset \operatorname{Ann}(cx)$. As $a$ is maximal, $\operatorname{Ann}(cx) = a$, whence $b \in a$, so that $a$ is prime.
 
-#### Corollary 1 {#ac-iv-s1-prop-2-cor-1 .statement}
+#### Corollary 1 {#ac-iv-s1-prop-2-cor-1 .statement tag=04JA}
 
 *Let $M$ be a module over a Noetherian ring $A$. Then the condition $M \neq \{0\}$ is equivalent to $\operatorname{Ass}(M) \neq \varnothing$.*
 
 If $M = \{0\}$, clearly $\operatorname{Ass}(M)$ is empty (without any hypothesis on $A$). If $M \neq \{0\}$, the set of ideals of the form $\operatorname{Ann}(x)$, where $x \in M$ and $x \neq 0$, is non-empty and consists of ideals $\# A$; as $A$ is Noetherian, this set has a maximal element; then it suffices to apply Proposition 2.
 
-#### Corollary 2 {#ac-iv-s1-prop-2-cor-2 .statement}
+#### Corollary 2 {#ac-iv-s1-prop-2-cor-2 .statement tag=04JB}
 
 *Let $A$ be a Noetherian ring, $M$ an $A$-module and $a$ an element of $A$. For the homothety on $M$ with ratio $a$ to be injective, it is necessary and sufficient that $a$ belong to no prime ideal associated with $M$.*
 
 If $a$ belongs to a prime ideal $p \in \operatorname{Ass}(M)$, then $p = \operatorname{Ann}(x)$, where $x \in M, x \neq 0$; whence $ax = 0$ and the homothety with ratio $a$ is not injective. Conversely, if $ax = 0$ for some $x \in M$ such that $x \# 0$, then $Ax \# \{0\}$, whence $\operatorname{Ass}(x) \neq \varnothing$ (Corollary 1). Let $p \in \operatorname{Ass}(Ax)$; then obviously $p \in \operatorname{Ass}(M)$ and $p = \operatorname{Ann}(bx)$, where $b \in A$; whence $a \in p$, since $abx = 0$.
 
-#### Corollary 3 {#ac-iv-s1-prop-2-cor-3 .statement}
+#### Corollary 3 {#ac-iv-s1-prop-2-cor-3 .statement tag=04JC}
 
 *The set of divisors of zero in a Noetherian ring $A$ is the union of the ideals $p \in \operatorname{Ass}(A)$.*
 
-#### Proposition 3 {#ac-iv-s1-prop-3 .statement}
+#### Proposition 3 {#ac-iv-s1-prop-3 .statement tag=04JD}
 
 *Let $A$ be a ring, $M$ an $A$-module and $N$ a submodule of $N$. Then*
 $$
@@ -89,13 +89,13 @@ $$
 $$
 *The inclusion $\operatorname{Ass}(N) \subset \operatorname{Ass}(M)$ is obvious. Let $p \in \operatorname{Ass}(M)$, $E$ be a submodule of $M$ isomorphic to $A/p$ and $F = E \cap N$. If $F = \{0\}$, $E$ is isomorphic to a* submodule of $M/N$, whence $p \in \operatorname{Ass}(M/N)$. If $F \neq \{0\}$, the annihilator of every element $\neq 0$ of $F$ is $p$ (Proposition 1) and hence $p \in \operatorname{Ass}(F) \subset \operatorname{Ass}(N)$.
 
-#### Corollary 1 {#ac-iv-s1-prop-3-cor-1 .statement}
+#### Corollary 1 {#ac-iv-s1-prop-3-cor-1 .statement tag=04JE}
 
 *If an A-module $M$ is the direct sum of a family $(M_i)_{i \in I}$ of submodules, then* $\operatorname{Ass}(M) = \bigcup_{i \in I} \operatorname{Ass}(M_i)$.
 
 It may be reduced to the case where $I$ is finite by means of (1), then to the case where $\operatorname{Card}(I) = 2$ by induction on $\operatorname{Card}(I)$. Then let $I = \{i, j\}$, where $i \neq j$; as $M/M_i$ is isomorphic to $M_j$, $\operatorname{Ass}(M) \subset \operatorname{Ass}(M_i) \cup \operatorname{Ass}(M_j)$ (Proposition 3); moreover, $\operatorname{Ass}(M_i)$ and $\operatorname{Ass}(M_j)$ are contained in $\operatorname{Ass}(M)$ (Proposition 3), whence the result.
 
-#### Corollary 2 {#ac-iv-s1-prop-3-cor-2 .statement}
+#### Corollary 2 {#ac-iv-s1-prop-3-cor-2 .statement tag=04JF}
 
 *Let $M$ be an A-module and $(Q_i)_{i \in I}$ a finite family of submodules of $M$. If* $\bigcap_{i \in I} Q_i = \{0\}$, *then*
 $$
@@ -103,7 +103,7 @@ $$
 $$
 The canonical mapping $M \to \bigoplus_{i \in I} (M/Q_i)$ is injective; then it suffices to apply Proposition 3 and its Corollary 1.
 
-#### Proposition 4 {#ac-iv-s1-prop-4 .statement}
+#### Proposition 4 {#ac-iv-s1-prop-4 .statement tag=04JG}
 
 *Let $M$ be an A-module and $\Phi$ a subset of $\operatorname{Ass}(M)$. Then there exists a submodule $N$ of $M$ such that* $\operatorname{Ass}(N) = \operatorname{Ass}(M) - \Phi$ *and* $\operatorname{Ass}(M/N) = \Phi$.
 
@@ -111,7 +111,7 @@ Let $\mathscr{E}$ be the set of submodules $P$ of $M$ such that $\operatorname{A
 
 ### 2. LOCALIZATION OF ASSOCIATED PRIME IDEALS
 
-#### Proposition 5 {#ac-iv-s1-prop-5 .statement}
+#### Proposition 5 {#ac-iv-s1-prop-5 .statement tag=04JH}
 
 *Let $A$ be a ring, $S$ a multiplicative subset of $A$, $\Phi$ the set of prime ideals of $A$ which do not meet $S$ and $M$ an A-module. Then*:
 (i) *The mapping* $p \mapsto S^{-1}p$ *is a bijection of* $\operatorname{Ass}_A(M) \cap \Phi$ *onto a subset of* $\operatorname{Ass}_{S^{-1}A}(S^{-1}M)$.
@@ -119,13 +119,13 @@ Let $\mathscr{E}$ be the set of submodules $P$ of $M$ such that $\operatorname{A
 
 Recall (Chapter II, § 2, no. 5, Proposition 11) that the mapping $p \mapsto S^{-1}p$ is a bijection of $\Phi$ onto the set of prime ideals of $S^{-1}A$. If $p \in \operatorname{Ass}_A(M) \cap \Phi$, $p$ is the annihilator of a monogenous submodule $N$ of $M$; then $S^{-1}p$ is the annihilator of the monogenous submodule $S^{-1}N$ of $S^{-1}M$ (Chapter II, § 2, no. 4, formula (9)) and hence $S^{-1}\mathfrak{p} \in \mathrm{Ass}_{S^{-1}A}(S^{-1}M)$. Conversely, suppose that $\mathfrak{p} \in \Phi$ is finitely generated and such that $S^{-1}\mathfrak{p}$ is associated with $S^{-1}M$; then there exists $x \in M$ and $t \in S$ such that $S^{-1}\mathfrak{p}$ is the annihilator of $x/t$. Let $(a_i)_{1 \leq i \leq n}$ be a system of generators of $\mathfrak{p}$; then $(a_i/1)(x/t) = 0$ and hence there exists $s_i \in S$ such that $s_i a_i x = 0 \ (1 \leq i \leq n)$. Let us write $s = s_1 s_2 \ldots s_n$; for all $a \in \mathfrak{p}$, $s a x = 0$, whence $p \subset \mathrm{Ann}(s x)$; on the other hand, if $b \in A$ satisfies $b s x = 0$, then $b/1 \in S^{-1}\mathfrak{p}$ by definition, whence $b \in \mathfrak{p}$. Then $\mathfrak{p} = \mathrm{Ann}(s x)$ and $\mathfrak{p} \in \mathrm{Ass}_A(M)$.
 
-#### Corollary {#ac-iv-s1-n2-cor-1 .statement}
+#### Corollary {#ac-iv-s1-n2-cor-1 .statement tag=04JI}
 
 *If the ring A is Noetherian, the mapping $\mathfrak{p} \mapsto S^{-1}\mathfrak{p}$ is a bijection of $\mathrm{Ass}_A(M) \cap \Phi$ onto $\mathrm{Ass}_{S^{-1}A}(S^{-1}M)$.*
 
 If A is not Noetherian, the mapping $p \mapsto S^{-1}p$ of $\mathrm{Ass}_A(M) \cap \Phi$ to $\mathrm{Ass}_{S^{-1}A}(S^{-1}M)$ is not necessarily surjective (Exercise 1).
 
-#### Proposition 6 {#ac-iv-s1-prop-6 .statement}
+#### Proposition 6 {#ac-iv-s1-prop-6 .statement tag=04JJ}
 
 *Let A be a Noetherian ring, M an A-module, S a multiplicative subset of A and Y the set of elements of $\mathrm{Ass}_A(M)$ which do not meet S. Then the kernel N of the canonical mapping $M \to S^{-1}M$ is the unique submodule of M which satisfies the relations*
 
@@ -151,7 +151,7 @@ As $\mathrm{Ass}(N') \cap \Psi = \varnothing$, every element of $\mathrm{Ass}(N'
 
 Let M be a module over a ring A. Recall that the set of prime ideals $\mathfrak{p}$ of A such that $M, \neq 0$ is called the support of M and is denoted by $\operatorname{Supp}(M)$ (Chapter II, § 4, no. 4, Definition 5).
 
-#### Proposition 7 {#ac-iv-s1-prop-7 .statement}
+#### Proposition 7 {#ac-iv-s1-prop-7 .statement tag=04JK}
 
 Let A be a ring and M an A-module.
 
@@ -161,11 +161,11 @@ Let A be a ring and M an A-module.
 
 If $\mathfrak{p}$ contains an element $q$ of $\operatorname{Ass}(M)$, then $q \cap (A - \mathfrak{p}) = \varnothing$ and hence, if we write $S = A - \mathfrak{p}$, $S^{-1}\mathfrak{p}$ is a prime ideal associated with $S^{-1}M = M$, (no. 2, Proposition 5) and *a fortiori* $M, \# 0$, hence $\mathfrak{p} \in \operatorname{Supp}(M)$. Conversely, if A is Noetherian, so is A, (Chapter II, § 2, no. 4, Corollary 2 to Proposition 10). If $M_{\mathfrak{p}} \neq 0$, then $\operatorname{Ass}_{A_{\mathfrak{p}}}(M_{\mathfrak{p}}) \neq 0$ (no. 1, Corollary 1 to Proposition 2) and hence there exists $q \in \operatorname{Ass}_A(M)$ such that $q \cap (A - \mathfrak{p}) = \varnothing$ (no. 2, Corollary to Proposition 5).
 
-#### Corollary 1 {#ac-iv-s1-prop-7-cor-1 .statement}
+#### Corollary 1 {#ac-iv-s1-prop-7-cor-1 .statement tag=04JL}
 
 If M is a module over a Noetherian ring, then $\operatorname{Ass}(M) \subset \operatorname{Supp}(M)$ and these two sets have the same minimal elements.
 
-#### Corollary 2 {#ac-iv-s1-prop-7-cor-2 .statement}
+#### Corollary 2 {#ac-iv-s1-prop-7-cor-2 .statement tag=04JM}
 
 The nilradical of a Noetherian ring A is the intersection of the ideals $\mathfrak{p} \in \operatorname{Ass}(A)$.
 
@@ -173,13 +173,13 @@ We know that the nilradical of A is the intersection of the minimal elements of 
 
 ### 4. THE CASE OF FINITELY GENERATED MODULES OVER A NOETHERIAN RING
 
-#### Theorem 1 {#ac-iv-s1-thm-1 .statement}
+#### Theorem 1 {#ac-iv-s1-thm-1 .statement tag=04JN}
 
 Let A be a Noetherian ring and M a finitely generated A-module. There exists a composition series $(M_i)_{0 \leq i \leq n}$ of M such that, for $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ is isomorphic to $A / \mathfrak{p}_i$, where $\mathfrak{p}_i$ is a prime ideal of A.
 
 Let $\mathscr{G}$ be the set of submodules of M which have a composition series with the property of the statement. As $\mathscr{G}$ is non-empty (for $\{0\}$ belongs to $\mathscr{G}$) and M is Noetherian, $\mathscr{G}$ has a maximal element N. If $M \neq N$, then $M/N \neq 0$ and hence $\operatorname{Ass}(M/N) \neq \varnothing$ (no. 1, Corollary 1 to Proposition 2); $M/N$ therefore contains a submodule $N'/N$ isomorphic to an A-module of the form $A/\mathfrak{p}$, where $\mathfrak{p}$ is prime; then by definition $N' \in \mathscr{G}$, which contradicts the maximal character of N. Then necessarily $N = M$.
 
-#### Theorem 2 {#ac-iv-s1-thm-2 .statement}
+#### Theorem 2 {#ac-iv-s1-thm-2 .statement tag=04JO}
 
 Let M be a finitely generated module over a Noetherian ring A and $(M_i)_{0 \leq i \leq n}$ a composition series of M such that, for $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ is isomorphic to $A / \mathfrak{p}_i$ where $\mathfrak{p}_i$ is a prime ideal of A. Then
 
@@ -204,13 +204,13 @@ $$
 
 Corollary 1 to Proposition 7 of no. 3 shows that Ass(M) and Supp(M) have the same minimal elements and (4) shows that these are just the minimal elements of $\{p_0, \ldots, p_{n-1}\}$. The last assertion then follows from Chapter II, § 4, no. 4, Proposition 17.
 
-#### Corollary {#ac-iv-s1-n4-cor-1 .statement}
+#### Corollary {#ac-iv-s1-n4-cor-1 .statement tag=04JP}
 
 *If M is a finitely generated module over a Noetherian ring A, Ass(M) is finite.*
 
 Under the conditions of Theorem 2, the set $\{p_0, \ldots, p_{n-1}\}$ is not necessarily determined uniquely by M; in particular it may be distinct from Ass(M) (Exercise 6).
 
-#### Proposition 8 {#ac-iv-s1-prop-8 .statement}
+#### Proposition 8 {#ac-iv-s1-prop-8 .statement tag=04JQ}
 
 *Let A be a Noetherian ring, a an ideal of A and M a finitely generated A-module. The following conditions are equivalent:*
 
@@ -220,25 +220,25 @@ Under the conditions of Theorem 2, the set $\{p_0, \ldots, p_{n-1}\}$ is not nec
 
 Clearly (a) implies (b). By virtue of no. 1, Corollary 2 to Proposition 2, condition (b) means that the ideal a is contained in the union of the prime ideals associated with M and hence in one of them since Ass(M) is finite (Chapter 11, § 1, no. 1, Proposition 2); thus (b) implies (c). Finally, if there exists $p \in \operatorname{Ass}(M)$ such that $a \subset p$, p is the annihilator of an element $x \neq 0$ of M (no. 1, Definition 1) and $ax = 0$; thus (c) implies (a).
 
-#### Proposition 9 {#ac-iv-s1-prop-9 .statement}
+#### Proposition 9 {#ac-iv-s1-prop-9 .statement tag=04JR}
 
 *Let A be a Noetherian ring, a an ideal of A and M a finitely generated A-module. For there to exist an integer $n > 0$ such that $a^n M = 0$, it is necessary and sufficient that a be contained in the intersection of the prime ideals associated with M.*
 
 This intersection is also that of the minimal elements of Supp(M) (no. 3, Corollary 1 to Proposition 7) and to say that a is contained in this intersection is equivalent to saying that $V(a) \supset \operatorname{Supp}(M)$ in the notation of Chapter II, § 4; the conclusion then follows from Chapter 11, § 4, no. 4, Corollary 2 to Proposition 17.
 
-#### Definition 2 {#ac-iv-s1-def-2 .statement}
+#### Definition 2 {#ac-iv-s1-def-2 .statement tag=04JS}
 
 Given an $A$-module $M$, an endomorphism $u$ of $M$ is called almost nilpotent if, for all $x \in M$, there exists an integer $n(x) > 0$ such that $u^{n(x)}(x) = 0$.
 
 If $M$ is finitely generated, every almost nilpotent endomorphism is nilpotent.
 
-#### Corollary {#ac-iv-s1-n4-cor-2 .statement}
+#### Corollary {#ac-iv-s1-n4-cor-2 .statement tag=04JT}
 
 Let $A$ be a Noetherian ring. $M$ an $A$-module and $a$ an element of $A$. For the homomorphism $a_M : x \mapsto ax$ of $M$ to be almost nilpotent, it is necessary and sufficient that $a$ belong to every ideal of $\operatorname{Ass}(M)$.
 
 The condition of the statement is equivalent to saying that for all $x \in M$ there exists $n(x) > 0$ such that $(Aa)^{n(x)}(Ax) = 0$; by Proposition 9 this means also that $a$ belongs to all the prime ideals associated with the submodule $Ax$ of $M$; the corollary then follows from the fact that $\operatorname{Ass}(M)$ is the union of the $\operatorname{Ass}(Ax)$ where $x$ runs through $M$ (no. 1, formula (1)).
 
-#### Proposition 10 {#ac-iv-s1-prop-10 .statement}
+#### Proposition 10 {#ac-iv-s1-prop-10 .statement tag=04JU}
 
 Let $A$ be a Noetherian ring, $E$ a finitely generated $A$-module and $F$ an $A$-module. Then
 

@@ -52,14 +52,14 @@ subsections:
       pdf_page: 66
 statements: 43
 exercises: 18
-content_sha256: f9ea660a2ac4e3de93708f83d1b553d7e57e1c7d923b4b32e40688cf67fb7ba4
+content_sha256: 16c1b0f47ce0dcd7d314330f524487ca94dc6d5bc6ba5a2b1f1602d704ae8226
 ---
 
 ## § 1. Mesures sur un espace localement compact
 
 ### 1. Fonctions continues à support compact
 
-#### Définition 1 {#int-iii-s1-def-1 .statement}
+#### Définition 1 {#int-iii-s1-def-1 .statement tag=08L4}
 
 Soient X un espace topologique, E un espace vectoriel sur R, ou l’espace $\bar{\mathbf{R}}$. On appelle support d’une application f de X dans E et l’on note Supp (f) le plus petit ensemble fermé S dans X tel que $f(x) = 0$ dans $X - S$ (en d’autres termes, S est l’adhérence dans X de l’ensemble des $x \in X$ tels que $f(x) \neq 0$).
 
@@ -69,7 +69,7 @@ Pour toute partie compacte K de X, l’espace $\mathscr{K}(X,K;E)$ s’identifie
 
 L’espace $\mathscr{K}(X; E)$ est réunion de la famille filtrante croissante des sous-espaces $\mathscr{K}(X, K; E)$, où $K$ parcourt l’ensemble des parties compactes de $X$; en outre, si $K_1 \subset K_2$ sont deux parties compactes de $X$, l’injection canonique $\mathscr{K}(X, K_1; E) \to \mathscr{K}(X, K_2; E)$ est continue pour les topologies définies ci-dessus. Si $E$ est localement convexe, on peut donc définir sur $\mathscr{K}(X; E)$ la topologie limite inductive des topologies localement convexes des $\mathscr{K}(X, K; E)$ (*Esp. vect. top.*, chap. II, 2e éd., § 4, n° 4); sauf mention expresse du contraire, c’est toujours de cette topologie qu’il s’agira lorsque nous considérerons $\mathscr{K}(X; E)$ comme un espace vectoriel topologique.
 
-#### Proposition 1 {#int-iii-s1-prop-1 .statement}
+#### Proposition 1 {#int-iii-s1-prop-1 .statement tag=08L5}
 
 Soient $X$ un espace localement compact, $E$ un espace localement convexe séparé.
 
@@ -85,7 +85,7 @@ Soient $X$ un espace localement compact, $E$ un espace localement convexe sépar
 
 (iii) Toute partie compacte $K$ de $X$ ne rencontre que les $X_\lambda$ d’une sous-famille *finie* $(X_\lambda)_{\lambda \in H}$ de $(X_\lambda)_{\lambda \in L}$, et il est immédiat que si l’on pose $K_\lambda = K \cap X_\lambda$ pour $\lambda \in H$, l’application $f \mapsto (f|X_\lambda)_{\lambda \in H}$ est un isomorphisme de $\mathscr{K}(X, K; E)$ sur $\prod_{\lambda \in H} \mathscr{K}(X_\lambda, K_\lambda; E)$. Inversement, pour toute fonction $f_\lambda \in \mathscr{K}(X_\lambda; E)$, soit $f''_\lambda$ l’application de $X$ dans $E$ telle que $f''_\lambda|X_\lambda = f_\lambda$ et $f''_\lambda|X_\mu = 0$ pour $\mu \neq \lambda$; il est immédiat que l’application $f_\lambda \mapsto f''_\lambda$ de $\mathscr{K}(X_\lambda; E)$ dans $\mathscr{K}(X; E)$ est continue. L’assertion (iii) résulte de ces remarques et du critère de continuité dans les limites inductives (*Esp. vect. top.*, chap. II, 2e éd., § 4, n° 4, prop. 5).
 
-#### Proposition 2 {#int-iii-s1-prop-2 .statement}
+#### Proposition 2 {#int-iii-s1-prop-2 .statement tag=08L6}
 
 Soient $X$ un espace localement compact, $E$ un espace localement convexe séparé.
 (i) Si $E$ est un espace de Fréchet, l’espace $\mathscr{K}(X; E)$ est tonnelé.
@@ -99,7 +99,7 @@ Nous dirons qu’une partie $H$ de $\mathscr{H}(X; E)$ est strictement compacte 
 
 En vertu du th. d’Ascoli (Top. gén., chap. X, 2e éd., § 2, no 5, cor. 3 du th. 2), rappelons qu’une partie strictement compacte $H$ de $\mathscr{H}(X; E)$, contenue dans $\mathscr{H}(X, K; E)$, est caractérisée par les conditions suivantes : 1° elle est fermée ; 2° elle est équicontinue ; 3° pour tout $x \in K$, l’ensemble $H(x)$ est relativement compact dans $E$.
 
-#### Corollaire {#int-iii-s1-n1-cor-1 .statement}
+#### Corollaire {#int-iii-s1-n1-cor-1 .statement tag=08L7}
 
 Soient $X$ un espace localement compact et paracompact ; si $E$ est un espace localement convexe quasi-complet, l’espace $\mathscr{H}(X; E)$ est quasi-complet.
 
@@ -107,13 +107,13 @@ En effet, il suffit, en vertu de la prop. 2, (ii), de remarquer que pour toute p
 
 ### 2. Propriétés d’approximation
 
-#### Lemme 1 {#int-iii-s1-lem-1 .statement}
+#### Lemme 1 {#int-iii-s1-lem-1 .statement tag=08L8}
 
 Soient $X$ un espace localement compact, $K$ une partie compacte de $X$, $(V_k)_{1 \leq k \leq n}$ un recouvrement fini de $K$ par des ensembles ouverts dans X. Alors il existe n applications continues $f_k$ de X dans $[0, 1]$, telles que le support de $f_k$ soit contenu dans $V_k$ pour $1 \leq k \leq n$, et que l’on ait $\sum_{k=1}^n f_k(x) \leq 1$ pour tout $x \in X$, et $\sum_{k=1}^n f_k(x) = 1$ pour tout $x \in K$.
 
 En effet, soit $X'$ l’espace compact obtenu en adjoignant à X un point à l’infini $\omega$ (Top. gén., chap. I, 3e éd., § 9, n° 8, th. 4); les ensembles $V_0 = X' - K$ et $V_k$ ($1 \leq k \leq n$) forment un recouvrement ouvert de $X'$. Soit $(f_k)_{0 \leq k \leq n}$ une partition continue de l’unité subordonnée à ce recouvrement de $X'$ (Top. gén., chap. IX, 2e éd., § 4, n° 3, prop. 3); les fonctions $f_k$ d’indice $k \geq 1$ répondent aux conditions du lemme.
 
-#### Lemme 2 {#int-iii-s1-lem-2 .statement}
+#### Lemme 2 {#int-iii-s1-lem-2 .statement tag=08L9}
 
 Soient X un espace localement compact, K une partie compacte de X, E un espace localement convexe, q une semi-norme continue sur E, $\Phi$ un ensemble équicontinu d’applications de X dans E, de supports contenus dans K. Alors, pour tout $\varepsilon > 0$, il existe une partition continue de l’unité $(\varphi_j)_{0 \leq j \leq n}$ sur X, possédant les propriétés suivantes :
 (i) Pour $1 \leq j \leq n$, on a $\operatorname{Supp}(\varphi_j) \subset K$.
@@ -141,7 +141,7 @@ $$
 $$
 En outre, l’espace normé ainsi défini est un espace de Banach (Top. gén., chap. X, 2e éd., § 3, n° 2 et n° 1, cor. 2 de la prop. 3); la topologie définie par cette norme sur $\mathscr{K}(X;E)$ (autrement dit la topologie de la convergence uniforme dans $X$) est moins fine que la topologie limite inductive définie sur $\mathscr{K}(X;E)$ au n° 1.
 
-#### Proposition 3 {#int-iii-s1-prop-3 .statement}
+#### Proposition 3 {#int-iii-s1-prop-3 .statement tag=08LA}
 
 Soient $X$ un espace localement compact, $X'$ l’espace compact obtenu par adjonction à $X$ d’un point à l’infini $\omega$ (Top. gén., chap. I, 3e éd., § 9, n° 8, th. 4), $E$ un espace de Banach. L’adhérence de $\mathscr{K}(X;E)$ dans l’espace normé $C^b(X;E)$ est l’espace vectoriel des fonctions continues dans $X$, à valeurs dans $E$ et tendant vers 0 au point $\omega$.
 
@@ -149,13 +149,13 @@ Soit en effet $f \in C^b(X;E)$ une fonction adhérente à $\mathscr{K}(X;E)$; po
 
 Nous noterons \mathscr{C}^0(X ; E) le sous-espace de \mathscr{C}^b(X ; E) formé des fonctions tendant vers 0 au point à l’infini \omega ; c’est donc le complété de l’espace normé \mathscr{K}(X ; E).
 
-#### Proposition 4 {#int-iii-s1-prop-4 .statement}
+#### Proposition 4 {#int-iii-s1-prop-4 .statement tag=08LB}
 
 Soient X un espace localement compact, E un espace localement convexe ; alors l’espace \mathscr{K}(X ; E) est partout dense dans \mathscr{C}(X ; E) pour la topologie de la convergence compacte.
 
 En effet, pour tout ensemble compact K \subset X, il existe une fonction h \in \mathscr{K}(X ; \mathbf{R}) égale à 1 dans K, en vertu du lemme 1 ; pour toute fonction f \in \mathscr{C}(X ; E), la fonction hf, qui appartient à \mathscr{K}(X ; E), est égale à f dans K, d’où notre assertion.
 
-#### Proposition 5 {#int-iii-s1-prop-5 .statement}
+#### Proposition 5 {#int-iii-s1-prop-5 .statement tag=08LC}
 
 Soient X un espace localement compact, E un espace localement convexe réel (resp. complexe). Pour toute partie compacte K de X, l’espace vectoriel \mathscr{K}(X, K ; \mathbf{R}) \otimes_{\mathbf{R}} E (resp. \mathscr{K}(X, K ; \mathbf{C}) \otimes_{\mathbf{C}} E) (identifié à un ensemble d’applications de X dans E, cf. Alg., chap. II, 3e éd., § 7, n° 7, cor. de la prop. 15) est dense dans \mathscr{K}(X, K ; E) ; l’espace vectoriel \mathscr{K}(X ; \mathbf{R}) \otimes_{\mathbf{R}} E (resp. \mathscr{K}(X ; \mathbf{C}) \otimes_{\mathbf{C}} E) est dense dans \mathscr{K}(X ; E).
 
@@ -174,7 +174,7 @@ cela démontre la proposition, par définition de la topologie de $\mathscr{K}(X
 
 ### 3. Définition d’une mesure
 
-#### Définition 2 {#int-iii-s1-def-2 .statement}
+#### Définition 2 {#int-iii-s1-def-2 .statement tag=08LD}
 
 On apelle mesure (ou mesure complexe) sur un espace localement compact X, toute forme linéaire continue sur $\mathscr{K}(X ; \mathbf{C})$.
 
@@ -187,7 +187,7 @@ $$
 $$
 Plus généralement:
 
-#### Proposition 6 {#int-iii-s1-prop-6 .statement}
+#### Proposition 6 {#int-iii-s1-prop-6 .statement tag=08LE}
 
 Soient X un espace localement compact; (K_\alpha) une famille de parties compactes de X dont les intérieurs $\dot{K}_\alpha$ forment un recouvrement de X. Pour qu’une forme linéaire $\mu$ sur $\mathscr{K}(X ; \mathbf{C})$ soit une mesure sur X, il faut et il suffit que, pour tout $\alpha$, il existe un nombre $M_\alpha$ tel que l’on ait
 (5)
@@ -209,7 +209,7 @@ et $\| fg_i \| \leq \| f \|$; si $M = \sum_{i=1}^n M_{x_i}$, on a donc la relati
 
 Nous désignerons par $\mathscr{M}(X ; C)$, ou simplement $\mathscr{M}(X)$ si aucune confusion n’en résulte, l’espace vectoriel des mesures sur $X$, autrement dit le dual de $\mathscr{K}(X ; C)$. On sait que pour tout ensemble $\mathfrak{S}$ de parties bornées de $\mathscr{K}(X ; C)$, on a défini sur $\mathscr{M}(X ; C)$ la $\mathfrak{S}\text{-topologie}$, qui est localement convexe (*Esp. vect. top.*, chap. IV, § 2, n° 3). Nous désignerons l’espace vectoriel topologique obtenu en munissant $\mathscr{M}(X ; C)$ de la $\mathfrak{S}\text{-topologie}$ par $\mathscr{M}_{\mathfrak{S}}(X ; C)$, ou $\mathscr{M}_{\mathfrak{S}}(X)$.
 
-#### Proposition 7 {#int-iii-s1-prop-7 .statement}
+#### Proposition 7 {#int-iii-s1-prop-7 .statement tag=08LF}
 
 *Pour tout ensemble $\mathfrak{S}$ de parties bornées de $\mathscr{K}(X ; C)$ qui est un recouvrement de $\mathscr{K}(X ; C)$, l’espace $\mathscr{M}_{\mathfrak{S}}(X ; C)$ est séparé et quasi-complet.*
 
@@ -243,7 +243,7 @@ f \mapsto \int_I f(g(t))g'(t) \, dt
 $$
 de $\mathscr{C}(\Gamma; \mathbf{C})$ dans $\mathbf{C}$ est une forme linéaire continue en vertu du th. de la moyenne, donc une *mesure complexe sur* $\Gamma$; l’intégrale relative à cette mesure s’écrit aussi $\int_{\Gamma} f(z)\,dz$, bien qu’elle dépende, non seulement de $\Gamma$, mais de $g$.
 
-#### Remarque {#int-iii-s1-n3-rem-1 .statement}
+#### Remarque {#int-iii-s1-n3-rem-1 .statement tag=08LG}
 
 La donnée d’une mesure $\mu$ sur un espace localement compact $X$ définit sur $X$ (avec la topologie de $X$) une structure $\mathscr{S}$. Soient $X_1$ un second ensemble, $\varphi$ une application bijective de $X$ sur $X_1$; conformément aux définitions générales (Ens. R, § 9), la structure $\mathscr{S}_1$ obtenue en transportant à $X_1$ la structure $\mathscr{S}$ de $X$ au moyen de $\varphi$, se définit de la façon suivante. On transporte par $\varphi$ la topologie de $X$ à $X_1$; les fonctions de $\mathscr{K}(X_1; \mathbf{C})$ sont alors les fonctions $f$ telles que $f \circ \varphi$ appartienne à $\mathscr{K}(X; \mathbf{C})$, et la mesure $\mu_1$ sur $X_1$ est définie par $\mu_1(f) = \mu(f \circ \varphi)$.
 
@@ -255,7 +255,7 @@ $$
 
 pour toute fonction $f \in \mathscr{K}(X; \mathbf{C})$; on dit encore alors que la mesure $\mu$ est invariante par l’homéomorphisme $\sigma$.
 
-#### Exemple {#int-iii-s1-n3-exa-1 .statement}
+#### Exemple {#int-iii-s1-n3-exa-1 .statement tag=08LH}
 
 La mesure de Lebesgue sur $\mathbf{R}$ est invariante par toute translation du groupe additif $\mathbf{R}$. En effet, pour toute fonction $f \in \mathscr{K}(\mathbf{R}; \mathbf{C})$ et tout nombre réel $a$, on a, par la formule du changement de variables (Fonct. var. réelle, chap. II, § 2, n° 1, formule (1))
 
@@ -334,7 +334,7 @@ $$
 
 L’espace $\mathscr{K}(X; \mathbf{R})$ des fonctions numériques continues dans $X$ et à support compact est évidemment un espace de Riesz pour la relation d’ordre $f \leqslant g$. Nous dirons qu’une mesure réelle $\mu$ sur $X$ est positive si, pour toute fonction $f \geqslant 0$ appartenant à $\mathscr{K}(X; \mathbf{R})$, on a $\mu(f) \geqslant 0$; c’est donc une forme linéaire positive sur l’espace de Riesz $\mathscr{K}(X; \mathbf{R})$ (chap. II, § 2, n° 1, déf. 1). Inversement:
 
-#### Théorème 1 {#int-iii-s1-thm-1 .statement}
+#### Théorème 1 {#int-iii-s1-thm-1 .statement tag=08LI}
 
 Toute forme linéaire positive sur l’espace de Riesz $\mathscr{K}(X; \mathbf{R})$ est une mesure réelle (positive) sur $X$.
 
@@ -342,7 +342,7 @@ En effet, soit $\mu$ une forme linéaire positive sur $\mathscr{K}(X; \mathbf{R}
 
 On désigne par $\mathscr{M}_+(X)$ le cône pointé des mesures positives sur $X$ (ou ce qui revient au même, le cône des formes linéaires positives sur l’espace de Riesz $\mathscr{K}(X; \mathbf{R})$).
 
-#### Théorème 2 {#int-iii-s1-thm-2 .statement}
+#### Théorème 2 {#int-iii-s1-thm-2 .statement tag=08LJ}
 
 *Toute mesure réelle sur un espace localement compact $X$ est différence de deux mesures positives.*
 
@@ -350,7 +350,7 @@ En vertu du th. 1 et du chap. II, § 2, n° 2, th. 1, tout revient à prouver qu
 
 L’espace $\mathscr{M}(X; \mathbf{R})$ des mesures réelles sur $X$ est donc identique à l’espace des formes linéaires relativement bornées sur l’espace de Riesz $\mathscr{K}(X; \mathbf{R})$; rappelons que dans $\mathscr{M}(X; \mathbf{R})$, la relation d’ordre $\mu \leq v$ signifie que $v - \mu$ est une mesure positive, ou encore que, pour toute fonction $f \in \mathscr{K}_+(X)$, on a $\mu(f) \leq v(f)$.
 
-#### Théorème 3 {#int-iii-s1-thm-3 .statement}
+#### Théorème 3 {#int-iii-s1-thm-3 .statement tag=08LK}
 
 *L’espace $\mathscr{M}(X; \mathbf{R})$ des mesures réelles sur un espace localement compact $X$ est complètement réticulé.*
 
@@ -444,7 +444,7 @@ $$
 |\mathscr{R}\mu| \leq |\mu|, \quad |\mathscr{I}\mu| \leq |\mu|, \quad |\mu| \leq |\mathscr{R}\mu| + |\mathscr{I}\mu|.
 $$
 
-#### Proposition 8 {#int-iii-s1-prop-8 .statement}
+#### Proposition 8 {#int-iii-s1-prop-8 .statement tag=08LL}
 
 Si $\mu$ est une mesure sur X, on a, pour toute fonction $h \in \mathscr{C}(X; \mathbf{C})$,
 (18)
@@ -458,7 +458,7 @@ En effet, si $f \in \mathscr{K}_+(X)$ et si $g \in \mathscr{K}(X; \mathbf{C})$ e
 
 Soit X un espace localement compact; si V est un sous-espace vectoriel dense dans $\mathscr{K}(X; \mathbf{C})$, il est clair que deux mesures $\mu_1, \mu_2$ sur X qui coïncident dans V sont égales, et que toute forme linéaire sur V continue pour la topologie induite par celle de $\mathscr{K}(X; \mathbf{C})$ se prolonge (d’une seule manière) en une mesure sur X. Un critère plus maniable pour les mesures positives est le suivant:
 
-#### Proposition 9 {#int-iii-s1-prop-9 .statement}
+#### Proposition 9 {#int-iii-s1-prop-9 .statement tag=08LM}
 
 Soit V un sous-espace vectoriel de $\mathscr{K}(X; \mathbf{R})$ possédant la propriété suivante:
 (P) Pour toute partie compacte K de X, il existe une fonction $f \in V$ telle que $f \geqslant 0$ et que $f(x) > 0$ pour tout $x \in K$.
@@ -470,7 +470,7 @@ Pour toute fonction $f \in \mathscr{K}(X; \mathbf{R})$, de support K, il existe 
 
 Soit X un espace localement compact. Comme la topologie induite sur $\mathscr{K}(X; \mathbf{C})$ par celle de $C^b(X; \mathbf{C})$ est moins fine que la topologie limite inductive sur $\mathscr{K}(X; \mathbf{C})$, une mesure sur X n’est pas nécessairement continue pour la topologie de la convergence uniforme dans X.
 
-#### Définition 3 {#int-iii-s1-def-3 .statement}
+#### Définition 3 {#int-iii-s1-def-3 .statement tag=08LN}
 
 On dit qu’une mesure sur un espace localement compact X est bornée si elle est continue dans $\mathscr{K}(X; \mathbf{C})$ pour la topologie de la convergence uniforme.
 
@@ -487,11 +487,11 @@ La définition de $\|\mu\|$ par la formule (20) s’étend à toute mesure $\mu$
 
 Si $X$ est compact, toute mesure sur $X$ est bornée.
 
-#### Exemple 1 {#int-iii-s1-n8-exa-1 .statement}
+#### Exemple 1 {#int-iii-s1-n8-exa-1 .statement tag=08LO}
 
 La mesure $\varepsilon_a$ définie par la masse unité en un point $a \in X$ est bornée, et on a $\|\varepsilon_a\| = 1$.
 
-#### Exemple 2 {#int-iii-s1-n8-exa-2 .statement}
+#### Exemple 2 {#int-iii-s1-n8-exa-2 .statement tag=0E5X}
 
 La mesure de Lebesgue sur $\mathbf{R}$ n’est pas bornée : en effet, pour tout entier $n > 0$, il existe une fonction $f \in \mathscr{H}(\mathbf{R}; \mathbf{C})$, à valeurs dans $[0, 1]$ et égale à 1 dans l’intervalle $[-n, n]$ (n° 2, lemme 1); on a donc $\|f\| = 1$ et
 $$
@@ -499,7 +499,7 @@ $$
 $$
 ce qui prouve qu’il n’existe aucun nombre fini $M$ vérifiant la relation (19).
 
-#### Exemple 3 {#int-iii-s1-n8-exa-3 .statement}
+#### Exemple 3 {#int-iii-s1-n8-exa-3 .statement tag=0E5Y}
 
 Sur la droite numérique $\mathbf{R}$, l’application
 $$
@@ -515,7 +515,7 @@ $$
 \|\bar{\mu}\| = \|\mu\|.
 $$
 
-#### Proposition 10 {#int-iii-s1-prop-10 .statement}
+#### Proposition 10 {#int-iii-s1-prop-10 .statement tag=08LP}
 
 *Pour toute mesure $\mu$ sur $X$, on a*
 $$
@@ -528,11 +528,11 @@ $$
 \sup_{0 \leq f \leq 1, f \in \mathscr{K}(X; \mathbf{R})} \left( \sup_{|g| \leq f, g \in \mathscr{K}(X; \mathbf{C})} |\mu(g)| \right) = \sup_{||g|| \leq 1, g \in \mathscr{K}(X; \mathbf{C})} |\mu(g)|.
 $$
 
-#### Corollaire 1 {#int-iii-s1-prop-10-cor-1 .statement}
+#### Corollaire 1 {#int-iii-s1-prop-10-cor-1 .statement tag=08LQ}
 
 *Pour toute mesure $\mu$ sur $X$, les normes de $\mu$ et de $|\mu|$ sont égales ; pour que $\mu$ soit bornée, il faut et il suffit que $|\mu|$ le soit.*
 
-#### Corollaire 2 {#int-iii-s1-prop-10-cor-2 .statement}
+#### Corollaire 2 {#int-iii-s1-prop-10-cor-2 .statement tag=08LR}
 
 *Pour toute mesure $\mu$ sur un espace compact $X$, on a*
 
@@ -544,7 +544,7 @@ Cette formule sera généralisée au chap. IV, § 4, n° 7.
 
 Sur un espace *compact* $X$, pour toute mesure $\mu$ (complexe) sur $X$, le nombre complexe $\mu(1)$ est appelé la *masse totale* de $\mu$. Lorsque $\mu$ est *positive*, sa masse totale est donc égale à sa norme. Lorsque $\mu$ est une mesure positive sur un espace *compact* $X$, de masse totale égale à 1, on dit encore que sa valeur $\mu(f)$ pour une fonction continue $f \in \mathscr{C}(X; \mathbf{C})$ est la *moyenne* de $f$ par rapport à la mesure $\mu$.
 
-#### Corollaire 3 {#int-iii-s1-prop-10-cor-3 .statement}
+#### Corollaire 3 {#int-iii-s1-prop-10-cor-3 .statement tag=08LS}
 
 *Pour toute mesure réelle $\mu$ sur un espace localement compact $X$, on a*
 
@@ -562,18 +562,18 @@ $$
 
 est une *isométrie* en vertu de (24).
 
-#### Proposition 11 {#int-iii-s1-prop-11 .statement}
+#### Proposition 11 {#int-iii-s1-prop-11 .statement tag=08LT}
 
 *Si $\mu$ et $\nu$ sont deux mesures positives sur $X$, on a* $\|\mu + \nu\| = \|\mu\| + \|\nu\|$.
 
 En effet, les fonctions $f \in \mathscr{K}(X; \mathbf{R})$ telles que $0 \leq f \leq 1$ forment un ensemble filtrant S pour la relation $\leq$. Pour une mesure positive $\mu$ sur $X$, il résulte donc de (22) et du th. de la limite monotone, que l’on a $\| \mu \| = \lim_{f \in S} \mu(f)$; la conclusion de la proposition en résulte aussitôt.
 
-#### Corollaire 1 {#int-iii-s1-prop-11-cor-1 .statement}
+#### Corollaire 1 {#int-iii-s1-prop-11-cor-1 .statement tag=08LU}
 
 Si $\mu$ et $\nu$ sont deux mesures positives sur $X$ telles que $\mu \leq \nu$, on a $\| \mu \| \leq \| \nu \|$; en particulier, si $\nu$ est bornée, $\mu$ l’est aussi.
 En effet, on a $\| \nu \| = \| \mu \| + \| \nu - \mu \|$.
 
-#### Corollaire 2 {#int-iii-s1-prop-11-cor-2 .statement}
+#### Corollaire 2 {#int-iii-s1-prop-11-cor-2 .statement tag=08LV}
 
 Pour toute mesure réelle $\mu$ sur $X$, on a
 $$
@@ -581,7 +581,7 @@ $$
 $$
 En effet (cor. 1 de la prop. 10), la norme de $\mu$ est égale à celle de $|\mu| = \mu^+ + \mu^-$.
 
-#### Proposition 12 {#int-iii-s1-prop-12 .statement}
+#### Proposition 12 {#int-iii-s1-prop-12 .statement tag=08LW}
 
 Si $\mu$ est une mesure bornée sur $X$ et $g$ une application continue et bornée de $X$ dans $\mathbf{C}$, la mesure $g.\mu$ est bornée et l’on a $\| g.\mu \| \leq \| g \| . \| \mu \|$.
 En effet, pour toute fonction $f \in \mathscr{K}(X; \mathbf{C})$, on a
@@ -594,13 +594,13 @@ $$
 Soit $X$ un espace localement compact. Sur l’espace $\mathscr{M}(X; \mathbf{C})$, on peut considérer la topologie de la convergence simple dans $\mathscr{K}(X; \mathbf{C})$, que nous appellerons topologie vague sur $\mathscr{M}(X; \mathbf{C})$.
 Comme $\mathscr{K}(X; \mathbf{C}) = \mathscr{K}(X; \mathbf{R}) + i \mathscr{K}(X; \mathbf{R})$, la topologie vague sur $\mathscr{M}(X; \mathbf{C})$ est définie par les semi-normes $\sup_{1 \leq i \leq n} |\mu(f_i)|$, où $(f_i)_{1 \leq i \leq n}$ est une suite finie quelconque de fonctions de $\mathscr{K}(X; \mathbf{R})$ (ou de $\mathscr{K}_+(X)$). Dire qu’un filtre $\mathfrak{F}$ sur $\mathscr{M}(X; \mathbf{C})$ converge vaguement vers une mesure $\mu_0$ signifie que, pour toute fonction $f \in \mathscr{K}(X; \mathbf{R})$, on a $\mu_0(f) = \lim_{\mu, \mathfrak{F}} \mu(f)$. Pour toute fonction $f \in \mathscr{K}(X; \mathbf{C})$, l’application $\mu \mapsto \mu(f)$ est une forme linéaire vaguement continue dans l’espace $\mathscr{M}(X; \mathbf{C})$.
 
-#### Proposition 13 {#int-iii-s1-prop-13 .statement}
+#### Proposition 13 {#int-iii-s1-prop-13 .statement tag=08LX}
 
 Soient $X$ un espace localement compact, et, pour tout $x \in X$, soit $\varepsilon_x$ la mesure de Dirac au point $x$. L’application $x \mapsto \varepsilon_x$ est un homéomorphisme de $X$ sur un sous-espace de l’espace $\mathscr{M}(X; \mathbf{C})$ des mesures sur $X$, muni de la topologie vague. En outre, si $X'$ désigne l’espace compact obtenu en adjoignant à $X$ un point à l’infini $\omega$, $\varepsilon_x$ tend vers 0 lorsque $x$ tend vers $\omega$.
 
 Pour toute fonction $f \in \mathscr{H}(X; \mathbf{C})$, on a $\langle f, \varepsilon_x \rangle = f(x)$; comme $f$ est continue, cela prouve que l’application $x \mapsto \varepsilon_x$ est continue. Si $x, y$ sont deux points distincts de $X$, il existe une fonction $f \in \mathscr{H}(X; \mathbf{C})$ telle que $f(x) = 1, f(y) = 0$ (n° 2, lemme 1), ce qui prouve que $\varepsilon_x \neq \varepsilon_y$; donc l’application $x \mapsto \varepsilon_x$ est injective. En outre, pour toute fonction $f \in \mathscr{H}(X; \mathbf{C})$, $\langle f, \varepsilon_x \rangle$ tend vers 0 par définition lorsque $x$ tend vers $\omega$, donc $x \mapsto \varepsilon_x$ se prolonge par continuité à $X' = X \cup \{\omega\}$ en prenant la valeur 0 au point $\omega$. Cette application prolongée est encore injective, puisque $\varepsilon_x \neq 0$ pour tout $x \in X$. C’est donc un homéomorphisme de l’espace compact $X'$ sur un sous-espace de $\mathscr{M}(X; \mathbf{C})$, puisque $\mathscr{M}(X; \mathbf{C})$ est séparé pour la topologie vague ($Top.$ gén., chap. I, 3$^e$ éd., § 9, n° 4, cor. 2 du th. 2).
 
-#### Proposition 14 {#int-iii-s1-prop-14 .statement}
+#### Proposition 14 {#int-iii-s1-prop-14 .statement tag=08LY}
 
 Dans l’espace $\mathscr{M}(X; \mathbf{C})$ des mesures sur un espace localement compact $X$, le cône $\mathscr{M}_+(X)$ des mesures positives est complet pour la structure uniforme déduite de la topologie vague (et par suite vaguement fermé dans $\mathscr{M}(X; \mathbf{C})$).
 
@@ -608,13 +608,13 @@ En effet, considérons un filtre de Cauchy $\Phi$ pour la structure uniforme vag
 
 On notera que l’espace $\mathscr{M}(X; \mathbf{C})$ (ou $\mathscr{M}(X; \mathbf{R})$) lui-même *n’est pas nécessairement complet* pour la structure uniforme vague (*Esp. vect. top.*, chap. IV, § 1, exerc. 11).
 
-#### Corollaire {#int-iii-s1-n9-cor-1 .statement}
+#### Corollaire {#int-iii-s1-n9-cor-1 .statement tag=08LZ}
 
 *Si $A$ et $B$ sont deux parties vaguement fermées de $\mathscr{M}_+(X)$, $A + B$ est vaguement fermé dans $\mathscr{M}_+(X)$ (donc aussi dans $\mathscr{M}(X; \mathbf{C})$).*
 
 C’est en effet une propriété générale des cônes saillants faiblement complets dans les espaces localement convexes (*Esp. vect. top.*, chap. II, 2$^e$ éd., § 6, n° 8, cor. 2 de la prop. 11).
 
-#### Proposition 15 {#int-iii-s1-prop-15 .statement}
+#### Proposition 15 {#int-iii-s1-prop-15 .statement tag=08M0}
 
 *Soit $H$ une partie de $\mathscr{M}(X; \mathbf{C})$. Les propriétés suivantes sont équivalentes*:
     a) $H$ est vaguement bornée.
@@ -630,21 +630,21 @@ Il est clair que d) entraîne a). Enfin, si $H$ est équicontinue, l’ensemble 
 
 \* Nous verrons au chap. IV, § 4, n° 6, que les conditions de la prop. 15 équivalent encore au fait que pour toute partie compacte $K$ de $X$, il existe une constante $M_K$ telle que $|\mu|(K) \leq M_K$ pour toute mesure $\mu \in H$.*
 
-#### Corollaire 1 {#int-iii-s1-prop-15-cor-1 .statement}
+#### Corollaire 1 {#int-iii-s1-prop-15-cor-1 .statement tag=08M1}
 
 *Soit $v$ une mesure positive sur $X$; l’ensemble des mesures $\mu$ telles que $|\mu| \leq v$ est vaguement compact.*
 
-#### Corollaire 2 {#int-iii-s1-prop-15-cor-2 .statement}
+#### Corollaire 2 {#int-iii-s1-prop-15-cor-2 .statement tag=08M2}
 
 *L’ensemble des mesures $\mu$ telles que $\|\mu\| \leq a$ ($a$ nombre fini $> 0$ quelconque) est vaguement compact.*
 
-#### Corollaire 3 {#int-iii-s1-prop-15-cor-3 .statement}
+#### Corollaire 3 {#int-iii-s1-prop-15-cor-3 .statement tag=08M3}
 
 *Si $X$ est compact, l’ensemble des mesures positives $\mu$ sur $X$ telles que $\|\mu\| = 1$ est vaguement compact.*
 
 En effet, c’est l’intersection de l’ensemble vaguement compact (cor. 2) des mesures $\mu$ telles que $\|\mu\| \leq 1$, et des ensembles vaguement fermés définis respectivement par les relations $\mu \geq 0$ et $\mu(1) = 1$ (n° 8, cor. 2 de la prop. 10).
 
-#### Corollaire 4 {#int-iii-s1-prop-15-cor-4 .statement}
+#### Corollaire 4 {#int-iii-s1-prop-15-cor-4 .statement tag=08M4}
 
 Dans l’espace $\mathscr{M}(X ; \mathbf{C})$, l’application $\mu \mapsto \|\mu\|$ est semi-continue inférieurement pour la topologie vague.
 
@@ -652,7 +652,7 @@ C’est une conséquence immédiate du cor. 2.
 
 On notera que l’application $\mu \mapsto |\mu|$ de $\mathscr{M}(X ; \mathbf{C})$ dans lui-même n’est pas nécessairement continue pour la topologie vague (exerc. 4).
 
-#### Proposition 16 {#int-iii-s1-prop-16 .statement}
+#### Proposition 16 {#int-iii-s1-prop-16 .statement tag=08M5}
 
 Soient $K$ une partie compacte de $X$, $H$ une partie vaguement bornée de $\mathscr{M}(X ; \mathbf{C})$; alors la forme bilinéaire $(f, \mu) \mapsto \langle f, \mu \rangle$ est continue dans $\mathscr{K}(X, K ; \mathbf{C}) \times H$ lorsqu’on munit $\mathscr{K}(X, K ; \mathbf{C})$ de la topologie de la convergence uniforme et $H$ de la topologie vague.
 
@@ -671,7 +671,7 @@ et cette dernière quantité est arbitrairement petite avec $\|f - f_0\|$ et $|\
 
 Rappelons que la topologie de la convergence compacte sur $\mathscr{M}(X ; \mathbf{C})$ est la topologie de la convergence uniforme dans les parties compactes de $\mathscr{K}(X ; \mathbf{C})$. Nous appellerons topologie de la convergence strictement compacte sur $\mathscr{M}(X ; \mathbf{C})$ la topologie de la convergence uniforme dans les parties strictement compactes (n° 1) de $\mathscr{K}(X ; \mathbf{C})$.
 
-#### Proposition 17 {#int-iii-s1-prop-17 .statement}
+#### Proposition 17 {#int-iii-s1-prop-17 .statement tag=08M6}
 
 Sur l’espace $\mathscr{M}(X ; \mathbf{C})$, on considère les topologies suivantes ;
 $\mathscr{T}_1$: la topologie de la convergence simple dans un ensemble total $T$ dans $\mathscr{K}(X ; \mathbf{C})$;
@@ -686,7 +686,7 @@ Une partie vaguement bornée $H$ de $\mathscr{M}(X ; \mathbf{C})$ est équiconti
 
 Rappelons que lorsque $X$ est paracompact, la topologie de la convergence strictement compacte coïncide avec la topologie de la convergence compacte (n° 1, prop. 2).
 
-#### Proposition 18 {#int-iii-s1-prop-18 .statement}
+#### Proposition 18 {#int-iii-s1-prop-18 .statement tag=08M7}
 
 Sur le cône $\mathscr{M}_+(X)$, les topologies induites par les topologies suivantes coïncident:
 
@@ -718,7 +718,7 @@ Or, nous avons vu plus haut que l’application $g \mapsto gh$ est un automorphi
 
 C.Q.F.D.
 
-#### Corollaire {#int-iii-s1-n10-cor-1 .statement}
+#### Corollaire {#int-iii-s1-n10-cor-1 .statement tag=08M8}
 
 Si X est paracompact, les topologies induites sur $\mathscr{M}_+(X)$ par la topologie vague et par la topologie de la convergence compacte coïncident.
 

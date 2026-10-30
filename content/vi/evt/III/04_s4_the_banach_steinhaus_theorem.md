@@ -25,9 +25,9 @@ subsections:
       pdf_page: 159
 statements: 24
 exercises: 21
-content_sha256: 5a2c1e070b466dc53089cb6b5f757779f82e71a30b3eaec34ed4d9e758e834cf
+content_sha256: 4860009b2f9e7b3b86976aee4e678084df60cf74fe01fb74bba9ef959b8c89ce
 translated_from: content/en/evt/III/04_s4_the_banach_steinhaus_theorem.md
-source_content_sha256: 5ed7e69b55a255a5e6e3e928ace36d2b958254b7157b58aaf10d1196a154b546
+source_content_sha256: 60bbc08b0bba45d478ba940cb18808c44414344f01456f8e5401229c26b9224a
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-7c7bdc75
 glossary_version: 34
@@ -41,7 +41,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các thùng và các không gian thùng
 
-#### Mệnh đề 1 {#evt-iii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#evt-iii-s4-prop-1 .statement tag=07NZ}
 
 Cho T là một tập con của E. Các điều kiện sau là tương đương:
 
@@ -57,7 +57,7 @@ Cho T là một tập con của E. Các điều kiện sau là tương đương:
 
 (iii) ⇒ (i) : điều này là hiển nhiên.
 
-#### Hệ quả {#evt-iii-s4-n1-cor-1 .statement}
+#### Hệ quả {#evt-iii-s4-n1-cor-1 .statement tag=07O0}
 
 Các điều kiện sau là tương đương:
 
@@ -67,47 +67,47 @@ Các điều kiện sau là tương đương:
 
 (iii) mọi nửa chuẩn nửa liên tục dưới trên E đều liên tục.
 
-#### Định nghĩa 1 {#evt-iii-s4-def-1 .statement}
+#### Định nghĩa 1 {#evt-iii-s4-def-1 .statement tag=07O1}
 
 Một tập T thỏa mãn các điều kiện tương đương của mệnh đề 1 được gọi là một thùng trong E.
 
-#### Định nghĩa 2 {#evt-iii-s4-def-2 .statement}
+#### Định nghĩa 2 {#evt-iii-s4-def-2 .statement tag=07O2}
 
 Một không gian E được gọi là không gian thùng nếu nó thỏa mãn các điều kiện tương đương của hệ quả của mệnh đề 1.
 
 Ta biết (III, p. 22, mệnh đề 9) rằng mọi tập con đẳng liên tục của đối ngẫu E' của E đều bị chặn mạnh và bị chặn yếu. Do đó ta có thể phát biểu lại định nghĩa các không gian thùng như sau:
 
-#### Chú giải {#evt-iii-s4-n1-sch-1 .statement}
+#### Chú giải {#evt-iii-s4-n1-sch-1 .statement tag=07O3}
 
 Trong đối ngẫu của một không gian thùng, lớp các tập đẳng liên tục, lớp các tập bị chặn mạnh, lớp các tập bị chặn yếu và lớp các tập tương đối compact đối với tôpô yếu đều trùng nhau. Nếu E là Hausdorff và là không gian thùng, và nếu E'_b là đối ngẫu mạnh của nó, các cực của các lân cận của 0 trong một trong hai không gian lập thành một cơ sở của bornology chính tắc của không gian kia, và các cực của các tập bị chặn của một trong hai không gian lập thành một cơ sở cho bộ lọc các lân cận của 0 của không gian kia.
 
-#### Mệnh đề 2 {#evt-iii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#evt-iii-s4-prop-2 .statement tag=07O4}
 
 Mọi không gian lồi địa phương E là một không gian Baire (GT, IX, § 5, No. 3) đều là không gian thùng.
 
 Cho T là một thùng trong E; vì T hấp thụ, E là hợp của các tập đóng nT (n số nguyên > 0); vì E là một không gian Baire, ít nhất một trong các tập này chứa một điểm trong, do đó bản thân T có một điểm trong x. Nếu $x \neq 0$, vì $-x \in T$, và 0 là một điểm của đoạn mở có hai đầu mút là x và $-x$, 0 là một điểm trong của tập lồi T (II, p. 14, mệnh đề 16). Do đó T là một lân cận của 0.
 
-#### Hệ quả {#evt-iii-s4-n1-cor-2 .statement}
+#### Hệ quả {#evt-iii-s4-n1-cor-2 .statement tag=07O5}
 
 — *Mọi không gian Fréchet (và đặc biệt, mọi không gian Banach) đều là không gian thùng.* Điều này suy ra từ định lý Baire (GT, IX, § 5, No. 3, định lý 1).
 
-#### Mệnh đề 3 {#evt-iii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#evt-iii-s4-prop-3 .statement tag=07O6}
 
 — *Cho $(F_i)_{i \in I}$ là một họ các không gian thùng, và với mọi $i \in I$, cho $f_i$ là một ánh xạ tuyến tính từ $F_i$ vào một không gian vectơ E. Không gian E với tôpô lồi địa phương mịn nhất sao cho các $f_i$ liên tục (II, p. 27, mệnh đề 5), là một không gian thùng.*
 
 Cho T là một thùng trong E. Vì $f_i$ liên tục, $f_i^{-1}(T)$ là một tập lồi, cân bằng, đóng và hấp thụ trong $F_i$; nói cách khác, là một thùng trong $F_i$; vì $F_i$ là không gian thùng, $f_i^{-1}(T)$ là một lân cận của 0 trong $F_i$, với mọi $i \in I$. Điều này suy ra rằng T là một lân cận của 0 trong E (II, p. 27, mệnh đề 5).
 
-#### Hệ quả 1 {#evt-iii-s4-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#evt-iii-s4-prop-3-cor-1 .statement tag=07O7}
 
 — *Mọi không gian thương của một không gian thùng đều là không gian thùng.*
 
-#### Hệ quả 2 {#evt-iii-s4-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#evt-iii-s4-prop-3-cor-2 .statement tag=07O8}
 
 — *Cho $(E_i)_{i \in I}$ là một họ các không gian lồi địa phương và cho E là tổng trực tiếp tôpô của họ này. Để E là không gian thùng, điều kiện cần và đủ là mỗi $E_i$ là không gian thùng.*
 
 Điều kiện hiển nhiên là đủ theo mệnh đề 3; nó cũng là cần, theo hệ quả 1, vì mỗi $E_i$ đẳng cấu với một không gian thương của E (II, p. 31, mệnh đề 8).
 
-#### Hệ quả 3 {#evt-iii-s4-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#evt-iii-s4-prop-3-cor-3 .statement tag=07O9}
 
 — *Mọi giới hạn quy nạp của các không gian thùng đều là một không gian thùng.*
 
@@ -115,33 +115,33 @@ Sau này ta sẽ chứng minh (IV, p. 14, hệ quả) rằng mọi tích của c
 
 ### 2. Định lý Banach-Steinhaus
 
-#### Định lý 1 {#evt-iii-s4-thm-1 .statement}
+#### Định lý 1 {#evt-iii-s4-thm-1 .statement tag=07OA}
 
 — *Cho E là một không gian thùng, F là một không gian lồi địa phương. Mọi tập con bị chặn đơn giản H của $\mathscr{L}(E; F)$ đều đẳng liên tục.*
 
 Thật vậy, cho $p$ là một nửa chuẩn liên tục trên F; đặt $q = \sup_{u \in H} (p \circ u)$. Vì H bị chặn đơn giản, ta có $q(x) < +\infty$ với mọi $x \in E$ và q là một nửa chuẩn nửa liên tục dưới, vì là bao trên hữu hạn của các nửa chuẩn liên tục. Vì E là không gian thùng, q là một nửa chuẩn liên tục và do đó H đẳng liên tục.
 
-#### Hệ quả 1 {#evt-iii-s4-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#evt-iii-s4-thm-1-cor-1 .statement tag=07OB}
 
 — *Cho E và F là hai không gian Banach, H là một họ các ánh xạ tuyến tính liên tục từ E vào F; nếu, với mọi $x \in E$, ta có $\sup_{u \in H} \|u(x)\| < +\infty$, thì ta cũng có $\sup_{u \in H} \|u\| < +\infty$.*
 
 Thật vậy, giả thiết nói rằng H bị chặn đơn giản và kết luận rằng nó đẳng liên tục. Ngoài ra, mọi không gian Banach đều là không gian thùng (III, p. 25).
 
-#### Hệ quả 2 {#evt-iii-s4-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#evt-iii-s4-thm-1-cor-2 .statement tag=07OC}
 
 — (Định lý Banach-Steinhaus). — *Cho E là một không gian có đĩa, F là một không gian lồi địa phương Hausdorff, và $(u_n)$ là một dãy ánh xạ tuyến tính liên tục* từ E vào F, hội tụ đơn giản đến một ánh xạ u từ E vào F. Khi đó $u \in \mathscr{L}(E; F)$, và $(u_n)$ hội tụ đến u đều trên mọi tập con tiền compact của E.
 
 Dãy $(u_n)$ thực ra bị chặn đơn giản, do đó liên tục đều, và hệ quả suy ra từ hệ quả của mệnh đề 5 của III, p. 18.
 
-#### Nhận xét 1 {#evt-iii-s4-n2-rem-1 .statement}
+#### Nhận xét 1 {#evt-iii-s4-n2-rem-1 .statement tag=07OD}
 
 Tính chất được phát biểu bởi hệ quả 2 không kéo theo rằng E là có đĩa: sau này ta sẽ thấy đối ngẫu mạnh của một không gian Fréchet có tính chất này, trong khi không nhất thiết là có đĩa (IV, p. 23, hệ quả của mệnh đề 2 và p. 58, bài tập.
 
-#### Nhận xét 2 {#evt-iii-s4-n2-rem-2 .statement}
+#### Nhận xét 2 {#evt-iii-s4-n2-rem-2 .statement tag=07OE}
 
 Cho E và F là hai không gian Banach, và $(u_n)$ là một dãy ánh xạ tuyến tính liên tục từ E vào F sao cho $\sup \|u_n\| = + \infty$. Khi đó tập hợp X gồm mọi $x \in E$ sao cho $\sup \|u_n(x)\| = + \infty$ là trù mật trong E và là giao của một dãy các tập hợp mở trong E. Thật vậy, ký hiệu $X_k$ là tập hợp mọi $x \in E$ sao cho $\sup \|u_n(x)\| > k$ (với k là số nguyên $> 0$). Mỗi $X_k$ là mở và X là giao của các $X_k$. Vì E là một không gian Baire, chỉ cần chứng minh rằng mỗi $X_k$ trù mật trong E. Nhưng, nếu phần bù của $X_k$ chứa một tập hợp mở khác rỗng U, thì ta có $\|u_n(x)\| \leq 2k$ với $x \in U - U$ và, vì $U - U$ là một lân cận của 0, ta có $\sup \|u_n\| < + \infty$.
 
-#### Hệ quả 3 {#evt-iii-s4-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#evt-iii-s4-thm-1-cor-3 .statement tag=07OF}
 
 — *Cho E là một không gian có đĩa, F là một không gian lồi địa phương Hausdorff và $\Phi$ là một lọc trên $\mathscr{L}(E; F)$ hội tụ đơn giản trong E đến một ánh xạ u từ E vào F. Nếu $\Phi$ chứa một tập con bị chặn đơn giản của $\mathscr{L}(E; F)$, hoặc nếu $\Phi$ có một cơ sở đếm được, thì u là một ánh xạ tuyến tính liên tục từ E vào F và $\Phi$ hội tụ đều đến u trên mọi tập con tiền compact của E.*
 
@@ -149,31 +149,31 @@ Trước hết, giả sử $\Phi$ chứa một tập hợp bị chặn đơn gi�
 
 Ta nhận thấy rằng một lọc trên $\mathscr{L}(E; F)$ hội tụ đơn giản và có một cơ sở đếm được không nhất thiết chứa một tập hợp bị chặn đơn giản: để thấy điều này, xét ví dụ về lọc các lân cận của 0 trong $\mathscr{L}(K; F)$ khi tôpô của F có thể mêtric hóa, nhưng không thể được xác định bởi một chuẩn duy nhất.
 
-#### Ví dụ {#evt-iii-s4-n2-exa-1 .statement}
+#### Ví dụ {#evt-iii-s4-n2-exa-1 .statement tag=07OG}
 
 — Cho E là không gian Banach (trên $\mathbf{C}$) gồm các hàm phức liên tục có chu kỳ 1 trong $\mathbf{R}$, với chuẩn $\|f\| = \sup_x |f(x)|$.
 
 Với mọi số nguyên $n \in \mathbf{Z}$ và mọi hàm $f \in E$, đặt $c_n(f) = \int_0^1 f(x) e^{-2i\pi nx} dx$ ($n$-th Fourier hệ số của $f$); mỗi ánh xạ $f \mapsto c_n(f)$ là một dạng tuyến tính liên tục trên E. Cho $(\alpha_n)$ là một dãy các số phức sao cho, với mọi hàm $f \in E$, chuỗi có số hạng tổng quát $\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)$ hội tụ. Dưới các điều kiện này, ánh xạ $u : f \mapsto \alpha_0 c_0(f) + \sum_{n \geq 1} [\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)]$ là một dạng tuyến tính liên tục trên E; *nói cách khác, tồn tại một độ đo $\mu$ trên $[0, 1]$ sao cho $u(f) = \int f(x) d\mu(x)$ với mọi hàm $f \in E$, và $\alpha_n$ là hệ số Fourier thứ $n$ của $\mu$.* Thật vậy, với mọi số nguyên $m > 0$, ánh xạ $f \mapsto \sum_{k = -m}^m \alpha_k c_k(f)$ là một dạng tuyến tính liên tục $u_m$ trên E, và với mọi $f \in E$, dãy $(u_m(f))$ hội tụ đến $u(f)$, theo giả thiết. Mệnh đề được suy ra từ định lý Banach-Steinhaus, vì E là barrelled.
 
-#### Hệ quả 4 {#evt-iii-s4-thm-1-cor-4 .statement}
+#### Hệ quả 4 {#evt-iii-s4-thm-1-cor-4 .statement tag=07OH}
 
 — *Cho E và F là hai không gian lồi địa phương, $\mathfrak{S}$ là một phủ của E gồm các tập con bị chặn. Nếu E là barrelled và F Hausdorff và quasi-đầy đủ, thì không gian $\mathscr{L}_{\mathfrak{S}}(E; F)$ là Hausdorff và quasi-đầy đủ.*
 
 Thật vậy, mọi tập con bị chặn và đóng của $\mathscr{L}_{\mathfrak{S}}(E; F)$ đều đơn giản bị chặn (vì $\mathfrak{S}$ là một phủ của E), do đó liên tục đều (III, p. 25, th. 1) và do đó là một không gian con đầy đủ của $\mathscr{L}_{\mathfrak{S}}(E; F)$ theo prop. 11 (III, p. 22).
 
-#### Hệ quả 5 {#evt-iii-s4-thm-1-cor-5 .statement}
+#### Hệ quả 5 {#evt-iii-s4-thm-1-cor-5 .statement tag=07OI}
 
 — *Đối ngẫu mạnh và đối ngẫu yếu của một không gian barrelled là quasi-đầy đủ.*
 
 ### 3. Các tập con bị chặn của $\mathscr{L}(E; F)$ (trường hợp quasi-đầy đủ)
 
-#### Định lý 2 {#evt-iii-s4-thm-2 .statement}
+#### Định lý 2 {#evt-iii-s4-thm-2 .statement tag=07OJ}
 
 — *Cho E là một không gian Hausdorff lồi địa phương, F là một không gian lồi địa phương và $\mathfrak{S}$ là một họ các tập con đóng, lồi, cân bằng, bị chặn và bán đầy đủ của E (III, p. 7). Mọi tập con H đơn giản bị chặn của $\mathscr{L}(E; F)$ đều bị chặn đối với tôpô $\mathfrak{S}$.*
 
 Cho $A \in \mathfrak{S}$. Khi đó không gian $E_A$ là một không gian Banach (III, p. 8, hệ quả), do đó là barrelled. Mặt khác, ảnh chính tắc của H trong $\mathscr{L}(E_A; F)$ là đơn giản bị chặn, do đó liên tục đều (III, p. 25, th. 1). Do đó, tập hợp tất cả các $u(x)$ với $u \in H$ và $x \in A$ là bị chặn trong F, điều này chứng minh rằng H bị chặn đối với tôpô $\mathfrak{S}$.
 
-#### Hệ quả 1 {#evt-iii-s4-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#evt-iii-s4-thm-2-cor-1 .statement tag=07OK}
 
 — *Cho E là một không gian Hausdorff lồi địa phương, F là một không gian lồi địa phương, và $\mathfrak{S}$ là một họ các tập con bị chặn của E. Nếu E là bán đầy đủ, thì mọi tập con đơn giản bị chặn của $\mathscr{L}(E; F)$ đều bị chặn đối với tôpô $\mathfrak{S}$.*
 
@@ -181,13 +181,13 @@ Chỉ cần áp dụng th. 2, sau khi thay thế các tập của $\mathfrak{S}$
 
 Khi E là bán đầy đủ (chẳng hạn quasi-đầy đủ), ta có thể nói đến các *tập con bị chặn* của $\mathscr{L}(E; F)$ mà không cần chỉ rõ tôpô $\mathfrak{S}$, vì chúng giống nhau đối với mọi tôpô $\mathfrak{S}$ khi $\mathfrak{S}$ là một phủ của E.
 
-#### Hệ quả 2 {#evt-iii-s4-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#evt-iii-s4-thm-2-cor-2 .statement tag=07OL}
 
 — *Mọi không gian bornological bán đầy đủ đều là barrelled.*
 
 Mọi tập con đơn giản bị chặn của đối ngẫu của một không gian như vậy đều bị chặn mạnh (cor. 1), do đó liên tục đều (III, p. 22, prop. 10).
 
-#### Hệ quả 3 {#evt-iii-s4-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#evt-iii-s4-thm-2-cor-3 .statement tag=07OM}
 
 — *Cho E là một không gian lồi địa phương. Mọi tập con của E bị chặn đối với $\sigma(E, E')$ đều bị chặn.*
 

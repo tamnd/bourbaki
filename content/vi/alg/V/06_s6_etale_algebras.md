@@ -42,7 +42,7 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: daef444b09f803f489c2306236efd5613015e0bea94e1fb749f7a52c0dbda93a
+content_sha256: da434f9f3f1899e1aca195ae93930edbdd5e83d8c0cd1ae760b0f02fb710eaf5
 translated_from: content/en/alg/V/06_s6_etale_algebras.md
 source_content_sha256: e670b4dd83c9bc46bd6f7c58972d023f4c6f04736f4be78ca1443a9c27857fd0
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -66,7 +66,7 @@ với $x \in V,\ a \in L$ và $f,\ g$ thuộc $\mathrm{Hom}_K(V, L)$. Gọi $V_{
 
 (2) $$[\mathrm{Hom}_K(V, L) : L] = [V : K]$$
 
-#### Định lý 1 {#alg-v-s6-thm-1 .statement}
+#### Định lý 1 {#alg-v-s6-thm-1 .statement tag=06JB}
 
 — *Cho L là một mở rộng của một trường K và A là một đại số trên K; gọi $\mathscr{H}$ là tập hợp tất cả các đồng cấu K-đại số từ A vào L. Khi đó $\mathscr{H}$ là một tập con tự do của không gian vectơ $\mathrm{Hom}_K(A, L)$ trên L.*
 
@@ -76,13 +76,13 @@ $$
 $$
 do đó $$\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0.$$ Theo giả thiết quy nạp, các phần tử $u_1, \ldots, u_{n-1}$ của $\mathscr{H}$ độc lập tuyến tính, do đó $\alpha_i [u_i(x) - u_n(x)] = 0$ với $1 \leq i \leq n-1$ và với mọi $x$ thuộc A. Vì các $u_i$ phân biệt, điều này suy ra rằng $\alpha_i = 0$ với $i \neq n$, do đó $\alpha_n u_n = 0$ và vì vậy $\alpha_n = \alpha_n u_n(1) = 0$ (bằng cách ký hiệu phần tử đơn vị của A là 1). Ta đã chứng minh rằng $a_1, \ldots, a_{n-1}, \alpha_n$ đều bằng không, và điều này chứng minh định lý.
 
-#### Hệ quả 1 {#alg-v-s6-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s6-thm-1-cor-1 .statement tag=06JC}
 
 — *Cho $\Gamma$ là một nửa nhóm, L là một trường và X là một tập hợp các đồng cấu từ $\Gamma$ vào nửa nhóm nhân của L. Khi đó X là một tập con tự do của không gian L-vectơ $L^\Gamma$ gồm các ánh xạ từ $\Gamma$ vào L.*
 
 Cho A là đại số của nửa nhóm $\Gamma$ với các hệ số trong L và $(e_\gamma)_{\gamma \in \Gamma}$, cơ sở chính tắc của A trên L (III, p. 446). Với mỗi ánh xạ L-tuyến tính $u$ từ A vào L, ta viết $\tilde{u}(\gamma) = u(e,\gamma)$ (với $\gamma \in \Gamma$); khi đó ánh xạ $u \mapsto 3$ là một đẳng cấu của các không gian L-vectơ của $\mathrm{Hom}_L(A, L)$ lên $L^\Gamma$, ánh xạ X lên tập hợp các đồng cấu L-đại số từ A vào L. Bây giờ chỉ cần áp dụng Định lý 1 với $K = L$.
 
-#### Hệ quả 2 (Định lý Dedekind) {#alg-v-s6-thm-1-cor-2 .statement}
+#### Hệ quả 2 (Định lý Dedekind) {#alg-v-s6-thm-1-cor-2 .statement tag=06JD}
 
 *Cho E và L là hai mở rộng của K. Tập hợp các K-đồng cấu từ E vào L là tự do trên L. Nếu E có bậc hữu hạn trên K, số các K-đồng cấu từ E vào L nhiều nhất bằng $[E : K]$.*
 
@@ -90,7 +90,7 @@ Khẳng định cuối cùng suy ra từ khẳng định đầu tiên, có tính
 
 ### 2. Độc lập đại số của các đồng cấu
 
-#### Định lý 2 {#alg-v-s6-thm-2 .statement}
+#### Định lý 2 {#alg-v-s6-thm-2 .statement tag=06JE}
 
 — *Cho K là một trường vô hạn, L là một mở rộng của K và A là một đại số trên K. Cho $u_1, \ldots, u_n$ là các đồng cấu K-đại số phân biệt từ A vào L và f là một đa thức trong $L[X_1, \ldots, X_n]$. Nếu ta có $f(u_1(x), \ldots, u_n(x)) = 0$ với mọi $x \in A$, thì $f = 0$.*
 
@@ -115,7 +115,7 @@ từ đó $f = 0$.
 
 ### 3. Các đại số chéo hóa được và các đại số etale
 
-#### Định nghĩa 1 {#alg-v-s6-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s6-def-1 .statement tag=06JF}
 
 — Cho A là một đại số trên K; khi đó ta nói A là chéo hóa được nếu tồn tại một số nguyên $n \geq 0$ sao cho A đẳng cấu với đại số tích $K^n$. Ta nói A được chéo hóa bởi một mở rộng L của K nếu đại số $A_{(L)}$ trên L thu được từ A bằng mở rộng vô hướng là chéo hóa được. Ta sẽ nói A là etale nếu tồn tại một mở rộng của K làm chéo hóa A.
 
@@ -135,7 +135,7 @@ và $1 = \varepsilon_1 + \ldots + \varepsilon_n$.
 
 Mọi đại số etale trên $\mathbf{K}$ đều *giao hoán* và có *bậc hữu hạn* trên $K$.
 
-#### Mệnh đề 1 {#alg-v-s6-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s6-prop-1 .statement tag=06JG}
 
 *Cho A là một đại số bậc hữu hạn n trên trường K ; khi đó các điều kiện sau là tương đương :*
   *a)* *Đại số A là chéo hóa được.*
@@ -149,13 +149,13 @@ Giả sử *b)* đúng và cho M là một A-môđun; khi đó các phép vị t
 
 Ngược lại, giả sử *d)* đúng và xét A-môđun A,. Khi đó tồn tại một cơ sở $(f_i)$ của không gian K-vectơ A sao cho $Af_i = Kf_i$ với $i = 1, \ldots, n$. Sau khi thay thế mỗi $f_i$ bởi một bội vô hướng thích hợp, nếu cần, ta có thể giả sử rằng $1 = f_i + \ldots + f_n$. Nếu $i \neq j$, thì $f_i f_j$ thuộc $Af_i \cap Af_j = Kf_i \cap Kf_j$ do đó nó bằng không. Bây giờ $f_i = f_i f_1 + \ldots + f_i f_n = f_i^2$, suy ra *b)*.
 
-#### Hệ quả {#alg-v-s6-n3-cor-1 .statement}
+#### Hệ quả {#alg-v-s6-n3-cor-1 .statement tag=06JH}
 
 *Cho L là một mở rộng của K và $\mathscr{H}$ là tập các đồng cấu đại số của A vào L. Ta có Card $\mathscr{H} \leq [A : K]$, với đẳng thức khi và chỉ khi A được L chéo hóa. Nếu A được L chéo hóa, thì $\mathscr{H}$ là một cơ sở của không gian L-vectơ $\mathrm{Hom}_K(A, L)$.*
 
 Không gian vectơ $\mathrm{Hom}_K(A, L)$ trên L có chiều $[A : K]$, theo Công thức (2), và $\mathscr{H}$ là một tập con tự do của $\mathrm{Hom}_K(A, L)$ theo Định lý 1 (*V*, p. 27). Do đó ta có Card $\mathscr{H} \leq [A : K]$ với đẳng thức khi và chỉ khi $\mathscr{H}$ là một cơ sở của $\mathrm{Hom}_K(A, L)$. Tồn tại một đẳng cấu của các không gian L-vectơ, ký hiệu là $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, được đặc trưng bởi $u(x) = (\pi u)(1 \otimes x)$ với $x \in A$, và $\pi$ ánh xạ $\mathscr{H}$ lên tập $\mathscr{H}_L$ gồm các đồng cấu đại số L của $A(\cdot)$ vào L. Cuối cùng, sự tương đương của a) và c) trong Mệnh đề 1 cho thấy đại số $A_{(L)}$ trên L chéo hóa được khi và chỉ khi $\mathscr{H}_L$ sinh ra không gian vectơ $A_{(L)}^*$ trên L. Điều này hoàn tất chứng minh của Hệ quả.
 
-#### Mệnh đề 2 {#alg-v-s6-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s6-prop-2 .statement tag=06JI}
 
 — *Cho A là một đại số trên K và $\Omega$ là một mở rộng đóng đại số của K. Các mệnh đề sau là tương đương*:
 
@@ -169,7 +169,7 @@ Vì mọi mở rộng bậc hữu hạn của K đều đẳng cấu với một
 
 ### 4. Các đại số con của một đại số etale
 
-#### Mệnh đề 3 {#alg-v-s6-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s6-prop-3 .statement tag=06JJ}
 
 — *Cho A là một đại số etale trên K. Chỉ có hữu hạn số đại số con và iđêan của A. Hơn nữa, mọi mở rộng của K chéo hóa A cũng chéo hóa mọi đại số con và mọi đại số thương của A; đặc biệt, các đại số này là etale*.
 
@@ -183,7 +183,7 @@ Với mọi tập con I của $(1, 2, \ldots, n)$, hãy để $a_i$ là không g
 
 Còn lại phải chứng minh rằng mọi iđêan của $K^n$ đều có dạng $a_I$. Gọi I là tập các số nguyên $i$ sao cho $1 \leq i \leq n$ và $\varepsilon_i \in a$, khi đó $a_i \subset a$. Cho $x = x_1 \varepsilon_1 + \cdots + x_n \varepsilon_n$ là một phần tử của a (với $x_1, \ldots, x_n$ trong $K$) và cho $i$ thuộc $(1, 2, \ldots, n) - I$. Ta có $x_i \varepsilon_i = x \varepsilon_i \in a_i$, và $\varepsilon_i \notin a$, do đó $x_i = 0$. Vậy $x = \sum_{i \in I} x_i \varepsilon_i$ và điều này cho thấy rằng $x \in a_i$. Nay ta đã chứng minh $a \subset a_I$, do đó cuối cùng $a = a_i$.
 
-#### Hệ quả {#alg-v-s6-n4-cor-1 .statement}
+#### Hệ quả {#alg-v-s6-n4-cor-1 .statement tag=06JK}
 
 — *Cho $A_1, \ldots, A_r$ là các đại số trên $K$ và $A = A_1 \times \cdots \times A_r$. Để $A$ là étale thì cần và đủ rằng $A_1, \ldots, A_r$ là étale.*
 
@@ -193,7 +193,7 @@ Giả sử rằng $A$ là étale; mỗi đại số $A_1, \ldots, A_r$ đẳng c
 
 Cho $A$ là một đại số giao hoán có bậc hữu hạn $n$ trên $K$. Với mọi mở rộng $L$ của $K$, số $h(L)$ các đồng cấu đại số của $A$ vào $L$ là hữu hạn và bị chặn trên bởi $n$ (V, p. 29, Hệ quả).
 
-#### Bổ đề 1 {#alg-v-s6-lem-1 .statement}
+#### Bổ đề 1 {#alg-v-s6-lem-1 .statement tag=06JL}
 
 — *Cho $\Omega$ là một bao đóng đại số của $K$; khi đó ta có $h(L) \leq h(\Omega)$ đối với mọi mở rộng $L$ của $K$, với đẳng thức khi $L$ là đóng đại số.*
 
@@ -221,19 +221,19 @@ $$
 $$
 Cho $S$ (tương ứng $T$) là tập hợp các $K$-đồng cấu của $K'$ (tương ứng $A'$) vào một bao đóng đại số $L$ của $K$; với mọi $\sigma \in S$ ta ký hiệu $T_\sigma$ là tập hợp các phần tử $f$ của $T$ sao cho $f(a \cdot 1) = \sigma(a)$ với mọi $a \in K'$. Khi đó họ $(T_\sigma)_\sigma$ là một phân hoạch của $T$ và ta có Card $S = [K': K]$; nay với mỗi $\sigma \in S$ tập hợp $T_\sigma$ gồm các $K'$-đồng cấu của $A'$ vào mở rộng đóng đại số $(L, \sigma)$ của $K'$, do đó Card $T_\sigma = [A': K']_s$, và vì vậy ta đã chứng minh (9).
 
-#### Mệnh đề 4 {#alg-v-s6-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s6-prop-4 .statement tag=06JM}
 
 — Cho $A$ là một đại số giao hoán bậc hữu hạn trên $K$; khi đó $[A: K], \leq [A: K]$ với dấu bằng khi và chỉ khi $A$ là étale.
 
 Cho $\Omega$ là một bao đóng đại số của $K$ và $A?$ là tập các đồng cấu đại số của $A$ vào $\mathbf{R}$. Ta có Card $A? = [A: K]$, và $A$ là étale khi và chỉ khi $A$ được chéo hóa bởi mở rộng $\Omega$ của $K$ (V, p. 30, Mệnh đề 2). Vì vậy Mệnh đề 4 suy ra từ Hệ quả của V, p. 29.
 
-#### Hệ quả 1 {#alg-v-s6-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s6-prop-4-cor-1 .statement tag=06JN}
 
 — Cho $A, B$ là hai đại số giao hoán trên $K$, có bậc hữu hạn khác 0. Khi đó, để đại số $C = A \otimes_K B$ là étale thì cần và đủ rằng $A$ và $B$ là étale.
 
 Ta có $[C: K] = [A: K] \cdot [B: K]$ và Công thức (7) tương ứng cho các bậc tách được. Hơn nữa ta có $[A: K], \leq [A: K]$ và các công thức tương ứng cho $B$ và $C$. Suy ra rằng $[C: K] = [C: K]$, khi và chỉ khi ta có cả $[A: K] = [A: K]$ và $[B: K] = [B: K]$; lúc này chỉ cần áp dụng Mệnh đề 4.
 
-#### Hệ quả 2 {#alg-v-s6-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s6-prop-4-cor-2 .statement tag=06JO}
 
 — Cho $K'$ là một mở rộng của $K$.
 
@@ -245,7 +245,7 @@ Ta lập luận như đối với Hệ quả 1, lần này áp dụng (8) cho a)
 
 ### 6. Đặc trưng hóa vi phân của các đại số étale
 
-#### Định lý 3 {#alg-v-s6-thm-3 .statement}
+#### Định lý 3 {#alg-v-s6-thm-3 .statement tag=06JP}
 
 — Cho $A$ là một đại số giao hoán có bậc hữu hạn trên $K$. Để $A$ là étale thì cần và đủ rằng môđun $\Omega_K(A)$ của các vi phân trên $K$ của $A$ phải bằng $0$.
 
@@ -253,7 +253,7 @@ A) Cho $L$ là một bao đóng đại số của $K$ ($V$, p. 23, Định lý 2
 
 B) Giả sử rằng $A$ là chéo hóa được; khi đó ($V$, p. 29, Mệnh đề 1), không gian vectơ $A$ được sinh bởi các lũy đẳng của $A$. Mệnh đề $\Omega_K(A) = 0$ do đó là một hệ quả của bổ đề sau:
 
-#### Bổ đề 2 {#alg-v-s6-lem-2 .statement}
+#### Bổ đề 2 {#alg-v-s6-lem-2 .statement tag=06JQ}
 
 Cho $A$ là một đại số giao hoán trên $K$ và $e$ là một lũy đẳng của $A$; khi đó ta có $de = 0$ trong $\Omega_K(A)$.
 
@@ -261,11 +261,11 @@ Từ quan hệ $e = e^2$ ta suy ra $de = 2e \cdot de$; khi nhân với $e$ ta đ
 
 C) Trước hết ta chứng minh hai bổ đề:
 
-#### Bổ đề 3 {#alg-v-s6-lem-3 .statement}
+#### Bổ đề 3 {#alg-v-s6-lem-3 .statement tag=06JR}
 
 Cho $A$ là một đại số giao hoán bậc hữu hạn trên trường đóng đại số $K$, sao cho $\Omega_K(A) = 0$. Khi đó ta có $m = m^2$ với mọi iđêan cực đại $m$ của $A$.
 
-#### Bổ đề 4 {#alg-v-s6-lem-4 .statement}
+#### Bổ đề 4 {#alg-v-s6-lem-4 .statement tag=06JS}
 
 Đại số $A/m$ là một mở rộng bậc hữu hạn của trường đóng đại số $K$, do đó $[A/m : K] = 1$. Vì thế với mỗi $a \in A$ tồn tại một vô hướng duy nhất $\lambda$ sao cho $a - \lambda \cdot 1 \in m$; kí hiệu $D(a)$ là lớp thặng dư của $a - \lambda \cdot 1$ theo môđun $m^2$. Hiển nhiên $D$ là một đạo hàm $K$ của $A$ vào $A$-môđun $m/m^2$. Tính chất phổ quát của $\Omega_K(A)$ (III, p. 569) và giả thiết $\Omega_K(A) = 0$ nay suy ra rằng $D = 0$, do đó $m/m^2 = 0$ và suy ra $m = m^2$.
 
@@ -275,7 +275,7 @@ Với các bổ đề này đã được thiết lập, ta hãy chứng minh b�
 
 ### 7. Đại số reduced và đại số étale
 
-#### Định nghĩa 2 {#alg-v-s6-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s6-def-2 .statement tag=06JT}
 
 — *Cho $A$ là một vành giao hoán; khi đó $A$ được gọi là reduced nếu mọi phần tử lũy linh (I, p. 98) của $A$ đều là không.*
 
@@ -283,7 +283,7 @@ Nếu $A$ là một trường, hoặc một miền nguyên, hoặc một tích c
 
 Một đại số được gọi là *reduced* nếu vành nền của nó là reduced.
 
-#### Mệnh đề 5 {#alg-v-s6-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s6-prop-5 .statement tag=06JU}
 
 — *Cho $A$ là một đại số giao hoán có bậc hữu hạn trên $K$. Để $A$ là reduced thì điều kiện cần và đủ là tồn tại các mở rộng $L_1, \ldots, L_s$ có bậc hữu hạn trên $K$ sao cho $A$ $K$-đẳng cấu với $L_1 \times \cdots \times L_s$.*
 
@@ -293,7 +293,7 @@ Ngược lại, giả sử $A$ là reduced; lập luận bằng quy nạp theo b
 
 Từ đây giả sử rằng $A$ là reduced và không phải là một trường. Trong các iđêan của $A$ khác 0 và $A$, hãy lấy $a$ là một iđêan có số chiều với tư cách là không gian vectơ trên $K$ là nhỏ nhất. Với mọi $x \neq 0$ trong $a$ ta có $x^2 \neq 0$, vì $A$ là reduced, do đó $a' \neq \{0\}$. Ta có $a^2 \subset a$ và bởi tính cực tiểu của $a$ ta suy ra rằng $a' = a$. Theo Bổ đề 4 tồn tại một phần tử lũy đẳng $e$ sao cho $a = Ae$, và ta có $e \neq 0, e \neq 1$ vì $a$ khác 0 và $A$.
 
-#### Định lý 4 {#alg-v-s6-thm-4 .statement}
+#### Định lý 4 {#alg-v-s6-thm-4 .statement tag=06JV}
 
 — *Cho $A$ là một đại số giao hoán có bậc hữu hạn trên $K$. Khi đó các mệnh đề sau là tương đương:
 a) Đại số $A$ là etale.
@@ -308,7 +308,7 @@ Giả sử rằng $A$ là etale và cho $L$ là một mở rộng của $K$. Cho
 
 Vậy ta đã chứng minh rằng a) suy ra b), và c) là một trường hợp riêng của b). Giả sử bây giờ c) đúng. Để $K$-đại số $A$ là etale thì cần và đủ rằng $P$-đại số $A_{(P)}$ phải là etale (V, p. 32, Hệ quả 2). Do đó đại số $A$ là etale theo bổ đề sau:
 
-#### Bổ đề 5 {#alg-v-s6-lem-5 .statement}
+#### Bổ đề 5 {#alg-v-s6-lem-5 .statement tag=06JW}
 
 *Cho $B$ là một đại số reduced có bậc hữu hạn trên một trường hoàn hảo $P$; khi đó $B$ là etale.*
 
@@ -322,7 +322,7 @@ Vậy ta có $f' \neq 0$ và vì bậc của $f'$ nhỏ hơn hẳn bậc của $
 
 Suy ra mệnh đề $d) \Rightarrow a)$ từ V, p. 31, hệ quả. \*
 
-#### Hệ quả {#alg-v-s6-n7-cor-1 .statement}
+#### Hệ quả {#alg-v-s6-n7-cor-1 .statement tag=06JX}
 
 — *Giả sử rằng $K$ có đặc số $p \neq 0$. Để $A$ là etale thì điều kiện cần và đủ là $A = K[A^p]$. Với mọi cơ sở $(a_i)_i$, của $A$ trên $K$, họ $(a_i^p)_i$ khi đó là một cơ sở của $A$ trên $K$.*
 

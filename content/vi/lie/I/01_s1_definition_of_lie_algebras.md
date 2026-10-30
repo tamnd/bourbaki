@@ -49,7 +49,7 @@ subsections:
       pdf_page: 29
 statements: 20
 exercises: 27
-content_sha256: 56175bd30008211381ea4dde06cd3afa3a60b2dda340e3fb027035749afa1159
+content_sha256: ed80b0025e27cfca2a11dbb77415995bee7f7d4aac15bcee0ffa5b88d38f9db1
 translated_from: content/en/lie/I/01_s1_definition_of_lie_algebras.md
 source_content_sha256: 34c36ec4b6364065c59b2c64940de2dd7a1af068ca79123de094195be8edaedd
 translation_model: gpt-5.4
@@ -91,7 +91,7 @@ Cho $M$ là một đại số trên $K$, $K_1$ là một vành giao hoán có ph
 
 ### 2. ĐẠI SỐ LIE
 
-#### Định nghĩa 1 {#lie-i-s1-def-1 .statement}
+#### Định nghĩa 1 {#lie-i-s1-def-1 .statement tag=09TJ}
 
 *Một đại số g trên K được gọi là một đại số Lie trên K nếu phép nhân của nó (được ký hiệu bởi $(x, y) \mapsto [x, y]$) thỏa mãn các đồng nhất thức:*
 
@@ -113,11 +113,11 @@ do đó đồng nhất thức Jacobi có thể được viết:
 
 Mọi đại số con và mọi đại số thương của một đại số Lie đều là đại số Lie. Mọi tích của các đại số Lie đều là một đại số Lie. Nếu $g$ là một đại số Lie, thì đại số đối $g^0$ là một đại số Lie và ánh xạ $x \mapsto -x$ là một đẳng cấu từ $g$ lên $g^0$, do đồng nhất thức (3).
 
-#### Ví dụ 1 {#lie-i-s1-n2-exa-1 .statement}
+#### Ví dụ 1 {#lie-i-s1-n2-exa-1 .statement tag=09TK}
 
 Cho $L$ là một đại số kết hợp trên $K$. Ngoặc $[x, y] = xy - yx$ là một hàm song tuyến tính của $x$ và $y$. Dễ dàng kiểm tra rằng luật hợp thành $(x, y) \mapsto [x, y]$ trên $K$-môđun $L$ biến $L$ thành một đại số Lie trên $K$.
 
-#### Ví dụ 2 {#lie-i-s1-n2-exa-2 .statement}
+#### Ví dụ 2 {#lie-i-s1-n2-exa-2 .statement tag=09TL}
 
 Trong Ví dụ 1, chọn $L$ là đại số kết hợp các nội đồng cấu của một $K$-môđun $E$. Ta thu được *đại số Lie các nội đồng cấu của* $E$, ký hiệu bởi $gl(E)$. (Nếu $E = K^n$, đại số Lie $gl(E)$ được ký hiệu bởi $gl(n, K)$.)
 
@@ -125,7 +125,7 @@ Mọi đại số con Lie của $gl(E)$ đều là một đại số Lie trên $
 (1) Nếu $E$ được cho một cấu trúc đại số (không nhất thiết kết hợp), các đạo tử của $E$ tạo thành một đại số Lie trên $K$.
 (2) Nếu $E$ có một cơ sở hữu hạn, các nội đồng cấu của $E$ có vết không tạo thành một đại số Lie trên $K$ ký hiệu bởi $sl(E)$ (hoặc $sl(n, K)$ nếu $E = K^n$).
 
-#### Ví dụ 3 {#lie-i-s1-n2-exa-3 .statement}
+#### Ví dụ 3 {#lie-i-s1-n2-exa-3 .statement tag=09TM}
 
 Tập hợp $M_n(K)$ các ma trận vuông cấp $n$ có thể được xem như một đại số Lie trên K đẳng cấu chính tắc với gl(n, K). Cho $(E_{ij})$ là cơ sở chính tắc của $\mathbf{M}_n(K)$ (Đại số, Chương II, § 10, no. 3). Khi đó dễ dàng suy ra rằng:
 
@@ -144,11 +144,11 @@ $$
 
 *Ví dụ 3. Cho V là một đa tạp thực khả vi vô hạn lần. Các toán tử vi phân với hệ số thực khả vi vô hạn lần tạo thành một đại số kết hợp trên $\mathbf{R}$ và do đó, theo Ví dụ 1, một đại số Lie $\Delta$ trên $\mathbf{R}$. Ngoặc của hai trường vectơ khả vi vô hạn lần trên V là một trường vectơ khả vi vô hạn lần và do đó các trường vectơ khả vi vô hạn lần trên V tạo thành một đại số con Lie $\mathfrak{f}$ của $\Delta$. Nếu V là một *nhóm Lie* thực, các trường vectơ bất biến trái tạo thành một đại số con Lie $g$ của $\mathfrak{f}$, gọi là *đại số Lie* của V. Không gian vectơ $g$ được đồng nhất với không gian tiếp xúc của V tại $e$ (phần tử đơn vị của V). Cho V' là một nhóm Lie thực khác, $e'$ phần tử đơn vị của nó và $g'$ đại số Lie của nó. Mọi đồng cấu giải tích từ V vào V' đều xác định một ánh xạ tuyến tính từ không gian tiếp xúc của V tại $e$ vào không gian tiếp xúc của V' tại $e'$; ánh xạ này là một đồng cấu từ đại số Lie $g$ vào đại số Lie $g'$. Nếu V là nhóm tuyến tính của một không gian vectơ thực hữu hạn chiều E thì tồn tại một đẳng cấu chính tắc từ $gl(E)$ lên đại số Lie $g$ của V, theo đó $g$ được đồng nhất với $gl(E)$.*
 
-#### Định nghĩa 2 {#lie-i-s1-def-2 .statement}
+#### Định nghĩa 2 {#lie-i-s1-def-2 .statement tag=09TN}
 
 *Cho g là một đại số Lie và x là một phần tử của g. Ánh xạ tuyến tính $y \mapsto [x, y]$ từ g vào g được gọi là ánh xạ tuyến tính liên hợp của x và được ký hiệu bởi $\operatorname{ad}_g x$ hoặc $\operatorname{ad} x$.*
 
-#### Mệnh đề 1 {#lie-i-s1-prop-1 .statement}
+#### Mệnh đề 1 {#lie-i-s1-prop-1 .statement tag=09TO}
 
 *Cho g là một đại số Lie. Với mọi $x \in g$, $\operatorname{ad} x$ là một đạo hàm. Ánh xạ $x \mapsto \operatorname{ad} x$ là một đồng cấu của đại số Lie g vào đại số Lie $\mathfrak{d}$ các đạo hàm của g. Nếu $D \in \mathfrak{d}$ và $x \in g$, thì $[D, \operatorname{ad} x] = \operatorname{ad}(Dx)$.
 
@@ -170,15 +170,15 @@ do đó có hai mệnh đề đầu tiên. Mặt khác, nếu $D \in \mathfrak{d
 
 ### 3. ĐẠI SỐ LIE GIAO HOÁN
 
-#### Định nghĩa 3 {#lie-i-s1-def-3 .statement}
+#### Định nghĩa 3 {#lie-i-s1-def-3 .statement tag=09TP}
 
 *Hai phần tử x, y của một đại số Lie được gọi là hoán vị được với nhau nếu [x, y] = 0. g được gọi là giao hoán nếu hai phần tử bất kỳ của nó đều hoán vị được với nhau.*
 
-#### Ví dụ 1 {#lie-i-s1-n3-exa-1 .statement}
+#### Ví dụ 1 {#lie-i-s1-n3-exa-1 .statement tag=09TQ}
 
 Cho L là một đại số kết hợp và g là đại số Lie được xác định bởi nó (no. 2, Ví dụ 1). Hai phần tử x, y hoán vị được trong g khi và chỉ khi xy = yx trong L.
 
-#### Ví dụ 2 {#lie-i-s1-n3-exa-2 .statement}
+#### Ví dụ 2 {#lie-i-s1-n3-exa-2 .statement tag=09TR}
 
 *Nếu một nhóm Lie thực G là giao hoán thì đại số Lie của nó là giao hoán.*
 
@@ -190,17 +190,17 @@ Nếu g là một đại số Lie thì mọi môđun con đơn sinh của g là 
 
 Từ đẳng thức (3) suy ra rằng trong một đại số Lie g không có sự phân biệt giữa iđêan trái và iđêan phải, mọi iđêan đều là hai phía. Vì vậy ta chỉ đơn giản nói đến các iđêan.
 
-#### Ví dụ {#lie-i-s1-n4-exa-1 .statement}
+#### Ví dụ {#lie-i-s1-n4-exa-1 .statement tag=09TS}
 
 *Cho G là một nhóm Lie, g đại số Lie của nó và H là một nhóm con Lie của G. Mọi trường vectơ bất biến trái trên H xác định một cách chính tắc một trường vectơ bất biến trái trên G, do đó có một đơn ánh chính tắc của đại số Lie h của H vào g; dưới đơn ánh này, h được đồng nhất với một đại số con Lie của g. Nếu H là chuẩn tắc trong G, ảnh chính tắc của h trong g là một iđêan của g.*
 
 Một iđêan của g là một môđun con của g ổn định dưới các đạo hàm nội của g.
 
-#### Định nghĩa 4 {#lie-i-s1-def-4 .statement}
+#### Định nghĩa 4 {#lie-i-s1-def-4 .statement tag=09TT}
 
 *Một môđun con của g ổn định dưới mọi đạo hàm của g được gọi là một iđêan đặc số của g.*
 
-#### Mệnh đề 2 {#lie-i-s1-prop-2 .statement}
+#### Mệnh đề 2 {#lie-i-s1-prop-2 .statement tag=09TU}
 
 *Cho g là một đại số Lie, a là một iđêan (tương ứng, một iđêan đặc số) của g và b là một iđêan đặc số của a. Khi đó b là một iđêan (tương ứng, một iđêan đặc số) của g.*
 
@@ -210,7 +210,7 @@ Cho g là một đại số Lie. Nếu a và b là các iđêan của g, thì a 
 
 Cho a và b là hai môđun con của g. Do lạm dụng ký hiệu, môđun con của g sinh bởi các phần tử dạng [x, y] (x ∈ a, y ∈ b) được ký hiệu là [a, b]. Ta có [a, b] = [b, a] theo đẳng thức (3). Nếu z ∈ g, thì [z, a], hoặc [a, z], ký hiệu môđun con [Kz, a] = (ad z)(a).
 
-#### Mệnh đề 3 {#lie-i-s1-prop-3 .statement}
+#### Mệnh đề 3 {#lie-i-s1-prop-3 .statement tag=09TV}
 
 *Nếu a và b là các iđêan (tương ứng, các iđêan đặc số) của g, thì [a, b] là một iđêan (tương ứng, một iđêan đặc số) của g.*
 
@@ -232,7 +232,7 @@ Mọi môđun con của g chứa $\mathscr{D}g$ đều là một iđêan của g
 
 *Chuỗi trung tâm dưới* của g là dãy giảm $\mathscr{C}^1g, \mathscr{C}^2g, \ldots$ các iđêan đặc số của g được xác định quy nạp như sau: (1) $\mathscr{C}^1g = g$; (2) $\mathscr{C}^{p+1}g = [g, \mathscr{C}^pg]$. Khi đó $\mathscr{C}^2g = \mathscr{D}g$ và $\mathscr{C}^{p+1}g \supset \mathscr{D}^pg$ với mọi $p$, điều này được thấy ngay lập tức bằng quy nạp theo $p$.
 
-#### Mệnh đề 4 {#lie-i-s1-prop-4 .statement}
+#### Mệnh đề 4 {#lie-i-s1-prop-4 .statement tag=09TW}
 
 *Cho g và h là hai đại số Lie trên K và f là một đồng cấu từ g lên h. Khi đó $f(\mathscr{D}^pg) = \mathscr{D}^pf, f(\mathscr{C}^pg) = \mathscr{C}^ph$.*
 
@@ -242,7 +242,7 @@ f([a, b]) = [f(a), f(b)].
 $$
 Khi đó mệnh đề là ngay lập tức theo quy nạp theo $p$.
 
-#### Hệ quả {#lie-i-s1-n5-cor-1 .statement}
+#### Hệ quả {#lie-i-s1-n5-cor-1 .statement tag=09TX}
 
 *Cho g là một đại số Lie và a là một iđêan của g. Để đại số Lie $g/a$ là giao hoán, điều kiện cần và đủ là $a \supset \mathscr{D}g$.*
 
@@ -253,7 +253,7 @@ Nhưng theo Mệnh đề 4, $\mathscr{D}(g/a)$ là ảnh chính tắc của $\ma
 
 Cho g là một đại số Lie và P là một tập con của g. *Tập trung hoá* của P trong g là tập hợp các phần tử của g hoán vị được với các phần tử của P. Tập trung hoá này là giao của các hạt nhân của các ad $y$, khi $y$ chạy qua P; vì vậy nó là một đại số con của g.
 
-#### Mệnh đề 5 {#lie-i-s1-prop-5 .statement}
+#### Mệnh đề 5 {#lie-i-s1-prop-5 .statement tag=09TY}
 
 *Cho g là một đại số Lie và a là một iđêan (tương ứng, một iđêan đặc số) của g. Tập trung hoá $a'$ của a trong g là một iđêan (tương ứng, một iđêan đặc số) của g.*
 
@@ -270,7 +270,7 @@ Iđêan $\mathscr{C}_1 g$ là tâm của $g$.
 
 ### 7. MỞ RỘNG
 
-#### Định nghĩa 5 {#lie-i-s1-def-5 .statement}
+#### Định nghĩa 5 {#lie-i-s1-def-5 .statement tag=09TZ}
 
 Cho $a$ và $b$ là hai đại số Lie trên $K$. Một mở rộng của $b$ bởi $a$ là một dãy:
 
@@ -304,7 +304,7 @@ là giao hoán (nghĩa là sao cho $f \circ \lambda = \lambda', \mu' \circ f = \
 
 Từ đó suy ra rằng quan hệ vừa được định nghĩa giữa hai mở rộng của $b$ bởi $a$ là một quan hệ tương đương.
 
-#### Mệnh đề 6 {#lie-i-s1-prop-6 .statement}
+#### Mệnh đề 6 {#lie-i-s1-prop-6 .statement tag=09U0}
 
 Cho
 
@@ -320,7 +320,7 @@ là một mở rộng của $b$ bởi $a$ và $n$ là hạt nhân của nó.
 
 Các khẳng định của (a) là ngay lập tức. Mặt khác, giả sử ν là một đồng cấu từ b vào g sao cho μ ∘ ν là tự đẳng cấu đồng nhất của b. Khi đó ν(b) là một đại số con của g và g là tổng trực tiếp của ν(b) và $\mu^{-1}(0) = n$ (*Đại số*, Chương VIII, § 1, no. 1).
 
-#### Định nghĩa 6 {#lie-i-s1-def-6 .statement}
+#### Định nghĩa 6 {#lie-i-s1-def-6 .statement tag=09U1}
 
 *Cho*
 
@@ -423,7 +423,7 @@ Khi $\phi = 0$, $g$ là đại số Lie tích của $b$ và $a$. Trong trường
 
 Vậy chúng ta đã thiết lập được mệnh đề sau:
 
-#### Mệnh đề 7 {#lie-i-s1-prop-7 .statement}
+#### Mệnh đề 7 {#lie-i-s1-prop-7 .statement tag=09U2}
 
 *Cho $a$ và $b$ là hai đại số Lie trên $K$,*
 
@@ -452,11 +452,11 @@ $$
 
 *là giao hoán, nên hai mở rộng ấy là tương đương.*
 
-#### Ví dụ 1 {#lie-i-s1-n8-exa-1 .statement}
+#### Ví dụ 1 {#lie-i-s1-n8-exa-1 .statement tag=09U3}
 
 Cho $g$ là một đại số Lie trên $K$ và $D$ là một đạo hàm của $g$. Cho $h$ là đại số Lie *giao hoán* $K$. Ánh xạ $\lambda \mapsto \lambda D (\lambda \in K)$ là một đồng cấu của $h$ vào đại số Lie các đạo hàm của $g$. Ta lập tích nửa trực tiếp tương ứng $t$ của $h$ bởi $g$. Cho $x_0$ là phần tử $(0, 1)$ của $t$. Với mọi $x \in g$, $Dx = [x_0, x]$.
 
-#### Ví dụ 2 {#lie-i-s1-n8-exa-2 .statement}
+#### Ví dụ 2 {#lie-i-s1-n8-exa-2 .statement tag=09U4}
 
 Cho $g$ là một đại số Lie trên $K$, $M$ là một $K$-môđun và $\rho$ là một đồng cấu của $g$ vào $\mathfrak{gl}(M)$. Nếu coi $M$ như một đại số Lie giao hoán, thì đại số Lie các đạo hàm của $M$ là $\mathfrak{gl}(M)$. Do đó ta có thể lập tích nửa trực tiếp $h$ của $g$ bởi $M$ tương ứng với $\rho$.
 

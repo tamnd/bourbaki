@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 52
 exercises: 43
-content_sha256: a954bace5a589728e9a2d51e6c84ded8d0218ccc650053695b9bfde6352ac156
+content_sha256: 7420003fc05af4fd06714f07fd0a3623ff9817926ba58f2d4818e82953c1637e
 ---
 
 ## § 2. ENSEMBLES CONVEXES
@@ -66,28 +66,28 @@ content_sha256: a954bace5a589728e9a2d51e6c84ded8d0218ccc650053695b9bfde6352ac156
 
 Étant donnés deux points $x, y$ d’un espace affine $E$, l’ensemble des points $\lambda x + \mu y$ où $\lambda \geq 0, \mu \geq 0, \lambda + \mu = 1$ est appelé segment fermé d’extrémités $x$ et $y$; il est réduit à un point lorsque $x = y$. Le complémentaire de $x$ dans ce segment est appelé le segment ouvert en $x$, fermé en $y$, d’extrémités $x, y$; il est vide si $x = y$. Enfin, le complémentaire de $\{x, y\}$ dans le segment fermé d’extrémités $x$ et $y$ est appelé le segment ouvert d’extrémités $x$ et $y$; il est vide si $x = y$.
 
-#### Définition 1 {#evt-ii-s2-def-1 .statement}
+#### Définition 1 {#evt-ii-s2-def-1 .statement tag=07B4}
 
 Dans un espace affine E, on dit qu’un ensemble A est convexe si, quels que soient les points x, y de A, le segment fermé d’extrémités x et y est contenu dans A.
 
 Comme $(1 - \lambda) a + \lambda x = a + \lambda(x - a)$, cette définition équivaut à la suivante : l’ensemble A est convexe si, pour tout point $a \in A$, le transformé de A par toute homothétie de centre a et de rapport $\lambda$ tel que $0 < \lambda < 1$, est contenu dans A (autrement dit, A est stable pour ces homothéties).
 
-#### Exemple 1 {#evt-ii-s2-n1-exa-1 .statement}
+#### Exemple 1 {#evt-ii-s2-n1-exa-1 .statement tag=07B5}
 
 Toute variété linéaire affine de E (et en particulier l’ensemble vide) est convexe.
 
-#### Exemple 2 {#evt-ii-s2-n1-exa-2 .statement}
+#### Exemple 2 {#evt-ii-s2-n1-exa-2 .statement tag=07B6}
 
 Les seules parties convexes non vides de $\mathbf{R}$ sont les intervalles (TG, IV, p. 7, prop. 1).
 
-#### Exemple 3 {#evt-ii-s2-n1-exa-3 .statement}
+#### Exemple 3 {#evt-ii-s2-n1-exa-3 .statement tag=07B7}
 
 Soient E un espace vectoriel et $\|x\|$ une norme sur E ; la boule unité B, formée des points x tels que $\|x\| \leq 1$, est convexe, car les relations $\|x\| \leq 1, \|y\| \leq 1$ entraînent, pour $0 \leq \lambda \leq 1$
 $$
 \|\lambda x + (1 - \lambda) y\| \leq \lambda \|x\| + (1 - \lambda) \|y\| \leq \lambda + (1 - \lambda) = 1 .
 $$
 
-#### Remarque {#evt-ii-s2-n1-rem-1 .statement}
+#### Remarque {#evt-ii-s2-n1-rem-1 .statement tag=07B8}
 
 Soit A un ensemble convexe dans un espace vectoriel E ; quels que soient les scalaires $\alpha > 0$ et $\beta > 0$, on a
 $$
@@ -103,13 +103,13 @@ z = \frac{\alpha}{\alpha + \beta} x + \frac{\beta}{\alpha + \beta} y
 $$
 et on a $\frac{\alpha}{\alpha + \beta} > 0,\ \frac{\beta}{\alpha + \beta} > 0$ et $\frac{\alpha}{\alpha + \beta} + \frac{\beta}{\alpha + \beta} = 1$, d’où l’assertion, en vertu de la déf. 1.
 
-#### Proposition 1 {#evt-ii-s2-prop-1 .statement}
+#### Proposition 1 {#evt-ii-s2-prop-1 .statement tag=07B9}
 
 Soit $(x_i)$ une famille de points d’un ensemble convexe A ; tout barycentre $\sum_i \lambda_i x_i$ des $x_i$ affectés de masses positives $\lambda_i$ (telles que $\sum_i \lambda_i = 1$ et $\lambda_i = 0$ sauf pour un nombre fini d’indices, cf. A, II, p. 128) appartient à A.
 
 On peut évidemment se borner au cas où l’ensemble d’indices est un intervalle fini $\{1, p\}$ de $\mathbf{N}$, et où $\lambda_i > 0$ pour tout indice i ; la proposition est triviale pour $p = 1$ ; démontrons-la par récurrence sur $p$. Posons $\mu = \sum_{i=1}^{p-1} \lambda_i > 0$, et $y = \sum_{i=1}^{p-1} \frac{\lambda_i}{\mu} x_i$ ; l’hypothèse de récurrence entraîne la relation $y \in A$. Comme on a $\lambda_p = 1 - \mu$ et $\sum_{i=1}^p \lambda_i x_i = \mu y + (1 - \mu) x_p$, le point $\sum_{i=1}^p \lambda_i x_i$ appartient à A d’après la déf. 1.
 
-#### Proposition 2 {#evt-ii-s2-prop-2 .statement}
+#### Proposition 2 {#evt-ii-s2-prop-2 .statement tag=07BA}
 
 Soient E et F deux espaces affines, f une application linéaire affine de E dans F ; l’image par f de toute partie convexe de E et l’image réciproque par f de toute partie convexe de F sont des ensembles convexes.
 
@@ -117,7 +117,7 @@ La première partie résulte de ce que l’image par f du segment fermé d’ext
 
 En particulier, l’image d’un ensemble convexe par une homothétie ou une translation est convexe.
 
-#### Proposition 3 {#evt-ii-s2-prop-3 .statement}
+#### Proposition 3 {#evt-ii-s2-prop-3 .statement tag=07BB}
 
 *Soient E un espace affine, H un hyperplan défini par la relation $g(x) = 0$, où g est une fonction affine non constante sur E. Les demi-espaces définis par l’une des relations $g(x) \geqslant 0$, $g(x) \leqslant 0$, $g(x) > 0$, $g(x) < 0$ sont des ensembles convexes.*
 
@@ -125,7 +125,7 @@ En effet, ce sont les images réciproques par l’application affine $g$ d’int
 
 Avec les notations de la prop. 3, les points d’une partie M d’un espace affine sont dits *d’un même côté* (resp. *strictement d’un même côté*) de l’hyperplan H si M est contenue dans un des demi-espaces définis par $\alpha(x) \geqslant 0$ ou $g(x) \leqslant 0$ (resp. $g(x) > 0$ ou $g(x) < 0$.)
 
-#### Proposition 4 {#evt-ii-s2-prop-4 .statement}
+#### Proposition 4 {#evt-ii-s2-prop-4 .statement tag=07BC}
 
 *Soit H un hyperplan dans un espace affine E. Pour que les points d’une partie convexe A de E soient strictement d’un même côté de H, il faut et il suffit que A ne rencontre pas H.*
 
@@ -133,25 +133,25 @@ La condition est évidemment nécessaire. Inversement supposons-la remplie, et s
 
 ### 2. Intersections d’ensembles convexes. Produits d’ensembles convexes
 
-#### Proposition 5 {#evt-ii-s2-prop-5 .statement}
+#### Proposition 5 {#evt-ii-s2-prop-5 .statement tag=07BD}
 
 *L’intersection d’une famille quelconque de parties convexes d’un espace affine E est convexe.*
 
 La proposition est évidente à partir de la déf. 1 de II, p. 8.
 
-#### Proposition 6 {#evt-ii-s2-prop-6 .statement}
+#### Proposition 6 {#evt-ii-s2-prop-6 .statement tag=07BE}
 
 *Soit $(E_i)_{i \in I}$ une famille d’espaces vectoriels, et pour chaque $i \in I$, soit $A_i$ une partie non vide de $E_i$. Pour que l’ensemble $A = \prod_{i \in I} A_i$ soit convexe dans $E = \prod_{i \in I} E_i$, il faut et il suffit que, pour tout $i \in I$, l’ensemble $A_i$ soit convexe dans $E_i$.*
 
 En effet, chacune des projections $\mathrm{pr}_i$ est une application linéaire, et on a $A_i = \mathrm{pr}_i A$ et $A = \bigcap_{i \in I} \mathrm{pr}_i^{-1}(A_i)$; la proposition résulte donc des prop. 2 (II, p. 8) et 5.
 
-#### Corollaire {#evt-ii-s2-n2-cor-1 .statement}
+#### Corollaire {#evt-ii-s2-n2-cor-1 .statement tag=07BF}
 
 *Dans l’espace $\mathbf{R}^n$, tout parallélétope (TG, VI, p. 3) est un ensemble convexe.*
 
 En effet, c’est l’image d’un pavé par une application linéaire affine, et un pavé de $\mathbf{R}^n$ est convexe en vertu de la prop. 6.
 
-#### Proposition 7 {#evt-ii-s2-prop-7 .statement}
+#### Proposition 7 {#evt-ii-s2-prop-7 .statement tag=07BG}
 
 Soient E un espace vectoriel, A et B deux parties convexes de E. Quels que soient les nombres réels α et β, l’ensemble αA + βB (ensemble des αx + βy, où x parcourt A et y parcourt B) est convexe.
 
@@ -159,11 +159,11 @@ En effet, αA + βB est l’image de l’ensemble convexe A × B dans E × E par
 
 ### 3. Enveloppe convexe d’un ensemble
 
-#### Définition 2 {#evt-ii-s2-def-2 .statement}
+#### Définition 2 {#evt-ii-s2-def-2 .statement tag=07BH}
 
 Étant donnée une partie quelconque A d’un espace affine E, on appelle enveloppe convexe de A l’intersection des ensembles convexes contenant A, c’est-à-dire (II, p. 9, prop. 5) le plus petit ensemble convexe contenant A.
 
-#### Proposition 8 {#evt-ii-s2-prop-8 .statement}
+#### Proposition 8 {#evt-ii-s2-prop-8 .statement tag=07BI}
 
 Soit (A_i)_{i∈I} une famille de parties convexes d’un espace affine E ; l’enveloppe convexe de $\bigcup_{i\in I} A_i$ est identique à l’ensemble des combinaisons linéaires $\sum_{i\in I} \lambda_i x_i$, où $x_i \in A_i$, $\lambda_i \geq 0$ pour tout $i \in I$ ($\lambda_i = 0$ sauf pour un nombre fini d’indices) et $\sum_{i\in I} \lambda_i = 1$.
 
@@ -173,7 +173,7 @@ $$
 $$
 où $z_i = \gamma_i^{-1}(\alpha\lambda_i x_i + (1 - \alpha) \mu_i y_i)$ appartient à A_i pour tout $i \in J$; comme on a $\sum_{i\in J} \gamma_i = \alpha \sum_{i\in I} \lambda_i + (1 - \alpha) \sum_{i\in I} \mu_i = 1$, le point $\alpha x + (1 - \alpha)y$ appartient à C.
 
-#### Corollaire 1 {#evt-ii-s2-prop-8-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s2-prop-8-cor-1 .statement tag=07BJ}
 
 L’enveloppe convexe d’une partie A de E est identique à l’ensemble des combinaisons linéaires $\sum_i \lambda_i x_i$, où $(x_i)$ est une famille finie quelconque de points de A, $\lambda_i > 0$ pour tout i et $\sum_i \lambda_i = 1$.
 
@@ -188,7 +188,7 @@ $$
 \sum_i \lambda_i x_i = \mu \cdot \sum_i \alpha_i y_i \text{ avec } \alpha_i = \lambda_i / \mu \text{ et } y_i = x_i \text{ si } \lambda_i \geq 0, \quad \alpha_i = -\lambda_i / \mu \text{ et } y_i = -x_i \text{ si } \lambda_i < 0 ; \text{ il est clair que } \sum_i \alpha_i = 1, \text{ d’où notre assertion.}
 $$
 
-#### Corollaire 2 {#evt-ii-s2-prop-8-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s2-prop-8-cor-2 .statement tag=07BK}
 
 *Soient E et F deux espaces affines, f une application linéaire affine de E dans F ; pour toute partie A de E, l’enveloppe convexe de f(A) est l’image par f de l’enveloppe convexe de A.*
 
@@ -196,7 +196,7 @@ On a un énoncé analogue pour les applications linéaires et les enveloppes con
 
 ### 4. Cônes convexes
 
-#### Définition 3 {#evt-ii-s2-def-3 .statement}
+#### Définition 3 {#evt-ii-s2-def-3 .statement tag=07BL}
 
 *On dit qu’une partie C d’un espace affine E est un cône de sommet x_0 si C est stable pour toutes les homothéties de centre x_0 et de rapport > 0.*
 
@@ -206,25 +206,25 @@ Un cône C de sommet 0 est dit *pointé* si $0 \in C$, *épointé* dans le cas c
 
 Si C est un cône *convexe* épointé, $C \cup \{0\}$ est un cône convexe pointé. Par contre, si C est un cône convexe pointé, $C - \{0\}$ n’est pas nécessairement convexe. Disons qu’un cône convexe pointé est *saillant* s’il ne contient aucune droite passant par 0. Alors :
 
-#### Proposition 9 {#evt-ii-s2-prop-9 .statement}
+#### Proposition 9 {#evt-ii-s2-prop-9 .statement tag=07BM}
 
 *Pour qu’un cône convexe pointé C soit saillant, il faut et il suffit que le cône épointé C’, complémentaire de 0 par rapport à C, soit convexe.*
 
 Si C contient une droite passant par 0, il est évident que C’ n’est pas convexe. Supposons maintenant C saillant, et soient x et y deux points de C’. Le segment fermé d’extrémités x, y est contenu dans C ; s’il contenait 0, on aurait $\lambda x + (1 - \lambda) y = 0$ pour un $\lambda$ tel que $0 < \lambda < 1$, donc $x = \mu y$ avec $\mu < 0$, de sorte que C contiendrait la droite passant par 0 et x, contrairement à l’hypothèse.
 
-#### Proposition 10 {#evt-ii-s2-prop-10 .statement}
+#### Proposition 10 {#evt-ii-s2-prop-10 .statement tag=07BN}
 
 *Pour qu’un ensemble C $\subset E$ soit un cône convexe, il faut et il suffit que l’on ait $C + C \subset C$ et $\lambda C \subset C$ pour tout $\lambda > 0$.*
 
 En effet, la condition $\lambda C \subset C$ pour tout $\lambda > 0$ caractérise les cônes. Si $C$ est convexe, on a $C + C = \frac{1}{2}C + \frac{1}{2}C = C$ (II, p. 8, Remarque). Inversement, si le cône $C$ est tel que $C + C \subset C$, on a, pour $0 < \lambda < 1$, $\lambda C + (1 - \lambda)C = C + C \subset C$, ce qui prouve que $C$ est convexe.
 
-#### Corollaire 1 {#evt-ii-s2-prop-10-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s2-prop-10-cor-1 .statement tag=07BO}
 
 *Si C est un cône convexe non vide, le sous-espace vectoriel engendré par C est l’ensemble* $C - C$ (ensemble des $x - y$, où $x$ et $y$ parcourent $C$).
 
 En effet, si $V = C - C$, $V$ est non vide ; on a $\lambda V = V$ pour tout $\lambda \neq 0$, et $V + V = C + C - (C + C) \subset C - C = V$, ce qui montre que $V$ est un sous-espace vectoriel. Tout sous-espace vectoriel contenant $C$ contient évidemment $V$.
 
-#### Corollaire 2 {#evt-ii-s2-prop-10-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s2-prop-10-cor-2 .statement tag=07BP}
 
 *Si C est un cône convexe pointé, le plus grand sous-espace vectoriel contenu dans C est l’ensemble* $C \cap (-C)$.
 
@@ -236,29 +236,29 @@ ce qui montre que $W$ est un sous-espace vectoriel. Tout sous-espace vectoriel c
 
 Il est clair que, si $f$ est une application linéaire de $E$ dans un espace vectoriel $F$, l’image $f(C)$ de tout cône convexe $C$ dans $E$ est un cône convexe dans $F$. Toute intersection de cônes convexes (de sommet 0) dans $E$ est un cône convexe. Pour tout ensemble $A \subset E$, l’intersection de tous les cônes convexes contenant $A$ (il en existe, ne serait-ce que $E$ lui-même) est donc le plus petit cône convexe contenant $A$; on dit que c’est le cône convexe *engendré* par $A$.
 
-#### Proposition 11 {#evt-ii-s2-prop-11 .statement}
+#### Proposition 11 {#evt-ii-s2-prop-11 .statement tag=07BQ}
 
 *Soit* $(C_i)_{i \in I}$ *une famille de cônes convexes dans* $E$; *le cône convexe engendré par la réunion des* $C_i$ *est identique à l’ensemble des sommes* $\sum_{i \in J} x_i$, *où* $J$ *est une partie finie non vide quelconque de* $I$, *et où* $x_i \in C_i$ *pour tout* $i \in J$.
 
 En effet, l’ensemble $C$ de ces sommes est évidemment un cône convexe contenant la réunion des $C_i$ et contenu dans tout cône convexe contenant cette réunion.
 
-#### Corollaire {#evt-ii-s2-n4-cor-1 .statement}
+#### Corollaire {#evt-ii-s2-n4-cor-1 .statement tag=07BR}
 
 *Soit* $A$ *une partie de* $E$; *le cône convexe engendré par* $A$ *est identique à l’ensemble des combinaisons linéaires* $\sum_{i \in J} \lambda_i x_i$, *où* $(x_i)_{i \in J}$ *est une famille finie non vide quelconque de points de* $A$, *et où* $\lambda_i > 0$ *pour tout* $i \in J$.
 
 Il suffit de remarquer que, si un cône convexe contient un point $x \in A$, il contient l’ensemble $C_x$ des $\lambda x$, où $\lambda$ parcourt l’ensemble des nombres $> 0$, et que $C_x$ est un cône convexe.
 
-#### Proposition 12 {#evt-ii-s2-prop-12 .statement}
+#### Proposition 12 {#evt-ii-s2-prop-12 .statement tag=07BS}
 
 *Soit* $A$ *une partie convexe de* $E$. *Le cône convexe engendré par* $A$ *est identique à* $C = \bigcup_{\lambda > 0} \lambda A$.
 
 L’ensemble $C$ est évidemment un cône ; il suffit de montrer que $C$ est convexe. Soient $\lambda x$ et $\mu y$ deux points de $C$ ($\lambda > 0, \mu > 0, x \in A, y \in A$). Soient $\alpha > 0, \beta > 0$ tels que $\alpha + \beta = 1$. On a $\alpha \lambda x + \beta \mu y = (\alpha \lambda + \beta \mu) z$, avec $z \in A$, et $\alpha \lambda + \beta \mu > 0$; donc $\alpha \lambda x + \beta \mu y \in C$.
 
-#### Remarque 1 {#evt-ii-s2-n4-rem-1 .statement}
+#### Remarque 1 {#evt-ii-s2-n4-rem-1 .statement tag=07BT}
 
 Avec les hypothèses de la prop. 12, si $0 \notin A$, le cône $C$ est épointé, donc $C \cup \{0\}$ est saillant.
 
-#### Remarque 2 {#evt-ii-s2-n4-rem-2 .statement}
+#### Remarque 2 {#evt-ii-s2-n4-rem-2 .statement tag=0E4K}
 
 Soit $A$ un ensemble convexe quelconque dans $E$; considérons, dans l’espace $F = E \times \mathbf{R}$, l’ensemble convexe $A_1 = A \times \{1\}$ et le cône convexe $C$ de sommet 0 engendré par $A_1$. La prop. 12 prouve que $A_1$ est l’intersection de $C$ et de l’hyperplan $E \times \{1\}$ dans $F$. Tout ensemble convexe dans $E$ peut donc être considéré comme la projection sur $E$ de l’intersection d’un cône convexe de sommet 0 dans $F$, et de l’hyperplan $E \times \{1\}$.
 
@@ -274,11 +274,11 @@ L’espace vectoriel $E$, muni de ces deux structures, est appelé *espace vecto
 
 On notera que l’axiome (EO$_1$) signifie que la structure de préordre et la structure de groupe additif de $E$ sont compatibles, autrement dit que $E$, muni de ces deux structures, est un *groupe préordonné* (A, VI, p. 3).
 
-#### Exemple {#evt-ii-s2-n5-exa-1 .statement}
+#### Exemple {#evt-ii-s2-n5-exa-1 .statement tag=07BU}
 
 Sur l’espace vectoriel $E = \mathbf{R}^A$ de toutes les fonctions numériques finies définies dans un ensemble $A$, la relation d’ordre « quel que soit $t \in A$, $x(t) \leq y(t)$ » est compatible avec la structure d’espace vectoriel de $E$.
 
-#### Proposition 13 {#evt-ii-s2-prop-13 .statement}
+#### Proposition 13 {#evt-ii-s2-prop-13 .statement tag=07BV}
 
 (i) *Si* $E$ *est un espace vectoriel préordonné*, *l’ensemble* $P$ *des éléments* $\geq 0$ *de* $E$ *est un cône convexe pointé*.
 
@@ -292,7 +292,7 @@ Sur l’espace vectoriel $E = \mathbf{R}^A$ de toutes les fonctions numériques 
 
 (iii) Dire que $P$ est saillant signifie que $P \cap (-P) = \{0\}$ (II, p. 12, cor. 2), donc que $y - x \in P$ est une relation d’ordre.
 
-#### Exemple {#evt-ii-s2-n5-exa-2 .statement}
+#### Exemple {#evt-ii-s2-n5-exa-2 .statement tag=07BW}
 
 \* Soit H un espace hilbertien réel ; dans l’espace vectoriel $\mathscr{L}(H)$ des endomorphismes continus de H, les endomorphismes hermitiens positifs forment un cône convexe pointé saillant ; ce cône définit donc une structure d’ordre compatible avec la structure d’espace vectoriel de $\mathscr{L}(H)$ et pour laquelle la relation $A \leq B$ signifie que $B - A$ est un endomorphisme hermitien positif. \*
 
@@ -302,13 +302,13 @@ On dit qu’une forme linéaire $f$ sur un espace vectoriel préordonné E est p
 
 ### 6. Ensembles convexes dans les espaces vectoriels topologiques
 
-#### Proposition 14 {#evt-ii-s2-prop-14 .statement}
+#### Proposition 14 {#evt-ii-s2-prop-14 .statement tag=07BX}
 
 Dans un espace vectoriel topologique E, l’adhérence d’un ensemble convexe (resp. d’un cône convexe) est un ensemble convexe (resp. un cône convexe de même sommet).
 
 En effet, soit A un ensemble convexe ; pour tout $\lambda$ tel que $0 < \lambda < 1$, l’application $(x, y) \mapsto \lambda x + (1 - \lambda) y$ est continue dans $E \times E$ et applique $A \times A$ dans A ; donc (TG, I, p. 9, th. 1) elle applique $\overline{A} \times \overline{A}$ dans $\overline{A}$, ce qui démontre que $\overline{A}$ est convexe. On prouve de même que, si C est un cône convexe de sommet 0, on a $\overline{C} + \overline{C} \subset \overline{C}$ et $\lambda \overline{C} \subset \overline{C}$ pour tout $\lambda > 0$.
 
-#### Définition 4 {#evt-ii-s2-def-4 .statement}
+#### Définition 4 {#evt-ii-s2-def-4 .statement tag=07BY}
 
 Étant donnée une partie quelconque A d’un espace vectoriel topologique E, on appelle enveloppe fermée convexe de A l’intersection des ensembles fermés convexes contenant A, c’est-à-dire le plus petit ensemble fermé convexe contenant A.
 
@@ -316,7 +316,7 @@ D’après la prop. 14, l’enveloppe fermée convexe de A est l’adhérence de
 
 On appelle de même enveloppe fermée convexe symétrique (ou enveloppe fermée convexe équilibrée) de A le plus petit ensemble fermé, convexe et symétrique contenant A ; c’est l’adhérence de l’enveloppe convexe symétrique de A (II, p. 10) ; elle est aussi l’enveloppe fermée convexe symétrique de $\overline{A}$.
 
-#### Proposition 15 {#evt-ii-s2-prop-15 .statement}
+#### Proposition 15 {#evt-ii-s2-prop-15 .statement tag=07BZ}
 
 Dans un espace vectoriel topologique séparé E, soient $A_i$ ($1 \leq i \leq n$) un nombre fini d’ensembles convexes compacts. Alors l’enveloppe convexe de la réunion des $A_i$ est compacte (donc égale à l’enveloppe fermée convexe de cette réunion).
 
@@ -328,17 +328,17 @@ $$
 
 L’enveloppe convexe C de $\bigcup_{i=1}^n A_i$ est l’image de $B \times \prod_{i=1}^n A_i$ par cette application ; comme $B \times \prod_{i=1}^n A_i$ est compact et E est séparé, C est compact.
 
-#### Corollaire 1 {#evt-ii-s2-prop-15-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s2-prop-15-cor-1 .statement tag=07C0}
 
 Dans un espace vectoriel topologique séparé E, l’enveloppe convexe d’un ensemble fini est compacte.
 
-#### Corollaire 2 {#evt-ii-s2-prop-15-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s2-prop-15-cor-2 .statement tag=07C1}
 
 Dans un espace vectoriel topologique E, l’enveloppe convexe d’un ensemble fini A est précompacte.
 
 En effet, soit j l’application linéaire canonique de E dans son séparé complété $\hat{E}$; si C est l’enveloppe convexe de A, $j(C)$ est l’enveloppe convexe de l’ensemble fini $j(A)$ dans $\hat{E}$, donc $j(C)$ est compacte (cor. 1), et par suite C est précompacte (TG, II, p. 29).
 
-#### Proposition 16 {#evt-ii-s2-prop-16 .statement}
+#### Proposition 16 {#evt-ii-s2-prop-16 .statement tag=07C2}
 
 Dans un espace vectoriel topologique E, soit A un ensemble convexe ayant au moins un point intérieur $x_0$. Si $x \in \overline{A}$, tout point du segment ouvert d’extrémités $x_0$ et x est point intérieur de A.
 
@@ -350,13 +350,13 @@ $$
 
 d’où $y - f(z) = \frac{\lambda}{\lambda - 1} (z - f(z))$, de sorte que y est transformé de z par l’homothétie g de centre $f(z)$ et de rapport $\mu = \lambda / (\lambda - 1)$; comme $0 < \mu < 1$, g transforme V en un voisinage de y contenu dans A, d’où la proposition.
 
-#### Corollaire 1 {#evt-ii-s2-prop-16-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s2-prop-16-cor-1 .statement tag=07C3}
 
 L’intérieur $\overset{\circ}{A}$ d’un ensemble convexe A est un ensemble convexe ; si $\overset{\circ}{A}$ n’est pas vide, il est identique à l’intérieur de $\overline{A}$, et $\overline{A}$ est un ensemble convexe identique à l’adhérence de $\overset{\circ}{A}$.
 
 En effet, si $\overset{\circ}{A}$ n’est pas vide, il résulte de la prop. 16 que c’est un ensemble convexe et que tout point de $\overline{A}$ est adhérent à $\overset{\circ}{A}$. Montrons d’autre part que tout point x intérieur à $\overline{A}$ appartient à $\overset{\circ}{A}$. On peut supposer que $x = 0$. Soit V un voisinage symétrique de 0 contenu dans $\overline{A}$, et soit $y \in \overset{\circ}{A} \cap V$; on a $-y \in \overline{A}$, donc, si $y \neq 0$, la prop. 16 montre que $0 \in \overset{\circ}{A}$; la même conclusion est évidente si $y = 0$.
 
-#### Corollaire 2 {#evt-ii-s2-prop-16-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s2-prop-16-cor-2 .statement tag=07C4}
 
 L’intérieur $\dot{C}$ d’un cône convexe est un cône convexe ; si $\dot{C}$ n’est pas vide, il est identique à l’intérieur de $\overline{C}$, et $\overline{C}$ est un cône convexe pointé identique à l’adhérence de $\dot{C}$.
 
@@ -364,19 +364,19 @@ Comme les homothéties de rapport $> 0$ et de centre 0 transforment C en lui-mê
 
 Soit H un hyperplan fermé dans un espace vectoriel topologique E sur $\mathbf{R}$ ; il a une équation de la forme $f(x) = \alpha$, où $f$ est une forme linéaire continue non nulle dans E (I, p. 13, th. 1). Les demi-espaces définis respectivement par les relations $f(x) \leqslant \alpha$ et $f(x) \geqslant \alpha$ sont donc des ensembles convexes *fermés* ; leurs complémentaires, définis respectivement par les relations $f(x) > \alpha$ et $f(x) < \alpha$, sont des ensembles convexes *ouverts*. On dit que ces demi-espaces sont les demi-espaces fermés (resp. ouverts) *déterminés* par H.
 
-#### Proposition 17 {#evt-ii-s2-prop-17 .statement}
+#### Proposition 17 {#evt-ii-s2-prop-17 .statement tag=07C5}
 
 Dans un espace vectoriel topologique E, soit A un ensemble admettant au moins un point intérieur, et dont tous les points sont situés d’un même côté d’un hyperplan H. Alors H est fermé, les points intérieurs à A sont situés strictement d’un même côté de H, et les points adhérents à A sont situés d’un même côté de H. En particulier, les demi-espaces ouverts (resp. fermés) sont ceux qui sont déterminés par les hyperplans fermés.
 
 En effet, supposons que H contienne l’origine, et soit $f(x) = 0$ une équation de H ; supposons par exemple que $f(x) \geqslant 0$ pour tout point $x \in A$. Le demi-espace formé des points y tels que $f(y) > -1$ contient au moins un point intérieur, et par translation on voit qu’il en est de même du demi-espace des points tels que $f(y) > 0$ ; cela prouve que H est fermé (I, p. 11, corollaire). On sait alors que $f$ est un morphisme strict de E sur $\mathbf{R}$ (I, p. 14, corollaire), donc $f(\overline{A})$ est une partie ouverte de $\mathbf{R}$ ; elle ne peut contenir 0, sans quoi elle contiendrait des nombres $< 0$, contrairement à l’hypothèse ; elle est donc contenue dans l’intervalle ouvert ]0, +∞[. D’autre part, le demi-espace des y tels que $f(y) \geqslant 0$ est fermé et contient A, donc il contient $\overline{A}$.
 
-#### Corollaire {#evt-ii-s2-n6-cor-1 .statement}
+#### Corollaire {#evt-ii-s2-n6-cor-1 .statement tag=07C6}
 
 Soient E un espace vectoriel topologique, P un cône convexe pointé dans E, avant au moins un point intérieur. Alors toute forme linéaire $f \neq 0$ sur E, positive pour la structure de préordre définie par P (II, p. 14), est continue. En outre, on a $f(x) > 0$ lorsque x est intérieur à P, et $f(x) \geqslant 0$ pour tout x adhérent à P.
 
 Il suffit d’appliquer la prop. 16 au cas où A = P et H est l’hyperplan d’équation $f(x) = 0$.
 
-#### Remarque {#evt-ii-s2-n6-rem-1 .statement}
+#### Remarque {#evt-ii-s2-n6-rem-1 .statement tag=07C7}
 
 Dans un espace vectoriel topologique E, tout ensemble convexe C est *connexe*. En effet, si $a \in C$, C est réunion de segments fermés d’extrémité $a$, qui sont connexes ; la conclusion résulte de TG, I, p. 81, prop. 2.
 
@@ -388,7 +388,7 @@ Soit E un espace vectoriel ordonné. On dit qu’une topologie sur E est compati
 
 Un espace vectoriel ordonné sur E, muni d’une topologie compatible avec sa structure d’espace vectoriel ordonné, est appelé espace vectoriel topologique ordonné.
 
-#### Exemple {#evt-ii-s2-n7-exa-1 .statement}
+#### Exemple {#evt-ii-s2-n7-exa-1 .statement tag=07C8}
 
 L’espace $\mathbf{R}^n$, muni de sa topologie usuelle et de la structure d’ordre produit des structures d’ordre de ses facteurs, est un espace vectoriel topologique ordonné. Par contre, pour $n \geqslant 2$, lorsqu’on munit $\mathbf{R}^n$ de l’ordre lexicographique (E, III, p. 23), la topologie usuelle n’est pas compatible avec la structure d’espace vectoriel ordonné de $\mathbf{R}^n$.
 
@@ -396,7 +396,7 @@ Soit A un ensemble ; l’espace vectoriel $\mathscr{B}(A ; \mathbf{R})$ des fonc
 
 Dans un espace vectoriel topologique ordonné E, l’ensemble des éléments $x \leqslant 0$ est fermé ; les translations étant des homéomorphismes, on en déduit que pour tout $a \in E$, l’ensemble des $x \geqslant a$ (resp. $x \leqslant a$) est fermé. Comme les relations $x \geqslant 0$ et $x \leqslant 0$ entraînent $x = 0$, $\{0\}$ est fermé, donc E est séparé.
 
-#### Proposition 18 {#evt-ii-s2-prop-18 .statement}
+#### Proposition 18 {#evt-ii-s2-prop-18 .statement tag=07C9}
 
 Dans un espace vectoriel topologique ordonné E, soit H un ensemble filtrant pour la relation $\leqslant$. Si le filtre des sections de H admet une limite dans E, cette limite est la borne supérieure de H.
 
@@ -404,7 +404,7 @@ En effet, soit $b = \lim_{x \in H} x$; pour tout $y \in H$, l’ensemble des $x 
 
 ### 8. Fonctions convexes
 
-#### Définition 5 {#evt-ii-s2-def-5 .statement}
+#### Définition 5 {#evt-ii-s2-def-5 .statement tag=07CA}
 
 Soient E un espace affine, X une partie convexe de E. On dit qu’une fonction numérique finie, définie dans X, est convexe (resp. strictement convexe) si, quels que soient $x, y$ distincts dans X et le nombre réel $\lambda$ tel que $0 < \lambda < 1$, on a :
 
@@ -416,7 +416,7 @@ Soient E un espace affine, X une partie convexe de E. On dit qu’une fonction n
 
 Lorsque $E = \mathbf{R}$, cette définition des fonctions convexes n’est autre que celle de FVR, I, p. 32. En outre, pour que $f$ soit convexe (resp. strictement convexe) dans $X$, il faut et il suffit que pour toute droite affine $D \subset E$, la restriction de $f$ à $X \cap D$ soit convexe (resp. strictement convexe) dans $X \cap D$.
 
-#### Exemple {#evt-ii-s2-n8-exa-1 .statement}
+#### Exemple {#evt-ii-s2-n8-exa-1 .statement tag=07CB}
 
 Pour toute fonction linéaire affine $f$ sur $E$, $f$ et $f^2$ sont des fonctions convexes dans $E$; c’est évident pour $f$, puisque
 
@@ -446,7 +446,7 @@ $$
 
 On dit qu’une application de $X$ dans $\mathbf{R}$ est affine si elle est à la fois convexe et concave (cf. II, p. 83, exerc. 11).
 
-#### Proposition 19 {#evt-ii-s2-prop-19 .statement}
+#### Proposition 19 {#evt-ii-s2-prop-19 .statement tag=07CC}
 
 Soient $E$ un espace affine, $X$ une partie convexe de $E$; soient $f$ une fonction numérique finie définie dans $X$, $F$ (resp. $F'$) l’ensemble des points $(x, a) \in E \times \mathbf{R}$ tels que $x \in X$ et $f(x) \leqslant a$ (resp. $x \in X$ et $f(x) < a$). Alors les conditions suivantes sont équivalentes :
 
@@ -478,13 +478,13 @@ $$
 
 quels que soient $a \geq f(x)$ et $b \geq f(y)$; on en conclut que l’on a l’inégalité (1), donc $f$ est convexe.
 
-#### Corollaire {#evt-ii-s2-n8-cor-1 .statement}
+#### Corollaire {#evt-ii-s2-n8-cor-1 .statement tag=07CD}
 
 *Si $f$ est convexe dans X, alors, pour tout $\alpha \in \mathbf{R}$, l’ensemble des $x \in X$ tels que $f(x) \leq \alpha$ (resp. $f(x) < \alpha$) est convexe.*
 
 En effet, c’est la projection sur E de l’intersection de F (resp. F’) et de l’hyperplan $E \times \{ \alpha \}$ dans $E \times \mathbf{R}$.
 
-#### Proposition 20 {#evt-ii-s2-prop-20 .statement}
+#### Proposition 20 {#evt-ii-s2-prop-20 .statement tag=07CE}
 
 *Soit $f$ une fonction convexe dans une partie convexe X d’un espace affine E. Pour toute famille finie $(x_i)_{1 \leq i \leq p}$ de p points de X, et toute famille $(\lambda_i)_{1 \leq i \leq p}$ de p nombres réels $\geq 0$ tels que $\sum_{i=1}^p \lambda_i = 1$, on a :
 
@@ -518,7 +518,7 @@ Enfin, si $H$ est un ensemble de fonctions convexes dans $X$, et $\mathfrak{F}$ 
 
 ### 10. Fonctions convexes dans un ensemble convexe ouvert
 
-#### Proposition 21 {#evt-ii-s2-prop-21 .statement}
+#### Proposition 21 {#evt-ii-s2-prop-21 .statement tag=07CF}
 
 *Soient E un espace vectoriel topologique, X une partie convexe ouverte non vide de E, f une fonction convexe définie dans X. Pour que f soit continue, il faut et il suffit qu’il existe une partie ouverte non vide U de X dans laquelle f soit majorée.*
 
@@ -526,7 +526,7 @@ La condition étant évidemment nécessaire, prouvons qu’elle est suffisante. 
 
 Soit maintenant $y$ un point de $X$; il existe un nombre $\rho > 1$ tel que $z = \rho y$ appartienne encore à $X$ puisque $X$ est ouvert. Soit $g$ l’homothétie $x \mapsto \lambda x + (1 - \lambda) z$ de centre $z$ et de rapport $\lambda = 1 - \frac{1}{\rho}$, qui transforme $0$ en $y$; pour tout point $g(x) \in g(V)$, on a, d’après (1), $f(g(x)) \leq \lambda f(x) + (1 - \lambda) f(z) \leq \lambda a + (1 - \lambda) f(z)$. La première partie du raisonnement montre donc que $f$ est continue au point $y$, ce qui achève la démonstration.
 
-#### Corollaire {#evt-ii-s2-n10-cor-1 .statement}
+#### Corollaire {#evt-ii-s2-n10-cor-1 .statement tag=07CG}
 
 *Toute fonction convexe f définie dans une partie convexe ouverte X de $\mathbf{R}^n$ est continue dans X.*
 
@@ -569,7 +569,7 @@ Soit $p$ une fonction sous-linéaire dans E ; en vertu de II, p. 19, corollaire,
 
 On a une réciproque partielle de ce résultat :
 
-#### Proposition 22 {#evt-ii-s2-prop-22 .statement}
+#### Proposition 22 {#evt-ii-s2-prop-22 .statement tag=07CH}
 
 Soient E un espace vectoriel, A un ensemble convexe dans E, contenant 0. Pour tout $x \in E$, posons
 
@@ -595,7 +595,7 @@ Comme les relations $x \in \rho A$ et $\lambda x \in \lambda \rho A$ sont équiv
 
 On dit que la fonction $p_A$ définie par (7) est la jauge de l’ensemble convexe A. Si A est absorbant et symétrique, $p_A$ est donc une semi-norme.
 
-#### Proposition 23 {#evt-ii-s2-prop-23 .statement}
+#### Proposition 23 {#evt-ii-s2-prop-23 .statement tag=07CI}
 
 *Soit E un espace vectoriel topologique. Si A est un ensemble convexe ouvert contenant 0, $p_A$ est finie et continue et $A = W(p_A, 1)$. Si A est un ensemble convexe fermé contenant 0, $p_A$ est semi-continue inférieurement et l’on a $A = V(p_A, 1)$.
 

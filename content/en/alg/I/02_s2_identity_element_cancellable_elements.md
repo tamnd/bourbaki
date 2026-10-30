@@ -46,26 +46,26 @@ subsections:
       pdf_page: 47
 statements: 26
 exercises: 17
-content_sha256: 58c5b4347f0ca33aefb2badb7b88ee0a3b623a0ed7870a1eb54a0ccc4fdfebb0
+content_sha256: 4e4d1e772eb5f248a858ce2f9c1dbddee958a8fa5c19120df031143b30855c75
 ---
 
 ## § 2. IDENTITY ELEMENT; CANCELLABLE ELEMENTS; INVERTIBLE ELEMENTS
 
 ### 1. IDENTITY ELEMENT
 
-#### Definition 1 {#alg-i-s2-def-1 .statement}
+#### Definition 1 {#alg-i-s2-def-1 .statement tag=056M}
 
 Under a law of composition $\top$ on a set $E$ an element $e$ of $E$ is called an identity element if, for all $x \in E$, $e \top x = x \top e = x$.
 
 There exists at most one identity element under a given law $\top$, for if $e$ and $e'$ are identity elements then $e = e \top e' = e'$. An identity element is permutable with every element: it is a central element.
 
-#### Definition 2 {#alg-i-s2-def-2 .statement}
+#### Definition 2 {#alg-i-s2-def-2 .statement tag=056N}
 
 A magma with an identity element is called a unital magma. If $E, E'$ are unital magmas, a homomorphism of the magma $E$ into the magma $E'$ which maps the identity element of $E$ to the identity element of $E'$ is called a unital homomorphism (or morphism) of $E$ into $E'$. An associative unital magma is called a monoid.
 
 If $E, E'$ are monoids, a unital morphism of $E$ into $E'$ is called a monoid homomorphism or a monoid morphism of $E$ into $E'$.
 
-#### Example {#alg-i-s2-n1-exa-1 .statement}
+#### Example {#alg-i-s2-n1-exa-1 .statement tag=056O}
 
 (1) In the set $\mathbf{N}$ of natural numbers 0 is an identity element under addition and 1 is an identity element under multiplication. Each of these two laws gives $\mathbf{N}$ a commutative monoid structure (Set Theory, III, § 3, no. 3).
 
@@ -87,7 +87,7 @@ If $F$ is a magma without identity element a submagma of $F$ may possess an iden
 
 If $E$ is a magma with identity element $e$, a submagma $A$ of $E$ such that $e \notin A$ may still possess an identity element.
 
-#### Definition 3 {#alg-i-s2-def-3 .statement}
+#### Definition 3 {#alg-i-s2-def-3 .statement tag=056P}
 
 Let $E$ be a unital magma. The identity element of $E$ is called the composition of the empty family of elements of $E$.
 
@@ -110,7 +110,7 @@ The identity element of a law written *additively* is usually denoted by 0 and c
 
 ### 2. CANCELABLE ELEMENTS
 
-#### Definition 4 {#alg-i-s2-def-4 .statement}
+#### Definition 4 {#alg-i-s2-def-4 .statement tag=056Q}
 
 *Given a law of composition $\top$ on a set E, the mapping $x \mapsto a \top x$ (resp. $x \mapsto x \top a$) of E into itself is called left translation (resp. right translation) by an element $a \in E$.*
 
@@ -121,7 +121,7 @@ $$
 \gamma_a(x) = a \top x, \qquad \delta_a(x) = x \top a.
 $$
 
-#### Proposition 1 {#alg-i-s2-prop-1 .statement}
+#### Proposition 1 {#alg-i-s2-prop-1 .statement tag=056R}
 
 *If the law* $\mathsf{T}$ *is associative, then for all* $x \in E$ *and* $y \in E$
 
@@ -140,19 +140,19 @@ $$
 
 In other words, the mapping $x \mapsto \gamma_x$ is a homomorphism from the magma $E$ to the set $E^E$ of mappings of $E$ into itself with the law $(f, g) \mapsto f \circ g$; the mapping $x \mapsto \delta_x$ is a homomorphism of $E$ into the set $E^E$ with the opposite law. If $E$ is a monoid, these homomorphisms are unital.
 
-#### Definition 5 {#alg-i-s2-def-5 .statement}
+#### Definition 5 {#alg-i-s2-def-5 .statement tag=056S}
 
 *An element* $a$ *of a magma* $E$ *is called left (resp. right) cancellable (or regular) if left (resp. right) translation by* $a$ *is injective. A left and right cancellable element is called a cancellable (or regular) element.*
 
 In other words, for $a$ to be cancellable under the law $\mathsf{T}$, it is necessary and sufficient that each of the relations $a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$ imply $x = y$ (it is said that "a can be cancelled" from each of these equalities). If there exists an identity element $e$ under the law $\mathsf{T}$, it is cancellable under this law: the translations $\gamma_e$ and $\delta_e$ are then the identity mapping of $E$ onto itself.
 
-#### Example {#alg-i-s2-n2-exa-1 .statement}
+#### Example {#alg-i-s2-n2-exa-1 .statement tag=056T}
 
 (1) Every natural number is cancellable under addition; every natural number $\neq 0$ is cancellable under multiplication.
 
 (2) In a lattice there can be no cancellable element under the law sup other than the identity element (least element) if it exists; similarly for inf. In particular, in the set of subsets of a set $E$, $\varnothing$ is the only cancellable element under the law $\cup$ and $E$ the only cancellable element under the law $\cap$.
 
-#### Proposition 2 {#alg-i-s2-prop-2 .statement}
+#### Proposition 2 {#alg-i-s2-prop-2 .statement tag=056U}
 
 *The set of cancellable (resp. left cancellable, resp. right cancellable) elements of an associative magma is a submagma.*
 
@@ -160,7 +160,7 @@ If $\gamma_x$ and $\gamma_y$ are injective so is $\gamma_{x \mathsf{T} y} = \gam
 
 ### 3. INVERTIBLE ELEMENTS
 
-#### Definition 6 {#alg-i-s2-def-6 .statement}
+#### Definition 6 {#alg-i-s2-def-6 .statement tag=056V}
 
 *Let* $E$ *be a unital magma, $\mathsf{T}$ its law of composition, e its identity element and* $x$ *and* $x'$ *two elements of* $E$. $x'$ *is called a left inverse (resp. right inverse, resp. inverse) of* $x$ *if* $x' \mathsf{T} x = e$ *(resp. $x \mathsf{T} x' = e$, resp. $x' \mathsf{T} x = x \mathsf{T} x' = e$).*
 
@@ -170,7 +170,7 @@ If $\gamma_x$ and $\gamma_y$ are injective so is $\gamma_{x \mathsf{T} y} = \gam
 
 Symmetric and symmetrizable are sometimes used instead of inverse and invertible. When the law on E is written additively, we generally say negative instead of inverse.
 
-#### Example {#alg-i-s2-n3-exa-1 .statement}
+#### Example {#alg-i-s2-n3-exa-1 .statement tag=056W}
 
 (1) An identity element is its own inverse.
 
@@ -180,7 +180,7 @@ Let E and F be two unital magmas and f a unital homomorphism of E into F. If x' 
 
 In particular, if R is an equivalence relation compatible with the law on a unital magma E, the canonical image of an invertible element of E is invertible in E/R.
 
-#### Proposition 3 {#alg-i-s2-prop-3 .statement}
+#### Proposition 3 {#alg-i-s2-prop-3 .statement tag=056X}
 
 Let E be a monoid and x an element of E.
 
@@ -204,7 +204,7 @@ $$
 
 whence (ii).
 
-#### Remark {#alg-i-s2-n3-rem-1 .statement}
+#### Remark {#alg-i-s2-n3-rem-1 .statement tag=056Y}
 
 Let E be a monoid and x an element of E. If x is left invertible it is left cancellable; for, if $x'$ is a left inverse of $x$, then
 
@@ -214,7 +214,7 @@ $$
 
 and $\gamma_x$ is injective. In particular, if x is left invertible, the left and right translations by x are bijective. Conversely, suppose that $\gamma_x$ is bijective; there exists $x' \in E$ such that $xx' = \gamma_x(x') = e$; then $\gamma_x(x'x) = (xx')x = x = \gamma_x(e)$ and hence $x'x = e$, so that x is invertible. We see similarly that if $\delta_x$ is bijective, x is invertible.
 
-#### Proposition 4 {#alg-i-s2-prop-4 .statement}
+#### Proposition 4 {#alg-i-s2-prop-4 .statement tag=056Z}
 
 Let E be a monoid and x and y invertible elements of E with inverses x' and y' respectively. Then y' $\top$ x' is the inverse of x $\top$ y.
 
@@ -224,7 +224,7 @@ $$
 $$
 and the analogous calculations for (x $\top$ y) $\top$ (y' $\top$ x').
 
-#### Corollary 1 {#alg-i-s2-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-i-s2-prop-4-cor-1 .statement tag=0570}
 
 Let E be a monoid; if each of the elements $x_\alpha$ of an ordered sequence $(x_\alpha)_{\alpha \in A}$ of elements of E has an inverse $x'_\alpha$, the composition $\prod_{\alpha \in A} x_\alpha$ has inverse $\prod_{\alpha \in A'} x'_\alpha$, where A' is the totally ordered set derived from A by replacing the order on A by the opposite order.
 
@@ -232,21 +232,21 @@ This corollary follows from Proposition 4 by induction on the number of elements
 
 In particular, if x and x' are inverses, $\prod^n x$ and $\prod^n x'$ are inverses for every integer $n \geq 0$.
 
-#### Corollary 2 {#alg-i-s2-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-i-s2-prop-4-cor-2 .statement tag=0571}
 
 In a monoid the set of invertible elements is stable.
 
-#### Proposition 5 {#alg-i-s2-prop-5 .statement}
+#### Proposition 5 {#alg-i-s2-prop-5 .statement tag=0572}
 
 If in a monoid x and x' are inverses and x commutes with y, so does x'.
 
 From $x \top y = y \top x$, we deduce $x' \top (x \top y) \top x' = x' \top (y \top x) \top x'$ and hence $(x' \top x) \top (y \top x') = (x' \top y) \top (x \top x')$, that is $y \top x' = x' \top y$.
 
-#### Corollary 1 {#alg-i-s2-prop-5-cor-1 .statement}
+#### Corollary 1 {#alg-i-s2-prop-5-cor-1 .statement tag=0573}
 
 Let E be a monoid, X a subset of E and X' the centralizer of X. The inverse of every invertible element of X' belongs to X'.
 
-#### Corollary 2 {#alg-i-s2-prop-5-cor-2 .statement}
+#### Corollary 2 {#alg-i-s2-prop-5-cor-2 .statement tag=0574}
 
 In a monoid the inverse of a central invertible element is a central element.
 
@@ -256,7 +256,7 @@ In this no., e will denote the identity element of a monoid and x* the inverse o
 
 Let E be a commutative monoid, S a subset of E and S' the submonoid of E generated by S.
 
-#### Lemma 1 {#alg-i-s2-lem-1 .statement}
+#### Lemma 1 {#alg-i-s2-lem-1 .statement tag=0575}
 
 In E $\times$ S' the relation R$\mathscr{R}$x, y$\mathscr{R}$ defined by:
 
@@ -283,7 +283,7 @@ whence it follows that $(aa')(qq')(ss') = (bb')(pp')(ss')$ and hence $R \{ xx', 
 
 The quotient magma $(E \times S')/R$ is a commutative monoid.
 
-#### Definition 7 {#alg-i-s2-def-7 .statement}
+#### Definition 7 {#alg-i-s2-def-7 .statement tag=0576}
 
 *Let $E$ be a commutative monoid, $S$ a subset of $E$ and $S'$ the submonoid of $E$ generated by $S$. The quotient monoid $(E \times S')/R$, where the equivalence relation $R$ is as described in Lemma 1, is denoted by $E_S$ and is called the monoid of fractions† of $E$ associated with $S$ (or with denominators in $S$).*
 
@@ -295,7 +295,7 @@ a/p = \varepsilon(a)\varepsilon(p)^*
 $$
 for $a \in E$ and $p \in S'$, the monoid $E_S$ is therefore generated by $\varepsilon(E) \cup \varepsilon(S)^*$.
 
-#### Proposition 6 {#alg-i-s2-prop-6 .statement}
+#### Proposition 6 {#alg-i-s2-prop-6 .statement tag=0577}
 
 *The notation is that of Definition 7 and $\varepsilon$ denotes the canonical homomorphism of $E$ into $E_S$.
 (i) Let $a$ and $b$ be in $E$; in order that $\varepsilon(a) = \varepsilon(b)$, it is necessary and sufficient that there exist $s \in S'$ with $sa = sb$.
@@ -308,7 +308,7 @@ Assertion (i) is clear and shows that $\varepsilon$ is injective if and only if 
 
 If $\varepsilon$ is bijective every element of S is invertible, for $\varepsilon(S)$ is composed of invertible elements of $E_S$. Conversely, suppose every element of S is invertible; then every element of $S'$ is invertible (no. 3, Corollary 2 to Proposition 4) and hence cancellable. Then $\varepsilon$ is injective by (ii) and $a/p = \varepsilon(a.p^*)$ by (1), hence $\varepsilon$ is surjective.
 
-#### Theorem 1 {#alg-i-s2-thm-1 .statement}
+#### Theorem 1 {#alg-i-s2-thm-1 .statement tag=0578}
 
 *Let E be a commutative monoid, S a subset of E, $E_S$ the monoid of fractions associated with S and $\varepsilon : E \to E_S$ the canonical homomorphism. Further let f be a homomorphism of E into a monoid F (not necessarily commutative) such that every element of $f(S)$ is invertible in F. There exists one and only one homomorphism $\bar{f}$ of $E_S$ into F such that $f = \bar{f} \circ \varepsilon$.*
 
@@ -333,13 +333,13 @@ g(a',p') = f(a')f(p')^* = f(p)^*f(a) = f(a)f(p)^* = g(a,p).
 $$
 Hence there exists a homomorphism $\bar{f}$ of $E_S$ into F such that $\bar{f}(a/p) = g(a,p)$, whence $\bar{f}(\varepsilon(a)) = \bar{f}(a/e) = f(a)f(e)^* = f(a)$. Hence $\bar{f} \circ \varepsilon = f$.
 
-#### Corollary {#alg-i-s2-n4-cor-1 .statement}
+#### Corollary {#alg-i-s2-n4-cor-1 .statement tag=0579}
 
 *Let E and F be two commutative monoids, S and T subsets of E and F respectively, f a homomorphism of E into F such that $f(S) \subset T$ and $\varepsilon : E \to E_S, \eta : F \to F_T$ the canonical homomorphisms. There exists one and only one homomorphism $g : E_S \to F_T$ such that $g \circ \varepsilon = \eta \circ f$.*
 
 The homomorphism $\eta \circ f$ of E into $F_T$ maps every element of S to an invertible element of $F_T$.
 
-#### Remark {#alg-i-s2-n4-rem-1 .statement}
+#### Remark {#alg-i-s2-n4-rem-1 .statement tag=057A}
 
 (1) Theorem 1 can also be expressed by saying that $(E_S, \varepsilon)$ is the solution of the universal mapping problem for E, relative to monoids, monoid homomorphisms and homomorphisms of E into monoids which map the elements of S to invertible elements (*Set Theory*, IV, , no. 1). It follows (*loc. cit.*) that every other solution of this problem is isomorphic in a unique way to $(E_S, \varepsilon)$
 
@@ -391,7 +391,7 @@ Let $x$, $y$ and $z$ be three rational integers; then $x \leq y$ if and only if 
 
 ### 6. APPLICATIONS: II. MULTIPLICATION OF RATIONAL INTEGERS
 
-#### Lemma 2 {#alg-i-s2-lem-2 .statement}
+#### Lemma 2 {#alg-i-s2-lem-2 .statement tag=057B}
 
 Let E be a monoid and x an element of E.
     (i) There exists a unique homomorphism f of $\mathbf{N}$ into E with $f(1) = x$ and $f(n) = \frac{n}{1} x$ for all $n \in \mathbf{N}$.

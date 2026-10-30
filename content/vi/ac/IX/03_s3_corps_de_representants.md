@@ -25,7 +25,7 @@ subsections:
       pdf_page: 141
 statements: 7
 exercises: 9
-content_sha256: 22cd14f17ceaf4ea7bf8c00216f226793be6856fcb0b18a3fe686ceac88827a1
+content_sha256: 37706a1a1abf1c276c8e849f7b063b9da4950d2da2edd78cbb1b326c1978b119
 translated_from: content/en-mt/ac/IX/03_s3_corps_de_representants.md
 source_lang: en-mt
 translation_method: machine
@@ -57,7 +57,7 @@ b’) Giả sử rằng các trường $k$ và K không có cùng đặc số. K
 
 ### 2. Một định lý nâng
 
-#### Mệnh đề 1 {#ac-ix-s3-prop-1 .statement}
+#### Mệnh đề 1 {#ac-ix-s3-prop-1 .statement tag=0CXL}
 
 Cho $k_0$ là một trường, A là một $k_0$-đại số là một vành địa phương tách và đầy đủ, K là một mở rộng con-$k_0$ của $\kappa_A$ có một cơ sở siêu việt tách được $(\xi_{\lambda})_{\lambda \in \Lambda}$ trên $k_0$ (A, V, p. 130, déf. 1). Với mỗi $\lambda \in \Lambda$, gọi $x_{\lambda}$ là một đại diện của $\xi_{\lambda}$ trong A. Tồn tại duy nhất một trường con L của A, chứa $k_0$ và các phần tử $x_{\lambda}$, sao cho đồng cấu chính tắc $\pi$ từ A lên $\kappa_A$ cảm sinh một đẳng cấu của L lên K.
 
@@ -67,19 +67,19 @@ a) *Sự tồn tại của L*: Gọi S là tập hợp các trường con L củ
 
 b) *Tính duy nhất của L*: Gọi L và L’ là hai trường con của A chứa $\psi(k_1)$ và sao cho $\pi(L) = \pi(L') = K$. Gọi $\xi \in K$, và gọi $x \in L$ và $x' \in L'$ là các phần tử sao cho $\pi(x) = \pi(x') = \xi$. Nếu $P \in k_1[X]$ là đa thức tối tiểu của $\xi$ trên $k_1$, thì $\xi$ là một nghiệm đơn của P, và ta có $P(x) = P(x') = 0$. Theo bổ đề Hensel (*loc. cit.*) ta có $x = x'$. Do đó $L = L'$.
 
-#### Nhận xét {#ac-ix-s3-n2-rem-1 .statement}
+#### Nhận xét {#ac-ix-s3-n2-rem-1 .statement tag=0CXM}
 
 \* Chứng minh trước đây áp dụng tổng quát hơn cho trường hợp người ta chỉ giả thiết rằng A là một vành địa phương hensel*. Chứng minh tính duy nhất sử dụng giả thiết rằng vành địa phương A là tách được, nhưng không sử dụng giả thiết rằng nó đầy đủ.
 
 ### 3. Các trường đại diện
 
-#### Định nghĩa 1 {#ac-ix-s3-def-1 .statement}
+#### Định nghĩa 1 {#ac-ix-s3-def-1 .statement tag=0CXN}
 
 *Cho A là một vành địa phương. Một trường đại diện của A là bất kỳ trường con K nào của A sao cho đồng cấu chính tắc của A lên $\kappa_A$ cảm sinh một đẳng cấu của K lên $\kappa_A$ (nói cách khác, sao cho $A = K + m_A$).*
 
 Một trường đại diện của A chỉ có thể tồn tại nếu A có một đặc số. Điều kiện này là đủ khi A là tách được và đầy đủ. Chính xác hơn, ta có định lý sau:
 
-#### Định lý 1 {#ac-ix-s3-thm-1 .statement}
+#### Định lý 1 {#ac-ix-s3-thm-1 .statement tag=0CXO}
 
 *Cho A là một vành địa phương tách được và đầy đủ có đặc số p.*
 
@@ -91,17 +91,17 @@ Giả sử rằng ta có $p = 0$, sao cho A là một $\mathbf{Q}$-đại số. 
 
 Bây giờ giả sử rằng ta có $p \neq 0$. Khi đó ta có $p1_A = 0$, và mọi vành con Cohen C của A thỏa mãn $pC = 0$. Nói cách khác, có sự đồng nhất giữa các khái niệm trường đại diện và vành con Cohen của A. Mệnh đề b) khi đó suy ra từ § 2, no. 2, định lý 1.
 
-#### Hệ quả 1 {#ac-ix-s3-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-ix-s3-thm-1-cor-1 .statement tag=0CXP}
 
 Cho $A$ là một vành địa phương tách được và đầy đủ, có trường thặng dư là một mở rộng đại số của $\mathbf{Q}$. Khi đó tồn tại một trường đại diện duy nhất của $A$.
 Thật vậy vành $A$ có đặc số 0 (no. 1).
 
-#### Hệ quả 2 {#ac-ix-s3-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-ix-s3-thm-1-cor-2 .statement tag=0CXQ}
 
 Cho $A$ là một vành địa phương tách được và đầy đủ có đặc số $p \neq 0$. Giả sử rằng trường thặng dư $\kappa_A$ là hoàn hảo. Khi đó tồn tại một trường đại diện duy nhất của $A$, cụ thể là tập hợp các đại diện nhân.
 Hệ quả 2 suy ra ngay lập tức từ định lý 1 và mệnh đề 7 của § 2, no. 4.
 
-#### Định lý 2 {#ac-ix-s3-thm-2 .statement}
+#### Định lý 2 {#ac-ix-s3-thm-2 .statement tag=0CXR}
 
 Cho $A$ là một vành địa phương Noether đầy đủ có chiều $d$ chứa một trường. Cho $K$ là một trường hệ số của $A$, và cho $m$ là chiều của không gian vectơ $m_A/m_A^2$ trên trường $K$.
 a) Tồn tại một iđêan $a$ của $K[[T_1, ..., T_m]]$ sao cho đại số $K$ $A$ là đẳng cấu với $K[[T_1, ..., T_m]]/a$.

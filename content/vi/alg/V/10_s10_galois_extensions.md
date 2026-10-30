@@ -58,7 +58,7 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: c9453cb5a8606edfd61cc0b5b025eb89ee73ca9afa3bfaeb2f1716f19adc4adb
+content_sha256: e9d283acdf8d969936620df360c93b8773b9a42af8a9e95c0511cab20f298c70
 translated_from: content/en/alg/V/10_s10_galois_extensions.md
 source_content_sha256: 4d2ea6b2e3fe8136b4cbf004a6c050629d9e8414a0cc6650ceb165d4728343b0
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -74,7 +74,7 @@ Trong suốt đoạn này, K ký hiệu một trường.
 
 ### 1. Định nghĩa các mở rộng Galois
 
-#### Định lý 1 {#alg-v-s10-thm-1 .statement}
+#### Định lý 1 {#alg-v-s10-thm-1 .statement tag=06MB}
 
 — Cho N là một mở rộng đại số của K và $\Gamma$ là nhóm các tự đẳng cấu của N giữ K bất biến. Khi đó các mệnh đề sau là tương đương:
 a) Mọi phần tử của N bất biến dưới $\Gamma$ đều thuộc ảnh của K trong N.
@@ -89,7 +89,7 @@ Mọi tự đẳng cấu $a \in \Gamma$ cảm sinh một phép hoán vị của 
 
 c) ⇒ a): cho x là một phần tử của N không thuộc K. Ký hiệu Ω là một bao đóng đại số của K chứa N như một mở rộng con (V, p. 23, Định lý 2). Gọi f là đa thức tối tiểu của x trên K, có bậc ≥ 2 theo giả thiết, và gọi A là tập hợp các nghiệm của $f(X)$ trong N. Nếu điều kiện c) được thỏa mãn, ta có $f(X) = \prod_{y \in A} (X - y)$ và do đó (V, p. 53, Hệ quả 1) A là tập hợp các liên hợp của x trong Ω. Vì f có bậc ≥ 2, tồn tại trong A một phần tử $y \neq x$, do đó tồn tại một tự đẳng cấu u của Ω giữ K bất biến sao cho $u(x) = y$. Bây giờ theo giả thiết c), mở rộng N của K là quasi-Galois, do đó $u(N) = N$ (V, p. 54, Hệ quả 1); suy ra u cảm sinh một tự đẳng cấu a của N giữ K bất biến sao cho $\sigma(x) = y \neq x$, nên K là trường các bất biến của Γ.
 
-#### Định nghĩa 1 {#alg-v-s10-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s10-def-1 .statement tag=06MC}
 
 — Một mở rộng N của K được gọi là Galois nếu nó đại số và thỏa mãn các điều kiện tương đương a), b), c) của Định lý 1.
 
@@ -99,13 +99,13 @@ Cho Ω là một bao đóng đại số của K, gọi A là một tập hợp c
 
 Đặc biệt, trường phân rã trong Ω của một họ các đa thức tách được trên K, một bao đóng tách được của K, là các mở rộng Galois của K.
 
-#### Mệnh đề 1 {#alg-v-s10-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s10-prop-1 .statement tag=06MD}
 
 — Cho N là một mở rộng của K và $(N_i)_{i \in I}$, một họ khác rỗng các mở rộng con của N. Đặt $E = \cap_{i \in I} N_i$ và $F = K \left( \bigcup_{i \in I} N_i \right)$. Nếu tất cả các mở rộng N, đều là Galois trên K thì điều tương tự cũng đúng với E và F.
 
 Trước hết E là đại số và tách được trên K (V, p. 36, Mệnh đề 1) và điều tương tự cũng đúng với F (V, p. 41, Mệnh đề 8). Hơn nữa, E và F là quasi-Galois trên K theo Mệnh đề 4 (V, p. 55).
 
-#### Mệnh đề 2 {#alg-v-s10-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s10-prop-2 .statement tag=06ME}
 
 — Cho N là một mở rộng Galois của K và E là một mở rộng con của N, có bậc hữu hạn trên K. Tồn tại một mở rộng con F của N chứa E, Galois và có bậc hữu hạn trên K.
 
@@ -115,7 +115,7 @@ Mệnh đề 2 kéo theo kết quả sau: cho R là một bao đóng đại số
 
 ### 2. Nhóm Galois
 
-#### Định nghĩa 2 {#alg-v-s10-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s10-def-2 .statement tag=06MF}
 
 Cho N là một mở rộng Galois của trường K. Nhóm gồm tất cả các tự đẳng cấu của N giữ K bất biến sẽ được gọi là nhóm Galois của N trên K và ký hiệu là Gal(N/K).
 
@@ -129,25 +129,25 @@ c) x và y là các nghiệm của cùng một nhân tử bất khả quy của 
 
 Đặc biệt, f bất khả quy khi và chỉ khi A khác rỗng và Γ tác động bắc cầu trên A.
 
-#### Ví dụ 1 {#alg-v-s10-n2-exa-1 .statement}
+#### Ví dụ 1 {#alg-v-s10-n2-exa-1 .statement tag=06MG}
 
 Giả sử đặc số của K khác 2 và cho N là một mở rộng bậc hai của K. Nếu x ∈ N − K, thì ta có N = K(x) và đa thức tối tiểu của x trên K có dạng f(X) = X² − aX + b, với a, b ∈ K. Do đó ta có f(X) = (X − x)(X − y), trong đó y = a − x, nên y liên hợp với x; vì f(X) tách được, mở rộng N là Galois. Nhóm Gal(N/K) có hai phần tử cảm sinh hai phép hoán vị của tập hợp {x, y}.
 
-#### Ví dụ 2 {#alg-v-s10-n2-exa-2 .statement}
+#### Ví dụ 2 {#alg-v-s10-n2-exa-2 .statement tag=06MH}
 
 Cho f = X³ + X² − 2X − 1 ∈ Q[X]. Đa thức f bất khả quy, vì nếu không, nó có một nghiệm x ∈ Q; viết x = a/b với a, b ∈ Z, a và b nguyên tố cùng nhau, ta phải có a(a² + ab − 2b²) = b³ và a³ = b(b² + 2ab − a²); nhưng điều này suy ra a chia hết cho b và b chia hết cho a, do đó x = ±1, điều này là không thể. Đặt ξ = e^{2\pi i / 7} ∈ C; khi đó đa thức f có các nghiệm α = ξ + ξ⁻¹, β = ξ² + ξ⁻², γ = ξ³ + ξ⁻³. Ta có β = a² − 2 và γ = a³ − 3α, do đó mở rộng Q(α) là Galois trên Q. Nhóm Galois của Q(α) trên Q là cyclic có cấp 3 và được sinh bởi một phần tử σ sao cho σ(α) = β, σ(β) = γ, σ(γ) = α. \*
 
-#### Ví dụ 3 {#alg-v-s10-n2-exa-3 .statement}
+#### Ví dụ 3 {#alg-v-s10-n2-exa-3 .statement tag=06MI}
 
 Giả sử rằng $K = \mathbf{Q}$ và lấy $f = X^3 - 2$. Dùng phân tích các số nguyên thành tích các nhân tử nguyên tố (I, p. 51), ta dễ dàng thấy rằng 2 không phải là lập phương của một phần tử của $\mathbf{Q}$. Do đó đa thức $f$ là bất khả quy, vì nếu không, nó sẽ có một nghiệm trong $\mathbf{Q}$. Cho $A = \{ x_1, x_2, x_3 \}$ là tập hợp các nghiệm của $f$ trong $\Omega$ và $\Gamma$ là nhóm Galois của $f$. Nó tác động bắc cầu trên $A$; do đó cấp của nó chia hết cho ba. Mặt khác, thương $j = \frac{x_2}{x_1}$ khác 1 và ta có $j^3 = 1$. Do đó $j$ thỏa mãn quan hệ $j^2 + j + 1 = 0$; nhưng đa thức $T^2 + T + 1 = \left( T + \frac{1}{2} \right)^2 + \frac{3}{4}$ không có nghiệm trong $\mathbf{Q}$, điều này cho thấy (Ví dụ 1) rằng $[\mathbf{Q}(j) : \mathbf{Q}] = 2$. Vậy $[\mathbf{N} : \mathbf{Q}]$ chia hết cho 2, và suy ra cấp của $\Gamma$ chia hết cho 6. Vì $\Gamma$ được chứa trong nhóm $\mathfrak{S}_A$ có cấp 6, ta có $\Gamma = \mathfrak{S}_A$.
 
-#### Ví dụ 4 {#alg-v-s10-n2-exa-4 .statement}
+#### Ví dụ 4 {#alg-v-s10-n2-exa-4 .statement tag=06MJ}
 
 Giả sử $K$ có đặc số $p \neq 0$ và cho $K(T)$ là trường các phân thức hữu tỉ và $U = T^p - T$. Đặt $E = K[U]$ và $F = K[T]$, khi đó đa thức $f(X) = X^p - X - U$ của $E[X]$ có các nghiệm $T, T+1, ..., T+p-1$ trong $F$. Cho $\sigma$ là tự đẳng cấu $K$- của $F$ sao cho $\sigma(T) = T+1$. Ta có $\sigma^i(T) = T+i$ và $\sigma(U) = U$. Nhóm $G = \{ 1, \sigma, ..., \sigma^{p-1} \}$ là cyclic có cấp $p$, và trường các bất biến của nó chứa $E$; vì $[F : E] \leq p$, định lý Dedekind (V, p. 27, Hệ quả 2) suy ra rằng $E$ là trường các bất biến của $G$ và $[F : E] = p$. Do đó đa thức $f$ bất khả quy trong $E[X]$; mở rộng $F$ của $E$ là Galois, nhóm Galois $G$ của nó là cyclic có cấp $p$, và nhóm $\Gamma$ là nhóm các phép hoán vị cyclic của $T, T+1, ..., T+p-1$.
 
 Để xem một phép tổng quát hóa của ví dụ này, xem V, p. 93, Ví dụ 2.
 
-#### Ví dụ 5 {#alg-v-s10-n2-exa-5 .statement}
+#### Ví dụ 5 {#alg-v-s10-n2-exa-5 .statement tag=06MK}
 
 Cho $F = K(X_1, ..., X_n)$ là trường các phân thức hữu tỉ theo $n$ bất định $X_1, ..., X_n$ với các hệ số trong $K$. Đặt
 $$
@@ -163,13 +163,13 @@ f(X_{\sigma(1)}, ..., X_{\sigma(n)}) = f(X_1, ..., X_n)
 $$
 với mọi $\sigma \in \mathfrak{S}_n$ (xem IV, p. 67, Hệ quả).
 
-#### Ví dụ 6 {#alg-v-s10-n2-exa-6 .statement}
+#### Ví dụ 6 {#alg-v-s10-n2-exa-6 .statement tag=06ML}
 
 Giả sử rằng f là đơn thức với bậc > 0 và K có đặc số ≠ 2. Định nghĩa trên A một thứ tự toàn phần, ký hiệu bởi ≤, và đặt δ(f) = $\prod_{\alpha < \beta} (\beta - a)$, $(\alpha, \beta) \in A \times A$, và với mỗi $\sigma \in \mathfrak{S}_A$ đặt $\delta_\sigma(f) = \prod_{\alpha < \beta} (\sigma(\beta) - \sigma(\alpha))$. Ta có $\delta_\sigma(f) = \varepsilon(u) \delta(f)$, trong đó $\varepsilon(u)$ là dấu của $\sigma$ (I, p. 64) và $\delta(f) \neq 0$. Với mọi $\tau \in \mathrm{Gal}(N/K)$ ta có $\tau(\delta(f)) = \delta_{\tau|_A}(f)$. Do đó $\Gamma$ được chứa trong nhóm phản xứng $\mathfrak{A}_A$ khi và chỉ khi $\delta(f) \in K$. Hơn nữa $\delta(f)^2 = \prod_{\alpha < \beta} (\beta - a)' = d(f)$ là biệt thức của đa thức f (IV, p. 81). Do đó $\Gamma \subset \mathfrak{A}_A$ khi và chỉ khi $d(f)$ là bình phương của một phần tử của K. Vì vậy trong Ví dụ 2 ta có $d(f) = 49 = 7^2$ và trong Ví dụ 3, $d(f) = -108$ (IV, p. 85).
 
 Cho N là một mở rộng Galois của K và L là một mở rộng con của N, Galois trên K. Mọi K-tự đẳng cấu $\sigma$ của N cảm sinh một K-tự đẳng cấu $\sigma_L$ của L (V, p. 55, Nhận xét 1). Do đó ánh xạ $\sigma \mapsto \sigma_L$ là một đồng cấu của $\mathrm{Gal}(N/K)$ vào $\mathrm{Gal}(L/K)$, gọi là đồng cấu hạn chế.
 
-#### Mệnh đề 3 {#alg-v-s10-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s10-prop-3 .statement tag=06MM}
 
 — *Đồng cấu hạn chế* của $\mathrm{Gal}(N/K)$ vào $\mathrm{Gal}(L/K)$ *là toàn ánh*.
 
@@ -191,7 +191,7 @@ Cho $\varepsilon$ là phần tử trung hòa của $\Gamma$ và cho $A'$ là t�
 
 Rõ ràng ta có $U_{\Gamma}(\sigma) = \sigma U_{\Gamma}(\varepsilon) = U_{\Gamma}(\varepsilon) \sigma$ với $\sigma \in \Gamma$ và $E \in A'$. Vì $U_{\Gamma}(\varepsilon)$ là một nhóm con chuẩn tắc của $\Gamma$ với mọi $E \in A'$ và họ $(U_E(\varepsilon))_{E \in A'}$ là một cơ sở các lân cận tại $\varepsilon$, tôpô của $\Gamma$ tương thích với cấu trúc nhóm (Gen. Top., III, p. 223). Nói cách khác, ánh xạ $(\sigma, \tau) \mapsto \sigma \tau^{-1}$ của $\Gamma \times \Gamma$ vào $\Gamma$ là liên tục.
 
-#### Mệnh đề 4 {#alg-v-s10-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s10-prop-4 .statement tag=06MN}
 
 — Cho $N$ là một mở rộng Galois của $K$. Khi đó nhóm Galois $\Gamma = \mathrm{Gal}(N/K)$ là compact và hoàn toàn không liên thông.
 
@@ -199,7 +199,7 @@ Mọi phần tử $\sigma$ của $\Gamma$ có một cơ sở lân cận gồm c�
 
 Cho $N$ là một mở rộng Galois của $K$ và $(N_i)_{i \in I}$ là một họ có hướng tăng của các mở rộng con của $N$. Giả sử rằng $N_i$ là Galois trên $K$ với mọi $i \in I$ và $N = \bigcup_{i \in I} N_i$. Với mỗi $i \in I$, ký hiệu $\Gamma_i$ là nhóm Galois của $N_i$ trên $K$; với $i \leq j$ trong $I$, ta có $N_i \subset N_j$ và đồng cấu hạn chế $\varphi_{ij}$ của $\Gamma_j$ vào $\Gamma_i$ được xác định. Nó liên tục và do đó họ $(\Gamma_i, \varphi_{ij})$ là một hệ ngược của các nhóm tôpô. Hơn nữa, với mỗi $i \in I$, ký hiệu $\lambda_i$ là đồng cấu hạn chế của $\mathrm{Gal}(N/K)$ vào $\mathrm{Gal}(N_i/K) = \Gamma_i$; nó liên tục và ta có $\lambda_i = \varphi_{ij} \circ \lambda_j$ với $i \leq j$, do đó họ $(\lambda_i)_{i \in I}$ xác định một đồng cấu liên tục $\Lambda$ của $\mathrm{Gal}(N/K)$ vào $\varprojlim \Gamma_i$.
 
-#### Mệnh đề 5 {#alg-v-s10-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s10-prop-5 .statement tag=06MO}
 
 — *Đồng cấu* $\lambda$ *của* $\mathrm{Gal}(N/K)$ *vào* $\varprojlim \mathrm{Gal}(N_i/K)$ *là một đẳng cấu của các nhóm tôpô*.
 
@@ -222,7 +222,7 @@ u_e &= \mathrm{Id}_V
 $$
 với $\sigma, \tau$ thuộc $\Gamma$, $x, y$ thuộc $V$ và $\lambda$ thuộc $N$.
 
-#### Mệnh đề 6 {#alg-v-s10-prop-6 .statement}
+#### Mệnh đề 6 {#alg-v-s10-prop-6 .statement tag=06MP}
 
 — *a)* *Cho* $V$ *là một không gian vectơ trên* $N$ *có một* $K$-*cấu trúc*. *Đối với một vectơ* $x \in V$ *để hữu tỉ trên* $K$ *là điều kiện cần và đủ rằng* $u_\sigma(x) = x$ *với mọi* $\sigma \in \Gamma$. *Đối với một không gian con N-vectơ* $W$ *của* $V$ *để hữu tỉ trên* $K$ *là điều kiện cần và đủ rằng* $u_\sigma(W) \subset W$ *với mọi* $\sigma \in \Gamma$.
 
@@ -230,13 +230,13 @@ với $\sigma, \tau$ thuộc $\Gamma$, $x, y$ thuộc $V$ và $\lambda$ thuộc 
 
 *Rõ ràng* $K$ *là tập hợp các* $x \in N$ *sao cho* $\sigma(xy) = x \sigma(y)$ *với mọi* $\sigma \in \Gamma$ *và mọi* $y \in N$. *Do đó mệnh đề suy ra từ Định lý 1* (II, p. 324).
 
-#### Hệ quả {#alg-v-s10-n4-cor-1 .statement}
+#### Hệ quả {#alg-v-s10-n4-cor-1 .statement tag=06MQ}
 
 — Cho $V_0$ là một không gian vectơ trên $K$ và cho $W$ là một không gian con-N vectơ của $N \otimes_K V_0$. Giả sử rằng $W$ ổn định dưới các ánh xạ $\sigma \otimes \mathrm{Id}_{V_0}$ với mọi $\sigma \in \Gamma$. Gọi $W_0$ là tập hợp các $x \in V_0$ sao cho $1 \otimes x \in W$; khi đó $W_0$ là không gian con-K vectơ duy nhất của $V_0$ sao cho $W = N \otimes_K W_0$.
 
 Chỉ cần nhận xét rằng tập hợp các phần tử có dạng $1 \otimes x \ (x \in V_0)$ là một cấu trúc-K trên $N \otimes_K V_0$ mà trên đó ta có $u_\sigma = \sigma \otimes \mathrm{Id}_{V_0}$ với $\sigma \in \Gamma$.
 
-#### Mệnh đề 7 {#alg-v-s10-prop-7 .statement}
+#### Mệnh đề 7 {#alg-v-s10-prop-7 .statement tag=06MR}
 
 — Cho $V$ là một không gian vectơ trên $N$, $(u_\sigma)_\sigma$, r là một họ các ánh xạ của $V$ vào chính nó thỏa mãn (1) đến (4) và $V_0$ là tập hợp các $x \in V$ sao cho $u_\sigma(x) = x$ với mọi $\sigma \in \Gamma$.
 
@@ -268,7 +268,7 @@ $$
 $$
 với $A \in N, x \in M$ và $\sigma \in \Gamma$. Rõ ràng $\psi$ là N-tuyến tính
 
-#### Mệnh đề 8 {#alg-v-s10-prop-8 .statement}
+#### Mệnh đề 8 {#alg-v-s10-prop-8 .statement tag=06MS}
 
 — *Ánh xạ N-tuyến tính* $\psi$ *từ* $N \otimes_K M$ *vào* $V = \prod_{\sigma \in \Gamma} M^\sigma$ *là đơn ánh, và là song ánh nếu* $\Gamma$ *hữu hạn.*
 
@@ -280,17 +280,17 @@ $$
 
 cho $h \in V$ và $\tau \in \Gamma$. Việc kiểm tra *(1)-(4)* là ngay lập tức. Ký hiệu $V$, tập hợp các $h \in V$ sao cho $u_\sigma(h) = h$ với mọi $\sigma \in \Gamma$. Với mỗi $x \in M$, đặt $\theta(x)$ là ánh xạ hằng từ $\Gamma$ vào $M$ nhận giá trị $x$; khi đó $\theta$ là một K-đẳng cấu của $M$ lên $V$. Nếu ta định nghĩa đồng cấu $\varphi : N \otimes_K V, \to V$ như trên, ta có $\psi = \varphi \circ (\mathrm{Id}_N \otimes \theta)$ và khi đó Mệnh đề 8 suy ra từ Mệnh đề 7.
 
-#### Hệ quả {#alg-v-s10-n4-cor-2 .statement}
+#### Hệ quả {#alg-v-s10-n4-cor-2 .statement tag=06MT}
 
 — *Cho* $\psi$ *là ánh xạ K-tuyến tính từ* $N \otimes_K N$ *vào không gian vectơ tích* $N^\Gamma$ *sao cho* $\psi(x \otimes y)\,(a) = \sigma(x)\,y$ *với* $x,\,y$ *thuộc* $N$ *và* $\sigma \in \Gamma$. *Khi đó* $\psi$ *là đơn ánh và là song ánh khi* $\Gamma$ *hữu hạn.*
 
 Đây là trường hợp riêng $M = N$ của Mệnh đề 8.
 
-#### Nhận xét 1 {#alg-v-s10-n4-rem-1 .statement}
+#### Nhận xét 1 {#alg-v-s10-n4-rem-1 .statement tag=06MU}
 
 Cho F là một mở rộng của K và $N$ là một mở rộng con của F, và cho $\Gamma$ là một nhóm *hữu hạn* các tự đẳng cấu của $N$, mà K là trường bất biến. Mệnh đề 8 suy ra sự tồn tại của một đẳng cấu các K-đại số $0 : N \otimes_F F \to F^\Gamma$ được đặc trưng bởi $\theta(x \otimes y)\,(a) = \sigma(x)\,y$ với $x \in N,\,y \in F$ và $\sigma \in \Gamma$.
 
-#### Nhận xét 2 {#alg-v-s10-n4-rem-2 .statement}
+#### Nhận xét 2 {#alg-v-s10-n4-rem-2 .statement tag=06MV}
 
 Ký hiệu K, N và $\Gamma$ có cùng ý nghĩa như trước. Với mỗi số nguyên $n \geqslant 1$, cho $A_n$ là tích tenxơ của n K-đại số đồng nhất với $N$; cho $B_n$ là tập hợp các ánh xạ từ $\Gamma^{n-1}$ vào $N$. Bằng quy nạp theo $n$, ta suy ra từ Hệ quả của Mệnh đề 8 sự tồn tại của một đẳng cấu $\varphi_n : A_n \to B_n$, ánh xạ $x_1 \otimes \ldots \otimes x_n$ thành hàm $(\sigma_1, \ldots, a, ) \quad \sigma_1(x_1) \cdot \sigma_n(x_{n-1})\,x_n$.
 
@@ -298,7 +298,7 @@ Ký hiệu K, N và $\Gamma$ có cùng ý nghĩa như trước. Với mỗi số
 
 Cho $N$ là một trường, $\Gamma$ là một nhóm *hữu hạn* các tự đẳng cấu của $N$ và K là trường bất biến của $\Gamma$. Với mỗi số nguyên $n \geqslant 1$, ta ký hiệu $\mathbf{GL}(n, N)$ là nhóm các ma trận vuông cấp $n$ với các hệ số trong $N$ và định thức khác không (II; p. 349). Ta cho nhóm $\Gamma$ tác động lên nhóm $\mathbf{GL}(n, N)$ theo quy tắc $\sigma(A) = (\sigma(a_{ij}))$ với $A = (a_{ij})$.
 
-#### Mệnh đề 9 {#alg-v-s10-prop-9 .statement}
+#### Mệnh đề 9 {#alg-v-s10-prop-9 .statement tag=06MW}
 
 — *Cho* $(U_\sigma)_{\sigma \in \Gamma}$ *là một họ các phần tử của* $\mathbf{GL}(n, N)$. *Để tồn tại* $A$ *trong* $GL(n, N)$ *sao cho* $U_\sigma = A^{-1}\,a(A)$ *với mọi* $\sigma \in \Gamma$ *là điều kiện cần và đủ để* $U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau)$ *với* $\sigma,\,\tau$ *trong* $\Gamma$.
 
@@ -314,11 +314,11 @@ $$
 $$
 Với mỗi $a \in \Gamma$, ta ký hiệu $u_\sigma$ là ánh xạ $x \mapsto U_\sigma \cdot \sigma(x)$ của $N^n$ vào chính nó. Việc kiểm tra các Công thức (1) đến (3) của V, p. 62 là ngay lập tức. Hơn nữa ta có $u_\varepsilon \circ u_\varepsilon = u_\varepsilon$ và vì $u_\varepsilon$ là song ánh, ta có $u_\varepsilon = \mathrm{Id}_{N^n}$. Gọi $V_0$ là tập hợp các vectơ $x \in N^n$ sao cho $u_\sigma(x) = x$ với mọi $\sigma \in \Gamma$. Theo Mệnh đề 7 (V, p. 63), $V_0$ là một cấu trúc K trên $N^n$; đặc biệt tồn tại trong $V_0$ các vectơ $b_1, \ldots, b_n$ lập thành một cơ sở của $N^n$ trên $N$. Do đó ma trận $B$ có các cột $b_1, \ldots, b_n$ là khả nghịch và quan hệ $u_\sigma(b_i) = b_i$ với $1 \leq i \leq n$ tương đương với $U_\sigma \cdot \sigma(B) = B$. Đặt $A = B^{-1}$, ta thu được $U_\sigma = A^{-1} \sigma(A)$ với mọi $a \in \Gamma$.
 
-#### Hệ quả 1 {#alg-v-s10-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s10-prop-9-cor-1 .statement tag=06MX}
 
 *Cho $(c_\sigma)_{\sigma \in \Gamma}$, , , là một họ các phần tử khác không của $N$. Để tồn tại $a \neq 0$ trong $N$ sao cho $c, = \sigma(a) \cdot a'$ với mọi $a \in \Gamma$ là điều kiện cần và đủ để $c_{\sigma \tau} = c_\sigma \cdot \sigma(c_\tau)$ với $\sigma, \tau$ trong $\Gamma$.*
 
-#### Hệ quả 2 {#alg-v-s10-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s10-prop-9-cor-2 .statement tag=06MY}
 
 *Cho $(c_\sigma)_{\sigma \in \Gamma}$, $\Gamma$ là một họ các phần tử của $N$. Để $b$ tồn tại trong $N$ sao cho $a, = \sigma(b) - b$ với mọi $a \in \Gamma$, điều kiện cần và đủ là $a, = a, + \sigma(a_\tau)$ với $a, \tau$ thuộc $\Gamma$.*
 
@@ -339,7 +339,7 @@ $$
 
 ### 6. Định lý của Artin
 
-#### Định lý 2 (Artin) {#alg-v-s10-thm-2 .statement}
+#### Định lý 2 (Artin) {#alg-v-s10-thm-2 .statement tag=06MZ}
 
 — *Cho $N$ là một trường, $\Gamma$ là một nhóm các tự đẳng cấu của $N$ và $K$ là trường các bất biến của $\Gamma$. Cho $V$ là một không gian vectơ con trên K của $N$ có số chiều hữu hạn* trên K. Khi đó mọi ánh xạ K-tuyến tính u của V vào N đều là một tổ hợp tuyến tính với các hệ số trong N của các hạn chế trên V của các phần tử của $\Gamma$.
 
@@ -347,7 +347,7 @@ Cho u là một ánh xạ K-tuyến tính từ V vào N và cho $V_{(N)} = N \ot
 
 Ta trang bị cho tập hợp $N^N$ gồm tất cả các ánh xạ từ N vào N tôpô tích của các tôpô rời rạc của các nhân. Định lý 2 có nghĩa là tập hợp các tổ hợp tuyến tính với các hệ số trong N của các phần tử của $\Gamma$ là trù mật trong tập hợp các ánh xạ K-tuyến tính từ N vào chính nó.
 
-#### Định lý 3 {#alg-v-s10-thm-3 .statement}
+#### Định lý 3 {#alg-v-s10-thm-3 .statement tag=06N0}
 
 — Cho N là một trường, $\Gamma$ là một nhóm hữu hạn các tự đẳng cấu của N và K là trường các bất biến của $\Gamma$. Gọi n là lực lượng của $\Gamma$.
 a) Ta có $[N : K] = n$ và N là một mở rộng Galois của K với nhóm Galois $\Gamma$.
@@ -368,13 +368,13 @@ Cuối cùng, c) suy ra từ Định lý 2 (V, p. 65), định lý chứng minh 
 
 ### 7. Định lý cơ bản của lý thuyết Galois
 
-#### Định lý 4 {#alg-v-s10-thm-4 .statement}
+#### Định lý 4 {#alg-v-s10-thm-4 .statement tag=06N1}
 
 — Cho N là một mở rộng Galois của K và $\Gamma$ là nhóm Galois của nó. Gọi $\mathscr{K}$ là tập hợp các mở rộng con của N và $\mathscr{G}$ là tập hợp các nhóm con đóng của $\Gamma$. Với mỗi nhóm con $A \in \mathscr{G}$, ta ký hiệu $k(\Delta)$ là trường các bất biến của A và với mỗi *trường con* $E \in \mathscr{K}$, ta ký hiệu $g(E)$ là nhóm các *tự đẳng cấu* E của N. *Khi đó* $A \mapsto k(\Delta)$ là một song ánh của $\mathscr{G}$ lên $\mathscr{K}$, và $E \mapsto g(E)$ là song ánh ngược.
 
 A) Quan hệ $E = k(g(E))$ (với $E \in \mathscr{K}$) là một hệ quả của bổ đề chính xác hơn sau đây:
 
-#### Bổ đề 1 {#alg-v-s10-lem-1 .statement}
+#### Bổ đề 1 {#alg-v-s10-lem-1 .statement tag=06N2}
 
 Cho E là một mở rộng con của N. Khi đó N là một mở rộng Galois của E và $\mathrm{Gal}(N/E)$ là một nhóm con đóng của $\mathrm{Gal}(N/K)$ với tôpô cảm sinh.
 
@@ -390,7 +390,7 @@ Khi đó họ các tập hợp $U(x_1, \ldots, x_n)$ (tương ứng $V(x_1, \ldo
 
 B) Quan hệ $A = g(k(\Delta))$ (với $A \in g$) là một hệ quả của bổ đề chính xác hơn sau đây:
 
-#### Bổ đề 2 {#alg-v-s10-lem-2 .statement}
+#### Bổ đề 2 {#alg-v-s10-lem-2 .statement tag=06N3}
 
 Cho A là một nhóm con của $\Gamma$. Gọi E là trường các bất biến của A; khi đó nhóm Galois của N trên E là bao đóng của A trong $\Gamma$.
 
@@ -398,25 +398,25 @@ Nhóm Galois của N trên E đóng trong $\Gamma$ (Bổ đề 1) và chứa A, 
 
 Gal(N_0/E) (V, p. 66, Định lý 3). Đặc biệt, $\Delta_0$ chứa phần hạn chế của $\sigma$ trên $N_0$. Vậy tồn tại $\tau \in A$ sao cho $\sigma$ và $\tau$ có cùng phần hạn chế trên $N_0$, do đó $\sigma(x_1) = \tau(x_1), \ldots, \sigma(x_n) = \tau(x_n)$. Suy ra $\sigma$ là một điểm giới hạn của $A$ trong $\Gamma$, và do đó $\mathrm{Gal}(N/E) \subset \overline{\Delta}$.
 
-#### Hệ quả 1 {#alg-v-s10-lem-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s10-lem-2-cor-1 .statement tag=06N4}
 
 *Cho E và E' là hai trường con của N chứa K; khi đó E $\subset$ E' nếu và chỉ nếu g(E) $\supset$ g(E'). Nếu A và A' là hai nhóm con đóng của $\Gamma$, thì A $\subset$ A' nếu và chỉ nếu k($\Delta$) $\supset$ k($\Delta'$).*
 
 Vì hai song ánh nghịch đảo $E \rightleftharpoons g(E)$ và $A \rightleftharpoons k(\Delta)$ đều phản đảo ngược theo bao hàm.
 
-#### Hệ quả 2 {#alg-v-s10-lem-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s10-lem-2-cor-2 .statement tag=06N5}
 
 *Cho $(E_i)_{i \in I}$ là một họ các trường con của N chứa K; đặt $L = \bigcap_{i \in I} E_i$ và $M = K\left( \bigcup_{i \in I} E_i \right)$. Khi đó g(L) là nhóm con đóng nhỏ nhất chứa $U_{i \in I} g(E_i)$ và ta có $g(M) = \bigcap_{i \in I} g(E_i)$.*
 
 Mệnh đề thứ nhất suy ra từ Hệ quả 1 và mệnh đề thứ hai là ngay lập tức.
 
-#### Hệ quả 3 {#alg-v-s10-lem-2-cor-3 .statement}
+#### Hệ quả 3 {#alg-v-s10-lem-2-cor-3 .statement tag=06N6}
 
 *Cho i = 1, 2, đặt $E_i$ là một trường con của N chứa K và cho $\Delta_i = g(E_i)$. Với mọi $\sigma \in \Gamma$ các quan hệ $\sigma(E_1) = E_2$ và $\sigma \Delta_1 \sigma^{-1} = \Delta_2$ là tương đương.*
 
 Vì ta có $\tau \in g(\sigma(E_1))$ nếu và chỉ nếu $\tau \sigma(x) = \sigma(x)$, tức là $\sigma^{-1} \tau \sigma(x) = x$, với mọi $x \in E_1$; điều đó có nghĩa là $\sigma^{-1} \tau \sigma \in \Delta_1$, do đó $g(\sigma(E_1)) = \sigma \Delta_1 \sigma^{-1}$.
 
-#### Hệ quả 4 {#alg-v-s10-lem-2-cor-4 .statement}
+#### Hệ quả 4 {#alg-v-s10-lem-2-cor-4 .statement tag=06N7}
 
 *Cho E là một trường con của N chứa K và cho $A = g(E)$. Để E là Galois trên K thì điều kiện cần và đủ là A phải là một nhóm con chuẩn tắc của $\Gamma$. Khi điều này xảy ra, đồng cấu hạn chế của $\Gamma$ vào $\mathrm{Gal}(E/K)$ xác định, qua phép qua thương, một đẳng cấu nhóm tôpô của $\Gamma / \Delta$ lên $\mathrm{Gal}(E/K)$.*
 
@@ -424,7 +424,7 @@ Vì N tách được trên K, điều tương tự cũng đúng với E (V, p. 3
 
 Đồng cấu hạn chế $\varphi : \mathrm{Gal}(N/K) \to \mathrm{Gal}(E/K)$ là liên tục và toàn ánh (V, p. 60, Mệnh đề 3) và hạt nhân của nó rõ ràng bằng $A = \mathrm{Gal}(N/E)$. Vì $\Gamma$ là compact, đồng cấu của $\Gamma / \Delta$ lên $\mathrm{Gal}(E/K)$ cảm sinh từ $\varphi$ qua phép chuyển sang thương là một đẳng cấu của các nhóm tôpô (Gen. Top., I, p. 87, Hệ quả 2).
 
-#### Hệ quả 5 {#alg-v-s10-lem-2-cor-5 .statement}
+#### Hệ quả 5 {#alg-v-s10-lem-2-cor-5 .statement tag=06N8}
 
 *Cho E là một trường con của N chứa K. Để E có bậc hữu hạn trên K thì cần và đủ là g(E) mở trong $\Gamma$. Khi đó, chỉ số $(\Gamma : g(E))$ là hữu hạn và bằng [E : K].*
 
@@ -434,7 +434,7 @@ g(E) chứa $U_F(\mathrm{Id}_N) = g(F)$. Quan hệ $g(E) \supset g(F)$ tương �
 
 Giả sử rằng $[E : K]$ là hữu hạn. Cho $\Omega$ là một bao đóng đại số của $K$ chứa $N$ như một phần mở rộng con (V, p. 23, Định lý 2) và cho $\mathscr{H}$ là tập các $K$-đồng cấu của $E$ vào $\Omega$. Mỗi phần tử của $\mathscr{H}$ đều được cảm sinh bởi một $K$-tự đẳng cấu của $\Omega$ (V, p. 52, Mệnh đề 1), và vì $N$ là quasi-Galois trên $K$, ánh xạ $\sigma \mapsto \sigma|_E$ từ $\Gamma$ vào $\mathscr{H}$ là toàn ánh. Để $\sigma$ và $\sigma'$ trong $\Gamma$ có cùng hạn chế trên $E$ thì cần và đủ là $\sigma^{-1}\sigma' \in g(E)$, do đó Card $A? = (\Gamma : g(E))$. Cuối cùng vì E là một đại số étale trên K, ta có Card $\mathscr{H} = [E : K]$ (V, p. 32, Mệnh đề 4), nên kết luận là $(\Gamma : g(E)) = [E : K]$.
 
-#### Hệ quả 6 {#alg-v-s10-lem-2-cor-6 .statement}
+#### Hệ quả 6 {#alg-v-s10-lem-2-cor-6 .statement tag=06N9}
 
 — Với $i = 1, 2$ cho $E_i$ là một phần mở rộng con của $N$ và $\Gamma_i$ là nhóm Galois của $N$ trên $E_i$. Các điều kiện sau là tương đương:
 a) Nhóm $\Gamma$ là tích trực tiếp của các nhóm con $\Gamma_1$ và $\Gamma_2$.
@@ -450,7 +450,7 @@ $$
 
 Bây giờ (i) có nghĩa là $E_1$ và $E_2$ là Galois trên $K$ (Hệ quả 4). Theo Hệ quả 2, điều kiện (ii) tương đương với $N = K(E_1 \cup E_2)$, và cuối cùng nếu (i) và (ii) được thỏa mãn, $\Gamma_1 \Gamma_2$ là nhóm con nhỏ nhất của $\Gamma$ chứa $\Gamma_1 \cup \Gamma_2$; nó đóng vì $\Gamma_1$ và $\Gamma_2$ compact và ánh xạ $(a, \tau) \mapsto \sigma \tau$ từ $\Gamma_1 \times \Gamma_2$ vào $\Gamma$ là liên tục (Gen. Top., I, p. 63, Cor. 1). Hệ quả 2 giờ đây cho thấy (iii) tương đương với $E_1 \cap E_2 = K$, và điều này chứng minh sự tương đương của a) và b).
 
-#### Nhận xét {#alg-v-s10-n7-rem-1 .statement}
+#### Nhận xét {#alg-v-s10-n7-rem-1 .statement tag=06NA}
 
 Với ký hiệu của Hệ quả 6, giả sử các điều kiện a) và b) được thỏa mãn. Các đồng cấu hạn chế $\varphi_i : \Gamma \to \mathrm{Gal}(E_i/K)$ với $i = 1, 2$ cảm sinh các đẳng cấu nhóm tôpô
 $$
@@ -516,7 +516,7 @@ trong dãy này $\pi$ là đồng cấu hạn chế liên kết với bộ ba $K
 
 Hình 2
 
-#### Định lý 5 {#alg-v-s10-thm-5 .statement}
+#### Định lý 5 {#alg-v-s10-thm-5 .statement tag=06NB}
 
 *Cho $N'$ là một mở rộng của $K$ được sinh bởi hai mở rộng con $K'$ và $N$. Giả sử rằng $N$ là Galois trên $K$, với nhóm Galois $\Gamma$ và rằng $K' \cap N = K$. Khi đó mở rộng $N'$ của $K'$ là Galois và đồng cấu chính tắc $\varphi$ của $K' \otimes_K N$ vào $N'$ là một đẳng cấu. Cho $\sigma \in \mathrm{Gal}(N/K)$ và cho $\sigma'$ là phần tử của $\mathrm{Gal}(N'/K')$ tương ứng với nó dưới đẳng cấu dịch chuyển; khi đó ta có $\sigma' \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes u)$.*
 
@@ -530,7 +530,7 @@ $$
 
 Do đó hạt nhân của $\varphi$ ổn định dưới các ánh xạ $\mathrm{Id}_{K'} \otimes \sigma$, nên có dạng $K' \otimes_K N_0$ với $N_0 \subset N$ (V, p. 63, Hệ quả). Với $x$ trong $N_0$ ta có $x = \varphi(1 \otimes x) = 0$, do đó $N_0 = 0$ và vì thế $\varphi$ là đơn ánh.
 
-#### Hệ quả 1 {#alg-v-s10-thm-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s10-thm-5-cor-1 .statement tag=06NC}
 
 *Cho $E'$ là một trường con của $N'$ chứa $K'$. Tồn tại duy nhất một trường con $E$ của $N$ chứa $K$ và sao cho $E' = K'(E)$. Ta có $E = E' \cap N$.*
 
@@ -538,13 +538,13 @@ Do đó hạt nhân của $\varphi$ ổn định dưới các ánh xạ $\mathrm
 
 Chúng ta đã chứng minh đẳng thức $E' = K'(E)$, do đó $\varphi^{-1}(E') = K' \otimes_K E$. Nếu $F$ là một trường con của $N$ chứa $K$ và sao cho $E' = K'(F)$, ta cũng có $\varphi^{-1}(E') = K' \otimes_K F$, do đó $F = E$.
 
-#### Hệ quả 2 {#alg-v-s10-thm-5-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s10-thm-5-cor-2 .statement tag=06ND}
 
 *Cho $N$ là một mở rộng Galois của $K$. Giả sử nhóm Galois $\Gamma$ của $N$ trên $K$ là tích trực tiếp của hai nhóm con đóng $\Gamma_1$ và $\Gamma_2$ và ký hiệu $E_i$ là trường các bất biến của $\Gamma_i$ với $i = 1, 2$. Khi đó đồng cấu chính tắc của $E_1 \otimes_K E_2$ vào $N$ là một đẳng cấu.*
 
 Ta có $E_1 \cap E_2 = K$ và $N = K(E_1 \cup E_2)$ theo Hệ quả 6 (V, p. 69), và do đó chỉ cần áp dụng Định lý 5.
 
-#### Nhận xét {#alg-v-s10-n8-rem-1 .statement}
+#### Nhận xét {#alg-v-s10-n8-rem-1 .statement tag=06NE}
 
 Cho $K$ và $K'$ là hai trường và $u$ là một đồng cấu của $K$ vào $K'$. Cho $K_s$ (resp. $K'_s$) là một bao đóng tách được (V, p. 45, Prop. 14) của $K$ (resp. $K'$) và $\Pi$ (resp. $\Pi'$) là nhóm Galois của $K_s$ trên $K$ (resp. $K'_s$ trên $K'$). Vì $K_s$ là một mở rộng đại số tách được của $K$ và mở rộng $(K'_s, u)$ của $K$ là đóng tách được, tồn tại (V, p. 45, Cor.) một đồng cấu $v$ của $K_s$ vào $K'_s$ kéo dài $u$. Từ $v$ ta thu được một đồng cấu liên tục $v^*$ của $\Pi'$ vào $\Pi$. Cho $v_1$ là một mở rộng khác của $u$; vì $K_s$ là một mở rộng quasi-Galois của $K$, tồn tại một phần tử $a_s$ của $\Pi$ sao cho $v_1 = v \circ a_s$. Ta kết luận rằng $v_1^*(\tau) = \sigma_0^{-1} v^*(\tau) \sigma_0$ với mọi $\tau \in \Pi$.
 
@@ -566,7 +566,7 @@ nghĩa là, $\mathrm{Tr}_{N/K}(x) = t \cdot x$ với mọi $x \in N$.
 
 Từ nay, hãy giả sử rằng $N$ có bậc hữu hạn trên $K$. Cho $x \in N$, để $\{x\}$ là một cơ sở của $\mathbf{K}^{(\Gamma)}$-môđun $N$ thì cần và đủ rằng họ $(\sigma(x))_{\sigma \in \Gamma}$ là một cơ sở của $N$ trên $K$. Một cơ sở như thế được gọi là *một cơ sở chuẩn của $N$ trên $K$*.
 
-#### Định lý 6 {#alg-v-s10-thm-6 .statement}
+#### Định lý 6 {#alg-v-s10-thm-6 .statement tag=06NF}
 
 *Cho $N$ là một mở rộng Galois có bậc hữu hạn trên $K$ và cho $\Gamma$ là nhóm Galois của $N$ trên $K$. Khi đó tồn tại một cơ sở chuẩn của $N$ trên $K$; nói cách khác, môđun $\mathbf{K}^{(\Gamma)}$ của $N$ là tự do hạng 1.*
 
@@ -578,7 +578,7 @@ Ta sẽ áp dụng Bổ đề 3 trong trường hợp $A = \mathbf{K}^{(\Gamma)}
 
 Cho chứng minh thứ hai ta sẽ dùng mệnh đề sau:
 
-#### Mệnh đề 10 {#alg-v-s10-prop-10 .statement}
+#### Mệnh đề 10 {#alg-v-s10-prop-10 .statement tag=06NG}
 
 *Cho $x \in N$, khi đó để $\{x\}$ lập thành một cơ sở của $\mathbf{K}^{(\Gamma)}$-môđun $N$ thì cần và đủ là $\det(\sigma \tau(x))_{\sigma, \tau \in \Gamma} \neq 0$.
 
@@ -586,7 +586,7 @@ Vì $\mathbf{K}^{(\Gamma)}$ và $N$ có cùng chiều trên $K$, nói rằng $\{
 
 \* A) Giả sử rằng $K$ là vô hạn; ánh xạ $x \mapsto \det(\sigma \tau(x))$ của $N$ vào $N$ là một ánh xạ đa thức trên $K$ (IV, p. 54). Bằng cách mở rộng vô hướng từ $K$ sang $N$, ta thu được một ánh xạ tương ứng cho không gian vectơ trên $N$ $N \otimes_K N$ và ta vừa thấy rằng ánh xạ sau không đồng nhất bằng 0 (vì $N \otimes_K N$ là tự do hạng 1 trên $N \otimes_K \mathbf{K}^{(\Gamma)}$). Vậy tồn tại $x \in N$ sao cho $\det(\sigma \tau(x)) \neq 0$ (IV, p. 18, Định lý 2); nói chung hơn, từ cùng tài liệu tham khảo này ta có:
 
-#### Mệnh đề 11 {#alg-v-s10-prop-11 .statement}
+#### Mệnh đề 11 {#alg-v-s10-prop-11 .statement tag=06NH}
 
 — Giả sử K là vô hạn và cho P : N → K là một ánh xạ đa thức không đồng nhất bằng 0 trên K. Tồn tại x ∈ N sao cho P(x) ≠ 0 và {x} là một cơ sở của N trên $\mathbf{K}^{(\Gamma)}$.
 
@@ -594,7 +594,7 @@ B) Giả sử K là hữu hạn. Theo Mệnh đề 4 (V, p. 95)$^1$ mọi mở r
 
 Bổ đề sau là một trường hợp riêng của các kết quả tổng quát hơn được chứng minh trong Chương VII. Vành $A$ hoặc là vành $\mathbf{Z}$ của các số nguyên hoặc là vành $K[X]$ của các đa thức trên trường $K$.
 
-#### Bổ đề 4 {#alg-v-s10-lem-4 .statement}
+#### Bổ đề 4 {#alg-v-s10-lem-4 .statement tag=06NI}
 
 Cho M là một A-môđun xoắn được sinh bởi một số hữu hạn phần tử $x_1, ..., x_h$; khi đó tồn tại một phần tử x của M mà linh hóa tử (II, p. 219) của nó bằng linh hóa tử của M.
 
@@ -638,7 +638,7 @@ $$
 
 với $\pi \in \Gamma, f \in K_s^X$ và $x \in X$. Gọi $\Theta(X)$ là tập các phần tử bất biến của $\Gamma$ trong $K_s^X$; đây là đại số con trên $K$ của $K_s^X$ gồm các ánh xạ $f : X \to K_s$ sao cho $f(\sigma x) = \sigma(f(x))$ với $\sigma \in \Gamma$ và $x \in X$.
 
-#### Bổ đề 5 {#alg-v-s10-lem-5 .statement}
+#### Bổ đề 5 {#alg-v-s10-lem-5 .statement tag=06NJ}
 
 *Cho $X$ là một $\Gamma$-tập hợp hữu hạn và cho $x_1, \ldots, x_n$ là các điểm của $X$ sao cho các quỹ đạo $\Gamma x_1, \ldots, \Gamma x_n$ tạo thành một phân hoạch của $X$. Với $1 \leq i \leq n$ cho $\Delta_i$ là nhóm ổn định của $x_i$ trong $\Gamma$ và cho $L_i$ là trường bất biến của $A_i$. Khi đó $L_1, \ldots, L_n$ là các mở rộng tách được bậc hữu hạn của $K$, và ánh xạ $f \mapsto (f(x_1), \ldots, f(x_n))$ là một đẳng cấu đại số trên $K$ từ $\Theta(X)$ lên $L_1 \times \ldots \times L_n$.*
 
@@ -646,11 +646,11 @@ Theo giả thiết, các nhóm con $A_i, \ldots, A_n$ của $\Gamma$ là mở v�
 
 Từ Bổ đề 5 và Định lý 4 (*V*, p. 34f.) ta thu được ngay lập tức kết quả sau.
 
-#### Mệnh đề 12 {#alg-v-s10-prop-12 .statement}
+#### Mệnh đề 12 {#alg-v-s10-prop-12 .statement tag=06NK}
 
 — Với mọi $\Gamma$-tập hợp hữu hạn $X$ đại số $\Theta(X)$ là êtan trên $K$, có bậc bằng lực lượng của $X$. Hơn nữa, mọi đại số êtan trên $K$ đều đẳng cấu với một đại số có dạng $\Theta(X)$.
 
-#### Nhận xét {#alg-v-s10-n10-rem-1 .statement}
+#### Nhận xét {#alg-v-s10-n10-rem-1 .statement tag=06NL}
 
 a) Dễ dàng chứng minh rằng với mọi đồng cấu đại số trên $K$ $\varphi$ từ $\Theta(X)$ vào $K$, tồn tại một phần tử duy nhất $x$ của $X$ sao cho $\varphi(f) = f(x)$ với mọi $f \in \Theta(X)$.
 
@@ -658,7 +658,7 @@ a) Dễ dàng chứng minh rằng với mọi đồng cấu đại số trên $K
 
 ### 11. Cấu trúc của các mở rộng quasi-Galois
 
-#### Mệnh đề 13 {#alg-v-s10-prop-13 .statement}
+#### Mệnh đề 13 {#alg-v-s10-prop-13 .statement tag=06NM}
 
 — Cho $N$ là một mở rộng quasi-Galois của $K$. Ký hiệu $N_r$ là trường bất biến của nhóm tất cả các $K$-tự đẳng cấu của $N$ và ký hiệu $N_s$ là bao đóng đại số tách được tương đối của $K$ trong $N$ ($V$, p. 44). Khi đó:
 
@@ -672,11 +672,11 @@ Cho $\Omega$ là một bao đóng đại số của $K$ chứa $N$ như một m�
 
 Every $K$-tự đẳng cấu của $\Omega$ đưa $N$ vào $N$, do đó $N_r$ vào $N_r$, nên $N_r$ là một mở rộng quasi-Galois của $K$ ($V$, p. 54, Mệnh đề 3). Suy ra $N_s$ là một mở rộng Galois của $K$. Mọi phần tử của $N_r \cap N$, là đại số tách được và $p$-căn trên $K$, nên thuộc $K$ ($V$, p. Hệ quả 3); vì vậy ta có $K_r \cap K_s = K$. Bây giờ $N$ là $p$-căn trên $N_r$ ($V$, p. 44, Mệnh đề 13) và đại số tách được trên $N_r$ ($V$, p. 56, Định lý 1) nên vừa $p$-căn vừa tách được trên $K(N_r \cup N_s)$. Do đó ta có $N = K(N_r \cup N_s)$ ($V$, p. 39, Hệ quả 3) và các mệnh đề b), c) suy ra từ Định lý 5 ($V$, p. 71).
 
-#### Hệ quả {#alg-v-s10-n11-cor-1 .statement}
+#### Hệ quả {#alg-v-s10-n11-cor-1 .statement tag=06NN}
 
 — Cho $p$ là số mũ đặc số của $K$, $\overline{K}$ là một bao đóng đại số của $K$, $K_s$, là bao đóng tách được tương đối của $K$ trong $\overline{K}$ và $K^{p^{-\infty}}$ là bao đóng hoàn hảo của $K$. Khi đó đồng cấu chính tắc của $K^{p^\infty} \otimes K_s$ vào $\overline{K}$ là một đẳng cấu.
 
-#### Nhận xét {#alg-v-s10-n11-rem-1 .statement}
+#### Nhận xét {#alg-v-s10-n11-rem-1 .statement tag=06NO}
 
 Cho $R$ (tương ứng $S$) là một mở rộng $p$-căn (tương ứng đại số tách được) của $K$. Khi đó đại số $R \otimes_K S$ là một trường : vì $R$ (tương ứng $S$) đẳng cấu với một mở rộng con của $K^{p^\infty}$ (tương ứng $K_s$) và chỉ cần áp dụng hệ quả trên và Mệnh đề 1 của $V$, p. 17.
 

@@ -33,14 +33,14 @@ subsections:
       pdf_page: 403
 statements: 9
 exercises: 6
-content_sha256: 0dfb4f3df3b1305aac0576bfe1b57e31bb1d8b17fe329b14413303e5d8ae653e
+content_sha256: 53c302660c61cd7fef1b70be1d4b1ffa083e7229208dbbe2c386c3d702cdbacb
 ---
 
 ## 2. PLACES
 
 ### 1. THE NOTION OF MORPHISM FOR LAWS OF COMPOSITION NOT EVERYWHERE DEFINED
 
-#### Definition 1 {#ac-vi-s2-def-1 .statement}
+#### Definition 1 {#ac-vi-s2-def-1 .statement tag=04SN}
 
 *Let E and E' be two sets each with an internal law of composition denoted by $(x, y) \mapsto x * y$, not necessarily everywhere defined. A mapping $f : E \to E'$ is a morphism if, for all $x, y$ in E such that $f(x) * f(y)$ is defined, the composition $x * y$ is also defined and:*
 
@@ -52,7 +52,7 @@ More briefly, we may say that formula (1) must hold every time the right hand si
 
 The notion of morphism is distinct from that of representation (*Algebra*, Chapter I, § 1, no. 1), where it is demanded that equation (1) hold whenever the left hand side has a meaning. Of course, the two notions coincide for laws of composition everywhere defined.
 
-#### Definition 2 {#ac-vi-s2-def-2 .statement}
+#### Definition 2 {#ac-vi-s2-def-2 .statement tag=04SO}
 
 *Let E and E' be two sets each with a family of internal laws of composition $(x, y) \mapsto x *_{\alpha} y, \alpha \in I$. A mapping $f : E \to E'$ is a morphism if it is a morphism for each of the laws of composition $(x, y) \mapsto x *_{\alpha} y$.*
 
@@ -75,7 +75,7 @@ The only compositions not defined are therefore the compositions to $+ \infty$, 
 
 The set $\tilde{K}$, called the *projective field* associated with $K$, can be identified with the *projective line* $P_1(K)$ (*loc. cit.*).
 
-#### Definition 3 {#ac-vi-s2-def-3 .statement}
+#### Definition 3 {#ac-vi-s2-def-3 .statement tag=04SP}
 
 *Let $K$ and $L$ be two fields. Every morphism* $f$ *of* $K$ *to* $\tilde{L}$ *(for addition and multiplication)* *such that* $f(1) = 1$ *is called a place of* $K$ *with values in* $L$.
 
@@ -122,7 +122,7 @@ Let F be an isomorphism of a field K onto a subfield of a field L; let us extend
 
 ### 3. PLACES AND VALUATION RINGS
 
-#### Proposition 1 {#ac-vi-s2-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s2-prop-1 .statement tag=04SQ}
 
 Let K be a field, $\mathbf{A}$ a valuation ring of K and $\kappa(\mathbf{A})$ the residue field of $\mathbf{A}$. We extend the canonical mapping of $\mathbf{A}$ onto $\kappa(\mathbf{A})$ to a mapping $h_{\mathbf{A}} : \tilde{K} \to (\kappa(\mathbf{A}))$ by the equation $h_{\mathbf{A}}(x) = \infty$ if $x \notin \mathbf{A}$. The mapping $h_{\mathbf{A}}$ thus defined is a place of K whose valuefield is $\kappa(\mathbf{A})$.
 
@@ -146,7 +146,7 @@ This proves Proposition 1.
 
 If $j$ is an isomorphism of $\kappa(\mathbf{A})$ onto a subfield of a field L, $j \circ h_{\mathbf{A}} : \tilde{K} \to \tilde{L}$ is a place of K with values in L. The above process in fact provides all the places on K. To be precise:
 
-#### Proposition 2 {#ac-vi-s2-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s2-prop-2 .statement tag=04SR}
 
 Let K and L be two fields and f a place of K with values in L. Then there exists a valuation ring $\mathbf{A}$ of K and an isomorphism $j$ of $\kappa(\mathbf{A})$ onto a subfield of L such that $f = j \circ h_{\mathbf{A}}$; these conditions determine $\mathbf{A}$ and $j$ uniquely. The ring $\mathbf{A}$ is the set of $x \in K$ such that $f(x) \neq \infty$ and $m(\mathbf{A})$ is the set of $x \in K$ such that $f(x) = 0$.
 
@@ -164,13 +164,13 @@ Examples Of places
 
 ### 4. EXTENSION OF PLACES
 
-#### Proposition 3 {#ac-vi-s2-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s2-prop-3 .statement tag=04SS}
 
 Let $K$ be a field, $S$ a subring of $K$ and $f$ a homomorphism from $S$ to an algebraically closed field $L$. Then there exists a place of $K$ with values in $L$ which extends $f$.
 
 Taking account of Proposition 1, this is a translation of Theorem 2 of § 1, no. 2.
 
-#### Proposition 4 {#ac-vi-s2-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s2-prop-4 .statement tag=04ST}
 
 Let $K$ be a field, $f$ a place of $K$ with values in a field $L$ and $K'$ an extension of $K$. Then there exists an extension $L'$ of $L$ and a place $f'$ of $K'$ with values in $L'$ which extends $f$. If $x_1, \ldots, x_n$ are elements of $K$ which are algebraically independent over $K$ and $a_1, \ldots, a_n$ any elements $\in L$, $f'$ may be chosen such that $f(x_i) = a_i$ for $1 \leq i \leq n.$
 
@@ -178,13 +178,13 @@ Let $V$ be the ring off, $g$ the restriction off to $V$ and $g'$ the extension o
 
 ### 5. CHARACTERIZATION OF INTEGRAL ELEMENTS BY MEANS OF PLACES
 
-#### Proposition 5 {#ac-vi-s2-prop-5 .statement}
+#### Proposition 5 {#ac-vi-s2-prop-5 .statement tag=04SU}
 
 Let $K$ be a field, $S$ a subring of $K, h$ a homomorphism from $S$ to a field and $p$ the kernel of $h.$ For an element $x$ of $K$ to be integral over the local ring $S,$ it is necessary and sufficient that every place of $K$ extending $h$ be finite at $x.$
 
 If $f$ is a place of $K$ extending $h, f$ is finite on $S_p$ and zero on $pS_p$ and hence the ring of the place $f$ dominates $S_p.$ Conversely, if $V$ is a valuation ring of $K$ which dominates $S_p,$ $V$ is the ring of a placef whose restriction to $S$ is a homomorphism with the same kernel as $h;$ replacing $f$ by an equivalent place, it is seen that $V$ is the ring of a place of $K$ which extends $h.$ To say that every place of $K$ extending $h$ is finite at $x$ is equivalent to saying that $x$ belongs to all the valuation rings of $K$ which dominate $S_p.$ The proposition then follows from Theorem 3 of § 1, no. 3.
 
-#### Proposition 6 {#ac-vi-s2-prop-6 .statement}
+#### Proposition 6 {#ac-vi-s2-prop-6 .statement tag=04SV}
 
 Let $K$ be a field and $S$ a subring of $K.$ For an element $x \in K$ to be integral over $S,$ it is necessary and sufficient that every place of $K$ which is finite on $S$ be finite at $x.$
 

@@ -26,7 +26,7 @@ subsections:
       pdf_page: 164
 statements: 9
 exercises: 2
-content_sha256: 163fe98da569bf96a2cf4cdfe5f897cc2a939f72f9495a1133db2390e5f2e4a9
+content_sha256: c2e7557b98c678b7ab7b76840a046be64717fd2ef2e68d0dbcc702987b154e2d
 ---
 
 ## § 8. NORMS AND TRACES
@@ -94,7 +94,7 @@ $$
 D_{A/K}(x_1, \ldots, x_r) \cdot 1 = [\det u_i(x_j)]^2 .
 $$
 
-#### Proposition 1 {#alg-v-s8-prop-1 .statement}
+#### Proposition 1 {#alg-v-s8-prop-1 .statement tag=06L9}
 
 — *Let $A$ be a commutative algebra of finite degree over $K$. Then the following conditions are equivalent*:
 a) *The algebra $A$ is etale.*
@@ -112,7 +112,7 @@ has only the solution $\lambda_1 = \cdots = A, = 0$ in L. Now the relation (5) i
 
 The equivalence of b) and c) is a consequence of the following general lemma:
 
-#### Lemma 1 {#alg-v-s8-lem-1 .statement}
+#### Lemma 1 {#alg-v-s8-lem-1 .statement tag=06LA}
 
 Let V be a vector space of finite dimension over K and B a bilinear *form on* V x V. Let $(v_1, \ldots, v_n)$ *be a basis of* V *over* K *and* $\Delta = \det B(v_i, v_j)$. Then $A \neq 0$ if and only *if*, for each $x \neq 0$ in V there exists y in V such that $B(x, y) \neq 0$.
 
@@ -126,7 +126,7 @@ has only the solution $A, = \cdots = A, = 0$ in K. If we put $x = \sum_{i=1}^n \
 
 Let us show that condition c) implies that A is reduced. Let x be a nilpotent element of A : for any $y \in A$ the element xy is nilpotent, and so the endomorphism $L_{xy}$ of the vector space A is nilpotent. Now the following lemma implies that $\mathrm{Tr}(xy) = 0$ for all $y \in A$, whence $x = 0$ under hypothesis c).
 
-#### Lemma 2 {#alg-v-s8-lem-2 .statement}
+#### Lemma 2 {#alg-v-s8-lem-2 .statement tag=06LB}
 
 Let V be a vector space of finite dimension over K and $u$ a nilpotent endomorphism of V, then $\mathrm{Tr}(u) = 0$.
 
@@ -134,7 +134,7 @@ For each integer $n \geq 0$ let $V_n$ be the image of $u^n$. Since $u$ is nilpot
 
 Finally let us show that b) implies a). Let $(x_1, \ldots, x_n)$ be a basis of A over K such that $D_{A/K}(x_1, \ldots, x_n) \neq 0$. Let K' be an extension of K, A' the K'-algebra derived from A by extension of scalars and $x'_i = 1 \otimes x_i$ for $1 \leq i \leq n$. By Formula (2) (V, p. 47) we have $D_{A'/K'}(x'_1, \ldots, x'_n) \neq 0$. Applying the preceding result to A' we see that A' is reduced, hence the algebra A is etale (V, p. 34, Th. 4).
 
-#### Corollary {#alg-v-s8-n2-cor-1 .statement}
+#### Corollary {#alg-v-s8-n2-cor-1 .statement tag=06LC}
 
 — Let E be an extension *of finite* degree of K. For E to be separable it is necessary and sufficient that there exist a in E such that $\mathrm{Tr}_{E/K}(a) \neq 0$.
 
@@ -144,7 +144,7 @@ The condition is necessary by Prop. 1. Conversely, assume that there exists $a \
 
 The transitivity formulae in algebras (III, p. 548) imply the following proposition in the case of extensions of finite degree.
 
-#### Proposition 2 {#alg-v-s8-prop-2 .statement}
+#### Proposition 2 {#alg-v-s8-prop-2 .statement tag=06LD}
 
 — Let F be an extension of finite degree of K and E a subextension of F. Then for every $x \in F$ we have
 $$
@@ -152,7 +152,7 @@ $$
 \text{N}_{F/K}(x) = \text{N}_{E/K}(\text{N}_{F/E}(x)) .
 $$
 
-#### Corollary {#alg-v-s8-n3-cor-1 .statement}
+#### Corollary {#alg-v-s8-n3-cor-1 .statement tag=06LE}
 
 — Put $m = [F : E]$; then for every $x \in E$ we have
 $$
@@ -160,7 +160,7 @@ $$
 \text{N}_{F/K}(x) = \text{N}_{E/K}(x)^m .
 $$
 
-#### Proposition 3 {#alg-v-s8-prop-3 .statement}
+#### Proposition 3 {#alg-v-s8-prop-3 .statement tag=06LF}
 
 — Let E be an extension of finite degree n of K and x an element of E, of degree d over K. Write $f(X) = X^d + \sum_{i=1}^d a_i X^{d-i}$ for the minimal polynomial of X over K. Then we have
 $$
@@ -170,7 +170,7 @@ $$
 
 Prop. 3 follows directly from the Cor. of Prop. 2 and the lemma:
 
-#### Lemma 3 {#alg-v-s8-lem-3 .statement}
+#### Lemma 3 {#alg-v-s8-lem-3 .statement tag=06LG}
 
 Let R be a commutative ring, $f(X) = X^d + \sum_{i=1}^d a_i X^{d-i}$ a monic polynomial of $\mathbf{R}[X]$, A the R-algebra $\mathbf{R}[X]/(f)$ and x the residue class of X in A. Then $\text{Tr}_{A/R}(x) = -a_1$ and $\text{N}_{A/R}(x) = (-1)^d a_d$.
 
@@ -222,7 +222,7 @@ $$
 
 c) *General case*: we can summarize the calculation of norm and trace in the following proposition:
 
-#### Proposition 4 {#alg-v-s8-prop-4 .statement}
+#### Proposition 4 {#alg-v-s8-prop-4 .statement tag=06LH}
 
 *Let p be the characteristic exponent of K and E an extension of finite degree of K. Let $\sigma_1, \ldots, \sigma_n$ be the distinct K-homomorphisms of E into an algebraic closure $\Omega$ of K, and let $p^e = [E:K]_i$. For each $x \in E$ we have in $\Omega$*
 

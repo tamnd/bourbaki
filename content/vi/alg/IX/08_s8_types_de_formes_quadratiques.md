@@ -24,7 +24,7 @@ subsections:
       pdf_page: 135
 statements: 10
 exercises: 0
-content_sha256: 316838b37b1f29eec986d22db1d3e223ab2b96e58626369b712e26f46f857518
+content_sha256: 4290ebe6942731b73dd5870df46e59aebf7de01ccac7bc5b6239ef6d0f81f1b1
 translated_from: content/en-mt/alg/IX/08_s8_types_de_formes_quadratiques.md
 source_lang: en-mt
 translation_method: machine
@@ -62,13 +62,13 @@ $$
 $$
 và ta sẽ nói rằng $\theta(Q)$ là kiểu của Q. Nếu Q và Q' là hai dạng toàn phương trên A, không suy biến và hữu hạn chiều, thì các quan hệ Q ~ Q' và $\theta(Q) = \theta(Q')$ là tương đương.
 
-#### Mệnh đề 1 {#alg-ix-s8-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ix-s8-prop-1 .statement tag=0DN1}
 
 Cho Q và Q' là hai dạng toàn phương trên A, không suy biến và hữu hạn chiều. Để Q và Q' tương đương, điều kiện cần và đủ là chúng có cùng chiều và cùng kiểu.
 
 Điều kiện ấy hiển nhiên là cần. Giả sử nó được thỏa mãn. Khi đó tồn tại các dạng trung hòa N, N' sao cho Q ⊕ N và Q' ⊕ N' là tương đương. Vì hai dạng này có cùng chiều, N và N' cũng vậy, do đó chúng tương đương (§ 4, no 2, cor. 2 of prop. 2). Suy ra Q và Q' tương đương theo định lý của Witt (§ 4, no 3, cor. 1 of th. 1).
 
-#### Mệnh đề 2 {#alg-ix-s8-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ix-s8-prop-2 .statement tag=0DN2}
 
 Quan hệ « tồn tại một dạng toàn phương Q trên A, không suy biến và hữu hạn chiều, sao cho X = θ(Q) » là xác định tập theo X (Ens., chap. II, § 1, n° 4).
 
@@ -92,7 +92,7 @@ $$
 $$
 do đó $(T + T') + T'' = T + (T' + T'')$ vì hai phần tử của $\mathfrak{W}$ có cùng kiểu thì bằng nhau. Hơn nữa phép cộng mà ta vừa định nghĩa có một phần tử đơn vị: quả thật hiển nhiên là mọi dạng trung hòa đều có cùng một kiểu $T_0$, cụ thể là kiểu của dạng không có chiều bằng không; ta thấy ngay rằng $T_0$ là phần tử đơn vị cần tìm. Sau hết, sự tồn tại, với mọi $T \in \mathfrak{W}$, của một phần tử đối của T là hệ quả trực tiếp của mệnh đề sau:
 
-#### Mệnh đề 3 {#alg-ix-s8-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ix-s8-prop-3 .statement tag=0DN3}
 
 Cho Q là một dạng toàn phương không suy biến, hữu hạn chiều trên một không gian vectơ V trên A. Ký hiệu bởi – Q dạng toàn phương trên V được xác định bởi $(-Q)(x) = -Q(x)$ ($x \in V$). Khi đó dạng $Q \tau (-Q)$ là trung hòa.
 
@@ -100,11 +100,11 @@ Thật vậy, hạn chế của $Q \tau (-Q)$ lên đường chéo D của $V \t
 
 Điều này cho phép ta đưa ra định nghĩa sau:
 
-#### Định nghĩa 1 {#alg-ix-s8-def-1 .statement}
+#### Định nghĩa 1 {#alg-ix-s8-def-1 .statement tag=0DN4}
 
 *Tập hợp các kiểu của các dạng toàn phương không suy biến, hữu hạn chiều trên $A$, được trang bị phép cộng định nghĩa bởi (2), được gọi là nhóm các kiểu của dạng toàn phương, hay nhóm Witt, của $A$.*
 
-#### Nhận xét {#alg-ix-s8-n2-rem-1 .statement}
+#### Nhận xét {#alg-ix-s8-n2-rem-1 .statement tag=0EEP}
 
 1) Mọi dạng toàn phương không suy biến $Q$ hữu hạn chiều có kiểu bằng không (nghĩa là sao cho $\theta(Q) = T_0$ theo ký hiệu trên) là một dạng trung hòa. Thật vậy, tồn tại các dạng trung hòa $N, N'$ sao cho $Q \tau N$ tương đương với $N'$. Điều này cho thấy rằng $Q$ có chiều chẵn, và do đó tồn tại một dạng trung hòa $N_1$ có cùng chiều với $Q$. Vì $Q$ và $N_1$ có cùng kiểu, theo mệnh đề 1 suy ra chúng tương đương, và vì thế $Q$ là trung hòa.
 
@@ -128,20 +128,20 @@ $$
 
 Mặt khác, nếu $a, b$ và $a + b$ thuộc $A^*$, thì nói chung không có $(a + b).T = a.T + b.T$ ($T \in \mathfrak{W}$).
 
-#### Mệnh đề 4 {#alg-ix-s8-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ix-s8-prop-4 .statement tag=0DN5}
 
 *Cho Q là một dạng toàn phương không suy biến trên một không gian vectơ hữu hạn chiều E trên A. Giả sử rằng A có đặc số $\neq 2$, và cho $(x_1, \ldots, x_n)$ là một cơ sở trực giao của V. Gọi $T_1$ là kiểu của dạng toàn phương $Q_1$ được xác định trên không gian vectơ A và thỏa mãn $Q_1(1) = 1$. Khi đó kiểu của Q là $\sum_{i=1}^n Q(x_i) \cdot T_1$.
 
 Thật vậy, dạng Q tương đương với
 $$(Q(x_1)Q_1) \tau \ldots \tau (Q(x_n)Q_1)$$
 
-#### Hệ quả {#alg-ix-s8-n2-cor-1 .statement}
+#### Hệ quả {#alg-ix-s8-n2-cor-1 .statement tag=0DN6}
 
 *Với các giả thiết và ký hiệu như trong mệnh đề 3, các phần tử $a.T_1$ ($a \in A^*$) tạo thành một hệ sinh của nhóm các kiểu của các dạng toàn phương trên A.*
 
 Do đó, tìm cấu trúc của nhóm các kiểu của các dạng toàn phương trên A tức là tìm các quan hệ $\mathbf{Z}$-tuyến tính tồn tại giữa các phần tử dạng $a.T_1$. Nếu $b \in A^*$, thì dạng $Q_1$ được xác định trong mệnh đề 4 hiển nhiên tương đương với $b^2Q_1$; do đó $a.T_1 = ab^2.T_1$, điều này cho thấy rằng $a.T_1$ chỉ phụ thuộc vào lớp của $a$ modulo nhóm con $(A^*)^2$ gồm các bình phương của các phần tử của $A^*$. Hơn nữa, từ mệnh đề 3 suy ra rằng ta có $(-a).T_1 = -a.T_1$. Tuy nhiên, nói chung còn có những quan hệ $\mathbf{Z}$-tuyến tính khác giữa các $a.T_1$ ngoài những quan hệ suy ra từ các quan hệ mà ta vừa chỉ ra.
 
-#### Mệnh đề 5 {#alg-ix-s8-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ix-s8-prop-5 .statement tag=0DN7}
 
 *Ta giả sử rằng A là một trường có thứ tự cực đại. Cho Q là một dạng toàn phương không suy biến có số chiều hữu hạn trên A, và $(s, t)$ là dấu hiệu của nó ($§ 7$, no 2, đn. 2). Khi đó kiểu của Q là $(s - t).T_1$, và nhóm $\mathfrak{W}$ các kiểu của các dạng toàn phương trên A là một nhóm đơn sinh vô hạn được sinh bởi $T_1$.
 
@@ -179,7 +179,7 @@ $$
 
 Suy ra ngay từ những gì ta vừa thấy rằng luật hợp thành này là giao hoán, kết hợp và phân phối đối với phép cộng. Nó có một phần tử đơn vị, cụ thể là kiểu $T_1$ của dạng toàn phương $Q_1$ được định nghĩa trên không gian vectơ $A$ và thỏa mãn $Q_1(1) = 1$: thật vậy, theo (5), $Q_1 \otimes Q = Q$ với mọi dạng toàn phương $Q$. Nhóm cộng $\mathfrak{B}$, được trang bị phép nhân mà ta vừa định nghĩa, vì thế là một vành giao hoán có phần tử đơn vị; nó được gọi là *vành các kiểu của các dạng toàn phương* của $A$ (hoặc là *vành Witt* của $A$, khi không có nguy cơ nhầm lẫn).
 
-#### Nhận xét 1 {#alg-ix-s8-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-ix-s8-n3-rem-1 .statement tag=0DN8}
 
 Rõ ràng là, nếu $a$ là một phần tử của $A^*$, ta có
 
@@ -190,7 +190,7 @@ $$
 
 với mọi phần tử $T, T'$ của $\mathfrak{B}$. Ngoài ra nhận thấy rằng ta có $a . T = T_a T$, ký hiệu $T_a$ là kiểu của dạng toàn phương $aQ_1$ trên $A$.
 
-#### Nhận xét 2 {#alg-ix-s8-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-ix-s8-n3-rem-2 .statement tag=0DN9}
 
 Vì $A$ có đặc số $\neq 2$, mọi phần tử $T$ của $\mathfrak{B}$ đều có thể viết dưới dạng $\sum_{i=1}^n a_i . T_1$ với $a_i \in A^*$ (No. 2, mệnh đề 4). Ta có
 
@@ -199,6 +199,6 @@ $$
 (\sum_{i=1}^n a_i . T_1)(\sum_{j=1}^q b_j . T_1) = \sum_{i,j} a_i b_j . T_1 \qquad (a_i, b_j \text{ trong } A^*).
 $$
 
-#### Nhận xét 3 {#alg-ix-s8-n3-rem-3 .statement}
+#### Nhận xét 3 {#alg-ix-s8-n3-rem-3 .statement tag=0DNA}
 
 Giả sử rằng $A$ là một *trường có thứ tự cực đại*. Khi đó vành $\mathfrak{B}$ đẳng cấu với $\mathbf{Z}$ (mệnh đề 5), số nguyên tương ứng với kiểu của một dạng có chữ ký $(s,\ t)$ là $s - t$ (*ibid.*). Vì tích tenxơ của hai dạng $Q$, $Q'$ có các chữ ký $(s,\ t)$, $(s',\ t')$ là một dạng có chiều $(s + t)\,(s' + t')$, suy ra, bằng một phép tính sơ cấp, chữ ký của $Q \otimes Q'$ là $(ss' + tt',\ st' + ts')$.

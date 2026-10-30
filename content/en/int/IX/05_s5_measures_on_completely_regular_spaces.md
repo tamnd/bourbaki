@@ -41,7 +41,7 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: dbdde57c4c4c8f4f32c2c83c2bd5d0997de00534af5f926e0d43c41a8bb7f918
+content_sha256: 0a375a056c9792c3ccd44cccce1d823b83bccfdd6973e87e8cb9fdf911d4ef53
 ---
 
 ## § 5. MEASURES ON COMPLETELY REGULAR SPACES
@@ -52,7 +52,7 @@ If T is a topological space, and F is a Banach space, the notation $C^b(T; F)$ i
 
 Recall (GT, IX, §1, No. 5, Def. 4) that a topological space T is said to be completely regular if it is uniformizable and Hausdorff. This is equivalent to saying (loc. cit., Prop. 3) that T is homeomorphic to a subspace of a compact space. If T is completely regular, then every positive lower semi-continuous function $f$ on T is the upper envelope of the increasing directed set of elements of $C^b_+(T)$ that are $\leq f$, and every positive and bounded upper semi-continuous function $g$ is the lower envelope of the decreasing directed set of elements of $C^b_+(T)$ that are $\geq g$ (loc. cit., §1, No. 6, Prop. 5). We shall need the following lemma:
 
-#### Lemma {#int-ix-s5-n1-lem-1 .statement}
+#### Lemma {#int-ix-s5-n1-lem-1 .statement tag=09QV}
 
 Let T be a completely regular space, K a compact subset of T, and U an open subset of T containing K.
 a) There exists an open subset U' of T such that $K \subset U' \subset \overline{U'} \subset U$.
@@ -60,7 +60,7 @@ b) Let f be a continuous function defined on K with values in an interval I of $
 
 It suffices to treat the case that T is a subspace of a compact space X. Let V be an open subset of X such that $V \cap T = U$; denote by $V'$ an open set in X containing K such that $\overline{V'} \subset V$, by g a continuous function on X with values in I (resp. in $\mathbf{C}$) extending f and zero on $X - V$ (GT, IX, §4, No. 1, Prop. 1). The condition a) is satisfied by taking $U' = V' \cap T$, and b) by taking $f'$ to be the restriction of g to T.
 
-#### Proposition 1 {#int-ix-s5-prop-1 .statement}
+#### Proposition 1 {#int-ix-s5-prop-1 .statement tag=09QW}
 
 — Let T be a completely regular space.
 a) Let $\mu$ be a positive measure on T, and f a numerical function $\geq 0$ defined on T and lower semi-continuous (resp. upper semi-continuous ous, finite, with compact support). Then
@@ -93,21 +93,21 @@ Clearly $|g| \leq h \leq f$, and $g = j$ on $K$, therefore $||\theta_K(j)| - |\t
 
 since $a$ is subject to the sole condition $a < |\theta|^*(f)$, this will imply that the second member of (2) is $\geqslant$ the first, whence the proposition. Now, let F (resp. $F'$) be the set of $t \in T$ such that $|k(t)| \leq h(t)$ (resp. $|k(t)| \geq h(t)$). These sets being closed, and their union being T, it will suffice to show that $g_F$ and $g_{F'}$ are continuous: now, this property is obvious for $g_F = k_F$, and it is so for $g_{F'}$ at the points where $k(t) \neq 0$; on the other hand, if $t \in F'$ is such that $k(t) = 0$, then also $h(t) = 0$, and the inequality $|g| \leq h$ implies that $g$ is continuous at the point $t$.
 
-#### Remark 1 {#int-ix-s5-n1-rem-1 .statement}
+#### Remark 1 {#int-ix-s5-n1-rem-1 .statement tag=09QX}
 
 Let $f$ be a positive lower semi-continuous function, and let $J_f$ be the set of positive bounded continuous functions zero outside a $\mu$-integrable open set and bounded above by $f$. One can show that $f$ is the upper envelope of $J_f$ and that $\mu^*(f) = \sup_{g \in J_f} \mu(g)$.
 
-#### Remark 2 {#int-ix-s5-n1-rem-2 .statement}
+#### Remark 2 {#int-ix-s5-n1-rem-2 .statement tag=09QY}
 
 If the measure $\mu$ is bounded, the formula $\mu^*(f) = \inf_{g \in S_f} \mu(g)$ is obviously valid for every function $f$ that is upper semi-continuous, positive and bounded.
 
-#### Proposition 2 {#int-ix-s5-prop-2 .statement}
+#### Proposition 2 {#int-ix-s5-prop-2 .statement tag=09QZ}
 
 — *Let $\eta$ and $\eta'$ be two complex measures on a completely regular space $T$, such that $\eta(f) = \eta'(f)$ for every function $f \in \mathscr{C}^b(T)$ that is integrable for $|\eta|$ and $|\eta'|$. Then $\eta = \eta'$.*
 
 Let us take up again the proof of the second part of Proposition 1, on setting $\theta = \eta - \eta'$. We can require the open set U to be integrable for $|\eta|$ and $|\eta'|$. The function $g$ is then integrable for these two measures, and the relation $\theta(g) = 0$ implies $a < 0$; therefore $|\theta|^*(f) = 0$ for every positive lower semi-continuous function $f$, whence finally $|\theta| = 0$, on taking $f = +\infty$.
 
-#### Proposition 3 {#int-ix-s5-prop-3 .statement}
+#### Proposition 3 {#int-ix-s5-prop-3 .statement tag=09R0}
 
 — *Let $\mu$ be a positive measure on a completely regular space $T$, and let $p \in [1, +\infty[$. The space $\mathscr{H}$ of functions $f \in \mathscr{C}^b(T)$, whose support is contained in a $\mu$-integrable open set, is dense in $\mathscr{L}^p(\mu)$.*
 
@@ -115,7 +115,7 @@ By Prop. 15 of §1, No. 10, it suffices to show that if K is compact in T, and i
 
 *Remark 3).* — There is an analogous statement for functions with values in a Banach space F: the subspace $\mathscr{H} \otimes F$ of $\mathscr{C}^b(T; F)$ is dense in $\mathscr{L}_F^p(\mu)$.
 
-#### Proposition 4 {#int-ix-s5-prop-4 .statement}
+#### Proposition 4 {#int-ix-s5-prop-4 .statement tag=09R1}
 
 — *In order that a bounded complex measure $\theta$ on a completely regular space $T$ be positive, it is necessary and sufficient that $\theta(f) \geq 0$ for every function $f \in \mathscr{C}_+^b(T)$.*
 
@@ -123,7 +123,7 @@ Necessity is obvious. To establish sufficiency, let us take up again the proof o
 
 ### 2. Bounded measures and linear forms on $\mathscr{C}^b(T)$
 
-#### Proposition 5 {#int-ix-s5-prop-5 .statement}
+#### Proposition 5 {#int-ix-s5-prop-5 .statement tag=09R2}
 
 — *Let T be a completely regular space, and I a continuous complex linear form on the normed space $\mathscr{C}^b(T; \mathbf{C})$. In order that there exist a bounded complex measure $\theta$ on T such that $\theta(f) = I(f)$ for all $f \in \mathscr{C}^b(T; \mathbf{C})$, it is necessary and sufficient that the following condition be satisfied:
 
@@ -141,7 +141,7 @@ $$
 
 Let $(K_n)_{n \geq 1}$ be a sequence of compact subsets of T, such that each $K_n$ satisfies (M) for $\varepsilon = 1/n$, and let $S = \bigcup K_n$; S is a Borel set in X, contained in T, and $|\nu|^*(X - T) \leq |\nu|^*(X - S) \leq |\nu|^*(X - K_n) \leq 1/n$ for all n, so that T is $\nu$-measurable and $\nu$ is concentrated on T. Let $f$ be a bounded continuous function on T; since X is the Stone–Čech compactification of T, $f$ may be extended by continuity to a function $g \in \mathscr{C}(X; \mathbf{C})$. Now let $\mu$ be the measure induced by $\nu$ on $T$; one has $\mu(f) = \nu(f^0)$. (1) Since $\nu$ is concentrated on $T$, the functions $f^0$ and $g$ are equal $\nu$-almost everywhere, therefore $\mu(f) = \nu(g) = I(g_T) = I(f)$, which completes the proof.
 
-#### Corollary {#int-ix-s5-n2-cor-1 .statement}
+#### Corollary {#int-ix-s5-n2-cor-1 .statement tag=09R3}
 
 — *With notations as in Prop. 5, suppose that there exists a bounded positive measure $\mu$ on $T$ such that $|I(f)| \leq \mu(|f|)$ for all $f \in \mathscr{C}^b(T; \mathbf{C})$; then there exists a complex measure $\theta$ on $T$ such that $\theta(f) = I(f)$ for all $f \in \mathscr{C}^b(T; \mathbf{C})$.
 
@@ -153,7 +153,7 @@ $$
 $$
 on $\mathscr{C}^b(T) \times \mathscr{M}^b(T)$ puts these two spaces in a separating duality. For, it is clear that the duality is separating in $\mathscr{C}^b(T)$ from the fact that the measures $\varepsilon_x \ (x \in T)$ belong to $\mathscr{M}^b(T)$; it is separating in $\mathscr{M}^b(T)$ by Prop. 2 of No. 1.
 
-#### Definition 1 {#int-ix-s5-def-1 .statement}
+#### Definition 1 {#int-ix-s5-def-1 .statement tag=09R4}
 
 *The weak topology on $\mathscr{M}^b(T)$ associated with the preceding duality between $\mathscr{C}^b(T)$ and $\mathscr{M}^b(T)$ is called the topology of tight convergence (or the tight topology) on $\mathscr{M}^b(T)$.*
 
@@ -164,21 +164,21 @@ $$
 \lim_{\mu} \mu(f) = \lambda(f) \quad \text{with respect to } \mathfrak{F} \text{ for every } f \in \mathscr{C}_+^b(T).
 $$
 
-#### Remark 1 {#int-ix-s5-n3-rem-1 .statement}
+#### Remark 1 {#int-ix-s5-n3-rem-1 .statement tag=09R5}
 
 If $T$ is locally compact, the tight topology is finer than the topology induced on $\mathscr{M}^b(T)$ by the vague topology, and these two topologies coincide only when $T$ is compact. For, if $T$ is not compact, the mapping $t \mapsto \varepsilon_t$ converges vaguely to 0 with respect to the filter of complements of relatively compact subsets of $T$, but does not converge tightly to 0, because the function 1 belongs to $\mathscr{C}^b(T)$ (for the relations between vague convergence and tight convergence, see Prop. 9).
 
 (1) This relation was only established above (§ 2, No. 1, Prop. 1) in the case that $f$ and $\nu$ are positive. The extension to the present situation, where $f$ and $\nu$ are complex and bounded, is immediate by linearity.
 
-#### Remark 2 {#int-ix-s5-n3-rem-2 .statement}
+#### Remark 2 {#int-ix-s5-n3-rem-2 .statement tag=09R6}
 
 It follows at once from Prop. 4 that $\mathscr{M}_+^b(T)$ is closed in $\mathscr{M}^b(T)$.
 
-#### Remark 3 {#int-ix-s5-n3-rem-3 .statement}
+#### Remark 3 {#int-ix-s5-n3-rem-3 .statement tag=09R7}
 
 If T is completely regular, the mapping $t \mapsto \varepsilon_t$ of T into $\mathscr{M}^b(T)$ is a homeomorphism (GT, IX, §1, No. 5).
 
-#### Proposition 6 {#int-ix-s5-prop-6 .statement}
+#### Proposition 6 {#int-ix-s5-prop-6 .statement tag=09R8}
 
 — Let T be a completely regular space.
 
@@ -188,7 +188,7 @@ b) Let f be an upper semi-continuous bounded function defined on T; then the fun
 
 For, one sees by Prop. 1 b) of No. 1 that $\mu \mapsto |\mu|^*(f)$ is the upper envelope of a family of functions of the form $\mu \mapsto |\mu(g)|$ with $g \in \mathscr{C}^b(T)$, hence continuous for the tight topology. This establishes a). To prove b), it suffices to choose a constant upper bound C for f, and to write $\mu(f) = \mu(C) - \mu(C - f)$; the function $\mu \mapsto \mu(C)$ is continuous, and the function $\mu \mapsto \mu(C - f)$ is lower semi-continuous on $\mathscr{M}_+^b(T)$ by the foregoing.
 
-#### Proposition 7 {#int-ix-s5-prop-7 .statement}
+#### Proposition 7 {#int-ix-s5-prop-7 .statement tag=09R9}
 
 — Let T be a completely regular space. Let $\mu$ be a bounded positive measure on T, and let f be a bounded positive function on T, such that the set of points of T where f is not continuous is locally $\mu$-negligible. Then the mapping $\lambda \mapsto \lambda^*(f)$ of $\mathscr{M}_+^b(T)$ into $\mathbf{R}$ is continuous at the point $\mu$.
 
@@ -203,7 +203,7 @@ $$
 
 One concludes by observing that $\mu^*(f') = \mu^*(f'')$, because $f'$ and $f''$ are equal locally $\mu$-almost everywhere.
 
-#### Proposition 8 {#int-ix-s5-prop-8 .statement}
+#### Proposition 8 {#int-ix-s5-prop-8 .statement tag=09RA}
 
 — Let X be a completely regular space, T a subspace of X, and i the canonical injection of T into X. Denote by W the set of bounded positive measures on X that are concentrated on T, equipped with the topology induced by $\mathscr{M}^b(X)$. Then the mapping $\mu \mapsto i(\mu)$ of $\mathscr{M}_+^b(T)$ into $\mathscr{M}^b(X)$ is a homeomorphism of $\mathscr{M}_+^b(T)$ onto W.
 
@@ -235,7 +235,7 @@ But one can replace $f'$ and $f''$ by $f^0$ in these two formulas, since the mea
 
 The statement of Prop. 8 is only valid for positive measures: the mapping $\mu \mapsto i(\mu)$ of $\mathscr{M}^b(T)$ into $\mathscr{M}^b(X)$ is injective and continuous, but is not in general a homeomorphism of $\mathscr{M}^b(T)$ onto its image. For example, take $X = \mathbf{R}$, $T = \mathbf{R} - \{0\}$; the measures $\lambda_t = \varepsilon_t - \varepsilon_{-t}$ ($t > 0$) converge tightly to 0 in $X$ as $t$ tends to 0, but do not converge tightly to 0 in $T$ (the characteristic function of $]0, +\infty[$ belongs to $\mathscr{C}^b(T)$) (cf. however the Cor. of Th. 1 of No. 5).
 
-#### Proposition 9 {#int-ix-s5-prop-9 .statement}
+#### Proposition 9 {#int-ix-s5-prop-9 .statement tag=09RB}
 
 — *Let T be a locally compact space, and let $\mathfrak{F}$ be a filter on $\mathscr{M}^b_+(T)$ that converges vaguely to a bounded measure $\mu$. For $\mathfrak{F}$ to converge tightly to $\mu$, it is necessary and sufficient that $\lim_{\lambda} \lambda(1) = \mu(1)$ with respect to $\mathfrak{F}$.*
 
@@ -251,7 +251,7 @@ for functions $g \in \mathscr{C}^b(X)$ forming a total set in $\mathscr{C}^b(X)$
 
 We first observe that if $T$ is completely regular, then $\mathscr{M}^b(T)$ is a Hausdorff topological vector space, hence is completely regular. Consequently, $\mathscr{M}_+^b(T)$ is completely regular.
 
-#### Proposition 10 {#int-ix-s5-prop-10 .statement}
+#### Proposition 10 {#int-ix-s5-prop-10 .statement tag=09RC}
 
 *Let $T$ be a Polish space; the space $\mathscr{M}_+^b(T)$ is then Polish for the tight topology.*
 
@@ -259,13 +259,13 @@ We begin by treating the case that $T$ is Polish and *compact*. The set $U$ of p
 
 Let us pass to the case that $T$ is Polish; we can suppose that $T$ is the intersection of a decreasing sequence $(G_n)$ of open sets in a metrizable compact space $X$ (GT, IX, §6, No. 1, Cor. 1 of Th. 1); the space $\mathscr{M}_+^b(T)$ is then homeomorphic to the subspace $W$ of $\mathscr{M}_+^b(X)$ consisting of the measures concentrated on $T$ (No. 3, Prop. 8), and it will suffice to show that $W$ is the intersection of a sequence of open sets in the Polish space $\mathscr{M}_+^b(X)$ (GT, *loc. cit.*, Th. 1). Now, let $W_n$ be the set of measures $\mu \in \mathscr{M}_+^b(X)$ concentrated on $G_n$; the mapping $h_n : \mu \mapsto \mu^*(X - G_n)$ on $\mathscr{M}_+^b(X)$ is upper semi-continuous (No. 3, Prop. 6), and the set $A_k^n$ of measures $\mu \in \mathscr{M}_+^b(X)$ such that $h_n(\mu) < 1/k$ is therefore open for every $k \geq 1$ and every $n \in \mathbf{N}$. The proof is completed by observing that $W = \bigcap_n W_n = \bigcap_{n,k} A_k^n$.
 
-#### Corollary 1 {#int-ix-s5-prop-10-cor-1 .statement}
+#### Corollary 1 {#int-ix-s5-prop-10-cor-1 .statement tag=09RD}
 
 *If T is a metrizable space of countable type, then $\mathscr{M}_+^b(T)$ is metrizable of countable type for the tight topology.*
 
 For, let $\hat{T}$ be the completion of T for a metric defining the topology of T; the space $\hat{T}$ is Polish, and $\mathscr{M}_+^b(T)$ is homeomorphic to the subspace of the Polish space $\mathscr{M}_+^b(\hat{T})$ consisting of the measures concentrated on T (No. 3, Prop. 8). But every subspace of a Polish space is metrizable of countable type (GT, IX, §2, No. 8).
 
-#### Corollary 2 {#int-ix-s5-prop-10-cor-2 .statement}
+#### Corollary 2 {#int-ix-s5-prop-10-cor-2 .statement tag=09RE}
 
 *If T is a completely regular Souslin (resp. Lusin) space, then the space $\mathscr{M}_+^b(T)$ is Souslin (resp. Lusin).*
 
@@ -275,7 +275,7 @@ Let T be a completely regular Souslin space (recall that for this, it suffices t
 
 ### 5. Compactness criterion for tight convergence
 
-#### Definition 2 {#int-ix-s5-def-2 .statement}
+#### Definition 2 {#int-ix-s5-def-2 .statement tag=09RF}
 
 *Let T be a topological space, and let H be a subset of $\mathscr{M}^b(T)$; one says that H satisfies Prokhorov’s condition if*
     a) $\sup_{\mu \in H} |\mu|(1) < +\infty$;
@@ -286,7 +286,7 @@ Let T be a completely regular Souslin space (recall that for this, it suffices t
 
 It can be shown that if T is completely regular, the set of conditions *a)* and *b)* is equivalent to the following condition: there exists a real function $f \geq 1$ on T, such that the set of points t of T satisfying $f(t) \leq c$ is compact for every $c \in \mathbf{R}_+$ (which in particular implies that $f$ is lower semi-continuous), and such that $\sup_{\mu \in H} |\mu|(f) < +\infty$. Moreover, when T is locally compact, one obtains an equivalent statement by requiring f to be continuous (cf. Exer. 10).
 
-#### Proposition 11 {#int-ix-s5-prop-11 .statement}
+#### Proposition 11 {#int-ix-s5-prop-11 .statement tag=09RG}
 
 *Let T be a completely regular space, and let H be a subset of $\mathscr{M}^b(T)$ that satisfies Prokhorov’s condition; then its closure $\overline{H}$ in $\mathscr{M}^b(T)$ satisfies Prokhorov’s condition.*
 
@@ -294,7 +294,7 @@ For, the functions $\mu \mapsto |\mu|^*(1)$, $\mu \mapsto |\mu|^*(T - K_\varepsi
 
 The interest of Prokhorov’s condition comes from the following theorem, whose converse will be studied later on (Th. 2).
 
-#### Theorem 1 (Prokhorov) {#int-ix-s5-thm-1 .statement}
+#### Theorem 1 (Prokhorov) {#int-ix-s5-thm-1 .statement tag=09RH}
 
 — *Let T be a completely regular space, and let H be a subset of $\mathscr{M}^b(T)$ that satisfies Prokhorov’s condition; then H is relatively compact in $\mathscr{M}^b(T)$ for the tight topology.*
 
@@ -317,7 +317,7 @@ $$
 
 since $\mu = a_1(\mu) - a_2(\mu) + ia_3(\mu) - ia_4(\mu)$, it will suffice to show that the mappings $a_j$ ($j = 1, 2, 3, 4$) converge tightly with respect to $\mathfrak{U}$. But the set $H_j$ of measures $a_j(\mu)$, where $\mu$ runs over H, satisfies Prokhorov’s condition by virtue of the relation $|a_j(\mu)| \leq |\mu|$, and is contained in $\mathscr{M}_+^b(T)$; it is therefore relatively compact in $\mathscr{M}_+^b(T)$ by the special case, and the theorem then follows at once.
 
-#### Corollary {#int-ix-s5-n5-cor-1 .statement}
+#### Corollary {#int-ix-s5-n5-cor-1 .statement tag=09RI}
 
 — Let T be a subspace of a completely regular space X, and let H be a subset of $\mathscr{M}^b(T)$ that satisfies Prokhorov’s condition. If i denotes the canonical injection of T into X, then the restriction to H of the mapping $\mu \mapsto i(\mu)$ of $\mathscr{M}^b(T)$ into $\mathscr{M}^b(X)$ is a homeomorphism of H onto its image.
 
@@ -325,7 +325,7 @@ It suffices to treat the case that H is closed (Prop. 11), hence compact; the co
 
 Recall that this result is also valid for an arbitrary subset of $\mathscr{M}_+^b(T)$ (No. 3, Prop. 8).
 
-#### Theorem 2 {#int-ix-s5-thm-2 .statement}
+#### Theorem 2 {#int-ix-s5-thm-2 .statement tag=09RJ}
 
 — Let T be a locally compact space, or a Polish space, and let H be a relatively compact subset of $\mathscr{M}_+^b(T)$; then H satisfies Prokhorov’s condition.
 
@@ -337,7 +337,7 @@ Suppose next that T is Polish. We do not restrict the generality by assuming tha
 
 ### 6. Tight convergence of measures and compact convergence of functions
 
-#### Proposition 12 {#int-ix-s5-prop-12 .statement}
+#### Proposition 12 {#int-ix-s5-prop-12 .statement tag=09RK}
 
 — Let T be a completely regular space, and let B be the unit ball of the normed space $\mathscr{C}^b(T; \mathbf{C})$. Let I be a linear form on $\mathscr{C}^b(T; \mathbf{C})$. In order that there exist a bounded complex measure $\theta$ on T such that $I(f) = \theta(f)$ for all $f \in \mathscr{C}^b(T; \mathbf{C})$, it is necessary and sufficient that the restriction of I to B be continuous for the topology of compact convergence. The measure $\theta$ is then unique.
 
@@ -351,7 +351,7 @@ because $|g - f|$ is bounded above by $\varepsilon$ on K and by 2 on $T - K$.
 
 Conversely, consider a linear form I on $\mathscr{C}^b(T; \mathbf{C})$ whose restriction to B is continuous for the topology of compact convergence. Then, for every number $\varepsilon > 0$, there exist a number $a > 0$ and a compact subset K of T such that the relations $f \in B, \sup_{x \in K} |f(x)| \leq a$ imply $|I(f)| \leq \varepsilon$. Prop. 5 of No. 2 then implies the existence of a unique bounded complex measure $\theta$ such that $I(f) = \theta(f)$ for all $f \in \mathscr{C}^b(T; \mathbf{C})$.
 
-#### Proposition 13 {#int-ix-s5-prop-13 .statement}
+#### Proposition 13 {#int-ix-s5-prop-13 .statement tag=09RL}
 
 — Let T be a locally compact space, and H a bounded subset of the normed space $\mathscr{C}^b(T; \mathbf{C})$. The mapping $(\mu, f) \mapsto \mu(f)$ of $\mathscr{M}_+^b(T) \times H$ into $\mathbf{C}$ is then continuous, when $\mathscr{M}_+^b(T)$ is equipped with the tight topology, and H with the topology of compact convergence.
 
@@ -377,11 +377,11 @@ $$
 $$
 This proves the continuity of the mapping $(\lambda, g) \mapsto \lambda(g)$ at the point $(\mu, f)$ of $\mathscr{M}_+^b(T) \times H$.
 
-#### Remark {#int-ix-s5-n6-rem-1 .statement}
+#### Remark {#int-ix-s5-n6-rem-1 .statement tag=09RM}
 
 Let $T$ be a completely regular space, $M$ a subset of $\mathscr{M}^b(T)$ that satisfies Prokhorov’s condition, $H$ a bounded subset of $C^b(T)$. An argument very close to the one just made may be used to prove that the mapping $(\lambda, g) \mapsto \lambda(g)$ of $M \times H$ into $\mathbf{C}$ is continuous when $M$ is equipped with the tight topology and $H$ with the topology of compact convergence.
 
-#### Corollary {#int-ix-s5-n6-cor-1 .statement}
+#### Corollary {#int-ix-s5-n6-cor-1 .statement tag=09RN}
 
 *Let $T$ be a completely regular space, $X$ a topological space, and $f$ a complex-valued function defined on $T \times X$, continuous and bounded. For every bounded measure $\mu$ on $T$, let $F_\mu$ be the function on $X$ defined by $F_\mu(x) = \int_T f(t, x) d\mu(t)$ for all $x \in X$.
 
@@ -408,7 +408,7 @@ $$
 
 By Th. 3 of GT, X, §3, No. 4, the mapping $(m, \chi) \mapsto \chi(m)$ of $M \times X$ into $\mathbf{C}$ is continuous and bounded. The corollary of Prop. 13 of No. 6 then implies the following result:
 
-#### Proposition 14 {#int-ix-s5-prop-14 .statement}
+#### Proposition 14 {#int-ix-s5-prop-14 .statement tag=09RO}
 
 *For every bounded complex measure $\mu$ on $M$, the function $\mathscr{L}\mu$ on $X$ is continuous and bounded. If $\mathscr{M}_+^b(M)$ is equipped with the tight topology and $\mathscr{C}^b(X; \mathbf{C})$ with the topology of compact convergence, the mapping $\mu \mapsto \mathscr{L}\mu$ of $\mathscr{M}_+^b(M)$ into $\mathscr{C}^b(X; \mathbf{C})$ is continuous.*
 
@@ -416,7 +416,7 @@ The set of characters of $M$ that tend to 0 at infinity will be denoted $X_0$; t
 
 Suppose in addition that $M$ is a noncompact abelian *group*. Let $f$ be a function on $M$ that tends to 0 at infinity; the same is then true of the function $x \mapsto f(x)f(-x)$ on $M$, whereas every character $\chi$ of $M$ satisfies $\chi(x)\chi(-x) = \chi(0) = 1$. It follows that $X_0$ is empty, and that $X$ does not contain any full submonoid. Thus, Theorem 3 below does not apply to locally compact groups that are not compact.
 
-#### Theorem 3 {#int-ix-s5-thm-3 .statement}
+#### Theorem 3 {#int-ix-s5-thm-3 .statement tag=09RP}
 
 *Let S be a full submonoid of X.*
 a) *If $\mu$ and $\mu'$ are two bounded complex measures on $M$, such that $\mathscr{L}\mu$ and $\mathscr{L}\mu'$ have the same restriction to $S \cap X_0$, then $\mu = \mu'$.*
@@ -435,7 +435,7 @@ Let us place ourselves under the hypotheses of b). The number $\Phi(1) = \lim_{\
 
 Finally, let us pass to c). Since the functions $\Phi$ and $\mathscr{L} \mu$ are continuous at the point $1 \in S$, and equal on $S \cap X_0$, and since $1$ is in the closure of $S \cap X_0$, we have $\Phi(1) = \mathscr{L} \mu(1)$. In other words, $\lim_{\lambda, \mathfrak{F}} \lambda(1) = \mu(1)$. Prop. 9 of No. 3 then shows that $\mu$ is the tight limit of the filter $\mathfrak{F}$. Every element of $S$ being a bounded continuous function on $M$, this implies that $\Phi(s) = \lim_{\lambda, \mathfrak{F}} \lambda(s) = \mu(s) = \mathscr{L} \mu(s)$ for all $s \in S$.
 
-#### Corollary {#int-ix-s5-n7-cor-1 .statement}
+#### Corollary {#int-ix-s5-n7-cor-1 .statement tag=09RQ}
 
 — *Let $S$ be a full submonoid of $X$, such that the closure of $S \cap X_0$ contains 1. Let $L$ be the subset of $\mathscr{C}^b(S; \mathbf{C})$ consisting of the restrictions to $S$ of the Laplace transforms of the measures $\lambda \in \mathscr{M}_+^b(M)$.*
 
@@ -453,7 +453,7 @@ One must be on guard that L is not closed in the set of all bounded complex func
 
 Every measure $\mu$ on N may be written in a unique way in the form $\mu = \sum_{n \in \mathbf{N}} u_n \cdot \varepsilon^n$, and $\mu$ is bounded if and only if $\sum_n |u_n| < +\infty$; one then has $\mathscr{L}\mu(z) = \sum_{n \in \mathbf{N}} u_n z^n$ for $z \in D$. This function is continuous on D; it is customary to call it the *generating function* of the summable sequence $(u_n)_{n \in \mathbf{N}}$. Transcribed into this language, Th. 3 yields the following result (taking into account Prop. 9 of No. 3):
 
-#### Proposition 15 {#int-ix-s5-prop-15 .statement}
+#### Proposition 15 {#int-ix-s5-prop-15 .statement tag=09RR}
 
 *Let A be a set equipped with a filter $\mathfrak{F}$. For every $\alpha \in A$, let $(u_{\alpha,n})_{n \in \mathbf{N}}$ be a summable sequence of positive numbers, and let $\Phi_\alpha$ be the function defined on the interval ]0, 1] of \mathbf{R} by $\Phi_\alpha(x) = \sum_{n \in \mathbf{N}} u_{\alpha,n} x^n$. In order that there exist a summable sequence $(u_n)_{n \in \mathbf{N}}$ of positive numbers such that*
 
@@ -467,7 +467,7 @@ Analogous results are obtained by taking M to be the monoid $\mathbf{N}^n$, wher
 
 Example 2). — Let us take for M the set $\mathbf{R}_+$, equipped with the law of addition and with the usual topology. Let P be the set of complex numbers z with positive real part, equipped with the topology induced by C, and with the law induced by addition in C. For every $p \in P$, denote by $f(p)$ the character $x \mapsto e^{-px}$ of $\mathbf{R}_+$; it is easily verified that $f$ is an isomorphism of the topological monoid structure of P onto that of X; we shall identify X with P by means of $f$. It is clear that $\mathbf{R}_+$ is a full submonoid of P, and Th. 3 yields the following result:
 
-#### Proposition 16 {#int-ix-s5-prop-16 .statement}
+#### Proposition 16 {#int-ix-s5-prop-16 .statement tag=09RS}
 
 *Let A be a set equipped with a filter $\mathscr{F}$. For every $\alpha \in A$, let $\mu_\alpha$ be a bounded positive measure on $\mathbf{R}_+$, and let $\Phi_\alpha$ be the function defined on $\mathbf{R}_+$ by $\Phi_\alpha(p) = \int_0^{+\infty} e^{-px} d\mu_\alpha(x)$. In order that the mapping $\alpha \mapsto \mu_\alpha$ converge tightly with respect to $\mathscr{F}$ to a bounded positive measure $\mu$, it is necessary and sufficient that $\Phi_\alpha$ converge pointwise on $\mathbf{R}_+$, with respect to $\mathscr{F}$, to a function $\Phi$ continuous at the point 0. In this case, $\Phi(p) = \int_0^{+\infty} e^{-px} d\mu(x)$ for all $p \in \mathbf{R}_+$.*
 

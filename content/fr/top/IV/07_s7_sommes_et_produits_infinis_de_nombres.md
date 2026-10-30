@@ -37,7 +37,7 @@ subsections:
       pdf_page: 309
 statements: 26
 exercises: 22
-content_sha256: b7f64136390f99ab1e1376b8d47c04e17c9b7622aa920feb12aaceb743b1405a
+content_sha256: 0c98931a7736001233794e1cbdf5bcdae834ad29bc0c8e2ca21530659da907ed
 ---
 
 ## § 7. SOMMES ET PRODUITS INFINIS DE NOMBRES RÉELS
@@ -46,28 +46,28 @@ Comme tout point de $\mathbf{R}$ possède un système fondamental *dénombrable*
 
 ### 1. Familles sommables dans $\mathbf{R}$ de nombres finis positifs
 
-#### Théorème 1 {#top-iv-s7-thm-1 .statement}
+#### Théorème 1 {#top-iv-s7-thm-1 .statement tag=0BT9}
 
 *Pour qu’une famille $(x_i)$ de nombres réels finis $\geqslant 0$ soit sommable dans $\mathbf{R}$, il faut et il suffit que l’ensemble des sommes partielles finies de cette famille soit majoré dans $\mathbf{R}$. La borne supérieure de cet ensemble est alors la somme de la famille $(x_i)$.*.
 
 En effet, pour toute partie finie $H$ de l’ensemble d’indices $I$, posons $s_H = \sum_{i \in H} x_i$; comme les $x_i$ sont $\geqslant 0$, la relation $H \subset H'$ entraîne $s_H \leqslant s_{H'}$. En d’autres termes, l’application $H \mapsto s_H$ est *croissante* dans l’ensemble filtrant $\mathfrak{F}(I)$ des parties finies de $I$; donc (IV, p. 18, corollaire), pour qu’elle ait une limite finie, il faut et il suffit qu’elle soit *majorée*.
 
-#### Remarque {#top-iv-s7-n1-rem-1 .statement}
+#### Remarque {#top-iv-s7-n1-rem-1 .statement tag=0BTA}
 
 Soit $(H_\lambda)$ une famille de parties finies de $I$ telle que, pour toute partie finie $H$ de $I$, il existe un indice $\lambda$ tel que $H \subset H_\lambda$; pour que $(x_i)$ soit sommable, il faut et il suffit évidemment que la famille des $s_{H_\lambda}$ soit *majorée* dans $\mathbf{R}$. En particulier, soit $(x_n)$ une suite de nombres finis $\geqslant 0$, et posons, pour tout entier $n$, $s_n = \sum_{p=0}^n x_p$; pour que la suite $(x_n)$ soit sommable dans $\mathbf{R}$, il faut et il suffit que, pour *une suite* d’entiers strictement croissante $(n_k)$, la suite partielle $(s_{n_k})$ soit *majorée* dans $\mathbf{R}$.
 
-#### Exemple 1 {#top-iv-s7-n1-exa-1 .statement}
+#### Exemple 1 {#top-iv-s7-n1-exa-1 .statement tag=0BTC}
 
 Pour tout nombre $q$ tel que $0 \leqslant q < 1$, la suite $(q^n)$ (*« progression géométrique de raison $q$ »*) est sommable dans $\mathbf{R}$, car $s_n = \frac{1 - q^{n+1}}{1 - q} \leqslant \frac{1}{1 - q}$; la somme de cette suite est $\lim_{n \to \infty} s_n = \frac{1}{1 - q}$.
 
-#### Exemple 2 {#top-iv-s7-n1-exa-2 .statement}
+#### Exemple 2 {#top-iv-s7-n1-exa-2 .statement tag=0BTD}
 
 Soient $a$ et $b$ deux nombres tels que $0 \leqslant a < 1,\ 0 \leqslant b < 1$; la famille $(a^m b^n)_{(m,n) \in \mathbf{N} \times \mathbf{N}}$ est sommable dans $\mathbf{R}$. En effet, toute partie finie de $\mathbf{N} \times \mathbf{N}$ est contenue dans une partie de la forme $(0, p) \times (0, p)$; et l’on a
 $$
 \sum_{m=0}^p \sum_{n=0}^p a^m b^n = \left( \sum_{m=0}^p a^m \right) \left( \sum_{m=0}^p b^n \right) = \frac{1 - a^{p+1}}{1 - a} \cdot \frac{1 - b^{p+1}}{1 - b} \leqslant \frac{1}{(1 - a)(1 - b)}.
 $$
 
-#### Exemple 3 {#top-iv-s7-n1-exa-3 .statement}
+#### Exemple 3 {#top-iv-s7-n1-exa-3 .statement tag=0BTE}
 
 Pour tout entier $p > 1$, la suite $(n^{-p})$ ($n > 0$) est sommable, car on a
 $$
@@ -78,7 +78,7 @@ $$
 s_{2^n} < \frac{1}{1 - 2^{1-p}}.
 $$
 
-#### Exemple 4 {#top-iv-s7-n1-exa-4 .statement}
+#### Exemple 4 {#top-iv-s7-n1-exa-4 .statement tag=0EAD}
 
 La suite $(1/n)$ ($n > 0$) n’est pas sommable dans $\mathbf{R}$, car on a
 $$
@@ -90,11 +90,11 @@ s_{2^n} > n/2
 $$
 et le critère du th. 1 n’est donc pas satisfait.
 
-#### Exemple 5 {#top-iv-s7-n1-exa-5 .statement}
+#### Exemple 5 {#top-iv-s7-n1-exa-5 .statement tag=0EAE}
 
 Soit $(I_n)$ une suite d’intervalles ouverts non vides, sans point commun deux à deux, contenus dans un intervalle de longueur finie $l$; la somme des longueurs d’un nombre fini d’intervalles de cette famille est $\leq l$ (IV, p. 5), donc la famille des longueurs des $I_n$ est sommable dans $\mathbf{R}$, et sa somme est $\leq l$.
 
-#### Théorème 2 (principe de comparaison) {#top-iv-s7-thm-2 .statement}
+#### Théorème 2 (principe de comparaison) {#top-iv-s7-thm-2 .statement tag=0BTB}
 
 *Soient* $(x_i)_{i \in I}$ *et* $(y_i)_{i \in I}$ *deux familles de nombres finis* $\geq 0$, *telles que* $x_i \leq y_i$ *quel que soit* $i$. *Si* $(y_i)$ *est sommable dans* $\mathbf{R}$, *il en est de même de* $(x_i)$ *et on a* $\sum_i x_i \leq \sum_i y_i$; *si en outre il existe un indice* $\kappa$ *tel que* $x_\kappa < y_\kappa$, *on a* $\sum_i x_i < \sum_i y_i$.
 
@@ -105,7 +105,7 @@ $$
 
 Ce théorème fournit le critère le plus fréquemment employé pour décider si une suite $(x_n)$ de nombres positifs est ou non sommable dans $\mathbf{R}$; on cherche à la comparer à une suite $(y_n)$ plus simple, pour laquelle on sait déjà si elle est sommable ou non; s’il existe un nombre fini $a > 0$ tel que $x_n \leq ay_n$ pour tout $n$ à partir d’un certain rang, et si $(y_n)$ est sommable, il en est de même de $(x_n)$; si au contraire il existe un nombre fini $b > 0$ tel que $x_n \geq by_n$ pour tout $n$ à partir d’un certain rang, et si $(y_n)$ n’est pas sommable dans $\mathbf{R}$, $(x_n)$ n’est pas sommable dans $\mathbf{R}$. Nous verrons ultérieurement (FVR, V, §4) comment peut se faire cette recherche des suites de comparaison dans les cas qui se présentent le plus fréquemment.
 
-#### Exemple 6 {#top-iv-s7-n1-exa-6 .statement}
+#### Exemple 6 {#top-iv-s7-n1-exa-6 .statement tag=0EAF}
 
 Considérons, pour un nombre réel fini $a > 0$, la suite $\left( \frac{a^n}{n!} \right)$; soit $n_0$ le plus petit entier tel que $a < n_0$. Pour tout $n \geq n_0$, on a
 $$
@@ -114,11 +114,11 @@ $$
 
 et comme $q = \frac{a}{n_0} < 1$, la suite $(q^{n-n_0})$ est sommable, donc aussi $\left( \frac{a^n}{n!} \right)$.
 
-#### Exemple 7 {#top-iv-s7-n1-exa-7 .statement}
+#### Exemple 7 {#top-iv-s7-n1-exa-7 .statement tag=0EAG}
 
 Soit $(a_n)$ une suite sommable de nombres positifs; comme $\lim_{n \to \infty} a_n = 0$, il existe un entier $n_0$ tel que, pour $n \geq n_0$, $a_n \leq 1$; par suite, pour tout $n \geq n_0$, $a_n^2 \leq a_n$, ce qui montre que la suite $(a_n^2)$ est sommable dans $\mathbf{R}$; il en est de même de $(a_n^p)$ pour tout entier $p > 1$.
 
-#### Exemple 8 {#top-iv-s7-n1-exa-8 .statement}
+#### Exemple 8 {#top-iv-s7-n1-exa-8 .statement tag=0EAH}
 
 Soient $a$ et $b$ deux nombres tels que $a > 1, b > 1$; on a
 
@@ -128,7 +128,7 @@ $$
 
 donc la famille $\left( \frac{1}{a^m + b^n} \right)$ est sommable dans $\mathbf{R}$.
 
-#### Corollaire {#top-iv-s7-n1-cor-1 .statement}
+#### Corollaire {#top-iv-s7-n1-cor-1 .statement tag=0BTF}
 
 *Soit* $(x_i)_{i \in I}$ *une famille sommable dans* $\mathbf{R}$ *de nombres finis* $\geq 0$; *pour toute partie* $\mathbf{H}$ *de* $\mathbf{I}$, *on a*
 
@@ -140,7 +140,7 @@ $$
 
 ### 2. Familles sommables dans $\mathbf{R}$ de nombres finis de signe quelconque
 
-#### Théorème 3 {#top-iv-s7-thm-3 .statement}
+#### Théorème 3 {#top-iv-s7-thm-3 .statement tag=0BTG}
 
 *Soit* $(x_i)_{i \in I}$ *une famille de nombres réels finis*. *Les propriétés suivantes sont équivalentes*:
 
@@ -162,7 +162,7 @@ En outre, si $(x_i)$ est une famille sommable de nombres réels finis, et $a$ un
 
 ### 3. Produit de deux sommes infinies
 
-#### Proposition 1 {#top-iv-s7-prop-1 .statement}
+#### Proposition 1 {#top-iv-s7-prop-1 .statement tag=0BTH}
 
 Si les familles $(x_\lambda)_{\lambda \in L}$ et $(y_\mu)_{\mu \in M}$ de nombres réels finis sont sommables dans $\mathbf{R}$, il en est de même de la famille $(x_\lambda y_\mu)_{(\lambda, \mu) \in L \times M}$ et on a
 
@@ -188,11 +188,11 @@ d’où la proposition.
 
 Dans le groupe multiplicatif $\mathbf{R}^*$ des nombres réels finis et $\neq 0$, une famille $(x_i)_{i \in I}$ ne peut être multipliable que si $\lim x_i = 1$ suivant le filtre des complémentaires des parties finies de $I$ (III, p. 38, prop. 1). En particulier, il ne peut y avoir qu’un nombre fini d’indices $i$ tels que $x_i < 0$. Nous pouvons donc nous borner à ne considérer que des familles $(x_i)$ dont tous les termes soient strictement positifs; il est commode alors de poser $x_i = 1 + u_i$, où les $u_i$ sont soumis aux conditions $-1 < u_i < +\infty$ quel que soit $i$. Comme tout point de $\mathbf{R}^*$ a un système fondamental dénombrable de voisinages, l’ensemble des $i$ tels que $u_i \neq 0$ est dénombrable si la famille $(1 + u_i)$ est multipliable dans $\mathbf{R}^*$.
 
-#### Théorème 4 {#top-iv-s7-thm-4 .statement}
+#### Théorème 4 {#top-iv-s7-thm-4 .statement tag=0BTI}
 
 Pour que la famille $(1 + u_i)$ soit multipliable dans $\mathbf{R}^*$, il faut et il suffit que la famille $(u_i)$ soit sommable dans $\mathbf{R}$.
 
-#### Lemme {#top-iv-s7-n4-lem-1 .statement}
+#### Lemme {#top-iv-s7-n4-lem-1 .statement tag=0BTJ}
 
 1° Si $(a_i)_{1 \leq i \leq p}$ est une suite finie de nombres $> 0$,
 
@@ -255,7 +255,7 @@ Dans V, §4, l’étude topologique du groupe $\mathbf{R}^*$ nous permettra de d
 
 Dans l’intervalle $(0, +\infty)$ de $\overline{\mathbf{R}}$, l’addition est une loi de composition associative et commutative (IV, p. 16); donc la notion de famille sommable de nombres de cet intervalle est encore définie (III, p. 37, Remarque 3).
 
-#### Proposition 2 {#top-iv-s7-prop-2 .statement}
+#### Proposition 2 {#top-iv-s7-prop-2 .statement tag=0BTK}
 
 Toute famille $(x_i)$ de nombres réels positifs est sommable dans $\overline{\mathbf{R}}$.
 
@@ -265,19 +265,19 @@ Le même raisonnement montre que toute famille de nombres réels négatifs est s
 
 De même, la multiplication est une loi de composition associative et commutative dans chacun des intervalles $(0, 1)$ et $(1, +\infty)$ de $\overline{\mathbf{R}}$; la notion de famille multipliable est donc définie dans chacun de ces intervalles.
 
-#### Proposition 3 {#top-iv-s7-prop-3 .statement}
+#### Proposition 3 {#top-iv-s7-prop-3 .statement tag=0BTL}
 
 Toute famille $(1 + u_i)$ (resp. $(1 - u_i)$) de nombres $\geq 1$ (resp. $\geq 0$ et $\leq 1$) est multipliable dans $\overline{\mathbf{R}}$.
 
 Même démonstration que pour la prop. 2.
 
-#### Corollaire {#top-iv-s7-n5-cor-1 .statement}
+#### Corollaire {#top-iv-s7-n5-cor-1 .statement tag=0BTM}
 
 Pour que le produit $\prod_i (1 + u_i)$ (resp. $\prod_i (1 - u_i)$) de nombres $\geq 1$ (resp. strictement positifs et $\leq 1$) soit égal à $+\infty$ (resp. à 0), il faut et il suffit que $\sum_i u_i = +\infty$.
 
 En effet, si $\sum_i u_i$ est finie, $\prod_i (1 + u_i)$ et $\prod_i (1 - u_i)$ appartiennent à $\mathbf{R}^*$, et réciproquement, d’après le th. 4 de IV, p. 35.
 
-#### Remarque {#top-iv-s7-n5-rem-1 .statement}
+#### Remarque {#top-iv-s7-n5-rem-1 .statement tag=0BTN}
 
 Le théorème d’associativité (III, p. 39, th. 2) est encore valable quand on remplace G par $\overline{\mathbf{R}}$ et qu’on suppose les $x_i \geq 0$. En effet, cela est évident si $\sum_{i \in I} x_i$ est fini; supposons au contraire $\sum_{i \in I} x_i = +\infty$. Alors, pour tout $a$ fini et $> 0$ il existe une partie finie H de I telle que $\sum_{i \in H} x_i \geq a$; soit K une partie finie de L telle que $H \subset \bigcup_{\lambda \in K} I_\lambda$; comme on a $s_\lambda \geq \sum_{i \in I_\lambda \cap H} x_i$ pour tout $\lambda \in K$, on a
 
@@ -289,11 +289,11 @@ $$
 
 On dit simplement qu’une série de nombres réels finis est convergente lorsqu’elle est convergente dans $\mathbf{R}$.
 
-#### Définition 1 {#top-iv-s7-def-1 .statement}
+#### Définition 1 {#top-iv-s7-def-1 .statement tag=0BTO}
 
 Une série de nombres réels finis est dite absolument convergente si la série des valeurs absolues de ses termes est convergente.
 
-#### Proposition 4 {#top-iv-s7-prop-4 .statement}
+#### Proposition 4 {#top-iv-s7-prop-4 .statement tag=0BTP}
 
 Pour qu’une série de nombres réels finis soit commutativement convergente, il faut et il suffit qu’elle soit absolument convergente.
 
@@ -303,7 +303,7 @@ Autrement dit, si $(u_n)$ est une suite de nombres réels finis, il revient au m
 
 Comme on l’a déjà signalé (III, p. 43), une série de nombres réels peut être convergente sans être commutativement convergente, ou, ce qui revient au même, sans être absolument convergente.
 
-#### Exemple {#top-iv-s7-n6-exa-1 .statement}
+#### Exemple {#top-iv-s7-n6-exa-1 .statement tag=0BTQ}
 
 Séries alternées. — Une série définie par une suite $(u_n)$ de nombres réels finis, est dite alternée si $u_n = (-1)^n v_n$, avec $v_n \geq 0$ quel que soit $n$. Montrons qu’une condition suffisante pour qu’une telle série converge, est que la suite $(v_n)$ soit décroissante et ait pour limite 0. En effet, si on pose $s_n = \sum_{p=0}^n u_p$, l’hypothèse que $(v_n)$ est décroissante entraîne que
 
@@ -329,11 +329,11 @@ Il faut noter que, si on suppose la série $(v_n)$ convergente mais non absolume
 
 On dit simplement qu’un produit infini de nombres réels finis et $\neq 0$ est convergent s’il est convergent dans $\mathbf{R}^*$; sa valeur est donc un nombre fini et non nul.
 
-#### Définition 2 {#top-iv-s7-def-2 .statement}
+#### Définition 2 {#top-iv-s7-def-2 .statement tag=0BTR}
 
 Un produit infini de facteur général $1 + u_n$ est dit absolument convergent si le produit de facteur général $1 + |u_n|$ est convergent.
 
-#### Proposition 5 {#top-iv-s7-prop-5 .statement}
+#### Proposition 5 {#top-iv-s7-prop-5 .statement tag=0BTS}
 
 Pour qu’un produit infini de nombres réels finis soit commutativement convergent, il faut et il suffit qu’il soit absolument convergent.
 
@@ -343,7 +343,7 @@ De plus, pour que le produit de facteur général $1 + u_n$ soit absolument conv
 
 Un produit de nombres réels $\neq 0$ peut être convergent sans être commutativement convergent, ou, ce qui revient au même, sans être absolument convergent.
 
-#### Exemple {#top-iv-s7-n6-exa-2 .statement}
+#### Exemple {#top-iv-s7-n6-exa-2 .statement tag=0BTT}
 
 Si on prend, pour $n \geq 2$, $u_{2n-1} = -1/n, u_{2n} = 1/n$, le produit $(1 + u_n)$ n’est pas absolument convergent, puisque la série $(u_n)$ n’est pas absolument convergente; mais, comme
 

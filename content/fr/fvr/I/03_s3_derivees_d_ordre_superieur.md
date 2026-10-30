@@ -21,7 +21,7 @@ subsections:
       pdf_page: 27
 statements: 7
 exercises: 18
-content_sha256: 07ea58708563e598f07c4a1fb20e909cfe920f6b22a1bf94fc1ada101fcf4c9c
+content_sha256: 48c48156a761dcc9d176c991c32206bca45abda35196af202723c1ceef93ef94
 ---
 
 ## § 3. DÉRIVÉES D’ORDRE SUPÉRIEUR
@@ -42,7 +42,7 @@ $$
 
 De façon précise, lorsque l’un des deux membres de (1) est défini, l’autre est défini et lui est égal.
 
-#### Proposition 1 {#fvr-i-s3-prop-1 .statement}
+#### Proposition 1 {#fvr-i-s3-prop-1 .statement tag=084Y}
 
 L’ensemble des fonctions vectorielles définies dans un intervalle $I \subset \mathbf{R}$, prenant leurs valeurs dans un même espace vectoriel topologique $E$, et admettant une dérivée $n$-ème dans $I$, est un espace vectoriel sur $\mathbf{R}$, et $\mathbf{f} \mapsto D^n\mathbf{f}$ est une application linéaire de cet espace dans l’espace vectoriel des applications de $I$ dans $E$.
 
@@ -57,7 +57,7 @@ $$
 
 lorsque $\mathbf{f}$ et $\mathbf{g}$ ont une dérivée $n$-ème dans $I$ ($a$ constante).
 
-#### Proposition 2 (« formule de Leibniz ») {#fvr-i-s3-prop-2 .statement}
+#### Proposition 2 (« formule de Leibniz ») {#fvr-i-s3-prop-2 .statement tag=084Z}
 
 Soient $E, F, G$ trois espaces vectoriels topologiques sur $\mathbf{R}$, $(\mathbf{x}, \mathbf{y}) \mapsto [\mathbf{x}, \mathbf{y}]$ une application bilinéaire continue de $E \times F$ dans $G$. Si $\mathbf{f}$ (resp. $\mathbf{g}$) est définie dans un intervalle $I \subset \mathbf{R}$, prend ses valeurs dans $E$ (resp. $F$) et admet une dérivée n-ème dans I, [f.g] admet dans I une dérivée n-ème donnée par la formule
 
@@ -85,7 +85,7 @@ Soit f une fonction vectorielle définie dans un intervalle I ⊂ $\mathbf{R}$, 
 
 autrement dit, que f est « approximativement égale » à la fonction linéaire $f(a) + f'(a)(x-a)$ au voisinage de a (cf. chap. V, où cette notion est développée de façon générale). Nous allons voir que l’existence de la dérivée d’ordre n de f au point a entraîne de la même manière que f est « approximativement égale » à un polynôme en x, de degré n, à coefficients dans E (TG, X, p. 39) au voisinage de a. De façon précise:
 
-#### Théorème 1 {#fvr-i-s3-thm-1 .statement}
+#### Théorème 1 {#fvr-i-s3-thm-1 .statement tag=0850}
 
 Si la fonction f admet une dérivée n-ème au point a, on a
 
@@ -114,7 +114,7 @@ où $u(x)$ tend vers 0 lorsque $x$ tend vers $a$ en restant dans $I$; cette form
 
 Lorsque $f$ admet une *dérivée d’ordre n + 1* dans $I$, on peut avoir en fonction de cette dérivée $(n+1)$-ème une majoration de $\|r_n(x)\|$ valable dans $I$ tout entier, et non seulement dans un voisinage non précisé de $a$:
 
-#### Proposition 3 {#fvr-i-s3-prop-3 .statement}
+#### Proposition 3 {#fvr-i-s3-prop-3 .statement tag=0851}
 
 *Si $\|f^{(n+1)}(x)\| \leq M$ dans $I$, on a*
 $$
@@ -128,7 +128,7 @@ $$
 $$
 d’où la formule (9) par application du th. des accroissements finis (I, p. 23, th. 2).
 
-#### Corollaire {#fvr-i-s3-n2-cor-1 .statement}
+#### Corollaire {#fvr-i-s3-n2-cor-1 .statement tag=0852}
 
 Si f est une fonction numérique finie admettant une dérivée (n + 1)-ème dans I, et si m $\leq f^{(n+1)}(x) \leq M$ dans I, on a, pour tout $x \geq a$ dans I
 
@@ -140,7 +140,7 @@ le second membre ne pouvant être égal au premier (resp. au troisième) que si 
 
 La démonstration se fait de la même manière, mais en appliquant le th. 1 de I, p. 17.
 
-#### Remarque 1 {#fvr-i-s3-n2-rem-1 .statement}
+#### Remarque 1 {#fvr-i-s3-n2-rem-1 .statement tag=0853}
 
 On a déjà noté, au cours de la démonstration du th. 1, que si $\mathbf{f}$ admet une dérivée n-ème dans I, et si
 
@@ -156,7 +156,7 @@ $$
 
 On dit qu’il s’obtient en *dérivant terme à terme* le développement (11) de $\mathbf{f}$.
 
-#### Remarque 2 {#fvr-i-s3-n2-rem-2 .statement}
+#### Remarque 2 {#fvr-i-s3-n2-rem-2 .statement tag=0854}
 
 Dans les mêmes hypothèses, les coefficients $a_i$ de (11) sont déterminés par récurrence par les relations
 
@@ -184,7 +184,7 @@ $$
 
 $r_n(x^p)$ étant le reste du développement (cf. V, p. 11).
 
-#### Remarque 3 {#fvr-i-s3-n2-rem-3 .statement}
+#### Remarque 3 {#fvr-i-s3-n2-rem-3 .statement tag=0855}
 
 La définition de la dérivée d’ordre n et les résultats qui précèdent se généralisent de façon immédiate aux fonctions d’une variable complexe; nous n’insistons pas davantage ici sur cette question, qui sera reprise en détail dans un Livre ultérieur de cet ouvrage.
 

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 90
 statements: 43
 exercises: 12
-content_sha256: 05e567f5edd1aae6f358a56815ea4947b87cb281144eb85e0942746f41c1e89d
+content_sha256: c5907a650ad34f2fb0a91c44fc44fbacaaf8ec21219a07d5bc2c53b084886a62
 translated_from: content/en/alg/IV/06_s6_symmetric_functions.md
 source_content_sha256: cc841075e875011562ed770132cf3b06a5e0b13de383d6670be611e3e740d54c
 translation_model: gpt-5.4, gpt-5-6, gpt-5-mini, gpt-5-6-mini
@@ -96,7 +96,7 @@ $$
 \prod_{i=1}^{n} (\mathbf{X} - \mathbf{X}_i) = \sum_{k=0}^{n} (-1)^{n-k} s_{n-k} \mathbf{X}^k .
 $$
 
-#### Định lý 1 {#alg-iv-s6-thm-1 .statement}
+#### Định lý 1 {#alg-iv-s6-thm-1 .statement tag=06EE}
 
 — Ta đặt $E = A[\mathbf{X}_1, \ldots, \mathbf{X}_n]$ và $S = A[\mathbf{X}_1, \ldots, \mathbf{X}_n]^{\text{sym}}$.
 
@@ -253,7 +253,7 @@ g \mapsto g (X_1, \ldots, X_m, 0, \ldots, 0)
 $$
 là giao hoán.
 
-#### Mệnh đề 1 {#alg-iv-s6-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iv-s6-prop-1 .statement tag=06EF}
 
 *Mọi cặp số nguyên dương k, n, cho $S_k^{(n)}$ là A-môđun gồm tất cả các đa thức đối xứng theo $X_1, \ldots, X_n$, thuần nhất có bậc k. Nếu số nguyên m thỏa mãn $0 \leq k \leq m \leq n$, thì ánh xạ $f \mapsto f (X_1, \ldots, X_m, 0, \ldots, 0)$ là một đẳng cấu của $S_k^{(n)}$ lên $S_k^{(m)}$.*
 
@@ -263,7 +263,7 @@ $$
 $$
 suy ra $\alpha(j) = 0$ đối với $k < j \leq n$, do đó có khẳng định.
 
-#### Ví dụ 3 {#alg-iv-s6-n1-exa-3 .statement}
+#### Ví dụ 3 {#alg-iv-s6-n1-exa-3 .statement tag=06EG}
 
 Theo ví dụ 2 của IV, p. 64 và Mệnh đề 1 ở trên, ta có
 $$
@@ -277,7 +277,7 @@ $$
 X_1^3 = s_{1,1}^3.
 $$
 
-#### Nhận xét {#alg-iv-s6-n1-rem-1 .statement}
+#### Nhận xét {#alg-iv-s6-n1-rem-1 .statement tag=06EH}
 
 — Cho n và k là hai số nguyên dương. Ta ký hiệu bởi $\Delta_{k,n}$ tập hợp các phần tử có độ dài k trong $N^n$ và hơn nữa trang bị cho $A$, , với quan hệ thứ tự, viết $a \leq \beta$, cảm sinh bởi quan hệ thứ tự từ điển trên $N^n$ (*Set Theory*, III, p. 157), và định nghĩa một tác động của nhóm $\mathfrak{S}_n$ trên $N^n$ bởi $(\sigma a)(i) = a(\sigma^{-1}(i))$ với $\sigma \in \mathfrak{S}_n, a \in N^n$ và $l \leq i \leq n$. Hơn nữa, ta ký hiệu bởi $D_k$ tập hợp các phần tử $a = (\alpha(1), \ldots, \alpha(k))$ của $\mathbf{N}^k$ sao cho
 $$
@@ -309,7 +309,7 @@ Có thể chứng minh (xem IV, p. 101, Bài tập 13) rằng ma trận $C = (c_
 
 Giả sử bây giờ rằng $n < k$ và ta đồng nhất $N^n$ với một tập con của $N^k$ bằng ánh xạ $(a(1), \ldots, a(n)) \mapsto (a(1), \ldots, a(n), 0, \ldots, 0)$. Với mọi $a$ trong $D_k \cap N^n$ ta lại ký hiệu $O(\alpha)$ là quỹ đạo của $a$ trong $\Delta_{k,n}$ đối với phép toán của $\mathfrak{S}_n$ và định nghĩa $\mathbf{M}(\alpha)$ bởi (11). Ngoài ra ta định nghĩa $S(\alpha)$ bởi (12), khi đó các họ $(\mathbf{M}(a))_{a \in D_k \cap N^n}$ và $(S(a))_{a \in D_k \cap N^n}$ là các cơ sở của A-môđun $S_k^{(n)}$. Theo công thức (9) của IV, p. 64, ta có một công thức tương tự như (13) trong đó $D_k$ được thay bởi $D_k \cap N^n$, với cùng các số nguyên $c_{\alpha\beta}$.
 
-#### Ví dụ 4 {#alg-iv-s6-n1-exa-4 .statement}
+#### Ví dụ 4 {#alg-iv-s6-n1-exa-4 .statement tag=06EI}
 
 Theo Ví dụ 3 của IV, p. 65, ta có
 
@@ -329,13 +329,13 @@ với $n = 2$.
 
 Cho $K$ là một trường giao hoán và $X_1, X_2, \ldots, X_n$ là các bất định. Với mọi $\sigma \in S_n$ ta đã định nghĩa trong No. 1 (IV, p. 61) một tự đẳng cấu $\varphi_\sigma$ của $K[X_1, X_2, \ldots, X_n]$. Tự đẳng cấu này có một mở rộng duy nhất $\psi_\sigma$ đến trường $K(X_1, \ldots, X_n)$, và $\sigma \mapsto \psi_\sigma$ là một đơn cấu của $S_n$ vào nhóm tự đẳng cấu của $K(X_1, \ldots, X_n)$. Với mỗi $f \in K(X_1, \ldots, X_n)$ ta có $(\psi_\sigma f)(X_1, \ldots, X_n) = f(X_{\sigma(1)}, \ldots, X_{\sigma(n)})$. Các phân thức hữu tỉ $f$ sao cho $\psi_\sigma(f) = f$ với mọi $\sigma \in S_n$ được gọi là các phân thức hữu tỉ đối xứng. Tập hợp tất cả các phân thức hữu tỉ đối xứng theo $X_1, \ldots, X_n$ là một trường con của $K(X_1, \ldots, X_n)$.
 
-#### Mệnh đề 2 {#alg-iv-s6-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iv-s6-prop-2 .statement tag=06EJ}
 
 — *Trường các phân thức hữu tỉ đối xứng theo $X_1, \ldots, X_n$ là trường các phân thức của vành các đa thức đối xứng theo $X_1, \ldots, X_n$.*
 
 Cho $f \in K(X_1, \ldots, X_n)$ là một phân thức hữu tỉ đối xứng, và cho $u_1, v_1$ là hai phần tử của $K[X_1, \ldots, X_n]$ sao cho $f = \frac{u_1}{v_1}$. Đặt $v = \prod_{\sigma \in S_n} \psi_\sigma(v_1) \in K[X_1, \ldots, X_n]$ và $u = fv \in K[X_1, \ldots, X_n]$; khi đó $v$ là đối xứng, do đó $u$ là đối xứng, bởi vì $f$ là như vậy, và $f = \frac{u}{v}$, do đó có kết quả.
 
-#### Hệ quả {#alg-iv-s6-n2-cor-1 .statement}
+#### Hệ quả {#alg-iv-s6-n2-cor-1 .statement tag=06EK}
 
 — *Cho $s_1, s_2, \ldots, s_n$ là các đa thức đối xứng sơ cấp theo $X_1, \ldots, X_n$. Với mọi phân thức hữu tỉ $g \in K(S_1, S_2, \ldots, S_n)$ dãy $(s_1, s_2, \ldots, s_n)$ có thể được thế vào $g$ và ánh xạ $g \mapsto g(s_1, s_2, \ldots, s_n)$ là một đẳng cấu của $K(S_1, S_2, \ldots, S_n)$ lên trường các phân thức hữu tỉ đối xứng theo $X_1, \ldots, X_n$.*
 
@@ -367,7 +367,7 @@ $$
 
 sao cho $\varphi_I(S_k) = s_k$ với mỗi số nguyên $k \geq 1$.
 
-#### Định lý 2 {#alg-iv-s6-thm-2 .statement}
+#### Định lý 2 {#alg-iv-s6-thm-2 .statement tag=06EL}
 
 **a)** *Nếu I là một tập hợp hữu hạn gồm n phần tử, thì $\varphi_I$ cảm sinh một đẳng cấu bicontinuous của $A[[S_1, \ldots, S_n]]$ lên $A[[X]]^{\text{sym}}$*.
 
@@ -375,13 +375,13 @@ sao cho $\varphi_I(S_k) = s_k$ với mỗi số nguyên $k \geq 1$.
 
 Trong trường hợp a) ta đặt $B = A[[S_1, \ldots, S_n]]$ và trang bị cho đại số này tôpô cảm sinh bởi tôpô của $A[[S]]$; ta cũng ký hiệu bởi $\psi_I$ hạn chế của $\varphi_I$ vào B. Trong trường hợp b) ta đặt $B = A[[S]]$ và $\psi_I = \varphi_I$. Ta sẽ trang bị cho đại số đa thức $A[S]$ phép phân bậc kiểu N trong đó $S_k$ có trọng số k với mỗi số nguyên $k \geq 1$.
 
-#### Bổ đề 1 {#alg-iv-s6-lem-1 .statement}
+#### Bổ đề 1 {#alg-iv-s6-lem-1 .statement tag=06EM}
 
 **Cho J là một tập con hữu hạn của I, r là một số nguyên sao cho Card $J \geq r$ và f là một chuỗi lũy thừa hình thức đối xứng thuần nhất có bậc r theo các $X_i$ ($i \in I$). Cho $\bar{f}$ là chuỗi lũy thừa hình thức thu được bằng cách thay 0 cho $X_i$ với mỗi i trong $I - J$. Nếu $\bar{f} = 0$, thì ta có $f = 0$.**
 
 Đặt $f = \sum_{|\alpha| = r} a_\alpha X^\alpha$ (trong đó $|\alpha|$ là độ dài $\sum_{i \in I} \alpha_i$ của đa chỉ số $a = (\alpha_i)_{i \in I}$). Nếu $a$ là một đa chỉ số có độ dài $r$, và $J'$ là giá của $a$ (tập hợp các $i \in I$ sao cho $\alpha_i \neq 0$), thì Card $J' \leq r$, do đó tồn tại một phép hoán vị $\sigma \in S_I$ sao cho $\sigma(J') \subset J$. Đặt $\beta_i = \alpha_{\sigma^{-1}(i)}$ với $i \in I$, khi đó đơn thức $X^\beta = \prod_{i \in I} X_{\sigma(i)}^{\alpha_i}$ chỉ phụ thuộc vào các bất định $X_j$ ($j \in J$), do đó $a_\beta = 0$ theo giả thiết $\overline{f} = 0$. Vì $f$ là đối xứng, ta có $a_\alpha = a_\beta$ và vì $\alpha$ là tùy ý, ta kết luận rằng $f = 0$.
 
-#### Bổ đề 2 {#alg-iv-s6-lem-2 .statement}
+#### Bổ đề 2 {#alg-iv-s6-lem-2 .statement tag=06EN}
 
 *Cho $f$ là một chuỗi lũy thừa hình thức đối xứng có bậc $r$ theo các $X_i (i \in I)$. Tồn tại một đa thức duy nhất $P \in B \cap A[S]$, đẳng trọng số trọng số $r$, sao cho $f = \psi_1(P)$.*
 
@@ -389,7 +389,7 @@ Trường hợp khi $I$ là hữu hạn suy ra từ Định lý 1 (IV, p. 62).
 
 Giả sử rằng $I$ là vô hạn và chọn một tập con hữu hạn $J$ của $I$, chứa $r$ phần tử. Ta giữ ký hiệu của Bổ đề 1; ta nhận xét rằng mọi đa thức đẳng trọng số trọng số $r$ trong các $S_n \ (n \geq 1)$ chỉ phụ thuộc vào $S_1, \ldots, S_r$ và rằng $\overline{s}_1, \ldots, \overline{s}_r$ là các đa thức đối xứng sơ cấp theo $r$ bất định $X_j \ (j \in J)$. Nếu $P$ là một đa thức đẳng trọng số trọng số $r$ trong các $S_n$ và $h = f - \psi_1(P)$, thì $\overline{h} = \overline{f} - P(\overline{s}_1, \ldots, S_r)$ và Bổ đề 1 chỉ ra rằng quan hệ $f = \psi_1(P)$ tương đương với $\overline{f} = P(\overline{s}_1, \ldots, \overline{s}_r)$. Theo Định lý 1 (IV, p. 62) tồn tại một đa thức duy nhất $P \in A[S]$, đẳng trọng số trọng số $r$ và sao cho $\overline{f} = P(\overline{s}_1, \ldots, \overline{s}_r)$, do đó có kết quả.
 
-#### Bổ đề 3 {#alg-iv-s6-lem-3 .statement}
+#### Bổ đề 3 {#alg-iv-s6-lem-3 .statement tag=06EO}
 
 *Với mọi số nguyên $m \geq 0$, gọi $c_m$ là iđêan của đại số $A[[X]]^{sym}$ gồm tất cả các chuỗi lũy thừa hình thức đối xứng có cấp $\geq m$. Dãy $(c_m)_{m \geq 0}$ là một hệ cơ bản các lân cận của $0$ trong $A[[X]]^{sym}$.*
 
@@ -415,7 +415,7 @@ $$
 
 Đây là một chuỗi lũy thừa hình thức đối xứng, thuần nhất bậc k.
 
-#### Bổ đề 4 (« các quan hệ của Newton ») {#alg-iv-s6-lem-4 .statement}
+#### Bổ đề 4 (« các quan hệ của Newton ») {#alg-iv-s6-lem-4 .statement tag=06EP}
 
 — *Với mọi số nguyên $d \geq 1$ ta có*
 
@@ -443,7 +443,7 @@ $$
 
 và bây giờ Bổ đề 4 suy ra bằng cách so sánh các thành phần thuần nhất bậc d.
 
-#### Nhận xét {#alg-iv-s6-n4-rem-1 .statement}
+#### Nhận xét {#alg-iv-s6-n4-rem-1 .statement tag=06EQ}
 
 — Với ký hiệu của chứng minh trên, ta có
 
@@ -498,7 +498,7 @@ $$
 
 sao cho $\lambda_I(P_k) = p_k$ với mọi số nguyên $k \geq 1$ *(IV, p. 28)*. Nếu ta gán cho $P_k$ trọng số k, thì $\lambda_I$ biến một đa thức đẳng áp trọng số $n$ theo các $P_k$ thành một chuỗi lũy thừa hình thức thuần nhất bậc $n$ theo các $X_i$.
 
-#### Mệnh đề 3 {#alg-iv-s6-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iv-s6-prop-3 .statement tag=06ER}
 
 — *a) Nếu I là một tập hợp hữu hạn có n phần tử và $n! \cdot 1$ khả nghịch trong A, thì $\lambda_I$ cảm sinh một đẳng cấu song liên tục từ $A[[P_1, \ldots, P_n]]$ lên $A[[X]]^{\mathrm{sym}}$.*
 *b) Nếu I là vô hạn và A là một Q-đại số, thì $\lambda_I$ là một đẳng cấu song liên tục từ $A[[P]]$ lên $A[[X]]^{\mathrm{sym}}$.*
@@ -512,7 +512,7 @@ $$
 
 Vì $k! . 1$ khả nghịch trong $\mathbf{A}$, Bổ đề 2 của IV, p. 35 chứng minh sự tồn tại của một tự đẳng cấu $T$ của $\mathbf{A}$-đại số tôpô $\mathbf{A}[[\mathbf{X}]]^{\text{sym}}$ biến $s_k$ thành $p_k$ với $l \leq k \leq n$. Bây giờ Mệnh đề 3, a) là một hệ quả ngay lập tức.
 
-#### Hệ quả {#alg-iv-s6-n4-cor-1 .statement}
+#### Hệ quả {#alg-iv-s6-n4-cor-1 .statement tag=06ES}
 
 — *Cho $\xi_1, \ldots, \xi_n, \eta_1, \ldots, \eta_n$ là các phần tử của $\mathbf{A}$ và giả sử rằng $\mathbf{A}$ là một miền nguyên.*
 
@@ -558,7 +558,7 @@ $$
 
 trong đó iđêan $a$ được sinh bởi các đa thức $s_k + (-1)^{k+1} a_k$ với $1 \leq k \leq n$, và $x_i$ là lớp thặng dư của $X_i$ mod $a$ với $1 \leq i \in n$. Quan hệ (24) cũng tương đương với $f(X) = \prod_{i=1}^n (X - x_i)$. Khi có nguy cơ mơ hồ nào đó, ta viết $x_{1,f}, ..., x_{n,f}$ thay cho $x_1, ..., x_n$.
 
-#### Mệnh đề 4 {#alg-iv-s6-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iv-s6-prop-4 .statement tag=06ET}
 
 *Cho B là một vành giao hoán, $\rho$ là một đồng cấu của A vào B và $\xi_1, ..., 5$, là các phần tử của B. Giả sử rằng quan hệ $^\rho f(X) = \prod_{i=1}^n (X - \xi_i)$ đúng trong B[X]. Khi đó tồn tại một và chỉ một đồng cấu vành $u : E_f \to B$ sao cho $\rho(a) = u(a . 1)$ với mọi $a \in A$ và $u(x_i) = \xi_i$ với $1 \leq i \leq n$.
 
@@ -572,7 +572,7 @@ trong B. Vì các quan hệ (24) xác định một cách cho bởi các sinh v�
 
 Mệnh đề 4 biện minh cho tên gọi « đại số phân tích phổ quát của $f$ » dành cho $E_f$. Quan hệ $f(X) = \prod_{i=1}^n (X - x_{i,f})$ được gọi là « phân tích phổ quát của $f$ ». Cho $\sigma \in S_n$ là một phép hoán vị ; vì $f(X) = \prod_{i=1}^n (X - x_{\sigma(i),f})$, tồn tại một tự đẳng cấu $t_\sigma$ của A-đại số $E_f$ được đặc trưng bởi $t_\sigma(x_{i,f}) = x_{\sigma(i),f}$ với $1 \leq i \leq n$. Ta có $t_{\sigma \tau} = t_\sigma \circ t_\tau$ với $\sigma, \tau$ trong $S_n$, và do đó thu được một tác động của nhóm $\mathscr{G}$, trên A-đại số $E_f$.
 
-#### Mệnh đề 5 {#alg-iv-s6-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iv-s6-prop-5 .statement tag=06EU}
 
 *Trong đại số phân tích phổ quát $E_f$ họ các đơn thức $x_1^{\nu(1)} ... x_n^{\nu(n)}$ sao cho $0 \leq \nu(i) < i$ với $1 \leq i \leq n$ là một cơ sở của A-môđun $E_f$. Đặc biệt $E_f$ là một A-môđun tự do hạng $n!$.
 
@@ -588,13 +588,13 @@ B = a \oplus \bigoplus_{\nu \in S} AX^\nu,
 $$
 do đó suy ra Mệnh đề 5, vì $E_f = B/a$.
 
-#### Hệ quả {#alg-iv-s6-n5-cor-1 .statement}
+#### Hệ quả {#alg-iv-s6-n5-cor-1 .statement tag=06EV}
 
 — *Đồng cấu chính tắc của A vào đại số phân tích phổ quát của đa thức đơn khởi $f \in A[X]$ là đơn ánh.*
 
 Vì phần tử đơn vị của $E_f$ tạo thành một phần của một cơ sở của A-môđun $E_f$.
 
-#### Mệnh đề 6 {#alg-iv-s6-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iv-s6-prop-6 .statement tag=06EW}
 
 — *Cho $f \in A[X]$ là một đa thức đơn khởi bậc n, và cho P là một đa thức đối xứng theo $X_1, ..., X_n$ với các hệ số trong A. Khi đó tồn tại chính xác một phần tử a của A có tính chất sau:
 (FS) Với mọi đồng cấu vành $\rho : A \to B$ và mọi phân tích $^0f(X) = \prod_{i=1}^n (X - \xi_i)$ trong B[X] ta có $\rho(a) = P(\xi_1, ..., \xi_n)$.*
@@ -616,7 +616,7 @@ $$
 
 Với ký hiệu của Mệnh đề 6 đôi khi người ta viết $a = P^*(f)$. Sau đây là vài ví dụ.
 
-#### Ví dụ {#alg-iv-s6-n5-exa-1 .statement}
+#### Ví dụ {#alg-iv-s6-n5-exa-1 .statement tag=0DHL}
 
 *1) Nếu $P = s_k$, thì $P^*(f) = (-1)^k a_k$.
 \* 2) Cho g là một đa thức trong $A[X]$ và đặt
@@ -717,13 +717,13 @@ t_0 & t_1 & t_2 & u_1 & u_2 \\
 \end{pmatrix}.
 $$
 
-#### Định nghĩa 1 {#alg-iv-s6-def-1 .statement}
+#### Định nghĩa 1 {#alg-iv-s6-def-1 .statement tag=06EX}
 
 *Với ký hiệu ở trên, định thức của ma trận $M(f, g, p, q)$ được gọi là kết thức của cặp $(f, g)$ đối với các bậc $p$ và $q$, hoặc đơn giản là kết thức của $f$ và $g$ nếu $p = \deg f$ và $q = \deg g$.*
 
 Kết thức được ký hiệu bởi $\operatorname{res}_{p,q}(f, g)$ hoặc đơn giản là $\operatorname{res}(f, g)$ khi $p = \deg f$, $q = \deg g$.
 
-#### Ví dụ 1 {#alg-iv-s6-n6-exa-1 .statement}
+#### Ví dụ 1 {#alg-iv-s6-n6-exa-1 .statement tag=06EY}
 
 Cho $\Lambda, \mu$ trong $\Lambda$, ta có các công thức
 $$
@@ -734,28 +734,28 @@ $$
 $$
 mà chứng minh là ngay lập tức.
 
-#### Ví dụ 2 {#alg-iv-s6-n6-exa-2 .statement}
+#### Ví dụ 2 {#alg-iv-s6-n6-exa-2 .statement tag=06EZ}
 
 Khi $p = q = 1$, ta có
 $$
 \operatorname{res}_{1,1}(t_1 X + t_0, u_1 X + u_0) = t_1 u_0 - t_0 u_1
 $$
 
-#### Nhận xét 1 {#alg-iv-s6-n6-rem-1 .statement}
+#### Nhận xét 1 {#alg-iv-s6-n6-rem-1 .statement tag=06F0}
 
 Ma trận $M(g, f, q, p)$ thu được từ $M(f, g, p, q)$ bằng $pq$ phép hoán vị cột, do đó
 $$
 \operatorname{res}_{q,p}(g, f) = (-1)^{pq} \operatorname{res}_{p,q}(f, g)
 $$
 
-#### Nhận xét 2 {#alg-iv-s6-n6-rem-2 .statement}
+#### Nhận xét 2 {#alg-iv-s6-n6-rem-2 .statement tag=06F1}
 
 Cho $\rho : A \to B$ là một đồng cấu vành. Định nghĩa / kéo theo trực tiếp công thức
 $$
 \operatorname{res}_{p,q}(\rho f, \rho g) = \rho(\operatorname{res}_{p,q}(f, g)) .
 $$
 
-#### Nhận xét 3 {#alg-iv-s6-n6-rem-3 .statement}
+#### Nhận xét 3 {#alg-iv-s6-n6-rem-3 .statement tag=06F2}
 
 Cho $\lambda, \mu$ trong $A$, ta có
 $$
@@ -763,7 +763,7 @@ $$
 $$
 (28)
 
-#### Nhận xét 4 {#alg-iv-s6-n6-rem-4 .statement}
+#### Nhận xét 4 {#alg-iv-s6-n6-rem-4 .statement tag=06F3}
 
 Giả sử rằng $p + q \geq 1$. Theo III, p. 532, công thức (28), ảnh của $\varphi$ chứa đa thức hằng $\operatorname{res}_{p,q}(f, g)$. Do đó tồn tại một cặp đa thức $(u, v)$, với $u \in S_q, v \in S_p$ sao cho
 $$
@@ -775,7 +775,7 @@ $$
 $$
 Cặp $(u, v)$ này là duy nhất khi $\operatorname{res}_{p,q}(f, g)$ giản ước được trong $A$: vì khi đó $\varphi$ là đơn ánh (III, p. 524, Mệnh đề 3).
 
-#### Nhận xét 5 {#alg-iv-s6-n6-rem-5 .statement}
+#### Nhận xét 5 {#alg-iv-s6-n6-rem-5 .statement tag=06F4}
 
 Giả sử rằng $p \geq q$, và cho $h \in A[X]$ là một đa thức bậc $\leq p - q$. Ta sẽ chứng minh rằng
 $$
@@ -790,7 +790,7 @@ Ma trận của $w$ đối với cơ sở $B_1$ là tam giác dưới và các p
 
 Giả sử rằng $f$ là đơn nhất bậc $p$; đặt $E = A[X]/(f)$ và ký hiệu bởi $x$ ảnh chính tắc của $X$ trong $E$. Ta biết (IV, p. 11) rằng $E$ là một $A$-môđun tự do với cơ sở $(1, x, \ldots, x^{p-1})$. Do đó ta có thể định nghĩa chuẩn $N_{E/A}(u)$ của mọi phần tử $u$ của $E$ (III, p. 543, Định nghĩa 2).
 
-#### Mệnh đề 7 {#alg-iv-s6-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iv-s6-prop-7 .statement tag=06F5}
 
 — *Giả sử rằng f là đơn nhất bậc p; với các ký hiệu ở trên ta có*¹
 $$
@@ -812,7 +812,7 @@ $$
 $$
 với mọi cặp $(u, v)$ trong $S_q \times S_s$. Bây giờ ta có $A[X] = S_{p+q} + (f)$ và $fS_q = S_s \cap (f)$, do đó đơn ánh chính tắc của $S_{p-s}$ vào $A[X]$ xác định, bằng cách chuyển sang thương, một đẳng cấu $\gamma$ từ $S_{p+q}/fS_q$ lên E. Gọi $\psi$ là phép nhân bởi $g(x)$ trong E. Công thức (31) cho thấy $\varphi'$ cảm sinh đồng nhất trên $fS_q$ và $\gamma^{-1}\psi\gamma$ trên $S_{p+q}/fS_q$. Như vậy ta có $\det \varphi' = \det \psi$, do đó suy ra (30), vì $\det \varphi' = \operatorname{res}_{p,q}(f, g)$ và $\det \psi = N_{E/A}(g(x))$, theo định nghĩa.
 
-#### Hệ quả 1 {#alg-iv-s6-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#alg-iv-s6-prop-7-cor-1 .statement tag=06F6}
 
 — Cho $f \in A[X]$ là một đa thức đơn khởi; với mọi đa thức $g \in A[X]$ các điều kiện sau là tương đương:
 (i) $\operatorname{res}(f, g)$ khả nghịch trong $A$;
@@ -820,7 +820,7 @@ với mọi cặp $(u, v)$ trong $S_q \times S_s$. Bây giờ ta có $A[X] = S_{
 (iii) $g(x)$ khả nghịch trong đại số $A[X]/(f)$.
 Tính tương đương của (i) và (iii) suy ra từ Mệnh đề 3 của III, p. 545 và Mệnh đề 7; tính tương đương của (ii) và (iii) suy ra một cách hiển nhiên.
 
-#### Hệ quả 2 {#alg-iv-s6-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#alg-iv-s6-prop-7-cor-2 .statement tag=06F7}
 
 — Giả sử rằng $A$ là một trường và cho $f, g \in A[X]$, khi đó các điều kiện sau là tương đương khi $f, g$ khác không:
 (i) $\operatorname{res}(f, g) \neq 0$;
@@ -830,7 +830,7 @@ Tính tương đương của (i) và (iii) suy ra từ Mệnh đề 3 của III,
 Ta có thể rút gọn ngay về trường hợp $f$ là đơn khởi (IV, p. 77, nhận xét 3).
 Tính tương đương của (i) và (ii) chỉ là cách diễn đạt lại Hệ quả 1, theo Định nghĩa 1 của IV, p. 12; tính tương đương của (ii) và (iii) chính là Hệ quả 7 của IV, p. 13.
 
-#### Hệ quả 3 {#alg-iv-s6-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#alg-iv-s6-prop-7-cor-3 .statement tag=06F8}
 
 — Với mọi $\lambda \in A$ ta có
 $$
@@ -843,7 +843,7 @@ $$
 
 Bây giờ giả sử rằng f và g là các đa thức đơn khởi. Ta ký hiệu bởi F đại số trên A $A[X, Y]/(f(X), g(Y))$ và ký hiệu bởi x (tương ứng y) ảnh chính tắc của X (tương ứng Y) trong F.
 
-#### Mệnh đề 8 {#alg-iv-s6-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iv-s6-prop-8 .statement tag=06F9}
 
 — Giả sử rằng f và g lần lượt là đơn nhất với bậc p và q. Với ký hiệu trên, A-môđun F là tự do với cơ sở $(x^i y^j)_{0 \leq i < p,\ 0 \leq j < q}$ và ta có
 
@@ -865,7 +865,7 @@ $$
 N_{F/A}(x - y) = N_{E/A}(g(x)) = \text{res}(f, g)
 $$
 
-#### Mệnh đề 9 {#alg-iv-s6-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iv-s6-prop-9 .statement tag=06FA}
 
 — Cho $p_1$ và $q_1$ là các số nguyên dương và $f_1, g_1$ là các đa thức trong $A[X]$ sao cho $\deg f_1 \leq p_1, \deg g_1 \leq q_1$; khi đó ta có
 
@@ -878,7 +878,7 @@ $$
 
 Ta có $\text{res}_{p, q}(f, g) = (-1)^{pq} \text{res}_{q, p}(g, f)$ (IV, p. 76); do đó chỉ cần chứng minh (35). Tương tự, Nhận xét 3 (loc. cit.) cho thấy rằng nếu công thức (35) được thiết lập cho một đa thức $f$, thì nó đúng cho mọi đa thức có dạng Af, với $A \in A$. Sau hết, khi f là đơn nhất bậc p, công thức (35) suy ra từ Mệnh đề 7 (IV, p. 77) bởi công thức $N_{E/A}(ab) = N_{E/A}(a) \cdot N_{E/A}(b)$. Tóm lại ta kết luận rằng (35) đúng khi hệ số $t_p$ của $X^p$ trong f là khả nghịch.
 
-#### Bổ đề 5 {#alg-iv-s6-lem-5 .statement}
+#### Bổ đề 5 {#alg-iv-s6-lem-5 .statement tag=06FB}
 
 Cho t là một phần tử của A. Tồn tại một vành giao hoán C chứa A như một vành con, một vành con B của C chứa A, một phần tử $\tau$ của B khả nghịch trong C và một đồng cấu vành $p : B \to A$ sao cho $p(\tau) = t$ và hạn chế của p trên A bằng Id.
 
@@ -894,7 +894,7 @@ $$
 $$
 theo điều đã nói trên. Các kết thức không thay đổi nếu ta xem F, g và $g_1$ như các đa thức trong B[X]. Vì $^\rho F = f$, $^\rho g = g$, $^\rho g_1 = g_1$, công thức (35) suy ra từ (38) và Nhận xét 2 (IV, p. 77).
 
-#### Hệ quả 1 {#alg-iv-s6-lem-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-iv-s6-lem-5-cor-1 .statement tag=06FC}
 
 — (i) Cho $\lambda, \alpha_1, \ldots, \alpha_p$ là các phần tử của A và giả sử rằng $f(X) = \lambda (X - \alpha_1) \ldots (X - \alpha_p)$. Ta có
 $$
@@ -906,7 +906,7 @@ $$
 $$
 Mệnh đề (i) suy ra trực tiếp từ các công thức (28), (32) và (36). Bây giờ mệnh đề (ii) suy ra từ (i).
 
-#### Hệ quả 2 {#alg-iv-s6-lem-5-cor-2 .statement}
+#### Hệ quả 2 {#alg-iv-s6-lem-5-cor-2 .statement tag=06FD}
 
 — Với mọi số nguyên $r \geq 0$ ta có
 $$
@@ -924,7 +924,7 @@ $$
 $$
 Nhận xét này áp dụng đặc biệt cho phân tích phổ quát của f (IV, p. 73) và vì khi đó $\rho$ là đơn ánh, điều này cung cấp một cách tính $\operatorname{res}(f, g)$.
 
-#### Ví dụ 3 {#alg-iv-s6-n6-exa-3 .statement}
+#### Ví dụ 3 {#alg-iv-s6-n6-exa-3 .statement tag=06FE}
 
 Hãy chứng minh công thức
 $$
@@ -971,7 +971,7 @@ từ đó suy ra kết quả mong muốn.
 
 ### 7. Biệt thức
 
-#### Định nghĩa 2 {#alg-iv-s6-def-2 .statement}
+#### Định nghĩa 2 {#alg-iv-s6-def-2 .statement tag=06FF}
 
 *Cho $f$ là một đa thức đơn khởi của $A[X]$ bậc $m$, và ký hiệu bởi $E$ đại số $A[X]/(f)$ và bởi $x$ ảnh chính tắc của $X$ trong $E$. Ta định nghĩa biệt thức của $f$, ký hiệu $\operatorname{dis}(f)$, là biệt thức $D_{E/A}(1, x, \ldots, x^{m-1})$ của cơ sở $(1, x, \ldots, x^{m-1})$ của đại số $A$ $E$.*
 
@@ -1021,7 +1021,7 @@ $$
 \operatorname{res}(f, Df) = \operatorname{res}(Df, f) = (-1)^{m(m-1)/2} \operatorname{dis}(f).
 $$
 
-#### Mệnh đề 10 {#alg-iv-s6-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iv-s6-prop-10 .statement tag=06FG}
 
 Cho $m \geq 1$. Tồn tại một đa thức duy nhất $A \in \mathbf{Z}[A_1, \ldots, A_m]$ có tính chất sau: với mọi vành giao hoán A và mọi đa thức *đơn nhất* $f = X^m + \sum_{i=1}^m a_i X^{m-i}$ trong $A[X]$ ta có
 $$
@@ -1082,7 +1082,7 @@ $$
 
 Khi $m = \deg f$, ta sẽ viết đơn giản dis(f) thay cho $\operatorname{dis}_m(f)$; nếu f là đơn nhất thì dis(f) trùng với biệt thức đã được định nghĩa trong Đn. 2, theo (48), (51) và (52).
 
-#### Mệnh đề 11 {#alg-iv-s6-prop-11 .statement}
+#### Mệnh đề 11 {#alg-iv-s6-prop-11 .statement tag=06FH}
 
 — Cho f trong $A[X]$ có bậc $\leq m$.
 
@@ -1118,7 +1118,7 @@ $$
 
 (IV, p. 77), ta có thể suy ra trường hợp $a_0$ khả nghịch trong $A$. Trường hợp tổng quát khi đó suy ra từ Mệnh đề 11, (i) và Bổ đề 5 (IV, p. 79).
 
-#### Hệ quả 1 {#alg-iv-s6-prop-11-cor-1 .statement}
+#### Hệ quả 1 {#alg-iv-s6-prop-11-cor-1 .statement tag=06FI}
 
 — Cho $g \in A[X]$ và $n$ là một số nguyên dương sao cho $\deg g \leq n$. Ta có
 
@@ -1146,7 +1146,7 @@ $$
 
 Bình phương quan hệ này, ta thu được (57), theo (40) và (46).
 
-#### Hệ quả 2 {#alg-iv-s6-prop-11-cor-2 .statement}
+#### Hệ quả 2 {#alg-iv-s6-prop-11-cor-2 .statement tag=06FJ}
 
 — Nếu $a_0$ là hệ số của $X^m$ trong $f$, ta có
 
@@ -1156,23 +1156,23 @@ $$
 
 Điều này suy ra từ Hệ quả 1 khi lấy $n = 1,\ g = 1$, theo công thức res,,$(f,1) = a_0$ (IV, p. 76, Ví dụ 1).
 
-#### Hệ quả 3 {#alg-iv-s6-prop-11-cor-3 .statement}
+#### Hệ quả 3 {#alg-iv-s6-prop-11-cor-3 .statement tag=06FK}
 
 — Cho $A$ là một trường, và $f$ là một đa thức không hằng trong $A[X]$. Để $f$ và $Df$ nguyên tố cùng nhau, điều kiện cần và đủ là $\mathrm{dis}(f) \neq 0$.
 Điều này suy ra từ Mệnh đề 11, (iii) và Hệ quả 2 của IV, p. 78.
 
-#### Nhận xét {#alg-iv-s6-n7-rem-1 .statement}
+#### Nhận xét {#alg-iv-s6-n7-rem-1 .statement tag=06FL}
 
 Việc áp dụng hai lần Hệ quả 2 ở trên cho thấy rằng ta có $\mathrm{dis}_m(f) = 0$ đối với mọi đa thức $f$ bậc $\leq m - 2$.
 
-#### Ví dụ 3 {#alg-iv-s6-n7-exa-3 .statement}
+#### Ví dụ 3 {#alg-iv-s6-n7-exa-3 .statement tag=06FM}
 
 Cho $m = 2$. Theo Ví dụ 2 (IV, p. 81) ta có $\Delta(A_1, A_2) = A_1^2 - 4A_2$, do đó $\tilde{\Delta}(A_0, A_1, A_2) = A_1^2 - 4A_0A_2$. Nói cách khác, ta có
 $$
 \mathrm{dis}_2(a_0X^2 + a_1X + a_2) = a_1^2 - 4a_0a_2 .
 $$
 
-#### Ví dụ 4 {#alg-iv-s6-n7-exa-4 .statement}
+#### Ví dụ 4 {#alg-iv-s6-n7-exa-4 .statement tag=06FN}
 
 Xét đa thức
 $$

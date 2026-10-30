@@ -37,14 +37,14 @@ subsections:
       pdf_page: 211
 statements: 15
 exercises: 18
-content_sha256: 9641387bd6247616d6b03e2da42310e39328e198c77df217bdb2012e49d19706
+content_sha256: b751f38bd4e5dece6c5784a9b89a1ad1d9b875369cbbc901262dce75d31041d4
 ---
 
 ## § 3. DUAL D’UN ESPACE DE FRÉCHET
 
 ### 1. Espaces semi-tonnelés
 
-#### Proposition 1 {#evt-iv-s3-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s3-prop-1 .statement tag=07TU}
 
 Soit $E$ un espace localement convexe. Les conditions suivantes sont équivalentes :
 (i) Soit $U$ une partie de $E$, qui absorbe toute partie bornée de $E$, et qui est intersection d’une suite de voisinages convexes, équilibrés et fermés de 0 dans $E$. Alors $U$ est un voisinage de 0 dans $E$.
@@ -59,7 +59,7 @@ Il est clair que (iii) est un cas particulier de (ii).
 
 (iii) $\Rightarrow$ (i) : soit $(U_n)$ une suite de voisinages convexes, équilibrés et fermés de 0 dans E. On suppose que l’ensemble $U = \bigcap_n U_n$ absorbe toute partie bornée de E, donc que son polaire $U^\circ$ est borné dans $E'_b$. Alors l’ensemble $B = \bigcup_n U_n^\circ$ est contenu dans $U^\circ$, donc est borné dans $E'_b$. Si E satisfait à (iii), l’ensemble B est équicontinu dans $E'$; par suite, le polaire $B^\circ = \bigcap_n (U_n^\circ)^\circ = \bigcap_n U_n = U$ de B dans E est un voisinage de 0 dans E.
 
-#### Définition 1 {#evt-iv-s3-def-1 .statement}
+#### Définition 1 {#evt-iv-s3-def-1 .statement tag=07TV}
 
 On dit qu’un espace localement convexe E est semi-tonnelé s’il satisfait aux conditions équivalentes de la prop. 1.
 
@@ -67,7 +67,7 @@ Tout espace tonnelé est semi-tonnelé. Il en est de même de tout espace bornol
 
 ### 2. Dual d’un espace localement convexe métrisable
 
-#### Proposition 2 {#evt-iv-s3-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s3-prop-2 .statement tag=07TW}
 
 Soient E un espace localement convexe métrisable et F son dual fort. L’espace F est complet, semi-tonnelé et satisfait à la condition suivante :
 
@@ -95,7 +95,7 @@ Posons $W = \bigcap^n W_n$, d’où $W \subset U$. D’après (1) et (2), on a $
 
 Le corollaire suivant étend le th. de Banach-Steinhaus au dual d’un espace de Fréchet (*cf.* III, p. 26, cor. 2).
 
-#### Corollaire {#evt-iv-s3-n2-cor-1 .statement}
+#### Corollaire {#evt-iv-s3-n2-cor-1 .statement tag=07TX}
 
 *Soit G un espace localement convexe séparé, et soit* $(u_n)$ *une suite d’applications linéaires de F dans G, convergeant simplement vers une application u de F dans G. Alors u est continue, et la suite* $(u_n)$ *converge vers u uniformément sur toute partie précompacte de F.*
 
@@ -103,7 +103,7 @@ Comme F est complet, l’ensemble des $u_n$, qui est borné pour la topologie de
 
 ### 3. Bidual d’un espace localement convexe métrisable
 
-#### Proposition 3 {#evt-iv-s3-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s3-prop-3 .statement tag=07TY}
 
 *Soient E un espace localement convexe métrisable, $E'_b$ son dual fort et G un espace de Fréchet. L’espace $\mathscr{L}_b(E'_b; G)$ est un espace de Fréchet.*
 
@@ -111,13 +111,13 @@ D’après la prop. 2 (IV, p. 21), il existe une suite $(A_n)$ de parties borné
 
 Pour montrer que $\mathscr{L}_b(E'_b ; G)$ est complet, il suffit de prouver que toute suite de Cauchy $(u_n)$ dans cet espace est convergente ; comme G est complet, il existe une application linéaire $u : E'_b \to G$ telle que $(u_n)$ converge simplement vers $u$. D’après IV, p. 22, corollaire, on a $u \in \mathscr{L}(E'_b ; G)$. Il résulte alors de la prop. 5 de TG, X, p. 6, que $(u_n)$ converge vers $u$ dans $\mathscr{L}_b(E'_b ; G)$.
 
-#### Corollaire {#evt-iv-s3-n3-cor-1 .statement}
+#### Corollaire {#evt-iv-s3-n3-cor-1 .statement tag=07TZ}
 
 *Le bidual d’un espace localement convexe métrisable est un espace de Fréchet.*
 
 ### 4. Dual d’un espace de Fréchet réflexif
 
-#### Proposition 4 {#evt-iv-s3-prop-4 .statement}
+#### Proposition 4 {#evt-iv-s3-prop-4 .statement tag=07U0}
 
 *Soit E un espace de Fréchet réflexif. Le dual fort $E'_b$ de E est limite inductive d’une suite d’espaces de Banach.*
 
@@ -133,7 +133,7 @@ donc la suite $(y_n)$ est bornée. Soit $y$ une valeur d’adhérence de $(y_n)$
 
 Comme toute partie bornée de $E'_b$ est contenue dans l’un des ensembles $A_n$, l’ensemble $V = \bigcup_n B_n$ absorbe toute partie bornée de $E'_b$. Par suite, $V^o$ est borné dans E, donc $\frac{1}{2} V^{oo}$ est un voisinage de 0 dans $E'_b$. *A fortiori* U est un voisinage de 0 dans $E'_b$.
 
-#### Corollaire {#evt-iv-s3-n4-cor-1 .statement}
+#### Corollaire {#evt-iv-s3-n4-cor-1 .statement tag=07U1}
 
 *Le dual fort d’un espace de Fréchet réflexif est bornologique et tonnelé.*
 
@@ -141,7 +141,7 @@ Une limite inductive d’espaces de Banach est bornologique par définition. Par
 
 ### 5. La topologie de la convergence compacte sur le dual d’un espace de Fréchet
 
-#### Théorème 1 (Banach-Dieudonné) {#evt-iv-s3-thm-1 .statement}
+#### Théorème 1 (Banach-Dieudonné) {#evt-iv-s3-thm-1 .statement tag=07U2}
 
 Soit E un espace localement convexe métrisable. Sur le dual E' de E, les topologies suivantes coïncident :
 a) la topologie $\mathscr{T}_{\mathfrak{N}}$ de la $\mathfrak{N}$-convergence, où $\mathfrak{N}$ est l’ensemble des parties de E dont chacune est formée des points d’une suite convergeant vers 0 ;
@@ -171,13 +171,13 @@ La formule (5), où l’on fait $n = m - 1$ entraîne $\bigcap_{x \in U_m} F_x =
 
 Posons $S = \bigcup_{n \geq 0} X_n$. On a $X_n \subset U_p$ pour $n \geq p$, donc S est l’ensemble des points d’une suite qui converge vers 0 dans E. De (5), on déduit $S^\circ \cap U_{n+1}^\circ \cap F = \varnothing$, d’où $S^\circ \cap F = \varnothing$ car E' est réunion de la suite des ensembles $U_{n+1}^\circ$.
 
-#### Corollaire 1 {#evt-iv-s3-thm-1-cor-1 .statement}
+#### Corollaire 1 {#evt-iv-s3-thm-1-cor-1 .statement tag=07U3}
 
 Soit E un espace localement convexe métrisable. Toute partie précompacte de E est contenue dans l’enveloppe fermée convexe équilibrée de l’ensemble des points d’une suite convergeant vers 0.
 
 Cela résulte de l’identité des topologies $\mathscr{T}_{pc}$ et $\mathscr{T}_\mathfrak{K}$, compte tenu de la prop. 2 de III, p. 15.
 
-#### Corollaire 2 {#evt-iv-s3-thm-1-cor-2 .statement}
+#### Corollaire 2 {#evt-iv-s3-thm-1-cor-2 .statement tag=07U4}
 
 *Soit E un espace de Fréchet. Pour qu’une partie convexe A du dual E’ de E soit fermée pour $\sigma(E', E)$, il faut et il suffit que $A \cap U^\circ$ soit fermé pour $\sigma(E', E)$ quel que soit le voisinage U de 0 dans E.*
 
@@ -185,17 +185,17 @@ Puisque E est complet, la topologie $\mathscr{T}_c$ sur E’ est compatible avec
 
 Rappelons (I, p. 13) que les hyperplans de E’ fermés pour $\sigma(E', E)$ sont les noyaux des formes linéaires sur E’ associées aux éléments de E. Le cor. 2 fournit donc une autre démonstration (pour les espaces de Fréchet) du cor. 1 de III, p. 21.
 
-#### Corollaire 3 {#evt-iv-s3-thm-1-cor-3 .statement}
+#### Corollaire 3 {#evt-iv-s3-thm-1-cor-3 .statement tag=07U5}
 
 *Soient E un espace de Banach et M un sous-espace vectoriel du dual E’ de E. Pour que M soit fermé pour la topologie faible $\sigma(E', E)$, il faut et il suffit que son intersection avec la boule unité (fermée) dans E’ soit fermée pour $\sigma(E', E)$.*
 
-#### Exemple {#evt-iv-s3-n5-exa-1 .statement}
+#### Exemple {#evt-iv-s3-n5-exa-1 .statement tag=07U6}
 
 *Soit H un espace hilbertien de type dénombrable; on note $H_\sigma$ l’espace H muni de la topologie affaiblie. Soit $\mathscr{L}^1(H)$ l’espace de Banach des endomorphismes nucléaires de H (V, p. 50, et TS, V); la norme dans $\mathscr{L}^1(H)$ est définie par $\|u\|_1 = \operatorname{Tr}((u^*u)^{1/2})$. On peut identifier $\mathscr{L}(H)$ au dual de l’espace de Banach $\mathscr{L}^1(H)$ en associant à tout $u \in \mathscr{L}(H)$ la forme linéaire $\varphi_u : v \mapsto \operatorname{Tr}(uv)$ sur $\mathscr{L}^1(H)$. Soit A une sous-algèbre de $\mathscr{L}(H)$, contenant 1 et stable par $u \mapsto u^*$; c’est une algèbre de von Neumann si et seulement si elle est fermée dans $\mathscr{L}(H)$ pour la topologie faible $\sigma(\mathscr{L}(H), \mathscr{L}^1(H))$. On déduit du cor. 3 le critère suivant : pour que A soit une algèbre de von Neumann, il faut et il suffit que pour toute suite $(u_n)$ d’éléments de norme $\leqslant 1$ de A admettant une limite u dans l’espace $\mathscr{L}_s(H ; H_\sigma)$, u appartienne à A. \*
 
 ### 6. Applications bilinéaires séparément continues
 
-#### Lemme 1 {#evt-iv-s3-lem-1 .statement}
+#### Lemme 1 {#evt-iv-s3-lem-1 .statement tag=07U7}
 
 *Soient E et F deux espaces localement convexes métrisables, et u une application linéaire continue de $E'_b$ dans F. Il existe un voisinage U de 0 dans $E'_b$ dont l’image par u est bornée dans F.*
 
@@ -205,7 +205,7 @@ Nous allons prouver que l’ensemble B est borné dans E, autrement dit que pour
 
 Soit U le polaire de B dans $E'_b$. C’est un voisinage de 0 dans $E'_b$ et l’on a $\lambda_n B^\circ \subset B_n^\circ$, d’où $\lambda_n u(U) \subset V_n$ pour tout $n \in \mathbf{N}$. Par suite $u(U)$ est borné dans F.
 
-#### Théorème 2 {#evt-iv-s3-thm-2 .statement}
+#### Théorème 2 {#evt-iv-s3-thm-2 .statement tag=07U8}
 
 Soient $E_1$ et $E_2$ deux espaces de Fréchet réflexifs, et $G$ un espace localement convexe séparé. Pour $i = 1, 2$, soit $F_i$ le dual fort de $E_i$. Alors toute application bilinéaire séparément continue $u : F_1 \times F_2 \to G$ est continue.
 

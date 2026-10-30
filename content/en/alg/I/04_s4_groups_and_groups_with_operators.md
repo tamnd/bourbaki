@@ -54,7 +54,7 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: 6eef711940212b0b20d202432c8526dca7827895352d9ffae4fd826f3d1b073b
+content_sha256: d6bc940de2b7bc4d5c77deed1610950a126e1ac53cd26ce4b8099a1f2945d150
 ---
 
 ## § 4. GROUPS AND GROUPS WITH OPERATORS
@@ -63,13 +63,13 @@ content_sha256: 6eef711940212b0b20d202432c8526dca7827895352d9ffae4fd826f3d1b073b
 
 Recall the following definition (§ 2, no. 3, Definition 6).
 
-#### Definition 1 {#alg-i-s4-def-1 .statement}
+#### Definition 1 {#alg-i-s4-def-1 .statement tag=058H}
 
 *A set with an associative law of composition, possessing an identity element and under which every element is invertible, is called a group.*
 
 In other words, a group is a *monoid* (§ 2, no. 1, Definition 1) in which every element is invertible. A law of composition on a set which determines a group structure on it is called a *group law*. If G and H are two groups, a magma homomorphism of G into H is also called a *group homomorphism*. Such a homomorphism $f$ maps identity element to identity element; for, let $e$ (resp. $e'$) be the identity element of G (resp. H); writing the group laws of G and H multiplicatively, $e \cdot e = e$, whence $f(e) \cdot f(e) = f(e)$ and, multiplying by $f(e)^{-1}, f(e) = e'$. Hence $f$ is unital. It then follows from no. 3 of § 2 that $f(x^{-1}) = f(x)^{-1}$ for all $x \in G$.
 
-#### Example {#alg-i-s4-n1-exa-1 .statement}
+#### Example {#alg-i-s4-n1-exa-1 .statement tag=058I}
 
 In any monoid E the set of invertible elements with the structure induced by that on E is a group. In particular, the set of bijective mappings of a set F onto itself (or set of *permutations* of F) is a group under the law $(f, g) \mapsto f \circ g$, called the *symmetric group of the set* F and denoted by $\mathfrak{S}_F$.
 
@@ -85,7 +85,7 @@ $(AB)^{-1}=B^{-1}A^{-1}$ holds for $A\subset G$, $B\subset G$. $A$ is called a s
 
 ### 2. GROUPS WITH OPERATORS
 
-#### Definition 2 {#alg-i-s4-def-2 .statement}
+#### Definition 2 {#alg-i-s4-def-2 .statement tag=058J}
 
 Let $\Omega$ be a set. A group $G$ together with an action of $\Omega$ on $G$ which is distributive with respect to the group law, is called a group with operators in $\Omega$.
 
@@ -97,11 +97,11 @@ A group with operators $G$ is called *commutative* (or *Abelian*) if its group l
 
 In what follows a group $G$ will be identified with the group with operators in $\varnothing$ obtained by giving $G$ the unique action of $\varnothing$ on $G$. This allows us to consider groups as special cases of groups with operators and to apply to them the definitions and results relating to the latter which we shall state.
 
-#### Example {#alg-i-s4-n2-exa-1 .statement}
+#### Example {#alg-i-s4-n2-exa-1 .statement tag=058K}
 
 In a commutative group $G$, written multiplicatively, $(xy)^n=x^ny^n$ for all $n\in\mathbf{Z}$ (§ 2, no. 8, equation (1)); the action $n\mapsto(x\mapsto x^n)$ of $\mathbf{Z}$ on $G$ therefore defines, together with the group law, the structure of a group with operators on $G$.
 
-#### Definition 3 {#alg-i-s4-def-3 .statement}
+#### Definition 3 {#alg-i-s4-def-3 .statement tag=058L}
 
 Let $G$ and $G'$ be groups with operators in $\Omega$. A homomorphism of groups with operators of $G$ into $G'$ is a *homomorphism of the group* $G$ into the *group* $G'$ such that
 
@@ -129,7 +129,7 @@ In the rest of this paragraph we shall be given a set $\Omega$. Unless otherwise
 
 ### 3. SUBGROUPS
 
-#### Definition 4 {#alg-i-s4-def-4 .statement}
+#### Definition 4 {#alg-i-s4-def-4 .statement tag=058M}
 
 *Let G be a group with operators. A stable subgroup of G is a subset H of G with the following properties*:
 
@@ -144,7 +144,7 @@ Let G be a group. A stable subgroup of G with the action of $\varnothing$ (no. 2
 
 *Example* (1). Let $\Sigma$ be a species of structure (*Set Theory*, IV, § 1, no. 4) and S a structure of species $\Sigma$ on a set E (*loc. cit.*). The set of *automorphisms* of S is a subgroup of $\mathscr{G}_E$.
 
-#### Proposition 1 {#alg-i-s4-prop-1 .statement}
+#### Proposition 1 {#alg-i-s4-prop-1 .statement tag=058N}
 
 *Let G be a group with operators and H a subset of G which is stable under the homotheties of G. The following conditions are equivalent*:
 
@@ -155,7 +155,7 @@ Let G be a group. A stable subgroup of G with the action of $\varnothing$ (no. 2
 
 Clearly (a) implies (b). We show that (b) implies (a). It suffices to show that H contains the identity element of G. As the subset H is non-empty, let $x \in H$. Then $x^{-1} \in H$ and $e = xx^{-1} \in H$. Clearly (b) implies (c). We show that (c) implies (b). First of all since H is non-empty it contains an element x. Hence xx^{-1} = e is an element of H. For every element x of H, $x^{-1} = ex^{-1}$ belongs to H; hence the relations $x \in H, y \in H$ imply $x(y^{-1})^{-1} = xy \in H$. Clearly (a) implies (d). We show that (d) implies (a): the canonical injection of H into G is a group homomorphism; hence $e \in H$ and the relation $x \in H$ implies $x^{-1} \in H$ (no. 1).
 
-#### Remark {#alg-i-s4-n3-rem-1 .statement}
+#### Remark {#alg-i-s4-n3-rem-1 .statement tag=058O}
 
 (1) Similarly it can be shown that condition (b) is equivalent to the condition
 (c') $H \neq \varnothing$ and the relations $x \in H$ and $y \in H$ imply $y^{-1}x \in H$.
@@ -168,17 +168,17 @@ If H is a stable subgroup of G and K is a stable subgroup of H, clearly K is a s
 
 The set $\{e\}$ is the smallest stable subgroup of G. The intersection of a family of stable subgroups of G is a stable subgroup. There is therefore a smallest stable subgroup H of G containing a given subset X of G; it is called the *stable subgroup generated by* X and X is called a *generating system* (or *generating set*) of H.
 
-#### Proposition 2 {#alg-i-s4-prop-2 .statement}
+#### Proposition 2 {#alg-i-s4-prop-2 .statement tag=058P}
 
 *Let X be a non-empty subset of a group with operators G and $\hat{X}$ the stable subset under the action of $\Omega$ on G generated by X. The stable subgroup generated by X is the stable subset under the law on G generated by the set $Y = \hat{X} \cup \hat{X}^{-1}$.*
 
 The latter subset Z is the set of compositions of finite sequences all of whose terms are elements of $\hat{X}$ or inverse of elements of $\hat{X}$: the inverse of such a composition is a composition of the same form (§ 2, no. 3, Corollary 1 to Proposition 5) and Z is stable under the action of $\Omega$, as is seen by applying § 3, no. 4, Proposition 1 to the homotheties of G, hence (Proposition 1) Z is a *stable subgroup* of G. Conversely, every stable subgroup containing X obviously contains Y and hence Z.
 
-#### Corollary 1 {#alg-i-s4-prop-2-cor-1 .statement}
+#### Corollary 1 {#alg-i-s4-prop-2-cor-1 .statement tag=058Q}
 
 *Let G be a group with operators and X a subset of G which is stable under the action of $\Omega$. The subgroup generated by X and the stable subgroup generated by X coincide.*
 
-#### Corollary 2 {#alg-i-s4-prop-2-cor-2 .statement}
+#### Corollary 2 {#alg-i-s4-prop-2-cor-2 .statement tag=058R}
 
 *Let G be a group and X a subset of G consisting of pairwise permutable elements. The subgroup of G generated by X is commutative.*
 
@@ -186,7 +186,7 @@ The set $Y = X \cup X^{-1}$ consists of pairwise permutable elements (§ 2, no. 
 
 If G is a group with operators, the stable subgroup generated by a subset of G consisting of pairwise permutable elements is not necessarily commutative.
 
-#### Corollary 3 {#alg-i-s4-prop-2-cor-3 .statement}
+#### Corollary 3 {#alg-i-s4-prop-2-cor-3 .statement tag=058S}
 
 Let $f : G \to G'$ be a homomorphism of groups with operators and X a subset of G. The image under f of the stable subgroup of G generated by X is the stable subgroup of G' generated by $f(X)$.
 
@@ -202,13 +202,13 @@ Thus, in the additive group $\mathbf{Z}$, the subgroup generated by an element x
 
 The union of a right directed family of stable subgroups of G is obviously a stable subgroup. It follows that, if P is a subset of G and H a stable subgroup of G not meeting P, the set of stable subgroups of G containing H and not meeting P, ordered by inclusion, is inductive (Set Theory, III, § 2, no. 4). Applying Zorn's Lemma (Set Theory, III, § 2, no. 4), we obtain the following result:
 
-#### Proposition 3 {#alg-i-s4-prop-3 .statement}
+#### Proposition 3 {#alg-i-s4-prop-3 .statement tag=058T}
 
 Let G be a group with operators, P a subset of G and H a stable subgroup G not meeting P. The set of stable subgroups of G containing H and not meeting P has a maximal element.
 
 ### 4. QUOTIENT GROUPS
 
-#### Theorem 1 {#alg-i-s4-thm-1 .statement}
+#### Theorem 1 {#alg-i-s4-thm-1 .statement tag=058U}
 
 Let R be an equivalence relation on a group with operators G; if R is left (resp. right) compatible (§ 3, no. 3) with the group law on G and compatible with the action of $\Omega$, the equivalence class of e is a stable subgroup H of G and the relation R is equivalent to $x^{-1}y \in H$ (resp. $yx^{-1} \in H$). Conversely, if H is a stable subgroup of G, the relation $x^{-1}y \in H$ (resp. $yx^{-1} \in H$) is an equivalence relation which is left (resp. right) compatible with the group law on G and compatible with the action of $\Omega$ and under which H is the equivalence class of e.
 
@@ -222,14 +222,14 @@ The cardinal of the set of left cosets (mod. H) is called the *index* of the sub
 
 If a subgroup K of G contains H, it is a union of left (or right) cosets of H. Since a left coset of K is obtained from K by left translation, the set of left cosets of H contained in a left coset of K has cardinal independent of the latter. Hence (*Set Theory*, III, § 5, no. 8, Proposition 9):
 
-#### Proposition 4 {#alg-i-s4-prop-4 .statement}
+#### Proposition 4 {#alg-i-s4-prop-4 .statement tag=058V}
 
 *Let H and K be two subgroups of a group G such that H $\subset$ K. Then*
 $$
 (G:H) = (G:K)(K:H).
 $$
 
-#### Corollary {#alg-i-s4-n4-cor-1 .statement}
+#### Corollary {#alg-i-s4-n4-cor-1 .statement tag=058W}
 
 *If G is a finite group of order g and H is a subgroup of G of order h, then*
 $$
@@ -239,7 +239,7 @@ $$
 
 Theorem 1 allows us to determine the equivalence relations compatible with the laws on a group with operators G: if R is such a relation, it is both left and right compatible with the group law on G and with the action of $\Omega$. Hence, if H is the class of $e$ (mod. R), H is a stable subgroup such that the relations $y \in xH$ and $y \in Hx$ are equivalent (since both are equivalent to R); hence $xH = Hx$ for all $x \in G$. Conversely, if this is so, one or other of the equivalent relations $y \in xH, y \in Hx$ is compatible with the group law, since it is both left and right compatible with this law ($\S$ 3, no. 4) and is compatible with the action of $\Omega$. Since the equation $xH = Hx$ is equivalent to $xHx^{-1} = H$, we make the following definition:
 
-#### Definition 5 {#alg-i-s4-def-5 .statement}
+#### Definition 5 {#alg-i-s4-def-5 .statement tag=058X}
 
 *Let G be a group with operators. A stable subgroup H of G is called a normal (or invariant) stable subgroup of G if $xHx^{-1} = H$ for all $x \in G$.*
 
@@ -249,11 +249,11 @@ To verify that a stable subgroup H is normal, it suffices to show that $xHx^{-1}
 
 Let H be a normal stable subgroup of G and R the equivalence relation $y \in xH$ defined by H; on the quotient set $G/R$, the internal law, the quotient by R of the law of the group G, is associative; the class of e is the identity element of this quotient law; the classes of two inverse elements in G are inverses under the quotient law and the action of $\Omega$, the quotient by R of the action of $\Omega$ on G, is distributive with respect to the internal law on $G/R$ ($\S$ 3, no. 5). Hence, summarizing the results obtained:
 
-#### Theorem 2 {#alg-i-s4-thm-2 .statement}
+#### Theorem 2 {#alg-i-s4-thm-2 .statement tag=058Y}
 
 *Let G be a group with operators. For an equivalence relation R on G to be compatible with the group law and the action of $\Omega$, it is necessary and sufficient that it be of the form $x^{-1}y \in H$, where H is a normal stable subgroup of G (the relation $x^{-1}y \in H$ being moreover equivalent to $yx^{-1} \in H$ for such a subgroup). The law of composition on $G/R$ the quotient of that on G and the action of $\Omega$ on $G/R$ the quotient of that of $\Omega$ on G by such a relation R give $G/R$ the structure of a group with operators, called the quotient structure, and the canonical mapping of the passage to the quotient is a homomorphism of groups with operators.*
 
-#### Definition 6 {#alg-i-s4-def-6 .statement}
+#### Definition 6 {#alg-i-s4-def-6 .statement tag=058Z}
 
 *The quotient of a group with operators G by the equivalence relation defined by a normal subgroup H of G, with the quotient structure, is called the quotient group with operators of G by H and is denoted by $G/H$. The canonical mapping $G \to G/H$ is called a canonical homomorphism*
 
@@ -261,7 +261,7 @@ Let G be a group and H a normal subgroup of G. The quotient $G/H$, with its grou
 
 The equivalence relation defined by a normal stable subgroup of G is denoted by $x \equiv y \pmod{H}$ or $x \equiv y(H)$.
 
-#### Proposition 5 {#alg-i-s4-prop-5 .statement}
+#### Proposition 5 {#alg-i-s4-prop-5 .statement tag=0590}
 
 Let $f : G \to G'$ be a homomorphism of groups with operators and $H$ and $H'$ normal stable subgroups of $G$ and $G'$ respectively such that $f(H) \subset H'$. The mapping $f$ is compatible with the equivalence relations defined by $H$ and $H'$. Let $\pi : G \to G/H$ and $\pi' : G' \to G'/H'$ be the canonical homomorphisms. The mapping $\bar{f} : G/H \to G'/H'$ derived from $f$ by passing to the quotients is a homomorphism.
 
@@ -271,7 +271,7 @@ f(x)^{-1}f(y) = f(x^{-1})f(y) = f(x^{-1}y) \in f(H) \subset H'
 $$
 and hence $f(x) \equiv f(y) \pmod{H'}$. The second assertion follows from the universal property of quotient laws ($§ 1$, no. 6).
 
-#### Remark {#alg-i-s4-n4-rem-1 .statement}
+#### Remark {#alg-i-s4-n4-rem-1 .statement tag=0591}
 
 (1) If $A$ is any subset of a group $G$ and $H$ is a normal subgroup of $G$, then $AH = HA$; this set is obtained by saturating $A$ with respect to the relation $x \equiv y \pmod{H}$.
 
@@ -283,13 +283,13 @@ Let $G$ be a group with operators. The intersection of every family of normal st
 
 In a group with operators $G$, the stable subgroups $G$ and $\{e\}$ are normal.
 
-#### Definition 7 {#alg-i-s4-def-7 .statement}
+#### Definition 7 {#alg-i-s4-def-7 .statement tag=0592}
 
 *A group with operators* $G$ *is called simple if* $G \neq \{e\}$ *and there exists no normal stable subgroup of* $G$ *other than* $G$ *and* $\{e\}$.
 
 ### 5. DECOMPOSITION OF A HOMOMORPHISM
 
-#### Proposition 6 {#alg-i-s4-prop-6 .statement}
+#### Proposition 6 {#alg-i-s4-prop-6 .statement tag=0593}
 
 *Let* $G$ *be a group with operators and* $G'$ *a magma with an action by* $\Omega$, *written exponentially*. *Let* $f : G \to G'$ *be a homomorphism of the magna* $G$ *into the magma* $G'$ *such that, for all* $\alpha \in \Omega$ *and all* $x \in G$, $f(x^\alpha) = f(x)^\alpha$. *Then* $f(G)$ *is a stable subset of* $G'$ *under the law on* $G'$ *and the action of* $\Omega$; *the set* $f(G)$ *with the induced laws is a group with operators and the mapping* $x \mapsto f(x)$ *of* $G$ *into* $f(G)$ *is a homomorphism of groups with operators*.
 
@@ -309,13 +309,13 @@ $$
 
 which shows that the action of $\Omega$ is distributive with respect to the group law on $f(G)$. Therefore $f(G)$ with the induced laws is a group with operators and clearly the mapping $x \mapsto f(x)$ is a homomorphism of groups with operators.
 
-#### Definition 8 {#alg-i-s4-def-8 .statement}
+#### Definition 8 {#alg-i-s4-def-8 .statement tag=0594}
 
 *Let $f : G \to G'$ be a homomorphism of groups with operators. The inverse image of the identity element of $G'$ is called the kernel of $f$.*
 
 The kernel of $f$ is often denoted by $\mathrm{Ker}(f)$ and the image $f(G)$ of $f$ is sometimes denoted by $\mathrm{Im}(f)$.
 
-#### Theorem 3 {#alg-i-s4-thm-3 .statement}
+#### Theorem 3 {#alg-i-s4-thm-3 .statement tag=0595}
 
 *Let $f : G \to G'$ be a homomorphism of groups with operators.*
 (a) *$\mathrm{Ker}(f)$ is a normal stable subgroup of $G$;*
@@ -328,7 +328,7 @@ Assertion (b) follows from Proposition 6. The equivalence relation $f(x) = f(y)$
 
 ### 6. SUBGROUPS OF A QUOTIENT GROUP
 
-#### Proposition 7 {#alg-i-s4-prop-7 .statement}
+#### Proposition 7 {#alg-i-s4-prop-7 .statement tag=0596}
 
 *Let $G$ and $H$ be two groups with operators, $f$ a homomorphism of $G$ into $H$ and $N$ the kernel of $f$.*
 (a) *Let $H'$ be a stable subgroup of $H$. The inverse image $G' = f^{-1}(H')$ is a stable subgroup of $G$ and $G'$ is normal in $G$ if $H'$ is normal in $H$. Further, $N$ is a normal subgroup of $G'$. If $f$ is surjective, then $H' = f(G')$ and $f$ defines an isomorphism of $G'/N$ onto $H'$ on passing to the quotient.*
@@ -346,11 +346,11 @@ whence $H' = f(G')$; the restriction of $f$ to $G'$ is a homomorphism $f'$ of $G
 
 (b) Let $a$ and $b$ be in $H'$ and $\alpha$ in $\Omega$; there exist $x, y$ in $G'$ with $a = f(x)$ and $b = f(y)$, whence $ab^{-1} = f(xy^{-1}) \in H'$, hence $H'$ is a subgroup of $H$ which is stable, for $a^\alpha = f(x^\alpha) \in H'$. Let $x \in G$; then $x \in f^{-1}(H')$ if and only if $f(x) \in H' = f(G')$, that is if and only if there exists $y$ in $G'$ with $f(x) = f(y)$; the relation $f(x) = f(y)$ is equivalent to the existence of $n \in N$ with $x = yn$; finally, $x \in f^{-1}(H')$ is equivalent to $x \in G'N = NG'$. Clearly the relation $G' = G'N$ is equivalent to $G' \supset N$. Suppose finally that $f$ is surjective and $G'$ is normal in $G$; let $a \in H'$ and $b \in H$; there exist $x \in G'$ and $y \in G$ with $a = f(x)$ and $b = f(y)$, whence $bab^{-1} = f(yxy^{-1}) \in f(G') = H'$. Hence $H'$ is normal in $H$.
 
-#### Corollary 1 {#alg-i-s4-prop-7-cor-1 .statement}
+#### Corollary 1 {#alg-i-s4-prop-7-cor-1 .statement tag=0597}
 
 *Suppose that $f$ is surjective. Let $\mathscr{G}$ (resp. $\mathscr{G}'$) be the set of stable (resp. normal stable) subgroups of $G$ containing $N$ and $\mathfrak{H}$ (resp. $\mathfrak{H}'$) the set of stable (resp. normal stable) subgroups of $H$, these sets being ordered by inclusion. The mapping $G' \mapsto f(G')$ is an ordered set isomorphism $\Phi : \mathscr{G} \to \mathfrak{H}$; the inverse isomorphism $\Psi : \mathfrak{H} \to \mathscr{G}$ is the mapping $H' \mapsto f^{-1}(H')$. Further $\Phi$ and $\Psi$ induce isomorphisms $\Phi' : \mathscr{G}' \to \mathfrak{H}'$ and $\Psi' : \mathfrak{H}' \to \mathscr{G}'$.
 
-#### Corollary 2 {#alg-i-s4-prop-7-cor-2 .statement}
+#### Corollary 2 {#alg-i-s4-prop-7-cor-2 .statement tag=0598}
 
 *Let $f : G \to H$ be a homomorphism of groups with operators, $N$ the kernel of $f$, $G'$ a stable subgroup of $G$ and $L$ a normal stable subgroup of $G'$. Then $LN, L.(G' \cap N)$ and $f(L)$ are normal stable subgroups of $G'N, G'$ and $f(G')$ respectively and the three quotient groups with operators $G'N/LN, G'/L.(G' \cap N)$ and $f(G')/f(L)$ are isomorphic.
 
@@ -365,7 +365,7 @@ $$
 
 it defines an isomorphism of $G'/L\cdot(G'\cap N)$ onto $f(G')/f(L)$. By Proposition 7, (b), $f^{-1}(H')=G'N$; if $f''$ is the homomorphism of $G'N$ onto $H'$ which coincides with $f$ on $G'N$, the homomorphism $\lambda\circ f''$ of $G'N$ onto $f(G')/f(L)$ is surjective with kernel $f^{-1}(f(L))=LN$; this proves that $LN$ is a normal stable subgroup of $G'N$ and that $\lambda\circ f''$ defines an isomorphism of $G'N/LN$ onto $f(G')/f(L)$.
 
-#### Corollary 3 {#alg-i-s4-prop-7-cor-3 .statement}
+#### Corollary 3 {#alg-i-s4-prop-7-cor-3 .statement tag=0599}
 
 Let $f:G\to H$ be a homomorphism of groups with operators, $N$ its kernel, $X$ a subset of $G$ such that $f(X)$ generates $H$ and $Y$ a subset of $N$ which generates $N$. Then $X\cup Y$ generates $N$.
 
@@ -373,7 +373,7 @@ Let $G'$ be the stable subgroup of $G$ generated by $X\cup Y$. As $Y\subset G'$,
 
 As $f(X)\subset f(G')$, $f(G')=H$, whence $G'=f^{-1}(H)=G$.
 
-#### Remark {#alg-i-s4-n6-rem-1 .statement}
+#### Remark {#alg-i-s4-n6-rem-1 .statement tag=059A}
 
 In the notation of Proposition 7, the fact that the inverse image of a subgroup of $H$ is a subgroup of $G$ follows from the following more general fact.
 
@@ -386,7 +386,7 @@ $$
 
 Obviously $f^{-1}(A)\cdot f^{-1}(B)\subset f^{-1}(A\cdot B)$; on the other hand, if $z\in f^{-1}(A\cdot B)$, there exists $a\in A$ and $b\in B$ such that $f(z)=ab$; as $f$ is surjective, there exists $x\in G$ such that $f(x)=a$; writing $y=x^{-1}z$, $f(y)=a^{-1}f(z)=b$ and $z=xy$, whence $z\in f^{-1}(A)\cdot f^{-1}(B)$. The relation $x\in f^{-1}(A^{-1})$ is equivalent to $f(x)\in A^{-1}$, hence to $f(x^{-1})\in A$, that is to $x^{-1}\in f^{-1}(A)$ and finally to $x\in f^{-1}(A)^{-1}$.
 
-#### Proposition 8 {#alg-i-s4-prop-8 .statement}
+#### Proposition 8 {#alg-i-s4-prop-8 .statement tag=059B}
 
 Let $G$ be a group with operators and $A$ and $B$ two stable subgroups of $G$. Suppose that the relations $a\in A$ and $b\in B$ imply $aba^{-1}\in B^{*}$ (in other words, $A$ normalizes $B$)$^{*}$. Then $AB=BA$ is a stable subgroup of $G$, $A\cap B$ is a normal stable subgroup of $A$ and $B$ is a normal stable subgroup of $AB$. The canonical injection of $A$ into $AB$ defines on passing to the quotient an isomorphism of $A/(A\cap B)$ onto $AB/B$.
 
@@ -406,7 +406,7 @@ $$
 
 for $a,a'\in A$, $b,b'\in B$ and every operator $\alpha$ on $G$, show that $AB$ is a stable subgroup of $G$. Let $a\in A$ and $x\in A\cap B$; then $axa^{-1}\in B$ by the hypotheses made on $A$ and $B$ and clearly $axa^{-1}$ belongs to $A$, hence $A\cap B$ is normal in $A$. Let $a\in A$ and $b,b'$ be in $B$; the formula $(ab)b'(ab)^{-1}=a(bb'b^{-1})a^{-1}$ shows that $B$ is normal in $AB$. Let $\phi$ be the restriction to $A$ of the canonical homomorphism of AB onto AB/B; then $\phi(a) = aB$ and hence the kernel of $\phi$ is equal to $A \cap B$. Clearly $\phi$ is surjective and hence defines an isomorphism of $A/(A \cap B)$ onto $AB/B$.
 
-#### Theorem 4 {#alg-i-s4-thm-4 .statement}
+#### Theorem 4 {#alg-i-s4-thm-4 .statement tag=059C}
 
 *Let G be a group with operators and N a normal stable subgroup of G.*
 
@@ -420,7 +420,7 @@ Let $f$ denote the canonical homomorphism of G onto $G/N$. For all $x \in G$, $f
 
 ### 7. THE JORDAN-HÖLDER THEOREM
 
-#### Definition 9 {#alg-i-s4-def-9 .statement}
+#### Definition 9 {#alg-i-s4-def-9 .statement tag=059D}
 
 *A composition series of a group with operators G is a finite sequence $(G_i)_{0 \leq i \leq n}$ of stable subgroups of G, with $G_0 = G$ and $G_n = \{e\}$ and such that $G_{i+1}$ is a normal subgroup of $G_i$ for $0 \leq i \leq n-1$. The quotients $G_i/G_{i+1}$ are called the quotients of the series. A composition series $\Sigma'$ is said to be finer than a composition series $\Sigma$ if $\Sigma$ is a series taken from $\Sigma'$.
 
@@ -428,7 +428,7 @@ If $(G_i)_{0 \leq i \leq n}$ and $(H_j)_{0 \leq j \leq m}$ are respectively comp
 
 Note that in general a series taken from a composition series $(G_i)$ is not a composition series, since for $j > i + 1$, $G_j$ is not in general a normal subgroup of $G_i$.
 
-#### Theorem 5 (Schreier) {#alg-i-s4-thm-5 .statement}
+#### Theorem 5 (Schreier) {#alg-i-s4-thm-5 .statement tag=059E}
 
 *Given two composition series $\Sigma_1, \Sigma_2$ of a group with operators G, there exist two equivalent composition series $\Sigma'_1, \Sigma'_2$, finer respectively than $\Sigma_1$ and $\Sigma_2$.
 
@@ -436,7 +436,7 @@ Let $\Sigma_1 = (H_i)_{0 \leq i \leq n}$ and $\Sigma_2 = (K_j)_{0 \leq j \leq p}
 
 To this end note that H_i \cap K_j is a stable subgroup of H_i and of K_j, and hence (Theorem 4) H_{i+1}.(H_i \cap K_j) is a stable subgroup of H_i containing H_{i+1} and K_{j+1}.(H_i \cap K_j) is a stable subgroup of K_j containing K_{j+1}. If we write H_{i,j}' = H_{i+1}.(H_i \cap K_j) and K_{j,i}' = K_{j+1}.(H_i \cap K_j), H_{i,j+1}' is a stable subgroup of H_{i,j}' (0 \leq j \leq p - 1) and K_{j,i+1}' is a stable subgroup of K_{j,i}' (0 \leq i \leq n - 1). Moreover H_{i,0}' = H_i, H_{i,p}' = H_{i+1}, K_{j,0}' = K_j and K_{j,p}' = K_{j+1}. To show the theorem, it suffices to show that H_{i,j+1}' (resp. K_{j,i+1}') is a normal stable subgroup of H_{i,j}' (resp. K_{j,i}') and that the quotient groups H_{i,j}'/H_{i,j+1}' and K_{j,i}'/K_{j,i+1}' are isomorphic (0 \leq i \leq n - 1, 0 \leq j \leq p - 1). This follows from the following lemma by taking H = H_i, H' = H_{i+1}, K = K_j, K' = K_{j+1}.
 
-#### Lemma 1 (Zassenhaus) {#alg-i-s4-lem-1 .statement}
+#### Lemma 1 (Zassenhaus) {#alg-i-s4-lem-1 .statement tag=059F}
 
 Let H and K be two stable subgroups of a group with operators G and H' and K' normal stable subgroups of H and K respectively; then H'.(H \cap K') is a normal stable subgroup of H'.(H \cap K), K'.(K \cap H') is a normal stable subgroup of K'.(K \cap H) and the quotient groups with operators (H'.(H \cap K))/(H'.(H \cap K')) and (K'.(K \cap H))/(K'.(K \cap H')) are isomorphic.
 
@@ -460,35 +460,35 @@ $$
 
 In the last quotient, H and H' on the one hand and K and K' on the other appear symmetrically; permuting them the stated result is obtained.
 
-#### Definition 10 {#alg-i-s4-def-10 .statement}
+#### Definition 10 {#alg-i-s4-def-10 .statement tag=059G}
 
 A Jordan-Hölder series of a group with operators G is a strictly decreasing decomposition series \Sigma such that there exists no strictly decreasing decomposition series distinct from \Sigma and finer than \Sigma.
 
-#### Proposition 9 {#alg-i-s4-prop-9 .statement}
+#### Proposition 9 {#alg-i-s4-prop-9 .statement tag=059H}
 
 For a decomposition series of G to be a Jordan-Hölder series it is necessary and sufficient that all the quotients of the series be simple.
 
 A decomposition series is strictly decreasing if and only if none of its successive quotients is reduced to the identity element. If a strictly decreasing composition series $\Sigma$ is not a Jordan-Hölder series, there exists a strictly decreasing composition series $\Sigma'$ which is finer than $\Sigma$ and distinct from $\Sigma$. There are therefore two consecutive terms $G_i, G_{i+1}$ of $\Sigma$ which are not consecutive in $\Sigma'$; let $H$ be the first term which follows $G_i$ in $\Sigma'$; $H$ is a normal stable subgroup of $G_i$, containing $G_{i+1}$ and distinct from the latter; hence $H/G_{i+1}$ is a normal stable subgroup of $G_i/G_{i+1}$, distinct from the latter and from the identity element; therefore $G_i/G_{i+1}$ is not simple. Conversely, if $\Sigma$ is a strictly decreasing composition series one of whose quotients $G_i/G_{i+1}$ is not simple, this quotient contains a normal stable subgroup other than itself and $\{e\}$, whose inverse image in $G_i$ is a normal stable subgroup $H$ of $G_i$, distinct from $G_i$ and $G_{i+1}$ (Theorem 4); it suffices to insert $H$ between $G_i$ and $G_{i+1}$ to obtain a strictly decreasing composition series distinct from $\Sigma$ and finer than $\Sigma$.
 
-#### Theorem 6 (Jordan-Hölder) {#alg-i-s4-thm-6 .statement}
+#### Theorem 6 (Jordan-Hölder) {#alg-i-s4-thm-6 .statement tag=059I}
 
 *Two Jordan-Hölder series of a group with operators are equivalent.*
 
 Let $\Sigma_1, \Sigma_2$ be two Jordan-Hölder series of a group with operators $G$; by applying Theorem 5 two *equivalent* composition series $\Sigma'_1, \Sigma'_2$ are obtained which are respectively finer than $\Sigma_1$ and $\Sigma_2$; since the latter are Jordan-Hölder series, $\Sigma'_1$ is identical with $\Sigma_1$ or is derived from it by repeating certain terms; the series of quotients of $\Sigma'_1$ is derived from that for $\Sigma_1$ by inserting a number of terms isomorphic to the group $\{e\}$; since $\Sigma_1$ is strictly decreasing, the series of quotients of $\Sigma_1$ is derived from that of $\Sigma'_1$ by suppressing in the latter *all* the terms isomorphic to $\{e\}$. Similarly for $\Sigma_2$ and $\Sigma'_2$. As the series of quotients of $\Sigma'_1$ and $\Sigma'_2$ differ (up to isomorphism) only in the order of the terms, the same is true of $\Sigma_1$ and $\Sigma_2$; the theorem is proved.
 
-#### Corollary {#alg-i-s4-n7-cor-1 .statement}
+#### Corollary {#alg-i-s4-n7-cor-1 .statement tag=059J}
 
 *Let $G$ be a group with operators in which there exists a Jordan-Hölder series. If $\Sigma$ is any strictly decreasing composition series of $G$, there exists a Jordan-Hölder series finer than $\Sigma$.*
 
 Let $\Sigma_0$ be a Jordan-Hölder series of $G$; by Theorem 5, there exist two equivalent composition series, $\Sigma'$ and $\Sigma'_0$ respectively finer than $\Sigma$ and $\Sigma_0$; the argument of Theorem 6 shows that, by suppressing from $\Sigma'$ the repetitions, a sequence $\Sigma''$ is obtained which is equivalent to $\Sigma_0$ and hence a Jordan-Hölder series, since all its quotients are simple (Proposition 9). As $\Sigma$ is strictly decreasing, $\Sigma''$ is finer than $\Sigma$, whence the corollary.
 
-#### Remark {#alg-i-s4-n7-rem-1 .statement}
+#### Remark {#alg-i-s4-n7-rem-1 .statement tag=059K}
 
 A group with operators does not always possess a Jordan-Hölder series; an example is given by the additive group $\mathbf{Z}$ of rational integers: the sequence $(2^n \cdot \mathbf{Z})_{n \geq 0}$ is a strictly decreasing infinite sequence of (normal) subgroups of $\mathbf{Z}$; for all $p$, the first $p$ terms of this sequence form with the group $\{0\}$ a strictly decreasing composition series; if there existed a Jordan-Hölder series for $\mathbf{Z}$, it would have at least $p+1$ terms, by the Corollary to Theorem 6; absurd, since $p$ is arbitrary.
 
 On the other hand, there exists a Jordan-Hölder series in every *finite* group with operators G: if $G \ne \{e\}$, among the normal stable subgroups of G distinct from G, let $H_1$ be a maximal subgroup; similarly define $H_{n+1}$ by induction as a maximal element in the set of normal subgroups of $H_n$, distinct from $H_n$, when $H_n \ne \{e\}$; the sequence of orders of the $H_n$ is strictly decreasing, hence there exists $n$ such that $H_n = \{e\}$ and the sequence consisting of G and the $H_i$ ($1 \leq i \leq n$) is by its formation a Jordan-Hölder series.
 
-#### Definition 11 {#alg-i-s4-def-11 .statement}
+#### Definition 11 {#alg-i-s4-def-11 .statement tag=059L}
 
 Let G be a group with operators; the length of G is the upper bound of the integers $n$ such that there exists a strictly decreasing composition series of G $(G_i)_{0\leq i\leq n}$.
 
@@ -514,11 +514,11 @@ $$
 
 of G is obtained. The sequence of quotients of $\Sigma$ is obtained by juxtaposing the sequence of quotients of $\Sigma''$ and the sequence of quotients of $\Sigma'$. If $\Sigma'$ and $\Sigma''$ are Jordan-Hölder series, $\Sigma$ is a Jordan-Hölder series of G, by Proposition 9. If H or K admits composition series of arbitrary length, so does G. We have proved:
 
-#### Proposition 10 {#alg-i-s4-prop-10 .statement}
+#### Proposition 10 {#alg-i-s4-prop-10 .statement tag=059M}
 
 Let G be a group with operators and H a normal stable subgroup of G. The length of G is the sum of the lengths of H and G/H.
 
-#### Corollary {#alg-i-s4-n7-cor-2 .statement}
+#### Corollary {#alg-i-s4-n7-cor-2 .statement tag=059N}
 
 Let G be a group with operators and $(G_i)_{0\leq i\leq n}$ a composition series of G. The length of G is the sum of the lengths of the $G_i/G_{i+1}$, $0\leq i\leq n-1$.
 
@@ -534,7 +534,7 @@ $$
 
 With this structure $G$ is a group with operators. For all $i \in I$, the projection mapping $\mathrm{pr}_i : G \to G_i$ is a homomorphism of groups with operators.
 
-#### Definition 12 {#alg-i-s4-def-12 .statement}
+#### Definition 12 {#alg-i-s4-def-12 .statement tag=059O}
 
 *The group with operators* $G = \prod_{i \in I} G_i$ *defined above is the product group with operators of the* $G_i$. *The mappings* $\mathrm{pr}_i : G \to G_i$ *are called the* projection homomorphisms.
 
@@ -551,7 +551,7 @@ Let $(\phi_i : H \to G_i)_{i \in I}$ be a family of homomorphisms of groups with
 
 Let $(\phi_i : H_i \to G_i)_{i \in I}$ be a family of homomorphisms of groups with operators. The mapping $\prod_{i \in I} \phi_i : (h_i)_{i \in I} \mapsto (\phi_i(h_i))_{i \in I}$ of $\prod_{i \in I} H_i$ into $\prod_{i \in I} G_i$ is a homomorphism of groups with operators.
 
-#### Proposition 11 {#alg-i-s4-prop-11 .statement}
+#### Proposition 11 {#alg-i-s4-prop-11 .statement tag=059P}
 
 *Let* $(\phi_i : H_i \to G_i)_{i \in I}$ *be a family of homomorphisms of groups with operators and let* $\Phi = \prod_{i \in I} \phi_i$. *Then:*
 
@@ -569,7 +569,7 @@ onto $\prod_{i \in I} (G_i / H_i)$. For example, let $J$ be a subset of $I$. The
 
 If $J_1$ and $J_2$ are disjoint subsets of $I$, it follows from the definitions that every element of $G_{J_1}$ commutes with every element of $G_{J_2}$.
 
-#### Definition 13 {#alg-i-s4-def-13 .statement}
+#### Definition 13 {#alg-i-s4-def-13 .statement tag=059Q}
 
 *Let $G$ be a group with operators and $(H_i)_{i \in I}$ a family of normal stable subgroups of $G$. Let $p_i : G \to G / H_i$ be the canonical homomorphism. $G$ is called the internal product (or product) of the family of quotient groups $(G / H_i)$ if the homomorphism $g \mapsto (p_i(g))_{i \in I}$ is an isomorphism of $G$ onto $\prod_{i \in I} G / H_i$.*
 
@@ -579,31 +579,31 @@ Let $G$ and $H$ be groups with operators and let $\phi$ and $\psi$ be two homomo
 
 Let $(G_i)_{i \in I}$ be a family of groups with operators and, for $i \in I$, let $H_i$ be a stable subgroup of $G_i$. The subset of $\prod_{i \in I} G_i$ consisting of the $(x_i)_{i \in I}$ such that the set of $i \in I$ with $x_i \notin H_i$ is finite is a stable subgroup of $\prod_{i \in I} G_i$ equal to $\prod_{i \in I} G_i$ if $I$ is finite. It is called the *restricted sum of the $G_i$ with respect to the $H_i$*. When, for all $i$ except for a finite number, $H_i$ is a normal stable subgroup of $G_i$, the restricted sum is a normal stable subgroup of the product. When, for all $i$, the subgroup $H_i$ is reduced to the identity element of $G_i$, the direct sum of the $G_i$ with respect to the $H_i$ is called simply the *restricted sum of the $G_i$* and is sometimes denoted by $\prod_{i \in I} G_i$. For all $i_0 \in I$, the mapping $\iota_{i_0}: G_{i_0} \to \prod_{i \in I} G_i$ defined by $\iota_{i_0}(x) = (x_i)_{i \in I}$, where $x_{i_0} = x$ and $x_i = e_i$ if $i \neq i_0$, is an injective homomorphism of groups with operators called the *canonical injection*. $G_i$ is identified with the stable subgroup $\operatorname{Im}(\iota_i)$. The subgroups $G_i$ are normal. For $i \neq j$, the elements of $G_i$ and $G_j$ commute and $G_i \cap G_j = \{e\}$. The group $\prod_{i \in I} G_i$ is generated by the set $\bigcup_{i \in I} G_i$.
 
-#### Proposition 12 {#alg-i-s4-prop-12 .statement}
+#### Proposition 12 {#alg-i-s4-prop-12 .statement tag=059R}
 
 *Let $(\phi_i: G_i \to K)_{i \in I}$ be a family of homomorphisms of groups with operators such that, for all $i \in I$ and $j \in I$ with $i \neq j$, $x \in G_i$, $y \in G_j$, the elements $\phi_i(x)$ and $\phi_j(y)$ of $K$ commute; there exists one and only one homomorphism of groups with operators $\Phi$ of $\prod_{i \in I} G_i$ into $K$ such that $\phi_i = \Phi \circ \iota_i$ for all $i \in I$. For every element $x = (x_i)_{i \in I}$ of $\prod_{i \in I} G_i$, $\Phi(x) = \prod_{i \in I} \phi_i(x_i)$.*
 
 If $\Phi$ and $\Phi$ are solutions to the problem, they coincide on $\bigcup_{i \in I} G_i$ and hence on $\prod_{i \in I} G_i$, whence the uniqueness of $\Phi$. We now show the existence of $\Phi$: for every element $x = (x_i)_{i \in I}$ of $\prod_{i \in I} G_i$, let $\Phi(x) = \prod_{i \in I} \phi_i(x_i)$ (§ 1, no. 5). Clearly $\Phi \circ \iota_i = \phi_i$ for all $i$ and $\Phi$ commutes with homotheties; the formula $\Phi(xy) = \Phi(x)\Phi(y)$ follows from § 1, no. 5, formula (9).
 
-#### Definition 14 {#alg-i-s4-def-14 .statement}
+#### Definition 14 {#alg-i-s4-def-14 .statement tag=059S}
 
 *Let $G$ be a group with operators and $(H_i)_{i \in I}$ a family of stable subgroups of $G$. $G$ is called the internal restricted sum (or restricted sum) of the family of subgroups $(H_i)$ if every element of $H_i$ is permutable with every element of $H_j$ for $j \neq i$ and the unique homomorphism of $\prod_{i \in I} H_i$ into $G$ whose restriction to each of the $H_i$ is the canonical injection is an isomorphism.*
 
 When $I$ is finite, we also say, by an abuse of language, *internal direct product* (or *direct product*, or *product*) instead of internal restricted sum. Every stable subgroup H of G for which there exists a stable subgroup H' of G such that G is the direct product of H and H' is called a *direct factor* of G.
 
-#### Proposition 13 {#alg-i-s4-prop-13 .statement}
+#### Proposition 13 {#alg-i-s4-prop-13 .statement tag=059T}
 
 *Let G be a group with operators and $(H_i)_{i \in I}$ a family of stable subgroups of G such that every element of $H_i$ is permutable with every element of $H_j$ for $j \neq i$. For G to be the restricted sum of the family of subgroups $(H_i)_{i \in I}$, it is necessary and sufficient that every element x of G be expressible uniquely in the form $\prod_{i \in I} y_i$, where $(y_i)_{i \in I}$ is a family with finite support of elements of G with $y_i \in H_i$ for all i.*
 
 Obvious.
 
-#### Proposition 14 {#alg-i-s4-prop-14 .statement}
+#### Proposition 14 {#alg-i-s4-prop-14 .statement tag=059U}
 
 *Let G be a group with operators and $(H_i)_{i \in I}$ a finite family of stable subgroups of G. For G to be the restricted sum of the family of subgroups $(H_i)$, it is necessary and sufficient that each $H_i$ be normal and that G be the product of the quotient groups $(G/H^i)$, where $H^i$ is the subgroup generated by the $H_j$ for $j \neq i$.*
 
 The condition is obviously necessary. Conversely, suppose G is the product of the $K_i = G/H^i$ and let G be identified with the product of the $K_i$. Then $H_i$ is identified with a subgroup of $K_i$, so that, for $i \neq j$, every element of $H_i$ is permutable with every element of $H_j$; on the other hand, $H^i$ is identified with the product of the $K_j$ for $j \neq i$, hence $H_i = K_i$ for all $i$ and G is the direct product of the $H_i$.
 
-#### Proposition 15 {#alg-i-s4-prop-15 .statement}
+#### Proposition 15 {#alg-i-s4-prop-15 .statement tag=059V}
 
 *Let G be a group with operators and $(H_i)_{1 \leq i \leq n}$ a sequence of normal stable subgroups of G such that*
 $$
@@ -621,7 +621,7 @@ Let $a \in \mathbf{Z}$; since $a\mathbf{Z}$ is a subgroup of $\mathbf{Z}$, the r
 
 For $a > 0$, the quotient of $\mathbf{Z}$ by the congruence $x \equiv y(a)$, that is the group $\mathbf{Z}/a\mathbf{Z}$, is called the *group of rational integers modulo* $a$.
 
-#### Proposition 16 {#alg-i-s4-prop-16 .statement}
+#### Proposition 16 {#alg-i-s4-prop-16 .statement tag=059W}
 
 *Let $a$ be an integer $> 0$. The integers $r$ such that $0 \leqslant r < a$ form a system of representatives of the equivalence relation $x \equiv y \pmod{a}$ on $\mathbf{Z}$.*
 
@@ -633,17 +633,17 @@ $$
 
 and $0 \leqslant r' < a$. We now show that if $0 \leqslant r < r' < a$, then $r \not\equiv r' \pmod{a}$. Now $r' - r < na$ for $n \geqslant 1$ and $r' - r > na$ for $n \leqslant 0$, whence $r' - r \notin a\mathbf{Z}$.
 
-#### Corollary {#alg-i-s4-n10-cor-1 .statement}
+#### Corollary {#alg-i-s4-n10-cor-1 .statement tag=059X}
 
 *Let $a$ be an integer $> 0$. The group $\mathbf{Z}/a\mathbf{Z}$ of rational integers modulo $a$ is a group of order $a$.*
 
-#### Proposition 17 {#alg-i-s4-prop-17 .statement}
+#### Proposition 17 {#alg-i-s4-prop-17 .statement tag=059Y}
 
 *Let $\mathrm{H}$ be a subgroup of $\mathbf{Z}$. There exists one and only one integer $a \geqslant 0$ such that $\mathrm{H} = a\mathbf{Z}$.*
 
 If $\mathrm{H} = \{0\}$, then $\mathrm{H} = 0\mathbf{Z}$. Suppose that $\mathrm{H} \neq \{0\}$. The subgroup $\mathrm{H}$ has an element $x \neq 0$. Then $x > 0$ or $-x > 0$, and therefore $\mathrm{H}$ has elements $> 0$. Let $a$ be the smallest element $> 0$ in $\mathrm{H}$. The subgroup $a\mathbf{Z}$ generated by $a$ is contained in $\mathrm{H}$; we show that $\mathrm{H} \subset a\mathbf{Z}$. Let $y \in \mathrm{H}$. By Proposition 16, there exists an integer $r$ such that $y \equiv r \pmod{a}$ and $0 \leqslant r < a$. *A fortiori* $y \equiv r \pmod{\mathrm{H}}$, whence $r \in \mathrm{H}$. But this is only possible if $r = 0$ and therefore $y \in a\mathbf{Z}$. The integer $a$ is unique: if $\mathrm{H} = \{0\}$, then necessarily $a = 0$, and if $\mathrm{H} \neq \{0\}$, the integer $a$ is the order of $\mathbf{Z}/\mathrm{H}$.
 
-#### Definition 15 {#alg-i-s4-def-15 .statement}
+#### Definition 15 {#alg-i-s4-def-15 .statement tag=059Z}
 
 *A group is called monogenous if it admits a system of generators consisting of a single element. A finite monogenous group is called cyclic.*
 
@@ -651,13 +651,13 @@ Every monogenous group is commutative (no. 3, Corollary 2 to Proposition 2). Eve
 
 The additive group $\mathbf{Z}$ is monogenous: it is generated by $\{1\}$. For every positive integer $a$, the group $\mathbf{Z}/a\mathbf{Z}$ is monogenous, for it is a quotient of $\mathbf{Z}$.
 
-#### Proposition 18 {#alg-i-s4-prop-18 .statement}
+#### Proposition 18 {#alg-i-s4-prop-18 .statement tag=05A0}
 
 *A finite monogenous group of order a is isomorphic to $\mathbf{Z}/a\mathbf{Z}$. An infinite monogenous group is isomorphic to $\mathbf{Z}$.*
 
 Let G be a monogenous group (written multiplicatively) and x a generator of G. The identity $x^m x^n = x^{m+n}$ (§ 1, no. 3, formula (1)) shows that the mapping $n \mapsto x^n$ is a homomorphism of $\mathbf{Z}$ into G. Its image is a subgroup of G containing x and hence it is G. By no. 5, Theorem 3, the group G is isomorphic to the quotient of $\mathbf{Z}$ by a subgroup, which is necessarily of the form $a\mathbf{Z}$ (Proposition 17). If $a > 0$, the group G is finite of order a and if $a = 0$, the group G is isomorphic to $\mathbf{Z}$.
 
-#### Proposition 19 {#alg-i-s4-prop-19 .statement}
+#### Proposition 19 {#alg-i-s4-prop-19 .statement tag=05A1}
 
 *Let a be an integer > 0. Let H be a subgroup of $\mathbf{Z}/a\mathbf{Z}$, b the order of H and c its index in $\mathbf{Z}/a\mathbf{Z}$. Then $a = bc$, $H = c\mathbf{Z}/a\mathbf{Z}$ and H is isomorphic to $\mathbf{Z}/b\mathbf{Z}$.
 
@@ -665,33 +665,33 @@ Conversely, let b and c be two integers > 0 such that $a = bc$. Then $a\mathbf{Z
 
 $a = bc$ by no. 4, Corollary to Proposition 4. By no. 7, Theorem 4, H is of the form $H'/a\mathbf{Z}$, where $H'$ is a subgroup of $\mathbf{Z}$ and $\mathbf{Z}/H'$ is isomorphic to $(\mathbf{Z}/a\mathbf{Z})/H$ and hence of order c. By Proposition 17 and the Corollary to Proposition 16, $H' = c\mathbf{Z}$ and hence H is monogenous. Finally, H is isomorphic to $\mathbf{Z}/b\mathbf{Z}$ by Proposition 18. Conversely, if $a = bc$, then $a\mathbf{Z} \subset c\mathbf{Z}$ for $a \in c\mathbf{Z}$: the quotient group $(\mathbf{Z}/a\mathbf{Z})/(c\mathbf{Z}/a\mathbf{Z})$ is isomorphic to $\mathbf{Z}/c\mathbf{Z}$ (no. 7, Theorem 4) and hence of order c (no. 4, Corollary to Proposition 4) and index b (no. 4, Corollary to Proposition 4).
 
-#### Corollary {#alg-i-s4-n10-cor-2 .statement}
+#### Corollary {#alg-i-s4-n10-cor-2 .statement tag=05A2}
 
 *Every subgroup of a monogenous group is monogenous.*
 
 Let a and b be two integers $\neq 0$. The relation $b \in a\mathbf{Z}$ is also written: *b is a multiple of a*, and also *a divides b* or *a is a divisor of b*.
 
-#### Definition 16 {#alg-i-s4-def-16 .statement}
+#### Definition 16 {#alg-i-s4-def-16 .statement tag=05A3}
 
 *An integer $p > 0$ is called prime if $p \neq 1$ and it admits no divisor > 1 other than p.*
 
-#### Proposition 20 {#alg-i-s4-prop-20 .statement}
+#### Proposition 20 {#alg-i-s4-prop-20 .statement tag=05A4}
 
 *An integer $p > 0$ is prime if and only if the group $\mathbf{Z}/p\mathbf{Z}$ is a simple group.*
 
 This follows from Proposition 19.
 
-#### Corollary {#alg-i-s4-n10-cor-3 .statement}
+#### Corollary {#alg-i-s4-n10-cor-3 .statement tag=05A5}
 
 *Every commutative simple group is cyclic of prime order.*
 
 Let G be such a group. Then $G \neq \{e\}$; let $a \neq e$ be an element of G. The subgroup generated by a is normal since G is commutative, it is not reduced to $\{e\}$ and hence is equal to G. Therefore G is monogenous and hence isomorphic to a group of the form $\mathbf{Z}/p\mathbf{Z}$ with $p > 0$, since $\mathbf{Z}$ is not simple, and $p$ is necessarily prime.
 
-#### Remark {#alg-i-s4-n10-rem-1 .statement}
+#### Remark {#alg-i-s4-n10-rem-1 .statement tag=05A6}
 
 A finite group G of prime order is necessarily cyclic. G admits no subgroup other than G and $\{e\}$ and hence it is generated by every element $\neq e$.
 
-#### Lemma 2 {#alg-i-s4-lem-2 .statement}
+#### Lemma 2 {#alg-i-s4-lem-2 .statement tag=05A7}
 
 Let $a$ be an integer $> 0$. By associating with every composition series $(\mathbf{H}_i)_{0 \leq i \leq n}$ of the group $\mathbf{Z}/a\mathbf{Z}$ the sequence $(s_i)_{1 \leq i \leq n}$, where $s_i$ is the order of $\mathbf{H}_{i-1}/\mathbf{H}_i$, a one-to-one correspondence is obtained between the composition series of $\mathbf{Z}/a\mathbf{Z}$ and the finite sequences $(s_i)$ of integers $> 0$ such that $a = s_1 \ldots s_n$. The composition series $(\mathbf{H}_i)_{0 \leq i \leq n}$ is a Jordan-Hölder series if and only if the $s_i$ are prime.
 
@@ -701,7 +701,7 @@ Conversely, let $(s_i)_{1 \leq i \leq n}$ be a sequence of integers $> 0$ such t
 
 Let $\mathfrak{P}$ denote the set of prime numbers.
 
-#### Theorem 7 (decomposition into prime factors) {#alg-i-s4-thm-7 .statement}
+#### Theorem 7 (decomposition into prime factors) {#alg-i-s4-thm-7 .statement tag=05A8}
 
 *Let $a$ be a strictly positive integer. There exists one and only one family $(v_p(a))_{p \in \mathfrak{P}}$ of integers $> 0$ such that the set of $p \in \mathfrak{P}$ with $v_p(a) \neq 0$ is finite and*
 
@@ -711,13 +711,13 @@ $$
 
 As the group $\mathbf{Z}/a\mathbf{Z}$ is finite, it admits a Jordan-Hölder series. Lemma 2 then implies that $a$ is a product of prime integers, whence the existence of the family $(v_p(a))$; further, for every family $(v_p(a))_{p \in \mathfrak{P}}$ satisfying the conditions of Theorem 7, the integer $v_p(a)$ is, for all $p \in \mathfrak{P}$, equal to the number of factors of a Jordan-Hölder series of $\mathbf{Z}/a\mathbf{Z}$ isomorphic to $\mathbf{Z}/p\mathbf{Z}$ (Lemma 2). The uniqueness of the family $(v_p(a))$ therefore follows from the Jordan-Hölder theorem (no. 7, Theorem 6).
 
-#### Corollary {#alg-i-s4-n10-cor-4 .statement}
+#### Corollary {#alg-i-s4-n10-cor-4 .statement tag=05A9}
 
 *Let $a$ and $b$ be two integers $> 0$. Then $v_p(ab) = v_p(a) + v_p(b)$. For $a$ to divide $b$, it is necessary and sufficient that $v_p(a) \leq v_p(b)$ for every prime number $p$.*
 
 In any group $G$, if the (monogenous) subgroup generated by an element $x \in G$ is of finite order $d$, $x$ is called an element of *order* $d$; the number $d$ is therefore the least integer $> 0$ such that $x^d = e$; if the subgroup generated by $x$ is infinite, $x$ is said to be of *infinite order*. These definitions, together with Proposition 4 (no. 4), imply in particular that in a finite group G the order of every element of G is a divisor of the order of G.
 
-#### Proposition 21 {#alg-i-s4-prop-21 .statement}
+#### Proposition 21 {#alg-i-s4-prop-21 .statement tag=05AA}
 
 In a finite group G of order n, $x^n = e$ for all $x \in G$.
 

@@ -57,9 +57,9 @@ subsections:
       pdf_page: 479
 statements: 17
 exercises: 3
-content_sha256: 2f070e92001b7406743e15bfe3639e87da97ac759cbe9fbff3833502fd8ebcb2
+content_sha256: 7ce6d41169048c28b0ad2d43e6f71dd1d26db6b6d3f0061d896c37cc51fb40c5
 translated_from: content/en/alg/III/02_s2_examples_of_algebras.md
-source_content_sha256: 5a84acf9f107bad7d60ffaca486e8438e91a0e75355de3f0446a4594085e9abd
+source_content_sha256: 523c00d5d47e83c328fe974b4b99f51c3c18998f5e378badbbbbd303ed1feec8
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4
 translation_run: translate-vi-f8bdd831
 glossary_version: 34
@@ -107,7 +107,7 @@ Có thể chứng minh rằng mọi đại số trên A có đơn vị thừa nh
 
 Nếu một cơ sở $(e_1, e_2)$ của một đại số trên A có bảng phép nhân (2), nó được gọi là một cơ sở kiểu $(\alpha, \beta)$. Do lạm dụng ngôn ngữ, một đại số bậc hai được nói là có kiểu $(\alpha, \beta)$ khi nó có một cơ sở kiểu $(\alpha, \beta)$.
 
-#### Mệnh đề 1 {#alg-iii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s2-prop-1 .statement tag=05YX}
 
 *Một đại số bậc hai E là kết hợp và giao hoán.*
 
@@ -127,7 +127,7 @@ $$
 
 cho mọi $\delta \in A$ khả nghịch và mọi $\gamma \in A$. Đặc biệt, nếu $E$ có kiểu $(\alpha, 2\beta')$, thì $i$ cũng có kiểu $(\alpha + {\beta'}^2, 0)$ như thấy được bằng cách lấy $\gamma = -\beta'$ và $\delta = 1$.
 
-#### Mệnh đề 2 {#alg-iii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-s2-prop-2 .statement tag=05YY}
 
 *Cho $E$ là một đại số bậc hai trên $A$ và $e$ là phần tử đơn vị của nó. Với mọi $u \in E$, gọi $T(u)$ là vết của tự đồng cấu $m_u : x \mapsto ux$ của $A$-môđun tự do $E$ (II, § 4, no. 3). Khi đó ánh xạ $s$ xác định bởi $s(u) = T(u).e - u$ là một tự đẳng cấu của đại số $E$ và $s^2(u) = u$ với mọi $u \in E$.*
 
@@ -179,7 +179,7 @@ $$
 
 Mệnh đề sau đây cho cấu trúc của các đại số bậc hai trên một trường giao hoán:
 
-#### Mệnh đề 3 {#alg-iii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-s2-prop-3 .statement tag=05YZ}
 
 *Cho E là một đại số trên A bậc hai kiểu* $(\alpha, \beta)$.
 
@@ -207,7 +207,7 @@ Một đại số bậc hai trên A thuộc kiểu $(0, 0)$ cũng được gọi
 
 ### 4. ĐẠI SỐ CAYLEY
 
-#### Định nghĩa 1 {#alg-iii-s2-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s2-def-1 .statement tag=05Z0}
 
 *Một đại số Cayley trên* A *là một cặp có thứ tự* (E, s), *trong đó* E *là một đại số trên* A *có phần tử đơn vị* e *và* s *là một phản tự đẳng cấu của* E *sao cho*
 
@@ -250,7 +250,7 @@ $$
 
 với mọi $u \in E$.
 
-#### Mệnh đề 4 {#alg-iii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-s2-prop-4 .statement tag=05Z1}
 
 *Cho E là một A-đại số và s và s' là các phản tự đẳng cấu của E sao cho (E, s) và (E, s') là các đại số Cayley. Nếu E thừa nhận một cơ sở chứa phần tử đơn vị e, thì s' = s.*
 
@@ -345,7 +345,7 @@ $$
 t((x, y)) = (\bar{x}, -y) \quad (x \in E, y \in E).
 $$
 
-#### Mệnh đề 5 {#alg-iii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iii-s2-prop-5 .statement tag=05Z2}
 
 (i) *Cặp có thứ tự $(F, t)$ là một đại số Cayley trên $A$*.
 
@@ -402,7 +402,7 @@ $$
 
 Đại số Cayley $(\mathbf{F}, t)$ được gọi là *mở rộng Cayley của* $(\mathbf{E}, s)$ *được xác định bởi* $\gamma$.
 
-#### Ví dụ {#alg-iii-s2-n5-exa-1 .statement}
+#### Ví dụ {#alg-iii-s2-n5-exa-1 .statement tag=05Z3}
 
 (1) Nếu ta lấy $\mathbf{E} = \mathbf{A}$ (và do đó $s = 1_A$), thì đại số $\mathbf{F}$ là một *đại số bậc hai trên A* với cơ sở $(e, j)$ trong đó $j^2 = \gamma e$.
 
@@ -494,7 +494,7 @@ Khi A \neq \{0\}, đôi khi S được đồng nhất với ảnh của nó qua 
 
 Cho B là một vành giao hoán khác và$\rho : A \to B$một đồng cấu vành; xét các đại số E = A^{(S)} và E' = B^{(S)} của cùng một magma S trên A và B và gọi $(e_s)_{s \in S}$ và $(e'_s)_{s \in S}$ là các cơ sở chính tắc tương ứng của chúng. Đại số $B^{(S)}$ được đồng nhất một cách chính tắc, dưới ánh xạ A-tuyến tính j sao cho $j(e_s \otimes 1) = e'_s$ với mọi $s \in S$, với đại số $A^{(S)} \otimes_A B$ thu được từ $A^{(S)}$ bằng cách mở rộng vành các vô hướng thành B (II, § 1, no. 11, Hệ quả 3 của Mệnh đề 17).
 
-#### Mệnh đề 6 {#alg-iii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iii-s2-prop-6 .statement tag=05Z4}
 
 *Cho S là một magma, F một A-đại số và f một đồng cấu của*
 
@@ -516,7 +516,7 @@ Cho $\bar{f}: A^{(S)} \to F$ là đồng cấu A-môđun duy nhất sao cho $\ba
 
 Mệnh đề 6 biểu thị sự kiện rằng cặp có thứ tự gồm $A^{(S)}$ và ánh xạ chính tắc $s \mapsto e_s$ là một nghiệm của bài toán ánh xạ phổ quát (Lý thuyết tập hợp, IV, § 3, no. 1) trong đó $\Sigma$ là loài cấu trúc A-đại số và các ánh xạ $\alpha$ là các đồng cấu của S vào một A-đại số chỉ với luật nhân của nó.
 
-#### Hệ quả {#alg-iii-s2-n6-cor-1 .statement}
+#### Hệ quả {#alg-iii-s2-n6-cor-1 .statement tag=05Z5}
 
 Cho S, S' là hai magma và $g: S \to S'$ một đồng cấu. Khi đó tồn tại một và chỉ một đồng cấu A-đại số $u: A^{(S)} \to A^{(S')}$ làm cho biểu đồ
 
@@ -536,7 +536,7 @@ Chỉ cần áp dụng Mệnh đề 6 bằng cách lấy $f$ là ánh xạ hợp
 
 Đặc biệt, nếu T là một tập con ổn định của magma S (I, § 1, no. 4), tập hợp các phần tử $\sum_{s \in T} \alpha_s e_s$ của $A^{(S)}$ là một đại số con của $A^{(S)}$ đẳng cấu chính tắc với đại số $A^{(T)}$ và đôi khi được đồng nhất với đại số sau.
 
-#### Ví dụ {#alg-iii-s2-n6-exa-1 .statement}
+#### Ví dụ {#alg-iii-s2-n6-exa-1 .statement tag=05Z6}
 
 Cho V là một A-môđun và S một monoid tác động lên V ở bên trái; điều này có nghĩa (I, § 5, no. 1) là cho trước một ánh xạ $(s, x) \mapsto s.x$ của S vào V sao cho $s.(x + y) = s.x + s.y, s.(\alpha x) = \alpha(s.x)$ và $s.(t.x) = (st).x$ với $s, t$ trong S, $x, y$ trong V và $\alpha \in A$ và, ký hiệu e là phần tử đơn vị của S, e.x = x với x ∈ V. Viết f(s)(x) = s.x, f là một đồng cấu của S vào đại số End_A(V) (chỉ với luật nhân của nó), ánh xạ phần tử đơn vị e lên phần tử đơn vị l_V. Áp dụng Mệnh đề 6, ta thu được một đồng cấu A-đại số $\bar{f}: A^{(S)} \to \mathrm{End}_A(V)$, đồng cấu này cho nhóm cơ sở của V một cấu trúc môđun trái trên $A^{(S)}$.
 
@@ -552,7 +552,7 @@ Khi đó áp dụng phương pháp được mô tả ở trên, ta thu được 
 
 ### 7. ĐẠI SỐ TỰ DO
 
-#### Định nghĩa 2 {#alg-iii-s2-def-2 .statement}
+#### Định nghĩa 2 {#alg-iii-s2-def-2 .statement tag=05Z7}
 
 *Cho I là một tập hợp; gọi M(I) (resp. Mo(I), resp. $\mathbf{N}^{(I)}$) là magma tự do (resp. monoid tự do, resp. monoid giao hoán tự do) dẫn xuất từ I. Đại số của M(I) (resp. Mo(I), resp. $\mathbf{N}^{(I)}$) trên A được gọi là đại số tự do (resp. đại số kết hợp tự do, resp. đại số giao hoán kết hợp tự do (hoặc, do lạm dụng ngôn ngữ, đại số giao hoán tự do)) của tập hợp I trên vành A.*
 
@@ -560,13 +560,13 @@ Ta sẽ ký hiệu đại số tự do (resp. đại số kết hợp tự do, r
 
 Vì Mo(I) và $\mathbf{N}^{(I)}$ mỗi cái đều có một phần tử đơn vị, nên Libas_A(I) và Libasc_A(I) là những đại số kết hợp có đơn vị và hơn nữa Libasc_A(I) là giao hoán. Nếu e là phần tử đơn vị của Libas_A(I) (resp. Libasc_A(I)), thì ánh xạ $\alpha \mapsto \alpha e$ là một đẳng cấu từ A lên một vành con của tâm của Libas_A(I) (resp. Libasc_A(I)), và vành con này được đồng nhất với A (no. 1).
 
-#### Mệnh đề 7 {#alg-iii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iii-s2-prop-7 .statement tag=05Z8}
 
 *Cho I là một tập hợp và F là một đại số (resp. đại số kết hợp có đơn vị, resp. đại số kết hợp giao hoán có đơn vị) trên A. Với mọi ánh xạ $f : I \to F$, tồn tại một và chỉ một đồng cấu (resp. đồng cấu có đơn vị) $\bar{f}$ từ Lib_A(I) (resp. Libas_A(I), resp. Libasc_A(I)) vào F sao cho $\bar{f}(X_i) = f(i)$ với mọi $i \in I$.*
 
 Gọi $F_m$ là magma (resp. monoid) thu được bằng cách trang bị cho tập hợp F luật hợp thành nhân của nó. Tồn tại một và chỉ một đồng cấu (resp. đồng cấu có đơn vị) $g$ từ M(I) (resp. Mo(I), resp. $\mathbf{N}^{(I)}$) vào $F_m$ sao cho $g(i) = f(i)$ với mọi $i \in I$ (I, § 7, các số 1, 2 và 7); khi đó Mệnh đề 7 suy ra từ no. 6, Mệnh đề 6.
 
-#### Nhận xét {#alg-iii-s2-n7-rem-1 .statement}
+#### Nhận xét {#alg-iii-s2-n7-rem-1 .statement tag=05Z9}
 
 (1) Về sau ta sẽ định nghĩa một đẳng cấu từ Libas_A(I) lên đại số tenxơ của môđun tự do $A^{(I)}$ (§ 5, no. 5) và cả một đẳng cấu từ Libasc_A(I) lên đại số đối xứng của $A^{(I)}$ (§ 6, no. 6).
 
@@ -605,7 +605,7 @@ Các nhận xét này biện minh cho cách nói lạm dụng sau đây: thay v�
 
 Cho H là một tập hợp; ta sẽ nói rằng một phần tử S của $\mathrm{Lib}_A(H)$ là một hệ thức *phổ quát* đối với một đại số trên A F nếu $S((x_h)_{h \in H}) = 0$ với *mọi* họ $(x_h)_{h \in H}$ các phần tử của F lấy H làm tập hợp chỉ số.
 
-#### Ví dụ {#alg-iii-s2-n8-exa-1 .statement}
+#### Ví dụ {#alg-iii-s2-n8-exa-1 .statement tag=05ZA}
 
 (1) Lấy $H = \{1, 2, 3\}$; các đại số thừa nhận
 $$
@@ -623,7 +623,7 @@ Cho I là một tập hợp; cho một họ $(S_k)_{k \in K}$ các phần tử c
 
 Các xét tương tự như trên có thể được áp dụng cho các đại số kết hợp (tương ứng, các đại số kết hợp giao hoán), có tính đến các nhận xét sau đây. Khi ngữ cảnh cho một chỉ dẫn đủ rõ rằng các đại số được xét là các đại số có đơn vị, thì do một sự lạm dụng ngôn ngữ, một họ $(x_i)_{i \in I}$ các phần tử của một đại số $F$, sao cho đại số con sinh bởi các $x_i$ ($i \in I$) và phần tử đơn vị bằng $F$, thường được gọi là một hệ sinh của $F$. Khi đó cho $F$ là một đại số kết hợp có đơn vị trên $A$ và cho $(x_i)_{i \in I}$ là một họ các phần tử của $F$; theo no. 7, Mệnh đề 7, tồn tại một đồng cấu có đơn vị duy nhất $f : \mathrm{Libas}_A(I) \to F$ sao cho $f(X_i) = x_i$ với mọi $i \in I$; nếu $U \in \mathrm{Libas}_A(I)$, $f(U)$ cũng được gọi là phần tử của $F$ dẫn xuất từ $U$ bằng cách thay các phần tử $x_i$ cho các bất định thức $X_i$ và cũng được ký hiệu bởi $U((x_i)_{i \in I})$. Khi đó các khái niệm quan hệ tử, biểu diễn và quan hệ tử phổ quát chuyển ngay lập tức sang các đại số kết hợp; chỉ cần đơn giản thay thế $\mathrm{Lib}_A(I)$ ở khắp nơi bằng $\mathrm{Libas}_A(I)$. *Đại số kết hợp có đơn vị phổ quát xác định bởi hệ sinh I liên quan với họ các quan hệ tử* $(R_j)_{j \in J}$ là đại số thương của $\mathrm{Libas}_A(I)$ theo iđêan hai phía sinh bởi họ $(R_j)$. Đại số kết hợp có đơn vị phổ quát sinh bởi hệ sinh $I$, tương ứng với một họ các quan hệ tử phổ quát được xác định tương tự. Chúng tôi để cho người đọc công việc phát biểu các định nghĩa tương tự đối với các đại số kết hợp giao hoán với $\mathrm{Libasc}_A(I)$ được thay cho $\mathrm{Libas}_A(I)$.
 
-#### Ví dụ 3 {#alg-iii-s2-n8-exa-3 .statement}
+#### Ví dụ 3 {#alg-iii-s2-n8-exa-3 .statement tag=05ZB}
 
 Cho $L'$ là đại số kết hợp có đơn vị phổ quát sinh bởi $I$ và thỏa các đồng nhất thức $uv - vu = 0$ với mọi họ gồm hai phần tử của $L'$. Ta thấy, như trong *Ví dụ 2*, rằng $L'$ đẳng cấu chính tắc với $\mathrm{Libasc}_A(I)$.
 
@@ -650,7 +650,7 @@ $$
 0 \longrightarrow a \longrightarrow A[(X_i)_{i \in I}] \xrightarrow{h} A[(x_i)_{i \in I}] \longrightarrow 0.
 $$
 
-#### Mệnh đề 8 {#alg-iii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iii-s2-prop-8 .statement tag=05ZC}
 
 *Cho $A[(X_i)_{i \in I}]$ là một đại số đa thức, $J$ là một tập con của $I$ và $K$ là phần bù của $J$ trong $I$. Viết $A' = A[(X_j)_{j \in J}]$ và ký hiệu bởi $X'_k$ ($k \in K$) các ẩn trong đại số đa thức Libasc_{A'}(K) = A'[(X'_k)_{k \in K}], thì tồn tại một đẳng cấu vành duy nhất từ A'[(X'_k)_{k \in K}] lên A[(X_i)_{i \in I}] trùng với đồng nhất trên A' và ánh xạ X'_k tới X_k với mọi k \in K.*
 
@@ -658,7 +658,7 @@ Rõ ràng A[(X_i)_{i \in I}] là một $A'$-đại số sinh bởi các X_k vớ
 
 Đẳng cấu được mô tả trong Mệnh đề 8 thường được dùng để đồng nhất các phần tử của A[(X_i)_{i \in I}] với các đa thức có hệ số trong A' = A[(X_j)_{j \in J}]. Nếu u là một phần tử $\neq 0$ của A[(X_i)_{i \in I}], bậc toàn phần của nó khi được xét như một phần tử của A'[(X_k)_{k \in K}] cũng được gọi là bậc của nó đối với các X_i có chỉ số i \in K.
 
-#### Nhận xét {#alg-iii-s2-n9-rem-1 .statement}
+#### Nhận xét {#alg-iii-s2-n9-rem-1 .statement tag=05ZD}
 
 Cho I và J là hai tập hợp và (P_j)_{j \in J} là một họ các phần tử của $\mathbf{Z}[(X_i)_{i \in I}]$; nếu Q là một phần tử của $\mathbf{Z}[(X_j)_{j \in J}]$ sao cho $Q((P_j)_{j \in J}) = 0$, thì, với mọi họ $(b_i)_{i \in I}$ các phần tử giao hoán từng đôi một của một vành B,
 $$

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 312
 statements: 40
 exercises: 13
-content_sha256: 53f3ba4b1e396245998db2c812507d8a4e455c6e25b3731fc861c9dcc4705987
+content_sha256: ac80217cc327976168394892cdf7db00cf39b8b242f761fd1c03f5a44ca03e51
 ---
 
 ## § 4. PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
@@ -50,7 +50,7 @@ Recall that, until the end of the chapter, K is assumed to be of characteristic 
 
 ### 1. PASSAGE FROM LIE ALGEBRA MORPHISMS TO LIE GROUP MORPHISMS
 
-#### Lemma 1 {#lie-iii-s4-lem-1 .statement}
+#### Lemma 1 {#lie-iii-s4-lem-1 .statement tag=0ACK}
 
 *Let G be a Lie group germ and $\mathfrak{h}$ a Lie subalgebra of $L(G)$ admitting a topological supplement. The union of the $g\mathfrak{h}$ (resp. $\mathfrak{h}g$) for $g \in G$ is an integrable vector subbundle of $T(G)$.*
 
@@ -58,7 +58,7 @@ By considering the left trivialization of $T(G)$ (§ 2, no. 3), it is seen immed
 
 The integral foliation (*Differentiable and Analytic Manifolds*, R, 9.3.2) of the union of the $g\mathfrak{h}$ (resp. $\mathfrak{h}g$) is called the *left* (resp. *right*) *foliation* of G associated with $\mathfrak{h}$.
 
-#### Theorem 1 {#lie-iii-s4-thm-1 .statement}
+#### Theorem 1 {#lie-iii-s4-thm-1 .statement tag=0ACL}
 
 *Let G and H be Lie group germs and f a continuous morphism of $L(G)$ into $L(H)$.
 (i) There exist an open Lie subgroup germ $G'$ of G and a morphism $\phi$ of $G'$ into H such that $f = L(\phi)$.
@@ -92,19 +92,19 @@ $$
 
 for $i = 1, 2$. As $\phi_1(e_G) = e_H = \phi_2(e_G)$, it follows from Differentiable and Analytic Manifolds, R, 9.3.7 that $\phi_1$ and $\phi_2$ coincide on a neighbourhood of $e_G$.
 
-#### Corollary 1 {#lie-iii-s4-thm-1-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s4-thm-1-cor-1 .statement tag=0ACM}
 
 Let $G$ and $H$ be two Lie group germs. If $L(G)$ and $L(H)$ are isomorphic, $G$ and $H$ are locally isomorphic.
 
 This follows from Theorem 1 and § 1, no. 10, Proposition 21.
 
-#### Corollary 2 {#lie-iii-s4-thm-1-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s4-thm-1-cor-2 .statement tag=0ACN}
 
 Let $G$ be a Lie group germ. If $L(G)$ is commutative, $G$ is locally isomorphic to the additive Lie group $L(G)$.
 
 The Lie algebra of the additive group $L(G)$ is isomorphic to $L(G)$. Hence it suffices to apply Corollary 1.
 
-#### Corollary 3 {#lie-iii-s4-thm-1-cor-3 .statement}
+#### Corollary 3 {#lie-iii-s4-thm-1-cor-3 .statement tag=0ACO}
 
 Let $G$ be a Lie group. If $L(G)$ is commutative, $G$ contains a commutative open subgroup.
 
@@ -114,7 +114,7 @@ There exists an open Lie subgroup germ U of G which is commutative (Corollary 2)
 
 We shall denote the Hausdorff series by H(X, Y) (Chapter II, § 6, no. 4, Definition 1).
 
-#### Lemma 2 {#lie-iii-s4-lem-2 .statement}
+#### Lemma 2 {#lie-iii-s4-lem-2 .statement tag=0ACP}
 
 Let L be a complete normed Lie algebra over $\mathbf{R}$ or $\mathbf{C}$. Let G be the set of $x \in L$ such that $\|x\| < \frac{1}{3} \log \frac{3}{2}$. Let $\theta$ be the mapping $x \mapsto -x$ of G into G. Let H be the restriction to $G \times G$ of the Hausdorff function of L (Chapter II, § 7, no. 2).
 (i) $(G, 0, \theta, H)$ is a Lie group germ.
@@ -130,7 +130,7 @@ G is called the *Lie group germ defined by L*.
 
 Suppose that K is ultrametric. Let $p$ be the characteristic of the residue field of K. If $p \neq 0$, let $\lambda = |p|^{1/(p-1)}$; if $p = 0$, let $\lambda = 1$.
 
-#### Lemma 3 {#lie-iii-s4-lem-3 .statement}
+#### Lemma 3 {#lie-iii-s4-lem-3 .statement tag=0ACQ}
 
 Let L be a complete normed Lie algebra over K. Let G be the set of $x \in L$ such that $\|x\| < \lambda$. Let $H : G \times G \to G$ be the Hausdorff function of L (Chapter II, § 8, no. 3).
 (i) With the law of composition H, G is a Lie group in which 0 is identity element and $-x$ the inverse of x for all $x \in G$.
@@ -140,13 +140,13 @@ Assertions (i) and (iii) follow from Chapter II, § 8, no. 3, Proposition 3 and 
 
 G is called the *Lie group defined by L*.
 
-#### Theorem 2 {#lie-iii-s4-thm-2 .statement}
+#### Theorem 2 {#lie-iii-s4-thm-2 .statement tag=0ACR}
 
 Let L be a complete normable Lie algebra. There exists a Lie group germ G such that L(G) is isomorphic to L. Two such Lie group germs are locally isomorphic.
 
 The first assertion follows from Lemmas 2 and 3. The second assertion follows from Corollary 1 to Theorem 1 of no. 1.
 
-#### Corollary 1 {#lie-iii-s4-thm-2-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s4-thm-2-cor-1 .statement tag=0ACS}
 
 Let G be a Lie group. There exists a neighbourhood of e which contains no finite subgroup distinct from {e}. If K = R or C, there exists an open neighbourhood of e which contains no subgroup distinct from {e}.
 
@@ -162,7 +162,7 @@ which is absurd. Hence H = {e}.
 
 Suppose that K is ultrametric. It suffices to prove the corollary when G is the Lie group associated with L. If $g \in G$, the powers of g evaluated in G are the elements of $\mathbf{Z}g$ evaluated in L. These are distinct if $g \neq e$. Hence G contains no finite subgroup distinct from {e}.
 
-#### Corollary 2 {#lie-iii-s4-thm-2-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s4-thm-2-cor-2 .statement tag=0ACT}
 
 Let k be a non-discrete closed subfield of K, G a Lie group over k and L = L(G). Suppose that L has a normable Lie K-algebra structure L', compatible with the normable Lie k-algebra structure and invariant under the adjoint representation of G. Then there exists on G one and only one Lie K-group structure compatible with the Lie k-group structure and for which the Lie algebra is L'.
 
@@ -170,7 +170,7 @@ There exists a Lie group germ $G_1$ over K such that $L(G_1) = L'$ (Theorem 2). 
 
 K-group and V is an open sub-K-manifold of G. By translation, it is seen that the underlying k-manifold structure of G is the given structure. The Lie algebra of the Lie K-group G is the same as that of the open Lie K-subgroup germ V and hence is L'. Finally, the uniqueness stated in the corollary follows from § 3, no. 8, Proposition 32.
 
-#### Theorem 3 {#lie-iii-s4-thm-3 .statement}
+#### Theorem 3 {#lie-iii-s4-thm-3 .statement tag=0ACU}
 
 Let G be a Lie group germ and $\mathfrak{h}$ a Lie subalgebra of $L(G)$ admitting a topological supplement. There exists a Lie subgroup germ H of G such that $L(H) = \mathfrak{h}$. If $H_1$ and $H_2$ are Lie subgroup germs of G such that
 
@@ -182,13 +182,13 @@ then $H_1 \cap H_2$ is open in $H_1$ and $H_2$.
 
 There exists a Lie group germ $H'$ with Lie algebra isomorphic to $\mathfrak{h}$ (Theorem 2). Shrinking $H'$ if necessary, it can be assumed that there exists a morphism $\phi$ of $H'$ into G such that $L(\phi)$ is an isomorphism of $L(H')$ onto $\mathfrak{h}$ (no. 1, Theorem 1). As $\mathfrak{h}$ admits a topological supplement, $\phi$ is an immersion at e. Hence, shrinking $H'$ further, it can be assumed that $\phi$ is an isomorphism of the manifold $H'$ onto a submanifold of G. This proves the existence of H. The second assertion follows from the following proposition:
 
-#### Proposition 1 {#lie-iii-s4-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s4-prop-1 .statement tag=0ACV}
 
 Let G be a Lie group germ and H and $H'$ two Lie subgroup germs. In order that $L(H) \supset L(H')$, it is necessary and sufficient that $H \cap H'$ be open in $H'$.
 
 If $H \cap H'$ is open in $H'$, then $L(H') = L(H \cap H') \subset L(H)$. Suppose that $L(H) \supset L(H')$. Let i, $i'$ be the canonical injections of H, $H'$ into G. By shrinking $H'$ if necessary, it can be assumed that there exists a morphism $\psi$ of $H'$ into H such that $L(\psi)$ is the canonical injection of $L(H')$ into $L(H)$ (no. 1, Theorem 1). Then $L(i \circ \psi) = L(i')$ and hence there exists a neighbourhood V of $e_{H'}$ in $H'$ such that $i \circ \psi$ and $i'$ coincide on V (Theorem 1). Therefore $V \subset H$, hence $V \subset H \cap H'$ and $H \cap H'$ is open in $H'$ (§ 1, no. 10).
 
-#### Proposition 2 {#lie-iii-s4-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s4-prop-2 .statement tag=0ACW}
 
 Let G be a Lie group over K, k a non-discrete closed subfield of K and H a Lie subgroup of the Lie k-group G. Suppose that $L(H)$ is a vector sub-K-space of $L(G)$ which admits a topological supplement. Then H is a Lie subgroup of the Lie K-group G.
 
@@ -196,7 +196,7 @@ There exists a Lie subgroup germ $H'$ of the Lie K-group G such that $L(H') = L(
 
 ### 3. EXPONENTIAL MAPPINGS
 
-#### Theorem 4 {#lie-iii-s4-thm-4 .statement}
+#### Theorem 4 {#lie-iii-s4-thm-4 .statement tag=0ACX}
 
 Let G be a Lie group germ, L its Lie algebra, V an open neighbourhood of 0 in L, φ an analytic mapping of V into G such that φ(0) = 0 and T_0(φ) = Id_L. The following conditions are equivalent:
 (i) For all b ∈ L, φ((λ + λ')b) = φ(λb)φ(λ'b) for |λ| and |λ'| sufficiently small.
@@ -219,13 +219,13 @@ so that φ_*(b^n) is homogeneous of degree n in U(G).
 (iii) ⇒ (iv): the canonical mapping of TS(L) into the enveloping algebra of L is the unique morphism of graded cogebras mapping 1 to 1 and extending Id_L (Chapter II, § 1, no. 5, Remark 3). Now φ_* is a cogebra morphism and φ_*|L = Id_L by hypothesis. If condition (iii) holds, it is seen that condition (iv) also holds.
 (iv) ⇒ (v): suppose that condition (iv) is satisfied. Choose a norm on L defining the topology of L and such that \|[x, y]\| \leq \|x\|\|y\| for all x, y in L. Let H be the Lie group germ defined by the normed Lie algebra L. By Theorem 1, there exist an open subgroup germ S ⊂ V of H and an isomorphism φ' of S onto an open subgroup germ of G. As we know already that (v) ⇒ (iv), the mapping φ_* of TS(L) into U(G) is the canonical mapping of TS(L) into the enveloping algebra of L. Thus φ_*(t) = φ'_*(t) for all t ∈ T_0^{(∞)}(L). As φ and φ' are analytic, φ and φ' coincide on a neighbourhood of 0.
 
-#### Definition 1 {#lie-iii-s4-def-1 .statement}
+#### Definition 1 {#lie-iii-s4-def-1 .statement tag=0ACY}
 
 Let G be a Lie group germ and L its Lie algebra. An exponential mapping of G is any analytic mapping $\phi$ defined on an open neighbourhood of 0 in L, with values in G and satisfying the conditions of Theorem 4.
 
 Theorem 4 implies immediately that, for every Lie group germ G, there exists an exponential mapping of G and that two exponential mappings of G coincide on a neighbourhood of 0.
 
-#### Example {#lie-iii-s4-n3-exa-1 .statement}
+#### Example {#lie-iii-s4-n3-exa-1 .statement tag=0ACZ}
 
 (1) Let G be the additive group of a complete normable space E. The canonical isomorphism of L(G) onto E satisfies condition (i) of Theorem 4 and is therefore an exponential mapping of G.
 
@@ -237,7 +237,7 @@ Let G be a Lie group germ and $\phi$ an exponential mapping of G. Then $\phi$ is
 
 A canonical chart (of the first species) on G is a chart $\psi$ on the analytic manifold G whose inverse mapping is an exponential mapping. If further G is finite-dimensional and a basis of L(G) is chosen, the coordinate system defined by $\psi$ and this basis in the domain of $\psi$ is called a canonical coordinate system (of the first species).
 
-#### Proposition 3 {#lie-iii-s4-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s4-prop-3 .statement tag=0AD0}
 
 Let G be a Lie group germ, L its Lie algebra and $\phi$ an exponential mapping of G. Let $L_1, \ldots, L_n$ be vector subspaces of L such that L is the topological direct sum of $L_1, \ldots, L_n$. The mapping
 
@@ -255,7 +255,7 @@ LIE GROUPS
 
 open neighbourhood U of $(0, 0, \ldots, 0)$ has an open image in G and is an isomorphism of the manifold U onto the manifold $\theta(U)$. The inverse mapping $\eta$ of $\theta(U)$ onto U is called a *canonical chart of the second species* of G, associated with the given decomposition of L as a direct sum. If further G is finite-dimensional and each $L_i$ is generated by a non-zero vector $e_i$, the coordinate system on $\theta(U)$ defined by $\eta$ and the $e_i$ is called a *canonical coordinate system of the second species*.
 
-#### Proposition 4 {#lie-iii-s4-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s4-prop-4 .statement tag=0AD1}
 
 *Let G be a Lie group germ and $\phi$ an injective exponential mapping of G. For all x, y in $L(G)$,*
 
@@ -302,13 +302,13 @@ EXponential mappings
 
 § 4.3
 
-#### Proposition 5 {#lie-iii-s4-prop-5 .statement}
+#### Proposition 5 {#lie-iii-s4-prop-5 .statement tag=0AD2}
 
 Let G be a Lie group, k a non-discrete closed subfield of K, G' the group G considered as a Lie group over k and $\phi$ (resp. $\phi'$) an exponential mapping of G (resp. G'). Then $\phi$ and $\phi'$ coincide on a neighbourhood of 0.
 
 $\phi$ satisfies hypothesis (i) of Theorem 4 relative to G' and is therefore an exponential mapping of G'.
 
-#### Proposition 6 {#lie-iii-s4-prop-6 .statement}
+#### Proposition 6 {#lie-iii-s4-prop-6 .statement tag=0AD3}
 
 Let G be a Lie group germ, L its Lie algebra and $\phi : V \to G$ an exponential mapping of G. For all $x \in V$, let $T_x(L)$ be identified with L, so that the right differential $\varpi(x)$ of $\phi$ at x is a linear mapping of L into L. For x sufficiently close to 0,
 
@@ -332,7 +332,7 @@ $$
 
 where $\phi$ is an injective exponential mapping of G.
 
-#### Proposition 7 {#lie-iii-s4-prop-7 .statement}
+#### Proposition 7 {#lie-iii-s4-prop-7 .statement tag=0AD4}
 
 (i) *If $t \in \mathbf{Z}$, a t-th power mapping coincides on a neighbourhood of e with the mapping $g \mapsto g^t$.*
 
@@ -346,7 +346,7 @@ It suffices to prove the proposition when G is the Lie group germ defined by a c
 
 ### 4. FUNCTORIZATION OF EXPONENTIAL MAPPINGS
 
-#### Proposition 8 {#lie-iii-s4-prop-8 .statement}
+#### Proposition 8 {#lie-iii-s4-prop-8 .statement tag=0AD5}
 
 Let G and H be Lie group germs, h a morphism of G into H and $\phi_G$ and $\phi_H$ exponential mappings of G and H. There exists a neighbourhood V of 0 in $L(G)$ such that $h \circ \phi_G$ and $\phi_H \circ L(h)$ coincide on V.
 
@@ -354,7 +354,7 @@ Let $L(G)$ and $L(H)$ be given norms defining their topologies and such that $\|
 
 Loosely speaking, if G and H are identified in a neighbourhood of the identity element with $L(G)$ and $L(H)$ by means of exponential mappings, every morphism of G into H is *linear* in a neighbourhood of 0.
 
-#### Corollary 1 {#lie-iii-s4-prop-8-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s4-prop-8-cor-1 .statement tag=0AD6}
 
 Let G be a Lie group germ, G' a Lie subgroup germ of G and $\phi$ an exponential mapping of G.
 
@@ -364,7 +364,7 @@ Let G be a Lie group germ, G' a Lie subgroup germ of G and $\phi$ an exponential
 
 (i) is obtained by applying Proposition 8 to the canonical injection of G' into G and (ii) follows from (i).
 
-#### Corollary 2 {#lie-iii-s4-prop-8-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s4-prop-8-cor-2 .statement tag=0AD7}
 
 Let G be a Lie group, $\rho$ an analytic linear representation of G and $\phi$ an exponential mapping of G. There exists a neighbourhood V of 0 in $L(G)$ such that
 $$
@@ -374,7 +374,7 @@ for all $x \in V$.
 
 This follows from Proposition 8 and Example 2 of no. 3.
 
-#### Corollary 3 {#lie-iii-s4-prop-8-cor-3 .statement}
+#### Corollary 3 {#lie-iii-s4-prop-8-cor-3 .statement tag=0AD8}
 
 Let G be a Lie group and $\phi$ an exponential mapping of G.
 
@@ -395,7 +395,7 @@ for all $x \in W$.
 
 ### 5. STRUCTURE INDUCED ON A SUBGROUP
 
-#### Lemma 4 {#lie-iii-s4-lem-4 .statement}
+#### Lemma 4 {#lie-iii-s4-lem-4 .statement tag=0AD9}
 
 Let G be a finite-dimensional Lie group, $\Omega$ a symmetric open neighbourhood of e in G and H a subset of $\Omega$ containing e such that the conditions $x \in H, y \in H, xy^{-1} \in \Omega$ imply $xy^{-1} \in H$. Let $r \in N_K$. For all $x \in H$, let $h_x$ be the set of $a \in T_x(G)$ with the following property: there exist an open neighbourhood I of 0 in K and a mapping f of class $C^r$ of I into G such that $f(0) = x, f(I) \subset H, (T_0f)(1) = a$.
 
@@ -423,11 +423,11 @@ Let $(a_1, \ldots, a_s)$ be a basis of h. There exist an open neighbourhood I of
 
 If $a \in \mathfrak{h}$, there exist an open neighbourhood $I$ of $0$ in $K$ and a mapping $f$ of class $C^\omega$ of $I$ into $G$ such that $f(0) = e, f(I) \subset H', (T_0 f)1 = a$. This, with (iv), implies (v).
 
-#### Definition 2 {#lie-iii-s4-def-2 .statement}
+#### Definition 2 {#lie-iii-s4-def-2 .statement tag=0ADA}
 
 $\mathfrak{h}$ is called the subalgebra tangent to $H$ at $e$.
 
-#### Proposition 9 {#lie-iii-s4-prop-9 .statement}
+#### Proposition 9 {#lie-iii-s4-prop-9 .statement tag=0ADB}
 
 Let $G$ be a finite-dimensional Lie group and $H$ a subgroup of $G$.
 
@@ -437,7 +437,7 @@ Let $G$ be a finite-dimensional Lie group and $H$ a subgroup of $G$.
 
 In (i) the uniqueness is obvious. We prove the existence. Let $\mathfrak{h}$ be the Lie algebra tangent at $e$ to $H$. Let $H'$ be a Lie subgroup germ of $G$ with Lie algebra $\mathfrak{h}$. By replacing $H'$ by an open subgroup germ of $H'$, it can be assumed that $H' \subset H$ (Lemma 4 (iv)). For all $x \in H$, $xH'x^{-1}$ is a Lie subgroup germ of $G$ with Lie algebra $x\mathfrak{h}x^{-1} = \mathfrak{h}$. Hence $H' \cap (xH'x^{-1})$ is open in $H'$ (no. 2, Theorem 3) and the mapping $y \mapsto xyx^{-1}$ is an isomorphism of $H' \cap x^{-1}H'x$ onto $xH'x^{-1} \cap H'$. Using Proposition 18 of § 1, no. 9, there exist an open Lie subgroup germ $W$ of $H'$ and a Lie group structure on $H$ with the following properties: $W$ is open in $H$ and the manifold structures on $H$ and $H'$ induce the same structure on $W$. It then follows that the canonical injection $i$ of $H$ into $G$ is an immersion and that $L(i)(L(H)) = L(H') = \mathfrak{h}$. Moreover, let $V$ and $f$ be as in (i). If $f : V \to H$ is of class $C^r$, $i \circ f : V \to G$ is of class $C^r$. Suppose that $i \circ f : V \to G$ is of class $C^r$; then we prove that $f : V \to H$ is of class $C^r$. By translation, it suffices to consider the case where there exists $v_0 \in V$ such that $f(v_0) = e$ and to prove that $f : V \to H$ is of class $C^r$ in an open neighbourhood of $v_0$. Now, by Lemma 4 (iii), $f(v) \in H'$ for $v$ sufficiently close to $v_0$, whence our assertion. Thus we have proved (i) and (ii) has been obtained on the way.
 
-#### Definition 3 {#lie-iii-s4-def-3 .statement}
+#### Definition 3 {#lie-iii-s4-def-3 .statement tag=0ADC}
 
 The Lie group structure on $H$ defined in Proposition 9 is called the structure induced on $H$ by the Lie group structure on $G$.
 
@@ -447,7 +447,7 @@ If $G = \mathbf{R}$ and $H = \mathbf{Q}$, then $\mathfrak{h} = \{0\}$ and hence 
 
 ### 6. PRIMITIVES OF DIFFERENTIAL FORMS WITH VALUES IN A LIE ALGEBRA
 
-#### Lemma 5 {#lie-iii-s4-lem-5 .statement}
+#### Lemma 5 {#lie-iii-s4-lem-5 .statement tag=0ADD}
 
 Let $X$ be a manifold of class $C^r$, $F$ and $F'$ vector bundles of class $C^r$ with base space $X$ and $\phi$ a morphism of $F$ into $F'$. For all $x \in X$, let $S_x$ be the set of
 $$
@@ -461,7 +461,7 @@ $$
 $$
 By *Differentiable and Analytic Manifolds*, R, 7.7.1, $\theta$ and $\theta'$ are morphisms of $F \oplus F'$ into itself. Clearly $\theta \circ \theta' = \theta' \circ \theta = \mathrm{Id}_{F \oplus F'}$. Hence $\theta$ and $\theta'$ are automorphisms of $F \oplus F'$. Therefore, $S = \theta(F \oplus \{0\})$ is a vector subbundle of $F \oplus F'$.
 
-#### Lemma 6 {#lie-iii-s4-lem-6 .statement}
+#### Lemma 6 {#lie-iii-s4-lem-6 .statement tag=0ADE}
 
 Let $G$ be a Lie group germ, $\omega$ the canonical left differential form of $G$ (§ 3, no. 18.9), $M$ a manifold of class $C^r$ ($r \geq 2$) and $\alpha$ a differential form of class $C^{r-1}$ and degree 1 on $M$ with values in $L(G)$.
 
@@ -494,7 +494,7 @@ d\theta &= \mathrm{pr}_1^*(d\alpha) - \mathrm{pr}_2^*(d\omega) \\
 $$
 and hence $S$ is integrable (*Differentiable and Analytic Manifolds*, R, 9.3.6).
 
-#### Theorem 5 {#lie-iii-s4-thm-5 .statement}
+#### Theorem 5 {#lie-iii-s4-thm-5 .statement tag=0ADF}
 
 Let G be a Lie group germ, M a manifold of class $C^r$ ($r \geq 2$) and $\alpha$ a differential form of class $C^{r-1}$ and degree 1 on M with values in $L(G)$, such that $d\alpha + [\alpha]^2 = 0$. For all $x \in M$ and all $g \in G$, there exists a mapping $f$, defined and of class $C^{r-1}$ on an open neighbourhood of $x$, with values in $G$, such that $f(x) = g$ and $f^{-1}.df = \alpha$. Two mappings which satisfy these conditions coincide on a neighbourhood of $x$.
 
@@ -510,7 +510,7 @@ $$
 
 Let $f'$ be a mapping of class $C^{r-1}$ of U into G such that $f'(x) = g$ and ${f'}^{-1}df' = \alpha$. By § 3, 18.9, ${f'}^{-1}$ is locally constant and hence $f' = f$ in a neighbourhood of $x$.
 
-#### Proposition 10 {#lie-iii-s4-prop-10 .statement}
+#### Proposition 10 {#lie-iii-s4-prop-10 .statement tag=0ADG}
 
 Let M be an analytic manifold, $\mathfrak{g}$ a complete normable Lie algebra and $\alpha$ an analytic differential form of degree 1 on M, with values in $\mathfrak{g}$, with the following properties:
 (a) for all $m \in M$, $\alpha_m$ is an isomorphism of $T_m(M)$ onto $\mathfrak{g}$;
@@ -530,7 +530,7 @@ and hence $m \mapsto \alpha_{m_0}^{-1} \circ \alpha_m$ is the left canonical dif
 
 Let $M''$ be an open neighbourhood of $m_0$, with a Lie group germ structure, with identity element $m_0$ and with the analogous properties to properties (i) and (ii). Then $\alpha_{m_0}$ is an isomorphism of $L(M')$ onto $g$ and also of $L(M'')$ onto $g$ and hence $L(M') = L(M'')$. Therefore, shrinking $M'$ and $M''$, it can be assumed that there exists an isomorphism $\phi$ of the group germ $M'$ onto the group germ $M''$ (no. 1, Corollary 1 to Theorem 1). Then $\phi^{-1}.d\phi$ is the canonical left differential of $M'$. On the other hand, let $\psi$ be the canonical injection of the manifold $M' \cap M''$ into the Lie group germ $M''$; clearly $\psi^{-1}.d\psi$ is a restriction of the canonical left differential of $M''$. Hence $(\psi^{-1}.d\psi)(m) = \alpha_{m_0}^{-1} \circ \alpha_m = (\phi^{-1}.d\phi)(m)$ for all $m \in M' \cap M''$. Therefore $\phi$ and $\psi$ coincide on a neighbourhood of $m_0$ (§ 3, 18.9). This proves the last assertion of the proposition.
 
-#### Corollary {#lie-iii-s4-n6-cor-1 .statement}
+#### Corollary {#lie-iii-s4-n6-cor-1 .statement tag=0ADH}
 
 Let $M$ be an analytic manifold of finite dimension $n$. Let $\omega_1, \ldots, \omega_n$ be analytic differential forms of degree 1 on $M$, with scalar values, which are linearly independent at each point of $M$ and such that, for all $k = 1, \ldots, n$, $d\omega_k$ is a linear combination with constant coefficients of the $\omega_i \wedge \omega_j$. Then, for all $m_0 \in M$, there exists an open neighbourhood $M'$ of $m_0$ in $M$ and a Lie group germ structure on $M'$ compatible with the manifold structure on $M'$, with identity element $m_0$ and such that $\omega_1|_{M'}, \ldots, \omega_n|_{M'}$ form a basis of the space of left invariant differential forms on $M'$ of degree 1 with scalar values.
 
@@ -557,7 +557,7 @@ It then suffices to apply Proposition 10.
 
 ### 7. PASSAGE FROM LAWS OF INFINITESIMAL OPERATION TO LAWS OF OPERATION
 
-#### Proposition 11 {#lie-iii-s4-prop-11 .statement}
+#### Proposition 11 {#lie-iii-s4-prop-11 .statement tag=0ADI}
 
 Let $G_1$ and $G_2$ be Lie group germs and $X_1$ and $X_2$ manifolds of class $C^r$ ($r \geq 2$). For $i = 1, 2$, let $\psi_i$ be a law chunk of left operation of class $C^r$ of $G_i$ on $X_i$ and $D_i$ the associated law of infinitesimal operation. Let $\mu : G_1 \to G_2$ be a morphism and $\phi : X_1 \to X_2$ a mapping of class $C^r$. Suppose that, for all $a \in L(G)$, the vector fields $(D_1)_a$ and $(D_2)_{L(\mu)a}$ are $\phi$-related (Differentiable and Analytic Manifolds, R, 8.2.6). Then there exists a neighbourhood $\Omega$ of $\{e\} \times X_1$ in $G_1 \times X_1$ such that $\phi(\psi_1(g, x)) = \psi_2(\mu(g), \phi(x))$ for all $(g, x) \in \Omega$.
 
@@ -585,11 +585,11 @@ $$
 $$
 for all $x \in X$, it follows from *Differentiable and Analytic Manifolds*, R, 9.3.7, that $\alpha$ and $\beta$ coincide on a neighbourhood of $(e, x_0)$. Hence the proposition.
 
-#### Corollary {#lie-iii-s4-n7-cor-1 .statement}
+#### Corollary {#lie-iii-s4-n7-cor-1 .statement tag=0ADJ}
 
 *Let G be a Lie group germ and X a manifold of class $C^r$. Consider two law chunks of left operation of class $C^r$ of G on X. Suppose that, for all $a \in L(G)$, the corresponding vector field $D_a$ on X is the same for both law chunks. Then these two law chunks coincide on a neighbourhood of $\{e\} \times X$.*
 
-#### Theorem 6 {#lie-iii-s4-thm-6 .statement}
+#### Theorem 6 {#lie-iii-s4-thm-6 .statement tag=0ADK}
 
 *Let G be a Lie group germ, X a manifold of class $C^r$ ($r \geq 2$) and $x_0$ a point of X. Let $a \mapsto D_a$ be a law of left infinitesimal operation of class $C^{r-1}$ of $L(G)$ on X.*
 
@@ -640,7 +640,7 @@ T(\alpha_2)(ag, 0_{(h, x)}) &= (agh)x \\
 $$
 By *Differentiable and Analytic Manifolds*, R, 9.3.7, $\alpha_1$ and $\alpha_2$ coincide on a neighbourhood of $(e, (e, x_0))$. Then (i) follows from (7) and Proposition 23 of § 1, no. 11.
 
-#### Corollary 1 {#lie-iii-s4-thm-6-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s4-thm-6-cor-1 .statement tag=0ADL}
 
 *Let $G$ be a Lie group germ and $X$ a paracompact manifold of class $C^r$ ($r \geq 2$). Let $a \mapsto D_a$ be a law of left infinitesimal operation of class $C^{r-1}$ of $L(G)$ on $X$.
 
@@ -650,7 +650,7 @@ By *Differentiable and Analytic Manifolds*, R, 9.3.7, $\alpha_1$ and $\alpha_2$ 
 
 Assertion (ii) follows from the Corollary to Proposition 11. By Theorem 6 (i), there exist an open covering $(X_i)_{i \in I}$ of $X$ and, for all $i \in I$, a law chunk of left operation $\psi_i$ of Class $C^{r-1}$ of $G$ on $X_i$ such that the associated law of infinitesimal operation is $a \mapsto D_a|_{X_i}$. As $X$ is paracompact, the covering $(X_i)_{i \in I}$ can be assumed to be locally finite. For all $(i, j) \in I \times I$ and all $x \in X_i \cap X_j$, $\psi_i$ and $\psi_j$ coincide on a neighbourhood of $(e, x)$ (Corollary to Proposition 11). As $X$ is normal, we can apply Proposition 24 of § 1, no. 11, which proves (i).
 
-#### Corollary 2 {#lie-iii-s4-thm-6-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s4-thm-6-cor-2 .statement tag=0ADM}
 
 *Let $X$ be a paracompact manifold of class $C^r$ ($r \geq 2$) and $\xi$ a vector field of class $C^{r-1}$ on $X$. There exists a law chunk of operation $\psi$ of class $C^{r-1}$ of $K$ on $X$ such that for all $x \in X$, $\xi(x)$ is the image under $t \mapsto (t, x)$ of the tangent vector 1 to $K$ at 0. Two law chunks of operation with the above property coincide on a neighbourhood of $\{0\} \times X$.
 
@@ -658,7 +658,7 @@ This is a special case of Corollary 1.*
 
 § 5.1
 
-#### Remark {#lie-iii-s4-n7-rem-1 .statement}
+#### Remark {#lie-iii-s4-n7-rem-1 .statement tag=0ADN}
 
 Laws of left operation can of course be replaced, throughout this no., by laws of right operation.
 

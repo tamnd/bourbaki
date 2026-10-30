@@ -48,7 +48,7 @@ subsections:
       pdf_page: 36
 statements: 22
 exercises: 10
-content_sha256: fac7a4e2702b562b1564160aaaa27f81347a040104e7d7b462a524dba1ebd218
+content_sha256: c0cf031711c736fcf37654064320bff6281ced1d6c06d607aa338a1cd54c0c7d
 ---
 
 ## § 2. Algèbre enveloppante d’une algèbre de Lie
@@ -65,7 +65,7 @@ $$
 
 Si L' est une autre algèbre associative à élément unité sur K et τ un homomorphisme de L dans L' transformant 1 en 1, alors τ o σ est une α-application de g dans L'. Nous allons chercher une algèbre associative à élément unité sur K et une α-application de g dans cette algèbre qui soient universelles (Ens., chap. IV, § 3, n° 1).
 
-#### Définition 1 {#lie-i-s2-def-1 .statement}
+#### Définition 1 {#lie-i-s2-def-1 .statement tag=09UW}
 
 Soient g une algèbre de Lie sur K, T l’algèbre tensorielle du K-module g, et J l’idéal bilatère de T engendré par les tenseurs $x \otimes y - y \otimes x - [x, y]$ où $x \in g, y \in g$. L’algèbre associative $U = T / J$ s’appelle l’algèbre enveloppante de g. La restriction à g de l’application canonique de T sur U s’appelle l’application canonique de g dans U.
 
@@ -81,7 +81,7 @@ $$
 
 dans U. Autrement dit, $\sigma_0$ est une $\alpha$-application de g dans U.
 
-#### Proposition 1 {#lie-i-s2-prop-1 .statement}
+#### Proposition 1 {#lie-i-s2-prop-1 .statement tag=09UX}
 
 *Soit $\sigma$ une $\alpha$-application de g dans une algèbre associative L à élément unité. Il existe un homomorphisme $\tau$ et un seul de U dans L, transformant 1 en 1, tel que $\sigma = \tau \circ \sigma_0$, $\sigma_0$ désignant l’application canonique de g dans U.*
 
@@ -109,7 +109,7 @@ soit commutatif. Cet homomorphisme transforme les éléments de U dont le terme 
 
 Soient $g_1, g_2$ deux algèbres de Lie sur K, $U_i$ l’algèbre enveloppante de $g_i$, et $\sigma_i$ l’application canonique de $g_i$ dans $U_i$ ($i = 1, 2$). Soient $g = g_1 \times g_2$, U son algèbre enveloppante, et $\sigma$ l’application canonique de g dans U. Les injections canoniques de g₁ et g₂ dans g définissent des homomorphismes canoniques de U₁ et U₂ dans U dont les images commutent, donc un homomorphisme φ de l’algèbre U₁ ⊗ₖ U₂ dans l’algèbre U, transformant 1 en 1.
 
-#### Proposition 2 {#lie-i-s2-prop-2 .statement}
+#### Proposition 2 {#lie-i-s2-prop-2 .statement tag=09UY}
 
 *L’homomorphisme φ est un isomorphisme d’algèbres.*
 
@@ -143,7 +143,7 @@ $$
 $$
 et $[x, x'] \in \mathfrak{h}$.
 
-#### Proposition 3 {#lie-i-s2-prop-3 .statement}
+#### Proposition 3 {#lie-i-s2-prop-3 .statement tag=09UZ}
 
 *Soient $\mathfrak{h}$ un idéal de $g$, p l’homomorphisme canonique de $g$ sur $g/\mathfrak{h}$, et W l’algèbre enveloppante de $g/\mathfrak{h}$. L’homomorphisme :*
 $$
@@ -167,7 +167,7 @@ On identifie U/R à W par l’isomorphisme $\varphi$. Alors, l’application can
 
 Soient g une algèbre de Lie sur K, g^0 l’algèbre de Lie opposée, σ et σ_0 les applications canoniques de g et g^0 dans leurs algèbres enveloppantes U et V. Alors, σ est une α-application de g^0 dans l’algèbre associative U^0 opposée à l’algèbre associative U. Donc il existe un homomorphisme φ et un seul de V dans U^0 transformant 1 en 1 et tel que σ = φ ∘ σ_0.
 
-#### Proposition 4 {#lie-i-s2-prop-4 .statement}
+#### Proposition 4 {#lie-i-s2-prop-4 .statement tag=09V0}
 
 L’homomorphisme φ est un isomorphisme de V sur U^0.
 
@@ -210,7 +210,7 @@ $$
 
 Comme $T^n$ est supplémentaire de $T_{n-1}$ dans $T_n$, $\varphi_n$ est surjective. Les $\varphi_n$ définissent une application $K$-linéaire $\varphi$ de $\sum_n T^n = T$ sur $\sum_n G^n = G$.
 
-#### Proposition 5 {#lie-i-s2-prop-5 .statement}
+#### Proposition 5 {#lie-i-s2-prop-5 .statement tag=09V1}
 
 *L’application $\varphi$ de $T$ sur $G$ est un homomorphisme d’algèbres transformant 1 en 1, et s’annule sur l’idéal bilatère engendré par les tenseurs $x \otimes y - y \otimes x$ ($x \in g, y \in g$).
 
@@ -231,19 +231,19 @@ $$
 
 (3)
 
-#### Proposition 6 {#lie-i-s2-prop-6 .statement}
+#### Proposition 6 {#lie-i-s2-prop-6 .statement tag=09V2}
 
 Si K est noethérien et si g est un module de type fini, l’anneau U est noethérien à droite et à gauche.
 
 En effet, S est une algèbre de type fini sur K, donc un anneau noethérien (Alg. comm., chap. III, § 2, no 10, cor. 3 du th. 2). Donc G, qui est isomorphe à un anneau quotient de S, est noethérien. Donc U est noethérien à droite et à gauche (Alg. comm., chap. III, § 2, no 10, Remarque 2).
 
-#### Corollaire {#lie-i-s2-n6-cor-1 .statement}
+#### Corollaire {#lie-i-s2-n6-cor-1 .statement tag=09V3}
 
 On suppose que K est un corps, et que g est de dimension finie sur K. Soient I_1, ..., I_m des idéaux à droite (resp. à gauche) de codimension finie de U. Alors l’idéal produit I_1I_2...I_m est de codimension finie.
 
 Par récurrence sur m, il suffit d’envisager le cas de deux idéaux à droite par exemple. Le U-module à droite I_1 est engendré par un nombre fini d’éléments u_1, ..., u_p (prop. 6). Soient v_1, ..., v_q des éléments de U dont les classes modulo I_2 engendrent l’espace vectoriel U/I_2. Alors les images canoniques dans I_1/I_1I_2 des u_i v_j engendrent l’espace vectoriel I_1/I_1I_2, qui est donc de dimension finie. Par suite dim_K(U/I_1I_2) = dim_K(U/I_1) + dim_K(I_1/I_1I_2) < +∞.
 
-#### Remarque {#lie-i-s2-n6-rem-1 .statement}
+#### Remarque {#lie-i-s2-n6-rem-1 .statement tag=09V4}
 
 Soient g’ une autre algèbre de Lie sur l’anneau K, U’ son algèbre enveloppante, U'_n l’ensemble des éléments de U’ de filtration ≤ n, U^n (resp. U'^n) l’ensemble des images canoniques dans U (resp. U’) des tenseurs symétriques homogènes d’ordre n de g (resp. g’). Soit γ un homomorphisme de g dans g’, et soit $\tilde{\gamma}$ l’homomorphisme correspondant de U dans U’. On a
 
@@ -253,7 +253,7 @@ En particulier, l’antiautomorphisme principal de U laisse stables U_n et U^n. 
 
 ### 7. Le théorème de Poincaré-Birkhoff-Witt
 
-#### Théorème 1 {#lie-i-s2-thm-1 .statement}
+#### Théorème 1 {#lie-i-s2-thm-1 .statement tag=09V5}
 
 Soient g une K-algèbre de Lie, U son algèbre enveloppante, G l’algèbre graduée associée à l’algèbre filtrée U, et S l’algèbre symétrique du K-module g. Si g est un K-module libre, l’homomorphisme canonique ω : S → G est un isomorphisme.
 
@@ -261,7 +261,7 @@ En effet, soit (x_λ)_{λ ∈ Λ} une base du K-module g ; munissons Λ d’une 
 
 Les z_M, pour M croissante, forment une base du K-module P (on convient que ∅ est une suite croissante, et que z_∅ = 1). Soit P_p le sous-module des polynômes de degré ≤ p. Nous démontrerons d’abord plusieurs lemmes. (Pour abréger, on écrit λ ≤ M si λ ≤ μ pour tout indice μ de la suite M.)
 
-#### Lemme 1 {#lie-i-s2-lem-1 .statement}
+#### Lemme 1 {#lie-i-s2-lem-1 .statement tag=09V6}
 
 Pour tout entier p ≥ 0, il existe un homomorphisme unique f_p du K-module g ⊗_K P_p dans le K-module P vérifiant les conditions suivantes :
 
@@ -320,7 +320,7 @@ $$
 
 ce qui achève la démonstration du lemme 1.
 
-#### Lemme 2 {#lie-i-s2-lem-2 .statement}
+#### Lemme 2 {#lie-i-s2-lem-2 .statement tag=09V7}
 
 *Il existe une α-application σ de g dans $\mathscr{L}_K(P)$ telle que* :
 
@@ -329,7 +329,7 @@ $2^\circ$ $\sigma(x_\lambda)z_M \equiv z_\lambda z_M$ (mod. $P_p$) si $M$ a $p$ 
 
 En effet, d’après le lemme 1, il existe un homomorphisme $f$ du K-module $g \otimes_K P$ dans $P$ vérifiant, quel que soit $p$, les conditions (A_p), (B_p), (C_p) (où l’on remplace $f_p$ par $f$). Cet homomorphisme définit un homomorphisme $\sigma$ du K-module $g$ dans le K-module $\mathscr{L}_K(P)$, et $\sigma$ est une $\alpha$-application à cause de la condition (C_p). Enfin, $\sigma$ vérifie les propriétés $1^\circ$ et $2^\circ$ du lemme à cause des conditions (A_p) et (B_p).
 
-#### Lemme 3 {#lie-i-s2-lem-3 .statement}
+#### Lemme 3 {#lie-i-s2-lem-3 .statement tag=09V8}
 
 *Soit t un tenseur de $T_n \cap J$. La composante homogène $t_n$ d’ordre $n$ de $t$ est dans le noyau I de l’homomorphisme canonique $T \to S$*.
 
@@ -337,13 +337,13 @@ En effet, écrivons $t_n$ sous la forme $\sum_{i=1}^r x_{M_i}$, où les $M_i$ so
 
 Nous pouvons maintenant démontrer le théorème 1. Il faut prouver que l’homomorphisme canonique de $S$ sur $G$ est injectif. Autrement dit, si $t \in T^n$ et si $\psi$ désigne l’homomorphisme canonique de $T$ sur $U$, il faut montrer que la condition $\psi(t) \in U_{n-1}$ entraîne $t \in I$. Or $\psi(t) \in U_{n-1}$ signifie qu’il existe un tenseur $t' \in T_{n-1}$ tel que $t - t' \in J$. Le tenseur $t - t'$ admet $t$ pour composante homogène d’ordre $n$, donc $t \in I$ d’après le lemme 3.
 
-#### Corollaire 1 {#lie-i-s2-lem-3-cor-1 .statement}
+#### Corollaire 1 {#lie-i-s2-lem-3-cor-1 .statement tag=09V9}
 
 Supposons que g soit un K-module libre. Soit W un sous-K-module de T^n. Si, avec les notations du diagramme (3), la restriction de τ_n à W est un isomorphisme de W sur S^n, alors la restriction de ψ_n à W est un isomorphisme de W sur un supplémentaire de U_{n-1} dans U_n.
 
 En effet, la restriction à W de ω_n ∘ τ_n est une bijection de W sur G^n ; il en est donc de même de la restriction de θ_n ∘ ψ_n à W. D’où le corollaire.
 
-#### Corollaire 2 {#lie-i-s2-lem-3-cor-2 .statement}
+#### Corollaire 2 {#lie-i-s2-lem-3-cor-2 .statement tag=09VA}
 
 Si g est un K-module libre, l’application canonique de g dans son algèbre enveloppante est injective.
 
@@ -351,13 +351,13 @@ Ceci résulte du cor. 1, où l’on prend W = T^1.
 
 Lorsque g est un K-module libre (en particulier lorsque K est un corps), on identifie g à un sous-module de U par l’application canonique de g dans U. Cette convention est adoptée dès le corollaire suivant.
 
-#### Corollaire 3 {#lie-i-s2-lem-3-cor-3 .statement}
+#### Corollaire 3 {#lie-i-s2-lem-3-cor-3 .statement tag=09VB}
 
 Si g admet une base totalement ordonnée (x_λ)_{λ ∈ Λ}, les éléments x_{λ_1} x_{λ_2} ... x_{λ_n} de l’algèbre enveloppante U, où (λ_1, ..., λ_n) est une suite finie croissante quelconque d’éléments de Λ, forment une base du K-module U.
 
 Soit Λ_n l’ensemble des suites croissantes de n éléments de Λ. Pour M = (λ_1, ..., λ_n) ∈ Λ_n, soit y_M = x_{λ_1} ⊗ x_{λ_2} ⊗ ... ⊗ x_{λ_n}. Soit W le sous-module de T^n qui admet pour base (y_M)_{M ∈ Λ_n}. Le cor. 1 montre que la restriction de ψ_n à W est un isomorphisme de W sur un supplémentaire de U_{n-1} dans U_n. Or, ψ_n(y_M) = x_{λ_1} x_{λ_2} ... x_{λ_n}, d’où le corollaire.
 
-#### Corollaire 4 {#lie-i-s2-lem-3-cor-4 .statement}
+#### Corollaire 4 {#lie-i-s2-lem-3-cor-4 .statement tag=09VC}
 
 Soit S'^n ⊂ T^n l’ensemble des tenseurs symétriques homogènes d’ordre n. Supposons que K soit un corps de caractéristique 0. Alors, l’application composée des applications canoniques
 
@@ -385,7 +385,7 @@ $$
 
 où chaque flèche représente un isomorphisme d’espaces vectoriels. Si $x_1, x_2, \ldots, x_n$ sont dans $g$, $\eta_n$ transforme le produit $x_1 x_2 \ldots x_n$, calculé dans $S$, en l’élément $\frac{1}{n!} \sum_{\sigma \in S_n} x_{\sigma(1)} x_{\sigma(2)} \ldots x_{\sigma(n)}$ calculé dans $U$.
 
-#### Corollaire 5 {#lie-i-s2-lem-3-cor-5 .statement}
+#### Corollaire 5 {#lie-i-s2-lem-3-cor-5 .statement tag=09VD}
 
 *Soient $\mathfrak{h}$ une sous-algèbre de l’algèbre de Lie $g$ et $U'$ son algèbre enveloppante. Supposons que les K-modules $\mathfrak{h}$ et $g/\mathfrak{h}$ soient libres (par exemple que $K$ soit un corps). Soit $(x_\alpha)_{\alpha \in L}$ une base de $\mathfrak{h}$, et $(y_\beta)_{\beta \in M}$ une famille d’éléments de $g$ dont les images canoniques dans $g/\mathfrak{h}$ forment une base de $g/\mathfrak{h}$.
 
@@ -397,7 +397,7 @@ Munissons $L \cup M$ d’une structure d’ordre total telle que tout élément 
 
 Dans les conditions du cor. 5, on identifie U' à la sous-algèbre de U engendrée par h, grâce à l’homomorphisme canonique de U' dans U.
 
-#### Corollaire 6 {#lie-i-s2-lem-3-cor-6 .statement}
+#### Corollaire 6 {#lie-i-s2-lem-3-cor-6 .statement tag=09VE}
 
 Supposons que le K-module g soit somme directe de sous-algèbres g₁, g₂, ..., gₙ, et que chaque gᵢ soit un K-module libre. Soit Uᵢ l’algèbre enveloppante de gᵢ (1 ≤ i ≤ n). Soit φ l’application K-linéaire du K-module U₁ ⊗ₖ ... ⊗ₖ Uₙ dans U définie par l’application multilinéaire (u₁, ..., uₙ) → u₁ ... uₙ de U₁ × ... × Uₙ dans U. Alors φ est un isomorphisme de K-modules.
 
@@ -411,7 +411,7 @@ $$x_{\lambda_1}^{1} x_{\lambda_2}^{1} ... x_{\lambda_p}^{1} ... x_{\nu_1}^{n} x_
 
 qui constituent une base de U. D’où le corollaire.
 
-#### Corollaire 7 {#lie-i-s2-lem-3-cor-7 .statement}
+#### Corollaire 7 {#lie-i-s2-lem-3-cor-7 .statement tag=09VF}
 
 Si K est intègre, et si g est un K-module libre, l’algèbre U est sans diviseur de zéro.
 
@@ -419,7 +419,7 @@ En effet, G est isomorphe à une algèbre de polynômes sur K (th. 1), donc est 
 
 ### 8. Prolongement des dérivations
 
-#### Lemme 4 {#lie-i-s2-lem-4 .statement}
+#### Lemme 4 {#lie-i-s2-lem-4 .statement tag=09VG}
 
 Soient V un K-module, T l’algèbre tensorielle de V. Soit u un endomorphisme de V. Il existe une dérivation de T et une seule qui prolonge u. Cette dérivation permuté aux opérateurs de symétrie dans T.
 
@@ -450,7 +450,7 @@ $$
 
 Par linéarité, on en déduit bien que $v$ est une dérivation. L’unicité de $v$ est évidente. Enfin, il est clair que $u_n$ permuté aux opérateurs de symétrie dans $\bigotimes^n V$, d’où la dernière assertion.
 
-#### Proposition 7 {#lie-i-s2-prop-7 .statement}
+#### Proposition 7 {#lie-i-s2-prop-7 .statement tag=09VH}
 
 *Soient g une algèbre de Lie, U son algèbre enveloppante, $\sigma$ l’application canonique de g dans U, et D une dérivation de g.*
 

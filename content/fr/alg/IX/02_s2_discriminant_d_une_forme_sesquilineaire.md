@@ -11,7 +11,7 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: 8ddfa6db9a8b8ea94b884733ec52d738552ac565f914d0880df1029e74d1e9da
+content_sha256: d04a6fe53a20d6771e3baa1e398d1d7bb30e47b0312baa90c70180b15593cce9
 ---
 
 ## § 2. DISCRIMINANT D’UNE FORME SESQUILINÉAIRE
@@ -28,7 +28,7 @@ c) On garde les hypothèses de b), et on suppose en outre que $A$ satisfait à l
 
 *12) Soient $E$ un espace hilbertien réel de type dénombrable, $\Phi(x, y)$ le produit scalaire dans $E$. Montrer qu’il n’existe pas de système de deux bases algébriques $(e_\lambda), (f_\mu)$ de l’espace vectoriel $E$ sur $\mathbf{R}$ telles que l’on ait $\Phi(e_\lambda, f_\mu) = \delta_{\lambda \mu}$ pour tout couple d’indices. (Remarquer d’abord que l’ensemble d’indices de ces bases aurait la puissance du continu (*Esp. vect. top.*, chap. II, § 3, exerc. 15)); considérer ensuite une base orthonormale (dénombrable) $(a_n)$ de $E$ et remarquer que le sous-espace engendré par les $a_n$ est contenu dans le sous-espace engendré par une sous-famille dénombrable de $(e_\lambda)$.*
 
-#### Définition 1 {#alg-ix-s2-def-1 .statement}
+#### Définition 1 {#alg-ix-s2-def-1 .statement tag=0DK0}
 
 Etant donnée une forme $\Phi$ sesquilinéaire pour $J$ sur $E$ et un système $S = (x_1, \ldots, x_n)$ de $n$ éléments de $E$, on appelle discriminant de $\Phi$ par rapport à ce système, et on note $D_\Phi(x_1, \ldots, x_n)$ ou $D_\Phi(S)$, l’élément $\det(\Phi(x_i, x_j))$ de $A$.
 
@@ -46,7 +46,7 @@ $$
 D_\Phi(x_{\sigma(1)}, \ldots, x_{\sigma(n)}) = D_\Phi(x_1, x_2, \ldots, x_n).
 $$
 
-#### Exemple {#alg-ix-s2-n0-exa-1 .statement}
+#### Exemple {#alg-ix-s2-n0-exa-1 .statement tag=0DK1}
 
 Soit $B$ une algèbre sur l’anneau $A$, telle que $B$ soit un $A$-module libre de dimension finie $n$. Alors l’application $(x, y) \to \mathrm{Tr}_{B/A}(xy)$ (chap. VIII, § 12, no 2) est une forme bilinéaire sur $B$. Etant donné un système $(x_1, \ldots, x_n)$ de $n$ éléments de $B$, le discriminant de cette forme par rapport à ce système s’appelle le discriminant du système $(x_1, \ldots, x_n)$ sur $A$, et se note $D_{B/A}(x_1, \ldots, x_n)$. On a ainsi
 
@@ -54,7 +54,7 @@ $$
 D_{B/A}(x_1, \ldots, x_n) = \det (\mathrm{Tr}_{B/A}(x_ix_j)).
 $$
 
-#### Remarque {#alg-ix-s2-n0-rem-1 .statement}
+#### Remarque {#alg-ix-s2-n0-rem-1 .statement tag=0DK2}
 
 Soient $(e_1, \ldots, e_n)$ une base de $B$ sur $A$, et
 
@@ -68,7 +68,7 @@ $$
 D_{B/A}(e_1, \ldots, e_n) = \det_{i,j} (\sum_{k,r} c_{ijk}c_{krr}).
 $$
 
-#### Proposition 1 {#alg-ix-s2-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s2-prop-1 .statement tag=0DK3}
 
 Soient $\Phi$ une forme sesquilinéaire pour $J$ sur $E$, $(\tilde{x}_1, \ldots, x_n)$ un système de $n$ éléments de $E$, et $(a_{ij})_{(i,j = 1, \ldots, n)}$ une famille de $n^2$ éléments de $A$; posons $y_i = \sum_{i=1}^n a_{ji}x_i$. On a alors
 
@@ -95,14 +95,14 @@ $$
 (6) \qquad D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n) = h(D_\Phi(x_1, \ldots, x_n)).
 $$
 
-#### Exemple {#alg-ix-s2-n0-exa-2 .statement}
+#### Exemple {#alg-ix-s2-n0-exa-2 .statement tag=0DK4}
 
 Soient $B$ une algèbre sur $A$ qui soit un $A$-module libre de dimension finie $n$, $(x_1, \ldots, x_n)$ une base de $B$ sur $A$, et $m$ un idéal de $A$. Si l’on note $h$ l’homomorphisme canonique de $B$ sur $B/mB$, $(h(x_1), \ldots, h(x_n))$ est une base de $B/mB$ sur $A/m$ (chap. I, § 6, no 5, prop. 5), et $B/mB$ est isomorphe à $(A/m) \otimes_A B$. On a donc
 $$
 D_{(B/mB)/(A/m)}(h(x_1), \ldots, h(x_n)) = h(D_{B/A}(x_1, \ldots, x_n)).
 $$
 
-#### Proposition 2 {#alg-ix-s2-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s2-prop-2 .statement tag=0DK5}
 
 On suppose que $A$ est intègre. Soient $\Phi$ une forme sesquilinéaire pour $J$ sur $E$ et $(e_1, \ldots, e_n)$ une base de $E$, telles que $D_\Phi(e_1, e_2, \ldots, e_n) \neq 0$.
 
@@ -114,7 +114,7 @@ Posons $x_j = \sum_{i=1}^n a_{ji} e_i$ ($a_{ji} \in A$). Démontrons d’abord a
 
 Démontrons maintenant b). Si $D_\Phi(x_1, \ldots, x_n)$ et $D_\Phi(e_1, \ldots, e_n)$ sont associés dans $A$, la prop. 1 montre que $\det(a_{ij}) \cdot \det(a_{ij})'$ est inversible dans $A$. Ainsi $\det(a_{ij})$ est lui aussi inversible dans $A$; donc la matrice $(a_{ij})$ sur $A$ est inversible (chap. III, § 6, no 5, th. 2), et l’endomorphisme $g$ de $E$ défini par $g(e_i) = x_i$ ($i = 1, \ldots, n$) est un automorphisme ; par conséquent $(x_1, \ldots, x_n)$ est une base de $E$. La réciproque résulte aussitôt de la prop. 1.
 
-#### Proposition 3 {#alg-ix-s2-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s2-prop-3 .statement tag=0DK6}
 
 Soient $\Phi$ une forme sesquilinéaire pour $J$ sur $E$, et $S$ une base de $E$. Les conditions suivantes sont équivalentes :
 
@@ -126,13 +126,13 @@ c) L’élément $D_\Phi(S)$ est inversible dans $A$.
 
 En effet la condition c) exprime que la matrice de $\Phi$ par rapport à $S$ est inversible (chap. III, § 6, no 5, th. 2). Donc c) est équivalente à a) ($§ 1,$ no 10) ; de même c) est équivalente à b).
 
-#### Proposition 4 {#alg-ix-s2-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s2-prop-4 .statement tag=0DK7}
 
 On suppose $A$ intègre. Soit $S$ une base de $E$. Une condition nécessaire et suffisante pour qu’une forme sesquilinéaire $\Phi$ sur $E$ soit non dégénérée est que l’on ait $D_\Phi(S) \neq 0$.
 
 Soit en effet K le corps des fractions de A, et soit $\Phi'$ l’extension de $\Phi$ au K-espace vectoriel $K \otimes_A E$; identifions E à une partie de cet espace vectoriel. La relation $D_{\Phi}(S) \neq 0$ est alors équivalente à $D_{\Phi'}(S) \neq 0$ (formule (6)), qui elle-même exprime que $s_{\Phi'}$ est bijective (prop. 3), c’est-à-dire que $\Phi'$ est non dégénérée (§ 1, no 6, prop. 6). Or, pour tout $x \in K \otimes_A E$, il existe $a \in A$ tel que $ax \in E$; par suite, pour que $\Phi$ soit dégénérée, il faut et il suffit que $\Phi'$ le soit. Ceci démontre notre assertion.
 
-#### Proposition 5 {#alg-ix-s2-prop-5 .statement}
+#### Proposition 5 {#alg-ix-s2-prop-5 .statement tag=0DK8}
 
 *Soient A un corps, B une algèbre commutative de dimension finie n sur A, et S une base de B. Pour que B soit séparable (chap. VIII, § 7, no 5, déf. 1) il faut et il suffit que l’on ait* $D_{B/A}(S) \neq 0$.
 
@@ -140,7 +140,7 @@ Soient en effet $A'$ la clôture algébrique de A, et $B'$ l’algèbre $A' \oti
 
 Réciproquement supposons que l’on ait $D_{B/A}(S) \neq 0$. Pour montrer que B est séparable, il suffit de montrer que $B'$ est semi-simple, c’est-à-dire qu’elle n’admet pas d’élément nilpotent $\neq 0$. Or, si $x'$ était un élément nilpotent non nul de $B'$, on pourrait le prendre comme premier élément d’une base $S'$ de $B'$, et on aurait alors $\mathrm{Tr}_{B'/A'}(x'y') = 0$ pour tout $y' \in S'$ puisqu’un endomorphisme nilpotent a ses valeurs propres nulles (chap. VII, § 5, no 3, cor. 3 de la prop. 8), donc une trace nulle. Il en résulterait que $D_{B'/A'}(S') = 0$, d’où $D_{B'/A'}(S) = 0$ (prop. 1) et $D_{B/A}(S) = 0$ (formule (6)), contrairement à l’hypothèse.
 
-#### Remarque {#alg-ix-s2-n0-rem-2 .statement}
+#### Remarque {#alg-ix-s2-n0-rem-2 .statement tag=0DK9}
 
 Supposons que B soit un surcorps de A. Soient $S = (x_1, \ldots, x_n)$ une base de B, et $(s_1, \ldots, s_n)$ les A-isomorphismes de B dans la clôture algébrique $A'$ de A (chaque $s_j$ étant répété $[B : A]_i$ fois). Rappelons que, pour tout $z \in B$, on a $\mathrm{Tr}_{B/A}(z) = \sum_{j=1}^n s_j(z)$ (chap. VIII, § 12, no 2, prop. 4).
 
@@ -150,7 +150,7 @@ $$(7)\quad (\det(s_j(x_i)))^2 = D_{B/A}(x_1, \ldots, x_n).$$
 
 Cette formule montre que la proposition 5 généralise la condition de séparabilité donnée au chap. V, § 7, no 2, Remarque.
 
-#### Proposition 6 {#alg-ix-s2-prop-6 .statement}
+#### Proposition 6 {#alg-ix-s2-prop-6 .statement tag=0DKA}
 
 Soient $\Phi$ une forme A-bilinéaire sur E, et K un sous-anneau de A tel que A soit un K-module libre de dimension finie q. Si $(e_i)_{i=1,\ldots,n}$ est une base de E sur A et $(a_j)_{j=1,\ldots,q}$ une base de A sur K, alors $(a_j e_i)$ est une base de E sur K. L’application $\Phi'$ de $E \times E$ dans K définie par $\Phi'(x, y) = \mathrm{Tr}_{A/K}(\Phi(x, y))$ est une forme K-bilinéaire sur E, et on a
 
@@ -166,7 +166,7 @@ $$w(v(a_j e_i)) = w(\sum_s a_j \Phi(e_i, e_s) e_s) = \sum_{r,s} \mathrm{Tr}_{A/K
 
 puisque $w(a e_s) = \sum_r \mathrm{Tr}_{A/K}(a a_r) a_r e_s$ pour tout $a \in A$; ainsi $u$ est l’application composée $w \circ v$. Donc, en notant $v_K$ l’application $v$ considérée comme application K-linéaire, on a $\det(u) = \det(v_K) \det(w)$. Or on a $\det(v_K) = N_{A/K}(\det(v))$ (chap. VIII, § 12, no 2, prop. 7), et il est clair que $\det(v) = D_\Phi(e_1, \ldots, e_n)$. D’autre part, comme chacun des A-modules $Ae_i (i = 1, \ldots, n)$ est stable pour $w$, et que le déterminant de la restriction de $w$ à $Ae_i$ est $\det(\mathrm{Tr}_{A/K}(a_j a_r)) = D_{A/K}(a_1, \ldots, a_q)$, on a $\det(w) = (D_{A/K}(a_1, \ldots, a_q))^n$. La formule (8) se réduit donc à $\det(u) = \det(v_K) \det(w)$, formule démontrée ci-dessus.
 
-#### Corollaire (« Formule de transitivité des discriminants ») {#alg-ix-s2-n0-cor-1 .statement}
+#### Corollaire (« Formule de transitivité des discriminants ») {#alg-ix-s2-n0-cor-1 .statement tag=0DKB}
 
 Soient K un anneau commutatif, A une algèbre commutative admettant une base finie $(a_j)_{j=1,\ldots,q}$ sur K, et E une algèbre sur A admettant une base finie $(e_i)_{i=1,\ldots,n}$. Alors $(a_j e_i)$ est une base de E sur K, et on a
 

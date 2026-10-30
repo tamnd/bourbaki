@@ -38,7 +38,7 @@ subsections:
       pdf_page: 270
 statements: 21
 exercises: 15
-content_sha256: b95f9ad9bca8cc72d94efcce361bb8861c0b8518e472602d45f215e94dcd28a9
+content_sha256: 90e02e3632c6ecc96144815961457f749d0c9a6edf475780ab90b36dc9feca0f
 ---
 
 ## APPENDIX
@@ -49,7 +49,7 @@ content_sha256: b95f9ad9bca8cc72d94efcce361bb8861c0b8518e472602d45f215e94dcd28a9
 
 Let $\mathfrak{F}$ be the filter base on $\mathbf{R}$ formed by the intervals of the form $[x_0, +\infty[$. Recall that we have defined an equivalence relation $R_\infty$: on the set $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ of real functions defined on sets belonging to $\mathfrak{F}$ “there exists a set $M \in \mathfrak{F}$ such that $f(x) = g(x)$ on $M$” (V, p. 211), and that the quotient set $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ is endowed with the structure of a *ring* with unit element.
 
-#### Definition 1 {#fvr-v-a0-def-1 .statement}
+#### Definition 1 {#fvr-v-a0-def-1 .statement tag=08GO}
 
 *Given a subset $\mathfrak{K}$ of $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ one says that $\mathfrak{K}/R_\infty$ (the canonical image of $\mathfrak{K}$ in $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) is a Hardy field, if $\mathfrak{K}$ satisfies the following conditions:
 
@@ -60,11 +60,11 @@ The hypothesis that $\mathfrak{K}/R_\infty$ is a *field* is equivalent to the fo
 
 By an abuse of language, if $\mathfrak{K}$ is such that $\mathfrak{K}/R_\infty$ is a Hardy field we shall say in what follows that $\mathfrak{K}$ is itself a *Hardy field*.
 
-#### Example 1 {#fvr-v-a0-n1-exa-1 .statement}
+#### Example 1 {#fvr-v-a0-n1-exa-1 .statement tag=08GP}
 
 Every Hardy field contains the field of *rational constants* (the smallest field of characteristic 0, *cf. Alg.*, V, §1), which one can identify with the field $\mathbf{Q}$; moreover, since two constants cannot be congruent modulo $R_\infty$ unless they are equal, $\mathbf{Q}/R_\infty$ is identical to $\mathbf{Q}$. The *real constants* also form a Hardy field, which one can identify with $\mathbf{R}$.
 
-#### Example 2 {#fvr-v-a0-n1-exa-2 .statement}
+#### Example 2 {#fvr-v-a0-n1-exa-2 .statement tag=08GQ}
 
 A very important example of a Hardy field is the *set of rational functions with real coefficients*, which we shall denote by $\mathbf{R}(x)$, by an abuse of language; if $f(x) = p(x)/q(x)$ is a rational function with real coefficients, not identically zero, it is continuous, differentiable, and $\neq 0$ on an interval $[a, +\infty[$, where $a$ is strictly greater than the largest of the real roots of the polynomials $p(x)$ and $q(x)$; thus every element of $\mathbf{R}(x)/R_\infty$ other than 0 is invertible. We note again that two rational functions cannot be congruent modulo $\mathbf{R}_\infty$ unless they are equal, so $\mathbf{R}(x)/\mathbf{R}_\infty$ can again be identified with $\mathbf{R}(x)$.
 
@@ -72,7 +72,7 @@ A very important example of a Hardy field is the *set of rational functions with
 
 Given a Hardy field $\mathfrak{K}$ we shall see how one can form new Hardy fields $\mathfrak{K}' \supset \mathfrak{K}$ such that $\mathfrak{K}'/\mathbf{R}_\infty$ is obtained by *adjoining* (in the algebraic sense of the term, *cf. Alg.*, V. §2) new elements, of a form which we shall make precise, to $\mathfrak{K}/\mathbf{R}_\infty$.
 
-#### Lemma 1 {#fvr-v-a0-lem-1 .statement}
+#### Lemma 1 {#fvr-v-a0-lem-1 .statement tag=08GR}
 
 *Let* $a(x), b(x)$ *be two continuous real functions that do not change sign on an interval* $[x_0, +\infty[$. *If, on this interval, the function* $y(x)$ *is continuous and differentiable, and satisfies the identity*
 
@@ -86,11 +86,11 @@ $$
 
 Indeed, let us put $z(x) = y(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$ (*cf. IV*, p. 183); then, by (1), $z'(x) = b(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$. If $b(x) \geqslant 0$ for $x \geqslant x_0$ then $z$ is increasing on this interval, so either is $< 0$ on all this interval, or is zero on an interval $[x_1, +\infty[$, or else is $> 0$ on an interval $[x_1, +\infty[$; since $y$ has the same sign as $z$ the proposition is proved in this case. The argument is similar if $b(x) \leqslant 0$ for $x \geqslant x_0$.
 
-#### Remark {#fvr-v-a0-n2-rem-1 .statement}
+#### Remark {#fvr-v-a0-n2-rem-1 .statement tag=08GS}
 
 This very elementary property does not extend to linear differential equations of order $> 1$; for example, the function $y = \sin x$ satisfies $y'' + y = 0$, but changes sign on every neighbourhood of $+\infty$.
 
-#### Lemma 2 {#fvr-v-a0-lem-2 .statement}
+#### Lemma 2 {#fvr-v-a0-lem-2 .statement tag=08GT}
 
 *Let* $a(x)$ *and* $b(x)$ *be two functions belonging to a given Hardy field* $\mathfrak{K}$ *and* $y(x)$ *a function satisfying the identity* (1) *on an interval* $[x_0, +\infty[$ *where* $a$ *and* $b$ *are defined and continuous*. *If* $p(u)$ *is a polynomial in* $u$ *whose coefficients are functions of* $x$ *belonging to* $\mathfrak{K}$, *defined and differentiable on* $[x_0, +\infty[$, *then there exists an interval* $[x_1, +\infty[$ *on which the function* $p(y)$ *does not change sign*.
 
@@ -105,7 +105,7 @@ $$
 
 where $q(u)$ is a polynomial of degree $\leq n - 1$, with coefficients in $\mathfrak{K}$. By hypothesis the functions $na(x)$ and $q(y(x))$ do not change sign on an interval $[ \beta, +\infty[$; the lemma is thus a consequence of lemma 1.
 
-#### Theorem 1 {#fvr-v-a0-thm-1 .statement}
+#### Theorem 1 {#fvr-v-a0-thm-1 .statement tag=08GU}
 
 *Let $a(x)$ and $b(x)$ be two functions belonging to a given Hardy field $\mathfrak{K}$ and $y(x)$ a function satisfying (1) on an interval $[ x_0, +\infty[$. When $r(u) = p(u)/q(u)$ runs through the set of rational fractions in $u$ with coefficients in $\mathfrak{K}$ such that $q(y)$ is not identically zero on a neighbourhood of $+\infty$ the set $\mathfrak{K}(y)$ of functions $r(y)$ forms a Hardy field.*
 
@@ -119,7 +119,7 @@ $$
 
 It is clear that $\mathfrak{K}(y)/\mathbf{R}_\infty$ is obtained by the algebraic *adjunction* to $\mathfrak{K}/\mathbf{R}_\infty$ of the class of $y$ modulo $\mathbf{R}_\infty$. Again one says that $\mathfrak{K}(y)$ is obtained by *adjoining* $y$ to $\mathfrak{K}$.
 
-#### Corollary 1 {#fvr-v-a0-thm-1-cor-1 .statement}
+#### Corollary 1 {#fvr-v-a0-thm-1-cor-1 .statement tag=08GV}
 
 *If $y$ is a function in $\mathfrak{K}$, not identically zero on a neighbourhood of $+\infty$, then $\mathfrak{K}(\log|y|)$ is a Hardy field.*
 
@@ -137,7 +137,7 @@ Finally, we note that if $y$ is the *primitive* of any function in $\mathfrak{K}
 
 ### 3. COMPARISON OF FUNCTIONS IN A HARDY FIELD
 
-#### Proposition 1 {#fvr-v-a0-prop-1 .statement}
+#### Proposition 1 {#fvr-v-a0-prop-1 .statement tag=08GW}
 
 *Two functions in the same Hardy field are comparable to any order* (V, p. 232).
 
@@ -161,7 +161,7 @@ Prop. 8 of V, p. 233, is therefore applicable to every function $f$ in a Hardy f
 
 Further, we have the following proposition:
 
-#### Proposition 2 {#fvr-v-a0-prop-2 .statement}
+#### Proposition 2 {#fvr-v-a0-prop-2 .statement tag=08GX}
 
 Let $f$ be a function belonging to a Hardy field $\mathscr{K}$.
 
@@ -203,7 +203,7 @@ If $f$ is equivalent to a constant $k \neq 0$ one has $f(x) = k + f_2(x)$ with $
 
 ### 4. (H) FUNCTIONS
 
-#### Proposition 3 {#fvr-v-a0-prop-3 .statement}
+#### Proposition 3 {#fvr-v-a0-prop-3 .statement tag=08GY}
 
 *If $\mathscr{K}_0$ is a Hardy field there exists a Hardy field $\mathscr{K}$ containing $\mathscr{K}_0$ and such that, for every function $z \in \mathscr{K}$, not identically zero on a neighbourhood of $+\infty$, both $e^z$ and $\log |z|$ belong to $\mathscr{K}$.*
 
@@ -215,7 +215,7 @@ One says that the Hardy field $\mathscr{K}$ defined in the proof of prop. 3 is t
 
 If $\mathscr{K}'$ is another Hardy field possessing the properties stated in prop. 3, it follows from the construction of $\mathscr{K}$ that $\mathscr{K}/\mathbf{R}_\sim$ is *contained* in $\mathscr{K}'/\mathbf{R}_\sim$. By abuse of language, one says that the (H) extension of the Hardy field $\mathscr{K}_0$ is the *smallest* Hardy field $\mathscr{K}$ having these properties.
 
-#### Definition 2 {#fvr-v-a0-def-2 .statement}
+#### Definition 2 {#fvr-v-a0-def-2 .statement tag=08GZ}
 
 *The field of (H) functions is called the (H) extension of the Hardy field $\mathbf{R}(x)$ of rational functions with real coefficients. Any function belonging to this extension is called an (H) function.*
 
@@ -280,7 +280,7 @@ First we consider the set $\mathscr{E}_0$ of functions of the form $\prod_{m=0}^
 
 This being so, if $\mathscr{E}$ is the *union* of the $\mathscr{E}_n$ for $n \geqslant 0$, then $\mathscr{E}$ is a comparison scale, for two functions in $\mathscr{E}$ belong to the same scale $\mathscr{E}_n$; for the same reason, $\mathscr{E}$ satisfies a), and it is clear that it also satisfies b) and c). Finally, if $f \in \mathscr{E}$ there exists an $n$ such that $f \in \mathscr{E}_n$; if $f$ is not the constant 1 then $f(x)$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$; in the first case $e^f \sim 1$ and in the second, $e^f$ belongs to $\mathscr{E}_{n+1}$ by definition, and so to $\mathscr{E}$.
 
-#### Remark {#fvr-v-a0-n5-rem-1 .statement}
+#### Remark {#fvr-v-a0-n5-rem-1 .statement tag=08H0}
 
 Despite the practical usefulness of the scale $\mathscr{E}$ which we have just defined, it is easy to give examples of (H) functions which *have no principal part* with respect to $\mathscr{E}$. Indeed, if $f$ is an (H) function such that $f \sim a g$, where $a$ is a constant $> 0$ and $g \in \mathscr{E}$, then $\log f - \log g - \log a$ tends to 0 with $1/x$, so $\log f$ admits, relative to $\mathscr{E}$, an asymptotic expansion whose *remainder tends to 0*, by property c). Now, if one considers for example the (H) function $f(x) = e_2 \left( x + \frac{1}{x} \right)$ one has $\log f(x) = \exp \left( x + \frac{1}{x} \right)$, so the asymptotic expansions of $\log f$ relative to $\mathscr{E}$ are of the form
 
@@ -296,7 +296,7 @@ If $f$ is an (H) function, then $f$ is monotone and continuous on an interval $[
 
 We shall use the following proposition:
 
-#### Proposition 4 {#fvr-v-a0-prop-4 .statement}
+#### Proposition 4 {#fvr-v-a0-prop-4 .statement tag=08H1}
 
 Let $p$ and $q$ be two (H) functions which are strictly positive on an interval $[x_0, +\infty[$.
 
@@ -323,7 +323,7 @@ q(x) \frac{p'(x-q(x))}{p(x-q(x))} = \frac{q(x)}{x} \left( 1 - \frac{q(x)}{x} \ri
 $$
 and one sees in this case that the proposition is true subject *only* to the hypothesis that $q(x) \ll x$. Finally we examine the case where $1/x \ll p'(x)/p(x) \ll 1$; the function $r = p'/p$ is then of finite order relative to $x$; since, by the preceding remark, prop. 4 of V, p. 255, is applicable to such a function, one has $p'(x-q(x))/p(x-q(x)) \sim p'(x)/p(x)$, and the hypothesis $qp' \ll p$ allows us to complete the proof.
 
-#### Remark {#fvr-v-a0-n6-rem-3 .statement}
+#### Remark {#fvr-v-a0-n6-rem-3 .statement tag=08H2}
 
 The conditions imposed on $q(x)$ may not be improved, as the following examples show:
 
@@ -342,7 +342,7 @@ $$
 
 We shall first study the inverses of (H) functions of a particular sort:
 
-#### Proposition 5 {#fvr-v-a0-prop-5 .statement}
+#### Proposition 5 {#fvr-v-a0-prop-5 .statement tag=08H3}
 
 *Let g be an* (H) *function not equivalent to a constant $\neq 0$, and such that* $g(x) \ll x$, *and let* $u(x)$ *be the inverse function of* $x - g(x)$, *defined on a neighbourhood of* $+\infty$. *Let* $(u_n)$ *be the sequence of functions defined, by recursion on* $n$, *by the conditions* $u_0(x) = x$, $u_n(x) = x + g(u_{n-1}(x))$ *for* $n \geqslant 1$; *then* $u_n \gg 1$ *and*
 $$
@@ -384,13 +384,13 @@ y - y_n \sim (y - y_{n-1})g'(x),
 $$
 whence we obtain (11) by induction on $n$.
 
-#### Remark 1 {#fvr-v-a0-n6-rem-1 .statement}
+#### Remark 1 {#fvr-v-a0-n6-rem-1 .statement tag=08H4}
 
 If $g$ is of order $< 1$ relative to $x$, the function $u(x) - u_n(x)$ tends to 0 with $x$ once $n$ is sufficiently large. Indeed, in the opposite case one would have $g{g''}^n \gg 1$ for every $n$, so $g$ would be of infinite order relative to $1/g'$; in other words, one would have $\log|g| \gg \log|g'|$, whence, on differentiating, $g'/g \gg g''/g'$. But if $g$ is of order $\mu < 1$ relative to $x$ one has $g'/g \sim g''/g'$ when $\mu = -\infty, \frac{g'}{g} \sim \frac{\mu}{\mu - 1} \frac{g''}{g'}$ when $\mu \neq 0$, and finally $g'/g \ll g''/g'$ when $\mu = 0$ (V, p. 251, n 3).
 
 In contrast, if $g$ is of order 1 relative to $x$ one can have $g{g''}^n \gg 1$ for every integer $n > 0$, as the example $g(x) = x/\log x$ shows.
 
-#### Remark 2 {#fvr-v-a0-n6-rem-2 .statement}
+#### Remark 2 {#fvr-v-a0-n6-rem-2 .statement tag=08H5}
 
 When $g(x)$ is an (H) function equivalent to a constant $k \neq 0$ one has $g(x) = k + g_1(x)$, with $g_1 \ll 1$; the function $u_1(x) = u(x) - k$ is the inverse of the function $x - g_1(x + k)$, and one is brought back to the case treated in prop. 5 of V, p. 256.
 
@@ -402,7 +402,7 @@ $$
 $$
 where $\varphi$ is an (H) function, $\psi$ is an (H) function such that $\psi \gg 1$ and such that the inverse function $\theta$ of $\psi$ is also an (H) function, and $g$ is an (H) function such that $g \ll \psi$. Let now $v(x)$ be the inverse function of $x - g(\theta(x))$; one has $u = \theta \circ v \circ \varphi$, and $g(\theta(x)) \ll x$; if one knows an asymptotic expansion for $v$ thanks to prop. 5 of V, p. 256, one can then deduce an asymptotic expansion for $u$ as in V, p. 223 to 227.
 
-#### Example 1 {#fvr-v-a0-n6-exa-1 .statement}
+#### Example 1 {#fvr-v-a0-n6-exa-1 .statement tag=08H6}
 
 Let us seek an asymptotic expansion for the inverse function $v(x)$ of $x^5 + x$ (for $x$ tending to $+\infty$); putting $x^5 = t$ one is led to seek an expansion of the inverse function $u(t)$ of $t + t^{1/5}$ (for $t$ tending to $+\infty$), that is, to apply prop. 5 of V, p. 256, to the case where $g(t) = -t^{1/5}$. Let us, for example, calculate, $u_2(t)$; one has
 $$
@@ -422,7 +422,7 @@ v(x) = u(x)^{1/5} = x^{1/5} - \frac{1}{5} x^{-3/5} - \frac{1}{25} x^{-7/5} + o_3
 $$
 sought.
 
-#### Example 2 {#fvr-v-a0-n6-exa-2 .statement}
+#### Example 2 {#fvr-v-a0-n6-exa-2 .statement tag=08H7}
 
 Let us seek an asymptotic expansion for the inverse function of the function $x / \log x$; from the identity $x = y / \log y$, where $y = v(x)$, one deduces $\log x = \log y - \log \log y$; on putting $z = \log y, t = \log x$, one has $t = z - \log z$, and one is led to expand the inverse function $u(t)$ of $t - \log t$; for example, one has
 $$
@@ -441,7 +441,7 @@ $$
 v(x) = x \log x + x \log \log x + x \frac{\log \log x}{\log x} + o\left( x \frac{\log \log x}{\log x} \right).
 $$
 
-#### Remark {#fvr-v-a0-n6-rem-4 .statement}
+#### Remark {#fvr-v-a0-n6-rem-4 .statement tag=08H8}
 
 Note that two equivalent (H) functions can have non-equivalent inverses, as the example of the two functions $\log x$ and $1 + \log x$ shows.
 

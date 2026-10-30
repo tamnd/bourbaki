@@ -50,7 +50,7 @@ subsections:
       pdf_page: 402
 statements: 66
 exercises: 14
-content_sha256: 54306ba1acf39d1bb2ddf1fbc8d5d485fa29afbdcafda0e948d47b02ba0330eb
+content_sha256: b9e185d13ebac7827bb1a35037e89aed5a271cfe0bbc0b2b0fb72b7a265e5960
 ---
 
 ## § 5. ENDOMORPHISMS OF VECTOR SPACES
@@ -116,7 +116,7 @@ $$
 
 ### 2. Eigenvalues and eigenvectors
 
-#### Definition 1 {#alg-vii-s5-def-1 .statement}
+#### Definition 1 {#alg-vii-s5-def-1 .statement tag=075G}
 
 *Let $E$ be a vector space over a commutative field $K$, and $u$ an endomorphism of $E$. An element $x$ of $E$ is said to be an eigenvector of $u$ if there exists $a \in K$ such that $u . x = \alpha x$; if $x \neq 0$ then the scalar $a$ is called the eigenvalue of $u$ corresponding to the eigenvector $x$. For every scalar $a$, the vector subspace $V_a$ consisting of $x \in E$ such that $u . x = \alpha x$ is called the eigenspace of $E$ corresponding to $a$.
 
@@ -124,7 +124,7 @@ The geometric multiplicity of the eigenvalue $a$ is the cardinal $\dim V_a$.
 
 Suppose $E$ is finite dimensional. The eigenvalues of $u$ are those elements $a$ of $K$ such that the endomorphism $a . 1 - u$ of $E$ is not injective, in other words (III, p. 524, Prop. 3) such that $\det(a . 1 - u) = 0$. But, by the definition of the characteristic polynomial $\chi_u$ of $u$ (III, p.541, Def. 3), we have $\det(a . 1 - u) = \chi_u(\alpha)$. Consequently :
 
-#### Proposition 1 {#alg-vii-s5-prop-1 .statement}
+#### Proposition 1 {#alg-vii-s5-prop-1 .statement tag=075H}
 
 *Suppose $E$ is finite dimensional. Then an element $a$ of $K$ is an eigenvalue of the endomorphism $u$ if and only if it is a root of the characteristic polynomial of $u$.
 
@@ -140,7 +140,7 @@ the eigenvalues of $U$ (in an extension $L$ of $K$) are the roots (in $L$) of th
 
 If $U$ is the matrix of an endomorphism $u$ of an n-dimensional vector space with respect to a basis $B$, then $\chi_U = \chi_u$, the eigenvalues of $U$ are the eigenvalues of $u$, and the eigenvectors of $U$ are the matrices of the eigenvectors of $u$ with respect to the basis $B$.
 
-#### Proposition 2 {#alg-vii-s5-prop-2 .statement}
+#### Proposition 2 {#alg-vii-s5-prop-2 .statement tag=075I}
 
 *Let $u$ be an endomorphism of a vector space $E$ over a commutative field $K$; for each scalar $a$, let $V_a$ be the eigenspace corresponding to $a$. Then the subspaces $V_a$ are closed under $u$ and the sum of the $V_a$ is direct.*
 
@@ -150,11 +150,11 @@ The first assertion is clear. By definition the subspace $V_a$ is annihilated by
 
 If we translate the decomposition of a finitely generated torsion module in VII, p. 8, Th. 1 and p. 9, Prop. 2, then we obtain:
 
-#### Proposition 3 {#alg-vii-s5-prop-3 .statement}
+#### Proposition 3 {#alg-vii-s5-prop-3 .statement tag=075J}
 
 *Let $E$ be a vector space of finite dimension $n$ over a commutative field $K$, and let $u$ be an endomorphism of $E$; for every monic irreducible polynomial $p(X)$, let $M_p$ be the vector subspace consisting of elements $x$ of $E$ such that $(p(u))^k \cdot x = 0$ for some integer $k$. Then $M_p$ is closed under $u$, the vector space $E$ is the direct sum of the $M_p$, and there exist polynomials $s_p$ such that, for all $x \in E$, the component of $x$ in $M_p$ is equal to $s_p(u) \cdot x$.*
 
-#### Remark 1 {#alg-vii-s5-n3-rem-1 .statement}
+#### Remark 1 {#alg-vii-s5-n3-rem-1 .statement tag=075K}
 
 Clearly the minimal polynomial of the restriction of $u$ to $M_p$ is the greatest power of $p$ which divides the minimal polynomial of $u$. Moreover we have $s_p(u) \cdot x = x$ for $x \in M_p$, from which it follows immediately that, if $M_p \neq 0$, then $s_p$ is coprime to $p$.
 
@@ -171,11 +171,11 @@ It is clear that the polynomials $q_i$ determine the polynomials $h_j$ and conve
 
 In other words:
 
-#### Proposition 4 {#alg-vii-s5-prop-4 .statement}
+#### Proposition 4 {#alg-vii-s5-prop-4 .statement tag=075L}
 
 — Let E be a vector space of finite dimension n over a commutative field K, and let u be an endomorphism of E. Then there exist n monic polynomials $q_i(X) \in K[X]$ ($1 \leq i \leq n$) such that $q_i$ divides $q_{i+1}$ for $1 \leq i \leq n-1$, and E is the direct sum of n subspaces $V_i$ ($1 \leq i \leq n$) closed under u, cyclic (with respect to u), and such that the minimal polynomial of the restriction of u to $V_i$ is equal to $q_i$ ($1 \leq i \leq n$). The polynomials $q_i$ are uniquely determined by these conditions, and $q_n$ is the minimal polynomial q of u.
 
-#### Remark 2 {#alg-vii-s5-n3-rem-2 .statement}
+#### Remark 2 {#alg-vii-s5-n3-rem-2 .statement tag=075M}
 
 By the above proposition, there exists a basis of E with respect to which the matrix U of u has the form
 
@@ -191,19 +191,19 @@ $$
 
 where each matrix $A_i$ has the form (2) (taking $g(X) = q_i(X)$) (cf. VII, pp. 29-30).
 
-#### Definition 2 {#alg-vii-s5-def-2 .statement}
+#### Definition 2 {#alg-vii-s5-def-2 .statement tag=075N}
 
 — In the notation of Prop. 4, the n monic polynomials $q_i(X)$ ($1 \leq i \leq n$) are called the similarity invariants of the endomorphism u.
 
 Thus the n-th similarity invariant $q_n$ is the minimal polynomial of u (Prop. 4); in other words, for a polynomial $p(X) \in K[X]$ to satisfy $p(u) = 0$, it is necessary and sufficient that $p$ be a multiple of $q_n$.
 
-#### Corollary 1 {#alg-vii-s5-def-2-cor-1 .statement}
+#### Corollary 1 {#alg-vii-s5-def-2-cor-1 .statement tag=075O}
 
 — Let K be a field, let E and $E'$ be two finite dimensional vector spaces over K, and let u (resp. $u'$) be an endomorphism of E (resp. $E'$). Then u and $u'$ are similar (VII, p. 29) if and only if they have the same similarity invariants.
 
 Indeed $u$ and $u'$ are similar if and only if the $K[X]$-modules E, and $E'_u$ are isomorphic.
 
-#### Corollary 2 {#alg-vii-s5-def-2-cor-2 .statement}
+#### Corollary 2 {#alg-vii-s5-def-2-cor-2 .statement tag=075P}
 
 — Let u be an endomorphism of a finite dimensional vector space E over a field K, let $(q_1, \ldots, q_n)$ be the family of similarity invariants of u, let L be an extension of K, let $E_{(L)} = L \otimes_K E$ be the L-vector space induced from E by extension of scalars and let $u_{(L)} = 1_L \otimes u$ be the endomorphism of $E_{(L)}$ induced by u. Then the similarity invariants of $u_{(L)}$ are the images $\bar{q}_1, \ldots, \bar{q}_n$ of $q_1, \ldots, q_n$ in $L[X]$.
 
@@ -211,13 +211,13 @@ This follows immediately from Prop. 4 and the fact that the $L[X]$-modules $E_{(
 
 Let U be a square matrix of order n with coefficients in a commutative field K. Then the similarity invariants of the endomorphism of $K^n$ defined by U are called the similarity invariants of $U$. It then follows from Cor. 1 above that two square matrices are similar if and only if they have the same similarity invariants, and that if $u$ is an endomorphism of a finite dimensional vector space $E$ over $K$, and $U$ is the matrix of $u$ with respect to some basis $B$ of $E$, then the similarity invariants of $U$ and $u$ coincide. By Cor. 1 and 2 above, we have:
 
-#### Corollary 3 {#alg-vii-s5-def-2-cor-3 .statement}
+#### Corollary 3 {#alg-vii-s5-def-2-cor-3 .statement tag=075Q}
 
 — Let $U$ and $V$ be two square matrices of order $n$ with coefficients in a commutative field $K$. If there exists an invertible square matrix $P$ over some extension $K'$ of $K$ such that $V = P^{-1}UP$, then there exists an invertible square matrix $Q$ over $K$ such that $V = Q^{-1}UQ$.
 
 Let $E$ be a finite dimensional vector space over a commutative field $K$, let $(e_i)_{1 \leq i \leq n}$ be a basis of $E$ and let $u$ be an endomorphism of $E$. Then by the exact sequence (1) of VII, p. 29, the $K[X]$-module $E$, associated to $u$ is isomorphic to the quotient of the free $K[X]$-module $E[X]$, with basis $(1 \otimes e_i)$, by the image of $E[X]$ under the $K[X]$-linear map $X - \bar{u}$. The similarity invariants $q_i(X)$ of $u$ (VII, p. 32, Def. 2) are thus the invariant factors of $X - \bar{u}$ (VII, p. 22). Thus Prop. 6 of VII, p. 22, implies:
 
-#### Proposition 5 {#alg-vii-s5-prop-5 .statement}
+#### Proposition 5 {#alg-vii-s5-prop-5 .statement tag=075R}
 
 — Let $E$ be a vector space of finite dimension $n$ over a commutative field $K$, let $u$ be an endomorphism of $E$, and let $U$ be its matrix with respect to some basis of $E$. Then for each integer $m$ with $1 \leq m \leq n$, the product
 $$
@@ -225,20 +225,20 @@ d_m(X) = q_1(X) q_2(X) \ldots q_m(X)
 $$
 of the first $m$ similarity invariants of $u$ is equal to the gcd of the $m$-th order minors of the matrix $XI, - U$.
 
-#### Corollary 1 {#alg-vii-s5-prop-5-cor-1 .statement}
+#### Corollary 1 {#alg-vii-s5-prop-5-cor-1 .statement tag=075S}
 
 — Let $u$ be an endomorphism of a vector space of finite dimension $n$ over a commutative field $K$, with characteristic polynomial $\chi_u(X)$ and similarity invariants $q_i(X)$ ($1 \leq i \leq n$). Then
 $$
 \chi_u(X) = q_1(X) q_2(X) \ldots q_n(X)
 $$
 
-#### Corollary 2 {#alg-vii-s5-prop-5-cor-2 .statement}
+#### Corollary 2 {#alg-vii-s5-prop-5-cor-2 .statement tag=075T}
 
 — In the notation of Cor. 1, let $q(X)$ be the minimal polynomial of $u$; then $q(X)$ divides $\chi_u(X)$ and $\chi_u(X)$ divides $q(X)^n$. In particular the minimal polynomial and the characteristic polynomial of $u$ have the same roots, and these are the eigenvalues of $u$.
 
 Since $q(X) = q_n(X)$, it is clear that $q(X)$ divides $\chi_u(X)$. On the other hand, since each $q_i$ divides $q$, their product $\chi_u$ divides $q^n$.
 
-#### Corollary 3 {#alg-vii-s5-prop-5-cor-3 .statement}
+#### Corollary 3 {#alg-vii-s5-prop-5-cor-3 .statement tag=075U}
 
 — An endomorphism $u$ is nilpotent if and only if its characteristic polynomial has the form $X^n$.
 
@@ -246,7 +246,7 @@ This follows immediately from Cor. 2.
 
 Let us now rewrite Prop. 9 of VII, p. 24, which gives the decomposition of a module as a direct sum of indecomposable submodules.
 
-#### Proposition 6 {#alg-vii-s5-prop-6 .statement}
+#### Proposition 6 {#alg-vii-s5-prop-6 .statement tag=075V}
 
 — Let $E$ be a vector space of finite dimension $n$ over a commutative field $K$, and let $u$ be an endomorphism of $E$. Then $E$ is the direct sum of subspaces $E_k$, closed under $u$ and cyclic with respect to $u$, such that the minimal polynomial of the restriction of $u$ to $E_k$ has the form $p_k^{n(k)}$, where $p_k$ is an irreducible polynomial, and $E_k$ cannot be expressed as a direct sum of two nonzero subspaces each closed under $u$. For every monic irreducible polynomial $p \in K[X]$ and every integer $n \geq 1$, the number $m(p^n)$ of subspaces $E_k$ in any such decomposition, such that $p^n$ is the minimal polynomial of the restriction of $u$ to $E_k$, is uniquely determined.
 
@@ -258,7 +258,7 @@ Note that the monic irreducible polynomials $p \in K[X]$ such that $m(p^n) > 0$ 
 
 In this section we will be interested in the case where the minimal polynomial $p(X)$ of $u$ splits into a product of linear factors in $K[X]$, in other words (VII, p. 33, Cor. 2) in the case where all the eigenvalues of $u$ belong to $K$. This will hold in particular when $K$ is algebraically closed. Prop. 3 of VII, p. 31 gives immediately:
 
-#### Proposition 7 {#alg-vii-s5-prop-7 .statement}
+#### Proposition 7 {#alg-vii-s5-prop-7 .statement tag=075W}
 
 — Let $E$ be a finite dimensional vector space over a commutative field $K$, and let $u$ be an endomorphism of $E$ whose eigenvalues all belong to $K$. For each eigenvalue $a$ of $u$, let $M_a$ be the vector subspace of $E$ consisting of those elements $x$ for which there exists an integer $k \geq 1$ such that $(u - a)^k \cdot x = 0$. Then $M_a$ is closed under $u$, the vector space $E$ is the sum of the $M_a$, and there exist polynomials $s_a \in K[X]$ such that, for all $x \in E$, the component of $x$ in $M_a$ is equal to $s_a(u) \cdot x$.
 
@@ -287,11 +287,11 @@ U_{m,\alpha} = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-#### Definition 3 {#alg-vii-s5-def-3 .statement}
+#### Definition 3 {#alg-vii-s5-def-3 .statement tag=075X}
 
 *For every field $K$, every integer $m \geq 1$, and every $a \in K$, the matrix $U_{m,\alpha}$ is called the Jordan matrix of order $m$ and eigenvalue $a$.*
 
-#### Proposition 8 {#alg-vii-s5-prop-8 .statement}
+#### Proposition 8 {#alg-vii-s5-prop-8 .statement tag=075Y}
 
 *Let $E$ be a finite dimensional vector space over a commutative field $K$, and let $u$ be an endomorphism of $E$. Then the following conditions are equivalent*:
 
@@ -303,7 +303,7 @@ $$
 
 We have (i) $\Rightarrow$ (iii) by Prop. 7 and the above remarks, and the assertions (iii) $\Rightarrow$ (ii) and (ii) $\Rightarrow$ (i) are trivial.
 
-#### Definition 4 {#alg-vii-s5-def-4 .statement}
+#### Definition 4 {#alg-vii-s5-def-4 .statement tag=075Z}
 
 *An endomorphism satisfying conditions (i), (ii) and (iii) of Prop. 8 is called triangularisable*.
 
@@ -311,11 +311,11 @@ In particular if $K$ is algebraically closed, then every endomorphism of a $K$-v
 
 For matrices, Prop. 8 implies :
 
-#### Corollary {#alg-vii-s5-n4-cor-1 .statement}
+#### Corollary {#alg-vii-s5-n4-cor-1 .statement tag=0760}
 
 *Let $U$ be a square matrix over a commutative field $K$ such that all the eigenvalues of $U$ are in $K$; then there exists a matrix similar to $U$ which is a diagonal block of Jordan matrices*.
 
-#### Remark {#alg-vii-s5-n4-rem-1 .statement}
+#### Remark {#alg-vii-s5-n4-rem-1 .statement tag=0761}
 
 — 1) It follows from Prop. 6 of VII, p. 34, that, if $U$ is similar to a diagonal block of Jordan matrices $(J_k)$, then the number of $J_k$ of the form $U_{m,\alpha}$ (for given $m$ and $\alpha$) is uniquely determined by $U$.
 
@@ -340,11 +340,11 @@ and the similarity invariants are 1, 1 and $(X - 2)\ (X - 3)'$
 
 By noticing that the minimal polynomial of the Jordan matrix $U_{m, \alpha}$ is $(X - a)''$, and that it is equal to its characteristic polynomial, we obtain the following result :
 
-#### Proposition 9 {#alg-vii-s5-prop-9 .statement}
+#### Proposition 9 {#alg-vii-s5-prop-9 .statement tag=0762}
 
 — *If the square matrix $U$ is similar to a diagonal block of Jordan matrices $(U_{m_i, \alpha_i})$, then the minimal polynomial of $U$ is the lcm of the $(X - \alpha_i)^{m_i}$, and the characteristic polynomial is the product of the $(X - a_i)'''$.*
 
-#### Corollary {#alg-vii-s5-n4-cor-2 .statement}
+#### Corollary {#alg-vii-s5-n4-cor-2 .statement tag=0763}
 
 — *In the notation of Prop. 7, the dimension of the subspace $M_\alpha$ is the multiplicity of the eigenvalue $\alpha$ as a root of the characteristic polynomial of $u$.*
 
@@ -357,7 +357,7 @@ $$
 \chi_u(X) = X^n - \mathrm{Tr}(u)\ X^{n-1} + \cdots + (-1)^n \det(u)\ .
 $$
 
-#### Proposition 10 {#alg-vii-s5-prop-10 .statement}
+#### Proposition 10 {#alg-vii-s5-prop-10 .statement tag=0764}
 
 — *Let $E$ be a vector space of finite dimension $n$ over a commutative field $K$, let $u$ be an endomorphism of $E$, and let $\chi_u(X) = \prod_{i=1}^n (X - \alpha_i)$ be a decomposition into linear factors of its characteristic polynomial (in a suitable extension of $K$, cf. V, p. 21). If $q$ is a polynomial with coefficients in $K$, then the characteristic polynomial of $q(u)$ is given by*
 
@@ -377,23 +377,23 @@ $$
 
 It is clear that (7) and (8) follow from (6) by virtue of (5). To prove the formula (6), we may assume that K is algebraically closed. We then take a basis for E with respect to which the matrix $U$ of $u$ is lower triangular ($VII$, p. 35, Cor. to Prop. 8); we will make use of the following easy lemma:
 
-#### Lemma 1 {#alg-vii-s5-lem-1 .statement}
+#### Lemma 1 {#alg-vii-s5-lem-1 .statement tag=0765}
 
 *If B and C are lower triangular matrices of order n with diagonals $(\beta_i)$ and $(\gamma_i)$, then the matrices $B + C$ and $BC$ are lower triangular with diagonals $(\beta_i + \gamma_i)$ and $(\beta_i \gamma_i)$.*
 
 Since the matrix $U$ of $u$ is lower triangular with diagonal $(\alpha_i)$ say, it follows from Lemma 1 that $q(U)$ is a lower triangular matrix with diagonal $(q(\alpha_i))$. Then $X . I, -q(U)$ is a lower triangular matrix with diagonal $(X - q(a;))$, which proves (6).
 
-#### Corollary 1 {#alg-vii-s5-lem-1-cor-1 .statement}
+#### Corollary 1 {#alg-vii-s5-lem-1-cor-1 .statement tag=0766}
 
 *For $q(u)$ to be invertible, it is necessary and sufficient that $q$ be coprime to $\chi_u$.*
 
 Indeed, to say that $q$ and $\chi_u$ are coprime is equivalent to saying that they have no common root in an algebraically closed extension of K, in other words (8) that $\det(q(u)) \neq 0$.
 
-#### Remark 1 {#alg-vii-s5-n5-rem-1 .statement}
+#### Remark 1 {#alg-vii-s5-n5-rem-1 .statement tag=0767}
 
 — A polynomial is coprime to $\chi_u$ if and only if it is coprime to the minimal polynomial of $u$ (VII, p. 33, Cor. 2).
 
-#### Corollary 2 {#alg-vii-s5-lem-1-cor-2 .statement}
+#### Corollary 2 {#alg-vii-s5-lem-1-cor-2 .statement tag=0768}
 
 *Let $r \in K(X)$ be a rational function over K. Then $u$ is substitutable (IV, p. 21) in $r$ if and only if each of its eigenvalues is. In this case the following formulae hold:*
 
@@ -403,19 +403,19 @@ $$
 
 Write $r = p/q$ where $p$ and $q$ are coprime polynomials. Then $u$ is substitutable in $r$ if and only if $\det(q(u)) \neq 0$, so the first assertion follows from (8). By Cor. 1, we may suppose $q$ coprime to $\chi_u$, so by the Bezout identity there exist polynomials $g$ and $h$ such that $qg + h\chi_u = 1$. Then $q(\alpha_i)g(\alpha_i) = 1$ and $q(u)g(u) = 1$ by the Cayley-Hamilton theorem (III, p. 541). The stated formulae can then be obtained by applying formulae (6), (7) and (8) to $p(u)\ g(u) = r(u)$.
 
-#### Corollary 3 {#alg-vii-s5-lem-1-cor-3 .statement}
+#### Corollary 3 {#alg-vii-s5-lem-1-cor-3 .statement tag=0769}
 
 *For each integer $s \geq 0$ we have $\operatorname{Tr}(u^s) = \sum_{i=1}^n \alpha_i^s$. This formula is also valid for $s < 0$ provided $u$ is invertible.*
 
 This is a special case of the previous corollary.
 
-#### Corollary 4 {#alg-vii-s5-lem-1-cor-4 .statement}
+#### Corollary 4 {#alg-vii-s5-lem-1-cor-4 .statement tag=076A}
 
 — *Suppose the field K is of characteristic zero; then the endomorphism u is nilpotent if and only if* $\operatorname{Tr}(u^s) = 0$ *for* $1 \leq s \leq n$.
 
 If $u$ is nilpotent then the $a_i$ are all zero, and $\operatorname{Tr}(u^s) = 0$ for all $s > 0$ (Cor. 3). Conversely, if $\operatorname{Tr}(u^s) = 0$ for $1 \leq s \leq n$, then the $a_i$ are all zero since $K$ is of characteristic zero (IV, p. 72, Cor.), and $u$ is nilpotent (VII, p. 33).
 
-#### Corollary 5 {#alg-vii-s5-lem-1-cor-5 .statement}
+#### Corollary 5 {#alg-vii-s5-lem-1-cor-5 .statement tag=076B}
 
 — *Let Y be an indeterminate and let $\tilde{u}$ denote the endomorphism of the $K(Y)$-vector space $K(Y) \otimes_K E$ induced from $u$ by extension of scalars from $K$ to the field $K(Y)$ of rational functions in $Y$ with coefficients from $K$. Then the endomorphism $Y \cdot 1 - \tilde{u}$ is invertible. Moreover, if $\chi_u'$ denotes the derivative of the polynomial $\chi_u$, then*
 
@@ -429,7 +429,7 @@ $$
 \chi_u'(Y)/\chi_u(Y) = \sum_i (Y - \alpha_i)^{-1} = \sum_i r(\alpha_i) .
 $$
 
-#### Corollary 6 {#alg-vii-s5-lem-1-cor-6 .statement}
+#### Corollary 6 {#alg-vii-s5-lem-1-cor-6 .statement tag=076C}
 
 — *Suppose the field K is of characteristic zero. Then, in the ring $K[[T]]$ of formal power series, we have*
 
@@ -451,7 +451,7 @@ $$
 
 It follows that $-TP'(T)/P(T) = -n + \operatorname{Tr}((I_n - TU)')$. The corollary is now obtained by expanding each side of this equation as a formal power series.
 
-#### Remark 2 {#alg-vii-s5-n5-rem-2 .statement}
+#### Remark 2 {#alg-vii-s5-n5-rem-2 .statement tag=076D}
 
 — By IV, p. 80, Cor. 1 and formula (8), we have, for each polynomial $q \in K[X]$, that
 
@@ -467,7 +467,7 @@ $$
 
 where $\operatorname{dis}(\chi_u)$ is the discriminant of the polynomial $\chi_u$ (*IV*, p. 82, formula (47)). Furthermore:
 
-#### Corollary 7 {#alg-vii-s5-lem-1-cor-7 .statement}
+#### Corollary 7 {#alg-vii-s5-lem-1-cor-7 .statement tag=076E}
 
 We have $\det(\operatorname{Tr}(u^{i+j})_{0 \leq i,j \leq n}) = \operatorname{dis}(\chi_u)$.
 
@@ -481,7 +481,7 @@ Moreover, the $(i, j)$-th entry of $D \cdot 'D$ is $\sum_k \alpha_k^{i+j-2} = \o
 
 ### 6. Characteristic polynomial of the tensor product of two endomorphisms
 
-#### Proposition 11 {#alg-vii-s5-prop-11 .statement}
+#### Proposition 11 {#alg-vii-s5-prop-11 .statement tag=076F}
 
 *Let E* (resp. $E'$) *be a finite dimensional vector space over a commutative field K and let u* (resp. $u'$) *be an endomorphism of E* (resp. $E'$). Let*
 
@@ -497,7 +497,7 @@ $$
 
 Arguing as in the proof of Prop. 10 of *VII*, p. 36, we see that it is sufficient to prove the following lemma:
 
-#### Lemma 2 {#alg-vii-s5-lem-2 .statement}
+#### Lemma 2 {#alg-vii-s5-lem-2 .statement tag=076G}
 
 *Let B and C be two lower triangular matrices of orders m and n respectively, with diagonals $(\beta_i)_{1 \leq i \leq n}$ and $(\gamma_j)_{1 \leq j \leq n}$. Let us identify the lexicographic product of the ordered sets $\{1, 2, \ldots, m\}$ and $\{1, 2, \ldots, n\}$ with the interval $\{1, 2, \ldots, mn\}$. Then the tensor product matrix* (**II**, p. 357) *B $\otimes$ C is lower triangular with diagonal* $(\beta_i \gamma_j)$.
 
@@ -505,7 +505,7 @@ This follows immediately from the definition of the tensor product of two matric
 
 ### 7. Diagonalisable endomorphisms
 
-#### Definition 5 {#alg-vii-s5-def-5 .statement}
+#### Definition 5 {#alg-vii-s5-def-5 .statement tag=076H}
 
 — Let E be a finite dimensional vector space over a commutative field K and let $\mathfrak{F}$ be a set of endomorphisms of E. Then $\mathfrak{F}$ is said to be diagonal with respect to a basis $(e_i)$ of E if the matrix of each $u \in \mathfrak{F}$ with respect to $(e_i)$ is diagonal. The set $\mathfrak{F}$ is said to be diagonalisable if there exists a basis of E with respect to which $\mathfrak{F}$ is diagonal.
 
@@ -513,7 +513,7 @@ This definition applies in particular to the case when $\mathfrak{F}$ contains o
 
 Let A be a subalgebra of $\mathrm{End}_K(E)$ containing Id. Then A is diagonalisable if and only if it is isomorphic to an algebra $K^r$ (in other words is diagonalisable in the sense of V, p. 28, Def. 1); indeed, if A is isomorphic to $K^r$, then A is diagonalisable by V, p. 29, Prop. 1; conversely, if A is diagonalisable, then it is isomorphic to a subalgebra of the algebra of diagonal matrices, which is isomorphic as an algebra to $K^n$, $n = \dim(E)$, hence A is isomorphic to some algebra $K^r$ (V, p. 30, Prop. 3).
 
-#### Proposition 12 {#alg-vii-s5-prop-12 .statement}
+#### Proposition 12 {#alg-vii-s5-prop-12 .statement tag=076I}
 
 — Let E be a finite dimensional vector space over a commutative field K, and let u be an endomorphism of E. Then the following conditions are equivalent:
 
@@ -525,13 +525,13 @@ Moreover, if these conditions are satisfied, then every subspace of E closed und
 
 The equivalence of (i) and (ii) follows from the preceding remarks and VII, p. 31, Prop. 2. Suppose u is diagonalisable, and let $(\alpha_i)$ be its family of eigenvalues, and $(V_i)$ the corresponding family of eigenspaces; since the restriction of u to $V_i$ is the homothety defined by $\alpha_i$, it annihilates the polynomial $X - \alpha_i$; it follows that u annihilates the polynomial $\prod (X - \alpha_i)$, which is therefore a multiple of the minimal polynomial of u, and hence coincides with it, which proves (iii). Conversely, if (iii) is satisfied then there exists a basis of E with respect to which the matrix U of u is a diagonal block of Jordan matrices $U_{m,\alpha}$ (VII, p. 35, Prop. 8); then by Prop. 9 the integers m are all equal to 1 and so U is diagonal. Finally, the last assertion follows from the fact that if u is diagonalisable then its eigenspaces are the primary components of $E_u$, and from VII, p. 9, Cor. 1.
 
-#### Corollary {#alg-vii-s5-n7-cor-1 .statement}
+#### Corollary {#alg-vii-s5-n7-cor-1 .statement tag=076J}
 
 — If all the roots of the characteristic polynomial of u are in K, and they are all simple, then u is diagonalisable.
 
 Indeed the minimal polynomial divides the characteristic polynomial.
 
-#### Proposition 13 {#alg-vii-s5-prop-13 .statement}
+#### Proposition 13 {#alg-vii-s5-prop-13 .statement tag=076K}
 
 — Let E be a finite dimensional vector space over a commutative field K, let $\mathscr{S}$ be a set of endomorphisms of E, and let A be the subalgebra of $\mathrm{End}_K(E)$ generated by $\mathscr{S}$ and $\mathrm{Id}_E$. Then the following conditions are equivalent:
 (i) $\mathscr{S}$ is diagonalisable.
@@ -540,7 +540,7 @@ Indeed the minimal polynomial divides the characteristic polynomial.
 
 If $(e_i)$ is a basis of E with respect to which $\mathscr{S}$ is diagonal, then A is contained in the algebra of endomorphisms which are diagonal with respect to this basis, so is also diagonalisable; if A is diagonalisable, then the same argument shows that $\mathscr{S}$ is diagonalisable. This shows the equivalence of (i) and (ii). Since any two diagonal matrices commute, we have (i) $\rightarrow$ (iii), and it remains to prove the converse. Suppose then that the elements of $\mathscr{S}$ are diagonalisable and commute with each other. We will make use of the following lemma:
 
-#### Lemma 3 {#alg-vii-s5-lem-3 .statement}
+#### Lemma 3 {#alg-vii-s5-lem-3 .statement tag=076L}
 
 Let g and h be two commuting endomorphisms of a vector space E. Then each eigenspace of g is closed under h.
 
@@ -552,19 +552,19 @@ which says that $h \cdot x \in W_\lambda$.
 
 Let us now return to the proof of Prop. 13. Among all decompositions of E as a direct sum of nonzero subspaces each closed under all the elements of $\mathscr{S}$, choose one with the greatest number of components (the dimension of E is an upper bound for this number), say $E = \sum_{i \in I} E_i$. Let $u \in \mathscr{S}$ and let $E = \sum V_\alpha$ be the decomposition of E as the direct sum of the eigenspaces of $u$. By Lemma 3, each $V_\alpha$ is closed under $\mathscr{S}$, and hence so is each $V_i \cap E_i$; by Prop. 12 each $E_i$ is the direct sum of the $V_i \cap E_i$. The choice of the $E_i$ thus forces each $E_i$ to be contained in one of the $V_\alpha$; thus the restriction of $u$ to each $E_i$ is a homothety. Since this is true for all the elements of $\mathscr{S}$, it follows that $\mathscr{S}$ is diagonalisable.
 
-#### Corollary {#alg-vii-s5-n7-cor-2 .statement}
+#### Corollary {#alg-vii-s5-n7-cor-2 .statement tag=076M}
 
 — The sum and the composite of two commuting diagonalisable endomorphisms of E are diagonalisable.
 
 ### 8. Semi-simple and absolutely semi-simple endomorphisms
 
-#### Definition 6 {#alg-vii-s5-def-6 .statement}
+#### Definition 6 {#alg-vii-s5-def-6 .statement tag=076N}
 
 — Let E be a finite dimensional vector space over a commutative field K. Then an endomorphism u of E is said to be semi-simple if every subspace of E which is closed under u has a complement which is closed under u.
 
 This means that every submodule of the $K[X]$-module E, is a direct factor, in other words the $K[X]$-module $E_u$ is semi-simple (VII, p. 9).
 
-#### Proposition 14 {#alg-vii-s5-prop-14 .statement}
+#### Proposition 14 {#alg-vii-s5-prop-14 .statement tag=076O}
 
 — *An endomorphism u of a finite dimensional vector space over a commutative field is semi-simple if and only if the minimal polynomial of u has no multiple factors.*
 
@@ -572,13 +572,13 @@ This follows immediately from VII, p. 9, Cor. 4 and p. 31, Remark 1.
 
 Let E be a vector space over a commutative field K, let L be an extension of K, and $u$ an endomorphism of E ; let $u_{(L)}$ denote the L-endomorphism $l_L \otimes u$ of the L-vector space $E_{(l.)} = L \otimes_K E$ induced from E by extension of scalars. In the same way, if $\mathfrak{F}$ is a set of endomorphisms of E, let $\mathfrak{F}_{(L)}$ denote the set of $u_{(L)}$ for $u$ in '8.
 
-#### Corollary {#alg-vii-s5-n8-cor-1 .statement}
+#### Corollary {#alg-vii-s5-n8-cor-1 .statement tag=076P}
 
 — *Let u be an endomorphism of a finite dimensional vector space over a commutative field K, and let L be an extension of K. If $u_{(L)}$ is semi-simple then u is semi-simple. If u is semi-simple and L is separable over K, then $u_{(L)}$ is semi-simple.*
 
 This follows immediately from Prop. 14 and from V, p. 120, Cor. 1 (note that the minimal polynomials of $u$ and $u_{(L)}$ coincide).
 
-#### Proposition 15 {#alg-vii-s5-prop-15 .statement}
+#### Proposition 15 {#alg-vii-s5-prop-15 .statement tag=076Q}
 
 — *Let E be a finite dimensional vector space over a commutative field K, let u be an endomorphism of E and let q(X) be its minimal polynomial. Then the following conditions are equivalent :*
 
@@ -588,17 +588,17 @@ This follows immediately from Prop. 14 and from V, p. 120, Cor. 1 (note that the
 
 Indeed, condition (i) means that the polynomial $1 \otimes q(X)$ in $L[X]$ has no multiple factors, for any extension L of K (Prop. 14), condition (ii) means that there exists an extension L of K such that all the roots of $q(X)$ belong to L and that these roots are all simple (VII, p. 40, Prop. 12), and these conditions are each equivalent to (iii) by definition (V, p. 38).
 
-#### Definition 7 {#alg-vii-s5-def-7 .statement}
+#### Definition 7 {#alg-vii-s5-def-7 .statement tag=076R}
 
 — *An endomorphism u satisfying conditions (i), (ii) and (iii) of Prop. 15 is said to be absolutely semi-simple.*
 
-#### Corollary {#alg-vii-s5-n8-cor-2 .statement}
+#### Corollary {#alg-vii-s5-n8-cor-2 .statement tag=076S}
 
 — *A necessary and sufficient condition for u to be absolutely semi-simple is that there exist an extension L of K such that L is perfect and $u_{(L)}$ is semi-simple.*
 
 The condition in the corollary means that there exists an extension L of K such that L is perfect and $q(X)$ has no multiple factors in $L[X]$ (Prop. 14) ; this condition is equivalent to (iii) by V, p. 38, Cor. 2.
 
-#### Proposition 16 {#alg-vii-s5-prop-16 .statement}
+#### Proposition 16 {#alg-vii-s5-prop-16 .statement tag=076T}
 
 — *Let E be a finite dimensional vector space over a commutative field K, let $\mathfrak{F}$ be a set of endomorphisms of E and let A be the subalgebra of $\mathrm{End}_K(E)$ generated by $\mathfrak{F}$ and Id. Then the following conditions are equivalent :*
 
@@ -610,27 +610,27 @@ The condition in the corollary means that there exists an extension L of K such 
 
 Note first that, for every extension $L$ of $K$, the $L$-algebra generated by $\mathfrak{F}_{(L)}$ and $\mathrm{Id}_{E_{(L)}}$ coincides with $L \otimes_K A$; hence by Prop. 13 $\mathfrak{F}_{(L)}$ is diagonalisable if and only if the $L$-algebra $L \otimes_K A$ is diagonalisable. The equivalence of conditions (i) and (ii) thus follows from V, p. 28, Def. 1. On the other hand, it is immediate that (i) $\Rightarrow$ (iii). Finally suppose (iii) holds, and let $L$ be an algebraic closure of $K$; then the elements of $\mathfrak{F}_{(L)}$ are diagonalisable (VII, p. 40, Prop. 12) and commute with one another; hence $\mathfrak{F}_{(L)}$ is diagonalisable by VII, p. 41, Prop. 13.
 
-#### Corollary {#alg-vii-s5-n8-cor-3 .statement}
+#### Corollary {#alg-vii-s5-n8-cor-3 .statement tag=076U}
 
 *The sum and product of two commuting, absolutely semi-simple endomorphisms are absolutely semi-simple*.
 
-#### Remark {#alg-vii-s5-n8-rem-1 .statement}
+#### Remark {#alg-vii-s5-n8-rem-1 .statement tag=076V}
 
 — Suppose the conditions of Prop. 16 are satisfied and let $L$ be an extension of $K$. By Prop. 13 the set $\mathfrak{F}_{(L)}$ is diagonalisable if and only if the algebra $L \otimes_K A$ is diagonalisable. It follows from V, p. 30, Prop. 2 that there exists a finite extension $L$ of $K$ such that $\mathfrak{F}_{(L)}$ is diagonalisable. In fact $L$ may be taken to be *Galois*; indeed, taking a finite subset $\mathfrak{F}'$ of $\mathfrak{F}$ which generates $A$, we may take $L$ to be a splitting field for the minimal polynomials of the elements of $\mathfrak{F}'$ (Prop. 12 and 13).
 
 ### 9. Jordan decomposition
 
-#### Definition 8 {#alg-vii-s5-def-8 .statement}
+#### Definition 8 {#alg-vii-s5-def-8 .statement tag=076W}
 
 *Let $E$ be a finite dimensional vector space over a commutative field and let $u$ be an endomorphism of $E$. Then a Jordan decomposition of $u$ is a pair* $(u_s, u_n)$, *where $u_s$ is a semi-simple endomorphism of $E$ and $u_n$ is a nilpotent endomorphism of $E$, such that* $u_s u_n = u_n u_s$ *and* $u = u_s + u_n$.
 
-#### Theorem 1 {#alg-vii-s5-thm-1 .statement}
+#### Theorem 1 {#alg-vii-s5-thm-1 .statement tag=076X}
 
 *Let $E$ be a finite dimensional vector space over a commutative field $K$ and let $u$ be an endomorphism of $E$. Then $u$ has a Jordan decomposition* $(u_s, u_n)$ *if and only if the eigenvalues of $u$ are separable over $K$. Moreover the decomposition is unique, the characteristic polynomials of $u$ and $u_s$ coincide, and there exist polynomials* $P, Q \in K[X]$, *with no constant terms, such that* $u_s = P(u)$ *and* $u_n = Q(u)$.
 
 A) Let us first of all prove the following special case
 
-#### Lemma 4 {#alg-vii-s5-lem-4 .statement}
+#### Lemma 4 {#alg-vii-s5-lem-4 .statement tag=076Y}
 
 *Let $E$ be a finite dimensional vector space over a commutative field $K$ and let $u$ be a triangularisable endomorphism of $E$. Then there exists a unique diagonalisable endomorphism $v$ of $E$ which commutes with $u$ and is such that* $u - v$ *is nilpotent. Moreover, under these conditions the characteristic polynomials of $u$ and $v$ coincide, and there exists a polynomial* $P \in K[X]$ *such that* $v = P(u)$.
 
@@ -646,15 +646,15 @@ Conversely, suppose that the eigenvalues of u are separable over K, and let L be
 
 Whenever an endomorphism f admits a Jordan decomposition, we write it $(f_s, f_n)$, and the endomorphisms $f_s$ and $f_n$ are called the absolutely *semi-simple* component and the nilpotent component off respectively. When K is perfect, every endomorphism has a Jordan decomposition; in this case also there is no distinction between absolutely semi-simple endomorphisms and semi-simple endomorphisms, and we sometimes say « semi-simple component » for « absolutely semi-simple component ».
 
-#### Corollary 1 {#alg-vii-s5-lem-4-cor-1 .statement}
+#### Corollary 1 {#alg-vii-s5-lem-4-cor-1 .statement tag=076Z}
 
 Suppose $u$ has a Jordan decomposition, and let L be an extension of K. Then $u_{(L)}$ has a Jordan decomposition, with $(u_{(L)})_s = (u_s)_{(L)}$ and $(u_{(L)})_n = (u_n)_{(L)}$.
 
-#### Corollary 2 {#alg-vii-s5-lem-4-cor-2 .statement}
+#### Corollary 2 {#alg-vii-s5-lem-4-cor-2 .statement tag=0770}
 
 Suppose u has a Jordan decomposition. Then every *endomorphism* of E which *commutes* with u also commutes with $u_s$ and $u_n$.
 
-#### Corollary 3 {#alg-vii-s5-lem-4-cor-3 .statement}
+#### Corollary 3 {#alg-vii-s5-lem-4-cor-3 .statement tag=0771}
 
 Let $u$ and $v$ be two commuting endomorphisms of E which have Jordan decompositions.
 a) The endomorphisms $u, v, u_s, v_s, u_n, v_n, v,$ all commute.
@@ -667,27 +667,27 @@ $$
 $$
 Part a) follows from Cor. 2. To prove part b) it is enough to notice that $u_s + v_s$ and $u_s v_s$ are absolutely semi-simple (VII, p. 43, Cor.) and that $u_n + v_n$ and $u_s v_n + u_n v_s + u_n v_n$ are nilpotent (as sums of commuting nilpotent endomorphisms).
 
-#### Corollary 4 {#alg-vii-s5-lem-4-cor-4 .statement}
+#### Corollary 4 {#alg-vii-s5-lem-4-cor-4 .statement tag=0772}
 
 Suppose $u$ has a Jordan decomposition, and let R be a polynomial in $\mathbf{K}[X]$. Then the endomorphism $R(u)$ has a Jordan decomposition with $R(u)_s = R(u_s)$.
 
-#### Remark 1 {#alg-vii-s5-n9-rem-1 .statement}
+#### Remark 1 {#alg-vii-s5-n9-rem-1 .statement tag=0773}
 
 We have $\det(u_s) = \det(u)$ and $\operatorname{Tr}(u_s) = \operatorname{Tr}(u)$.
 
-#### Remark 2 {#alg-vii-s5-n9-rem-2 .statement}
+#### Remark 2 {#alg-vii-s5-n9-rem-2 .statement tag=0774}
 
 A necessary and sufficient condition for $u$ to be triangularisable is that $u$ have a Jordan decomposition with $u_s$ diagonalisable. Then there exists a basis of E with respect to which the matrix of $u$ is lower triangular, and that of $u_s$ is diagonal, with the same diagonal as the matrix of $u$ (cf. Lemma 4 and Prop. 19 below).
 Note however that if the matrix of $u$ with respect to some basis is triangular, it does not in general follow that the matrix of $u_s$ with respect to the same basis is diagonal.
 
-#### Remark 3 {#alg-vii-s5-n9-rem-3 .statement}
+#### Remark 3 {#alg-vii-s5-n9-rem-3 .statement tag=0775}
 
 The notion of Jordan decomposition for a square matrix can be defined in an analogous manner. For example, for the Jordan matrix $U_{m,\alpha}$ we have
 $$
 (U_{m,\alpha})_s = \alpha \cdot I_m , \quad (U_{m,\alpha})_n = U_{m,0} .
 $$
 
-#### Remark 4 {#alg-vii-s5-n9-rem-4 .statement}
+#### Remark 4 {#alg-vii-s5-n9-rem-4 .statement tag=0776}
 
 If $u$ is semi-simple but not absolutely semi-simple, then it has no Jordan decomposition.
 
@@ -697,7 +697,7 @@ $$
 $$
 If $V$ has finite dimension $m$, then $u$ is unipotent if and only if $\chi_u(X) = (X - 1)^m$ (VII, p. 33, Cor. 3 to Prop. 5).
 
-#### Proposition 17 {#alg-vii-s5-prop-17 .statement}
+#### Proposition 17 {#alg-vii-s5-prop-17 .statement tag=0777}
 
 — Let $E$ be a finite dimensional vector space over a commutative field, and let $f$ be an endomorphism of $E$. Then the following conditions are equivalent:
 (i) $f$ has a Jordan decomposition and is an automorphism ;
@@ -710,7 +710,7 @@ Moreover, under these conditions, in the notation of (iii), we must have $a = f_
 
 Put $f_r = f_s^{-1}f = ff_s^{-1} = 1 + f_s^{-1}f_n$, and call this the unipotent component of $f$. The pair $(f_s, f_r)$ is often called the multiplicative Jordan decomposition of the automorphism $f$.
 
-#### Proposition 18 {#alg-vii-s5-prop-18 .statement}
+#### Proposition 18 {#alg-vii-s5-prop-18 .statement tag=0778}
 
 — Let $E$ be a finite dimensional vector space over a commutative field $K$, let $u$ be an endomorphism of $E$ and let $E'$ be a subspace of $E$ closed under $u$. Let $u'$ (resp. $u''$) be the endomorphism of $E'$ (resp. $E/E'$) induced by $u$. Then $\chi_u = \chi_{u'} \cdot \chi_{u''}$.
 
@@ -729,7 +729,7 @@ $$
 
 and $\chi_u = \chi_U = \chi_{U'}\chi_{U''} = \chi_{u'}\chi_{u''}$ (cf. III, p. 533, Ex. 2). We deduce that the set of eigenvalues of $u$ is the union of the sets of eigenvalues of $u'$ and $u''$. If $u'$ and $u''$ have Jordan decompositions then the eigenvalues of $u'$ and $u''$ are separable over K, hence so are the eigenvalues of $u$, and $u$ has a Jordan decomposition (VII, p. 43, Th. 1). Conversely, if $u$ has a Jordan decomposition $(s, n)$ then $s$ and $n$ leave $E'$ invariant because they are polynomials in $u$; let $s', n', s'', n''$ denote the endomorphisms of $E', E', E'', E''$ induced by $s, n, s, n$ respectively. Then $s'$ and $s''$ are absolutely semi-simple, since their minimal polynomials divide that of $s$ (VII, p. 42, Prop. 15); also $n'$ and $n''$ are nilpotent. Finally $u' = s' + n', u'' = s'' + n'', s'n' = n's', \text{ and } s''n'' = n''s''$, which completes the proof.
 
-#### Proposition 19 {#alg-vii-s5-prop-19 .statement}
+#### Proposition 19 {#alg-vii-s5-prop-19 .statement tag=0779}
 
 — *Let E be a finite dimensional vector space over a commutative field K, and let $\mathscr{S}$ be a set of commuting triangularisable endomorphisms of E. Then there exists a basis of E with respect to which the matrix of each element u of $\mathscr{S}$ is lower triangular and the matrix of $u_s$ is diagonal, with the same diagonal elements as that of u.*
 

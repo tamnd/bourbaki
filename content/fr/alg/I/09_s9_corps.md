@@ -29,40 +29,40 @@ subsections:
       pdf_page: 121
 statements: 19
 exercises: 21
-content_sha256: aa763e5c5e122e0d1bb887dc16f744bf1f662066917ba969fce719596e5f648a
+content_sha256: e764d33961591fa3453d4e0c4008a4923cbfea2aa8f7bc4b1f0097f23cbdea69
 ---
 
 ## § 9. CORPS
 
 ### 1. Corps
 
-#### Définition 1 {#alg-i-s9-def-1 .statement}
+#### Définition 1 {#alg-i-s9-def-1 .statement tag=05IF}
 
 On dit qu’un anneau K est un corps s’il n’est pas réduit à 0 et si tout élément non nul de K est inversible.
 
 L’ensemble des éléments non nuls du corps K, muni de la multiplication, est un groupe, qui n’est autre que le groupe multiplicatif $K^*$ de l’anneau K (I, p. 93). L’anneau opposé d’un corps est un corps. On dit qu’un corps est commutatif si sa multiplication est commutative; un tel corps est identique à son opposé. Un corps non commutatif est parfois appelé corps gauche.
 
-#### Exemple 1 {#alg-i-s9-n1-exa-1 .statement}
+#### Exemple 1 {#alg-i-s9-n1-exa-1 .statement tag=05IG}
 
 Nous définirons au n° 4 le corps des nombres rationnels; on définira en Topologie Générale le corps des nombres réels (TG, IV, § 1, n° 3), celui des nombres complexes (TG, VIII, § 1, n° 1) et celui des quaternions (TG, VIII, § 1, n° 4). Ces corps sont commutatifs, à l’exception du corps des quaternions.*
 
-#### Exemple 2 {#alg-i-s9-n1-exa-2 .statement}
+#### Exemple 2 {#alg-i-s9-n1-exa-2 .statement tag=0DF2}
 
 L’anneau $\mathbf{Z}/2\mathbf{Z}$ est évidemment un corps.
 
 Soit K un corps. On appelle sous-corps de K tout sous-anneau L de K qui est un corps et on dit alors que K est un surcorps de L; il revient au même de dire que L est un sous-anneau de K et que l’on a $x^{-1} \in L$ pour tout élément non nul x de L. Si $(L_i)_{i \in I}$ est une famille de sous-corps de K, alors $\bigcap_{i=1}^n L_i$ est un sous-corps de K; pour toute partie X de K, il existe donc un plus petit sous-corps de K contenant X; on dit qu’il est engendré par X.
 
-#### Proposition 1 {#alg-i-s9-prop-1 .statement}
+#### Proposition 1 {#alg-i-s9-prop-1 .statement tag=05IH}
 
 Soit K un corps. Pour toute partie X de K, le commutant (I, p. 98, Exemple 3) X' de X est un sous-corps de K.
 
 On sait (loc. cit.) que X' est un sous-anneau de K. D’autre part, si x ≠ 0 est permutable avec z ∈ X, il en est de même de x^{-1} (I, p. 16, prop. 5), donc X' contient l’inverse de tout élément non nul de X'.
 
-#### Corollaire {#alg-i-s9-n1-cor-1 .statement}
+#### Corollaire {#alg-i-s9-n1-cor-1 .statement tag=05II}
 
 Le centre d’un corps K est un sous-corps (commutatif) de K.
 
-#### Théorème 1 {#alg-i-s9-thm-1 .statement}
+#### Théorème 1 {#alg-i-s9-thm-1 .statement tag=05IJ}
 
 Soit A un anneau. Les conditions suivantes sont équivalentes:
 a) A est un corps;
@@ -72,23 +72,23 @@ Supposons que A soit un corps. Alors A est non réduit à 0. Soit a un idéal à
 
 Supposons que A vérifie la condition b). Soit x ≠ 0 dans A. Il s’agit de prouver que x est inversible. L’idéal à gauche Ax contient x donc n’est pas nul, d’où Ax = A. Il existe donc x' ∈ A tel que x'x = 1. On a x' ≠ 0 puisque 1 ≠ 0. Appliquons le résultat précédent à x'; on voit qu’il existe x'' ∈ A tel que x''x' = 1. On a x'' = x''. 1 = x''x'x = 1.x = x, donc xx' = 1. Finalement, x' est inverse de x.
 
-#### Remarque {#alg-i-s9-n1-rem-1 .statement}
+#### Remarque {#alg-i-s9-n1-rem-1 .statement tag=05IK}
 
 On peut, dans le th. 1, remplacer les idéaux à gauche par les idéaux à droite. Au chap. VIII, § 5, no 2, nous étudierons des anneaux non nuls A qui n’ont aucun idéal bilatère distinct de 0 et A; de tels anneaux (dits quasi-simples) ne sont pas nécessairement des corps *(par exemple, l’anneau M_2(\mathbf{Q}) des matrices carrées d’ordre 2 à coefficients rationnels est quasi-simple mais n’est pas un corps)*.
 
-#### Corollaire 1 {#alg-i-s9-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-i-s9-thm-1-cor-1 .statement tag=05IL}
 
 Soient A un anneau et a un idéal bilatère de A. Pour que l’anneau A/a soit un corps, il faut et il suffit que a soit un idéal à gauche maximal de A.
 
 Les idéaux à gauche de A/a sont de la forme b/a où b est un idéal à gauche de A contenant a (I, p. 102, corollaire). Dire que A/a ≠ {0} signifie que a ≠ A. Sous cette hypothèse, A/a est un corps si et seulement si les seuls idéaux à gauche de A contenant a sont a et A (th. 1), d’où le corollaire.
 
-#### Corollaire 2 {#alg-i-s9-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-i-s9-thm-1-cor-2 .statement tag=05IM}
 
 Soit A un anneau commutatif non réduit à 0. Il existe un homomorphisme de A sur un corps commutatif.
 
 D’après le th. de Krull (I, p. 99, th. 1), il existe dans A un idéal maximal a. Alors A/a est un corps (cor. 1).
 
-#### Corollaire 3 {#alg-i-s9-thm-1-cor-3 .statement}
+#### Corollaire 3 {#alg-i-s9-thm-1-cor-3 .statement tag=05IN}
 
 Soit a un entier ≥ 0. Pour que l’anneau \mathbf{Z}/a\mathbf{Z} soit un corps, il faut et il suffit que a soit premier.
 
@@ -96,7 +96,7 @@ Cela résulte du cor. 1, et de I, p. 106.
 
 Pour p premier, le corps \mathbf{Z}/p\mathbf{Z} se note \mathbf{F}_p.
 
-#### Théorème 2 {#alg-i-s9-thm-2 .statement}
+#### Théorème 2 {#alg-i-s9-thm-2 .statement tag=05IO}
 
 Soient $K$ un corps et $A$ un anneau non réduit à 0. Si $f$ est un homomorphisme de $K$ dans $A$, alors le sous-anneau $f(K)$ de $A$ est un corps et $f$ définit un isomorphisme de $K$ sur $f(K)$.
 
@@ -104,7 +104,7 @@ Soit $\alpha$ le noyau de $f$. On a $1 \notin \alpha$ car $f(1) = 1 \neq 0$ dans
 
 ### 2. Anneaux intègres
 
-#### Définition 2 {#alg-i-s9-def-2 .statement}
+#### Définition 2 {#alg-i-s9-def-2 .statement tag=05IP}
 
 On dit qu’un anneau $A$ est intégre (ou que $A$ est un anneau d’intégrité) s’il est commutatif, non réduit à 0, et si le produit de deux éléments non nuls de $A$ est non nul.
 
@@ -112,7 +112,7 @@ L’anneau $\mathbf{Z}$ des entiers rationnels est intégre: il est commutatif, 
 
 Tout corps commutatif est un anneau intégre. Un sous-anneau d’un anneau intégre est intégre. En particulier, un sous-anneau d’un corps commutatif est intégre. Nous allons montrer que réciproquement tout anneau intégre $A$ est isomorphe à un sous-anneau d’un corps commutatif. Rappelons (I, p. 108) que l’on a identifié $A$ à un sous-anneau de son anneau total des fractions. Notre assertion résulte alors de la proposition suivante:
 
-#### Proposition 2 {#alg-i-s9-prop-2 .statement}
+#### Proposition 2 {#alg-i-s9-prop-2 .statement tag=05IQ}
 
 Si $A$ est un anneau intégre, l’anneau total des fractions $K$ de $A$ est un corps commutatif.
 
@@ -120,7 +120,7 @@ L’anneau $K$ est commutatif. Il est non réduit à 0 puisque $A \neq \{0\}$. C
 
 L’anneau total des fractions d’un anneau intégre s’appelle son corps des fractions. On identifie un tel anneau à son image dans son corps des fractions.
 
-#### Proposition 3 {#alg-i-s9-prop-3 .statement}
+#### Proposition 3 {#alg-i-s9-prop-3 .statement tag=05IR}
 
 Soient $B$ un anneau non réduit à 0, $A$ un sous-anneau commutatif de $B$ tel que tout élément non nul de $A$ soit inversible dans $B$.
 
@@ -134,7 +134,7 @@ L’assertion a) est évidente. L’injection canonique de $A$ dans $B$ se prolo
 
 ### 3. Idéaux premiers
 
-#### Proposition 4 {#alg-i-s9-prop-4 .statement}
+#### Proposition 4 {#alg-i-s9-prop-4 .statement tag=05IS}
 
 Soient $A$ un anneau commutatif, $p$ un idéal de $A$. Les conditions suivantes sont équivalentes :
 a) l’anneau $A/p$ est intègre ;
@@ -142,21 +142,21 @@ b) $A \neq p$, et, si $x \in A - p$ et $y \in A - p$, on a $xy \in A - p$;
 c) $p$ est le noyau d’un homomorphisme de $A$ dans un corps.
 Les implications c) $\Rightarrow$ b) $\Rightarrow$ a) sont évidentes. Si $A/p$ est intègre, soient $f$ l’injection canonique de $A/p$ dans son corps des fractions et $g$ l’homomorphisme canonique de $A$ sur $A/p$; alors $p$ est le noyau de $f \circ g$, d’où l’implication a) $\Rightarrow$ c).
 
-#### Définition 3 {#alg-i-s9-def-3 .statement}
+#### Définition 3 {#alg-i-s9-def-3 .statement tag=05IT}
 
 Dans un anneau commutatif $A$, on appelle idéal premier un idéal $p$ vérifiant les conditions de la prop. 4.
 
-#### Exemple 1 {#alg-i-s9-n3-exa-1 .statement}
+#### Exemple 1 {#alg-i-s9-n3-exa-1 .statement tag=05IU}
 
 Soit $A$ un anneau commutatif. Si $m$ est un idéal maximal de $A$, $m$ est premier; en effet, l’anneau $A/m$ est un corps (I, p. 109, cor. 1).
 
-#### Exemple 2 {#alg-i-s9-n3-exa-2 .statement}
+#### Exemple 2 {#alg-i-s9-n3-exa-2 .statement tag=0DF3}
 
 Si $A$ est un anneau intègre, l’idéal $\{0\}$ de $A$ est premier (mais non maximal en général, comme le prouve l’exemple de l’anneau $\mathbf{Z}$).
 
 ### 4. Le corps des nombres rationnels
 
-#### Définition 4 {#alg-i-s9-def-4 .statement}
+#### Définition 4 {#alg-i-s9-def-4 .statement tag=05IV}
 
 On appelle corps des nombres rationnels, et l’on désigne par $\mathbf{Q}$, le corps des fractions de l’anneau $\mathbf{Z}$ des entiers rationnels. Les éléments de $\mathbf{Q}$ sont appelés nombres rationnels.
 

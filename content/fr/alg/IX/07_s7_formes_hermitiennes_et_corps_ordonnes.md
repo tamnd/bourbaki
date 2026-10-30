@@ -24,7 +24,7 @@ subsections:
       pdf_page: 116
 statements: 42
 exercises: 0
-content_sha256: 9ace1070ffce53672166906a1166d8f117e0deabe1f5cca37974e7aec4e8ac01
+content_sha256: cec3caef2fd4abfbddfcd517eb55c79340248f8e90b6aef28794fc6dc597d9f1
 ---
 
 ## § 7. Formes hermitiennes et corps ordonnés
@@ -39,7 +39,7 @@ Si Φ est une forme hermitienne sur E, on a donc, dans tous les cas, $\Phi(x, x)
 
 ### 1. Formes hermitiennes positives.
 
-#### Définition 1 {#alg-ix-s7-def-1 .statement}
+#### Définition 1 {#alg-ix-s7-def-1 .statement tag=0DLV}
 
 Une forme hermitienne $\Phi$ sur $E$ est dite positive (resp. négative) si $\Phi(x, x) \geqslant 0$ (resp. $\Phi(x, x) \leqslant 0$) pour tout $x \in E$.
 
@@ -51,7 +51,7 @@ $$
 
 Supposons $E$ de dimension finie sur $A$, et soit $(e_i)$ ($i = 1, \ldots, n$) une base orthogonale de $E$ ($§ 6$, no 1, th. 1). Pour qu’une forme hermitienne $\Phi$ sur $E$ soit positive, il faut et il suffit que $\Phi(e_i, e_i) \geqslant 0$ pour $i = 1, \ldots, n$. Soit $\Phi$ une forme hermitienne positive non dégénérée sur $E$; puisque tout élément positif de $K$ est un carré, donc de la forme $\rho \overline{\rho}$ ($\rho \in A$), il existe dans $E$ des bases orthonormales pour $\Phi$ ($§ 6$, no 1, cor. 1 du th. 1).
 
-#### Proposition 1 {#alg-ix-s7-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s7-prop-1 .statement tag=0DLW}
 
 Supposons $E$ de dimension finie, et $A = K$ ou $A = K(i)$. Si $\Phi$ est une forme hermitienne positive non dégénérée sur $E$, alors les extensions de $\Phi$ à $\bigotimes^p E$ et $\wedge^p E$ ($p > 0$), ainsi que la forme inverse de $\Phi$, sont des formes hermitiennes positives non dégénérées.
 
@@ -59,7 +59,7 @@ Ceci résulte aussitôt de l’existence d’une base orthonormale de $E$, et de
 
 La prop. 1 reste vraie si on y remplace partout « positive non dégénérée » par « positive ».
 
-#### Proposition 2 {#alg-ix-s7-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s7-prop-2 .statement tag=0DLX}
 
 Soit $\Phi$ une forme hermitienne positive sur $E$. Pour $x, y$ dans $E$, on a
 $$
@@ -68,11 +68,11 @@ $$
 
 L’inégalité est en effet immédiate lorsque les vecteurs $x$ et $y$ sont proportionnels. Supposons donc $x$ et $y$ linéairement indépendants. Soient $A'$ le sous-corps (commutatif) $K(\Phi(x, y))$ de $A$, $F$ le plan vectoriel sur $A'$ engendré par $x$ et $y$, et $\Phi_F$ la restriction de $\Phi$ à $F$; celle-ci prend ses valeurs dans $A'$. D’après la prop. 1, le discriminant de $\Phi_F$ par rapport à la base $(x, y)$ est $\geqslant 0$. Or ce discriminant est $\Phi(x, x)\Phi(y, y) - \Phi(x, y)\overline{\Phi(x, y)}$. CQFD.
 
-#### Corollaire {#alg-ix-s7-n1-cor-1 .statement}
+#### Corollaire {#alg-ix-s7-n1-cor-1 .statement tag=0DLY}
 
 *L’ensemble des vecteurs isotropes de E est le sous-espace $E^0$ orthogonal de E pour $\Phi$. Pour que $\Phi$ soit non dégénérée, il faut et il suffit que l’on ait $\Phi(x, x) > 0$ pour tout $x \neq 0$.
 
-#### Proposition 3 {#alg-ix-s7-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s7-prop-3 .statement tag=0DLZ}
 
 *Supposons E de dimension finie et A commutatif ($\mathbf{A} = \mathbf{K}$ ou $\mathbf{A} = \mathbf{K}(i)$). Soient $\Phi$ une forme hermitienne sur E, X sa matrice par rapport à une base $(x_j)$ ($j = 1, \ldots, n$) de E ; pour toute partie H de $\{1, n\}$, notons $X_{H, H}$ le mineur de X obtenu en supprimant les lignes et les colonnes d’indices $j \notin H$ (chap. III, § 6, no 3).
 
@@ -82,13 +82,13 @@ b) *Réciproquement, si, en posant $H_j = \{1, j\}$, on a $X_{H_j, H_j} > 0$ pou
 
 Supposons d’abord $\Phi$ positive non dégénérée. Les éléments $(x_j)$ ($j \in H$) forment une base d’un sous-espace F de E, et le mineur $X_{H, H}$ est le discriminant de la restriction $\Phi_F$ de $\Phi$ à F par rapport à cette base ; or, comme $\Phi_F(x, x) > 0$ pour tout $x \neq 0$ dans F, $\Phi_F$ est positive non dégénérée (cor. de la prop. 2) ; on a donc $X_{H, H} > 0$ (prop. 1). Pour démontrer b), remarquons que, avec les notations de la prop. 1, § 6, no 1, le mineur $X_{H_j, H_j}$ est égal à $D_{j+1, j+1}$ ; il existe donc (prop. 1, § 6, no 1) une base orthogonale $(e_j)$ ($j = 1, \ldots, n$) de E telle que $\Phi(e_j, e_j) > 0$ pour $j = 1, \ldots, n$ ; par conséquent $\Phi$ est positive non dégénérée.
 
-#### Remarque {#alg-ix-s7-n1-rem-1 .statement}
+#### Remarque {#alg-ix-s7-n1-rem-1 .statement tag=0DM0}
 
 Il résulte de l’existence de bases orthonormales que deux formes hermitiennes positives non dégénérées sur deux espaces vectoriels de même dimension finie sont *équivalentes* (§ 1, no 6). Soient alors L un espace hermitien de dimension finie sur A, dont la forme métrique est positive non dégénérée, et $V_1$ et $V_2$ deux variétés linéaires de *même dimension* dans L (§ 6, no 6) ; comme les restrictions de la forme métrique aux directions $T_1$ et $T_2$ de $V_1$ et $V_2$ d’une part, aux sous-espaces orthogonaux $T_1^0$ et $T_2^0$ d’autre part, sont équivalentes, il existe un automorphisme unitaire $u$ de l’espace $T$ des translations de $L$ tel que $u(T_1) = T_2$ et $u(T_1^0) = T_2^0$; il existe donc un déplacement $v$ de $L$ tel que $v(V_1) = V_2$. Soient $(a, b), (a', b')$ deux couples de points de $L$; pour qu’il existe un déplacement $v$ de $L$ tel que $v(a) = a'$ et $v(b) = b'$, il faut et il suffit donc (avec la notation du § 6, no 6) que l’on ait $e(a, b) = e(a', b')$; l’élément $\sqrt{e(a, b)}$ de $A$ (chap. VI, § 2, no 4) est appelé la distance de $a$ et $b$ dans l’espace hermitien $L$.
 
 ### 2. La loi d’inertie.
 
-#### Théorème 1 (« loi d’inertie ») {#alg-ix-s7-thm-1 .statement}
+#### Théorème 1 (« loi d’inertie ») {#alg-ix-s7-thm-1 .statement tag=0DM1}
 
 Supposons que $A$ satisfasse aux hypothèses du début de ce paragraphe, et que $E$ soit de dimension finie $n$. Soit $\Phi$ une forme hermitienne sur $E$. Alors :
 
@@ -112,7 +112,7 @@ Soit, en effet, $(x_i)$ ($i = 1, \ldots, n$) une base orthogonale de $E$ (§ 6, 
 
 Supposons enfin que $\Phi$ soit non dégénérée, posons $q = \inf (s, t)$, et montrons que q est l’indice de $\Phi$. Avec les notations de b), les vecteurs $e_i + e_{s+i}$ (resp. $e_i - e_{s+i}$) ($i = 1, \ldots, q$) engendrent un sous-espace totalement isotrope F (resp. $F'$). Comme K est de caractéristique 0, $F + F'$ est engendré par $e_1, \ldots, e_q, e_{s+1}, \ldots, e_{s+q}$ et est donc non isotrope. La restriction de $\Phi$ au sous-espace $H = (F + F')^0$ est alors positive (ou négative) et non dégénérée, et H ne contient donc aucun vecteur isotrope $\neq 0$. Comme $F^0$ contient F et H, et que $\dim(F + H) = \operatorname{codim} F' = \operatorname{codim} F$, on a $F^0 = F + H$. Ainsi un vecteur isotrope z orthogonal à F est nécessairement dans F, car, dans la somme directe $F + H$, la composante de z dans H est isotrope. Par conséquent F est un sous-espace totalement isotrope maximal, et ceci démontre e).
 
-#### Définition 2 {#alg-ix-s7-def-2 .statement}
+#### Définition 2 {#alg-ix-s7-def-2 .statement tag=0DM2}
 
 Avec les notations du th. 1, le couple $(s, t)$ s’appelle la signature de $\Phi$.
 
@@ -122,11 +122,11 @@ Dans ce no nous supposerons que E est de dimension finie $n$ sur $A$, et nous no
 
 Comme les applications linéaires de E dans $E^*$ associées à $\Phi$ sont bijectives, quels que soient les éléments $x, y, z$ de E avec $y \neq 0$, il existe un élément $t$ de E et un seul tel que $\Phi(x, z) = \overline{\Phi(t, y)}$. En particulier, si $A = K$ ou $A = K(i)$ et si $u$ est une application semi-linéaire pour J de E dans lui-même (chap. II, App. I, no 1), il existe, pour tout $x \in E$, un élément $u^*(x)$ et un seul tel que pour tout $y \in E$, $\Phi(x, u(y)) = \overline{\Phi(u^*(x), y)}$. On voit aussitôt que $u^*$ est une application semi-linéaire pour J de E dans lui-même ; on l’appelle l’adjoint de $u$.
 
-#### Remarque 1 {#alg-ix-s7-n3-rem-1 .statement}
+#### Remarque 1 {#alg-ix-s7-n3-rem-1 .statement tag=0DM3}
 
 Lorsque J est l’identité, on retrouve la notion d’adjoint d’un homomorphisme définie au § 1, no 8.
 
-#### Remarque 2 {#alg-ix-s7-n3-rem-2 .statement}
+#### Remarque 2 {#alg-ix-s7-n3-rem-2 .statement tag=0DM4}
 
 Supposons toujours $A = K$ ou $A = K(i)$. Soit $E^J$ le A-module à droite défini au § 1, no 2, déf. 5. La forme $\Phi$ est une forme bilinéaire sur $E \times E^J$, $\Phi^J$ est une forme bilinéaire sur $E^J \times E$, et $u$ est une application A-linéaire de E dans $E^J$. L’adjoint de cet homomorphisme, au sens du § 1, no 8, est une application A-linéaire de E dans $E^J$; on voit aussitôt que celle-ci coïncide avec l’application $u^*$ ci-dessus définie.
 
@@ -144,25 +144,25 @@ ce qui montre que $\Phi_u$ est une forme hermitienne sur E. Réciproquement soit
 
 Supposons que $A = K$ ou $A = K(i)$; étant donnée une forme bilinéaire $\Psi$ sur E, il existe, pour tout $x \in E$, un élément $u(x)$ de E et un seul tel que $\Psi(x, y) = \overline{\Phi(u(x), y)}$; on voit aussitôt que $u$ est une application semi-linéaire (pour J) de E dans lui-même. Comme $\Phi(u(x), y) = \Phi(y, u(x)) = \overline{\Phi(u^*(y), x)}$, on voit que, pour que $\Psi$ soit symétrique (resp. alternée), il faut et il suffit que l’on ait $u^* = u$ (resp. $u^* = -u$).
 
-#### Théorème 2 {#alg-ix-s7-thm-2 .statement}
+#### Théorème 2 {#alg-ix-s7-thm-2 .statement tag=0DM5}
 
 Soit S un ensemble d’endomorphismes de E (resp. d’applications semi-linéaires de E dans E lorsque A = K ou A = K(i)) stable pour l’application u → u*. Alors, si V est un sous-espace de E stable pour S, son orthogonal V⁰ est stable pour S. D’autre part E est somme directe de sous-espaces stables pour S, minimaux dans l’ensemble des sous-espaces ≠ {0} et stables pour S, et deux à deux orthogonaux.
 
 Soit en effet V un sous-espace de E stable pour S ; quels que soient x ∈ V⁰, y ∈ V et u ∈ S, on a u*(y) ∈ V, d’où Φ(y, u(x)) = Φ(u*(y), x) = 0 (resp. Φ(y, u(x)) = \overline{\Phi(u^*(y), x)} = 0), et par conséquent u(x) ∈ V⁰ ; ainsi V⁰ est stable pour S, ce qui démontre notre première assertion. Pour la seconde nous procéderons par récurrence sur la dimension n de E, le cas n = 0 étant trivial. Pour n ≠ 0 il existe un sous-espace V ≠ {0} de E stable pour S et minimal, par exemple un sous-espace stable ≠ {0} de dimension minimale. Il suffit alors d’appliquer à V⁰ l’hypothèse de récurrence, puisque l’adjoint de la restriction de u à V⁰ (par rapport à la restriction de Φ) est identique à la restriction à V⁰ de l’adjoint de u.
 
-#### Corollaire 1 {#alg-ix-s7-thm-2-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s7-thm-2-cor-1 .statement tag=0DM6}
 
 On suppose que A = K ou que A = K(i). Soit B une sous-algèbre de $\mathscr{L}_A(E)$, stable pour l’application u → u*. Alors E est un B-module semi-simple, et est somme directe de sous-modules simples deux à deux orthogonaux. L’algèbre B est semi-simple.
 
 En effet, comme tout sous-B-module V de E admet un supplémentaire, par exemple V⁰, le B-module V est semi-simple (chap. VIII, § 3, no 3, prop. 7). Comme tout sous-B-module ≠ {0} et minimal de E est simple, E est somme directe de sous-modules simples deux à deux orthogonaux. Enfin B est une algèbre semi-simple, puisqu’elle admet un module semi-simple et fidèle E dont le contremodule est de type fini (chap. VIII, § 5, no 1, prop. 3).
 
-#### Corollaire 2 {#alg-ix-s7-thm-2-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s7-thm-2-cor-2 .statement tag=0DM7}
 
 Les hypothèses et notations étant celles du cor. 1, on suppose de plus que l’algèbre B est commutative. Alors tous ses éléments sont des endomorphismes (normaux) semi-simples de E. Lorsque A = K (resp. A = K(i)), E est somme directe de sous-B-modules simples deux à deux orthogonaux, qui sont des espaces vectoriels de dimension 1 ou 2 (resp. 1) sur A.
 
 La première assertion résulte du chap. VIII, § 9, no 1, prop. 2, puisque B est semi-simple. D’autre part tout B-module simple est isomorphe à un B-module de la forme B/m, où m est un idéal maximal de B, donc à un corps commutatif L de degré fini sur A ; lorsque A = K (resp. A = K(i)), le corps L est nécessairement isomorphe à K ou K(i) (resp. K(i)), puisque K(i) est algébriquement clos (chap. VI, § 2, no 6, th. 3).
 
-#### Proposition 4 {#alg-ix-s7-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s7-prop-4 .statement tag=0DM8}
 
 Soit u un endomorphisme normal de E. Lorsque A est égal à K(i) ou au corps des quaternions sur K, il existe une base orthonormale (pour Φ) de E formée de vecteurs propres de u. Lorsque A = K, u est semi-simple et E est somme directe de sous-espaces stables pour u, deux à deux orthogonaux, et de dimension 1 ou 2.
 
@@ -189,11 +189,11 @@ $$
 
 Par conséquent on a $\Phi(z, z) = 0$, ce qui, par hypothèse, entraîne $z = 0$ et $u^*(x) = \overline{a}x$. CQFD.
 
-#### Remarque {#alg-ix-s7-n3-rem-28 .statement}
+#### Remarque {#alg-ix-s7-n3-rem-28 .statement tag=0DM9}
 
 Il résulte du th. 2 que les sous-espaces propres relatifs à deux valeurs propres distinctes de u sont orthogonaux.
 
-#### Proposition 5 {#alg-ix-s7-prop-5 .statement}
+#### Proposition 5 {#alg-ix-s7-prop-5 .statement tag=0DMA}
 
 Soit u un endomorphisme hermitien de E. Les valeurs propres de u appartiennent à K, et il existe une base orthonormale de E formée de vecteurs propres de u.
 
@@ -205,7 +205,7 @@ $$
 
 comme $\Phi(x, x)$ est un élément non nul du centre de A, il en résulte que $a = \overline{a}$, donc $a \in K$. Par conséquent une matrice hermitienne a toutes ses valeurs propres dans K. Supposons maintenant que A soit égal à K. La matrice M de u par rapport à une base orthonormale de E est alors symétrique ; c’est donc une matrice hermitienne si on la considère comme une matrice sur K(i). La première partie de la démonstration montre alors que cette matrice a toutes ses valeurs propres dans K, et admet donc, si $E \neq \{0\}$, des vecteurs propres $\neq 0$ dans E. Il en résulte que tout sous-espace stable pour u et minimal est nécessairement de dimension 1, et la conclusion s’ensuit aussitôt, comme dans la prop. 4.
 
-#### Proposition 6 {#alg-ix-s7-prop-6 .statement}
+#### Proposition 6 {#alg-ix-s7-prop-6 .statement tag=0DMB}
 
 a) Soit $\Psi$ une forme hermitienne (resp. bilinéaire symétrique si $\mathbf{A} = \mathbf{K}$ ou $\mathbf{A} = \mathbf{K}(i)$) sur $E$. Il existe une base de $E$ qui est orthonormale pour $\Phi$ et orthogonale pour $\Psi$.
 
@@ -264,11 +264,11 @@ a) Soit $\lambda$ un élément $> 0$ de $K$; montrer que la matrice $X + \lambda
 
 b) En déduire que la matrice hermitienne $X$ est positive.
 
-#### Remarque 3 {#alg-ix-s7-n3-rem-3 .statement}
+#### Remarque 3 {#alg-ix-s7-n3-rem-3 .statement tag=0DMC}
 
 On suppose que $A = K$ ou $A = K(i)$ et que $E$ est de dimension finie. Soient $\Phi_1, \Phi_2$ deux formes hermitiennes positives sur $E$, et soient $V = (\alpha_{ij}), W = (\beta_{ij})$ les matrices de ces formes par rapport à une même base $(e_i)$ de $E$. Montrer que la forme hermitienne $\Phi$ dont la matrice $(\gamma_{ij})$ par rapport à $(e_i)$ est telle que $\gamma_{ij} = \alpha_{ij}\beta_{ij}$ pour tout couple d’indices, est positive ; en outre, si $\Phi_1$ et $\Phi_2$ sont non dégénérées, il en est de même de $\Phi$. (Dans le calcul de $\Phi(x, x)$, exprimer les $\alpha_{ij}$ à l’aide des valeurs $\Phi_1(c_i, c_i)$ pour une base orthogonale $(c_i)$ de $E$ relative à $\Phi_1$.)
 
-#### Remarque 4 {#alg-ix-s7-n3-rem-4 .statement}
+#### Remarque 4 {#alg-ix-s7-n3-rem-4 .statement tag=0DMD}
 
 On suppose que $A = K$ ou $A = K(i)$. Soit $R$ une matrice hermitienne d’ordre $n$ sur $A$; on dit que $R$ a pour signature $(s, t)$ si la forme hermitienne sur $A^n$ ayant $R$ pour matrice par rapport à la base canonique, a pour signature $(s, t)$. On désigne par $\Delta_k$ le mineur principal de $R$ obtenu en supprimant dans $R$ les lignes et les colonnes d’indice $> k$; on suppose que $\Delta_{s+t} \neq 0$ et que, pour aucun indice $k < s + t$, $\Delta_k$ et $\Delta_{k+1}$ ne soient simultanément nuls (cf. § 6, exerc. 1 b)). Montrer que si $\Delta_k = 0$ pour un $k < s + t$, $\Delta_{k-1}$ et $\Delta_{k+1}$ ont des signes opposés (méthode de l’exerc. 1 a) du § 6) et que le nombre $s - t$ est égal à
 
@@ -278,33 +278,33 @@ $$
 
 (utiliser l’exerc. 2 du § 6).
 
-#### Remarque 5 {#alg-ix-s7-n3-rem-5 .statement}
+#### Remarque 5 {#alg-ix-s7-n3-rem-5 .statement tag=0DME}
 
 On suppose que $A = K$ ou $A = K(i)$; soient $R, S$ deux matrices hermitiennes sur $A$, de signatures $(s, t)$ et $(s', t')$ respectivement (exerc. 4); montrer que la matrice $R \otimes S$ est une matrice hermitienne de signature $(ss' + tt', st' + s't)$.
 
-#### Remarque 6 {#alg-ix-s7-n3-rem-6 .statement}
+#### Remarque 6 {#alg-ix-s7-n3-rem-6 .statement tag=0DMF}
 
 Soient $K$ un corps ordonné maximal, $L$ une algèbre simple de rang fini sur $K$. Si $(s, t)$ est la signature de la forme bilinéaire symétrique $(x, y) \to \operatorname{Tr}_{L/K}(xy)$ sur $L$, montrer que l’on a :
 $s - t = m$ si $L$ est isomorphe à une algèbre de matrices d’ordre $m$ sur $K$;
 $s - t = 0$ si $L$ est isomorphe à une algèbre de matrices sur le corps $K(i)$;
 $s - t = -2m$ si $L$ est isomorphe à une algèbre de matrices d’ordre $m$ sur le corps des quaternions sur $K$.
 
-#### Remarque 7 {#alg-ix-s7-n3-rem-7 .statement}
+#### Remarque 7 {#alg-ix-s7-n3-rem-7 .statement tag=0DMG}
 
 On suppose que $A$ satisfait aux conditions du début du § 7 et que $E$ est de dimension finie $n$. Soit $\Phi$ une forme hermitienne positive non dégénérée sur $E$.
 a) Montrer que toute similitude pour $\Phi$ s’écrit d’une seule manière comme produit d’une homothétie de rapport $\geqslant 0$ dans $K$, et d’une transformation unitaire.
 b) Pour toute base $(a_i)_{1 \leq i \leq n}$ de $E$, montrer qu’il existe une base orthonormale et une seule $(e_i)_{1 \leq i \leq n}$ de $E$ satisfaisant aux conditions suivantes : 1° pour tout $m$ tel que $1 \leq m \leq n$, le sous-espace engendré par $a_1, \ldots, a_m$ est identique au sous-espace engendré par $e_1, \ldots, e_m$; 2° on a $\Phi(a_i, e_i) \geq 0$ dans $K$, pour tout indice $i$ (cf. § 6, no 1, prop. 1).
 c) Déduire de b) que pour toute matrice carrée inversible $M$ d’ordre $n$ sur $A$, il existe un couple de matrices $(L, U)$ d’ordre $n$ et un seul, tel que $U$ soit une matrice unitaire, que $L = (\lambda_{ij})$ n’ait que des zéros au-dessous de sa diagonale et des termes diagonaux $\lambda_{ii}$ appartenant à $K$ et $> 0$, et enfin que $M = LU$.
 
-#### Remarque 8 {#alg-ix-s7-n3-rem-8 .statement}
+#### Remarque 8 {#alg-ix-s7-n3-rem-8 .statement tag=0DMH}
 
 On suppose $A = K$; soit $L$ un espace hermitien de dimension finie sur $A$, dont la forme métrique est positive non dégénérée. Soient $M, N$ deux parties de $L$, $u$ une bijection de $M$ sur $N$ telle que l’on ait $e(u(a), u(b)) = e(a, b)$ quels que soient les points $a, b$ de $M$. Montrer qu’il existe un déplacement dont la restriction à $M$ soit égale à $u$ (raisonner par récurrence sur la dimension de la variété linéaire affine engendrée par $M$, comme dans le procédé d’orthogonalisation de Gram-Schmidt). La proposition s’étend-elle au cas où A est égal à K(i) ou au corps des quaternions sur K ?
 
-#### Remarque 9 {#alg-ix-s7-n3-rem-9 .statement}
+#### Remarque 9 {#alg-ix-s7-n3-rem-9 .statement tag=0DMI}
 
 On suppose remplies les conditions du n° 3, et en outre que A est le corps des quaternions sur K. Soit u un endomorphisme normal de E. Montrer que E est somme directe de sous-espaces F_k (1 \leq k \leq r), deux à deux orthogonaux, tels que dans chacun des F_k il existe une base orthonormale (e_{ik}) (1 \leq i \leq n_k) et que l’on ait u(e_{ik}) = \lambda_k e_{ik} pour 1 \leq i \leq n_k, deux \lambda_k d’indices distincts n’étant pas transformés l’un de l’autre par un automorphisme intérieur de A. En outre, si (F'_k) est une seconde décomposition de E ayant les mêmes propriétés, avec un système (\lambda'_k) de valeurs propres, on a F'_k = F_k (à une permutation près des indices) et \lambda'_k = \alpha_k \lambda_k \alpha_k^{-1}; l’ensemble des vecteurs propres de u pour la valeur propre \lambda_k est le sous-espace sur le commutant A_k de \lambda_k dans A, engendré par les e_{ik} (1 \leq i \leq n_k).
 
-#### Remarque 10 {#alg-ix-s7-n3-rem-10 .statement}
+#### Remarque 10 {#alg-ix-s7-n3-rem-10 .statement tag=0DMJ}
 
 On suppose remplies les conditions du n° 3, et en outre que A est égal à K(i) ou au corps des quaternions sur K. Soit u un endomorphisme normal de E.
 
@@ -316,7 +316,7 @@ c) On dit qu’un endomorphisme hermitien u de E est positif (resp. positif et n
 
 d) Montrer que pour tout entier m > 0, il existe un endomorphisme normal v de E tel que v^m = u. Si u est hermitien positif, il existe un seul endomorphisme hermitien positif v tel que v^m = u, et il existe un polynôme f \in K[X] tel que v = f(u) ; ce dernier résultat est aussi valable lorsque A = K.
 
-#### Remarque 11 {#alg-ix-s7-n3-rem-11 .statement}
+#### Remarque 11 {#alg-ix-s7-n3-rem-11 .statement tag=0DMK}
 
 On suppose remplies les conditions du n° 3, et en outre que A = K. Soit u un endomorphisme normal de E.
 
@@ -324,15 +324,15 @@ a) Soit V un élément minimal de l’ensemble des sous-espaces de E non réduit
 
 b) Montrer que tout sous-espace de E stable pour u est aussi stable pour u*. (Soit E_0 l’espace vectoriel obtenu à partir de E par extension à K(i) du corps des scalaires ; \Phi est la restriction à E d’une forme hermitienne positive non dégénérée sur E_0 et u la restriction à E d’un endomorphisme normal u_0 de E_0 (pour cette forme) ; en outre E est l’ensemble des x \in E_0 invariants par une bijection semi-linéaire involutive j de E_0, et on a u_0j = ju_0. Appliquer alors l’exerc. 10 a.).
 
-#### Remarque 12 {#alg-ix-s7-n3-rem-12 .statement}
+#### Remarque 12 {#alg-ix-s7-n3-rem-12 .statement tag=0DML}
 
 On suppose remplies les conditions du n° 3, et en outre que A est égal à K(i) ou au corps des quaternions sur K. Montrer que pour tout endomorphisme $u$ de $E$, il existe une base orthonormale de $E$ par rapport à laquelle la matrice de $u$ n’ait que des zéros au-dessous de la diagonale. (Procéder par récurrence sur la dimension de $E$, en considérant un vecteur propre de $u$.)
 
-#### Remarque 13 {#alg-ix-s7-n3-rem-13 .statement}
+#### Remarque 13 {#alg-ix-s7-n3-rem-13 .statement tag=0DMM}
 
 Soient $A$ un corps vérifiant les conditions du début du § 7, $E, F$ deux espaces vectoriels de dimension finie sur $A$, $\Phi$ (resp. $\Psi$) une forme hermitienne positive non dégénérée sur $E$ (resp. $F$). Montrer que, pour toute application linéaire $u$ de $E$ dans $F$, l’adjoint $u^*$ de $u$ (pour $\Phi$ et $\Psi$; cf. § 1, no 8) est tel que $u^*u$ et $uu^*$ soient des endomorphismes hermitiens positifs (exerc. 10 c)) de $E$ et $F$ respectivement.
 
-#### Remarque 14 {#alg-ix-s7-n3-rem-14 .statement}
+#### Remarque 14 {#alg-ix-s7-n3-rem-14 .statement tag=0DMN}
 
 On suppose remplies les conditions du no 3. Soient $u$ un endomorphisme de $E$, $h_1, h_2$ les deux endomorphismes hermitiens positifs de $E$, tels que l’on ait $h_1^2 = u^*u, h_2^2 = uu^*$ (exerc. 13 et 10 d)).
 
@@ -340,11 +340,11 @@ a) Montrer qu’il existe un endomorphisme unitaire $\nu$ tel que $u = \nu h_1 =
 
 b) Déduire de a) que toute matrice carrée $M$ d’ordre $n$ sur $A$ peut s’écrire $UDV$, où $U$ et $V$ sont des matrices unitaires et $D$ une matrice diagonale dont les éléments sont $\geqslant 0$, et ont pour carrés les valeurs propres de $MM^*$.
 
-#### Remarque 15 {#alg-ix-s7-n3-rem-15 .statement}
+#### Remarque 15 {#alg-ix-s7-n3-rem-15 .statement tag=0DMO}
 
 On suppose remplies les conditions du no 3. Montrer que toute matrice hermitienne positive $H$ sur $A$ peut s’écrire sous la forme $LL^*$, où $L = (\lambda_{ij})$ n’a que des zéros au-dessous de sa diagonale et des termes diagonaux appartenant à $K$ et $\geqslant 0$; en outre $L$ est déterminée de manière unique par ces conditions lorsque $H$ est inversible (cf. exerc. 10 d) et 7 c)).
 
-#### Remarque 16 {#alg-ix-s7-n3-rem-16 .statement}
+#### Remarque 16 {#alg-ix-s7-n3-rem-16 .statement tag=0DMP}
 
 On suppose remplies les conditions du no 3 et en outre que $A = K(i)$. Soit $u$ un endomorphisme de $E$.
 
@@ -354,7 +354,7 @@ b) On dit qu’une partie $C$ de $A = K(i)$ est convexe si, pour tout couple d�
 
 c) Montrer que si $u$ est normal, U est le plus petit ensemble convexe contenant toutes les valeurs propres de $u$. Donner un exemple où $u$ n’est pas normal mais où U possède encore la propriété précédente. (Prendre pour valeurs propres de $u$ les éléments $\pm 1 \pm i$ comme valeurs propres simples, et 0 comme valeur propre double.)
 
-#### Remarque 17 {#alg-ix-s7-n3-rem-17 .statement}
+#### Remarque 17 {#alg-ix-s7-n3-rem-17 .statement tag=0DMQ}
 
 On suppose remplies les conditions du n° 3 ; pour tout $\xi \in A$, on désigne par $|\xi|$ l’élément $\rho \geqslant 0$ de K tel que $\rho^2 = \xi \overline{\xi}$ (valeur absolue de $\xi$). Pour toute matrice carrée $M = (\alpha_{ij})$ sur A, on pose $f(M) = \max_i |\alpha_{ii}|$, $g(M) = \max_{i,j} |\alpha_{ij}|$, et on désigne par $\varphi(M)$ la plus grande valeur absolue des valeurs propres de $M$ (on montrera que cette définition a un sens lorsque A est le corps des quaternions sur K).
 
@@ -392,7 +392,7 @@ $$
 
 c) Montrer que si $H$ est une matrice hermitienne positive sur A, on a $f(H) = g(H) \leq \varphi(H)$ (utiliser (3) et b), en écrivant $H = AA^*$.
 
-#### Remarque 18 {#alg-ix-s7-n3-rem-18 .statement}
+#### Remarque 18 {#alg-ix-s7-n3-rem-18 .statement tag=0DMR}
 
 On suppose remplies les conditions du n° 3.**
 
@@ -414,11 +414,11 @@ Conclure de ces inégalités que pour deux endomorphismes quelconques $u, v$ de 
 
 c) Supposant toujours $A$ commutatif, soit $\prod_{i=1}^n (x - \lambda_i)$ la décomposition en facteurs linéaires du polynôme caractéristique d’un endomorphisme quelconque $u$ de $E$; montrer que l’on a $\sum_{i=1}^n |\lambda_i|^2 \leq (s(u))^2$ et que, pour que les deux membres de cette inégalité soient égaux, il faut et il suffit que $u$ soit normal (utiliser l’exerc. 12).
 
-#### Remarque 19 {#alg-ix-s7-n3-rem-19 .statement}
+#### Remarque 19 {#alg-ix-s7-n3-rem-19 .statement tag=0DMS}
 
 On suppose remplies les conditions du n° 3. Soit $M$ une matrice carrée d’ordre $n$ sur $A$; montrer que pour toute sous-matrice carrée $N$ de $M$ (obtenue en supprimant dans $M$ un certain nombre de lignes et les colonnes de mêmes indices que ces lignes), on a (notations de l’exerc. 17) $\varphi^2(N) \leq \varphi(MM^*)$ (appliquer convenablement la formule (4) de l’exerc. 17). Si en particulier $M$ est une matrice normale, $\varphi(N) \leq \varphi(M)$ (cf. exerc. 17 b)).
 
-#### Remarque 20 {#alg-ix-s7-n3-rem-20 .statement}
+#### Remarque 20 {#alg-ix-s7-n3-rem-20 .statement tag=0DMT}
 
 On suppose remplies les conditions du n° 3 et en outre que $A$ est égal à $K$ ou à $K(i)$. Appliquer les résultats des exerc. 17 à 19 à l’extension de $\Phi$ aux $p$-èmes puissances extérieures (§ 1, n° 9) et aux puissances extérieures $p$-èmes des endomorphismes ou matrices considérés. En particulier, montrer que, si $\prod_{i=1}^n (X - \lambda_i)$ et $\prod_{i=1}^n (X - \rho_i^2)$ sont les décompositions en facteurs linéaires des polynômes caractéristiques d’un endomorphisme $u$ de $E$ et de l’endomorphisme $u^*u$, et si on suppose $|\lambda_i| \geqslant |\lambda_{i+1}|$ et $\rho_i \geqslant \rho_{i+1} \geqslant 0$ pour $1 \leqslant i \leqslant n-1$, on a
 $$
@@ -426,7 +426,7 @@ $$
 $$
 pour $1 \leqslant h \leqslant n-1$ et $|\lambda_1 \lambda_2 \ldots \lambda_n| = \rho_1 \rho_2 \ldots \rho_n$.
 
-#### Remarque 21 {#alg-ix-s7-n3-rem-21 .statement}
+#### Remarque 21 {#alg-ix-s7-n3-rem-21 .statement tag=0DMU}
 
 On suppose remplies les conditions du no 3. Soit $u$ un endomorphisme hermitien de $E$ et soit $\prod_{i=1}^n (X-\lambda_i)$ la décomposition en facteurs linéaires de son polynôme caractéristique ; on suppose $\lambda_i \geqslant \lambda_{i+1}$ pour $1 \leqslant i \leqslant n-1$.
 
@@ -434,11 +434,11 @@ a) Montrer que la plus grande (resp. la plus petite) des valeurs propres $\lambd
 
 b) Soit $\Psi_v$ la restriction à un sous-espace vectoriel $V$ de $E$ de la forme hermitienne $\Psi'$ associée à $u$, et soit $u_v$ l’endomorphisme hermitien de $V$ associé à $\Psi_v$. Montrer que $\lambda_k$ est la plus petite des plus grandes valeurs propres des $u_v$, lorsque $V$ parcourt l’ensemble des sous-espaces vectoriels de $E$, de dimension $n-k+1$ (utiliser la prop. 5).
 
-#### Remarque 22 {#alg-ix-s7-n3-rem-22 .statement}
+#### Remarque 22 {#alg-ix-s7-n3-rem-22 .statement tag=0DMV}
 
 On suppose remplies les conditions du no 3, et en outre que $A$ est égal à $K(i)$ ou au corps des quaternions sur $K$. Soient $u, v$ deux endomorphismes normaux de $E$; soit $(E_i)_{1 \leqslant i \leqslant r}$ (resp. $(F_j)_{1 \leqslant j \leqslant s}$) la décomposition de $E$ en somme directe de sous-espaces deux à deux orthogonaux, tels que dans $E_i$ (resp. $F_j$) il y ait une base orthonormale formée de vecteurs propres de $u$ (resp. $v$) pour une même valeur propre $\lambda_i$ (resp. $\mu_j$), et que $\lambda_h$ et $\lambda_i$ (resp. $\mu_j$ et $\mu_k$) ne soient pas transformés l’un de l’autre par un automorphisme intérieur de $A$ si $h \neq i$ (resp. $j \neq k$) (cf. prop. 4 et exerc. 9). Pour qu’un endomorphisme $w$ de $E$ soit tel que $uw = vw$, il faut et il suffit que pour tout $j$ ($1 \leqslant j \leqslant s$), $w(F_j)$ soit contenu dans un des $E_i$ et que l’image par $w$ de tout vecteur propre de $v$ relatif à la valeur propre $\mu_j$ soit un vecteur propre de $u$ relatif à la valeur propre $\mu_j$ (ce qui implique en particulier que $\mu_j$ et $\lambda_i$ sont transformés l’un de l’autre par un automorphisme intérieur de $A$). En déduire que s’il en est ainsi, on a alors $u^*w = wv^*$.
 
-#### Remarque 23 {#alg-ix-s7-n3-rem-23 .statement}
+#### Remarque 23 {#alg-ix-s7-n3-rem-23 .statement tag=0DMW}
 
 On suppose remplies les conditions du no 3. Soient $u$ et $v$ deux endomorphismes de $E$.
 
@@ -451,11 +451,11 @@ $$)
 
 Se ramener au cas où A est égal à K(i) ou au corps des quaternions sur K ; F admet alors une base formée de vecteurs propres pour u (et u*) ; remarquer que pour un tel vecteur z, on a $\Phi(u^*u v(z), v(z)) = \beta \Phi(v(z), v(z))$. En déduire que $\nu u$ est normal (raisonner par récurrence sur le nombre des valeurs propres distinctes de $u^*u$). Si h (resp. $h'$) est l’endomorphisme hermitien positif tel que $h^2 = uu^*$ (resp. ${h'}^2 = \nu \nu^*$) et si on pose $u = hu_1, \nu = h'\nu_1$, où $u_1$ et $\nu_1$ sont unitaires, h permutable à $u_1$ et $h'$ à $\nu_1$ (exerc. 14 a)), montrer que les couples $(h, h'), (h, \nu_1)$ et $(h', u_1)$ sont permutables ; réciproque. En déduire que $u^m \nu^n, \nu^n u^m, u \nu^*$ et $\nu^* u$ sont alors normaux ($m$ et $n$ entiers $> 0$ arbitraires).
 
-#### Remarque 24 {#alg-ix-s7-n3-rem-24 .statement}
+#### Remarque 24 {#alg-ix-s7-n3-rem-24 .statement tag=0DMX}
 
 On suppose remplies les conditions du n° 3. Soit $\Gamma$ un groupe d’automorphismes de E tel que tout $u \in \Gamma$ soit normal. Montrer qu’il existe une décomposition de E en somme directe de sous-espaces $E_k$ ($1 \leq k \leq r$) deux à deux orthogonaux, tels que la restriction à $E_k$ de tout $u \in \Gamma$ soit de la forme $\lambda_k \nu_k$, où $\lambda_k$ est un élément $> 0$ de K et où $\nu_k$ est un endomorphisme unitaire de $E_k$ (décomposer chaque $u \in \Gamma$ sous la forme $h \nu$, où $\nu$ est unitaire, $h$ hermitien positif et $h^2 = uu^*$ (exerc. 14 a)) ; utiliser l’exerc. 23 b) et appliquer le cor. 2 du th. 2 à l’algèbre engendrée par les endomorphismes hermitiens $h$ correspondant aux $u \in \Gamma$. En déduire que si $\Gamma$ est fini, les éléments $u \in \Gamma$ sont unitaires.
 
-#### Remarque 25 {#alg-ix-s7-n3-rem-25 .statement}
+#### Remarque 25 {#alg-ix-s7-n3-rem-25 .statement tag=0DMY}
 
 On suppose que $A = K$ (corps ordonné maximal). Soit L un espace euclidien de dimension $n$ sur A, dont la forme métrique est positive non dégénérée.
 
@@ -463,13 +463,13 @@ Soit S une quadrique affine non dégénérée dans L (§ 6, exerc. 25). Si S adm
 
 Si S n’admet pas de centre, montrer qu’il existe un point $b$ de S et ($b$ étant pris pour origine) une base orthonormale pour L telle que, par rapport à cette base, S ait pour équation $\lambda_1 \xi_1^2 + \cdots + \lambda_{n-1} \xi_{n-1}^2 + \xi_n = 0$. (Si $\overline{S}$ est la quadrique projective telle que $S = L \cap \overline{S}$, c le pôle (à l’infini) par rapport à $\overline{S}$ de l’hyperplan à l’infini $H_0$, déterminer $b$ par la condition que la droite passant par $b$ et $c$ soit perpendiculaire à l’hyperplan tangent à S au point $b$).
 
-#### Remarque 26 {#alg-ix-s7-n3-rem-26 .statement}
+#### Remarque 26 {#alg-ix-s7-n3-rem-26 .statement tag=0DMZ}
 
 a) Soient K un corps commutatif, S une partie de K telle que K soit un corps S-ordonnable maximal (chap. VI, § 2, exerc. 8). Soient $f$ un polynôme de $K[X]$, L son corps des racines. Montrer que si, pour toute structure d’ordre (total) sur K compatible avec sa structure d’anneau, L admet une structure d’extension ordonnée de K, on a nécessairement $L = K$. (Raisonner par l’absurde : en procédant comme dans l’exerc. 8 e) du chap. VI, § 2, se ramener au cas où on aurait $[L : K] = 2$. Conclure en remarquant que si $b \in K$ n’est pas un carré, il existe une structure d’ordre total sur K, compatible avec sa structure d’anneau, et pour laquelle $b < 0$ (cf. chap. VI, § 2, n° 3, lemme du th. 1)).
 
 b) Etendre les résultats du n° 3 (la prop. 6 exceptée) au cas où K est un corps S-ordonnable maximal (*). (Commencer par démontrer l’analogue de la prop. 5, en utilisant a). Etablir ensuite l’analogue du cor. 2 du th. 2 pour le cas où l’algèbre commutative B est formée d’endomorphismes hermitiens, en utilisant la prop. 10 du chap. VIII, § 9, n° 4. Passer au cas d’un endomorphisme normal u pour A = K(i) en remarquant qu’on peut alors écrire $u = v + i w$, où v et w sont hermitiens et permutables. Enfin, si A est le corps des quaternions sur K, E_0 l’espace E considéré comme espace vectoriel de dimension 2n sur K(i), et si on pose $\Phi(x, y) = \Phi_1(x, y) + \Phi_2(x, y)i$, où $\Phi_1$ et $\Phi_2$ prennent leurs valeurs dans K(i), remarquer que si u est normal pour $\Phi$, il est aussi normal pour $\Phi_1$.)
 
-#### Remarque 27 {#alg-ix-s7-n3-rem-27 .statement}
+#### Remarque 27 {#alg-ix-s7-n3-rem-27 .statement tag=0DN0}
 
 Soient K un corps ordonné maximal, E un espace vectoriel de dimension n sur K, $\Phi$ une forme bilinéaire symétrique non dégénérée sur E, de signature (s, t) distincte de (n, 0) et de (0, n). Soit $(e_i)$ une base orthogonale pour $\Phi$, telle que $\Phi(e_i, e_i) = 1$ pour $1 \leq i \leq s$, $\Phi(e_i, e_i) = -1$ pour $s+1 \leq i \leq n$. Pour toute transformation orthogonale $u \in \mathbf{U}(\Phi)$, soit
 

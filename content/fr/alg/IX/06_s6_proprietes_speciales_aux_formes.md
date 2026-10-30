@@ -36,14 +36,14 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: fdfa14db733c63e64d598672251a02515afe7b23caf39c29d53cd97f3cd1ba15
+content_sha256: b0576922d52dcc0f8be34d0cdfb7f3c5bde3cd7e1feefc8a8371c152618157e7
 ---
 
 ## § 6. Propriétés spéciales aux formes hermitiennes
 
 ### 1. Bases orthogonales.
 
-#### Définition 1 {#alg-ix-s6-def-1 .statement}
+#### Définition 1 {#alg-ix-s6-def-1 .statement tag=0DLE}
 
 Soit $\Phi$ une forme hermitienne sur $E$. Une base $(e_i)$ de $E$ est dite orthogonale pour $\Phi$ si deux éléments quelconques de cette base sont orthogonaux pour $\Phi$.
 
@@ -54,13 +54,13 @@ $$
 \Phi(\sum_i \xi_i e_i, \sum_i \eta_i e_i) = \sum_i \xi_i \alpha_i \overline{\eta_i}.
 $$
 
-#### Lemme 1 {#alg-ix-s6-lem-1 .statement}
+#### Lemme 1 {#alg-ix-s6-lem-1 .statement tag=0DLF}
 
 On suppose que $A$ est un corps et $\Phi$ une forme hermitienne $\neq 0$ sur $E$. Si tous les vecteurs de $E$ sont isotropes, $A$ est un corps commutatif de caractéristique 2, l’antiautomorphisme $J$ est l’identité et $\Phi$ est alternée.
 
 En effet, si l’on développe $\Phi(x + y, x + y) = 0$, il vient, en tenant compte des hypothèses $\Phi(x, x) = \Phi(y, y) = 0$, la relation $\Phi(x, y) = -\overline{\Phi(x, y)}$ quels que soient $x, y$ dans $E$. Comme $\Phi$ est $\neq 0$, il existe $x, y$ dans $E$ tels que $\Phi(x, y) = 1$. Écrivant que $\Phi(\lambda x, y) = -\Phi(\lambda x, y)$, il vient $\overline{\lambda} = -\lambda$ pour tout $\lambda \in A$. En prenant d’abord $\lambda = 1$, on voit que $A$ est de caractéristique 2 ; la relation $\overline{\lambda} = -\lambda$ montre alors que $J$ est l’identité, donc $A$ est commutatif et $\Phi$ est alternée.
 
-#### Théorème 1 {#alg-ix-s6-thm-1 .statement}
+#### Théorème 1 {#alg-ix-s6-thm-1 .statement tag=0DLG}
 
 Supposons que $A$ soit un corps et $E$ un espace vectoriel de dimension finie $n$ sur $A$. Alors, pour toute forme hermitienne $\Phi$ sur $E$, $E$ admet une base orthogonale, sauf si les conditions suivantes sont simultanément réalisées :
 
@@ -70,17 +70,17 @@ Raisonnons par récurrence sur $n$, le résultat étant évident pour $n = 0$. O
 
 Lorsque (C) est vérifiée, il n’existe évidemment pas de base orthogonale pour $\Phi$.
 
-#### Corollaire 1 {#alg-ix-s6-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s6-thm-1-cor-1 .statement tag=0DLH}
 
 *Les notations étant celles du th. 1, on suppose de plus que (C) n’est pas vérifiée, que $\Phi$ est non dégénérée et que, pour tout $x \in \mathbf{E}$, il existe $\rho \in \mathbf{A}$ tel que $\Phi(x, x) = \rho \bar{\rho}$. Alors $\mathbf{E}$ admet une base orthonormale pour $\Phi$*.
 
 Soit en effet $(e_i)$ ($i = 1, \ldots, n$) une base orthogonale de $\mathbf{E}$. Posons $\Phi(e_i, e_i) = \alpha_i$. On a $\alpha_i \neq 0$ pour $i = 1, \ldots, n$ puisque $\Phi$ est non dégénérée. Il existe, par hypothèse, des éléments $\beta_i$ de $\mathbf{A}$ tels que $\alpha_i = \beta_i \overline{\beta_i}$ pour $i = 1, \ldots, n$; on a $\beta_i \neq 0$. En posant $f_i = \beta_i^{-1} e_i$, on a $\Phi(f_i, f_i) = \beta_i^{-1} \alpha_i \overline{\beta_i^{-1}} = 1$ pour tout $i$, et $\Phi(f_i, f_j) = 0$ pour $i \neq j$. Donc $(f_i)$ est une base orthonormale.
 
-#### Remarque {#alg-ix-s6-n1-rem-1 .statement}
+#### Remarque {#alg-ix-s6-n1-rem-1 .statement tag=0DLI}
 
 La dernière hypothèse du corollaire est vérifiée lorsque $\mathbf{J}$ est l’identité, et que tout élément de $\mathbf{A}$ est le carré d’un élément de $\mathbf{A}$ (par exemple lorsque $\mathbf{A}$ est algébriquement clos).
 
-#### Corollaire 2 {#alg-ix-s6-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s6-thm-1-cor-2 .statement tag=0DLJ}
 
 *Soient $\mathbf{A}$ un corps et $R$ une matrice hermitienne d’ordre $n$ et de rang $r$ sur $\mathbf{A}$. Alors, sauf si la condition suivante est vérifiée :
 
@@ -100,7 +100,7 @@ $$
 
 où $\overline{\alpha}_i = \alpha_i \neq 0$ pour $i = 1, \ldots, r$.
 
-#### Proposition 1 {#alg-ix-s6-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s6-prop-1 .statement tag=0DLK}
 
 *On suppose que $A$ est un corps commutatif. Soient $\Phi$ une forme hermitienne sur $E$, et $(x_n)$ ($n = 1, 2, \ldots$) une suite (finie ou infinie) de vecteurs linéairement indépendants de $E$ telle que, pour tout $n$, le sous-espace $E_n = Ax_1 + \cdots + Ax_n$ soit non isotrope. Soit $D_{jn}$ ($j \leq n$) le cofacteur de $\Phi(x_j, x_n)$ dans la matrice $(\Phi(x_s, x_t))_{(s,t=1,\ldots,n)}$. On a alors $D_{nn} \neq 0$ pour tout $n$. Posons*
 
@@ -133,7 +133,7 @@ $$
 
 Avec les notations de la prop. 1, on dit que la suite $(e_n)$ est obtenue à partir de la suite $(x_n)$ par le procédé d’orthogonalisation de Gram-Schmidt.
 
-#### Proposition 2 {#alg-ix-s6-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s6-prop-2 .statement tag=0DLL}
 
 Soient $\Phi$ une forme hermitienne sur $E$, et $(e_i)$ $(i = 1, \ldots, n)$ une base orthogonale (resp. orthonormale) de $E$ pour $\Phi$. Alors, pour tout $p \geqslant 0$, la base de $\bigotimes^p E$ formée des $e_{i_1} \otimes \cdots \otimes e_{i_p}$ et la base $(e_H)$ de $\wedge^p E$ (où $H$ parcourt l’ensemble des parties à $p$ éléments de $\{1, n\}$; cf. chap. III, § 5, n° 6) sont orthogonales (resp. orthonormales) pour les extensions de $\Phi$ à $\bigotimes^p E$ et $\wedge^p E$ respectivement ($§ 1$, n° 9). Si, de plus, les applications associées à $\Phi$ sont bijectives, la base $(e'_i)$ de $E^*$ duale de $(e_i)$ est orthogonale (resp. orthonormale) pour la forme inverse $\widehat{\Phi}$ de $\Phi$ ($§ 1$, n° 7).
 
@@ -163,7 +163,7 @@ $$
 
 et, comme A est commutatif, elle est une condition nécessaire et suffisante pour que $U$ soit une matrice orthogonale.
 
-#### Proposition 3 {#alg-ix-s6-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s6-prop-3 .statement tag=0DLM}
 
 *Supposons que A soit un corps commutatif et que E soit de dimension finie $> 0$. Soit $\Phi$ une forme hermitienne non dégénérée sur E. L’application $u \to \det u$ est un homomorphisme du groupe unitaire $\mathbf{U}(\Phi)$ associé à $\Phi$ sur le sous-groupe multiplicatif H de A formé des éléments $\rho$ tels que $\rho \overline{\rho} = 1$ (sous-groupe réduit à $\{1, -1\}$ lorsque J est l’identité).
 
@@ -179,7 +179,7 @@ Si $E = A^n$ et si $\Phi$ est la forme dont la matrice par rapport à la base ca
 
 Dans tout ce n°, on suppose que le scalaire 2 est inversible dans $A$ (par exemple que $A$ est un corps de caractéristique $\neq 2$), et que $\Phi$ est une forme hermitienne non dégénérée sur $E$. On note $\frac{1}{2}$ l’inverse de 2.
 
-#### Lemme 2 {#alg-ix-s6-lem-2 .statement}
+#### Lemme 2 {#alg-ix-s6-lem-2 .statement tag=0DLN}
 
 Pour qu’un endomorphisme $u$ de $E$ soit tel que $u^2 = 1$, il faut et il suffit que $\frac{1}{2}(1 - u)$ soit un projecteur dans $E$; alors $u$ est la différence des deux projecteurs $\frac{1}{2}(1 + u)$ et $\frac{1}{2}(1 - u)$.
 
@@ -187,7 +187,7 @@ En effet, dans l’anneau $\mathscr{L}(E)$, la relation $\left( \frac{1}{2}(1 - 
 
 Un endomorphisme $u$ de $E$ tel que $u^2 = 1$ (qui est alors nécessairement un automorphisme de $E$ égal à son inverse) est appelé une involution. Posons $\varphi = \frac{1}{2}(1 - u)$, $U^- = \varphi(E)$, $U^+ = \varphi^{-1}(0)$ ($= \omega(E)$ en posant $\omega = \frac{1}{2}(1 + u)$); on sait que $E$ est somme directe de $U^+$ et de $U^-$ (chap. VIII, § 1, n° 1), et on a $u(x) = x$ dans $U^+$, $u(x) = -x$ dans $U^-$. Lorsque $A$ est un corps et $E$ de dimension finie, il en résulte, puisque $A$ est de caractéristique $\neq 2$, que les seuls vecteurs propres $\neq 0$ de $u$ sont les éléments ≠ 0 dans U^+ ou dans U^- ; ils correspondent respectivement aux valeurs propres + 1 et -1.
 
-#### Proposition 4 {#alg-ix-s6-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s6-prop-4 .statement tag=0DLO}
 
 Soit u ∈ GL(E) une involution. Les propriétés suivantes sont équivalentes :
 a) u appartient au groupe unitaire associé à Φ ;
@@ -198,7 +198,7 @@ c) u = u*.
 En effet, pour x ∈ U^+ et y ∈ U^-, la relation $\Phi(u(x), u(y)) = \Phi(x, y)$
 donne $2\Phi(x, y) = 0$, donc a) entraîne b). Réciproquement on a évidemment $\Phi(u(x), u(y)) = \Phi(x, y)$ lorsque x et y sont tous deux dans U^+ ou tous deux dans U^-, et, vu b), cette relation est encore vraie lorsque l’un d’eux est dans U^+ et l’autre dans U^- ; comme E est somme directe de U^+ et U^-, on voit que b) entraîne a). Enfin, lorsque E est un espace vectoriel de dimension finie, l’adjoint u* est défini puisque Φ est non dégénérée ; la relation a) équivaut à $uu^* = 1$ (§ 1, n° 8, cor. de la prop. 8) ; comme $u^2 = 1$ par hypothèse, a) et c) sont équivalentes.
 
-#### Corollaire 1 {#alg-ix-s6-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s6-prop-4-cor-1 .statement tag=0DLP}
 
 On suppose que A est un corps et que E est de dimension finie. L’application $u \to \frac{1}{2}(1 + u)(E)$ est une bijection de l’ensemble des involutions u appartenant au groupe unitaire associé à Φ sur l’ensemble des sous-espaces non isotropes de E ; le sous-espace U^+ correspondant à u est l’ensemble des éléments de E invariants par u.
 
@@ -206,7 +206,7 @@ D’après la prop. 4, il suffit de montrer que tout sous-espace non isotrope M 
 
 On dit que l’involution $u$ ainsi déterminée est la symétrie par rapport au sous-espace non isotrope M.
 
-#### Corollaire 2 {#alg-ix-s6-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s6-prop-4-cor-2 .statement tag=0DLQ}
 
 On suppose que $\mathbf{A}$ est un corps et que $\mathbf{E}$ est de dimension finie. Pour qu’un projecteur $\nu$ dans $\mathbf{E}$ soit tel que $\nu(\mathbf{E})$ et $\nu(0)$ soient orthogonaux (et par suite non isotropes), il faut et il suffit que $\nu = \nu^*$.
 
@@ -232,7 +232,7 @@ $$
 
 On notera que le dernier membre de (6) garde un sens lorsque $\mathbf{A}$ est un corps de caractéristique 2, et $a$ un vecteur non singulier de $\mathbf{E}$; on vérifie aussitôt que l’on a encore alors $Q(u(x)) = Q(x)$ pour tout $x \in \mathbf{E}$, autrement dit $u \in \mathbf{O}(Q)$. On dit encore que l’involution $u$ ainsi définie est la symétrie par rapport à l’hyperplan orthogonal à $a$ (cf. exerc. 28).
 
-#### Proposition 5 {#alg-ix-s6-prop-5 .statement}
+#### Proposition 5 {#alg-ix-s6-prop-5 .statement tag=0DLR}
 
 On suppose l’espace vectoriel $\mathbf{E}$ de dimension finie n. Le groupe orthogonal $\mathbf{O}(Q)$ associé à $Q$ est alors engendré par les symétries par rapport aux hyperplans non isotropes de $\mathbf{E}$.
 
@@ -283,7 +283,7 @@ Soient A un corps commutatif et Q une forme quadratique $\neq 0$ sur E. On appel
 
 ### 6. Géométrie hermitienne.
 
-#### Définition 2 {#alg-ix-s6-def-2 .statement}
+#### Définition 2 {#alg-ix-s6-def-2 .statement tag=0DLS}
 
 Soient A un corps, L un espace affine sur A et T l’espace des translations de L (chap. II, 2e éd., App. II). Si T est muni d’une forme hermitienne $\Phi$ non dégénérée, on dit que L est un espace hermitien sur A, et que $\Phi$ est la forme métrique de L.
 
@@ -295,7 +295,7 @@ Deux variétés linéaires de L sont dites orthogonales si leurs directions (cha
 
 Soient V une variété linéaire en L, et $x$ un point de L. L’ensemble des points $y$ de L tels que $y - x$ soit orthogonal à V est une variété linéaire W passant par $x$ ; on dit que W est la variété totalement orthogonale (ou, plus simplement, orthogonale) à V passant par x. Si L est de dimension finie, la dimension de W est égale à la codimension de V. En outre, si V est non isotrope, les directions de V et de W sont supplémentaires (§ 4, no 1, cor. de la prop. 1); alors W rencontre V en un seul point $x_1$; en prenant une origine dans V, on voit aussitôt que, pour V fixé, l’application $x \to x_1$ est une application linéaire affine idempotente ; on l’appelle la projection orthogonale de L sur V ; l’application linéaire qui lui est associée (chap. II, 2e éd., App. II, no 4) est le projecteur orthogonal de T sur la direction de V (no 3).
 
-#### Définition 3 {#alg-ix-s6-def-3 .statement}
+#### Définition 3 {#alg-ix-s6-def-3 .statement tag=0DLT}
 
 Soient L un espace hermitien sur un corps A, T l’espace des translations de L. On appelle déplacement (resp. similitude) de L toute bijection affine u de L sur L telle que l’application linéaire $\varphi$ associée à u dans T (chap. II, 2e éd., App. II, no 4) soit unitaire (resp. soit une similitude).
 
@@ -303,7 +303,7 @@ Le groupe des translations est un sous-groupe distingué du groupe affine ; c’
 
 Soient $u$ une similitude dans L, $\varphi$ la similitude associée dans T. Le multiplicateur de $\varphi$ s’appelle aussi le multiplicateur de $u$ (no 5). Si l’on note $\alpha(u)$ ce multiplicateur, l’application $u \to \alpha(u)$ est un homomorphisme du groupe des similitudes de L dans le groupe multiplicatif des éléments inversibles du centre de A ; son noyau est le groupe des déplacements, qui est donc un sous-groupe distingué du groupe des similitudes. Lorsque A est commutatif et L de dimension finie, il y a, entre le déterminant det $u$ (égal par définition à det $\varphi$) et $\alpha(u)$, les mêmes relations qu’au no 5. Les déplacements $u$ tels que det $u = 1$ forment un sousgroupe distingué du groupe des déplacements ; ce sous-groupe est d’indice 2 si A est un corps commutatif de caractéristique $\neq 2$ et J l’identité.
 
-#### Proposition 6 {#alg-ix-s6-prop-6 .statement}
+#### Proposition 6 {#alg-ix-s6-prop-6 .statement tag=0DLU}
 
 *Soit L un espace hermitien de dimension finie sur A, dont la forme métrique soit d’indice 0. Toute similitude u de L, de multiplicateur $\mu \neq 1$, admet alors un point fixe et un seul.*
 

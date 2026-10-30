@@ -38,9 +38,9 @@ subsections:
       pdf_page: 527
 statements: 17
 exercises: 5
-content_sha256: ad78d64ca804af6d9e453076f0b191a0476945840339b16bc9164d392a8fe72a
+content_sha256: 0cdb9db5d557f9bc588664231cbdd0a0c6c64f5a4f99896e856410b500a4d2dc
 translated_from: content/en/alg/III/06_s6_symmetric_algebras.md
-source_content_sha256: c190d357f4119eec01190353a132ffb2391abe105d6d6797abe8e8ab04c5ad59
+source_content_sha256: a716a1c3cf99e3d34241000d92ee39248d92a3c9503fa59066fb7f864e19044c
 translation_model: gpt-5.4
 translation_run: translate-vi-136a3468
 glossary_version: 34
@@ -52,19 +52,19 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA ĐẠI SỐ ĐỐI XỨNG CỦA MỘT MÔĐUN
 
-#### Định nghĩa 1 {#alg-iii-s6-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s6-def-1 .statement tag=0626}
 
 *Cho A là một vành giao hoán và M một A-môđun. Đại số đối xứng của M, ký hiệu là S(M), hoặc Sym(M), hoặc S_A(M), là đại số thương trên A của đại số tenxơ T(M) bởi iđêan hai phía $\mathfrak{J}'$ (cũng ký hiệu là $\mathfrak{J}'_M$) được sinh bởi các phần tử $xy - yx = x \otimes y - y \otimes x$ của T(M), trong đó x và y chạy qua M.*
 
 Vì iđêan $\mathfrak{J}'$ được sinh bởi các phần tử thuần nhất bậc 2 nên nó là một iđêan phân bậc (II, § 11, no. 3, mệnh đề 2); ta viết $\mathfrak{J}'_n = \mathfrak{J}' \cap T^n(M)$; khi đó đại số S(M) được phân bậc bởi phân bậc (gọi là chính tắc) gồm các $S^n(M) = T^n(M)/\mathfrak{J}'_n$. Bây giờ $\mathfrak{J}'_0 = \mathfrak{J}'_1 = \{0\}$ và do đó $S^0(M)$ được đồng nhất một cách chính tắc với A và $S^1(M)$ với $T^1(M) = M$; trong phần sau ta sẽ luôn thực hiện các sự đồng nhất này và ký hiệu bởi $\phi'$ hoặc $\phi'_M$ đơn ánh chính tắc $M \to S(M)$.
 
-#### Mệnh đề 1 {#alg-iii-s6-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s6-prop-1 .statement tag=0627}
 
 *Đại số S(M) là giao hoán.*
 
 Theo định nghĩa $\phi'(x)\phi'(y) = \phi'(y)\phi'(x)$ với $x, y$ trong M và, vì các phần tử $\phi'(x)$, trong đó x chạy qua M, sinh ra S(M), kết luận suy ra từ § 1, no. 7.
 
-#### Mệnh đề 2 {#alg-iii-s6-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-s6-prop-2 .statement tag=0628}
 
 *Cho E là một đại số trên A và $f : M \to E$ một ánh xạ A-tuyến tính sao cho*
 $$(1)$$
@@ -77,7 +77,7 @@ Tính duy nhất của g suy ra từ sự kiện rằng $\phi'(M) = M$ sinh ra S
 
 điều duy nhất cần chứng minh là $g_1$ bằng không trên iđêan $\mathfrak{J}'$, vì khi đó, nếu $p : T(M) \to S(M) = T(M)/\mathfrak{J}'$ là đồng cấu chính tắc, ta có thể viết $g_1 = g \circ p$, trong đó $g : S(M) \to E$ là một đồng cấu đại số, và kết luận sẽ suy ra từ sự kiện rằng $p \circ \phi = \phi'$. Bây giờ hạt nhân của $g_1$ là một iđêan hai phía mà, theo (1) và quan hệ $g_1 \circ \phi = f$, chứa các phần tử $x \otimes y - y \otimes x$ với $x, y$ trong $M$. Điều này hoàn tất chứng minh.
 
-#### Nhận xét {#alg-iii-s6-n1-rem-1 .statement}
+#### Nhận xét {#alg-iii-s6-n1-rem-1 .statement tag=0629}
 
 (1) Giả sử rằng $E$ là một $A$-đại số phân bậc kiểu $\mathbf{Z}$, với phân bậc $(E_n)$, và giả sử thêm rằng ánh xạ tuyến tính $f$ (được giả thiết là thỏa mãn (1)) sao cho
 (2)
@@ -92,7 +92,7 @@ Khi đó quan hệ $g(x_1 x_2 \ldots x_p) = f(x_1) f(x_2) \ldots f(x_p)$ với c
 
 ### 2. TÍNH CHẤT HÀM TỬ CỦA ĐẠI SỐ ĐỐI XỨNG
 
-#### Mệnh đề 3 {#alg-iii-s6-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-s6-prop-3 .statement tag=062A}
 
 *Cho $A$ là một vành giao hoán, $M$ và $N$ là hai $A$-môđun và $u : M \to N$ là một ánh xạ $A$-tuyến tính. Tồn tại một và chỉ một đồng cấu đại số $A$ $u' : S(M) \to S(N)$ sao cho biểu đồ*
 
@@ -135,7 +135,7 @@ S^n(u)(x_1 x_2 \ldots x_n) = u(x_1) u(x_2) \ldots u(x_n)
 $$
 trong đó các $x_i \in M$, vì $S(u)$ là một đồng cấu đại số và $S^1(u) = u$; hạn chế $S^0(u)$ lên $A$ là ánh xạ đồng nhất. Chú ý rằng $S^n(u)$ có thể thu được từ $T^n(u): T^n(M) \to T^n(N)$ bằng cách chuyển qua các thương.
 
-#### Mệnh đề 4 {#alg-iii-s6-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-s6-prop-4 .statement tag=062B}
 
 *Nếu $u: M \to N$ là một ánh xạ $A$-tuyến tính toàn ánh, thì đồng cấu $S(u): S(M) \to S(N)$ là toàn ánh và hạt nhân của nó là iđêan của $S(M)$ được sinh bởi hạt nhân $P \subset M \subset S(M)$ của $u$.*
 
@@ -143,7 +143,7 @@ Ta viết $v = T(u): T(M) \to T(N)$; ta biết (§ 5, no. 2, Mệnh đề 3) r�
 
 Nếu $u: M \to N$ là một ánh xạ tuyến tính *đơn ánh*, thì không phải lúc nào cũng đúng rằng $S(u)$ là một ánh xạ đơn ánh (Bài tập 1). Tuy nhiên điều đó đúng khi $u$ là một đơn ánh sao cho $u(M)$ là một *nhân tử trực tiếp* trong $N$ và khi đó ảnh của $S(u)$ (đẳng cấu với $S(M)$) là một *nhân tử trực tiếp* của $S(N)$; chứng minh giống như chứng minh các mệnh đề tương tự đối với $T(u)$ (§ 5, no. 2) khi thay thế $T$ bởi $S$.
 
-#### Mệnh đề 5 {#alg-iii-s6-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iii-s6-prop-5 .statement tag=062C}
 
 *Cho $N$ và $P$ là hai môđun con của một $A$-môđun $M$ sao cho tổng của chúng $N + P$ là một nhân tử trực tiếp trong $M$ và giao của chúng $N \cap P$ là một nhân tử trực tiếp trong $N$ và trong $P$. Khi đó các đồng cấu $S(N) \to S(M)$, $S(P) \to S(M)$ và*
 $$
@@ -157,7 +157,7 @@ $$
 
 Chứng minh được quy về chứng minh của § 5, no. 2, Mệnh đề 4 khi thay thế khắp nơi $T$ bởi $S$. Các giả thiết của Mệnh đề 5 luôn đúng với các môđun con *tùy ý* $N, P$ của $M$ khi $A$ là một trường.
 
-#### Hệ quả {#alg-iii-s6-n2-cor-1 .statement}
+#### Hệ quả {#alg-iii-s6-n2-cor-1 .statement tag=062D}
 
 *Cho K là một trường giao hoán và M một không gian vectơ trên K. Với mọi phần tử $z \in S(M)$ tồn tại một không gian vectơ con nhỏ nhất N của M sao cho $z \in S(N)$ và N là hữu hạn chiều.*
 
@@ -177,7 +177,7 @@ Vì các phép đổi chỗ trao đổi hai số nguyên liên tiếp sinh ra nh
 
 Khi Y là một *môđun* trên một vành giao hoán A, rõ ràng tập hợp các ánh xạ đối xứng từ $X^n$ vào Y là một *môđun con* của A-môđun $Y^{X^n}$ gồm mọi ánh xạ từ $X^n$ vào Y.
 
-#### Mệnh đề 6 {#alg-iii-s6-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iii-s6-prop-6 .statement tag=062E}
 
 *Cho A là một vành giao hoán và M và N là hai A-môđun. Nếu với mỗi ánh xạ A-tuyến tính $g : S^n(M) \to N$ ($n \geqslant 1$) ta gắn ánh xạ n-tuyến tính*
 
@@ -223,7 +223,7 @@ với các $x_i \in M$.
 
 A-môđun $S^n(M)$ được gọi là *lũy thừa đối xứng bậc n* của M. Với mọi đồng cấu A-môđun $u : M \to N$, ánh xạ $S^n(u) : S^n(M) \to S^n(N)$ trùng với $S(u)$ trên $S^n(M)$ được gọi là *lũy thừa đối xứng bậc n của u*.
 
-#### Nhận xét {#alg-iii-s6-n3-rem-1 .statement}
+#### Nhận xét {#alg-iii-s6-n3-rem-1 .statement tag=062F}
 
 Cho $\sigma$ là một phép hoán vị trong $\mathfrak{S}_n$; vì ánh xạ
 
@@ -271,7 +271,7 @@ $$
 
 tương ứng với A-đồng cấu hợp thành $g \circ f : M \to M''$ (đối với $\sigma \circ \rho$).
 
-#### Mệnh đề 7 {#alg-iii-s6-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iii-s6-prop-7 .statement tag=062G}
 
 Cho $A, B$ là hai vành giao hoán, $\rho : A \to B$ một đồng cấu vành và $M$ một A-môđun. Mở rộng chính tắc
 
@@ -293,7 +293,7 @@ $$
 
 và cũng suy ra từ (9) rằng các $f'_\alpha$ tạo thành một hệ trực tiếp các $A_\alpha$-đồng cấu.
 
-#### Mệnh đề 8 {#alg-iii-s6-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iii-s6-prop-8 .statement tag=062H}
 
 *$A$-đồng cấu* $f' = \lim \rightarrow f'_\alpha : \lim \rightarrow S_{A_\alpha}(M_\alpha) \to S_A(M)$ *là một đẳng cấu đại số phân bậc.*
 
@@ -314,7 +314,7 @@ $$
 
 ký hiệu đồng cấu chính tắc.
 
-#### Mệnh đề 9 {#alg-iii-s6-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iii-s6-prop-9 .statement tag=062I}
 
 *Đồng cấu chính tắc* $g$ *(công thức (10))* *là một đẳng cấu đại số phân bậc* (xem § 4, no. 8, *Nhận xét 1*).
 
@@ -362,13 +362,13 @@ $$
 
 thì thấy rằng, có tính đến II, § 6, no. 2, mệnh đề 5:
 
-#### Hệ quả {#alg-iii-s6-n6-cor-1 .statement}
+#### Hệ quả {#alg-iii-s6-n6-cor-1 .statement tag=062J}
 
 *A-môđun* $S^n(M)$ *là ảnh qua đẳng cấu* (10) *của môđun con của* $\bigotimes_{\lambda \in L} S(M_\lambda)$ *là tổng trực tiếp của các môđun con* $S^\nu(M)$ *ứng với mọi họ* $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ *sao cho* $\sum_{\lambda \in L} n_\lambda = n$; *nếu* $J$ *là giá của* $\nu$, thì $S^\nu(M)$ *đẳng cấu chính tắc với* $\bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)$.
 
 Nói chung $S^\nu(M)$, $\bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)$ và ảnh của chúng trong $S^n(M)$ được đồng nhất với nhau.
 
-#### Định lý 1 {#alg-iii-s6-thm-1 .statement}
+#### Định lý 1 {#alg-iii-s6-thm-1 .statement tag=062K}
 
 *Cho* $A$ *là một vành giao hoán và* $M$ *một* $A$-*môđun tự do với cơ sở* $(e_\lambda)_{\lambda \in L}$. *Với mọi ánh xạ* $\alpha : L \to \mathbf{N}$ *có giá hữu hạn, ta viết*
 
@@ -390,13 +390,13 @@ trong đó $\alpha + \beta$ là ánh xạ $\lambda \mapsto \alpha(\lambda) + \be
 
 Nhận xét (2). Các kết quả trên cũng có thể thu được như một hệ quả của các tính chất phổ quát của các đại số đa thức và các đại số đối xứng, có tính đến II, § 1, no. 11, Hệ quả 3 của Mệnh đề 17.
 
-#### Hệ quả {#alg-iii-s6-n6-cor-2 .statement}
+#### Hệ quả {#alg-iii-s6-n6-cor-2 .statement tag=062L}
 
 *Nếu $M$ là một $A$-môđun xạ ảnh, thì $S(M)$ là một $A$-môđun xạ ảnh.*
 
 Chứng minh giống như chứng minh của Hệ quả của Định lý 1 ở § 5, no. 5, thay thế $T$ bằng $S$.
 
-#### Mệnh đề 10 {#alg-iii-s6-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iii-s6-prop-10 .statement tag=062M}
 
 *Cho $\Delta$ là một monoit giao hoán, $M$ là một $A$-môđun phân bậc kiểu $\Delta$ và $(M_\alpha)_{\alpha \in \Delta}$ là phân bậc của nó. Với mọi cặp có thứ tự $(\alpha, n) \in \Delta \times \mathbf{N}$, gọi $S^{\alpha, n}(M)$ là môđun con của $S^n(M)$ bằng tổng trực tiếp của các môđun con $\bigotimes_{\lambda \in J} S^{n_\lambda}(M_{\alpha_\lambda})$, trong đó $(n_\lambda)_{\lambda \in L}$ chạy qua tập hợp các họ số nguyên $\geq 0$ sao cho $\sum_{\lambda \in L} n_\lambda = n$, $J$ là giá của nó và, với mỗi $(n_\lambda)$, $(\alpha_\lambda)_{\lambda \in J}$ chạy qua tập hợp các họ thuộc $\Delta^J$ sao cho $\sum_{\lambda \in J} \alpha_\lambda = \alpha$. Khi đó $(S^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ là phân bậc duy nhất kiểu $\Delta \times \mathbf{N}$ tương thích với cấu trúc đại số trên $S(M)$ và gây nên trên $M = S^1(M)$ phân bậc đã cho.*
 

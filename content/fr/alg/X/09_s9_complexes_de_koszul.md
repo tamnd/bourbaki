@@ -53,7 +53,7 @@ subsections:
       pdf_page: 171
 statements: 35
 exercises: 18
-content_sha256: e050c0ace3b6ae09e3ac8402d6d075509f24c1315d70999695129d52b67dfc1f
+content_sha256: ca6f4968b5e296c469f45420152fa140f08b72a7442082626747fce9b5cb1972
 ---
 
 ## § 9. COMPLEXES DE KOSZUL
@@ -70,7 +70,7 @@ $$
 
 pour $e_1, \ldots, e_n$ dans $L$. D’après III, p. 164 et 165, l’application $d_u : \Lambda(L) \to \Lambda(L)$ est une antidérivation de degré $(-1)$ et de carré nul. C’est l’unique antidérivation de la $A$-algèbre $\Lambda(L)$ qui prolonge $u : \Lambda^1(L) \to \Lambda^0(L)$.
 
-#### Définition 1 {#alg-x-s9-def-1 .statement}
+#### Définition 1 {#alg-x-s9-def-1 .statement tag=0E2G}
 
 Le complexe $(\Lambda(L), d_u)$ se note $\mathbf{K}^A(u)$ ou $\mathbf{K}(u)$.
 
@@ -102,25 +102,25 @@ $$
 \end{aligned}
 $$
 
-#### Lemme 1 {#alg-x-s9-lem-1 .statement}
+#### Lemme 1 {#alg-x-s9-lem-1 .statement tag=0E2H}
 
 Si le complexe $C$ est nul à droite (resp. à gauche), alors $\mathbf{K}^A(u, C)$ (resp. $\mathbf{K}^*_A(u, c)$) est nul à droite (resp. à gauche), et $\gamma_0$ (resp. $\lambda^0$) est bijectif.
 
 Cela résulte de X, p. 62, prop. 1 et p. 82, prop. 1.
 
-#### Proposition 1 {#alg-x-s9-prop-1 .statement}
+#### Proposition 1 {#alg-x-s9-prop-1 .statement tag=0E2I}
 
 Soit $x \in L$; notons $R_x : y \mapsto x \wedge y$ la multiplication à gauche par $x$ dans l’algèbre $\Lambda(L)$. Alors $d_u \circ R_x + R_x \circ d_u = u(x) \cdot 1_{\Lambda(L)} = u(x)_{\Lambda(L)}$.
 
 En effet $(d_u \circ R_x + R_x \circ d_u)(y) = d_u(x \wedge y) + x \wedge d_u(y)$; puisque $d_u$ est une antidérivation, $d_u(x \wedge y) + x \wedge d_u(y) = d_u(x) \wedge y = u(x) \cdot y$.
 
-#### Corollaire 1 {#alg-x-s9-prop-1-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s9-prop-1-cor-1 .statement tag=0E2J}
 
 Si $u$ est surjectif, $K(u)$ est homotope à zéro (X, p. 34) ainsi que $K^A(u, C)$ et $K_A^*(u, C)$ pour tout complexe $C$.
 
 En effet, il existe $x \in L$ tel que $u(x) = 1$. Alors $K(u)$ est homotope à zéro d’après la prop. 1, donc aussi $K^A(u, C)$ (X, p. 64, prop. 3) et $K_A^*(u, C)$ (X, p. 83, prop. 3).
 
-#### Corollaire 2 {#alg-x-s9-prop-1-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s9-prop-1-cor-2 .statement tag=0E2K}
 
 Soient $C$ un complexe, Ann (C) son annulateur. Alors $q + \mathrm{Ann}(C)$ annule $H^A(u, C)$ et $H_A^*(u, C)$.
 
@@ -134,7 +134,7 @@ resp.
 
 Si $L$ est projectif et $K(u)$ acyclique en degrés > 0, les homomorphismes (2) et (3) ci-dessus sont bijectifs et réciproques les uns des autres (X, p. 102, prop. 1).
 
-#### Proposition 2 {#alg-x-s9-prop-2 .statement}
+#### Proposition 2 {#alg-x-s9-prop-2 .statement tag=0E2L}
 
 Soit $(L_i)_{i \in I}$ une famille de $A$-modules, où l’ensemble $I$ est fini et totalement ordonné. Soient $u$ une forme linéaire sur $\bigoplus_{i \in I} L_i$, $u_i$ sa restriction à $L_i$.
 
@@ -217,7 +217,9 @@ Par passage à l’homologie, on a donc des isomorphismes *canoniques*
 H^A_r(u, C) \to H^{n-r}_A(u, C \otimes_A \Lambda^n L) , \qquad r \in \mathbf{Z} .
 $$
 
-*Remarques. — 1)* \* Ce qui précède reste valable lorsque $L$ est projectif de rang $n$. \*
+#### Remarques {#alg-x-s9-n1-rem-1 .statement tag=0EEQ}
+
+*1)* \* Ce qui précède reste valable lorsque $L$ est projectif de rang $n$. \*
 
 2) Puisque $L$ est libre de rang $n$, $\Lambda^n L$ est isomorphe à $A$, on a des isomorphismes non canoniques $H^A_r(u,C)\to H^{n-r}_A(u,C)$.
 
@@ -348,7 +350,7 @@ $$
 
 est un isomorphisme de complexes de A-modules (cela résulte de la prop. 2 de X, p. 148 ou de la formule (9) ci-dessus).
 
-#### Proposition 3 {#alg-x-s9-prop-3 .statement}
+#### Proposition 3 {#alg-x-s9-prop-3 .statement tag=0E2M}
 
 *Si le A-module L est plat, les suites $(\mathscr{E}_n)$ ci-dessus sont exactes pour $n > 0$.*
 
@@ -382,15 +384,15 @@ $$
 
 est un isomorphisme de complexes, la proposition résulte de X, p. 28, prop. 1.
 
-#### Remarque 1 {#alg-x-s9-n3-rem-1 .statement}
+#### Remarque 1 {#alg-x-s9-n3-rem-1 .statement tag=0E2N}
 
 Nous verrons ci-dessous (X, p. 158, exemple) une autre démonstration de la partie *c)* ci-dessus.
 
-#### Remarque 2 {#alg-x-s9-n3-rem-2 .statement}
+#### Remarque 2 {#alg-x-s9-n3-rem-2 .statement tag=0E2O}
 
 Si A est une $\mathbf{Q}$-algèbre, la conclusion de la prop. 3 reste vraie sans hypothèse sur L (*cf.* X, p. 206, exercice 1).
 
-#### Remarque 3 {#alg-x-s9-n3-rem-3 .statement}
+#### Remarque 3 {#alg-x-s9-n3-rem-3 .statement tag=0E2P}
 
 Soient G un groupe et $\rho : G \to \mathbf{GL}(L)$ une représentation linéaire de G dans un A-module plat L. Alors les $(\mathscr{E}_n)$ sont des suites exactes de représentations linéaires. Supposons L projectif de type fini, et notons $R_A(G)$ l'anneau des représentations de G dans les A-modules projectifs de type fini. Il résulte de la prop. 3 que l’on a dans R_A(G) les relations
 
@@ -453,7 +455,7 @@ h(m) = \sum_J h_J(m) ,
 $$
 où $J$ parcourt les parties de $I$ ayant $p$ éléments.
 
-#### Lemme 2 {#alg-x-s9-lem-2 .statement}
+#### Lemme 2 {#alg-x-s9-lem-2 .statement tag=0E2Q}
 
 *Si le k-module $L_0$ est libre de base $(e_i)_{i \in I}$, les applications k-linéaires g et h sont bijectives.*
 Cela résulte de III, p. 79, th. 1.
@@ -492,7 +494,7 @@ $$
 \theta_*: K_*(x, M) \to K_A^*(u, M).
 $$
 
-#### Remarque {#alg-x-s9-n4-rem-1 .statement}
+#### Remarque {#alg-x-s9-n4-rem-1 .statement tag=0E2R}
 
 Inversement, soient B une $k$-algèbre, L un B-module libre de base $(e_i)_{i \in I}$, et M un B-module. La donnée d’une forme linéaire $u : L \to B$ équivaut à celle d’une famille $x = (x_i)_{i \in I}$ d’éléments de B, par la relation $x_i = u(e_i)$. Le complexe de $k$-modules sous-jacent à $K_B^*(u, M)$ (resp. $K^B(u, M)$) s’identifie alors, par l’isomorphisme $\theta^*$ (resp. $\theta_*$) au complexe de Koszul $K^*(x, M)$ (resp. $K_*(x, M)$). Par exemple $K^B(u)$ s’identifie à $K^*(x, B)$.
 
@@ -528,7 +530,7 @@ $$
 
 si $(\alpha_1, ..., \alpha_p, \beta_1, ..., \beta_{n-p})$ est une permutation *paire* de $\{ 1, ..., n \}$. Remarquons aussi que lorsque $I = \{ 1, ..., n \}$, on peut identifier $C_1^p(M)$ à l’ensemble des familles $m(\alpha_1, ..., \alpha_p)$ d’éléments de M où $\alpha_1 < \alpha_2 < ... < \alpha_p$; la formule (12) reste valable, ainsi que la relation (13).
 
-#### Exemple {#alg-x-s9-n4-exa-1 .statement}
+#### Exemple {#alg-x-s9-n4-exa-1 .statement tag=0E2S}
 
 Prenons $M = k[T_1, ..., T_n]$; le complexe de Koszul $K (\partial/\partial T, M)$ associé à la suite d’endomorphismes $(\partial/\partial T_1, ..., \partial/\partial T_n)$ s’identifie au complexe de de Rham de $k[x_1, ..., x_n]$ sur $k$ (X, p. 44) : à $m \in C_{\{1,...,n\}}^p(M)$, on associe la forme différentielle
 
@@ -555,7 +557,7 @@ $$
 H_1(x, M) \to \mathrm{Hom}_A(A/xA, M) \leftarrow H^0(x, M).
 $$
 
-#### Lemme 3 {#alg-x-s9-lem-3 .statement}
+#### Lemme 3 {#alg-x-s9-lem-3 .statement tag=0E2T}
 
 Soit $K$ un complexe tel que $K_i = 0$ pour $i \neq 0, 1$, et soient $C$ un complexe et $p$ un entier.
 
@@ -617,7 +619,7 @@ d’où a).
 
 Appliquant le lemme 3, a) au complexe $K(u)$, et utilisant les isomorphismes de commutation, on obtient :
 
-#### Proposition 4 {#alg-x-s9-prop-4 .statement}
+#### Proposition 4 {#alg-x-s9-prop-4 .statement tag=0E2U}
 
 *Pour tout complexe $C$, on a des suites exactes .*
 
@@ -625,11 +627,11 @@ $$
 0\longrightarrow A/xA\otimes_A H_p(C)\longrightarrow H_p(x,C)\longrightarrow \operatorname{Hom}_A(A/xA,H_{p-1}(C))\longrightarrow 0.
 $$
 
-#### Corollaire 1 {#alg-x-s9-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s9-prop-4-cor-1 .statement tag=0E2V}
 
 *Pour que $H_p(x,C)=0$, il faut et il suffit que l’homothétie de rapport $x$ dans $H_p(C)$ soit surjective et que l’homothétie de rapport $x$ dans $H_{p-1}(C)$ soit injective.*
 
-#### Corollaire 2 {#alg-x-s9-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s9-prop-4-cor-2 .statement tag=0E2W}
 
 *Soient $x=(x_1,\ldots,x_n)$ une suite d’éléments de $A$, $M$ un $A$-module, $x'$ la suite $(x_1,\ldots,x_{n-1})$. On a des suites exactes*
 
@@ -637,7 +639,7 @@ $$
 0\longrightarrow A/x_nA\otimes_A H_p(x',M)\longrightarrow H_p(x,M)\longrightarrow \operatorname{Hom}_A(A/x_nA,H_{p-1}(x',M))\longrightarrow 0.
 $$
 
-#### Corollaire 3 {#alg-x-s9-prop-4-cor-3 .statement}
+#### Corollaire 3 {#alg-x-s9-prop-4-cor-3 .statement tag=0E2X}
 
 *Pour que $H_i(x,M)$ soit nul pour tout $i>0$, il faut et il suffit que l’homothétie de rapport $x_n$ dans $H_i(x',M)$ soit bijective pour $i>0$, et que l’homothétie de rapport $x_n$ dans $M/(x')M$ soit injective.*
 
@@ -645,7 +647,7 @@ $$
 
 Soient $A$ un anneau, $M$ un $A$-module, $x=(x_i)_{i\in I}$ une famille d’éléments de $A$.
 
-#### Définition 2 {#alg-x-s9-def-2 .statement}
+#### Définition 2 {#alg-x-s9-def-2 .statement tag=0E2Y}
 
 *La famille $x$ est dite complètement sécante pour $M$ si on a $H_i(x,M)=0$ pour $i>0$.*
 
@@ -653,7 +655,7 @@ Si $I$ est fini, il revient au même (X, p. 150) de dire qu’on a $H^i(x,M)=0$ 
 
 La proposition suivante permet de donner des exemples de familles complètement sécantes.
 
-#### Proposition 5 {#alg-x-s9-prop-5 .statement}
+#### Proposition 5 {#alg-x-s9-prop-5 .statement tag=0E2Z}
 
 *Soit $x=(x_1,\ldots,x_n)$ une suite d’éléments de $A$. Si pour $i=1,\ldots,n$, l’homothétie de rapport $x_i$ dans le $A$-module $M/(x_1M+\cdots+x_{i-1}M)$ est injective, la suite $x$ est complètement sécante pour $M$.*
 
@@ -661,12 +663,12 @@ Une suite vérifiant les conditions de la proposition est dite régulière pour 
 
 Démontrons la proposition par récurrence sur $n$, le cas $n = 0$ étant immédiat. Posons $x' = (x_1, ..., x_{n-1})$; si la suite $x$ est M-régulière, la suite $x'$ est M-régulière et la multiplication par $x_n$ dans $M/(x')M$ est injective; d’après l’hypothèse de récurrence, on a $H_i(x', M) = 0$ pour $i > 0$; il résulte alors du cor. 3 de X, p. 157, que $H_i(x, M) = 0$ pour $i > 0$.
 
-#### Exemple {#alg-x-s9-n6-exa-1 .statement}
+#### Exemple {#alg-x-s9-n6-exa-1 .statement tag=0E30}
 
 Soit $k$ un anneau; prenons $A = k[X_1, ..., X_n]$ et $x = (X_1, ..., X_n)$. La suite $x$ est A-régulière et la proposition redonne l’acyclicité en degrés $> 0$ du complexe $S_k(k^n) \otimes_k \Lambda_k(k^n)$ (cf. X, p. 152, prop. 3).
 De même dans l’anneau de séries formelles $\hat{A} = k[[X_1, ..., X_n]]$, la suite $(X_1, ..., X_n)$ est $\hat{A}$-régulière, donc complètement sécante pour $\hat{A}$.
 
-#### Proposition 6 {#alg-x-s9-prop-6 .statement}
+#### Proposition 6 {#alg-x-s9-prop-6 .statement tag=0E31}
 
 a) Si $\sum_{i \in I} x_i A = A$, la famille $(x_i)_{i \in I}$ est complètement sécante pour M.
 b) Soit $x = (x_1, ..., x_n)$ une suite d’éléments de A. Soit $(a_{ij}) \in \mathrm{GL}_n(A)$; posons
@@ -679,11 +681,11 @@ L’assertion a) résulte du cor. 1, p. 148.
 Démontrons b). Soit $f : A^n \to A^n$ l’isomorphisme défini par la matrice $^t(a_{ij})$; il résulte de X, p. 151, que $1_M \otimes \Lambda(f)$ est un isomorphisme du complexe $K.(y, M)$ sur le complexe $K.(x, M)$, d’où b).
 Pour démontrer c), il suffit évidemment de prouver que si $k$ est un entier $\geqslant 1$, la suite $(x_1, ..., x_{n-1}, x_n^k)$ est complètement sécante pour M si et seulement si il en est de même pour la suite $x$. Soit $x' = (x_1, ..., x_{n-1})$; d’après le cor. 3, p. 157, la première condition (resp. la seconde) signifie que l’homothétie de rapport $x_n^k$ (resp. $x_n$) est bijective dans $H_i(x', M)$ pour $i \geqslant 1$ et injective dans $M/(x')M$. Ces deux conditions sont clairement équivalentes, d’où c).
 
-#### Remarque 1 {#alg-x-s9-n6-rem-1 .statement}
+#### Remarque 1 {#alg-x-s9-n6-rem-1 .statement tag=0E32}
 
 L’assertion analogue à c) pour les suites régulières est vraie (X, p. 207, exercice 5).
 
-#### Proposition 7 {#alg-x-s9-prop-7 .statement}
+#### Proposition 7 {#alg-x-s9-prop-7 .statement tag=0E33}
 
 a) Soit N un A-module plat. Si la famille x est complètement sécante pour M, elle l’est pour $M \otimes_A N$.
 
@@ -699,11 +701,11 @@ $$
 
 l’assertion b) résulte de la suite exacte d’homologie associée.
 
-#### Remarque 2 {#alg-x-s9-n6-rem-2 .statement}
+#### Remarque 2 {#alg-x-s9-n6-rem-2 .statement tag=0E34}
 
 Les assertions analogues à a) et b) pour les suites régulières sont immédiates.
 
-#### Remarque 3 {#alg-x-s9-n6-rem-3 .statement}
+#### Remarque 3 {#alg-x-s9-n6-rem-3 .statement tag=0E35}
 
 Si la famille $x$ est complètement secante pour $A$, le complexe $K.(x, A)$ définit une résolution libre du $A$-module $A/x$, avec $x = \sum_{i \in I} x_i A$; on a donc pour tout entier $i \geqslant 0$ et pour tout $A$-module $M$ des isomorphismes
 
@@ -711,7 +713,7 @@ $$
 \text{Ext}_A^{n-i}(A/x, M) \to H^{n-i}(x, M) \to H_i(x, M) \to \operatorname{Tor}_i^A(A/x, M) .
 $$
 
-#### Remarque 4 {#alg-x-s9-n6-rem-4 .statement}
+#### Remarque 4 {#alg-x-s9-n6-rem-4 .statement tag=0E36}
 
 On dit que la suite $x = (x_1, ..., x_n)$ est $M$-corégulière si (notant $(x_i)_M$ l’homothétie de rapport $x_i$ dans $M$) l’homothétie de rapport $x_i$ dans le module
 
@@ -751,7 +753,7 @@ $$
 
 Les homomorphismes $a_M^x, \alpha_M^x$ et $\beta_M^x$ sont surjectifs.
 
-#### Théorème 1 {#alg-x-s9-thm-1 .statement}
+#### Théorème 1 {#alg-x-s9-thm-1 .statement tag=0E37}
 
 Considérons les conditions suivantes :
 (i) La suite $x$ est M-régulière (X, p. 158).
@@ -764,23 +766,23 @@ On a alors les implications (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) $\Leftrig
 
 Le théorème sera démontré aux nos 8 et 9.
 
-#### Corollaire 1 {#alg-x-s9-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s9-thm-1-cor-1 .statement tag=0E38}
 
 *Si A est noethérien, si le A-module M est de type fini et si les $x_i$ appartiennent au radical de A, les conditions (i) à (v) du théorème sont équivalentes.
 En effet, sur chacun des modules $M/(x_1 M + \cdots + x_{i-1} M)$ la topologie $x$-adique est séparée (AC III, § 3, no 3, prop. 6).
 
-#### Corollaire 2 {#alg-x-s9-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s9-thm-1-cor-2 .statement tag=0E39}
 
 Supposons que A soit un anneau gradué à degrés positifs, M un A-module gradué borné inférieurement, et les $x_i$ des éléments homogènes de degré > 0 de A. Alors les conditions (i) à (v) du théorème sont équivalentes.
 La topologie $x$-adique est en effet séparée pour tout A-module gradué N borné inférieurement, puisque si $N_n = 0$ pour $n < n_0$ on a $x^a N \subset \sum_{j \geq n_0 + a} N_j$ pour tout $a \geq 0$.
 
-#### Corollaire 3 {#alg-x-s9-thm-1-cor-3 .statement}
+#### Corollaire 3 {#alg-x-s9-thm-1-cor-3 .statement tag=0E3A}
 
 Supposons que les modules $M/(x_1M+\cdots+x_{i-1}M)$ soient séparés pour la topologie $\mathfrak{x}$-adique $(1\leq i\leq n)$ ; soit $p$ un entier compris entre $1$ et $n$. Pour que la suite $\mathfrak{x}$ soit complètement sécante pour $M$, il faut et il suffit que la suite $(x_1,\ldots,x_p)$ soit complètement sécante pour $M$ et que la suite $(x_{p+1},\ldots,x_n)$ soit complètement sécante pour $M/(x_1M+\cdots+x_pM)$.
 
 En effet le corollaire est évident si on remplace dans l’énoncé « suites complètement sécantes » par « suites régulières » ; or les deux notions coïncident ici d’après le théorème.
 
-#### Remarque {#alg-x-s9-n7-rem-1 .statement}
+#### Remarque {#alg-x-s9-n7-rem-1 .statement tag=0E3B}
 
 Soit $\mathfrak{x}=(x_1,\ldots,x_n)$ une suite d’éléments de $A$ telle que $H_1(\mathfrak{x},A)=0$ ; alors le noyau de l’homomorphisme surjectif $u:A^n\to\mathfrak{x}$ tel que
 $$
@@ -803,7 +805,7 @@ Pour montrer que (iv) entraîne (iii), considérons l’homomorphisme $(\alpha_M
 
 Pour démontrer que (iii) entraîne (iv), nous utiliserons le lemme suivant :
 
-#### Lemme 4 {#alg-x-s9-lem-4 .statement}
+#### Lemme 4 {#alg-x-s9-lem-4 .statement tag=0E3C}
 
 Soit $A_0$ l’anneau $\mathbf{Z}[T_1,\ldots,T_n]$, et soit $u:A_0[X_1,\ldots,X_n]\to A_0[U]$ l’homomorphisme de $A_0$-algèbres tel que $u(X_i)=T_iU$. Le noyau de $u$ est l’idéal $\mathfrak{d}_0$ de $A_0[X_1,\ldots,X_n]$ engendré par les éléments $(T_iX_j-T_jX_i)$ pour $1\leq i<j\leq n$. Si $t$ est l’idéal de $A_0$ engendré par $(T_1,\ldots,T_n)$, $u$ induit un isomorphisme
 $$
@@ -1004,7 +1006,7 @@ $$
 $$
 où on a identifié $\mathbf{K}^0(x, M)$ à $M$ et où $q$ applique chaque élément $m \in \mathbf{K}^n(x, M)$ sur la classe dans $M/(x)M$ de $m(1, 2, \ldots, n) \in M$.
 
-#### Proposition 8 {#alg-x-s9-prop-8 .statement}
+#### Proposition 8 {#alg-x-s9-prop-8 .statement tag=0E3D}
 
 *Supposons la suite x régulière pour M. L’élément de $\mathrm{Ext}_A^n(M/(x)M, M)$ associé à la suite exacte (23) est $(-1)^{n(n+1)/2} \theta_x$.*
 Pour $i = 0, 1, \ldots, n$, définissons une application A-linéaire
@@ -1025,7 +1027,7 @@ a^{i+1} \circ \partial^i = (-1)^i \overline{x}_{i+1} \circ a^i .
 $$
 D’après X, p. 120, cor. 1 et 2, l’élément de $\mathrm{Ext}_A^n(M/(x)M, M)$ associé à (23) est égal à $\prod_{i=1}^n (-1)^i \cdot \theta_x$, d’où l’assertion.
 
-#### Corollaire {#alg-x-s9-n10-cor-1 .statement}
+#### Corollaire {#alg-x-s9-n10-cor-1 .statement tag=0E3E}
 
 *Supposons de plus les modules $M/(x_1 M + \cdots + x_{i-1} M)$ séparés pour la topologie (x)-adique, et soit $(a_{ij}) \in \mathrm{GL}_n(A)$. Posons*
 $$
@@ -1034,7 +1036,7 @@ $$
 *Alors la suite y est régulière pour M, et on a $\theta_y = \det(a_{ij})^{-1} \theta_x$.*
 En effet, la suite y est régulière pour M d’après la prop. 6 (X, p. 158) et le théorème 1 (X, p. 160) ; la dernière assertion résulte de la prop. 8, et de la prop. 4 de X, p. 119.
 
-#### Proposition 9 {#alg-x-s9-prop-9 .statement}
+#### Proposition 9 {#alg-x-s9-prop-9 .statement tag=0E3F}
 
 *Supposons la suite x régulière pour M. Si N est un A-module tel que $(x)N = 0$, on a $\mathrm{Ext}_A^i(N, M) = 0$ pour $i < n$, et l’application $\alpha \mapsto \theta_x \circ \alpha$* de Hom_A (N, M/(x) M) dans Ext^n_A (N, M) (qui est aussi l’homomorphisme de liaison itéré associé à (19), cf. X, p. 127, cor. 3) est bijective.
 

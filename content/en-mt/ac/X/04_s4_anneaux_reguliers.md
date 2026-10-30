@@ -32,7 +32,7 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: ad376ef1e4b5373df290aabc32386ca13c0d8b32f7caea376e6faf628b828eb1
+content_sha256: 4247b7d00c3d6cc21cd412c1110c2496f36ee82c0996d26d5d5addd50583cf2a
 translated_from: content/fr/ac/X/04_s4_anneaux_reguliers.md
 source_lang: fr
 translation_method: machine
@@ -48,7 +48,7 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 ### 1. Elementary Homological Properties of Regular Local Rings
 
-#### Proposition 1 {#ac-x-s4-prop-1 .statement}
+#### Proposition 1 {#ac-x-s4-prop-1 .statement tag=0D5M}
 
 Let $A$ be a regular noetherian local ring and $n$ its dimension. Then $\mathrm{dh}(A) = n$ and, for every integer $i \geqslant 0$,
 
@@ -64,13 +64,13 @@ $$
 
 It then follows from cor. 1 of prop. 4 of No. 3, § 3 that $\mathrm{dh}(A) = n$.
 
-#### Proposition 2 {#ac-x-s4-prop-2 .statement}
+#### Proposition 2 {#ac-x-s4-prop-2 .statement tag=0D5N}
 
 A regular noetherian local ring is factorial.
 
 By prop. 1, every finitely generated module over a regular noetherian local ring admits a projective resolution of finite length by finitely generated projective modules, hence free modules (II, § 3, No. 2, cor. 2 of prop. 5). It then follows from VII, § 4, No. 7, cor. 3 of prop. 16 that such a ring is factorial.
 
-#### Proposition 3 {#ac-x-s4-prop-3 .statement}
+#### Proposition 3 {#ac-x-s4-prop-3 .statement tag=0D5O}
 
 Let $A$ be a regular noetherian local ring and $M$ a nonzero finitely generated $A$-module. Its projective dimension is finite, and one has
 
@@ -80,27 +80,27 @@ $$
 
 In fact, $M$ has finite projective dimension (prop. 1), and one has $\mathrm{prof}(A) = \dim(A)$ since $A$ is a Macaulay ring (§ 2, No. 5, example 7). One then applies th. 1 of § 3, No. 5.
 
-#### Corollary 1 {#ac-x-s4-prop-3-cor-1 .statement}
+#### Corollary 1 {#ac-x-s4-prop-3-cor-1 .statement tag=0D5P}
 
 One has $\mathrm{dp}_A(M) \geqslant \dim(A) - \dim(M)$; for equality to hold, it is necessary and sufficient that $M$ be a Macaulay module.
 
-#### Corollary 2 {#ac-x-s4-prop-3-cor-2 .statement}
+#### Corollary 2 {#ac-x-s4-prop-3-cor-2 .statement tag=0D5Q}
 
 For the $A$-module $M$ to be free, it is necessary and sufficient that it be a Macaulay module and of dimension $\dim(A)$, or again that it be of depth $\geqslant \dim(A)$.
 
-#### Corollary 3 {#ac-x-s4-prop-3-cor-3 .statement}
+#### Corollary 3 {#ac-x-s4-prop-3-cor-3 .statement tag=0D5R}
 
 Every finitely generated reflexive module over a regular noetherian local ring of dimension 2 is free.
 
 In fact, a regular noetherian local ring is integrally closed (VIII, § 5, No. 2, cor. 1 of th. 1). Corollary 3 therefore follows from corollary 2 and § 1, No. 10, prop. 16.
 
-#### Corollary 4 {#ac-x-s4-prop-3-cor-4 .statement}
+#### Corollary 4 {#ac-x-s4-prop-3-cor-4 .statement tag=0D5S}
 
 Let $\rho : A \to B$ be a local homomorphism of noetherian local rings. Suppose that $A$ is regular and that $\rho$ makes $B$ into a finitely generated $A$-module. Then $dp_A(B) \geq \dim(A) - \dim(B)$. For $B$ to be a Macaulay ring, it is necessary and sufficient that one have $dp_A(B) = \dim(A) - \dim(B)$. For $B$ to be a Macaulay ring of dimension equal to $\dim(A)$, it is necessary and sufficient that the $A$-module $B$ be free.
 
 In fact, one has $\dim(B) = \dim_A(B)$ (VIII, § 2, No. 3, th. 1); moreover, $B$ is a Macaulay ring if and only if it is a Macaulay $A$-module (§ 2, No. 6, prop. 8). It is therefore enough to apply corollaries 1 and 2.
 
-#### Remark {#ac-x-s4-n1-rem-1 .statement}
+#### Remark {#ac-x-s4-n1-rem-1 .statement tag=0D5T}
 
 Corollary 4 makes it possible to characterize Macaulay local rings in several important cases. Let $A$ be a noetherian local ring; it is a Macaulay ring if and only if the same is true of $\hat{A}$ (§ 2, No. 7, cor. 4 of prop. 9). Henceforth suppose the local ring $A$ complete, and put $d = \dim(A)$.
 
@@ -123,7 +123,7 @@ For analogous results in the case of modules, see § 5, No. 5.
 
 ### 2. Homological Characterization of Regular Noetherian Rings
 
-#### Theorem 1 (Serre) {#ac-x-s4-thm-1 .statement}
+#### Theorem 1 (Serre) {#ac-x-s4-thm-1 .statement tag=0D5U}
 
 A noetherian local ring is regular if and only if its homological dimension is finite.
 
@@ -148,11 +148,11 @@ Consequently, if $A$ is a noetherian local ring, there is an equivalence between
 (ii) the $A$-module $\kappa_A$ is of finite projective dimension;
 (iii) every finitely generated $A$-module is of projective dimension $< +\infty$.
 
-#### Definition 1 {#ac-x-s4-def-1 .statement}
+#### Definition 1 {#ac-x-s4-def-1 .statement tag=0D5V}
 
 One says that a ring $A$ is regular if it is noetherian and if the local ring $A_m$ is regular for every maximal ideal $m$ of $A$.
 
-#### Proposition 4 {#ac-x-s4-prop-4 .statement}
+#### Proposition 4 {#ac-x-s4-prop-4 .statement tag=0D5W}
 
 Let $A$ be a noetherian ring. The following conditions are equivalent:
 (i) $A$ is regular;
@@ -162,19 +162,19 @@ Let $A$ be a noetherian ring. The following conditions are equivalent:
 
 Let us prove that (i) implies (ii). Let $M$ be a finitely generated $A$-module. Under hypothesis (i), one has $\mathrm{dp}_{A_m}(M_m) \leq \mathrm{dh}(A_m) < +\infty$ for every maximal ideal $m$ of $A$ (No. 1, prop. 1); therefore $M$ has projective dimension $< +\infty$ ($§ 3$, No. 2, cor. 2 of prop. 3), whence (ii).
 
-#### Example 1 {#ac-x-s4-n2-exa-1 .statement}
+#### Example 1 {#ac-x-s4-n2-exa-1 .statement tag=0D5X}
 
 If the ring $A$ is regular, the ring of fractions $S^{-1}A$ is regular for every multiplicative subset $S$ of $A$: this follows for example from characterization (iii) above.
 
-#### Example 2 {#ac-x-s4-n2-exa-2 .statement}
+#### Example 2 {#ac-x-s4-n2-exa-2 .statement tag=0D5Y}
 
 In order that a ring be regular, it is necessary and sufficient that it be isomorphic to the product of a finite family of integral regular rings; this follows in fact from the fact that every regular ring is locally integral ($§ 1$, No. 8), since regular local rings are integral.
 
-#### Example 3 {#ac-x-s4-n2-exa-3 .statement}
+#### Example 3 {#ac-x-s4-n2-exa-3 .statement tag=0D5Z}
 
 The integral regular rings of dimension $\leq 1$ are the Dedekind rings (VIII, $§ 5$, No. 1, example 1 and VII, $§ 2$, No. 2, theorem 1).
 
-#### Corollary 1 {#ac-x-s4-prop-4-cor-1 .statement}
+#### Corollary 1 {#ac-x-s4-prop-4-cor-1 .statement tag=0D60}
 
 *Let $A$ be a noetherian ring. The following conditions are equivalent*:
 
@@ -193,13 +193,13 @@ $$
 
 There exist regular noetherian rings of infinite dimension (VIII, $§ 5$, exerc. 6).
 
-#### Corollary 2 {#ac-x-s4-prop-4-cor-2 .statement}
+#### Corollary 2 {#ac-x-s4-prop-4-cor-2 .statement tag=0D61}
 
 *A regular ring is normal, Gorenstein and Macaulay.*
 
 In fact, a regular local ring is integrally closed (VIII, $§ 5$, No. 2, cor. 1 of th. 1), Gorenstein ($§ 3$, No. 9, example 4) and Macaulay ($§ 2$, No. 5, example 6).
 
-#### Corollary 3 {#ac-x-s4-prop-4-cor-3 .statement}
+#### Corollary 3 {#ac-x-s4-prop-4-cor-3 .statement tag=0D62}
 
 *Let $A$ be a noetherian ring, $J$ an ideal of $A$ and $\hat{A}$ the separated completion of $A$ for the $J$-adic topology.*
 
@@ -207,13 +207,13 @@ a) *In order that the ring $\hat{A}$ be regular, it is necessary and sufficient 
 
 b) *If the ring $A$ is regular, the ring $\hat{A}$ is regular. If the ring $\hat{A}$ is regular and the ideal $J$ contained in the radical of $A$, the ring $A$ is regular.*
 
-#### Corollary 4 {#ac-x-s4-prop-4-cor-4 .statement}
+#### Corollary 4 {#ac-x-s4-prop-4-cor-4 .statement tag=0D63}
 
 *Let $A$ be a regular ring and $P$ a finitely generated projective $A$-module. The symmetric algebra $S_A(P)$ is a regular ring.*
 
 Let $p$ be a prime ideal of $S_A(P)$ and $q$ its inverse image in $A$. The local ring $S_A(P)_p$ is a ring of fractions of the ring $S_A(P)_q$, which is isomorphic to $S_{A_q}(P_q)$ (A, III, p. 72, prop. 7); it is enough to prove that the latter is regular. This reduces us to the case where $A$ is local; but then $P$ is free of finite type. By prop. 1 of No. 1 and A, X, p. 143, cor. 1, one has $dh(S_A(P)) = dh(A) + rg_A(P) < +\infty$, and $S_A(P)$ is regular by prop. 4.
 
-#### Corollary 5 {#ac-x-s4-prop-4-cor-5 .statement}
+#### Corollary 5 {#ac-x-s4-prop-4-cor-5 .statement tag=0D64}
 
 *Let $A$ be a regular ring, and $(T_i)_{i \in I}$ a finite family of indeterminates. The polynomial ring $A[(T_i)_{i \in I}]$ and the ring of formal series $A[[T_i]_{i \in I}]$ are regular.*
 
@@ -221,7 +221,7 @@ This follows from cor. 4 and cor. 3 b).
 
 ### 3. Regular Rings and Finite Algebras
 
-#### Proposition 5 {#ac-x-s4-prop-5 .statement}
+#### Proposition 5 {#ac-x-s4-prop-5 .statement tag=0D65}
 
 *Let $\rho : A \to B$ be a homomorphism of noetherian rings and $N$ a $B$-module. Suppose that
 a) the ring $A$ is regular,
@@ -234,7 +234,7 @@ The point is to prove that, for every maximal ideal $m$ of $A$, the $A_m$-module
 
 Let $m$ be a maximal ideal of $\mathrm{Supp}_A(N)$; put $n = \dim(A_m)$. By Cor. 2 of Prop. 3 of No. 1, it is enough to prove that $N_m$ is a Macaulay $A_m$-module of dimension $n$. Every maximal ideal of $B_m$ is of the form $nB_m$, where $n$ is a prime ideal of $B$ lying over $m$ (V, § 2, No. 1, Lemma 1 and Prop. 1). Let $p$ be a minimal prime ideal of $\mathrm{Supp}_B(N)$, contained in $n$. The closed subset $V(pB_n)$ of $\mathrm{Supp}_{B_n}(N_n)$ is then of codimension zero; since the $B_n$-module $N_n$ is Macaulay, the Cor. of Prop. 2, § 2, No. 2 yields the equality $\dim_{B_n}(N_n) = \dim(B_n/pB_n)$. But $p$ lies over a minimal prime ideal of $A$, contained in $m$, so that
 
-#### Corollary {#ac-x-s4-n3-cor-1 .statement}
+#### Corollary {#ac-x-s4-n3-cor-1 .statement tag=0D66}
 
 Let B be an integral noetherian ring and let A be a regular subring of B. Suppose that the A-module B is finitely generated. In order that the ring B be a Macaulay ring, it is necessary and sufficient that the A-module B be projective.
 
@@ -242,7 +242,7 @@ If the ring B is a Macaulay ring, the A-module B is projective by Prop. 5.
 
 Suppose conversely that the A-module B is projective. The A-module A is Macaulay (Cor. 2 of Prop. 4); the A-module B is a direct factor of a free A-module of finite type, hence is Macaulay (§ 2, No. 1, Example 2). One then applies Cor. 1 of Prop. 8 of § 2, No. 6.
 
-#### Example {#ac-x-s4-n3-exa-1 .statement}
+#### Example {#ac-x-s4-n3-exa-1 .statement tag=0D67}
 
 Let B be a nonzero integral algebra of finite type over a field K. By VIII, § 2, No. 4, Cor. 1 of Th. 3, there exists a subalgebra A of B isomorphic to a polynomial algebra over K and such that B is a finitely generated A-module. The following properties are equivalent:
 
@@ -256,7 +256,7 @@ A ring A is said to be presentable if there exists a regular ring R and a surjec
 
 By definition, regular rings are presentable.
 
-#### Proposition 6 {#ac-x-s4-prop-6 .statement}
+#### Proposition 6 {#ac-x-s4-prop-6 .statement tag=0D68}
 
 a) Every ring of fractions of a presentable ring is presentable. Every algebra of finite type over a presentable ring is a presentable ring.
 
@@ -280,7 +280,7 @@ d) Let $m_A$ be the maximal ideal of A; then $p = \rho^{-1}(m_A)$ is a prime ide
 
 Since fields and Dedekind rings are regular, hence presentable, Proposition 6 implies that most rings ordinarily encountered in algebraic geometry are presentable.
 
-#### Proposition 7 {#ac-x-s4-prop-7 .statement}
+#### Proposition 7 {#ac-x-s4-prop-7 .statement tag=0D69}
 
 Let A be a presentable ring.
 
@@ -304,7 +304,7 @@ c) This is proved as in part c) of loc. cit.
 
 ### 5. Regular rings and flat extensions
 
-#### Proposition 8 {#ac-x-s4-prop-8 .statement}
+#### Proposition 8 {#ac-x-s4-prop-8 .statement tag=0D6A}
 
 Let $\rho : A \to B$ be a homomorphism of noetherian rings making B a faithfully flat A-module.
 
@@ -324,7 +324,7 @@ $$
 
 is exact and one has $dp_B(B \otimes_A N) = dp_B(B \otimes_A M) - 1$. The induction hypothesis applied to $N$ enables one to conclude. This proves a); assertion b) follows from a) and Prop. 4 of No. 2.
 
-#### Corollary {#ac-x-s4-n5-cor-1 .statement}
+#### Corollary {#ac-x-s4-n5-cor-1 .statement tag=0D6B}
 
 *Let $B$ be a regular integral ring and let $A$ be a noetherian subring of $B$ such that $B$ is a finitely generated $A$-module. The following conditions are equivalent:*
 
@@ -352,7 +352,7 @@ $$
 d\rho : \kappa_B \otimes_{\kappa_A} (\mathfrak{m}_A / \mathfrak{m}_A^2) \to \mathfrak{m}_B / \mathfrak{m}_B^2 .
 $$
 
-#### Lemma 1 {#ac-x-s4-lem-1 .statement}
+#### Lemma 1 {#ac-x-s4-lem-1 .statement tag=0D6C}
 
 *One has*
 
@@ -380,7 +380,7 @@ $$
 
 which implies the lemma.
 
-#### Proposition 9 {#ac-x-s4-prop-9 .statement}
+#### Proposition 9 {#ac-x-s4-prop-9 .statement tag=0D6D}
 
 *Let $\rho : A \to B$ be a local homomorphism of noetherian local rings. The following conditions are equivalent:
 
@@ -403,11 +403,11 @@ One has $\dim(B) \leq \dim(A) + \dim(\kappa_A \otimes_A B)$ (VIII, § 3, No. 4, 
 
 It now remains for us to prove that when the equivalent conditions (i) and (iv) are satisfied, the $A$-module $B$ is flat. Let $x$ be a system of coordinates of $A$. Since $d\rho$ is injective, the image of this sequence under $\rho$ forms part of a system of coordinates of $B$. Thus the sequence $x$ is completely secant for $A$ and for $B$ (VIII, § 5, No. 3, Proposition 2), and generates the ideal $\mathfrak{m}_A$ of $A$. By Remark 3 of A, X, p. 159, the $A$-module $\mathrm{Tor}_1^A(\kappa_A, B)$ is isomorphic to $H_1(x, B)$, and therefore is zero; it follows that $B$ is flat over $A$ (III, § 5, No. 2, Theorem 1 and No. 4, Proposition 2).
 
-#### Example {#ac-x-s4-n5-exa-1 .statement}
+#### Example {#ac-x-s4-n5-exa-1 .statement tag=0D6E}
 
 *Let $X$, $Y$ be two complex analytic varieties, locally of finite dimension, $f$ a morphism of $X$ into $Y$, and $x$ a point of $X$. Consider the local homomorphism $\rho : \mathscr{O}_{Y, f(x)} \to \mathscr{O}_{X, x}$ associated with $f$. The mapping $d\rho$ is the transpose of the tangent mapping $T_x(f) : T_x(X) \to T_{f(x)}(Y)$. The conditions (i) to (iv) of Proposition 9 are therefore equivalent in this case to the fact that $f$ is a submersion at $x$ (VAR, R, 5.9.1).*
 
-#### Corollary {#ac-x-s4-n5-cor-2 .statement}
+#### Corollary {#ac-x-s4-n5-cor-2 .statement tag=0D6F}
 
 *Let $\rho : A \to B$ be a homomorphism of noetherian rings making $B$ a flat $A$-module. If $A$ is regular and if $\kappa(\rho^{-1}(\mathfrak{n})) \otimes_{A} B$ is regular for every maximal ideal $\mathfrak{n}$ of $B$, the ring $B$ is regular.
 

@@ -24,11 +24,11 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: a5c08d974febfb84fe7fff65885b39088b3c837f8bfdb463ef3a49387c8872c8
+content_sha256: e9bcca460a7bea46d55d39b6adb8509c4e3b87dacb7e5644d2ad87223284888d
 translated_from: content/fr/alg/IX/05_s5_proprietes_speciales_aux_formes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: b46524d6e0cb7e6bff2c2a53d394fdaa17538e41d07575f7abb24c1a7fb88a0a
+source_content_sha256: 3c38f8840bebf9994b9b5aec8fb919fc5ee0b58cafb2987b1fa9c66b3cc01b44
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-b0ed719d
 glossary_version: 34
@@ -40,7 +40,7 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 ### 1. Reduction of Alternating Bilinear Forms.
 
-#### Theorem 1 {#alg-ix-s5-thm-1 .statement}
+#### Theorem 1 {#alg-ix-s5-thm-1 .statement tag=0DL3}
 
 Let $A$ be a (commutative) principal ring, $E$ a free $A$-module of finite dimension $n$ and $\Phi$ an alternating bilinear form on $E$. Then there exists a basis $(e_i)_{1 \leq i \leq n}$ of $E$ and an even integer $2r \leq n$, such that
 
@@ -72,7 +72,7 @@ $$
 
 But we know (*loc. cit.*) that the image of $f(E)$ by every linear form on $E^*$ is contained in the ideal $A\alpha_1$, in other words all the values $\Phi(x, y) = \langle x, f(y) \rangle$ belong to $A\alpha_1$; hence the existence and uniqueness of $\xi_1$ and $\xi_2$. Thus $P^0$ is a free module of rank $n-2$; there exists therefore, in $P^0$, according to the induction hypothesis, a basis $(e_3, e_4, \ldots, e_n)$ satisfying the conditions of the statement. To prove that the basis $(e_1, \ldots, e_n)$ of $E$ thus obtained also satisfies these conditions, it is enough to prove that $\alpha_1$ divides $\alpha_2$; now this follows from the fact that all the values $\Phi(x, y)$ are multiples of $\alpha_1$. It is then clear that $e_{2r+1}, \ldots, e_n$ generate $E^0$. Finally, if $(e'_i)$ is the dual basis of $(e_i)$, we have $f(e_{2j-1}) = -\alpha_j e'_{2j}$ and $f(e_{2j}) = \alpha_j e'_{2j}$ for $j = 1, \ldots, r$ and $f(e_k) = 0$ for $k = 2r+1, \ldots, n$; the ideals $A\alpha_1, A\alpha_1, A\alpha_2, A\alpha_2, \ldots, A\alpha_r, A\alpha_r$ are therefore the invariant factors of $f(E)$ with respect to $E^*$, which proves their uniqueness (Chapter VII, $§ 4$, No. 2, Theorem 1).
 
-#### Corollary 1 {#alg-ix-s5-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-ix-s5-thm-1-cor-1 .statement tag=0DL4}
 
 *Let $A$ be a commutative field, $E$ a finite-dimensional vector space of dimension $n$ over $A$, and $\Phi$ an alternating bilinear form on E. There then exists a basis $(e_i)_{1 \leq i \leq n}$ of E and a pair integer $2r \leq n$ such that
 
@@ -84,11 +84,11 @@ In particular $\Phi$ is of pair rank $2r$.
 
 A basis satisfying (2) is called a symplectic basis for $\Phi$.
 
-#### Remark {#alg-ix-s5-n1-rem-1 .statement}
+#### Remark {#alg-ix-s5-n1-rem-1 .statement tag=0DL5}
 
 It should be noted that this corollary is also an immediate consequence of Proposition 3 of § 4, No. 2 and of its Corollary 1, because with the notation of this proposition, one necessarily has $H = \{0\}$ since $\Phi$ is alternating.
 
-#### Corollary 2 {#alg-ix-s5-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-ix-s5-thm-1-cor-2 .statement tag=0DL6}
 
 Let A be a commutative field, E a finite-dimensional vector space of dimension n over A. For every bivector $z \in \bigwedge^2 E$, there exists a basis $(e_i)_{1 \leq i \leq n}$ of E such that
 
@@ -100,7 +100,7 @@ Indeed, it is enough to note that z identifies canonically with an alternating b
 
 By translating Corollary 1 into matrix language, one obtains:
 
-#### Corollary 3 {#alg-ix-s5-thm-1-cor-3 .statement}
+#### Corollary 3 {#alg-ix-s5-thm-1-cor-3 .statement tag=0DL7}
 
 Let $A$ be a commutative field, $R$ an alternating square matrix over $A$. The rank of $R$ is an even number $2r$, and there exists an invertible matrix $P$ over $A$ such that
 
@@ -112,7 +112,7 @@ $$
 \end{pmatrix}.
 $$
 
-#### Remark {#alg-ix-s5-n1-rem-2 .statement}
+#### Remark {#alg-ix-s5-n1-rem-2 .statement tag=0DL8}
 
 If $A$ is any commutative ring and $R$ an alternating square matrix of odd order n over $A$, one has det $R = 0$. This results from Cor. 3 when $A$ is a field. A direct proof in the case where $A$ is a field of characteristic $\neq 2$ is as follows: since ${}^tR = -R$, one has det $R = \det {}^tR = (-1)^n \det R$, whence $2 \det {}^tR = 0$. Now, since the determinant of an alternating matrix $(\alpha_{ij})$ is a polynomial with integer coefficients with respect to the $\alpha_{ij}$ such that $i < j$, the principle of extension of algebraic identities (Chapter IV, § 2, No. 5, Scholium) shows that our assertion is then true for an arbitrary commutative ring $A$.
 
@@ -140,11 +140,11 @@ One therefore has
 
 (6) $\bigwedge^m u = m! \mathrm{P}((\alpha_{hk})) . e.$
 
-#### Definition 1 {#alg-ix-s5-def-1 .statement}
+#### Definition 1 {#alg-ix-s5-def-1 .statement tag=0DL9}
 
 Given an alternating matrix $R = (\alpha_{ij})$ $(i, j = 1, \ldots, 2m)$ of even order $2m$ over an arbitrary commutative ring $A$, the pfaffian of $R$, denoted by $\mathrm{Pf}(R)$, is the element $\mathrm{P}((\alpha_{hk}))$ of $A$, where $1 \leq h < k \leq 2m$.
 
-#### Example {#alg-ix-s5-n2-exa-1 .statement}
+#### Example {#alg-ix-s5-n2-exa-1 .statement tag=0DLA}
 
 Suppose:
 
@@ -152,7 +152,7 @@ $\alpha_{12} = -\alpha_{21} = \beta_1, \alpha_{34} = -\alpha_{43} = \beta_2, \ld
 
 all the other $\alpha_{ij}$ being zero (cf. th. 1). Then the pfaffian of $R = (\alpha_{ij})$ is $\beta_1 \beta_2 \ldots \beta_m$.
 
-#### Proposition 1 {#alg-ix-s5-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s5-prop-1 .statement tag=0DLB}
 
 Let $R$ be an alternating matrix of even order $2m$ over a commutative ring $A$, and let $P$ be a square matrix of order $2m$ over $A$. We have
 
@@ -164,7 +164,7 @@ $$ u = \sum_{i < j} \alpha_{ij} e_i \wedge e_j = \frac{1}{2} \sum_{1 \leq i, j \
 
 of $\bigwedge^2 \mathbf{A}^{2m}$, where $(e_i)$ denotes the canonical basis of $\mathbf{A}^{2m}$; consider ${}^t P$ as the matrix, with respect to the basis $(e_i)$, of an endomorphism $f$ of $\mathbf{A}^{2m}$. Then the bivector $(\bigwedge f)(u)$ is associated with the matrix ${}^t P . R . P$ since it is equal to $\frac{1}{2} \sum_{i, j, s, t} \beta_{is} \alpha_{ij} \beta_{jt} e_s \wedge e_t$. Since the extension $\bigwedge f$ of $f$ to the exterior algebra $\bigwedge \mathbf{A}^{2m}$ is an endomorphism of this algebra (chap. III, § 5, no 9), we have $\bigwedge ((\bigwedge f)(u)) = (\bigwedge f)(\bigwedge u)$; since $\bigwedge f$ is the homothety of ratio $\det f$, it follows therefore from (6) and def. 1, that we have $m! \mathrm{Pf}({}^t P . R . P) = m! (\det P) \mathrm{Pf}(R)$, whence (7) in the case under consideration. The general case follows by observing that the two members of (7) are polynomials with integer coefficients in the elements of the matrices $R$ and $P$ (chap. IV, § 2, no 5, Scholium).
 
-#### Proposition 2 {#alg-ix-s5-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s5-prop-2 .statement tag=0DLC}
 
 For every alternating matrix $R$ of even order $2m$ over a commutative ring $A$, one has
 $$
@@ -193,7 +193,7 @@ $$
 
 Conversely, if a square matrix $A$ of order $2m$ over $A$ satisfies (9), it is symplectic: it is sufficient indeed to prove that it is invertible; now (9) implies $\mathrm{Pf}(R_m) = \mathrm{Pf}({}^tA . R_m . A) = (\det A) \mathrm{Pf}(R_m)$ according to prop. 1 of No. 2, hence $\det A = 1$. We have at the same time proved the following proposition:
 
-#### Proposition 3 {#alg-ix-s5-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s5-prop-3 .statement tag=0DLD}
 
 *The determinant of a symplectic matrix is equal to 1.*
 

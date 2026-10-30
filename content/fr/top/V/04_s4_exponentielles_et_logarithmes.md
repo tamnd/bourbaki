@@ -25,14 +25,14 @@ subsections:
       pdf_page: 21
 statements: 1
 exercises: 3
-content_sha256: 13c4d5874b69e07b73bba14aaa5be449e3a08c434da280bc51e59cfa0e546880
+content_sha256: 839860d73de650f9dbdb96c49fc6ca33cebb60aa9271c90a696ac1eced1a7629
 ---
 
 ## § 4. EXPONENTIELLES ET LOGARITHMES
 
 ### 1. Définition de $a^x$ et de $\log_a x$
 
-#### Théorème 1 {#top-v-s4-thm-1 .statement}
+#### Théorème 1 {#top-v-s4-thm-1 .statement tag=0BW0}
 
 Le groupe multiplicatif $\mathbf{R}_+^*$ des nombres réels $> 0$ est un groupe topologique isomorphe au groupe additif $\mathbf{R}$ des nombres réels.
 

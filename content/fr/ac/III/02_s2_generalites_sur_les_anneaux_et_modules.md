@@ -64,14 +64,14 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: 244393c84629694f8e1e2de9556f3a4d82a8216a05154ac4e7c886fe749e6836
+content_sha256: c498ec79281d1388396f5dc1bc2b17b21d639ba2396ad45db19feaa6a33f0541
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.
 
 ### 1. Anneaux et modules filtrés.
 
-#### Définition 1 {#ac-iii-s2-def-1 .statement}
+#### Définition 1 {#ac-iii-s2-def-1 .statement tag=04DH}
 
 On appelle filtration croissante (resp. décroissante) sur un groupe $G$ une suite croissante (resp. décroissante) $(G_n)_{n \in \mathbf{Z}}$ de sous-groupes de $G$.
 
@@ -81,7 +81,7 @@ Si $(G_n)_{n \in \mathbf{Z}}$ est une filtration croissante (resp. décroissante
 
 Étant donnée une filtration décroissante $(G_n)_{n \in \mathbf{Z}}$ sur un groupe $G$, il est clair que $\bigcap_{n \in \mathbf{Z}} G_n$ et $\bigcup_{n \in \mathbf{Z}} G_n$ sont des sous-groupes de G ; on dit que la filtration est séparée si $\bigcap_{n \in \mathbf{Z}} G_n$ est réduit à l’élément neutre, exhaustive si $\bigcup_{n \in \mathbf{Z}} G_n = G$.
 
-#### Définition 2 {#ac-iii-s2-def-2 .statement}
+#### Définition 2 {#ac-iii-s2-def-2 .statement tag=04DI}
 
 Etant donné un anneau A, on dit qu’une filtration $(A_n)_{n \in \mathbf{Z}}$ sur le groupe additif A est compatible avec la structure d’anneau de A si l’on a
 (1) $A_m A_n \subset A_{m+n}$ pour $m \in \mathbf{Z}, n \in \mathbf{Z}$
@@ -93,7 +93,7 @@ Les conditions (1) et (2) montrent que $A_0$ est un sous-anneau de A, et les $A_
 
 Un cas particulier important est celui où $A_0 = A$ ; alors $A_n = A$ pour $n \leq 0$ et tous les $A_n$ sont des idéaux bilatères de A.
 
-#### Définition 3 {#ac-iii-s2-def-3 .statement}
+#### Définition 3 {#ac-iii-s2-def-3 .statement tag=04DJ}
 
 Soient A un anneau filtré, $(A_n)_{n \in \mathbf{Z}}$ sa filtration, E un A-module. On dit qu’une filtration $(E_n)_{n \in \mathbf{Z}}$ sur E est compatible avec sa structure de module sur l’anneau filtré A, si l’on a
 (3) $A_m E_n \subset E_{m+n}$ pour $m \in \mathbf{Z}, n \in \mathbf{Z}$.
@@ -102,13 +102,13 @@ Le A-module E, muni de cette filtration, est appelé module filtré.
 
 Les $E_n$ sont tous des $A_0$-modules ; si $B = \bigcup_{n \in \mathbf{Z}} A_n$, il est clair que $\bigcup_{n \in \mathbf{Z}} E_n$ est un B-module, et il en est de même de $\bigcap_{n \in \mathbf{Z}} E_n$, par le même raisonnement que ci-dessus pour $\bigcap_{n \in \mathbf{Z}} A_n$. Lorsque $A_0 = A$, tous les $E_n$ sont des sous-modules de E.
 
-#### Exemple 1 {#ac-iii-s2-n1-exa-1 .statement}
+#### Exemple 1 {#ac-iii-s2-n1-exa-1 .statement tag=0CH0}
 
 Soit $A$ un anneau gradué de type $\mathbf{Z}$; pour tout $i \in \mathbf{Z}$, soit $A_{(i)}$ le sous-groupe des éléments homogènes de degré $i$ dans $A$. Posons $A_n = \sum_{i \geq n} A_{(i)}$; alors il est immédiat que $(A_n)$ est une filtration décroissante, exhaustive et séparée, compatible avec la structure d’anneau de $A$; on dit que cette filtration est associée à la graduation $(A_{(i)})_{i \in \mathbf{Z}}$ et que l’anneau filtré $A$ est associé à l’anneau gradué $A$ donné.
 
 Soit maintenant $E$ un module gradué de type $\mathbf{Z}$ sur l’anneau gradué $A$ et pour tout $i \in \mathbf{Z}$, soit $E_{(i)}$ le sous-groupe des éléments homogènes de degré $i$ de $E$. Posons $E_n = \sum_{i \geq n} E_{(i)}$; alors $(E_n)$ est une filtration décroissante, exhaustive et séparée, compatible avec la structure de module de $E$ sur l’anneau filtré $A$; on dit que cette filtration est associée à la graduation $(E_{(i)})_{i \in \mathbf{Z}}$ et que le module filtré $E$ est associé au module gradué $E$ donné.
 
-#### Exemple 2 {#ac-iii-s2-n1-exa-2 .statement}
+#### Exemple 2 {#ac-iii-s2-n1-exa-2 .statement tag=0CH1}
 
 Soient $A$ un anneau filtré, $(A_n)_{n \in \mathbf{Z}}$ sa filtration, $E$ un $A$-module. Posons $E_n = A_n E$; il résulte de (1) que l’on a
 
@@ -118,17 +118,17 @@ $$
 
 et de (2) que $E_0 = E$; donc $(E_n)$ est une filtration exhaustive compatible avec la structure de $A$-module de $E$. On dit que cette filtration sur $E$ est déduite de la filtration donnée $(A_n)$ sur $A$; on notera qu’elle n’est pas nécessairement séparée, même si $(A_n)$ est séparée et si $E$ et les $A_n$ sont des $A$-modules de type fini (cf. § 3, exerc. 2 ; voir cependant § 3, n° 3, prop. 6 et n° 2, cor. de la prop. 4).
 
-#### Exemple 3 {#ac-iii-s2-n1-exa-3 .statement}
+#### Exemple 3 {#ac-iii-s2-n1-exa-3 .statement tag=0CH2}
 
 Soient $A$ un anneau, $m$ un idéal bilatère de $A$. Posons $A_n = m^n$ pour $n \geq 0$, $A_n = A$ pour $n < 0$; il est immédiat que $(A_n)$ est une filtration exhaustive sur $A$, dite filtration $m$-adique. Soit $E$ un $A$-module ; on appelle filtration $m$-adique sur $E$ la filtration $(E_n)$ déduite de la filtration $m$-adique de $A$; autrement dit, on a $E_n = m^n E$ pour $n \geq 0$ et $E_n = E$ pour $n < 0$.
 
 Si $A$ est commutatif et $B$ une $A$-algèbre, $n = mB$ est un idéal bilatère de $B$, et pour tout $B$-module $F$, on a $n^k F = m^k F$, donc la filtration $n$-adique sur $F$ coïncide avec la filtration $m$-adique (lorsque $F$ est considéré comme $A$-module).
 
-#### Exemple 4 {#ac-iii-s2-n1-exa-4 .statement}
+#### Exemple 4 {#ac-iii-s2-n1-exa-4 .statement tag=0CH3}
 
 Si A est un anneau filtré, $(A_n)$ sa filtration, le A-module à gauche $A_s$ est un A-module filtré pour la filtration $(A_n)$. Il est clair d’autre part que $(A_n)$ est une filtration compatible avec la structure d’anneau de l’anneau opposé $A^0$, et $A_d$ est un $A^0$-module (à gauche) filtré pour la filtration $(A_n)$.
 
-#### Exemple 5 {#ac-iii-s2-n1-exa-5 .statement}
+#### Exemple 5 {#ac-iii-s2-n1-exa-5 .statement tag=0CH4}
 
 Sur un anneau A, les ensembles $A_n$ tels que $A_n = 0$ pour $n > 0$, $A_n = A$ pour $n \leq 0$ forment une filtration dite *triviale*, associée (*Exemple 1*) à la graduation triviale de A ; sur un A-module E, toute filtration $(E_n)$ formée de sous-A-modules est alors compatible avec la structure de module de E sur l’anneau filtré A. On peut donc dire que tout groupe commutatif filtré G est un $\mathbf{Z}$-module filtré, lorsque $\mathbf{Z}$ est muni de la filtration triviale.
 
@@ -225,15 +225,15 @@ Si on applique d’abord cette définition au cas où $E = A_s$, l’application
 
 A ; elle définit donc sur gr(A) une structure d’anneau, et la graduation $(\mathrm{gr}_n(A))_{n \in \mathbf{Z}}$ est par définition compatible avec cette structure. On dit que l’anneau gradué gr(A) (de type $\mathbf{Z}$) ainsi défini est l’anneau gradué associé à l’anneau filtré A ; il est évidemment commutatif lorsque A est commutatif ; $\mathrm{gr}_0(A)$ est un sous-anneau de gr(A). L’application (10) est d’autre part une loi externe de gr(A)-module sur gr(E), les axiomes des modules étant trivialement vérifiés, et la graduation $(\mathrm{gr}_n(E))_{n \in \mathbf{Z}}$ sur gr(E) est évidemment compatible avec cette structure de module. On dit que le gr(A)-module gradué gr(E) (de type $\mathbf{Z}$) ainsi défini est le module gradué associé au A-module filtré E.
 
-#### Exemple 1 {#ac-iii-s2-n3-exa-1 .statement}
+#### Exemple 1 {#ac-iii-s2-n3-exa-1 .statement tag=04DK}
 
 Soient A un anneau commutatif, t un élément de A non diviseur de 0. Munissons A de la filtration (t)-adique (n° 1, Exemple 3). Alors l’anneau gradué associé gr(A) est canoniquement isomorphe à l’anneau de polynômes $A/(t))[X]$. En effet, on a $\mathrm{gr}_n(A) = 0$ pour $n < 0$, et par définition l’anneau $\mathrm{gr}_0(A)$ est l’anneau $A/(t)$. Notons maintenant qu’en vertu de l’hypothèse sur t la relation $at^n \equiv 0 \pmod{t^{n+1}}$ est équivalente à $a \equiv 0 \pmod{t}$; si $\tau$ est l’image canonique de t dans $\mathrm{gr}_1(A)$, tout élément de $\mathrm{gr}_n(A)$ s’écrit donc d’une manière et d’une seule sous la forme $\alpha \tau^n$ où $\alpha \in \mathrm{gr}_0(A)$; d’où notre assertion.
 
-#### Exemple 2 {#ac-iii-s2-n3-exa-2 .statement}
+#### Exemple 2 {#ac-iii-s2-n3-exa-2 .statement tag=04DL}
 
 Soient K un anneau commutatif, A l’anneau de séries formelles $K[[X_1, ..., X_r]]$ (Alg., chap. IV, § 5), m l’idéal de A dont les éléments sont les séries formelles sans terme constant. Munissons A de la filtration m-adique (n° 1, Exemple 3); si $M_1, ..., M_s$ sont les différents monômes en $X_1, ..., X_r$ de degré total $n-1$, il est clair que toute série formelle $u$ d’ordre total $\omega(u) \geq n$ (loc. cit., n° 2) s’écrit $\sum_{k=1}^s u_k M_k$, où les $u_k$ appartiennent à m; on voit donc que $m^n$ est l’ensemble des séries formelles $u$ telles que $\omega(u) \geq n$, ce qui montre que $\omega$ est la fonction d’ordre pour la filtration m-adique. Il est clair alors que pour toute série formelle $u \in m^n$, il existe un polynôme homogène de degré $n$ en les $X_i$ et un seul qui soit congru à $u$ mod. $m^{n+1}$, savoir la somme des termes de degré $n$ de $u$; on en conclut que gr(A) est canoniquement isomorphe à l’anneau de polynômes $K[X_1, ..., X_r]$.
 
-#### Exemple 3 {#ac-iii-s2-n3-exa-3 .statement}
+#### Exemple 3 {#ac-iii-s2-n3-exa-3 .statement tag=04DM}
 
 Plus généralement, soient A un anneau commutatif, b un idéal de A, et munissons A de la filtration b-adique. Si on pose B = gr_0(A), F = gr_1(A) = b/b^2, on sait (Alg., chap. III, 3e éd.) que l’application identique du B-module F sur lui-même se prolonge de façon unique en un homomorphisme u de l’algèbre symétrique S(F) de F dans la B-algèbre gr(A); il résulte de la définition de gr(A) que u est un homomorphisme surjectif d’algèbres graduées; en effet, pour n ≥ 1, tout élément de gr_n(A) est somme de classes mod. b^{n+1} d’éléments de la forme y = x_1x_2…x_n, où x_i ∈ b (1 ≤ i ≤ n); si ξ_i est la classe de x_i mod. b^2, il est clair que la classe de y mod. b^{n+1} est l’élément u(ξ_1)…u(ξ_n), d’où notre assertion. En particulier, tout système de générateurs du B-module F est un système de générateurs de la B-algèbre gr(A).
 
@@ -245,11 +245,11 @@ $$
 
 dite canonique.
 
-#### Exemple 4 {#ac-iii-s2-n3-exa-4 .statement}
+#### Exemple 4 {#ac-iii-s2-n3-exa-4 .statement tag=04DN}
 
 Soient K un anneau commutatif, g une algèbre de Lie sur K, U l’algèbre enveloppante de g. On définit sur U une filtration croissante (U_n)_{n∈\mathbf{Z}} en prenant U_n = {0} pour n < 0, et en désignant par U_n, pour n ≥ 0, l’ensemble des éléments de U qui peuvent s’exprimer comme somme de produits d’au plus n éléments de g; on a U_0 = K, et gr(U) est une K-algèbre commutative (Gr. et alg. de Lie, chap. I, § 2, n° 6). L’application canonique de g dans gr_1(U) = U_1/U_0 se prolonge de façon unique en un homomorphisme h de l’algèbre symétrique S(g) du K-module g dans la K-algèbre gr(U); l’homomorphisme h est surjectif, et lorsque le K-module g est libre, h est bijectif (loc. cit., n° 7, th. 1).*
 
-#### Exemple 5 {#ac-iii-s2-n3-exa-5 .statement}
+#### Exemple 5 {#ac-iii-s2-n3-exa-5 .statement tag=04DO}
 
 Soient A un anneau gradué de type \mathbf{Z}, E un A-module gradué de type $\mathbf{Z}$; soit $A_{(i)}$ (resp. $E_{(i)}$) le sous-groupe des éléments homogènes de degré $i$ de $A$ (resp. $E$). Munissons $A$ et $E$ des filtrations associées à leurs graduations ($n^o 1$, Exemple 1) et notons $A'$ et $E'$ l’anneau filtré et le $A'$-module filtré ainsi obtenus. Alors il est immédiat que l’application $\mathbf{Z}$-linéaire $A \to \mathrm{gr}(A')$ qui transforme un élément de $A_{(n)}$ en son image canonique dans
 $$
@@ -257,13 +257,13 @@ $$
 $$
 est un isomorphisme d’anneaux gradués. On définit de même un isomorphisme canonique $E \to \mathrm{gr}(E')$ de $A$-modules gradués.
 
-#### Proposition 1 {#ac-iii-s2-prop-1 .statement}
+#### Proposition 1 {#ac-iii-s2-prop-1 .statement tag=04DP}
 
 *Soient A un anneau filtré, $(A_n)_{n \in \mathbf{Z}}$ sa filtration, $v$ sa fonction d’ordre. Supposons que $\mathrm{gr}(A)$ soit un anneau sans diviseur de zéro. Alors, pour tout couple d’éléments $a, b$ de l’anneau $B = \bigcup_{n \in \mathbf{Z}} A_n$, on a $v(ab) = v(a) + v(b)$.*
 
 Comme $n = \bigcap_{n \in \mathbf{Z}} A_n$ est un idéal bilatère de l’anneau $B$, la formule est vraie si $v(a)$ ou $v(b)$ est égal à $+ \infty$. Dans le cas contraire, $v(a) = r$ et $v(b) = s$ sont des entiers ; les classes $\alpha$ de $a$ mod.$A_{r+1}$ et $\beta$ de $b$ mod.$A_{s+1}$ sont $\neq 0$ par définition, d’où par hypothèse $\alpha \beta \neq 0$ dans $\mathrm{gr}(A)$, et par suite $ab \notin A_{r+s+1}$ ; comme $ab \in A_{r+s}$, on a $v(ab) = v(a) + v(b)$.
 
-#### Corollaire {#ac-iii-s2-n3-cor-1 .statement}
+#### Corollaire {#ac-iii-s2-n3-cor-1 .statement tag=04DQ}
 
 *Soient A un anneau filtré, $(A_n)_{n \in \mathbf{Z}}$ sa filtration ; posons $B = \bigcup_{n \in \mathbf{Z}} A_n$, $n = \bigcap_{n \in \mathbf{Z}} A_n$. Si l’anneau $\mathrm{gr}(A)$ est sans diviseur de zéro, il en est de même de l’anneau $B/n$.*
 
@@ -271,7 +271,7 @@ En effet, si $a$ et $b$ sont des éléments de $B$ n’appartenant pas à $n$, o
 
 On notera que l’anneau $A$ peut être un anneau intègre, la filtration $(A_n)$ exhaustive et séparée, sans que $\mathrm{gr}(A)$ soit un anneau intègre (exerc. 2).
 
-#### Remarque {#ac-iii-s2-n3-rem-1 .statement}
+#### Remarque {#ac-iii-s2-n3-rem-1 .statement tag=04DR}
 
 Soit $G$ un groupe non nécessairement commutatif, muni d’une filtration $(G_n)_{n \in \mathbf{Z}}$ telle que $G_{n+1}$ soit *distingué* dans $G_n$ pour tout $n \in \mathbf{Z}$; posons encore $\mathrm{gr}_n(G) = G_n / G_{n+1}$. On appelle encore groupe gradué associé à $G$ et on note $\mathrm{gr}(G)$ le produit restreint de la famille $(\mathrm{gr}_n(G))_{n \in \mathbf{Z}}$, c'est-à-dire le sous-groupe du produit $\prod_{n \in \mathbf{Z}} \mathrm{gr}_n(G)$ formé des éléments $(\xi_n)$ dont toutes les composantes, sauf au plus un nombre fini, sont égales à l’élément neutre.
 
@@ -283,7 +283,7 @@ $$
 \mathrm{gr}(h' \circ h) = \mathrm{gr}(h') \circ \mathrm{gr}(h).
 $$
 
-#### Proposition 2 {#ac-iii-s2-prop-2 .statement}
+#### Proposition 2 {#ac-iii-s2-prop-2 .statement tag=04DS}
 
 Soient $G$ un groupe commutatif filtré, $H$ un sous-groupe de $G$; on munit $H$ de la filtration induite et $G/H$ de la filtration quotient. Si $j : H \to G$ est l’injection canonique et $p : G \to G/H$ la surjection canonique, $j$ et $p$ sont compatibles avec les filtrations, et la suite
 
@@ -313,19 +313,19 @@ $$
 \mathrm{gr}(u + u') = \mathrm{gr}(u) + \mathrm{gr}(u').
 $$
 
-#### Remarque 1 {#ac-iii-s2-n4-rem-1 .statement}
+#### Remarque 1 {#ac-iii-s2-n4-rem-1 .statement tag=0CH5}
 
 Il est clair que les homomorphismes d’anneaux filtrés (resp. de modules filtrés sur un anneau filtré donné $A$) compatibles avec les filtrations peuvent être pris comme morphismes pour la structure d’anneau filtré (resp. de $A$-module filtré) (Ens., chap. IV, § 2, no 1).
 
-#### Remarque 2 {#ac-iii-s2-n4-rem-2 .statement}
+#### Remarque 2 {#ac-iii-s2-n4-rem-2 .statement tag=0CH6}
 
 Soient E et F deux modules sur un anneau filtré A, et munissons-les des filtrations déduites de la filtration (A_n) de A (n° 1, Exemple 2). Alors toute application A-linéaire u : E → F est compatible avec les filtrations, puisque u(A_nE) = A_nu(E) ⊂ A_nF.
 
-#### Remarque 3 {#ac-iii-s2-n4-rem-3 .statement}
+#### Remarque 3 {#ac-iii-s2-n4-rem-3 .statement tag=0CH7}
 
 On notera qu’un homomorphisme u : E → F de A-modules filtrés, compatible avec les filtrations, peut être tel que gr(u) = 0 sans être nul ; il en est ainsi par exemple de l’endomorphisme x → nx du groupe additif $\mathbf{Z}$ muni de la filtration (n)-adique (pour un entier $n > 1$ quelconque). La relation gr(u) = gr(v) pour deux endomorphismes u, v de E dans F, compatibles avec les filtrations, n’entraîne donc pas nécessairement $u = v$.
 
-#### Remarque 4 {#ac-iii-s2-n4-rem-4 .statement}
+#### Remarque 4 {#ac-iii-s2-n4-rem-4 .statement tag=0CH8}
 
 Les définitions du début de ce n° s’étendent immédiatement à deux groupes non nécessairement commutatifs G, G′, filtrés par des sous-groupes $G_n, G'_n$, tels que $G_{n+1}$ (resp. $G'_{n+1}$) soit distingué dans $G_n$ (resp. $G'_n$). La prop. 2 est encore valable en faisant la même hypothèse sur les $G_n$ et en supposant que H est distingué dans G, la démonstration étant inchangée aux notations près.
 
@@ -361,7 +361,7 @@ structure uniforme définie par $d$ est donc la structure uniforme du groupe top
 
 Étant donné un anneau topologique $A$, rappelons qu’on appelle *A-module topologique à gauche* un A-module $E$, muni d’une topologie compatible avec sa structure de groupe additif et tel que l’application $(a, x) \to ax$ de $A \times E$ dans $E$ soit continue (*Top. gén.*, chap. III, 3\textsuperscript{e} éd., § 6, no 6).
 
-#### Proposition 3 {#ac-iii-s2-prop-3 .statement}
+#### Proposition 3 {#ac-iii-s2-prop-3 .statement tag=04DT}
 
 *Soient A un anneau filtré, $(A_n)$ sa filtration, B le sous-anneau $\bigcup_{n \in \mathbf{Z}} A_n$ de A, E un B-module filtré, $(E_n)$ sa filtration, F le sous-B-module $\bigcup_{n \in \mathbf{Z}} E_n$ de E. Alors l’application $(a, x) \to ax$ de $B \times F$ dans $F$ est continue.*
 
@@ -371,7 +371,7 @@ ax - a_0x_0 = (a - a_0)x_0 + a_0(x - x_0) + (a - a_0)(x - x_0)
 $$
 montre que si $a - a_0 \in A_i$ et $x - x_0 \in E_j$, $ax - a_0x_0$ appartient à $E_{i+s} + E_{j+r} + E_{i+j}$. Si donc on suppose donné un entier $n$, on aura $ax - a_0x_0 \in E_n$ pourvu que l’on ait $i \geq n - s,\ j \geq n - r$ et $i + j \geq n$, c’est-à dire dès que $i$ et $j$ sont assez grands.
 
-#### Corollaire {#ac-iii-s2-n5-cor-1 .statement}
+#### Corollaire {#ac-iii-s2-n5-cor-1 .statement tag=04DU}
 
 *L’anneau B est un anneau topologique et le B-module F un B-module topologique.*
 
@@ -379,7 +379,7 @@ La première assertion s’obtient en appliquant la prop. 3 à $F = B_s$.
 
 On voit en particulier qu’un anneau filtré $A$ dont la filtration est *exhaustive* est un anneau topologique ; lorsqu’il en est ainsi, tout A-module filtré dont la filtration est *exhaustive* est un A-module topologique.
 
-#### Proposition 4 {#ac-iii-s2-prop-4 .statement}
+#### Proposition 4 {#ac-iii-s2-prop-4 .statement tag=04DV}
 
 *Soient A un anneau commutatif filtré par une filtration exhaustive $(A_n)$, p un idéal de A. Supposons que l’idéal gr(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})\ de\ l'anneau\ gr(A)\ soit\ premier.
 Alors l’adhérence de p dans A est un idéal premier.
@@ -391,7 +391,7 @@ Soit m’ un second idéal bilatère de A ; pour que la topologie m’-adique su
 
 ### 6. Modules filtrés complets.
 
-#### Proposition 5 {#ac-iii-s2-prop-5 .statement}
+#### Proposition 5 {#ac-iii-s2-prop-5 .statement tag=04DW}
 
 Soit G un groupe filtré, dont la filtration $(G_n)$ est formée de sous-groupes distingués de G. Les conditions suivantes sont équivalentes :
 a) G est un groupe topologique complet.
@@ -427,7 +427,7 @@ et la relation $e'+e''=e$ entraîne $\alpha_{e',Q} \alpha_{e'',P} \in a_{m-|e'|}
 jours, sauf mention expressé du contraire, de la filtration $(\alpha'_n)$.
 Il est clair que $\bigcap_{n \in \mathbf{Z}} \alpha'_n$ est l’ensemble des séries formelles dont tous les coefficients appartiennent à $\bigcap_{n \in \mathbf{Z}} \alpha_n$; donc, si $A$ est séparé, il en est de même de $A'$. Si $\alpha_0 = A$, on a $\alpha'_0 = A'$.
 
-#### Proposition 6 {#ac-iii-s2-prop-6 .statement}
+#### Proposition 6 {#ac-iii-s2-prop-6 .statement tag=04DZ}
 
 Les notations étant comme ci-dessus, supposons que $\alpha_0 = A$, et désignons par $h$ l’application $P \to (\alpha_{e,P})_{e \in \mathbf{N}^s}$.
 Alors $h$ est un isomorphisme du groupe additif topologique $A'$ sur le groupe additif topologique $A^{\mathbf{N}^s}$. L’anneau de polynômes $A[X_1, ..., X_s]$ est dense dans $A'$; si $A$ est complet, il en est de même de $A'$.
@@ -436,7 +436,7 @@ Il est clair que $h$ est bijective ; $V_n = h(\alpha'_n)$ est l’ensemble des $
 
 Soit $m$ un idéal de $A$ et supposons que $(\alpha_n)$ soit la filtration $m\text{-adique}$; alors, si $n$ est l’idéal de $A'$ engendré par $m$ et les $X_i$ ($1 \leq i \leq s$), la filtration $(\alpha'_n)$ est la filtration $n\text{-adique}$. En effet, il est clair que pour tout $k \geq 0$, $n^k$ est engendré par les éléments $aX^e$ tels que $a \in m^{k-|e|}$ pour tout $e \in \mathbf{N}^s$ tel que $|e| \leq k$, d’où $n^k \subset \alpha'_k$. Prouvons inversement que $\alpha'_k \subset n^k$. Pour tout $P \in \alpha'_k$, on a $P = P' + P''$, avec $P' = \sum_{|e| < k} \alpha_{e,P} X^e$, $P'' = \sum_{|e| \geq k} \alpha_{e,P} X^e$. Il est clair que l’on peut écrire $P'' = \sum_{|e|=k} X^e Q_e$, où les $Q_e$ sont des éléments de $A'$, d’où $P'' \in n^k$; par ailleurs, il est clair que $\alpha_{e,P} X^e \in n^k$ pour tout $e \in \mathbf{N}^s$, d’où $P' \in n^k$. On a donc bien $n^k = \alpha'_k$.
 
-#### Corollaire {#ac-iii-s2-n6-cor-1 .statement}
+#### Corollaire {#ac-iii-s2-n6-cor-1 .statement tag=04E0}
 
 Soient $A$ un anneau commutatif,
 $$
@@ -450,7 +450,7 @@ Il suffit d’appliquer ce qui vient d’être dit au cas $m = \{0\}$.
 
 Rappelons que si $E$ est un $A$-module, on appelle partie affine (ou variété linéaire affine) de $E$ toute partie $F$ qui est vide ou de la forme $a + M$, où $a \in E$ et $M$ est un sous-module de $E$, appelé direction de $F$ (Alg., chap. II, 3e éd., § 9, nos 1 et 3).
 
-#### Proposition 7 {#ac-iii-s2-prop-7 .statement}
+#### Proposition 7 {#ac-iii-s2-prop-7 .statement tag=04E1}
 
 Soient $A$ un anneau filtré, $E$ un $A$-module filtré, $(E_n)$ la filtration de $E$; on suppose que $E_0 = E$, que les $E_n$ sont des sous-modules de $E$, que les $A$-modules $E/E_n$ sont artiniens, et enfin que le groupe topologique $E$ est séparé et complet. Alors l’intersection d’une suite décroissante de parties affines fermées non vides de $E$ est non vide.
 
@@ -458,7 +458,7 @@ On a vu au no 6 que $E$, étant séparé et complet, s’identifie à $\tilde{E}
 
 Comme $E/E_0 = 0$, nous prendrons $x_0 = 0$. Supposons définis les $x_i$ pour $0 \leq i \leq n - 1$, et soit $W'_{p,n}$ l’ensemble des éléments de $W_{p,n}$ dont l’image canonique dans $E/E_{n-1}$ est $x_{n-1}$; comme $x_{n-1} \in W_{p,n-1}$ et que $W_{p,n-1}$ est l’image canonique de $W_{p,n}$, $W'_{p,n}$ n’est pas vide, et est évidemment une partie affine de $E/E_n$; en outre la suite $(W'_{p,n})_{p \in \mathbf{N}}$ est décroissante. Comme $E/E_n$ est artinien, cette suite est stationnaire (sans quoi la suite des sousmodules de $E/E_n$ qui sont les directions des $W'_{p,n}$, serait strictement décroissante, ce qui est absurde). Il suffit alors de prendre pour $x_n$ un élément de $\bigcap_{p \in \mathbf{N}} W'_{p,n}$ et la construction de $(x_n)$ peut donc se faire par récurrence.
 
-#### Proposition 8 {#ac-iii-s2-prop-8 .statement}
+#### Proposition 8 {#ac-iii-s2-prop-8 .statement tag=04E2}
 
 *On suppose que A et E vérifient les hypothèses de la prop. 7. Soit $(F_p)$ une suite décroissante de sous-modules fermés de E tels que $\bigcap_p F_p = 0$. Alors, pour tout voisinage V de 0 dans E, il existe $p$ tel que $F_p \subset V$ (autrement dit, la base de filtre $(F_p)$ converge vers 0).
 
@@ -466,7 +466,7 @@ On peut supposer que V est l’un des $E_n$, auquel cas $E/V$ est artinien. Poso
 
 ### 8. Relèvement d’homomorphismes de modules gradués associés.
 
-#### Théorème 1 {#ac-iii-s2-thm-1 .statement}
+#### Théorème 1 {#ac-iii-s2-thm-1 .statement tag=04E3}
 
 *Soient X, Y deux groupes filtrés dont les filtrations $(X_n)$, $(Y_n)$ sont formées de sous-groupes distingués ; soit $u : X \to Y$ un homomorphisme compatible avec les filtrations.
 
@@ -492,7 +492,7 @@ C’est évidemment le cas si $Y_n = u(X_n)$. Réciproquement, supposons que $Y_
 
 C. Q. F. D.
 
-#### Corollaire 1 {#ac-iii-s2-thm-1-cor-1 .statement}
+#### Corollaire 1 {#ac-iii-s2-thm-1-cor-1 .statement tag=04E4}
 
 Supposons que $X$ soit séparé et sa filtration exhaustive. Alors, si gr(u) est injectif, $u$ est injectif.
 
@@ -502,7 +502,7 @@ u^{-1}(e') \subset \bigcap_n u^{-1}(Y_n) = \bigcap_n X_n = \{ e \}
 $$
 par hypothèse, d'où le corollaire.
 
-#### Corollaire 2 {#ac-iii-s2-thm-1-cor-2 .statement}
+#### Corollaire 2 {#ac-iii-s2-thm-1-cor-2 .statement tag=04E5}
 
 Supposons vérifiée l'une des hypothèses suivantes :
 $\alpha)$ $X$ est complet, $Y$ est séparé et sa filtration est exhaustive ;
@@ -510,7 +510,7 @@ $\beta)$ $Y$ est discret et sa filtration est exhaustive.
 Alors, si $\mathrm{gr}(u)$ est surjectif, $u$ est surjectif.
 En effet, on a alors $Y = \bigcup_n Y_n = \bigcup_n u(X_n) \subset u(X)$.
 
-#### Corollaire 3 {#ac-iii-s2-thm-1-cor-3 .statement}
+#### Corollaire 3 {#ac-iii-s2-thm-1-cor-3 .statement tag=04E6}
 
 Supposons $X$ et $Y$ séparés, les filtrations de $X$ et $Y$ exhaustives et $X$ complet. Alors, si $\mathrm{gr}(u)$ est bijectif, $u$ est bijectif.
 
@@ -522,7 +522,7 @@ $$
 $$
 est bijective.
 
-#### Proposition 9 {#ac-iii-s2-prop-9 .statement}
+#### Proposition 9 {#ac-iii-s2-prop-9 .statement tag=04E7}
 
 Soient $A$ un anneau local, $m$ son idéal maximal, $M, N$ deux $A$-modules, $u : N \to M$ un $A$-homomorphisme. On munit $M$ et $N$ des filtrations $m$-adiques, et on suppose que : $1^\circ$ $M$ vérifie la propriété (GR) ; $2^\circ$ $\mathrm{gr}_0(u) : \mathrm{gr}_0(N) \to \mathrm{gr}_0(M)$ est injectif. Alors $\mathrm{gr}(u) : \mathrm{gr}(N) \to \mathrm{gr}(M)$ est injectif, $N$ et $P = \mathrm{Coker}\,(u)$ vérifient la propriété (GR), et on a $m^n N = \overline{u}^{-1}(m^n M)$ pour tout entier $n > 0$.
 
@@ -550,13 +550,13 @@ $$
 
 la ligne du bas est exacte (n° 4, prop. 2), et il en est de même de la ligne du haut, en vertu de la prop. 2 du n° 4 et du fait que $\mathrm{gr}_0(A)$ est un corps. D’ailleurs, $\mathrm{gr}(j)$ est injectif (n° 4, prop. 2), donc $\mathrm{gr}_0(j)$ est injectif. La première partie du raisonnement, appliquée à $j$, montre que $\gamma_{N'}$ est bijectif ; comme il en est de même de $\gamma_M$ par hypothèse, on en conclut que $\gamma_P$ est bijectif (chap. I, § 1, n° 4, cor. 2 de la prop. 2).
 
-#### Corollaire {#ac-iii-s2-n8-cor-1 .statement}
+#### Corollaire {#ac-iii-s2-n8-cor-1 .statement tag=04E8}
 
 Sous les hypothèses de la prop. 9, si on suppose en outre $N$ séparé pour la filtration m-adique, alors $u$ est injectif.
 
 En effet, cela résulte de ce que $\mathrm{gr}(u)$ est injectif (cor. 1 du th. 1).
 
-#### Remarque {#ac-iii-s2-n8-rem-1 .statement}
+#### Remarque {#ac-iii-s2-n8-rem-1 .statement tag=0CH9}
 
 *Supposons vérifiées les hypothèses de la prop. 9, et en outre l’une des conditions suivantes :
 1° $m$ est nilpotent ;
@@ -566,7 +566,7 @@ En effet, cela résulte de ce que $\mathrm{gr}(u)$ est injectif (cor. 1 du th. 1
 
 Soient $A$ un anneau commutatif filtré, $(A_n)_{n \in \mathbf{Z}}$ sa filtration, $C$ un sous-anneau de $A_0$ tel que $C \cap A_1 = \{0\}$. La restriction à $C$ de l’application canonique $A_0 \to A_0/A_1 = \mathrm{gr}_0(A)$ est alors injective, ce qui permet d’identifier $C$ à un sous-anneau de $\mathrm{gr}_0(A)$; c’est ce que nous ferons d’ordinaire en pareil cas. Si $A_1 \neq A_0$ et si $K$ est un sous-corps quelconque de $A_0$, on a $K \cap A_1 = \{0\}$ puisque $K \cap A_1$ est un idéal de $K$ ne contenant pas 1 ; on peut donc identifier $K$ à un sous-corps de $\mathrm{gr}_0(A)$.
 
-#### Proposition 10 {#ac-iii-s2-prop-10 .statement}
+#### Proposition 10 {#ac-iii-s2-prop-10 .statement tag=04E9}
 
 Soient $A$ un anneau commutatif filtré, $(A_n)$ sa filtration ; on suppose qu’il existe un sous-anneau $C$ de $A_0$ tel que $C \cap A_1 = \{0\}$ et on identifie $C$ à un sous-anneau de $\mathrm{gr}_0(A)$. Soit $(x_i)_{1 \leq i \leq q}$ une famille finie d’éléments de $A$ ; supposons que $x_i \in A_{n_i}$ pour $1 \leq i \leq q$, et soit $\xi_i$ la classe de $x_i$ dans $\mathrm{gr}_{n_i}(A)$ pour $1 \leq i \leq q$.
 
@@ -576,7 +576,7 @@ Soient $A$ un anneau commutatif filtré, $(A_n)$ sa filtration ; on suppose qu�
 
 Soit $A'$ l’algèbre de polynômes $C[X_1, ..., X_q]$ sur $C$ ; munissons $A'$ de la graduation $(A'_n)$ de type $\mathbf{Z}$ pour laquelle $A'_n$ est l’ensemble des combinaisons $C$-linéaires des monômes $X_1^{s(1)} ... X_q^{s(q)}$ tels que $\sum_{i=1}^q n_i s(i) = n$. Soit $u$ l’homomorphisme $f \to f(x_1, ..., x_q)$ de la $C$-algèbre $A'$ dans la $C$-algèbre $A$ ; par définition, on a $u(A'_n) \subset A_n$ pour tout $n \in \mathbf{Z}$, donc $u$ est compatible avec les filtrations ($A'$ étant muni de sa structure d’anneau filtré associé à sa structure d’anneau gradué, cf. no 1, Exemple 1). Cela étant, l’hypothèse de (i) signifie que $\mathrm{gr}(u) : A' = \mathrm{gr}(A') \to \mathrm{gr}(A)$ est injectif ; comme la filtration de $A'$ est exhaustive et séparée, on peut appliquer le cor. 1 du th. 1 du no 8, et $u$ est injectif, ce qui démontre la conclusion de (i). De même l’hypothèse (ii) sur les $(\xi_i)$ signifie que $\mathrm{gr}(u)$ est surjectif ; comme $A$ est discret et que sa filtration est exhaustive, on peut appliquer le cor. 2 du th. 1 du n° 8 et $u$ est surjectif, ce qui prouve la conclusion de (ii).
 
-#### Proposition 11 {#ac-iii-s2-prop-11 .statement}
+#### Proposition 11 {#ac-iii-s2-prop-11 .statement tag=04EA}
 
 *Soient A un anneau commutatif filtré, séparé et complet, C un sous-anneau de $A_0$ tel que $C \cap A_1 = \{0\}$, $(x_i)_{1 \leq i \leq q}$ une famille finie d’éléments de A telle que $x_i \in A_{n_i}$ avec $n_i > 0$ pour $1 \leq i \leq q$; soit $\xi_i$ la classe de $x_i$ dans $\mathrm{gr}_{n_i}(A)$ pour $1 \leq i \leq q$.
 
@@ -590,25 +590,25 @@ Comme $n_i \geq 1$ pour tout $i$, on a $\sum_{i=1}^q n_i s(i) \geq \sum_{i=1}^q 
 
 On exprime parfois la conclusion de (ii) (resp. (iii)) dans le corollaire en disant que la famille $(x_i)$ est *formellement libre sur C* (resp. est un *système formel de générateurs* de A).
 
-#### Proposition 12 {#ac-iii-s2-prop-12 .statement}
+#### Proposition 12 {#ac-iii-s2-prop-12 .statement tag=04EB}
 
 Soient A un anneau filtré, E un A-module filtré, (A_n) et (E_n) les filtrations respectives de A et E. On suppose A complet, et la filtration (E_n) exhaustive et séparée. Soit (x_i)_{i \in I} une famille finie d’éléments de E et, pour tout i \in I, soit n(i) un entier tel que x_i \in E_{n(i)} ; soit enfin \xi_i la classe de x_i dans gr_{n(i)}(E). Alors, si (\xi_i) est un système de générateurs du gr(A)-module gr(E), (x_i) est un système de générateurs du A-module E.
 
 Dans le A-module L = A_s^I, désignons par L_n l’ensemble des (a_i) tels que a_i \in A_{n-n(i)} pour tout i \in I ; si p et q sont le plus petit et le plus grand des n(i), on a A_{n-q}^I \supset L_n \supset A_{n-p}^I, et la topologie définie sur L par la filtration (L_n) est la même que la topologie produit ; donc L est un A-module filtré complet. Comme L est libre, il existe une application A-linéaire u : L \to E telle que u((a_i)) = \sum_{i \in I} a_i x_i, et elle est évidemment compatible avec les filtrations ; nous devons prouver que u est surjective, et pour cela, il suffit, en vertu du cor. 2 du th. 1, no 8, de montrer que gr(u) : gr(L) \to gr(E) est surjective, ou encore que, pour tout x \in E_n, il existe une famille (a_i) telle que a_i \in A_{n-n(i)} pour tout i \in I et x \equiv \sum_{i \in I} a_i x_i \pmod{E_{n+1}}. Soit \xi la classe de x dans gr_n(E) ; puisque les \xi_i engendrent le gr(A)-module gr(E), il existe des \alpha_i \in gr(A) tels que \xi = \sum_{i \in I} \alpha_i \xi_i, et on peut supposer que \alpha_i \in gr_{n-n(i)}(A), en remplaçant au besoin \alpha_i par sa composante homogène de degré n - n(i). Alors \alpha_i est l’image d’un élément a_i \in A_{n-n(i)}, et la famille (a_i) possède la propriété requise.
 
-#### Corollaire 1 {#ac-iii-s2-prop-12-cor-1 .statement}
+#### Corollaire 1 {#ac-iii-s2-prop-12-cor-1 .statement tag=04EC}
 
 Soient A un anneau filtré complet, E un A-module filtré dont la filtration est exhaustive et séparée. Si gr(E) est un gr(A)-module de type fini (resp. noethérien), alors E est un A-module de type fini (resp. noethérien).
 
 Si gr(E) est de type fini, il a un système fini de générateurs homogènes, et la prop. 12 montre que E est de type fini. Supposons maintenant gr(E) noethérien, et soit F un sous-module de E ; la filtration induite sur F par celle de E est exhaustive et séparée et gr(F) s’identifie à un sous-gr(A)-module de gr(E) (no 4, prop. 2), donc est de type fini par hypothèse ; on en conclut que F est un A-module de type fini, donc E est noethérien.
 
-#### Corollaire 2 {#ac-iii-s2-prop-12-cor-2 .statement}
+#### Corollaire 2 {#ac-iii-s2-prop-12-cor-2 .statement tag=04ED}
 
 Soit $A$ un anneau filtré séparé et complet, dont la filtration est exhaustive. Si $\mathrm{gr}(A)$ est un anneau noethérien à gauche, il en est de même de $A$.
 
 Il suffit d’appliquer le cor. 1 à $E = A_s$.
 
-#### Corollaire 3 {#ac-iii-s2-prop-12-cor-3 .statement}
+#### Corollaire 3 {#ac-iii-s2-prop-12-cor-3 .statement tag=04EE}
 
 Soient $A$ un anneau filtré complet, $(A_n)$ sa filtration, $E$ un $A$-module filtré séparé, $(E_n)$ sa filtration, $F$ un sous-module de type fini de $E$; on suppose $A_0 = A$ et $E_0 = E$.
 
@@ -618,7 +618,7 @@ Soient $A$ un anneau filtré complet, $(A_n)$ sa filtration, $E$ un $A$-module f
 
 Soient $\xi_i$ ($1 \leqslant i \leqslant n$) les classes mod. $E_1$ d’un système fini de générateurs de $F$. Il résulte de l’hypothèse faite que pour tout $k \geqslant 0$, tout élément de $\mathrm{gr}_k(E)$ se met sous la forme $\sum_{i=1}^n \alpha_i \xi_i$ avec $\alpha_i \in \mathrm{gr}(A)$; les $\xi_i$ engendrent donc le $\mathrm{gr}(A)$-module $\mathrm{gr}(E)$, ce qui démontre (i), en vertu de la prop. 12. Si la filtration de $E$ est déduite de celle de $A$, la relation $E = E_1 + F$, entraîne $E_k = A_k E = A_k E_1 + A_k F = A_k A_1 E + A_k F \subset A_{k+1} E + A_k F = E_{k+1} + A_k F \subset E_k$, d’où (ii).
 
-#### Proposition 13 {#ac-iii-s2-prop-13 .statement}
+#### Proposition 13 {#ac-iii-s2-prop-13 .statement tag=04EF}
 
 Soient $A$ un anneau, $m$ un idéal bilatère de $A$ contenu dans le radical de $A$, $E$ un $A$-module. On munit $A$ et $E$ des filtrations $m$-adiques (no 1, Exemple 3). On suppose que l’une des conditions suivantes est vérifiée :
 
@@ -639,13 +639,13 @@ Supposons inversement vérifiées les conditions de l’énoncé, et soit $(x_i)
 
 ### 10. Application : exemples d’anneaux noethériens.
 
-#### Lemme 1 {#ac-iii-s2-lem-1 .statement}
+#### Lemme 1 {#ac-iii-s2-lem-1 .statement tag=04EG}
 
 Soit $A$ un anneau gradué de type $\mathbf{Z}$, dont la graduation $(A_n)$ est telle que $A_n = 0$ pour tout $n < 0$, ou $A_n = 0$ pour tout $n > 0$. Soit $M$ un $A$-module gradué de type $\mathbf{Z}$. Pour que $M$ soit un $A$-module noethérien, il faut et il suffit que tout sous-module gradué de $M$ soit de type fini.
 
 Comme $n \to -n$ est un automorphisme du groupe $\mathbf{Z}$, on peut se borner au cas où $A_n = 0$ pour tout $n > 0$. Désignons par $A'$ et $M'$ l’anneau $A$ et le module $M$ munis des filtrations associées à leurs graduations respectives (n° 1, *Exemple 1*), qui sont exhaustives et séparées ; l’hypothèse sur $A$ entraîne que $A'$ est discret, donc complet. Si $E$ est un sous-$A$-module de $M$, le $A'$-module filtré $E'$ obtenu en munissant $E$ de la filtration induite est séparé et sa filtration est exhaustive ; en outre $\operatorname{gr}(E')$ s’identifie à un sous-$A$-module gradué de $M = \operatorname{gr}(M')$, donc est de type fini par hypothèse. La conclusion résulte donc du cor. 1 de la prop. 12 du n° 9.
 
-#### Théorème 2 {#ac-iii-s2-thm-2 .statement}
+#### Théorème 2 {#ac-iii-s2-thm-2 .statement tag=04EH}
 
 Soient $A$ un anneau gradué de type $\mathbf{N}$, $M$ un $A$-module gradué de type $\mathbf{N}$, $(A_n)$ et $(M_n)$ leurs graduations respectives. On suppose qu’il existe un élément $a \in A_1$ tel que $A_n = A_0 a^n$ et $M_n = a^n M_0$ pour tout $n > 0$. Alors, si $M_0$ est un $A_0$-module noethérien, $M$ est un $A$-module noethérien.
 
@@ -663,41 +663,41 @@ N_r = a^r L_n = \sum_{s=1}^{k_n} a^r A_0 m_{n,s} \subset \sum_{s=1}^{k_n} A_0 a^
 $$
 ce qui achève la démonstration (cf. exerc. 10).
 
-#### Corollaire 1 (théorème de Hilbert) {#ac-iii-s2-thm-2-cor-1 .statement}
+#### Corollaire 1 (théorème de Hilbert) {#ac-iii-s2-thm-2-cor-1 .statement tag=04EI}
 
 Pour tout anneau commutatif noethérien $C$, l’anneau de polynômes $C[X]$ est noethérien (cf. exerc. 10).
 
-#### Corollaire 2 {#ac-iii-s2-thm-2-cor-2 .statement}
+#### Corollaire 2 {#ac-iii-s2-thm-2-cor-2 .statement tag=04EJ}
 
 Pour tout anneau commutatif noethérien $C$ et tout entier $n > 0$, l’anneau de polynômes $C[X_1, \ldots, X_n]$ est noethérien.
 
 Cela résulte du cor. 1 par récurrence sur $n$.
 
-#### Corollaire 3 {#ac-iii-s2-thm-2-cor-3 .statement}
+#### Corollaire 3 {#ac-iii-s2-thm-2-cor-3 .statement tag=04EK}
 
 Si C est un anneau commutatif noethérien, toute C-algèbre commutative de type fini est un anneau noethérien.
 En effet, une telle algèbre est isomorphe à un quotient d'une algèbre de polynômes $C[X_1, ..., X_n]$ ($§ 1,$ no 1).
 
-#### Corollaire 4 {#ac-iii-s2-thm-2-cor-4 .statement}
+#### Corollaire 4 {#ac-iii-s2-thm-2-cor-4 .statement tag=04EL}
 
 Soit A un anneau commutatif gradué de type $\mathbf{N}$, et soit $(A_n)$ sa graduation. Pour que A soit noethérien, il faut et il suffit que $A_0$ soit noethérien et que A soit une $A_0$-algèbre de type fini.
 La condition est suffisante en vertu du cor. 3. Inversement, supposons A noethérien ; $m = \sum_{n \geq 1} A_n$, qui est un idéal de A, est donc de type fini ; par suite A est une $A_0$-algèbre de type fini ($§ 1,$ no 2, cor. de la prop. 1) ; d'autre part $A_0$, qui est isomorphe à $A/m$, est un anneau noethérien.
 
-#### Corollaire 5 {#ac-iii-s2-thm-2-cor-5 .statement}
+#### Corollaire 5 {#ac-iii-s2-thm-2-cor-5 .statement tag=04EM}
 
 Soient A un anneau commutatif, m un idéal de A tel que $A/m$ soit noethérien, que $m/m^2$ soit un $(A/m)$-module de type fini et que A soit séparé et complet pour la topologie m-adique. Alors gr(A) et A sont noethériens.
 En effet, gr(A) est une $(A/m)$-algèbre engendrée par $m/m^2$ (no 3, Exemple 3), donc l'anneau gr(A) est noethérien en vertu du cor. 3. On en déduit que A lui-même est noethérien (no 9, cor. 2 de la prop. 12).
 
-#### Corollaire 6 {#ac-iii-s2-thm-2-cor-6 .statement}
+#### Corollaire 6 {#ac-iii-s2-thm-2-cor-6 .statement tag=04EN}
 
 Pour tout anneau commutatif noethérien C et tout entier $n > 0$, l'anneau de séries formelles $C[[X_1, ..., X_n]]$ est noethérien.
 Cela résulte du cor. 5 et du no 6, cor. de la prop. 6, car si m est l'idéal de $A = C[[X_1, ..., X_n]]$ formé des séries formelles sans terme constant, $A/m$ est isomorphe à C et $m/m^2$ au C-module $C^n$.
 
-#### Remarque 1 {#ac-iii-s2-n10-rem-1 .statement}
+#### Remarque 1 {#ac-iii-s2-n10-rem-1 .statement tag=0CHA}
 
 Les corollaires 2, 3 et 6 s'appliquent en particulier lorsque C est un corps commutatif.
 
-#### Remarque 2 {#ac-iii-s2-n10-rem-2 .statement}
+#### Remarque 2 {#ac-iii-s2-n10-rem-2 .statement tag=0CHB}
 
 Soit g une algèbre de Lie sur un anneau commutatif noethérien C, et supposons que g soit un C-module de type fini. Munissons l'algèbre enveloppante U de g de la filtration croissante $(U_n)$ définie au no 3, Exemple 4. Pour la topologie correspondante, U est discret, donc séparé et complet ; l’anneau gradué associé gr(U) est une C-algèbre de type fini, étant un quotient de l’algèbre symétrique S(g), donc gr(U) est un anneau nœthérien (cor. 3) et on en déduit que U est un anneau nœthérien à gauche et à droite (no 9, cor. 2 de la prop. 12).*
 
@@ -709,7 +709,7 @@ n_{ij} = m^{i+1}/m^{j+1} = (m/m^{j+1})^{i+1} = (n_{0j})^{i+1};
 $$
 en particulier $(n_{0j})^{j+1} = 0$. Réciproquement :
 
-#### Proposition 14 {#ac-iii-s2-prop-14 .statement}
+#### Proposition 14 {#ac-iii-s2-prop-14 .statement tag=04EO}
 
 Soit $(A_i, h_{ij})$ un système projectif d’anneaux commutatifs discrets, dont l’ensemble d’indices est $\mathbf{N}$, et soit $(M_i, u_{ij})$ un système projectif de modules sur le système projectif d’anneaux $(A_i, h_{ij})$. On désigne par $n_j$ le noyau de $h_{0j} : A_j \to A_0$, et on pose $A = \lim_{\leftarrow} A_i, M = \lim_{\leftarrow} M_i$. On suppose que :
 a) pour tout $i \in \mathbf{N}$, $h_{ii}$ est l’application identique de $A_i$, et pour $i \leq j$, $h_{ij}$ et $u_{ij}$ sont surjectifs ;
@@ -743,7 +743,7 @@ Or, on a $a_i^k n_i^{i+1-k} \subset n_i^{i+1} = 0$ pour $0 \leq k \leq i$; il en
 
 Par ailleurs on a $m_1 = \overline{h_1}(n_1)$, d’où $a \subset m_1$ et par suite $a^i \subset m_1^i \subset m_i$, d’où $N_i \subset m_i M' + N_{i+1}$; d’autre part on a évidemment $m_i M \subset N_i$, donc $N_i = m_i M' + N_{i+1}$ pour tout $i \geq 0$; il résulte alors du cor. 3 de la prop. 12 du n° 9 que l’on a $M' = M$, ce qui achève la démonstration.
 
-#### Corollaire 1 {#ac-iii-s2-prop-14-cor-1 .statement}
+#### Corollaire 1 {#ac-iii-s2-prop-14-cor-1 .statement tag=04EP}
 
 Les notations et hypothèses étant celles de la prop. 14, supposons de plus que $M_0$ soit un $A_0$-module de type fini et que l'idéal $n_1$ de $A_1$ soit de type fini. Soit $m_1$ le noyau de $h_0$; les topologies de $A$ et de $M$ sont alors les topologies $m_1$-adiques sur cet anneau et ce module respectivement; d'une façon précise, pour tout $i \geqslant 0$, les noyaux de $h_i$ et de $u_i$ sont $m_1^{i+1}$ et $m_1^{i+1}M$ respectivement; de plus $m_1/m_1^2$ est un $A$-module de type fini.
 
@@ -755,7 +755,7 @@ $$
 
 Comme $a$ et $M$ sont des $A$-modules de type fini, il en est de même de $a^iM$. Appliquant le cor. 3 de la prop. 12 du no 9 au module $N_i$ muni de la filtration $(N_{ij})_{j \in \mathbf{Z}}$ définie par $N_{ij} = N_i$ si $j < 0$, $N_{ij} = N_{i+j}$ si $j \geqslant 0$, il vient $N_i = a^iM$, d'où $N_i \subset m_1^iM$. Mais on a aussi $m_1^iM \subset m_iM \subset N_i$, d'où $N_i = m_1^iM$. Appliquant ceci au cas où $M_i = A_i$, $u_{ij} = h_{ij}$, il vient $m_i = m_1^i$. De plus, on a $m_1 = a + m_1^2$ en vertu de (17), ce qui démontre la dernière assertion du corollaire.
 
-#### Corollaire 2 {#ac-iii-s2-prop-14-cor-2 .statement}
+#### Corollaire 2 {#ac-iii-s2-prop-14-cor-2 .statement tag=04EQ}
 
 Les hypothèses étant celles du cor. 1, pour que $A$ soit noethérien, il faut et il suffit que $A_0$ le soit.
 
@@ -809,13 +809,13 @@ $$
 $$
 autrement dit :
 
-#### Proposition 15 {#ac-iii-s2-prop-15 .statement}
+#### Proposition 15 {#ac-iii-s2-prop-15 .statement tag=04ER}
 
 *Soient A un anneau filtré, E un A-module filtré, les filtrations respectives $(A_n), (E_n)$ de A et de E étant exhaustives. Alors $(\hat{A}_n)$ est une filtration compatible avec la structure d’anneau de $\hat{A}$ et $(\hat{E}_n)$ une filtration compatible avec la structure de module de $\hat{E}$ sur l’anneau filtré $\hat{A}$; en outre ces filtrations sont exhaustives et définissent respectivement les topologies de $\hat{A}$ et de $\hat{E}$. Enfin, les applications canoniques $\operatorname{gr}(A) \to \operatorname{gr}(\hat{A})$ et $\operatorname{gr}(E) \to \operatorname{gr}(\hat{E})$ de $\mathbf{Z}$-modules gradués sont respectivement un isomorphisme d’anneaux gradués et un isomorphisme de $\operatorname{gr}(A)$-modules gradués.*
 
 Dans ce qui suit, pour tout espace uniforme X, nous noterons $j_x$ l’application canonique de X dans son séparé complété $\hat{X}$, par $X_0 = j_x(X)$ le sous-espace uniforme de $\hat{X}$, qui est l’espace séparé associé à X. Rappelons que la topologie de X est l’image réciproque par $j_x$ de celle de $X_0$ (*Top. gén.*, chap. II, 3e éd., § 3, no 7, prop. 12). Rappelons aussi que pour toute application uniformément continue $f : X \to Y$, $\hat{f}$ désigne l’application uniformément continue de $\hat{X}$ dans $\hat{Y}$ telle que $\hat{f} \circ j_x = j_Y \circ f$ (*loc. cit.*, prop. 15); si X est un sous-espace uniforme de Y et $f$ l’injection canonique, $\hat{X}$ s’identifie à un sous-espace uniforme de $\hat{Y}$, et $\hat{f}$ à l’injection canonique de $\hat{X}$ dans $\hat{Y}$ (*loc. cit.*, no 9, cor. 1 de la prop. 18).
 
-#### Lemme 2 {#ac-iii-s2-lem-2 .statement}
+#### Lemme 2 {#ac-iii-s2-lem-2 .statement tag=04ES}
 
 *Soit $X \xrightarrow{f} Y \xrightarrow{g} Z$ une suite exacte de morphismes stricts de groupes topologiques (*Alg.*, chap. II, 3e éd., § 1, no 4, Remarque). Supposons que X, Y, Z admettent des groupes séparés complétés, et que les éléments neutres de X, Y, Z admettent des systèmes fondamentaux dénombrables de voisinages. Alors $\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$ est une suite exacte de morphismes stricts.*
 Soient $N_f, N_g$ les noyaux respectifs de $f$ et $g$; écrivons
@@ -833,7 +833,7 @@ $$
 
 est un ensemble ouvert dans $X$ qui ne rencontre pas $N$; comme $f$ est un morphisme strict surjectif, $V = f(U)$ est un ensemble ouvert dans $Y$ ne contenant pas l’élément neutre $e'$ de $Y$, donc ne rencontrant pas l’adhérence de $e'$; par suite $j_Y(V)$ ne contient pas l’élément neutre de $Y_0$. Mais $j_Y(V) = f_0(X_0 - \overline{N}_0)$, donc $N_0' \subset \overline{N}_0$, ce qui achève de prouver le lemme 2.
 
-#### Proposition 16 {#ac-iii-s2-prop-16 .statement}
+#### Proposition 16 {#ac-iii-s2-prop-16 .statement tag=04ET}
 
 *Soient A un anneau filtré, ($A_n$) sa filtration, E un A-module, ($E_n$) la filtration sur E déduite de celle de A, formée des $E_n = A_n E$. On suppose la filtration ($A_n$) exhaustive et le* module E de type fini. Alors, si i : E → Ē est l’application canonique, on a, pour tout n ∈ Z,
 
@@ -845,13 +845,13 @@ En particulier $\hat{E}$ est un $\hat{A}$-module de type fini.
 
 L’égalité $A_n E = E_n$ entraîne, en vertu de la continuité de la loi externe du $\hat{A}$-module $\hat{E}$, $\hat{A}_n \hat{E} \subset \hat{E}_n$, et on a évidemment $\hat{A}_n \hat{E} \supset \hat{A}_n i(E)$. Par hypothèse il existe un homomorphisme surjectif $u : L \to E$, où $L = A_s^I$, I étant un ensemble fini ; munissons L de la filtration produit, formée des $L_n = A_n^I$, qui définit sur L la topologie produit ; on a donc $\hat{L} = \hat{A}_s^I$ et $\hat{L}_n = \hat{A}_n^I$ (Top. gén., chap. II, 3e éd., § 3, no 9, cor. 2 de la prop. 18). Soient $j : L \to \hat{L}$ l’application canonique, $(e_i)_{i \in I}$ la base canonique de L ; pour qu’un élément $\sum_{i \in I} a_i j(e_i)$ (avec $a_i \in \hat{A}$ pour tout $i \in I$) appartenne à $\hat{L}_n$, il faut et il suffit que $a_i \in \hat{A}_n$ pour tout $i$; on a donc $\hat{L}_n = \hat{A}_n . j(L)$. Cela étant, on a par définition $u(L_n) = A_n E = E_n$, donc $u$ est un morphisme strict de L sur E (Top. gén., chap. III, 3e éd., § 2, no 8, prop. 24). Le lemme 2 montre alors que $\hat{u} : \hat{L} \to \hat{E}$ est un morphisme strict surjectif. Comme $\hat{L}_n$ est un sous-groupe ouvert de $\hat{L}$, $\hat{u}(\hat{L}_n)$ est un sous-groupe ouvert (donc fermé) de $\hat{E}$; mais $\hat{u}(\hat{L}_n) = \hat{A}_n \hat{u}(j(L)) = \hat{A}_n i(E)$, et comme $i(E_n) \subset A_n i(E) \subset \hat{A}_n i(E)$, on voit finalement que $\hat{E}_n \subset \hat{A}_n i(E) \subset \hat{A}_n \hat{E} \subset \hat{E}_n$, et par suite $\hat{E}_n = \hat{A}_n \hat{E} = \hat{A}_n i(E)$; faisant $n = 0$, on obtient la deuxième formule (25).
 
-#### Corollaire 1 {#ac-iii-s2-prop-16-cor-1 .statement}
+#### Corollaire 1 {#ac-iii-s2-prop-16-cor-1 .statement tag=04EU}
 
 Sous les conditions de la prop. 16, si A est complet, il en est de même de E.
 
 En effet, comme l’application canonique $A \to \hat{A}$ est alors surjective (no 6, prop. 5), on a $\hat{E} = i(E)$ d’après (25), et on conclut par la prop. 5 du no 6.
 
-#### Corollaire 2 {#ac-iii-s2-prop-16-cor-2 .statement}
+#### Corollaire 2 {#ac-iii-s2-prop-16-cor-2 .statement tag=04EV}
 
 Soient A un anneau commutatif, m un idéal de A de type fini, $\hat{A}$ le séparé complété de A pour la topologie m-adique. On a alors $\widehat{m^n} = (\hat{m})^n = m^n . \hat{A}$ pour tout entier $n > 0$, et la topologie de $\hat{A}$ est la topologie $\hat{m}$-adique.
 
@@ -875,7 +875,7 @@ Tout élément de $\mathbf{Z}/n^k\mathbf{Z}$ admet un représentant et un seul d
 
 ### 13. Séparé complété d’un anneau semi-local.
 
-#### Proposition 17 {#ac-iii-s2-prop-17 .statement}
+#### Proposition 17 {#ac-iii-s2-prop-17 .statement tag=04EW}
 
 Soient A un anneau commutatif, (mλ)λ∈L une famille d’idéaux de A, distincts de A, tels que mλ et mμ soient étrangers pour λ ≠ μ. Pour tout famille s = (s(λ))λ∈L d’entiers ≥ 0, à support fini, on pose $a_s = \bigcap_{\lambda\in L} m_s^{s(\lambda)}$ (égal au produit des m_s^{s(λ)} pour les λ tels que s(λ) ≠ 0 ; cf. chap. II, § 1, no 2, prop. 3 et 5) ; les a_s forment un système fondamental de voisinages de 0 pour une topologie C compatible avec la structure d’anneau de A ; soit Ā le séparé complété de A pour cette topologie. D’autre part, pour tout λ ∈ L, soit Aλ l’anneau A muni de la topologie mλ-adique, et soit Āλ son séparé complété. Si l’on désigne par $u : A \to \prod_{\lambda \in L} A_\lambda$ l’homomorphisme diagonal, $u$ est continu et l’homomorphisme correspondant $\hat{u}$:
 
@@ -887,7 +887,7 @@ $$
 
 La première assertion résulte de Top. gén., chap. III, 3e éd., § 6, n° 3, Exemple 3. Posons $B = \prod_{\lambda \in L} A_\lambda$; comme la topologie de $A$ est plus fine que chacune des topologies $m_\lambda$-adiques, les applications $\mathrm{pr}_\lambda \circ u$ sont continues, donc $u$ est continu. De plus, $u(a_s)$ est l’intersection de la diagonale $\Delta$ de $B$ et de l’ensemble ouvert $\bigcap_{\lambda \in L} \mathrm{pr}_\lambda^{-1}(m^{s(\lambda)}_\lambda)$ de $B$; il en résulte que $u$ est un morphisme strict du groupe additif $A$ dans $B$, d’image $\Delta$. Or $\Delta$ est dense dans $B$. En effet, soit $b = (a_\lambda)_{\lambda \in L}$ un élément de $B$; tout voisinage de $b$ dans $B$ contient un ensemble de la forme $b + V$, où $V = \bigcap_{\lambda \in L} \mathrm{pr}_\lambda^{-1}(m^{s(\lambda)}_\lambda)$, pour une famille $s = (s(\lambda))_{\lambda \in L}$ à support fini d’entiers $\geqslant 0$. Comme les $m^{s(\lambda)}_\lambda$ sont deux à deux étrangers (chap. II, § 1, n° 2, prop. 3), il existe un $x \in A$ tel que $x \equiv a_\lambda$ (mod. $m^{s(\lambda)}_\lambda$) pour tout $\lambda$ (loc. cit., prop. 5), donc $(b + V) \cap \Delta \neq \varnothing$. Le complété séparé du groupe $B/\Delta$ est donc $\{0\}$; appliquant le lemme 2 du n° 12 aux suites exactes $0 \to A \xrightarrow{u} B, A \xrightarrow{u} B \to B/\Delta$, on voit que $\hat{u}$ est un isomorphisme de $\hat{A}$ sur $\hat{B}$.
 
-#### Corollaire {#ac-iii-s2-n13-cor-1 .statement}
+#### Corollaire {#ac-iii-s2-n13-cor-1 .statement tag=04EX}
 
 Soient $A$ un anneau principal, $P$ un système représentatif d’éléments extrémaux de $A$ (Alg., chap. VII, § 1, n° 3). La topologie sur $A$ pour laquelle les idéaux $\neq 0$ de $A$ forment un système fondamental de voisinages de $0$, qui est compatible avec la structure d’anneau de $A$, est séparée, et le complété de $A$ muni de cette topologie est canoniquement isomorphe au produit des complétés de $A$ pour les topologies $\pi$-adiques, où $\pi$ parcourt $P$.
 
@@ -897,15 +897,15 @@ Exemple 3) que les topologies $\pi$-adiques sont séparées, donc il en est de m
 
 Lorsqu’on applique le cor. de la prop. 17 à $A = \mathbf{Z}$, on désigne par $\hat{\mathbf{Z}}$ le complété de $\mathbf{Z}$ pour la topologie pour laquelle tous les idéaux $\neq 0$ de $\mathbf{Z}$ forment un système fondamental de voisinages de 0, anneau isomorphe au produit $\prod_{p \in P} \mathbf{Z}_p$ des anneaux d’entiers $p$-adiques ($P$ étant l’ensemble des nombres premiers).
 
-#### Remarque 1 {#ac-iii-s2-n13-rem-1 .statement}
+#### Remarque 1 {#ac-iii-s2-n13-rem-1 .statement tag=0CHC}
 
 Il est clair que sous les conditions de la prop. 17, la topologie $\mathscr{G}$ est la borne supérieure des topologies $m_\lambda$-adiques sur $A$.
 
-#### Remarque 2 {#ac-iii-s2-n13-rem-2 .statement}
+#### Remarque 2 {#ac-iii-s2-n13-rem-2 .statement tag=0CHD}
 
 Tout idéal fermé $a$ de $\prod_{\lambda \in L} \hat{A}_\lambda$ est identique au produit de ses projections $a_\lambda = \mathrm{pr}_\lambda(a)$, qui sont des idéaux fermés dans les $\hat{A}_\lambda$; en effet, $\hat{A}_\lambda$ s’identifie canoniquement à un idéal fermé $A'_\lambda$ de $\prod_{\lambda} \hat{A}_\lambda$ et $a_\lambda$ à $a \cap A'_\lambda$ (*Alg.*, chap. I, § 8, no 10, prop. 6), la somme des $a_\lambda$ est *dense* dans le produit $\prod_{\lambda} a_\lambda$ (*Top. gén.*, chap. III, 3e éd., § 2, no 9, prop. 25) et ce dernier est fermé dans $\prod_{\lambda} \hat{A}_\lambda$, d’où notre assertion.
 
-#### Proposition 18 {#ac-iii-s2-prop-18 .statement}
+#### Proposition 18 {#ac-iii-s2-prop-18 .statement tag=04EY}
 
 Soient $A$ un anneau commutatif, $(m_i)_{1 \leq i \leq q}$ une famille finie d’idéaux maximaux distincts de $A$, $x$ l’idéal produit $m_1 m_2 \ldots m_q = m_1 \cap m_2 \cap \ldots \cap m_q$, $S$ la partie multiplicative $\bigcap_{i=1}^q (A - m_i)$. On munit $A$ de la topologie $x$-adique, l’anneau $B = S^{-1}A$ de la topologie $xB$-adique, chacun des anneaux locaux $A_{m_i}$ de la topologie $(m_i A_{m_i})$-adique. Soient $u : A \to B$, $v_i : B \to A_{m_i}$ les homomorphismes canoniques (chap. II, § 2, no 1, cor. 2 de la prop. 2), $v$ l’homomorphisme $(v_i) : B \to \prod_{i=1}^q A_{m_i}$. Les homomorphismes $u$ et $v$ sont continus, et les homomorphismes correspondants $\hat{u} : \hat{A} \to \hat{B}$ et $\hat{v} : \hat{B} \to \prod_{i=1}^q (A_{m_i})^\sim$ sont des isomorphismes d’anneaux topologiques.
 
@@ -921,13 +921,13 @@ déduite de $u_t$ par passage aux quotients est un isomorphisme (chap. II, § 3,
 
 Remarque 3). — On voit donc qu’un anneau intègre $A$ peut être tel que son séparé complété $\hat{A}$ admette des diviseurs de zéro non nuls.
 
-#### Proposition 19 {#ac-iii-s2-prop-19 .statement}
+#### Proposition 19 {#ac-iii-s2-prop-19 .statement tag=04EZ}
 
 Soient $A$ un anneau commutatif, $m$ un idéal maximal de $A$. Le séparé complété $\hat{A}$ de $A$ pour la topologie $m$-adique est un anneau local, dont l’idéal maximal est $\hat{m}$.
 
 Si $a = \bigcap_{k \geq 1} m^k$, $\hat{A}$ est le complété de l’anneau séparé $A/a$ associé à $A$, et comme $m/a$ est maximal dans $A/a$, on peut supposer que $A$ est séparé pour la topologie $m$-adique. Comme $A/m$ et $\hat{A}/\hat{m}$ sont des anneaux isomorphes (no 12, formule (21)), $\hat{m}$ est maximal dans $\hat{A}$. Comme la topologie de $\hat{A}$ est définie par la filtration $(\hat{m}^n)^{\sim}$ (no 12), la proposition sera conséquence du lemme suivant :
 
-#### Lemme 3 {#ac-iii-s2-lem-3 .statement}
+#### Lemme 3 {#ac-iii-s2-lem-3 .statement tag=04F0}
 
 *Soit $A$ un anneau topologique séparé et complet, dans lequel il existe un système fondamental $\mathscr{S}$ de voisinages de $0$ formé de sous-groupes additifs de $A$.
 
@@ -947,7 +947,7 @@ Ce lemme étant établi, il suffit de l’appliquer à l’anneau topologique $\
 
 Si on prend $A = \mathbf{Z}$, tout idéal maximal de $\mathbf{Z}$ est de la forme $p\mathbf{Z}$, où $p$ est premier. L’anneau des nombres $p$-adiques $\mathbf{Z}_p$ est donc un anneau local, dont $p\mathbf{Z}_p$ est l’idéal maximal (cor. 2 de la prop. 16), et dont le corps résiduel est isomorphe à $\mathbf{Z}/p\mathbf{Z} = \mathbf{F}_p$ et $\mathbf{Z}_{(p)}$, muni de la topologie $p\mathbf{Z}_{(p)}$-adique, s’identifie à un sous-anneau topologique de $\mathbf{Z}_p$, contenant $\mathbf{Z}$.
 
-#### Corollaire {#ac-iii-s2-n13-cor-2 .statement}
+#### Corollaire {#ac-iii-s2-n13-cor-2 .statement tag=04F1}
 
 Soient $A$ un anneau semi-local (chap. II, § 3, no 5), $m_i$ ses idéaux maximaux distincts ($1 \leq i \leq q$),
 $$

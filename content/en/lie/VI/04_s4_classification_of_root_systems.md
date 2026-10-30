@@ -68,7 +68,7 @@ subsections:
       pdf_page: 246
 statements: 19
 exercises: 16
-content_sha256: 885d53becbd2c5c2ecfaf01892276712763fa1f29752646fc20fb98bbf979c99
+content_sha256: 45e10d913c1a6d6fc187b08ddce9c5ebb593714b0771388b35b7618ac35e06d7
 ---
 
 ## § 4. CLASSIFICATION OF ROOT SYSTEMS
@@ -95,19 +95,19 @@ In the remainder of this number, the Coxeter group $W(M)$ defined by $M$ (Chap. 
 
 From the condition that $q$ is positive and non-degenerate, we shall obtain conditions on the $m_{ij}$ that will enable us to list all the possibilities for the corresponding Coxeter graphs; it will only remain to show that these possibilities are actually realised, in other words that the corresponding groups $W(M)$ are finite.
 
-#### Lemma 1 {#lie-vi-s4-lem-1 .statement}
+#### Lemma 1 {#lie-vi-s4-lem-1 .statement tag=0AY2}
 
 For all $i$, $\sum_{j \neq i} q_{ij}^2 < 1$.
 
 Let $J$ be the set of $j \in I$ such that $q_{ij} \neq 0$, in other words such that $\{i, j\}$ is an edge of $X$. If $j, j' \in J$ and $j \neq j'$, $\{j, j'\}$ is not an edge (otherwise $i, j, j'$ would form a circuit), so $(e_j|e_{j'}) = 0$. Let $F = \sum_{j \in J} \mathbf{R} e_j$. Then $(e_j)_{j \in J}$ is an orthonormal basis of $F$. The distance $d$ from $e_i$ to $F$ is given by $d^2 = 1 - \sum_{j \in J} (e_i|e_j)^2 = 1 - \sum_{j \in J} q_{ij}^2 = 1 - \sum_{j \neq i} q_{ij}^2$, hence the lemma.
 
-#### Lemma 2 {#lie-vi-s4-lem-2 .statement}
+#### Lemma 2 {#lie-vi-s4-lem-2 .statement tag=0AY3}
 
 Any vertex of $X$ belongs to at most 3 edges.
 
 Indeed, if $i$ is linked to $h$ other vertices, the relations $q_{ij}^2 \geq \frac{1}{4}$ for these other vertices implies that $\frac{h}{4} < 1$ by Lemma 1, so $h \leq 3$.
 
-#### Lemma 3 {#lie-vi-s4-lem-3 .statement}
+#### Lemma 3 {#lie-vi-s4-lem-3 .statement tag=0AY4}
 
 *If $i$ belongs to 3 edges, these edges are of order 3.*
 
@@ -119,7 +119,7 @@ $$
 
 which is impossible (Lemma 1).
 
-#### Lemma 4 {#lie-vi-s4-lem-4 .statement}
+#### Lemma 4 {#lie-vi-s4-lem-4 .statement tag=0AY5}
 
 *If there exists an edge of order $\geq 6$, then $l = 2$.*
 
@@ -131,7 +131,7 @@ $$
 
 which is impossible (Lemma 1).
 
-#### Lemma 5 {#lie-vi-s4-lem-5 .statement}
+#### Lemma 5 {#lie-vi-s4-lem-5 .statement tag=0AY6}
 
 *A vertex cannot belong to two distinct edges of order $\geq 4$.*
 
@@ -152,7 +152,7 @@ $$
 = \sum_{k, k' \in I} q_{kk'} \xi_k \xi_{k'} - (1 + 2q_{ij}) \xi_p^2.
 $$
 
-#### Lemma 6 {#lie-vi-s4-lem-6 .statement}
+#### Lemma 6 {#lie-vi-s4-lem-6 .statement tag=0AY7}
 
 *If $\{i, j\}$ is of order 3, $W(M')$ is a finite Coxeter group.*
 
@@ -165,7 +165,7 @@ $$
 and $(\xi_k)_{k \in I'} \mapsto \sum_{k,k' \in I'} q'_{kk'} \xi_k \xi_{k'}$ is a positive non-degenerate quadratic form.
 It now suffices to apply Th. 2 of Chap. V. § 4, no. 8.
 
-#### Lemma 7 {#lie-vi-s4-lem-7 .statement}
+#### Lemma 7 {#lie-vi-s4-lem-7 .statement tag=0AY8}
 
 We have one of the following:
 
@@ -178,7 +178,7 @@ a) Assume that X has a ramification point i. Then i belongs to 3 edges of order 
 
 b) Assume that X has no ramification point. Then X is a chain (Chap. IV, Appendix, no. 3, Prop. 3). Let $\{i, j\}$ be an edge of order $\geq 4$. If $l = 2$, the lemma is trivial. If not, then i, say, belongs to an edge $\{i, k\}$ with $k \neq j$ (since X is connected). This edge is of order 3 (Lemma 5). Identify i and k in the Coxeter graph of M. By Lemma 6, the induction hypothesis can be applied. Let $p$ be the image of i in the new graph $X'$. In $X'$, $\{p, j\}$ is an edge of order $\geq 4$, so $X'$ has no other edge of order $\geq 4$, and hence $\{i, j\}$ is the only edge of order $\geq 4$ in X.
 
-#### Lemma 8 {#lie-vi-s4-lem-8 .statement}
+#### Lemma 8 {#lie-vi-s4-lem-8 .statement tag=0AY9}
 
 Let $i_1, i_2, \ldots, i_p$ be vertices of X such that $\{i_1, i_2\}, \{i_2, i_3\}, \ldots, \{i_{p-1}, i_p\}$ are edges of order 3. Then $q(\sum_{r=1}^p r e_{i_r}) = \frac{1}{2} p(p+1)$.
 
@@ -194,7 +194,7 @@ $$
 p^2 - \frac{1}{2} p(p-1) = \frac{1}{2} p(p+1).
 $$
 
-#### Lemma 9 {#lie-vi-s4-lem-9 .statement}
+#### Lemma 9 {#lie-vi-s4-lem-9 .statement tag=0AYA}
 
 Assume that X is a chain with vertices 1, 2, ..., l and edges {1, 2}, {2, 3}, ..., {l - 1, l}.
 
@@ -250,7 +250,7 @@ $$
 2 \cos^2 \frac{\pi}{5} - 1 = \cos \frac{2\pi}{5} = \frac{\sqrt{5} - 1}{4}, \quad \cos^4 \frac{\pi}{5} = \frac{3 + \sqrt{5}}{8} > \frac{5}{8} > \frac{9}{16}, \quad \cos \frac{\pi}{5} = \frac{1 + \sqrt{5}}{4}.
 $$
 
-#### Lemma 10 {#lie-vi-s4-lem-10 .statement}
+#### Lemma 10 {#lie-vi-s4-lem-10 .statement tag=0AYB}
 
 If X has a ramification point i, the full subgraph X - {i} is the union of three chains, and if p - 1, q - 1, r - 1 are the lengths of these chains, the triple {p, q, r} is equal, up to a permutation, to one of the triples {1, 2, 2}, {1, 2, 3}, {1, 2, 4}, {1, 1, m} (for some m $\geq 1$).
 
@@ -296,7 +296,7 @@ $$
 (p+1)^{-1} > \frac{1}{6}. \quad \text{hence } p \leq 4.
 $$
 
-#### Theorem 1 {#lie-vi-s4-thm-1 .statement}
+#### Theorem 1 {#lie-vi-s4-thm-1 .statement tag=0AYC}
 
 The graph of any irreducible finite Coxeter system (W, S) is isomorphic to one of the following:
 
@@ -324,7 +324,7 @@ The fact that no two of the Coxeter graphs listed are isomorphic is clear.
 
 Conversely:
 
-#### Theorem 2 {#lie-vi-s4-thm-2 .statement}
+#### Theorem 2 {#lie-vi-s4-thm-2 .statement tag=0AYD}
 
 The Coxeter groups defined by the Coxeter graphs A_l, B_l, ..., I_2(p) of Th. 1 are finite.
 
@@ -378,13 +378,13 @@ In view of the results of § 1, Nos. 3 and 5, the only possibilities are the fol
 
 We see from this that the Dynkin graph $R$ determines the Cartan matrix and the Coxeter matrix of $R$, and hence determines $R$ up to isomorphism. More precisely, the Cor. of Prop. 15 of § 1, no. 5 implies the following result:
 
-#### Proposition 1 {#lie-vi-s4-prop-1 .statement}
+#### Proposition 1 {#lie-vi-s4-prop-1 .statement tag=0AYE}
 
 *Let $R_1$ and $R_2$ be two reduced root systems in vector spaces $V_1$ and $V_2$. Let $B_1 = (\alpha_i)_{i \in I_1}$ and $B_2 = (\alpha_i)_{i \in I_2}$ be bases of $R_1$ and $R_2$, indexed canonically. Let $\lambda$ be an isomorphism from the Dynkin graph of $R_1$ to the Dynkin graph of $R_2$. Then, there exists a unique isomorphism from $V_1$ to $V_2$ transforming $R_1$ into $R_2$ and $\alpha_i$ into $\alpha_{\lambda(i)}$ for all $i \in I_1$.*
 
 It is clear that an automorphism of $R$ defines an automorphism of the Dynkin graph of $R$, and hence a homomorphism $\varphi$ from the group $A(R)$ to the group of automorphisms of the Dynkin graph of $R$.
 
-#### Corollary {#lie-vi-s4-n2-cor-1 .statement}
+#### Corollary {#lie-vi-s4-n2-cor-1 .statement tag=0AYF}
 
 *The homomorphism $\varphi$ defines by passage to the quotient an isomorphism from the group $A(R)/W(R)$ to the group of automorphisms of the Dynkin graph of $R$.*
 
@@ -403,7 +403,7 @@ It is clear that the Dynkin graph $(X, f)$ can be recovered from this diagram.
 
 We remark that the diagram associated to the Coxeter graph of $W(R)$ can be obtained from that associated to the Dynkin graph of $R$ by keeping the nodes and the single bonds and replacing the double (resp. triple) bonds by a bond surmounted by the number 4 (resp. 6). Conversely, given the Coxeter graph of W(R), the diagram associated to the Dynkin graph of R can be recovered using the inverse of this procedure, except for the inequality signs on the double or triple bonds. Th. 1 thus gives immediately the list of possible Dynkin graphs. More precisely:
 
-#### Theorem 3 {#lie-vi-s4-thm-3 .statement}
+#### Theorem 3 {#lie-vi-s4-thm-3 .statement tag=0AYG}
 
 *If R is an irreducible reduced root system, its Dynkin graph is isomorphic to one of the graphs represented by the following diagrams:*
 
@@ -425,11 +425,11 @@ $$
 
 The first assertion follows immediately from Th. 1, in view of the preceding remarks, the fact that the Coxeter groups of the graphs H_3, H_4 and I_2(p) (for p = 5 and p \geq 7) are not crystallographic, and the fact that the two possible inequalities for the double (resp. triple) bond of the Dynkin graph associated to the Coxeter graph F_4 (resp. G_2) give isomorphic Dynkin graphs. The second assertion is clear and the third will follow from the explicit construction of an irreducible reduced root system for each type, a construction that will be carried out in Nos. 5 to 13.
 
-#### Remark 1 {#lie-vi-s4-n2-rem-1 .statement}
+#### Remark 1 {#lie-vi-s4-n2-rem-1 .statement tag=0AYH}
 
 The graph A_1 reduces to a single node; we denote it also by B_1 or C_1. The graph B_2 \circ-\circ-\circ-\circ is also denoted by C_2. The graph A_3 \circ-\cdots-\circ is also denoted by D_3. Finally, D_2 denotes the graph consisting of two unconnected nodes. (These conventions are derived from the properties of the corresponding root systems, cf. nos. 5 to 8.)
 
-#### Remark 2 {#lie-vi-s4-n2-rem-2 .statement}
+#### Remark 2 {#lie-vi-s4-n2-rem-2 .statement tag=0AYI}
 
 If (X, f) is the Dynkin graph of a reduced root system R, the Dynkin graph of the inverse system can be identified with (X, f^{-1}). In other words, the diagram associated to the Dynkin graph of R^- can be obtained from that associated to the Dynkin graph of R by reversing the inequality signs. If R is irreducible, we see that R is isomorphic to R^- unless R is of type B_l or C_l, in which case R^- is of type C_l or B_l.
 
@@ -453,7 +453,7 @@ We retain the notations of § 2, Prop. 5 of § 2, no. 2, together with Th. 1 of 
 
 A(R)/W(R) by P(R^*)/Q(R^*). and P(R^*)/Q(R^*) is isomorphic to the group $I_C = G_C \cap W'_a$ (with the notation of § 2, no. 3): the element of Aut($\Sigma$) corresponding to the element $\gamma_i$ of $I_C$ transforms the vertex 0 to the vertex $i$ of $\Sigma$.
 
-#### Remark {#lie-vi-s4-n3-rem-1 .statement}
+#### Remark {#lie-vi-s4-n3-rem-1 .statement tag=0AYJ}
 
 It can be shown that the canonical map
 $$
@@ -461,7 +461,7 @@ $$
 $$
 is an isomorphism.
 
-#### Theorem 4 {#lie-vi-s4-thm-4 .statement}
+#### Theorem 4 {#lie-vi-s4-thm-4 .statement tag=0AYK}
 
 Let (W, S) be an irreducible Coxeter system with S finite. The associated quadratic form (Chap. V, § 4, no. 1) is positive and degenerate if and only if the Coxeter graph of (W, S) is isomorphic to one of the following:
 

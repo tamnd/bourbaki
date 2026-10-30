@@ -49,9 +49,9 @@ subsections:
       pdf_page: 119
 statements: 17
 exercises: 3
-content_sha256: 59dcced8d113c6f6c28d43cc87fa5d2b45d364e0c3a611cff14a4dfcc5139d16
+content_sha256: bd7fd4325a42791f97ee46d22d88a1018f00fda3bfac59aeaa39634fee933ab1
 translated_from: content/en/alg/I/07_s7_free_monoids_free_groups.md
-source_content_sha256: 3d3c76d6c00bb76f6c4a1ffe6fd67252c8dd08090bf8f1961b54dc45d8772011
+source_content_sha256: 97dfa3c35501eb8d7f97ddf5171fd22adaac2703346a99cfb362c9406ce8d816
 translation_model: gpt-5.4, gpt-5.4-mini, gpt-5-mini, gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-ca7cd7e4
 glossary_version: 34
@@ -71,7 +71,7 @@ Cho $w$ và $w'$ thuộc $M(X)$; đặt $p = l(w)$ và $q = l(w')$. Ảnh của 
 
 Tập hợp $M(X)$ với luật hợp thành $(w, w') \mapsto w.w'$ được gọi là magma tự do xây dựng trên X (§ 1, no. 1, Định nghĩa 1).
 
-#### Mệnh đề 1 {#alg-i-s7-prop-1 .statement}
+#### Mệnh đề 1 {#alg-i-s7-prop-1 .statement tag=05FH}
 
 Cho M là một magma. Mọi ánh xạ f từ X vào M đều có thể được mở rộng theo một cách duy nhất thành một cấu xạ từ $M(X)$ vào M.
 
@@ -83,7 +83,7 @@ $$
 M(v) \circ M(u) = M(v \circ u).
 $$
 
-#### Mệnh đề 2 {#alg-i-s7-prop-2 .statement}
+#### Mệnh đề 2 {#alg-i-s7-prop-2 .statement tag=05FI}
 
 *Cho $u : X \to Y$ là một ánh xạ. Nếu $u$ là đơn ánh (resp. toàn ánh, song ánh), thì $M(u)$ cũng vậy.*
 
@@ -126,7 +126,7 @@ $$
 
 Điều trên cho thấy tập hợp các từ được xây dựng trên $\mathbf{X}$ với luật hợp thành $(w, w') \mapsto w.w'$ là một monoid với phần tử đơn vị $e$. Nó được ký hiệu bởi $\mathrm{Mo}(\mathbf{X})$ và được gọi là *monoid tự do được xây dựng trên* $\mathbf{X}$. Từ định nghĩa của tích các từ suy ra ngay rằng mọi từ $w = (x_i)_{1 \leq i \leq n}$ đều bằng tích $\prod_{i=1}^n x_i$. Do đó một từ có thể được viết dưới dạng $x_1 \ldots x_n$.
 
-#### Mệnh đề 3 {#alg-i-s7-prop-3 .statement}
+#### Mệnh đề 3 {#alg-i-s7-prop-3 .statement tag=05FJ}
 
 *Cho M là một monoid. Mọi ánh xạ f từ X vào M đều mở rộng duy nhất thành một đồng cấu từ Mo(X) vào M.*
 
@@ -154,7 +154,7 @@ Tập hợp S mà tổng của họ $(M_i)_{i \in I}$ có các phần tử là c
 
 Tính chất phổ quát của các vị nhóm được xác định bởi các phần tử sinh và các hệ thức (no. 2) kéo theo kết quả sau:
 
-#### Mệnh đề 4 {#alg-i-s7-prop-4 .statement}
+#### Mệnh đề 4 {#alg-i-s7-prop-4 .statement tag=05FK}
 
 (a) *Với mọi $i \in I$, ánh xạ $\phi_i$ là một đồng cấu của $M_i$ vào M và $\phi_i \circ h_i = h$ với mọi $i \in I$. Hơn nữa, M được sinh bởi $\bigcup_{i \in I} \phi_i(M_i)$.*
 
@@ -172,7 +172,7 @@ $$
 
 được gọi là một phân tích của $x$. Số nguyên $n \geq 0$ được gọi là độ dài của phân tích $\sigma$ và được ký hiệu bởi $l(\sigma)$; dãy $(e)$ là một phân tích có độ dài 0 của phần tử đơn vị của $M$. Phân tích $\sigma$ được gọi là thu gọn nếu $i_\alpha \neq i_{\alpha+1}$ với $1 \leq \alpha < n$ và $p_\alpha \neq e_{i_\alpha}$ với $1 \leq \alpha \leq n$.
 
-#### Mệnh đề 5 {#alg-i-s7-prop-5 .statement}
+#### Mệnh đề 5 {#alg-i-s7-prop-5 .statement tag=05FL}
 
 Dưới giả thiết (A), mọi phần tử $x$ của $M$ đều có một phân tích thu gọn duy nhất $\sigma$. Mọi phân tích $\sigma' \neq \sigma$ của $x$ đều thỏa mãn $l(\sigma') > l(\sigma)$.
 
@@ -234,7 +234,7 @@ tức là $\sigma = f(\Phi(\sigma))(e)$. Điều này chứng minh rằng $\Phi$
 
 Gọi $D$ là tập hợp các phần tử của $M$ nhận một phân tích. Khi đó $e \in D$ và $M$ được sinh bởi $\bigcup_{i \in I} \phi_i(M_i)$ và do đó bởi $h(A) \cup \bigcup_{i \in I} \phi_i(P_i)$. Khi đó $D.\phi_i(P_i) \subset D$ với mọi $i \in I$; để chứng minh rằng $D = M$, suy ra chỉ cần chứng minh quan hệ $D.h(A) \subset D$. Điều này theo từ bổ đề chính xác hơn sau:
 
-#### Bổ đề 1 {#alg-i-s7-lem-1 .statement}
+#### Bổ đề 1 {#alg-i-s7-lem-1 .statement tag=05FM}
 
 *Cho $i_1, \ldots, i_n$ thuộc $I$ và $p_\alpha$ thuộc $P_{i_\alpha}$ với $1 \leq \alpha \leq n$. Với mọi $a \in A$ tồn tại $a' \in A$ và một dãy $(p'_\alpha)_{1 \leq \alpha \leq n}$ với $p'_\alpha \in P_{i_\alpha}$ sao cho*
 $$
@@ -283,7 +283,7 @@ là một phân tích của $x$ có độ dài $n - 1$, điều này là mâu th
 
 Vậy ta đã chứng minh rằng $\sigma$ là rút gọn.
 
-#### Hệ quả {#alg-i-s7-n3-cor-1 .statement}
+#### Hệ quả {#alg-i-s7-n3-cor-1 .statement tag=05FN}
 
 *Theo giả thiết (A) các đồng cấu $\phi_{i}$ và $h$ là đơn ánh. Với $i \neq j$ trong $I$, $\phi_{i}(M_{i}) \cap \phi_{j}(M_{j}) = h(\mathbf{A})$.*
 
@@ -315,13 +315,13 @@ và $i_\alpha \neq i_{\alpha+1}$ đối với $1 \leq \alpha \leq n$. Cuối cù
 
 ### 4. ỨNG DỤNG VÀO CÁC MONOID TỰ DO
 
-#### Bổ đề 2 {#alg-i-s7-lem-2 .statement}
+#### Bổ đề 2 {#alg-i-s7-lem-2 .statement tag=05FO}
 
 *Cho $M$ là tổng monoid của họ $(M_x)_{x \in X}$ được xác định bởi $M_x = \mathbf{N}$ với mọi $x \in X$ và cho $\phi_x$ ký hiệu đồng cấu chính tắc của $M_x$ vào $M$. Ánh xạ $x \mapsto \phi_x(1)$ của $X$ vào $M$ kéo dài thành một đẳng cấu $h$ của $\mathrm{Mo}(X)$ lên $M$.*
 
 Cho $h$ là đồng cấu từ $\mathrm{Mo}(X)$ vào $M$ được xác định bởi $h(x) = \phi_x(1)$. Với mọi số nguyên $n \geq 0$, $\phi_x(n) = \phi_x(1)^n = h(x)^n$ và vì $M$ được sinh bởi $\bigcup_{x \in X} \phi_x(\mathbf{N})$, nên nó cũng được sinh bởi $h(X)$. Do đó $h$ là *toàn ánh*. Hơn nữa, với mọi $x$ thuộc $X$, ánh xạ $n \mapsto x^n$ là một đồng cấu từ $\mathbf{N} = M_x$ vào $\mathrm{Mo}(X)$; do đó tồn tại (no. 3, Mệnh đề 4) một đồng cấu $h'$ từ $M$ vào $\mathrm{Mo}(X)$ sao cho $h'(\phi_x(n)) = x^n$ với $x \in X$ và $n \in \mathbf{N}$; đặc biệt, $h'(h(x)) = x$ với $x \in X$ và do đó $h' \circ h$ là đồng cấu đồng nhất của $\mathrm{Mo}(X)$. Vậy $h$ là *đơn ánh*. Như vậy đã chứng minh được rằng $h$ là song ánh.
 
-#### Mệnh đề 6 {#alg-i-s7-prop-6 .statement}
+#### Mệnh đề 6 {#alg-i-s7-prop-6 .statement tag=05FP}
 
 *Cho $w$ là một phần tử của $\mathrm{Mo}(X)$.
 (a) Tồn tại một số nguyên $n \geq 0$, các phần tử $x_\alpha$ của $X$ và các số nguyên $m(\alpha) > 0$ (với
@@ -340,13 +340,13 @@ Cho $G_x = \mathbf{Z}$ với mọi $x \in X$. Tích tự do của họ $(G_x)_{x
 
 Áp dụng No. 3, Mệnh đề 5, ta thu được kết quả sau:
 
-#### Mệnh đề 7 {#alg-i-s7-prop-7 .statement}
+#### Mệnh đề 7 {#alg-i-s7-prop-7 .statement tag=05FQ}
 
 *Cho g là một phần tử của nhóm tự do* $F(X)$. *Tồn tại một số nguyên* $n \geq 0$ *và một dãy* $(x_\alpha, m(\alpha))_{1 \leq \alpha \leq n}$ *được xác định duy nhất bởi các hệ thức* $x_\alpha \in X$, $x_\alpha \neq x_{\alpha+1}$ *với* $1 \leq \alpha < n$, $m(\alpha) \in \mathbf{Z}$, $m(\alpha) \neq 0$ *với* $1 \leq \alpha \leq n$, *và* $g = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)}$.
 
 Nhóm tự do $F(X)$ có tính chất phổ quát sau:
 
-#### Mệnh đề 8 {#alg-i-s7-prop-8 .statement}
+#### Mệnh đề 8 {#alg-i-s7-prop-8 .statement tag=05FR}
 
 *Cho G là một nhóm và f là một ánh xạ của* $X$ *vào G. Tồn tại một và chỉ một đồng cấu* $\bar{f}$ *của* $F(X)$ *vào G mở rộng f*.
 
@@ -396,13 +396,13 @@ $$
 \langle \tau_1, \ldots, \tau_n; u_1 = v_1, \ldots, u_m = v_m \rangle.
 $$
 
-#### Ví dụ {#alg-i-s7-n6-exa-1 .statement}
+#### Ví dụ {#alg-i-s7-n6-exa-1 .statement tag=05FS}
 
 (1) Nhóm được xác định bởi trình bày $\langle \tau; \tau^q = e \rangle$ là nhóm cyclic có cấp $q$.
 
 (2) Nhóm được xác định bởi trình bày $\langle x, y; xy = yx \rangle$ đẳng cấu với $\mathbf{Z} \times \mathbf{Z}$.
 
-#### Mệnh đề 9 {#alg-i-s7-prop-9 .statement}
+#### Mệnh đề 9 {#alg-i-s7-prop-9 .statement tag=05FT}
 
 *Cho $G$ là một nhóm, $t = (t_i)_{i \in I}$ là một họ phần tử sinh của $G$ và $r = (r_j)_{j \in J}$ là một họ các quan hệ của $t$. Các điều kiện sau là tương đương:*
 
@@ -457,7 +457,7 @@ Quan hệ thứ tự $\alpha \leq \beta$ được xác định trong $\mathbf{Z}
 
 Monoid $\mathbf{N}^{(X)}$ và nhóm $\mathbf{Z}^{(X)}$ có tính chất phổ quát sau.
 
-#### Mệnh đề 10 {#alg-i-s7-prop-10 .statement}
+#### Mệnh đề 10 {#alg-i-s7-prop-10 .statement tag=05FU}
 
 *Cho M là một monoïde giao hoán (tương ứng, nhóm) và f một ánh xạ từ X vào M. Tồn tại một và chỉ một đồng cấu từ $\mathbf{N}^{(X)}$ (tương ứng, $\mathbf{Z}^{(X)}$) vào M sao cho* $g(\delta_x) = f(x)$ với mọi $x \in X$. *Nếu M được viết theo lối cộng, thì* $g(\alpha) = \sum_{x \in X} \alpha(x) \cdot f(x)$ với mọi $\alpha$ trong $\mathbf{N}^{(X)}$ (tương ứng, $\mathbf{Z}^{(X)}$).
 
@@ -504,7 +504,7 @@ $$
 \mathbf{N}^{(S)} = \mathbf{Z}^{(S)} \cap \mathbf{N}^{(X)}.
 $$
 
-#### Nhận xét {#alg-i-s7-n7-rem-1 .statement}
+#### Nhận xét {#alg-i-s7-n7-rem-1 .statement tag=05FV}
 
 Cho $M$ là monoid nhân của các số nguyên dương ngặt và cho $\mathfrak{P}$ là tập các số nguyên tố (§ 4, no. 10, Định nghĩa 15). Theo Mệnh đề 10 tồn tại một đồng cấu $u$ của $\mathbf{N}^{(\mathfrak{P})}$ vào $M$ được đặc trưng bởi $u(\delta_p) = p$ với mọi số nguyên tố $p$. Khi đó $u(\alpha) = \prod_{p \in \mathfrak{P}} p^{\alpha(p)}$ với $\alpha$ trong $\mathbf{N}^{(\mathfrak{P})}$ và Định lý 7 của § 4, no. 10 cho thấy rằng $u$ là một đẳng cấu của $\mathbf{N}^{(\mathfrak{P})}$ lên $H$.
 
@@ -565,7 +565,7 @@ $$
 |\nu(u)| = l(u) \quad (u \in Mo(X)).
 $$
 
-#### Mệnh đề 11 {#alg-i-s7-prop-11 .statement}
+#### Mệnh đề 11 {#alg-i-s7-prop-11 .statement tag=05FW}
 
 *Đồng cấu chính tắc $\nu$ của Mo(X) vào $N^{(X)}$ là toàn ánh.* Cho $w = x_1 \ldots x_n$ và $w' = x'_1 \ldots x'_m$ là hai phần tử của Mo(X); để $\nu(w) = \nu(w')$, điều kiện cần và đủ là $m = n$ và tồn tại một phép hoán vị $\sigma \in S_n$ sao cho $x'_i = x_{\sigma(i)}$ với $1 \leq i \leq n$.
 
@@ -589,7 +589,7 @@ $$
 $$
 cho thấy rằng $\alpha(x)$ là lực lượng của $I'_x$. Do đó tồn tại một phép hoán vị $\sigma$ của $[1, n]$ sao cho $\sigma(I'_x) = I_x$ với mọi $x \in X$, nghĩa là $x'_i = x_{\sigma(i)}$ với $i = 1, \ldots, n$.
 
-#### Nhận xét {#alg-i-s7-n9-rem-1 .statement}
+#### Nhận xét {#alg-i-s7-n9-rem-1 .statement tag=05FX}
 
 Cho $S$ là một tập con của $X$. Nhắc lại rằng ta đã đồng nhất $M(S)$ với một magma con của $M(X)$, $Mo(S)$ với một monoid con của $Mo(X)$ và $N^{(S)}$ với một monoid con của $N^{(X)}$. Khi đó
 $$

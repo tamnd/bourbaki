@@ -12,9 +12,9 @@ pdf_pages: 0142-0144
 extraction: ocr
 statements: 5
 exercises: 0
-content_sha256: 7067775f06c7b563551a168144bee87a50500af1a9c1063f6c5805d89d9e4656
+content_sha256: a29133938b478a4dda277ac687d36c76b2372459cbcbf39721eb4a296d0aaebd
 translated_from: content/en/lie/V/A_a_complements_on_linear_representations.md
-source_content_sha256: 2d81808297b20691a264d3c19e5287310c7cbd4047624c58677e442a1bae2da2
+source_content_sha256: 10a851bfe0a82fc5cdd717550427141554add5045f831510966ac7b21ab52629
 translation_model: gpt-5.4
 translation_run: translate-vi-54328539
 glossary_version: 34
@@ -27,7 +27,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Mệnh đề sau tổng quát hóa Mệnh đề 13 của Chương 1, § 3, no. 8.
 
-#### Mệnh đề 1 {#lie-v-a0-prop-1 .statement}
+#### Mệnh đề 1 {#lie-v-a0-prop-1 .statement tag=0ATZ}
 
 Cho K là một trường giao hoán, A là một đại số trên K, và V và W là hai A-môđun trái đồng thời là các không gian vectơ hữu hạn chiều trên K. Nếu tồn tại một mở rộng L của K sao cho các (A \otimes_K L)-môđun V \otimes_K L và W \otimes_K L đẳng cấu, thì các A-môđun V và W đẳng cấu.
 
@@ -49,7 +49,7 @@ với mọi $\lambda, i, k$. Theo giả thiết, các phương trình tuyến t�
 
 c) *Trường hợp tổng quát*. Cho $\Omega$ là một mở rộng đóng đại số của $L$, và $K_0$ là bao đóng đại số của $K$ trong $\Omega$. Giả thiết kéo theo rằng $V \otimes_K \Omega$ và $W \otimes_K \Omega$ là các $(A \otimes_K \Omega)$-môđun đẳng cấu. Vì $K_0$ là vô hạn, phần b) cho thấy rằng $V \otimes_K K_0$ và $W \otimes_K K_0$ là các $(A \otimes_K K_0)$-môđun đẳng cấu. Giữ ký hiệu của b), hệ (2) có một nghiệm $(\xi_{ij}) \in K_0^{m^2}$ sao cho $\det(\xi_{ij}) \neq 0$. Nhưng các $\xi_{ij}$ đều thuộc một mở rộng đại số $K_1$ có bậc hữu hạn trên $K$. Các $(A \otimes_K K_1)$-môđun $V \otimes_K K_1$ và $W \otimes_K K_1$ là đẳng cấu, và chứng minh được hoàn tất bằng cách dùng a).
 
-#### Mệnh đề 2 (Maschke) {#lie-v-a0-prop-2 .statement}
+#### Mệnh đề 2 (Maschke) {#lie-v-a0-prop-2 .statement tag=0AU0}
 
 *Cho A là một vành có phần tử đơn vị, E là một A-môđun trái, F là một hạng tử trực tiếp của E, G là một nhóm cấp hữu hạn q, và $\rho$ là một biểu diễn tuyến tính của G trên E. Giả sử rằng q.1 khả nghịch trong A và F ổn định dưới G. Khi đó tồn tại một phần bù của F trong E ổn định dưới G.*
 
@@ -67,18 +67,18 @@ $$
 $$
 Do đó $f$ giao hoán với $\rho(G)$, nên $\ker(f)$ là một phần bù của $F$ ổn định dưới $G$.
 
-#### Hệ quả {#lie-v-a0-n0-cor-1 .statement}
+#### Hệ quả {#lie-v-a0-n0-cor-1 .statement tag=0AU1}
 
 *Một nhóm hữu hạn G có cấp q, và K là một trường giao hoán mà đặc số không chia hết q. Khi đó đại số nhóm của G trên K là nửa đơn.*
 
 Thật vậy, theo Mệnh đề 2, mọi môđun trên đại số này đều là nửa đơn.
 
-#### Mệnh đề 3 {#lie-v-a0-prop-3 .statement}
+#### Mệnh đề 3 {#lie-v-a0-prop-3 .statement tag=0AU2}
 
 Cho $A$ là một vành giao hoán, $M$ là một $A$-môđun, $G$ là một nhóm hữu hạn tác động lên $M$, và $A'$ là một $A$-môđun. Giả sử rằng cấp $q$ của $G$ là khả nghịch trong $A$. Gọi $M^G$ là tập hợp các phần tử của $M$ bất biến dưới $G$. Khi đó đồng cấu chính tắc từ $M^G \otimes_A A'$ vào $M \otimes_A A'$ xác định một đẳng cấu từ $M^G \otimes_A A'$ lên môđun $(M \otimes_A A')^G$ gồm các phần tử của $M \otimes_A A'$ bất biến dưới $G$.
 
 Thật vậy, cho $Q$ là phép chiếu của $M$ lên $M^G$ được xác định bởi $Q(x) = q^{-1} \sum_{g \in G} g(x)$ với mọi $x \in M$. Nếu $i$ ký hiệu đơn ánh chính tắc của $M^G$ vào $M$, thì $Q \circ i$ là ánh xạ đồng nhất của $M^G$, nên $(Q \otimes 1_{A'}) \circ (i \otimes 1_{A'})$ là ánh xạ đồng nhất của $M^G \otimes_A A'$. Vì $Q \otimes 1_{A'} = q^{-1} \sum_{g \in G} (g \otimes 1_{A'})$, ảnh của $i \otimes 1_{A'}$ là $(M \otimes A')^G$. Mặt khác, $i \otimes 1_{A'}$ là đơn ánh theo điều đã được nói trước đó.
 
-#### Nhận xét {#lie-v-a0-n0-rem-1 .statement}
+#### Nhận xét {#lie-v-a0-n0-rem-1 .statement tag=0AU3}
 
 Mệnh đề trước áp dụng đặc biệt khi $A'$ là một $A$-đại số. Trong trường hợp đó, $M^G \otimes_A A'$ là một $A'$-môđun con của $M \otimes_A A'$.

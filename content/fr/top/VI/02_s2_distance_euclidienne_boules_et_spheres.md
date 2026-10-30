@@ -29,7 +29,7 @@ subsections:
       pdf_page: 39
 statements: 13
 exercises: 14
-content_sha256: ea12c7bf4654b75d8e680909f96842a8bbfba287bf97157b890d942ed1870162
+content_sha256: 18504b3bb4a40b10ab42c21288f8f8538b444f7a038a5ff3e013016aed924323
 ---
 
 ## § 2. DISTANCE EUCLIDIENNE; BOULES ET SPHÈRES
@@ -97,7 +97,7 @@ $$
 $$
 qui est une conséquence de (1) (VI, p. 7), on conclut que $d(\mathbf{x}, \mathbf{y})$ est uniformément continue dans $\mathbf{R}^n \times \mathbf{R}^n$; la norme $\| \mathbf{x} \| = d(0, \mathbf{x})$ est par suite uniformément continue dans $\mathbf{R}^n$.
 
-#### Définition 1 {#top-vi-s2-def-1 .statement}
+#### Définition 1 {#top-vi-s2-def-1 .statement tag=0BWR}
 
 Étant donnés un point $\mathbf{x}_0 \in \mathbf{R}^n$, et un nombre $r > 0$, on appelle boule euclidienne ouverte (resp. fermée) à n dimensions de centre $\mathbf{x}_0$ et de rayon $r$, l’ensemble des points $\mathbf{x} \in \mathbf{R}^n$ tels que $d(\mathbf{x}_0, \mathbf{x}) < r$ (resp. $d(\mathbf{x}_0, \mathbf{x}) \leq r$); on appelle sphère euclidienne à $n - 1$ dimensions, de centre $\mathbf{x}_0$ et de rayon $r$, l’ensemble des points $\mathbf{x}$ tels que $d(\mathbf{x}_0, \mathbf{x}) = r$.
 
@@ -107,7 +107,7 @@ Pour $n = 1$, la boule ouverte (resp. fermée) de centre $x_0$ et de rayon $r$ e
 
 D’après ce qui précède, les boules (ouvertes ou fermées) de centre $\mathbf{x}_0$ (ou seulement celles de rayon $1/p$, où $p$ parcourt l’ensemble des entiers $> 0$) forment un système fondamental de voisinages du point $\mathbf{x}_0$.
 
-#### Proposition 1 {#top-vi-s2-prop-1 .statement}
+#### Proposition 1 {#top-vi-s2-prop-1 .statement tag=0BWS}
 
 Toute boule ouverte (resp. fermée) de $\mathbf{R}^n$ est un ensemble ouvert (resp. compact). L’adhérence d’une boule ouverte est la boule fermée de même centre et de même rayon ; l’intérieur d’une boule fermée est la boule ouverte de même centre et de même rayon.
 
@@ -117,13 +117,13 @@ d(\mathbf{x}_0, \mathbf{z}) = (1 + t)r > r,
 $$
 et $d(\mathbf{x}, \mathbf{z}) = tr$ est aussi petit qu’on veut; donc $\mathbf{x}$ n’est pas intérieur à la boule fermée de centre $\mathbf{x}_0$ et de rayon $r$.
 
-#### Corollaire {#top-vi-s2-n3-cor-1 .statement}
+#### Corollaire {#top-vi-s2-n3-cor-1 .statement tag=0BWT}
 
 Toute sphère euclidienne est un ensemble compact, frontière de la boule ouverte et de la boule fermée de même centre et de même rayon.
 
 L’homéomorphisme affine $\mathbf{x} \mapsto (1/r)(\mathbf{x} - \mathbf{x}_0)$ transforme la sphère (resp. boule ouverte, boule fermée) de centre $\mathbf{x}_0$ et de rayon $r$ en la sphère (resp. boule ouverte, boule fermée) de centre 0 et de rayon 1 ; on désigne cette sphère par la notation $S_{n-1}$ et on l’appelle *sphère unité* dans $\mathbf{R}^n$; de même, on désigne par $B_n$, et on appelle *boule unité* dans $\mathbf{R}^n$, la boule *fermée* de centre 0 et de rayon 1. L’étude topologique d’une sphère à $n - 1$ dimensions (resp. d’une boule fermée à $n$ dimensions) est donc ramenée à celle de $S_{n-1}$ (resp. $B_n$). Quant aux boules ouvertes, on a la proposition suivante:
 
-#### Proposition 2 {#top-vi-s2-prop-2 .statement}
+#### Proposition 2 {#top-vi-s2-prop-2 .statement tag=0BWU}
 
 *Toute boule ouverte à n dimensions est homéomorphe à $\mathbf{R}^n$.*
 
@@ -131,7 +131,7 @@ En effet, l’application $x \mapsto x/(1 + \|x\|)$ est continue dans $\mathbf{R
 
 Désignons par $R_n^*$ le complémentaire de 0 dans $\mathbf{R}^n$, et rappelons qu’on désigne par $\mathbf{R}^*$ l’ensemble des nombres réels $> 0$.
 
-#### Proposition 3 {#top-vi-s2-prop-3 .statement}
+#### Proposition 3 {#top-vi-s2-prop-3 .statement tag=0BWV}
 
 *L’application $(t, z) \mapsto tz$ est un homéomorphisme de $\mathbf{R}^* \times S_{n-1}$ sur $R_n^*$.*
 
@@ -141,19 +141,19 @@ L’application $x \mapsto x/\|x\|$ est appelée *projection centrale* de $R_n^*
 
 En particulier, pour $n = 1$, on a $S_{n-1} = \{-1, +1\}$, la projection centrale d’un nombre réel $x \neq 0$ est son signe $\operatorname{sgn} x$, et on retrouve ainsi la prop. 2 de IV, p. 12.
 
-#### Corollaire 1 {#top-vi-s2-prop-3-cor-1 .statement}
+#### Corollaire 1 {#top-vi-s2-prop-3-cor-1 .statement tag=0BWW}
 
 *La sphère $S_{n-1}$ est homéomorphe à l’espace quotient de $R_n^*$ par la relation d’équivalence dont les classes sont les demi-droites ouvertes d’origine 0.*
 
 Ces classes peuvent aussi être définies comme les orbites distinctes de $\{0\}$, du groupe des homothéties de rapport $> 0$.
 
-#### Corollaire 2 {#top-vi-s2-prop-3-cor-2 .statement}
+#### Corollaire 2 {#top-vi-s2-prop-3-cor-2 .statement tag=0BWX}
 
 *L’espace $R_n^*$ est homéomorphe à $\mathbf{R} \times S_{n-1}$.*
 
 En effet, $\mathbf{R}^* = ]0, +\infty[$ est homéomorphe à $\mathbf{R}$ (IV, p. 13, prop. 1).
 
-#### Remarque {#top-vi-s2-n3-rem-1 .statement}
+#### Remarque {#top-vi-s2-n3-rem-1 .statement tag=0BWY}
 
 Les propositions précédentes ne sont pas particulières aux boules euclidiennes, mais peuvent s’étendre à toute une catégorie de voisinages compacts de 0 dans $\mathbf{R}^n$ (voir VI, p. 24, exerc. 12).
 
@@ -175,23 +175,23 @@ $$
 
 Si on désigne par A le complémentaire de {e_n} par rapport à S_{n-1}, ces formules prouvent qu’on a défini ainsi un homéomorphisme de A sur l’hyperplan H. Cet homéomorphisme est appelé projection stéréographique de A sur H, ou, par abus de langage, projection stéréographique de S_{n-1} sur H (cf. A, IX, § 10, exerc. 14); e_n est le point de vue de la projection, H l’hyperplan de projection. Plus généralement, si a est un point de S_{n-1} et H’ l’hyperplan passant par 0 et orthogonal à la droite passant par 0 et a, on définit de la même manière la projection stéréographique de point de vue a sur l’hyperplan de projection H’. Cette projection définit un homéomorphisme du complémentaire de a dans S_{n-1} sur H’, d’où:
 
-#### Proposition 4 {#top-vi-s2-prop-4 .statement}
+#### Proposition 4 {#top-vi-s2-prop-4 .statement tag=0BWZ}
 
 Pour n ≥ 1, le complémentaire d’un point dans la sphère euclidienne S_{n-1} est homéomorphe à l’espace numérique R^{n-1}.
 
-#### Corollaire 1 {#top-vi-s2-prop-4-cor-1 .statement}
+#### Corollaire 1 {#top-vi-s2-prop-4-cor-1 .statement tag=0BX0}
 
 Pour n ≥ 1, la sphère S_{n-1} est homéomorphe à l’espace compact obtenu par adjonction à R^{n-1} d’un « point à l’infini » (I, p. 68).
 
 Comme S_{n-1} est compact, cela résulte immédiatement de la prop. 4 et de loc. cit., th. 4.
 
-#### Corollaire 2 {#top-vi-s2-prop-4-cor-2 .statement}
+#### Corollaire 2 {#top-vi-s2-prop-4-cor-2 .statement tag=0BX1}
 
 Pour n > 1, la sphère euclidienne S_{n-1} est un espace connexe et localement connexe dont tout point admet un voisinage ouvert homéomorphe à R^{n-1}.
 
 En effet, la sphère étant un espace séparé, le complémentaire $U(a)$ d’un point $a$ de $S_{n-1}$ est ouvert dans $S_{n-1}$; si $n > 1$, l’espace $S_{n-1}$ est la réunion de deux parties connexes $U(a)$ et $U(-a)$ dont l’intersection est non vide, donc est connexe (I, p. 81, prop. 2).
 
-#### Corollaire 3 {#top-vi-s2-prop-4-cor-3 .statement}
+#### Corollaire 3 {#top-vi-s2-prop-4-cor-3 .statement tag=0EAJ}
 
 *Pour $n \geqslant 1$, la sphère $S_n$ est homéomorphe à l’espace quotient de la boule $B_n$, obtenu en identifiant tous les points de la sphère $S_{n-1}$.*
 
@@ -199,7 +199,7 @@ En effet, la boule $B_n$ est un espace *régulier* (I, p. 56); donc l’espace q
 
 En particulier, pour $n = 1$, compte tenu de la prop. 4 de V, p. 2:
 
-#### Corollaire 4 {#top-vi-s2-prop-4-cor-4 .statement}
+#### Corollaire 4 {#top-vi-s2-prop-4-cor-4 .statement tag=0EAK}
 
 *Le cercle $S_1$ est homéomorphe au tore $T$.*
 

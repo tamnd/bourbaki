@@ -25,7 +25,7 @@ subsections:
       pdf_page: 270
 statements: 17
 exercises: 4
-content_sha256: e406895b1625ad7fa5ffe7186d3e518cff1a0f1317ac962efb162f7003c8aba6
+content_sha256: 55d9eb9c59b5828b1cae706096354a16a7477be61c994381a1b27f81662b0ac6
 ---
 
 ## § 6. LIMITES PROJECTIVES ET LIMITES INDUCTIVES DE MODULES
@@ -46,7 +46,7 @@ Soit $(E'_\alpha, f'_{\alpha \beta})$ un second système projectif de $A_\alpha$
 
 En outre:
 
-#### Proposition 1 {#alg-ii-s6-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s6-prop-1 .statement tag=05QX}
 
 *Soient* $(E_\alpha, f_{\alpha \beta}), (E'_\alpha, f'_{\alpha \beta}), (E''_\alpha, f''_{\alpha \beta})$ *trois systèmes projectifs de* $A_\alpha$*-modules*, $(u_\alpha), (v_\alpha)$ *deux systèmes projectifs d’applications* $A_\alpha$*-linéaires tels que les suites*
 $$
@@ -60,11 +60,11 @@ $$
 
 En effet, comme $\overline{u}_\alpha^1(0) = \{0\}$ pour tout $\alpha$, il résulte de E, III, p. 54, prop. 2 que $\overline{u}_\alpha^1(0) = \{0\}$, donc $u$ est injectif; en outre, les $u_\alpha(E'_\alpha)$ forment un système projectif de parties des $E_\alpha$ et l’on a $u(\lim_{\leftarrow} E'_\alpha) = \lim_{\leftarrow} u_\alpha(E'_\alpha)$. Comme $u_\alpha(E'_\alpha) = \overline{v}_\alpha^1(0)$ par hypothèse, on a $\overline{v}_\alpha^1(0) = \lim_{\leftarrow} u_\alpha(E'_\alpha) = u(\lim_{\leftarrow} E'_\alpha)$ (E, III, p. 54, prop. 2), ce qui achève la démonstration.
 
-#### Remarque 1 {#alg-ii-s6-n1-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s6-n1-rem-1 .statement tag=05QY}
 
 La prop. 1 et sa démonstration sont valables pour des groupes quelconques, au changement de notation près.
 
-#### Remarque 2 {#alg-ii-s6-n1-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s6-n1-rem-2 .statement tag=0DFU}
 
 On notera que si l’on a des suites exactes
 $$
@@ -83,7 +83,7 @@ $$
 \operatorname{Hom}(1_F, f_{\alpha \beta}) = \bar{f}_{\alpha \beta} : \operatorname{Hom}_A(F, E_\beta) \to \operatorname{Hom}_A(F, E_\alpha)
 $$
 est un homomorphisme de $\mathbf{Z}$-modules tel que $(\operatorname{Hom}_A(F, E_\alpha), \bar{f}_{\alpha \beta})$ soit un système projectif de $\mathbf{Z}$-modules; comme $\bar{f}_{\alpha \beta}(v_\beta) = f_{\alpha \beta} \circ v_\beta$, les remarques précédentes peuvent donc s’exprimer de la façon suivante:
-#### Proposition 2 {#alg-ii-s6-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s6-prop-2 .statement tag=05QZ}
 
 *Pour tout système projectif* $(E_\alpha, f_{\alpha \beta})$ *de A-modules et tout A-module F, l’application canonique* $u \mapsto (f_\alpha \circ u)$ *est un isomorphisme de* $\mathbf{Z}$*-modules*
 (2)
@@ -91,7 +91,7 @@ $$
 l_F : \operatorname{Hom}_A(F, \lim_{\leftarrow} E_\alpha) \to \lim_{\leftarrow} \operatorname{Hom}_A(F, E_\alpha).
 $$
 
-#### Corollaire {#alg-ii-s6-n1-cor-1 .statement}
+#### Corollaire {#alg-ii-s6-n1-cor-1 .statement tag=05R0}
 
 *Pour tout homomorphisme* $v : F \to F'$ *de A-modules, les* $\bar{v}_\alpha = \operatorname{Hom}(v, 1_{E_\alpha}) : \operatorname{Hom}(F', E_\alpha) \to \operatorname{Hom}(F, E_\alpha)$ *forment un système projectif d’applications* $\mathbf{Z}$*-linéaires, et le diagramme*
 (3)
@@ -117,7 +117,7 @@ $$
 pour $x_\alpha \in E_\alpha, \lambda_\alpha \in A_\alpha$; alors $E = \lim_{\longrightarrow} E_\alpha$ est muni d’une structure de *module à gauche* sur $A = \lim_{\longrightarrow} A_\alpha$ (I, p. 117). Pour tout $\alpha \in I$, soient $f_\alpha : E_\alpha \to E, \varphi_\alpha : A_\alpha \to A$ les applications canoniques; alors $(f_\alpha, \varphi_\alpha)$ est un *dimorphisme* de $E_\alpha$ dans $E$. Nous dirons que $(E_\alpha, f_{\beta \alpha})$ est un *système inductif de* $A_\alpha$*-modules à gauche*, et que le A-module $E$ est sa *limite inductive*.
 Soit $(E'_\alpha, f'_{\beta \alpha})$ un second système inductif de $A_\alpha$-modules à gauche, et pour tout $\alpha$, soit $u_\alpha : E'_\alpha \to E_\alpha$ une application $A_\alpha$-linéaire, ces applications formant un système inductif; alors $u = \lim u_\alpha$ est une application $A$-linéaire de $\lim E'_\alpha$ dans $\lim E_\alpha$. En outre:
 
-#### Proposition 3 {#alg-ii-s6-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s6-prop-3 .statement tag=05R1}
 
 *Soient* $(E_\alpha, f_{\beta \alpha}), (E'_\alpha, f'_{\beta \alpha}), (E''_\alpha, f''_{\beta \alpha})$ *trois systèmes inductifs de* $A_\alpha$*-modules*, $(u_\alpha), (v_\alpha)$ *deux systèmes inductifs d’applications* $A_\alpha$*-linéaires tels que les suites*
 
@@ -137,19 +137,19 @@ En effet, on a $u(\lim E'_\alpha) = \lim u_\alpha(E'_\alpha)$ et $\overline{v}^1
 
 De façon imagée, on exprime encore la prop. 3 en disant que *le passage à la limite inductive préserve l’exactitude*.
 
-#### Proposition 4 {#alg-ii-s6-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s6-prop-4 .statement tag=05R2}
 
 *Soient* $(E_\alpha, f_{\beta \alpha})$ *un système inductif de* $A_\alpha$*-modules*, $E = \lim E_\alpha$ *sa limite inductive*, $\varphi_\alpha : A_\alpha \to A$ *et* $f_\alpha : E_\alpha \to E$ *les applications canoniques pour tout* $\alpha \in I$. *Si, pour tout* $\alpha \in I$, $S_\alpha$ *est un système générateur de* $E_\alpha$, *alors* $S = \bigcup_{\alpha \in I} f_\alpha(S_\alpha)$ *est un système générateur de* $E$.
 
 En effet, tout $x \in E$ est de la forme $f_\alpha(x_\alpha)$ pour un $\alpha \in I$ et un $x_\alpha \in E_\alpha$, et par hypothèse $x_\alpha = \sum_i \lambda^{(i)}_\alpha y^{(i)}_\alpha$, où $\lambda^{(i)}_\alpha \in A_\alpha$ et $y^{(i)}_\alpha \in S_\alpha$; si on pose $\lambda^{(i)} = \varphi_\alpha(\lambda^{(i)}_\alpha)$, $y^{(i)} = f_\alpha(y^{(i)}_\alpha)$, on a $x = \sum_i \lambda^{(i)} y^{(i)}$.
 
-#### Proposition 5 {#alg-ii-s6-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s6-prop-5 .statement tag=05R3}
 
 *Les hypothèses et notations étant celles de la prop. 4, on suppose que pour tout* $\alpha \in I$, $E_\alpha$ *soit somme directe d’une famille* $(M^\lambda_\alpha)_{\lambda \in L}$ *de sous-modules* (l’ensemble d’indices $L$ *étant indépendant de* $\alpha$) *et que l’on ait* $f_{\beta \alpha}(M^\lambda_\alpha) \subset M^\lambda_\beta$ *pour* $\alpha \leq \beta$ *et pour tout* $\lambda \in L$. *Alors* $E$ *est somme directe de la famille des sous-modules* $M^\lambda = \lim M^\lambda_\alpha$ ($\lambda \in L$).
 
 Il résulte de la prop. 4 que $E$ est somme des $M^\lambda$. Soit $(y^\lambda)_{\lambda \in L}$ une famille telle que $y^\lambda \in M^\lambda$ pour tout $\lambda \in L$, dont le support est fini, et supposons que $\sum_\lambda y^\lambda = 0$. En vertu de E, III, p. 62, lemme 1, il existe un $\alpha \in I$ et une famille $(x^\lambda_\alpha)_{\lambda \in L}$, de support fini, formée d’éléments de $E_\alpha$ tels que $x^\lambda_\alpha \in M^\lambda_\alpha$ et $y^\lambda = f_\alpha(x^\lambda_\alpha)$ pour tout $\lambda \in L$. La relation $f_\alpha \left( \sum_{\lambda \in L} x^\lambda_\alpha \right) = 0$ entraîne l’existence d’un $\beta \geq \alpha$ tel que $f_{\beta \alpha} \left( \sum_{\lambda \in L} x^\lambda_\alpha \right) = 0$ (E, III, p. 62, lemme 1) ce qui s’écrit $\sum_{\lambda \in L} x^\lambda_\beta = 0$, où $x^\lambda_\beta = f_{\beta \alpha}(x^\lambda_\alpha) \in M^\lambda_\beta$ par hypothèse; on a donc $x^\lambda_\beta = 0$ pour tout $\lambda \in L$, et par suite $y^\lambda = f_\beta(x^\lambda_\beta) = 0$ pour tout $\lambda \in L$, ce qui prouve que la somme des $M^\lambda$ est directe.
 
-#### Corollaire {#alg-ii-s6-n2-cor-1 .statement}
+#### Corollaire {#alg-ii-s6-n2-cor-1 .statement tag=05R4}
 
 Soit $(P_\alpha)$ un système inductif de parties des $E_\alpha$, et soit $P = \lim P_\alpha$. Si pour tout $\alpha \in I$, $P_\alpha$ est une partie libre (resp. une base) de $E_\alpha$, alors $P$ est une partie libre (resp. une base) de $E$.
 
@@ -163,7 +163,7 @@ $$
 
 est un homomorphisme de $\mathbf{Z}$-modules tel que $(\operatorname{Hom}_A(E_\alpha, F), \bar{f}_{\alpha \beta})$ soit un système projectif de $\mathbf{Z}$-modules; comme $\bar{f}_{\alpha \beta}(v_\beta) = v_\beta \circ f_{\beta \alpha}$, les remarques précédentes peuvent s’exprimer comme suit:
 
-#### Proposition 6 {#alg-ii-s6-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s6-prop-6 .statement tag=05R5}
 
 Pour tout système inductif $(E_\alpha, f_{\beta \alpha})$ de $A$-modules et tout $A$-module $F$, l’application canonique $u \mapsto (u \circ f_\alpha)$ est un isomorphisme de $\mathbf{Z}$-modules
 
@@ -172,7 +172,7 @@ $$
 d_F : \operatorname{Hom}_A(\lim E_\alpha, F) \to \lim \operatorname{Hom}_A(E_\alpha, F).
 $$
 
-#### Corollaire 1 {#alg-ii-s6-prop-6-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s6-prop-6-cor-1 .statement tag=05R6}
 
 Pour tout homomorphisme $v : F \to F'$ de $A$-modules, les $\bar{v}_\alpha = \operatorname{Hom}(1_{E_\alpha}, v) : \operatorname{Hom}(E_\alpha, F) \to \operatorname{Hom}(E_\alpha, F')$ forment un système projectif d’applications $\mathbf{Z}$-linéaires, et le diagramme
 
@@ -189,11 +189,11 @@ est commutatif.
 
 Pour tout $u \in \mathrm{Hom}(\lim_{\longrightarrow} E_\alpha, F)$, on a en effet $d_F(v \circ u) = (v \circ u \circ f_\alpha)$, et la commutativité du diagramme (6) résulte alors aussitôt des définitions.
 
-#### Corollaire 2 {#alg-ii-s6-prop-6-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s6-prop-6-cor-2 .statement tag=05R7}
 
 Si $(E_\alpha, f_{\beta \alpha})$ est un système inductif de $A$-modules à gauche et $E = \lim_{\longrightarrow} E_\alpha$, $(E^*_\alpha, t f_{\beta \alpha})$ est un système projectif de $A$-modules à droite, et $\lim_{\longleftarrow} E^*_\alpha$ est canoniquement isomorphe à $E^*$.
 
-#### Remarque {#alg-ii-s6-n2-rem-1 .statement}
+#### Remarque {#alg-ii-s6-n2-rem-1 .statement tag=05R8}
 
 Soient $E$ un $A$-module, $(M_\alpha)_{\alpha \in I}$ une famille croissante de sous-modules de $E$ telle que $E$ soit réunion des $M_\alpha$; si $j_{\beta \alpha} : M_\alpha \to M_\beta$ (pour $\alpha \leq \beta$) et $j_\alpha : M_\alpha \to E$ sont les injections canoniques, il est immédiat que $j = \lim_{\longrightarrow} j_\alpha$ est un isomorphisme de $\lim_{\longrightarrow} M_\alpha$ sur $E$ (E, III, p. 63, Remarque 1). En particulier, tout $A$-module est limite inductive de la famille filtrante croissante de ses sous-modules de type fini.
 
@@ -224,7 +224,7 @@ $$
 \pi = \lim_{\longrightarrow} \pi_\alpha : \lim_{\longrightarrow} (E_\alpha \otimes_{A_\alpha} F_\alpha) \to E \otimes_A F.
 $$
 
-#### Proposition 7 {#alg-ii-s6-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s6-prop-7 .statement tag=05R9}
 
 L’application $\mathbf{Z}$-linéaire (7) est bijective.
 
@@ -249,7 +249,7 @@ C. Q. F. D.
 
 De façon imagée, on exprime la prop. 7 en disant que le produit tensoriel commute avec les limites inductives, et l’on identifie d’ordinaire les deux membres de (7) au moyen de l’isomorphisme $\pi$.
 
-#### Corollaire 1 {#alg-ii-s6-prop-7-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s6-prop-7-cor-1 .statement tag=05RA}
 
 Soit $(E'_\alpha, f'_{\beta \alpha})$ (resp. $(F'_\alpha, g'_{\beta \alpha})$) un second système inductif de $A_\alpha$-modules à droite (resp. à gauche); pour tout $\alpha \in I$, soit $u_\alpha : E_\alpha \to E'_\alpha$ (resp. $v_\alpha : F_\alpha \to F'_\alpha$) une application $A_\alpha$-linéaire, telle que $(u_\alpha)$ (resp. $(v_\alpha)$) soit un système inductif. Alors $(u_\alpha \otimes v_\alpha)$ est un système inductif d’applications $\mathbf{Z}$-linéaires, et le diagramme
 
@@ -269,13 +269,13 @@ Soit $(A'_\alpha, \rho'_{\beta \alpha})$ un second système inductif d’anneaux
 
 En particulier, si les $A_\alpha$ sont commutatifs, $A = \lim \rightarrow A_\alpha$ est commutatif et l’isomorphisme (7) est un isomorphisme de $A$-modules.
 
-#### Corollaire 2 {#alg-ii-s6-prop-7-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s6-prop-7-cor-2 .statement tag=05RB}
 
 Soit $(E_\alpha, f_{\beta \alpha})$ un système inductif de $A_\alpha$-modules à droite et soit $E'_\alpha = E_\alpha \otimes_{A_\alpha} A$ le $A$-module obtenu par extension à $A = \lim \rightarrow A_\alpha$ de l’anneau des scalaires au moyen de l’homomorphisme canonique $\rho_\alpha : A_\alpha \to A$. Alors $(E'_\alpha, f_{\beta\alpha} \otimes 1_A)$ est un système inductif de $A$-modules à droite, dont la limite inductive est canoniquement isomorphe à $\varprojlim E_\alpha$.
 
 Il suffit d’appliquer la prop. 7 (II, p. 93) en prenant pour $F_\alpha$ l’anneau $A$ considéré comme $(A_\alpha, A)$-bimodule au moyen de $\rho_\alpha$.
 
-#### Corollaire 3 {#alg-ii-s6-prop-7-cor-3 .statement}
+#### Corollaire 3 {#alg-ii-s6-prop-7-cor-3 .statement tag=05RC}
 
 *Soient $A$ un anneau, $(E_\alpha, f_{\beta\alpha})$ un système inductif de $A$-modules à droite, $F$ un $A$-module à gauche. Alors les $\mathbf{Z}$-modules $\varprojlim (E_\alpha \otimes_A F)$ et $(\varprojlim E_\alpha) \otimes_A F$ sont canoniquement isomorphes.*
 
@@ -283,7 +283,7 @@ Il suffit de faire $A_\alpha = A$ et $F_\alpha = F$ pour tout $\alpha \in I$ dan
 
 En particulier, si $\rho : A \to B$ est un homomorphisme d’anneaux, $\varprojlim \rho^*(E_\alpha)$ et $\rho^*(\varprojlim E_\alpha)$ sont canoniquement isomorphes.
 
-#### Corollaire 4 {#alg-ii-s6-prop-7-cor-4 .statement}
+#### Corollaire 4 {#alg-ii-s6-prop-7-cor-4 .statement tag=05RD}
 
 *Soient $M$ un $A$-module à droite, $N$ un $A$ module à gauche, $(x_i)_{1 \leq i \leq n}$ une famille d’éléments de $M$, $(y_i)_{1 \leq i \leq n}$ une famille d’éléments de $N$, telles que $\sum_i (x_i \otimes y_i) = 0$ dans $M \otimes_A N$. Il existe alors un sous-module de type fini $M_1$ (resp. $N_1$) de $M$ (resp. $N$), contenant les $x_i$ (resp. les $y_i$), et tel que l’on ait $\sum_i (x_i \otimes y_i) = 0$ dans $M_1 \otimes_A N_1$.
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 68
 statements: 31
 exercises: 17
-content_sha256: 9cc054817c878c59790328ff07dc2604643cb755df20ae1a74254368f422948d
+content_sha256: 0bc6df43328bbb5120b9ce0ce0b8b38c1816da8078b4bdfc624cacad532d5cbe
 ---
 
 ## § 5. Algèbres de Lie résolubles
@@ -47,19 +47,19 @@ On rappelle que K désigne désormais un corps de caractéristique 0 et que tout
 
 ### 1. Définition des algèbres de Lie résolubles
 
-#### Définition 1 {#lie-i-s5-def-1 .statement}
+#### Définition 1 {#lie-i-s5-def-1 .statement tag=09Y1}
 
 Une algèbre de Lie g est dite résoluble si sa k-ième algèbre dérivée $\mathscr{D}^k g$ est nulle pour k assez grand.
 
 Une algèbre de Lie nilpotente est résoluble.
 
-#### Proposition 1 {#lie-i-s5-prop-1 .statement}
+#### Proposition 1 {#lie-i-s5-prop-1 .statement tag=09Y2}
 
 Une sous-algèbre, une algèbre quotient d’une algèbre de Lie résoluble sont résolubles. Toute extension d’une algèbre résoluble par une algèbre résoluble est résoluble. Tout produit fini d’algèbres résolubles est résoluble.
 
 Soient g une algèbre de Lie, g' une sous-algèbre, h un idéal de g, $\mathfrak{k} = g/h$, et $\varphi$ l’application canonique de g sur $\mathfrak{k}$. Si g est résoluble, on a $\mathscr{D}^k g = \{0\}$ pour un entier k, donc $\mathscr{D}^k g' \subset \mathscr{D}^k g = \{0\}$, et $\mathscr{D}^k \mathfrak{k} = \varphi(\mathscr{D}^k g) = \{0\}$, donc g' et $\mathfrak{k}$ sont résolubles. Si h et $\mathfrak{k}$ sont résolubles, il existe des entiers s, t tels que $\mathscr{D}^s h = \mathscr{D}^t \mathfrak{k} = \{0\}$; on a alors $\mathscr{D}^t g \subset h$, donc $\mathscr{D}^{s+t} g = \mathscr{D}^s (\mathscr{D}^t g) \subset \mathscr{D}^s h = \{0\}$, et g est résoluble. La dernière assertion résulte de la deuxième par récurrence sur le nombre des facteurs.
 
-#### Proposition 2 {#lie-i-s5-prop-2 .statement}
+#### Proposition 2 {#lie-i-s5-prop-2 .statement tag=09Y3}
 
 Soit g une algèbre de Lie. Les conditions suivantes sont équivalentes :
 
@@ -83,17 +83,17 @@ II. Les formules (5) du § 1 prouvent que $\mathscr{O}t(n, K) = n(n, K)$. Comme 
 
 Soient a, b deux idéaux résolubles d’une algèbre de Lie g. L’algèbre $(a + b)/b$ est isomorphe à $a/(a \cap b)$, donc est résoluble, et $a + b$, qui est extension de $(a + b)/b$ par b, l’est aussi (prop. 1). Il s’ensuit qu’un idéal résoluble maximal de g contient tout idéal résoluble de g, donc que g possède un plus grand idéal résoluble. Ceci légitime la définition suivante :
 
-#### Définition 2 {#lie-i-s5-def-2 .statement}
+#### Définition 2 {#lie-i-s5-def-2 .statement tag=09Y4}
 
 On appelle radical d’une algèbre de Lie son plus grand idéal résoluble.
 
-#### Proposition 3 {#lie-i-s5-prop-3 .statement}
+#### Proposition 3 {#lie-i-s5-prop-3 .statement tag=09Y5}
 
 Le radical r d’une algèbre de Lie g est le plus petit idéal de g tel que $g/r$ ait pour radical $\{0\}$.
 
 Soient a un idéal de g, et $\varphi$ l’application canonique de g sur $g/a$. Si le radical de $g/a$ est nul, alors $\varphi(r)$, qui est un idéal résoluble de $g/a$, est nul ; donc $r \subset a$. D’autre part, l’image réciproque $\varphi^{-1}(r')$ du radical $r'$ de $g/r$ est un idéal de g qui est résoluble d’après la prop. 1, donc est égal à r ; par suite $r' = \{0\}$.
 
-#### Proposition 4 {#lie-i-s5-prop-4 .statement}
+#### Proposition 4 {#lie-i-s5-prop-4 .statement tag=09Y6}
 
 Soient $g_1, \ldots, g_n$ des algèbres de Lie. Le radical $r$ du produit des $g_i$ est le produit des radicaux $r_i$ des $g_i$.
 
@@ -101,23 +101,23 @@ Le produit $r'$ des $r_i$ est un idéal résoluble (prop. 1), donc $r' \subset r
 
 ### 3. Radical nilpotent d’une algèbre de Lie
 
-#### Définition 3 {#lie-i-s5-def-3 .statement}
+#### Définition 3 {#lie-i-s5-def-3 .statement tag=09Y7}
 
 Soit $g$ une algèbre de Lie. On appelle radical nilpotent de $g$ l’intersection des noyaux des représentations simples de dimension finie de $g$.
 
-#### Remarque 1 {#lie-i-s5-n3-rem-1 .statement}
+#### Remarque 1 {#lie-i-s5-n3-rem-1 .statement tag=09Y8}
 
 Soit $s$ le radical nilpotent de $g$. Comme tout suite décroissante de sous-espaces vectoriels de $g$ est stationnaire, il existe un nombre fini de représentations simples de dimension finie de $g$ dont les noyaux ont pour intersection $s$. La somme directe de ces représentations est semi-simple et a pour noyau $s$. Il en résulte que l’ensemble des noyaux des représentations semi-simples de dimension finie de $g$ a un plus petit élément, à savoir $s$.
 
-#### Remarque 2 {#lie-i-s5-n3-rem-2 .statement}
+#### Remarque 2 {#lie-i-s5-n3-rem-2 .statement tag=09YD}
 
 Compte tenu de la prop. 4 c) du § 4, n° 3, $s$ est aussi l’intersection des plus grands idéaux de nilpotence des représentations de dimension finie de $g$. En particulier, $s$ est contenu dans le plus grand idéal nilpotent de $g$, donc est un idéal nilpotent de $g$.
 
-#### Remarque 3 {#lie-i-s5-n3-rem-3 .statement}
+#### Remarque 3 {#lie-i-s5-n3-rem-3 .statement tag=0E7R}
 
 Toute forme linéaire $\lambda$ sur $g$ qui est nulle sur $\mathscr{O}g$ est une représentation simple (d’espace $K$) de $g$, d’où $\lambda(s) = \{0\}$. Il en résulte que $s \subset \mathscr{O}g$. Par ailleurs, $s$ est contenu dans le radical $r$ de $g$ d’après la remarque 2. Nous allons démontrer que $s = r \cap \mathscr{O}g$.
 
-#### Lemme 1 {#lie-i-s5-lem-1 .statement}
+#### Lemme 1 {#lie-i-s5-lem-1 .statement tag=09Y9}
 
 Soient $V$ un espace vectoriel de dimension finie sur $K$, $g$ une sous-algèbre de $\mathrm{gl}(V)$ telle que $V$ soit un $g$-module simple, $a$ un idéal commutatif de $g$. On a alors $a \cap \mathscr{O}g = \{0\}$.
 
@@ -127,57 +127,57 @@ Si $b$ est un idéal de $g$ contenu dans $a$ et tel que l’on ait $\mathrm{Tr}\
 
 (Alg., chap. VII, , no 5, cor. 4 de la prop. 13) ; comme les éléments de b sont tous nilpotents, on a b = {0} (\S 4, no 3, lemme 2). Appliquons d’abord ceci à l’idéal [g, a] de g. Si x ∈ g, a ∈ a, s ∈ S, on a Tr [x, a]s = Tr (xas − axs) = Tr x(as − sa) = 0 puisque as = sa ; on a donc [g, a] = {0}. Les éléments de g commutent donc à ceux de a, donc aussi à ceux de S. Si x, y appartiennent à g, et si s ∈ S, on a Tr [x, y]s = Tr (xys − yxs) = Tr x(ys − sy) = 0 puisque ys = sy ; prenant alors pour b l’idéal $\mathscr{O}g \cap a$, on a $\mathscr{O}g \cap a = \{0\}$
 
-#### Théorème 1 {#lie-i-s5-thm-1 .statement}
+#### Théorème 1 {#lie-i-s5-thm-1 .statement tag=09YA}
 
 Soient g une algèbre de Lie, r son radical, et s son radical nilpotent. On a alors s = $\mathscr{O}g \cap r$.
 
 On sait déjà que s ⊂ $\mathscr{O}g \cap r$. Il suffira donc de montrer que, si ρ est une représentation simple de dimension finie de g, on a $\rho(\mathscr{O}g \cap r) = \{0\}$. Soit k le plus petit entier ≥ 0 tel que $\rho(\mathscr{O}^{k+1}r) = \{0\}$; posons $g' = \rho(g)$, $a' = \rho(\mathscr{O}^k r)$; comme $\mathscr{O}^k r$ est un idéal de g, $a'$ est un idéal de $g'$; cet idéal est commutatif puisque $\rho(\mathscr{O}^{k+1}r) = \{0\}$. Si V est l’espace de ρ, on a $g' \subset \mathrm{gl}(V)$ et V est un $g'$-module simple. Alors, $\rho(\mathscr{O}g \cap \mathscr{O}^k r) \subset \mathscr{O}g' \cap a' = \{0\}$. Si on avait $k > 0$, on aurait $\mathscr{O}^k r \subset \mathscr{O}g$, $\rho(\mathscr{O}^k r) = \{0\}$, contrairement à la définition de k. Donc $k = 0$, c’est-à-dire que $\rho(\mathscr{O}g \cap r) = \{0\}$.
 
-#### Corollaire 1 {#lie-i-s5-thm-1-cor-1 .statement}
+#### Corollaire 1 {#lie-i-s5-thm-1-cor-1 .statement tag=09YB}
 
 Soit g une algèbre de Lie résoluble. Le radical nilpotent de g est $\mathscr{O}g$. Si ρ est une représentation simple de dimension finie de g, $\rho(g)$ est commutative, et l’algèbre associative L engendrée par 1 et $\rho(g)$ est un corps de degré fini sur K.
 
 On a ici r = g, d’où s = $\mathscr{O}g$. Donc $\rho(\mathscr{O}g) = \{0\}$, ce qui montre que $g' = \rho(g)$ est commutative. Tout élément ≠ 0 de L est invér-sible en vertu du lemme de Schur ; L est donc un corps.
 
-#### Corollaire 2 (théorème de Lie) {#lie-i-s5-thm-1-cor-2 .statement}
+#### Corollaire 2 (théorème de Lie) {#lie-i-s5-thm-1-cor-2 .statement tag=09YC}
 
 Soit g une algèbre de Lie résoluble ; supposons K algébriquement clos. Soit M un g-module de dimension finie sur K, et soit $(M_i)_{0 \leq i \leq r}$ une suite de Jordan-Hölder de M. Alors, $M_{i-1}/M_i$ est de dimension 1 sur K pour $1 \leq i \leq r$, et, pour tout $x \in g$, on a $x_{M_{i-1}/M_i} = \lambda_i(x) \cdot 1$, $\lambda_i$ étant une forme linéaire sur g nulle sur $\mathscr{O}g$. En particulier, tout g-module simple de dimension finie sur K est en fait de dimension 1.
 
 Soit $\rho_i$ la représentation de $g$ dans $M_{i-1}/M_i$. L’algèbre associative $L_i$ engendrée par 1 et $\rho_i(g)$ est un corps, extension de degré fini de $K$, donc égal à $K$; et $M_{i-1}/M_i$ est un $L_i$-module simple, d’où $\dim M_{i-1}/M_i = 1$. Le reste du corollaire est évident.
 
-#### Remarque 4 {#lie-i-s5-n3-rem-4 .statement}
+#### Remarque 4 {#lie-i-s5-n3-rem-4 .statement tag=0E7S}
 
 Si on remplace $(M_i)_{0 \leq i \leq r}$ par une autre suite de Jordan-Hölder de $M$, la suite $(\lambda_1, \ldots, \lambda_r)$ est remplacée par une suite de la forme $(\lambda_{\pi(1)}, \ldots, \lambda_{\pi(r)})$, où $\pi$ est une permutation de $\{1, \ldots, r\}$, comme il résulte du théorème de Jordan-Hölder.
 
-#### Remarque 5 {#lie-i-s5-n3-rem-5 .statement}
+#### Remarque 5 {#lie-i-s5-n3-rem-5 .statement tag=0E7T}
 
 Soit $(e_1, \ldots, e_r)$ une base de $M$ telle que $e_i \in M_{i-1},\ e_i \notin M_i$ $(1 \leq i \leq r)$. Si $x \in g$, l’endomorphisme de $M$ qui correspond à $x$ est représenté par rapport à cette base par une matrice triangulaire dont les coefficients diagonaux sont $\lambda_1(x), \ldots, \lambda_r(x)$.
 
-#### Corollaire 3 {#lie-i-s5-thm-1-cor-3 .statement}
+#### Corollaire 3 {#lie-i-s5-thm-1-cor-3 .statement tag=09YE}
 
 Supposons $K$ algébriquement clos. Si $g$ est une algèbre de Lie résoluble de dimension $r$, tout idéal de $g$ est un terme d’une suite décroissante d’idéaux de dimensions $r, r-1, \ldots, 0$.
 
 En effet, tout idéal fait partie d’une suite de Jordan-Hölder de $g$, considéré comme espace de la représentation adjointe (Alg., chap. I, § 6, no 14, cor. du th. 8) ; il suffit alors d’appliquer le cor. 2.
 
-#### Corollaire 4 {#lie-i-s5-thm-1-cor-4 .statement}
+#### Corollaire 4 {#lie-i-s5-thm-1-cor-4 .statement tag=09YF}
 
 Supposons que $K = \mathbf{R}$. Soit $g$ une algèbre de Lie résoluble. Toute représentation simple de $g$ est de dimension $\leq 2$. Tout idéal de $g$ est un terme d’une suite décroissante $(g_i)_{0 \leq i \leq m}$ d’idéaux telle que $g_0 = g, g_m = \{0\}, \dim g_{i-1}/g_i \leq 2$ $(1 \leq i \leq m)$.
 
 Cela se démontre de la même manière que les cor. 2 et 3, tenant compte de ce que toute extension algébrique de $\mathbf{R}$ est de degré $\leq 2$.
 
-#### Corollaire 5 {#lie-i-s5-thm-1-cor-5 .statement}
+#### Corollaire 5 {#lie-i-s5-thm-1-cor-5 .statement tag=09YG}
 
 Pour qu’une algèbre de Lie $g$ soit résoluble, il faut et suffit que $\mathscr{O}g$ soit nilpotente.
 
 La condition est nécessaire en vertu du cor. 1. Elle est suffisante puisque $g/\mathscr{O}g$ est commutative.
 
-#### Corollaire 6 {#lie-i-s5-thm-1-cor-6 .statement}
+#### Corollaire 6 {#lie-i-s5-thm-1-cor-6 .statement tag=09YH}
 
 Soit $\rho$ une représentation de dimension finie d’une algèbre de Lie $g$. Soit $r$ le radical de $g$. Tout élément $x \in r$ tel que $\rho(x)$ soit nilpotent appartient au plus grand idéal de nilpotence $n$ de $\rho$.
 
 Soit V l’espace de ρ ; soit (V_i)_{0 \leq i \leq r} une suite de Jordan-Hölder pour la structure de r-module de V, et soit ρ_i la représentation de r d’espace V_i/V_{i-1} (1 \leq i \leq r). Si ρ(x) est nilpotent, il en est de même des ρ_i(x) ; comme, pour tout i, l’algèbre engendrée par ρ_i(r) est un corps, on a ρ_i(x) = 0. Réciproquement, si ρ_i(x) = 0 pour tout i, ρ(x) = 0. Ceci montre que l’ensemble a des x \in r tels que ρ(x) soit nilpotent est un idéal de r. D’autre part, [g, a] \subset \mathfrak{g} \cap r \subset n \cap r \subset a, donc a est un idéal de g. Ceci prouve que a \subset n.
 
-#### Corollaire 7 {#lie-i-s5-thm-1-cor-7 .statement}
+#### Corollaire 7 {#lie-i-s5-thm-1-cor-7 .statement tag=09YI}
 
 Soient g une algèbre de Lie, r son radical. Les quatre ensembles suivants sont identiques : a) le plus grand idéal nilpotent de g ; b) le plus grand idéal nilpotent de r ; c) l’ensemble des x \in r tels que ad_g x soit nilpotent ; d) l’ensemble des x \in r tels que ad_r x soit nilpotent.
 
@@ -185,13 +185,13 @@ Désignons par a, b, c, d ces quatre ensembles. Les inclusions a \subset b \subs
 
 ### 4. Un critère de résolvabilité
 
-#### Lemme 2 {#lie-i-s5-lem-2 .statement}
+#### Lemme 2 {#lie-i-s5-lem-2 .statement tag=09YJ}
 
 Soient x un endomorphisme d’un espace vectoriel V de dimension finie, et s (resp. n) sa composante semi-simple (resp. nilpotente) (cf. Alg., chap. VIII, § 9, no 4, déf. 4). Soient ad x, ad s, ad n les images respectives de x, s, n dans la représentation adjointe de gl(V). Alors ad s (resp. ad n) est la composante semi-simple (resp. nilpotente) de ad x, et est égal à un polynôme en ad x, à coefficients dans K, sans terme constant.
 
 On a ad x = ad s + ad n, [ad s, ad n] = 0, et ad n est nilpotent (§ 4, lemme 1). Montrons que ad s est semi-simple. Il suffit de le faire pour K algébriquement clos (cf. Alg., chap. VIII, § 9, no 2, prop. 3). Soit alors (e_i)_{1 \leq i \leq n} une base de V telle que s(e_i) = \lambda_i e_i (\lambda_i \in K). Soit (E_{ij}) la base canonique de \mathbf{M}_n(K) = gl(V). D’après les formules (5) du § 1, on a (ad s).E_{ij} = (\lambda_i - \lambda_j)E_{ij}, donc ad s est semi-simple. La dernière assertion du lemme résulte d’Alg., chap. VIII, § 9, no 4, prop. 8.
 
-#### Lemme 3 {#lie-i-s5-lem-3 .statement}
+#### Lemme 3 {#lie-i-s5-lem-3 .statement tag=09YK}
 
 Soient M un espace vectoriel de dimension finie, A et B deux sous-espaces vectoriels de gl(M) tels que B ⊂ A et T l’ensemble des t ∈ gl(M) tels que [t, A] ⊂ B. Si z ∈ T est tel que Tr (zu) = 0 pour tout u ∈ T, alors z est nilpotent.
 
@@ -206,7 +206,7 @@ $$
 
 Il existe un polynôme P, sans terme constant, à coefficients dans K, tel que P(λ_i - λ_j) = f(λ_i) - f(λ_j) quels que soient i et j (car, si λ_i - λ_j = λ_h - λ_k, on a f(λ_i) - f(λ_j) = f(λ_h) - f(λ_k), et, si λ_i - λ_j = 0, f(λ_i) - f(λ_j) = 0). Alors, ad t = P(ad s). D’autre part, ad s est un polynôme sans terme constant en ad z. Or (ad z)(A) ⊂ B, d’où aussi (ad t)(A) ⊂ B. Vu l’hypothèse, on a 0 = Tr (zt) = Σλ_i f(λ_i), d’où 0 = f(Tr (zt)) = Σ f(λ_i)^2. Puisque les f(λ_i) sont des nombres rationnels, f = 0, ce qui achève la démonstration.
 
-#### Théorème 2 (critère de Cartan) {#lie-i-s5-thm-2 .statement}
+#### Théorème 2 (critère de Cartan) {#lie-i-s5-thm-2 .statement tag=09YL}
 
 Soient g une algèbre de Lie, M un espace vectoriel de dimension finie, ρ une représentation de g dans M, et β la forme bilinéaire sur g associée à ρ. Alors, ρ(g) est résoluble si et seulement si O_g est orthogonal à g pour β.
 
@@ -220,7 +220,7 @@ d’où par linéarité $\operatorname{Tr}(tu) = 0$ pour tout $u \in \mathscr{O}
 
 ### 5. Nouvelles propriétés du radical
 
-#### Proposition 5 {#lie-i-s5-prop-5 .statement}
+#### Proposition 5 {#lie-i-s5-prop-5 .statement tag=09YM}
 
 Soient $g$ une algèbre de Lie, $r$ son radical.
 a) Si $\rho$ est une représentation de dimension finie de $g$, et si $\beta$ est la forme bilinéaire associée, $r$ et $\mathscr{O}g$ sont orthogonaux pour $\beta$.
@@ -228,34 +228,34 @@ b) $r$ est l’orthogonal de $\mathscr{O}g$ pour la forme de Killing.
 Soient $x, y$ dans $g, z \in r$. On a $[y, z] \in \mathscr{O}g \cap r$, donc $\beta([x, y], z) = \beta(x, [y, z]) = 0$ (th. 1). D’où a).
 Soit $r'$ l’orthogonal de $\mathscr{O}g$ pour la forme de Killing. C’est un idéal de $g$ ($§ 3$, no 6, prop. 7 a)) qui contient $r$ d’après ce qui précède. D’autre part, l’image $s$ de $r'$ par la représentation adjointe de $g$ est résoluble (th. 2), donc $r'$ est résoluble comme extension centrale de $s$. Donc $r' \subset r$.
 
-#### Corollaire 1 {#lie-i-s5-prop-5-cor-1 .statement}
+#### Corollaire 1 {#lie-i-s5-prop-5-cor-1 .statement tag=09YN}
 
 Soit $g$ une algèbre de Lie. Alors, $g$ est résoluble si et seulement si $\mathscr{O}g$ est orthogonal à $g$ pour la forme de Killing.
 C’est une conséquence immédiate de la prop. 5 b).
 
-#### Corollaire 2 {#lie-i-s5-prop-5-cor-2 .statement}
+#### Corollaire 2 {#lie-i-s5-prop-5-cor-2 .statement tag=09YO}
 
 Le radical $r$ d’une algèbre de Lie $g$ est un idéal caractéristique.
 En effet, $\mathscr{O}g$ est un idéal caractéristique, et la forme de Killing est complètement invariante ($§ 3$, no 6, prop. 10). Donc l’orthogonal de $\mathscr{O}g$ pour la forme de Killing est un idéal caractéristique ($§ 3$, no 6, prop. 7 b)).
 
-#### Corollaire 3 {#lie-i-s5-prop-5-cor-3 .statement}
+#### Corollaire 3 {#lie-i-s5-prop-5-cor-3 .statement tag=09YP}
 
 Soient $g$ une algèbre de Lie, $r$ son radical, $a$ un idéal de $g$. Alors, le radical de $a$ est égal à $r \cap a$.
 En effet, $r \cap a$ est un idéal résoluble de $a$, donc est contenu dans le radical $r'$ de $a$. Réciproquement, $r'$ est un idéal de $g$ (cor. 2, et $§ 1$, no 4, prop. 2), donc $r' \subset r$.
 
 Le cor. 2 peut être précisé de la manière suivante :
 
-#### Proposition 6 {#lie-i-s5-prop-6 .statement}
+#### Proposition 6 {#lie-i-s5-prop-6 .statement tag=09YQ}
 
 Soient g une algèbre de Lie, r son radical, n son plus grand idéal nilpotent. Toute dérivation de g applique r dans n.
 
 Soit D une dérivation de g. Soit g' = g + Kx_0 une algèbre de Lie dans laquelle g est un idéal de codimension 1, telle que Dx = [x_0, x] pour tout x ∈ g (§ 1, n° 8, exemple 1). D’après le cor. 3 de la prop. 5, r est contenu dans le radical r' de g'. On a D(r) = [x_0, r] ⊂ [g', g'] ∩ r' = s'. Pour tout x ∈ s', ad_{g'} x est nilpotent (th. 1). Donc, pour tout x ∈ s' ∩ g, ad_g x est nilpotent. Donc D(r) est contenu dans l’idéal nilpotent s' ∩ g de g.
 
-#### Corollaire {#lie-i-s5-n5-cor-1 .statement}
+#### Corollaire {#lie-i-s5-n5-cor-1 .statement tag=09YR}
 
 Le plus grand idéal nilpotent d’une algèbre de Lie est un idéal caractéristique.
 
-#### Remarque {#lie-i-s5-n5-rem-1 .statement}
+#### Remarque {#lie-i-s5-n5-rem-1 .statement tag=09YS}
 
 Pour résumer certains des résultats antérieurs, notons que, si on désigne respectivement par r, n, s, f, le radical de g, le plus grand idéal nilpotent de g, le radical nilpotent de g, et l’orthogonal de g pour la forme de Killing, on a
 

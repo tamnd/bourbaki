@@ -65,14 +65,14 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 31
-content_sha256: 02b820b90ab26b7a45227b12089d7ff953ab34a586d832545d20675423b667b9
+content_sha256: 0a34905c17ca45e9431cd3c4d11e11fd5e18faa0d9245992a206dca25aae5226
 ---
 
 ## § 2. GENERAL RESULTS ON FILTERED RINGS AND MODULES
 
 ### 1. FILTERED RINGS AND MODULES
 
-#### Definition 1 {#ac-iii-s2-def-1 .statement}
+#### Definition 1 {#ac-iii-s2-def-1 .statement tag=04DH}
 
 An increasing (resp. decreasing) sequence $(G_n)_{n \in \mathbf{Z}}$ of subgroups of a group $G$ is called an increasing (resp. decreasing) filtration on $G$.
 A group with a filtration is called a filtered group.
@@ -81,7 +81,7 @@ If $(G_n)_{n \in \mathbf{Z}}$ is an increasing (resp. decreasing) filtration on 
 
 Given a decreasing filtration $(G_n)_{n \in \mathbf{Z}}$ on a group $G$, clearly $\bigcap_{n \in \mathbf{Z}} G_n$ and $\bigcup_{n \in \mathbf{Z}} G_n$ are subgroups of $G$; the filtration is called separated if $\bigcup_{n \in \mathbf{Z}} G_n$ is reduced to the identity element and exhaustive if $\bigcup_{n \in \mathbf{Z}} G_n = G$.
 
-#### Definition 2 {#ac-iii-s2-def-2 .statement}
+#### Definition 2 {#ac-iii-s2-def-2 .statement tag=04DI}
 
 Given a ring $A$, a filtration $(A_n)_{n \in \mathbf{Z}}$ over the additive group $A$ is called compatible with the ring structure on $A$ if
 
@@ -100,7 +100,7 @@ Conditions (1) and (2) show that $A_n$ is a subring of $A$ and the $A_n$ (left a
 
 An important particular case is that in which $A_n = A$; then $A_n = A$ for $n \leq 0$ and all the $A_n$ are two-sided ideals of $A$.
 
-#### Definition 3 {#ac-iii-s2-def-3 .statement}
+#### Definition 3 {#ac-iii-s2-def-3 .statement tag=04DJ}
 
 Let $A$ be a filtered ring, $(A_n)_{n \in \mathbf{Z}}$ its filtration and $E$ an $A$-module. A filtration $(E_n)_{n \in \mathbf{Z}}$ on $E$ is called compatible with its module structure over the filtered ring $A$ if
 $$
@@ -224,11 +224,11 @@ If this definition is first applied to the case $E = A_0$, the mapping (10) is a
 
 *Examples*
 
-#### Example 1 {#ac-iii-s2-n3-exa-1 .statement}
+#### Example 1 {#ac-iii-s2-n3-exa-1 .statement tag=04DK}
 
 Let A be a commutative ring and $t$ an element of A which is not a divisor of 0. Let us give A the *(t)*-*adic filtration* (no. 1, *Example 3*). Then the associated graded ring $\mathrm{gr}(A)$ is canonically isomorphic to the *polynomial ring* $(A/(t))[X]$. For $\mathrm{gr}_n(A) = 0$ for $n < 0$ and by definition the ring $\mathrm{gr}_0(A)$ is the ring $A/(t)$. We now note that by virtue of the hypothesis on $t$ the relation $at^n \equiv 0$ (mod. $t^{n+1}$) is equivalent to $a \equiv 0$ (mod. $t$); if $\tau$ is the canonical image of $t$ in $\mathrm{gr}_1(A)$, every element of $\mathrm{gr}_n(A)$ may then be written uniquely in the form $\alpha \tau^n$ where $\alpha \in \mathrm{gr}_0(A)$; whence our assertion.
 
-#### Example 2 {#ac-iii-s2-n3-exa-2 .statement}
+#### Example 2 {#ac-iii-s2-n3-exa-2 .statement tag=04DL}
 
 Let $K$ be a commutative ring, $A$ the ring of formal power series
 
@@ -240,7 +240,7 @@ $$
 
 *(loc. cit., no. 2)* may be written as $\displaystyle\sum_{k=1}^{s}u_kM_k$, where the $u_k$ belong to $m$; it is **seen** that $m^n$ is the set of formal power series $u$ such that $\omega(u)\geq n$, which shows that $\omega$ is the *orderfunction* for the $m$-adic filtration. Then clearly, for every formal power series $u\in m^n$, there exists a unique *homogeneous polynomial* of degree $n$ in the $X_i$ which is congruent to $u$ mod. $m^{n+1}$, namely the sum of terms of degree $n$ of $u$; we conclude that $\operatorname{gr}(A)$ is canonically isomorphic to the *polynomial ring* $K[X_1,\ldots,X_r]$.
 
-#### Example 3 {#ac-iii-s2-n3-exa-3 .statement}
+#### Example 3 {#ac-iii-s2-n3-exa-3 .statement tag=04DM}
 
 More generally, let $A$ be a commutative ring, $b$ an ideal of $A$ and $A$ be given the $b$-adic filtration. If we write $B=\operatorname{gr}_0(A)$, $F=\operatorname{gr}_1(A)=b/b^2$, we know (*Algebra, Chapter III*), that the identity mapping of the $B$-module $F$ onto itself can be extended uniquely to a homomorphism $u$ from the *symmetric algebra* $S(F)$ of $F$ to the $B$-algebra $\operatorname{gr}(A)$; it follows from the definition of $\operatorname{gr}(A)$ that $u$ is a *surjective homomorphism of graded algebras*; for $n\geq1$, every element of $\operatorname{gr}_n(A)$ is a sum of classes mod $b^{n+1}$ of elements of the form $y=x_1x_2\cdots x_n$, where $x_i\in b$ $(1\leq i\leq n)$; if $\xi_i$ is the class of $x_i$ mod. $b^2$, clearly the class of $y$ mod. $b^{n+1}$ is the element $u(\xi_1)\cdots u(\xi_n)$, whence our assertion. In particular, every system of generators of the $B$-module $F$ is a system of generators of the $B$-algebra $\operatorname{gr}(A)$.
 
@@ -260,13 +260,13 @@ $$
 
 which is called *canonical*.
 
-#### Example 4 {#ac-iii-s2-n3-exa-4 .statement}
+#### Example 4 {#ac-iii-s2-n3-exa-4 .statement tag=04DN}
 
 \* Let $K$ be a commutative ring, $\mathfrak g$ a Lie algebra over $K$ and $U$ the enveloping algebra of $\mathfrak g$. An *increasing filtration* $(U_n)_{n\in\mathbf{Z}}$ is defined on $U$ by taking $U_n=\{0\}$ for $n<0$ and denoting by $U_n$, for $n\geq0$ the set of elements of $U$ which can be expressed as a sum of products of at most $n$ elements of $\mathfrak g$, then
 
 U_0 = K and gr(U) is a commutative K-algebra (Lie Groups and Lie Algebras, Chapter I, § 2, no. 6). The canonical mapping of g to gr_1(U) = U_1/U_0 can be extended uniquely to a homomorphism h of the symmetric algebra $S(g)$ of the K-module g to the K-algebra gr(U); the homomorphism h is surjective and, if the K-module g is free, h is bijective (loc. cit., no. 7, Theorem 1).
 
-#### Example 5 {#ac-iii-s2-n3-exa-5 .statement}
+#### Example 5 {#ac-iii-s2-n3-exa-5 .statement tag=04DO}
 
 Let A be a graded ring of type $\mathbf{Z}$ and E a graded A-module of type $\mathbf{Z}$; let $A_{(i)}$ (resp. $E_{(i)}$) be the subgroup of homogeneous elements of degree i of A (resp. E). Let A and E be given the filtrations associated with their graduations (no. 1, Example 1) and let A' and E' denote the filtered ring and filtered A-module thus obtained. Then it is immediate that the Z-linear mapping $A \to \mathrm{gr}(A')$ which maps an element of $A_{(n)}$ to its canonical image in
 $$
@@ -274,7 +274,7 @@ $$
 $$
 is a graded ring isomorphism. A canonical graded A-module isomorphism $E \to \mathrm{gr}(E')$ is defined similarly.
 
-#### Proposition 1 {#ac-iii-s2-prop-1 .statement}
+#### Proposition 1 {#ac-iii-s2-prop-1 .statement tag=04DP}
 
 Let A be a filtered ring, $(A_n)_{n \in \mathbf{Z}}$ its filtration and v its orderfunction. Suppose that $\mathrm{gr}(A)$ is a ring with no divisor of zero. Then, for every ordered pair of elements a, b of the ring $B = \bigcup_{n \in \mathbf{Z}} A_n$, $v(ab) = v(a) + v(b)$.
 
@@ -283,14 +283,14 @@ $$
 v(ab) = v(a) + v(b).
 $$
 
-#### Corollary {#ac-iii-s2-n3-cor-1 .statement}
+#### Corollary {#ac-iii-s2-n3-cor-1 .statement tag=04DQ}
 
 Let A be a filtered ring and $(A_n)_{n \in \mathbf{Z}}$ its filtration; let us set $B = \bigcup_{n \in \mathbf{Z}} A_n$, $n = \bigcap_{n \in \mathbf{Z}} A_n$. If the ring $\mathrm{gr}(A)$ has no divisors of zero, neither has the ring $B/n$.
 If a and b are elements of B not belonging to n, then $v(a) \neq +\infty$ and $v(b) \neq +\infty$, whence $v(ab) \neq +\infty$ and therefore $ab \notin n$.
 
 Note that the ring A can be an integral domain and the filtration (A_n) exhaustive and separated without $\mathrm{gr}(A)$ being an integral domain (Exercise 2).
 
-#### Remark {#ac-iii-s2-n3-rem-1 .statement}
+#### Remark {#ac-iii-s2-n3-rem-1 .statement tag=04DR}
 
 Let G be a group which is not necessarily commutative with a filtration $(G_n)_{n \in \mathbf{Z}}$ such that $G_{n+1}$ is normal in G, for all $n \in \mathbf{Z}$; again let $\mathrm{gr}_n(G) = G_n/G_{n+1}$. The restricted product of the family $(\mathrm{gr}_n(G))_{n \in \mathbf{Z}}$, that is the subgroup of the product $\prod_{n \in \mathbf{Z}} \mathrm{gr}_n(G)$ consisting of the elements $(\xi_n)$ all of whose components, except at most a finite number, are equal to the identity element, is also called the graded group associated with G and denoted by $\mathrm{gr}(G)$.
 
@@ -303,7 +303,7 @@ $$
 \operatorname{gr}(h' \circ h) = \operatorname{gr}(h') \circ \operatorname{gr}(h)
 $$
 
-#### Proposition 2 {#ac-iii-s2-prop-2 .statement}
+#### Proposition 2 {#ac-iii-s2-prop-2 .statement tag=04DS}
 
 Let G be a filtered commutative group and H a subgroup of G; let H be given the induced filtration and G/H the quotient filtration. If j : H → G is the canonical injection and p : G → G/H the canonical surjection, j and p are compatible with the filtrations and the sequence
 
@@ -389,7 +389,7 @@ Thus $d$ is a *pseudometric* on G which is invariant under left and right transl
 
 Given a topological ring A, recall that a *left topological A-module* is an A-module E with a topology compatible with its additive group structure and such that the mapping $(a, x) \mapsto ax$ from $A \times E$ to E is continuous (*General Topology*, Chapter III, § 6, no. 6).
 
-#### Proposition 3 {#ac-iii-s2-prop-3 .statement}
+#### Proposition 3 {#ac-iii-s2-prop-3 .statement tag=04DT}
 
 *Let A be a filtered ring, (A_n) its filtration, B the subring $\bigcup_{n \in \mathbf{Z}} A_n$ of A, E a filtered B-module, (E_n) its filtration and F the sub-B-module $\bigcup_{n \in \mathbf{Z}} E_n$ of E. Then the mapping $(a, x) \mapsto ax$ from $B \times F$ to F is continuous.*
 
@@ -407,7 +407,7 @@ $$
 
 Then, given an integer $n$, $ax - a_0x_0 \in E_n$ provided $i \geq n - s, j \geq n - r$ and $i + j \geq n$, that is so long as $i$ and $j$ are sufficiently large.
 
-#### Corollary {#ac-iii-s2-n5-cor-1 .statement}
+#### Corollary {#ac-iii-s2-n5-cor-1 .statement tag=04DU}
 
 *The ring B is a topological ring and the B-module F a topological B-module.*
 
@@ -415,7 +415,7 @@ The first assertion is obtained by applying Proposition 3 to $F = B$.
 
 It is seen in particular that a filtered ring A whose filtration is *exhaustive* is a topological ring; if this is so every filtered A-module whose filtration is *exhaustive* is a topological A-module.
 
-#### Proposition 4 {#ac-iii-s2-prop-4 .statement}
+#### Proposition 4 {#ac-iii-s2-prop-4 .statement tag=04DV}
 
 *Let A be a commutative ring filtered by an exhaustive filtration (A_n) and p an ideal of A. Suppose that the ideal $\operatorname{gr}(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})$ of the ring $\operatorname{gr}(A)$ is prime. Then the closure of p in A is a prime ideal.*
 
@@ -427,7 +427,7 @@ Let $m'$ be another two-sided ideal of $A$; for the $m'$-adic topology on $A$ to
 
 ### 6. COMPLETE FILTERED MODULES
 
-#### Proposition 5 {#ac-iii-s2-prop-5 .statement}
+#### Proposition 5 {#ac-iii-s2-prop-5 .statement tag=04DW}
 
 *Let $G$ be a filtered group whose filtration $(G_n)$ consists of invariant subgroups of $G$. The following conditions are equivalent:*
 
@@ -453,15 +453,15 @@ Let $H$ be another filtered group whose filtration $(H_r)$ consists of normal su
 
 *Examples of complete filtered groups and rings*
 
-#### Example 1 {#ac-iii-s2-n6-exa-1 .statement}
+#### Example 1 {#ac-iii-s2-n6-exa-1 .statement tag=04DX}
 
 Let $G$ be a complete filtered group. Every *closed* subgroup of $G$ with the induced filtration is complete (*General Topology*, Chapter II, § 3, no. 4, Proposition 8). Every quotient group of $G$ with the quotient filtration is complete (*General Topology*, Chapter IX, § 3, no. 1, *Remark* 1).
 
-#### Example 2 {#ac-iii-s2-n6-exa-2 .statement}
+#### Example 2 {#ac-iii-s2-n6-exa-2 .statement tag=04DY}
 
 Let $A$ be a filtered commutative ring whose filtration we denote by $(a_n)_{n \in \mathbf{Z}}$; let $A'$ be the ring of formal power series $A[[X_1, \ldots, X_s]]$. For all $e = (e_1, \ldots, e_s) \in \mathbf{N}^s$, we write $|e| = \sum_{i=1}^s e_i$, $X^e = \prod_{i=1}^s X_i^{e_i}$ so that every element $P \in A'$ can be written uniquely $P = \sum_{e \in \mathbf{N}^s} \alpha_{e,P} X^e$ where $\alpha_{e,P} \in A$. For all $n \in \mathbf{Z}$, let $a'_n$ denote the set of $P \in A'$ such that $\alpha_{e,P} \in a_{n-|e|}$ for all $e \in \mathbf{N}^s$; we show that $a'_n$ is an *ideal* of $A'$. Clearly $a'_n$ is an additive subgroup of $A'$; on the other hand, if $P \in a'_n$ and $Q \in A'$, then, for all $e \in \mathbf{N}^s$, $\alpha_{e,PQ} = \sum_{e'+e''=e} \alpha_{e',Q}\alpha_{e'',P}$; as the relation $e' + e'' = e$ implies $|e''| \leq |e|$, $PQ \in a'_n$. Moreover, if $Q \in a'_m$, then, for $e' + e'' = e$, $\alpha_{e',Q}\alpha_{e'',P} \in a_{m-|e'|}a_{n-|e''|} \subset a_{m+n-|e|}$, which proves that $(a'_n)_{n \in \mathbf{Z}}$ is a *filtration* compatible with the ring structure on $A'$ (for obviously $1 \in a'_0$). When in future we speak of $A'$ as a filtered ring, we shall mean, unless otherwise stated, with the filtration (ah). Clearly $\bigcap_{n \in \mathbf{Z}} a'_n$ is the set of formal power series all of whose coefficients belong to $\bigcap_{n \in \mathbf{Z}} a_n$; then, if $A$ is Hausdorff, so is $A'$. If $a_0 = A$, then $a'_0 = A'$.
 
-#### Proposition 6 {#ac-iii-s2-prop-6 .statement}
+#### Proposition 6 {#ac-iii-s2-prop-6 .statement tag=04DZ}
 
 *With the above notation, suppose that $a_0 = A$ and let $h$ denote the mapping $P \mapsto (\alpha_{e,P})_{e \in \mathbf{N}^s}$. Then $h$ is an isomorphism of the additive topological group $A$ onto the additive topological group $A^{\mathbf{N}^s}$. The polynomial ring $A[X_1, \ldots, X_s]$ is dense in $A'$; if $A$ is complete, so is $A'$.*
 
@@ -471,7 +471,7 @@ Moreover, with $n$ and $E$ defined as above, $h(P - \sum_{e \in E} \alpha_{e,P}X
 
 Let $m$ be an ideal of $A$ and suppose that $(a_i)$ is the $m$-adic filtration; then, if $n$ is the ideal of $A'$ generated by $m$ and the $X_i$ ($1 \leq i \leq s$), the filtration $(a_i)$ is the $n$-adic filtration. For clearly, for all $k \geq 0$, $n^k$ is generated by the elements $aX^e$ such that $a \in m^{k-|e|}$ for all $e \in \mathbf{N}^s$ such that $|e| \leq k$, whence $n^k \subset a \&$. Let us prove conversely that $a'_k \subset n^k$. For all $P \in a'_k$, $P = P' + P''$, where $P' = \sum_{|e| < k} \alpha_{e,P}X^e$, $P'' = \sum_{|e| \geq k} \alpha_{e,P}X^e$. Clearly it is possible to write $P'' = \sum_{|e|=k} X^e Q_e$, where the $Q_e$ are elements of $A'$, whence $P'' \in n^k$; on the other hand, clearly $\alpha_{e,P}X^e \in n^k$ for all $e \in \mathbf{N}^s$, whence $P' \in n^k$. Then $n^k = a'_k$.
 
-#### Corollary {#ac-iii-s2-n6-cor-1 .statement}
+#### Corollary {#ac-iii-s2-n6-cor-1 .statement tag=04E0}
 
 *Let $A$ be a commutative ring,
 
@@ -487,7 +487,7 @@ It is sufficient to apply what has just been said to the case $m = \{0\}$.
 
 Recall that, if E is an A-module, an affine subset (or an affine linear variety) of E is any subset F which is empty or of the form $a + M$, where $a \in E$ and M is a submodule of E called the direction of F (Algebra, Chapter II, § 9, nos. 1 and 3).
 
-#### Proposition 7 {#ac-iii-s2-prop-7 .statement}
+#### Proposition 7 {#ac-iii-s2-prop-7 .statement tag=04E1}
 
 Let A be a filtered ring, E a filtered A-module and $(E_n)$ filtration of E; suppose that $E_0 = E$, that the $E_n$ are submodules of E, that the A-modules $E/E_n$ are Artinian and finally that the topological group E is Hausdorff and complete. Then the intersection of a decreasing sequence of non-empty closed affine subsets of E is non-empty.
 
@@ -495,7 +495,7 @@ We have seen in no. 6 that, since E is Hausdorff and complete, it is identified 
 
 As $E/E_0 = 0$, we shall take $x_0 = 0$. Suppose that the $x_i$ are defined for $0 \leq i \leq n - 1$ and let $W'_{p,n}$ be the set of elements of $W_{p,n}$ whose canonical image in $E/E_{n-1}$ is $x_{n-1}$; as $x_{n-1} \in W_{p,n-1}$ and $W_{p,n-1}$ is the canonical image of $W_{p,n}$, $W'_{p,n}$ is non-empty and is obviously an affine subset of $E/E_n$; moreover the sequence $(W'_{p,n})_{p \in \mathbf{N}}$ is decreasing. As $E/E_n$ is Artinian, this sequence is stationary (otherwise the sequence of submodules of $E/E_n$ which are the directions of the $W'_{p,n}$ would be strictly decreasing, which is absurd). It is sufficient then to take $x_n$ to be an element of $\bigcap_{p \in \mathbf{N}} W'_{p,n}$ and the construction of $(x_n)$ can then be performed by induction.
 
-#### Proposition 8 {#ac-iii-s2-prop-8 .statement}
+#### Proposition 8 {#ac-iii-s2-prop-8 .statement tag=04E2}
 
 Suppose that A and E satisfy the hypotheses of Proposition 7. Let $(F_p)$ be a decreasing sequence of closed submodules of E such that $\bigcap F_p = 0$. Then, for every neighbourhood V of 0 in E, there exists $p$ such that $F_p \subset V$ (in other words, the base of the filter $(F_p)$ converges to 0).
 
@@ -505,7 +505,7 @@ then it follows from Proposition 7 that there exists an element y belonging to a
 
 ### 8. THE LIFT OF HOMOMORPHISMS OF ASSOCIATED GRADED MODULES
 
-#### Theorem 1 {#ac-iii-s2-thm-1 .statement}
+#### Theorem 1 {#ac-iii-s2-thm-1 .statement tag=04E3}
 
 Let X, Y be two filtered groups whose filtrations $(X_n), (Y_n)$ consist of normal subgroups; let $u : X \to Y$ be a homomorphism compatible with the filtrations.
 
@@ -531,7 +531,7 @@ This is obviously the case if $Y_n = u(X_n)Y_{n+1}$ for all $n \in \mathbf{Z}$. 
 
 X_n is closed in X and hence complete, this sequence has at least one limit x in X_n. By virtue of the continuity of u, u(x) is the unique limit of the sequence (u(x_k)) in Y, Y being Hausdorff. But the relations u(x_k) \equiv y (\text{mod. } Y_{n+k+1}) show that y is also a limit of this sequence, whence $u(x) = y$ and it has also been proved that $u(X_n) = Y_n$.
 
-#### Corollary 1 {#ac-iii-s2-thm-1-cor-1 .statement}
+#### Corollary 1 {#ac-iii-s2-thm-1-cor-1 .statement tag=04E4}
 
 *Suppose that X is Hausdorff and its filtration exhaustive. Then, if gr(u) is injective, u is injective.*
 
@@ -541,7 +541,7 @@ $$
 $$
 by hypothesis, whence the corollary.
 
-#### Corollary 2 {#ac-iii-s2-thm-1-cor-2 .statement}
+#### Corollary 2 {#ac-iii-s2-thm-1-cor-2 .statement tag=04E5}
 
 *Suppose that one of the following hypotheses holds :*
 $(\alpha)$ *X is complete, Y is Hausdorff and its filtration is exhaustive;*
@@ -550,7 +550,7 @@ $(\beta)$ *Y is discrete and its filtration is exhaustive.*
 
 In this case $Y = \bigcup_n Y_n = \bigcup_n u(X_n) \subset u(X)$.
 
-#### Corollary 3 {#ac-iii-s2-thm-1-cor-3 .statement}
+#### Corollary 3 {#ac-iii-s2-thm-1-cor-3 .statement tag=04E6}
 
 *Suppose that X and Y are Hausdorff, the filtrations of X and Y exhaustive and X complete. Then, if gr(u) is bijective, u is bijective.*
 
@@ -561,7 +561,7 @@ $$
 $$
 *is bijective*.
 
-#### Proposition 9 {#ac-iii-s2-prop-9 .statement}
+#### Proposition 9 {#ac-iii-s2-prop-9 .statement tag=04E7}
 
 *Let A be a local ring, m its maximal ideal, M, N two A-modules and u : N \to M an A-homomorphism. M and N are given the m-adic filtrations and suppose that: (1) M satisfies property (GR); (2) \operatorname{gr}_0(u) : \operatorname{gr}_0(N) \to \operatorname{gr}_0(M) is injective. Then \operatorname{gr}(u) : \operatorname{gr}(N) \to \operatorname{gr}(M) is injective, N and P = \operatorname{Coker}(u) satisfy property (GR) and $m^n N = \bar{u}^{-1}(m^n M)$ for every integer $n > 0$.*
 
@@ -588,7 +588,7 @@ $$
 
 the lower row is exact (no. 4, Proposition 2) and so is the upper row by virtue of Proposition 2 of no. 4 and the fact that $\mathrm{gr}_0(A)$ is a field. Moreover, $\mathrm{gr}(j)$ is injective (no. 4, Proposition 2) and hence $\mathrm{gr}_0(j)$ is injective, The first part of the argument applied to $j$ shows that $\gamma_{N'}$ is bijective; as $\gamma_M$ is also bijective by hypothesis, we conclude that $\gamma_P$ is bijective (Chapter I, § 1, no. 4, Corollary 2 to Proposition 2).
 
-#### Corollary {#ac-iii-s2-n8-cor-1 .statement}
+#### Corollary {#ac-iii-s2-n8-cor-1 .statement tag=04E8}
 
 Under the hypotheses of Proposition 9, if we assume also that $N$ is Hausdorf with the $m$-adic filtration, then $u$ is injective.
 
@@ -603,7 +603,7 @@ then $P$ is a flat $A$-module. This follows from the fact that $\gamma_P$ is bij
 
 Let $A$ be a filtered commutative ring, $(A_n)_{n \in \mathbf{Z}}$ its filtration and $C$ a subring of $A$, such that $C \cap A_1 = \{0\}$. The restriction to $C$ of the canonical mapping $A_0 \to A_0/A_1 = \mathrm{gr}_0(A)$ is then injective, which allows us to identify $C$ with a submodule of $\mathrm{gr}_0(A)$; this is what we shall usually do in similar cases. If $A_1 \neq A$, and $K$ is any subfield of $A$, then $K \cap A_1 = (0)$ since $K \cap A_1$ is an ideal of $K$ not containing 1 ; then $K$ may be identified with a subfield of $\mathrm{gr}_0(A)$.
 
-#### Proposition 10 {#ac-iii-s2-prop-10 .statement}
+#### Proposition 10 {#ac-iii-s2-prop-10 .statement tag=04E9}
 
 Let $A$ be a filtered commutative ring and $(A_n)$ its filtration; suppose that there exists a subring $C$ of $A_0$ such that $C \cap A_n = \{0\}$ and $C$ is identified with a subring of $\mathrm{gr}_0(A)$. Let $(x_i)_{1 \leq i \leq q}$ be a finite family of elements of $A$; suppose that $x_i \in A_n$, for $1 \leq i \leq q$ and let $\xi_i$ be the class of $x_i$ in $\mathrm{gr}_{n_i}(A)$ for $1 \leq i \leq q$.
 
@@ -619,7 +619,7 @@ $$
 
 is injective; as the filtration on $A'$ is exhaustive and separated, Corollary 1 to Theorem 1 of no. 8 may be applied and $u$ is injective, which proves the conclusion of (i). Similarly, the hypothesis (ii) on the (\&) means that $\mathrm{gr}(u)$ is surjective; as $A$ is discrete and its filtration is exhaustive, Corollary 2 to Theorem 1 of no. 8 may be applied and $u$ is surjective, which proves the conclusion of (ii).
 
-#### Proposition 11 {#ac-iii-s2-prop-11 .statement}
+#### Proposition 11 {#ac-iii-s2-prop-11 .statement tag=04EA}
 
 Let $A$ be a complete Hausdorff filtered commutative ring, $C$ a subring of $A_0$ such that $C \cap A_n = 0$ and $(x_i)_{1 \leq i \leq q}$ a finite family of elements of $A$ such that $x_i \in A_{n_i}$ where $n_i > 0$ for $1 \leq i \leq q$; let $\xi_i$ be the class of $x_i$ in $\mathrm{gr}_{n_i}(A)$ for $1 \leq i \leq q$.
 
@@ -639,7 +639,7 @@ is dense in $A''$; moreover the homomorphism $u$ defined in the proof of Proposi
 
 The conclusion of (ii) (resp. (iii)) of the proposition is sometimes expressed by saying that the family $(x_i)$ is formally free over $C$ (resp. a formal system of generators of $A$).
 
-#### Proposition 12 {#ac-iii-s2-prop-12 .statement}
+#### Proposition 12 {#ac-iii-s2-prop-12 .statement tag=04EB}
 
 Let $A$ be a filtered ring, $E$ a filtered $A$-module and $(A_n)$ and $(E_n)$ the respective filtrations on $A$ and $E$. Suppose that $A$ is complete and the filtration $(E_n)$ is exhaustive and separated. Let $(x_i)_{i \in I}$ be a finite family of elements of $E$ and for $i \in I$ let $n(i)$ be an integer such that $x_i \in E_{n(i)}$; finally let $\xi_i$ be the class of $x_i$ in $\mathrm{gr}_{n(i)}(E)$. Then, if $(\xi_i)$ is a system of generators of the $\mathrm{gr}(A)$-module $\mathrm{gr}(E)$, $(x_i)$ is a system of generators of the $A$-module $E$.
 
@@ -651,19 +651,19 @@ $$
 
 is surjective or also that, for all $x \in E_n$, there exist a family $(a_i)$ such that $a_i \in A_{n-n(i)}$ for all $i \in I$ and $x \equiv \sum_{i \in I} a_i x_i \pmod{E_{n+1}}$. Let $\xi$ be the class of $x$ in $\mathrm{gr}_n(E)$; since the $\xi_i$ generate the $\mathrm{gr}(A)$-module $\mathrm{gr}(E)$, there exist $\alpha_i \in \mathrm{gr}(A)$ such that $\xi = \sum_{i \in I} \alpha_i \xi_i$ and we may assume that $\alpha_i \in \mathrm{gr}_{n-n(i)}(A)$ by replacing if need be $\alpha_i$ by its homogeneous component of degree $n - n(i)$. Then $\alpha_i$ is the image of an element $a_i \in A_{n-n(i)}$ and the family $(a_i)$ has the required property.
 
-#### Corollary 1 {#ac-iii-s2-prop-12-cor-1 .statement}
+#### Corollary 1 {#ac-iii-s2-prop-12-cor-1 .statement tag=04EC}
 
 Let $A$ be a complete filtered ring and $E$ a filtered $A$-module whose filtration is exhaustive and separated. If $\mathrm{gr}(E)$ is a finitely generated (resp. Noetherian) $\mathrm{gr}(A)$-module, then $E$ is a finitely generated (resp. Noetherian) $A$-module.
 
 If $\mathrm{gr}(E)$ is finitely generated, there is a finite system of homogeneous generators and Proposition 12 shows that $E$ is finitely generated. Suppose now that $\mathrm{gr}(E)$ is Noetherian and let $F$ be a submodule of $E$; the filtration induced on $F$ by that on $E$ is exhaustive and separated and $\mathrm{gr}(F)$ is identified with a sub-gr(A)-module of gr(E) (no. 4, Proposition 2) and hence is finitely generated by hypothesis; we conclude that F is a finitely generated A-module and hence E is Noetherian.
 
-#### Corollary 2 {#ac-iii-s2-prop-12-cor-2 .statement}
+#### Corollary 2 {#ac-iii-s2-prop-12-cor-2 .statement tag=04ED}
 
 Let A be a complete Hausdorff filtered ring whose filtration is exhaustive. If gr(A) is a left Noetherian ring, so is A.
 
 It is sufficient to apply Corollary 1 with E = A.
 
-#### Corollary 3 {#ac-iii-s2-prop-12-cor-3 .statement}
+#### Corollary 3 {#ac-iii-s2-prop-12-cor-3 .statement tag=04EE}
 
 Let A be a complete filtered ring, (A_n) its filtration, E a Hausdorff filtered A-module, (E_n) its filtration and F a finitely generated submodule of E; suppose that A_∞ = A and E_0 = E.
 
@@ -679,7 +679,7 @@ $$
 
 whence (ii).
 
-#### Proposition 13 {#ac-iii-s2-prop-13 .statement}
+#### Proposition 13 {#ac-iii-s2-prop-13 .statement tag=04EF}
 
 Let A be a ring, m a two-sided ideal of A contained in the Jacobson radical of A and E an A-module. Let A and E be given the m-adic filtrations (no. 1, Example 3). Suppose that one of the following conditions holds:
 (a) E is a finitely generated A-module and A is Hausdorff;
@@ -703,13 +703,13 @@ mapping the class off, mod. mM onto $1 \otimes \bar{x}_i$, where $\bar{x}_i$ is 
 
 ### 10. APPLICATION: EXAMPLES OF NOETHERIAN RINGS
 
-#### Lemma 1 {#ac-iii-s2-lem-1 .statement}
+#### Lemma 1 {#ac-iii-s2-lem-1 .statement tag=04EG}
 
 Let A be a graded ring of type $\mathbf{Z}$, whose graduation $(A_n)$ is such that $A_n = 0$ for all $n < 0$ or $A_n = 0$ for all $n > 0$. Let M be a graded A-module of type $\mathbf{Z}$. For M to be a Noetherian A-module, it is necessary and sufficient that every graded submodule of M be finitely generated.
 
 As $n \mapsto -n$ is an automorphism of the group $\mathbf{Z}$, we may restrict our attention to the case $A_n = 0$ for all $n > 0$. Let A' and M' denote the ring A and the module M with the filtrations associated with their respective graduations (no. 1, Example 1), which are exhaustive and separated; the hypothesis on A implies that A' is discrete and hence complete. If E is a sub-A-module of M, the filtered A'-module E' obtained by giving E the induced filtration is Hausdorff and its filtration is exhaustive; moreover $\operatorname{gr}(E')$ is identified with a graded sub-A-module of $M = \operatorname{gr}(M')$ and hence is finitely generated by hypothesis. The conclusion then follows from Corollary 1 to Proposition 12 of no. 9.
 
-#### Theorem 2 {#ac-iii-s2-thm-2 .statement}
+#### Theorem 2 {#ac-iii-s2-thm-2 .statement tag=04EH}
 
 Let A be a graded ring of type $\mathbf{N}$, M a graded A-module of type $\mathbf{N}$ and $(A_n)$ and $(M_n)$ their respective graduations. Suppose that there exists an element $a \in A_0$ such that $A_n = A_0 a^n$ and $M_n = a^n M_0$ for all $n > 0$. Then, if M, is a Noetherian $A_0$-module, M is a Noetherian A-module.
 
@@ -738,35 +738,35 @@ $$
 
 which completes the proof (cf. Exercise 10).
 
-#### Corollary 1 (Hilbert’s Theorem) {#ac-iii-s2-thm-2-cor-1 .statement}
+#### Corollary 1 (Hilbert’s Theorem) {#ac-iii-s2-thm-2-cor-1 .statement tag=04EI}
 
 *For every commutative Noetherian ring C, the polynomial ring C[X] is Noetherian* (cf. Exercise 10).
 
-#### Corollary 2 {#ac-iii-s2-thm-2-cor-2 .statement}
+#### Corollary 2 {#ac-iii-s2-thm-2-cor-2 .statement tag=04EJ}
 
 *For every commutative Noetherian ring C and every integer $n > 0$, the polynomial ring C[X_1, ..., X_n] is Noetherian.*
 
 This follows from Corollary 1 by induction on $n$.
 
-#### Corollary 3 {#ac-iii-s2-thm-2-cor-3 .statement}
+#### Corollary 3 {#ac-iii-s2-thm-2-cor-3 .statement tag=04EK}
 
 *If C is a commutative Noetherian ring, every finitely generated commutative C-algebra is a Noetherian ring.*
 
 Such an algebra is isomorphic to a quotient of a polynomial algebra C[X_1, ..., X_n] (§ 1, no. 1).
 
-#### Corollary 4 {#ac-iii-s2-thm-2-cor-4 .statement}
+#### Corollary 4 {#ac-iii-s2-thm-2-cor-4 .statement tag=04EL}
 
 *Let A be a graded commutative ring of type $\mathbf{N}$ and let $(A_n)$ be its graduation. For A to be Noetherian, it is necessary and sufficient that $A_n$ be Noetherian and that A be ajinitely generated A,-algebra.*
 
 The condition is sufficient by Corollary 3. Conversely, suppose A is Noetherian; $m = \sum_{n \geq 1} A_n$ which is an ideal of A, is then finitely generated; then A is a finitely generated A,-algebra (§ 1, no. 2, Corollary to Proposition 1); on the other hand $A_n$, which is isomorphic to $A/m$, is a Noetherian ring.
 
-#### Corollary 5 {#ac-iii-s2-thm-2-cor-5 .statement}
+#### Corollary 5 {#ac-iii-s2-thm-2-cor-5 .statement tag=04EM}
 
 *Let A be a commutative ring and m an ideal of A such that $A/m$ is Noetherian, $m/m^2$ is ajinitely generated $(A/m)$-module and A is Hausdorff and complete with the m-adic topology. Then gr(A) and A are Noetherian.*
 
 gr(A) is an $(A/m)$-module generated by $m/m^2$ (no. 3, Example 3) and hence the ring gr(A) is Noetherian by Corollary 3. From this we deduce that A itself is Noetherian (no. 9, Corollary 2 to Proposition 12).
 
-#### Corollary 6 {#ac-iii-s2-thm-2-cor-6 .statement}
+#### Corollary 6 {#ac-iii-s2-thm-2-cor-6 .statement tag=04EN}
 
 For every commutative Noetherian ring C and every integer n > 0, the ring of formal power series $\mathbf{C}[[X_1, \ldots, X_n]]$ is Noetherian.
 
@@ -794,7 +794,7 @@ $$
 
 in particular $(n_{0j})^{j+1} = 0$. Conversely:
 
-#### Proposition 14 {#ac-iii-s2-prop-14 .statement}
+#### Proposition 14 {#ac-iii-s2-prop-14 .statement tag=04EO}
 
 Let $(A_i, h_{ij})$ be an inverse system of discrete commutative rings, whose indexing set is $\mathbf{N}$ and let $(M_i, u_{ij})$ be an inverse system of modules over the inverse system of rings $(A_i, h_{ij})$. Let $n_j$ denote the kernel of $h_{0j}: A \to A$, and set $A = \lim A_i$, $M = \lim M_i$. Suppose that
 
@@ -857,7 +857,7 @@ Moreover $m_1 = h_1(n_1)$, whence $a \subset m_1$ and therefore $a^i \subset m_1
 
 $N_i \subset m_i M' + N_{i+1}$; on the other hand obviously $m_i M \subset N_i$ and hence $N_i = m_i M' + N_{i+1}$ for all $i \geq 0$; then it follows from Corollary 3 to Proposition 12 of no. 9 that $M' = M$, which completes the proof.
 
-#### Corollary 1 {#ac-iii-s2-prop-14-cor-1 .statement}
+#### Corollary 1 {#ac-iii-s2-prop-14-cor-1 .statement tag=04EP}
 
 *With the notation and hypotheses of Proposition 14 suppose further that $M_0$ is a finitely generated $A$-module and that the ideal $n_1$ of $A$, is finitely generated. Let $m_1$ be the kernel of $h_1$; the topologies on $A$ and $M$ are then the $m_1$-adic topologies on this ring and this module respectively; to be precise, for all $i \geq 0$, the kernels of $h_i$ and $u_i$ are $m_1^{i+1}$ and $m_1^{i+1} M$ respectively; further $m_1 / m_1^2$ is a finitely generated $A$-module.*
 
@@ -869,7 +869,7 @@ $$
 
 As $a$ and $M$ are finitely generated $A$-modules, so is $a^i M$. Applying Corollary 3 to Proposition 12 of no. 9 to the module $N_i$ with the filtration $(N_{ij})_{j \in \mathbf{Z}}$ defined by $N_{ij} = N_i$, if $j < 0$, $N_{ij} = N_{i+j}$ if $j \geq 0$, we obtain $N_i = a^i M$, whence $N_i \subset m_1^i M$. But also $m_1^i M \subset m_i M \subset N_i$, whence $N_i = m_1^i M$. Applying this to the case where $M = A$, $u_{ij} = h_{ij}$, we obtain $m_i = m_1^i$. Moreover, $m_1 = a + m_1^2$ by (17), which proves the last assertion of the corollary.
 
-#### Corollary 2 {#ac-iii-s2-prop-14-cor-2 .statement}
+#### Corollary 2 {#ac-iii-s2-prop-14-cor-2 .statement tag=04EQ}
 
 *Under the hypotheses of Corollary 1, for $A$ to be Noetherian, it is necessary and sufficient that $A$, be so.*
 
@@ -923,7 +923,7 @@ $$
 
 in other words:
 
-#### Proposition 15 {#ac-iii-s2-prop-15 .statement}
+#### Proposition 15 {#ac-iii-s2-prop-15 .statement tag=04ER}
 
 Let $A$ be a filtered ring and $E$ a filtered $A$-module, the respective filtrations $(A_n), (E_n)$ of $A$ and $E$ being exhaustive. Then $(\hat{A}_n)$ is a filtration compatible with the ring structure on $\hat{A}$ and $(\hat{E}_n)$ a filtration compatible with the module structure on $\hat{E}$ over the filtered ring $\hat{A}$; moreover these filtrations are exhaustive and define respectively the topologies on $\hat{A}$ and $\hat{E}$. Finally, the canonical mappings $\operatorname{gr}(A) \to \operatorname{gr}(\hat{A})$ and $\operatorname{gr}(E) \to \operatorname{gr}(\hat{E})$ of graded $\mathbf{Z}$-modules are respectively a graded ring isomorphism and a graded $\operatorname{gr}(A)$-module isomorphism.
 
@@ -931,7 +931,7 @@ In what follows, for every uniform space $X$, $j_X$ will denote the canonical ma
 
 Chapter II, § 3, no. 7, Proposition 12). Recall also that, for every uniformly continuous mapping $f : X \to Y$, $\hat{f}$ denotes the uniformly continuous mapping from $\hat{X}$ to $\hat{Y}$ such that $\hat{f} \circ j_X = j_Y \circ f$ (loc. cit., Proposition 15); if $X$ is a uniform subspace of $Y$ and $\mathscr{E}$ the canonical injection, $\hat{X}$ is identified with a uniform subspace of $\hat{Y}$ and $\hat{f}$ is the canonical injection of $X$ into $\hat{Y}$ (loc. cit., no. 9. Corollary 1 to Proposition 18).
 
-#### Lemma 2 {#ac-iii-s2-lem-2 .statement}
+#### Lemma 2 {#ac-iii-s2-lem-2 .statement tag=04ES}
 
 *Let $X \xrightarrow{f} Y \xrightarrow{g} Z$ be an exact sequence of strict morphisms of topological groups (Algebra, Chapter II, § 1, no. 4, Remark). Suppose that $X, Y, Z$ admit Hausdorff completion groups and that the identity elements $\mathscr{E} X, Y, Z$ admit countable fundamental systems of neighbourhoods. Then $\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$ is an exact sequence of strict morphisms.*
 
@@ -951,7 +951,7 @@ $$
 
 is an open set in $X$ which does not meet $N$; as $f$ is a surjective strict morphism, $V = f(U)$ is an open set in $Y$ not containing the identity element $e'$ of $Y$ and hence not meeting the closure of $e'$; then $j_Y(V)$ does not contain the identity element of $Y_0$. But $j_Y(V) = f_0(X_0 - \overline{N}_0)$ and hence $N'_0 \subset \overline{N}_0$, which complete the proof of Lemma 2.
 
-#### Proposition 16 {#ac-iii-s2-prop-16 .statement}
+#### Proposition 16 {#ac-iii-s2-prop-16 .statement tag=04ET}
 
 *Let $A$ be a filtered ring, ($A,$) its filtration, $E$ an $A$-module and ($E_n$) the filtration on $E$ derived from that on $A$ consisting of the $E_n = A_n E$. Suppose that the filtration ($A,$) is exhaustive and the module $E$ is finitely generated. If $i : E \to \hat{E}$ is the canonical mapping, then, for all $n \in \mathbf{Z}$,*
 $$
@@ -961,13 +961,13 @@ $$
 
 The equation $A_n E = E_n$ implies, by virtue of the continuity of the external law on the $A$-module $8, \hat{A}_n \hat{E} \subset 8$, and obviously $\hat{A}_n \hat{E} \supset \hat{A}_n i(E)$. By hypothesis there exists a surjective homomorphism $u : L \to E$, where $L = A_s^I$, $I$ being a finite set; let $L$ be given the product filtration, consisting of the $L_n = A_n^I$, which define on $L$ the product topology; then $\hat{L} = \hat{A}_s^I$ and $\hat{L}_n = \hat{A}_n^I$ (*General Topology*, Chapter II, § 3, no. 9, Corollary 2 to Proposition 18). Let $j : L \to \hat{L}$ be the canonical mapping and $(e_i)_{i \in I}$ the canonical basis of $L$; for an element $\sum_{i \in I} a_{ij}(e_i)$ (where $a_i \in \hat{A}$ for all $i \in I$) to belong to $\hat{L}_n$, it is necessary and sufficient that $a_i \in \hat{A}_n$ for all $i$; then $\hat{L}_n = \hat{A}_n . j(L)$. This being so, by definition $u(\hat{L}_n) = A_n E = E_n$ and hence $u$ is a *strict morphism* of $L$ onto $E$ (*General Topology*, Chapter III, § 2, no. 8, Proposition 24). Lemma 2 then shows that $\hat{u} : \hat{L} \to \hat{E}$ is a *surjective strict morphism*. As $\hat{L}_n$ is an open subgroup off, $\hat{u}(\hat{L}_n)$ is an open (and therefore closed) subgroup of $\hat{E}$; but $\hat{u}(\hat{L}_n) = \hat{A}_n \hat{u}(j(L)) = \hat{A}_n i(E)$ and, as $i(E_n) \subset A_n i(E) \subset \hat{A}_n i(E)$, finally $\hat{E}_n \subset \hat{A}_n i(E) \subset \hat{A}_n \hat{E} \subset \hat{E}_n$ and therefore $\hat{E}_n = \hat{A}_n \hat{E} = \hat{A}_n i(E)$; setting $n = 0$, we obtain the second formula of (25).
 
-#### Corollary 1 {#ac-iii-s2-prop-16-cor-1 .statement}
+#### Corollary 1 {#ac-iii-s2-prop-16-cor-1 .statement tag=04EU}
 
 *Under the conditions of Proposition 16, if $A$ is complete, so is $E$.*
 
 As the canonical mapping $A \to \hat{A}$ is then surjective (no. 6, Proposition 5), $\hat{E} = i(E)$ by (25) and the conclusion follows by Proposition 5 of no. 6.
 
-#### Corollary 2 {#ac-iii-s2-prop-16-cor-2 .statement}
+#### Corollary 2 {#ac-iii-s2-prop-16-cor-2 .statement tag=04EV}
 
 *Let $A$ be a commutative ring, $m$ a finitely generated ideal of $A$ and $\hat{A}$ the Hausdorff completion of $A$ with respect to the $m$-adic topology. Then $\hat{m}^n = (\hat{m})^n = m^n . \hat{A}$ for every integer $n > 0$ and the topology on $\hat{A}$ is the $\hat{m}$-adic topology.*
 
@@ -997,7 +997,7 @@ Every element of $\mathbf{Z}/n^k \mathbf{Z}$ admits a unique representative of t
 
 ### 13. THE HAUSDORFF COMPLETION OF A SEMI-LOCAL RING
 
-#### Proposition 17 {#ac-iii-s2-prop-17 .statement}
+#### Proposition 17 {#ac-iii-s2-prop-17 .statement tag=04EW}
 
 Let $A$ be a commutative ring and $(m_{\lambda})_{\lambda \in L}$ a family of ideals of $A$, distinct from $A$, such that $m_{\lambda}$ and $m_{\mu}$ are relatively prime for $\lambda \neq \mu$. For every family $s = (s(\lambda))_{\lambda \in L}$ of integers $\geq 0$, of finite support, set $a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$ (equal to the product of the $m_{\lambda}^{s(\lambda)}$ for the $\lambda$ such that $s(\lambda) \neq 0$; cf. Chapter 11, § 1, no. 2, Propositions 3 and 5); the $a_s$ form a fundamental system of neighbourhoods of 0 with respect to a topology $\mathscr{T}$ compatible with the ring structure on $A$; let $\hat{A}$ be the Hausdorff completion of $A$ with respect to this topology. On the other hand, for all $\lambda \in L$, let $A_{\lambda}$ be the ring $A$ with the $m_{\lambda}$-adic topology and let $\hat{A}_{\lambda}$ be its Hausdorff completion. If $u : A \to \prod_{\lambda \in L} A_{\lambda}$ denotes the diagonal homomorphism, $u$ is continuous and the corresponding homomorphism $\hat{u} :$
 
@@ -1009,7 +1009,7 @@ $$
 
 The first assertion follows from General Topology, Chapter III, § 6, no. 3, Example 3. Let us set $B = \prod_{\lambda \in L} A_{\lambda}$; as the topology on $A$ is finer than each of the $m_{\lambda}$-adic topologies, the mappings $\mathrm{pr}_{\lambda} \circ u$ are continuous and hence $u$ is continuous. Also, $u(a_s)$ is the intersection of the diagonal $A$ of $B$ and the open set $\bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$ of $B$; it follows that $u$ is a strict morphism from the additive group $A$ to $B$ with image $A$. Now $\Delta$ is dense in $B$. For let $b = (a_{\lambda})_{\lambda \in L}$ be an element of $B$; every neighbourhood of $b$ in $B$ contains a set of the form $b + V$, where $V = \bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$ for a family $s = (s(\lambda))_{\lambda \in L}$ with finite support of integers $\geq 0$. As the $m_{\lambda}^{s(\lambda)}$ are relatively prime in pairs (Chapter II, § 1, no. 2, Proposition 3), there exists $x \in A$ such that $x \equiv a_{\lambda} \pmod{m_{\lambda}^{s(\lambda)}}$ for all $\lambda$ (loc. cit., Proposition 5) and hence $(b + V) \cap A \neq \varnothing$. The Hausdorff completion of the group $B/\Delta$ is then $\{0\}$; applying Lemma 2 of no. 12 to the exact sequences $0 \to A \xrightarrow{u} B, A \xrightarrow{u} B \to B/\Delta$, we see that $\hat{u}$ is an isomorphism of $\hat{A}$ onto $\hat{B}$.
 
-#### Corollary {#ac-iii-s2-n13-cor-1 .statement}
+#### Corollary {#ac-iii-s2-n13-cor-1 .statement tag=04EX}
 
 Let $A$ be a principal ideal domain and $P$ a representative system of extremal elements of $A$ (Algebra, Chapter VII, § 1, no. 3). The topology on $A$ with respect to which the ideals $\neq 0$ of $\mathbf{A}$ form a fundamental system of neighbourhoods of 0, which is compatible with the ring structure on $\mathbf{A}$, is Hausdorff and the completion of $\mathbf{A}$ with this topology is canonically isomorphic to the product of the completions of $\mathbf{A}$ with respect to the $x$-adic topologies, where $x$ runs through $P$.
 
@@ -1023,7 +1023,7 @@ Remarks
 
 (2) Every closed ideal $a$ of $\prod_{\lambda \in L} \hat{A}_\lambda$ is identical with the product of its projections $a_\lambda = \mathrm{pr}_\lambda(a)$, which are closed ideals in the $A_\lambda$; for $\hat{A}_\lambda$ is canonically identified with a closed ideal $A'_\lambda$ of $\prod_{\lambda} \hat{A}_\lambda$ and $a_\lambda$ with $a \cap A'_\lambda$ (Algebra, Chapter I, §8, no. 10, Proposition 6), the sum of the $a_\lambda$ is dense in the product $\prod_\lambda a_\lambda$ (General Topology, Chapter III, §2, no. 9, Proposition 25) and the latter is closed in $\prod_\lambda \hat{A}_\lambda$, whence our assertion.
 
-#### Proposition 18 {#ac-iii-s2-prop-18 .statement}
+#### Proposition 18 {#ac-iii-s2-prop-18 .statement tag=04EY}
 
 Let $\mathbf{A}$ be a commutative ring, $(m_i)_{1 \leq i \leq q}$ a finite family of distinct maximal ideals of $\mathbf{A}$, t the product ideal $m_1 m_2 \ldots m_q = m_1 \cap m_2 \cap \ldots \cap m_q$ and $S$ the multiplicative subset $\bigcap_{i=1}^q (\mathbf{A} - m_i)$. Let $\mathbf{A}$ be given the $r$-adic topology, the ring $B = S^{-1} \mathbf{A}$ the $rB$-adic topology and each of the local rings $A_n$ the $(m_i A_{m_i})$-adic topology. Let $u : \mathbf{A} \to B$, $v_i : B \to A_{m_i}$ be the canonical homomorphism (Chapter II, §2, no.1, Corollary 2 to Proposition 2) and $v$ the homomorphism $(v_i) : B \to \prod_{i=1}^q A_n$. The homomorphisms $u$ and $v$ are continuous and the corresponding homomorphism $\hat{u} : \hat{\mathbf{A}} \to$ and $\hat{v} : \hat{B} \to \prod_{n} (A_n)^*$ are topological ring isomorphisms.
 
@@ -1048,13 +1048,13 @@ derived from $u_i$ by taking quotients is an isomorphism (Chapter II, §3, no. 3
 
 Remark (3). We see that an integral domain $A$ can be such that its Hausdorff completion $\hat{A}$ admits non-zero divisors of zero.
 
-#### Proposition 19 {#ac-iii-s2-prop-19 .statement}
+#### Proposition 19 {#ac-iii-s2-prop-19 .statement tag=04EZ}
 
 Let $A$ be a commutative ring and $m$ a maximal ideal of $A$. The Hausdorff completion $\hat{A}$ of $A$ with respect to the $m$-adic topology is a local ring whose maximal ideal is $m$.
 
 If $a = \bigcap_{k \geq 1} m^k$, $\hat{A}$ is the completion of the Hausdorff ring $A/a$ associated with $A$ and, as $m/a$ is maximal in $A/a$, we may assume that $A$ is Hausdorff with respect to the $m$-adic topology. As $A/m$ and $\hat{A}/\hat{m}$ are isomorphic rings (no. 12, formula (21)), $m$ is maximal in $\hat{A}$. As the topology on $\hat{A}$ is defined by the filtration $(m^n)^*$ (no. 12), the proposition will be a consequence of the following lemma:
 
-#### Lemma 3 {#ac-iii-s2-lem-3 .statement}
+#### Lemma 3 {#ac-iii-s2-lem-3 .statement tag=04F0}
 
 Let $A$ be a complete Hausdorf topological ring, in which there exists a fundamental system $\mathscr{G}$ of neighbourhoods of 0 consisting of additive subgroups of $A$.
 (i) For all $x \in A$ such that $\lim_{n \to m} x^n = 0$, $1 - x$ is invertible in $A$ and its inverse is equal to $\sum_{n=0}^\infty x^n$.
@@ -1080,7 +1080,7 @@ Having established this lemma, it is sufficient to apply it to the topological r
 
 If we take $\mathbf{A} = \mathbf{Z}$, every maximal ideal of $\mathbf{Z}$ is of the form $p\mathbf{Z}$ where $p$ is prime. The ring of $p$-adic numbers $\mathbf{Z}_p$ is then a local ring of which $p\mathbf{Z}_p$ is the maximal ideal (Corollary 2 to Proposition 16) and whose residue field is isomorphic to $\mathbf{Z}/p\mathbf{Z} = \mathbf{F}_p$, and $\mathbf{Z}_{(p)}$ with the $p\mathbf{Z}_{(p)}$-adic topology is identified with a topological subring of $\mathbf{Z}$, containing $\mathbf{Z}$.
 
-#### Corollary {#ac-iii-s2-n13-cor-2 .statement}
+#### Corollary {#ac-iii-s2-n13-cor-2 .statement tag=04F1}
 
 Let $\mathbf{A}$ be a semi-local ring (Chapter II, § 3, no. 5), $m_i$ its distinct maximal ideals $(1 \leq i \leq q)$ and
 

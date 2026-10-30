@@ -25,9 +25,9 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: ef6a17c8294664f3f9c99e8cb0cf07d49fe29323b6b989ae31ce9d3b279fbf16
+content_sha256: 69abbdb46a6bafe712fcc6ebbbe9bcb02ae7fa2650a3bf7ca8ca1acf9ef1d12f
 translated_from: content/en/alg/II/06_s6_inverse_and_direct_limits_of_modules.md
-source_content_sha256: 27bab3198590cce64f75ebc4ff6e7a2a0ae83125a3e4d0ee80856bdc15900bb4
+source_content_sha256: 2682c7eae62790237d64df767969f62d7aa7d61ceec717b4af26629c4a2f746a
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-44386587
 glossary_version: 34
@@ -51,7 +51,7 @@ Cho $(E'_\alpha, f'_{\alpha\beta})$ là một hệ ngược khác của các mô
 
 Hơn nữa:
 
-#### Mệnh đề 1 {#alg-ii-s6-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ii-s6-prop-1 .statement tag=05QX}
 
 *Cho* $(E_\alpha, f_{\alpha\beta}),\ (E'_\alpha, f'_{\alpha\beta}),\ (E''_\alpha, f''_{\alpha\beta})$ *là ba hệ ngược các môđun $A_\alpha$ và* $(u_\alpha),\ (v_\alpha)$ *là hai hệ ngược các ánh xạ tuyến tính $A_\alpha$ sao cho các dãy*
 
@@ -69,7 +69,7 @@ $$
 
 *Vì* $u_\alpha^{-1}(0) = \{0\}$ *với mọi $\alpha$, theo Lý thuyết Tập hợp, III, § 7, no. 2, Mệnh đề 2 suy ra rằng* $u^{-1}(0) = \{0\}$, *do đó* $u$ *là đơn ánh; hơn nữa, các* $u_\alpha(E'_\alpha)$ *lập thành một hệ ngược các tập con của các* $E_\alpha$ *và do đó* $u(\lim E'_\alpha) = \lim u_\alpha(E'_\alpha)$. *Theo* $u_\alpha(E'_\alpha) = v_\alpha^{-1}(0)$ *do giả thiết,* $v^{-1}(0) = \lim u_\alpha(E'_\alpha) = u(\lim E'_\alpha)$ (*Lý thuyết Tập hợp*, III, § 7, no. 2, Mệnh đề 2), *điều này hoàn tất chứng minh*.
 
-#### Nhận xét {#alg-ii-s6-n1-rem-1 .statement}
+#### Nhận xét {#alg-ii-s6-n1-rem-1 .statement tag=05QY}
 
 (1) Mệnh đề 1 và chứng minh của nó đúng với các *nhóm* tùy ý, ngoại trừ thay đổi ký hiệu.
 
@@ -95,7 +95,7 @@ $$
 
 là một đồng cấu môđun $\mathbf{Z}$ sao cho $(\operatorname{Hom}_A(F, E_\alpha), \bar{f}_{\alpha \beta})$ là một *hệ ngược của các môđun $\mathbf{Z}$*; vì $\bar{f}_{\alpha \beta}(v_\beta) = f_{\alpha \beta} \circ v_\beta$, các nhận xét trên do đó có thể được biểu diễn như sau:
 
-#### Mệnh đề 2 {#alg-ii-s6-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ii-s6-prop-2 .statement tag=05QZ}
 
 *Với mọi hệ ngược* $(E_\alpha, f_{\alpha \beta})$ *của các môđun $A$*-và mọi *môđun $A$*-môđun $F$, *ánh xạ chính tắc* $u \mapsto (f_\alpha \circ u)$ *là một đẳng cấu môđun $\mathbf{Z}$*
 
@@ -105,7 +105,7 @@ $$
 l_F: \operatorname{Hom}_A(F, \lim_{\leftarrow} E_\alpha) \to \lim_{\leftarrow} \operatorname{Hom}_A(F, E_\alpha).
 $$
 
-#### Hệ quả {#alg-ii-s6-n1-cor-1 .statement}
+#### Hệ quả {#alg-ii-s6-n1-cor-1 .statement tag=05R0}
 
 *Với mọi đồng cấu môđun $A$ $v: F \to F'$, ánh xạ*
 
@@ -147,7 +147,7 @@ Cho $(E'_\alpha, f'_{\beta \alpha})$ là một hệ trực tiếp khác của c�
 
 Hơn nữa:
 
-#### Mệnh đề 3 {#alg-ii-s6-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ii-s6-prop-3 .statement tag=05R1}
 
 *Cho* $(E_\alpha, f_{\beta \alpha}), (E'_\alpha, f'_{\beta \alpha}), (E''_\alpha, f''_{\beta \alpha})$ *là ba hệ trực tiếp của các* $A_\alpha$*-môđun và* $(u_\alpha), (v_\alpha)$ *là hai hệ trực tiếp của các ánh xạ* $A_\alpha$*-tuyến tính sao cho các dãy*
 
@@ -167,19 +167,19 @@ $u(\lim \to E'_\alpha) = \lim \to u_\alpha(E'_\alpha)$ *và* $v^{-1}(0) = \lim \
 
 Nói một cách không chính thức, Mệnh đề 3 cũng có thể được phát biểu bằng cách nói rằng *chuyển qua giới hạn trực tiếp bảo toàn tính khớp*.
 
-#### Mệnh đề 4 {#alg-ii-s6-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ii-s6-prop-4 .statement tag=05R2}
 
 *Cho* $(E_\alpha, f_{\beta \alpha})$ *là một hệ trực tiếp của các* $A_\alpha$*-môđun, $E = \lim \to E_\alpha$ *là giới hạn trực tiếp của nó và* $\phi_\alpha : A_\alpha \to A$ *và* $f_\alpha : E_\alpha \to E$ *là các ánh xạ chính tắc với mọi* $\alpha \in I$. *Nếu, với mọi* $\alpha \in I$, $S_\alpha$ *là một hệ sinh của* $E_\alpha$, *thì* $S = \bigcup_{\alpha \in I} f_\alpha(S_\alpha)$ *là một hệ sinh của* $E$.
 
 Mọi $x \in E$ *đều có dạng* $f_\alpha(x_\alpha)$ *với một* $\alpha \in I$ *nào đó và một* $x_\alpha \in E_\alpha$ *nào đó và theo giả thiết* $x = \sum_i \lambda^{(i)}_\alpha y^{(i)}_\alpha$, *trong đó* $\lambda^{(i)}_\alpha \in A_\alpha$ *và* $y^{(i)}_\alpha \in S_\alpha$; *viết* $\lambda^{(i)} = \phi_\alpha(\lambda^{(i)}_\alpha)$, $y^{(i)} = f_\alpha(y^{(i)}_\alpha)$, *ta được* $x = \sum_i \lambda^{(i)} y^{(i)}$.
 
-#### Mệnh đề 5 {#alg-ii-s6-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ii-s6-prop-5 .statement tag=05R3}
 
 *Với các giả thiết và ký hiệu của Mệnh đề 4, giả sử rằng với mọi* $\alpha \in I$, $E_\alpha$ *là tổng trực tiếp của một họ* $(M^\lambda_\alpha)_{\alpha \in L}$ *gồm các môđun con (tập chỉ số* $L$ *độc lập với* $\alpha$) *và rằng* $f_{\beta \alpha}(M^\lambda_\alpha) \subset M^\lambda_\alpha$ *đối với* $\alpha \leq \beta$ *và với mọi* $\lambda \in L$. *Khi đó* $E$ *là tổng trực tiếp của các môđun con* $M^\lambda = \lim \to M^\lambda_\alpha$ $(\lambda \in L)$.
 
 Suy ra từ Mệnh đề 4 rằng $E$ là tổng của các $M^\lambda$. Cho $(y^\lambda)_{\lambda \in L}$ *là một họ sao cho* $y^\lambda \in M^\lambda$ *với mọi* $\lambda \in L$ *và có giá hữu hạn, và giả sử rằng* $\sum_\lambda y^\lambda = 0$. *Nhờ Lý thuyết tập hợp, III, § 7, no. 5, Bổ đề 1, tồn tại một* $\alpha \in I$ *và một họ* $(x^\lambda_\alpha)_{\alpha \in L}$ *có giá hữu hạn gồm các phần tử của* $E_\alpha$ *sao cho* $x^\lambda_\alpha \in M^\lambda_\alpha$ *và* $y^\lambda = f_\alpha(x^\lambda_\alpha)$ *với mọi* $\lambda \in L$. *Quan hệ* $f_\alpha \left( \sum_{\lambda \in L} x^\lambda_\alpha \right) = 0$ *kéo theo sự tồn tại của một* $\beta \geq \alpha$ *sao cho* $f_{\beta \alpha} \left( \sum_{\lambda \in L} x^\lambda_\alpha \right) = 0$ *(Lý thuyết tập hợp, III, § 7, no. 5, Bổ đề 1), điều này có thể viết là* $\sum_{\lambda \in L} x_\beta^\lambda = 0$, *trong đó* $x_\beta^\lambda = f_{\beta \alpha}(x_\alpha^\lambda) \in M_\beta^\lambda$ *theo giả thiết; do đó* $x_\beta^\lambda = 0$ *với mọi* $\lambda \in L$ *và vì thế* $y^\lambda = f_\beta(x_\beta^\lambda) = 0$ *với mọi* $\lambda \in L$, *điều này chứng tỏ rằng tổng của các* $M^\lambda$ *là trực tiếp.*
 
-#### Hệ quả {#alg-ii-s6-n2-cor-1 .statement}
+#### Hệ quả {#alg-ii-s6-n2-cor-1 .statement tag=05R4}
 
 *Cho* $(P_\alpha)$ *là một hệ trực tiếp của các tập con của* $E_\alpha$ *và đặt* $P = \lim \overrightarrow{P_\alpha}$. *Nếu, với mọi* $\alpha \in I$, $P_\alpha$ *là một tập con tự do (resp. cơ sở) của* $E_\alpha$, *thì* $P$ *là một tập con tự do (resp. cơ sở) của* $E$.
 
@@ -195,14 +195,14 @@ $$
 $$
 là một đồng cấu $\mathbf{Z}$-môđun sao cho $(\operatorname{Hom}_A(E_\alpha, F), \bar{f}_{\alpha \beta})$ là một *hệ ngược của* $\mathbf{Z}$*-môđun*; vì $\bar{f}_{\alpha \beta}(v_\beta) = v_\beta \circ f_{\beta \alpha}$, các nhận xét trên có thể phát biểu như sau:
 
-#### Mệnh đề 6 {#alg-ii-s6-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ii-s6-prop-6 .statement tag=05R5}
 
 *Với mọi hệ trực tiếp* $(E_\alpha, f_{\beta \alpha})$ *của các* $A$*-môđun và mọi* $A$*-môđun* $F$, *ánh xạ chính tắc* $u \mapsto (u \circ f_\alpha)$ *là một đẳng cấu* $\mathbf{Z}$*-môđun*
 $$
 d_F : \operatorname{Hom}_A(\lim \overrightarrow{E_\alpha}, F) \to \lim \leftarrow \operatorname{Hom}_A(E_\alpha, F).
 $$
 
-#### Hệ quả 1 {#alg-ii-s6-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s6-prop-6-cor-1 .statement tag=05R6}
 
 *Với mọi* $A$*-đồng cấu môđun* $v : F \to F'$, *các*
 $$
@@ -223,11 +223,11 @@ giao hoán.
 
 Với mọi $u \in \operatorname{Hom}(\lim E_\alpha, F)$, $d_{F'}(v \circ u) = (v \circ u \circ f_\alpha)$ theo định nghĩa, và tính giao hoán của biểu đồ (6) suy ra ngay lập tức từ các định nghĩa.
 
-#### Hệ quả 2 {#alg-ii-s6-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s6-prop-6-cor-2 .statement tag=05R7}
 
 *Nếu* $(E_\alpha, f_{\beta \alpha})$ *là một hệ trực tiếp các* $A$*-môđun trái và* $E = \lim \longrightarrow E_\alpha$, $(E_\alpha^*, t f_{\beta \alpha})$ *là một hệ ngược các* $A$*-môđun phải và* $\lim \leftarrow E_\alpha^*$ *đẳng cấu chính tắc với* $E^*$.
 
-#### Nhận xét {#alg-ii-s6-n2-rem-1 .statement}
+#### Nhận xét {#alg-ii-s6-n2-rem-1 .statement tag=05R8}
 
 Cho $E$ là một $A$*-môđun và* $(M_\alpha)_{\alpha \in I}$ *một họ tăng các môđun con của* $E$ *sao cho* $E$ *là hợp của các* $M_\alpha$; nếu $j_{\beta \alpha}: M_\alpha \to M_\beta$ (với $\alpha \leq \beta$) và $j_\alpha: M_\alpha \to E$ *là các ánh xạ nhúng chính tắc, thì rõ ràng* $j = \lim \longrightarrow j_\alpha$ *là một đẳng cấu từ* $\lim \longrightarrow M_\alpha$ *lên* $E$ *(Lý thuyết tập hợp, III, § 7, no. 6, Nhận xét 1)*. Đặc biệt, mọi $A$*-môđun đều là giới hạn trực tiếp của họ có hướng phải các* *môđun con sinh hữu hạn* của nó.
 
@@ -264,7 +264,7 @@ $$
 \pi = \lim \pi_\alpha : \lim (E_\alpha \otimes_{A_\alpha} F_\alpha) \to E \otimes_A F.
 $$
 
-#### Mệnh đề 7 {#alg-ii-s6-prop-7 .statement}
+#### Mệnh đề 7 {#alg-ii-s6-prop-7 .statement tag=05R9}
 
 *Ánh xạ tuyến tính trên $\mathbf{Z}$ (7) là song ánh.*
 
@@ -295,7 +295,7 @@ và vì các phần tử dạng $f_\alpha(x_\alpha) \otimes g_\alpha(y_\alpha)$ 
 
 Nói một cách đại lược, Mệnh đề 7 có thể được phát biểu bằng cách nói rằng *tích tenxơ giao hoán với giới hạn trực tiếp* và thường hai vế của (7) được đồng nhất nhờ đẳng cấu $\pi$.
 
-#### Hệ quả 1 {#alg-ii-s6-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s6-prop-7-cor-1 .statement tag=05RA}
 
 *Cho* $(E'_\alpha, f'_{\beta \alpha})$ (resp. $(F'_\alpha, g'_{\alpha \beta})$) *là một hệ trực tiếp khác của các môđun phải* (resp. *trái*) *$A_\alpha$; với mọi* $\alpha \in I$, *cho* $u_\alpha : E_\alpha \to E'_\alpha$ (resp. $v_\alpha : F_\alpha \to F'_\alpha$) *là một* $A_\alpha$-ánh xạ tuyến tính sao cho $(u_\alpha)$ (resp. $(v_\alpha)$) là một hệ trực tiếp. Khi đó $(u_\alpha \oplus v_\alpha)$ là một hệ trực tiếp các $\mathbf{Z}$-ánh xạ tuyến tính và biểu đồ
 
@@ -316,13 +316,13 @@ Cho $(A'_\alpha, \rho'_{\beta\alpha})$ là một hệ trực tiếp khác của 
 
 Đặc biệt, nếu các $A_\alpha$ giao hoán, thì $A = \lim A_\alpha$ giao hoán và đẳng cấu (7) là một đẳng cấu môđun $A$.
 
-#### Hệ quả 2 {#alg-ii-s6-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s6-prop-7-cor-2 .statement tag=05RB}
 
 *Cho* $(E_\alpha, f_{\beta\alpha})$ *là một hệ trực tiếp các môđun phải* $A_\alpha$*và cho* $E'_\alpha = E_\alpha \otimes_{A_\alpha} A$ *là môđun* $A$ *thu được bằng cách mở rộng vành vô hướng lên* $A = \lim A_\alpha$ *nhờ đồng cấu chính tắc* $\rho_\alpha : A_\alpha \to A$. *Khi đó* $(E'_\alpha, f_{\beta\alpha} \otimes 1_A)$ *là một hệ trực tiếp các môđun phải* $A$, *mà giới hạn trực tiếp của nó đẳng cấu chính tắc với* $\lim E_\alpha$.
 
 Chỉ cần áp dụng Mệnh đề 7 với $F_\alpha$ là vành $A$ được xét như một song môđun $(A_\alpha, A)$ nhờ $\rho_\alpha$.
 
-#### Hệ quả 3 {#alg-ii-s6-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#alg-ii-s6-prop-7-cor-3 .statement tag=05RC}
 
 *Cho* $A$ *là một vành,* $(E_\alpha, f_{\beta\alpha})$ *là một hệ trực tiếp các $A$-môđun phải và* $F$ *là một $A$-môđun trái.* *Khi đó các* $\mathbf{Z}$*-môđun* $\lim (E_\alpha \otimes_A F)$ *và* $(\lim E_\alpha) \otimes_A F$ *đẳng cấu một cách chính tắc*.
 
@@ -330,7 +330,7 @@ Chỉ cần lấy $A_\alpha = A$ và $F_\alpha = F$ với mọi $\alpha \in I$ t
 
 Đặc biệt, nếu $\rho : A \to B$ là một đồng cấu vành, $\lim \rho^*(E_\alpha)$ và $\rho^*(\lim E_\alpha)$ đẳng cấu một cách chính tắc.
 
-#### Hệ quả 4 {#alg-ii-s6-prop-7-cor-4 .statement}
+#### Hệ quả 4 {#alg-ii-s6-prop-7-cor-4 .statement tag=05RD}
 
 *Cho* $M$ *là một $A$-môđun phải,* $N$ *là một $A$-môđun trái,* $(x_i)_{1 \leq i \leq n}$ *là một họ các phần tử của* $M$, $(y_i)_{1 \leq i \leq n}$ *là một họ các phần tử của* $N$, *sao cho* $\sum_i (x_i \otimes y_i) = 0$ *trong* $M \otimes_A N$. *Khi đó tồn tại một môđun con sinh hữu hạn* $M_1$ *(resp. $N_1$) của* $M$ *(resp. $N$) chứa các* $x_i$ *(resp. các* $y_i$) *và sao cho* $\sum_i (x_i \otimes y_i) = 0$ *trong* $M_1 \otimes_A N_1$.
 

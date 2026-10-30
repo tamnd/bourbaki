@@ -49,7 +49,7 @@ subsections:
       pdf_page: 318
 statements: 50
 exercises: 15
-content_sha256: 54a32a2dc102bd49a6621386308a5a1b6efb1be1b37774acd736b25c49ac489a
+content_sha256: 50c66702b920a46cda27ea819a0a300847c48c7ea09c8ef86e53372b14ec2e4f
 ---
 
 ## § 4. QUELQUES CLASSES D'OPÉRATEURS DANS LES ESPACES HILBERTIENS
@@ -58,7 +58,7 @@ Dans tout ce paragraphe, on note $1_E$ l'application identique d'un espace hilbe
 
 ### 1. Adjoint
 
-#### Proposition 1 {#evt-v-s4-prop-1 .statement}
+#### Proposition 1 {#evt-v-s4-prop-1 .statement tag=080X}
 
 *Soient* E *et* F *deux espaces hilbertiens*. *Pour toute application* $u \in \mathscr{L}(E; F)$, *il existe une unique application* $u^* \in \mathscr{L}(F; E)$ *telle que l'on ait*
 $$(1)$$
@@ -88,7 +88,7 @@ $$
 
 Elle est bijective, semi-linéaire et isométrique. Or la formule (1) se traduit par $\Phi_{u^*} = (\Phi_u)^*$, d’où aussitôt la prop. 1. C.Q.F.D.
 
-#### Définition 1 {#evt-v-s4-def-1 .statement}
+#### Définition 1 {#evt-v-s4-def-1 .statement tag=080Y}
 
 Soient $E$ et $F$ deux espaces hilbertiens. Pour toute application linéaire continue $u : E \to F$, on appelle adjoint de $u$ et l’on note $u^*$ l’application linéaire continue de $F$ dans $E$ caractérisée par la formule (1).
 
@@ -118,7 +118,7 @@ $$
 (u^{-1})^* = (u^*)^{-1} .
 $$
 
-#### Proposition 2 {#evt-v-s4-prop-2 .statement}
+#### Proposition 2 {#evt-v-s4-prop-2 .statement tag=080Z}
 
 Pour tout $u \in \mathscr{L}(E ; F)$, on a
 
@@ -168,7 +168,7 @@ $$
 
 s’établissent de manière analogue à la formule (12), compte tenu de la définition du produit scalaire dans $\hat{S}^n(E)$ (V, p. 30, formule (15)) et dans $\hat{\Lambda}^n(E)$ (V, p. 34, formule (26)).
 
-#### Remarque 1 {#evt-v-s4-n1-rem-1 .statement}
+#### Remarque 1 {#evt-v-s4-n1-rem-1 .statement tag=0810}
 
 Supposons l’espace hilbertien $E$ non réduit à 0. Identifions $\mathscr{L}(K ; E)$ à $E$ par l’application $u \mapsto u(1)$; autrement dit, le vecteur $x$ de $E$ est identifié à l’application $\lambda \mapsto \lambda.x$ de $K$ dans $E$. Alors l’adjoint de $x$ est l’application $x^*: E \to K$ donnée par $x^*(y) = \langle x|y \rangle$. Autrement dit, $x \mapsto x^*$ est l’application semi-linéaire canonique de $E$ sur son dual (V, p.15).
 
@@ -194,7 +194,7 @@ conformément à la définition de l’adjoint. On remarquera que $yx^*$ est l�
 
 A la suite de Dirac $^1$, il est d’usage dans la plupart des ouvrages de Physique Mathématique de représenter les éléments de E par des symboles tels que $|x\rangle$, ceux de $E'$ par $\langle t|$. Le produit scalaire s’écrit $\langle x|y \rangle = \langle x|.|y \rangle$ et la première règle d’interdiction dans les produits exclut les combinaisons de signes $|$ et $|<$, par exemple $|x\rangle |y\rangle$.
 
-#### Proposition 3 {#evt-v-s4-prop-3 .statement}
+#### Proposition 3 {#evt-v-s4-prop-3 .statement tag=0811}
 
 Soient E et F deux espaces hilbertiens et $u \in \mathscr{L}(E; F)$. Les conditions suivantes sont équivalentes :
 
@@ -208,11 +208,11 @@ La condition (i) signifie que l’on a $u^*u = 1_E$ et $uu^* = 1_F$. L’équiva
 
 On appelle aussi opérateur unitaire dans E tout automorphisme de l’espace hilbertien E, autrement dit, tout $u \in \mathscr{L}(E)$ satisfaisant à $uu^* = u^*u = 1_E$.
 
-#### Remarque 2 {#evt-v-s4-n1-rem-2 .statement}
+#### Remarque 2 {#evt-v-s4-n1-rem-2 .statement tag=0812}
 
 La relation $u^*u = 1_E$ ne caractérise pas les automorphismes de l’espace hilbertien E. Par exemple, soit $E = \ell^2(\mathbf{N})$ et soit $u$ défini par $u(x)_n = x_{n-1}$ pour $n \geqslant 1$ et $u(x)_0 = 0$. On a $\|u(x)\| = \|x\|$ pour tout $x \in E$, c’est-à-dire $u^*u = 1_E$, mais $u$ n’est pas surjectif.
 
-#### Remarque 3 {#evt-v-s4-n1-rem-3 .statement}
+#### Remarque 3 {#evt-v-s4-n1-rem-3 .statement tag=0813}
 
 La définition (1) de l’adjoint $u^*$ s’écrit encore $\langle y|u(x)\rangle = \langle u^*(y)|x\rangle$, ou, d’après V, p. 15,
 
@@ -230,13 +230,13 @@ $$
 
 ### 2. Applications linéaires partiellement isométriques
 
-#### Définition 2 {#evt-v-s4-def-2 .statement}
+#### Définition 2 {#evt-v-s4-def-2 .statement tag=0814}
 
 Soient E et F deux espaces hilbertiens et $u \in \mathscr{L}(E ; F)$. On appelle sous-espace initial de u l'orthogonal du noyau de u dans E et sous-espace final de u l'adhérence de l'image de u dans F. On appelle orthoprojecteur initial (resp. final) de u l'orthoprojecteur de E (resp. F) sur le sous-espace initial (resp. final) de u.
 
 Soit P le sous-espace initial de u. Comme E est somme directe de P et du noyau de u, on a $u(P) = u(E)$.
 
-#### Proposition 4 {#evt-v-s4-prop-4 .statement}
+#### Proposition 4 {#evt-v-s4-prop-4 .statement tag=0815}
 
 (i) Le sous-espace initial (resp. final) de $u^*$ est égal au sous-espace final (resp. initial) de u.
 
@@ -248,13 +248,13 @@ La relation $u(M) \subset M$ signifie que $u(M)$ est orthogonal à $M^\circ$, et
 
 On peut aussi ramener la prop. 4 aux propriétés générales des transposées (II, p. 51, cor. 2) à l'aide de la remarque 3 de V, p. 40.
 
-#### Définition 3 {#evt-v-s4-def-3 .statement}
+#### Définition 3 {#evt-v-s4-def-3 .statement tag=0816}
 
 Soient E et F deux espaces hilbertiens. On dit qu'une application $u \in \mathscr{L}(E ; F)$ est partiellement isométrique si l'on a $\|u(x)\| = \|x\|$ pour tout x appartenant au sous-espace initial de u.
 
 Soit $u \in \mathscr{L}(E ; F)$ de noyau N et d'image I. Dire que u est partiellement isométrique revient à dire que l'application linéaire $\tilde{u} : E/N \to I$ déduite de u est isométrique (V, p. 13). Alors le sous-espace I de F est complet, donc fermé, et c'est le sous-espace final de u. Par suite, u induit un isomorphisme d'espaces hilbertiens du sous-espace initial de u sur son sous-espace final.
 
-#### Proposition 5 {#evt-v-s4-prop-5 .statement}
+#### Proposition 5 {#evt-v-s4-prop-5 .statement tag=0817}
 
 Soit $u \in \mathscr{L}(E ; F)$ de sous-espace initial P et de sous-espace final Q. On note p (resp. q) l'orthoprojecteur initial (resp. final) de u. Supposons u partiellement isométrique.
 
@@ -272,7 +272,7 @@ $$
 
 Si $x$ appartient à P, on a $\langle u(x)|u(y) \rangle = \langle x|y \rangle$ par définition d’une application partiellement isométrique ; si $x$ appartient au noyau N de $u$, on a $u(x) = 0$, d’où $\langle u(x)|u(y) \rangle = 0$ et $\langle x|y \rangle = 0$ car N et P sont orthogonaux. Comme on a $E = P \oplus N$, on a dans tous les cas $\langle u^*u(x) - x|y \rangle = 0$ donc $u^*u$ est l’orthoprojecteur $p$ de E sur P. La démonstration de $uu^* = q$ s’en déduit en échangeant $u$ et $u^*$.
 
-#### Proposition 6 {#evt-v-s4-prop-6 .statement}
+#### Proposition 6 {#evt-v-s4-prop-6 .statement tag=0818}
 
 *Pour tout* $u \in \mathscr{L}(E; F)$, *les conditions suivantes sont équivalentes* :
 
@@ -301,13 +301,13 @@ On a donc prouvé l’équivalence de (i), (iii) et (v). Remplaçant $u$ par $u^
 
 ### 3. Endomorphismes normaux
 
-#### Définition 4 {#evt-v-s4-def-4 .statement}
+#### Définition 4 {#evt-v-s4-def-4 .statement tag=0819}
 
 *Soient* E *un espace hilbertien et* $u \in \mathscr{L}(E)$. *On dit que* u *est normal s’il commute à son adjoint* $u^*$.
 
 Par exemple, tout automorphisme $u$ de l’espace hilbertien E est normal puisque l’on a $uu^* = u^*u = 1_E$.
 
-#### Proposition 7 {#evt-v-s4-prop-7 .statement}
+#### Proposition 7 {#evt-v-s4-prop-7 .statement tag=081A}
 
 Pour que $u \in \mathscr{L}(E)$ soit normal, il faut et il suffit que l’on ait $\|u(x)\| = \|u^*(x)\|$ pour tout $x \in E$.
 
@@ -323,13 +323,13 @@ $$
 \Phi(x, x) = \|u^*(x)\|^2 - \|u(x)\|^2 .
 $$
 
-#### Proposition 8 {#evt-v-s4-prop-8 .statement}
+#### Proposition 8 {#evt-v-s4-prop-8 .statement tag=081B}
 
 Supposons que $u \in \mathscr{L}(E)$ soit normal. Soient $N$ le noyau de $u$ et $M$ l’orthogonal de $N$ dans $E$; soient $m$ et $n$ deux entiers positifs tels que $m + n \geqslant 1$. Alors $N$ est le noyau de $u^m(u^*)^n$ et $M$ est à la fois le sous-espace initial et le sous-espace final de $u^m(u^*)^n$. En particulier, $M$ est à la fois le sous-espace initial et le sous-espace final de $u$ et de $u^*$, et il est stable par $u$ et $u^*$.
 
 La prop. 7 montre que $u$ et $u^*$ ont même noyau $N$. D’après la prop. 4, (ii) de V, p. 41, le sous-espace $M$ de $E$ est stable par $u$ et $u^*$ puisqu’il en est ainsi de $N = M^\circ$; comme on a $M \cap N = \{0\}$, les endomorphismes de $M$ induits par $u$ et $u^*$ sont injectifs. Posons $v = u^m(u^*)^n$; ce qui précède montre que la restriction de $v$ à $M$ (resp. $N$) est injective (resp. nulle), donc $N$ est le noyau de $v$. Par suite, $M = N^\circ$ est le sous-espace initial de $v$. D’après la prop. 4, (i) de V, p. 41, le sous-espace final de $v$ est égal au sous-espace initial de $v^*$. Mais on a $v^* = u^n(u^*)^m$ et le sous-espace initial de $v^*$ est donc égal à $M$ d’après ce qui précède.
 
-#### Corollaire {#evt-v-s4-n3-cor-1 .statement}
+#### Corollaire {#evt-v-s4-n3-cor-1 .statement tag=081C}
 
 Soit $\lambda \in K$. Les sous-espaces suivants de $E$ sont égaux :
 
@@ -342,7 +342,7 @@ Il est clair que $w = u - \lambda \cdot 1_E$ est un endomorphisme normal de $E$,
 
 ### 4. Endomorphismes hermitiens
 
-#### Définition 5 {#evt-v-s4-def-5 .statement}
+#### Définition 5 {#evt-v-s4-def-5 .statement tag=081D}
 
 Soient $E$ un espace hilbertien et $u \in \mathscr{L}(E)$. On dit que $u$ est hermitien si l’on a $u^* = u$.
 
@@ -364,7 +364,7 @@ $$
 
 Lorsque $u$ est hermitien, on a le résultat suivant :
 
-#### Proposition 9 {#evt-v-s4-prop-9 .statement}
+#### Proposition 9 {#evt-v-s4-prop-9 .statement tag=081E}
 
 Pour tout endomorphisme hermitien $u$ de $E$, on a
 
@@ -394,7 +394,7 @@ Soit $a = \Phi(x, y)$; il existe un nombre complexe $\lambda$ de valeur absolue 
 
 Tout endomorphisme hermitien est évidemment normal. Réciproquement :
 
-#### Proposition 10 {#evt-v-s4-prop-10 .statement}
+#### Proposition 10 {#evt-v-s4-prop-10 .statement tag=081F}
 
 On suppose $K = \mathbf{C}$. Soit $u \in \mathscr{L}(E)$. Il existe alors un couple $(h_1, h_2)$ d'endomorphismes hermitiens de $E$, et un seul, tel que $u = h_1 + ih_2$. Pour que $u$ soit normal, il faut et il suffit que $h_1$ et $h_2$ commutent.
 
@@ -406,7 +406,7 @@ $$
 
 De plus, on a alors $h_1 h_2 - h_2 h_1 = \frac{i}{2} (uu^* - u^*u)$, d'où la prop. 10.
 
-#### Proposition 11 {#evt-v-s4-prop-11 .statement}
+#### Proposition 11 {#evt-v-s4-prop-11 .statement tag=081G}
 
 Soit $p \in \mathscr{L}(E)$. Pour que $p$ soit l'orthoprojecteur de $E$ sur un sous-espace vectoriel fermé de $E$, il faut et il suffit que l'on ait $p^2 = p = p^*$.
 
@@ -414,7 +414,7 @@ Alors E est somme directe topologique de M et N. Pour que p soit un orthoproject
 
 ### 5. Endomorphismes positifs
 
-#### Définition 6 {#evt-v-s4-def-6 .statement}
+#### Définition 6 {#evt-v-s4-def-6 .statement tag=081H}
 
 Soient E un espace hilbertien et $u \in \mathscr{L}(E)$. On dit que u est positif, ce que l'on note $u \geqslant 0$, si u est hermitien et si l'on a $\langle x|u(x) \rangle \geqslant 0$ pour tout $x \in E$.
 
@@ -426,7 +426,7 @@ entraîne que u est hermitien (V, p. 2, Remarque), donc positif.
 
 On note $\mathscr{L}_+(E)$ l'ensemble des éléments positifs de $\mathscr{L}(E)$; c'est un cône convexe pointé saillant de l'espace vectoriel réel $\mathscr{L}(E)_{[\mathbf{R}]}$ sous-jacent à $\mathscr{L}(E)$. Pour que u soit positif, il faut et il suffit que la forme sesquilinéaire $\Phi_u$ sur $E \times E$ associée à u soit hermitienne positive. Étant donnés u et v dans $\mathscr{L}(E)$, la relation $u - v \geqslant 0$ se note encore $u \geqslant v$ ou $v \leqslant u$; c'est une relation d'ordre sur $\mathscr{L}(E)_{[\mathbf{R}]}$ compatible avec sa structure d'espace vectoriel réel.
 
-#### Proposition 12 {#evt-v-s4-prop-12 .statement}
+#### Proposition 12 {#evt-v-s4-prop-12 .statement tag=081I}
 
 Soit u un élément hermitien (resp. positif) de $\mathscr{L}(E)$ et soit v une application linéaire continue de E dans un espace hilbertien F. Alors $vuv^*$ est un élément hermitien (resp. positif) de $\mathscr{L}(F)$.
 
@@ -438,7 +438,7 @@ pour tout $y \in F$, d'où $vuv^* \geqslant 0$.
 
 La prop. 12 montre en particulier que $vv^*$ est positif pour tout $v \in \mathscr{L}(E; F)$. Plus particulièrement, un orthoprojecteur p satisfait à $p = p^2 = pp^*$, donc est positif.
 
-#### Remarque 1 {#evt-v-s4-n5-rem-1 .statement}
+#### Remarque 1 {#evt-v-s4-n5-rem-1 .statement tag=081J}
 
 Pour tout u hermitien dans $\mathscr{L}(E)$, posons $m(u) = \inf_{\|x\|=1} \langle x|u(x) \rangle$,
 $M(u) = \sup_{\|x\|=1} \langle x|u(x) \rangle$. Si E n'est pas réduit à 0, $m(u)$ et $M(u)$ sont finis ; de plus,
@@ -454,7 +454,7 @@ $$
 
 \* Pour une autre démonstration de cette formule lorsque K = C, voir la prop. 14 de TS, I, § 6, no 8. \*
 
-#### Remarque 2 {#evt-v-s4-n5-rem-2 .statement}
+#### Remarque 2 {#evt-v-s4-n5-rem-2 .statement tag=081K}
 
 Soient M et N deux sous-espaces vectoriels fermés de E, et $p_M$ (resp. $p_N$) l’orthoprojecteur de E sur M (resp. N). *On a* $M \subset N$ *si et seulement si* $p_M \leq p_N$. En effet, on a $p_M^* p_M = p_M$ d’où
 
@@ -464,7 +464,7 @@ $$
 
 pour tout $x \in E$. La relation $p_M \leq p_N$ équivaut donc à « $\|p_M(x)\| \leq \|p_N(x)\|$ pour tout $x \in E$ ». Si $M \subset N$, on a $p_M = p_M p_N$ d’où $\|p_M(x)\| \leq \|p_N(x)\|$ puisque $\|p_M\| \leq 1$. Réciproquement, si l’on a $\|p_M(x)\| \leq \|p_N(x)\|$ pour tout $x \in E$, le noyau de $p_M$ contient le noyau de $p_N$, c’est-à-dire que l’on a $M^\circ \supset N^\circ$, d’où finalement $M \subset N$.
 
-#### Proposition 13 {#evt-v-s4-prop-13 .statement}
+#### Proposition 13 {#evt-v-s4-prop-13 .statement tag=081L}
 
 *Soit* $\mathscr{H}(E)$ *l’ensemble des endomorphismes continus hermitiens de l’espace hilbertien* E. *Soit* $\mathscr{F}$ *une partie non vide, filtrante croissante et majorée de* $\mathscr{H}(E)$.
 
@@ -534,7 +534,7 @@ et l’on a $v(x) = \lim_{n \to \infty} u_n(x)$ pour tout $x \in E$. De plus, $v
 
 Soient $E$ et $F$ deux espaces hilbertiens. Conformément aux conventions de V, p. 40, on note $ba^*$, pour $a$ dans $E$ et $b$ dans $F$, l’application linéaire continue $x \mapsto b \langle a|x\rangle$ de $E$ dans $F$.
 
-#### Lemme 1 {#evt-v-s4-lem-1 .statement}
+#### Lemme 1 {#evt-v-s4-lem-1 .statement tag=081M}
 
 Il existe un isomorphisme $\theta$ de l’espace vectoriel $F \otimes E'$ sur l’espace $\mathscr{L}_f(E; F)$ des applications linéaires continues de rang fini de $E$ dans $F$, caractérisé par $\theta(b \otimes a^*) = ba^*$ pour $a \in E, b \in F$.
 
@@ -554,7 +554,7 @@ $$
 
 Lorsque $E$ est de dimension finie, on a $\mathscr{L}_f(E) = \mathscr{L}(E)$ et $\tau(u)$ est la trace de l’endomorphisme $u$ de $E$ (A, II, p. 78).
 
-#### Lemme 2 {#evt-v-s4-lem-2 .statement}
+#### Lemme 2 {#evt-v-s4-lem-2 .statement tag=081N}
 
 *Soit* $(e_i)_{i \in I}$ *une base orthonormale de* $E$. *On a*
 
@@ -572,7 +572,7 @@ $$
 
 Le lemme 2 résulte alors de la formule (22) et de la formule (3) de V, p. 22.
 
-#### Lemme 3 {#evt-v-s4-lem-3 .statement}
+#### Lemme 3 {#evt-v-s4-lem-3 .statement tag=081O}
 
 *Soient* $u$ *un endomorphisme continu et positif de* $E$, *et* $\mathscr{F}$ *l’ensemble des orthoprojecteurs de rang fini dans* $E$. *Pour toute base orthonormale* $(e_i)_{i \in I}$ *de* $E$, *on a* (dans $\overline{\mathbf{R}}_+$) *l’égalité*
 
@@ -622,7 +622,7 @@ $$
 
 ce qui achève de prouver le lemme 3.
 
-#### Définition 7 {#evt-v-s4-def-7 .statement}
+#### Définition 7 {#evt-v-s4-def-7 .statement tag=081P}
 
 *Soit u un endomorphisme continu et positif de l’espace hilbertien E. On pose*
 
@@ -680,7 +680,7 @@ $$
 \end{cases}
 $$
 
-#### Définition 8 {#evt-v-s4-def-8 .statement}
+#### Définition 8 {#evt-v-s4-def-8 .statement tag=081Q}
 
 Soit E un espace hilbertien complexe. On note $\mathscr{L}^1(E)$ le sous-espace vectoriel de $\mathscr{L}(E)$ engendré par l’ensemble des endomorphismes continus, positifs et de trace finie de E.
 
@@ -690,7 +690,7 @@ Soit E un espace hilbertien réel, et soit $E_{(c)}$ son complexifié (V, p. 5).
 
 \* Remarque 1. — Nous définirons ultérieurement la notion d’application nucléaire d’un espace de Banach E dans un espace de Banach F. On montrera alors que $\mathscr{L}^1(E)$ se compose des applications nucléaires de E dans E, que E soit un espace hilbertien réel ou complexe. \*
 
-#### Proposition 14 {#evt-v-s4-prop-14 .statement}
+#### Proposition 14 {#evt-v-s4-prop-14 .statement tag=081R}
 
 Soient $E_1, \ldots, E_n$ des espaces hilbertiens, $E = E_1 \hat{\otimes}_2 \cdots \hat{\otimes}_2 E_n$, et $u_i$ un endomorphisme continu de $E_i$ pour $1 \leq i \leq n$. Si $u_1, \ldots, u_n$ sont positifs, il en est de même de $u = u_1 \hat{\otimes}_2 \cdots \hat{\otimes}_2 u_n$ et l’on a
 
@@ -722,13 +722,13 @@ $$
 
 En particulier, si $u_1$ et $u_2$ sont des endomorphismes positifs de trace finie, il en est de même de $u$. Par linéarité, on déduit de là que $u$ appartient à $\mathscr{L}^1(E)$ lorsque $K = \mathbf{C}$ et que $u_i$ appartient à $\mathscr{L}^1(E_i)$ pour $i = 1, 2$; la formule (31) s’étend à ce cas par linéarité. Enfin, le cas où $K = \mathbf{R}$ et $u_i \in \mathscr{L}^1(E_i)$ se ramène au cas complexe par extension des scalaires.
 
-#### Remarque 2 {#evt-v-s4-n6-rem-2 .statement}
+#### Remarque 2 {#evt-v-s4-n6-rem-2 .statement tag=081S}
 
 Soit $E$ un espace hilbertien, somme hilbertienne d’une famille $(E_i)_{i \in I}$ de sous-espaces hilbertiens. Soit $u$ un élément de $\mathscr{L}(E)$ tel que $u(E_i) \subset E_i$ pour tout $i \in I$; soit $u_i$ l’élément de $\mathscr{L}(E_i)$ qui coïncide avec $u$ sur $E_i$. On a alors $\operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i)$ lorsque $u$ est positif, ou appartient à $\mathscr{L}^1(E)$ : cette relation se déduit de la formule (25) de V, p. 49 appliquée à une base orthonormale de $E$ réunion de bases orthonormales de chacun des $E_i$.
 
 ### 7. Applications de Hilbert-Schmidt
 
-#### Définition 9 {#evt-v-s4-def-9 .statement}
+#### Définition 9 {#evt-v-s4-def-9 .statement tag=081T}
 
 Soient $E$ et $F$ deux espaces hilbertiens. On appelle application de Hilbert-Schmidt de $E$ dans $F$ toute application linéaire continue $u : E \to F$ telle que la trace de l’endomorphisme positif $u^*u$ de $E$ soit finie. L’ensemble des applications de Hilbert-Schmidt de $E$ dans $F$ se note $\mathscr{L}^2(E ; F)$.
 
@@ -772,7 +772,7 @@ $$
 
 En particulier, si $u$ appartient à $\mathscr{L}^2(E; F)$, alors $wuw$ appartient à $\mathscr{L}^2(E_1; F_1)$.
 
-#### Théorème 1 {#evt-v-s4-thm-1 .statement}
+#### Théorème 1 {#evt-v-s4-thm-1 .statement tag=081U}
 
 *Soient E et F deux espaces hilbertiens.*
 
@@ -808,11 +808,11 @@ $$
 
 d'où $\hat{\theta}(y \otimes x^*) = yx^*$. Ceci prouve (ii). C.Q.F.D.
 
-#### Exemple 1 {#evt-v-s4-n7-exa-1 .statement}
+#### Exemple 1 {#evt-v-s4-n7-exa-1 .statement tag=081V}
 
 Soient I et J deux ensembles. D'après la démonstration ci-dessus, pour qu'une application $u$ de $\ell^2(I)$ dans $\ell^2(J)$ soit de Hilbert-Schmidt, il faut et il suffit qu'il existe une matrice $(a_{ji})$ dans $\ell^2(J \times I)$ telle que l'on ait $u(\xi)_j = \sum_{i \in I} a_{ji} \xi_i$ pour tout $\xi = (\xi_i)$ dans $\ell^2(I)$.
 
-#### Exemple 2 {#evt-v-s4-n7-exa-2 .statement}
+#### Exemple 2 {#evt-v-s4-n7-exa-2 .statement tag=081W}
 
 \* Soient X et Y deux espaces topologiques séparés, munis respectivement de mesures positives $\mu$ et $\nu$. On peut montrer que les applications de Hilbert-Schmidt de $\mathscr{L}^2(X)$ dans $\mathscr{L}^2(Y)$ correspondent bijectivement aux classes de fonctions de carré intégrable dans $Y \times X$ : à la classe de la fonction $N \in \mathscr{L}^2(Y \times X, \nu \otimes \mu)$ correspond l'application $u_N$ donnée par
 
@@ -826,7 +826,7 @@ $$
 \|u_N\|^2_2 = \int_X \int_Y |N(y, x)|^2 \, d\mu(x) \, d\nu(y) \cdot *
 $$
 
-#### Remarque 1 {#evt-v-s4-n7-rem-1 .statement}
+#### Remarque 1 {#evt-v-s4-n7-rem-1 .statement tag=081X}
 
 Supposons $K = \mathbf{C}$. Soient $u$ et $v$ dans $\mathscr{L}^2(E; F)$. On a la relation $4u^*v = \sum_{\varepsilon^4 = 1} \overline{\varepsilon}(u + \varepsilon v)^*(u + \varepsilon v)$, donc $u^*v$ appartient à $\mathscr{L}^1(E)$. Le produit scalaire dans l'espace hilbertien $\mathscr{L}^2(E; F)$ est donné par
 
@@ -852,13 +852,13 @@ $$
 
 autrement dit, $u \mapsto u^*$ est un isomorphisme de l’espace hilbertien $\mathscr{L}^2(E ; F)$ sur le conjugué (V, p. 6) de l’espace hilbertien $\mathscr{L}^2(F ; E)$. Si on identifie ce conjugué au dual de $\mathscr{L}^2(F ; E)$ (V, p. 15), on voit que $\mathscr{L}^2(E ; F)$ s’identifie au dual de $\mathscr{L}^2(F ; E)$, la forme bilinéaire canonique $(v, u) \mapsto \langle v, u \rangle$ s’identifiant à $(v, u) \mapsto \text{Tr}(vu)$.
 
-#### Remarque 2 {#evt-v-s4-n7-rem-2 .statement}
+#### Remarque 2 {#evt-v-s4-n7-rem-2 .statement tag=081Y}
 
 Supposons $K = \mathbf{R}$. On laisse au lecteur le soin de vérifier que les formules (40) et (41) sont encore valables, et de montrer que $\mathscr{L}^2(E ; F)$ s’identifie au dual de $\mathscr{L}^2(F ; E)$ au moyen de la forme bilinéaire $(u, v) \mapsto \text{Tr}(uv)$.
 
 ### 8. Diagonalisation des applications de Hilbert-Schmidt
 
-#### Théorème 2 {#evt-v-s4-thm-2 .statement}
+#### Théorème 2 {#evt-v-s4-thm-2 .statement tag=081Z}
 
 Soient $E$ et $F$ deux espaces hilbertiens et $u$ une application de Hilbert-Schmidt de $E$ dans $F$. Il existe une base orthonormale $(e_i)_{i \in I}$ de $E$ transformée par $u$ en une famille orthogonale dans $F$.
 
@@ -866,7 +866,7 @@ On note $B$ la boule unité (fermée) de $E$, qu’on munit de la topologie affa
 
 (H) Pour tout $y \in E$ orthogonal à $x$, l’élément $u(y)$ de $F$ est orthogonal à $u(x)$.
 
-#### Lemme 4 {#evt-v-s4-lem-4 .statement}
+#### Lemme 4 {#evt-v-s4-lem-4 .statement tag=0820}
 
 La fonction $Q : B \to \mathbf{R}$ est continue.
 
@@ -878,7 +878,7 @@ $$
 
 d’après la relation de Parseval (V, p. 22) et la définition de l’adjoint (V, p. 38). Pour tout $x \in B$, on a $|\langle u^*(f_j) | x \rangle|^2 \leq \lambda_j$ d’après l’inégalité de Cauchy-Schwarz ; par suite, la convergence de la somme dans la formule (43) est uniforme sur $B$, d’où le lemme 4 (TG, X, p. 9).
 
-#### Lemme 5 {#evt-v-s4-lem-5 .statement}
+#### Lemme 5 {#evt-v-s4-lem-5 .statement tag=0821}
 
 Soit $E_1$ un sous-espace vectoriel fermé de $E$, stable par $u^*u$. Si $E_1 \neq \{0\}$, il existe dans $E_1 \cap P$ un vecteur de norme 1.
 
@@ -917,7 +917,7 @@ $$
 
 et $u^*u(y)$ est orthogonal à S. Donc $E_1$ est stable par $u^*u$. Si l'on avait $E_1 \neq \{0\}$, il existerait dans $E_1 \cap P$ un vecteur $x$ de norme 1 (lemme 5) et $S \cup \{x\}$ serait une partie orthonormale de E, contenue dans P. Ceci contredit le caractère maximal de S. On a donc $E_1 = \{0\}$ et S est une base orthonormale de E.
 
-#### Corollaire 1 {#evt-v-s4-lem-5-cor-1 .statement}
+#### Corollaire 1 {#evt-v-s4-lem-5-cor-1 .statement tag=0822}
 
 Soit v un endomorphisme continu, positif et de trace finie de l’espace hilbertien E. Il existe une base orthonormale $(e_i)_{i\in I}$ de E et une famille sommable de nombres réels positifs $(\lambda_i)_{i\in I}$ telles que $v(e_i) = \lambda_i e_i$ pour tout $i \in I$.
 
@@ -930,7 +930,7 @@ $$
 \lambda_i \geqslant 0 \quad \text{et} \quad \sum_{i\in I} \lambda_i = \operatorname{Tr}(v) < +\infty .
 $$
 
-#### Corollaire 2 {#evt-v-s4-lem-5-cor-2 .statement}
+#### Corollaire 2 {#evt-v-s4-lem-5-cor-2 .statement tag=0823}
 
 Soit E un espace hilbertien. On a $\mathscr{L}^1(E) \subset \mathscr{L}^2(E)$.
 
@@ -941,13 +941,13 @@ $$
 \sum_{i\in I} \|v(e_i)\|^2 = \sum_{i\in I} \lambda_i^2 \leq (\sum_i \lambda_i)^2 < +\infty .
 $$
 
-#### Corollaire 3 {#evt-v-s4-lem-5-cor-3 .statement}
+#### Corollaire 3 {#evt-v-s4-lem-5-cor-3 .statement tag=0824}
 
 Soit v un endomorphisme continu, positif et de trace finie de l’espace hilbertien E. Il existe un endomorphisme de Hilbert-Schmidt positif w de E tel que $v = w^2$ et que $v$ commute à $w$.
 
 Avec les notations du cor. 1, il suffit de considérer l’endomorphisme $w$ qui transforme le vecteur $\sum_{i\in I} \xi_i e_i$ en le vecteur $\sum_i \lambda_i^{1/2} \xi_i e_i$.
 
-#### Remarque {#evt-v-s4-n8-rem-1 .statement}
+#### Remarque {#evt-v-s4-n8-rem-1 .statement tag=0825}
 
 Avec les notations du th. 2, soit J l’ensemble des $i \in I$ tels que $u(e_i) \neq 0$. Pour tout $i \in J$, posons $\hat{\lambda}_i = \|u(e_i)\|$ et $f_i = \hat{\lambda}_i^{-1} u(e_i)$. Alors $(e_i)_{i\in J}$ (resp. $(f_i)_{i\in J}$) est une base orthonormale du sous-espace initial (resp. final) de $u$, on a $u(e_i) = \lambda_i f_i$ pour tout $i \in J$ et $\sum_{i\in J} \lambda_i^2 = \|u\|_2^2$ est fini.
 
@@ -965,15 +965,15 @@ a) S’il existe $x \in E$ avec $H(x) = 0$ et $Q(x) \neq 0$, on pose $\operatorn
 
 b) Dans le cas contraire, $\operatorname{Tr}(Q/H)$ est la borne supérieure de l’ensemble des nombres de la forme $\sum_{i=1}^{m} Q(x_i)$, où $(x_1, \ldots, x_m)$ parcourt l’ensemble des suites finies d’éléments de E telles que $\langle x_i | x_j \rangle_H = \delta_{ij}$ (symbole de Kronecker).
 
-#### Remarque 1 {#evt-v-s4-n9-rem-1 .statement}
+#### Remarque 1 {#evt-v-s4-n9-rem-1 .statement tag=0826}
 
 Pour tout sous-espace F de E, notons $Q_F$ la restriction de Q à F et $H_F$ celle de H. On a $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ et $\operatorname{Tr}(Q/H)$ est la borne supérieure de l’ensemble des nombres $\operatorname{Tr}(Q_F/H_F)$ où F parcourt l’ensemble des sous-espaces vectoriels de dimension finie de E.
 
-#### Remarque 2 {#evt-v-s4-n9-rem-2 .statement}
+#### Remarque 2 {#evt-v-s4-n9-rem-2 .statement tag=0E5B}
 
 Soient $E_1$ un espace vectoriel réel, $Q_1$ et $H_1$ deux formes quadratiques positives sur $E_1$ et $\pi : E \to E_1$ une application linéaire surjective. Si $Q = Q_1 \circ \pi$ et $H = H_1 \circ \pi$, on a $\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$.
 
-#### Proposition 15 {#evt-v-s4-prop-15 .statement}
+#### Proposition 15 {#evt-v-s4-prop-15 .statement tag=0827}
 
 *On suppose qu’il existe une structure d’espace hilbertien réel sur E telle que* $H(x) = \|x\|^2$ *pour tout* $x \in E$. *Pour que* $\operatorname{Tr}(Q/H)$ *soit fini, il faut et il suffit qu’il existe un endomorphisme continu et positif u de trace finie de E, tel que l’on ait* $Q(x) = \langle x | u(x) \rangle$ *pour tout* $x \in E$; *cet endomorphisme u est unique*, et l’on a
 
@@ -1007,11 +1007,11 @@ où $(x_1, \ldots, x_m)$ parcourt l’ensemble des suites orthonormales finies d
 
 C.Q.F.D.
 
-#### Remarque 3 {#evt-v-s4-n9-rem-3 .statement}
+#### Remarque 3 {#evt-v-s4-n9-rem-3 .statement tag=0828}
 
 Soient E et F deux espaces hilbertiens et v une application linéaire, non nécessairement continue, de E dans F. Posons H(x) = \|x\|^2 et Q(x) = \|v(x)\|^2 pour tout x \in E. Il résulte de la prop. 15 que v est de Hilbert-Schmidt si et seulement si Tr(Q/H) est fini, et l’on a alors Tr(Q/H) = \|v\|_2^2.
 
-#### Remarque 4 {#evt-v-s4-n9-rem-4 .statement}
+#### Remarque 4 {#evt-v-s4-n9-rem-4 .statement tag=0829}
 
 Supposons E de dimension finie. Lorsque la forme quadratique H est inversible, la prop. 15 s’applique. Soit (e_1, ..., e_n) une base de E. Posons q_{ij} = \langle e_i | e_j \rangle_Q et h_{ij} = \langle e_i | e_j \rangle_H et introduisons les matrices q = (q_{ij}) et h = (h_{ij}). Soit u l’endomorphisme de E tel que Q(x) = \langle x | u(x) \rangle_H pour tout x \in E. On a
 

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 03b39a721456e271107e0d9086bb2de9d08d3c895cacb3a061824f135a64498d
+content_sha256: 4b2862671c40a3fc1cb05df81090d6771163f08f45cf051ce5bd1dcd5e034483
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
 source_content_sha256: caf427efadeeaa02fdc011ad1cf3bb379a2d28c4a9395236614704236db30652
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -41,7 +41,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $E$ là một không gian vectơ hữu hạn chiều trên $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$. Khi đó $\mathrm{End}(E)$ là một đại số hữu hạn chiều trên $\mathbf{R}$, và tôpô chính tắc trên $\mathrm{End}(E)$ (§ 1, No. 10) là tôpô hội tụ compact. Nhóm $\mathrm{Aut}(E) = \mathbf{GL}(E)$ là một tập con mở của $\mathrm{End}(E)$, do đó là một nhóm địa phương compact. Cho $(e_1, e_2, \ldots, e_n)$ là một cơ sở của $E$ và, với mọi tự đồng cấu $u$ của $E$, cho $M(u) = (\alpha_{ij}(u))$ là ma trận của $u$ đối với cơ sở này; nói rằng một tập con $S$ của $\mathrm{End}(E)$ là tương đối compact trong $\mathrm{End}(E)$ tương đương với việc nói rằng các hàm $\alpha_{ij}(u)$ bị chặn trong $S$.
 
-#### Mệnh đề 1 {#int-vii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#int-vii-s3-prop-1 .statement tag=09GS}
 
 — *Cho G là một nhóm con của Aut(E)*. *Ba tính chất sau đây là tương đương*:
 
@@ -57,7 +57,7 @@ Cho $E$ là một không gian vectơ hữu hạn chiều trên $\mathbf{R}, \mat
 
 $^1$ Non dégénérée; trong EVT, thuật ngữ này được thay bằng séparante, sau đó được dịch là "phân tách" (TVS, V, § 1, No. 1).
 
-#### Bổ đề 1 {#int-vii-s3-lem-1 .statement}
+#### Bổ đề 1 {#int-vii-s3-lem-1 .statement tag=09GT}
 
 Cho F là một không gian Hilbert, K là một nhóm compact, và $s \mapsto U(s)$ là một biểu diễn của K trong nhóm các phần tử khả nghịch của $\mathscr{L}(F; F)$, liên tục đối với tôpô hội tụ từng điểm. Tồn tại một dạng Hermit dương không suy biến $\varphi$ trên F sao cho
 
@@ -96,7 +96,7 @@ $$
 
 Khi trường vô hướng là $\mathbf{H}$, ta lập luận hoàn toàn như trước bằng cách thay thế ở mọi nơi hàm $s \mapsto (U(s)x|U(s)y)$ bởi hàm $s \mapsto \Phi(sx, sy)$ xác định trên G, với các giá trị trong $\mathbf{H}$. Điều này hoàn thành chứng minh của mệnh đề.
 
-#### Nhận xét {#int-vii-s3-n1-rem-1 .statement}
+#### Nhận xét {#int-vii-s3-n1-rem-1 .statement tag=09GU}
 
 Cho $\Phi$ là một dạng Hermit dương không suy biến trên E. Nhóm unita $\mathbf{U}(\Phi)$ là đóng trong $\mathrm{Aut}(E)$, do đó là compact (Mệnh đề 1). Mệnh đề 1 cũng chỉ ra rằng mọi nhóm con compact của $\mathrm{Aut}(E)$ đều được chứa trong một nhóm con có dạng $\mathbf{U}(\Phi)$. Nếu bây giờ $\mathbf{U}(\Phi)$ được chứa trong một nhóm con compact K của $\mathrm{Aut}(E)$, ta thấy rằng tồn tại một dạng Hermit dương không suy biến $\Phi'$ trên E sao cho $\mathbf{U}(\Phi) \subset K \subset \mathbf{U}(\Phi')$, và dễ dàng suy ra
 
@@ -104,13 +104,13 @@ Cho $\Phi$ là một dạng Hermit dương không suy biến trên E. Nhóm unit
 
 ### 2. Tính tầm thường của các không gian sợi và của các mở rộng nhóm
 
-#### Mệnh đề 2 {#int-vii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#int-vii-s3-prop-2 .statement tag=09GV}
 
 *Cho X là một không gian compact địa phương trong đó một nhóm compact địa phương H tác động bên phải, liên tục và đúng, bởi $(x, \xi) \mapsto x\xi$. Giả sử rằng X/H là paracompact. Cho g là một biểu diễn liên tục của H trong $\mathbf{R}^n$. Khi đó tồn tại một ánh xạ liên tục f của X vào $\mathbf{R}^n$ sao cho $f(x\xi) = f(x) + g(\xi)$ với mọi $x \in X$ và $\xi \in H$.*
 
 Ta ngay lập tức quy về trường hợp $n = 1$. Vì nhóm cộng $\mathbf{R}$ đẳng cấu với nhóm nhân $\mathbf{R}_+^*$, mệnh đề khi đó là một hệ quả ngay lập tức của Mệnh đề 7 của §2, No. 4.
 
-#### Hệ quả {#int-vii-s3-n2-cor-1 .statement}
+#### Hệ quả {#int-vii-s3-n2-cor-1 .statement tag=09GW}
 
 *Cho X là một không gian compact địa phương trong đó một không gian vectơ thực hữu hạn chiều V tác động bên phải, liên tục và đúng, bởi $(x, v) \mapsto xv$. Cho $\pi$ là ánh xạ chính tắc của X lên $B = X/V$. Giả sử rằng B là paracompact.*
 
@@ -126,7 +126,7 @@ $$
 
 Vì các ánh xạ này liên tục, chúng là các đồng phôi.
 
-#### Nhận xét {#int-vii-s3-n2-rem-1 .statement}
+#### Nhận xét {#int-vii-s3-n2-rem-1 .statement tag=09GX}
 
 — Cho E là một không gian affine thực hữu hạn chiều, T là một không gian compact, $\mu$ là một độ đo trên T có *khối lượng toàn phần* 1, và f là một ánh xạ liên tục từ T vào E. Nếu một gốc a trong E được chọn, E trở thành được trang bị một cấu trúc không gian vectơ, và tích phân $\int_T f(t) d\mu(t)$ do đó có nghĩa; nó biểu diễn điểm x của E sao cho
 
@@ -151,7 +151,7 @@ $$
 
 Thật vậy, $\mathbf{E}$ và $\mathbf{E}'$ có thể được đồng nhất với các không gian vectơ theo cách sao cho $u$ trở thành một ánh xạ tuyến tính, trong trường hợp đó công thức đã biết (Ch. III, §3, No. 2, Mệnh đề 2 và No. 3, Mệnh đề 7).
 
-#### Bổ đề 2 {#int-vii-s3-lem-2 .statement}
+#### Bổ đề 2 {#int-vii-s3-lem-2 .statement tag=09GY}
 
 *Cho $G$ là một nhóm compact, $\mu$ là độ đo Haar chuẩn hóa của $G$, $\mathbf{E}$ là một không gian affine thực hữu hạn chiều, $A$ là nhóm affine của $\mathbf{E}$, và $\rho$ là một đồng cấu từ $G$ vào $A$. Giả sử rằng, với mọi $x \in \mathbf{E}$, ánh xạ $s \mapsto \rho(s)x$ từ $G$ vào $\mathbf{E}$ là liên tục. Khi đó, với mọi $x \in \mathbf{E}$, điểm*
 
@@ -167,7 +167,7 @@ $$
 \rho(t)x_0 = \int_G \rho(t)\rho(s)x\, d\mu(s) = \int_G \rho(ts)x\, d\mu(s) = \int_G \rho(s)x\, d\mu(s) = x_0.
 $$
 
-#### Mệnh đề 3 {#int-vii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#int-vii-s3-prop-3 .statement tag=09GZ}
 
 *Cho $G$ là một nhóm compact địa phương. Cho $H$ là một nhóm con chuẩn đóng của $G$, đẳng cấu với $\mathbf{R}^n$ và sao cho $G/H$ là compact.*
 
@@ -253,25 +253,25 @@ Ta thấy rằng ánh xạ $(g, h_1) \mapsto \psi_g(h_1)$ của $G \times H$ và
 
 Cho $L'$ là một nhóm con đóng của G chứa L. Khi đó $L'$ là tích nửa trực tiếp tôpô của L và $L' \cap H$. Nếu $L'$ compact, thì $L' \cap H$ compact nên thu về một điểm (GT, IV, §2, No. 2, Hệ quả 1 của Định lý 2), do đó $L' = L$. Điều này chứng minh rằng L là một nhóm con compact cực đại của G; do đó điều tương tự cũng đúng với các nhóm con là các ảnh của L qua các tự đẳng cấu nội của G. Các khẳng định c) và d) của Mệnh đề 3 khi đó là các hệ quả ngay lập tức của b).
 
-#### Mệnh đề 4 {#int-vii-s3-prop-4 .statement}
+#### Mệnh đề 4 {#int-vii-s3-prop-4 .statement tag=09H0}
 
 *Cho G là một nhóm compact địa phương và H là một nhóm con chuẩn đóng của G sao cho K = G/H là compact. Khi đó mọi biểu diễn liên tục u của H trong $\mathbf{R}$, sao cho $u(s\xi s^{-1}) = u(\xi)$ với mọi $\xi \in H$ và $s \in G$, có thể được mở rộng thành một biểu diễn liên tục của G trong $\mathbf{R}$.*
 
 Đặt $L = G \times \mathbf{R}$ và gọi M là tập hợp các $(\xi, -u(\xi))$, trong đó $\xi$ chạy trên H. Hiển nhiên M là một nhóm con chuẩn đóng của L. Đặt $L' = L/M$ và gọi $\pi$ là ánh xạ chính tắc của L lên $L'$. Nhóm con của L sinh bởi M và R là H × R, do đó là đóng; vì vậy π(R) là một nhóm con đóng N của L'. Hạn chế ρ của π lên R là một biểu diễn song ánh liên tục của R lên N. Bổ đề 2 của Phụ lục 1 chứng minh rằng ρ là song liên tục. Ngoài ra, $L'/N$ đẳng cấu với $L/(H \times R) = G/H$, nên là compact. Theo Mệnh đề 3, và xét đến sự kiện rằng N nằm trong tâm của L', L' là tích của N với một nhóm con khác. Do đó tồn tại một biểu diễn liên tục của L' lên N thu hẹp trên N thành ánh xạ đồng nhất. Vì vậy tồn tại một biểu diễn liên tục v của L vào R là tầm thường trên M và thu hẹp trên R thành ánh xạ đồng nhất. Với ξ ∈ H, ta có $v((\xi, 0)) = v((\xi, - u(\xi))(e, u(\xi))) = u(\xi)$, điều này hoàn tất chứng minh.
 
-#### Bổ đề 3 {#int-vii-s3-lem-3 .statement}
+#### Bổ đề 3 {#int-vii-s3-lem-3 .statement tag=09H1}
 
 Cho G là một nhóm tôpô được sinh bởi một lân cận compact của e. Cho H là một nhóm con đóng của G sao cho không gian thuần nhất G/H là compact. Khi đó H được sinh bởi một lân cận compact của e trong H.
 
 Cho C là một tập compact sao cho G = CH. Nếu cần, phóng đại C, ta có thể giả sử rằng C sinh ra G và rằng G = ĈH. Khi đó C^2 là compact và được phủ bởi các Ĉs (s ∈ H), là các tập mở. Vì vậy tồn tại $s_1, ..., s_n$ trong H sao cho $C^2 \subset \hat{C}s_1 \cup ... \cup \hat{C}s_n$. Gọi Γ là nhóm con của H sinh bởi các $s_i$. Khi đó $C^2 \subset C\Gamma$. Bằng quy nạp, suy ra rằng $C^n \subset C\Gamma$ với mọi n, do đó $G = C\Gamma$. Mọi phần tử của H có thể được viết dưới dạng ab với a ∈ C, b ∈ Γ, do đó a ∈ H, do đó $a \in C \cap H$. Vì vậy H được sinh bởi $C \cap H$ và các $s_i$, tức là bởi một tập compact.
 
-#### Bổ đề 4 {#int-vii-s3-lem-4 .statement}
+#### Bổ đề 4 {#int-vii-s3-lem-4 .statement tag=09H2}
 
 Cho G là một nhóm tôpô liên thông, D là một nhóm con chuẩn rời rạc của G. Khi đó D được chứa trong tâm của G.
 
 Thật vậy, cho d ∈ D. Ảnh của G qua ánh xạ liên tục $x \mapsto xdx^{-1}$ là một tập con liên thông của D, do đó thu về $\{d\}$, điều này chứng minh rằng xd = dx với mọi x ∈ G.
 
-#### Mệnh đề 5 {#int-vii-s3-prop-5 .statement}
+#### Mệnh đề 5 {#int-vii-s3-prop-5 .statement tag=09H3}
 
 Cho G là một nhóm tôpô liên thông thừa nhận một nhóm con chuẩn rời rạc D sao cho K = G/D là compact, và sao cho nhóm con giao hoán tử của K là trù mật trong K. Khi đó D là hữu hạn và G là compact.
 
@@ -283,7 +283,7 @@ Trong tiểu mục này (ngoại trừ các Ví dụ 7 và 8), $K$ ký hiệu m�
 
 Nhắc lại rằng $\operatorname{mod} x = |x|$ khi $K = \mathbf{R}$, $\operatorname{mod} x = |x|^2$ khi $K = \mathbf{C}$, $\operatorname{mod} x = |x|_p$ khi $K = \mathbf{Q}_p$.
 
-#### Ví dụ 1 {#int-vii-s3-n3-exa-1 .statement}
+#### Ví dụ 1 {#int-vii-s3-n3-exa-1 .statement tag=09H4}
 
 Nhóm tuyến tính tổng quát.
 
@@ -303,7 +303,7 @@ là một độ đo Haar trái và phải trên $\mathbf{GL}(n, K)$.
 
 Để xác định các độ đo bất biến tương đối trên $\mathbf{GL}(n, K)$, ta sẽ dựa vào bổ đề sau:
 
-#### Bổ đề 5 {#int-vii-s3-lem-5 .statement}
+#### Bổ đề 5 {#int-vii-s3-lem-5 .statement tag=09H5}
 
 Các biểu diễn liên tục của $\mathbf{GL}(n, K)$ trong $\mathbf{C}^*$ là các ánh xạ có dạng $X \mapsto \chi(\det X)$, trong đó $\chi$ là một biểu diễn liên tục của $K^*$ trong $\mathbf{C}^*$.
 
@@ -328,7 +328,7 @@ $$
 $$
 trong đó $\chi$ là một biểu diễn liên tục của $K^*$ trong $\mathbf{C}^*$.
 
-#### Ví dụ 2 {#int-vii-s3-n3-exa-2 .statement}
+#### Ví dụ 2 {#int-vii-s3-n3-exa-2 .statement tag=09H6}
 
 **Nhóm affine.**
 Với mọi $X \in \mathbf{GL}(n, K)$ và mọi $x \in K^n$, đặt $(X, x)$ là ánh xạ tuyến tính affine $\xi \mapsto X\xi + x$ trong $K^n$. Tập hợp các $(X, x)$ là nhóm affine $G$ của $K^n$ (A, II, §9, No. 4). Tập hợp $T$ các phép tịnh tiến là một nhóm con chuẩn đóng của $G$, đẳng cấu chính tắc với $K^n$; mặt khác, $\mathbf{GL}(n, K)$ là một nhóm con đóng của $G$, và $G$ là tích nửa trực tiếp của $\mathbf{GL}(n, K)$ và $T = K^n$. Trang bị cho $G$ tôpô (địa phương compact) sao cho $G$ là tích nửa trực tiếp tôpô của $\mathbf{GL}(n, K)$ và $T$ (GT, III, §2, No. 10). Ta có
@@ -358,7 +358,7 @@ $$
 (\mod \det X)^{-n} \cdot \left( \bigotimes_{ij} dx_{ij} \right) \otimes \left( \bigotimes_i dx_i \right).
 $$
 
-#### Ví dụ 3 {#int-vii-s3-n3-exa-3 .statement}
+#### Ví dụ 3 {#int-vii-s3-n3-exa-3 .statement tag=09H7}
 
 **Nhóm tam giác ngặt.**
 
@@ -377,7 +377,7 @@ $$
 
 do đó $Z'Z \in T_J$. Nếu $T_J$ được đồng nhất với $K^s$, thì ánh xạ $Z \mapsto Z'Z$ (với $Z'$ cố định) được đồng nhất với một ánh xạ affine, và định thức của nó là 1, như thấy được bằng cách sắp thứ tự các cặp $(i, j) \in J$ theo thứ tự từ điển và áp dụng bổ đề sau:
 
-#### Bổ đề 6 {#int-vii-s3-lem-6 .statement}
+#### Bổ đề 6 {#int-vii-s3-lem-6 .statement tag=09H8}
 
 **Cho $L$ là một tập hợp hữu hạn được sắp thứ tự toàn phần. Với mỗi $\lambda \in L$, cho $V_\lambda$ là một môđun tự do có số chiều hữu hạn trên một vành giao hoán $k$; với $\lambda, \mu$ trong $L$ sao cho $\lambda \leq \mu$, cho $f_{\lambda \mu} \in \mathrm{Hom}_k(V_\mu, V_\lambda)$. Khi đó ánh xạ tuyến tính
 $$
@@ -399,7 +399,7 @@ Có một kết quả tương tự nếu, trong định nghĩa của $T_J$, vai 
 
 Khi $J$ là tập hợp các cặp $(i, j)$ sao cho $i < j$, nhóm $T_J$ được gọi là nhóm tam giác ngặt trên cấp $n$ trên $K$, và được ký hiệu là $T_1(n, K)$. Chuyển vị của nó được gọi là nhóm tam giác ngặt dưới.
 
-#### Ví dụ 4 {#int-vii-s3-n3-exa-4 .statement}
+#### Ví dụ 4 {#int-vii-s3-n3-exa-4 .statement tag=09H9}
 
 — *Nhóm tam giác lớn.*
 
@@ -548,7 +548,7 @@ $$
 \prod_{i=1}^n (\operatorname{mod} z_{ii})^{n+1-2i}.
 $$
 
-#### Nhận xét {#int-vii-s3-n3-rem-1 .statement}
+#### Nhận xét {#int-vii-s3-n3-rem-1 .statement tag=09HA}
 
 Nhóm $T(n, K)^*$ là một nhóm con đóng của $\mathbf{GL}(n, K)$, và $\Delta_{T(n, K)^*}((z_{ij})) = \prod_{i=1}^n (\operatorname{mod} z_{ii})^{2i-n-1}$. Ta đã thấy trong Ví dụ 1 rằng $\Delta_{\mathbf{GL}(n, K)} = 1$. Nếu $n > 1$, hàm
 $$
@@ -558,7 +558,7 @@ trên $T(n, K)^*$ không thể được mở rộng thành một biểu diễn l
 
 Không gian thuần nhất này có thể được đồng nhất, với $n = 2$, với *đường xạ ảnh* trên $K$. Thật vậy, cho $(e_1, e_2)$ là cơ sở chính tắc của $K^2$. Nhóm $\mathbf{GL}(2, K)$ tác động bắc cầu trên tập hợp các đường của $K^2$ với 0 bị loại bỏ, và nhóm ổn định của $Ke_1 - \{0\}$ là $T(2, K)^*$.
 
-#### Ví dụ 5 {#int-vii-s3-n3-exa-5 .statement}
+#### Ví dụ 5 {#int-vii-s3-n3-exa-5 .statement tag=09HB}
 
 — *Nhóm tam giác đặc biệt.*
 Ta xét lại các ký hiệu ở đầu Ví dụ 4, và xét nhóm con $G_1 = G \cap \mathbf{SL}(n, K)$. Nhóm con này là tích nửa trực tiếp tôpô của nhóm $D_1 = D \cap \mathbf{SL}(n, K)$ với $T_J$. Nhóm $D_1$ có một nhóm con chuẩn $A$ đẳng cấu với $\mathbf{SL}(n_r, K)$, cụ thể là nhóm con gồm các phần tử $\operatorname{diag}(Z_{kk})$ với $Z_{kk} = 1$ khi $k < r$. Đồng cấu
@@ -607,12 +607,12 @@ $$
 \operatorname{mod} \left( \prod_{i=1}^{n-1} z_{ii}^{2n-2i} \right).
 $$
 
-#### Ví dụ 6 {#int-vii-s3-n3-exa-6 .statement}
+#### Ví dụ 6 {#int-vii-s3-n3-exa-6 .statement tag=09HC}
 
 — *Nhóm tuyến tính đặc biệt.*
 Các nhóm con đóng $T_1(n, K)$ và ${}^t(T(n, K)^*)$ của $\mathbf{GL}(n, K)$ có giao $\{e\}$. Do đó ánh xạ $(M, N) \mapsto M \cdot N$ là một song ánh liên tục $\varphi$ của $T_1(n, K) \times {}^t(T(n, K)^*)$ lên một tập con $\Omega$ của $\mathbf{GL}(n, K)$.
 
-#### Bổ đề 7 {#int-vii-s3-lem-7 .statement}
+#### Bổ đề 7 {#int-vii-s3-lem-7 .statement tag=09HD}
 
 — a) *Cho $U = (u_{ij}) \in \mathbf{GL}(n, K)$. Để $U \in \Omega$, điều kiện cần và đủ là $\det(u_{ij})_{k \leq i, j \leq n} \neq 0$ với $k = 2, 3, \ldots, n$ là đúng.*
 b) $\Omega$ *là một tập con mở của $\mathbf{GL}(n, K)$*.
@@ -642,7 +642,7 @@ với $i = 1, 2, \ldots, n-1$. Điều này chứng minh a). Từ đó suy ra r�
 
 Bây giờ cho $G'_1 \subset {}^t(T(n, K)^*)$ là nhóm tam giác đặc biệt dưới. Ánh xạ $(M, N) \mapsto M \cdot N$ là một song ánh liên tục $\psi$ của $T_1(n, K) \times G'_1$ lên một tập con $\Omega'$ của $\mathbf{SL}(n, K)$.
 
-#### Bổ đề 8 {#int-vii-s3-lem-8 .statement}
+#### Bổ đề 8 {#int-vii-s3-lem-8 .statement tag=09HE}
 
 **a)** *Cho $U = (u_{ij}) \in \mathbf{SL}(n, K)$. Để $U \in \Omega'$, điều kiện cần và đủ là $\det(u_{ij})_{k \leq i, j \leq n} \neq 0$ với $k = 2, 3, \ldots, n$.*
 
@@ -652,7 +652,7 @@ c) *Ánh xạ $\psi$ là một đồng phôi của $T_1(n, K) \times G'_1$ lên 
 
 Vì, cho $M \in T_1(n, K)$ và $N \in {}^t(T(n, K)^*)$. Để $M \cdot N \in \mathbf{SL}(n, K)$, điều kiện cần và đủ là $N \in G'_1$. Do đó $\Omega' = \mathbf{SL}(n, K) \cap \Omega$ và Bổ đề 8 suy ra ngay từ Bổ đề 7.
 
-#### Mệnh đề 6 {#int-vii-s3-prop-6 .statement}
+#### Mệnh đề 6 {#int-vii-s3-prop-6 .statement tag=09HF}
 
 **a)** *Nhóm $\mathbf{SL}(n, K)$ là đơn môđula.*
 
@@ -662,7 +662,7 @@ c) *Phần bù của $\Omega'$ trong $\mathbf{SL}(n, K)$ là không đáng kể 
 
 Nhóm $\mathbf{GL}(n, K)$ là đơn môđula (Ví dụ 1), và $\mathbf{SL}(n, K)$ là một nhóm con chuẩn tắc của $\mathbf{GL}(n, K)$, do đó là đơn môđula (§ 2, No. 7, Mệnh đề 10 b)). Mệnh đề b) suy ra từ a), Bổ đề 8, và Mệnh đề 13 của § 2, No. 9. Ta chứng minh c). Theo Bổ đề 8 a), chỉ cần chứng minh điều sau: nếu $p((u_{ij})_{1 \leq i,j \leq n})$ là một đa thức, không đồng nhất bằng không trên $\mathbf{SL}(n, K)$, thì tập hợp E của các $U \in \mathbf{SL}(n, K)$ sao cho $p(U) = 0$ là không đáng kể đối với độ đo Haar. Xét § 1, No. 10, Hệ quả của Mệnh đề 13, tôpô của $\mathbf{SL}(n, K)$ có một cơ sở đếm được. Vì vậy chỉ cần chứng minh rằng với mọi $U_0 \in E$, tồn tại một lân cận của $U_0$ trong $\mathbf{SL}(n, K)$ mà giao của nó với E là không đáng kể; hay tương đương là tồn tại một lân cận W của I trong $\mathbf{SL}(n, K)$ sao cho $U_0^{-1}E \cap W$ là không đáng kể. Ta lấy $W = \Omega'$. Theo b), mọi thứ quy về việc chỉ ra rằng tập hợp các cặp $(M, N) \in T_1(n, K) \times G'_1$ sao cho $p(U_0 MN) = 0$ là không đáng kể đối với $\mu_1 \otimes \mu_2$. Theo các biểu thức của $\mu_1$ và $\mu_2$ (được tính trong các Ví dụ 3 và 5), điều này suy ra từ bổ đề sau:
 
-#### Bổ đề 9 {#int-vii-s3-lem-9 .statement}
+#### Bổ đề 9 {#int-vii-s3-lem-9 .statement tag=09HG}
 
 *Cho $\psi$ là một đa thức $\neq 0$ của $K[X_1, \ldots, X_r]$. Trong không gian $K^r$, tập hợp N được xác định bởi $\psi(x_1, \ldots, x_r) = 0$ là không đáng kể đối với độ đo Haar.*
 
@@ -674,13 +674,13 @@ $$
 
 với $m > 0$ và $\psi_0 \neq 0$. Trong không gian $K^{r-1}$, gọi $N_0$ là tập hợp được xác định bởi $\psi_0(x_1, \ldots, x_{r-1}) = 0$, là không đáng kể theo giả thiết quy nạp. Với mọi $(x_1, \ldots, x_{r-1}) \notin N_0$, tập hợp các $x_r \in K$ sao cho $(x_1, \ldots, x_{r-1}, x_r) \in N$ là hữu hạn, do đó là không đáng kể. Vì $K^r$ là đếm được tại vô cực (§ 1, No. 10, Hệ quả của Mệnh đề 13), $N \cap [(K^{r-1} - N_0) \times K]$ là không đáng kể trong $K^r$ (Ch. V, § 8, No. 2, Mệnh đề 4). Do đó N là không đáng kể.
 
-#### Ví dụ 7 {#int-vii-s3-n3-exa-7 .statement}
+#### Ví dụ 7 {#int-vii-s3-n3-exa-7 .statement tag=09HH}
 
 *Phân tích Iwasawa của $\mathbf{GL}(n, K)$.*
 
 Trong ví dụ này, K ký hiệu một trong các trường $\mathbf{R}, \mathbf{C}, \mathbf{H}$. Nếu $\lambda \in K$, $\overline{\lambda}$ được định nghĩa là bằng $\lambda$ nếu $K = \mathbf{R}$, và là liên hợp của $\lambda$ nếu $K = \mathbf{C}$ hoặc $\mathbf{H}$. Cho E là một không gian vectơ phải trên K có chiều $n$, và cho $\Phi$ là một dạng Hermit dương không suy biến trên E.
 
-#### Bổ đề 10 {#int-vii-s3-lem-10 .statement}
+#### Bổ đề 10 {#int-vii-s3-lem-10 .statement tag=09HI}
 
 *Cho $(f_1, f_2, \ldots, f_n)$ là một cơ sở của E.*
 a) *Tồn tại duy nhất một cơ sở trực chuẩn $(e_1, e_2, \ldots, e_n)$ của E sao cho $f_i = e_1 \alpha_{i1} + e_2 \alpha_{i2} + \cdots + e_i \alpha_{ii}$ ($i = 1, 2, \ldots, n$) với $\alpha_{ii} > 0$ với mọi $i$.
@@ -720,7 +720,7 @@ $$
 
 Nhắc lại rằng $\mathbf{U}(n, \mathbf{K})$ ký hiệu nhóm unita tương ứng. Ngay cả khi $\mathbf{K}$ không giao hoán, ta vẫn ký hiệu bởi $\mathbf{T}_1(n, \mathbf{K})$ nhóm các ma trận tam giác trên của $\mathbf{M}_n(\mathbf{K})$ có tất cả các phần tử đường chéo bằng 1.
 
-#### Mệnh đề 7 {#int-vii-s3-prop-7 .statement}
+#### Mệnh đề 7 {#int-vii-s3-prop-7 .statement tag=09HJ}
 
 *Cho $D_+^*$ là nhóm các ma trận đường chéo có các phần tử đường chéo $> 0$. Ánh xạ $(U, D, T) \mapsto UDT$ là một phép đồng phôi từ $\mathbf{U}(n, \mathbf{K}) \times D_+^* \times \mathbf{T}_1(n, \mathbf{K})$ lên $\mathbf{GL}(n, \mathbf{K})$.*
 
@@ -765,7 +765,7 @@ $$
 
 trong đó $\alpha$ biểu thị một độ đo Haar trên $\mathbf{U}(n, K)$.
 
-#### Ví dụ 8 {#int-vii-s3-n3-exa-8 .statement}
+#### Ví dụ 8 {#int-vii-s3-n3-exa-8 .statement tag=09HK}
 
 Không gian các dạng Hermit.
 

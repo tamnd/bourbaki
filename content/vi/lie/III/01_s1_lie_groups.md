@@ -56,9 +56,9 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: 7922ebc0e8dd985a9bd3ea6930cab18b47540b0c82bf6a52548de065886ddd2b
+content_sha256: 403332118b37bab7f7c215fd7ad0602715ab59d4be214bcf177cd4412452f4ee
 translated_from: content/en/lie/III/01_s1_lie_groups.md
-source_content_sha256: daff3230df35a1d3795f1c3aa51cd9719e5f2ee8ea1fdee0d10ab6220950dbdb
+source_content_sha256: c28e00b85f74025ecd9db6adb574f2c95ce70e7ad72db45eba1ee38c85b62c4a
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-6a201bc1
 glossary_version: 34
@@ -73,7 +73,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 Cho G là một tập hợp. Một cấu trúc nhóm và một cấu trúc đa tạp K giải tích trên G được gọi là tương thích nếu điều kiện sau đây được thỏa mãn:
 (GL) Ánh xạ $(g, h) \mapsto gh^{-1}$ của $G \times G$ vào G là giải tích.
 
-#### Định nghĩa 1 {#lie-iii-s1-def-1 .statement}
+#### Định nghĩa 1 {#lie-iii-s1-def-1 .statement tag=0A76}
 
 *Một nhóm Lie trên K là một tập hợp G cùng với một cấu trúc nhóm và một cấu trúc đa tạp K giải tích sao cho hai cấu trúc này tương thích.*
 
@@ -93,7 +93,7 @@ Cho G là một nhóm Lie. Với mọi $g \in G$, $\gamma(g)$ và $\delta(g)$ l�
 
 Vì một ánh xạ giải tích là liên tục, một nhóm Lie là một nhóm tôpô với tôpô cơ sở của cấu trúc đa tạp của nó. Cho G là một tập hợp. Một cấu trúc nhóm tôpô và một cấu trúc đa tạp K giải tích trên G được gọi là *tương thích* nếu cấu trúc nhóm và cấu trúc đa tạp tương thích và tôpô trên G là tôpô cơ sở của cấu trúc đa tạp.
 
-#### Bổ đề 1 {#lie-iii-s1-lem-1 .statement}
+#### Bổ đề 1 {#lie-iii-s1-lem-1 .statement tag=0A77}
 
 *Cho G là một nhóm Lie, U là một lân cận mở của e, E là một không gian định chuẩn đầy đủ và $\phi : U \to E$ là một bản đồ của đa tạp G. Tồn tại một lân cận W của e được chứa trong U sao cho $\phi | W$ là một đẳng cấu của W (với cấu trúc đều phải) lên $\phi(W)$ (với cấu trúc đều cảm sinh bởi cấu trúc đều trên E).*
 
@@ -125,13 +125,13 @@ $$
 
 và do đó $W$ có tính chất của bổ đề.
 
-#### Mệnh đề 1 {#lie-iii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iii-s1-prop-1 .statement tag=0A78}
 
 *Một nhóm Lie là một nhóm tôpô đầy đủ mêtric hóa được.*
 
 Vì $e$ có một lân cận mở đồng phôi với một quả cầu mở của một không gian định chuẩn, nên $e$ có một hệ cơ bản đếm được các lân cận có giao là $\{e\}$. Do đó $G$ là mêtric hóa được (*General Topology*, Chương III, § 1, Hệ quả của Mệnh đề 2 và Chương IX, § 3, Mệnh đề 1). Theo Bổ đề 1, tồn tại một lân cận của $e$ đầy đủ đối với cấu trúc đồng đều phải và do đó $G$ là đầy đủ (*General Topology*, Chương III, § 3, Mệnh đề 4).
 
-#### Mệnh đề 2 {#lie-iii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iii-s1-prop-2 .statement tag=0A79}
 
 *Cho $G$ là một nhóm Lie.*
 (i) *Nếu $K = \mathbf{R}$ hoặc $\mathbf{C}$, $G$ là liên thông địa phương.*
@@ -147,11 +147,11 @@ $$
 
 nếu tồn tại một dãy trù mật trong $V$, ta thấy rằng tồn tại một dãy trù mật trong G và, vì G mêtric hóa được (Mệnh đề 1), tôpô trên G thừa nhận một cơ sở đếm được.
 
-#### Hệ quả {#lie-iii-s1-n1-cor-1 .statement}
+#### Hệ quả {#lie-iii-s1-n1-cor-1 .statement tag=0A7A}
 
 Nếu K = R hoặc C và G liên thông và hữu hạn chiều, thì G liên thông địa phương và compact địa phương và tôpô của nó thừa nhận một cơ sở đếm được.
 
-#### Bổ đề 2 {#lie-iii-s1-lem-2 .statement}
+#### Bổ đề 2 {#lie-iii-s1-lem-2 .statement tag=0A7B}
 
 Cho X là một đa tạp thuộc lớp C^r, e là một điểm của X, U và V là các lân cận mở của e và m là một ánh xạ thuộc lớp C^r từ U × U vào X thỏa mãn các điều kiện sau:
 (a) m(e, x) = m(x, e) = x với mọi x ∈ U;
@@ -176,7 +176,7 @@ $$
 
 và do đó θ(x) ∈ W. Ta thấy rằng θ | W xác định một tự đẳng cấu của đa tạp W.
 
-#### Mệnh đề 3 {#lie-iii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iii-s1-prop-3 .statement tag=0A7C}
 
 Cho X là một đa tạp giải tích và m là một luật hợp thành kết hợp giải tích trên X thừa nhận một phần tử đơn vị. Tập hợp G các phần tử khả nghịch của X là mở trong X và G là một nhóm Lie với m | (G × G) và cấu trúc đa tạp cảm sinh bởi cấu trúc trên X.
 
@@ -198,13 +198,13 @@ Ví dụ, cho E là một không gian định chuẩn đầy đủ trên K và c
 
 ### 2. CÁC CẤU XẠ CỦA NHÓM LIE
 
-#### Định nghĩa 2 {#lie-iii-s1-def-2 .statement}
+#### Định nghĩa 2 {#lie-iii-s1-def-2 .statement tag=0A7D}
 
 *Cho G và H là các nhóm Lie. Một cấu xạ nhóm Lie từ G vào H (hoặc đơn giản là một cấu xạ từ G vào H nếu không thể có nhầm lẫn) là một ánh xạ từ G vào H là một đồng cấu nhóm và là giải tích. Nhóm tự đẳng cấu của G được ký hiệu bởi $\operatorname{Aut}(G)$.*.
 
 Ánh xạ đồng nhất của G là một cấu xạ. Hợp thành của hai cấu xạ là một cấu xạ. Nếu $f : G \to H$ và $f' : H \to G$ là hai cấu xạ nghịch đảo, $f$ và $f'$ là các đẳng cấu nhóm Lie.
 
-#### Ví dụ {#lie-iii-s1-n2-exa-1 .statement}
+#### Ví dụ {#lie-iii-s1-n2-exa-1 .statement tag=0A7E}
 
 (1) Cho G là một nhóm Lie. Với mọi $x \in G$, $\operatorname{Int}(x)$ là một tự đẳng cấu của nhóm Lie G.
 
@@ -220,13 +220,13 @@ Cho G là một nhóm Lie thực, E là một không gian chuẩn hóa đầy đ
 
 (4) Cho G là một nhóm Lie thực và E là một không gian chuẩn hóa đầy đủ phức. Một biểu diễn tuyến tính giải tích của G trên E là một cấu xạ từ G vào nhóm Lie thực nền của $\mathbf{GL}(E)$.
 
-#### Mệnh đề 4 {#lie-iii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#lie-iii-s1-prop-4 .statement tag=0A7F}
 
 Cho G và H là các nhóm Lie và f là một đồng cấu của nhóm G vào nhóm H. Để f là giải tích, điều kiện cần và đủ là tồn tại một tập con mở khác rỗng U của G sao cho $f|_U$ là giải tích.
 
 Điều kiện hiển nhiên là cần. Giả sử điều kiện đó đúng. Với mọi $x_0 \in G$, $f(x_0x) = f(x_0)f(x)$ với mọi $x \in U$ và do đó $f|_{x_0U}$ là giải tích. Nhưng các tập hợp $x_0U$, với $x_0 \in G$, tạo thành một phủ mở của G.
 
-#### Nhận xét {#lie-iii-s1-n2-rem-1 .statement}
+#### Nhận xét {#lie-iii-s1-n2-rem-1 .statement tag=0A7G}
 
 Nếu f là một phép nhúng tại e (tương ứng, một phép toàn ánh dưới tại e), thì rõ ràng f là một phép nhúng (tương ứng, một phép toàn ánh dưới).
 
@@ -234,13 +234,13 @@ Nếu f là một phép nhúng tại e (tương ứng, một phép toàn ánh d�
 
 Cho G là một nhóm Lie và H là một nhóm con của G đồng thời là một đa tạp con của G. Khi đó ánh xạ $(x, y) \mapsto xy^{-1}$ từ $H \times H$ vào G là giải tích và do đó ánh xạ $(x, y) \mapsto xy^{-1}$ từ $H \times H$ vào H là giải tích. (Các đa tạp khả vi và giải tích, R, 5.8.5). Vì vậy H, với các cấu trúc nhóm và đa tạp cảm sinh bởi các cấu trúc trên G, là một nhóm Lie.
 
-#### Định nghĩa 3 {#lie-iii-s1-def-3 .statement}
+#### Định nghĩa 3 {#lie-iii-s1-def-3 .statement tag=0A7H}
 
 Cho G là một nhóm Lie. Một tập con H của G được gọi là một nhóm con Lie nếu H là một nhóm con và là một đa tạp con của G.
 
 Một nhóm con mở của G là một nhóm con Lie của G. Đặc biệt, nếu G là một nhóm Lie thực hoặc phức, thành phần đồng nhất của nó là một nhóm con Lie của G.
 
-#### Mệnh đề 5 {#lie-iii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#lie-iii-s1-prop-5 .statement tag=0A7I}
 
 Cho G là một nhóm Lie và H là một nhóm con Lie của G.
 (i) H là đóng trong G.
@@ -249,7 +249,7 @@ Cho G là một nhóm Lie và H là một nhóm con Lie của G.
 
 Theo Các đa tạp khả vi và giải tích, R, 5.8.3, H là đóng địa phương. Do đó H là đóng (Tôpô đại cương, Chương III, § 2, Mệnh đề 4). Mệnh đề (ii) là hiển nhiên. Mệnh đề (iii) suy ra từ Các đa tạp khả vi và giải tích, R, 5.8.5.
 
-#### Mệnh đề 6 {#lie-iii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#lie-iii-s1-prop-6 .statement tag=0A7J}
 
 Cho G là một nhóm Lie và H là một nhóm con của G. Để H là một nhóm con Lie của G, điều kiện cần và đủ là tồn tại một điểm h ∈ H và một lân cận mở U của h trong G sao cho H ∩ U là một đa tạp con của G.
 
@@ -259,7 +259,7 @@ Cho G là một nhóm Lie và H là một nhóm con Lie của G. Nếu L là m�
 
 Cho k là một trường con đóng không rời rạc của K. Một nhóm con Lie k của G là một nhóm con Lie của nhóm Lie k nền của G.
 
-#### Nhận xét {#lie-iii-s1-n3-rem-1 .statement}
+#### Nhận xét {#lie-iii-s1-n3-rem-1 .statement tag=0A7K}
 
 Nếu thay thế "đa tạp con" bằng "đa tạp con giả" trong Định nghĩa 3, ta thu được định nghĩa của các nhóm con giả Lie của G. (Đối với G hữu hạn chiều, các nhóm con giả Lie chỉ là các nhóm con Lie.) Giả sử rằng K có đặc số 0. Mệnh đề 5 vẫn đúng với cùng chứng minh cho các nhóm con giả Lie. Mệnh đề 6 vẫn đúng với cùng chứng minh, thay thế "nhóm con Lie" bằng "nhóm con giả Lie" và "đa tạp con" bằng "đa tạp con giả".
 
@@ -269,7 +269,7 @@ Cho I là một tập hợp hữu hạn và (L_i)_{i \in I} là một họ các 
 
 Cho L và M là các nhóm Lie và σ là một đồng cấu từ L vào nhóm tự đẳng cấu của nhóm M. Cho S là tích nửa trực tiếp ngoài của L bởi M tương ứng với σ (Đại số, Chương I, § 6, no. 1, Định nghĩa 2).
 
-#### Mệnh đề 7 {#lie-iii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#lie-iii-s1-prop-7 .statement tag=0A7L}
 
 *Nếu ánh xạ* $(m, l) \mapsto \sigma(l)m$ *của* $M \times L$ *vào* $M$ *là giải tích, nhóm* $S$, *với cấu trúc đa tạp tích của* $M$ *và* $L$, *là một nhóm Lie*.
 
@@ -288,11 +288,11 @@ Rõ ràng đơn ánh chính tắc của $L$ (tương ứng $M$) vào $S$ là m�
 
 Ngược lại, cho $G$ là một nhóm Lie và $L$, $M$ là hai nhóm con Lie sao cho nhóm $G$ là tích nửa trực tiếp (Đại số) của $L$ bởi $M$ (*Đại số*, Chương I, § 6, no. 1). Ta viết $\sigma(l)m = lml^{-1}$ với $l \in L$ và $m \in M$. Khi đó $\sigma$ thỏa mãn các điều kiện của Mệnh đề 7. Do đó ta có thể tạo thành nhóm Lie tích nửa trực tiếp $S$ của $L$ bởi $M$ ứng với $\sigma$. Ánh xạ $j: (m, l) \mapsto ml$ từ $S$ lên $G$ là một đẳng cấu nhóm và là giải tích. Nếu $j$ là một đẳng cấu nhóm Lie, *nhóm Lie* $G$ *được gọi là* (*nội*) *tích nửa trực tiếp của* $L$ *bởi* $M$ *và* $S$ *và* $G$ *được đồng nhất*. Với mọi $g \in G$, ta viết $g = p(g)q(g)$, trong đó $p(g) \in M$ và $q(g) \in L$. Để nhóm Lie $G$ là tích nửa trực tiếp của $L$ bởi $M$, điều kiện cần và đủ là một trong các ánh xạ $p: G \to M$ và $q: G \to L$ là giải tích, trong trường hợp đó cả hai đều là giải tích; hoặc tương đương, điều kiện cần và đủ là $T_e(G)$ là tổng trực tiếp tôpô của $T_e(M)$ và $T_e(L)$ (vì, nếu điều kiện này được thỏa mãn, $j$ là étale tại $e_S$).
 
-#### Ví dụ {#lie-iii-s1-n4-exa-1 .statement}
+#### Ví dụ {#lie-iii-s1-n4-exa-1 .statement tag=0A7M}
 
 Cho $E$ là một không gian chuẩn hóa được, $G = \mathbf{GL}(E)$, $T$ là nhóm chuyển của $E$ và $A$ là nhóm hoán vị của $E$ sinh bởi $G$ và $T$. Nhóm $A$ về mặt đại số là tích nửa trực tiếp của $G$ bởi $T$. (Nếu $E$ là hữu hạn chiều, $A$ là nhóm affine của $E$, xem *Đại số*, Chương II, § 9, no. 4). Gọi $\sigma$ là biểu diễn tuyến tính đồng nhất của $G$ trên $E$ và $S$ là tích nửa trực tiếp ngoài của $G$ bởi $E$ đối với $\sigma$. Với mọi $x \in E$, gọi $t_x$ là phép chuyển của $E$ được xác định bởi $x$. Ánh xạ $(x, u) \mapsto t_x \circ u$ là đẳng cấu $\Phi$ của nhóm $S$ lên nhóm $A$. Ánh xạ $(x, u) \mapsto \sigma(u)x = u(x)$ từ $E \times \mathscr{L}(E)$ vào $E$ là liên tục và song tuyến tính, do đó giải tích; hạn chế của nó trên $E \times G$ vì thế là giải tích. Như vậy nhóm $S$, với cấu trúc đa tạp tích của $E$ và $G$, là một nhóm Lie. Ta chuyển cấu trúc này sang $A$ bằng $\Phi$. Khi đó $A$ trở thành một nhóm Lie, là tích nửa trực tiếp trong của $G$ bởi $T$ như một nhóm Lie.
 
-#### Mệnh đề 8 {#lie-iii-s1-prop-8 .statement}
+#### Mệnh đề 8 {#lie-iii-s1-prop-8 .statement tag=0A7N}
 
 *Cho* $G$ *và* $H$ *là các nhóm Lie, $p: G \to H$ *và* $s: H \to G$ *là các đồng cấu nhóm Lie sao cho* $p \circ s = \mathrm{id}_H$ *và* $N = \mathrm{Ker}\ p$. *Khi đó* $N$ *là một nhóm con Lie của* $G$, *s là một đẳng cấu của* $H$ *lên một nhóm con Lie của* $G$ *và nhóm Lie* $G$ *là tích nửa trực tiếp trong của* $s(H)$ *bởi* $N$.
 
@@ -315,7 +315,7 @@ $$
 T_g(\rho(x)) = T_x(\tau(g)) \circ T_e(\rho(x)) \circ T_g(\gamma(g^{-1}))
 $$
 
-#### Mệnh đề 9 {#lie-iii-s1-prop-9 .statement}
+#### Mệnh đề 9 {#lie-iii-s1-prop-9 .statement tag=0A7O}
 
 *Cho $x \in X$ và $g_0 \in G$.*
 
@@ -325,7 +325,7 @@ $$
 
 Điều này suy ra ngay lập tức từ các công thức (4) và (5) vì $T_g(\delta(g)), T_x(\tau(g))$ và $T_g(\gamma(g^{-1}))$ là các đẳng cấu.
 
-#### Hệ quả {#lie-iii-s1-n5-cor-1 .statement}
+#### Hệ quả {#lie-iii-s1-n5-cor-1 .statement tag=0A7P}
 
 *Cho $x \in X$. Nếu K có đặc số 0 và X hữu hạn chiều, thì $\rho(x)$ là một phép bán nhúng. Nếu hơn nữa $\rho(x)$ là đơn ánh, thì $\rho(x)$ là một phép nhúng.*
 
@@ -343,7 +343,7 @@ $$
 T_{(g, x)}(\eta)(u, v) = T_g(\rho(x))u + T_x(\tau(g))v.
 $$
 
-#### Mệnh đề 10 {#lie-iii-s1-prop-10 .statement}
+#### Mệnh đề 10 {#lie-iii-s1-prop-10 .statement tag=0A7Q}
 
 *Cho G là một nhóm Lie và X là một đa tạp lớp $C^r$ có một luật tác động trái lớp $C^r$ của G trên X. Giả sử rằng:*
 
@@ -383,7 +383,7 @@ $$
 
 và do đó song ánh ngược của $\phi$ thuộc lớp $C^r$. Rõ ràng $\phi(gg', w) = g\phi(g', w)$ với $w \in W,\ g \in G,\ g' \in G$. Vậy $(X, G, X/G, \pi)$ là một phân thớ chính trái.
 
-#### Nhận xét {#lie-iii-s1-n5-rem-1 .statement}
+#### Nhận xét {#lie-iii-s1-n5-rem-1 .statement tag=0A7R}
 
 Với các giả thiết trên, giả sử thêm rằng $H$ là một đa tạp lớp $C^r$ và $(x, h) \mapsto m(x, h)$ là một ánh xạ lớp $C^r$ từ $X \times H$ vào $X$ sao cho $m(gx, h) = gm(x, h)$ với $x \in X,\ g \in G,\ h \in H$. Gọi $n$ là ánh xạ từ $(X/G) \times H$ vào $X/G$ dẫn xuất từ $m$ bằng cách lấy thương. Ta chứng minh rằng $n$ *thuộc lớp* $C^r$. Xét biểu đồ
 
@@ -417,7 +417,7 @@ Mặt khác, nếu $\eta$ ký hiệu ánh xạ $(g, x) \mapsto xg$ từ $G \time
 
 ### 6. CÁC KHÔNG GIAN THUẦN NHẤT VÀ CÁC NHÓM THƯƠNG
 
-#### Mệnh đề 11 {#lie-iii-s1-prop-11 .statement}
+#### Mệnh đề 11 {#lie-iii-s1-prop-11 .statement tag=0A7S}
 
 *Cho $X$ là một nhóm Lie và $G$ là một nhóm con Lie của $X$.*
 
@@ -437,7 +437,7 @@ Giả sử rằng $G$ là chuẩn tắc. Gọi $m$ là ánh xạ $(x, y) \mapsto
 
 Tập hợp thuần nhất $X/G$ với cấu trúc đa tạp được xác định trong (i) được gọi là không gian thuần nhất Lie thương (trái) của $X$ theo $G$. Không gian thuần nhất Lie (phải) $G \setminus X$ được xác định tương tự. Khi $G$ là chuẩn tắc, nhóm Lie $X/G$ được xác định trong (ii) được gọi là nhóm Lie thương của $X$ theo $G$.
 
-#### Mệnh đề 12 {#lie-iii-s1-prop-12 .statement}
+#### Mệnh đề 12 {#lie-iii-s1-prop-12 .statement tag=0A7T}
 
 Cho $X$ là một nhóm Lie và $Y$ là một đa tạp giải tích khác rỗng với một luật phép toán trái giải tích của $X$ trên $Y$. Với mọi $y \in Y$, gọi $\varphi(y)$ là ánh xạ quỹ đạo theo $y$ và $X_y$ là nhóm ổn định của $y$ trong $X$. Các điều kiện sau là tương đương:
 (i) tồn tại $y \in Y$ sao cho $\varphi(y)$ là một phép ngập toàn ánh;
@@ -450,7 +450,7 @@ Vì ánh xạ chính tắc từ $X$ lên $X/X_y$ là một phép ngập, các t�
 
 Trong các điều kiện của Mệnh đề 12, $Y$ được gọi là một không gian thuần nhất Lie (trái) của $X$. Các không gian thuần nhất Lie phải của $X$ được định nghĩa tương tự.
 
-#### Ví dụ {#lie-iii-s1-n6-exa-1 .statement}
+#### Ví dụ {#lie-iii-s1-n6-exa-1 .statement tag=0A7U}
 
 Cho $G$ là một nhóm Lie. Ta cho $G \times G$ tác động trên $G$ ở bên trái bởi $(g_1, g_2)x = g_1xg_2^{-1}$. Gọi $\rho$ là ánh xạ quỹ đạo của $e$. Khi đó các hạn chế của $T_{(e, e)}(\rho)$ lên $T_{(e, e)}(G \times \{e\}) = T_e(G) \times \{0\}$ và lên
 $$
@@ -458,7 +458,7 @@ T_{(e, e)}(\{e\} \times G) = \{0\} \times T_e(G)
 $$
 là các đẳng cấu của các không gian ấy lên $T_e(G)$. Do đó $T_{(e, e)}(\rho)$ là toàn ánh và $\operatorname{Ker} T_{(e, e)}(\rho)$ thừa nhận chẳng hạn phần bù tôpô $T_e(G) \times \{0\}$ trong $T_{(e, e)}(G \times G)$. Vì vậy $\rho$ là một phép chìm tại $(e, e)$. Suy ra $G$ là một không gian thuần nhất Lie trái của $G \times G$.
 
-#### Mệnh đề 13 {#lie-iii-s1-prop-13 .statement}
+#### Mệnh đề 13 {#lie-iii-s1-prop-13 .statement tag=0A7V}
 
 Cho $G$ là một nhóm Lie, $H$ là một nhóm con Lie chuẩn tắc của $G$, $X$ là một đa tạp lớp $C^r$ và $(g, x) \mapsto gx$ là một luật tác động trái lớp $C^r$ của $G$ trên $X$. Giả sử rằng các điều kiện (a) và (b) của Mệnh đề 10 được thỏa mãn.
 
@@ -496,13 +496,13 @@ Cho $u \in T_e(G/H)$ sao cho $T_e(\rho(y))u = 0$. Có $v \in T_e(G)$ sao cho $u 
 
 Mệnh đề (iii) suy ra từ những điều trên và *Đa tạp khả vi và giải tích*, R, 5.9.7.
 
-#### Hệ quả {#lie-iii-s1-n6-cor-1 .statement}
+#### Hệ quả {#lie-iii-s1-n6-cor-1 .statement tag=0A7W}
 
 Cho G là một nhóm Lie và H và L là các nhóm con Lie chuẩn tắc của G với L ⊂ H. Khi đó H/L là một nhóm con Lie chuẩn tắc của G/L và song ánh chính tắc của G/H lên (G/L)/(H/L) là một đẳng cấu nhóm Lie.
 
 ### 7. QUỸ ĐẠO
 
-#### Mệnh đề 14 {#lie-iii-s1-prop-14 .statement}
+#### Mệnh đề 14 {#lie-iii-s1-prop-14 .statement tag=0A7X}
 
 Cho G là một nhóm Lie, X là một đa tạp giải tích và (g, x) ↦ gx là một luật tác động trái giải tích của G trên X. Cho x ∈ X. Giả sử ánh xạ quỹ đạo tương ứng ρ(x) là một phép nhúng con (điều này luôn đúng nếu K có đặc số 0 và X hữu hạn chiều (Hệ quả của Mệnh đề 9)). Gọi G_x là nhóm ổn định của x trong G.
 (i) G_x là một nhóm con Lie và T_e(G_x) = Ker T_e(ρ(x)).
@@ -517,11 +517,11 @@ $$
 T_x(Gx) = \operatorname{Im} T_{\pi(e)}(i_x) = \operatorname{Im} T_e(\rho(x)).
 $$
 
-#### Nhận xét {#lie-iii-s1-n7-rem-1 .statement}
+#### Nhận xét {#lie-iii-s1-n7-rem-1 .statement tag=0A7Y}
 
 Cho G là một nhóm Lie hữu hạn chiều, X là một đa tạp thuộc lớp C^r và (g, x) ↦ gx là một luật tác động trái thuộc lớp C^r của G trên X. Khi đó Mệnh đề 14 vẫn đúng. Điểm duy nhất cần một chứng minh khác là sự kiện G_x là một nhóm con Lie. Nhưng nếu r ≠ ω, K = \mathbf{R}; vì hiển nhiên G_x là đóng, G_x là một nhóm con Lie theo § 8, Định lý 2.
 
-#### Hệ quả {#lie-iii-s1-n7-cor-1 .statement}
+#### Hệ quả {#lie-iii-s1-n7-cor-1 .statement tag=0A7Z}
 
 Cho G là một nhóm Lie có tôpô có một cơ sở đếm được và X là một đa tạp giải tích hữu hạn chiều, khác rỗng, với một luật tác động trái giải tích của G trên X. Giả sử G tác động bắc cầu trên X và K có đặc số 0. Khi đó X là một không gian thuần nhất Lie đối với G.
 
@@ -533,7 +533,7 @@ Cho G là một nhóm Lie, X là một đa tạp thuộc lớp C^r và (g, x) �
 
 Cho φ là tự đẳng cấu $(g, x) \mapsto (g, gx)$ của đa tạp $G \times X$. Cho p là phép chiếu chính tắc của $G \times X$ lên $X$ và E' là ảnh ngược của E qua p. Cho ψ : E' → E' là ánh xạ là tổng của các ψ_{g, x} : E'_{(g, x)} → E'_{(g, gx)}.
 
-#### Định nghĩa 4 {#lie-iii-s1-def-4 .statement}
+#### Định nghĩa 4 {#lie-iii-s1-def-4 .statement tag=0A80}
 
 Nếu ψ là một φ-cấu xạ của các bó vectơ lớp C^r, thì E được gọi là một bó G-vectơ lớp C^r.
 
@@ -551,33 +551,33 @@ $$
 
 Các τ(ψ_{g, x}) xác định một luật tác động trái $(g, u) \mapsto gu$ của G trên τE và phép chiếu chính tắc của τE lên X tương thích với các phép toán của G trên X và τE.
 
-#### Mệnh đề 15 {#lie-iii-s1-prop-15 .statement}
+#### Mệnh đề 15 {#lie-iii-s1-prop-15 .statement tag=0A81}
 
 *Nếu E là một bó G-vectơ lớp C^r, thì τE là một bó G-vectơ lớp C^r*.
 
 Cho $g_0, x_0, U, M, N$ như trong đoạn sau Định nghĩa 4. Khi đó ánh xạ $(g, x) \mapsto \tau(\psi_{g,x})$ của U vào $\mathscr{L}(\tau M, \tau N)$ là hợp thành của ánh xạ $(g, x) \mapsto \psi_{g,x}$ của U vào $\mathscr{L}(M, N)$ và ánh xạ $f \mapsto \tau(f)$ của $Isom(M, N)$ vào $Isom(\tau M, \tau N)$; hai ánh xạ này đều lớp C^r và do đó hợp thành của chúng cũng vậy, do đó có mệnh đề.
 
-#### Mệnh đề 16 {#lie-iii-s1-prop-16 .statement}
+#### Mệnh đề 16 {#lie-iii-s1-prop-16 .statement tag=0A82}
 
 *Cho G là một nhóm Lie, X là một đa tạp lớp C^r ($r \geq 2$) và $(g, x) \mapsto gx$ là một luật tác động trái lớp C^r của G trên X, do đó, bằng cách chuyển cấu trúc, tồn tại một luật tác động trái của G trên TX. Với luật này, TX là một bó G-vectơ lớp $C^{r-1}$.*
 
 Cho pr_1 (tương ứng pr_2) là phép chiếu chính tắc của $G \times X$ lên G (tương ứng X) và cho E_1 (tương ứng E_2) là ảnh ngược của TG (tương ứng TX) đối với pr_1 (tương ứng pr_2). Khi đó bó vectơ $T(G \times X)$ là tổng trực tiếp của E_1 và E_2. Cho $i: E_2 \to T(G \times X)$ và $q: T(G \times X) \to E_2$ là các cấu xạ bó vectơ chính tắc được xác định bởi phân tích này thành một tổng trực tiếp. Cho φ là ánh xạ $(g, x) \mapsto (g, gx)$ của $G \times X$ vào $G \times X$. Khi đó ánh xạ được ký hiệu là ψ trong Định nghĩa 4 (trong đó đặt $E = TX$) chính là $q \circ T(\varphi) \circ i$. Nhưng $T(\varphi)$ là một φ-cấu xạ của các bó vectơ lớp $C^{r-1}$ (*Differentiable and Analytic Manifolds*, R, 8.1.2).
 
-#### Hệ quả {#lie-iii-s1-n8-cor-1 .statement}
+#### Hệ quả {#lie-iii-s1-n8-cor-1 .statement tag=0A83}
 
 *Nếu τ là một hàm tử vectơ lớp C^r đối với các đẳng cấu, thì τ(TX) là một bó G-vectơ lớp $C^{r-1}$.*
 
 Điều này suy ra từ các Mệnh đề 15 và 16.
 
-#### Nhận xét 1 {#lie-iii-s1-n8-rem-1 .statement}
+#### Nhận xét 1 {#lie-iii-s1-n8-rem-1 .statement tag=0A84}
 
 Nếu τ là một hàm tử vectơ lớp C^r đối với các đẳng cấu *trong số chiều hữu hạn* và E có hạng hữu hạn, thì τE được định nghĩa tương tự và Mệnh đề 15 vẫn đúng; Hệ quả của Mệnh đề 16 vẫn đúng với điều kiện X là hữu hạn chiều.
 
-#### Ví dụ {#lie-iii-s1-n8-exa-1 .statement}
+#### Ví dụ {#lie-iii-s1-n8-exa-1 .statement tag=0A85}
 
 Với các giả thiết và ký hiệu của Mệnh đề 16, cho F là một không gian chuẩn hóa đầy đủ. Khi đó $\mathscr{L}((TX)^p; F)$ là một bó G-vectơ lớp $C^{r-1}$; Alt^p(TX; F) cũng vậy nếu K có đặc số không hoặc X là hữu hạn chiều (*Differentiable and Analytic Manifolds*, R, 7.7, 7.8). Nếu X là hữu hạn chiều, $\bigotimes^p (TX) \otimes \bigotimes^q (TX)^*$ là một bó G-vectơ lớp $C^{r-1}$.
 
-#### Mệnh đề 17 {#lie-iii-s1-prop-17 .statement}
+#### Mệnh đề 17 {#lie-iii-s1-prop-17 .statement tag=0A86}
 
 *Cho G là một nhóm Lie, X là một không gian thuần nhất Lie trái của G, $x_0$ là một điểm của X, $G_0$ là nhóm ổn định của $x_0$ trong G, E và E' là các bó G-vectơ trái lớp C^r có không gian cơ sở X, E_0 (tương ứng E'_0) là thớ của E (tương ứng E') tại $x_0$ và f là một phần tử của $\mathscr{L}(E_0, E'_0)$ sao cho $f(gu) = gf(u)$ với mọi $u \in E_0$ và $g \in G_0$. Khi đó tồn tại duy nhất một cấu xạ của E vào E' tương thích với các phép toán của G và mở rộng f.*
 
@@ -591,7 +591,7 @@ Với x ∈ V, gọi φ_x : M → N là hạn chế của φ lên E_x = M. Khi �
 (3) ánh xạ ψ'_θ^{-1,x} từ E_0 vào M'.
 Do đó ta thấy rằng ánh xạ x ↦ φ_x từ V vào $\mathscr{L}(M, M')$ là lớp C^r.
 
-#### Hệ quả 1 {#lie-iii-s1-prop-17-cor-1 .statement}
+#### Hệ quả 1 {#lie-iii-s1-prop-17-cor-1 .statement tag=0A87}
 
 Gọi E_0^{G_0} là tập hợp các phần tử của E_0 bất biến dưới G_0. Với mọi u ∈ E_0^{G_0}, gọi σ_u là ánh xạ từ X vào E được xác định bởi σ_u(gx_0) = gu với mọi g ∈ G.
 (i) Các tiết diện† bất biến dưới G của E là lớp C^r.
@@ -609,19 +609,19 @@ và do đó σ_u(x) = φ((u, x)) với mọi x ∈ X, điều này chứng minh 
 
 † Ở đây, bởi một tiết diện của E ta hiểu là một ánh xạ σ (không nhất thiết là lớp C^r) từ X vào E sao cho p ∘ σ = Id_X, trong đó p ký hiệu phép chiếu của E lên X.
 
-#### Hệ quả 2 {#lie-iii-s1-prop-17-cor-2 .statement}
+#### Hệ quả 2 {#lie-iii-s1-prop-17-cor-2 .statement tag=0A88}
 
 Giả sử rằng $G_0$ tác dụng tầm thường trên $E_0$. Gọi $E'$ là $G$-bó tầm thường có không gian cơ sở $X$ và sợi $E_0$. Tồn tại một và chỉ một đẳng cấu từ $E$ lên $E'$ tương thích với các phép toán của $G$ và mở rộng $\mathrm{Id}_{E_0}$.
 
 Điều này suy ra ngay lập tức từ Mệnh đề 17.
 
-#### Nhận xét 2 {#lie-iii-s1-n8-rem-2 .statement}
+#### Nhận xét 2 {#lie-iii-s1-n8-rem-2 .statement tag=0A89}
 
 Trong số này, các luật phép toán trái có thể được thay thế ở khắp nơi bằng các luật phép toán phải.
 
 ### 9. ĐỊNH NGHĨA ĐỊA PHƯƠNG CỦA MỘT NHÓM LIE
 
-#### Mệnh đề 18 {#lie-iii-s1-prop-18 .statement}
+#### Mệnh đề 18 {#lie-iii-s1-prop-18 .statement tag=0A8A}
 
 Gọi $G$ là một nhóm và $U$ và $V$ là hai tập con của $G$ chứa $e$. Giả sử rằng $U$ có một cấu trúc đa tạp giải tích thỏa mãn các điều kiện sau:
 (i) $V = V^{-1}, V^2 \subset U, V$ mở trong $U$;
@@ -653,7 +653,7 @@ theo (a), ta thấy rằng $\phi_{g_2} \circ \phi_{g_1}^{-1}$ là giải tích.
 
 (f) Nếu một cấu trúc đa tạp trên G tương thích với cấu trúc nhóm của G và sao cho V là một đa tạp con mở của G, thì $(\phi_g)_{g\in G}$ là một atlas trên G. Do đó, mệnh đề về tính duy nhất của mệnh đề.
 
-#### Mệnh đề 19 {#lie-iii-s1-prop-19 .statement}
+#### Mệnh đề 19 {#lie-iii-s1-prop-19 .statement tag=0A8B}
 
 Cho G là một nhóm tôpô, H một nhóm Lie và f một đồng cấu của nhóm G vào nhóm H. Giả sử tồn tại một lân cận mở của e_G trong G, một bản đồ (V, \phi, E) của đa tạp H tại e_H và một không gian con vectơ đóng F của E có một phần bù tôpô, sao cho f(U) \subset V và \phi \circ f)|U là một phép đồng phôi của U lên $\phi(V) \cap F$. Khi đó tồn tại duy nhất một cấu trúc đa tạp trên G sao cho f là một phép nhúng; cấu trúc này là ảnh ngược theo f của cấu trúc đa tạp trên H. Với cấu trúc này G là một nhóm Lie.
 
@@ -671,11 +671,11 @@ trong đó m(x, y) = xy^{-1} (tương ứng n(x, y) = xy^{-1}) với x, y trong 
 
 Cấu trúc nhóm Lie trên G được gọi là ảnh ngược của cấu trúc nhóm Lie trên H theo f.
 
-#### Hệ quả {#lie-iii-s1-n9-cor-1 .statement}
+#### Hệ quả {#lie-iii-s1-n9-cor-1 .statement tag=0A8C}
 
 Cho G là một nhóm tôpô, N một nhóm con chuẩn tắc rời rạc của G và \pi là ánh xạ chính tắc của G lên G/N. Giả sử một cấu trúc đa tạp giải tích được cho trên G/N, tương thích với cấu trúc nhóm tôpô trên G/N. Khi đó tồn tại duy nhất một cấu trúc đa tạp trên G sao cho \pi là một phép nhúng; cấu trúc này là ảnh ngược theo \pi của cấu trúc đa tạp trên G/N. Với cấu trúc này, \pi là étale, G là một nhóm Lie và G/N là nhóm Lie thương của G bởi N.
 
-#### Nhận xét {#lie-iii-s1-n9-rem-1 .statement}
+#### Nhận xét {#lie-iii-s1-n9-rem-1 .statement tag=0A8D}
 
 Cho H là một nhóm Lie thực hoặc phức liên thông, $\tilde{H}$ là phủ phổ quát của nó† và \pi là ánh xạ chính tắc của $\tilde{H}$ lên H. Khi nói về $\tilde{H}$
 
@@ -687,7 +687,7 @@ với tư cách là một nhóm Lie, ta luôn luôn có nghĩa là với cấu t
 
 ### 10. CÁC MẦM NHÓM
 
-#### Định nghĩa 5 {#lie-iii-s1-def-5 .statement}
+#### Định nghĩa 5 {#lie-iii-s1-def-5 .statement tag=0A8E}
 
 **Một mầm nhóm Lie trên K** là một hệ $(G, e, \theta, m)$ thỏa mãn các điều kiện sau:
 (i) $G$ là một đa tạp giải tích trên $K$;
@@ -732,7 +732,7 @@ $$
 (gh)^{-1} = h^{-1}g^{-1} \quad \text{với } g, h \text{ đủ gần với } e.
 $$
 
-#### Mệnh đề 20 {#lie-iii-s1-prop-20 .statement}
+#### Mệnh đề 20 {#lie-iii-s1-prop-20 .statement tag=0A8F}
 
 *Cho $G$ là một mầm nhóm Lie và $g \in G$. Tồn tại một lân cận mở $U$ của $e$ và một lân cận mở $V$ của $g$ với các tính chất sau:*
 (a) $ug$ được xác định với mọi $u \in U$;
@@ -772,7 +772,7 @@ Nếu $G$ là một mầm nhóm Lie với phần tử đơn vị $e$, mọi lân
 
 Mầm nhóm Lie *tích* của một số hữu hạn các mầm nhóm Lie được định nghĩa theo một cách hiển nhiên.
 
-#### Mệnh đề 21 {#lie-iii-s1-prop-21 .statement}
+#### Mệnh đề 21 {#lie-iii-s1-prop-21 .statement tag=0A8G}
 
 *Cho $G, H$ là hai mầm nhóm Lie và $\phi$ là một cấu xạ từ $G$ vào $H$. Các điều kiện sau là tương đương:*
 
@@ -789,7 +789,7 @@ Do đó $\phi|G'$ là một đẳng cấu của mầm nhóm Lie $G'$ lên mầm 
 
 Nếu các điều kiện của Mệnh đề 21 được thỏa mãn, $G$ và $H$ được gọi là *đẳng cấu địa phương*.
 
-#### Mệnh đề 22 {#lie-iii-s1-prop-22 .statement}
+#### Mệnh đề 22 {#lie-iii-s1-prop-22 .statement tag=0A8H}
 
 *Cho $H$ là một nhóm Lie, $U$ là một mầm nhóm con Lie của $H$ và $N$ là tập hợp các $g \in H$ sao cho $U$ và $gUg^{-1}$ có cùng mầm tại $e$ (Tôpô đại cương, Chương I, § 6, no. 10). Khi đó $N$ là một nhóm con của $H$ chứa $U$. Tồn tại một và chỉ một cấu trúc đa tạp giải tích trên $N$ có các tính chất sau:*
 
@@ -805,11 +805,11 @@ Cuối cùng, ta xét một cấu trúc đa tạp giải tích trên N có các 
 
 Cho H là một nhóm Lie, U là một mầm nhóm con giả Lie của H và N là tập hợp các $g \in H$ sao cho U và $gUg^{-1}$ có cùng mầm tại e. Nếu K có đặc số 0, tồn tại trên G duy nhất một cấu trúc đa tạp với các tính chất (i) và (ii) của Mệnh đề 22. Chứng minh cũng giống như đối với Mệnh đề 22.
 
-#### Hệ quả {#lie-iii-s1-n10-cor-1 .statement}
+#### Hệ quả {#lie-iii-s1-n10-cor-1 .statement tag=0A8I}
 
 Giữ nguyên ký hiệu của Mệnh đề 22, cho G là nhóm con của H sinh bởi U. Khi đó G là một nhóm con mở của N. Tồn tại duy nhất một cấu trúc nhóm Lie trên G sao cho U là một đa tạp con mở của G và đơn ánh chính tắc của G vào H là một phép nhúng chìm.
 
-#### Nhận xét {#lie-iii-s1-n10-rem-1 .statement}
+#### Nhận xét {#lie-iii-s1-n10-rem-1 .statement tag=0A8J}
 
 Giữ nguyên ký hiệu của Mệnh đề 22 và hệ quả của nó, giả sử rằng K có đặc số 0, rằng H là hữu hạn chiều và rằng tôpô trên U có một cơ sở đếm được. Ngay cả với tất cả các giả thiết này, có thể xảy ra rằng G không đóng trong H (Bài tập 3). Nhưng, nếu G đóng, thì G là một nhóm con Lie của H. Vì ánh xạ $(g, h) \mapsto gh$ là một luật của phép toán trái giải tích của G trên H. Quỹ đạo của e là G. Mệnh đề của chúng ta khi đó suy ra từ các Mệnh đề 2 (iv) và 14 (iii).
 
@@ -817,7 +817,7 @@ Giữ nguyên ký hiệu của Mệnh đề 22 và hệ quả của nó, giả s
 
 Cho $(G, e, \theta, m)$ là một mầm nhóm Lie và X là một đa tạp thuộc lớp $C^r$.
 
-#### Định nghĩa 6 {#lie-iii-s1-def-6 .statement}
+#### Định nghĩa 6 {#lie-iii-s1-def-6 .statement tag=0A8K}
 
 Một mảnh luật của phép toán trái thuộc lớp $C^r$ của G trên X là một ánh xạ $\psi$ xác định trên một tập con mở $\Omega$ của $G \times X$ chứa $\{e\} \times X$, có giá trị trong X và có các tính chất sau:
 (i) $\psi$ thuộc lớp $C^r$;
@@ -828,7 +828,7 @@ Các mảnh luật của phép toán phải thuộc lớp $C^r$ được định
 Ta thường viết $gx$ thay cho $\psi(g, x)$.
 Cho G' là một mầm nhóm con Lie của G và X' là một đa tạp con của X. Giả sử rằng tập hợp $\Omega'$ của $(g, x) \in \Omega \cap (G' \times X')$ sao cho $\psi(g, x) \in X'$ là mở trong $G' \times X'$ (một điều kiện luôn được thỏa mãn nếu $X'$ là mở trong $X$). Khi đó $\psi|_{\Omega'}$ là một mảnh luật của phép toán trái thuộc lớp $C^r$ của $G'$ trên $X'$, được gọi là dẫn xuất từ $\psi$ bằng hạn chế vào $G'$ và $X'$.
 
-#### Mệnh đề 23 {#lie-iii-s1-prop-23 .statement}
+#### Mệnh đề 23 {#lie-iii-s1-prop-23 .statement tag=0A8L}
 
 *Cho $(G, e, \theta, m)$ là một mầm nhóm Lie, $X$ là một đa tạp lớp $C^r$, $x_0$ là một điểm của $X$, $\Omega$ là một lân cận mở của $(e, x_0)$ trong $G \times X$ và $\psi$ là một ánh xạ từ $\Omega$ vào $X$ có các tính chất sau:
 (i) $\psi$ thuộc lớp $C^r$;
@@ -841,7 +841,7 @@ $$
 $$
 với $(g, g', x) \in G' \times G' \times X'$. Gọi $\Omega'$ là tập hợp các $(g, x) \in \Omega \cap (G' \times X')$ sao cho $\psi(g, x) \in X'$. Khi đó $\Omega'$ là mở trong $G \times X'$ và $X'$, $\Omega'$ có các tính chất của mệnh đề.*
 
-#### Bổ đề 3 {#lie-iii-s1-lem-3 .statement}
+#### Bổ đề 3 {#lie-iii-s1-lem-3 .statement tag=0A8M}
 
 *Cho $X$ là một không gian chuẩn tắc và $(X_i)_{i \in I}$ là một phủ mở hữu hạn địa phương của $X$. Với mọi $(i, j) \in I \times I$ và mọi $x \in X_i \cap X_j$, gọi $V_{ij}(x)$ là một lân cận của $x$ được chứa trong $X_i \cap X_j$. Khi đó ta có thể gắn với mỗi $x \in X$ một lân cận $V(x)$ của $x$ sao cho các điều kiện sau được thỏa mãn:
 (a) quan hệ $x \in X_i \cap X_j$ kéo theo $V(x) \subset V_{ij}(x)$;
@@ -854,7 +854,7 @@ là một lân cận của $x$. Nếu $x \in X_i \cap X_j$, thì $V_1(x) \subset
 
 § 2.1
 
-#### Mệnh đề 24 {#lie-iii-s1-prop-24 .statement}
+#### Mệnh đề 24 {#lie-iii-s1-prop-24 .statement tag=0A8N}
 
 Cho G là một mầm nhóm Lie, X là một đa tạp lớp C^r và (X_i)_{i \in I} là một phủ mở hữu hạn địa phương của X. Với mọi i \in I, gọi $\psi_i$ là một mảnh luật của phép toán trái lớp C^r của G trên X_i. Giả sử rằng không gian tôpô nền của X là chuẩn tắc và rằng, với mọi (i, j) \in I \times I và mọi x \in X_i \cap X_j, $\psi_i$ và $\psi_j$ trùng nhau trên một lân cận của (e, x). Tồn tại một mảnh luật $\psi$ của phép toán trái lớp C^r của G trên X sao cho, với mọi i \in I và mọi x \in X_i, $\psi_i$ và $\psi$ trùng nhau trên một lân cận của (e, x).
 

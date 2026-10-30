@@ -38,20 +38,20 @@ subsections:
       pdf_page: 239
 statements: 21
 exercises: 12
-content_sha256: cd3cc2bd76e6784392d91069b887e2344baeedd432fedf2725695282c5095d73
+content_sha256: 29004e5cd09fd460bf5167f0e6481b43d3d6e1b88934fe63c99d9a4a216f82d7
 ---
 
 ## § 15. SEPARABLE EXTENSIONS
 
 ### 1. Characterization of the nilpotent elements of a ring
 
-#### Proposition 1 {#alg-v-s15-prop-1 .statement}
+#### Proposition 1 {#alg-v-s15-prop-1 .statement tag=06TN}
 
 — *Let A be a commutative ring and x an element of A. For x to be nilpotent it is necessary and sufficient that $1 - xT$ be invertible in the ring $A[T]$.*
 
 We note that $A[T]$ is a subring of the formal power series ring $A[[T]]$ and that $1 - xT$ has in $A[[T]]$ the inverse $\sum_{n=0}^{\infty} x^n T^n$ (IV, p. 30, Prop. 5). For $1 - xT$ to be invertible in $A[T]$ it is necessary and sufficient for $\sum_{n=0}^{\infty} x^n T^n$ to be a polynomial, that is, for x to be nilpotent.
 
-#### Proposition 2 {#alg-v-s15-prop-2 .statement}
+#### Proposition 2 {#alg-v-s15-prop-2 .statement tag=06TO}
 
 — *Let A be a commutative ring. The set of nilpotent elements of A is an ideal of A equal to the intersection of the set of all prime ideals of A.*
 
@@ -61,7 +61,7 @@ Let x be a non-nilpotent element of A. By Prop. 1 the principal ideal $(1 - xT)$
 
 We have thus shown that the set $\mathfrak{n}$ of nilpotent elements of A is the intersection of the set of all prime ideals of A; since every intersection of ideals is an ideal, $\mathfrak{n}$ is an ideal.
 
-#### Corollary {#alg-v-s15-n1-cor-1 .statement}
+#### Corollary {#alg-v-s15-n1-cor-1 .statement tag=06TP}
 
 — *For a commutative ring to be reduced* (*V*, p. 34, Def. 2) *it is necessary and sufficient for it to be isomorphic to a subring of a product of fields*.
 
@@ -71,19 +71,21 @@ Let $\mathbf{A}$ be reduced. By Prop. 2 the intersection $n$ of the set of prime
 
 ### 2. Separable algebras
 
-#### Definition 1 {#alg-v-s15-def-1 .statement}
+#### Definition 1 {#alg-v-s15-def-1 .statement tag=06TQ}
 
 *Let $\mathbf{A}$ be a commutative algebra over a field $K$. Then $A$ is said to be separable over $K$, or also a separable $K$-algebra if the ring $L \otimes_K \mathbf{A}$ is reduced for every extension $L$ of $K$*.
 
 Every separable algebra is clearly reduced. For a partial converse see Th. 3 (*V*, p. 125).
 
-*Examples. — 1*) Let $\mathbf{A}$ be a polynomial algebra $K[X_i]_{i \in I}$. For every extension $L$ of $K$ the ring $L \otimes_K \mathbf{A}$ is isomorphic to $L[X_i]_{i \in I}$ (III, p. 449, Remark 2) and hence is an integral domain (*IV*, p. 9, Prop. 8). In other words, every polynomial algebra over a field $K$ is a separable $K$-algebra.
+#### Examples {#alg-v-s15-n2-exa-1 .statement tag=0DI7}
+
+*1*) Let $\mathbf{A}$ be a polynomial algebra $K[X_i]_{i \in I}$. For every extension $L$ of $K$ the ring $L \otimes_K \mathbf{A}$ is isomorphic to $L[X_i]_{i \in I}$ (III, p. 449, Remark 2) and hence is an integral domain (*IV*, p. 9, Prop. 8). In other words, every polynomial algebra over a field $K$ is a separable $K$-algebra.
 
 2) Let $\mathbf{A}$ be a commutative algebra of finite degree over a field $K$. For $\mathbf{A}$ to be separable it is necessary and sufficient for it to be etale (*V*, p. 34, Th. 4).
 
 3) Let $E$ be an algebraic extension of a field $K$. If $L$ is an extension of $K$, then the ring $L \otimes_K E$ is a union of the subrings $L \otimes_K F$ where $F$ ranges over the set of all subextensions of finite degree of $E$; therefore the ring $L \otimes_K E$ is reduced if and only if this is true of $L \otimes_K F$ for every subextension $F$ of $E$, of finite degree over $K$. Taking Example 2 into account we see that $E$ is a separable algebra in the sense of the above Def. 1 if and only if it is a separable algebraic extension in the sense of Def. 1 of *V*, p. 36.
 
-#### Proposition 3 {#alg-v-s15-prop-3 .statement}
+#### Proposition 3 {#alg-v-s15-prop-3 .statement tag=06TR}
 
 *Let $K$ be a field*.
 
@@ -99,7 +101,7 @@ Let $L$ be an extension of $K$. Let $\mathbf{A}$ be a separable algebra over $K$
 
 We shall use the notation of $d$). For every extension $L'$ of $K'$ the rings $L' \otimes_{K'} A_{(K')}$ and $L' \otimes_K A$ are isomorphic (II, p. 278, Prop. 2). We conclude that if $A$ is a separable $K$-algebra, then $A_{(K')}$ is a separable $K'$-algebra. Conversely suppose that $A_{(K')}$ is a separable $K'$-algebra ; the preceding remark shows that $L' \otimes_K A$ is reduced for every extension $L'$ of $K$ containing $K'$ as subextension. Let $L$ be an extension of $K$; by the Scholium (V, p. 13) there exists an extension $L'$ of $K$ containing $K'$ as a subextension and a $K$-homomorphism of $L$ into $L'$; the ring $L \otimes_K A$ is thus isomorphic to a subring of $L' \otimes_K A$ and hence reduced. This proves that $A$ is a separable $K$-algebra.
 
-#### Proposition 4 {#alg-v-s15-prop-4 .statement}
+#### Proposition 4 {#alg-v-s15-prop-4 .statement tag=06TS}
 
 — *Let $A$ be a separable algebra over a field $K$ and let $B$ be the total ring of fractions of $A$; then the $K$-algebra $B$ is separable.*
 
@@ -110,13 +112,13 @@ $$
 with $y_i \in L, a_i \in A, s_i \in S$ for $1 \leq i \leq n$. If we put $s = s_1 \ldots s_n$
 then $x(1 \otimes s)$ belongs to the subring $L \otimes_K A$ of $L \otimes_K B$; since $x(1 \otimes s)$ is nilpotent and $A$ separable over $K$, we have $x(1 \otimes s) = 0$, and since $s$ is invertible in $B$ we find that $x = 0$. This proves the ring $L \otimes_K B$ to be reduced, whence the proposition.
 
-#### Proposition 5 {#alg-v-s15-prop-5 .statement}
+#### Proposition 5 {#alg-v-s15-prop-5 .statement tag=06TT}
 
 — *Let $K$ be a field and $A, B$ commutative $K$-algebras. If $A$ is reduced and $B$ separable then $A \otimes_K B$ is reduced.*
 
 By the Cor. of Prop. 2 (V, p. 119) $A$ is isomorphic to a subalgebra of a product $\prod_{i \in I} L_i$ where $L_i$ is an extension of $K$ for $i \in I$. Therefore $A \otimes_K B$ is isomorphic to a subring of $\left( \prod_{i \in I} L_i \right) \otimes_K B$ and this latter ring is isomorphic to a subring of $\prod_{i \in I} (L_i \otimes_K B)$ (II, p. 306, Prop. 15). Since $B$ is separable, each of the rings $L_i \otimes_K B$ is reduced, and so the same is true of $\prod_{i \in I} (L_i \otimes_K B)$, and *a fortiori* of $A \otimes_K B$.
 
-#### Corollary 1 {#alg-v-s15-prop-5-cor-1 .statement}
+#### Corollary 1 {#alg-v-s15-prop-5-cor-1 .statement tag=06TU}
 
 — *Let $K$ be a field, $L$ a separable extension of $K$ and $f$ a polynomial in $K[X]$. If $f$ has no multiple factors in $K[X]$, it has also no multiple factors in $L[X]$.*
 
@@ -124,7 +126,7 @@ If $f$ has no multiple factor in $K[X]$, the quotient ring $K[X]/(f)$ is reduced
 
 K[X]/(f) is isomorphic, by I, p. 110, Prop. 9, to the product of fields K[X]/(f_i). By Prop. 5 the ring L[X]/(f), being isomorphic to L ⊗_K K[X]/(f ), is reduced; if g is a non-constant polynomial of L[X] such that g^2 divides f, then the residue class of fg^{-1} in L[X]/(f) is a non-zero nilpotent element; hence f has no multiple factors in L[X].
 
-#### Corollary 2 {#alg-v-s15-prop-5-cor-2 .statement}
+#### Corollary 2 {#alg-v-s15-prop-5-cor-2 .statement tag=06TV}
 
 — Let A and B be two commutative K-algebras. *If* A and B are separable, the same is true of A ⊗_K B.
 
@@ -134,12 +136,12 @@ Let L be an extension of K. The ring L ⊗_K A is reduced because A is separable
 
 Let K be a field. Since any extension of K is a K-algebra, the notion of separability introduced in Def. 1 (V, p. 119) applies in particular to the case of extensions of K. By example 3 (V, p. 119) that definition of separability agrees in the case of algebraic extensions with that of § 7 (V, p. 36, Def. 1).
 
-#### Proposition 6 {#alg-v-s15-prop-6 .statement}
+#### Proposition 6 {#alg-v-s15-prop-6 .statement tag=06TW}
 
 — Every pure extension of a *field* K is separable.
 This follows at once from Example 1 (V, p. 119) and Prop. 4 (V, p. 120).
 
-#### Proposition 7 {#alg-v-s15-prop-7 .statement}
+#### Proposition 7 {#alg-v-s15-prop-7 .statement tag=06TX}
 
 — Let E be a field, G a group of *automorphisms* of E and K the *subfield* of E consisting of the invariants of G. Then E is a separable extension of K.
 
@@ -149,7 +151,7 @@ For every s ∈ G let h_s be the automorphism Id, ⊗ s of the 0-algebra A; the 
 
 The family (a_s), _s ∈ G of prime ideals of A thus has zero intersection. By Prop. 2 (V, p. 118) the ring is reduced, and a fortiori the same holds of the subring L ⊗_K E of A. Since L was an arbitrary extension of K, this proves that E is separable over K.
 
-#### Proposition 8 {#alg-v-s15-prop-8 .statement}
+#### Proposition 8 {#alg-v-s15-prop-8 .statement tag=06TY}
 
 — Let L be an extension of a field K. If L is separable over K, every subextension of L is separable over K. Conversely, if every finitely generated subextension of L is separable over K, then L is separable over K.
 
@@ -157,7 +159,7 @@ This follows at once from Prop. 3, a) and b) (V, p. 119).
 
 Thus separability may be called a property of « finite character ».
 
-#### Proposition 9 {#alg-v-s15-prop-9 .statement}
+#### Proposition 9 {#alg-v-s15-prop-9 .statement tag=06TZ}
 
 — Let L be an extension of a field K and M a commutative L-algebra (for example, an extension of L). If M is separable over L and L is separable over K, then M is separable over K.
 
@@ -169,7 +171,7 @@ Later (V, p. 137 Prop. 5) we shall study the separability of composite extension
 
 ### 4. Mac Lane's separability criterion
 
-#### Theorem 1 {#alg-v-s15-thm-1 .statement}
+#### Theorem 1 {#alg-v-s15-thm-1 .statement tag=06U0}
 
 — Let K be a field of characteristic 0. Every reduced K-algebra and in particular every extension of K is separable over K.
 
@@ -177,7 +179,7 @@ We first show that every extension L of K is separable. Let B be a transcendence
 
 Now let A be a reduced algebra over the field K. By the Cor. of Prop. 2 (V, p. 119) there exists a family $(L_i)_{i \in I}$ of extensions of K such that A is isomorphic to a subalgebra of $\prod_{i \in I} L_i$. Each of the algebras $L_i$ is separable over K by what has been said and so A has the same property, by Prop. 3 a) and c) (V, p. 119).
 
-#### Theorem 2 {#alg-v-s15-thm-2 .statement}
+#### Theorem 2 {#alg-v-s15-thm-2 .statement tag=06U1}
 
 — Let K be a field of characteristic $p \neq 0$, $K^{p^{-\infty}}$ a perfect closure of K and A a commutative K-algebra. The following properties are equivalent:
 a) A is separable.
@@ -202,7 +204,7 @@ By the hypothesis d) we have $x = 0$, whence $A_i = 0$ for all $i \in I$.
 
 Clearly e) implies f) and it remains to show that f) implies a). Thus let $(a_i)_{i \in I}$ be a basis of $A$ over $K$ such that the family $(a_i^p)_{i \in I}$ is linearly free over $K$. Let $L$ be an extension of $K$ and let $x$ be an element of $L \otimes_K A$ such that $x^p = 0$. Write $x = \sum_{i \in I} \lambda_i \otimes a_i$ with $A_i \in L$ for all $i \in I$. We have $x^p = \sum_{i \in I} \lambda_i^p \otimes a_i^p = 0$ and since the family $(a_i^p)_{i \in I}$, is linearly free over $K$, we have $\lambda_i^p = 0$, whence $\lambda_i = 0$ for all $i \in I$; it follows that $x = 0$. So we have proved that $x^p = 0$ implies $x = 0$ in $L \otimes_K A$, from which it follows at once that $L \otimes_K A$ is reduced.
 
-#### Corollary 1 (Mac Lane) {#alg-v-s15-thm-2-cor-1 .statement}
+#### Corollary 1 (Mac Lane) {#alg-v-s15-thm-2-cor-1 .statement tag=06U2}
 
 — *Let* $K$ *be a field of characteristic exponent* $p$, $\Omega$ *a perfect extension of* $K$ *and* $L$ *a subextension of* $\Omega$. *Then the following conditions are equivalent*:
 
@@ -222,19 +224,19 @@ and Th. 2 implies, by induction on f, that the family $(a_i^{p^f})_{i \in I}$ is
 
 It is clear that b) implies c). Lastly suppose that c) holds and let K' be an extension of K of finite degree and p-radical of height $\leq 1$. The ring $K' \otimes_K L$ is isomorphic to a subring of $\Omega$, hence is reduced. Now it follows from Th. 2 that L is separable over K.
 
-#### Corollary 2 {#alg-v-s15-thm-2-cor-2 .statement}
+#### Corollary 2 {#alg-v-s15-thm-2-cor-2 .statement tag=06U3}
 
 — *Let K be a field of characteristic exponent p, $K^{p^{-\infty}}$ a perfect closure of K and L a separable extension of K. Then the ring $L \otimes_K K^{p^{-\infty}}$ is a field. If moreover L is algebraic over K, then $L \otimes_K K^{p^{-\infty}}$ is a perfect closure of L.*
 
 The case $p = 1$ is trivial, so let us suppose $p \neq 1$. Let $\Omega$ be a perfect closure of L. By Cor. 1 there exists a K-algebra homomorphism of $L \otimes_K K^{p^{-\infty}}$ onto $L[K^{p^{-\infty}}]$ which maps $x \otimes y$ to $xy$ for $x \in L$ and $y \in K^{p^{-\infty}}$. Since $K^{p^{-\infty}}$ is algebraic over K, the ring $L[K^{p^{-\infty}}]$ is a subfield of $\Omega$ (V, p. 18, Cor. 1). Suppose further that L is algebraic over K, then $L[K^p]$ is an algebraic extension of the perfect field $K^{p^{-\infty}}$, hence it is a perfect field (V, p. 43, Cor. 1); finally, since the field $L[K^{p^{-\infty}}]$ is ap-radical extension of L (V, p. 25, Cor.), it is a perfect closure of L.
 
-#### Corollary 3 {#alg-v-s15-thm-2-cor-3 .statement}
+#### Corollary 3 {#alg-v-s15-thm-2-cor-3 .statement tag=06U4}
 
 — *Let L be an algebraic extension of K and M a commutative L-algebra (for example an extension of L). If M is separable over K, it is separable over L.*
 
 The algebra L is K-isomorphic to a subalgebra of M, hence L is a separable extension of K. Therefore (Cor. 2) there exists an L-isomorphism of $L^{p^{-\infty}}$ onto $K^{p^{-\infty}} \otimes_K L$. The ring $L^{p^{-\infty}} \otimes_L M$ is thus isomorphic to $(K^{p^{-\infty}} \otimes_K L) \otimes_L M$, and so to $K^{p^{-\infty}} \otimes_K M$ (II, p. 278, Prop. 2) and this latter ring is reduced because M is separable over K. Thus the ring $L^{p^{-\infty}} \otimes_L M$ is reduced, which proves that M is separable over L (V, p. 122, Th. 2).
 
-#### Remark {#alg-v-s15-n4-rem-1 .statement}
+#### Remark {#alg-v-s15-n4-rem-1 .statement tag=06U5}
 
 — Mac Lane's criterion may be formulated without introducing any extensions of K other than L. For by c) of Cor. 1, L is separable over K if and only if L and $K^P$ are linearly disjoint over K. Since the mapping $x \mapsto x^p$ is an isomorphism of L onto the subfield $L^P$, we obtain the following criterion (cf. V, p. 177, Ex. 11 for an analogous criterion for algebras):
 
@@ -244,7 +246,7 @@ The algebra L is K-isomorphic to a subalgebra of M, hence L is a separable exten
 
 For ease of reference we summarize the principal properties of extensions of perfect fields:
 
-#### Theorem 3 {#alg-v-s15-thm-3 .statement}
+#### Theorem 3 {#alg-v-s15-thm-3 .statement tag=06U6}
 
 — Let K be a perfect field.
 a) Every algebraic extension of K is a perfect field.
@@ -260,7 +262,7 @@ Finally, d) follows from c) and Prop. 5 (V, p. 120) and e) is a particular case 
 
 ### 6. The characterization of separability by automorphisms
 
-#### Theorem 4 {#alg-v-s15-thm-4 .statement}
+#### Theorem 4 {#alg-v-s15-thm-4 .statement tag=06U7}
 
 — Let $\Omega$ be an algebraically closed extension of a field K and L a subextension of $\Omega$. Then the following conditions are equivalent:
 a) L is separable over K.

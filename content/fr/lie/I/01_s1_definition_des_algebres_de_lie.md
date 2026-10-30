@@ -48,7 +48,7 @@ subsections:
       pdf_page: 19
 statements: 21
 exercises: 27
-content_sha256: 331fb9607c7d7f950d78af3046c77961811e9b8e9e5ac74b28a8a2bc72ee32ec
+content_sha256: cadf9e6176b63ffdfff98f124139386eda95bf01de02001ea44fd25cdd3d93e2
 ---
 
 ## § 1. Définition des algèbres de Lie
@@ -79,7 +79,7 @@ Soient M une algèbre sur K, $K_1$ un anneau commutatif ayant un élément unit�
 
 ### 2. Algèbres de Lie
 
-#### Définition 1 {#lie-i-s1-def-1 .statement}
+#### Définition 1 {#lie-i-s1-def-1 .statement tag=09TJ}
 
 Une algèbre g sur K est appelée une algèbre de Lie sur K si sa multiplication (notée $(x, y) \mapsto [x, y]$) vérifie les identités :
 (1) $[x, x] = 0$
@@ -102,11 +102,11 @@ $$
 
 Toute sous-algèbre, toute algèbre quotient d’une algèbre de Lie sont des algèbres de Lie. Tout produit d’algèbres de Lie est une algèbre de Lie. Si $g$ est une algèbre de Lie, l’algèbre opposée $g^0$ est une algèbre de Lie, et l’application $x \mapsto -x$ est un isomorphisme de $g$ sur $g^0$, en vertu de l’identité (3).
 
-#### Exemple 1 {#lie-i-s1-n2-exa-1 .statement}
+#### Exemple 1 {#lie-i-s1-n2-exa-1 .statement tag=09TK}
 
 Soit $L$ une algèbre associative sur $K$. Le crochet $[x, y] = xy - yx$ est une fonction bilinéaire de $x$ et $y$. On véri fie facilement que la loi de composition $(x, y) \mapsto [x, y]$ dans le $K$-module $L$ fait de $L$ une algèbre de Lie sur $K$.
 
-#### Exemple 2 {#lie-i-s1-n2-exa-2 .statement}
+#### Exemple 2 {#lie-i-s1-n2-exa-2 .statement tag=09TL}
 
 Dans l’exemple 1, choisissons pour $L$ l’algèbre associative des endomorphismes d’un $K$-module $E$. On obtient l’algèbre de *Lie des endomorphismes de* $E$, notée $\mathrm{gl}(E)$. (Si $E = K^n$, on note $\mathrm{gl}(n, K)$ l’algèbre de Lie $\mathrm{gl}(E)$.)
 
@@ -132,11 +132,11 @@ On note $t(n, K)$ (resp. $st(n, K)$, $n(n, K)$) la sous-algèbre de Lie de $\mat
 
 \* Exemple 3. — Soit V une variété indéfiniment différentiable réelle. Les opérateurs différentiels à coefficients réels indéfiniment différentiables sur V constituent une algèbre associative sur $\mathbf{R}$, donc, d’après l’exemple 1, une algèbre de Lie $\Delta$ sur $\mathbf{R}$. Le crochet de deux champs de vecteurs indéfiniment différentiables sur V est un champ de vecteurs indéfiniment différentiable, donc les champs de vecteurs indéfiniment différentiables sur V constituent une sous-algèbre de Lie $\mathfrak{f}$ de $\Delta$. Si V est un groupe de Lie réel, les champs de vecteurs invariants à gauche constituent une sous-algèbre de Lie g de $\mathfrak{f}$ appelée algèbre de Lie de V. L’espace vectoriel g s’identifie à l’espace tangent à V en e (élément neutre de V). Soient V’ un autre groupe de Lie réel, $e'$ son élément neutre, g’ son algèbre de Lie. Tout homomorphisme analytique de V dans V’ définit une application linéaire de l’espace tangent à V en e dans l’espace tangent à V’ en $e'$; cette application est un homomorphisme de l’algèbre de Lie g dans l’algèbre de Lie g’. Si V est le groupe linéaire d’un espace vectoriel réel E de dimension finie, il existe un isomorphisme canonique de gl(E) sur l’algèbre de Lie g de V, par lequel on identifie g et gl(E).*
 
-#### Définition 2 {#lie-i-s1-def-2 .statement}
+#### Définition 2 {#lie-i-s1-def-2 .statement tag=09TN}
 
 Soient g une algèbre de Lie, x un élément de g. L’application linéaire $y \mapsto [x, y]$ de g dans g s’appelle l’application linéaire adjointe de x et se désigne par $\operatorname{ad}_g x$ ou par $\operatorname{ad} x$.
 
-#### Proposition 1 {#lie-i-s1-prop-1 .statement}
+#### Proposition 1 {#lie-i-s1-prop-1 .statement tag=09TO}
 
 Soit g une algèbre de Lie. Pour tout $x \in g$, $\operatorname{ad} x$ est une dérivation de g. L’application $x \mapsto \operatorname{ad} x$ est un homomorphisme de l’algèbre de Lie g dans l’algèbre de Lie $\mathfrak{D}$ des dérivations de g. Si $D \in \mathfrak{D}$ et $x \in g$, on a $[D, \operatorname{ad} x] = \operatorname{ad} (Dx)$.
 
@@ -158,15 +158,15 @@ L’application $\operatorname{ad} x$ s’appelle aussi la *dérivation intérie
 
 ### 3. Algèbres de Lie commutatives
 
-#### Définition 3 {#lie-i-s1-def-3 .statement}
+#### Définition 3 {#lie-i-s1-def-3 .statement tag=09TP}
 
 *Deux éléments $x, y$ d’une algèbre de Lie sont dits permutables lorsque $[x, y] = 0$. On dit que $g$ est commutative si deux quelconques de ses éléments sont permutables.*
 
-#### Exemple 1 {#lie-i-s1-n3-exa-1 .statement}
+#### Exemple 1 {#lie-i-s1-n3-exa-1 .statement tag=09TQ}
 
 Soient $L$ une algèbre associative, $g$ l’algèbre de Lie qu’elle définit (n° 2, *Exemple 1*). Deux éléments $x, y$ sont permutables dans $g$ si et seulement si $xy = yx$ dans $L$.
 
-#### Exemple 2 {#lie-i-s1-n3-exa-2 .statement}
+#### Exemple 2 {#lie-i-s1-n3-exa-2 .statement tag=09TR}
 
 Si un groupe de Lie réel $G$ est commutatif, son algèbre de Lie est commutative. \*
 
@@ -178,17 +178,17 @@ Si $g$ est une algèbre de Lie, tout sous-module monogène de $g$ est une sous-a
 
 Il résulte de l’identité (3) que, dans une algèbre de Lie $g$, il n’y a pas à distinguer entre les idéaux à gauche et les idéaux à droite, tout idéal étant bilatère. On parlera donc simplement d’idéal.
 
-#### Exemple {#lie-i-s1-n4-exa-1 .statement}
+#### Exemple {#lie-i-s1-n4-exa-1 .statement tag=09TS}
 
 Soient $G$ un groupe de Lie, $g$ son algèbre de Lie, $H$ un sous-groupe de Lie de $G$. Tout champ de vecteurs invariant à gauche sur $H$ définit canoniquement un champ de vecteurs invariant à gauche sur $G$, d’où une injection canonique de l’algèbre de Lie $\mathfrak{h}$ de $H$ dans $g$; on identifie $\mathfrak{h}$ à une sous-algèbre de Lie de $g$ par cette injection. Si $H$ est distingué dans $G$, l’image canonique de $\mathfrak{h}$ dans $g$ est un idéal de $g$.*
 
 Un idéal de g est un sous-module de g stable pour les dérivations intérieures de g.
 
-#### Définition 4 {#lie-i-s1-def-4 .statement}
+#### Définition 4 {#lie-i-s1-def-4 .statement tag=09TT}
 
 Un sous-module de g stable pour toute dérivation de g est appelé un idéal caractéristique de g.
 
-#### Proposition 2 {#lie-i-s1-prop-2 .statement}
+#### Proposition 2 {#lie-i-s1-prop-2 .statement tag=09TU}
 
 Soient g une algèbre de Lie, a un idéal (resp. un idéal caractéristique) de g, et b un idéal caractéristique de a. Alors, b est un idéal (resp. un idéal caractéristique) de g.
 En effet, toute dérivation intérieure (resp. toute dérivation) de g laisse stable a et induit dans a une dérivation, donc laisse stable b.
@@ -196,7 +196,7 @@ En effet, toute dérivation intérieure (resp. toute dérivation) de g laisse st
 Soient g une algèbre de Lie. Si a et b sont des idéaux de g, a + b et a ∩ b sont des idéaux de g.
 Soient a et b deux sous-modules de g. Par abus de notations, on notera [a, b] le sous-module de g engendré par les éléments de la forme [x, y] (x ∈ a, y ∈ b). On a [a, b] = [b, a] d’après l’identité (3). Si z ∈ g, on note [z, a], ou [a, z], le sous-module [Kz, a] = (ad z)(a).
 
-#### Proposition 3 {#lie-i-s1-prop-3 .statement}
+#### Proposition 3 {#lie-i-s1-prop-3 .statement tag=09TV}
 
 Si a et b sont des idéaux (resp. des idéaux caractéristiques) de g, [a, b] est un idéal (resp. un idéal caractéristique) de g.
 En effet, soit D une dérivation intérieure (resp. une dérivation quelconque) de g. Si x ∈ a et y ∈ b, on a
@@ -216,11 +216,11 @@ On appelle série dérivée de g la suite décroissante $\mathscr{O}^0g, \mathsc
 
 On appelle série centrale descendante de g la suite décroissante $C^1g, C^2g, \ldots$ d’idéaux caractéristiques de g définis par récurrence de la manière suivante : 1) $C^1g = g$; 2) $C^{p+1}g = [g, C^p g]$. On a $C^2g = \mathscr{O}g$, et $C^{p+1}g \supset \mathscr{O}^p g$ pour tout $p$, comme on le voit aussitôt par récurrence sur $p$.
 
-#### Proposition 4 {#lie-i-s1-prop-4 .statement}
+#### Proposition 4 {#lie-i-s1-prop-4 .statement tag=09TW}
 
 *Soient g et h deux algèbres de Lie sur K, et f un homomorphisme de g sur h. On a $f(\mathscr{O}^p g) = \mathscr{O}^p h, f(C^p g) = C^p h$. Si a et b sont des sous-modules de g, on a aussitôt $f([a, b]) = [f(a), f(b)]$.* La proposition est alors immédiate par récurrence sur $p$.
 
-#### Corollaire {#lie-i-s1-n5-cor-1 .statement}
+#### Corollaire {#lie-i-s1-n5-cor-1 .statement tag=09TX}
 
 *Soient g une algèbre de Lie, a un idéal de g. Pour que l’algèbre de Lie $g/a$ soit commutative, il faut et il suffit que $a \supset \mathscr{O}g$.*
 
@@ -230,7 +230,7 @@ En effet, dire que $g/a$ est commutative revient à dire que $\mathscr{O}(g/a) =
 
 Soient g une algèbre de Lie, et P une partie de g. On appelle commutant de P dans g l’ensemble des éléments de g permutables à ceux de P. Ce commutant est l’intersection des noyaux des ad $y$, où $y$ parcourt P ; c’est donc une sous-algèbre de g.
 
-#### Proposition 5 {#lie-i-s1-prop-5 .statement}
+#### Proposition 5 {#lie-i-s1-prop-5 .statement tag=09TY}
 
 *Soient g une algèbre de Lie, a un idéal (resp. un idéal caractéristique) de g. Le commutant $a'$ de a dans g est un idéal (resp. un idéal caractéristique) de g.*
 
@@ -248,7 +248,7 @@ L’idéal $C_1g$ est le centre de g.
 
 ### 7. Extensions
 
-#### Définition 5 {#lie-i-s1-def-5 .statement}
+#### Définition 5 {#lie-i-s1-def-5 .statement tag=09TZ}
 
 Soient a et b deux algèbres de Lie sur K. On appelle extension de b par a une suite :
 
@@ -286,7 +286,7 @@ D’abord $f$ est injectif. En effet, si $x \in g$ est tel que $f(x) = 0$, on a 
 
 Il résulte de là que la relation qu’on vient de définir entre deux extensions de $b$ par $a$ est une *relation d’équivalence*.
 
-#### Proposition 6 {#lie-i-s1-prop-6 .statement}
+#### Proposition 6 {#lie-i-s1-prop-6 .statement tag=09U0}
 
 *Soient*:
 
@@ -302,7 +302,7 @@ b) *Réciproquement, s’il existe un homomorphisme $\nu$ de b dans g tel que $\
 
 Les assertions de a) sont immédiates. D’autre part, soit $\nu$ un homomorphisme de b dans g tel que $\mu \circ \nu$ soit l’automorphisme identique de b. Alors, $\nu(b)$ est une sous-algèbre de g, et g est somme directe de $\nu(b)$ et de $\bar{\mu}'(0) = n$ (*Alg.*, chap. VIII, § 1, no 1).
 
-#### Définition 6 {#lie-i-s1-def-6 .statement}
+#### Définition 6 {#lie-i-s1-def-6 .statement tag=09U1}
 
 *Soient*:
 
@@ -405,7 +405,7 @@ Lorsque $\varphi = 0$, $g$ est l’algèbre de Lie produit de $b$ et $a$. Dans l
 
 Nous avons donc établi la proposition suivante :
 
-#### Proposition 7 {#lie-i-s1-prop-7 .statement}
+#### Proposition 7 {#lie-i-s1-prop-7 .statement tag=09U2}
 
 Soient $a$ et $b$ deux algèbres de Lie sur $K$,
 
@@ -433,11 +433,11 @@ $$
 
 est commutatif, de sorte que les deux extensions sont équivalentes.
 
-#### Exemple 1 {#lie-i-s1-n8-exa-1 .statement}
+#### Exemple 1 {#lie-i-s1-n8-exa-1 .statement tag=09U3}
 
 Soient $g$ une algèbre de Lie sur $K$, $D$ une dérivation de $g$. Soit $\mathfrak{h}$ l’algèbre de Lie commutative $K$. L’application $\lambda \mapsto \lambda D$ ($\lambda \in K$) est un homomorphisme de $\mathfrak{h}$ dans l’algèbre de Lie des dérivations de $g$. Formons le produit semi-direct correspondant $\mathfrak{k}$ de $\mathfrak{h}$ par $g$. Soit $x_0$ l’élément $(0,1)$ de $\mathfrak{k}$. Pour tout $x \in g$, on a $Dx = [x_0, x]$.
 
-#### Exemple 2 {#lie-i-s1-n8-exa-2 .statement}
+#### Exemple 2 {#lie-i-s1-n8-exa-2 .statement tag=09U4}
 
 Soient $g$ une algèbre de Lie sur $K$, $M$ un $K$-module, $\rho$ un homomorphisme de $g$ dans $\mathrm{gl}(M)$. Si on considère $M$ comme une algèbre de Lie commutative, l’algèbre de Lie des dérivations de $M$ est $\mathrm{gl}(M)$. On peut donc former le produit semi-direct $\mathfrak{h}$ de $g$ par $M$ correspondant à $\rho$.
 

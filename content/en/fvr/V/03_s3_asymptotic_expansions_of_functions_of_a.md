@@ -37,7 +37,7 @@ subsections:
       pdf_page: 250
 statements: 24
 exercises: 7
-content_sha256: 04f1b225fb0f2e970d5bd91c497d25ba0dbcd531063de32c6be8dfe174aaa59e
+content_sha256: 8e759b487c91cd2169288cb7a854bc7596023e144f6eac992de79d1711257975
 ---
 
 ## § 3. ASYMPTOTIC EXPANSIONS OF FUNCTIONS OF A REAL VARIABLE
@@ -50,7 +50,7 @@ It will be convenient to employ an abuse of language and refer to the sets in $\
 
 ### 1. INTEGRATION OF COMPARISON RELATIONS: **I. WEAK RELATIONS**
 
-#### Proposition 1 {#fvr-v-s3-prop-1 .statement}
+#### Proposition 1 {#fvr-v-s3-prop-1 .statement tag=08F4}
 
 *Let $\mathbf{f}$ be a regulated vector function, $g$ a regulated function $\geqslant 0$ on an interval $[a, +\infty[$, such that $\int_a^{+\infty} g(t)\,dt > 0$. The relation $\mathbf{f} \preccurlyeq g$ as $x$ tends to $+\infty$ implies that $\int_a^x \mathbf{f}(t)\,dt \preccurlyeq \int_a^x g(t)\,dt$. If the integral $\int_a^{+\infty} g(t)\,dt$ converges then the integral $\int_a^{+\infty} \mathbf{f}(t)\,dt$ converges absolutely.*
 
@@ -68,11 +68,11 @@ $$
 $$
 for every $x \geqslant b$, whence the proposition.
 
-#### Corollary 1 {#fvr-v-s3-prop-1-cor-1 .statement}
+#### Corollary 1 {#fvr-v-s3-prop-1-cor-1 .statement tag=08F5}
 
 *If $f$ and $g$ are regulated functions and $\geqslant 0$ on the interval $[a, +\infty[$, and such that $f \succcurlyeq g$, and if $\int_a^{+\infty} g(t)\,dt = +\infty$, then $\int_a^{+\infty} f(t)\,dt = +\infty$.*
 
-#### Corollary 2 {#fvr-v-s3-prop-1-cor-2 .statement}
+#### Corollary 2 {#fvr-v-s3-prop-1-cor-2 .statement tag=08F6}
 
 *If $f$ and $g$ are $\geqslant 0$ and not identically zero on $[a, +\infty[$, and such that $f \succeq g$, then $\int_a^x f(t)\,dt \succeq \int_a^x g(t)\,dt$.*
 
@@ -80,13 +80,13 @@ for every $x \geqslant b$, whence the proposition.
 
 By choosing the function g suitably one can deduce criteria for deciding whether the integral $\int_a^{+\infty} f(t) \, dt$ of a function $f \geq 0$ converges or is infinite from prop. 1 of V, p. 228, and cor. 1 thereto: it suffices to choose for g a function whose primitive is known. In particular, since $x^\mu$ has primitive $\frac{x^{\mu+1}}{\mu+1}$ when $\mu \neq -1$, and $\log x$ when $\mu = -1$, we have the following criterion:
 
-#### Proposition 2 ("logarithmic criterion of order 0") {#fvr-v-s3-prop-2 .statement}
+#### Proposition 2 ("logarithmic criterion of order 0") {#fvr-v-s3-prop-2 .statement tag=08F7}
 
 *Let f be a regulated function $\geq 0$ on an interval $[a, +\infty[$; if $f(x) \preccurlyeq x^\mu$ for some $\mu < -1$ then the integral $\int_a^{+\infty} f(t) \, dt$ converges; if $f(x) \succcurlyeq x^\mu$ for some $\mu \geq -1$ then the integral $\int_a^{+\infty} f(t) \, dt$ is infinite.*
 
 This criterion is not decisive when $1/x^{1+\alpha} \ll f(x) \ll 1/x$ for *every* exponent $\alpha > 0$, as, for example, when $f(x) = 1/x(\log x)^\mu$ ($\mu > 0$). But in this last case f has primitive $\frac{1}{1-\mu} (\log x)^{1-\mu}$ if $\mu \neq 1$ and $\log \log x$ when $\mu = 1$. Thus:
 
-#### Proposition 3 ("logarithmic criterion of order 1") {#fvr-v-s3-prop-3 .statement}
+#### Proposition 3 ("logarithmic criterion of order 1") {#fvr-v-s3-prop-3 .statement tag=08F8}
 
 *Let f be a regulated function $\geq 0$ on an interval $[a, +\infty[$; if $f(x) \preccurlyeq 1/x(\log x)^\mu$ for some $\mu > 1$ then the integral $\int_a^{+\infty} f(t) \, dt$ converges; if $f(x) \succcurlyeq 1/x(\log x)^\mu$ for some $\mu \leq 1$ then the integral $\int_a^{+\infty} f(t) \, dt$ is infinite.*
 
@@ -98,7 +98,7 @@ $$
 
 for $\mu \neq 1$, and $l_{n+1}(x)$ is a primitive of $\frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) l_n(x)}$. Hence:
 
-#### Proposition 4 ("logarithmic criterion of order n") {#fvr-v-s3-prop-4 .statement}
+#### Proposition 4 ("logarithmic criterion of order n") {#fvr-v-s3-prop-4 .statement tag=08F9}
 
 *Let f be a regulated function $\geq 0$ on an interval $[a, +\infty[$; if, for some $\mu > 1$, $f(x) \preccurlyeq \frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) (l_n(x))^\mu}$, then the integral $\int_a^{+\infty} f(t) \, dt$ converges; if $f(x) \succcurlyeq \frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) (l_n(x))^\mu}$ for some $\mu \leq 1$, then the integral $\int_a^{+\infty} f(t) \, dt$ is infinite.*
 
@@ -106,7 +106,7 @@ Each logarithmic criterion is thus applicable to functions for which the criteri
 
 Because of its usefulness we translate the criterion of order 0 for integrals $\int_{\alpha}^{a} f(t) \, dt$ where $f$ is regulated and $\geq 0$ on a non-compact interval $]\alpha, a]$:
 
-#### Proposition 5 ("logarithmic criterion of order 0") {#fvr-v-s3-prop-5 .statement}
+#### Proposition 5 ("logarithmic criterion of order 0") {#fvr-v-s3-prop-5 .statement tag=08FA}
 
 *If on a neighbourhood of $\alpha$ one has $f(x) \leq 1/(x-\alpha)^{\mu}$ for some $\mu < 1$ then the integral $\int_{\alpha}^{a} f(t) \, dt$ converges; if $f(x) \geq 1/(x-\alpha)^{\mu}$ for some $\mu \geq 1$ then the integral $\int_{\alpha}^{a} f(t) \, dt$ is infinite.*
 
@@ -114,17 +114,17 @@ We leave it to the reader to translate the logarithmic criterion of order $n$ si
 
 The application of the logarithmic criteria is immediate if one knows how to obtain the *principal part* of $f$ with respect to a comparison scale containing the functions that feature in these criteria: if $f_1$ is the principal part, the integral $\int_{\alpha}^{+\infty} f(t) \, dt$ converges or is infinite together with $\int_{\alpha}^{+\infty} f_1(t) \, dt$, and the logarithmic criteria apply immediately to this last integral.
 
-#### Example 1 {#fvr-v-s3-n2-exa-1 .statement}
+#### Example 1 {#fvr-v-s3-n2-exa-1 .statement tag=08FB}
 
 The function $t^p(1-t)^q$ is not bounded on $]0, 1[$ when $p < 0$ or $q < 0$; by the logarithmic criterion of order 0 applied on a neighbourhood of the points 0 and 1 the integral $\int_{0}^{1} t^p(1-t)^q \, dt$ converges if and only if $p > -1$ and $q > -1$. If so, this integral is called the *Eulerian integral of the first kind* and is denoted by $\mathbf{B}(p+1, q+1)$ (*cf.* VII, p. 312).
 
-#### Example 2 {#fvr-v-s3-n2-exa-2 .statement}
+#### Example 2 {#fvr-v-s3-n2-exa-2 .statement tag=08FC}
 
 Consider the integral $\int_{0}^{+\infty} t^{\lambda-1} e^{-t} \, dt$. Since $e^{-t} \sim 1$ on a neighbourhood of 0, one must have $\lambda > 0$ if this integral is to converge; this condition is also sufficient since on a neighbourhood of $+\infty$ one has $e^{-t} \ll t^{-\mu}$ for any $\mu > 0$. When $x > 0$ the integral is called the *Eulerian integral of the second kind* and is denoted by $\Gamma(x)$ (*cf.* VII, p. 311).
 
 ### 3. INTEGRATION OF COMPARISON RELATIONS: II. STRONG RELATIONS
 
-#### Proposition 6 {#fvr-v-s3-prop-6 .statement}
+#### Proposition 6 {#fvr-v-s3-prop-6 .statement tag=08FD}
 
 *Let $\mathbf{f}$ be a regulated vector function, and $g$ a regulated function $\geq 0$ on $[a, +\infty[$.*
 
@@ -172,15 +172,15 @@ In other words, one can integrate the two terms of a strong relation $\mathbf{f}
 
 Note that props. 1 (V, p. 228) and 6 (V, p. 230) remain valid when $\mathfrak{F}$ is a base for the trace filter of the intervals $[t, +\infty[$ (where $t > a$) on the complement of a countable set (cf. I, p. 15, th. 2).
 
-#### Example 1 {#fvr-v-s3-n3-exa-1 .statement}
+#### Example 1 {#fvr-v-s3-n3-exa-1 .statement tag=08FE}
 
 On applying prop. 6 of V, p. 230, to the relation $1/x \ll x^{\alpha-1}$ where $\alpha > 0$, one again obtains the relation $\log x \ll x^{\alpha}$ for every $\alpha > 0$, which is equivalent to the relation $y^{1/\alpha} \ll e^y$ proved in III, p. 105.
 
-#### Example 2 {#fvr-v-s3-n3-exa-2 .statement}
+#### Example 2 {#fvr-v-s3-n3-exa-2 .statement tag=08FF}
 
 We have $\left( \frac{e^t}{x} \right)' = \frac{e^t}{x} \left( 1 - \frac{1}{x} \right) \sim e^t / x$; since $e^t / x$ tends to $+\infty$ with $x$, one deduces from prop. 6 of V, p. 230, that $\int_{1}^{x} \frac{e^t}{t} \, dt \sim e^x / x$.
 
-#### Remark {#fvr-v-s3-n3-rem-1 .statement}
+#### Remark {#fvr-v-s3-n3-rem-1 .statement tag=08FG}
 
 When $g$ is not assumed to remain $\geq 0$ on an interval $[a, +\infty[$ (or to remain $\leq 0$ on such an interval), and $\int_{a}^{+\infty} g(t) \, dt$ is not convergent, the relation $f \sim g$ does not necessarily imply that $\int_{a}^{x} f(t) \, dt \sim \int_{a}^{x} g(t) \, dt$, as is shown by the example where $g(x) = \sin x$ and $f(x) = \left( 1 + \frac{\sin x}{x} \right) \sin x$; here
 
@@ -204,27 +204,27 @@ On the other hand, one can derive comparison relations when one assumes a priori
 
 We agree to say that two comparable real functions (V, p. 217) are comparable of order 0.
 
-#### Proposition 7 {#fvr-v-s3-prop-7 .statement}
+#### Proposition 7 {#fvr-v-s3-prop-7 .statement tag=08FH}
 
 If two real functions $f,\ g$, are comparable of order 1, then they are comparable; further, the relation $f \ll g$ (resp. $f \sim cg$, $c$ constant) implies $f' \ll g'$ (resp. $f' \sim cg'$) unless $g$ is equivalent to a nonzero constant.
 
 Now, since $f'$ and $g'$ are of constant sign on an interval $[x_0, +\infty[$, both $f$ and $g$ are monotone on this interval, so tend to a finite or infinite limit as $x$ tends to $+\infty$. It is clear that $f$ and $g$ are comparable as $x$ tends to $+\infty$ if one of these limits is finite and $\neq 0$, or if one is zero and the other infinite. If both $f$ and $g$ tend to 0 one can write $f(x) = -\int_x^{+\infty} f'(t) \, dt,\ g(x) = -\int_x^{+\infty} g'(t) \, dt$; since $f'$ and $g'$ are comparable the same is true for $f$ and $g$ and the comparison relation between $f$ and $g$ is the same as that between $f'$ and $g'$, by prop. 6 (V, p. 20). Similarly, if $f$ and $g$ both have an infinite limit one has $f(x) = f(x_0) + \int_{x_0}^x f'(t) \, dt,\ g(x) = g(x_0) + \int_{x_0}^x g'(t) \, dt$; again prop. 6 (V, p. 230) shows that $f$ and $g$ are comparable and that the comparison relation between $f$ and $g$ is the same as that between $f'$ and $g'$. To complete the proof it remains to consider the case where $g$ tends to $\pm \infty$ and $f$ to a constant: one cannot then have $f' \succcurlyeq g'$, since then one could deduce from prop. 1 (V, p. 218) that the integral $\int_{x_0}^{+\infty} g'(t) \, dt$ was convergent; since $f'$ and $g'$ have been assumed comparable, one must have $f' \ll g'$.
 
-#### Corollary {#fvr-v-s3-n4-cor-1 .statement}
+#### Corollary {#fvr-v-s3-n4-cor-1 .statement tag=08FI}
 
 *If two real functions $f, g$, are comparable of order $k \geqslant 1$, then they are comparable of order $p$ for $0 \leqslant p \leqslant k$; further, the relation $f \ll g$ (resp. $f \sim cg$) implies $f^{(k)} \ll g^{(k)}$ (resp. $f^{(k)} \sim cg^{(k)}$) unless one of the derivatives $g^{(p)}$ ($0 \leqslant p \leqslant k - 1$) is equivalent to a constant $\neq 0$.
 
 Indeed, since $f^{(k)}$ and $g^{(k)}$ have constant sign on an interval $[x_0, +\infty[$, it follows that $f^{(k-1)}$ and $g^{(k-1)}$ are monotone on this interval, so have constant sign on a neighbourhood of $+\infty$; further, prop. 7 of V, p. 232, shows that $f^{(k-1)}$ and $g^{(k-1)}$ are comparable, so the corollary follows from applying prop. 7 recursively.
 
-#### Remark 1 {#fvr-v-s3-n4-rem-1 .statement}
+#### Remark 1 {#fvr-v-s3-n4-rem-1 .statement tag=08FJ}
 
 The restriction on $g$ in prop. 7 is essential. For example, one has $\frac{1}{x} \ll 1 + \frac{1}{x}$ even though the derivatives of the two sides are equivalent; similarly $1 + \frac{1}{x} \sim 1 + \frac{1}{x^2}$, but $1/x^2 \gg 2/x^3$.
 
-#### Remark 2 {#fvr-v-s3-n4-rem-2 .statement}
+#### Remark 2 {#fvr-v-s3-n4-rem-2 .statement tag=08FK}
 
 Though $f$ and $g$ are comparable of order $k$ a function $f_1$ equivalent to $f$ need not be comparable of order $k$ to $g$; however it will be so if one assumes that $f_1$ is comparable of order $k$ to $f$ and that none of the derivatives $f^{(p)}$ ($0 \leqslant p \leqslant k - 1$) is equivalent to a nonzero constant.
 
-#### Remark 3 {#fvr-v-s3-n4-rem-3 .statement}
+#### Remark 3 {#fvr-v-s3-n4-rem-3 .statement tag=08FL}
 
 If $f$ and $g$ are comparable of order $k$ this need not be so for $hf$ and $hg$ even for a monotone function $h$ as simple as $h(x) = x$ (V, p. 260, exerc. 3); likewise, $1/f$ and $1/g$ are not necessarily comparable of order $k$ (V, p. 259, exerc. 1).
 
@@ -232,7 +232,7 @@ If $f$ and $g$ are comparable of order $k$ this need not be so for $hf$ and $hg$
 
 Let $f$ be a regulated real function $\neq 0$ having constant sign on an interval $[a, +\infty[$; the following proposition allows one to obtain the principal part of the primitive $\int_a^{+\infty} f(t)\,dt$ if $\int_a^{+\infty} f(t)\,dt$ converges in certain cases, and of the primitive $\int_a^x f(t)\,dt$ if $\int_a^{+\infty} f(t)\,dt$ is infinite:
 
-#### Proposition 8 {#fvr-v-s3-prop-8 .statement}
+#### Proposition 8 {#fvr-v-s3-prop-8 .statement tag=08FM}
 
 *Put* $F(x) = \int_x^{+\infty} f(t)\,dt$ *if* $\int_a^{+\infty} f(t)\,dt$ *converges*, *and* $F(x) = \int_a^x f(t)\,dt$ *if* $\int_a^{+\infty} f(t)\,dt$ *is infinite*. *Suppose that* $\log|f|$ *and* $\log x$ *are comparable of order* 1.
 
@@ -272,14 +272,14 @@ which establishes the relation (2). The proof is similar when $f$ is of order $-
 
 Let $\mathscr{E}$ be a comparison scale (for real $x$ tending to $+\infty$) formed of nonzero real functions that are of constant sign on a neighbourhood of $+\infty$, such that $x \in \mathscr{E}$ and such that the product and quotient of two functions in $\mathscr{E}$ again belongs to $\mathscr{E}$ (V, p. 221 and p. 224). If a regulated function $f$ with constant sign on a neighbourhood of $+\infty$ has a principal part $c g$ relative to $\mathscr{E}$, then $\int_x^{+\infty} f(t)\,dt$ (resp. $\int_a^x f(t)\,dt$ according to the case) will be equivalent to $c \int_x^{+\infty} g(t)\,dt$ (resp. $c \int_a^x g(t)\,dt$); if the function $g$ satisfies the hypotheses of prop. 8 of V, p. 233, and if (when the formula (2) of V, p. 233, applies) one knows a principal part of $g'$ relative to $\mathscr{E}$, one will thus have a principal part of $\int_x^{+\infty} f(t)\,dt$ (resp. $\int_a^x f(t)\,dt$) relative to $\mathscr{E}$.
 
-#### Example 1 {#fvr-v-s3-n5-exa-1 .statement}
+#### Example 1 {#fvr-v-s3-n5-exa-1 .statement tag=08FN}
 
 The function $1/\log x$ is of order 0 relative to $x$ and satisfies the conditions of prop. 8 of V, p. 233; thus
 $$
 \int_a^x \frac{dt}{\log t} \sim \frac{x}{\log x}.
 $$
 
-#### Example 2 {#fvr-v-s3-n5-exa-2 .statement}
+#### Example 2 {#fvr-v-s3-n5-exa-2 .statement tag=08FO}
 
 The function $e^{t^2}$ is of order $+\infty$ relative to $x$ and satisfies the conditions of prop. 8, so
 $$
@@ -288,7 +288,7 @@ $$
 
 In the Appendix (V, p. 252) we shall define a set of functions for which prop. 7 and prop. 8 always apply.
 
-#### Remark {#fvr-v-s3-n5-rem-1 .statement}
+#### Remark {#fvr-v-s3-n5-rem-1 .statement tag=08FP}
 
 Prop. 8 does not apply directly to a function $f$ of order $-1$ relative to $x$. But then one can write $f(x) = f_1(x)/x$, with $f_1$ of order 0 relative to $x$. Suppose, for example, that $\int_a^{+\infty} f(t)\,dt$ is infinite; then
 
@@ -332,7 +332,7 @@ to precision $g_\rho$, one will as a result have an asymptotic expansion of $F$ 
 
 So it all amounts to finding asymptotic expansions with respect to $\mathscr{E}$ of *primitives of functions in* $\mathscr{E}$. We have seen how, subject to certain hypotheses on $\mathscr{E}$, prop. 8 of V, p. 233 gives the principal part of such a primitive. Further, the proof of prop. 8 gives the expression for the difference of the two sides of formula (1) (resp. (2)) of V, p. 233, in the form of a primitive of the function $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$ (resp. $f(x) g'(x)$ with $g = f/f'$); on forming the principal part of this new primitive, as an asymptotic expansion of the right-hand side of (1) (resp. (2)), one obtains the right-hand side of the sought-for expansion (see V, p. 247-255).
 
-#### Example 1 {#fvr-v-s3-n6-exa-1 .statement}
+#### Example 1 {#fvr-v-s3-n6-exa-1 .statement tag=08FQ}
 
 Let $f(x) = 1/\log x$ ($x > 1$); we have seen that $\int_a^\lambda dt / \log t \sim x / \log x$, and that the difference $\int_a^\lambda \frac{dt}{\log t} - \frac{\lambda}{\log \lambda}$ is a primitive of $1/(\log x)^2$; one can apply prop. 8 again to this function, so obtaining $\int_a^\lambda dt / (\log t)^2 \sim x / (\log x)^2$. By recursion one thus obtains the expansion
 
@@ -343,7 +343,7 @@ $$
 
 Note that, irrespective of $n$, all the terms of this expansion tend to $+\infty$ with $x$.
 
-#### Example 2 {#fvr-v-s3-n6-exa-2 .statement}
+#### Example 2 {#fvr-v-s3-n6-exa-2 .statement tag=08FR}
 
 Let $f(x) = \frac{e^x}{x^2 + 1}$; one can write $f(x) = \frac{e^x}{x^2} - \frac{e^x}{x^4} + o_1 \left( \frac{e^x}{x^4} \right)$. Prop. 8 gives the expansions
 

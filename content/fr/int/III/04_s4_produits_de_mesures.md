@@ -36,21 +36,21 @@ subsections:
       pdf_page: 99
 statements: 21
 exercises: 8
-content_sha256: d9321168b3b36d9ad30fa2524986103244ffa6409545a942ce2e1f6a21dffb90
+content_sha256: 76e6a1c709632a5bdd1f2ef0798870e4f6d71c2078ea74adfa6b4b912aca4c06
 ---
 
 ## § 4. Produits de mesures
 
 ### 1. Produit de deux mesures
 
-#### Théorème 1 {#int-iii-s4-thm-1 .statement}
+#### Théorème 1 {#int-iii-s4-thm-1 .statement tag=08O8}
 
 *Soient X, Y deux espaces localement compacts, $\lambda$ une mesure sur X, $\mu$ une mesure sur Y; il existe sur $X \times Y$ une mesure $\nu$ et une seule telle que, pour toute fonction $g \in \mathscr{H}(X; \mathbf{C})$ et toute fonction $h \in \mathscr{H}(Y; \mathbf{C})$, on ait*
 $$
 \int g(x)h(y)\, d\nu(x, y) = \left( \int g(x)\, d\lambda(x) \right) \left( \int h(y)\, d\mu(y) \right).
 $$
 
-#### Lemme 1 {#int-iii-s4-lem-1 .statement}
+#### Lemme 1 {#int-iii-s4-lem-1 .statement tag=0E63}
 
 *Soient X, Y deux espaces localement compacts, K (resp. L) une partie compacte de X (resp. Y).
 (i) La restriction à $\mathscr{H}(X \times Y, K \times L; \mathbf{C})$ de la bijection canonique $\omega : \mathscr{F}(X \times Y; \mathbf{C}) \to \mathscr{F}(X; \mathscr{F}(Y; \mathbf{C}))$ (*Ens. R, § 4, n° 14)* est une isométrie de l’espace de Banach $\mathscr{K}(X \times Y, K \times L; \mathbf{C})$ sur l’espace de Banach $\mathscr{K}(X, K ; \mathscr{K}(Y, L ; \mathbf{C}))$.
@@ -69,7 +69,7 @@ identifié à un sous-espace de $\mathscr{K}(X \times Y, K \times L ; \mathbf{C}
 
 Ce lemme étant démontré, notons maintenant que toute partie compacte de $X \times Y$ est contenue dans un produit $K \times L$, où $K$ (resp. $L$) est une partie compacte de $X$ (resp. $Y$). Il résulte donc du lemme 1, (ii) que le sous-espace $\mathscr{K}(X ; \mathbf{C}) \otimes_c \mathscr{K}(Y ; \mathbf{C})$ est *dense* dans $\mathscr{K}(X \times Y ; \mathbf{C})$; comme la relation (1) s’écrit aussi $\nu(g \otimes h) = \lambda(g)\mu(h)$ pour $g \in \mathscr{K}(X ; \mathbf{C}), h \in \mathscr{K}(Y ; \mathbf{C})$, on en déduit aussitôt l’unicité de $\nu$. Pour prouver l’existence de $\nu$, nous utiliserons le lemme suivant:
 
-#### Lemme 2 {#int-iii-s4-lem-2 .statement}
+#### Lemme 2 {#int-iii-s4-lem-2 .statement tag=08OA}
 
 *Les notations étant celles du lemme 1, pour toute fonction* $f \in \mathscr{K}(X \times Y, K \times L ; \mathbf{C})$, *la fonction*
 $$
@@ -89,7 +89,7 @@ $$
 $$
 pour tout $y \in Y$, puis $|v(f)| \leq a_K b_L \|f\|$. La forme linéaire $v$ sur $\mathscr{K}(X \times Y; \mathbf{C})$ est donc une mesure sur $X \times Y$ et vérifie (1) de façon évidente, ce qui achève la démonstration du th. 1.
 
-#### Définition 1 {#int-iii-s4-def-1 .statement}
+#### Définition 1 {#int-iii-s4-def-1 .statement tag=08OB}
 
 Etant données deux mesures $\lambda, \mu$ définies respectivement sur deux espaces localement compacts $X, Y$, on appelle mesure produit de $\lambda$ par $\mu$ l’unique mesure $v$ sur $X \times Y$ satisfaisant à la relation (1) pour toute fonction $g \in \mathscr{K}(X; \mathbf{C})$ et toute fonction $h \in \mathscr{K}(Y; \mathbf{C})$.
 
@@ -99,7 +99,7 @@ f \mapsto \int d\lambda(x) \int f(x, y) \, d\mu(y),
 $$
 qui satisfait encore à la condition (1). On a donc démontré le théorème suivant:
 
-#### Théorème 2 {#int-iii-s4-thm-2 .statement}
+#### Théorème 2 {#int-iii-s4-thm-2 .statement tag=08OC}
 
 Soient $\lambda, \mu$ deux mesures définies respectivement sur deux espaces localement compacts $X, Y$. Pour toute fonction $f$ de $\mathscr{K}(X \times Y; \mathbf{C})$, l’intégrale de $f$ par rapport à la mesure produit $v$ de $\lambda$ par $\mu$ a pour valeur
 $$
@@ -121,11 +121,11 @@ $$
 
 La formule (3) montre que si $\lambda$ et $\mu$ sont des mesures réelles (resp. positives), la mesure produit $\nu$ est réelle (resp. positive).
 
-#### Exemple 1 {#int-iii-s4-n1-exa-1 .statement}
+#### Exemple 1 {#int-iii-s4-n1-exa-1 .statement tag=08OD}
 
 La mesure produit des mesures de Dirac $\varepsilon_x$ ($x \in X$) et $\varepsilon_y$ ($y \in Y$) est la mesure de Dirac $\varepsilon_{(x, y)}$.
 
-#### Exemple 2 {#int-iii-s4-n1-exa-2 .statement}
+#### Exemple 2 {#int-iii-s4-n1-exa-2 .statement tag=08OE}
 
 Prenons $X = Y = \mathbf{R}$, et pour $\lambda$ et $\mu$ la *mesure de Lebesgue* (§ 1, n° 3) sur $\mathbf{R}$; leur produit est appelé la *mesure de Lebesgue* sur $\mathbf{R}^2$; l’intégrale d’une fonction $f \in \mathscr{H}(\mathbf{R}^2; \mathbf{C})$ par rapport à cette mesure se note $\int \int f(x, y)\, dx\, dy$ ou $\int \int f(x, y)\, dy\, dx$; la formule (4), pour une fonction nulle hors d’un pavé compact $[a, b] \times [c, d]$, entraîne la formule
 $$
@@ -135,7 +135,7 @@ démontrée dans *Fonct. var. réelle*, chap. II, § 3, n° 6.
 
 Comme la mesure de Lebesgue sur $\mathbf{R}$ est invariante par toute translation (§ 1, n° 3), il en résulte aussitôt que la mesure de Lebesgue sur $\mathbf{R}^2$ est *invariante par toute translation de $\mathbf{R}^2$*.
 
-#### Remarque {#int-iii-s4-n1-rem-1 .statement}
+#### Remarque {#int-iii-s4-n1-rem-1 .statement tag=08OF}
 
 Soit $E$ un espace localement convexe séparé, et soit $f$ une application de $\mathscr{H}(X \times Y; E)$ telle que $f(X \times Y)$ soit contenu dans une partie *convexe complète* $C$ de $E$. Pour tout $y \in Y$, l’intégrale $h(y) = \int f(x, y)\, d\lambda(x)$ appartient alors à $E$ (§ 3, n° 3, prop. 7); en outre, la fonction $h$ appartient à $\mathscr{H}(Y; E)$: en effet, pour tout $z' \in E'$, on a
 $$
@@ -165,7 +165,7 @@ Si $\lambda$ (resp. $\mu$) est une mesure sur $X$ (resp. $Y$) et $\nu$ la mesure
 
 L’application $(\lambda, \mu) \mapsto \lambda \otimes \mu$ de $\mathscr{M}(X; \mathbf{C}) \times \mathscr{M}(Y; \mathbf{C})$ dans $\mathscr{M}(X \times Y; \mathbf{C})$ est évidemment bilinéaire, en vertu de la formule (3) du n° 1.
 
-#### Proposition 1 {#int-iii-s4-prop-1 .statement}
+#### Proposition 1 {#int-iii-s4-prop-1 .statement tag=08OG}
 
 *Soient $\lambda$ une mesure sur $X$, $\mu$ une mesure $Y$; si $g \in \mathscr{C}(X; \mathbf{C}), h \in \mathscr{C}(Y; \mathbf{C}),$ on a*
 $$(6)$$
@@ -180,13 +180,13 @@ $$
 $$
 ce qui prouve la formule (6).
 
-#### Proposition 2 {#int-iii-s4-prop-2 .statement}
+#### Proposition 2 {#int-iii-s4-prop-2 .statement tag=08OH}
 
 *Le support du produit $\lambda \otimes \mu$ est égal au produit du support de $\lambda$ et du support de $\mu$.*
 
 Remarquons en premier lieu que la relation $\lambda \otimes \mu = 0$ entraîne que l’une des mesures $\lambda, \mu$ est nulle (*Alg.*, chap. II, 3e éd., § 7, n° 7, prop. 16, (ii)). D’autre part, si $U$ (resp. $V$) est un ensemble ouvert dans $X$ (resp. $Y$), la restriction de $\lambda \otimes \mu$ au produit $U \times V$ est le produit des restrictions de $\lambda$ à $U$ et de $\mu$ à $V$, comme il résulte du th. 1 du n° 1 et de la définition de la restriction d’une mesure à un ensemble ouvert (§ 2, n° 1). Pour que la restriction de $\lambda \otimes \mu$ à $U \times V$ soit nulle, il faut et il suffit par conséquent que la restriction de $\lambda$ à $U$ ou la restriction de $\mu$ à $V$ soit nulle, ce qui démontre la proposition, compte tenu de la définition du support d’une mesure (§ 2, n° 2).
 
-#### Proposition 3 {#int-iii-s4-prop-3 .statement}
+#### Proposition 3 {#int-iii-s4-prop-3 .statement tag=08OI}
 
 *Soient* $\lambda \in \mathscr{M}(X; \mathbf{C})$, $\mu \in \mathscr{M}(Y; \mathbf{C})$. *On a*
 $$
@@ -233,7 +233,7 @@ $$
 
 Toute fonction de $\mathscr{K}(X; \mathbf{C})$ (resp. $\mathscr{K}(Y; \mathbf{C})$) étant combinaison linéaire de fonctions de $\mathscr{K}_+(X)$ (resp. $\mathscr{K}_+(Y)$), la formule précédente est encore vraie pour $u \in \mathscr{K}(X; \mathbf{C})$ et $v \in \mathscr{K}(Y; \mathbf{C})$; la proposition résulte donc de ce que $\mathscr{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathscr{K}(Y; \mathbf{C})$ est dense dans $\mathscr{K}(X \times Y; \mathbf{C})$.
 
-#### Corollaire {#int-iii-s4-n2-cor-1 .statement}
+#### Corollaire {#int-iii-s4-n2-cor-1 .statement tag=08OJ}
 
 Soient $\lambda \in \mathscr{M}(X; \mathbf{R}), \mu \in \mathscr{M}(Y; \mathbf{R})$. Alors on a
 $$
@@ -250,7 +250,7 @@ $$
 $$
 On raisonne de même pour $(\lambda \otimes \mu)^-$.
 
-#### Proposition 4 {#int-iii-s4-prop-4 .statement}
+#### Proposition 4 {#int-iii-s4-prop-4 .statement tag=08OK}
 
 Soient $\lambda \in \mathscr{M}(X; \mathbf{C}), \mu \in \mathscr{M}(Y; \mathbf{C})$. On a
 $$
@@ -278,13 +278,13 @@ deux nombres réels $\geq 0$. Il existe $g \in \mathscr{K}_+(X), h \in \mathscr{
 
 ### 3. Continuité des mesures produits
 
-#### Proposition 5 {#int-iii-s4-prop-5 .statement}
+#### Proposition 5 {#int-iii-s4-prop-5 .statement tag=08OL}
 
 Pour toute mesure $\lambda_0 \in \mathscr{M}(X; \mathbf{C})$, l’application $\mu \mapsto \lambda_0 \otimes \mu$ de $\mathscr{M}(Y; \mathbf{C})$ dans $\mathscr{M}(X \times Y; \mathbf{C})$ est vaguement continue.
 
 En effet, pour toute fonction $f \in \mathscr{K}(X \times Y; \mathbf{C})$, on sait que la fonction $h(y) = \int f(x, y) d\lambda_0(x)$ appartient à $\mathscr{K}(Y; \mathbf{C})$ (n° 1, lemme 2), et l’on a $\langle f, \lambda_0 \otimes \mu \rangle = \langle h, \mu \rangle$, d’où la proposition.
 
-#### Proposition 6 {#int-iii-s4-prop-6 .statement}
+#### Proposition 6 {#int-iii-s4-prop-6 .statement tag=08OM}
 
 Lorsqu’on munit $\mathscr{M}(X; \mathbf{C}), \mathscr{M}(Y; \mathbf{C})$ et $\mathscr{M}(X \times Y; \mathbf{C})$ de la topologie de la convergence strictement compacte (§ 1, n° 10), l’application bilinéaire $(\lambda, \mu) \mapsto \lambda \otimes \mu$ de $\mathscr{M}(X; \mathbf{C}) \times \mathscr{M}(Y; \mathbf{C})$ dans $\mathscr{M}(X \times Y; \mathbf{C})$ est hypocontinue pour les ensembles de parties vaguement bornées de $\mathscr{M}(X; \mathbf{C})$ et $\mathscr{M}(Y; \mathbf{C})$ (Esp. vect. top., chap. III, § 4, n° 2).
 
@@ -322,7 +322,7 @@ $$
 \langle f_1 \otimes f_2 \otimes \cdots \otimes f_n, \mu_1 \otimes \mu_2 \otimes \cdots \otimes \mu_n \rangle = \prod_{i=1}^n \langle f_i, \mu_i \rangle.
 $$
 
-#### Proposition 7 (« associativité du produit de mesures ») {#int-iii-s4-prop-7 .statement}
+#### Proposition 7 (« associativité du produit de mesures ») {#int-iii-s4-prop-7 .statement tag=08ON}
 Soit $(I_k)_{1 \leq k \leq r}$ une partition de l’intervalle $[1, n]$ dans $\mathbf{N}$; on a
 
 $$
@@ -401,11 +401,11 @@ Considérons maintenant un ensemble préordonné filtrant I, un système project
 
 Il est clair que $(\mathscr{M}(X_\alpha ; \mathbf{C}), (p_{\alpha\beta})_* )$ est un système projectif d’espaces vectoriels, et que $((p_\alpha)_*)$ est un système projectif d’applications linéaires, ce qui justifie la définition suivante:
 
-#### Définition 2 {#int-iii-s4-def-2 .statement}
+#### Définition 2 {#int-iii-s4-def-2 .statement tag=08OO}
 
 On dit qu’une famille $(\mu_\alpha)_{\alpha \in I}$, où, pour tout $\alpha \in I$, $\mu_\alpha$ est une mesure sur $X_\alpha$, est un système projectif de mesures si, pour $\alpha \leq \beta$, on a $\mu_\alpha = (p_{\alpha\beta})_*(\mu_\beta)$. On dit qu’une mesure $\mu$ sur $X = \lim_{\leftarrow} X_\alpha$ est limite projective du système projectif $(\mu_\alpha)$ si, pour tout $\alpha \in I$, on a $\mu_\alpha = (p_\alpha)_*(\mu)$.
 
-#### Proposition 8 {#int-iii-s4-prop-8 .statement}
+#### Proposition 8 {#int-iii-s4-prop-8 .statement tag=08OP}
 
 (i) Si un système projectif $(\mu_\alpha)$ de mesures sur les $X_\alpha$ admet une limite projective, celle-ci est unique.
 
@@ -417,7 +417,7 @@ On dit qu’une famille $(\mu_\alpha)_{\alpha \in I}$, où, pour tout $\alpha \i
 
 (i) Nous prouverons d’abord le lemme suivant:
 
-#### Lemme 3 {#int-iii-s4-lem-3 .statement}
+#### Lemme 3 {#int-iii-s4-lem-3 .statement tag=08OQ}
 
 Soit $F$ l’ensemble des fonctions $f \in \mathscr{C}(X ; \mathbf{C})$ ayant la propriété suivante: il existe un $\alpha \in I$ et une fonction $f_\alpha \in \mathscr{C}(X_\alpha ; \mathbf{C})$ tels que $f = f_\alpha \circ p_\alpha$. Alors $F$ est un sous-espace vectoriel partout dense de $\mathscr{C}(X ; \mathbf{C})$.
 
@@ -457,7 +457,7 @@ puisque $p_\alpha$ est surjective. Ceci montre que la forme linéaire $\lambda$ 
 
 (iv) Pour prouver l’existence de $\mu$, il suffit, en vertu de (iii), de vérifier que la famille des normes ($\|\mu_\alpha\|$) est bornée. Mais on a $\|\mu_\alpha\| = \mu_\alpha(1)$, et pour $\alpha \leq \beta$, la relation $\mu_\alpha = (p_{\alpha\beta})_*(\mu_\beta)$ entraîne que $\mu_\alpha(1) = \mu_\beta(1)$; comme I est filtrant, les masses totales de toutes les mesures $\mu_\alpha$ sont donc égales, d’où notre assertion. En outre, le sous-espace F vérifie de façon évidente la propriété (P) du § 1, n° 7, prop. 9, donc la mesure $\mu$, limite projective de $(\mu_\alpha)$, est positive. Enfin la relation $\mu_\alpha = (p_\alpha)_*(\mu)$ montre comme ci-dessus que $\mu(1) = \mu_\alpha(1)$.
 
-#### Exemple {#int-iii-s4-n5-exa-1 .statement}
+#### Exemple {#int-iii-s4-n5-exa-1 .statement tag=08OR}
 
 Soit $(X_\lambda)_{\lambda \in L}$ une famille d’espaces compacts; posons $X = \prod_{\lambda \in L} X_\lambda$, et pour toute partie finie J de L, posons $X_J = \prod_{\lambda \in J} X_\lambda$; désignons par $\mathrm{pr}_J : X \to X_J$, et $\mathrm{pr}_{J,K} : X_K \to X_J$ (pour $J \subset K$) les projections canoniques. On sait que $(X_J, \mathrm{pr}_{JK})$ est un système projectif d’espaces compacts, et que la limite projective du système d’applications continues $(\mathrm{pr}_J)$ est un homéomorphisme de X sur l’espace limite projective $\lim_{\leftarrow} X_J$, permettant d’identifier ces deux espaces (Top. gén., chap. I, 3e éd., § 4, n° 4 et Ens. chap. III, 2e éd., § 7, n° 2, Remarque 3). Comme les projections $\mathrm{pr}_{J,K}$ sont surjectives, il résulte de la prop. 8 que l’ensemble $\mathscr{M}(X ; C)$ (resp. $\mathscr{M}_+(X)$) s’identifie à l’ensemble des systèmes projectifs $(\mu_J)$ tels que la famille des normes ($\|\mu_J\|$) soit bornée (resp. tels que les $\mu_J$ soient toutes positives, et nécessairement de même masse totale).
 
@@ -473,7 +473,7 @@ Pour que $(\mu_J)$ soit un système projectif de mesures, il faut et il suffit d
 
 Soit $(X_\lambda)_{\lambda \in L}$ une famille d’espaces compacts, et pour tout $\lambda \in L$, soit $\mu_\lambda$ une mesure sur $X_\lambda$. Gardons les notations de l’Exemple du n° 5, de sorte qu’en particulier on a $\mu_J = \bigotimes_{\lambda \in J} \mu_\lambda$ pour toute partie finie $J$ de $L$.
 
-#### Proposition 9 {#int-iii-s4-prop-9 .statement}
+#### Proposition 9 {#int-iii-s4-prop-9 .statement tag=08OS}
 
 *Supposons que toutes les mesures $\mu_\lambda$ soient positives et que la famille $(\mu_\lambda(1))_{\lambda \in L}$ soit multipliable dans $\mathbf{R}_+$ (le produit pouvant avoir la valeur 0). Alors il existe sur $X$ une mesure $\mu$ et une seule telle que, pour toute partie finie $J$ de $L$ et toute fonction $f_J \in \mathscr{C}(X_J; \mathbf{C})$, on ait*
 
@@ -500,7 +500,7 @@ $$
 $$
 On dit que la mesure $\mu$ définie dans la prop. 9 est la mesure produit de la famille de mesures positives $(\mu_\lambda)_{\lambda \in L}$, et on la note $\bigotimes_{\lambda \in L} \mu_\lambda$.
 
-#### Corollaire {#int-iii-s4-n6-cor-1 .statement}
+#### Corollaire {#int-iii-s4-n6-cor-1 .statement tag=08OT}
 
 Supposons vérifiées les conditions de la prop. 9, et soit $(L_\rho)_{\rho \in R}$ une partition de L. Alors chacune des familles de mesures $(\mu_\lambda)_{\lambda \in L_\rho}$ admet une mesure produit, la famille des mesures produits $\left( \bigotimes_{\lambda \in L_\rho} \mu_\lambda \right)_{\rho \in R}$ admet une mesure produit, et l’on a
 $$

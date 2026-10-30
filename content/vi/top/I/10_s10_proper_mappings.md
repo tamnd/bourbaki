@@ -28,7 +28,7 @@ subsections:
       pdf_page: 111
 statements: 30
 exercises: 20
-content_sha256: 8621fe89040162ff1d85817105649a60b2048c073393d4fa065ded0a559495e9
+content_sha256: 0897c4ef82d35482ac6e05b82626b4304879976c58a2c350cda71a730895e621
 translated_from: content/en/top/I/10_s10_proper_mappings.md
 source_content_sha256: a578ae95d7d778d449c8eae63c8c9ece381c7729d0159c7fbf2afbdd42950e28
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -46,11 +46,11 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Nếu $f : X \to Y$ và $f' : X' \to Y'$ là hai ánh xạ *liên tục đóng*, thì tích $f \times f' : X \times X' \to Y \times Y'$ không nhất thiết là một ánh xạ đóng, ngay cả khi $f$ có dạng $\iota_X$.
 
-#### Ví dụ {#top-i-s10-n1-exa-1 .statement}
+#### Ví dụ {#top-i-s10-n1-exa-1 .statement tag=0BA1}
 
 Mọi ánh xạ hằng vào một không gian Hausdorff đều đóng. Nhưng nếu $f$ là ánh xạ hằng $Q \to 0$, thì $f \times \iota_Q$ là ánh xạ $(x, y) \to (0, y)$ của $Q^2$ vào $Q^2$, do đó nó là phép chiếu thứ hai và không đóng (§ 4, no. 2, Nhận xét 1).
 
-#### Định nghĩa 1 {#top-i-s10-def-1 .statement}
+#### Định nghĩa 1 {#top-i-s10-def-1 .statement tag=0BA2}
 
 *Cho $f$ là một ánh xạ của một không gian tôpô $X$ vào một không gian tôpô $Y$. Ta nói $f$ là thực sự nếu $f$ liên tục và nếu ánh xạ $f \times \iota_Z : X \times Z \to Y \times Z$ là đóng, với mọi không gian tôpô $Z$.*
 
@@ -58,11 +58,11 @@ Ta sẽ đưa ra các đặc trưng khác của các ánh xạ thực sự trong
 
 Nếu trong Định nghĩa 1 ta lấy không gian $Z$ gồm một điểm duy nhất, ta thấy rằng:
 
-#### Mệnh đề 1 {#top-i-s10-prop-1 .statement}
+#### Mệnh đề 1 {#top-i-s10-prop-1 .statement tag=0BA3}
 
 *Mọi ánh xạ thực sự đều đóng.*
 
-#### Mệnh đề 2 {#top-i-s10-prop-2 .statement}
+#### Mệnh đề 2 {#top-i-s10-prop-2 .statement tag=0BA4}
 
 *Cho $f : X \to Y$ là một đơn ánh liên tục. Khi đó ba mệnh đề sau là tương đương:*
 a) $f$ là thực sự.
@@ -71,7 +71,7 @@ c) $f$ là một đồng phôi của $X$ lên một tập con đóng của $Y$.
 
 Ta vừa thấy rằng a) suy ra b). Vì quan hệ tương đương $f(x) = f(x')$ là quan hệ đẳng thức, không gian thương của $X$ đối với quan hệ này có thể được đồng nhất với $X$; do đó b) suy ra c) theo § 5, no. 2, Mệnh đề 3. Cuối cùng, nếu c) được thỏa mãn thì $f \times \iota_Z$ là một đồng phôi của $X \times Z$ lên một không gian con đóng của $Y \times Z$ và do đó là một ánh xạ đóng; vì vậy c) suy ra a).
 
-#### Mệnh đề 3 {#top-i-s10-prop-3 .statement}
+#### Mệnh đề 3 {#top-i-s10-prop-3 .statement tag=0BA5}
 
 *Cho $f : X \to Y$ là một ánh xạ liên tục. Nếu $T$ là một tập con bất kỳ của $Y$, gọi $f_T$ là ánh xạ $\overline{f}^{-1}(T) \to T$ trùng với $f$ trên $\overline{f}^{-1}(T)$.*
 
@@ -88,7 +88,7 @@ $$
 $$
 là đóng, do đó $f \times \iota_Z$ là đóng [§ 5, no. 1, Mệnh đề 2 b)]. Điều này hoàn thành chứng minh.
 
-#### Mệnh đề 4 {#top-i-s10-prop-4 .statement}
+#### Mệnh đề 4 {#top-i-s10-prop-4 .statement tag=0BA6}
 
 *Cho $I$ là một tập hợp hữu hạn và với mỗi $i \in I$ cho $f_i : X_i \to Y_i$ là một ánh xạ liên tục. Cho $X = \prod_{i \in I} X_i, \ Y = \prod_{i \in I} Y_i,$ và cho $f : X \to Y$* là ánh xạ tích $(x_i) \to (f_i(x_i))$. Khi đó:
 a) *Nếu mỗi $f_i$ là thực sự, thì $f$ là thực sự.*
@@ -105,7 +105,7 @@ hai ánh xạ này là đóng theo giả thiết, do đó $f_1 \times f_2 \times
 
 b) Bây giờ giả sử $f$ là thực sự. Cho $F$ là một tập con đóng của $X_2 \times Z$ và cho $G$ là ảnh của $F$ trong $Y_2 \times Z$ theo ánh xạ $f_2 \times \iota_Z$. Khi đó ảnh của $X_1 \times F$ trong $Y_1 \times Y_2 \times Z$ theo $f_1 \times f_2 \times \iota_Z$ là $f_1(X_1) \times G$. Theo giả thiết, tập này là đóng trong $Y_1 \times Y_2 \times Z$; nếu $X_1 \neq \emptyset$, thì $f_1(X_1)$ không rỗng, điều này suy ra rằng $G$ là đóng trong $Y_2 \times Z$ (§ 4, no. 3, Hệ quả của Mệnh đề 7); do đó $f_2$ là thực sự. Tương tự $f_1$ là thực sự nếu $X_2 \neq \emptyset$.
 
-#### Mệnh đề 5 {#top-i-s10-prop-5 .statement}
+#### Mệnh đề 5 {#top-i-s10-prop-5 .statement tag=0BA7}
 
 *Cho $f : X \to X'$ và $g : X' \to X''$ là hai ánh xạ liên tục.*
 a) *Nếu $f$ và $g$ là thực sự, thì $g \circ f$ là thực sự.*
@@ -129,29 +129,29 @@ $$
 
 trong đó $\varphi(x) = (x, f(x))$ và $\psi(x') = (g(x'), x')$. Ánh xạ $\varphi$ (tương ứng $\psi$) là một đồng phôi của $X$ (tương ứng $X'$) lên đồ thị của $f$ (tương ứng ảnh phản xạ của đồ thị của $g$) (§ 4, no. 1, Mệnh đề 1, Hệ quả 2). Hơn nữa, vì $X'$ là Hausdorff, đồ thị $\varphi(X)$ của $f$ là đóng trong $X \times X'$ (§ 8, no. 1, Mệnh đề 2, Hệ quả 2). Do đó (Mệnh đề 2) $\varphi$ là thực sự; mặt khác Mệnh đề 4 chỉ ra rằng $(g \circ f) \times i_{X'}$ là thực sự. Theo a) ở trên và tính giao hoán của biểu đồ (1), $\psi \circ f$ là thực sự; nhưng $\psi$ là đơn ánh và do đó $f$ là thực sự theo c) ở trên.
 
-#### Nhận xét {#top-i-s10-n1-rem-1 .statement}
+#### Nhận xét {#top-i-s10-n1-rem-1 .statement tag=0BA8}
 
 Nếu $X'$ không là Hausdorff thì có thể xảy ra rằng $g \circ f$ là thực sự còn $f$ thì không; chẳng hạn, lấy $X$ và $X''$ gồm một điểm và $X'$ gồm hai điểm, với tôpô thô nhất.
 
-#### Hệ quả 1 {#top-i-s10-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#top-i-s10-prop-5-cor-1 .statement tag=0BA9}
 
 *Nếu $f : X \to Y$ là một ánh xạ thực sự, thì hạn chế của $f$ lên một tập con đóng $F$ của $X$ là một ánh xạ thực sự của $F$ vào $Y$.*
 
 Vì hạn chế này là hợp thành $f \circ j$, trong đó $j : F \to X$ là đơn ánh chính tắc, và là thực sự theo Mệnh đề 2.
 
-#### Hệ quả 2 {#top-i-s10-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#top-i-s10-prop-5-cor-2 .statement tag=0BAA}
 
 *Cho $f : X \to Y$ là một ánh xạ thực sự, trong đó $X$ là Hausdorff. Khi đó không gian con $f(X)$ của $Y$ là Hausdorff.*
 
 Theo Mệnh đề 5 c), ta chỉ cần xét trường hợp $f(X) = Y$. Khi đó đường chéo của $Y \times Y$ là ảnh qua $f \times f$ của đường chéo của $X$, vốn đóng (§ 8, no. 1, Mệnh đề 1); $f \times f$ là thực sự (Mệnh đề 4); do đó đường chéo của $Y \times Y$ là đóng (Mệnh đề 1) và vì vậy $Y$ là Hausdorff (§ 8, no. 1, Mệnh đề 1).
 
-#### Hệ quả 3 {#top-i-s10-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#top-i-s10-prop-5-cor-3 .statement tag=0BAB}
 
 *Cho $I$ là một tập hợp hữu hạn và với mỗi $i \in I$, cho $f_i : X \to Y_i$ là một ánh xạ thực sự. Nếu $X$ là Hausdorff, thì ánh xạ $x \mapsto (f_i(x))$ của $X$ vào $\prod_{i \in I} Y_i$ là thực sự.*
 
 Ánh xạ này là hợp thành của ánh xạ tích $(x_i) \mapsto (f_i(x_i))$ của $X^I$ vào $\prod_i Y_i$ và ánh xạ đường chéo của $X$ vào $X^I$; vì ánh xạ sau là thực sự (theo Mệnh đề 2 và § 8, no. 1, Mệnh đề 1) nên kết luận suy ra từ Mệnh đề 4 và Mệnh đề 5 a).
 
-#### Hệ quả 4 {#top-i-s10-prop-5-cor-4 .statement}
+#### Hệ quả 4 {#top-i-s10-prop-5-cor-4 .statement tag=0BAC}
 
 *Cho $X$ và $Y$ là hai không gian tôpô, $f : X \to Y$ là một ánh xạ liên tục, $R$ là quan hệ tương đương $f(x) = f(y)$ trên $X$, và*
 $$
@@ -165,7 +165,7 @@ Các điều kiện là đủ theo Mệnh đề 5 a) và Mệnh đề 2. Ngượ
 
 Trong tiểu mục này ta sẽ ký hiệu bởi $P$ một không gian gồm một điểm duy nhất, với tôpô duy nhất của nó.
 
-#### Bổ đề 1 {#top-i-s10-lem-1 .statement}
+#### Bổ đề 1 {#top-i-s10-lem-1 .statement tag=0BAD}
 
 *Cho $X$ là một không gian tôpô sao cho ánh xạ hằng $X \to P$ là thực sự. Khi đó $X$ là quasi-compact.*
 
@@ -175,7 +175,7 @@ Chúng ta có thể tự hạn chế vào trường hợp $X$ không rỗng. Cho
 
 Q.E.D.
 
-#### Định lý 1 {#top-i-s10-thm-1 .statement}
+#### Định lý 1 {#top-i-s10-thm-1 .statement tag=0BAE}
 
 *Cho $f : X \to Y$ là một ánh xạ liên tục. Bốn mệnh đề sau là tương đương:
 
@@ -194,7 +194,7 @@ d) $\Longrightarrow$ a): Trước hết, ta chứng minh rằng nếu d) đượ
 
 Để hoàn tất chứng minh, ta phải chỉ ra rằng $f \times \iota_Z$ là đóng với mọi không gian tôpô $Z$. Từ những gì đã chứng minh, chỉ cần chỉ ra rằng nếu $f$ thỏa mãn điều kiện d), thì $f \times \iota_Z$ cũng vậy. Đây là một hệ quả của bổ đề tổng quát sau:
 
-#### Bổ đề 2 {#top-i-s10-lem-2 .statement}
+#### Bổ đề 2 {#top-i-s10-lem-2 .statement tag=0BAF}
 
 *Nếu* $(f_i)_{i \in I}$ *là một họ các ánh xạ liên tục* $f_i : X_i \to Y_i$, *mỗi ánh xạ đều thỏa mãn điều kiện d)* của Định lý 1, *thì ánh xạ tích*
 $$
@@ -204,19 +204,19 @@ $$
 
 Cho $U$ là một siêu lọc trên $X = \prod_i X_i$, và cho $y = (y_i)$ là một điểm của $Y = \prod_i Y_i$ sao cho $f(U)$ hội tụ về $y$. Điều này có nghĩa là mỗi cơ sở siêu lọc $\operatorname{pr}_i(f(U)) = f_i(\operatorname{pr}_i(U))$ đều hội tụ về $y_i$ (§ 7, no. 6, Mệnh đề 10, Hệ quả 1). Theo điều kiện d), với mỗi $i \in I$ tồn tại $x_i \in X_i$ sao cho $f_i(x_i) = y_i$ và $\operatorname{pr}_i(U)$ hội tụ về $x_i$; nhưng khi đó $U$ hội tụ về $x = (x_i)$ (_chỗ đã dẫn_) và ta có $f(x) = y$. Điều này hoàn tất chứng minh Bổ đề 2 và do đó cả Định lý 1.
 
-#### Hệ quả 1 {#top-i-s10-lem-2-cor-1 .statement}
+#### Hệ quả 1 {#top-i-s10-lem-2-cor-1 .statement tag=0BAG}
 
 _Một không gian tôpô_ $X$ _là gần compact khi và chỉ khi ánh xạ_ $X \to P$ _là thực sự_.
 
 Áp dụng a) $\iff$ b) cho $X \to P$.
 
-#### Hệ quả 2 {#top-i-s10-lem-2-cor-2 .statement}
+#### Hệ quả 2 {#top-i-s10-lem-2-cor-2 .statement tag=0BAH}
 
 _Mọi ánh xạ liên tục_ $f$ _của một không gian gần compact_ $X$ _vào một không gian Hausdorff_ $Y$ _đều là thực sự_.
 
 Hợp thành $X \xrightarrow{f} Y \to P$ là thực sự theo Hệ quả 1; do đó $f$ là thực sự theo no. 1, Mệnh đề 5 d). Ngoài ra, ta có thể áp dụng tiêu chuẩn b) của Định lý 1, sử dụng § 9, no. 4, Định lý 2, Hệ quả 2.
 
-#### Hệ quả 3 {#top-i-s10-lem-2-cor-3 .statement}
+#### Hệ quả 3 {#top-i-s10-lem-2-cor-3 .statement tag=0BAI}
 
 _Nếu_ $(f_i)$ _là một họ các ánh xạ thực sự, thì ánh xạ tích_ $(x_i) \to (f_i(x_i))$ _là thực sự_.
 
@@ -224,23 +224,23 @@ Theo Định lý 1, đây chính là Bổ đề 2 ở trên.
 
 Nếu áp dụng hệ quả này cho họ các ánh xạ $X_i \to P$ và sử dụng Hệ quả 1, ta được định lý Tychonoff (§ 9, no 5, Định lý 3).
 
-#### Hệ quả 4 {#top-i-s10-lem-2-cor-4 .statement}
+#### Hệ quả 4 {#top-i-s10-lem-2-cor-4 .statement tag=0BAJ}
 
 _Cho_ $X$ _là một không gian Hausdorff, và cho_ $f_i : X \to Y_i$ _là một họ các ánh xạ thực sự. Khi đó ánh xạ_ $f : x \to (f_i(x))$ _từ_ $X$ _vào_ $\prod_i Y_i$ _là thực sự_.
 
 Chứng minh giống như trong trường hợp một họ hữu hạn (no. 1, Mệnh đề 5, Hệ quả 3), sử dụng Hệ quả 3 ở trên và sự kiện đường chéo của $X^1$ là đóng (§ 8, no. 1, Mệnh đề 1).
 
-#### Hệ quả 5 {#top-i-s10-lem-2-cor-5 .statement}
+#### Hệ quả 5 {#top-i-s10-lem-2-cor-5 .statement tag=0BAK}
 
 _Nếu_ $X$ _là một không gian gần compact bất kỳ và_ $Y$ _là một không gian tôpô bất kỳ, thì phép chiếu_ $\mathrm{pr}_2 : X \times Y \to Y$ _là thực sự_.
 
 Vì ta có thể đồng nhất $Y$ với $P \times Y$ và $\mathrm{pr}_2$ với tích của $X \to P$ và $\iota_Y$, cả hai đều là các ánh xạ thực sự.
 
-#### Ví dụ {#top-i-s10-n2-exa-1 .statement}
+#### Ví dụ {#top-i-s10-n2-exa-1 .statement tag=0BAL}
 
 Cho $X$ là một tập hợp, và cho $f : X \to X'$ là một ánh xạ từ $X$ lên một không gian tôpô $X'$; trang bị cho $X$ tôpô là ảnh ngược qua $f$ của tôpô của $X'$. Khi đó $f$ là _thực sự_, vì $f$ là đóng (§ 5, no. 1, Ví dụ 3) và ảnh ngược của một điểm của $X'$ là một không gian con của $X$ có tôpô là tôpô thô nhất và do đó là gần compact.
 
-#### Nhận xét {#top-i-s10-n2-rem-1 .statement}
+#### Nhận xét {#top-i-s10-n2-rem-1 .statement tag=0BAM}
 
 Khi $Y$ là _Hausdorff_, điều kiện d) của Định lý 1 tương đương với điều kiện sau:
 
@@ -254,7 +254,7 @@ Vì c) $\Longrightarrow$ c') $\Longrightarrow$ d') $\Longrightarrow$ d) $\Longri
 
 Mặt khác, nếu Y không là Hausdorff, thì d') không còn suy ra d); chẳng hạn, lấy X gồm một điểm và Y gồm hai điểm, với tôpô thô nhất.
 
-#### Mệnh đề 6 {#top-i-s10-prop-6 .statement}
+#### Mệnh đề 6 {#top-i-s10-prop-6 .statement tag=0BAN}
 
 *Cho $f : X \to Y$ là một ánh xạ thực sự, và K là một tập con quasi-compact của Y. Khi đó $\overline{f}^{-1}(K)$ là quasi-compact.*
 
@@ -262,13 +262,13 @@ Theo Mệnh đề 3 của no. 1, ánh xạ $f_K : \overline{f}^{-1}(K) \to K$ l�
 
 ### 3. ÁNH XẠ THỰC SỰ VÀO CÁC KHÔNG GIAN ĐỊA PHƯƠNG COMPACT
 
-#### Mệnh đề 7 {#top-i-s10-prop-7 .statement}
+#### Mệnh đề 7 {#top-i-s10-prop-7 .statement tag=0BAO}
 
 *Cho f là một ánh xạ liên tục từ một không gian Hausdorff X vào một không gian địa phương compact Y. Khi đó f là thực sự khi và chỉ khi ảnh ngược qua f của mọi tập con compact của Y là compact. Hơn nữa, nếu f là thực sự thì X là địa phương compact.*
 
 Nếu f là thực sự và K là một tập con compact của Y, thì $\overline{f}^{-1}(K)$ là compact theo Mệnh đề 6 của no. 2. Ngược lại, nếu điều kiện này được thỏa mãn, cho $(\mathbf{U}_\alpha)$ là một phủ của Y bởi các tập mở tương đối compact. Khi đó các tập $\overline{f}^{-1}(\overline{\mathbf{U}}_\alpha)$ là compact trong X và phần trong của chúng phủ X; vì X là Hausdorff, điều này cho thấy X là địa phương compact. Hơn nữa, mỗi ánh xạ $f_{\overline{\mathbf{U}}_\alpha} : \overline{f}^{-1}(\alpha \overline{\mathbf{U}}) \to \overline{\mathbf{U}}_\alpha$ là thực sự (no. 2, Định lý 1, Hệ quả 2) và do đó f là thực sự theo Mệnh đề 3 b) của no. 1.
 
-#### Hệ quả {#top-i-s10-n3-cor-1 .statement}
+#### Hệ quả {#top-i-s10-n3-cor-1 .statement tag=0BAP}
 
 *Cho X, X' là hai không gian địa phương compact, và cho Y (t.ư. Y') là không gian compact thu được bằng cách thêm một điểm ở vô cực $\omega$ (t.ư. $\omega'$) vào X (t.ư. X') (§ 9, no. 8). Khi đó một ánh xạ liên tục $f : X \to X'$ là thực sự khi và chỉ khi mở rộng của nó $\overline{f} : Y \to Y'$, sao cho $\overline{f}(\omega) = \omega'$, là liên tục.*
 
@@ -276,7 +276,7 @@ Theo Mệnh đề 7, f là thực sự khi và chỉ khi, với mỗi tập con 
 
 ### 4. KHÔNG GIAN THƯƠNG CỦA CÁC KHÔNG GIAN COMPACT VÀ CÁC KHÔNG GIAN ĐỊA PHƯƠNG COMPACT
 
-#### Mệnh đề 8 {#top-i-s10-prop-8 .statement}
+#### Mệnh đề 8 {#top-i-s10-prop-8 .statement tag=0BAQ}
 
 Cho $X$ là một không gian compact, $R$ một quan hệ tương đương trên $X$, $C$ là đồ thị của $R$ trong $X \times X$, $f$ là ánh xạ chính tắc $X \to X/R$. Khi đó các điều kiện sau là tương đương:
 
@@ -292,7 +292,7 @@ $R$ đóng khi và chỉ khi $f$ đóng; do đó b) suy ra c) theo Định lý 1
 
 Cuối cùng, hiển nhiên rằng nếu $X/R$ là Hausdorff thì nó là compact ($\S$ 9, no. 4, Định lý 2).
 
-#### Mệnh đề 9 {#top-i-s10-prop-9 .statement}
+#### Mệnh đề 9 {#top-i-s10-prop-9 .statement tag=0BAR}
 
 Cho $X$ là một không gian địa phương compact, $R$ là một quan hệ tương đương trên $X$, $C$ là đồ thị của $R$ trong $X \times X$, $f$ là ánh xạ chính tắc $X \to X/R$; cho $X'$ là không gian compact thu được bằng cách ghép thêm một điểm ở vô cực $\omega$ vào $X$, và cho $R'$ là quan hệ tương đương trên $X'$ có đồ thị là $C' = C \cup \{(\omega, \omega)\}$. Khi đó các điều kiện sau là tương đương:
 
@@ -324,15 +324,15 @@ Cuối cùng ta phải chứng minh rằng $X/R$ là compact địa phương. $X
 
 Q.E.D.
 
-#### Hệ quả {#top-i-s10-n4-cor-1 .statement}
+#### Hệ quả {#top-i-s10-n4-cor-1 .statement tag=0BAS}
 
 *Một không gian Hausdorff $X$, một không gian tôpô $Y$, và một ánh xạ thực sự $f : X \to Y$. Khi đó $X$ compact (resp. compact địa phương) khi và chỉ khi $f(X)$ compact (resp. compact địa phương), và điều kiện $Y$ compact (resp. compact địa phương) là đủ.*
 
-#### Nhận xét {#top-i-s10-n4-rem-1 .statement}
+#### Nhận xét {#top-i-s10-n4-rem-1 .statement tag=0BAT}
 
 Nếu X compact địa phương nhưng không compact, thì một quan hệ tương đương đóng R trên X không nhất thiết Hausdorff (Chương IX, § 4, Bài tập 14); và ngay cả khi R Hausdorff, X/R không nhất thiết compact địa phương (Bài tập 17). Tuy nhiên, ta có tiêu chuẩn sau:
 
-#### Mệnh đề 10 {#top-i-s10-prop-10 .statement}
+#### Mệnh đề 10 {#top-i-s10-prop-10 .statement tag=0BAU}
 
 Cho X là một không gian compact địa phương, R là một quan hệ tương đương mở Hausdorff trên X, và cho f : X \to X/R là ánh xạ chính tắc. Khi đó X/R compact địa phương, và nếu K' là một tập con compact bất kỳ của X/R thì tồn tại một tập con compact K của X sao cho f(K) = K'.
 

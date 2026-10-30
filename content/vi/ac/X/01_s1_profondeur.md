@@ -49,7 +49,7 @@ subsections:
       pdf_page: 18
 statements: 60
 exercises: 18
-content_sha256: e5c9bd2680591c7d705d813cc53b1419743d0b1ceca7bdb4f11c34510a3fe678
+content_sha256: 79fb5586e67374debdaf3db372c7fe950c25fd38ca51d23249f05cb88842872f
 translated_from: content/en-mt/ac/X/01_s1_profondeur.md
 source_lang: en-mt
 translation_method: machine
@@ -63,7 +63,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 1. ĐỘ SÂU
 
-#### Mệnh đề 1 {#ac-x-s1-prop-1 .statement}
+#### Mệnh đề 1 {#ac-x-s1-prop-1 .statement tag=0D06}
 
 Cho $A$ là một vành, $J$ là một iđêan của $A$ và $0 \to M' \to M \to M'' \to 0$ là một dãy khớp các $A$-môđun. Đặt
 
@@ -85,11 +85,11 @@ b) Môđun khác không đầu tiên là $\operatorname{Ext}_A^p(A/J, M)$. Khi �
 
 c) Môđun khác không đầu tiên là $\operatorname{Ext}_A^{p''}(A/J, M'')$. Khi đó $p'' + 1 = p' \leqslant p$.
 
-#### Nhận xét 5 {#ac-x-s1-rem-5 .statement}
+#### Nhận xét 5 {#ac-x-s1-rem-5 .statement tag=0D07}
 
 Giả sử rằng ta có $p = p'$ và đơn ánh $u : M' \to M$ xuất hiện trong dãy khớp của mệnh đề 1 thuộc $J \operatorname{Hom}_A(M', M)$. *Khi đó ta có* $p'' = p - 1$. Thật vậy, giả thiết kéo theo ánh xạ $\operatorname{Ext}_A^i(1_{A/J}, u)$ bằng không với mọi số nguyên $i$; điều này loại trừ trường hợp a) đã xét ở trên.
 
-#### Mệnh đề 2 {#ac-x-s1-prop-2 .statement}
+#### Mệnh đề 2 {#ac-x-s1-prop-2 .statement tag=0D08}
 
 Cho $A$ là một vành, $J$ là một iđêan của $A$, $M$ là một $A$-môđun và $N$ là một $A$-môđun bị triệt tiêu bởi một lũy thừa của $J$. *Ta có* $\operatorname{Ext}_A^i(N, M) = 0$ *với mọi số nguyên* $i < \operatorname{prof}_A(J; M)$.
 
@@ -115,13 +115,13 @@ $$
 
 suy ra từ dãy khớp $0 \to JN \to N \to N/JN \to 0$. Hai môđun ở hai đầu bằng không theo giả thiết quy nạp, vì $N/JN$ và $JN$ bị triệt tiêu bởi $J^{m-1}$. Vậy ta có $\operatorname{Ext}_A^i(N, M) = 0$, đúng như phải chứng minh.
 
-#### Hệ quả 1 {#ac-x-s1-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s1-prop-2-cor-1 .statement tag=0D09}
 
 Cho m là một số nguyên > 0 và cho J' là một iđêan của A chứa J^m. Ta có prof_A(J ; M) \leq prof_A(J' ; M).
 
 Thật vậy J^m triệt tiêu A-môđun A/J', nên Ext^i_A(A/J', M) bằng không với mọi số nguyên i < prof_A(J ; M) (mệnh đề 2).
 
-#### Hệ quả 2 {#ac-x-s1-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s1-prop-2-cor-2 .statement tag=0D0A}
 
 Giả sử iđêan J là hữu hạn sinh, và cho J' là một iđêan của A sao cho V(J) \supset V(J').
 
@@ -135,7 +135,7 @@ Hệ quả 2 có thể sai khi iđêan J không hữu hạn sinh (bài tập 2).
 
 ### 2. Độ sâu và tính không đồng điều
 
-#### Mệnh đề 3 {#ac-x-s1-prop-3 .statement}
+#### Mệnh đề 3 {#ac-x-s1-prop-3 .statement tag=0D0B}
 
 Cho A là một vành, C là một phức các A-môđun bị chặn về bên trái và p là một số nguyên. Giả sử rằng với mọi cặp số nguyên (m, n) sao cho m \geq n \geq p, độ sâu của A-môđun C_m đối với linh hóa tử của H_n(C) là > m - n. Khi đó ta có H_n(C) = 0 với n \geq p.
 
@@ -153,13 +153,13 @@ $$
 
 và từ giả thiết prof_A(J ; C_n) > n - q, ta thu được bằng quy nạp đẳng thức prof_A(J ; B_n(C)) = n - q + 1 với mọi n \geq q (loc. cit.). Nhưng điều này vô lý vì B_n(C) bằng không với n đủ lớn.
 
-#### Hệ quả 1 {#ac-x-s1-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s1-prop-3-cor-1 .statement tag=0D0C}
 
 Cho A là một vành, J là một iđêan của A, C là một phức các A-môđun bị chặn về bên trái và p là một số nguyên. Giả sử rằng ta có JH_m(C) = 0 và prof_A(J ; C_m) > m - p với m \geq p. Khi đó ta có H_n(C) = 0 với n \geq p.
 
 Thật vậy với n \geq p, linh hóa tử J_n của H_n(C) chứa J, nên ta có prof_A(J_n ; C_m) \geq prof_A(J ; C_m) (No. 1, cor. 1 of prop. 2), vì thế giả thiết của mệnh đề được thỏa mãn.
 
-#### Hệ quả 2 {#ac-x-s1-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s1-prop-3-cor-2 .statement tag=0D0D}
 
 Cho $A$ là một vành địa phương, $C$ là một phức các $A$-môđun bị chặn về bên trái, $p$ là một số nguyên. Giả sử rằng với $m \geq p$, $H_m(C)$ có độ dài hữu hạn và $C_m$ có độ sâu $> m - p$. Khi đó $H_n(C) = 0$ với $n \geq p$.
 
@@ -179,7 +179,7 @@ Ta ký hiệu bởi $H^\bullet(x, M)$ đồng điều của phức $K^\bullet(x,
 
 Cho $(M_\alpha)_{\alpha \in K}$ là một họ các $A$-môđun, và $M$ là tích của chúng; phức $K^\bullet(x, M)$ đẳng cấu chính tắc với phức tích của các $K^\bullet(x, M_\alpha)$, sao cho với mỗi số nguyên $s$ thì $A$-môđun $H^s(x, M)$ được đồng nhất với tích của các $H^s(x, M_\alpha)$ (A, X, p. 28, Mệnh đề 1).
 
-#### Định lý 1 {#ac-x-s1-thm-1 .statement}
+#### Định lý 1 {#ac-x-s1-thm-1 .statement tag=0D0E}
 
 Cho $A$ là một vành, $J$ một iđêan của $A$, $x = (x_i)_{i \in I}$ một họ sinh của $J$, $M$ một $A$-môđun. Độ sâu của $M$ đối với $J$ là cận dưới lớn nhất (trong $\mathbf{N} \cup \{+\infty\}$) của các số nguyên $n$ sao cho $H^n(x, M) \neq 0$.
 
@@ -199,7 +199,7 @@ $$
 
 suy ra một toàn cấu $H^0(x, Z^p(C)) \longrightarrow H^0(x, H^p(C))$. Vì $H^p(C)$ đẳng cấu với $\operatorname{Ext}_A^p(A/J, M)$, môđun này khác không và bị J triệt tiêu, nên ta có $H^0(x, H^p(C)) \neq 0$, do đó $H^0(x, Z^p(C)) \neq 0$ và vì thế $H^0(x, C^p) \neq 0$. Nhưng điều này kéo theo $H^0(x, M) \neq 0$, trái với giả thiết. Vậy $H^p(x, M) \neq 0$, điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 {#ac-x-s1-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s1-thm-1-cor-1 .statement tag=0D0F}
 
 *Giả sử iđêan J là kiểu hữu hạn và JM $\neq$ M. Khi đó* $\operatorname{prof}_A(J; M)$ *là hữu hạn và $\leq$ Card(I)* ; *để có đẳng thức với Card(I), điều kiện cần và đủ là họ x là hoàn toàn cát tuyến đối với M* (A, X, p. 157, Định nghĩa 2).
 
@@ -213,19 +213,19 @@ $$
 
 trong đó ảnh của $\partial_2$ được chứa trong $JM^{(I)}$. Bằng cách lấy tích tenxơ với $A/J$, từ đó suy ra một đẳng cấu A-tuyến tính từ $(M/JM)^{(I)}$ lên $JM/J^2M$. Mà môđun sau là kiểu hữu hạn, vì J và M đều như vậy; do $M/JM$ khác không, suy ra tập hợp I là hữu hạn.
 
-#### Hệ quả 2 {#ac-x-s1-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s1-thm-1-cor-2 .statement tag=0D0G}
 
 *Cho A là một vành địa phương, J một iđêan kiểu hữu hạn của A khác A, M một A-môđun khác không kiểu hữu hạn. Đặt* $r = [J/m_AJ : \kappa_A]$. *Ta có* $\operatorname{prof}_A(J; M) \leq r$ ; *có đẳng thức khi và chỉ khi J được sinh bởi một họ hoàn toàn cát tuyến đối với M. Trong trường hợp đó, để một họ sinh của J là hoàn toàn cát tuyến, điều kiện cần và đủ là nó có r phần tử*.
 
 Theo bổ đề Nakayama, ta có $JM \neq M$, và r là số cực tiểu các phần tử sinh của J; do đó Hệ quả 2 suy ra từ Hệ quả 1.
 
-#### Mệnh đề 4 {#ac-x-s1-prop-4 .statement}
+#### Mệnh đề 4 {#ac-x-s1-prop-4 .statement tag=0D0H}
 
 Cho $\rho : A \to B$ là một đồng cấu vành, $J$ một iđêan của $A$ và $N$ một $B$-môđun. Ta có đẳng thức $\operatorname{prof}_A(J; N) = \operatorname{prof}_B(JB; N)$.
 
 Cho $x = (x_i)_{i \in I}$ là một họ sinh của $J$; họ $\rho(x) = (\rho(x_i))_{i \in I}$ sinh ra $JB$. Theo phép dựng, phức $K^\bullet(\rho(x), N)$ bằng $K^\bullet(x, N)$. Do đó mệnh đề suy ra từ Định lý 1.
 
-#### Hệ quả {#ac-x-s1-n3-cor-1 .statement}
+#### Hệ quả {#ac-x-s1-n3-cor-1 .statement tag=0D0I}
 
 Cho $A$ là một vành địa phương, $a$ một iđêan của $A$ khác $A$ và $M$ một $A$-môđun bị $a$ triệt tiêu. Ta có $\operatorname{prof}_A(M) = \operatorname{prof}_{A/a}(M)$.
 
@@ -247,13 +247,13 @@ $$
 v^p : B \otimes_A H^p(x, M) \to H^p(x, B \otimes_A M)
 $$
 
-#### Bổ đề 1 {#ac-x-s1-lem-1 .statement}
+#### Bổ đề 1 {#ac-x-s1-lem-1 .statement tag=0D0J}
 
 Nếu $A$-môđun $B$ là phẳng, thì đồng cấu $v^p$ là song ánh với mọi số nguyên $p$.
 
 Điều này suy ra từ A, X, p. 66, Hệ quả 2.
 
-#### Mệnh đề 5 {#ac-x-s1-prop-5 .statement}
+#### Mệnh đề 5 {#ac-x-s1-prop-5 .statement tag=0D0K}
 
 Cho $A$ là một vành, $J$ là một iđêan kiểu hữu hạn của $A$ và $M$ là một $A$-môđun. Ký hiệu $\Omega$ là tập hợp các iđêan cực đại của $A$ thuộc $\operatorname{Supp}(M)$ và chứa $J$. Khi đó
 
@@ -265,7 +265,7 @@ Cho $x = (x_i)_{i \in I}$ là một họ sinh hữu hạn của $J$. Cho $p$ là
 
 Cho $p$ là một số nguyên nhỏ hơn $\operatorname{prof}_{A_m}(JA_m; M_m)$ với mọi $m \in \Omega$. Khi đó $H^p(x_m, M_m) = 0$ với mọi iđêan cực đại $m$ của $A$: điều này suy ra từ Định lý 1 nếu $m \in \Omega$, từ việc $M_m = 0$ nếu $m \not\in \operatorname{Supp}(M)$, và từ việc iđêan $JA_m$, vốn triệt tiêu $H^p(x_m, M_m)$ (A, X, p. 148, Hệ quả 2), bằng $A_m$ nếu $m \not\in V(J)$. Do đó $(H^p(x, M))_m = 0$ với mọi iđêan cực đại $m$ của $A$, kéo theo $H^p(x, M) = 0$ (II, § 3, No. 3, Hệ quả 2 của Định lý 1). Mệnh đề được suy ra từ Định lý 1.
 
-#### Mệnh đề 6 {#ac-x-s1-prop-6 .statement}
+#### Mệnh đề 6 {#ac-x-s1-prop-6 .statement tag=0D0L}
 
 Cho $A$ là một vành, $J$ là một iđêan kiểu hữu hạn của $A$ và $M$ là một $A$-môđun. Cho $B$ là một vành và $\rho : A \to B$ là một đồng cấu vành biến $B$ thành một $A$-môđun phẳng.
 
@@ -283,7 +283,7 @@ $$
 
 Bây giờ $B \otimes_A H^p(x, M)$ đẳng cấu với $H^p(\rho(x), B \otimes_A M)$ (Bổ đề 1), do đó bằng không; hơn nữa $B_n$ là phẳng trung thành trên $A_m$ (I, § 3, No. 5, Mệnh đề 9 và II, § 3, No. 4, Mệnh đề 14 và Nhận xét). Do đó ta có $A_m \otimes_A H^p(x, M) = 0$ và vì vậy $p < \operatorname{prof}_{A_m}(J_m; M_m)$ (Bổ đề 1 và Định lý 1). Mệnh đề thứ nhất của b) khi đó suy ra từ Mệnh đề 5; mệnh đề thứ hai suy ra từ I, § 3, No. 5, Mệnh đề 9).
 
-#### Hệ quả {#ac-x-s1-n3-cor-2 .statement}
+#### Hệ quả {#ac-x-s1-n3-cor-2 .statement tag=0D0M}
 
 Cho $A$ là một vành Noether, $J$ là một iđêan của $A$, $M$ là một A-môđun sinh hữu hạn, $\widehat{A}$ và $\widehat{M}$ là các hoàn thành tách của $A$ và $M$ đối với tôpô $J$-adic. Khi đó ta có $\operatorname{prof}_A(J; M) = \operatorname{prof}_{\widehat{A}}(J\widehat{A}; \widehat{M})$.
 
@@ -295,7 +295,7 @@ Cho $A$ là một vành, $M$ là một $A$-môđun. Nhớ lại (A, X, p. 158) r
 
 Trong phần sau, ta sẽ chủ yếu xét khái niệm một dãy $M$-chính quy trong trường hợp vành $A$ là địa phương Noether, môđun $M$ là sinh hữu hạn và các phần tử của dãy thuộc $m_A$; khi đó khái niệm dãy $M$-chính quy trùng với khái niệm dãy hoàn toàn cát tuyến đối với $M$ (A, X, p. 160, hệ quả 1).
 
-#### Mệnh đề 7 {#ac-x-s1-prop-7 .statement}
+#### Mệnh đề 7 {#ac-x-s1-prop-7 .statement tag=0D0N}
 
 Cho $A$ là một vành, $J$ là một iđêan của $A$, $M$ là một $A$-môđun, và $(x_1, \ldots, x_r)$ là một dãy $M$-chính quy gồm các phần tử của $J$. Khi đó
 $$
@@ -309,7 +309,7 @@ $$
 $$
 Trường hợp tổng quát suy ra bằng quy nạp theo $r$.
 
-#### Định lý 2 {#ac-x-s1-thm-2 .statement}
+#### Định lý 2 {#ac-x-s1-thm-2 .statement tag=0D0O}
 
 Cho $A$ là một vành Noether, $J$ là một iđêan của $A$ và $M$ là một $A$-môđun sinh hữu hạn.
 
@@ -321,7 +321,7 @@ c) Để $\operatorname{prof}_A(J; M)$ là hữu hạn, điều kiện cần và
 
 Cho $(x_1, \ldots, x_r)$ là một dãy $M$-chính quy gồm các phần tử của $J$. Ta có $r \leqslant \operatorname{prof}_A(J; M)$ (Mệnh đề 7); giả sử rằng bất đẳng thức này là ngặt. Gọi $N$ là A-môđun $M/(x_1M + \ldots + x_rM)$. Ta có $\operatorname{prof}_A(J; N) > 0$ (*loc. cit.*), nên tồn tại một phần tử $x$ của $J$ sao cho phép vị tự $x_N$ là đơn ánh (No. 1, Nhận xét 2), nghĩa là sao cho dãy $(x_1, \ldots, x_r, x)$ là $M$-chính quy. Suy ra bằng quy nạp rằng với mọi số nguyên $s$ sao cho $r \leqslant s \leqslant \operatorname{prof}_A(J; M)$, dãy $(x_1, \ldots, x_r)$ có thể được bổ sung thành một dãy $M$-chính quy có độ dài $s$, điều này kéo theo các mệnh đề a) và b). Mệnh đề c) suy ra từ Nhận xét 1 của No. 1 và Hệ quả 1 của Định lý 1 của No. 3.
 
-#### Hệ quả 1 {#ac-x-s1-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s1-thm-2-cor-1 .statement tag=0D0P}
 
 Với mọi dãy $M$-chính quy $(x_1, \ldots, x_r)$ gồm các phần tử của $J$, các tính chất sau là tương đương:
 
@@ -332,7 +332,7 @@ Với mọi dãy $M$-chính quy $(x_1, \ldots, x_r)$ gồm các phần tử củ
 
 Tính tương đương của (i) và (ii) suy ra từ Định lý 2; tính tương đương của (ii), (iii) và (iv) suy ra từ Nhận xét 2 của No. 1 áp dụng cho A-môđun $M/(x_1M + \ldots + x_rM)$.
 
-#### Hệ quả 2 {#ac-x-s1-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s1-thm-2-cor-2 .statement tag=0D0Q}
 
 Cho $A$ là một vành địa phương Noether, $M$ là một A-môđun hữu hạn sinh khác không. Ta có
 $$
@@ -343,11 +343,11 @@ $$
 
 Cho A là một vành Noether, F là một tập con đóng của $\mathrm{Spec}(A)$ và M là một A-môđun. Theo Hệ quả 2 của Mệnh đề 2 của No. 1, phần tử $\mathrm{prof}_A(J;M)$ của $\mathbf{N} \cup \{+\infty\}$ không phụ thuộc vào iđêan J của A sao cho $F = V(J)$; nó được gọi là *độ sâu của M dọc theo F* và được ký hiệu là $\mathrm{prof}_F(M)$.
 
-#### Nhận xét 1 {#ac-x-s1-n5-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s1-n5-rem-1 .statement tag=0D0R}
 
 Cho r là một số nguyên. Theo Mệnh đề 2 của No. 1 và II, § 4, No. 4, Hệ quả 2 của Mệnh đề 17, bất đẳng thức $\mathrm{prof}_F(M) \geqslant r$ tương đương với tính chất sau: với mọi A-môđun hữu hạn sinh N mà giá được chứa trong F, ta có $\mathrm{Ext}_A^i(N,M) = 0$ với $i < r$.
 
-#### Nhận xét 2 {#ac-x-s1-n5-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s1-n5-rem-2 .statement tag=0D0S}
 
 Giả sử rằng A-môđun M là hữu hạn sinh. Theo Nhận xét 2 của No. 1 và Định lý 2 của No. 4, ta có các tương đương sau
 
@@ -356,7 +356,7 @@ $$
 \mathrm{prof}_F(M) < +\infty \iff \mathrm{Supp}(M) \cap F \neq \varnothing .
 $$
 
-#### Mệnh đề 8 {#ac-x-s1-prop-8 .statement}
+#### Mệnh đề 8 {#ac-x-s1-prop-8 .statement tag=0D0T}
 
 *Cho A là một vành Noether, F là một tập con đóng của $\mathrm{Spec}(A)$, và M là một A-môđun hữu hạn sinh. Ta có*
 
@@ -375,17 +375,17 @@ $$
 
 Khi đó suy ra kết luận bằng quy nạp theo số nguyên $\mathrm{prof}_F(M)$.
 
-#### Nhận xét 3 {#ac-x-s1-n5-rem-3 .statement}
+#### Nhận xét 3 {#ac-x-s1-n5-rem-3 .statement tag=0D0U}
 
 Nếu q là một điểm của $\mathrm{Supp}(M)$, do đó ta có $\mathrm{prof}_A(q;M) = \inf_{p \supseteq q} \mathrm{prof}_{A_p}(M_p)$. Đặc biệt, ta có bất đẳng thức $\mathrm{prof}_A(q;M) \leqslant \mathrm{prof}_{A_q}(M_q)$; có đẳng thức khi q là cực đại. Trong trường hợp tổng quát, có thể có $\mathrm{prof}_A(q;M) < \mathrm{prof}_{A_q}(M_q)$; cũng có thể có $\mathrm{prof}_A(q;M) < \inf \mathrm{prof}_{A_m}(M_m)$ trong đó m chạy qua tập hợp các iđêan cực đại của A chứa q. Chẳng hạn, cho p là một iđêan nguyên tố không cực đại của A, chứa q và phân biệt với q; đặt $M = A/p$. Ta có $\mathrm{prof}_A(q;M) = 0$, $\mathrm{prof}_{A_q}(M_q) = +\infty$ và $\mathrm{prof}_{A_m}(M_m) > 0$ với mọi iđêan cực đại m của A.
 
-#### Mệnh đề 9 {#ac-x-s1-prop-9 .statement}
+#### Mệnh đề 9 {#ac-x-s1-prop-9 .statement tag=0D0V}
 
 Cho $A$ là một vành Noether, $M$ và $N$ là hai A-môđun kiểu hữu hạn, và $F$ là giá của $N$. Khi đó $\mathrm{prof}_F(M)$ là cận dưới lớn nhất (trong $N \cup \{+\infty\}$) của tập hợp các số nguyên $n$ sao cho $\mathrm{Ext}_A^n(N, M) \neq 0$.
 
 Theo Nhận xét 1, ta có $\mathrm{Ext}_A^i(N, M) = 0$ với mọi $i < \mathrm{prof}_F(M)$. Còn phải chứng minh rằng nếu $\mathrm{prof}_F(M) = n < +\infty$, thì $\mathrm{Ext}_A^n(N, M) \neq 0$. Cho $J$ là linh hóa tử của $N$; ta có $F = V(J)$, do đó $\mathrm{prof}_F(M) = \mathrm{prof}_A(J; M)$. Theo Hệ quả 1 của Định lý 2 (No. 4), tồn tại một dãy $M$-chính quy $(x_1, \ldots, x_n)$ có độ dài $n$ gồm các phần tử của $J$, và độ sâu đối với $J$ của A-môđun $\overline{M} = M/(x_1 M + \ldots + x_n M)$ bằng không. Theo A, X, p. 166, Mệnh đề 9, chỉ cần chứng minh rằng $\mathrm{Hom}_A(N, \overline{M})$ là khác không. Bây giờ, theo Mệnh đề 8, tồn tại $p \in \mathrm{Supp}(M) \cap \mathrm{Supp}(N)$ sao cho $\mathrm{prof}_{A_p}(\overline{M}_p) = 0$, nghĩa là $\mathrm{Hom}_{A_p}(\kappa(p), \overline{M}_p) \neq 0$. Vì $N_p$ là khác không, không gian vectơ $\kappa(p)$ $N_p \otimes_{A_p} \kappa(p)$ là khác không (bổ đề Nakayama), và đối ngẫu của nó cũng vậy; do đó tồn tại một ánh xạ tuyến tính $A_p$-tuyến tính toàn ánh từ $N_p$ lên trên $\kappa(p)$. Suy ra ta có $\mathrm{Hom}_{A_p}(N_p, \overline{M}_p) \neq 0$, do đó $\mathrm{Hom}_A(N, \overline{M}) \neq 0$ (II, § 2, No. 7, Mệnh đề 19), điều phải chứng minh.
 
-#### Nhận xét 4 {#ac-x-s1-n5-rem-4 .statement}
+#### Nhận xét 4 {#ac-x-s1-n5-rem-4 .statement tag=0D0W}
 
 Cho $A$ là một vành Noether, $N$ là một A-môđun sinh hữu hạn. Cận dưới lớn nhất trong $N \cup \{+\infty\}$ của tập hợp các số nguyên $n$ sao cho $\mathrm{Ext}_A^n(N, A)$ khác không đôi khi được gọi là cấp của $N$, và được ký hiệu là grade$(N)$. Theo Mệnh đề 9, đó cũng là độ sâu của $A$ dọc theo giá đỡ của $N$, hoặc còn là cận trên nhỏ nhất của tập hợp các độ dài của các dãy $A$-chính quy gồm các phần tử của linh hóa tử của $N$ (No. 4, Định lý 2). Vì với mọi iđêan nguyên tố $p$ của $A$, linh hóa tử của $N_p$ bằng $\mathrm{Ann}(N)_p$ (II, § 2, No. 4, công thức (9)), từ Mệnh đề 5 của No. 3 ta suy ra đẳng thức
 
@@ -397,7 +397,7 @@ trong đó $\Omega$ ký hiệu tập hợp các iđêan cực đại của $A$.
 
 ### 6. Độ sâu của các đại số
 
-#### Bổ đề 2 {#ac-x-s1-lem-2 .statement}
+#### Bổ đề 2 {#ac-x-s1-lem-2 .statement tag=0D0X}
 
 Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether, $N$ là một B-môđun sinh hữu hạn và $y$ là một phần tử của $m_B$. Hai điều kiện sau là tương đương:
 
@@ -433,7 +433,7 @@ trong đó $p$ và $i$ là các đồng cấu chính tắc. Suy ra đồng cấu
 
 Vì $N$ và $N/yN$ đều phẳng trên $A$, điều tương tự cũng đúng với $\mathrm{Im}(y_N)$ (dãy khớp (2)). Khi đó từ dãy khớp (1) suy ra $\kappa_A \otimes_A \mathrm{Ker}(y_N)$ đẳng cấu với hạt nhân của $1 \otimes p$, nên bằng không; do đó phép vị tự $y_N$ là đơn ánh theo bổ đề Nakayama.
 
-#### Mệnh đề 10 {#ac-x-s1-prop-10 .statement}
+#### Mệnh đề 10 {#ac-x-s1-prop-10 .statement tag=0D0Y}
 
 *Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether, $N$ là một B-môđun hữu hạn sinh và $y = (y_1, \ldots, y_s)$ là một dãy phần tử của $m_B$. Ký hiệu $\mathfrak{y}$ là iđêan của $B$ sinh bởi dãy này. Các điều kiện sau là tương đương:
 
@@ -450,7 +450,7 @@ Ta sẽ chứng minh tính tương đương của (i) và (ii) bằng quy nạp 
 
 Khẳng định cuối cùng cũng suy ra tương tự bằng quy nạp theo $s$ từ khẳng định cuối cùng của bổ đề 2.
 
-#### Mệnh đề 11 {#ac-x-s1-prop-11 .statement}
+#### Mệnh đề 11 {#ac-x-s1-prop-11 .statement tag=0D0Z}
 
 *Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether, $M$ là một A-môđun hữu hạn sinh và $N$ là một B-môđun hữu hạn sinh; giả sử rằng A-môđun $N$ là phẳng.*
 
@@ -466,7 +466,7 @@ Ký hiệu $x$ là iđêan của A sinh bởi dãy $x$ và $y$ là iđêan của
 
 Để chứng minh b), ta có thể giả sử rằng M và N khác không. Theo bổ đề Nakayama, $\kappa_A \otimes_A N$ cũng khác không, nên $\operatorname{prof}_A(M)$ và $\operatorname{prof}_B(\kappa_A \otimes_A N)$ là hữu hạn (No. 4, Hệ quả 2 của Định lý 2). Lấy các dãy chính quy cực đại $x$ và $y$; khi đó ta có $r = \operatorname{prof}_A(M)$, $s = \operatorname{prof}_B(\kappa_A \otimes_A N)$, và tồn tại một ánh xạ a-tuyến tính đơn ánh $u : \kappa_A \to M/xM$ và một ánh xạ b-tuyến tính đơn ánh $v : \kappa_B \to \kappa_A \otimes_A (N/yN)$ (No. 4, Hệ quả 1 của Định lý 2). Vì $N/yN$ phẳng trên A, ánh xạ b-tuyến tính $(u \otimes 1_{N/yN}) \circ v$ từ $\kappa_B$ vào $(M/xM) \otimes_A (N/yN) = (M \otimes_A N)/(\rho(x) + y)(M \otimes_A N)$ là đơn ánh. Điều này kéo theo đẳng thức $\operatorname{prof}_B(M \otimes_A N) = r + s$ (*loc. cit.*).
 
-#### Nhận xét {#ac-x-s1-n6-rem-1 .statement}
+#### Nhận xét {#ac-x-s1-n6-rem-1 .statement tag=0D10}
 
 Nhắc lại rằng, dưới các giả thiết trước đó,
 
@@ -475,7 +475,7 @@ $$
 $$
 (VIII, § 3, No. 4, Mệnh đề 7).
 
-#### Hệ quả {#ac-x-s1-n6-cor-1 .statement}
+#### Hệ quả {#ac-x-s1-n6-cor-1 .statement tag=0D11}
 
 Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether làm cho B thành một A-môđun phẳng. Ta có
 
@@ -490,7 +490,7 @@ Thật vậy, chiều sâu (tương ứng, chiều) của B-môđun $\kappa_A \o
 
 ### 7. Cận Trên Cho Chiều Sâu
 
-#### Mệnh đề 12 {#ac-x-s1-prop-12 .statement}
+#### Mệnh đề 12 {#ac-x-s1-prop-12 .statement tag=0D12}
 
 Cho A là một vành địa phương Noether, M một A-môđun hữu hạn sinh khác không và J một iđêan của A phân biệt với A. Ta có dãy bất đẳng thức
 
@@ -503,7 +503,7 @@ $$
 
 Với mọi phần tử $p$ của $\operatorname{Supp}(M) \cap V(J)$, $\operatorname{prof}_A(J; M)$ nhỏ hơn hoặc bằng $\dim_{A_p}(M_p)$ (No. 5, Mệnh đề 8 và No. 4, Hệ quả 2 của Định lý 2), tức là (VIII, § 1, No. 4, Mệnh đề 9)
 
-#### Nhận xét 1 {#ac-x-s1-n7-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s1-n7-rem-1 .statement tag=0D13}
 
 Xét chuỗi các bất đẳng thức của Mệnh đề 12.
 
@@ -513,7 +513,7 @@ b) Đẳng thức dim(M) − dim(M/JM) = [J/m_AJ : κ_A] có nghĩa là J có th
 
 c) *Nếu M là Macaulay, ta có prof_A(J ; M) = dim(M) − dim(M/JM) (§ 2, No. 2, hệ quả của Mệnh đề 2).*
 
-#### Bổ đề 3 {#ac-x-s1-lem-3 .statement}
+#### Bổ đề 3 {#ac-x-s1-lem-3 .statement tag=0D14}
 
 Cho A là một vành Noether, p ⊂ p_1 ⊂ ... ⊂ p_{r−1} ⊂ q một chuỗi bão hòa độ dài r các iđêan nguyên tố của A, M một Λ-môđun hữu hạn sinh và n một số nguyên. Nếu A-môđun Ext^n_{A_p}(κ(p), M_p) khác không, thì Ext^{n+r}_{A_q}(κ(q), M_q) cũng vậy.
 
@@ -531,7 +531,7 @@ $$
 
 trong đó u là phép vị tự tỉ số x. Theo bổ đề Nakayama, ánh xạ này không toàn ánh, nên A-môđun Ext^{n+1}_A(A/(p + xA), M) khác không. Nhưng iđêan nguyên tố duy nhất của A chứa p + xA là m_A, nên A-môđun A/(p + xA) có độ dài hữu hạn (VIII, § 3, No. 2, Bổ đề 2). Nếu Ext^{n+1}_A(κ_A, M) bằng không, thì từ đó, bằng quy nạp theo độ dài của N, ta suy ra rằng Ext^{n+1}_A(N, M) = 0 với mọi A-môđun N có độ dài hữu hạn. Mâu thuẫn này hoàn tất chứng minh.
 
-#### Mệnh đề 13 {#ac-x-s1-prop-13 .statement}
+#### Mệnh đề 13 {#ac-x-s1-prop-13 .statement tag=0D15}
 
 Cho A là một vành Noether, M một A-môđun hữu hạn sinh, p và q là hai iđêan nguyên tố của Supp(M) với p ⊂ q. Ta có
 
@@ -545,7 +545,7 @@ Chính xác hơn, với mọi chuỗi bão hòa các iđêan nguyên tố p ⊂ 
 
 $Ext_{A_q}^{p+r}(\kappa(q), M_q) \neq 0$ theo bổ đề 3, điều này kéo theo $prof_{A_q}(M_q) \leq p + r$. Vì $\dim(A_q/pA_q)$ là cận trên bé nhất của các độ dài của những chuỗi bão hòa các iđêan nguyên tố có đầu mút là $p$ và $q$, khẳng định thứ nhất là hệ quả của khẳng định thứ hai.
 
-#### Hệ quả 1 {#ac-x-s1-prop-13-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s1-prop-13-cor-1 .statement tag=0D16}
 
 *Ta có bất đẳng thức*
 
@@ -555,7 +555,7 @@ $$
 
 Điều này suy ra từ mệnh đề 13 và bất đẳng thức $\dim(M_q) \geq \dim(M_p) + \dim(A_q/pA_q)$ (VIII, § 1, No. 4, mệnh đề 9, a) và No. 3, mệnh đề 7, b)).
 
-#### Hệ quả 2 {#ac-x-s1-prop-13-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s1-prop-13-cor-2 .statement tag=0D17}
 
 *Cho A là một vành Noether địa phương và M là một A-môđun hữu hạn sinh. Ta có bất đẳng thức*
 
@@ -565,7 +565,7 @@ $$
 
 Cho $p$ là một iđêan nguyên tố liên kết với $M$; ta có $prof_{A_p}(M_p) = 0$ (No. 1, nhận xét 2). Mệnh đề 13 áp dụng cho các iđêan $p \subset m_A$ cho bất đẳng thức $prof_A(M) \leq \dim(A/p)$, do đó suy ra hệ quả.
 
-#### Nhận xét 2 {#ac-x-s1-n7-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s1-n7-rem-2 .statement tag=0D18}
 
 Ta có $\sup_{p \in \operatorname{Ass}(M)} \dim(A/p) = \dim(M)$ (VIII, § 1, No. 4, nhận xét 2), và thu được lại bất đẳng thức $prof(M) \leq \dim(M)$ với $M \neq 0$ (No. 4, hệ quả 2 của định lý 2).
 
@@ -588,7 +588,7 @@ Một vành Noether được gọi là *địa phương nguyên* nếu nó thỏ
 
 Giả sử vành $A$ địa phương nguyên; gọi $u$ là một đẳng cấu từ $A$ lên một tích (hữu hạn) $\prod_{j \in J} A_j$ của các miền nguyên. Tồn tại một song ánh $\sigma : J \to I$ sao cho ánh xạ từ $\mathrm{Spec}(\prod_{j \in J} A_j)$ vào $\mathrm{Spec}(A)$ liên kết với $u$ xác định một đồng phôi từ $\mathrm{Spec}(A_j)$ lên thành phần liên thông $Y_{\sigma(j)}$ của $\mathrm{Spec}(A)$; khi đó từ $u$ suy ra được một đẳng cấu của thành phần chính tắc $A/Ae_{\sigma(j)}$ lên $A_j$.
 
-#### Mệnh đề 14 {#ac-x-s1-prop-14 .statement}
+#### Mệnh đề 14 {#ac-x-s1-prop-14 .statement tag=0D19}
 
 *Cho $A$ là một vành Noether. Các điều kiện sau là tương đương:*
 
@@ -603,7 +603,7 @@ Một vành $A$ được gọi là *chuẩn tắc* nếu nó là Noether và th�
 
 ### 9. Bề sâu và tính liên thông
 
-#### Bổ đề 4 {#ac-x-s1-lem-4 .statement}
+#### Bổ đề 4 {#ac-x-s1-lem-4 .statement tag=0D1A}
 
 *Cho $A$ là một vành Noether, $F$ là một tập con đóng của $\mathrm{Spec}(A)$, $U$ là tập mở bù, và $u : M \to N$ là một đồng cấu của các $A$-môđun sinh hữu hạn.*
 
@@ -621,11 +621,11 @@ $$
 
 suy ra $\mathrm{Hom}_A(\mathrm{Coker}\,u, \mathrm{Coker}\,u) = 0$, điều này kéo theo $\mathrm{Coker}\,u = 0$.
 
-#### Nhận xét 1 {#ac-x-s1-n9-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s1-n9-rem-1 .statement tag=0D1B}
 
 Cho $A$ là một vành Noether, $F$ là một tập con đóng của $\mathrm{Spec}(A)$, $U$ là tập mở bù. Để có $\mathrm{prof}_F(A) \geqslant 1$, điều cần và đủ là $\mathrm{Ass}(A) \subset U$ (nhận xét 2, No. 5). Khi điều kiện này được thỏa mãn, mỗi thành phần bất khả quy của $\mathrm{Spec}(A)$ đều gặp $U$, do đó $U$ trù mật trong $\mathrm{Spec}(A)$.
 
-#### Định lý 3 (Hartshorne) {#ac-x-s1-thm-3 .statement}
+#### Định lý 3 (Hartshorne) {#ac-x-s1-thm-3 .statement tag=0D1C}
 
 Cho $A$ là một vành Noether, $F$ là một tập con đóng của $\mathrm{Spec}(A)$ và $U$ là tập mở bù. Giả sử rằng $\mathrm{prof}_F(A) \geqslant 2$. Khi đó, với mọi thành phần liên thông $Y$ của $\mathrm{Spec}(A)$, tập hợp $Y \cap \overline{U}$ là liên thông và trù mật trong $Y$.
 
@@ -633,15 +633,15 @@ Trước hết giả sử rằng $\mathrm{Spec}(A)$ là liên thông. Theo nhậ
 
 Xét trường hợp tổng quát. Cho $J$ là một iđêan của $A$ sao cho $F = V(J)$ và cho $Y$ là một thành phần liên thông của $\mathrm{Spec}(A)$. Theo II, § 4, No. 3, Mệnh đề 15, tồn tại một phần tử lũy đẳng $f$ của $A$ sao cho $Y$ được đồng nhất với tập con $\mathrm{Spec}(A_f)$ của $\mathrm{Spec}(A)$. Khi đó $Y \cap F$ được đồng nhất với $V(J_f)$; ta có $\mathrm{prof}_{A_f}(J_f, A_f) \geqslant \mathrm{prof}_A(J; A) \geqslant 2$ theo Mệnh đề 6, a) của No. 3. Từ phần đầu của chứng minh suy ra rằng $Y \cap U = Y - (Y \cap F)$ là liên thông và trù mật trong $Y$.
 
-#### Hệ quả 1 {#ac-x-s1-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s1-thm-3-cor-1 .statement tag=0D1D}
 
 Ánh xạ gán cho mỗi thành phần liên thông của $U$ bao đóng của nó trong $\mathrm{Spec}(A)$ là một song ánh từ tập hợp các thành phần liên thông của $U$ lên tập hợp các thành phần liên thông của $\mathrm{Spec}(A)$.
 
-#### Hệ quả 2 {#ac-x-s1-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s1-thm-3-cor-2 .statement tag=0D1E}
 
 Với mọi vành địa phương Noether B có độ sâu $\geq 2$, không gian tôpô $\operatorname{Spec}(B) - \{ m_B \}$ là liên thông.
 
-#### Hệ quả 3 {#ac-x-s1-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s1-thm-3-cor-3 .statement tag=0D1F}
 
 Dưới các giả thiết của Định lý 3, giả sử rằng $\operatorname{Spec}(A_p)$ là bất khả quy (resp. rằng $A_p$ là một miền nguyên) với mọi $p \in U$; khi đó $\operatorname{Spec}(A_p)$ là bất khả quy (resp. $A_p$ là một miền nguyên) với mọi $p \in \operatorname{Spec}(A)$.
 
@@ -649,7 +649,7 @@ Cho $(Y_i)_{i \in I}$ là họ (hữu hạn) các thành phần bất khả quy 
 
 Giả sử rằng $A_q$ là một miền nguyên với mọi $q \in U$. Cho $p \in \operatorname{Spec}(A)$. Vì $\operatorname{Spec}(A_p)$ là bất khả quy, căn nil của $A_p$ là iđêan nguyên tố cực tiểu duy nhất của $A_p$; do đó nó thuộc $\operatorname{Ass}(A_p)$ (IV, § 1, No. 3, Hệ quả 1 của Mệnh đề 7), và vì thế bằng $qA_p$, trong đó $q$ là một iđêan nguyên tố liên kết với $A$ (IV, § 1, No. 2, Hệ quả của Mệnh đề 5). Ta có $q \in U$ (Nhận xét 1) và $qA_q \in \operatorname{Ass}(A_q)$ (loc. cit.); vì $A_q$ là một miền nguyên, $q$ bằng không, và do đó $A_p$ là một miền nguyên.
 
-#### Hệ quả 4 {#ac-x-s1-thm-3-cor-4 .statement}
+#### Hệ quả 4 {#ac-x-s1-thm-3-cor-4 .statement tag=0D1G}
 
 Cho $A$ là một vành Noether mà phổ của nó là liên thông. Giả sử tồn tại một số nguyên $d \geq 1$ sao cho ta có $\operatorname{prof}(A_p) \geq 2$ với mọi iđêan nguyên tố $p$ của $A$ có chiều cao $> d$.
 
@@ -665,11 +665,11 @@ Cho $Z \subset \operatorname{Spec}(A)$ là một tập con đóng có đối chi
 
 Ta chứng minh b). Ký hiệu $Z$ là hợp của các tập hợp $X' \cap X''$ khi $(X', X'')$ chạy qua tập hợp (hữu hạn) các cặp thành phần bất khả quy của $\operatorname{Spec}(A)$ sao cho $\operatorname{codim}(X' \cap X'', \operatorname{Spec}(A)) > d$. Theo a), tập hợp $\operatorname{Spec}(A) - Z$ là liên thông. Mọi thành phần bất khả quy của $\operatorname{Spec}(A)$ đều cắt $\operatorname{Spec}(A) - Z$; các vết của chúng trên $\operatorname{Spec}(A) - Z$ là các thành phần bất khả quy của $\operatorname{Spec}(A) - Z$ (II, § 4, No. 1, Mệnh đề 7). Vì $\operatorname{Spec}(A) - Z$ là liên thông, tồn tại một dãy $X_1, \ldots, X_n$ các thành phần bất khả quy của $\operatorname{Spec}(A)$ sao cho ta có $X_1 - Z = Y - Z$, $X_n - Z = Y' - Z$ và $(X_i - Z) \cap (X_{i+1} - Z) \neq \varnothing$ với $1 \leq i \leq n-1$; nói cách khác ta có $X_1 = Y$, $X_n = Z$ và $\operatorname{codim}(X_i \cap X_{i+1}) \leq d$.
 
-#### Nhận xét 2 {#ac-x-s1-n9-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s1-n9-rem-2 .statement tag=0D1H}
 
 *Khi A là một vành Macaulay, có thể áp dụng hệ quả với $d = 1$ (§ 2, No. 5).*
 
-#### Ví dụ (Giao hoàn chỉnh tạo bởi bốn mặt phẳng tọa độ của một không gian afin chiều 4) {#ac-x-s1-n9-exa-1 .statement}
+#### Ví dụ (Giao hoàn chỉnh tạo bởi bốn mặt phẳng tọa độ của một không gian afin chiều 4) {#ac-x-s1-n9-exa-1 .statement tag=0D1I}
 
 Cho $k$ là một trường. Ký hiệu S là vành đa thức $k[T_1, T_2, T_3, T_4]$. Nhắc lại rằng (VIII, § 2, No. 4, Định lý 3) mọi dãy cực đại các iđêan nguyên tố của S đều có độ dài 4. Ký hiệu m là iđêan của S sinh bởi các $T_i$, a là iđêan sinh bởi $T_1T_2$ và $T_3T_4$, và $p_{ij}$, với $1 \leq i < j \leq 4$, là iđêan sinh bởi $T_i$ và $T_j$. Các iđêan $p_{ij}$ là nguyên tố, có chiều cao 2, tổng của chúng là iđêan cực đại m, và ta có $a = p_{13} \cap p_{14} \cap p_{23} \cap p_{24}$.
 
@@ -686,7 +686,7 @@ b) nếu $\mathrm{ht}(p) \geq 1$, thì ta có $\mathrm{prof}(A_p) \geq 1$ (No. 1
 
 Ngược lại:
 
-#### Mệnh đề 15 {#ac-x-s1-prop-15 .statement}
+#### Mệnh đề 15 {#ac-x-s1-prop-15 .statement tag=0D1J}
 
 Cho A là một vành Noether thỏa mãn hai điều kiện sau:
 (i) với mọi iđêan nguyên tố cực tiểu $p$ của $A$, vành $A_p$ là reduced;
@@ -695,13 +695,13 @@ Khi đó A là reduced.
 
 Gọi $n$ là căn lũy linh của A. Với mọi iđêan nguyên tố cực tiểu $p$ của A, theo (i) ta có $n_p = 0$, nghĩa là $p \not\in \mathrm{Supp}(n)$ và $a fortiori$ $p \not\in \mathrm{Ass}_A(n)$. Với mọi $p \in \mathrm{Spec}(A)$ có chiều cao $\geq 1$, theo (ii) ta có $pA_p \not\in \mathrm{Ass}_{A_p}(A_p)$ và $a fortiori$ $pA_p \not\in \mathrm{Ass}_{A_p}(n_p)$, do đó $p \not\in \mathrm{Ass}_A(n)$ (IV, § 1, No. 2, mệnh đề 5). Vì thế tập hợp $\mathrm{Ass}_A(n)$ là rỗng, điều này kéo theo $n$ bằng không.
 
-#### Mệnh đề 16 {#ac-x-s1-prop-16 .statement}
+#### Mệnh đề 16 {#ac-x-s1-prop-16 .statement tag=0D1K}
 
 Cho $A$ là một vành Noether nguyên đóng, $J$ là một iđêan của $A$ có chiều cao $\geqslant 2$, và $M$ là một $A$-môđun phản xạ kiểu hữu hạn. Ta có $\operatorname{prof}_A(J; M) \geqslant 2$.
 
 Hãy chọn một không gian vectơ hữu hạn chiều $V$ trên trường phân thức của $A$ và một dàn $N$ trong $V$ đẳng cấu với $M$ (VII, § 4, No. 2, Nhận xét 1). Các iđêan nguyên tố liên kết với $V/N$, vì có chiều cao 1 (*loc. cit.*, Định lý 2), không chứa $J$; theo Nhận xét 2 của No. 1, điều này kéo theo $\operatorname{prof}_A(J; V/N) \geqslant 1$. Mặt khác, A-môđun $V$ là chia được và không xoắn, do đó đơn ánh (A, X, p. 17, Hệ quả 2 của Mệnh đề 10), điều này kéo theo $\operatorname{prof}_A(J; V) = +\infty$. Khi đó bất đẳng thức $\operatorname{prof}_A(J; N) \geqslant 2$ suy ra từ Mệnh đề 1 của No. 1.
 
-#### Hệ quả {#ac-x-s1-n10-cor-1 .statement}
+#### Hệ quả {#ac-x-s1-n10-cor-1 .statement tag=0D1L}
 
 *Một vành địa phương Noether nguyên đóng có chiều $\geqslant 2$ có độ sâu $\geqslant 2$*.
 
@@ -712,7 +712,7 @@ c) nếu $\operatorname{ht}(\mathfrak{p}) \geqslant 2$, ta có $\operatorname{pr
 
 Ngược lại:
 
-#### Định lý 4 (Serre) {#ac-x-s1-thm-4 .statement}
+#### Định lý 4 (Serre) {#ac-x-s1-thm-4 .statement tag=0D1M}
 
 *Cho $A$ là một vành Noether thỏa mãn các điều kiện sau*:
 (i) *với mọi iđêan nguyên tố cực tiểu $\mathfrak{p}$ của $A$, vành $A_{\mathfrak{p}}$ là rút gọn*;
@@ -723,17 +723,17 @@ Ngược lại:
 
 Cần chứng minh rằng vành $A_{\mathfrak{p}}$ là nguyên đóng với mọi $\mathfrak{p} \in \operatorname{Spec}(A)$, điều này ta sẽ làm bằng quy nạp theo $\operatorname{ht}(\mathfrak{p})$. Với $\operatorname{ht}(\mathfrak{p}) \leqslant 1$ điều này suy ra từ các giả thiết (i) và (ii). Vậy giả sử rằng $\operatorname{ht}(\mathfrak{p}) \geqslant 2$ và rằng $A_q$ là nguyên đóng với mọi iđêan nguyên tố $q$ của $A$ có chiều cao $< \operatorname{ht}(\mathfrak{p})$. Theo giả thiết (iii), ta có $\operatorname{prof}(A_{\mathfrak{p}}) \geqslant 2$. Theo giả thiết quy nạp và hệ quả 3 của định lý 3 của No. 9, áp dụng cho vành $A_{\mathfrak{p}}$ và cho tập con đóng $\{\mathfrak{p}A_{\mathfrak{p}}\}$ của $\operatorname{Spec}(A_{\mathfrak{p}})$, vành $A_{\mathfrak{p}}$ là một miền nguyên. Gọi $K$ là trường phân thức của nó và gọi $B$ là một vành con của $K$, chứa $A_{\mathfrak{p}}$ và hữu hạn trên $A_{\mathfrak{p}}$. Cần chứng minh rằng $B$ bằng $A_{\mathfrak{p}}$. Ký hiệu bởi $i$ đơn ánh chính tắc từ $A_{\mathfrak{p}}$ vào $B$. Vì $B$ được chứa trong $K$, nó là một $A_{\mathfrak{p}}$-môđun không xoắn, do đó có độ sâu $\geqslant 1$. Hơn nữa, với mọi iđêan nguyên tố $q$ của $A_{\mathfrak{p}}$ phân biệt với $\mathfrak{p}A_{\mathfrak{p}}$, đồng cấu $i_q : (A_{\mathfrak{p}})_q \to B_q$ là song ánh vì $A_q$ là nguyên đóng. Theo bổ đề 4 của No. 9, áp dụng cho tập con đóng $F = \{\mathfrak{p}A_{\mathfrak{p}}\}$ của $\operatorname{Spec}(A_{\mathfrak{p}})$, đồng cấu $i$ là song ánh, điều này hoàn tất chứng minh định lý.
 
-#### Nhận xét 1 {#ac-x-s1-n10-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s1-n10-rem-1 .statement tag=0D1N}
 
 Một dạng thuận tiện của định lý 4 là như sau: cho $A$ là một vành Noether, sao cho với mọi iđêan nguyên tố $p$ của $A$ thì vành $A_p$ hoặc là nguyên đóng hoặc có độ sâu $\geqslant 2$; khi đó $A$ là chuẩn tắc. Thật vậy, hãy kiểm tra các giả thiết của định lý 4. Cho $p \in \mathrm{Spec}(A)$. Nếu $\mathrm{ht}(p) \leqslant 1$, thì ta có $\mathrm{prof}(A_p) \leqslant 1$, do đó $A_p$ là nguyên đóng. Nếu $\mathrm{ht}(p) \geqslant 2$, vành $A_p$ hoặc có độ sâu $\geqslant 2$, hoặc là nguyên đóng, điều này lại kéo theo $\mathrm{prof}(A_p) \geqslant 2$ (No. 1, hệ quả 2 của mệnh đề 1), do đó suy ra kết luận mong muốn. Tương tự, ta kiểm tra được mệnh đề sau: cho $A$ là một vành Noether sao cho với mọi iđêan nguyên tố $p$ của $A$, vành $A_p$ hoặc là rút gọn hoặc có độ sâu $\geqslant 1$; khi đó $A$ là rút gọn.
 
-#### Hệ quả 1 {#ac-x-s1-thm-4-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s1-thm-4-cor-1 .statement tag=0D1O}
 
 *Cho $A$ là một vành Noether, $F$ là một tập con đóng của $\mathrm{Spec}(A)$, $U$ là tập mở bù. Giả sử rằng $\mathrm{prof}_F(A)$ là $\geqslant 2$ (resp. $\geqslant 1$) và rằng, với mọi $p \in U$, vành $A_p$ là nguyên đóng (resp. rút gọn). Khi đó $A$ là chuẩn tắc* (resp. rút gọn).
 
 Với mọi $p \in F$, ta có $\mathrm{prof}(A_p) \geqslant \mathrm{prof}_F(A)$ (No. 5, Prop. 8); vì vậy chỉ cần áp dụng nhận xét trước đó.
 
-#### Hệ quả 2 {#ac-x-s1-thm-4-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s1-thm-4-cor-2 .statement tag=0D1P}
 
 *Cho $\rho : A \to B$ là một đồng cấu của các vành Noether khiến $B$ trở thành một A-môđun phẳng.
 
@@ -747,11 +747,11 @@ b) Dưới các giả thiết của b), theo Nhận xét 1, chỉ cần chứng 
 
 1) $\mathrm{ht}(p) = 0$. Khi đó $A_p$ là một trường, bằng $\kappa(p)$; vành $A_p \otimes_A B$ là chuẩn tắc theo giả thiết. Điều tương tự cũng đúng với $B_q$, là một vành phân thức của nó.
 
-#### Nhận xét 2 {#ac-x-s1-n10-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s1-n10-rem-2 .statement tag=0D1Q}
 
 $\mathrm{ht}(p) = 1$ và $\mathrm{ht}(q) \leqslant 1$. Khi đó $A_p$ là một vành định giá rời rạc; gọi $\pi$ là một phần tử chuẩn hóa của $A_p$. Vì $B_q$ là phẳng trung thành trên $A_p$, phần tử $\pi 1_{B_q}$ của $B_q$ không phải là một ước của không, nên vành địa phương $B_q/\pi B_q$ có chiều $0$ (VIII, § 3, No. 1, Hệ quả 2 của Mệnh đề 1). Nó là thu gọn, vì nó là một vành phân thức của vành thu gọn $\kappa(p) \otimes_A B$, và do đó nó là một trường. Vậy $B_q$ là một vành định giá rời rạc (VI, § 1, No. 4, Mệnh đề 2), nên đóng nguyên.
 
-#### Nhận xét 3 {#ac-x-s1-n10-rem-3 .statement}
+#### Nhận xét 3 {#ac-x-s1-n10-rem-3 .statement tag=0D1R}
 
 $\mathrm{ht}(p) = 1$ và $\mathrm{ht}(q) \geq 2$. Khi đó, theo quan hệ
 $$
@@ -762,11 +762,11 @@ $$
 \mathrm{prof}(B_q) = \mathrm{prof}(A_p) + \mathrm{prof}(\kappa(p) \otimes_A B_q) \geq 1 + 1 = 2 .
 $$
 
-#### Nhận xét 4 {#ac-x-s1-n10-rem-4 .statement}
+#### Nhận xét 4 {#ac-x-s1-n10-rem-4 .statement tag=0D1S}
 
 $\mathrm{ht}(p) \geq 2$. Vì $A_p$ có độ sâu $\geq 2$ (Hệ quả của Mệnh đề 16), điều tương tự cũng đúng với $B_q$ theo *loc. cit*.
 
-#### Hệ quả 3 {#ac-x-s1-thm-4-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s1-thm-4-cor-3 .statement tag=0D1T}
 
 *Cho $\rho : A \to B$ là một đồng cấu của các vành Noether. Giả sử rằng $B$ là một A-môđun phẳng, rằng $A$ là chuẩn tắc, và rằng $\kappa(p) \otimes_A B$ là chuẩn tắc với mọi $p \in \mathrm{Spec}(A)$. Khi đó $B$ là chuẩn tắc.*
 

@@ -57,7 +57,7 @@ subsections:
       pdf_page: 152
 statements: 32
 exercises: 16
-content_sha256: 588b52d08e0f2494551b2a1cb24c18827d1cf187d3c4efc3af9117170ddd12b5
+content_sha256: ad0797e551cb1458568c1bb8b924dc5cc8828593371854e1c541a2937d5882cd
 ---
 
 ## § 2. FREE LIE ALGEBRAS
@@ -72,7 +72,7 @@ The algebra of the magma M(X) with coefficients in the ring K is denoted by Lib(
 
 ### 2. CONSTRUCTION OF THE FREE LIE ALGEBRA
 
-#### Definition 1 {#lie-ii-s2-def-1 .statement}
+#### Definition 1 {#lie-ii-s2-def-1 .statement tag=0A2Q}
 
 *The free Lie algebra over the set X is the quotient algebra*
 $$
@@ -93,7 +93,7 @@ Clearly $L(X)$ is a Lie K-algebra; the composition of two elements $u, v$ of $L(
 
 The following proposition justifies the name *free* Lie algebra given to $L(X)$.
 
-#### Proposition 1 {#lie-ii-s2-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s2-prop-1 .statement tag=0A2R}
 
 *Let $\psi$ be the canonical mapping of Lib(X) onto $L(X)$ and $\phi$ the restriction of $\psi$ to X. For every mapping f of X into a Lie algebra $g$, there exists one and only one homomorphism F: $L(X) \to g$ such that $f = F \circ \phi$.*
 
@@ -101,7 +101,7 @@ The following proposition justifies the name *free* Lie algebra given to $L(X)$.
 
 (b) *Uniqueness of F*: let $F': L(X) \to g$ be a homomorphism such that $f = F' \circ \phi$. The homomorphisms $F \circ \psi$ and $F' \circ \psi$ of Lib(X) into $g$ coincide on X and hence are equal; as $\psi$ is surjective, $F = F'$.
 
-#### Corollary 1 {#lie-ii-s2-prop-1-cor-1 .statement}
+#### Corollary 1 {#lie-ii-s2-prop-1-cor-1 .statement tag=0A2S}
 
 *The family $(\phi(x))_{x \in X}$ is free over K in $L(X)$.*
 
@@ -113,7 +113,7 @@ $$
 
 Let $g$ be the commutative Lie algebra with K as underlying module. For $i = 1, 2, \ldots, n$, there exists a homomorphism $F_i$ of $L(X)$ into $g$ such that $F_i(\phi(x_i)) = 1$ and $F_i(\phi(x)) = 0$ for $x \neq x_i$ (Proposition 1); applying $F_i$ to relation (3), we obtain $\lambda_i = 0$.
 
-#### Corollary 2 {#lie-ii-s2-prop-1-cor-2 .statement}
+#### Corollary 2 {#lie-ii-s2-prop-1-cor-2 .statement tag=0A2T}
 
 *Let $a$ be a Lie algebra. Every extension of $L(X)$ by $a$ is inessential.*
 
@@ -121,7 +121,7 @@ Let $a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$ be such an extension (Cha
 
 As the ring K is non-zero, Corollary 1 to Proposition 1 shows that $\phi$ is injective. *Hence the set X can be identified by means of $\phi$ with its image in $L(X)$*; with this convention, X generates $L(X)$ and every mapping of X into a Lie algebra $g$ *can be extended* to a Lie algebra homomorphism of $L(X)$ into $g$.
 
-#### Remark {#lie-ii-s2-n2-rem-1 .statement}
+#### Remark {#lie-ii-s2-n2-rem-1 .statement tag=0A2U}
 
 When X is empty, $M(X)$ is empty and hence $L(X) = \{0\}$. If X consists of a single element $x$, the submodule $K.x$ of $L(X)$ is a Lie subalgebra of
 
@@ -171,13 +171,13 @@ the set F' of polynomial mappings of $g^I$ into g is a Lie subalgebra of F by th
 
 ### 5. FUNCTORIAL PROPERTIES
 
-#### Proposition 2 {#lie-ii-s2-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s2-prop-2 .statement tag=0A2V}
 
 Let X and Y be two sets. Every mapping $u : X \to Y$ can be extended uniquely to a Lie algebra homomorphism $L(u) : L(X) \to L(Y)$. For every mapping $v : Y \to Z$, $L(v \circ u) = L(v) \circ L(u)$.
 
 The existence and uniqueness of $L(u)$ follow from Proposition 1 of no. 2. The homomorphisms $L(v \circ u)$ and $L(v) \circ L(u)$ have the same restriction to X and hence are equal (Proposition 1).
 
-#### Corollary {#lie-ii-s2-n5-cor-1 .statement}
+#### Corollary {#lie-ii-s2-n5-cor-1 .statement tag=0A2W}
 
 If u is injective (resp. surjective, bijective), so is $L(u)$.
 
@@ -201,7 +201,7 @@ for every *right directed* family $(S_\alpha)_{\alpha \in I}$ of subsets of X.
 
 Applying the above to the family of finite subsets of X, we see that every element of $L(X)$ is of the form $P(x_1, \ldots, x_n)$ where P is a Lie polynomial in n indeterminates and $x_1, \ldots, x_n$ are elements of X.
 
-#### Proposition 3 {#lie-ii-s2-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s2-prop-3 .statement tag=0A2X}
 
 *Let $K'$ be a non-zero commutative ring and $u : K \to K'$ a ring homomorphism. For every set X there exists one and only one Lie $K'$-algebra homomorphism*
 
@@ -213,7 +213,7 @@ $$
 
 Applying Proposition 1 to $g = L_{K'}(X)$ considered as a Lie K-algebra and the mapping $x \mapsto x$ of X into g, we obtain a K-homomorphism $L_K(X) \to L_{K'}(X)$, whence there is a $K'$-homomorphism $v : L_K(X) \otimes K' \to L_{K'}(X)$. The fact that v is unique and is an isomorphism follows from the fact that the ordered pair $(L_K(X) \otimes K', x \mapsto x \otimes 1)$ is a solution of the same universal mapping problem as the ordered pair $(L_{K'}(X), x \mapsto x)$.
 
-#### Remark {#lie-ii-s2-n5-rem-1 .statement}
+#### Remark {#lie-ii-s2-n5-rem-1 .statement tag=0A2Y}
 
 Let $\mathfrak{h}'$ be a Lie $K'$-algebra and $\mathfrak{h}$ the Lie K-algebra derived from $\mathfrak{h}'$ by restricting the ring of scalars. If $P \in L_K(X)$, we can define $\tilde{P} : \mathfrak{h}^X \to \mathfrak{h}$ (no. 4). We see immediately that
 
@@ -232,7 +232,7 @@ $$
 \mathrm{Lib}^\delta(X) \cdot \mathrm{Lib}^{\delta'}(X) \subset \mathrm{Lib}^{\delta + \delta'}(X) \quad \text{for } \delta, \delta' \text{ in } \Delta
 $$
 
-#### Lemma 1 {#lie-ii-s2-lem-1 .statement}
+#### Lemma 1 {#lie-ii-s2-lem-1 .statement tag=0A2Z}
 
 The ideal $a$ of Definition 1 is graded.
 For $a, b$ in Lib(X), let $B(a, b) = a.b + b.a$. The formulae
@@ -265,7 +265,7 @@ $$
 (15)\quad [L^\alpha(X), L^\beta(X)] \subset L^{\alpha+\beta}(X) \quad \text{for } \alpha, \beta \text{ in } \mathbf{N}^{(X)}.
 $$
 
-#### Proposition 4 {#lie-ii-s2-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s2-prop-4 .statement tag=0A30}
 
 Let S be a subset of X. If $\mathbf{N}^{(S)}$ is identified with its canonical image in $\mathbf{N}^{(X)}$ (Algebra, Chapter I, § 7, no. 7), then $L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(X)$. Further, for all $\alpha \in \mathbf{N}^{(S)}$, the homogeneous component of degree $\alpha$ under the multigraduation on $L(S)$ is equal to $L^\alpha(X)$.
 
@@ -273,7 +273,7 @@ Let $\alpha \in \mathbf{N}^{(S)}$. The module $L^\alpha(S)$ is generated by the 
 
 The proposition follows from this and the relation $L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(S)$.
 
-#### Corollary {#lie-ii-s2-n6-cor-1 .statement}
+#### Corollary {#lie-ii-s2-n6-cor-1 .statement tag=0A31}
 
 For every family $(S_i)_{i \in I}$ of subsets of X,
 $$
@@ -287,7 +287,7 @@ where we have written $S = \bigcap_{i \in I} S_i$.
 
 ### 7. LOWER CENTRAL SERIES
 
-#### Proposition 5 {#lie-ii-s2-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s2-prop-5 .statement tag=0A32}
 
 Let $g$ be a Lie algebra and $P$ a submodule of $g$. We define the submodules $P_n$ of $g$ by the formulae $P_1 = P$ and $P_{n+1} = [P, P_n]$ for $n \geq 1$. Then
 $$
@@ -312,7 +312,7 @@ By formula (18), $P_n \supset \sum_{p=1}^{n-1} [P_p, P_{n-p}] \supset [P_1, P_{n
 
 When we take $P = g$, the sequence $(P_n)$ is the lower central series ($\mathscr{C}^n g$) of $g$ (Chapter I, § 1, no. 5). Hence:
 
-#### Proposition 6 {#lie-ii-s2-prop-6 .statement}
+#### Proposition 6 {#lie-ii-s2-prop-6 .statement tag=0A33}
 
 Let $g$ be a Lie algebra and $(\mathscr{C}^n g)_{n \geq 1}$ the lower central series of $g$. Then
 $$
@@ -321,7 +321,7 @@ $$
 
 Generalizing Definition 1 of Chapter I, § 4, no. 1, we shall say that a Lie algebra $g$ is *nilpotent* if $\mathscr{C}^n g = \{0\}$ for $n$ sufficiently large. The *nilpotency class* of a nilpotent Lie algebra $g$ is the smallest integer $n$ such that $\mathscr{C}^{n+1} g = \{0\}$.
 
-#### Proposition 7 {#lie-ii-s2-prop-7 .statement}
+#### Proposition 7 {#lie-ii-s2-prop-7 .statement tag=0A34}
 
 Let $X$ be a set and $n$ an integer $\geq 1$.
 (a) $L^{n+1}(X) = [L^1(X), L^n(X)]$.
@@ -337,14 +337,14 @@ L^{p+1}(X) = [L^1(X), L^p(X)] \subset \mathscr{C}^n g
 $$
 by (a). Hence $L^p(X) \subset \mathscr{C}^n g$ for $p \geq n$, whence $g_n \subset \mathscr{C}^n g$.
 
-#### Corollary {#lie-ii-s2-n7-cor-1 .statement}
+#### Corollary {#lie-ii-s2-n7-cor-1 .statement tag=0A35}
 
 Let $g$ be a Lie algebra and $(x_i)_{i \in I}$ a generating family of $g$. The $n$-th term $\mathscr{C}^n g$ of the lower central series of $g$ is the module generated by the iterated brackets $[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$ for $p \geq n$, and $i_1, \ldots, i_p$ in $I$.
 Let $f$ be the homomorphism of $L(I)$ into $g$ such that $f(i) = x_i$ for all $i \in I$. As $(x_i)_{i \in I}$ generates $g$, $g = f(L(I))$, whence $\mathscr{C}^n g = f(\mathscr{C}^n(L(I)))$ by Proposition 4 of Chapter I, § 1, no. 5. The corollary then follows from assertions (b) and (c) of Proposition 7.
 
 ### 8. DERIVATIONS OF FREE LIE ALGEBRAS
 
-#### Proposition 8 {#lie-ii-s2-prop-8 .statement}
+#### Proposition 8 {#lie-ii-s2-prop-8 .statement tag=0A36}
 
 Let $X$ be a set, let $M$ be an $L(X)$-module and let $d$ be a mapping of $X$ into $M$. There exists one and only one linear mapping $D$ of $L(X)$ into $M$ extending $d$ and satisfying the relation:
 $$
@@ -364,7 +364,7 @@ By (21) and (22), relation (20) then follows from $f([a, a']) = [f(a), f(a')]$.
 
 Conversely, let $D'$ be a mapping of $L(X)$ into $M$ satisfying relation (20') analogous to (20) and extending $d$. Let $f'(a) = (D'(a), a)$ for $a \in L(X)$; by (20') and (21), $f'$ is a homomorphism of $L(X)$ into $g$, coinciding with $f$ on $X$, whence $f' = f$ and $D' = D$.
 
-#### Corollary {#lie-ii-s2-n8-cor-1 .statement}
+#### Corollary {#lie-ii-s2-n8-cor-1 .statement tag=0A37}
 
 *Every mapping of $X$ into $L(X)$ can be extended uniquely to a derivation of $L(X)$*.
 
@@ -372,7 +372,7 @@ When $M$ is equal to $L(X)$ with the adjoint representation, relation (20) means
 
 ### 9. ELIMINATION THEOREM
 
-#### Proposition 9 {#lie-ii-s2-prop-9 .statement}
+#### Proposition 9 {#lie-ii-s2-prop-9 .statement tag=0A38}
 
 *Let $S_1$ and $S_2$ be two disjoint sets and $d$ a mapping of $S_1 \times S_2$ into $L(S_2)$. Let $g$ be the quotient Lie algebra of $L(S_1 \cup S_2)$ by the ideal generated by the elements $[s_1, s_2] - d(s_1, s_2)$ with $s_1 \in S_1, s_2 \in S_2$; let $\psi$ be the canonical mapping of $L(S_1 \cup S_2)$ onto $g$.
 
@@ -422,7 +422,7 @@ for $a_1 \in L(S_1)$ and $a_2 \in L(S_2)$.
 
 Relation (26) shows that $\psi_1$ and $\psi_2$ are injective and that $a_1 \cap a_2 = \{0\}$. Formulae (23) and (24) then imply the proposition.
 
-#### Proposition 10 (elimination theorem) {#lie-ii-s2-prop-10 .statement}
+#### Proposition 10 (elimination theorem) {#lie-ii-s2-prop-10 .statement tag=0A39}
 
 *Let X be a set, S a subset of X and T the set of sequences $(s_1, \ldots, s_n, x)$ with $n \geq 0, s_1, \ldots, s_n$ in S and x in X $- S.$*†
 
@@ -454,7 +454,7 @@ for $(s_1, \ldots, s_n, x)$ in $T$.
 
 Hence $\phi(T) \subset a$, whereas $b \subset a$ since $\phi(T)$ generates the subalgebra $b$ of $L(X)$. But $b$ is an ideal and $X - S \subset \phi(T) \subset b$, whence $a \subset b$.
 
-#### Corollary {#lie-ii-s2-n9-cor-1 .statement}
+#### Corollary {#lie-ii-s2-n9-cor-1 .statement tag=0A3A}
 
 *Let $y \in X$. The free Lie algebra $L(X)$ is the direct sum of the free submodule $K.y$ and the Lie subalgebra admitting as basic family the family of $((\mathrm{ad}\ y)^n, z)$ where $n \geqslant 0$ and $z \in X - \{y\}$.*
 
@@ -464,14 +464,14 @@ It suffices to put $S = \{y\}$ in Proposition 10.
 
 Let $X$ be a set, $M(X)$ the free magma constructed on $X$ and $M^n(X)$, where $n \in \mathbf{N}^*$, the set of elements of $M(X)$ of length $n$ (no. 1). If $w \in M(X)$ and $l(w) \geqslant 2$, let $\alpha(w)$ and $\beta(w)$ denote the elements of $M(X)$ determined by the relation $w = \alpha(w)\beta(w)$; then $l(\alpha(w)) < l(w)$, $l(\beta(w)) < l(w)$. Finally, for $u, v$ in $M(X)$, let $u^mv$ denote the element defined by induction on the integer $m \geqslant 0$ by $u^0v = v$ and $u^{m+1}v = u(u^mv)$.
 
-#### Definition 2 {#lie-ii-s2-def-2 .statement}
+#### Definition 2 {#lie-ii-s2-def-2 .statement tag=0A3B}
 
 *A Hall set relative to $X$ is any totally ordered subset $H$ of $M(X)$ satisfying the following conditions:*
 (A) *If $u \in H, v \in H$ and $l(u) < l(v)$, then $u < v$.*
 (B) *$X \subset H$ and $H \cap M^2(X)$ consists of the products $xy$ with $x, y$ in $X$ and $x < y$.*
 (C) *An element $w$ of $M(X)$ of length $\geqslant 3$ belongs to $H$ if and only if it is of the form $a(bc)$ with $a, b, c$ in $H$, $bc \in H$, $b \leqslant a < bc$ and $b < c$.*
 
-#### Proposition 11 {#lie-ii-s2-prop-11 .statement}
+#### Proposition 11 {#lie-ii-s2-prop-11 .statement tag=0A3C}
 
 *There exists a Hall set relative to $X$.*
 
@@ -484,7 +484,7 @@ We write $H = \bigcup_{n \geqslant 1} H_n$; we give $H$ the total ordering defin
 
 For every subset S of X, we identify the free magma M(S) with its canonical image in M(X).
 
-#### Proposition 12 {#lie-ii-s2-prop-12 .statement}
+#### Proposition 12 {#lie-ii-s2-prop-12 .statement tag=0A3D}
 
 Let H be a Hall set relative to X and let x, y be in X.
 (a) $H \cap M(\{x\}) = \{x\}$.
@@ -494,11 +494,11 @@ By Definition 2 (B), $x \in H$ and $H \cap M^2(\{x\}) = \varnothing$. If $w \in 
 
 We now prove (b). By Definition 2 (B), $y \in H$ and $xy \in H$. We show by induction on $n$ that $x^n y \in H$ for $n$ an integer $\geq 2$. Now $x^n y = x(x(x^{n-2}y))$ and the induction hypothesis implies that $x^{n-2}y \in H$. Now $l(x) < l(x^{n-2}y)$ for $n > 2$ and $x < y$, whence $x < x^{n-2}y$ in any case; condition (C) of Definition 2 shows that $x^n y \in H$. On the other hand, certainly $d_y(x^n y) = 1$. Conversely, let $w \in H \cap M(\{x, y\})$, with $d_y(w) = 1$. If $l(w) = 1$, then $w = y$; if $l(w) = 2$, then $w = xy$ by Definition 2 (B). If $l(w) \geq 3$, then $w = a(bc)$, with $a, b, c, bc$ in $H \cap M(\{x, y\})$ (Definition 2 (C)). $d_y(bc) = 0$ is impossible, since this would imply $bc \in M(\{x\})$, which is impossible by (a). Hence $d_y(bc) = 1$ and $d_y(a) = 0$, whence $a = x$ by (a). It follows immediately by induction on $n = l(w)$ that $w = x^{n-1}y$, which completes the proof of (b).
 
-#### Corollary {#lie-ii-s2-n10-cor-1 .statement}
+#### Corollary {#lie-ii-s2-n10-cor-1 .statement tag=0A3E}
 
 If Card X $\geq 2$, then $H \cap M^n(X) \neq \varnothing$ for every integer $n \geq 1$.
 
-#### Proposition 13 {#lie-ii-s2-prop-13 .statement}
+#### Proposition 13 {#lie-ii-s2-prop-13 .statement tag=0A3F}
 
 Let X be a finite set with at least two elements. Let H denote a Hall set relative to X. Then there exist a strictly increasing bijection $p \mapsto w_p$ of $\mathbf{N}$ onto H and a sequence $(P_p)_{p \in \mathbf{N}}$ of subsets of H with the following properties:
 (a) $P_0 = X$.
@@ -524,7 +524,7 @@ Conversely, let $u \in P_{p+1}$. We distinguish two cases:
 
 Then there exist an integer $i \geq 0$ and an element $w$ of $M(X)$ such that $u = w_p^i w$, and either $w \in X$ or $w \notin X$ and $\alpha(w) \neq w_p$. If $i = 0$, we have case (α) above, whence $w \in P_p$ and $w \neq w_p$. If $i > 0$, the proof of (β) above establishes, by induction on $i$, the relations $w \in P_{p+1}$ and $w \neq w_p$. Suppose $w \notin X$; from $w \in P_{p+1}$ it follows that $\alpha(w) \leq w_p$ and as $\alpha(w) \neq w_p$, we conclude that $w \in P_p$. This completes the proof of (d).
 
-#### Example {#lie-ii-s2-n10-exa-1 .statement}
+#### Example {#lie-ii-s2-n10-exa-1 .statement tag=0A3G}
 
 Suppose that $X$ has two elements $x, y$; let $X$ be ordered such that $x < y$. The construction given in the proof of Proposition 11 gives a set $H$ with 14 elements of length $\leq 5$ given in the following table:
 
@@ -545,7 +545,7 @@ $$
 
 We preserve the notation of the preceding no.
 
-#### Theorem 1 {#lie-ii-s2-thm-1 .statement}
+#### Theorem 1 {#lie-ii-s2-thm-1 .statement tag=0A3H}
 
 Let $H$ be a Hall set relative to $X$ and $\Psi$ the canonical mapping of $M(X)$ into the free Lie algebra $L(X)$. The restriction of $\Psi$ to $H$ is a basis of the module $L(X)$.
 
@@ -557,7 +557,7 @@ If $X$ is empty, so are $M(X)$ and therefore $H$ and $L(X)$ is zero. If $X$ has 
 
 Suppose henceforth that $X$ has at least two elements; choose sequences $(w_p)$ and $(P_p)$ with the properties stated in Proposition 13. For every integer $p \geq 0$, let $L_p$ denote the submodule of $L(X)$ generated by the elements $\bar{w}_i$ with $0 \leq i < p$ and $g_p$ the Lie subalgebra of $L(X)$ generated by the family $(\bar{u})_{u \in P_p}$.
 
-#### Lemma 2 {#lie-ii-s2-lem-2 .statement}
+#### Lemma 2 {#lie-ii-s2-lem-2 .statement tag=0A3I}
 
 *For every integer $p \geq 0$, the module $L_p$ admits the family $(\bar{w}_i)_{0 \leq i < p}$ as basis, the Lie algebra $g_p$ admits $(\bar{u})_{u \in P_p}$ as basic family and the module $L(X)$ is the direct sum of $L_p$ and $g_p$.*
 
@@ -581,17 +581,17 @@ For every finite subset $\Phi$ of $H$ there exists a finite subset $S$ of $X$ su
 
 For every element $a$ of $L(X)$ there exists a finite subset $S$ of $X$ such that $a \in L(S)$. By case (A), the subset $\Psi'(H \cap M(S))$ of $\Psi'(H)$ generates the module $L(S)$ and hence $a$ is a linear combination of elements of $\Psi'(H)$. Hence $\Psi'(H)$ generates the module $L(X)$, which completes the proof.
 
-#### Corollary {#lie-ii-s2-n11-cor-1 .statement}
+#### Corollary {#lie-ii-s2-n11-cor-1 .statement tag=0A3J}
 
 *The module* $L(X)$ *is free and so is each of the submodules* $L^\alpha(X)$ *where* $\alpha \in \mathbf{N}^{(X)}$ *and* $L^n(X)$ *where* $n \in \mathbf{N}$. *The modules* $L^\alpha(X)$ *are of finite rank and so are the modules* $L^n(X)$ *if* $X$ *is finite*.
 
 There exists a Hall set $H$ relative to $X$ (Proposition 11). For all $w \in H$, the element $\Psi'(w)$ of $L(X)$ belongs to one of the modules $L^\alpha(X)$ (with $\alpha \in \mathbf{N}^{(X)}$) and the module $L(X)$ is the direct sum of the submodules $L^\alpha(X)$. Further, for all $\alpha \in \mathbf{N}^{(X)}$, the set of elements of $M(X)$ whose canonical image in $\mathbf{N}^{(X)}$ is equal to $\alpha$ is finite; this shows that each of the modules $L^\alpha(X)$ is free and of finite rank and that $L(X)$ is free. Now $L^n(X) = \sum_{|\alpha|=n} L^\alpha(X)$ and hence $L^n(X)$ is free; when $X$ is finite, the set of $\alpha \in \mathbf{N}^{(X)}$ such that $|\alpha|=n$ is finite and hence $L^n(X)$ is then of finite rank.
 
-#### Definition 3 {#lie-ii-s2-def-3 .statement}
+#### Definition 3 {#lie-ii-s2-def-3 .statement tag=0A3K}
 
 *A Hall basis of a free Lie algebra* $L(X)$ *is any basis of* $L(X)$ *which is the canonical image of a Hall set relative to* $X$.
 
-#### Remark {#lie-ii-s2-n11-rem-1 .statement}
+#### Remark {#lie-ii-s2-n11-rem-1 .statement tag=0A3L}
 
 Suppose that $X$ consists of two distinct elements $x$ and $y$ and let $L^{(\cdot,1)}$ be the submodule of $L(X)$ the sum of the $L^\alpha(X)$ where $\alpha \in \mathbf{N}^X$ and $\alpha(y)=1$. It follows immediately from Theorem 1 and Proposition 12 of no. 10 that the elements of $(\mathrm{ad}\,x)^n.y$ where $n$ is an integer $\geqslant 0$ form a *basis* of the submodule $L^{(\cdot,1)}$. It follows that *the restriction to* $L^{(\cdot,1)}$ *of the mapping ad* $x$ *is injective*.
 

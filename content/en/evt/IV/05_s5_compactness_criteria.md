@@ -33,7 +33,7 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: d0fa9c5aaf380d170b95bfb213aa9e6f15e5cda38e4b3be72f8be11f79b9b7d4
+content_sha256: 109a4d05718fd73c2e0104fdb772994f028706b89a9a4001b0f091a0d03c8b4b
 ---
 
 ## § 5. COMPACTNESS CRITERIA
@@ -53,7 +53,7 @@ c) from every infinite sequence of points of A, we can extract a sequence which 
 
 In this section, we shall extend this criterion to certain non metrizable topological vector spaces. The following proposition enables us to reduce the study of compact sets to that of weakly compact sets in a number of cases.
 
-#### Proposition 1 {#evt-iv-s5-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s5-prop-1 .statement tag=07VR}
 
 — Let E be a Hausdorff locally convex space, and A a subset of E. Let $E_\sigma$ denote the space E with the weakened topology.
 a) If every infinite sequence of points of A has a limit point in E, then A is precompact in E.
@@ -69,7 +69,7 @@ Now suppose that A is precompact in E and is contained in a compact subset B of 
 
 In this section, X denotes a *compact* space and $\mathscr{C}_s(X)$ the space of continuous functions on X, with values in the field K (equal to $\mathbf{R}$ or $\mathbf{C}$). The space $\mathscr{C}_s(X)$ is assigned the topology of simple convergence on X.
 
-#### Proposition 2 {#evt-iv-s5-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s5-prop-2 .statement tag=07VS}
 
 *Let D be a dense subset of X and A a subset of the space $\mathscr{C}_s(X)$. The following conditions are equivalent :*
 (i) *A is relatively compact in $\mathscr{C}_s(X)$.*
@@ -121,7 +121,7 @@ Finally, from (1)$_m$, we get $|\gamma - u(a)| \geq \varepsilon$, and so $\gamma
 
 ### 3. The Eberlein and Šmulian theorems
 
-#### Theorem 1 (Eberlein) {#evt-iv-s5-thm-1 .statement}
+#### Theorem 1 (Eberlein) {#evt-iv-s5-thm-1 .statement tag=07VT}
 
 — *Let E be a Hausdorff and quasi-complete locally convex space, $\mathscr{T}$ a topology on E which is compatible with the duality between E and E' and A a subset of E. For A to be relatively compact for $\mathscr{T}$, it is necessary and sufficient that every infinite sequence of points of A has a limit point in E for $\mathscr{T}$.*
 
@@ -139,7 +139,7 @@ Let $(x'_i)_{i \in I}$ be a basis of the vector space E' over the field K. The m
 
 Since the topology of $E_\sigma$ is induced by that of ${E'_\sigma}^*$, the subset $\overline{A}$ of $E_\sigma$ is compact, and th. 1 follows.
 
-#### Theorem 2 (Šmulian) {#evt-iv-s5-thm-2 .statement}
+#### Theorem 2 (Šmulian) {#evt-iv-s5-thm-2 .statement tag=07VU}
 
 — *Let E be a Fréchet space and A a subset of E. Let $E_\sigma$ denote the space E endowed with the weakened topology. The following conditions are equivalent* :
 
@@ -151,7 +151,7 @@ The equivalence of (i) and (ii) follows from Eberlein’s theorem and (iii) obvi
 
 We shall prove that (i) implies (iii). Suppose that the closure B of A in $E_\sigma$ is compact and that $(x_n)_{n \in \mathbf{N}}$ is a sequence of points of A. Let F denote the smallest closed vector subspace of E containing the $x_n$, this is a Fréchet space satisfying the first axiom of countability. Since F is closed in $E_\sigma$ and the topology $\sigma(F, F')$ on F is induced by $\sigma(E, E')$, the set $B \cap F$ is compact for $\sigma(F, F')$. On account of the remarks in IV, p. 32, the existence of a sequence extracted from $(x_n)_{n \in \mathbf{N}}$ converging for $\sigma(E, E')$ (or, which is the same, for $\sigma(F, F')$) is a consequence of the following lemma :
 
-#### Lemma 1 {#evt-iv-s5-lem-1 .statement}
+#### Lemma 1 {#evt-iv-s5-lem-1 .statement tag=07VV}
 
 — *Let F be a Fréchet space satisfying the first axiom of countability. Every subset C of F which is compact for the topology $\mathscr{T}$ induced by $\sigma(F, F')$ is metrizable for this topology.*
 
@@ -171,11 +171,11 @@ $$
 
 In this and the following section, we shall use the following lemma, which is a particular case of Lebesgue’s theorem (INT, IV, 2nd ed. § 4, No. 3, th. 2) on account of the interpretation of the elements of $\mathscr{C}(X)'$ as measures on X.
 
-#### Lemma 2 {#evt-iv-s5-lem-2 .statement}
+#### Lemma 2 {#evt-iv-s5-lem-2 .statement tag=07VW}
 
 Let X be a compact space. If a sequence $(f_n)_{n \in \mathbf{N}}$ is bounded in $C(X)$ and converges simply on X to a continuous function f, then $\mu(f) = \lim_{n \to \infty} \mu(f_n)$ for every $\mu$ in $C(X)'$.
 
-#### Proposition 3 {#evt-iv-s5-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s5-prop-3 .statement tag=07VX}
 
 Let X be a compact space, and let A be a bounded subset of $C(X)$. For A to be relatively compact for the topology of simple convergence, it is necessary and sufficient that it is relatively compact for $\sigma(C(X), C(X)')$.
 
@@ -183,7 +183,7 @@ The topology of simple convergence is Hausdorff and coarser than $\sigma(C(X), C
 
 Now suppose that A is relatively compact for the topology of simple convergence. Let $(f_n)_{n \in \mathbf{N}}$ be a sequence of elements of A. By prop. 2 (IV, p. 33), there exists a sequence $(f_{n_k})$ extracted from $(f_n)$ and converging simply to a continuous function f. By lemma 2, the bounded sequence $(f_{n_k})$ tends to f for $\sigma(C(X), C(X)')$. Then Šmulian’s theorem (IV, p. 36, th. 2) shows that A is relatively compact for $\sigma(C(X), C(X)')$.
 
-#### Corollary {#evt-iv-s5-n4-cor-1 .statement}
+#### Corollary {#evt-iv-s5-n4-cor-1 .statement tag=07VY}
 
 Let S be a topological space and A a bounded subset of $C^b(S)$. The following conditions are equivalent :
 (i) A is relatively compact for $\sigma(C^b(S), C^b(S'))$;
@@ -197,7 +197,7 @@ Let X be the Stone-Čech compactification of S (GT, IX, § 1, No. 6) and $\alpha
 
 ### \*5. Convex envelope of a weakly compact set
 
-#### Theorem 3 (Krein) {#evt-iv-s5-thm-3 .statement}
+#### Theorem 3 (Krein) {#evt-iv-s5-thm-3 .statement tag=07VZ}
 
 Let E be a Hausdorff and quasi-complete locally convex space, and let $\mathscr{T}$ be a topology on E compatible with the duality between E and E'. Let A be a subset of E which is compact for $\mathscr{T}$. Then the closed convex balanced envelope C of A is compact for $\mathscr{T}$.
 

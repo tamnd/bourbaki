@@ -25,7 +25,7 @@ subsections:
       pdf_page: 152
 statements: 9
 exercises: 2
-content_sha256: d59ed32155d2c30fd69ac39c13a938a7e0c5ae6558f4ec8e8dea639176f48b42
+content_sha256: 63d2f706f32d7a009d9e0db38249dd6352b9099a886cf3017604a07da5310aac
 ---
 
 ## § 8. NORMES ET TRACES
@@ -80,7 +80,7 @@ $$
 \text{(4)} \qquad D_{A/K}(x_1, \ldots, x_n) \cdot 1 = [\det u_i(x_j)]^2 .
 $$
 
-#### Proposition 1 {#alg-v-s8-prop-1 .statement}
+#### Proposition 1 {#alg-v-s8-prop-1 .statement tag=06L9}
 
 Soit $A$ une algèbre commutative de degré fini sur $K$. Les conditions suivantes sont équivalentes :
 
@@ -107,7 +107,7 @@ d’où $\lambda_i = 0$ pour $1 \leq i \leq n$ d’après le théorème d’ind�
 
 L’équivalence de b) et c) résulte du lemme général suivant :
 
-#### Lemme 1 {#alg-v-s8-lem-1 .statement}
+#### Lemme 1 {#alg-v-s8-lem-1 .statement tag=06LA}
 
 Soient $V$ un espace vectoriel de dimension finie sur $K$, et $B$ une forme bilinéaire sur $V \times V$. Soient $(v_1, ..., v_n)$ une base de $V$ sur $K$ et $\Delta = \det B(v_i, v_j)$. On a $\Delta \neq 0$ si et seulement si, pour tout $x \neq 0$ dans $V$, il existe $y$ dans $V$ avec $B(x, y) \neq 0$.
 
@@ -121,7 +121,7 @@ n’admet que la solution $\lambda_1 = \cdots = \lambda_n = 0$ dans $K$. Si l’
 
 Montrons que la condition c) entraîne que $A$ est réduite. Soit $x$ un élément nilpotent de $A$; pour tout $y \in A$, l’élément $xy$ de $A$ est nilpotent, et par suite l’endomorphisme $L_{xy}$ de l’espace vectoriel $A$ est nilpotent. Le lemme suivant entraîne alors $\mathrm{Tr}(xy) = 0$ pour tout $y \in A$, d’où $x = 0$ sous l’hypothèse c).
 
-#### Lemme 2 {#alg-v-s8-lem-2 .statement}
+#### Lemme 2 {#alg-v-s8-lem-2 .statement tag=06LB}
 
 Soient $V$ un espace vectoriel de dimension finie sur $K$ et $u$ un endomorphisme nilpotent de $V$. On a $\mathrm{Tr}(u) = 0$.
 
@@ -129,7 +129,7 @@ Pour tout entier $n \geq 0$, soit $V_n$ l’image de $u^n$. Comme $u$ est nilpot
 
 Montrons enfin que b) entraîne a). Soit $(x_1, ..., x_n)$ une base de A sur K telle que $D_{A/K}(x_1, ..., x_n) \neq 0$. Soient K' une extension de K, A' la K'-algèbre déduite de A par extension des scalaires et $x'_i = 1 \otimes x_i$ pour $1 \leq i \leq n$. D’après la formule (2) (V, p. 46), on a $D_{A'/K'}(x'_1, ..., x'_n) \neq 0$. En appliquant le résultat précédent à A', on voit que A' est réduite. L’algèbre A est donc étale (V, p. 34, th. 4).
 
-#### Corollaire {#alg-v-s8-n2-cor-1 .statement}
+#### Corollaire {#alg-v-s8-n2-cor-1 .statement tag=06LC}
 
 *Soit E une extension de degré fini de K. Pour que E soit séparable, il faut et il suffit qu’il existe a dans E tel que $\operatorname{Tr}_{E/K}(a) \neq 0$*.
 
@@ -139,7 +139,7 @@ La condition est nécessaire d’après la prop. 1. Inversement, supposons qu’
 
 Les formules de transitivité des normes et traces dans les algèbres (III, p. 114) entraînent la proposition suivante dans le cas des extensions de degré fini.
 
-#### Proposition 2 {#alg-v-s8-prop-2 .statement}
+#### Proposition 2 {#alg-v-s8-prop-2 .statement tag=06LD}
 
 *Soient F une extension de degré fini de K et E une sous-extension de F. Pour tout $x \in F$, on a*
 
@@ -150,7 +150,7 @@ $$
 N_{F/K}(x) = N_{E/K}(N_{F/E}(x)) .
 $$
 
-#### Corollaire {#alg-v-s8-n3-cor-1 .statement}
+#### Corollaire {#alg-v-s8-n3-cor-1 .statement tag=06LE}
 
 *Posons $m = [F : E]$. Pour tout $x \in E$, on a*
 
@@ -161,7 +161,7 @@ $$
 N_{F/K}(x) = N_{E/K}(x)^m .
 $$
 
-#### Proposition 3 {#alg-v-s8-prop-3 .statement}
+#### Proposition 3 {#alg-v-s8-prop-3 .statement tag=06LF}
 
 *Soient E une extension de degré fini n de K et x un élément de E, de degré d sur K. Notons $f(X) = X^d + \sum_{i=1}^d a_i X^{d-i}$ le polynôme minimal de x sur K. On a*
 
@@ -174,7 +174,7 @@ $$
 
 La prop. 3 résulte aussitôt du cor. de la prop. 2 et du lemme suivant :
 
-#### Lemme 3 {#alg-v-s8-lem-3 .statement}
+#### Lemme 3 {#alg-v-s8-lem-3 .statement tag=06LG}
 
 Soient $\mathbf{R}$ un anneau commutatif, $f(X) = X^d + \sum_{i=1}^d a_i X^{d-i}$ un polynôme unitaire de $\mathbf{R}[X]$, $A$ la $\mathbf{R}$-algèbre $\mathbf{R}[X]/(f)$, et $x$ la classe de $X$ dans $A$. On a alors $\mathrm{Tr}_{A/\mathbf{R}}(x) = -a_1$ et $\mathrm{N}_{A/\mathbf{R}}(x) = (-1)^d a_d$.
 
@@ -217,7 +217,7 @@ $$
 
 c) Cas général : on peut résumer le calcul de la norme et de la trace dans la proposition suivante :
 
-#### Proposition 4 {#alg-v-s8-prop-4 .statement}
+#### Proposition 4 {#alg-v-s8-prop-4 .statement tag=06LH}
 
 Soient $p$ l’exposant caractéristique de $K$ et $E$ une extension de degré fini de $K$. Soient $\sigma_1, ..., \sigma_n$ les $K$-homomorphismes distincts de $E$ dans une clôture algébrique $\Omega$ de $K$, et soit $p^e = [E : K]_i$. Pour tout $x \in E$, on a dans $\Omega$
 

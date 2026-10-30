@@ -33,7 +33,7 @@ subsections:
       pdf_page: 502
 statements: 19
 exercises: 1
-content_sha256: 5fd5332d97634f65f0700d65e62ddf4fb51bdfdab9e4d726d3944f066bc41ebd
+content_sha256: 391265a84487e832364c753b2c37946adc43b6faffab053bfd958ab483b63629
 ---
 
 ## § 9. NORMES ET TRACES
@@ -42,7 +42,7 @@ Dans tout ce paragraphe, on note $K$ un anneau commutatif, $A$ une $K$-algèbre,
 
 ### 1. Normes et traces relatives à un module
 
-#### Définition 1 {#alg-iii-s9-def-1 .statement}
+#### Définition 1 {#alg-iii-s9-def-1 .statement tag=065S}
 
 Soit $M$ un $A$-module admettant une base finie en tant que $K$-module. Pour tout $a \in A$, soit $a_M$ l’endomorphisme $x \mapsto ax$ du $K$-module $M$. La trace, le déterminant et le polynôme caractéristique de $a_M$ sont appelés respectivement la trace, la norme et le polynôme caractéristique de $a$ relativement à $M$.
 
@@ -124,7 +124,7 @@ $$
 $$
 car si $f$ est un isomorphisme de $M$ sur $M'$, la matrice de $a_M$ par rapport à une base $B$ de $M$ sur $K$ est la même que la matrice de $a_M$ par rapport à la base $f(B)$ de $M'$.
 
-#### Proposition 1 {#alg-iii-s9-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s9-prop-1 .statement tag=065T}
 
 *Soit $M = M_0 \supset M_1 \supset \ldots \supset M_r = \{0\}$ une suite décroissante de sous-modules d’un $A$-module $M$, telle que chacun des $K$-modules $P_i = M_{i-1}/M_i$ ($1 \leq i \leq r$) admette une base finie. Alors le $K$-module $M$ admet une base finie et l’on a*
 $$
@@ -144,7 +144,7 @@ X_{rr} & X_{r,r-1} & \ldots & X_{r,1} \\
 $$
 et la proposition résulte des formules (4), (5) et (6) de III, p. 108 et de la formule (31) de III, p. 101.
 
-#### Proposition 2 {#alg-iii-s9-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s9-prop-2 .statement tag=065U}
 
 *Soient $A, A'$ deux $K$-algèbres, $M$ un $A$-module et $M'$ un $A'$-module. On suppose que $M$ et $M'$ sont des $K$-modules libres de dimensions respectives $n$ et $n'$, et on considère $M \otimes_K M'$ comme un $(A \otimes_K A')$-module (III, p. 40, Exemple 2). Alors, pour $a \in A$ et $a' \in A_1$, on a*
 $$
@@ -157,7 +157,7 @@ En effet, la formule (16) résulte de II, p. 80, formule (26) et la formule (17)
 
 ### 3. Norme et trace dans un algèbre
 
-#### Définition 2 {#alg-iii-s9-def-2 .statement}
+#### Définition 2 {#alg-iii-s9-def-2 .statement tag=065V}
 
 Soit $A$ une $K$-algèbre qui soit un $K$-module libre de dimension finie. Pour tout élément $a \in A$, on appelle trace (resp. norme,$^1$ resp. polynôme caractéristique) de $a$ relativement à $A$ et à $K$ la trace (resp. le déterminant, resp. le polynôme caractéristique) de l’endomorphisme $x \mapsto ax$ du $K$-module $A$.
 
@@ -204,15 +204,15 @@ $$
 \mathrm{Pc}_{A/K}(a; x) = N_{A'/K'}(x - a).
 $$
 
-#### Exemple 1 {#alg-iii-s9-n3-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s9-n3-exa-1 .statement tag=065W}
 
 Soient A une algèbre quadratique sur K de type (\alpha, \beta), (e_1, e_2) une base de type (\alpha, \beta) (III, p. 12 et 13). Pour x = \xi e_1 + \eta e_2, on a Tr_{A/K}(x) = 2\xi + \beta\eta et N_{A/K}(x) = \xi^2 + \beta\xi\eta - \alpha\eta^2; ces fonctions sont donc identiques à la trace et à la norme cayleyennes de x (III, p. 14 et p. 15).
 
-#### Exemple 2 {#alg-iii-s9-n3-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s9-n3-exa-2 .statement tag=0DGW}
 
 Soit A une algèbre de quaternions sur K. Un calcul direct permet de vérifier que l’on a Tr_{A/K}(x) = 2 T(x) et N_{A/K}(x) = (N(x))^2, où T et N sont la trace et la norme cayleyennes (III, p. 15).
 
-#### Exemple 3 {#alg-iii-s9-n3-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s9-n3-exa-3 .statement tag=0DGX}
 
 Soit A = M_n(K), et rangeons la base canonique (E_{ij}) de A (II, p. 142) dans l’ordre lexicographique. On voit alors aussitôt que pour toute matrice X = \sum_{i,j} \xi_{ij} E_{ij}, la matrice (d’ordre n^2) de l’endomorphisme Y \to XY a la forme
 
@@ -229,7 +229,7 @@ d’où Tr_{A/K}(X) = n \cdot \mathrm{Tr}(X) et N_{A/K}(X) = (\det(X))^n.
 
 ### 4. Propriétés des normes et traces dans une algèbre
 
-#### Proposition 3 {#alg-iii-s9-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s9-prop-3 .statement tag=065X}
 
 *Soit A une K-algèbre admettant une base finie. Pour qu’un élément a \in A soit inversible, il faut et il suffit que sa norme N_{A/K}(a) soit inversible dans K.*
 
@@ -241,7 +241,7 @@ $$
 
 d’après la formule (3) de III, p. 108. Réciproquement, si N_{A/K}(a) est inversible, l’endomorphisme h : x \mapsto ax est bijectif (III, p. 91, th. 1). Il existe donc a' \in A tel que aa' = 1 ; on a alors $h(a'a - 1) = aa'a - a = (aa' - 1)a = 0$, d’où $a'a = 1$ puisque h est injectif. Donc a' est l’inverse de a.
 
-#### Proposition 4 {#alg-iii-s9-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s9-prop-4 .statement tag=065Y}
 
 *Soit A une K-algèbre admettant une base finie. Pour tout a \in A, on a*
 
@@ -251,7 +251,7 @@ $$
 
 Cela résulte immédiatement du th. de Hamilton-Cayley (III, p. 107, prop. 20).
 
-#### Proposition 5 {#alg-iii-s9-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s9-prop-5 .statement tag=065Z}
 
 *Soient A une K-algèbre, m un idéal bilatère de A. On suppose que A_0 = A/m est un K-module libre de dimension finie n, qu’il existe un entier r > 0 tel que m^r = \{0\}, et que m^{i-1}/m^i est un A_0-module libre de dimension finie s_i pour 1 \leq i \leq r.*
 
@@ -266,7 +266,7 @@ N_A(a) = N_{A_0}(a)^s.
 $$
 Dans cette formule, $N_{A_0}(a)$ est défini en considérant $A_0$ comme $A$-module à gauche, et il est égal au déterminant de l’application $K$-linéaire $x \mapsto ax$ de $A_0$ dans lui-même; mais comme $ax = a_0 x$ pour $x \in A_0$, on a $N_{A_0}(a) = N_{A_0}(a_0)$, ce qui achève de prouver la formule (23) relative à la norme. Les deux autres se démontrent de façon analogue.
 
-#### Proposition 6 {#alg-iii-s9-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s9-prop-6 .statement tag=0660}
 
 Soient $A$ une $K$-algèbre commutative admettant une base finie sur $K$, $V$ un $A$-module admettant une base finie sur $A$. Alors $V$ admet une base finie sur $K$, et pour tout $A$-endomorphisme $u$ de $V$, si $u_K$ est l’application $u$ considérée comme $K$-endomorphisme de $V$ on a
 $$
@@ -275,7 +275,7 @@ $$
 $$
 Soient $(a_i)_{1 \leq i \leq m}$ une base de $A$ sur $K$, $(e_j)_{1 \leq j \leq n}$ une base de $V$ sur $A$; alors $(a_i e_j)$ est une base de $V$ sur $K$ (II, p. 31, prop. 25). D’autre part la troisième des formules (24) se déduit de la seconde appliquée à l’endomorphisme $X - \bar{u}$ du $A[X]$-module $A[X] \otimes_A V$ (III, p. 106). Il suffira donc de démontrer les deux premières formules (24). Nous établirons d’abord le lemme suivant:
 
-#### Lemme 1 {#alg-iii-s9-lem-1 .statement}
+#### Lemme 1 {#alg-iii-s9-lem-1 .statement tag=0661}
 
 Soient $X_{ij}$ ($1 \leq i \leq n, 1 \leq j \leq n$) $n^2$ indéterminées, $X$ la matrice carrée $(X_{ij})$ d’ordre $n$, $D(X_{11}, \ldots, X_{nn}) \in \mathbf{Z}[X_{11}, \ldots, X_{nn}]$ le déterminant $\det(X)$. Soient d’autre part $A$ un anneau commutatif, $M_{ij}$ ($1 \leq i \leq n, 1 \leq j \leq n$) $n^2$ matrices carrées d’ordre $m$ sur $A$, deux à deux permutables, et $M$ la matrice carrée d’ordre $mn$ sur $A$ qui se met sous la forme d’une matrice carrée de matrices (II, p. 152)
 $$
@@ -330,7 +330,7 @@ qui est une matrice d’ordre $m(n-1)$; on a (III, p. 101, formule (31)) $(\det 
 
 Ce lemme étant démontré, le K-module V est somme directe des K-modules $Ae_j$ ($1 \leq j \leq n$); posons $u(e_j) = \sum_{k=1}^n c_{jk} e_k$. Pour tout élément $x e_j \in Ae_j$, avec $x \in A$, la composante de $u(x e_j)$ dans $Ae_k$ est $x c_{jk} e_k$; on en conclut que la matrice de $u_K$ par rapport à la base $(a_i e_j)$ du K-module V se met sous forme d’une matrice carrée de matrices $(M_{jk})$, où $M_{jk}$ est la matrice de l’application K-linéaire $x e_j \mapsto x c_{j k} e_k$ de $A e_j$ dans $A e_k$, par rapport aux bases $(a_i e_j)_{1 \leq i \leq m}$ et $(a_i e_k)_{1 \leq i \leq m}$ de ces deux $K$-modules (II, p. 147). Si pour tout $t \in A$, on note $M(t)$ la matrice, pour rapport à la base $(a_i)_{1 \leq i \leq m}$ de $A$ sur $K$, de l’endomorphisme $x \mapsto xt$ de $A$, on a $M_{jk} = M(c_{jk})$; comme $t \mapsto M(t)$ est un homomorphisme d’anneaux les matrices $M_{jk}$ sont deux à deux permutables. On a donc $\det u_K = \det(D(M_{11}, \ldots, M_{nn}))$ en vertu du lemme 1. Mais comme $t \mapsto M(t)$ est un homomorphisme d’anneaux, $D(M_{11}, \ldots, M_{nn})$ est la matrice du $K$-endomorphisme $x \mapsto x.\det(c_{jk})$ de $A$ par rapport à la base $(a_i)$; par définition son déterminant est donc $N_{A/K}(\det(u))$, ce qui prouve la seconde formule (24). D’autre part, on a $\operatorname{Tr}(u_K) = \sum_{j=1}^n \operatorname{Tr}(M_{jj}) = \sum_{j=1}^n \operatorname{Tr}_{A/K}(c_{jj}) = \operatorname{Tr}_{A/K}\left( \sum_{j=1}^n c_{jj} \right) = \operatorname{Tr}_{A/K}(\operatorname{Tr}(u))$, et la prop. 6 est ainsi complètement démontrée.
 
-#### Corollaire {#alg-iii-s9-n4-cor-1 .statement}
+#### Corollaire {#alg-iii-s9-n4-cor-1 .statement tag=0662}
 
 Soient $A$ une $K$-algèbre commutative admettant une base finie sur $K$, $B$ une $A$-algèbre admettant une base finie sur $A$. Alors $B$ admet une base finie sur $K$, et pour tout $b \in B$, on a (« formules de transitivité »)
 
@@ -343,7 +343,7 @@ $$
 
 Cela résulte immédiatement de la prop. 6, où l’on fait $V = B$ et $u(x) = bx$.
 
-#### Remarque {#alg-iii-s9-n4-rem-1 .statement}
+#### Remarque {#alg-iii-s9-n4-rem-1 .statement tag=0663}
 
 Supposons que l’homomorphisme $\lambda \mapsto \lambda . 1$ de $K$ dans $A$ soit injectif, et identifions $K$ à son image dans $A$; supposons que $A$ admette une base finie $(e_i)_{1 \leq i \leq n}$ en tant que $K$-module. Soit $s$ un automorphisme de $A$ tel que $s(K) = K$. Soit $a$ un élément de $A$; on a, par transport de structure,
 
@@ -374,7 +374,7 @@ $$
 
 ### 5. Discriminant d’une algèbre
 
-#### Définition 3 {#alg-iii-s9-def-3 .statement}
+#### Définition 3 {#alg-iii-s9-def-3 .statement tag=0664}
 
 Soit $A$ une $\mathbf{K}$-algèbre admettant une base finie de $n$ éléments. On appelle discriminant d’une suite $(x_1, \ldots, x_n)$ de $n$ éléments de $A$, par rapport à $\mathbf{K}$, et l’on note $D_{A/\mathbf{K}}(x_1, \ldots, x_n)$ le déterminant de la matrice carrée $(\mathrm{Tr}_{A/\mathbf{K}}(x_i x_j))_{1 \leq i \leq n, 1 \leq j \leq n}$.
 
@@ -400,22 +400,22 @@ D_{A/\mathbf{K}}(x_1, \ldots, x_n) = (\det M)^2 D_{A/\mathbf{K}}(x'_1, \ldots, x
 $$
 La formule précédente montre en particulier que les discriminants de deux bases de $A$ sur $\mathbf{K}$ diffèrent par multiplication par le carré d’un élément inversible de $\mathbf{K}$, et engendrent donc le même idéal (principal) de $\mathbf{K}$. Cet idéal $\Delta_{A/\mathbf{K}}$ s’appelle l’idéal discriminant de $A$ sur $\mathbf{K}$; en vertu de la formule (32), le discriminant de toute suite de $n$ éléments de $A$ appartient à $\Delta_{A/\mathbf{K}}$. On notera que deux suites de $n$ éléments de $A$ qui ne diffèrent que par l’ordre des termes ont même discriminant, car le déterminant d’une matrice de permutation est égal à $\pm 1$.
 
-#### Exemple 1 {#alg-iii-s9-n5-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s9-n5-exa-1 .statement tag=0665}
 
 Si $A$ est une algèbre quadratique de type $(\alpha, \beta)$ sur $\mathbf{K}$, on a (avec les notations de III, p. 12) $\operatorname{Tr}(e_1) = 2,\ \operatorname{Tr}(e_2) = \beta,\ \operatorname{Tr}(e_2^2) = \alpha \operatorname{Tr}(e_1) + \beta \operatorname{Tr}(e_2) = 2\alpha + \beta^2$, d’où $D_{A/K}(e_1, e_2) = \beta^2 + 4\alpha$.
 
-#### Exemple 2 {#alg-iii-s9-n5-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s9-n5-exa-2 .statement tag=0DGY}
 
 Soit $A = K[X]/K[X]P$, où $P(X) = X^3 + pX + q$, de sorte que si $x$ est l’image de $X$ dans $A$, $1, x, x^2$ forment une base de $A$ sur $K$ et $x^3 = -px - q$. On voit aussitôt que $\operatorname{Tr}(1) = 3,\ \operatorname{Tr}(x) = 0,\ \operatorname{Tr}(x^2) = -2p$, et en tenant compte de la relation $x^3 = -px - q,\ \operatorname{Tr}(x^3) = -3q$ et $\operatorname{Tr}(x^4) = 2p^2$, d’où facilement $D_{A/K}(1, x, x^2) = -4p^3 - 27q^2$.
 
-#### Exemple 3 {#alg-iii-s9-n5-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s9-n5-exa-3 .statement tag=0DGZ}
 
 Soit $A$ une algèbre de quaternions de type $(\alpha, \beta, \gamma)$ sur $K$, $(1, i, j, k)$ une base de $A$ de type $(\alpha, \beta, \gamma)$; compte tenu de III, p. 18, formule (30), on trouve aisément $\operatorname{Tr}(1) = 4,\ \operatorname{Tr}(i) = 2\beta,\ \operatorname{Tr}(j) = \operatorname{Tr}(k) = 0$, puis
 $$
 D_{A/K}(1, i, j, k) = -16\gamma^2(\beta^2 + 4\alpha)^2.
 $$
 
-#### Exemple 4 {#alg-iii-s9-n5-exa-4 .statement}
+#### Exemple 4 {#alg-iii-s9-n5-exa-4 .statement tag=0DH0}
 
 Soit $A = M_n(K)$, et considérons la base canonique $(E_{ij})_{1 \leq i \leq n,\ 1 \leq j \leq n}$ de $A$ sur $K$ (II, p. 142). Il est immédiat que $\operatorname{Tr}_{A/K}(E_{ij}) = 0$ si $j \neq i$ et $\operatorname{Tr}_{A/K}(E_{ii}) = n$ pour tout $i$; on en déduit sans peine que la matrice $(\operatorname{Tr}(E_{ij}E_{hk}))$ d’ordre $n^2$ est de la forme $n.P$, où $P$ est une matrice de permutation, d’où $D_{A/K}((E_{ij})) = \pm n^{n^2}$.
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 90
 statements: 30
 exercises: 25
-content_sha256: db18d9b6b12ac2d93629607a636935fa7ffdbf28b42228f394766699c9dbe74f
+content_sha256: 12e9772c38aa74228cb10aeeed126fa570bbf642d2e3a309b9f2ddd3ef6fca0d
 ---
 
 ## § 10. APPLICATIONS PROPRES
@@ -40,11 +40,11 @@ Dans ce paragraphe, nous noterons $\mathrm{Id}_X$ l’application identique d’
 
 Si $f : X \to Y$ et $f' : X' \to Y'$ sont deux applications continues fermées, le produit $f \times f' : X \times X' \to Y \times Y'$ n’est pas nécessairement une application fermée, même si $f$ est de la forme $\mathrm{Id}_X$.
 
-#### Exemple {#top-i-s10-n1-exa-1 .statement}
+#### Exemple {#top-i-s10-n1-exa-1 .statement tag=0BA1}
 
 Toute application constante dans un espace séparé est fermée. Mais si $f$ est l’application constante $\mathbf{Q} \to \{0\}$, $f \times \mathrm{Id}_\mathbf{Q}$ est l’application $(x, y) \mapsto (0, y)$ de $\mathbf{Q}^2$ dans $\mathbf{Q}^2$, qui s’identifie à la deuxième projection et n’est pas fermée (I, p. 26, Remarque 1).
 
-#### Définition 1 {#top-i-s10-def-1 .statement}
+#### Définition 1 {#top-i-s10-def-1 .statement tag=0BA2}
 
 Soit $f$ une application d’un espace topologique $X$ dans un espace topologique $Y$. On dit que $f$ est propre si $f$ est continue et si, pour tout espace topologique $Z$, l’application $f \times \mathrm{Id}_Z : X \times Z \to Y \times Z$ est fermée.
 
@@ -52,11 +52,11 @@ On donnera aux nos 2 et 3 d’autres caractérisations des applications propres.
 
 En prenant dans la déf. 1 l’espace $Z$ réduit à un point, on voit que:
 
-#### Proposition 1 {#top-i-s10-prop-1 .statement}
+#### Proposition 1 {#top-i-s10-prop-1 .statement tag=0BA3}
 
 Toute application propre est fermée.
 
-#### Proposition 2 {#top-i-s10-prop-2 .statement}
+#### Proposition 2 {#top-i-s10-prop-2 .statement tag=0BA4}
 
 Soit $f : X \to Y$ une application continue injective. Les trois propriétés suivantes sont équivalentes:
 a) $f$ est propre.
@@ -65,7 +65,7 @@ c) $f$ est un homéomorphisme de $X$ sur une partie fermée de $Y$.
 
 On vient de voir que a) entraîne b). Comme la relation d’équivalence $f(x) = f(x')$ est la relation d’égalité, l’espace quotient de $X$ par cette relation s’identifie à $X$, donc b) entraîne c) en vertu de I, p. 32, prop. 3. Enfin, si c) est vérifiée, $f \times \mathrm{Id}_Z$ est un homéomorphisme de $X \times Z$ sur un sous-espace fermé de $Y \times Z$, donc est une application fermée, ce qui prouve que c) entraîne a).
 
-#### Proposition 3 {#top-i-s10-prop-3 .statement}
+#### Proposition 3 {#top-i-s10-prop-3 .statement tag=0BA5}
 
 Soit $f : X \to Y$ une application continue; pour toute partie $T$ de $Y$, désignons par $f_T$ l’application de $f^{-1}(T)$ dans $T$ qui coïncide avec $f$ dans $f^{-1}(T)$.
 a) Si $f$ est propre, $f_T$ est propre.
@@ -75,7 +75,7 @@ Soit $Z$ un espace topologique. Pour toute partie $T$ de $Y$, on a $f_T \times \
 
 Y × Z a la même propriété; si les $f_{T(i)}$ sont propres, les $(f \times \mathrm{Id}_Z)_{T(i) \times Z}$ sont fermées, donc $f \times \mathrm{Id}_Z$ est fermée (I, p. 31, prop. 2 b)), ce qui achève la démonstration.
 
-#### Proposition 4 {#top-i-s10-prop-4 .statement}
+#### Proposition 4 {#top-i-s10-prop-4 .statement tag=0BA6}
 
 Soit $I$ un ensemble fini, et pour tout $i \in I$, soit $f_i : X_i \to Y_i$ une application continue. Posons $X = \prod_i X_i$, $Y = \prod_i Y_i$, et soit $f : X \to Y$ l’application produit $(x_i) \mapsto (f_i(x_i))$ des $f_i$. Alors:
 a) *Si chacune des $f_i$ est propre, $f$ est propre.*
@@ -86,7 +86,7 @@ En raisonnant par récurrence, on voit qu’il suffit de considérer le cas où 
 a) Supposons $f_1, f_2$ propres, et soit $Z$ un espace topologique; l’application $f_1 \times f_2 \times \mathrm{Id}_Z$ est la composée des applications $\mathrm{Id}_{Y_1} \times f_2 \times \mathrm{Id}_Z$ et $f_1 \times \mathrm{Id}_{X_2} \times \mathrm{Id}_Z$; ces deux applications sont fermés par hypothèse, donc $f_1 \times f_2 \times \mathrm{Id}_Z$ est fermée (I, p. 30, prop. 1 a)), et $f = f_1 \times f_2$ est propre.
 b) Supposons maintenant $f$ propre; soit $F$ une partie fermée de $X_2 \times Z$, et soit $G$ son image dans $Y_2 \times Z$ par $f_2 \times \mathrm{Id}_Z$; l’image de $X_1 \times F$ dans $Y_1 \times Y_2 \times Z$ par $f_1 \times f_2 \times \mathrm{Id}_Z$ est égale à $f_1(X_1) \times G$. Par hypothèse, $f_1(X_1) \times G$ est fermé dans $Y_1 \times Y_2 \times Z$; si $X_1 \neq \varnothing$, $f_1(X_1)$ est non vide, et cela entraîne que $G$ est fermé dans $Y_2 \times Z$ (I, p. 27, corollaire); donc l’application $f_2$ est propre. On montre de même que $f_1$ est propre si $X_2 \neq \varnothing$.
 
-#### Proposition 5 {#top-i-s10-prop-5 .statement}
+#### Proposition 5 {#top-i-s10-prop-5 .statement tag=0BA7}
 
 Soient $f : X \to X'$ et $g : X' \to X''$ deux applications continues. Alors:
 a) *Si $f$ et $g$ sont propres, $g \circ f$ est propre.*
@@ -108,29 +108,29 @@ $$
 
 où $\varphi(x) = (x, f(x))$ et $\psi(x') = (g(x'), x')$. L’application $\varphi$ (resp. $\psi$) est un homéomorphisme de $X$ (resp. $X'$) sur le graphe de $f$ (resp. le symétrique du graphe de $g$) (I, p. 25, cor. 2); de plus, puisque $X'$ est séparé, le graphe $\varphi(X)$ de $f$ est fermé dans $X \times X'$ (I, p. 53, cor. 2). Donc (I, p. 72, prop. 2) $\varphi$ est propre; d’autre part la prop. 4 de I, p. 73 montre que $(g \circ f) \times \mathrm{Id}_{X'}$ est propre. D’après a) et la commutativité du diagramme (1), $\psi \circ f$ est propre, et puisque $\psi$ est injective, il résulte de c) que $f$ est propre.
 
-#### Remarque {#top-i-s10-n1-rem-1 .statement}
+#### Remarque {#top-i-s10-n1-rem-1 .statement tag=0BA8}
 
 Si $X'$ n’est pas séparé, il peut se faire que $g \circ f$ soit propre sans que $f$ le soit: il suffit de prendre pour $X$ et $X''$ (resp. $X'$) des ensembles à un (resp. deux) éléments et de munir $X'$ de la topologie la moins fine.
 
-#### Corollaire 1 {#top-i-s10-prop-5-cor-1 .statement}
+#### Corollaire 1 {#top-i-s10-prop-5-cor-1 .statement tag=0BA9}
 
 Si $f : X \to Y$ est une application propre, la restriction de $f$ à une partie fermée $F$ de $X$ est une application propre de $F$ dans $Y$.
 
 En effet, cette restriction est la composée $f \circ j$, où $j : F \to X$ est l’injection canonique, qui est propre (I, p. 72, prop. 2).
 
-#### Corollaire 2 {#top-i-s10-prop-5-cor-2 .statement}
+#### Corollaire 2 {#top-i-s10-prop-5-cor-2 .statement tag=0BAA}
 
 Soit $f : X \to Y$ une application propre. Si $X$ est séparé, le sous-espace $f(X)$ de $Y$ est séparé.
 
 En vertu de la prop. 5 c), on peut se borner au cas où $f(X) = Y$. Alors la diagonale de $Y \times Y$ est image par $f \times f$ de la diagonale de $X$, laquelle est fermée (I, p. 52, prop. 1); comme $f \times f$ est propre (I, p. 73, prop. 4) la diagonale de $Y \times Y$ est fermée (I, p. 72, prop. 1), donc $Y$ est séparé (I, p. 52, prop. 1).
 
-#### Corollaire 3 {#top-i-s10-prop-5-cor-3 .statement}
+#### Corollaire 3 {#top-i-s10-prop-5-cor-3 .statement tag=0BAB}
 
 Soit $I$ un ensemble fini, et pour tout $i \in I$, soit $f_i : X \to Y_i$ une application propre. Si $X$ est séparé, l’application $x \mapsto (f_i(x))$ de $X$ dans $\prod_i Y_i$ est propre.
 
 En effet, cette application est composée de l’application produit $(x_i) \mapsto (f_i(x_i))$ de $X^I$ dans $\prod_i Y_i$, et de l’application diagonale de $X$ dans $X^I$; comme cette dernière est propre (I, p. 72, prop. 2 et I, p. 52, prop. 1), la conclusion résulte de la prop. 4 (I, p. 73) et de la prop. 5 a).
 
-#### Corollaire 4 {#top-i-s10-prop-5-cor-4 .statement}
+#### Corollaire 4 {#top-i-s10-prop-5-cor-4 .statement tag=0BAC}
 
 Soient $X, Y$ deux espaces topologiques, $f : X \to Y$ une application continue, $R$ la relation d’équivalence $f(x) = f(y)$ dans $X$, $X \xrightarrow{p} X/R \xrightarrow{h} f(X) \xrightarrow{i} Y$ la décomposition canonique de $f$. Pour que $f$ soit propre, il faut et il suffit que $p$ soit propre, que $h$ soit un homéomorphisme et $f(X)$ une partie fermée de $Y$.
 
@@ -140,7 +140,7 @@ Les conditions sont suffisantes en vertu de la prop. 5 a) (I, p. 73) et de la pr
 
 Dans ce numéro, nous désignerons par $P$ un espace réduit à un point, et muni de son unique topologie.
 
-#### Lemme 1 {#top-i-s10-lem-1 .statement}
+#### Lemme 1 {#top-i-s10-lem-1 .statement tag=0BAD}
 
 Soit $X$ un espace topologique tel que l’application constante $X \to P$ soit propre. Alors $X$ est quasi-compact.
 
@@ -150,7 +150,7 @@ On peut se borner au cas où $X$ est non vide. Soient $\mathfrak{F}$ un filtre s
 
 C.Q.F.D.
 
-#### Théorème 1 {#top-i-s10-thm-1 .statement}
+#### Théorème 1 {#top-i-s10-thm-1 .statement tag=0BAE}
 
 Soit $f : X \to Y$ une application continue. Les quatre propriétés suivantes sont équivalentes:
 
@@ -172,25 +172,25 @@ d) entraîne que $f$ est fermée. En effet, soit $A$ une partie fermée non vide
 
 d) entraîne a) : En effet, il faut montrer que si $f$ vérifie d) l’application $f \times \mathrm{Id}_Z$ est fermée pour tout espace topologique $Z$. D’après ce qui précède, il suffit de prouver que $f \times \mathrm{Id}_Z$ vérifie aussi la condition d). Cela résultera du lemme général suivant:
 
-#### Lemme 2 {#top-i-s10-lem-2 .statement}
+#### Lemme 2 {#top-i-s10-lem-2 .statement tag=0BAF}
 
 Si $(f_i)_{i \in I}$ est une famille d’applications continues $f_i : X_i \to Y_i$ dont chacune vérifie la condition d), alors l’application produit $f : (x_i) \mapsto (f_i(x_i))$ vérifie aussi la condition d).
 
 En effet, soit $\mathfrak{U}$ un ultrafiltre sur $X = \prod_i X_i$, et soit $y = (y_i)$ un point de $Y = \prod_i Y_i$ tel que $f(\mathfrak{U})$ converge vers $y$. Cela signifie que chacune des bases d’ultrafiltre $\mathrm{pr}_i(f(\mathfrak{U})) = f_i(\mathrm{pr}_i(\mathfrak{U}))$ converge vers $y_i$ (I, p. 51, cor. 1). En vertu de la condition d), il existe pour chaque $i \in I$, un $x_i \in X_i$ tel que $f_i(x_i) = y_i$ et que $\mathrm{pr}_i(\mathfrak{U})$ converge vers $x_i$; mais alors $\mathfrak{U}$ converge vers $x = (x_i)$ (loc. cit.) et on a $f(x) = y$, ce qui démontre le lemme et achève la démonstration du th. 1.
 
-#### Corollaire 1 {#top-i-s10-lem-2-cor-1 .statement}
+#### Corollaire 1 {#top-i-s10-lem-2-cor-1 .statement tag=0BAG}
 
 Pour qu’un espace topologique $X$ soit quasi-compact, il faut et il suffit que l’application $X \to P$ soit propre.
 
 On applique l’équivalence de a) et b) à $X \to P$.
 
-#### Corollaire 2 {#top-i-s10-lem-2-cor-2 .statement}
+#### Corollaire 2 {#top-i-s10-lem-2-cor-2 .statement tag=0BAH}
 
 Toute application continue $f$ d’un espace quasi-compact $X$ dans un espace séparé $Y$ est propre.
 
 L’application composée $X \xrightarrow{f} Y \longrightarrow P$ est propre (cor. 1) donc $f$ est propre en vertu de la prop. 5 d) de I, p. 73. On peut aussi appliquer le critère b) du th. 1, en utilisant le cor. 2 de I, p. 63.
 
-#### Corollaire 3 {#top-i-s10-lem-2-cor-3 .statement}
+#### Corollaire 3 {#top-i-s10-lem-2-cor-3 .statement tag=0BAI}
 
 Si $(f_i)$ est une famille d’applications propres, l’application produit $(x_i) \mapsto (f_i(x_i))$ est propre.
 
@@ -198,23 +198,23 @@ Compte tenu du th. 1, ce n’est autre que le lemme 2 ci-dessus.
 
 Si on applique ce corollaire à la famille d’applications $X_i \to P$, on retrouve, compte tenu du cor. 1, le th. de Tychonoff (I, p. 63, th. 3).
 
-#### Corollaire 4 {#top-i-s10-lem-2-cor-4 .statement}
+#### Corollaire 4 {#top-i-s10-lem-2-cor-4 .statement tag=0BAJ}
 
 Soit $X$ un espace séparé. Pour toute famille d’applications propres $f_i : X \to Y_i$, l’application $x \mapsto (f_i(x))$ de $X$ dans $\prod_i Y_i$ est propre.
 
 La démonstration est la même que pour le cas d’une famille finie (I, p. 74, cor. 3), en utilisant le cor. 3 ci-dessus, et le fait que la diagonale de $X^I$ est fermée (I, p. 52, prop. 1).
 
-#### Corollaire 5 {#top-i-s10-lem-2-cor-5 .statement}
+#### Corollaire 5 {#top-i-s10-lem-2-cor-5 .statement tag=0BAK}
 
 Pour tout espace quasi-compact $X$ et tout espace topologique $Y$, la projection $\mathrm{pr}_2 : X \times Y \to Y$ est propre.
 
 En effet, on peut identifier $Y$ à $P \times Y$, en identifiant $\mathrm{pr}_2$ au produit des applications propres $X \to P$ (cor. 1) et $\mathrm{Id}_Y$, d’où la conclusion (cor. 3).
 
-#### Exemple {#top-i-s10-n2-exa-1 .statement}
+#### Exemple {#top-i-s10-n2-exa-1 .statement tag=0BAL}
 
 Soient $X$ un ensemble, $f : X \to X'$ une application surjective de $X$ dans un espace topologique $X'$; on munit $X$ de la topologie image réciproque de celle de $X'$ par $f$. Alors $f$ est propre, car elle est fermée (I, p. 30, Exemple 3), et l’image réciproque d’un point de $X'$ est un sous-espace de $X$ dont la topologie est la topologie la moins fine et qui est par suite quasi-compact.
 
-#### Remarque {#top-i-s10-n2-rem-1 .statement}
+#### Remarque {#top-i-s10-n2-rem-1 .statement tag=0BAM}
 
 Lorsque $Y$ est séparé, la condition d) du th. 1 est équivalente à:
 
@@ -228,7 +228,7 @@ En effet, c) $\Rightarrow$ c') $\Rightarrow$ d') $\Rightarrow$ d) $\Rightarrow$ 
 
 Par contre, si $Y$ n’est pas séparé, d') n’entraîne plus d), comme le montre l’exemple où $X$ est réduit à un point, $Y$ formé de deux éléments et muni de la topologie la moins fine.
 
-#### Proposition 6 {#top-i-s10-prop-6 .statement}
+#### Proposition 6 {#top-i-s10-prop-6 .statement tag=0BAN}
 
 Soit $f : X \to Y$ une application propre, et soit $K$ une partie quasi-compacte de $Y$. Alors l’ensemble $f^{-1}(K)$ est quasi-compact.
 
@@ -236,13 +236,13 @@ D’après la prop. 3 de I, p. 72, l’application $f_K : f^{-1}(K) \to K$ est p
 
 ### 3. Applications propres dans les espaces localement compacts
 
-#### Proposition 7 {#top-i-s10-prop-7 .statement}
+#### Proposition 7 {#top-i-s10-prop-7 .statement tag=0BAO}
 
 Soit $f$ une application continue d’un espace séparé $X$ dans un espace localement compact $Y$. Pour que $f$ soit propre, il faut et il suffit que pour toute partie compacte $K$ de $Y, f^{-1}(K)$ soit un ensemble compact. En outre, si $f$ est propre, $X$ est localement compact.
 
 Si $f$ est propre, $f^{-1}(K)$ est compact pour toute partie compacte $K$ de $Y$, en vertu de la prop. 6. Inversement, supposons cette condition vérifiée, et soit $(\overline{U}_\alpha)$ un recouvrement de $Y$ formé d’ensembles ouverts relativement compacts. L’hypothèse entraîne que les $f^{-1}(\overline{U}_\alpha)$ sont compacts et que leurs intérieurs forment un recouvrement de $X$; comme $X$ est séparé, cela prouve en premier lieu que $X$ est localement compact. En outre, chacune des applications $f_{\overline{U}_\alpha} : f^{-1}(\overline{U}_\alpha) \to \overline{U}_\alpha$ est propre (I, p. 76, cor. 2); donc $f$ est propre (I, p. 72, prop. 3 b)).
 
-#### Corollaire {#top-i-s10-n3-cor-1 .statement}
+#### Corollaire {#top-i-s10-n3-cor-1 .statement tag=0BAP}
 
 Soient $X, X'$ deux espaces localement compacts, $Y, Y'$ les espaces compacts obtenus en adjoignant à $X, X'$ respectivement des points à l’infini $\omega, \omega'$ (I, p. 68). Pour qu’une application continue $f : X \to X'$ soit propre, il faut et il suffit que son prolongement $\bar{f} : Y \to Y'$ tel que $\bar{f}(\omega) = \omega'$ soit continu.
 
@@ -250,7 +250,7 @@ En effet, en vertu de la prop. 7, dire que $f$ est propre signifie que pour tout
 
 ### 4. Espaces quotients des espaces compacts et des espaces localement compacts
 
-#### Proposition 8 {#top-i-s10-prop-8 .statement}
+#### Proposition 8 {#top-i-s10-prop-8 .statement tag=0BAQ}
 
 Soient $X$ un espace compact, $R$ une relation d’équivalence dans $X$, $C$ son graphe dans $X \times X$, $f$ l’application canonique $X \to X/R$. Les conditions suivantes sont équivalentes:
 a) $C$ est fermé dans $X \times X$.
@@ -263,7 +263,7 @@ Dire que $R$ est fermée équivaut à dire que $f$ est fermée, donc b) entraîn
 
 Enfin, il est clair que si $X/R$ est séparé, il est compact en vertu de I, p. 62, th. 2.
 
-#### Proposition 9 {#top-i-s10-prop-9 .statement}
+#### Proposition 9 {#top-i-s10-prop-9 .statement tag=0BAR}
 
 Soient $X$ un espace localement compact, $R$ une relation d’équivalence dans $X$, $C$ son graphe dans $X \times X$, $f$ l’application canonique $X \to X/R$; soit $X'$ l’espace compact obtenu en adjoignant à $X$ un point à l’infini $\omega$ (I, p. 68), et soit $R'$ la relation d’équivalence dans $X'$, de graphe $C' = C \cup \{(\omega, \omega)\}$. Les conditions suivantes sont équivalentes:
 a) $f$ est propre.
@@ -286,7 +286,7 @@ Montrons enfin que $X/R$ est localement compact. En effet, $X'/R'$ est compact e
 
 C.Q.F.D.
 
-#### Corollaire {#top-i-s10-n4-cor-1 .statement}
+#### Corollaire {#top-i-s10-n4-cor-1 .statement tag=0BAS}
 
 *Soient $X$ un espace séparé, $Y$ un espace topologique, $f : X \to Y$ une application propre. Pour que $X$ soit compact (resp. localement compact), il faut et il suffit que $f(X)$ soit compact (resp. localement compact), et il suffit que $Y$ soit compact (resp. localement compact)*.
 
@@ -294,11 +294,11 @@ En effet, si $X$ est compact (resp. localement compact), le fait que $f(X)$ est 
 
 Enfin, si $Y$ est compact (resp. localement compact), il en est de même de $f(X)$, qui est fermé dans $Y$ (I, p. 72, prop. 1 et I, p. 66, prop. 13).
 
-#### Remarque {#top-i-s10-n4-rem-1 .statement}
+#### Remarque {#top-i-s10-n4-rem-1 .statement tag=0BAT}
 
 Si $X$ est localement compact et non compact, une relation d’équivalence fermée $R$ dans $X$ peut être non séparée (IX, §4, exerc. 8); et même si elle est séparée, $X/R$ n’est pas nécessairement localement compact (I, p. 113, exerc. 17). On a toutefois le critère suivant:
 
-#### Proposition 10 {#top-i-s10-prop-10 .statement}
+#### Proposition 10 {#top-i-s10-prop-10 .statement tag=0BAU}
 
 Soient $X$ un espace localement compact, $R$ une relation d’équivalence ouverte et séparée dans $X$, $f$ l’application canonique $X \to X/R$. Alors $X/R$ est localement compact, et pour toute partie compacte $K'$ de $X/R$, il existe une partie compacte $K$ de $X$ telle que $f(K) = K'$.
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 187
 statements: 13
 exercises: 3
-content_sha256: cefdabf8444c22722d075e8e5b095d8320f52ed3cbb929bd8070daf4172e4127
+content_sha256: 6ada749c9b7abebddc2ae413d44d223c887f30ebe13a0aa0ed69a387c5f5d473
 ---
 
 ## § 1. Algèbres graduées de type fini.
@@ -37,7 +37,7 @@ content_sha256: cefdabf8444c22722d075e8e5b095d8320f52ed3cbb929bd8070daf4172e4127
 
 Soient A un anneau commutatif, B une A-algèbre commutative. Rappelons (Alg., chap. IV, § 2, n° 1) que si $x = (x_i)_{i \in I}$ est une famille d’éléments de B, l’application $f \to f(x)$ de l’algèbre de polynômes $A[X_i]_{i \in I}$ dans B est un homomorphisme de $A[X_i]_{i \in I}$ sur la sous-algèbre de B engendrée par les $x_i$, dont le noyau $\alpha$ est l’idéal des polynômes $f$ tels que $f(x) = 0$, appelé idéal des relations algébriques (à coefficients dans A) entre les $x_i$.
 
-#### Définition 1 {#ac-iii-s1-def-1 .statement}
+#### Définition 1 {#ac-iii-s1-def-1 .statement tag=04D1}
 
 Dans une algèbre commutative B sur un anneau commutatif A, on dit qu’une famille $(x_i)_{i \in I}$ d’éléments de B
 
@@ -49,7 +49,7 @@ Cette définition généralise celle donnée en Alg., chap. V, § 5, no 1, déf.
 
 Dire que la famille $(x_i)_{i \in I}$ est algébriquement libre sur $A$ revient encore à dire que les monômes $\prod_i x_i^{n_i}$ par rapport aux $x_i$ sont linéairement indépendants sur $A$; en particulier les $x_i$ sont alors linéairement indépendants sur $A$.
 
-#### Définition 2 {#ac-iii-s1-def-2 .statement}
+#### Définition 2 {#ac-iii-s1-def-2 .statement tag=04D2}
 
 On dit qu’une algèbre commutative $B$ sur un anneau commutatif $A$ est de type fini si elle est engendrée par une famille finie d’éléments.
 
@@ -67,7 +67,7 @@ Dans ce no et les suivants, toutes les graduations envisagées (Alg., chap. II, 
 
 Si $A_i = \{0\}$ (resp. $M_i = \{0\}$) pour $i < 0$, on dira, pour abréger, que A (resp. M) est un anneau (resp. un module) gradué à degrés positifs.
 
-#### Proposition 1 {#ac-iii-s1-prop-1 .statement}
+#### Proposition 1 {#ac-iii-s1-prop-1 .statement tag=04D3}
 
 Soient $A = \bigoplus_{i \in \mathbf{Z}} A_i$ un anneau commutatif gradué à degrés positifs, m l’idéal gradué $\bigoplus_{i \geq 1} A_i$, $(x_\lambda)_{\lambda \in L}$ une famille d’éléments homogènes de A, de degrés $\geq 1$. Les conditions suivantes sont équivalentes :
 
@@ -77,7 +77,7 @@ c) Pour tout $i \geq 0$, le $A_0$-module $A_i$ est engendré par les éléments 
 
 Il est clair que les conditions b) et c) sont équivalentes. Si elles sont vérifiées, tout élément de m est de la forme $f((x_\lambda))$ où $f$ est un polynôme de $A_0[X_\lambda]_{\lambda \in L}$ sans terme constant ; on a donc $m = \sum_{\lambda \in L} A x_\lambda$, ce qui prouve que c) entraîne a). Inversement, supposons vérifiée la condition a). Soit $A' = A_0[x_\lambda]_{\lambda \in L}$ la sous-$A_0$-algèbre de A engendrée par la famille $(x_\lambda)$, et montrons que $A' = A$. Pour cela, il suffit de montrer que $A_i \subset A'$ pour tout $i \geq 0$. Procédons par récurrence sur $i$, la propriété étant évidente pour $i = 0$. Soit donc $y \in A_i$ avec $i \geq 1$. Puisque $y \in m$, il existe une famille $(a_\lambda)_{\lambda \in L}$ d’éléments de A, de support fini, telle que $y = \sum_\lambda a_\lambda x_\lambda$, et on peut supposer chacun des $a_\lambda$ homogène et de degré $i - \deg(x_\lambda)$ (en le remplaçant au besoin par sa composante homogène de ce degré) ; comme $\deg(x_\lambda) > 0$, l’hypothèse de récurrence montre que l’on a $a_\lambda \in A'$ pour tout $\lambda \in L$, d’où $y \in A'$ et $A_i \subset A'$, ce qui achève de prouver que a) implique b).
 
-#### Corollaire {#ac-iii-s1-n2-cor-1 .statement}
+#### Corollaire {#ac-iii-s1-n2-cor-1 .statement tag=04D4}
 
 Soient $A = \bigoplus_{i \in \mathbf{Z}} A_i$ un anneau commutatif gradué à degrés positifs et $m$ l’idéal gradué $\bigoplus_{i \geq 1} A_i$.
 
@@ -103,7 +103,7 @@ Il est clair que $A^{(d)}$ est un sous-anneau gradué de $A$ et $M^{(d, k)}$ un 
 
 $M^{(d)}$ au lieu de $M^{(d,0)}$; pour chaque $d \geqslant 1$, $M$ est somme directe des $A^{(d)}$-modules $M^{(d,k)}$ ($0 \leqslant k \leqslant d-1$).
 
-#### Proposition 2 {#ac-iii-s1-prop-2 .statement}
+#### Proposition 2 {#ac-iii-s1-prop-2 .statement tag=04D5}
 
 Soient $A = \bigoplus_{i \in \mathbf{Z}} A_i$ un anneau commutatif gradué à degrés positifs, $M = \bigoplus_{i \in \mathbf{Z}} M_i$ un $A$-module gradué. On suppose que $A$ est une $A_0$-algèbre de type fini et $M$ un $A$-module de type fini. Alors, pour tout couple $(d, k)$ d'entiers tels que $d \geqslant 1$, $0 \leqslant k \leqslant d-1$ :
 (i) $A^{(d)}$ est une $A_0$-algèbre de type fini.
@@ -117,13 +117,13 @@ ce qui prouve notre assertion, car tout élément homogène $x \in A$ est tel qu
 
 Appliquons ce qui précède au $A$-module gradué $m = \bigoplus_{i \geqslant 1} A_i$, qui est de type fini en vertu du cor. de la prop. 1 du n° 2; on voit que $m^{(d)}$ est un $A^{(d)}$-module de type fini; par suite (n° 2, cor. de la prop. 1) $A^{(d)}$ est une $A_0$-algèbre de type fini.
 
-#### Lemme 1 {#ac-iii-s1-lem-1 .statement}
+#### Lemme 1 {#ac-iii-s1-lem-1 .statement tag=04D6}
 
 Soient $A$ un anneau commutatif gradué tel que $A = A_0[A_1]$, $M$ un $A$-module gradué, $(y_\lambda)_{\lambda \in L}$ un système de générateurs homogènes de $M$ tels que $\deg(y_\lambda) \leqslant n_0$ pour tout $\lambda \in L$. Alors, pour tout $n \geqslant n_0$ et tout $k \geqslant 0$, on a $M_{n+k} = A_k \cdot M_n$.
 
 Soit $n \geqslant n_0$ et soit $x \in M_{n+1}$. Puisque les $y_\lambda$ engendrent $M$, il existe une famille $(a_\lambda)_{\lambda \in L}$ d'éléments de $A$, de support fini, telle que $x = \sum_{\lambda} a_\lambda y_\lambda$; on peut en outre supposer chaque $a_\lambda$ homogène et de degré $n + 1 - \deg(y_\lambda)$ (en le remplaçant au besoin par sa composante homogène de ce degré). Comme $\mathbf{A} = \mathbf{A}_0[\mathbf{A}_1]$ et $\deg(a_\lambda) > 0$, chaque $a_\lambda$ est somme d’éléments de la forme $bb'$ avec $b \in \mathbf{A}_1, b' \in \mathbf{A}$, d’où $x \in \mathbf{A}_1\mathbf{M}_n$. On a donc $\mathbf{M}_{n+1} = \mathbf{A}_1\mathbf{M}_n$, d’où $\mathbf{M}_{n+k} = \mathbf{A}_k\mathbf{M}_n$ par récurrence sur $k$.
 
-#### Lemme 2 {#ac-iii-s1-lem-2 .statement}
+#### Lemme 2 {#ac-iii-s1-lem-2 .statement tag=04D7}
 
 *Soit $\mathbf{A}$ un anneau commutatif gradué tel que $\mathbf{A} = \mathbf{A}_0[\mathbf{A}_1]$, et soit $S = \bigoplus_{i \geq 0} S_i$ une $\mathbf{A}$-algèbre commutative graduée à degrés positifs, qui soit un $\mathbf{A}$-module de type fini. Il existe alors un entier $n_0 \geq 0$ tel que :*
 
@@ -132,7 +132,7 @@ Soit $n \geqslant n_0$ et soit $x \in M_{n+1}$. Puisque les $y_\lambda$ engendre
 
 En vertu du lemme 1, il existe un entier $n_0 \geq 0$ tel que pour $n \geq n_0$ et $k \geq 0$ on ait $S_{n+k} = \mathbf{A}_k S_n$, d’où *a fortiori* $S_{n+k} = S_k S_n$, ce qui établit (i). Pour $d \geq n_0$ et $m > 0$, on a alors $S_{md} = (S_d)^m$ comme on le voit par récurrence sur $m$ en appliquant (i); ceci établit (ii).
 
-#### Proposition 3 {#ac-iii-s1-prop-3 .statement}
+#### Proposition 3 {#ac-iii-s1-prop-3 .statement tag=04D8}
 
 *Soit $\mathbf{R} = \bigoplus_{i \geq 0} \mathbf{R}_i$ un anneau commutatif gradué à degrés positifs qui soit une $\mathbf{R}_0$-algèbre de type fini. Il existe un entier $e \geq 1$ tel que $\mathbf{R}^{(me)} = \mathbf{R}_0[\mathbf{R}_{me}]$ pour tout $m \geq 1$.*
 
@@ -148,19 +148,19 @@ et par hypothèse $\sum_{j=1} n_j h_j \equiv 0$ (mod. $q$), donc $\sum_{j=1} r_j
 
 Soient $A = \bigoplus_{i \geq 0} A_i$ un anneau commutatif gradué à degrés positifs, m l’idéal gradué $\bigoplus_{i \geq 1} A_i$; nous dirons que deux idéaux gradués $a = \bigoplus_{i \geq 0} a_i, b = \bigoplus_{i \geq 0} b_i$ de A sont équivalents s’il existe un entier $n_0$ tel que $a_n = b_n$ pour $n \geq n_0$ (il est clair que c’est bien une relation d’équivalence). On dit qu’un idéal gradué est essentiel s’il n’est pas équivalent à m.
 
-#### Proposition 4 {#ac-iii-s1-prop-4 .statement}
+#### Proposition 4 {#ac-iii-s1-prop-4 .statement tag=04D9}
 
 Soit $p = \bigoplus_{i \geq 0} p_i$ un idéal gradué de A ; pour que p soit premier, il faut et il suffit que si $x \in A_m, y \in A_n$ sont tels que $x \notin p$ et $y \notin p$, on ait $xy \notin p$.
 
 La condition est évidemment nécessaire. Inversement, si elle est remplie, alors, dans l’anneau gradué $A/p = \bigoplus_{i \geq 0} A_i/p_i$, le produit de deux éléments homogènes $\neq 0$ est $\neq 0$, donc $A/p$ est intègre (Alg., chap. II, 3e éd., § 11, n° 4, prop. 7).
 
-#### Proposition 5 {#ac-iii-s1-prop-5 .statement}
+#### Proposition 5 {#ac-iii-s1-prop-5 .statement tag=04DA}
 
 Soient $a = \bigoplus_{i \geq 0} a_i$ un idéal gradué de A, $n_0$ un entier $> 0$. Pour qu’il existe un idéal premier gradué $p = \bigoplus_{i \geq 0} p_i$ tel que $p_n = a_n$ pour $n \geq n_0$, il faut et il suffit que, pour tout couple d’éléments homogènes $x, y$ de degrés $\geq n_0$, la relation $xy \in a$ entraîne « $x \in a$ ou $y \in a$ ». S’il existe $n \geq n_0$ tel que $a_n \neq A_n$, l’idéal premier gradué vérifiant les conditions précédentes est unique.
 
 La condition de l’énoncé est évidemment nécessaire. Si l’on a $a_n = A_n$ pour tout $n \geq n_0$, il est clair que tout idéal premier contenant m est gradué et répond à la question ; il peut donc y avoir plusieurs idéaux premiers gradués répondant à la question ; toutefois, deux quelconques de ces idéaux sont évidemment équivalents. Supposons donc qu’il existe un élément homogène $a \in A_d$ (avec $d \geq n_0$) n’appartenant pas à $a_d$. Soit $p$ l’ensemble des $x \in A$ tels que $ax \in a$. Il est clair que $p$ est un idéal de $A$; comme les composantes homogènes de $ax$ sont les produits par $a$ de celles de $x$, et que $a$ est un idéal gradué, $p$ est un idéal gradué ; en outre, on a $1 \notin p$, donc $p \neq A$. Pour prouver que $p$ est premier, il suffit de montrer que si $x \in A_m, y \in A_n$ sont tels que $x \notin p$ et $y \notin p$, alors on a $xy \in p$ (prop. 4). On a alors $ax \in a_{m+d}, ay \in a_{n+d}$, d’où par hypothèse $a^2xy \in a_{m+n+2d}$; on en conclut que $axy \in a_{m+n+d}$, puisque $xy \in p$. Enfin, si $n \geq n_0$ et $x \in A_n$, les conditions $x \in a_n$ et $ax \in a_{n+d}$ sont équivalentes par hypothèse, donc $p \cap A_n = a_n$, ce qui achève de prouver l’existence de l’idéal premier gradué $p$ répondant à la question. Si en outre $p'$ est un second idéal premier gradué de $A$ tel que $p' \cap A_n = a_n$ pour $n \geq n_0$, on a $a \notin p'$ et $ax \in p'$ pour tout $x \in p$, d’où $p \subset p'$ puisque $p'$ est premier. D’autre part, si $x$ est un élément homogène de degré $n \geq 0$ de $p'$, $ax$ est homogène de degré $n + d \geq n_0$ et appartient par suite à $p' \cap A_{n+d} = a_{n+d}$, d’où par définition $x \in p$, ce qui montre que $p' \subset p$, et finalement $p' = p$.
 
-#### Proposition 6 {#ac-iii-s1-prop-6 .statement}
+#### Proposition 6 {#ac-iii-s1-prop-6 .statement tag=04DB}
 
 Soit $d$ un entier $\geq 1$.
 (i) Pour tout idéal premier gradué essentiel $p$ de $A$, $p \cap A^{(d)}$ est un idéal premier gradué essentiel de $A^{(d)}$.
@@ -170,13 +170,13 @@ Soit $d$ un entier $\geq 1$.
 
 Soient $A$ un anneau commutatif gradué à degrés positifs, $p$ un idéal premier gradué essentiel de $A$. L’ensemble $S$ des éléments homogènes de $A$ n’appartenant pas à $p$ est multiplicatif, et l’anneau de fractions $S^{-1}A$ est donc gradué de façon canonique (chap. II, § 2, n° 9) (on notera qu’il y aura en général des éléments homogènes $\neq 0$ de degré négatif pour cette graduation). Nous désignerons par $A_{(p)}$ le sous-anneau de $S^{-1}A$ formé des éléments homogènes de degré 0, autrement dit l’ensemble des fractions $x/s$, où $x$ et $s$ sont homogènes de même degré dans $A$ et $s \notin p$. De même, pour tout $A$-module gradué $M$, $S^{-1}M$ est gradué de façon canonique (*loc. cit.*) et nous désignerons par $M_{(p)}$ le sous-groupe des éléments homogènes de degré 0, qui est évidemment un $A_{(p)}$-module.
 
-#### Proposition 7 {#ac-iii-s1-prop-7 .statement}
+#### Proposition 7 {#ac-iii-s1-prop-7 .statement tag=04DC}
 
 *Soient $p$ un idéal premier gradué de $A$, $d$ un entier $\geqslant 1$, $p'$ l’idéal premier gradué $p \cap A^{(d)}$ de $A^{(d)}$; pour tout $A$-module gradué $M$, l’homomorphisme $(M^{(d)})_{(p')} \to M_{(p)}$ déduit de l’injection canonique $M^{(d)} \to M$ est bijectif.*
 
 Si $S$ est l’ensemble des éléments homogènes de $A$ n’appartenant pas à $p$, et $S' = S \cap A^{(d)}$, l’homomorphisme canonique $\varphi : {S'}^{-1}M^{(d)} \to S^{-1}M$ est un homomorphisme homogène de degré 0, et il est injectif, car si $x \in M_{nd}$ est tel que $sx = 0$ pour $s \in A_m, s \notin p$, on a aussi $s^d x = 0$, et $s^d \in A_{md}, s^d \notin p'$. Reste à voir que l’image par $\varphi$ de $(M^{(d)})_{(p')}$ est $M_{(p)}$ tout entier ; mais si $x \in M_n, s \in A_n$ et $s \notin p$, on a aussi $x/s = (xs^{d-1})/s^d$ avec $xs^{d-1} \in A_{nd}, s^d \in A_{nd}$ et $s^d \notin p'$, d’où notre assertion.
 
-#### Proposition 8 {#ac-iii-s1-prop-8 .statement}
+#### Proposition 8 {#ac-iii-s1-prop-8 .statement tag=04DD}
 
 *Soit $m = \bigoplus_{t \geqslant 1} A_t$; soient $(p^{(k)})_{1 \leqslant k \leqslant n}$ une famille finie d’idéaux premiers gradués de $A$ et $a$ un idéal gradué de $A$ tel que $a \cap m \notin p^{(k)}$ pour tout $k$; alors il existe un élément homogène $z \in a \cap m$ n’appartenant à aucun des $p^{(k)}$.*
 

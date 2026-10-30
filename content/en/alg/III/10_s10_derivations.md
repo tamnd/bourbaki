@@ -62,7 +62,7 @@ subsections:
       pdf_page: 594
 statements: 41
 exercises: 5
-content_sha256: 321a0214d9f86881e7cc2493bc5c6c5f347dd080ee2ae7987600113edd176f01
+content_sha256: aaeacce850abcb26b3dc2f0a2b6232e064f49c1f74a413c96833e391ff1f75f3
 ---
 
 ## § 10. DERIVATIONS
@@ -109,7 +109,7 @@ A \otimes_K A' \to A'', \qquad B \otimes_K A' \to B'', \qquad A \otimes_K B' \to
 $$
 are *graded of degree* 0. The image $\mu(a, a')$ for $a \in A, a' \in A'$ is simply denoted by $a.a'$ or even $aa'$, and similarly for the two other bilinear mappings. The *degree* of $a.a'$ is therefore the *sum* of the degrees of $a$ and $a'$.
 
-#### Definition 1 {#alg-iii-s10-def-1 .statement}
+#### Definition 1 {#alg-iii-s10-def-1 .statement tag=0667}
 
 *Given the above and a commutation factor $\varepsilon$ on $\Delta \times \Delta$, an $\varepsilon$-derivation (or $(K, \varepsilon)$-derivation) of degree $\delta \in \Delta$ of $(A, A', A'')$ into $(B, B', B'')$ is a triple of graded $K$-linear mappings of degree $\delta$:*
 $$
@@ -147,7 +147,7 @@ d(a.a') = (da).a' + (-1)^{\deg(a)} a.(da')
 $$
 for a *homogeneous* element $a \in A$.
 
-#### Remark {#alg-iii-s10-n2-rem-1 .statement}
+#### Remark {#alg-iii-s10-n2-rem-1 .statement tag=0668}
 
 (1) The notion of *derivation* can be defined for non-graded modules by agreeing to give these modules the trivial graduation.
 
@@ -190,7 +190,7 @@ holds for such a derivation $d : A \to B$.
 
 ### 3. EXAMPLES OF DERIVATIONS
 
-#### Example 1 {#alg-iii-s10-n3-exa-1 .statement}
+#### Example 1 {#alg-iii-s10-n3-exa-1 .statement tag=0669}
 
 Let A be an $\mathbf{R}$-algebra of differentiable mappings of $\mathbf{R}$ into $\mathbf{R}$ and let $x_0$ be a point of $\mathbf{R}$; $\mathbf{R}$ can be considered as an A-module with the external law $(f, a) \mapsto f(x_0)a$. Then the mapping $f \mapsto Df(x_0)$ is a derivation, since (Functions of a Real Variable, I, § 1, no. 3)
 
@@ -198,19 +198,19 @@ $$
 (D(fg))(x_0) = (Df(x_0))g(x_0) + f(x_0)(Dg(x_0)).*
 $$
 
-#### Example 2 {#alg-iii-s10-n3-exa-2 .statement}
+#### Example 2 {#alg-iii-s10-n3-exa-2 .statement tag=066A}
 
 Let X be a differentiable manifold of class $C^\infty$ and let A be the graded $\mathbf{R}$-algebra of differential forms on X. The mapping which associates with every differential form $\omega$ on X its exterior differential $d\omega$ is an anti-derivation of degree +1 (Differentiable and Analytic Manifolds, R, § 8).*
 
-#### Example 3 {#alg-iii-s10-n3-exa-3 .statement}
+#### Example 3 {#alg-iii-s10-n3-exa-3 .statement tag=066B}
 
 Let A be an associative K-algebra. For all $a \in A$, the mapping $x \mapsto ax - xa$ is a derivation of the algebra A (cf. no. 6).
 
-#### Example 4 {#alg-iii-s10-n3-exa-4 .statement}
+#### Example 4 {#alg-iii-s10-n3-exa-4 .statement tag=066C}
 
 Let M be a K-module and A the exterior algebra $\bigwedge(M^*)$ with its usual graduation (§ 7, no. 1). *It will be seen in § 11, no. 9 that, for all $x \in M$, the right interior product $i(x)$ is an antiderivation of A of degree $-1$.*
 
-#### Example 5 {#alg-iii-s10-n3-exa-5 .statement}
+#### Example 5 {#alg-iii-s10-n3-exa-5 .statement tag=066D}
 
 Returning to the general situation of Definition 1 of no. 2, let $\overline{K}$ be another commutative ring and $\rho : K \to \overline{K}$ a ring homomorphism; let $\overline{A}, \overline{A}', \overline{A}'', \overline{B}, \overline{B}', \overline{B}''$ denote the graded $\overline{K}$-modules obtained respectively from $A, A', A'', B, B', B''$ by extending the ring of scalars to $\overline{K}$ (II, § 11, no. 5); we derive from $\mu, \lambda_1$ and $\lambda_2$ $\overline{K}$-bilinear mappings
 $$
@@ -218,7 +218,7 @@ $$
 $$
 by considering the tensor products by $l_{\overline{K}}$ of the corresponding $K$-linear mappings to $\mu, \lambda_1$ and $\lambda_2$ (II, § 5, no. 1). Then, if $d$ is an $\varepsilon$-derivation of degree $\delta$ of $(A, A', A'')$ into $(B, B', B'')$, the mapping $\bar{d} = d \otimes l_{\overline{K}}$ of $\overline{A} \oplus \overline{A}' \oplus \overline{A}''$ into $\overline{B} \oplus \overline{B}' \oplus \overline{B}''$ is an $\varepsilon$-derivation of degree $\delta$ of $(\overline{A}, \overline{A}', \overline{A}'')$ into $(\overline{B}, \overline{B}', \overline{B}'')$.
 
-#### Example 6 {#alg-iii-s10-n3-exa-6 .statement}
+#### Example 6 {#alg-iii-s10-n3-exa-6 .statement tag=066E}
 
 Let $A$ be a graded $K$-algebra of type $\mathbf{Z}$; a graded linear $K$-mapping of degree 0, $d : A \to A$, is defined by taking, for $x_n \in A_n (n \in \mathbf{Z})$, $d(x_n) = nx_n$. This mapping is a derivation of $A$, since, for $x_p \in A_p, x_q \in A_q$,
 $$
@@ -239,7 +239,7 @@ $$
 $$
 Applying this definition to the graded algebra $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$, the $\varepsilon$-bracket of two graded endomorphisms is thus defined.
 
-#### Proposition 1 {#alg-iii-s10-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s10-prop-1 .statement tag=066F}
 
 *Let $d_1, d_2$ be two $\varepsilon$-derivations of $(A, A', A'')$ of respective degrees $\delta_1, \delta_2$. Then the $\varepsilon$-bracket*
 $$
@@ -270,7 +270,7 @@ d^2(xy) = (d^2 x)y + \varepsilon_{2\delta, \xi} x(d^2 y)
 $$
 and as $\varepsilon_{2\delta, \xi} = 1$ it is seen that $d^2$ is a derivation.
 
-#### Corollary {#alg-iii-s10-n4-cor-1 .statement}
+#### Corollary {#alg-iii-s10-n4-cor-1 .statement tag=066G}
 
 *Suppose that $\Delta = \mathbf{Z}$. Then:*
 (i) *The square of an antiderivation is a derivation.*
@@ -280,7 +280,7 @@ and as $\varepsilon_{2\delta, \xi} = 1$ it is seen that $d^2$ is a derivation.
 
 Under the hypotheses of the beginning of this no., consider now a finite sequence $D = (d_i)_{1 \leq i \leq n}$ of *pairwise permutable derivations* of $(A, A', A'')$. For every polynomial $P(X_1, \ldots, X_n)$ in the algebra $K[X_1, \ldots, X_n]$, the element $P(d_1, \ldots, d_n)$ of $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ is then defined (§ 2, no. 9); its abbreviated notation is $P(D)$.
 
-#### Proposition 2 {#alg-iii-s10-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s10-prop-2 .statement tag=066H}
 
 *With the above hypotheses and notation, consider 2n indeterminates $T_1, \ldots, T_n, T'_1, \ldots, T'_n$ and for every polynomial $F \in K[X_1, \ldots, X_n]$ write $F(T) = F(T_1, \ldots, T_n), F(T') = F(T'_1, \ldots, T'_n)$ and*
 $$
@@ -338,7 +338,7 @@ $$
 
 where the $G_i$ are elements of $B$. Relation (14) is therefore an immediate consequence of relations (15).
 
-#### Corollary (Leibniz's formula) {#alg-iii-s10-n4-cor-2 .statement}
+#### Corollary (Leibniz's formula) {#alg-iii-s10-n4-cor-2 .statement tag=066I}
 
 *Let $d_i$ ($1 \leq i \leq n$) be $n$ derivations of $(A, A', A'')$ which are permutable with one another. For all $\alpha = (\alpha_1, \ldots, \alpha_n) \in \mathbf{N}^n$, we write*
 
@@ -380,19 +380,19 @@ $$
 x \otimes a \mapsto x.a \quad \text{and} \quad a \otimes x \mapsto a.x \quad \text{for } a \in A \text{ and } x \in E.
 $$
 
-#### Proposition 3 {#alg-iii-s10-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s10-prop-3 .statement tag=066J}
 
 Let $d : A \to E$ be an $\varepsilon$-derivation of degree $\delta$. Then $\mathrm{Ker}(d)$ is a graded subalgebra of A; if A admits a unit element, it belongs to $\mathrm{Ker}(d)$.
 
 Clearly $\mathrm{Ker}(d)$ is a graded sub-K-module of A; further, relation (8) of no. 2 shows that, if $x$ and $y$ are two homogeneous elements belonging to $\mathrm{Ker}(d)$, then $d(xy) = 0$ and hence $xy \in \mathrm{Ker}(d)$. Finally, if A admits a unit element 1 (of degree 0, cf. § 3, no. 1), relation (8) of no. 2, where $x$ and $y$ are replaced by 1, gives $d(1) = d(1) + d(1)$ and hence $d(1) = 0$.
 
-#### Corollary {#alg-iii-s10-n5-cor-1 .statement}
+#### Corollary {#alg-iii-s10-n5-cor-1 .statement tag=066K}
 
 Let $d_1$ and $d_2$ be two $\varepsilon$-derivations from A to E of the same degree $\delta$. If $d_1$ and $d_2$ take the same values at each element of a generating system of the algebra A, then $d_1 = d_2$.
 
 $d_1 - d_2$ is an $\varepsilon$-derivation of degree $\delta$, hence $\mathrm{Ker}(d_1 - d_2)$ is a subalgebra of A which contains a generating system of A and hence is equal to A.
 
-#### Proposition 4 {#alg-iii-s10-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s10-prop-4 .statement tag=066L}
 
 Let $d : A \to E$ be an $\varepsilon$-derivation of degree $\delta$. Suppose that A has a unit element 1 and let $x$ be a homogeneous element of A with an inverse $x^{-1}$ in A. Then
 
@@ -406,7 +406,7 @@ $$
 $$
 which proves the first formula of (19). On the other hand, $x^{-1}$ is homogeneous of degree $-\deg(x)$ and $\varepsilon_{\delta, \deg(x)} = \varepsilon_{\delta, -\deg(x)}$ by formulae (1) of no. 1; writing $d(x^{-1}x) = 0$, the second formula of (19) is obtained similarly.
 
-#### Proposition 5 {#alg-iii-s10-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s10-prop-5 .statement tag=066M}
 
 *Suppose that $\mathbf{A}$ is an integral domain and let $\mathbf{L}$ be its field of fractions. Every derivation of $\mathbf{A}$ into a vector space $\mathbf{E}$ over $\mathbf{L}$ (considered as an $\mathbf{A}$-module) can be extended uniquely to a derivation of $\mathbf{L}$ into $\mathbf{E}$.*
 
@@ -416,7 +416,7 @@ $$
 $$
 which proves the uniqueness of $\bar{d}$. Conversely, we show that $\bar{d}$ can be defined by formula (20); it must first be verified that if $u/v = u'/v'$ the value of the right hand side of (20) does not change when $u$ is replaced by $u'$ and $v$ by $v'$. Now, $uv' = vu'$, hence $v'(du) + u(dv') = v(du') + u'(dv)$ and therefore $v'(du - uv^{-1}dv) = v(du' - u'{v'}^{-1}dv')$, since $uv'v^{-1} = u'$ and $u'{v'}^{-1}v = u$. Thus a mapping $\bar{d}: \mathbf{L} \to \mathbf{E}$ has been defined which extends $d$; it is immediately verified that it is $\mathbf{K}$-linear and a derivation.
 
-#### Proposition 6 {#alg-iii-s10-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s10-prop-6 .statement tag=066N}
 
 *Suppose that $\mathbf{A}$ is a unital associative graded $\mathbf{K}$-algebra and $\mathbf{E}$ a graded $(\mathbf{A}, \mathbf{A})$-bimodule. If $d : \mathbf{A} \to \mathbf{E}$ is an $\varepsilon$-derivation of degree $\delta$, then, for every finite sequence $(x_i)_{1 \leq i \leq n}$ of homogeneous elements of $\mathbf{A}$, of respective degrees $\xi_i$ ($1 \leq i \leq n$),
 $$
@@ -424,7 +424,7 @@ d(x_1 x_2 \ldots x_n) = \sum_{i=1}^n \varepsilon_{\delta, \xi_1 + \cdots + \xi_{
 $$
 Formula (21) is trivial for $n = 0$ and is proved by induction on $n$, taking account of (4) (no. 2).
 
-#### Corollary {#alg-iii-s10-n5-cor-2 .statement}
+#### Corollary {#alg-iii-s10-n5-cor-2 .statement tag=066O}
 
 *Suppose that $\mathbf{A}$ is a unital commutative associative algebra and $\mathbf{E}$ an $\mathbf{A}$-module. If $d : \mathbf{A} \to \mathbf{E}$ is a derivation, then, for every integer $n \geq 0$,
 $$
@@ -439,7 +439,7 @@ $$
 
 If $A$ is a unital associative graded algebra and $E$ a graded $(A, A)$-bimodule it follows immediately from this definition that $Z_\varepsilon$ is a *graded subalgebra* of $A$ containing the unit element.
 
-#### Proposition 7 {#alg-iii-s10-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s10-prop-7 .statement tag=066P}
 
 *Suppose that $A$ is a unital associative graded algebra and $E$ a graded $(A, A)$-bimodule. Let $d : A \to E$ be an $\varepsilon$-derivation of degree $\delta$ and $a$ a homogeneous element of $Z_\varepsilon$ of degree $\alpha$. Then the mapping $x \mapsto a(dx)$ is an $\varepsilon$-derivation of degree $\delta + \alpha$.*
 
@@ -461,7 +461,7 @@ x \mapsto [a, x]_\varepsilon
 $$
 (no. 4, formula (10)) which is *graded of degree* $\deg a$.
 
-#### Proposition 8 {#alg-iii-s10-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s10-prop-8 .statement tag=066Q}
 
 *Let $A$ be a graded K-algebra.*
 
@@ -494,7 +494,7 @@ taking account of (1) and the associativity of $A$.
 
 When $A$ is associative, $\mathrm{ad}_\varepsilon(a)$ is called the *inner $\varepsilon$-derivation* of $A$ defined by $a$.
 
-#### Corollary {#alg-iii-s10-n6-cor-1 .statement}
+#### Corollary {#alg-iii-s10-n6-cor-1 .statement tag=066R}
 
 *Let $A$ be an associative graded algebra. For two homogeneous elements, $a, b$ of $A$,*
 $$
@@ -514,7 +514,7 @@ called the *Jacobi identity*.
 
 *In this no., all algebras are assumed to be associative and unital and every algebra homomorphism is assumed to be unital.*
 
-#### Proposition 9 {#alg-iii-s10-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s10-prop-9 .statement tag=066S}
 
 *Let $A, B$ be two graded $K$-algebras, $E$ an $(A, A)$-bimodule and $F$ a graded $(B, B)$-bimodule; let $\rho : A \to B$ be a graded algebra homomorphism and $\theta : E \to F$ a graded $A$-homomorphism of $A$-bimodules (relative to $\rho$), of degree 0. Then:*
 
@@ -530,7 +530,7 @@ $$
 $$
 for $x \in A$ homogeneous of degree $\xi$ and $y \in A$, $\delta$ and $\delta'$ denoting the respective degrees of $d$ and $d'$.
 
-#### Corollary {#alg-iii-s10-n7-cor-1 .statement}
+#### Corollary {#alg-iii-s10-n7-cor-1 .statement tag=066T}
 
 *Let $S$ be a generating system of the algebra $A$. In order that $d' \circ \rho = \theta \circ d$, it is necessary and sufficient that $d'(\rho(x)) = \theta(d(x))$ for all $x \in S$.*
 
@@ -538,7 +538,7 @@ This is an immediate consequence of Proposition 9 and no. 5, Corollary to Propos
 
 Under the conditions of Proposition 9, we know that $B$ has (by means of $\rho$) an $(A, A)$-bimodule structure (II, § 1, no. 14, *Example 1*).
 
-#### Proposition 10 {#alg-iii-s10-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s10-prop-10 .statement tag=066U}
 
 *Under the conditions of Proposition 9, for an $\varepsilon$-derivation $d' : B \to F$ to be $A$-linear for the left (resp. right) $A$-module structures on $B$ and $\rho^*(F)$, it is necessary and sufficient that $d'$ be zero on the subalgebra $\rho(A)$ of $B$.*
 
@@ -556,7 +556,7 @@ In particular let $D_K(B, F)$ denote the K-module of derivations of B into F (no
 
 Now let A, B, C be three graded K-algebras, $\rho : A \to B, \sigma : B \to C$ two graded algebra homomorphisms and G a graded (C, C)-bimodule; if $D_A(B, G)$, $D_B(C, G)$ and $D_A(C, G)$ denote the respective K-modules $D_{A,\rho}(B, \sigma_*(G))$, $D_{B,\sigma}(C, G)$ and $D_{A,\sigma \circ \rho}(C, G)$, $D_B(C, G)$ is clearly a sub-K-module of $D_A(C, G)$ since $\sigma(\rho(A)) \subset \sigma(B)$.
 
-#### Proposition 11 {#alg-iii-s10-prop-11 .statement}
+#### Proposition 11 {#alg-iii-s10-prop-11 .statement tag=066V}
 
 *Under the above conditions, there is an exact sequence of K-homomorphisms*
 $$
@@ -586,7 +586,7 @@ $$
 
 is the identity $1_A$ are the mappings of the form $x \mapsto (x, f(x))$, where $f : A \to E$ is a graded K-linear mapping of degree $\delta$.
 
-#### Proposition 12 {#alg-iii-s10-prop-12 .statement}
+#### Proposition 12 {#alg-iii-s10-prop-12 .statement tag=066W}
 
 *For a graded K-linear mapping $f : A \to E$ of degree $\delta$ to be an $\varepsilon$-derivation, it is necessary and sufficient that the mapping $x \mapsto (x, f(x))$ of A into $A \oplus E(\delta)$ be a graded K-algebra homomorphism.*
 
@@ -604,7 +604,7 @@ $$
 
 whence the proposition.
 
-#### Proposition 13 {#alg-iii-s10-prop-13 .statement}
+#### Proposition 13 {#alg-iii-s10-prop-13 .statement tag=066X}
 
 *For the algebra $A \oplus E(\delta)$ to be associative and unital, it is necessary and sufficient that $A$ be associative and unital, and that the mappings $(a, x) \mapsto a.x$ and $(a, x) \mapsto x.a$ define on $E$ an $(A, A)$-bimodule structure; the unit element of $A \oplus E(\delta)$ is then $(1, 0)$.*
 
@@ -622,7 +622,7 @@ $$
 
 ### 9. EXTENSION OF DERIVATIONS
 
-#### Proposition 14 {#alg-iii-s10-prop-14 .statement}
+#### Proposition 14 {#alg-iii-s10-prop-14 .statement tag=066Y}
 
 *Let $A$ be a commutative ring, $M$ an $A$-module, $B$ the $A$-algebra $T(M)$ (resp. $S(M)$, resp. $\Lambda(M)$) and $E$ a $(B, B)$-bimodule. Let $d_0 : A \to E$ be a derivation of the ring $\mathbf{A}$ into the $\mathbf{A}$-module $\mathbf{E}$ and $d_1 : M \to \mathbf{E}$ an additive group homomorphism such that, for all $a \in \mathbf{A}$ and all $x \in M$,
 
@@ -652,7 +652,7 @@ $$
 
 which has $(1, 0)$ as unit element (no. 8, Proposition 13). Under the canonical injection $t \mapsto (0, t)$, $\mathbf{E}$ is identified with a two-sided ideal of $B \oplus \mathbf{E}$ such that $\mathbf{E}^2 = \{0\}$. On the other hand, the mapping $h_0 : B \oplus \mathbf{E}$ defined by $h_0(a) = (a, d_0(a))$ is a unital ring homomorphism (no. 8, Proposition 12); under this mapping, $B \oplus \mathbf{E}$ then becomes an $\mathbf{A}$-algebra. Moreover, if, for all $x \in M$, we write $h_1(x) = (x, d_1(x))$, it follows from the definition of $h_0$ and (29) that $h_1(ax) = h_0(a)h_1(x)$; in other words $h_1$ is an $\mathbf{A}$-linear mapping of $M$ into $B \oplus \mathbf{E}$. Then there exists one and only one $\mathbf{A}$-algebra homomorphism, $h : B \to B \oplus \mathbf{E}$ such that $h|_M = h_1$ (and necessarily $h|_{\mathbf{A}} = h_0$): for, if $B = T(M)$, this follows from $§ 5$, no. 1, Proposition 1; if $B = S(M)$, condition (30) shows that $h(x)h(y) = h(y)h(x)$ for all $x, y$ in $M$ and the conclusion follows from $§ 6$, no. 1, Proposition 2; finally if $B = \bigwedge(M)$, condition (31) shows that $(h(x))^2 = 0$ for all $x \in M$, since $x \wedge x = 0$ and the conclusion follows from $§ 7$, no. 1, Proposition 1. The homomorphism $h$ is such that the composition $p \circ h : B \to B$ with the augmentation $\rho : B \oplus \mathbf{E} \to B$ is the identity $l_B$, for $p \circ h$ and $l_B$ coincide by definition for the elements of $\mathbf{A}$ and those of $M$ and the set of these elements is a generating system of $B$. We can therefore write $h(b) = (b, d(b))$ for all $b \in B$ and the mapping $b \mapsto d(b)$ of $B$ into $\mathbf{E}$ is a derivation with the required properties, by virtue of Proposition 12 of no. 8.
 
-#### Corollary {#alg-iii-s10-n9-cor-1 .statement}
+#### Corollary {#alg-iii-s10-n9-cor-1 .statement tag=066Z}
 
 *Let $M$ be a graded $K$-module of type $\Delta$; the $K$-algebras $T(M)$, $S(M)$ and $\bigwedge(M)$ are given the corresponding graduations of type $\Delta' = \Delta \times \mathbf{Z}$ ($§ 5$, no. 5, Proposition 7, $§ 6$, no. 6, Proposition 10 and $§ 7$, no. 7, Proposition 11). On the other hand $M$ is given the graduation of type $\Delta'$ such that $M_{\alpha, 1} = M_{\alpha}$ for all $\alpha \in \Delta$ and $M_{\alpha, n} = \{0\}$ for $\alpha \in \Delta$ and $n \neq 1$. Let $\varepsilon'$ be a commutation factor over $\Delta'$.*
 
@@ -704,7 +704,7 @@ $$
 
 In the case of the algebra $\Lambda(M)$, there is the following interpretation of $D_s$:
 
-#### Proposition 15 {#alg-iii-s10-prop-15 .statement}
+#### Proposition 15 {#alg-iii-s10-prop-15 .statement tag=0670}
 
 *If $M$ is a free $K$-module of finite rank $n$, then, for every endomorphism $s$ of $M$, the restriction to $\Lambda^n(M)$ of the derivation $D_s$ is the homothety of ratio $\operatorname{Tr}(s)$.*
 
@@ -724,7 +724,7 @@ i(x^*)(x_1 \wedge \cdots \wedge x_n)
 $$
 and which is a special case of the inner product to be defined in § 11, no. 9, formula (68).
 
-#### Proposition 16 {#alg-iii-s10-prop-16 .statement}
+#### Proposition 16 {#alg-iii-s10-prop-16 .statement tag=0671}
 
 *Let $A$ be a commutative $K$-algebra, $M_i$ ($1 \leq i \leq n$) and $P$ $A$-modules and $H$ the $A$-module of $A$-multilinear mappings of $M_1 \times M_2 \times \cdots \times M_n$* into P. Suppose that there is given a K-derivation $d_0 : A \to A$ of the algebra A, for each i, a K-linear mapping $d_i : M_i \to M_i$ and a K-linear mapping $D : P \to P$, so that, for $1 \leq i \leq n$, $(d_0, d_i, d_i)$ is a K-derivation of $(A, M_i, M_i)$ into itself and $(d_0, D, D)$ is a K-derivation of $(A, P, P)$ into itself. Then there exists a K-linear mapping $D' : H \to H$ such that $(d_0, D', D')$ is a K-derivation of $(A, H, H)$ into itself and
 
@@ -783,7 +783,7 @@ $$
 
 which establishes the proposition.
 
-#### Example {#alg-iii-s10-n9-exa-1 .statement}
+#### Example {#alg-iii-s10-n9-exa-1 .statement tag=0672}
 
 (3) Applying Proposition 16 to the case $n = 1$, $M_1 = M$, $P = A$, then $H = M^*$, the dual of M, and it is seen that for a K-derivation $(d_0, d, d')$ of $(A, M, M)$ is derived a K-derivation $(d_0, d^*, d^*)$ of $(A, M^*, M^*)$ such that
 
@@ -813,7 +813,7 @@ x . (u \otimes v) . y = (xu) \otimes (vy)
 $$
 for all $x, y, u, v$ in $A$ ($§ 4$, no. 3, Example 2). The $K$-linear mapping $m : A \otimes_K A \to A$ corresponding to multiplication in $A$ (and hence such that $m(x \otimes y) = xy$) is an $(A, A)$-bimodule homomorphism; its kernel $I$ is therefore a sub-bimodule of $A \otimes_K A$.
 
-#### Lemma 1 {#alg-iii-s10-lem-1 .statement}
+#### Lemma 1 {#alg-iii-s10-lem-1 .statement tag=0673}
 
 *The mapping $\delta_A : x \mapsto x \otimes 1 - 1 \otimes x$ is a $K$-derivation of $A$ into $I$ and $I$ is generated, as a left $A$-module, by the image of $\delta_A$.*
 
@@ -829,7 +829,7 @@ $$
 $$
 by (40), which completes the proof of the lemma.
 
-#### Proposition 17 {#alg-iii-s10-prop-17 .statement}
+#### Proposition 17 {#alg-iii-s10-prop-17 .statement tag=0674}
 
 *The derivation* $\delta_A$ *has the following universal property*: for every $(A, A)$-bimodule $E$ and every $K$-derivation $d : A \to E$, there exists one and only one $(A, A)$-bimodule homomorphism $f : I \to E$ such that $d = f \circ \delta_A$.
 
@@ -895,11 +895,11 @@ $$
 
 Taking account of Proposition 17 of no. 10, it is seen that we have proved the following proposition:
 
-#### Proposition 18 {#alg-iii-s10-prop-18 .statement}
+#### Proposition 18 {#alg-iii-s10-prop-18 .statement tag=0675}
 
 *Let $A$ be a commutative $K$-algebra and $\mathfrak{J}$ the ideal the kernel of the surjective canonical homomorphism $m : A \otimes_K A \to A$, so that $A$ is isomorphic to $(A \otimes_K A)/\mathfrak{J}$ and $\mathfrak{J}/\mathfrak{J}^2$ has canonically an $A$-module structure. Let $d_{A/K} : A \to I/I^2$ be the $K$-linear mapping which associates with every $x \in A$ the class of $x \otimes 1 - 1 \otimes x$ modulo $\mathfrak{J}^2$. The mapping $d_{A/K}$ is a $K$-derivation and, for every $A$-module $E$ and every $K$-derivation $D : A \to E$, there exists one and only one $A$-linear mapping $g : \mathfrak{J}/\mathfrak{J}^2 \to E$ such that $D = g \circ d_{A/K}$.*
 
-#### Example {#alg-iii-s10-n11-exa-1 .statement}
+#### Example {#alg-iii-s10-n11-exa-1 .statement tag=0676}
 
 Let M be a K-module; it follows from Proposition 14 of no. 9 that for every S(M)-module E, the mapping D ↦ D | M defines an S(M)-module isomorphism of D_K(S(M), E) onto Hom_K(M, E); on the other hand, since E is an S(M)-module, Hom_K(M, E) is canonically isomorphic to
 
@@ -937,7 +937,7 @@ with $D_i P \in K[X_1, \ldots, X_n]$ and, by virtue of the above, the mappings $
 
 ### 12. FUNCTIORIAL PROPERTIES OF K-DIFFERENTIALS
 
-#### Proposition 19 {#alg-iii-s10-prop-19 .statement}
+#### Proposition 19 {#alg-iii-s10-prop-19 .statement tag=0677}
 
 *Let*
 
@@ -1004,7 +1004,7 @@ $$
 
 this follows immediately from Proposition 19 and the definition of the isomorphisms $\phi_A$ and $\phi_{A'}$.
 
-#### Proposition 20 {#alg-iii-s10-prop-20 .statement}
+#### Proposition 20 {#alg-iii-s10-prop-20 .statement tag=0678}
 
 *Suppose that $A' = A \otimes_K K'$, with $\eta': K' \to A'$ and $u: A \to A'$ the canonical homomorphisms. Then the $A'$-linear mapping*
 
@@ -1046,7 +1046,7 @@ $$
 
 where $j_u$ is the canonical injection (no. 7); this follows immediately from Proposition 18 of no. 11.
 
-#### Proposition 21 {#alg-iii-s10-prop-21 .statement}
+#### Proposition 21 {#alg-iii-s10-prop-21 .statement tag=0679}
 
 *The sequence of $B$-linear mappings*
 
@@ -1090,7 +1090,7 @@ $$
 
 and as $\mathfrak{J}$ annihilates the A-module $\mathfrak{J}/\mathfrak{J}^2$, $\bar{d}$ is a B-linear mapping.
 
-#### Proposition 22 {#alg-iii-s10-prop-22 .statement}
+#### Proposition 22 {#alg-iii-s10-prop-22 .statement tag=067A}
 
 *Let $\mathfrak{J}$ be an ideal of the commutative K-algebra A, $B = A/\mathfrak{J}$ and $u : A \to B$ the canonical homomorphism. The sequence of B-linear mappings*
 
@@ -1112,7 +1112,7 @@ Taking account of the uniqueness of the solution of a universal mapping problem,
 
 It must not be thought that, even if u: A → B is an injective homomorphism, Ω_0(u): Ω_K(A) ⊗_A B → Ω_K(B) is injective (Exercise 5). However we have the following proposition:
 
-#### Proposition 23 {#alg-iii-s10-prop-23 .statement}
+#### Proposition 23 {#alg-iii-s10-prop-23 .statement tag=067B}
 
 Let A be an integral K-algebra, B its field of fractions and u: A → B the canonical injection. Then Ω_0(u): Ω_K(A) ⊗_A B → Ω_K(B) is an isomorphism.
 

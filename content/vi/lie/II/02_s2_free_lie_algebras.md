@@ -57,9 +57,9 @@ subsections:
       pdf_page: 152
 statements: 32
 exercises: 10
-content_sha256: d640199051d270e6983a00532250e7678e7971f9964a47764d36d396b589252c
+content_sha256: 4f72d59dd8700482db17139ccf53d45514145329b843b39fb5e427a8b663b210
 translated_from: content/en/lie/II/02_s2_free_lie_algebras.md
-source_content_sha256: 588b52d08e0f2494551b2a1cb24c18827d1cf187d3c4efc3af9117170ddd12b5
+source_content_sha256: ad0797e551cb1458568c1bb8b924dc5cc8828593371854e1c541a2937d5882cd
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-vi-9fabf02a
 glossary_version: 34
@@ -79,7 +79,7 @@ Cho w thuộc M(X); số nguyên duy nhất n sao cho $w \in X_n$ được gọi
 
 ### 2. PHÉP DỰNG ĐẠI SỐ LIE TỰ DO
 
-#### Định nghĩa 1 {#lie-ii-s2-def-1 .statement}
+#### Định nghĩa 1 {#lie-ii-s2-def-1 .statement tag=0A2Q}
 
 *Đại số Lie tự do trên tập hợp X là đại số thương*
 $$
@@ -100,7 +100,7 @@ Rõ ràng $L(X)$ là một đại số Lie K; hợp thành của hai phần tử
 
 Mệnh đề sau đây giải thích tên gọi *tự do* của đại số Lie $L(X)$.
 
-#### Mệnh đề 1 {#lie-ii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#lie-ii-s2-prop-1 .statement tag=0A2R}
 
 *Cho $\psi$ là ánh xạ chính tắc của Lib(X) lên $L(X)$ và $\phi$ là hạn chế của $\psi$ trên X. Với mọi ánh xạ f từ X vào một đại số Lie $g$, tồn tại duy nhất một đồng cấu F: $L(X) \to g$ sao cho $f = F \circ \phi$.*
 
@@ -108,7 +108,7 @@ Mệnh đề sau đây giải thích tên gọi *tự do* của đại số Lie 
 
 (b) *Tính duy nhất của F*: giả sử $F': L(X) \to g$ là một đồng cấu sao cho $f = F' \circ \phi$. Các đồng cấu $F \circ \psi$ và $F' \circ \psi$ từ Lib(X) vào $g$ trùng nhau trên X và do đó bằng nhau; vì $\psi$ là toàn ánh, $F = F'$.
 
-#### Hệ quả 1 {#lie-ii-s2-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-ii-s2-prop-1-cor-1 .statement tag=0A2S}
 
 *Họ $(\phi(x))_{x \in X}$ là tự do trên K trong $L(X)$.*
 
@@ -120,7 +120,7 @@ $$
 
 Cho $g$ là đại số Lie giao hoán có K làm môđun nền. Với $i = 1, 2, \ldots, n$, tồn tại một đồng cấu $F_i$ từ $L(X)$ vào $g$ sao cho $F_i(\phi(x_i)) = 1$ và $F_i(\phi(x)) = 0$ nếu $x \neq x_i$ (Mệnh đề 1); áp dụng $F_i$ vào quan hệ (3), ta được $\lambda_i = 0$.
 
-#### Hệ quả 2 {#lie-ii-s2-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-ii-s2-prop-1-cor-2 .statement tag=0A2T}
 
 *Cho $a$ là một đại số Lie. Mọi mở rộng của $L(X)$ bởi $a$ đều không cốt yếu.*
 
@@ -128,7 +128,7 @@ Cho $a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$ là một mở rộng nh�
 
 Vì vành K khác không, Hệ quả 1 của Mệnh đề 1 cho thấy rằng $\phi$ là đơn ánh. *Do đó tập hợp X có thể được đồng nhất nhờ $\phi$ với ảnh của nó trong $L(X)$*; với quy ước này, X sinh $L(X)$ và mọi ánh xạ từ X vào một đại số Lie $g$ *có thể được mở rộng* thành một đồng cấu đại số Lie từ $L(X)$ vào $g$.
 
-#### Nhận xét {#lie-ii-s2-n2-rem-1 .statement}
+#### Nhận xét {#lie-ii-s2-n2-rem-1 .statement tag=0A2U}
 
 Khi X rỗng, $M(X)$ rỗng và do đó $L(X) = \{0\}$. Nếu X gồm một phần tử duy nhất $x$, môđun con $K.x$ của $L(X)$ là một đại số con Lie của
 
@@ -178,13 +178,13 @@ tập hợp F' các ánh xạ đa thức từ $g^I$ vào g là một đại số
 
 ### 5. CÁC TÍNH CHẤT HÀM TỬ
 
-#### Mệnh đề 2 {#lie-ii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#lie-ii-s2-prop-2 .statement tag=0A2V}
 
 Cho X và Y là hai tập hợp. Mọi ánh xạ $u : X \to Y$ có thể được mở rộng duy nhất thành một đồng cấu đại số Lie $L(u) : L(X) \to L(Y)$. Với mọi ánh xạ $v : Y \to Z$, $L(v \circ u) = L(v) \circ L(u)$.
 
 Sự tồn tại và tính duy nhất của $L(u)$ suy ra từ Mệnh đề 1 của No. 2. Các đồng cấu $L(v \circ u)$ và $L(v) \circ L(u)$ có cùng hạn chế lên X và do đó bằng nhau (Mệnh đề 1).
 
-#### Hệ quả {#lie-ii-s2-n5-cor-1 .statement}
+#### Hệ quả {#lie-ii-s2-n5-cor-1 .statement tag=0A2W}
 
 Nếu u là đơn ánh (tương ứng toàn ánh, song ánh), thì $L(u)$ cũng vậy.
 
@@ -208,7 +208,7 @@ với mọi *họ có hướng phải* $(S_\alpha)_{\alpha \in I}$ các tập co
 
 Áp dụng điều trên cho họ các tập con hữu hạn của X, ta thấy rằng mọi phần tử của $L(X)$ đều có dạng $P(x_1, \ldots, x_n)$ trong đó P là một đa thức Lie theo n biến không xác định và $x_1, \ldots, x_n$ là các phần tử của X.
 
-#### Mệnh đề 3 {#lie-ii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#lie-ii-s2-prop-3 .statement tag=0A2X}
 
 *Cho $K'$ là một vành giao hoán khác không và $u : K \to K'$ là một đồng cấu vành. Với mọi tập hợp X tồn tại duy nhất một đồng cấu đại số Lie $K'$*
 
@@ -220,7 +220,7 @@ $$
 
 Áp dụng Mệnh đề 1 cho $g = L_{K'}(X)$ được xét như một đại số Lie trên K và ánh xạ $x \mapsto x$ của X vào g, ta thu được một K-đồng cấu $L_K(X) \to L_{K'}(X)$, do đó tồn tại một $K'$-đồng cấu $v : L_K(X) \otimes K' \to L_{K'}(X)$. Sự kiện v là duy nhất và là một đẳng cấu suy ra từ sự kiện rằng cặp có thứ tự $(L_K(X) \otimes K', x \mapsto x \otimes 1)$ là một nghiệm của cùng một bài toán ánh xạ phổ quát như cặp có thứ tự $(L_{K'}(X), x \mapsto x)$.
 
-#### Nhận xét {#lie-ii-s2-n5-rem-1 .statement}
+#### Nhận xét {#lie-ii-s2-n5-rem-1 .statement tag=0A2Y}
 
 Cho $\mathfrak{h}'$ là một đại số Lie trên $K'$ và $\mathfrak{h}$ là đại số Lie trên K dẫn xuất từ $\mathfrak{h}'$ bằng cách hạn chế vành các vô hướng. Nếu $P \in L_K(X)$, ta có thể định nghĩa $\tilde{P} : \mathfrak{h}^X \to \mathfrak{h}$ (no. 4). Ta thấy ngay lập tức rằng
 
@@ -239,7 +239,7 @@ $$
 \mathrm{Lib}^\delta(X) \cdot \mathrm{Lib}^{\delta'}(X) \subset \mathrm{Lib}^{\delta + \delta'}(X) \quad \text{cho } \delta, \delta' \text{ trong } \Delta
 $$
 
-#### Bổ đề 1 {#lie-ii-s2-lem-1 .statement}
+#### Bổ đề 1 {#lie-ii-s2-lem-1 .statement tag=0A2Z}
 
 Iđêan $a$ của Định nghĩa 1 là phân bậc. Với $a, b$ trong Lib(X), đặt $B(a, b) = a.b + b.a$. Các công thức $$
 (10)\quad B(a, b) = Q(a + b) - Q(a) - Q(b)
@@ -268,7 +268,7 @@ $$
 (15)\quad [L^\alpha(X), L^\beta(X)] \subset L^{\alpha+\beta}(X) \quad \text{đối với } \alpha, \beta \text{ trong } \mathbf{N}^{(X)}.
 $$
 
-#### Mệnh đề 4 {#lie-ii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#lie-ii-s2-prop-4 .statement tag=0A30}
 
 Cho S là một tập con của X. Nếu $\mathbf{N}^{(S)}$ được đồng nhất với ảnh chính tắc của nó trong $\mathbf{N}^{(X)}$ (Đại số, Chương I, § 7, no. 7), thì $L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(X)$. Hơn nữa, với mọi $\alpha \in \mathbf{N}^{(S)}$, thành phần thuần nhất có bậc $\alpha$ dưới phép phân bậc đa trên $L(S)$ bằng $L^\alpha(X)$.
 
@@ -276,7 +276,7 @@ Cho $\alpha \in \mathbf{N}^{(S)}$. Môđun $L^\alpha(S)$ được sinh bởi cá
 
 Mệnh đề suy ra từ điều này và quan hệ $L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(S)$.
 
-#### Hệ quả {#lie-ii-s2-n6-cor-1 .statement}
+#### Hệ quả {#lie-ii-s2-n6-cor-1 .statement tag=0A31}
 
 Với mọi họ $(S_i)_{i \in I}$ các tập con của X,
 $$
@@ -290,7 +290,7 @@ trong đó ta đã viết $S = \bigcap_{i \in I} S_i$.
 
 ### 7. CHUỖI TRUNG TÂM DƯỚI
 
-#### Mệnh đề 5 {#lie-ii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#lie-ii-s2-prop-5 .statement tag=0A32}
 
 Cho $g$ là một đại số Lie và $P$ là một môđun con của $g$. Ta định nghĩa các môđun con $P_n$ của $g$ bởi các công thức $P_1 = P$ và $P_{n+1} = [P, P_n]$ với $n \geq 1$. Khi đó
 $$
@@ -315,7 +315,7 @@ Theo công thức (18), $P_n \supset \sum_{p=1}^{n-1} [P_p, P_{n-p}] \supset [P_
 
 Khi ta lấy $P = g$, dãy $(P_n)$ là chuỗi trung tâm dưới ($\mathscr{C}^n g$) của $g$ (Chương I, § 1, no. 5). Do đó:
 
-#### Mệnh đề 6 {#lie-ii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#lie-ii-s2-prop-6 .statement tag=0A33}
 
 Cho $g$ là một đại số Lie và $(\mathscr{C}^n g)_{n \geq 1}$ là chuỗi trung tâm dưới của $g$. Khi đó
 $$
@@ -324,7 +324,7 @@ $$
 
 Tổng quát hóa Định nghĩa 1 của Chương I, § 4, no. 1, ta sẽ nói rằng một đại số Lie $g$ là *lũy linh* nếu $\mathscr{C}^n g = \{0\}$ với $n$ đủ lớn. *Lớp lũy linh* của một đại số Lie lũy linh $g$ là số nguyên nhỏ nhất $n$ sao cho $\mathscr{C}^{n+1} g = \{0\}$.
 
-#### Mệnh đề 7 {#lie-ii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#lie-ii-s2-prop-7 .statement tag=0A34}
 
 Cho $X$ là một tập hợp và $n$ là một số nguyên $\geq 1$.
 (a) $L^{n+1}(X) = [L^1(X), L^n(X)]$.
@@ -340,14 +340,14 @@ L^{p+1}(X) = [L^1(X), L^p(X)] \subset \mathscr{C}^n g
 $$
 theo (a). Do đó $L^p(X) \subset \mathscr{C}^n g$ với $p \geq n$, do đó $g_n \subset \mathscr{C}^n g$.
 
-#### Hệ quả {#lie-ii-s2-n7-cor-1 .statement}
+#### Hệ quả {#lie-ii-s2-n7-cor-1 .statement tag=0A35}
 
 Cho $g$ là một đại số Lie và $(x_i)_{i \in I}$ là một họ sinh của $g$. Số hạng thứ $n$ $\mathscr{C}^n g$ của chuỗi tâm dưới của $g$ là môđun sinh bởi các ngoặc lồng nhau $[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$ với $p \geq n$, và $i_1, \ldots, i_p$ thuộc $I$.
 Cho $f$ là đồng cấu từ $L(I)$ vào $g$ sao cho $f(i) = x_i$ với mọi $i \in I$. Vì $(x_i)_{i \in I}$ sinh $g$, nên $g = f(L(I))$, do đó $\mathscr{C}^n g = f(\mathscr{C}^n(L(I)))$ theo Mệnh đề 4 của Chương I, § 1, no. 5. Hệ quả suy ra từ các khẳng định (b) và (c) của Mệnh đề 7.
 
 ### 8. CÁC ĐẠO HÀM CỦA CÁC ĐẠI SỐ LIE TỰ DO
 
-#### Mệnh đề 8 {#lie-ii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#lie-ii-s2-prop-8 .statement tag=0A36}
 
 Cho $X$ là một tập hợp, $M$ là một $L(X)$-môđun và $d$ là một ánh xạ từ $X$ vào $M$. Tồn tại duy nhất một ánh xạ tuyến tính $D$ từ $L(X)$ vào $M$ mở rộng $d$ và thỏa mãn quan hệ:
 $$
@@ -367,7 +367,7 @@ Theo (21) và (22), quan hệ (20) suy ra từ $f([a, a']) = [f(a), f(a')]$.
 
 Ngược lại, cho $D'$ là một ánh xạ của $L(X)$ vào $M$ thỏa mãn quan hệ (20') tương tự như (20) và mở rộng $d$. Cho $f'(a) = (D'(a), a)$ với $a \in L(X)$; theo (20') và (21), $f'$ là một đồng cấu của $L(X)$ vào $g$, trùng với $f$ trên $X$, do đó $f' = f$ và $D' = D$.
 
-#### Hệ quả {#lie-ii-s2-n8-cor-1 .statement}
+#### Hệ quả {#lie-ii-s2-n8-cor-1 .statement tag=0A37}
 
 *Mọi ánh xạ của $X$ vào $L(X)$ đều mở rộng duy nhất thành một đạo hàm của $L(X)$*.
 
@@ -375,7 +375,7 @@ Khi $M$ bằng $L(X)$ với biểu diễn phụ hợp, quan hệ (20) có nghĩa
 
 ### 9. ĐỊNH LÝ LOẠI BỎ
 
-#### Mệnh đề 9 {#lie-ii-s2-prop-9 .statement}
+#### Mệnh đề 9 {#lie-ii-s2-prop-9 .statement tag=0A38}
 
 *Cho $S_1$ và $S_2$ là hai tập hợp rời nhau và $d$ là một ánh xạ của $S_1 \times S_2$ vào $L(S_2)$. Cho $g$ là đại số Lie thương của $L(S_1 \cup S_2)$ theo iđêan sinh bởi các phần tử $[s_1, s_2] - d(s_1, s_2)$ với $s_1 \in S_1, s_2 \in S_2$; cho $\psi$ là ánh xạ chính tắc của $L(S_1 \cup S_2)$ lên $g$.*
 
@@ -425,7 +425,7 @@ với $a_1 \in L(S_1)$ và $a_2 \in L(S_2)$.
 
 Quan hệ (26) cho thấy rằng $\psi_1$ và $\psi_2$ là đơn ánh và $a_1 \cap a_2 = \{0\}$. Các công thức (23) và (24) khi đó suy ra mệnh đề.
 
-#### Mệnh đề 10 (định lý khử) {#lie-ii-s2-prop-10 .statement}
+#### Mệnh đề 10 (định lý khử) {#lie-ii-s2-prop-10 .statement tag=0A39}
 
 *Cho X là một tập hợp, S là một tập con của X và T là tập hợp các dãy $(s_1, \ldots, s_n, x)$ với $n \geq 0, s_1, \ldots, s_n$ thuộc S và x thuộc X $- S.$*†
 
@@ -457,7 +457,7 @@ với $(s_1, \ldots, s_n, x)$ thuộc $T$.
 
 Do đó $\phi(T) \subset a$, trong khi $b \subset a$ vì $\phi(T)$ sinh ra đại số con $b$ của $L(X)$. Nhưng $b$ là một iđêan và $X - S \subset \phi(T) \subset b$, do đó $a \subset b$.
 
-#### Hệ quả {#lie-ii-s2-n9-cor-1 .statement}
+#### Hệ quả {#lie-ii-s2-n9-cor-1 .statement tag=0A3A}
 
 *Cho $y \in X$. Đại số Lie tự do $L(X)$ là tổng trực tiếp của môđun con tự do $K.y$ và đại số con Lie có họ cơ sở là họ của $((\mathrm{ad}\ y)^n, z)$ với $n \geqslant 0$ và $z \in X - \{y\}$.*
 
@@ -467,14 +467,14 @@ Chỉ cần đặt $S = \{y\}$ trong Mệnh đề 10.
 
 Cho $X$ là một tập hợp, $M(X)$ là magma tự do được xây dựng trên $X$ và $M^n(X)$, với $n \in \mathbf{N}^*$, là tập hợp các phần tử của $M(X)$ có độ dài $n$ (no. 1). Nếu $w \in M(X)$ và $l(w) \geqslant 2$, ký hiệu $\alpha(w)$ và $\beta(w)$ là các phần tử của $M(X)$ được xác định bởi quan hệ $w = \alpha(w)\beta(w)$; khi đó $l(\alpha(w)) < l(w)$, $l(\beta(w)) < l(w)$. Cuối cùng, với $u, v$ trong $M(X)$, ký hiệu $u^mv$ là phần tử được xác định bằng quy nạp theo số nguyên $m \geqslant 0$ bởi $u^0v = v$ và $u^{m+1}v = u(u^mv)$.
 
-#### Định nghĩa 2 {#lie-ii-s2-def-2 .statement}
+#### Định nghĩa 2 {#lie-ii-s2-def-2 .statement tag=0A3B}
 
 *Một tập Hall tương đối với $X$ là bất kỳ tập con được sắp thứ tự toàn phần $H$ của $M(X)$ thỏa mãn các điều kiện sau:*
 (A) *Nếu $u \in H, v \in H$ và $l(u) < l(v)$, thì $u < v$.*
 (B) *$X \subset H$ và $H \cap M^2(X)$ gồm các tích $xy$ với $x, y$ trong $X$ và $x < y$.*
 (C) *Một phần tử $w$ của $M(X)$ có độ dài $\geqslant 3$ thuộc $H$ khi và chỉ khi nó có dạng $a(bc)$ với $a, b, c$ trong $H$, $bc \in H$, $b \leqslant a < bc$ và $b < c$.*
 
-#### Mệnh đề 11 {#lie-ii-s2-prop-11 .statement}
+#### Mệnh đề 11 {#lie-ii-s2-prop-11 .statement tag=0A3C}
 
 *Có tồn tại một tập Hall tương đối với $X$.*
 
@@ -487,7 +487,7 @@ Ta viết $H = \bigcup_{n \geqslant 1} H_n$; ta trang bị cho $H$ thứ tự to
 
 Với mọi tập con S của X, ta đồng nhất magma tự do M(S) với ảnh chính tắc của nó trong M(X).
 
-#### Mệnh đề 12 {#lie-ii-s2-prop-12 .statement}
+#### Mệnh đề 12 {#lie-ii-s2-prop-12 .statement tag=0A3D}
 
 Cho H là một tập hợp Hall tương đối với X và cho x, y thuộc X.
 (a) $H \cap M(\{x\}) = \{x\}$.
@@ -497,11 +497,11 @@ Theo Định nghĩa 2 (B), $x \in H$ và $H \cap M^2(\{x\}) = \varnothing$. Nế
 
 Bây giờ chứng minh (b). Theo Định nghĩa 2 (B), $y \in H$ và $xy \in H$. Ta chứng minh bằng quy nạp theo $n$ rằng $x^n y \in H$ với $n$ là một số nguyên $\geq 2$. Bây giờ $x^n y = x(x(x^{n-2}y))$ và giả thiết quy nạp suy ra rằng $x^{n-2}y \in H$. Bây giờ $l(x) < l(x^{n-2}y)$ với $n > 2$ và $x < y$, do đó $x < x^{n-2}y$ trong mọi trường hợp; điều kiện (C) của Định nghĩa 2 cho thấy rằng $x^n y \in H$. Mặt khác, hiển nhiên $d_y(x^n y) = 1$. Ngược lại, cho $w \in H \cap M(\{x, y\})$, với $d_y(w) = 1$. Nếu $l(w) = 1$, thì $w = y$; nếu $l(w) = 2$, thì $w = xy$ theo Định nghĩa 2 (B). Nếu $l(w) \geq 3$, thì $w = a(bc)$, với $a, b, c, bc$ thuộc $H \cap M(\{x, y\})$ (Định nghĩa 2 (C)). $d_y(bc) = 0$ là không thể, vì điều này sẽ kéo theo $bc \in M(\{x\})$, điều này là không thể theo (a). Do đó $d_y(bc) = 1$ và $d_y(a) = 0$, do đó $a = x$ theo (a). Suy ra ngay lập tức bằng quy nạp theo $n = l(w)$ rằng $w = x^{n-1}y$, điều này hoàn tất chứng minh (b).
 
-#### Hệ quả {#lie-ii-s2-n10-cor-1 .statement}
+#### Hệ quả {#lie-ii-s2-n10-cor-1 .statement tag=0A3E}
 
 Nếu Card X $\geq 2$, thì $H \cap M^n(X) \neq \varnothing$ với mọi số nguyên $n \geq 1$.
 
-#### Mệnh đề 13 {#lie-ii-s2-prop-13 .statement}
+#### Mệnh đề 13 {#lie-ii-s2-prop-13 .statement tag=0A3F}
 
 Cho X là một tập hợp hữu hạn có ít nhất hai phần tử. Gọi H là một tập Hall tương đối với X. Khi đó tồn tại một song ánh tăng ngặt $p \mapsto w_p$ của $\mathbf{N}$ lên H và một dãy $(P_p)_{p \in \mathbf{N}}$ các tập con của H có các tính chất sau:
 (a) $P_0 = X$.
@@ -527,7 +527,7 @@ Ngược lại, cho $u \in P_{p+1}$. Ta phân biệt hai trường hợp:
 
 Khi đó tồn tại một số nguyên $i \geq 0$ và một phần tử $w$ của $M(X)$ sao cho $u = w_p^i w$, và hoặc $w \in X$ hoặc $w \notin X$ và $\alpha(w) \neq w_p$. Nếu $i = 0$, ta có trường hợp (α) ở trên, do đó $w \in P_p$ và $w \neq w_p$. Nếu $i > 0$, chứng minh của (β) ở trên thiết lập, bằng quy nạp theo $i$, các hệ thức $w \in P_{p+1}$ và $w \neq w_p$. Giả sử $w \notin X$; từ $w \in P_{p+1}$ suy ra $\alpha(w) \leq w_p$ và vì $\alpha(w) \neq w_p$, ta kết luận rằng $w \in P_p$. Điều này hoàn tất chứng minh của (d).
 
-#### Ví dụ {#lie-ii-s2-n10-exa-1 .statement}
+#### Ví dụ {#lie-ii-s2-n10-exa-1 .statement tag=0A3G}
 
 Giả sử rằng $X$ có hai phần tử $x, y$; sắp thứ tự trên $X$ sao cho $x < y$. Phép dựng được cho trong chứng minh của Mệnh đề 11 cho một tập hợp $H$ gồm 14 phần tử có độ dài $\leq 5$ được cho trong bảng sau:
 
@@ -548,7 +548,7 @@ $$
 
 Ta giữ ký hiệu của số trước.
 
-#### Định lý 1 {#lie-ii-s2-thm-1 .statement}
+#### Định lý 1 {#lie-ii-s2-thm-1 .statement tag=0A3H}
 
 Cho $H$ là một tập Hall đối với $X$ và $\Psi$ ánh xạ chính tắc từ $M(X)$ vào đại số Lie tự do $L(X)$. Hạn chế của $\Psi$ lên $H$ là một cơ sở của môđun $L(X)$.
 
@@ -560,7 +560,7 @@ Nếu $X$ là rỗng thì $M(X)$ cũng rỗng và do đó $H$ và $L(X)$ là kh�
 
 Từ đây giả sử rằng $X$ có ít nhất hai phần tử; chọn các dãy $(w_p)$ và $(P_p)$ với các tính chất đã nêu trong Mệnh đề 13. Với mỗi số nguyên $p \geq 0$, ký hiệu $L_p$ là môđun con của $L(X)$ được sinh bởi các phần tử $\bar{w}_i$ với $0 \leq i < p$ và $g_p$ là đại số Lie con của $L(X)$ được sinh bởi họ $(\bar{u})_{u \in P_p}$.
 
-#### Bổ đề 2 {#lie-ii-s2-lem-2 .statement}
+#### Bổ đề 2 {#lie-ii-s2-lem-2 .statement tag=0A3I}
 
 *Với mỗi số nguyên $p \geq 0$, môđun $L_p$ nhận họ $(\bar{w}_i)_{0 \leq i < p}$ làm cơ sở, đại số Lie $g_p$ nhận $(\bar{u})_{u \in P_p}$ làm họ cơ sở và môđun $L(X)$ là tổng trực tiếp của $L_p$ và $g_p$.*
 
@@ -584,17 +584,17 @@ Với mọi tập con hữu hạn $\Phi$ của $H$ tồn tại một tập con h
 
 Với mọi phần tử $a$ của $L(X)$ tồn tại một tập con hữu hạn $S$ của $X$ sao cho $a \in L(S)$. Theo trường hợp (A), tập con $\Psi'(H \cap M(S))$ của $\Psi'(H)$ sinh môđun $L(S)$ và do đó $a$ là một tổ hợp tuyến tính của các phần tử của $\Psi'(H)$. Vì vậy $\Psi'(H)$ sinh môđun $L(X)$, điều này hoàn thành chứng minh.
 
-#### Hệ quả {#lie-ii-s2-n11-cor-1 .statement}
+#### Hệ quả {#lie-ii-s2-n11-cor-1 .statement tag=0A3J}
 
 *Môđun* $L(X)$ *là tự do và mỗi môđun con* $L^\alpha(X)$ *với* $\alpha \in \mathbf{N}^{(X)}$ *và* $L^n(X)$ *với* $n \in \mathbf{N}$ *cũng vậy*. *Các môđun* $L^\alpha(X)$ *đều có hạng hữu hạn và các môđun* $L^n(X)$ *cũng có hạng hữu hạn nếu* $X$ *là hữu hạn*.
 
 Tồn tại một Hall tập hợp đối với $X$ (Mệnh đề 11). Với mọi $w \in H$, phần tử $\Psi'(w)$ của $L(X)$ thuộc một trong các môđun $L^\alpha(X)$ (với $\alpha \in \mathbf{N}^{(X)}$) và môđun $L(X)$ là tổng trực tiếp của các môđun con $L^\alpha(X)$. Hơn nữa, với mọi $\alpha \in \mathbf{N}^{(X)}$, tập hợp các phần tử của $M(X)$ mà ảnh chính tắc trong $\mathbf{N}^{(X)}$ bằng $\alpha$ là hữu hạn; điều này cho thấy mỗi môđun $L^\alpha(X)$ đều là tự do và có hạng hữu hạn, và $L(X)$ là tự do. Bây giờ $L^n(X) = \sum_{|\alpha|=n} L^\alpha(X)$ và do đó $L^n(X)$ là tự do; khi $X$ là hữu hạn, tập hợp các $\alpha \in \mathbf{N}^{(X)}$ sao cho $|\alpha|=n$ là hữu hạn và do đó khi ấy $L^n(X)$ có hạng hữu hạn.
 
-#### Định nghĩa 3 {#lie-ii-s2-def-3 .statement}
+#### Định nghĩa 3 {#lie-ii-s2-def-3 .statement tag=0A3K}
 
 *Một cơ sở Hall của một đại số Lie tự do* $L(X)$ *là mọi cơ sở của* $L(X)$ *mà là ảnh chính tắc của một Hall tập hợp đối với* $X$.
 
-#### Nhận xét {#lie-ii-s2-n11-rem-1 .statement}
+#### Nhận xét {#lie-ii-s2-n11-rem-1 .statement tag=0A3L}
 
 Giả sử rằng $X$ gồm hai phần tử phân biệt $x$ và $y$ và ký hiệu $L^{(\cdot,1)}$ là môđun con của $L(X)$ bằng tổng của các $L^\alpha(X)$ với $\alpha \in \mathbf{N}^X$ và $\alpha(y)=1$. Suy ra ngay lập tức từ Định lý 1 và Mệnh đề 12 của no. 10 rằng các phần tử $(\mathrm{ad}\,x)^n.y$ với $n$ là một số nguyên $\geqslant 0$ lập thành một *cơ sở* của môđun con $L^{(\cdot,1)}$. Suy ra rằng *hạn chế trên* $L^{(\cdot,1)}$ *của ánh xạ ad* $x$ *là đơn ánh*.
 

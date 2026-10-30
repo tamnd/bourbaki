@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: 3aabe8a9f84764ceec630f987422af79ccf2772ed683c26819c59b116cd6b62c
+content_sha256: d9ff9314ec23606af6278353311f4d40b921e4f3cdc62b45c0636a8821d2e713
 ---
 
 ## § 2. QUOTIENT OF A SPACE BY A GROUP; HOMOGENEOUS SPACES
@@ -64,7 +64,7 @@ Let X be a locally compact space in which a locally compact group H operates on 
 
 Let $\chi$ be a continuous representation of H in $\mathbf{R}_+^*$. If a function g on X satisfies $g(x\xi) = \chi(\xi)g(x)$ for all $x \in X$ and $\xi \in H$, its support S is invariant under H hence may be written $\pi^{-1}(\pi(S))$. We shall denote by $\mathscr{K}^\chi(X)$ the Riesz space formed by the continuous real-valued functions g on X that satisfy $g(x\xi) = \chi(\xi)g(x)$ ($x \in X, \xi \in H$) and whose support is the saturation of a compact subset of X; we denote by $\mathscr{K}_+^\chi(X)$ the set of elements $\geqslant 0$ of $\mathscr{K}^\chi(X)$. In particular, $\mathscr{K}^1(X)$ is none other than the set of continuous functions on X, constant on the orbits, whose support is the saturation of a compact subset.
 
-#### Proposition 1 {#int-vii-s2-prop-1 .statement}
+#### Proposition 1 {#int-vii-s2-prop-1 .statement tag=09EY}
 
 *Let f be a continuous real-valued function on X whose support S has compact intersection with the saturation of every compact subset of X.*
 
@@ -99,13 +99,13 @@ $$
 = \chi(\eta)\Delta_{\mathbf{H}}(\eta)^{-1} \int_{\mathbf{H}} f(x\xi)\chi(\xi)^{-1}\,d\beta(\xi).
 $$
 
-#### Proposition 2 {#int-vii-s2-prop-2 .statement}
+#### Proposition 2 {#int-vii-s2-prop-2 .statement tag=09EZ}
 
 *The mapping* $f \mapsto f^{\chi}$ *of* $\mathscr{K}(X)$ *into* $\mathscr{K}^{\chi}(X)$ *is linear, and the image of* $\mathscr{K}(X)$ *(resp. $\mathscr{K}_{+}(X)$) is* $\mathscr{K}^{\chi}(X)$ *(resp. $\mathscr{K}_{+}^{\chi}(X)$).*
 
 Linearity is immediate. It is clear that $f^{\chi} \geqslant 0$ for $f \geqslant 0$. It then suffices to apply the following lemma:
 
-#### Lemma 1 {#int-vii-s2-lem-1 .statement}
+#### Lemma 1 {#int-vii-s2-lem-1 .statement tag=09F0}
 
 — *Let* $K$ *be a compact subset of* $X$, *u a function of* $\mathscr{K}_{+}(X)$ *with* $u(x) > 0$ *for* $x \in K$. *Let* $g \in \mathscr{K}^{\chi}(X)$ *be such that* $\operatorname{Supp} g \subset KH$.
 a) *One has* $\inf_{x \in KH} u^{1}(x) > 0$.
@@ -116,7 +116,7 @@ Assertion b) follows from this at once. Finally, $(uh)^{\chi} = u^{1}h$ by Prop.
 
 Let I be a relatively bounded linear form (Ch. II, §2, No. 2) on $\mathscr{K}^{\chi}(X)$. Then $f \mapsto I(f^{\chi})$ is a relatively bounded linear form on $\mathscr{K}(X)$, that is, a *measure* $\mu_{I}$ on $X$. The mapping $I \mapsto \mu_{I}$ is injective by Prop. 2. The measures $\mu_{I}$ on $X$ so obtained may be characterized as follows:
 
-#### Proposition 3 {#int-vii-s2-prop-3 .statement}
+#### Proposition 3 {#int-vii-s2-prop-3 .statement tag=09F1}
 
 *Let* $\mu$ *be a measure on* $X$. *The following conditions are equivalent:*
 
@@ -184,7 +184,7 @@ One must not forget that the definition of $f^b$ depends on the choice of $\beta
 
 If $f \in \mathscr{K}(X)$, then $f^b \in \mathscr{K}(X/H)$. The mapping $f \mapsto f^b$ of $\mathscr{K}(X)$ into $\mathscr{K}(X/H)$ is linear, and the image of $\mathscr{K}(X)$ (resp. $\mathscr{K}_+(X)$) is $\mathscr{K}(X/H)$ (resp. $\mathscr{K}_+(X/H)$).
 
-#### Remark 1 {#int-vii-s2-n2-rem-1 .statement}
+#### Remark 1 {#int-vii-s2-n2-rem-1 .statement tag=09F2}
 
 — We are going to show that the mapping $f \mapsto f^b$ is a *strict morphism* (GT, III, §2, No. 8) of $\mathscr{K}(X)$ onto $\mathscr{K}(X/H)$.
 
@@ -197,7 +197,7 @@ $\gamma)$ the mapping of $E$ into $\mathscr{K}(X)$ that, to every function $h \i
 
 c) This established, if $V$ is a convex neighborhood of 0 in $\mathscr{K}(X)$, then $V \cap \mathscr{K}(X, K)$ is a convex neighborhood of 0 in $\mathscr{K}(X, K)$, therefore $V^b \cap \mathscr{K}(X/H, K')$ is a convex neighborhood of 0 in $\mathscr{K}(X/H, K')$ by b), therefore $V^b$ is a neighborhood of 0 in $\mathscr{K}(X/H)$ (TVS, II, §4, No. 4). This completes the proof.
 
-#### Proposition 4 {#int-vii-s2-prop-4 .statement}
+#### Proposition 4 {#int-vii-s2-prop-4 .statement tag=09F3}
 
 a) *Let $\lambda$ be a measure on $X/H$. There exists one and only one measure $\lambda^\#$ on $X$ such that*
 $$
@@ -209,7 +209,7 @@ b) *Conversely, let $\mu$ be a measure on $X$ such that $\delta(\xi)\mu = \Delta
 
 This is a special case of No. 1, Prop. 3.
 
-#### Definition 1 {#int-vii-s2-def-1 .statement}
+#### Definition 1 {#int-vii-s2-def-1 .statement tag=09F4}
 
 *With hypotheses and notations as in Prop. 4, $\lambda$ is called the quotient of $\mu$ by $\beta$ and is denoted $\frac{\mu}{\beta}$ or $\mu/\beta$.*
 
@@ -221,7 +221,7 @@ $$
 $$
 This involves an abuse of notation, the integral $\int_H f(x\xi) d\beta(\xi)$ being regarded as a function of $\dot{x}$ and not of $x$; this manner of writing will be used frequently in what follows provided no confusion can arise.
 
-#### Remark 2 {#int-vii-s2-n2-rem-2 .statement}
+#### Remark 2 {#int-vii-s2-n2-rem-2 .statement tag=09F5}
 
 — Let E be a locally convex vector space and let m be a vectorial measure on $X/H$ with values in E. The mapping $f \mapsto m(f^b)$ of $\mathscr{K}(X)$ into E is then a vectorial measure on X, with values in E, which we shall again denote by $m^\#$. The mapping $m \mapsto m^\#$ is again an *isomorphism* of $\mathscr{L}(\mathscr{K}(X/H); E)$ onto a linear subspace A of $\mathscr{L}(\mathscr{K}(X); E)$ (when these spaces are equipped with the topology of pointwise convergence). Moreover, since the mapping $f \mapsto f^b$ is a surjective strict morphism, the subspace A consists precisely of the vectorial measures n on X that are zero on the kernel N of the mapping $f \mapsto f^b$. In order that $n \in A$, it is therefore necessary and sufficient that the scalar measures $z' \circ n$ be zero on N for every $z' \in E'$. One then deduces from Prop. 3 that $n \in A$ if and only if $\delta(\xi)n = \Delta_H(\xi)n$ for all $\xi \in H$.
 
@@ -239,7 +239,7 @@ $$
 (\varepsilon_u)^\# = \beta_u.
 $$
 
-#### Lemma 2 {#int-vii-s2-lem-2 .statement}
+#### Lemma 2 {#int-vii-s2-lem-2 .statement tag=09F6}
 
 *Let f be a function on X, with values in a topological space.*
 
@@ -265,7 +265,7 @@ which furnishes a new interpretation of $\lambda^\#$.
 
 $^1$ In the sense of the first edition of Ch. V, hence *a fortiori* in the sense of the second (cf. the footnote to the Example of Ch. VI, §1, No. 1).
 
-#### Proposition 5 {#int-vii-s2-prop-5 .statement}
+#### Proposition 5 {#int-vii-s2-prop-5 .statement tag=09F7}
 
 — Let $\lambda$ be a positive measure on $X/H$.
 
@@ -303,7 +303,7 @@ $$
 
 Taking into account Lemma 2, the assertions a), b) and c) follow from Ch. V, §3, Prop. 4, Prop. 5 and Th. 1 (with the exception of (13), which follows from (12) because it is clear that $|f^b| \leq |f|^b$); d) follows from b).
 
-#### Proposition 6 {#int-vii-s2-prop-6 .statement}
+#### Proposition 6 {#int-vii-s2-prop-6 .statement tag=09F8}
 
 — Let $\lambda$ be a positive measure on $X/H$.
 
@@ -341,19 +341,19 @@ $$
 
 therefore $h \circ \pi$ is locally $\lambda^\#$-integrable.
 
-#### Corollary 1 {#int-vii-s2-prop-6-cor-1 .statement}
+#### Corollary 1 {#int-vii-s2-prop-6-cor-1 .statement tag=09F9}
 
 — Let $\lambda, \lambda'$ be two positive measures on $X/H$. For $\lambda'$ to have base $\lambda$, it is necessary and sufficient that ${\lambda'}^\#$ have base $\lambda^\#$. For $\lambda$ and $\lambda'$ to be equivalent, it is necessary and sufficient that $\lambda^\#$ and ${\lambda'}^\#$ be equivalent.
 
 The first assertion follows from Prop. 6, a) and c). The second follows from the first.
 
-#### Corollary 2 {#int-vii-s2-prop-6-cor-2 .statement}
+#### Corollary 2 {#int-vii-s2-prop-6-cor-2 .statement tag=09FA}
 
 — Let $\lambda$ be a positive measure on $X/H$, and $f$ a $\lambda^\#$-measurable numerical function on $X$. Suppose that, for every $\xi \in H$, $\delta(\xi)f = f$ locally $\lambda^\#$-almost everywhere. Then, there exists a $\lambda$-measurable function $g$ on $X/H$ such that $f = g \circ \pi$ locally $\lambda^\#$-almost everywhere.
 
 Replacing $f$ by $f/(1+|f|)$, one reduces to the case that $f$ is bounded, hence locally $\lambda^\#$-integrable. Let $\mu = f \cdot \lambda^\#$. The hypothesis on $f$ implies that $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ for all $\xi \in H$. There then exists (Prop. 4) a measure $\lambda'$ on $X/H$ such that $\mu = {\lambda'}^\#$. By Cor. 1, there exists a locally $\lambda$-integrable function $g$ on $X/H$ such that $\lambda' = g \cdot \lambda$. By Prop. 6, $f \cdot \lambda^\# = {\lambda'}^\# = (g \circ \pi) \cdot \lambda^\#$, whence $f = g \circ \pi$ locally $\lambda^\#$-almost everywhere.
 
-#### Corollary 3 {#int-vii-s2-prop-6-cor-3 .statement}
+#### Corollary 3 {#int-vii-s2-prop-6-cor-3 .statement tag=09FB}
 
 — a) Let $(\lambda_\iota)_{\iota \in I}$ be a family of real measures on $X/H$. For the family $(\lambda_\iota)$ to be bounded above in $\mathscr{M}(X/H)$, it is necessary and sufficient that the family $(\lambda_\iota^\#)$ be bounded above in $\mathscr{M}(X)$, in which case
 
@@ -379,11 +379,11 @@ $$
 
 which completes the proof of a). The assertion b) then follows at once since, for example, $\lambda^+$ is none other than $\sup(\lambda, 0)$. To prove c), it suffices to note that $|\lambda| = \sup \mathscr{R}(\alpha \lambda)$ over the complex numbers $\alpha$ of absolute value 1, and on the other hand that $\mathscr{R}(\mu^\#) = (\mathscr{R}\mu)^\#$ for every $\mu \in \mathscr{M}(X/H)$.
 
-#### Remark 1 {#int-vii-s2-n3-rem-1 .statement}
+#### Remark 1 {#int-vii-s2-n3-rem-1 .statement tag=09FC}
 
 Prop. 6 a) may be expressed by saying that $\lambda$ is a *pseudo-image* measure of $\lambda^\#$ under $\pi$ (Ch. VI, §3, No. 2, Def. 1).
 
-#### Remark 2 {#int-vii-s2-n3-rem-2 .statement}
+#### Remark 2 {#int-vii-s2-n3-rem-2 .statement tag=09FD}
 
 Suppose $H$ is *compact* and $\beta$ is normalized. The saturation of every compact subset of $X$ is compact. Therefore, if $f \in \mathscr{K}(X/H)$ then $f \circ \pi \in \mathscr{K}(X)$; and, for every positive measure $\lambda$ on $X/H$, Prop. 5 c) gives
 
@@ -393,11 +393,11 @@ $$
 
 In other words, $\lambda$ is the *image* of $\lambda^\#$ under $\pi$.
 
-#### Remark 3 {#int-vii-s2-n3-rem-3 .statement}
+#### Remark 3 {#int-vii-s2-n3-rem-3 .statement tag=09FE}
 
 Cor. 3 c) of Prop. 6 shows at once that the results of this subsection remain valid in the case of complex measures (except for those that involve the upper integral).
 
-#### Remark 4 {#int-vii-s2-n3-rem-4 .statement}
+#### Remark 4 {#int-vii-s2-n3-rem-4 .statement tag=09FF}
 
 Let $m$ be a vectorial measure on $X/H$ with values in $E$, and let $q$ be a lower semi-continuous semi-norm on $E$. For $m$ to be $q$-majorizable (Ch. VI, §2, No. 3, Def. 3), it is necessary and sufficient that $m^\#$ be so, in which case $q(m^\#) = q(m)^\#$. This follows at once from the definitions and Cor. 3 a).
 
@@ -409,7 +409,7 @@ Finally, if $m$ has base $\mu$, with density $f$ with respect to $\mu$ (Ch. VI, 
 
 If $X/H$ is paracompact, we shall first see that the vector spaces $\mathscr{K}^\chi(X)$, for variable $\chi$, are all *isomorphic* to each other, and in particular isomorphic to $\mathscr{K}^1(X)$.
 
-#### Proposition 7 {#int-vii-s2-prop-7 .statement}
+#### Proposition 7 {#int-vii-s2-prop-7 .statement tag=09FG}
 
 *Assume $X/H$ paracompact. Let $\chi$ be a continuous representation of $H$ in $\mathbf{R}_+^*$.*
 
@@ -419,21 +419,21 @@ b) *The mapping $g \mapsto g/r$ is an isomorphism of the vector space $\mathscr{
 
 Let us apply Prop. 1 of No. 1 on taking $f$ to be a function $\geqslant 0$ that is not identically zero on any orbit (this is possible by Lemma 1 of Appendix 1); then $r = f^\chi$ satisfies the properties of a). The assertion b) is obvious.
 
-#### Proposition 8 {#int-vii-s2-prop-8 .statement}
+#### Proposition 8 {#int-vii-s2-prop-8 .statement tag=09FH}
 
 *Assume $X/H$ paracompact. There exists a continuous function $h \geqslant 0$ on $X$, whose support has compact intersection with* the saturation of every compact subset of X, and is such that $h^b = 1$. For such a function, one has $g = (h \cdot (g \circ \pi))^b$ for every continuous function $g$ on $X/H$.
 
 Let us apply Prop. 1 of No. 1, with $\chi = 1$, on taking for $f$ a function $\geqslant 0$ that is not identically zero on any orbit. We have $f^1(x) > 0$ at every point $x$ of $X$. Set $h = f/f^1$. Then $h^1 = f^1/f^1 = 1$, therefore $h^b = 1$. It follows that if $g$ is a continuous function on $X/H$, then $(h \cdot (g \circ \pi))^b = h^b \cdot g = g$.
 
-#### Remark 1 {#int-vii-s2-n4-rem-1 .statement}
+#### Remark 1 {#int-vii-s2-n4-rem-1 .statement tag=09FI}
 
 In particular, let $X$ be a locally compact space on which a discrete group $D$ operates continuously and properly on the right; suppose $X/D$ is paracompact. Then, there exists a continuous function $h \geqslant 0$ on $X$ whose support has compact intersection with the saturation of every compact subset of $X$, and is such that $\sum_{d \in D} h(xd) = 1$ for every $x \in X$ (all terms of the sum being zero except for a finite number of them).
 
-#### Remark 2 {#int-vii-s2-n4-rem-2 .statement}
+#### Remark 2 {#int-vii-s2-n4-rem-2 .statement tag=09FJ}
 
 Let us conserve the hypotheses and notations of Prop. 8. The mapping $g \mapsto h \cdot (g \circ \pi)$ is a continuous mapping of $\mathscr{K}(X/H)$ into $\mathscr{K}(X)$ that is a right inverse of the mapping $f \mapsto f^b$. Consequently, every bounded (resp. compact) subset of $\mathscr{K}(X/H)$ is the image of a bounded (resp. compact) subset of $\mathscr{K}(X)$. From this, one deduces immediately that the mapping $\lambda \mapsto \lambda^\#$ is again an isomorphism of $\mathscr{M}(X/H)$ onto a closed linear subspace of $\mathscr{M}(X)$ when these spaces are equipped with the topology of bounded (resp. compact) convergence.
 
-#### Proposition 9 {#int-vii-s2-prop-9 .statement}
+#### Proposition 9 {#int-vii-s2-prop-9 .statement tag=09FK}
 
 — *We conserve the hypotheses and notations of Prop. 8.* Let $\lambda$ be a positive measure on $X/H$.
 
@@ -459,7 +459,7 @@ $$
 $$
 where $M = \sup |f|$; therefore $h \cdot ((kf) \circ \pi)$ is $\lambda^\#$-integrable, consequently $kf$ is $\lambda$-integrable, by what has already been proved; this proves that $k$ is indeed locally $\lambda$-integrable.
 
-#### Corollary {#int-vii-s2-n4-cor-1 .statement}
+#### Corollary {#int-vii-s2-n4-cor-1 .statement tag=09FL}
 
 — *The continuous linear mapping* $f \mapsto f^b$ *of* $L^1(X, \lambda^\#)$ *into* $L^1(X/H, \lambda)$ *defined by Prop. 5 is surjective*.
 
@@ -467,13 +467,13 @@ Suppose first that $X/H$ is paracompact and let $h$ be a function on $X$ satisfy
 
 In the general case, let $u \in L^1(X/H, \lambda)$. There exists a function $f \in \mathscr{L}^1(X/H, \lambda)$ with class $u$ and zero outside a countable union of compact sets $K_n$. Let us define recursively a sequence of relatively compact open sets $U_n$ of $X/H$ such that $U_{n+1} \supset K_n \cup \overline{U}_n$, and let $V$ be the union of the $U_n$. Then $V$ is an open subset of $X/H$, a countable union of compact subsets $\overline{U}_n$, hence is paracompact (GT, I, § 9, No. 10, Th. 5). Set $Y = \overline{\pi}^{-1}(V)$ and let $\lambda_V$ (resp. $\lambda_Y^\#$) be the measure induced by $\lambda$ (resp. $\lambda^\#$) on $V$ (resp. $Y$). It is clear that $Y/H$ may be identified with $V$ (GT, I, § 3, Prop. 10) and that $\lambda_Y^\#$ may be identified with $(\lambda_V)^\#$. Moreover, $f$ is zero outside $V$ and belongs to $\mathscr{L}^1(V, \lambda_V)$. Therefore, there exists $g \in \mathscr{L}^1(Y, \lambda_Y^\#)$ such that $g^b = f$ almost everywhere in $V$. Extending $g$ by 0 on $X - Y$, one obtains a function $g_1 \in \mathscr{L}^1(X, \lambda^\#)$, and it is clear that the class of $g_1^b$ in $L^1(X/H, \lambda)$ is none other than $u$.
 
-#### Remark 3 {#int-vii-s2-n4-rem-3 .statement}
+#### Remark 3 {#int-vii-s2-n4-rem-3 .statement tag=09FM}
 
 — Suppose $X/H$ paracompact, and let us retain the notations of Proposition 9. The mapping $k \mapsto h \cdot (k \circ \pi)$ of $L^1(X/H, \lambda)$ into $L^1(X, \lambda^\#)$ is then *isometric* by (14) and is a *right inverse* of the mapping $f \mapsto f^b$ of $L^1(X, \lambda^\#)$ onto $L^1(X/H, \lambda)$.
 
 ### 5. Quasi-invariant measures on a homogeneous space
 
-#### Lemma 3 {#int-vii-s2-lem-3 .statement}
+#### Lemma 3 {#int-vii-s2-lem-3 .statement tag=09FN}
 
 — *Let G be a locally compact group, $\mu$ a left Haar measure on G, $\nu$ and $\nu'$ two nonzero quasi-invariant measures on G. If, for every $s \in G$, the densities of $\gamma(s)\nu$ with respect to $\nu$ and of $\gamma(s)\nu'$* with respect to $\nu'$ are equal locally $\mu$-almost everywhere, then $\nu$ and $\nu'$ are proportional.
 
@@ -505,7 +505,7 @@ $$
 
 whence formula (15), which implies formula (16).
 
-#### Lemma 4 {#int-vii-s2-lem-4 .statement}
+#### Lemma 4 {#int-vii-s2-lem-4 .statement tag=09FO}
 
 Let $\lambda$ be a measure $\neq 0$ on $G/H$, and $\mu$ a left Haar measure on $G$. The following properties are equivalent:
 a) $\lambda$ is quasi-invariant under $G$;
@@ -539,7 +539,7 @@ whence (17).
 
 The equivalence of a) and b) implies first the uniqueness result already announced, and even a more precise result:
 
-#### Theorem 1 {#int-vii-s2-thm-1 .statement}
+#### Theorem 1 {#int-vii-s2-thm-1 .statement tag=09FP}
 
 *Let $G$ be a locally compact group, $H$ a closed subgroup of $G$.*
 
@@ -553,7 +553,7 @@ On the other hand, Lemma 4 reduces the search for nonzero quasi-invariant measur
 
 Haar measure and of the form $\lambda^\#$. On this subject we have the following lemma:
 
-#### Lemma 5 {#int-vii-s2-lem-5 .statement}
+#### Lemma 5 {#int-vii-s2-lem-5 .statement tag=09FQ}
 
 *Let $\mu$ be a left Haar measure on $G$, and $\rho$ a locally $\mu$-integrable function. For $\rho \cdot \mu$ to be of the form $\lambda^\#$, it is necessary and sufficient that, for every $\xi \in H$,*
 
@@ -573,7 +573,7 @@ whence the lemma.
 
 We can now establish the announced existence result, and even a more precise result:
 
-#### Theorem 2 {#int-vii-s2-thm-2 .statement}
+#### Theorem 2 {#int-vii-s2-thm-2 .statement tag=09FR}
 
 *Let $G$ be a locally compact group, $H$ a closed subgroup of $G$, $\mu$ a left Haar measure on $G$, and $\beta$ a left Haar measure on $H$.
 
@@ -603,11 +603,11 @@ a) follows from Prop. 7.
 b) follows from Lemmas 5 and 4.
 c) follows from (17).
 
-#### Remark 1 {#int-vii-s2-n5-rem-1 .statement}
+#### Remark 1 {#int-vii-s2-n5-rem-1 .statement tag=09FS}
 
 One deduces from Remark 1 of No. 3 that the nonzero quasi-invariant measures on G/H are none other than the pseudo-images under $\pi$ of a Haar measure on G.
 
-#### Remark 2 {#int-vii-s2-n5-rem-2 .statement}
+#### Remark 2 {#int-vii-s2-n5-rem-2 .statement tag=09FT}
 
 If G is a Lie group, we shall see later that the function $\rho$ of Th. 2 can be chosen to be infinitely differentiable.*
 
@@ -638,7 +638,7 @@ $$
 
 Let G again be a locally compact group, H a closed subgroup, $\beta$ a left Haar measure on H.
 
-#### Lemma 6 {#int-vii-s2-lem-6 .statement}
+#### Lemma 6 {#int-vii-s2-lem-6 .statement tag=09FU}
 
 Let $\lambda$ be a measure on $G/H$, $\chi$ a continuous representation of G in $\mathbf{C}^*$. The following properties are equivalent:
 a) $\lambda$ is relatively invariant on $G/H$ with multiplier $\chi$;
@@ -659,7 +659,7 @@ $$
 
 Whence the equivalence of a) and b). The equivalence of b) and c) follows from §1, No. 8, Cor. 1 of Prop. 10.
 
-#### Theorem 3 {#int-vii-s2-thm-3 .statement}
+#### Theorem 3 {#int-vii-s2-thm-3 .statement tag=09FV}
 
 Let G be a locally compact group, H a closed subgroup of G, $\mu$ (resp. $\beta$) a left Haar measure on G (resp. H), $\chi$ a continuous representation of G in $\mathbf{C}^*$.
 
@@ -677,17 +677,17 @@ for all $\xi \in H$. Whence a). The assertion b) follows at once from Lemma 6 an
 
 We shall see in §3 (No. 3, Example 4) some very simple examples where the representation $\xi \mapsto \Delta_H(\xi)/\Delta_G(\xi)$ cannot be extended to a continuous representation of G in $\mathbf{C}^*$. In this case, there therefore does not exist any nonzero complex measure on $G/H$ relatively invariant under G.
 
-#### Corollary 1 {#int-vii-s2-thm-3-cor-1 .statement}
+#### Corollary 1 {#int-vii-s2-thm-3-cor-1 .statement tag=09FW}
 
 For there to exist on $G/H$ a nonzero positive measure relatively invariant under G, it is necessary and sufficient that there exist a continuous representation of $G$ in $\mathbf{R}_+^*$ extending the representation $\xi \mapsto \Delta_H(\xi)/\Delta_G(\xi)$.
 
 Note that this condition is fulfilled when $H$ is unimodular.
 
-#### Corollary 2 {#int-vii-s2-thm-3-cor-2 .statement}
+#### Corollary 2 {#int-vii-s2-thm-3-cor-2 .statement tag=09FX}
 
 — For there to exist on $G/H$ a nonzero positive measure invariant under $G$, it is necessary and sufficient that $\Delta_G$ coincide with $\Delta_H$ on $H$.
 
-#### Corollary 3 {#int-vii-s2-thm-3-cor-3 .statement}
+#### Corollary 3 {#int-vii-s2-thm-3-cor-3 .statement tag=09FY}
 
 — Suppose that $H$ is unimodular and that there exists on $G/H$ a nonzero bounded positive measure $\nu$ relatively invariant under $G$. Then $\nu$ is invariant, and $G$ is unimodular.
 
@@ -695,7 +695,7 @@ Let $\chi$ be the multiplier of $\nu$. For every $s \in G$, $\nu$ and $\gamma(s)
 
 ### 7. Haar measure on a quotient group
 
-#### Proposition 10 {#int-vii-s2-prop-10 .statement}
+#### Proposition 10 {#int-vii-s2-prop-10 .statement tag=09FZ}
 
 — Let $G$ be a locally compact group, $G'$ a closed normal subgroup, $G''$ the group $G/G'$, $\pi$ the canonical mapping of $G$ onto $G/G'$, and $\alpha, \alpha', \alpha''$ left Haar measures on $G, G', G''$.
 
@@ -711,7 +711,7 @@ c) The kernel of the representation $\Delta_G$ of $G$ in $\mathbf{R}_+^*$ is the
 
 Applying Th. 3 of No. 6 with $\chi = 1$ (and in the knowledge that here, there exists a measure on $G/G'$ invariant under $G$, namely $\alpha''$), we obtain a) and b); c) follows at once from b).
 
-#### Proposition 11 {#int-vii-s2-prop-11 .statement}
+#### Proposition 11 {#int-vii-s2-prop-11 .statement tag=09G0}
 
 — We maintain the notations of Prop. 10. Let $u$ be an automorphism of $G$ such that $u(G') = G'$. Let $u'$ be the restriction of $u$ to $G'$, and $u''$ the automorphism of $G''$ deduced from $u$ by passage to the quotients. Then
 
@@ -728,7 +728,7 @@ $$
 $$
 whence the proposition.
 
-#### Corollary {#int-vii-s2-n7-cor-1 .statement}
+#### Corollary {#int-vii-s2-n7-cor-1 .statement tag=09G1}
 
 — *For every* $x \in G$,
 $$
@@ -750,7 +750,7 @@ for $\xi \in H$; one can then form the measures $\mu/\beta$ on $X/H$ and $\mu/\b
 
 The mapping $(x, \xi) \mapsto \pi'(x\xi)$ of $X \times H$ into $X/H'$ is continuous; since $\pi'(x\xi) = \pi'(x\xi\xi')$ for all $\xi' \in H'$ this mapping defines, by passage to the quotient, a *continuous* mapping of $X \times (H/H')$ into $X/H'$; whence, for each fixed $x$ in $X$, a partial mapping $\omega_x$ of $H/H'$ into $X/H'$, deduced by passage to the quotient from the mapping $\psi_x : \xi \mapsto x\xi$ of H into X. Note that $\psi_{x\xi} = \psi_x \circ \gamma_H(\xi)$, therefore that $\omega_{x\xi} = \omega_x \circ \gamma_{H/H'}(\xi)$ for all $\xi \in H$.
 
-#### Lemma 7 {#int-vii-s2-lem-7 .statement}
+#### Lemma 7 {#int-vii-s2-lem-7 .statement tag=09G2}
 
 *Let K be a compact subset of X/H', and L a compact subset of X. Then $\bigcup_{x \in L} \omega_x^{-1}(K)$ is relatively compact in H/H'._
 
@@ -774,7 +774,7 @@ $$
 
 One has analogous properties for measurability, the upper integral and the essential integral.
 
-#### Proposition 12 {#int-vii-s2-prop-12 .statement}
+#### Proposition 12 {#int-vii-s2-prop-12 .statement tag=09G3}
 
 — *With the foregoing notations*,
 
@@ -817,7 +817,7 @@ $$
 
 which proves the proposition.
 
-#### Corollary 1 {#int-vii-s2-prop-12-cor-1 .statement}
+#### Corollary 1 {#int-vii-s2-prop-12-cor-1 .statement tag=09G4}
 
 — a) *Let f be a function on X/H', with values in a Banach space or in $\overline{\mathbf{R}}$, integrable for $\mu/\beta'$. There exists a $(\mu/\beta)$-negligible subset N of X/H having the following property: if $x \in X$ is such that $\pi(x) \notin N$, then the function $f \circ \omega_x$ on H/H', that is, the function $\dot{\xi} \mapsto f(\pi'(x\xi))$, is integrable for $\beta/\beta'$. The integral $\int_{H/H'} f(\pi'(x\xi)) d(\beta/\beta')(\dot{\xi})$ depends only on $\dot{x} = \pi(x)$, and is a $(\mu/\beta)$-integrable function of $\dot{x}$; and*
 
@@ -843,7 +843,7 @@ $$
 \int_{X/H}^* d(\mu/\beta)(\dot{x}) \int_{H/H'}^* |f(\pi'(x\xi))| d(\beta/\beta')(\dot{\xi}) < +\infty.
 $$
 
-#### Corollary 2 {#int-vii-s2-prop-12-cor-2 .statement}
+#### Corollary 2 {#int-vii-s2-prop-12-cor-2 .statement tag=09G5}
 
 — Let $G$ be a locally compact group, $A$ and $B$ closed subgroups of $G$ such that $A \supset B$. Suppose that there exists, on the homogeneous space $G/B$ of left cosets with respect to $B$, a nonzero positive measure $\alpha$ that is invariant under $G$ and is bounded.
 
@@ -863,7 +863,7 @@ Let $G$ be a locally compact group, $X$ and $Y$ two closed subgroups of $G$ such
 
 The group $X \times Y$ operates continuously in G on the left, by the law $(x, y) \cdot s = x s y^{-1}$ ($x \in X, y \in Y, s \in G$). Let $Z = X \cap Y$. The stabilizer of e in $X \times Y$ is the subgroup $Z_0$ of $X \times Y$ formed by the pairs $(z, z)$, where $z \in Z$, a subgroup canonically isomorphic to $Z$. Thus the set $\Omega$ may be identified with the homogeneous space $(X \times Y)/Z_0$ of left cosets; more precisely, the mapping $(x, y) \mapsto xy^{-1}$ of $X \times Y$ onto $\Omega$ defines, by passage to the quotient, a continuous bijection of $(X \times Y)/Z_0$ onto $\Omega$. We shall assume that this mapping *is a homeomorphism*. (This is notably the case if G is countable at infinity: cf. App. I.)
 
-#### Proposition 13 {#int-vii-s2-prop-13 .statement}
+#### Proposition 13 {#int-vii-s2-prop-13 .statement tag=09G6}
 
 — *Suppose in addition that Z is compact. Let $\mu_G, \mu_X, \mu_Y$ be left Haar measures on G, X, Y, and $\Lambda$ the restriction of $\Delta_G$ to Y. Then the restriction $\mu$ of $\mu_G$ to $\Omega$ is, up to a constant factor, the image of $\mu_X \otimes (\Lambda^{-1} \cdot \mu_Y)$ under the mapping $(x, y) \mapsto xy^{-1}$ of $X \times Y$ onto $\Omega$ (a mapping that is proper).
 
@@ -875,7 +875,7 @@ $$
 
 Identifying $\Omega$ with the homogeneous space $(X \times Y)/Z_0$ and choosing a suitable Haar measure on $Z_0$, one sees that $\mu^\#$ is the product of the left Haar measure of $X \times Y$, namely $\mu_X \otimes \mu_Y$, by the function $(x, y) \mapsto \Delta_G(y)^{-1}$ (No. 6, Lemma 6). On the other hand $\mu$ is, up to a constant factor, the image of $\mu^\#$ under the canonical mapping of $X \times Y$ onto $\Omega$ (No. 3, Remark 2).
 
-#### Corollary {#int-vii-s2-n9-cor-1 .statement}
+#### Corollary {#int-vii-s2-n9-cor-1 .statement tag=09G7}
 
 — *Let f be a function defined on $\Omega$, with values in a Banach space or in $\overline{\mathbf{R}}$. For f to be $\mu$-integrable, it is necessary and sufficient that the function $(x, y) \mapsto f(xy) \Delta_G(y) \Delta_Y(y)^{-1}$ be $(\mu_X \otimes \mu_Y)$-integrable, in which case*
 
@@ -887,7 +887,7 @@ where $a$ is a constant $> 0$ independent of f.
 
 By Prop. 13, and Ch. V, §4, No. 4, Th. 2, for f to be $\mu$-integrable, it is necessary and sufficient that the function $(x, y) \mapsto f(xy^{-1})$ be integrable for $\mu_X \otimes (\Lambda^{-1} \cdot \mu_Y)$, or again that the function $(x, y) \mapsto f(xy^{-1}) \Delta_G(y)^{-1}$ be integrable for $\mu_X \otimes \mu_Y$, or again that the function $(x, y) \mapsto f(xy) \Delta_G(y) \Delta_Y(y)^{-1}$ be integrable for $\mu_X \otimes \mu_Y$. Formula (23) results from an analogous argument.
 
-#### Proposition 14 {#int-vii-s2-prop-14 .statement}
+#### Proposition 14 {#int-vii-s2-prop-14 .statement tag=09G8}
 
 — Suppose that the conditions of Prop. 13 are fulfilled and that, in addition, Y is normal.
 
@@ -920,7 +920,7 @@ $$
 
 whence b).
 
-#### Remark {#int-vii-s2-n9-rem-1 .statement}
+#### Remark {#int-vii-s2-n9-rem-1 .statement tag=09G9}
 
 Prop. 14 applies in particular when G is the topological semi-direct product of X by Y (GT, III, §2, No. 10). In this case, $Z = \{e\}$ and $\Omega = G$. Since $yx = xi_x(y)$ for $x \in X,\ y \in Y$, the measure $\mu_G$ is also, up to a constant factor, the image of $(\operatorname{mod}\ i_x)\mu_X \otimes \mu_Y$ under the mapping $(x, y) \mapsto yx$ of $X \times Y$ into G.
 
@@ -928,11 +928,11 @@ Prop. 14 applies in particular when G is the topological semi-direct product of 
 
 Let X be a locally compact space, H a discrete group operating on the right continuously and properly in X. Let $\pi$ be the canonical mapping of X onto $X/H$. For every $x \in X$, we denote by $H_x$ the stabilizer of $x$ in H; this is a finite subgroup of H (GT, III, §4, No. 2, Prop. 4); its order will be denoted $n(x)$. For every $s \in H,\ H_{xs} = s^{-1}H_x s$, therefore $n(xs) = n(x)$. There exists an open neighborhood U of x such that $U \cap Us = \varnothing$ for $s \notin H_x$ (loc. cit., No. 4, proof of Prop. 8); for $y \in U$, one has $H_y \subset H_x$; thus the function $n$ on X is upper semi-continuous. When X is countable at infinity, H is countable; for, let $(K_1, K_2, \ldots)$ be a covering of X by a sequence of compact subsets, and let $x_0 \in X$; the set of $s \in H$ such that $x_0 s \in K_i$ is finite (*loc. cit.*, No. 5, Th. 1), whence our assertion.
 
-#### Definition 2 {#int-vii-s2-def-2 .statement}
+#### Definition 2 {#int-vii-s2-def-2 .statement tag=09GA}
 
 *Let $F \subset X$. One says that $F$ is a fundamental domain (for $H$) if the restriction of $\pi$ to $F$ is a bijection of $F$ onto $X/H$* (in other words, $F$ is a *system of representatives* for the equivalence relation defined by $H$).
 
-#### Lemma 8 {#int-vii-s2-lem-8 .statement}
+#### Lemma 8 {#int-vii-s2-lem-8 .statement tag=09GB}
 
 — *Let $F$ be a fundamental domain. For every $x \in X$,*
 $$
@@ -946,7 +946,7 @@ $$
 $$
 whence (24).
 
-#### Proposition 15 {#int-vii-s2-prop-15 .statement}
+#### Proposition 15 {#int-vii-s2-prop-15 .statement tag=09GC}
 
 *Assume that $X$ is countable at infinity. Let $\mu$ be a measure $\geq 0$ on $X$. Let $F$ be a fundamental domain such that $Fs$ is $\mu$-measurable for every $s \in H$. Let $f$ be a $\mu$-integrable function on $X$, with values in a Banach space or in $\overline{\mathbf{R}}$. Then the family of the*
 $$
@@ -963,7 +963,7 @@ $$
 $$
 by Lemma 8. Lemma 8 also proves that $\sum_{s \in A} n^{-1} f \varphi_{Fs}$ converges pointwise to $f$ with respect to the increasing directed set of finite subsets of $H$. Prop. 15 then follows from Ch. IV, §4, No. 3, Th. 2.
 
-#### Theorem 4 {#int-vii-s2-thm-4 .statement}
+#### Theorem 4 {#int-vii-s2-thm-4 .statement tag=09GD}
 
 *Let $X$ be a locally compact space countable at infinity, $H$ a discrete group operating continuously and properly on the right in $X$, π the canonical mapping of X onto X/H, μ a positive measure on X invariant under H, β the normalized Haar measure of H, and λ = μ/β. Let F be a μ-measurable fundamental domain.
 
@@ -995,7 +995,7 @@ $$
 
 This proves a). The assertion b) is proved similarly. The assertion c) may be deduced from a) and from Ch. V, §4, Prop. 3 and Th. 2.
 
-#### Corollary {#int-vii-s2-n10-cor-1 .statement}
+#### Corollary {#int-vii-s2-n10-cor-1 .statement tag=09GE}
 
 — We maintain the hypotheses and notations of Th. 4. Let F' be a second μ-measurable fundamental domain. Let u be a function on X, with values in a Banach space or in $\overline{\mathbf{R}}$, invariant under H. Suppose that u is μ-integrable on F. Then u is μ-integrable on F' and
 

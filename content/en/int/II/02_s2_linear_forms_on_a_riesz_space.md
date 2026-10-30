@@ -21,7 +21,7 @@ subsections:
       pdf_page: 34
 statements: 13
 exercises: 9
-content_sha256: 9d00974d8a98c416163496def0aafa85ef87667b850822c6908abf8483ae2617
+content_sha256: 417cef2f31fafd157b7a2cbea53f12a17f40a56765605873734c2f538ed5f1ad
 ---
 
 ## § 2. LINEAR FORMS ON A RIESZ SPACE
@@ -30,31 +30,31 @@ content_sha256: 9d00974d8a98c416163496def0aafa85ef87667b850822c6908abf8483ae2617
 
 We recall the following definition (TVS, II, §2, No. 5):
 
-#### Definition 1 {#int-ii-s2-def-1 .statement}
+#### Definition 1 {#int-ii-s2-def-1 .statement tag=08KI}
 
 Given an ordered vector space E, a linear form L on E is said to be positive if $L(x) \geq 0$ for every $x \geq 0$ in E.
 
 Since $L(y) - L(x) = L(y - x)$, it is the same to say that the relation $x \leq y$ implies $L(x) \leq L(y)$, or again that $L$ is an increasing function on E.
 
-#### Example 1 {#int-ii-s2-n1-exa-1 .statement}
+#### Example 1 {#int-ii-s2-n1-exa-1 .statement tag=08KJ}
 
 Let A be any set, E a linear subspace of the space $\mathbf{R}^A$ of all real-valued functions defined on A. For every element $a \in A$, the mapping $x \mapsto x(a)$ is a positive linear form on E.
 
-#### Example 2 {#int-ii-s2-n1-exa-2 .statement}
+#### Example 2 {#int-ii-s2-n1-exa-2 .statement tag=08KK}
 
 Let $I = [a, b]$ be a compact interval of $\mathbf{R}$, E the Riesz space formed by the regulated real-valued functions on I (FRV, II, §1, No. 3); the mapping $x \mapsto \int_a^b x(t) \, dt$ is a positive linear form on E.
 
-#### Example 3 {#int-ii-s2-n1-exa-3 .statement}
+#### Example 3 {#int-ii-s2-n1-exa-3 .statement tag=08KL}
 
 Let F be any set, $\mathscr{U}$ an ultrafilter on F (GT, I, §6, No. 4), E the Riesz space $\mathscr{B}(F)$ of bounded real-valued functions on F. For every $x \in E$, $\lim_{\mathscr{U}} x(t)$ exists, because $x(\mathscr{U})$ is a base of an ultrafilter on the relatively compact set $x(F)$, hence is convergent. Moreover, if $x \geq 0$ then $\lim_{\mathscr{U}} x(t) \geq 0$ by the principle of extension of inequalities; the mapping $x \mapsto \lim_{\mathscr{U}} x$ is thus a positive linear form on E. If $\mathscr{U}$ is taken to be the ultrafilter formed by the sets containing an element $a \in F$, one recovers the positive linear form $x \mapsto x(a)$ (Example 1).
 
-#### Proposition 1 {#int-ii-s2-prop-1 .statement}
+#### Proposition 1 {#int-ii-s2-prop-1 .statement tag=08KM}
 
 Let E be an ordered vector space, L a mapping of E into $\mathbf{R}$ such that $L(x + y) = L(x) + L(y)$ and such that the relation $x \geq 0$ implies $L(x) \geq 0$; then $L(\lambda x) = \lambda L(x)$ for every scalar $\lambda$ and every $x \geq 0$.
 
 Since $L(-x) = -L(x)$ ($L$ being a representation of the additive group E in $\mathbf{R}$), we can restrict ourselves to the case that $\lambda \geq 0$. For every integer $n \geq 0$, we have $L(nx) = nL(x)$, whence $L((1/n)x) = (1/n)L(x)$ and consequently $L(rx) = rL(x)$ for every rational number $r \geq 0$. On the other hand, $L$ is increasing in E; if $r$ and $r'$ are rational numbers such that $r \leq \lambda \leq r'$, it follows that $rL(x) \leq L(\lambda x) \leq r'L(x)$; since $rL(x)$ and $r'L(x)$ differ from $\lambda L(x)$ as little as we like, we have $L(\lambda x) = \lambda L(x)$.
 
-#### Proposition 2 {#int-ii-s2-prop-2 .statement}
+#### Proposition 2 {#int-ii-s2-prop-2 .statement tag=08KN}
 
 Let E be a real vector space, C a convex cone with vertex 0 in E such that $E = C - C$, and $x \mapsto M(x)$ a mapping of C into $\mathbf{R}$ such that $M(\lambda x + \mu y) = \lambda M(x) + \mu M(y)$ for all $x \in C$, $y \in C$, $\lambda \geq 0$, $\mu \geq 0$. Then, there exists one and only one linear form L that extends M to E.
 
@@ -62,7 +62,7 @@ By hypothesis, every $z \in E$ may be written $z = y - x$, where $x, y$ belong t
 
 $M(y) - M(x) = M(y') - M(x')$; for, from the relation $y - x = y' - x'$ we infer $y + x' = x + y'$, consequently $M(y) + M(x') = M(x) + M(y')$. Let us denote by $L(z)$ the common value of $M(y) - M(x)$ for all expressions of $z$ as the difference $y - x$ of two elements of $C$; one verifies immediately that $L$ is a linear form on $E$ extending $M$; the uniqueness of $L$ results from the fact that $C$ generates the space $E$.
 
-#### Proposition 3 {#int-ii-s2-prop-3 .statement}
+#### Proposition 3 {#int-ii-s2-prop-3 .statement tag=08KO}
 
 *Let $E$ be a directed ordered vector space, $P$ the set of elements $\geqslant 0$ of $E$, and $x \mapsto M(x)$ a mapping of $P$ into $\mathbf{R}$, with values $\geqslant 0$, such that $M(x + y) = M(x) + M(y)$ for all $x, y$ in $P$. Then, there exists one and only one positive linear form $L$ that extends $M$ to $E$.*
 
@@ -72,11 +72,11 @@ Since $E = P - P$, the same reasoning as in Prop. 2 proves, first, the existence
 
 Let $E$ be a directed ordered vector space. Let $Q$ be the set of *positive* linear forms on $E$; it is a subset of the algebraic dual $E^*$ of $E$ (the space of all linear forms on $E$). It is immediate that $Q + Q \subset Q$ and $\lambda Q \subset Q$ for every scalar $\lambda > 0$ (in other words, $Q$ is a *convex cone* in $E^*$). Moreover, $Q \cap (-Q) = \{0\}$, because if $L$ and $-L$ are both positive linear forms, then $L(x) \geqslant 0$ and $L(x) \leqslant 0$ for all $x \geqslant 0$, whence $L(x) = 0$ for all $x \geqslant 0$ and therefore $L = 0$ (No. 1, Prop. 3). The set $Q$ thus defines on $E^*$ an *order relation* $L \leqslant M$, equivalent to « $M - L$ is a positive linear form on $E$ », or again to « for every $x \geqslant 0$, $L(x) \leqslant M(x)$ »; the elements $\geqslant 0$ of $E^*$ for this order structure are the positive linear forms (which justifies the terminology introduced). Let $\Omega$ be the linear subspace of $E^*$ generated by $Q$, that is, the set of linear forms on $E$ that are *differences of two positive linear forms*; we are going to give another characterization of the elements of $\Omega$ when $E$ is a Riesz space.
 
-#### Definition 2 {#int-ii-s2-def-2 .statement}
+#### Definition 2 {#int-ii-s2-def-2 .statement tag=08KP}
 
 *Given a Riesz space $E$, a linear form $L$ on $E$ is said to be relatively bounded if, for every $x \geqslant 0$ in $E$, $L$ is bounded on the set of $y \in E$ such that $|y| \leqslant x$.*
 
-#### Theorem 1 {#int-ii-s2-thm-1 .statement}
+#### Theorem 1 {#int-ii-s2-thm-1 .statement tag=08KQ}
 
 1° *In order that a linear form $L$ on a Riesz space $E$ be relatively bounded, it is necessary and sufficient that it be the difference of two positive linear forms.*
 
@@ -126,7 +126,7 @@ It remains to see that $\Omega$ is fully lattice-ordered; for this, it suffices 
 
 More generally, we have the following lemma:
 
-#### Lemma {#int-ii-s2-n2-lem-1 .statement}
+#### Lemma {#int-ii-s2-n2-lem-1 .statement tag=08KR}
 
 — *Let E be a directed ordered vector space, $E^*$ its dual, ordered by taking as positive elements the positive linear forms. Let $(u_\alpha)$ be an increasing directed family of elements of $E^*$. If, for every $x \geqslant 0$ in E, $\sup u_\alpha(x) < +\infty$, then the family $(u_\alpha)$ has a supremum $u$ in $E^*$ and, for all $x \geqslant 0$ in E,
 
@@ -171,13 +171,13 @@ $$
 
 for all $x \in E$.
 
-#### Proposition 4 {#int-ii-s2-prop-4 .statement}
+#### Proposition 4 {#int-ii-s2-prop-4 .statement tag=08KS}
 
 — In order that two positive linear forms $L, M$ on a Riesz space $E$ be alien to each other in the space $\Omega$, it is necessary and sufficient that, for every number $\varepsilon > 0$ and every $x \geq 0$ in $E$, there exist two elements $y \geq 0, z \geq 0$ of $E$ such that $x = y + z$ and $L(y) + M(z) \leq \varepsilon$.
 
 Indeed, by the second formula of (3), this condition expresses that $\inf(L, M) = 0$.
 
-#### Proposition 5 {#int-ii-s2-prop-5 .statement}
+#### Proposition 5 {#int-ii-s2-prop-5 .statement tag=08KT}
 
 — Let $L$ be a positive linear form on a Riesz space $E$. In order that a positive linear form $M$ on $E$ belong to the band generated by $L$ in $\Omega$, it is necessary and sufficient that, for every $x \geq 0$ in $E$ and every number $\varepsilon > 0$, there exist a number $\delta > 0$ such that the relations $0 \leq y \leq x$ and $L(y) \leq \delta$ imply $M(y) \leq \varepsilon$.
 
@@ -209,7 +209,7 @@ $$
 
 since $\varepsilon$ is arbitrary, we have $V(x) = 0$ for every $x \geq 0$, that is, $V = 0$.
 
-#### Example {#int-ii-s2-n2-exa-1 .statement}
+#### Example {#int-ii-s2-n2-exa-1 .statement tag=08KU}
 
 Let E be a Riesz space equipped with a locally convex topology compatible with its ordered vector space structure (TVS, II, §2, No. 7). Let E' be the topological dual of E, and suppose in addition that the cone P of elements $\geqslant 0$ of E is *complete for the weakened topology* $\sigma(E, E')$. Then every continuous linear form $x' \in E'$ is *relatively bounded*, for one knows (TVS, II, §6, No. 8, Cor. 2 of Prop. 11) that under these conditions, for every $x \geqslant 0$ in E the set of $y \in E$ such that $|y| \leqslant x$ is *compact* for $\sigma(E, E')$. From this we deduce that E is then *fully lattice-ordered*; for ($§ 1$, No. 3, Prop. 2), it suffices to show that for every set $H \subset E$ that is bounded above and directed for $\leqslant$, the section filter $\mathscr{F}$ of H is *convergent in E for the topology* $\sigma(E, E')$ (the latter being compatible with the ordered vector space structure of E). By translation, we can suppose that $H \subset P$, and it then suffices to show that $\mathscr{F}$ is a *Cauchy filter* for $\sigma(E, E')$, or again that every continuous linear form $x' \in E'$ has a limit with respect to $\mathscr{F}$. But this follows at once from the monotone limit theorem when $x'$ is a *positive* linear form, and since every linear form $x' \in E'$ is the difference of two positive linear forms (Th. 1) our assertion is proved.
 

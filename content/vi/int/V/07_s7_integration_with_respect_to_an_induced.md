@@ -21,9 +21,9 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: 53e07e91ecc5c29309b91e63576b779539a82e0d5ea42c6c745639b8db773fce
+content_sha256: bf21cbde364a839385c86ee460c6956751c0a509a15a6606f85e31dd315facc0
 translated_from: content/en/int/V/07_s7_integration_with_respect_to_an_induced.md
-source_content_sha256: f923d9ab56bf1c3407def12208ac24c9a78c015ddd76e02ea195f3e1539c70cc
+source_content_sha256: 0f5f27152d636e2b4a3f4de2fe99a74694ba33c12058af8b625950449ac3a190
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-5d1c0ce4
 glossary_version: 34
@@ -51,7 +51,7 @@ $$
 
 Bây giờ ta định nghĩa một ánh xạ $\pi$ của T vào X bằng cách đặt $\pi(t) = t$ với $t \in X$, và $\pi(t) = t_0$ với $t \in \mathbf{C}X$, $t_0$ là một điểm tùy ý của X; ta có thể viết $\lambda_t = \varphi_X(t)\varepsilon_{\pi(t)}$ với mọi $t \in T$. Ánh xạ $\pi$ là $\mu$-đo được, vì các thu hẹp của nó trên X và $\mathbf{C}X$ là (Ch. IV, §5, No. 10, Mệnh đề 16); suy ra ngay rằng cặp $(\pi, \varphi_X)$ là $\mu$-thích nghi (§4, No. 1). Do đó ta có các kết quả sau:
 
-#### Mệnh đề 1 {#int-v-s7-prop-1 .statement}
+#### Mệnh đề 1 {#int-v-s7-prop-1 .statement tag=0963}
 
 — *Đối với mọi hàm số* $g \geqslant 0$ *xác định trên* X,
 
@@ -63,33 +63,33 @@ $$
 
 Xét đến các nhận xét trước đó và (2), quan hệ (3) suy ra từ Định lý 1 của §4.
 
-#### Hệ quả 1 {#int-v-s7-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s7-prop-1-cor-1 .statement tag=0964}
 
 — *Đối với mọi tập con* B *của* X, $\mu_X^\bullet(B) = \mu^\bullet(B)$; *để* B *là* $\mu_X$*-không đáng kể địa phương, điều kiện cần và đủ là* B *là* $\mu$*-không đáng kể địa phương*.
 
-#### Hệ quả 2 {#int-v-s7-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s7-prop-1-cor-2 .statement tag=0965}
 
 — *Cho* M *là một tập con của* T. *Nếu* $\mu$ *tập trung trên* M, *thì* $\mu_X$ *tập trung trên* $M \cap X$.
 
-#### Hệ quả 3 {#int-v-s7-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#int-v-s7-prop-1-cor-3 .statement tag=0966}
 
 — *Để độ đo* $\mu_X$ *bằng không, điều kiện cần và đủ là* X *là* $\mu$*-không đáng kể địa phương*.
 
-#### Nhận xét {#int-v-s7-n1-rem-1 .statement}
+#### Nhận xét {#int-v-s7-n1-rem-1 .statement tag=0967}
 
 — Nếu S là giá của $\mu$, thì $S \cap X$ (đóng trong X) chứa giá của $\mu_X$ theo Hệ quả 2, nhưng có thể phân biệt với nó. Ví dụ, nếu $\mu$ là một độ đo khuếch tán và X là một không gian con thu gọn thành một điểm, thì độ đo cảm sinh $\mu_X$ bằng không, do đó giá của nó là rỗng. Chú ý, tuy nhiên, rằng giá của $\mu_X$ bằng $S \cap X$ nếu X mở trong T.
 
-#### Mệnh đề 2 {#int-v-s7-prop-2 .statement}
+#### Mệnh đề 2 {#int-v-s7-prop-2 .statement tag=0968}
 
 — *Để một ánh xạ* g *của* X *vào một không gian tôpô là* $\mu_X$*-đo được, điều kiện cần và đủ là* g *là* $\mu$*-đo được trong* X *(§5, No. 3, *Ví dụ*)*.
 
 Điều này suy ra từ Mệnh đề 3 của §4.
 
-#### Hệ quả {#int-v-s7-n1-cor-1 .statement}
+#### Hệ quả {#int-v-s7-n1-cor-1 .statement tag=0969}
 
 — *Để một tập con* B *của* X *là* $\mu_X$*-đo được, điều kiện cần và đủ là* B *là* $\mu$*-đo được*.
 
-#### Định lý 1 {#int-v-s7-thm-1 .statement}
+#### Định lý 1 {#int-v-s7-thm-1 .statement tag=096A}
 
 — *Cho* g *là một hàm xác định trên* X, *với các giá trị trong* $\overline{\mathbf{R}}$ *hoặc trong một không gian Banach. Để* g *là* $\mu_X$*-nguyên cốt yếu, điều kiện cần* và đủ là $g$ *là* $\mu$*-nguyên cốt yếu trong* $X$ (§ 5, No. 3, Ví dụ), trong trường hợp đó
 
@@ -99,11 +99,11 @@ $$
 
 Điều này suy ra từ Định lý 2 của § 4.
 
-#### Hệ quả 1 {#int-v-s7-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s7-thm-1-cor-1 .statement tag=096B}
 
 *Để một tập con B của X là* $\mu_X$*-nguyên cốt yếu, điều kiện cần và đủ là nó là* $\mu$*-nguyên cốt yếu, trong trường hợp đó* $\mu_X(B) = \mu(B)$.*
 
-#### Hệ quả 2 {#int-v-s7-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s7-thm-1-cor-2 .statement tag=096C}
 
 *Cho g là một hàm phức xác định trên T và* $\mu$*-nguyên địa phương; hạn chế* $g_X$ *của g lên X khi đó là* $\mu_X$*-nguyên địa phương, và*
 
@@ -113,7 +113,7 @@ $$
 
 Điều này suy ra ngay từ Định lý 1, áp dụng cho các hàm $fg_X$ ($f \in \mathscr{K}(X; \mathbf{C})$), và định nghĩa của độ đo cảm sinh trên X bởi một độ đo phức (Ch. IV, § 5, No. 7).
 
-#### Hệ quả 3 {#int-v-s7-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#int-v-s7-thm-1-cor-3 .statement tag=096D}
 
 *Cho* $\theta$ *là một độ đo phức trên T; khi đó*
 
@@ -123,18 +123,18 @@ $$
 
 Đặt $|\theta| = \mu$ và áp dụng Hệ quả 2 bằng cách lấy $g$ là một hàm phức có giá trị tuyệt đối 1 sao cho $\theta = g \cdot \mu$ (§ 5, No. 5, Hệ quả 3 của Định lý 2); khi đó $\theta_X = g_X \cdot \mu_X$; nhưng $g_X$ là một hàm có giá trị tuyệt đối 1, và công thức (6) suy ra từ Mệnh đề 2 của § 5, No. 2.
 
-#### Nhận xét {#int-v-s7-n1-rem-2 .statement}
+#### Nhận xét {#int-v-s7-n1-rem-2 .statement tag=096E}
 
 — a) Hệ quả 3 đã được chứng minh bằng một phương pháp khác (Ch. IV, § 5, No. 7, Bổ đề 3).
     b) Theo Hệ quả 3, các hệ quả 1,2,3 của Mệnh đề 1, Mệnh đề 2, Định lý 1 và các hệ quả 1,2 của nó mở rộng ngay cho một độ đo phức.
 
-#### Chú giải {#int-v-s7-n1-sch-1 .statement}
+#### Chú giải {#int-v-s7-n1-sch-1 .statement tag=096F}
 
 — Với mọi hàm $f$ (tương ứng $g$) xác định trên $X$ (tương ứng $T$) với các giá trị trong không gian Banach $F$ hoặc trong $\overline{\mathbf{R}}$, ký hiệu $\zeta(f)$ (tương ứng $\rho(g)$) là mở rộng bằng 0 của $f$ lên $T$ (tương ứng là hạn chế của $g$ lên $X$). Khi đó $\zeta(\rho(g)) = \varphi_X \cdot g$, $\rho(\zeta(f)) = f$. Ta ký hiệu $\mu'$ là độ đo $\varphi_X \cdot \mu$ trên $T$. Với mọi $p \in [1, +\infty]$, các Mệnh đề 1 và 2 kéo theo rằng $\zeta$ ánh xạ $\mathscr{L}_F^p(X, \mu_X)$ vào $\mathscr{L}_F^p(T, \mu')$, và rằng $\rho$ ánh xạ $\mathscr{L}_F^p(T, \mu')$ lên $\mathscr{L}_F^p(X, \mu_X)$, với sự bảo toàn chuẩn trong cả hai trường hợp, cũng như bảo toàn tích phân khi $p = 1$ (Định lý 1); chuyển qua các không gian Hausdorff liên kết, ta thu được hai đẳng cấu nghịch đảo của nhau. Tương tự, nếu $\zeta$ và $\rho$ được áp dụng cho các hàm số dương, tích phân trên cốt yếu được bảo toàn (Mệnh đề 1). Như vậy, nếu ta đồng nhất một hàm trên $X$ với một hàm trên T bằng 0 trên X − T, và độ đo $\mu_X$ với độ đo $\mu'$, thì các bài toán liên quan đến các độ đo cảm sinh được quy về các bài toán liên quan đến các độ đo được xác định bởi mật độ, đã được xét trong §5. Kiểu lập luận này cũng áp dụng được cho các độ đo phức, theo Hệ quả 3 của Định lý 1.
 
 ### 2. Các tính chất của các độ đo cảm sinh
 
-#### Mệnh đề 3 {#int-v-s7-prop-3 .statement}
+#### Mệnh đề 3 {#int-v-s7-prop-3 .statement tag=096G}
 
 — Cho X là một không gian con địa phương compact của T, và $\lambda$ là một độ đo phức trên X. Các tính chất sau là tương đương:
 a) đơn ánh chính tắc $i : X \to T$ là $\lambda$-thực sự;
@@ -161,25 +161,25 @@ $$
 
 bởi vì $g \varphi_X$ là mở rộng bằng 0 của $g \circ i$ lên T. Điều này chứng minh công thức thứ hai của (7).
 
-#### Hệ quả 1 {#int-v-s7-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s7-prop-3-cor-1 .statement tag=096H}
 
 — Nếu X đóng, thì mọi độ đo phức $\lambda$ trên X đều được cảm sinh bởi một độ đo trên T.
 
 Thật vậy, nếu K là một tập compact trong T thì K ∩ X là compact, do đó khả tích theo λ.
 
-#### Hệ quả 2 {#int-v-s7-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s7-prop-3-cor-2 .statement tag=096I}
 
 — Cho θ là một độ đo phức trên T, π là một ánh xạ θ-thực sự của T vào một không gian địa phương compact Y, và π_X là hạn chế của nó lên X. Khi đó π_X là θ_X-thực sự, và π_X(θ_X) = π(φ_X · θ).
 
 Thật vậy, π_X = π ∘ i, trong đó i là đơn ánh chính tắc X → T. Khi θ dương, do đó hệ quả có thể được suy ra từ Mệnh đề 3 và tính bắc cầu của các độ đo ảnh (§6, No. 3, Mệnh đề 4). Trường hợp độ đo phức không dương sau đó suy ra bởi tính tuyến tính.
 
-#### Mệnh đề 4 {#int-v-s7-prop-4 .statement}
+#### Mệnh đề 4 {#int-v-s7-prop-4 .statement tag=096J}
 
 — Cho X và Y là hai không gian con địa phương compact của T sao cho Y ⊂ X. Nếu θ là một độ đo phức trên T, thì độ đo (θ_X)_Y được cảm sinh bởi θ_X trên Y bằng θ_Y ('tính bắc cầu của các độ đo cảm sinh').
 
 Chỉ cần nhận thấy rằng nếu g là một phần tử của $\mathscr{H}(Y; \mathbf{C})$, thì mở rộng bằng 0 của g lên T có thể nhận được bằng cách mở rộng bằng 0 mở rộng bằng 0 của g lên X, hoặc lại nữa, sử dụng các đồng nhất nhất trong Chú giải, rằng $\varphi_Y · \theta = \varphi_Y(\varphi_X · \theta)$ (§5, No. 4, Mệnh đề 8).
 
-#### Mệnh đề 5 {#int-v-s7-prop-5 .statement}
+#### Mệnh đề 5 {#int-v-s7-prop-5 .statement tag=096K}
 
 — Cho $(\lambda_\alpha)_{\alpha \in A}$ là một họ có hướng tăng của các độ đo dương trên T, có một cận trên đúng λ, và cho X là một không gian con địa phương compact của T. Khi đó họ các độ đo cảm sinh $\lambda_\alpha|X$ bị chặn trên trong $\mathscr{M}(X)$, và
 
@@ -189,7 +189,7 @@ $$
 
 Theo các đồng nhất nhất trong Chú giải, mệnh đề này là một trường hợp riêng của Mệnh đề 5 của §5, No. 4.
 
-#### Hệ quả {#int-v-s7-n2-cor-1 .statement}
+#### Hệ quả {#int-v-s7-n2-cor-1 .statement tag=096L}
 
 — Cho $(\mu_i)_{i \in I}$ là một họ tổng được của các độ đo dương trên T, với tổng μ. Khi đó họ các độ đo cảm sinh $\mu_i|X$ là tổng được, và
 
@@ -197,7 +197,7 @@ $$
 \sum_{i \in I} (\mu_i|X) = \mu|X.
 $$
 
-#### Mệnh đề 6 {#int-v-s7-prop-6 .statement}
+#### Mệnh đề 6 {#int-v-s7-prop-6 .statement tag=096M}
 
 — Cho $\Lambda : t \mapsto \lambda_t$ là một ánh xạ μ-thích hợp của T vào $\mathscr{M}_+(X)$, trong đó X là một không gian địa phương compact đếm được ở vô cực, và cho Y là một không gian con địa phương compact của X. Đặt $\int \lambda_t d\mu(t) = \nu$. Khi đó ánh xạ $t \mapsto \lambda_t|Y$ của T vào $\mathscr{M}_+(Y)$ là μ-thích hợp, và
 

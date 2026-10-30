@@ -37,14 +37,14 @@ subsections:
       pdf_page: 218
 statements: 33
 exercises: 25
-content_sha256: 554b631ad9b80cc7dff0aa29ae5b18c6927455550d0996c8325073e5b7f24c0e
+content_sha256: 981c5d1cb771d36a6cf579175d4df732a9c75da315ad397a26c985eb21e875a5
 ---
 
 ## § 4. GROUPES OPÉRANT PROPREMENT DANS UN ESPACE TOPOLOGIQUE. COMPACITÉ DANS LES GROUPES TOPOLOGIQUES ET LES ESPACES À OPÉRATEURS
 
 ### 1. Groupes opérant proprement dans un espace topologique
 
-#### Définition 1 {#top-iii-s4-def-1 .statement}
+#### Définition 1 {#top-iii-s4-def-1 .statement tag=0BKR}
 
 Soit $G$ un groupe topologique opérant continûment dans un espace topologique $E$. On dit que $G$ opère proprement dans $E$ si l’application $\theta : (s, x) \mapsto (x, s.x)$ de $G \times E$ dans $E \times E$ est propre (I, p. 72, déf. 1).
 
@@ -54,21 +54,21 @@ Le th. 1 de I, p. 75, montre que $G$ opère proprement dans $E$ si et seulement 
 
 Pour tout ensemble $A$ filtré par un ultrafiltre $\mathfrak{F}$ et toute application $\alpha \mapsto (s_\alpha, x_\alpha)$ de $A$ dans $G \times E$, si l’application $\alpha \mapsto (s_\alpha.x_\alpha, x_\alpha)$ a une limite $(b, a)$ suivant $\mathfrak{F}$, alors $\alpha \mapsto s_\alpha$ a une limite $t \in G$ suivant $\mathfrak{F}$, telle que $t.a = b$.
 
-#### Exemple 1 {#top-iii-s4-n1-exa-1 .statement}
+#### Exemple 1 {#top-iii-s4-n1-exa-1 .statement tag=0BKS}
 
 Soit $H$ un sous-groupe fermé d’un groupe topologique $G$. Si $G$ opère proprement dans $E$, il en est de même de $H$, puisque $H \times E$ est fermé dans $G \times E$ (I, p. 74, cor. 1). Si l’on prend par exemple $E = G$, $G$ opérant dans lui-même par translation à gauche, l’application $\theta : G \times E \to E \times E$ est un homéomorphisme, donc est propre, et l’on voit donc que $H$ opère proprement dans $G$ par translation à gauche.
 
-#### Exemple 2 {#top-iii-s4-n1-exa-2 .statement}
+#### Exemple 2 {#top-iii-s4-n1-exa-2 .statement tag=0BKT}
 
 Si $G$ opère proprement dans $E$, il opère proprement dans tout sous-espace $E'$ de $E$ réunion d’orbites de points de $E$ (autrement dit, saturé pour la relation d’équivalence définie par $G$). En effet, l’image réciproque de $E' \times E'$ dans $G \times E$ est $G \times E'$, et il suffit d’appliquer la prop. 3 de I, p. 72.
 
-#### Proposition 1 {#top-iii-s4-prop-1 .statement}
+#### Proposition 1 {#top-iii-s4-prop-1 .statement tag=0BKU}
 
 Soient G un groupe topologique opérant continûment dans un espace topologique E, K une partie quasi-compacte de G. L’application $\rho : (s, x) \mapsto s.x$ de $K \times E$ dans E est propre.
 
 En effet, $\rho$ se factorise en $K \times E \xrightarrow{\alpha} K \times E \xrightarrow{\mathrm{pr}_2} E$, où $\alpha(s, x) = (s, s.x)$. L’application $\alpha$ est un homéomorphisme, car $\alpha^{-1}(s, y) = (s, s^{-1}.y)$ est continue; puisque K est quasi-compact, $\mathrm{pr}_2$ est propre (I, p. 77, cor. 5); donc $\rho$ est propre (I, p. 73, prop. 5).
 
-#### Corollaire 1 {#top-iii-s4-prop-1-cor-1 .statement}
+#### Corollaire 1 {#top-iii-s4-prop-1-cor-1 .statement tag=0BKV}
 
 Si A est une partie fermée (resp. compacte) de E, alors K.A est fermé dans E (resp. compact si E est séparé). En particulier, si F est une partie fermée et K une partie quasi-compacte de G, KF est fermé dans G.
 
@@ -76,19 +76,19 @@ L’assertion relative aux parties fermées résulte de la prop. 1 et de ce qu�
 
 On notera que si L est une partie compacte de E, F une partie fermée de G, F.L n’est pas nécessairement fermé dans E (III, p. 72, exerc. 29; cf. III, p. 35, corollaire).
 
-#### Corollaire 2 {#top-iii-s4-prop-1-cor-2 .statement}
+#### Corollaire 2 {#top-iii-s4-prop-1-cor-2 .statement tag=0BKW}
 
 Si K est un sous-groupe quasi-compact d’un groupe topologique G, la relation d’équivalence $x^{-1}y \in K$ est fermée, et l’application canonique $\varphi : G \to G/K$ est propre.
 
 La première assertion résulte du cor. 1; la seconde résulte alors du I, p. 75, th. 1.
 
-#### Corollaire 3 {#top-iii-s4-prop-1-cor-3 .statement}
+#### Corollaire 3 {#top-iii-s4-prop-1-cor-3 .statement tag=0BKX}
 
 Soient K un sous-groupe distingué quasi-compact d’un groupe topologique G, $\varphi$ l’application canonique $G \to G/K$. Pour tout sous-groupe fermé A de G, la bijection canonique de $A/(A \cap K)$ sur $\varphi(A)$ est un isomorphisme de groupes topologiques.
 
 En effet, comme $x^{-1}y \in K$ est une relation d’équivalence fermée (cor. 2), le corollaire résulte de I, p. 32, prop. 4.
 
-#### Proposition 2 {#top-iii-s4-prop-2 .statement}
+#### Proposition 2 {#top-iii-s4-prop-2 .statement tag=0BKY}
 
 Soit K un groupe compact opérant continûment dans un espace séparé E. Alors:
 
@@ -98,25 +98,25 @@ c) L’application canonique de E sur $E/K$ est propre.
 
 En effet, b) résulte de la prop. 1. D’autre part, comme K est compact, $\mathrm{pr}_2 : (s, x) \mapsto x$ est propre (I, p. 77, cor. 5); donc, comme E est séparé, $(s, x) \mapsto (x, s.x)$ est propre (I, p. 74, cor. 3), ce qui prouve a). En vertu du cor. 1 de la prop. 1, l’application canonique $\varphi : E \to E/K$ est fermée; pour tout espace topologique Z, si on fait opérer trivialement K dans Z, K opère continûment dans $E \times Z$, donc l’application canonique $E \times Z \to (E \times Z)/K$ est fermée d’après ce qui précède; mais $(E \times Z)/K$ s’identifie canoniquement à $(E/K) \times Z$ (III, p. 10, lemme 2 et I, p. 34, cor. de la prop. 8). Donc l’application canonique $E \times Z \to (E \times Z)/K$ s’identifie à $\varphi \times \mathrm{Id}_Z$, et dire qu’elle est fermée pour tout Z signifie que $\varphi$ est propre.
 
-#### Corollaire 1 {#top-iii-s4-prop-2-cor-1 .statement}
+#### Corollaire 1 {#top-iii-s4-prop-2-cor-1 .statement tag=0BKZ}
 
 Les hypothèses étant celles de la prop. 2, pour que E soit compact (resp. localement compact), il faut et il suffit que E/K le soit.
 Cela résulte de ce que l’application canonique E → E/K est propre, compte tenu de I, p. 79, corollaire.
 
-#### Corollaire 2 {#top-iii-s4-prop-2-cor-2 .statement}
+#### Corollaire 2 {#top-iii-s4-prop-2-cor-2 .statement tag=0BL0}
 
 Soient G un groupe topologique séparé, K un sous-groupe compact de G. Pour que G soit compact (resp. localement compact) il faut et il suffit que G/K soit compact (resp. localement compact).
 En effet, il suffit d’appliquer le cor. 1 à K opérant dans G par translation à droite.
 
 ### 2. Propriétés des groupes opérant proprement
 
-#### Proposition 3 {#top-iii-s4-prop-3 .statement}
+#### Proposition 3 {#top-iii-s4-prop-3 .statement tag=0BL1}
 
 Si un groupe topologique G opère proprement dans un espace topologique E, l’espace des orbites E/G est séparé. Si de plus G est séparé, alors E est séparé.
 Soit C ⊂ E × E le graphe de la relation d’équivalence R définie par G dans E; c’est l’image de G × E par l’application θ: (s, x) ↦ (x, s.x). Comme θ est propre, C est fermé dans E × E (I, p. 72, prop. 1). Comme la relation R est ouverte (III, p. 10, lemme 2), on en conclut que E/G est séparé (I, p. 55, prop. 8).
 Supposons maintenant G séparé; l’application x ↦ (e, x) de E dans G × E est un homéomorphisme sur une partie fermée de G × E, donc est propre (I, p. 72, prop. 2); si on compose avec cette application l’application (s, x) ↦ (x, s.x) de G × E dans E × E, qui est propre par hypothèse, on obtient une application propre de E dans E × E (I, p. 73, prop. 5) qui n’est autre que l’application diagonale x ↦ (x, x); donc la diagonale de E × E est fermée (I, p. 72, prop. 1), ce qui démontre que E est séparé (I, p. 52, prop. 1).
 
-#### Proposition 4 {#top-iii-s4-prop-4 .statement}
+#### Proposition 4 {#top-iii-s4-prop-4 .statement tag=0BL2}
 
 Soit G un groupe topologique opérant proprement dans un espace topologique E, et soit x un point de E. Désignons par G.x l’orbite de x, par K_x le stabilisateur de x. Alors:
 a) L’application s ↦ s.x est une application propre de G dans E.
@@ -125,7 +125,7 @@ c) L’application canonique de G/K_x sur G.x est un homéomorphisme.
 d) L’orbite G.x est fermée dans E.
 L’image réciproque par θ: (s, x) ↦ (x, s.x) de {x} × E est G × {x}; la prop. 3 de I, p. 72, montre que la restriction de θ à G × {x} est une application propre de G × {x} dans {x} × E, d’où a). Comme K_x est l’image réciproque de x par s ↦ s.x, b) résulte de I, p. 75, th. 1. Le fait que l’application canonique G/K_x ↦ G.x soit un homéomorphisme et le fait que G.x soit fermé dans E sont conséquences de a) (I, p. 72, prop. 2 et p. 73, prop. 5 b)).
 
-#### Proposition 5 {#top-iii-s4-prop-5 .statement}
+#### Proposition 5 {#top-iii-s4-prop-5 .statement tag=0BL4}
 
 Soit G (resp. G’) un groupe topologique opérant continûment dans un espace topologique E (resp. E'). Soient $\varphi$ un homomorphisme continu de G dans G', $\psi$ une application continue de E dans E' telles que $\varphi$ et $\psi$ soient compatibles (III, p. 10).
 
@@ -147,7 +147,7 @@ où $\alpha = \varphi \times \psi, \beta = \psi \times \psi$. Par hypothèse, $\
 
 Pour démontrer (ii), considérons un ultrafiltre $\mathfrak{U}$ sur $G \times E$, tel que $(s, x) \mapsto s.x$ et $(s, x) \mapsto x$ convergent suivant $\mathfrak{U}$ vers $y_0$ et $x_0$ respectivement. On en conclut que $(s, x) \mapsto \varphi(s).\psi(x)$ et $(s, x) \mapsto \psi(x)$ convergent suivant $\mathfrak{U}$. Puisque G' opère proprement dans E', cela entraîne (III, p. 27) que $(s, x) \mapsto \varphi(s)$ converge suivant $\mathfrak{U}$ vers un point $s'_0 \in G'$; comme $\varphi$ est propre, on en conclut (I, p. 75, th. 1) que $(s, x) \mapsto s$ converge suivant $\mathfrak{U}$ vers un point $s_0 \in G$. L’unicité de la limite dans E montre alors que $y_0 = s_0.x_0$, ce qui montre que G opère proprement dans E (I, p. 75, th. 1).
 
-#### Corollaire {#top-iii-s4-n2-cor-1 .statement}
+#### Corollaire {#top-iii-s4-n2-cor-1 .statement tag=0E9X}
 
 Soient G un groupe topologique, K un sous-groupe de G. Pour que G opère proprement dans $G/K$, il faut et il suffit que K soit quasi-compact.
 
@@ -157,17 +157,17 @@ La nécessité de la condition résulte de la prop. 4 b) de III, p. 29. Pour mon
 
 Rappelons la définition suivante (A, I, p. 54):
 
-#### Définition 2 {#top-iii-s4-def-2 .statement}
+#### Définition 2 {#top-iii-s4-def-2 .statement tag=0BL5}
 
 Soit G un groupe opérant dans un ensemble E. On dit que G opère librement dans E si le stabilisateur de tout point de E est réduit à e, autrement dit si les relations $s.x = x, x \in E, s \in G$ entraînent $s = e$.
 
-#### Exemple {#top-iii-s4-n3-exa-1 .statement}
+#### Exemple {#top-iii-s4-n3-exa-1 .statement tag=0BL6}
 
 Soit G un groupe et soit H un sous-groupe de G. Le groupe H opère librement par translations (à droite ou à gauche) dans G.
 
 Soient G un groupe opérant librement dans un ensemble E, R la relation d’équivalence dans E définie par G, C ⊂ E × E le graphe de R. Si (x, y) ∈ C, il existe un s ∈ G tel que s.x = y ; de plus cet élément est unique, car si s.x = s'.x, on a s'⁻¹s.x = x, d’où s'⁻¹s = e, puisque G opère librement. Si l’on fait correspondre au couple (x, y) ∈ C l’unique élément s ∈ G tel que s.x = y, on définit une application φ : C → G, que nous appellerons l’application canonique de C dans G. Avec ces notations :
 
-#### Proposition 6 {#top-iii-s4-prop-6 .statement}
+#### Proposition 6 {#top-iii-s4-prop-6 .statement tag=0BL7}
 
 Soit G un groupe topologique opérant continûment dans un espace topologique E. On suppose que G opère librement dans E. Alors, pour que G opère proprement, il faut et il suffit que l’on ait :
 (FP) Le graphe C de la relation d’équivalence définie par G est fermé dans E × E, et l’application canonique φ : C → G est continue.
@@ -176,7 +176,7 @@ L’ensemble C est l’image de l’application θ : (s, x) ↦ (x, s.x) de G ×
 
 ### 4. Groupes localement compacts opérant proprement
 
-#### Proposition 7 {#top-iii-s4-prop-7 .statement}
+#### Proposition 7 {#top-iii-s4-prop-7 .statement tag=0BL8}
 
 Soit G un groupe localement compact opérant continûment dans un espace séparé E. Pour que G opère proprement, il faut et il suffit que, pour tout couple de points x, y de E, il existe un voisinage V_x de x et un voisinage V_y de y tels que l’ensemble K des s ∈ G pour lesquels s.V_x ∩ V_y ≠ ∅ soit relativement compact dans G.
 
@@ -186,7 +186,7 @@ Lorsque $G$ est compact, la condition de l’énoncé de la prop. 7 est triviale
 
 La prop. 7 montre en particulier qu’un groupe discret $G$ opérant continûment dans un espace séparé $E$ opère proprement dans $E$ si et seulement si, pour tout couple $(x, y)$ de points de $E$, il existe un voisinage $V_x$ de $x$ et un voisinage $V_y$ de $y$ tels que l’ensemble des $s \in G$ pour lesquels $s \cdot V_x \cap V_y \neq \varnothing$ soit fini.
 
-#### Proposition 8 {#top-iii-s4-prop-8 .statement}
+#### Proposition 8 {#top-iii-s4-prop-8 .statement tag=0BL9}
 
 *Soit $G$ un groupe discret opérant proprement dans un espace séparé $E$. Soit $x$ un point de $E$ et soit $K_x$ le stabilisateur de $x$.
 
@@ -203,25 +203,25 @@ En vertu de la prop. 7, $K_x$ est fini. Pour construire un ensemble ouvert $U$ v
 
 Le fait que l’application canonique $U/K_x \to E/G$ soit un homéomorphisme de $U/K_x$ sur un ensemble ouvert dans $E/G$ résulte de I, p. 32, prop. 4, puisque $U$ est ouvert et la relation d’équivalence définie par $G$ ouverte (III, p. 10, lemme 2).
 
-#### Corollaire {#top-iii-s4-n4-cor-1 .statement}
+#### Corollaire {#top-iii-s4-n4-cor-1 .statement tag=0BLA}
 
 *Si l’on suppose en outre que $K_x = \{ e \}$, le point $x$ possède un voisinage ouvert $U$ tel que $U \cap s \cdot U = \varnothing$ pour tout $s \neq e$ dans $G$, et que la restriction à $U$ de l’application canonique $E \to E/G$ soit un homéomorphisme de $U$ sur une partie ouverte de $E/G$.
 
 ### 5. Groupes opérant continûment dans un espace localement compact
 
-#### Proposition 9 {#top-iii-s4-prop-9 .statement}
+#### Proposition 9 {#top-iii-s4-prop-9 .statement tag=0BLB}
 
 Soit $G$ un groupe topologique opérant continûment dans un espace localement compact $E$. Si $E/G$ est séparé, il est localement compact.
 
 En effet, comme la relation d’équivalence dans $E$ définie par $G$ est ouverte (III, p. 10, lemme 2), la proposition résulte de I, p. 80, prop. 10.
 
-#### Proposition 10 {#top-iii-s4-prop-10 .statement}
+#### Proposition 10 {#top-iii-s4-prop-10 .statement tag=0BLC}
 
 Soit $G$ un groupe topologique opérant continûment dans un espace localement compact $E$, et supposons $E/G$ séparé; soit $\varphi$ l’application canonique de $E$ sur $E/G$. Pour toute partie compacte $K'$ de $E/G$, il existe une partie compacte $K$ de $E$ telle que $\varphi(K) = K'$.
 
 Comme la relation d’équivalence définie par $G$ est ouverte (III, p. 10, lemme 2), la proposition est un cas particulier de la prop. 10 de I, p. 80.
 
-#### Proposition 11 {#top-iii-s4-prop-11 .statement}
+#### Proposition 11 {#top-iii-s4-prop-11 .statement tag=0BLD}
 
 Soit $G$ un groupe topologique séparé opérant proprement dans un espace non vide $E$. Si $E$ est compact (resp. localement compact), il en est de même de $G$ et de $E/G$.
 
@@ -229,7 +229,7 @@ Par hypothèse, l’application $\theta : (s, x) \mapsto (x, s.x)$ de $G \times 
 
 Nous allons maintenant donner des critères permettant d’affirmer qu’un groupe topologique séparé $G$ opère proprement dans un espace localement compact $E$. Pour tout couple de parties $K, L$ de $E$, nous noterons $P(K, L)$ l’ensemble des $s \in G$ tels que $s.K \cap L \neq \emptyset$.
 
-#### Théorème 1 {#top-iii-s4-thm-1 .statement}
+#### Théorème 1 {#top-iii-s4-thm-1 .statement tag=0BLE}
 
 Soit $G$ un groupe topologique séparé, opérant continûment dans un espace topologique $E$. Soient $K$ une partie compacte de $E$, $L$ une partie fermée de $E$. Alors:
 a) L’ensemble $P(K, L)$ est fermé dans $G$.
@@ -242,17 +242,17 @@ Démontrons b). Notons que E est séparé (III, p. 29, prop. 3). Par hypothèse 
 
 Démontrons c). Comme $K \times L$ est fermé dans $E \times E$, $\overline{\theta}(K \times L)$ est une partie fermée de $P(K, L) \times K$, donc est un ensemble compact sous les hypothèses de c). Comme toute partie compacte de $E \times E$ est contenue dans un ensemble compact de la forme $K \times L$, on en conclut que l’image réciproque par $\theta$ d’une partie compacte quelconque de $E \times E$ est compacte, et puisque $E \times E$ est localement compact, ceci prouve que $\theta$ est propre (I, p. 77, prop. 7) (voir IV, p. 46, exerc. 4 c)).
 
-#### Remarque {#top-iii-s4-n5-rem-1 .statement}
+#### Remarque {#top-iii-s4-n5-rem-1 .statement tag=0BLF}
 
 On a évidemment $P(K, L) \subset P(K \cup L, K \cup L)$; donc, pour que G opère proprement dans un espace localement compact E, il suffit que pour toute partie compacte K de E, l’ensemble $P(K, K)$ soit relativement compact dans G. En particulier, pour qu’un groupe discret G opère proprement dans un espace localement compact E, il faut et il suffit que, pour toute partie compacte K de E, l’ensemble des $s \in G$ tels que $s.K \cap K \neq \varnothing$ soit fini.
 
-#### Exemple {#top-iii-s4-n5-exa-1 .statement}
+#### Exemple {#top-iii-s4-n5-exa-1 .statement tag=0BLG}
 
 *Soit X une variété analytique complexe, analytiquement isomorphe à une partie ouverte bornée de $\mathbf{C}^n$, et soit G le groupe des automorphismes analytiques de X; la topologie de la convergence compacte est compatible avec la structure de groupe de G, et on peut montrer que G opère proprement dans X. En particulier, tout sous-groupe discret de G opère proprement dans X.
 
 Prenons par exemple pour X le demi-plan $\mathscr{J}(z) > 0$, analytiquement isomorphe à un disque ouvert dans $\mathbf{C}$; le groupe G est le groupe des transformations $z \mapsto (az + b)/(cz + d)$, avec $a, b, c, d$ réels et $ad - bc \neq 0$. Le sous-groupe H de G formé des transformations pour lesquelles $a, b, c, d$ sont entiers et $ad - bc = 1$, est un sous-groupe discret de G, appelé groupe modulaire. En vertu de ce qui précède, il opère proprement dans le demi-plan $\mathscr{J}(z) > 0$.*
 
-#### Proposition 12 {#top-iii-s4-prop-12 .statement}
+#### Proposition 12 {#top-iii-s4-prop-12 .statement tag=0BLH}
 
 Soit G un groupe topologique séparé opérant continûment dans un espace topologique E. Soit K une partie compacte de E, et soit $\rho_K$ l’application $(s, x) \mapsto s.x$ de $G \times K$ dans E. Alors:
 a) Si G opère proprement dans E, $\rho_K$ est une application propre.
@@ -264,34 +264,34 @@ Supposons inversement que pour toute partie compacte K de E, $\rho_K$ soit propr
 
 G × K, dont la projection dans G est P(K, L); donc P(K, L) est compact, et si E est localement compact, on en conclut que G opère proprement dans G, en vertu du th. 1 de III, p. 33.
 
-#### Corollaire {#top-iii-s4-n5-cor-1 .statement}
+#### Corollaire {#top-iii-s4-n5-cor-1 .statement tag=0BLI}
 
 Soit G un groupe topologique séparé opérant proprement dans un espace topologique E. Pour toute partie compacte K de E et toute partie fermée F de G, F.K est une partie fermée de E.
     Cela résulte de la prop. 12 et de I, p. 72, prop. 1.
 
 ### 6. Espaces homogènes localement compacts
 
-#### Proposition 13 {#top-iii-s4-prop-13 .statement}
+#### Proposition 13 {#top-iii-s4-prop-13 .statement tag=0BLJ}
 
 Soient G un groupe localement compact, H un sous-groupe fermé de G. L’espace homogène G/H est localement compact et paracompact.
     Comme G/H est séparé (III, p. 12, prop. 13), il est localement compact en vertu de III, p. 33, prop. 9, appliquée à H opérant à droite dans G. Reste donc à montrer que G/H est paracompact. Soit V un voisinage compact symétrique de e dans G, et soit G_0 = V^\infty le sous-groupe de G engendré par V, qui est ouvert (III, p. 7, corollaire). Le groupe G_0 opère continûment dans G/H (III, p. 12, prop. 12); montrons que chacune des orbites G_0 . z (pour z ∈ G/H) est une partie ouverte de G/H, réunion dénombrable d’ensembles compacts; il en résultera que G/H est somme topologique des orbites distinctes G_0 . z, et par suite est paracompact (I, p. 70, th. 5). Le fait que G_0 . z soit ouvert dans G/H résulte de ce que G_0 est ouvert dans G, et la relation d’équivalence x^{-1}y ∈ H ouverte dans G (III, p. 10, lemme 2). D’autre part, G_0 . z est réunion des V^n . z (n ≥ 1), et comme V^n est compact dans G et G/H séparé, V^n . z est compact, ce qui achève la démonstration.
 
-#### Proposition 14 {#top-iii-s4-prop-14 .statement}
+#### Proposition 14 {#top-iii-s4-prop-14 .statement tag=0BLK}
 
 Dans un groupe localement compact G, la composante neutre C est l’intersection des sous-groupes ouverts de G.
     Comme C est un sous-groupe distingué fermé de G (III, p. 8, prop. 8), G/C est un groupe localement compact (prop. 13) qui est totalement discontinu (I, p. 84, prop. 9). Comme l’image réciproque, par l’application canonique de G sur G/C, d’un sous-groupe ouvert de G/C, est un sous-groupe ouvert de G contenant C, on voit qu’on peut se borner à démontrer la proposition pour le groupe G/C; autrement dit, on est ramené au cas où G est totalement discontinu. On sait alors (II, p. 32, corollaire) que tout voisinage compact V de e contient un voisinage U de e, à la fois ouvert et fermé. Comme U est compact, et B = CU fermé, il existe un voisinage ouvert symétrique W de e tel que W ⊂ U et UW ∩ BW = ∅ (III, p. 20 et II, p. 31, prop. 4), et a fortiori UW ⊂ U. Par récurrence sur n, on en déduit W^n ⊂ U pour tout entier n > 0; le sous-groupe W^\infty = \bigcup_{n > 0} W^n de G engendré par W, qui est ouvert (III, p. 7, corollaire), est donc contenu dans U, ce qui démontre la proposition.
 
 Nous avons en outre prouvé:
 
-#### Corollaire 1 {#top-iii-s4-prop-14-cor-1 .statement}
+#### Corollaire 1 {#top-iii-s4-prop-14-cor-1 .statement tag=0BLL}
 
 Si G est un groupe localement compact totalement discontinu, tout voisinage de e dans G contient un sous-groupe ouvert de G.
 
-#### Corollaire 2 {#top-iii-s4-prop-14-cor-2 .statement}
+#### Corollaire 2 {#top-iii-s4-prop-14-cor-2 .statement tag=0BLM}
 
 Un groupe localement compact qui est engendré par chacun des voisinages de l’élément neutre est connexe.
 
-#### Corollaire 3 {#top-iii-s4-prop-14-cor-3 .statement}
+#### Corollaire 3 {#top-iii-s4-prop-14-cor-3 .statement tag=0BLN}
 
 Soient G un groupe localement compact, H un sous-groupe fermé de G, φ l’application canonique de G sur G/H. Les composantes connexes de G/H sont les adhérences des images par φ des composantes connexes de G.
 

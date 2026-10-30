@@ -32,7 +32,7 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: c5f70ab17d15a335f7e9f03ee60d6d141aff9f2c7e99794fe01a04ec5e43c5d8
+content_sha256: 994cef57c4a41bc6c1cf92dee9c89cb838a42c32c0ed085dc9b36a52fa15019c
 translated_from: content/en-mt/ac/X/04_s4_anneaux_reguliers.md
 source_lang: en-mt
 translation_method: machine
@@ -48,7 +48,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các tính chất đồng điều sơ cấp của các vành địa phương chính quy
 
-#### Mệnh đề 1 {#ac-x-s4-prop-1 .statement}
+#### Mệnh đề 1 {#ac-x-s4-prop-1 .statement tag=0D5M}
 
 Cho $A$ là một vành địa phương Noether chính quy và $n$ là chiều của nó. Khi đó $\mathrm{dh}(A) = n$ và, với mọi số nguyên $i \geqslant 0$,
 
@@ -64,13 +64,13 @@ $$
 
 Từ đó suy ra theo hệ quả 1 của mệnh đề 4 của No. 3, § 3 rằng $\mathrm{dh}(A) = n$.
 
-#### Mệnh đề 2 {#ac-x-s4-prop-2 .statement}
+#### Mệnh đề 2 {#ac-x-s4-prop-2 .statement tag=0D5N}
 
 Một vành địa phương Noether chính quy là nhân tử.
 
 Theo mệnh đề 1, mọi môđun sinh hữu hạn trên một vành địa phương Noether chính quy đều thừa nhận một phân giải xạ ảnh có độ dài hữu hạn bởi các môđun xạ ảnh sinh hữu hạn, do đó bởi các môđun tự do (II, § 3, No. 2, hệ quả 2 của mệnh đề 5). Từ đó suy ra theo VII, § 4, No. 7, hệ quả 3 của mệnh đề 16 rằng vành như vậy là nhân tử.
 
-#### Mệnh đề 3 {#ac-x-s4-prop-3 .statement}
+#### Mệnh đề 3 {#ac-x-s4-prop-3 .statement tag=0D5O}
 
 Cho $A$ là một vành địa phương Noether chính quy và $M$ là một $A$-môđun sinh hữu hạn khác không. Chiều xạ ảnh của nó là hữu hạn, và ta có
 
@@ -80,27 +80,27 @@ $$
 
 Thật vậy, $M$ có chiều xạ ảnh hữu hạn (mệnh đề 1), và ta có $\mathrm{prof}(A) = \dim(A)$ vì $A$ là một vành Macaulay (§ 2, No. 5, ví dụ 7). Khi đó áp dụng định lý 1 của § 3, No. 5.
 
-#### Hệ quả 1 {#ac-x-s4-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s4-prop-3-cor-1 .statement tag=0D5P}
 
 Ta có $\mathrm{dp}_A(M) \geqslant \dim(A) - \dim(M)$; để đẳng thức xảy ra, điều kiện cần và đủ là $M$ là một môđun Macaulay.
 
-#### Hệ quả 2 {#ac-x-s4-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s4-prop-3-cor-2 .statement tag=0D5Q}
 
 Để $A$-môđun $M$ là tự do, điều kiện cần và đủ là nó là một môđun Macaulay và có chiều $\dim(A)$, hay tương đương là nó có độ sâu $\geqslant \dim(A)$.
 
-#### Hệ quả 3 {#ac-x-s4-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s4-prop-3-cor-3 .statement tag=0D5R}
 
 Mọi môđun phản xạ sinh hữu hạn trên một vành địa phương Noether chính quy có chiều 2 đều tự do.
 
 Thật vậy, một vành địa phương Noether chính quy là đóng nguyên (VIII, § 5, No. 2, hệ quả 1 của định lý 1). Hệ quả 3 do đó suy ra từ hệ quả 2 và § 1, No. 10, mệnh đề 16.
 
-#### Hệ quả 4 {#ac-x-s4-prop-3-cor-4 .statement}
+#### Hệ quả 4 {#ac-x-s4-prop-3-cor-4 .statement tag=0D5S}
 
 Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether. Giả sử rằng $A$ là chính quy và rằng $\rho$ biến $B$ thành một $A$-môđun sinh hữu hạn. Khi đó $dp_A(B) \geq \dim(A) - \dim(B)$. Để $B$ là một vành Macaulay, điều kiện cần và đủ là ta có $dp_A(B) = \dim(A) - \dim(B)$. Để $B$ là một vành Macaulay có chiều bằng $\dim(A)$, điều kiện cần và đủ là $A$-môđun $B$ là tự do.
 
 Thật vậy, ta có $\dim(B) = \dim_A(B)$ (VIII, § 2, No. 3, th. 1); hơn nữa, $B$ là một vành Macaulay khi và chỉ khi nó là một $A$-môđun Macaulay (§ 2, No. 6, mệnh đề 8). Vì vậy chỉ cần áp dụng các hệ quả 1 và 2.
 
-#### Nhận xét {#ac-x-s4-n1-rem-1 .statement}
+#### Nhận xét {#ac-x-s4-n1-rem-1 .statement tag=0D5T}
 
 Hệ quả 4 cho phép đặc trưng các vành địa phương Macaulay trong một số trường hợp quan trọng. Cho $A$ là một vành địa phương Noether; nó là một vành Macaulay khi và chỉ khi điều tương tự đúng với $\hat{A}$ (§ 2, No. 7, hệ quả 4 của mệnh đề 9). Từ nay giả sử vành địa phương $A$ đầy đủ, và đặt $d = \dim(A)$.
 
@@ -123,7 +123,7 @@ Hơn nữa, giả sử rằng $p1_A$ không là một ước của không trong 
 
 ### 2. Đặc trưng hóa đồng điều của các vành Noether chính quy
 
-#### Định lý 1 (Serre) {#ac-x-s4-thm-1 .statement}
+#### Định lý 1 (Serre) {#ac-x-s4-thm-1 .statement tag=0D5U}
 
 Một vành địa phương Noether là chính quy khi và chỉ khi chiều đồng điều của nó là hữu hạn.
 
@@ -148,11 +148,11 @@ Do đó, nếu $A$ là một vành địa phương Noether, có một sự tươ
 (ii) $A$-môđun $\kappa_A$ có chiều xạ ảnh hữu hạn;
 (iii) mọi $A$-môđun sinh hữu hạn đều có chiều xạ ảnh $< +\infty$.
 
-#### Định nghĩa 1 {#ac-x-s4-def-1 .statement}
+#### Định nghĩa 1 {#ac-x-s4-def-1 .statement tag=0D5V}
 
 Người ta nói rằng một vành $A$ là chính quy nếu nó là Noether và nếu vành địa phương $A_m$ là chính quy đối với mọi iđêan cực đại $m$ của $A$.
 
-#### Mệnh đề 4 {#ac-x-s4-prop-4 .statement}
+#### Mệnh đề 4 {#ac-x-s4-prop-4 .statement tag=0D5W}
 
 Cho $A$ là một vành Noether. Các điều kiện sau là tương đương:
 (i) $A$ là chính quy;
@@ -162,19 +162,19 @@ Cho $A$ là một vành Noether. Các điều kiện sau là tương đương:
 
 Ta hãy chứng minh rằng (i) kéo theo (ii). Cho $M$ là một $A$-môđun sinh hữu hạn. Dưới giả thiết (i), ta có $\mathrm{dp}_{A_m}(M_m) \leq \mathrm{dh}(A_m) < +\infty$ với mọi iđêan cực đại $m$ của $A$ (No. 1, mệnh đề 1); do đó $M$ có chiều xạ ảnh $< +\infty$ ($§ 3$, No. 2, hệ quả 2 của mệnh đề 3), do đó (ii).
 
-#### Ví dụ 1 {#ac-x-s4-n2-exa-1 .statement}
+#### Ví dụ 1 {#ac-x-s4-n2-exa-1 .statement tag=0D5X}
 
 Nếu vành $A$ là chính quy, vành phân thức $S^{-1}A$ là chính quy với mọi tập con nhân $S$ của $A$: điều này suy ra chẳng hạn từ đặc trưng hóa (iii) ở trên.
 
-#### Ví dụ 2 {#ac-x-s4-n2-exa-2 .statement}
+#### Ví dụ 2 {#ac-x-s4-n2-exa-2 .statement tag=0D5Y}
 
 Để một vành là chính quy, điều kiện cần và đủ là nó đẳng cấu với tích của một họ hữu hạn các vành nguyên chính quy; điều này thực tế suy ra từ sự kiện rằng mọi vành chính quy đều địa phương nguyên ($§ 1$, No. 8), vì các vành địa phương chính quy là nguyên.
 
-#### Ví dụ 3 {#ac-x-s4-n2-exa-3 .statement}
+#### Ví dụ 3 {#ac-x-s4-n2-exa-3 .statement tag=0D5Z}
 
 Các vành nguyên chính quy có chiều $\leq 1$ là các vành Dedekind (VIII, $§ 5$, No. 1, ví dụ 1 và VII, $§ 2$, No. 2, định lý 1).
 
-#### Hệ quả 1 {#ac-x-s4-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s4-prop-4-cor-1 .statement tag=0D60}
 
 *Cho $A$ là một vành Noether. Các điều kiện sau là tương đương*:
 
@@ -193,13 +193,13 @@ $$
 
 Tồn tại các vành Noether chính quy có chiều vô hạn (VIII, $§ 5$, bài tập 6).
 
-#### Hệ quả 2 {#ac-x-s4-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s4-prop-4-cor-2 .statement tag=0D61}
 
 *Một vành chính quy là chuẩn, Gorenstein và Macaulay.*
 
 Thực vậy, một vành địa phương chính quy là đóng nguyên (VIII, $§ 5$, No. 2, hệ quả 1 của định lý 1), Gorenstein ($§ 3$, No. 9, ví dụ 4) và Macaulay ($§ 2$, No. 5, ví dụ 6).
 
-#### Hệ quả 3 {#ac-x-s4-prop-4-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s4-prop-4-cor-3 .statement tag=0D62}
 
 *Cho $A$ là một vành Noether, $J$ là một iđêan của $A$ và $\hat{A}$ là hoàn thành tách được của $A$ đối với tôpô $J$-adic.*
 
@@ -207,13 +207,13 @@ a) *Để vành $\hat{A}$ là chính quy, điều kiện cần và đủ là, v�
 
 b) *Nếu vành $A$ là chính quy, vành $\hat{A}$ là chính quy. Nếu vành $\hat{A}$ là chính quy và iđêan $J$ được chứa trong căn của $A$, vành $A$ là chính quy.*
 
-#### Hệ quả 4 {#ac-x-s4-prop-4-cor-4 .statement}
+#### Hệ quả 4 {#ac-x-s4-prop-4-cor-4 .statement tag=0D63}
 
 *Cho $A$ là một vành chính quy và $P$ là một A-môđun xạ ảnh sinh hữu hạn. Đại số đối xứng $S_A(P)$ là một vành chính quy.*
 
 Cho $p$ là một iđêan nguyên tố của $S_A(P)$ và $q$ là ảnh ngược của nó trong $A$. Vành địa phương $S_A(P)_p$ là một vành phân thức của vành $S_A(P)_q$, vành này đẳng cấu với $S_{A_q}(P_q)$ (A, III, p. 72, mệnh đề 7); chỉ cần chứng minh rằng vành sau là chính quy. Điều này đưa ta về trường hợp $A$ là địa phương; nhưng khi đó $P$ là tự do kiểu hữu hạn. Theo mệnh đề 1 của No. 1 và A, X, p. 143, hệ quả 1, ta có $dh(S_A(P)) = dh(A) + rg_A(P) < +\infty$, và $S_A(P)$ là chính quy theo mệnh đề 4.
 
-#### Hệ quả 5 {#ac-x-s4-prop-4-cor-5 .statement}
+#### Hệ quả 5 {#ac-x-s4-prop-4-cor-5 .statement tag=0D64}
 
 *Cho $A$ là một vành chính quy, và $(T_i)_{i \in I}$ là một họ hữu hạn các phần tử bất định. Vành đa thức $A[(T_i)_{i \in I}]$ và vành chuỗi hình thức $A[[T_i]_{i \in I}]$ là chính quy.*
 
@@ -221,7 +221,7 @@ Cho $p$ là một iđêan nguyên tố của $S_A(P)$ và $q$ là ảnh ngược
 
 ### 3. Các vành chính quy và các đại số hữu hạn
 
-#### Mệnh đề 5 {#ac-x-s4-prop-5 .statement}
+#### Mệnh đề 5 {#ac-x-s4-prop-5 .statement tag=0D65}
 
 *Cho $\rho : A \to B$ là một đồng cấu của các vành Noether và $N$ là một $B$-môđun. Giả sử rằng
 a) vành $A$ là chính quy,
@@ -234,7 +234,7 @@ Khi đó $N$ là một A-môđun xạ ảnh (kiểu hữu hạn).*
 
 Cho $m$ là một iđêan cực đại của $\mathrm{Supp}_A(N)$; đặt $n = \dim(A_m)$. Theo Hệ quả 2 của Mệnh đề 3 của No. 1, chỉ cần chứng minh rằng $N_m$ là một A-môđun Macaulay $A_m$ có chiều $n$. Mọi iđêan cực đại của $B_m$ đều có dạng $nB_m$, trong đó $n$ là một iđêan nguyên tố của $B$ nằm trên $m$ (V, § 2, No. 1, Bổ đề 1 và Mệnh đề 1). Cho $p$ là một iđêan nguyên tố cực tiểu của $\mathrm{Supp}_B(N)$, được chứa trong $n$. Tập con đóng $V(pB_n)$ của $\mathrm{Supp}_{B_n}(N_n)$ khi đó có đối chiều không; vì $B_n$-môđun $N_n$ là Macaulay, Hệ quả của Mệnh đề 2, § 2, No. 2 suy ra đẳng thức $\dim_{B_n}(N_n) = \dim(B_n/pB_n)$. Nhưng $p$ nằm trên một iđêan nguyên tố cực tiểu của $A$, được chứa trong $m$, do đó
 
-#### Hệ quả {#ac-x-s4-n3-cor-1 .statement}
+#### Hệ quả {#ac-x-s4-n3-cor-1 .statement tag=0D66}
 
 Cho B là một vành nguyên Noether và cho A là một vành con chính quy của B. Giả sử rằng A-môđun B là sinh hữu hạn. Để vành B là một vành Macaulay, điều kiện cần và đủ là A-môđun B là xạ ảnh.
 
@@ -242,7 +242,7 @@ Nếu vành B là một vành Macaulay, A-môđun B là xạ ảnh theo Mệnh �
 
 Ngược lại, giả sử rằng A-môđun B là xạ ảnh. A-môđun A là Macaulay (Hệ quả 2 của Mệnh đề 4); A-môđun B là một nhân tử trực tiếp của một A-môđun tự do kiểu hữu hạn, do đó là Macaulay (§ 2, No. 1, Ví dụ 2). Khi đó áp dụng Hệ quả 1 của Mệnh đề 8 của § 2, No. 6.
 
-#### Ví dụ {#ac-x-s4-n3-exa-1 .statement}
+#### Ví dụ {#ac-x-s4-n3-exa-1 .statement tag=0D67}
 
 Cho B là một đại số nguyên khác không kiểu hữu hạn trên một trường K. Theo VIII, § 2, No. 4, Hệ quả 1 của Định lý 3, tồn tại một đại số con A của B đẳng cấu với một đại số đa thức trên K và sao cho B là một A-môđun sinh hữu hạn. Các tính chất sau là tương đương:
 
@@ -256,7 +256,7 @@ Một vành A được gọi là trình bày được nếu tồn tại một v�
 
 Theo định nghĩa, các vành chính quy là trình bày được.
 
-#### Mệnh đề 6 {#ac-x-s4-prop-6 .statement}
+#### Mệnh đề 6 {#ac-x-s4-prop-6 .statement tag=0D68}
 
 a) Mọi vành phân thức của một vành trình bày được đều là trình bày được. Mọi đại số kiểu hữu hạn trên một vành trình bày được đều là một vành trình bày được.
 
@@ -280,7 +280,7 @@ d) Cho $m_A$ là iđêan cực đại của A; khi đó $p = \rho^{-1}(m_A)$ là
 
 Vì các trường và các vành Dedekind là chính quy, do đó là trình bày được, Mệnh đề 6 suy ra rằng phần lớn các vành thường gặp trong hình học đại số là trình bày được.
 
-#### Mệnh đề 7 {#ac-x-s4-prop-7 .statement}
+#### Mệnh đề 7 {#ac-x-s4-prop-7 .statement tag=0D69}
 
 Cho A là một vành trình bày được.
 
@@ -304,7 +304,7 @@ c) Điều này được chứng minh như trong phần c) của tài liệu đ�
 
 ### 5. Các vành chính quy và các mở rộng phẳng
 
-#### Mệnh đề 8 {#ac-x-s4-prop-8 .statement}
+#### Mệnh đề 8 {#ac-x-s4-prop-8 .statement tag=0D6A}
 
 Cho $\rho : A \to B$ là một đồng cấu của các vành Noether sao cho B là một A-môđun phẳng trung thành.
 
@@ -324,7 +324,7 @@ $$
 
 là khớp và ta có $dp_B(B \otimes_A N) = dp_B(B \otimes_A M) - 1$. Giả thiết quy nạp áp dụng cho $N$ cho phép ta kết luận. Điều này chứng minh a); mệnh đề b) suy ra từ a) và Mệnh đề 4 của No. 2.
 
-#### Hệ quả {#ac-x-s4-n5-cor-1 .statement}
+#### Hệ quả {#ac-x-s4-n5-cor-1 .statement tag=0D6B}
 
 *Cho $B$ là một vành nguyên chính quy và cho $A$ là một vành con Noether của $B$ sao cho $B$ là một A-môđun sinh hữu hạn. Các điều kiện sau là tương đương:*
 
@@ -354,7 +354,7 @@ $$
 d\rho : \kappa_B \otimes_{\kappa_A} (\mathfrak{m}_A / \mathfrak{m}_A^2) \to \mathfrak{m}_B / \mathfrak{m}_B^2 .
 $$
 
-#### Bổ đề 1 {#ac-x-s4-lem-1 .statement}
+#### Bổ đề 1 {#ac-x-s4-lem-1 .statement tag=0D6C}
 
 *Ta có*
 
@@ -382,7 +382,7 @@ $$
 
 điều này kéo theo bổ đề.
 
-#### Mệnh đề 9 {#ac-x-s4-prop-9 .statement}
+#### Mệnh đề 9 {#ac-x-s4-prop-9 .statement tag=0D6D}
 
 *Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether. Các điều kiện sau là tương đương:
 
@@ -405,11 +405,11 @@ Ta có $\dim(B) \leq \dim(A) + \dim(\kappa_A \otimes_A B)$ (VIII, § 3, No. 4, H
 
 Bây giờ còn lại là chứng minh rằng khi các điều kiện tương đương (i) và (iv) được thỏa mãn, A-môđun $B$ là phẳng. Cho $x$ là một hệ tọa độ của $A$. Vì $d\rho$ là đơn ánh, ảnh của dãy này qua $\rho$ tạo thành một phần của một hệ tọa độ của $B$. Do đó dãy $x$ là hoàn toàn cắt đối với $A$ và đối với $B$ (VIII, § 5, No. 3, Mệnh đề 2), và sinh ra iđêan $\mathfrak{m}_A$ của $A$. Theo Nhận xét 3 của A, X, p. 159, A-môđun $\mathrm{Tor}_1^A(\kappa_A, B)$ đẳng cấu với $H_1(x, B)$, và do đó là không; suy ra $B$ là phẳng trên $A$ (III, § 5, No. 2, Định lý 1 và No. 4, Mệnh đề 2).
 
-#### Ví dụ {#ac-x-s4-n5-exa-1 .statement}
+#### Ví dụ {#ac-x-s4-n5-exa-1 .statement tag=0D6E}
 
 *Cho $X$, $Y$ là hai đa tạp giải tích phức, địa phương có số chiều hữu hạn, $f$ là một cấu xạ từ $X$ vào $Y$, và $x$ là một điểm của $X$. Xét đồng cấu địa phương $\rho : \mathscr{O}_{Y, f(x)} \to \mathscr{O}_{X, x}$ liên kết với $f$. Ánh xạ $d\rho$ là chuyển vị của ánh xạ tiếp xúc $T_x(f) : T_x(X) \to T_{f(x)}(Y)$. Các điều kiện (i) đến (iv) của Mệnh đề 9 do đó tương đương trong trường hợp này với việc $f$ là một cấu xạ chìm tại $x$ (VAR, R, 5.9.1).*
 
-#### Hệ quả {#ac-x-s4-n5-cor-2 .statement}
+#### Hệ quả {#ac-x-s4-n5-cor-2 .statement tag=0D6F}
 
 *Cho $\rho : A \to B$ là một đồng cấu của các vành Noether làm cho $B$ là một A-môđun phẳng. Nếu $A$ là chính quy và nếu $\kappa(\rho^{-1}(\mathfrak{n})) \otimes_{A} B$ là chính quy đối với mọi iđêan cực đại $\mathfrak{n}$ của $B$, thì vành $B$ là chính quy.
 

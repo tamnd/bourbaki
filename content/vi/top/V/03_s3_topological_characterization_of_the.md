@@ -11,7 +11,7 @@ pdf_pages: 0023-0025, 0031-0034
 extraction: ocr
 statements: 5
 exercises: 1
-content_sha256: 940a7bb177aaf90e669db985726dcb5688de84d177f82f406b20f25d559d64ca
+content_sha256: 6871e54cb82e18324777f634d28d5a407c747f9c99562a6857582afcc99c9f98
 translated_from: content/en/top/V/03_s3_topological_characterization_of_the.md
 source_content_sha256: e083ecd8e6a72be8ff4cd629267067888014277bb5a1f7b1682d08f2f015472c
 translation_model: gpt-5-6-mini
@@ -23,7 +23,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## 3. ĐẶC TRƯNG HÓA TÔPÔ CỦA CÁC NHÓM $\mathbf{R}$ VÀ $\mathbf{T}$
 
-#### Định lý 1 {#top-v-s3-thm-1 .statement}
+#### Định lý 1 {#top-v-s3-thm-1 .statement tag=0BVN}
 
 *Một nhóm tôpô* $G$ *trong đó tồn tại một lân cận của phần tử đơn vị đẳng cấu đồng phôi với một khoảng mở của* $\mathbf{R}$ *là địa phương đẳng cấu với* $\mathbf{R}$.
 
@@ -41,21 +41,21 @@ Với mọi phần tử x ∈ V không thuộc I ta có x < e, do đó x^{-1} > 
 
 Q.E.D.
 
-#### Định lý 2 {#top-v-s3-thm-2 .statement}
+#### Định lý 2 {#top-v-s3-thm-2 .statement tag=0BVO}
 
 *Một nhóm liên thông* $G$ *trong đó tồn tại một lân cận của phần tử đơn vị đồng phôi với một khoảng mở của* $\mathbf{R}$ *là đẳng cấu với một trong hai nhóm* $\mathbf{R}$ *hoặc* $\mathbf{T}$.
 
 Đây là một hệ quả ngay lập tức của định lý trước đó, cùng với Mệnh đề 7 của § 1, no. 4.
 
-#### Nhận xét 1 {#top-v-s3-rem-1 .statement}
+#### Nhận xét 1 {#top-v-s3-rem-1 .statement tag=0BVP}
 
 Để quyết định xem một nhóm $G$ thỏa mãn các điều kiện của Định lý 2 có đẳng cấu với $\mathbf{T}$ hay với $\mathbf{R}$, chỉ cần xem $G$ có compact hay không.
 
-#### Nhận xét 2 {#top-v-s3-rem-2 .statement}
+#### Nhận xét 2 {#top-v-s3-rem-2 .statement tag=0BVQ}
 
 Định lý 2 chỉ ra đặc biệt rằng mọi nhóm tôpô *đồng phôi* với nhóm $\mathbf{R}$ *tất yếu là đẳng cấu* với $\mathbf{R}$.
 
-#### Nhận xét 3 {#top-v-s3-rem-3 .statement}
+#### Nhận xét 3 {#top-v-s3-rem-3 .statement tag=0BVR}
 
 Đặc trưng hóa tôpô trước đó của các nhóm $\mathbf{R}$ và $\mathbf{T}$ liên quan đến không gian tôpô $\mathbf{R}$ như một tập hợp phụ trợ. Có thể đặc trưng hóa các cấu trúc nhóm tôpô của $\mathbf{R}$ và $\mathbf{T}$ bằng các tiên đề không liên quan đến bất kỳ tập hợp phụ trợ nào (xem Các bài tập 4 và 5).
 

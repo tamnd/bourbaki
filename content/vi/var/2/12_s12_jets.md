@@ -40,7 +40,7 @@ subsections:
       pdf_page: 150
 statements: 1
 exercises: 0
-content_sha256: 00b3497081930699afe6e24a6a55824cb5f755afa45ef4f9809be69797ab6144
+content_sha256: fe014baa6d97108fdfbb3bdb3c999cd2f2931a3b08ffd8aa2a2e5bc2eaa383ed
 translated_from: content/en-mt/var/2/12_s12_jets.md
 source_lang: en-mt
 translation_method: machine
@@ -246,7 +246,7 @@ Cho $U$ là một tập con mở của $X$, và cho $f \in \mathscr{S}_E^r(U)$ l
 
 12.6.2. Nếu $F$ là một không gian Banach, phép nhận dạng (12.5.2) của $P^k(F_X)$ với $J^k(X, F)$ trang bị cho đa tạp sau một cấu trúc bó vectơ lớp $C^{r-k}$, với cơ sở $X$. Khi $F = K$, ta viết $P^k(X)$ thay cho $P^k(K_X)$.
 
-#### Ví dụ {#var-2-s12-n6-exa-1 .statement}
+#### Ví dụ {#var-2-s12-n6-exa-1 .statement tag=0EEK}
 
 Cho $X = K^n$, và ký hiệu $u_1, \ldots, u_n$ là các hàm tọa độ trên $K^n$; khi đó thớ $P^k_0(X)$ của $P^k(X)$ tại 0 có họ các jet cấp $k$ của các đơn thức $u_1^{m_1} \ldots u_n^{m_n}$ làm cơ sở, với $m_i \geqslant 0, \sum_{i=0}^n m_i \leqslant k$.
 

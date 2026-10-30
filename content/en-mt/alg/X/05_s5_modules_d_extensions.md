@@ -41,11 +41,11 @@ subsections:
       pdf_page: 104
 statements: 36
 exercises: 8
-content_sha256: 39072234e6483530497dc50e68dece290a95404b45bea60db63c2dc0a38fc3b2
+content_sha256: 90d2bc4adf4358a3f9113c9b0ba903cf774c162882d84dce21229b8d1728da14
 translated_from: content/fr/alg/X/05_s5_modules_d_extensions.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: e9ed17b2d3cbb9a0578a822c30375ad097e46c0bb5c548d2f513ffd5d8da6e26
+source_content_sha256: 49405f1c4a916486465a4e25cf4cbaea66e715e5e9156780dfd5a3f6c0bf7f78
 translation_model: gpt-5-6-mini, hy3-free, laguna-s-2.1-free, nemotron-3-ultra-free
 translation_run: translate-en-mt-be8c3dec
 glossary_version: 34
@@ -116,7 +116,7 @@ $$
 \lambda^n(C, C') : H^n(\mathrm{Homgr}_A (C, C')) \to \prod_{p+q=n} \mathrm{Hom}_A (H_p(C), H^q(C')) .
 $$
 
-#### Proposition 1 {#alg-x-s5-prop-1 .statement}
+#### Proposition 1 {#alg-x-s5-prop-1 .statement tag=0DWL}
 
 *If C is zero on the right and C' zero on the left, then Homgr_A (C, C') is zero on the left, and the canonical k-linear mapping*
 
@@ -147,7 +147,7 @@ H(\mathrm{Homgr}_A(\tilde{C}, \tilde{C}')) & \xrightarrow{\lambda(\tilde{C}, \ti
 \end{array}
 $$
 
-#### Proposition 2 {#alg-x-s5-prop-2 .statement}
+#### Proposition 2 {#alg-x-s5-prop-2 .statement tag=0DWM}
 
 *a) Let $C' \xrightarrow{u} C \xrightarrow{v} C''$ be an exact sequence of $A$-complexes, $P$ a projective complex, $E$ an injective complex (X, p. 25). Then the sequences*
 
@@ -191,7 +191,7 @@ are exact for all $p, q \in \mathbf{Z}$, and we apply II, p. 10, prop. 5 and II,
 
 ### 2. Complexes of homomorphisms and homotopies
 
-#### Proposition 3 {#alg-x-s5-prop-3 .statement}
+#### Proposition 3 {#alg-x-s5-prop-3 .statement tag=0DWN}
 
 *Let $C, \tilde{C}, C', \tilde{C}'$ be four $A$-complexes, $u : \tilde{C} \to C, v : \tilde{C} \to C, u' : C' \to \tilde{C}'$ and $v' : C' \to \tilde{C}'$ four morphisms of complexes.
 
@@ -255,7 +255,7 @@ analogously $\mathrm{Homgr}(\alpha,\alpha')\circ\mathrm{Homgr}(u,u')$ is homotop
 
 Finally c) follows from b) (applied to the case where $\widetilde C$ or $\widetilde C'$ is zero).
 
-#### Corollary 1 {#alg-x-s5-prop-3-cor-1 .statement}
+#### Corollary 1 {#alg-x-s5-prop-3-cor-1 .statement tag=0DWO}
 
 If $C$ is split and $H(C)$ projective (resp. if $C'$ is split and $H_n(C')$ injective for each $n$), then the canonical homomorphism
 
@@ -302,13 +302,13 @@ $$
 
 whence an isomorphism $\varphi : H(\mathrm{Homgr}_A(C, C')) \to \mathrm{Homgr}_A(H(C), C')$ such that, if $a \in \mathrm{Homgr}_A(C/B(C), C')$, the image of the class of $P(a)$ under $\varphi$ is $J(a)$; we immediately verify that $\varphi$ coincides with the canonical homomorphism $\lambda$.
 
-#### Corollary 2 {#alg-x-s5-prop-3-cor-2 .statement}
+#### Corollary 2 {#alg-x-s5-prop-3-cor-2 .statement tag=0DWP}
 
 Assume that $B(C)$ and $H(C)$ are projective (resp. $B_n(C')$ and $H_n(C')$ are injective for every $n$). Then $\lambda(C, C')$ is bijective.
 
 Indeed, $C$ (resp. $C'$) is then split, by X, p. 35, Example 4, and we apply Corollary 1.
 
-#### Corollary 3 {#alg-x-s5-prop-3-cor-3 .statement}
+#### Corollary 3 {#alg-x-s5-prop-3-cor-3 .statement tag=0DWQ}
 
 Let $M$ be a projective $A$-module (resp. an injective $A$-module). For every complex $C$ of $A$-modules and every integer $n$, the canonical homomorphism
 
@@ -318,14 +318,14 @@ $$
 
 (resp. $H^n(\mathrm{Homgr}_A(C, M)) \to \mathrm{Hom}_A(H_n(C), M)$) is bijective.
 
-#### Lemma 1 {#alg-x-s5-lem-1 .statement}
+#### Lemma 1 {#alg-x-s5-lem-1 .statement tag=0DWR}
 
 a) If $C$ or $C'$ is bounded on the right, if $C$ is projective and if $H(C') = 0$, then $H(\mathrm{Homgr}_A(C, C')) = 0$.
     b) If $C$ or $C'$ is bounded on the left, if $C'$ is injective and if $H(C) = 0$, then $H(\mathrm{Homgr}_A(C, C')) = 0$.
 
 Let $f \in Z_n(\mathrm{Homgr}_A(C, C'))$; $f$ is then a morphism of complexes from $C$ to $C'(n)$; in case a) (resp. b)), $f_m$ vanishes for $m$ sufficiently small (resp. sufficiently large). By X, p. 47, Proposition 1, $f$ is then homotopic to zero, hence belongs to $B_n(\mathrm{Homgr}_A(C, C'))$, which gives the conclusion.
 
-#### Proposition 4 {#alg-x-s5-prop-4 .statement}
+#### Proposition 4 {#alg-x-s5-prop-4 .statement tag=0DWS}
 
 Let $u : C' \to C$ be a morphism of complexes, $P$ a projective complex, $E$ an injective complex.
 
@@ -357,7 +357,7 @@ In the general case, there exists (X, p. 38, cor. to Prop. 7) a complex $\tilde{
 
 For any $A$-module $E$, we denote by $p_E : L(E) \to E$ (resp. $e_E : E \to I(E)$) the canonical free (resp. injective) resolution, cf. X, p. 50 (resp. p. 52).
 
-#### Definition 1 {#alg-x-s5-def-1 .statement}
+#### Definition 1 {#alg-x-s5-def-1 .statement tag=0DWT}
 
 Let $M$ and $N$ be two $A$-modules. The module of extensions of $N$ by $M$ is the graded $k$-module
 
@@ -378,7 +378,7 @@ $$
 \operatorname{Ext}^{n}_{A}(M,N)=0\qquad\text{pour }n<0.
 $$
 
-#### Remark 1 {#alg-x-s5-n3-rem-1 .statement}
+#### Remark 1 {#alg-x-s5-n3-rem-1 .statement tag=0DWU}
 
 We will see below (X, p. 107, Prop. 6) some finiteness properties of the modules $\operatorname{Ext}^{n}_{A}(M,N)$. For example, if $A$ is commutative and noetherian, and if $M$ and $N$ are $A$-modules of finite type, each $A$-module $\operatorname{Ext}^{n}_{A}(M,N)$ is of finite type.
 
@@ -416,7 +416,7 @@ $$
 
 *We will always identify* $\operatorname{Ext}^{0}_{A}(M,N)$ with $\operatorname{Hom}_{A}(M,N)$ via this isomorphism. Then the $k$-linear map $\operatorname{Ext}_{A}(f,g)$ can be identified with $\operatorname{Hom}_{A}(f,g)$.
 
-#### Remark 2 {#alg-x-s5-n3-rem-2 .statement}
+#### Remark 2 {#alg-x-s5-n3-rem-2 .statement tag=0DWV}
 
 The morphism of complexes
 
@@ -456,7 +456,7 @@ H(\operatorname{Homgr}_A(L(M), N)) \xrightarrow{\varphi_{M(N)}} \operatorname{Ex
 $$
 According to Proposition 4 of X, p. 86, $\operatorname{Homgr}_A(1, e_N)$ and $\operatorname{Homgr}_A(p_M, 1)$ are homologisms, hence:
 
-#### Proposition 5 {#alg-x-s5-prop-5 .statement}
+#### Proposition 5 {#alg-x-s5-prop-5 .statement tag=0DWW}
 
 *The $k$-homomorphisms*
 $$
@@ -466,7 +466,7 @@ $$
 \end{aligned}
 $$
 
-#### Corollaire {#alg-x-s5-n3-cor-1 .statement}
+#### Corollaire {#alg-x-s5-n3-cor-1 .statement tag=0DWX}
 
 If $M$ is projective (resp. if $N$ is injective), then $\operatorname{Ext}_A^i(M, N) = 0$ for $i > 0$.
 Indeed, $\operatorname{Homgr}_A(1, e_N) : \operatorname{Hom}_A(M, N) \to \operatorname{Homgr}_A(M, I(N))$ (resp. $\operatorname{Homgr}_A(p_M, 1) : \operatorname{Hom}_A(M, N) \to \operatorname{Homgr}_A(L(M), N)$) is then a homologism (X, p. 86, Prop. 4), yielding the conclusion.
@@ -495,7 +495,7 @@ H(\operatorname{Homgr}_A(M', I(N))) & \xrightarrow{\overline{\varphi}_{N(M')}} &
 $$
 is commutative.
 
-#### Proposition 6 {#alg-x-s5-prop-6 .statement}
+#### Proposition 6 {#alg-x-s5-prop-6 .statement tag=0DWY}
 
 The mapping $(f,g) \mapsto \operatorname{Ext}_A(f,g) :$
 $$
@@ -510,11 +510,11 @@ Let $f\in\operatorname{Hom}_A(M',M)$, $g_1,g_2\in\operatorname{Hom}_A(N,N')$, $\
 
 Argue similarly for the mapping $f \mapsto \operatorname{Ext}_A(f,g)$.
 
-#### Corollaire {#alg-x-s5-n3-cor-2 .statement}
+#### Corollaire {#alg-x-s5-n3-cor-2 .statement tag=0DWZ}
 
 Let $\lambda \in k$. If $\lambda$ annihilates $M$ or $N$, then it annihilates $\operatorname{Ext}_A(M,N)$. Indeed, $\lambda \cdot 1_{\operatorname{Ext}_A(M,N)} = \operatorname{Ext}_A(\lambda 1_M, 1_N) = \operatorname{Ext}_A(1_M, \lambda 1_N)$.
 
-#### Proposition 7 {#alg-x-s5-prop-7 .statement}
+#### Proposition 7 {#alg-x-s5-prop-7 .statement tag=0DX0}
 
 Let $I$ and $J$ be two sets, $(M_\alpha)_{\alpha\in I}$ and $(N_\beta)_{\beta\in J}$ two families of $A$-modules; the homomorphism
 $$
@@ -532,7 +532,7 @@ $$
 (resp. $\operatorname{Ext}(\bigoplus M_\alpha,N)\to\prod_\alpha\operatorname{Ext}(M_\alpha,N)$)
 are bijective. This follows from what has already been shown, from Proposition 1 of X, p. 28, and the canonical isomorphisms $\operatorname{Homgr}_A(L(M), \prod N_\beta) \to \prod \operatorname{Homgr}_A(L(M),N_\beta)$ and $\operatorname{Homgr}_A(\bigoplus M_\alpha, I(N)) \to \prod \operatorname{Homgr}_A(M_\alpha, I(N))$.
 
-#### Remarque 5 {#alg-x-s5-n3-rem-5 .statement}
+#### Remarque 5 {#alg-x-s5-n3-rem-5 .statement tag=0DX1}
 
 Let $P^\circ$ and $Q^\circ$ be two right $A$-modules. We define $\operatorname{Ext}_A(P,Q)$ by
 
@@ -573,7 +573,7 @@ $$
 
 be the corresponding connecting homomorphism ($X$, p. 29).
 
-#### Definition 2 {#alg-x-s5-def-2 .statement}
+#### Definition 2 {#alg-x-s5-def-2 .statement tag=0DX2}
 
 *We call the composite homomorphism the connecting homomorphism of the extension modules relative to the module $M$ and to the exact sequence $\mathscr{E}$*
 
@@ -583,7 +583,7 @@ $$
 
 This is a graded $k$-homomorphism of ascending degree 1, whose homogeneous components are denoted $\delta^n(M, \mathscr{E}) : \operatorname{Ext}_A^n(M, N'') \to \operatorname{Ext}_A^{n+1}(M, N')$.
 
-#### Theorem 1 {#alg-x-s5-thm-1 .statement}
+#### Theorem 1 {#alg-x-s5-thm-1 .statement tag=0DX3}
 
 *The right-unbounded sequence of homomorphisms of $k$-modules*
 
@@ -602,7 +602,7 @@ $$
 Consider indeed the diagram on page X.91.
 It is commutative by the *remark* 3 of $X$, p. 88 and def. 2 ; moreover the bottom row is exact ($X$, p. 30, th. 1), and the vertical arrows are bijective ($X$, p. 88, prop. 5).
 
-#### Corollary {#alg-x-s5-n4-cor-1 .statement}
+#### Corollary {#alg-x-s5-n4-cor-1 .statement tag=0DX4}
 
 *If* $\operatorname{Ext}_A^1(M, N') = 0$, *the sequence*
 
@@ -612,7 +612,7 @@ $$
 
 *is exact*.
 
-#### Proposition 8 {#alg-x-s5-prop-8 .statement}
+#### Proposition 8 {#alg-x-s5-prop-8 .statement tag=0DX5}
 
 *Let* $f : M_1 \to M$ *be a homomorphism of* $A$*-modules* and
 
@@ -665,14 +665,14 @@ is exact (X, p. 83, prop. 2, $a$) ; let
 $$\partial(\mathscr{F}_N) : \mathrm{H}(\mathrm{Homgr}_A(M', I(N))) \to \mathrm{H}(\mathrm{Homgr}_A(M'', I(N)))$$
 be the corresponding connecting homomorphism.
 
-#### Definition 3 {#alg-x-s5-def-3 .statement}
+#### Definition 3 {#alg-x-s5-def-3 .statement tag=0DX6}
 
 One calls connecting homomorphism of extension modules relative to the exact sequence $(\mathscr{F})$ and to the module $N$, the composite homomorphism
 $$\delta(\mathscr{F}, N) : \overline{\varphi}_N(M'') \circ \partial(\mathscr{F}_N) \circ \overline{\varphi}_N(M')^{-1} : \mathrm{Ext}_A(M', N) \to \mathrm{Ext}_A(M'', N).$$
 It is a graded $k$-homomorphism of ascending degree 1, whose homogeneous components are denoted $\delta^n(\mathscr{F}, N) : \mathrm{Ext}_A^n(M', N) \to \mathrm{Ext}_A^{n+1}(M'', N)$.
 One then proves as above the following statements:
 
-#### Theorem 2 {#alg-x-s5-thm-2 .statement}
+#### Theorem 2 {#alg-x-s5-thm-2 .statement tag=0DX7}
 
 The right-unbounded sequence of homomorphisms of $k$-modules
 $$0 \longrightarrow \mathrm{Hom}_A(M'', N) \xrightarrow{\mathrm{Hom}(s, 1)} \mathrm{Hom}_A(M, N) \xrightarrow{\mathrm{Hom}(r, 1)} \mathrm{Hom}_A(M', N)$$
@@ -680,7 +680,7 @@ $$\xrightarrow{\delta^0(\mathscr{F}, N)} \mathrm{Ext}_A^1(M'', N) \to \cdots \xr
 $$\xrightarrow{\mathrm{Ext}^n(r, 1)} \mathrm{Ext}_A^n(M', N) \xrightarrow{\delta^n(\mathscr{F}, N)} \mathrm{Ext}_A^{n+1}(M'', N) \to \cdots$$
 is exact.
 
-#### Corollary {#alg-x-s5-n4-cor-2 .statement}
+#### Corollary {#alg-x-s5-n4-cor-2 .statement tag=0DX8}
 
 If $\operatorname{Ext}_A^1(M'', N) = 0$, the sequence
 
@@ -690,7 +690,7 @@ $$
 
 is exact.
 
-#### Proposition 9 {#alg-x-s5-prop-9 .statement}
+#### Proposition 9 {#alg-x-s5-prop-9 .statement tag=0DX9}
 
 Let $g : N \to N_1$ be a homomorphism of $A$-modules and
 
@@ -716,7 +716,7 @@ is commutative.
 
 ### 5. Projective modules, injective modules and extension modules
 
-#### Proposition 10 {#alg-x-s5-prop-10 .statement}
+#### Proposition 10 {#alg-x-s5-prop-10 .statement tag=0DXA}
 
 Let $M$ be an $A$-module. The following conditions are equivalent:
 
@@ -742,7 +742,7 @@ $$
 
 is surjective (X, p. 90, corollary); hence there exists an $A$-linear section of $\nu$ and $M$ is isomorphic to a direct factor of $P$, and therefore is projective.
 
-#### Proposition 11 {#alg-x-s5-prop-11 .statement}
+#### Proposition 11 {#alg-x-s5-prop-11 .statement tag=0DXB}
 
 Let $N$ be an $A$-module. The following conditions are equivalent:
 
@@ -819,7 +819,7 @@ $$
 
 With these notations:
 
-#### Theorem 3 {#alg-x-s5-thm-3 .statement}
+#### Theorem 3 {#alg-x-s5-thm-3 .statement tag=0DXC}
 
 Suppose the $A$-modules $B(C)$ and $Z(C)$ are projective. There exists, for each $n$, a unique homomorphism of $k$-modules
 
@@ -849,7 +849,7 @@ $$
 
 are exact.
 
-#### Remark {#alg-x-s5-n6-rem-1 .statement}
+#### Remark {#alg-x-s5-n6-rem-1 .statement tag=0DXD}
 
 One can prove an analogous statement, assuming $B_n(C')$ and $C'/B_n(C')$ are injective for each $n$.
 
@@ -861,7 +861,7 @@ $$
 \xrightarrow{\mathrm{Homgr}(i, 1)} \mathrm{Homgr}_A(Z, C') \to 0 .
 $$
 
-#### Lemma 2 {#alg-x-s5-lem-2 .statement}
+#### Lemma 2 {#alg-x-s5-lem-2 .statement tag=0DXE}
 
 The connecting homomorphism
 
@@ -900,12 +900,12 @@ whence the diagram with exact rows of page X.97.
 
 This diagram is commutative by construction of the homomorphisms $\lambda$. Moreover, since the complexes B and Z are split and projective, $\lambda_B$ and $\lambda_Z$ are bijective ($\lambda$, p. 84, cor. 1). One deduces from this, on the one hand that $\lambda_C^n$ is surjective, with kernel equal to $\mathrm{Im}\ H^n(\mathrm{Homgr}(\delta, 1))$, and on the other hand that $\varphi^{n-1} \circ \lambda_B^{n-1}$ is surjective, with kernel equal to $\mathrm{Ker}\ H^n(\mathrm{Homgr}(\delta, 1))$. The theorem follows immediately from this.
 
-#### Corollary 1 {#alg-x-s5-lem-2-cor-1 .statement}
+#### Corollary 1 {#alg-x-s5-lem-2-cor-1 .statement tag=0DXF}
 
 Assume B(C) and Z(C) projective and B^n(C') injective for each n. Then the exact sequences (11) are split.
 This follows from the theorem and the following lemma:
 
-#### Lemma 3 {#alg-x-s5-lem-3 .statement}
+#### Lemma 3 {#alg-x-s5-lem-3 .statement tag=0DXG}
 
 If B(C) is projective and B_n(C') injective for each n, the canonical homomorphism $\lambda(C, C') : \mathrm{H}(\mathrm{Homgr}_A(C, C')) \to \mathrm{Homgr}_A(\mathrm{H}(C), \mathrm{H}(C'))$ has a linear section k.
 
@@ -961,18 +961,18 @@ H^n(\operatorname{Homgr}_{A}(B,C'))
 \end{array}
 $$
 
-#### Corollary 2 {#alg-x-s5-lem-3-cor-2 .statement}
+#### Corollary 2 {#alg-x-s5-lem-3-cor-2 .statement tag=0DXH}
 
 If $B(C)$ and $Z(C)$ are projective, one has, for every $A$-module $N$ and every integer $n$, a split exact sequence:
 
 (13) $0 \longrightarrow \mathrm{Ext}_A^1(H_{n-1}(C), N) \xrightarrow{\beta^n} H^n(\mathrm{Homgr}_A(C, N)) \xrightarrow{\lambda^n} \mathrm{Hom}_A(H_n(C), N) \longrightarrow 0$.
 
-#### Corollary 3 (« universal coefficient formula ») {#alg-x-s5-lem-3-cor-3 .statement}
+#### Corollary 3 (« universal coefficient formula ») {#alg-x-s5-lem-3-cor-3 .statement tag=0DXI}
 
 Assume $A$ principal and $C$ free. One has for every $A$-module $N$ and every integer $n$ a split exact sequence (13).
 Indeed $B(C)$ and $Z(C)$ are free as submodules of the free module $C$ (VII. § 3, cor. 2 to th. 1).
 
-#### Corollary 4 {#alg-x-s5-lem-3-cor-4 .statement}
+#### Corollary 4 {#alg-x-s5-lem-3-cor-4 .statement tag=0DXJ}
 
 If $C$ is bounded on the right and if $C$ and $H(C)$ are projective, then
 
@@ -1031,7 +1031,7 @@ a graded homomorphism of degree zero :
 
 This homomorphism is bijective when C is a finitely generated projective module (II, p. 75, prop. 2).
 
-#### Proposition 12 {#alg-x-s5-prop-12 .statement}
+#### Proposition 12 {#alg-x-s5-prop-12 .statement tag=0DXK}
 
 The homomorphisms (14), (15), (16) are morphisms of complexes.
 

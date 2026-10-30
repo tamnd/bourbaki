@@ -28,7 +28,7 @@ subsections:
       pdf_page: 41
 statements: 18
 exercises: 0
-content_sha256: 277f3548de2a3a6fcc6af0ba5d41d630dc830e76f9036d5f8e27974c34cee0bc
+content_sha256: 9724d109dcab6ed4ca38f0cb3604f80ea71a6a463ec20897c0ba28dd8663f825
 ---
 
 ## § 1. SEMI-NORMES
@@ -37,7 +37,7 @@ Dans tout ce paragraphe, $\mathbf{K}$ désigne un corps valué non discret.
 
 ### 1. Définition des semi-normes
 
-#### Définition 1 {#evt-ii-s1-def-1 .statement}
+#### Définition 1 {#evt-ii-s1-def-1 .statement tag=07AP}
 
 Soit $E$ un espace vectoriel à gauche sur $\mathbf{K}$. On appelle semi-norme sur $E$ une application $p$ de $E$ dans $\mathbf{R}_+ = [0, +\infty[$, vérifiant les axiomes suivants :
 (SN₁) Quels que soient $x \in E$ et $\lambda \in \mathbf{K}$, on a $p(\lambda x) = |\lambda| p(x)$.
@@ -51,15 +51,15 @@ $$
 
 qui se déduit aussitôt des relations $p(x) \leq p(y) + p(x - y)$ et $p(y) \leq p(x) + p(y - x)$, puisque $p(y - x) = p(x - y)$.
 
-#### Exemple 1 {#evt-ii-s1-n1-exa-1 .statement}
+#### Exemple 1 {#evt-ii-s1-n1-exa-1 .statement tag=07AQ}
 
 Une norme sur $E$ est une semi-norme $p$ telle que la relation $p(x) = 0$ entraîne $x = 0$ (I, p. 3).
 
-#### Exemple 2 {#evt-ii-s1-n1-exa-2 .statement}
+#### Exemple 2 {#evt-ii-s1-n1-exa-2 .statement tag=07AR}
 
 Pour toute forme linéaire $f$ sur $E$, la fonction $x \mapsto |f(x)|$ est une semi-norme sur $E$.
 
-#### Exemple 3 {#evt-ii-s1-n1-exa-3 .statement}
+#### Exemple 3 {#evt-ii-s1-n1-exa-3 .statement tag=07AS}
 
 Soient $p_i$ ($1 \leq i \leq n$) des semi-normes en nombre fini sur $E$; il est immédiat que $p'(x) = \sup_{1 \leq i \leq n} p_i(x)$ et $p''(x) = \sum_{i=1}^n \alpha_i p_i(x)$ (où les $\alpha_i$ sont $\geq 0$) sont encore des semi-normes sur $E$.
 
@@ -71,7 +71,7 @@ Il est clair qu’une ultra-semi-norme est une semi-norme.
 
 Dire que la valeur absolue sur K est *ultramétrique* (AC, VI, § 6, n° 2) signifie que c’est une ultra-semi-norme sur l’espace vectoriel à gauche $K_s$ qui n’est pas identiquement nulle.
 
-#### Proposition 1 {#evt-ii-s1-prop-1 .statement}
+#### Proposition 1 {#evt-ii-s1-prop-1 .statement tag=07AT}
 
 *Soient* E *un espace vectoriel topologique à gauche sur* K, *p une semi-norme sur* E. *Les conditions suivantes sont équivalentes* :
 
@@ -84,7 +84,7 @@ f) *Pour tout nombre réel* $\alpha > 0$, *l’ensemble* V$(p, \alpha)$ *des* $x
 
 En effet, les implications $c) \Rightarrow a) \Rightarrow b) \Rightarrow d) \Rightarrow e) \Rightarrow f) \Rightarrow c)$ sont immédiates, en vertu de l’inégalité (1) et de (SN$_l$).
 
-#### Corollaire {#evt-ii-s1-n1-cor-1 .statement}
+#### Corollaire {#evt-ii-s1-n1-cor-1 .statement tag=07AU}
 
 *Si* p *est une semi-norme continue dans* E *et q une semi-norme sur* E *telle que* $q \leq p$, *alors* q *est continue dans* E.
 
@@ -100,23 +100,23 @@ Soit $E$ un espace vectoriel topologique sur $K$; on dit qu’un ensemble $\Gamm
 
 Soit $E$ un espace vectoriel sur $K$, muni de la topologie définie par un ensemble de semi-normes $\Gamma$. Pour toute semi-norme $p$, on a $p(x - z) \leq p(x - y) + p(y - z)$, ce qui montre que la fonction $(x, y) \mapsto p(x - y)$ est un *écart* sur $E$ (TG, IX, p. 1); il résulte des définitions que l’ensemble de ces écarts, lorsque $p$ parcourt $\Gamma$, définit la structure uniforme de l’espace vectoriel topologique $E$.
 
-#### Remarque 1 {#evt-ii-s1-n2-rem-1 .statement}
+#### Remarque 1 {#evt-ii-s1-n2-rem-1 .statement tag=07AV}
 
 La topologie définie par un ensemble *fini* de semi-normes $p_i$ sur $E$ ($1 \leq i \leq n$) peut être définie par la *seule* semi-norme $p = \sup_{1 \leq i \leq n} p_i$. Par contre une topologie définie par un ensemble infini de semi-normes ne peut en général être définie par une seule semi-norme (III, p. 38, exerc. 2).
 
-#### Remarque 2 {#evt-ii-s1-n2-rem-2 .statement}
+#### Remarque 2 {#evt-ii-s1-n2-rem-2 .statement tag=0E4H}
 
 Soit $(\mathscr{T}_\iota)_{\iota \in I}$ une famille de topologies sur un espace vectoriel $E$ sur $K$, dont chacune est définie par un ensemble $\Gamma_\iota$ de semi-normes. Alors la topologie définie par l’ensemble de semi-normes $\Gamma = \bigcup_{\iota \in I} \Gamma_\iota$ est la borne supérieure des topologies $\mathscr{T}_\iota$.
 
-#### Remarque 3 {#evt-ii-s1-n2-rem-3 .statement}
+#### Remarque 3 {#evt-ii-s1-n2-rem-3 .statement tag=0E4I}
 
 La relation « il existe $\lambda > 0$ tel que $p \leq \lambda q$ » entre deux semi-normes $p, q$ sur $E$ est une relation de préordre. Si $\Gamma_0$ est un ensemble de semi-normes *filtrant croissant* pour cette relation de préordre, on obtient un système fondamental de voisinages de 0 pour la topologie définie par $\Gamma_0$ en prenant l’ensemble des $V(p, \alpha)$, où $p \in \Gamma_0$ et $\alpha > 0$. Si $\Gamma$ est un ensemble quelconque de semi-normes sur $E$, on obtient un ensemble filtrant de semi-normes définissant la même topologie que $\Gamma$ en prenant l’ensemble $\Gamma_0$ des enveloppes supérieures de toutes les familles finies de semi-normes appartenant à $\Gamma$.
 
-#### Remarque 4 {#evt-ii-s1-n2-rem-4 .statement}
+#### Remarque 4 {#evt-ii-s1-n2-rem-4 .statement tag=0E4J}
 
 Même si $K = \mathbf{R}$, la topologie d’un espace vectoriel topologique sur $K$ ne peut pas toujours être définie par un ensemble de semi-normes (*cf.* II, p. 26).
 
-#### Exemple {#evt-ii-s1-n2-exa-1 .statement}
+#### Exemple {#evt-ii-s1-n2-exa-1 .statement tag=07AW}
 
 Soit $\mathscr{C}^\infty(\mathbf{R})$ l’espace vectoriel sur $\mathbf{R}$ des fonctions numériques indéfiniment dérivables dans $\mathbf{R}$. Pour toute fonction $f \in \mathscr{C}^\infty(\mathbf{R})$ et tout couple d’entiers $n \geq 0$, $m \geq 1$, posons :
 
@@ -126,7 +126,7 @@ $$
 
 avec $f^{(0)} = f$. Il est immédiat que les $p_{n,m}$ sont des semi-normes sur $\mathscr{C}^\infty(\mathbf{R})$. Pour que des fonctions $f_\alpha$ convergent vers 0 (suivant un filtre $\mathfrak{F}$ sur l’ensemble des indices) dans $\mathscr{C}^\infty(\mathbf{R})$ pour la topologie $\mathscr{T}$ définie par les semi-normes $p_{n,m}$, il faut et il suffit que, pour tout entier $n \geq 0$, les fonctions $f_\alpha^{(n)}$ tendent vers 0 (suivant $\mathfrak{F}$) *uniformément dans toute partie compacte de* $\mathbf{R}$. On dit que $\mathscr{T}$ est la *topologie de la convergence compacte pour les fonctions* $f \in \mathscr{C}^\infty(\mathbf{R})$ *et toutes leurs dérivées* (*cf.* III, p. 9).
 
-#### Proposition 2 {#evt-ii-s1-prop-2 .statement}
+#### Proposition 2 {#evt-ii-s1-prop-2 .statement tag=07AX}
 
 Soient $\Gamma$ un ensemble de semi-normes sur un espace vectoriel $E$, $\mathscr{T}$ la topologie sur $E$ définie par $\Gamma$.
 
@@ -182,7 +182,7 @@ Si les $p_i$ sont des ultra-semi-normes, il en est de même des $p_i \circ f_i$.
 
 Soit $E$ un espace vectoriel sur $K$, muni d’une topologie $\mathscr{T}$ définie par une famille de semi-normes $(p_i)_{i \in I}$; pour tout $i \in I$, soit $\mathscr{T}_i$ la topologie définie par la seule semi-norme $p_i$, et notons $E_i$ l’espace obtenu en munissant $E$ de $p_i$. Alors la topologie $\mathscr{T}$ est l’image réciproque par l’application diagonale $\Delta : E \to \prod_{i \in I} E_i$ de la topologie produit sur $\prod_{i \in I} E_i$ (I, p. 9, prop. 7). Pour tout $i \in I$, désignons par $N_i$ l’adhérence de 0 dans $E_i$, par $F_i = E_i / N_i$ l’espace normé défini par la norme $\dot{p}_i$ correspondant à $p_i$ (II, p. 4, formule (3)); si $\varphi_i : E_i \to F_i$ est l’application canonique, et $\varphi : (x_i) \mapsto (\varphi_i(x_i))$ l’application produit, on sait que la topologie produit sur $\prod_{i \in I} E_i$ est l’image réciproque par $\varphi$ de la topologie produit sur $\prod_{i \in I} F_i$ (TG, II, p. 26, prop. 18); la topologie $\mathscr{T}$ est donc l’image réciproque par l’application composée $\varphi \circ \Delta$ de la topologie produit sur $\prod_{i \in I} F_i$. Si en particulier $\mathscr{T}$ est séparée, il résulte de II, p. 4, prop. 2 que l’application $\varphi \circ \Delta$ est injective, donc :
 
-#### Proposition 3 {#evt-ii-s1-prop-3 .statement}
+#### Proposition 3 {#evt-ii-s1-prop-3 .statement tag=07AY}
 
 Tout espace vectoriel topologique séparé $E$ sur $K$, dont la topologie est définie par un ensemble de semi-normes, est isomorphe à un sous-espace d’un produit d’espaces de Banach.
 
@@ -190,7 +190,7 @@ Si de plus la topologie de $E$ est définie par une famille dénombrable de semi
 
 ### 4. Critères d’équicontinuité des applications multilinéaires pour les topologies définies par des semi-normes
 
-#### Proposition 4 {#evt-ii-s1-prop-4 .statement}
+#### Proposition 4 {#evt-ii-s1-prop-4 .statement tag=07AZ}
 
 Soient $E_i$ ($1 \leq i \leq n$) et $F$ des espaces vectoriels topologiques sur $K$; on suppose que pour tout $i$, la topologie de $E_i$ est définie par un ensemble filtrant de semi-normes $\Gamma_i$ et que la topologie de $F$ est définie par un ensemble de semi-normes $\Gamma$.
 
@@ -226,7 +226,7 @@ d’où en vertu de (6), la relation (5) avec $a = \beta (|\lambda_1| \cdot |\la
 
 C.Q.F.D.
 
-#### Corollaire {#evt-ii-s1-n4-cor-1 .statement}
+#### Corollaire {#evt-ii-s1-n4-cor-1 .statement tag=07B0}
 
 Pour que $H$ soit équicontinu, il faut et il suffit que, pour toute semi-norme $q \in \Gamma$, il existe un voisinage de 0 dans $\prod_{i=1}^n E_i$ dans lequel les fonctions $q \circ u$, pour $u \in H$, soient uniformément bornées.
 
@@ -234,7 +234,7 @@ La condition est évidemment nécessaire, et la démonstration de la prop. 4 mon
 
 Nous expliciterons le cas particulier de la prop. 4 relatif aux applications linéaires :
 
-#### Proposition 5 {#evt-ii-s1-prop-5 .statement}
+#### Proposition 5 {#evt-ii-s1-prop-5 .statement tag=07B1}
 
 Soient $E, F$ deux espaces vectoriels topologiques sur un corps valué non discret $K$; on suppose que la topologie de $E$ (resp. $F$) est définie par un ensemble $\Gamma$ (resp. $\Gamma'$) de semi-normes. Soit $\mathrm{H}$ un ensemble d’applications linéaires de $E$ dans $F$. Les conditions suivantes sont équivalentes :
 a) $\mathrm{H}$ est équicontinu.
@@ -244,11 +244,11 @@ q(u(x)) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x) .
 $$
 c) Pour toute semi-norme $q \in \Gamma'$, $\sup_{u \in \mathrm{H}} (q \circ u)$ est une semi-norme continue sur $E$.
 
-#### Corollaire 1 {#evt-ii-s1-prop-5-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s1-prop-5-cor-1 .statement tag=07B2}
 
 Soient $E$ un espace vectoriel sur $K$, $\mathscr{T}, \mathscr{T}'$ deux topologies sur $E$ définies respectivement par deux ensembles $\Gamma, \Gamma'$ de semi-normes. Pour que $\mathscr{T}$ soit plus fine que $\mathscr{T}'$, il faut et il suffit que, pour toute semi-norme $q \in \Gamma'$, il existe une famille finie $(p_i)_{1 \leq i \leq n}$ de semi-normes appartenant à $\Gamma$ et un nombre $a > 0$ tels que l’on ait $q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$ pour tout $x \in E$.
 En effet, cela exprime que l’application identique de $E$ muni de $\mathscr{T}$, sur $E$ muni de $\mathscr{T}'$, est continue.
 
-#### Corollaire 2 {#evt-ii-s1-prop-5-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s1-prop-5-cor-2 .statement tag=07B3}
 
 Soit $E$ un espace vectoriel topologique sur $K$, dont la topologie $\mathscr{T}$ est définie par un ensemble filtrant $\Gamma$ de semi-normes; pour toute semi-norme $p \in \Gamma$, soit $E_p$ l’espace obtenu en munissant $E$ de $p$. L’ensemble $E'$ des formes linéaires sur $E$ continues pour $\mathscr{T}$ est réunion des ensembles $E'_p$, où $E'_p$ est l’ensemble des formes linéaires continues dans $E_p$ ($p \in \Gamma$).

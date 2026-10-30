@@ -33,7 +33,7 @@ subsections:
       pdf_page: 66
 statements: 22
 exercises: 13
-content_sha256: 60acfb4862485d695fb00192a3ddfbbf3a14d8722db5b480d9231d9f4a418733
+content_sha256: 6f77503f163ed24dc008ca41827b3e33bf1e6d6832ff00b9187444d842371bc2
 ---
 
 ## § 6. INTÉGRATION DANS LES GROUPES DE LIE COMPACTS
@@ -223,7 +223,7 @@ $$
 
 d’où le lemme.
 
-#### Théorème 1 (H. Weyl) {#lie-ix-s6-thm-1 .statement}
+#### Théorème 1 (H. Weyl) {#lie-ix-s6-thm-1 .statement tag=01F1}
 
 *La mesure dg sur G est l’image par l’application* $(g, t) \mapsto gtg^{-1}$ *de* $G \times T$ *dans* $G$ *de la mesure* $dg \otimes \frac{1}{w(G)} \delta_G dt$, où
 $$
@@ -234,7 +234,7 @@ Il revient au même (INT, V, § 6, n° 3, prop. 4) de dire que $dg$ est l’imag
 
 Démontrons cette dernière assertion. Il résulte du § 5, n° 1 et de VAR, R, 10.1.3, c) que $G - G_r$ est négligeable dans $G$ et $T - T_r$ négligeable dans $T$. Par ailleurs l’application $f_r$ fait de $(G/T) \times T_r$ un revêtement principal de $G_r$, de groupe $W$ (§ 5, n° 4, prop. 4, b)). Le théorème résulte alors du lemme 3 et de INT, V, § 6, n° 6, prop. 11.
 
-#### Corollaire 1 {#lie-ix-s6-lem-3-cor-1 .statement}
+#### Corollaire 1 {#lie-ix-s6-lem-3-cor-1 .statement tag=0E8X}
 
 (i) *Soit* $\varphi$ *une fonction intégrable sur* $G$ *à valeurs dans un espace de Banach ou dans* $\overline{\mathbf{R}}$. *Pour presque tout* $t \in T$, *la fonction* $g \mapsto \varphi(gtg^{-1})$ *sur* $G$ *est intégrable pour* $dg$. *La fonction* $t \mapsto \delta_G(t) \int_G \varphi(gtg^{-1}) dg$ *est intégrable sur* $T$, *et l’on a*
 $$
@@ -249,7 +249,7 @@ $$
 
 Puisque l’application $f$ se déduit par passage au quotient de l’application $(g, t) \mapsto gtg^{-1}$ de $G \times T$ dans $G$, il suffit d’appliquer INT, V, § 5, 6, 8 et INT, VII, § 2.
 
-#### Corollaire 2 {#lie-ix-s6-lem-3-cor-2 .statement}
+#### Corollaire 2 {#lie-ix-s6-lem-3-cor-2 .statement tag=0E8Y}
 
 *Soit $\varphi$ une fonction centrale sur $G$ (c’est-à-dire telle que $\varphi(gh) = \varphi(hg)$ pour tous $g$ et $h$ dans $G$) à valeurs dans un espace de Banach ou dans $\overline{\mathbf{R}}$.
 a) *Pour que $\varphi$ soit mesurable, il faut et il suffit que sa restriction à $T$ soit mesurable.*
@@ -261,7 +261,7 @@ $$
 
 Notons $p : G/T \times T \to T$ la seconde projection. On a $\varphi \circ f = (\varphi|T) \circ p$; par ailleurs, l’image par $p$ de la mesure $\mu \otimes \frac{1}{w(G)} \delta_G dt$ est $\frac{1}{w(G)} \delta_G dt$. Le corollaire résulte alors du th. 1 ci-dessus et du th. 1 de INT, V, § 6, n° 2, appliqués aux deux applications propres $f$ et $p$.
 
-#### Corollaire 3 {#lie-ix-s6-lem-3-cor-3 .statement}
+#### Corollaire 3 {#lie-ix-s6-lem-3-cor-3 .statement tag=0E8Z}
 
 *Soient $H$ un sous-groupe fermé connexe de $G$ contenant $T$, $h$ son algèbre de Lie, et $dh$ la mesure de Haar sur $H$ de masse totale 1. Soit $\varphi$ une fonction centrale intégrable sur $G$, à valeurs dans un espace de Banach ou dans $\overline{\mathbf{R}}$. Alors la fonction $h \mapsto \varphi(h) \det(\mathrm{Ad}_{g/h}(h) - 1)$ est intégrable et centrale sur $H$ et l’on a :
 
@@ -561,7 +561,7 @@ $$
 
 où les flèches horizontales sont les injections canoniques, et les flèches verticales sont les isomorphismes induits par l’application $\omega \mapsto \omega(e)$.
 
-#### Corollaire 1 {#lie-ix-s6-thm-2-cor-1 .statement}
+#### Corollaire 1 {#lie-ix-s6-thm-2-cor-1 .statement tag=01FJ}
 
 **a)** *Dans le diagramme (18), tous les morphismes sont des homotopismes.*
 
@@ -581,7 +581,7 @@ Considérons les sous-complexes $Z(\Omega(G))$ et $B(\Omega(G))$ de $\Omega(G)$ 
 
 Soit $H$ un sous-groupe fermé de $G$; appliquons maintenant le th. 2 à $X = G/H$. D’après III, § 1, n° 8, cor. 1 à la prop. 17, les formes différentielles $G$-invariantes sur $G/H$ s’identifient aux éléments $H$-invariants de $\mathrm{Alt}(T_e(G/H))$, c’est-à-dire encore aux éléments de $\mathrm{Alt}(g)$ qui sont $H$-invariants et annulés par les opérateurs $i(\xi)$ pour tout $\xi \in L(H)$. Par suite :
 
-#### Corollaire 2 {#lie-ix-s6-thm-2-cor-2 .statement}
+#### Corollaire 2 {#lie-ix-s6-thm-2-cor-2 .statement tag=01FL}
 
 **Soit $H$ un sous-groupe fermé de $G$.**
 

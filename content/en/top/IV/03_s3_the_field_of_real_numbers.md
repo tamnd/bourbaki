@@ -25,7 +25,7 @@ subsections:
       pdf_page: 347
 statements: 2
 exercises: 3
-content_sha256: 47d8be83cbae9b2d2e98ad34338274cc89520c62bf8ef84052ce21d3cf5654c4
+content_sha256: afbf19bbf21fbfe05f4ab076c9028768c17367d06c4224c3286d307ed17aa711
 ---
 
 ## 3. THE FIELD OF REAL NUMBERS
@@ -42,7 +42,7 @@ $$
 
 The image, under the function $1/x$, of any Cauchy filter on $\mathbf{Q}^*$ (with respect to the additive uniformity) which does not have 0 as a cluster point, is a Cauchy filter (with respect to the additive uniformity). Hence (Chapter III, , no. 8, Proposition 7)
 
-#### Proposition 1 {#top-iv-s3-prop-1 .statement}
+#### Proposition 1 {#top-iv-s3-prop-1 .statement tag=0BQF}
 
 *The functions xy and $1/x$, defined respectively on $\mathbf{Q} \times \mathbf{Q}$ and $\mathbf{Q}^*$, can be extended by continuity to $\mathbf{R} \times \mathbf{R}$ and $\mathbf{R}^*$ respectively, and define a field structure on $\mathbf{R}$. Endowed with this structure, $\mathbf{R}$ is called the field of real numbers.*
 
@@ -71,7 +71,7 @@ It follows from what precedes that $\mathbf{R}_+^*$ is a subgroup of the multipl
 
 The fact that the product of two real numbers $\geq 0$ is $\geq 0$ can be expressed by saying that $\mathbf{R}$ is an ordered field: all the above properties are common to all ordered fields.
 
-#### Proposition 2 {#top-iv-s3-prop-2 .statement}
+#### Proposition 2 {#top-iv-s3-prop-2 .statement tag=0BQG}
 
 *The multiplicative group $\mathbf{R}^*$ of real numbers $\neq 0$ is a topological group isomorphic to the product of its subgroups $\mathbf{R}_+^*$ and $\mathbf{U}_0$, where*
 

@@ -25,9 +25,9 @@ subsections:
       pdf_page: 236
 statements: 7
 exercises: 2
-content_sha256: 19f3ed84a75afabf313978664d95c6ab37447981ebe129f449ae6f18afa7dacc
+content_sha256: 21e4b1ece349533bde5ca4980c25a2a13ffcf30bb34312e6a49e7ec744599908
 translated_from: content/en/int/IX/04_s4_inverse_limits_of_measures.md
-source_content_sha256: f6b86d94d23d998e501a81e7ce38d28415459097713e8eb85fec3ccfe744d0c1
+source_content_sha256: 5dd841f191bacbaf28441eec0f88259078f641775a797c2d66f85a7d4bd2a6c4
 translation_model: gpt-5.4
 translation_run: translate-vi-145f2a6b
 glossary_version: 34
@@ -44,13 +44,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Bổ túc về các không gian compắc và các giới hạn ngược
 
-#### Mệnh đề 1 {#int-ix-s4-prop-1 .statement}
+#### Mệnh đề 1 {#int-ix-s4-prop-1 .statement tag=09QM}
 
 — Cho X và Y là hai không gian tôpô và f là một ánh xạ liên tục từ X vào Y. Cho $(K_\alpha)_{\alpha \in A}$ là một họ có hướng giảm các tập con compắc của X, với giao là K. Khi đó $f(K) = \bigcap_{\alpha \in A} f(K_\alpha)$.
 
 Thật vậy, cho y là một điểm của $\bigcap_{\alpha \in A} f(K_\alpha)$; với mọi $\alpha \in A$, tập $L_\alpha = K_\alpha \cap f^{-1}(y)$ là compắc và khác rỗng. Họ $(L_\alpha)_{\alpha \in A}$ có hướng theo thứ tự giảm, do đó giao của nó là L khác rỗng. Bây giờ, $L = K \cap f^{-1}(y)$, do đó $y \in f(K)$. Vậy ta đã chứng minh được bao hàm $f(K) \supset \bigcap_{\alpha \in A} f(K_\alpha)$, và bao hàm ngược lại là hiển nhiên.
 
-#### Mệnh đề 2 {#int-ix-s4-prop-2 .statement}
+#### Mệnh đề 2 {#int-ix-s4-prop-2 .statement tag=09QN}
 
 — Cho một hệ ngược $(T_i, p_{ij})$ các không gian tôpô được đánh chỉ số bởi I, một không gian tôpô T, và một họ kết hợp và phân biệt các ánh xạ liên tục $p_i : T \to T_i$. Khi đó:
 
@@ -70,11 +70,11 @@ Do đó, tồn tại một chỉ số i sao cho $M_i = \varnothing$. Với $j \g
 
 ### 2. Hệ nghịch đảo các độ đo
 
-#### Định nghĩa 1 {#int-ix-s4-def-1 .statement}
+#### Định nghĩa 1 {#int-ix-s4-def-1 .statement tag=09QO}
 
 — Cho $\mathscr{T} = (T_i, p_{ij})$ là một hệ ngược các không gian tôpô được chỉ số hóa bởi I. Người ta gọi một hệ ngược (tương ứng, một hệ con ngược) các độ đo trên $\mathscr{T}$ là một họ $(\mu_i)_{i \in I}$, trong đó $\mu_i$ là một độ đo bị chặn trên $T_i$ với mọi $i \in I$, và trong đó $\mu_i = p_{ij}(\mu_j)$ (tương ứng, $\mu_i \geq p_{ij}(\mu_j)$) nếu $i \leq j$.
 
-#### Mệnh đề 3 {#int-ix-s4-prop-3 .statement}
+#### Mệnh đề 3 {#int-ix-s4-prop-3 .statement tag=09QP}
 
 *Cho một hệ ngược các không gian tôpô $\mathscr{T} = (T_i, p_{ij})$ được đánh chỉ số bởi $I$, một không gian tôpô $T$, một họ kết hợp và tách biệt các ánh xạ liên tục $p_i : T \to T_i$ (với $i \in I$) và một hệ con ngược $(\mu_i)_{i \in I}$ các độ đo trên $\mathscr{T}$. Với mọi tập con compact K của $T$, đặt*
 
@@ -119,7 +119,7 @@ Với $K \in \mathscr{L}$, ta có $p_i(K) \subset A$, do đó $J(K) \leq \mu_i^\
 
 Q.E.D.
 
-#### Định lý 1 (Prokhorov) {#int-ix-s4-thm-1 .statement}
+#### Định lý 1 (Prokhorov) {#int-ix-s4-thm-1 .statement tag=09QQ}
 
 — *Cho $\mathscr{T} = (T_i, p_{ij})$ là một hệ ngược các không gian tôpô được đánh chỉ số bởi $I$, $T$ là một không gian tôpô và $(p_i)_{i \in I}$ là một họ tương thích và phân biệt các ánh xạ liên tục $p_i : T \to T_i$. Sau hết, giả sử $(\mu_i)_{i \in I}$ là một hệ ngược các độ đo trên $\mathscr{T}$.
 
@@ -160,7 +160,7 @@ Q.E.D.
 
 Cho $(T_i, p_{ij})$ là một hệ ngược các không gian tôpô. Đặt $T = \lim_{\leftarrow} T_i$ và ký hiệu bởi $p_i$ ánh xạ chính tắc từ $T$ vào $T_i$. Tổng quát hóa Định nghĩa 2 của Ch. III, § 4, No. 5, ta sẽ nói rằng một độ đo bị chặn $\mu$ trên $T$ là *giới hạn ngược của một hệ ngược* $(\mu_i)_{i \in I}$ *các độ đo* nếu $\mu_i = p_i(\mu)$ với mọi $i \in I$. Định lý 1 cho một tiêu chuẩn về sự tồn tại của các giới hạn ngược của độ đo. Khi các không gian $T_i$ là *compact*, và các ánh xạ $p_{ij}$ toàn ánh, thì $T$ là compact và $p_i(T) = T_i$ với mọi $i \in I$; do đó điều kiện (P) được thỏa mãn, và trong trường hợp này ta thu lại Mệnh đề 8, (iv) của Ch. III, § 4, No. 5.
 
-#### Nhận xét {#int-ix-s4-n2-rem-1 .statement}
+#### Nhận xét {#int-ix-s4-n2-rem-1 .statement tag=09QR}
 
 — Cho $(\mu_i)_{i \in I}$ là một hệ ngược các độ đo trên hệ ngược các không gian $\mathscr{T} = (T_i, p_{ij})$. Giả sử đã cho một không gian tôpô $T'$ và các ánh xạ liên tục $p'_i : T' \to T_i$; giả sử rằng họ $(p'_i)_{i \in I}$ là tương hợp, nhưng không nhất thiết phân biệt các điểm. *Nếu điều kiện Prokhorov (P) được thỏa mãn bởi họ* $(p'_i)_{i \in I}$, *thì tồn tại một độ đo* $\mu'$ (*không nhất thiết duy nhất*) *trên* $T'$ *sao cho* $p'_i(\mu') = \mu_i$ *với mọi* $i \in I$.
 
@@ -172,7 +172,7 @@ Cho $\varepsilon > 0$; bởi vì điều kiện (P) của Prokhorov được th�
 
 ### 3. Trường hợp các hệ ngược đếm được
 
-#### Định lý 2 {#int-ix-s4-thm-2 .statement}
+#### Định lý 2 {#int-ix-s4-thm-2 .statement tag=09QS}
 
 — *Giả sử tập tiền thứ tự có hướng I có một tập con đồng cuối đếm được. Cho $\mathscr{T} = (T_i, p_{ij})$ là một hệ ngược các không gian tôpô, $T = \lim_{\leftarrow} T_i$ và $p_i$ là ánh xạ chính tắc từ $T$ vào $T_i$. Khi đó mọi hệ ngược $(\mu_i)_{i \in I}$ các độ đo trên $\mathscr{T}$ đều thừa nhận một giới hạn ngược.*
 

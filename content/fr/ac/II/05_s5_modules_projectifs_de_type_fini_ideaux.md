@@ -40,7 +40,7 @@ subsections:
       pdf_page: 148
 statements: 34
 exercises: 25
-content_sha256: 07721e18bf16b1b4ebe4720228543dbbe39418b7d26393acb95ffc49d2d5af8c
+content_sha256: 2eb8671e114284baef753682ee208011e4f5931d8a99008e107d6c3f421e8d32
 ---
 
 ## § 5. Modules projectifs de type fini Idéaux fractionnaires inversibles
@@ -51,13 +51,13 @@ Soient $A$ un anneau, $M$ un $A$-module. Pour tout élément $f \in A$, nous pos
 
 Soit $g$ un second élément de $A$; $A_{fg}$ (resp. $M_{fg}$) s’identifie canoniquement à $(A_f)_{g/1}$ (resp. $(M_f)_{g/1}$), où $g/1$ est l’image de $g$ dans $A_f$, et $u_{fg}$ à $(u_f)_{g/1}$ ($\S$ 2, no 3, prop. 7).
 
-#### Proposition 1 {#ac-ii-s5-prop-1 .statement}
+#### Proposition 1 {#ac-ii-s5-prop-1 .statement tag=04BE}
 
 Soit $f$ un élément d’un anneau $A$, et soit $\varphi : A \to A_f$ l’application canonique. L’application $^a\varphi : \mathrm{Spec}(A_f) \to \mathrm{Spec}(A)$ est un homéomorphisme de $\mathrm{Spec}(A_f)$ sur le sous-espace ouvert $X_f$ de $X = \mathrm{Spec}(A)$ ($\S$ 4, no 3).
 
 C’est un cas particulier du $\S$ 4, no 3, cor. de la prop. 13.
 
-#### Proposition 2 {#ac-ii-s5-prop-2 .statement}
+#### Proposition 2 {#ac-ii-s5-prop-2 .statement tag=04BF}
 
 Soient $A$ un anneau, $u : M \to N$ un homomorphisme de $A$-modules, et $p$ un idéal premier de $A$.
 
@@ -67,19 +67,19 @@ Soient $A$ un anneau, $u : M \to N$ un homomorphisme de $A$-modules, et $p$ un i
 
 Soient R et Q le noyau et le conoyau de u ; si g ∈ A, le noyau et le conoyau de u_g (resp. u_p) sont R_g et Q_g (resp. R_p et Q_p) (§ 2, n° 4, th. 1). On a donc Q_p = 0 ; comme N est de type fini, il en est de même de Q, de sorte qu’il existe g' ∈ A - p tel que g'Q = 0 (§ 2, n° 2, cor. 2 de la prop. 4), d’où Q_{g'} = 0. Sous les hypothèses de (ii), la suite 0 → R_{g'} → M_{g'} → N_{g'} → 0 est exacte, donc R_{g'} est de type fini (chap. I, § 2, n° 8, lemme 9). Or, on a (R_{g'})_{p_{R_{g'}}} = R_p = 0 ; donc il existe g_1 ∈ A_{g'} - pA_{g'} tel que g_1R_{g'} = 0 (§ 2, n° 2, cor. 2 de la prop. 4). On a g_1 = g''/g'^h, où g'' ∈ A - p ; comme g'/1 est inversible dans R_{g'}, on a (g''/1)R_{g'} = 0 d’où R_{g'g''} = (R_{g'})_{g''}/1 = 0. Si f = g'g'', on a f ∈ A - p, Q_f = 0 et R_f = 0, de sorte que u_f est bijectif.
 
-#### Corollaire {#ac-ii-s5-n1-cor-1 .statement}
+#### Corollaire {#ac-ii-s5-n1-cor-1 .statement tag=04BG}
 
 Si N est de présentation finie et si N_p est un A_p-module libre de rang p, il existe f ∈ A - p tel que N_f soit un A_f-module libre de rang p.
 
 Il existe par hypothèse p éléments x_i ∈ N (1 ≤ i ≤ p) tels que les x_i/1 forment une base du A_p-module libre N_p. Considérons l’homomorphisme u : A^p → N tel que u(e_i) = x_i pour 1 ≤ i ≤ p, (e_i)_{1 ≤ i ≤ p} étant la base canonique de A^p. Comme u_p est bijectif par hypothèse, il existe f ∈ A - p tel que u_f soit bijectif, en vertu de la prop. 2.
 
-#### Proposition 3 {#ac-ii-s5-prop-3 .statement}
+#### Proposition 3 {#ac-ii-s5-prop-3 .statement tag=04BH}
 
 Soit (f_i)_{i ∈ I} une famille finie d’éléments d’un anneau A, engendrant l’idéal A de A. L’anneau B = $\prod_{i \in I} A_{f_i}$ est alors un A-module fidèlement plat.
 
 En vertu du § 2, n° 4, th. 1, chacun des A_{f_i} est un A-module plat, donc il en est de même de B (chap. I, § 2, n° 3, prop. 2). D’autre part, si p est un idéal premier de A, il existe un indice i tel que f_i ∉ p et p_{f_i} = pA_{f_i} est donc un idéal premier de A_{f_i}. On a alors pB ⊂ pA_{f_i} × $\prod_{j \neq i} A_{f_j}$ ≠ B puisque pA_{f_i} ≠ A_{f_i} ; ceci suffit à entraîner que B est un A-module fidèlement plat (chap. I, § 3, n° 1, prop. 1).
 
-#### Corollaire {#ac-ii-s5-n1-cor-2 .statement}
+#### Corollaire {#ac-ii-s5-n1-cor-2 .statement tag=04BI}
 
 Sous les hypothèses de la prop. 3, pour qu’un A-module M soit de type fini (resp. de présentation finie), il faut et il suffit que, pour tout indice $i$, le $A_{f_i}$-module $M_{f_i}$ soit de type fini (resp. de présentation finie).
 
@@ -89,7 +89,7 @@ On notera que la condition sur les $f_i$ signifie que les ensembles ouverts $X_{
 
 ### 2. Caractérisation locale des modules projectifs de type fini.
 
-#### Théorème 1 {#ac-ii-s5-thm-1 .statement}
+#### Théorème 1 {#ac-ii-s5-thm-1 .statement tag=04BJ}
 
 Soient $A$ un anneau, $P$ un $A$-module. Les propriétés suivantes sont équivalentes :
 a) $P$ est un module projectif de type fini.
@@ -120,35 +120,35 @@ $d) \Rightarrow c)$: Il résulte du no 1, cor. de la prop. 3, que $P$ est de typ
 
 $d) \Rightarrow a)$: Considérons l’anneau $B = \prod_{i \in I} A_{f_i}$ et le $B$-module $M = \prod_{i \in I} P_{f_i} = P \otimes_A B$. Pour chaque indice $i$, il y a un $A_{f_i}$-module libre $L_i$ tel que $P_{f_i}$ soit facteur direct de $L_i$, et on peut supposer que les $L_i$ ont tous même rang ; donc $L = \prod_{i \in I} L_i$ est un B-module libre, dont M est facteur direct, autrement dit M est un B-module projectif de type fini. Comme B est un A-module fidèlement plat (no 1, prop. 3), on en conclut que P est un A-module projectif de type fini (chap. I, § 3, no 6, prop. 12).
 
-#### Corollaire 1 {#ac-ii-s5-thm-1-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s5-thm-1-cor-1 .statement tag=04BK}
 
 Supposons vérifiées les propriétés équivalentes de l’énoncé du th. 1. Soit m un entier $> 0$ tel que, pour toute famille $(x_i)_{1 \leq i \leq m}$ d’éléments de P, il existe une famille $(a_i)_{1 \leq i \leq m}$ d’éléments de A, non tous diviseurs de zéro, et pour lesquels $\sum_{i=1}^m a_i x_i = 0$. Alors, pour tout $p \in \mathrm{Spec}\,(A)$, on a $r_p \leq m$.
 
 En effet, soit $p$ un idéal premier de A ; posons $r = r_p$ et soit $(y_j)_{1 \leq j \leq r}$ une base du $A_p$-module libre $P_p$. Il existe des éléments $x_j$ ($1 \leq j \leq r$) de P et un $s \in A - p$ tels que $y_j = x_j / s$ pour tout $j$. Pour toute famille $(a_j)_{1 \leq j \leq r}$ d’éléments de A tels que $\sum_{j=1}^r a_j x_j = 0$, on a alors $\sum_{j=1}^r (a_j / 1) y_j = 0$ dans $P_p$, d’où $a_j / 1 = 0$ pour $1 \leq j \leq r$. Comme $A - p$ ne contient pas 0, cela montre que les $a_j$ sont tous diviseurs de zéro dans A ($§ 2$, no 1, Remarque 3), donc on a nécessairement $r \leq m$.
 
-#### Corollaire 2 {#ac-ii-s5-thm-1-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s5-thm-1-cor-2 .statement tag=04BL}
 
 Tout module plat de présentation finie est projectif.
 
 En effet, si P est un A-module plat de présentation finie, et m un idéal maximal de A, le $A_m$-module $P_m$ est plat ($§ 3$, no 4, prop. 13) et de présentation finie ($§ 2$, no 4), donc libre ($§ 3$, no 2, cor. 2 de la prop. 5). La condition b) du th. 1 est donc vérifiée.
 
-#### Remarque 1 {#ac-ii-s5-n2-rem-1 .statement}
+#### Remarque 1 {#ac-ii-s5-n2-rem-1 .statement tag=0CGY}
 
 Il existe des modules plats de type fini qui ne sont pas projectifs (exerc. 7).
 
-#### Remarque 2 {#ac-ii-s5-n2-rem-2 .statement}
+#### Remarque 2 {#ac-ii-s5-n2-rem-2 .statement tag=0CGZ}
 
 Le cor. 2 du th. 1 s’étend aux modules sur un anneau non commutatif (chap. I, § 2, exerc. 15).
 
 ### 3. Rangs des modules projectifs.
 
-#### Définition 1 {#ac-ii-s5-def-1 .statement}
+#### Définition 1 {#ac-ii-s5-def-1 .statement tag=04BM}
 
 Soit P un A-module projectif de type fini. Pour tout idéal premier $p$ de A, le rang du $A_p$-module libre $P_p$ s'appelle le rang de P en $p$ et se note $\mathrm{rg}_p(P)$.
 
 En vertu du th. 1, la fonction $p \to \mathrm{rg}_p(P)$ à valeurs entières est localement constante dans $X = \mathrm{Spec}(A)$; elle est par suite constante si X est connexe, et en particulier lorsque l'anneau A est intègre ($§ 4$, no 3, cor. 2 de la prop. 15).
 
-#### Définition 2 {#ac-ii-s5-def-2 .statement}
+#### Définition 2 {#ac-ii-s5-def-2 .statement tag=04BN}
 
 Soit n un entier $\geqslant 0$. On dit qu'un A-module projectif P est de rang n s'il est de type fini et si $\mathrm{rg}_p(P) = n$ pour tout idéal premier $p$ de A.
 
@@ -156,7 +156,7 @@ Il est clair que tout A-module libre de type fini L est de rang n au sens de la 
 
 Un module projectif de rang 0 est nul ($§ 3$, no 3, cor. 2 du th. 1). Si A n'est pas réduit à 0 et si un A-module projectif P est de rang n, l'entier n est déterminé de façon unique ; on le note alors $\mathrm{rg}(P)$.
 
-#### Théorème 2 {#ac-ii-s5-thm-2 .statement}
+#### Théorème 2 {#ac-ii-s5-thm-2 .statement tag=04BO}
 
 Soient P un A-module et n un entier $\geqslant 0$. Les propriétés suivantes sont équivalentes :
 a) P est projectif de rang n.
@@ -166,7 +166,7 @@ d) Pour tout idéal maximal m de A, il existe $f \in A - m$ tel que le $A_f$-mod
 
 En vertu de la déf. 2 et du th. 1, a) et c) sont équivalentes ; b) implique c), car pour tout idéal premier $p$ de A, il existe un idéal maximal m contenant $p$, et si on pose $p' = p_m$, $P_p$ est isomorphe à $(P_m)_{p'}$ ($§ 2$, no 5, prop. 11) ; si $P_m$ est libre de rang n, il en est donc de même de $P_p$. La propriété c) implique d) en vertu du th. 1 et du fait que, si $f \in A - m$ et si $m' = m_f$, $P_m$ est isomorphe à $(P_f)_{m'}$, donc les rangs de $P_f$ et $P_m$ sont égaux. Enfin ce dernier raisonnement et le th. 1 montrent que d) implique b).
 
-#### Remarque {#ac-ii-s5-n3-rem-1 .statement}
+#### Remarque {#ac-ii-s5-n3-rem-1 .statement tag=04BP}
 
 Si $A$ est un anneau intègre, un $A$-module projectif admet un rang bien défini (au sens de la déf. 2), comme on l’a observé plus haut ; en outre ce rang coïncide avec le rang défini en Alg., chap. II, 3e éd., § 7, no 2 ; il suffit en effet d’appliquer le th. 2 c) avec $p = (0)$.
 
@@ -180,11 +180,11 @@ Soient $E$ et $F$ deux $A$-modules projectifs de type fini. On sait (Alg., chap.
 
 Lorsque les rangs de $E$ et de $F$ sont définis, il en est de même de ceux de $E \times F, E \otimes_A F, \operatorname{Hom}_A(E, F), E^*$ et $\wedge^k E$, et les formules ci-dessus sont encore valables en omettant l’indice $p$. En outre :
 
-#### Corollaire {#ac-ii-s5-n3-cor-1 .statement}
+#### Corollaire {#ac-ii-s5-n3-cor-1 .statement tag=04BQ}
 
 Pour qu’un $A$-module projectif de type fini $P$ soit de rang $n$, il faut et il suffit que $\wedge^n P$ soit de rang 1.
 
-#### Proposition 4 {#ac-ii-s5-prop-4 .statement}
+#### Proposition 4 {#ac-ii-s5-prop-4 .statement tag=04BR}
 
 Soient $B$ une $A$-algèbre commutative, $P$ un $A$-module projectif de rang $n$. Le $B$-module $P_{(B)} = B \otimes_A P$ est alors projectif de rang $n$.
 
@@ -192,7 +192,7 @@ On sait que $P_{(B)}$ est projectif de type fini (Alg., chap. II, 3e éd., § 5,
 
 (P \otimes_A A_p) \otimes_{A_p} B_q, et comme, par hypothèse, P \otimes_A A_p est un A_p-module libre de rang n, (P_{(B)})_q est un B_q-module libre de rang n.
 
-#### Proposition 5 {#ac-ii-s5-prop-5 .statement}
+#### Proposition 5 {#ac-ii-s5-prop-5 .statement tag=04BS}
 
 Soient A un anneau semi-local, P un A-module projectif de type fini. Si le rang de P est défini, P est un A-module libre.
 
@@ -200,7 +200,7 @@ Supposons d’abord que A soit isomorphe à un produit de corps K_i (1 \leq i \l
 
 ### 4. Modules projectifs de rang 1.
 
-#### Théorème 3 {#ac-ii-s5-thm-3 .statement}
+#### Théorème 3 {#ac-ii-s5-thm-3 .statement tag=04BT}
 
 Soient A un anneau, M un A-module de type fini.
 
@@ -218,7 +218,7 @@ $$
 N \to N \otimes A \to N \otimes M \otimes M^* \to A \otimes M^* \to M^*.
 $$
 
-#### Proposition 6 {#ac-ii-s5-prop-6 .statement}
+#### Proposition 6 {#ac-ii-s5-prop-6 .statement tag=04BU}
 
 Soient $M$ et $N$ des $A$-modules projectifs de rang 1. Alors $M \otimes_A N$, $\mathrm{Hom}_A(M, N)$ et le dual $M^*$ de $M$ sont projectifs de rang 1.
 
@@ -232,7 +232,7 @@ $$
 
 et on définit ainsi une loi de composition interne dans $P(A)$.
 
-#### Proposition 7 {#ac-ii-s5-prop-7 .statement}
+#### Proposition 7 {#ac-ii-s5-prop-7 .statement tag=04BV}
 
 L’ensemble $P(A)$ des classes de $A$-modules projectifs de rang 1, muni de la loi de composition (6), est un groupe commutatif. Si $M$ est un $A$-module projectif de rang 1 et $M^*$ son dual, on a
 
@@ -262,13 +262,13 @@ Dans ce no et les deux suivants, on note $A$ un anneau, $S$ une partie multiplic
 
 L’un des cas particuliers les plus importants pour les applications est celui où $A$ est intègre et $S$ l’ensemble des éléments $\neq 0$ de $A$; $B$ est alors le corps des fractions de $A$.
 
-#### Définition 3 {#ac-ii-s5-def-3 .statement}
+#### Définition 3 {#ac-ii-s5-def-3 .statement tag=04BW}
 
 Soit $M$ un sous-A-module de $B$. On dit que $M$ est non dégénéré si $B.M = B$.
 
 Lorsque $B$ est un corps, cette condition signifie simplement que $M$ n’est pas réduit à 0.
 
-#### Proposition 8 {#ac-ii-s5-prop-8 .statement}
+#### Proposition 8 {#ac-ii-s5-prop-8 .statement tag=04BX}
 
 Soit $M$ un sous-A-module de $B$. Les conditions suivantes sont équivalentes :
 a) $M$ est non dégénéré.
@@ -276,14 +276,14 @@ b) $M$ rencontre $S$.
 c) Si $j : M \to B$ est l’injection canonique, l’homomorphisme $u = S^{-1}j : S^{-1}M \to B$ est bijectif.
    a) implique b), car si $B.M = B$, il existe $a \in A, s \in S$ et $x \in M$ tels que $(a/s)x = 1$, donc $ax = s$ appartient à $S \cap M$. Pour voir que b) implique c), remarquons déjà que $u$ est injectif ($§ 2$, no 4, th. 1) ; en outre si $x \in M \cap S$, l’image par $u$ de $x/x \in S^{-1}M$ dans $B$ est égale à 1, et $u$ est donc surjectif. Enfin, il est clair que c) entraîne a).
 
-#### Corollaire {#ac-ii-s5-n5-cor-1 .statement}
+#### Corollaire {#ac-ii-s5-n5-cor-1 .statement tag=04BY}
 
 Si $M$ et $N$ sont deux sous-A-modules non dégénérés de $B$, les A-modules $M + N, M.N$ et $M \cap N$ sont non dégénérés.
    L’assertion est triviale pour $M + N$; d’autre part, si $s \in S \cap M$ et $t \in S \cap N$, on a $st \in S \cap (M.N)$ et $st \in S \cap (M \cap N)$.
 
 Étant donnés deux sous-A-modules M et N de B, désignons par N : M le sous-A-module de B formé des $b \in B$ tels que $bM \subset N$ (chap. I, § 2, no 10, Remarque). Si l’on fait correspondre à tout $b \in N : M$ l’homomorphisme $h_b : x \to bx$ de M dans N, on obtient un homomorphisme canonique $b \to h_b$ de N : M dans $\mathrm{Hom}_A(M, N)$.
 
-#### Proposition 9 {#ac-ii-s5-prop-9 .statement}
+#### Proposition 9 {#ac-ii-s5-prop-9 .statement tag=04BZ}
 
 Soient M, N deux sous-A-modules de B. Si M est non dégénéré, l’homomorphisme canonique de N : M dans $\mathrm{Hom}_A(M, N)$ est bijectif.
 
@@ -295,7 +295,7 @@ $$
 
 d’où $b \in N : M$ et $f = h_b$, ce qui démontre la proposition.
 
-#### Remarque {#ac-ii-s5-n5-rem-1 .statement}
+#### Remarque {#ac-ii-s5-n5-rem-1 .statement tag=04C0}
 
 En particulier, $A : M$ s’identifie canoniquement au dual $M^*$ de M, la forme bilinéaire canonique sur $M \times M^*$ s’identifiant à la restriction à $M \times (A : M)$ de la multiplication $B \times B \to B$.
 
@@ -303,15 +303,15 @@ En particulier, $A : M$ s’identifie canoniquement au dual $M^*$ de M, la forme
 
 (On conserve les notations du no 5.)
 
-#### Définition 4 {#ac-ii-s5-def-4 .statement}
+#### Définition 4 {#ac-ii-s5-def-4 .statement tag=04C1}
 
 On dit qu’un sous-A-module M de B est inversible s’il existe un sous-A-module N de B tel que $M.N = A$.
 
-#### Exemple {#ac-ii-s5-n6-exa-1 .statement}
+#### Exemple {#ac-ii-s5-n6-exa-1 .statement tag=04C2}
 
 Si b est un élément inversible de B, le A-module Ab est inversible, comme on le voit en prenant $N = Ab^{-1}$.
 
-#### Proposition 10 {#ac-ii-s5-prop-10 .statement}
+#### Proposition 10 {#ac-ii-s5-prop-10 .statement tag=04C3}
 
 Soit M un sous-A-module inversible de B. Alors :
 
@@ -328,7 +328,7 @@ $$
 
 et $M.(A : M) = A$; multipliant les deux membres par $N$, on en déduit $A : M = N$, ce qui achève la démonstration.
 
-#### Théorème 4 {#ac-ii-s5-thm-4 .statement}
+#### Théorème 4 {#ac-ii-s5-thm-4 .statement tag=04C4}
 
 **Soit M un sous-A-module non dégénéré de B. Les propriétés suivantes sont équivalentes :**
 
@@ -352,12 +352,12 @@ Puisque M est non dégénéré, on a fλ(x) = nλx pour un nλ ∈ A : M en vert
 
 En vertu de la déf. 2 du n° 3, c) entraîne d). Démontrons la réciproque. Comme M est non dégénéré, son annulateur est nul, (prop. 8 b)), donc il en est de même de l’annulateur de Mm (§ 2, n° 4, formule (9)). Comme on suppose que Mm est un Am-module monogène, il est donc libre de rang 1 et il résulte alors du n° 3, th. 2, que M est projectif de rang 1.
 
-#### Corollaire {#ac-ii-s5-n6-cor-1 .statement}
+#### Corollaire {#ac-ii-s5-n6-cor-1 .statement tag=04C5}
 
 Tout sous-A-module inversible de B est plat et de présentation finie.
 Cela résulte du th. 4 c).
 
-#### Proposition 11 {#ac-ii-s5-prop-11 .statement}
+#### Proposition 11 {#ac-ii-s5-prop-11 .statement tag=04C6}
 
 Soient M, N deux sous-A-modules de B.
 On suppose M inversible. Alors :
@@ -366,7 +366,7 @@ On suppose M inversible. Alors :
 Soit j l’injection canonique N → B. Puisque M est un A-module plat (cor. du th. 4), 1 ⊗ j : M ⊗A N → M ⊗A B est injectif. Mais comme B = S−1A, le B-module M ⊗A B est égal à S−1M, donc s’identifie à B puisque M est non dégénéré (n° 5, prop. 8). Si l’on effectue cette identification, l’image de 1 ⊗ j est M.N, d’où (i).
 Posons M′ = A : M. On a évidemment M′.N ⊂ N : M et M.(N : M) ⊂ N. D’autre part, puisque M.M′ = A (prop. 10), on a N : M = M′.M.(N : M) ⊂ M′.N et N = M.M′.N ⊂ M.(N : M), d’où (ii).
 
-#### Remarque {#ac-ii-s5-n6-rem-1 .statement}
+#### Remarque {#ac-ii-s5-n6-rem-1 .statement tag=04C7}
 
 La démonstration de (i) dans la prop. 11 utilise seulement le fait que M est plat et non dégénéré.
 
@@ -386,7 +386,7 @@ où (1) désigne un groupe réduit à l’élément neutre, et $\rho$ est l’ap
 
 Comme tout sous-A-module inversible M de B est projectif de rang 1 (no 6, th. 4), l’élément $cl(M) \in P(A)$ est défini (no 4).
 
-#### Proposition 12 {#ac-ii-s5-prop-12 .statement}
+#### Proposition 12 {#ac-ii-s5-prop-12 .statement tag=04C8}
 
 L’application $cl : \mathfrak{J} \to P(A)$ définit, par passage au quotient, un isomorphisme de $\mathfrak{C} = \mathfrak{J}/\theta(B^*)$ sur le noyau de l’homomorphisme canonique $\varphi : P(A) \to P(B)$ (no 4).
 
@@ -400,17 +400,17 @@ Il résulte de la prop. 11 du no 6, et de la définition de l’addition dans $P
 
 Déterminons maintenant l’image de cl. Si $M \in \mathfrak{J}$, on a $M \otimes_A B = S^{-1}M = B$ (n° 5, prop. 8 c)), d’où $cl(M) \in \mathrm{Ker}(\varphi)$. Réciproquement, soit P un A-module projectif de rang 1 tel que $P_{(B)} = P \otimes_A B$ soit B-isomorphe à B. Comme P est un A-module plat, l’injection $u : A \to B$ définit une injection $u \otimes 1 : P \to P_{(B)} = B$ et P se trouve ainsi identifié à un sous-A-module de B ; en vertu de la prop. 8 c) du n° 5, P est non dégénéré, et le th. 4 du n° 6 montre que P est inversible. Le noyau de $\varphi$ est donc bien égal à l’image de cl : $\mathfrak{J} \to \mathbf{P}(A)$.
 
-#### Corollaire 1 {#ac-ii-s5-prop-12-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s5-prop-12-cor-1 .statement tag=04C9}
 
 Pour que deux sous-A-modules inversibles de B aient même image dans $\mathfrak{C}$, il faut et il suffit qu’ils soient isomorphes.
 
-#### Corollaire 2 {#ac-ii-s5-prop-12-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s5-prop-12-cor-2 .statement tag=04CA}
 
 Si l’anneau B est semi-local, le groupe $\mathfrak{C}$ des classes de sous-A-modules inversibles de B s’identifie canoniquement au groupe $\mathbf{P}(A)$ des classes de A-modules projectifs de rang 1.
 
 En effet, on a alors $\mathbf{P}(B) = 0$ (n° 3, prop. 5).
 
-#### Remarque {#ac-ii-s5-n7-rem-1 .statement}
+#### Remarque {#ac-ii-s5-n7-rem-1 .statement tag=04CB}
 
 L’hypothèse du cor. 2 est remplie dans les deux cas suivants :
 

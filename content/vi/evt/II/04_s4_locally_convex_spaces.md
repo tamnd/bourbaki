@@ -41,9 +41,9 @@ subsections:
       pdf_page: 71
 statements: 33
 exercises: 17
-content_sha256: c7f3c34ece52461b88e1cb2edc01ef7066a906e823e9c5ff16e92d21e3152921
+content_sha256: 575daac99bee94ea28c578e3569ac7fe57af2b4ea9c93b76e2ba3cc99750dabb
 translated_from: content/en/evt/II/04_s4_locally_convex_spaces.md
-source_content_sha256: 8758f102dc7a62f5a7635ace604f8701a260f6ea2fd6a3222d384f262b9293ea
+source_content_sha256: 739b1018258c46c62f41370f616639ef1cdd404280e387353dc0a0e48e83ef94
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-c1232c45
 glossary_version: 34
@@ -55,7 +55,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Định nghĩa không gian lồi địa phương
 
-#### Định nghĩa 1 {#evt-ii-s4-def-1 .statement}
+#### Định nghĩa 1 {#evt-ii-s4-def-1 .statement tag=07E4}
 
 — *Một không gian vectơ tôpô là lồi địa phương (thực) nếu tồn tại một hệ lân cận cơ bản của 0 gồm các tập hợp lồi.*
 
@@ -65,7 +65,7 @@ Các không gian vectơ tôpô trên $\mathbf{R}$ mà chúng ta nghiên cứu tr
 
 Nếu $V$ là một lân cận lồi của 0 trong không gian lồi địa phương $E$, thì $V \cap (-V)$ là một lân cận lồi đối xứng của 0. Vì bao đóng của một tập hợp lồi là lồi (II, p. 13, mệnh đề 14), theo I, p. 7, mệnh đề 4, các lân cận của 0 trong $E$ *đóng, đối xứng và lồi* tạo thành một hệ lân cận cơ bản bất biến qua các phép vị tự có tâm 0 và tỉ số $\neq 0$.
 
-#### Mệnh đề 1 {#evt-ii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#evt-ii-s4-prop-1 .statement tag=07E5}
 
 — *Cho $\mathfrak{S}$ là một cơ sở lọc trên một không gian vectơ $E$ được tạo thành từ các tập hợp hấp thụ, đối xứng và lồi. Khi đó tập hợp $\mathfrak{B}$ gồm các ảnh của các tập hợp thuộc $\mathfrak{S}$ qua các phép vị tự có tỉ số $> 0$ là một hệ lân cận cơ bản của 0 đối với một tôpô lồi địa phương trên $E$.*
 
@@ -73,7 +73,7 @@ Rõ ràng $\mathfrak{B}$ là một cơ sở lọc thỏa mãn (EV_I) và (EV_{II
 
 Chú ý rằng nếu $\mathscr{T}$ là tôpô lồi địa phương trên E có $\mathfrak{B}$ làm hệ lân cận cơ bản của 0, thì các tập hợp $(1/n) \ V$, trong đó $n$ biến thiên trong các số nguyên $> 0$ và V biến thiên trong $\mathfrak{S}$, tạo thành một hệ lân cận cơ bản của 0 đối với tôpô $\mathscr{T}$. Khi đó $\mathscr{T}$ là Hausdorff khi và chỉ khi, với mọi $x \neq 0$ trong E, tồn tại một số nguyên $n$ và một tập hợp $V \in \mathfrak{S}$, sao cho $nx \notin V$; hơn nữa, nếu $\mathfrak{S}$ là đếm được, thì tôpô $\mathscr{T}$ là một tôpô lồi địa phương có thể mêtric hóa. Ngược lại, rõ ràng rằng nếu $\mathscr{T}$ là một tôpô lồi địa phương có thể mêtric hóa, thì tồn tại một hệ lân cận cơ bản đếm được gồm các lân cận đóng, đối xứng, lồi của 0 đối với $\mathscr{T}$.
 
-#### Hệ quả {#evt-ii-s4-n1-cor-1 .statement}
+#### Hệ quả {#evt-ii-s4-n1-cor-1 .statement tag=07E6}
 
 — *Tôpô $\mathscr{T}$ của một không gian vectơ tôpô E được xác định bởi một tập hợp các nửa chuẩn* (II, p. 3) *khi và chỉ khi $\mathscr{T}$ là lồi địa phương*.
 
@@ -83,31 +83,31 @@ Chú ý rằng nếu $\mathscr{T}$ là tôpô lồi địa phương trên E có 
 
 Từ hệ quả của mệnh đề 1, tất cả các kết quả của § 1 về các tôpô được xác định bởi các tập hợp nửa chuẩn đều áp dụng đặc biệt cho các tôpô lồi địa phương trên các không gian vectơ thực. Một không gian Hausdorff lồi địa phương E có một phép hoàn thành $\hat{E}$ cũng lồi địa phương. Một không gian lồi địa phương đầy đủ, có thể mêtric hóa được gọi là một *không gian Fréchet*; mọi không gian Banach đều là một không gian Fréchet.
 
-#### Mệnh đề 2 {#evt-ii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#evt-ii-s4-prop-2 .statement tag=07E7}
 
 — *Cho f là một dạng tuyến tính liên tục xác định trên một không gian con vectơ M của một không gian lồi địa phương E; khi đó tồn tại một dạng tuyến tính liên tục h xác định trên E và là một mở rộng của f*.
 
 Từ hệ quả trên và II, p. 7, hệ quả 2, tồn tại một nửa chuẩn liên tục $p$ trên E, sao cho $|f(y)| \leq p(y)$ với mọi $y \in M$. Theo định lý Hahn-Banach (II, p. 23, hệ quả 1), tồn tại một dạng tuyến tính $h$ trên E mở rộng $f$ và sao cho $|h(x)| \leq p(x)$ với mọi $x \in E$, và điều này suy ra rằng $h$ liên tục (II, p. 6, mệnh đề 5).
 
-#### Nhận xét {#evt-ii-s4-n1-rem-1 .statement}
+#### Nhận xét {#evt-ii-s4-n1-rem-1 .statement tag=07E8}
 
 — Nếu $g$ là một ánh xạ tuyến tính liên tục của M vào không gian tích $\mathbf{R}^I$, thì tồn tại một ánh xạ tuyến tính liên tục $h$ của E vào $\mathbf{R}^I$ là một sự mở rộng của $g$; vì khi viết $g = (g_i)$, trong đó các $g_i$ là các dạng tuyến tính liên tục xác định trên M, thì với mỗi $i \in I$ có một sự mở rộng $h_i$ của $g_i$, sao cho $h_i$ là một dạng tuyến tính liên tục trên E. Ánh xạ tuyến tính liên tục $h = (h_i)$ có các tính chất cần thiết.
 
 Chú ý rằng nếu F là một không gian Hausdorff lồi địa phương và $g$ là một ánh xạ tuyến tính liên tục của M vào F, thì không nhất thiết tồn tại một ánh xạ tuyến tính liên tục của E vào F là một sự mở rộng của $g$ (IV, p. 55, bài tập 16, c)). Tuy nhiên có tồn tại một sự mở rộng như vậy khi M hữu hạn chiều (*xem* hệ quả 2, dưới đây).
 
-#### Hệ quả 1 {#evt-ii-s4-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s4-prop-2-cor-1 .statement tag=07E9}
 
 — *Cho E là một không gian lồi địa phương. Nếu $x_0 \in E$ không thuộc bao đóng của $\{0\}$, thì tồn tại một dạng tuyến tính liên tục f xác định trên E sao cho $f(x_0) \neq 0$*.
 
 Áp dụng mệnh đề 2 cho không gian vectơ một chiều M sinh bởi $x_0$ và cho dạng tuyến tính $\xi x_0 \mapsto \xi$ xác định trên M, mà theo I, p. 12, mệnh đề 2, là liên tục.
 
-#### Hệ quả 2 {#evt-ii-s4-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s4-prop-2-cor-2 .statement tag=07EA}
 
 — Cho M là một không gian con vectơ hữu hạn chiều của E, một không gian Hausdorff lồi địa phương. Khi đó tồn tại một không gian con vectơ đóng N của E, là phần bù tôpô của M trong E.
 
 Tồn tại một phần bù tôpô của M trong E nếu, và chỉ nếu, ánh xạ đồng nhất của M lên chính nó có thể được mở rộng thành một ánh xạ tuyến tính liên tục của E lên M, và ánh xạ đó khi ấy tất yếu là một phép chiếu liên tục (GT, III, § 6.2, hệ quả). Điều này suy ra từ nhận xét trên vì M đẳng cấu với một không gian $\mathbf{R}^n$ (I, p. 13, định lý 2).
 
-#### Mệnh đề 3 {#evt-ii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#evt-ii-s4-prop-3 .statement tag=07EB}
 
 — Trong một không gian lồi địa phương E, bao lồi cân bằng của một tập tiền compact cũng là một tập tiền compact.
 
@@ -115,7 +115,7 @@ Cho A là một tập tiền compact trong E. Với V, một lân cận lồi c�
 
 Chú ý rằng, trong một không gian Hausdorff lồi địa phương vô hạn chiều, bao lồi của một tập compact không nhất thiết đóng (II, p. 74, bài tập 3).
 
-#### Hệ quả {#evt-ii-s4-n1-cor-2 .statement}
+#### Hệ quả {#evt-ii-s4-n1-cor-2 .statement tag=07EC}
 
 — Nếu, trong một không gian Hausdorff lồi địa phương E, một tập compact X được chứa trong một tập lồi đầy đủ (đầy đủ trong cấu trúc đều cảm sinh bởi cấu trúc của E) thì bao lồi đóng của X là compact.
 
@@ -143,7 +143,7 @@ Sau cùng, hãy chú ý rằng nếu E mang một tôpô $\mathscr{T}$ tương t
 
 ### 3. Các tôpô ban đầu lồi địa phương
 
-#### Mệnh đề 4 {#evt-ii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#evt-ii-s4-prop-4 .statement tag=07ED}
 
 *Cho E là một không gian vectơ và cho $(E_i)_{i \in I}$ là một họ các không gian lồi địa phương. Với mỗi $i \in I$, cho $f_i$ là một ánh xạ tuyến tính của E vào $E_i$; khi đó tôpô* $\mathscr{T}$ *trên E, là tôpô thô nhất làm cho mỗi ánh xạ $f_i$ liên tục, là một tôpô lồi địa phương.*
 
@@ -157,7 +157,7 @@ Mọi không gian Hausdorff lồi địa phương E đều đẳng cấu với m
 
 ### 4. Các tôpô cuối lồi địa phương
 
-#### Mệnh đề 5 {#evt-ii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#evt-ii-s4-prop-5 .statement tag=07EE}
 
 *Cho E là một không gian vectơ, và $(F_\alpha)_{\alpha \in A}$ là một họ các không gian vectơ tôpô và với mỗi $\alpha \in A$, cho $g_\alpha$ là một ánh xạ tuyến tính của $F_\alpha$ vào E.*
 
@@ -179,13 +179,13 @@ Có thể xảy ra rằng $\mathscr{T}$ không phải là tôpô mịn nhất tr
 
 Trong trường hợp quan trọng nhất $E = \sum_{\alpha \in A} g_\alpha(F_\alpha)$, ta có một hệ cơ sở các lân cận của 0 đối với $\mathscr{T}$ như sau; với mỗi $\alpha \in A$, lấy $V_\alpha$ là một lân cận đối xứng của 0 đối với $\mathscr{T}_\alpha$, lập hợp của các $g_\alpha(V_\alpha)$ với $\alpha \in A$ và ký hiệu bao lồi trong E của hợp này bởi $\Gamma((g_\alpha(V_\alpha)))$; vì mọi phần tử của E đều có dạng $\sum_{\alpha \in J} x_\alpha$, trong đó J là một tập con hữu hạn của I và $x_\alpha \in g_\alpha(F_\alpha)$, nên ngay lập tức $\Gamma((g_\alpha(V_\alpha)))$ là một tập lồi đối xứng hấp thụ trong E (mỗi $V_\alpha$ đều hấp thụ trong $F_\alpha$); vì $\Gamma((g_\alpha(V_\alpha)))$ chứa tất cả các $g_\alpha(V_\alpha)$, nên nó là một lân cận của 0 đối với $\mathscr{T}$. Mặt khác, rõ ràng rằng với mọi lân cận lồi đối xứng V của 0 đối với $\mathscr{T}$, ta có $V \supset \Gamma((V \cap g_\alpha(F_\alpha)))$, từ đó suy ra mệnh đề của chúng ta.
 
-#### Hệ quả 1 {#evt-ii-s4-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s4-prop-5-cor-1 .statement tag=07EF}
 
 *Với các ký hiệu của mệnh đề 5, cho H là một tập các ánh xạ tuyến tính từ E vào không gian lồi địa phương G. Giả sử E là tổng các không gian con $g_\alpha(F_\alpha)$ của nó; khi đó H là đẳng liên tục đối với $\mathscr{T}$, khi và chỉ khi, với mọi $\alpha$, tập $f \circ g_\alpha$ trong đó $f$ chạy trên H, là đẳng liên tục trong $F_\alpha$.*
 
 Nhắc lại I, p. 9, Mệnh đề 6, lập luận tương tự như lập luận của (ii) Mệnh đề 5. Cho W là một lân cận lồi đối xứng của 0 trong G và chú ý rằng nếu họ $f \circ g_\alpha$, trong đó $f \in H$ là liên tục đều, thì giao $\bigcap_{f \in H} g_\alpha^{-1}(f^{-1}(W))$ là một lân cận lồi đối xứng của 0 trong $F_\alpha$. Vì giao này chính là $g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$ và tập hợp $\bigcap_{f \in H} f^{-1}(W)$ là đối xứng và lồi, nên mọi việc quy về việc chứng minh rằng nó còn *hấp thụ*. Theo giả thiết, mọi $x \in E$ đều có thể viết dưới dạng $\sum_{i=1}^n g_{\alpha_i}(z_{\alpha_i})$, trong đó $z_{\alpha_i} \in F_{\alpha_i}$. Để chứng minh rằng tồn tại $\lambda > 0$ sao cho $f(\lambda x) \in W$ với mọi $f \in H$, chỉ cần xét trường hợp $x = g_\alpha(z_\alpha)$ với $z_\alpha \in F_\alpha$ (vì có thể chuyển sang trường hợp tổng quát bằng cách thay thế W bởi $W/n$). Nhưng trường hợp này suy ra từ việc $g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$ là một lân cận của 0 trong $F_\alpha$.
 
-#### Hệ quả 2 {#evt-ii-s4-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s4-prop-5-cor-2 .statement tag=07EG}
 
 *Cho $(J_\lambda)_{\lambda \in L}$ là một phân hoạch của tập hợp chỉ số A. Cho $(G_\alpha)_{\alpha \in A}$ là một họ các không gian lồi địa phương và $(F_\lambda)_{\lambda \in L}$ là một họ các không gian vectơ. Với mỗi $\lambda \in L$, cho $h_\lambda$ là một ánh xạ tuyến tính từ $F_\lambda$ vào một không gian vectơ E; với mỗi $\lambda \in L$ và $\alpha \in J_\lambda$, cho $g_{\lambda \alpha}$ là một ánh xạ tuyến tính từ $G_\alpha$ vào $F_\lambda$. Đặt $f_\alpha = h_\lambda \circ g_{\lambda \alpha}$. Giả sử rằng mỗi $F_\lambda$ mang tôpô lồi địa phương mịn nhất làm cho các $g_{\lambda \alpha}$ ($\alpha \in J_\lambda$) liên tục. Khi đó, tôpô lồi địa phương mịn nhất trên E làm cho các $f_\alpha$ liên tục trùng với tôpô lồi địa phương mịn nhất làm cho các $h_\lambda$ liên tục.*
 
@@ -201,11 +201,11 @@ II. Giới hạn quy nạp của các không gian lồi địa phương.
 
 Cho A là một tập hợp có thứ tự có hướng sang phải và $(E_\alpha, f_{\beta\alpha})$ là một hệ quy nạp các không gian vectơ tương ứng với tập A (A, II, § 6.2); cho $E = \varinjlim E_\alpha$ và với mỗi $\alpha \in A$, cho $f_\alpha : E_\alpha \to E$ là ánh xạ tuyến tính chính tắc. Giả sử mỗi $E_\alpha$ mang một tôpô lồi địa phương $\mathscr{T}_\alpha$, và hơn nữa giả sử rằng với $\alpha \leq \beta$, ánh xạ $f_{\beta\alpha} : E_\alpha \to E_\beta$ là *liên tục*. Khi đó ta nói rằng tôpô cuối lồi địa phương $\mathscr{T}$ của họ $(\mathscr{T}_\alpha)$ tương ứng với các ánh xạ tuyến tính $f_\alpha$ (tương ứng, không gian E mang tôpô $\mathscr{T}$) là *giới hạn quy nạp* của họ $(\mathscr{T}_\alpha)$ (tương ứng, không gian *giới hạn quy nạp* của hệ $(E_\alpha, f_{\beta\alpha})$, hay đơn giản là của các không gian lồi địa phương $E_\alpha$). Nhắc lại rằng E là hợp của các không gian con vectơ $f_\alpha(E_\alpha)$ và rằng khi $\alpha \leq \beta$, ta có $f_\alpha(E_\alpha) \subset f_\beta(E_\beta)$; nếu ta trang bị cho $f_\alpha(E_\alpha)$ tôpô cuối đối với ánh xạ $f_\alpha$ (điều đó tương đương với việc đồng nhất $f_\alpha(E_\alpha)$ với không gian thương $E_\alpha/f_\alpha^{-1}(0)$), thì tôpô $\mathscr{T}$ cũng là tôpô cuối của họ các tôpô của các $f_\alpha(E_\alpha)$, tương ứng với các đơn ánh chính tắc (II, hệ quả 2 ở trên). Hơn nữa, tính liên tục của $f_{\beta\alpha}$ với $\alpha \leq \beta$ suy ra rằng đơn ánh chính tắc $j_{\beta\alpha} : f_\alpha(E_\alpha) \to f_\beta(E_\beta)$ là liên tục, do đó E cũng là giới hạn quy nạp của $f_\alpha(E_\alpha)$ mang các tôpô nói trên tương ứng với đơn ánh $j_{\beta\alpha}$.
 
-#### Ví dụ {#evt-ii-s4-n4-exa-1 .statement}
+#### Ví dụ {#evt-ii-s4-n4-exa-1 .statement tag=07EH}
 
 — Cho X là một không gian địa phương compact và $E = \mathscr{K}(X; \mathbf{R})$ là không gian vectơ của các hàm thực liên tục xác định trên X có giá compact. Với mỗi tập con compact K của X, cho $E_K$ là không gian con vectơ của E gồm các hàm $f \in E$ thỏa mãn $x \notin K \Rightarrow f(x) = 0$. Ký hiệu $\mathscr{T}_K$ là tôpô cảm sinh trên $E_K$ và $\mathscr{T}_u$ là tôpô của *hội tụ đều* trên X. Giới hạn quy nạp $\mathscr{T}$ của các tôpô $\mathscr{T}_K$ mịn hơn $\mathscr{T}_u$; ta có thể chứng minh rằng nếu X là paracompact và không compact, thì $\mathscr{T}$ mịn hơn một cách thực sự so với $\mathscr{T}_u$ (*xem* INT, III, 2nd ed., § 1.8). Tầm quan trọng của $\mathscr{T}$ nằm ở chỗ các dạng tuyến tính trên E liên tục theo $\mathscr{T}$ chính xác là các *độ đo* thực trên X (INT, III, 2nd., § 1.3).
 
-#### Nhận xét {#evt-ii-s4-n4-rem-1 .statement}
+#### Nhận xét {#evt-ii-s4-n4-rem-1 .statement tag=07EI}
 
 — Trong ví dụ cuối, tôpô cảm sinh bởi $\mathscr{T}$ trên $E_K$ trùng với $\mathscr{T}_K$, vì theo định nghĩa nó thô hơn $\mathscr{T}_K$ và, do $\mathscr{T}$ mịn hơn $\mathscr{T}_u$, tôpô cảm sinh bởi $\mathscr{T}$ trên $E_K$ mịn hơn tôpô cảm sinh bởi $\mathscr{T}_u$, tức là $\mathscr{T}_K$.
 
@@ -215,7 +215,7 @@ Nói tổng quát hơn, ta có thể hỏi rằng, khi giả sử $E_\beta \subs
 
 ### 5. Tổng trực tiếp tôpô của một họ các không gian lồi địa phương
 
-#### Định nghĩa 2 {#evt-ii-s4-def-2 .statement}
+#### Định nghĩa 2 {#evt-ii-s4-def-2 .statement tag=07EJ}
 
 *Cho E là không gian vectơ là tổng trực tiếp* (A, II, § 1.6) *của họ các không gian lồi địa phương* $(E_i)_{i \in I}$. *Với mỗi* $i \in I$, *gọi* $f_i$ *là đơn ánh chính tắc* của $E_i$ vào $E$. *Ta gọi tổng trực tiếp tôpô của họ* $(E_i)$ *là không gian* $E$ *với tôpô lồi địa phương mịn nhất làm cho mỗi* $f_i$ *liên tục (tôpô này được gọi là tổng trực tiếp của các tôpô của* $E_i$).
 
@@ -223,11 +223,11 @@ Trong phần còn lại của Số này, ta giữ các ký hiệu như trong đ�
 
 Theo mô tả tổng quát về các lân cận của một tôpô cuối lồi địa phương được cho trong II, p. 28, ở đây ta có thể thu được một hệ cơ bản các lân cận của 0 trong $E$ đối với tôpô tổng trực tiếp, theo cách sau đây; với *mọi* họ $(V_i)_{i \in I}$ trong đó $V_i$ là một lân cận lồi đối xứng của 0 trong $E_i$, xét bao lồi $\Gamma((V_i))$, của hợp của các $V_i$; các $\Gamma((V_i))$ với mọi họ $(V_i)$ (hoặc chỉ lấy $V_i$ với mỗi $i$ thuộc một hệ cơ bản các lân cận của 0 trong $E_i$) tạo thành một hệ cơ bản các lân cận của 0 trong $E$.
 
-#### Ví dụ {#evt-ii-s4-n5-exa-1 .statement}
+#### Ví dụ {#evt-ii-s4-n5-exa-1 .statement tag=07EK}
 
 — Cho $(a_i)_{i \in I}$ là một cơ sở của không gian vectơ $E$ và xét tôpô chính tắc (I, p. 2, *Ví dụ 5*) trên mỗi đường thẳng $Ra_i$; tổng trực tiếp của các tôpô này là tôpô lồi địa phương *mịn nhất* trên $E$ (II, p. 26); thật vậy, nếu $V$ là một tập hấp thụ, đối xứng, lồi trong $E$, thì $V_i = V \cap Ra_i$ là một lân cận của 0 trong $Ra_i$ và $V$ rõ ràng chứa bao lồi $\Gamma((V_i))$.
 
-#### Mệnh đề 6 {#evt-ii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#evt-ii-s4-prop-6 .statement tag=07EL}
 
 *Một tôpô lồi địa phương* $\mathscr{T}$ *trên* $E$ *là tổng trực tiếp của các tôpô của* $E_i$, *khi và chỉ khi tính chất sau đây được thỏa mãn: một ánh xạ tuyến tính từ* $E$ *vào một không gian lồi địa phương* $G$ *(tương ứng một nửa chuẩn* $p$ *trên* $E$) *là liên tục khi và chỉ khi, với mọi* $i \in I$, *ánh xạ* $g \circ f_i$ *(tương ứng $p \circ f_i$) là liên tục trong* $E_i$.
 
@@ -241,13 +241,13 @@ $$
 
 đối với mọi không gian lồi địa phương $G$.
 
-#### Hệ quả {#evt-ii-s4-n5-cor-1 .statement}
+#### Hệ quả {#evt-ii-s4-n5-cor-1 .statement tag=07EM}
 
 *Với ký hiệu của mệnh đề 5, II, p. 27, giả sử rằng* $E$ *là tổng của các* $g_\alpha(F_\alpha)$. *Gọi* $F$ *là tổng trực tiếp tôpô của họ* $(F_\alpha)_{\alpha \in A}$, *và gọi* $j_\alpha : F_\alpha \to F$ *là đơn ánh chính tắc; giả sử rằng* $g : F \to E$ *là ánh xạ tuyến tính sao cho* $g \circ j_\alpha = g_\alpha$ *với mọi* $\alpha \in A$. *Nếu* $N$ *là hạt nhân của* $g$, *thì song ánh chính tắc* $F/N \to E$ *liên kết với* $g$ *là một đẳng cấu tôpô từ* $F/N$ *lên* $E$ *được trang bị tôpô* $\mathscr{T}$.
 
 Đây là một trường hợp riêng của II, p. 28, hệ quả 2, nhớ đến II, p. 29, *Ví dụ I*.
 
-#### Mệnh đề 7 {#evt-ii-s4-prop-7 .statement}
+#### Mệnh đề 7 {#evt-ii-s4-prop-7 .statement tag=07EN}
 
 *Đơn ánh chính tắc* $j : E \to \prod_{i \in I} E_i$ *là liên tục khi* $E$ *mang tôpô tổng trực tiếp của các* $E_i$ *và* $\prod_{i \in I} E_i$ *mang tôpô tích. Khi* $I$ *hữu hạn, ánh xạ này là một đẳng cấu của các không gian vectơ tôpô.*
 
@@ -255,7 +255,7 @@ Mệnh đề thứ nhất suy ra từ sự kiện rằng các đơn ánh chính 
 
 Khi $I$ vô hạn, nếu, với mỗi tập con hữu hạn $J$ của $I$, ta ký hiệu bởi $E_J$ không gian $\prod_{\iota \in J} E_\iota$, được trang bị tôpô tích, thì $E$ là *giới hạn quy nạp* của các $E_J$ (được đồng nhất như các không gian con của $E$).
 
-#### Mệnh đề 8 {#evt-ii-s4-prop-8 .statement}
+#### Mệnh đề 8 {#evt-ii-s4-prop-8 .statement tag=07EO}
 
 *Cho $N_\iota$ là một không gian con của $E_\iota$, với mọi $\iota \in I$,*
 
@@ -267,13 +267,13 @@ Khi $I$ vô hạn, nếu, với mỗi tập con hữu hạn $J$ của $I$, ta k�
 
 (ii) Ký hiệu các ánh xạ chính tắc như sau: $f_\iota : E_\iota \to E, h_\iota : E_\iota / N_\iota \to E/N, p_\iota : E_\iota \to E_\iota / N_\iota$ và $p : E \to E/N$. Với mọi $\iota \in I$, $h_\iota \circ p_\iota = p \circ f_\iota$ và mệnh đề suy ra từ II, p. 28, hệ quả 2 và p. 29 *Ví dụ I*.
 
-#### Hệ quả 1 {#evt-ii-s4-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s4-prop-8-cor-1 .statement tag=07EP}
 
 *Nếu $N_\iota$ đóng trong $E_\iota$ với mọi $\iota \in I$, thì $N = \sum_\iota N_\iota$ trong $E$ là đóng.*
 
 Thật vậy, ánh xạ chính tắc $p_\iota : E \to E_\iota$ là liên tục (II, § 4.5, mệnh đề 6) với mọi $\iota \in I$, do đó $p_\iota^{-1}(N_\iota)$ là đóng trong $E$, và vì thế điều tương tự cũng đúng đối với giao $N = \bigcap_{\iota \in I} p_\iota^{-1}(N_\iota)$.
 
-#### Hệ quả 2 {#evt-ii-s4-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s4-prop-8-cor-2 .statement tag=07EQ}
 
 *Nếu mỗi $E_\iota$ là Hausdorff, thì $E$ cũng vậy và mỗi $E_\iota$ là đóng trong $E$.*
 
@@ -287,7 +287,7 @@ Trong Số này, ta sẽ xét một *dãy tăng* $(E_n)$ các không gian con ve
 
 Có thể xảy ra rằng mỗi $\mathscr{T}_n$ là Hausdorff nhưng $\mathscr{T}$ thì không; cũng có thể xảy ra rằng với mỗi cặp số nguyên $n, m$ sao cho $n \leq m$, không gian con $E_n$ là đóng trong $E_m$ (sử dụng tôpô $\mathscr{T}_m$) nhưng $E_n$ không đóng trong $E$ khi sử dụng $\mathscr{T}$ (II, p. 80, Bài tập 26).
 
-#### Bổ đề 1 {#evt-ii-s4-lem-1 .statement}
+#### Bổ đề 1 {#evt-ii-s4-lem-1 .statement tag=07ER}
 
 — *Cho $\mathfrak{F}$ là một bộ lọc Cauchy trên $E$ (đối với $\mathscr{T}$); khi đó tồn tại một số nguyên $k$ sao cho với mọi $N \in \mathfrak{F}$ và mọi lân cận $V$ của $0$ trong $E$, không gian con $E_k$ gặp $N + V$.*
 
@@ -301,7 +301,7 @@ M \subset E_m + V \subset E_m + V_m;
 $$
 vì $\mathfrak{F}$ là một bộ lọc, tập hợp $M_m$ gặp $M$ và do đó gặp $E_m + V_m$; ta có một mâu thuẫn, chứng minh được bổ đề.
 
-#### Mệnh đề 9 {#evt-ii-s4-prop-9 .statement}
+#### Mệnh đề 9 {#evt-ii-s4-prop-9 .statement tag=07ES}
 
 *Giả sử tôpô cảm sinh trên $E_n$ bởi $\mathscr{T}_{n+1}$ là đồng nhất với $\mathscr{T}_n$ đối với mọi số nguyên $n$. Khi đó
 (i) Tôpô cảm sinh bởi $\mathscr{T}$ trên $E_n$ là đồng nhất với $\mathscr{T}_n$ đối với mỗi $n$; nếu các $\mathscr{T}_n$ là Hausdorff thì $\mathscr{T}$ là Hausdorff.
@@ -312,7 +312,7 @@ vì $\mathfrak{F}$ là một bộ lọc, tập hợp $M_m$ gặp $M$ và do đó
 
 Để định nghĩa $V_{n+p}$ ta tiến hành bằng quy nạp theo $p$ sử dụng bổ đề sau:
 
-#### Bổ đề 2 {#evt-ii-s4-lem-2 .statement}
+#### Bổ đề 2 {#evt-ii-s4-lem-2 .statement tag=07ET}
 
 *Cho $V$ là một lân cận lồi của 0 trong $M$, một không gian con vectơ của một không gian lồi địa phương $F$. Khi đó tồn tại một lân cận lồi $W$ của 0 trong $F$ sao cho $W \cap M = V$. Hơn nữa, nếu $M$ là đóng trong $F$, thì với mọi điểm $x_0 \in \complement M$, tồn tại một lân cận lồi $W_0$ của 0 trong $F$ sao cho $W_0 \cap M = V$ và $x_0 \notin W_0$.*
 
@@ -326,7 +326,7 @@ Quay lại định lý, để chứng minh phần thứ hai của (i) chú ý r�
 
 Khi với mọi $n$ tôpô cảm sinh trên $E_n$ bởi $\mathscr{T}_{n+1}$ chỉ là $\mathscr{T}_n$ ta nói rằng $\mathscr{T}$ là *giới hạn quy nạp ngặt* của dãy $(\mathscr{T}_n)$ và rằng không gian $E$ với tôpô $\mathscr{T}$ là *giới hạn quy nạp ngặt* của dãy các không gian lồi địa phương $E_n$.
 
-#### Nhận xét {#evt-ii-s4-n6-rem-1 .statement}
+#### Nhận xét {#evt-ii-s4-n6-rem-1 .statement tag=07EU}
 
 — 1) Giả sử rằng $E$ là hợp của một họ tăng có hướng, *không đếm được* các không gian con $(E_\alpha)_{\alpha \in I}$, mỗi $E_\alpha$ mang một tôpô lồi địa phương $\mathscr{T}_\alpha$, sao cho, với $E_\alpha \subset E_\beta$, tôpô cảm sinh trên $E_\alpha$ bởi $\mathscr{T}_\beta$ trùng với $\mathscr{T}_\alpha$. Có thể xảy ra rằng tôpô cảm sinh trên mỗi $E_\alpha$ bởi tôpô $\mathscr{T}$ bằng $\mathscr{T}_\alpha$ và rằng các $E_\alpha$ là *Hausdorff và đầy đủ, nhưng $E$ không đầy đủ đối với $\mathscr{T}$* (INT, III, ấn bản 2, § 1, Bài tập 2).
 
@@ -334,7 +334,7 @@ Khi với mọi $n$ tôpô cảm sinh trên $E_n$ bởi $\mathscr{T}_{n+1}$ ch�
 
 3) Giả sử rằng $E$ là giới hạn quy nạp chặt của dãy $(E_n)$; nếu $F$ là một không gian con vectơ đóng (trong $\mathscr{T}$) của $E$, thì có thể xảy ra rằng giới hạn quy nạp chặt của các tôpô cảm sinh bởi $\mathscr{T}_n$ trên $F \cap E_n$ *mịn hơn hẳn* tôpô cảm sinh bởi $\mathscr{T}$ (IV, p. 63, bài tập 10).
 
-#### Mệnh đề 10 {#evt-ii-s4-prop-10 .statement}
+#### Mệnh đề 10 {#evt-ii-s4-prop-10 .statement tag=07EV}
 
 *Cho E, F là hai không gian lồi địa phương. Giả sử rằng :*
 
@@ -346,7 +346,7 @@ Khi với mọi $n$ tôpô cảm sinh trên $E_n$ bởi $\mathscr{T}_{n+1}$ ch�
 
 Để chứng minh rằng $u$ liên tục, chỉ cần chứng minh rằng với mọi $\alpha$, ánh xạ $u \circ g_\alpha : E_\alpha \to F$ là liên tục (II, p. 27, mệnh đề 5). Bây giờ đồ thị của $u \circ g_\alpha$ là ảnh ngược của đồ thị của $u$ qua ánh xạ liên tục $g_\alpha \times 1_F : E_\alpha \times F \to E \times F$, và do đó, theo giả thiết, là đóng trong $E_\alpha \times F$. Vì vậy, ta có thể chỉ xét trường hợp E tự thân là một *không gian Fréchet*. Khi đó mệnh đề này là một trường hợp riêng của I, p. 20, mệnh đề 1.
 
-#### Hệ quả {#evt-ii-s4-n6-cor-1 .statement}
+#### Hệ quả {#evt-ii-s4-n6-cor-1 .statement tag=07EW}
 
 *Với cùng các giả thiết trên E và F như trong mệnh đề 10 và giả sử E là Hausdorff, thì mọi ánh xạ toàn ánh liên tục v từ F vào E là một cấu xạ chặt.*
 
@@ -358,7 +358,7 @@ Cho N là hạt nhân của $v$ và đặt $N_n = j_n^{-1}(N)$; khi đó ánh x�
 
 Ta sẽ xét mệnh đề 2 của GT, IX, § 3.1 trong trường hợp các không gian lồi địa phương.
 
-#### Mệnh đề 11 {#evt-ii-s4-prop-11 .statement}
+#### Mệnh đề 11 {#evt-ii-s4-prop-11 .statement tag=07EX}
 
 *Cho E là một không gian lồi địa phương có thể metr hóa. Tôpô của E có thể được xác định bởi một khoảng cách bất biến qua tịnh tiến, và sao cho các quả cầu mở là lồi.*
 
@@ -366,7 +366,7 @@ Cho $(p_n)_{n \in \mathbf{N}}$ là một dãy các nửa chuẩn định nghĩa 
 
 Với $x, y$ trong $E$ ta định nghĩa $d(x, y) = \sup_{n \in \mathbf{N}} d_n(x, y)$. Ta thấy ngay rằng $d$ là một khoảng cách, bất biến qua các phép tịnh tiến trên $E$ và định nghĩa tôpô của $E$. Với $x_0 \in E$ và $R \geq 0$, quả cầu mở tâm $x_0$ và bán kính $R$ (đối với khoảng cách $d$) bằng $\bigcap_{n \in \mathbf{N}} (x_0 + B_{n, R})$, do đó nó lồi.
 
-#### Mệnh đề 12 {#evt-ii-s4-prop-12 .statement}
+#### Mệnh đề 12 {#evt-ii-s4-prop-12 .statement tag=07EY}
 
 *Cho $E$ và $F$ là hai không gian Fréchet và $u$ là một ánh xạ tuyến tính liên tục của $E$ lên $F$. Khi đó tồn tại một tiết diện của $u$ liên tục mặc dù không nhất thiết tuyến tính.*
 
@@ -383,13 +383,13 @@ Giả sử khi đó hoặc $n = 0$, hoặc $n \geq 1$ và rằng $s_{n-1}$ đã 
 
 Từ bất đẳng thức (3) các ánh xạ $s_n : F \to E$ tạo thành một dãy Cauchy, đối với sự hội tụ đều. Vì $E$ đầy đủ, dãy $(s_n)_{n \in \mathbf{N}}$ hội tụ đều về một ánh xạ liên tục $s : F \to E$ (GT, X, § 1.6); công thức (2) cho thấy $u \circ s$ là ánh xạ đồng nhất của $F$, do đó $s$ là một tiết diện liên tục của $u$.
 
-#### Hệ quả {#evt-ii-s4-n7-cor-1 .statement}
+#### Hệ quả {#evt-ii-s4-n7-cor-1 .statement tag=07EZ}
 
 *Nếu $L$ là một tập compact trong $F$, thì tồn tại một tập compact $K$ trong $E$ sao cho $u(K) = L$. \*
 
 Đủ để đặt $K = s(L)$, trong đó $s$ là một tiết diện liên tục của $u$.
 
-#### Nhận xét {#evt-ii-s4-n7-rem-1 .statement}
+#### Nhận xét {#evt-ii-s4-n7-rem-1 .statement tag=07F0}
 
 — 1) Hệ quả của mđ. 12 cũng có thể suy ra từ đl. 1 của I, p. 17 và mđ. 18 của GT, IX, § 2.10.
 2) Ta giữ các ký hiệu của mđ. 12. Lấy $p$ là một nửa chuẩn liên tục trên $E$;

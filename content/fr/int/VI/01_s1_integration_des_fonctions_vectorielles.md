@@ -40,7 +40,7 @@ subsections:
       pdf_page: 25
 statements: 35
 exercises: 27
-content_sha256: 4ea77f4b13810aa34015d219545e360f5355746ebd9e6aeb419db2f6d1772e83
+content_sha256: 1f639a58040715d2ca85ddbcbf38c32b33248a2b33fa2e2a27dbbdf26edef9a3
 ---
 
 ## § 1. Intégration des fonctions vectorielles
@@ -53,7 +53,7 @@ On notera que dans cette définition, la topologie de $F$ n'intervient que par l
 
 Si $f$ est une application scalairement essentiellement $\mu$-intégrable de $T$ dans $F$, l'application $z' \to \int \langle f(t), z' \rangle d\mu(t)$ est une forme linéaire sur $F'$, c'est-à-dire un élément du dual algébrique ${F'}^*$.
 
-#### Définition 1 {#int-vi-s1-def-1 .statement}
+#### Définition 1 {#int-vi-s1-def-1 .statement tag=098E}
 
 On appelle intégrale de $f$ par rapport à $\mu$ et on note $\int f d\mu$, ou $\int f(t) d\mu(t)$, l'élément de ${F'}^*$ défini par
 $$
@@ -63,21 +63,21 @@ pour tout $z' \in F'$.
 
 Si $f$ est continue à support compact, elle est scalairement intégrable et la déf. 1 coïncide avec la définition de l'intégrale de $f$ donnée au chap. III, § 4, no 1. D'autre part, si $F$ est un espace de Banach et si $f$ est essentiellement intégrable (chap. V, § 2, no 2, déf. 2), alors $f$ est scalairement essentiellement intégrable et la déf. 1 coïncide avec la définition de l'intégrale de $f$ donnée au chap. V, § 2, no 2 (chap. V, § 2, no 2, prop. 6 et chap. IV, § 4, no 2, cor. 1 du th. 1).
 
-#### Exemple {#int-vi-s1-n1-exa-1 .statement}
+#### Exemple {#int-vi-s1-n1-exa-1 .statement tag=098F}
 
 Soient X un espace localement compact, $t \to \lambda_t$ une application de T dans l'espace $\mathscr{M}(X)$ des mesures sur X. Dire que la famille $t \to \lambda_t$ est $\mu$-adéquate (chap. V, § 3, no 1, déf. 1) signifie qu'elle est formée de mesures positives et que l'application $t \to \lambda_t$ est scalairement essentiellement $\mu$-intégrable et $\mu$-mesurable pour la topologie $\sigma(\mathscr{M}(X), \mathscr{K}(X))$. Son intégrale par rapport à $\mu$ est la mesure qui a été notée $\int \lambda_t d\mu(t)$ au chap. V, § 3, no 1.
 
-#### Remarque 1 {#int-vi-s1-n1-rem-1 .statement}
+#### Remarque 1 {#int-vi-s1-n1-rem-1 .statement tag=098G}
 
 Si F est de dimension finie, toute application scalairement essentiellement intégrable de T dans F est essentiellement intégrable (chap. V, § 2, no 2). Par contre, dans le cas général, une fonction scalairement négligeable sur un espace T compact peut ne pas même être $\mu$-mesurable (exerc. 12).
 
-#### Remarque 2 {#int-vi-s1-n1-rem-2 .statement}
+#### Remarque 2 {#int-vi-s1-n1-rem-2 .statement tag=098H}
 
 Il est clair que l'intégrale de $f$ ne dépend que de la classe de $f$ modulo l'espace des applications de T dans F qui sont scalairement localement $\mu$-négligeables. On notera qu'une fonction g scalairement localement négligeable n'est pas nécessairement nulle localement presque partout (exerc. 12). Toutefois, il en est bien ainsi lorsqu'il existe dans $F'$ une suite $(z'_n)$ partout dense pour la topologie $\sigma(F', F)$ : en effet, si $H_n$ est l'ensemble localement négligeable des points $t \in T$ tels que $\langle g(t), z'_n \rangle \neq 0$, la réunion H des $H_n$ est localement négligeable, et pour tout $t \in H$, on a $\langle g(t), z'_n \rangle = 0$ pour tout $n$, d'où $g(t) = 0$.
 
 Soit $u$ une application linéaire continue de F dans un espace localement convexe séparé G ; sa transposée $^t u$ est une application linéaire de $G'$ dans $F'$, et la transposée (algébrique) $' (t u)$ est une application linéaire de ${F'}^*$ dans ${G'}^*$ qui prolonge $u$, et que nous noterons encore $u$. Avec cette convention :
 
-#### Proposition 1 {#int-vi-s1-prop-1 .statement}
+#### Proposition 1 {#int-vi-s1-prop-1 .statement tag=098I}
 
 Si $f$ est une application de T dans F, scalairement essentiellement $\mu$-intégrable, l'application $u \circ f$ est scalairement essentiellement $\mu$-intégrable et on a
 $$
@@ -92,7 +92,7 @@ $$
 
 En particulier si $f$ est scalairement essentiellement $\mu$-intégrable elle reste scalairement essentiellement $\mu$-intégrable lorsqu’on remplace la topologie de $F$ par une topologie moins fine.
 
-#### Proposition 2 {#int-vi-s1-prop-2 .statement}
+#### Proposition 2 {#int-vi-s1-prop-2 .statement tag=098J}
 
 *Soit $f$ une application scalairement essentiellement $\mu$-intégrable de $T$ dans $F$. Pour toute fonction numérique $g \geqslant 0$, $\mu$-mesurable et bornée, l’application $t \to g(t)f(t)$ (notée $gf$ ou $fg$) de $T$ dans $F$ est scalairement essentiellement $\mu$-intégrable, $f$ est scalairement essentiellement $(g.\mu)$-intégrable, et l’on a*
 
@@ -106,7 +106,7 @@ Un grand nombre de propositions sur les fonctions numériques essentiellement in
 
 Par contre, pour obtenir des énoncés correspondant aux théorèmes sur les intégrales « doubles » (chap. V, § 3, no 4, th. 1 et § 8, no 1, th. 1 (th. de Lebesgue-Fubini)), il est nécessaire d’en renforcer les hypothèses (cf. exerc. 1) ; en appliquant les théorèmes précités à chacune des fonctions $\langle z', f \rangle$, où $z' \in F'$, on obtient ainsi les deux propositions suivantes :
 
-#### Proposition 3 {#int-vi-s1-prop-3 .statement}
+#### Proposition 3 {#int-vi-s1-prop-3 .statement tag=098K}
 
 *Soient X un espace localement compact, $t \to \lambda_t$ une famille $\mu$-adéquate (chap. V, § 3, no 1, déf. 1) de mesures positives sur X, et soit $\nu = \int \lambda_t d\mu(t)$. Soit f une application de X dans F ; on suppose que : 1° f est scalairement $\nu$-intégrable ; 2° il existe un ensemble $N \subset T$, localement $\mu$-négligeable, tel que, pour tout $t \notin N$, f soit scalairement $\lambda_t$-intégrable et que $\int f d\lambda_t \in F$. Alors la fonction $t \to \int f d\lambda_t$, définie pour $t \notin N$, est scalairement essentiellement $\mu$-intégrable, et on a*
 
@@ -114,7 +114,7 @@ $$
 \int f(x) d\nu(x) = \int d\mu(t) \int f(x) d\lambda_t(x).
 $$
 
-#### Proposition 4 {#int-vi-s1-prop-4 .statement}
+#### Proposition 4 {#int-vi-s1-prop-4 .statement tag=098L}
 
 *Soient T, T' deux espaces localement compacts, $\mu$ (resp. $\mu'$) une mesure positive sur T (resp. T'), $\nu = \mu \otimes \mu'$ la mesure produit sur $X = T \times T'$. Soit f une application de X dans F. On suppose que : 1° f est scalairement $\nu$-intégrable ; 2° il existe un ensemble $N \subset T$, localement $\mu$-négligeable, tel que pour tout $t \notin N$, l’application $t' \to f(t, t')$ soit scalairement $\mu$-intégrable, et que $\int f(t, t') d\mu'(t') \in F$. Alors la fonction $t \to \int f(t, t') d\mu'(t')$, définie pour $t \notin N$, est scalairement essentiellement $\mu$-intégrable, et on a*
 
@@ -124,7 +124,7 @@ $$
 
 ### 2. Propriétés de l’intégrale d’une fonction scalairement essentiellement intégrable.
 
-#### Proposition 5 {#int-vi-s1-prop-5 .statement}
+#### Proposition 5 {#int-vi-s1-prop-5 .statement tag=098M}
 
 *Soient $\mu$ une mesure positive bornée sur T, S un ensemble $\mu$-mesurable portant $\mu$ (chap. V, § 5, no 7), f une fonction scalairement $\mu$-intégrable (*) à valeurs dans F. Soit D l’enve-
 
@@ -134,13 +134,13 @@ loppe convexe fermée de $f(S)$ dans l’espace $F'$* muni de la topologie $\sig
 
 Comme D est l’intersection des demi-espaces fermés contenant $f(S)$ (*Esp. vect. top.*, chap. II, § 3, n° 3, cor. 1 de la prop. 4), il suffit de démontrer que la relation $\langle f(t), z' \rangle \leq a$ pour tout $t \in S$ (où $z' \in F', a \in \mathbf{R}$) entraîne $\langle z', \int f d\mu \rangle \leq a . \mu(T)$; mais comme $\int f d\mu = \int_S f d\mu$, cela résulte de la prop. 1 du chap. IV, § 4, n° 2.
 
-#### Corollaire {#int-vi-s1-n2-cor-1 .statement}
+#### Corollaire {#int-vi-s1-n2-cor-1 .statement tag=098N}
 
 Soient $\mu$ une mesure positive bornée sur T, S un ensemble $\mu$-mesurable portant $\mu$, f une application de T dans F, scalairement $\mu$-mesurable et telle que $f(S)$ soit contenu dans une partie convexe faiblement compacte A de F. Alors f est scalairement $\mu$-intégrable, et l’on a $\int f d\mu \in \mu(T)A \subset F$.
 
 En effet, pour tout $z' \in F'$, $\langle z', f \rangle$ est $\mu$-mesurable et bornée dans S, donc intégrable, ce qui prouve que f est scalairement intégrable. En outre, comme A est compact dans $F_\tau$, il est fermé dans $F'$*, et l’enveloppe convexe fermée de $f(S)$ dans $F'$* est contenue dans A, d’où le corollaire.
 
-#### Proposition 6 {#int-vi-s1-prop-6 .statement}
+#### Proposition 6 {#int-vi-s1-prop-6 .statement tag=098O}
 
 Soit f une fonction scalairement essentiellement $\mu$-intégrable à valeurs dans F, telle que $\int f d\mu \in F$. Pour toute semi-norme q sur F, semi-continue inférieurement dans F, on a
 
@@ -152,7 +152,7 @@ Soit D l’ensemble des $z \in F$ tels que $q(z) \leq 1$; D est fermé et convex
 
 On notera que la fonction numérique $q \circ f$ n’est pas nécessairement $\mu$-mesurable (exerc. 12).
 
-#### Proposition 7 {#int-vi-s1-prop-7 .statement}
+#### Proposition 7 {#int-vi-s1-prop-7 .statement tag=098P}
 
 Soit $f$ une application de $T$ dans $F$, scalairement essentiellement $\mu$-intégrable et telle que, pour toute partie compacte $K$ de $T$, $f(K)$ soit contenue dans une partie convexe équilibrée faiblement compacte de $F$. Alors $\int f d\mu$ appartient au bidual $F''$ de $F$.
 
@@ -170,19 +170,19 @@ $$
 $$
 ce qui prouve que l’ensemble des éléments $\int f_{\varphi_K} d\mu$ est une partie bornée de $F_\sigma$, donc aussi de $F$ (*Esp. vect. top.*, chap. IV, § 2, no 4, th. 3). La prop. 7 est donc conséquence du lemme suivant :
 
-#### Lemme 1 {#int-vi-s1-lem-1 .statement}
+#### Lemme 1 {#int-vi-s1-lem-1 .statement tag=098Q}
 
 L’adhérence dans ${F'}^*$ (pour la topologie $\sigma({F'}^*, F')$) de toute partie bornée de $F$ est contenue dans le bidual $F''$.
 
 En effet, une partie bornée de $F$ est contenue dans le polaire (dans $F''$) d’un voisinage de 0 dans le dual fort $F'$ de $F$, donc est relativement compacte dans $F''$ pour $\sigma(F'', F')$ (*Esp. vect. top.*, chap. IV, § 2, no 2, prop. 1 et 2); comme $\sigma(F'', F')$ est induite par $\sigma({F'}^*, F')$ le lemme est démontré.
 
-#### Corollaire {#int-vi-s1-n2-cor-2 .statement}
+#### Corollaire {#int-vi-s1-n2-cor-2 .statement tag=098R}
 
 Supposons F semi-réflexif, et soit f une application scalairement essentiellement µ-intégrable de T dans F telle que, pour toute partie compacte K de T, f(K) soit bornée. Alors $\int f d\mu$ appartient à F.
 
 Toute partie bornée de F est en effet relativement faiblement compacte (Esp. vect. top., chap. IV, § 3, n° 3, th. 1), et on a $F = F''$.
 
-#### Proposition 8 {#int-vi-s1-prop-8 .statement}
+#### Proposition 8 {#int-vi-s1-prop-8 .statement tag=098S}
 
 Soient µ une mesure positive bornée sur T, S un ensemble µ-mesurable portant µ, f une application µ-mesurable de T dans F, telle que f(S) soit contenu dans une partie convexe équilibrée bornée et complète B de F. Alors f est scalairement µ-intégrable et on a $\int f d\mu \in \mu(T)B \subset F$.
 
@@ -192,7 +192,7 @@ Comme S est µ-intégrable, il existe une partition de S formée d’un ensemble
 
 Soient G et H deux espaces localement convexes séparés sur $\mathbf{R}$, et supposons maintenant que F soit l’espace $\mathscr{L}(G; H)$ des applications linéaires continues de G dans H, muni de la topologie de la convergence simple. Le dual F' de F est alors l'espace G ⊗ H' (Esp. vect. top., chap. IV, § 2, no 9, cor. de la prop. 11), et dire qu'une application U de T dans F est scalairement essentiellement μ-intégrable signifie que, pour tout a ∈ G et tout b ∈ H', la fonction numérique $t \to \langle U(t), a \otimes b' \rangle = \langle U(t).a, b' \rangle$ est essentiellement μ-intégrable.
 
-#### Proposition 9 {#int-vi-s1-prop-9 .statement}
+#### Proposition 9 {#int-vi-s1-prop-9 .statement tag=098T}
 
 Soit U une application scalairement essentiellement μ-intégrable de T dans F = $\mathscr{L}_s(G; H)$. Pour que l'on ait $\int Ud\mu \in F$, il faut et il suffit que les deux conditions suivantes soient vérifiées :
 
@@ -216,7 +216,7 @@ autrement dit on a 'S.y' = $u_{y'}$. Comme S est continue, 'S transforme toute p
 
 Inversement, supposons a) et b) vérifiées. En vertu de a), la formule (1) définit une application linéaire S de G dans H, et pour tout y' ∈ H', cette application vérifie (2) (no 1, prop. 1); mais alors la condition b) exprime que S est continue (Esp. vect. top., chap. IV, § 4, n° 1, prop. 1 et 2, et § 2, n° 2, prop. 1), donc $S \in \mathscr{L}_s(G; H)$. Enfin, la formule (2) prouve que $S = \int U d\mu$.
 
-#### Corollaire {#int-vi-s1-n3-cor-1 .statement}
+#### Corollaire {#int-vi-s1-n3-cor-1 .statement tag=098U}
 
 La condition b) de la prop. 9 est vérifiée dans chacun des deux cas suivants :
 
@@ -244,7 +244,7 @@ $$
 |\langle x, u_{K, y'} \rangle| = \left| \int \varphi_K(t) \langle U(t) \cdot x, y' \rangle d\mu(t) \right| \leq \int |\langle U(t) \cdot x, y' \rangle| d\mu(t).
 $$
 
-#### Proposition 10 {#int-vi-s1-prop-10 .statement}
+#### Proposition 10 {#int-vi-s1-prop-10 .statement tag=098V}
 
 *Soit U une application de T dans F = $\mathscr{L}_s(G; H)$. Dans chacun des trois cas suivants, U est scalairement essentiellement $\mu$-intégrable, et on a $\int U d\mu \in \mathscr{L}_s(G; H)$:*
 
@@ -266,7 +266,7 @@ Bourbaki XXV.
 
 Tout espace de Fréchet possède la propriété (GDF) (Esp. vect. top., chap. I, § 3, no 3, cor. 5 du th. 1). Nous verrons dans l’Appendice d’autres exemples d’espaces possédant la propriété (GDF).
 
-#### Proposition 11 {#int-vi-s1-prop-11 .statement}
+#### Proposition 11 {#int-vi-s1-prop-11 .statement tag=098W}
 
 Tout espace localement convexe séparé F possédant la propriété (GDF) est tonnelé.
 
@@ -276,7 +276,7 @@ $$
 \langle y, x' \rangle = \lim_{\mathscr{F}} \langle \pi(z), x' \rangle = \lim_{\mathscr{F}} \langle z, x' \rangle = \langle x, x' \rangle = \langle \pi(x), x' \rangle.
 $$
 
-#### Théorème 1 (Gelfand-Dunford) {#int-vi-s1-thm-1 .statement}
+#### Théorème 1 (Gelfand-Dunford) {#int-vi-s1-thm-1 .statement tag=098X}
 
 Soient F un espace localement convexe séparé possédant la propriété (GDF), $F'_s$ son dual faible. Pour toute application $f$ de T dans $F'_s$, scalairement essentiellement $\mu$-intégrable, l’intégrale $\int f d\mu$ appartient à $F'$.
 
@@ -284,13 +284,13 @@ Rappelons que le dual de $F'_s$ est F (Esp. vect. top., chap. IV, § 1, no 2, pr
 
 Pour montrer que $\int f d\mu \in F'$, il faut établir que la forme linéaire $z \mapsto \langle z, \int f d\mu \rangle$ est continue dans $F$; en fait, nous allons démontrer le résultat plus fort suivant :
 
-#### Lemme 2 {#int-vi-s1-lem-2 .statement}
+#### Lemme 2 {#int-vi-s1-lem-2 .statement tag=098Y}
 
 *Soit $f$ une application de $T$ dans $F_s'$, telle que, pour tout $z \in F$, la fonction numérique $\langle z, f \rangle$ appartienne à $\mathscr{L}^p(\mu)$ ($1 \leq p \leq +\infty$); soit $\theta(z)$ la classe de cette fonction dans $L^p(\mu)$. Alors $z \mapsto \theta(z)$ est une application linéaire continue de $F$ dans $L^p(\mu)$.
 
 En vertu de la propriété (GDF), il suffit de montrer que pour toute suite $(z_n)$ d’éléments de $F$ convergente vers $z$ et telle que $(\theta(z_n))$ converge vers $u \in L^p(\mu)$, on a $u = \theta(z)$. Or, en remplaçant éventuellement la suite $(z_n)$ par une suite extraite, on peut supposer que la suite des fonctions $\langle z_n, f \rangle$ converge localement presque partout vers une fonction $h \in \mathscr{L}^p(\mu)$, de classe $u$ dans $L^p(\mu)$ (chap. IV, § 3, no 4, th. 3 et chap. V, § 2, no 2, prop. 6). Comme par hypothèse, pour tout $t \in T$, la suite $(\langle z_n, f(t) \rangle)$ converge vers $\langle z, f(t) \rangle$, on a $h(t) = \langle z, f(t) \rangle$ localement presque partout, et par suite $u = \theta(z)$.
 
-#### Corollaire 1 {#int-vi-s1-lem-2-cor-1 .statement}
+#### Corollaire 1 {#int-vi-s1-lem-2-cor-1 .statement tag=098Z}
 
 *Soient $G_i$ ($1 \leq i \leq n$) $n$ espaces localement convexes séparés possédant la propriété (GDF), et soit $F$ l’espace des formes multilinéaires séparément continues dans $\prod_{i=1}^n G_i$, muni de la topologie de la convergence simple. Pour toute application $f$ de $T$ dans $F$, scalairement essentiellement $\mu$-intégrable, on a $\int f d\mu \in F$.
 
@@ -298,7 +298,7 @@ L’espace $F$ est en dualité avec le produit tensoriel $\bigotimes_{i=1}^n G_i
 Or, d’après la prop. 1 du n° 1, l’application $\lambda_i(z) \circ f$ est une application scalairement essentiellement $\mu$-intégrable de $T$ dans $G_i'$ muni de la topologie $\sigma(G_i', G_i)$, et on a $\int (\lambda_i(z) \circ f)d\mu = \lambda_i(z)\left( \int f d\mu \right)$.
 D’après le th. 1, on a $\int (\lambda_i(z) \circ f)d\mu \in G_i'$ pour $1 \leq i \leq n$, donc $\int f d\mu \in F$.
 
-#### Corollaire 2 {#int-vi-s1-lem-2-cor-2 .statement}
+#### Corollaire 2 {#int-vi-s1-lem-2-cor-2 .statement tag=0990}
 
 Soient $G$ un espace localement convexe séparé possédant la propriété (GDF), $H$ un espace semi-réflexif dont le dual fort $H_b'$ possède la propriété (GDF) (cf. App., n° 2, prop. 3). Soit $F$ l’espace $\mathscr{L}_s(G; H)$; pour toute application $U$ de $T$ dans $F$, scalairement essentiellement $\mu$-intégrable, l’intégrale $\int Ud\mu$ appartient à $F$.
 
@@ -310,13 +310,13 @@ On notera que le cor. 2 s’applique en particulier lorsque G est un espace de B
 
 Si une application f de T dans un espace localement convexe séparé F est scalairement μ-mesurable, il n’en résulte pas en général que f soit μ-mesurable (exerc. 12). Cependant :
 
-#### Proposition 12 {#int-vi-s1-prop-12 .statement}
+#### Proposition 12 {#int-vi-s1-prop-12 .statement tag=0991}
 
 Si F est un espace localement convexe métrisable de type dénombrable, toute application f de T dans F, scalairement μ-mesurable, est aussi μ-mesurable.
 
 En effet, F peut être considéré comme un sous-espace d’un produit dénombrable $\prod_{n} E_n$ d’espaces de Banach (Esp. vect. top., chap. II, § 5, no 5, prop. 7), et on peut supposer que $pr_n(F)$ est dense dans $E_n$, qui est donc de type dénombrable. Pour tout n, l’application $pr_n \circ f$ est scalairement μ-mesurable, donc μ-mesurable (chap. IV, § 5, no 5, prop. 10), et par suite f est μ-mesurable (chap. IV, § 5, no 3, th. 1).
 
-#### Proposition 13 {#int-vi-s1-prop-13 .statement}
+#### Proposition 13 {#int-vi-s1-prop-13 .statement tag=0992}
 
 Soit F un espace localement convexe, limite inductive d’une suite d’espaces localement convexes métrisables $F_n$ de type dénombrable, F étant réunion des $F_n$. Soit $F'$ le dual de F muni de la topologie $\sigma(F', F)$. Toute application f de T dans $F'$, scalairement μ-mesurable, est aussi μ-mesurable.
 
@@ -330,7 +330,7 @@ Soient T un espace localement compact, F un espace localement convexe séparé e
 
 Notons maintenant que l’espace $C'(T)$ peut être identifié au dual de l’espace $C(T)$ des fonctions continues numériques sur T (d’où sa notation), lorsqu’on munit $C(T)$ de la topologie de la convergence compacte (ce que nous supposerons toujours dans ce no et le suivant) : en effet on sait d’une part (chap. III, § 3, no 4, prop. 11) que les mesures sur T qui peuvent être prolongées en des formes linéaires continues dans $C(T)$ sont les mesures à support compact, et inversement, la restriction à $K(T)$ d’une forme linéaire continue sur $C(T)$ est une mesure (la topologie de $K(T)$ étant plus fine que celle induite par la topologie de $C(T)$).
 
-#### Proposition 14 {#int-vi-s1-prop-14 .statement}
+#### Proposition 14 {#int-vi-s1-prop-14 .statement tag=0993}
 
 *Soient T un espace localement compact, F un espace localement convexe séparé et quasi-complet, f une application continue de T dans F. Si on munit l’espace $C'(T)$ des mesures sur T à support compact, de la topologie de la convergence uniforme dans les parties compactes de $C(T)$, l’application $\lambda \to \int f d\lambda$ est l’unique application linéaire continue $\tilde{f}$ de $C'(T)$ dans F telle que $\tilde{f}(\varepsilon_t) = f(t)$ pour tout $t \in T$.
 
@@ -338,17 +338,17 @@ Pour établir l’unicité du prolongement, il suffit de voir que les mesures po
 
 Montrons maintenant que $\lambda \to \int f d\lambda$ est continue. Soit V un voisinage convexe fermé équilibré de 0 dans F ; il suffit de prouver qu’il existe une partie relativement compacte L de $C(T)$ telle que les relations $\lambda \in L^0$ et $z' \in V^0$ entraînent $\left| \left( \int f d\lambda, z' \right) \right| \leq 1,$ ou encore $\left| \int \langle \mathbf{f}, \mathbf{z}' \rangle d\lambda \right| \leq 1$. Pour cela, on va montrer que lorsque $\mathbf{z}'$ parcourt $V^0$, l’ensemble $L$ des fonctions numériques $\langle \mathbf{f}, \mathbf{z}' \rangle$ est relativement compact dans $C(T)$. Comme $V^0$ est borné pour $\sigma(F', F)$, la borne supérieure des nombres $|\langle \mathbf{f}(t), \mathbf{z}' \rangle|$ pour $t \in T$ fixe, $\mathbf{z}'$ parcourant $V^0$, est finie ; en vertu du th. d’Ascoli (*Top. gén.*, chap. X, 2e éd., § 2, no 5, cor. 2 du th. 2), il suffit donc de montrer que l’ensemble des $\langle \mathbf{f}, \mathbf{z}' \rangle$ ($\mathbf{z}' \in V^0$) est *équicontinu*. Mais, pour tout $t_0 \in T$ et tout $\delta > 0$, il existe par hypothèse un voisinage $W$ de $t_0$ dans $T$ tel que $\mathbf{f}(t) - \mathbf{f}(t_0) \in \delta V$ pour tout $t \in W$; on en conclut $|\langle \mathbf{f}(t), \mathbf{z}' \rangle - \langle \mathbf{f}(t_0), \mathbf{z}' \rangle| \leq \delta$ pour tout $t \in W$ et tout $\mathbf{z}' \in V^0$, ce qui achève la démonstration.
 
-#### Remarque 1 {#int-vi-s1-n6-rem-1 .statement}
+#### Remarque 1 {#int-vi-s1-n6-rem-1 .statement tag=0994}
 
 L’application $t \to \varepsilon_t$ est un *homéomorphisme* de $T$ dans l’espace $C'(T)$; en effet, si $L$ est une partie compacte de $C(T)$, et $t_0 \in T$, il existe (chap. X, 2e éd., § 2, no 5, cor. 2 du th. 2), un voisinage $W$ de $t_0$ tel que $|g(t) - g(t_0)| \leq 1$ pour tout $t \in V$ et toute fonction $g \in L$, donc $\varepsilon_t - \varepsilon_{t_0} \in L^0$ pour $t \in V$, ce qui démontre la continuité de $t \to \varepsilon_t$; on sait par ailleurs que l’application réciproque est déjà continue pour la topologie vague (chap. III, § 2, no 7, prop. 6), donc *a fortiori* pour la topologie de la convergence uniforme dans les parties compactes de $C(T)$. Si alors on identifie $T$ et son image dans $C'(T)$ par $t \to \varepsilon_t$, on peut dire que $\lambda \to \int \mathbf{f} d\lambda$ est l’unique *prolongement continu* de $\mathbf{f}$ en une application *linéaire*.
 
-#### Remarque 2 {#int-vi-s1-n6-rem-2 .statement}
+#### Remarque 2 {#int-vi-s1-n6-rem-2 .statement tag=0E6Q}
 
 On notera que dans la démonstration de la continuité de $\lambda \to \int \mathbf{f} d\lambda$, on n’a pas utilisé le fait que $F$ est quasi-complet. La conclusion de la prop. 14 est donc encore valable sans cette hypothèse, lorsqu’on sait par ailleurs que $\int \mathbf{f} d\mu \in F$ pour toute mesure positive $\mu$ à support compact.
 
 Supposons maintenant que $\mathbf{f}(T)$ soit une partie *bornée* de $F$. Alors, pour toute mesure positive *bornée* $\mu$ sur $T$, $\mathbf{f}$ est scalairement $\mu$-intégrable et on a $\int \mathbf{f} d\mu \in F$ (no 2, prop. 8). Si $\lambda$ est une mesure réelle bornée quelconque sur $T$, $\lambda^+$ et $\lambda^-$ sont bornées, et on voit aussitôt que $\lambda \to \int \mathbf{f} d\lambda$ définie comme ci-dessus est une application linéaire de l’espace $\mathscr{M}^1(T)$ des mesures bornées sur T, dans l’espace localement convexe F, qui prolonge évidemment l’application $\lambda \to \int f d\lambda$ de $C'(T)$ dans F.
 
-#### Proposition 15 {#int-vi-s1-prop-15 .statement}
+#### Proposition 15 {#int-vi-s1-prop-15 .statement tag=0995}
 
 *Soient T un espace localement compact, F un espace localement convexe séparé et quasi-complet, f une application continue de T dans F telle que f(T) soit borné. Si on munit l’espace $\mathscr{M}^1(T)$ de sa topologie d’espace de Banach, l’application linéaire $\lambda \to \int f d\lambda$ de $\mathscr{M}^1(T)$ dans F est continue.*
 
@@ -360,7 +360,7 @@ Soient G un espace localement convexe séparé, H un espace localement convexe s
 
 La condition supplémentaire imposée à $U$ peut s’exprimer autrement :
 
-#### Lemme 3 {#int-vi-s1-lem-3 .statement}
+#### Lemme 3 {#int-vi-s1-lem-3 .statement tag=0996}
 
 *Soient G, H deux espaces localement convexes, U une application d’un espace localement compact T dans $\mathscr{L}(G; H)$. Les conditions suivantes sont équivalentes :*
 
@@ -378,7 +378,7 @@ Enfin, la dernière assertion du lemme résulte de ce que, sur M, la topologie d
 
 Supposons donc que $U$ vérifie les conditions du lemme 3 ; alors (si $H$ est quasi-complet), on définit comme au n° 6 une application linéaire $\lambda \to \int Ud\lambda$ de $C'(T)$ dans $F = \mathscr{L}(G, H)$. Nous poserons $U(\lambda) = \int Ud\lambda$.
 
-#### Proposition 16 {#int-vi-s1-prop-16 .statement}
+#### Proposition 16 {#int-vi-s1-prop-16 .statement tag=0997}
 
 *Soient G, H deux espaces localement convexes séparés, H étant supposé quasi-complet. Soit U une application de T dans $\mathscr{L}(G; H)$ telle que $(t, x) \to U(t).x$ soit une application continue de $T \times G$ dans H. Alors l’application bilinéaire $(\lambda, x) \to U(\lambda).x$ de $C'(T) \times G$ dans H est hypocontinue relativement aux parties équicontinues de $C'(T)$ et aux parties compactes de G (ce qui entraîne que l’application linéaire $\lambda \to U(\lambda)$ de $C'(T)$ dans F est continue).
 
@@ -394,11 +394,11 @@ $$
 \int (U(t).x)d\lambda(t) \in \| \lambda \| . V \ (\text{n}^\circ 2, \text{prop. } 5). \text{ Autrement dit :}
 $$
 
-#### Proposition 17 {#int-vi-s1-prop-17 .statement}
+#### Proposition 17 {#int-vi-s1-prop-17 .statement tag=0998}
 
 *Soient G, H, deux espaces localement convexes séparés, H étant supposé quasi-complet. Soit U une application de T dans $\mathscr{L}(G; H)$ telle que $(t, x) \to U(t).x$ soit continue dans $T \times G$, et que $U(T)$ soit équicontinu. Alors si on munit $\mathscr{M}^1(T)$ de sa topologie d’espace de Banach, l’application bilinéaire $(\lambda, x) \to U(\lambda).x$ de $\mathscr{M}^1(T) \times G$ dans H est continue (ce qui entraîne en particulier que l’application linéaire $\lambda \to U(\lambda)$ de $\mathscr{M}^1(T)$ dans $\mathscr{L}(G; H)$ est continue lorsqu’on munit $\mathscr{L}(G, H)$ de la topologie de la convergence bornée).
 
-#### Proposition 18 {#int-vi-s1-prop-18 .statement}
+#### Proposition 18 {#int-vi-s1-prop-18 .statement tag=0999}
 
 *Soient $G_1, G_2, H_1, H_2$ quatre espaces localement convexes séparés, $H_1$ et $H_2$ étant supposés quasi-complets. Soient $A : G_1 \to G_2$ et $B : H_1 \to H_2$ deux applications linéaires continues. Soient $U_1 : T \to \mathscr{L}(G_1; H_1)$, $U_2 : T \to \mathscr{L}(G_2; H_2)$ deux applications vérifiant les conditions de la prop. 16 (resp. 17), et supposons que pour tout $t \in T$ on ait $B \circ U_1(t) = U_2(t) \circ A$. Alors, pour toute mesure à support compact (resp. bornée) $\lambda$ sur T, on a $B \circ U_1(\lambda) = U_2(\lambda) \circ A$.
 
@@ -411,11 +411,11 @@ $$
 = \int ((U_2(t) \circ A).x)d\lambda(t) = U_2(\lambda).(A.x).
 $$
 
-#### Remarque 1 {#int-vi-s1-n7-rem-1 .statement}
+#### Remarque 1 {#int-vi-s1-n7-rem-1 .statement tag=099A}
 
 Supposons que G et H soient des espaces de Banach, et soit U une application de T dans $\mathscr{L}(G; H)$ telle que $(t, x) \to U(t).x$ soit continue dans $T \times G$. Notons que cela entraîne que la fonction finie $t \to \| U(t) \|$ est bornée dans toute partie compacte de T et semi-continue inférieurement dans T, étant l’enveloppe supérieure des fonctions continues $t \to | U(t).x |$ lorsque $x$ parcourt la boule $|\mathbf{x}| \leq 1$ dans G. Posons $h(t) = \| U(t) \|$. Alors, pour toute mesure positive $\mu$ sur T telle que $h$ soit $\mu$-intégrable, on a encore $\int Ud\mu \in \mathscr{L}(G; H)$. En effet, la mesure $\nu = h.\mu$ est bornée par hypothèse ; il existe donc une partition de T formée d’un ensemble $\nu$-négligeable N et d’une suite $(K_n)$ de parties compactes. Le raisonnement fait au début de ce n°, appliqué à la mesure $\varphi_{K_n}.\mu$ montre que $A_n = \int \varphi_{K_n} Ud\mu \in F = \mathscr{L}(G; H)$, et en outre (n° 2, prop. 6) $\|A_n\| \leq \int \varphi_{K_n} \|U\| d\mu \leq \nu(K_n)$. La série de terme général $A_n$ est donc absolument convergente dans l’espace de Banach $\mathscr{L}(G; H)$, et il est immédiat que sa somme est $\int Ud\mu$ et que l’on a $\left\| \int Ud\mu \right\| \leq \int \|U\| d\mu$.
 
-#### Remarque 2 {#int-vi-s1-n7-rem-2 .statement}
+#### Remarque 2 {#int-vi-s1-n7-rem-2 .statement tag=099B}
 
 Supposons que $G = H$ soit quasi-complet, et que $U$ vérifie les hypothèses de la prop. 16. Soient M une partie partout dense de l’espace $C'(T)$, pour la topologie faible $\sigma(C'(T), C(T))$, et soit X un sous-espace vectoriel fermé de H tel que $U(\lambda)(X) \subset X$ pour toute mesure $\lambda \in M$. Alors on a aussi $U(t)(X) \subset X$ pour tout $t \in T$ : en effet pour tout $x \in X$ et tout $x' \in H'$ orthogonal à X, on a par hypothèse $\langle U(\lambda).x, x' \rangle = 0$ pour tout $\lambda \in M$, ce qui s’écrit $\int \langle U(t).x, x' \rangle d\lambda(t) = 0$. La fonction continue $t \to \langle U(t).x, x' \rangle$, étant orthogonale à M, est donc 0, ce qui donne $\langle U(t).x, x' \rangle = 0$ pour tout $x' \in X^0$, d’où $U(t).x \in X$ pour tout $t \in T$ et tout $x \in X$, et cela démontre notre assertion.
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 152
 statements: 19
 exercises: 22
-content_sha256: cfa2f878a2824dd3295bd263a7d54513c04818d35a06205431b0fe1c797cfdc4
+content_sha256: d0027c85d9e629ba1cedaa3e0f5665d96575e833d7b0b7fe5a972750416a6a6d
 ---
 
 ## 1. GENERATION OF A UNIFORMITY BY A FAMILY OF PSEUDOMETRICS; UNIFORMIZABLE SPACES
@@ -53,19 +53,19 @@ f(x, y) \leq f(x, z) + f(z, y)
 $$
 (triangle inequality).
 
-#### Example 1 {#top-ix-s1-n1-exa-1 .statement}
+#### Example 1 {#top-ix-s1-n1-exa-1 .statement tag=0C17}
 
 On real number space $\mathbf{R}^n$, Euclidean distance (Chapter VI, § 2, no. 1) is a pseudometric.
 
-#### Example 2 {#top-ix-s1-n1-exa-2 .statement}
+#### Example 2 {#top-ix-s1-n1-exa-2 .statement tag=0C18}
 
 If X is any set, the function f defined on $X \times X$ by the conditions $f(x, x) = 0$ for all $x \in X, f(x, y) = +\infty$ if $x \neq y$ is a pseudometric on X.
 
-#### Example 3 {#top-ix-s1-n1-exa-3 .statement}
+#### Example 3 {#top-ix-s1-n1-exa-3 .statement tag=0C19}
 
 If X is any set and if g is any finite real-valued function defined on X, then the function f defined on $X \times X$ by $f(x, y) = |g(x) - g(y)|$ is a pseudometric on X.
 
-#### Example 4 {#top-ix-s1-n1-exa-4 .statement}
+#### Example 4 {#top-ix-s1-n1-exa-4 .statement tag=0C1A}
 
 \* Let X be the set of all continuous mappings of the interval [0, 1] of $\mathbf{R}$ into $\mathbf{R}$. If for each pair of elements $x, y$ of X we put
 $$
@@ -99,17 +99,17 @@ We have seen in Chapter VI, § 2, no. 3 that if, for each real number $s > 0$, w
 
 More generally, let $f$ be a pseudometric on a set $X$: for each $s > 0$, let $U_s$ denote $f^{-1}([0, s])$, and let us show that, as $s$ runs through the set of all real numbers $> 0$, the $U_s$ form a fundamental system of a uniformity on $X$. Axiom $U_1$ is satisfied by reason of $\mathrm{(EC_1)}$: if $s = t$, we have $U_s \subset U_t$ and therefore the $U_s$ satisfy $B_1$: by $\mathrm{(EC_{11})}$, we have $U_s \cup U_s$ and therefore $U_{2s}$ is satisfied; finally, by $\mathrm{(EC_{111})}$, we have $U_s = U_{2s}$, so that $U_{2s}$ is satisfied. (Cf. Chapter II, § 1, no. 1, Definition 2). Consequently we may make the following definition:
 
-#### Definition 2 {#top-ix-s1-def-2 .statement}
+#### Definition 2 {#top-ix-s1-def-2 .statement tag=0C1B}
 
 Given a pseudometric $f$ on a set $X$, the uniformity defined by $f$ is the uniformity on $X$ which has as a fundamental system of entourages the family of sets $\overline{f}^{-1}([0, a])$, where $a$ runs through the set of all real numbers $> 0$.
 
 Two pseudometrics on $X$ are said to be equivalent if they define the same uniformity.
 
-#### Remark 1 {#top-ix-s1-n2-rem-1 .statement}
+#### Remark 1 {#top-ix-s1-n2-rem-1 .statement tag=0C1C}
 
 If $(a_n)$ is any sequence of numbers $> 0$ and tending to 0, the $U_{a_n}$ form a fundamental system of entourages of the uniformity defined by $f$.
 
-#### Remark 2 {#top-ix-s1-n2-rem-2 .statement}
+#### Remark 2 {#top-ix-s1-n2-rem-2 .statement tag=0C1D}
 
 The definition of a uniformity by a pseudometric $f$ consists in taking as a fundamental system of entourages the inverse image under $f$ of the neighbourhood filter of 0 in the subspace $[0, +\infty]$ of $\overline{\mathbf{R}}$. Note that this procedure is quite analogous to that which allowed us to define the uniformities on a topological group (Chapter III, § 3, no. 1).
 
@@ -127,7 +127,7 @@ $$
 
 The last two examples show that there always exist bounded pseudometrics equivalent to any given pseudometric (finite or not).
 
-#### Definition 3 {#top-ix-s1-def-3 .statement}
+#### Definition 3 {#top-ix-s1-def-3 .statement tag=0C1E}
 
 If $(f_i)_{i \in I}$ is a family of pseudometrics on a set $X$, then the least upper bound of the set of uniformities defined on $X$ by the pseudometrics $f_i$ is called the uniformity defined by the family $(f_i)$.
 
@@ -175,7 +175,7 @@ If $A$ is a non-empty subset of $X$, the restriction to $A \times A$ of a pseudo
 
 Let us now look at the *completion* of the uniform space $X$ when $\mathscr{U}$ is Hausdorff.
 
-#### Proposition 1 {#top-ix-s1-prop-1 .statement}
+#### Proposition 1 {#top-ix-s1-prop-1 .statement tag=0C1F}
 
 *Let $X$ be a Hausdorff uniform space whose uniformity $\mathscr{U}$ is defined by a family of finite pseudometrics* $(f_i)$, *and let* $\hat{X}$ *be the completion* of $X$. Then the functions $f_i$ can be extended by continuity to $\hat{X} \times \hat{X}$; the extended functions $\bar{f}_i$ are finite pseudometrics on $\hat{X} \times \hat{X}$, and the family $(f_i)$ defines the uniformity of $\hat{X}$.
 
@@ -185,13 +185,13 @@ First, the $f_i$ can be extended by continuity to $\hat{X} \times \hat{X}$, beca
 
 The significance of defining a uniformity by means of a family of pseudometrics lies in the fact that all uniformities can be so obtained. Namely:
 
-#### Theorem 1 {#top-ix-s1-thm-1 .statement}
+#### Theorem 1 {#top-ix-s1-thm-1 .statement tag=0C1G}
 
 Given a uniformity $\mathscr{U}$ on a set $X$, there is a family of pseudometrics on $X$ such that the uniformity defined by this family is identical with $\mathscr{U}$.
 
 For each entourage $V$ of the uniformity $\mathscr{U}$, define inductively a sequence of symmetric entourages $(U_n)$ such that $U_1 \subset V$ and $U_{n+1} \subset U_n$ for all $n \geq 1$. The sequence $(U_n)$ is a fundamental system of entourages of a uniformity $\mathscr{U}_V$ coarser than $\mathscr{U}$; moreover, it is clear that $\mathscr{U}$ is the least upper bound of all the uniformities $U_V$ as $V$ runs through the filter of entourages of $\mathscr{U}$. Theorem 1 is therefore a consequence of the following proposition:
 
-#### Proposition 2 {#top-ix-s1-prop-2 .statement}
+#### Proposition 2 {#top-ix-s1-prop-2 .statement tag=0C1H}
 
 If a uniformity $\mathscr{U}$ on $X$ has a countable fundamental system of entourages, then there is a pseudometric $f$ on $X$ such that $\mathscr{U}$ is identical with the uniformity defined by $f$.
 
@@ -226,7 +226,7 @@ Hence the inequalities (2) are proved; they show that, for each $a > 0$, the set
 
 Q.E.D.
 
-#### Remark {#top-ix-s1-n4-rem-1 .statement}
+#### Remark {#top-ix-s1-n4-rem-1 .statement tag=0C1I}
 
 A uniformity $\mathscr{U}$ on $X$ is defined by the family $\Phi$ of all pseudometrics on $X$ which are uniformly continuous on $X \times X$. For clearly the uniformity defined by the family $\Phi$ is coarser than $\mathscr{U}$; conversely, Theorem 1 shows that there is a subfamily of $\Phi$ which defines the uniformity $\mathscr{U}$ and therefore the uniformity defined by $\Phi$ is finer than $\mathscr{U}$.
 
@@ -234,7 +234,7 @@ A uniformity $\mathscr{U}$ on $X$ is defined by the family $\Phi$ of all pseudom
 
 In Chapter II, § 4, no. 1, we posed the problem of characterizing uniformizable topological spaces. The solution is given by the following theorem:
 
-#### Theorem 2 {#top-ix-s1-thm-2 .statement}
+#### Theorem 2 {#top-ix-s1-thm-2 .statement tag=0C1J}
 
 *A topological space* $X$ *is uniformizable if and only if it satisfies the following axiom:*
 
@@ -244,19 +244,19 @@ The condition is necessary. For if there is a uniformity on $X$ compatible with 
 
 The condition is sufficient. For let $\Phi$ be the set of all *continuous mappings* of $X$ into $[0, 1]$. Axiom (OIV) shows that *the coarsest uniformity with respect to which all the functions belonging to* $\Phi$ *are uniformly continuous is compatible* with the topology of $X$ (Chapter II, § 2, no. 3).
 
-#### Definition 4 {#top-ix-s1-def-4 .statement}
+#### Definition 4 {#top-ix-s1-def-4 .statement tag=0C1K}
 
 *A topological space is said to be completely regular if it is uniformizable and Hausdorff.*
 
 Equivalently, in view of Theorem 2, a space is completely regular if it satisfies axioms (H) [cf. Chapter I, § 8, no. 1, Proposition 1] and (O_{IV}).
 
-#### Remark {#top-ix-s1-n5-rem-1 .statement}
+#### Remark {#top-ix-s1-n5-rem-1 .statement tag=0C1L}
 
 Axiom (O_{IV}) implies (O_{III}) (cf. Chapter I, § 8, no. 4), for if V is a neighbourhood of x_0 and if f is a continuous real-valued function on X with values in [0, 1], such that f(x_0) = 0, f(x) = 1 for all x \in \overline{V}, then the set \overline{f}([0, 1/2]) is a closed neighbourhood of x_0 contained in V. In particular, every *completely regular* space is *regular* (which justifies the terminology). But there are examples of regular spaces which are not completely regular (*), so that (O_{III}) does not imply (O_{IV}).
 
 Every compact space is completely regular (Chapter II, § 4, no. 1, Theorem 1) and therefore so is every subspace of a compact space. We can now complete this proposition by proving its *converse*:
 
-#### Proposition 3 {#top-ix-s1-prop-3 .statement}
+#### Proposition 3 {#top-ix-s1-prop-3 .statement tag=0C1M}
 
 *A topological space X is completely regular if and only if it is homeomorphic to a subspace of a compact space.*
 
@@ -266,7 +266,7 @@ We can therefore say that a completely regular space can be *embedded* in a comp
 
 In general, a *cube* is a topological space K^I, the product of a family of topological spaces each identical with a *compact interval* K of \mathbf{R}, indexed by an arbitrary set I. If I is finite and has n elements, we recover the notion of an *n-dimensional closed cube*, which was defined in Chapter VI, § 1, no. 1. A cube is a *compact* space (Chapter I, § 9, no. 5, Theorem 3).
 
-#### Proposition 4 {#top-ix-s1-prop-4 .statement}
+#### Proposition 4 {#top-ix-s1-prop-4 .statement tag=0C1N}
 
 *If a topological space X is completely regular, it is homeomorphic to a subspace of a cube.*
 
@@ -280,7 +280,7 @@ K¹. If $x, y$ are any two distinct points of $X$, it follows from axioms (H) an
 
 In Chapter IV, § 6, no. 2, Corollary to Theorem 4, we showed that the upper envelope of a family of continuous real-valued functions on a topological space is a lower semi-continuous function. If the space is *uniformizable*, there is a converse to this proposition:
 
-#### Proposition 5 {#top-ix-s1-prop-5 .statement}
+#### Proposition 5 {#top-ix-s1-prop-5 .statement tag=0C1O}
 
 *In order that every lower semi-continuous real-valued function $f$ (finite or not) on a topological space $X$ should be the upper envelope of the continuous real-valued functions on $X$ (finite or not) which are $\leq f$, it is necessary and sufficient that $X$ be uniformizable.*
 
@@ -290,7 +290,7 @@ The condition is *sufficient*. Consider first the case in which $f$ takes its va
 
 The general case follows by transfer of structure; for there is a strictly increasing homeomorphism of $[-1, +1]$ onto $\overline{\mathbf{R}}$ (Chapter IV, § 4, no. 2, Proposition 2), and the definition of a semi-continuous function involves only the order structure and the topology of $\overline{\mathbf{R}}$.
 
-#### Remark {#top-ix-s1-n6-rem-1 .statement}
+#### Remark {#top-ix-s1-n6-rem-1 .statement tag=0C1P}
 
 In the above proof we see that the function $g$ does not take the value $+1$. By transfer of structure it follows that every lower semi-continuous real-valued function $f$ on the uniformizable space $X$ is the upper envelope of the continuous real-valued functions $g \leq f$ on $X$ *which do not take the value* $+\infty$.
 

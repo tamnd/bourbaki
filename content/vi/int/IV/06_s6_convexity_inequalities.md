@@ -33,9 +33,9 @@ subsections:
       pdf_page: 205
 statements: 22
 exercises: 20
-content_sha256: a266f3611b2ef4a4ae382123f5b245b142e3fe9672c45a0f115c2a07b6cffe6a
+content_sha256: 54db0af3d8ff18dbf16be19ee6007fef19ea90641828d0eb47dddd5a0ded69f5
 translated_from: content/en/int/IV/06_s6_convexity_inequalities.md
-source_content_sha256: e7543f369626f54b7975ca90acc1c06c4323ed604b1e0ef42f46355d0815b55d
+source_content_sha256: 5da8e094f0389b678ca69f52f247e8417940837f7695de9c80ebdf9dcbcce321
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-d38441a8
 glossary_version: 34
@@ -47,7 +47,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Định lý lồi
 
-#### Định lý 1 {#int-iv-s6-thm-1 .statement}
+#### Định lý 1 {#int-iv-s6-thm-1 .statement tag=08XD}
 
 — Cho $X$ là một không gian compact địa phương, $\mu$ là một độ đo dương trên $X$, $F$ là một không gian Banach thực, $D$ là một tập lồi đóng trong $F$, và $f$ là một hàm trên $X$ sao cho $f(X) \subset D$. Với mọi hàm số số học khả tích không đáng kể $g \geqslant 0$ sao cho $fg$ khả tích, điểm $\frac{\int fg\, d\mu}{\int g\, d\mu}$ thuộc $D$.
 
@@ -65,7 +65,7 @@ $$
 
 Điều này chứng minh rằng điểm $\frac{\int fg\, d\mu}{\int g\, d\mu}$ thuộc mọi nửa không gian đóng chứa $D$; nhưng, theo định lý Hahn–Banach, $D$ là giao của các nửa không gian đóng chứa nó (TVS, II, §5, No. 3, Hệ quả 1 của Mệnh đề 4), do đó suy ra định lý.
 
-#### Hệ quả {#int-iv-s6-n1-cor-1 .statement}
+#### Hệ quả {#int-iv-s6-n1-cor-1 .statement tag=08XE}
 
 — *Nếu độ đo dương $\mu$ có khối lượng toàn phần bằng 1 và nếu $f$ khả tích, thì $\int f\, d\mu$ thuộc bao lồi đóng của $f(X)$ trong $F$*.
 
@@ -75,7 +75,7 @@ Chỉ cần lấy cho $g$ hàm hằng 1.
 
 Ta sẽ làm sắc bén hơn Định lý 1 đối với các hàm số số học đo được (hữu hạn hoặc không).
 
-#### Định nghĩa 1 {#int-iv-s6-def-1 .statement}
+#### Định nghĩa 1 {#int-iv-s6-def-1 .statement tag=08XF}
 
 — Cho X là một không gian compact địa phương, $\mu$ là một độ đo trên X. Cho một hàm số số học f (hữu hạn hoặc không), được xác định địa phương hầu khắp nơi trong X, ta gọi là cực đại theo độ đo, hay cực đại $\mu$ (tương ứng là cực tiểu theo độ đo, hay cực tiểu $\mu$) của hàm f, và ký hiệu là $M_\infty(f)$ (tương ứng là $m_\infty(f)$), cận dưới đúng (tương ứng là cận trên đúng) của tập hợp các số $\alpha$ sao cho $f(x) \leq \alpha$ (tương ứng là $f(x) \geq \alpha$) địa phương hầu khắp nơi (đối với $\mu$).
 
@@ -105,7 +105,7 @@ với điều kiện vế thứ hai được xác định.
 
 Nếu $M_\infty(f) < +\infty$, thì $f(x) < +\infty$ địa phương hầu khắp nơi, nhưng không nhất thiết hầu khắp nơi. Một hàm số thực $f$ được gọi là bị chặn theo độ đo (đối với độ đo $\mu$) nếu nó được xác định và hữu hạn hầu khắp nơi, và hơn nữa, các số $m_\infty(f)$ và $M_\infty(f)$ đều hữu hạn (điều kiện sau tương đương với việc nói rằng $M_\infty(|f|) < +\infty$).
 
-#### Mệnh đề 1 (Bất đẳng thức của giá trị trung bình) {#int-iv-s6-prop-1 .statement}
+#### Mệnh đề 1 (Bất đẳng thức của giá trị trung bình) {#int-iv-s6-prop-1 .statement tag=08XG}
 
 — *Cho f là một hàm số thực đo được bị chặn theo độ đo. Với mọi hàm số thực khả tích $g \geqslant 0$, hàm $fg$ (được xác định hầu khắp nơi) là khả tích và*
 
@@ -121,7 +121,7 @@ Bỏ qua trường hợp tầm thường $\int g d|\mu| = 0$, bất đẳng th�
 
 ### 3. Các không gian $L^\infty_F$
 
-#### Định nghĩa 2 {#int-iv-s6-def-2 .statement}
+#### Định nghĩa 2 {#int-iv-s6-def-2 .statement tag=08XH}
 
 *Với mọi ánh xạ $f$ của $X$ vào một không gian Banach $F$, đặt $N_\infty(f) = M_\infty(|f|)$; $f$ được gọi là bị chặn theo độ đo (đối với độ đo $\mu$) nếu $N_\infty(f)$ là hữu hạn. Tập hợp các ánh xạ của $X$ vào $F$ đo được và bị chặn theo độ đo được ký hiệu là $\mathscr{L}_F^\infty(X, \mu)$ (hoặc $\mathscr{L}_F^\infty(\mu)$, hoặc đơn giản là $\mathscr{L}_F^\infty$).*
 
@@ -137,13 +137,13 @@ mặt khác, $N_\infty(\alpha f) = |\alpha| N_\infty(f)$ với mọi vô hướn
 
 Rõ ràng rằng mọi hàm bằng địa phương hầu khắp nơi với một hàm thuộc $\mathscr{L}_F^\infty$ đều thuộc $\mathscr{L}_F^\infty$. Đặc biệt, các hàm *không đáng kể địa phương* xác định trên $X$ với giá trị trong $F$ tạo thành một không gian con tuyến tính $\mathscr{N}_F^\infty$ của $\mathscr{L}_F^\infty$, được đặc trưng bởi quan hệ $N_\infty(f) = 0$ (bao đóng của 0 đối với tôpô xác định bởi $N_\infty(f)$). Không gian Hausdorff liên kết với $\mathscr{L}_F^\infty$, nghĩa là không gian thương $\mathscr{L}_F^\infty / \mathscr{N}_F^\infty$, được ký hiệu là $L_F^\infty(X, \mu)$ (hoặc $L_F^\infty(\mu)$ hoặc $L_F^\infty$); tôpô của nó được xác định bởi chuẩn suy ra từ $N_\infty$ bằng phép chuyển qua thương; chuẩn của một lớp $\dot{f} \in L_F^\infty$ được ký hiệu là $N_\infty(\dot{f})$, hoặc cũng là $\| \dot{f} \|_\infty$. Khi $F = \mathbf{R}$ (tương ứng $\mathbf{C}$), ta viết $\mathscr{L}^\infty$ và $L^\infty$ thay cho $\mathscr{L}_\mathbf{R}^\infty$ và $L_\mathbf{R}^\infty$ (tương ứng $\mathscr{L}_\mathbf{C}^\infty$ và $L_\mathbf{C}^\infty$) nếu điều này không gây nhầm lẫn.
 
-#### Mệnh đề 2 {#int-iv-s6-prop-2 .statement}
+#### Mệnh đề 2 {#int-iv-s6-prop-2 .statement tag=08XI}
 
 *Không gian* $\mathscr{L}_F^\infty$ *là đầy đủ; không gian* $L_F^\infty$ *là một không gian Banach*.
 
 Vì, xét $(f_n)$ là một dãy Cauchy trong $\mathscr{L}_F^\infty$; với mỗi số nguyên $n$, tồn tại một số nguyên $k_n$ sao cho $N_\infty(f_r - f_s) \leq 1/n$ với $r \geq k_n$ và $s \geq k_n$; do đó, tồn tại một tập hợp không đáng kể địa phương $A_{rs}$ sao cho $|f_r(x) - f_s(x)| \leq 1/n$ với mọi $x \notin A_{rs}$. Nếu $A_n$ là hợp của các tập hợp $A_{rs}$ (với $r \geq k_n$ và $s \geq k_n$), thì $A_n$ là không đáng kể địa phương và, với mọi $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ với mọi chỉ số $r \geq k_n, s \geq k_n$. Gọi $A$ là tập hợp không đáng kể địa phương được tạo thành bởi hợp của các $A_n$, và đặt $g_n(x) = f_n(x)$ với $x \notin A$, $g_n(x) = 0$ với $x \in A$; khi đó $g_n$ thuộc $\mathscr{L}_F^\infty$ và, theo định nghĩa của $A$, dãy $(g_n)$ hội tụ *đều* trên $X$ tới một hàm $g$. Suy ra rằng hàm $g$ là đo được (§ 5, No. 4, Th. 2); hơn nữa, $g$ bị chặn trên tập hợp các $x \in X$ mà $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ và, vì phần bù của tập hợp này là không đáng kể địa phương, $g$ thuộc $\mathscr{L}_F^\infty$. Hiển nhiên rằng trong $\mathscr{L}_F^\infty$, dãy $(g_n)$ có giới hạn $g$, và do đó điều tương tự cũng đúng với dãy $(f_n)$, vì $N_\infty(f_n - g_n) = 0$ với mọi $n$. Phần thứ hai của mệnh đề được suy ra ngay lập tức từ điều này.
 
-#### Nhận xét {#int-iv-s6-n3-rem-1 .statement}
+#### Nhận xét {#int-iv-s6-n3-rem-1 .statement tag=08XJ}
 
 — 1) Mọi hàm *liên tục bị chặn* $f$ trên $X$ với các giá trị trong $F$ đều thuộc $\mathscr{L}_F^\infty$, và
 
@@ -161,7 +161,7 @@ Khi giá của $\mu$ bằng $X$, do đó ta có thể đồng nhất không gian
 
 Trong No. này, $p$ và $q$ sẽ ký hiệu hai số thực sao cho $1 \leq p \leq +\infty$, $1 \leq q \leq +\infty$, liên hệ bởi quan hệ $1/p + 1/q = 1$; do đó $q = p/(p-1)$ nếu $1 < p < +\infty$, $q = +\infty$ nếu $p = 1$, và $q = 1$ nếu $p = +\infty$; $p$ và $q$ sẽ được gọi là các số mũ liên hợp. Chú ý rằng quan hệ $1 \leq p \leq 2$ tương đương với $2 \leq q \leq +\infty$; $p = q$ chỉ khi $p$ và $q$ đều bằng 2.
 
-#### Định lý 2 (Bất đẳng thức Hölder) {#int-iv-s6-thm-2 .statement}
+#### Định lý 2 (Bất đẳng thức Hölder) {#int-iv-s6-thm-2 .statement tag=08XK}
 
 — Cho $f$ và $g$ là hai hàm số có giá trị số hữu hạn hầu khắp nơi và sao cho $f$ bằng hầu khắp nơi một hàm thuộc $L^p$ và $g$ bằng hầu khắp nơi một hàm thuộc $L^q$. Khi đó, hàm $fg$ (được xác định hầu khắp nơi) là khả tích, và
 
@@ -171,7 +171,7 @@ $$
 
 Gọi $f_1$ (tương ứng $g_1$) là một hàm trong $L^p$ (tương ứng $L^q$) mà $f$ (tương ứng $g$) bằng hầu khắp nơi; $fg$ bằng hầu khắp nơi hàm $f_1 g_1$, hàm này được xác định khắp nơi và hữu hạn, và đo được, vì là tích của hai hàm đo được (§ 5, No. 3, Hệ quả 5 của Định lý 1). Nếu $1 < p < +\infty$, bất đẳng thức Hölder đối với tích phân trên (Ch. I, No. 3, Mệnh đề 4) cho bất đẳng thức (4), và quan hệ $N_1(fg) < +\infty$ khi đó chỉ ra rằng $fg$ là khả tích (§ 5, No. 6, Định lý 5). Nếu $p = 1$, $q = +\infty$, bất đẳng thức (4) và sự kiện $fg$ là khả tích là những hệ quả ngay lập tức của bất đẳng thức trung bình (No. 2, Mệnh đề 1); do đó định lý được chứng minh trong mọi trường hợp.
 
-#### Hệ quả 1 {#int-iv-s6-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s6-thm-2-cor-1 .statement tag=08XL}
 
 — Cho $F, G, H$ là ba không gian Banach, và cho $(u, v) \mapsto \Phi(u, v)$ là một ánh xạ song tuyến tính liên tục của $F \times G$ vào $H$ sao cho $|\Phi(u, v)| \leq |u| \cdot |v|$. Nếu $f \in \mathscr{L}_F^p$ và $g \in \mathscr{L}_G^q$, thì hàm $\Phi(f, g)$ là khả tích và
 
@@ -183,7 +183,7 @@ Vì, $\Phi(f, g)$ là đo được (§ 5, No. 3, Hệ quả 5 của Định lý 
 
 Hai trường hợp đặc biệt của Hệ quả 1 có tầm quan trọng trong các ứng dụng:
 
-#### Hệ quả 2 {#int-iv-s6-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s6-thm-2-cor-2 .statement tag=08XM}
 
 — Cho $F$ là một không gian Banach thực (tương ứng phức), $F'$ là đối ngẫu mạnh của nó (TVS, III, § 3, No. 1), và cho $(z, z') \mapsto \langle z, z' \rangle$ là dạng song tuyến tính chính tắc trên $F \times F'$. Nếu $f \in \mathscr{L}_F^p$ và $g \in \mathscr{L}_{F'}^q$, thì hàm thực (tương ứng phức) $\langle f, g \rangle$ là khả tích và
 
@@ -195,7 +195,7 @@ Vì, $|\langle z, z' \rangle| \leq |z| \cdot |z'|$.
 
 Khi $F$ là một không gian Hilbert thực hoặc phức, ta biết rằng nó có thể được đồng nhất một cách chính tắc với đối ngẫu $F'$ của nó (TVS, V, § 1, No. 7). Vì không gian $L_F^2$ là đầy đủ, ta có kết quả sau:
 
-#### Hệ quả 3 {#int-iv-s6-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#int-iv-s6-thm-2-cor-3 .statement tag=08XN}
 
 — Cho $\mu$ là một độ đo dương trên $X$, $F$ là một không gian Hilbert thực (tương ứng phức). Trên không gian $L_F^2$, dạng đối xứng (tương ứng Hermit)
 
@@ -205,7 +205,7 @@ $$
 
 xác định một cấu trúc không gian Hilbert, mà đối với nó chuẩn bằng $\| \widetilde{f} \|_2$.
 
-#### Hệ quả 4 {#int-iv-s6-thm-2-cor-4 .statement}
+#### Hệ quả 4 {#int-iv-s6-thm-2-cor-4 .statement tag=08XO}
 
 — Cho $F$ là một không gian Banach, $f$ là một hàm trong $\mathscr{L}_F^p$, và $g$ là một hàm số thuộc $\mathscr{L}^q$; khi đó, hàm $fg$ là khả tích và
 
@@ -213,7 +213,7 @@ $$
 \left| \int fg\, d\mu \right| \leq \int |fg|\, d|\mu| \leq N_p(f) N_q(g).
 $$
 
-#### Hệ quả 5 {#int-iv-s6-thm-2-cor-5 .statement}
+#### Hệ quả 5 {#int-iv-s6-thm-2-cor-5 .statement tag=08XP}
 
 — Cho $f_1, f_2, \ldots, f_n$ là n hàm khả tích dương, và cho $\alpha_1, \alpha_2, \ldots, \alpha_n$ là n số $> 0$ sao cho $\sum_{i=1}^n \alpha_i = 1$; dưới các điều kiện này, hàm $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ là khả tích và
 
@@ -226,7 +226,7 @@ Vì, tích $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ là đo đượ
 
 Hệ quả 2 của Th. 2 được làm sắc hơn bởi mệnh đề sau:
 
-#### Mệnh đề 3 {#int-iv-s6-prop-3 .statement}
+#### Mệnh đề 3 {#int-iv-s6-prop-3 .statement tag=08XQ}
 
 — Cho $\mu$ là một độ đo dương trên X, F là một không gian Banach thực hoặc phức, F' là đối ngẫu mạnh của nó, và $(z, z') \mapsto \langle z, z' \rangle$ là dạng song tuyến tính chính tắc trên $F \times F'$.
 
@@ -318,7 +318,7 @@ vì $\varepsilon$ là tùy ý và $\alpha$ là bất kỳ số nào < $N_\infty(
 
 Ta lập luận hoàn toàn theo cùng một cách để chứng minh quan hệ (10), bằng cách xét riêng trường hợp $1 \leq q < +\infty$ và trường hợp $q = +\infty$, và sử dụng sự kiện rằng với mọi $z' \in F'$, $|z'| = \sup_{|z| \leq 1} |\langle z, z' \rangle|$ theo định nghĩa của chuẩn trong $F'$.
 
-#### Nhận xét {#int-iv-s6-n4-rem-1 .statement}
+#### Nhận xét {#int-iv-s6-n4-rem-1 .statement tag=08XR}
 
 — 1) Cho $\mathscr{E}$ là một không gian con tuyến tính trù mật của $\mathscr{L}_{F'}^q$; khi đó công thức (9) đúng khi $g$ chạy trên giao của $\mathscr{E}$ với tập hợp $B$ gồm các hàm trong $\mathscr{L}_{F'}^q$ sao cho $N_q(g) \leq 1$. Thật vậy, chỉ cần nhận xét rằng phần trong $\overset{\circ}{B}$ của $B$ là trù mật trong $B$ và rằng $\overset{\circ}{B} \cap \mathscr{E}$ là trù mật trong $\overset{\circ}{B}$, vì $\overset{\circ}{B}$ là mở. Nhận xét này áp dụng riêng cho tập hợp $\mathscr{E} = \mathscr{K}(X; F')$ gồm các hàm liên tục có giá compact (với các giá trị trong $F'$) khi $1 \leq q < +\infty$, nghĩa là, $1 < p \leq +\infty$. Nhưng trong trường hợp này, công thức (9) đúng khi $g$ chạy trên $B \cap \mathscr{K}(X; F')$, ngay cả với $p = 1$. Thật vậy, như trên, ta có thể hạn chế về trường hợp $f$ là một hàm bậc thang. Khi đó ta đã thấy rằng nếu $N_1(f) = 1$, thì với mọi $\varepsilon > 0$ tồn tại một hàm bậc thang $g \in \mathscr{L}_{F'}^\infty$ sao cho $|g(x)| \leq 1$ với mọi $x \in X$ và $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$. Tồn tại một số hữu hạn các tập hợp compact rời nhau từng đôi một $K_i$ sao cho $g$ có giá trị hằng $a'_i$ trên mỗi $K_i$ và sao cho, nếu $K$ là hợp của các $K_i$, thì $\int |f| \varphi_{\mathscr{C}_K} d\mu \leq \varepsilon$. Gọi $U_i$ là một lân cận của $K_i$ sao cho các tập hợp $U_i$ rời nhau từng đôi một, và gọi $h_i$ là một ánh xạ liên tục từ $X$ vào $[0, 1]$ có giá được chứa trong $U_i$ và bằng 1 trên $K_i$. Đặt $h = \sum a'_i h_i$, ta có $h(x) = g(x)$ trên $K$ và $|h(x)| \leq 1$ trên $X$, do đó
 
@@ -342,13 +342,13 @@ $$
 
 do đó, khi chuyển qua giới hạn (giả sử, như ta có thể, rằng dãy $(K_n)$ là tăng), ta có $\sup \int^* |f g| d\mu = +\infty$ (§ 1, No. 3, Định lý 3).
 
-#### Hệ quả {#int-iv-s6-n4-cor-1 .statement}
+#### Hệ quả {#int-iv-s6-n4-cor-1 .statement tag=08XS}
 
 — *Cho $\mu$ là một độ đo dương trên $X$, $F$ là một không gian Banach, $F'$ là đối ngẫu mạnh của nó, và $g$ là một hàm bất kỳ trong $\mathscr{L}^q_{F'}$. Khi đó, dạng tuyến tính trên $L^p_F$, suy ra từ dạng tuyến tính $f \mapsto \int \langle f, g \rangle d\mu$ trên $\mathscr{L}^p_F$ bằng cách chuyển qua thương, là liên tục và có chuẩn $N_q(g)$.*
 
 ### 5. Ứng dụng: các quan hệ giữa các không gian $L^p_F$ ($1 \leq p \leq +\infty$)
 
-#### Mệnh đề 4 {#int-iv-s6-prop-4 .statement}
+#### Mệnh đề 4 {#int-iv-s6-prop-4 .statement tag=08XT}
 
 — *Cho $f$ là một hàm đo được với các giá trị trong một không gian Banach $F$; tập hợp $I$ các số $p$, sao cho $1 \leq p \leq +\infty$ và $N_p(f)$ là hữu hạn, hoặc là rỗng hoặc là một khoảng của $\overline{\mathbf{R}}$. Nếu $I$ khác rỗng, hạn chế vào $I$ của ánh xạ $p \mapsto N_p(f)$ là liên tục; hơn nữa, nếu $f$ không đáng kể, $\log N_p(f)$ là một hàm lồi của $1/p$ trên $\bar{I}$.
 
@@ -390,7 +390,7 @@ $$
 
 Bây giờ, cho $a$ là một số sao cho $0 < a < N_\infty(f)$. Vì theo giả thiết, tồn tại các giá trị hữu hạn của $p$ sao cho $N_p(f) < +\infty$, tập hợp $A$ gồm các $x \in X$ sao cho $|f(x)| \geq a$, là đo được và không có độ đo bằng không, là khả tích nhờ bất đẳng thức $\varphi_A \leq (|f|/a)^p$; hơn nữa, từ bất đẳng thức này ta suy ra rằng $N_p(f) \geq a \cdot (|\mu|(A))^{1/p}$; cho $p$ tiến tới $+\infty$, suy ra rằng $\liminf_{p \to +\infty} N_p(f) \geq a$, điều này hoàn tất chứng minh.
 
-#### Hệ quả {#int-iv-s6-n5-cor-1 .statement}
+#### Hệ quả {#int-iv-s6-n5-cor-1 .statement tag=08XU}
 
 — *Nếu* $r, s, p$ *là ba số sao cho*
 
@@ -404,19 +404,19 @@ Nhận xét rằng nói chung các tôpô cảm sinh trên giao $\mathscr{L}_F^r
 
 Mệnh đề 4 có thể được làm sắc hơn khi $\mu$ là một độ đo bị chặn:
 
-#### Mệnh đề 5 {#int-iv-s6-prop-5 .statement}
+#### Mệnh đề 5 {#int-iv-s6-prop-5 .statement tag=08XV}
 
 — Cho $\mu$ là một độ đo bị chặn, và cho $f$ là một hàm $\mu$-đo được với các giá trị trong một không gian Banach $F$. Tập hợp I các số $p$ sao cho $1 \leq p \leq +\infty$ và $N_p(f)$ là hữu hạn, hoặc là rỗng hoặc là một khoảng với điểm đầu bên trái $p = 1$ và chứa điểm này; hơn nữa, $(|\mu|(X))^{-1/p} N_p(f)$ là một hàm tăng của $p$ trên I.
 
 Đây là một hệ quả ngay lập tức của Mệnh đề 4 ở trên và của Hệ quả của Mệnh đề 4 trong Ch. I, No. 3.
 
-#### Hệ quả {#int-iv-s6-n5-cor-2 .statement}
+#### Hệ quả {#int-iv-s6-n5-cor-2 .statement tag=08XW}
 
 — Nếu độ đo $\mu$ bị chặn, quan hệ $r < s$ kéo theo $\mathscr{L}_F^s \subset \mathscr{L}_F^r$; hơn nữa, tôpô của sự hội tụ theo trung bình cấp $s$ mịn hơn tôpô của sự hội tụ theo trung bình cấp $r$ (trên $\mathscr{L}_F^s$).
 
 Có thể chỉ ra rằng nói chung tôpô của sự hội tụ theo trung bình cấp $s$ thực sự mịn hơn tôpô của sự hội tụ theo trung bình cấp $r$ (Exer. 8).
 
-#### Mệnh đề 6 {#int-iv-s6-prop-6 .statement}
+#### Mệnh đề 6 {#int-iv-s6-prop-6 .statement tag=08XX}
 
 — Cho $X$ là một không gian rời rạc, $\mu$ là độ đo trên $X$ được xác định bằng cách đặt khối lượng $+1$ tại mỗi điểm của $X$. Nếu $f$ là một ánh xạ từ $X$ vào không gian Banach $F$, tập hợp I các số $p$ sao cho $1 \leq p \leq +\infty$ và $N_p(f)$ là hữu hạn, hoặc là rỗng hoặc là một khoảng với điểm đầu bên phải $+\infty$ và chứa điểm này; hơn nữa, $N_p(f)$ là một hàm giảm của $p$ trên I.
 
@@ -428,7 +428,7 @@ $$
 
 đối với mọi $p$ hữu hạn. Vì hàm $\log N_p(f)$ là lồi đối với $1/p$ và nhận giá trị nhỏ nhất của nó tại điểm $+\infty$, nên nó tất yếu là một hàm giảm của $p$ trên I (FRV, I, § 4, No. 3, Mệnh đề 5), điều này hoàn thành chứng minh.
 
-#### Hệ quả {#int-iv-s6-n5-cor-3 .statement}
+#### Hệ quả {#int-iv-s6-n5-cor-3 .statement tag=08XY}
 
 — Nếu $X$ là rời rạc và độ đo $\mu$ được xác định bởi một khối lượng $+1$ tại mỗi điểm của $X$, thì quan hệ $r < s$ kéo theo $\mathscr{L}_F^r \subset \mathscr{L}_F^s$; hơn nữa, tôpô của sự hội tụ theo trung bình cấp $r$ mịn hơn tôpô của sự hội tụ theo trung bình cấp $s$ (trên $\mathscr{L}_F^r$).
 

@@ -49,7 +49,7 @@ subsections:
       pdf_page: 117
 statements: 9
 exercises: 39
-content_sha256: 48d4a4374acf58428afbb78f3e9c41e6dac3708ffdd9a6f0048e5d86f02a3b2c
+content_sha256: 4ac8e46f4200ac7e7f332753e43fe2ec6dc6c4857b2b82b1a42df8d051c7b1e2
 ---
 
 ## § 1. DERIVATIVES OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS
@@ -60,7 +60,7 @@ We know that every continuous homomorphism of the additive group $\mathbf{R}$ in
 
 We shall see that the function $f(x) = a^x$ has, for every $x \in \mathbf{R}$, a derivative of the form $c.a^x$ (where clearly $c = f'(0)$). This results from the following general theorem:
 
-#### Theorem 1 {#fvr-iii-s1-thm-1 .statement}
+#### Theorem 1 {#fvr-iii-s1-thm-1 .statement tag=089Q}
 
 *Let E be a complete normed algebra over the field $\mathbf{R}$, with a unit element $\mathbf{e}$, and let $\mathbf{f}$ be a continuous group homomorphism of the additive group $\mathbf{R}$ into the multiplicative group G of invertible elements of E. Then the map $\mathbf{f}$ is differentiable at every $x \in \mathbf{R}$, and*
 
@@ -84,7 +84,7 @@ Hence $f'(x) = g'(x)b^{-1} = f(x)c$, where $c = (f(a) - e)b^{-1}$, and clearly $
 
 Conversely, one can show, either directly (III, p. 115, exerc. 1), or by means of the theory of linear differential equations (IV, p. 188), that every differentiable map f of $\mathbf{R}$ into a complete normed algebra E, such that $f'(x) = f(x)c$ and $f(0) = e$, is a homomorphism of the additive group $\mathbf{R}$ into the multiplicative group G.
 
-#### Proposition 1 {#fvr-iii-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-iii-s1-prop-1 .statement tag=089R}
 
 *For every number $a > 0$ and $\neq 1$ the exponential function $a^\lambda$ admits at every point $x \in \mathbf{R}$ a derivative equal to $(\log_e a)a^\lambda$ where e is a number $> 1$ (independent of $a$).*
 
@@ -108,7 +108,7 @@ which proves that $e^\lambda$ is strictly increasing, hence that $e > 1$.
 
 In §2 (III, p. 105) we shall see how to calculate arbitrarily close approximations to e.
 
-#### Definition 1 {#fvr-iii-s1-def-1 .statement}
+#### Definition 1 {#fvr-iii-s1-def-1 .statement tag=089S}
 
 *Logarithms to the base e are called Naperian logarithms (or natural logarithms).*
 
@@ -128,7 +128,7 @@ $$
 
 In particular, for $a > 0$ and $\neq 1$ one has $D^2(a^x) > 0$ for all $x \in \mathbf{R}$, and hence $a^x$ is *strictly convex* on $\mathbf{R}$ (I, p. 31, corollary). From this one deduces the following proposition:
 
-#### Proposition 2 ("geometric mean inequality") {#fvr-iii-s1-prop-2 .statement}
+#### Proposition 2 ("geometric mean inequality") {#fvr-iii-s1-prop-2 .statement tag=089T}
 
 *For any numbers* $z_i > 0$ ($1 \leq i \leq n$) *and numbers* $p_i > 0$ *such that* $\sum_{i=1}^n p_i = 1$, *one has*
 $$
@@ -173,7 +173,7 @@ D(x^{\alpha}) = \alpha x^{\alpha-1} \qquad (\alpha \text{ an arbitrary real numb
 $$
 which has already been shown by another method (II, p. 69).
 
-#### Example {#fvr-iii-s1-n2-exa-1 .statement}
+#### Example {#fvr-iii-s1-n2-exa-1 .statement tag=089U}
 
 If $u$ is a function $\neq 0$ on an interval $I$, and $v$ is any real function, then $\log(|u|^v) = v \cdot \log |u|$, so if $u$ and $v$ are differentiable
 $$
@@ -184,7 +184,7 @@ $$
 
 We have defined, in General Topology (*Gen. Top.*, VIII, p. 106), the continuous homomorphism $x \mapsto \mathbf{e}(x)$ of the additive group $\mathbf{R}$ onto the multiplicative group $\mathbf{U}$ of complex numbers of absolute value 1; this is a periodic function with principal period 1, and $\mathbf{e}\left(\frac{1}{4}\right) = i$. One knows (*loc. cit.*) that every continuous homomorphism of $\mathbf{R}$ onto $\mathbf{U}$ is of the form $x \mapsto \mathbf{e}(x/a)$, and one puts $\cos_a x = \mathscr{R}(\mathbf{e}(x/a)), \sin_a x = \mathscr{I}(\mathbf{e}(x/a))$ (*trigonometric functions*, or *circular functions*, to base $a$); these last functions are continuous maps from $\mathbf{R}$ into $[-1, +1]$ having principal period $a$. We have $\sin_a(x + a/4) = \cos_a x, \quad \cos_a(x + a/4) = -\sin_a x$, and the function $\sin_a x$ is increasing on the interval $[-a/4, a/4]$.
 
-#### Proposition 3 {#fvr-iii-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-iii-s1-prop-3 .statement tag=089V}
 
 *The function* $\mathbf{e}(x)$ *has a derivative equal to* $2\pi i \mathbf{e}(x)$ *at every point of* $\mathbf{R}$, *where* $\pi$ *is a constant* $> 0$.
 
@@ -321,7 +321,7 @@ $$
 
 This property establishes the connection between $f_0$ and the function $e^z$, which is moreover the restriction of $f_0$ to the real axis; for this reason we make the following definition:
 
-#### Definition 2 {#fvr-iii-s1-def-2 .statement}
+#### Definition 2 {#fvr-iii-s1-def-2 .statement tag=089W}
 
 *The homomorphism* $x + iy \mapsto e^z \mathbf{e}(y/2\pi)$ *of* $\mathbf{C}$ *onto* $\mathbf{C}^*$ *is called the complex exponential; its value at an arbitrary complex number* $z$ *is denoted by* $e^z$ *or* $\exp z$.
 
@@ -362,7 +362,7 @@ $$
 \mathrm{D}(e^{a z}) = a\, e^{a z}.
 $$
 
-#### Remark {#fvr-iii-s1-n6-rem-1 .statement}
+#### Remark {#fvr-iii-s1-n6-rem-1 .statement tag=089X}
 
 If, in formula (27), one restricts the function $e^{a z}$ ($a$ complex) to the real axis, one again obtains, for $x$ real,
 $$
@@ -381,7 +381,7 @@ e^{(\alpha + i \beta)x} \left[ \frac{x^n}{\alpha + i \beta} - \frac{n x^{n-1}}{(
 $$
 By Euler’s formulae one can on the other hand express every positive integral power of $\cos x$ or of $\sin x$ as a linear combination of exponentials $e^{ip x}$ ($p$ a positive or negative integer). By formula (28) one can thus express a primitive of a function of the form $x^n e^{\alpha x} (\cos \beta x)' (\sin \gamma x)^s$ as a linear combination of functions of the form $x^p e^{\alpha x} \cos \lambda x$ and $x^p e^{\alpha x} \sin \mu x$ and ($n, p, r, s$ integers, $\alpha, \beta, \gamma, \lambda, \mu$ real).
 
-#### Example {#fvr-iii-s1-n6-exa-1 .statement}
+#### Example {#fvr-iii-s1-n6-exa-1 .statement tag=089Y}
 
 One has
 
@@ -562,7 +562,7 @@ $$
 \operatorname{Arg} \tanh x = \frac{1}{2} \log \frac{1 + x}{1 - x}.
 $$
 
-#### Remark {#fvr-iii-s1-n9-rem-1 .statement}
+#### Remark {#fvr-iii-s1-n9-rem-1 .statement tag=089Z}
 
 For complex $z$ one sometimes writes
 

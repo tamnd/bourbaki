@@ -36,7 +36,7 @@ subsections:
       pdf_page: 64
 statements: 22
 exercises: 23
-content_sha256: 2cfeea6d48b2042b4f3cc993bb9119b5a44b6d8c8b8720cb5c58de451828bbe0
+content_sha256: d240bfc48d15b90f1261400232adbcc054d81cb65f5847c700b102d06359e9fc
 ---
 
 ## § 1. PRIMITIVES ET INTÉGRALES
@@ -47,7 +47,7 @@ Sauf mention expresse du contraire, nous ne considérerons, dans ce chapitre, qu
 
 Une fonction vectorielle $\mathbf{f}$, définie dans un intervalle $I \subset \mathbf{R}$, ne peut être en tout point de cet intervalle la dérivée d’une fonction vectorielle $\mathbf{g}$ (définie et continue dans $I$) que si elle satisfait à des conditions assez restrictives: par exemple, si $\mathbf{f}$ admet une limite à droite et une limite à gauche en un point $x_0$ intérieur à $I$, $\mathbf{f}$ doit être continue au point $x_0$, d’après la prop. 6 de I, p. 26; il en résulte que, si on prend pour $I$ l’intervalle $(-1, +1)$, pour $f$ la fonction numérique égale à $-1$ dans $(-1, 0[$, à $+1$ dans $]0, 1]$, $f$ n’est pas la dérivée d’une fonction continue dans $I$; toutefois, la fonction $|x|$ a pour dérivée $f(x)$ en tout point $\neq 0$; on est ainsi conduit à poser la définition suivante:
 
-#### Définition 1 {#fvr-ii-s1-def-1 .statement}
+#### Définition 1 {#fvr-ii-s1-def-1 .statement tag=0870}
 
 Etant donnée une fonction vectorielle $\mathbf{f}$, définie dans un intervalle $I \subset \mathbf{R}$, on dit qu’une fonction $\mathbf{g}$ définie dans $I$ est une primitive de $\mathbf{f}$ si $\mathbf{g}$ est continue dans $I$ et admet une dérivée égale à $\mathbf{f}(x)$ en tout point $x$ du complémentaire (par rapport à $I$) d’une partie dénombrable de $I$.
 
@@ -57,7 +57,7 @@ Avec cette définition, on voit que la fonction numérique f considérée ci-des
 
 Il est clair que, si f admet une primitive dans I, toute primitive de f est aussi une primitive de toute fonction égale à f sauf aux points d’une partie dénombrable de I. Par abus de langage, on peut parler d’une primitive dans I d’une fonction f_0 définie seulement dans le complémentaire (par rapport à I) d’une partie dénombrable de I : il s’agira de la primitive de toute fonction f définie dans I, et égale à f_0 aux points où f_0 est définie.
 
-#### Proposition 1 {#fvr-ii-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-ii-s1-prop-1 .statement tag=0871}
 
 Soit f une fonction vectorielle définie dans I, à valeurs dans E ; si f admet une primitive g dans I, l’ensemble des primitives de f dans I est identique à l’ensemble des fonctions g + a, où a est une fonction constante, à valeurs dans E.
 
@@ -69,7 +69,7 @@ On dit que les primitives d’une fonction f (lorsqu’elles existent) sont déf
 
 Soit $\mathbf{f}$ une fonction définie dans un intervalle quelconque $\mathrm{I} \subset \mathbf{R}$; pour qu'une fonction $\mathbf{g}$ définie dans $\mathrm{I}$ soit une primitive de $\mathbf{f}$, il faut et il suffit que la restriction de $\mathbf{g}$ à tout intervalle compact $\mathrm{J} \subset \mathrm{I}$ soit une primitive de la restriction de $\mathbf{f}$ à $\mathrm{J}$.
 
-#### Théorème 1 {#fvr-ii-s1-thm-1 .statement}
+#### Théorème 1 {#fvr-ii-s1-thm-1 .statement tag=0872}
 
 *Soient* A *un ensemble filtré par un filtre* $\mathfrak{F}$, $(\mathbf{f}_\alpha)_{\alpha \in \mathrm{A}}$ *une famille de fonctions vectorielles à valeurs dans un espace normé complet* E *sur* $\mathbf{R}$, *définies dans un intervalle* $\mathrm{I} \subset \mathbf{R}$; *pour tout* $\alpha \in \mathrm{A}$, *soit* $\mathbf{g}_\alpha$ *une primitive de* $\mathbf{f}_\alpha$. *On suppose que*:
 $1^o$ *suivant le filtre* $\mathfrak{F}$, *les fonctions* $\mathbf{f}_\alpha$ *convergent uniformément dans tout partie compacte de* I *vers une fonction* $\mathbf{f}$;
@@ -99,11 +99,11 @@ $$
 $$
 pour $y \in I$ et $|y - x| \leq h$, ce qui achève la démonstration.
 
-#### Corollaire 1 {#fvr-ii-s1-thm-1-cor-1 .statement}
+#### Corollaire 1 {#fvr-ii-s1-thm-1-cor-1 .statement tag=0873}
 
 L’ensemble $\mathscr{H}$ des applications de $I$ dans $E$ qui admettent une primitive dans un intervalle $I$ est un sous-espace vectoriel fermé (donc complet) de l’espace vectoriel complet $\mathscr{F}_c(I; E)$ des applications de $I$ dans $E$, muni de la topologie de la convergence uniforme dans toute partie compacte de $I$ (TG, X, p. 4).
 
-#### Corollaire 2 {#fvr-ii-s1-thm-1-cor-2 .statement}
+#### Corollaire 2 {#fvr-ii-s1-thm-1-cor-2 .statement tag=0874}
 
 Soit $x_0$ un point de $I$, et pour chaque fonction $f \in \mathscr{H}$, soit $P(f)$ la primitive de $f$ qui s’annule au point $x_0$; l’application $f \mapsto P(f)$ de $\mathscr{H}$ dans $\mathscr{F}_c(I; E)$ est une application linéaire continue.
 
@@ -111,19 +111,19 @@ Le cor. 1 du th. 1 permet d’établir l’existence de primitives de certaines 
 
 ### 3. Fonctions réglées
 
-#### Définition 2 {#fvr-ii-s1-def-2 .statement}
+#### Définition 2 {#fvr-ii-s1-def-2 .statement tag=0875}
 
 On dit qu’une application $f$ d’un intervalle $I \subset \mathbf{R}$ dans un ensemble $E$ est une fonction en escalier s’il existe une partition de $I$ en un nombre fini d’intervalles $J_k$ telle que $f$ soit constante dans chacun des $J_k$.
 
 Soit $(a_i)_{0 \leq i \leq n}$ la suite strictement croissante formée des extrémités distinctes des $J_k$; comme les $J_k$ sont deux à deux sans point commun, chacun d’eux est, soit réduit à un point $a_i$, soit un intervalle ayant pour extrémités deux points consécutifs $a_i, a_{i+1}$; en outre, comme $I$ est réunion des $J_k$, $a_0$ est l’origine, et $a_n$ l’extrémité de $I$. Toute fonction en escalier dans $I$ peut donc être caractérisée comme une fonction constante dans chacun des intervalles ouverts $]a_i, a_{i+1}[$ ($0 \leq i \leq n - 1$), $(a_i)_{0 \leq i \leq n}$ étant une suite strictement croissante de points de $I$ telle que $a_0$ soit l’origine et $a_n$ l’extrémité de $I$.
 
-#### Proposition 2 {#fvr-ii-s1-prop-2 .statement}
+#### Proposition 2 {#fvr-ii-s1-prop-2 .statement tag=0876}
 
 L’ensemble des fonctions en escalier définies dans $I$, à valeurs dans un espace vectoriel $E$ sur $\mathbf{R}$, est un sous-espace vectoriel $\mathscr{E}$ de l’espace vectoriel $\mathscr{F}(I; E)$ de toutes les applications de $I$ dans $E$.
 
 En effet, soient $f$ et $g$ deux fonctions en escalier, $(A_i)$ et $(B_j)$ deux partitions de $I$ en un nombre fini d’intervalles telles que $f$ (resp. $g$) soit constante dans chacun des $A_i$ (resp. $B_j$); quels que soient les nombres réels $\lambda, \mu$, il est clair que $\lambda f + \mu g$ est constante dans chacun des intervalles non vides $A_i \cap B_j$, et ces intervalles forment une partition de $I$.
 
-#### Corollaire {#fvr-ii-s1-n3-cor-1 .statement}
+#### Corollaire {#fvr-ii-s1-n3-cor-1 .statement tag=0877}
 
 Le sous-espace vectoriel $\mathscr{E}$ est engendré par les fonctions caractéristiques d’intervalles.
 
@@ -131,7 +131,7 @@ Considérons maintenant le cas où $E$ est un espace normé sur $\mathbf{R}$; al
 
 Nous pouvons maintenant appliquer la méthode exposée au n° 2.
 
-#### Définition 3 {#fvr-ii-s1-def-3 .statement}
+#### Définition 3 {#fvr-ii-s1-def-3 .statement tag=0878}
 
 On dit qu’une fonction vectorielle, définie dans un intervalle $I$, à valeurs dans un espace normé complet $E$ sur $\mathbf{R}$, est une fonction réglée si, dans toute partie compacte de $I$, elle est limite uniforme de fonctions en escalier.
 
@@ -139,13 +139,13 @@ En d’autres termes, les fonctions réglées sont les éléments de l’adhére
 
 Le cor. 1 de II, p. 3 montre que:
 
-#### Théorème 2 {#fvr-ii-s1-thm-2 .statement}
+#### Théorème 2 {#fvr-ii-s1-thm-2 .statement tag=0879}
 
 *Toute fonction réglée dans un intervalle $I$ admet une primitive dans $I$.*
 
 Nous allons transformer la déf. 3 de II, p. 4 en une autre équivalente:
 
-#### Théorème 3 {#fvr-ii-s1-thm-3 .statement}
+#### Théorème 3 {#fvr-ii-s1-thm-3 .statement tag=087A}
 
 *Pour qu’une fonction vectorielle $\mathbf{f}$ définie dans un intervalle $I$, à valeurs dans un espace normé complet $E$ sur $\mathbf{R}$, soit réglée, il faut et il suffit qu’elle ait une limite à droite et une limite à gauche en tout point intérieur à $I$, une limite à droite à l’origine de $I$ et une limite à gauche à l’extrémité de $I$, lorsque ces points appartiennent à $I$. L’ensemble des points de discontinuité de $\mathbf{f}$ dans $I$ est alors dénombrable.*
 
@@ -159,13 +159,13 @@ Montrons enfin que si $\mathbf{f}$ est réglée dans $I$, l’ensemble de ses po
 
 (TG, X, p. 8, cor. 1); mais comme $g_n$ est continue sauf aux points d’un ensemble fini $H_n$, $f$ est continue aux points du complémentaire de l’ensemble $H = \bigcup_n H_n$, qui est dénombrable.
 
-#### Corollaire 1 {#fvr-ii-s1-thm-3-cor-1 .statement}
+#### Corollaire 1 {#fvr-ii-s1-thm-3-cor-1 .statement tag=087B}
 
 Soit $f$ une fonction réglée dans $I$; en tout point de $I$, sauf l’extrémité (resp. l’origine) de $I$, toute primitive de $f$ a une dérivée à droite égale à $f(x+)$ (resp. une dérivée à gauche égale à $f(x-)$); en particulier, en tout point $x$ où $f$ est continue, $f(x)$ est la dérivée d’une quelconque de ses primitives.
 
 C’est une conséquence immédiate du th. 3 et de la prop. 6 de I, p. 22 de II, p. 5.
 
-#### Corollaire 2 {#fvr-ii-s1-thm-3-cor-2 .statement}
+#### Corollaire 2 {#fvr-ii-s1-thm-3-cor-2 .statement tag=087C}
 
 Soient $f_i$ ($1 \leq i \leq n$) $n$ fonctions réglées dans un intervalle $I$, $f_i$ prenant ses valeurs dans un espace normé complet $E_i$ sur $\mathbf{R}$ ($1 \leq i \leq n$). Si $g$ est une application continue du sous-espace $\prod_{i=1}^n \overline{f_i(I)}$ de $\prod_{i=1}^n E_i$ dans un espace normé complet $F$ sur $\mathbf{R}$, la fonction composée $x \mapsto g(f_1(x), f_2(x), \ldots, f_n(x))$ est réglée dans $I$.
 
@@ -173,13 +173,13 @@ En effet, elle satisfait de façon évidente aux conditions du th. 3 de II, p. 5
 
 On voit ainsi que si $f$ est une fonction vectorielle réglée dans $I$, la fonction numérique $x \mapsto \|f(x)\|$ est aussi réglée. De même, les fonctions numériques réglées dans $I$ forment un anneau; en outre, si $f$ et $g$ sont deux fonctions numériques réglées, $\sup(f, g)$ et $\inf(f, g)$ sont réglées.
 
-#### Remarque {#fvr-ii-s1-n3-rem-1 .statement}
+#### Remarque {#fvr-ii-s1-n3-rem-1 .statement tag=087D}
 
 1.) Si $f$ est une fonction numérique réglée dans $I$, $g$ une fonction vectorielle réglée dans un intervalle contenant $f(I)$, la fonction composée $g \circ f$ n’est pas nécessairement réglée (cf. II, p. 29, exerc. 4).
 
 Deux cas particuliers du th. 3 de II, p. 5 sont spécialement importants:
 
-#### Proposition 3 {#fvr-ii-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-ii-s1-prop-3 .statement tag=087E}
 
 Toute fonction vectorielle continue dans un intervalle $I \subset \mathbf{R}$, prenant ses valeurs dans un espace normé complet $E$ sur $\mathbf{R}$, est réglée et admet dans $I$ une primitive, dont elle est la dérivée en tout point.
 
@@ -187,7 +187,7 @@ Remarques — 2.) Pour démontrer qu’une fonction continue admet une primitive
 
 3) Le principe de la remarque précédente s’étend sans modification importante aux fonctions vectorielles d’une variable complexe, à valeurs dans un espace normé complet sur $\mathbf{C}$. Si $U$ est un ensemble ouvert dans $\mathbf{C}$, homéomorphe à $\mathbf{C}$, une primitive d’une telle fonction vectorielle $f$ définie dans $U$ est par définition une fonction continue dans $U$, ayant une dérivée égale à $f$ en tout point de $U$. Avec cette définition, le th. 1 de II, p. 2 s’étend sans modification (on démontre en effet, en tenant compte de ce que $U$ est connexe, que $(g_a)$ est uniformément convergente suivant $\mathfrak{F}$ dans un voisinage de tout point de $U$, d’où résulte que $(g_a)$ est uniformément convergente suivant $\mathfrak{F}$ dans toute partie compacte de $U$; la fin de la démonstration se fait en utilisant la prop. 4 de I, p. 26). Par suite, toute fonction qui est limite uniforme de polynômes dans toute partie compacte de U, admet une primitive dans U ; ces fonctions ne sont autres que les fonctions dites holomorphes dans U, que nous étudierons plus en détail dans un Livre ultérieur.
 
-#### Proposition 4 {#fvr-ii-s1-prop-4 .statement}
+#### Proposition 4 {#fvr-ii-s1-prop-4 .statement tag=087H}
 
 Toute fonction numérique f monotone dans un intervalle I ⊂ $\mathbf{R}$ est réglée, et toute primitive de f est convexe dans I.
 
@@ -199,7 +199,7 @@ Remarque — 4.) Il ne faudrait pas croire que les fonctions réglées dans un i
 
 Nous avons obtenu (II, p. 5, th. 2) une primitive d’une fonction réglée dans un intervalle I comme limite uniforme de primitives de fonctions en escalier. Ce procédé peut s’exprimer de façon légèrement différente: soient x₀, x deux points quelconques de I tels que x₀ < x; appelons subdivision de l’intervalle (x₀, x) toute suite d’intervalles (xᵢ, xᵢ₊₁) de réunion {x₀, x}, où (xᵢ)₀≤i≤n est une suite strictement croissante de points de {x₀, x} telle que xₙ = x. Nous appellerons somme de Riemann relative à une fonction vectorielle f définie dans I, et à la subdivision formée des (xᵢ, xᵢ₊₁) toute expression de la forme $\sum_{i=0}^{n-1} f(t_i)(x_{i+1} - x_i)$ où tᵢ appartient à (xᵢ, xᵢ₊₁) pour $0 \leq i \leq n-1$. On a alors la proposition suivante:
 
-#### Proposition 5 {#fvr-ii-s1-prop-5 .statement}
+#### Proposition 5 {#fvr-ii-s1-prop-5 .statement tag=087J}
 
 Soient f une fonction réglée dans un intervalle I, g une primitive de f dans I, (x₀, x) un intervalle compact contenu dans I. Pour tout ε > 0, il existe un nombre ρ > 0 tel que, pour toute subdivision de (x₀, x) en intervalles de longueur ≤ ρ, on ait
 
@@ -241,7 +241,7 @@ Autrement dit, l’élément $\frac{1}{x - x_0} \int_{x_0}^x f(t)dt$ est limite 
 
 Par définition, la fonction $x \mapsto \int_{x_0}^x f(t)\ dt$ n’est autre que la primitive de $f$ qui s’annule au point $x_0 \in I$; aussi la note-t-on encore $\int_{x_0}^x f(t)\ dt$ ou $\int_{x_0}^x f$.
 
-#### Remarque 2 {#fvr-ii-s1-n4-rem-2 .statement}
+#### Remarque 2 {#fvr-ii-s1-n4-rem-2 .statement tag=087L}
 
 Pour une fonction quelconque $h$ définie dans $I$, à valeurs dans $E$, l’élément $h(x) - h(x_0)$ s’écrit aussi $h(t)|_{x_0}^{x}$; avec cette notation, on voit que, si $g$ est une primitive quelconque de la fonction réglée $f$ dans $I$, on a
 
@@ -249,11 +249,11 @@ $$
 \int_{x_0}^{x} f(t)\, dt = g(t)|_{x_0}^{x}.
 $$
 
-#### Remarque 3 {#fvr-ii-s1-n4-rem-3 .statement}
+#### Remarque 3 {#fvr-ii-s1-n4-rem-3 .statement tag=087M}
 
 Les expressions $\int_{x_0}^{x} f(t)\, dt,\ g(t)|_{x_0}^{x}$ sont des « symboles abréviateurs » représentant des assemblages dans lesquels figurent les lettres $x,\ x_0,\ f,\ g$, mais non la lettre $t$ (cf. E, I, p. 14); on dit que dans ces symboles, $t$ est une « variable muette »; on peut donc y remplacer $t$ par tout autre argument distinct de $x,\ x_0,\ f$ et $g$ (et des arguments qui entrent éventuellement dans la démonstration où figurent de tels symboles) sans changer le sens du symbole obtenu (le lecteur comparera ces symboles à des symboles tels que $\sum_{i=1}^{n} x_i,\ \bigcup X_i$, où $i$ est de même une variable muette).
 
-#### Remarque 4 {#fvr-ii-s1-n4-rem-4 .statement}
+#### Remarque 4 {#fvr-ii-s1-n4-rem-4 .statement tag=087N}
 
 L’approximation d’une intégrale par des sommes de Riemann se rattache étroitement à l’une des origines historiques de la notion d’intégrale, le problème de la mesure des aires. Nous reviendrons sur ce point au Livre d’Intégration qui est consacré aux généralisations de la notion d’intégrale auxquelles a conduit ce problème; dans ces généralisations, les fonctions « intégrées » ne sont plus nécessairement définies dans une partie de $\mathbf{R}$; d’autre part, même lorsqu’il s’agit de fonctions numériques $f$ d’une variable réelle (non nécessairement réglées) pour lesquelles on peut définir une intégrale $\int_{x_0}^{x} f(t)\, dt$, la fonction $x \mapsto \int_{x_0}^{x} f(t)\, dt$ n’est pas toujours une primitive de $f$, et il existe des fonctions ayant une primitive, mais non « intégrables » au sens auquel nous faisons allusion.
 
@@ -325,7 +325,7 @@ Si on prend par exemple $f(x) = x^2$, on voit que la formule (13) ramène l’un
 
 Pour traduire le th. des accroissements finis (I, p. 23, th. 1) pour les primitives de fonctions numériques réglées, remarquons d’abord qu’une fonction numérique réglée f dans un intervalle compact I est bornée dans I; soit J l’ensemble des points de I où f est *continue*, et posons $m = \inf_{x \in J} f(x)$, $M = \sup_{x \in J} f(x)$; on sait (II, p. 5, th. 3) que $I \cap \complement J$ est dénombrable; en outre, si B est le complémentaire, par rapport à I, d’une partie dénombrable quelconque de I, et $m' = \inf_{x \in B} f(x)$, $M' = \sup_{x \in B} f(x)$, on a $m' \leq m \leq M \leq M'$: en effet, en tout point $x \in J$, il existe des points y de B arbitrairement voisins de x, où on a donc $m' \leq f(y) \leq M'$; f étant continue au point x, on voit, en faisant tendre y vers x (y restant dans B) que $m' \leq f(x) \leq M'$, ce qui démontre notre assertion. Cela étant, la traduction du th. des accroissements finis donne la proposition suivante:
 
-#### Proposition 6 (théorème de la moyenne) {#fvr-ii-s1-prop-6 .statement}
+#### Proposition 6 (théorème de la moyenne) {#fvr-ii-s1-prop-6 .statement tag=087O}
 
 *Soit f une fonction numérique réglée dans un intervalle compact I = (a, b); si J est l’ensemble des points de I où f est continue, et $m = \inf_{x \in J} f(x)$, $M = \sup_{x \in J} f(x)$, on a*
 
@@ -337,11 +337,11 @@ sauf lorsque f est constante dans J, auquel cas les trois membres de (14) sont �
 
 En d’autres termes, la *moyenne* de la fonction réglée f dans I est comprise entre les bornes de f dans la partie de I où f est continue.
 
-#### Corollaire 1 {#fvr-ii-s1-prop-5-cor-1 .statement}
+#### Corollaire 1 {#fvr-ii-s1-prop-5-cor-1 .statement tag=0E5D}
 
 *Si une fonction numérique f réglée dans I est telle que $f(x) \geq 0$ aux points où f est continue, on a* $\frac{1}{b - a} \int_a^b g(t)\,dt > 0$ *sauf si* $f(x) = 0$ *aux points ou f est continue.*
 
-#### Corollaire 2 {#fvr-ii-s1-prop-5-cor-2 .statement}
+#### Corollaire 2 {#fvr-ii-s1-prop-5-cor-2 .statement tag=0E5E}
 
 Soient $f$ et $g$ deux fonctions numériques réglées dans $I$, telles que $g(x) \geqslant 0$ aux points où $g$ est continue ; si $m$ et $M$ sont les bornes inférieure et supérieure de $f$ dans l’ensemble des points de $I$ où $f$ est continue, on a
 
@@ -353,7 +353,7 @@ Les deux premiers membres (resp. les deux derniers) ne sont égaux que si $g(x)(
 
 Pour les fonctions vectorielles, le th. des accroissements finis (I, p. 23, th. 2) donne de même la proposition suivante :
 
-#### Proposition 7 {#fvr-ii-s1-prop-7 .statement}
+#### Proposition 7 {#fvr-ii-s1-prop-7 .statement tag=087R}
 
 Soit $\mathbf{f}$ une fonction vectorielle réglée dans un intervalle compact $I = [a,\ b]$, à valeurs dans un espace normé complet $E$, et soit $g$ une fonction numérique réglée dans $I$, telle que $g(x) \geqslant 0$ aux points où $g$ est continue ; dans ces conditions, on a
 

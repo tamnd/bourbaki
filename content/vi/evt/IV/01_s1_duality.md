@@ -32,7 +32,7 @@ subsections:
       pdf_page: 193
 statements: 36
 exercises: 25
-content_sha256: df9e731cfee544861ed7689fb00b4745636ded42ead4a7b0ce222cace476313a
+content_sha256: daf25177694b97e3881d1b90b882fbd76470dd98673bc9d966f1c69861113c03
 translated_from: content/en/evt/IV/01_s1_duality.md
 source_content_sha256: bd5abbb3fca9150b780f3e4a8c9981d06826dfaade169339cbc780c2b9fa2ff2
 translation_model: gpt-5.4
@@ -61,13 +61,13 @@ $$
 
 với $x \in E, \ y \in F$.
 
-#### Định nghĩa 1 {#evt-iv-s1-def-1 .statement}
+#### Định nghĩa 1 {#evt-iv-s1-def-1 .statement tag=07QI}
 
 *Một tôpô lồi địa phương $\mathscr{T}$ trên E được gọi là tương thích với đối ngẫu giữa E và F nếu $d_B$ là một song ánh từ F lên đối ngẫu của không gian lồi địa phương thu được bằng cách gán tôpô $\mathscr{T}$ cho E.*
 
 Nếu tồn tại một tôpô như thế $\mathscr{T}$, thì ánh xạ $d_B$ là đơn ánh, nghĩa là đối ngẫu giữa E và F là phân ly trên F (II, p. 41).
 
-#### Mệnh đề 1 {#evt-iv-s1-prop-1 .statement}
+#### Mệnh đề 1 {#evt-iv-s1-prop-1 .statement tag=07QJ}
 
 (i) *Các tập con lồi đóng trong E là như nhau đối với mọi tôpô lồi địa phương trên E tương thích với đối ngẫu giữa E và F.*
 (ii) *Các tập con bị chặn của E là như nhau đối với mọi tôpô lồi địa phương trên E tương thích với đối ngẫu giữa E và F.*
@@ -82,7 +82,7 @@ $$
 
 trong đó A chạy qua $\mathfrak{S}$. Đặc biệt, khi $\mathfrak{S}$ là họ các tập con hữu hạn của F, $\mathfrak{S}$-tôpô chính xác là tôpô yếu $\sigma(E, F)$.
 
-#### Định nghĩa 2 {#evt-iv-s1-def-2 .statement}
+#### Định nghĩa 2 {#evt-iv-s1-def-2 .statement tag=07QK}
 
 *Cho E và F là hai không gian đối ngẫu nhau. Tôpô Mackey trên E, ký hiệu là $\tau(E, F)$, được định nghĩa là $\mathfrak{S}$-tôpô trên E, trong đó $\mathfrak{S}$ là họ tất cả các tập con của F mà ảnh của chúng trong $E^*$ (theo $d_B$) là lồi, cân bằng và compact đối với $\sigma(E^*, E)$.*
 
@@ -90,19 +90,19 @@ Khi đối ngẫu giữa E và F là phân ly trên F, $d_B$ là đơn ánh và 
 
 Trong trường hợp tổng quát, nếu $F_1 = d_B(F) \subset E^*$, và nếu ta ký hiệu bởi $(x, y_1) \mapsto B_1(x, y_1)$ hạn chế của dạng song tuyến tính chính tắc $(x, x^*) \mapsto \langle x, x^* \rangle$ lên $E \times F_1$, thì E và $F_1$ được đặt vào đối ngẫu bởi $B_1$, và đối ngẫu này là phân ly trên $F_1$, vì theo định nghĩa ta có $B(x, y) = B_1(x, d_B(y))$, định nghĩa 2 cho thấy rằng $\tau(E, F) = \tau(E, F_1)$.
 
-#### Nhận xét 1 {#evt-iv-s1-n1-rem-1 .statement}
+#### Nhận xét 1 {#evt-iv-s1-n1-rem-1 .statement tag=07QL}
 
 — Cho A là một tập con compact lồi của một không gian lồi địa phương Hausdorff G, và cho $\tilde{A}$ là bao lồi cân bằng đóng của A. Khi trường K là $\mathbf{R}$, tập $\tilde{A}$ là bao lồi đóng của $A \cup (-A)$; khi K là $\mathbf{C}$, tập $\tilde{A}$ được chứa trong bao lồi đóng của $2A \cup (-2A) \cup (2iA) \cup (-2iA)$. Do đó (II, p. 14, mệnh đề 15), $\tilde{A}$ là compact.
 
 Do đó, đặc biệt, ta suy ra rằng khi đối ngẫu giữa E và F là phân ly trên F, *tôpô Mackey $\tau(E, F)$ cũng là tôpô $\mathfrak{S}'$, trong đó $\mathfrak{S}'$ là tập hợp tất cả các tập con lồi của F là compact đối với $\sigma(F, E)$*. Theo một cách tương tự, ta định nghĩa tôpô Mackey $\tau(F, E)$ trên F.
 
-#### Định lý 1 (Mackey) {#evt-iv-s1-thm-1 .statement}
+#### Định lý 1 (Mackey) {#evt-iv-s1-thm-1 .statement tag=07QM}
 
 — *Cho E và F là hai không gian đối ngẫu với nhau; giả sử rằng đối ngẫu là phân ly trên F. Để một tôpô lồi địa phương $\mathscr{T}$ trên E tương thích với đối ngẫu giữa E và F, điều kiện cần và đủ là $\mathscr{T}$ mịn hơn tôpô $\sigma(E, F)$ và thô hơn tôpô Mackey $\tau(E, F)$.*
 
 Đồng nhất F với ảnh của nó trong $E^*$ dưới $d_B$. Ký hiệu $\mathfrak{S}_0$ là tập hợp tất cả các tập con của F vừa lồi, cân bằng và compact đối với $\sigma(F, E)$. Theo định nghĩa, $\tau(E, F)$ là tôpô $\mathfrak{S}_0$ trên E, do đó mịn hơn $\sigma(E, F)$.
 
-#### Bổ đề 1 {#evt-iv-s1-lem-1 .statement}
+#### Bổ đề 1 {#evt-iv-s1-lem-1 .statement tag=07QN}
 
 *Không gian con F của E* gồm tất cả các dạng tuyến tính trên E liên tục đối với $\tau(E, F)$.
 
@@ -110,7 +110,7 @@ Mọi phần tử của F đều là một ánh xạ liên tục đối với $\
 
 Ngược lại, cho $f \in E^*$ liên tục đối với $\tau(E, F)$. Tồn tại một lân cận U của 0 trong E (đối với $\tau(E, F)$), sao cho $|f| \leq 1$ trên U; ta có thể giả sử rằng tồn tại một tập hợp $A \in \mathscr{S}_0$ sao cho $U = A^\circ$. Nói cách khác, $f$ thuộc cực song đối $A^{\circ\circ}$ của A đối với đối ngẫu giữa $E^*$ và E. Nhưng tôpô $\sigma(F, E)$ trên F được cảm sinh bởi $\sigma(E^*, E)$; do đó A lồi, cân bằng và compact đối với $\sigma(E^*, E)$, và định lý các cực song đối (II, p. 44, đl. 1) suy ra đẳng thức $A = A^{\circ\circ}$. Vì vậy ta có $f \in F$, từ đó suy ra bổ đề.
 
-#### Bổ đề 2 {#evt-iv-s1-lem-2 .statement}
+#### Bổ đề 2 {#evt-iv-s1-lem-2 .statement tag=07QO}
 
 *Cho $\mathscr{T}$ là một tôpô lồi địa phương trên E sao cho mọi dạng tuyến tính trên E liên tục đối với $\mathscr{T}$ đều thuộc F. Khi đó $\mathscr{T}$ thô hơn $\tau(E, F)$.*
 
@@ -118,7 +118,7 @@ Ngược lại, cho $f \in E^*$ liên tục đối với $\tau(E, F)$. Tồn t�
 
 Cho $\mathscr{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và F. Khi đó $\mathscr{T}$ thô hơn $\tau(E, F)$ theo bổ đề 2, và hiển nhiên $\mathscr{T}$ mịn hơn $\sigma(E, F)$. Ngược lại, F là đối ngẫu của E đối với tôpô $\tau(E, F)$ (bổ đề 1) và đối với tôpô $\sigma(E, F)$ (II, p. 43, mđ. 3), nên cũng là đối ngẫu đối với mọi tôpô trung gian giữa $\tau(E, F)$ và $\sigma(E, F)$.
 
-#### Hệ quả {#evt-iv-s1-n1-cor-1 .statement}
+#### Hệ quả {#evt-iv-s1-n1-cor-1 .statement tag=07QP}
 
 *Cho p là một nửa chuẩn trên E. Các điều kiện sau là tương đương :*
 
@@ -129,7 +129,7 @@ Cho $\mathscr{T}$ là một tôpô trên E tương thích với đối ngẫu gi
 
 (ii) $\Rightarrow$ (i) : gọi $\mathscr{T}$ là tôpô trên E được xác định bởi nửa chuẩn p. Nếu điều kiện (ii) được thỏa mãn, các dạng tuyến tính trên E liên tục đối với $\mathscr{T}$ đều thuộc F. Theo bổ đề 2, $\mathscr{T}$ thô hơn $\tau(E, F)$, do đó p là liên tục đối với $\tau(E, F)$.
 
-#### Nhận xét 2 {#evt-iv-s1-n1-rem-2 .statement}
+#### Nhận xét 2 {#evt-iv-s1-n1-rem-2 .statement tag=07QQ}
 
 *Cho K là một tập con lồi của F, compact đối với tôpô yếu $\sigma(F, E)$, và $\mu$ là một độ đo dương trên K. Đặt*
 
@@ -139,11 +139,11 @@ $$
 
 *với mọi $x \in E$. Ngay lập tức thấy rằng p là một nửa chuẩn. Hơn nữa, với mọi $x \in E$, quan hệ « $|B(x, y)| \leq 1$ với mọi $y \in K$ » kéo theo $p(x) \leq \mu(K)$. Điều này chứng minh rằng nửa chuẩn p trên E là liên tục đối với tôpô Mackey $\tau(E, F)$. \**
 
-#### Ví dụ {#evt-iv-s1-n1-exa-1 .statement}
+#### Ví dụ {#evt-iv-s1-n1-exa-1 .statement tag=07QR}
 
 Cho G là một không gian lồi địa phương và G' là đối ngẫu của nó. Trên G', tôpô yếu $\sigma(G', G)$ và tôpô hội tụ compact lồi (III, p. 14) là tương thích với đối ngẫu giữa G' và G. Nói chung, tôpô mạnh và tôpô hội tụ compact trên G' không tương thích với đối ngẫu giữa G' và G. Tuy nhiên, hãy nhớ rằng khi G là Hausdorff và quasi-đầy đủ, tôpô hội tụ compact trên G' trùng với tôpô hội tụ compact lồi (III, p. 8), do đó tương thích với đối ngẫu giữa G' và G.
 
-#### Định nghĩa 3 {#evt-iv-s1-def-3 .statement}
+#### Định nghĩa 3 {#evt-iv-s1-def-3 .statement tag=07QS}
 
 *Cho E và F là hai không gian vectơ đối ngẫu với nhau, và $\mathscr{T}$ là họ các tập con của F bị chặn đối với $\sigma(F, E)$. Khi đó tôpô $\mathscr{T}$ trên F được ký hiệu là $\beta(E, F)$.*
 
@@ -169,35 +169,35 @@ Tôpô ban đầu mịn hơn tôpô yếu hóa và thô hơn tôpô Mackey; hơn
 
 Theo mệnh đề 1 của IV, p. 1, ba tôpô này có cùng các tập lồi đóng, cùng các thùng, cùng các tập bị chặn và cùng các bornology thích nghi. Đặc biệt :
 
-#### Mệnh đề 2 {#evt-iv-s1-prop-2 .statement}
+#### Mệnh đề 2 {#evt-iv-s1-prop-2 .statement tag=07QT}
 
 *Cho E là một không gian lồi địa phương, và cho A là một tập con lồi của E (chẳng hạn, một không gian con vectơ của E). Bao đóng của A là như nhau đối với tôpô ban đầu và đối với tôpô yếu hóa của E.*
 
-#### Nhận xét 1 {#evt-iv-s1-n2-rem-1 .statement}
+#### Nhận xét 1 {#evt-iv-s1-n2-rem-1 .statement tag=07QU}
 
 Để một họ $(x_i)_{i \in I}$ các phần tử của E là toàn phần (resp. độc lập về tôpô) đối với tôpô ban đầu, điều kiện cần và đủ là nó cũng như vậy đối với tôpô yếu hóa; điều này suy ra từ mệnh đề 2. Do đó ta có thể áp dụng các tiêu chuẩn của II, p. 43.
 
-#### Nhận xét 2 {#evt-iv-s1-n2-rem-2 .statement}
+#### Nhận xét 2 {#evt-iv-s1-n2-rem-2 .statement tag=07QV}
 
 Cho $\mathscr{T}_1$ và $\mathscr{T}_2$ là hai tôpô lồi địa phương trên E, tương thích với đối ngẫu giữa E và $E'$, với $\mathscr{T}_1$ mịn hơn $\mathscr{T}_2$. Khi đó mọi lân cận của 0 đối với $\mathscr{T}_1$, vừa lồi vừa đóng đối với $\mathscr{T}_1$, đều đóng đối với $\mathscr{T}_2$ theo mệnh đề 1 của IV, p. 1. Do đó (GT, II, § 3, No. 3, hệ quả) mọi tập con của E đầy đủ đối với $\mathscr{T}_2$ thì cũng đầy đủ đối với $\mathscr{T}_1$.
 
 Đặc biệt, mọi tập con của E đầy đủ đối với tôpô yếu đều đầy đủ đối với tôpô ban đầu, và mọi tập con của E đầy đủ đối với tôpô ban đầu đều như vậy đối với tôpô Mackey. Nếu E gần đầy đủ đối với tôpô yếu, thì nó cũng như vậy đối với mọi tôpô tương thích với đối ngẫu giữa E và $E'$. Nếu nó gần đầy đủ đối với tôpô ban đầu, thì nó cũng như vậy đối với tôpô Mackey.
 
-#### Nhận xét 3 {#evt-iv-s1-n2-rem-3 .statement}
+#### Nhận xét 3 {#evt-iv-s1-n2-rem-3 .statement tag=07QW}
 
 Giả sử E là Hausdorff (đối với tôpô ban đầu). Cho A là một tập con của E đóng và bị chặn đối với $\sigma(E, E')$, do đó cũng đóng và bị chặn đối với mọi tôpô tương thích với đối ngẫu giữa E và $E'$. Vì A là tiền compắc đối với $\sigma(E, E')$ (III, p. 3, Nhận xét 5), việc giả thiết rằng A là *compắc* đối với $\sigma(E, E')$ tương đương với việc A là *đầy đủ* đối với $\sigma(E, E')$.
 
 Vì thế, theo nhận xét 2, ta thấy rằng :
 
-#### Mệnh đề 3 {#evt-iv-s1-prop-3 .statement}
+#### Mệnh đề 3 {#evt-iv-s1-prop-3 .statement tag=07QX}
 
 *Giả sử E là Hausdorff, và $E'$ là đối ngẫu của nó. Mọi tập con của E tiền compắc đối với tôpô ban đầu và compắc đối với $\sigma(E, E')$, đều compắc đối với tôpô ban đầu.*
 
-#### Nhận xét 4 {#evt-iv-s1-n2-rem-4 .statement}
+#### Nhận xét 4 {#evt-iv-s1-n2-rem-4 .statement tag=07QY}
 
 Tôpô $\beta(E, E')$ (IV, p. 4, định nghĩa 3) mịn hơn tôpô Mackey. Nếu $\beta(E, E')$ phân biệt với $\tau(E, E')$, thì nó không tương thích với đối ngẫu giữa E và $E'$. Không gian E là thùng nếu và chỉ nếu tôpô ban đầu bằng với $\beta(E, E')$ (III, p. 24).
 
-#### Mệnh đề 4 {#evt-iv-s1-prop-4 .statement}
+#### Mệnh đề 4 {#evt-iv-s1-prop-4 .statement tag=07QZ}
 
 *Cho E là một không gian lồi địa phương. Tôpô Mackey trên E đồng nhất với tôpô ban đầu trong mỗi trường hợp sau :*
 
@@ -217,7 +217,7 @@ Trong tiết này, $E_1$ và $E_2$ chỉ hai không gian lồi địa phương, 
 
 Cho $u$ là một ánh xạ tuyến tính từ $E_1$ vào $E_2$. Để $u$ liên tục khi $E_1$ và $E_2$ được trang bị các tôpô yếu, điều kiện cần và đủ là $f \circ u$ thuộc $E'_1$ với mọi $f \in E'_2$; điều này đúng nếu $u$ liên tục. Khi đó ánh xạ tuyến tính $f \mapsto f \circ u$ từ $E'_2$ vào $E'_1$ được gọi là chuyển vị của $u$ và được ký hiệu bởi $^t u$.
 
-#### Mệnh đề 5 {#evt-iv-s1-prop-5 .statement}
+#### Mệnh đề 5 {#evt-iv-s1-prop-5 .statement tag=07R0}
 
 *Cho $u$ là một ánh xạ tuyến tính liên tục từ $E_1$ vào $E_2$.*
 
@@ -227,13 +227,13 @@ Cho $u$ là một ánh xạ tuyến tính từ $E_1$ vào $E_2$. Để $u$ liên
 
 Một không gian con vectơ của $E_2$ là trù mật đối với tôpô ban đầu khi và chỉ khi nó trù mật đối với tôpô yếu (IV, p. 4, mệnh đề 2). Khi đó Mệnh đề 5 suy ra từ II, p. 47, hệ quả 2.
 
-#### Mệnh đề 6 {#evt-iv-s1-prop-6 .statement}
+#### Mệnh đề 6 {#evt-iv-s1-prop-6 .statement tag=07R1}
 
 *Cho $u$ là một ánh xạ tuyến tính từ $E_1$ vào $E_2$ liên tục đối với các tôpô yếu. Với $i = 1, 2$, ký hiệu $\mathfrak{S}_i$ là một họ các tập hợp bị chặn của $E_i$. Điều kiện cần và đủ để $^t u$ là một ánh xạ liên tục từ $(E'_2)_{\mathfrak{S}_2}$ vào $(E'_1)_{\mathfrak{S}_1}$ là, với mọi tập hợp $A \in \mathfrak{S}_1$, tồn tại các tập hợp $A_1, ..., A_n$ trong $\mathfrak{S}_2$ và một số thực $\lambda > 0$ sao cho $\lambda \cdot u(A)$ được chứa trong bao lồi cân bằng đóng của $A_1 \cup ... \cup A_n$\footnote{Nói cách khác, $u(\mathfrak{S}_1)$ được chứa trong bornology thích nghi nhỏ nhất chứa $\mathfrak{S}_2$ (III, p. 3).}.*
 
 Đây là một hệ quả ngay lập tức của mệnh đề 2 ở III, p. 15.
 
-#### Hệ quả {#evt-iv-s1-n3-cor-1 .statement}
+#### Hệ quả {#evt-iv-s1-n3-cor-1 .statement tag=07R2}
 
 *Cho $u$ là một ánh xạ tuyến tính liên tục từ $E_1$ vào $E_2$. Khi đó $^t u$ là liên tục khi các đối ngẫu $E'_i$ được trang bị các tôpô sau:*
 a) *các tôpô yếu $\sigma(E'_i, E_i)$;*
@@ -245,7 +245,7 @@ e) *các tôpô hội tụ trên các tập compắc* (resp. *compắc lồi*).
 
 Điểm duy nhất cần chứng minh là trường hợp c), khi các tôpô của $E_1$ và $E_2$ không nhất thiết là Hausdorff. Khi đó với mọi dạng tuyến tính $f \in E'_1*$, $f \circ ^t u$ là một dạng tuyến tính trên $E'_2$; do đó tồn tại một ánh xạ tuyến tính $v : E'_1* \to E'_2*$ liên tục đối với các tôpô $\sigma(E'_1*, E'_1)$ và $\sigma(E'_2*, E'_2)$ và sao cho $d_{B_2} \circ u = v \circ d_{B_1}$, trong đó $d_{B_i}$ là ánh xạ chính tắc từ $E_i$ vào $E'_i*$ ($i = 1, 2$). Do đó, nếu $A$ là một tập con của $E_1$ sao cho $d_{B_1}(A)$ là lồi, cân bằng và compắc đối với $\sigma(E'_1*, E'_1)$ thì $d_{B_2}(u(A)) = v(d_{B_1}(A))$ là lồi, cân bằng và compắc đối với $\sigma(E'_2*, E'_2)$ vì các tôpô $\sigma(E'_1*, E'_1)$ và $\sigma(E'_2*, E'_2)$ là Hausdorff.
 
-#### Mệnh đề 7 {#evt-iv-s1-prop-7 .statement}
+#### Mệnh đề 7 {#evt-iv-s1-prop-7 .statement tag=07R3}
 
 — Cho $u : E_1 \to E_2$ là một ánh xạ tuyến tính. Ta giả thiết rằng $u$ liên tục đối với các tôpô yếu của $E_1$ và $E_2$.
 
@@ -257,7 +257,7 @@ e) *các tôpô hội tụ trên các tập compắc* (resp. *compắc lồi*).
 
 Giả thiết kéo theo rằng $'u$ liên tục đối với các tôpô yếu $\sigma(E_2', E_2)$ và $\sigma(E_1', E_1)$ (II, p. 46, hệ quả) do đó ảnh dưới $'u$ của một tập con lồi, cân bằng và compact đối với $\sigma(E_2', E_2)$ là lồi, cân bằng và compact đối với $\sigma(E_1', E_1)$, vì các tôpô $\sigma(E_2', E_2)$ và $\sigma(E_1', E_1)$ là Hausdorff. Bởi vậy, mệnh đề (i) suy ra từ GT, X, § 1, No. 4, mệnh đề 3, b). Mệnh đề (ii) là một hệ quả của (i): thật vậy, nếu $E_1$ là bornô hoặc thùng, thì tôpô ban đầu của nó là tôpô Mackey, và tôpô Mackey của $E_2$ mịn hơn tôpô ban đầu của $E_2$. Sau hết, tôpô ban đầu của $E_i$ là tôpô hội tụ đều trên các tập con đẳng liên tục của $E_i'$ (III, p. 19, hệ quả 1 của mệnh đề 7). Điều này chứng minh (iii).
 
-#### Hệ quả {#evt-iv-s1-n3-cor-2 .statement}
+#### Hệ quả {#evt-iv-s1-n3-cor-2 .statement tag=07R4}
 
 — Giả sử $E_1$ là một không gian chuẩn. Cho $u$ là một ánh xạ tuyến tính từ $E_1$ vào $E_2$. Các tính chất sau là tương đương:
 
@@ -271,7 +271,7 @@ d) với mọi dãy $(x_n)$ các điểm của $E_1$ hội tụ đến 0 đối 
 
 Vì $E_1$ là bornô nên tính tương đương của a) và b) suy ra từ mệnh đề 7; tính tương đương của a) và c) là ngay lập tức. Tính tương đương của a) và d) suy ra từ mệnh đề 1 của IV, p. 1, và từ mệnh đề 1 của III, p. 11.
 
-#### Mệnh đề 8 {#evt-iv-s1-prop-8 .statement}
+#### Mệnh đề 8 {#evt-iv-s1-prop-8 .statement tag=07R5}
 
 — (i) Cho $E$ là một không gian chuẩn, với đối ngẫu $E'$. Với mọi $x \in E$, ta có
 
@@ -300,15 +300,15 @@ $$
 = \sup_{\|x\| \leq 1, \|y'\| \leq 1} |\langle u(x), y' \rangle| = \sup_{\|x\| \leq 1} \|u(x)\| = \|u\|.
 $$
 
-#### Nhận xét 1 {#evt-iv-s1-n3-rem-1 .statement}
+#### Nhận xét 1 {#evt-iv-s1-n3-rem-1 .statement tag=07R6}
 
 Công thức (3) là một trường hợp riêng của (4), tương ứng với ánh xạ tuyến tính $\lambda \mapsto \lambda x$ từ K vào E.
 
-#### Nhận xét 2 {#evt-iv-s1-n3-rem-2 .statement}
+#### Nhận xét 2 {#evt-iv-s1-n3-rem-2 .statement tag=07R7}
 
 Đặt $B(x, y') = \langle u(x), y' \rangle = \langle x, ^{t}u(y') \rangle$ với $x \in E_1,\ y' \in E'_2$. Chứng minh ở trên cho thấy B là một dạng song tuyến tính liên tục trên $E_1 \times E'_2$, có chuẩn (GT, X, § 3, No. 2) bằng $\|u\|$.
 
-#### Hệ quả {#evt-iv-s1-n3-cor-3 .statement}
+#### Hệ quả {#evt-iv-s1-n3-cor-3 .statement tag=07R8}
 
 — *Cho $\dot{E}$ là một không gian chuẩn thỏa mãn tiên đề đếm được thứ nhất. Tồn tại một tập con đếm được D của $E' - \{0\}$ sao cho ta có*
 
@@ -340,7 +340,7 @@ $$
 i : E'/M^\circ \to M'.
 $$
 
-#### Mệnh đề 9 {#evt-iv-s1-prop-9 .statement}
+#### Mệnh đề 9 {#evt-iv-s1-prop-9 .statement tag=07R9}
 
 — (i) *Để một tập con A của* $(E/M)'$ *là đồng liên tục, điều kiện cần và đủ là* $\pi(A)$ *là một tập con đồng liên tục của* $E'$.
 
@@ -369,7 +369,7 @@ $$
 $$
 và ${}^t p$ cảm sinh một đẳng cự từ $(E/M)'$ lên $M^\circ$.
 
-#### Mệnh đề 10 {#evt-iv-s1-prop-10 .statement}
+#### Mệnh đề 10 {#evt-iv-s1-prop-10 .statement tag=07RA}
 
 — (i) Để một tập con $A$ của $M'$ là đồng liên tục, điều kiện cần và đủ là nó là ảnh qua ${}^t i$ của một tập con đồng liên tục của $E'$.
 
@@ -399,11 +399,11 @@ $$
 
 Theo định lý Hahn-Banach (II, p. 23, hệ quả 3), tồn tại một dạng tuyến tính $x'_0$ trên $E$ kéo dài $y'$ và có cùng chuẩn; do đó ta thu được bất đẳng thức đối với (7), vì $\iota(x'_0) = y'$.
 
-#### Nhận xét {#evt-iv-s1-n4-rem-1 .statement}
+#### Nhận xét {#evt-iv-s1-n4-rem-1 .statement tag=07RB}
 
 — Ta biết (II, p. 48, mệnh đề 7, (ii)) rằng $\iota$ là một đẳng cấu không gian vectơ tôpô từ $E'_s/M^\circ$ lên $M'_s$ (đối ngẫu yếu). Đối với tôpô hội tụ compact lồi, mệnh đề 10 cho thấy rằng $\iota$ là một đẳng cấu từ $E'_{cc}/M^\circ$ lên $M'_{cc}$ khi $E$ là Hausdorff và $M$ đóng trong $E$. Đối với các tôpô mạnh, $\iota$ là một ánh xạ liên tục từ $E'_b/M^\circ$ lên $M'_b$; nó là một đẳng cấu nếu $E$ là một không gian Banach \* hoặc nếu $E$ là phản xạ nửa và $M$ đóng trong $E$ (IV, p. 15) *, nhưng điều này không phải luôn luôn đúng nếu $E$ là một không gian Fréchet (IV, p. 58, bài tập 5, *c*)).
 
-#### Mệnh đề 11 {#evt-iv-s1-prop-11 .statement}
+#### Mệnh đề 11 {#evt-iv-s1-prop-11 .statement tag=07RC}
 
 — (i) *Tôpô yếu trên* $E/M$ *là tôpô thương của tôpô ấy trên* $E$; *tôpô yếu trên* $M$ *được cảm sinh bởi tôpô của* $E$.
 
@@ -425,7 +425,7 @@ $$
 
 Nhắc lại rằng (II, p. 50, mệnh đề 8) tôpô yếu $\sigma(E, F)$ là tích của các tôpô yếu $\sigma(E_i, F_i)$.
 
-#### Bổ đề 3 {#evt-iv-s1-lem-3 .statement}
+#### Bổ đề 3 {#evt-iv-s1-lem-3 .statement tag=07RD}
 
 — (i) *Với mọi $i \in I$, cho $\mathfrak{S}_i$ là một họ các tập con của $F_i$, bị chặn đối với $\sigma(F_i, E_i)$; đặt $\mathfrak{S} = \bigcup_{i \in I} \mathfrak{S}_i$. Khi đó tôpô $\mathfrak{S}$ trên $E$ là tích của các tôpô $\mathfrak{S}_i$ trên các $E_i$.*
 
@@ -451,7 +451,7 @@ q(y) \leq \sum_{i \in I} q_i(y_i) \leq \sum_{i \in I} \sup_{x_i \in A_i} |B_i(x_
 $$
 trong đó đẳng thức cuối cùng suy ra từ (8) vì họ $(y_i)_{i \in I}$ có giá hữu hạn và các $A_i$ là không rỗng và có thể giả thiết là cân bằng (GT, IV, § 5, No. 7, cor. 2 to prop. 12). Bất đẳng thức này chứng tỏ rằng $q$ là liên tục trên $F$, và do đó (ii).
 
-#### Mệnh đề 12 {#evt-iv-s1-prop-12 .statement}
+#### Mệnh đề 12 {#evt-iv-s1-prop-12 .statement tag=07RE}
 
 *Tôpô $\beta(F, E)$ là tổng trực tiếp của các tôpô $\beta(F_i, E_i)$. Tôpô $\beta(E, F)$ là tích của các tôpô $\beta(E_i, F_i)$.*
 
@@ -463,7 +463,7 @@ Ta trang bị cho $F = \bigoplus_{i \in I} F_i$ tôpô $\mathscr{T}$ là tổng 
 
 Trong trường hợp tổng quát, gọi $N_i$ là giao của mọi lân cận của 0 đối với $\sigma(F_i, E_i)$, và đặt $N = \sum_{i \in I} N_i$; khi đó $F/N$ là tổng trực tiếp tôpô của các $F_i/N_i$ (II, p. 31, mệnh đề 8); từ đó suy ra rằng mọi tập con của $F$ bị chặn đối với $\mathscr{T}$ đều được chứa trong một tập hợp có dạng $N + \sum_{i \in J} B_i$ với $J \subset I$ hữu hạn và $B_i$ bị chặn trong $F_i$ với mọi $i \in J$ (III, p. 2, *Nhận xét* 3); vì cực của tập hợp này trong $E$ cũng chính là cực của $\sum_{i \in J} B_i$, nên kết quả được suy ra như trên.
 
-#### Mệnh đề 13 {#evt-iv-s1-prop-13 .statement}
+#### Mệnh đề 13 {#evt-iv-s1-prop-13 .statement tag=07RF}
 
 *Tôpô Mackey $\tau(F, E)$ là tổng trực tiếp của các tôpô Mackey $\tau(F_i, E_i)$. Tôpô $\tau(E, F)$ là tích của các tôpô $\tau(E_i, F_i)$.*
 
@@ -483,7 +483,7 @@ $$
 
 (trong đó $S'$ chỉ đối ngẫu của $S$, và $E_i'$ chỉ đối ngẫu của $E_i$).
 
-#### Mệnh đề 14 {#evt-iv-s1-prop-14 .statement}
+#### Mệnh đề 14 {#evt-iv-s1-prop-14 .statement tag=07RG}
 
 (i) *Ánh xạ $\theta$ là một đẳng cấu từ đối ngẫu mạnh (tương ứng yếu) của $S = \bigoplus_{i \in I} E_i$ lên tích của các đối ngẫu mạnh (tương ứng yếu) của các $E_i$:*
 
@@ -517,7 +517,7 @@ $$
 
 với $x = (x_i)$ trong $P$ và $x' = (x'_i)$ trong $\bigoplus_{i \in I} E'_i$.
 
-#### Mệnh đề 15 {#evt-iv-s1-prop-15 .statement}
+#### Mệnh đề 15 {#evt-iv-s1-prop-15 .statement tag=07RH}
 
 — (i) *Ánh xạ $\phi$ là một đẳng cấu từ tổng trực tiếp tôpô của các đối ngẫu mạnh của các $E_i$ lên đối ngẫu mạnh của $P = \prod_{i \in I} E_i$.*
 
@@ -533,7 +533,7 @@ Ngay lập tức thấy rằng $\phi$ là đơn ánh. Một hệ cơ bản các 
 
 Các mệnh đề (i) và (iv) suy ra từ mệnh đề 12 (IV, p. 12) và (iii) suy ra từ mệnh đề 13 (IV, p. 12).
 
-#### Hệ quả {#evt-iv-s1-n5-cor-1 .statement}
+#### Hệ quả {#evt-iv-s1-n5-cor-1 .statement tag=07RI}
 
 — *Mọi tích của các không gian bị chặn đều là bị chặn.*
 

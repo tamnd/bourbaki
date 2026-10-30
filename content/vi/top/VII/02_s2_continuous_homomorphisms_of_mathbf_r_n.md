@@ -28,9 +28,9 @@ subsections:
       pdf_page: 88
 statements: 10
 exercises: 7
-content_sha256: 2431819e4f257c9ba4aab1899aec2c3d53129edc302d992756cf4c1e4654e718
+content_sha256: d8b27f1c632bfadb6d1ca614e086e969d31008eca60b8aed2af15fe96b83f688
 translated_from: content/en/top/VII/02_s2_continuous_homomorphisms_of_mathbf_r_n.md
-source_content_sha256: 8bac6f5f085612cbe2e567dc3d0ccfcfe4773748f05ca5e249aabb38593a949e
+source_content_sha256: 3f006ad7fa82d9c7e014ebfbbac1ca9f11dfb28040f438d97d56329bb57b038d
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4b78a625
 glossary_version: 34
@@ -44,7 +44,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Mọi ánh xạ tuyến tính (xem Chương VI, § i, no. 3) của $\mathbf{R}^m$ vào $\mathbf{R}^n$ hiển nhiên là một đồng cấu liên tục của nhóm cộng $\mathbf{R}^m$ vào nhóm cộng $\mathbf{R}^n$. Ngược lại:
 
-#### Mệnh đề 1 {#top-vii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#top-vii-s2-prop-1 .statement tag=0BZ3}
 
 *Mọi đồng cấu liên tục* $f$ *của nhóm cộng* $\mathbf{R}^m$ *vào nhóm cộng* $\mathbf{R}^n$ *là một ánh xạ tuyến tính của* $\mathbf{R}^m$ *vào* $\mathbf{R}^n$.
 
@@ -54,7 +54,7 @@ Chỉ cần chứng minh rằng $f(tx) = tf(x)$ với mọi $x \in \mathbf{R}^n$
 
 Mệnh đề 6 của Chương V, § i, no. 4 có thể được tổng quát hóa cho mọi nhóm $\mathbf{R}^n$.
 
-#### Mệnh đề 2 {#top-vii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#top-vii-s2-prop-2 .statement tag=0BZ4}
 
 *Cho* $A$ *là một hình hộp song song trong* $\mathbf{R}^n$ *chứa* $o$; *và cho* $f$ *là một ánh xạ liên tục của* $A$ *vào một nhóm tôpô* $G$ *(viết theo phép nhân)* *sao cho* $f(x + y) = f(x)f(y)$ *với mỗi cặp điểm* $x, y$ *sao cho* $x \in A,\ y \in A$ *và* $x + y \in A$. *Khi đó tồn tại một đồng cấu liên tục duy nhất của* $\mathbf{R}^n$ *vào* $G$ *mở rộng* $f$.
 
@@ -80,7 +80,7 @@ $$
 
 khi $t, t'$ và $t + t'$ đều thuộc $A_i$. Theo Mệnh đề 6 của Chương V, § 1, no. 4, tồn tại một đồng cấu liên tục $\bar{f}_i$ của $\mathbf{R}$ vào $G$ mở rộng $f_i$. Vì $\mathbf{R}^n$ là tổng trực tiếp của các nhóm con $D_i$, ta có thể định nghĩa một đồng cấu $\bar{f}$ của $\mathbf{R}^n$ vào nhóm Abel $G_1$ bởi quy tắc $\bar{f}(x) = \prod_{i=1}^n \bar{f}_i(t_i)$ trong đó $x = \sum_{i=1}^n t_i a_i$; $\bar{f}$ là một mở rộng của $f$ vì, nếu $x \in A$, mọi thành phần $x_i$ của $x$ trên các đường thẳng $D_i$ cũng thuộc $A$, do sự lựa chọn các $a_i$; hơn nữa, $\bar{f}$ liên tục trên $\mathbf{R}^n$, vì nó liên tục trên mỗi đường thẳng $D_i$, và $x_i$ là một hàm tuyến tính của $x$ (và do đó liên tục).
 
-#### Hệ quả 1 {#top-vii-s2-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#top-vii-s2-prop-2-cor-1 .statement tag=0BZ5}
 
 *Gọi $V$ là một lân cận của $o$ trong $\mathbf{R}^n$ và gọi $f$ là một ánh xạ liên tục của $V$ vào một nhóm tôpô $G$ sao cho*
 
@@ -94,13 +94,13 @@ Lấy $W$ là một hộp mở có tâm $o$, được chứa trong $V$, và áp 
 
 Sau này ta sẽ thấy rằng tính chất này của $\mathbf{R}^n$ mở rộng đến một lớp lớn hơn các nhóm tôpô, các nhóm "liên thông đơn".
 
-#### Hệ quả 2 {#top-vii-s2-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#top-vii-s2-prop-2-cor-2 .statement tag=0BZ6}
 
 *Cho $f$ là một đẳng cấu địa phương của $\mathbf{R}^n$ với một nhóm tôpô $G$. Khi đó tồn tại một cấu xạ ngặt duy nhất của $\mathbf{R}^n$ lên một nhóm con mở của $G$ trùng với $f$ tại mọi điểm của một lân cận nào đó của $o$.*
 
 Gọi $\overline{f}$ là đồng cấu liên tục của $\mathbf{R}^n$ vào $G$ trùng với $f$ tại mọi điểm của một lân cận của $o$; theo giả thiết, $\overline{f}(\mathbf{R}^n)$ chứa một lân cận của phần tử đơn vị của $G$ và do đó (Chương III, § 2, no. 1, Hệ quả của Mệnh đề 4) là một nhóm con mở của $G$; hơn nữa $\overline{f}$ là một cấu xạ ngặt của $\mathbf{R}^n$ lên $\overline{f}(\mathbf{R}^n)$, theo Chương III, § 2, no. 8, Mệnh đề 24.
 
-#### Định lý 1 {#top-vii-s2-thm-1 .statement}
+#### Định lý 1 {#top-vii-s2-thm-1 .statement tag=0BZ7}
 
 *Mọi nhóm liên thông $G$ đẳng cấu địa phương với $\mathbf{R}^n$ đều đẳng cấu với một nhóm $\mathbf{R}^p \times \mathbf{T}^{n-p}$ ($0 \leqslant p \leqslant n$).*
 
@@ -108,7 +108,7 @@ Một đẳng cấu địa phương $f$ được chọn thích hợp của $\mat
 
 ### 3. CÁC ĐỒNG CẤU LIÊN TỤC CỦA $\mathbf{R}^m$ VÀO $\mathbf{T}^n$
 
-#### Mệnh đề 3 {#top-vii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#top-vii-s2-prop-3 .statement tag=0BZ8}
 
 *Mọi đồng cấu liên tục từ $\mathbf{R}^m$ vào $\mathbf{T}^n$ đều có dạng $x \to \varphi(u(x))$, trong đó $\varphi$ là đồng cấu chính tắc của $\mathbf{R}^n$ lên $\mathbf{T}^n$ (được đồng nhất với $\mathbf{R}^n/\mathbf{Z}^n$) và $u$ là một ánh xạ tuyến tính từ $\mathbf{R}^m$ vào $\mathbf{R}^n$.*
 
@@ -120,13 +120,13 @@ $$
 
 hạn chế trên $V'$, là một ánh xạ liên tục từ $V'$ vào $\mathbf{R}^n$ sao cho $\psi(f(x+y)) = \psi(f(x)) + \psi(f(y))$ với mỗi cặp điểm $x, y$ trong $\mathbf{R}^m$ sao cho $x \in V', y \in V'$ và $x + y \in V'$; do đó (no. 2, Hệ quả 1 của Mệnh đề 2) ánh xạ này trùng với một đồng cấu liên tục $u$ được xác định duy nhất từ $\mathbf{R}^m$ vào $\mathbf{R}^n$ tại mọi điểm của một lân cận $W$ của o trong $\mathbf{R}^m$. Theo Mệnh đề 1 (no. 1) $u$ là một ánh xạ tuyến tính từ $\mathbf{R}^m$ vào $\mathbf{R}^n$; do đó với mọi $x \in W$ ta có $f(x) = \varphi(u(x))$, điều này hoàn thành chứng minh.
 
-#### Nhận xét {#top-vii-s2-n3-rem-1 .statement}
+#### Nhận xét {#top-vii-s2-n3-rem-1 .statement tag=0BZ9}
 
 Lập luận tương tự chỉ ra, nói chung hơn, rằng nếu $\varphi$ là một cấu xạ ngặt từ $\mathbf{R}^n$ vào một nhóm $G$, mà hạn chế của nó trên một lân cận thích hợp của o là một đẳng cấu địa phương của $\mathbf{R}^n$ với $G$, thì mọi đồng cấu liên tục từ $\mathbf{R}^n$ vào $G$ đều có dạng $x \mapsto \varphi(u(x))$, trong đó $u$ là một ánh xạ tuyến tính từ $\mathbf{R}^m$ vào $\mathbf{R}^n$.
 
 Trong trường hợp $m = n = 1$, Mệnh đề 3 cho:
 
-#### Mệnh đề 4 {#top-vii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#top-vii-s2-prop-4 .statement tag=0BZA}
 
 *Nếu $\varphi$ là đồng cấu chính tắc của $\mathbf{R}$ lên $\mathbf{T}$, mọi đồng cấu liên tục từ $\mathbf{R}$ vào $\mathbf{T}$ đều có dạng $x \mapsto \varphi(ax)$ trong đó $a \in \mathbf{R}$; và nó là một cấu xạ ngặt từ $\mathbf{R}$ lên $\mathbf{T}$ nếu $a \neq 0$.*
 
@@ -148,13 +148,13 @@ trái với giả thiết. Điều kiện này kéo theo $p \geq n$. Ảnh $u(\m
 
 Nếu ta áp dụng lập luận này vào trường hợp $p = n$, ta có mệnh đề sau:
 
-#### Mệnh đề 5 {#top-vii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#top-vii-s2-prop-5 .statement tag=0BZB}
 
 *Mọi đẳng cấu của nhóm tôpô $\mathbf{T}^n$ lên một trong các nhóm con của nó là một tự đẳng cấu của $\mathbf{T}^n$ thu được bằng cách chuyển qua thương từ một ánh xạ tuyến tính $u$ của $\mathbf{R}^n$ lên chính nó, ánh xạ này, hạn chế trên $\mathbf{Z}^n$, là một tự đẳng cấu của $\mathbf{Z}^n$.*
 
 Tương đương (§ 1, no. 1), nếu $u(e_i) = \sum_{j=1}^n a_{ij} e_j$, thì các $a_{ij}$ phải là các số nguyên sao cho $\det(a_{ij}) = \pm 1$. Đặc biệt, với $n = 1$:
 
-#### Mệnh đề 6 {#top-vii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#top-vii-s2-prop-6 .statement tag=0BZC}
 
 *Các đẳng cấu duy nhất của nhóm tôpô $\mathbf{T}$ lên một trong các nhóm con của nó là ánh xạ đồng nhất và phép đối xứng $x \to -x$.*
 

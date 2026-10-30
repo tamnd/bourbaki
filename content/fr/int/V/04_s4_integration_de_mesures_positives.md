@@ -28,7 +28,7 @@ subsections:
       pdf_page: 45
 statements: 10
 exercises: 2
-content_sha256: 7d4aa5c2b595881473b91f16bbbb1839e582757e7f17275eba71fae2a0f6d311
+content_sha256: 5ecc35b7b53a95d1046aa73b60658de4f622d8370b10bed7005bada5fbd1baea
 ---
 
 ## § 4. Intégration de mesures positives ponctuelles
@@ -37,13 +37,13 @@ content_sha256: 7d4aa5c2b595881473b91f16bbbb1839e582757e7f17275eba71fae2a0f6d311
 
 Soient $X$ et $T$ deux espaces localement compacts, $\pi$ une application de $T$ dans $X$, $g$ une fonction numérique finie et $\geqslant 0$, définie dans $T$; ces deux fonctions définissent une application $t \mapsto \lambda_t = g(t) \varepsilon_{\pi(t)}$ de $T$ dans l’espace $\mathscr{M}(X)$ des mesures sur $X$, telle que pour tout $t \in T$, $\lambda_t$ soit une mesure ponctuelle (chap. III, 2e éd., §2, n° 4) ou soit égale à 0. Si $f$ est une fonction numérique $\geqslant 0$ définie dans $X$, on a $\int^* f(x) \, d\lambda_t(x) = \int^* f(x) \, d\lambda_t(x) = f(\pi(t))g(t)$ (rappelons qu’on a convenu de prendre ce produit égal à 0 lorsque $g(t) = 0$ et $f(\pi(t)) = +\infty$). Toute fonction (à valeurs dans un espace topologique) définie dans $X$, est $\lambda_t$-mesurable pour tout $t \in T$. Toute application $f$ de $X$ dans un espace de Banach $F$ est $\lambda_t$-intégrable pour tout $t \in T$ et on a $\int f(x) \, d\lambda_t(x) = f(\pi(t))g(t)$. Enfin, si $f$ est une fonction numérique quelconque définie dans $X$, pour que $f$ soit $\lambda_t$-intégrable, il faut et il suffit que $f(\pi(t))g(t)$ soit fini, et on a alors $\int f(x) \, d\lambda_t(x) = f(\pi(t))g(t)$.
 
-#### Définition 1 {#int-v-s4-def-1 .statement}
+#### Définition 1 {#int-v-s4-def-1 .statement tag=0921}
 
 Soit $\mu$ une mesure positive sur $T$. On dit que le couple $(\pi, g)$ est $\mu$-adapté si les conditions suivantes sont satisfaites :
 1° Les fonctions $\pi$ et $g$ sont $\mu$-mesurables.
 2° Pour toute fonction $f \in \mathscr{K}(X)$, l’application $t \mapsto f(\pi(t))g(t)$ est essentiellement $\mu$-intégrable.
 
-#### Proposition 1 {#int-v-s4-prop-1 .statement}
+#### Proposition 1 {#int-v-s4-prop-1 .statement tag=0922}
 
 Si le couple $(\pi, g)$ est $\mu$-adapté, l’application $\Lambda : t \mapsto \lambda_t = g(t) \varepsilon_{\pi(t)}$ de $T$ dans $\mathscr{M}_+(X)$ est scalairement essentiellement $\mu$-intégrable, vaguement $\mu$-mesurable et $\mu$-adéquate. Inversement, si $\Lambda$ est scalairement essentiellement $\mu$-intégrable et vaguement $\mu$-mesurable, la fonction $g$ est $\mu$-mesurable, et la restriction de $\pi$ à l’ensemble $S$ des $t \in T$ tels que $g(t) \neq 0$ est $\mu$-mesurable.
 
@@ -53,7 +53,7 @@ Inversement, supposons que $\Lambda$ soit scalairement essentiellement intégrab
 
 Nous utiliserons le lemme suivant:
 
-#### Lemme 1 {#int-v-s4-lem-1 .statement}
+#### Lemme 1 {#int-v-s4-lem-1 .statement tag=0E6G}
 
 Soient $T$ et $X$ deux espaces topologiques, $\pi$ une application continue propre (Top. gén., chap. I, 4e éd., § 10, déf. 1) de $T$ dans $X$. Soit $g$ une fonction numérique semi-continue inférieurement, définie dans $T$. Pour tout $x \in X$, soit $f(x)$ la borne inférieure de la fonction $g(t)$ dans l’ensemble $\overline{\pi}^1(x)$ (borne inférieure égale à $+\infty$ si $\overline{\pi}^1(x) = \varnothing$; cf. Ens., chap. III, § 1, n° 9). Alors $f$ est semi-continue inférieurement dans $X$.
 
@@ -63,7 +63,7 @@ Pour tout nombre réel (fini) $a$, notons $B_a$ l’ensemble des $x \in X$ tels 
 
 Nous allons voir que, lorsque $(\pi, g)$ est un couple $\mu$-adapté, on peut préciser les résultats obtenus en appliquant les propositions du § 3 à la famille $t \mapsto \lambda_t = g(t) \varepsilon_{\pi(t)}$, qui est $\mu$-adéquate d’après la prop. 1.
 
-#### Théorème 1 {#int-v-s4-thm-1 .statement}
+#### Théorème 1 {#int-v-s4-thm-1 .statement tag=0924}
 
 Soit $(\pi, g)$ un couple $\mu$-adapté, et soit $\nu = \int g(t) \varepsilon_{\pi(t)} \, d\mu(t)$. Pour toute fonction numérique $f \geq 0$ définie dans $X$, on a
 
@@ -119,11 +119,11 @@ $$
 
 On a une relation analogue pour le second membre de (5), et (1) résulte donc de (5) par sommation sur $\alpha$.
 
-#### Corollaire {#int-v-s4-n2-cor-1 .statement}
+#### Corollaire {#int-v-s4-n2-cor-1 .statement tag=0925}
 
 Pour qu’une partie $N$ de $X$ soit localement négligeable pour $v$, il faut et il suffit que l’intersection de $\pi^{-1}(N)$ et de l’ensemble des points $t \in T$ où $g(t) > 0$, soit localement négligeable pour $\mu$.
 
-#### Proposition 2 {#int-v-s4-prop-2 .statement}
+#### Proposition 2 {#int-v-s4-prop-2 .statement tag=0926}
 
 *Soient $\pi$ une application continue et propre* (Top. gén., chap. I, 4e éd., § 10, n° 1) *de T dans X, g une fonction numérique finie et continue dans T, telle que $g(t) > 0$ pour tout $t \in T$. Alors le couple $(\pi, g)$ est $\mu$-adapté, et si on pose*
 
@@ -169,7 +169,7 @@ ce qui établit (8), et achève la démonstration.
 
 ### 3. Mesurabilité par rapport à une intégrale de mesures ponctuelles
 
-#### Proposition 3 {#int-v-s4-prop-3 .statement}
+#### Proposition 3 {#int-v-s4-prop-3 .statement tag=0927}
 
 Soit $(\pi, g)$ un couple $\mu$-adapté, et soit $\nu = \int g(t) \varepsilon_{\pi(t)} d\mu(t)$. Soient $f$ une application de $X$ dans un espace topologique $G$, $S$ l’ensemble ($\mu$-mesurable) des points $t \in T$ tels que $g(t) > 0$. Pour que $f$ soit $\nu$-mesurable, il faut et il suffit que la restriction de $f \circ \pi$ à $S$ soit $\mu$-mesurable.
 
@@ -183,13 +183,13 @@ $$
 
 mais comme $H$ est compact, $H \cap \bar{\pi}^1(N)$ est $\mu$-négligeable, ce qui achève la démonstration.
 
-#### Remarque {#int-v-s4-n3-rem-1 .statement}
+#### Remarque {#int-v-s4-n3-rem-1 .statement tag=0928}
 
 Si $f$ est une application de $X$ dans un espace de Banach $F$, il revient au même de dire que la restriction de $f \circ \pi$ à $S$ est $\mu$-mesurable, ou que la fonction $(f \circ \pi)g$ (définie dans $T$) est $\mu$-mesurable, puisque $g$ est $\mu$-mesurable, ne s’annule pas dans $S$, et est nulle dans $T - S$ (chap. IV, 2e éd., § 5, n° 10, prop. 15).
 
 ### 4. Intégration des fonctions à valeurs dans un espace de Banach, par rapport à une intégrale de mesures ponctuelles
 
-#### Théorème 2 {#int-v-s4-thm-2 .statement}
+#### Théorème 2 {#int-v-s4-thm-2 .statement tag=0929}
 
 Soit $(\pi, g)$ un couple $\mu$-adapté, et soit $\nu = \int g(t)\varepsilon_{\pi(t)} d\mu(t)$. Soit $f$ une fonction définie dans $X$, à valeurs dans un espace de Banach $F$ ou dans $\bar{R}$. Pour que $f$ soit essentiellement $\nu$-intégrable, il faut et il suffit que $t \mapsto f(\pi(t))g(t)$ soit essentiellement $\mu$-intégrable, et on a alors
 
@@ -217,7 +217,7 @@ $$
 
 La seconde partie de l’énoncé résulte donc de la première partie, et de la proposition 2.
 
-#### Remarque {#int-v-s4-n4-rem-1 .statement}
+#### Remarque {#int-v-s4-n4-rem-1 .statement tag=092A}
 
 Soient $(\pi, g)$ un couple $\mu$-adapté, $\pi'$ une application de T dans X, $g'$ une fonction numérique finie et $\geqslant 0$ définie dans T, telles que $\pi'$ (resp. $g'$) soit égale à $\pi$ (resp. $g$) localement presque partout pour $\mu$. Alors le couple $(\pi', g')$ est $\mu$-adapté, les mesures $\lambda_t = g(t)\varepsilon_{\pi(t)}$ et $\lambda'_t = g'(t)\varepsilon_{\pi'(t)}$ sont égales localement presque partout, et on a $\int g(t)\varepsilon_{\pi(t)} \, d\mu(t) = \int g'(t)\varepsilon_{\pi'(t)} \, d\mu(t)$. Si maintenant $\pi'$ et $g'$ sont seulement définies localement presque partout (pour $\mu$), et s’il existe un couple $\mu$-adapté $(\pi, g)$ tel que $\pi'$ (resp. $g'$) soit égale à $\pi$ (resp. $g$) localement presque partout, on dit encore que le couple $(\pi', g')$ est $\mu$-adapté, et on pose alors
 

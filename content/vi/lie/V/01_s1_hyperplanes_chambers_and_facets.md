@@ -36,9 +36,9 @@ subsections:
       pdf_page: 81
 statements: 18
 exercises: 0
-content_sha256: 32e4763cd01e76e7f2318a2719b3dd65e5f8eea66e0e1aba3682990302df72c7
+content_sha256: 5151480de37f55438dc71131017e052120bb43d2fba057bc74f2c9ea0417a143
 translated_from: content/en/lie/V/01_s1_hyperplanes_chambers_and_facets.md
-source_content_sha256: 88296e8ecd750a7b7e406ceea50477e26e5c392b67a92cbaabd00a82b6dbf1e1
+source_content_sha256: f7be8f3f0168194f8856d763a03172c04c58eb904c3b4c4db2d065f58af6315e
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-d4c000b3
 glossary_version: 34
@@ -66,7 +66,7 @@ Nếu A chỉ gồm một điểm a, ta viết $D_H(a)$ và $D_{\mathfrak{N}}(a)
 
 Tập hợp các điểm của E không thuộc bất kỳ siêu phẳng H nào của tập hợp $\mathscr{H}$ là mở vì $\mathscr{H}$ là hữu hạn địa phương. Chính xác hơn, ta có kết quả sau:
 
-#### Mệnh đề 1 {#lie-v-s1-prop-1 .statement}
+#### Mệnh đề 1 {#lie-v-s1-prop-1 .statement tag=0AP1}
 
 *Cho a là một điểm của E. Tồn tại một lân cận mở liên thông của a không cắt bất kỳ siêu phẳng H nào thuộc $\mathscr{H}$ và không đi qua a. Hơn nữa, chỉ có hữu hạn siêu phẳng thuộc $\mathscr{H}$ và đi qua a.*
 
@@ -78,11 +78,11 @@ Cho hai điểm x và y của E, ký hiệu bởi R\{x, y\} quan hệ
 
 Rõ ràng, R là một quan hệ tương đương trên E.
 
-#### Định nghĩa 1 {#lie-v-s1-def-1 .statement}
+#### Định nghĩa 1 {#lie-v-s1-def-1 .statement tag=0AP2}
 
 *Một mặt của E đối với $\mathscr{H}$ là một lớp tương đương của quan hệ tương đương được định nghĩa ở trên.*
 
-#### Mệnh đề 2 {#lie-v-s1-prop-2 .statement}
+#### Mệnh đề 2 {#lie-v-s1-prop-2 .statement tag=0AP3}
 
 *Tập hợp các mặt là hữu hạn địa phương.*
 
@@ -104,7 +104,7 @@ $$
 
 Hiển nhiên là vế phải chứa vế trái. Ngược lại, cho $x \in L \cap \bigcap_{H \in \mathscr{N}} \overline{D_H(a)}$. Đoạn thẳng mở có hai đầu mút a và x được chứa trong L và trong mỗi $D_H(a)$ với $H \in \mathscr{N}$, và do đó trong F. Suy ra x thuộc bao đóng của F, nên có công thức trên.
 
-#### Mệnh đề 3 {#lie-v-s1-prop-3 .statement}
+#### Mệnh đề 3 {#lie-v-s1-prop-3 .statement tag=0AP4}
 
 *Cho F là một mặt và L là giá afin của nó.*
 
@@ -130,13 +130,13 @@ do đó $F' \subset \overline{F}$. Ta không thể có $\mathfrak{N}' = \varnoth
 
 Cho H thuộc $\mathfrak{N}'$ và gọi D là nửa-không-gian mở bị chặn bởi H và phân biệt với $D_H(a)$; ta có $b \in H \cap L$, và ngay lập tức thấy rằng $D \cap L$ là một nửa-không-gian của L bị chặn bởi siêu phẳng $H \cap L$ của L; do đó, mọi lân cận của b trong L đều gặp $D \cap L$, và vì $D \cap L$ rời nhau với $\overline{F}$ theo (3), ta thấy rằng điểm b của $\overline{F} - F$ không thể thuộc nội bộ của $\overline{F}$ trong không gian tôpô L. Vì F mở trong L, ta có (iii). Q.E.D.
 
-#### Hệ quả {#lie-v-s1-n2-cor-1 .statement}
+#### Hệ quả {#lie-v-s1-n2-cor-1 .statement tag=0AP5}
 
 *Cho F và F' là hai mặt. Nếu $\overline{F} = \overline{F}'$, thì các mặt F và F' bằng nhau.*
 
 Điều này suy ra từ (iii).
 
-#### Mệnh đề 4 {#lie-v-s1-prop-4 .statement}
+#### Mệnh đề 4 {#lie-v-s1-prop-4 .statement tag=0AP6}
 
 *Cho F là một mặt, và cho L là một không gian con afin của E là giao của các siêu phẳng thuộc $\mathfrak{H}$; ký hiệu $\mathfrak{N}$ là tập hợp các siêu phẳng $H \in \mathfrak{H}$ không chứa L. Các điều kiện sau là tương đương:*
 
@@ -162,7 +162,7 @@ $$
 
 ### 3. BUỒNG
 
-#### Định nghĩa 2 {#lie-v-s1-def-2 .statement}
+#### Định nghĩa 2 {#lie-v-s1-def-2 .statement tag=0AP7}
 
 Một buồng của $E$ đối với $\mathfrak{H}$ (hoặc đơn giản là một buồng nếu không có sự mơ hồ nào về $\mathfrak{H}$) là một mặt của $E$ đối với $\mathfrak{H}$ mà không được chứa trong bất kỳ siêu phẳng nào thuộc $\mathfrak{H}$.
 
@@ -174,7 +174,7 @@ $$
 
 vì $D_H(A) = D_H(a)$ với mọi $a \in A$.
 
-#### Mệnh đề 5 {#lie-v-s1-prop-5 .statement}
+#### Mệnh đề 5 {#lie-v-s1-prop-5 .statement tag=0AP8}
 
 Cho $C$ là một tập con không rỗng của $E$. Giả sử rằng tồn tại một tập con $\mathfrak{H}'$ của $\mathfrak{H}$ có các tính chất sau:
 
@@ -184,13 +184,13 @@ b) *Tập hợp C không giao với bất kỳ siêu phẳng nào thuộc $\math
 
 Các tính chất a) và b) cho thấy C là một tập con lồi của U; do đó tồn tại một buồng $C'$ sao cho $C \subset C'$. Vì $C \subset D_H$, ta có $D_H = D_H(C)$ với mọi H thuộc $\mathfrak{H}'$, do đó $C = D_{\mathfrak{H}'}(C) \supset D_{\mathfrak{H}}(C)$ vì $\mathfrak{H}' \subset \mathfrak{H}$; theo (6) ta có $D_{\mathfrak{H}}(C) = C'$, do đó $C \supset C'$. Vậy cuối cùng, $C = C'$.
 
-#### Mệnh đề 6 {#lie-v-s1-prop-6 .statement}
+#### Mệnh đề 6 {#lie-v-s1-prop-6 .statement tag=0AP9}
 
 *Mọi điểm của E đều nằm trong bao đóng của ít nhất một buồng.*
 
 Nếu E thu về một điểm duy nhất, điều này là hiển nhiên. Nếu không, lấy $a \in E$ và gọi $H_1, \ldots, H_m$ là các siêu phẳng của $\mathfrak{H}$ chứa $a$. Vì $\mathfrak{H}$ là hữu hạn địa phương, tồn tại một lân cận V của $a$ không cắt siêu phẳng nào của $\mathfrak{H}$ ngoài $H_1, \ldots, H_m$. Gọi D là một đường thẳng chuyển qua $a$ và không được chứa trong bất kỳ $H_i$ nào; nếu $x \in D, x \neq a$, và $x$ đủ gần $a$, thì đoạn mở $]ax[$ được chứa trong V và không cắt bất kỳ $H_i$ nào. Khi đó $]ax[ \subset U$; vì $]ax[$ liên thông, nó được chứa trong một phòng C, do đó $a \in \overline{C}$.
 
-#### Mệnh đề 7 {#lie-v-s1-prop-7 .statement}
+#### Mệnh đề 7 {#lie-v-s1-prop-7 .statement tag=0APA}
 
 *Cho L là một không gian con afin của E và $\Omega$ là một tập con mở không rỗng của L.*
 
@@ -210,19 +210,19 @@ b) $L \in \mathfrak{H}$: khi đó $\mathfrak{N} = \mathfrak{H} - \{L\}$, suy ra 
 
 ### 4. TƯỜNG VÀ MẶT
 
-#### Định nghĩa 3 {#lie-v-s1-def-3 .statement}
+#### Định nghĩa 3 {#lie-v-s1-def-3 .statement tag=0APB}
 
 *Một buồng C của E đã cho. Một mặt của C là một mặt được chứa trong bao đóng của C mà giá của nó là một siêu phẳng. Một tường của C là một siêu phẳng là giá của một mặt của C.*
 
 Mọi tường của C đều thuộc $\mathfrak{H}$. Mệnh đề 4 cho thấy rằng một siêu phẳng $L \in \mathfrak{H}$ là một tường của C khi và chỉ khi $C \neq D_{\mathfrak{H} - \{L\}}(C)$. Hơn nữa, mỗi tường của C là giá của đúng một mặt của C.
 
-#### Mệnh đề 8 {#lie-v-s1-prop-8 .statement}
+#### Mệnh đề 8 {#lie-v-s1-prop-8 .statement tag=0APC}
 
 *Mọi siêu phẳng* $H$ *thuộc* $\mathfrak{H}$ *đều là tường của ít nhất một buồng*.
 
 Theo Mệnh đề 7, (iii), tồn tại một điểm $a$ của $H$ không thuộc bất kỳ siêu phẳng nào $H' \neq H$ của $\mathfrak{H}$; theo Mệnh đề 6, tồn tại một buồng $C$ sao cho $a \in \overline{C}$; khi đó Mệnh đề 4 cho thấy rằng $H$ là một vách của $C$.
 
-#### Mệnh đề 9 {#lie-v-s1-prop-9 .statement}
+#### Mệnh đề 9 {#lie-v-s1-prop-9 .statement tag=0APD}
 
 *Cho* $C$ *là một buồng và* $\mathscr{M}$ *là tập hợp các vách của* $C$. *Khi đó* $C = D_{\mathscr{M}}(C)$ *và mọi tập con* $\mathscr{L}$ *của* $\mathfrak{H}$ *sao cho* $C = D_{\mathscr{L}}(C)$ *đều chứa* $\mathscr{M}$. *Một tập con* $F$ *của* $\overline{C}$ *là một mặt nếu và chỉ nếu nó là một mặt của* $E$ *đối với họ* $\mathscr{M}$.
 
@@ -234,11 +234,11 @@ c) Cho $a$ là một điểm của $C$; rõ ràng, $C \subset D_{\mathfrak{M}}(a
 
 d) Để chứng minh khẳng định cuối cùng của mệnh đề, rõ ràng chỉ cần chỉ ra rằng một tập con $F$ của $\overline{C}$ là một mặt của $E$ đối với $\mathscr{M}$ thì cũng là một mặt của $E$ đối với $\mathfrak{H}$, hay là mọi siêu phẳng $H \in \mathfrak{H}$ cắt $F$ đều chứa $F$. Vậy cho $H$ là một siêu phẳng cắt $F$ nhưng không chứa nó. Vì $F$ mở trong giá afin đỡ của nó, nên nó không nằm hoàn toàn về một phía của $H$. Suy ra $\overline{C}$ không nằm hoàn toàn về một phía của $H$ và do đó siêu phẳng $H$ không thuộc $\mathfrak{H}$, điều này kết thúc chứng minh.
 
-#### Nhận xét 1 {#lie-v-s1-n4-rem-1 .statement}
+#### Nhận xét 1 {#lie-v-s1-n4-rem-1 .statement tag=0APE}
 
 Suy ra từ công thức (6) và Mệnh đề 9 rằng bao đóng của một buồng $C$ là giao của các nửa-không gian đóng được chặn bởi một tường của $C$ và chứa $C$.
 
-#### Nhận xét 2 {#lie-v-s1-n4-rem-2 .statement}
+#### Nhận xét 2 {#lie-v-s1-n4-rem-2 .statement tag=0APF}
 
 Cho $F$ là một mặt mà giá của nó là một siêu phẳng $L$; ta sẽ chỉ ra rằng $F$ là một mặt của hai buồng. Gọi $\mathfrak{N}$ là tập hợp các siêu phẳng $H \neq L$ thuộc $\mathfrak{H}$; đặt $A = D_{\mathfrak{N}}(F)$ và ký hiệu bởi $D^+$ và $D^-$ hai nửa không gian mở được chặn bởi $L$. Tập hợp $A$ là mở và chứa $F \subset L$, và vì mọi điểm của $L$ đều thuộc bao đóng của $D^+$ và $D^-$, các tập hợp $C^+ = A \cap D^+$ và $C^- = A \cap D^-$ là không rỗng; đó là các buồng. Hơn nữa, siêu phẳng $L$ giao với $D_{\mathfrak{N}}(F) = D_{\mathfrak{N}}(C^+)$; Mệnh đề 4 chỉ ra rằng $L$ là một vách của $C^+$ và rằng
 
@@ -252,13 +252,13 @@ $$
 
 Nhắc lại (Đại số, Chương II, § 9, no. 3) rằng hai không gian con afin P và $P'$ của E được gọi là song song nếu tồn tại một vectơ t trong T sao cho $P' = t + P$. Rõ ràng quan hệ “P và $P'$ song song” là một quan hệ tương đương trên tập hợp các không gian con afin của E.
 
-#### Bổ đề 1 {#lie-v-s1-lem-1 .statement}
+#### Bổ đề 1 {#lie-v-s1-lem-1 .statement tag=0APG}
 
 *Hai siêu phẳng không song song bất kỳ đều có giao khác rỗng.*
 
 Cho H và $H'$ là hai siêu phẳng không song song, $a \in H$ và $a' \in H'$; tồn tại hai siêu phẳng M và $M'$ của không gian vectơ T sao cho $H = M + a$ và $H' = M' + a'$; vì H và $H'$ không song song, ta có $M \neq M'$ và do đó $T = M + M'$; vì thế tồn tại $u \in M$ và $u' \in M'$ sao cho $a' - a = u - u'$, và điểm $u + a = u' + a'$ thuộc $H \cap H'$.
 
-#### Bổ đề 2 {#lie-v-s1-lem-2 .statement}
+#### Bổ đề 2 {#lie-v-s1-lem-2 .statement tag=0APH}
 
 *Cho H và $H'$ là hai siêu phẳng phân biệt của E, và f, $f'$ là hai hàm afin trên E sao cho H (tương ứng, $H'$) gồm các điểm a trong E sao cho $f(a) = 0$ (tương ứng, $f'(a) = 0$). Sau hết, gọi L là một siêu phẳng của E. Giả sử rằng một trong các giả thiết sau được thỏa mãn:
 a) Các siêu phẳng H, $H'$ và L song song.
@@ -277,7 +277,7 @@ a) *Giả sử rằng H và $H'$ là song song*: g và f đều triệt tiêu t�
 
 b) *Giả sử H và $H'$ không song song*: theo Bổ đề 1, tồn tại một điểm c trong $H \cap H'$; ta trang bị cho E cấu trúc không gian vectơ nhận c làm gốc. Khi đó $H \cap H'$ là một không gian con vectơ của $E$ có đối chiều 2, và vì $a \notin H$, không gian con vectơ $M$ của $E$ sinh bởi $H \cap H'$ và $a$ là một siêu phẳng; vì $H \cap H' \subset L \cap L_1$ và $a \in L \cap L_1$, ta có $M \subset L \cap L_1$, do đó $M = L = L_1$. Điều phải chứng minh.
 
-#### Mệnh đề 10 {#lie-v-s1-prop-10 .statement}
+#### Mệnh đề 10 {#lie-v-s1-prop-10 .statement tag=0API}
 
 *Cho C là một buồng, cho H và H' là hai vách của C, và cho L là một siêu phẳng cắt $D_H(C) \cap D_{H'}(C)$. Giả sử rằng H phân biệt với H' và một trong các điều kiện sau được thỏa mãn:*
 

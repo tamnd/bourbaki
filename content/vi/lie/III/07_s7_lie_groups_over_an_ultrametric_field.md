@@ -36,9 +36,9 @@ subsections:
       pdf_page: 351
 statements: 26
 exercises: 10
-content_sha256: a3283038dd29378df168d2114fd199ece6aa3329a6994f77fffeb0365d7f13d1
+content_sha256: 2bf25eb0d8de9a8278d00f9a41b3eb7131f396eb097846a42c2230016e82a19d
 translated_from: content/en/lie/III/07_s7_lie_groups_over_an_ultrametric_field.md
-source_content_sha256: 0c680762cdc1f3ee887ddeb36734fc91db046db61ac47e4409f0c49baf665b4b
+source_content_sha256: a4785cb8d75380fad37a9781d0116e8b216b652f0d5b68e842a5a1dfdd3864bc
 translation_model: gpt-5-mini, gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-a6d5466a
 glossary_version: 34
@@ -52,25 +52,25 @@ Trong đoạn này, trường định giá $K$ được giả thiết là ultram
 
 ### 1. TỪ CÁC ĐẠI SỐ LIE ĐẾN CÁC NHÓM LIE
 
-#### Mệnh đề 1 {#lie-iii-s7-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iii-s7-prop-1 .statement tag=0AH2}
 
 Cho G là một mầm nhóm Lie với phần tử đơn vị e. Tồn tại một hệ cơ bản các lân cận mở của e trong G gồm các nhóm con Lie của G.
 
 Trang bị cho L(G) một chuẩn tương thích với tôpô của nó và sao cho $\| [x, y] \| \leq \| x \| \| y \|$ với mọi x, y trong L(G). Gọi G_1 là nhóm Lie được xác định bởi L(G). Theo § 4, no. 2, Định lý 2, G và G_1 là đẳng cấu địa phương. Khi đó chỉ cần áp dụng § 4, no. 2, Bổ đề 3 (iii).
 
-#### Định lý 1 {#lie-iii-s7-thm-1 .statement}
+#### Định lý 1 {#lie-iii-s7-thm-1 .statement tag=0AH3}
 
 Cho L là một đại số Lie đầy đủ khả chuẩn. Tồn tại một nhóm Lie G sao cho L(G) đẳng cấu với L. Hai nhóm như vậy là đẳng cấu địa phương.
 
 Mệnh đề đầu tiên đã được chứng minh trong § 4, no. 2, Bổ đề 3. Mệnh đề thứ hai là một trường hợp riêng của § 4, no. 2, Định lý 2.
 
-#### Định lý 2 {#lie-iii-s7-thm-2 .statement}
+#### Định lý 2 {#lie-iii-s7-thm-2 .statement tag=0AH4}
 
 Cho G là một nhóm Lie và h là một đại số con Lie của L(G) nhận một phần bù tôpô. Tồn tại một nhóm con Lie H của G sao cho L(H) = h. Nếu H_1 và H_2 là các nhóm con Lie của G sao cho L(H_1) = L(H_2) = h, thì H_1 \cap H_2 là mở trong H_1 và H_2.
 
 Mệnh đề đầu tiên suy ra từ Mệnh đề 1 và § 4, no. 2, Định lý 3. Mệnh đề thứ hai là một trường hợp riêng của § 4, no. 2, Định lý 3.
 
-#### Định lý 3 {#lie-iii-s7-thm-3 .statement}
+#### Định lý 3 {#lie-iii-s7-thm-3 .statement tag=0AH5}
 
 Cho G và H là các nhóm Lie và h là một cấu xạ liên tục của L(G) vào L(H).
 
@@ -80,7 +80,7 @@ Cho G và H là các nhóm Lie và h là một cấu xạ liên tục của L(G)
 
 Theo Mệnh đề 1, điều này suy ra từ § 4, no. 1, Định lý 1.
 
-#### Mệnh đề 2 {#lie-iii-s7-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iii-s7-prop-2 .statement tag=0AH6}
 
 Cho G là một nhóm Lie và h là một đại số con Lie của L(G) nhận một phần bù tôpô. Các điều kiện sau là tương đương:
 
@@ -94,7 +94,7 @@ Giả sử rằng h là một iđêan của L(G). Tồn tại một nhóm Lie F 
 
 ### 2. CÁC ÁNH XẠ MŨ
 
-#### Mệnh đề 3 {#lie-iii-s7-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iii-s7-prop-3 .statement tag=0AH7}
 
 Cho G là một nhóm Lie. Tồn tại một ánh xạ mũ $\phi$ của G với các tính chất sau:
 (i) $\phi$ được xác định trên một nhóm con mở U của nhóm cộng tính $L(G)$;
@@ -103,7 +103,7 @@ Cho G là một nhóm Lie. Tồn tại một ánh xạ mũ $\phi$ của G với 
 
 Trang bị cho $L(G)$ một chuẩn tương thích với tôpô của nó và sao cho $\| [x, y] \| \leq \| x \| \| y \|$ đối với $x, y$ trong $L(G)$. Gọi $G_1$ là nhóm Lie được xác định bởi $L(G)$. Gọi $\psi = \mathrm{Id}_{G_1}$, đây là một ánh xạ mũ của $G_1$. Với mọi $\mu > 0$, gọi $L_\mu$ là tập hợp các $x \in L(G)$ sao cho $\| x \| < \mu$. Khi $\mu$ đủ nhỏ, $L_\mu$ là một nhóm con mở của nhóm cộng tính $L(G)$, $\psi(L_\mu)$ là một nhóm con mở của $G_1$ (§ 4, no. 2, Bổ đề 3), $\psi|L_\mu$ là một đẳng cấu của các đa tạp giải tích của $L_\mu$ lên $\psi(L_\mu)$ và $\psi(nx) = \psi(x)^n$ với mọi $x \in L_\mu$ và mọi $n \in \mathbf{Z}$. Các $L_\mu$ tạo thành một hệ cơ bản các lân cận của 0 trong $L(G)$. Theo Định lý 1, tồn tại $\mu$ và một nhóm con mở $G'$ của G sao cho $\psi(L_\mu)$ và $G'$ đẳng cấu, do đó có mệnh đề.
 
-#### Mệnh đề 4 {#lie-iii-s7-prop-4 .statement}
+#### Mệnh đề 4 {#lie-iii-s7-prop-4 .statement tag=0AH8}
 
 Cho G là một nhóm Lie và $\phi$ là một ánh xạ mũ đơn ánh của G. Giả sử rằng $p > 0$. Với mọi $x, y$ trong $L(G)$,
 
@@ -122,7 +122,7 @@ $$
 
 Nếu $S(X_1, X_2, \ldots, X_n)$ là một chuỗi lũy thừa hình thức với các hệ số trong $A$, thì, với mọi $x_1, \ldots, x_r$ trong m, chuỗi $S(x_1, x_2, \ldots, x_r)$ là hội tụ. Chính xác hơn, $m \times m \times \cdots \times m$ được chứa trong miền hội tụ tuyệt đối của $S$ (Các đa tạp khả vi và giải tích, R, 4.1.3).
 
-#### Định nghĩa 1 {#lie-iii-s7-def-1 .statement}
+#### Định nghĩa 1 {#lie-iii-s7-def-1 .statement tag=0AH9}
 
 Cho r là một số nguyên $\geq 0$. Một nhóm chuẩn chiều r trên K là một nhóm Lie G có các tính chất sau:
 (i) đa tạp giải tích cơ sở của G là $m \times m \times \cdots \times m$ (r thừa số);
@@ -134,11 +134,11 @@ Khi đó $0.0 = 0$ và do đó phần tử đơn vị của G là gốc của $m
 
 L(G) sẽ được đồng nhất với K'. Theo § 5, công thức (13), các hằng cấu trúc của L(G) đối với cơ sở chính tắc thuộc về A. Trong cùng một chứng minh, ta sẽ cần xét các phần tử của m × ... × m, lúc này như các phần tử của G, lúc khác như các phần tử của L(G).
 
-#### Ví dụ {#lie-iii-s7-n3-exa-1 .statement}
+#### Ví dụ {#lie-iii-s7-n3-exa-1 .statement tag=0AHA}
 
 Cho G = 1 + M_n(m), là một tập con mở của M_n(K). Nếu x ∈ G, thì det x ∈ 1 + m và do đó G ⊂ GL(n, K). Rõ ràng GG ⊂ G. Nếu x = 1 + y với y ∈ M_n(m), phép tính nghịch đảo của một ma trận chứng minh trước hết rằng x^{-1} ∈ M_n(A); nếu ta viết x^{-1} = 1 + y', thì y + y' + yy' = 0, do đó y' ∈ M_n(m) và vì thế x^{-1} ∈ G. Vậy G là một nhóm con mở của GL(n, K). Ta đồng nhất G với m^{n^2} nhờ ánh xạ (\delta_{ij} + y_{ij}) ↦ (y_{ij}). Rõ ràng G là một nhóm chuẩn.
 
-#### Định lý 4 {#lie-iii-s7-thm-4 .statement}
+#### Định lý 4 {#lie-iii-s7-thm-4 .statement tag=0AHB}
 
 Cho G là một nhóm Lie hữu hạn chiều. Tồn tại một nhóm con mở của G đẳng cấu với một nhóm chuẩn.
 
@@ -172,7 +172,7 @@ $$
 \omega(x) = \inf(v(x_1), \ldots, v(x_r)).
 $$
 
-#### Mệnh đề 5 {#lie-iii-s7-prop-5 .statement}
+#### Mệnh đề 5 {#lie-iii-s7-prop-5 .statement tag=0AHC}
 
 Cho $G$ là một nhóm chuẩn.
 
@@ -192,7 +192,7 @@ Nếu $x \in G$ và $y \in G(a)$, các tọa độ của $x$ và $x.y$ bằng nh
 
 Nếu $x \in G(a)$ và $y \in G(a)$, các tọa độ của $x.y$ đồng dư với các tọa độ của $x + y$ modulo $G(a^2)$ theo công thức (4) của § 5. Điều này chứng minh (iv).
 
-#### Hệ quả {#lie-iii-s7-n4-cor-1 .statement}
+#### Hệ quả {#lie-iii-s7-n4-cor-1 .statement tag=0AHD}
 
 Giả sử rằng $K$ là compact địa phương và đặt $q = \mathrm{Card}(A/m)$.
 
@@ -202,7 +202,7 @@ Giả sử rằng $K$ là compact địa phương và đặt $q = \mathrm{Card}(
 
 Số phần tử của $G(a)/G(b)$ là $(\mathrm{Card}(a/b))^r$; nếu $b = a + 1$, $a/b$ là một không gian vectơ 1 chiều trên $A/m$, do đó (i) trong trường hợp này; trường hợp tổng quát suy ra bằng quy nạp theo $b - a$. Mệnh đề (ii) suy ra từ (i) và Mệnh đề 5 (iii).
 
-#### Mệnh đề 6 {#lie-iii-s7-prop-6 .statement}
+#### Mệnh đề 6 {#lie-iii-s7-prop-6 .statement tag=0AHE}
 
 Cho $a, b, c, c'$ là các iđêan khác không của $A$ được chứa trong $m$ sao cho
 
@@ -231,7 +231,7 @@ x.y.x^{[-1]}y^{[-1]} - [x,y] \in G(c').
 $$
 Cuối cùng, theo § 5, công thức (13), $[x,y] \in G(ab) \subset G(c)$.
 
-#### Mệnh đề 7 {#lie-iii-s7-prop-7 .statement}
+#### Mệnh đề 7 {#lie-iii-s7-prop-7 .statement tag=0AHF}
 
 (i) *Họ* $(G(a_\lambda))$ *là một phép lọc trung tâm trên* $G$ *(Chương II, § 4, no. 4, Định nghĩa 2)*.
 (ii) *Đối với* $\lambda \in \mathbf{R}_+^*$, $G(a_\lambda) = \{ x \in G | \omega(x) \geq \lambda \}$, $G(a_\lambda^+) = \{ x \in G | \omega(x) > \lambda \}$.
@@ -248,7 +248,7 @@ Theo Chương II, § 4, no. 4, ta có thể lập nhóm $\mathrm{gr}(G)$ liên k
 
 Ta giữ nguyên ký hiệu của no. 4.
 
-#### Mệnh đề 8 {#lie-iii-s7-prop-8 .statement}
+#### Mệnh đề 8 {#lie-iii-s7-prop-8 .statement tag=0AHG}
 
 *Cho* $n \in \mathbf{Z}$ *và* $h_n$ *là ánh xạ* $x \mapsto x^n$ *của* $G$ *vào* $G$. *Cho* $a$ *là một iđêan khác không của* $A$ *được chứa trong* $m$, *sao cho* $n \notin a$. *Khi đó* $h_n|G(a)$ *là một đẳng cấu của đa tạp giải tích* $G(a)$ *lên đa tạp giải tích* $G(na)$.
 
@@ -269,13 +269,13 @@ S(G(b)) = G(b).
 $$
 Vì $h_n(y) = n^2 S \left( \frac{1}{n} y \right)$ với $y \in nG$, ta thấy rằng $h_n|nG(b)$ là một đẳng cấu của đa tạp giải tích $nG(b)$ lên đa tạp giải tích $n^2 G(b)$. Nhưng, vì $n \notin a$, $|n| > |\lambda|$ với mọi $\lambda \in a$, do đó $n^{-1} a \subset m$ và do đó $a$ có dạng $nb$ trong đó $b$ là một iđêan khác không của $A$ được chứa trong $m$.
 
-#### Hệ quả {#lie-iii-s7-n5-cor-1 .statement}
+#### Hệ quả {#lie-iii-s7-n5-cor-1 .statement tag=0AHH}
 
 *Nếu $n$ khả nghịch trong $A$, $h_n$ là một đẳng cấu của đa tạp giải tích* $G$ *lên chính nó. Với mọi iđêan khác không* $a$ *của* $A$ *được chứa trong* $m$, $h_n(G(a)) = G(a)$. *Với mọi* $x \in G$, $\omega(x^n) = \omega(x)$.*
 
 Điều này suy ra ngay lập tức từ Mệnh đề 8.
 
-#### Mệnh đề 9 {#lie-iii-s7-prop-9 .statement}
+#### Mệnh đề 9 {#lie-iii-s7-prop-9 .statement tag=0AHI}
 
 *Giả sử rằng $p \neq 0$.
 (i) Cho $a, b$ là các iđêan khác không của $A$ sao cho $b \subset a \subset m$. Trong nhóm $G(a)/G(b)$, mọi phần tử đều có cấp là một lũy thừa của $p$.
@@ -299,7 +299,7 @@ Mặt khác, nếu $|\alpha| \geq p$, $\omega(c_\alpha x^\alpha) \geq p \omega(x
 
 ### 6. ÁNH XẠ LÔGARIT
 
-#### Bổ đề 1 {#lie-iii-s7-lem-1 .statement}
+#### Bổ đề 1 {#lie-iii-s7-lem-1 .statement tag=0AHJ}
 
 Giả sử rằng $p \neq 0$. Cho $G$ là một nhóm Lie, $G_1$ là một nhóm con mở của $G$ đẳng cấu với một nhóm chuẩn và $x \in G$. Các điều kiện sau là tương đương:
 (i) tồn tại một lũy thừa của $x$ thuộc về $G_1$;
@@ -307,7 +307,7 @@ Giả sử rằng $p \neq 0$. Cho $G$ là một nhóm Lie, $G_1$ là một nhóm
 (ii) $\Rightarrow$ (i): hiển nhiên.
 (i) $\Rightarrow$ (ii): giả sử rằng $y = x^m \in G_1$. Theo Mệnh đề 9 (i) của no. 5, $y^{p^n}$ tiến tới $e$ khi $n$ tiến tới $+\infty$, nói cách khác $x^{m p^n}$ tiến tới $e$ khi $n$ tiến tới $+\infty$.
 
-#### Mệnh đề 10 {#lie-iii-s7-prop-10 .statement}
+#### Mệnh đề 10 {#lie-iii-s7-prop-10 .statement tag=0AHK}
 
 Giả sử rằng $p \neq 0$. Cho $G$ là một nhóm Lie hữu hạn chiều. Cho $G_f$ là tập hợp các $x \in G$ sao cho tồn tại một dãy tăng ngặt $(n_i)$ các số nguyên sao cho $x^{n_i}$ tiến tới $e$ khi $i$ tiến tới $+\infty$.
 (i) $G_f$ là mở trong $G$.
@@ -335,11 +335,11 @@ n \psi'(x) = \psi'(x^n) = \psi(x^n) = n \psi(x)
 $$
 và do đó $\psi = \psi'$.
 
-#### Định nghĩa 2 {#lie-iii-s7-def-2 .statement}
+#### Định nghĩa 2 {#lie-iii-s7-def-2 .statement tag=0AHL}
 
 *Ánh xạ $\psi$ của Mệnh đề 10 được gọi là ánh xạ logarit của $G$ và được ký hiệu bởi $\log_G$ hoặc đơn giản là $\log$.*
 
-#### Mệnh đề 11 {#lie-iii-s7-prop-11 .statement}
+#### Mệnh đề 11 {#lie-iii-s7-prop-11 .statement tag=0AHM}
 
 *Giả sử rằng $p \neq 0$. Cho $x, y$ là hai phần tử giao hoán được của $G_f$. Khi đó $xy \in G_f$ và $\log(xy) = \log x + \log y$.*
 
@@ -356,7 +356,7 @@ $$
 np^i (\log x + \log y) = np^i \log(xy).
 $$
 
-#### Mệnh đề 12 {#lie-iii-s7-prop-12 .statement}
+#### Mệnh đề 12 {#lie-iii-s7-prop-12 .statement tag=0AHN}
 
 *Giả sử rằng $p \neq 0$. Cho $x \in G_f$. Các điều kiện sau là tương đương:
 (i) $\log x = 0$;
@@ -368,25 +368,25 @@ n \log x = \log x^n = 0,
 $$
 do đó $\log x = 0$. Nếu $\log x = 0$, gọi $V$ là một lân cận của $e$ trong $G_f$ sao cho $\log|V|$ là ánh xạ nghịch đảo của một ánh xạ mũ đơn ánh. Tồn tại một số nguyên $n > 0$ sao cho $x^n \in V$; đẳng thức $\log x^n = 0$ kéo theo $x^n = e$.
 
-#### Mệnh đề 13 {#lie-iii-s7-prop-13 .statement}
+#### Mệnh đề 13 {#lie-iii-s7-prop-13 .statement tag=0AHO}
 
 *Giả sử rằng $p \neq 0$. Nếu $G$ là compact hoặc chuẩn, thì $G_f = G$.*
 
 Nếu G là chuẩn, chỉ cần sử dụng Bổ đề 1. Giả sử rằng G là compact. Cho $x \in G$ và V là một lân cận của e trong G. Gọi y là một điểm giới hạn của dãy $(x^n)_{n \geq 0}$. Với mọi $n > 0$, tồn tại hai số nguyên $n_1, n_2$ sao cho $n_1 \geq 2n_2 \geq n$ và $x^{n_1} \in yV, x^{n_2} \in yV$, do đó $x^{n_1 - n_2} \in V^{-1}V$ và $n_1 - n_2 \geq n$. Suy ra $x \in G_f$.
 
-#### Hệ quả {#lie-iii-s7-n6-cor-1 .statement}
+#### Hệ quả {#lie-iii-s7-n6-cor-1 .statement tag=0AHP}
 
 *Giả sử rằng K là compact địa phương. Khi đó $G_f$ là hợp của các nhóm con compact của G.*
 
 Cho $x \in G$. Nếu x thuộc một nhóm con compact của G, thì $x \in G_f$ (Mệnh đề 13). Giả sử rằng $x \in G_f$. Vì K là compact địa phương, tồn tại một nhóm con mở $G_1$ của G là compact. Khi đó tồn tại một số nguyên $m > 0$ sao cho $x^m \in G_1$. Nhóm con đóng $G_2$ sinh bởi $x^m$ được chứa trong $G_1$ và do đó là compact. Khi đó x giao hoán với các phần tử của $G_2$ và vì vậy $G_2 \cup xG_2 \cup \cdots \cup x^{m-1}G_2$ là một nhóm con compact của G chứa x.
 
-#### Ví dụ {#lie-iii-s7-n6-exa-1 .statement}
+#### Ví dụ {#lie-iii-s7-n6-exa-1 .statement tag=0AHQ}
 
 Giả sử rằng K là compact địa phương. Gọi U là tập hợp các phần tử khả nghịch của A; nó là một nhóm con mở compact của nhóm Lie $K^*$. Khi đó $U \subset (K^*)_f$ theo Mệnh đề 13; mặt khác, nếu $x \in K^*$ sao cho $x \notin U$, thì hoặc $x^n$ tiến tới 0 khi n tiến tới $+\infty$, hoặc $x^n$ tiến tới 0 khi n tiến tới $-\infty$; do đó $U = (K^*)_f$. Hàm $\log_{K^*}$ được xác định và giải tích trên U, với các giá trị trong $L(K^*) = K$, và sao cho $\log_{K^*}(xy) = \log_{K^*}(x) + \log_{K^*}(y)$ với mọi $x, y$ trong U; các phần tử x của U sao cho $\log_{K^*}(x) = 0$ là các căn đơn vị của K.
 
 Ta lại sử dụng ký hiệu của các số 3, 4 và 5.
 
-#### Mệnh đề 14 {#lie-iii-s7-prop-14 .statement}
+#### Mệnh đề 14 {#lie-iii-s7-prop-14 .statement tag=0AHR}
 
 *Giả sử rằng $p \neq 0$ và v được chọn sao cho $v(p) = 1$. Cho G là một nhóm chuẩn và E(X) (tương ứng L(X)) là khai triển của hàm mũ của G (tương ứng hàm lôgarit của G) thành một chuỗi nguyên quanh 0.*
 

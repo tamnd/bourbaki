@@ -32,9 +32,9 @@ subsections:
       pdf_page: 172
 statements: 14
 exercises: 12
-content_sha256: c115ac7d11730fe5d45fb64a998b0771ca638940f4496e118f89a0dc7611d8a7
+content_sha256: 8a680a23c181b13be4ac1810fe21d51d444f93752becf65cd7df6ecd6b7100d3
 translated_from: content/en/lie/II/05_s5_magnus_algebras.md
-source_content_sha256: b447c834d904c0c1c87c668ee3a9a6c76b5fc3212a84bf648612ad2a0a49f556
+source_content_sha256: 6bac6bb784fbb4b199b3afb36bd212ba5f589bd833743b3d4385ed3b9a405428
 translation_model: gpt-5.4
 translation_run: translate-vi-e5cf4dff
 glossary_version: 34
@@ -66,7 +66,7 @@ Với mọi số nguyên $m \geq 0$, ký hiệu $\hat{A}_m(X)$ là iđêan gồm
 
 $\hat{A}(X)$ được gọi là *đại số Magnus* của tập hợp X với các hệ số trong K. Nếu có sự nhập nhằng nào về K thì ta viết $\hat{A}_K(X)$.
 
-#### Mệnh đề 1 {#lie-ii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#lie-ii-s5-prop-1 .statement tag=0A5B}
 
 *Cho B là một đại số kết hợp có đơn vị với một lọc thực $(B_\alpha)_{\alpha \in \mathbf{R}}$ sao cho B là Hausdorff và đầy đủ (§ 4, số 1 và 2). Cho f là một ánh xạ của X vào B sao cho tồn tại $\lambda > 0$ mà $f(X) \subset B_\lambda$. Khi đó f có thể được mở rộng theo một và chỉ một cách thành một đồng cấu có đơn vị liên tục $\hat{f}$ của $\hat{A}(X)$ vào B.*
 
@@ -84,7 +84,7 @@ với mọi $v \in \hat{A}(Y)$.
 
 Với mọi $a = (a_n)_{n \geq 0}$ trong $\hat{A}(X)$, phần tử $a_0$ của K sẽ được gọi là *số hạng hằng* của a và được ký hiệu bởi $\varepsilon(a)$. Công thức (1) cho thấy rằng $\varepsilon$ là một đồng cấu đại số từ $\hat{A}(X)$ vào K.
 
-#### Bổ đề 1 {#lie-ii-s5-lem-1 .statement}
+#### Bổ đề 1 {#lie-ii-s5-lem-1 .statement tag=0A5C}
 
 *Để một phần tử a của $\hat{A}(X)$ là khả nghịch, điều kiện cần và đủ là số hạng hằng của nó khả nghịch trong K.*
 
@@ -94,20 +94,20 @@ Tập hợp các phần tử của $\hat{\mathbf{A}}(\mathbf{X})$ có hệ số 
 
 ### 3. NHÓM MAGNUS VÀ NHÓM TỰ DO
 
-#### Định lý 1 {#lie-ii-s5-thm-1 .statement}
+#### Định lý 1 {#lie-ii-s5-thm-1 .statement tag=0A5D}
 
 *Cho $r$ là một ánh xạ từ $\mathbf{X}$ vào $\hat{\mathbf{A}}(\mathbf{X})$ sao cho $\omega(r(x)) \geq 2$ với mọi $x \in \mathbf{X}$. Đồng cấu duy nhất $g$ của nhóm tự do $F(\mathbf{X})$ vào nhóm Magnus $\Gamma(\mathbf{X})$ sao cho $g(x) = 1 + x + r(x)$ với mọi $x \in \mathbf{X}$ là đơn ánh.*
 
 Trước hết ta chứng minh ba bổ đề.
 
-#### Bổ đề 2 {#lie-ii-s5-lem-2 .statement}
+#### Bổ đề 2 {#lie-ii-s5-lem-2 .statement tag=0A5E}
 
 *Cho $n$ là một số nguyên hữu tỉ khác không. Trong vành các chuỗi lũy thừa hình thức $K[[t]]$ ta viết $(1+t)^n = \sum_{j \geq 0} c_{j,n} t^j$. Tồn tại một số nguyên $j \geq 1$ sao cho $c_{j,n} \neq 0$.
 
 Nếu $n > 0$, thì $c_{n,n} = 1$ theo công thức nhị thức.
 Giả sử $n < 0$ và đặt $m = -n$. Nếu $c_{j,n} = 0$ với mọi $j \geq 1$, thì $(1+t)^n = 1$, do đó, lấy nghịch đảo, $(1+t)^m = 1$, điều này mâu thuẫn với công thức $c_{m,m} = 1$.*
 
-#### Bổ đề 3 {#lie-ii-s5-lem-3 .statement}
+#### Bổ đề 3 {#lie-ii-s5-lem-3 .statement tag=0A5F}
 
 *Cho $x_1, \ldots, x_s$ là các phần tử của $\mathbf{X}$ sao cho $s \geq 1$ và $x_i \neq x_{i+1}$ với $1 \leq i \leq s-1$; và cho $n_1, \ldots, n_s$ là các số nguyên hữu tỉ khác không. Khi đó phần tử $\prod_{i=1}^s (1+x_i)^{n_i}$ của $\hat{\mathbf{A}}(\mathbf{X})$ là $\neq 1$.*
 
@@ -121,7 +121,7 @@ $$
 
 Theo Bổ đề 2, tồn tại các số nguyên $a_i > 0$ sao cho $c_{a_i, n_i} \neq 0$ ($1 \leq i \leq s$). Theo *Đại số*, Chương I, § 7, no. 4, Mệnh đề 6, không có đơn thức nào $x_1^{b_1} \cdots x_s^{b_s}$ sao cho $b_i \geq 0$ và $(b_1, \ldots, b_s) \neq (a_1, \ldots, a_s)$ có thể bằng $x_1^{a_1} \ldots x_s^{a_s}$. Suy ra hệ số của $x_1^{a_1} \ldots x_s^{a_s}$ trong $\prod_{i=1}^s (1 + x_i)^{n_i}$ là $c_{a_1, n_1} \ldots c_{a_s, n_s} \neq 0$, điều này suy ra kết quả.
 
-#### Bổ đề 4 {#lie-ii-s5-lem-4 .statement}
+#### Bổ đề 4 {#lie-ii-s5-lem-4 .statement tag=0A5G}
 
 *Cho $\sigma$ là tự đồng cấu liên tục của $\hat{A}(X)$ sao cho $\sigma(x) = x + r(x)$ với mọi $x \in X$ (no. 1, Mệnh đề 1). Khi đó $\sigma$ là một tự đẳng cấu và $\sigma(\hat{A}_m(X)) = \hat{A}_m(X)$ với mọi $m \in \mathbf{N}$.
 
@@ -145,11 +145,11 @@ do đó $g(w) \neq 1$ theo các Bổ đề 3 và 4.
 
 Ta sẽ chứng minh hai định lý sau đây:
 
-#### Định lý 2 {#lie-ii-s5-thm-2 .statement}
+#### Định lý 2 {#lie-ii-s5-thm-2 .statement tag=0A5H}
 
 *Giả sử rằng trong vành $K$ quan hệ $n.1 = 0$ kéo theo $n = 0$ với mọi số nguyên $n$. Gọi $r$ là một ánh xạ từ $X$ vào $\hat{A}(X)$ sao cho $\omega(r(x)) \geq 2$ với $x \in X$ và gọi $g$ là đồng cấu từ $F(X)$ vào nhóm Magnus $\Gamma(X)$ sao cho $g(x) = 1 + x + r(x)$ với $x \in X$. Với mọi $n \geq 1$, $C^n F(X)$ là ảnh ngược theo $g$ của nhóm con $1 + \hat{A}_n(X)$ của $\Gamma(X)$.*
 
-#### Định lý 3 {#lie-ii-s5-thm-3 .statement}
+#### Định lý 3 {#lie-ii-s5-thm-3 .statement tag=0A5I}
 
 *Với mọi $x \in X$, gọi $c(x)$ là ảnh chính tắc của $x$ trong $F(X)/(F(X), F(X))$. Gọi $g$ là đại số Lie phân bậc trên $\mathbf{Z}$ liên kết với bộ lọc $(C^n F(X))_{n \geq 1}$ của $F(X)$ (§ 4, no. 6). Đồng cấu duy nhất của đại số Lie tự do trên $\mathbf{Z}$ $L_\mathbf{Z}(X)$ vào $g$ mở rộng $c$ là một đẳng cấu.*
 
@@ -194,7 +194,7 @@ $$
 C^1 = F = F^1; nếu C^n = F^n, thì C^n \cap F^{n+1} = F^{n+1} do đó C^{n+1} = F^{n+1}
 điều này chứng minh Định lý 2 bằng quy nạp theo n \geqslant 1.
 
-#### Hệ quả {#lie-ii-s5-n4-cor-1 .statement}
+#### Hệ quả {#lie-ii-s5-n4-cor-1 .statement tag=0A5J}
 
 $$
 \bigcap_{n \geqslant 1} C^n F(X) = \{e\}.
@@ -205,7 +205,7 @@ $$
 \bigcap_{n \geqslant 1} C^n F(X) = \bigcap_{n \geqslant 1} g^{-1}(1 + \hat{A}_n(X)) = g^{-1}\left(\bigcap_{n \geqslant 1} (1 + \hat{A}_n(X))\right) = g^{-1}(1) = \{e\}.
 $$
 
-#### Nhận xét {#lie-ii-s5-n4-rem-1 .statement}
+#### Nhận xét {#lie-ii-s5-n4-rem-1 .statement tag=0A5K}
 
 Cho H là một tập Hall đối với X (§ 2, no. 10). Cho M là magma được xác định bởi luật hợp thành (x, y) \mapsto (x, y) = x^{-1}y^{-1}xy trên F(X) và cho $\phi$ là đồng cấu từ M(X) vào M mà hạn chế của nó trên X là đồng nhất. Các phần tử của $\phi(H)$ được gọi là các *giao hoán tử cơ bản* của F(X) liên kết với tập Hall H. Với mọi số nguyên n \geqslant 1, cho H_n là tập con của H gồm các phần tử có độ dài n; ta biết (§ 2, no. 11, Định lý 1) rằng ánh xạ chính tắc của H_n vào L_\mathbf{Z}(X) là một cơ sở của nhóm Abel L_\mathbf{Z}^n(X). Hơn nữa, $\phi(H_n) \subset C^n$; với mọi m \in H_n, cho $\phi_n(m)$ ký hiệu lớp mod. C^{n+1} của $\phi(m) \in C^n$. Khi đó Định lý 3 cho thấy rằng $\phi_n$ là *một song ánh từ H_n lên một cơ sở của nhóm Abel* C^n/C^{n+1}. Suy ra ngay lập tức rằng, với mọi w \in F(X) và mọi i \geqslant 1, tồn tại một phần tử duy nhất $\alpha_i$ của $\mathbf{Z}^{(H_i)}$ sao cho, với n \geqslant 1,
 
@@ -215,7 +215,7 @@ $$
 
 trong đó tích được tính theo thứ tự toàn phần đã cho trên H.
 
-#### Ví dụ {#lie-ii-s5-n4-exa-1 .statement}
+#### Ví dụ {#lie-ii-s5-n4-exa-1 .statement tag=0A5L}
 
 Giả sử rằng X là một tập hợp có hai phần tử x, y và cho H_1 = \{x, y\}, H_2 = \{xy\}. Do đó mọi phần tử w của F(X) đều có thể viết được
 $$
@@ -230,19 +230,19 @@ $$
 
 Trong số này, *p* ký hiệu một số nguyên tố và ta giả thiết rằng K = \mathbf{F}_p. Gọi $\gamma$ là đồng cấu từ F(X) vào $\Gamma(X)$ được xác định bởi $\gamma(x) = 1 + x$ với mọi x trong X; ta viết $F_n^{(p)}(X) = \gamma^{-1}(1 + \hat{A}_n(X))$. Dãy $(F_n^{(p)}(X))_{n \geqslant 1}$ là một bộ lọc trung tâm nguyên trên F(X), và là *tách được* vì $\gamma$ là đơn ánh (no. 3, Định lý 1). Nó được gọi là bộ lọc *p* trên F(X).
 
-#### Mệnh đề 2 {#lie-ii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#lie-ii-s5-prop-2 .statement tag=0A5M}
 
 *Giả sử rằng X là hữu hạn. Với mọi số nguyên n \geqslant 1, nhóm F(X)/F_n^{(p)}(X) là một p-nhóm hữu hạn có lớp lũy linh \leqslant n.*
 
 Lập luận bằng quy nạp theo $n$, chỉ cần chứng minh rằng $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ là một $p$-nhóm giao hoán hữu hạn với mọi $n \geqslant 1$. Với mọi $w \in F_n^{(p)}(X)$, phần tử $\gamma(w) - 1$ của $\hat{A}(X)$ có cấp $\geqslant n$; ta ký hiệu bởi $\delta_n(w)$ thành phần thuần nhất của $\gamma(w) - 1$ có bậc $n$. Ánh xạ $\delta_n : F_n^{(p)}(X) \to A^n(X)$ là một đồng cấu với hạt nhân $F_{n+1}^{(p)}(X)$ (§ 4, no. 5, Mệnh đề 3) và do đó $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ đẳng cấu với một nhóm con của $A^n(X)$. Vì $X$ là hữu hạn, $A^n(X)$ là một không gian vectơ hữu hạn chiều trên $\mathbf{F}_p$ và do đó là một $p$-nhóm giao hoán hữu hạn, và vì thế $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ cũng vậy.
 
-#### Mệnh đề 3 {#lie-ii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#lie-ii-s5-prop-3 .statement tag=0A5N}
 
 *Với mọi $w \neq 1$ trong $F(X)$, tồn tại một $p$-nhóm hữu hạn $G$ và một đồng cấu $f$ của $F(X)$ vào $G$ sao cho $f(w) \neq 1$.*
 
 Tồn tại các phần tử $x_1, \ldots, x_r$ của $X$ và các số nguyên $n_1, \ldots, n_r$ sao cho $w = x_1^{n_1} \ldots x_r^{n_r}$. Đặt $Y = \{x_1, \ldots, x_r\}$. Đơn ánh chính tắc của $Y$ vào $X$ kéo dài thành một đồng cấu $\alpha : F(Y) \to F(X)$; mặt khác, gọi $\beta$ là đồng cấu của $F(X)$ vào $F(Y)$ mà hạn chế trên $Y$ là đồng nhất và ánh xạ $X - Y$ vào $\{1\}$. Khi đó $\beta(\alpha(y)) = y$ với $y \in Y$ và do đó $\beta \circ \alpha$ là tự đẳng cấu đồng nhất của $F(Y)$. Hiển nhiên tồn tại $w'$ trong $F(Y)$ sao cho $w = \alpha(w')$; khi đó $\beta(w) = w' \neq 1$; mà $\bigcap_{n \geqslant 1} F_n^{(p)}(Y) = \{1\}$ và vì vậy tồn tại một số nguyên $n \geqslant 1$ sao cho $\beta(w) \notin F_n^{(p)}(Y)$. Theo Mệnh đề 2, nhóm $G = F(Y)/F_n^{(p)}(Y)$ là một $p$-nhóm hữu hạn. Nếu $f$ là hợp thành của $\beta$ với đồng cấu chính tắc của $F(Y)$ lên $G$, thì $f(w) \neq 1$.
 
-#### Hệ quả {#lie-ii-s5-n5-cor-1 .statement}
+#### Hệ quả {#lie-ii-s5-n5-cor-1 .statement tag=0A5O}
 
 *Giao của các nhóm con chuẩn có chỉ số hữu hạn trong $F(X)$ là $\{1\}$.*
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 24
 statements: 21
 exercises: 14
-content_sha256: 5f7fd3a934efbad19ca044626397a8b33e935d66181fbad2c1fcc07084b1bff4
+content_sha256: 226989bd74e31359e2aeb8931d84399b5017c3bca88501b3ec9b99439b8b3fd5
 ---
 
 ## § 2. LE THÉORÈME DES ACCROISSEMENTS FINIS
@@ -38,13 +38,13 @@ Dans les propositions démontrées au § 1, hypothèses et conclusions ont un ca
 
 ### 1. Théorème de Rolle
 
-#### Proposition 1 (« théorème de Rolle ») {#fvr-i-s2-prop-1 .statement}
+#### Proposition 1 (« théorème de Rolle ») {#fvr-i-s2-prop-1 .statement tag=083Z}
 
 Soit $f$ une fonction numérique finie et continue dans un intervalle fermé $I = [a, b]$ (où $a < b$), admettant en tout point de $]a, b[$ une dérivée (finie ou non), et telle que $f(a) = f(b)$. Il existe alors un point $c$ (au moins) de $]a, b[$ tel que $f'(c) = 0$.
 
 La proposition est évidente si $f$ est constante; sinon $f$ prend par exemple des valeurs $> f(a)$, et atteint donc sa borne supérieure en un point $c$ intérieur à $I$ (TG, IV, p. 27, th. 1). Comme en ce point $f$ admet un maximum relatif, on a $f'(c) = 0$ (I, p. 20, prop. 7).
 
-#### Corollaire {#fvr-i-s2-n1-cor-1 .statement}
+#### Corollaire {#fvr-i-s2-n1-cor-1 .statement tag=0840}
 
 Soit $f$ une fonction numérique finie et continue dans $[a, b]$ (où $a < b$), admettant en tout point de $]a, b[$ une dérivée (finie ou non). Il existe alors un point $c$ (au moins) de $]a, b[$ tel que $f(b) - f(a) = f'(c)(b - a)$.
 
@@ -56,7 +56,7 @@ Ce corollaire signifie qu’il existe un point $M_c = (c, f(c))$ de la courbe re
 
 Du corollaire de la prop. 1 résulte en particulier l’importante propriété suivante : si on a $m \leq f'(x) \leq M$ dans $]a, b[$, on a aussi $m \leq \frac{f(b) - f(a)}{b - a} \leq M$. Autrement dit, d’une majoration de la dérivée $f'$ dans tout un intervalle d’extrémités $a, b$ résulte la même majoration du rapport $\frac{f(b) - f(a)}{b - a}$ (rapport de l’« accroissement » de la fonction à l’« accroissement » de la variable dans l’intervalle). Nous allons dans ce qui suit préciser et généraliser ce résultat fondamental.
 
-#### Proposition 2 {#fvr-i-s2-prop-2 .statement}
+#### Proposition 2 {#fvr-i-s2-prop-2 .statement tag=0841}
 
 Soit $f$ une fonction numérique finie et continue dans un intervalle fermé borné $I = [a, b]$ (où $a < b$), et admettant une dérivée à droite (finie ou non) en tous les points du complémentaire par rapport à $[a, b[$ d’une partie dénombrable $A$ de cet intervalle. Si $f'_d(x) \geq 0$ en tout point $x$ de $[a, b[$ n’appartenant pas à $A$, on a $f(b) \geq f(a)$; si en outre $f'_d(x) > 0$ en un point au moins de $[a, b[$, on a $f(b) > f(a)$.
 
@@ -103,19 +103,19 @@ Comme \varepsilon > 0 est arbitraire, on déduit de (2) qu’on a f(b) \geq f(a)
 
 Remarquons maintenant que ce résultat appliqué à un intervalle [x, y] où a \leq x < y \leq b, prouve que f est croissante dans I; si on avait f(b) = f(a), on en déduirait que f est constante dans I, et par suite que f'_a(x) = 0 en tout point de [a, b[; d’où la seconde partie de l’énoncé.
 
-#### Corollaire {#fvr-i-s2-n2-cor-1 .statement}
+#### Corollaire {#fvr-i-s2-n2-cor-1 .statement tag=0842}
 
 Soit f une fonction numérique finie et continue dans [a, b] (où a < b) et admettant une dérivée à droite en tous les points du complémentaire par rapport à [a, b[ d’une partie dénombrable A de cet intervalle. Pour que f soit croissante dans I, il faut et il suffit que f'_a(x) \geq 0 en tout point de [a, b[ n’appartenant pas à A; pour que f soit strictement croissante, il faut et il suffit que la condition précédente soit vérifiée, et en outre que l’ensemble des points x où f'_a(x) > 0 soit partout dense dans [a, b].
 
-#### Remarque 1 {#fvr-i-s2-n2-rem-1 .statement}
+#### Remarque 1 {#fvr-i-s2-n2-rem-1 .statement tag=0843}
 
 La prop. 2 reste valable quand on remplace dans son énoncé l’intervalle [a, b[ par ]a, b] et les mots « dérivée à droite » par « dérivée à gauche ».
 
-#### Remarque 2 {#fvr-i-s2-n2-rem-2 .statement}
+#### Remarque 2 {#fvr-i-s2-n2-rem-2 .statement tag=0844}
 
 L’hypothèse de la continuité de f dans l’intervalle fermé I (et non seulement sa continuité à droite¹ en tout point de [a, b[) est essentielle pour la validité de la prop. 2 (cf. I, p. 43, exerc. 8).
 
-#### Remarque 3 {#fvr-i-s2-n2-rem-3 .statement}
+#### Remarque 3 {#fvr-i-s2-n2-rem-3 .statement tag=0845}
 
 La conclusion de la prop. 2 devient inexacte si on suppose seulement que l’ensemble A des points « exceptionnels » est rare dans I, mais non dénombrable (cf. I, p. 44, exerc. 3).
 
@@ -123,7 +123,7 @@ La prop. 2 entraîne le théorème fondamental suivant (en apparence plus géné
 
 ¹ Une fonction définie dans un intervalle I \subset \mathbf{R} est dite continue à droite en un point x_0 \in I si sa restriction à l’intervalle I \cap (x_0, +\infty[ est continue au point x_0 par rapport à cet intervalle; il revient au même de dire que la limite à droite de la fonction au point x_0 existe et est égale à la valeur de la fonction en ce point.
 
-#### Théorème 1 (théorème des accroissements finis) {#fvr-i-s2-thm-1 .statement}
+#### Théorème 1 (théorème des accroissements finis) {#fvr-i-s2-thm-1 .statement tag=0E5C}
 
 Soient $f$ et $g$ deux fonctions numériques finies et continues dans un intervalle fermé borné $I = [a, b]$, et admettant une dérivée à droite (finie ou non) en tous les points du complémentaire par rapport à $[a, b[$ d’une partie dénombrable de cet intervalle. On suppose en outre que $f'_d(x)$ et $g'_d(x)$ ne peuvent devenir infinis simultanément qu’aux points d’une partie dénombrable de $I$ et qu’il existe deux nombres finis $m, M$ tels que
 
@@ -141,11 +141,11 @@ sauf lorsqu’on a $f(x) = M \cdot g(x) + k$, ou $f(x) = m \cdot g(x) + k$ ($k$ 
 
 Il suffit d’appliquer la prop. 2 aux fonctions $M \cdot g - f$ et $f - m \cdot g$, qui, en vertu des hypothèses faites, ont une dérivée à droite positive sauf aux points d’une partie dénombrable de $I$.
 
-#### Remarque {#fvr-i-s2-n2-rem-4 .statement}
+#### Remarque {#fvr-i-s2-n2-rem-4 .statement tag=0846}
 
 Le th. 1 est inexact si on suppose dans l’énoncé que $f'_d$ et $g'_d$ peuvent simultanément infinis aux points d’une partie non dénombrable de $I$ (cf. I, p. 44, exerc. 3).
 
-#### Corollaire {#fvr-i-s2-n2-cor-2 .statement}
+#### Corollaire {#fvr-i-s2-n2-cor-2 .statement tag=0847}
 
 Soit $f$ une fonction numérique finie et continue dans $[a, b]$ (où $a < b$) et admettant une dérivée à droit (finie ou non) en tous les points du complémentaire $B$ par rapport à $[a, b[$ d’une partie dénombrable de cet intervalle. Si $m$ et $M$ sont les bornes inférieure et supérieure de $f'_d$ dans $B$, on a
 
@@ -161,13 +161,13 @@ $$
 
 Les inégalités (5) sont des conséquences de (4) lorsque $m$ et $M$ sont finis; le cas où l’un ou l’autre de ces nombres est infini est trivial.
 
-#### Remarque {#fvr-i-s2-n2-rem-5 .statement}
+#### Remarque {#fvr-i-s2-n2-rem-5 .statement tag=0848}
 
 Les inégalités (5) prouvent qu’une fonction continue ne peut avoir une dérivée à droite égale à $+\infty$ en tout point d’un intervalle (cf. I, p. 43, exerc. 6).
 
 ### 3. Le théorème des accroissements finis pour les fonctions vectorielles
 
-#### Théorème 2 {#fvr-i-s2-thm-2 .statement}
+#### Théorème 2 {#fvr-i-s2-thm-2 .statement tag=0849}
 
 Soit $\mathbf{f}$ une fonction vectorielle définie et continue dans un intervalle fermé borné $I = [a, b]$ de $\mathbf{R}$ (où $a < b$) et prenant ses valeurs dans un espace normé $\mathbf{E}$ sur $\mathbf{R}$; soit $g$ une fonction numérique continue et croissante dans $I$. On suppose que $\mathbf{f}$ et $g$ admettent une dérivée à droite en tous les points du complémentaire par rapport à $[a, b[$ d’une partie dénombrable $A$ de cet intervalle $(g'_a(x))$ pouvant être infinie en certains des points $x \notin A$, et qu’en chacun de ces points on a
 $$
@@ -230,23 +230,23 @@ ce qui entraîne de nouveau contradiction. La démonstration se termine comme ce
 
 C.Q.F.D.
 
-#### Remarque 1 {#fvr-i-s2-n3-rem-1 .statement}
+#### Remarque 1 {#fvr-i-s2-n3-rem-1 .statement tag=084A}
 
 Ici encore, on peut remplacer dans l'énoncé du th. 2 l'intervalle $[a, b]$ par ]$a, b$$]$ et « dérivée à droite » par « dérivée à gauche ».
 
-#### Remarque 2 {#fvr-i-s2-n3-rem-2 .statement}
+#### Remarque 2 {#fvr-i-s2-n3-rem-2 .statement tag=084B}
 
 Nous montrerons plus tard comment on peut préciser les cas d'égalité dans la relation (7), et aussi comment on peut généraliser le th. 2 au cas où $E$ est un espace localement convexe quelconque, à l'aide d'une autre méthode de démonstration qui permet de déduire le th. 2 du th. 1.
 
-#### Corollaire {#fvr-i-s2-n3-cor-1 .statement}
+#### Corollaire {#fvr-i-s2-n3-cor-1 .statement tag=084C}
 
 Pour qu'une fonction vectorielle continue dans un intervalle $I \subset \mathbf{R}$, à valeurs dans un espace normé $E$ sur $\mathbf{R}$, soit constante dans $I$, il suffit qu'elle ait une dérivée à droite nulle en tous les points du complémentaire (par rapport à $I$) d'une partie dénombrable de $I$.
 
-#### Remarque {#fvr-i-s2-n3-rem-3 .statement}
+#### Remarque {#fvr-i-s2-n3-rem-3 .statement tag=084D}
 
 Les démonstrations des th. 1 et 2 font intervenir de façon essentielle les propriétés topologiques particulières au corps $\mathbf{R}$; on peut en effet donner des exemples de corps valués $K$ pour lesquels il existe des applications continues non constantes de $K$ dans lui-même qui ont en tout point une dérivée nulle (cf. I, p. 44, exerc. 2).
 
-#### Proposition 3 {#fvr-i-s2-prop-3 .statement}
+#### Proposition 3 {#fvr-i-s2-prop-3 .statement tag=084E}
 
 Soit $f$ une fonction vectorielle à valeurs dans un espace normé $E$ sur $\mathbf{R}$, définie et continue dans un intervalle $I \subset \mathbf{R}$, dérivable à droite dans le complémentaire $B$ (par rapport à $I$) d'une partie dénombrable de $I$; quels que soient les points $x_0 \in B,\ x \in I,\ y \in I$, on a (en supposant par exemple $x < y$)
 $$
@@ -261,19 +261,19 @@ et $g$ par la fonction linéaire dont la dérivée est $\sup_{z \in B,\ x < z < 
 
 Le th. 2 s’étend aux fonctions vectorielles d’une variable complexe :
 
-#### Proposition 4 {#fvr-i-s2-prop-4 .statement}
+#### Proposition 4 {#fvr-i-s2-prop-4 .statement tag=084F}
 
 *Soit $\mathbf{f}$ une fonction vectorielle d’une variable complexe définie, continue et dérivable dans une partie ouverte convexe $A$ du corps $\mathbf{C}$, à valeurs dans un espace normé $E$ sur le corps $\mathbf{C}$. Si on a $\| \mathbf{f}'(z) \| \leq m$ pour tout $z \in A$, on a $\| \mathbf{f}(b) - \mathbf{f}(a) \| \leq m | b - a |$ pour tout couple de points $a, b$ de $A$.*
 
 Posons en effet $g(t) = \frac{1}{b - a} \mathbf{f}(a + t(b - a))$ pour $0 \leq t \leq 1$; comme $g'(t) = \mathbf{f}'(a + t(b - a))$, l’application du th. 2 à la fonction $g$ donne aussitôt la proposition.
 
-#### Corollaire {#fvr-i-s2-n3-cor-2 .statement}
+#### Corollaire {#fvr-i-s2-n3-cor-2 .statement tag=084G}
 
 *Pour qu’une fonction vectorielle $\mathbf{f}$ d’une variable complexe, définie et continue dans un ensemble $A \subset \mathbf{C}$, à valeurs dans un espace normé sur $\mathbf{C}$, soit constante, il suffit qu’elle ait une dérivée nulle en tout point de $A$.*
 
 En effet, soit $a$ un point quelconque de $A$; l’ensemble $B$ des points $z$ de $A$ où $\mathbf{f}(z) = \mathbf{f}(a)$ est fermé puisque $\mathbf{f}$ est continue; il est aussi ouvert par application de la prop. 4 (avec $m = 0$) à un voisinage ouvert convexe, contenu dans $A$, d’un point quelconque de $B$; donc il est identique à $A$.
 
-#### Proposition 5 {#fvr-i-s2-prop-5 .statement}
+#### Proposition 5 {#fvr-i-s2-prop-5 .statement tag=084H}
 
 *Soit $\mathbf{f}$ une fonction vectorielle d’une variable complexe, définie, continue et dérivable dans un ensemble ouvert convexe $A \subset \mathbf{C}$, à valeurs dans un espace normé sur le corps $\mathbf{C}$; quels que soient les points $x_0, x$ et $y$ dans $A$, on a*
 $$
@@ -287,7 +287,7 @@ dans l’intervalle $[0, 1]$.
 
 ### 4. Continuité des dérivées
 
-#### Proposition 6 {#fvr-i-s2-prop-6 .statement}
+#### Proposition 6 {#fvr-i-s2-prop-6 .statement tag=084I}
 
 *Soient $I$ un intervalle ouvert de $\mathbf{R}$, $x_0$ une des extrémités de $I$, $\mathbf{f}$ une fonction vectorielle définie et continue dans $I$, prenant ses valeurs dans un espace normé complet $E$ sur $\mathbf{R}$; on suppose que $\mathbf{f}$ admet une dérivée à droite aux points du complémentaire $B$, par rapport à $I$, d’une partie dénombrable de $I$. Pour que $\mathbf{f}'_d(x)$ ait une limite lorsque $x$ tend vers $x_0$ en restant dans $B$ et $\neq x_0$, il faut et il suffit que $\frac{\mathbf{f}(y) - \mathbf{f}(x)}{y - x}$ ait une limite $c$ lorsque $(x, y)$ tend vers $(x_0, x_0)$ de sorte que $x \in I, y \in I, x \neq x_0, y \neq x_0$ et $x \neq y$. Dans ces conditions, $\mathbf{f}$ se prolonge par continuité au point $x_0$, $\mathbf{f}'_d(x)$ tend vers $\mathbf{c}$ lorsque $x$ tend vers $x_0$ (en restant dans B) et la fonction $\mathbf{f}$ prolongée (définie dans $I \subset \{x_0\}$) admet au point $x_0$ une dérivée égale à $\mathbf{c}$.
 
@@ -317,7 +317,7 @@ $$
 $$
 ce qui prouve que $\mathbf{c}$ est la dérivée au point $x_0$ de la fonction $\mathbf{f}$ prolongée par continuité à $I \cap \{x_0\}$.
 
-#### Remarque {#fvr-i-s2-n4-rem-1 .statement}
+#### Remarque {#fvr-i-s2-n4-rem-1 .statement tag=084J}
 
 Un raisonnement analogue, basé sur le th. 1, montre que si $f$ est une fonction numérique telle que $f'_d(x)$ tende vers $+\infty$ au point $x_0$, le rapport
 $$

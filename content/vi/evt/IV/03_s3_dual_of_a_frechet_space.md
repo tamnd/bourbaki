@@ -37,7 +37,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 2
-content_sha256: 544fae7ed39e9075ed65e110e2e32e0582db4acb76a3e65a7c75bdecbd70618a
+content_sha256: 30e552ef361dfbd37a28bdb43b7eb2beee17dfb8d90e552832ea8957311bb677
 translated_from: content/en/evt/IV/03_s3_dual_of_a_frechet_space.md
 source_content_sha256: 4065ed0aff089e17407855388482b96630c02240233829e9c16d410797c4c210
 translation_model: gpt-5.4
@@ -51,7 +51,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Không gian nửa thùng
 
-#### Mệnh đề 1 {#evt-iv-s3-prop-1 .statement}
+#### Mệnh đề 1 {#evt-iv-s3-prop-1 .statement tag=07TU}
 
 — Cho E là một không gian lồi địa phương. Các điều kiện sau là tương đương:
 
@@ -67,7 +67,7 @@ Rõ ràng rằng (iii) là một trường hợp riêng của (ii).
 
 (iii) $\Rightarrow$ (i) : cho $(U_n)$ là một dãy các lân cận lồi, cân bằng và đóng của 0 trong E. Ta giả sử rằng tập $U = \bigcap_n U_n$ hấp thụ mọi tập con bị chặn của E, do đó cực của nó $U^\circ$ bị chặn trong $E'_b$. Khi đó tập $B = \bigcup_n U_n^\circ$ được chứa trong $U^\circ$, do đó bị chặn trong $E'_b$. Nếu E thỏa mãn (iii), tập B là đồng liên tục trong $E'$; do đó, cực $B^\circ = \bigcap_n (U_n^\circ)^\circ = \bigcap_n U_n = U$ của B trong E là một lân cận của 0 trong E.
 
-#### Định nghĩa 1 {#evt-iv-s3-def-1 .statement}
+#### Định nghĩa 1 {#evt-iv-s3-def-1 .statement tag=07TV}
 
 — Một không gian lồi địa phương E được gọi là nửa thùng nếu nó thỏa mãn các điều kiện tương đương của mệnh đề 1.
 
@@ -75,7 +75,7 @@ Mọi không gian thùng đều là nửa thùng. Điều này cũng đúng đ�
 
 ### 2. Đối ngẫu của một không gian lồi địa phương mêtric hóa được
 
-#### Mệnh đề 2 {#evt-iv-s3-prop-2 .statement}
+#### Mệnh đề 2 {#evt-iv-s3-prop-2 .statement tag=07TW}
 
 — Cho E là một không gian lồi địa phương mêtric hóa được và F là đối ngẫu mạnh của nó. Không gian F là đầy đủ, nửa thùng và thỏa mãn điều kiện sau:
 (DB) Tồn tại một dãy $(A_n)_{n \in \mathbf{N}}$ các tập con bị chặn của F sao cho mọi tập con bị chặn của F đều được chứa trong một trong các $A_n$.
@@ -102,7 +102,7 @@ Giả sử rằng các số $\lambda_i$ và các tập $W_i$ đã được xây 
 
 Hệ quả sau mở rộng định lý Banach-Steinhaus cho đối ngẫu của một không gian Fréchet (*cf.* III, p. 25, hệ quả 2).
 
-#### Hệ quả {#evt-iv-s3-n2-cor-1 .statement}
+#### Hệ quả {#evt-iv-s3-n2-cor-1 .statement tag=07TX}
 
 — Cho G là một không gian lồi địa phương Hausdorff, và cho $(u_n)$ là một dãy các ánh xạ tuyến tính từ F vào G, hội tụ đơn giản tới một ánh xạ u từ F vào G. Khi đó u liên tục, và dãy $(u_n)$ hội tụ tới u đều trên mọi tập con tiền compắc của F.
 
@@ -110,7 +110,7 @@ Vì F đầy đủ, tập hợp tất cả các $u_n$, bị chặn đối với 
 
 ### 3. Song đối ngẫu của một không gian lồi địa phương mêtric hóa được
 
-#### Mệnh đề 3 {#evt-iv-s3-prop-3 .statement}
+#### Mệnh đề 3 {#evt-iv-s3-prop-3 .statement tag=07TY}
 
 — Cho E là một không gian lồi địa phương mêtric hóa được, $E'_b$ là đối ngẫu mạnh của nó và G là một không gian Fréchet. Không gian $\mathscr{L}_b(E'_b ; G)$ là một không gian Fréchet.
 
@@ -118,13 +118,13 @@ Theo mệnh đề 2 (IV, p. 22), tồn tại một dãy $(A_n)$ các tập con b
 
 Để chỉ ra rằng $\mathscr{L}_b(E'_b ; G)$ là đầy đủ, chỉ cần chứng minh rằng mọi dãy Cauchy $(u_n)$ trong không gian này đều hội tụ; vì G là đầy đủ, tồn tại một ánh xạ tuyến tính $u : E'_b \to G$ sao cho $(u_n)$ hội tụ đơn giản tới u. Theo IV, p. 23, hệ quả, ta có $u \in \mathscr{L}_b(E'_b ; G)$. Khi đó từ mệnh đề 5 của GT, X, § 1, No. 5, suy ra rằng $(u_n)$ hội tụ tới u trong $\mathscr{L}_b(E'_b ; G)$.
 
-#### Hệ quả {#evt-iv-s3-n3-cor-1 .statement}
+#### Hệ quả {#evt-iv-s3-n3-cor-1 .statement tag=07TZ}
 
 — Song đối ngẫu của một không gian lồi địa phương mêtric hóa được là một không gian Fréchet.
 
 ### 4. Đối ngẫu của một không gian Fréchet phản xạ
 
-#### Mệnh đề 4 {#evt-iv-s3-prop-4 .statement}
+#### Mệnh đề 4 {#evt-iv-s3-prop-4 .statement tag=07U0}
 
 — Cho E là một không gian Fréchet phản xạ. Đối ngẫu mạnh $E'_b$ của E là giới hạn quy nạp của một dãy các không gian Banach.
 
@@ -138,7 +138,7 @@ do đó dãy $(y_n)$ bị chặn. Cho $y$ là một điểm giới hạn của $
 
 Vì mọi tập con bị chặn của $E'_b$ đều được chứa trong một trong các tập hợp $A_n$, tập hợp $V = \bigcup_n B_n$ hấp thụ mọi tập con bị chặn của $E'_b$. Do đó, $V^\circ$ bị chặn trong E, vì thế $\frac{1}{2}V^{\circ\circ}$ là một lân cận của 0 trong $E'_b$. *A fortiori*, U là một lân cận trong $E'_b$.
 
-#### Hệ quả {#evt-iv-s3-n4-cor-1 .statement}
+#### Hệ quả {#evt-iv-s3-n4-cor-1 .statement tag=07U1}
 
 *Đối ngẫu mạnh của một không gian Fréchet phản xạ là bornological và barrelled.*
 
@@ -146,7 +146,7 @@ Theo định nghĩa, một giới hạn quy nạp của các không gian Banach 
 
 ### 5. Tôpô hội tụ compắc trên đối ngẫu của một không gian Fréchet
 
-#### Định lý 1 (Banach-Dieudonné) {#evt-iv-s3-thm-1 .statement}
+#### Định lý 1 (Banach-Dieudonné) {#evt-iv-s3-thm-1 .statement tag=07U2}
 
 — *Cho E là một không gian lồi địa phương khả mê hóa. Các tôpô sau trùng nhau trên đối ngẫu $E'$ của E :*
 
@@ -173,13 +173,13 @@ Công thức (5) với $n = m - 1$ kéo theo rằng $\bigcap_{x \in U_m} F_x = \
 
 Đặt $S = \bigcup_{n \geqslant 0} X_n$. Ta có $X_n \subset U_p$ với $n \geqslant p$, do đó $S$ là tập hợp các điểm của một dãy hội tụ về 0 trong $E$. Từ (5) ta suy ra rằng $S^{\circ} \cap U_{n+1}^{\circ} \cap F = \varnothing$, và vì $E'$ là hợp của dãy các tập hợp $U_{n+1}^{\circ}$, ta được $S^{\circ} \cap F = \varnothing$.
 
-#### Hệ quả 1 {#evt-iv-s3-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#evt-iv-s3-thm-1-cor-1 .statement tag=07U3}
 
 *Cho $E$ là một không gian lồi địa phương khả mêtric. Mọi tập con tiền compắc của $E$ đều được chứa trong bao lồi cân bằng đóng của tập hợp các điểm của một dãy hội tụ về 0.*
 
 Điều này suy ra từ việc các tôpô $\mathscr{T}_{pc}$ và $\mathscr{T}_{\mathfrak{H}}$ đồng nhất, theo mệnh đề 2 của III, p. 15.
 
-#### Hệ quả 2 {#evt-iv-s3-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#evt-iv-s3-thm-1-cor-2 .statement tag=07U4}
 
 *Cho $E$ là một không gian Fréchet. Điều kiện cần và đủ để một tập con lồi $A$ của đối ngẫu $E'$ của $E$ là đóng đối với $\sigma(E', E)$ là $A \cap U^{\circ}$ đóng đối với $\sigma(E', E)$ với mọi lân cận $U$ của 0 trong $E$.*
 
@@ -187,17 +187,17 @@ Vì $E$ là đầy đủ, tôpô $\mathscr{T}_c$ trên $E'$ là tương thích v
 
 Nhắc lại (I, p. 13) rằng các siêu phẳng của $E'$ đóng đối với $\sigma(E', E)$ là các hạt nhân của các dạng tuyến tính trên $E'$ liên kết với các phần tử của $E$. Vậy nên hệ quả 2 cho một chứng minh khác (đối với các không gian Fréchet) của hệ quả 1 của III, p. 21.
 
-#### Hệ quả 3 {#evt-iv-s3-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#evt-iv-s3-thm-1-cor-3 .statement tag=07U5}
 
 *Cho $E$ là một không gian Banach và $M$ là một không gian con vectơ của đối ngẫu $E'$ của $E$. Để $M$ đóng đối với tôpô yếu $\sigma(E', E)$, điều kiện cần và đủ là giao của nó với quả cầu đơn vị (đóng) trong $E'$ phải đóng đối với $\sigma(E', E)$.*
 
-#### Ví dụ {#evt-iv-s3-n5-exa-1 .statement}
+#### Ví dụ {#evt-iv-s3-n5-exa-1 .statement tag=07U6}
 
 — *Cho $H$ là một không gian Hilbert thỏa mãn tiên đề đếm được thứ nhất; ký hiệu $H_{\sigma}$ là không gian $H$ được trang bị tôpô yếu hơn. Cho $\mathscr{L}^1(H)$ là không gian Banach các tự đồng cấu hạt nhân của $H$ (V, p. 51, và TS, V); chuẩn trong $\mathscr{L}^1(H)$ được định nghĩa bởi $\|u\|_1 = \operatorname{Tr}((u^*u)^{1/2})$. Ta có thể đồng nhất $\mathscr{L}(H)$ với đối ngẫu của không gian Banach $\mathscr{L}^1(H)$ bằng cách gắn với mỗi $u \in \mathscr{L}(H)$ dạng tuyến tính $\phi_u : v \mapsto \operatorname{Tr}(uv)$ trên $\mathscr{L}^1(H)$. Cho $A$ là một đại số con của $\mathscr{L}(H)$, chứa 1 và ổn định dưới ánh xạ $u \mapsto u^*$; đó là một đại số von Neumann khi và chỉ khi nó đóng trong $\mathscr{L}(H)$ đối với tôpô yếu $\sigma(\mathscr{L}(H), \mathscr{L}^1(H))$. Từ hệ quả 3, ta suy ra tiêu chuẩn sau đây : *để $A$ là một đại số von Neumann, điều kiện cần và đủ là nếu $(u_n)$ là bất kỳ dãy nào các phần tử của $A$ có chuẩn $\leqslant 1$ và có giới hạn $u$ trong không gian $\mathscr{L}_s(H ; H_{\sigma})$, thì $u$ thuộc $A$.*
 
 ### 6. Ánh xạ song tuyến tính liên tục riêng
 
-#### Bổ đề 1 {#evt-iv-s3-lem-1 .statement}
+#### Bổ đề 1 {#evt-iv-s3-lem-1 .statement tag=07U7}
 
 Cho E và F là hai không gian lồi địa phương mêtric, và u là một ánh xạ tuyến tính liên tục từ $E'_b$ vào F. Khi đó tồn tại một lân cận U của 0 trong $E'_b$ mà ảnh của nó dưới u bị chặn trong F.
 
@@ -207,7 +207,7 @@ Ta sẽ chứng minh rằng tập hợp B bị chặn trong E, nói cách khác 
 
 Cho U là cực của B trong $E'_b$. Đây là một lân cận của 0 trong $E'_b$ và ta có $\lambda_n B^\circ \subset B_n^\circ$, do đó $\lambda_n u(U) \subset V_n$ với mọi $n \in \mathbf{N}$. Do đó $u(U)$ bị chặn trong F.
 
-#### Định lý 2 {#evt-iv-s3-thm-2 .statement}
+#### Định lý 2 {#evt-iv-s3-thm-2 .statement tag=07U8}
 
 Cho $E_1$ và $E_2$ là hai không gian Fréchet phản xạ, và G là một không gian Hausdorff lồi địa phương. Với $i = 1, 2$, gọi $F_i$ là đối ngẫu mạnh của $E_i$. Khi đó mọi ánh xạ song tuyến tính liên tục riêng $u : F_1 \times F_2 \to G$ đều liên tục.
 

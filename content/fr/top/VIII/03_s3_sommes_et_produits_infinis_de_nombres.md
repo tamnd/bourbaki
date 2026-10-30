@@ -25,7 +25,7 @@ subsections:
       pdf_page: 104
 statements: 9
 exercises: 6
-content_sha256: dfc5bf42c2a7ee87ba34b689a70b65955af6a338078b9603d340699bb6df4878
+content_sha256: b3b80db26c88cfe97160367b52650c6c966cbccaa2d8c915963c118f1c288b60
 ---
 
 ## § 3. SOMMES ET PRODUITS INFINIS DE NOMBRES COMPLEXES
@@ -34,7 +34,7 @@ content_sha256: dfc5bf42c2a7ee87ba34b689a70b65955af6a338078b9603d340699bb6df4878
 
 Le groupe additif du corps $\mathbf{C}$ étant identique au groupe additif $\mathbf{R}^2$, il n’y a pas à revenir sur l’étude des familles sommables et des séries dans $\mathbf{C}$, qui rentre dans la théorie générale faite dans VII, p. 16–18; nous laissons au lecteur le soin de traduire les résultats de cette théorie dans le langage de la théorie des nombres complexes. Signalons seulement la proposition suivante, corollaire de la prop. 3 de VII, p. 17:
 
-#### Proposition 1 {#top-viii-s3-prop-1 .statement}
+#### Proposition 1 {#top-viii-s3-prop-1 .statement tag=0C0I}
 
 Si $(u_\lambda)_{\lambda \in L}$ et $(v_\mu)_{\mu \in M}$ sont deux familles sommables de nombres complexes, la famille $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ est sommable, et l’on a
 
@@ -48,7 +48,7 @@ Nous laissons au lecteur le soin d’énoncer la proposition analogue pour les q
 
 Dans le groupe multiplicatif $\mathbf{C}^*$ des nombres complexes $\neq 0$, une famille $(z_i)_{i \in I}$ ne peut être multipliable que si $\lim z_i = 1$ suivant le filtre des complémentaires des parties finies de I (III, p. 38, prop. 1); en outre, tout point de $\mathbf{C}^*$ ayant un système fondamental dénombrable de voisinages, l’ensemble des $i$ tels que $z_i \neq 1$ est dénombrable si la famille $(z_i)$ est multipliable (III, p. 38, corollaire).
 
-#### Proposition 2 {#top-viii-s3-prop-2 .statement}
+#### Proposition 2 {#top-viii-s3-prop-2 .statement tag=0C0J}
 
 Pour qu’une famille $(z_i)$ de nombres complexes
 
@@ -64,7 +64,7 @@ L’application qui, à tout angle $\theta$, fait correspondre celle de ses mesu
 
 Le théorème suivant donne un autre critère pour qu’une famille de nombres complexes, mise sous la forme $(1 + u_i)$, soit multipliable dans $\mathbf{C}^*$ (critère qui généralise le th. de IV, p. 35; voir IX, p. 81, prop. 1):
 
-#### Théorème 1 {#top-viii-s3-thm-1 .statement}
+#### Théorème 1 {#top-viii-s3-thm-1 .statement tag=0C0K}
 
 Pour qu’une famille $(1 + u_i)_{i \in I}$ soit multipliable dans $\mathbf{C}^*$, il faut et il suffit que la famille $(|u_i|)$ soit sommable dans $\mathbf{R}$.
 
@@ -74,7 +74,7 @@ $$
 p_J = \prod_{i \in J} (1 + a_i), \quad s_J = \sum_{i \in J} a_i, \quad \sigma_J = \sum_{i \in J} |a_i|.
 $$
 
-#### Lemme 1 {#top-viii-s3-lem-1 .statement}
+#### Lemme 1 {#top-viii-s3-lem-1 .statement tag=0C0L}
 
 Pour toute partie finie J de I, soit $\varphi(J) = \sup_{L \subset J} |p_L - 1|$. Pour toute partie L de J, on a
 $$
@@ -90,7 +90,7 @@ $$
 $$
 ce qui prouve le lemme.
 
-#### Lemme 2 {#top-viii-s3-lem-2 .statement}
+#### Lemme 2 {#top-viii-s3-lem-2 .statement tag=0C0M}
 
 Si J est une partie finie de I telle que $\varphi(J) < \frac{1}{4}$, on a
 $$
@@ -120,21 +120,21 @@ Nous donnerons plus tard de ce théorème une démonstration plus simple, fondé
 
 Pour qu’un produit infini de nombres complexes $\neq 0$, de facteur général $z_n = r_n (\cos \theta_n + i \sin \theta_n)$ soit convergent dans $\mathbf{C}^*$, il faut et il suffit d’après la structure du groupe $\mathbf{C}^*$, que le produit de facteur général $r_n$ soit convergent dans $\mathbf{R}_+^*$, et que la série de terme général $t_n$ (mesure de $\theta_n$ appartenant à l’intervalle $] - a/2, a/2 ]$) soit convergente dans $\mathbf{R}$.
 
-#### Définition 1 {#top-viii-s3-def-1 .statement}
+#### Définition 1 {#top-viii-s3-def-1 .statement tag=0C0N}
 
 Un produit infini de nombres complexes, de facteur général $1 + u_n$, est dit absolument convergent, si le produit de facteur général $1 + |u_n|$ est convergent (ou, ce qui revient au même, si la série de terme général $|u_n|$ est convergente).
 
-#### Proposition 3 {#top-viii-s3-prop-3 .statement}
+#### Proposition 3 {#top-viii-s3-prop-3 .statement tag=0C0O}
 
 Pour qu’un produit infini de nombres complexes soit commutativement convergent, il faut et il suffit qu’il soit absolument convergent.
 
 Cela résulte de la prop. 9 de III, p. 44, et du th. 1 de VIII, p. 16.
 
-#### Remarque 1 {#top-viii-s3-n3-rem-1 .statement}
+#### Remarque 1 {#top-viii-s3-n3-rem-1 .statement tag=0C0P}
 
 Le produit de facteur général $|1 + u_n|$ peut être convergent, et même absolument convergent dans $\mathbf{R}_+^*$, sans que le produit de facteur général $1 + |u_n|$ le soit (voir VIII, p. 26, exerc. 4); cela ne peut naturellement se produire lorsque tous les $1 + u_n$ sont réels et $> 0$ à partir d’un certain rang.
 
-#### Remarque 2 {#top-viii-s3-n3-rem-2 .statement}
+#### Remarque 2 {#top-viii-s3-n3-rem-2 .statement tag=0C0Q}
 
 Comme on l’a déjà signalé pour les produits de facteurs $> 0$, la convergence de la série de terme général $u_n$ n’est ni nécessaire ni suffisante pour assurer la convergence du produit de facteur général $1 + u_n$.
 

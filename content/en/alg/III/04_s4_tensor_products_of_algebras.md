@@ -50,7 +50,7 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: e4f97fce390410665271a3fec7e11e3f97e3ebed511a8bc2d0ba2eea7c3667d7
+content_sha256: 25682b65ee25b300876c8d2b79b960cdd7e6d7279edee98e796e41613580d0ee
 ---
 
 ## § 4. TENSOR PRODUCTS OF ALGEBRAS
@@ -86,7 +86,7 @@ $$
 
 whence, by linearity, the relation $x(yz) = (xy)z$ for all $x, y, z$ in $E$.
 
-#### Definition 1 {#alg-iii-s4-def-1 .statement}
+#### Definition 1 {#alg-iii-s4-def-1 .statement tag=0608}
 
 *Given a family* $(E_i)_{i \in I}$ *of algebras over* $A$, *the tensor product of this family*, denoted by $\bigotimes_{i \in I} E_i$ (or, when $I$ is the interval $\{1, n\}$ of $\mathbf{N}$, $E_1 \otimes_A E_2 \otimes \cdots \otimes_A E_n$, or simply $E_1 \otimes E_2 \otimes \cdots \otimes E_n$) *is the algebra obtained by giving the tensor product of the* $A$*-modules* $E_i$ *the multiplication defined by* (1).
 
@@ -114,7 +114,7 @@ We shall restrict our attention in the remainder of this no. to the properties o
 
 Let $E, F$ be two $A$-algebras; if $a$ (resp. $b$) is a left ideal of $E$ (resp. $F$), the canonical image $\operatorname{Im}(a \otimes b)$ of $a \otimes_A b$ in $E \otimes_A F$ is a left ideal of $E \otimes_A F$; there are analogous results when "left ideal" is replaced by "right ideal" or "two-sided ideal". Moreover:
 
-#### Proposition 1 {#alg-iii-s4-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s4-prop-1 .statement tag=0609}
 
 *Let $E, F$ be two $A$-algebras and $a$ (resp. $b$) a two-sided ideal of $E$ (resp. $F$). Then the canonical $A$-module isomorphism*
 
@@ -126,7 +126,7 @@ $$
 
 This follows from (1) and the definition given *loc. cit*.
 
-#### Corollary 1 {#alg-iii-s4-prop-1-cor-1 .statement}
+#### Corollary 1 {#alg-iii-s4-prop-1-cor-1 .statement tag=060A}
 
 *Let $E$ be an $A$-algebra and $a$ an ideal of $A$. Then the $A$-module $aE$ is a two-sided ideal of $E$ and the canonical $(A/a)$-module isomorphism*
 
@@ -136,15 +136,15 @@ $$
 
 *is an* $(A/a)$*-algebra isomorphism*.
 
-#### Corollary 2 {#alg-iii-s4-prop-1-cor-2 .statement}
+#### Corollary 2 {#alg-iii-s4-prop-1-cor-2 .statement tag=060B}
 
 *If $a, b$ are two ideals of $A$, $(A/a) \otimes_A (A/b)$ is canonically isomorphic to $A/(a + b)$*.
 
-#### Corollary 3 {#alg-iii-s4-prop-1-cor-3 .statement}
+#### Corollary 3 {#alg-iii-s4-prop-1-cor-3 .statement tag=060C}
 
 *Let $E, F$ be two $A$-algebras and $a$ an ideal of $A$ contained in the annihilator of $F$. Then the $(A/a)$-algebra $E \otimes_A F$ is canonically isomorphic to $(E/aE) \otimes_{A/a} F$*.
 
-#### Proposition 2 {#alg-iii-s4-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s4-prop-2 .statement tag=060D}
 
 *Let $(E_\lambda)_{\lambda \in L}$ and $(F_\mu)_{\mu \in M}$ be two families of $A$-algebras. The canonical mapping* (II, § 3, no. 7)
 
@@ -156,7 +156,7 @@ $$
 
 This follows immediately from II, § 3, no. 7, Proposition 7 and the definition of multiplication on $E \otimes F$.
 
-#### Proposition 3 {#alg-iii-s4-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s4-prop-3 .statement tag=060E}
 
 *Let $A, B$ be two commutative rings, $\varphi : A \to B$ a ring homomorphism and $E, F$ two $A$-algebras. Then the canonical $B$-module isomorphism*
 
@@ -166,7 +166,7 @@ $$
 
 (II, § 5, no. 1, Proposition 3) *is a $B$-algebra isomorphism*.
 
-#### Proposition 4 {#alg-iii-s4-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s4-prop-4 .statement tag=060F}
 
 Let $A, B$ be two commutative rings, $\rho : A \to B$ a ring homomorphism, $E$ an $A$-algebra and $F$ a $B$-algebra. Then the canonical $A$-module isomorphism
 
@@ -206,7 +206,7 @@ The elements $e_s \otimes e_t$ (resp. $e_{(s,t)}$), where $s$ runs through $S$ a
 
 ### 2. UNIVERSAL CHARACTERIZATION OF TENSOR PRODUCTS OF ALGEBRAS
 
-#### Proposition 5 {#alg-iii-s4-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s4-prop-5 .statement tag=060G}
 
 Let $(E_i)_{i \in I}$ be a finite family of $A$-algebras and, for each $i \in I$, let $e_i$ be the unit element of $E_i$. For each $i \in I$, let $u_i : E_i \to E = \bigotimes_{i \in I} E_i$ be the $A$-linear mapping defined by
 
@@ -258,7 +258,7 @@ which, by linearity, completes the proof.
 
 The ordered pair consisting of E and the canonical mapping $\phi : (x_i) \mapsto \bigotimes_i x_i$ of $\prod_i E_i$ into E is a solution of the universal mapping problem (Set Theory, IV, § 3, no. 1) where $\Sigma$ is the species of A-algebra structure, the morphisms being the A-algebra homomorphisms and the $\alpha$-mappings the mappings $\prod_i u_i$ of $\prod_i E_i$ into an A-algebra such that the $u_i$ are A-algebra homomorphisms and $u_i(x_i)$ and $u_j(x_j)$ commute for $i \neq j$, for all $x_i \in E_i$ and $x_j \in E_j$.
 
-#### Corollary {#alg-iii-s4-n2-cor-1 .statement}
+#### Corollary {#alg-iii-s4-n2-cor-1 .statement tag=060H}
 
 *Let* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *be two finite families of A-algebras and, for all* $i \in I$, *let* $f_i : E_i \to F_i$ *be an algebra homomorphism. If* $u_i : E_i \to \bigotimes_{j \in I} E_j, v_i : F_i \to \bigotimes_{j \in I} F_j$ *are the canonical homomorphisms, the mapping* $f = \bigotimes_i f_i$ *(cf. no. 1)* *is the unique A-algebra homomorphism such that* $f \circ u_i = v_i \circ f_i$ *for all* $i \in I$.
 
@@ -276,7 +276,7 @@ Note that if E is a commutative A-algebra, the ring structure of $E \otimes_A F$
 
 ### 3. MODULES AND MULTIMODULES OVER TENSOR PRODUCTS OF ALGEBRAS
 
-#### Definition 2 {#alg-iii-s4-def-2 .statement}
+#### Definition 2 {#alg-iii-s4-def-2 .statement tag=060I}
 
 *Let E be a (unital) A-algebra. A left (resp. right) E-module is a left (resp. right) module over the underlying ring of E.*
 
@@ -290,7 +290,7 @@ $$
 
 so that for all $s \in E$, the homothety $h_s : x \mapsto sx$ of M is an endomorphism of the underlying A-module structure. Conversely, being given an E-module structure on M is equivalent to being given an A-module structure on M and an A-algebra homomorphism $s \mapsto h_s$ of E into $\mathrm{End}_A(M)$.
 
-#### Definition 3 {#alg-iii-s4-def-3 .statement}
+#### Definition 3 {#alg-iii-s4-def-3 .statement tag=060J}
 
 *Let E and F be two (unital) A-algebras and M a set with an E-module structure and an F-module structure. M is called a (left) bimodule over the algebras E and F if:*
 
@@ -319,7 +319,7 @@ Thus a one-to-one correspondence has been established between $(E \otimes_A F)$-
 
 There are obviously corresponding statements for right bimodule structures, or when for example there is a left E-module structure and a right F-module structure; in this case we speak of an $(E, F)$-bimodule and being given such a structure amounts to being given a left bimodule structure over E and $F^o$.
 
-#### Example {#alg-iii-s4-n3-exa-1 .statement}
+#### Example {#alg-iii-s4-n3-exa-1 .statement tag=060K}
 
 (1) Let B be an A-algebra; the ring B has canonically a (B, B)-bimodule structure (II, § 1, no. 14, Example 1) and, if e is the unit element of B, then $(\alpha e)x = x(\alpha e) = \alpha x$ for all $x \in B$ and all $\alpha \in A$; B can therefore be considered as a left bimodule over the algebras B and $B^o$ (opposite to B); there is therefore associated with the (B, B)-bimodule structure on B a (B $\otimes_A B^o$)-module structure such that, for $b, x$ and $b'$ in B,
 
@@ -359,7 +359,7 @@ Let K be a commutative *field* and E, F two algebras over K whose respective uni
 
 If E' and F' are subalgebras of E and F respectively, the canonical homomorphism $E' \otimes_K F' \to E \otimes_K F$ is injective and allows us to identify $E' \otimes_K F'$ with the subalgebra of $E \otimes_K F$ generated by $E' \cup F'$ (II, § 7, no. 7, Proposition 14).
 
-#### Proposition 6 {#alg-iii-s4-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s4-prop-6 .statement tag=060L}
 
 *Let E, F be two non-zero algebras over a commutative field, K, C (resp. D) a subalgebra of E (resp. F) and C' (resp. D') the centralizer of C in E (resp. D in F). Then the centralizer of C \otimes_K D in E \otimes_K F is C' \otimes_K D'.*
 
@@ -371,7 +371,7 @@ $$
 
 (II, § 7, no. 7, Corollary to Proposition 14). The $y_i$ may be assumed to be linearly independent over K; for all $x \in C$, of necessity $(x \otimes e')z = z(x \otimes e')$, that is $\sum_i (xx_i - x_ix) \otimes y_i = 0$, whence $xx_i = x_ix$ for all $i$ (II, § 3, no. 7, Corollary 1 to Proposition 7); hence of necessity $x_i \in C'$ for all $i$ and therefore $z \in C' \otimes_K F$; it can similarly be shown that $z \in E \otimes_K D'$, whence the proposition.
 
-#### Corollary {#alg-iii-s4-n4-cor-1 .statement}
+#### Corollary {#alg-iii-s4-n4-cor-1 .statement tag=060M}
 
 *If Z and Z' are the respective centres of E and F, the centre of E \otimes_K F is Z \otimes_K Z'*.
 
@@ -380,13 +380,13 @@ $$
 (i \otimes j)(x \otimes y) = xy \quad \text{for } x \in E, y \in F.
 $$
 
-#### Definition 4 {#alg-iii-s4-def-4 .statement}
+#### Definition 4 {#alg-iii-s4-def-4 .statement tag=060N}
 
 *Given an algebra G over a commutative field K, two subalgebras E, F of G are said to be linearly disjoint over K if they satisfy the following conditions:*
 (1) *every element of E commutes with every element of F;*
 (2) *the canonical homomorphism of $E \otimes_K F$ into G is injective.*
 
-#### Proposition 7 {#alg-iii-s4-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s4-prop-7 .statement tag=060O}
 
 *Let G be an algebra over a commutative field K and E, F two subalgebras of G such that every element of E commutes with every element of F. For E and F to be linearly disjoint over K, it is necessary and sufficient that there exist a basis of E over K which is a free subset of G for the right F-module structure on G. When this is so:*
 (i) *the canonical homomorphism $h : E \otimes_K F \to G$ is an isomorphism of $E \otimes_K F$ onto the subalgebra of G generated by $E \cup F$;*
@@ -395,11 +395,11 @@ $$
 
 The condition of the statement is obviously necessary, since every basis of E over K is a basis of $E \otimes_K F$ with its right F-module structure (II, § 3, no. 7, Corollary 1 to Proposition 7). To see that the condition is sufficient, note that the image H of $E \otimes_K F$ under h is the set of sums $\sum_i x_i y_i = \sum_i y_i x_i$ in G, with $x_i \in E$ and $y_i \in F$; if $(a_\lambda)$ is a basis of E over K, H is therefore also the submodule of the (right or left) F-module G, generated by $(a_\lambda)$. The condition of the statement therefore means that there exists a basis $(a_\lambda)$ of E which is also a basis of the F-module H; it follows that h is injective. Assertion (iii) follows from the fact that every free subset of E is contained in a basis of E (II, § 7, no. 1, Theorem 2).
 
-#### Corollary 1 {#alg-iii-s4-prop-7-cor-1 .statement}
+#### Corollary 1 {#alg-iii-s4-prop-7-cor-1 .statement tag=060P}
 
 *For the canonical homomorphism of $E \otimes_K F$ into G to be bijective, it is necessary and sufficient that there exist a basis of E over K which is a basis of the (right or left) F-module G.*
 
-#### Corollary 2 {#alg-iii-s4-prop-7-cor-2 .statement}
+#### Corollary 2 {#alg-iii-s4-prop-7-cor-2 .statement tag=060Q}
 
 *Let E, F be two subalgebras of G, of finite rank over K and such that every element of E commutes with every element of F. For E and F to be linearly disjoint over K, it is necessary and sufficient that the subalgebra H of G generated by $E \cup F$ be such that*
 $$
@@ -411,7 +411,7 @@ This says that the rank over K of the surjective canonical homomorphism h : E \o
 
 Let A be a commutative ring and (E_i)_{i \in I} an arbitrary family of (unital) A-algebras. For every finite subset J of I, let E_J denote the tensor product $\bigotimes_{i \in J} E_i$ of the algebras E_i of index $i \in J$; let $e_i$ denote the unit element of E_i and $e_J = \bigotimes_{i \in J} e_i$ the unit element of E_J; let $f_{J,i}$ denote the canonical homomorphism $E_i \to E_J$ for $i \in J$ (no. 2, Proposition 5). If J, J' are two finite subsets of I such that $J \subset J'$, a homomorphism $f_{J'J} : E_J \to E_{J'}$ is canonically derived (no. 2, Proposition 5), by the condition $f_{J'J} \circ f_{J,i} = f_{J',i}$ for all $i \in J$. Moreover the uniqueness of $f_{J'J}$ implies that if J, J', J'' are three finite subsets of I such that $J \subset J' \subset J''$, then $f_{J''J} = f_{J''J'} \circ f_{J'J}$. In other words, $(E_J, f_{J'J})$ is a direct system of A-algebras whose indexing set is the right directed set $\mathscr{F}(I)$ of finite subsets of I.
 
-#### Definition 5 {#alg-iii-s4-def-5 .statement}
+#### Definition 5 {#alg-iii-s4-def-5 .statement tag=060R}
 
 *The direct limit E of the direct system* $(E_J, f_{J'J})$ *is called the tensor product of the family of A-algebras* $(E_i)_{i \in I}$.
 
@@ -419,7 +419,7 @@ If I is finite, E is identified with $\bigotimes_{i \in I} E_i$. By an abuse of 
 
 For every finite subset J of I, let $f_J$ denote the canonical homomorphism $\bigotimes_{i \in J} E_i \to \bigotimes_{i \in I} E_i$ (writing $f_i$ instead of $f_{\{i\}}$); if e is the unit element of $\bigotimes_{i \in I} E_i$, then $f_J(e_J) = e$ for all $J \in \mathscr{F}(I)$. It is immediate that if all the algebras E_i are commutative, so is $\bigotimes_{i \in I} E_i$.
 
-#### Proposition 8 {#alg-iii-s4-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s4-prop-8 .statement tag=060S}
 
 (i) *The homomorphisms* $f_i : E_i \to E = \bigotimes_{k \in I} E_k$ *are such that for two indices* i, j *such that* $i \neq j$, $f_i(x_i)$ *and* $f_j(x_j)$ *commute in* E *for all* $x_i \in E_i$ *and* $x_j \in E_j$; *further,* E *is generated by the union of the subalgebras* $f_i(E_i)$.
 
@@ -429,7 +429,7 @@ For every finite subset J of I, let $f_J$ denote the canonical homomorphism $\bi
 
 (ii) For every finite subset J of I, it follows from no. 2, Proposition 5 that there exists a unique homomorphism $u_J : E_J \to F$ such that $u_J \circ f_{J,i} = u_i$ for all $i \in J$; it immediately follows from this uniqueness property that, for $J \subset J'$, $u_J = u_{J'} \circ f_{J'J}$; in other words, the $u_J$ form a *direct system* of homomorphisms. Let $u = \lim \to u_J : E \to F$; then by definition $u_J = u \circ f_J$ for every finite subset $J$ of $I$ and in particular $u_i = u \circ f_i$ for all $i \in I$; the uniqueness of $u$ follows from these relations and the fact that the $f_i(E_i)$ generate the algebra $E$.
 
-#### Corollary {#alg-iii-s4-n5-cor-1 .statement}
+#### Corollary {#alg-iii-s4-n5-cor-1 .statement tag=060T}
 
 *Let* $(E_i)_{i \in I},\ (E'_i)_{i \in I}$ *be two families of* $A$*-algebras with the same indexing set and, for all* $i \in I$, *let* $u_i : E_i \to E'_i$ *be an algebra homomorphism. Then there exists one and only one* $A$*-algebra homomorphism* $u : \bigotimes_{i \in I} E_i \to \bigotimes_{i \in I} E'_i$ *such that, for all* $i \in I$, *the diagram*
 
@@ -455,7 +455,7 @@ $$
 
 The common value of the $f_J((x_i)_{i \in J})$ for the finite subsets $J \supset H$ of $I$ is denoted by $\bigotimes_{i \in I} x_i$.
 
-#### Proposition 9 {#alg-iii-s4-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s4-prop-9 .statement tag=060U}
 
 *Let* $(E_i)_{i \in I}$ *be a family of* $A$*-algebras and for each* $i \in I$ *let* $B_i$ *be a basis of* $E_i$ *such that the unit element* $e_i$ *belongs to* $B_i$. *Let* $B$ *be the set of elements of the form* $\bigotimes_{i \in I} x_i$, *where* $(x_i)$ *runs through the set of elements of* $\prod_{i \in I} B_i$ *such that the family* $(x_i - e_i)$ *has finite support*. *Then* $B$ *is a basis of the algebra* $\bigotimes_{i \in I} E_i$ *and this basis contains the unit element* $e$.
 
@@ -465,7 +465,7 @@ The basis $B$ is also called the *tensor product* of the bases $B_i$ for $i \in 
 
 ### 6. COMMUTATION LEMMAS
 
-#### Lemma 1 {#alg-iii-s4-lem-1 .statement}
+#### Lemma 1 {#alg-iii-s4-lem-1 .statement tag=060V}
 
 *Let $A$ be a commutative ring, $E$ an $A$-algebra, $(x_i)_{1 \leq i \leq n}$ a finite sequence of elements of $E$, $(\lambda_i)_{1 \leq i \leq n}$ a finite sequence of elements of $A$ and $y$ an element of $E$; suppose that*
 $$
@@ -487,7 +487,7 @@ $$
 $$
 whence the lemma.
 
-#### Lemma 2 {#alg-iii-s4-lem-2 .statement}
+#### Lemma 2 {#alg-iii-s4-lem-2 .statement tag=060W}
 
 *Let $A$ be a commutative ring, $E$ an $A$-algebra and $(x_i)_{1 \leq i \leq n}$ and $(y_i)_{1 \leq i \leq n}$ two finite sequences of $n$ elements of $E$; suppose that for $1 \leq j \leq i \leq n$,*
 $$
@@ -513,7 +513,7 @@ $$
 
 Observe that, when $\mathbf{A} = \mathbf{Z}$ and $\lambda_{ij} = -1$ for every ordered pair $(i, j)$ such that $1 \leq j < i \leq n$, $\varepsilon_\sigma(\lambda)$ is just the signature $\varepsilon_\sigma$ of the permutation $\sigma$ (I, § 5, no. 7).
 
-#### Lemma 3 {#alg-iii-s4-lem-3 .statement}
+#### Lemma 3 {#alg-iii-s4-lem-3 .statement tag=060X}
 
 *Let $\mathbf{A}$ be a commutative ring, $\mathbf{E}$ an $\mathbf{A}$-algebra, $(x_i)_{1 \leq i \leq n}$ a finite sequence of elements of $\mathbf{E}$ and suppose that, for every ordered pair $(i, j)$ of integers such that $1 \leq j < i \leq n$,*
 
@@ -586,7 +586,7 @@ which completes the proof of Lemma 3.
 
 ### 7. TENSOR PRODUCT OF GRADED ALGEBRAS RELATIVE TO COMMUTATION FACTORS
 
-#### Definition 6 {#alg-iii-s4-def-6 .statement}
+#### Definition 6 {#alg-iii-s4-def-6 .statement tag=060Y}
 
 *Let* $(\Delta_i)_{i \in I}$ *be a finite family of commutative monoids written additively. A system of commutation factors over the* $\Delta_i$ *with values in a commutative ring* $\mathbf{A}$ *is a system of mappings* $\varepsilon_{ij}: \Delta_i \times \Delta_j \to \mathbf{A}$, *where* $i \in I$, $j \in I$, $i \neq j$ *satisfying the following conditions*:
 
@@ -621,7 +621,7 @@ $$
 
 by virtue of (22) and (23).
 
-#### Example {#alg-iii-s4-n7-exa-1 .statement}
+#### Example {#alg-iii-s4-n7-exa-1 .statement tag=060Z}
 
 (1) The *trivial* system of commutation factors consists of the $\varepsilon_{ij}$ such that $\varepsilon_{ij}(\alpha_i, \beta_j) = 1$ for all $i, j$, $\alpha_i \in \Delta_i$, $\beta_j \in \Delta_j$.
 
@@ -629,7 +629,7 @@ by virtue of (22) and (23).
 
 These two examples are the most frequent cases encountered in applications.
 
-#### Proposition 10 {#alg-iii-s4-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s4-prop-10 .statement tag=0610}
 
 Let $\mathbf{A}$ be a commutative ring and $(\Delta_i)_{i \in I}$ a finite family of commutative monoids written additively; for each $i \in I$ let $E_i$ be a graded $\mathbf{A}$-algebra of type $\Delta_i$. Finally, let $(\varepsilon_{ij})$ be a system of commutation factors over the $\Delta_i$ with values in $\mathbf{A}$. Then there exist a graded $\mathbf{A}$-algebra $E$ of type $\Delta = \prod_{i \in I} \Delta_i$ and for each $i \in I$ an algebra homomorphism $h_i : E_i \to E$, with the following properties:
 
@@ -726,13 +726,13 @@ Clearly the algebra $E$ and the canonical mapping $\psi : \bigotimes_{i \in I} E
 
 For a fixed total ordering on $I$, the graded algebra $E$ defined in the proof of Proposition 10 will be called a *graded tensor $\varepsilon$-product of type* $\Delta$ of the family $(E_i)_{i \in I}$ of graded algebras of type $\Delta_i$ and will be denoted by $^{\varepsilon} \bigotimes_{i \in I} E_i$ (if no confusion can arise over the ordering on $I$); similarly, the homomorphism $f : E \to F$ defined in the proof of Proposition 10 will be denoted by $^{\varepsilon} \bigotimes_{i \in I} f_i$. The homomorphisms $h_i$ are called *canonical*. We also write $^{\varepsilon} G^{\otimes n}$ when $I = \{1, n\}$ and all the $E_i$ are equal to the same algebra $G$.
 
-#### Remark {#alg-iii-s4-n7-rem-1 .statement}
+#### Remark {#alg-iii-s4-n7-rem-1 .statement tag=0611}
 
 (1) We recover the tensor product of algebras defined in no. 1 (with moreover the graduation the tensor product of those of its factors) taking $\varepsilon_{ij}(\alpha_i, \beta_j) = 1$ for all $i, j, \alpha_i$ and $\beta_j$.
 
 (2) Suppose that all the $\Delta_i$ are equal to $\mathbf{Z}$ and write $\varepsilon_{ij}(\alpha_i, \beta_j) = (-1)^{\alpha_i \beta_j}$; the tensor $\varepsilon$-product $^{\varepsilon} \bigotimes_{i \in I} E_i$ corresponding to this system of commutation factors is then called the *skew* tensor product of the graded algebras $E_i$ of type $\mathbf{Z}$ and denoted by $^{\varepsilon} \bigotimes_{i \in I} E_i$ (or $E \ ^{\varepsilon} \otimes_A F$ for two algebras, or $^{\varepsilon} G^{\otimes n}$ instead of $^{\varepsilon} G^{\otimes n}$).
 
-#### Corollary 1 {#alg-iii-s4-prop-10-cor-1 .statement}
+#### Corollary 1 {#alg-iii-s4-prop-10-cor-1 .statement tag=0612}
 
 In the notation of Proposition 10, suppose further that F is a graded A-algebra of type $\Delta$ and that each $f_i$ is a graded algebra homomorphism relative to $\phi_i : \Delta_i \to \Delta$; then $f = \varepsilon \bigotimes_i f_i$ is a graded algebra homomorphism.
 
@@ -744,7 +744,7 @@ by definition of the $\phi_i$.
 
 It is therefore seen that $(E, \psi)$ is also a solution of another universal mapping problem, where this time $\Sigma$ is the species of *graded A-algebra* structure *of type* $\Delta$, the morphisms being graded algebra homomorphisms of type $\Delta$ and the $\alpha$-mappings the mappings $\prod_i f_i$, where, in addition to conditions (26), it is assumed that $f_i$ is a graded algebra homomorphism relative to $\phi_i$.
 
-#### Corollary 2 {#alg-iii-s4-prop-10-cor-2 .statement}
+#### Corollary 2 {#alg-iii-s4-prop-10-cor-2 .statement tag=0613}
 
 *Let* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *be two finite families of* A*-algebras, with* $E_i$ *and* $F_i$ *graded of type* $\Delta_i$ *for all* $i \in I$. *For each* $i \in I$, *let* $g_i : E_i \to F_i$ *be a graded algebra homomorphism of type* $\Delta_i$. *Then, if* $h_i : E_i \to \varepsilon \bigotimes_{i \in I} E_i$ *and* $h'_i : F_i \to \varepsilon \bigotimes_{i \in I} F_i$ *are the canonical homomorphisms, there exists one and only one homomorphism of graded* A*-algebras of type* $\Delta$, $g : \varepsilon \bigotimes_{i \in I} E_i \to \varepsilon \bigotimes_{i \in I} F_i$ *such that* $g \circ h_i = h'_i \circ g_i$ *for all* $i \in I$. *Also, if each* $g_i$ *is bijective, so is* $g$.
 
@@ -758,7 +758,7 @@ as follows immediately from (30).
 
 In the case of a *skew* tensor product of graded algebras of type $\mathbf{Z}$, we write $\varepsilon \bigotimes_i f_i$ instead of $\varepsilon \bigotimes_i f_i$ for homomorphisms $f_i : E_i \to F_i$ of graded algebras of type $\mathbf{Z}$; when $I = \{1, 2\}$, this homomorphism is also denoted by $f_1 \varepsilon \otimes f_2$; when $I = \{1, n\}$ and all the $E_i$ (resp. $F_i$) are equal and all the $f_i$ equal to the same homomorphism $f$, we write $\varepsilon f^{\otimes n}$.
 
-#### Remark {#alg-iii-s4-n7-rem-2 .statement}
+#### Remark {#alg-iii-s4-n7-rem-2 .statement tag=0614}
 
 In the proof of Proposition 10, a total ordering on $I$ was used to define an *algebra* structure on the tensor product $\bigotimes_{i \in I} E_i$ of the A-modules
 
@@ -772,7 +772,7 @@ $$
 
 where the middle term is the product of the *ordered sequence* $(h_i(x_i))_{i \in J}$ and where, in the right hand term, $x'_i = x_i$ for $i \in J$, $x'_i = e_i$ for $i \notin J$.
 
-#### Proposition 11 {#alg-iii-s4-prop-11 .statement}
+#### Proposition 11 {#alg-iii-s4-prop-11 .statement tag=0615}
 
 ("associativity" of the tensor $\varepsilon$-product). *In the notation of Proposition 10, let* $(J_\lambda)_{\lambda \in L}$ *be a partition of I and write* $\Delta'_\lambda = \prod_{i \in J_\lambda} \Delta_i$ *for all* $\lambda \in L$. *Let* $E'_\lambda$ *be a graded tensor $\varepsilon$-product of type* $\Delta'_\lambda$ *of the family* $(E_i)_{i \in J_\lambda}$ *for some total ordering chosen on* $J_\lambda$. *On the other hand, for* $\lambda, \mu$ *in* $L$ *and* $\lambda \neq \mu$, *we write, for* $\alpha'_\lambda = (\alpha_i)_{i \in J_\lambda}$, $\beta'_\mu = (\beta_j)_{j \in J_\mu}$,
 
@@ -806,7 +806,7 @@ It can therefore be said that $\varepsilon \bigotimes_{i \in I} E_i$, with the t
 
 For every subset J of I, the canonical homomorphism $\varepsilon \bigotimes_{i \in J} E_i \to \varepsilon \bigotimes_{i \in I} E_i$ (no. 7) is, in fact, a homomorphism of graded algebras of type $\Delta_0$, as follows immediately from the above.
 
-#### Proposition 12 {#alg-iii-s4-prop-12 .statement}
+#### Proposition 12 {#alg-iii-s4-prop-12 .statement tag=0616}
 
 ("associativity" of the tensor $\varepsilon$-product of graded algebras of the same types). *With the notation of Proposition 10 of no. 7, suppose that all the $\Delta_i$ are equal to the same monoid $\Delta_0$; let $(J_\lambda)_{\lambda \in L}$ be a partition of I. With the notation of Proposition 11 of no. 7, suppose that the right hand side of formula (32) (no. 7) depends only on the sums $\alpha''_\lambda = \sum_{i \in J_\lambda} \alpha_i, \beta''_\mu = \sum_{j \in J_\mu} \beta_j$, for every ordered pair $(\lambda, \mu)$ of distinct indices, all $\alpha'_\lambda \in \Delta'_\lambda$ and all $\beta'_\mu \in \Delta'_\mu$; let $\varepsilon''_{\lambda \mu}(\alpha''_\lambda, \beta''_\mu)$ denote the right hand side of (32). *Then $(\varepsilon''_{\lambda \mu})$ is a system of commutation factors over the family $(\Delta''_\lambda)_{\lambda \in L}$, where $\Delta''_\lambda = \Delta_0$ for all $\lambda \in L$. *If $E''_\lambda$ is the graded tensor $\varepsilon$-product of type $\Delta_0$ of the family $(E_i)_{i \in J_\lambda}$, there exists one and only one isomorphism of graded algebras of type $\Delta_0$, $w : \varepsilon'' \bigotimes_{\lambda \in L} E''_\lambda \to \varepsilon \bigotimes_{i \in I} E_i$, such that
 
@@ -824,7 +824,7 @@ $$
 \gamma = \sum_{i \in J_\lambda, j \in J_\mu} \alpha_i \beta_j = \left( \sum_{i \in J_\lambda} \alpha_i \right) \left( \sum_{j \in J_\mu} \beta_j \right).
 $$
 
-#### Remark {#alg-iii-s4-n8-rem-1 .statement}
+#### Remark {#alg-iii-s4-n8-rem-1 .statement tag=0617}
 
 (1) Let I be an infinite indexing set and $\Delta_0$ a commutative monoid; let $(\Delta_i)_{i \in I}$ denote the family such that $\Delta_i = \Delta_0$ for all $i$ and suppose given for every ordered pair of distinct indices $(i, j)$ of I a mapping $\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$ satisfying conditions (22), (23) and (24) (no. 7); this will also be called a *system of commutation factors over the family* $(\Delta_i)$. Consider a family $(E_i)_{i \in I}$ of graded A-algebras of type $\Delta_0$; for each finite subset J of I, let $E_J$ denote a *graded tensor $\varepsilon$-product of type* $\Delta_0$ of the subfamily $(E_i)_{i \in J}$ (with an arbitrary choice of a total ordering on J). If J, J' are two finite subsets of I such that $J \subset J'$, a canonical homomorphism of graded algebras of type $\Delta_0$, h_{J'J}: E_J \to E_{J'}, has been defined above and the uniqueness properties of these homomorphisms show immediately that if J \subset J' \subset J'' are three finite subsets of I, then h_{J''J} = h_{J'J'} \circ h_{J'J}. Thus there is a direct system (E_J, h_{J'J}) of graded algebras of type $\Delta_0$ (§ 3, no. 3), whose indexing set is the right directed set $\mathfrak{F}(I)$ of finite subsets of I. The graded algebra of type $\Delta_0$, the *direct limit* of this direct system (§ 3, no. 3), is called a *graded tensor $\varepsilon$-product of type* $\Delta_0$ of the family $(E_i)_{i \in I}$; it is also denoted by $\varepsilon \bigotimes_{i \in I} E_i$. When all the $\Delta_i$ are equal to $\mathbf{Z}$ and $\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$, the tensor product $\varepsilon \bigotimes_{i \in I} E_i$ is also called the *skew* tensor product of the family $(E_i)_{i \in I}$ and is denoted by $g \bigotimes_{i \in I} E_i$. We leave to the reader the task of formulating and proving the proposition which generalizes Proposition 10 of no. 7 to the case where I is infinite, as Proposition 8 of no. 5 generalizes Proposition 5 of no. 2 to the case where I is infinite. Note that the underlying A-module of $\varepsilon \bigotimes_{i \in I} E_i$ is the same as that underlying the (non-graded) tensor product of the family $(E_i)_{i \in I}$ of non-graded algebras defined in no. 5.
 
@@ -832,7 +832,7 @@ $$
 
 ### 9. ANTICOMMUTATIVE ALGEBRAS AND ALTERNATING ALGEBRAS
 
-#### Definition 7 {#alg-iii-s4-def-7 .statement}
+#### Definition 7 {#alg-iii-s4-def-7 .statement tag=0618}
 
 *A graded A-algebra E of type $\mathbf{Z}$ is called anticommutative if for all non-zero homogeneous elements x, y of E*
 
@@ -842,7 +842,7 @@ $$
 
 *The algebra E is called alternating if it is anticommutative and also $x^2 = 0$ for every homogeneous element $x \in E$ of odd degree.*
 
-#### Remark {#alg-iii-s4-n9-rem-1 .statement}
+#### Remark {#alg-iii-s4-n9-rem-1 .statement tag=0619}
 
 (1) Let $E^+$ be the graded subalgebra of E the direct sum of the $E_{2n}$ ($n \in \mathbf{Z}$); it follows from Definition 7 that if E is anticommutative, $E^+$ is a *subalgebra contained in the centre of* E (and hence commutative).
 
@@ -850,7 +850,7 @@ $$
 
 (3) We shall study in detail in § 7 important examples of alternating algebras.
 
-#### Lemma 4 {#alg-iii-s4-lem-4 .statement}
+#### Lemma 4 {#alg-iii-s4-lem-4 .statement tag=061A}
 
 *Let E be a graded algebra of type $\mathbf{Z}$ and S a set of homogeneous elements $\neq 0$; the set F of elements of E all of whose homogeneous components $x \neq 0$ satisfy relation (36) for all $y \in S$ is a graded subalgebra of E.*
 
@@ -859,7 +859,7 @@ $$
 (x'x'')y = (-1)^{(p'+p'')q}y(x'x'').
 $$
 
-#### Proposition 13 {#alg-iii-s4-prop-13 .statement}
+#### Proposition 13 {#alg-iii-s4-prop-13 .statement tag=061B}
 
 *Let E be a graded A-algebra of type $\mathbf{Z}$ and S a generating system of the algebra E consisting of homogeneous elements $\neq 0$; for E to be anticommutative (resp. alternating), it is necessary and sufficient that (36) hold for all $x \in S$ and $y \in S$ (resp. that this condition hold and further that $x^2 = 0$ for all $x$ homogeneous of odd degree belonging to S).*
 
@@ -867,7 +867,7 @@ We consider first the case of anticommutative algebras. By Lemma 4, the subalgeb
 
 To prove the proposition in the case of alternating algebras, it can be assumed that E is already anticommutative; it is then immediate that every homogeneous element of odd degree in E is of the form $\sum_i z_ix_i$, where $z_i \in E^+$ and $x_i \in S$ is of odd degree (using the fact that $E^+$ is contained in the centre of E); it follows that $\left( \sum_i z_ix_i \right)^2 = \sum_i z_i^2x_i^2 + \sum_{i<j} z_i z_j (x_ix_j + x_jx_i) = 0$ since $x_i^2 = 0$ by hypothesis and $x_ix_j + x_jx_i = 0$ by (36).
 
-#### Proposition 14 {#alg-iii-s4-prop-14 .statement}
+#### Proposition 14 {#alg-iii-s4-prop-14 .statement tag=061C}
 
 *Let E and F be two graded A-algebras of type $\mathbf{Z}$, both anticommutative (resp. alternating). Then the skew tensor product $E^g \otimes_A F$ (no. 7) is an anticommutative (resp. alternating) algebra.*
 
@@ -881,13 +881,13 @@ $$
 $$
 and the criterion of Proposition 13 shows that $E^g \otimes_A F$ is anticommutative since $pq' + pp' + qq' - qp' \equiv (p + q)(p' + q')$ (mod. 2). If further E and F are alternating and $p + q$ is odd, one of the numbers $p, q$ is necessarily odd, hence $(x \otimes y)^2 = \pm (x^2) \otimes (y^2) = 0$ and Proposition 13 shows that $E^g \otimes_A F$ is alternating.
 
-#### Corollary {#alg-iii-s4-n9-cor-1 .statement}
+#### Corollary {#alg-iii-s4-n9-cor-1 .statement tag=061D}
 
 *Let E be an anticommutative* (resp. *alternating*) *graded A-algebra of type $\mathbf{Z}$. Then for every ring homomorphism $\rho : A \to B$, the graded B-algebra $\rho^*(E)$ (no. 8, *Remark 2*) *is anticommutative* (resp. *alternating*).
 
 The ring B with the trivial graduation can be considered as an alternating A-algebra and $\rho^*(E) = E^g \otimes_A B$, hence Proposition 14 can be applied.
 
-#### Remark {#alg-iii-s4-n9-rem-2 .statement}
+#### Remark {#alg-iii-s4-n9-rem-2 .statement tag=061E}
 
 Let E be an anticommutative graded A-algebra of type $\mathbf{Z}$. Then the A-linear mapping of $E \otimes_A E$ into E defined by multiplication of E ($§ 1$, no. 3) is a homomorphism of the graded A-algebra $E^g \otimes_A E$ into E, for in the notation of Proposition 14, in the algebra E,
 $$

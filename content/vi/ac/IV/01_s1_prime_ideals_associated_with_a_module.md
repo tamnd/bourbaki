@@ -29,9 +29,9 @@ subsections:
       pdf_page: 285
 statements: 24
 exercises: 19
-content_sha256: 553a219cf28cd7e184dd29f41ad3e04980d046d4e01d6087fb21a69ad5011649
+content_sha256: eb37f144bf265c6533c8aa8aaab1ce82705896e243ba55e57ba99cb1fbbb0e0f
 translated_from: content/en/ac/IV/01_s1_prime_ideals_associated_with_a_module.md
-source_content_sha256: 470d5844ca28a94c5255be9bb84e59e7adab1ce52d0bdae1a5cc72579b15672d
+source_content_sha256: 41bc8b6bc73ee003f10c2b0789585e99cc74ba8b5cfcd5f713cf440dd2d53406
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-8e55ed5d
 glossary_version: 34
@@ -43,7 +43,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA CÁC IĐÊAN NGUYÊN TỐ LIÊN KẾT
 
-#### Định nghĩa 1 {#ac-iv-s1-def-1 .statement}
+#### Định nghĩa 1 {#ac-iv-s1-def-1 .statement tag=04J7}
 
 Cho M là một môđun trên một vành A. Một iđêan nguyên tố p được gọi là liên kết với M nếu tồn tại x ∈ M sao cho p bằng linh hóa tử & x. Tập hợp các iđêan nguyên tố liên kết với M được ký hiệu bởi Ass_A(M), hoặc đơn giản là Ass(M).
 
@@ -60,35 +60,35 @@ $$
 \operatorname{Ass}(M) = \bigcup_{i \in I} \operatorname{Ass}(M_i).
 $$
 
-#### Mệnh đề 1 {#ac-iv-s1-prop-1 .statement}
+#### Mệnh đề 1 {#ac-iv-s1-prop-1 .statement tag=04J8}
 
 *Với mọi iđêan nguyên tố $p$ của một vành $A$ và mọi môđun con $M \neq 0$ của $A/p$, $\operatorname{Ass}(M) = \{p\}$.*
 
 Vì vành $A/p$ là một miền nguyên, linh hóa tử của một phần tử $\neq 0$ của $A/p$ là $p$.
 
-#### Mệnh đề 2 {#ac-iv-s1-prop-2 .statement}
+#### Mệnh đề 2 {#ac-iv-s1-prop-2 .statement tag=04J9}
 
 *Cho $M$ là một môđun trên một vành $A$. Mọi phần tử cực đại của tập hợp các iđêan $\operatorname{Ann}(x)$ của $A$, trong đó x chạy qua tập hợp các phần tử $\neq 0$ của $M$, đều thuộc về $\operatorname{Ass}(M)$.*
 
 Cho $a = \operatorname{Ann}(x)$ ($x \in M, x \neq 0$) là một phần tử cực đại như vậy; chỉ cần chứng minh rằng $a$ là nguyên tố. Vì $x \neq 0$, $a \neq A$. Cho $b, c$ là các phần tử của $A$ sao cho $bc \in a$ và $c \notin a$. Khi đó $cx \neq 0$, $b \in \operatorname{Ann}(cx)$ và $a \subset \operatorname{Ann}(cx)$. Vì $a$ là cực đại, $\operatorname{Ann}(cx) = a$, do đó $b \in a$, vậy $a$ là nguyên tố.
 
-#### Hệ quả 1 {#ac-iv-s1-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-iv-s1-prop-2-cor-1 .statement tag=04JA}
 
 *Cho $M$ là một môđun trên một vành Noether $A$. Khi đó điều kiện $M \neq \{0\}$ tương đương với $\operatorname{Ass}(M) \neq \varnothing$.*
 
 Nếu $M = \{0\}$, rõ ràng $\operatorname{Ass}(M)$ là rỗng (không có giả thiết nào về $A$). Nếu $M \neq \{0\}$, tập hợp các iđêan có dạng $\operatorname{Ann}(x)$, trong đó $x \in M$ và $x \neq 0$, là không rỗng và gồm các iđêan $\# A$; vì $A$ là Noether, tập hợp này có một phần tử cực đại; khi đó chỉ cần áp dụng Mệnh đề 2.
 
-#### Hệ quả 2 {#ac-iv-s1-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-iv-s1-prop-2-cor-2 .statement tag=04JB}
 
 *Cho $A$ là một vành Noether, $M$ là một $A$-môđun và $a$ là một phần tử của $A$. Để phép vị tự trên $M$ với tỉ số $a$ là đơn ánh, điều kiện cần và đủ là $a$ thuộc không iđêan nguyên tố liên kết nào với $M$.*
 
 Nếu $a$ thuộc một iđêan nguyên tố $p \in \operatorname{Ass}(M)$, thì $p = \operatorname{Ann}(x)$, trong đó $x \in M, x \neq 0$; do đó $ax = 0$ và phép vị tự với tỉ số $a$ không là đơn ánh. Ngược lại, nếu $ax = 0$ với một $x \in M$ sao cho $x \# 0$, thì $Ax \# \{0\}$, do đó $\operatorname{Ass}(x) \neq \varnothing$ (Hệ quả 1). Cho $p \in \operatorname{Ass}(Ax)$; khi đó hiển nhiên $p \in \operatorname{Ass}(M)$ và $p = \operatorname{Ann}(bx)$, trong đó $b \in A$; do đó $a \in p$, vì $abx = 0$.
 
-#### Hệ quả 3 {#ac-iv-s1-prop-2-cor-3 .statement}
+#### Hệ quả 3 {#ac-iv-s1-prop-2-cor-3 .statement tag=04JC}
 
 *Tập hợp các ước của không trong một vành Noether $A$ là hợp của các iđêan $p \in \operatorname{Ass}(A)$.*
 
-#### Mệnh đề 3 {#ac-iv-s1-prop-3 .statement}
+#### Mệnh đề 3 {#ac-iv-s1-prop-3 .statement tag=04JD}
 
 *Cho $A$ là một vành, $M$ là một $A$-môđun và $N$ là một môđun con của $N$. Khi đó*
 $$
@@ -96,13 +96,13 @@ $$
 $$
 *Sự bao hàm $\operatorname{Ass}(N) \subset \operatorname{Ass}(M)$ là hiển nhiên. Cho $p \in \operatorname{Ass}(M)$, $E$ là một môđun con của $M$ đẳng cấu với $A/p$ và $F = E \cap N$. Nếu $F = \{0\}$, $E$ đẳng cấu với một* môđun con của $M/N$, do đó $p \in \operatorname{Ass}(M/N)$. Nếu $F \neq \{0\}$, linh hóa tử của mọi phần tử $\neq 0$ của $F$ là $p$ (Mệnh đề 1) và do đó $p \in \operatorname{Ass}(F) \subset \operatorname{Ass}(N)$.
 
-#### Hệ quả 1 {#ac-iv-s1-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-iv-s1-prop-3-cor-1 .statement tag=04JE}
 
 *Nếu một A-môđun $M$ là tổng trực tiếp của một họ $(M_i)_{i \in I}$ các môđun con, thì* $\operatorname{Ass}(M) = \bigcup_{i \in I} \operatorname{Ass}(M_i)$.
 
 Có thể quy về trường hợp $I$ hữu hạn nhờ (1), rồi quy về trường hợp $\operatorname{Card}(I) = 2$ bằng quy nạp theo $\operatorname{Card}(I)$. Khi đó đặt $I = \{i, j\}$, với $i \neq j$; vì $M/M_i$ đẳng cấu với $M_j$, nên $\operatorname{Ass}(M) \subset \operatorname{Ass}(M_i) \cup \operatorname{Ass}(M_j)$ (Mệnh đề 3); hơn nữa, $\operatorname{Ass}(M_i)$ và $\operatorname{Ass}(M_j)$ được chứa trong $\operatorname{Ass}(M)$ (Mệnh đề 3), do đó có kết quả.
 
-#### Hệ quả 2 {#ac-iv-s1-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-iv-s1-prop-3-cor-2 .statement tag=04JF}
 
 *Cho $M$ là một A-môđun và $(Q_i)_{i \in I}$ là một họ hữu hạn các môđun con của $M$. Nếu* $\bigcap_{i \in I} Q_i = \{0\}$, *thì*
 $$
@@ -110,7 +110,7 @@ $$
 $$
 Ánh xạ chính tắc $M \to \bigoplus_{i \in I} (M/Q_i)$ là đơn ánh; khi đó chỉ cần áp dụng Mệnh đề 3 và Hệ quả 1 của nó.
 
-#### Mệnh đề 4 {#ac-iv-s1-prop-4 .statement}
+#### Mệnh đề 4 {#ac-iv-s1-prop-4 .statement tag=04JG}
 
 *Cho $M$ là một A-môđun và $\Phi$ là một tập con của $\operatorname{Ass}(M)$. Khi đó tồn tại một môđun con $N$ của $M$ sao cho* $\operatorname{Ass}(N) = \operatorname{Ass}(M) - \Phi$ *và* $\operatorname{Ass}(M/N) = \Phi$.
 
@@ -118,7 +118,7 @@ Gọi $\mathscr{E}$ là tập hợp các môđun con $P$ của $M$ sao cho $\ope
 
 ### 2. ĐỊNH VỊ CỦA CÁC IĐÊAN NGUYÊN TỐ LIÊN KẾT
 
-#### Mệnh đề 5 {#ac-iv-s1-prop-5 .statement}
+#### Mệnh đề 5 {#ac-iv-s1-prop-5 .statement tag=04JH}
 
 *Cho $A$ là một vành, $S$ là một tập con nhân của $A$, $\Phi$ là tập hợp các iđêan nguyên tố của $A$ không gặp $S$ và $M$ là một A-môđun. Khi đó*:
 (i) *Ánh xạ* $p \mapsto S^{-1}p$ *là một song ánh từ* $\operatorname{Ass}_A(M) \cap \Phi$ *lên một tập con của* $\operatorname{Ass}_{S^{-1}A}(S^{-1}M)$.
@@ -126,13 +126,13 @@ Gọi $\mathscr{E}$ là tập hợp các môđun con $P$ của $M$ sao cho $\ope
 
 Nhắc lại (Chương II, § 2, no. 5, Mệnh đề 11) rằng ánh xạ $p \mapsto S^{-1}p$ là một song ánh của $\Phi$ lên tập hợp các iđêan nguyên tố của $S^{-1}A$. Nếu $p \in \operatorname{Ass}_A(M) \cap \Phi$, $p$ là linh hóa tử của một môđun con đơn sinh $N$ của $M$; khi đó $S^{-1}p$ là linh hóa tử của môđun con đơn sinh $S^{-1}N$ của $S^{-1}M$ (Chương II, § 2, no. 4, công thức (9)) và do đó $S^{-1}\mathfrak{p} \in \mathrm{Ass}_{S^{-1}A}(S^{-1}M)$. Ngược lại, giả sử rằng $\mathfrak{p} \in \Phi$ là sinh hữu hạn và sao cho $S^{-1}\mathfrak{p}$ liên kết với $S^{-1}M$; khi đó tồn tại $x \in M$ và $t \in S$ sao cho $S^{-1}\mathfrak{p}$ là linh hóa tử của $x/t$. Gọi $(a_i)_{1 \leq i \leq n}$ là một hệ sinh của $\mathfrak{p}$; khi đó $(a_i/1)(x/t) = 0$ và do đó tồn tại $s_i \in S$ sao cho $s_i a_i x = 0 \ (1 \leq i \leq n)$. Ta viết $s = s_1 s_2 \ldots s_n$; với mọi $a \in \mathfrak{p}$, $s a x = 0$, do đó $p \subset \mathrm{Ann}(s x)$; mặt khác, nếu $b \in A$ thỏa mãn $b s x = 0$, thì $b/1 \in S^{-1}\mathfrak{p}$ theo định nghĩa, do đó $b \in \mathfrak{p}$. Khi đó $\mathfrak{p} = \mathrm{Ann}(s x)$ và $\mathfrak{p} \in \mathrm{Ass}_A(M)$.
 
-#### Hệ quả {#ac-iv-s1-n2-cor-1 .statement}
+#### Hệ quả {#ac-iv-s1-n2-cor-1 .statement tag=04JI}
 
 *Nếu vành A là Noether, ánh xạ $\mathfrak{p} \mapsto S^{-1}\mathfrak{p}$ là một song ánh của $\mathrm{Ass}_A(M) \cap \Phi$ lên $\mathrm{Ass}_{S^{-1}A}(S^{-1}M)$.*
 
 Nếu A không là Noether, ánh xạ $p \mapsto S^{-1}p$ của $\mathrm{Ass}_A(M) \cap \Phi$ đến $\mathrm{Ass}_{S^{-1}A}(S^{-1}M)$ không nhất thiết là toàn ánh (Bài tập 1).
 
-#### Mệnh đề 6 {#ac-iv-s1-prop-6 .statement}
+#### Mệnh đề 6 {#ac-iv-s1-prop-6 .statement tag=04JJ}
 
 *Cho A là một vành Noether, M một A-môđun, S một tập con nhân của A và Y là tập hợp các phần tử của $\mathrm{Ass}_A(M)$ không giao với S. Khi đó hạt nhân N của ánh xạ chính tắc $M \to S^{-1}M$ là môđun con duy nhất của M thỏa mãn các hệ thức*
 
@@ -158,7 +158,7 @@ Vì $\mathrm{Ass}(N') \cap \Psi = \varnothing$, mọi phần tử của $\mathrm
 
 Cho M là một môđun trên một vành A. Nhắc lại rằng tập hợp các iđêan nguyên tố $\mathfrak{p}$ của A sao cho $M, \neq 0$ được gọi là giá của M và được ký hiệu là $\operatorname{Supp}(M)$ (Chương II, § 4, no. 4, Định nghĩa 5).
 
-#### Mệnh đề 7 {#ac-iv-s1-prop-7 .statement}
+#### Mệnh đề 7 {#ac-iv-s1-prop-7 .statement tag=04JK}
 
 Cho A là một vành và M là một A-môđun.
 
@@ -168,11 +168,11 @@ Cho A là một vành và M là một A-môđun.
 
 Nếu $\mathfrak{p}$ chứa một phần tử $q$ của $\operatorname{Ass}(M)$, thì $q \cap (A - \mathfrak{p}) = \varnothing$ và do đó, nếu ta viết $S = A - \mathfrak{p}$, $S^{-1}\mathfrak{p}$ là một iđêan nguyên tố liên kết với $S^{-1}M = M$, (no. 2, Mệnh đề 5) và *a fortiori* $M, \# 0$, do đó $\mathfrak{p} \in \operatorname{Supp}(M)$. Ngược lại, nếu A là Noether, thì A cũng là Noether, (Chương II, § 2, no. 4, Hệ quả 2 của Mệnh đề 10). Nếu $M_{\mathfrak{p}} \neq 0$, thì $\operatorname{Ass}_{A_{\mathfrak{p}}}(M_{\mathfrak{p}}) \neq 0$ (no. 1, Hệ quả 1 của Mệnh đề 2) và do đó tồn tại $q \in \operatorname{Ass}_A(M)$ sao cho $q \cap (A - \mathfrak{p}) = \varnothing$ (no. 2, Hệ quả của Mệnh đề 5).
 
-#### Hệ quả 1 {#ac-iv-s1-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#ac-iv-s1-prop-7-cor-1 .statement tag=04JL}
 
 Nếu M là một môđun trên một vành Noether, thì $\operatorname{Ass}(M) \subset \operatorname{Supp}(M)$ và hai tập hợp này có cùng các phần tử cực tiểu.
 
-#### Hệ quả 2 {#ac-iv-s1-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#ac-iv-s1-prop-7-cor-2 .statement tag=04JM}
 
 Căn lũy linh của một vành Noether A là giao của các iđêan $\mathfrak{p} \in \operatorname{Ass}(A)$.
 
@@ -180,13 +180,13 @@ Ta biết rằng căn lũy linh của A là giao của các phần tử cực ti
 
 ### 4. TRƯỜNG HỢP CÁC MÔĐUN SINH HỮU HẠN TRÊN MỘT VÀNH NOETHER
 
-#### Định lý 1 {#ac-iv-s1-thm-1 .statement}
+#### Định lý 1 {#ac-iv-s1-thm-1 .statement tag=04JN}
 
 Cho A là một vành Noether và M là một A-môđun hữu hạn sinh. Tồn tại một chuỗi hợp thành $(M_i)_{0 \leq i \leq n}$ của M sao cho, với $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ là đẳng cấu với $A / \mathfrak{p}_i$, trong đó $\mathfrak{p}_i$ là một iđêan nguyên tố của A.
 
 Gọi $\mathscr{G}$ là tập hợp các môđun con của M có một chuỗi hợp thành với tính chất của mệnh đề. Vì $\mathscr{G}$ không rỗng (vì $\{0\}$ thuộc $\mathscr{G}$) và M là Noether, $\mathscr{G}$ có một phần tử cực đại N. Nếu $M \neq N$, thì $M/N \neq 0$ và do đó $\operatorname{Ass}(M/N) \neq \varnothing$ (no. 1, Hệ quả 1 của Mệnh đề 2); vì thế $M/N$ chứa một môđun con $N'/N$ đẳng cấu với một A-môđun có dạng $A/\mathfrak{p}$, trong đó $\mathfrak{p}$ là nguyên tố; khi đó theo định nghĩa $N' \in \mathscr{G}$, điều này mâu thuẫn với đặc trưng cực đại của N. Khi đó tất yếu $N = M$.
 
-#### Định lý 2 {#ac-iv-s1-thm-2 .statement}
+#### Định lý 2 {#ac-iv-s1-thm-2 .statement tag=04JO}
 
 Cho M là một môđun hữu hạn sinh trên một vành Noether A và $(M_i)_{0 \leq i \leq n}$ là một chuỗi hợp thành của M sao cho, với $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ là đẳng cấu với $A / \mathfrak{p}_i$ trong đó $\mathfrak{p}_i$ là một iđêan nguyên tố của A. Khi đó
 
@@ -211,13 +211,13 @@ $$
 
 Hệ quả 1 của Mệnh đề 7 trong no. 3 cho thấy $\operatorname{Ass}(M)$ và $\operatorname{Supp}(M)$ có cùng các phần tử cực tiểu và (4) cho thấy chúng chính là các phần tử cực tiểu của $\{p_0, \ldots, p_{n-1}\}$. Khẳng định cuối cùng khi đó suy ra từ Chương II, § 4, no. 4, Mệnh đề 17.
 
-#### Hệ quả {#ac-iv-s1-n4-cor-1 .statement}
+#### Hệ quả {#ac-iv-s1-n4-cor-1 .statement tag=04JP}
 
 *Nếu M là một môđun hữu hạn sinh trên một vành Noether, thì $\operatorname{Ass}(M)$ là hữu hạn.*
 
 Dưới các điều kiện của Định lý 2, tập hợp $\{p_0, \ldots, p_{n-1}\}$ không nhất thiết được xác định duy nhất bởi M; đặc biệt nó có thể phân biệt với $\operatorname{Ass}(M)$ (Bài tập 6).
 
-#### Mệnh đề 8 {#ac-iv-s1-prop-8 .statement}
+#### Mệnh đề 8 {#ac-iv-s1-prop-8 .statement tag=04JQ}
 
 *Cho A là một vành Noether, a là một iđêan của A và M là một A-môđun hữu hạn sinh. Các điều kiện sau là tương đương:*
 
@@ -229,25 +229,25 @@ Dưới các điều kiện của Định lý 2, tập hợp $\{p_0, \ldots, p_{
 
 Rõ ràng (a) kéo theo (b). Theo no. 1, Hệ quả 2 của Mệnh đề 2, điều kiện (b) có nghĩa là iđêan a được chứa trong hợp của các iđêan nguyên tố liên kết với M và do đó trong một trong chúng vì $\operatorname{Ass}(M)$ là hữu hạn (Chương 11, § 1, no. 1, Mệnh đề 2); do đó (b) kéo theo (c). Cuối cùng, nếu có $p \in \operatorname{Ass}(M)$ sao cho $a \subset p$, p là linh hóa tử của một phần tử $x \neq 0$ của M (no. 1, Định nghĩa 1) và $ax = 0$; do đó (c) kéo theo (a).
 
-#### Mệnh đề 9 {#ac-iv-s1-prop-9 .statement}
+#### Mệnh đề 9 {#ac-iv-s1-prop-9 .statement tag=04JR}
 
 *Cho A là một vành Noether, a là một iđêan của A và M là một A-môđun hữu hạn sinh. Để tồn tại một số nguyên $n > 0$ sao cho $a^n M = 0$, điều kiện cần và đủ là a được chứa trong giao của các iđêan nguyên tố liên kết với M.*
 
 Giao này cũng là giao của các phần tử cực tiểu của $\operatorname{Supp}(M)$ (no. 3, Hệ quả 1 của Mệnh đề 7) và nói rằng a được chứa trong giao này tương đương với nói rằng $V(a) \supset \operatorname{Supp}(M)$ theo ký hiệu của Chương II, § 4; kết luận khi đó suy ra từ Chương 11, § 4, no. 4, Hệ quả 2 của Mệnh đề 17.
 
-#### Định nghĩa 2 {#ac-iv-s1-def-2 .statement}
+#### Định nghĩa 2 {#ac-iv-s1-def-2 .statement tag=04JS}
 
 Cho một $A$-môđun $M$, một tự đồng cấu $u$ của $M$ được gọi là gần lũy linh nếu, với mọi $x \in M$, tồn tại một số nguyên $n(x) > 0$ sao cho $u^{n(x)}(x) = 0$.
 
 Nếu $M$ sinh hữu hạn, mọi tự đồng cấu gần lũy linh đều lũy linh.
 
-#### Hệ quả {#ac-iv-s1-n4-cor-2 .statement}
+#### Hệ quả {#ac-iv-s1-n4-cor-2 .statement tag=04JT}
 
 Cho $A$ là một vành Noether. $M$ là một $A$-môđun và $a$ là một phần tử của $A$. Để đồng cấu $a_M : x \mapsto ax$ của $M$ là gần lũy linh, điều kiện cần và đủ là $a$ thuộc mọi iđêan của $\operatorname{Ass}(M)$.
 
 Điều kiện của mệnh đề tương đương với nói rằng với mọi $x \in M$ tồn tại $n(x) > 0$ sao cho $(Aa)^{n(x)}(Ax) = 0$; theo Mệnh đề 9 điều này cũng có nghĩa là $a$ thuộc tất cả các iđêan nguyên tố liên kết với môđun con $Ax$ của $M$; hệ quả khi đó suy ra từ sự kiện rằng $\operatorname{Ass}(M)$ là hợp của các $\operatorname{Ass}(Ax)$ khi x chạy qua M (no. 1, công thức (1)).
 
-#### Mệnh đề 10 {#ac-iv-s1-prop-10 .statement}
+#### Mệnh đề 10 {#ac-iv-s1-prop-10 .statement tag=04JU}
 
 Cho $A$ là một vành Noether, $E$ là một $A$-môđun hữu hạn sinh và $F$ là một $A$-môđun. Khi đó
 

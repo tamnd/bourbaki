@@ -29,7 +29,7 @@ subsections:
       pdf_page: 192
 statements: 9
 exercises: 4
-content_sha256: dd8b3a4a37711971ee89a625e730b67e3445af5fd7e146dbb08e9a125ac0c3d4
+content_sha256: 4e23a56fb861bed945b01d7c816d0a6e594b96b17aad3c28c11640248838980a
 ---
 
 ## § 8. CONVERGENCE OF THE HAUSDORFF SERIES (ULTRAMETRIC CASE)
@@ -47,7 +47,7 @@ $$
 
 *In this no. we assume that $p \neq 0$.*
 
-#### Lemma 1 {#lie-ii-s8-lem-1 .statement}
+#### Lemma 1 {#lie-ii-s8-lem-1 .statement tag=0A6Q}
 
 *Let $n$ be an integer $\geqslant 0$ and let $n = n_0 + n_1 p + \cdots + n_k p^k$, with $0 \leqslant n_i \leqslant p - 1$, be the $p$-adic expansion of $n$. Let $S(n) = n_0 + n_1 + \cdots + n_k$. Then*
 $$
@@ -59,7 +59,7 @@ v_p(n!) = \sum_{j \geqslant 0} j ([n/p^j] - [n/p^{j+1}]) = \sum_{j \geqslant 1} 
 $$
 As $[n/p^j] = \sum_{i \geqslant j} n_i p^{i-j}$, the lemma follows.
 
-#### Lemma 2 {#lie-ii-s8-lem-2 .statement}
+#### Lemma 2 {#lie-ii-s8-lem-2 .statement tag=0A6R}
 
 $v(n) \leqslant v(n!) \leqslant (n - 1)\theta$ and $v(n) \leqslant (\log n)/(\log p)$ for every integer $n \geqslant 1$.
 $v(n!) = v_p(n!) = (n - S(n))\theta \leqslant (n - 1)\theta$ by Lemma 1.
@@ -70,7 +70,7 @@ $$
 $$
 be the Hausdorff series (§ 6, no. 4, Definition 1). Let $\mathbf{Z}_{(p)}$ be the local ring of $\mathbf{Z}$ relative to the prime ideal $(p)$ and $(e_b)_{b \in B}$ a basis of $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ over $\mathbf{Z}$ (§ 2, no. 11, Theorem 1). It is also a basis of $\mathbf{L}_{\mathbf{Q}}(I)$ over $\mathbf{Q}$.
 
-#### Proposition 1 {#lie-ii-s8-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s8-prop-1 .statement tag=0A6S}
 
 *Let $r$ and $s$ be two integers $\geqslant 0$. If $H_{r,s} = \sum_{b \in B} \lambda_b e_b$, where $\lambda_b \in \mathbf{Q}$, is the decomposition of $\mathbf{H}$ with respect to the basis $(e_b)_{b \in B}$, then*
 $$
@@ -102,7 +102,7 @@ as it is an integer, it is $\leq f$, which completes the proof.
 
 ### 2. NORMED LIE ALGEBRAS
 
-#### Definition 1 {#lie-ii-s8-def-1 .statement}
+#### Definition 1 {#lie-ii-s8-def-1 .statement tag=0A6T}
 
 *A normed Lie algebra over K* is a Lie algebra with a norm such that
 $$
@@ -127,7 +127,7 @@ is convergent (*Differentiable and Analytic Manifolds*, R, 4.1.1).
 
 Let $r \geq 0, s \geq 0$ be such that $r + s \neq 0$ and let $\| \tilde{H}_{r,s} \|$ be the norm of the continuous polynomial $\tilde{H}_{r,s}$ (Differentiable and Analytic Manifolds, R, Appendix, no. 2).
 
-#### Lemma 3 {#lie-ii-s8-lem-3 .statement}
+#### Lemma 3 {#lie-ii-s8-lem-3 .statement tag=0A6U}
 
 $$
 \| \tilde{H}_{r,s} \| \leq a^{-(r+s-1)\theta}.
@@ -149,7 +149,7 @@ $$
 $$
 Relations (11) and (12) imply the lemma.
 
-#### Proposition 2 {#lie-ii-s8-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s8-prop-2 .statement tag=0A6V}
 
 The formal power series $\tilde{H}$ is a convergent series (Differentiable and Analytic Manifolds, R, 4.1.1). If G is the ball $\{ x \in g \mid \| x \| < a^\theta \}$, the domain of absolute convergence of $\tilde{H}$ (Differentiable and Analytic Manifolds, R, 4.1.3) contains $G \times G$.
 
@@ -185,7 +185,7 @@ we argue similarly if $s \geq 1$.
 
 In particular, $\| h(x, y) \| < a^{\theta}$ for $(x, y) \in G \times G$.
 
-#### Proposition 3 {#lie-ii-s8-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s8-prop-3 .statement tag=0A6W}
 
 *Let $G$ be the ball $\{ x \in g | \| x \| < a^{\theta} \}$. The analytic mapping*
 $$
@@ -250,7 +250,7 @@ $$
 $$
 and hence $e_A(G_R) \subset G_R$, $l_A(G_R) \subset G_R$ for $R \leq a^\theta$.
 
-#### Proposition 4 {#lie-ii-s8-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s8-prop-4 .statement tag=0A6X}
 
 *Let $R$ be a real number such that $0 < R \leq a^\theta$. The mapping $\exp_A$ defines an analytic isomorphism of $G_R$ onto $1 + G_R$ and the inverse isomorphism is the restriction of $\log_A$ to $1 + G_R$.*
 
@@ -266,7 +266,7 @@ $$
 h(x, y) = \sum_{r, s \geq 0} H_{r,s}(x, y).
 $$
 
-#### Proposition 5 {#lie-ii-s8-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s8-prop-5 .statement tag=0A6Y}
 
 For x, y in G,
 $$

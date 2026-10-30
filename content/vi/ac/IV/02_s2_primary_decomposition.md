@@ -37,9 +37,9 @@ subsections:
       pdf_page: 299
 statements: 39
 exercises: 28
-content_sha256: fb1f546bb77e15727c63538d22cedc26bb112ce9214810d59200b0e76a530df4
+content_sha256: 94cb105abbce27a0694e8f45b0779258efd0aaae0498496ab5048c44cc61364e
 translated_from: content/en/ac/IV/02_s2_primary_decomposition.md
-source_content_sha256: 5e54164fb2351677b3509552b100c892a84931de0ab425eb7ac92344759deda0
+source_content_sha256: 412a1eb43c414ef74369ccfcd275c3769490e226305405794c9a0f41eee4ebea
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4cde209c
 glossary_version: 34
@@ -51,7 +51,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. MÔĐUN CON NGUYÊN SƠ
 
-#### Mệnh đề 1 {#ac-iv-s2-prop-1 .statement}
+#### Mệnh đề 1 {#ac-iv-s2-prop-1 .statement tag=04KE}
 
 Cho $A$ là một vành Noether và $M$ là một $A$-môđun. Các điều kiện sau là tương đương:
 (a) $\operatorname{Ass}(M)$ chỉ gồm một phần tử duy nhất.
@@ -60,7 +60,7 @@ Cho $A$ là một vành Noether và $M$ là một $A$-môđun. Các điều ki�
 
 Điều này suy ra ngay lập tức từ $§ 1$, no. 4, Hệ quả của Mệnh đề 9 và no. 1, Hệ quả 2 của Mệnh đề 2.
 
-#### Định nghĩa 1 {#ac-iv-s2-def-1 .statement}
+#### Định nghĩa 1 {#ac-iv-s2-def-1 .statement tag=04KF}
 
 *Cho $A$ là một vành Noether, $N$ là một $A$-môđun và $Q$ là một môđun con của $N$. *Nếu* môđun $M = N/Q$ thỏa mãn các điều kiện của Mệnh đề 1, thì $Q$ được gọi là *p-nguyên sơ đối với* $N$ (hoặc *trong* $N$).
 
@@ -68,33 +68,33 @@ Khi không có sự nhập nhằng, ta sẽ đơn giản nói rằng $Q$ là "p-
 
 Định nghĩa 1 đặc biệt áp dụng cho trường hợp $N = A$; khi đó các môđun con của $N$ là các *iđêan* của $A$ và do đó một iđêan $q$ của $A$ được gọi là *nguyên sơ* nếu $\operatorname{Ass}(A/q)$ chỉ có một phần tử duy nhất hoặc, điều tương đương, nếu $A \neq q$ và mọi ước của không trong vành $A/q$ đều là *lũy linh*. Nếu $q$ là p-nguyên sơ, từ Định nghĩa 1 suy ra rằng $p$ là *căn* (Chương II, $§ 2$, no. 6) của iđêan $q$.
 
-#### Nhận xét {#ac-iv-s2-n1-rem-1 .statement}
+#### Nhận xét {#ac-iv-s2-n1-rem-1 .statement tag=04KG}
 
 Cho $q$ là một môđun con p-nguyên sơ của một $A$-môđun $N$. Nếu $N/Q$ là *sinh hữu hạn*, tồn tại một số nguyên $k > 0$ sao cho $p^k N \subset Q$ theo $§ 1$, no. 4, Mệnh đề 9.
 
 *Ví dụ*
 
-#### Ví dụ 1 {#ac-iv-s2-n1-exa-1 .statement}
+#### Ví dụ 1 {#ac-iv-s2-n1-exa-1 .statement tag=04KH}
 
 Nếu $p$ là một iđêan nguyên tố của $A$, thì $p$ là p-nguyên sơ ($§ 1$, no. 1, Mệnh đề 1).
 
-#### Ví dụ 2 {#ac-iv-s2-n1-exa-2 .statement}
+#### Ví dụ 2 {#ac-iv-s2-n1-exa-2 .statement tag=04KI}
 
 Cho $q$ là một iđêan của $A$ sao cho tồn tại *một iđêan nguyên tố duy nhất* $m$ (nhất thiết là cực đại) chứa $q$; khi đó, nếu $M$ là một $A$-môđun sao cho $qM \neq M$, thì $qM$ là *m-nguyên sơ* đối với $M$. Mọi phần tử của $\operatorname{Ass}(M/qM)$ đều chứa $q$, do đó bằng $m$ và $\operatorname{Ass}(M/qM) \neq 0$ ($§ 1$, no. 1, Hệ quả 1 của Mệnh đề 2). Đặc biệt $q$ là một iđêan *m-nguyên sơ* trong $A$.
 
-#### Ví dụ 3 {#ac-iv-s2-n1-exa-3 .statement}
+#### Ví dụ 3 {#ac-iv-s2-n1-exa-3 .statement tag=04KJ}
 
 Cho $m$ là một iđêan *cực đại* của $A$; khi đó các iđêan m-nguyên sơ là các iđêan $q$ của $A$ sao cho tồn tại một số nguyên $n \geq 1$ thỏa mãn $m^n \subset q \subset m$. Vì nếu $m^n \subset q \subset m$, thì $m$ là iđêan nguyên tố duy nhất chứa $q$ (Chương 11, $§ 1$, no. 1, Hệ quả của Mệnh đề 1) và kết luận suy ra từ *Ví dụ 2*; ngược lại, nếu $q$ là m-nguyên sơ, $m$ là căn của $q$ và do đó tồn tại $n \geq 1$ sao cho $m^n \subset q$ (Chương II, $§ 2$, no. 6, Mệnh đề 15).
 
-#### Ví dụ 4 {#ac-iv-s2-n1-exa-4 .statement}
+#### Ví dụ 4 {#ac-iv-s2-n1-exa-4 .statement tag=04KK}
 
 Trong một *miền iđêan chính* $A$, các iđêan nguyên sơ là $(0)$ và các iđêan có dạng $Ap^n$, trong đó $p$ là một phần tử cực biên và $n \geq 1$; điều này suy ra ngay lập tức từ *Ví dụ 3*.
 
-#### Ví dụ 5 {#ac-iv-s2-n1-exa-5 .statement}
+#### Ví dụ 5 {#ac-iv-s2-n1-exa-5 .statement tag=04KL}
 
 Các lũy thừa của bất kỳ iđêan nguyên tố nào không nhất thiết là các iđêan nguyên sơ (Bài tập 1). Mặt khác, tồn tại các iđêan nguyên sơ không phải là các lũy thừa của các iđêan nguyên tố (Bài tập 1).
 
-#### Mệnh đề 2 {#ac-iv-s2-prop-2 .statement}
+#### Mệnh đề 2 {#ac-iv-s2-prop-2 .statement tag=04KM}
 
 Cho M là một môđun trên một vành Noether, p là một iđêan nguyên tố của A và $(\mathscr{Q}_i)_{i \in I}$ là một họ hữu hạn không rỗng các môđun con của M là p-nguyên sơ đối với M. Khi đó $\bigcap_{i \in I} \mathscr{Q}_i$ là p-nguyên sơ đối với M.
 
@@ -106,7 +106,7 @@ $$
 
 (§ 1, no. 1, Hệ quả 1 của Mệnh đề 3). Do đó $\operatorname{Ass}\left(M / (\bigcap_{i \in I} \mathscr{Q}_i)\right) = \{p\}$ (§ 1, no. 1, Mệnh đề 3 và Hệ quả 1 của Mệnh đề 2).
 
-#### Mệnh đề 3 {#ac-iv-s2-prop-3 .statement}
+#### Mệnh đề 3 {#ac-iv-s2-prop-3 .statement tag=04KN}
 
 Cho A là một vành Noether, S là một tập con nhân của A, p là một iđêan nguyên tố của A, M là một A-môđun, N là một môđun con của M và $i = i_A^S$ là ánh xạ chính tắc từ M đến $S^{-1}M$.
 
@@ -126,11 +126,11 @@ $$
 
 ### 2. SỰ TỒN TẠI CỦA MỘT PHÂN TÍCH NGUYÊN SƠ
 
-#### Định nghĩa 2 {#ac-iv-s2-def-2 .statement}
+#### Định nghĩa 2 {#ac-iv-s2-def-2 .statement tag=04KO}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun và $N$ là một môđun con của $M$. Một họ hữu hạn $(\mathscr{Q}_i)_{i \in I}$ các môđun con của $M$ là nguyên sơ đối với M và sao cho $N = \bigcap_{i \in I} \mathscr{Q}_i$ được gọi là một phân tích nguyên sơ của $N$ trong $M$.
 
-#### Ví dụ {#ac-iv-s2-n2-exa-1 .statement}
+#### Ví dụ {#ac-iv-s2-n2-exa-1 .statement tag=04KP}
 
 Ta lấy $A = \mathbf{Z}$, $M = \mathbf{Z}$, $N = n\mathbf{Z}$ với một số nguyên $n > 0$. Nếu $n = p_1^{\alpha_1} \cdots p_k^{\alpha_k}$ là phân tích của $n$ thành các thừa số nguyên tố,
 $$
@@ -140,7 +140,7 @@ là một phân tích nguyên sơ của $n\mathbf{Z}$ trong $\mathbf{Z}$ theo V�
 
 Do lạm dụng ngôn ngữ, quan hệ $N = \bigcap_{i \in I} \mathscr{Q}_i$ được gọi là một phân tích nguyên sơ của $N$ trong $M$. Điều này tương đương với việc nói rằng $\{0\} = \bigcap_{i \in I} (\mathscr{Q}_i/N)$ là một phân tích nguyên sơ của $\{0\}$ trong $M/N$. Nếu $(\mathscr{Q}_i)_{i \in I}$ là một phân tích nguyên sơ của $N$ trong $M$, ánh xạ chính tắc từ $M/N$ đến $\bigoplus_{i \in I} (M/\mathscr{Q}_i)$ là đơn ánh. Ngược lại, cho $N$ là một môđun con của $M$ và $f$ là một đơn ánh từ $M/N$ vào một tổng trực tiếp hữu hạn $P = \bigoplus_{i \in I} P_i$, trong đó mỗi tập hợp $\operatorname{Ass}(P_i)$ được rút gọn về một phần tử duy nhất $p_i$; gọi $f_i$ là đồng cấu $M/N \to P_i$ thu được bằng cách lấy hợp thành của $f$ với phép chiếu $P \to P_i$, và gọi $Q_i/N$ là hạt nhân của $f_i$.; khi đó các $Q_i$ khác $M$ là nguyên sơ đối với $M$ (no. 1, Định nghĩa 1) và $N = \bigcap_{i \in I} Q_i$. Hơn nữa, $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ theo § 1, no. 1, Mệnh đề 3.
 
-#### Định lý 1 {#ac-iv-s2-thm-1 .statement}
+#### Định lý 1 {#ac-iv-s2-thm-1 .statement tag=04KQ}
 
 Cho $M$ là một môđun sinh hữu hạn trên một vành Noether và $N$ là một môđun con của $M$. Tồn tại một phân tích nguyên sơ của $N$ có dạng
 $$
@@ -152,7 +152,7 @@ Ta có thể thay $M$ bởi $M/N$ và do đó giả sử rằng $N = 0$. Theo §
 
 ### 3. CÁC TÍNH CHẤT VỀ TÍNH DUY NHẤT TRONG PHÂN TÍCH NGUYÊN SƠ
 
-#### Định nghĩa 3 {#ac-iv-s2-def-3 .statement}
+#### Định nghĩa 3 {#ac-iv-s2-def-3 .statement tag=04KR}
 
 Cho $M$ là một môđun trên một vành Noether và $N$ là một môđun con của $M$. Một phân tích nguyên sơ $N = \bigcap_{i \in I} Q_i$ của $N$ trong $M$ được gọi là rút gọn nếu các điều kiện sau được thỏa mãn:
 
@@ -164,7 +164,7 @@ Từ mỗi phân tích nguyên sơ $N = \bigcap_{i \in I} Q_i$ của $N$ trong $
 
 Ta sẽ thấy rằng phân tích nguyên sơ được xác định trong chứng minh của Định lý 1 của no. 2 là *rút gọn*; điều này suy ra từ mệnh đề sau:
 
-#### Mệnh đề 4 {#ac-iv-s2-prop-4 .statement}
+#### Mệnh đề 4 {#ac-iv-s2-prop-4 .statement tag=04KS}
 
 *Cho* $M$ *là một môđun trên một vành Noether, N một môđun con của M, $N = \bigcap_{i \in I} Q_i$ *là một phân tích nguyên sơ của N trong M và, với mọi* $i \in I$, *cho* $\{p_i\} = \operatorname{Ass}(M/Q_i)$. *Để phân tích này là rút gọn, điều kiện cần và đủ là các* $p_i$ *phân biệt và thuộc* $\operatorname{Ass}(M/N)$; *khi đó*
 
@@ -183,19 +183,19 @@ $$
 \operatorname{Ass}(Q_i/N) \subset \bigcup_{j \neq i} \{p_j\};
 $$
 
-#### Hệ quả {#ac-iv-s2-n3-cor-1 .statement}
+#### Hệ quả {#ac-iv-s2-n3-cor-1 .statement tag=04KT}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun, $N$ là một môđun con của $M$ và $(Q_i)_{i \in I}$ là một phân tích nguyên sơ của $N$ trong $M$. Khi đó $\mathrm{Card}(I) \geq \mathrm{Card}(\mathrm{Ass}(M/N))$; để $(Q_i)_{i \in I}$ là một phân tích nguyên sơ rút gọn, điều kiện cần và đủ là $\mathrm{Card}(I) = \mathrm{Card}(\mathrm{Ass}(M/N))$.
 
 Suy ra từ các nhận xét đứng trước Mệnh đề 4 rằng tồn tại một phân tích nguyên sơ rút gọn $(R_j)_{j \in J}$ của $N$ trong $M$ sao cho $\mathrm{Card}(J) \leq \mathrm{Card}(I)$; mệnh đề đầu tiên khi đó suy ra từ mệnh đề thứ hai và mệnh đề sau là một hệ quả của Mệnh đề 4.
 
-#### Mệnh đề 5 {#ac-iv-s2-prop-5 .statement}
+#### Mệnh đề 5 {#ac-iv-s2-prop-5 .statement tag=04KU}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun, $N$ là một môđun con của $M$, $N = \bigcap_{i \in I} Q_i$ là một phân tích nguyên sơ rút gọn của $N$ trong $M$ và, với mọi $i \in I$, đặt $\{p_i\} = \mathrm{Ass}(M/Q_i)$. Nếu $p_i$ là một phần tử cực tiểu của $\mathrm{Ass}(M/N)$, thì $Q_i$ bằng phần bão hòa trên $N$ đối với $p_i$ (Chương 11, § 2, no. 4) (xem Bài tập 2).
 
 Ta hiển nhiên có thể hạn chế sự chú ý của mình vào trường hợp $N = 0$, thay thế nếu cần $M$ bởi $M/N$. Nếu $p_i$ là cực tiểu trong $\mathrm{Ass}(M)$, tập hợp các phần tử của $\mathrm{Ass}(M)$ không gặp $A - p_i$ được thu gọn thành $p_i$; khi đó mệnh đề suy ra từ công thức (3) ở trên và § 1, no. 2, Mệnh đề 6, hạt nhân của ánh xạ chính tắc $M \to M_0$, bằng phần bão hòa của 0 đối với $p_i$ (Chương 11, § 2, no. 4).
 
-#### Nhận xét {#ac-iv-s2-n3-rem-1 .statement}
+#### Nhận xét {#ac-iv-s2-n3-rem-1 .statement tag=04KV}
 
 Các iđêan nguyên tố $p_i \in \mathrm{Ass}(M/N)$ không phải là các phần tử cực tiểu của tập hợp này đôi khi được gọi là các iđêan nguyên tố *nhúng* liên kết với $M/N$; nếu $M/N$ sinh hữu hạn, để $p_0 \in \mathrm{Ass}(M/N)$ là nhúng, điều kiện cần và đủ là $V(p_0)$ *không phải* là một thành phần bất khả quy của $\mathrm{Supp}(M/N)$ (Chương II, § 4, no. 3, Hệ quả 2 của Mệnh đề 14); nếu $(Q(p))_{p \in \mathrm{Ass}(M/N)}$ và $(Q'(p))_{p \in \mathrm{Ass}(M/N)}$ là hai phân tích nguyên sơ rút gọn của $N$ trong $M$, có thể xảy ra rằng $Q'(p_0) \neq Q(p_0)$ (Bài tập 24 (c)); một phân tích nguyên sơ rút gọn *chính tắc* của $N$ trong $M$ luôn có thể được xác định bằng cách áp đặt các điều kiện bổ sung lên các môđun con nguyên sơ xuất hiện trong đó (Bài tập 4).
 
@@ -203,7 +203,7 @@ Các iđêan nguyên tố $p_i \in \mathrm{Ass}(M/N)$ không phải là các ph�
 
 Cho một môđun con $N$ của một môđun $M$ trên một vành Noether $A$, để đơn giản ta sẽ ký hiệu bởi $D_I(M/N)$, trong số này, tập hợp các phân tích nguyên sơ rút gọn của $N$ trong $M$ có tập chỉ số là $I$ (song ánh với $\mathrm{Ass}(M/N)$).
 
-#### Mệnh đề 6 {#ac-iv-s2-prop-6 .statement}
+#### Mệnh đề 6 {#ac-iv-s2-prop-6 .statement tag=04KW}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun, $N$ là một môđun con của $M$ và $I = \mathrm{Ass}(M/N)$. Cho $S$ là một tập con nhân của $A$ và $J$ là tập con của $I$ gồm các chỉ số i sao cho $S \cap p_i = \varnothing$. Cho $N'$ là phần bão hòa của $N$ đối với $S$ trong $M$. Khi đó:
 
@@ -225,7 +225,7 @@ $$
 
 và từ no. 3, Hệ quả của Mệnh đề 4 suy ra ngay lập tức rằng phân tích nguyên sơ này là thu gọn.
 
-#### Hệ quả {#ac-iv-s2-n4-cor-1 .statement}
+#### Hệ quả {#ac-iv-s2-n4-cor-1 .statement tag=04KX}
 
 *Các ánh xạ*
 
@@ -245,7 +245,7 @@ là toàn ánh.
 
 Nếu một $A$-môđun $M$ có độ dài hữu hạn, ta sẽ ký hiệu độ dài này bởi $\operatorname{long}_A(M)$ hoặc $\operatorname{long}(M)$. Nhắc lại rằng mọi vành Artin đều là Noether (Đại số, Chương VIII, § 6, no. 5, Hệ quả 3 của Mệnh đề 12) và rằng mọi môđun sinh hữu hạn trên một vành Artin đều có độ dài hữu hạn (*loc. cit.*, Hệ quả 1 của Mệnh đề 12). Hơn nữa, mọi miền nguyên Artin đều là một trường (Đại số, Chương VIII, § 6, no. 4, Mệnh đề 9).
 
-#### Mệnh đề 7 {#ac-iv-s2-prop-7 .statement}
+#### Mệnh đề 7 {#ac-iv-s2-prop-7 .statement tag=04KY}
 
 *Cho $M$ là một môđun sinh hữu hạn trên một vành Noether $A$. Các tính chất sau là tương đương:*
 (a) $M$ có độ dài hữu hạn.
@@ -254,23 +254,23 @@ Nếu một $A$-môđun $M$ có độ dài hữu hạn, ta sẽ ký hiệu độ
 
 Cho $(M_i)_{0 \leq i \leq n}$ là một chuỗi hợp thành của $M$ sao cho, với $0 \leq i \leq n - 1$, $M_i/M_{i+1}$ là đẳng cấu với $A/p_i$, trong đó $p_i$ là nguyên tố ($§ 1$, no. 4, Định lý 1). Nếu $M$ có độ dài hữu hạn, thì mỗi môđun $A$ $A/p_i$ cũng vậy, điều này suy ra rằng mỗi vành $A/p_i$ là Artin; nhưng vì $A/p_i$ là một miền nguyên, nên nó là một trường, nói cách khác $p_i$ là cực đại; ta kết luận rằng (a) suy ra (b) ($§ 1$, no. 4, Định lý 2). Điều kiện (b) suy ra (c) theo $§ 1$, no. 3, Mệnh đề 7. Cuối cùng, nếu tất cả các iđêan của $\operatorname{Supp}(M)$ đều là cực đại, thì các $p_i$ cũng vậy ($§ 1$, no. 4, Định lý 2), do đó các $A/p_i$ là các môđun $A$ đơn và $M$ có độ dài hữu hạn, điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 {#ac-iv-s2-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#ac-iv-s2-prop-7-cor-1 .statement tag=04KZ}
 
 *Với mọi môđun có độ dài hữu hạn $M$ trên một vành Noether $A$, $\operatorname{Ass}(M) = \operatorname{Supp}(M)$.*
 
 Mọi phần tử của $\operatorname{Supp}(M)$ khi đó là cực tiểu trong $\operatorname{Supp}(M)$ và kết luận suy ra từ $§ 1$, no. 3, Hệ quả 1 của Mệnh đề 7.
 
-#### Hệ quả 2 {#ac-iv-s2-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#ac-iv-s2-prop-7-cor-2 .statement tag=04L0}
 
 *Cho $M$ là một môđun sinh hữu hạn trên một vành Noether $A$ và $p$ là một iđêan nguyên tố của $A$. Để $M_p$ là một môđun $A_p$ khác không có độ dài hữu hạn, điều kiện cần và đủ là $p$ là một phần tử cực tiểu của $\operatorname{Ass}(M)$.*
 
 Theo $§ 1$, no. 2, Hệ quả của Mệnh đề 5, $\operatorname{Ass}_{A_p}(M_p)$ là tập hợp các iđêan $q_p$, trong đó $q$ chạy qua tập hợp các iđêan của $\operatorname{Ass}(M)$ được chứa trong $p$. Mặt khác, $p_p$ là iđêan cực đại duy nhất của $A_p$; theo Mệnh đề 7, để $M_p$ là một môđun $A_p$ có độ dài hữu hạn, điều kiện cần và đủ là không có phần tử nào của $\operatorname{Ass}(M)$ được chứa thực sự trong $p$. Mặt khác, để $M_p \neq 0$, theo định nghĩa điều kiện cần và đủ là $p \in \operatorname{Supp}(M)$ (Chương 11, § 4, no. 4), nghĩa là $p$ chứa một phần tử của $\operatorname{Ass}(M)$ ($§ 1$, no. 3, Mệnh đề 7). Điều này chứng minh hệ quả.
 
-#### Nhận xét (1) {#ac-iv-s2-n5-rem-1 .statement}
+#### Nhận xét (1) {#ac-iv-s2-n5-rem-1 .statement tag=04L1}
 
 Cho $M$ là một môđun sinh hữu hạn trên một vành Noether $A$; hãy để $(M_1), \ldots$ là một chuỗi hợp thành của $M$ sao cho, với $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ đẳng cấu với $A/p_i$, trong đó $p_i$ là một iđêan nguyên tố của $A$ ($§ 1$, no. 4, Định lý 1). Nếu $p$ là một phần tử cực tiểu của $\operatorname{Ass}(M)$, độ dài $\operatorname{long}_{A_p}(M_p)$ bằng *số chỉ số* $i$ sao cho $p_i = p$. Vì các $(M_i)_p$ tạo thành một chuỗi hợp thành của $M$, và $(M_i)_p / (M_{i+1})_p$ đẳng cấu với $(A/p_i)_p$ và do đó đẳng cấu với $\{0\}$ nếu $p_i \neq p$ (vì $p$ là cực tiểu trong tập hợp các $p_i$ theo $§ 1$, no. 4, Định lý 2) và với $(A/p)_p$ là một trường, nếu $p_i = p$.
 
-#### Mệnh đề 8 {#ac-iv-s2-prop-8 .statement}
+#### Mệnh đề 8 {#ac-iv-s2-prop-8 .statement tag=04L2}
 
 *Cho $M$ là một môđun có độ dài hữu hạn trên một vành Noether $A$.*
 
@@ -284,7 +284,7 @@ Cho $M$ là một môđun sinh hữu hạn trên một vành Noether $A$; hãy �
 
 Vì mọi phần tử $p \in \operatorname{Ass}(M)$ đều là cực tiểu trong $\operatorname{Ass}(M)$ (Mệnh đề 7), mệnh đề (i) suy ra từ no. 3, Mệnh đề 5. Vì $M$ sinh hữu hạn, tồn tại $n_0$ sao cho $p^n M \subset Q(p)$ với mọi $p \in \operatorname{Ass}(M)$ và mọi $n \geq n_0$ (no. 1, *Nhận xét*); nhưng vì $p$ là một iđêan cực đại, $p^n M$ là $p$-nguyên sơ đối với $M$ (no. 1, *Ví dụ 2 và 3*) và, vì $\bigcap_{p \in \operatorname{Ass}(M)} p^n M = \{0\}$, suy ra từ (i) rằng nhất thiết $p^n M = Q(p)$ với mọi $p \in \operatorname{Ass}(M)$; do đó có (ii). Vì các $p^n$, với $p \in \operatorname{Ass}(M)$, nguyên tố cùng nhau từng đôi (Chương 11, § 1, no. 2, Mệnh đề 3), ánh xạ chính tắc $M \to \bigoplus_{p \in \operatorname{Ass}(M)} (M/p^n M)$ là toàn ánh (Chương 11, § 1, no. 2, Mệnh đề 6), do đó có (iv). Khi đó $\operatorname{Ass}(Q(p)) = \operatorname{Ass}(M) - \{p\}$ và $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 3, Mệnh đề 4); vì các phần tử của $\operatorname{Ass}(M)$ là các iđêan cực đại, $p$ là phần tử duy nhất của $\operatorname{Ass}(M)$ không giao với $A - p$; do đó $Q(p)$ là hạt nhân của ánh xạ chính tắc $j : M \to M_p$ ($§ 1$, no. 2, Mệnh đề 6). Nếu $s \in A - p$, phép vị tự của $M/Q(p)$ với tỉ số $s$ là đơn ánh nhờ quan hệ $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 1, Mệnh đề 1); vì $M/Q(p)$ là Artin, phép vị tự này là song ánh (*Đại số*, Chương VIII, § 1, no. 2, Bổ đề 3). Ánh xạ chính tắc $M \to M/Q(p)$ khi đó được viết $f \circ j$, trong đó $f : M_p \to M/Q(p)$ là một đồng cấu $A$ (Chương II, § 2, no. 2, Mệnh đề 3); vì $\operatorname{Ker}(j) = \operatorname{Ker}(f \circ j) = Q(p)$, $f$ là đơn ánh; ta kết luận rằng $j$ là toàn ánh và $f$ là song ánh.
 
-#### Hệ quả {#ac-iv-s2-n5-cor-1 .statement}
+#### Hệ quả {#ac-iv-s2-n5-cor-1 .statement tag=04L3}
 
 *Nếu M là một môđun có độ dài hữu hạn trên một vành Noether A, thì*
 
@@ -300,7 +300,7 @@ $$
 
 Bây giờ, từ Mệnh đề 1 của no. 1 suy ra rằng với mọi $s \in A - p$ phép vị tự với tỉ số s trên $M/\mathscr{Q}(p)$ là đơn ánh; phép vị tự với tỉ số s trên mọi môđun con R của $M/\mathscr{Q}(p)$ do đó là đơn ánh và, vì R là Artin, nó là song ánh (*Đại số*, Chương VIII, § 2, no. 2, Bổ đề 3); ta kết luận rằng các môđun con-A của $M/\mathscr{Q}(p)$ là các ảnh qua song ánh $f : M, \to M/\mathscr{Q}(p)$ của các môđun con-A, của M, (Chương 11, § 2, no. 3), do đó có mệnh đề của ta.
 
-#### Mệnh đề 9 {#ac-iv-s2-prop-9 .statement}
+#### Mệnh đề 9 {#ac-iv-s2-prop-9 .statement tag=04L4}
 
 *Một vành Noether A. Các điều kiện sau là tương đương :*
 (a) *A là Artin.*
@@ -313,21 +313,21 @@ Nói rằng A là Artin tương đương với nói rằng nó là một A-môđ
 
 Giả sử chúng được thỏa mãn. Vì mọi iđêan nguyên tố của A thuộc Supp(A) và mọi phần tử của Supp(A) chứa một phần tử của Ass(A) ($\S$ 1, no. 3, Mệnh đề 7), suy ra từ (c) rằng Ass(A) là tập hợp tất cả các iđêan nguyên tố của A; khi đó A chỉ có một số hữu hạn các iđêan nguyên tố, tất cả chúng đều là cực đại và liên kết với A-môđun A. Điều này hiển nhiên suy ra rằng A là nửa địa phương; cuối cùng, ta biết rằng căn Jacobson của một vành Artin là lũy linh (*Đại số*, Chương VIII, § 6, no. 4, Định lý 3).
 
-#### Nhận xét (2) {#ac-iv-s2-n5-rem-2 .statement}
+#### Nhận xét (2) {#ac-iv-s2-n5-rem-2 .statement tag=04L5}
 
 Các điều kiện của Mệnh đề 9 đối với một vành *Noether* A kéo theo rằng phổ của A là *hữu hạn* và *rời rạc*, do đó mọi điểm của Spec(A) đều đóng (Chương 11, § 4, no. 3, Hệ quả 6 của Mệnh đề 11). Ngược lại, đối với một vành *Noether* A, nói rằng *mọi điểm* $\mathfrak{a}$ của Spec(A) *là đóng* có nghĩa là mọi iđêan nguyên tố của A là cực đại (*loc. cit.*.) và vì thế điều kiện này tương đương với điều kiện của Mệnh đề 9.
 
-#### Hệ quả 1 {#ac-iv-s2-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#ac-iv-s2-prop-9-cor-1 .statement tag=04L6}
 
 *Mọi vành Artin A đều đẳng cấu với hợp thành trực tiếp của một họ hữu hạn các vành địa phương Artin.*
 
 Từ Mệnh đề 9 và Mệnh đề 8 (iii) và (iv) suy ra rằng, nếu $(\mathfrak{m}_i)_{1 \leq i \leq n}$ là họ các iđêan cực đại của $A$, thì ánh xạ chính tắc $A \to \prod_i A_{\mathfrak{m}_i}$ là song ánh.
 
-#### Nhận xét (3) {#ac-iv-s2-n5-rem-3 .statement}
+#### Nhận xét (3) {#ac-iv-s2-n5-rem-3 .statement tag=04L7}
 
 Hệ quả này cũng có thể suy ra từ sự kiện rằng $\operatorname{Spec}(A)$ là hữu hạn và rời rạc và Chương 11, § 4, no. 3, Mệnh đề 15.
 
-#### Hệ quả 2 {#ac-iv-s2-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#ac-iv-s2-prop-9-cor-2 .statement tag=04L8}
 
 Cho $A$ là một vành Noether và $m$ là một iđêan của $A$. Các điều kiện sau là tương đương:
 
@@ -336,25 +336,25 @@ Cho $A$ là một vành Noether và $m$ là một iđêan của $A$. Các điề
 
 Nếu (a) đúng, $A$ là một vành Zariski với tôpô $m$-adic (Chương III, § 3, no. 3, Ví dụ 3); hơn nữa, theo giả thiết $m$ chứa một lũy thừa của căn Jacobson $r$ của $A$, mọi iđêan nguyên tố của $A$ chứa $m$ cũng chứa $r$ (Chương II, § 1, no. 1, Mệnh đề 1); do đó nó là cực đại, vì $r$ là một giao hữu hạn của các iđêan cực đại (\emph{loc. cit.}); Mệnh đề 9 khi đó chỉ ra rằng $A/m$ là Artin. Ngược lại, nếu (b) đúng, mọi iđêan cực đại $p$ của $A$ chứa căn Jacobson của $A$ và do đó chứa $m$ (Chương III, § 3, no. 3, Mệnh đề 6); vì $A/m$ là Artin, các iđêan $p/m$ là hữu hạn về số lượng (Mệnh đề 9) và do đó $A$ chỉ có một số hữu hạn các iđêan cực đại, điều này suy ra rằng nó là nửa địa phương.
 
-#### Hệ quả 3 {#ac-iv-s2-prop-9-cor-3 .statement}
+#### Hệ quả 3 {#ac-iv-s2-prop-9-cor-3 .statement tag=04L9}
 
 Cho $A, A'$ là hai vành và $h$ là một đồng cấu từ $A$ đến $A'$. Giả sử rằng $A$ là nửa địa phương và Noether và rằng $A'$ là một $A$-môđun sinh hữu hạn. Khi đó vành $A'$ là nửa địa phương và Noether; nếu $m$ là một iđêan xác định của $A$, thì $mA'$ là một iđêan xác định của $A'$.
 
 Ta biết rằng $A'$ là một vành Zariski với tôpô $mA'$-adic (Chương III, § 3, no. 3, Mệnh đề 7). Vì $A/m$ là Artin (Hệ quả 2) và $A'/mA'$ là một $(A/m)$-môđun sinh hữu hạn, $A'/mA'$ là một vành Artin, do đó $A'$ là nửa địa phương và $mA'$ là một iđêan xác định của $A'$ (Hệ quả 2).
 
-#### Hệ quả 4 {#ac-iv-s2-prop-9-cor-4 .statement}
+#### Hệ quả 4 {#ac-iv-s2-prop-9-cor-4 .statement tag=04LA}
 
 Cho $A$ là một vành Noether nửa địa phương đầy đủ, $m$ là một iđêan xác định của $A$, $E$ là một $A$-môđun sinh hữu hạn và $(F_n)$ là một dãy giảm các môđun con của $E$ sao cho $\bigcap_n F_n = 0$. Khi đó, với mọi $p > 0$, tồn tại $n > 0$ sao cho $F_n \subset m^p E$.
 
 Vì $A$ là một vành Zariski, $E$ là Hausdorff và các $F_n$ đóng đối với tôpô $m$-adic. Mặt khác, $E$ là đầy đủ (Chương III, § 2, no. 12, Hệ quả 1 của Mệnh đề 16). Cuối cùng, $E/m^p E$ là một môđun sinh hữu hạn trên vành $A/m^p$, vành này là Artin (Hệ quả 2); khi đó $E/m^p E$ là một $(A/m^p)$-môđun Artin và do đó là một $A$-môđun Artin. Hệ quả được suy ra từ Chương III, § 2, no. 7, Mệnh đề 8.
 
-#### Hệ quả 5 {#ac-iv-s2-prop-9-cor-5 .statement}
+#### Hệ quả 5 {#ac-iv-s2-prop-9-cor-5 .statement tag=04LB}
 
 Trong một vành Noether nửa địa phương đầy đủ, mọi dãy giảm $\phi$ iđêan có giao bằng 0 là một cơ sở lọc hội tụ về 0.
 
 Chỉ cần áp dụng Hệ quả 4 cho A-môđun $\mathbf{A}$.
 
-#### Mệnh đề 10 {#ac-iv-s2-prop-10 .statement}
+#### Mệnh đề 10 {#ac-iv-s2-prop-10 .statement tag=04LC}
 
 Cho $A$ là một vành Noether và $p_1, \ldots, p_n$ là các iđêan nguyên tố liên kết với A-môđun $A$, trong đó $p_i \neq p_j$ với $i \neq j$.
 
@@ -372,13 +372,13 @@ Giả sử cuối cùng rằng vành $A$ là rút gọn. Khi đó $\bigcap_{i=1}
 
 Trong no. này, A và B sẽ chỉ hai vành và ta sẽ xét một đồng cấu vành $\rho : A \to B$ làm cho $B$ trở thành một đại số trên A; nhắc lại rằng, với mọi B-môđun F, $\rho_*(F)$ là nhóm giao hoán F với cấu trúc môđun được xác định bởi $a.y = \rho(a)y$ với mọi $a \in A, y \in F$.
 
-#### Bổ đề 1 {#ac-iv-s2-lem-1 .statement}
+#### Bổ đề 1 {#ac-iv-s2-lem-1 .statement tag=04LD}
 
 Cho A là một vành Noether, $p$ là một iđêan nguyên tố của A, E là một A-môđun có linh hóa tử chứa một lũy thừa của $p$ và thỏa mãn $\operatorname{Ass}(E) = \{p\}$, và F là một B-môđun sao cho $\rho_*(F)$ là một A-môđun phẳng. Điều kiện $\mathfrak{P} \in \operatorname{Ass}_B(E \otimes_A F)$ khi đó kéo theo $\rho^{-1}(\mathfrak{P}) = p$.
 
 Nếu n là sao cho $p^nE = 0$, thì $p^nB \subset \operatorname{Ann}(E \otimes_A F)$, do đó $p^nB \subset \mathfrak{P}$, điều này kéo theo $p^n \subset \rho_1(\mathfrak{P})$ và do đó $p \subset \rho_1(\mathfrak{P})$ vì $\rho_1(\mathfrak{P})$ là nguyên tố. Hơn nữa, nếu $a \in A - p$, phép vị tự h với tỉ số a trên E là đơn ánh ($§ 1$, no. 1, Hệ quả 2 của Mệnh đề 2); vì $h \otimes 1_F$ là phép vị tự $h'$ với tỉ số $\rho(a)$ trên $E \otimes_A F$ và $\rho_*(F)$ là phẳng, $h'$ là đơn ánh (Chương I, § 2, no. 2, Định nghĩa 1); điều này chứng minh rằng $\rho(a) \notin \mathfrak{P}$, do đó $\rho^{-1}(\mathfrak{P}) = p$.
 
-#### Định lý 2 {#ac-iv-s2-thm-2 .statement}
+#### Định lý 2 {#ac-iv-s2-thm-2 .statement tag=04LE}
 
 Cho $\rho : A \to B$ là một đồng cấu vành, E là một A-môđun và F là một B-môđun sao cho $\rho_*(F)$ là một A-môđun phẳng. Khi đó
 
@@ -424,17 +424,17 @@ Nhưng $E_i$ là một A-môđun sinh hữu hạn sao cho $\operatorname{Ass}_A(
 
 (iii) *Trường hợp tổng quát.* B-môđun $E \otimes_A F$ là hợp của các môđun con $E' \otimes_A F$, trong đó $E'$ chạy qua tập hợp các môđun con sinh hữu hạn của A-môđun E. Nếu $\mathfrak{P}$ thuộc về $\operatorname{Ass}_B(E \otimes_A F)$, thì tồn tại một môđun con sinh hữu hạn $E'$ của E sao cho $\mathfrak{P} \in \operatorname{Ass}_B(E' \otimes_A F)$. Theo (ii), tồn tại $p \in \operatorname{Ass}_A(E')$ sao cho $\mathfrak{P} \in \operatorname{Ass}_B(F/pF)$; vì $\operatorname{Ass}_A(E') \subset \operatorname{Ass}_A(E)$, điều này hoàn tất chứng minh Định lý 2.
 
-#### Hệ quả 1 {#ac-iv-s2-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-iv-s2-thm-2-cor-1 .statement tag=04LF}
 
 *Nếu A là Noether và $\mathfrak{P} \in \operatorname{Ass}_B(E \otimes_A F)$, thì $\rho^{-1}(\mathfrak{P}) \in \operatorname{Ass}_A(E)$ và $\rho^{-1}(\mathfrak{P})$ là iđêan nguyên tố $p$ duy nhất của A sao cho $\mathfrak{P} \in \operatorname{Ass}_B(F/pF)$.*
 
-#### Hệ quả 2 {#ac-iv-s2-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-iv-s2-thm-2-cor-2 .statement tag=04LG}
 
 Giả sử rằng $A$ và $B$ là Noether và rằng $B$ là một $A$-môđun phẳng. Cho $p$ là một iđêan nguyên tố của $A$, $Q \subset E$ là một môđun con $p$-nguyên sơ và $\mathfrak{P}$ là một iđêan nguyên tố của $B$. Để $Q \otimes_A B$ là một môđun con $q$-nguyên sơ của $E \otimes_A B$, điều kiện cần và đủ là $pB$ là một 'iđêan p-nguyên sơ' của $B$.
 
 Ta áp dụng Định lý 2 cho $A$-môđun $E/Q$ và $B$-môđun $B$; khi đó $\operatorname{Ass}_A(E/Q) = \{p\}$ và $(E/Q) \otimes_A B$ đẳng cấu với $(E \otimes_A B)/(Q \otimes_A B)$ và do đó $\operatorname{Ass}_B((E \otimes_A B)/(Q \otimes_A B)) = \operatorname{Ass}_B(B/pB)$. Nói rằng $Q \otimes_A B$ là $\mathfrak{P}$-nguyên sơ trong $E \otimes_A B$ do đó có nghĩa là $\operatorname{Ass}_B(B/pB)$ được thu gọn thành $\mathfrak{P}$, do đó có hệ quả.
 
-#### Nhận xét {#ac-iv-s2-n6-rem-1 .statement}
+#### Nhận xét {#ac-iv-s2-n6-rem-1 .statement tag=04LH}
 
 Giả sử rằng $A$ và $B$ là Noether. Cho $\mathfrak{P}$ là một iđêan nguyên tố của $B$ và đặt $p = \overline{\rho}^{-1}(\mathfrak{P})$; ta viết $S = A - p$ và đặt $k(p) = S^{-1}(A/p)$ là trường các phân thức của $A/p$. Vì $\mathfrak{P}$ chứa $pB$, $\mathfrak{P}/pB$ là một iđêan nguyên tố của $B/pB$. Nếu $\rho'$ là đồng cấu hợp thành $A \xrightarrow{\rho} B \to B/pB$, ta biết rằng $S^{-1}(B/pB)$ được đồng nhất với vành $(\rho'(S))^{-1}(B/pB)$ và $\mathfrak{P}' = S^{-1}(\mathfrak{P}/pB)$ với một iđêan của vành này (Chương II, § 2, no. 2, Mệnh đề 6); vì $\mathfrak{P}/pB$ không gặp $\rho'(S)$, $\mathfrak{P}'$ là một iđêan nguyên tố của $S^{-1}(B/pB)$ (Chương 11, § 2, no. 5, Mệnh đề 11); hơn nữa có các đẳng cấu chính tắc giữa $S^{-1}(B/pB)$, $S^{-1}((A/p) \otimes_A B)$ và $(S^{-1}(A/p)) \otimes_A B = k(p) \otimes_A B$; tương tự $S^{-1}(F/pF)$ được đồng nhất một cách chính tắc với $k(p) \otimes_A F$. Như vậy, dưới các giả thiết của Định lý 2, *để có* $\mathfrak{P} \in \operatorname{Ass}_B(E \otimes_A F)$, *điều kiện cần và đủ là* $p \in \operatorname{Ass}_A(E)$ và
 $$
@@ -446,7 +446,7 @@ $$
 $$
 là tương đương; nhưng, vì $B$ là Noether, điều này suy ra từ § 1, no. 2, Hệ quả của Mệnh đề 5 và các đồng nhất ở trên.
 
-#### Mệnh đề 11 {#ac-iv-s2-prop-11 .statement}
+#### Mệnh đề 11 {#ac-iv-s2-prop-11 .statement tag=04LI}
 
 Giả sử rằng $A$ và $B$ là Noether và rằng $B$ là một $A$-môđun phẳng. Cho $E$ là một $A$-môđun và $E'$ là một môđun con của $E$ sao cho, với mọi iđêan $p \in \operatorname{Ass}_A(E/E')$, $pB$ là một iđêan nguyên tố của $B$ hoặc bằng $B$. Gọi $E' = \bigcap_{p \in \operatorname{Ass}(E/E')} Q(p)$ là một phân tích nguyên sơ thu gọn của $E'$ trong $E$, $Q(p)$ là $p$-nguyên sơ với mọi $p \in \operatorname{Ass}(E/E')$.
 (i) *Nếu* $p \in \operatorname{Ass}(E/E')$ *và* $pB = B$, *thì* $Q(p) \otimes_A B = E \otimes_A B$.
@@ -471,7 +471,7 @@ E' \otimes_A B = \bigcap_{p \in \Phi} (\mathbf{Q}(p) \otimes_A B)
 $$
 là một phân tích nguyên sơ thu gọn.
 
-#### Hệ quả {#ac-iv-s2-n6-cor-1 .statement}
+#### Hệ quả {#ac-iv-s2-n6-cor-1 .statement tag=04LJ}
 
 *Giả sử rằng* $pB$ *là nguyên tố đối với mọi* $p \in \operatorname{Ass}_A(E/E')$. *Khi đó, nếu* $p_1, \ldots, p_n$ *là các phần tử cực tiểu của* $\operatorname{Ass}_A(E/E')$, *thì* $p_iB$ *là các phần tử cực tiểu của*
 $$

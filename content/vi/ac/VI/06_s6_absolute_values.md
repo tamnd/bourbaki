@@ -29,9 +29,9 @@ subsections:
       pdf_page: 425
 statements: 10
 exercises: 2
-content_sha256: 6899efbdb402e764188ef76d50ac84aad565a577f1703fc2fa8ba2ae40b1d8fa
+content_sha256: c51179972912a6dafa3ba6bbc60d64f157dd409a73fbe34f1a4e3878e9c79c58
 translated_from: content/en/ac/VI/06_s6_absolute_values.md
-source_content_sha256: 8b64a3893a2460621b67426748a71def35755659e7067c3b74bcaf4a51b967ed
+source_content_sha256: faa08a74b0921e5d2151aaa0990ac2856ad0a10c13dc6c2fca2752cb6b3771af
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-81ca19be
 glossary_version: 34
@@ -67,7 +67,7 @@ $$
 1 = f(1) \leq A \cdot \sup(f(1), f(0)) = A.
 $$
 
-#### Mệnh đề 1 {#ac-vi-s6-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s6-prop-1 .statement tag=04VA}
 
 Đối với một ánh xạ $f$ từ $K$ vào $\mathbf{R}$, thỏa mãn (VA,) và (VAII) để thuộc $\mathscr{V}(K)$, điều kiện cần và đủ là $f(1 + x)$ bị chặn trong tập hợp các $x \in K$ sao cho $f(x) \leq 1$.
 
@@ -79,7 +79,7 @@ $$
 
 Nếu $f$ là một giá trị tuyệt đối trên $K$, thì $f(n.1) \leq n$ theo quy nạp trên số nguyên $n > 0$ bắt đầu từ $(\mathbf{VA}_{III})$; ngược lại:
 
-#### Mệnh đề 2 {#ac-vi-s6-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s6-prop-2 .statement tag=04VB}
 
 *Cho $f$ là một ánh xạ từ $K$ vào $\mathbf{R}_+$ thuộc $\mathscr{V}(K)$; nếu tồn tại $C > 0$ sao cho $f(n.1) \leq C$ với mọi số nguyên $n > 0$, thì $f$ là một giá trị tuyệt đối trên $K$.*
 
@@ -106,7 +106,7 @@ $$
 
 Cho $r$ tiến tới $+\infty$, ta thu được $f(1 + x) \leq 1 + f(x)$ với mọi $x \in K$; áp dụng bất đẳng thức này với $x$ được thay bởi $xy^{-1}$ (trong đó $y \neq 0$) và tính đến $(\mathbf{VA}_{II})$, ta thu được quan hệ $(\mathbf{VA}_{III})$, điều này chứng minh mệnh đề.
 
-#### Hệ quả 1 {#ac-vi-s6-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s6-prop-2-cor-1 .statement tag=04VC}
 
 *Để một ánh xạ $f$ từ $K$ vào $\mathbf{R}_+$ là một giá trị tuyệt đối, điều kiện cần và đủ là nó thỏa mãn các điều kiện $(\mathbf{VA}_I)$, $(\mathbf{VA}_{II})$ và $(\mathbf{U}_2)$.*
 
@@ -121,7 +121,7 @@ f(n.1) \leq 2^r < 2n;
 $$
 khi đó Mệnh đề 2 có thể được áp dụng với $C = 2$ và do đó $f$ là một giá trị tuyệt đối.
 
-#### Hệ quả 2 {#ac-vi-s6-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s6-prop-2-cor-2 .statement tag=04VD}
 
 Đối với một ánh xạ $f$ của $K$ vào $\mathbf{R}_+$ thuộc $\mathscr{V}(K)$, điều kiện cần và đủ là nó có dạng $g^t$, trong đó $t > 0$ và $g$ là một giá trị tuyệt đối trên $K$.
 
@@ -131,7 +131,7 @@ Nói rằng $f$ thỏa mãn $(\mathbf{U}_A)$ tương đương với việc nói 
 
 Một ánh xạ $f$ của $K$ vào $\mathbf{R}_+$ được gọi là một giá trị tuyệt đối siêu mêtric nếu nó thỏa mãn các điều kiện $(\mathrm{VA}_I)$, $(\mathrm{VA}_{II})$ và $(\mathrm{U},)$ (điều này hiển nhiên suy ra rằng $f$ là một giá trị tuyệt đối).
 
-#### Mệnh đề 3 {#ac-vi-s6-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s6-prop-3 .statement tag=04VE}
 
 Cho $f$ là một ánh xạ của $K$ vào $\mathbf{R}_+$. Các tính chất sau là tương đương:
 (a) $f$ là một giá trị tuyệt đối siêu mêtric.
@@ -145,7 +145,7 @@ $$
 $$
 với mọi số nguyên $n > 0$ và Mệnh đề 2 của no. 1 chỉ ra rằng $f''$ là một giá trị tuyệt đối. Cuối cùng (d) suy ra (a): vì iff" là một giá trị tuyệt đối, nó thỏa mãn $(\mathbf{U}_2)$ và do đó $f$ thỏa mãn $(\mathbf{U}_{2^{1/s}})$ với mọi $s > 0$ và vì vậy cũng thỏa mãn $(\mathbf{U}_1)$, khi cho $s$ tiến tới $+\infty$.
 
-#### Hệ quả {#ac-vi-s6-n2-cor-1 .statement}
+#### Hệ quả {#ac-vi-s6-n2-cor-1 .statement tag=04VF}
 
 Nếu $K$ là một trường (không nhất thiết giao hoán) có đặc số $p > 0$, mọi hàm trên $\mathscr{V}(K)$ đều là một giá trị tuyệt đối siêu mêtric.
 
@@ -159,7 +159,7 @@ do đó thiết lập một sự tương ứng một-một giữa các giá tr�
 
 ### 3. CÁC GIÁ TRỊ TUYỆT ĐỐI TRÊN Q
 
-#### Mệnh đề 4 {#ac-vi-s6-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vi-s6-prop-4 .statement tag=04VG}
 
 *Cho $f$ là một ánh xạ từ $\mathbf{Q}$ vào $\mathbf{R}_+$ thuộc $\mathscr{V}(\mathbf{Q})$. Khi đó:*
 
@@ -222,7 +222,7 @@ Sau đó, với mọi số nguyên $a, b$ lớn hơn hoặc bằng 2, $g(a) \leq
 
 ### 4. CẤU TRÚC CỦA CÁC TRƯỜNG CÓ GIÁ TRỊ TUYỆT ĐỐI KHÔNG SIÊU MÊTRIC
 
-#### Định lý 1 (Gelfand-Mazur) {#ac-vi-s6-thm-1 .statement}
+#### Định lý 1 (Gelfand-Mazur) {#ac-vi-s6-thm-1 .statement tag=04VH}
 
 Cho $K$ là một đại số trên trường $\mathbf{R}$ với hai tính chất sau:
 (1) $K$ là một trường (không nhất thiết giao hoán).
@@ -300,7 +300,7 @@ Chuẩn được định nghĩa như vậy do đó tương thích với cấu tr
 (C) *Trường hợp thứ ba: K không giao hoán*
 Gọi Z là tâm của K và x là một phần tử của K không thuộc Z; trường con $Z(x)$ của K là giao hoán và chuẩn cảm sinh bởi chuẩn trên K tương thích với cấu trúc đại số trên R của $Z(x)$; vì $Z \neq Z(x)$ và Z và $Z(x)$ là các đại số trên R đẳng cấu với $\mathbf{R}$ hoặc $\mathbf{C}$ nhờ (A) và (B), Z nhất thiết đẳng cấu với $\mathbf{R}$ và $Z(x)$ với $\mathbf{C}$. Với mọi $x \in K, Z(x)$ do đó có hạng $\leq 2$ trên Z. Bây giờ ta có bổ đề sau:
 
-#### Bổ đề 1 {#ac-vi-s6-lem-1 .statement}
+#### Bổ đề 1 {#ac-vi-s6-lem-1 .statement tag=04VI}
 
 *Cho D là một trường có tâm L sao cho, với mọi $x \in D, L(x)$ là một mở rộng của L có bậc $\leq m$. Khi đó hạng của D trên L là $\leq m^2$.*
 
@@ -314,7 +314,7 @@ $$
 
 Nhận xét (1) Chúng ta sẽ đưa ra trong chương dành cho các đại số chuẩn một chứng minh ngắn hơn của Định lý Gelfand-Mazur, đúng với mọi đại số tôpô lồi địa phương Hausdorff $K$ trên R và có nguyên lý như sau: nó được quy về (như trong các trường hợp (B) và (C)) trường hợp $K$ là một đại số giao hoán trên $\mathbf{C}$; nếu $x \in \mathbf{K} - \mathbf{C}.1$, ta xét như trên ánh xạ $z \mapsto (x - z.1)^{-1}$ từ $\mathbf{C}$ vào K, liên tục và khả vi trên $\mathbf{C}$. Với mọi phần tử $x'$ của không gian đối ngẫu $\mathbf{K}'$ của không gian lồi địa phương K, $z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ khi đó là một hàm nguyên bị chặn trên $\mathbf{C}$ và do đó là hằng theo Định lý Liouville, và ta kết luận như trong phần (A) của chứng minh Định lý 1 rằng điều này tất yếu dẫn đến $\langle (x - z.1)^{-1}, x' \rangle = 0$ với mọi $z \in \mathbf{C}$ và mọi $x' \in \mathbf{K}'$; Định lý Hahn-Banach cho thấy kết luận này là vô lý, vì $(x - z.1)^{-1} \neq 0$. Chú ý rằng lập luận trong phần (A) của chứng minh Định lý 1 chỉ khác với lập luận trên về hình thức, vì lập luận này chỉ là một trường hợp đặc biệt của lập luận dùng để chứng minh nguyên lý cực đại đối với các hàm giải tích, phép lấy tổng trên các căn của đơn vị và chuyển qua giới hạn tương đương với việc tính tích phân $\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$ dọc theo một đường tròn tâm 0 và việc sử dụng công thức Cauchy được tránh ở đây, nhờ dạng đặc biệt của hàm F.
 
-#### Định lý 2 (Ostrowski) {#ac-vi-s6-thm-2 .statement}
+#### Định lý 2 (Ostrowski) {#ac-vi-s6-thm-2 .statement tag=04VJ}
 
 Cho K là một trường (không nhất thiết giao hoán) và f là một phần tử $\mathscr{V}(K)$ không phải là một giá trị tuyệt đối ultrametric. Khi đó tồn tại duy nhất một số thực $s > 0$ và một đẳng cấu j của K lên một trường con trù mật khắp nơi của một trong các trường $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$ sao cho $f(x) = |j(x)|^s$ với mọi $x \in K$ (*). Để f là một giá trị tuyệt đối trên K, điều kiện cần và đủ là $s \leq 1$.
 
@@ -322,7 +322,7 @@ Theo no. 2, Hệ quả của Mệnh đề 3, K có đặc số 0 và do đó là
 
 Với x ∈ Q và y ∈ K, g(xy) = |x|g(y) và do đó g là một chuẩn trên K tương thích với cấu trúc đại số trên Q của nó (với giá trị tuyệt đối thông thường trên Q). Do đó, hoàn thành K của K là một đại số chuẩn trên Q = R (Tôpô tổng quát, Chương IX, § 3, no. 7); gọi ĝ là chuẩn trên K là mở rộng liên tục của g. Vì g là một giá trị tuyệt đối trên K, K là một trường và ĝ là một giá trị tuyệt đối trên K (Tôpô tổng quát, Chương IX, § 3, no. 3, Mệnh đề 6). Theo Định lý 1 tồn tại một đẳng cấu đại số trên Rf của K̂ lên một trong các trường R, C hoặc H và g'(x) = |j(x)| do đó là một giá trị tuyệt đối trên K̂; vì K̂ hữu hạn chiều trên R và g' và ĝ trùng nhau trên trường con R . 1 của K̂, nên g' = ĝ theo bổ đề sau:
 
-#### Bổ đề 2 {#ac-vi-s6-lem-2 .statement}
+#### Bổ đề 2 {#ac-vi-s6-lem-2 .statement tag=04VK}
 
 Cho L là một trường (không nhất thiết giao hoán) và K là một trường con của L sao cho L là một không gian vectơ trái ajinite-chiều trên K. Cho g là một giá trị tuyệt đối trên L vàf là hạn chế của nó trên K. Nếu K đầy đủ và không rời rạc đối với f, thì L đầy đủ đối với g; nếu thêm vào đó g' là một giá trị tuyệt đối khác trên L có cùng hạn chếf trên K, thì g' = g.
 

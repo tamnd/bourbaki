@@ -49,7 +49,7 @@ subsections:
       pdf_page: 138
 statements: 34
 exercises: 11
-content_sha256: 2b00ee560983d75c09c92892f0d1097acdd749dd9087b712875a76d8fb9a271d
+content_sha256: 4226bdeaa114661f3a3dc70fb10aced4f9b30f0ca343dd551f7350c2244883ff
 ---
 
 ## § 7. PRODUIT DE COMPOSITION
@@ -96,11 +96,11 @@ $$
 
 Si $u \in \mathrm{Ext}_A(N, P)$, $v \in \mathrm{Ext}_A(M, N)$, l’image de $(u, v)$ par (1) s’appelle le *produit de composition de u et v et se note* $u \circ v$. Si $g$ (resp. $f$) est un morphisme de complexes de degré ascendant $j$ (resp. $i$) de $I(M)$ dans $I(N)$ (resp. de $I(N)$ dans $I(P)$), de classe d’homotopie $\bar{g}$ (resp. $\bar{f}$), alors le produit de composition $a_{N,P}(\bar{f}) \circ a_{M,N}(\bar{g})$ est l’image par $a_{M,P}$ de la classe d’homotopie du morphisme $f \circ g$ de $I(M)$ dans $I(P)$.
 
-#### Exemple 1 {#alg-x-s7-n1-exa-1 .statement}
+#### Exemple 1 {#alg-x-s7-n1-exa-1 .statement tag=0DZG}
 
 Si $u \in \mathrm{Hom}_A(N, P)$, $v \in \mathrm{Hom}_A(M, N)$, $u \circ v$ est le composé de $u$ et de $v$.
 
-#### Exemple 2 {#alg-x-s7-n1-exa-2 .statement}
+#### Exemple 2 {#alg-x-s7-n1-exa-2 .statement tag=0DZH}
 
 Si $u \in \mathrm{Hom}_A(N, P)$, $v \in \mathrm{Ext}_A(M, N)$, alors
 
@@ -124,7 +124,7 @@ $$
 
 alors $(u \circ v) \circ w = u \circ (v \circ w)$ : le produit de composition est *associatif* ; on notera donc les composés de plusieurs éléments sans parenthèses. En particulier, d’après l’exemple 2 :
 
-#### Exemple 3 {#alg-x-s7-n1-exa-3 .statement}
+#### Exemple 3 {#alg-x-s7-n1-exa-3 .statement tag=0DZI}
 
 Soient M, N, M', N' quatre A-modules à gauche. Si $u \in \mathrm{Ext}_A(M, N)$, $f \in \mathrm{Hom}_A(M', M)$, $g \in \mathrm{Hom}_A(N, N')$, alors
 
@@ -187,7 +187,7 @@ Dans ce qui suit, nous utiliserons suivant le cas l’une ou l’autre des sept 
 
 ### 3. La classe associée à une suite exacte
 
-#### Proposition 1 {#alg-x-s7-prop-1 .statement}
+#### Proposition 1 {#alg-x-s7-prop-1 .statement tag=0DZJ}
 
 Soient $(C,d)$ et $(C',d')$ deux complexes de $A$-modules à gauche et $n,p,q$ trois entiers tels que $p \geq q$. Pour $p \geq i \geq q-1$, soit $f_i:C_i\longrightarrow C'_{i+n+1}$ un homomorphisme de $A$-modules tel que $f_p\circ d=0$, $f_i\circ d=d'\circ f_{i+1}$ pour $p>i\geq q-1$, et $d'\circ f_{q-1}=0$ (voir fig. 2).
 
@@ -264,7 +264,7 @@ $$
 
 respectivement.
 
-#### Proposition 2 {#alg-x-s7-prop-2 .statement}
+#### Proposition 2 {#alg-x-s7-prop-2 .statement tag=0DZK}
 
 *On a* $a, b \in Z^n(\mathrm{Homgr}_A(L(M), I(N)))$. *De plus*, les classes $\overline{a}$ et $\overline{b}$ de $a$ et $b$ dans $H^n(\mathrm{Homgr}_A(L(M), I(N))) = \mathrm{Ext}_A^n(M, N)$ ne dépendent que de la suite exacte (4) et sont égales.
 
@@ -276,11 +276,11 @@ $$
 
 Puisque $a$ (resp. $b$) est indépendant du choix de $u$ (resp. $v$), l’élément $\overline{a} = \overline{b}$ de $\mathrm{Ext}_A^n(M, N)$ est indépendant du choix des morphismes $u$ et $v$, d’où la proposition.
 
-#### Définition 1 {#alg-x-s7-def-1 .statement}
+#### Définition 1 {#alg-x-s7-def-1 .statement tag=0DZL}
 
 *On appelle classe associée à la suite exacte* (4) *l’élément* $\theta$ *de* $\mathrm{Ext}_A^n(M, N)$ *défini par* $\theta = (-1)^{n(n+1)/2} \overline{a} = (-1)^{n(n+1)/2} \overline{b}$.
 
-#### Remarque 1 {#alg-x-s7-n3-rem-1 .statement}
+#### Remarque 1 {#alg-x-s7-n3-rem-1 .statement tag=0DZM}
 
 Soit (P, p) une résolution projective de M. D’après X, p. 49. prop. 3, il existe un diagramme commutatif
 
@@ -304,13 +304,13 @@ $$
 
 et θ est l’image par φ(M, E) de la classe d’homotopie du morphisme M → E défini par (−1)^{n(n+1)/2} v^n. Ceci résulte de la construction de θ et des définitions de φ(P, N) et φ(M, E).
 
-#### Remarque 2 {#alg-x-s7-n3-rem-2 .statement}
+#### Remarque 2 {#alg-x-s7-n3-rem-2 .statement tag=0DZN}
 
 Lorsque $n = 0$, la suite exacte (4) s’écrit $0 \to N \xrightarrow{f} M \to 0$, et la classe associée est $f^{-1} \in \mathrm{Hom}_A(M, N) = \mathrm{Ext}^0_A(M, N)$.
 
 ### 4. Propriétés de la classe associée à une suite exacte
 
-#### Proposition 3 {#alg-x-s7-prop-3 .statement}
+#### Proposition 3 {#alg-x-s7-prop-3 .statement tag=0DZO}
 
 Soient
 
@@ -403,7 +403,7 @@ $$
 
 Par définition $\theta'\circ f$ est la classe de $(-1)^{n(n+1)/2}v^n\circ f\circ p_M\in\operatorname{Homgr}^n(L(M),I(N'))$, tandis que $g\circ\theta$ est la classe de $(-1)^{n(n+1)/2}\epsilon_{N'}\circ g\circ u_n$. D’après le lemme 1, appliqué aux deux lignes extrêmes du diagramme, ces deux classes sont égales.
 
-#### Corollaire 1 {#alg-x-s7-prop-3-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s7-prop-3-cor-1 .statement tag=0DZP}
 
 Considérons un diagramme commutatif à lignes exactes
 
@@ -417,7 +417,7 @@ $$
 
 les deux lignes du diagramme ont même classe associée dans $\mathrm{Ext}_A^n(M, N)$.
 
-#### Corollaire 2 {#alg-x-s7-prop-3-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s7-prop-3-cor-2 .statement tag=0DZQ}
 
 Soient
 
@@ -445,7 +445,7 @@ $$
 
 et on applique la proposition.
 
-#### Corollaire 3 {#alg-x-s7-prop-3-cor-3 .statement}
+#### Corollaire 3 {#alg-x-s7-prop-3-cor-3 .statement tag=0DZR}
 
 Soient $0 \to N \xrightarrow{f_{n-1}} R_n \xrightarrow{f_n} \cdots \to R_1 \xrightarrow{f_1} M \to 0$ une suite exacte, $\theta$ sa classe dans $\mathrm{Ext}_A^n(M, N)$, $u : M' \to M$ et $v : N \to N'$ deux homomorphismes de $A$-modules.
 
@@ -481,7 +481,7 @@ l’assertion $a$ résulte alors de la proposition.
 
 La démonstration de $b$ est analogue.
 
-#### Remarque {#alg-x-s7-n4-rem-1 .statement}
+#### Remarque {#alg-x-s7-n4-rem-1 .statement tag=0DZS}
 
 Soit $\theta \in \mathrm{Ext}^n_A(M, N)$, resp. $\theta' \in \mathrm{Ext}^n_A(M', N')$, la classe d’une suite exacte
 
@@ -518,7 +518,7 @@ d’après X, p. 89, prop. 7, cela entraîne $\theta'' = m(\theta, \theta')$.
 
 ### 5. Relation entre suites exactes et éléments de $\mathrm{Ext}_A(M, N)$
 
-#### Théorème 1 {#alg-x-s7-thm-1 .statement}
+#### Théorème 1 {#alg-x-s7-thm-1 .statement tag=0DZT}
 
 *Soient $n$ un entier $\geqslant 1$, $M$ et $N$ deux $A$-modules.*
 
@@ -620,11 +620,11 @@ $$
 
 avec $M' = M \times_{\mathbf{R}_1} E_{n-1}$ (cf. X, p. 120, cor. 3, b)). La condition (iii) est donc satisfaite, ce qui achève la démonstration du théorème.
 
-#### Remarque 1 {#alg-x-s7-n5-rem-1 .statement}
+#### Remarque 1 {#alg-x-s7-n5-rem-1 .statement tag=0DZU}
 
 Si l’anneau A est nœthérien, et si les A-modules M et N sont de type fini, il résulte de la démonstration de a) que tout élément de $\mathrm{Ext}_A^n(M, N)$ est la classe associée à une suite exacte $0 \to N \to R_n \to \ldots \to R_1 \to M \to 0$ où les $R_i$ sont de type fini.
 
-#### Corollaire {#alg-x-s7-n5-cor-1 .statement}
+#### Corollaire {#alg-x-s7-n5-cor-1 .statement tag=0DZV}
 
 *Soit* $0 \to N \xrightarrow{f} R \xrightarrow{g} M \to 0$ *et* $0 \to N \xrightarrow{f'} R' \xrightarrow{g'} M \to 0$ *deux suites exactes*, $\theta$ *et* $\theta'$ *les classes associées dans* $\mathrm{Ext}^1(M, N)$. *Pour que* $\theta = \theta'$, *il faut et il suffit qu’il existe un* A-homomorphisme $h : R \to R'$ *rendant le diagramme*
 
@@ -655,7 +655,7 @@ $$
 
 Les morphismes $h'$ et $h''$ sont des isomorphismes d’après X, p. 7, cor. 3, et $h = h'' \circ {h'}^{-1}$ répond à la question. La dernière assertion résulte de *loc. cit*.
 
-#### Remarque 2 {#alg-x-s7-n5-rem-2 .statement}
+#### Remarque 2 {#alg-x-s7-n5-rem-2 .statement tag=0DZW}
 
 Le théorème 1 donne une description de $\mathrm{Ext}_A^n(M, N)$ comme ensemble de classes d’équivalence de suites exactes ; il est facile de décrire la loi de groupe qu’on obtient sur cet ensemble par transport de structure. Soit en effet $\theta$ (resp. $\theta'$) la classe d’une suite exacte $0 \to N \xrightarrow{f_{n+1}} R_n \xrightarrow{f_n} \ldots \to R_1 \to M \to 0$ (resp. $0 \to N \xrightarrow{f'_{n+1}} R'_n \xrightarrow{f'_n} \ldots \to R'_1 \to M \to 0$). Soient $\Delta : M \to M \oplus M$ et $\nabla : N \oplus N \to N$ les applications A-linéaires définies par $\Delta(x) = (x, x)$ pour $x \in M$ et $\nabla(y, z) = y + z$ pour $y, z \in N$. Considérons l’application
 
@@ -679,7 +679,7 @@ et où $R''_1=R_1\times_M R'_1$.
 
 ### 6. Produit de composition et homomorphismes de liaison des modules d’extensions
 
-#### Proposition 5 {#alg-x-s7-prop-5 .statement}
+#### Proposition 5 {#alg-x-s7-prop-5 .statement tag=0DZX}
 
 Soient
 
@@ -775,12 +775,12 @@ $$
 
 Les classes de $c \circ p$ et de $(-1)^{n+1} a^n \circ (-u_1)$ dans $\mathrm{Ext}_A^{n+1}(M'', N)$ sont donc égales, d'où $b$.
 
-#### Corollaire 1 {#alg-x-s7-prop-5-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s7-prop-5-cor-1 .statement tag=0DZY}
 
 a) *L’homomorphisme de liaison* $\mathrm{Hom}_A(M'', M'') \to \mathrm{Ext}_A^1(M'', M')$ *envoie* $1_{M''}$ *sur* $\theta$.
 b) *L’homomorphisme de liaison* $\mathrm{Hom}_A(M', M') \to \mathrm{Ext}_A^1(M'', M')$ *envoie* $1_{M'}$ *sur* $-\theta$.
 
-#### Corollaire 2 {#alg-x-s7-prop-5-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s7-prop-5-cor-2 .statement tag=0DZZ}
 
 *Considérons deux suites exactes de A-modules à gauche*
 
@@ -844,7 +844,7 @@ $$
 \delta^m(\mathscr{S},P):\operatorname{Ext}_A^m(N,P)\to\operatorname{Ext}_A^{m+n}(M,P).
 $$
 
-#### Corollaire 3 {#alg-x-s7-prop-5-cor-3 .statement}
+#### Corollaire 3 {#alg-x-s7-prop-5-cor-3 .statement tag=0E00}
 
 Si $\theta\in\operatorname{Ext}_A^n(M,N)$ est la classe de la suite exacte $(\mathscr{S})$, on a
 
@@ -869,7 +869,7 @@ $$
 (m+1)+\cdots+(m+n)=mn+n(n+1)/2.
 $$
 
-#### Corollaire 4 {#alg-x-s7-prop-5-cor-4 .statement}
+#### Corollaire 4 {#alg-x-s7-prop-5-cor-4 .statement tag=0E01}
 
 Si chaque module $R_i,\ i = 1, ..., n,$ est injectif (resp. projectif), l’application $\alpha \mapsto \theta \circ \alpha$ (resp. $\alpha \mapsto \alpha \circ \theta$) de $\mathrm{Ext}_A^m(P, M)$ dans $\mathrm{Ext}_A^{m+n}(P, N)$ (resp. de $\mathrm{Ext}_A^m(N, P)$ dans $\mathrm{Ext}_A^{m+n}(M, P)$) est bijective pour tout $A$-module $P$ et tout entier $m > 0$.
 
@@ -881,7 +881,7 @@ $$
 (resp. $\mathrm{Ext}_A^{m+i-1}(R_i, P) \to \mathrm{Ext}_A^{m+i-1}(K_i, P) \to \mathrm{Ext}_A^{m+i}(K_{i-1}, P) \to \mathrm{Ext}_A^{m+i}(R_i, P)$),
 dont les termes extrêmes sont nuls par hypothèse.
 
-#### Remarque {#alg-x-s7-n6-rem-1 .statement}
+#### Remarque {#alg-x-s7-n6-rem-1 .statement tag=0E02}
 
 Les définitions et propositions des n°s 3 à 6 s’appliquent aux $A$-modules à droite, considérés comme modules à gauche sur l’anneau $A^\circ$ opposé à $A$.
 
@@ -915,7 +915,7 @@ $$
 
 Par exemple, si $\alpha \in \mathrm{Hom}_A(P, Q)$, alors $\alpha \circ \gamma = \mathrm{Tor}(\alpha, 1)(\gamma)$.
 
-#### Remarque 1 {#alg-x-s7-n7-rem-1 .statement}
+#### Remarque 1 {#alg-x-s7-n7-rem-1 .statement tag=0E03}
 
 Si on utilise les isomorphismes $\psi$ de X, p. 69, on peut aussi définir le produit de composition par le diagramme commutatif
 
@@ -933,7 +933,7 @@ $$
 (f_m \otimes 1_M)(x) \in L_{m-n}(Q) \otimes_A M.
 $$
 
-#### Remarque 2 {#alg-x-s7-n7-rem-2 .statement}
+#### Remarque 2 {#alg-x-s7-n7-rem-2 .statement tag=0E04}
 
 On peut aussi utiliser les résolutions $l(P)$ et $l(Q)$.
 
@@ -959,7 +959,7 @@ Si $\mu \in \mathrm{Ext}_A^r(M, N)$ est la classe du morphisme $g : L(M) \to L(N
 
 On peut aussi représenter $\gamma$ par un cycle $y \in P \otimes L_m(M)$, et $\mu \circ \gamma$ est la classe du cycle $(1 \otimes g)(y) \in P \otimes L_{m-r}(M)$.
 
-#### Proposition 6 {#alg-x-s7-prop-6 .statement}
+#### Proposition 6 {#alg-x-s7-prop-6 .statement tag=0E05}
 
 Soient $K, M, N$ des $A$-modules à gauche, $P, Q, R$ des $A$-modules à droite,
 $\alpha \in \mathrm{Ext}_A^n(P, Q)$, $\beta \in \mathrm{Ext}_A^p(Q, R)$, $\lambda \in \mathrm{Ext}_A^r(K, M)$, $\mu \in \mathrm{Ext}_A^s(M, N)$, $\gamma \in \mathrm{Tor}_m^A(P, K)$.
@@ -977,7 +977,7 @@ $$
 
 ### 8. Produits de composition et homomorphismes de liaison des produits de torsion
 
-#### Proposition 7 {#alg-x-s7-prop-7 .statement}
+#### Proposition 7 {#alg-x-s7-prop-7 .statement tag=0E06}
 
 a) Soient
 
@@ -1038,7 +1038,7 @@ $$
 
 ce qui achève la démonstration de a). L’assertion b) se déduit de a) par les isomorphismes de commutation.
 
-#### Corollaire 1 {#alg-x-s7-prop-7-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s7-prop-7-cor-1 .statement tag=0E07}
 
 *Soient* $0 \to P' \to P \to P'' \to 0$ *une suite exacte de* $A$-*modules à droite*, $0 \to M' \to M \to M'' \to 0$ *une suite exacte de* $A$-*modules à gauche*. *Alors les homomorphismes composés d’homomorphismes de liaison*
 
@@ -1067,11 +1067,11 @@ $$
 
 Alors d’après la prop. 7 et la prop. 3 de X, p. 118 :
 
-#### Corollaire 2 {#alg-x-s7-prop-7-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s7-prop-7-cor-2 .statement tag=0E08}
 
 *Si* $\theta \in \mathrm{Ext}_A^n(M, N)$ *est la classe associée à la suite exacte* $(\mathscr{S})$, *on a* $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ *pour tout* $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
-#### Corollaire 3 {#alg-x-s7-prop-7-cor-3 .statement}
+#### Corollaire 3 {#alg-x-s7-prop-7-cor-3 .statement tag=0E09}
 
 *Si tous les modules* $R_i, i = 1, ..., n$, *sont plats, l’application* $\alpha \mapsto \theta \circ \alpha$ *de* $\mathrm{Tor}_{m+n}^A(P, M)$ *dans* $\mathrm{Tor}_m^A(P, N)$ *est bijective pour tout* $A$-*module à droite* $P$ *et tout entier* $m > 0$.
 
@@ -1094,7 +1094,7 @@ $$\partial^m(\mathscr{S}_1, M) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A
 
 et on a :
 
-#### Corollaire 4 {#alg-x-s7-prop-7-cor-4 .statement}
+#### Corollaire 4 {#alg-x-s7-prop-7-cor-4 .statement tag=0E0A}
 
 *Si $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ est la classe associée à la suite exacte $(\mathscr{S}_1)$, on a $\partial^m(\mathscr{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ pour tout $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
@@ -1129,7 +1129,7 @@ $$\mathrm{H}(\mathrm{Homgr}_A(\varphi, 1_N)) : \mathrm{H}(\mathrm{Homgr}_A(R, N)
 
 Soit $k$ un entier.
 
-#### Proposition 8 {#alg-x-s7-prop-8 .statement}
+#### Proposition 8 {#alg-x-s7-prop-8 .statement tag=0E0B}
 
 *a)* *Le diagramme suivant, où $h_\theta(\alpha) = \theta \circ \alpha$, est commutatif*
 
@@ -1193,7 +1193,7 @@ $$
 
 d’où a) ; la démonstration de b) est analogue.
 
-#### Remarque {#alg-x-s7-n9-rem-1 .statement}
+#### Remarque {#alg-x-s7-n9-rem-1 .statement tag=0E0C}
 
 Par les isomorphismes de commutation, on déduit de a) un énoncé analogue dans le cas d’une suite exacte (16) de A-modules à droite.
 
@@ -1215,7 +1215,7 @@ $$
 H(\mathrm{Homgr}_A(1_N, \sigma)) : H(\mathrm{Homgr}_A(N, E'))(n) \to H(\mathrm{Homgr}_A(N, E)) .
 $$
 
-#### Proposition 9 {#alg-x-s7-prop-9 .statement}
+#### Proposition 9 {#alg-x-s7-prop-9 .statement tag=0E0D}
 
 *Le diagramme suivant, où $\gamma_\theta(\alpha) = \theta \circ \alpha$, est commutatif* :
 

@@ -33,14 +33,14 @@ subsections:
       pdf_page: 40
 statements: 39
 exercises: 7
-content_sha256: d05cfceabb2f12560b3616122783607d3ce5b96f0667c7af2c49cc661c3f01b8
+content_sha256: b2d7e669796cb44125cc59eaa565e818af58437f7243cc9a04abbf73aee12224
 ---
 
 ## § 3. DIMENSION DES ANNEAUX NOETHÉRIENS
 
 ### 1. Dimension d’un anneau quotient
 
-#### Proposition 1 {#ac-viii-s3-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s3-prop-1 .statement tag=0CMQ}
 
 Soient $A$ un anneau intègre noethérien, $x$ un élément non nul de $A$ et $p$ un élément minimal de l’ensemble des idéaux premiers de $A$ contenant $x$. Alors $p$ est de hauteur 1.
 
@@ -64,7 +64,7 @@ $$
 
 Comme l’anneau $A_q$ est local et noethérien, on a $\bigcap_{n \geq 0} (qA_q)^n = \{0\}$ (III, § 3, no 2, corollaire de la prop. 5) d’où $(qA_q)^{n_0} = \{0\}$ et finalement l’idéal premier $qA_q$ de $A_q$ est réduit à 0. On a donc $q = \{0\}$, ce qui prouve que $p$ est de hauteur 1.
 
-#### Proposition 2 {#ac-viii-s3-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s3-prop-2 .statement tag=0CMR}
 
 Soient $A$ un anneau noethérien, $m$ un entier positif et $a$ un idéal contenu dans le radical de $A$ et engendré par $m$ éléments. On a
 
@@ -80,7 +80,7 @@ $$
 
 pour tout élément $x$ du radical de $A$, c’est-à-dire de démontrer que l’on a $\dim(A/xA) \geq n - 1$ pour toute chaîne $p_0 \subset ... \subset p_n$ d’idéaux premiers de $A$, de longueur $n \geqslant 1$, et telle que $x \in p_n$. Il suffit de construire une chaîne $q_1 \subset ... \subset q_n$ d’idéaux premiers de $A$, avec $x \in q_1$ et cela résulte du lemme suivant :
 
-#### Lemme 1 {#ac-viii-s3-lem-1 .statement}
+#### Lemme 1 {#ac-viii-s3-lem-1 .statement tag=0CMS}
 
 Soient $A$ un anneau noethérien, $p_0 \subset ... \subset p_n$ une chaîne d’idéaux premiers de $A$ de longueur $n \geqslant 1$ et $x$ un élément de $p_n$. Il existe une chaîne $p'_0 \subset ... \subset p'_n$ avec $p'_0 = p_0$, $p'_n = p_n$ et $x \in p'_1$.
 
@@ -90,7 +90,7 @@ p'_0 \subset p'_1 \subset ... \subset p'_{n-1} \subset p'_n
 $$
 satisfait aux conditions exigées.
 
-#### Corollaire 1 {#ac-viii-s3-lem-1-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s3-lem-1-cor-1 .statement tag=0CMT}
 
 a) Tout anneau local noethérien est de dimension finie. Plus généralement, tout anneau semi-local (II, § 3, no 5, déf. 4) noethérien non nul est de dimension finie.
 b) Soit $A$ un anneau noethérien. Tout idéal de $A$, distinct de $A$, est de hauteur finie.
@@ -100,7 +100,7 @@ a) Soient $A$ un anneau semi-local noethérien non nul et $a$ son radical ; l’
 b) Soit $a \neq A$ un idéal de $A$, et soit $m$ un idéal maximal de $A$ contenant $a$. On a $0 \leqslant \mathrm{ht}(a) \leqslant \dim(A_m)$ d’après la prop. 7 du $§ 1$, no 3, et $A_m$ est un anneau local noethérien. Donc $\mathrm{ht}(a)$ est finie d’après a).
 c) Toute suite strictement décroissante finie $(p_i)_{0 \leqslant i \leqslant n}$ d’idéaux premiers de $A$ définit une chaîne $p_n \subset ... \subset p_0$, d’où $n \leqslant \dim(A_{p_0}) < + \infty$. Il ne peut donc exister de suite strictement décroissante infinie d’idéaux premiers de $A$, d’où c).
 
-#### Corollaire 2 {#ac-viii-s3-lem-1-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s3-lem-1-cor-2 .statement tag=0CMU}
 
 Soit $A$ un anneau local noethérien.
 a) Soit $x \in m_A$. Alors $\dim(A/xA)$ est égal à $\dim(A)$ ou à $\dim(A) - 1$. Pour que l’on ait $\dim(A/xA) = \dim(A) - 1$, il faut et il suffit que $x$ n’appartienne à aucun des idéaux premiers minimaux $p$ de $A$ tels que $\dim(A/p) = \dim(A)$, et il suffit que $x$ ne soit pas diviseur de 0 dans $A$.
@@ -135,7 +135,7 @@ $$
 $$
 lorsque $S$ est finie, cela résulte de la prop. 2 du no 1 et des formules (6) et (7) ci-dessus, et le cas où $S$ est infinie est trivial.
 
-#### Définition 1 {#ac-viii-s3-def-1 .statement}
+#### Définition 1 {#ac-viii-s3-def-1 .statement tag=0CMV}
 
 Soient $A$ un anneau local noethérien, $M$ un $A$-module non nul de type fini et $S$ une partie de l’idéal maximal $m_A$ de $A$. On dit que $S$ est sécante pour $M$ si l’on a
 
@@ -157,11 +157,11 @@ $$
 \dim_A(M/xM) = \dim_A(M) - 1 .
 $$
 
-#### Remarque 1 {#ac-viii-s3-n2-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s3-n2-rem-1 .statement tag=0CMW}
 
 Il résulte des formules (6) et (7) que S est sécante pour M si et seulement si elle est sécante pour $A/\alpha$, où $\alpha$ est l’annulateur de M.
 
-#### Remarque 2 {#ac-viii-s3-n2-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s3-n2-rem-2 .statement tag=0CMX}
 
 Soient S et S’ deux parties disjointes de $m_A$. Pour que $S \cup S'$ soit sécante pour M, il faut et il suffit que S soit sécante pour M et S’ sécante pour $M' = M/SM$. Cela résulte de l’inégalité (8) et de la formule
 $$
@@ -170,16 +170,16 @@ $$
 + (\text{Card}(S') + \dim_A(M'/S'M') - \dim_A(M')) .
 $$
 
-#### Remarque 3 {#ac-viii-s3-n2-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s3-n2-rem-3 .statement tag=0CMY}
 
 Soient $x \in m_A$ et $n \geq 1$ un entier. Il est immédiat que les modules $M/xM$ et $M/x^nM$ ont même support, donc même dimension. Par suite, x est sécant pour M si et seulement si $x^n$ est sécant pour M. De là et de la remarque 2, on déduit aussitôt le résultat suivant : soient $x_1, ..., x_r$ des éléments de $m_A$ et $n_1, ..., n_r$ des entiers $> 0$; alors la suite $(x_1, ..., x_r)$ est sécante pour M si et seulement si la suite $(x_1^{n_1}, ..., x_r^{n_r})$ est sécante pour M.
 
-#### Proposition 3 {#ac-viii-s3-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s3-prop-3 .statement tag=0CMZ}
 
 Soient A un anneau local noethérien et M un A-module non nul de type fini. Pour qu’un élément x de $m_A$ soit sécant pour M, il faut et il suffit qu’il n’appartienne à aucun des éléments minimaux $p$ de $\mathrm{Supp}(M)$ tels que $\dim(A/p) = \dim_A(M)$, et il suffit que l’homothétie $x_M$ de rapport x dans M soit injective.
 Soit $\alpha$ l’annulateur de M. Dire que x est sécant pour M signifie que x est sécant pour $A/\alpha$, le support de M se compose des idéaux premiers $p$ de A tels que $\alpha \subset p$ et si $x_M$ est injective, l’image de x dans $A/\alpha$ n’est pas diviseur de 0 dans $A/\alpha$. La prop. 3 résulte alors du cor. 2 de la prop. 2 du no 1 appliqué à l’anneau $A/\alpha$.
 
-#### Corollaire {#ac-viii-s3-n2-cor-1 .statement}
+#### Corollaire {#ac-viii-s3-n2-cor-1 .statement tag=0CN0}
 
 Toute suite d’éléments de $m_A$ qui est complètement sécante pour M (A, X, p. 157, déf. 2) est sécante pour M.
 Soit $(x_1, ..., x_r)$ une suite d’éléments de $m_A$ qui est complètement sécante pour M. Posons $M_0 = M$ et par récurrence $M_i = M_{i-1}/x_i M_{i-1}$ pour $1 \leq i \leq r$. D’après le cor. 1 de A, X, p. 160, l’homothétie de rapport $x_i$ dans $M_{i-1}$ est injective, d’où $\dim_A(M_i) = \dim_A(M_{i-1}) - 1$ (pour $1 \leq i \leq r$) (prop. 3). On a donc
@@ -188,11 +188,11 @@ $$
 $$
 donc la suite $(x_1, ..., x_r)$ est sécante pour M.
 
-#### Remarque 4 {#ac-viii-s3-n2-rem-4 .statement}
+#### Remarque 4 {#ac-viii-s3-n2-rem-4 .statement tag=0CN1}
 
 Il n’est pas vrai en général qu’une suite sécante pour M soit complètement sécante pour M (p. 87, exerc. 6). Nous étudierons plus tard les modules sur un anneau local noethérien pour lesquels toute suite sécante est complètement sécante.
 
-#### Théorème 1 {#ac-viii-s3-thm-1 .statement}
+#### Théorème 1 {#ac-viii-s3-thm-1 .statement tag=0CN2}
 
 Soient $A$ un anneau local noethérien, $M$ un $A$-module non nul de type fini et $S$ une partie de l’idéal maximal $m_A$ de $A$.
 
@@ -212,7 +212,7 @@ L’assertion b) résulte du fait que le cardinal de toute partie de $m_A$ séca
 
 D’après a), toute partie sécante pour $M$, de cardinal égal à $\dim_A(M)$, est maximale. Il reste à prouver que, si $S$ est sécante pour $M$ et si $\mathrm{Card}(S) < \dim_A(M)$, alors $S$ n’est pas maximale. Soient $a$ l’annulateur de $M$, et $B$ l’anneau local noethérien $A/(a + SA)$. D’après le cor. 2 de la prop. 2 du no 1, il existe un élément $x$ de $m_A$ tel que $\dim(B/xB) = \dim(B) - 1$ d’où $x \notin S$. D’après la remarque 2, la partie $S \cup \{x\}$ de $m_A$ est sécante pour $A/a$, donc pour $M$ d’après la remarque 1.
 
-#### Corollaire {#ac-viii-s3-n2-cor-2 .statement}
+#### Corollaire {#ac-viii-s3-n2-cor-2 .statement tag=0CN3}
 
 La dimension de $M$ est le plus petit des entiers $d \geqslant 0$ pour lesquels il existe une suite $(x_1, ..., x_d)$ d’éléments de $m_A$ telle que le $A$-module $M / \sum_{i=1}^d x_i M$ soit de longueur finie.
 
@@ -220,7 +220,7 @@ Comme $\varnothing$ est une partie sécante pour $M$, le th. 1, b) démontre l�
 
 Rappelons (III, § 3, no 2, déf. 1) qu’un idéal $q$ d’un anneau local noethérien $A$ est un idéal de définition de $A$ si les topologies $q$-adique et $m_A$-adique de $A$ coïncident.
 
-#### Lemme 2 {#ac-viii-s3-lem-2 .statement}
+#### Lemme 2 {#ac-viii-s3-lem-2 .statement tag=0CN4}
 
 Soient $A$ un anneau local noethérien et $q$ un idéal de $A$. Les conditions suivantes sont équivalentes :
 
@@ -234,7 +234,7 @@ En effet, l’équivalence de (i), (ii) et (iv) a été démontrée en III, § 2
 
 Le corollaire du th. 1 permet donc d’énoncer le scholie suivant :
 
-#### Scholie {#ac-viii-s3-n2-sch-1 .statement}
+#### Scholie {#ac-viii-s3-n2-sch-1 .statement tag=0CN5}
 
 La dimension d’un anneau local noethérien A est le plus petit des entiers d ≥ 0 pour lesquels il existe un idéal de définition de A engendré par d éléments.
 
@@ -242,7 +242,7 @@ La dimension d’un anneau local noethérien A est le plus petit des entiers d �
 
 Soient A un anneau noethérien, V = Spec(A) son spectre. Dans ce numéro, on appelle hypersurface dans V toute partie de la forme $^1 V(x)$ avec $x \in A$.
 
-#### Proposition 4 {#ac-viii-s3-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s3-prop-4 .statement tag=0CN6}
 
 Soient X une partie fermée de V, et $H_1, ..., H_m$ des hypersurfaces dans V. Posons $X' = X \cap H_1 \cap ... \cap H_m$.
 
@@ -277,7 +277,7 @@ Si Z est une composante irréductible de X', on a $\operatorname{codim}(Z, X') =
 
 Réciproquement, supposons qu’on ait codim(Z, X) $\leq m$, c’est-à-dire dim(B) $\leq m$. Comme tout élément de $A_p$ est le produit d’un élément inversible de $A_p$ par l’image d’un élément de A, le scholie du n° 2 démontre l’existence d’éléments $x'_1, ..., x'_m$ de A dont les images dans B engendrent un idéal de définition de B. Posons $H'_i = V(x'_i)$ pour $1 \leq i \leq m$. Il est clair que Z est une composante irréductible de $X \cap H'_1 \cap ... \cap H'_m$.
 
-#### Corollaire 1 {#ac-viii-s3-prop-4-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s3-prop-4-cor-1 .statement tag=0CN7}
 
 Soit H une hypersurface non vide dans V. La codimension de H dans V est égale à 0 ou 1.
 
@@ -297,7 +297,7 @@ $$
 
 où Z parcourt l’ensemble des composantes irréductibles de H. Le cor. 1 résulte aussitôt de ces remarques.
 
-#### Corollaire 2 {#ac-viii-s3-prop-4-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s3-prop-4-cor-2 .statement tag=0CN8}
 
 Soient X une partie fermée irréductible de V et H une hypersurface dans V. Trois cas seulement sont possibles :
 
@@ -307,25 +307,25 @@ Soient X une partie fermée irréductible de V et H une hypersurface dans V. Tro
 
 Supposons $X' = X \cap H$ non vide et distinct de X ; toute composante irréductible Z de $X'$ est distincte de X et satisfait à $\operatorname{codim}(Z, X) \leq 1$ d’après la prop. 4, b). Le cor. 2 résulte aussitôt de là.
 
-#### Corollaire 3 {#ac-viii-s3-prop-4-cor-3 .statement}
+#### Corollaire 3 {#ac-viii-s3-prop-4-cor-3 .statement tag=0CN9}
 
 Si A est factoriel (VII, § 3, n° 3, prop. 2), les idéaux premiers de hauteur 1 de A sont les idéaux principaux engendrés par les éléments extrémaux de A. Si de plus A est local, on a $\dim(A/p) = \dim(A) - 1$ pour tout idéal premier $p$ de hauteur 1 de A.
 
 Soit x un élément extrémal de A. Alors Ax est un idéal premier car x est extrémal, de hauteur 1 car A est intègre (n° 1, prop. 1). Soit p un idéal premier de hauteur 1 de A. Alors $V(p)$ est une composante irréductible d’une hypersurface $V(Ax)$ pour un x convenable (prop. 4, c)). Soit $x = \prod_i y_i^{n_i}$ une décomposition de x en produits d’éléments extrémaux tels que $y_i$ et $y_j$ soient étrangers si $i \neq j$. Les composantes irréductibles de $V(Ax)$ sont les $V(Ay_i)$. Donc $p = Ay_i$ pour un i convenable. La dernière assertion résulte du cor. 2 à la prop. 2 du n° 1.
 
-#### Remarque 1 {#ac-viii-s3-n3-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s3-n3-rem-1 .statement tag=0CNA}
 
 Supposons que A soit un anneau local, noethérien et intègre de dimension d ; soit x un élément non nul de m_A et soit H = V(x). D’après le cor. 2 de la prop. 4, toute composante irréductible de H est de codimension 1 dans X, donc de dimension $\leq d - 1$ ($§ 1$, no 2, prop. 3). D’après le cor. 2 de la prop. 2 du no 1, H est de dimension $d - 1$ et l’une de ces composantes est donc de dimension $d - 1$; toutes le sont si A est caténaire. Cependant, il se peut en général qu’il existe une composante irréductible de H de dimension < $d - 1$ (cf. p. 87, exerc. 7).
 
-#### Remarque 2 {#ac-viii-s3-n3-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s3-n3-rem-2 .statement tag=0CNB}
 
 Soient $x_1, ..., x_n$ des éléments de A, et posons $H_i = V(x_i)$ pour $1 \leq i \leq n$. Supposons qu’il existe un A-module M de type fini de support $V = \mathrm{Spec}(A)$, tel que $(x_1, ..., x_n)$ soit une suite complètement sécante pour M. Alors toute composante irréductible de $H_1 \cap ... \cap H_n$ est de codimension n dans V : cela résulte facilement du corollaire de la prop. 3 du no 2.
 
-#### Remarque 3 {#ac-viii-s3-n3-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s3-n3-rem-3 .statement tag=0CNC}
 
 Si l’idéal $\alpha$ de l’anneau noethérien A est engendré par m éléments, on a $\mathrm{ht}(\alpha) \leq m$. Cela résulte aussitôt de la prop. 4.
 
-#### Proposition 5 {#ac-viii-s3-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s3-prop-5 .statement tag=0CND}
 
 Soient A un anneau noethérien et $p \subset q$ une chaîne non saturée d’idéaux premiers de A. L’ensemble E des idéaux premiers r de A tels que $p \subset r \subset q$ soit une chaîne est infini. On a $\bigcup_{r \in E} r = q$ et $\bigcap_{r \in E} r = p$.
 
@@ -335,7 +335,7 @@ D’après le lemme 1 du no 1, on a $q = \bigcup_{r \in E} r$, et la prop. 2 de 
 
 Soit $y \neq 0$ un élément de $\bigcap_{r \in E} r$. La hauteur de q est finie (no 1, cor. 1 de la prop. 2), et l’on a $\mathrm{ht}(q) \geq 2$ par hypothèse. Il existe donc un idéal premier $q' \subset q$ de hauteur 2. La première partie de la démonstration appliquée à $q'$ montre que l’ensemble E’ des idéaux premiers de hauteur 1 contenus dans $q'$ est infini ; chacun de ces idéaux contient y par hypothèse. Or l’anneau local noethérien $B = A_{q'}/yA_{q'}$ est de dimension 1 d’après le cor. 2 de la prop. 2 du no 1. Pour tout $r \in E'$, l’idéal premier $r/yA_{q'}$ de B est donc minimal ; par suite, l’anneau noethérien B a une infinité d’idéaux premiers minimaux, ce qui est absurde (II, $§ 4$, no 3, cor. 3 de la prop. 14). On a donc $\bigcap_{r \in E} r = \{0\}$.
 
-#### Proposition 6 {#ac-viii-s3-prop-6 .statement}
+#### Proposition 6 {#ac-viii-s3-prop-6 .statement tag=0CNE}
 
 Soient A un anneau noethérien de dimension $\geq 2$, et h un entier tel que $0 < h < \dim(A)$.
 
@@ -351,7 +351,7 @@ Il existe des anneaux intègres non noethériens de dimension 2 ne possédant qu
 
 ### 4. Changements d’anneaux
 
-#### Proposition 7 {#ac-viii-s3-prop-7 .statement}
+#### Proposition 7 {#ac-viii-s3-prop-7 .statement tag=0CNF}
 
 Soient $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens, $M$ un $A$-module de type fini et $N$ un $B$-module de type fini. Posons $\overline{B} = B \otimes_A \kappa_A = B/\rho(m_A).B$ et $\overline{N} = N \otimes_B \overline{B} = N/\rho(m_A).N$. On a
 
@@ -406,7 +406,7 @@ $$
 
 et comme l’anneau $B'/\rho'(\mathfrak{m}_{A'}).B'$ est isomorphe à $B/(b + \rho(\mathfrak{m}_A).B)$, notre assertion résulte des formules (13), (14) et (15).
 
-#### Corollaire 1 {#ac-viii-s3-prop-7-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s3-prop-7-cor-1 .statement tag=0CNG}
 
 *Soit $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens.*
 
@@ -441,7 +441,7 @@ $$
 
 car $B'/\rho(\mathfrak{m}_{A'}).B'$ est isomorphe à $\overline{B}$. Notre assertion résulte aussitôt des formules (17), (18) et (19).
 
-#### Corollaire 2 {#ac-viii-s3-prop-7-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s3-prop-7-cor-2 .statement tag=0CNH}
 
 *Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens. On a*
 
@@ -451,7 +451,7 @@ $$
 
 Soient $q$ un idéal premier de $B$ et $p = \rho^{-1}(q)$. D’après le cor. 1, on a $\dim(B_q) \leq \dim(A_p) + \dim(B_q \otimes_A \kappa(p))$. On en déduit (prop. 6, *b*) du § 1, no 3) l’inégalité $\dim(B_q) \leq \dim(A) + \dim(B \otimes_A \kappa(p))$, et on conclut par la prop. 8 du § 1, no 3.
 
-#### Corollaire 3 {#ac-viii-s3-prop-7-cor-3 .statement}
+#### Corollaire 3 {#ac-viii-s3-prop-7-cor-3 .statement tag=0CNI}
 
 Soient $A$ un anneau noethérien et $n$ un entier $\geqslant 0$. On a
 
@@ -461,7 +461,7 @@ $$
 
 Posons $B = A[X_1, ..., X_n]$. Pour tout idéal premier $p$ de $A$, l’anneau $B \otimes_A \kappa(p)$ est un anneau de polynômes à $n$ variables sur un corps, donc est de dimension $n$ ($§ 2$, no 4, cor. 1 au th. 3). D’après le cor. 2, on a $\dim(B) \leqslant \dim(A) + n$; l’inégalité inverse résulte de l’exemple 4 du $§ 1$, no 3.
 
-#### Corollaire 4 {#ac-viii-s3-prop-7-cor-4 .statement}
+#### Corollaire 4 {#ac-viii-s3-prop-7-cor-4 .statement tag=0CNJ}
 
 Soient $\rho : A \to B$ un homomorphisme d’anneaux noethériens, et $a$ un idéal de $A$. On a l’inégalité
 
@@ -481,7 +481,7 @@ $$
 
 d’où le corollaire.
 
-#### Proposition 8 {#ac-viii-s3-prop-8 .statement}
+#### Proposition 8 {#ac-viii-s3-prop-8 .statement tag=0CNK}
 
 Soient $A$ un anneau noethérien, $a$ un idéal de $A$, $M$ un $A$-module de type fini, $\hat{A}$ et $\hat{M}$ les séparés complétés de $A$ et $M$ respectivement pour la topologie $a$-adique.
 
@@ -493,17 +493,17 @@ a) Puisque $\hat{A}/\hat{m}$ s’identifie à $A/m$, $\hat{m}$ est un idéal pre
 
 b) D’après la prop. 8 de III, $§ 3$, no 4, l’application $m \mapsto \hat{m}$ est une bijection de l’ensemble des idéaux maximaux de $A$ contenant $a$ sur l’ensemble des idéaux maximaux de $\hat{A}$. L’assertion b) résulte de là et de la prop. 9 du $§ 1$, no 4.
 
-#### Corollaire 1 {#ac-viii-s3-prop-8-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s3-prop-8-cor-1 .statement tag=0CNL}
 
 Soit $A$ un anneau de Zariski (III, $§ 3$, no 3, déf. 2). Pour tout $A$-module $M$ de type fini, on a $\dim_{\hat{A}}(\hat{M}) = \dim_A(M)$.
 
 En effet, la topologie de $A$ est la topologie $a$-adique, où $a$ est un idéal contenu dans le radical de $A$ (*loc. cit.*), c’est-à-dire contenu dans tout idéal maximal $m$ de $A$. Il suffit donc d’appliquer l’assertion b) de la prop. 8.
 
-#### Corollaire 2 {#ac-viii-s3-prop-8-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s3-prop-8-cor-2 .statement tag=0CNM}
 
 Soient $A$ un anneau noethérien, $a$ un idéal de $A$, et $\hat{A}$ le séparé complété de $A$ pour la topologie $a$-adique. On a $\dim(\hat{A}) \leqslant \dim(A)$, avec égalité lorsque $A$ est local et $a$ distinct de $A$.
 
-#### Corollaire 3 {#ac-viii-s3-prop-8-cor-3 .statement}
+#### Corollaire 3 {#ac-viii-s3-prop-8-cor-3 .statement tag=0CNN}
 
 Soient $A$ un anneau noethérien et $n$ un entier $\geqslant 0$. On a
 
@@ -531,17 +531,17 @@ $$
 
 d’après l’exemple 4 du $§ 1$, no 3.
 
-#### Remarque 1 {#ac-viii-s3-n4-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s3-n4-rem-1 .statement tag=0CNO}
 
 Soient $A$ un anneau noethérien et $a$ un idéal de $A$. Supposons $A$ séparé et complet pour la topologie $a$-adique, et considérons l’anneau $R = A \{ X_1, ..., X_n \}$ des séries formelles restreintes (III, $§ 4$, no 2, déf. 2). On a $\dim(R) = \dim(A) + n$. En effet, $R$ est le complété de l’anneau $B = A[X_1, ..., X_n]$ pour la topologie $aB$-adique, d’où $\dim(R) \leqslant \dim(A[X_1, ..., X_n]) = \dim(A) + n$. L’inégalité inverse se démontre comme dans le cas des séries formelles.
 
-#### Remarque 2 {#ac-viii-s3-n4-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s3-n4-rem-2 .statement tag=0CNP}
 
 Soient $A$ un anneau local noethérien, identifié à un sous-anneau de son complété $\hat{A}$, et $B$ un sous-anneau de $\hat{A}$ contenant $A$. Supposons que $B$ soit local noethérien et que l’on ait $m_A B = m_B$. Alors, l’injection canonique de $A$ dans $B$ s’étend en un isomorphisme de $\hat{A}$ sur le complété $\hat{B}$ de $B$ (III, $§ 3$, no 5, prop. 11), d’où $\dim(B) = \dim(A)$ (cor. 2 à la prop. 8). Ceci s’applique notamment à la situation suivante. \* Soient $k$ un corps valué complet non discret, $A$ l’anneau local de l’anneau de polynômes $k[X_1, ..., X_n]$ en l’idéal premier engendré par $X_1, ..., X_n$, et $B$ l’anneau des séries convergentes en $X_1, ..., X_n$ à coefficients dans $k$. Alors les hypothèses précédentes sont satisfaites, et par conséquent on a $\dim(B) = n$.*
 
 ### 5. Construction de suites sécantes
 
-#### Proposition 9 {#ac-viii-s3-prop-9 .statement}
+#### Proposition 9 {#ac-viii-s3-prop-9 .statement tag=0CNQ}
 
 Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini, $a$ une partie de $A$ stable par addition et multiplication, $q_1, ..., q_m$ des idéaux premiers de $A$ ne contenant pas $a$ et $r \geq 1$ un entier tel que
 
@@ -586,7 +586,7 @@ $$
 
 d’où $X' = \operatorname{Supp}(N)$.
 
-#### Corollaire 1 {#ac-viii-s3-prop-9-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s3-prop-9-cor-1 .statement tag=0CNR}
 
 *Soient A un anneau noethérien, M un A-module de type fini, $p_1, ..., p_n, q_1, ..., q_m$ des idéaux premiers de A et r un entier $\geqslant 1$. On suppose qu’on a $p_i \not\subset q_j$ pour $1 \leqslant i \leqslant n$ et $1 \leqslant j \leqslant m$, et $\dim_{A_{p_i}}(M_{p_i}) \geqslant r$ pour $1 \leqslant i \leqslant n$. Il existe alors une suite $(x_1, ..., x_r)$ d’éléments de A appartenant à tous les $p_i$ et n’appartenant à aucun des $q_j$, telle que, pour $1 \leqslant i \leqslant n$, les images de $x_1, ..., x_r$ dans $A_{p_i}$ forment une suite sécante pour le module $M_{p_i}$.
 
@@ -599,7 +599,7 @@ $$
 
 (§ 1, n° 4, prop. 9), et l’on applique la prop. 9.
 
-#### Corollaire 2 {#ac-viii-s3-prop-9-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s3-prop-9-cor-2 .statement tag=0CNS}
 
 *Soient A un anneau local noethérien, M un A-module non nul de type fini et $\alpha$ une partie de $m_A$, stable par addition et multiplication et telle que $\operatorname{long}(M/\alpha M) < +\infty$. Il existe une partie de $\alpha$ qui est sécante maximale pour M.*
 

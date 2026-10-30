@@ -54,7 +54,7 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: da77df191971c2a2c6d2ca2e9ca1ac50f25e1b8215d7ee9b1e3eb60cd3a721bf
+content_sha256: 72de8a0763fae362b94b4279667e2c1cce5e133dea667d728171d93eba4cd79e
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
 source_content_sha256: 590ff04e9044259e7c29e890ab34382fd3c7b0ccacecc8ccef21483a20c08ef7
 translation_model: gpt-5.4
@@ -108,7 +108,7 @@ Theo định nghĩa, $\mathbf{A}[[\mathrm{I}]]$ không là gì khác ngoài tậ
 
 Với mỗi $\beta \in \mathbf{N}^{(I)}$ ta ký hiệu $S_\beta$ là tập hợp các đa chỉ số $\nu$ sao cho $\nu \leq \beta$ và ký hiệu $a_\beta$ là tập hợp các chuỗi lũy thừa hình thức $u = \sum \alpha_\nu X^\nu$ sao cho $a_\nu = 0$ với $\nu \in S_\beta$. Rõ ràng $S_\beta$ là một tập con hữu hạn của $\mathbf{N}^{(I)}$, và mọi tập con hữu hạn của $\mathbf{N}^{(I)}$ đều được chứa trong một tập hợp dạng $S_\beta$. Suy ra họ $(a_\beta)_{\beta \in \mathbf{N}^{(I)}}$ là một hệ cơ bản các lân cận của 0 trong A[[I]]. Các tập hợp $a_\beta$ là các iđêan trong A[[I]], do đó (Gen. Top., III, p. 275) A[[I]] là một vành tôpô.
 
-#### Bổ đề 1 {#alg-iv-s4-lem-1 .statement}
+#### Bổ đề 1 {#alg-iv-s4-lem-1 .statement tag=06BY}
 
 Cho $L$ là một tập vô hạn và $(u_\lambda)_{\lambda \in L}$ một họ các phần tử của $A[[I]]$, và đặt $u_\lambda = \sum \alpha_{\lambda,v} X^v$ với $\lambda \in L$. Khi đó các điều kiện sau là tương đương:
 (i) Họ $(u_\lambda)_{\lambda \in L}$ là khả tổng (Gen. Top., III, p. 262) trong $A[[I]]$.
@@ -128,11 +128,11 @@ b) Cho $u \in A[[I]]$; với mỗi số nguyên $p \geq 0$ gọi $u_p$ là thàn
 
 c) Cho $(u_\lambda)_{\lambda \in L}$ là một họ các phần tử của $A[[I]]$ và giả sử rằng với mỗi số nguyên $n \geq 0$ tập hợp các $\lambda \in L$ sao cho $\omega(u_\lambda) < n$ là hữu hạn. Khi đó họ $(u_\lambda)_{\lambda \in L}$ là khả tổng.
 
-#### Nhận xét {#alg-iv-s4-n2-rem-1 .statement}
+#### Nhận xét {#alg-iv-s4-n2-rem-1 .statement tag=06BZ}
 
 — Giả sử rằng $I$ là *hữu hạn*. Với mỗi số nguyên $n \geq 0$ gọi $b_n$ là tập hợp các chuỗi lũy thừa hình thức $u \in A[[I]]$ sao cho $\omega(u) \geq n$. Dãy $(b_n)_{n \geq 0}$ là một hệ cơ bản các lân cận của 0 trong $\mathbf{A}[[\mathbf{I}]]$. Vì vậy một họ các phần tử $u_\lambda$ của $\mathbf{A}[[\mathbf{I}]]$ ($\lambda \in L$) là khả tổng khi và chỉ khi với mọi $n \in \mathbf{N}$ tập hợp các $\mathbf{A} \in L$ sao cho $\omega(u_\lambda) < n$ là hữu hạn.
 
-#### Mệnh đề 1 {#alg-iv-s4-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iv-s4-prop-1 .statement tag=06C0}
 
 *Cho* $(u_\lambda)_{\lambda \in L}$ *và* $(v_\mu)_{\mu \in \mathscr{J}}$ *là hai họ khả tổng các phần tử của* $\mathbf{A}[[\mathbf{I}]]$. *Khi đó họ* $(u_\lambda v_\mu)_{(\lambda, \mu) \in \mathscr{J} \times M}$ *là khả tổng và ta có*
 
@@ -144,7 +144,7 @@ Gọi $(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(I)}}$ (resp. $(\beta_{\mu, 
 
 Trong $\mathbf{A}[[\mathbf{I}]]$ tích là một luật hợp thành kết hợp và giao hoán. Do đó ta có thể nói về một *họ khả nhân* các phần tử của $\mathbf{A}[[\mathbf{I}]]$ và về *tích* của một họ khả nhân (Gen. Top., III, p. 262, nhận xét 3).
 
-#### Mệnh đề 2 {#alg-iv-s4-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iv-s4-prop-2 .statement tag=06C1}
 
 *Cho* $(u_\lambda)_\lambda$ *là một họ khả tổng các phần tử của* $\mathbf{A}[[\mathbf{I}]]$.
 (i) *Họ* $(1 + u_\lambda)_\lambda$ *là khả nhân*.
@@ -162,7 +162,7 @@ $$
 
 Lấy theo tập hợp có thứ tự lọc $\mathfrak{T}$, vế trái có giới hạn là $\sum_{M \in \mathfrak{T}} u_M$. Vậy vế phải có giới hạn là $\sum_{M \in \mathfrak{T}} u_M$, điều này chứng minh đồng thời (i) và (ii).
 
-#### Mệnh đề 3 {#alg-iv-s4-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iv-s4-prop-3 .statement tag=06C2}
 
 *Cho* $u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *và* $m$ *là một số nguyên* $> 0$. *Với mọi* $n \in \mathbf{N}$ *gọi* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(I)}}$ *là họ các hệ số của* $u^n$. *Nếu* $\alpha_0^m = 0$, *thì* $\alpha_{\nu, n} = 0$ *với* $n \geq |\nu| + m$.
 
@@ -174,7 +174,7 @@ $$
 
 Nếu $n \geq |\nu| + m$ và $\nu(1) + \cdots + \nu(n) = v$, ta có $|\nu(1)| + \cdots + |\nu(n)| \leq n - m$. Vì thế có ít nhất $m$ giá trị phân biệt của $r$ sao cho $v(r) = 0$ và do đó $\alpha_{v(r)} = a_r$; suy ra $\alpha_{\nu(1)} \cdots \alpha_{\nu(n)} = 0$, do đó có kết quả.
 
-#### Hệ quả {#alg-iv-s4-n2-cor-1 .statement}
+#### Hệ quả {#alg-iv-s4-n2-cor-1 .statement tag=06C3}
 
 — Cho $u \in A[[I]]$; khi đó điều kiện cần và đủ để có $\lim_{n \to \infty} u^n = 0$ là số hạng hằng của $u$ phải lũy linh.
 
@@ -184,7 +184,7 @@ Gọi $a_0$ là số hạng hằng của $u$. Số hạng hằng của $u^n$ là
 
 Cho $E$ là một $A$-đại số. Một tôpô trên $E$ được gọi là tuyến tính nếu nó bất biến đối với phép tịnh tiến và nếu tồn tại một hệ cơ bản các lân cận của 0 gồm các iđêan của $E$ (Gen. Top., III, p. 223). Khi đó tôpô trên $E$ tương thích với cấu trúc $A$-đại số của nó (khi $A$ mang tôpô rời rạc). Một $A$-đại số có tôpô tuyến tính được gọi là một $A$-đại số tôpô tuyến tính.
 
-#### Mệnh đề 4 {#alg-iv-s4-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iv-s4-prop-4 .statement tag=06C4}
 
 — Cho $I$ là một tập hợp và $E$ là một $A$-đại số kết hợp, giao hoán, có đơn vị, tách biệt, đầy đủ, tôpô tuyến tính.
 
@@ -239,7 +239,7 @@ $$
 
 ### 4. Chuỗi lũy thừa hình thức khả nghịch
 
-#### Mệnh đề 5 {#alg-iv-s4-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iv-s4-prop-5 .statement tag=06C5}
 
 — *Trong vành $A[[T]]$ các chuỗi lũy thừa hình thức theo một bất định, đa thức $1 - T$ là khả nghịch, và ta có* $(1 - T)^{-1} = \sum_{n=0}^m T^n$.
 
@@ -248,7 +248,7 @@ $$
 (1 - T) \left( \sum_{n=0}^\infty T^n \right) = \sum_{n=0}^\infty T^n - \sum_{n=0}^\infty T^{n+1} = 1.
 $$
 
-#### Mệnh đề 6 {#alg-iv-s4-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iv-s4-prop-6 .statement tag=06C6}
 
 — *Cho $u \in A[[I]]$; khi đó để $u$ khả nghịch trong $A[[T]]$ thì điều kiện cần và đủ là số hạng hằng của nó khả nghịch trong $A$.*
 
@@ -256,7 +256,7 @@ Giả sử tồn tại $v \in A[[I]]$ sao cho $uv = 1$. Gọi $a, \beta$ là cá
 
 Ngược lại, giả sử số hạng hằng $a$ của $u$ là khả nghịch. Khi đó tồn tại một chuỗi lũy thừa hình thức $t \in A[[I]]$ sao cho $u = \alpha (1 - t)$ và $\omega(t) > 0$. Bây giờ có một đồng cấu vành $\varphi : A[[T]] \to A[[I]]$ sao cho $\varphi(T) = t$, và $1 - T$ khả nghịch trong $A[[T]]$ (Mệnh đề 5); do đó $1 - t$ khả nghịch trong $A[[I]]$, và vì thế $u$ cũng vậy.
 
-#### Nhận xét {#alg-iv-s4-n4-rem-1 .statement}
+#### Nhận xét {#alg-iv-s4-n4-rem-1 .statement tag=06C7}
 
 — Gọi $A$ là tập hợp tất cả các chuỗi lũy thừa hình thức có số hạng hằng bằng 1. Theo Mệnh đề 6, $M$ là một nhóm giao hoán đối với phép nhân; vì vậy nhóm nhân của $A[[I]]$ là tích trực tiếp của $M$ và nhóm nhân của $A$. Ta sẽ trang bị cho $A$ tôpô cảm sinh từ tôpô của $A[[I]]$. Với mỗi $\beta \in \mathbf{N}^{(I)}$ ta đã định nghĩa trong IV, p. 26 iđêan $a_\beta$ của $A[[I]]$; khi đó $1 + a_\beta$ là một nhóm con của $M$ và họ $(1 + a_{\beta'})$ là một hệ cơ bản các lân cận của 1 trong $M$. Vì phép nhân trong $M$ là liên tục, suy ra $A$ là một nhóm tôpô (Gen. Top., III, p. 223); nói cách khác, *ánh xạ* $f \mapsto f^{-1}$ *liên tục trong* $M$.
 
@@ -314,7 +314,7 @@ $$
 u(\mathbf{X}) = \sum \frac{1}{\nu!} D^\nu u(0) \cdot \mathbf{X}^\nu.
 $$
 
-#### Nhận xét {#alg-iv-s4-n5-rem-1 .statement}
+#### Nhận xét {#alg-iv-s4-n5-rem-1 .statement tag=0DHH}
 
 *1) Ta thường nói rằng $D_i u$ là *đạo hàm riêng của u theo X*, ; ta cũng dùng ký hiệu $D_{x_i} u, \frac{\partial u}{\partial x_i}$ và $u'_{x_i}$. Đối với một bất định duy nhất X, đạo hàm riêng duy nhất $Du$ (cũng viết là $\frac{du}{dX}$ hoặc $u'$) được gọi là *đạo hàm* của $u$.
 
@@ -330,7 +330,7 @@ D(uv) = u(x) \cdot D(v) + D(u) \cdot v(x)
 $$
 với $u, v$ trong $A[[I]]$.
 
-#### Mệnh đề 7 {#alg-iv-s4-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iv-s4-prop-7 .statement tag=06C8}
 
 — Cho $(y_i)_{i \in I}$, là một họ các phần tử của E. Khi I là vô hạn, *ta* giả sử rằng $y_i$ tiến tới 0 theo bộ lọc các phần bù của các tập con hữu hạn của I. Khi đó tồn tại một A-đạo hàm liên tục duy nhất D của $A[[I]]$ vào $A[[I]]$*-môđun* E sao cho $D(X_i) = y_i$ với mọi $i \in I$. Ta có
 $$
@@ -341,7 +341,7 @@ Vì 0 có trong E một hệ cơ bản các lân cận gồm các iđêan, nên 
 
 Cho $D_1$ là một A-đạo hàm liên tục của $A[[I]]$ vào E, sao cho $D_1(X_i) = y_i$ với mọi $i \in I$. Hạt nhân của đạo hàm liên tục $D - D_1$ là một đại số con đóng B của $\mathbf{A}[[\mathbf{I}]]$ chứa 1 và các bất định $X_i$. Vì đại số đa thức $\mathbf{A}[(X_i)_{i \in I}]$ trù mật trong $\mathbf{A}[[\mathbf{I}]]$, ta có $B = \mathbf{A}[[\mathbf{I}]]$ và do đó $D_1 = D$.
 
-#### Hệ quả 1 {#alg-iv-s4-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#alg-iv-s4-prop-7-cor-1 .statement tag=06C9}
 
 — *Cho A là một đạo hàm liên tục của A-đại số E. Với mọi chuỗi lũy thừa hình thức $u \in \mathbf{A}[[\mathbf{I}]]$ họ $((D_iu)(x) \cdot \Delta x_i)_{i \in I}$ là khả tổng và ta có*
 
@@ -351,7 +351,7 @@ $$
 
 Điều này suy ra từ Mệnh đề 7 vì ánh xạ $u \mapsto \Delta(u(x))$ là một đạo hàm liên tục của $\mathbf{A}[[\mathbf{I}]]$ vào E-môđun $\mathbf{A}[[\mathbf{I}]]$.
 
-#### Hệ quả 2 {#alg-iv-s4-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#alg-iv-s4-prop-7-cor-2 .statement tag=06CA}
 
 — *Đạo hàm $D_i$ là đạo hàm liên tục duy nhất của A-đại số $\mathbf{A}[[\mathbf{I}]]$ sao cho*
 
@@ -361,7 +361,7 @@ $$
 
 Điều này suy ra từ Hệ quả 1.
 
-#### Hệ quả 3 {#alg-iv-s4-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#alg-iv-s4-prop-7-cor-3 .statement tag=06CB}
 
 — *Cho $f \in \mathbf{A}[[X_1, ..., X_s]]$ và $g_i \in \mathbf{A}[[Y_1, ..., Y_q]]$ với $1 \leq i \leq p$. Giả sử rằng với $1 \leq i \leq p$ số hạng hằng của $g_i$ bằng không, và đặt $h = f(g_1, ..., g_p)$. Khi đó với $1 \leq j \leq q$ ta có*
 
@@ -371,7 +371,7 @@ $$
 
 Đây là trường hợp riêng $E = \mathbf{A}[[Y_1, ..., Y_s]]$, $x_i = q_i$ và $A = \partial / \partial Y_j$ của Hệ quả 1.
 
-#### Mệnh đề 8 {#alg-iv-s4-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iv-s4-prop-8 .statement tag=06CC}
 
 — *Cho $X = (X_i)_i$, là một họ hữu hạn các bất định.
 (i) Mọi đạo hàm của vành các chuỗi lũy thừa hình thức $\mathbf{A}[[X]]$ đều liên tục.
@@ -397,7 +397,7 @@ Sau cùng, $A[X]$ trù mật trong $A[[X]]$ và mọi đạo hàm của $A[[X]]$
 
 Còn phải chứng minh (iii). Công thức (18) (IV, p. 33) cho thấy họ $(D_i)_{i \in I}$ độc lập tuyến tính trên $A[[X]]$, và công thức (16) (IV, p. 32), áp dụng trong trường hợp $E = A[[X]]$, cho thấy mọi đạo hàm $A$ là một tổ hợp tuyến tính của các $D_i$ với các hệ số trong $A[[X]]$.
 
-#### Mệnh đề 9 {#alg-iv-s4-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iv-s4-prop-9 .statement tag=06CD}
 
 — Cho $(u_\lambda)_{\lambda \in L}$ là một họ *khả tổng* gồm các phần tử của $A[[I]]$ không có số hạng hằng và $D$ là một đạo hàm liên tục của $A$-đại số $A[[I]]$. Nếu $f = \prod_{\lambda \in L} (1 + u_\lambda)$ (IV, p. 27, Prop. 2), thì họ $(Du_\lambda/(1 + u_\lambda))_{\lambda \in L}$ là khả tổng và ta có
 
@@ -433,7 +433,7 @@ Bây giờ Mệnh đề 9 suy ra bằng cách chuyển sang giới hạn trong (
 
 ### 7. Nghiệm của các phương trình trong một vành chuỗi lũy thừa hình thức
 
-#### Bổ đề 2 {#alg-iv-s4-lem-2 .statement}
+#### Bổ đề 2 {#alg-iv-s4-lem-2 .statement tag=06CE}
 
 *Cho* $(g_i)_i$ *là một họ các phần tử cấp* $\geq 2$ *trong* $\mathbf{A}[[\mathbf{I}]]$. *Khi* $\mathbf{I}$ *là vô hạn, giả sử rằng* $g_i$ *tiến đến 0 theo bộ lọc các phần bù của các tập con hữu hạn của* $\mathbf{I}$. *Tồn tại một và chỉ một tự đẳng cấu* T *của* A*-đại số tôpô* $\mathbf{A}[[\mathbf{I}]]$ *sao cho* $T(X_i) = X_i + g_i$ *với mọi* $i \in \mathbf{I}$. *Hơn nữa,*
 
@@ -513,7 +513,7 @@ $$
 
 $^1$ Đôi khi $T_f$ được gọi là ánh xạ tuyến tính tiếp xúc với $f$.
 
-#### Mệnh đề 10 {#alg-iv-s4-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iv-s4-prop-10 .statement tag=06CF}
 
 — Cho $f \in A\{I\}$; khi đó các điều kiện sau là tương đương :
 (i) $f$ khả nghịch trong $A\{I\}$ đối với luật $\circ$;
@@ -521,7 +521,7 @@ $^1$ Đôi khi $T_f$ được gọi là ánh xạ tuyến tính tiếp xúc vớ
 
 Việc (i) $\Rightarrow$ (ii) là ngay lập tức theo (28). Bây giờ giả sử rằng $T_f$ khả nghịch trong $\mathrm{End}(A^{(I)})$. Tồn tại $g = (g_i)_i \in A\{I\}$ sao cho mỗi $g_i$ là thuần nhất bậc $l$ và $T_g \circ T_f$ là ánh xạ đồng nhất của $A^{(I)}$. Đặt $h = g \circ f$; khi đó (28) cho thấy rằng $T_h$ là ánh xạ đồng nhất của $A^{(I)}$, điều này tương đương với mệnh đề $\omega(h_i - X_i) \geq 2$. Do Bổ đề 2 của IV, p. 35, vì thế $h$ khả nghịch trong $A\{I\}$. Rõ ràng $g$ khả nghịch trong $A\{I\}$, do đó $f$ khả nghịch trong $A\{I\}$.
 
-#### Hệ quả {#alg-iv-s4-n7-cor-1 .statement}
+#### Hệ quả {#alg-iv-s4-n7-cor-1 .statement tag=06CG}
 
 — Cho $f_i(Y_1, Y_2, \ldots, Y_q, X_1, X_2, \ldots, X_p)$ ($1 \leq i \leq q$) là $q$ chuỗi lũy thừa hình thức không có số hạng hằng trong $A[[Y_1, \ldots, Y_q, X_1, \ldots, X_p]]$. Nếu số hạng hằng của chuỗi lũy thừa hình thức $D = \det \left( \frac{\partial f_i}{\partial Y_j} \right)$ khả nghịch trong $A$, thì tồn tại chính xác một hệ gồm $q$ chuỗi lũy thừa hình thức $u_1(X_1, \ldots, X_p), \ldots, u_q(X_1, \ldots, X_p)$ sao cho
 $$
@@ -557,7 +557,7 @@ và khi thay $u_i$ cho $Y_i$ với $1 \leq i \leq q$ trong (32), ta được (31
 
 ### 8. Chuỗi lũy thừa hình thức trên một miền nguyên
 
-#### Mệnh đề 11 {#alg-iv-s4-prop-11 .statement}
+#### Mệnh đề 11 {#alg-iv-s4-prop-11 .statement tag=06CH}
 
 — Giả sử rằng $A$ là một miền nguyên.
 
@@ -577,7 +577,7 @@ Gọi a (resp. b) là thành phần thuần nhất bậc $p$ (resp. $q$) của $
 
 Nếu K là một trường giao hoán, ta sẽ ký hiệu bởi $K((X))$ trường phân thức của miền nguyên $K[[X]]$.
 
-#### Mệnh đề 12 {#alg-iv-s4-prop-12 .statement}
+#### Mệnh đề 12 {#alg-iv-s4-prop-12 .statement tag=06CI}
 
 — *Mọi phần tử khác không* $u$ *của* $K((X))$ *đều có thể viết một cách duy nhất dưới dạng* $u = X^k v$, *trong đó* $k \in \mathbf{Z}$ *và* $v$ *là một chuỗi lũy thừa hình thức theo* $X$ *có cấp* 0.
 
@@ -607,7 +607,7 @@ Vì vành $K[X]$ là một vành con của $K[[X]]$, mọi phân thức hữu t�
 
 Bởi chuỗi lũy thừa hàm mũ ta hiểu phần tử $\sum_{n \geq 0} \frac{X^n}{n!}$ của $Q[[X]]$; nó sẽ được ký hiệu là exp X hoặc $e^X$.
 
-#### Mệnh đề 13 {#alg-iv-s4-prop-13 .statement}
+#### Mệnh đề 13 {#alg-iv-s4-prop-13 .statement tag=06CJ}
 
 — Trong $Q[[X, Y]]$ ta có $e^{X+Y} = e^X e^Y$.
 
@@ -651,7 +651,7 @@ $$
 D(l(X)) = \sum_{n \geq 0} (-X)^n = (1+X)^{-1}.
 $$
 
-#### Mệnh đề 14 {#alg-iv-s4-prop-14 .statement}
+#### Mệnh đề 14 {#alg-iv-s4-prop-14 .statement tag=06CK}
 
 — Ta có $l(e(X)) = e(l(X)) = X$.
 

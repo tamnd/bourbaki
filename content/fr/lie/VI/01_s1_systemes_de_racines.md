@@ -60,7 +60,7 @@ subsections:
       pdf_page: 170
 statements: 76
 exercises: 24
-content_sha256: f589f9c66d5dc049157fadfb4cab1add595be84cdcf4c16c98f7600c5f84106f
+content_sha256: c5f33f48628b051674d00fb883e763d61fe051d7096ef9f07e4cf9e54238126c
 ---
 
 ## § 1. Systèmes de racines
@@ -69,7 +69,7 @@ Dans ce paragraphe, $k$ désigne un corps de caractéristique zéro. À partir d
 
 ### 1. Définition d’un système de racines
 
-#### Lemme 1 {#lie-vi-s1-lem-1 .statement}
+#### Lemme 1 {#lie-vi-s1-lem-1 .statement tag=0AU4}
 
 Soient $V$ un espace vectoriel sur $k$, $R$ une partie finie de $V$ engendrant $V$. Pour tout $\alpha \in \mathbf{R}$ tel que $\alpha \neq 0$, il existe au plus une réflexion $s$ de $V$ telle que $s(\alpha) = -\alpha$ et $s(R) = R$.
 
@@ -93,7 +93,7 @@ $$
 
 En prenant $n$ égal à $m$, on voit que $mf(x) = 0$ pour tout $x \in V$, d’où $f = 0$, $t = 1$, et $s = s'$.
 
-#### Définition 1 {#lie-vi-s1-def-1 .statement}
+#### Définition 1 {#lie-vi-s1-def-1 .statement tag=0AU5}
 
 Soient $V$ un espace vectoriel sur $k$, et $R$ une partie de $V$. On dit que $R$ est un système de racines dans $V$ si les conditions suivantes sont vérifiées :
 (SR_I) $R$ est fini, ne contient pas $0$, et engendre $V$.
@@ -112,7 +112,7 @@ Les automorphismes de $V$ qui laissent stable $R$ s’appellent les automorphism
 
 Remarque 1). — Soit $k'$ une extension de $k$. Identifions canoniquement $V$ à un sous-ensemble de $V \otimes k'$ et $V^*$ à un sous-ensemble de $V^* \otimes k' = (V \otimes k')^*$. Alors, $R$ est un système de racines dans $V \otimes k'$, et les $\alpha^\vee$ sont les mêmes que précédemment.
 
-#### Lemme 2 {#lie-vi-s1-lem-2 .statement}
+#### Lemme 2 {#lie-vi-s1-lem-2 .statement tag=0AU7}
 
 Soit $R$ un système de racines dans $V$. Soit $(x|y)$ une forme bilinéaire symétrique sur $V$, non dégénérée, invariante par $W(R)$. Identifions $V$ à $V^*$ grâce à cette forme. Si $\alpha \in R$, $\alpha$ est non isotrope et
 
@@ -122,7 +122,7 @@ $$
 
 Cela résulte de la formule (4) du Chap. V, § 2, n° 3.
 
-#### Proposition 1 {#lie-vi-s1-prop-1 .statement}
+#### Proposition 1 {#lie-vi-s1-prop-1 .statement tag=0AU8}
 
 Soit $V_Q$ (resp. $V_Q^*$) le sous-$\mathbf{Q}$-espace vectoriel de $V$ (resp.$V^*$) engendré par les $\alpha$ (resp. les $\alpha^\vee$). Alors $V_Q$ (resp. $V_Q^*$) est une $\mathbf{Q}$-structure sur $V$ (resp. $V^*$) (Alg., chap. II, 3e éd., § 8, n° 1). La restriction à $V_Q \times V_Q^*$ de la forme bilinéaire canonique de $V \times V^*$ permet d’identifier chacun des espaces $V_Q, V_Q^*$ au dual de l’autre. L’ensemble $R$ est un système de racines dans $V_Q$.
 
@@ -132,7 +132,7 @@ Remarques 2). — Grâce à la prop. 1, on peut ramener l’étude des systèmes
 
 3) Puisque les $\alpha^\vee$ engendrent $V^*$, le groupe $W(R)$, considéré comme sous-groupe de $\mathbf{GL}(V_R)$, est essentiel (chap. V, § 3, n° 7). De plus, le cor. du th. 1 du chap. V, § 3, n° 2 montre que les seules réflexions appartenant à $W(R)$ sont les $s_\alpha$.
 
-#### Proposition 2 {#lie-vi-s1-prop-2 .statement}
+#### Proposition 2 {#lie-vi-s1-prop-2 .statement tag=0AUB}
 
 *Les $\alpha^\vee$ forment un système de racines dans $V^*$, et on a $\alpha^{\vee\vee} = \alpha$ pour tout $\alpha \in R$.*
 
@@ -144,7 +144,7 @@ Comme $s_\alpha(\alpha) = -\alpha$, l’axiome (SR_{II}) montre que $-R = R$. On
 
 L’égalité $t(s_{\alpha, \alpha^\vee})^{-1} = s_{\alpha^\vee, \alpha}$ prouve que l’application $u \mapsto t_u^{-1}$ est un isomorphisme du groupe $W(R)$ sur le groupe $W(R^\vee)$. On identifie ces deux groupes par cet isomorphisme; autrement dit, on considère $W(R)$ comme opérant dans $V$ et dans $V^*$. De même pour $A(R)$.
 
-#### Proposition 3 {#lie-vi-s1-prop-3 .statement}
+#### Proposition 3 {#lie-vi-s1-prop-3 .statement tag=0AUC}
 
 *Pour $x, y \in V$, posons*
 $$
@@ -164,7 +164,7 @@ puisque $(t_g)(R^\vee) = R^\vee$. Si $x, y \in V_Q$, on a $(x|y) \in \mathbf{Q}$
 
 n° 1.1.
 
-#### Proposition 4 {#lie-vi-s1-prop-4 .statement}
+#### Proposition 4 {#lie-vi-s1-prop-4 .statement tag=0AUD}
 
 (i) Soit $X$ une partie de $\mathbf{R}$, soit $V_X$ le sous-espace vectoriel de $V$ engendré par $X$, et soit $V'_X$ le sous-espace vectoriel de $V^*$ engendré par les $\alpha^\vee$, où $\alpha \in X$. Alors $V$ est somme directe de $V_X$ et du sous-espace orthogonal à $V'_X$, $V^*$ est somme directe de $V'_X$ et du sous-espace orthogonal à $V_X$, et $V'_X$ s’identifie au dual de $V_X$.
 
@@ -172,7 +172,7 @@ n° 1.1.
 
 Grâce à la remarque 2, on peut supposer que $k = \mathbf{R}$. Identifions $V$ à $V^*$ grâce à la forme bilinéaire symétrique de la prop. 3. On a $\alpha^\vee = \frac{2\alpha}{(\alpha|\alpha)}$ pour tout $\alpha \in \mathbf{R}$ (lemme 2). Tout sous-espace vectoriel de $V$ est non isotrope, et la proposition est alors évidente.
 
-#### Corollaire {#lie-vi-s1-n1-cor-1 .statement}
+#### Corollaire {#lie-vi-s1-n1-cor-1 .statement tag=0AUE}
 
 Soit $V_1$ un sous-espace vectoriel de $V$, et soit $V_2$ le sous-espace vectoriel engendré par $R \cap V_1$. Alors $R \cap V_1$ est un système de racines dans $V_2$.
 
@@ -216,7 +216,7 @@ Soit V un espace vectoriel sur k, somme directe d’une famille $(V_i)_{1 \leq i
 
 On dit qu’un système de racines R est *irréductible* si $R \neq \emptyset$ et si R n’est pas somme directe de deux systèmes de racines non vides.
 
-#### Proposition 5 {#lie-vi-s1-prop-5 .statement}
+#### Proposition 5 {#lie-vi-s1-prop-5 .statement tag=0AUF}
 
 *Soit V un espace vectoriel sur k, somme directe de sous-espaces vectoriels $V_1, \ldots, V_r$. Soit R un système de racines dans V. Posons $R_i = R \cap V_i$. Les trois conditions suivantes sont équivalentes*:
 (i) les $V_i$ sont stables par $W(R)$;
@@ -227,7 +227,7 @@ On dit qu’un système de racines R est *irréductible* si $R \neq \emptyset$ e
 (i) $\Longrightarrow$ (ii): supposons les $V_i$ stables par $W(R)$. Soit $\alpha \in R$, et soit H le noyau de $\alpha^\vee$. D’après la prop. 3 du chap. V, § 2, no 2, chaque $V_i$ est somme d’un sous-espace de H et d’un sous-espace de $k\alpha$. Donc l’un des $V_i$ contient $k\alpha$, d’où $\alpha \in V_1 \cup V_2 \cup \cdots \cup V_r$.
 (ii) $\Longrightarrow$ (iii): si la condition (ii) est remplie, $R_i$ engendre $V_i$ pour tout $i$, donc $R_i$ est un système de racines dans $V_i$ (prop. 4). Il est clair que R est la somme directe des $R_i$.
 
-#### Corollaire {#lie-vi-s1-n2-cor-1 .statement}
+#### Corollaire {#lie-vi-s1-n2-cor-1 .statement tag=0AUG}
 
 *Soit R un système de racines dans V. Les conditions suivantes sont équivalentes*:
 (i) R est irréductible;
@@ -236,7 +236,7 @@ On dit qu’un système de racines R est *irréductible* si $R \neq \emptyset$ e
 (ii) $\Longleftrightarrow$ (i): cela résulte de la prop. 5 et du th. de Maschke (chap. V, Annexe, prop. 2).
 (iii) $\Longleftrightarrow$ (ii): cela résulte de la prop. 1 du chap. V, § 2, no 1.
 
-#### Proposition 6 {#lie-vi-s1-prop-6 .statement}
+#### Proposition 6 {#lie-vi-s1-prop-6 .statement tag=0AUH}
 
 *Tout système de racines R dans V est somme directe d’une famille $(R_i)_{i \in I}$ de systèmes de racines irréductibles, qui est bien déterminée à une bijection près sur l’ensemble d’indices.*
 
@@ -244,7 +244,7 @@ L’existence des $R_i$ se démontre par récurrence sur Card $R$: si $R$ est no
 
 On dit que les $R_i$ sont les composants irréductibles de $R$. Quels que soient les scalaires $\lambda_i$ non nuls, la réunion des $\lambda_i R_i$ est un système de racines dans $V$, dont le système inverse est la réunion des $\lambda_i^{-1} R_i$, et dont le groupe de Weyl est $W(R)$.
 
-#### Proposition 7 {#lie-vi-s1-prop-7 .statement}
+#### Proposition 7 {#lie-vi-s1-prop-7 .statement tag=0AUI}
 
 *Soient $R$ un système de racines dans $V$, $(R_i)$ la famille de ses composants irréductibles, $V_i$ le sous-espace vectoriel de $V$ engendré par $R_i$, B la forme bilinéaire symétrique définie dans la prop. 3, $B'$ une forme bilinéaire symétrique sur $V$ invariante par $W(R)$. Alors les $V_i$ sont deux à deux orthogonaux pour $B'$, et, pour tout $i$, les restrictions de $B$ et $B'$ à $V_i$ sont proportionnelles.*
 
@@ -256,7 +256,7 @@ ce qui montre que $w(v_j) - v_j$ est orthogonal à $v_i$ pour $B'$. Comme $V_j$ 
 
 Le fait que les restrictions de $B$ et $B'$ à chacun des $V_i$ soient proportionnelles résulte de la prop. 1 du chap. V, § 2, no 1.
 
-#### Remarque {#lie-vi-s1-n2-rem-1 .statement}
+#### Remarque {#lie-vi-s1-n2-rem-1 .statement tag=0AUJ}
 
 Choisissons un produit scalaire sur $V_R$ invariant par $W(R)$. Cela permet de parler de la *longueur* d’une racine et de l’*angle* de deux racines. La prop. 7 montre que cet angle est indépendant du choix du produit scalaire, et qu’il en est de même du rapport des longueurs de deux racines, pourvu que celles-ci appartiennent à la *même* composante irréductible de $R$.
 
@@ -298,7 +298,7 @@ L’entier $n(\alpha, \beta)n(\beta, \alpha)$ ne peut donc prendre que les valeu
 
 En particulier :
 
-#### Proposition 8 {#lie-vi-s1-prop-8 .statement}
+#### Proposition 8 {#lie-vi-s1-prop-8 .statement tag=0AUK}
 
 (i) *Si deux racines sont proportionnelles, le facteur de proportionalité ne peut être que $\pm 1, \pm \frac{1}{2}, \pm 2$.*
 
@@ -306,7 +306,7 @@ En particulier :
 
 Si une racine $\alpha \in \mathbf{R}$ est telle que $\frac{1}{2}\alpha \in \mathbf{R}$, on dit que $\alpha$ est une racine *indivisible*.
 
-#### Théorème 1 {#lie-vi-s1-thm-1 .statement}
+#### Théorème 1 {#lie-vi-s1-thm-1 .statement tag=0AUL}
 
 *Soient $\alpha, \beta$ deux racines.*
 (i) *Si $n(\alpha, \beta) > 0$, $\alpha - \beta$ est une racine sauf si $\alpha = \beta$.*
@@ -320,7 +320,7 @@ Ceci prouve (i), et (ii) s’en déduit en changeant $\beta$ en $-\beta$.
 
 n° 1.3.
 
-#### Corollaire {#lie-vi-s1-n3-cor-1 .statement}
+#### Corollaire {#lie-vi-s1-n3-cor-1 .statement tag=0AUM}
 
 Soient $\alpha$ et $\beta$ deux racines.
     (i) Si $(\alpha|\beta) > 0$, $\alpha - \beta$ est une racine sauf si $\alpha = \beta$.
@@ -331,7 +331,7 @@ Les assertions (i) et (ii) résultent du th. 1 et de la formule (7) du n° 1. L�
 
 Il peut se faire que $\alpha + \beta \in \mathbf{R}$, $(\alpha|\beta) = 0$ (cf. planche X, système $B_2$). Lorsque $\alpha - \beta \in \mathbf{R} \cup \{0\}$ et $\alpha + \beta \in \mathbf{R} \cup \{0\}$, on dit que les racines $\alpha$ et $\beta$ sont fortement orthogonales.
 
-#### Proposition 9 {#lie-vi-s1-prop-9 .statement}
+#### Proposition 9 {#lie-vi-s1-prop-9 .statement tag=0AUN}
 
 Soient $\alpha$ et $\beta$ deux racines non proportionnelles.
     (i) L’ensemble $I$ des entiers rationnels $j$ tels que $\beta + j\alpha$ soit une racine est un intervalle $(-q, p)$ de $\mathbf{Z}$ contenant 0.
@@ -351,7 +351,7 @@ On a $s_\alpha(\beta + j\alpha) = \beta - n(\beta, \alpha)\alpha - j\alpha = \be
 
 On dit que $S$ est la $\alpha$-chaîne de racines définie par $\beta$, que $\beta - q\alpha$ est l’origine de la chaîne et $\beta + p\alpha$ son extrémité, et que $p + q$ est sa longueur.
 
-#### Corollaire {#lie-vi-s1-n3-cor-2 .statement}
+#### Corollaire {#lie-vi-s1-n3-cor-2 .statement tag=0AUO}
 
 Soient $S$ une $\alpha$-chaîne de racines, $\gamma$ l’origine de $S$. La longueur de $S$ est $-n(\gamma, \alpha)$; elle est égale à 0, 1, 2 ou 3.
 
@@ -359,7 +359,7 @@ La première assertion résulte de la prop. 9, (iii), appliquée à $\beta = \ga
 
 D’autre part, comme $\gamma$ n’est pas proportionnelle à $\alpha$, la liste donnée au début de ce n° montre que $|n(\gamma, \alpha)| \leq 3$, d’où le corollaire.
 
-#### Remarque {#lie-vi-s1-n3-rem-1 .statement}
+#### Remarque {#lie-vi-s1-n3-rem-1 .statement tag=0AUP}
 
 Gardons les notations du corollaire ci-dessus. Alors :
     1) Si la longueur de $S$ est 0, on a $(\alpha|\gamma) = 0$.
@@ -394,7 +394,7 @@ $$
 
 Nous verrons (plancher X, systèmes A_2, B_2, G_2) que tous ces cas peuvent effectivement se présenter.
 
-#### Proposition 10 {#lie-vi-s1-prop-10 .statement}
+#### Proposition 10 {#lie-vi-s1-prop-10 .statement tag=0AUQ}
 
 Soient $\alpha, \beta$ deux racines non proportionnelles telles que $\beta + \alpha$ soit une racine. Soient $p, q$ les entiers de la prop. 9. On a
 $$
@@ -416,7 +416,7 @@ n° 1.4.
 
 Dans tous les cas, la formule à établir est vérifiée.
 
-#### Proposition 11 {#lie-vi-s1-prop-11 .statement}
+#### Proposition 11 {#lie-vi-s1-prop-11 .statement tag=0AUR}
 
 Supposons R irréductible. Soient $\alpha$ et $\beta$ deux racines telles que $||\alpha|| = ||\beta||$. Il existe $g \in W(R)$ tel que $g(\alpha) = \beta$.
 
@@ -430,7 +430,7 @@ $$
 
 On dit qu’un système de racines est réduit si toute racine du système est indivisible (n° 3).
 
-#### Proposition 12 {#lie-vi-s1-prop-12 .statement}
+#### Proposition 12 {#lie-vi-s1-prop-12 .statement tag=0AUS}
 
 Supposons R irréductible et réduit.
 
@@ -440,7 +440,7 @@ Supposons R irréductible et réduit.
 
 Comme R est irréductible, les transformés d’une racine par $W(R)$ engendrent V (n° 2, cor. de la prop. 5). Quelles que soient les racines $\alpha, \beta$, il existe donc une racine $\beta'$ telle que $(\alpha|\beta') \neq 0$ et $(\beta'| \beta') = (\beta|\beta)$. D’après la formule (9) du n° 1 et la liste du n° 3, $\frac{(\beta'| \beta')}{(\alpha|\alpha)}$ prend l’une des valeurs 1, 2, $\frac{1}{2}$, 3, $\frac{1}{3}$ (rappelons que le système est supposé réduit). En multipliant $(x|y)$ par un scalaire convenable, on peut supposer que $(\alpha|\alpha) = 1$ pour certaines racines et que les autres valeurs possibles de $(\beta|\beta)$ pour $\beta \in R$ sont 2 et 3. Les valeurs 2 et 3 ne peuvent être atteintes toutes les deux, car il existerait $\beta \in R,\ \gamma \in R$ tels que $\frac{(\gamma|\gamma)}{(\beta|\beta)} = \frac{3}{2}$, contrairement à ce qu’on a vu plus haut.
 
-#### Proposition 13 {#lie-vi-s1-prop-13 .statement}
+#### Proposition 13 {#lie-vi-s1-prop-13 .statement tag=0AUT}
 
 Supposons R irréductible, non réduit et de rang $\geq 2$.
 
@@ -464,7 +464,7 @@ $$
 
 puisque $\gamma$ et $\gamma'$ ont même longueur, d’où $n(\gamma, \gamma') = 0$ et $(\gamma|\gamma') = 0$.
 
-#### Proposition 14 {#lie-vi-s1-prop-14 .statement}
+#### Proposition 14 {#lie-vi-s1-prop-14 .statement tag=0AUU}
 
 Supposons que $R$ soit irréductible et réduit, et que $(\alpha|\alpha)$ prenne les valeurs $\lambda$ et $2\lambda$ pour $\alpha \in \mathbf{R}$. Soit $A$ l’ensemble des racines $\alpha$ telles que $(\alpha|\alpha) = \lambda$. On suppose que deux éléments de $A$ non proportionnels sont orthogonaux. Alors $R_1 = R \cup 2A$ est un système de racines irréductible non réduit et $R$ est l’ensemble des racines indivisibles de $R_1$.
 
@@ -484,7 +484,7 @@ Ainsi, $R_1$ est un système de racines dans $V$, et les autres assertions sont 
 
 Pour tout $\alpha \in \mathbf{R}$, soit $L_\alpha$ l’hyperplan de $V$ formé des points invariants par $s_\alpha$. Les chambres déterminées dans $V$ par l’ensemble des $L_\alpha$ (chap. V, § 1, n° 3) s’appellent les *chambres* de $R$. La bijection $V \to V^*$ définie par le produit scalaire $(x|y)$ transforme $\alpha$ en $\frac{2\alpha^\vee}{(\alpha^\vee|\alpha^\vee)}$ pour $\alpha \in \mathbf{R}$, donc $L_\alpha$ en $L_{\alpha^\vee}$, donc les chambres de $R$ en celles de $R^\vee$. Si $C$ est une chambre de $R$, nous noterons $C^\vee$ la chambre correspondante de $R^\vee$. D’après la prop. 7 du n° 2, $C^\vee$ dépend uniquement de $C$, et non du choix de $(x|y)$.
 
-#### Théorème 2 {#lie-vi-s1-thm-2 .statement}
+#### Théorème 2 {#lie-vi-s1-thm-2 .statement tag=0AUV}
 
 (i) *Le groupe* $W(R)$ *opère de façon simplement transitive sur l’ensemble des chambres*.
 
@@ -502,31 +502,31 @@ Pour tout $\alpha \in \mathbf{R}$, soit $L_\alpha$ l’hyperplan de $V$ formé d
 
 Les assertions (i) et (vii) résultent du chap. V, § 3, n° 2, th. 1. L’assertion (ii) résulte du chap. V, § 3, n° 3, th. 2. L’assertion (iv) est évidente. La racine $\alpha_i$ est orthogonale à $L_i$, et $\alpha_i^\vee$ s’identifie à $2\alpha_i/(\alpha_i|\alpha_i)$. Comme $W(R)$ est essentiel (n° 1, *Remarque* 3), les assertions (iii), (v), (vi) résultent du chap. V, § 3, n° 9, prop. 7.
 
-#### Remarque 1 {#lie-vi-s1-n5-rem-1 .statement}
+#### Remarque 1 {#lie-vi-s1-n5-rem-1 .statement tag=0AUW}
 
 L’assertion (vii) montre en particulier que $W(R)$ est *engendré* par les réflexions $s_{\alpha_i}$.
 
-#### Remarque 2 {#lie-vi-s1-n5-rem-2 .statement}
+#### Remarque 2 {#lie-vi-s1-n5-rem-2 .statement tag=0AUX}
 
 Si $x, y \in C$, on a $(x|y) < 0$ (chap. V, § 3, n° 5, lemme 6), autrement dit l’angle $(\widehat{x, y})$ est *aigu*.
 
-#### Remarque 3 {#lie-vi-s1-n5-rem-3 .statement}
+#### Remarque 3 {#lie-vi-s1-n5-rem-3 .statement tag=0AUY}
 
 Soit $m(\alpha, \beta)$ l’ordre de $s_\alpha s_\beta$ ($\alpha, \beta \in B(C)$). La matrice $(m(\alpha, \beta))$ s’identifie à la *matrice de Coxeter* (chap. IV, § 1, n° 9) de $(W, S)$. Si $\alpha \neq \beta$, la prop. 3 du chap. V, § 3, n° 4, montre que l’angle $(\widehat{\alpha, \beta})$ est égal à $\pi - \frac{\pi}{m(\alpha, \beta)}$; en particulier, cet angle est obtus ou droit, et l’on a $(\alpha|\beta) \leqslant 0$. En utilisant la liste du n° 3, *on voit que* $m(\alpha, \beta)$ *est égal à* 2, 3, 4 *ou* 6.
 
-#### Définition 2 {#lie-vi-s1-def-2 .statement}
+#### Définition 2 {#lie-vi-s1-def-2 .statement tag=0AUZ}
 
 *Une partie* $B$ *de* $R$ *est appelée une base de* $R$ *s’il existe une chambre* $C$ *de* $R$ *telle que* $B = B(C)$. *Si* $C$ *est une chambre, on dit que* $B(C)$ *est la base de* $R$ *définie par* $C$.
 
-#### Remarque 4 {#lie-vi-s1-n5-rem-4 .statement}
+#### Remarque 4 {#lie-vi-s1-n5-rem-4 .statement tag=0AV0}
 
 L’assertion (vi) du th. 2 montre que l’application $C \longmapsto B(C)$ est une bijection de l’ensemble des chambres sur l’ensemble des bases. Par suite, $W(R)$ opère de manière simplement transitive sur l’ensemble des bases.
 
-#### Remarque 5 {#lie-vi-s1-n5-rem-5 .statement}
+#### Remarque 5 {#lie-vi-s1-n5-rem-5 .statement tag=0AV1}
 
 Soit $C$ une chambre de $R$, et soit $B$ la base correspondante. Si $\alpha \in B$, posons $\varphi(\alpha) = \alpha^\vee$ si $2\alpha \notin R$ et $\varphi(\alpha) = \frac{1}{2} \alpha^\vee$ si $2\alpha \in R$. Alors $\varphi(B)$ est la base de $R^\vee$ définie par $C^\vee$; cela résulte du fait que les murs de $C^\vee$ sont les $L_{\alpha^\vee}$, pour $\alpha \in B$.
 
-#### Définition 3 {#lie-vi-s1-def-3 .statement}
+#### Définition 3 {#lie-vi-s1-def-3 .statement tag=0AV2}
 
 Soit $B$ une base de $R$. On appelle matrice de Cartan de $R$ (relativement à $B$) la matrice $(n(\alpha, \beta))_{\alpha, \beta \in B}$.
 
@@ -536,11 +536,11 @@ n(\alpha, \beta) = 2 \frac{(\alpha|\beta)}{(\beta|\beta)} = -2 \frac{\|\alpha\|}
 $$
 où $m(\alpha, \beta)$ désigne comme précédemment l’ordre de $s_\alpha s_\beta$. Si $\alpha \neq \beta$, on a $n(\alpha, \beta) = 0, -1, -2$ ou $-3$ (cf. no 3).
 
-#### Remarque 6 {#lie-vi-s1-n5-rem-6 .statement}
+#### Remarque 6 {#lie-vi-s1-n5-rem-6 .statement tag=0AV3}
 
 On ne confondra pas la matrice de Cartan $(n(\alpha, \beta))$ et la matrice de Coxeter $(m(\alpha, \beta))$. Noter d’ailleurs que la matrice de Cartan n’est pas nécessairement symétrique.
 
-#### Remarque 7 {#lie-vi-s1-n5-rem-7 .statement}
+#### Remarque 7 {#lie-vi-s1-n5-rem-7 .statement tag=0AV4}
 
 Indexations canoniques. Si $B$ et $B'$ sont deux bases de $R$, il existe un unique élément $w \in W$ tel que $w(B) = B'$. On a
 $$
@@ -554,7 +554,7 @@ de $B$ sur $B'$.
 
 On peut d’ailleurs définir des matrices de Cartan et de Coxeter canoniques de la manière suivante. Soit $X$ l’ensemble des couples $(B, \alpha)$, où $B$ est une base de $R$ et où $\alpha \in B$. Le groupe $W$ opère de manière évidente sur $X$ et une orbite de $W$ dans $X$ rencontre chacun des ensembles $\{B\} \times B$ en un point et un seul. Si $I$ est l’ensemble de ces orbites, chaque base $B$ admet donc une indexation canonique $(\alpha_i)_{i \in I}$. De plus, il existe une matrice $N = (n_{ij})$ (resp. $M = (m_{ij})$) et une seule, de type $I \times I$, telle que pour toute base $B$, la matrice de Cartan (resp. de Coxeter) associée à $B$ se déduise de $N$ (resp. $M$) par composition avec l’indexation canonique de $B$; on l’appelle la matrice de Cartan (resp. de Coxeter) canonique de $R$.
 
-#### Proposition 15 {#lie-vi-s1-prop-15 .statement}
+#### Proposition 15 {#lie-vi-s1-prop-15 .statement tag=0AV5}
 
 Soient $B$ une base de $R$ et $\alpha$ une racine indivisible. Il existe $\beta \in B$ et $w \in W(R)$ tels que $\alpha = w(\beta)$.
 
@@ -562,19 +562,19 @@ n° 1.6.
 
 Soit C la chambre telle que $B = B(C)$. L’hyperplan $L_\alpha$ est mur d’une chambre $C'$ de $R$, et il existe un élément de $W(R)$ qui transforme $C'$ en $C$. On est donc ramené au cas où $L_\alpha$ est mur de $C$. Alors $\alpha$ est proportionnel à un élément $\beta$ de $B$. Comme $\alpha$ et $\beta$ sont indivisibles, on a $\alpha = \pm \beta$. Si $\alpha = -\beta$, on a $\alpha = s_\beta(\beta)$, d’où la proposition.
 
-#### Corollaire {#lie-vi-s1-n5-cor-1 .statement}
+#### Corollaire {#lie-vi-s1-n5-cor-1 .statement tag=0AV6}
 
 Soient $R_1$ et $R_2$ deux systèmes de racines réduits dans des espaces vectoriels $V_1$ et $V_2$, et soient $B_1$ et $B_2$ des bases de $R_1$ et $R_2$. Soit $f : B_1 \to B_2$ une bijection qui transforme la matrice de Cartan de $R_1$ en celle de $R_2$. Il existe alors un isomorphisme $F : V_1 \to V_2$ qui transforme $R_1$ en $R_2$ et $\alpha$ en $f(\alpha)$ pour tout $\alpha \in B_1$.
 
 Soit $F$ l’isomorphisme de $V_1$ sur $V_2$ qui transforme $\alpha$ en $f(\alpha)$ pour tout $\alpha \in B_1$. Alors $F$ transforme $s_\alpha$ en $s_{f(\alpha)}$, donc $W(R_1)$ en $W(R_2)$ (th. 2), donc $R_1$ en $R_2$ (prop. 15).
 
-#### Proposition 16 {#lie-vi-s1-prop-16 .statement}
+#### Proposition 16 {#lie-vi-s1-prop-16 .statement tag=0AV7}
 
 Soient $B$ une base de $R$, et $G$ le sous-groupe de $A(R)$ formé des éléments laissant stable $B$. Alors $W(R)$ est un sous-groupe distingué de $A(R)$ et $A(R)$ est produit semi-direct de $G$ et $W(R)$.
 
 Si $\alpha \in R$ et $t \in A(R)$, on a $ts_\alpha t^{-1} = s_{t(\alpha)}$; comme $W(R)$ est engendré par les $s_\alpha$, on voit que $W(R)$ est un sous-groupe distingué de $A(R)$. Par transport de structure, $A(R)$ transforme une base de $R$ en une base de $R$. Comme $W(R)$ opère de façon simplement transitive sur l’ensemble des bases, tout élément de $A(R)$ s’écrit de manière unique sous la forme $g_1 g_2$, où $g_1 \in W(R)$ et $g_2 \in G$.
 
-#### Remarque 8 {#lie-vi-s1-n5-rem-8 .statement}
+#### Remarque 8 {#lie-vi-s1-n5-rem-8 .statement tag=0AV8}
 
 Soient $R_1, \ldots, R_p$ des systèmes de racines dans les espaces vectoriels $V_1, \ldots, V_p$, $R$ la somme directe des $R_i$ dans $V = \prod_i V_i$, $C_i$ une chambre de $R_i$, $B_i = B(C_i)$. Il est immédiat que $C = \prod_i C_i$ est une chambre de $R$ et que $B(C) = \bigcup_i B_i$. Il résulte du th. 2 que les chambres et les bases de $R$ sont toutes obtenues par ce procédé.
 
@@ -584,7 +584,7 @@ Soit $C$ une chambre de $R$, et soit $B(C) = \{\alpha_1, \ldots, \alpha_l\}$ la 
 
 Les éléments de $\overline{C}$ sont $\geqslant 0$ pour $C$ d’après le lemme 6 du chap. V, § 3, n° 5. Mais l’ensemble des éléments $\geqslant 0$ pour $C$ est en général distinct de $\overline{C}$ (cf. planche X, systèmes $A_2, B_2, G_2$).
 
-#### Théorème 3 {#lie-vi-s1-thm-3 .statement}
+#### Théorème 3 {#lie-vi-s1-thm-3 .statement tag=0AV9}
 
 *Toute racine est combinaison linéaire à coefficients entiers de même signe d’éléments de $B(C)$*. *En particulier, toute racine est, soit positive, soit négative, pour $C$*.
 
@@ -598,7 +598,7 @@ $$
 
 est une partition de $R$.
 
-#### Corollaire {#lie-vi-s1-n6-cor-1 .statement}
+#### Corollaire {#lie-vi-s1-n6-cor-1 .statement tag=0AVA}
 
 *Soient $\gamma$ une combinaison linéaire de racines à coefficients entiers, et $\alpha$ une racine indivisible. Si $\gamma$ est proportionnelle à $\alpha$, alors $\gamma \in \mathbf{Z}\alpha$*.
 
@@ -626,7 +626,7 @@ U_w(\varepsilon, t) = (\varepsilon \eta(w^{-1}, t), wtw^{-1}),
 $$
 l’application $w \mapsto U_w$ est un *homomorphisme* de $W$ dans le groupe des permutations de l’ensemble $\{ \pm 1 \} \times T$ (chap. IV, § 1, n° 4, lemme 1).
 
-#### Proposition 17 {#lie-vi-s1-prop-17 .statement}
+#### Proposition 17 {#lie-vi-s1-prop-17 .statement tag=0AVB}
 
 *Supposons R réduit et soient $w \in W$ et $\alpha \in R$.*
 (i) *On a $\psi(w(\alpha)) = U_w(\psi(\alpha))$.*
@@ -664,13 +664,13 @@ $$
 ou encore d’après (i), que $U_w(\psi(\alpha)) = (-1, ws_\alpha w^{-1})$. Si de plus $\alpha$ est positive, on a $\psi(\alpha) = (+1, s_\alpha)$ et $U_w(\psi(\alpha)) = (\eta(w^{-1}, s_\alpha), ws_\alpha w^{-1})$, d’où (ii).
 Enfin, on a, d’après (ii), $\eta(w, s_\alpha) = -1$ si et seulement si les racines $\alpha$ et $w^{-1}(\alpha)$ sont l’une positive et l’autre négative. Ceci équivaut à dire que $(\alpha|x).(w^{-1}(\alpha)|x) = (\alpha|x).(|\alpha|w(x)) < 0$ pour tout $x \in C$, d’où la première assertion de (iii). La seconde assertion de (iii) en résulte immédiatement.
 
-#### Corollaire 1 {#lie-vi-s1-prop-17-cor-1 .statement}
+#### Corollaire 1 {#lie-vi-s1-prop-17-cor-1 .statement tag=0AVC}
 
 *Soient $\beta \in B(C)$. La réflexion $s_\beta$ permutent entre elles les racines positives non proportionnelles à $\beta$.*
 
 On se ramène aussitôt au cas où R est réduit. Dans ce cas, notre assertion résulte de (ii) et du fait que $T_{s_\beta} = \{ s_\beta \}$.
 
-#### Corollaire 2 {#lie-vi-s1-prop-17-cor-2 .statement}
+#### Corollaire 2 {#lie-vi-s1-prop-17-cor-2 .statement tag=0AVD}
 
 Supposons R réduit. Soit $w \in W$, soit q la longueur de w par rapport à S (chap. IV, § 1, n° 1), et soit $w = s_1 \ldots s_q$ une décomposition réduite de w. Soient $\alpha_1, \ldots, \alpha_q$ les éléments de B(C) correspondant à $s_1, \ldots, s_q$. Posons :
 
@@ -694,13 +694,13 @@ $$
 
 D’après le cor. 1, cela entraîne $s_{i+1} \ldots s_q(\alpha) = \alpha_i$, d’où $\alpha = \theta_i$. L’ensemble X est donc contenu dans l’ensemble des $\theta_i$. Puisque Card (X) = q, ceci n’est possible que si X est égal à l’ensemble des $\theta_i$, et si ceux-ci sont deux à deux distincts. D’où le corollaire.
 
-#### Corollaire 3 {#lie-vi-s1-prop-17-cor-3 .statement}
+#### Corollaire 3 {#lie-vi-s1-prop-17-cor-3 .statement tag=0AVE}
 
 Supposons R réduit. Il existe dans W un unique élément $w_0$ de plus grande longueur. Sa longueur est égale au nombre des racines positives et $w_0$ transforme la chambre C en — C. On a $w_0^2 = 1$ et $l(w w_0) = l(w_0) - l(w)$ pour tout $w \in W$.
 
 Il est clair que — C est une chambre. Il existe donc un unique élément $w_0$ de W qui transforme C en — C. On a alors $w_0(\alpha) < 0$ pour toute racine positive $\alpha$ et les deux premières assertions du cor. 3 sont des conséquences immédiates du cor. 2. On a $w_0^2(C) = C$, d’où $w_0^2 = 1$. Enfin, si $w \in W$, la longueur $l(w)$ (resp. $l(w w_0)$) est égale, d’après la prop. 17 (iii), au nombre de murs séparant C et $w(C)$ (resp. $w w_0(C) = -w(C)$). Comme $w(C)$ et $-w(C)$ sont de part et d’autre de n’importe quel mur, la somme $l(w) + l(w w_0)$ est égale au nombre total de murs, c’est-à-dire à $l(w_0)$.
 
-#### Proposition 18 {#lie-vi-s1-prop-18 .statement}
+#### Proposition 18 {#lie-vi-s1-prop-18 .statement tag=0AVF}
 
 Soit $x \in V$. Les trois propriétés suivantes sont équivalentes :
 
@@ -720,23 +720,23 @@ w'(x - s_\alpha(x)) = w(s_\alpha(x) - x) = - \langle x, \alpha^\vee \rangle w(\a
 $$
 Or $s_\alpha \in T_{w^{-1}}$, et la prop. 17, (ii) montre que $w(\alpha) < 0$. D’où le résultat.
 
-#### Corollaire {#lie-vi-s1-n6-cor-2 .statement}
+#### Corollaire {#lie-vi-s1-n6-cor-2 .statement tag=0AVG}
 
 Pour que $x \in \mathbf{C}$, il faut et il suffit que $x > w(x)$ pour tout $w \in W$ tel que $w \neq 1$.
 
-#### Proposition 19 {#lie-vi-s1-prop-19 .statement}
+#### Proposition 19 {#lie-vi-s1-prop-19 .statement tag=0AVH}
 
 Soit $(\beta_i)_{1 \leq i \leq n}$ une suite de racines positives pour la chambre $C$ telle que $\beta_1 + \beta_2 + \cdots + \beta_n$ soit une racine. Il existe alors une permutation $\pi \in S_n$ telle que, pour tout $i \in \{1, 2, \ldots, n\}$, $\beta_{\pi(1)} + \beta_{\pi(2)} + \cdots + \beta_{\pi(i)}$ soit une racine.
 
 Raisonnons par récurrence sur $n$, la proposition étant évidente pour $n \leq 2$. Posons $\beta = \beta_1 + \cdots + \beta_n$. On a $\sum_{i=1}^n (\beta|\beta_i) = (\beta|\beta) > 0$, donc il existe un indice $k$ tel que $(\beta|\beta_k) > 0$. Si $\beta = \beta_k$, on a $n = 1$ puisque $\beta_i > 0$ pour tout $i$. Sinon, $\beta - \beta_k$ est une racine (n° 3, cor. du th. 1); il suffit alors d’appliquer l’hypothèse de récurrence à $\beta - \beta_k = \sum_{i \neq k} \beta_i$.
 
-#### Corollaire 1 {#lie-vi-s1-prop-19-cor-1 .statement}
+#### Corollaire 1 {#lie-vi-s1-prop-19-cor-1 .statement tag=0AVI}
 
 Soit $\alpha \in R_+(\mathbf{C})$. Pour que $\alpha \notin B(\mathbf{C})$, il faut et il suffit que $\alpha$ soit somme de deux racines positives.
 
 Si $\alpha$ est somme de deux racines positives, le th. 3 montre que $\alpha \notin B(\mathbf{C})$. Si $\alpha \notin B(\mathbf{C})$, le th. 3 montre que $\alpha = \sum_{k=1}^n \beta_k$ avec $\beta_k \in B(\mathbf{C})$ pour tout $k$ et $n \geq 2$. En permutant les $\beta_k$, on peut supposer que $\sum_{k=1}^{n-1} \beta_k$ est une racine (prop. 19), donc $\alpha$ est somme des racines positives $\sum_{k=1}^{n-1} \beta_k$ et $\beta_n$.
 
-#### Corollaire 2 {#lie-vi-s1-prop-19-cor-2 .statement}
+#### Corollaire 2 {#lie-vi-s1-prop-19-cor-2 .statement tag=0AVJ}
 
 Soit $\varphi$ une application de $\mathbf{R}$ dans un groupe commutatif $\Gamma$ possédant les propriétés suivantes :
 1) $\varphi(-\alpha) = -\varphi(\alpha)$ pour $\alpha \in \mathbf{R}$;
@@ -751,7 +751,7 @@ et on a $\psi(\beta_m) = \varphi(\beta_m)$, d’où $\psi(\alpha) = \varphi(\alp
 
 Pour toute racine $\alpha = \sum_{\beta \in B(C)} n_\beta \beta$ de $R$, notons $Y(\alpha)$ l’ensemble des $\beta \in B(C)$ tels que $n_\beta \neq 0$. Observons d’autre part que $B(C)$ s’identifie à l’ensemble des sommets du graphe du système de Coxeter formé par $W(R)$ et les $s_{x_i}$ (cf. chap. IV, § 1, no 9 et chap. V, § 3, no 2).
 
-#### Corollaire 3 {#lie-vi-s1-prop-19-cor-3 .statement}
+#### Corollaire 3 {#lie-vi-s1-prop-19-cor-3 .statement tag=0AVK}
 
 a) Soit $\alpha \in R$. Alors $Y(\alpha)$ est une partie connexe de $B(C)$ (chap. IV, Annexe).
 
@@ -765,20 +765,20 @@ C.Q.F.D.
 
 ### 7. Ensembles clos de racines
 
-#### Définition 4 {#lie-vi-s1-def-4 .statement}
+#### Définition 4 {#lie-vi-s1-def-4 .statement tag=0AVL}
 
 Soit $P$ un sous-ensemble de $R$.
 (i) On dit que $P$ est clos si les conditions $\alpha \in P, \beta \in P, \alpha + \beta \in R$ impliquent $\alpha + \beta \in P$.
 (ii) On dit que $P$ est parabolique si $P$ est clos et si $P \cup (-P) = R$.
 (iii) On dit que $P$ est symétrique si $P = -P$.
 
-#### Lemme 3 {#lie-vi-s1-lem-3 .statement}
+#### Lemme 3 {#lie-vi-s1-lem-3 .statement tag=0AVM}
 
 Soient $C$ une chambre de $R$ et $P$ un sous-ensemble clos de $R$ contenant $R_+(C)$ (notation du no 6). Soient $\Sigma = B(C) \cap (-P)$, et $Q$ l’ensemble des racines combinaisons linéaires à coefficients entiers $\leqslant 0$ des éléments de $\Sigma$. Alors $P = R_+(C) \cup Q$.
 
 Il s’agit de montrer que $P \cap (-R_+(C)) = Q$. Soit $-\alpha \in Q$. Alors $\alpha$ est somme de $n$ éléments de $\Sigma$. Montrons que $-\alpha \in P$, par récurrence sur $n$. C’est évident si $n = 1$. Si $n > 1$, on peut écrire, d’après la prop. 19 du no 6, $\alpha = \beta + \gamma$ avec $\gamma \in \Sigma$ et $\beta$ somme de $n - 1$ éléments de $\Sigma$. D’après l’hypothèse de récurrence, on a $-\beta \in P$; comme $-\gamma \in P$ et que $P$ est clos, on a $-\alpha \in P$. Donc $Q \subset P \cap (-R_+(C))$. Réciproquement, soit $-\alpha \in P \cap (-R_+(C))$. Alors $\alpha$ est somme de $p$ éléments de $B(C)$. Montrons que $-\alpha \in Q$, par récurrence sur $p$. C’est évident si $p = 1$. Si $p > 1$, on peut écrire, d’après la prop. 19, $\alpha = \beta + \gamma$ avec $\gamma \in B(C)$ et $\beta$ racine somme de $p - 1$ éléments de $B(C)$. Comme $-\gamma = \beta + (-\alpha)$ et que $P$ est clos, on a $-\gamma \in P$, donc $\gamma \in \Sigma$. D’autre part, $-\beta = \gamma + (-\alpha)$ donc $-\beta \in P$ parce que $P$ est clos. D’après l’hypothèse de récurrence, on a $-\beta \in Q$, donc $-\alpha = -\beta - \gamma \in Q$. Donc $P \cap (-R_+(C)) \subset Q$.
 
-#### Proposition 20 {#lie-vi-s1-prop-20 .statement}
+#### Proposition 20 {#lie-vi-s1-prop-20 .statement tag=0AVN}
 
 Soit $P$ un sous-ensemble de $R$. Les conditions suivantes sont équivalentes :
 (i) $P$ est parabolique ;
@@ -790,7 +790,7 @@ Soit $P$ un sous-ensemble de $R$. Les conditions suivantes sont équivalentes :
 
 (i) $\Longrightarrow$ (ii) : supposons $P$ parabolique. Soit $C$ une chambre telle que Card $(P \cap R_+(C))$ soit le plus grand possible. Soit $\alpha \in B(C)$ et supposons que $\alpha \notin P$, donc que $-\alpha \in P$. Pour tout $\beta \in P \cap R_+(C)$, $\beta$ est non proportionnel à $\alpha$ (car l’hypothèse $\beta = 2\alpha$ entraînerait $\alpha = 2\alpha + (-\alpha) \in P$ puisque $P$ est clos). Donc $s_\alpha(\beta) \in R_+(C)$ (n° 6, cor. 1 de la prop. 17). Si on pose $C' = s_\alpha(C)$, on a donc $\beta = s_\alpha(s_\alpha(\beta)) \in s_\alpha(R_+(C)) = R_+(C')$. Ainsi, $P \cap R_+(C) \subset P \cap R_+(C')$. Par ailleurs, $-\alpha = s_\alpha(\alpha) \in s_\alpha(R_+(C)) = R_+(C')$, donc $-\alpha \in P \cap R_+(C')$, donc Card $(P \cap R_+(C')) >$ Card $(P \cap R_+(C))$. Ceci est absurde, donc $\alpha \in P$. Donc $B(C) \subset P$, et par suite $R_+(C) \subset P$ d’après la prop. 19 et le fait que $P$ est clos.
 
-#### Corollaire 1 {#lie-vi-s1-prop-20-cor-1 .statement}
+#### Corollaire 1 {#lie-vi-s1-prop-20-cor-1 .statement tag=0AVO}
 
 Soit $P$ un sous-ensemble de $R$. Les conditions suivantes sont équivalentes :
 (i) il existe une chambre $C$ telle que $P = R_+(C)$;
@@ -800,14 +800,14 @@ La chambre $C$ telle que $P = R_+(C)$ est alors unique.
 (ii) $\Longrightarrow$ (i) : ceci résulte de l’implication (i) $\Longrightarrow$ (ii) de la prop. 20.
 Si $P = R_+(C)$, $C^\vee$ est l’ensemble des $x^* \in V^*$ tels que $\langle x^*, x \rangle > 0$ pour tout $x \in P$, d’où l’unicité de $C$.
 
-#### Corollaire 2 {#lie-vi-s1-prop-20-cor-2 .statement}
+#### Corollaire 2 {#lie-vi-s1-prop-20-cor-2 .statement tag=0AVP}
 
 Supposons $V$ muni d’une structure d’espace vectoriel ordonné telle que, pour cette structure, toute racine de $R$ soit positive ou négative. Soit $P$ l’ensemble des racines positives pour cette structure. Alors il existe une chambre C de R et une seule telle que P = R_+(C).
 
 En effet, P vérifie la condition (ii) du cor. 1.
 Ce corollaire s’applique en particulier lorsque l’ordre considéré est total, la condition sur R étant alors automatiquement remplie. Rappelons qu’on obtient par exemple un tel ordre en choisissant une base (e_i)_{1 \leq i \leq n} dans V et en prenant sur V l’ordre lexicographique, où $x = \sum_i \xi_i e_i$ est $\geq 0$ si tous les $\xi_i$ sont 0, ou si $\xi_i > 0$ pour le plus petit indice i tel que $\xi_i \neq 0$.
 
-#### Corollaire 3 {#lie-vi-s1-prop-20-cor-3 .statement}
+#### Corollaire 3 {#lie-vi-s1-prop-20-cor-3 .statement tag=0AVQ}
 
 Pour qu’une partie B de R soit une base de R, il faut et il suffit que les conditions suivantes soient remplies :
 
@@ -822,7 +822,7 @@ B \subset P \subset X \quad \text{et} \quad B' \subset P \subset X',
 $$
 ce qui montre que X et X' sont tous deux engendrés par P, donc coïncident. Mais les demi-droites engendrées par les éléments de B (resp. de B') sont les génératrices extrémales de X (resp. de X'); comme une telle demi-droite ne contient qu’une seule racine indivisible, on a donc B = B'.
 
-#### Corollaire 4 {#lie-vi-s1-prop-20-cor-4 .statement}
+#### Corollaire 4 {#lie-vi-s1-prop-20-cor-4 .statement tag=0AVR}
 
 Soient B une base de R, B' une partie de B, V' le sous-espace vectoriel de V engendré par B', et R' = R \cap V'. Alors B' est une base du système de racines R'.
 
@@ -830,7 +830,7 @@ Ceci résulte aussitôt du cor. 3, et du cor. de la prop. 4.
 
 On dit que R' est le système de racines engendré par B'.
 
-#### Corollaire 5 {#lie-vi-s1-prop-20-cor-5 .statement}
+#### Corollaire 5 {#lie-vi-s1-prop-20-cor-5 .statement tag=0AVS}
 
 Soient B une base de R, A_1, A_2, ..., A_r des parties de B deux à deux orthogonales, et A = A_1 \cup A_2 \cup ... \cup A_r. Alors toute racine $\alpha$ qui est combinaison linéaire d’éléments de A est déjà combinaison linéaire des éléments d’un des A_i. En particulier, si R est irréductible, il n’existe pas de partition de B(C) en deux ensembles orthogonaux.
 
@@ -838,25 +838,25 @@ Soient E_1, ..., E_r, E les sous-espaces vectoriels de V engendrés respectiveme
 
 n° 1.7.
 
-#### Corollaire 6 {#lie-vi-s1-prop-20-cor-6 .statement}
+#### Corollaire 6 {#lie-vi-s1-prop-20-cor-6 .statement tag=0AVT}
 
 Adoptons les hypothèses et les notations de la prop. 20. Soit $V_1$ le sous-espace vectoriel de $V$ engendré par $\Sigma$. Alors $P \cap (-P) = Q \cup (-Q) = V_1 \cap R$ est un système de racines dans $V_1$ de base $\Sigma$.
 
 On a $P \cap (-P) = (R_+(C) \cup Q) \cap ((--R_+(C)) \cup (--Q)) = Q \cup (--Q)$. Le th. 3 prouve que $Q \cup (--Q) = V_1 \cap R$. Enfin, $\Sigma$ est base du système de racines $V_1 \cap R$ d’après le cor. 4.
 
-#### Proposition 21 {#lie-vi-s1-prop-21 .statement}
+#### Proposition 21 {#lie-vi-s1-prop-21 .statement tag=0AVU}
 
 Soient $C$ (resp. $C'$) une chambre de $R$, $\Sigma$ (resp. $\Sigma'$) une partie de $B(C)$ (resp. $B(C')$), $Q$ (resp. $Q'$) l’ensemble des racines combinaisons linéaires à coefficients entiers négatifs des éléments de $\Sigma$ (resp. $\Sigma'$), et $P = Q \cup R_+(C)$ (resp. $P' = Q' \cup R_+(C')$). S’il existe un élément du groupe de Weyl transformant $P$ en $P'$, il existe un élément du groupe de Weyl transformant $C$ en $C'$ et $\Sigma$ en $\Sigma'$.
 
 On se ramène aussitôt au cas où $P = P'$. Soit $V_1$ le sous-espace vectoriel de $V$ engendré par $P \cap (-P)$. Alors $\Sigma$ et $\Sigma'$ sont deux bases du système de racines $R_1 = P \cap (-P)$ dans $V_1$ (cor. 6 de la prop. 20). Il existe donc $g_1 \in W(R_1)$ tel que $g_1(\Sigma) = \Sigma'$. Il est clair que $g_1$ est induit par un élément $g$ de $W(R)$ qui est un produit de symétries $s_\sigma$, avec $\sigma \in \Sigma$. Soit $\gamma = \sum_{\beta \in B(C)} c_\beta \beta$ un élément de $P - R_1$. On a $c_\beta > 0$ pour au moins un $\beta \in B(C) - \Sigma$. D’autre part, si $\sigma \in \Sigma$, on a $s_\sigma(\gamma) - \gamma \in V_1$, donc $s_\sigma(\gamma)$ admet au moins une coordonnée $> 0$ par rapport à $B(C)$ (n° 1, formule (5)), d’où $s_\sigma(\gamma) \in R_+(C)$ et finalement $s_\sigma(\gamma) \in P - R_1$. Il en résulte que $P - R_1$ est stable par les $s_\sigma, \sigma \in \Sigma$, donc par $g$, et l’on a $g(P) = P$. On est ainsi ramené à prouver la proposition lorsque $P = P'$ et $\Sigma = \Sigma'$. Dans ce cas, on a $Q = Q'$, donc $R_+(C) = P - Q = P - Q' = R_+(C')$, donc $C = C'$ (cor. 1 de la prop. 20).
 
-#### Corollaire {#lie-vi-s1-n7-cor-1 .statement}
+#### Corollaire {#lie-vi-s1-n7-cor-1 .statement tag=0AVV}
 
 Soient $P, P'$ deux sous-ensembles paraboliques de $R$ transformés l’un de l’autre par un élément du groupe de Weyl. S’il existe une chambre $C$ de $R$ telle que $R_+(C) \subset P$ et $R_+(C) \subset P'$, on a $P = P'$.
 
 Ceci résulte du lemme 3 et de la prop. 21 puisque le seul élément de $W(R)$ transformant $C$ en $C$ est 1, cf. n° 5, th. 2.
 
-#### Proposition 22 {#lie-vi-s1-prop-22 .statement}
+#### Proposition 22 {#lie-vi-s1-prop-22 .statement tag=0AVW}
 
 Soit $P$ un sous-ensemble clos de $R$ tel que $P \cap (-P) = \varnothing$. Il existe alors une chambre $C$ de $R$ telle que $P \subset R_+(C)$.
 
@@ -880,7 +880,7 @@ pour tout i; il existerait deux entiers distincts $i, j$ tels que $\beta_i = \be
 
 4) Pour démontrer la proposition, il suffit (cor. 2 de la prop. 20) de montrer qu’il existe une base $(\alpha_k)_{1 \leq k \leq l}$ de V telle que, pour la relation d’ordre lexicographique définie par cette base, tout élément de P soit > 0. Procédons par récurrence sur $l = \dim V$, en supposant la proposition établie pour les dimensions < l. Soit $\gamma \in V$ tel que $\gamma \neq 0$ et $(\gamma|\alpha) \geqslant 0$ pour tout $\alpha \in P$ (cf. 3)). Soient L l’hyperplan orthogonal à $\gamma$, et $V'$ le sous-espace de L engendré par $R \cap L$. Alors $R \cap L$ est un système de racines dans $V'$ et $P \cap L$ est clos dans $R \cap L$. D’après l’hypothèse de récurrence, il existe une base $(\beta_1, \ldots, \beta_{l'})$ de $V'$ telle que les éléments de $P \cap L$ soient > 0 pour l’ordre lexicographique défini par cette base. Alors toute base de V dont les $l' + 1$ premiers éléments sont $\gamma, \beta_1, \beta_2, \ldots, \beta_{l'}$ et dont les éléments suivants sont dans L possède la propriété requise.
 
-#### Proposition 23 {#lie-vi-s1-prop-23 .statement}
+#### Proposition 23 {#lie-vi-s1-prop-23 .statement tag=0AVX}
 
 *Soient P un sous-ensemble de R et V₁ (resp. Γ) le sous-espace vectoriel (resp. le sous-groupe) de V engendré par P. Les conditions suivantes sont équivalentes* :
 
@@ -914,7 +914,7 @@ donc $(\beta|\alpha_i) > 0$ pour un indice $i$. Si $\beta = \alpha_i$, on a $\be
 
 Les conditions de la prop. 23 peuvent être réalisées avec $V_1 = V$ et pourtant $P \neq \mathbf{R}$. Par exemple, il peut arriver que $\mathbf{R}$ soit un système de type $G_2$ et $P$ un système de type $A_2$; cf. planche X.
 
-#### Proposition 24 {#lie-vi-s1-prop-24 .statement}
+#### Proposition 24 {#lie-vi-s1-prop-24 .statement tag=0AVY}
 
 *Soit $R'$ l’intersection de $R$ avec un sous-espace vectoriel de $V$, de sorte que $R'$ est un système de racines dans le sous-espace vectoriel $V'$ qu’il engendre* (cf. cor. de la prop. 4, n° 1). *Soit $B'$ une base de $R'$*.
 
@@ -926,7 +926,7 @@ L’assertion (ii) est évidente. Prouvons (i). Soit $(\varepsilon_1, \varepsilo
 
 ### 8. Plus grande racine
 
-#### Proposition 25 {#lie-vi-s1-prop-25 .statement}
+#### Proposition 25 {#lie-vi-s1-prop-25 .statement tag=0AVZ}
 
 *Supposons $R$ irréductible. Soit $C$ une chambre de $R$, et soit $B(C) = \{\alpha_1, \ldots, \alpha_l\}$ la base correspondante*.
 
@@ -958,7 +958,7 @@ Si $\gamma = \alpha - \beta \in \mathbf{R}$, on a $\alpha > \beta$ ou $\beta > \
 
 C.Q.F.D.
 
-#### Remarque {#lie-vi-s1-n8-rem-1 .statement}
+#### Remarque {#lie-vi-s1-n8-rem-1 .statement tag=0AW0}
 
 On dit que la racine
 $$
@@ -971,7 +971,7 @@ de (i) est la plus grande racine de $\mathbf{R}$ (vis-à-vis de $\mathbf{C}$). O
 Soit $l = \dim V$. On note $Q(R)$ le sous-groupe de $V$ engendré par $R$; les éléments de $Q(R)$ s’appellent les poids radiciels de $R$. D’après le th. 3 du n° 6, $Q(R)$ est un sous-groupe discret de rang $l$ de $V$, et toute base de $R$ est une base de $Q(R)$.
 De même, le groupe $Q(R^\vee)$ est un sous-groupe discret de rang $l$ de $V^*$.
 
-#### Proposition 26 {#lie-vi-s1-prop-26 .statement}
+#### Proposition 26 {#lie-vi-s1-prop-26 .statement tag=0AW1}
 
 L’ensemble des $x \in V$ tels que $\langle x, y^* \rangle \in \mathbf{Z}$ pour tout $y^* \in Q(R^\vee)$ (ou, ce qui revient au même, pour tout $y^* \in R^\vee$) est un sous-groupe discret $G$ de $V$ contenant $Q(R)$. Si $B'$ est une base de $R^\vee$, la base duale de $B'$ dans $V$ est une base de $G$.
 Soit $x \in V$. Les trois propriétés suivantes sont équivalentes :
@@ -993,7 +993,7 @@ sont des groupes finis en dualité sur $\mathbf{Q}/\mathbf{Z}$, donc isomorphes.
 
 Si $R$ est somme directe de systèmes de racines $R_i$, le groupe $Q(R)$ (resp. $P(R)$) s’identifie canoniquement à la somme directe des $Q(R_i)$ (resp. $P(R_i)$).
 
-#### Proposition 27 {#lie-vi-s1-prop-27 .statement}
+#### Proposition 27 {#lie-vi-s1-prop-27 .statement tag=0AW2}
 
 *Soient* $R_1$ *une partie de* $R$, $Q_1$ *le sous-groupe de* $Q(R)$ *engendré par* $R_1$, *et* $W_1$ *le sous-groupe de* $W(R)$ *engendré par les* $s_\alpha$ ($\alpha \in R_1$). *Si* $p \in P(R)$ *et* $w \in W_1$, *on a* $p - w(p) \in Q_1$.
 
@@ -1043,13 +1043,13 @@ $$
 
 Autrement dit, $\varpi_\alpha$ est orthogonal à $\beta$ pour $\beta \neq \alpha$, et sa projection orthogonale sur $R \alpha$ est $\frac{1}{2} \alpha$. Puisque $\varpi_\alpha \in \overline{C}$, on a $(\varpi_\alpha | \varpi_\beta) \geqslant 0$ pour $\alpha, \beta \in B$, i.e. l’angle $(\overline{\varpi_\alpha}, \overline{\varpi_\beta})$ est aigu ou droit. Les poids dominants sont les $\varpi \in V$ tels que $2(\varpi | \alpha)/(|\alpha|)$ soit un entier $\geqslant 0$ pour tout $\alpha \in B$.
 
-#### Proposition 28 {#lie-vi-s1-prop-28 .statement}
+#### Proposition 28 {#lie-vi-s1-prop-28 .statement tag=0AW3}
 
 *Soient B une base de R, B' une partie de B, V' le sous-espace vectoriel de V engendré par B', R' = R ∩ V' (qui est un système de racines dans V'), R'∨ le système de racines inverse (qui s’identifie à l’image canonique de R' dans R∨), V_1 l’orthogonal de R'∨ dans V, et p le projecteur de V sur V' parallèlement à V_1. Alors, Q(R') = Q(R) ∩ V', P(R') = p(P(R)). L’ensemble des poids dominants de R' est l’image par p de l’ensemble des poids dominants de R.*
 
 En effet, $\mathbf{Q}(R)$ est le sous-groupe de $V$ de base $B$, $\mathbf{Q}(R')$ est le sous-groupe de $V$ de base $B'$ (n° 7, cor. 4 de la prop. 20) d’où aussitôt $\mathbf{Q}(R') = \mathbf{Q}(R) \cap V'$. Si $\varpi \in \mathbf{P}(R)$ et $\alpha \in R'$, on a $\langle p(\varpi), \alpha^\vee \rangle = \langle \varpi, \alpha^\vee \rangle \in \mathbf{Z}$, donc $p(\varpi) \in \mathbf{P}(R')$, donc $p(\mathbf{P}(R)) \subset \mathbf{P}(R')$. Si $\varpi' \in \mathbf{P}(R')$, $\varpi'$ se prolonge en une forme linéaire $\varpi$ sur $V^*$ nulle sur $(B - B')^\vee$; on a $\langle \varpi, \alpha^\vee \rangle \in \mathbf{Z}$ pour tout $\alpha \in B$, donc $\varpi \in \mathbf{P}(R)$, et $\varpi' = p(\varpi)$; donc $\mathbf{P}(R') \subset p(\mathbf{P}(R))$. Ainsi $\mathbf{P}(R') = p(\mathbf{P}(R))$, et l’assertion relative aux poids dominants se démontre de la même façon.
 
-#### Proposition 29 {#lie-vi-s1-prop-29 .statement}
+#### Proposition 29 {#lie-vi-s1-prop-29 .statement tag=0AW4}
 
 *Soit $\rho$ la demi-somme des racines > 0.
 
@@ -1065,7 +1065,7 @@ $$
 $$
 D’où $\rho = \sum_{\beta} \varpi_\beta$, et par suite $\rho \in \mathbf{C}$. Enfin (iii) équivaut à $\langle \rho, \alpha^\vee \rangle = 1$.
 
-#### Corollaire {#lie-vi-s1-n10-cor-1 .statement}
+#### Corollaire {#lie-vi-s1-n10-cor-1 .statement tag=0AW5}
 
 *Soit $\sigma$ la demi-somme des éléments > 0 de $\mathbf{R}^\vee$ (pour $\mathbf{B}^\vee$). Pour tout $\alpha \in V$, la somme des coordonnées de $\alpha$ par rapport à la base $B$ est $\langle \alpha, \sigma \rangle$. Si $\alpha \in \mathbf{R}$, cette somme est aussi égale à $\frac{1}{2} \sum_{\beta \in \mathbf{R}_+(\mathbf{C})} n(\alpha, \beta)$.*
 
@@ -1075,20 +1075,20 @@ D’où $\rho = \sum_{\beta} \varpi_\beta$, et par suite $\rho \in \mathbf{C}$. 
 
 Soit C une chambre de R, soit $\{\alpha_1, \ldots, \alpha_l\}$ la base de R correspondante, et soit $c = s_{x_1} \ldots s_{x_l}$. L’élément c de W s’appelle la *transformation de Coxeter* de W définie par C et la bijection $i \mapsto \alpha_i$ (chap. V, § 6, n° 1). Son ordre h est appelé le *nombre de Coxeter* de W (ou de R).
 
-#### Proposition 30 {#lie-vi-s1-prop-30 .statement}
+#### Proposition 30 {#lie-vi-s1-prop-30 .statement tag=0AW6}
 
 *Supposons R irréductible. Soit m un entier compris entre 1 et h—1, et étranger à h. Alors $\exp(\frac{2i\pi m}{h})$ est une valeur propre de c de multiplicité 1.*
 
 (En particulier, m est un *exposant* de W, cf. chap. V, § 6, n° 2).
 Démontrons d’abord un lemme:
 
-#### Lemme 3 {#lie-vi-s1-lem-3-bis .statement}
+#### Lemme 3 {#lie-vi-s1-lem-3-bis .statement tag=0E8T}
 
 *Pour tout $w \in W$, le polynôme caractéristique de w est à coefficients entiers.*
 On sait (n° 6, th. 3) que le sous-groupe Q(R) de V engendré par R a pour base $\{\alpha_1, \ldots, \alpha_l\}$. Comme w laisse stable Q(R), sa matrice par rapport à $\{\alpha_1, \ldots, \alpha_l\}$ est à coefficients entiers; il en est donc de même de son polynôme caractéristique.
 Soit P le polynôme caractéristique de c. Le lemme ci-dessus montre que les coefficients de P sont entiers. D’après le chap. V, § 6, n° 2, cor. 2 de la prop. 3, la racine primitive h-ème de l’unité $z = \exp(\frac{2i\pi}{h})$ est une racine simple de P. Tout *conjugué* de z sur Q est donc aussi racine simple de P. Mais on sait (*) que toutes les racines primitives h-èmes de l’unité sont conjuguées sur Q. Elles sont donc toutes racines simples de P, ce qui démontre la proposition.
 
-#### Proposition 31 {#lie-vi-s1-prop-31 .statement}
+#### Proposition 31 {#lie-vi-s1-prop-31 .statement tag=0AW8}
 
 *Supposons R irréductible et réduit, et soit $\beta = n_1 \alpha_1 + \cdots + n_l \alpha_l$ la plus grande racine de R* (cf. n° 8). *On a alors $n_1 + \cdots + n_l = h — 1$*.
 
@@ -1120,7 +1120,7 @@ $$
 
 d’où $n_1 + \cdots + n_l + 1 = h$.
 
-#### Proposition 32 {#lie-vi-s1-prop-32 .statement}
+#### Proposition 32 {#lie-vi-s1-prop-32 .statement tag=0AW9}
 
 *Supposons que R soit irréductible, et que toutes les racines aient même longueur. Soit $\alpha \in R$. Le nombre d’éléments de R non orthogonaux à $\alpha$ est $4h - 6$.*
 
@@ -1144,7 +1144,7 @@ $$
 
 et le nombre de racines non orthogonales à $\alpha$ est $\operatorname{Card} R' + 2 = 4h - 6$.
 
-#### Proposition 33 {#lie-vi-s1-prop-33 .statement}
+#### Proposition 33 {#lie-vi-s1-prop-33 .statement tag=0AWA}
 
 *Supposons R irréductible et réduit. Posons $s_{\alpha_i} = s_i$, et soit $\Gamma$ le sous-groupe de W engendré par $c = s_1 \ldots s_l$.*
 (i) *Soit $\theta_i = s_i s_{i-1} \ldots s_{i+1}(\alpha_i)$ ($i = 1, \ldots, l$). On a $\theta_i > 0$, $c(\theta_i) < 0$.*

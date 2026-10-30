@@ -37,14 +37,14 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 18
-content_sha256: 8bb5447d406ef7400e5a6b42fecd7360d5ad897d62b17e13826d29aed5b98b8e
+content_sha256: bb0b04778ba87067d91908af5a1b8236b1f89fcb725229b0b2dd6d0e99a65350
 ---
 
 ## § 3. DUAL OF A FRÉCHET SPACE
 
 ### 1. Semi-barrelled spaces
 
-#### Proposition 1 {#evt-iv-s3-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s3-prop-1 .statement tag=07TU}
 
 — Let E be a locally convex space. The following conditions are equivalent :
 
@@ -60,7 +60,7 @@ It is clear that (iii) is a particular case of (ii).
 
 (iii) $\Rightarrow$ (i) : let $(U_n)$ be a sequence of convex, balanced and closed neighbourhoods of 0 in E. We assume that the set $U = \bigcap_n U_n$ absorbs every bounded subset of E, hence that its polar $U^\circ$ is bounded in $E'_b$. Then the set $B = \bigcup_n U_n^\circ$ is contained in $U^\circ$, hence is bounded in $E'_b$. If E satisfies (iii), the set B is equicontinuous in $E'$; consequently, the polar $B^\circ = \bigcap_n (U_n^\circ)^\circ = \bigcap_n U_n = U$ of B in E is a neighbourhood of 0 in E.
 
-#### Definition 1 {#evt-iv-s3-def-1 .statement}
+#### Definition 1 {#evt-iv-s3-def-1 .statement tag=07TV}
 
 — A locally convex space E is said to be semi-barrelled if it satisfies the equivalent conditions of prop. 1.
 
@@ -68,7 +68,7 @@ Every barrelled space is semi-barrelled. This is also true for every bornologica
 
 ### 2. Dual of a locally convex metrizable space
 
-#### Proposition 2 {#evt-iv-s3-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s3-prop-2 .statement tag=07TW}
 
 — Let E be a locally convex metrizable space and F its strong dual. The space F is complete, semi-barrelled and satisfies the following condition :
 (DB) There exists a sequence $(A_n)_{n \in \mathbf{N}}$ of bounded subsets of F such that every bounded subset of F is contained in one of the $A_n$.
@@ -95,7 +95,7 @@ Put $W = \bigcap_n W_n$, then $W \subset U$. By (1) and (2), we have $\lambda_i 
 
 The following corollary extends the Banach-Steinhaus theorem to the dual of a Fréchet space (*cf.* III, p. 25, cor. 2).
 
-#### Corollary {#evt-iv-s3-n2-cor-1 .statement}
+#### Corollary {#evt-iv-s3-n2-cor-1 .statement tag=07TX}
 
 — Let G be a Hausdorff locally convex space, and let $(u_n)$ be a sequence of linear mappings from F into G, converging simply to a mapping u from F into G. Then u is continuous, and the sequence $(u_n)$ converges to u uniformly on every precompact subset of F.
 
@@ -103,7 +103,7 @@ Since F is complete, the set of all $u_n$, which is bounded for the topology of 
 
 ### 3. Bidual of a locally convex metrizable space
 
-#### Proposition 3 {#evt-iv-s3-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s3-prop-3 .statement tag=07TY}
 
 — Let E be a locally convex metrizable space, $E'_b$ its strong dual and G a Fréchet space. The space $\mathscr{L}_b(E'_b ; G)$ is a Fréchet space.
 
@@ -111,13 +111,13 @@ By prop. 2 (IV, p. 22), there exists a sequence $(A_n)$ of bounded subsets of $E
 
 To show that $\mathscr{L}_b(E'_b ; G)$ is complete, it is enough to prove that every Cauchy sequence $(u_n)$ in this space is convergent; since G is complete, there exists a linear mapping $u : E'_b \to G$ such that $(u_n)$ converges simply to u. By IV, p. 23, corollary, we have $u \in \mathscr{L}_b(E'_b ; G)$. It then follows from prop. 5 of GT, X, § 1, No. 5, that $(u_n)$ converges to u in $\mathscr{L}_b(E'_b ; G)$.
 
-#### Corollary {#evt-iv-s3-n3-cor-1 .statement}
+#### Corollary {#evt-iv-s3-n3-cor-1 .statement tag=07TZ}
 
 — The bidual of a locally convex metrizable space is a Fréchet space.
 
 ### 4. Dual of a reflexive Fréchet space
 
-#### Proposition 4 {#evt-iv-s3-prop-4 .statement}
+#### Proposition 4 {#evt-iv-s3-prop-4 .statement tag=07U0}
 
 — Let E be a reflexive Fréchet space. The strong dual $E'_b$ of E is the inductive limit of a sequence of Banach spaces.
 
@@ -131,7 +131,7 @@ hence the sequence $(y_n)$ is bounded. Let $y$ be a limit point of $(y_n)$ for t
 
 Since every bounded subset of $E'_b$ is contained in one of the sets $A_n$, the set $V = \bigcup_n B_n$ absorbs every bounded subset of $E'_b$. Consequently, $V^\circ$ is bounded in E, hence $\frac{1}{2}V^{\circ\circ}$ is a neighbourhood of 0 in $E'_b$. *A fortiori*, U is a neighbourhood of in $E'_b$.
 
-#### Corollary {#evt-iv-s3-n4-cor-1 .statement}
+#### Corollary {#evt-iv-s3-n4-cor-1 .statement tag=07U1}
 
 *The strong dual of a reflexive Fréchet space is bornological and barrelled.*
 
@@ -139,7 +139,7 @@ An inductive limit of Banach spaces is bornological by definition. Further, a Ba
 
 ### 5. The topology of compact convergence on the dual of a Fréchet space
 
-#### Theorem 1 (Banach-Dieudonné) {#evt-iv-s3-thm-1 .statement}
+#### Theorem 1 (Banach-Dieudonné) {#evt-iv-s3-thm-1 .statement tag=07U2}
 
 — *Let E be a locally convex metrizable space. The following topologies coincide on the dual $E'$ of E :*
 
@@ -166,13 +166,13 @@ Formula (5) with $n = m - 1$ implies that $\bigcap_{x \in U_m} F_x = \varnothing
 
 Put $S = \bigcup_{n \geqslant 0} X_n$. We have $X_n \subset U_p$ for $n \geqslant p$, therefore $S$ is the set of points of a sequence which converges to 0 in $E$. From (5) we deduce that $S^{\circ} \cap U_{n+1}^{\circ} \cap F = \varnothing$, and since $E'$ is the union of the sequence of sets $U_{n+1}^{\circ}$, we get $S^{\circ} \cap F = \varnothing$.
 
-#### Corollary 1 {#evt-iv-s3-thm-1-cor-1 .statement}
+#### Corollary 1 {#evt-iv-s3-thm-1-cor-1 .statement tag=07U3}
 
 *Let $E$ be a locally convex metrizable space. Every precompact subset of $E$ is contained in the closed convex balanced envelope of the set of points of a sequence converging to 0.*
 
 This follows from the fact that the topologies $\mathscr{T}_{pc}$ and $\mathscr{T}_{\mathfrak{H}}$ are identical, on account of prop. 2 of III, p. 15.
 
-#### Corollary 2 {#evt-iv-s3-thm-1-cor-2 .statement}
+#### Corollary 2 {#evt-iv-s3-thm-1-cor-2 .statement tag=07U4}
 
 *Let $E$ be a Fréchet space. In order that a convex subset $A$ of the dual $E'$ of $E$ be closed for $\sigma(E', E)$, it is necessary and sufficient that $A \cap U^{\circ}$ is closed for $\sigma(E', E)$ for every neighbourhood $U$ of 0 in $E$.*
 
@@ -180,17 +180,17 @@ Since $E$ is complete, the topology $\mathscr{T}_c$ on $E'$ is compatible with t
 
 Recall (I, p. 13) that the hyperplanes of $E'$ which are closed for $\sigma(E', E)$ are the kernels of linear forms on $E'$ associated with elements of $E$. Cor. 2 therefore gives another proof (for Fréchet spaces) of cor. 1 of III, p. 21.
 
-#### Corollary 3 {#evt-iv-s3-thm-1-cor-3 .statement}
+#### Corollary 3 {#evt-iv-s3-thm-1-cor-3 .statement tag=07U5}
 
 *Let $E$ be a Banach space and $M$ a vector subspace of the dual $E'$ of $E$. In order that $M$ be closed for the weak topology $\sigma(E', E)$, it is necessary and sufficient that its intersection with the unit ball (closed) in $E'$ be closed for $\sigma(E', E)$.*
 
-#### Example {#evt-iv-s3-n5-exa-1 .statement}
+#### Example {#evt-iv-s3-n5-exa-1 .statement tag=07U6}
 
 — *Let $H$ be a hilbertian space satisfying the first axiom of countability; let $H_{\sigma}$ denote the space $H$ with the weakened topology assigned to it. Let $\mathscr{L}^1(H)$ be the Banach space of nuclear endomorphisms of $H$ (V, p. 51, and TS, V); the norm in $\mathscr{L}^1(H)$ is defined by $\|u\|_1 = \operatorname{Tr}((u^*u)^{1/2})$. We can identify $\mathscr{L}(H)$ with the dual of the Banach space $\mathscr{L}^1(H)$ by associating the linear form $\phi_u : v \mapsto \operatorname{Tr}(uv)$ on $\mathscr{L}^1(H)$ with every $u \in \mathscr{L}(H)$. Let $A$ be a sub-algebra of $\mathscr{L}(H)$, containing 1 and stable under $u \mapsto u^*$; this is a von Neumann algebra if and only if it is closed in $\mathscr{L}(H)$ for the weak topology $\sigma(\mathscr{L}(H), \mathscr{L}^1(H))$. From cor. 3, we deduce the following criterion : *for $A$ to be a von Neumann algebra, it is necessary and sufficient that if $(u_n)$ is any sequence of elements of $A$ with norm $\leqslant 1$ having a limit $u$ in the space $\mathscr{L}_s(H ; H_{\sigma})$, then $u$ belongs to $A$.*
 
 ### 6. Separately continuous bilinear mappings
 
-#### Lemma 1 {#evt-iv-s3-lem-1 .statement}
+#### Lemma 1 {#evt-iv-s3-lem-1 .statement tag=07U7}
 
 Let E and F be two locally convex metrizable spaces, and u be a continuous linear mapping from $E'_b$ into F. Then there exists a neighbourhood U of 0 in $E'_b$ whose image under u is bounded in F.
 
@@ -200,7 +200,7 @@ We shall prove that the set B is bounded in E, in other words that for every int
 
 Let U be the polar of B in $E'_b$. This is a neighbourhood of 0 in $E'_b$ and we have $\lambda_n B^\circ \subset B_n^\circ$, hence $\lambda_n u(U) \subset V_n$ for all $n \in \mathbf{N}$. Consequently $u(U)$ is bounded in F.
 
-#### Theorem 2 {#evt-iv-s3-thm-2 .statement}
+#### Theorem 2 {#evt-iv-s3-thm-2 .statement tag=07U8}
 
 Let $E_1$ and $E_2$ be two reflexive Fréchet spaces, and G a locally convex Hausdorff space. For $i = 1, 2$, let $F_i$ be the strong dual of $E_i$. Then every separately continuous bilinear mapping $u : F_1 \times F_2 \to G$ is continuous.
 

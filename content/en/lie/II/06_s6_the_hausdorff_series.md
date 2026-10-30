@@ -33,7 +33,7 @@ subsections:
       pdf_page: 179
 statements: 14
 exercises: 6
-content_sha256: 4537414ee283053f649e5ef02bb3c111565980460e26252851700301be18970c
+content_sha256: 415bac69237edc26c3196e7b8c6ae4c55426a40b051a938d4b7c3803c5c86eba
 ---
 
 ## § 6. THE HAUSDORFF SERIES
@@ -60,7 +60,7 @@ $$
 
 Then $\log y \in m$ and the mapping $\log : 1 + m \to m$ is called the *logarithmic mapping* of $A$.
 
-#### Proposition 1 {#lie-ii-s6-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s6-prop-1 .statement tag=0A61}
 
 *The exponential mapping is a homeomorphism of $m$ onto $1 + m$ and the logarithmic mapping is the inverse homeomorphism.*
 
@@ -92,7 +92,7 @@ $$
 
 for $x$ in $m$, whence the proposition.
 
-#### Remark {#lie-ii-s6-n1-rem-1 .statement}
+#### Remark {#lie-ii-s6-n1-rem-1 .statement tag=0A62}
 
 (1) If $x \in m, y \in m$ and $x$ and $y$ commute, then
 
@@ -122,7 +122,7 @@ We deduce from the relations $e(l(X)) = l(e(X)) = X$ that the mapping $a \mapsto
 
 Let X be a set. We use the notation of § 5, nos. 1 and 2. The free Lie algebra L(X) is identified with its canonical image in A(X) (§ 3, no. 1, Theorem 1). We denote by $\hat{L}(X)$ the closure of L(X) in $\hat{A}(X)$, that is the set of elements of $\hat{A}(X)$ of the form $a = \sum_{n \geq 1} a_n$ such that $a_n \in L^n(X)$ for all $n \geq 0$; this is filtered Lie subalgebra of $\hat{A}(X)$.
 
-#### Theorem 1 {#lie-ii-s6-thm-1 .statement}
+#### Theorem 1 {#lie-ii-s6-thm-1 .statement tag=0A63}
 
 *The restriction of the exponential mapping of $\hat{A}(X)$ to $\hat{L}(X)$ is a bijection of $\hat{L}(X)$ onto a closed subgroup of the Magnus group $\Gamma(X)$.*
 
@@ -172,7 +172,7 @@ $$
 
 Therefore $a$ satisfies (3) if and only if $b$ satisfies (4), which proves the theorem.
 
-#### Remark {#lie-ii-s6-n2-rem-1 .statement}
+#### Remark {#lie-ii-s6-n2-rem-1 .statement tag=0A64}
 
 The above proof shows that $\exp(\hat{\mathbf{L}})$ is the subgroup $\Delta$ of $\Gamma$ consisting of the $b$ satisfying (4).
 
@@ -190,7 +190,7 @@ For every integer $m \geq 1$ we denote by $\hat{\mathbf{L}}_m$ the set of elemen
 
 ### 3. LIE FORMAL POWER SERIES
 
-#### Lemma 1 {#lie-ii-s6-lem-1 .statement}
+#### Lemma 1 {#lie-ii-s6-lem-1 .statement tag=0A65}
 
 *Let $\mathfrak{g}$ be a filtered Lie algebra (§ 4, no. 1), $(\mathfrak{g}_\alpha)_{\alpha \in \mathbf{R}}$ its filtration and let $\alpha \in \mathbf{R}$. Let P be a homogeneous Lie polynomial of degree n in the indeterminates $(\Gamma_i)_{i \in I}$ (§ 2, no. 4). Then $P((a_i)) \in \mathfrak{g}_{n\alpha}$ for every family $(a_i)_{i \in I}$ of elements of $\mathfrak{g}_\alpha$*.
 
@@ -200,7 +200,7 @@ A *Lie formal power series*† (with coefficients in $K$) *in the indeterminates
 
 Suppose that $I$ is *finite*. Let $g$ be a complete Hausdorff filtered Lie algebra such that $g = \bigcup_{\alpha > 0} g_\alpha$; let $t = (t_i)_{i \in I}$ be a family of elements of $g$.
 
-#### Proposition 2 {#lie-ii-s6-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s6-prop-2 .statement tag=0A66}
 
 *The homomorphism* $f_t : L(I) \to g$ *such that* $f_t(T_i) = t_i$ (§ 2, no. 4) *can be extended by continuity to one and only one continuous homomorphism* $\hat{f}_t$ *of* $\hat{L}(I)$ *into* $g$.
 
@@ -231,7 +231,7 @@ Let $u = \sum_{\nu \in \mathbf{N}^{I}} u_\nu \in \hat{L}(I)$, where $u_\nu \in L
 
 Let {U, V} be a set with two elements.
 
-#### Definition 1 {#lie-ii-s6-def-1 .statement}
+#### Definition 1 {#lie-ii-s6-def-1 .statement tag=0A67}
 
 *The element* $H = U \circledast V = \log(\exp U \cdot \exp V)$ (no. 2) *of the Lie algebra* $\hat{L}_\mathbf{Q}(\{U, V\})$ *is called the Hausdorff series in the indeterminates* U *and* V.
 
@@ -241,7 +241,7 @@ $$
 H = \sum_{n \geq 0} H_n = \sum_{r, s \geq 0} H_{r,s}, \quad H_n = \sum_{r+s=n \atop r, s \geq 0} H_{r,s}.
 $$
 
-#### Theorem 2 {#lie-ii-s6-thm-2 .statement}
+#### Theorem 2 {#lie-ii-s6-thm-2 .statement tag=0A68}
 
 *If r and s are two positive integers such that* $r + s \geq 1$, *then* $H_{r,s} = H'_{r,s} + H''_{r,s}$, *where*
 
@@ -286,7 +286,7 @@ $$
 
 when $r_m \geqslant 1$ and $s_m = 0$. Moreover, obviously $(\mathrm{ad}\ t)^{p-1}.t = 0$ if $p \geqslant 2$ and $(\mathrm{ad}\ t)^0.t = t$. It follows that the two sides of (12) are zero when $s_m \geqslant 2$ and those of (13) are zero when $r_m \geqslant 2$. The theorem then follows since $H'_{r,s}$ is the sum of the terms of type (12) and $H''_{r,s}$ is the sum of the terms of type (13).
 
-#### Remark {#lie-ii-s6-n4-rem-1 .statement}
+#### Remark {#lie-ii-s6-n4-rem-1 .statement tag=0A69}
 
 (1) We have defined (§ 3, no. 2, Remark) a projector $Q$ of $A(X)$ onto $L(X)$ such that $Q(a^m) = 0$ for $a \in L(X)$ and $m \geqslant 2$ and $Q(1) = 0$. Then $H = Q(\exp H) = Q(\exp U.\exp V)$, whence immediately
 
@@ -320,7 +320,7 @@ As $K$ is a field containing $\mathbf{Q}$, the Hausdorff series can be considere
 
 In particular, let $A$ be a complete Hausdorff filtered unital associative algebra. We write $m = \bigcup_{\alpha > 0} A_\alpha$ and $m_\alpha = A_\alpha \cap m$ for $\alpha \in \mathbf{R}$; hence $m_\alpha = A_\alpha$ for $\alpha > 0$ and $m_\alpha = m$ for $\alpha \leqslant 0$. With the bracket $[a, b] = ab - ba$, $m$ is a complete Hausdorff filtered Lie algebra, to which the above can be applied. With this notation, we have the following result which completes Proposition 1 of no. 1.
 
-#### Proposition 3 {#lie-ii-s6-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s6-prop-3 .statement tag=0A6A}
 
 *If $a \in m, b \in m$, then $\exp H(a, b) = \exp a . \exp b$.*
 
@@ -332,14 +332,14 @@ $$
 $$
 taking account of *Remark 3* of no. 1.
 
-#### Remark 1 {#lie-ii-s6-n5-rem-1 .statement}
+#### Remark 1 {#lie-ii-s6-n5-rem-1 .statement tag=0A6B}
 
 If $a$ and $b$ commute, then $H_{r,s}(a, b) = 0$ for $r + s \geq 2$, for every homogeneous Lie polynomial of degree $\geq 2$ is zero at $(a, b)$. Then $H(a, b) = a + b$ and Proposition 3 recovers the formula
 $$
 \exp(a + b) = \exp a . \exp b.
 $$
 
-#### Proposition 4 {#lie-ii-s6-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s6-prop-4 .statement tag=0A6C}
 
 *Let $g$ be a complete Hausdorff filtered Lie algebra such that $g = \bigcup_{\alpha > 0} g_\alpha$. The mapping $(a, b) \mapsto H(a, b)$ is a group law on $g$ compatible with the topology on $g$ under which $0$ is the identity element and $-a$ is the inverse of $a$ for all $a \in g$.*
 
@@ -363,7 +363,7 @@ $$
 $$
 This establishes relations (18) to (20).
 
-#### Remark {#lie-ii-s6-n5-rem-2 .statement}
+#### Remark {#lie-ii-s6-n5-rem-2 .statement tag=0A6D}
 
 (2) Take $g$ to be the Lie algebra $\hat{L}(X)$. The group law introduced in the above proposition coincides with the law defined in no. 2. In other words,
 $$
@@ -373,7 +373,7 @@ thus the Hausdorff group law is given by the Hausdorff series.
 
 (3) Let $g$ be a Lie algebra with the integral filtration ($\mathscr{C}^n g$) defined by the lower central series. Suppose that there exists $m \geq 1$ such that $\mathscr{C}^m g = \{0\}$. With the topology derived from the filtration $(\mathscr{C}^n g)_{n \geq 1}$, the Lie algebra $g$ is Hausdorff, complete and even discrete. Then $P(a_1, \ldots, a_r) = 0$ for $a_1, \ldots, a_r$ in $g$ and for every homogeneous Lie polynomial $P$ of degree $\geq m$; in particular, $H_{r,s}(a, b) = 0$ for $r + s \geq m$ and the series $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ has only a finite number of non-zero terms. The group law $(a, b) \mapsto H(a, b)$ on $g$ is then a polynomial mapping (§ 2, no. 4).
 
-#### Proposition 5 {#lie-ii-s6-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s6-prop-5 .statement tag=0A6E}
 
 *Let $K_{r,s}$ be the component of $H(U + V, -U)$ of multidegree $(r, s)$. Then*
 $$

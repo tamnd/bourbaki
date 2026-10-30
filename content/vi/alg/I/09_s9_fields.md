@@ -29,9 +29,9 @@ subsections:
       pdf_page: 141
 statements: 17
 exercises: 21
-content_sha256: c10588706d9b9cb30762b4cf17ab89c406fe0c61645112a96b9245fee4c31a51
+content_sha256: b52d0ad8369a395812b2ae0f1329c5f345cbbea3239c598c91c51b3a164c6108
 translated_from: content/en/alg/I/09_s9_fields.md
-source_content_sha256: c54109ab0486eb0429b39cd920922e175b23d40ada27646fa6d30fa48c18edc2
+source_content_sha256: 622420ff5a6f546db44026f2ba8fbe2960bad17825f8f2a2110f89182676f0dd
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-6fafc88f
 glossary_version: 34
@@ -43,30 +43,30 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. TRƯỜNG
 
-#### Định nghĩa 1 {#alg-i-s9-def-1 .statement}
+#### Định nghĩa 1 {#alg-i-s9-def-1 .statement tag=05IF}
 
 *Một vành $K$ được gọi là một trường nếu nó không chỉ gồm $0$ và mọi phần tử khác không của $K$ đều khả nghịch.*
 
 Tập hợp các phần tử khác không của trường $K$, với phép nhân, là một nhóm, chính xác là nhóm nhân $K^*$ của vành $K$ (§ 8, no. 1). Vành đối của một trường là một trường. Một trường được gọi là *giao hoán* nếu phép nhân của nó giao hoán; khi đó trường này được đồng nhất với vành đối của nó. Một trường không giao hoán đôi khi được gọi là một *trường skew*.
 
-#### Ví dụ {#alg-i-s9-n1-exa-1 .statement}
+#### Ví dụ {#alg-i-s9-n1-exa-1 .statement tag=05IG}
 
 *(1)* Trong no. 4, chúng ta sẽ định nghĩa trường các *số hữu tỉ*; trong *Tôpô đại cương*, trường các số thực sẽ được định nghĩa (*Tôpô đại cương*, IV, § 1, no. 3), cũng như trường các số phức (*Tôpô đại cương*, VIII, § 1, no. 1) và trường các quaternion (*Tôpô đại cương*, VIII, § 1, no. 4). Các trường này giao hoán, ngoại trừ trường các quaternion.*
 *(2)* Vành $\mathbf{Z}/2\mathbf{Z}$ hiển nhiên là một trường.
 
 Cho $K$ là một trường. Mọi vành con $L$ của $K$ là một trường đều được gọi là một *trường con* của $K$ và khi đó $K$ được gọi là một *mở rộng trường* của $L$; nói như vậy cũng tương đương với việc $L$ là một vành con của $K$ và $x^{-1} \in L$ với mọi phần tử khác không $x$ của $L$. Nếu $(L_i)_{i \in I}$ là một họ các trường con của $K$, thì $\bigcap_{i \in I} L_i$ là một trường con của $K$; do đó, với mọi tập con $X$ của $K$, tồn tại một trường con nhỏ nhất của $K$ chứa $X$; trường này được gọi là *sinh bởi* $X$.
 
-#### Mệnh đề 1 {#alg-i-s9-prop-1 .statement}
+#### Mệnh đề 1 {#alg-i-s9-prop-1 .statement tag=05IH}
 
 *Cho $K$ là một trường. Với mọi tập con $X$ của $K$, bộ tâm hóa (§ 8, no. 5, Ví dụ 3) $X'$ của $X$ là một trường con của $K$.*
 
 Ta biết (*loc. cit.*) rằng $X'$ là một vành con của $K$. Mặt khác, nếu $x \neq 0$ giao hoán với $z \in X$, thì $x^{-1}$ cũng vậy (I, § 2, no. 3, Mệnh đề 5), và do đó $X'$ chứa nghịch đảo của mọi phần tử khác không của $X'$.
 
-#### Hệ quả {#alg-i-s9-n1-cor-1 .statement}
+#### Hệ quả {#alg-i-s9-n1-cor-1 .statement tag=05II}
 
 *Tâm của một trường $K$ là một trường con (giao hoán) của $K$.*
 
-#### Định lý 1 {#alg-i-s9-thm-1 .statement}
+#### Định lý 1 {#alg-i-s9-thm-1 .statement tag=05IJ}
 
 Cho $\mathbf{A}$ là một vành. Các điều kiện sau là tương đương:
 
@@ -77,23 +77,23 @@ Giả sử $\mathbf{A}$ là một trường. Khi đó $\mathbf{A}$ không chỉ 
 
 Giả sử $\mathbf{A}$ thỏa mãn điều kiện (b). Lấy $x \neq 0$ thuộc $\mathbf{A}$. Ta cần chứng minh rằng $x$ khả nghịch. Iđêan trái $Ax$ chứa $x$ và do đó không bằng không, suy ra $Ax = \mathbf{A}$. Do đó tồn tại $x' \in \mathbf{A}$ sao cho $x'x = 1$. Khi đó $x' \neq 0$ vì $1 \neq 0$. Áp dụng kết quả trên cho $x'$, ta thấy tồn tại $x'' \in \mathbf{A}$ sao cho $x''x' = 1$. Khi đó $x'' = x'' . 1 = x''x'x = 1 . x = x$, do đó $xx' = 1$. Vậy $x'$ là nghịch đảo của $x$.
 
-#### Nhận xét {#alg-i-s9-n1-rem-1 .statement}
+#### Nhận xét {#alg-i-s9-n1-rem-1 .statement tag=05IK}
 
 Trong Định lý 1, có thể thay các iđêan trái bằng các iđêan phải. Trong Chương VIII, § 5, no. 2, ta sẽ nghiên cứu các vành khác không $\mathbf{A}$ không có iđêan *hai phía* nào khác 0 và $\mathbf{A}$; các vành như vậy (gọi là *tựa đơn*) không nhất thiết là trường *(chẳng hạn, vành $\mathbf{M}_2(\mathbf{Q})$ các ma trận vuông cấp 2 với các hệ số hữu tỉ là tựa đơn nhưng không phải là trường)*.
 
-#### Hệ quả 1 {#alg-i-s9-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-i-s9-thm-1-cor-1 .statement tag=05IL}
 
 Cho $\mathbf{A}$ là một vành và $a$ là một iđêan hai phía của $\mathbf{A}$. Để vành $\mathbf{A}/a$ là một trường, điều kiện cần và đủ là $a$ là một iđêan trái cực đại của $\mathbf{A}$.
 
 Các iđêan trái của $\mathbf{A}/a$ có dạng $b/a$, trong đó $b$ là một iđêan trái của $\mathbf{A}$ chứa $a$ ($§ 8$, no. 8, Hệ quả của Mệnh đề 5). Nói rằng $\mathbf{A}/a \neq 0$ có nghĩa là $a \neq \mathbf{A}$. Với giả thiết này, $\mathbf{A}/a$ là một trường khi và chỉ khi các iđêan trái duy nhất của $\mathbf{A}$ chứa $a$ là $a$ và $\mathbf{A}$ (Định lý 1), do đó có hệ quả.
 
-#### Hệ quả 2 {#alg-i-s9-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-i-s9-thm-1-cor-2 .statement tag=05IM}
 
 Cho $\mathbf{A}$ là một vành giao hoán khác 0. Tồn tại một đồng cấu của $\mathbf{A}$ lên một trường giao hoán.
 
 Theo Định lý của Krull ($§ 8$, no. 6, Định lý 1), tồn tại trong $\mathbf{A}$ một iđêan cực đại $a$. Khi đó $\mathbf{A}/a$ là một trường (Hệ quả 1).
 
-#### Hệ quả 3 {#alg-i-s9-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-i-s9-thm-1-cor-3 .statement tag=05IN}
 
 Cho $a$ là một số nguyên $\geqslant 0$. Để vành $\mathbf{Z}/a\mathbf{Z}$ là một trường, điều kiện cần và đủ là $a$ là nguyên tố.
 
@@ -101,7 +101,7 @@ Cho $a$ là một số nguyên $\geqslant 0$. Để vành $\mathbf{Z}/a\mathbf{Z
 
 Với $p$ nguyên tố, trường $\mathbf{Z}/p\mathbf{Z}$ được ký hiệu là $\mathbf{F}_p$.
 
-#### Định lý 2 {#alg-i-s9-thm-2 .statement}
+#### Định lý 2 {#alg-i-s9-thm-2 .statement tag=05IO}
 
 Cho $\mathbf{K}$ là một trường và $\mathbf{A}$ là một vành khác không. Nếu $f$ là một đồng cấu từ $\mathbf{K}$ vào $\mathbf{A}$, thì vành con $f(\mathbf{K})$ của $\mathbf{A}$ là một trường và $f$ xác định một đẳng cấu của $\mathbf{K}$ lên $f(\mathbf{K})$.
 
@@ -109,7 +109,7 @@ Cho $a$ là hạt nhân của $f$. Khi đó $1 \notin a$ vì $f(1) = 1 \neq 0$ t
 
 ### 2. MIỀN NGUYÊN
 
-#### Định nghĩa 2 {#alg-i-s9-def-2 .statement}
+#### Định nghĩa 2 {#alg-i-s9-def-2 .statement tag=05IP}
 
 *Một vành $\mathbf{A}$ được gọi là miền nguyên (hay miền toàn vẹn) nếu nó giao hoán, khác không, và tích của hai phần tử khác không của $\mathbf{A}$ là khác không.*
 
@@ -117,7 +117,7 @@ Vành $\mathbf{Z}$ các số nguyên hữu tỉ là một miền nguyên; nó gi
 
 Mọi trường giao hoán đều là một miền nguyên. Một vành con của một miền nguyên là một miền nguyên. Đặc biệt, một vành con của một trường giao hoán là một miền nguyên. Ta sẽ chứng minh rằng ngược lại mọi miền nguyên $\mathbf{A}$ đều đẳng cấu với một vành con của một trường giao hoán. Nhắc lại (§ 8, no. 12) rằng $\mathbf{A}$ đã được đồng nhất với một vành con của vành phân thức toàn phần của nó. Mệnh đề của chúng ta khi đó suy ra từ mệnh đề sau:
 
-#### Mệnh đề 2 {#alg-i-s9-prop-2 .statement}
+#### Mệnh đề 2 {#alg-i-s9-prop-2 .statement tag=05IQ}
 
 *Nếu $\mathbf{A}$ là một miền nguyên, vành phân thức toàn phần $\mathbf{K}$ của $\mathbf{A}$ là một vành giao hoán.*
 
@@ -125,7 +125,7 @@ Vành $\mathbf{K}$ là giao hoán. Nó khác không vì $\mathbf{A} \neq \{0\}$.
 
 Vành phân thức toàn phần của một miền nguyên được gọi là *trường phân thức* của nó. Một vành như vậy được đồng nhất với ảnh của nó trong trường phân thức của nó.
 
-#### Mệnh đề 3 {#alg-i-s9-prop-3 .statement}
+#### Mệnh đề 3 {#alg-i-s9-prop-3 .statement tag=05IR}
 
 *Cho $\mathbf{B}$ là một vành khác không và $\mathbf{A}$ là một vành con giao hoán của $\mathbf{B}$ sao cho mọi phần tử khác không của $\mathbf{A}$ đều khả nghịch trong $\mathbf{B}$.
 (a) $\mathbf{A}$ là một miền nguyên.
@@ -136,7 +136,7 @@ Mệnh đề (a) là hiển nhiên. Đơn ánh chính tắc của $\mathbf{A}$ v
 
 ### 3. IĐÊAN NGUYÊN TỐ
 
-#### Mệnh đề 4 {#alg-i-s9-prop-4 .statement}
+#### Mệnh đề 4 {#alg-i-s9-prop-4 .statement tag=05IS}
 
 *Cho $\mathbf{A}$ là một vành giao hoán và $\mathfrak{p}$ là một iđêan của $\mathbf{A}$. Các điều kiện sau là tương đương:
 (a) *vành $\mathbf{A}/\mathfrak{p}$ là một miền nguyên;
@@ -145,11 +145,11 @@ Mệnh đề (a) là hiển nhiên. Đơn ánh chính tắc của $\mathbf{A}$ v
 
 Các kéo theo (c) ⇒ (b) ⇒ (a) là hiển nhiên. Nếu $A/p$ là một miền nguyên, gọi $f$ là đơn ánh chính tắc của $A/p$ vào trường phân thức của nó và $g$ là đồng cấu chính tắc của $A$ lên $A/p$; khi đó $p$ là hạt nhân của $f \circ g$, do đó có kéo theo (a) ⇒ (c).
 
-#### Định nghĩa 3 {#alg-i-s9-def-3 .statement}
+#### Định nghĩa 3 {#alg-i-s9-def-3 .statement tag=05IT}
 
 *Trong một vành giao hoán $A$, một iđêan $p$ thỏa mãn các điều kiện của Mệnh đề 4 được gọi là một iđêan nguyên tố.*
 
-#### Ví dụ {#alg-i-s9-n3-exa-1 .statement}
+#### Ví dụ {#alg-i-s9-n3-exa-1 .statement tag=05IU}
 
 (1) Cho $A$ là một vành giao hoán. Nếu $m$ là một iđêan cực đại của $A$, thì $m$ là nguyên tố; vành $A/m$ là một trường (no. 1, Hệ quả 1 của Định lý 1).
 
@@ -157,7 +157,7 @@ Các kéo theo (c) ⇒ (b) ⇒ (a) là hiển nhiên. Nếu $A/p$ là một mi�
 
 ### 4. TRƯỜNG CÁC SỐ HỮU TỈ
 
-#### Định nghĩa 4 {#alg-i-s9-def-4 .statement}
+#### Định nghĩa 4 {#alg-i-s9-def-4 .statement tag=05IV}
 
 *Trường phân thức của vành $\mathbf{Z}$ các số nguyên hữu tỉ được gọi là trường các số hữu tỉ và được ký hiệu bởi $\mathbf{Q}$. Các phần tử của $\mathbf{Q}$ được gọi là các số hữu tỉ.*
 

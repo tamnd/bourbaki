@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: 857c6c34df766d7411dc9b8547a6d0dc46b57ddebf4766bb04a658531dd882e9
+content_sha256: 5dafa58e78dc6307341df4bd75bf3a56cc18775819c83933d0c50e69c45de801
 ---
 
 ## § 2. LINEAR REPRESENTATIONS OF GROUPS
@@ -50,7 +50,7 @@ content_sha256: 857c6c34df766d7411dc9b8547a6d0dc46b57ddebf4766bb04a658531dd882e9
 
 Let G be a topological group, E a locally convex space, U a linear representation of G in E.
 
-#### Definition 1 {#int-viii-s2-def-1 .statement}
+#### Definition 1 {#int-viii-s2-def-1 .statement tag=09IF}
 
 — (i) $U$ is said to be separately continuous if, for every $s \in G$, $U(s)$ is a continuous endomorphism of $E$, and if, for every $x \in E$, the mapping $s \mapsto U(s)x$ of $G$ into $E$ is continuous.
 
@@ -58,11 +58,11 @@ Let G be a topological group, E a locally convex space, U a linear representatio
 
 (iii) $U$ is said to be equicontinuous if it is continuous and if the set of endomorphisms $U(s)$, where $s$ runs over $G$, is equicontinuous.
 
-#### Remark 1 {#int-viii-s2-n1-rem-1 .statement}
+#### Remark 1 {#int-viii-s2-n1-rem-1 .statement tag=09IG}
 
 To say that $U$ is separately continuous means that $s \mapsto U(s)$ is a continuous mapping of $G$ into the space $\mathscr{L}(E; E)$ of continuous endomorphisms of $E$, equipped with the topology of pointwise convergence.
 
-#### Remark 2 {#int-viii-s2-n1-rem-2 .statement}
+#### Remark 2 {#int-viii-s2-n1-rem-2 .statement tag=09IH}
 
 To say that $U$ is continuous is equivalent to the following set of three conditions:
 
@@ -73,11 +73,11 @@ These conditions are obviously necessary. Conversely, suppose that the condition
 When $G$ is locally compact, the conditions a) and b) are equivalent to the condition:
 $a')$ for every compact subset $K$ of $G$, $U(K)$ is equicontinuous.
 
-#### Remark 3 {#int-viii-s2-n1-rem-3 .statement}
+#### Remark 3 {#int-viii-s2-n1-rem-3 .statement tag=09II}
 
 Suppose that $U$ is a continuous linear representation of $G$ in $E$. For every $s \in G$, let $\widehat{U}(s)$ be the continuous extension of $U(s)$ to the completion $\widehat{E}$ of $E$. Then $\widehat{U}$ is a linear representation of $G$ in $\widehat{E}$, satisfying conditions a) and c) of Remark 2, and also condition b) by GT, X, §2, No. 2, Prop. 4. Therefore $\widehat{U}$ is a continuous linear representation of $G$ in $\widehat{E}$.
 
-#### Remark 4 {#int-viii-s2-n1-rem-4 .statement}
+#### Remark 4 {#int-viii-s2-n1-rem-4 .statement tag=09IJ}
 
 When $E$ is a normed space, $U$ is said to be isometric if $\|U(s)\| = 1$ for every $s \in G$. For this, it suffices that $\|U(s)\| \leq 1$ for all $s \in G$, because one then has
 $$
@@ -85,19 +85,19 @@ $$
 $$
 whence $\|U(s)\| = \|U(s^{-1})\| = 1$ for all $s \in G$.
 
-#### Proposition 1 {#int-viii-s2-prop-1 .statement}
+#### Proposition 1 {#int-viii-s2-prop-1 .statement tag=09IK}
 
 — If $G$ is a locally compact group and $E$ is barreled, then every separately continuous linear representation $U$ of $G$ in $E$ is continuous.
 
 For every compact subset $K$ of $G$, $U(K)$ is compact for the topology of pointwise convergence (Remark 1), therefore is equicontinuous (TVS, III, §4, No. 2, Th. 1); one then applies Remark 2.
 
-#### Lemma 1 {#int-viii-s2-lem-1 .statement}
+#### Lemma 1 {#int-viii-s2-lem-1 .statement tag=09IL}
 
 Let G be a locally compact group, $\rho$ a lower semi-continuous finite numerical function $\geqslant 0$ on G such that $\rho(st) \leqslant \rho(s)\rho(t)$ for all $s,t \in G$. Then $\rho$ is bounded above on every compact subset of G.
 
 There exists a nonempty open subset U of G such that $\rho$ is bounded above on U (GT, IX, §5, No. 4, Th. 2). Let K be a compact subset of G. Then K is covered by a finite number of sets $s_1U, \ldots, s_nU$. For every $x \in U$, one has $\rho(s_ix) \leqslant \rho(s_i)\rho(x)$, therefore $\rho$ is bounded above on the $s_iU$, hence on K.
 
-#### Lemma 2 {#int-viii-s2-lem-2 .statement}
+#### Lemma 2 {#int-viii-s2-lem-2 .statement tag=09IM}
 
 Let G be a topological group, U a linear representation of G in a normed space E, and A a dense subset of E. Assume that for every $s \in G$, $U(s)$ is continuous, and that, for every $x \in A$, $s \mapsto U(s)x$ is a continuous mapping of G into E. Then the function $s \mapsto g(s) = \|U(s)\|$ on G is lower semi-continuous and satisfies $g(st) \leqslant g(s)g(t)$.
 
@@ -107,7 +107,7 @@ $$
 g(st) = \|U(s)U(t)\| \leqslant \|U(s)\| \cdot \|U(t)\| = g(s)g(t).
 $$
 
-#### Proposition 2 {#int-viii-s2-prop-2 .statement}
+#### Proposition 2 {#int-viii-s2-prop-2 .statement tag=09IN}
 
 Let G be a locally compact group, U a linear representation of G in a normed space E. Let A be a dense subset of E. Assume that for every $s \in G$, $U(s)$ is continuous and that, for every $x \in A$, $s \mapsto U(s)x$ is a continuous mapping of G into E. Then U is continuous.
 
@@ -117,7 +117,7 @@ For, $\|U(s)\|$ is bounded on every compact subset of G by Lemmas 1 and 2, and o
 
 Let U be a separately continuous linear representation of G in E. Let E' be the dual of E. The mapping $s \mapsto {}^tU(s)$ is a linear representation in E' of the group $G^0$ opposite G; we shall say that this representation is the transpose of U. The mapping $s \mapsto {}^tU(s^{-1}) = {}^tU(s)^{-1}$ is a linear representation of G in E', called the contragredient of U.
 
-#### Lemma 3 {#int-viii-s2-lem-3 .statement}
+#### Lemma 3 {#int-viii-s2-lem-3 .statement tag=09IO}
 
 Let X be a locally compact space, Y and Z topological spaces, $\varphi$ a continuous mapping of $X \times Y$ into Z, and $\varphi_x$ the mapping $y \mapsto \varphi(x,y)$ of Y into Z. The spaces $\mathscr{C}(Y), \mathscr{C}(Z)$ being equipped with the topology of compact convergence, the mapping $(x,f) \mapsto f \circ \varphi_x$ of $X \times \mathscr{C}(Z)$ into $\mathscr{C}(Y)$ is continuous.
 
@@ -125,7 +125,7 @@ It clearly suffices to consider the case that X is compact. Let $(x_0, f_0) \in 
 
 Let us now return to the earlier notations.
 
-#### Proposition 3 {#int-viii-s2-prop-3 .statement}
+#### Proposition 3 {#int-viii-s2-prop-3 .statement tag=09IP}
 
 (i) *If U is separately continuous, then $^tU$ is separately continuous when E' is equipped with the weak topology $\sigma(E', E)$.*
 (ii) *If G is locally compact and U is continuous, then $^tU$ is continuous when E' is equipped with the topology of compact convergence.*
@@ -163,7 +163,7 @@ thus $\gamma_\chi$ *is a linear representation* of G. For $\chi = 1$, one recove
 
 Suppose now that G and X are locally compact, G operating continuously on X, and $\chi$ continuous on $G \times X$. Then $C(X)$ and $K(X)$ are stable for the $\gamma_\chi(s)$, whence linear representations of G in $C(X)$ and $K(X)$ which we shall again denote $\gamma_\chi$.
 
-#### Proposition 4 {#int-viii-s2-prop-4 .statement}
+#### Proposition 4 {#int-viii-s2-prop-4 .statement tag=09IQ}
 
 *The linear representations $\gamma_\chi$ of G in $C(X)$ and $K(X)$ are continuous.*
 
@@ -175,7 +175,7 @@ $$
 $$
 therefore $f \mapsto \gamma_\chi(s_0)f$ is a continuous linear mapping of $K(X, H)$ into $K(X, L)$; it follows that $f \mapsto \gamma_\chi(s_0)f$ is a continuous linear mapping of $K(X)$ into itself (TVS, II, §4, No. 4, Prop. 5). On the other hand, the topology of $K(X, L)$ is induced by that of $C(X)$. By what has already been proved, the mapping $s \mapsto \gamma_\chi(s)f$ of V into $K(X, L)$ is continuous. This completes the proof that $\gamma_\chi$ is separately continuous.
 
-#### Proposition 5 {#int-viii-s2-prop-5 .statement}
+#### Proposition 5 {#int-viii-s2-prop-5 .statement tag=09IR}
 
 *Suppose that each function $\chi(s, \cdot)$ is bounded. Then $\gamma_\chi$ leaves $\overline{K(X)}$ stable, and the linear representation $\gamma_\chi$ of G in $\overline{K(X)}$ is continuous.*
 
@@ -203,11 +203,11 @@ $$
 
 The linear representation $\gamma_\chi$ of $G$ in $\mathscr{C}(X)$ admits a contragredient representation in the space $\mathscr{C}'(X)$ of measures on $X$ with compact support, a representation which we again denote by $\gamma_\chi$; the endomorphisms $\gamma_\chi(s)$ of $\mathscr{C}'(X)$ are the restrictions of the endomorphisms $\gamma_\chi(s)$ of $\mathscr{M}(X)$.
 
-#### Proposition 6 {#int-viii-s2-prop-6 .statement}
+#### Proposition 6 {#int-viii-s2-prop-6 .statement tag=09IS}
 
 *If one equips $\mathscr{M}(X)$ (resp. $\mathscr{C}'(X)$) with the topology of uniform convergence in the compact subsets of $\mathscr{K}(X)$ (resp. $\mathscr{C}(X)$), then the linear representation $\gamma_\chi$ of $G$ in $\mathscr{M}(X)$ (resp. $\mathscr{C}'(X)$) is continuous.*
 
-#### Proposition 7 {#int-viii-s2-prop-7 .statement}
+#### Proposition 7 {#int-viii-s2-prop-7 .statement tag=09IT}
 
 *Suppose that each function $\chi(s, \cdot)$ is bounded. Then $\gamma_\chi$ leaves stable $\mathscr{M}^1(X)$ and, if $\mathscr{M}^1(X)$ is equipped with the topology of uniform convergence in the compact subsets of $\mathscr{K}(X)$, then the linear representation $\gamma_\chi$ of $G$ in $\mathscr{M}^1(X)$ is continuous.*
 These propositions result from Props. 3, 4, 5.
@@ -249,7 +249,7 @@ $$
 $$
 therefore $\gamma_{\chi,p}(s)f \in \mathscr{L}_C^p(X, \beta)$. One sees that $\gamma_{\chi,p}(s)$ is an *isometric* endomorphism of $\mathscr{L}_C^p(X, \beta)$ and defines, by passage to the quotient, an isometric endomorphism of $L_C^p(X, \beta)$, also denoted $\gamma_{\chi,p}(s)$. On the other hand, $\chi^{1/p}$ is obviously a multiplier, therefore $\gamma_{\chi,p}$ is a linear representation of $G$ in $L_C^p(X, \beta)$ by what we have seen in No. 3.
 
-#### Proposition 8 {#int-viii-s2-prop-8 .statement}
+#### Proposition 8 {#int-viii-s2-prop-8 .statement tag=09IU}
 
 *The linear representation $\gamma_{\chi,p}$ of $G$ in $L_C^p(X, \beta)$ is continuous and isometric.*
 
@@ -257,7 +257,7 @@ Let $f \in \mathscr{K}(X)$. When $s$ tends to $s_0$ in $G$, $\gamma_{\chi,p}(s)f
 
 For the case that $\chi$ is not assumed continuous, cf. §4, Exer. 13.
 
-#### Proposition 9 {#int-viii-s2-prop-9 .statement}
+#### Proposition 9 {#int-viii-s2-prop-9 .statement tag=09IV}
 
 *Suppose that each function $\chi(s, \cdot)$ is bounded. Then $\gamma_\chi$ leaves $L_C^p(X, \beta)$ stable, and the linear representation $\gamma_\chi$ of $G$ in $L_C^p(X, \beta)$ is continuous.*
 
@@ -297,7 +297,7 @@ Let us now assume that $U$ is a continuous linear representation of the locally 
 
 ### 7. Relations between the endomorphisms $U(\mu)$ and the endomorphisms $U(s)$
 
-#### Lemma 4 {#int-viii-s2-lem-4 .statement}
+#### Lemma 4 {#int-viii-s2-lem-4 .statement tag=09IW}
 
 Let $T$ be a locally compact space, $a$ a point of $T$, $M$ a subset of $\mathscr{M}(T)$, and $\mathfrak{F}$ a filter on $M$. Assume that:
 (i) for every compact subset $K$ of $T$, the numbers $|\mu|(K)$, for $\mu \in M$, are bounded above;
@@ -326,13 +326,13 @@ $$
 
 Since the first and third terms on the right side tend to 0 with respect to $\mathfrak{F}$, one sees that indeed $\lim_{\mu,\mathfrak{F}} \mu(f) = f(a)$.
 
-#### Corollary 1 {#int-viii-s2-lem-4-cor-1 .statement}
+#### Corollary 1 {#int-viii-s2-lem-4-cor-1 .statement tag=09IX}
 
 With hypotheses as in Lemma 4, suppose in addition that there exists a compact subset $K_0$ of $T$ containing the supports of all of the measures $\mu \in M$. Then $\mathfrak{F}$ also converges to $\varepsilon_a$ in $\mathscr{C}'(T)$ equipped with the topology of compact convergence in $\mathscr{C}(T)$.
 
 For, the restriction mapping of $\mathscr{C}(T)$ into $\mathscr{C}(K_0)$ is continuous; therefore, if $H$ is a compact subset of $\mathscr{C}(T)$, then the restrictions to $K_0$ of the functions in $H$ form a compact subset of $\mathscr{C}(K_0)$. It then suffices to apply Lemma 4 on replacing $T$ by $K_0$.
 
-#### Corollary 2 {#int-viii-s2-lem-4-cor-2 .statement}
+#### Corollary 2 {#int-viii-s2-lem-4-cor-2 .statement tag=09IY}
 
 *With hypotheses as in Cor. 1, let $f$ be a continuous mapping of $T$ into a quasi-complete locally convex space $E$. Then*
 
@@ -342,7 +342,7 @@ $$
 
 This follows from Cor. 1, and Prop. 14 of Ch. VI, §1, No. 6.
 
-#### Corollary 3 {#int-viii-s2-lem-4-cor-3 .statement}
+#### Corollary 3 {#int-viii-s2-lem-4-cor-3 .statement tag=09IZ}
 
 *Let $G$ be a locally compact group, $E$ a quasi-complete locally convex space, and $U$ a continuous linear representation of $G$ in $E$. Let $\beta$ be a positive measure on $G$, $a$ an element of $G$, and $\mathscr{B}$ a base for the filter of neighborhoods of $a$, formed of compact neighborhoods. For every $V \in \mathscr{B}$, let $f_V$ be a continuous function $\geqslant 0$ on $G$, with support contained in $V$, and such that $\int f_V\, d\beta = 1$. Then, for every $x \in E$,
 
@@ -354,7 +354,7 @@ $$
 
 The mapping $s \mapsto U(s)x$ of $G$ into $E$ is continuous. By Cor. 2, $U(a)x = \lim_V \int (U(s)x) \cdot f_V(s)\, d\beta(s)$ with respect to the section filter of $\mathscr{B}$, that is, $U(a)x = \lim_V U(f_V \cdot \beta)x$.
 
-#### Proposition 10 {#int-viii-s2-prop-10 .statement}
+#### Proposition 10 {#int-viii-s2-prop-10 .statement tag=09J0}
 
 *Let $G$ be a locally compact group, $E$ a quasi-complete locally convex space, $U$ a continuous linear representation of $G$ in $E$, and $\beta$ a positive measure on $G$ with support $G$.
 

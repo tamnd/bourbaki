@@ -32,14 +32,14 @@ subsections:
       pdf_page: 111
 statements: 23
 exercises: 11
-content_sha256: ae35206b4cd5b0be6c23024aa082e6478d645632f935b7a66124a5bfa75f5d71
+content_sha256: ab9d2fb26bb0375a95a00dacc9e00bb68d62389dbd2ebd5e94968535b91b1e81
 ---
 
 ## § 4. Hauteur d’une valuation.
 
 ### 1. Inclusion des anneaux de valuation d’un même corps
 
-#### Proposition 1 {#ac-vi-s4-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s4-prop-1 .statement tag=04TV}
 
 Soient $\mathbf{K}$ un corps, et $\mathbf{A}$ un anneau de valuation pour $\mathbf{K}$. Alors:
 a) Tout anneau $\mathbf{B}$ tel que $\mathbf{A} \subset \mathbf{B} \subset \mathbf{K}$ est un anneau de valuation pour $\mathbf{K}$;
@@ -48,25 +48,25 @@ c) L’application $\mathfrak{p} \to \mathbf{A}_{\mathfrak{p}}$ est une bijectio
 
 Si $\mathbf{B}$ est un anneau tel que $\mathbf{A} \subset \mathbf{B} \subset \mathbf{K}$, et si $x \in \mathbf{K} - \mathbf{B}$, on a $x \in K - A$, d'où $x^{-1} \in m(A) \subset B$, ce qui prouve à la fois que $B$ est un anneau de valuation pour $K$, et que $m(B) \subset m(A)$; comme $m(B) = m(B) \cap A$ est un idéal premier de $A$, on a démontré $a)$ et $b)$. En outre, on a $A_{m(B)} \subset B$; inversement, si $x \in B - A$, on a $x^{-1} \in A$ et $x^{-1} \notin m(B)$, donc $x \in A_{m(B)}$; ainsi $A_{m(B)} = B$. Soit enfin $\mathfrak{p}$ un idéal premier de $A$; posons $B = A_{\mathfrak{p}}$; on a $m(B) \cap A = \mathfrak{p}$ (Chap. II, , no 5; prop. 11), et $m(B) \subset A$ d'après $b)$; donc $m(B) = \mathfrak{p}$, ce qui montre que les applications $\mathfrak{p} \to A_{\mathfrak{p}}$ et $B \to m(B)$ de l'énoncé sont des bijections réciproques
 
-#### Corollaire {#ac-vi-s4-n1-cor-1 .statement}
+#### Corollaire {#ac-vi-s4-n1-cor-1 .statement tag=04TW}
 
 *L’ensemble des sous-anneaux de* $K$ *contenant* $A$ *est totalement ordonné par inclusion*.
 
 En effet, l’ensemble des idéaux premiers de $A$ est totalement ordonné par inclusion ($§ 1$, no 2, th. 1 e)), et l’application $\mathfrak{p} \to A_{\mathfrak{p}}$ renverse les relations d’inclusion.
 
-#### Proposition 2 {#ac-vi-s4-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s4-prop-2 .statement tag=04TX}
 
 *Soient* $K$ *un corps*, $B$ *un anneau de valuation pour* $K$, *et* $h_B$ *la place de* $K$ *associée à* $B$ *(à valeurs dans* $\kappa(B)$). *Alors l’application* $A \to h_B(A)$ *définit une bijection de l’ensemble* $\mathscr{A}$ *des anneaux de valuation pour* $K$ *contenus dans* $B$, *sur l’ensemble* $\mathscr{A}'$ *des anneaux de valuation pour* $\kappa(B)$.
 
 Si $A \in \mathscr{A}$, on a $h_B(A) \in \mathscr{A}'$: en effet, si $x' = h_B(x)$ (où $x \in B$) est un élément de $\kappa(B) - h_B(A)$, on a $x \notin A$, donc $x^{-1} \in A$ et $h_B(x)^{-1} \in h_B(A)$. D’autre part, pour $A \in \mathscr{A}$, on a $A \supset m(B)$ (prop. 1, b)), donc l’application $A \to h_B(A)$ est injective. Enfin, soient $A' \in \mathscr{A}'$ et $A = \overline{h_B}(A') \subset B$; on va montrer, ce qui achèvera la démonstration, que $A \in \mathscr{A}$; en effet, si $x \in K - A$, on a, soit $x \notin B$, soit $x \in B$; si $x \notin B$, on a $x^{-1} \in m(B) \subset A$; si $x \in B$, on a $h_B(x) \in \kappa(B)$ et $h_B(x) \notin A'$, donc $h_B(x^{-1}) \in A'$, et on en conclut encore que $x^{-1} \in A$; donc $A \in \mathscr{A}$.
 
-#### Corollaire {#ac-vi-s4-n1-cor-2 .statement}
+#### Corollaire {#ac-vi-s4-n1-cor-2 .statement tag=04TY}
 
 *Soient* $A$ *et* $B$ *deux anneaux de valuation pour* $K$, *avec* $A \subset B$; *posons* $A' = h_B(A)$, *qui est un anneau de valuation pour* $\kappa(B)$. *Le corps résiduel* $\kappa(A')$ *de* $A'$ *est canoniquement isomorphe au corps résiduel* $\kappa(A)$ *de* $A$, *et la place* $h_A$ *associée à* $A$ *est la composée* $h_{A'} \circ h_B$ *des places associées à* $A'$ *et* $B$.
 
 En effet, puisque l’anneau local $A'$ est un quotient de l’anneau local $A$, leurs corps résiduels sont canoniquement isomorphes, et l’égalité $h_A(x) = h_{A'}(h_B(x))$ est vraie pour $x \in A$. D’autre part, si $x \in B - A$, on a $h_B(x) \notin A'$, et les deux membres de l’égalité sont égaux à $\infty$; il en est de même si $x \in K - B$.
 
-#### Remarque {#ac-vi-s4-n1-rem-1 .statement}
+#### Remarque {#ac-vi-s4-n1-rem-1 .statement tag=04TZ}
 
 Réciproquement, soient $f$ une place de $K$ à valeurs dans $K'$, et $f'$ une place de $K'$ à valeurs dans $K''$. Alors $f' \circ f$ est une place de $K$ dont l’anneau est contenu dans l’anneau de la place $f$.
 
@@ -74,15 +74,15 @@ Réciproquement, soient $f$ une place de $K$ à valeurs dans $K'$, et $f'$ une p
 
 Pour étudier la situation du n° 1 du point de vue des valuations, nous aurons besoin de la déf. 1 et de la prop. 3 ci-dessous.
 
-#### Définition 1 {#ac-vi-s4-def-1 .statement}
+#### Définition 1 {#ac-vi-s4-def-1 .statement tag=04U0}
 
 Un sous-groupe $H$ d’un groupe ordonné $G$ est dit isolé si les relations $0 \leq y \leq x$ et $x \in H$ entraînent $y \in H$.
 
-#### Exemple 1 {#ac-vi-s4-n2-exa-1 .statement}
+#### Exemple 1 {#ac-vi-s4-n2-exa-1 .statement tag=04U1}
 
 Soient $A$ et $B$ deux groupes ordonnés ; munissons $A \times B$ de l’ordre lexicographique (i.e. « $(a, b) \leq (a', b')$ » équivaut à « $(a < a')$ ou $(a = a'$ et $b \leq b'$) »). Le deuxième facteur $B$ de $A \times B$ est alors, comme on le voit aussitôt, un sous-groupe isolé de $A \times B$.
 
-#### Proposition 3 {#ac-vi-s4-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s4-prop-3 .statement tag=04U2}
 
 Soient $G$ un groupe ordonné, et $P$ l’ensemble de ses éléments positifs.
 
@@ -100,7 +100,7 @@ $$
 
 car, si $x$ et $y$ sont des éléments de $P$ tels que $g(x) = -g(y)$, on a $x + y \in H$, d’où $x \in H$ et $y \in H$ puisque $H$ est isolé ; donc $g(x) = g(y) = 0$. Ainsi $P'$ est l’ensemble des éléments positifs pour une structure de groupe ordonné sur $G/H$ (Alg. chap. VI, § 1, n° 3, prop. 3). Enfin, si $G$ est totalement ordonné, on a $P \cup (-P) = G$, d’où $P' \cup (-P') = G/H$, donc $G/H$ est totalement ordonné (*loc. cit.*).
 
-#### Exemple 2 {#ac-vi-s4-n2-exa-2 .statement}
+#### Exemple 2 {#ac-vi-s4-n2-exa-2 .statement tag=04U3}
 
 Si nous reprenons l’exemple où $G$ est un produit lexicographique $A \times B$ et où $H = B$, le groupe ordonné $G/H$ s’identifie canoniquement à $A$.
 
@@ -114,7 +114,7 @@ $$
 
 Comme $A \subset B$, $\lambda$ transforme les éléments positifs de $\Gamma_A$ en éléments positifs de $\Gamma_B$, donc est croissant. Par suite (prop. 3), le noyau $H_B$ de $\lambda$ est un sous-groupe isolé de $\Gamma_A$, et $\lambda$ se factorise en $\Gamma_A \to \Gamma_A/H_B \xrightarrow{\mu} \Gamma_B$, où $\mu$ est un homomorphisme bijectif et croissant, donc un *isomorphisme* de groupes totalement ordonnés; donc $\Gamma_B$ s’identifie au groupe totalement ordonné quotient $\Gamma_A/H_B$.
 
-#### Proposition 4 {#ac-vi-s4-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s4-prop-4 .statement tag=04U4}
 
 *L’application* $B \to H_B$ *est une bijection croissante de l’ensemble des sous-anneaux de K contenant A sur l’ensemble des sous-groupes isolés de $\Gamma_A$*.
 
@@ -126,7 +126,7 @@ $$
 
 est une valuation de $K$ dont l’anneau contient $A$.
 
-#### Remarque {#ac-vi-s4-n3-rem-1 .statement}
+#### Remarque {#ac-vi-s4-n3-rem-1 .statement tag=04U5}
 
 Avec les hypothèses précédentes, notons $f$ l’homomorphisme canonique de $B$ sur $\kappa(B)$, et posons $A' = f(A)$; c’est un anneau de valuation pour $\kappa(B)$ (prop. 2, no 1). On a $\overline{f(\kappa(B))^*} = U(B), \overline{f(A')} = A, \overline{f(m(A'))} = m(A)$, donc
 
@@ -146,7 +146,7 @@ $$
 0 \to \Gamma_{A'} \to \Gamma_A \to \Gamma_B \to 0.
 $$
 
-#### Exemple {#ac-vi-s4-n3-exa-1 .statement}
+#### Exemple {#ac-vi-s4-n3-exa-1 .statement tag=04U6}
 
 Soient $k$ un corps,
 
@@ -164,19 +164,19 @@ Soit $G$ un groupe totalement ordonné. Étant donnés deux sous-groupes isolés
 
 Ceci résulte aussi de la prop. 4 du no 3 et du cor. de la prop. 1 du no 1, en tenant compte du fait que tout groupe totalement ordonné est le groupe des ordres d’une valuation (§ 3, no 4, Exemple 6).
 
-#### Définition 2 {#ac-vi-s4-def-2 .statement}
+#### Définition 2 {#ac-vi-s4-def-2 .statement tag=04U7}
 
 Soit G un groupe totalement ordonné. Si le nombre des sous-groupes isolés de G distincts de G est fini et égal à n, on dit que G est de hauteur n. Si ce nombre est infini, on dit que G est de hauteur infinie.
 
-#### Exemple 1 {#ac-vi-s4-n4-exa-1 .statement}
+#### Exemple 1 {#ac-vi-s4-n4-exa-1 .statement tag=0CI9}
 
 La hauteur du groupe G = {0} est 0.
 
-#### Exemple 2 {#ac-vi-s4-n4-exa-2 .statement}
+#### Exemple 2 {#ac-vi-s4-n4-exa-2 .statement tag=0CIA}
 
 Les groupes $\mathbf{Z}$ et $\mathbf{R}$ sont de hauteur 1.
 
-#### Exemple 3 {#ac-vi-s4-n4-exa-3 .statement}
+#### Exemple 3 {#ac-vi-s4-n4-exa-3 .statement tag=0CIB}
 
 Soient G un groupe totalement ordonné et H un sous-groupe isolé de G. Si l’on désigne par $h(H)$ et $h(G/H)$ les hauteurs des groupes totalement ordonnés H et G/H, on a
 $$
@@ -190,19 +190,19 @@ $$
 
 Par contre la hauteur de $\mathbf{Z} \times \mathbf{Z}$, ordonné par plongement dans $\mathbf{R}$ (cf. § 3, no 4, fin de l’Exemple 6) est égale à 1 (cf. prop. 8 ci-dessous).
 
-#### Définition 3 {#ac-vi-s4-def-3 .statement}
+#### Définition 3 {#ac-vi-s4-def-3 .statement tag=04U8}
 
 On appelle hauteur d’une valuation la hauteur du groupe des ordres de cette valuation.
 
 Par exemple une valuation discrète est de hauteur 1. Seules les valuations impropres sont de hauteur 0. Les prop. 1 et 4 entraînent :
 
-#### Proposition 5 {#ac-vi-s4-prop-5 .statement}
+#### Proposition 5 {#ac-vi-s4-prop-5 .statement tag=04U9}
 
 La hauteur d’une valuation est égale au nombre des idéaux premiers non nuls de son anneau.
 
 ### 5. Valuations de hauteur 1
 
-#### Proposition 6 {#ac-vi-s4-prop-6 .statement}
+#### Proposition 6 {#ac-vi-s4-prop-6 .statement tag=04UA}
 
 Soient K un corps, A un sous-anneau de K. Supposons que A ne soit pas un corps. Alors les conditions suivantes sont équivalentes :
 a) A est l’anneau d’une valuation de hauteur 1 de K ;
@@ -211,13 +211,13 @@ c) A est maximal parmi les sous-anneaux de K distincts de K.
 
 La prop. 5 du n° 4 montre que a) implique b), et la prop. 1 du n° 1 montre que b) implique c). Reste à montrer que c) implique a). Supposons $A$ maximal parmi les sous-anneaux de $K$ distincts de $K$. Soient $m$ un idéal maximal de $A$, et $V$ un anneau de valuation pour $K$ dominant $A_m$ ($§ 1$, n° 2, cor. du th. 2); comme $m(V) \cap A = m$ et que $m \neq (0)$ (puisque $A$ n’est pas un corps), on a $V \neq K$, d’où $V = A$, ce qui montre que $A$ est l’anneau d’une valuation $v$ de $K$. Ceci étant, $v$ est de hauteur 1 d’après les prop. 1 (n° 1) et 5 (n° 4).
 
-#### Proposition 7 {#ac-vi-s4-prop-7 .statement}
+#### Proposition 7 {#ac-vi-s4-prop-7 .statement tag=04UB}
 
 *Pour qu’une valuation d’un corps soit de hauteur 1, il faut et il suffit que son groupe des ordres soit isomorphe à un sous-groupe ordonné non nul de $\mathbf{R}$*.
 
 Cela résulte en effet de la proposition suivante :
 
-#### Proposition 8 {#ac-vi-s4-prop-8 .statement}
+#### Proposition 8 {#ac-vi-s4-prop-8 .statement tag=04UC}
 
 *Soit $G$ un groupe totalement ordonné non réduit à 0. Les conditions suivantes sont équivalentes :
 a) $G$ est de hauteur 1 ;
@@ -234,7 +234,7 @@ $$
 
 pour $x \in P$ et $y \in P$; par linéarité $f$ se prolonge en un isomorphisme de $G$ sur un sous-groupe de $\mathbf{R}$, ce qui prouve que b) implique c).
 
-#### Proposition 9 {#ac-vi-s4-prop-9 .statement}
+#### Proposition 9 {#ac-vi-s4-prop-9 .statement tag=04UD}
 
 Soient $K$ un corps, $v$ une valuation non impropre de $K$, et $A$ l’anneau de $v$. Pour que $A$ soit complètement intégralement clos (chap. V, § 1, n° 4, déf. 5), il faut et il suffit que $v$ soit de hauteur 1.
 
@@ -242,7 +242,7 @@ Supposons $v$ de hauteur 1. Soit $x \in K$ tel que les $x^n (n \geq 0)$ soient t
 
 Supposons maintenant que $v$ ne soit pas de hauteur 1. Il existe alors $y \in m(A)$ et $t \in A$ tels que $n v(y) < v(t)$ pour tout $n \geq 0$ (prop. 8, b)). On a donc $ty^{-n} \in A$ pour tout $n \geq 0$, mais $y^{-1} \notin A$. Donc $A$ n’est pas complètement intégralement clos.
 
-#### Corollaire {#ac-vi-s4-n5-cor-1 .statement}
+#### Corollaire {#ac-vi-s4-n5-cor-1 .statement tag=04UE}
 
 Soient $K$ un corps, $(v_\alpha)_{\alpha \in I}$ une famille de valuations de hauteur 1 de $K$, et $A$ l’intersection des anneaux des $v_\alpha$. Alors $A$ est complètement intégralement clos.
 

@@ -22,7 +22,7 @@ subsections:
       pdf_page: 286
 statements: 5
 exercises: 9
-content_sha256: aa78d7417dc812e3fe49b768fcc72481a0fc960e63e09218c2f7ad67767169c0
+content_sha256: 345b39c6aa42db2dbb13f3b4da3d834dda0b94e5c0750c5ee630d5f4b9b588d5
 ---
 
 ## ANNEX
@@ -45,7 +45,7 @@ b) In the contrary case, $\operatorname{Tr}(Q/H)$ is the supremum of the set of 
 
 Let $E$ be a real Hilbert space and $Q$ a positive quadratic form on $E$. Set $H(x) = \|x\|^2$ for all $x \in E$; then $H$ is a positive quadratic form on $E$. One says that $Q$ is *nuclear* if $\operatorname{Tr}(Q/H)$ is finite. For every $x \in E$ of norm 1, one has $Q(x) \leq \operatorname{Tr}(Q/H)$, whence $Q \leq \operatorname{Tr}(Q/H) \cdot H$; in particular, every nuclear form $Q$ is continuous.
 
-#### Remark {#int-ix-a0-n1-rem-1 .statement}
+#### Remark {#int-ix-a0-n1-rem-1 .statement tag=09T5}
 
 — 1) For every subspace $F$ of $E$, denote by $Q_F$ the restriction of $Q$ to $F$, and by $H_F$ that of $H$. Then $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ and $\operatorname{Tr}(Q/H)$ is the supremum of the numbers $\operatorname{Tr}(Q_F/H_F)$ for $F \subset E$ finite-dimensional.
 
@@ -53,7 +53,7 @@ Let $E$ be a real Hilbert space and $Q$ a positive quadratic form on $E$. Set $H
 
 (1) Cf. TVS, V, §4, No. 9.
 
-#### Proposition 1 {#int-ix-a0-prop-1 .statement}
+#### Proposition 1 {#int-ix-a0-prop-1 .statement tag=09T6}
 
 — *Assume that E is finite-dimensional and H is nondegenerate.*
 
@@ -71,7 +71,7 @@ $$
 
 Q.E.D.
 
-#### Proposition 2 {#int-ix-a0-prop-2 .statement}
+#### Proposition 2 {#int-ix-a0-prop-2 .statement tag=09T7}
 
 — *Assume that E is finite-dimensional. There exist a basis* $(e_1, \ldots, e_n)$ *of E and an integer m with* $0 \leq m \leq n$ *such that*
 
@@ -93,7 +93,7 @@ $$
 
 Q.E.D.
 
-#### Remark 3 {#int-ix-a0-n1-rem-3 .statement}
+#### Remark 3 {#int-ix-a0-n1-rem-3 .statement tag=09T8}
 
 — Assume E finite-dimensional and H nondegenerate. Let $(e_1, \ldots, e_n)$ be a basis of E. Set $q = ((e_i|e_j)_Q)_{1 \leq i,j \leq n}$ and $h = ((e_i|e_j)_H)_{1 \leq i,j \leq n}$. With notations as in Prop. 1, the matrix of $u$ for the basis $(e_1, \ldots, e_n)$ of E is equal to $h^{-1}q$, whence
 
@@ -127,7 +127,7 @@ $$
 H(x) = \|x\|^2,\quad Q(x) = \|u(x)\|^2 \quad (x \in E_1).
 $$
 
-#### Proposition 3 {#int-ix-a0-prop-3 .statement}
+#### Proposition 3 {#int-ix-a0-prop-3 .statement tag=09T9}
 
 *Suppose u is continuous. Let $(e_i)_{i \in I}$ be an orthonormal basis of $E_1$ and $(f_j)_{j \in J}$ an orthonormal basis of $E_2$. Then*
 

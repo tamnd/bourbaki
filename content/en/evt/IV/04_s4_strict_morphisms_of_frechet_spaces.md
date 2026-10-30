@@ -25,7 +25,7 @@ subsections:
       pdf_page: 213
 statements: 13
 exercises: 23
-content_sha256: 4445f6ba38c26bd2d5f9daeeec37deadb15f52942ff517da8da3165b091bf023
+content_sha256: c407d8cd0dfb8dde36f5bdedd16c24376ca0dd13486d65d99b3e2de383541cec
 ---
 
 ## § 4. STRICT MORPHISMS OF FRÉCHET SPACES
@@ -34,7 +34,7 @@ For every locally convex space E, let S(E) denote the set of all continuous semi
 
 ### 1. Characterizations of strict morphisms
 
-#### Proposition 1 {#evt-iv-s4-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s4-prop-1 .statement tag=07UR}
 
 Let E and F be two locally convex spaces and u a continuous linear mapping from E into F. In order that u be a strict morphism, it is necessary and sufficient that the following condition be satisfied:
 
@@ -48,7 +48,7 @@ $$
 
 The continuous semi-norms on E which are null on N, are the semi-norms $p_1 \circ \pi$ where $p_1$ ranges over S(E/N); similarly S(M) consists of the semi-norms $q_1$ for which there exists $q \in S(F)$ with $q_1 \leq q/F$. Finally, u is a strict morphism if and only if the bijective continuous linear mapping $\tilde{u}$ has a continuous inverse; this also means that every semi-norm in S(E/N) is of the form $q_1 \circ \tilde{u}$ with $q_1$ in S(M). Prop. 1 follows immediately from these remarks.
 
-#### Proposition 2 {#evt-iv-s4-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s4-prop-2 .statement tag=07US}
 
 Let E and F be two Hausdorff locally convex spaces and u a continuous linear mapping from E into F. In order that u be a strict morphism, it is necessary and sufficient that its transpose $^t u : F' \to E'$ satisfy the following conditions:
 
@@ -66,11 +66,11 @@ Since $N^{\circ}$ can be identified with the dual of E/N, prop. 9, (i) of IV, p.
 
 Suppose that u is a strict morphism. We have already seen that the kernel of $^t u$ is the orthogonal of I and the image of $^t u$ is the orthogonal of N. The cokernel of $u$ is the space $F/I$ and its dual can be identified with $I^\circ = \mathrm{Ker}\ ^t u$. Similarly, the dual of $N = \mathrm{Ker}\ u$ can be identified with $E'/N^\circ$ (IV, p. 8), *i.e.* with the cokernel of $^t u$ since $N^\circ$ is the image of $^t u$.
 
-#### Remark {#evt-iv-s4-n1-rem-1 .statement}
+#### Remark {#evt-iv-s4-n1-rem-1 .statement tag=07UT}
 
 — With the notations of prop. 2, property $b'$) also implies that $u$ is a strict morphism for the weakened topologies (II, p. 49, cor. 3).
 
-#### Proposition 3 {#evt-iv-s4-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s4-prop-3 .statement tag=07UU}
 
 *Let E and F be two locally convex spaces, and u a continuous linear mapping from E into F. We assume that E is Hausdorff and that F is metrizable. For u to be a strict morphism, it is necessary and sufficient that the image of $^t u$ be closed in $E'$ for the weak topology $\sigma(E', E)$.*
 
@@ -80,7 +80,7 @@ Conversely, suppose that the image of $^t u$ is closed for $\sigma(E', E)$ and i
 
 ### 2. Strict morphisms of Fréchet spaces
 
-#### Theorem 1 {#evt-iv-s4-thm-1 .statement}
+#### Theorem 1 {#evt-iv-s4-thm-1 .statement tag=07UV}
 
 *Let E and F be two Fréchet spaces and u a continuous linear mapping from E into F. The following conditions are equivalent :
 
@@ -98,13 +98,13 @@ We now prove the equivalence of e) and f). It is enough to prove that f) implies
 
 Finally the equivalence of g) and the preceding conditions follows from prop. 18 of GT, X, § 2, No. 10 and the following lemma.
 
-#### Lemma 1 {#evt-iv-s4-lem-1 .statement}
+#### Lemma 1 {#evt-iv-s4-lem-1 .statement tag=07UW}
 
 *Let E and F be two Hausdorff locally convex and quasi-complete spaces and u a continuous linear mapping from E into F. For ${}^t u$ to be a strict morphism from $F'_c$ into $E'_c$, it is necessary and sufficient that the image $u(E)$ of u be closed, and that every compact subset of $u(E)$ be the image under u of a compact subset of E.*
 
 By Mackey’s th. (IV, p. 2, th. 1) and the fact that on $E'$ (resp. F) the topology of compact convergence coincides with that of convex compact convergence (IV, p. 4), we can identity E (resp. F) with the dual $E'_c$ (resp. $F'_c$). Then $u$ is the transpose of ${}^t u$, and the equicontinuous subsets of E (resp. F) are the relatively compact sets. Lemma 1 then follows from prop. 2 (IV, p. 27), since $u(E)$ is closed in F if and only if it is closed for the weakened topology $\sigma(F, F')$ (IV, p. 4, prop. 2).
 
-#### Corollary 1 {#evt-iv-s4-lem-1-cor-1 .statement}
+#### Corollary 1 {#evt-iv-s4-lem-1-cor-1 .statement tag=07UX}
 
 *Under the hypothesis of th. 1, the following conditions are equivalent :*
 (i) *u is a strict injective morphism ;*
@@ -113,7 +113,7 @@ By Mackey’s th. (IV, p. 2, th. 1) and the fact that on $E'$ (resp. F) the topo
 
 The implication (i) $\Rightarrow$ (ii) follows immediately from the equivalence of conditions a), d) and e) of th. 1 and from IV, p. 6, prop. 5. It is clear that (ii) implies (iii). Finally, we prove that (iii) implies (i) : if ${}^t u$ is surjective $u$ is a strict morphism by the equivalence of a) and e) in th. 1 ; that $u$ is injective follows from prop. 5 of IV, p. 6.
 
-#### Corollary 2 {#evt-iv-s4-lem-1-cor-2 .statement}
+#### Corollary 2 {#evt-iv-s4-lem-1-cor-2 .statement tag=07UY}
 
 *Under the hypothesis of th. 1, the following conditions are equivalent :*
 (i) *u is surjective ;*
@@ -126,7 +126,7 @@ In view of the equivalence of a) and c) in th. 1, condition (ii) says that $u$ i
 
 If $u : E \to F$ is a strict morphism of Fréchet spaces, the transpose ${}^t u$ is not necessarily a strict morphism from $F'_b$ into $E'_b$ (IV, p. 62, exerc. 3). However, we have the following partial result :
 
-#### Corollary 3 {#evt-iv-s4-lem-1-cor-3 .statement}
+#### Corollary 3 {#evt-iv-s4-lem-1-cor-3 .statement tag=07UZ}
 
 — Under the hypotheses of th. 1, the following property implies the properties a) to g) :
 h) $^t u$ is a strict morphism from $F'_b$ into $E'_b$.
@@ -136,12 +136,12 @@ Let G be the closure of the image of $u$ in F ; the space G, with the topology i
 If E and F are Montel spaces, the strong topology on $E'$ (resp. $F'$) coincides with the topology of compact convergence, and h) is just a reformulation of g).
 If E and F are Banach spaces, so are $E'_b$ and $F'_b$, and condition h) is equivalent to f) by the equivalence of a) and c) applied to $^t u : F'_b \to E'_b$.
 
-#### Corollary 4 {#evt-iv-s4-lem-1-cor-4 .statement}
+#### Corollary 4 {#evt-iv-s4-lem-1-cor-4 .statement tag=07V0}
 
 — Suppose E and F are Banach spaces. For $^t u$ to be surjective, it is necessary and sufficient that there exist a real number $r > 0$ such that $\| x \| \leq r. \| u(x) \|$ for all $x \in E$.
 This is simply a reformulation of the equivalence of the conditions (i) and (iii) of cor. 1.
 
-#### Corollary 5 {#evt-iv-s4-lem-1-cor-5 .statement}
+#### Corollary 5 {#evt-iv-s4-lem-1-cor-5 .statement tag=07V1}
 
 — Let E and F be two Fréchet spaces and u a continuous linear mapping from E into F. The following conditions are equivalent :
 a) u is an isomorphism from E onto F.
@@ -155,7 +155,7 @@ Conversely, suppose that one of the conditions c), d) or e) is satisfied. It fol
 
 ### 3. Criteria for surjectivity
 
-#### Proposition 4 {#evt-iv-s4-prop-4 .statement}
+#### Proposition 4 {#evt-iv-s4-prop-4 .statement tag=07V2}
 
 — Let E and F be two Fréchet spaces, and u a continuous linear mapping from E into F. The following conditions are equivalent :
 
@@ -187,7 +187,7 @@ and the relation (1) is satisfied.
 
 Finally we prove that (iv) implies (i). Let $p \in S(E)$ and let $q$ be the superior envelope of the functions $|f|$ for $f \in F'$ satisfying $|f \circ u| \leq p$. By (iv), $q$ is finite on $F$, and is evidently a lower semi-continuous semi-norm on $F$; since $F$ is barrelled (III, p. 25, corollary), we have $q \in S(F)$. Let $B_p$ (resp. $B_q$) denote the set of all $x \in E$ (resp. $y \in F$) such that $p(x) \leq 1$ (resp. $q(y) \leq 1$). We have $q \circ u \leq p$, and so $u(B_p) \subset B_q$. The polar of $u(B_p)$ in $F'$ consists of linear forms $f \in F'$ such that $|f \circ u| \leq p$, hence $|f| \leq q$; in other words, we get $u(B_p)^{\circ} \subset B_q^{\circ}$, and finally that $\overline{u(B_p)} = B_q$ follows from the theorem of bipolars (II, p. 45, cor. 3). If $U$ is a neighbourhood of 0 in $E$, there exists $p \in S(E)$ such that $B_p \subset U$, hence $\overline{u(U)}$ contains the neighbourhood $B_q$ of 0 in $F$. This implies that $u$ is surjective (I, p. 17, th. 1).
 
-#### Corollary {#evt-iv-s4-n3-cor-1 .statement}
+#### Corollary {#evt-iv-s4-n3-cor-1 .statement tag=07V3}
 
 — Suppose E and F are Banach spaces. The following conditions are equivalent :
 (i) u is surjective.

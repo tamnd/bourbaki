@@ -52,9 +52,9 @@ subsections:
       pdf_page: 86
 statements: 50
 exercises: 27
-content_sha256: 1ed22341d5c8375863f2eab7b30cc73253ca8bf141f89b403c9b85c867e9781f
+content_sha256: c69da1ca802439280a7c1bb6a4635dfe1e8c4fbb0197076dc2992276749496b3
 translated_from: content/en/lie/I/06_s6_semi_simple_lie_algebras.md
-source_content_sha256: 6efc056f698b9fae537badfb05a3e33abcaeee18731cf89050af97a071c28037
+source_content_sha256: a9c8167085c5b67b76f2c398b6f6632816160cebdc605e7610218d0eb473ffb7
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-vi-91c34402
 glossary_version: 34
@@ -68,11 +68,11 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA CÁC ĐẠI SỐ LIE NỬA ĐƠN
 
-#### Định nghĩa 1 {#lie-i-s6-def-1 .statement}
+#### Định nghĩa 1 {#lie-i-s6-def-1 .statement tag=09ZA}
 
 *Cho g là một đại số Lie. g được gọi là nửa đơn khi và chỉ khi iđêan giao hoán duy nhất của g là {0}.*
 
-#### Nhận xét {#lie-i-s6-n1-rem-1 .statement}
+#### Nhận xét {#lie-i-s6-n1-rem-1 .statement tag=09ZB}
 
 (1) Đại số {0} là nửa đơn. Một đại số có chiều 1 hoặc 2 không phải là nửa đơn (cf. § 5, no. 1, Ví dụ 1). Tồn tại các đại số nửa đơn có chiều 3 (cf. no. 7).
 
@@ -80,7 +80,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 (3) Nếu $g_1, \ldots, g_n$ là các đại số nửa đơn, $g = g_1 \times \cdots \times g_n$ là nửa đơn: vì nếu a là một iđêan giao hoán của g, các phép chiếu của a lên $g_1, \ldots, g_n$ đều rút gọn về {0}.
 
-#### Định lý 1 {#lie-i-s6-thm-1 .statement}
+#### Định lý 1 {#lie-i-s6-thm-1 .statement tag=09ZC}
 
 *Cho g là một đại số Lie. Các điều kiện sau là tương đương:*
 
@@ -96,19 +96,19 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 (c) $\Rightarrow$ (a): điều này suy ra từ Mệnh đề 6 (b) của § 4, no. 4.
 
-#### Hệ quả {#lie-i-s6-n1-cor-1 .statement}
+#### Hệ quả {#lie-i-s6-n1-cor-1 .statement tag=09ZD}
 
 *Cho g là một đại số Lie nửa đơn và $\rho$ là một biểu diễn của g trên một không gian vectơ hữu hạn chiều V. Khi đó $\rho(g) \subset \mathfrak{sl}(V)$.*
 
 Dạng tuyến tính $x \mapsto \operatorname{Tr} \rho(x)$ ($x \in g$) bằng không khi x có dạng $[y, z]$ ($y \in g, z \in g$) và do đó trên $\mathscr{D}g = g$.
 
-#### Mệnh đề 1 {#lie-i-s6-prop-1 .statement}
+#### Mệnh đề 1 {#lie-i-s6-prop-1 .statement tag=09ZE}
 
 Cho $g$ là một đại số Lie nửa đơn và $\varphi$ là một biểu diễn trung thành hữu hạn chiều của $g$. Khi đó dạng song tuyến tính trên $g$ liên kết với $\varphi$ là không suy biến.
 
 Phần trực giao của $g$ đối với dạng này là một iđêan giải được ($§ 5$, no. 4, Định lý 2) và do đó là không.
 
-#### Hệ quả 1 {#lie-i-s6-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s6-prop-1-cor-1 .statement tag=09ZF}
 
 Cho $g$ là một đại số Lie, $\beta$ là dạng Killing của nó và $a$ là một đại số con nửa đơn của $g$. Phần trực giao $h$ của $a$ đối với $\beta$ là một không gian con bổ sung của $a$ trong $g$ và $[a, h] \subset h$. Nếu $a$ là một iđêan của $g$, thì h cũng vậy, và khi đó h là toán tử trung tâm hóa của a trong g.
 
@@ -120,13 +120,13 @@ $$
 
 vì $[x, y] \in a$, và do đó $[y, z] \in h$, điều này chứng tỏ rằng $[a, h] \subset h$. Nếu $a$ là một iđêan của $g$, ta biết rằng $h$ là một iđêan của $g$ ($§ 3$, Mệnh đề 7) và $g$ được đồng nhất với $a \times h$. Vì tâm của $a$ bằng không, bộ trung tâm hóa của $a$ trong $g$ là $h$.
 
-#### Hệ quả 2 {#lie-i-s6-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-i-s6-prop-1-cor-2 .statement tag=09ZG}
 
 Mọi mở rộng của một đại số Lie nửa đơn bởi một đại số Lie nửa đơn đều là nửa đơn và tầm thường.
 
 Điều này suy ra ngay lập tức từ Hệ quả 1.
 
-#### Hệ quả 3 {#lie-i-s6-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#lie-i-s6-prop-1-cor-3 .statement tag=09ZH}
 
 Nếu $g$ là nửa đơn, mọi đạo hàm của $g$ đều là nội.
 
@@ -134,13 +134,13 @@ $\operatorname{ad} g$ đẳng cấu với $g$ và do đó là nửa đơn, và l
 
 ### 2. TÍNH NỬA ĐƠN CỦA CÁC BIỂU DIỄN
 
-#### Bổ đề 1 {#lie-i-s6-lem-1 .statement}
+#### Bổ đề 1 {#lie-i-s6-lem-1 .statement tag=09ZI}
 
 Cho $g$ là một đại số Lie nửa đơn. Biểu diễn phụ hợp của $g$ là nửa đơn. Mọi iđêan và mọi đại số thương của $g$ đều là nửa đơn.
 
 Cho $a$ là một iđêan của $g$. Phần trực giao $b$ của $a$ trong $g$ đối với dạng Killing là một iđêan của $g$ và $a \cap b$ là một iđêan giao hoán ($§ 3$, no. 6, Mệnh đề 7) và do đó bằng không. Vậy $b$ là phần bù của $a$ trong $g$. Hơn nữa, vì dạng Killing của $g$ là không suy biến, nên các hạn chế của nó lên $a$ và $b$ cũng không suy biến (*Algebra*, Chương IX, $§ 4$, no. 1, Hệ quả của Mệnh đề 1) và do đó $a$ và $b$ là nửa đơn (no. 1, Định lý 1 và $§ 3$, no. 6, Mệnh đề 9).
 
-#### Bổ đề 2 {#lie-i-s6-lem-2 .statement}
+#### Bổ đề 2 {#lie-i-s6-lem-2 .statement tag=09ZJ}
 
 Cho $g$ là một đại số Lie. Khi đó hai điều kiện sau là tương đương:
 (a) Mọi biểu diễn tuyến tính hữu hạn chiều của $g$ đều là nửa đơn.
@@ -148,7 +148,7 @@ Cho $g$ là một đại số Lie. Khi đó hai điều kiện sau là tương �
 
 Rõ ràng (a) suy ra (b). Giả sử (b) đúng. Cho $\sigma$ là một biểu diễn hữu hạn chiều của $g$ trên một không gian vectơ M và N là một không gian con của M ổn định dưới $\sigma(g)$. Cho $\mu$ là biểu diễn của $g$ trên $\mathscr{L}(M)$ được dẫn xuất một cách chính tắc từ $\sigma$ (§ 3, no. 3): nhắc lại rằng $\mu(x) = \mathrm{ad}_{\mathscr{L}(M)} \rho(x)$. Gọi V (tương ứng W) là không gian con của $\mathscr{L}(M)$ gồm các ánh xạ tuyến tính từ M vào N mà hạn chế của chúng lên N là một phép vị tự (tương ứng bằng không); khi đó W có đối chiều 1 trong V và $\mu(x)(V) \subset W$ với mọi $x \in g$. Theo điều kiện (b), tồn tại $u \in V$ bị triệt tiêu bởi $\mu(x)$ với mọi $x \in g$ và có hạn chế lên N là một phép vị tự khác không. Nhân $u$ với một vô hướng thích hợp, có thể giả sử rằng $u$ là một phép chiếu của M lên N. Việc nói rằng $\mu(x) \cdot u = 0$ có nghĩa là $u$ giao hoán được với $\sigma(x)$. Do đó hạt nhân của $u$ là một phần bù của N trong M ổn định dưới $\sigma(x)$ với mọi $x \in g$. Vậy $\sigma$ là nửa đơn.
 
-#### Bổ đề 3 {#lie-i-s6-lem-3 .statement}
+#### Bổ đề 3 {#lie-i-s6-lem-3 .statement tag=09ZK}
 
 *Cho g là một đại số Lie nửa đơn, $\rho$ là một biểu diễn tuyến tính của g trên một không gian vectơ hữu hạn chiều V và W là một không gian con của V có đối chiều 1 sao cho $\rho(x)(V) \subset W$ với mọi $x \in g$. Khi đó tồn tại một đường thẳng bổ sung của W ổn định dưới $\rho(g)$.*
 
@@ -156,25 +156,25 @@ Với mọi $x \in g$ gọi $\sigma(x)$ là hạn chế của $\rho(x)$ lên W. 
 
 Trong trường hợp tổng quát, ta lập luận bằng quy nạp theo chiều của V. Gọi T là một không gian con ổn định cực tiểu khác không của W. Gọi $\rho'$ là biểu diễn thương trên $V' = V/T$. Khi đó, với mọi $x \in g$, $\rho'(x)(V') \subset W'$, trong đó $W' = W/T$ có đối chiều 1 trong $V'$. Theo giả thiết quy nạp tồn tại một đường thẳng $Z'$ bù cho $W'$ và ổn định đối với $\rho'(g)$. Ảnh ngược của nó Z trong V là ổn định đối với $\rho(g)$, chứa T như một không gian con có đối chiều 1, $Z \cap W = T$, và do đó $\rho(x)(Z) \subset T$ với mọi $x \in g$. Theo điều đã chứng minh ở trên, tồn tại một đường thẳng bù của T trong Z ổn định đối với $\rho(g)$; đường thẳng này bù cho W trong V, điều này hoàn tất chứng minh.
 
-#### Định lý 2 (H. Weyl) {#lie-i-s6-thm-2 .statement}
+#### Định lý 2 (H. Weyl) {#lie-i-s6-thm-2 .statement tag=09ZL}
 
 *Mọi biểu diễn tuyến tính hữu hạn chiều của một đại số Lie nửa đơn đều hoàn toàn khả quy.*
 
 Điều này suy ra từ các Bổ đề 2 và 3.
 
-#### Định nghĩa 2 {#lie-i-s6-def-2 .statement}
+#### Định nghĩa 2 {#lie-i-s6-def-2 .statement tag=09ZM}
 
 *Một đại số Lie g được gọi là đơn nếu các iđêan duy nhất của g là {0} và g và nếu thêm nữa g không giao hoán.*
 
 Một đại số Lie đơn là nửa đơn. Đại số {0} không đơn.
 
-#### Mệnh đề 2 {#lie-i-s6-prop-2 .statement}
+#### Mệnh đề 2 {#lie-i-s6-prop-2 .statement tag=09ZN}
 
 *Để một đại số Lie g là nửa đơn, điều kiện cần và đủ là nó là một tích của các đại số đơn.*
 
 Điều kiện này là đủ (no. 1, Nhận xét 3). Ngược lại, giả sử rằng g là nửa đơn. Vì biểu diễn phụ hợp của g là nửa đơn, g là tổng trực tiếp của các iđêan cực tiểu khác không $a_1, \ldots, a_m$. Khi đó g được đồng nhất với đại số tích của các $a_i$ (§ 1, no. 1). Mọi iđêan của $a_i$ khi đó là một iđêan của g và do đó bằng không hoặc bằng $a_i$. Mặt khác $a_i$ không giao hoán. Vậy các $a_i$ là các đại số Lie đơn.
 
-#### Hệ quả 1 {#lie-i-s6-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s6-prop-2-cor-1 .statement tag=09ZO}
 
 *Một đại số Lie nửa đơn là tích của các iđêan đơn của nó $g_i$. Mọi iđêan của g là tích của một số các $g_i$.*
 
@@ -182,13 +182,13 @@ $g = a_1 \times \cdots \times a_m$, trong đó các $a_i$ là đơn. Vì tâm c�
 
 Các iđêan đơn của một đại số Lie nửa đơn được gọi là các *thành phần đơn* của g.
 
-#### Hệ quả 2 {#lie-i-s6-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#lie-i-s6-prop-2-cor-2 .statement tag=09ZP}
 
 *Cho g, $g'$ là hai đại số Lie, r và $r'$ là các căn của chúng và f là một đồng cấu của g lên $g'$. Khi đó $r' = f(r)$.*
 
 Vì $f(r)$ giải được, $f(r) \subset r'$. Mặt khác, $g/r$ là nửa đơn (§ 5, no. 2, Mệnh đề 3), do đó $g'/f(r)$, là đẳng cấu với một thương của $g/r$, là nửa đơn (Bổ đề 1) và do đó $f(r) \supset r'$ (§ 5, no. 2, Mệnh đề 3).
 
-#### Nhận xét {#lie-i-s6-n2-rem-1 .statement}
+#### Nhận xét {#lie-i-s6-n2-rem-1 .statement tag=09ZQ}
 
 (1) Định lý 2 thừa nhận đảo lại: nếu mọi biểu diễn hữu hạn chiều của g đều là nửa đơn, thì g là nửa đơn. Thật vậy, vì biểu diễn phụ hợp là nửa đơn, mọi iđêan của g đều có một iđêan bù và do đó có thể được xem như một thương của g. Nếu g không nửa đơn thì g có một thương giao hoán khác không và do đó có một thương chiều 1. Khi đó đại số Lie K chiều 1 thừa nhận các biểu diễn không nửa đơn, ví dụ
 
@@ -216,7 +216,7 @@ $$
 
 ### 3. CÁC PHẦN TỬ NỬA ĐƠN VÀ CÁC PHẦN TỬ LŨY LINH TRONG CÁC ĐẠI SỐ LIE NỬA ĐƠN
 
-#### Mệnh đề 3 {#lie-i-s6-prop-3 .statement}
+#### Mệnh đề 3 {#lie-i-s6-prop-3 .statement tag=09ZR}
 
 *Cho M là một không gian vectơ hữu hạn chiều trên K và $g$ là một đại số con nửa đơn của $\mathfrak{gl}(M)$. Khi đó $g$ chứa các thành phần nửa đơn và lũy linh của các phần tử của nó.*
 
@@ -224,23 +224,23 @@ Nếu $K_1$ là một mở rộng của K, dạng Killing của $g_{(K_1)}$ là 
 
 Với mọi không gian con N của M, đặt $g_N$ là đại số con của $\mathfrak{gl}(M)$ gồm các phần tử làm cho N ổn định và có hạn chế lên N có vết bằng không. Vì $g = \mathscr{D}g$, ta có $g \subset g_N$ nếu N ổn định dưới $g$. Khi đó đặt $g^*$ là giao của bộ chuẩn hóa của $g$ trong $\mathfrak{gl}(M)$ với các đại số $g_N$ khi N chạy qua tập hợp các không gian con của M ổn định dưới g. Vì thành phần nửa đơn (ứng với lũy linh) s (ứng với n) của $x \in gl(M)$ là một đa thức theo x không có hằng số và ad s (ứng với ad n) là phần nửa đơn (ứng với lũy linh) của ad x ($§ 5$, no. 4, Bổ đề 2), rõ ràng $x \in g^*$ kéo theo $s \in g^*$ và $n \in g^*$; do đó chỉ cần chứng minh rằng $g^* = g$. Vì g là một iđêan nửa đơn của $g^*$, nên $g^* = a \times g$ (no. 1, Hệ quả 1 của Mệnh đề 1). Lấy $a \in a$ và lấy N là một không gian con cực tiểu trong các không gian con khác không của M ổn định dưới g. Hạn chế của a lên N là một bội vô hướng của đồng nhất thức theo Định lý Burnside, có vết bằng không theo phép dựng, và vì thế bằng không vì K có đặc số 0. Vì M là tổng trực tiếp của các không gian con như N, suy ra $a = 0$ và do đó $g^* = g$.
 
-#### Hệ quả {#lie-i-s6-n3-cor-1 .statement}
+#### Hệ quả {#lie-i-s6-n3-cor-1 .statement tag=09ZS}
 
 Một phần tử x của g là một tự đồng cấu nửa đơn (ứng với lũy linh) của M khi và chỉ khi $ad_g x$ là một tự đồng cấu nửa đơn (ứng với lũy linh) của g.
 
 Gọi s (ứng với n) là thành phần nửa đơn (ứng với lũy linh) của $x \in g$. Khi đó $s \in g$ và $n \in g$ (Mệnh đề 3). Khi đó $ad_g s$ (ứng với $ad_g n$) là thành phần nửa đơn (ứng với lũy linh) của $ad_g x$, theo Bổ đề 2 của $§ 5$, no. 4. Nếu x là nửa đơn (ứng với lũy linh) thì $ad_g x$ cũng vậy. Nếu bây giờ $ad_g x$ là nửa đơn (ứng với lũy linh), thì nó bằng $ad_g s$ (ứng với $ad_g n$) và do đó $x = s$ (ứng với $x = n$) vì biểu diễn liên hợp của g là trung thành.
 
-#### Định nghĩa 3 {#lie-i-s6-def-3 .statement}
+#### Định nghĩa 3 {#lie-i-s6-def-3 .statement tag=09ZT}
 
 Cho g là một đại số Lie nửa đơn. Một phần tử x của g được gọi là nửa đơn (ứng với lũy linh) nếu, với mọi g-môđun M có số chiều hữu hạn trên K, $x_M$ là một tự đồng cấu nửa đơn (ứng với lũy linh) của M.
 
-#### Mệnh đề 4 {#lie-i-s6-prop-4 .statement}
+#### Mệnh đề 4 {#lie-i-s6-prop-4 .statement tag=09ZU}
 
 Cho g, g' là các đại số Lie nửa đơn và f là một đồng cấu từ g vào g'. Nếu $x \in g$ là nửa đơn (ứng với lũy linh), thì $f(x)$ cũng vậy. Nếu f là toàn ánh, mọi phần tử nửa đơn (ứng với lũy linh) của g' đều là ảnh qua f của một phần tử nửa đơn (ứng với lũy linh) của g.
 
 Nếu $\rho$ là một biểu diễn của g', thì $\rho \circ f$ là một biểu diễn của g, do đó có mệnh đề thứ nhất. Nếu f là toàn ánh, tồn tại một đồng cấu g từ g' vào g sao cho $f \circ g$ là đồng cấu đồng nhất của g' (no. 1, Hệ quả 2 của Mệnh đề 1) và khi đó mệnh đề thứ hai suy ra từ mệnh đề thứ nhất.
 
-#### Định lý 3 {#lie-i-s6-thm-3 .statement}
+#### Định lý 3 {#lie-i-s6-thm-3 .statement tag=09ZV}
 
 Cho g là một đại số Lie nửa đơn.
 
@@ -252,11 +252,11 @@ Giả sử giả thiết của (a) được thỏa mãn. Gọi $\sigma$ là mộ
 
 ### 4. CÁC ĐẠI SỐ LIE KHẢ QUY
 
-#### Định nghĩa 4 {#lie-i-s6-def-4 .statement}
+#### Định nghĩa 4 {#lie-i-s6-def-4 .statement tag=09ZW}
 
 *Một đại số Lie được gọi là khả quy nếu biểu diễn liên hợp của nó là nửa đơn.*
 
-#### Mệnh đề 5 {#lie-i-s6-prop-5 .statement}
+#### Mệnh đề 5 {#lie-i-s6-prop-5 .statement tag=09ZX}
 
 *Cho $g$ là một đại số Lie và $r$ căn của nó. Các điều kiện sau là tương đương:* (a) $g$ là khả quy. (b) $\mathscr{D}g$ là nửa đơn. (c) $g$ là tích của một đại số nửa đơn và một đại số giao hoán. (d) $g$ có một biểu diễn hữu hạn chiều sao cho dạng song tuyến tính liên kết là không suy biến. (e) $g$ có một biểu diễn nửa đơn hữu hạn chiều trung thành. (f) *Căn lũy linh của $g$ bằng không.* (g) $r$ là tâm của $g$.
 
@@ -274,11 +274,11 @@ Giả sử giả thiết của (a) được thỏa mãn. Gọi $\sigma$ là mộ
 
 (g) ⇒ (a): nếu r là tâm của g, thì biểu diễn kề của g được đồng nhất với một biểu diễn của g/r, mà g/r là một đại số Lie nửa đơn (§ 5, no. 2, Mệnh đề 3); do đó biểu diễn này là nửa đơn (Định lý 2).
 
-#### Nhận xét {#lie-i-s6-n4-rem-1 .statement}
+#### Nhận xét {#lie-i-s6-n4-rem-1 .statement tag=09ZY}
 
 Nếu một đại số Lie g có thể được phân tích thành một tích a × b của một đại số Lie giao hoán a và một đại số Lie nửa đơn b, thì phân tích này là duy nhất. Chính xác hơn, tâm của g bằng tích của các tâm của a và b và vì thế bằng a. Và $\mathscr{D}g = \mathscr{D}a \times \mathscr{D}b = b$.
 
-#### Hệ quả {#lie-i-s6-n4-cor-1 .statement}
+#### Hệ quả {#lie-i-s6-n4-cor-1 .statement tag=09ZZ}
 
 (a) Mọi tích hữu hạn của các đại số khả quy đều là một đại số khả quy.
 (b) Nếu g là một đại số Lie khả quy có tâm c, thì mọi iđêan của g là một nhân tử trực tiếp, bằng tích của các giao của nó với c và $\mathscr{D}g$, và là một đại số Lie khả quy.
@@ -288,7 +288,7 @@ Mệnh đề (a) suy ra chẳng hạn từ điều kiện (c) của Mệnh đề
 
 Giả sử rằng g là khả quy. Gọi a là một iđêan của g. Vì biểu diễn kề của g là nửa đơn, a có một iđêan bù b và g được đồng nhất với a × b. Với mọi $x \in g$, gọi $\rho(x)$ là hạn chế của $\mathrm{ad}_g x$ lên a. Khi đó $\rho$ là một biểu diễn nửa đơn của g, bằng không trên b và khi chuyển qua thương xác định biểu diễn kề trên a. Do đó a là khả quy. Tương tự, g/a và b, là đẳng cấu, đều khả quy. Sau cùng, gọi d, d' là các tâm của a và b; khi đó $a = d \times \mathscr{D}a, b = d' \times \mathscr{D}b, d \times d' = c, \mathscr{D}a \times \mathscr{D}b = \mathscr{D}g$; do đó $a = (a \cap c) + (a \cap \mathscr{D}g)$.
 
-#### Mệnh đề 6 {#lie-i-s6-prop-6 .statement}
+#### Mệnh đề 6 {#lie-i-s6-prop-6 .statement tag=0A00}
 
 Cho g là một đại số Lie, r là căn của nó và s là căn lũy linh của nó.
 (a) $s = [g, r] = \mathscr{D}g \cap r$.
@@ -300,7 +300,7 @@ Gọi t là giao của các trực giao của g đối với các dạng song tu
 
 Ngay cả khi $s \neq \{0\}$ vẫn có thể tồn tại các dạng song tuyến tính đối xứng không suy biến trên g (Bài tập 18 (c)). Dĩ nhiên, các dạng như thế không liên kết với bất kỳ biểu diễn nào của g.
 
-#### Hệ quả {#lie-i-s6-n4-cor-2 .statement}
+#### Hệ quả {#lie-i-s6-n4-cor-2 .statement tag=0A01}
 
 Cho $g, g'$ là các đại số Lie, $s$ (tương ứng $s'$) là căn lũy linh của $g$ (tương ứng của $g'$) và $f$ là một đồng cấu từ $g$ lên $g'$.
 (a) Khi đó $s' = f(s)$.
@@ -310,7 +310,7 @@ Nếu $r, r'$ là các căn của $g, g'$, thì $s' = [g', r'] = [f(g), f(r)] = 
 
 ### 5. ÁP DỤNG: MỘT TIÊU CHUẨN CHO TÍNH NỬA ĐƠN CỦA CÁC BIỂU DIỄN
 
-#### Định lý 4 {#lie-i-s6-thm-4 .statement}
+#### Định lý 4 {#lie-i-s6-thm-4 .statement tag=0A02}
 
 Cho $g$ là một đại số Lie, $r$ là căn của nó, $\rho$ là một biểu diễn hữu hạn chiều của $g$, $g' = \rho(g)$ và $r' = \rho(r)$. Khi đó các điều kiện sau là tương đương:
 (a) $\rho$ là nửa đơn;
@@ -326,25 +326,25 @@ Cho $g$ là một đại số Lie, $r$ là căn của nó, $\rho$ là một bi�
 
 (d) $\Rightarrow$ (a): cho $s$ là căn lũy linh của $g$ và $\rho'$ là hạn chế của $\rho$ lên $r$. Các phần tử của $\rho(s)$ là lũy linh và do đó $s$ được chứa trong iđêan lũy linh lớn nhất của $\rho'$. Vì $\rho'$ là nửa đơn nên $\rho'(s) = \{0\}$ và $g'$ là khả quy (Hệ quả của Mệnh đề 6), vì vậy $g' = a' \times r'$ với $a'$ nửa đơn (Mệnh đề 5). Gọi $A'$ (tương ứng $R'$) là đại số kết hợp được sinh bởi 1 và $a'$ (tương ứng $r'$). Nó là nửa đơn (\emph{Algebra}, Chapter VIII, § 5, no. 1, Proposition 3), do đó $A' \otimes_K R'$ là nửa đơn (\emph{loc. cit.}, § 7, no. 6, Corollary 4 to Theorem 3) và vì thế đại số kết hợp được sinh bởi 1 và $g'$, là một thương của $A' \otimes_K R'$, là nửa đơn, điều này chứng minh rằng $\rho$ là nửa đơn.
 
-#### Hệ quả 1 {#lie-i-s6-thm-4-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s6-thm-4-cor-1 .statement tag=0A03}
 
 Cho $g$ là một đại số Lie và $\rho$ và $\rho'$ là hai biểu diễn hữu hạn chiều nửa đơn của $g$. Khi đó tích tenxơ của $\rho$ và $\rho'$ là nửa đơn.
 
 Cho $r$ là căn của $g$. Với $x \in r$, $\rho(x)$ và $\rho'(x)$ là nửa đơn (Định lý 4), do đó $\rho(x) \otimes 1 + 1 \otimes \rho'(x)$ là nửa đơn (\emph{Algebra}, Chapter VIII, § 9, Corollary to Theorem 1) và vì thế tích tenxơ của $\rho$ và $\rho'$ là nửa đơn (Định lý 4).
 
-#### Hệ quả 2 {#lie-i-s6-thm-4-cor-2 .statement}
+#### Hệ quả 2 {#lie-i-s6-thm-4-cor-2 .statement tag=0A04}
 
 Cho $g$ là một đại số Lie, $\rho$ là một biểu diễn nửa đơn của $g$ trên một không gian vectơ hữu hạn chiều $V$, $T$ và $S$ là các đại số tenxơ và đối xứng của $V$, và $\sigma_T$, $\sigma_S$ là các biểu diễn của $g$ trên $T$ và $S$ được dẫn xuất một cách chính tắc từ $\rho$. Khi đó $\sigma_T$ và $\sigma_S$ là nửa đơn, và chính xác hơn, là các tổng trực tiếp của các biểu diễn đơn hữu hạn chiều.
 
 Cho $T^n$ là không gian con của $T$ gồm các tenxơ thuần nhất cấp $n$. Không gian con này ổn định đối với $\sigma_T$, và biểu diễn do $\sigma_T$ xác định trên $T^n$ là nửa đơn (Hệ quả 1). Suy ra hệ quả đối với $\sigma_T$ và do đó đối với $\sigma_S$, là biểu diễn thương của $\sigma_T$.
 
-#### Hệ quả 3 {#lie-i-s6-thm-4-cor-3 .statement}
+#### Hệ quả 3 {#lie-i-s6-thm-4-cor-3 .statement tag=0A05}
 
 Cho $g$ là một đại số Lie và $\rho$, $\rho'$ là hai biểu diễn nửa đơn hữu hạn chiều của $g$ trên các không gian $M$ và $M'$. Khi đó biểu diễn của $g$ trên $\mathscr{L}_K(M, M')$ được dẫn xuất một cách chính tắc từ $\rho$ và $\rho'$ là nửa đơn.
 
 $g$-môđun $\mathscr{L}_K(M, M')$ được đồng nhất một cách chính tắc với $g$-môđun $M^* \otimes_K M'$ (§ 3, no. 3, Mệnh đề 4), nên Hệ quả 3 suy ra từ Hệ quả 1.
 
-#### Hệ quả 4 {#lie-i-s6-thm-4-cor-4 .statement}
+#### Hệ quả 4 {#lie-i-s6-thm-4-cor-4 .statement tag=0A06}
 
 Cho $g$ là một đại số Lie, $a$ là một iđêan của $g$, và $\rho$ là một biểu diễn nửa đơn của $g$.
 (a) Hạn chế $\rho'$ của $\rho$ lên $a$ là nửa đơn.
@@ -354,13 +354,13 @@ Chuyển qua thương theo hạt nhân của $\rho$, có thể giả sử rằng
 
 ### 6. CÁC ĐẠI SỐ CON KHẢ QUY TRONG MỘT ĐẠI SỐ LIE
 
-#### Định nghĩa 5 {#lie-i-s6-def-5 .statement}
+#### Định nghĩa 5 {#lie-i-s6-def-5 .statement tag=0A07}
 
 Cho $g$ là một đại số Lie và $h$ là một đại số con Lie của $g$. Ta gọi $h$ là khả quy trong $g$ nếu biểu diễn $x \mapsto \operatorname{ad}_g x$ của $h$ là nửa đơn.
 
 Biểu diễn này nhận biểu diễn phụ hợp của $h$ làm biểu diễn con. Do đó, nếu $h$ khả quy trong $g$ thì $h$ là khả quy. Mặt khác, nói rằng một đại số Lie khả quy trong chính nó tương đương với nói rằng nó là khả quy.
 
-#### Mệnh đề 7 {#lie-i-s6-prop-7 .statement}
+#### Mệnh đề 7 {#lie-i-s6-prop-7 .statement tag=0A08}
 
 Cho $g$ là một đại số Lie, $h$ là một đại số con khả quy trong $g$, $\rho$ là một biểu diễn của $g$ trên một không gian vectơ $V$ và $W$ là tổng của các không gian con hữu hạn chiều của $V$ là các $h$-môđun đơn. Khi đó $W$ ổn định dưới $\rho(g)$.
 
@@ -375,13 +375,13 @@ $$
 
 Do đó $\theta(M \otimes_K W_0)$ là một $\mathfrak{h}$-môđun nửa đơn hữu hạn chiều. Do đó $\theta(M \otimes_K W_0) \subset W$, nghĩa là $\rho(x)(W_0) \subset W$ với mọi $x \in g$.
 
-#### Hệ quả 1 {#lie-i-s6-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s6-prop-7-cor-1 .statement tag=0A09}
 
 *Cho $g$ là một đại số Lie, $\mathfrak{h}$ là một đại số con khả quy trong $g$ và $\rho$ là một biểu diễn nửa đơn hữu hạn chiều của $g$. Khi đó hạn chế của $\rho$ lên $\mathfrak{h}$ là nửa đơn.*
 
 Chỉ cần xét trường hợp $\rho$ đơn. Ta dùng ký hiệu V, W của Mệnh đề 4. Gọi $W_1$ là một không gian con khác không cực tiểu của V ổn định dưới $\rho(\mathfrak{h})$. Khi đó $W_1 \subset W$, do đó $W \neq \{0\}$ và do đó $W = V$.
 
-#### Hệ quả 2 {#lie-i-s6-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#lie-i-s6-prop-7-cor-2 .statement tag=0A0A}
 
 *Cho $g$ là một đại số Lie, $\mathfrak{h}$ là một đại số con khả quy trong $g$ và $\mathfrak{k}$ là một đại số con của $\mathfrak{h}$ khả quy trong $\mathfrak{h}$. Khi đó $\mathfrak{k}$ khả quy trong $g$.*
 
@@ -389,13 +389,13 @@ Biểu diễn $x \mapsto \mathrm{ad}_g x$ của $\mathfrak{h}$ trên $g$ là n�
 
 ### 7. VÍ DỤ VỀ CÁC ĐẠI SỐ LIE NỬA ĐƠN
 
-#### Mệnh đề 8 {#lie-i-s6-prop-8 .statement}
+#### Mệnh đề 8 {#lie-i-s6-prop-8 .statement tag=0A0B}
 
 *Cho $V$ là một không gian vectơ hữu hạn chiều. Khi đó $\mathrm{gl}(V)$ là khả quy. Tâm của nó là tập hợp các phép vị tự của $V$, đại số dẫn xuất của nó là $\mathrm{sl}(V)$ và đại số sau là nửa đơn.*
 
 Biểu diễn đồng nhất của $\mathrm{gl}(V)$ là đơn, do đó $\mathrm{gl}(V)$ là khả quy và vì vậy $\mathrm{gl}(V)$ là tổng trực tiếp của tâm $c$ và đại số dẫn xuất $\mathscr{D}(\mathrm{gl}(V))$ của nó. Tâm $c$ là tập hợp các phép vị tự (*Đại số*, Chương II, § 2, no. 5, Hệ quả 1 của Mệnh đề 5). Rõ ràng $\mathscr{D}(\mathrm{gl}(V)) \subset \mathrm{sl}(V)$. Vì $\mathrm{sl}(V) \cap c = \{0\}$, $\mathscr{D}(\mathrm{gl}(V)) = \mathrm{sl}(V)$. Do đó $\mathrm{sl}(V)$ là nửa đơn.
 
-#### Ví dụ {#lie-i-s6-n7-exa-1 .statement}
+#### Ví dụ {#lie-i-s6-n7-exa-1 .statement tag=0A0C}
 
 Ta đồng nhất $\mathrm{sl}(K^2)$ với đại số Lie của các ma trận cấp 2 và vết bằng không. Ta viết
 
@@ -411,7 +411,7 @@ $$
 
 Vì một đại số có chiều 1 hoặc 2 không nửa đơn (no. 1, *Nhận xét 1*), $\mathrm{sl}(K^2)$ là đơn. Thực ra, $\mathrm{sl}(V)$ là đơn với $\dim V \geq 2$, như ta sẽ thấy sau (xem thêm Bài tập 21 và 24).
 
-#### Mệnh đề 9 {#lie-i-s6-prop-9 .statement}
+#### Mệnh đề 9 {#lie-i-s6-prop-9 .statement tag=0A0D}
 
 Cho V là một không gian vectơ có số chiều hữu hạn n trên K và β là một dạng song tuyến tính đối xứng (tương ứng phản xứng) không suy biến trên V. Gọi g là đại số Lie gồm các $x \in \mathrm{gl}(V)$ sao cho β(xm, m') + β(m, xm') = 0 với mọi m, m' trong V. Khi đó g khả quy; g thậm chí nửa đơn trừ trường hợp β đối xứng và n = 2.
 
@@ -482,19 +482,19 @@ do đó mệnh đề của chúng ta được chứng minh.
 
 Bây giờ cho $g$ là một đại số Lie. Nếu $x$ thuộc căn lũy linh của $g$, đạo hàm $\mathrm{ad}_g x$ của $g$ là lũy linh. Do đó ta có thể đưa ra định nghĩa sau:
 
-#### Định nghĩa 6 {#lie-i-s6-def-6 .statement}
+#### Định nghĩa 6 {#lie-i-s6-def-6 .statement tag=0A0E}
 
 *Một tự đẳng cấu đặc biệt của $g$ là một tự đẳng cấu của $g$ có dạng $e^{\mathrm{ad}\, x}$, trong đó $x$ nằm trong căn lũy linh của $g$.*
 
 Rõ ràng một tự đẳng cấu đặc biệt giữ ổn định mọi iđêan của $g$.
 
-#### Định nghĩa 7 {#lie-i-s6-def-7 .statement}
+#### Định nghĩa 7 {#lie-i-s6-def-7 .statement tag=0A0F}
 
 *Cho $g$ là một đại số Lie và $r$ là căn của nó. Một đại số con Levi của $g$ là bất kỳ đại số con nào của $g$ phụ với $r$.*
 
 Một đại số con Levi đẳng cấu với $g/r$ và do đó là nửa đơn. Vì một đại số con nửa đơn chỉ có 0 là phần chung với $r$, mọi đại số con nửa đơn $h$ sao cho $g = r + h$ là một đại số con Levi; do đó ảnh của một đại số con Levi qua một đồng cấu toàn ánh là một đại số con Levi.
 
-#### Định lý 5 (Levi–Malcev) {#lie-i-s6-thm-5 .statement}
+#### Định lý 5 (Levi–Malcev) {#lie-i-s6-thm-5 .statement tag=0A0G}
 
 *Một đại số Lie $g$ luôn có một đại số con Levi $s$. Mọi đại số con Levi của $g$ là ảnh của $s$ qua một tự đẳng cấu đặc biệt.*
 
@@ -543,7 +543,7 @@ s_1 = e^{ada}(s') \subset m + s = h.
 
 Khi đó s_1 và s là hai đại số con Levi của h và theo giả thiết quy nạp tồn tại b ∈ m sao cho e^{adb}(s_1) = s. Do đó s = e^{adb}.e^{ada}(s'). Cuối cùng, vì m nằm trong tâm của [g, r], e^{adb}.e^{ada} = e^{ad(b+a)} và b + a ∈ [g, r], điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 {#lie-i-s6-thm-5-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s6-thm-5-cor-1 .statement tag=0A0H}
 
 Cho s là một đại số con Levi của g và h là một đại số con nửa đơn của g.
 (a) Tồn tại một tự đẳng cấu đặc biệt của g biến h thành một đại số con của s.
@@ -551,19 +551,19 @@ Cho s là một đại số con Levi của g và h là một đại số con n�
 
 Gọi r là căn của g và a = h + r, là một đại số con của g. Khi đó a/r là nửa đơn và r giải được, do đó r là căn của a và h là một đại số con Levi của a. Mặt khác, a ∩ s = h' là một đại số con bổ sung cho r trong a và do đó cũng là một đại số con Levi của a. Khi đó tồn tại (Định lý 5) a ∈ [a, r] sao cho e^{ada} biến h thành h'. Bây giờ a ∈ [g, r]; e^{ada} biến h thành một đại số con của s và e^{-ada}(s) là một đại số con Levi của g chứa h.
 
-#### Hệ quả 2 {#lie-i-s6-thm-5-cor-2 .statement}
+#### Hệ quả 2 {#lie-i-s6-thm-5-cor-2 .statement tag=0A0I}
 
 Để một đại số con h của g là một đại số con Levi của g, điều kiện cần và đủ là h là một đại số con nửa đơn cực đại của g.
 
 Điều này suy ra ngay lập tức từ Hệ quả 1.
 
-#### Hệ quả 3 {#lie-i-s6-thm-5-cor-3 .statement}
+#### Hệ quả 3 {#lie-i-s6-thm-5-cor-3 .statement tag=0A0J}
 
 Cho g là một đại số Lie và m là một iđêan của g sao cho g/m là nửa đơn. Khi đó g chứa một đại số con bổ sung cho m trong g. Nói cách khác, mọi mở rộng của một đại số Lie nửa đơn đều là không cốt yếu.
 
 Cho s là một đại số con Levi của g (Định lý 5). Ảnh chính tắc của nó trong g/m là một đại số con Levi và do đó bằng g/m, suy ra g = s + m. Khi đó một iđêan của s bổ sung trong s cho iđêan m ∩ s là một đại số con của g bổ sung cho m trong g.
 
-#### Hệ quả 4 {#lie-i-s6-thm-5-cor-4 .statement}
+#### Hệ quả 4 {#lie-i-s6-thm-5-cor-4 .statement tag=0A0K}
 
 Cho g là một đại số Lie, r là căn của nó, s là một đại số con Levi của g và m là một iđêan của g. Khi đó m là tổng trực tiếp của m ∩ r, là căn của nó, và m ∩ s, là một đại số con Levi của m.
 
@@ -573,7 +573,7 @@ Ta biết rằng m ∩ s là căn của m (§ 5, no. 5, Hệ quả 3 của Mện
 
 Cho $g$ là một đại số Lie và $\rho$ là một biểu diễn của $g$ trên một không gian vectơ $M$. Với mỗi lớp $\delta$ của các biểu diễn đơn của $g$, ký hiệu $M_\delta$ là thành phần đẳng kiểu của $M$ thuộc loài $\delta$. Không gian con $M_0$ gồm các phần tử bất biến của $M$ chính là $M_{\delta_0}$, trong đó $\delta_0$ ký hiệu lớp của biểu diễn không của $g$ trên một không gian có chiều 1.
 
-#### Bổ đề 4 {#lie-i-s6-lem-4 .statement}
+#### Bổ đề 4 {#lie-i-s6-lem-4 .statement tag=0A0L}
 
 *Cho $\rho, \sigma, \tau$ là các biểu diễn của $g$ trên các không gian vectơ $M, N, P$. Giả sử ta được cho một ánh xạ song tuyến tính trên $K$ $(m, n) \mapsto m.n$ từ $M \times N$ vào $P$ sao cho*
 
@@ -597,13 +597,13 @@ $$
 
 do đó suy ra (a). Mệnh đề (b) suy ra từ (a) (*Đại số*, Chương VIII, § 3, no. 4, Mệnh đề 10). Nếu $N = P = M$ và $\sigma = \tau = \rho$, mệnh đề (b) cho mệnh đề (c) như một trường hợp đặc biệt.
 
-#### Bổ đề 5 {#lie-i-s6-lem-5 .statement}
+#### Bổ đề 5 {#lie-i-s6-lem-5 .statement tag=0A0M}
 
 *Giả sử thêm rằng $\sigma$ và $\tau$ là nửa đơn và do đó $N$ (tương ứng $P$) là tổng trực tiếp của các $N_\delta$ (tương ứng $P_\delta$). Với mọi $n \in N$ (tương ứng $p \in P$), ký hiệu $n^\natural$ (tương ứng $p^\natural$) là thành phần của nó trong $N_0$ (tương ứng $P_0$). Cho $m_0 \in M_0$. Khi đó với mọi $n \in N$, $(m_0.n)^\natural = m_0.n^\natural$.*
 
 Do tính tuyến tính, chỉ cần xét trường hợp $n \in N_\delta$. Nếu $\delta \neq \delta_0$, $n^\natural = 0$ và $m_0.n \in P_\delta$ (Bổ đề 4), do đó $(m_0.n)^\natural = 0 = m_0.n^\natural$. Nếu $\delta = \delta_0$, $n^\natural = n$ và $m_0.n \in P_0$ (Bổ đề 4), do đó $(m_0.n)^\natural = m_0.n = m_0.n^\natural$.
 
-#### Định lý 6 {#lie-i-s6-thm-6 .statement}
+#### Định lý 6 {#lie-i-s6-thm-6 .statement tag=0A0N}
 
 *Cho $g$ là một đại số Lie, $V$ là một $g$-môđun nửa đơn hữu hạn chiều trên $K$, $S$ là đại số đối xứng của $V$ và $x_S$ là đạo hàm của $S$ mở rộng $x_V$ (sao cho ánh xạ $x \mapsto x_S$ là một biểu diễn của $g$ trên $S$).*
 

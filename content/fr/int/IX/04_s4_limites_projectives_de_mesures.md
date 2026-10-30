@@ -24,7 +24,7 @@ subsections:
       pdf_page: 51
 statements: 7
 exercises: 2
-content_sha256: 4bc0e78d4e864eef4dd9ab4c2649504a5740d447959e4cf023fda94cf4e3c521
+content_sha256: be46c69876b0e70eea450d31dc69af06833e38902fb14b7efe212da6462e0e68
 ---
 
 ## § 4. Limites projectives de mesures
@@ -33,13 +33,13 @@ Dans tout ce paragraphe, on note $I$ un ensemble non vide, muni d’une relation
 
 ### 1. Compléments sur les espaces compacts et les limites projectives
 
-#### Proposition 1 {#int-ix-s4-prop-1 .statement}
+#### Proposition 1 {#int-ix-s4-prop-1 .statement tag=09QM}
 
 Soient $X$ et $Y$ deux espaces topologiques et $f$ une application continue de $X$ dans $Y$. Soit $(K_\alpha)_{\alpha \in A}$ une famille filtrante décroissante de parties compactes de $X$, d’intersection $K$. On a alors $f(K) = \bigcap_{\alpha \in A} f(K_\alpha)$.
 
 En effet, soit $y$ un point de $\bigcap_{\alpha \in A} f(K_\alpha)$; pour tout $\alpha \in A$, l’ensemble $L_\alpha = K_\alpha \cap f^{-1}(y)$ est compact et non vide. La famille $(L_\alpha)_{\alpha \in A}$ est filtrante décroissante, donc son intersection $L$ est non vide. Or on a $L = K \cap f^{-1}(y)$, d’où $y \in f(K)$. On a donc prouvé l’inclusion $f(K) \supset \bigcap_{\alpha \in A} f(K_\alpha)$ et l’inclusion inverse est évidente.
 
-#### Proposition 2 {#int-ix-s4-prop-2 .statement}
+#### Proposition 2 {#int-ix-s4-prop-2 .statement tag=09QN}
 
 Soient donnés un système projectif $(T_i, p_{ij})$ d’espaces topologiques indexé par $I$, un espace topologique $T$ et une famille cohérente et séparante d’applications continues $p_i : T \to T_i$. Alors :
 
@@ -55,11 +55,11 @@ b) Pour tout $i \in I$, posons $M_i = p_i^{-1}(p_i(K)) \cap L$; c'est une partie
 
 ### 2. Systèmes projectifs de mesures
 
-#### Définition 1 {#int-ix-s4-def-1 .statement}
+#### Définition 1 {#int-ix-s4-def-1 .statement tag=09QO}
 
 Soit $\mathscr{T} = (T_i, p_{ij})$ un système projectif d'espaces topologiques indexé par $I$. On appelle système projectif (resp. système sous-projectif) de mesures sur $\mathscr{T}$ une famille $(\mu_i)_{i \in I}$ où $\mu_i$ est une mesure bornée sur $T_i$ pour tout $i \in I$, et où l'on a $\mu_i = p_{ij}(\mu_j)$ (resp. $\mu_i \geq p_{ij}(\mu_j)$) pour $i \leq j$.
 
-#### Proposition 3 {#int-ix-s4-prop-3 .statement}
+#### Proposition 3 {#int-ix-s4-prop-3 .statement tag=09QP}
 
 Soient donnés un système projectif d'espaces topologiques $\mathscr{T} = (T_i, p_{ij})$ indexé par $I$, un espace topologique $T$, une famille cohérente et séparante d'applications continues $p_i : T \to T_i$ (pour $i \in I$) et un système sous-projectif $(\mu_i)_{i \in I}$ de mesures sur $\mathscr{T}$. Pour toute partie compacte $K$ de $T$, on pose
 
@@ -104,7 +104,7 @@ Les propriétés précédentes permettent d’appliquer le th. 1 du § 3, n° 1;
 
 C.Q.F.D.
 
-#### Théorème 1 (Prokhorov) {#int-ix-s4-thm-1 .statement}
+#### Théorème 1 (Prokhorov) {#int-ix-s4-thm-1 .statement tag=09QQ}
 
 Soient $\mathscr{T} = (T_i, p_{ij})$ un système projectif d’espaces topologiques indexé par I, T un espace topologique et $(p_i)_{i \in I}$ une famille cohérente et séparante d’applications continues $p_i : T \to T_i$. Enfin soit $(\mu_i)_{i \in I}$ un système projectif de mesures sur $\mathscr{T}$.
 
@@ -143,7 +143,7 @@ C.Q.F.D.
 
 Soit $(T_i, p_{ij})$ un système projectif d’espaces topologiques. Posons $T = \lim_{\leftarrow} T_i$ et notons $p_i$ l’application canonique de $T$ dans $T_i$. Généralisant la déf. 2 du chap. III, $§ 4$, n° 5, on dira qu’une mesure bornée $\mu$ sur $T$ est *limite projective d’un système projectif* $(\mu_i)_{i \in I}$ *de mesures* si l’on a $\mu_i = p_i(\mu)$ pour tout $i \in I$. Le th. 1 fournit un critère d’existence des limites projectives de mesures. Lorsque les espaces $T_i$ sont *compacts*, et les applications $p_{ij}$ surjectives, $T$ est compact et l’on a $p_i(T) = T_i$ pour tout $i \in I$; la condition (P) est donc remplie, et l’on retrouve dans ce cas la prop. 8, (iv) du chap. III, $§ 4$, n° 5.
 
-#### Remarque {#int-ix-s4-n2-rem-1 .statement}
+#### Remarque {#int-ix-s4-n2-rem-1 .statement tag=09QR}
 
 Soit $(\mu_i)_{i \in I}$ un système projectif de mesures sur le système projectif d’espaces $\mathscr{T} = (T_i, p_{ij})$. On suppose donné un espace topologique $T'$ et des applications continues $p'_i : T' \to T_i$; on suppose que la famille $(p'_i)_{i \in I}$ est cohérente, mais non nécessairement séparante. *Si la condition de Prokhorov (P) est satisfaite par la famille* $(p'_i)_{i \in I}$, *il existe une mesure* $\mu'$ (*non nécessairement unique*) *sur* $T'$ *avec* $p'_i(\mu') = \mu_i$ *pour tout* $i \in I$.
 
@@ -155,7 +155,7 @@ Soit $\varepsilon > 0$; comme la condition de Prokhorov (P) est satisfaite par l
 
 ### 3. Cas des systèmes projectifs dénombrables
 
-#### Théorème 2 {#int-ix-s4-thm-2 .statement}
+#### Théorème 2 {#int-ix-s4-thm-2 .statement tag=09QS}
 
 *On suppose que l’ensemble préordonné filtrant* $I$ *possède une partie cofinale* dénombrable. *Soient* $\mathscr{T} = (T_i, p_{ij})$ *un système projectif d’espaces topologiques,*
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 85
 statements: 19
 exercises: 4
-content_sha256: a47c27a823c8f69a7b1405d653a8643b47fde4e00ce61dfec7785fddd06f819f
+content_sha256: 91a1d2575a1697c7012b6dbf95d9e70781c1feb071482c330437f5f5eb00118a
 ---
 
 ## § 3. Intégrales de fonctions vectorielles continues
@@ -53,7 +53,7 @@ $$
 
 Il est clair que $\varphi$ est une forme linéaire sur $E'$, donc un élément de ${E'}^*$.
 
-#### Définition 1 {#int-iii-s3-def-1 .statement}
+#### Définition 1 {#int-iii-s3-def-1 .statement tag=08NN}
 
 Pour toute fonction $f \in \tilde{\mathscr{K}}(X; E)$, on appelle intégrale de $f$ par rapport à $\mu$ et on note $\int f \, d\mu$ ou $\int f(x) \, d\mu(x)$, ou $\int f \mu$, ou $\int f(x) \mu(x)$, l’élément de ${E'}^*$ défini par
 
@@ -63,7 +63,7 @@ $$
 
 Lorsque $E$ est séparé, on notera que l’on n’a pas nécessairement $\int f \, d\mu \in E$, même lorsque $f \in \mathscr{K}(X; E)$ (exerc. 1 ; cf. n° 3).
 
-#### Exemple 1 {#int-iii-s3-n1-exa-1 .statement}
+#### Exemple 1 {#int-iii-s3-n1-exa-1 .statement tag=08NO}
 
 Supposons que $E$ soit de dimension finie sur $\mathbf{C}$ et séparé, de sorte que si $(e_i)_{1 \leq i \leq n}$ est une base de $E$, l’application
 
@@ -78,7 +78,7 @@ $$
 \int f d\mu = \sum_{i=1}^n \mu(f_i) e_i.
 $$
 
-#### Exemple 2 {#int-iii-s3-n1-exa-2 .statement}
+#### Exemple 2 {#int-iii-s3-n1-exa-2 .statement tag=0E61}
 
 Prenons pour E l’espace $\mathscr{M}(X; \mathbf{C})$ des mesures sur X, muni de la topologie vague ($§ 1$, n° 9); le dual $E'$ de E s’identifie alors canoniquement à l’espace $\mathscr{K}(X; \mathbf{C})$ (*Esp. vect. top.*, chap. I, 2e éd., $§ 6$, n° 2, prop. 3). L’application $x \mapsto \varepsilon_x$ de X dans E est continue ($§ 1$, n° 9, prop. 13), mais son support n’est pas compact si X n’est pas compact; toutefois elle est *scalairement à support compact*, car pour toute fonction $f \in E'$, la fonction $x \mapsto \langle \varepsilon_x, f \rangle = f(x)$ a par définition un support compact. En outre, on a
 $$
@@ -90,7 +90,7 @@ $$
 $$
 pour toute mesure $\mu$ sur X.
 
-#### Exemple 3 {#int-iii-s3-n1-exa-3 .statement}
+#### Exemple 3 {#int-iii-s3-n1-exa-3 .statement tag=0E62}
 
 Si E est séparé, pour tout point $y \in X$ et toute fonction $f \in \tilde{\mathscr{K}}(X; E)$, on a
 $$
@@ -98,17 +98,17 @@ $$
 $$
 car $\int \langle f, z' \rangle d\varepsilon_y = \langle f(y), z' \rangle$ par définition.
 
-#### Remarque 1 {#int-iii-s3-n1-rem-1 .statement}
+#### Remarque 1 {#int-iii-s3-n1-rem-1 .statement tag=08NP}
 
 Si E est un espace localement convexe, N l’adhérence de $\{0\}$ dans E, de sorte que $E_1 = E/N$ est l’espace localement convexe séparé associé à E, on sait que les duals $E'$ et $E'_1$ sont identiques; pour qu’une fonction $f$ appartienne à $\tilde{\mathscr{K}}(X; E)$, il faut et il suffit que $f_1 = \pi \circ f$ (où $\pi : E \to E_1$ est l’homomorphisme canonique) appartienne à $\tilde{\mathscr{K}}(X; E_1)$, et l’on alors $\int f d\mu = \int f_1 d\mu$. On peut donc se limiter à ne considérer que des espaces localement convexes séparés.
 
-#### Remarque 2 {#int-iii-s3-n1-rem-2 .statement}
+#### Remarque 2 {#int-iii-s3-n1-rem-2 .statement tag=08NQ}
 
 Soit E un espace localement convexe sur $\mathbf{C}$, et soit $E_0$ l’espace localement convexe sur $\mathbf{R}$ sous-jacent à E; on sait que l’application $z' \mapsto \Re z'$ qui à toute forme linéaire (complexe) continue $z'$ sur E fait correspondre la forme linéaire continue (réelle) $z \mapsto \Re \langle z, z' \rangle$ sur $E_0$, est un $\mathbf{R}$-isomorphisme du dual $E'$ sur le dual $E'_0$ de $E_0$ (*Esp. vect. top.*, chap. II, 2e éd., $§ 8$, n° 1). De même le dual algébrique $E'_0*$ de l’espace vectoriel réel $E'_0$ s’identifie canoniquement à l’espace réel sous-jacent au dual algébrique $E'*$ de $E'$. On en déduit que si $\mu$ est une *mesure réelle* et $f$ une application de $\tilde{\mathscr{K}}(X; E)$, la formule (1) est encore valable lorsque l’on considère $f$ comme prenant ses valeurs dans $E_0$ et que les formes bilinéaires canoniques figurant aux deux membres sont respectivement *relatives* à la dualité entre $E'_0$ et $E'_0*$ au premier membre, à la dualité entre $E_0$ et $E'_0$ au second.
 
 ### 2. Propriétés de l’intégrale vectorielle
 
-#### Proposition 1 {#int-iii-s3-prop-1 .statement}
+#### Proposition 1 {#int-iii-s3-prop-1 .statement tag=08NR}
 
 L’application
 $$(f, \mu) \mapsto \int f d\mu$$
@@ -117,7 +117,7 @@ La proposition résulte immédiatement de la déf. 1 du n° 1.
 
 Soit $u$ une application linéaire continue de $E$ dans un espace localement convexe $F$; on sait que la transposée $'u$ est une application linéaire du dual $F'$ de $F$ dans le dual $E'$ de $E$; nous désignerons par $"u$ l’application ${E'}^* \to {F'}^*$, transposée de $'u$ (au sens algébrique); lorsque $E$ et $F$ sont séparés, et identifiés canoniquement à des sous-espaces de ${E'}^*$ et ${F'}^*$ respectivement, $"u$ prolonge l’application $u$. Avec ces notations :
 
-#### Proposition 2 {#int-iii-s3-prop-2 .statement}
+#### Proposition 2 {#int-iii-s3-prop-2 .statement tag=08NS}
 
 Soit $u$ une application linéaire continue de $E$ dans un espace localement convexe $F$; pour toute fonction $f \in \tilde{\mathscr{K}}(X; E)$, la fonction $u \circ f$ appartient à $\tilde{\mathscr{K}}(X; F)$, et l’on a
 $$
@@ -130,7 +130,7 @@ $$
 $$
 d’où la formule (2).
 
-#### Proposition 3 {#int-iii-s3-prop-3 .statement}
+#### Proposition 3 {#int-iii-s3-prop-3 .statement tag=08NT}
 
 Pour toute fonction $g \in \mathscr{C}(X; \mathbf{C})$ et toute fonction $f \in \tilde{\mathscr{K}}(X; E)$, la fonction $gf$ appartient à $\tilde{\mathscr{K}}(X; E)$, et l’on a
 $$
@@ -143,7 +143,7 @@ $$
 $$
 d’où (3).
 
-#### Proposition 4 {#int-iii-s3-prop-4 .statement}
+#### Proposition 4 {#int-iii-s3-prop-4 .statement tag=08NU}
 
 Soient $\mu$ une mesure positive sur $X$, S son support, $f$ une fonction de $\mathscr{K}(X; E)$. On suppose E séparé, et on munit l’espace ${E'}^*$ de la topologie faible $\sigma({E'}^*, E')$.
 
@@ -175,7 +175,7 @@ $$
 
 mais cela résulte du § 2, n° 3, cor. 3 de la prop. 8.
 
-#### Corollaire {#int-iii-s3-n2-cor-1 .statement}
+#### Corollaire {#int-iii-s3-n2-cor-1 .statement tag=08NV}
 
 Soient $\mu$ une mesure positive sur $X$, $f$ une application appartenant à $\mathscr{K}(X; E)$, $D$ l’enveloppe fermée convexe de $f(X)$ dans ${E'}^*$. Il existe un nombre $a > 0$ tel que l’on ait $\int f \, d\mu \in a . D$.
 
@@ -183,13 +183,13 @@ Si $\nu$ est une mesure quelconque sur $X$, il existe des nombres $a_1, a_2, a_3
 
 Supposons d’abord $\mu$ positive ; par hypothèse, le support K de $f$ est compact ; si $\nu$ est la restriction de $\mu$ à un voisinage ouvert relativement compact de K, $\nu$ est bornée, et l’on a $\int f \, d\mu = \int f \, d\nu \in \| \nu \| . D$ en vertu de la prop. 4, (ii). Le deuxième résultat s’en déduit puisqu’une mesure complexe quelconque s’écrit $\mu_1 - \mu_2 + i \mu_3 - i \mu_4$, où les $\mu_j$ sont positives.
 
-#### Proposition 5 {#int-iii-s3-prop-5 .statement}
+#### Proposition 5 {#int-iii-s3-prop-5 .statement tag=08NW}
 
 Supposons l’espace $X$ compact, et soit $f$ une application continue de $X$ dans un espace localement convexe séparé $E$. L’enveloppe fermée convexe de $f(X)$ dans ${E'}^*$ (pour $\sigma({E'}^*, E')$) est égale à l’ensemble des vecteurs $\int f \, d\mu$ pour toutes les mesures positives $\mu$ de masse 1 sur $X$.
 
 Soit C l’enveloppe fermée convexe de $f(X)$ dans $E'$; comme $f(X)$ est compact et $E'$ *complet*, C est compact. On sait déjà (prop. 4) que l’on a $\int f d\mu \in C$ pour toute mesure $\mu$ appartenant à l’ensemble convexe $H$ des mesures positives sur $X$ de masse totale égale à 1. D’autre part, $H$ est convexe et *compact* pour la topologie vague ($§ 1, n° 9,$ cor. 3 de la prop. 15), et est l’adhérence (pour cette topologie) de l’ensemble convexe $H_0$ des mesures positives de masse 1 et de support *fini* ($§ 2, n° 5,$ cor. 3 du th. 1). Or, l’image de $H_0$ par l’application $\mu \mapsto \int f d\mu$ est l’enveloppe convexe $C_0$ de $f(X)$ dans $E'$. D’autre part, cette application est continue pour la topologie vague sur $\mathscr{M}(X; C)$ et la topologie $\sigma(E', E')$ sur $E'$ puisque $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ par définition; donc l’image de $H = \overline{H}_0$ est un ensemble convexe *compact* contenant $C_0$ et contenu dans $C$; comme $C = \overline{C}_0$, cette image est égale à $C$.
 
-#### Proposition 6 {#int-iii-s3-prop-6 .statement}
+#### Proposition 6 {#int-iii-s3-prop-6 .statement tag=08NX}
 
 *Pour toute application continue et à support compact* $f$ *de* $X$ *dans un espace localement convexe séparé* $E$, *toute semi-norme continue* $q$ *sur* $E$ *et toute mesure* $\mu$ *sur* $X$ *telle que* $\int f d\mu \in E$, *on a*
 $$
@@ -213,19 +213,19 @@ pour tout $x \in X$, cela résulte de l’inégalité (13) du $§ 1, n° 6$.
 
 ### 3. Critères pour que l’intégrale appartienne à $E$.
 
-#### Proposition 7 {#int-iii-s3-prop-7 .statement}
+#### Proposition 7 {#int-iii-s3-prop-7 .statement tag=08NY}
 
 *Soient* $E$ *un espace localement convexe séparé* $E$, *et* $f \in \mathscr{H}(X; E)$. *Si* $f(X)$ *est contenu dans une partie convexe complète* $A$ *de* $E$, *on a* $\int f d\mu \in E$.
 
 Soit $K$ le support de $f$, qui est compact par hypothèse. Comme $f$ est nulle dans $X - K$, $f(X)$ est égal à $f(K)$ ou à $f(K) \cup \{0\}$, donc est compact puisque $f$ est continue et $E$ séparé ; l’enveloppe convexe fermée $C$ de $f(X)$ dans $E$ est alors précompacte (pour la structure uniforme induite par celle de $E$) (*Esp. vect. top.*, chap. II, 2\textsuperscript{e} éd., § 4, n\textsuperscript{o} 1, prop. 3). Mais comme $C$ est une partie fermée de l’espace complet $A$, $C$ est complet, donc compact ; *a fortiori*, $C$ est compact pour la topologie affaiblie $\sigma(E, E')$; mais comme celle-ci est induite par $\sigma({E'}^*, E')$, $C$ est l’enveloppe convexe fermée de $f(X)$ dans ${E'}^*$ pour la topologie $\sigma({E'}^*, E')$; on conclut donc par le cor. de la prop. 4 du n\textsuperscript{o} 2.
 
-#### Corollaire 1 {#int-iii-s3-prop-7-cor-1 .statement}
+#### Corollaire 1 {#int-iii-s3-prop-7-cor-1 .statement tag=08NZ}
 
 *Soit* $E$ *un espace localement convexe séparé ; pour toute fonction* $f \in \mathscr{K}(X; E)$, $\int f \, d\mu$ *appartient au complété* $\hat{E}$ *de* $E$.
 
 Comme les duals de $E$ et de $\hat{E}$ sont identiques, il suffit d’appliquer la prop. 6 en considérant que $f$ prend ses valeurs dans $\hat{E}$.
 
-#### Corollaire 2 {#int-iii-s3-prop-7-cor-2 .statement}
+#### Corollaire 2 {#int-iii-s3-prop-7-cor-2 .statement tag=08O0}
 
 *Si* $E$ *est un espace localement convexe séparé quasi-complet, on a* $\int f \, d\mu \in E$ *pour toute fonction* $f \in \mathscr{K}(X; E)$.
 
@@ -245,7 +245,7 @@ définie dans *Fonct. var. réelle*, chap. II, § 3, n\textsuperscript{o} 1 ; ce
 
 ### 4. Propriétés de continuité de l’intégrale
 
-#### Proposition 8 {#int-iii-s3-prop-8 .statement}
+#### Proposition 8 {#int-iii-s3-prop-8 .statement tag=08O1}
 
 Supposons E séparé; soit $\mu$ une mesure sur X. L’application $f \mapsto \int f d\mu$ de $\mathscr{K}(X;E)$ dans $\hat{E}$ (n° 3, cor. 1 de la prop. 7) est l’unique application linéaire continue $\Phi$ telle que $\Phi(g.a) = \mu(g).a$ pour tout vecteur $a \in E$ et toute fonction $g \in \mathscr{K}(X;C)$.
 
@@ -269,7 +269,7 @@ $$
 
 en vertu du n° 1, Exemple 1 et de la prop. 2 du n° 2 appliquée à l’injection canonique $C.a \to E$. En outre, le sous-espace de $\mathscr{K}(X;E)$ formé des combinaisons linéaires $\sum_i g_i.a_i$, où $a_i \in E$ et $g_i \in \mathscr{K}(X;C)$, est dense dans $\mathscr{K}(X;E)$ (§ 1, n° 2, prop. 5), ce qui achève la démonstration.
 
-#### Proposition 9 {#int-iii-s3-prop-9 .statement}
+#### Proposition 9 {#int-iii-s3-prop-9 .statement tag=08O2}
 
 Supposons E séparé: soit f une application continue à support compact de X dans E. Lorsqu’on munit l’espace $\mathscr{M}(X;C)$ de la topologie de la convergence strictement compacte (§ 1, n° 10), l’application $\mu \mapsto \int f d\mu$ de $\mathscr{M}(X;C)$ dans $\hat{E}$ est l’unique application linéaire continue $\Psi$ telle que $\Psi(\varepsilon_x) = f(x)$ pour tout $x \in X$.
 
@@ -281,7 +281,7 @@ $$
 
 d’où $\int f d\varepsilon_x = f(x)$. On sait par ailleurs que l’ensemble des mesures ponctuelles est dense dans $\mathscr{M}(X; \mathbf{C})$ pour la topologie de la convergence strictement compacte ($§ 2$, n° 4, cor. 4 du th. 1). Tout revient donc à prouver la continuité de l’application linéaire $u : \mu \mapsto \int f\, d\mu$. Pour cela, considérons l’application linéaire $v : z' \mapsto \langle f, z' \rangle$ de $E'$ dans $\mathscr{H}(X; \mathbf{C})$, et montrons que l’image par $v$ d’une partie équicontinue $H$ de $E'$ est contenue dans une partie strictement compacte de $\mathscr{H}(X; \mathbf{C})$. En effet, si $K$ est le support de $f$, les fonctions $\langle f, z' \rangle$ pour $z' \in H$ ont leur support contenu dans $K$; d’autre part, ces fonctions forment un ensemble équicontinu, et pour tout $x \in X$, l’ensemble des $z'(f(x))$ est borné ; notre assertion résulte donc du th. d’Ascoli (*Top. gén.*, chap. X, 2e éd., § 2, n° 5, cor. 3 du th. 2). Cela étant, il résulte de la formule (1) du n° 1 que $u$ n’est autre que la restriction à $\mathscr{M}(X; \mathbf{C})$ de la *transposée* $'v$ (au sens algébrique); sa continuité résulte donc de ce qui précède (*Esp. vect. top.*, chap. IV, 2e éd.).
 
-#### Corollaire {#int-iii-s3-n4-cor-1 .statement}
+#### Corollaire {#int-iii-s3-n4-cor-1 .statement tag=08O3}
 
 *Les hypothèses et notations étant celles de la prop. 9, la restriction de l’application $\mu \mapsto \int f\, d\mu$ à l’ensemble $\mathscr{M}_+(X)$ des mesures positives, ou à une partie vaguement bornée B de $\mathscr{M}(X; \mathbf{C})$, est vaguement continue.*
 

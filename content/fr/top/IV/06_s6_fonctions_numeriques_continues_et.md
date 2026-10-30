@@ -21,7 +21,7 @@ subsections:
       pdf_page: 299
 statements: 15
 exercises: 16
-content_sha256: f7a41b4d735f549c22bac960df620992dc601aaa0a74c22e9a97bf836dde103d
+content_sha256: 2ea340404664cec8b1e80c708c90084cbac99696e6ac9f70a1262cfea80fbda9
 ---
 
 ## § 6. FONCTIONS NUMÉRIQUES CONTINUES ET FONCTIONS NUMÉRIQUES SEMI-CONTINUES
@@ -30,7 +30,7 @@ content_sha256: f7a41b4d735f549c22bac960df620992dc601aaa0a74c22e9a97bf836dde103d
 
 En dehors des propriétés générales des fonctions continues à valeurs dans un espace topologique quelconque (I, p. 8), les fonctions numériques continues possèdent les deux propriétés fondamentales suivantes:
 
-#### Théorème 1 (Weierstrass) {#top-iv-s6-thm-1 .statement}
+#### Théorème 1 (Weierstrass) {#top-iv-s6-thm-1 .statement tag=0BSF}
 
 *Soit f une fonction numérique définie et continue dans un* espace quasi-compact non vide E. Il existe au moins un point $a \in E$ tel que $f(a) = \sup_{x \in E} f(x)$, et au moins un point $b \in E$ tel que $f(b) = \inf_{x \in E} f(x)$.
 
@@ -38,11 +38,11 @@ En effet, $f(E)$ est compact (I, p. 62, th. 2), donc fermé dans $\overline{\mat
 
 On énonce souvent ce théorème en disant qu’une fonction numérique continue dans un espace quasi-compact non vide y atteint ses bornes.
 
-#### Corollaire {#top-iv-s6-n1-cor-1 .statement}
+#### Corollaire {#top-iv-s6-n1-cor-1 .statement tag=0BSG}
 
 Si une fonction numérique $f$, définie dans un espace quasi-compact non vide E, est continue et finie dans E, elle est bornée dans E.
 
-#### Théorème 2 (Bolzano) {#top-iv-s6-thm-2 .statement}
+#### Théorème 2 (Bolzano) {#top-iv-s6-thm-2 .statement tag=0BSH}
 
 Soit $f$ une fonction numérique définie et continue dans un espace connexe E. Si $a$ et $b$ sont deux points quelconques de E, et $\alpha$ un nombre réel appartenant à l’intervalle fermé de bornes $f(a)$ et $f(b)$, il existe au moins un point $x \in E$ tel que $f(x) = \alpha$.
 
@@ -58,7 +58,7 @@ Soit $f$ une fonction numérique définie dans un espace topologique E; pour que
 
 Les fonctions pour lesquelles une seule des deux conditions ci-dessus est remplie jouent un rôle important en Analyse. De façon précise, nous poserons la définition suivante:
 
-#### Définition 1 {#top-iv-s6-def-1 .statement}
+#### Définition 1 {#top-iv-s6-def-1 .statement tag=0BSI}
 
 Une fonction numérique $f$, définie dans un espace topologique E, est dite semi-continue inférieurement (resp. semi-continue supérieurement) en un point $a \in E$, si quel que soit $h < f(a)$ (resp. $k > f(a)$), il existe un voisinage V de $a$ tel que $h < f(x)$ (resp. $k > f(x)$) pour tout $x \in V$.
 
@@ -70,11 +70,11 @@ Si $f$ est semi-continue inférieurement en un point, $-f$ est semi-continue sup
 
 Il est clair qu’une fonction semi-continue inférieurement dans $E$, est semi-continue inférieurement dans tout sous-espace de $E$.
 
-#### Exemple 1 {#top-iv-s6-n2-exa-1 .statement}
+#### Exemple 1 {#top-iv-s6-n2-exa-1 .statement tag=0BSJ}
 
 Si en un point $a$, $f$ admet un minimum relatif, c’est-à-dire s’il existe un voisinage $V$ de $a$ tel que, pour tout $x \in V, f(a) \leq f(x)$, $f$ est semi-continue inférieurement au point $a$. En particulier, si $f(a) = -\infty$, $f$ est semi-continue inférieurement au point $a$.
 
-#### Exemple 2 {#top-iv-s6-n2-exa-2 .statement}
+#### Exemple 2 {#top-iv-s6-n2-exa-2 .statement tag=0BSK}
 
 Définissons une fonction numérique $f$ dans $\mathbf{R}$, en posant $f(x) = 0$ si $x$ est irrationnel, $f(x) = 1/q$ si $x$ est rationnel et égal à la fraction irréductible $p/q$ ($q > 0$). Pour tout $n$ entier $> 0$, l’ensemble des nombres rationnels $p/q$ tels que $q < n$ est fermé et ses points sont isolés; pour tout $x$ irrationnel, il existe donc un voisinage $V$ de $x$ tel que $f(y) \leq 1/n$ pour tout $y \in V$, ce qui prouve que $f$ est continue au point $x$; et d’autre part, $f$ admet un maximum relatif en tout point rationnel $x$, donc $f$ est semi-continue supérieurement dans $\mathbf{R}$.
 
@@ -84,7 +84,7 @@ Il suffit d’ailleurs de supposer cette condition vérifiée seulement pour une
 
 Munissons $\overline{\mathbf{R}}$ de la topologie dont les ensembles ouverts sont $\varnothing$ et les intervalles ouverts illimités à droite de $\overline{\mathbf{R}}$ (c’est-à-dire les intervalles $]a, +\infty]$ pour $a$ fini, et l’intervalle $(-\infty, +\infty) = \overline{\mathbf{R}}$). Pour que la fonction numérique $f$ soit semi-continue inférieurement au point $a$, il faut et il suffit qu’elle soit continue en ce point, lorsqu’on la considère comme une application dans $\overline{\mathbf{R}}$ muni de la topologie précédente.
 
-#### Proposition 1 {#top-iv-s6-prop-1 .statement}
+#### Proposition 1 {#top-iv-s6-prop-1 .statement tag=0BSL}
 
 *Pour qu’une fonction numérique $f$ soit semi-continue inférieurement dans un espace topologique $E$, il faut et il suffit que, pour tout nombre fini $k, \overline{f}([k, +\infty])$* (ensemble des $x \in E$ tels que $f(x) > k$) *soit un ensemble ouvert dans $E$* (ou, ce qui revient au même, que $\overline{f}([-\infty, k])$ *soit un ensemble fermé dans $E$*).
 
@@ -92,7 +92,7 @@ En effet, cette condition exprime que $\overline{f}([k, +\infty])$ est un voisin
 
 Pour que $f$ soit semi-continue inférieurement dans $E$, il suffit que $\overline{f}([k, +\infty])$ soit un ensemble ouvert dans $E$, pour tous les nombres réels $k$ appartenant à un ensemble partout dense dans $\mathbf{R}$.
 
-#### Corollaire {#top-iv-s6-n2-cor-1 .statement}
+#### Corollaire {#top-iv-s6-n2-cor-1 .statement tag=0BSM}
 
 *Pour qu’une partie $A$ d’un espace topologique $E$ soit un ensemble ouvert (resp. fermé) dans $E$, il faut et il suffit que sa fonction caractéristique*¹ $\varphi_A$ *soit semi-continue inférieurement (resp. supérieurement) dans $E$*.
 
@@ -100,19 +100,19 @@ Pour que $f$ soit semi-continue inférieurement dans $E$, il suffit que $\overli
 
 En effet, $\varphi_A^{-1}(k, +\infty])$ est égal à $\varnothing$ pour $k \geqslant 1$, à $A$ pour $0 \leqslant k < 1$ et à $E$ pour $k < 0$.
 
-#### Théorème 3 {#top-iv-s6-thm-3 .statement}
+#### Théorème 3 {#top-iv-s6-thm-3 .statement tag=0BSN}
 
 *Soit f une fonction semi-continue inférieurement dans un espace quasi-compact non vide E ; il existe au moins un point $a \in E$ tel que $f(a) = \inf_{x \in E} f(x)$* (autrement dit, *f atteint sa borne inférieure dans E*).
 
 En effet, pour tout $k \in f(E)$, considérons l’ensemble $A_k = f^{-1}((-\infty, k])$; ces ensembles sont non vides et forment une *base de filtre* sur $E$; comme ils sont *fermés* d’après la prop. 1, ils ont au moins un point commun $a$ (axiome (C'') des espaces quasi-compacts (I, p. 59)). Pour tout $x \in E$, on a donc $f(a) \leqslant f(x)$, d’où le théorème.
 
-#### Corollaire {#top-iv-s6-n2-cor-2 .statement}
+#### Corollaire {#top-iv-s6-n2-cor-2 .statement tag=0BSO}
 
 *Soit f une fonction semi-continue inférieurement dans un espace quasi-compact non vide E ; si $f(x) > -\infty$ pour tout $x \in E$, f est minorée dans E.*
 
 On remarquera que ce théorème, et le théorème correspondant pour les fonctions semi-continues supérieurement redonnent comme cas particulier le théorème de Weierstrass (IV, p. 27, th. 1).
 
-#### Proposition 2 {#top-iv-s6-prop-2 .statement}
+#### Proposition 2 {#top-iv-s6-prop-2 .statement tag=0BSP}
 
 *Soient f et g deux fonctions numériques semi-continues inférieurement en un point $a \in E$. Les fonctions $\inf(f, g)$ et $\sup(f, g)$ sont semi-continues inférieurement au point a. Il en est de même de $f + g$ si cette fonction est définie, et de $fg$ si $f$ et $g$ sont $\geqslant 0$ et si le produit $fg$ est défini.*
 
@@ -120,7 +120,7 @@ Faisons par exemple la démonstration pour $f + g$; les raisonnements sont analo
 
 On voit de même que, si $f$ est semi-continue inférieurement en un point $a$, et si $f \geqslant 0$, $1/f$ est semi-continue supérieurement au point $a$.
 
-#### Théorème 4 {#top-iv-s6-thm-4 .statement}
+#### Théorème 4 {#top-iv-s6-thm-4 .statement tag=0BSQ}
 
 *L’enveloppe supérieure d’une famille $(f_i)$ de fonctions semi-continues inférieurement en un point $a \in E$, est semi-continue inférieurement au point a.*
 
@@ -128,25 +128,25 @@ En effet, soit $g$ cette enveloppe supérieure; quel que soit $h < g(a)$, il exi
 
 D’après la prop. 2, l’enveloppe *inférieure* d’un nombre *fini* de fonctions semi-continues inférieurement, est encore semi-continue inférieurement; mais il n’en est pas de même en général de l’enveloppe inférieure d’une famille *infinie* de fonctions semi-continues inférieurement. Par exemple, pour tout nombre rationnel $r$, désignons par $f_r$ la fonction égale à 0 au point $r$, à 1 pour tout nombre réel $x \neq r$; l’enveloppe inférieure des $f_r$ est la fonction $g$ égale à 0 pour tout nombre rationnel, à 1 pour tout nombre irrationnel (*fonction de Dirichlet*); elle n’est donc pas semi-continue inférieurement aux points irrationnels.
 
-#### Corollaire {#top-iv-s6-n2-cor-3 .statement}
+#### Corollaire {#top-iv-s6-n2-cor-3 .statement tag=0BSR}
 
 L’enveloppe supérieure d’une famille de fonctions numériques continues dans un espace E est semi-continue inférieurement dans E.
 
 Dans IX, §1, n° 7, prop. 7, nous montrerons que la réciproque de cette proposition est vraie si E est uniformisable (et dans ce cas seulement); toute fonction semi-continue inférieurement dans un espace uniformisable est l’enveloppe supérieure d’une famille de fonctions continues.
 
-#### Proposition 3 {#top-iv-s6-prop-3 .statement}
+#### Proposition 3 {#top-iv-s6-prop-3 .statement tag=0BSS}
 
 Soient E un espace topologique, f une fonction numérique $\geq 0$ définie dans E et semi-continue inférieurement; alors f est limite d’une suite croissante $(f_n)_{n \geq 1}$ de fonctions semi-continues inférieurement dans E, telle que chaque $f_n$ soit combinaison linéaire, à coefficients $\geq 0$; de fonctions caractéristiques d’ensembles ouverts dans E.
 
 Etant donnés deux entiers $k \geq 1$ et $n \geq 1$, notons $v_{kn}$ la fonction caractéristique de l’intervalle $[k/2^n, +\infty)$ de $\overline{\mathbf{R}}$. Pour tout $x \in \overline{\mathbf{R}}_+$, posons $u_n(x) = 2^{-n} \sum_{k=1}^{n.2^n} v_{kn}(x)$; il est immédiat que la suite $(u_n(x))_{n \geq 1}$ est croissante et admet x pour limite dans $\overline{\mathbf{R}}$. La suite des fonctions $f_n = u_n \circ f$ est donc croissante et converge vers f, et l’on a $f_n = 2^{-n} \sum_{k=1}^{n.2^n} \varphi_{U(k,n)}$, où U(k, n) est l’ensemble ouvert $-1$($k/2^n, +\infty$) de E (IV, p. 29, prop. 1).
 
-#### Proposition 4 {#top-iv-s6-prop-4 .statement}
+#### Proposition 4 {#top-iv-s6-prop-4 .statement tag=0BST}
 
 Pour qu’une fonction numérique f, définie dans un espace topologique E, soit semi-continue inférieurement en un point $a \in E$, il faut et il suffit que $\liminf_{x \to a} f(x) = f(a)$ (ou, ce qui revient au même, que $\liminf_{x \to a} f(x) \geq f(a)$).
 
 La condition est nécessaire. En effet, quel que soit $h < f(a)$, il existe un voisinage V de a tel que $h < f(x)$ quel que soit $x \in V$, donc $h \leq \inf_{x \in V} f(x) \leq \liminf_{x \to a} f(x)$ (IV, p. 23, formules (12)), et par suite $f(a) \leq \liminf_{x \to a} f(x)$. La condition est suffisante; en effet, si elle est vérifiée, pour tout $h < f(a)$, il existe un voisinage V de a tel que $h \leq \inf_{x \in V} f(x)$, donc f est semi-continue inférieurement au point a.
 
-#### Proposition 5 {#top-iv-s6-prop-5 .statement}
+#### Proposition 5 {#top-iv-s6-prop-5 .statement tag=0EAB}
 
 Soit f une fonction numérique quelconque, définie dans une partie partout dense A d’un espace topologique E; si, pour tout $x \in E$, on pose $g(x) = \liminf_{y \to x, y \in A} f(y)$, g est semi-continue inférieurement dans E.
 

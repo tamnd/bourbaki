@@ -42,7 +42,7 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: d25e9df0b19573bb528e2eb74eb348f8e093a741ae1f7a7dff9eda406b98d9d4
+content_sha256: 36caeafec2b80f55f4d81aa8a08ac8e916c9c8c954ea1d9374f4336f63f99e7d
 ---
 
 ## § 14. TRANSCENDENTAL EXTENSIONS
@@ -51,33 +51,33 @@ content_sha256: d25e9df0b19573bb528e2eb74eb348f8e093a741ae1f7a7dff9eda406b98d9d4
 
 Let us recall (IV, p. 4) the following definition:
 
-#### Definition 1 {#alg-v-s14-def-1 .statement}
+#### Definition 1 {#alg-v-s14-def-1 .statement tag=06RO}
 
 *Let E be an extension of a field K; a family $\mathbf{x} = (x_i)_{i \in I}$ of elements of E is said to be algebraically free over K if the monomials $\mathbf{x}^a = \prod_{i \in I} x_i^{a_i}$ with respect to the $x_i$ (for $a = (\alpha_i)_{i \in I}$, in $\mathbf{N}^{(I)}$) are linearly independent over K. In the contrary case the family is said to be algebraically related over K.*
 
 Definition 1 may also be expressed as follows:
 
-#### Proposition 1 {#alg-v-s14-prop-1 .statement}
+#### Proposition 1 {#alg-v-s14-prop-1 .statement tag=06RP}
 
 *For a family $(x_i)_{i \in I}$ of elements of an extension E of a field K to be algebraically free over K it is necessary and sufficient for the relation $f((x_i)) = 0$, where $f$ is a polynomial in $K[X_i]_{i \in I}$, to imply $f = 0$.*
 
-#### Definition 2 {#alg-v-s14-def-2 .statement}
+#### Definition 2 {#alg-v-s14-def-2 .statement tag=06RQ}
 
 *Let E be an extension of a field K. A family $(x_i)_{i \in I}$ of elements of E is called a pure basis of E (over K) if it is algebraically free and $E = K(x_i)_{i \in I}$. The extension E of K is also called pure if it possesses a pure basis.*
 
 The empty family is algebraically free, hence K is a pure extension of itself. With the notation of Def. 2, every element $x_i$ is transcendental over K; if $I$ is non-empty, E is thus a transcendental extension of K.
 
-#### Proposition 2 {#alg-v-s14-prop-2 .statement}
+#### Proposition 2 {#alg-v-s14-prop-2 .statement tag=06RR}
 
 *Let E and $E'$ be two fields and u an isomorphism of a subfield K of E onto a subfield $K'$ of $E'$. Let $\mathbf{x} = (x_i)_{i \in I}$ (resp. $\mathbf{x}' = (x'_i)_{i \in I}$) be a family of elements of E (resp. $E'$) which is algebraically free over K (resp. $K'$). Then there exists a unique isomorphism $v$ of $L = K(x_i)_{i \in I}$ onto $L' = K'(x'_i)_{i \in I}$, which induces $u$ on $K$ and maps $x_i$ to $x'_i$ for each $i \in I$.
 
 The uniqueness of $v$ is clear. Let us put $A = K[x_i]_{i \in I}$ and $A' = K'[x'_i]_{i \in I}$. By hypothesis the monomials $x'' = \prod_{i \in I} x_i^{\alpha_i}$ (for $\alpha = (\alpha_i)_{i \in I}$, in $\mathbf{N}^{(I)}$) form a basis of the vector K-space $A$ and there is a similar property of $A'$. Hence there exists a ring isomorphism $w : A \to A'$ mapping each element $\sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha x^\alpha$ to $\sum_{\alpha \in \mathbf{N}^{(I)}} u(c_\alpha) {x'}^\alpha$. Since $L$ is the field of fractions of $A$ and $L'$ that of $A'$, the isomorphism $w$ extends to an isomorphism $v$ of the field $L$ onto the field $L'$.
 
-#### Corollary {#alg-v-s14-n1-cor-1 .statement}
+#### Corollary {#alg-v-s14-n1-cor-1 .statement tag=06RS}
 
 — *For an extension E of a field K to be pure it is necessary and sufficient for E to be K-isomorphic to a field of rational fractions over K. More precisely, if the family $(x_i)_{i \in I}$ is a pure basis of E, then there exists a unique K-isomorphism of $K(X_i)_{i \in I}$ onto E which maps $X_i$ to $x_i$ for each $i \in I$.*
 
-#### Remark {#alg-v-s14-n1-rem-1 .statement}
+#### Remark {#alg-v-s14-n1-rem-1 .statement tag=06RT}
 
 It is clear that in an extension E of K an algebraically free family over K consists of *linearly independent* elements over $K$ (hence pairwise distinct); in other words, it is also a free family for the *vector space* structure of $E$ (with respect to K). But the converse is false, for if E is an algebraic extension of K, any non-empty family of elements of E (and *a fortiori* a non-empty family of linearly independent elements over K) is never algebraically free over K. When there is a risk of confusion, we shall say that a subset of an extension E of K which is free for the vector space structure of E with respect to K is *linearly free* over K.
 
@@ -85,7 +85,7 @@ Let E be an extension of a field K. A subset S of E is said to be *algebraically
 
 Every subset of an algebraically free set is algebraically free. Furthermore:
 
-#### Proposition 3 {#alg-v-s14-prop-3 .statement}
+#### Proposition 3 {#alg-v-s14-prop-3 .statement tag=06RU}
 
 — *For a family $(x_i)_{i \in I}$, of elements of an extension E of a field K to be algebraically free over K it is necessary and sufficient that every finite subfamily of $(x_i)_{i \in I}$ should be algebraically free over K.*
 
@@ -93,7 +93,7 @@ This proposition follows immediately from Def. 1.
 
 ### 2. Transcendence bases
 
-#### Proposition 4 {#alg-v-s14-prop-4 .statement}
+#### Proposition 4 {#alg-v-s14-prop-4 .statement tag=06RV}
 
 — *Let E be an extension of a field K and S and T two subsets of E. Then the following properties are equivalent:
 a) $S \cup T$ is algebraically free over K and $S \cap T = \varnothing$.*
@@ -113,11 +113,11 @@ where $g$ is a non-zero polynomial of $K[X_1, ..., X_m, Y_1, ..., Y_n]$, and suc
 
 $b) \Rightarrow a)$: Suppose that b) holds. In the first place it is clear that $T \cap K(S) = \varnothing$ and $a fortiori \ S \cap T = (21$. It suffices to show that if $x_i \ (1 \leq i \leq m )$ are distinct elements of $S$, finite in number, and $y_j \ (1 \leq j \leq n )$ distinct elements of $T$ finite in number, then the set of the $x_i$ and $y_j$ is algebraically free over $K$ (Prop. 3). Consider a polynomial $f \in K[X_1, ..., X_m, Y_1, ..., Y_n]$ such that $f(x_1, ..., x_m, y_1, ..., y_n) = 0$ and put $f = \sum \varphi_\alpha Y_1^{\alpha_1} ... Y_n^{\alpha_n}$ with $\varphi_\alpha \in K[X_1, ..., X_m]$ for all $\alpha = (\alpha_1, ..., \alpha_n) \in \mathbf{N}^n$. Let $g = f(x_1, ..., x_m, Y_1, ..., Y_n)$; then $g$ is a polynomial in the ring $K[S][Y_1, ..., Y_n]$ and the relation $f(x_1, ..., x_m, y_1, ..., y_n) = 0$ may be written $g(y_1, ..., y_n) = 0$. Since $T$ is algebraically free over $K(S)$, each of the coefficients $\varphi_\alpha(x_1, ..., x_m)$ of $g$ is zero; since $S$ is algebraically free over $K$, we have $\varphi_\alpha = 0$ for all $\alpha \in \mathbf{N}^n$, and hence $f = 0$.
 
-#### Corollary {#alg-v-s14-n2-cor-1 .statement}
+#### Corollary {#alg-v-s14-n2-cor-1 .statement tag=06RW}
 
 — *Let E be an extension of a field K and S a subset of E which is algebraically free over K. If x \in E is transcendental over K(S), then S U {x} is algebraically free over K.*
 
-#### Proposition 5 {#alg-v-s14-prop-5 .statement}
+#### Proposition 5 {#alg-v-s14-prop-5 .statement tag=06RX}
 
 — *Let E be an extension of the field K. For a subset S of E to be algebraically free over K it is necessary and sufficient that for each x \in S, the element x should be transcendental over the field K(S - {x}).*
 
@@ -125,27 +125,27 @@ The condition is necessary by Prop. 4.
 
 To prove the sufficiency it is enough (Prop. 3) to show that every finite sequence $(x_1, ..., x_n)$ of distinct elements of $S$ is algebraically free. Now by hypothesis $x_i$ is transcendental over $K(x_1, ..., x_{i-1})$ for $1 \leq i \leq n$, and now our assertion follows by induction on $n$ from the Cor. to Prop. 4.
 
-#### Proposition 6 {#alg-v-s14-prop-6 .statement}
+#### Proposition 6 {#alg-v-s14-prop-6 .statement tag=06RY}
 
 — *Let E be an extension of a field K and X an algebraically free subset of E over K. If K' \subset E is an algebraic extension of K then X is algebraically free over K'.*
 
 Arguing by contradiction, let us suppose that X is algebraically related over K'. By Prop. 5 there exists an element $x \in X$ which is algebraic over the field $K'(M)$, where $M = X - \{x\}$. Since $K'(M) = K(M)(K')$ and $K'$ is algebraic over $K$, Cor. 2 of V, p. 18 shows that $K'(M)$ is algebraic over $K(M)$; since $x$ is algebraic over $K'(M)$, it is therefore algebraic over $K(M) = K(X - \{x\})$, by Prop. 3 of V, p. 19. Now Prop. 5 shows X to be algebraically related over K and we have a contradiction.
 
-#### Definition 3 {#alg-v-s14-def-3 .statement}
+#### Definition 3 {#alg-v-s14-def-3 .statement tag=06RZ}
 
 *A subset B of an extension E of a field K is a transcendence basis of E (over K) if B is algebraically free over K and E is algebraic over K(B).*
 
-#### Example {#alg-v-s14-n2-exa-1 .statement}
+#### Example {#alg-v-s14-n2-exa-1 .statement tag=06S0}
 
 — *A pure basis is a transcendence basis. On the other hand, if E is a pure extension of K, a transcendence basis of E over K is not always a pure basis of E. For example, in $K(X)$, $\{X^2\}$ is a transcendence basis but does not generate $K(X)$.*
 
-#### Proposition 7 {#alg-v-s14-prop-7 .statement}
+#### Proposition 7 {#alg-v-s14-prop-7 .statement tag=06S1}
 
 *Let E be an extension of a field K. Every transcendence basis of E is a maximal element of the set (ordered by inclusion) of subsets of E algebraically free over K. Conversely, if S is a subset of E such that E is algebraic over $K(S)$, every maximal algebraically free subset of S is a transcendence basis of E.*
 
 Let B be a transcendence basis of E over K and $x \in E - B$. Then $x$ is algebraic over $K(B)$; by V, p. 107, Prop. 4, the subset $B \cup \{x\}$ of E is not algebraically free over K, whence the first part of the proposition. Secondly, if E is algebraic over $K(S)$ and B is a maximal algebraically free part of S, it follows from the Cor. of Prop. 4 that every $x \in S$ is algebraic over $K(B)$; hence (V, p. 18, Cor. 1) $K(S)$ is algebraic over $K(B)$, and so (V, p. 19, Prop. 3), E is algebraic over $K(B)$.
 
-#### Theorem 1 (Steinitz) {#alg-v-s14-thm-1 .statement}
+#### Theorem 1 (Steinitz) {#alg-v-s14-thm-1 .statement tag=06S2}
 
 — *Every extension E of a field K admits a transcendence basis over K. In other words, every extension of a field K is an algebraic extension of a pure extension of K.*
 
@@ -153,13 +153,13 @@ By contrast, an extension is not always a pure extension of an algebraic extensi
 
 This theorem is a consequence of the following more precise result:
 
-#### Theorem 2 {#alg-v-s14-thm-2 .statement}
+#### Theorem 2 {#alg-v-s14-thm-2 .statement tag=06S3}
 
 *Let E be an extension of a field K, S a subset of E such that E is algebraic over $K(S)$ and T a subset of S which is algebraically free over K; then there exists a transcendence basis B of E over K such that $T \subset B \subset S$.*
 
 For the set of algebraically free subsets of S, ordered by inclusion, is a set of finite character (E, III, p. 34) by Prop. 3. By Th. 1 of E, III, p. 35 it has a maximal element B containing T, and B is a transcendence basis of E over K, by Prop. 7.
 
-#### Corollary (« Exchange Theorem ») {#alg-v-s14-n2-cor-2 .statement}
+#### Corollary (« Exchange Theorem ») {#alg-v-s14-n2-cor-2 .statement tag=06S4}
 
 — Let E be an extension of K, S a subset of E such that E is algebraic over K(S), T a subset of E which is algebraically free over K; then there exists a subset S' of S such that T ∪ S' is a transcendence basis of E over K and T ∩ S' = ∅.
 
@@ -167,7 +167,7 @@ For E is algebraic over K(T U S) and we have T ⊂ T U S.
 
 ### 3. The transcendence degree of an extension
 
-#### Theorem 3 {#alg-v-s14-thm-3 .statement}
+#### Theorem 3 {#alg-v-s14-thm-3 .statement tag=06S5}
 
 — Let E be an extension of a field K. All transcendence bases of E over K have the same cardinal.
 
@@ -175,31 +175,31 @@ It is enough to prove the inequality Card(B) ≥ Card(B'), when B and B' are two
 
 Suppose now that B is infinite. Every x ∈ B is algebraic over K(B') and so there exists a finite subset S(x) of B' such that x is algebraic over K(S(x)). Write S = U_{x ∈ B} S(x), then S ⊂ B' and since B is infinite, we have Card(S) ≤ Card(B) (E, III, p. 49, Cor. 3). But since every element of B is algebraic over K(S) and E is algebraic over K(B), we conclude that E is algebraic over K(S) (V, p. 19, Prop. 3). Now Prop. 7 implies that S = B', whence the desired inequality Card(B') ≤ Card(B).
 
-#### Definition 4 {#alg-v-s14-def-4 .statement}
+#### Definition 4 {#alg-v-s14-def-4 .statement tag=06S6}
 
 — Let E be an extension of a field K. The cardinal of every transcendence basis of E over K is called the transcendence degree of E over K and written tr. deg_K E.
 
 Th. 2 and 3 and Def. 4 imply the following corollaries, where E denotes an extension of a field K, of finite transcendence degree n.
 
-#### Corollary 1 {#alg-v-s14-def-4-cor-1 .statement}
+#### Corollary 1 {#alg-v-s14-def-4-cor-1 .statement tag=06S7}
 
 — Let S be a subset of E such that E is algebraic over K(S). Then Card(S) ≥ n; if the cardinal of S is equal to n, then S is algebraically free over K (hence it is then a transcendence basis of E over K).
 
-#### Corollary 2 {#alg-v-s14-def-4-cor-2 .statement}
+#### Corollary 2 {#alg-v-s14-def-4-cor-2 .statement tag=06S8}
 
 — Suppose that E = K(x_1, ..., x_m), then m ≥ n; if moreover m = n, then (x_1, ..., x_m) is a pure basis of E over K, and E is then a pure extension of K.
 
-#### Corollary 3 {#alg-v-s14-def-4-cor-3 .statement}
+#### Corollary 3 {#alg-v-s14-def-4-cor-3 .statement tag=06S9}
 
 — Every subset of $E$ which is algebraically free over $K$ has at most $n$ elements, and if it has exactly $n$ elements, it is a transcendence basis of $E$ over $K$.
 
-#### Theorem 4 {#alg-v-s14-thm-4 .statement}
+#### Theorem 4 {#alg-v-s14-thm-4 .statement tag=06SA}
 
 — Let $K, E$ and $F$ be three fields such that $K \subset E \subset F$. If $S$ is a transcendence basis of $E$ over $K$ and $T$ a transcendence basis of $F$ over $E$, then $S \cap T$ is empty and $S \cup T$ is a transcendence basis of $F$ over $K$.
 
 For $F$ is algebraic over $E(T)$; moreover, $E(T)$ is algebraic over the field $K(S \cup T) = K(S)(T)$, because $E$ is algebraic over $K(S)$ ($V$, p. 18, Cor. 2); therefore ($V$, p. 19, Prop. 3) $F$ is algebraic over $K(S \cup T)$. On the other hand, $T$ being algebraically free over $E$ is so $a fortiori$ over $K(S)$, hence ($V$, p. 107, Prop. 4) $S \cup T$ is algebraically free over $K$ and $S \cap T = \varnothing$.
 
-#### Corollary {#alg-v-s14-n3-cor-1 .statement}
+#### Corollary {#alg-v-s14-n3-cor-1 .statement tag=06SB}
 
 — Let $K, E$ and $F$ be three fields such that $K \subset E \subset F$. Then we have
 $$
@@ -208,7 +208,7 @@ $$
 
 ### 4. Extension of isomorphisms
 
-#### Proposition 8 {#alg-v-s14-prop-8 .statement}
+#### Proposition 8 {#alg-v-s14-prop-8 .statement tag=06SC}
 
 — Let $\Omega$ be an algebraically closed extension of a field $K$, $E$ and $F$ two subextensions of $\Omega$ and $u$ a $K$-isomorphism of $E$ onto $F$. For a $K$-automorphism $v$ of $O$ to exist which extends $u$, it is necessary and sufficient for $\Omega$ to have the same transcendence degree over $E$ and $F$.
 
@@ -216,23 +216,23 @@ The condition is clearly necessary.
 
 Suppose then that $\Omega$ has the same transcendence degree over $E$ and $F$ and let us choose a transcendence basis $B$ of $\Omega$ over $E$ and a transcendence basis $C$ of $\Omega$ over $F$. Since $B$ and $C$ are equipotent, Prop. 2 ($V$, p. 106) shows that $u$ extends to a $K$-isomorphism $u'$ of $E(B)$ onto $F(C)$. Since $C?$ is an algebraic closure of $E(B)$ and $F(C)$, the Cor. of $V$, p. 23 shows that $u'$ extends to an automorphism $v$ of $\Omega$.
 
-#### Corollary 1 {#alg-v-s14-prop-8-cor-1 .statement}
+#### Corollary 1 {#alg-v-s14-prop-8-cor-1 .statement tag=06SD}
 
 — Let $O$ be an algebraically closed extension of a field $K$ and $E$ a subextension of $\Omega$. Every $K$-automorphism of $E$ extends to a $K$-automorphism of $\Omega$.
 
-#### Corollary 2 {#alg-v-s14-prop-8-cor-2 .statement}
+#### Corollary 2 {#alg-v-s14-prop-8-cor-2 .statement tag=06SE}
 
 — Let $\Omega$ be an algebraically closed extension of a field $K$, $E$ and $F$ two subextensions of $\Omega$ and $u$ a $K$-isomorphism of $E$ onto $F$. If the transcendence degree of $E$ over $K$ is finite (in particular if $E$ is algebraic over $K$) then there exists a $K$-automorphism of $\Omega$ extending $u$.
 
 Let us denote by $n, d(E)$ and $d(F)$ the transcendence degrees of $E$ over $K$, of $O$ over $E$ and of $C?$ over $F$ respectively. The existence of the $K$-isomorphism $u$ shows that the transcendence degree of $F$ over $K$ is equal to $n$. By the Cor. of Th. 4 the transcendence degree of $\Omega$ over $K$ is equal to $d(E) + n$ and also to $d(F) + n$. Therefore ($E$, III, p. 28, Prop. 8) we have $d(E) = d(F)$ and we can apply Prop. 8.
 
-#### Proposition 9 {#alg-v-s14-prop-9 .statement}
+#### Proposition 9 {#alg-v-s14-prop-9 .statement tag=06SF}
 
 — Let K be a field and $\Omega$ an algebraically closed extension of K. Suppose that $\Omega$ is not algebraic over K; then the set of elements of $\Omega$ which are transcendental over K is infinite. Moreover, if x and y are two elements of $\Omega$ which are transcendental over K, then there exists an automorphism u of $\Omega$ over K such that $u(x) = y$.
 
 Since $\Omega$ is not algebraic over K, there exists an element x of $\Omega$ transcendental over K; then the elements $x^n$ ($n \in \mathbf{N}$) are distinct and transcendental over K. Suppose that x and y are distinct and transcendental over K; by Prop. 2 (V, p. 106) there exists a K-isomorphism $\tilde{u}$ of $K(x)$ onto $K(y)$ such that $\tilde{u}(x) = y$; since $K(x)$ is of transcendence degree 1 over K, Cor. 2 of Prop. 8 shows that $\tilde{u}$ extends to a K-automorphism u of $\Omega$.
 
-#### Proposition 10 {#alg-v-s14-prop-10 .statement}
+#### Proposition 10 {#alg-v-s14-prop-10 .statement tag=06SG}
 
 — Let K be a field, $\Omega$ an algebraically closed extension of K and G the group of K-automorphisms of $\Omega$. Let $x \in \Omega$.
 
@@ -250,29 +250,29 @@ Let L be the set of elements y of $\Omega$ such that $u(y) = y$ for all $u \in G
 
 ### 5. Algebraically disjoint extensions
 
-#### Definition 5 {#alg-v-s14-def-5 .statement}
+#### Definition 5 {#alg-v-s14-def-5 .statement tag=06SH}
 
 — Let L be an extension of a field K, and E and F two subextensions of L. Then E and F are said to be algebraically disjoint (over K) and E is said to be algebraically disjoint from F over K, if for every subset A (resp. B) of E (resp. F) algebraically free over K, A and B are disjoint and $A \cup B$ is algebraically free over K.
 
-#### Remark 1 {#alg-v-s14-n5-rem-1 .statement}
+#### Remark 1 {#alg-v-s14-n5-rem-1 .statement tag=06SI}
 
 If E is a subextension of L which is algebraic over K, then it is algebraically disjoint from every subextension F of L. For an extension of K to be algebraic it is necessary and sufficient that it should be algebraically disjoint from itself.
 
-#### Remark 2 {#alg-v-s14-n5-rem-2 .statement}
+#### Remark 2 {#alg-v-s14-n5-rem-2 .statement tag=06SJ}
 
 It may happen that E is algebraically disjoint from F over K, but not over a subfield $K_{\|}$ of K. \* For example C is algebraically disjoint from itself over R but not over $\mathbf{Q}$. \*
 
-#### Remark 3 {#alg-v-s14-n5-rem-3 .statement}
+#### Remark 3 {#alg-v-s14-n5-rem-3 .statement tag=06SK}
 
 It is clear that if E is algebraically disjoint from $F$ over K, when E and F are considered as subextensions of L, the same is true when they are considered as subextensions of $K(E \cup F)$ and conversely.
 
-#### Proposition 11 {#alg-v-s14-prop-11 .statement}
+#### Proposition 11 {#alg-v-s14-prop-11 .statement tag=06SL}
 
 — *If E and F are algebraically disjoint over K then* $E \cap F$ *is algebraic over K*.
 
 This follows from Def. 5.
 
-#### Proposition 12 {#alg-v-s14-prop-12 .statement}
+#### Proposition 12 {#alg-v-s14-prop-12 .statement tag=06SM}
 
 — *Let L be an extension of a field K and E, F subextensions of L. Then the following conditions are equivalent*:
 
@@ -296,13 +296,13 @@ c) $\Rightarrow$ a) : This follows at once from Prop. 4 (V, p. 107).
 
 The implications $a) \Rightarrow b) \Rightarrow c' ) \Rightarrow a)$ may be proved in the same way.
 
-#### Corollary {#alg-v-s14-n5-cor-1 .statement}
+#### Corollary {#alg-v-s14-n5-cor-1 .statement tag=06SN}
 
 — *Let E and F be algebraically disjoint over K. Let E' be the relative algebraic closure of E in L and F' that of F* (V, p. 19). *Then* E' *and F'* *are algebraically disjoint over K*.
 
 Let B be a transcendence basis of E over K; this is also a transcendence basis of E' over K. Since E is algebraically disjoint from F over K, B is algebraically free over F, hence over F' (V, p. 108, Prop. 6); now we can apply Prop. 12.
 
-#### Proposition 13 {#alg-v-s14-prop-13 .statement}
+#### Proposition 13 {#alg-v-s14-prop-13 .statement tag=06SO}
 
 — *Let L be an extension of a field K and E, F two subextensions of L*.
 
@@ -322,33 +322,33 @@ $$
 
 Now b) follows at once from a) and this equality.
 
-#### Proposition 14 {#alg-v-s14-prop-14 .statement}
+#### Proposition 14 {#alg-v-s14-prop-14 .statement tag=06SP}
 
 — *Let L be an extension of a field K, E and F two subextensions of L and B a transcendence basis of E over K. For E and F to be algebraically disjoint over K it is necessary and sufficient that K(B) and F should be linearly disjoint over K.*
 
 For E and F to be algebraically disjoint over K it is necessary and sufficient for B to be algebraically free over F (Prop. 12), that is, for the monomials in the elements of B to be linearly independent over F. Since these monomials form a basis of the vector K-space K[B], it comes to the same to say that K[B] and F are linearly disjoint over K. Finally, since K(B) is the field of fractions of K[B], Prop. 6 of V, p. 14 shows that K[B] and F are linearly disjoint if and only if this is so for K(B) and F.
 
-#### Corollary 1 {#alg-v-s14-prop-14-cor-1 .statement}
+#### Corollary 1 {#alg-v-s14-prop-14-cor-1 .statement tag=06SQ}
 
 — *If E and F are linearly disjoint, then E is algebraically disjoint from F over K. Conversely, if E is a pure extension of K and is algebraically disjoint from F over K, then E and F are linearly disjoint over K.*
 
-#### Corollary 2 {#alg-v-s14-prop-14-cor-2 .statement}
+#### Corollary 2 {#alg-v-s14-prop-14-cor-2 .statement tag=06SR}
 
 — *Every pure extension of K is linearly disjoint from every algebraic extension of K; in particular, K is relatively algebraically closed in every pure extension of K.*
 
 ### 6. Algebraically free families of extensions
 
-#### Definition 6 {#alg-v-s14-def-6 .statement}
+#### Definition 6 {#alg-v-s14-def-6 .statement tag=06SS}
 
 — Let $L$ be an extension of a field $K$ and $(E_i)_{i \in I}$ a family of subextensions of $L$. The family $(E_i)_{i \in I}$ is said to be algebraically free if the following condition is satisfied:
 
 (AF) For each $i \in I$ let $A_i$ be a subset of $E_i$ which is algebraically free over $K$. Then $A_i \cap A_j = \varnothing$ for $i \neq j$ and $\bigcup_{i \in I} A_i$ is algebraically free over $K$.
 
-#### Remark {#alg-v-s14-n6-rem-1 .statement}
+#### Remark {#alg-v-s14-n6-rem-1 .statement tag=06ST}
 
 By Prop. 3 ($V$, p. 107) it is enough to verify the condition (AF) for finite subsets $A_i$. We thus obtain the following result : if $(E_i)_{i \in I}$ is an algebraically free family, the same is true of $(E'_i)_{i \in I}$ if $E'_i$ is a subextension of $E_i$ for each $i \in I$; conversely, if every family $(E'_i)_{i \in I}$, where $E'_i$ is a finitely generated subextension of $E$ for each $i \in I$ is algebraically free, then $(E_i)_{i \in I}$ is algebraically free. On the other hand, for $(E_i)_{i \in I}$ to be algebraically free it is necessary and sufficient that $(E_i)_{i \in J}$ should be algebraically free for every finite subset $J$ of $I$. Speaking intuitively we may say that the algebraic independence of extensions is a property « of finite character ».
 
-#### Proposition 15 {#alg-v-s14-prop-15 .statement}
+#### Proposition 15 {#alg-v-s14-prop-15 .statement tag=06SU}
 
 — Let $(E_i)_{i \in I}$ be a family of subextensions of a given extension $L$ of a field $K$. Then the following conditions are equivalent :
 
@@ -368,7 +368,7 @@ B = A, U ... U A_{n-1}. By the induction hypothesis the subsets A_1, ..., A_{n-1
 
 The following proposition generalizes part b) of Prop. 13 (V, p. 113).
 
-#### Proposition 16 {#alg-v-s14-prop-16 .statement}
+#### Proposition 16 {#alg-v-s14-prop-16 .statement tag=06SV}
 
 — *Let* (E_i)_{i \in I} *be a family of subextensions of an extension of a field K*, and let E be the field generated by $\bigcup_{i \in I} E_i$.
 
@@ -382,7 +382,7 @@ Under the hypotheses of b), E is algebraic over K(B) and of finite transcendence
 
 Before stating the next theorem let us remark that there exist algebraically closed extensions of K of arbitrary transcendence degree, for example an algebraic closure of an appropriate field of rational fractions.
 
-#### Theorem 5 {#alg-v-s14-thm-5 .statement}
+#### Theorem 5 {#alg-v-s14-thm-5 .statement tag=06SW}
 
 — *Let* (E_i)_{i \in I}, *be a family of extensions of a field K and* \Omega *an algebraically closed extension of K*. *Suppose that the inequality*
 
@@ -396,11 +396,11 @@ For each $i \in I$ let B_i be a transcendence basis of E_i over K. Let B be a tr
 
 K(B_i), the Cor. (V, p. 23) shows that $v_i$ extends to a K-isomorphism of $E_i$ onto a subextension $F_i$ of $\Omega$. By construction $B'_i$ is a transcendence basis of $F_i$ over K, and Prop. 15 (V, p. 115) shows that the family $(F_i)_{i \in I}$ of subextensions of $\Omega$ is algebraically free over K.
 
-#### Corollary 1 {#alg-v-s14-thm-5-cor-1 .statement}
+#### Corollary 1 {#alg-v-s14-thm-5-cor-1 .statement tag=06SX}
 
 — *Let E and R be two extensions of a field K. Suppose that $\Omega$ is algebraically closed, of transcendence degree at least equal to that of E. Then E is K-isomorphic to a subextension of R.*
 
-#### Corollary 2 {#alg-v-s14-thm-5-cor-2 .statement}
+#### Corollary 2 {#alg-v-s14-thm-5-cor-2 .statement tag=06SY}
 
 — *Let R be an algebraically closed field of infinite transcendence degree over its prime subfield. Then every field of the same characteristic as $\Omega$ is the ascending directed union of fields isomorphic to subfields of R.*
 
@@ -409,7 +409,7 @@ For each field is the ascending directed union of finitely generated subfields o
 
 ### 7. Finitely generated extensions
 
-#### Proposition 17 {#alg-v-s14-prop-17 .statement}
+#### Proposition 17 {#alg-v-s14-prop-17 .statement tag=06SZ}
 
 — *Let E be an extension of a field K and B a transcendence basis of E over K. For E to be finitely generated over K (V, p. 11, Def. 2) it is necessary and sufficient that B be finite and that the degree $[E : K(B)]$ be finite.*
 
@@ -417,19 +417,19 @@ Suppose that E is finitely generated over K and let S be a finite subset of E su
 
 Conversely, suppose that B is finite and $[E : K(B)]$ is finite. If C is a (finite) basis of the vector space E over $K(B)$, we have $E = K(B)(C) = K(B \cup C)$ and so E is a finitely generated extension of K.
 
-#### Corollary 1 {#alg-v-s14-prop-17-cor-1 .statement}
+#### Corollary 1 {#alg-v-s14-prop-17-cor-1 .statement tag=06T0}
 
 — *Suppose that E is a finitely generated extension of K, and let $K'$ be the relative algebraic closure of K in E (V, p. 19). Then $K'$ is of finite degree over K.*
 
 Let B be a transcendence basis of E over K. By Cor. 2 of V, p. 114, $K'$ is linearly disjoint from $K(B)$ over K, whence $[K' : K] = [K'(B) : K(B)] \leq [E : K(B)]$ and now the finiteness of $[K' : K]$ follows from that of $[E : K(B)]$.
 
-#### Corollary 2 {#alg-v-s14-prop-17-cor-2 .statement}
+#### Corollary 2 {#alg-v-s14-prop-17-cor-2 .statement tag=06T1}
 
 — *A field that is finitely generated over its prime subfield contains only finitely many roots of unity.*
 
 By Cor. 1 we are reduced to proving that a field L which is an extension of finite degree of its prime subfield possesses only a finite number of roots of unity. This is clear when L is of characteristic $\neq 0$ because it is then finite. If L is of characteristic 0 and contains infinitely many roots of unity, then it contains primitive roots of unity of arbitrarily high order. By V, p. 84, Th. 2 there exist therefore an infinity of integers $n > 0$ such that $\varphi(n) \leq [L : \mathbf{Q}]$, which is absurd (V, p. 80, Formulae (2) and (3)).
 
-#### Corollary 3 {#alg-v-s14-prop-17-cor-3 .statement}
+#### Corollary 3 {#alg-v-s14-prop-17-cor-3 .statement tag=06T2}
 
 — *If E is a finitely generated extension of a field K, then every subextension E' of E is finitely generated.*
 

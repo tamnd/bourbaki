@@ -36,7 +36,7 @@ subsections:
       pdf_page: 187
 statements: 20
 exercises: 6
-content_sha256: 0ddc59b629bd9b961ce404ce4c56eae7f7a93bfbccb8e8d8f461c69e47295c21
+content_sha256: 8daf31ba3b52f10e359f8f48dc646c3d897b50e16ba61466749cc7a582d23c10
 ---
 
 ## § 5. L’espace des sous-groupes fermés.
@@ -45,7 +45,7 @@ Dans ce paragraphe, $G$ désigne un groupe localement compact et $\mu$ une mesur
 
 ### 1. L’espace des mesures de Haar des sous-groupes fermés de $G$.
 
-#### Lemme 1 {#int-viii-s5-lem-1 .statement}
+#### Lemme 1 {#int-viii-s5-lem-1 .statement tag=09LY}
 
 Soient $\alpha$ une mesure positive $\neq 0$ sur $G$, S son support ; les deux conditions suivantes sont équivalentes :
 a) S est un sous-groupe fermé de $G$ et la mesure induite par $\alpha$ sur S est une mesure de Haar à droite sur S.
@@ -55,18 +55,18 @@ Il est clair que a) entraîne b) ; inversement, la relation b) entraîne $Sx = S
 
 Dans le reste de ce paragraphe, nous noterons $\Gamma$ l’ensemble des mesures positives $\neq 0$ sur $G$ vérifiant les conditions du lemme 1, et pour tout $\alpha \in \Gamma$, nous noterons $H_\alpha$ le sous-groupe fermé de $G$, support de $\alpha$.
 
-#### Proposition 1 {#int-viii-s5-prop-1 .statement}
+#### Proposition 1 {#int-viii-s5-prop-1 .statement tag=09LZ}
 
 L’ensemble $\Gamma$ est fermé dans l’espace $\mathscr{M}_+(G) - \{0\}$, muni de la topologie vague.
 Démontrons d’abord les lemmes suivants :
 
-#### Lemme 2 {#int-viii-s5-lem-2 .statement}
+#### Lemme 2 {#int-viii-s5-lem-2 .statement tag=09M0}
 
 Soient X un espace localement compact et pour toute mesure $\alpha \in \mathscr{M}_+(X) - \{0\}$, soit $S_\alpha$ le support de $\alpha$. Soit $\Phi$ un filtre sur $\mathscr{M}_+(X) - \{0\}$ qui converge vaguement vers une mesure $\alpha_0 \neq 0$. Alors, pour tout voisinage V d’un point s du support de $\alpha_0$, il existe un ensemble $M \in \Phi$ tel que, pour toute $\alpha \in M$, on ait $V \cap S_\alpha \neq \varnothing$.
 
 En effet, si $\varphi \in \mathscr{K}_+(X)$ est une fonction de support contenu dans V et telle que $\int \varphi(x) d\alpha_0(x) > 0$, il existe par définition un ensemble $M \in \Phi$ tel que $\int \varphi(x) d\alpha(x) > 0$ pour toute $\alpha \in M$, ce qui entraîne $V \cap S_\alpha \neq \varnothing$.
 
-#### Lemme 3 {#int-viii-s5-lem-3 .statement}
+#### Lemme 3 {#int-viii-s5-lem-3 .statement tag=09M1}
 
 Soient E un ensemble filtré par un filtre $\Phi$, $\xi \to \alpha(\xi)$ une application de E dans $\Gamma$, qui converge vaguement suivant $\Phi$ vers une mesure $\alpha_0 \neq 0$. Soit d’autre part $\xi \to t_\xi$ une application de E dans G telle que, pour tout $\xi \in E$, on ait $t_\xi \in H_{\alpha(\xi)}$. Si s est une valeur d’adhérence de l’application $\xi \to t_\xi$ suivant $\Phi$, on a $\delta(s)\alpha_0 = \alpha_0$.
 
@@ -74,7 +74,7 @@ Remplaçant au besoin $\Phi$ par un filtre plus fin, on peut supposer que s est 
 
 Pour prouver la prop. 1, il suffit, en vertu du lemme 1, de montrer que, si un filtre $\Psi$ sur $\Gamma$ converge vaguement vers une mesure $\alpha_0 \neq 0$ et si s appartient au support de $\alpha_0$, on a $\delta(s)\alpha_0 = \alpha_0$. Or, pour tout voisinage V de s dans G, il existe $M \in \Psi$ tel que, pour toute $\alpha \in M$, on ait $V \cap H_\alpha \neq \varnothing$, en vertu du lemme 2. Pour tout voisinage V de s et toute $\alpha \in \Gamma$, soit alors $t_{V,\alpha}$ un point de $V \cap H_\alpha$ si $V \cap H_\alpha \neq \varnothing$, un point quelconque de $H_\alpha$ dans le cas contraire ; si $\Theta$ est le filtre des sections du filtre des voisinages de s, $\Phi$ le filtre produit $\Theta \times \Psi$, s est valeur d’adhérence de $(V, \alpha) \to t_{V,\alpha}$ suivant $\Phi$ d’après ce qui précède. Comme d’autre part l’application $(V, \alpha) \to \alpha$ a pour valeur limite $\alpha_0$ suivant $\Phi$, la proposition résulte du lemme 3.
 
-#### Proposition 2 {#int-viii-s5-prop-2 .statement}
+#### Proposition 2 {#int-viii-s5-prop-2 .statement tag=09M2}
 
 Soit $\varphi$ une fonction de $\mathscr{K}_+(G)$ telle que $\varphi(e) > 0$. Alors l’ensemble $\Gamma_\varphi$ des mesures $\alpha \in \Gamma$ telles que $\int \varphi(x)d\alpha(x) = 1$ est compact pour la topologie vague.
 
@@ -88,7 +88,7 @@ $$
 
 et comme $\delta(h)\alpha = \alpha$, il vient $\alpha(Vx) \leq \alpha(Uh) = \alpha(U) \leq c$. Soit alors $(x_i)_{1 \leq i \leq n}$ une suite de points de K telle que les $Vx_i$ forment un recouvrement de K ; il résulte de ce qui précède que $\alpha(K) \leq \sum_{i=1}^n \alpha(Vx_i) \leq nc$ pour toute $\alpha \in \Gamma_\varphi$; C.Q.F.D.
 
-#### Proposition 3 {#int-viii-s5-prop-3 .statement}
+#### Proposition 3 {#int-viii-s5-prop-3 .statement tag=09M3}
 
 Sous les hypothèses de la prop. 2, l’application $\alpha \to \left( \langle \varphi, \alpha \rangle, \frac{\alpha}{\langle \varphi, \alpha \rangle} \right)$ est un homéomorphisme de $\Gamma$ sur l’espace produit $\mathbf{R}_+^* \times \Gamma_\varphi$.
 
@@ -112,7 +112,7 @@ $$
 $$
 où $\dot{x} = \pi_\alpha(x)$ est l’image canonique de $x \in G$ dans $Q_\alpha$.
 
-#### Proposition 4 {#int-viii-s5-prop-4 .statement}
+#### Proposition 4 {#int-viii-s5-prop-4 .statement tag=09M4}
 
 Soit $\Gamma^0$ l’ensemble des mesures $\alpha \in \Gamma$ telles que $H_\alpha$ soit unimodulaire, et pour toute $\alpha \in \Gamma^0$, posons $\mu_\alpha = \mu / \alpha$; alors l’application $\alpha \to \| \mu_\alpha \|$ de $\Gamma^0$ dans $\overline{\mathbf{R}}$ est semi-continue inférieurement pour la topologie vague.
 
@@ -139,7 +139,7 @@ La conclusion résulte donc de ce que l’application $\alpha \to f * \alpha$ de
 
 Rappelons que si, pour une mesure $\alpha \in \Gamma^0$, $\|\mu_\alpha\|$ est finie, G est nécessairement unimodulaire (chap. VII, § 2, n° 6, cor. 3 du th. 3).
 
-#### Proposition 5 {#int-viii-s5-prop-5 .statement}
+#### Proposition 5 {#int-viii-s5-prop-5 .statement tag=09M5}
 
 Soit $g$ une fonction numérique positive $\mu$-intégrable et soit $\Gamma^0(g)$ l’ensemble des mesures $\alpha \in \Gamma^0$ telles que l’on ait $\int^* g(xs)d\alpha(s) \geq 1$ pour tout $x \in G$. Alors l’application $\alpha \to \|\mu_\alpha\|$ de $\Gamma^0(g)$ dans $\overline{\mathbf{R}}$ est vaguement continue.
 
@@ -198,7 +198,7 @@ $$
 
 dès que $\beta \in U_\varepsilon$, ce qui termine la démonstration.
 
-#### Corollaire 1 {#int-viii-s5-prop-5-cor-1 .statement}
+#### Corollaire 1 {#int-viii-s5-prop-5-cor-1 .statement tag=09M6}
 
 *Soient K une partie compacte de G, V un voisinage compact symétrique de e dans G, c un nombre réel > 0. La restriction de l’application $\alpha \to \|\mu_\alpha\|$ à l’ensemble des $\alpha \in \Gamma^0$ telles que l’on ait $G = KH_\alpha$ et $\alpha(V) \geq c$ est vaguement continue.*
 
@@ -210,7 +210,7 @@ $$
 
 $\alpha$ vérifiant les conditions de l’énoncé ; comme en outre $\pi_\alpha(K) = Q_x$ on a $\alpha \in \Gamma^0(g)$, d’où le corollaire.
 
-#### Corollaire 2 {#int-viii-s5-prop-5-cor-2 .statement}
+#### Corollaire 2 {#int-viii-s5-prop-5-cor-2 .statement tag=09M7}
 
 *Soit A une partie $\mu$-intégrable de G. La restriction de l’application $\alpha \to \|\mu_\alpha\|$ à l’ensemble $N_A$ des mesures de Haar normalisées des sous-groupes discrets H de G tels que $G = AH$ est vaguement continue.*
 
@@ -226,7 +226,7 @@ et comme $\pi_\alpha(A) = Q_\alpha$, on a $N_A \subset \Gamma^0(\varphi_A)$, et 
 
 Désignons par $\Sigma$ l’ensemble des sous-groupes fermés de G ; si l’on associe à chaque mesure $\alpha \in \Gamma$ le sous-groupe $H_\alpha$ support de $\alpha$, on obtient une application (dite canonique) de $\Gamma$ dans $\Sigma$, qui est évidemment surjective et permet d’identifier canoniquement $\Sigma$ à l’ensemble des orbites du groupe des homothéties de rapport $> 0$ dans $\Gamma$. L’ensemble $\Sigma$, muni de la topologie quotient de la topologie vague sur $\Gamma$, est appelé l’espace des sous-groupes fermés de $G$.
 
-#### Théorème 1 {#int-viii-s5-thm-1 .statement}
+#### Théorème 1 {#int-viii-s5-thm-1 .statement tag=09M8}
 
 Soit $G$ un groupe localement compact. L’espace $\Sigma$ des sous-groupes fermés de $G$ est compact. On a en outre les propriétés suivantes :
 
@@ -240,7 +240,7 @@ Il résulte de la prop. 3 du no 1 que $\Sigma$ est homéomorphe à $\Gamma_\varp
 
 La propriété (ii) sera conséquence de la proposition suivante :
 
-#### Proposition 6 {#int-viii-s5-prop-6 .statement}
+#### Proposition 6 {#int-viii-s5-prop-6 .statement tag=09M9}
 
 Supposons que le groupe localement compact $G$ soit engendré par un voisinage compact de $e$. Alors l’ensemble $\Gamma_c^0$ des mesures $\alpha \in \Gamma^0$ telles que $G/H_\alpha$ soit compact est ouvert dans $\Gamma^0$, et la restriction à $\Gamma_c^0$ de l’application $\alpha \to \| \mu_\alpha \|$ est vaguement continue.
 
@@ -266,7 +266,7 @@ d’où l’on déduit, par récurrence sur $n$, $L^nK \subset KH_\beta$ pour to
 
 Enfin, (iii) sera conséquence de la proposition suivante :
 
-#### Proposition 7 {#int-viii-s5-prop-7 .statement}
+#### Proposition 7 {#int-viii-s5-prop-7 .statement tag=09MA}
 
 *Soit N $\subset \Gamma^0$ le sous-espace des mesures de Haar normalisées des sous-groupes discrets de G, et pour tout voisinage ouvert relativement compact U de e dans G, soit $N_U$ la partie de N formée des $\alpha$ telles que $H_\alpha \cap U = \{e\}$. Alors :
 a) $N_U$ est compact.
@@ -281,13 +281,13 @@ $$
 $$
 Or, si $A$ est compact (resp. ouvert relativement compact) dans $G$, l’application $\alpha \to \alpha(A)$ de $\mathscr{M}_+(G)$ dans $\mathbf{R}$ est semi-continue supérieurement (resp. inférieurement) pour la topologie vague (chap. IV, § 1, no 1, prop. 4 et § 4, no 4, Remarque) ; on voit donc que $N_U$ est une partie fermée de $\Gamma^0$. De plus, soit $\varphi \in \mathscr{K}_+(G)$ une fonction telle que $\varphi(e) = 1$ et $\varphi(x) = 0$ dans $G - U$; il est clair que $\int \varphi(x) d\alpha(x) = 1$ pour toute $\alpha \in N_U$; la prop. 2 du no 1 montre donc que $N_U$ est un ensemble compact, ce qui démontre a). Soit d’autre part $V$ un voisinage ouvert relativement compact de $e$ dans $G$ tel que $\overline{V} \subset U$, et soit $\varphi \in \mathscr{K}_+(G)$, de support contenu dans $U$ et telle que $\varphi(x) = 1$ dans $V$. On a $\alpha(\varphi) = 1$ pour $\alpha \in N_U$, et il existe donc un voisinage $W$ de $\alpha$ dans $N$ tel que l’on ait $\beta(\varphi) < 2$ pour $\beta \in W$; il est clair alors que l’on a $W \subset N_V$, donc $N_V$ est un voisinage de $N_U$. Comme les $N_U$ recouvrent $N$, cela démontre b). Enfin, toute partie compacte $M$ de $N$ est contenue dans une réunion finie d’ensembles $N_{U_i}$ ($1 \leqslant i \leqslant n$) et comme $\bigcup_i N_{U_i} \subset N_U$, où $U = \bigcap_i U_i$, cela démontre c).
 
-#### Corollaire {#int-viii-s5-n3-cor-1 .statement}
+#### Corollaire {#int-viii-s5-n3-cor-1 .statement tag=09MB}
 
 *Le sous-espace* $N$ *de* $\Gamma^0$ *est localement compact*.
 
 ### 4. *Cas des groupes sans sous-groupes finis arbitrairement petits.*
 
-#### Théorème 2 {#int-viii-s5-thm-2 .statement}
+#### Théorème 2 {#int-viii-s5-thm-2 .statement tag=09MC}
 
 *Soit* $G$ *un groupe localement compact vérifiant la condition suivante :*
 
@@ -299,12 +299,12 @@ Alors on a les propriétés suivantes :
 On a D_c = D ∩ Σ_c^0, donc (iii) est conséquence de (i) et du th. 1, (ii) du n° 3.
 Avec les notations du n° 3, prop. 7, il suffit, pour démontrer (i) et (ii), de prouver que :
 
-#### Proposition 8 {#int-viii-s5-prop-8 .statement}
+#### Proposition 8 {#int-viii-s5-prop-8 .statement tag=09MD}
 
 La bijection canonique de N sur D est un homéomorphisme.
 Or, si Γ_d est l’ensemble des mesures de Haar sur les sous-groupes discrets de G, D est canoniquement homéomorphe à l’espace des orbites du groupe des homothéties de rapport > 0 dans Γ_d (Top. gén., chap. I, 3e éd., § 5, n° 2, prop. 4). Il suffira donc de prouver que l’application canonique α → (α({e}), α/α({e})) de Γ_d sur $\mathbf{R}_+^*$ × N est un homéomorphisme, ce qui résultera du lemme suivant :
 
-#### Lemme 4 {#int-viii-s5-lem-4 .statement}
+#### Lemme 4 {#int-viii-s5-lem-4 .statement tag=09ME}
 
 Si le groupe G vérifie la condition (L), l’application α → α({e}) de Γ_d dans $\mathbf{R}_+^*$ est vaguement continue.
 Considérons une mesure α ∈ Γ_d ; soit V_0 un voisinage ouvert relativement compact de e dans G tel que H_α ∩ V_0 = {e} et qu’il n’existe aucun sous-groupe fini de G contenu dans V_0 et non réduit à e. Soit V un voisinage compact symétrique de e tel que V^3 ⊂ V_0, et soit U un voisinage symétrique de e tel que U^2 ⊂ V. Soit φ (resp. ψ) une fonction de $\mathscr{K}_+$(G), à valeurs dans [0, 1], égale à 1 dans V^3 (resp. au point e) et de support contenu dans V_0 (resp. dans U). L’ensemble des mesures β ∈ Γ_d telles que l’on ait $|\beta(\varphi) - \alpha(\varphi)| \leq \varepsilon$ et $|\beta(\psi) - \alpha(\psi)| \leq \varepsilon$ est un voisinage W de $\alpha$. Nous nous proposons de montrer que, pourvu que $\varepsilon$ soit pris assez petit, *on a* $H_\beta \cap V = \{e\}$ *pour toute* $\beta \in W$; il en résultera que $\beta(\psi) = \beta(\{e\})$, donc que $|\beta(\{e\}) - \alpha(\{e\})| \leq \varepsilon$, ce qui prouvera le lemme.
@@ -332,7 +332,7 @@ En termes imagés, on dit qu’un groupe G vérifiant la condition (L) *n’a pa
 
 Soient G un groupe localement compact, $N \subset \Gamma^0$ le sous-espace des mesures de Haar normalisées des sous-groupes discrets de G, et N_c la partie de N correspondant aux sous-groupes discrets H de G tels que G/H soit compact ; on a donc N_c = N ∩ Γ^0_c avec les notations du n° 3, prop. 6 ; et si le groupe G est engendré par un voisinage compact de e, il résulte du n° 3, prop. 6 que N_c est ouvert dans N (donc localement compact en vertu du n° 3, cor. de la prop. 7) et que la restriction à N_c de l’application α → ||μ_α|| est vaguement continue.
 
-#### Proposition 9 {#int-viii-s5-prop-9 .statement}
+#### Proposition 9 {#int-viii-s5-prop-9 .statement tag=09MF}
 
 Soit G un groupe localement compact commutatif, engendré par un voisinage compact de e. Pour qu’une partie A de N_c soit relativement compacte dans N_c, il faut et il suffit qu’elle vérifie les deux conditions suivantes :
 
@@ -342,7 +342,7 @@ Soit G un groupe localement compact commutatif, engendré par un voisinage compa
 
 Si A ⊂ N_c est relativement compacte dans N_c, elle l’est a fortiori dans N et la nécessité des conditions (i) et (ii) résulte donc du n° 3, prop. 6 et 7 (sans supposer G commutatif). Réciproquement, supposons que A ⊂ N_c vérifie ces conditions ; si A est l’adhérence de A dans N, Ā est compacte en vertu du n° 3, prop. 7 ; en outre, comme α → ||μ_α|| est semi-continue inférieurement dans Γ^0 pour la topologie vague (n° 2, prop. 4), la condition (ii) implique que l’on a aussi ||μ_α|| ≤ k pour toute α ∈ Ā. Or, puisque G est commutatif, μ_α = μ/α est une mesure de Haar sur le groupe G/H_α, et G/H_α est donc compact pour toute α ∈ Ā (chap. VII, § 1, n° 2, prop. 2). Cela signifie que Ā ⊂ N_c, donc A est relativement compacte dans N_c.
 
-#### Corollaire {#int-viii-s5-n5-cor-1 .statement}
+#### Corollaire {#int-viii-s5-n5-cor-1 .statement tag=09MG}
 
 Soit G un groupe localement compact commutatif, engendré par un voisinage compact de e et satisfaisant à la condition (L) du n° 4. Soit D_c l’ensemble des sous-groupes discrets H de G tels que G/H soit compact, et, pour tout H ∈ D_c, soit v(H) la masse totale μ_α(G/H), où μ_α est la mesure quotient de μ par la mesure de Haar normalisée α de H. Pour qu’une partie A de l’espace D_c soit relativement compacte dans D_c, il faut et il suffit qu’elle vérifie les deux conditions suivantes :
 
@@ -352,7 +352,7 @@ Soit G un groupe localement compact commutatif, engendré par un voisinage compa
 
 Compte tenu de la prop. 9, cela résulte aussitôt de ce que D_c est l’image de N_c par la bijection canonique de N sur D, et de ce que, moyennant les hypothèses faites, cette bijection est un homéomorphisme (n° 4, prop. 8).
 
-#### Exemple {#int-viii-s5-n5-exa-1 .statement}
+#### Exemple {#int-viii-s5-n5-exa-1 .statement tag=09MH}
 
 Prenons G = \mathbf{R}^n et pour μ la mesure de Lebesgue ; toutes les hypothèses du cor. de la prop. 9 sont vérifiées. Les sous-groupes discrets H de G tels que G/H soit compact ne sont autres que les sous-groupes discrets de rang n (Top. gén., chap. VII, § 1, n° 1, th. 1) ; un tel sous-groupe H est engendré par une base (a_i)_{1 \leq i \leq n} de \mathbf{R}^n, et on a
 

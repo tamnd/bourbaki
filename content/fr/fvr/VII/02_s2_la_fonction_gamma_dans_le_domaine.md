@@ -25,7 +25,7 @@ subsections:
       pdf_page: 306
 statements: 7
 exercises: 6
-content_sha256: 67ad323b3b99bdfb294e21c18ec3a5649f00ff1d3a7f163a86eff0578cd145c9
+content_sha256: 774c37b513eba0de4b02a1e8eea6165cd0a8a68953b59342fecab499477fc850
 ---
 
 ## § 2. LA FONCTION GAMMA DANS LE DOMAINE COMPLEXE
@@ -110,7 +110,7 @@ $$
 
 tenant compte de l’équation fonctionnelle (4) de VII, p. 11, on voit donc que:
 
-#### Proposition 1 {#fvr-vii-s2-prop-1 .statement}
+#### Proposition 1 {#fvr-vii-s2-prop-1 .statement tag=08JB}
 
 *Pour tout z complexe, on a*
 
@@ -120,7 +120,7 @@ $$
 
 *(relation des compléments)*.
 
-#### Corollaire {#fvr-vii-s2-n2-cor-1 .statement}
+#### Corollaire {#fvr-vii-s2-n2-cor-1 .statement tag=08JC}
 
 *Pour tout t réel, on a*
 
@@ -170,7 +170,7 @@ f(0) = \sqrt{\pi^{p-1} \prod_{k=1}^{p-1} \sin \frac{k\pi}{p}}
 $$
 et comme le produit du second membre est égal à $p/2^{p-1}$ (VI, p. 15, cor. 1), on voit finalement que:
 
-#### Proposition 2 {#fvr-vii-s2-prop-2 .statement}
+#### Proposition 2 {#fvr-vii-s2-prop-2 .statement tag=08JD}
 
 *Pour tout nombre complexe z distinct d’un entier $\leq 0$ et pour tout entier $p > 0$, on a*
 $$
@@ -178,7 +178,7 @@ $$
 $$
 (formule de multiplication de Legendre–Gauss).
 
-#### Proposition 3 {#fvr-vii-s2-prop-3 .statement}
+#### Proposition 3 {#fvr-vii-s2-prop-3 .statement tag=08JE}
 
 *Pour tout nombre réel $x > 0$, on a*
 $$
@@ -313,7 +313,7 @@ $$
 $$
 d’où on tire aisément $\delta = \frac{1}{2} \log 2\pi$. On a donc finalement le résultat suivant:
 
-#### Proposition 4 {#fvr-vii-s2-prop-4 .statement}
+#### Proposition 4 {#fvr-vii-s2-prop-4 .statement tag=08JF}
 
 *Suivant le filtre $\mathfrak{F}$, on a (pour tout entier $p \geq 1$) le développement asymptotique*
 $$
@@ -322,7 +322,7 @@ $$
 $$
 *(développement de Stirling)*.
 
-#### Corollaire {#fvr-vii-s2-n3-cor-1 .statement}
+#### Corollaire {#fvr-vii-s2-n3-cor-1 .statement tag=08JG}
 
 *Suivant le filtre $\mathfrak{F}$, on a*
 $$
@@ -373,7 +373,7 @@ $$
 
 Le même raisonnement conduit à la proposition analogue suivante:
 
-#### Proposition 5 {#fvr-vii-s2-prop-5 .statement}
+#### Proposition 5 {#fvr-vii-s2-prop-5 .statement tag=08JH}
 
 *Suivant le filtre $\mathfrak{F}$, on a (pour tout entier $p \geqslant 1$), le développement asymptotique*
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 172
 statements: 14
 exercises: 12
-content_sha256: b447c834d904c0c1c87c668ee3a9a6c76b5fc3212a84bf648612ad2a0a49f556
+content_sha256: 6bac6bb784fbb4b199b3afb36bd212ba5f589bd833743b3d4385ed3b9a405428
 ---
 
 ## § 5. MAGNUS ALGEBRAS
@@ -60,7 +60,7 @@ For every integer $m \geq 0$, let $\hat{A}_m(X)$ denote the ideal consisting of 
 
 $\hat{A}(X)$ is called the *Magnus algebra* of the set X with coefficients in K. If there is any ambiguity over K we write $\hat{A}_K(X)$.
 
-#### Proposition 1 {#lie-ii-s5-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s5-prop-1 .statement tag=0A5B}
 
 *Let B be a unital associative algebra with a real filtration $(B_\alpha)_{\alpha \in \mathbf{R}}$ such that B is Hausdorff and complete (§ 4, nos. 1 and 2). Let f be a mapping of X into B such that there exists $\lambda > 0$ for which $f(X) \subset B_\lambda$. Then f can be extended in one and only one way to a continuous unital homomorphism $\hat{f}$ of $\hat{A}(X)$ into B.*
 
@@ -78,7 +78,7 @@ for all $v \in \hat{A}(Y)$.
 
 For all $a = (a_n)_{n \geq 0}$ in $\hat{A}(X)$, the element $a_0$ of K will be called the *constant term* of a and denoted by $\varepsilon(a)$. Formula (1) shows that $\varepsilon$ is an algebra homomorphism of $\hat{A}(X)$ into K.
 
-#### Lemma 1 {#lie-ii-s5-lem-1 .statement}
+#### Lemma 1 {#lie-ii-s5-lem-1 .statement tag=0A5C}
 
 *For an element a of $\hat{A}(X)$ to be invertible, it is necessary and sufficient that its constant term be invertible in K.*
 
@@ -88,20 +88,20 @@ The set of elements of $\hat{\mathbf{A}}(\mathbf{X})$ of constant term 1 is ther
 
 ### 3. MAGNUS GROUP AND FREE GROUP
 
-#### Theorem 1 {#lie-ii-s5-thm-1 .statement}
+#### Theorem 1 {#lie-ii-s5-thm-1 .statement tag=0A5D}
 
 *Let $r$ be a mapping of $\mathbf{X}$ into $\hat{\mathbf{A}}(\mathbf{X})$ such that $\omega(r(x)) \geq 2$ for all $x \in \mathbf{X}$. The unique homomorphism $g$ of the free group $F(\mathbf{X})$ into the Magnus group $\Gamma(\mathbf{X})$ such that $g(x) = 1 + x + r(x)$ for all $x \in \mathbf{X}$ is injective.*
 
 We first prove three lemmas.
 
-#### Lemma 2 {#lie-ii-s5-lem-2 .statement}
+#### Lemma 2 {#lie-ii-s5-lem-2 .statement tag=0A5E}
 
 *Let $n$ be a non-zero rational integer. In the ring of formal power series $K[[t]]$ we write $(1+t)^n = \sum_{j \geq 0} c_{j,n} t^j$. There exists an integer $j \geq 1$ such that $c_{j,n} \neq 0$.
 
 If $n > 0$, then $c_{n,n} = 1$ by the binomial formula.
 Suppose that $n < 0$ and let $m = -n$. If $c_{j,n} = 0$ for all $j \geq 1$, then $(1+t)^n = 1$, whence, taking the inverse, $(1+t)^m = 1$, which contradicts the formula $c_{m,m} = 1$.*
 
-#### Lemma 3 {#lie-ii-s5-lem-3 .statement}
+#### Lemma 3 {#lie-ii-s5-lem-3 .statement tag=0A5F}
 
 *Let $x_1, \ldots, x_s$ be elements of $\mathbf{X}$ such that $s \geq 1$ and $x_i \neq x_{i+1}$ for $1 \leq i \leq s-1$; let $n_1, \ldots, n_s$ be non-zero rational integers. Then the element $\prod_{i=1}^s (1+x_i)^{n_i}$ of $\hat{\mathbf{A}}(\mathbf{X})$ is $\neq 1$.
 
@@ -115,7 +115,7 @@ $$
 
 By Lemma 2, there exist integers $a_i > 0$ such that $c_{a_i, n_i} \neq 0$ ($1 \leq i \leq s$). By *Algebra*, Chapter I, § 7, no. 4, Proposition 6, no monomial $x_1^{b_1} \cdots x_s^{b_s}$ such that $b_i \geq 0$ and $(b_1, \ldots, b_s) \neq (a_1, \ldots, a_s)$ can be equal to $x_1^{a_1} \ldots x_s^{a_s}$. It follows that the coefficient of $x_1^{a_1} \ldots x_s^{a_s}$ in $\prod_{i=1}^s (1 + x_i)^{n_i}$ is $c_{a_1, n_1} \ldots c_{a_s, n_s} \neq 0$, which implies the result.
 
-#### Lemma 4 {#lie-ii-s5-lem-4 .statement}
+#### Lemma 4 {#lie-ii-s5-lem-4 .statement tag=0A5G}
 
 *Let $\sigma$ be the continuous endomorphism of $\hat{A}(X)$ such that $\sigma(x) = x + r(x)$ for $x \in X$ (no. 1, Proposition 1). Then $\sigma$ is an automorphism and $\sigma(\hat{A}_m(X)) = \hat{A}_m(X)$ for all $m \in \mathbf{N}$.
 
@@ -139,11 +139,11 @@ hence $g(w) \neq 1$ by Lemmas 3 and 4.
 
 We shall prove the two following theorems:
 
-#### Theorem 2 {#lie-ii-s5-thm-2 .statement}
+#### Theorem 2 {#lie-ii-s5-thm-2 .statement tag=0A5H}
 
 *Suppose that in the ring $K$ the relation $n.1 = 0$ implies $n = 0$ for every integer $n$. Let $r$ be a mapping of $X$ into $\hat{A}(X)$ such that $\omega(r(x)) \geq 2$ for $x \in X$ and let $g$ be the homomorphism of $F(X)$ into the Magnus group $\Gamma(X)$ such that $g(x) = 1 + x + r(x)$ for $x \in X$. For all $n \geq 1$, $C^n F(X)$ is the inverse image under $g$ of the subgroup $1 + \hat{A}_n(X)$ of $\Gamma(X)$.*
 
-#### Theorem 3 {#lie-ii-s5-thm-3 .statement}
+#### Theorem 3 {#lie-ii-s5-thm-3 .statement tag=0A5I}
 
 *For all $x \in X$, let $c(x)$ be the canonical image of $x$ in $F(X)/(F(X), F(X))$. Let $g$ be the graded Lie $\mathbf{Z}$-algebra associated with the filtration $(C^n F(X))_{n \geq 1}$ of $F(X)$ (§ 4, no. 6). The unique homomorphism of the free Lie $\mathbf{Z}$-algebra $L_\mathbf{Z}(X)$ into $g$ which extends $c$ is an isomorphism.*
 
@@ -188,7 +188,7 @@ $$
 C^1 = F = F^1; if C^n = F^n, then C^n \cap F^{n+1} = F^{n+1} whence C^{n+1} = F^{n+1}
 which proves Theorem 2 by induction on n \geqslant 1.
 
-#### Corollary {#lie-ii-s5-n4-cor-1 .statement}
+#### Corollary {#lie-ii-s5-n4-cor-1 .statement tag=0A5J}
 
 $$
 \bigcap_{n \geqslant 1} C^n F(X) = \{e\}.
@@ -199,7 +199,7 @@ $$
 \bigcap_{n \geqslant 1} C^n F(X) = \bigcap_{n \geqslant 1} g^{-1}(1 + \hat{A}_n(X)) = g^{-1}\left(\bigcap_{n \geqslant 1} (1 + \hat{A}_n(X))\right) = g^{-1}(1) = \{e\}.
 $$
 
-#### Remark {#lie-ii-s5-n4-rem-1 .statement}
+#### Remark {#lie-ii-s5-n4-rem-1 .statement tag=0A5K}
 
 Let H be a Hall set relative to X (§ 2, no. 10). Let M be the magma defined by the law of composition (x, y) \mapsto (x, y) = x^{-1}y^{-1}xy on F(X) and let $\phi$ be the homomorphism of M(X) into M whose restriction to X is the identity. The elements of $\phi(H)$ are called the *basic commutators* of F(X) associated with the Hall set H. For every integer n \geqslant 1, let H_n be the subset of H consisting of the elements of length n; we know (§ 2, no. 11, Theorem 1) that the canonical mapping of H_n into L_\mathbf{Z}(X) is a basis of the Abelian group L_\mathbf{Z}^n(X). Moreover, $\phi(H_n) \subset C^n$; for all m \in H_n, let $\phi_n(m)$ denote the class mod. C^{n+1} of $\phi(m) \in C^n$. Theorem 3 then shows that $\phi_n$ is *a bijection of H_n onto a basis of the Abelian group* C^n/C^{n+1}. It follows immediately that, for all w \in F(X) and all i \geqslant 1, there exists a unique element $\alpha_i$ of $\mathbf{Z}^{(H_i)}$ such that, for n \geqslant 1,
 
@@ -209,7 +209,7 @@ $$
 
 where the product is calculated according to the total ordering given on H.
 
-#### Example {#lie-ii-s5-n4-exa-1 .statement}
+#### Example {#lie-ii-s5-n4-exa-1 .statement tag=0A5L}
 
 Suppose that X is a set with two elements x, y and let H_1 = \{x, y\}, H_2 = \{xy\}. Every element w of F(X) can therefore be written
 $$
@@ -224,19 +224,19 @@ $$
 
 In this no., *p* denotes a prime number and we assume that K = \mathbf{F}_p. Let $\gamma$ be the homomorphism of F(X) into $\Gamma(X)$ defined by $\gamma(x) = 1 + x$ for x in X; we write $F_n^{(p)}(X) = \gamma^{-1}(1 + \hat{A}_n(X))$. The sequence $(F_n^{(p)}(X))_{n \geqslant 1}$ is an integral central filtration on F(X), which is *separated* since $\gamma$ is injective (no. 3, Theorem 1). It is called the *p*-filtration on F(X).
 
-#### Proposition 2 {#lie-ii-s5-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s5-prop-2 .statement tag=0A5M}
 
 *Suppose that X is finite. For every integer n \geqslant 1, the group F(X)/F_n^{(p)}(X) is a finite p-group of nilpotency class \leqslant n.*
 
 Arguing by induction on $n$, it suffices to prove that $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ is a finite commutative $p$-group for all $n \geqslant 1$. For all $w \in F_n^{(p)}(X)$, the element $\gamma(w) - 1$ of $\hat{A}(X)$ is of order $\geqslant n$; we denote by $\delta_n(w)$ the homogeneous component of $\gamma(w) - 1$ of degree $n$. The mapping $\delta_n : F_n^{(p)}(X) \to A^n(X)$ is a homomorphism with kernel $F_{n+1}^{(p)}(X)$ (§ 4, no. 5, Proposition 3) and hence $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ is isomorphic to a subgroup of $A^n(X)$. Since $X$ is finite, $A^n(X)$ is a finite-dimensional vector space over $\mathbf{F}_p$ and hence a finite commutative $p$-group and so is $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$.
 
-#### Proposition 3 {#lie-ii-s5-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s5-prop-3 .statement tag=0A5N}
 
 *For all $w \neq 1$ in $F(X)$, there exist a finite $p$-group $G$ and a homomorphism $f$ of $F(X)$ into $G$ such that $f(w) \neq 1$.*
 
 There exist elements $x_1, \ldots, x_r$ of $X$ and integers $n_1, \ldots, n_r$ such that $w = x_1^{n_1} \ldots x_r^{n_r}$. Let $Y = \{x_1, \ldots, x_r\}$. The canonical injection of $Y$ into $X$ extends to a homomorphism $\alpha : F(Y) \to F(X)$; on the other hand, let $\beta$ be the homomorphism of $F(X)$ into $F(Y)$ whose restriction to $Y$ is the identity and which maps $X - Y$ to $\{1\}$. Then $\beta(\alpha(y)) = y$ for $y \in Y$ and hence $\beta \circ \alpha$ is the identity automorphism of $F(Y)$. There obviously exists $w'$ in $F(Y)$ such that $w = \alpha(w')$; then $\beta(w) = w' \neq 1$; now $\bigcap_{n \geqslant 1} F_n^{(p)}(Y) = \{1\}$ and there therefore exists an integer $n \geqslant 1$ such that $\beta(w) \notin F_n^{(p)}(Y)$. By Proposition 2, the group $G = F(Y)/F_n^{(p)}(Y)$ is a finite $p$-group. If $f$ is the composition of $\beta$ and the canonical homomorphism of $F(Y)$ onto $G$, then $f(w) \neq 1$.
 
-#### Corollary {#lie-ii-s5-n5-cor-1 .statement}
+#### Corollary {#lie-ii-s5-n5-cor-1 .statement tag=0A5O}
 
 *The intersection of the normal subgroups of finite index in $F(X)$ is $\{1\}$.*
 

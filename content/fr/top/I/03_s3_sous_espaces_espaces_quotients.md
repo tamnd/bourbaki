@@ -37,7 +37,7 @@ subsections:
       pdf_page: 35
 statements: 23
 exercises: 16
-content_sha256: 1e622c60423553f10635913753e291d9a70473d7fad250e484170ae3a636ed92
+content_sha256: 56553918d9b0b750570ba61ff58aaf4bc58a4874fe126bd0bbe074cc69be4cb8
 ---
 
 ## § 3. SOUS-ESPACES; ESPACES QUOTIENTS
@@ -46,11 +46,11 @@ content_sha256: 1e622c60423553f10635913753e291d9a70473d7fad250e484170ae3a636ed92
 
 Soit $A$ une partie d’un espace topologique $X$. Nous avons défini la topologie induite sur $A$ par la topologie de $X$ comme l’image réciproque de cette dernière par l’injection canonique $A \to X$ (I, p. 13, Exemple I); il revient au même de poser la définition suivante :
 
-#### Définition 1 {#top-i-s3-def-1 .statement}
+#### Définition 1 {#top-i-s3-def-1 .statement tag=0B13}
 
 Soit $A$ une partie d’un espace topologique $X$. On appelle topologie induite sur $A$ par la topologie de $X$ la topologie dont les ensembles ouverts sont les traces sur $A$ des ensembles ouverts de $X$. L’ensemble $A$, muni de cette topologie, est appelé un sous-espace de $X$.
 
-#### Exemple {#top-i-s3-n1-exa-1 .statement}
+#### Exemple {#top-i-s3-n1-exa-1 .statement tag=0B14}
 
 Sur l’ensemble $\mathbf{Z}$ des entiers rationnels, la topologie induite par celle de la droite rationnelle est la topologie discrète, car la trace sur $\mathbf{Z}$ de l’intervalle ouvert $]n-\frac{1}{2},n+\frac{1}{2}[$ est l’ensemble $\{n\}$.
 
@@ -66,25 +66,25 @@ Les ensembles fermés dans A sont les traces sur A des ensembles fermés dans X 
 
 Les voisinages d’un point $x \in A$ par rapport à A sont les traces sur A des voisinages de $x$ par rapport à X ; pour que tout voisinage de $x$ par rapport à A soit un voisinage de $x$ par rapport à X, il faut et il suffit que A soit un voisinage de $x$ dans X.
 
-#### Proposition 1 {#top-i-s3-prop-1 .statement}
+#### Proposition 1 {#top-i-s3-prop-1 .statement tag=0B15}
 
 Si A et B sont deux parties d’un espace topologique X telles que B $\subset$ A, l’adhérence de B par rapport au sous-espace A est la trace sur A de l’adhérence $\overline{B}$ de B par rapport à X.
 
 En effet, si $x \in A$, tout voisinage de $x$ par rapport à A est de la forme $V \cap A$, où V est un voisinage de $x$ dans X. Comme $V \cap B = (V \cap A) \cap B$, pour que $x$ soit adhérent à B par rapport à A, il faut et il suffit qu’il soit adhérent à B par rapport à X.
 
-#### Corollaire {#top-i-s3-n1-cor-1 .statement}
+#### Corollaire {#top-i-s3-n1-cor-1 .statement tag=0B16}
 
 Pour qu’une partie B de A soit dense par rapport à A, il faut et il suffit que $\overline{B} = \overline{A}$ dans X (ou, ce qui revient au même, que $A \subset \overline{B}$).
 
 On en conclut que si A, B, C sont trois parties de X telles que $A \supset B \supset C$, et si B est dense par rapport à A et C dense par rapport à B, alors C est dense par rapport à A (transitivité de la densité) ; en effet, on a alors $\overline{A} = \overline{B} = \overline{C}$ dans X.
 
-#### Proposition 2 {#top-i-s3-prop-2 .statement}
+#### Proposition 2 {#top-i-s3-prop-2 .statement tag=0B17}
 
 Soit A une partie partout dense d’un espace topologique X ; pour tout $x \in A$ et tout voisinage V de $x$ par rapport à A, l’adhérence $\overline{V}$ de V dans X est un voisinage de $x$ par rapport à X.
 
 En effet, V contient la trace $U \cap A$ sur A d’un ensemble U ouvert dans X et contenant $x$, donc $\overline{V}$ contient $U \cap \overline{A} = U$ (I, p. 7, prop. 5).
 
-#### Proposition 3 {#top-i-s3-prop-3 .statement}
+#### Proposition 3 {#top-i-s3-prop-3 .statement tag=0B18}
 
 Soit $(A_i)_{i \in I}$ une famille de parties d’un espace topologique X, ayant l’une des propriétés suivantes :
 a) les intérieurs des $A_i$ forment un recouvrement de X ;
@@ -100,7 +100,7 @@ on peut, par dualité, se borner à considérer le cas où chacun des $B \cap A_
 
 Plaçons-nous maintenant dans l’hypothèse b); par dualité, on peut encore se borner à considérer le cas où chacun des $B \cap A_t$ est fermé par rapport à $A_t$; alors $B \cap A_t$ est fermé dans $X$; comme la famille $(B \cap A_t)$ est localement finie, et que $B = \bigcup_t (B \cap A_t)$, $B$ est fermé dans $X$ en vertu de I, p. 6, prop. 4.
 
-#### Remarque {#top-i-s3-n1-rem-1 .statement}
+#### Remarque {#top-i-s3-n1-rem-1 .statement tag=0B19}
 
 Soit $(U_t)_{t \in I}$ un recouvrement ouvert d’un espace topologique $X$, et pour tout $t \in I$, soit $\mathfrak{B}_t$ une base de la topologie de sous-espace $U_t$ de $X$; il est clair que $\mathfrak{B} = \bigcup_{t \in I} \mathfrak{B}_t$ est une base de la topologie de $X$.
 
@@ -114,7 +114,7 @@ On notera que $f|A$ peut être continue sans que $f$ soit continue en aucun poin
 
 Si $A$ est un voisinage dans $X$ d’un point $x \in A$, et si $f : X \to Y$ est telle que $f|A$ soit continue au point $x$, alors $f$ est continue au point $x$, puisque tout voisinage de $x$ par rapport à $A$ est un voisinage de $x$ par rapport à $X$ (caractère local de la continuité).
 
-#### Proposition 4 {#top-i-s3-prop-4 .statement}
+#### Proposition 4 {#top-i-s3-prop-4 .statement tag=0B1A}
 
 Soit $(A_t)_{t \in I}$ une famille de parties d’un espace topologique $X$, dont les intérieurs forment un recouvrement ouvert de $X$, ou qui est un recouvrement fermé localement fini de X. Soit f une application de X dans un espace topologique X'. Si la restriction de f à chacun des sous-espaces A_i est continue, f est continue.
 
@@ -122,15 +122,15 @@ En effet, si F' est une partie fermée de X' et si on pose F = $\overline{f^{-1}
 
 ### 3. Sous-espaces localement fermés
 
-#### Définition 2 {#top-i-s3-def-2 .statement}
+#### Définition 2 {#top-i-s3-def-2 .statement tag=0B1B}
 
 On dit qu’une partie L d’un espace topologique X est localement fermée en un point x ∈ L s’il existe un voisinage V de x dans X tel que L ∩ V soit une partie fermée du sous-espace V. On dit que L est localement fermée dans X si elle est localement fermée en chacun de ses points.
 
-#### Remarque {#top-i-s3-n3-rem-1 .statement}
+#### Remarque {#top-i-s3-n3-rem-1 .statement tag=0B1C}
 
 Soit F une partie de X telle que pour tout point x de X, il y ait un voisinage V de x dans X tel que V ∩ F soit fermé dans le sous-espace V; il résulte alors de la prop. 3 de I, p. 18 que F est fermée dans X. Par contre, il résulte aussitôt de la prop. 5 ci-dessous qu’il existe en général des ensembles localement fermés et non fermés dans X.
 
-#### Proposition 5 {#top-i-s3-prop-5 .statement}
+#### Proposition 5 {#top-i-s3-prop-5 .statement tag=0B1D}
 
 Soit L une partie d’un espace topologique X. Les conditions suivantes sont équivalentes:
 a) L est localement fermée;
@@ -139,14 +139,14 @@ c) L est intersection d’une partie ouverte et d’une partie fermée de X.
 
 Il est immédiat que b) implique c), L étant alors l’intersection de $\overline{L}$ et d’une partie ouverte de X; c) implique a) en vertu de la déf. 2. Enfin, a) implique b): en effet, pour tout x ∈ L, il existe alors un voisinage ouvert U de x tel que U ∩ L soit fermé dans U; donc U ∩ $\overline{L}$ = U ∩ L, ce qui montre que dans le sous-espace $\overline{L}$, x est intérieur à L, donc L est ouvert dans $\overline{L}$.
 
-#### Corollaire {#top-i-s3-n3-cor-1 .statement}
+#### Corollaire {#top-i-s3-n3-cor-1 .statement tag=0B1E}
 
 Soit f : X → X' une application continue; pour toute partie localement fermée L' de X', $\overline{f^{-1}(L')}$ est localement fermée dans X.
 Cela résulte aussitôt de la prop. 5 ci-dessus et de I, p. 9, th. 1.
 
 ### 4. Espaces quotients
 
-#### Définition 3 {#top-i-s3-def-3 .statement}
+#### Définition 3 {#top-i-s3-def-3 .statement tag=0B1F}
 
 Soient X un espace topologique, R une relation d’équivalence dans X. On appelle espace quotient de X par R l’ensemble quotient X/R, muni de la topologie quotient de la topologie de X par la relation R (I, p. 15, Exemple I).
 
@@ -154,7 +154,7 @@ Sauf mention expresse du contraire, quand nous considérerons désormais X/R com
 
 Soit $\varphi$ l’application canonique $X \to X/R$. Par définition (I, p. 14, prop. 6 et corollaire) les ensembles *ouverts* (resp. *fermés*) dans $X/R$ sont les ensembles $A$ tels que $\varphi^{-1}(A)$ soit *ouvert* (resp. *fermé*) dans $X$; autrement dit, les ensembles ouverts (resp. fermés) dans $X/R$ sont en correspondance biunivoque canonique avec les ensembles ouverts (resp. fermés) dans $X$ *saturés* pour $R$, et sont les images canoniques de ces ensembles.
 
-#### Proposition 6 {#top-i-s3-prop-6 .statement}
+#### Proposition 6 {#top-i-s3-prop-6 .statement tag=0B1G}
 
 *Soient $X$ un espace topologique, $R$ une relation d’équivalence dans $X$, $\varphi$ l’application canonique de $X$ sur $X/R$; pour qu’une application $f$ de $X/R$ dans un espace topologique $Y$ soit continue, il faut et il suffit que $f \circ \varphi$ soit continue dans $X$.*
 
@@ -162,17 +162,17 @@ Ce n’est qu’un cas particulier de I, p. 14, prop. 6, exprimant que la topolo
 
 La prop. 6 montre qu’il existe une correspondance biunivoque canonique entre les applications continues de $X/R$ dans $Y$ et les applications continues de $X$ dans $Y$, *constantes dans toute classe d’équivalence suivant $R$*.
 
-#### Exemple {#top-i-s3-n4-exa-1 .statement}
+#### Exemple {#top-i-s3-n4-exa-1 .statement tag=0B1H}
 
 *Considérons, sur la droite numérique $\mathbf{R}$, la relation d’équivalence $x \equiv y$ (mod. 1); l’espace quotient de $\mathbf{R}$ par cette relation est appelé *tore à une dimension* et se désigne par $\mathbf{T}$. La classe d’équivalence d’un point $x \in \mathbf{R}$ se compose de tous les points $x + n$, où $n$ parcourt l’ensemble $\mathbf{Z}$ des entiers rationnels. D’après la prop. 6, il y a correspondance biunivoque entre les fonctions continues dans $\mathbf{T}$ et les fonctions *périodiques* de période 1, continues dans $\mathbf{R}$. Nous reviendrons dans V, §1, no 2 sur cet important exemple.*
 
-#### Corollaire {#top-i-s3-n4-cor-1 .statement}
+#### Corollaire {#top-i-s3-n4-cor-1 .statement tag=0B1I}
 
 *Soient $X, Y$, deux espaces topologiques, $R$ (resp. $S$) une relation d’équivalence dans $X$ (resp. $Y$), $f : X \to Y$ une application continue compatible avec les relations d’équivalence $R$ et $S$ (E, II, p. 44); alors l’application $g : X/R \to Y/S$ déduite de $f$ par passage aux quotients (E, II, p. 45) est continue.*
 
 C’est un cas particulier d’une propriété générale des structures quotients (E, IV, p. 21, critère CST 20).
 
-#### Proposition 7 (transitivité des espaces quotients) {#top-i-s3-prop-7 .statement}
+#### Proposition 7 (transitivité des espaces quotients) {#top-i-s3-prop-7 .statement tag=0B1J}
 
 *Soient $R$ et $S$ deux relations d’équivalence dans un espace topologique $X$, telles que $R$ entraîne $S$, et soit $S/R$ la relation d’équivalence quotient dans l’espace quotient $X/R$ (E, II, p. 46). L’application canonique bijective $(X/R)/(S/R) \to X/S$ est alors un homéomorphisme.*
 
@@ -188,7 +188,7 @@ $$
 
 où $\varphi$ est l’application canonique (surjective) de $X$ dans l’espace quotient $X/R$, $\psi$ l’injection canonique du sous-espace $f(X)$ dans $Y$ et $g$ la bijection associée à $f$ (E, II, p. 14). Il est immédiat que $g$ est continue (par la prop. 6 de I, p. 14) ce qui est d’ailleurs un cas particulier d’un résultat général sur les structures quotients (cf. E, IV, p. 21). Mais la bijection $g$ n’est pas nécessairement un homéomorphisme.
 
-#### Proposition 8 {#top-i-s3-prop-8 .statement}
+#### Proposition 8 {#top-i-s3-prop-8 .statement tag=0B1K}
 
 Soient $f = \psi \circ g \circ \varphi$ la décomposition canonique d’une application continue $f : X \to Y$, $R$ la relation d’équivalence $f(x) = f(y)$. Les trois conditions suivantes sont équivalentes:
 a) $g$ est un homéomorphisme de $X/R$ sur $f(X)$.
@@ -197,13 +197,13 @@ c) L’image par $f$ de tout ensemble fermé saturé pour $R$ est un ensemble fe
 
 En effet, la condition b) (resp. c)) exprime que l’image par $g$ de tout ensemble ouvert (resp. fermé) dans $X/R$ est un ensemble ouvert (resp. fermé) dans $f(X)$.
 
-#### Exemple {#top-i-s3-n5-exa-1 .statement}
+#### Exemple {#top-i-s3-n5-exa-1 .statement tag=0B1L}
 
 Soient $X$ un espace topologique, $(X_t)_{t \in I}$ un recouvrement de $X$, $Y$ l’espace somme des sous-espaces $X_t$ de $X$; il y a donc une partition $(Y_t)_{t \in I}$ de $Y$ en sous-espaces à la fois ouverts et fermés, et pour chaque $t \in I$ un homéomorphisme $f_t : Y_t \to X_t$. Soit $f : Y \to X$ l’application continue qui coïncide avec $f_t$ dans $Y_t$ pour tout $t \in I$, et soit $R$ la relation d’équivalence $f(x) = f(y)$; l’espace quotient $Y/R$ est donc obtenu par « recollement » des $Y_t$ (I, p. 17). Considérons la bijection $g : Y/R \to X$, associée à $f$; en général $g$ n’est pas un homéomorphisme, comme le montre l’exemple où on prend tous les $X_t$ réduits à un point, $X$ étant supposé non discret. Toutefois, si les intérieurs des $X_t$ forment un recouvrement de $X$, ou si $(X_t)$ est un recouvrement fermé localement fini de $X$, $g$ est un homéomorphisme; en effet, pour toute partie ouverte $U$ de $Y$, saturée pour $R$, et pour tout $t \in I$, $f(U) \cap X_t = f_t(U \cap Y_t)$ est ouvert dans $X_t$, et la conclusion résulte de la prop. 3 de I. p. 18.
 
 La proposition suivante donne une condition suffisante simple pour que $g$ soit un homéomorphisme:
 
-#### Proposition 9 {#top-i-s3-prop-9 .statement}
+#### Proposition 9 {#top-i-s3-prop-9 .statement tag=0B1M}
 
 Soient $f : X \to Y$ une application continue surjective, $R$ la relation d’équivalence $f(x) = f(y)$. S’il existe une section continue $s : Y \to X$ associée à $f$ (E, II, p. 18, déf. 11), l’application $g : X/R \to Y$ associée à $f$ est un homéomorphisme, et $s$ est un homéomorphisme de $Y$ sur le sous-espace $s(Y)$ de $X$.
 
@@ -235,7 +235,7 @@ f(A) & \xrightarrow{\psi} & X/R.
 \end{array}
 $$
 
-#### Proposition 10 {#top-i-s3-prop-10 .statement}
+#### Proposition 10 {#top-i-s3-prop-10 .statement tag=0B1N}
 
 *La bijection canonique h : A/R_A → f(A) est continue. En outre, les trois propriétés suivantes sont équivalentes*:
 
@@ -245,13 +245,13 @@ c) *tout ensemble fermé dans A et saturé pour R_A est la trace sur A d’un en
 
 La première partie de la proposition est immédiate (I, p. 22). La seconde résulte de la prop. 8 de I, p. 22 : si B est un ensemble ouvert (resp. fermé) dans A et saturé pour R_A, et si g(B) = f(B) est la trace sur f(A) d’un ensemble C ouvert (resp. fermé) dans X/R, B est la trace sur A de l’ensemble ouvert (resp. fermé) $f^{-1}(C)$ saturé pour R ; et réciproquement, si B est la trace sur A d’un ensemble ouvert (resp. fermé) D saturé pour R, f(B) est la trace sur f(A) de f(D), qui est ouvert (resp. fermé) dans X/R.
 
-#### Corollaire 1 {#top-i-s3-prop-10-cor-1 .statement}
+#### Corollaire 1 {#top-i-s3-prop-10-cor-1 .statement tag=0B1O}
 
 *Si A est un ensemble saturé pour R et ouvert (resp. fermé) dans X, l’application canonique h : A/R_A → f(A) est un homéomorphisme*.
 
 En effet, si A est ouvert (resp. fermé) et saturé pour R, et si B ⊂ A est ouvert (resp. fermé) dans A et saturé pour R_A, B est ouvert (resp. fermé) dans X et saturé pour R.
 
-#### Corollaire 2 {#top-i-s3-prop-10-cor-2 .statement}
+#### Corollaire 2 {#top-i-s3-prop-10-cor-2 .statement tag=0B1P}
 
 *S’il existe une application continue u : X → A telle que, pour tout x ∈ X, u(x) soit congru à x mod. R, alors f(A) = X/R et l’application canonique h : A/R_A → X/R est un homéomorphisme*.
 
@@ -261,7 +261,7 @@ En effet, comme toute classe d’équivalence suivant R rencontre A, l’image
 
 canonique de $A / R_A$ dans $X / R$ est identique à $X / R$; d’autre part, si $U$ est ouvert dans $A$ et saturé pour $R_A$, il résulte de l’hypothèse que $u^{-1}(U)$ est identique à l’ensemble obtenu en saturant $U$ pour $R$; comme $u$ est continue, $u^{-1}(U)$ est ouvert dans $X$ (I, p. 9, th. 1) d’où le corollaire, en vertu de la prop. 10.
 
-#### Exemple {#top-i-s3-n6-exa-1 .statement}
+#### Exemple {#top-i-s3-n6-exa-1 .statement tag=0B1Q}
 
 *Désignons par $R$ la relation d’équivalence $x \equiv y$ (mod. 1) dans la droite numérique $\mathbf{R}$ (I, p. 21, *Exemple*), par $A$ l’intervalle fermé $[0, 1]$; $A$ contient un point au moins de toute classe d’équivalence suivant $R$. L’application canonique de $A / R_A$ sur le tore $T$ est un homéomorphisme; en effet, soit $F$ un ensemble fermé dans $A$ (donc dans $\mathbf{R}$); pour saturer $F$ pour la relation $R$, il faut prendre la réunion des ensembles fermés $F + n$ (pour $n \in \mathbf{Z}$), qui forment évidemment une famille localement finie; leur réunion est donc fermée (I, p. 6, prop. 4), d’où notre assertion. On observera que $A / R_A$ s’obtient en identifiant dans $A$ les points 0 et 1.*
 

@@ -49,7 +49,7 @@ subsections:
       pdf_page: 165
 statements: 47
 exercises: 7
-content_sha256: 83d0de6ecf7747c5cad4d4de7e9ca521c1b9debcbe0148725f3f88f9bf7d4488
+content_sha256: a9584083f396cf9bf0a41e087f69dda932ddf64e8b53fa24f472850ec771f1fd
 ---
 
 ## § 3. ESPACES COMPLETS
@@ -58,17 +58,17 @@ content_sha256: 83d0de6ecf7747c5cad4d4de7e9ca521c1b9debcbe0148725f3f88f9bf7d4488
 
 Lorsqu’on a muni un ensemble $X$ d’une structure uniforme, on peut définir ce qu’on entend par un sous-ensemble « petit » dans $X$ (relativement à cette structure): ce sera un ensemble dont tous les points sont « très voisins » deux à deux. De façon précise:
 
-#### Définition 1 {#top-ii-s3-def-1 .statement}
+#### Définition 1 {#top-ii-s3-def-1 .statement tag=0BEE}
 
 Étant donné un espace uniforme $X$, et un entourage $V$ de $X$, on dit qu’une partie $A$ de $X$ est un ensemble petit d’ordre $V$ lorsque deux quelconques des points de $A$ sont voisins d’ordre $V$ (ce qui revient à dire que $A \times A \subset V$).
 
-#### Proposition 1 {#top-ii-s3-prop-1 .statement}
+#### Proposition 1 {#top-ii-s3-prop-1 .statement tag=0BEF}
 
 Dans un espace uniforme $X$, si deux ensembles $A$ et $B$ sont petits d’ordre $V$ et se rencontrent, leur réunion $A \cup B$ est un ensemble petit d’ordre $\overline{V}^2$.
 
 En effet, soient $x, y$ deux points de $A \cup B$, et $z$ un point de $A \cap B$; on a par hypothèse $(x, z) \in V$ et $(z, y) \in V$, donc $(x, y) \in \overline{V}^2$.
 
-#### Définition 2 {#top-ii-s3-def-2 .statement}
+#### Définition 2 {#top-ii-s3-def-2 .statement tag=0BEG}
 
 *On dit qu’un filtre $\mathfrak{F}$ sur un espace uniforme $X$ est un filtre de Cauchy si, pour tout entourage $V$ de $X$, il existe un ensemble petit d’ordre $V$ et appartenant à $\mathfrak{F}$.*
 
@@ -76,7 +76,7 @@ Ici encore, on peut rendre le langage plus imagé en utilisant les expressions �
 
 On dit qu’une suite infinie $(u_n)$ de points d’un espace uniforme $X$ est une *suite de Cauchy* si le filtre élémentaire associé à cette suite est un filtre de Cauchy. Il revient au même de dire que pour tout entourage $V$ de $X$, il existe $n_0$ tel que, quels que soient $m \geq n_0$ et $n \geq n_0$, on ait $(u_m, u_n) \in V$.
 
-#### Proposition 2 {#top-ii-s3-prop-2 .statement}
+#### Proposition 2 {#top-ii-s3-prop-2 .statement tag=0BEH}
 
 *Sur un espace uniforme $X$, tout filtre convergent est un filtre de Cauchy.*
 
@@ -84,7 +84,7 @@ En effet, pour tout $x \in X$, et tout entourage symétrique $V$ de $X$, le vois
 
 Il est clair que tout filtre *plus fin* qu’un filtre de Cauchy est un filtre de Cauchy.
 
-#### Proposition 3 {#top-ii-s3-prop-3 .statement}
+#### Proposition 3 {#top-ii-s3-prop-3 .statement tag=0BEI}
 
 *Soit $f : X \to X'$ une application uniformément continue. L’image par $f$ d’une base de filtre de Cauchy sur $X$ est une base de filtre de Cauchy sur $X'$.*
 
@@ -94,17 +94,17 @@ Il en résulte en particulier que si on remplace la structure uniforme d’un es
 
 On retiendra aisément ce fait sous la forme suivante: *plus une structure uniforme est fine, moins il y a de filtres de Cauchy*.
 
-#### Proposition 4 {#top-ii-s3-prop-4 .statement}
+#### Proposition 4 {#top-ii-s3-prop-4 .statement tag=0BEJ}
 
 *Soient $X$ un ensemble, $(Y_\iota)_{\iota \in I}$ une famille d’espaces uniformes, et pour chaque $\iota \in I$, soit $f_\iota$ une application de $X$ dans $Y_\iota$. On munit $X$ de la structure uniforme $\mathfrak{U}$ la moins fine rendant uniformément continues les $f_\iota$. Pour qu’une base de filtre $\mathfrak{B}$ sur $X$ soit une base de filtre de Cauchy, il faut et il suffit que, pour tout $\iota \in I$, $f_\iota(\mathfrak{B})$ soit une base de filtre de Cauchy sur $Y_\iota$.*
 
 La condition est nécessaire en vertu de la prop. 3. Inversement, supposons-la vérifiée, et soit $U(V_{\iota_1}, \ldots, V_{\iota_n})$ un entourage de la structure uniforme $\mathfrak{U}$ (II, p. 8, formule (1)). Par hypothèse, pour tout indice $k$, il existe un ensemble $M_k \in \mathfrak{B}$ tel que $f_{\iota_k}(M_k)$ soit petit d’ordre $V_{\iota_k}$ ($1 \leq k \leq n$); soit $M$ un ensemble de $\mathfrak{B}$ contenu dans $M_{k}$ pour $1 \leq k \leq n$; pour tout couple de points, $x, x'$ de $M$, on a $(f_{t_{k}}(x), f_{t_{k}}(x')) \in V_{t_{k}}$ pour $1 \leq k \leq n$, donc $(x, x') \in U(V_{t_{1}}, \ldots, V_{t_{n}})$ ce qui démontre la proposition.
 
-#### Corollaire 1 {#top-ii-s3-prop-4-cor-1 .statement}
+#### Corollaire 1 {#top-ii-s3-prop-4-cor-1 .statement tag=0BEK}
 
 Si un filtre de Cauchy sur un espace uniforme $X$ induit un filtre sur une partie $A$ de $X$, ce filtre est un filtre de Cauchy sur le sous-espace uniforme $A$.
 
-#### Corollaire 2 {#top-ii-s3-prop-4-cor-2 .statement}
+#### Corollaire 2 {#top-ii-s3-prop-4-cor-2 .statement tag=0BEL}
 
 Pour qu’une base de filtre $\mathfrak{B}$ sur un produit $\prod_{i \in I} X_{i}$ d’espaces uniformes soit une base de filtre de Cauchy, il faut et il suffit que, pour tout $i \in I$, $\mathrm{pr}_{i}(\mathfrak{B})$ soit une base de filtre de Cauchy sur $X_{i}$.
 
@@ -112,7 +112,7 @@ Pour qu’une base de filtre $\mathfrak{B}$ sur un produit $\prod_{i \in I} X_{i
 
 Les éléments minimaux (pour la relation d’inclusion) de l’ensemble des filtres de Cauchy sur un espace uniforme $X$ sont appelés *filtres de Cauchy minimaux* sur $X$.
 
-#### Proposition 5 {#top-ii-s3-prop-5 .statement}
+#### Proposition 5 {#top-ii-s3-prop-5 .statement tag=0BEM}
 
 Soit $X$ un espace uniforme. Pour tout filtre de Cauchy $\mathfrak{F}$ sur $X$, il existe un et un seul filtre de Cauchy minimal $\mathfrak{F}_{0}$ moins fin que $\mathfrak{F}$; si $\mathfrak{B}$ est une base de $\mathfrak{F}$, $\mathfrak{G}$ un système fondamental d’entourages symétriques de $X$, les ensembles $V(M)$ ($M \in \mathfrak{B}, V \in \mathfrak{G}$) forment une base de $\mathfrak{F}_{0}$.
 
@@ -122,25 +122,25 @@ V''(M'') \subset V(M) \cap V'(M');
 $$
 les ensembles $V(M)$ (pour $M \in \mathfrak{B}, V \in \mathfrak{G}$) forment donc bien une base d’un filtre $\mathfrak{F}_{0}$ sur $X$. En outre, si $M$ est petit d’ordre $V$, $V(M)$ est petit d’ordre $V^{3}$, donc $\mathfrak{F}_{0}$ est un filtre de Cauchy sur $X$, évidemment moins fin que $\mathfrak{F}$. Pour achever la démonstration, il suffit de prouver que si $\mathfrak{G}$ est un filtre de Cauchy moins fin que $\mathfrak{F}$, $\mathfrak{G}$ est plus fin que $\mathfrak{F}_{0}$; en effet, pour tout $M \in \mathfrak{B}$ et tout $V \in \mathfrak{G}$, il existe un ensemble $N \in \mathfrak{G}$ petit d’ordre $V$, et comme $N \in \mathfrak{F}$, $N$ rencontre $M$, donc $N \subset V(M)$ et $V(M) \in \mathfrak{G}$.
 
-#### Corollaire 1 {#top-ii-s3-prop-5-cor-1 .statement}
+#### Corollaire 1 {#top-ii-s3-prop-5-cor-1 .statement tag=0BEN}
 
 Pour tout $x \in X$, le filtre $\mathfrak{B}(x)$ des voisinages de $x$ dans $X$ est un filtre de Cauchy minimal.
 
 Il suffit, dans la prop. 5, de prendre pour $\mathfrak{F}$ le filtre de toutes les parties contenant $x$, et pour $\mathfrak{B}$ l’ensemble de parties réduit à l’unique élément $\{x\}$.
 
-#### Corollaire 2 {#top-ii-s3-prop-5-cor-2 .statement}
+#### Corollaire 2 {#top-ii-s3-prop-5-cor-2 .statement tag=0BEO}
 
 Tout point $x$ adhérent à un filtre de Cauchy $\mathfrak{F}$ est point limite de $\mathfrak{F}$.
 
 En effet, il existe un filtre $\mathfrak{G}$ plus fin que $\mathfrak{F}$ et que $\mathfrak{B}(x)$ (I, p. 47, prop. 4); comme $\mathfrak{F}$ est un filtre de Cauchy, il en est de même de $\mathfrak{G}$. Si $\mathfrak{F}_{0}$ est l’unique filtre de Cauchy minimal moins fin que $\mathfrak{F}$, $\mathfrak{F}_{0}$ et $\mathfrak{B}(x)$ sont deux filtres de Cauchy minimaux moins fins que $\mathfrak{G}$, donc $\mathfrak{F}_{0} = \mathfrak{B}(x)$, ce qui prouve que $\mathfrak{F}$ converge vers $x$.
 
-#### Corollaire 3 {#top-ii-s3-prop-5-cor-3 .statement}
+#### Corollaire 3 {#top-ii-s3-prop-5-cor-3 .statement tag=0BEP}
 
 Toute filtre de Cauchy moins fin qu’un filtre convergent vers un point x converge aussi vers x.
 
 C’est un conséquence du cor 2.
 
-#### Corollaire 4 {#top-ii-s3-prop-5-cor-4 .statement}
+#### Corollaire 4 {#top-ii-s3-prop-5-cor-4 .statement tag=0BEQ}
 
 Si $\mathfrak{F}$ est un filtre de Cauchy minimal, tout ensemble de $\mathfrak{F}$ a un intérieur non vide, qui appartient à $\mathfrak{F}$ (en d’autres termes il existe une base de $\mathfrak{F}$ formée d’ensembles ouverts).
 
@@ -150,7 +150,7 @@ En effet, pour tout entourage V de X, il existe un entourage ouvert U $\subset$ 
 
 Sur un espace uniforme X, un filtre de Cauchy n’a pas nécessairement de point limite.
 
-#### Exemple 1 {#top-ii-s3-n3-exa-1 .statement}
+#### Exemple 1 {#top-ii-s3-n3-exa-1 .statement tag=0BER}
 
 Considérons, sur la droite rationnelle $\mathbf{Q}$, la suite $(u_n)$ définie par
 $$
@@ -169,23 +169,23 @@ $$
 $$
 quel que soit $n$; or, comme le premier membre de cette inégalité est un entier quel que soit $n$, il serait nul pour tout entier $n$ supérieur à un entier $n_0$ tel que $b < 2^{n_0}$; on aurait alors $a/b = u_n$ quel que soit $n > n_0$, ce qui est absurde.
 
-#### Exemple 2 {#top-ii-s3-n3-exa-2 .statement}
+#### Exemple 2 {#top-ii-s3-n3-exa-2 .statement tag=0BES}
 
 Soit X un ensemble infini, et considérons sur X la structure uniforme des partitions finies (II, p. 7, Remarque 1); tout ultrafiltre $\mathfrak{F}$ sur X est un filtre de Cauchy pour cette structure. En effet, si $(A_i)$ est une partition finie de X, $V = \bigcup_i (A_i \times A_i)$ l’entourage correspondant, il existe un des $A_i$ qui appartient à $\mathfrak{F}$ (I, p. 39, corollaire) et il est petit d’ordre V. Mais d’autre part, X est un espace discret infini, donc non compact, et par suite il existe des ultrafiltres sur X qui ne convergent pas.
 
-#### Définition 3 {#top-ii-s3-def-3 .statement}
+#### Définition 3 {#top-ii-s3-def-3 .statement tag=0BET}
 
 On appelle espace complet un espace uniforme tel que tout filtre de Cauchy sur cet espace soit convergent.
 
 Dans un espace complet, toute suite de Cauchy (II, p. 13, n° 1) est donc convergente.
 
-#### Exemple {#top-ii-s3-n3-exa-3 .statement}
+#### Exemple {#top-ii-s3-n3-exa-3 .statement tag=0BEU}
 
 Sur un espace uniforme discret X, un filtre de Cauchy est un ultrafiltre trivial (I, p. 39), donc convergent, et par suite X est complet.
 
 Des déf. 2 (II, p. 13) et 3 et de la prop. 2 de II, p. 13, on déduit aussitôt la proposition suivante, connue sous le nom de critère de Cauchy:
 
-#### Proposition 6 {#top-ii-s3-prop-6 .statement}
+#### Proposition 6 {#top-ii-s3-prop-6 .statement tag=0BEV}
 
 Soit $\mathfrak{F}$ un filtre sur un ensemble X, et soit f une application de X dans un espace uniforme complet X'; pour que f admette une limite suivant $\mathfrak{F}$, il faut et il suffit que l’image de $\mathfrak{F}$ par f soit une base de filtre de Cauchy.
 
@@ -193,13 +193,13 @@ On voit par là l’intérêt que présentent les espaces complets dans toutes l
 
 Une structure uniforme plus fine qu’une structure uniforme d’espace complet n’est pas nécessairement une structure uniforme d’espace complet (II, p. 36, exerc. 2 du § 3); mais on a la proposition suivante:
 
-#### Proposition 7 {#top-ii-s3-prop-7 .statement}
+#### Proposition 7 {#top-ii-s3-prop-7 .statement tag=0BEW}
 
 Soient $\mathfrak{U}_1, \mathfrak{U}_2$ deux structures uniformes sur un ensemble $X$, $\mathscr{T}_1, \mathscr{T}_2$ les topologies déduites respectivement de ces structures uniformes. On suppose que $\mathfrak{U}_1$ est plus fine que $\mathfrak{U}_2$, et en outre qu’il existe un système fondamental d’entourages pour $\mathfrak{U}_1$ qui sont fermés dans $X \times X$ pour la topologie produit de $\mathscr{T}_2$ par elle-même. Alors, pour qu’un filtre $\mathfrak{F}$ sur $X$ converge pour $\mathscr{T}_1$, il faut et il suffit qu’il soit un filtre de Cauchy pour $\mathfrak{U}_1$ et qu’il converge pour $\mathscr{T}_2$.
 
 Les conditions sont évidemment nécessaires, puisque $\mathscr{T}_2$ est moins fine que $\mathscr{T}_1$; prouvons qu’elles sont suffisantes. Soit $x$ un point limite de $\mathfrak{F}$ pour $\mathscr{T}_2$; montrons que $x$ est limite de $\mathfrak{F}$ pour $\mathscr{T}_1$. En effet, soit $V$ un entourage symétrique de $\mathfrak{U}_1$, fermé pour la topologie produit de $\mathscr{T}_2$ par elle-même. Par hypothèse, $\mathfrak{F}$ contient un ensemble $M$ petit d’ordre $V$; si $x' \in M$, on a donc $M \subset V(x')$. Mais $V(x')$ est fermé pour $\mathscr{T}_2$, donc $x$, qui est adhérent à $M$ pour $\mathscr{T}_2$, appartient à $V(x')$; on en conclut que $M \subset \overline{V}(x)$, ce qui démontre la proposition.
 
-#### Corollaire {#top-ii-s3-n3-cor-1 .statement}
+#### Corollaire {#top-ii-s3-n3-cor-1 .statement tag=0BEX}
 
 On suppose vérifiées les hypothèses de la prop. 7. Si en outre $\mathfrak{U}_2$ est une structure uniforme d’espace complet, il en est de même de $\mathfrak{U}_1$.
 
@@ -209,7 +209,7 @@ On notera que les hypothèses du cor. de la prop. 7 sont remplies lorsque $\math
 
 ### 4. Sous-espaces des espaces complets
 
-#### Proposition 8 {#top-ii-s3-prop-8 .statement}
+#### Proposition 8 {#top-ii-s3-prop-8 .statement tag=0BEY}
 
 Tout sous-espace fermé d’un espace complet est complet; tout sous-espace complet d’un espace uniforme séparé (complet ou non) est fermé.
 
@@ -217,7 +217,7 @@ En effet, soient $X$ un espace complet, $A$ un sous-espace fermé de $X$. Si $\m
 
 Soient maintenant $A$ un ensemble non fermé dans un espace uniforme séparé $X$, et soit $b \in \overline{A} - A$; la trace $\mathfrak{V}_A$ sur $A$ du filtre $\mathfrak{V}$ des voisinages de $b$ dans $X$ est un filtre de Cauchy sur $A$; il ne peut converger vers un point $c \in A$, car alors $c$ serait point limite de $\mathfrak{V}$ (II, p. 15, cor. 3) ce qui est absurde puisque $b \neq c$ et que $X$ est séparé.
 
-#### Proposition 9 {#top-ii-s3-prop-9 .statement}
+#### Proposition 9 {#top-ii-s3-prop-9 .statement tag=0BEZ}
 
 *Soient $X$ un espace uniforme, $A$ une partie partout dense de $X$ telle que toute base de filtre de Cauchy sur $A$ soit convergente dans $X$; dans ces conditions, $X$ est complet.*
 
@@ -225,13 +225,13 @@ Il suffit de montrer qu’un filtre de Cauchy *minimal* $\mathfrak{F}$ sur $X$ e
 
 ### 5. Produits et limites projectives d’espaces complets
 
-#### Proposition 10 {#top-ii-s3-prop-10 .statement}
+#### Proposition 10 {#top-ii-s3-prop-10 .statement tag=0BF0}
 
 *Tout produit d’espaces uniformes complets est complet. Réciproquement, si un produit d’espaces uniformes non vides est complet, chacun des espaces uniformes facteurs est complet.*
 
 La première assertion résulte de la caractérisation des filtres de Cauchy et des filtres convergents sur un espace produit (II, p. 14, cor. 2 de la prop. 4 et I, p. 51, cor. 1). Inversement, supposons $X = \prod_{\iota \in I} X_\iota$ complet (les $X_\iota$ étant non vides) et soit $\mathfrak{F}_k$ un filtre de Cauchy sur $X_k$; pour tout $\iota \neq k$, soit $\mathfrak{F}_\iota$ un filtre de Cauchy sur $X_\iota$, et considérons le filtre produit (I, p. 42) $\mathfrak{F} = \prod_{\iota \in I} \mathfrak{F}_\iota$ sur $X$; $\mathfrak{F}$ est un filtre de Cauchy (II, p. 14, cor. 2 de la prop. 4), donc est convergent, et il en est par suite de même de $\operatorname{pr}_k \mathfrak{F} = \mathfrak{F}_k$ (I, p. 51, cor. 1).
 
-#### Corollaire {#top-ii-s3-n5-cor-1 .statement}
+#### Corollaire {#top-ii-s3-n5-cor-1 .statement tag=0BF1}
 
 *Soit $(X_\alpha, f_{\alpha\beta})$ un système projectif d’espaces uniformes. Si les $X_\alpha$ sont séparés et complets, il en est de même de $X = \lim_{\leftarrow} X_\alpha$.*
 
@@ -239,7 +239,7 @@ On sait en effet que $X$ est séparé et s’identifie à un sous-espace fermé 
 
 Une limite projective d’espaces uniformes séparés et complets $X_\alpha$ peut être *vide*, même si les $X_\alpha$ sont non vides et les $f_{\alpha\beta}$ surjectifs, comme le montre le cas des espaces discrets (E, III, p. 94, exerc. 4). Mais on a le théorème suivant:
 
-#### Théorème 1 (Mittag-Leffler) {#top-ii-s3-thm-1 .statement}
+#### Théorème 1 (Mittag-Leffler) {#top-ii-s3-thm-1 .statement tag=0BF2}
 
 *Soit $(X_\alpha, f_{\alpha\beta})$ un système projectif d’espaces uniformes séparés et complets, relatif à un ensemble d’indices préordonné filtrant $I$ qui admet un sous-ensemble cofinal dénombrable; on suppose en outre que, pour tout $\alpha \in I$, $X_\alpha$ possède un système fondamental dénombrable d’entourages.\footnote{Cette condition signifie que l’espace uniforme séparé $X_\alpha$ est métrisable; cf. IX, § 2, n°4, th. 1.*} Enfin, on suppose que pour tout $\alpha \in I$, il existe un $\beta \geq \alpha$ vérifiant la condition suivante:
 
@@ -292,19 +292,19 @@ $$
 
 et en vertu de (2), il est immédiat que le second membre de (6) est contenu dans $V_{k+p-1,m}$; faisant croître $q$ indéfiniment, on en tire en particulier, pour $m = p = 0$, que $(x_0, z_0) \in V_{k-1,0}$, puisque $V_{k-1,0}$ est fermé. D’autre part, des relations z_m = \lim_{n \to \infty} f_{mn}(x_n) et de la continuité de $f_{m,m+1}$, on déduit que $f_{m,m+1}(z_{m+1}) = z_m$ pour tout $m \geqslant 0$. Pour tout $\gamma \in I$, il y a au moins un entier $n$ tel que $\alpha_n \geqslant \gamma$; si on pose $z_\gamma = f_{\gamma,\alpha_n}(z_n)$, on vérifie aussitôt que $z_\gamma$ ne dépend pas de la valeur de $n$ telle que $\alpha_n \geqslant \gamma$, et que la famille $(z_\alpha)_{\alpha \in I}$ ainsi définie est un point $z$ de $X = \lim_{\leftarrow} X_\alpha$; comme $f_{\alpha_0}(z) = z_0$, cela termine la démonstration.
 
-#### Corollaire 1 {#top-ii-s3-prop-10-cor-1 .statement}
+#### Corollaire 1 {#top-ii-s3-prop-10-cor-1 .statement tag=0E9N}
 
 *Soit* $(X_\alpha, f_{\alpha\beta})$ *un système projectif d’ensembles tel que* $I$ *soit filtrant et admette un sous-ensemble cofinal dénombrable, et que les* $f_{\alpha\beta}$ *soient surjectives; si* $X = \lim_{\leftarrow} X_\alpha$, *l’application canonique* $f_\alpha : X \to X_\alpha$ *est surjective pour tout* $\alpha \in I$.
 
 Il suffit en effet de munir les $X_\alpha$ de la structure uniforme discrète.
 
-#### Corollaire 2 {#top-ii-s3-prop-10-cor-2 .statement}
+#### Corollaire 2 {#top-ii-s3-prop-10-cor-2 .statement tag=0E9O}
 
 *Soit* $I$ *un ensemble préordonné filtrant ayant un ensemble cofinal dénombrable. Soient* $(X_\alpha, f_{\alpha\beta}), (X'_\alpha, f'_{\alpha\beta})$ *deux systèmes projectifs d’ensembles relatifs à* $I$, *et pour tout* $\alpha \in I$, *soit* $u_\alpha : X_\alpha \to X'_\alpha$ *une application telle que les* $u_\alpha$ *forment un système projectif d’applications; posons* $u = \lim_{\leftarrow} u_\alpha$. *Soit* $x' = (x'_\alpha)$ *un élément de* $X' = \lim_{\leftarrow} X'_\alpha$ *vérifiant la condition suivante: pour tout* $\alpha \in I$, *il existe* $\beta \geqslant \alpha$ *tel que, pour tout* $\gamma \geqslant \beta$, *on ait* $f_{\alpha\gamma}(\overline{u}_\gamma(x'_\gamma)) = f_{\alpha\beta}(\overline{u}_\beta(x'_\beta))$; *alors il existe* $x \in X = \lim_{\leftarrow} X_\alpha$ *tel que* $u(x) = x'$.
 
 Il suffit d’appliquer le th. 1 au système projectif des ensembles $\overline{u}_\alpha^{-1}(x'_\alpha)$, munis de la structure uniforme discrète (cf. E, III, p. 58, prop. 5).
 
-#### Exemple {#top-ii-s3-n5-exa-1 .statement}
+#### Exemple {#top-ii-s3-n5-exa-1 .statement tag=0BF5}
 
 Supposons donnés, dans $\mathbf{C}$: 1° une suite $(a_n)$ de points distincts tels que la suite $(|a_n|)$ soit croissante et tende vers $+\infty$; 2° pour chaque $n$, une fonction rationnelle $z \mapsto R_n(z)$ définie dans $\mathbf{C} - \{a_n\}$ et ayant un pôle au point $a_n$; 3° une suite strictement croissante $(B_n)$ de boules ouvertes de centre 0, de réunion $\mathbf{C}$, telle qu’aucun des $a_k$ ne soit sur la frontière d’une des boules $B_n$. Pour chaque $n$, désignons par $B'_n$ l’intersection de $\overline{B}_n$ et du complémentaire dans $\mathbf{C}$ de l’ensemble des $a_m$; soit $X_n$ l’ensemble des applications $z \mapsto S(z) = P(z) + \sum_{a_k \in B'_n} R_k(z)$ de $B'_n$ dans $\mathbf{C}$, où $P$ est la restriction à $B'_n$ d’une fonction continue dans $\overline{B}_n$ et holomorphe dans $B_n$. On définit une distance dans $X_n$ en posant $d_n(S_1, S_2) = \sup_{z \in B'_n} |S_1(z) - S_2(z)|$. On vérifie aisément que pour cette distance, $X_n$ est *complet*. Enfin, pour $n \leqslant m$, on définit une application $f_{nm} : X_m \to X_n$ en faisant correspondre à $S \in X_m$ sa *restriction* à $B'_n$; il est clair que les $f_{nm}$ sont *uniformément continues* et que $(X_n, f_{nm})$ est un système projectif d’espaces uniformes. Cela étant, il est clair qu’un élément de la *limite projective* $X = \lim_{\leftarrow} X_n$ s’identifie canoniquement à une *fonction méromorphe* $F$ dans $\mathbf{C}$, dont les seuls pôles sont les points $a_n$, et qui est telle que pour tout $n$, $F(z) - R_n(z)$ est *holomorphe au point* $a_n$. Le théorème classique de Mittag–Leffler affirme que $X$ *n’est pas vide*; en vertu du th. 1, il suffit pour le démontrer de vérifier la condition $(\mathrm{ML}_{n,n+1})$ pour tout $n$. Or, soit $S_{n+1} = P_{n+1} + \sum_{a_k \in B_{n+1}} R_k$ un élément de $X_{n+1}$, où $P_{n+1}$ est continue dans $\overline{B}_{n+1}$ et holomorphe dans $B_{n+1}$; pour tout $m \geqslant n+1$, soit $Q_{mn}$ la restriction à $B'_m$ de $\sum_{a_h \in B_m - B_{n+1}} R_h$; cette dernière somme est une fonction holomorphe dans un voisinage de $\overline{B}_n$, donc (par le développement de Taylor), pour tout $\varepsilon > 0$, il y a un polynôme $P_{mn}$ tel que $|P_{n+1}(z) - Q_{mn}(z) - P_{mn}(z)| \leqslant \varepsilon$ dans $B_n$; si $S_m$ est la restriction à $B'_m$ de $P_{mn} + \sum_{a_h \in B_m} R_h$ on a $S_m \in X_m$ et $|S_m(z) - S_{n+1}(z)| \leqslant \varepsilon$ dans $B'_n$, ce qui achève la démonstration.*
 
@@ -312,7 +312,7 @@ Supposons donnés, dans $\mathbf{C}$: 1° une suite $(a_n)$ de points distincts 
 
 Il est possible d’apporter d’importants compléments au théorème de prolongement par continuité (I, p. 57, th. 1) lorsqu’il s’agit de fonctions prenant leurs valeurs dans un espace uniforme séparé et complet.
 
-#### Proposition 11 {#top-ii-s3-prop-11 .statement}
+#### Proposition 11 {#top-ii-s3-prop-11 .statement tag=0BF6}
 
 Soient $A$ une partie partout dense d’un espace topologique $X$, et $f$ une application de $A$ dans un espace uniforme séparé et complet $X'$. Pour que $f$ puisse être prolongée par continuité dans $X$, il faut et il suffit que, pour tout $x \in X$, l’image par $f$ de la trace sur $A$ du filtre des voisinages de $x$ dans $X$ soit une base de filtre de Cauchy sur $X'$.
 
@@ -320,7 +320,7 @@ Cela résulte du th. de prolongement par continuité (loc. cit.), puisque $X'$ e
 
 Lorsque $X$ est lui-même un espace uniforme, on a de plus le théorème suivant:
 
-#### Théorème 2 {#top-ii-s3-thm-2 .statement}
+#### Théorème 2 {#top-ii-s3-thm-2 .statement tag=0BF7}
 
 Soit $f$ une fonction définie dans un sous-espace partout dense $A$ d’un espace uniforme $X$, prenant ses valeurs dans un espace uniforme séparé et complet $X'$, et uniformément continue dans $A$. Alors $f$ peut être prolongée par continuité à $X$ tout entier, et la fonction prolongée $\bar{f}$ est uniformément continue.
 
@@ -328,7 +328,7 @@ L’existence de $\bar{f}$ est une conséquence immédiate des prop. 3 (II, p. 1
 
 C.Q.F.D.
 
-#### Corollaire {#top-ii-s3-n6-cor-1 .statement}
+#### Corollaire {#top-ii-s3-n6-cor-1 .statement tag=0BF8}
 
 Soient $X_1, X_2$ deux espaces uniformes séparés et complets, $Y_1, Y_2$ des sous-espaces partout denses de $X_1, X_2$ respectivement. Tout isomorphisme $f$ de $Y_1$ sur $Y_2$ se prolonge en un isomorphisme de $X_1$ sur $X_2$.
 
@@ -338,7 +338,7 @@ On notera que si $f$ est une application uniformément continue bijective de $Y_
 
 ### 7. La complétion d’un espace uniforme
 
-#### Théorème 3 {#top-ii-s3-thm-3 .statement}
+#### Théorème 3 {#top-ii-s3-thm-3 .statement tag=0BF9}
 
 Soit X un espace uniforme. Il existe un espace uniforme séparé et complet $\hat{X}$, et une application uniformément continue $i : X \to \hat{X}$, ayant la propriété suivante:
 
@@ -374,13 +374,13 @@ Cela étant, soit $g$ le prolongement par continuité de $g_0$ à $\hat{X}$ (II,
 
 C.Q.F.D.
 
-#### Définition 4 {#top-ii-s3-def-4 .statement}
+#### Définition 4 {#top-ii-s3-def-4 .statement tag=0BFA}
 
 On dit que l’espace uniforme séparé et complet $\hat{X}$ défini dans la démonstration du th. 3 est l’espace séparé complété de $X$ et que l’application $i : X \to \hat{X}$ est l’application canonique de $X$ dans son séparé complété.
 
 Notons en outre les propriétés suivantes:
 
-#### Proposition 12 {#top-ii-s3-prop-12 .statement}
+#### Proposition 12 {#top-ii-s3-prop-12 .statement tag=0BFB}
 
 1° Le sous-espace $i(X)$ est dense dans $\hat{X}$.
     2° Le graphe de la relation d’équivalence $i(x) = i(x')$ est l’intersection des entourages de $X$.
@@ -389,31 +389,31 @@ Notons en outre les propriétés suivantes:
 
 En effet, 1° et 3° ont été prouvées au cours de la démonstration du th. 3; 4° est conséquence de 1° et 3° en vertu de propriétés générale vues antérieurement (II, p. 9, Remarque et II, p. 10, prop. 6). Enfin, la relation $i(x) = i(x')$ signifie par définition que les filtres de voisinages de $x$ et de $x'$ sont les mêmes. Mais cela entraîne par définition que $(x, x') \in V$ pour tout entourage $V$ de $X$, et la réciproque est évidente.
 
-#### Corollaire {#top-ii-s3-n7-cor-1 .statement}
+#### Corollaire {#top-ii-s3-n7-cor-1 .statement tag=0BFC}
 
 Si $X$ est un espace uniforme séparé, l’application canonique $i : X \to \hat{X}$ est un isomorphisme de $X$ sur un sous-espace partout dense de $\hat{X}$.
 
 Lorsque $X$ est séparé, on dit que $X$ est l’espace complété (ou plus brièvement le complété) de $X$, et on identifie le plus souvent $X$ à un sous-espace partout dense de $\hat{X}$ au moyen de $i$.
 
-#### Remarque {#top-ii-s3-n7-rem-1 .statement}
+#### Remarque {#top-ii-s3-n7-rem-1 .statement tag=0BFD}
 
 Lorsqu’on fait cette identification, les filtres de Cauchy minimaux de $X$ ne sont autres que les traces sur $X$ des filtres de voisinages des points de $\hat{X}$, comme il résulte de la démonstration du th. 3 (II, p. 21).
 
 Le cor. de la prop. 12 caractérise le complété d’un espace uniforme séparé:
 
-#### Proposition 13 {#top-ii-s3-prop-13 .statement}
+#### Proposition 13 {#top-ii-s3-prop-13 .statement tag=0BFE}
 
 Si $Y$ est un espace séparé et complet, $X$ un sous-espace partout dense de $Y$, l’injection canonique $X \to Y$ se prolonge en un isomorphisme de $\hat{X}$ sur $Y$.
 
 En effet, toute application uniformément continue de $X$ dans un espace uniforme séparé et complet $Z$ se prolonge d’une seule manière en une application uniformément continue de $Y$ dans $Z$ en vertu de II, p. 20, th. 2.
 
-#### Proposition 14 {#top-ii-s3-prop-14 .statement}
+#### Proposition 14 {#top-ii-s3-prop-14 .statement tag=0BFF}
 
 Soient $X$ un espace uniforme séparé et complet, $\mathfrak{U}$ sa structure uniforme, $Z$ un sous-espace partout dense dans $X$. Si $\mathfrak{U}'$ est une structure uniforme sur $X$, moins fine que $\mathfrak{U}$ et induisant sur $Z$ la même structure uniforme que $\mathfrak{U}$, on a $\mathfrak{U}' = \mathfrak{U}$.
 
 Désignons par $X'$ l’ensemble $X$ muni de la structure uniforme $\mathfrak{U}'$; la composée de l’application canonique $X' \to \hat{X}'$ et de l’application identique $X \to X'$, qui est uniformément continue, peut être considérée comme une application uniformément continue $\varphi : X \to \hat{X}'$; comme $Z$ est séparé pour la structure uniforme induite par $\mathfrak{U}'$, la restriction de $\varphi$ à $Z$ est par hypothèse un isomorphisme de $Z$ sur le sous-espace partout dense $\varphi(Z)$ de $\hat{X}'$; il en résulte (II, p. 20, corollaire) que $\varphi$ lui-même est un isomorphisme de $X$ sur $\hat{X}'$, donc $X' = \hat{X}'$ et $\mathfrak{U}' = \mathfrak{U}$.
 
-#### Proposition 15 {#top-ii-s3-prop-15 .statement}
+#### Proposition 15 {#top-ii-s3-prop-15 .statement tag=0BFG}
 
 *Soient $X, X'$ deux espaces uniformes; pour toute application uniformément continue $f : X \to X'$, il existe une application uniformément continue et une seule $\hat{f} : \hat{X} \to \hat{X}'$ rendant commutatif¹ le diagramme*
 
@@ -429,14 +429,14 @@ $$
 
 Il suffit d’appliquer le th. 3 (II, p. 21) à la fonction $i' \circ f : X \to \hat{X}'$.
 
-#### Corollaire {#top-ii-s3-n7-cor-2 .statement}
+#### Corollaire {#top-ii-s3-n7-cor-2 .statement tag=0BFH}
 
 *Soient $f : X \to X'$ et $g : X' \to X''$ deux applications uniformément continues; si $h = g \circ f$, on a $\hat{h} = \hat{g} \circ \hat{f}$.*
 Cela résulte aussitôt de la propriété d’unicité de la prop. 15.
 
 ### 8. Espace uniforme séparé associé à un espace uniforme
 
-#### Proposition 16 {#top-ii-s3-prop-16 .statement}
+#### Proposition 16 {#top-ii-s3-prop-16 .statement tag=0BFI}
 
 *Soient $X$ un espace uniforme, i l’application canonique de $X$ dans son séparé complété $\hat{X}$. Pour toute application uniformément continue $f$ de $X$ dans un espace uniforme séparé $Y$, il existe une application uniformément continue et une seule $h : i(X) \to Y$ telle que $f = h \circ i$.*
 
@@ -444,7 +444,7 @@ En effet (II, p. 23, corollaire) on peut identifier $Y$ à un sous-espace de son
 
 Le couple $(i, i(X))$ est donc solution du *problème d’application universelle* (E, IV, p. 23) où cette fois on prend comme $\Sigma$-ensembles les espaces uniformes *séparés*, pour $\sigma$-morphismes (resp. $\alpha$-applications) les applications uniformément continues (resp. les applications uniformément continues de $X$ dans un espace uniforme séparé).
 
-#### Définition 5 {#top-ii-s3-def-5 .statement}
+#### Définition 5 {#top-ii-s3-def-5 .statement tag=0BFJ}
 
 *On dit que l’espace uniforme séparé $i(X)$ défini dans la démonstration du th. 3 (II, p. 21) est l’espace uniforme séparé associé à $X$.*
 
@@ -452,7 +452,7 @@ Le couple $(i, i(X))$ est donc solution du *problème d’application universell
 
 Par suite, le séparé complété de X n’est autre que le complété de l’espace séparé associé à X. Si X est complet, il résulte de la définition de $\hat{X}$ (II, p. 21, th. 3) que l’application $i : X \to \hat{X}$ est surjective, donc l’espace séparé associé à X est égal à l’espace séparé complété de X réciproquement, s’il en est ainsi, X est complet (II, p. 23, prop. 12 et II, p. 15, déf. 3).
 
-#### Corollaire {#top-ii-s3-n8-cor-1 .statement}
+#### Corollaire {#top-ii-s3-n8-cor-1 .statement tag=0BFK}
 
 Soient X, Y deux espaces uniformes, $X', Y'$ les espaces séparés associés; pour toute application uniformément continue $f : X \to Y$, il existe une application uniformément continue et une seule $f' : X' \to Y'$ rendant commutatif le diagramme
 
@@ -470,13 +470,13 @@ On applique la prop. 16 à $i' \circ f : X \to Y'$.
 
 L’espace séparé associé à un espace uniforme peut encore se caractériser par la propriété suivante:
 
-#### Proposition 17 {#top-ii-s3-prop-17 .statement}
+#### Proposition 17 {#top-ii-s3-prop-17 .statement tag=0BFL}
 
 Soient X un espace uniforme, $i(X)$ son espace séparé associé, f une application de X sur un espace uniforme séparé $X'$, telle que la structure uniforme de X soit l’image réciproque par f de celle de $X'$. Alors l’application $g : i(X) \to X'$ telle que $f = g \circ i$ est un isomorphisme.
 
 On sait que g est uniformément continue (II, p. 24, prop. 16); g est évidemment surjective, et elle est aussi injective puisque la relation $f(x) = f(y)$ entraîne par définition que $(x, y)$ appartient à tous les entourages de X, donc que $i(x) = i(y)$ (II, p. 23, prop. 12). Enfin, les entourages de $X'$ sont les images par $f \times f$ des entourages de X (II, p. 9, Remarque), donc aussi les images par $g \times g$ des entourages de $i(X)$ (II, p. 23, prop. 12), d’où la proposition.
 
-#### Remarque {#top-ii-s3-n8-rem-1 .statement}
+#### Remarque {#top-ii-s3-n8-rem-1 .statement tag=0BFM}
 
 Soit R la relation d’équivalence $i(x) = i(x')$ dans X; on a vu (II, p. 23, prop. 12) que son graphe C est l’intersection des entourages de X. Il est clair que tout ensemble ouvert (et par suite aussi tout ensemble fermé) dans X est saturé pour R; compte tenu de la définition de l’image réciproque d’une topologie, on en conclut que la bijection canonique de l’espace topologique quotient $X/R$ sur $i(X)$ déduite de i est un homéomorphisme; l’espace séparé associé à X peut donc s’identifier en tant qu’espace topologique à $X/R$. L’application canonique $i : X \to i(X)$ est ouverte et fermée, et même propre (I, p. 77, Exemple).
 
@@ -484,7 +484,7 @@ Soient $X'$ un second espace uniforme, $C'$ l’intersection des entourages de $
 
 ### 9. Complétion des sous-espaces et des espaces produits
 
-#### Proposition 18 {#top-ii-s3-prop-18 .statement}
+#### Proposition 18 {#top-ii-s3-prop-18 .statement tag=0BFN}
 
 Soient $X$ un ensemble, $(Y_\lambda)_{\lambda \in L}$ une famille d’espaces uniformes, et pour chaque $\lambda \in L$, soit $f_\lambda$ une application de $X$ dans $Y_\lambda$; on munit $X$ de la structure uniforme la moins fine $\mathfrak{U}$ rendant uniformément continues les $f_\lambda$. Alors la structure uniforme de l’espace séparé complété $\hat{X}$ de $X$ est la moins fine rendant uniformément continues les applications $f_\lambda : \hat{X} \to \hat{Y}_\lambda$ ($\lambda \in L$) (II, p. 24, prop. 15). En outre, si $j_\lambda$ est l’application canonique de $Y_\lambda$ dans $\hat{Y}_\lambda$, et si $g_\lambda = j_\lambda \circ f_\lambda$, $\hat{X}$ s’identifie à l’adhérence dans $\prod_{\lambda \in L} \hat{Y}_\lambda$ de l’image de $X$ par l’application $x \mapsto (g_\lambda(x))$.
 
@@ -504,11 +504,11 @@ La transitivité des structures uniformes initiales (II, p. 8, prop. 5) montre d
 
 Cela étant, $X'$ s’identifie par la bijection $x' \mapsto (f'_\lambda(x'))$ à un sous-espace uniforme de l’espace uniforme produit $\prod_\lambda Y'_\lambda$ (II, p. 11, prop. 8). Comme les $Y'_\lambda$ sont séparés, on peut identifier chacun des $Y'_\lambda$ à un sous-espace partout dense de son complété $\hat{Y}_\lambda$, donc $\prod_\lambda Y'_\lambda$ à un sous-espace partout dense de $\prod_\lambda \hat{Y}_\lambda$ (I, p. 27, prop. 7). Mais $\prod_\lambda \hat{Y}_\lambda$ est séparé et complet (II, p. 17, prop. 10); l’adhérence $\overline{X'}$ de $X'$ dans $\prod_\lambda \hat{Y}_\lambda$ est donc un sous-espace séparé et complet (II, p. 16, prop. 8), qui s’identifie par suite au séparé complété $\hat{X}$ de $X$, les applications $f'_\lambda$ s’identifiant aux projections sur les $\hat{X}_\lambda$; d’où la proposition.
 
-#### Corollaire 1 {#top-ii-s3-prop-18-cor-1 .statement}
+#### Corollaire 1 {#top-ii-s3-prop-18-cor-1 .statement tag=0BFO}
 
 Soient $X$ un espace uniforme, $i$ l’application canonique de $X$ dans son séparé complété $\hat{X}$; si $A$ est un sous-espace de $X$, $j : A \to X$ l’injection canonique, alors $\hat{j} : \hat{A} \to \hat{X}$ est un isomorphisme de $\hat{A}$ sur l’adhérence de $i(A)$ dans $\hat{X}$.
 
-#### Corollaire 2 {#top-ii-s3-prop-18-cor-2 .statement}
+#### Corollaire 2 {#top-ii-s3-prop-18-cor-2 .statement tag=0BFP}
 
 Soit $(Y_\lambda)_{\lambda \in L}$ une famille d’espaces uniformes. Le séparé complété de l’espace produit $\prod_{\lambda \in L} Y_\lambda$ est canoniquement isomorphe au produit $\prod_{\lambda \in L} \hat{Y}_\lambda$.
 

@@ -45,7 +45,7 @@ subsections:
       pdf_page: 238
 statements: 24
 exercises: 29
-content_sha256: 80aabc14959312c7f91275f8c11a5c1772027cc7ac941f0de5a23db866b32eb7
+content_sha256: 1cf8450ef1a0227b87f3b4c6401357522dc4585cb21cbc3204ea995782e574aa
 ---
 
 ## § 6. GROUPES TOPOLOGIQUES À OPÉRATEURS; ANNEAUX TOPOLOGIQUES; CORPS TOPOLOGIQUES
@@ -56,7 +56,7 @@ Sur un ensemble G, on dit qu’une structure de *groupe à opérateurs* (A, I, p
 
 Si H est un sous-groupe stable d’un groupe topologique à opérateurs G, la topologie induite sur H par celle de G est compatible avec la structure de groupe à opérateurs de H. En outre:
 
-#### Proposition 1 {#top-iii-s6-prop-1 .statement}
+#### Proposition 1 {#top-iii-s6-prop-1 .statement tag=0BN2}
 
 *Si H est un sous-groupe stable d’un groupe topologique à opérateurs G, l’adhérence $\overline{H}$ de H dans G est un sous-groupe stable de G.*
 
@@ -74,11 +74,11 @@ Comme l’étude des groupes commutatifs à opérateurs est équivalente à cell
 
 Lorsqu’un groupe topologique commutatif à opérateurs E (noté additive-ment) est somme directe d’une famille finie $(M_i)_{1 \leq i \leq n}$ de sous-groupes stables, l’application canonique bijective $(x_i) \mapsto \sum_{i=1}^n x_i$ du groupe produit $\prod_{i=1}^n M_i$ sur E est continue, mais n’est pas nécessairement un homéomorphisme.
 
-#### Définition 1 {#top-iii-s6-def-1 .statement}
+#### Définition 1 {#top-iii-s6-def-1 .statement tag=0BN3}
 
 Soit E un groupe topologique commutatif à opérateurs et soit $(M_i)_{1 \leq i \leq n}$ une famille finie de sous-groupes stables de E, telle que E soit somme directe des $M_i$. On dit que E est somme directe topologique des $M_i$ si l’application canonique $(x_i) \mapsto \sum_{i=1}^n x_i$ du groupe produit $\prod_{i=1}^n M_i$ sur E est un homéomorphisme (et par suite un isomorphisme de groupes topologiques à opérateurs).
 
-#### Proposition 2 {#top-iii-s6-prop-2 .statement}
+#### Proposition 2 {#top-iii-s6-prop-2 .statement tag=0BN4}
 
 Soit E un groupe topologique commutatif à opérateurs somme directe des sous-groupes stables $M_i$ ($1 \leq i \leq n$); soit $(p_i)_{1 \leq i \leq n}$ la famille de projecteurs associée à la décomposition $E = \sum_{i=1}^n M_i$ (A, II, p. 18, prop. 12). Pour que E soit somme directe topologique des $M_i$, il faut et il suffit que les $p_i$ soient continus.
 
@@ -88,7 +88,7 @@ Comme $1_E = \sum_{i=1}^n p_i$ (1_E désignant l’application identique de E), 
 
 Lorsque E est somme directe topologique de deux sous-groupes stables M, N, on dit encore que N est un supplémentaire topologique de M dans E; pour qu’il en soit ainsi, il faut et il suffit que l’application canonique de E/M sur N (A, II, p. 20, prop. 13) soit un isomorphisme de groupes topologiques à opérateurs.
 
-#### Corollaire {#top-iii-s6-n2-cor-1 .statement}
+#### Corollaire {#top-iii-s6-n2-cor-1 .statement tag=0BN5}
 
 Soient E un groupe topologique commutatif à opérateurs, M un sous-groupe stable de E. Les conditions suivantes sont équivalentes:
 a) M admet dans E un supplémentaire topologique.
@@ -97,15 +97,15 @@ c) L’application identique de M peut être prolongée en une application liné
 
 Il résulte de la prop. 2 que a) entraîne b) et il est clair que b) entraîne c). Enfin, si p est une application linéaire continue de E dans M prolongeant l’application identique de M, p est un projecteur continu et les projecteurs p et $1_E - p$ sont associés à la décomposition en somme directe $E = M + N$, où $N = p^{-1}(0)$.
 
-#### Remarque 1 {#top-iii-s6-n2-rem-1 .statement}
+#### Remarque 1 {#top-iii-s6-n2-rem-1 .statement tag=0BN6}
 
 Pour éviter toute confusion, on dit parfois qu’un sous-groupe stable de E supplémentaire de M (au sens de la structure de groupe à opérateurs sans topologie) est un supplémentaire algébrique de M.
 
-#### Remarque 2 {#top-iii-s6-n2-rem-2 .statement}
+#### Remarque 2 {#top-iii-s6-n2-rem-2 .statement tag=0BN7}
 
 Lorsqu’un groupe topologique commutatif à opérateurs séparé E est somme directe topologique d’une famille $(M_i)_{1 \leq i \leq n}$ de sous-groupes stables, chacun des sous-groupes $M_i$ est fermé dans E, car c’est l’ensemble des $x \in E$ tels que $p_i(x) = x$ (I, p. 53, prop. 2).
 
-#### Proposition 3 {#top-iii-s6-prop-3 .statement}
+#### Proposition 3 {#top-iii-s6-prop-3 .statement tag=0BN8}
 
 Soient E, F deux groupes topologiques commutatifs à opérateurs, u une application linéaire continue de E dans F. Pour qu’il existe une application linéaire continue v de F dans E telle que $u \circ v$ soit l’application identique de F (auquel cas on dit que u est inversible à droite et que v est inverse à droite de u), il faut et il suffit que u soit un morphisme strict (III, p. 16) de E sur F et que $u^{-1}(0)$ admette un supplémentaire topologique dans E.
 
@@ -113,7 +113,7 @@ Les conditions sont nécessaires. En effet, on a alors $u(v(F)) = F$ et a fortio
 
 Les conditions sont suffisantes. En effet, si $\varphi$ est l’homomorphisme canonique de E sur $E/u^{-1}(0)$, dire que $u^{-1}(0)$ admet un supplémentaire topologique M dans E signifie que la restriction de $\varphi$ à $M$ est un isomorphisme de $M$ sur $E / u^{-1}(0)$. Comme d’autre part $u = w \circ \varphi$, où $w$ est un isomorphisme de $E / u^{-1}(0)$ sur $E$, on voit que la restriction de $u$ à $M$ est un isomorphisme de $M$ sur $F$, et l’isomorphisme réciproque $v$ est donc tel que $u \circ v$ soit l’application identique de $F$ sur lui-même.
 
-#### Proposition 4 {#top-iii-s6-prop-4 .statement}
+#### Proposition 4 {#top-iii-s6-prop-4 .statement tag=0BN9}
 
 *Soient* $E, F$ *deux groupes topologiques commutatifs à opérateurs*, $u$ *une application linéaire continue de* $E$ *dans* $F$. *Pour qu’il existe une application linéaire continue* $v$ *de* $F$ *dans* $E$ *telle que* $v \circ u$ *soit l’application identique de* $E$ *sur lui-même* (auquel cas on dit que $u$ est *inversible à gauche* et que $v$ est *inverse à gauche de* $u$), *il faut et il suffit que* $u$ *soit un isomorphisme (topologique)* *de* $E$ *sur* $u(E)$, *et que* $u(E)$ *admette un supplémentaire topologique dans* $F$.
 
@@ -123,7 +123,7 @@ Les conditions sont *nécessaires*. En effet, la relation $v(u(x)) = x$ montre q
 
 ### 3. Anneaux topologiques
 
-#### Définition 2 {#top-iii-s6-def-2 .statement}
+#### Définition 2 {#top-iii-s6-def-2 .statement tag=0BNA}
 
 *On appelle anneau topologique un ensemble* $A$ *muni d’une structure d’anneau et d’une topologie satisfaisant aux axiomes suivants*:
 
@@ -135,11 +135,11 @@ Les deux premiers axiomes expriment que la topologie de $A$ est compatible avec 
 
 Une structure d’anneau et une topologie étant données sur un ensemble $A$, on dit qu’elles sont *compatibles* si elles satisfont aux axiomes (AT$_I$), (AT$_{II}$) et (AT$_{III}$).
 
-#### Exemple 1 {#top-iii-s6-n3-exa-1 .statement}
+#### Exemple 1 {#top-iii-s6-n3-exa-1 .statement tag=0BNB}
 
 Sur un anneau $A$, la topologie *discrète* est compatible avec la structure d’anneau; un anneau topologique dont la topologie est discrète est dit anneau *discret*.
 
-#### Exemple 2 {#top-iii-s6-n3-exa-2 .statement}
+#### Exemple 2 {#top-iii-s6-n3-exa-2 .statement tag=0BNC}
 
 On verra dans IV, p. 10 (resp. p. 11) que la topologie de la droite rationnelle $\mathbf{Q}$ (resp. de la droite numérique $\mathbf{R}$) est compatible avec la structure d’anneau de $\mathbf{Q}$ (resp. $\mathbf{R}$).*
 
@@ -159,7 +159,7 @@ On en déduit un système de conditions nécessaires et suffisantes que doit vé
 (AV$_{\text{I}}$) *Quels que soient* $x_0 \in A$ et $V \in \mathfrak{V}$, *il existe* $W \in \mathfrak{V}$ *tel que* $x_0W \subset V$ *et* $Wx_0 \subset V$.
 (AV$_{\text{II}}$) *Quel que soit* $V \in \mathfrak{V}$, *il existe* $W \in \mathfrak{V}$ *tel que* $WW \subset V$.
 
-#### Remarque {#top-iii-s6-n3-rem-1 .statement}
+#### Remarque {#top-iii-s6-n3-rem-1 .statement tag=0BND}
 
 On rencontre assez souvent en Analyse des anneaux vérifiant les axiomes (AT$_{\text{I}}$), (AT$_{\text{II}}$) et (AT$_{\text{IIIa}}$), mais non (AT$_{\text{IIIb}}$). *Un exemple est l’anneau des mesures sur un groupe compact, où la loi multiplicative est la convolution, et la topologie est la topologie vague (INT, VIII).*.
 
@@ -178,7 +178,7 @@ $$
 
 Si H est un sous-anneau d’un anneau topologique A, la topologie induite sur H par celle de A est compatible avec la structure d’anneau de H; la structure d’anneau topologique ainsi définie sur H est dite induite par celle de A.
 
-#### Proposition 5 {#top-iii-s6-prop-5 .statement}
+#### Proposition 5 {#top-iii-s6-prop-5 .statement tag=0BNE}
 
 Soit H un sous-anneau partout dense d’un anneau topologique A, et K un sous-anneau (resp. idéal à gauche, idéal à droite, idéal bilatère) de H. L’adhérence $\overline{K}$ de K dans A est un sous-anneau (resp. idéal à gauche, idéal à droite, idéal bilatère) de A.
 
@@ -194,7 +194,7 @@ Quand on parle de la structure uniforme d’un anneau topologique A, il s’agit
 
 Soit A un anneau topologique séparé: muni de sa structure de groupe additif, il peut être considéré comme sous-groupe partout dense d’un groupe commutatif séparé et complet $\hat{A}$, déterminé à une isomorphie près (III, p. 26, th. 2). Pour qu’on puisse considérer A comme un sous-anneau d’un anneau complet, il faut qu’on puisse prolonger par continuité la fonction $xy$ à l’espace $\hat{A} \times \hat{A}$. La possibilité de ce prolongement va résulter du théorème plus général suivant:
 
-#### Théorème 1 {#top-iii-s6-thm-1 .statement}
+#### Théorème 1 {#top-iii-s6-thm-1 .statement tag=0BNF}
 
 Soient E, F, G trois groupes commutatifs séparés et complets, A un sous-groupe partout dense de E, B un sous-groupe partout dense de F. Si f est une application
 
@@ -225,7 +225,7 @@ C.Q.F.D.
 
 Dans l’application de ce théorème à un anneau topologique séparé $A$, on a $E = F = G = \hat{A}, B = A$, et $f$ est l’application **Z-bilinéaire** $(x, y) \mapsto xy$, continue par hypothèse. On désignera encore par $xy$ la valeur de la fonction prolongée dans $\hat{A} \times \hat{A}$; cette fonction est une loi de composition dans $\hat{A}$, et dire qu’elle est **Z-bilinéaire** signifie qu’elle est *distributive* à droite et à gauche par rapport à l’addition; elle est d’autre part *associative* d’après le principe de prolongement des identités. Enfin, pour la même raison, l’élément unité de $A$ est aussi élément unité de $\hat{A}$. Par suite:
 
-#### Proposition 6 {#top-iii-s6-prop-6 .statement}
+#### Proposition 6 {#top-iii-s6-prop-6 .statement tag=0BNG}
 
 *Un anneau topologique séparé $A$ est isomorphe à un sous-anneau partout*
 
@@ -253,7 +253,7 @@ soit commutatif ($\varphi$ et $\psi$ étant les applications canoniques) : il su
 
 ### 6. Modules topologiques
 
-#### Définition 3 {#top-iii-s6-def-3 .statement}
+#### Définition 3 {#top-iii-s6-def-3 .statement tag=0BNH}
 
 Étant donné un anneau topologique A, on appelle module topologique à gauche sur A un ensemble E, muni :
 
@@ -263,15 +263,15 @@ soit commutatif ($\varphi$ et $\psi$ étant les applications canoniques) : il su
 
 On définit de la même manière la notion de module topologique à droite sur un anneau topologique A ; comme tout module à droite sur A peut être considéré comme module à gauche sur l’anneau opposé $A^0$, et que la topologie de A est compatible avec la structure d’anneau de $A^0$, il n’y a pas lieu de distinguer les modules topologiques à droite sur A des modules topologiques à gauche sur $A^0$.
 
-#### Exemple 1 {#top-iii-s6-n6-exa-1 .statement}
+#### Exemple 1 {#top-iii-s6-n6-exa-1 .statement tag=0BNI}
 
 Un espace vectoriel topologique sur $\mathbf{R}$ (resp. $\mathbf{C}$) est un module topologique sur $\mathbf{R}$ (resp. $\mathbf{C}$) (cf. EVT, I, §1, n° 1).*
 
-#### Exemple 2 {#top-iii-s6-n6-exa-2 .statement}
+#### Exemple 2 {#top-iii-s6-n6-exa-2 .statement tag=0BNJ}
 
 Soient A un anneau, $\mathfrak{B}$ une base de filtre sur A formée d’idéaux bilatères de A, E un A-module à gauche. Si on munit A de la topologie (compatible avec sa structure d’anneau) pour laquelle $\mathfrak{B}$ est un système fondamental de voisinages de 0 (III, p. 49, Exemple 3), et E de la topologie (compatible avec sa structure de groupe additif) dont les $aE$, où $a$ parcourt $\mathfrak{B}$, forment un système fondamental de voisinages de 0 (III, p. 5, Exemple), on vérifie aussitôt que E est un module topologique sur A.
 
-#### Remarque {#top-iii-s6-n6-rem-1 .statement}
+#### Remarque {#top-iii-s6-n6-rem-1 .statement tag=0BNK}
 
 Étant donné un anneau topologique A, considérons sur un A-module à gauche E une topologie compatible avec la structure de groupe additif de E. En vertu de l’identité
 
@@ -321,7 +321,7 @@ soit commutatif, $\varphi$ et $\varphi'$ étant les applications canoniques.
 
 Dans ce qui suit, et dans les chapitres IV et V, lorsqu’on considérera un corps $K$, on désignera par $K^*$ le groupe multiplicatif des éléments $\neq 0$ de $K$.
 
-#### Définition 4 {#top-iii-s6-def-4 .statement}
+#### Définition 4 {#top-iii-s6-def-4 .statement tag=0BNL}
 
 On appelle corps topologique un ensemble $K$ muni d’une structure de corps et d’une topologie compatible avec la structure d’anneau de $K$, et satisfaisant en outre à l’axiome suivant:
 
@@ -329,11 +329,11 @@ On appelle corps topologique un ensemble $K$ muni d’une structure de corps et 
 
 Une structure de corps et une topologie sur un ensemble $K$ sont dites compatibles, si la structure d’anneau correspondante et la topologie sont compatibles, et si en outre (KT) est vérifié.
 
-#### Exemple 1 {#top-iii-s6-n7-exa-1 .statement}
+#### Exemple 1 {#top-iii-s6-n7-exa-1 .statement tag=0BNM}
 
 Sur un corps K, la topologie discrète est compatible avec la structure de corps; un corps topologique dont la topologie est discrète est dit corps discret.
 
-#### Exemple 2 {#top-iii-s6-n7-exa-2 .statement}
+#### Exemple 2 {#top-iii-s6-n7-exa-2 .statement tag=0BNN}
 
 La topologie de la droite rationnelle $\mathbf{Q}$ (resp. de la droite numérique $\mathbf{R}$) est compatible avec la structure de corps de $\mathbf{Q}$ (resp. $\mathbf{R}$; voir IV, p. 10, resp. p. 11).
 
@@ -360,13 +360,13 @@ Dans un corps topologique K, il faut distinguer:
 La structure induite sur $K^*$ par la structure uniforme additive de K est en général distincte des structures uniformes multiplicatives de K (voir III, p. 82, exerc. 17).
 D’après la prop. 6 de III, p. 51, un corps topologique séparé K peut être considéré comme sous-anneau partout dense d’un anneau séparé et complet $\hat{K}$. Pour que $\hat{K}$ soit un corps topologique, il faut qu’on puisse prolonger par continuité l’application $x \mapsto x^{-1}$ à $(\hat{K})^*$; et cette condition nécessaire est aussi suffisante, car alors les fonctions $xx^{-1}, x^{-1}x$ et 1 sont égales dans $(\hat{K})^* \times (\hat{K})^*$ d’après le principe de prolongement des identités, ce qui prouve que la valeur, pour tout $x \neq 0$, de la fonction prolongée est bien l’inverse de $x$ dans $\hat{K}$. Autrement dit (cf. II, p. 20, prop. 11):
 
-#### Proposition 7 {#top-iii-s6-prop-7 .statement}
+#### Proposition 7 {#top-iii-s6-prop-7 .statement tag=0BNO}
 
 *Pour que l’anneau complété $\hat{K}$ d’un corps topologique séparé $K$ soit un corps topologique, il faut et il suffit que l’image, par l’application $x \mapsto x^{-1}$, de tout filtre de Cauchy (pour la structure additive), auquel 0 n’est pas adhérent, soit encore un filtre de Cauchy (pour la structure additive).*
 
 Il y a des corps topologiques où cette condition n’est pas vérifiée, et où l’anneau $\hat{K}$ admet des diviseurs de 0 (voir III, p. 85, exerc. 26). En outre, lorsque l’anneau complété $\hat{K}$ est un corps topologique, rien n’assure *a priori* que les structures *multiplicatives* de $\hat{K}$ soient des structures d’espace *complet*. Toutefois, il en sera ainsi pour les corps $K$ tels que $\hat{K}$ soit *localement compact* (voir I, p. 66, prop. 13, et III, p. 22, prop. 4), ou *commutatif*; en effet, pour ces derniers, on a la proposition suivante:
 
-#### Proposition 8 {#top-iii-s6-prop-8 .statement}
+#### Proposition 8 {#top-iii-s6-prop-8 .statement tag=0BNP}
 
 *Si la structure uniforme additive d’un corps topologique commutatif $K$ est une structure d’espace séparé et complet, la structure multiplicative sur $K^*$ est une structure d’espace complet.*
 

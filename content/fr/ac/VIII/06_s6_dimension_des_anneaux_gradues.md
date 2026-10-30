@@ -33,7 +33,7 @@ subsections:
       pdf_page: 74
 statements: 29
 exercises: 12
-content_sha256: bad92e41d0ccaeab016fbd03116c23c30080352ef6f69960c6ea8662454b7004
+content_sha256: 4664d3808940efab844036a6fa4c45616fc716ed1b74c4d0748f31e4ba79842f
 ---
 
 ## § 6. DIMENSION DES ANNEAUX GRADUÉS
@@ -46,25 +46,25 @@ Pour tout $n \in \mathbf{Z}$, on pose $H_{\geq n} = \sum_{i \geq n} H_i$. On a $
 
 On en déduit :
 
-#### Proposition 1 {#ac-viii-s6-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s6-prop-1 .statement tag=0CR3}
 
 a) Les idéaux $S^{-1}H_{\geq n}$ forment une filtration exhaustive et séparée de l’anneau $S^{-1}H$.
 
 b) L’homomorphisme canonique de $H$ dans $S^{-1}H$ induit pour chaque $n$ un isomorphisme $u_n$ de $H_n$ sur $S^{-1}H_{\geq n}/S^{-1}H_{\geq n+1}$; les $u_n$ sont les composants homogènes d’un isomorphisme d’anneaux gradués de $H$ sur l’anneau gradué associé à $S^{-1}H$, filtré par les $S^{-1}H_{\geq n}$.
 
-#### Remarque 1 {#ac-viii-s6-n1-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s6-n1-rem-1 .statement tag=0CR4}
 
 Un élément $h/s$ de $S^{-1}H$ avec $h \in H, s \in S$, est inversible si et seulement si la composante de degré 0 de $h$ est inversible dans $H_0$. Par conséquent, si l’anneau $H_0$ est local, l’anneau $S^{-1}H$ est local et l’injection canonique $H_0 \to S^{-1}H$ induit un isomorphisme sur les corps résiduels.
 
-#### Remarque 2 {#ac-viii-s6-n1-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s6-n1-rem-2 .statement tag=0CR5}
 
 Supposons $H$ engendré par $H_0$ et $H_1$; alors pour tout $n$, on a $H_{n+1} = H_1.H_n$, donc $H_{\geq n+1} = H_1.H_{\geq n}$ et $S^{-1}H_{\geq n+1} = H_1.S^{-1}H_{\geq n}$. Par suite, la filtration $(S^{-1}H_{\geq n})$ de $S^{-1}H$ est la filtration $S^{-1}H_{\geq 1}$-adique.
 
-#### Exemple 1 {#ac-viii-s6-n1-exa-1 .statement}
+#### Exemple 1 {#ac-viii-s6-n1-exa-1 .statement tag=0CR6}
 
 \* Soit $p$ un idéal premier gradué de $\mathbf{C}[X_0, ..., X_n]$ différent de l’idéal engendré par les $X_i$; soient $V$ la sous-variété algébrique de $\mathbf{P}^n(\mathbf{C})$ définie par $p$ et $C$ la sous-variété algébrique de $\mathbf{C}^{n+1}$ définie par $p$. Alors $C$ est le cône de base $V$, $H = \mathbf{C}[X_0, ..., X_n]/p$ est l’algèbre affine de $C$ et $S^{-1}H$ l’anneau local du cône $C$ en son sommet. \*
 
-#### Exemple 2 {#ac-viii-s6-n1-exa-2 .statement}
+#### Exemple 2 {#ac-viii-s6-n1-exa-2 .statement tag=0CR7}
 
 Soient $A$ un anneau local et $a$ un idéal de $A$ distinct de $A$. Alors $H = \bigoplus_n a^n/a^{n+1}$ est un anneau gradué tel que $H_0 = A/a$ soit local ; il est engendré par $H_0$ et $H_1$. L’anneau $S^{-1}H$ est donc local et la filtration $(S^{-1}H_{\geq n})$ est la filtration $S^{-1}H_{\geq 1}$-adique. On prendra garde qu’en général les anneaux $A$ et $S^{-1}H$ ne sont pas isomorphes. \* En particulier une variété algébrique n’est pas en général localement isomorphe au voisinage d’un point à son cône des tangentes en ce point. \*
 
@@ -72,14 +72,14 @@ Soient $A$ un anneau local et $a$ un idéal de $A$ distinct de $A$. Alors $H = \
 
 Dans ce numéro, nous noterons dimgr(H) la borne supérieure des longueurs des chaînes d’idéaux premiers gradués de $H$; de même, si $p$ est un idéal premier gradué de $H$, nous noterons htgr(p) la borne supérieure des longueurs des chaînes d’idéaux premiers gradués de $H$ dont $p$ est le plus grand élément. Si $p$ est un idéal premier gradué de $H$, on a $p \cap S = \varnothing$; sinon, en effet $p$ contiendrait un élément dont la composante de degré 0 serait égale à 1, donc contiendrait 1 puisqu’il est gradué. L’application $p \mapsto S^{-1}p$ de l’ensemble des idéaux premiers gradués de $H$ dans l’ensemble des idéaux premiers de $S^{-1}H$ est donc injective et croissante (II, § 2, no 5, prop. 11); par conséquent, compte tenu du § 1, no 3, prop. 6 et corollaire à la prop. 7, on a :
 
-#### Proposition 2 {#ac-viii-s6-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s6-prop-2 .statement tag=0CR8}
 
 a) On a $\mathrm{dimgr}(H) \leq \dim(S^{-1}H) \leq \dim(H)$.
 b) Pour tout idéal premier gradué $p$ de $H$, on a $\mathrm{htgr}(p) \leq \mathrm{ht}(S^{-1}p) = \mathrm{ht}(p)$.
 
 Pour tout idéal $a$ de $H$, notons $a^{\mathrm{gr}}$ le plus grand idéal gradué contenu dans $a$; on a $a^{\mathrm{gr}} = \sum_n (a \cap H_n)$.
 
-#### Lemme 1 {#ac-viii-s6-lem-1 .statement}
+#### Lemme 1 {#ac-viii-s6-lem-1 .statement tag=0CR9}
 
 a) Si $p$ est un idéal premier de $H$, $p^{gr}$ est un idéal premier.
 
@@ -97,7 +97,7 @@ Si $m$ est maximal, alors on a $m = m_0 + H_{\geq 1}$, où $m_0$ est un idéal m
 
 c) Soit $p$ un idéal premier minimal de $H$. Comme $p^{gr}$ est premier d’après $a$ et contenu dans $p$, on a $p = p^{gr}$, d’où $c$.
 
-#### Lemme 2 {#ac-viii-s6-lem-2 .statement}
+#### Lemme 2 {#ac-viii-s6-lem-2 .statement tag=0CRA}
 
 Soient $p$ et $q$ des idéaux premiers de $H$ tels que $q \subset p$ et $q \neq p$. Si $q^{gr} = p^{gr}$, alors $q$ est gradué, $p$ ne l’est pas et $ht(p/q) = 1$.
 
@@ -109,7 +109,7 @@ ht(p) = \dim(H_p) \leq \dim(T^{-1}H)
 $$
 (§ 1, n° 3, prop. 6 et 7). Mais, d’après le lemme 4 de V, § 1, n° 8, $T^{-1}H$ est un corps ou est isomorphe à un anneau $K[X, X^{-1}]$, où $K$ est un corps ; on a donc $\dim(T^{-1}H) \leq 1$ et $ht(p) \leq 1$, ce qu’on voulait démontrer.
 
-#### Proposition 3 {#ac-viii-s6-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s6-prop-3 .statement tag=0CRB}
 
 Soit $p$ un idéal premier de $H$. Si $p \neq p^{gr}$, on a $ht(p^{gr}) = ht(p) - 1$.
 
@@ -119,7 +119,7 @@ ht(q) \leq ht(q^{gr}) + 1,
 $$
 d’après l’hypothèse de récurrence si $q \neq q^{gr}$ et trivialement si $q = q^{gr}$; par conséquent, on a $ht(q) \leq ht(q^{gr}) + 1 \leq ht(p^{gr})$, ce qu’on voulait démontrer. Si $q^{gr} = p^{gr}$, alors on a $q = q^{gr}$ d’après le lemme 2, donc $ht(q) = ht(q^{gr}) \leq ht(p^{gr})$, d’où encore la conclusion voulue.
 
-#### Théorème 1 {#ac-viii-s6-thm-1 .statement}
+#### Théorème 1 {#ac-viii-s6-thm-1 .statement tag=0CRC}
 
 Supposons H noethérien.
 
@@ -141,7 +141,7 @@ $$
 
 Prouvons enfin c). On a dimgr(H) ≤ dim(S^{-1}H) ≤ dim(H) (prop. 2), et il reste à prouver dim(H) ≤ dimgr(H), ou encore ht(p) ≤ dimgr(H) pour tout idéal premier p de H. Soit donc p un idéal premier de H. Si p est gradué, on a ht(p) = htgr(p) ≤ dimgr(H). Si p n’est pas gradué, on a ht(p) = htgr(p^{gr}) + 1 d’après la prop. 3 ; soit m un idéal gradué maximal de H contenant p^{gr} ; d’après le lemme 1, b), m est maximal, donc distinct de p^{gr}, et l’on a htgr(p^{gr}) + 1 ≤ htgr(m) ≤ dimgr(H), d’où encore ht(p) ≤ dimgr(H). Cela achève la démonstration.
 
-#### Remarque 2 {#ac-viii-s6-n2-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s6-n2-rem-2 .statement tag=0CRD}
 
 Il existe des anneaux gradués non noethériens H tels que dimgr(H) < dim(H) (p. 99, exercice 1).
 
@@ -152,19 +152,19 @@ Alors S^{-1}M est un S^{-1}H-module, et si l’on pose $M_{\geq n} = \bigoplus_{
 
 $S^{-1}M$ et que l’application canonique $M \to S^{-1}M$ induit un isomorphisme de $M$ sur le module gradué $\bigoplus_n S^{-1}M_{\geq n}/S^{-1}M_{\geq n+1}$.
 
-#### Lemme 3 {#ac-viii-s6-lem-3 .statement}
+#### Lemme 3 {#ac-viii-s6-lem-3 .statement tag=0CRE}
 
 Supposons $H$ engendré par $H_0 \cup H_1$ et $M$ engendré par $\bigoplus_{i \leq n_0} M_i$ pour un entier $n_0$ convenable. Alors la filtration $(S^{-1}M_{\geq n})$ sur $S^{-1}M$ est bonne pour l’idéal $S^{-1}H_{\geq 1}$ de $S^{-1}H$.
 
 On a, pour $n \geq n_0$, $M_{\geq n+1} = H_1 \cdot M_{\geq n}$, donc $S^{-1}M_{\geq n+1} = H_1 \cdot S^{-1}M_{\geq n} = S^{-1}H_{\geq 1} \cdot S^{-1}M_{\geq n}$.
 
-#### Proposition 4 {#ac-viii-s6-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s6-prop-4 .statement tag=0CRF}
 
 Supposons $H$ noethérien et $M$ de type fini. Alors $\dim_H(M) = \dim_{S^{-1}H}(S^{-1}M)$.
 
 Soit a l’annulateur du $H$-module $M$ ; c’est un idéal gradué de $H$. Comme $M$ est un $H$-module de type fini, l’annulateur du $S^{-1}H$-module $S^{-1}M$ est l’idéal $S^{-1}\alpha$ de $S^{-1}H$. On a $\dim_H(M) = \dim(H/\alpha)$ et $\dim_{S^{-1}H}(S^{-1}M) = \dim(S^{-1}H/S^{-1}\alpha)$. La prop. 4 résulte alors du th. 1, c) du n° 2 appliqué à l’anneau gradué $H/\alpha$.
 
-#### Proposition 5 {#ac-viii-s6-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s6-prop-5 .statement tag=0CRG}
 
 Supposons $H_0$ local et artinien, $H$ engendré par $H_0 \cup H_1$, $H_1$ de type fini comme $H_0$-module, $M$ non nul et de type fini comme $H$-module. Alors $M_n$ est un $H_0$-module de longueur finie pour chaque $n$, et il existe $Q(T) \in \mathbf{Z}[T, T^{-1}]$ tel que $Q(1) > 0$ et que l’on ait dans l’anneau $\mathbf{Z}((T))$
 
@@ -176,11 +176,11 @@ avec $d = \dim_H(M)$.
 
 L’anneau $S^{-1}H$ est local et noethérien (n° 1, remarque 1), le $S^{-1}H$-module $S^{-1}M$ est non nul de type fini, et de dimension $d = \dim_H(M)$ (prop. 4). Par ailleurs, $S^{-1}H_{\geq 1}$ est un idéal de définition de $S^{-1}H$ (§ 3, n° 2, lemme 2) et $S^{-1}M_{\geq n}$ est une filtration $S^{-1}H_{\geq 1}$-bonne sur $S^{-1}M$ (lemme 3). Enfin, on a $\operatorname{long}_{S^{-1}H} S^{-1}M_{\geq n}/S^{-1}M_{\geq n+1} = \operatorname{long}_{H_0}(M_n)$ pour tout $n$. Il suffit donc d’appliquer les th. 2 et 3 du § 4 (n°s 3 et 4).
 
-#### Remarque {#ac-viii-s6-n3-rem-1 .statement}
+#### Remarque {#ac-viii-s6-n3-rem-1 .statement tag=0CRH}
 
 A l’exception de la détermination de l’entier $d$, la prop. 5 résulte directement du th. 1 du § 4, n° 2.
 
-#### Corollaire {#ac-viii-s6-n3-cor-1 .statement}
+#### Corollaire {#ac-viii-s6-n3-cor-1 .statement tag=0CRI}
 
 Soient $A$ un anneau local noethérien et $q$ un idéal de définition de $A$. Alors on a $\dim(A) = \dim(\operatorname{gr}_q(A))$.
 
@@ -192,7 +192,7 @@ $$
 
 avec $d = \dim(\operatorname{gr}_q(A))$ et $Q(1) \neq 0$. On a $d = \dim(A)$ d’après le th. 3 du § 4, n° 4, d’où le corollaire.
 
-#### Proposition 6 {#ac-viii-s6-prop-6 .statement}
+#### Proposition 6 {#ac-viii-s6-prop-6 .statement tag=0CRJ}
 
 Supposons $H_0$ local et artinien, $H$ de type fini comme $H_0$-algèbre et $M$ de type fini comme $H$-module.
 
@@ -204,7 +204,7 @@ a) Posons $N = M / \sum_{i=1}^n a_i M$. On a $\dim_H(N) = \dim_{S^{-1}H}(S^{-1}N
 
 Pour prouver b), nous établirons d’abord un lemme.
 
-#### Lemme 4 {#ac-viii-s6-lem-4 .statement}
+#### Lemme 4 {#ac-viii-s6-lem-4 .statement tag=0CRK}
 
 Soit $b$ un élément de $H$, homogène de degré $> 0$, et n’appartenant à aucun des éléments minimaux $p$ de $\mathrm{Supp}(M)$, tels que $\dim(H/p) = \dim_H(M)$. On a alors $\dim_H(M/bM) = \dim_H(M) - 1$.
 
@@ -230,7 +230,7 @@ $$
 $$
 Alors $(b_1/1, ..., b_d/1)$ est une suite sécante maximale pour le $S^{-1}H$-module $S^{-1}M$. Posons $a_i = b_i^{(n_1 ... n_d)/n_i}$ pour $1 \leq i \leq d$; alors les $a_i$ sont tous de même degré, et $(a_1/1, ..., a_d/1)$ est une suite sécante maximale pour $S^{-1}M$ (§ 3, n° 2, remarque 3).
 
-#### Corollaire 1 {#ac-viii-s6-lem-4-cor-1 .statement}
+#### Corollaire 1 {#ac-viii-s6-lem-4-cor-1 .statement tag=0CRL}
 
 *Supposons que $H_0$ soit un corps et que $H$ soit de type fini comme $H_0$-algèbre. Posons $n = \dim(H)$. Il existe des éléments homogènes $a_1, ..., a_n$ de $H$ tous de même degré $> 0$, tels que le $H_0$-homomorphisme $\varphi : H_0[X_1, ..., X_n] \to H$ défini par $\varphi(X_i) = a_i, i = 1, ..., n$, soit injectif et fasse de $H$ une $H_0[X_1, ..., X_n]$-algèbre finie. Si $H$ est engendrée par $H_1$ comme $H_0$-algèbre et si $H_0$ est infini, on peut supposer les $a_i$ de degré 1.*
 
@@ -244,11 +244,11 @@ $$
 $$
 et que $H_0[X_1, ..., X_n]$ est intègre, ceci implique $\mathrm{Ker}\ \varphi = \{0\}$.
 
-#### Remarque {#ac-viii-s6-n3-rem-2 .statement}
+#### Remarque {#ac-viii-s6-n3-rem-2 .statement tag=0CRM}
 
 Soit $(h_1, ..., h_r)$ un système générateur fini du $H_0$-espace vectoriel $H_1$. Pour $\lambda = (\lambda_1, ..., \lambda_r) \in H_0^r$, posons $h_\lambda = \lambda_1 h_1 + \cdots + \lambda_r h_r$. Les démonstrations de la prop. 6 et du cor. 1 entraînent le résultat suivant : l’ensemble des éléments $(\lambda_1, ..., \lambda_n)$ de $(H_0^r)^n$ tels que les éléments $a_i = h_{\lambda_i} \in H_1$ satisfassent à la conclusion du cor. 1, contient le complémentaire de la réunion d’un nombre fini de sous-espaces vectoriels de $(H_0^r)^n$ distincts de l’espace entier.
 
-#### Corollaire 2 {#ac-viii-s6-lem-4-cor-2 .statement}
+#### Corollaire 2 {#ac-viii-s6-lem-4-cor-2 .statement tag=0CRN}
 
 *Soient $A$ un anneau local noethérien et $n \in \mathbf{N}$. Pour que l’on ait $\dim(A) \geq n$, il faut et il suffit que pour tout entier $r \geq 0$, on ait*
 $$
@@ -280,13 +280,13 @@ impliquent alors les assertions analogues pour la fonction $r \mapsto \mathrm{lo
 
 ### 4. Semi-continuité de la dimension
 
-#### Lemme 5 {#ac-viii-s6-lem-5 .statement}
+#### Lemme 5 {#ac-viii-s6-lem-5 .statement tag=0CRO}
 
 Soient A un anneau, r son radical, $R = \bigoplus_{i \in \mathbf{Z}} R_i$ une A-algèbre graduée, $M = \bigoplus_{i \in \mathbf{Z}} M_i$ un R-module gradué. On suppose que chaque $M_i$ est un A-module de type fini et que $M/rM$ est un $R/rR$-module de type fini. Alors M est un R-module de type fini.
 
 Soient $m_1, ..., m_n$ des éléments homogènes de M, dont les images dans $M/rM$ engendrent le $R/rR$-module $M/rM$. Soit N le sous-R-module (gradué) de M engendré par $\{ m_1, ..., m_n \}$. Pour tout $i \in \mathbf{Z}$, on a $M_i = N_i + rM_i$, donc $M_i = N_i$ (II, § 3, n° 2, prop. 4); par suite on a $M = N$.
 
-#### Lemme 6 {#ac-viii-s6-lem-6 .statement}
+#### Lemme 6 {#ac-viii-s6-lem-6 .statement tag=0CRP}
 
 Soient $\rho : B \to C$ un homomorphisme d’anneaux et S une partie multiplicative de B. On suppose que C est une B-algèbre de type fini, et que $S^{-1}C$ est une $S^{-1}B$-algèbre finie. Il existe alors $f \in S$ tel que $C_f$ soit une $B_f$-algèbre finie.
 
@@ -298,17 +298,17 @@ $$
 
 Soit $f = \prod_{x \in X} f(x)$; l’image de tout élément x de X dans $C_f$ est entière sur $B_f$, donc $C_f$ est une $B_f$-algèbre finie (V, § 1, n° 1, prop. 4).
 
-#### Proposition 7 {#ac-viii-s6-prop-7 .statement}
+#### Proposition 7 {#ac-viii-s6-prop-7 .statement tag=0CRQ}
 
 Supposons que H soit une $H_0$-algèbre de type fini. Alors la fonction $p \mapsto \dim(H \otimes_{H_0} \kappa(p))$ est semi-continue supérieurement sur $\mathrm{Spec}(H_0)$.
 
 Puisque H est de type fini comme $H_0$-algèbre, chaque $H_i$ est un $H_0$-module de type fini (III, § 1, no 2, corollaire à la prop. 1) et H est engendrée comme $H_0$-algèbre par $H_0 \oplus H_1 \oplus \cdots \oplus H_r$ pour un entier $r \geq 0$ convenable. Soit $p \in \mathrm{Spec}(H_0)$ et posons $\dim(H \otimes_{H_0} \kappa(p)) = n \geq 0$. D’après le corollaire 1 à la prop. 6, il existe des éléments $a_1, ..., a_n$ de H, tous homogènes de même degré $d > 0$, tels que le $\kappa(p)$-homomorphisme $\overline{\varphi} : \kappa(p)[X_1, ..., X_n] \to H \otimes_{H_0} \kappa(p)$ qui applique $X_i$ sur $a_i \otimes 1$ pour $1 \leq i \leq n$, fasse de $H \otimes_{H_0} \kappa(p)$ une $\kappa(p)[X_1, ..., X_n]$-algèbre finie. Notons $\varphi$ le $H_0$-homomorphisme de $H_0[X_1, ..., X_n] = R$ dans H qui applique $X_i$ sur $a_i$ pour $1 \leq i \leq n$. Si l’on pose, pour tout $m \in \mathbf{Z}$, $H'_m = \sum_{(m-1)d < i \leq md} H_i$, on obtient une graduation de type $\mathbf{Z}$ sur H, compatible avec la structure de R-module donnée par $\varphi$. Chaque $H'_m$ est de type fini sur $H_0$. D’après le lemme 5, $H_p$ est un $R_p$-module de type fini. D’après le lemme 6, il existe donc $f \in H_0 - p$ tel que $H_f$ soit un $R_f$-module de type fini. Pour tout $q \in \mathrm{Spec}(H_0)_f$, $H \otimes_{H_0} \kappa(q)$ est une $\kappa(q)[X_1, ..., X_n]$-algèbre finie, donc $\dim(H \otimes_{H_0} \kappa(q)) \leq n$ (§ 2, no 3, th. 1), ce qui achève la démonstration.
 
-#### Remarque 1 {#ac-viii-s6-n4-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s6-n4-rem-1 .statement tag=0CRR}
 
 \* En géométrie algébrique, la prop. 7 implique que la dimension des fibres d’un morphisme projectif de variétés algébriques est semi-continue supérieurement. \*
 
-#### Remarque 2 {#ac-viii-s6-n4-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s6-n4-rem-2 .statement tag=0CRS}
 
 Nous verrons plus tard que si $\rho : A \to B$ est un homomorphisme d’anneaux qui fasse de B une A-algèbre de type fini, la fonction $q \mapsto \dim_q(B \otimes_A \kappa(\rho^{-1}(q)))$ est semi-continue supérieurement sur $\mathrm{Spec}(B)$ (cf. p. 101, exerc. 10).
 
@@ -318,7 +318,7 @@ Dans ce numéro, on suppose que $H_0$ est un corps et que H est une $H_0$-algèb
 
 On pose $H_+ = H_{\geq 1}$; c’est un idéal maximal de H. L’anneau $S^{-1}H$ s’identifie à l’anneau local $H_{H_+}$ de H en l’idéal $H_+$; son idéal maximal est $(H_+ )_{H_+} = S^{-1}H_+$, son corps résiduel s’identifie à $H_0$.
 
-#### Proposition 8 {#ac-viii-s6-prop-8 .statement}
+#### Proposition 8 {#ac-viii-s6-prop-8 .statement tag=0CRT}
 
 a) On a $\dim(H) \leq [H_+/H_+^2 : H_0]$.
 b) Les conditions suivantes sont équivalentes :
@@ -341,7 +341,7 @@ $$
 
 Sous les hypothèses de $b$, on dit que $H$ est une $H_0$-algèbre graduée régulière, ou une $H_0$-algèbre graduée de polynômes. Sous les hypothèses de $c$, on dit que les $a_i$ forment un système de coordonnées gradué de $H$.
 
-#### Remarque 1 {#ac-viii-s6-n5-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s6-n5-rem-1 .statement tag=0CRU}
 
 Avec les notations de $c$, soit $d_i$ le degré de $a_i$ ($1 \leq i \leq n$). Alors la série de Poincaré $P_H = \sum_{n \in \mathbf{Z}} [H_n : H_0]. T^n$ est égale à $\prod_i (1 - T^{d_i})^{-1}$ (§ 4, n° 2, exemple 1).
 Par conséquent, si $H$ est une $H_0$-algèbre graduée de polynômes, on a
@@ -350,7 +350,7 @@ $$
 P_H = \prod_n (1 - T^n)^{-\delta(n)}, \quad \text{avec} \quad \delta(n) = [(H_+/H_+^2)_n : H_0].
 $$
 
-#### Remarque 2 {#ac-viii-s6-n5-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s6-n5-rem-2 .statement tag=0CRV}
 
 Inversement, le fait qu’il existe des entiers $d_i > 0$ tels que $P_H = \prod_i (1 - T^{d_i})^{-1}$ n’implique pas que $H$ soit une algèbre graduée de polynômes; par exemple, si $H$ est engendrée par un élément $X$ de degré 1 et un élément $Y$ de degré 2, soumis à la seule relation $X^2 = 0$, on a $P_H = (1 - T)^{-1}$.
 

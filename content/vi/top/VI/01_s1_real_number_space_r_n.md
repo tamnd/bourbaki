@@ -36,7 +36,7 @@ subsections:
       pdf_page: 43
 statements: 11
 exercises: 13
-content_sha256: 7e1c3c7167252e3ca2196010948ac6d6db32d3291da23bffca1a4e6d8c612f1e
+content_sha256: 82b9b5a3c096c3c36c7cdbdf910289bce69f825cd9638d8dc9ad02cce34bf45e
 translated_from: content/en/top/VI/01_s1_real_number_space_r_n.md
 source_content_sha256: 4f407f3681e8c98681264a9fe4f2c17ccb92d164b832d84999ebc3cac3052ef4
 translation_model: gpt-5.4-mini
@@ -50,17 +50,17 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. TÔPÔ CỦA $\mathbf{R}^n$
 
-#### Định nghĩa 1 {#top-vi-s1-def-1 .statement}
+#### Định nghĩa 1 {#top-vi-s1-def-1 .statement tag=0BW3}
 
 *Tích tôpô của n không gian đồng nhất với đường thẳng thực được gọi là không gian số thực n chiều, và được ký hiệu bởi $\mathbf{R}^n$. \*
 
-#### Nhận xét {#top-vi-s1-n1-rem-1 .statement}
+#### Nhận xét {#top-vi-s1-n1-rem-1 .statement tag=0BW4}
 
 Không gian $\mathbf{R}^0$ gồm một điểm.
 
 Từ *Lý thuyết tập hợp*, Chương III, § 6, no. 3, Định lý 2, Hệ quả I, ta biết rằng, nếu E là một tập vô hạn, thì $E^n$ đẳng lực với E với mọi số nguyên $n > 0$; do đó, nếu $n > 0$, thì $\mathbf{R}^n$ đẳng lực với $\mathbf{R}$, tức là $\mathbf{R}^n$ *có lực lượng của liên tục* (xem các Bài tập 1 và 2).
 
-#### Định nghĩa 2 {#top-vi-s1-def-2 .statement}
+#### Định nghĩa 2 {#top-vi-s1-def-2 .statement tag=0BW5}
 
 *Mọi tập con của $\mathbf{R}^n$ là tích của n khoảng mở (tương ứng đóng) của $\mathbf{R}$ được gọi là một hộp mở (tương ứng đóng) trong $\mathbf{R}^n$. [Với $n = 2$ thì nó được gọi là một hình chữ nhật mở (tương ứng đóng).]*
 
@@ -84,11 +84,11 @@ Nếu $A$ là một tập mở khác rỗng trong $\mathbf{R}^n$, thì các thà
 
 Xét xem dưới những điều kiện nào một tập con $A$ của $\mathbf{R}^n$ sẽ compact tương đối. Theo định lý Tychonoff (Chương I, § 9, no. 5, Định lý 3) thì điều kiện cần và đủ là các phép chiếu của $A$ lên các thừa số của $\mathbf{R}^n$ phải compact tương đối; theo định lý Borel-Lebesgue (Chương IV, § 2, no. 2, Định lý 2) điều này tương đương với việc nói rằng các phép chiếu ấy là các tập con bị chặn của $\mathbf{R}$. Ta nói rằng một tập con $A$ của $\mathbf{R}^n$ là bị chặn nếu mọi phép chiếu của nó đều là các tập con bị chặn của $\mathbf{R}$; do đó ta đã chứng minh:
 
-#### Mệnh đề 1 {#top-vi-s1-prop-1 .statement}
+#### Mệnh đề 1 {#top-vi-s1-prop-1 .statement tag=0BW6}
 
 Một tập con $A$ của $\mathbf{R}^n$ compact tương đối khi và chỉ khi nó bị chặn.
 
-#### Hệ quả {#top-vi-s1-n1-cor-1 .statement}
+#### Hệ quả {#top-vi-s1-n1-cor-1 .statement tag=0BW7}
 
 Không gian $\mathbf{R}^n$ là compact địa phương, nhưng không compact nếu $n \geq 1$.
 
@@ -120,7 +120,7 @@ Cho $(a_i)_{1 \leq i \leq n}$ là một hệ tự do gồm $n$ vectơ của $\ma
 
 Cho một đa tạp tuyến tính afin $p$-chiều $V$ trong $\mathbf{R}^n$, tồn tại một ánh xạ afin $f$ của $\mathbf{R}^n$ lên chính nó biến $V$ thành một đa tạp tọa độ $p$-chiều, nghĩa là một không gian con vectơ $V'$ được sinh bởi $p$ trong các vectơ của cơ sở chính tắc $(e_i)$ của $\mathbf{R}^n$. Tồn tại một ánh xạ từ $V'$ lên $\mathbf{R}^p$ là một đẳng cấu của cấu trúc không gian vectơ và tôpô của $V'$ lên các cấu trúc tương ứng của $\mathbf{R}^p$ (hơn nữa, thường tiện lợi khi đồng nhất $\mathbf{R}^p$ với một đa tạp tọa độ như thế $V'$, chẳng hạn với không gian con vectơ được sinh bởi $e_1, e_2, \ldots, e_p$). Ngoài ra, $V'$ là một tập con đóng của $\mathbf{R}^n$ (Chương I, § 4, no. 3, Hệ quả của Mệnh đề 7); suy ra:
 
-#### Mệnh đề 2 {#top-vi-s1-prop-2 .statement}
+#### Mệnh đề 2 {#top-vi-s1-prop-2 .statement tag=0BW8}
 
 *Mọi đa tạp afin tuyến tính $p$-chiều trong $\mathbf{R}^n$ đều là một tập con đóng của $\mathbf{R}^n$, và đồng phôi với $\mathbf{R}^p$.*
 
@@ -138,19 +138,19 @@ Một đường thẳng đi qua hai điểm phân biệt $x$ và $y$ cũng có m
 
 Nếu $x \neq y$, tập các điểm $ux + vy$ sao cho $u > 0, v > 0$ và $u + v = 1$ được gọi (một cách nói lỏng) là đoạn mở có hai đầu mút $x, y$; nó đồng phôi với khoảng mở ]$0, 1[$ (và do đó cũng đồng phôi với $\mathbf{R}$). Cuối cùng, hợp của $\{y\}$ và đoạn mở có hai đầu mút $x, y$ đôi khi được gọi là đoạn mở tại $x$ và đóng tại $y$; nó đồng phôi với khoảng $[0, 1[$. Mọi đoạn có $x$ và $y$ làm hai đầu mút đều liên thông, và bao đóng của mỗi đoạn ấy là đoạn đóng có cùng hai đầu mút.
 
-#### Mệnh đề 3 {#top-vi-s1-prop-3 .statement}
+#### Mệnh đề 3 {#top-vi-s1-prop-3 .statement tag=0BW9}
 
 *Cho $f(x) = f(x_1, x_2, \ldots, x_n)$ là một đa thức với hệ số thực, không đồng nhất bằng không, xác định trên $\mathbf{R}^n$. Khi đó phần bù của tập $\overline{f}(0)$ là trù mật trong $\mathbf{R}^n$.*
 
 Cho $x$ là một điểm bất kỳ của $\mathbf{R}^n$ và cho $y \in \mathbf{R}^n$ sao cho $f(y) \neq 0$; $\varphi(t) = f(x + t(y - x))$ là một đa thức theo biến thực $t$, không đồng nhất bằng không; do đó tồn tại các giá trị của $t$ tùy ý nhỏ sao cho $\varphi(t) \neq 0$. Điều này cho thấy rằng $x$ nằm trong bao đóng của phần bù của $\overline{f}(0)$.
 
-#### Hệ quả {#top-vi-s1-n4-cor-1 .statement}
+#### Hệ quả {#top-vi-s1-n4-cor-1 .statement tag=0BWA}
 
 *Phần bù của một tập tuyến tính afin có chiều $p < n$ là trù mật trong $\mathbf{R}^n$. \*
 
 Vì mọi tập tuyến tính afin có chiều $p < n$ đều được chứa trong một siêu phẳng, nên chỉ cần chứng minh hệ quả cho một siêu phẳng; nhưng một siêu phẳng được xác định bởi một phương trình $g(x) = 0$, trong đó $g$ là một đa thức tuyến tính không đồng nhất bằng không.
 
-#### Mệnh đề 4 {#top-vi-s1-prop-4 .statement}
+#### Mệnh đề 4 {#top-vi-s1-prop-4 .statement tag=0BWB}
 
 *Trong $\mathbf{R}^n$ ($n \geq 1$) phần bù của mọi siêu phẳng có hai thành phần liên thông.*
 
@@ -172,7 +172,7 @@ Sự kiện này khiến người ta ngờ rằng tôpô được định nghĩa
 
 Nếu bây giờ $A$ là một *đại số* có hạng hữu hạn $n$ trên trường $\mathbf{R}$, thì tôpô ở trên trên $A$ (xem như một không gian vectơ $n$-chiều trên $\mathbf{R}$) tương thích không những với cấu trúc nhóm cộng của $A$, mà còn với cấu trúc *vành* của nó. Đây là hệ quả của kết quả tổng quát hơn sau đây:
 
-#### Mệnh đề 5 {#top-vi-s1-prop-5 .statement}
+#### Mệnh đề 5 {#top-vi-s1-prop-5 .statement tag=0BWC}
 
 *Cho $E, F, G$ là ba không gian vectơ hữu hạn chiều trên trường $\mathbf{R}$. Khi đó mọi ánh xạ song tuyến tính (*) $f$ từ $E \times F$ vào $G$ đều liên tục.*
 
@@ -182,7 +182,7 @@ Ta có thể giả sử rằng $E = \mathbf{R}^m, F = \mathbf{R}^n, G = \mathbf{
 
 Một ví dụ quan trọng của một không gian vectơ trên $\mathbf{R}$ là không gian $\mathbf{M}_{m,n}(\mathbf{R})$ của *các ma trận với m hàng và n cột* mà các phần tử của chúng thuộc $\mathbf{R}$; đây là một không gian có chiều $mn$ trên $\mathbf{R}$, do đó đồng phôi với $\mathbf{R}^{mn}$. Theo Mệnh đề 5 của § 5, tích $X.Y$ của hai ma trận $X \in \mathbf{M}_{m,n}(\mathbf{R}), Y \in \mathbf{M}_{n,p}(\mathbf{R})$ là một hàm liên tục của $(X, Y)$. Đặc biệt, tôpô của không gian $\mathbf{M}_n(\mathbf{R})$ các ma trận vuông cấp $n$ tương thích với cấu trúc vành trên $\mathbf{M}_n(\mathbf{R})$. Hơn nữa:
 
-#### Mệnh đề 6 {#top-vi-s1-prop-6 .statement}
+#### Mệnh đề 6 {#top-vi-s1-prop-6 .statement tag=0BWD}
 
 *Trong vành $\mathbf{M}_n(\mathbf{R})$, nhóm $\mathbf{GL}_n(\mathbf{R})$ của các ma trận không suy biến là một tập con mở trù mật, và tôpô cảm sinh trên tập này tương thích với cấu trúc nhóm của nó.*
 

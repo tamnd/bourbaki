@@ -37,9 +37,9 @@ subsections:
       pdf_page: 399
 statements: 28
 exercises: 1
-content_sha256: 210e39b9e70bf065f37e51a24ae4470f1867c343d22c9da44c26eb2c7527646c
+content_sha256: 82db11c2949a6287777365f47db01268a728b02d92d61df9824072b830f616d9
 translated_from: content/en/alg/II/11_s11_graded_modules_and_rings.md
-source_content_sha256: 37bce07c0427eabe99cd01d758109ab262fac328c645d602b6a24c6368dc128f
+source_content_sha256: cee0143d544bc99c4e8496ec6bc7458982857f3f0ed4fb081e4de491d7e81dfd
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-cafeca20
 glossary_version: 34
@@ -55,13 +55,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Ta sẽ chuyển sang một ngôn ngữ khác các định nghĩa liên quan đến các tổng trực tiếp (§ 1, no. 8).
 
-#### Định nghĩa 1 {#alg-ii-s11-def-1 .statement}
+#### Định nghĩa 1 {#alg-ii-s11-def-1 .statement tag=05XX}
 
 *Cho một nhóm giao hoán $G$ được viết theo phép cộng và một tập hợp $\Delta$, một phân bậc kiểu $\Delta$ trên $G$ là một họ $(G_\lambda)_{\lambda \in \Delta}$ các nhóm con của $G$, mà $G$ là tổng trực tiếp của chúng. Tập hợp $G$, với cấu trúc được xác định bởi luật nhóm và phân bậc của nó, được gọi là một nhóm (giao hoán) phân bậc kiểu $\Delta$.*
 
 $\Delta$ được gọi là *tập hợp các bậc* của $G$. Một phần tử $x \in G$ được gọi là *thuần nhất* nếu nó thuộc một trong các $G_\lambda$, *thuần nhất bậc* $\lambda$ nếu $x \in G_\lambda$. Phần tử 0 do đó thuần nhất với mọi bậc; nhưng nếu $x \neq 0$ là thuần nhất, nó chỉ thuộc một trong các $G_\lambda$; chỉ số $\lambda$ sao cho $x \in G_\lambda$ khi đó được gọi là *bậc của* $x$ (hoặc đôi khi là *trọng số* của $x$) và đôi khi được ký hiệu bởi $\deg(x)$. Mọi $y \in G$ có thể được viết duy nhất dưới dạng một tổng $\sum_\lambda y_\lambda$ các phần tử thuần nhất với $y_\lambda \in G_\lambda$; $y_\lambda$ được gọi là *thành phần thuần nhất bậc* $\lambda$ (hoặc đơn giản là *thành phần bậc* $\lambda$) của $y$. Khi từ "trọng số" được dùng thay cho "bậc", tính từ "thuần nhất" được thay bằng "đẳng trọng".
 
-#### Ví dụ {#alg-ii-s11-n1-exa-1 .statement}
+#### Ví dụ {#alg-ii-s11-n1-exa-1 .statement tag=05XY}
 
 (1) Cho một nửa nhóm giao hoán bất kỳ $\Delta$ (với phần tử đơn vị 0) và một nhóm giao hoán $G$, một phân bậc $(G_\lambda)_{\lambda \in \Delta}$ được xác định trên $G$ bằng cách lấy $G_0 = G$ và $G_\lambda = \{0\}$ với $\lambda \neq 0$; phân bậc này được gọi là *tầm thường*.
 
@@ -77,7 +77,7 @@ Các định nghĩa và ví dụ của số này mở rộng ngay lập tức đ
 
 ### 2. CÁC VÀNH VÀ MÔĐUN PHÂN BẬC
 
-#### Định nghĩa 2 {#alg-ii-s11-def-2 .statement}
+#### Định nghĩa 2 {#alg-ii-s11-def-2 .statement tag=05XZ}
 
 *Một vành $A$ và một phân bậc $(A_\lambda)$ kiểu $\Delta$ trên nhóm cộng $A$, phân bậc này được nói là tương thích với cấu trúc vành trên $A$ nếu*
 
@@ -87,13 +87,13 @@ $$
 
 *Vành $A$ với phân bậc này khi đó được gọi là một vành phân bậc kiểu $\Delta$.*
 
-#### Mệnh đề 1 {#alg-ii-s11-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ii-s11-prop-1 .statement tag=05Y0}
 
 *Nếu mọi phần tử của $\Delta$ là giản ước được và $(A_\lambda)$ là một phân bậc kiểu $\Delta$ tương thích với cấu trúc của một vành $A$, $A_0$ là một vành con của $A$ (và đặc biệt $1 \in A_0$).*
 
 Vì $A_0 A_0 \subset A_0$ theo định nghĩa, chỉ cần chứng minh rằng $1 \in A_0$. Gọi $1 = \sum_{\lambda \in \Delta} e_\lambda$ là phân tích của 1 thành các thành phần thuần nhất của nó. Nếu $x \in A_\mu$, thì $x = x . 1 = \sum_{\lambda \in \Delta} x e_\lambda$; so sánh các thành phần bậc $\mu$, (vì $\mu + \lambda = \mu$ suy ra $\lambda = 0$) $x = x e_0$. Vì quan hệ này đúng với mọi phần tử thuần nhất của $A$, nó đúng với mọi $x \in A$; đặc biệt $1 = 1 . e_0 = e_0 \in A_0$.
 
-#### Định nghĩa 3 {#alg-ii-s11-def-3 .statement}
+#### Định nghĩa 3 {#alg-ii-s11-def-3 .statement tag=05Y1}
 
 *Cho $A$ là một vành phân bậc kiểu $\Delta$, $(A_\lambda)$ là phân bậc của nó và $M$ là một $A$-môđun trái (resp. phải); một phân bậc $(M_\lambda)$ kiểu $\lambda$ trên nhóm cộng $M$ là tương thích với cấu trúc $A$-môđun trên $M$ nếu*
 
@@ -107,7 +107,7 @@ Khi các phần tử của $\Delta$ là giản ước được, từ (2) và M�
 
 Rõ ràng nếu $A$ là một vành phân bậc kiểu $\Delta$, thì $A$-môđun trái $A_s$ (resp. $A$-môđun phải $A_d$) là phân bậc kiểu $\Delta$.
 
-#### Ví dụ {#alg-ii-s11-n2-exa-1 .statement}
+#### Ví dụ {#alg-ii-s11-n2-exa-1 .statement tag=05Y2}
 
 (1) Trên mọi vành $A$, phân bậc tầm thường kiểu $\Delta$ là tương thích với cấu trúc vành. Nếu $A$ được phân bậc bởi phân bậc tầm thường, để một phân bậc $(M_\lambda)$ kiểu $\Delta$ trên một $A$-môđun $M$ là tương thích với cấu trúc $A$-môđun, điều kiện cần và đủ là các $M_\lambda$ là các *môđun con* của $M$.
 
@@ -123,13 +123,13 @@ Tương tự, nếu $\Delta = \Delta_0^{(r)}$ (trong đó $\Delta_0$ là một n
 
 *(5) Cho $B$ là một vành giao hoán, $E$ là một $B$-môđun, $Q$ là một dạng toàn phương trên $E$ và $C(Q)$ là đại số Clifford của $Q$ (xem IX, § 9). Các $B$-môđun con $C^+(Q)$ và $C^-(Q)$ tạo thành trên $C(Q)$ một phép phân bậc kiểu $\mathbf{Z}/2\mathbf{Z}$ tương thích với cấu trúc vành trên $C(Q)$.*
 
-#### Nhận xét {#alg-ii-s11-n2-rem-1 .statement}
+#### Nhận xét {#alg-ii-s11-n2-rem-1 .statement tag=05Y3}
 
 (1) Các phép phân bậc thường được sử dụng nhất là kiểu $\mathbf{Z}$ hoặc kiểu $\mathbf{Z}^n$; khi ta nói về các môđun và vành phân bậc (tương ứng phân bậc kép, phân bậc ba, v.v.) mà không nói đến kiểu, ta hiểu rằng ta nói đến các phép phân bậc kiểu $\mathbf{Z}$ (tương ứng $\mathbf{Z}^2, \mathbf{Z}^3$, v.v.); một vành phân bậc (tương ứng môđun) kiểu $\mathbf{N}$ cũng được gọi là một vành phân bậc (tương ứng môđun) với các bậc dương.
 
 (2) Các $\mathbf{Z}$-môđun phân bậc kiểu $\Delta$, khi $\mathbf{Z}$ có phép phân bậc tầm thường, chính là các nhóm giao hoán phân bậc (mà tập hợp các bậc là một nửa nhóm giao hoán) của Định nghĩa 1 (no. 1).
 
-#### Định nghĩa 4 {#alg-ii-s11-def-4 .statement}
+#### Định nghĩa 4 {#alg-ii-s11-def-4 .statement tag=05Y4}
 
 *Cho $A, A'$ là hai vành phân bậc cùng kiểu $\Delta$ và $(A_\lambda), (A'_\lambda)$ là các phép phân bậc tương ứng của chúng. Một đồng cấu vành $h : A \to A'$ được gọi là phân bậc nếu $h(A_\lambda) \subset A'_\lambda$ với mọi $\lambda \in \Delta$.
 
@@ -143,7 +143,7 @@ Nếu $h : A \to A', h' : A' \to A''$ là hai đồng cấu phân bậc của c�
 
 Tương tự, nếu $u : M \to M'$ và $u' : M' \to M''$ là hai đồng cấu phân bậc của các A-môđun phân bậc kiểu $\Delta$, có các bậc tương ứng $\delta$ và $\delta'$, thì $u' \circ u : M \to M''$ là một đồng cấu phân bậc có bậc $\delta + \delta'$. Nếu $\delta$ có nghịch đảo $-\delta$ trong $\Delta$ và $u : M \to M'$ là một đồng cấu phân bậc song ánh có bậc $\delta$, ánh xạ nghịch đảo $u' : M' \to M$ là một đồng cấu phân bậc song ánh có bậc $-\delta$. Suy ra như trên rằng các *đồng cấu phân bậc có bậc* 0 có thể được lấy làm các cấu xạ của loài các A-môđun phân bậc kiểu $\Delta$. Nhưng một đồng cấu phân bậc song ánh $u : M \to N$ có bậc $\neq 0$ không phải là một đẳng cấu A-môđun phân bậc nếu $M$ và $N$ khác không và các phần tử của $\Delta$ là giản ước được.
 
-#### Ví dụ {#alg-ii-s11-n2-exa-2 .statement}
+#### Ví dụ {#alg-ii-s11-n2-exa-2 .statement tag=05Y5}
 
 (6) Nếu $M$ là một A-môđun phân bậc và $M(\lambda_0)$ là một A-môđun phân bậc thu được bằng cách dịch chuyển (no. 2, *Ví dụ 3*), ánh xạ tuyến tính theo $\mathbf{Z}$ từ $M(\lambda_0)$ vào $M$ trùng với đơn ánh chính tắc trên mỗi $M_{\lambda + \lambda_0}$ là một đồng cấu phân bậc có bậc $\lambda_0$ (song ánh khi $\Delta$ là một *nhóm*).
 
@@ -155,7 +155,7 @@ Giả sử luôn rằng $\Delta$ là một nhóm giao hoán, bây giờ cho $N$ 
 
 ### 3. CÁC MÔĐUN CON PHÂN BẬC
 
-#### Mệnh đề 2 {#alg-ii-s11-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ii-s11-prop-2 .statement tag=05Y6}
 
 *Cho A là một vành phân bậc kiểu $\Delta$, M là một A-môđun phân bậc kiểu $\Delta$, $(M_\lambda)$ là phân bậc của nó và N là một môđun con A của M. Các tính chất sau là tương đương:*
 
@@ -173,11 +173,11 @@ $$
 
 Khi một môđun con N của M có các tính chất tương đương được nêu trong Mệnh đề 2, rõ ràng các $N \cap M_\lambda$ tạo thành một phân bậc tương thích với cấu trúc A-môđun của N, gọi là *phân bậc cảm sinh* bởi phân bậc trên M; N với phân bậc này được gọi là một *môđun con phân bậc* của M.
 
-#### Hệ quả 1 {#alg-ii-s11-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s11-prop-2-cor-1 .statement tag=05Y7}
 
 *Nếu N là một môđun con phân bậc của M và $(x_i)$ là một hệ sinh của N, các thành phần thuần nhất của các $x_i$ tạo thành một hệ sinh của N.*
 
-#### Hệ quả 2 {#alg-ii-s11-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s11-prop-2-cor-2 .statement tag=05Y8}
 
 *Nếu N là một môđun con sinh hữu hạn của M, N thừa nhận một hệ sinh hữu hạn gồm các phần tử thuần nhất.*
 
@@ -199,7 +199,7 @@ Phân bậc $((M_\lambda + N)/N)_{\lambda \in \Delta}$ được gọi là phân 
 
 Nếu b là một iđêan hai phía phân bậc của A, phân bậc thương trên A/b tương thích với cấu trúc vành trên A/b; vành A/b với phân bậc này được gọi là vành phân bậc thương của A bởi b; đồng cấu chính tắc A $\to$ A/b là một đồng cấu vành phân bậc đối với phân bậc này.
 
-#### Mệnh đề 3 {#alg-ii-s11-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ii-s11-prop-3 .statement tag=05Y9}
 
 *Cho A là một vành phân bậc kiểu $\Delta$, M, N là hai A-môđun phân bậc kiểu $\Delta$ và u: M \to N là một đồng cấu A phân bậc có bậc $\delta$. Khi đó:*
 (i) Im(u) là một môđun con phân bậc của N.
@@ -214,13 +214,13 @@ $$
 
 và u(x_\lambda) có bậc \lambda + \delta; nếu \delta là chính quy thì quan hệ \lambda + \delta = \mu + \delta kéo theo \lambda = \mu, do đó các u(x_\lambda) là các thành phần thuần nhất của u(x) và tất yếu u(x_\lambda) = 0 với mọi \lambda \in \Delta, điều này chứng minh (ii). Song ánh v: M/Ker(u) \to Im(u) liên kết một cách chính tắc với u khi đó là một đồng cấu phân bậc có bậc \delta, như suy ra từ định nghĩa của phân bậc thương; do đó (iii) khi \delta = 0.
 
-#### Hệ quả {#alg-ii-s11-n3-cor-1 .statement}
+#### Hệ quả {#alg-ii-s11-n3-cor-1 .statement tag=05YA}
 
 *Cho A, B là hai vành phân bậc kiểu $\Delta$ và u: A \to B là một đồng cấu phân bậc của các vành phân bậc. Khi đó Im(u) là một môđun con phân bậc của B, Ker(u) là một iđêan hai phía phân bậc của A và song ánh A/Ker(u) \to Im(u) liên kết một cách chính tắc với u là một đẳng cấu của các vành phân bậc.*
 
 Chỉ cần áp dụng Mệnh đề 3 cho u được xem như một đồng cấu bậc 0 của các môđun phân bậc $\mathbf{Z}$.
 
-#### Mệnh đề 4 {#alg-ii-s11-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ii-s11-prop-4 .statement tag=05YB}
 
 *Cho A là một vành phân bậc kiểu $\Delta$ và M là một A-môđun phân bậc kiểu $\Delta$.*
 (i) *Mọi tổng và mọi giao của các môđun con phân bậc của M là một môđun con phân bậc.*
@@ -231,17 +231,17 @@ Nếu $(\mathbf{N}_i)$ là một họ các môđun con phân bậc của $M$, t�
 
 Để chứng minh (ii), chỉ cần chú ý rằng $\operatorname{Ann}(x)$ là hạt nhân của đồng cấu $a \mapsto ax$ của A-môđun $A_s$ vào $M$ và rằng đồng cấu này là phân bậc có bậc $\mu$; kết luận suy ra từ Mệnh đề 3(ii). Cuối cùng (iii) là một hệ quả của (i) và (ii) vì linh hóa tử của một môđun con phân bậc $N$ của $M$ là giao của các linh hóa tử của các phần tử thuần nhất của $N$, theo Mệnh đề 2.
 
-#### Nhận xét 2 {#alg-ii-s11-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-ii-s11-n3-rem-2 .statement tag=05YC}
 
 Cho $M$ là một A-môđun phân bậc và $E$ là một môđun con của $M$; suy ra từ Mệnh đề 4(i) rằng tồn tại một môđun con phân bậc *lớn nhất* $N'$ của $M$ được chứa trong $E$ và một môđun con phân bậc *nhỏ nhất* $N''$ của $M$ chứa $E$; $N'$ là tập hợp các $x \in E$ mà mọi thành phần thuần nhất của nó thuộc $E$ và $N''$ là môđun con của $M$ được sinh bởi các thành phần thuần nhất của một hệ sinh của $E$.
 
-#### Mệnh đề 5 {#alg-ii-s11-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ii-s11-prop-5 .statement tag=05YD}
 
 *Cho $A$ là một vành phân bậc kiểu $\Delta$. Nếu mọi phần tử của $\Delta$ đều giản ước được, thì, với mọi phần tử thuần nhất $a \in A$, bộ giao hoán của $a$ trong $A$ (I, § 1, no. 5) là một vành con phân bậc của $A$.*
 
 Giả sử rằng $a$ có bậc $\delta$; đặt $b = \sum_\lambda b_\lambda$ là một phần tử giao hoán được với $a$, $b_\lambda$ là thành phần thuần nhất của $b$ có bậc $\lambda$ với mọi $\lambda \in \Delta$. Khi đó theo giả thiết $\sum_\lambda (ab_\lambda - b_\lambda a) = 0$ và $ab_\lambda - b_\lambda a$ là thuần nhất có bậc $\lambda + \delta$; vì $\delta$ giản ước được, suy ra rằng $ab_\lambda = b_\lambda a$ với mọi $\lambda$, điều này chứng minh mệnh đề của ta.
 
-#### Hệ quả {#alg-ii-s11-n3-cor-2 .statement}
+#### Hệ quả {#alg-ii-s11-n3-cor-2 .statement tag=05YE}
 
 *Nếu mọi phần tử của $\Delta$ đều giản ước được, bộ giao hoán của vành con phân bậc $B$ của $A$ (và đặc biệt là tâm của $A$) là một vành con phân bậc của $A$.*
 
@@ -261,25 +261,25 @@ Một cấu trúc có thứ tự (ký hiệu bởi $\leq$) trên một nhóm gia
 
 Cho $\Delta$ là một nhóm giao hoán có thứ tự, A là một vành phân bậc kiểu $\Delta$ và $(A_\lambda)$ là phân bậc của nó, và giả sử rằng quan hệ $A_\lambda \neq \{0\}$ kéo theo $\lambda \geq 0$; khi đó từ các định nghĩa suy ra rằng $\mathfrak{I}_0 = \sum_{\lambda > 0} A_\lambda$ là một *iđêan hai phía phân bậc* của A, theo nhận xét vừa nêu.
 
-#### Mệnh đề 6 {#alg-ii-s11-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ii-s11-prop-6 .statement tag=05YF}
 
 *Cho $\Delta$ là một nhóm giao hoán có thứ tự, A là một vành phân bậc kiểu $\Delta$, $(A_\lambda)$ là phân bậc của nó, M là một môđun A phân bậc kiểu $\Delta$ và $(M_\lambda)$ là phân bậc của nó. Giả sử rằng quan hệ $A_\lambda \neq \{0\}$ kéo theo $\lambda \geq 0$ và tồn tại $\lambda_0$ sao cho $M_{\lambda_0} \neq \{0\}$ và $M_\lambda = \{0\}$ với $\lambda < \lambda_0$. Khi đó, nếu $\mathfrak{I}_0 = \sum_{\lambda > 0} A_\lambda$, thì $\mathfrak{I}_0 M \neq M$.*
 
 Cho $x$ là một phần tử khác không của $M_{\lambda_0}$; giả sử rằng $x \in \mathfrak{I}_0 M$. Khi đó $x = \sum_i a_i x_i$, trong đó các $a_i$ là các phần tử thuần nhất $\neq 0$ của $\mathfrak{I}_0$ và các $x_i$ là các phần tử thuần nhất $\neq 0$ của M với $\deg(x) = \deg(a_i) + \deg(x_i)$ với mọi $i$ (no. 2). Nhưng, vì $\deg(a_i) > 0$, $\lambda_0 = \deg(a_i) + \deg(x_i) > \deg(x_i)$, điều này mâu thuẫn với giả thiết.
 
-#### Hệ quả 1 {#alg-ii-s11-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s11-prop-6-cor-1 .statement tag=05YG}
 
 *Với các giả thiết trên $\Delta$ và A của Mệnh đề 6, nếu M là một A-môđun phân bậc sinh hữu hạn sao cho $\mathfrak{I}_0 M = M$, thì $M = \{0\}$.*
 
 Giả sử $M \neq \{0\}$. Gọi $\lambda_0$ là một phần tử cực tiểu của tập hợp các bậc của một hệ sinh hữu hạn của M gồm các phần tử thuần nhất $\neq 0$; khi đó các giả thiết của Mệnh đề 6 được thỏa mãn, điều này dẫn đến một mâu thuẫn.
 
-#### Hệ quả 2 {#alg-ii-s11-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s11-prop-6-cor-2 .statement tag=05YH}
 
 *Với các giả thiết trên $\Delta$ và A của Mệnh đề 6, cho M là một* A-môđun phân bậc sinh hữu hạn và $\mathbf{N}$ là một môđun con phân bậc của $\mathbf{M}$ sao cho $\mathbf{N} + \mathfrak{J}_0 \mathbf{M} = \mathbf{M}$; khi đó $\mathbf{N} = \mathbf{M}$.
 
 $\mathbf{M}/\mathbf{N}$ là một A-môđun phân bậc sinh hữu hạn và giả thiết suy ra rằng $\mathfrak{J}_0 . (\mathbf{M}/\mathbf{N}) = \mathbf{M}/\mathbf{N}$; do đó $\mathbf{M}/\mathbf{N} = 0$.
 
-#### Hệ quả 3 {#alg-ii-s11-prop-6-cor-3 .statement}
+#### Hệ quả 3 {#alg-ii-s11-prop-6-cor-3 .statement tag=05YI}
 
 *Với các giả thiết trên $\Delta$ và $\mathbf{A}$ của Mệnh đề 6, cho $u : \mathbf{M} \to \mathbf{N}$ là một đồng cấu phân bậc của các A-môđun phải phân bậc $\mathbf{A}$, trong đó $\mathbf{N}$ được giả thiết là sinh hữu hạn. Nếu đồng cấu*
 
@@ -297,7 +297,7 @@ $$
 
 là đẳng cấu với $(N \otimes_{\mathbf{A}} (\mathbf{A}/\mathfrak{J}_0))/\mathrm{Im}(u \otimes 1)$ (§ 3, no. 6, Mệnh đề 6). Giả thiết do đó suy ra $(N/u(\mathbf{M})) \otimes_{\mathbf{A}} (\mathbf{A}/\mathfrak{J}_0) = 0$ và do đó $\mathbf{N} = u(\mathbf{M})$ theo Hệ quả 1.
 
-#### Nhận xét {#alg-ii-s11-n4-rem-1 .statement}
+#### Nhận xét {#alg-ii-s11-n4-rem-1 .statement tag=05YJ}
 
 Từ chứng minh của Hệ quả 1 suy ra rằng Hệ quả 1 và 2 (tương ứng Hệ quả 3) vẫn đúng khi, thay vì giả sử rằng $\mathbf{M}$ (tương ứng $\mathbf{N}$) là sinh hữu hạn, đưa ra giả thiết sau: tồn tại một tập con $\Delta^+$ của $\Delta$ thỏa mãn các điều kiện sau:
 
@@ -306,7 +306,7 @@ Từ chứng minh của Hệ quả 1 suy ra rằng Hệ quả 1 và 2 (tương �
 
 Điều này xảy ra nếu $\Delta = \mathbf{Z}$ và $\mathbf{M}$ (tương ứng $\mathbf{N}$) là một môđun phân bậc với các bậc *dương*.
 
-#### Mệnh đề 7 {#alg-ii-s11-prop-7 .statement}
+#### Mệnh đề 7 {#alg-ii-s11-prop-7 .statement tag=05YK}
 
 *Giả sử rằng $\Delta = \mathbf{Z}$. Với các giả thiết về $\mathbf{A}$ và $\mathbf{M}$ của Mệnh đề 6, xét môđun $\mathbf{A}_0$-phân bậc $\mathbf{N} = \mathbf{M}/\mathfrak{J}_0 \mathbf{M}$ và giả sử các điều kiện sau được thỏa mãn:
 (i) mỗi $N_\lambda$ được xét như một $\mathbf{A}_0$-môđun đều có một cơ sở $(y_{i\lambda})_{i \in I_\lambda}$;
@@ -334,13 +334,13 @@ trong đó $j$ và $\bar{p}$ được suy ra từ $j$ và $p$ khi chuyển qua c
 
 Sau này chúng ta sẽ chỉ ra (Đại số giao hoán, II, § 3, no. 2, Mệnh đề 5) cách mở rộng mệnh đề này cho các môđun không phân bậc.
 
-#### Bổ đề 1 {#alg-ii-s11-lem-1 .statement}
+#### Bổ đề 1 {#alg-ii-s11-lem-1 .statement tag=05YL}
 
 *Đối với một nhóm giao hoán $\Delta$, để tồn tại trên $\Delta$ một thứ tự toàn phần tương thích với cấu trúc nhóm của $\Delta$, điều kiện cần và đủ là $\Delta$ không xoắn.*
 
 Nếu tồn tại một cấu trúc thứ tự như vậy trên $\Delta$ và nếu $\lambda > 0$, thì $\lambda + \mu > 0$ với mọi $\mu \geq 0$ và đặc biệt, bằng quy nạp theo số nguyên $n > 0$, $n.\lambda > 0$, điều này chứng minh rằng $\Delta$ không xoắn (vì mọi phần tử $\neq 0$ của $\Delta$ hoặc là $> 0$ hoặc là $< 0$). Ngược lại, nếu $\Delta$ không xoắn, $\Delta$ là một môđun con-$\mathbf{Z}$ của một không gian vectơ $\mathbf{Q}$ (§ 7, no. 10, Hệ quả 1 của Mệnh đề 26) mà có thể giả sử có dạng $\mathbf{Q}^{(I)}$; nếu $I$ được cho một thứ tự tốt (*Lý thuyết tập hợp*, III, § 2, no. 3, Định lý 1) và $\mathbf{Q}$ thứ tự thông thường của nó, tập hợp $\mathbf{Q}^{(I)}$ với *thứ tự từ điển* là được sắp thứ tự toàn phần (*Lý thuyết tập hợp*, III, § 2, no. 6); hiển nhiên thứ tự này tương thích với cấu trúc nhóm cộng của $\mathbf{Q}^{(I)}$.
 
-#### Mệnh đề 8 {#alg-ii-s11-prop-8 .statement}
+#### Mệnh đề 8 {#alg-ii-s11-prop-8 .statement tag=05YM}
 
 *Cho $\Delta$ là một nhóm giao hoán không xoắn và $A$ là một vành phân bậc kiểu $\Delta$. Nếu tích trong $A$ của hai phần tử thuần nhất $\neq 0$ là $\neq 0$, thì vành $A$ không có ước của 0.*
 
@@ -362,7 +362,7 @@ Cho $M'$ (tương ứng $N'$) là một môđun $A$-phải (tương ứng trái)
 
 Khi $A$ giao hoán, một phép phân bậc (tương thích với cấu trúc $A$-môđun) cũng được định nghĩa trên tích tenxơ của một số hữu hạn bất kỳ các $A$-môđun phân bậc; hơn nữa, ngay lập tức thấy rằng các đẳng cấu kết hợp như $(M \otimes N) \otimes P \to M \otimes (N \otimes P)$ ($§ 3$, no. 8, Mệnh đề 8) là các đẳng cấu của các môđun *phân bậc*.
 
-#### Nhận xét {#alg-ii-s11-n5-rem-1 .statement}
+#### Nhận xét {#alg-ii-s11-n5-rem-1 .statement tag=05YN}
 
 Khi $A$ có phép phân bậc *tầm thường* (no. 1, *Ví dụ* 1), khi đó $(M \otimes_A N)_\lambda$ đơn giản là tổng trực tiếp của các $Y$-môđun con $M_\mu \otimes_A N_\nu$ của $M \otimes_A N$ sao cho $\mu + \nu = \lambda$.
 
@@ -386,7 +386,7 @@ Cho $M'$ và $N'$ là hai $A$-môđun trái phân bậc kiểu $\Delta$ và $u':
 
 Đặc biệt $\mathrm{Homgr}_A(M, M)$ là một *vành con phân bậc* của $\mathrm{End}_A(M)$, được ký hiệu là $\mathrm{Endgr}_A(M)$.
 
-#### Nhận xét {#alg-ii-s11-n6-rem-1 .statement}
+#### Nhận xét {#alg-ii-s11-n6-rem-1 .statement tag=05YO}
 
 Nếu $M$ và $N$ là các $A$-môđun trái phân bậc, $\mathrm{Homgr}_A(M, N)$ nói chung phân biệt với $\mathrm{Hom}_A(M, N)$. Tuy nhiên hai tập hợp này bằng nhau khi $M$ là một $A$-môđun *sinh hữu hạn*. Vì khi đó $M$ được sinh bởi một số hữu hạn các phần tử thuần nhất $x_i$ ($1 \leq i \leq n$); gọi $d(i)$ là bậc của $x_i$; cho $u \in \mathrm{Hom}_A(M, N)$ và với mọi $\lambda \in \Delta$ gọi $z_{i,\lambda}$ là thành phần thuần nhất của $u(x_i)$ có bậc $\lambda + d(i)$. Ta chứng minh rằng tồn tại một đồng cấu $u_\lambda : M \to N$ sao cho $u_\lambda(x_i) = z_{i,\lambda}$ với mọi $i$. Chỉ cần chứng minh rằng nếu $\sum_i a_ix_i = 0$ với $a_i \in A$ đối với $1 \leq i \leq n$, thì $\sum_i a_iz_{i,\lambda} = 0$ với mọi $\lambda \in \Delta$ ($§ 1$, no. 7, *Nhận xét*). Có thể giả sử rằng mỗi $a_i$ là thuần nhất có bậc $d'(i)$ sao cho $d(i) + d'(i) = \mu$ với mọi $i$ (no. 3, *Nhận xét* 1); khi đó $\sum_i a_iu(x_i) = 0$; lấy thành phần thuần nhất có bậc $\lambda + \mu$ ở vế trái, ta thu được $\sum_i a_iz_{i,\lambda} = 0$, do đó sự tồn tại của đồng cấu $u_\lambda$; rõ ràng hơn nữa $u_\lambda$ là *phân bậc* có bậc $\lambda$. Cuối cùng, $u_\lambda = 0$ ngoại trừ một số hữu hạn các giá trị của $\lambda$, và $u = \sum_\lambda u_\lambda$ theo định nghĩa, điều này chứng minh mệnh đề của chúng ta.
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 149
 statements: 34
 exercises: 28
-content_sha256: 6b6ef7217185b84aafaf4ab67bc95ef54fd023c3c53ad5941fa9ffc7a938ed05
+content_sha256: 35d2740732b026154d5a5c2f10001f40acc29151d52a88e7e1ea5aa661616425
 ---
 
 ## § 8. DIMENSION HOMOLOGIQUE
@@ -50,18 +50,18 @@ Dans ce paragraphe, on reprend les conventions du § 5.
 
 ### 1. Dimension projective d’un module
 
-#### Définition 1 {#alg-x-s8-def-1 .statement}
+#### Définition 1 {#alg-x-s8-def-1 .statement tag=0E0P}
 
 *Soit $M$ un $A$-module. On appelle dimension projective de $M$, et on note $\mathrm{dp}_A(M)$ la borne inférieure dans $\overline{\mathbf{Z}}$ des longueurs des résolutions projectives de $M$* (X, p. 48).
 
 On a donc $\mathrm{dp}_A(0) = -\infty$, $\mathrm{dp}_A(M) \geq 0$ si $M \neq 0$. Pour que $M$ soit projectif, il faut et il suffit que $\mathrm{dp}_A(M) \leq 0$.
 
-#### Lemme 1 {#alg-x-s8-lem-1 .statement}
+#### Lemme 1 {#alg-x-s8-lem-1 .statement tag=0E0Q}
 
 *Si $\mathrm{dp}_A(M) < n < +\infty$, on a $\mathrm{Ext}_A^n(M, N) = 0$ pour tout $A$-module $N$ et $\mathrm{Tor}_n^A(P, M) = 0$ pour tout $A$-module à droite $P$.
 Cela résulte aussitôt du fait que $M$ possède une résolution projective de longueur $< n$ et de X, p. 100, th. 1.
 
-#### Proposition 1 {#alg-x-s8-prop-1 .statement}
+#### Proposition 1 {#alg-x-s8-prop-1 .statement tag=0E0R}
 
 *Soient $M$ un $A$-module et $n$ un entier $\geq 0$. Les conditions suivantes sont équivalentes* :
 (i) $\mathrm{dp}_A(M) \leq n$ (*i.e.* (déf. 1), $M$ possède une résolution projective de longueur $\leq n$);
@@ -86,7 +86,7 @@ $$
 $$
 Si (iv) est satisfait, $Z_{n-1}(M)$ est projectif et M possède une résolution projective de longueur $\leq n$.
 
-#### Corollaire 1 {#alg-x-s8-prop-1-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s8-prop-1-cor-1 .statement tag=0E0S}
 
 Soit $(M_i)_{i \in E}$ une famille de A-modules. On a
 $$
@@ -96,7 +96,7 @@ Cela résulte de l'équivalence des conditions (i) et (iii) de la prop. 1. et de
 
 Dans l'énoncé suivant, on convient que $\pm \infty + 1 = \pm \infty - 1 = \pm \infty$.
 
-#### Corollaire 2 {#alg-x-s8-prop-1-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s8-prop-1-cor-2 .statement tag=0E0T}
 
 Soit
 $$
@@ -143,7 +143,7 @@ $$
 
 d’après la suite exacte précédente ; d’après la prop. 1, cela implique aussitôt $\mathrm{dp}_A(M'')=\mathrm{dp}_A(M')+1$, puisque l’une des quantités $\mathrm{dp}_A(M')$, $\mathrm{dp}_A(M'')$ est $>\mathrm{dp}_A(M)$.
 
-#### Example {#alg-x-s8-n1-exa-1 .statement}
+#### Example {#alg-x-s8-n1-exa-1 .statement tag=0E0U}
 
 Soit $a$ un élément de A qui n’est ni inversible, ni diviseur de zéro à droite.
 Alors $\mathrm{dp}_A(A/Aa)=1$.
@@ -156,7 +156,7 @@ $$
 
 et $a$ est inversible.
 
-#### Proposition 2 {#alg-x-s8-prop-2 .statement}
+#### Proposition 2 {#alg-x-s8-prop-2 .statement tag=0E0V}
 
 Supposons A noethérien à gauche. Soient M un A-module de type fini et $n$ un entier $\geq0$. Les conditions suivantes sont équivalentes :
 
@@ -193,7 +193,7 @@ $$
 
 D’après (v) et X, p. 131, cor. 3, on a $\operatorname{Tor}^A_1(A/a,K)=0$ pour tout idéal à droite de type fini $a$ de A. D’après le th. 2 de X, p. 74, le A-module K est plat ; comme il est de type fini, donc de présentation finie (X, p. 10, prop. 5), il est projectif (X, p. 13, cor.), donc (1) est une résolution projective de M.
 
-#### Corollaire {#alg-x-s8-n1-cor-1 .statement}
+#### Corollaire {#alg-x-s8-n1-cor-1 .statement tag=0E0W}
 
 Supposons $A$ noethérien à gauche et soit $\mathscr{C}_0$ (resp. $\mathscr{C}$) l’ensemble des classes des $A$-modules projectifs de type fini (resp. des $A$-modules de dimension projective finie et de type fini). Alors l’homomorphisme des groupes de Grothendieck $K(\mathscr{C}_0) \to K(\mathscr{C})$ est bijectif.
 
@@ -221,7 +221,7 @@ $$
 \operatorname{Tor}_n^A(P, M) \to \operatorname{Hom}_A(\operatorname{Ext}_A^n(M, A), P).
 $$
 
-#### Proposition 3 {#alg-x-s8-prop-3 .statement}
+#### Proposition 3 {#alg-x-s8-prop-3 .statement tag=0E0X}
 
 a) Si $\mathrm{dp}_A(M) \leqslant n$, l’homomorphisme canonique (3) est injectif.
 b) Si $\mathrm{dp}_A(M) \leqslant n$, si $A$ est noethérien à gauche et si $M$ est de type fini, l’homomorphisme canonique (3) est bijectif.
@@ -286,7 +286,7 @@ démonstration.
 
 ### 3. Dimension homologique d’un anneau
 
-#### Définition 2 {#alg-x-s8-def-2 .statement}
+#### Définition 2 {#alg-x-s8-def-2 .statement tag=0E0Y}
 
 On appelle dimension homologique de $A$ et on note $\operatorname{dh}(A)$ la borne
 supérieure dans $\mathbf{Z}$ de l’ensemble des entiers $n$ pour lesquels il existe deux $A$-modules M
@@ -299,7 +299,7 @@ $$
 \operatorname{dh}(K[X_1,\ldots,X_n])=n.
 $$
 
-#### Proposition 4 {#alg-x-s8-prop-4 .statement}
+#### Proposition 4 {#alg-x-s8-prop-4 .statement tag=0E0Z}
 
 Soit $n$ un entier $\geq 0$. Les conditions suivantes sont équivalentes :
 
@@ -341,15 +341,15 @@ de X, p. 52, on conclut que $K^{n-1}(M)$ est injectif, d’où (v).
 
 (v) $\Rightarrow$ (i) : cela résulte de X, p. 100, th. 1.
 
-#### Remarque 1 {#alg-x-s8-n3-rem-1 .statement}
+#### Remarque 1 {#alg-x-s8-n3-rem-1 .statement tag=0E10}
 
 Si $\mathrm{dh}(A) \leq n < +\infty$, on a $\mathrm{Tor}_{n+1}^A(P, M) = 0$ pour tout $A$-module $M$ et tout $A$-module à droite $P$, puisque $\mathrm{dp}_A(M) \leq n$ (cf. lemme 1).
 
-#### Remarque 2 {#alg-x-s8-n3-rem-2 .statement}
+#### Remarque 2 {#alg-x-s8-n3-rem-2 .statement tag=0E11}
 
 Pour que $\mathrm{dh}(A)$ soit finie, il faut et il suffit que $\mathrm{dp}_A(M)$ soit finie pour tout $A$-module $M$ non nul. Cela résulte en effet de ce qui précède et de X, p. 135, cor. 1.
 
-#### Corollaire {#alg-x-s8-n3-cor-1 .statement}
+#### Corollaire {#alg-x-s8-n3-cor-1 .statement tag=0E12}
 
 Supposons $A$ noethérien à gauche et soit $n$ un entier $> 0$. Les conditions suivantes sont équivalentes :
 
@@ -361,11 +361,11 @@ Supposons $A$ noethérien à gauche et soit $n$ un entier $> 0$. Les conditions 
 
 Cela résulte des prop. 2 et 4.
 
-#### Remarque {#alg-x-s8-n3-rem-3 .statement}
+#### Remarque {#alg-x-s8-n3-rem-3 .statement tag=0E13}
 
 D’après l’équivalence de (i) et (iii), on a $\mathrm{dh}(A) = \mathrm{dh}(A^\circ)$ si $A$ est noethérien à droite et à gauche. Cette égalité n’est pas satisfaite en général (X, p. 204, exercice 20).
 
-#### Proposition 5 {#alg-x-s8-prop-5 .statement}
+#### Proposition 5 {#alg-x-s8-prop-5 .statement tag=0E14}
 
 Supposons $A$ noethérien à gauche et de dimension homologique finie et soit $\mathscr{C}_0$ (resp. $\mathscr{C}$) l’ensemble des classes de $A$-modules projectifs de type fini (resp. des $A$-modules de type fini). Alors l’homomorphisme canonique des groupes de Grothendieck $K(\mathscr{C}_0) \to K(\mathscr{C})$ est bijectif.
 
@@ -373,7 +373,7 @@ Cela résulte de X, p. 137, cor.
 
 ### 4. Anneaux de dimension homologique 0
 
-#### Proposition 6 {#alg-x-s8-prop-6 .statement}
+#### Proposition 6 {#alg-x-s8-prop-6 .statement tag=0E15}
 
 Les conditions suivantes sont équivalentes :
 (i) tout A-module est projectif,
@@ -389,7 +389,7 @@ D’après la prop. 4, on a (i) ⇔ (ii) ⇔ (iv); d’après le cor. 1 à la pr
 
 ### 5. Anneaux de dimension homologique 1
 
-#### Proposition 7 {#alg-x-s8-prop-7 .statement}
+#### Proposition 7 {#alg-x-s8-prop-7 .statement tag=0E16}
 
 Les conditions suivantes sont équivalentes :
 (i) dh(A) ≤ 1,
@@ -420,11 +420,11 @@ $(ii)\Rightarrow(ii')$ : c’est trivial.
 
 $(ii')\Rightarrow(ii)$ : cela résulte de VII, § 3, cor. 1 au th. 1.
 
-#### Exemple {#alg-x-s8-n5-exa-1 .statement}
+#### Exemple {#alg-x-s8-n5-exa-1 .statement tag=0E17}
 
 Si A est principal, alors $\operatorname{dh}(A)\leq1$.
 
-#### Remarque {#alg-x-s8-n5-rem-1 .statement}
+#### Remarque {#alg-x-s8-n5-rem-1 .statement tag=0E18}
 
 Si A est (commutatif) intègre, les conditions précédentes équivalent aussi aux suivantes :
 
@@ -434,7 +434,7 @@ $(vi)$ : tout A-module sans torsion est plat et A est noethérien.
 
 Les anneaux intègres vérifiant ces conditions sont appelés anneaux de Dedekind (cf. X, p. 204, exercice 12 et AC, VII, § 2, no 2, th. 1).
 
-#### Corollaire {#alg-x-s8-n5-cor-1 .statement}
+#### Corollaire {#alg-x-s8-n5-cor-1 .statement tag=0E19}
 
 Soient A un anneau de dimension homologique $\leq 1$, C un complexe de A-modules projectifs, $\widetilde C$ un complexe de A-modules à droite projectifs, C′ un complexe de A-modules injectifs, P un A-module à droite, M un A-module à gauche, n un entier. On a alors des suites exactes scindées
 
@@ -450,7 +450,7 @@ Puisque $Z(C)$, $B(C)$, $Z(\widetilde C)$ et $B(\widetilde C)$ sont projectifs e
 
 ### 6. Dimension homologique des anneaux de polynômes
 
-#### Lemme 2 {#alg-x-s8-lem-2 .statement}
+#### Lemme 2 {#alg-x-s8-lem-2 .statement tag=0E1A}
 
 Soient $\rho : A\to A'$ un homomorphisme d’anneaux, M un A-module, M′ un A′-module. Si le A-module $A'_d$ est plat, on a $\mathrm{dp}_A(A'\otimes_A M)\leq\mathrm{dp}_A(M)$. Si le A-module $A'_s$ est projectif, on a $\mathrm{dp}_A(M')\leq\mathrm{dp}_{A'}(M')$.
 
@@ -474,7 +474,7 @@ $$
 
 où les $P'_i$ sont projectifs ; la suite des $A$-modules sous-jacents est exacte. D’autre part chaque $P'_i$ est un sous-$A'$-module facteur direct d’un module ${A'_s}^{(1)}$, donc est un $A$-module projectif ; on a donc $\mathrm{dp}_A(M') \leq m = \mathrm{dp}_{A'}(M')$.
 
-#### Lemme 3 {#alg-x-s8-lem-3 .statement}
+#### Lemme 3 {#alg-x-s8-lem-3 .statement tag=0E1B}
 
 *Supposons A commutatif et soit M un A[X]-module.*
   a) *On a* $\mathrm{dp}_A(M) \leq \mathrm{dp}_{A[X]}(M) \leq \mathrm{dp}_A(M) + 1$.
@@ -526,7 +526,7 @@ $$
 
 d’où c).
 
-#### Théorème 1 {#alg-x-s8-thm-1 .statement}
+#### Théorème 1 {#alg-x-s8-thm-1 .statement tag=0E1C}
 
 *Supposons $A$ commutatif. Alors*
 
@@ -548,7 +548,7 @@ $$
 
 donc $dh(A) \leq dh(A[X]) - 1$.
 
-#### Corollaire 1 {#alg-x-s8-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s8-thm-1-cor-1 .statement tag=0E1D}
 
 *Supposons $A$ commutatif. On a*
 
@@ -558,7 +558,7 @@ $$
 
 Cela résulte du théorème par récurrence sur $n$.
 
-#### Corollaire 2 {#alg-x-s8-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s8-thm-1-cor-2 .statement tag=0E1E}
 
 *Soit $K$ un corps commutatif* (resp. *un anneau principal* *ou de Dedekind* *qui n’est pas un corps*). *Alors* $dh(K[X_1, ..., X_n])$ *est égal à* $n$ (resp. $n + 1$). Cela résulte de ce que $dh(K) = 0$ (resp. $dh(K) = 1$).
 
@@ -566,13 +566,13 @@ Cela résulte du théorème par récurrence sur $n$.
 
 Dans ce numéro, on suppose que $A$ est un anneau gradué à degrés $\geq 0$. On note $(A_n)_{n \in \mathbf{Z}}$ sa graduation ; on a donc $A_n = 0$ pour $n < 0$, $A_0$ est un sous-anneau de $A$, $J_0 = \bigoplus_{n > 0} A_n$ est un idéal bilatère de $A$ et l’anneau gradué quotient $A/J_0$ s’identifie à $A_0$.
 
-#### Lemme 4 {#alg-x-s8-lem-4 .statement}
+#### Lemme 4 {#alg-x-s8-lem-4 .statement tag=0E1F}
 
 Soit $M$ un $A$-module gradué borné inférieurement (X, p. 56). Si $A_0 \otimes_A M = 0$, alors $M = 0$.
 
 Comme $A_0 \otimes_A M$ est isomorphe à $M/J_0 M$, ce n’est autre que ll, p. 171, prop. 6.
 
-#### Lemme 5 {#alg-x-s8-lem-5 .statement}
+#### Lemme 5 {#alg-x-s8-lem-5 .statement tag=0E1G}
 
 Soit $M$ un $A$-module gradué borné inférieurement, et soit
 $$
@@ -591,7 +591,7 @@ $$
 $$
 Si $\mathrm{Tor}_1^A(A_0, M) = 0$, alors $A_0 \otimes_A \mathrm{Ker}\ s = 0$ et $s$ est injectif (lemme 4).
 
-#### Proposition 8 {#alg-x-s8-prop-8 .statement}
+#### Proposition 8 {#alg-x-s8-prop-8 .statement tag=0E1H}
 
 Soit $M$ un $A$-module gradué borné inférieurement.
 
@@ -648,11 +648,11 @@ $$
 
 Mais l’homomorphisme canonique $M_a\longrightarrow M^{(a)}/J_0M^{(a)}$ est bijectif. Il s’ensuit que l’homomorphisme $1\otimes f:M^{(a)}/J_0M^{(a)}\longrightarrow M/J_0M$ est injectif et que son image est un sous-$A_0$-module facteur direct de $M/J_0M$. Il résulte alors de la suite exacte (7) que $\operatorname{Tor}_1^A(A_0,M')=0$ et que le $A_0$-module $M'/J_0M'$ est plat puisque isomorphe à un facteur direct de $M/J_0M$. D’après l’hypothèse de récurrence (qui s’applique à $M'$ puisque celui-ci est engendré par les $M'_i$ pour $a<i\leq b$), $M'$ satisfait à la condition (i), donc est plat. On déduit alors de la suite exacte (6) que $\operatorname{Tor}_1^A(A_0,M^{(a)})=0$, mais $M^{(a)}/J_0M^{(a)}$ s’identifie à $M_a$ qui est un $A_0$-module plat (comme sous-module facteur direct de $M/J_0M$) ; d’après ce qu’on a déjà démontré, le $A$-module gradué $M^{(a)}$ est isomorphe à $A\otimes_{A_0}M_a$, donc satisfait aussi à (i), ce qui achève la démonstration.
 
-#### Corollaire 1 {#alg-x-s8-prop-8-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s8-prop-8-cor-1 .statement tag=0E1I}
 
 Soit $M$ un $A$-module gradué de type fini. Si le $A_0$-module $M/J_0M$ est projectif (resp. gradué libre, resp. plat) et si $\operatorname{Tor}_1^A(A_0,M)=0$, alors le $A$-module $M$ est projectif (resp. gradué libre, resp. plat).
 
-#### Corollaire 2 {#alg-x-s8-prop-8-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s8-prop-8-cor-2 .statement tag=0E1J}
 
 Supposons que tout $A_0$-module projectif soit libre (resp. que $A$ soit noethérien et que tout $A_0$-module projectif de type fini soit libre). Soit $M$ un $A$-module gradué borné inférieurement (resp. un $A$-module gradué de type fini) et soit $n$ un entier $\geq 0$ tel que $\operatorname{pd}_A(M)\leq n$. Il existe une suite exacte de $A$-modules gradués et d’homomorphismes gradués de degré $0$
 $$
@@ -669,7 +669,7 @@ où les $L_i$ sont bornés inférieurement (resp. de type fini) pour $0 \leq i \
 
 Comme $\mathrm{dp}_A(M) \leq n$, le A-module $L_n$ est projectif ; donc $A_0 \otimes_A L_n$ est un $A_0$-module projectif, donc gradué libre ; comme $L_n$ est borné inférieurement et $A_0 \otimes_A L_n$ gradué libre, $L_n$ est gradué libre (prop. 7).
 
-#### Corollaire 3 (Théorème des syzygies de Hilbert) {#alg-x-s8-prop-8-cor-3 .statement}
+#### Corollaire 3 (Théorème des syzygies de Hilbert) {#alg-x-s8-prop-8-cor-3 .statement tag=0E1K}
 
 *Supposons que $A_0$ soit un corps commutatif et que $A$ soit engendré comme $A_0$-algèbre par $n$ éléments homogènes de degrés $> 0$ algébriquement indépendants. Pour tout $A$-module gradué $M$ borné inférieurement (resp. de type fini), il existe une suite exacte de $A$-modules gradués et d’homomorphismes gradués de degrés 0*
 $$
@@ -679,13 +679,13 @@ où les $L_i$ sont gradués libres et bornés inférieurement (resp. et de type 
 
 En effet, $dh(A) = n$ d’après le théorème 1 de X, p. 143, et on applique le cor. 2.
 
-#### Remarque {#alg-x-s8-n7-rem-1 .statement}
+#### Remarque {#alg-x-s8-n7-rem-1 .statement tag=0E1L}
 
 Le cor. 2 s’applique également aux cas suivants :
 a) $A_0$ est principal et $A = A_0[X_1, ..., X_{n-1}]$;
 b) *$A_0$ est noethérien local régulier de dimension $r$ et $A = A_0[X_1, ..., X_n, r]$.*
 
-#### Corollaire 4 {#alg-x-s8-prop-8-cor-4 .statement}
+#### Corollaire 4 {#alg-x-s8-prop-8-cor-4 .statement tag=0E1M}
 
 *Supposons $A_0$ semi-simple. Soient $M$ un $A$-module gradué borné inférieurement et $n$ un entier $\geq 0$. Pour que $\mathrm{dp}_A(M) \leq n$, il faut et il suffit que*
 $$
@@ -693,7 +693,7 @@ $$
 $$
 Si $\mathrm{dp}_A(M) \leq n$, alors $\operatorname{Tor}_{n+1}^A(A_0, M) = 0$ (X, p. 135, lemme 1). Inversement, soit $0 \to K \to L_{n-1} \to ... \to L_1 \to L_0 \to M \to 0$ une suite exacte de $A$-modules gradués bornés inférieurement telle que $L_0, ..., L_{n-1}$ soient gradués libres (X, p. 56, prop. 11); d’après le cor. 3 de X, p. 131, l’égalité $\operatorname{Tor}_{n+1}^A(A_0, M) = 0$ implique $\operatorname{Tor}_1^A(A_0, K) = 0$; comme $K/J_0 K$ est un $A_0$-module projectif puisque $A_0$ est semi-simple (X, p. 140, prop. 6), $K$ est projectif d’après la prop. 8 (X, p. 144), et $\mathrm{dp}_A(M) \leq n$.
 
-#### Corollaire 5 {#alg-x-s8-prop-8-cor-5 .statement}
+#### Corollaire 5 {#alg-x-s8-prop-8-cor-5 .statement tag=0E1N}
 
 *Supposons l’anneau $A_0$ semi-simple. Si $\operatorname{Tor}_{n+1}^A(A_0, A_0) = 0$, on a $\mathrm{dp}_A(M) \leq n$ pour tout $A$-module gradué borné inférieurement.
 

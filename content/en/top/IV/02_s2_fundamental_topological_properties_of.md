@@ -37,7 +37,7 @@ subsections:
       pdf_page: 344
 statements: 15
 exercises: 21
-content_sha256: dcd5753bd70eb3427be007148b083365d9136d00e9ffd91c2a27616300873e98
+content_sha256: 755e0a5ffdc8a22322a526f93559f059538fb20d8e64ae8fd4eec35f00c1c939
 ---
 
 ## 2. FUNDAMENTAL TOPOLOGICAL PROPERTIES OF THE REAL LINE
@@ -46,19 +46,19 @@ content_sha256: dcd5753bd70eb3427be007148b083365d9136d00e9ffd91c2a27616300873e98
 
 The topological properties of the real line which are the subject of this section are all consequences of the following theorem:
 
-#### Theorem 1 {#top-iv-s2-thm-1 .statement}
+#### Theorem 1 {#top-iv-s2-thm-1 .statement tag=0BPF}
 
 *If $x$ and $y$ are any two real numbers > 0, then there is an integer $n > 0$ such that $y < nx$.*
 
 There exist two rational numbers $p/q$ and $r/s$ such that $0 < p/q < x$ and $y < r/s$, since the open intervals ]$0, x$ and ]$y, \to$ are not empty ($\S$ I, no. 4, Proposition 4); take $n$ such that $nps > qr$, and we have $y < nx$.
 
-#### Remark {#top-iv-s2-n1-rem-1 .statement}
+#### Remark {#top-iv-s2-n1-rem-1 .statement tag=0BPG}
 
 An axiomatic construction of the theory of real numbers will be found in Chapter V, $\S$ 2, in which Theorem 1 appears as an axiom; for more details about this axiom, see the Historical Note to Chapter IV.
 
 ### 2. COMPACT SUBSETS OF $\mathbf{R}$
 
-#### Theorem 2 (Borel-Lebesgue) {#top-iv-s2-thm-2 .statement}
+#### Theorem 2 (Borel-Lebesgue) {#top-iv-s2-thm-2 .statement tag=0BPH}
 
 For a subset of the real line $\mathbf{R}$ to be compact it is necessary and sufficient that it be closed and bounded.
 
@@ -66,21 +66,21 @@ For a subset of the real line $\mathbf{R}$ to be compact it is necessary and suf
 
 2) The condition is sufficient. It is enough to show that every interval $[ -a, +a ]$ ($a > 0$) is compact, and since this interval is a closed subset of a complete uniform space, it is enough to show that, for each $b > 0$, we can cover $[ -a, +a ]$ by a finite number of intervals of the form $[x - b, x + b]$ (Chapter II, $\S$ 4, no. 2, Corollary to Theorem 3). Now, let $n$ be an integer $> 0$ such that $a < nb$; if $x \in [ -a, +a ]$ and if $m$ is the largest integer (positive or negative) such that $mb \leq x$, then we have $-n \leq m \leq n$ and $mb \leq x \leq (m + 1)b$. Hence the $2n + 1$ intervals $[ (k - 1)b, (k + 1)b ]$ ($-n \leq k \leq n$) form a covering of the required type.
 
-#### Corollary 1 {#top-iv-s2-thm-2-cor-1 .statement}
+#### Corollary 1 {#top-iv-s2-thm-2-cor-1 .statement tag=0BPI}
 
 A subset of the real line $\mathbf{R}$ is relatively compact if and only if it is bounded.
 
-#### Corollary 2 {#top-iv-s2-thm-2-cor-2 .statement}
+#### Corollary 2 {#top-iv-s2-thm-2-cor-2 .statement tag=0BPJ}
 
 The real line is a locally compact space and is not compact.
 
-#### Remark {#top-iv-s2-n2-rem-1 .statement}
+#### Remark {#top-iv-s2-n2-rem-1 .statement tag=0BPK}
 
 Theorem 2 is often referred to as the "Heine-Borel Theorem"; see the Historical Notes to Chapters II and IV.
 
 ### 3. LEAST UPPER BOUND OF A SUBSET OF $\mathbf{R}$
 
-#### Theorem 3 {#top-iv-s2-thm-3 .statement}
+#### Theorem 3 {#top-iv-s2-thm-3 .statement tag=0BPL}
 
 Every non-empty subset of the real line which is bounded above (resp. bounded below) has a least upper bound (resp. greatest lower bound).
 
@@ -96,7 +96,7 @@ The least upper bound of a closed set (non-empty and bounded above) belongs to t
 
 ### 4. CHARACTERIZATION OF INTERVALS
 
-#### Proposition 1 {#top-iv-s2-prop-1 .statement}
+#### Proposition 1 {#top-iv-s2-prop-1 .statement tag=0BPM}
 
 *A non-empty subset $A$ of $\mathbf{R}$ is an interval if and only if, whenever $a$ and $b$ are any two points of $A$ such that $a < b$, the closed interval $[a, b]$ is contained in $A$*.
 
@@ -104,7 +104,7 @@ The condition is clearly necessary. Conversely, suppose that it is satisfied. If
 
 ### 5. CONNECTED SUBSETS OF $\mathbf{R}$
 
-#### Theorem 4 {#top-iv-s2-thm-4 .statement}
+#### Theorem 4 {#top-iv-s2-thm-4 .statement tag=0BPN}
 
 *A subset $A$ of $\mathbf{R}$ is connected if and only if $A$ is an interval.*
 
@@ -114,17 +114,17 @@ i) The condition is necessary. Suppose that $A$ is connected: if $A$ consists of
 
 If now $I$ is any interval not consisting of a single point, and if $a$ and $b$ are any two points of $I$ such that $a < b$, then the interval $[a, b]$ is contained in $I$ and is connected, and hence $I$ is connected.
 
-#### Corollary 1 {#top-iv-s2-thm-4-cor-1 .statement}
+#### Corollary 1 {#top-iv-s2-thm-4-cor-1 .statement tag=0BPO}
 
 *The real line is a connected and locally connected space.*
 
-#### Corollary 2 {#top-iv-s2-thm-4-cor-2 .statement}
+#### Corollary 2 {#top-iv-s2-thm-4-cor-2 .statement tag=0BPP}
 
 *The only compact connected subsets of $\mathbf{R}$ are the bounded closed intervals.*
 
 By Theorem 4, a subset of $\mathbf{R}$ which does not contain any interval consisting of more than one point is *totally disconnected*; this is true, for example, of the set $\mathbf{Q}$ of rational numbers, since the set $C\mathbf{Q}$ of irrational numbers is dense in $\mathbf{R}$.
 
-#### Proposition 2 {#top-iv-s2-prop-2 .statement}
+#### Proposition 2 {#top-iv-s2-prop-2 .statement tag=0BPQ}
 
 *Every non-empty open set in $\mathbf{R}$ is the union of a countable family of mutually disjoint open intervals.*
 
@@ -132,7 +132,7 @@ Let $A$ be a non-empty open set in $\mathbf{R}$. Since $\mathbf{R}$ is locally c
 
 It follows that every closed set in $\mathbf{R}$ is the complement of the union of a (finite or infinite) sequence $(I_n)$ of mutually disjoint open intervals. These intervals are said to be *contiguous* to the closed set under consideration. Conversely, given such a sequence of intervals, the complement of their union is a closed set to which these intervals are contiguous.
 
-#### Example {#top-iv-s2-n5-exa-1 .statement}
+#### Example {#top-iv-s2-n5-exa-1 .statement tag=0BPR}
 
 Let us define by induction a countable family $(I_{n,p})$ of mutually disjoint open intervals as follows:
 The integer $n$ takes all values $\geqslant 0$, and for each value of $n$, $p$ takes the values $1, 2, 3, \ldots, 2^n$. All the intervals $I_{n,p}$ are contained in
@@ -149,7 +149,7 @@ If $K'$ is the complement of the union of the $I_{n,p}$, the closed set $K = A \
 
 ### 6. HOMEOMORPHISMS OF AN INTERVAL ONTO AN INTERVAL
 
-#### Theorem 5 {#top-iv-s2-thm-5 .statement}
+#### Theorem 5 {#top-iv-s2-thm-5 .statement tag=0BPS}
 
 *Let I be an interval in R. Then a mapping f of I into R is a homeomorphism of I onto f(I) if and only if f is strictly monotonic and continuous on I; and f(I) is then an interval in R.*
 
@@ -159,7 +159,7 @@ It follows that if $x$ and $y$ are any two points of I such that $x < y$, then $
 
 2) The condition is *sufficient*. Suppose that $f$ is continuous and strictly monotonic on I (say, strictly increasing): $f(I)$ is connected and is therefore an interval, and since $f$ is strictly increasing, $f$ is a bijective mapping of I onto $f(I)$. Moreover, the image under $f$ of an open interval *in* I is an open interval *in* $f(I)$, and therefore (§ 1, no, 4, Proposition 5) $f$ is a homeomorphism of I onto $f(I)$.
 
-#### Remark {#top-iv-s2-n6-rem-1 .statement}
+#### Remark {#top-iv-s2-n6-rem-1 .statement tag=0BPT}
 
 The first part of the preceding proof shows in fact that a *continuous injective* mapping of I into $\mathbf{R}$ is strictly monotonic; from the second part of the proof it therefore follows that *every continuous injective mapping* $f$ *of an interval* I *into* $\mathbf{R}$ *is a homeomorphism of* I *onto* $f(I)$.
 

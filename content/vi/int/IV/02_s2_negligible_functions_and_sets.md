@@ -37,9 +37,9 @@ subsections:
       pdf_page: 123
 statements: 15
 exercises: 0
-content_sha256: f6f3ae39d7c7361d0a49aae5be7fc06f7e2f8a203b7c6056982d0404a3ea9826
+content_sha256: 93fc1c606860d1e78a2659689bd722192714605920b0b21e8a19c4e9851d5ea3
 translated_from: content/en/int/IV/02_s2_negligible_functions_and_sets.md
-source_content_sha256: 762de3cb00bf4cfa9b53b7a3a0b74ada1ed70f6aab72ccae19b058105ca629cd
+source_content_sha256: 48a74bb29ea2e0671914af4710029a73eeba8926caa6ba8d663276f288e2e1b1
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-12513e78
 glossary_version: 34
@@ -51,23 +51,23 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các hàm dương không đáng kể
 
-#### Định nghĩa 1 {#int-iv-s2-def-1 .statement}
+#### Định nghĩa 1 {#int-iv-s2-def-1 .statement tag=08Q8}
 
 — *Cho một độ đo $\mu$ trên một không gian địa phương compact X*, *một hàm số* $f \geq 0$ (*hữu hạn hoặc không*) *xác định trên X được gọi là không đáng kể đối với độ đo $\mu$ nếu* $|\mu|^*(f) = 0$.
 
 Khi đó ta cũng nói rằng $f$ là *$\mu$-không đáng kể*, hoặc đơn giản là *không đáng kể* nếu không thể xảy ra sự nhầm lẫn.
 
-#### Mệnh đề 1 {#int-iv-s2-prop-1 .statement}
+#### Mệnh đề 1 {#int-iv-s2-prop-1 .statement tag=08Q9}
 
 — *Nếu* $f$ *là một hàm không đáng kể* $\geq 0$, *thì mọi hàm số* $g$ *sao cho* $0 \leq g \leq \alpha f$ ($\alpha$ *là một vô hướng* $> 0$) *đều là không đáng kể*. Thật vậy, $0 \leq |\mu|^*(g) \leq \alpha |\mu|^*(f) = 0$.
 
-#### Mệnh đề 2 {#int-iv-s2-prop-2 .statement}
+#### Mệnh đề 2 {#int-iv-s2-prop-2 .statement tag=08QA}
 
 — *Tổng và bao trên của một dãy* $(f_n)$ *các hàm không đáng kể* $\geq 0$ *là không đáng kể*.
 
 Thật vậy, $|\mu|^*(\sum_n f_n) \leq \sum_n |\mu|^*(f_n) = 0$ (§ 1, No. 3, Mệnh đề 13) và $\sup_n f_n \leq \sum_n f_n$.
 
-#### Mệnh đề 3 {#int-iv-s2-prop-3 .statement}
+#### Mệnh đề 3 {#int-iv-s2-prop-3 .statement tag=08QB}
 
 *Đối với một hàm nửa liên tục dưới $f \geq 0$ trên $X$, để là không đáng kể, điều kiện cần và đủ là $f$ bằng không trên giá của $\mu$.*
 
@@ -75,23 +75,23 @@ Nếu $|\mu|^*(f) = 0$ thì $|\mu|(g) = 0$ đối với mọi hàm $g \in \maths
 
 ### 2. Các tập hợp không đáng kể
 
-#### Định nghĩa 2 {#int-iv-s2-def-2 .statement}
+#### Định nghĩa 2 {#int-iv-s2-def-2 .statement tag=08QC}
 
 *Cho một độ đo $\mu$ trên một không gian địa phương compact $X$, một tập con $A$ của $X$ được gọi là không đáng kể đối với độ đo $\mu$ nếu $|\mu|^*(A) = 0$.*
 
 Ta cũng nói rằng $A$ là $\mu$-không đáng kể, hoặc đơn giản là không đáng kể nếu không thể xảy ra sự nhầm lẫn. Điều này tương đương với việc nói rằng hàm đặc trưng $\varphi_A$ là không đáng kể.
 
-#### Mệnh đề 4 {#int-iv-s2-prop-4 .statement}
+#### Mệnh đề 4 {#int-iv-s2-prop-4 .statement tag=08QD}
 
 *Mọi tập con của một tập hợp không đáng kể đều không đáng kể; mọi hợp đếm được của các tập hợp không đáng kể đều không đáng kể.*
 
 Đây là một hệ quả ngay lập tức của các Mệnh đề 1 và 2.
 
-#### Ví dụ {#int-iv-s2-n2-exa-1 .statement}
+#### Ví dụ {#int-iv-s2-n2-exa-1 .statement tag=08QE}
 
 — Cho $\mu$ là độ đo Lebesgue trên $\mathbf{R}$. Mọi tập hợp $\{x_0\}$ thu gọn thành một điểm đều không đáng kể (xem § 1, No. 3, *Nhận xét* 1). Suy ra rằng *mọi tập con đếm được của $\mathbf{R}$ đều không đáng kể đối với độ đo Lebesgue*. Đảo lại của mệnh đề này không đúng (§ 4, Bài tập 4 b)).
 
-#### Mệnh đề 5 {#int-iv-s2-prop-5 .statement}
+#### Mệnh đề 5 {#int-iv-s2-prop-5 .statement tag=08QF}
 
 *Phần bù của giá $S$ của $\mu$ là tập hợp mở không đáng kể lớn nhất trong $X$.*
 
@@ -101,7 +101,7 @@ Thật vậy, theo Mệnh đề 3, để một tập mở $G$ là không đáng 
 
 Cho $X$ là một không gian compact địa phương, $\mu$ là một độ đo trên $X$. Nếu $P\{x\}$ là một tính chất, tính chất « $P\{x\}$ hầu khắp nơi (đối với $\mu$) » theo định nghĩa tương đương với tính chất « *tập hợp các x sao cho* $(x \in X \text{ và không } P\{x\})$ *là $\mu$*-tập không đáng kể ».
 
-#### Định lý 1 {#int-iv-s2-thm-1 .statement}
+#### Định lý 1 {#int-iv-s2-thm-1 .statement tag=08QG}
 
 — Để một hàm số (hữu hạn hoặc không) $f \geqslant 0$ xác định trên $X$ là không đáng kể, điều kiện cần và đủ là $f(x) = 0$ hầu khắp nơi.
 
@@ -109,7 +109,7 @@ Cho $X$ là một không gian compact địa phương, $\mu$ là một độ đo
 
 Điều kiện là đủ. Giả sử rằng tập hợp $N$ các điểm mà tại đó $f(x) \neq 0$ là không đáng kể; khi đó $f \leqslant \sup_n n \varphi_N$, do đó $f$ là không đáng kể (No. 1, Props. 1 và 2).
 
-#### Mệnh đề 6 {#int-iv-s2-prop-6 .statement}
+#### Mệnh đề 6 {#int-iv-s2-prop-6 .statement tag=08QH}
 
 — Nếu $f$ và $g$ là hai hàm $\geqslant 0$ (hữu hạn hoặc không) xác định trên $X$ sao cho $f(x) = g(x)$ hầu khắp nơi, thì $|\mu|^*(f) = |\mu|^*(g)$.
 
@@ -121,7 +121,7 @@ $$
 
 (vì $h$ là không đáng kể), do đó có mệnh đề.
 
-#### Mệnh đề 7 {#int-iv-s2-prop-7 .statement}
+#### Mệnh đề 7 {#int-iv-s2-prop-7 .statement tag=08QI}
 
 — Nếu $f$ là một hàm $\geqslant 0$ xác định trên $X$ sao cho $|\mu|^*(f) < +\infty$, thì $f(x)$ là hữu hạn hầu khắp nơi.
 
@@ -133,13 +133,13 @@ Tuy nhiên, ngay cả khi $X$ là compact, một hàm $f \geqslant 0$ xác đị
 
 Cho $\mu$ là một độ đo trên một không gian địa phương compact $X$. Với một tập hợp $F$ cho trước, hai ánh xạ $f, g$ từ $X$ vào $F$ được gọi là *tương đương đối với* $\mu$ (hay *μ-tương đương*, hay đơn giản *tương đương* nếu không thể có nhầm lẫn) nếu $f(x) = g(x)$ *hầu khắp nơi* trong $X$. Vì hợp của hai tập không đáng kể vẫn là không đáng kể, ta thật sự định nghĩa theo cách này một quan hệ tương đương trên tập $F^X$ của mọi ánh xạ từ $X$ vào $F$; khi nói đến *lớp tương đương* của một hàm $f$ như vậy (không nói rõ thêm) thì sẽ hiểu là lớp của mọi hàm bằng $f$ hầu khắp nơi; trong chương này và các chương sau, ta sẽ ký hiệu lớp này bằng ký hiệu $\tilde{f}$.
 
-#### Mệnh đề 8 {#int-iv-s2-prop-8 .statement}
+#### Mệnh đề 8 {#int-iv-s2-prop-8 .statement tag=08QJ}
 
 *Cho* $(F_n)$ *là một họ đếm được (hữu hạn hoặc vô hạn) các tập hợp. Với mọi chỉ số n, cho* $f_n, g_n$ *là hai ánh xạ tương đương của X vào* $F_n$; *khi đó, tồn tại một tập không đáng kể H sao cho, với mọi* $x \notin H$, $f_n(x) = g_n(x)$ *với mọi n*.
 
 Thật vậy, tập $H_n$ gồm các $x \in X$ sao cho $f_n(x) \neq g_n(x)$ là không đáng kể, do đó hợp của chúng là $H$ cũng vậy (No. 2, Mệnh đề 4), và tập này thỏa mãn các yêu cầu.
 
-#### Hệ quả {#int-iv-s2-n4-cor-1 .statement}
+#### Hệ quả {#int-iv-s2-n4-cor-1 .statement tag=08QK}
 
 *Nếu* $\varphi$ *là một ánh xạ của* $\prod_n F_n$ *vào một tập G, thì các ánh xạ* $\varphi((f_n))$ *và* $\varphi((g_n))$ *của X vào G là tương đương*.
 
@@ -149,13 +149,13 @@ Ta ký hiệu bằng $\varphi((\tilde{f}_n))$ lớp tương đương của mọi
 
 Cho F là một không gian tôpô *mêtric hóa*, và xét một cấu trúc đều trên F tương thích với tôpô của nó và được xác định bởi một họ *đếm được* các giả khoảng cách $\rho_n$ (GT, IX, §§1 và 2); để hai ánh xạ $f, g$ từ X vào F tương đương, điều kiện cần và đủ là các hàm số $\rho_n(f, g)$ *không đáng kể*; vì điều này tương đương với việc tồn tại một tập không đáng kể H trong X sao cho, với mọi $x \notin H$, $\rho_n(f(x), g(x)) = 0$ với mọi n, nghĩa là $f(x) = g(x)$. Đặc biệt, nếu F là một không gian lồi địa phương mêtric hóa, và $(q_n)$ là một họ đếm được các nửa chuẩn xác định tôpô của F (TVS, II, §4, No. 1), để hai ánh xạ $f, g$ từ X vào F tương đương thì điều kiện cần và đủ là mọi hàm số thực $q_n(f(x) - g(x))$ đều không đáng kể.
 
-#### Mệnh đề 9 {#int-iv-s2-prop-9 .statement}
+#### Mệnh đề 9 {#int-iv-s2-prop-9 .statement tag=08QL}
 
 — Cho $f$ và $g$ là hai ánh xạ liên tục từ $X$ vào một không gian tôpô Hausdorff $F$; để $f$ và $g$ tương đương, điều kiện cần và đủ là $f(x) = g(x)$ tại mọi điểm của giá đỡ của $\mu$.
 
 Vì, tập các $x \in X$ sao cho $f(x) \neq g(x)$ là một tập mở (GT, I, §8, No. 1); để nó không đáng kể, điều kiện cần và đủ là nó không giao với giá đỡ của $\mu$ (No. 2, Mệnh đề 5).
 
-#### Mệnh đề 10 {#int-iv-s2-prop-10 .statement}
+#### Mệnh đề 10 {#int-iv-s2-prop-10 .statement tag=08QM}
 
 — Cho $F$ là một không gian lồi địa phương Hausdorff trên $\mathbf{R}$ sao cho trong không gian đối ngẫu $F'$ của $F$ tồn tại một dãy $(a'_n)$ trù mật đối với tôpô yếu $\sigma(F', F)$ (TVS, II, §6, No. 2). Để hai ánh xạ $f, g$ từ $X$ vào $F$ tương đương, điều kiện cần và đủ là, với mọi n, các hàm số $\langle f(x), a'_n \rangle$ và $\langle g(x), a'_n \rangle$ tương đương.
 

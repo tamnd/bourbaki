@@ -32,7 +32,7 @@ subsections:
       pdf_page: 254
 statements: 18
 exercises: 12
-content_sha256: 4f4df5592b039bca7f0617a4757f9add41473299f9e6e8187479d7578f1276bd
+content_sha256: 8824bf63e981c21fd468fc22b10f9227ce61a6279b8fab44f08abca0d8bfa676
 translated_from: content/en/top/III/03_s3_uniform_structures_on_groups.md
 source_content_sha256: 95c7e208d0ab926d40df16bb6fddfa2adee53aa6449885a096e1f422fb8d5106
 translation_model: gpt-5.4
@@ -52,7 +52,7 @@ Cấu trúc đều được xác định bởi $\mathfrak{G}_d$ là tương thí
 
 Lập luận là tương tự khi các phép tịnh tiến ở bên trái, và do đó ta có thể đưa ra định nghĩa sau:
 
-#### Định nghĩa 1 {#top-iii-s3-def-1 .statement}
+#### Định nghĩa 1 {#top-iii-s3-def-1 .statement tag=0BJX}
 
 *Cấu trúc đều phải (tương ứng, trái) trên một nhóm tôpô G là cấu trúc đều mà một hệ cơ bản các entourage của nó thu được bằng cách làm tương ứng với mỗi lân cận V của phần tử đơn vị e, tập hợp V$_d$ (tương ứng, V$_s$) các cặp $(x, y)$ sao cho $yx^{-1} \in V$ (tương ứng, $x^{-1}y \in V$).*
 
@@ -70,7 +70,7 @@ Cấu trúc đều phải và cấu trúc đều trái trên một nhóm tôpô 
 
 Nói chung, ta sẽ ký hiệu bởi $G_s$ (tương ứng là $G_d$) *không gian đều* thu được bằng cách trang bị cho tập hợp G cấu trúc đều trái (tương ứng là phải).
 
-#### Mệnh đề 1 {#top-iii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#top-iii-s3-prop-1 .statement tag=0BJY}
 
 *Các phép tịnh tiến trái và phải là những đẳng cấu của cấu trúc đều phải lên chính nó.*
 
@@ -80,7 +80,7 @@ Tương tự, các phép tịnh tiến phải và trái là những đẳng cấ
 
 Mọi *tự đẳng cấu trong* $x \to axa^{-1}$ của $G$ do đó là một tự đẳng cấu đối với cấu trúc nhóm của $G$, đối với tôpô của $G$, và đối với cả hai cấu trúc đều của $G$.
 
-#### Mệnh đề 2 {#top-iii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#top-iii-s3-prop-2 .statement tag=0BJZ}
 
 *Phép đối xứng* $x \to x^{-1}$ *là một đẳng cấu của cấu trúc đều phải lên cấu trúc đều trái.*
 
@@ -88,7 +88,7 @@ Mọi *tự đẳng cấu trong* $x \to axa^{-1}$ của $G$ do đó là một t�
 
 Người đọc cần thận trọng đừng cho rằng ánh xạ $(x, y) \to xy$ từ không gian đều $G_d \times G_d$ vào không gian đều $G_d$ nói chung là liên tục đều. Tương tự, phép đối xứng $x \to x^{-1}$, khi được xét như một ánh xạ từ $G_d$ lên $G_d$, nói chung không liên tục đều (xem Bài tập 3 và 4).
 
-#### Mệnh đề 3 {#top-iii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#top-iii-s3-prop-3 .statement tag=0BK0}
 
 *Mọi đồng cấu liên tục* $f$ *từ một nhóm tôpô* $G$ *vào một nhóm tôpô* $G'$ *đều liên tục đều khi được xét như một ánh xạ từ* $G_d$ *vào* $G'_d$ *(hoặc từ* $G_s$ *vào* $G'_s$).
 
@@ -109,7 +109,7 @@ Các cấu trúc đều trái và phải trên nhóm tích $\prod_{i \in I} G_i$
 
 ### 3. NHÓM ĐẦY ĐỦ
 
-#### Định nghĩa 2 {#top-iii-s3-def-2 .statement}
+#### Định nghĩa 2 {#top-iii-s3-def-2 .statement tag=0BK1}
 
 *Một nhóm tôpô được gọi là đầy đủ nếu các cấu trúc đều trái và phải của nó là các cấu trúc của những không gian đầy đủ.*
 
@@ -119,29 +119,29 @@ Mọi nhóm con *đóng* của một nhóm đầy đủ đều đầy đủ (Ch�
 
 Mặt khác, nếu $G$ là một nhóm đầy đủ và $H$ là một nhóm con chuẩn đóng của $G$, thì nhóm thương $G/H$ không nhất thiết đầy đủ (tuy nhiên, xem Chương IX, § 3, no. 1, Mệnh đề 4).
 
-#### Mệnh đề 4 {#top-iii-s3-prop-4 .statement}
+#### Mệnh đề 4 {#top-iii-s3-prop-4 .statement tag=0BK2}
 
 *Nếu trong một nhóm tôpô $G$ có một lân cận $V$ của $e$ đầy đủ đối với cấu trúc đều phải hoặc cấu trúc đều trái, thì $G$ đầy đủ.*
 
 Giả sử chẳng hạn $V$ là đầy đủ đối với cấu trúc đều phải, và $\mathfrak{F}$ là một bộ lọc Cauchy trên $G_d$; khi đó $\mathfrak{F}$ chứa một tập $V_d$-nhỏ $M$, và nếu $x_1 \in M$ thì do đó ta có $M \subset Vx_1$. Vậy nên vết của $\mathfrak{F}$ trên không gian con đầy đủ $Vx_1$ của $G_d$ là một bộ lọc Cauchy, hội tụ đến một điểm $x_0$; vì $x_0$ là một điểm tụ của $\mathfrak{F}$, nên nó là một giới hạn của $\mathfrak{F}$ (Chương II, § 3, no. 2, Hệ quả 2 của Mệnh đề 5).
 
-#### Hệ quả 1 {#top-iii-s3-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#top-iii-s3-prop-4-cor-1 .statement tag=0BK3}
 
 *Một nhóm địa phương compact là đầy đủ.*
 
 Vì mọi không gian compact đều đầy đủ đối với cấu trúc đều duy nhất của nó (Chương II, § 4, no. 1, Định lý 1).
 
-#### Hệ quả 2 {#top-iii-s3-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#top-iii-s3-prop-4-cor-2 .statement tag=0BK4}
 
 *Mọi nhóm con compact địa phương của một nhóm tôpô Hausdorff $G$ đều đóng trong $G$.*
 
-#### Mệnh đề 5 {#top-iii-s3-prop-5 .statement}
+#### Mệnh đề 5 {#top-iii-s3-prop-5 .statement tag=0BK5}
 
 Cho $G_1$ là một nhóm tôpô, cho $G_2$ là một nhóm tôpô Hausdorff đầy đủ, và cho $H_1$ (tương ứng $H_2$) là một nhóm con trù mật của $G_1$ (tương ứng của $G_2$). Khi đó mọi đồng cấu liên tục $u$ từ $H_1$ vào $H_2$ đều có thể được mở rộng một cách duy nhất thành một đồng cấu liên tục $\bar{u}$ từ $G_1$ vào $G_2$. Hơn nữa, nếu $G_1$ Hausdorff và đầy đủ, và nếu $u$ là một đẳng cấu từ $H_1$ lên $H_2$, thì $\bar{u}$ là một đẳng cấu từ $G_1$ lên $G_2$.
 
 $\bar{u}$ liên tục đều đối với các cấu trúc đều phải của $H_1$ và $H_2$ (no. 1, Mệnh đề 3), do đó có một mở rộng duy nhất thành một ánh xạ $\bar{u}$ từ $G_1$ vào $G_2$ liên tục đều đối với các cấu trúc đều phải của các nhóm này (Chương II, § 3, no. 6, Định lý 2). Hơn nữa, theo nguyên lý mở rộng các đồng nhất thức (Chương I, § 8, no. 1, Hệ quả 1 của Mệnh đề 2), $\bar{u}$ là một đồng cấu từ $G_1$ vào $G_2$, do đó có mệnh đề thứ nhất của Mệnh đề. Để chứng minh mệnh đề thứ hai, chỉ cần xét đẳng cấu $v$ của $H_2$ lên $H_1$, là nghịch đảo của $u$, và mở rộng của nó $\bar{v}$ thành một đồng cấu liên tục từ $G_2$ vào $G_1$; do tính duy nhất của phép mở rộng, $\bar{v} \circ \bar{u}$ và $\bar{u} \circ \bar{v}$ là các ánh xạ đồng nhất của $G_1$ và $G_2$ tương ứng, và vì vậy (Lý thuyết tập hợp, R, § 2, no. 12) $\bar{u}$ là song ánh.
 
-#### Nhận xét {#top-iii-s3-n3-rem-1 .statement}
+#### Nhận xét {#top-iii-s3-n3-rem-1 .statement tag=0BK6}
 
 Nếu đồng cấu liên tục $u$ là song ánh, thì nói chung không suy ra rằng $\bar{u}$ là đơn ánh hoặc toàn ánh (x. Bài tập 12); nhưng xem no. 5, Mệnh đề 9.
 
@@ -151,7 +151,7 @@ Cho $G$ là một nhóm tôpô Hausdorff. Không gian đều $G_d$ có thể đ�
 
 1) Mở rộng của $xy$ và $x^{-1}$ bằng tính liên tục. Vì các hàm $xy$ và $x^{-1}$ nói chung không liên tục đều, nên ta không thể áp dụng định lý về mở rộng các hàm liên tục đều (Chương II, § 3, no. 6, Định lý 2). Tuy nhiên, ta có thể mở rộng $xy$, nhờ Mệnh đề 11 của Chương II, § 3, no. 6 và Mệnh đề sau đây:
 
-#### Mệnh đề 6 {#top-iii-s3-prop-6 .statement}
+#### Mệnh đề 6 {#top-iii-s3-prop-6 .statement tag=0BK7}
 
 Cho $\mathfrak{F}$ và $\mathfrak{G}$ là hai bộ lọc Cauchy trên $G_d$. Khi đó ảnh của bộ lọc $\mathfrak{F} \times \mathfrak{G}$ qua ánh xạ $(x, y) \to xy$ là một cơ sở bộ lọc Cauchy trên $G_d$.
 
@@ -171,11 +171,11 @@ và vì $W$ là một lân cận của $e$, tồn tại một tập $W_d$-nhỏ 
 
 Tóm lại, chúng ta đã chứng minh định lý sau đây:
 
-#### Định lý 1 {#top-iii-s3-thm-1 .statement}
+#### Định lý 1 {#top-iii-s3-thm-1 .statement tag=0BK8}
 
 *Một nhóm tôpô Hausdorff $G$ đẳng cấu với một nhóm con trù mật của một nhóm đầy đủ $\hat{G}$ khi và chỉ khi ảnh, dưới đối xứng $x \to x^{-1}$, của một bộ lọc Cauchy đối với cấu trúc đều phải của $G$ là một bộ lọc Cauchy đối với cấu trúc đều này. Nhóm đầy đủ $\hat{G}$ (được gọi là phép hoàn thành của $G$) khi đó là duy nhất (sai khác bởi đẳng cấu).*
 
-#### Mệnh đề 7 {#top-iii-s3-prop-7 .statement}
+#### Mệnh đề 7 {#top-iii-s3-prop-7 .statement tag=0BK9}
 
 *Cho $G$ là một nhóm tôpô Hausdorff có một phép hoàn thành $\hat{G}$. Khi đó các bao đóng trong $\hat{G}$ của các lân cận của phần tử đơn vị trong $G$ tạo thành một hệ cơ bản các lân cận của phần tử đơn vị trong $\hat{G}$.*
 
@@ -183,7 +183,7 @@ Vì $\hat{G}$ là chính quy, mọi lân cận của phần tử đơn vị tron
 
 Cho $G$ là một nhóm không nhất thiết Hausdorff; đặt $N = \overline{\{e\}}$, và gọi $G' = G/N$ là nhóm Hausdorff liên kết với $G$ (§ 2, no. 6). Nếu $G'$ có một hoàn thành $\hat{G}'$, thì hoàn thành này được gọi là *hoàn thành Hausdorff* của $G$ và được ký hiệu là $\hat{G}$; khi đó $\hat{G}'_d$ (resp. $\hat{G}'_s$) là *hoàn thành Hausdorff* (Chương II, § 3, no. 7) của không gian đều $G_d$ (resp. $G_s$).
 
-#### Mệnh đề 8 {#top-iii-s3-prop-8 .statement}
+#### Mệnh đề 8 {#top-iii-s3-prop-8 .statement tag=0BKA}
 
 *Cho $G$ là một nhóm tôpô có một hoàn thành Hausdorff $\hat{G}'$. Khi đó mọi đồng cấu liên tục $u$ của $G$ vào một nhóm Hausdorff đầy đủ $H$ đều có thể được phân tích duy nhất thành $u = v \circ \varphi$, trong đó $v$ là một đồng cấu liên tục của $\hat{G}'$ vào $H$ và $\varphi$ là ánh xạ chính tắc của $G$ vào $\hat{G}'$ (hợp thành của đơn ánh chính tắc của $G'$ vào $\hat{G}'$ và đồng cấu chính tắc $\psi$ của $G$ lên $G/N = G'$).*
 
@@ -193,7 +193,7 @@ Vì hạt nhân của $u$ là đóng và chứa $e$, nên nó chứa $N$, và do
 
 Ta đã nhận xét rằng các cấu trúc đều trái và phải trùng nhau trên một nhóm tôpô giao hoán $G$; mỗi khi ta nói đến *cấu trúc đều* của $G$, thì đó là cấu trúc đều duy nhất này mà ta muốn nói đến.
 
-#### Định lý 2 {#top-iii-s3-thm-2 .statement}
+#### Định lý 2 {#top-iii-s3-thm-2 .statement tag=0BKB}
 
 Cho $G$ là một nhóm tôpô giao hoán. Khi đó các ánh xạ $x^{-1}$ và $xy$ lần lượt liên tục đều trên $G$ và $G \times G$. Hơn nữa $G$ có một hoàn chỉnh Hausdorff $\hat{G}$, và $\hat{G}$ là giao hoán.
 
@@ -201,19 +201,19 @@ Tính liên tục đều của $x^{-1}$ suy ra từ Mệnh đề 2 của no. 1, 
 
 Đặc biệt, từ định lý này suy ra rằng nếu $f$ và $g$ là hai ánh xạ liên tục đều của một không gian đều $X$ vào một nhóm giao hoán $G$, viết theo lối cộng, thì các hàm $-f$ và $f + g$ là liên tục đều.
 
-#### Mệnh đề 9 {#top-iii-s3-prop-9 .statement}
+#### Mệnh đề 9 {#top-iii-s3-prop-9 .statement tag=0BKC}
 
 Cho $G$ là một nhóm giao hoán, và $\mathfrak{T}_1, \mathfrak{T}_2$ là hai tôpô Hausdorff tương thích với cấu trúc nhóm của $G$. Giả sử rằng $\mathfrak{T}_1$ mịn hơn $\mathfrak{T}_2$ và tồn tại một hệ cơ bản các lân cận của $o$ đối với $\mathfrak{T}_1$ mà đều đóng đối với $\mathfrak{T}_2$. Gọi $G_1, G_2$ lần lượt là các bổ sung của $G$ đối với các tôpô $\mathfrak{T}_1, \mathfrak{T}_2$, và gọi $f : G_1 \to G_2$ là đồng cấu liên tục kéo dài ánh xạ đồng nhất của $G$ (no. 3, Mệnh đề 5). Khi đó $f$ là đơn ánh.
 
 Giả sử rằng $G$ được viết theo phép cộng. Gọi $\mathfrak{U}_1$ là cấu trúc đều trên $G$ tương ứng (no. 1) với tôpô $\mathfrak{T}_1$: chỉ cần chứng minh rằng nếu $\mathfrak{F}$ và $\mathfrak{F}'$ là hai bộ lọc Cauchy cực tiểu (Chương II, § 3, no. 2) đối với $\mathfrak{U}_1$, cùng hội tụ trong $G_2$ đến một điểm $a$, thì $\mathfrak{F} = \mathfrak{F}'$ (Chương II, § 3, no. 7). Để làm điều đó, chỉ cần chứng minh rằng $\mathfrak{F} \cap \mathfrak{F}'$ là một bộ lọc Cauchy đối với $\mathfrak{U}_1$. Cho $V$ là một lân cận của $o$ trong $G$ đối với $\mathfrak{T}_1$, sao cho $V$ đóng trong $\mathfrak{T}_2$, và cho $W$ là một lân cận đối xứng của $o$ trong $G$ đối với $\mathfrak{T}_1$, sao cho $W + W \subset V$. Theo giả thiết, có một tập $W_d$-nhỏ $M$ (resp. $M'$) trong $\mathfrak{F}$ (resp. $\mathfrak{F}'$); nếu $x \in M$ và $y \in M$ thì ta có $y - x \in W$, tức là $y \in x + W$. Nếu $\overline{W}$ và $\overline{V}$ là các bao đóng của $W$ và $V$ trong $G_2$, suy ra $y \in x + \overline{W}$, và do đó, vì $a$ thuộc bao đóng của $M$, nên $a \in x + \overline{W}$ với mọi $x \in M$. Tương tự, $a \in x' + \overline{W}$ với mọi $x' \in M'$, và vì thế $x - x' \in \overline{W} + \overline{W}$; nhưng vì $(x, y) \to x + y$ là một ánh xạ liên tục từ $G_2 \times G_2$ vào $G_2$, nên ta có $\overline{W} + \overline{W} \subset \overline{W} + \overline{W} \subset \overline{V}$. Suy ra rằng nếu $x \in M$ và $x' \in M'$, thì $x - x' \in \overline{V} \cap G = V$, vì $V$ đóng trong $\mathfrak{T}_2$; và điều này hoàn thành chứng minh.
 
-#### Hệ quả 1 {#top-iii-s3-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#top-iii-s3-prop-9-cor-1 .statement tag=0BKD}
 
 Dưới các giả thiết của Mệnh đề 9, nếu $A$ là một tập con của $G$ là một không gian con đầy đủ đối với cấu trúc đều $U_2$ tương ứng với $\mathfrak{T}_2$, thì $A$ cũng là một không gian con đầy đủ đối với cấu trúc đều $U_1$ tương ứng với $\mathfrak{T}_1$.
 
 Nếu $A_1$ là bao đóng của $A$ trong $G_1$, thì $f(A_1)$ được chứa trong bao đóng của $A$ trong $G_2$, mà theo giả thiết thì bằng $A$. Vì $f(A) = A$ theo định nghĩa và $f$ là đơn ánh, ta có $A_1 = A$.
 
-#### Hệ quả 2 {#top-iii-s3-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#top-iii-s3-prop-9-cor-2 .statement tag=0BKE}
 
 Cho $G$ là một nhóm giao hoán và cho $\mathfrak{T}_1, \mathfrak{T}_2$ là hai tôpô tương thích với cấu trúc nhóm của $G$. Giả sử rằng $\mathfrak{T}_1$ mịn hơn $\mathfrak{T}_2$ và rằng tồn tại một hệ cơ bản $\mathfrak{B}$ các lân cận của $O$ đối với $\mathfrak{T}_1$ mà đầy đủ đối với cấu trúc đều $U_2$ tương ứng với $\mathfrak{T}_2$. Khi đó $G$ là đầy đủ đối với cấu trúc đều $U_1$ tương ứng với $\mathfrak{T}_1$.
 

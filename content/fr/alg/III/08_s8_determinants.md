@@ -57,7 +57,7 @@ subsections:
       pdf_page: 494
 statements: 38
 exercises: 26
-content_sha256: d2d798dfab17a5c0343f839e74e8a47b8e44f87abb3f10a44d40fa48f3f80611
+content_sha256: e3a0ff13de2b432acb1f40a0d201e1da88077dd4b83ff5d0ef9834cb33299ec7
 ---
 
 ## § 8. DÉTERMINANTS
@@ -66,7 +66,7 @@ content_sha256: d2d798dfab17a5c0343f839e74e8a47b8e44f87abb3f10a44d40fa48f3f80611
 
 Soient $M$ un $A$-module ayant une *base finie* de $n$ éléments, $u$ un endomorphisme de $M$. Le $A$-module $\wedge^n(M)$ est un module libre monogène, c’est-à-dire isomorphe à $A$ (III, p. 87, cor. 1); $\wedge^n(u)$ est un endomorphisme de ce module, et est par suite une homothétie $z \mapsto \lambda z$ de rapport $\lambda \in A$ déterminé de façon unique (II, p. 41, prop. 5).
 
-#### Définition 1 {#alg-iii-s8-def-1 .statement}
+#### Définition 1 {#alg-iii-s8-def-1 .statement tag=0642}
 
 *On appelle déterminant d’un endomorphisme $u$ d’un $A$-module libre $M$ de dimension finie $n$* (II, p. 98, corollaire et *Remarque 1*), *et on note* $\det u$, *le scalaire* $\lambda$ *tel que* $\wedge^n(u)$ *soit l’homothétie de rapport* $\lambda$.
 
@@ -76,7 +76,7 @@ u(x_1) \wedge u(x_2) \wedge \cdots \wedge u(x_n) = (\det u)\, x_1 \wedge x_2 \we
 $$
 pour toute suite $(x_i)_{1 \leq i \leq n}$ de $n$ éléments de $M$. Si $\det(u) = 1$, on dit que $u$ est *unimodulaire*.
 
-#### Proposition 1 {#alg-iii-s8-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s8-prop-1 .statement tag=0643}
 
 (i) *Si $u$ et $v$ sont deux endomorphismes d’un $A$-module libre $M$ de dimension finie, on a*
 $$
@@ -101,7 +101,7 @@ $$
 
 pour un $\alpha \in A$.
 
-#### Proposition 2 {#alg-iii-s8-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s8-prop-2 .statement tag=0644}
 
 *Soient M un A-module libre ayant une base finie* $(e_i)_{1 \leq i \leq n}$, *v un endomorphisme de M. Pour toute suite* $(x_i)_{1 \leq i \leq n}$ *de n éléments de M, on a*
 
@@ -115,7 +115,7 @@ En effet, si $u$ est l’endomorphisme de M tel que $u(e_i) = x_i$ pour tout $i$
 
 ### 2. Caractérisation des automorphismes d’un module libre de dimension finie
 
-#### Théorème 1 {#alg-iii-s8-thm-1 .statement}
+#### Théorème 1 {#alg-iii-s8-thm-1 .statement tag=0645}
 
 *Soit M un A-module libre de dimension finie, u un endomorphisme de M. Les conditions suivantes sont équivalentes*:
 
@@ -133,7 +133,7 @@ $$
 
 En vertu de III, p. 89, th. 2, une condition nécessaire et suffisante pour que les $x_i$ forment une base de M est que $\det u$ soit un élément inversible de A; ceci prouve l’équivalence de a) et de e). Observons que a) entraîne évidemment chacune des conditions b), c) et d); il reste à prouver que chacune des conditions b), c) et d) entraîne e). Or, s’il existe un endomorphisme $v$ de M tel que $v \circ u = 1_M$ ou $u \circ v = 1_M$, on a $(\det v)(\det u) = 1$, donc $\det u$ est inversible dans A. Si $u$ est surjectif, il en est de même de $\wedge^n(u)$ (III, p. 78, prop. 3), autrement dit l’homothétie de rapport $\det u$ dans A est surjective, ce qui entraîne aussitôt que $\det u$ est inversible.
 
-#### Proposition 3 {#alg-iii-s8-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s8-prop-3 .statement tag=0646}
 
 *Soit M un A-module libre de dimension finie. Pour tout endomorphisme u de M, les conditions suivantes sont équivalentes*;
 
@@ -142,13 +142,13 @@ g) *det u n’est pas diviseur de zéro dans A*.
 
 Avec les mêmes notations que dans la démonstration du th. 1, pour que $u$ soit injectif, il faut et il suffit que les $x_i$ soient linéairement indépendants. D’après III, p. 88, prop. 12, il faut et il suffit pour cela que la relation $\lambda x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0$ (avec $\lambda \in A$) entraîne $\lambda = 0$. Mais cela équivaut à $\lambda(\det u) = 0$ puisque $e_1 \wedge \cdots \wedge e_n$ est une base de $\wedge^n(M)$; d’où la proposition.
 
-#### Remarque {#alg-iii-s8-n2-rem-1 .statement}
+#### Remarque {#alg-iii-s8-n2-rem-1 .statement tag=0647}
 
 Lorsque A est un corps, la condition e) du th. 2 est équivalente à la condition g) de la prop. 3 puisqu’elles signifient toutes deux que det $u \neq 0$. Il y a donc dans ce cas équivalence entre toutes les conditions du th. 1 et de la prop. 3 (cf. II, p. 101, corollaire).
 
 ### 3. Déterminant d’une matrice carrée
 
-#### Définition 2 {#alg-iii-s8-def-2 .statement}
+#### Définition 2 {#alg-iii-s8-def-2 .statement tag=0648}
 
 Soient I un ensemble fini, A un anneau commutatif, X une matrice carrée de type (I, I) sur l’anneau A (II, p. 149). On appelle déterminant de X et on note det X le déterminant de l’endomorphisme u du A-module $A^I$, dont X est la matrice par rapport à la base canonique de $A^I$.
 
@@ -166,7 +166,7 @@ $$
 
 autrement dit, $\det X$ est égal au déterminant $\det(x_1, x_2, \ldots, x_n)$ par rapport à la base canonique de $A^n$. Par conséquent:
 
-#### Proposition 4 {#alg-iii-s8-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s8-prop-4 .statement tag=0649}
 
 Pour n vecteurs $x_1, \ldots, x_n$ de $A^n$, notons $X(x_1, \ldots, x_n)$ la matrice carrée d’ordre n dont la i-ème colonne est $x_i$, pour $1 \leq i \leq n$. Alors l’application
 
@@ -199,7 +199,7 @@ $$
 
 Lorsque $\det X = 1$, on dit que la matrice $X$ est unimodulaire.
 
-#### Exemple 1 {#alg-iii-s8-n3-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s8-n3-exa-1 .statement tag=064A}
 
 Le déterminant de la matrice vide est égal à 1 ; le déterminant d’une matrice carrée d’ordre 1 est égal à l’unique élément de cette matrice. Pour une matrice d’ordre 2
 
@@ -227,7 +227,7 @@ $$
 
 Traduisons dans le langage des matrices quelques-uns des résultats des n°s 1 et 2 :
 
-#### Proposition 5 {#alg-iii-s8-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s8-prop-5 .statement tag=064B}
 
 *Si $X$ et $Y$ sont deux matrices carrées sur un anneau commutatif $\mathbf{A}$, ayant même ensemble fini d’indices, on a*
 
@@ -244,19 +244,19 @@ $$
 
 Cela résulte aussitôt de III, p. 90, prop. 1 et de III, p. 91, th. 1.
 
-#### Corollaire {#alg-iii-s8-n3-cor-1 .statement}
+#### Corollaire {#alg-iii-s8-n3-cor-1 .statement tag=064C}
 
 *Deux matrices carrées semblables ont des déterminants égaux.*
 En effet, si $P$ est une matrice carrée inversible, on a $\det(PXP^{-1}) = \det X$ d’après (8) et (9).
 
-#### Proposition 6 {#alg-iii-s8-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s8-prop-6 .statement tag=064D}
 
 *Pour que les colonnes d’une matrice carrée $X$ d’ordre fini soient linéairement indépendantes, il faut et il suffit que $\det X$ ne soit pas un diviseur de zéro dans $\mathbf{A}$.*
 Cela résulte de III, p. 91, prop. 3.
 
 ### 4. Calcul d’un déterminant
 
-#### Lemme 1 {#alg-iii-s8-lem-1 .statement}
+#### Lemme 1 {#alg-iii-s8-lem-1 .statement tag=064E}
 
 *Soient $\mathbf{A}$ un anneau commutatif, $M$ un $\mathbf{A}$-module libre ayant une base $(e_j)_{j \in J}$, où l’ensemble d’indices $J$ est totalement ordonné. Pour tout entier $p \leq \mathrm{Card}(J)$, toute fonction $p$-linéaire alternée $f : M^p \to N$ (où $N$ est un $A$-module), et toute famille de $p$ éléments $x_i = \sum_{j \in J} \xi_{ji} e_j$ de $M$ ($1 \leq i \leq p$), on a
 
@@ -297,7 +297,7 @@ $$
 
 où $\mathscr{F}_p(J)$ est l’ensemble des parties de $J$ ayant $p$ éléments et, pour toute partie $H \in \mathscr{F}_p(J)$, on pose $x_{H, i} = \sum_{j \in H} \xi_{ji} e_j$ et $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ étant la suite des éléments de $H$ rangés par ordre croissant, étant entendu que $\det(x_{H, 1}, \ldots, x_{H, p})$ est pris par rapport à la base $(e_{j_k})_{1 \leq k \leq p}$.
 
-#### Proposition 7 {#alg-iii-s8-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s8-prop-7 .statement tag=064F}
 
 *Soient $I$ un ensemble fini, $X = (\xi_{ji})_{(j, i) \in I \times I}$ une matrice carrée de type $(I, I)$ sur un anneau commutatif $A$. On a alors*
 
@@ -325,7 +325,7 @@ $$
 \det(X) = \xi_{11} \xi_{22} \xi_{33} + \xi_{12} \xi_{23} \xi_{31} + \xi_{21} \xi_{32} \xi_{13} - \xi_{13} \xi_{22} \xi_{31} - \xi_{12} \xi_{21} \xi_{33} - \xi_{11} \xi_{23} \xi_{32}.
 $$
 
-#### Proposition 8 {#alg-iii-s8-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s8-prop-8 .statement tag=064G}
 
 *Pour toute matrice carrée $X$ sur un anneau commutatif, le déterminant de la matrice transposée $tX$ est égal au déterminant de $X$.*
 
@@ -343,7 +343,7 @@ $$
 
 ce qui démontre la proposition.
 
-#### Corollaire 1 {#alg-iii-s8-prop-8-cor-1 .statement}
+#### Corollaire 1 {#alg-iii-s8-prop-8-cor-1 .statement tag=064H}
 
 *Pour $n$ vecteurs $x_1, \ldots, x_n$ de $A^n$, notons $Y(x_1, \ldots, x_n)$ la matrice carrée d’ordre $n$ dont la $i$-ème ligne est $x_i$, pour $1 \leq i \leq n$. Alors l’application*
 
@@ -353,7 +353,7 @@ $$
 
 *de $(A^n)^n$ dans $A$ est $n$-linéaire alternée.*
 
-#### Corollaire 2 {#alg-iii-s8-prop-8-cor-2 .statement}
+#### Corollaire 2 {#alg-iii-s8-prop-8-cor-2 .statement tag=064I}
 
 *Pour une matrice carrée $X$ d’ordre fini sur un anneau commutatif $A$, les conditions suivantes sont équivalentes :*
 *(i)* les lignes de $X$ sont linéairement indépendantes ;
@@ -362,7 +362,7 @@ $$
 
 Cela résulte de III, p. 93, prop. 6 et III, p. 95, prop. 8.
 
-#### Corollaire 3 {#alg-iii-s8-prop-8-cor-3 .statement}
+#### Corollaire 3 {#alg-iii-s8-prop-8-cor-3 .statement tag=064J}
 
 *Soient $u$ un endomorphisme d’un $A$-module libre $M$ de dimension finie, $t u$ l’endomorphisme transposé du dual $M^*$ (II, p. 42, déf. 5); on a*
 
@@ -376,7 +376,7 @@ En effet, si $X$ est la matrice de $u$ par rapport à une base de $M$, $t X$ est
 
 Soit $X$ une matrice rectangulaire $(\xi_{ij})_{(i,j) \in I \times J}$ de type (I, J), dont les ensembles d’indices $I$ et $J$ sont *totalement ordonnés*. Si $H \subset I$ et $K \subset J$ sont des parties finies ayant même nombre $p$ d’éléments, il existe une unique bijection croissante $\varphi : H \to K$ (E, III, p. 38, prop. 6); nous noterons $X_{H, K}$ la matrice carrée de type $(H, H)$ égale à $(\xi_{i, \varphi(j)})_{(i, j) \in H \times H}$. Si les éléments de $X$ appartiennent à un anneau commutatif $A$, le déterminant $\det(X_{H, K})$ s’appelle le mineur d’indices $H, K$ de la matrice $X$; on dit aussi que ces déterminants (pour tous les couples $(H, K)$ de parties à $p$ éléments de $I$ et $J$ respectivement) sont les mineurs d’ordre $p$ de $X$. Avec ces notations:
 
-#### Proposition 9 {#alg-iii-s8-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s8-prop-9 .statement tag=064K}
 
 *Soit $M$ un $A$-module ayant une base $(e_i)_{i \in J}$ (finie ou non) dont l’ensemble d’indices $J$ est totalement ordonné. Pour tout entier $p > 0$, soit $(e_H)_{H \in \mathscr{F}_p(J)}$ la base correspondante de $\wedge^p(M)$ (III, p. 86). Soit $(x_i)_{1 \leq i \leq p}$ une suite de $p$ éléments de $M$; posons*
 
@@ -394,7 +394,7 @@ $H$ parcourant l’ensemble $\mathscr{F}_p(J)$ des parties à $p$ éléments de 
 
 Cela résulte en effet de la formule (12) de III, p. 94 et de la formule (6) de III, p. 92.
 
-#### Proposition 10 {#alg-iii-s8-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s8-prop-10 .statement tag=064L}
 
 *Soient $M$ et $N$ deux $A$-modules libres de dimensions respectives $m$ et $n$, $u : M \to N$ une application linéaire, $X$ la matrice de $u$ par rapport à une base $(e_i)_{1 \leq i \leq m}$ de $M$ et une base $(f_j)_{1 \leq j \leq n}$ de $N$. Alors, pour tout entier $p \leq \inf(m, n)$, la matrice de $\wedge^p(u)$ par rapport à la base $(e_K)_{K \in \mathscr{F}_p(I)}$ de $\wedge^p(M)$ et à la base $(f_H)_{H \in \mathscr{F}_p(J)}$ de $\wedge^p(N)$ (où l’on a posé $I = \{1, m\}$ et $J = \{1, n\}$) est la matrice $(\det(X_{H, K}))$ de type $(\mathscr{F}_p(J), \mathscr{F}_p(I))$ (donc à $\binom{n}{p}$ lignes et $\binom{m}{p}$ colonnes).
 
@@ -408,7 +408,7 @@ Donc l’élément de la matrice de $\wedge^p(u)$ qui se trouve dans la ligne d�
 
 On dit que la matrice $(\det(X_{H, K}))$ est la puissance extérieure $p$-ème de la matrice $X$ et on la note $\wedge^p(X)$. Lorsque $p = m = n$, $\wedge^n(X)$ est la matrice à un seul élément $\det(X)$.
 
-#### Proposition 11 {#alg-iii-s8-prop-11 .statement}
+#### Proposition 11 {#alg-iii-s8-prop-11 .statement tag=064M}
 
 *Soit $M$ un $A$-module libre de dimension finie $n$; pour tout endomorphisme $u$ de $M$ et tout couple d’éléments $\xi, \eta$ de $A$, on a*
 
@@ -448,7 +448,7 @@ $$
 
 Or, on a $H \cap L \neq \varnothing$ sauf pour $L = K$; il résulte donc de III, p. 87, formule (20) que l’on a $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ et la formule (18) résulte donc de la prop. 10 de III, p. 96, et de la définition de la trace d’une matrice (II, p. 158, formules (49) et (50)).
 
-#### Corollaire {#alg-iii-s8-n5-cor-1 .statement}
+#### Corollaire {#alg-iii-s8-n5-cor-1 .statement tag=064N}
 
 *Sous les mêmes hypothèses que dans la prop. 11, on a, pour l’endomorphisme $\wedge(u)$ du A-module $\wedge(M)$*
 
@@ -523,7 +523,7 @@ $$
 
 Par suite:
 
-#### Proposition 12 {#alg-iii-s8-prop-12 .statement}
+#### Proposition 12 {#alg-iii-s8-prop-12 .statement tag=064O}
 
 *Pour toute matrice carrée inversible $X$ de type $(n, n)$, l’inverse de $X$ est donnée par la formule*
 $$
@@ -543,7 +543,7 @@ $$
 $$
 On dit que $\tilde{u}$ est le *cotransposé* de $u$ (cf. III, p. 169, corollaire).
 
-#### Exemple 1 {#alg-iii-s8-n6-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s8-n6-exa-1 .statement tag=064P}
 
 *Déterminant de Vandermonde.* Etant donnée une suite $(\zeta_i)_{1 \leq i \leq n}$ de $n$ éléments de $A$, on appelle *déterminant de Vandermonde* de cette suite le déterminant
 $$
@@ -581,7 +581,7 @@ $$
 
 ce qui établit (29) par récurrence.
 
-#### Exemple 2 {#alg-iii-s8-n6-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s8-n6-exa-2 .statement tag=0DGT}
 
 Considérons une matrice carrée d’ordre $n$ qui se présente sous forme d’une « matrice triangulaire supérieure de matrices » (II, p. 152, Exemple IV)
 
@@ -634,7 +634,7 @@ Ceci s’applique en particulier à une matrice triangulaire (toutes les $X_{ii}
 
 (32) $\det(\operatorname{diag}(\alpha_1, \alpha_2, \ldots, \alpha_n)) = \alpha_1 \alpha_2 \ldots \alpha_n.$
 
-#### Exemple 3 {#alg-iii-s8-n6-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s8-n6-exa-3 .statement tag=0DGU}
 
 Soient M, M’ deux A-modules libres de dimensions respectives $n, n'$, u un endomorphisme de M, $u'$ un endomorphisme de M’. Alors on a
 
@@ -669,7 +669,7 @@ Soit $L$ la matrice carrée $(\lambda_{ij})$ d’ordre $n$; en identifiant comme
 
 Soit $u$ l’endomorphisme $x \mapsto L.x$ de $\mathbf{A}^n$, ayant $L$ pour matrice par rapport à la base canonique; dire que l’équation (35) a une solution (au moins) pour tout $y \in \mathbf{A}^n$ signifie que $u$ est surjectif; le th. 1 de III, p. 91 entraîne donc la proposition suivante:
 
-#### Proposition 13 {#alg-iii-s8-prop-13 .statement}
+#### Proposition 13 {#alg-iii-s8-prop-13 .statement tag=064Q}
 
 Pour qu’un système de n équations linéaires à n inconnues sur un anneau commutatif admette au moins une solution quels que soient les seconds membres, il faut et il suffit que le déterminant de la matrice du système soit inversible; dans ce cas le système admet une seule solution.
 
@@ -696,7 +696,7 @@ $$
 On dit encore qu’un système (34) tel que det $L$ soit inversible est un *système de Cramer*.
 
 Faisons en particulier $y = 0$; il résulte alors de III, p. 91, prop. 3 que:
-#### Proposition 14 {#alg-iii-s8-prop-14 .statement}
+#### Proposition 14 {#alg-iii-s8-prop-14 .statement tag=064R}
 
 Pour qu’un système linéaire homogène de n équations à n inconnues sur un anneau commutatif admette une solution non nulle, il faut et il suffit que le déterminant de sa matrice soit diviseur de zéro.
 
@@ -705,11 +705,11 @@ Pour qu’un système linéaire homogène de n équations à n inconnues sur un 
 Tout ce qui précède s’applique lorsque l’anneau $A$ est un corps commutatif; mais il y a des simplifications et l’on peut apporter des compléments.
 Ainsi la prop. 12 de III, p. 88 se formule dans ce cas comme suit:
 
-#### Proposition 15 {#alg-iii-s8-prop-15 .statement}
+#### Proposition 15 {#alg-iii-s8-prop-15 .statement tag=064S}
 
 Soit $E$ un espace vectoriel sur un corps commutatif; pour que $p$ vecteurs $x_i \in E$ $(1 \leq i \leq p)$ soient linéairement indépendants, il faut et il suffit que $x_1 \wedge x_2 \wedge \cdots \wedge x_p \neq 0$.
 
-#### Corollaire {#alg-iii-s8-n8-cor-1 .statement}
+#### Corollaire {#alg-iii-s8-n8-cor-1 .statement tag=064T}
 
 Soit $X$ une matrice de type $(m, n)$ sur un corps commutatif. Le rang de $X$ est égal au plus grand des entiers $p$ tels qu’il existe au moins un mineur d’ordre $p$ de $X$ qui soit $\neq 0$.
 
@@ -721,7 +721,7 @@ $$
 \sum_{j=1}^{n} \lambda_{ij} \xi_j = \eta_i \quad (1 \leq i \leq m).
 $$
 
-#### Proposition 16 {#alg-iii-s8-prop-16 .statement}
+#### Proposition 16 {#alg-iii-s8-prop-16 .statement tag=064U}
 
 Soit $L = (\lambda_{ij})$ la matrice (de type $(m, n)$) du système (41). Soit $M$ la matrice de type $(m, n+1)$ obtenue en bordant $L$ par la $(n+1)$-ème colonne $(\eta_i)$ (II, p. 139). Soit $p$ le rang de $L$ (calculé par application du cor. de la prop. 15). Supposons que le mineur $\Delta$ de $L$, déterminant de la matrice obtenue en supprimant les lignes et les colonnes d’indice $\geq p + 1$ dans $L$, soit $\neq 0$ (ce que l’on peut toujours faire au moyen d’une permutation convenable sur les lignes de $L$ et d’une permutation convenable sur les colonnes de $L$). Alors, pour que le système (41) ait au moins une solution, il faut et il suffit que tous les mineurs d’ordre $p + 1$ de $M$, déterminants des sous-matrices d’ordre $p + 1$ de $M$ dont les colonnes ont pour indices $1, 2, \ldots, p$ et $n + 1$, soient nuls. S’il en est ainsi, les solutions du système (41) sont celles du système formé des $p$ premières équations ; si on les écrit
 
@@ -743,13 +743,13 @@ Le *noyau* de l’homomorphisme surjectif $\det : \mathbf{GL}(n, A) \to A^*$ est
 
 Dans ce n° nous allons examiner le cas où $A$ est un *corps*. Rappelons que pour $1 \leq i \leq n, 1 \leq j \leq n$, on note $E_{ij}$ la matrice carrée d’ordre $n$ dont tous les éléments sont nuls sauf celui appartenant à la ligne d’indice $i$ et à la colonne d’indice $j$, qui est égal à 1 ; $I_n$ désignant la matrice unité d’ordre $n$, on pose $B_{ij}(\lambda) = I_n + \lambda E_{ij}$ pour tout couple d’indices *distincts* $i, j$ et tout $\lambda \in A$ (II, p. 161).
 
-#### Proposition 17 {#alg-iii-s8-prop-17 .statement}
+#### Proposition 17 {#alg-iii-s8-prop-17 .statement tag=064V}
 
 *Soit $K$ un corps commutatif. Le groupe unimodulaire $\mathbf{SL}(n, K)$ est engendré par les matrices $B_{ij}(\lambda)$ pour $i \neq j$ et $\lambda \in K$.*
 
 En vertu de II, p. 161, prop. 14, on sait que toute matrice de $\mathbf{GL}(n, K)$ est produit de matrices de la forme $B_{ij}(\lambda)$ et d’une matrice de la forme $\operatorname{diag}(1, 1, \ldots, 1, \alpha)$ avec $\alpha \in K^*$. Or il est immédiat que $\det(B_{ij}(\lambda)) = 1$ et $\det(\operatorname{diag}(1, \ldots, 1, \alpha)) = \alpha$ (III, p. 100, *Exemple 2*) ; d’où la proposition.
 
-#### Corollaire {#alg-iii-s8-n9-cor-1 .statement}
+#### Corollaire {#alg-iii-s8-n9-cor-1 .statement tag=064W}
 
 *Le groupe $\mathbf{SL}(n, K)$ est le groupe des commutateurs de $\mathbf{GL}(n, K)$, sauf dans le cas où $n = 2$ et où $K$ est un corps à 2 éléments.*
 
@@ -759,11 +759,11 @@ Supposons d’abord que $K$ contienne un élément $\lambda$ distinct de 0 et de
 
 Supposons maintenant que $n \geq 3$. Le produit $B_{21}(1)B_{31}(1)$ est la matrice d’un automorphisme $u$ de $K^n$ tel que $u(e_1) = e_1 + e_2 + e_3, u(e_i) = e_i$ pour $i \neq 1$. Si $S$ est la matrice de l’automorphisme $u'$ de $K^n$ tel que $u'(e_2) = e_2 + e_3, u'(e_i) = e_i$ pour $i \neq 2$, on a $S.B_{21}(1)B_{31}(1).S^{-1} = B_{21}(1)$; on en déduit encore $s^2 = s$, ce qui achève la démonstration.
 
-#### Remarque 1 {#alg-iii-s8-n9-rem-1 .statement}
+#### Remarque 1 {#alg-iii-s8-n9-rem-1 .statement tag=064X}
 
 On a $\mathbf{GL}(2, \mathbf{F}_2) = \mathbf{SL}(2, \mathbf{F}_2)$; c’est un groupe résoluble d’ordre 6, dont le groupe des commutateurs est d’indice 2 (II, p. 208, exerc. 14).
 
-#### Remarque 2 {#alg-iii-s8-n9-rem-2 .statement}
+#### Remarque 2 {#alg-iii-s8-n9-rem-2 .statement tag=0DGV}
 
 Avec les mêmes notations que ci-dessus, on prouve comme dans I, p. 61, prop. 9 que l’on a, pour $i < j, j - i > 1$, $u_{ij} = u_{j-1,j}u_{i,j-1}u_{j-1,i}^{-1}$; donc le groupe $\mathbf{SL}(n, K)$ est engendré par les matrices $B_{12}(\lambda)$ et $U_{i,i+1}$ pour $1 \leq i \leq n - 1$.
 
@@ -805,7 +805,7 @@ $$
 $$
 Notons $\psi$ le $A[X]$-endomorphisme $X - \bar{u}$ de $M[X]$, de sorte que $\psi(p \otimes x) = (Xp) \otimes x - p \otimes u(x)$. On a la proposition suivante:
 
-#### Proposition 18 {#alg-iii-s8-prop-18 .statement}
+#### Proposition 18 {#alg-iii-s8-prop-18 .statement tag=064Y}
 
 *La suite de $A[X]$*-homomorphismes
 $$
@@ -821,7 +821,7 @@ Mais comme les $A[X]$-endomorphismes $X$ et $\bar{u}$ de $M[X]$ sont permutables
 
 Soient maintenant $M'$ un second $A$-module, $u'$ un endomorphisme de $M'$; notons $M'_u, \varphi', \bar{u}', \psi'$ le module et les applications obtenus à partir de $M'$ et $u'$ comme $M_u, \varphi, \bar{u}, \psi$ le sont à partir de $M$ et $u$. Alors:
 
-#### Proposition 19 {#alg-iii-s8-prop-19 .statement}
+#### Proposition 19 {#alg-iii-s8-prop-19 .statement tag=064Z}
 
 *Pour qu’une application g de M dans M’ soit un $A[X]$*-homomorphisme de $M_u$ dans $M'_u$, il faut et il suffit que g soit un $A$*-homomorphisme de $M$ dans $M'$ tel que $g \circ u = u' \circ g$. *Lorsqu’il en est ainsi, si $\bar{g}$ est le $A[X]$*-homomorphisme de $M[X]$ dans $M'[X]$ égal à $1_{A[X]} \otimes g$ (II, p. 82), le diagramme
 $$
@@ -852,7 +852,7 @@ $$
 $$
 car si $U$ est la matrice de $u$ par rapport à une base $(e_i)_{1 \leq i \leq n}$ de $M$, $U$ est la matrice de $\bar{u}$ par rapport à la base $(1 \otimes e_i)_{1 \leq i \leq n}$ de $M[X, Y]$, donc $\operatorname{Tr}(\wedge^j(\bar{u})) = \operatorname{Tr}(\wedge^j(u))$.
 
-#### Définition 3 {#alg-iii-s8-def-3 .statement}
+#### Définition 3 {#alg-iii-s8-def-3 .statement tag=0650}
 
 Soient $M$ un $A$-module libre de dimension finie, $u$ un endomorphisme de $M$. On appelle polynôme caractéristique de $u$ et on note $\chi_u(X)$ le déterminant de l’endomorphisme $X - \bar{u}$ du $A[X]$-module libre $M[X]$.
 
@@ -862,7 +862,7 @@ $$
 $$
 car on a $\det(X - Y \bar{u}) = \det(X . I_n - YU)$ et $\det(X - \bar{u}) = \det(X . I_n - U)$. On voit donc que $\chi_u(X)$ est un polynôme unitaire de degré $n$, dans lequel le coefficient de $X^{n-1}$ est $-\operatorname{Tr}(u)$ et le terme constant est $(-1)^n \det(u)$.
 
-#### Proposition 20 (« théorème de Hamilton-Cayley ») {#alg-iii-s8-prop-20 .statement}
+#### Proposition 20 (« théorème de Hamilton-Cayley ») {#alg-iii-s8-prop-20 .statement tag=0651}
 
 Pour tout endomorphisme $u$ d’un $A$-module libre de dimension finie, on a $\chi_u(u) = 0$.
 

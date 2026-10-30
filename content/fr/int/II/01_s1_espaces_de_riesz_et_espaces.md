@@ -32,7 +32,7 @@ subsections:
       pdf_page: 27
 statements: 17
 exercises: 14
-content_sha256: 41f3b6987643f37bdc2c6a23700270920f02c1eebe2b660973de6966f49ad13b
+content_sha256: b13a2f4931f2eb258d96e28d70720cf972c1d4f56516563c43f781ff82a983d7
 ---
 
 ## § 1. Espaces de Riesz et espaces complètement réticulés
@@ -49,11 +49,11 @@ L’axiome (EO₁) signifie que la structure d’ordre et la structure de groupe
 
 L’axiome (EO₁) entraîne que les relations $x \leq y$ et $x + z \leq y + z$ sont équivalentes. De même, il résulte de (EO₂) que, pour tout scalaire $\lambda > 0$, les relations $x \leq y$ et $\lambda x \leq \lambda y$ sont équivalentes, car on a $\lambda^{-1} > 0$ et par suite la relation $\lambda x \leq \lambda y$ entraîne $\lambda^{-1}(\lambda x) \leq \lambda^{-1}(\lambda y)$. On peut donc dire que, dans un espace vectoriel ordonné, les translations et les homothéties de rapport $> 0$ sont des automorphismes de la structure d’ordre ; on exprime encore ce fait en disant que l’ordre est *invariant* par toute translation et toute homothétie de rapport $> 0$. En outre, la symétrie $x \mapsto -x$ est un isomorphisme de la structure d’ordre de E sur la structure d’ordre *opposée*.
 
-#### Définition 1 {#int-ii-s1-def-1 .statement}
+#### Définition 1 {#int-ii-s1-def-1 .statement tag=08JO}
 
 *On dit qu’un espace vectoriel ordonné est un espace de Riesz si la structure d’ordre est une structure d’ensemble réticulé* (c’est-à-dire si deux éléments quelconques $x, y$ de E admettent une borne supérieure sup $(x, y)$ et une borne inférieure inf $(x, y)$).
 
-#### Exemple {#int-ii-s1-n1-exa-1 .statement}
+#### Exemple {#int-ii-s1-n1-exa-1 .statement tag=08JP}
 
 L’espace $\mathbf{R}^A$ de toutes les fonctions numériques (finies) définies dans un ensemble quelconque $A$ est un espace de Riesz (pour la relation d’ordre « quel que soit $t \in A, x(t) \leq y(t) »$); en effet, deux fonctions numériques quelconques $x, y$ définies dans $A$ admettent une borne supérieure (resp. inférieure) égale à l’application $t \mapsto \sup(x(t), y(t))$ (resp. à l’application $t \mapsto \inf(x(t), y(t))$).
 
@@ -116,21 +116,21 @@ b) deux éléments quelconques de P admettent dans P une borne inférieure (Alg.
 
 ### 3. Espaces complètement réticulés
 
-#### Définition 2 {#int-ii-s1-def-2 .statement}
+#### Définition 2 {#int-ii-s1-def-2 .statement tag=08JQ}
 
 On dit qu’un espace de Riesz E est complètement réticulé si toute partie majorée non vide de E admet une borne supérieure dans E.
 
 Il est immédiat que toute partie minorée non vide d’un espace complètement réticulé E admet une borne inférieure dans E.
 
-#### Exemple 1 {#int-ii-s1-n3-exa-1 .statement}
+#### Exemple 1 {#int-ii-s1-n3-exa-1 .statement tag=08JR}
 
 Si A est un ensemble quelconque, l’espace $\mathbf{R}^A$ des fonctions numériques définies dans A est complètement réticulé, la borne supérieure dans $\mathbf{R}^A$ d’une famille majorée étant son enveloppe supérieure (Top. gén., chap. IV, § 5, n° 5).
 
-#### Exemple 2 {#int-ii-s1-n3-exa-2 .statement}
+#### Exemple 2 {#int-ii-s1-n3-exa-2 .statement tag=0E5V}
 
 Soit F un ensemble quelconque; l’espace $\mathscr{B}(F)$ des fonctions numériques bornées dans F, muni de la structure d’ordre induite par celle de $\mathbf{R}^F$, est complètement réticulé. Par contre, si F est un espace topologique, l’espace $\mathscr{C}(F)$ des fonctions numériques continues dans F (muni de la structure d’ordre induite par celle de $\mathbf{R}^F$) est un espace de Riesz qui en général n’est pas complètement réticulé (cf. exerc. 13). Considérons par exemple le cas où $F = \mathbf{R}$; soient I l’intervalle ]0, 1[, $\varphi_I$ la fonction caractéristique de I, et soit H l’ensemble des fonctions continues $x(t)$ telles que $x \leqslant \varphi_I$; il est clair que H est majoré dans $\mathscr{C}(F)$. La fonction $\varphi_I$ est l’enveloppe supérieure des $x \in H$, mais non leur borne supérieure dans $C(F)$, puisque $\varphi_1$ est semi-continue inférieurement et non continue. Montrons qu’en fait $H$ n’a pas de borne supérieure dans $C(F)$; il suffit de prouver que, si $u$ est une fonction continue telle que $u \geq \varphi_1$, il existe une fonction continue $v \neq u$ telle que $u \geq v \geq \varphi_1$. Or, on a $u(0) \geq 1$, donc il existe un nombre $\alpha > 0$ tel que $u(t) > 0$ pour $-\alpha \leq t \leq 0$; si $w$ est une fonction continue nulle hors de l’intervalle $]-\alpha, 0[$, et telle que $0 < w(t) < u(t)$ dans cet intervalle, la fonction $v = u - w$ répond à la question.
 
-#### Proposition 1 {#int-ii-s1-prop-1 .statement}
+#### Proposition 1 {#int-ii-s1-prop-1 .statement tag=08JS}
 
 *Pour qu’un espace vectoriel ordonné E soit complètement réticulé, il faut et il suffit que E soit un espace de Riesz, et vérifie l’une des deux conditions suivantes*:
 
@@ -142,7 +142,7 @@ Les conditions sont évidemment nécessaires. Inversement, supposons que $E$ soi
 
 D’autre part, la condition *b)* entraîne *a)*: en effet, si $F$ est un ensemble non vide d’éléments $\geq 0$ de $E$, majoré et filtrant pour $\leq$, et si $c$ est un majorant de $F$, $c - F$ est un ensemble d’éléments $\geq 0$, filtrant pour $\geq$; s’il admet une borne inférieure $m$, $c - m$ est la borne supérieure de $F$.
 
-#### Proposition 2 {#int-ii-s1-prop-2 .statement}
+#### Proposition 2 {#int-ii-s1-prop-2 .statement tag=08JT}
 
 *Soit E un espace de Riesz, muni d’une topologie séparée compatible avec sa structure d’espace vectoriel ordonné (Esp. vect. top., chap. II, 2e éd., § 2, n° 7). Si, pour tout ensemble $H \subset E$ majoré et filtrant pour la relation $\leq$, le filtre des sections de $H$ est convergent, E est complètement réticulé*.
 
@@ -158,7 +158,7 @@ En outre, lorsque H est un espace de Riesz (complètement réticulé ou non) il 
 
 Soit $(E_i)_{i \in I}$ une famille quelconque d’espaces vectoriels ordonnés. Rappelons que, dans l’espace produit $E = \prod_{i \in I} E_i$, la relation d’ordre produit des relations d’ordre des espaces facteurs est la relation « quel que soit $i \in I,\ x_i \leq y_i$ » (Ens., chap. III, § 1, n° 4). On vérifie aussitôt que cette relation est compatible avec la structure d’espace vectoriel de E ; E, muni de cette structure, est appelé l’espace produit des espaces ordonnés $E_i$.
 
-#### Proposition 3 {#int-ii-s1-prop-3 .statement}
+#### Proposition 3 {#int-ii-s1-prop-3 .statement tag=08JU}
 
 *Soit $(E_i)_{i \in I}$ une famille d’espaces vectoriels ordonnés. Pour que l’espace produit $E = \prod_{i \in I} E_i$ soit un espace de Riesz (resp. un espace complètement réticulé), il faut et il suffit que chacun des espaces $E_i$ soit un espace de Riesz (resp. un espace complètement réticulé).*
 
@@ -166,11 +166,11 @@ Bornons-nous à examiner le cas des espaces complètement réticulés. Supposons
 
 Réciproquement, supposons E complètement réticulé. Soit $A_\kappa$ une partie majorée de $E_\kappa$, $A'_\kappa$ la partie de E formée des $x = (x_i)$ tels que $x_\kappa \in A_\kappa$ et $x_i = 0$ pour $i \neq \kappa$. Il est immédiat que $A'_\kappa$ est majorée dans E, donc admet une borne supérieure $b = (b_i)$; d’après la définition de la relation d’ordre produit, on a nécessairement $b_i = 0$ pour $i \neq \kappa$, et $b_\kappa$ est borne supérieure de $A_\kappa$, ce qui achève la démonstration.
 
-#### Définition 3 {#int-ii-s1-def-3 .statement}
+#### Définition 3 {#int-ii-s1-def-3 .statement tag=08JV}
 
 Soient E un espace vectoriel ordonné, V et W deux sous-espaces vectoriels supplémentaires de E. On dit que E est somme directe ordonnée de V et W si l’application canonique $(x, y) \mapsto x + y$ de l’espace vectoriel ordonné $V \times W$ sur l’espace vectoriel ordonné E est un isomorphisme.
 
-#### Proposition 4 {#int-ii-s1-prop-4 .statement}
+#### Proposition 4 {#int-ii-s1-prop-4 .statement tag=08JW}
 
 Pour qu’un espace vectoriel ordonné E soit somme directe ordonnée de deux sous-espaces vectoriels supplémentaires V, W, il faut et il suffit que les relations $x \in V,\ y \in W,\ x + y \geq 0$ entraînent $x \geq 0$ et $y \geq 0$.
 
@@ -178,15 +178,15 @@ En effet, comme $x \geq 0$ et $y \geq 0$ entraînent $x + y \geq 0$ dans E, la c
 
 ### 5. Bandes dans un espace complètement réticulé
 
-#### Définition 4 {#int-ii-s1-def-4 .statement}
+#### Définition 4 {#int-ii-s1-def-4 .statement tag=08JX}
 
 Dans un espace complètement réticulé E, on dit qu’un sous-espace vectoriel B de E est une bande s’il satisfait aux conditions suivantes : 1) les relations $x \in B,\ y \in E$ et $|y| \leq |x|$ entraînent $y \in B$; 2) pour toute partie non vide X de B, majorée dans E, la borne supérieure sup X de X dans E appartient à B.
 
-#### Exemple {#int-ii-s1-n5-exa-1 .statement}
+#### Exemple {#int-ii-s1-n5-exa-1 .statement tag=08JY}
 
 Dans l’espace $\mathbf{R}^A$ des fonctions numériques finies définies dans un ensemble A, l’ensemble des fonctions nulles en tous les points d’une partie M de A est une bande.
 
-#### Remarque {#int-ii-s1-n5-rem-1 .statement}
+#### Remarque {#int-ii-s1-n5-rem-1 .statement tag=08JZ}
 
 Dans l’espace $\mathbf{R}^A$, le sous-espace $\mathscr{B}(A)$ des fonctions numériques bornées dans A satisfait à la condition 1) de la déf. 4; en outre, pour toute partie X de $\mathscr{B}(A)$ majorée dans $\mathscr{B}(A)$, l’enveloppe supérieure de X appartient à $\mathscr{B}(A)$. Mais, si A est infini, une partie de $\mathscr{B}(A)$ peut être majorée dans $\mathbf{R}^A$ sans être majorée dans $\mathscr{B}(A)$, et par suite $\mathscr{B}(A)$ n’est pas une bande dans $\mathbf{R}^A$.
 
@@ -196,13 +196,13 @@ Toute intersection d’une famille de bandes dans un espace complètement rétic
 
 Les propriétés des bandes dans un espace complètement réticulé reposent sur la proposition suivante:
 
-#### Proposition 5 {#int-ii-s1-prop-5 .statement}
+#### Proposition 5 {#int-ii-s1-prop-5 .statement tag=08K0}
 
 Soient E un espace complètement réticulé, A une partie non vide de E formée d’éléments $\geqslant 0$, telle que : 1) $A + A \subset A$; 2) les relations $x \in A,\ 0 \leqslant y \leqslant x$ entraînent $y \in A$. Soit M l’ensemble des bornes supérieures dans E des parties de A majorées dans E. Dans ces conditions, tout élément $x \geqslant 0$ de E peut s’écrire sous la forme $y + z$, où $y \in M$ est la borne supérieure des éléments $v \in A$ tels que $v \leqslant x$, et où z est un élément $\geqslant 0$ étranger à tous les éléments de M.
 
 En effet, on a $y \leqslant x$. Tout revient à montrer que $z = x - y$ est étranger à tout élément $t \in A$ (n° 1), ou encore que $u = \inf (z, t)$ est nul. Par hypothèse, on a $u \in A$ et $u \leqslant x - y$, donc $u + y \leqslant x$; pour tout $v \in A$ tel que $v \leqslant x$, on a par définition $v \leqslant y$, donc $u + v \leqslant u + y \leqslant x$; comme $u + v \in A$ par hypothèse, on a aussi $u + v \leqslant y$ par définition de y; enfin, comme $u + y$ est la borne supérieure dans E des éléments $u + v$ tels que $v \in A$ et $v \leqslant x$, on a $u + y \leqslant y$, d’où $u \leqslant 0$, ce qui achève la démonstration.
 
-#### Théorème 1 (F. Riesz) {#int-ii-s1-thm-1 .statement}
+#### Théorème 1 (F. Riesz) {#int-ii-s1-thm-1 .statement tag=08K1}
 
 Soit A une partie d’un espace complètement réticulé E. L’ensemble A' des éléments étrangers à tous les éléments de A est une bande; la bande A'' des éléments étrangers à tous les éléments de A' est identique à la bande engendrée par A, et E est somme directe ordonnée des bandes A' et A''.
 
@@ -212,13 +212,13 @@ Reste à montrer que $A''$ est identique à la bande B engendrée par A. Or, E e
 
 Le th. 1 et la prop. 5 permettent de donner une autre définition de la bande engendrée par un ensemble d’éléments de E :
 
-#### Proposition 6 {#int-ii-s1-prop-6 .statement}
+#### Proposition 6 {#int-ii-s1-prop-6 .statement tag=08K2}
 
 Soient E un espace complètement réticulé, M une partie de E, B la bande engendrée par M. Soit $M_1$ l’ensemble des éléments $\geqslant 0$ de E dont chacun est majoré par un élément de la forme $\sum_i |x_i|$, où $x_i \in M$; soit $M_2$ l’ensemble des bornes supérieures des parties majorées de $M_1$; l’ensemble $M_2$ est identique à l’ensemble des éléments $\geqslant 0$ de B.
 
 On a évidemment $M_2 \subset B$ par définition d’une bande; d’autre part, si B’ est la bande des éléments étrangers à tous les éléments de $M_1$, le th. 1 montre que E est somme directe ordonnée de B et B’. Mais la prop. 5 prouve que tout élément $\geqslant 0$ de E est somme d’un élément de $M_2$ et d’un élément de B’, d’où la proposition.
 
-#### Corollaire {#int-ii-s1-n5-cor-1 .statement}
+#### Corollaire {#int-ii-s1-n5-cor-1 .statement tag=08K3}
 
 Soit a un élément d’un espace complètement réticulé E. Soient $B_a$ la bande engendrée par a, $B'_a$ la bande des éléments étrangers à a. Pour tout élément $x \geqslant 0$ de E, le composant de x dans $B_a$ (pour la décomposition de E en somme directe ordonnée de $B_a$ et $B'_a$) est égal à $\sup_{n \in \mathbf{N}} (\inf (n|a|, x))$.
 

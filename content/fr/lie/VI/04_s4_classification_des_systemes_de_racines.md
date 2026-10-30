@@ -68,7 +68,7 @@ subsections:
       pdf_page: 221
 statements: 19
 exercises: 16
-content_sha256: 3cb9c39e5e6c71fb5afd6be6bbb5db13dd92c1d149df1d23ad55a691b7989acb
+content_sha256: a3769a64713959c24f0dd855d0c759242ff03a49306c73093df409a55c0071a1
 ---
 
 ## § 4. Classification des systèmes de racines
@@ -95,19 +95,19 @@ Dans toute la suite de ce numéro, nous supposerons que le groupe de Coxeter $W(
 
 En exprimant que $q$ est positive non dégénérée, nous obtiendrons des conditions sur les $m_{ij}$ qui permettront de dresser la liste des possibilités pour les graphes de Coxeter correspondants; il restera ensuite à voir que ces possibilités sont effectivement réalisées, c’est-à-dire que les groupes $W(M)$ correspondants sont finis.
 
-#### Lemme 1 {#lie-vi-s4-lem-1 .statement}
+#### Lemme 1 {#lie-vi-s4-lem-1 .statement tag=0AY2}
 
 *Pour tout $i$, on a* $\sum_{j \neq i} q_{ij}^2 < 1$.
 
 Soit $J$ l’ensemble des $j \in I$ distincts de $i$ tels que $q_{ij} \neq 0$, c’est-à-dire tels que $\{i, j\}$ soit une arête de $\mathbf{X}$. Si $j, j' \in J$ et $j \neq j'$, $\{j, j'\}$ n’est pas une arête (sinon $i, j, j'$ formeraient un circuit), donc $(e_j|e_{j'}) = 0$. Soit $F = \sum_{j \in J} \mathbf{R} e_j$. Alors $(e_j)_{j \in J}$ est une base orthonormale de $F$. La distance $d$ de $e_i$ à $F$ est donnée par $d^2 = 1 - \sum_{j \in J} (e_i|e_j)^2 = 1 - \sum_{j \in J} q_{ij}^2 = 1 - \sum_{j \neq i} q_{ij}^2$, d’où le lemme.
 
-#### Lemme 2 {#lie-vi-s4-lem-2 .statement}
+#### Lemme 2 {#lie-vi-s4-lem-2 .statement tag=0AY3}
 
 *Un sommet de $\mathbf{X}$ ne peut appartenir qu’à 3 arêtes au plus.*
 
 En effet, si $i$ est lié à $h$ autres sommets, les relations $q_{ij}^2 \geq \frac{1}{4}$ pour ces autres sommets entraînent $\frac{h}{4} < 1$ d’après le lemme 1, donc $h \leq 3$.
 
-#### Lemme 3 {#lie-vi-s4-lem-3 .statement}
+#### Lemme 3 {#lie-vi-s4-lem-3 .statement tag=0AY4}
 
 *Si $i$ appartient à 3 arêtes, ces arêtes sont d’ordre 3.*
 
@@ -119,7 +119,7 @@ $$
 
 ce qui est impossible (lemme 1).
 
-#### Lemme 4 {#lie-vi-s4-lem-4 .statement}
+#### Lemme 4 {#lie-vi-s4-lem-4 .statement tag=0AY5}
 
 *S’il existe une arête d’ordre $\geq 6$, on a $l = 2$.*
 
@@ -131,7 +131,7 @@ $$
 
 ce qui est impossible (lemme 1).
 
-#### Lemme 5 {#lie-vi-s4-lem-5 .statement}
+#### Lemme 5 {#lie-vi-s4-lem-5 .statement tag=0AY6}
 
 Un sommet ne peut appartenir à deux arêtes distinctes d’ordre $\geqslant 4$.
 
@@ -157,7 +157,7 @@ $$
 = \sum_{k, k' \in I} q_{kk'} \xi_k \xi_{k'} - (1 + 2q_{ij}) \xi_p^2.
 $$
 
-#### Lemme 6 {#lie-vi-s4-lem-6 .statement}
+#### Lemme 6 {#lie-vi-s4-lem-6 .statement tag=0AY7}
 
 Si $\{i, j\}$ est d’ordre 3, $W(M')$ est un groupe de Coxeter fini.
 
@@ -169,7 +169,7 @@ $$
 $$
 donc $(\xi_k)_{k \in I'} \mapsto \sum_{k, k' \in I'} q'_{kk'} \xi_k \xi_{k'}$ est une forme quadratique positive non dégénérée. Il suffit alors d’appliquer le th. 2 du chap. V, § 4, no 8.
 
-#### Lemme 7 {#lie-vi-s4-lem-7 .statement}
+#### Lemme 7 {#lie-vi-s4-lem-7 .statement tag=0AY8}
 
 On a l’alternative suivante :
 a) $X$ possède un point de ramification (chap. IV, Annexe, no 1) et un seul, et toutes les arêtes de $X$ sont d’ordre 3.
@@ -179,7 +179,7 @@ a) Supposons que $X$ possède un point de ramification $i$. Alors $i$ appartient
 
 b) Supposons que $X$ ne possède aucun point de ramification. Alors $X$ est une chaîne (chap. IV, Annexe, n° 3, prop. 3). Soit $\{i, j\}$ une arête d’ordre $\geqslant 4$. Si $l = 2$, le lemme est trivial. Sinon, $i$ par exemple appartient à une arête $\{i, k\}$ avec $k \neq j$ (puisque $X$ est connexe). Cette arête est d’ordre 3 (lemme 5). Identifions $i$ et $k$ dans le graphe de Coxeter de $M$. Grâce au lemme 6, on peut appliquer l’hypothèse de récurrence. Soit $p$ l’image de $i$ dans le nouveau graphe $X'$. Dans $X'$, $\{p, j\}$ est une arête d’ordre $\geqslant 4$, donc $X'$ n’a aucune autre arête d’ordre $\geqslant 4$, donc $\{i, j\}$ est la seule arête d’ordre $\geqslant 4$ dans $X$.
 
-#### Lemme 8 {#lie-vi-s4-lem-8 .statement}
+#### Lemme 8 {#lie-vi-s4-lem-8 .statement tag=0AY9}
 
 Soient $i_1, i_2, \ldots, i_p$ des sommets de $X$ tels que $\{i_1, i_2\}, \{i_2, i_3\}, \ldots, \{i_{p-1}, i_p\}$ soient des arêtes d’ordre 3. Alors $q \left( \sum_{r=1}^p r e_{i_r} \right) = \frac{1}{2} p(p+1)$.
 
@@ -195,7 +195,7 @@ $$
 p^2 - \frac{1}{2} p(p-1) = \frac{1}{2} p(p+1).
 $$
 
-#### Lemme 9 {#lie-vi-s4-lem-9 .statement}
+#### Lemme 9 {#lie-vi-s4-lem-9 .statement tag=0AYA}
 
 Supposons que $X$ soit une chaîne ayant pour sommets $1, 2, \ldots, l$ et pour arêtes $\{1, 2\}, \{2, 3\}, \ldots, \{l-1, l\}$.
 
@@ -258,7 +258,7 @@ $$
 
 donc $m = 4$. Ceci prouve (i). Si $i = 1$ et $m = 5$, on a $2j + 2 > 4j \frac{3+\sqrt{5}}{8}$, ou $j \frac{\sqrt{5}-1}{2} < 2, j < \sqrt{5} + 1 < 4$, donc $l = j + 1 \leq 4$. Ceci prouve (ii).
 
-#### Lemme 10 {#lie-vi-s4-lem-10 .statement}
+#### Lemme 10 {#lie-vi-s4-lem-10 .statement tag=0AYB}
 
 *Si X admet un point de ramification i, le sous-graphe plein X—{i} est réunion de trois chaînes, et si p—1, q—1, r—1 sont les longueurs de ces chaînes, le triplet (p, q, r) est égal, à une permutation près, à l’un des triplets (1, 2, 2), (1, 2, 3, ), (1, 2, 4), (1, 1, m) (m quelconque $\geq 1$).
 
@@ -310,7 +310,7 @@ donc $2(q+1)^{-1} > \frac{1}{2}$, d’où $q \leqslant 2$. Enfin, si $q = 2$, (5
 
 $$(p+1)^{-1} > \frac{1}{6}, \quad \text{d’où } p \leqslant 4.$$
 
-#### Théorème 1 {#lie-vi-s4-thm-1 .statement}
+#### Théorème 1 {#lie-vi-s4-thm-1 .statement tag=0AYC}
 
 Si (W, S) est un système de Coxeter fini irréductible, son graphe de Coxeter est isomorphe à l’un des suivants :
 
@@ -339,7 +339,7 @@ Le fait que les graphes de Coxeter énumérés soient deux à deux non isomorphe
 
 Réciproquement :
 
-#### Théorème 2 {#lie-vi-s4-thm-2 .statement}
+#### Théorème 2 {#lie-vi-s4-thm-2 .statement tag=0AYD}
 
 Les groupes de Coxeter définis par les graphes de Coxeter Aₗ, Bₗ, ..., I₂(p) du th. 1 sont finis.
 
@@ -402,13 +402,13 @@ Compte tenu des résultats du § 1, no 3 et 5, les seules possibilités sont les
 
 On voit donc que la connaissance du graphe de Dynkin de $R$ détermine la matrice de Cartan et la matrice de Coxeter de R et par suite détermine R à isomorphisme près. Plus précisément, le cor. de la prop. 15 du § 1, n° 5 entraîne le résultat suivant :
 
-#### Proposition 1 {#lie-vi-s4-prop-1 .statement}
+#### Proposition 1 {#lie-vi-s4-prop-1 .statement tag=0AYE}
 
 *Soient $R_1$ et $R_2$ deux systèmes de racines réduits dans des espaces vectoriels réels $V_1$ et $V_2$. Soient $B_1 = (\alpha_i)_{i \in I_1}$ et $B_2 = (\alpha_i)_{i \in I_1}$ des bases de $R_1$ et $R_2$, indexées canoniquement. Soit $\lambda$ un isomorphisme du graphe de Dynkin de $R_1$ sur le graphe de Dynkin de $R_2$. Il existe alors un unique isomorphisme de $V_1$ sur $V_2$ transformant $R_1$ en $R_2$ et transformant $\alpha_i$ en $\alpha_{\lambda(i)}$ pour tout $i \in I_1$.
 
 Il est clair qu’un automorphisme de R définit un automorphisme du graphe de Dynkin de R, d’où un homomorphisme $\varphi$ du groupe $A(R)$ dans le groupe des automorphismes du graphe de Dynkin de R.
 
-#### Corollaire {#lie-vi-s4-n2-cor-1 .statement}
+#### Corollaire {#lie-vi-s4-n2-cor-1 .statement tag=0AYF}
 
 *L’homomorphisme $\varphi$ défini par passage au quotient un isomorphisme du groupe $A(R)/W(R)$ sur le groupe des automorphismes du graphe de Dynkin de R.*
 
@@ -427,7 +427,7 @@ Il est clair que la donnée de ce dessin permet de reconstituer le graphe de Dyn
 
 On remarquera que la figure associée au graphe de Coxeter de $W(R)$ s’obtient à partir de la figure ainsi associée au graphe de Dynkin de R en conservant les points et les traits simples et en remplaçant les doubles traits (resp. triples traits) par un trait surmonté du nombre 4 (resp. 6). Inversement, si l’on connaît le graphe de Coxeter de $W(R)$, l’opération inverse permet de reconstituer la figure associée au graphe de Dynkin de R, à l’exception des signes d’inégalité surmontant les doubles et triples traits. On déduit alors immédiatement du th. 1 la liste des graphes de Dynkin possibles. Plus précisément :
 
-#### Théorème 3 {#lie-vi-s4-thm-3 .statement}
+#### Théorème 3 {#lie-vi-s4-thm-3 .statement tag=0AYG}
 
 Si R est un système de racines réduit et irréductible, son graphe de Dynkin est isomorphe à l’un des graphes représentés par les figures suivantes :
 
@@ -445,11 +445,11 @@ Ces graphes de Dynkin sont deux à deux non isomorphes et, pour chacun d’eux, 
 
 La première assertion résulte aussitôt du th. 1, compte tenu des remarques qui précèdent, du fait que les groupes de Coxeter de graphe H_3, H_4 et I_2(p) (pour p = 5 ou p \geqslant 7) ne sont pas cristallographiques, et de ce que les deux inégalités possibles pour le double (resp. triple) trait du graphe de Dynkin associé au graphe de Coxeter F_4 (resp. G_2) donnent des graphes de Dynkin isomorphes. La deuxième assertion est évidente et la troisième résultera de la construction explicite d’un système de racines réduit et irréductible pour chacun des types, construction qui va être effectuée dans les n°s 5 à 13.
 
-#### Remarque 1 {#lie-vi-s4-n2-rem-1 .statement}
+#### Remarque 1 {#lie-vi-s4-n2-rem-1 .statement tag=0AYH}
 
 Le graphe A_1 est réduit à un seul sommet; on le note aussi B_1 ou C_1. Le graphe B_2———o est aussi noté C_2. Le graphe A_3———o———o est aussi noté D_3. Enfin, on note D_2 le graphe composé de deux sommets non liés. (Ces conventions proviennent des propriétés des systèmes de racines correspondants, cf. n°s 5 à 8.)
 
-#### Remarque 2 {#lie-vi-s4-n2-rem-2 .statement}
+#### Remarque 2 {#lie-vi-s4-n2-rem-2 .statement tag=0AYI}
 
 Si (X, f) est le graphe de Dynkin d’un système de racines réduit R, le graphe de Dynkin du système inverse s’identifie à (X, f^{-1}). Autrement dit, la figure associée au graphe de Dynkin de R^\vee s’obtient à partir de celle associée au graphe de Dynkin de R en renversant les signes d’inégalité. Si R est irréductible, on voit que R est isomorphe à R^\vee, sauf si R est de type B_l ou C_l, auquel cas R^\vee est de type C_l ou B_l.
 
@@ -471,7 +471,7 @@ L’action de $A(R)$ sur $(X, f)$ se prolonge en une action sur $(\tilde{X}, \ti
 
 Reprenons les notations du § 2. La prop. 5 du § 2, no 2, jointe au th. 1 du chap. V, § 3, no 2, montre que le graphe de Coxeter $\Sigma$ du groupe de Weyl affine $W_a(R)$ se déduit de $(\tilde{X}, \tilde{f})$ par les mêmes règles que celles permettant de passer de $(X, f)$ au graphe de Coxeter de $W(R)$. D’autre part, soit G le normalisateur de $W_a(R)$ (§ 2, no 3). À tout $g \in G$ correspond un automorphisme $\varphi(g)$ de $\Sigma$ et on a $\varphi(g) = \mathrm{Id}$ si $g \in W_a(R)$. Inversement, à tout automorphisme $\lambda$ de $\Sigma$ correspond, d’après la prop. 11 du chap. V, § 4, no 9, un élément $g = \psi(\lambda)$ et un seul, conservant une alcôve C donnée et tel que $\varphi(g) = \lambda$. Comme G est produit semi-direct du sous-groupe $G_C$ des éléments conservant C et de $W_a(R)$ (§ 2, no 3), on en déduit que $\varphi$ fournit par passage au quotient un *isomorphisme de* $G/W_a$ (ou de $G_C$) *sur* $\mathrm{Aut}(\Sigma)$. On vérifie aussitôt que le composé de cet isomorphisme avec l’application canonique de $A(R)/W(R)$ dans $G/W_a$ coïncide avec l’homomorphisme de $A(R)/W(R)$ dans $\mathrm{Aut}(\Sigma)$ déduit de l’homomorphisme de $A(R)/W(R)$ dans $\mathrm{Aut}(\tilde{X}, \tilde{f})$ défini plus haut. D’après le § 2, n° 3, le groupe $\mathrm{Aut}(\Sigma)$ est isomorphe au produit semi-direct de $A(R)/W(R)$ par $P(R^\vee)/Q(R^\vee)$, et $P(R^\vee)/Q(R^\vee)$ est isomorphe au groupe $\Gamma_C = G_C \cap W'_a$ (avec les notations du § 2, n° 3); l’élément de $\mathrm{Aut}(\Sigma)$ correspondant à l’élément $\gamma_i$ de $\Gamma_C$ transforme le sommet 0 en le sommet $i$ de $\Sigma$.
 
-#### Remarque {#lie-vi-s4-n3-rem-1 .statement}
+#### Remarque {#lie-vi-s4-n3-rem-1 .statement tag=0AYJ}
 
 On peut montrer que l’application canonique
 $$
@@ -479,7 +479,7 @@ $$
 $$
 est un isomorphisme.
 
-#### Théorème 4 {#lie-vi-s4-thm-4 .statement}
+#### Théorème 4 {#lie-vi-s4-thm-4 .statement tag=0AYK}
 
 Soit $(W, S)$ un système de Coxeter irréductible, avec $S$ fini. Pour que la forme quadratique associée (chap. V, § 4, n° 1) soit positive et dégénérée, il faut et il suffit que le graphe de Coxeter de $(W, S)$ soit isomorphe à l’un des suivants :
 

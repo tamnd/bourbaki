@@ -52,11 +52,11 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: b3f533ee2797f4808434283f251c7c50efd2d8b158799136c1a13515df17fcb6
+content_sha256: 79b3083057be4aa6fd7cee3178b4bee56f200ca6fd2596f86024f81ffde91f71
 translated_from: content/fr/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 6c3c715713c4fa2e6f254fef42641b839a523a15eb7772322f1432e2670dc680
+source_content_sha256: 45ba02559ce422ca4f9ad81ffa98a11f0a681d42a7f379ae836af0041c53837d
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-019184ab
 glossary_version: 34
@@ -70,7 +70,7 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 In this No. $A$ and $B$ denote two rings, $E$ a left $A$-module, $F$ a right $B$-module, and $G$ an $(A, B)$-bimodule, that is to say, a commutative group endowed with a structure of left $A$-module and a structure of right $B$-module such that $(ag)b = a(gb)$ for all $a \in A$, $b \in B$, $g \in G$.
 
-#### Definition 1 {#alg-ix-s1-def-1 .statement}
+#### Definition 1 {#alg-ix-s1-def-1 .statement tag=0DIQ}
 
 A mapping $\Phi$ of the product $E \times F$ into $G$ is said to be bilinear if it satisfies the following conditions:
 
@@ -98,7 +98,7 @@ for all $x, x'$ in $E$, $y, y'$ in $F$, $a \in A$, $b \in B$; in other words, th
 
 $$(5) \quad \Phi(x, y) = d_\Phi(y)(x) = s_\Phi(x)(y) \text{ for all } x \in E, y \in F.$$
 
-#### Definition 2 {#alg-ix-s1-def-2 .statement}
+#### Definition 2 {#alg-ix-s1-def-2 .statement tag=0DIR}
 
 Given a bilinear mapping $\Phi$ from $E \times F$ into $G$, the mapping $d_\Phi$ from $F$ into $\mathscr{L}_A(E, G)$ (resp. the mapping $s_\Phi$ from $E$ into $\mathscr{L}_B(F, G)$) characterized by (5) is called the linear mapping associated on the right (resp. on the left) with $\Phi$.
 
@@ -110,7 +110,7 @@ $$
 
 a bilinear mapping $\Phi$ from $E \times F$ into $G$, of which $d$ (resp. $s$) is the linear mapping associated on the right (resp. on the left).
 
-#### Definition 3 {#alg-ix-s1-def-3 .statement}
+#### Definition 3 {#alg-ix-s1-def-3 .statement tag=0DIS}
 
 A bilinear mapping $\Phi$ of $E \times F$ into $G$ is said to be degenerate on the right (resp. on the left) if there exists a nonzero element $y_0$ of $F$ (resp. $x_0$ of $E$) such that $\Phi(x, y_0) = 0$ for all $x \in E$ (resp. $\Phi(x_0, y) = 0$ for all $y \in F$). We say that $\Phi$ is degenerate if it is degenerate on the right or if it is degenerate on the left.
 
@@ -148,7 +148,7 @@ Let $\Phi$ be a bilinear mapping of $E \times F$ into G, and h a homomorphism (f
 
 In this No. unless expressly stated otherwise, A and B denote two rings, E a left A-module and F a *left* B-module; $b \to b^J$ ($b \in B$) denotes an *antiautomorphism* of B, that is, a bijection of B onto itself satisfying $(b + c)^J = b^J + c^J$ and $(bc)^J = c^J b^J$ for all $b,\ c$ in B; we shall write $J'$ instead of $J^{-1}$. G denotes an (A, B)-bimodule (No. 1).
 
-#### Definition 4 {#alg-ix-s1-def-4 .statement}
+#### Definition 4 {#alg-ix-s1-def-4 .statement tag=0DIT}
 
 *We say that a mapping $\Phi$ of $E \times F$ into G is right sesquilinear for J if it satisfies conditions (1), (2), (3) (def. 1, No. 1) as well as*
 (7) $\Phi(x, by) = \Phi(x, y) \cdot b^J$ for all $x \in E,\ y \in F$ and $b \in B$.
@@ -164,7 +164,7 @@ As in the case of a bilinear mapping, the elements $\Phi(e_i, f_k)$ determine $\
 
 As for bilinear mappings, one defines on the set of right sesquilinear mappings (for $J$) from $E \times F$ into $G$ a bimodule structure over the centres of $A$ and $B$. One defines the notion of inverse image of a sesquilinear mapping by the same formula as for a bilinear mapping. We shall moreover see that the study of sesquilinear mappings can be reduced to that of bilinear mappings.
 
-#### Definition 5 {#alg-ix-s1-def-5 .statement}
+#### Definition 5 {#alg-ix-s1-def-5 .statement tag=0DIU}
 
 Let $B$ be a ring, $F$ a $B$-module to the left (resp. to the right) and $J$ an antiautomorphism of $B$. We denote by $F^J$ the $B$-module to the right (resp. to the left) having the same underlying additive group as $F$ and in which the external composition law is $(b, y) \to b^{J'}y$ (resp. $(b, y) \to yb^{J'}$) $(b \in B,\ y \in F,\ J' = J^{-1})$.
 
@@ -177,7 +177,7 @@ The mapping $u$ from $F$ into $H$ is a semilinear mapping from $F$ into $H$ rela
 
 Analogously a right sesquilinear mapping $\Phi$ (for $J$) from $E \times F$ into $G$, where $F$ is a $B$-module to the left, is identified with a bilinear mapping from $E \times F^J$ into $G$; if the latter is degenerate to the right (resp. degenerate to the left, non-degenerate), one says that $\Phi$ is degenerate to the right (resp. degenerate to the left, non-degenerate).
 
-#### Remark {#alg-ix-s1-n2-rem-1 .statement}
+#### Remark {#alg-ix-s1-n2-rem-1 .statement tag=0DIV}
 
 Let $A$ and $B$ be two rings, $J_1$ an antiautomorphism of $A$, $M$ an $A$-module to the right, $N$ a $B$-module to the right and G a (A, B)-bimodule. One says that a mapping $\Phi$ from $M \times N$ into G is *left sesquilinear for $J_1$* if it is $\mathbf{Z}$-bilinear and if it satisfies
 
@@ -191,7 +191,7 @@ Such a mapping is identified with a bilinear mapping from $M^{J_1} \times N$ int
 
 In this No., A and B denote rings, E a left A-module, F a right B-module (resp. a left B-module), G an (A, B)-bimodule, and $\Phi$ a bilinear mapping (resp. sesquilinear mapping for a given antiautomorphism J of B) of $E \times F$ into G.
 
-#### Definition 6 {#alg-ix-s1-def-6 .statement}
+#### Definition 6 {#alg-ix-s1-def-6 .statement tag=0DIW}
 
 *Two elements $x \in E$ and $y \in F$ are said to be orthogonal with respect to $\Phi$ if $\Phi(x, y) = 0$. Two subsets $E' \subset E$ and $F' \subset F$ are said to be orthogonal if, whatever $x \in E'$ and $y \in F'$, $x$ and $y$ are orthogonal. The set of elements of $E$ (resp. F) orthogonal to a given submodule N of F (resp. M of E) is a submodule of E (resp. F), called the totally orthogonal submodule (or simply orthogonal submodule) to N (resp. M), and denoted by $N^0$ (resp. $M^0$).*
 
@@ -227,7 +227,7 @@ a'_1(a' \otimes x) = (a'_1 a') \otimes x \quad (a', a'_1 \in A', x \in E)
 $$
 (resp. $(y \otimes b') b'_1 = y \otimes (b' b'_1)$ $(b', b'_1 \in B', y \in F)$).
 
-#### Proposition 1 {#alg-ix-s1-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s1-prop-1 .statement tag=0DIX}
 
 *Let $E$ be a left $A$-module and $F$ a right $B$-module; put $E' = A' \otimes_A E$ and $F' = F \otimes_B B'$. For every bilinear mapping $\Phi$ of $E \times F$ into $G$, there exists one and only one bilinear mapping $\Phi'$ of $E' \times F'$ into $G'$ such that*
 
@@ -270,7 +270,7 @@ $$
 
 (where $d_\Phi$ and $d_{\Phi'}$ denote the right associated linear mappings to $\Phi$ and $\Phi'$) is *commutative*. Indeed, for $x \in E, y \in F$ and $a' \in A'$, we have $d_{\Phi'}(i(y))(a' \otimes x) = \Phi'(a' \otimes x, y \otimes 1) = a'.u(\Phi(x, y)) = a'.u(d_\Phi(y)(x))$, that is, $d_{\Phi'}(i(y))(a' \otimes x) = k(d_\Phi(y))(a' \otimes x)$. There is an analogous commutation relation for the left associated linear mappings $s_\Phi$ and $s_{\Phi'}$ to $\Phi$ and $\Phi'$.
 
-#### Proposition 2 {#alg-ix-s1-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s1-prop-2 .statement tag=0DIY}
 
 *Suppose that B and B' are provided with anti-automorphisms J and I such that*
 
@@ -304,7 +304,7 @@ from G into G'. The pair $(G', u)$ thus defined is clearly *universal* in the fo
 
 The following is valid equally for bilinear mappings and for sesquilinear mappings; the hypotheses and notations are those of prop. 1 (resp. prop. 2). Given a submodule M of E or F, we shall denote by M' the submodule of E' or F' generated by the canonical image of M.
 
-#### Proposition 3 {#alg-ix-s1-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s1-prop-3 .statement tag=0DIZ}
 
 The hypotheses and notations being those of prop. 1 (resp. prop. 2) suppose in addition that A, B, A', B' are fields and that the mappings α and β of $A' \otimes_A G$ and $G \otimes_B B'$ into G' characterized by $\alpha(a' \otimes g) = a'u(g)$ and $\beta(g \otimes b') = u(g)b'$ ($a' \in A'$, $b' \in B'$, $g \in G$) are injective. Let M be a subspace of E and N a subspace of F. Then the subspace $(M')^0$ of F' orthogonal to M' with respect to $\Phi'$ is equal to $(M^0)',$ and, analogously, one has $(N')^0 = (N^0)'$.
 
@@ -323,13 +323,13 @@ $$
 
 Comme $\beta$ is injective and the $b'_i$ (resp. the ${b'}^I_i$, taking account of (15)) are linearly independent over B for the structure of left B-module of B', this implies $\Phi(x, y_i) = 0$ for $i = 1, \ldots, s$. Since this last relation is true for all $x \in M$, we have $y_i \in M^0$ for $i = 1, \ldots, s$, whence $y' \in (M^0)'$. QED.
 
-#### Corollary {#alg-ix-s1-n4-cor-1 .statement}
+#### Corollary {#alg-ix-s1-n4-cor-1 .statement tag=0DJ0}
 
 The hypotheses and notations being those of Prop. 3, in order that $\Phi'$ be non-degenerate, it is necessary and sufficient that $\Phi$ be non-degenerate.
 
 Indeed, by Prop. 3, we have $(F')^0 = (F^0)'$ and $(E')^0 = (E^0)'$. On the other hand, in order that $\Phi$ (resp. $\Phi'$) be non-degenerate, it is necessary and sufficient that one have $F^0 = E^0 = \{0\}$ (resp. $(F')^0 = (E')^0 = \{0\}$).
 
-#### Remark {#alg-ix-s1-n4-rem-1 .statement}
+#### Remark {#alg-ix-s1-n4-rem-1 .statement tag=0DJ1}
 
 Suppose that A, B, A' and B' are fields. Then, for the bimodules G' defined in the three examples above, the mappings $\alpha$ and $\beta$ are injective, as follows immediately from Chap. III, 2nd ed., App. II, No. 6.
 
@@ -409,19 +409,19 @@ $$
 
 where $N'$ (resp. $M'$) is the submodule of the dual $F^*$ of $F$ (resp. of the dual $E^*$ of $E$) orthogonal to $N$ (resp. $M$) (Chap. II, § 4, No. 2).
 
-#### Proposition 4 {#alg-ix-s1-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s1-prop-4 .statement tag=0DJ2}
 
 *Suppose that $A$ is a field, and let $\Phi$ be a bilinear form (resp. sesquilinear form for $J$) on $E \times F$; for $E/F^0$ to be of finite dimension, it is necessary and sufficient that $F/E^0$ be of finite dimension, and these dimensions are then equal.*
 
 Indeed, let $\Phi_1$ be the non-degenerate form associated with $\Phi$, on $(E/F^0) \times (F/E^0)$ (No. 3). Suppose that $E/F^0$ is of finite dimension $n$; since the linear mapping $d_{\Phi_1}$ from $F/E^0$ (resp. $(F/E^0)^J$) into $(E/F^0)^*$ is injective, $F/E^0$ is of finite dimension $n' \leq n$; considering $s_{\Phi_1}$, we see similarly that $n \leq n'$.
 
-#### Corollary 1 {#alg-ix-s1-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-ix-s1-prop-4-cor-1 .statement tag=0DJ3}
 
 *Suppose that $A$ is a field and that $\Phi$ is non-degenerate. For a subspace $M$ of $E$ to be of finite dimension, it is necessary and sufficient that $M^0$ be of finite codimension in $F$, and one then has $\operatorname{codim} M^0 = \dim M$, and $M^{00} = M$.*
 
 Comme $F^0 = \{0\}$, the first two assertions result from prop. 4 applied to the restriction of $\Phi$ to $M \times F$. Moreover, $M^0$ is the orthogonal of $M^{00}$, hence $M^{00}$ is of finite dimension equal to $\operatorname{codim} M^0 = \dim M$; but since $M^{00} \supset M$, we have $M^{00} = M$.
 
-#### Corollary 2 {#alg-ix-s1-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-ix-s1-prop-4-cor-2 .statement tag=0DJ4}
 
 *The hypotheses being those of cor. 1, let $M, N$ be two subspaces of $E$; then one has $(M + N)^0 = M^0 \cap N^0$; if moreover $M$ and $N$ are of finite dimension, one has $(M \cap N)^0 = M^0 + N^0$.*
 
@@ -429,19 +429,19 @@ The first assertion is trivial. Suppose that M and N are of finite dimension, an
 
 Prop. 4 permits one to give the following definition:
 
-#### Definition 7 {#alg-ix-s1-def-7 .statement}
+#### Definition 7 {#alg-ix-s1-def-7 .statement tag=0DJ5}
 
 Let A be a field (resp. a field endowed with an antiautomorphism J), E a left vector space over A, F a right (resp. left) vector space over A, and $\Phi$ a bilinear (resp. sesquilinear for J) form on $E \times F$. Suppose that $E/F^0$ and $F/E^0$ are of finite dimension over A. The rank of $\Phi$ is called the common (finite) dimension of the vector spaces $E/F^0$ and $F/E^0$.
 
 When $E/F^0$ and $F/E^0$ are of infinite dimension, one says that $\Phi$ is of infinite rank.
 
-#### Proposition 5 {#alg-ix-s1-prop-5 .statement}
+#### Proposition 5 {#alg-ix-s1-prop-5 .statement tag=0DJ6}
 
 The hypotheses and notations being those of def. 7, the linear mappings $s_\Phi$ and $d_\Phi$ associated with $\Phi$ have the same rank, and this rank is equal to the rank of the form $\Phi$.
 
 Indeed the kernel of the mapping $d_\Phi$ from F into $E^*$ is obviously $E^0$, hence its rank is equal to the dimension of $F/E^0$. Analogously the rank of $s_\Phi$ is equal to the dimension of $E/F^0$.
 
-#### Proposition 6 {#alg-ix-s1-prop-6 .statement}
+#### Proposition 6 {#alg-ix-s1-prop-6 .statement tag=0DJ7}
 
 The hypotheses and notations being those of def. 7, suppose in addition that E and F have the same finite dimension. Then the following conditions are equivalent:
 a) $d_\Phi$ is injective ;
@@ -454,7 +454,7 @@ Indeed, since E, F, $E^*$ and $F^*$ have the same finite dimension,
 
 a) and b) are equivalent, as are c) and d) (chap. II, § 3, no 4). Since $s_\Phi$ and $d_\Phi$ have the same rank (prop. 5), a) and c) are equivalent. Since e) is equivalent to the relation $E^0 = F^0 = \{0\}$, it is equivalent to the conjunction of a) and c), whence the equivalence of the stated conditions.
 
-#### Corollary {#alg-ix-s1-n6-cor-1 .statement}
+#### Corollary {#alg-ix-s1-n6-cor-1 .statement tag=0DJ8}
 
 The hypotheses and notations being those of Definition 7, we suppose in addition that E is of finite dimension and that $\Phi$ is non degenerate. Then we have $\dim E = \dim F$ and, for every basis $(e_i)$ ($1 \leq i \leq \dim E$) of E, there exists a basis $(f_i)$ of F such that $\Phi(e_i, f_k) = \delta_{ik}$ ($i, k = 1, ..., \dim E$).
 
@@ -462,7 +462,7 @@ Indeed, since $\Phi$ is non degenerate, we have $E^0 = F^0 = \{0\}$, whence $\di
 
 It is immediate that, in this corollary, one can exchange the roles of E and of F, replacing $d_\Phi$ by $s_\Phi$ in the proof.
 
-#### Remark {#alg-ix-s1-n6-rem-1 .statement}
+#### Remark {#alg-ix-s1-n6-rem-1 .statement tag=0DJ9}
 
 Let A be a ring endowed with an antiautomorphism J, M and N right A-modules, and $\Phi$ a left sesquilinear form for J on $M \times N$ (No. 2, Remark); it therefore satisfies the equality
 
@@ -490,7 +490,7 @@ $$
 = \langle s^{-1}(y'), x' \rangle = \langle d^{-1}(x'), y' \rangle \qquad (x' \in E^*, y' \in F^*).
 $$
 
-#### Definition 8 {#alg-ix-s1-def-8 .statement}
+#### Definition 8 {#alg-ix-s1-def-8 .statement tag=0DJA}
 
 *Let $\Phi$ be a bilinear form on $E \times F$ whose associated mappings $s$ and $d$ are bijective. The bilinear form $\hat{\Phi}$ on $F^* \times E^*$ defined by (27) is called the inverse form of $\Phi$.*
 
@@ -516,7 +516,7 @@ $$
 
 hence $\widehat{\Phi}$ is a *left sesquilinear form* for $J$ on $F^* \times E^*$ (No. 2).
 
-#### Definition 9 {#alg-ix-s1-def-9 .statement}
+#### Definition 9 {#alg-ix-s1-def-9 .statement tag=0DJB}
 
 *Let $\Phi$ be a right sesquilinear form for $J$ on $E \times F$, whose associated mappings $s$ and $d$ are bijective. The left sesquilinear form $\widehat{\Phi}$ for $J$ on $F^* \times E^*$ is called the inverse form of $\Phi$.*
 
@@ -542,7 +542,7 @@ $$
 \Phi'(u(x), y') = \Phi(x, u^*(y')).
 $$
 
-#### Definition 10 {#alg-ix-s1-def-10 .statement}
+#### Definition 10 {#alg-ix-s1-def-10 .statement tag=0DJC}
 
 The hypotheses and notations being as previously, one says that the homomorphism $u^*$ from $F'_1$ into F satisfying (30) is the left adjoint of $u$, and that $F'_1$ is the defining submodule of $u^*$.
 
@@ -554,7 +554,7 @@ $$
 
 where $E'_1$ denotes the submodule of $E'$ defined analogously to $F'_1$.
 
-#### Remark {#alg-ix-s1-n8-rem-1 .statement}
+#### Remark {#alg-ix-s1-n8-rem-1 .statement tag=0DJD}
 
 If the left adjoint $u^*$ of $u : E \to E'$ is everywhere defined, and if $s_{\Phi'}$ and $d_{\Phi'}$ are injective, formula (30) shows that $u$ is the right adjoint of $u^*$.
 
@@ -574,7 +574,7 @@ $$(u' \circ u)^* = u^* \circ {u'}^*.$$
 
 In particular, if $u$ is an *isomorphism* of $E$ onto $E'$, and if the adjoints $u^*$ and $(u^{-1})^*$ are everywhere defined, $u^*$ is an isomorphism of $F'$ onto $F$, and one has $(u^*)^{-1} = (u^{-1})^*$. Analogous properties for right adjoints.
 
-#### Proposition 7 {#alg-ix-s1-prop-7 .statement}
+#### Proposition 7 {#alg-ix-s1-prop-7 .statement tag=0DJE}
 
 With the same notations as previously, suppose that $d_{\Phi}$ is bijective. Then every homomorphism $u$ of $E$ into $E'$ admits an everywhere defined left adjoint, and one has $u^* = (d_{\Phi})^{-1} \circ {}^t u \circ d_{\Phi'}$.
 
@@ -584,26 +584,26 @@ $$\langle u(x), d_{\Phi'}(y') \rangle = \langle x, (d_{\Phi} \circ u^*)(y') \ran
 
 now $\langle d_{\Phi'}(y'), u(x) \rangle = \langle {}^t u(d_{\Phi'}(y')), x \rangle$; hence one has ${}^t u(d_{\Phi'}(y')) = d_{\Phi}(u^*(y'))$ for all $y' \in F'$, whence ${}^t u \circ d_{\Phi'} = d_{\Phi} \circ u^*$, and consequently the announced expression for $u^*$. Q.E.D.
 
-#### Remark {#alg-ix-s1-n8-rem-2 .statement}
+#### Remark {#alg-ix-s1-n8-rem-2 .statement tag=0DJF}
 
 When $s_{\Phi}$ is bijective, every homomorphism $\nu$ of $F$ into $F'$ admits an everywhere defined right adjoint, and one has
 
 $$(34)$$
 $$\nu^* = (s_{\Phi})^{-1} \circ {}^t \nu \circ s_{\Phi'}.$$
 
-#### Proposition 8 {#alg-ix-s1-prop-8 .statement}
+#### Proposition 8 {#alg-ix-s1-prop-8 .statement tag=0DJG}
 
 With the same notations as previously, suppose that $s_{\Phi}$ and $d_{\Phi}$ are bijective. Let $u$ and $\nu$ be isomorphisms of E onto E' and of F onto F' respectively. Then, in order that Φ be the inverse image of Φ' relative to u and v (that is to say that one have Φ(x, y) = Φ'(u(x), v(y)) whatever x ∈ E, y ∈ F may be), it is necessary and sufficient that one have u^{-1} = v^* and v^{-1} = u^*.
 
 Indeed Φ'(u(x), v(y)) = Φ(x, y) may also be written Φ (x, u^*(v(y))) = Φ(x, y). If this holds whatever x ∈ E and y ∈ F may be, one has u^* ∘ v = 1 since Φ is non-degenerate. One therefore also has v^* ∘ u = 1 by (33). The converse is immediate.
 
-#### Corollary {#alg-ix-s1-n8-cor-1 .statement}
+#### Corollary {#alg-ix-s1-n8-cor-1 .statement tag=0DJH}
 
 Let A be a ring endowed with an antiautomorphism J, E a left A-module, Φ a sesquilinear form for J on E × E whose associated mappings are bijective, and u an automorphism of the A-module E. In order that u leave Φ invariant (that is to say that one have Φ(u(x), u(y)) = Φ(x, y) whatever x, y in E may be), it is necessary and sufficient that the two adjoints of u be equal and that one have u^* = u^{-1}.
 
 This follows at once from prop. 8.
 
-#### Remark {#alg-ix-s1-n8-rem-3 .statement}
+#### Remark {#alg-ix-s1-n8-rem-3 .statement tag=0DJI}
 
 Under the hypotheses of the cor. of prop. 8, suppose in addition that A be a field and that E be of finite dimension over A. Let ω be an endomorphism of E, ω_1 and ω_2 its right and left adjoints. Each of the conditions ωω_1 = 1, ωω_2 = 1, ω_1ω = 1, ω_2ω = 1 entails that ω is an automorphism of E leaving Φ invariant, and that ω_1 = ω_2.
 
@@ -634,7 +634,7 @@ $$
 \Phi(x_1 \otimes \cdots \otimes x_m, y_1 \otimes \cdots \otimes y_m) = \prod_{i=1}^m \Phi_i(x_i, y_i) \quad (x_i \in E_i, y_i \in F_i).
 $$
 
-#### Definition 11 {#alg-ix-s1-def-11 .statement}
+#### Definition 11 {#alg-ix-s1-def-11 .statement tag=0DJJ}
 
 Given A-modules $E_i, F_i (i = 1, \ldots, m)$ and, for each $i$, a sesquilinear form $\Phi_i$ for $J$ on $E_i \times F_i$, the sesquilinear form $\Phi$ for $J$ on $(\bigotimes_i E_i) \times (\bigotimes_i F_i)$ characterized by (35) is called the tensor product of the sesquilinear forms $\Phi_i$.
 
@@ -652,7 +652,7 @@ We have therefore:
 
 where $j_s$ (resp. $j_d$) denotes the canonical mapping of $\bigotimes_i F_i^*$ into $(\bigotimes_i F_i)^*$ (resp. of $\bigotimes_i E_i^*$ into $(\bigotimes_i E_i)^*$) (Chap. III, § 1, Nos. 4 and 7).
 
-#### Proposition 9 {#alg-ix-s1-prop-9 .statement}
+#### Proposition 9 {#alg-ix-s1-prop-9 .statement tag=0DJK}
 
 Let $A$ be a commutative field endowed with an automorphism $J$, $E_i, F_i$ finite-dimensional vector spaces over $A$, and $\Phi_i$ a sesquilinear form for $J$ on $E_i \times F_i$ ($1 \leqslant i \leqslant m$). If the forms $\Phi_i$ are non-degenerate, the same is true of their tensor product $\Phi$. In this case the inverse form $\widehat{\Phi}$ of $\Phi$ is the tensor product of the inverse forms $\widehat{\Phi}_i$.
 
@@ -690,7 +690,7 @@ $$
 $$
 (37)
 
-#### Definition 12 {#alg-ix-s1-def-12 .statement}
+#### Definition 12 {#alg-ix-s1-def-12 .statement tag=0DJL}
 
 Given two A-modules E, F and a form $\Phi$ sesquilinear for J on $E \times F$, the form $\Phi_{(m)}$ sesquilinear for J on $(\wedge^m E) \times (\wedge^m F)$ characterized by (37) is called the extension of $\Phi$ to the m-th exterior powers.
 
@@ -709,7 +709,7 @@ $$
 
 where $k_s$ (resp. $k_d$) denotes the canonical mapping of $\wedge^m F^*$ into $(\wedge^m F)^*$ (resp. of $\wedge^m E^*$ into $(\wedge^m E)^*$) (cf. Chap. III, § 8, No. 2).
 
-#### Proposition 10 {#alg-ix-s1-prop-10 .statement}
+#### Proposition 10 {#alg-ix-s1-prop-10 .statement tag=0DJM}
 
 *Let A be a commutative field endowed with an automorphism J, E and F two finite-dimensional vector spaces over A, and $\Phi$ a sesquilinear form for J on $E \times F$. If $\Phi$ is nondegenerate, then its extension $\Phi_{(m)}$ to the m-th exterior powers is nondegenerate, and the inverse form of $\Phi_{(m)}$ is the extension to the m-th exterior powers of the inverse form $\widehat{\Phi}$ of $\Phi$.*
 
@@ -722,7 +722,7 @@ $$
 
 whence our second assertion.
 
-#### Remark {#alg-ix-s1-n9-rem-1 .statement}
+#### Remark {#alg-ix-s1-n9-rem-1 .statement tag=0DJN}
 
 Let E be a free A-module, and let θ be the canonical isomorphism of $\bigwedge^m E$ onto the submodule of antisymmetrized tensors of order m (Chap. III, § 5, No. 6, Prop. 6). Let $\Phi$ be a sesquilinear form on E, $\Phi_{(m)}$ the extension of $\Phi$ to $\bigwedge^m E$, and $\Theta$ the sesquilinear form on $\bigwedge^m E$ which is the inverse image by $\theta$ of the extension of $\Phi$ to $\bigotimes^m E$. From the definition of $\theta$ and of the antisymmetrized tensor, and from (35), we have
 
@@ -817,7 +817,7 @@ $$
 $$
 Let us verify, for example (45 DG), the other verifications being analogous and a little easier. Put $x = \sum e_ix_{io}$, $u(x) = \sum y_{ko}f_k$; we have $u(x) = u(\sum e_ix_{io}) = \sum x_{io}^ju(e_i) = \sum x_{io}^ju_{ki}/k$; whence $y_{ko} = \sum x_{io}^ju_{ki}$; in order to put the two indices i next to one another, consider the transposed matrices ${}^tM(x) = (x'_{oi})$ where $x'_{oi} = x_{io}$, and ${}^tM(u) = (u'_{ik})$ where $u'_{ik} = u_{ki}$; we then have $y_{ko} = \sum x'_{oi}u'_{ik}$; since the second member is the element of index k of the one-row matrix ${}^tM(x)^J \cdot {}^tM(u)$, formula (45 DG) is verified.
 
-#### Remark 1 {#alg-ix-s1-n10-rem-1 .statement}
+#### Remark 1 {#alg-ix-s1-n10-rem-1 .statement tag=0DJO}
 
 When A is commutative, (45 G) reduces to (45 D), and (45 DG) to (45 GD), by means of the formula ${}^t(M'M'') = {}^tM'' \cdot {}^tM'$ (cf. (42)), where the two members are here calculated in A.
 2) Let E, F, G be three left modules having finite bases, and $u : E \to F,\ v : F \to G$ A-linear mappings. It follows from (45 G) that one has
@@ -873,11 +873,11 @@ IV. — We suppose here that the rings $A$ and $B$ are equal, and we denote by $
 
 (49) $M(d) = R, \ M(s) = 'R$   (resp. $M(d) = R, \ M(s) = 'R^{J'}$).
 
-#### Remark 2 {#alg-ix-s1-n10-rem-2 .statement}
+#### Remark 2 {#alg-ix-s1-n10-rem-2 .statement tag=0DJP}
 
 When $A$ is a field, the linear mappings $s$ and $d$ have the same rank. We see here that their matrices $M(s)$ and $M(d)$ have the same rank; indeed, a matrix over $A$ and its transpose have the same rank (chap. II, § 6, No. 7, prop. 3) and, when $\Phi$ is sesquilinear, the equality of the ranks of $R$ over $A$ and of $'R$ over $A^0$ (ibid.) and the fact that $J'$ is an isomorphism of $A^0$ onto $A$, entail the equality of the ranks of $R$ and of $'R^J$ over $A$.
 
-#### Remark 3 {#alg-ix-s1-n10-rem-3 .statement}
+#### Remark 3 {#alg-ix-s1-n10-rem-3 .statement tag=0DJQ}
 
 If $M$ and $N$ are right $A$-modules having finite bases $(m_i)$ and $(n_k)$, $\Phi$ a left sesquilinear form for $J$ on $M \times N$ (No. 6, Remark), $s$ and $d$ its associated mappings, and $R = (\Phi(m_i, n_k))$ its matrix, the formulas (26) of No. 6 show that one has
 
@@ -900,11 +900,11 @@ Indeed, for all $x \in E$ and $y \in F'$, we have $\Phi'(u(x), y) = \Phi(x, u^*(
 
 2) Let E be the $\mathbf{Z}$-module direct sum of $\mathbf{Z}$ and of $\mathbf{Z}/(2)$, and let $E^*$ be its dual (isomorphic to $\mathbf{Z}$). Prove that the bilinear form $(x, x') \to \langle x, x' \rangle$ on $E \times E^*$ is such that the linear mapping associated on the right is injective, but the linear mapping associated on the left is not.
 
-#### Remark 4 {#alg-ix-s1-n10-rem-4 .statement}
+#### Remark 4 {#alg-ix-s1-n10-rem-4 .statement tag=0DJR}
 
 Give an example of a bilinear form $\Phi$ defined on a product $E \times F$ of two vector spaces, such that $d_\Phi$ is bijective, $s_\Phi$ injective but not bijective (take $E$ of infinite dimension and $F$ equal to the dual $E^*$ of $E$; cf. Chap. II, § 5, exer. 3).
 
-#### Remark 5 {#alg-ix-s1-n10-rem-5 .statement}
+#### Remark 5 {#alg-ix-s1-n10-rem-5 .statement tag=0DJS}
 
 Let $A$ be a ring endowed with an antiautomorphism $J$, $E$ a left $A$-module, $G$ an $(A, A)$-bimodule and $\Phi$ a mapping from $E \times E$ into $G$, right sesquilinear for $J$. Prove the identity (where $Q(x) = \Phi(x, x)$) :
 
@@ -913,7 +913,7 @@ $$
 - \mu Q(x - \lambda y) + Q(x + \mu y)\lambda^J - Q(x - \mu y)\lambda^J + \mu Q(x - y)\lambda^J - \mu Q(x + y)\lambda^J.
 $$
 
-#### Remark 6 {#alg-ix-s1-n10-rem-6 .statement}
+#### Remark 6 {#alg-ix-s1-n10-rem-6 .statement tag=0DJT}
 
 Soient $K$ a commutative field of characteristic 2, $A$ a separable quadratic extension of $K$; one has $A = K(\theta)$, where $\theta$ is root of an irreducible polynomial $X^2 + X + \beta$ of $K[X]$ and the $K$-automorphism $J$ of $A$, distinct from the identity, is such that $\theta^J = \theta + 1$ (Chapter V, § 11, Exercise 8). Now prove that if $E$ and $G$ are vector spaces over $A$, $\Phi$ a sesquilinear mapping (for $J$) from $E \times E$ into $G$, one has, putting $Q(x) = \Phi(x, x)$,
 
@@ -921,7 +921,7 @@ $$
 \Phi(x, y) = Q(\theta x + y) - \beta Q(x) - Q(y) - (\theta + 1)(Q(x + y) - Q(x) - Q(y)).
 $$
 
-#### Remark 7 {#alg-ix-s1-n10-rem-7 .statement}
+#### Remark 7 {#alg-ix-s1-n10-rem-7 .statement tag=0DJU}
 
 Soient $A$ a field, $E$ a vector space over $A$, $\Phi$ a sesquilinear form on $E$, $u$ an endomorphism of $E$.
 
@@ -929,11 +929,11 @@ a) For there to exist one and only one endomorphism $u^*$ of $E$ such that $\Phi
 
 b) Give an example where $E$ is of infinite dimension and $d_\Phi$ is injective, but where $u(d_\Phi(E))$ is not contained in $d_\Phi(E)$.
 
-#### Remark 8 {#alg-ix-s1-n10-rem-8 .statement}
+#### Remark 8 {#alg-ix-s1-n10-rem-8 .statement tag=0DJV}
 
 Let $E, E_1$ be two $A$-modules, $\Phi$ (resp. $\Phi_1$) a sesquilinear form on $E$ (resp. $E_1$). Suppose that $\Phi_1$ is non-degenerate and that there exist an element $\alpha \in A$ and a bijection $u$ of $E$ onto $E_1$ such that $\Phi_1(u(x), u(y)) = \Phi(x, y)\alpha$ for all $x, y$ in $E$. Show that: 1° $\Phi$ is non-degenerate ; 2° $u$ is linear ; 3° if $E_1$ is a faithful $A$-module, the same is true of $E$, and $\alpha$ is not a right divisor of 0 in $A$ ; 4° if $\Phi_1$ takes values in $A$ which are not left divisors of 0, the same is true of $\Phi$.
 
-#### Remark 9 {#alg-ix-s1-n10-rem-9 .statement}
+#### Remark 9 {#alg-ix-s1-n10-rem-9 .statement tag=0DJW}
 
 Let $A$ be a field, $E_1, E_2$ two vector spaces not reduced to 0 over $A$, $\Phi_1$ (resp. $\Phi_2$) a non-degenerate sesquilinear form on $E_1$ (resp. $E_2$) for an antiautomorphism $J_1$ (resp. $J_2$) of $A$. Let $u$ be a linear mapping of $E_1$ onto $E_2$ such that the relation $\Phi_1(x, y) = 0$ implies $\Phi_2(u(x), u(y)) = 0$.
 
@@ -941,7 +941,7 @@ a) Show that $u$ is a bijection of $E_1$ onto $E_2$. (If $u(0)$ were not reduced
 
 b) Show that if dim $E_1 \geqslant 2$, there exists $\alpha \in A$ such that one has $\Phi_2(u(x), u(y)) = \Phi_1(x, y)\alpha$ whatever $x, y$ in $E_1$. (For every $y \in E_1$, show that there exists an element $m(y) \in A$ such that $\Phi_2(u(x), u(y)) = \Phi_1(x, y)m(y)$ for every $x \in E_1$, and that if $y$ and $y'$ are linearly independent in $E_1$, one has $m(y + y') = m(y) = m(y')$).
 
-#### Remark 10 {#alg-ix-s1-n10-rem-10 .statement}
+#### Remark 10 {#alg-ix-s1-n10-rem-10 .statement tag=0DJX}
 
 Let $A$ be a field, $E, F$ two left vector spaces over $A$, $\Phi$ a non-degenerate sesquilinear form on $E \times F$ for an antiautomorphism $J$ of $A$.
 
@@ -956,7 +956,7 @@ c) If $E = F$ and if $M$ is a subspace of $E$ such that $E = M^0 + M^{00}$, show
 
 d) Let $E$ be a vector space over a commutative field $A$ admitting an infinite countable basis $(e_n)_{n \geqslant 0}$, and let $\Phi$ be the symmetric bilinear form on $E$ such that $\Phi(e_n, e_n) = 1$ for all $n$, $\Phi(e_i, e_j) = 0$ for $i \geqslant 1, j \geqslant 1$ and $i \neq j$, and $\Phi(e_0, e_n) = 1$ for all $n \geqslant 1$. Now prove that $\Phi$ is nondegenerate. Let $M$ (resp. $N$) be the subspace of $E$ generated by the $e_{2k}$ (resp. $e_{2k-1}$) for $k \geqslant 1$, and let $H = M + N$, which is a hyperplane in $E$. Now prove that one has $M^0 = N, N^0 = M, H^{00} = E \neq H, (M \cap N)^0 \neq M^0 + N^0$ and $(M + N)^{00} \neq M + N$, though $M^{00} = M, N^{00} = N$; if $L$ is the subspace of finite dimension 2 generated by $e_0$ and $e_1$, one has $(L \cap H)^0 \neq L^0 + H^0$.
 
-#### Remark 11 {#alg-ix-s1-n10-rem-11 .statement}
+#### Remark 11 {#alg-ix-s1-n10-rem-11 .statement tag=0DJY}
 
 Let $E, E'$ be two left vector spaces over fields $A, A'$ respectively, of dimension $\geqslant 3$; let $\mathfrak{F}(E)$ (resp. $\mathfrak{F}(E')$ be the lattice ordered set (for the relation of inclusion) formed by the finite-dimensional subspaces of $E$ (resp. $E'$).
 

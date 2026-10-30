@@ -20,7 +20,7 @@ subsections:
       pdf_page: 75
 statements: 9
 exercises: 2
-content_sha256: 7dcf245f5701aa5188b28fcd4fa0b88da02ef48e1fe94d286b23948e2c36c69f
+content_sha256: 5cab9cc8c2523983e3869b781c11ccb6f4207260013df18229f7652ccfe8357b
 ---
 
 ## § 3. SOMMES INFINIES DANS LES GROUPES $\mathbf{R}^n$
@@ -29,14 +29,14 @@ content_sha256: 7dcf245f5701aa5188b28fcd4fa0b88da02ef48e1fe94d286b23948e2c36c69f
 
 Comme tout point de $\mathbf{R}^n$ possède un système fondamental *dénombrable* de voisinages, une famille $(\mathbf{x}_i)$ de points du groupe additif $\mathbf{R}^n$ ne peut être sommable que si l’ensemble des $i$ tels que $\mathbf{x}_i \neq 0$ est *dénombrable* (III, p. 38, corollaire), ce qui ramène essentiellement l’étude des familles sommables dans $\mathbf{R}^n$ à celle des *suites* sommables. Toutefois, pour les mêmes raisons que celles qui ont été exposées au sujet des familles sommables dans $\mathbf{R}$ (IV, p. 32), nous ne ferons, dans les énoncés qui suivent, aucune restriction sur la puissance de l’ensemble des indices.
 
-#### Proposition 1 {#top-vii-s3-prop-1 .statement}
+#### Proposition 1 {#top-vii-s3-prop-1 .statement tag=0BZK}
 
 *Pour qu’une famille $(\mathbf{x}_i)_{i \in I}$ de points $\mathbf{x}_i = (x_{i,k})_{1 \leq k \leq n}$ de $\mathbf{R}^n$ soit sommable, il faut et il suffit que chacune des $n$ familles $(x_{i,k})_{i \in I}$ de nombres réels soit sommable dans $\mathbf{R}$.*
 
 Cela résulte de la prop. 4 de III, p. 41.
 Cette condition se transforme de la manière suivante:
 
-#### Théorème 1 {#top-vii-s3-thm-1 .statement}
+#### Théorème 1 {#top-vii-s3-thm-1 .statement tag=0BZL}
 
 *Pour qu’une famille $(\mathbf{x}_i)_{i \in I}$ de points de $\mathbf{R}^n$ soit sommable, il faut et il suffit que la famille $(\|\mathbf{x}_i\|)$ des normes euclidiennes des $\mathbf{x}_i$ soit sommable dans $\mathbf{R}$.*
 
@@ -50,7 +50,7 @@ et du principe de comparaison (IV, p. 33, th. 2).
 
 On peut procéder un peu autrement, en établissant d’abord la proposition suivante:
 
-#### Proposition 2 {#top-vii-s3-prop-2 .statement}
+#### Proposition 2 {#top-vii-s3-prop-2 .statement tag=0BZM}
 
 *Pour toute famille finie $(\mathbf{x}_i)_{i \in I}$ de points de $\mathbf{R}^n$, on a*
 
@@ -84,12 +84,12 @@ $$
 $$
 qu’on déduit par passage à la limite de l’inégalité analogue pour les sommes partielles finies.
 
-#### Corollaire {#top-vii-s3-n1-cor-1 .statement}
+#### Corollaire {#top-vii-s3-n1-cor-1 .statement tag=0BZN}
 
 *Pour qu’une famille $(\mathbf{x}_t)$ de points de $\mathbf{R}^n$ soit sommable, il faut et il suffit que l’ensemble des sommes partielles finies de cette famille soit borné dans $\mathbf{R}^n$.*
 D’après le th. 1 (VII, p. 16) et l’inégalité du triangle, cette condition est nécessaire; elle est suffisante d’après l’inégalité (1) et le th. 1.
 
-#### Proposition 3 {#top-vii-s3-prop-3 .statement}
+#### Proposition 3 {#top-vii-s3-prop-3 .statement tag=0BZO}
 
 *Soient $(\mathbf{x}_\lambda)_{\lambda \in L}$ une famille sommable de points de $\mathbf{R}^m$, $(\mathbf{y}_\mu)_{\mu \in M}$ une famille sommable de points de $\mathbf{R}^n$, $f$ une application bilinéaire de $\mathbf{R}^m \times \mathbf{R}^n$ dans $\mathbf{R}^p$. La famille $(f(\mathbf{x}_\lambda, \mathbf{y}_\mu))_{(\lambda, \mu) \in L \times M}$ est sommable, et l’on a*
 $$
@@ -99,14 +99,14 @@ Pour montrer que la famille des $f(\mathbf{x}_\lambda, \mathbf{y}_\mu)$ est somm
 
 En spécialisant la fonction $f$, on a en particulier les corollaires suivants:
 
-#### Corollaire 1 {#top-vii-s3-prop-3-cor-1 .statement}
+#### Corollaire 1 {#top-vii-s3-prop-3-cor-1 .statement tag=0BZP}
 
 *Si $(a_\lambda)_{\lambda \in L}$ est une famille sommable de nombres réels, $(\mathbf{x}_\mu)_{\mu \in M}$ une famille sommable de points de $\mathbf{R}^n$, la famille $(a_\lambda \mathbf{x}_\mu)_{(\lambda, \mu) \in L \times M}$ est sommable, et l’on a*
 $$
 \sum_{(\lambda, \mu) \in L \times M} a_\lambda \mathbf{x}_\mu = \left( \sum_{\lambda \in L} a_\lambda \right) \left( \sum_{\mu \in M} \mathbf{x}_\mu \right).
 $$
 
-#### Corollaire 2 {#top-vii-s3-prop-3-cor-2 .statement}
+#### Corollaire 2 {#top-vii-s3-prop-3-cor-2 .statement tag=0BZQ}
 
 *Si $(\mathbf{x}_\lambda)_{\lambda \in L}$ et $(\mathbf{y}_\mu)_{\mu \in M}$ sont deux familles sommables de points de $\mathbf{R}^n$, la famille $(\mathbf{x}_\lambda \mid \mathbf{y}_\mu)$ (cf. VI, p. 8) est sommable dans $\mathbf{R}$, et l’on a*
 $$
@@ -117,11 +117,11 @@ $$
 
 Pour qu’une série de terme général $\mathbf{x}_m = (x_{mi})_{1 \leq i \leq n}$ soit convergente dans $\mathbf{R}^n$, il faut et il suffit évidemment que chacune des $n$ séries $(x_{mi})_{m \in \mathbf{N}}$ soit convergente dans $\mathbf{R}$.
 
-#### Définition 1 {#top-vii-s3-def-1 .statement}
+#### Définition 1 {#top-vii-s3-def-1 .statement tag=0BZR}
 
 Une série de points de $\mathbf{R}^n$ est dite absolument convergente si la série des normes euclidiennes de ses termes est convergente.
 
-#### Proposition 4 {#top-vii-s3-prop-4 .statement}
+#### Proposition 4 {#top-vii-s3-prop-4 .statement tag=0BZS}
 
 Pour qu’une série de points de $\mathbf{R}^n$, soit commutativement convergente, il faut et il suffit qu’elle soit absolument convergente.
 

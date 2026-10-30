@@ -25,7 +25,7 @@ subsections:
       pdf_page: 228
 statements: 17
 exercises: 18
-content_sha256: 38a70bf3ff3eb2527fa2a60b3ab826808d94b4542c9f89e872951a4642561a7c
+content_sha256: 14eff7ea2aa07985d8aa0d35b7df3198ac7214223f99fd5748e21092fffa21a6
 translated_from: content/en/int/IX/03_s3_measures_and_additive_set_functions.md
 source_content_sha256: 2493836e74654f6d6eea61a9256ec8940a776c449c0ec756069912399a77fc43
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -41,7 +41,7 @@ Trong tiết này, ta sẽ ký hiệu lần lượt bởi $\mathscr{K}(T)$ và $
 
 ### 1. Các đo và các hàm tập hợp cộng tính của các tập compact
 
-#### Định lý 1 {#int-ix-s3-thm-1 .statement}
+#### Định lý 1 {#int-ix-s3-thm-1 .statement tag=09PN}
 
 — Cho T là một không gian tôpô, và I là một ánh xạ từ $\mathscr{K}(T)$ vào $\mathbf{R}_+$. Để tồn tại một đo $\mu$ trên T sao cho $I(K) = \mu^\bullet(K)$ với mọi $K \in \mathscr{K}(T)$, điều kiện cần và đủ là I thỏa mãn các điều kiện sau:
 
@@ -65,7 +65,7 @@ Tính duy nhất của $\mu$ suy ra từ Hệ quả của Mệnh đề 2 của �
 
 Để chỉ ra rằng các điều kiện này là đủ, ta bắt đầu bằng việc xét trường hợp T compact.
 
-#### Bổ đề 1 {#int-ix-s3-lem-1 .statement}
+#### Bổ đề 1 {#int-ix-s3-lem-1 .statement tag=09PO}
 
 Giả sử T compact, và đặt l = I(T). Với mọi $A \subset T$, đặt
 
@@ -128,7 +128,7 @@ $\varepsilon$ tùy ý, bất đẳng thức mong muốn được chứng minh, v
 
 Bây giờ ta chuyển sang trường hợp tổng quát. Với mỗi tập compact $L$ trong $T$, gọi $I_L$ là hạn chế của $I$ vào $\mathfrak{K}(L)$. Theo trường hợp đặc biệt vừa xét, tồn tại một độ đo $\mu_L$ trên $L$, duy nhất, sao cho $\mu_L(K) = I_L(K)$ với mọi tập compact $K \subset L$. Khi đó, gọi $L'$ là một tập compact được chứa trong $L$; ta có $(\mu_L)_{L'}^\bullet(K) = \mu_{L'}^\bullet(K) = \mu_{L'}^\bullet(K)$ với mọi tập compact $K \subset L'$, do đó $\mu_{L'} = (\mu_L)_{L'}$; ánh xạ $\mu : L \mapsto \mu_L$ là một tiền độ đo. Điều kiện 5) biểu thị rằng $\mu$ là một độ đo, và quan hệ $I(K) = \mu^*(K)$ với mọi compact $K \subset T$ là hiển nhiên.
 
-#### Nhận xét 1 {#int-ix-s3-n1-rem-1 .statement}
+#### Nhận xét 1 {#int-ix-s3-n1-rem-1 .statement tag=09PP}
 
 Điều kiện 4) có thể được thay thế, trong phát biểu của Định lý 1, bởi điều kiện sau đây ('liên tục phải'):
 $4')$ Với mọi $K \in \mathscr{K}(T)$ và mọi $\varepsilon > 0$, tồn tại một tập mở $U$ chứa $K$, sao cho $I(H) \leq I(K) + \varepsilon$ với mọi tập compact $H \subset U$.
@@ -138,7 +138,7 @@ $$
 $$
 và 4) quả thực được kiểm chứng.
 
-#### Nhận xét 2 {#int-ix-s3-n1-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s3-n1-rem-2 .statement tag=09PQ}
 
 Tập các điều kiện 2) và 3) có thể được thay thế, trong phát biểu của Định lý 1, bởi điều kiện sau đây:
 Nếu $K$ và $L$ là các tập con compact của $T$, thì
@@ -153,7 +153,7 @@ với mọi độ đo $\mu$, theo quan hệ $\varphi_{K \cup L} + \varphi_{K \ca
 
 ### 2. Các hàm tập hợp chính quy nội
 
-#### Định nghĩa 1 {#int-ix-s3-def-1 .statement}
+#### Định nghĩa 1 {#int-ix-s3-def-1 .statement tag=09PR}
 
 Cho $T$ là một không gian tôpô, và cho $\mathscr{B}(T)$ là họ Borel của $T$; cho $I$ là một ánh xạ của $\mathscr{B}(T)$ vào $\overline{\mathbf{R}}_+$.
 a) $I$ được gọi là cộng tính đếm được nếu, với mọi dãy $(A_n)$ gồm các phần tử từng đôi một rời nhau của $\mathscr{B}(T)$,
@@ -168,15 +168,15 @@ trong đó $K$ chạy trên tập các tập compact của $A$.
 
 c) I được gọi là bị chặn (tương ứng bị chặn địa phương) nếu $I(T) < +\infty$ (tương ứng nếu mọi điểm $x \in T$ có một lân cận mở $V$ sao cho $I(V) < +\infty$).
 
-#### Nhận xét 1 {#int-ix-s3-n2-rem-1 .statement}
+#### Nhận xét 1 {#int-ix-s3-n2-rem-1 .statement tag=09PS}
 
 Điều kiện a) rõ ràng kéo theo rằng I là một ánh xạ tăng từ $\mathscr{B}(T)$ (có thứ tự bởi quan hệ bao hàm) vào $\overline{\mathbf{R}}_+$.
 
-#### Nhận xét 2 {#int-ix-s3-n2-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s3-n2-rem-2 .statement tag=09PT}
 
 Giả sử rằng I là cộng tính đếm được; cho $(A_n)_{n \in \mathbf{N}}$ là một dãy tăng các tập Borel, và cho $A = \bigcup_{n \in \mathbf{N}} A_n$. Các tập $D_0 = A_0$, $D_n = A_n - A_{n-1}$ là từng đôi một rời nhau, và hợp của chúng là A, ta có $I(A) = \sum_n I(D_n) = \lim_{n \to \infty} I(A_n)$. Tương tự, nếu $(B_n)$ là một dãy giảm các tập Borel, và nếu $I(B_0) < +\infty$, thì $I(\bigcap_n B_n) = \lim_{n \to \infty} I(B_n)$: chỉ cần áp dụng điều trên cho các tập $A_n = B_0 - B_n$.
 
-#### Nhận xét 3 {#int-ix-s3-n2-rem-3 .statement}
+#### Nhận xét 3 {#int-ix-s3-n2-rem-3 .statement tag=09PU}
 
 Cho $(A_n)$ là một dãy bất kỳ các tập hợp Borel của T. Nếu I là cộng tính đếm được, thì $I(\bigcup_n A_n) \leq \sum_n I(A_n)$. Theo nhận xét trước, chỉ cần thiết lập bất đẳng thức này cho một dãy hữu hạn. Ta ngay lập tức quy về trường hợp của hai tập hợp $A_1$ và $A_2$; nhưng quan hệ (4) suy ra rằng
 
@@ -186,15 +186,15 @@ $$
 
 Bất đẳng thức mong muốn khi đó suy ra ngay lập tức.
 
-#### Nhận xét 4 {#int-ix-s3-n2-rem-4 .statement}
+#### Nhận xét 4 {#int-ix-s3-n2-rem-4 .statement tag=09PV}
 
 Nếu I là một hàm cộng tính đếm được và địa phương bị chặn, nhận xét trước suy ra ngay rằng $I(K) < +\infty$ với mọi tập compact $K \subset T$.
 
-#### Nhận xét 5 {#int-ix-s3-n2-rem-5 .statement}
+#### Nhận xét 5 {#int-ix-s3-n2-rem-5 .statement tag=09PW}
 
 Ta có thể chỉ ra rằng nếu I là cộng tính, nghĩa là thỏa mãn (4) đối với các dãy hữu hạn, và nếu I là nội chính quy, thì I là cộng tính đếm được (Exer. 7). Người đọc cũng có thể xác nhận rằng chỉ có tính cộng tính và tính nội chính quy được sử dụng trong chứng minh của Đl. 2 dưới đây.
 
-#### Định lý 2 {#int-ix-s3-thm-2 .statement}
+#### Định lý 2 {#int-ix-s3-thm-2 .statement tag=09PX}
 
 — Cho T là một không gian tôpô, và cho I là một hàm xác định trên $\mathscr{B}(T)$, với các giá trị trong $\overline{\mathbf{R}}_+$. Để tồn tại một độ đo $\mu$ trên T sao cho $\mu^*(A) = I(A)$ với mọi $A \in \mathscr{B}(T)$, điều kiện cần và đủ là I cộng tính đếm được, địa phương bị chặn và nội chính quy. Khi đó độ đo $\mu$ là duy nhất.
 
@@ -206,7 +206,7 @@ Theo Đl. 1, tồn tại một độ đo $\mu$ sao cho $\mu^\bullet(K) = I(K)$ v
 
 ### 3. Các không gian Radon
 
-#### Định nghĩa 2 {#int-ix-s3-def-2 .statement}
+#### Định nghĩa 2 {#int-ix-s3-def-2 .statement tag=09PY}
 
 *Một không gian tôpô T. Ta nói rằng T là một không gian Radon (tương ứng. Radon mạnh) nếu T là Hausdorff và nếu mọi hàm xác định trên họ Borel $\mathscr{B}(T)$ của T, với các giá trị trong $\overline{\mathbf{R}}_+$, cộng tính đếm được và bị chặn (tương ứng. địa phương bị chặn) đều là nội chính quy.*
 
@@ -214,7 +214,7 @@ Ví dụ, ta sẽ thấy sau này (Mệnh đề 3) rằng mọi không gian Poli
 
 Tồn tại các không gian Radon không là Radon mạnh.
 
-#### Mệnh đề 1 {#int-ix-s3-prop-1 .statement}
+#### Mệnh đề 1 {#int-ix-s3-prop-1 .statement tag=09PZ}
 
 *Mọi không gian Radon Lindelöf*$^{(1)}$* đều là Radon mạnh.*
 
@@ -224,7 +224,7 @@ Nhắc lại rằng một tập con A của một không gian tôpô T được 
 
 (1) Nhắc lại (GT, I, §9, Exer. 14; TG, IX, Phụ lục I) rằng một *không gian Lindelöf* là một không gian tôpô T sao cho mọi phủ mở của T đều chứa một phủ đếm được.
 
-#### Mệnh đề 2 {#int-ix-s3-prop-2 .statement}
+#### Mệnh đề 2 {#int-ix-s3-prop-2 .statement tag=09Q0}
 
 — Cho X là một không gian tôpô và T là một không gian con của X.
 
@@ -262,13 +262,13 @@ $$
 
 Ta chuyển sang b). Giả sử rằng $X$ là một không gian Radon, và rằng T là đo được phổ quát trong $X$. Cho $I$ là một hàm dương trên $\mathscr{B}(T)$ cộng tính đếm được và bị chặn; hàm $A \mapsto I(A \cap T)$ trên $\mathscr{B}(X)$ khi đó là dương, cộng tính đếm được và bị chặn, do đó tồn tại một độ đo bị chặn $\nu$ trên $X$ sao cho $I(A \cap T) = \nu^*(A)$ với mọi $A \in \mathscr{B}(X)$. Khi đó, $T$ là $\nu$-đo được; quan hệ trước đó chỉ ra rằng $\nu^*(K) = 0$ với mọi tập con compact $K$ của $X$ rời nhau với T, do đó $\nu$ tập trung trên T. Do đó, với mọi tập Borel $A$ của $X$, ta có $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, trong đó $\mu$ là độ đo cảm sinh bởi $\nu$ trên T. Cuối cùng, suy ra rằng $I(B) = \mu^*(B)$ với mọi tập hợp $B \in \mathscr{B}(T)$ (GT, IX, §6, No. 3, *Nhận xét 2*), và $I$ thực sự là nội chính quy.
 
-#### Hệ quả {#int-ix-s3-n3-cor-1 .statement}
+#### Hệ quả {#int-ix-s3-n3-cor-1 .statement tag=09Q1}
 
 — *Nếu $X$ là một không gian Radon, thì mọi tập con Borel $T$ của $X$ đều là Radon.*
 
 Vì, $T$ là đo được phổ quát trong $X$.
 
-#### Mệnh đề 3 {#int-ix-s3-prop-3 .statement}
+#### Mệnh đề 3 {#int-ix-s3-prop-3 .statement tag=09Q2}
 
 — *Mọi không gian Souslin (đặc biệt, mọi không gian Polish hoặc Lusin) đều là Radon mạnh.*
 
@@ -296,7 +296,7 @@ $$
 
 trong đó K chạy qua tập hợp các tập compact được chứa trong A; ta đã chứng minh rằng I là nội chính quy.
 
-#### Nhận xét {#int-ix-s3-n3-rem-1 .statement}
+#### Nhận xét {#int-ix-s3-n3-rem-1 .statement tag=09Q3}
 
 — Cho X là một không gian Lusin (đặc biệt, mọi không gian Polish), và f là một ánh xạ liên tục song ánh từ X lên một không gian chính quy (Lusin) Y. Ta biết (TG, IX, §6, No. 7, Mệnh đề 14) rằng ánh xạ $B \mapsto f^{-1}(B)$ là một song ánh từ bộ tộc Borel của Y lên bộ tộc Borel của X. Các không gian X và Y là Lusin, do đó là Radon mạnh (Mệnh đề 3). Suy ra ngay lập tức rằng ánh xạ $\mu \mapsto f(\mu)$ là một song ánh từ tập hợp các độ đo bị chặn trên X lên tập hợp các độ đo bị chặn trên Y.(4)
 

@@ -40,9 +40,9 @@ subsections:
       pdf_page: 191
 statements: 29
 exercises: 18
-content_sha256: 0834a3c22cbfa74a2b82921d1277c9ae1992c8c35afcf6de941b7e1f45fa06e2
+content_sha256: ba7902604053e82fd4b50da6381c4d7df6af7c501a083b5da3cf6ad335cd696c
 translated_from: content/en/fvr/IV/01_s1_existence_theorems.md
-source_content_sha256: 0a7f10c5381aab999496c21998516f0d2c850c034ed4e5811b9635297f680a8c
+source_content_sha256: 0e1758ad98dd52ed21cb9dc147ffdbd0f25ec001d00ee20b8f91629799eb1263
 translation_model: gpt-5.4
 translation_run: translate-vi-9ae23bd9
 glossary_version: 34
@@ -113,7 +113,7 @@ $(1 \leq i \leq p)$ về một hệ dạng (2), trong đó $x_i$ là hàm trên 
 
 Nhắc lại (II, p. 54, def. 3) rằng một hàm vectơ $u$ xác định trên một khoảng $I \subset \mathbf{R}$ được gọi là điều hòa nếu nó là giới hạn đều của các hàm bậc thang trên mọi tập con compắc của I; một điều kiện tương đương là tại mọi điểm trong của I, hàm $u$ có giới hạn bên phải và giới hạn bên trái, và cũng có giới hạn bên phải tại đầu mút trái của I và giới hạn bên trái tại đầu mút phải của I, khi hai điểm này thuộc I (II, p. 54, th. 3). Trong chương này ta sẽ chỉ giới hạn ở các phương trình vi phân (1) mà mọi nghiệm đều là nguyên hàm của một hàm điều hòa trên I. Điều kiện này rõ ràng được thỏa mãn nếu, với mọi ánh xạ liên tục $u$ từ I vào H, hàm $f(t, u(t))$ là điều hòa trên I; bổ đề sau cho một điều kiện đủ cho điều đó:
 
-#### Bổ đề 1 {#fvr-iv-s1-lem-1 .statement}
+#### Bổ đề 1 {#fvr-iv-s1-lem-1 .statement tag=08BD}
 
 Cho $f$ là một ánh xạ từ $I \times H$ vào $E$ sao cho, khi viết $f_x$ (với mọi $x \in H$) cho ánh xạ $t \mapsto f(t, x)$ từ $I$ vào $E$, các điều kiện sau được thỏa mãn: 1° $f_x$ là được điều chỉnh trên $I$ với mọi $x \in H$; 2° ánh xạ $x \mapsto f_x$ từ $H$ vào tập hợp $\mathscr{F}(I, E)$ các ánh xạ từ $I$ vào $E$ là liên tục khi trang bị cho $\mathscr{F}(I, E)$ tôpô hội tụ compact (Gen. Top., X, p. 278). Với các điều kiện này:
 
@@ -139,7 +139,7 @@ do đó ta có $\|u_n(t) - x_i\| \leq \delta_x$, suy ra $\|f(t, u_n(t)) - f(t, u
 
 Trong phần còn lại của tiết diện này, tôi sẽ ký hiệu bởi $I$ một khoảng được chứa trong $\mathbf{R}$, không thu về một điểm duy nhất, bởi $H$ một tập hợp mở khác rỗng được chứa trong không gian định chuẩn $E$, và bởi $f$ một ánh xạ từ $I \times H$ vào $E$ thỏa mãn các giả thiết của bổ đề 1.
 
-#### Mệnh đề 1 {#fvr-iv-s1-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-iv-s1-prop-1 .statement tag=08BE}
 
 Cho $t_0$ là một điểm của $I$ và $x_0$ một điểm của $H$; để một hàm liên tục $u$ là một nghiệm của phương trình (1) trên $I$ và nhận giá trị $x_0$ tại điểm $t_0$, điều kiện cần và đủ là nó thỏa mãn quan hệ
 
@@ -151,11 +151,11 @@ với mọi $t \in I$.
 
 Thật vậy, theo bổ đề 1, nếu $u$ là một nghiệm của (1) trên $I$, thì $f(t, u(t))$ là điều hòa, nên vế phải của (6) được xác định và bằng $u(t)$ với mọi $t \in I$. Ngược lại, nếu $u$ là một hàm liên tục thỏa mãn (6) thì $f(t, u(t))$ là điều hòa, theo bổ đề 1, nên $u$ có đạo hàm bằng $f(t, u(t))$ trừ tại các điểm của một tập con đếm được của $I$.
 
-#### Hệ quả {#fvr-iv-s1-n2-cor-1 .statement}
+#### Hệ quả {#fvr-iv-s1-n2-cor-1 .statement tag=08BF}
 
 *Tại mọi điểm của I khác với đầu mút trái (tương ứng phải) của khoảng này, mọi nghiệm u của (1) trên I đều có đạo hàm trái (tương ứng phải) bằng giới hạn trái (phải) của $f(t, u(t))$ tại điểm này.*
 
-#### Mệnh đề 2 {#fvr-iv-s1-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-iv-s1-prop-2 .statement tag=08BG}
 
 *Nếu f là một ánh xạ liên tục từ $I \times H$ vào E, thì mọi nghiệm của (1) trên I đều là một nghiệm ngặt.*
 
@@ -181,7 +181,7 @@ $$
 
 Cho $(t_0, x_0)$ là một điểm của $I \times H$; vì $f$ thỏa mãn các giả thiết của bổ đề 1 (IV, p. 165) nên tồn tại một lân cận compact $J$ của $t_0$ trong $I$ sao cho $f(t, x_0)$ bị chặn trên $J$, và một quả cầu mở $S$ tâm $x_0$ được chứa trong $H$, sao cho $f(t, x) - f(t, x_0)$ bị chặn trên $J \times S$; suy ra $f(t, x)$ *bị chặn* trên $J \times S$. *Trong suốt tiểu mục này, J sẽ chỉ một khoảng compact là một lân cận của t_0 trong I, S sẽ là một quả cầu mở tâm x_0 và bán kính r được chứa trong H, với J và S được chọn sao cho f bị chặn trên J × S; và M sẽ chỉ cận trên đúng của \|f(t, x)\| trên J × S.*
 
-#### Mệnh đề 3 {#fvr-iv-s1-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-iv-s1-prop-3 .statement tag=08BH}
 
 *Trên mọi khoảng compact có đầu mút trái (hoặc phải) t_0 được chứa trong J, có độ dài nhỏ hơn r/(M + ε), tồn tại một nghiệm xấp xỉ sai số không vượt quá ε của phương trình (1), nhận giá trị trong S, và bằng x_0 tại t_0.*
 
@@ -199,7 +199,7 @@ theo định lý giá trị trung bình; tiêu chuẩn Cauchy cho thấy $u_0$ c
 
 Khi f liên tục đều trên $J \times S$ thì có thể chứng minh mđ. 3 mà không dùng bổ đề Zorn (IV, p. 199, bt. 1a)).
 
-#### Mệnh đề 4 {#fvr-iv-s1-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-iv-s1-prop-4 .statement tag=08BI}
 
 *Tập hợp các nghiệm gần đúng của (1) đến $\varepsilon$, được xác định trên cùng một khoảng $K \subset J$ và nhận giá trị trong S, là đồng liên tục đều.*
 
@@ -209,13 +209,13 @@ $$
 \|u(s) - u(t)\| \leq (M + \varepsilon)|s - t|.
 $$
 
-#### Hệ quả (định lý Peano) {#fvr-iv-s1-n3-cor-1 .statement}
+#### Hệ quả (định lý Peano) {#fvr-iv-s1-n3-cor-1 .statement tag=08BJ}
 
 *Nếu E có số chiều hữu hạn trên $\mathbf{R}$ thì tồn tại một nghiệm của (1) nhận giá trị trong S và bằng $x_0$ tại $t_0$, trên mọi khoảng compact K có đầu mút trái (hoặc phải) là $t_0$, được chứa trong J và có độ dài $< r/M$.*
 
 Thật vậy, theo mệnh đề 3, một khi $n$ đủ lớn thì tồn tại một nghiệm gần đúng $u_n$ của (1) chính xác đến $1/n$, được xác định trên $K$, nhận giá trị trong $S$, và bằng $x_0$ tại $t_0$. Hơn nữa, kể từ một giá trị nào đó của $n$ trở đi, $u_n(K)$ được chứa trong một quả cầu *đóng* có tâm $x_0$ và bán kính $< r$, không phụ thuộc vào $n$. Họ các $u_n$ là đồng liên tục (mệnh đề 4), và vì $E$ là hữu hạn chiều nên tập $S$ là compact tương đối trong $E$; do đó với mọi $t \in K$ tập các $u_n(t)$ là compact tương đối trong $E$. Theo định lý Ascoli (*Gen. Top.*, X, p. 290, định lý 2), họ các $u_n$ là compact tương đối trong không gian $\mathscr{F}(K; E)$ các ánh xạ từ $K$ vào $E$ được trang bị chuẩn đều. Vì thế tồn tại một dãy trích từ $(u_{n_k})$ của $(u_n)$ hội tụ đều trên $K$ tới một hàm liên tục $u$. Ta có $u(K) \subset S$, nên $t \mapsto f(t, u(t))$ được xác định trên $K$; theo bổ đề 1 (IV, p. 165), $f(t, u_{n_k}(t))$ hội tụ đều tới $f(t, u(t))$ trên $K$; theo (IV, p. 4, công thức (7)), $u_{n_k}$ là một nguyên hàm của một hàm hội tụ đều tới $f(t, u(t))$ trên $K$, nên (II, p. 52, định lý 1) $u$ là một nghiệm của (1) trên $K$, và bằng $x_0$ tại điểm $t_0$.
 
-#### Nhận xét 1 {#fvr-iv-s1-n3-rem-1 .statement}
+#### Nhận xét 1 {#fvr-iv-s1-n3-rem-1 .statement tag=08BK}
 
 Có thể có *vô hạn nhiều* tích phân của một phương trình vi phân (1) cùng nhận một giá trị tại một điểm cho trước. Chẳng hạn, phương trình vi phân vô hướng $x' = 2\sqrt{|x|}$ có mọi hàm được xác định bởi
 
@@ -229,7 +229,7 @@ $$
 
 làm tích phân nhận giá trị 0 tại điểm $t = 0$, với mọi số dương $\alpha$ và $\beta$.
 
-#### Nhận xét 2 {#fvr-iv-s1-n3-rem-2 .statement}
+#### Nhận xét 2 {#fvr-iv-s1-n3-rem-2 .statement tag=08BL}
 
 Định lý Peano không còn đúng nữa khi $E$ là một không gian chuẩn đầy đủ tùy ý có chiều *vô hạn* (IV, p. 204, bài tập 18).
 
@@ -237,7 +237,7 @@ làm tích phân nhận giá trị 0 tại điểm $t = 0$, với mọi số dư
 
 Trong phần sau, I và $H$ lần lượt ký hiệu, như trên, một khoảng được chứa trong $\mathbf{R}$ và một tập mở trong không gian chuẩn $E$; $t_0$ là một điểm của I.
 
-#### Định nghĩa 1 {#fvr-iv-s1-def-1 .statement}
+#### Định nghĩa 1 {#fvr-iv-s1-def-1 .statement tag=08BM}
 
 *Cho một hàm thực dương* $t \mapsto k(t)$ *xác định trên* $I$, *người ta nói rằng một ánh xạ* $f$ *từ* $I \times H$ *vào* $E$ *là Lipschitz đối với hàm* $k(t)$ *nếu, với mọi* $x \in H$, *hàm* $t \mapsto f(t, x)$ *được điều chỉnh trên* $I$, *và nếu, với mọi* $t \in I$ *và mọi cặp điểm* $x_1, x_2$ *của* $H$, *ta có ("điều kiện Lipschitz")*
 
@@ -257,13 +257,13 @@ $$
 
 là *Lipschitz* (trên $I \times H$).
 
-#### Ví dụ {#fvr-iv-s1-n4-exa-1 .statement}
+#### Ví dụ {#fvr-iv-s1-n4-exa-1 .statement tag=08BN}
 
 Khi $E = \mathbf{R}$ và $H$ là một khoảng trong $\mathbf{R}$, nếu hàm $f(t, x)$ thừa nhận một *đạo hàm riêng* $f'_x$ (II, p. 74) tại mọi điểm $(t, x)$ của $I \times H$, sao cho $|f'_x(t, x)| \leq k(t)$ trên $I \times H$, thì điều kiện (8) được thỏa mãn, theo định lý giá trị trung bình; về sau ta sẽ thấy ví dụ này tổng quát hóa như thế nào sang trường hợp $E$ là một không gian định chuẩn tùy ý.
 
 Nếu $f$ là Lipschitz trên $I \times H$ thì $f$ *bị chặn* trên $J \times S$ với mọi khoảng con compắc $J \subset I$ và mọi quả cầu mở $S \subset H$. Vì thế mệnh đề 3 (IV, p. 166) có thể được áp dụng, và chứng minh sự tồn tại của các nghiệm gần đúng của phương trình (1). Nhưng ta còn có mệnh đề sau đây, cho phép ta *so sánh* hai nghiệm gần đúng:
 
-#### Mệnh đề 5 {#fvr-iv-s1-prop-5 .statement}
+#### Mệnh đề 5 {#fvr-iv-s1-prop-5 .statement tag=08BO}
 
 *Cho $k(t)$ là một hàm thực được điều chỉnh và $> 0$ trên $I$, và cho $f(t, x)$ là một hàm được xác định và Lipschitz đối với $k(t)$ trên $I \times H$. Nếu $u$ và $v$ là hai nghiệm gần đúng của (1), lần lượt chính xác đến $\varepsilon_1$ và $\varepsilon_2$, được xác định trên $I$ với giá trị trong $H$, thì, với mọi $t \in I$ sao cho $t \geq t_0$,
 
@@ -318,7 +318,7 @@ $$
 
 Mệnh đề do đó là một hệ quả của bổ đề sau:
 
-#### Bổ đề 2 {#fvr-iv-s1-lem-2 .statement}
+#### Bổ đề 2 {#fvr-iv-s1-lem-2 .statement tag=08BP}
 
 *Nếu w là một hàm thực liên tục trên khoảng [t_0, t_1] và thỏa mãn bất đẳng thức*
 
@@ -363,7 +363,7 @@ $$
 
 và vì $w(t) \leq \varphi(t) + y(t)$ nên do đó ta thu được (13).
 
-#### Hệ quả {#fvr-iv-s1-n4-cor-1 .statement}
+#### Hệ quả {#fvr-iv-s1-n4-cor-1 .statement tag=08BQ}
 
 *Cho $\mathbf{f}$ là một hàm Lipschitz với hằng $k > 0$, xác định trên $\mathbf{I} \times \mathbf{H}$. Nếu $\mathbf{u}$ và $\mathbf{v}$ là hai nghiệm xấp xỉ của (1) với sai số không vượt quá $\varepsilon_1$ và $\varepsilon_2$, tương ứng, xác định trên $\mathbf{I}$ và nhận giá trị trong $\mathbf{H}$, thì, với mọi $t \in \mathbf{I}$,*
 
@@ -380,7 +380,7 @@ $$
 
 thu được từ (1) bằng phép thay đổi biến $t = -s$.
 
-#### Nhận xét 1 {#fvr-iv-s1-n4-rem-1 .statement}
+#### Nhận xét 1 {#fvr-iv-s1-n4-rem-1 .statement tag=08BR}
 
 Khi $k = 0$ thì bất đẳng thức (15) được thay bằng bất đẳng thức
 $$
@@ -388,11 +388,11 @@ $$
 $$
 mà chứng minh là ngay lập tức.
 
-#### Nhận xét 2 {#fvr-iv-s1-n4-rem-2 .statement}
+#### Nhận xét 2 {#fvr-iv-s1-n4-rem-2 .statement tag=08BS}
 
 Khi E có số chiều hữu hạn, và $\mathbf{f}$ là Lipschitz trên $I \times H$, người ta có thể chứng minh sự tồn tại của các nghiệm xấp xỉ của (1) (IV, p. 166, mệnh đề 3) mà không dùng tiên đề lựa chọn (IV, p. 199, bài tập 1 b)).
 
-#### Mệnh đề 6 {#fvr-iv-s1-prop-6 .statement}
+#### Mệnh đề 6 {#fvr-iv-s1-prop-6 .statement tag=08BT}
 
 *Cho $\mathbf{f}$ và $\mathbf{g}$ là hai hàm xác định trên $I \times H$, thỏa mãn các giả thiết của bổ đề 1 ở IV, p. 165, và sao cho, trên $I \times H$,
 $$
@@ -414,7 +414,7 @@ với mọi $t$ thuộc phần bù trong $I$ của một tập con đếm đư�
 
 ### 5. SỰ TỒN TẠI VÀ TÍNH DUY NHẤT CỦA NGHIỆM CỦA CÁC PHƯƠNG TRÌNH LIPSCHITZ VÀ LIPSCHITZ ĐỊA PHƯƠNG
 
-#### Định lý 1 (Cauchy) {#fvr-iv-s1-thm-1 .statement}
+#### Định lý 1 (Cauchy) {#fvr-iv-s1-thm-1 .statement tag=08BU}
 
 *Cho $\mathbf{f}$ là một hàm Lipschitz trên $I \times H$, J là một khoảng con compact của $I$, không rút gọn thành một điểm, $t_0$ là một điểm của J, S là một quả cầu mở tâm $\mathbf{x}_0$ bán kính r, được chứa trong H, và M là cận trên bé nhất của $\| \mathbf{f}(t, \mathbf{x}) \|$ trên $J \times S$. Trong các điều kiện ấy, với mọi khoảng compact K không rút gọn thành một điểm, được chứa trong giao của J với $]t_0 - r/M, t_0 + r/M[$, và chứa $t_0$, tồn tại một và chỉ một nghiệm của phương trình vi phân $\mathbf{x}' = \mathbf{f}(t, \mathbf{x})$ được xác định trên K, nhận giá trị trong S, và bằng $\mathbf{x}_0$ tại điểm $t_0$.
 
@@ -429,7 +429,7 @@ Ta sẽ nói rằng một hàm $f$ xác định trên $I \times H$ là Lipschitz
 
 Ta sẽ tổng quát hóa và làm sáng tỏ đl. 1 của IV, p. 10 đối với các phương trình Lipschitz địa phương; ta chỉ xét trường hợp $t_0$ là đầu mút trái của khoảng $I$; người ta dễ dàng chuyển sang trường hợp $t_0$ là một điểm tùy ý của $I$ (x. IV, §IV ??, p. 9, hệ quả).
 
-#### Định lý 2 {#fvr-iv-s1-thm-2 .statement}
+#### Định lý 2 {#fvr-iv-s1-thm-2 .statement tag=08BV}
 
 *Cho $I \subset \mathbf{R}$ là một khoảng (không thu về một điểm duy nhất) có đầu mút trái là $t_0 \in I$, cho $H$ là một tập hợp mở khác rỗng trong $E$, và $f$ là một hàm Lipschitz địa phương trên $I \times H$.*
 
@@ -451,7 +451,7 @@ Nếu K là một tập con compact của H thì $\bar{u}^{-1}(K)$ đóng trong 
 
 3 Giả sử rằng J bị chặn và $\|f(t, u(t))\| \leq M$ trên J; khi đó $\|u'(t)\| \leq M$ trên phần bù của một tập con đếm được của J; do đó, theo định lý giá trị trung bình, $\|u(s) - u(t)\| \leq M |s - t|$ với mọi s và t trong J; theo tiêu chuẩn Cauchy, u có giới hạn bên trái c tại đầu mút phải β của J. Nếu J ≠ I thì c không thể thuộc H, vì khi kéo dài u bằng tính liên tục tại β, u sẽ là một nghiệm của (1) nhận giá trị trong H, xác định trên một khoảng [t_0, β] và bằng x_0 tại t_0; khi đó sẽ có J = [t_0, β], trái với điều ta đã thấy ở 2 .
 
-#### Hệ quả 1 {#fvr-iv-s1-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#fvr-iv-s1-thm-2-cor-1 .statement tag=08BW}
 
 *Nếu H = E và J ≠ I thì f(t, u(t)) không bị chặn trên J; hơn nữa, nếu E hữu hạn chiều thì $\|u(t)\|$ có giới hạn bên trái $+\infty$ tại đầu mút phải của J.*
 
@@ -459,25 +459,25 @@ Phần thứ nhất là một hệ quả ngay lập tức của phần thứ ba 
 
 Nếu E hữu hạn chiều thì có thể xảy ra J ≠ I nhưng $\|u(t)\|$ vẫn *bị chặn* khi t tiến tới đầu mút phải của J (IV, p. 200, exerc. 5).
 
-#### Hệ quả 2 {#fvr-iv-s1-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#fvr-iv-s1-thm-2-cor-2 .statement tag=08BX}
 
 *Nếu, trên I × H, hàm f là Lipschitz đối với một hàm regulated k(t), và nếu đầu mút phải β của J thuộc I, thì u có một giới hạn bên trái tại β; nếu H = E và nếu f là Lipschitz đối với một hàm regulated k(t) trên I × E, thì J = I.*
 
 Thật vậy, nếu β ∈ I thì tồn tại một lân cận compact V của β trong I, sao cho f(t, x_0) và k(t) bị chặn trên V; khi đó $\|f(t, x)\| \leq m \|x\| + h$ (m và h hằng) trên $V \times H$, do đó $\|u'(t)\| \leq m \|u(t)\| + h$ trên phần bù của một tập con đếm được của $V \cap J$, nên $\|u(t)\| \leq m \int_{t_0}^t \|u(s)\|\ ds + q$ ($q$ hằng) trên $V \cap J$; bổ đề 2 (IV, p. 170) cho thấy rằng $\|u(t)\| \leq c\ e^{mt} + d$ ($c$ và $d$ hằng) trên $V \cap J$, và do đó $f(t, u(t))$ vẫn *bị chặn* trên $J$, và hệ quả suy ra từ đ.l. 2 của IV, p. 172.
 
-#### Ví dụ 1 {#fvr-iv-s1-n5-exa-1 .statement}
+#### Ví dụ 1 {#fvr-iv-s1-n5-exa-1 .statement tag=08BY}
 
 Đối với một phương trình vi phân dạng $x' = g(t)$, trong đó $g$ là regulated trên $I$, mọi nghiệm $u$ hiển nhiên đều được xác định trên toàn bộ $I$. Cần chú ý rằng $u$ có thể bị chặn trên $I$ mà $g(t)$ thì không.
 
-#### Ví dụ 2 {#fvr-iv-s1-n5-exa-2 .statement}
+#### Ví dụ 2 {#fvr-iv-s1-n5-exa-2 .statement tag=08BZ}
 
 Đối với phương trình vô hướng $x' = \sqrt{1 - x^2}$ ta có $I = \mathbf{R},\ H = ] - 1, +1[$. Nếu lấy $t_0 = x_0 = 0$ thì nghiệm tương ứng là $\sin t$ *trên khoảng lớn nhất chứa 0 mà ở đó đạo hàm của $\sin t$ là dương*, nghĩa là trên $] - \pi/2, +\pi/2[$; tại các đầu mút của khoảng này, nghiệm tiến tới một đầu mút của $H$.
 
-#### Ví dụ 3 {#fvr-iv-s1-n5-exa-3 .statement}
+#### Ví dụ 3 {#fvr-iv-s1-n5-exa-3 .statement tag=08C0}
 
 Đối với phương trình vô hướng $x' = 1 + x^2$ ta có $I = H = \mathbf{R}$: nghiệm triệt tiêu tại $t = 0$ là $\tan t$, và khoảng lớn nhất chứa 0 mà trên đó hàm này liên tục là $J = ] - \pi/2, +\pi/2[$; và $|\tan t|$ tiến tới $+\infty$ tại các đầu mút của $J$ (*xem* IV, p. 173, hệ quả 1).
 
-#### Ví dụ 4 {#fvr-iv-s1-n5-exa-4 .statement}
+#### Ví dụ 4 {#fvr-iv-s1-n5-exa-4 .statement tag=08C1}
 
 Đối với phương trình vô hướng $x' = \sin tx$ ta có $I = H = \mathbf{R}$ và vế phải bị chặn trên $I \times H$, nên theo (IV, p. 173, hệ quả 1) mọi nghiệm đều được xác định trên toàn bộ $\mathbf{R}$.
 
@@ -491,7 +491,7 @@ $$
 
 "gần" với một phương trình Lipschitz $x' = g(t, x)$ và khi ta giả sử rằng *cả hai* phương trình đều có một nghiệm gần đúng trên cùng một khoảng, thì các nghiệm gần đúng này là "gần" nhau; ta sẽ làm sáng tỏ kết quả này bằng cách chỉ ra rằng sự tồn tại của các nghiệm của phương trình Lipschitz $x' = g(t, x)$ trên một khoảng *suy ra* sự tồn tại của các nghiệm gần đúng của $x' = f(t, x)$ trên cùng khoảng đó, miễn là trên khoảng sau, các giá trị của nghiệm của $x' = g(t, x)$ không "quá gần" với *biên* của $H$.
 
-#### Mệnh đề 7 {#fvr-iv-s1-prop-7 .statement}
+#### Mệnh đề 7 {#fvr-iv-s1-prop-7 .statement tag=08C2}
 
 *Cho $f$ và $g$ là hai hàm số xác định trên $I \times H$, thỏa mãn các giả thiết của bổ đề 1 của IV. p. 165, và sao cho, trên $I \times H$*
 
@@ -516,7 +516,7 @@ $$
 
 trên khoảng $[t_0, t_1[$ theo mệnh đề 6; bây giờ trên khoảng compact $[t_0, t_1]$ hàm điều chỉnh $g(t, u(t))$ bị chặn, do đó hàm $g(t, v_0(t))$ bị chặn trên khoảng $[t_0, t_1[$, vì $\| g(t, v_0(t)) \| \leq \| g(t, u(t)) \| + k \varphi(t)$ trên khoảng này. Vì $v_0$ là một nghiệm xấp xỉ của $x' = g(t, x)$ với sai số không vượt quá $\alpha$ trên $[t_0, t_1[$ nên tồn tại một số $M > 0$ sao cho $\| v_0'(t) \| \leq M$ trên khoảng này, trừ tại các điểm của một tập hợp đếm được; định lý giá trị trung bình khi đó cho thấy rằng $\| v_0(s) - v_0(t) \| \leq M |s - t|$ đối với mọi cặp điểm $s, t$ của $[t_0, t_1[$, vì vậy (theo tiêu chuẩn Cauchy) $v_0(t)$ có một giới hạn trái $c$ tại điểm $t_1$, và, theo tính liên tục, ta có $\| c - u(t_1) \| \leq \varphi(t_1)$, và do đó $c \in H$. Bây giờ suy ra từ IV, p. 171, định lý 1 hoặc IV, p. 167, hệ quả, rằng tồn tại một nguyên của $x' = f(t, x)$ được xác định trên một khoảng $[t_1, t_2[$ và bằng $c$ tại $t_1$, điều này mâu thuẫn với định nghĩa của $v_0$.
 
-#### Định lý 3 {#fvr-iv-s1-thm-3 .statement}
+#### Định lý 3 {#fvr-iv-s1-thm-3 .statement tag=08C3}
 
 *Cho F là một không gian tôpô và cho f là một ánh xạ từ I × H × F vào E sao cho, với mọi $\xi \in F$, hàm $(t, x) \mapsto f(t, x, \xi)$ là Lipschitz trên I × H, và sao cho, khi $\xi$ tiến tới $\xi_0$, $f(t, x, \xi)$ tiến đều tới $f(t, x, \xi_0)$ trên I × H. Cho $u_0(t)$ là một nguyên của $x' = f(t, x, \xi_0)$ được xác định trên một khoảng $J = [t_0, b[$ được chứa trong I, nhận giá trị trong H, và bằng $x_0$ tại $t_0$. Với mọi khoảng compact $[t_0, t_1]$ được chứa trong J, tồn tại một lân cận V của $\xi_0$ trong F sao cho, với mọi $\xi \in V$, phương trình $x' = f(t, x, \xi)$ có một nguyên (và chỉ một) $u(t, \xi)$ được xác định trên $[t_0, t_1]$, nhận giá trị trong H và bằng $x_0$ tại $t_0$; hơn nữa, khi $\xi$ tiến tới $\xi_0$ thì nghiệm $u(t, \xi)$ tiến đều tới $u_0(t)$ trên $[t_0, t_1]$.*
 
@@ -528,7 +528,7 @@ $$
 
 trên $[t_0, t_1]$, điều này hoàn tất chứng minh của định lý.
 
-#### Nhận xét {#fvr-iv-s1-n6-rem-1 .statement}
+#### Nhận xét {#fvr-iv-s1-n6-rem-1 .statement tag=08C4}
 
 Khi $H = E$ và điều kiện (16) của IV, p. 174 được thỏa mãn trên $I \times E$, mệnh đề 7 của IV, p. 174 áp dụng được cho *mọi* nghiệm $u$ của $x' = g(t, x)$ trên *bất kỳ* khoảng nào mà nghiệm này được xác định; thậm chí còn có thể giả thiết rằng $g(t, x)$ là Lipschitz đối với một hàm bị điều tiết $k(t)$ tuy không nhất thiết bị chặn trên khoảng này.
 
@@ -536,7 +536,7 @@ Khi $H = E$ và điều kiện (16) của IV, p. 174 được thỏa mãn trên 
 
 Cho $x' = f(t, x)$ là một phương trình Lipschitz địa phương trên $I \times H$; theo định lý 2 (IV, p. 172), với mọi điểm $(t_0, x_0)$ của $I \times H$ tồn tại một *khoảng lớn nhất* $J(t_0, x_0) \subset I$, không thu về một điểm duy nhất, chứa $t_0$, và trên đó tồn tại một nghiệm (và chỉ một) của phương trình này, bằng $x_0$ tại $t_0$; ta sẽ làm sáng tỏ cách thức mà nghiệm này, cũng như khoảng $J(t_0, x_0)$ nơi nó được xác định, phụ thuộc vào điểm $(t_0, x_0)$.
 
-#### Định lý 4 {#fvr-iv-s1-thm-4 .statement}
+#### Định lý 4 {#fvr-iv-s1-thm-4 .statement tag=08C5}
 
 *Cho $f$ là một hàm Lipschitz địa phương trên $I \times H$ và $(a, b)$ là một điểm tùy ý của $I \times H$.*
 

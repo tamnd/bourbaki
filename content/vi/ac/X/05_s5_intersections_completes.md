@@ -36,7 +36,7 @@ subsections:
       pdf_page: 69
 statements: 20
 exercises: 11
-content_sha256: 227540ba4b41ba15f99af55ff6bd217a5b1afd6735d75328ed20d274057613ac
+content_sha256: a2a4247fc0c62d7b17ce4a15a81369b646a13ed26a33b529122cfa8bd46ba68c
 translated_from: content/en-mt/ac/X/05_s5_intersections_completes.md
 source_lang: en-mt
 translation_method: machine
@@ -52,7 +52,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Iđêan sinh bởi một dãy hoàn toàn cát tuyến
 
-#### Định nghĩa 1 {#ac-x-s5-def-1 .statement}
+#### Định nghĩa 1 {#ac-x-s5-def-1 .statement tag=0D6T}
 
 Cho $A$ là một vành, $J$ một iđêan của $A$. Ta nói rằng iđêan $J$ là hoàn toàn cát tuyến tại điểm $p$ của $V(J)$ nếu iđêan $J_p$ của $A_p$ được sinh bởi một dãy hoàn toàn cát tuyến đối với $A_p$. Ta nói rằng $J$ là hoàn toàn cát tuyến nếu nó có tính chất ấy tại mọi điểm của $V(J)$.
 
@@ -60,7 +60,7 @@ Nếu iđêan $J$ của $A$ là hoàn toàn cát tuyến, thì điều đó cũn
 
 Mọi iđêan sinh bởi một dãy hoàn toàn cát tuyến đều là hoàn toàn cát tuyến. Chính xác hơn:
 
-#### Mệnh đề 1 {#ac-x-s5-prop-1 .statement}
+#### Mệnh đề 1 {#ac-x-s5-prop-1 .statement tag=0D6U}
 
 Cho $A$ là một vành, $J$ một iđêan của $A$, được sinh bởi một dãy hữu hạn $x = (x_1, \ldots, x_r)$ gồm các phần tử của $A$. Các điều kiện sau là tương đương:
 
@@ -76,13 +76,13 @@ Cho $p$ là một iđêan nguyên tố của $A$; ký hiệu $x_p$ là ảnh c�
 
 Hệ quả (i) $\Rightarrow$ (iv) là một hệ quả của th. 1 của A, X, p. 160. Cuối cùng, điều kiện (iv) suy ra bằng địa phương hóa điều kiện tương tự đối với các $(A_p/J_p)$-môđun $J_p^n / J_p^{n+1}$ với mọi $p \in V(J)$, và điều kiện sau suy ra (ii) theo cor. 1 của A, X, p. 160.
 
-#### Nhận xét 1 {#ac-x-s5-n1-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s5-n1-rem-1 .statement tag=0D6V}
 
 Khi vành $A$ là Noether, có thể thay thế trong các điều kiện (ii) và (ii') "hoàn toàn cát tuyến" bằng "chính quy" (A, X, p. 160, cor. 1).
 
 Cần lưu ý rằng điều này không còn đúng trong điều kiện (i): một dãy hoàn toàn cát tuyến đối với A không nhất thiết là chính quy đối với A (exerc. 1).
 
-#### Nhận xét 2 {#ac-x-s5-n1-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s5-n1-rem-2 .statement tag=0D6W}
 
 Cho A là một vành, J một iđêan kiểu hữu hạn của A và p một iđêan nguyên tố của A chứa J. Theo cor. 2 của th. 1 của § 1, No. 3, ta có
 
@@ -120,7 +120,7 @@ $$
 
 với $\operatorname{gr}_J(A) = \bigoplus_{n \in \mathbf{N}} J^n / J^{n+1}$.
 
-#### Định lý 1 {#ac-x-s5-thm-1 .statement}
+#### Định lý 1 {#ac-x-s5-thm-1 .statement tag=0D6X}
 
 Cho A là một vành Noether và J một iđêan của A. Các điều kiện sau là tương đương:
 
@@ -137,11 +137,11 @@ Cho A là một vành Noether và J một iđêan của A. Các điều kiện s
 
 (iv) ⇒ (i): giả sử điều kiện (iv) được thỏa mãn; lấy p là một iđêan nguyên tố của A chứa J. Khi đó $A_p/J_p$-môđun $J_p/J_p^2$ là tự do. Lấy x = (x_1, ..., x_r) là một dãy các phần tử của J_p nâng lên một cơ sở của $J_p/J_p^2$. Dãy x sinh ra J_p (Bổ đề Nakayama), và theo phép dựng nó thỏa mãn điều kiện (iv) của Mệnh đề 1. Suy ra iđêan J_p của A_p là cát tuyến hoàn toàn, và J là cát tuyến hoàn toàn tại p.
 
-#### Nhận xét 1 {#ac-x-s5-n2-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s5-n2-rem-1 .statement tag=0D6Y}
 
 Giả sử iđêan J là cát tuyến hoàn toàn; lấy (x_1, ..., x_r) là một dãy các phần tử của J sao cho với mọi iđêan cực đại m ∈ V(J), các ảnh chính tắc của các x_i trong J/mJ tạo thành một cơ sở của không gian vectơ trên A/m này. Khi đó $A/J$-môđun $J/J^2$ là tự do và các ảnh chính tắc của các x_i trong J/J^2 tạo thành một cơ sở của nó: thực vậy chỉ cần kiểm tra rằng các ảnh của các x_i tạo thành một cơ sở của $A_m/J_m$-môđun $J_m/J_m^2$ với mọi m ∈ V(J) (II, § 3, No. 3, Định lý 1), điều này suy ra từ loc. cit., No. 2, Mệnh đề 5 và Hệ quả 2, vì $A_m/J_m$-môđun $J_m/J_m^2$ là xạ ảnh (Định lý 1).
 
-#### Hệ quả 1 {#ac-x-s5-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s5-thm-1-cor-1 .statement tag=0D6Z}
 
 Cho $\hat{A}$ là hoàn thành tách của A đối với tôpô J-adic và $\hat{J} = J\hat{A}$ là hoàn thành tách của J. Để iđêan $\hat{J}$ của $\hat{A}$ là cát tuyến hoàn toàn thì điều kiện cần và đủ là iđêan J của A là cát tuyến hoàn toàn.
 
@@ -149,7 +149,7 @@ Thật vậy, ánh xạ chính tắc gr_J(A) → gr_J(\hat{A}) là một đẳng
 
 Nói chung hơn:
 
-#### Hệ quả 2 {#ac-x-s5-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s5-thm-1-cor-2 .statement tag=0D70}
 
 Cho ρ : A → B là một đồng cấu của các vành Noether biến B thành một A-môđun phẳng, và J một iđêan của A.
 
@@ -159,19 +159,19 @@ b) Giả sử rằng iđêan JB của B là cát tuyến hoàn toàn và mọi i
 
 Trước hết nhận thấy rằng, vì A-môđun B là phẳng, $J^n \otimes_A B$ được đồng nhất với $J^nB$ và $(J^n/J^{n+1}) \otimes_{A/J} (B/JB)$ với $J^nB/J^{n+1}B$ với mọi số nguyên $n \geq 0$. Mệnh đề a) khi đó suy ra từ tiêu chuẩn (iii). Dưới các giả thiết của b), $A/J$-môđun B/JB là phẳng trung thành (I, § 2, No. 7, Hệ quả 2 của Mệnh đề 8 và § 3, No. 5, Mệnh đề 9) và J là cát tuyến hoàn toàn theo tiêu chuẩn (iv), có tính đến I, § 3, No. 1, Mệnh đề 2 và No. 6, Mệnh đề 12. Khẳng định cuối cùng suy ra từ Mệnh đề 8 của I, § 3, No. 5.
 
-#### Hệ quả 3 {#ac-x-s5-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s5-thm-1-cor-3 .statement tag=0D71}
 
 Cho $A$ là một vành Noether và $J$ một iđêan cát tuyến hoàn toàn của $A$. Nếu $A$ là một vành Macaulay (resp. một vành Gorenstein), thì $A/J$ cũng vậy.
 
 Thật vậy lấy $m$ là một iđêan cực đại của $A$ chứa $J$. Iđêan $J_m$ của $A_m$ được sinh bởi một dãy chính quy trên $A_m$; do đó $(A/J)_m$ là một vành Macaulay (resp. một vành Gorenstein) theo Ví dụ 6 của § 2, No. 5 (resp. Ví dụ 2 của § 3, No. 9).
 
-#### Nhận xét 2 {#ac-x-s5-n2-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s5-n2-rem-2 .statement tag=0D72}
 
 Người ta nói rằng một vành Noether $A$ là một vành giao hoàn toàn nếu, với mọi iđêan cực đại $m$ của $A$, vành địa phương đầy đủ $\widehat{A_m}$ đẳng cấu với thương của một vành địa phương chính quy Noether đầy đủ bởi một iđêan cát tuyến hoàn toàn. Từ Hệ quả 3 trên đây và từ Hệ quả 2 của Mệnh đề 12 của § 3, No. 8 suy ra rằng một vành như vậy là một vành Gorenstein.
 
 ### 3. Các iđêan cát tuyến hoàn toàn và các vành chính quy
 
-#### Mệnh đề 2 {#ac-x-s5-prop-2 .statement}
+#### Mệnh đề 2 {#ac-x-s5-prop-2 .statement tag=0D73}
 
 Cho $A$ là một vành Noether. Các điều kiện sau là tương đương:
 
@@ -185,7 +185,7 @@ Cho $A$ là một vành Noether. Các điều kiện sau là tương đương:
 
 (ii) $\Rightarrow$ (i): cho $m$ là một iđêan cực đại của $A$; theo giả thiết (ii), iđêan cực đại $mA_m$ của $A_m$ được sinh bởi một dãy cát tuyến hoàn toàn đối với $A_m$, nên $A_m$ là chính quy (VIII, § 5, No. 2, Định lý 1). Do đó $A$ là chính quy.
 
-#### Mệnh đề 3 {#ac-x-s5-prop-3 .statement}
+#### Mệnh đề 3 {#ac-x-s5-prop-3 .statement tag=0D74}
 
 Cho $A$ là một vành Noether và $J$ một iđêan của $A$ sao cho $A/J$ là chính quy. Các điều kiện sau là tương đương:
 
@@ -195,7 +195,7 @@ Cho $A$ là một vành Noether và $J$ một iđêan của $A$ sao cho $A/J$ l�
 
 Theo Định lý 1, điều kiện (i) có nghĩa là với mọi iđêan nguyên tố (ứng với iđêan cực đại) $p$ của $A$ chứa $J$, iđêan $J_p$ của vành địa phương $A_p$ được sinh bởi một dãy cát tuyến hoàn toàn đối với $A_p$. Vì $A_p/J_p$ là chính quy theo giả thiết, điều kiện sau này tương đương với tính chính quy của $A_p$ (VIII, § 5, No. 3, Mệnh đề 2 và Hệ quả 2 của nó); điều này chứng minh tính tương đương của (i) và (ii). Tính tương đương của (ii) và (iii) suy ra từ § 4, No. 2, Hệ quả 3 của Mệnh đề 4.
 
-#### Mệnh đề 4 {#ac-x-s5-prop-4 .statement}
+#### Mệnh đề 4 {#ac-x-s5-prop-4 .statement tag=0D75}
 
 Cho $A$ là một vành chính quy, $J$ một iđêan của $A$, và $A_0$ một vành con của $A$ sao cho đồng cấu chính tắc $A_0 \to A/J$ là song ánh.
 
@@ -215,13 +215,13 @@ Nếu $A_0$-môđun $P$ là tự do phân bậc (A, II, p. 167, Nhận xét 3) v
 
 Khi vành $A_0$ là chính quy và $A_0$-môđun $P$ là xạ ảnh sinh hữu hạn, vành $S_{A_0}(P)$ là chính quy (§ 4, No. 2, hệ quả 4 của Mệnh đề 4). Ngược lại:
 
-#### Định lý 2 {#ac-x-s5-thm-2 .statement}
+#### Định lý 2 {#ac-x-s5-thm-2 .statement tag=0D76}
 
 Cho $A$ là một vành chính quy, phân bậc kiểu $\mathbf{N}$. Vành $A_0$ gồm các phần tử bậc 0 trong $A$ là chính quy; tồn tại một $A_0$-môđun xạ ảnh sinh hữu hạn $P$ được phân bậc theo các bậc $> 0$ sao cho $A$ đẳng cấu, như một $A_0$-đại số phân bậc, với $S_{A_0}(P)$.
 
 Ký hiệu $P$ là $A_0$-môđun phân bậc $A_+/A_+^2$. Theo Mệnh đề 4 của No. 3, vành $A_0$ là chính quy và $A_0$-môđun $P$ là xạ ảnh và sinh hữu hạn. Do đó các thành phần thuần nhất của $P$ là xạ ảnh, và tồn tại một tiết diện $A_0$-tuyến tính $\varphi : P \to A_+$, phân bậc bậc 0, của toàn cấu chính tắc $A_+ \to P$. Gọi $f : S_{A_0}(P) \longrightarrow A$ là đồng cấu các $A_0$-đại số phân bậc mở rộng $\varphi$. Theo Mệnh đề 4, $f$ mở rộng thành một đẳng cấu từ bổ toàn tách rời của $S_{A_0}(P)$ đối với tôpô $S_{A_0}(P)_+$-adic lên bổ toàn tách rời của $A$ đối với tôpô $A_+$-adic. Do đó, $f$ là đơn ánh và ảnh của nó trù mật trong $A$ đối với tôpô $A_+$-adic. Nhưng vì các tôpô cảm sinh trên các thành phần thuần nhất của $A$ là rời rạc và ảnh của $f$ là một môđun con phân bậc, điều này kéo theo rằng $f$ là song ánh.
 
-#### Hệ quả 1 {#ac-x-s5-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s5-thm-2-cor-1 .statement tag=0D77}
 
 *Cho B là một vành chính quy, phân bậc theo các bậc dương. Giả sử rằng mọi $B_0$-môđun xạ ảnh sinh hữu hạn đều tự do.*
 a) *Vành $B_0$ là một miền nguyên và chính quy, và $B_0$-đại số $B$ là một $B_0$-đại số đa thức phân bậc sinh hữu hạn.*
@@ -238,7 +238,7 @@ Ta chứng minh b).
 
 (ii) $\Leftrightarrow$ (iii): vì $B$ là nguyên trên $A$ và là một đại số trên $A_0$ sinh hữu hạn, nên $A$ là một đại số trên $A_0$ sinh hữu hạn (V, $§ 1$, No. 9, bổ đề 5), do đó là một vành Noether. Khi đó tính tương đương của (ii) và (iii) suy ra từ hệ quả của mệnh đề 8 của $§ 4$, No. 5 và từ a) áp dụng cho $A$.
 
-#### Hệ quả 2 {#ac-x-s5-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s5-thm-2-cor-2 .statement tag=0D78}
 
 *Cho k là một trường, B là một đại số đa thức phân bậc trên k sinh hữu hạn, và A là một đại số con phân bậc của B. Các điều kiện sau là tương đương:
 (i) B là một $A$-môđun phân bậc tự do;
@@ -254,7 +254,7 @@ Các hệ quả 1 và 2 kéo theo bổ đề 5 của LIE, V, § 5, No. 5.
 
 ### 5. Dãy chính quy và mở rộng vô hướng
 
-#### Mệnh đề 5 {#ac-x-s5-prop-5 .statement}
+#### Mệnh đề 5 {#ac-x-s5-prop-5 .statement tag=0D79}
 
 Cho ρ : A → B là một đồng cấu địa phương của các vành địa phương Noether, N là một B-môđun sinh hữu hạn, x = (x_1, ..., x_r) là một dãy phần tử của m_B, và u : A[T_1, ..., T_r] → B là đồng cấu duy nhất của các đại số trên A sao cho u(T_i) = x_i với i = 1, ..., r. Các điều kiện sau là tương đương:
 
@@ -271,7 +271,7 @@ Cho ρ : A → B là một đồng cấu địa phương của các vành địa
 
 (iv) ⇒ (i): gọi t là iđêan của A[T] sinh bởi T. (A[T]/t)-môđun N/tN là phẳng theo giả thiết và N là phân ly theo iđêan đối với t (III, § 5, No. 4, mệnh đề 2). Để chứng minh rằng N phẳng trên A[T], chỉ cần chứng minh, theo định lý 1 của loc. cit., No. 2, rằng A-môđun Tor_1^{A[T]}(A[T]/t, N) bằng không. Nhưng vì dãy T là A[T]-chính quy, môđun này đẳng cấu với H_1(T, N) (A, X, p. 159, nhận xét 3), và môđun này bằng không vì dãy T là N-chính quy (loc. cit., p. 157, mệnh đề 5).
 
-#### Hệ quả {#ac-x-s5-n5-cor-1 .statement}
+#### Hệ quả {#ac-x-s5-n5-cor-1 .statement tag=0D7A}
 
 Cho k là một trường, Λ là một đại số địa phương Noether trên k, x = (x_1, ..., x_r) là một dãy phần tử của m_A, và M là một Λ-môđun sinh hữu hạn. Gọi Ā và Ĝ là các đầy đủ hóa của A và M đối với tôpô $(x_1\bar{A} + ... + x_r\bar{A})$-adic của chúng; gọi u : k[T_1, ..., T_r] → Ā là đồng cấu duy nhất của các đại số trên k sao cho u(T_i) = x_i với i = 1, ..., r, và gọi ū : k[[T_1, ..., T_r]] → Ā là đồng cấu liên tục duy nhất mở rộng nó. Các điều kiện sau là tương đương:
 
@@ -296,7 +296,7 @@ Thực vậy điều kiện (ii) tương đương với nói rằng dãy $(x_1, 
 
 ### 6. Iđêan hoàn toàn cát tuyến và mở rộng các vô hướng
 
-#### Mệnh đề 6 {#ac-x-s5-prop-6 .statement}
+#### Mệnh đề 6 {#ac-x-s5-prop-6 .statement tag=0D7B}
 
 Cho $\rho : A \to B$ là một đồng cấu các vành Noether, và $J$ là một iđêan của $B$. Các điều kiện sau là tương đương:
 
@@ -316,7 +316,7 @@ Theo Định lý 1 của No. 2, điều kiện (i) tương đương với điề
 
 (iii) $\Rightarrow$ (i''): giả sử rằng (iii) được thỏa mãn. Cho $n$ là một iđêan cực đại của $B$ chứa $J$; đặt $m = \rho^{-1}(n)$. Cho $x$ là một dãy các phần tử của $J_n$ mà các ảnh của chúng trong $J_n/nJ_n$ tạo thành một cơ sở của không gian vectơ $\kappa(n)$ này. Dãy $x$ sinh ra $J_n$; theo Mệnh đề 1 của No. 1, nó là $(\kappa(m) \otimes_A B_n)$-chính quy. Vì A-môđun $B_n$ là phẳng theo giả thiết, suy ra từ phép kéo theo (iii) $\Rightarrow$ (iv) của Mệnh đề 5 rằng điều kiện (i'') được thỏa mãn.
 
-#### Nhận xét 1 {#ac-x-s5-n6-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s5-n6-rem-1 .statement tag=0D7C}
 
 Giả sử rằng các điều kiện tương đương của Mệnh đề 6 được thỏa mãn. Vì $B/J$ là phẳng trên $A$, với mọi $A$-đại số $A'$, dãy chính tắc các $A'$-môđun
 $$

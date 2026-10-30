@@ -33,7 +33,7 @@ subsections:
       pdf_page: 171
 statements: 25
 exercises: 36
-content_sha256: 4aac5a26df47505d14ddc0cffc9d8b8e878874159eae5fa4f5dc37e07518736b
+content_sha256: 68f815e99d3d5b310cd22b30f33987c636e9fb11a74b5001e4ac33fe9f55e406
 ---
 
 ## § 4. ESPACES NORMAUX
@@ -44,7 +44,7 @@ L’axiome ($O_{IV}$) des espaces uniformisables (IX, p. 7) peut s’énoncer de
 
 Nous allons maintenant étudier les espaces dans lesquels on peut de la même manière séparer deux ensembles fermés sans point commun *par une fonction continue numérique*; de façon précise:
 
-#### Définition 1 {#top-ix-s4-def-1 .statement}
+#### Définition 1 {#top-ix-s4-def-1 .statement tag=0C5F}
 
 *On dit qu’un espace topologique X est normal s’il est séparé et s’il vérifie l’axiome suivant:*
 
@@ -54,7 +54,7 @@ Il est clair que tout espace normal est complètement régulier; mais il existe 
 
 L’énoncé de l’axiome ($O_V$), comme celui de l’axiome ($O_{IV}$), fait intervenir la droite numérique $\mathbf{R}$ comme ensemble auxiliaire. Mais on peut donner un énoncé équivalent à $(O_v)$, dans lequel n’intervient plus aucun ensemble auxiliaire:
 
-#### Théorème 1 (Urysohn) {#top-ix-s4-thm-1 .statement}
+#### Théorème 1 (Urysohn) {#top-ix-s4-thm-1 .statement tag=0C5G}
 
 — *L’axiome* $(O_v)$ *est équivalent au suivant*:
 $(O'_v)$ *Quels que soient les ensembles fermés sans point commun A et B dans X, il existe deux ensembles ouverts sans point commun U et V tels que A $\subset$ U et B $\subset$ V.
@@ -100,23 +100,23 @@ ce qui établit la relation (1) et achève la démonstration.
 
 Le th. 1 va nous permettre de démontrer que deux catégories importantes d’espaces topologiques sont des espaces normaux. En premier lieu:
 
-#### Proposition 1 {#top-ix-s4-prop-1 .statement}
+#### Proposition 1 {#top-ix-s4-prop-1 .statement tag=0C5H}
 
 *Un espace compact est normal.*
 En effet, un tel espace vérifie l’axiome $(\mathrm{O}'_V)$, d’après la prop. 3 de I, p. 61.
 
 En ce qui concerne les espaces *localement compacts*, tout point d’un tel espace possède un voisinage compact, qui est un sous-espace normal; mais on peut donner des exemples d’espaces localement compacts *non normaux* (cf. exerc. 12 (IX, p. 103), exerc. 8 (IX, p. 85), exerc. 14 (IX, p. 113). Nous verrons plus loin (IX, p. 49, prop. 4) que tout espace *paracompact* est normal.
 
-#### Proposition 2 {#top-ix-s4-prop-2 .statement}
+#### Proposition 2 {#top-ix-s4-prop-2 .statement tag=0C5I}
 
 *Un espace métrisable est normal.*
 Soient $X$ un espace métrisable, $d$ une distance compatible avec la topologie de $X$, $A$ et $B$ deux ensembles fermés sans point commun dans $X$; comme les fonctions $d(x, A)$ et $d(x, B)$ sont continues, l’ensemble $U$ (resp. $V$) des points $x$ tels que $d(x, A) < d(x, B)$ (resp. $d(x, B) < d(x, A)$) est ouvert; il est clair que $A \subset U, B \subset V$ et que $U$ et $V$ ne se rencontrent pas, donc l’axiome $(\mathrm{O}'_V)$ est vérifié.
 
-#### Remarque 1 {#top-ix-s4-n1-rem-1 .statement}
+#### Remarque 1 {#top-ix-s4-n1-rem-1 .statement tag=0C5J}
 
 La prop. 2 donne une nouvelle condition *nécessaire* pour qu’un espace topologique soit métrisable; mais cette condition, même jointe à toutes les conditions nécessaires données au § 2, ne donne pas un système de conditions suffisantes pour qu’un espace topologique soit métrisable (cf. IX, p. 113, exerc. 15).
 
-#### Remarque 2 {#top-ix-s4-n1-rem-2 .statement}
+#### Remarque 2 {#top-ix-s4-n1-rem-2 .statement tag=0C5K}
 
 On peut donner des exemples d’espaces normaux qui ne sont ni métrisables ni localement compacts (voir IX, p. 113, exerc. 15).
 
@@ -130,7 +130,7 @@ Signalons enfin que le produit de deux espaces normaux n’est pas nécessaireme
 
 Soient X et Y deux espaces topologiques, A une partie fermée de X (distincte de X); si f est une application continue de A dans Y, il n’est pas toujours possible de prolonger f en une application continue de X tout entier dans Y. Lorsque Y = \mathbf{R}, la condition de possibilité d’un tel prolongement est donnée par le théorème suivant:
 
-#### Théorème 2 (Urysohn) {#top-ix-s4-thm-2 .statement}
+#### Théorème 2 (Urysohn) {#top-ix-s4-thm-2 .statement tag=0C5L}
 
 L’axiome (O_V) est équivalent à la propriété suivante:
 (O''_V) Quels que soient l’ensemble A fermé dans X, et la fonction numérique (finie ou non) f, définie et continue dans A, il existe un prolongement g de f à l’espace tout entier X, qui est une application continue de X dans \mathbf{R}.
@@ -141,7 +141,7 @@ Montrons inversement que (O_V) entraîne (O''_V); comme \mathbf{R} et l’interv
 
 La définition des g_n repose sur le lemme suivant:
 
-#### Lemme 1 {#top-ix-s4-lem-1 .statement}
+#### Lemme 1 {#top-ix-s4-lem-1 .statement tag=0C5M}
 
 Soit u une application continue de A dans (−1, +1); il existe une application continue v de X dans (−\frac{1}{3}, +\frac{1}{3}), telle que |u(x) − v(x)| ≤ \frac{2}{3} pour tout x ∈ A.
 
@@ -165,7 +165,7 @@ $$
 $$
 ce qui montre la continuité de $g$ au point $x$, et achève la démonstration (cette dernière partie du raisonnement utilise, dans un cas particulier, la notion de convergence uniforme, que nous définirons de manière générale dans X, p. 2).
 
-#### Corollaire {#top-ix-s4-n2-cor-1 .statement}
+#### Corollaire {#top-ix-s4-n2-cor-1 .statement tag=0C5N}
 
 Si $f$ est une fonction numérique finie, définie et continue dans A, il existe une fonction numérique finie $g$, définie et continue dans X, qui prolonge $f$.
 
@@ -173,7 +173,7 @@ Démontrons-le d’abord lorsque $f(x) \geq 0$ dans A; il existe alors un prolon
 
 Pour passer de là au cas général, il suffit de remarquer que, si $f$ est finie et continue dans A, il en est de même de $f^+$ et $f^-$; en prolongeant $f^+$ et $f^-$ à X par des fonctions continues et finies $g_1, g_2$ respectivement, la fonction $g_1 - g_2$ est finie et continue dans X et prolonge $f$.
 
-#### Remarque {#top-ix-s4-n2-rem-1 .statement}
+#### Remarque {#top-ix-s4-n2-rem-1 .statement tag=0C5O}
 
 Si X est un espace normal, A une partie fermée de X, il existe aussi un prolongement, continu dans X, de toute application continue $f$ de A dans un cube
 
@@ -181,7 +181,7 @@ I^L (IX, p. 8); en effet, on a alors $f = (f_\lambda)_{\lambda \in L}$, $f_\lamb
 
 ### 3. Recouvrements ouverts localement finis d’un ensemble fermé et partitions continues de l’unité dans un espace normal
 
-#### Définition 2 {#top-ix-s4-def-2 .statement}
+#### Définition 2 {#top-ix-s4-def-2 .statement tag=0C5R}
 
 Soient $X$ un espace topologique, $f$ une fonction numérique définie dans $X$. On appelle support de $f$ et on note $\operatorname{Supp}(f)$ le plus petit ensemble fermé $S$ dans $X$, tel que $f(x) = 0$ dans $C S$.
 
@@ -189,21 +189,21 @@ En d’autre termes, $\operatorname{Supp}(f)$ est l’adhérence dans $X$ de l�
 
 Soit $(f_i)_{i \in I}$ une famille de fonctions numériques finies définies dans $X$, dont les supports forment une famille localement finie (I, p. 6); alors la somme $\sum_{i \in I} f_i(x)$ est définie pour tout $x \in X$ (puisque elle ne comporte qu’un nombre fini de termes $\neq 0$); on note $\sum_{i \in I} f_i$ et on appelle somme de la famille $(f_i)$ la fonction numérique finie $x \mapsto \sum_{i \in I} f_i(x)$. Si chacune des $f_i$ est continue, il en est de même de $f = \sum_{i \in I} f_i$; en effet, pour tout $x \in X$, il y a un voisinage $V$ de $x$ ne rencontrant qu’un nombre fini de supports des $f_i$, et par suite il y a une partie finie $H$ de $I$ telle que $f(y) = \sum_{i \in H} f_i(y)$ pour tout $y \in V$.
 
-#### Définition 3 {#top-ix-s4-def-3 .statement}
+#### Définition 3 {#top-ix-s4-def-3 .statement tag=0C5S}
 
 Etant donnée une famille $(A_i)_{i \in I}$ de parties d’un espace topologique $X$, on dit qu’une famille $(f_i)_{i \in I}$ de fonctions numériques définies dans $X$ est subordonnée (resp. faiblement subordonnée) à la famille $(A_i)_{i \in I}$ si, pour tout $i \in I$, on a $\operatorname{Supp}(f_i) \subset A_i$ (resp. $f_i(x) = 0$ pour $x \notin A_i$).
 
 Il est clair que si $(f_i)_{i \in I}$ est subordonnée à $(A_i)_{i \in I}$, elle lui est aussi faiblement subordonnée; la réciproque n’est pas nécessairement exacte; si $(f_i)_{i \in I}$ est faiblement subordonnée à $(A_i)_{i \in I}$, on en déduit seulement que $\operatorname{Supp}(f_i) \subset \overline{A}_i$ pour tout $i \in I$ (on notera d’ailleurs que cette relation n’entraîne pas nécessairement $f_i(x) = 0$ pour $x \notin A_i$).
 
-#### Définition 4 {#top-ix-s4-def-4 .statement}
+#### Définition 4 {#top-ix-s4-def-4 .statement tag=0EC5}
 
 On appelle partition continue de l’unité sur un espace topologique $X$ toute famille $(f_i)_{i \in I}$ de fonctions numériques $\geqslant 0$, continues dans $X$, telle que, pour tout $x \in X$, la famille $(f_i(x))_{i \in I}$ soit sommable dans $\mathbf{R}$ et telle que $\sum_{i \in I} f_i(x) = 1$. On dit qu’une partition de l’unité $(f_i)_{i \in I}$ est localement finie si la famille des supports des $f_i$ est localement finie.
 
-#### Proposition 3 {#top-ix-s4-prop-3 .statement}
+#### Proposition 3 {#top-ix-s4-prop-3 .statement tag=0C5T}
 
 Soient $X$ un espace topologique, $(U_i)_{i \in I}$ un recouvrement ouvert de $X$, $(f_i)_{i \in I}$ une partition continue de l’unité sur $X$ faiblement subordonnée à $(U_i)_{i \in I}$. Alors il existe sur $X$ une partition continue localement finie de l’unité, subordonnée à $(U_i)_{i \in I}$.
 
-#### Lemme 2 {#top-ix-s4-lem-2 .statement}
+#### Lemme 2 {#top-ix-s4-lem-2 .statement tag=0C5W}
 
 Pour tout $x \in X$ et tout nombre $a > 0$, il existe un voisinage $V$ de $x$ et une partie finie $J$ de $I$ tels que, pour tout $y \in V$ et tout $i \in I - J$, on ait $f_i(y) < a$.
 
@@ -213,7 +213,7 @@ $$
 $$
 Les $f_i$ étant continues, il existe un voisinage $V$ de $x$ tel que, pour tout $y \in V$, on ait $\sum_{i \in J} f_i(y) > 1 - a$; d’où le lemme.
 
-#### Lemme 3 {#top-ix-s4-lem-3 .statement}
+#### Lemme 3 {#top-ix-s4-lem-3 .statement tag=0C60}
 
 La fonction $\sup_{i \in I} f_i$ est continue dans $X$.
 
@@ -231,19 +231,19 @@ D’autre part, comme $\sum_{i \in I} f_i(z) = 1$ pour tout $z \in X$, on a $\su
 
 Notons enfin qu’avec les mêmes notations, il existe un indice $\lambda \in J$ tel que $\sup_{i \in I} f_i(x) = f_\lambda(x) > 0$, et l’on a $g_\lambda(x) = \frac{1}{2} f_\lambda(x) > 0$; la fonction $h = \sum_{i \in I} g_i$ est donc continue et $> 0$ en tout point de $X$. On en conclut que si l’on pose $h_i = g_i/h$, la famille $(h_i)_{i \in I}$ est une partition de l’unité répondant aux conditions de l’énoncé.
 
-#### Théorème 3 {#top-ix-s4-thm-3 .statement}
+#### Théorème 3 {#top-ix-s4-thm-3 .statement tag=0C5P}
 
 Soit $X$ un espace normal. Pour tout recouvrement ouvert localement fini $(A_i)_{i \in I}$ de $X$, il existe sur $X$ une partition continue de l’unité $(f_i)_{i \in I}$ subordonnée au recouvrement $(A_i)_{i \in I}$ (donc localement finie).
 
 Munissons I d’une structure d’ensemble bien ordonné (E, III, p. 20, th. 1); nous allons définir par récurrence transfinie une famille $(g_i)_{i \in I}$ d’applications continues de $X$ dans $[0, 1]$, telle que: $1^\circ$ Supp$(g_i) \subset A_i$ pour tout $i \in I$; $2^\circ$ si $B_i$ est l’ensemble ouvert des $x \in X$ tels que $g_i(x) > 0$, alors, pour tout $i \in I$, la famille formée des $B_\lambda$ tels que $\lambda \leq i$, et des $A_\lambda$ tels que $\lambda > i$, soit un recouvrement ouvert de $X$. Supposons en effet les $g_i$ définis pour $i < \gamma$, de sorte que les deux propriétés précédentes soient vérifiées pour tout $i < \gamma$, et montrons qu’on peut définir $g_\gamma$ de sorte qu’elles soient aussi vérifiées pour $i = \gamma$. Montrons d’abord que les $B_i$ tels que $i < \gamma$ et les $A_i$ tels que $i \geq \gamma$ forment un recouvrement de $X$. Par hypothèse, pour tout $x \in X$, il n’y a qu’un nombre fini d’indices $\lambda \in I$ tels que $x \in A_\lambda$, soient $\lambda_1 < \lambda_2 < \cdots < \lambda_n$; soit $\lambda_n$ le plus grand des $\lambda_i$ tels que $\lambda_i < \gamma$; si $h < n$, on a $x \in A_{\lambda_n}$ et $\lambda_n \geq \gamma$; si $h = n$, l’hypothèse de récurrence montre que $x$ appartient à un $B_\lambda$ tel que $\lambda \leq \lambda_n < \gamma$, d’où notre assertion. Posons alors $C = (\bigcup_{i < \gamma} B_i) \cup (\bigcup_{i > \gamma} A_i)$; $C$ est ouvert et on a d’après ce qui précède $C \cap A_\gamma \subset C$; en vertu de l’axiome $(O_v)$ des espaces normaux, il existe donc une application continue $g_\gamma$ de $X$ dans $[0, 1]$, telle que $g_\gamma(x) = 0$ dans $C \cap A_\gamma$, et $g_\gamma(x) = 1$ dans $C$. On a par suite Supp$(g_\gamma) \subset A_\gamma$, et d’autre part, l’ensemble $B_\gamma$ des $x$ tels que $g_\gamma(x) > 0$ contient $C$, en d’autres termes, $B_\gamma \cup C = X$. Les $B_i$ tels que $i \leq \gamma$ et les $A_i$ tels que $i > \gamma$ forment donc bien un recouvrement de $X$, ce qui montre que l’on peut poursuivre la récurrence. Cela étant, il est clair que la famille $(B_i)_{i \in I}$ ainsi définie est un recouvrement de $X$ puisque pour tout $x \in X$, il existe un indice $\gamma$ tel que $x \notin A_i$ pour $i > \gamma$. Ce recouvrement étant localement fini, on peut former la fonction continue $g = \sum_{i \in I} g_i$, et par définition des $B_i$, on a $g(x) > 0$ pour tout $x \in X$. Si on pose $f_i(x) = g_i(x)/g(x)$ pour tout $i \in I$ et tout $x \in X$, les $f_i$ forment une partition continue de l’unité subordonnée au recouvrement $(A_i)$.
 
-#### Corollaire 1 {#top-ix-s4-thm-3-cor-1 .statement}
+#### Corollaire 1 {#top-ix-s4-thm-3-cor-1 .statement tag=0EC6}
 
 Sous les hypothèses du th. 3, il existe un recouvrement ouvert $(B_i)_{i \in I}$ de $X$ tel que $B_i \subset A_i$ pour tout $i \in I$.
 
 En effet, les $B_i$ construits dans la preuve du th. 3 répondent à la question puisque $B_i = \operatorname{Supp}(g_i)$.
 
-#### Corollaire 2 {#top-ix-s4-thm-3-cor-2 .statement}
+#### Corollaire 2 {#top-ix-s4-thm-3-cor-2 .statement tag=0EC7}
 
 Quel que soit le recouvrement ouvert localement fini $(A_i)_{i \in I}$ d’un ensemble fermé $F$ dans un espace normal $X$, il existe une famille $(f_i)_{i \in I}$ de fonctions numériques $\geq 0$, définies et continues dans $X$, qui est subordonnée au recouvrement $(A_i)_{i \in I}$, telle que $\sum_{i \in I} f_i(x) = 1$ pour tout $x \in F$ et que $\sum_{i \in I} f_i(x) \leq 1$ pour tout $x \in X$.
 
@@ -253,13 +253,13 @@ En effet, la famille d’ensembles formées des $A_i$ et de $C F$ est un recouvr
 
 Rappelons (I, p. 69) qu’un espace topologique X est dit paracompact s’il est séparé et si pour tout recouvrement ouvert de X il existe un recouvrement ouvert plus fin et localement fini.
 
-#### Proposition 4 {#top-ix-s4-prop-4 .statement}
+#### Proposition 4 {#top-ix-s4-prop-4 .statement tag=0C5V}
 
 Tout espace paracompact est normal.
 
 La proposition résultera du lemme suivant:
 
-#### Lemme 4 {#top-ix-s4-lem-4 .statement}
+#### Lemme 4 {#top-ix-s4-lem-4 .statement tag=0C61}
 
 Soient A, B deux parties fermées sans point commun d’un espace paracompact X. Si, pour tout x ∈ A, il existe un voisinage ouvert V_x de x et un voisinage W_x de B sans point commun, alors il existe un voisinage ouvert T de A et un voisinage ouvert U de B sans point commun.
 
@@ -269,7 +269,7 @@ Pour démontrer le lemme, considérons le recouvrement ouvert de X formé de C A
 
 On peut donner des exemples d’espaces normaux qui ne sont pas paracompacts (IX, p. 107, exerc. 26).
 
-#### Corollaire 1 {#top-ix-s4-lem-4-cor-1 .statement}
+#### Corollaire 1 {#top-ix-s4-lem-4-cor-1 .statement tag=0EC8}
 
 Pour tout recouvrement ouvert (A_i)_{i∈I} d’un espace paracompact X, il existe une partition continue de l’unité (f_i)_{i∈I} sur X, subordonnée au recouvrement (A_i).
 
@@ -283,12 +283,12 @@ $$
 
 ce qui achève de démontrer le corollaire.
 
-#### Corollaire 2 {#top-ix-s4-lem-4-cor-2 .statement}
+#### Corollaire 2 {#top-ix-s4-lem-4-cor-2 .statement tag=0EC9}
 
 *Si F est une partie fermée d’un espace paracompact X, tout voisinage de F dans X contient un voisinage fermé (donc paracompact) de F.*
 Cela résulte de I, p. 69, prop. 16, de IX, p. 49, prop. 4 et de l’axiome $(O''_V)$.
 
-#### Proposition 5 {#top-ix-s4-prop-5 .statement}
+#### Proposition 5 {#top-ix-s4-prop-5 .statement tag=0ECA}
 
 *Soient X un espace localement compact, R une relation d’équivalence ouverte dans X, telle que l’espace quotient $X/R$ soit paracompact (cf. III, p. 35, prop. 13); soit $\pi$ l’application canonique de X sur $X/R$. Il existe une fonction $F \geq 0$ finie et continue dans X telle que :*
 
@@ -307,13 +307,13 @@ est compact.
 
 Le théorème suivant précise la prop. 2 de IX, p. 43.
 
-#### Théorème 4 {#top-ix-s4-thm-4 .statement}
+#### Théorème 4 {#top-ix-s4-thm-4 .statement tag=0C5Z}
 
 Tout espace métrisable est paracompact.
 
 En effet, si X est un espace métrisable, il est séparé. Il suffit de prouver la proposition suivante:
 
-#### Proposition 6 {#top-ix-s4-prop-6 .statement}
+#### Proposition 6 {#top-ix-s4-prop-6 .statement tag=0ECB}
 
 Soient X un espace métrisable, $(U_i)_{i \in I}$ un recouvrement ouvert de X. Il existe une partition continue de l’unité faiblement subordonnée à $(U_i)_{i \in I}$.
 

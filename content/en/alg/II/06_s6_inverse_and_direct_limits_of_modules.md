@@ -26,7 +26,7 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: 27bab3198590cce64f75ebc4ff6e7a2a0ae83125a3e4d0ee80856bdc15900bb4
+content_sha256: 2682c7eae62790237d64df767969f62d7aa7d61ceec717b4af26629c4a2f746a
 ---
 
 ## § 6. INVERSE AND DIRECT LIMITS OF MODULES
@@ -45,7 +45,7 @@ Let $(E'_\alpha, f'_{\alpha\beta})$ be another inverse system of left $A_\alpha$
 
 Moreover:
 
-#### Proposition 1 {#alg-ii-s6-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s6-prop-1 .statement tag=05QX}
 
 *Let* $(E_\alpha, f_{\alpha\beta}),\ (E'_\alpha, f'_{\alpha\beta}),\ (E''_\alpha, f''_{\alpha\beta})$ *be three inverse systems of $A_\alpha$-modules and* $(u_\alpha),\ (v_\alpha)$ *two inverse systems of $A_\alpha$-linear mappings such that the sequences*
 
@@ -63,7 +63,7 @@ $$
 
 *As* $u_\alpha^{-1}(0) = \{0\}$ *for all $\alpha$, it follows from Set Theory, III, § 7, no. 2, Proposition 2 that* $u^{-1}(0) = \{0\}$, *hence* $u$ *is injective; further, the* $u_\alpha(E'_\alpha)$ *form an inverse system of subsets of the* $E_\alpha$ *and thus* $u(\lim E'_\alpha) = \lim u_\alpha(E'_\alpha)$. *As* $u_\alpha(E'_\alpha) = v_\alpha^{-1}(0)$ *by hypothesis,* $v^{-1}(0) = \lim u_\alpha(E'_\alpha) = u(\lim E'_\alpha)$ (*Set Theory*, III, § 7, no. 2, Proposition 2), *which completes the proof*.
 
-#### Remark {#alg-ii-s6-n1-rem-1 .statement}
+#### Remark {#alg-ii-s6-n1-rem-1 .statement tag=05QY}
 
 (1) Proposition 1 and its proof are valid for arbitrary *groups*, except for change of notation.
 
@@ -89,7 +89,7 @@ $$
 
 is a $\mathbf{Z}$-module homomorphism such that $(\operatorname{Hom}_A(F, E_\alpha), \bar{f}_{\alpha \beta})$ is an *inverse system of $\mathbf{Z}$-modules*; as $\bar{f}_{\alpha \beta}(v_\beta) = f_{\alpha \beta} \circ v_\beta$, the above remarks can therefore be expressed as follows:
 
-#### Proposition 2 {#alg-ii-s6-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s6-prop-2 .statement tag=05QZ}
 
 *For every inverse system* $(E_\alpha, f_{\alpha \beta})$ *of $A$*-modules *and every $A$*-module $F$, *the canonical mapping* $u \mapsto (f_\alpha \circ u)$ *is a $\mathbf{Z}$*-module *isomorphism*
 
@@ -99,7 +99,7 @@ $$
 l_F: \operatorname{Hom}_A(F, \lim_{\leftarrow} E_\alpha) \to \lim_{\leftarrow} \operatorname{Hom}_A(F, E_\alpha).
 $$
 
-#### Corollary {#alg-ii-s6-n1-cor-1 .statement}
+#### Corollary {#alg-ii-s6-n1-cor-1 .statement tag=05R0}
 
 *For every $A$*-module homomorphism $v: F \to F'$, the*
 
@@ -141,7 +141,7 @@ Let $(E'_\alpha, f'_{\beta \alpha})$ be another direct system of left $A_\alpha$
 
 Moreover:
 
-#### Proposition 3 {#alg-ii-s6-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s6-prop-3 .statement tag=05R1}
 
 *Let* $(E_\alpha, f_{\beta \alpha}), (E'_\alpha, f'_{\beta \alpha}), (E''_\alpha, f''_{\beta \alpha})$ *be three direct systems of* $A_\alpha$*-modules and* $(u_\alpha), (v_\alpha)$ *two direct systems of* $A_\alpha$*-linear mappings such that the sequences*
 
@@ -161,19 +161,19 @@ $u(\lim \to E'_\alpha) = \lim \to u_\alpha(E'_\alpha)$ *and* $v^{-1}(0) = \lim \
 
 Loosely speaking, Proposition 3 can also be expressed by saying that *passing to the direct limit preserves exactness*.
 
-#### Proposition 4 {#alg-ii-s6-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s6-prop-4 .statement tag=05R2}
 
 *Let* $(E_\alpha, f_{\beta \alpha})$ *be a direct system of* $A_\alpha$*-modules, $E = \lim \to E_\alpha$ *its direct limit and* $\phi_\alpha : A_\alpha \to A$ *and* $f_\alpha : E_\alpha \to E$ *the canonical mappings for all* $\alpha \in I$. *If, for all* $\alpha \in I$, $S_\alpha$ *is a generating system of* $E_\alpha$, *then* $S = \bigcup_{\alpha \in I} f_\alpha(S_\alpha)$ *is a generating system of* $E$.
 
 Every $x \in E$ *is of the form* $f_\alpha(x_\alpha)$ *for some* $\alpha \in I$ *and some* $x_\alpha \in E_\alpha$ *and by hypothesis* $x = \sum_i \lambda^{(i)}_\alpha y^{(i)}_\alpha$, *where* $\lambda^{(i)}_\alpha \in A_\alpha$ *and* $y^{(i)}_\alpha \in S_\alpha$; *writing* $\lambda^{(i)} = \phi_\alpha(\lambda^{(i)}_\alpha)$, $y^{(i)} = f_\alpha(y^{(i)}_\alpha)$, *we obtain* $x = \sum_i \lambda^{(i)} y^{(i)}$.
 
-#### Proposition 5 {#alg-ii-s6-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s6-prop-5 .statement tag=05R3}
 
 *With the hypotheses and notation of Proposition 4, suppose that for all* $\alpha \in I$, $E_\alpha$ *is the direct sum of a family* $(M^\lambda_\alpha)_{\alpha \in L}$ *of submodules (the indexing set* $L$ *being independent of* $\alpha$) *and that* $f_{\beta \alpha}(M^\lambda_\alpha) \subset M^\lambda_\alpha$ *for* $\alpha \leq \beta$ *and for all* $\lambda \in L$. *Then* $E$ *is the direct sum of the submodules* $M^\lambda = \lim \to M^\lambda_\alpha$ $(\lambda \in L)$.
 
 It follows from Proposition 4 that $E$ is the sum of the $M^\lambda$. Let $(y^\lambda)_{\lambda \in L}$ *be a family such that* $y^\lambda \in M^\lambda$ *for all* $\lambda \in L$ *and whose support is finite and suppose that* $\sum_\lambda y^\lambda = 0$. *By virtue of Set Theory, III, § 7, no. 5, Lemma 1, there exist an* $\alpha \in I$ *and a family* $(x^\lambda_\alpha)_{\alpha \in L}$ *of finite support consisting of elements of* $E_\alpha$ *such that* $x^\lambda_\alpha \in M^\lambda_\alpha$ *and* $y^\lambda = f_\alpha(x^\lambda_\alpha)$ *for all* $\lambda \in L$. *The relation* $f_\alpha \left( \sum_{\lambda \in L} x^\lambda_\alpha \right) = 0$ *implies the existence of a* $\beta \geq \alpha$ *such that* $f_{\beta \alpha} \left( \sum_{\lambda \in L} x^\lambda_\alpha \right) = 0$ *(Set Theory, III, § 7, no. 5, Lemma 1), which may be written as $\sum_{\lambda \in L} x_\beta^\lambda = 0$, where $x_\beta^\lambda = f_{\beta \alpha}(x_\alpha^\lambda) \in M_\beta^\lambda$ by hypothesis; hence $x_\beta^\lambda = 0$ for all $\lambda \in L$ and therefore $y^\lambda = f_\beta(x_\beta^\lambda) = 0$ for all $\lambda \in L$, which proves that the sum of the $M^\lambda$ is direct.
 
-#### Corollary {#alg-ii-s6-n2-cor-1 .statement}
+#### Corollary {#alg-ii-s6-n2-cor-1 .statement tag=05R4}
 
 *Let* $(P_\alpha)$ *be a direct system of subsets of* $E_\alpha$ *and let* $P = \lim \overrightarrow{P_\alpha}$. *If, for all* $\alpha \in I$, $P_\alpha$ *is a free subset (resp. basis) of* $E_\alpha$, *then* $P$ *is a free subset (resp. basis) of* $E$.
 
@@ -189,14 +189,14 @@ $$
 $$
 is a $\mathbf{Z}$-module homomorphism such that $(\operatorname{Hom}_A(E_\alpha, F), \bar{f}_{\alpha \beta})$ is an *inverse system of* $\mathbf{Z}$*-modules*; as $\bar{f}_{\alpha \beta}(v_\beta) = v_\beta \circ f_{\beta \alpha}$, the above remarks can be expressed as follows:
 
-#### Proposition 6 {#alg-ii-s6-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s6-prop-6 .statement tag=05R5}
 
 *For every direct system* $(E_\alpha, f_{\beta \alpha})$ *of* $A$*-modules and every* $A$*-module* $F$, *the canonical mapping* $u \mapsto (u \circ f_\alpha)$ *is a* $\mathbf{Z}$*-module isomorphism*
 $$
 d_F : \operatorname{Hom}_A(\lim \overrightarrow{E_\alpha}, F) \to \lim \leftarrow \operatorname{Hom}_A(E_\alpha, F).
 $$
 
-#### Corollary 1 {#alg-ii-s6-prop-6-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s6-prop-6-cor-1 .statement tag=05R6}
 
 *For every* $A$*-module homomorphism* $v : F \to F'$, *the*
 $$
@@ -217,11 +217,11 @@ is commutative.
 
 For all $u \in \operatorname{Hom}(\lim E_\alpha, F)$, $d_{F'}(v \circ u) = (v \circ u \circ f_\alpha)$ by definition and the commutativity of diagram (6) then follows immediately from the definitions.
 
-#### Corollary 2 {#alg-ii-s6-prop-6-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s6-prop-6-cor-2 .statement tag=05R7}
 
 *If* $(E_\alpha, f_{\beta \alpha})$ *is a direct system of left* $A$*-modules and* $E = \lim \longrightarrow E_\alpha$, $(E_\alpha^*, t f_{\beta \alpha})$ *is an inverse system of right* $A$*-modules and* $\lim \leftarrow E_\alpha^*$ *is canonically isomorphic to* $E^*$.
 
-#### Remark {#alg-ii-s6-n2-rem-1 .statement}
+#### Remark {#alg-ii-s6-n2-rem-1 .statement tag=05R8}
 
 Let $E$ be an $A$*-module and* $(M_\alpha)_{\alpha \in I}$ *an increasing family of submodules of* $E$ *such that* $E$ *is the union of the* $M_\alpha$; if $j_{\beta \alpha}: M_\alpha \to M_\beta$ (for $\alpha \leq \beta$) and $j_\alpha: M_\alpha \to E$ *are the canonical injections, it is immediate that* $j = \lim \longrightarrow j_\alpha$ *is an isomorphism of* $\lim \longrightarrow M_\alpha$ *onto* $E$ *(Set Theory, III, § 7, no. 6, Remark 1)*. In particular, every $A$*-module is the direct limit of the right directed family of its *finitely generated* submodules.
 
@@ -258,7 +258,7 @@ $$
 \pi = \lim \pi_\alpha : \lim (E_\alpha \otimes_{A_\alpha} F_\alpha) \to E \otimes_A F.
 $$
 
-#### Proposition 7 {#alg-ii-s6-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s6-prop-7 .statement tag=05R9}
 
 *The $\mathbf{Z}$-linear mapping (7) is bijective.*
 
@@ -289,7 +289,7 @@ and as the elements of the form $f_\alpha(x_\alpha) \otimes g_\alpha(y_\alpha)$ 
 
 Loosely speaking, Proposition 7 may be expressed by saying that *tensor products commute with direct limits* and usually the two sides of (7) are identified by means of the isomorphism $\pi$.
 
-#### Corollary 1 {#alg-ii-s6-prop-7-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s6-prop-7-cor-1 .statement tag=05RA}
 
 *Let* $(E'_\alpha, f'_{\beta \alpha})$ (resp. $(F'_\alpha, g'_{\alpha \beta})$) *be another direct system of right* (resp. *left*) *$A_\alpha$*-*modules; for all* $\alpha \in I$, *let* $u_\alpha : E_\alpha \to E'_\alpha$ (resp. $v_\alpha : F_\alpha \to F'_\alpha$) *be an*
 
@@ -312,13 +312,13 @@ Let $(A'_\alpha, \rho'_{\beta\alpha})$ be another direct system of rings and sup
 
 In particular, if the $A_\alpha$ are *commutative*, $A = \lim A_\alpha$ is commutative and isomorphism (7) is an *A-module isomorphism*.
 
-#### Corollary 2 {#alg-ii-s6-prop-7-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s6-prop-7-cor-2 .statement tag=05RB}
 
 *Let* $(E_\alpha, f_{\beta\alpha})$ *be a direct system of right* $A_\alpha$*-modules and let* $E'_\alpha = E_\alpha \otimes_{A_\alpha} A$ *be the* $A$*-module obtained by extending the ring of scalars to* $A = \lim A_\alpha$ *by means of the canonical homomorphism* $\rho_\alpha : A_\alpha \to A$. *Then* $(E'_\alpha, f_{\beta\alpha} \otimes 1_A)$ *is a direct system of right* $A$*-modules, *whose direct limit is canonically isomorphic to* $\lim E_\alpha$.
 
 It suffices to apply Proposition 7 with $F_\alpha$ the ring $A$ considered as an $(A_\alpha, A)$-bimodule by means of $\rho_\alpha$.
 
-#### Corollary 3 {#alg-ii-s6-prop-7-cor-3 .statement}
+#### Corollary 3 {#alg-ii-s6-prop-7-cor-3 .statement tag=05RC}
 
 *Let* $A$ *be a ring,* $(E_\alpha, f_{\beta\alpha})$ *a direct system of right* $A$*-modules and* $F$ *a left* $A$*-module. *Then the* $\mathbf{Z}$*-modules* $\lim (E_\alpha \otimes_A F)$ *and* $(\lim E_\alpha) \otimes_A F$ *are canonically isomorphic*.
 
@@ -326,7 +326,7 @@ It suffices to take $A_\alpha = A$ and $F_\alpha = F$ for all $\alpha \in I$ in 
 
 In particular, if $\rho : A \to B$ is a ring homomorphism, $\lim \rho^*(E_\alpha)$ and $\rho^*(\lim E_\alpha)$ are canonically isomorphic.
 
-#### Corollary 4 {#alg-ii-s6-prop-7-cor-4 .statement}
+#### Corollary 4 {#alg-ii-s6-prop-7-cor-4 .statement tag=05RD}
 
 *Let* $M$ *be a right* $A$*-module, $N$ *a left* $A$*-module, $(x_i)_{1 \leq i \leq n}$ *a family of elements of* $M$, $(y_i)_{1 \leq i \leq n}$ *a family of elements of* $N$, *such that* $\sum_i (x_i \otimes y_i) = 0$ *in* $M \otimes_A N$. *Then there exists a finitely generated submodule* $M_1$ *(resp. $N_1$) of* $M$ *(resp. $N$) containing the* $x_i$ *(resp. the* $y_i$) *and such that* $\sum_i (x_i \otimes y_i) = 0$ *in* $M_1 \otimes_A N_1$.
 

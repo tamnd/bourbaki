@@ -57,7 +57,7 @@ subsections:
       pdf_page: 63
 statements: 42
 exercises: 16
-content_sha256: 57be0eaa28a7228b512647c8ada0f01367773aa3b131a7c3cd8b6c47396ffeed
+content_sha256: 1237f4b64a8ff9b0d904b4bdf7bfe3c8d6c36b6221c3b113cb79849032622bef
 ---
 
 ## § 5. TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES
@@ -85,7 +85,7 @@ $$
 $^1$ On a noté $A[H]$ l’algèbre du groupe H (III, p. 19).
 $^2$ On prendra garde de ne pas confondre cette notation avec celle qu’on a introduite dans l’étude des produits d’ensembles (E, II, p. 31).
 
-#### Définition 1 {#alg-iv-s5-def-1 .statement}
+#### Définition 1 {#alg-iv-s5-def-1 .statement tag=06CT}
 
 Si G est d’indice fini dans H, on note Tr_{H/G} l’application de M^G dans M^H définie par :
 
@@ -93,7 +93,7 @@ Si G est d’indice fini dans H, on note Tr_{H/G} l’application de M^G dans M^
 
 Cette application est un homomorphisme du A-module M^G dans le A-module M^H.
 
-#### Proposition 1 {#alg-iv-s5-prop-1 .statement}
+#### Proposition 1 {#alg-iv-s5-prop-1 .statement tag=06CU}
 
 (i) Soient m \in M^G et h \in H. Alors hm \in M^{hGh^{-1}} et
 
@@ -153,7 +153,7 @@ $$
 zz' = \sum_{\sigma \in S_{p,q}} \sigma(z \otimes z')
 $$
 
-#### Proposition 2 {#alg-iv-s5-prop-2 .statement}
+#### Proposition 2 {#alg-iv-s5-prop-2 .statement tag=06CV}
 
 (i) *La A-algèbre $TS(M)$ est associative, commutative et unifère.*
 
@@ -251,11 +251,11 @@ x_1 = x_2 = \cdots = x_k = x,
 $$
 est un élément de $\mathbf{TS}^k(M)$.
 
-#### Définition 2 {#alg-iv-s5-def-2 .statement}
+#### Définition 2 {#alg-iv-s5-def-2 .statement tag=06CW}
 
 Si $x \in \mathbf{M}$, l’élément $x \otimes x \otimes \ldots \otimes x$ de $\mathbf{TS}^k(\mathbf{M})$ se note $\gamma_k(x)$.
 
-#### Proposition 3 {#alg-iv-s5-prop-3 .statement}
+#### Proposition 3 {#alg-iv-s5-prop-3 .statement tag=06CX}
 
 (i) Si $x \in \mathbf{M}$, la puissance $p$-ième de $x$ calculée dans $\mathbf{TS}(\mathbf{M})$ est égale à $p! \; \gamma_p(x)$.
 (ii) Soient $x_1, \ldots, x_n \in \mathbf{M}$. On a
@@ -320,7 +320,7 @@ Dans (iii), faisons $n = 2,\ x_1 = x_2 = x,\ p_1 = q$ et $p_2 = r$. On obtient (
 
 Enfin, (v) résulte de la prop. 2, (ii), et de la prop. 2 de I, p. 95, appliquée aux éléments $x_i$ de l’anneau $\mathbf{T}(M)$.
 
-#### Remarque 1 {#alg-iv-s5-n4-rem-1 .statement}
+#### Remarque 1 {#alg-iv-s5-n4-rem-1 .statement tag=06CY}
 
 Soit $(x_i)_{i \in I}$ une famille d’éléments de M. Pour tout $\nu \in \mathbf{N}^{(I)}$, posons
 
@@ -334,7 +334,7 @@ $$
 \gamma_p \left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{\nu \in \mathbf{N}^{(I)}, |\nu| = p} \lambda^\nu x_\nu .
 $$
 
-#### Remarque 2 {#alg-iv-s5-n4-rem-2 .statement}
+#### Remarque 2 {#alg-iv-s5-n4-rem-2 .statement tag=06CZ}
 
 Soit $\mathscr{M}$ l’ensemble des applications de $[1, p]$ dans I. On définit une application $\rho \mapsto \rho^*$ de $\mathscr{M}$ dans $\mathbf{N}^{(I)}$ en posant
 
@@ -350,14 +350,14 @@ $$
 
 ### 5. Tenseurs symétriques sur un module libre
 
-#### Proposition 4 {#alg-iv-s5-prop-4 .statement}
+#### Proposition 4 {#alg-iv-s5-prop-4 .statement tag=06D0}
 
 Supposons $M$ libre, et soit $(e_i)_{i \in I}$ une base de $M$.
 (i) Pour $\nu \in \mathbf{N}^{(I)}$, soit $e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i)$. Alors $(e_\nu)_{\nu \in \mathbf{N}^{(I)}}$ est une base du $\mathbf{A}$-module $\mathbf{TS}(M)$. En particulier, l’algèbre $\mathbf{TS}(M)$ est engendrée par la famille des éléments $\gamma_k(x)$ pour $k \in \mathbf{N}$ et $x \in M$.
 (ii) Pour tout $p \in \mathbf{N}$, $\mathbf{TS}^p(M)$ est facteur direct dans le $\mathbf{A}$-module $\mathbf{T}^p(M)$.
 Utilisons les notations de la remarque 2 ci-dessus. La famille $(e_{\rho(1)} \otimes \ldots \otimes e_{\rho(p)})_{\rho \in \mathscr{M}}$ est une base de $\mathbf{T}^p(M)$. Alors la prop. 4 résulte de la formule (7) et du lemme suivant, appliqué avec $H = \mathfrak{S}_p$ et $U = \mathbf{T}^p(M)$ :
 
-#### Lemme 1 {#alg-iv-s5-lem-1 .statement}
+#### Lemme 1 {#alg-iv-s5-lem-1 .statement tag=06D1}
 
 Soient $H$ un groupe fini, $U$ un $\mathbf{A}[H]$-module à gauche. On suppose que le $\mathbf{A}$-module $U$ possède une base $B$ stable pour les opérations de $H$ dans $U$. Soit $\Omega = B/H$.
 Pour tout $\omega \in \Omega$, soit $u_\omega = \sum_{b \in \omega} b$. Alors
@@ -367,7 +367,7 @@ Pour tout $\omega \in \Omega$, soit $u_\omega = \sum_{b \in \omega} b$. Alors
 
 La réunion de l’ensemble des $u_\omega$ (pour $\omega \in \Omega$) et de $B'$ est une base de $U$. Si $U' = \sum_{\omega \in \Omega} Au_\omega$ et $U'' = \sum_{b \in B'} Ab$, on a donc $U = U' \oplus U''$. D’autre part, on a $u_\omega \in U^H$ pour tout $\omega \in \Omega$, donc $U' \subset U^H$. Enfin, soit $(\alpha_b)_{b \in B}$ une famille d’éléments de $A$ à support fini et soit $x = \sum_{b \in B} \alpha_b b$. Si $x \in U^H$, on a $\alpha_{hb} = \alpha_b$ pour tout $b \in B$ et tout $h \in H$, donc $x \in U'$. Par suite, $U' = U^H$.
 
-#### Proposition 5 {#alg-iv-s5-prop-5 .statement}
+#### Proposition 5 {#alg-iv-s5-prop-5 .statement tag=06D2}
 
 Soient $M$ un $A$-module libre, $k$ un entier $\geqslant 0$, $P$ le sous-$A$-module de $TS^k(M)$ engendré par $\gamma_k(M)$. On suppose $A$ intègre et infini. Pour tout $z \in TS^k(M)$, il existe $\alpha \in A - \{0\}$ tel que $\alpha z \in P$.
 
@@ -433,7 +433,7 @@ TS(u)\ (h(z)) = TS(u) \circ TS(i_\lambda)\ (z) = TS(u \circ i_\lambda)\ (z) = TS
 = TS(j_\lambda) \circ TS(u_\lambda)\ (z) = h'(TS(u_\lambda)\ (z))
 $$
 
-#### Proposition 6 {#alg-iv-s5-prop-6 .statement}
+#### Proposition 6 {#alg-iv-s5-prop-6 .statement tag=06D3}
 
 *Soit M un A-module somme directe d’une famille $(M_\lambda)_{\lambda \in L}$ de sous-modules. Si chaque $M_\lambda$ est un module libre, l’homomorphisme canonique de $\bigotimes_{\lambda \in L} TS(M_\lambda)$ dans $TS(M)$ est un isomorphisme.*
 
@@ -448,7 +448,7 @@ où $\nu_\lambda \in \mathbf{N}^{(I_\lambda)}$, et où $\nu_\lambda = 0$ sauf po
 
 Dans les conditions de la prop. 6, l’isomorphisme réciproque $\mathbf{TS}(M) \to \bigotimes_{\lambda} \mathbf{TS}(M_{\lambda})$ est encore dit *canonique*. On identifie souvent $\mathbf{TS}(M)$ à $\bigotimes_{\lambda} \mathbf{TS}(M_{\lambda})$ grâce à cet isomorphisme. On prendra garde que, si $z \in \mathbf{TS}(M_{\lambda})$ et $z' \in \mathbf{TS}(M_{\mu})$ avec $\lambda \neq \mu$, l’élément de $\mathbf{TS}(M)$ qu’on est alors amené à noter $z \otimes z'$ n’est pas le produit tensoriel de $z$ et $z'$ dans $\mathbf{T}(M)$ mais le produit symétrique de $z$ et $z'$.
 
-#### Proposition 7 {#alg-iv-s5-prop-7 .statement}
+#### Proposition 7 {#alg-iv-s5-prop-7 .statement tag=06D4}
 
 *Soient M un A-module, u l’application* $(x, y) \mapsto x + y$ *de* $M \oplus M$ *dans* $M$, *et f l’application composée*
 
@@ -498,13 +498,13 @@ $$
 
 Cela résulte de (10) puisque $c$ est un homomorphisme d’algèbres.
 
-#### Proposition 8 {#alg-iv-s5-prop-8 .statement}
+#### Proposition 8 {#alg-iv-s5-prop-8 .statement tag=06D5}
 
 *Soit M un A-module libre. Pour ses structures d’algèbre et de cogèbre, TS(M) est une bigèbre graduée commutative et cocommutative. La coïunité est l’application A-linéaire $\varepsilon : TS(M) \to TS^0(M) = A$ nulle sur $TS^p(M)$ pour $p > 0$, et telle que $\varepsilon(1) = 1$.
 
 On sait que la A-algèbre $TS(M)$ est associative, commutative et unifère. D’autre part, le coproduit est par construction un homomorphisme d’algèbres graduées. Le fait que la cogèbre $TS(M)$ est coassociative et cocommutative résulte par un calcul facile de la formule (10). L’application $\varepsilon$ de $TS(M)$ dans $A$ est un homomorphisme d’algèbres graduées tel que $\varepsilon(1) = 1$. Enfin, pour tout $x \in M$, on a $\varepsilon(\gamma_p(x)) = 0$ si $p > 0$, $\varepsilon(\gamma_0(x)) = 1$; cela montre, compte tenu de (10), que l’on a $(\varepsilon \otimes 1) \circ c = (1 \otimes \varepsilon) \circ c = \mathrm{Id}_{TS(M)}$; ainsi, $\varepsilon$ est la coïunité de $TS(M)$.
 
-#### Proposition 9 {#alg-iv-s5-prop-9 .statement}
+#### Proposition 9 {#alg-iv-s5-prop-9 .statement tag=06D6}
 
 *Soient M et N des A-modules libres, u un A-homomorphisme de M dans N. Alors TS(u) est un homomorphisme de bigèbres.
 
@@ -520,7 +520,7 @@ $$
 
 où $\sigma$ et $\tau$ sont les isomorphismes canoniques, est commutatif (IV, p. 46). Donc $c_N \circ TS(u) = (TS(u) \otimes TS(u)) \circ c_M$.
 
-#### Proposition 10 {#alg-iv-s5-prop-10 .statement}
+#### Proposition 10 {#alg-iv-s5-prop-10 .statement tag=06D7}
 
 *Soit M un A-module libre. Les éléments primitifs (III, p. 164) de la bigèbre TS(M) sont les éléments de M.
 
@@ -596,7 +596,7 @@ $$
 
 où $f$ et $g$ sont les homomorphismes canoniques, est commutatif. En effet, $g \circ \otimes \varphi_{M_\lambda}$ et $\varphi_M \circ f$ sont des homomorphismes d’algèbres qui, pour tout $\lambda$, coïncident sur $M_\lambda$.
 
-#### Proposition 11 {#alg-iv-s5-prop-11 .statement}
+#### Proposition 11 {#alg-iv-s5-prop-11 .statement tag=06D8}
 
 *Si M est libre, $\varphi_M$ est un morphisme de bigèbres graduées.*
 En utilisant la commutativité des diagrammes (13) et (14), on obtient le diagramme commutatif
@@ -611,7 +611,7 @@ $$
 
 où $\Delta$ est l’homomorphisme diagonal, et où $h, k$ sont les isomorphismes canoniques. La proposition résulte de là.
 
-#### Proposition 12 {#alg-iv-s5-prop-12 .statement}
+#### Proposition 12 {#alg-iv-s5-prop-12 .statement tag=06D9}
 
 (i) *Si $u \in S^n(M)$, on a $\psi_M(\varphi_M(u)) = n!u$.*
 (ii) *Si $v \in TS^n(M)$, on a $\varphi_M(\psi_M(v)) = n!v$.*
@@ -628,18 +628,18 @@ $$
 \varphi_M(\psi_M(v)) = \sum_{i=1}^p s(x_1^i \otimes x_2^i \otimes ... \otimes x_n^i) = s(v) = n!v.
 $$
 
-#### Corollaire 1 {#alg-iv-s5-prop-12-cor-1 .statement}
+#### Corollaire 1 {#alg-iv-s5-prop-12-cor-1 .statement tag=06DA}
 
 *Si A est une Q-algèbre, l’homomorphisme canonique de $S(M)$* dans $\mathbf{TS}(M)$ est un isomorphisme d’algèbres. Si de plus $M$ est libre, c’est un isomorphisme de bigèbres graduées.
 
-#### Corollaire 2 {#alg-iv-s5-prop-12-cor-2 .statement}
+#### Corollaire 2 {#alg-iv-s5-prop-12-cor-2 .statement tag=06DB}
 
 Si $A$ est une $\mathbf{Q}$-algèbre, le module $\mathbf{TS}^n(M)$ est engendré par les puissances $n$-ièmes des éléments de $M$ dans $\mathbf{TS}(M)$.
 Cela résulte du cor. 1 et de la propriété analogue de $\mathbf{S}(M)$ (III, p. 68).
 
 ### 9. Applications polynomiales homogènes
 
-#### Proposition 13 {#alg-iv-s5-prop-13 .statement}
+#### Proposition 13 {#alg-iv-s5-prop-13 .statement tag=06DC}
 
 Soient $M$ et $N$ des $A$-modules, $q$ un entier $\geqslant 0$, $f$ une application de $M$ dans $N$. On suppose $M$ libre. Les conditions suivantes sont équivalentes :
 (i) Il existe une application $q$-linéaire $g$ de $M^q$ dans $N$ telle que $f(x) = g(x, x, ..., x)$ pour tout $x \in M$.
@@ -679,7 +679,7 @@ $$
 f(x) = f(\sum_i \lambda_i e_i) = \sum_{|\nu|=q} \lambda^\nu u_\nu = h(\sum_{|\nu|=q} \lambda^\nu e_\nu) = h(\gamma_q(x)) .
 $$
 
-#### Définition 3 {#alg-iv-s5-def-3 .statement}
+#### Définition 3 {#alg-iv-s5-def-3 .statement tag=06DD}
 
 Soient $M$ et $N$ des $A$-modules, $q$ un entier $\geqslant 0$. On suppose $M$ libre. On note $\mathrm{Pol}_A^q(M, N)$ ou simplement $\mathrm{Pol}^q(M, N)$ l’ensemble des applications de $M$ dans $N$ vérifiant les conditions de la prop. 13. Les éléments de $\mathrm{Pol}^q(M, N)$ s’appellent les applications polynomiales homogènes de degré $q$ de $M$ dans $N$.
 
@@ -693,31 +693,31 @@ $$
 $$
 Ces homomorphismes sont dits canoniques. Ils sont surjectifs.
 
-#### Exemple 1 {#alg-iv-s5-n9-exa-1 .statement}
+#### Exemple 1 {#alg-iv-s5-n9-exa-1 .statement tag=06DE}
 
 Les applications polynomiales homogènes de degré 1 de $M$ dans $N$ sont les applications $A$-linéaires de $M$ dans $N$.
 
-#### Exemple 2 {#alg-iv-s5-n9-exa-2 .statement}
+#### Exemple 2 {#alg-iv-s5-n9-exa-2 .statement tag=06DF}
 
 Soient $(N_i)_{i \in I}$ une famille de $A$-modules, $f_i$ une application de $M$ dans $N_i$, $i \in I$, et $f : M \to \prod_{i \in I} N_i$ l’application de composantes $f_i$. Pour que $f$ soit polynomiale homogène de degré $q$, il faut et il suffit que chaque $f_i$ soit polynomiale homogène de degré $q$.
 
-#### Exemple 3 {#alg-iv-s5-n9-exa-3 .statement}
+#### Exemple 3 {#alg-iv-s5-n9-exa-3 .statement tag=06DG}
 
 Soient $(M_j)_{j \in J}$ une famille finie de $A$-modules libres et $u : \prod_{j \in J} M_j \to N$ une application multilinéaire. Alors $u$ est polynomiale de degré $\mathrm{Card}(J)$.
 
-#### Exemple 4 {#alg-iv-s5-n9-exa-4 .statement}
+#### Exemple 4 {#alg-iv-s5-n9-exa-4 .statement tag=06DH}
 
 Soient $(X_i)_{i \in I}$ une famille d’indéterminées, $N$ un $A$-module, et $u \in N[(X_i)_{i \in I}]$ un polynôme homogène de degré $q$. L’application $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ de $A^{(I)}$ dans $N$ est une application polynomiale homogène de degré $q$ : cela se voit aussitôt sur la condition (iii) de la prop. 13. Si $I$ est fini, toute application polynomiale homogène de degré $q$ de $A^{(I)} = A^I$ dans $N$ est de cette forme.
 
-#### Exemple 5 {#alg-iv-s5-n9-exa-5 .statement}
+#### Exemple 5 {#alg-iv-s5-n9-exa-5 .statement tag=06DI}
 
 L’application $(x_i)_{i \in \mathbf{N}} \mapsto x_0^2 + x_1^2 + \cdots + x_n^2 + \cdots$ de $A^{(\mathbf{N})}$ dans $A$ est une application polynomiale homogène de degré 2. Si $A = \mathbf{Z}/2\mathbf{Z}$, elle coïncide avec la forme linéaire $(x_i)_{i \in \mathbf{N}} \mapsto x_1 + x_2 + \cdots + x_n + \cdots$.
 
-#### Exemple 6 {#alg-iv-s5-n9-exa-6 .statement}
+#### Exemple 6 {#alg-iv-s5-n9-exa-6 .statement tag=06DJ}
 
 Soit $f \in \mathrm{Pol}_A^q(M, N)$. Soient $B$ un anneau commutatif, $\rho$ un homomorphisme de B dans A, M' et N' les B-modules déduits de M et N grâce à ρ. Supposons M' libre. Alors f ∈ Pol_B^q(M', N') : cela se voit aussitôt sur la condition (i) de la prop. 13.
 
-#### Proposition 14 {#alg-iv-s5-prop-14 .statement}
+#### Proposition 14 {#alg-iv-s5-prop-14 .statement tag=06DK}
 
 Soient M, N, P des A-modules, q et r des entiers ≥ 0. On suppose M et N libres. Soient f ∈ Pol^q(M, N), f' ∈ Pol^r(N, P). Alors f' ∘ f ∈ Pol^{qr}(M, P).
 
@@ -738,7 +738,7 @@ $$
 
 et l’application (x_1, ..., x_{qr}) ↦ g'(g(x_1, ..., x_q), ..., g(x_{q(r-1)+1}, ..., x_{qr})) de M^{qr} dans P est qr-linéaire.
 
-#### Proposition 15 {#alg-iv-s5-prop-15 .statement}
+#### Proposition 15 {#alg-iv-s5-prop-15 .statement tag=06DL}
 
 Soient M un A-module libre, N un A-module, q un entier ≥ 0. On suppose que l’application y ↦ q !y est un automorphisme de N. Soit f ∈ Pol^q(M, N). Il existe une application q-linéaire symétrique h et une seule de M^q dans N telle que f(x) = h(x, x, ..., x) pour tout x ∈ M. Quels que soient x_1, ..., x_q ∈ M, on a
 
@@ -769,7 +769,7 @@ $$
 
 Cela prouve la formule (16) et l’unicité de h.
 
-#### Proposition 16 {#alg-iv-s5-prop-16 .statement}
+#### Proposition 16 {#alg-iv-s5-prop-16 .statement tag=06DM}
 
 Soient M un A-module libre, N un A-module, q un entier positif, u l’homomorphisme canonique de Hom(TS^q(M), N) dans Pol^q(M, N).
 
@@ -783,13 +783,13 @@ Supposons A intègre et infini et N sans torsion. Pour tout z ∈ TS^q(M), il ex
 
 Supposons que l’application y ↦ q!y dans N soit injective. D’après IV, p. 43, prop. 3, (v), f est nulle sur s.T^q(M). Donc, si z ∈ TS^q(M), on a q!f(z) = f(sz) = 0 et par suite f(z) = 0.
 
-#### Corollaire {#alg-iv-s5-n9-cor-1 .statement}
+#### Corollaire {#alg-iv-s5-n9-cor-1 .statement tag=06DN}
 
 Soient M un A-module libre, N un A-module, q un entier positif, h ∈ Pol^q(M, N), (e_i)_{i∈I} une base de M. Dans les deux cas de la prop. 16, il existe une unique famille (u_\nu)_{v∈\mathbf{N}^{(I)},|\nu|=q} d’éléments de N tels que h(\sum_{i∈I} λ_i e_i) = \sum_{|\nu|=q} λ^\nu u_\nu pour tout (λ_i) ∈ A^{(I)}.
 
 ### 10. Applications polynomiales
 
-#### Définition 4 {#alg-iv-s5-def-4 .statement}
+#### Définition 4 {#alg-iv-s5-def-4 .statement tag=06DO}
 
 Soient M et N deux A-modules. On suppose que M est libre. Soit Ap(M, N) le A-module des applications de M dans N. Le sous-module $\sum_{q\geq0} \mathrm{Pol}_A^q(M, N)$ de Ap(M, N) se note Pol_A(M, N), ou simplement Pol(M, N); ses éléments s’appellent les applications polynomiales de M dans N.
 
@@ -799,13 +799,13 @@ $$ f(\sum_{i\in I} x_i e_i) = F(x) $$
 
 pour toute famille x = (x_i)_{i∈I} dans A^{(I)}. Cette propriété est indépendante de la base choisie de M et justifie la terminologie « application polynomiale ».
 
-#### Proposition 17 {#alg-iv-s5-prop-17 .statement}
+#### Proposition 17 {#alg-iv-s5-prop-17 .statement tag=06DP}
 
 Soient M un A-module libre et B une A-algèbre associative, commutative et unifière. Alors Pol_A(M, B) est une sous-B-algèbre de l’algèbre Ap(M, B).
 
 Cela résulte de la déf. 4 et de la prop. 13, (iv) (IV, p. 51).
 
-#### Proposition 18 {#alg-iv-s5-prop-18 .statement}
+#### Proposition 18 {#alg-iv-s5-prop-18 .statement tag=06DQ}
 
 Soient M, N, P des A-modules. On suppose M et N libres. Soient f ∈ Pol(M, N), g ∈ Pol(N, P). Alors g ∘ f ∈ Pol(M, P).
 
@@ -823,7 +823,7 @@ $$
 
 d’où notre assertion.
 
-#### Lemme 2 {#alg-iv-s5-lem-2 .statement}
+#### Lemme 2 {#alg-iv-s5-lem-2 .statement tag=06DR}
 
 *Soient N un A-module, n un entier $\geqslant 0$, et*
 
@@ -842,7 +842,7 @@ $$
 
 où $g$ est un élément de $N[X]$ de la forme $m'_0 + m'_1 X + \cdots + m'_{n-1} X^{n-1}$. Les hypothèses du lemme entraînent que $g(\alpha_1) = \cdots = g(\alpha_n) = 0$, donc $g = 0$ d’après l’hypothèse de récurrence, d’où $f = 0$.
 
-#### Proposition 19 {#alg-iv-s5-prop-19 .statement}
+#### Proposition 19 {#alg-iv-s5-prop-19 .statement tag=06DS}
 
 *Soient M un A-module libre, N un A-module, G un sous-groupe additif infini de A. On suppose que les homothéties de N définies par les éléments non nuls de G sont injectives. Alors $\mathrm{Pol}(M, N)$ est somme directe des $\mathrm{Pol}^q(M, N)$.*
 
@@ -858,7 +858,7 @@ $$
 f_0(x) = \cdots = f_n(x) = 0.
 $$
 
-#### Corollaire {#alg-iv-s5-n10-cor-1 .statement}
+#### Corollaire {#alg-iv-s5-n10-cor-1 .statement tag=06DT}
 
 *On suppose A intègre infini. Soient M un A-module libre, N un A-module sans torsion.*
 (i) *On a $\mathrm{Pol}(M, N) = \bigoplus_{q \geqslant 0} \mathrm{Pol}^q(M, N)$, et chaque $\mathrm{Pol}^q(M, N)$ s’identifie canoniquement à $\mathrm{Hom}(\mathbf{T S}^q(M), N)$.*
@@ -876,7 +876,7 @@ $$
 
 induisant en degré 1 l’application identique de $M^*$.
 
-#### Proposition 20 {#alg-iv-s5-prop-20 .statement}
+#### Proposition 20 {#alg-iv-s5-prop-20 .statement tag=06DU}
 
 Si le A-module M est libre de type fini, $\theta$ est un isomorphisme d’algèbres graduées.
 
@@ -894,11 +894,11 @@ $$
 
 ou encore que, pour $\rho, \sigma \in \mathbf{N}^I$, on a $e_\rho^*.e_\sigma^* = e_{\rho+\sigma}^*$; mais cette dernière assertion résulte de IV, p. 48, formule (12).
 
-#### Remarque 1 {#alg-iv-s5-n11-rem-1 .statement}
+#### Remarque 1 {#alg-iv-s5-n11-rem-1 .statement tag=06DV}
 
 On voit de même que, si M est un A-module libre de type fini, l’algèbre graduée $S(M)^{*gr}$ introduite en III, p. 150, s’identifie à $TS(M^*)$.
 
-#### Proposition 21 {#alg-iv-s5-prop-21 .statement}
+#### Proposition 21 {#alg-iv-s5-prop-21 .statement tag=06DW}
 
 L’homomorphisme canonique de A-modules (IV, p. 52)
 
@@ -921,7 +921,7 @@ d’où la proposition.
 
 $^1$ On considère ici qu’un homomorphisme gradué de degré – k de $TS(M)$ dans A est un élément de degré k de $TS(M)^{*gr}$ (II, p. 176).
 
-#### Remarque 2 {#alg-iv-s5-n11-rem-2 .statement}
+#### Remarque 2 {#alg-iv-s5-n11-rem-2 .statement tag=06DX}
 
 L’homomorphisme composé $\lambda_M = u \circ \theta : S(M^*) \to \mathrm{Pol}_A(M, A)$ est l’unique homomorphisme unifère d’algèbres induisant l’inclusion de
 $$
@@ -929,7 +929,7 @@ M^* = \mathrm{Pol}^1(M, A)
 $$
 dans $\mathrm{Pol}(M, A)$. Si $M$ est libre de type fini et $A$ intègre infini, alors $\lambda_M$ est bijectif (prop. 20 et cor. de la prop. 19). En particulier, si $A$ est intègre infini, l’homomorphisme canonique $f \mapsto \tilde{f}$ de $A[X_1, ..., X_n]$ dans $\mathrm{Pol}(A^n, A)$ (IV, p. 4) est un isomorphisme.
 
-#### Remarque 3 {#alg-iv-s5-n11-rem-3 .statement}
+#### Remarque 3 {#alg-iv-s5-n11-rem-3 .statement tag=0DHK}
 
 Considérons le coproduit $c_S : S(M^*) \to S(M^* \times M^*)$ (III, p. 139, Exemple 6). Quels que soient $v \in S(M^*)$, $x, y \in M$, l’application polynomiale $\lambda_{M \times M}(c_S(v)) : M \times M \to A$ applique $(x, y)$ sur $\lambda_M(v)(x + y)$. En effet, les deux homomorphismes d’algèbres de $S(M^*)$ dans $\mathrm{Ap}(M \times M, A)$ ainsi définis coïncident sur $M^*$, en vertu de la relation
 $$

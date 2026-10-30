@@ -28,11 +28,11 @@ subsections:
       pdf_page: 124
 statements: 2
 exercises: 0
-content_sha256: e3c377f68c06b091929ac36db234b8f79caaef31ed09f6a129b1ece0caf8c8f1
+content_sha256: 25938aac563f911f978e94fdda63adf1bb52858eca83eacb96703550a3d6ab7e
 translated_from: content/fr/var/2/09_s9_equations_differentielles_et.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: a65d2285e0ec3b5e8e51427bcedc796fffee8d546e725662827c97e254fda4a1
+source_content_sha256: 7ca23343277d613eaee785ee87e0424375f5fb98366998020ab0999c2b8c09ce
 translation_model: gpt-5-6
 translation_run: translate-en-mt-f70be58f
 glossary_version: 34
@@ -191,7 +191,7 @@ b) For every $x \in X$, there exists a submanifold $S_x$ of X possessing the fol
 
 Suppose these conditions are satisfied and let $R \{x, y\}$ be the relation on X “x and y belong to the same connected leaf”; then R is a regular equivalence relation (5.9.5) on X, and, if p denotes the canonical projection $X \to X/R$, one has $Y = X_p$.
 
-#### Example {#var-2-s9-n2-exa-1 .statement}
+#### Example {#var-2-s9-n2-exa-1 .statement tag=0EEH}
 
 Let $K = R$ and $X = R^2$. Let the discrete group $\Gamma = Z^2$ operate on X by translations. Let $m \in R$ and let $(X, Y_m)$ be the foliation defined by the submersion $p : (x_1, x_2) \mapsto x_2 - mx_1$ of X onto R. Put $X' = X/\Gamma$ and $Y'_m = Y_m/\Gamma$; then $Y'_m$ is a foliation of the torus $X'$ (cf. 9.2.4, example d)). If m is rational, there exists a submersion $p'$ of $X'$ onto $R/Z$ such that $Y'_m = X'_{p'}$. If m is irrational, every maximal connected leaf of $(X', Y'_m)$ is dense in $X'$, and there does not exist a submersion $p'$ of $X'$ into a manifold S such that $Y'_m = X'_{p'}$.
 
@@ -215,7 +215,7 @@ Let $x \in X$. If $Z_1$ and $Z_2$ are two integral submanifolds of X containing 
 
 9.3.2. We say that F is integrable if there exists a foliation Y of X of class $C^s$ such that $F = T(X, Y)$ (9.2.8). Such a foliation is then unique; it is called the integral foliation of F. In order that a morphism $f : V \to X$ of class $C^s$ be an integral of F, it is necessary and sufficient that $f$ be a morphism of V into Y.
 
-#### Example {#var-2-s9-n3-exa-1 .statement}
+#### Example {#var-2-s9-n3-exa-1 .statement tag=0EEI}
 
 If F has rank 1 at every point, F is integrable, and defines on X a pure foliation of dimension 1. Suppose in addition that $K = \mathbf{R}$, that X is separated, and that F has as a frame a vector field $\xi$ everywhere nonzero. Then, for every $x \in X$, the maximal connected leaf containing $x$ is the image of the maximal integral arc of $\xi$ with origin $x$ (9.1.3).
 

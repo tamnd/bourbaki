@@ -28,7 +28,7 @@ subsections:
       pdf_page: 54
 statements: 21
 exercises: 10
-content_sha256: 9b196e307ce1dde4b945c686fd1bab4822b09d9858c6000c0dde36b2f59fdc94
+content_sha256: 16e922b902f38c0466963e4195b7257523064da2f7958200f8646cf011ec6b09
 translated_from: content/en/top/I/04_s4_product_of_topological_spaces.md
 source_content_sha256: bb0143155d71dd1d0988dddb9314f912763d1f361236eae706608303ddbee273
 translation_model: gpt-5.4
@@ -42,7 +42,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC KHÔNG GIAN TÍCH
 
-#### Định nghĩa 1 {#top-i-s4-def-1 .statement}
+#### Định nghĩa 1 {#top-i-s4-def-1 .statement tag=0B27}
 
 *Cho một họ $(X_i)_{i \in I}$ các không gian tôpô, không gian tích của họ này là tập hợp tích $X = \prod_{i \in I} X_i$ được trang bị tôpô là tích của các tôpô của các $X_i$ (§ 2, no. 3, Ví dụ 3). Các không gian $X_i (i \in I)$ được gọi là các nhân tử của X.*
 
@@ -52,19 +52,19 @@ Nếu $\mathfrak{B}_i$ là một cơ sở của tôpô của $X_i$ (với mỗi 
 
 Nếu $I$ là một tập hợp hữu hạn, phép dựng tôpô tích từ các tôpô của các thừa số $X_i$ là đơn giản hơn: các tập hợp sơ cấp chỉ đơn giản là các tích $\prod_{i \in I} A_i$, trong đó $A_i$ là một tập con mở bất kỳ của $X_i$, với mỗi $i \in I$ (x. Bài tập 9).
 
-#### Ví dụ {#top-i-s4-n1-exa-1 .statement}
+#### Ví dụ {#top-i-s4-n1-exa-1 .statement tag=0B28}
 
 \* Tích $\mathbf{R}^n$ của $n$ không gian đồng nhất với đường thẳng thực $\mathbf{R}$ được gọi là không gian số thực $n$ chiều; $\mathbf{R}^2$ cũng được gọi là mặt phẳng thực (x. Chương VI, § 1). Tương tự, xuất phát từ đường thẳng hữu tỉ $\mathbf{Q}$, ta định nghĩa không gian số hữu tỉ $n$ chiều $\mathbf{Q}^n$ (mặt phẳng hữu tỉ khi $n = 2$).
 
 Tôpô của không gian $\mathbf{R}^n$ có một cơ sở là tập hợp mọi tích của $n$ khoảng mở trong $\mathbf{R}$, được gọi là các hộp mở $n$ chiều. Các hộp mở chứa một điểm $x \in \mathbf{R}^n$ lập thành một hệ cơ bản các lân cận của điểm này. Tương tự, các tích của $n$ khoảng đóng trong $\mathbf{R}$ được gọi là các hộp đóng $n$ chiều. Các hộp đóng mà $x$ là điểm trong của chúng cũng lập thành một hệ cơ bản các lân cận của $x$. Có các kết quả tương tự đối với $\mathbf{Q}^n$. \*
 
-#### Mệnh đề 1 {#top-i-s4-prop-1 .statement}
+#### Mệnh đề 1 {#top-i-s4-prop-1 .statement tag=0B29}
 
 Cho $f = (f_i)$ là một ánh xạ từ một không gian tôpô $Y$ vào một không gian tích $X = \prod_{i \in I} X_i$. Khi đó $f$ liên tục tại một điểm $a \in Y$ nếu và chỉ nếu $f_i$ liên tục tại $a$ với mọi $i \in I$.
 
 Vì $f_i = \mathrm{pr}_i \circ f$, đây chỉ là một trường hợp riêng của Mệnh đề 4 của § 2, no. 3.
 
-#### Hệ quả 1 {#top-i-s4-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#top-i-s4-prop-1-cor-1 .statement tag=0B2A}
 
 Cho $(X_i)_{i \in I}, (Y_i)_{i \in I}$ là hai họ không gian tôpô có cùng tập chỉ số. Với mỗi $i \in I$, cho $f_i$ là một ánh xạ từ $X_i$ vào $Y_i$. Để ánh xạ tích $f : (x_i) \to (f_i(x_i))$ từ
 $$
@@ -74,13 +74,13 @@ liên tục tại một điểm $a = (a_i)$ thì điều kiện cần và đủ 
 
 f có thể được viết thành $x \to (f_i(\mathrm{pr}_i(x)))$, nên theo Mệnh đề 1 điều kiện là đủ. Ngược lại, với mỗi $x \in I$ đặt $g_x$ là ánh xạ từ $X_x$ vào $\prod_{i \in I} X_i$ sao cho $\mathrm{pr}_x(g_x(x_x)) = x_x$ và $\mathrm{pr}_i(g_x(x_x)) = a_i$ mỗi khi $i \neq x$; khi đó $g_x$ liên tục tại điểm $a_x$, theo Mệnh đề 1. Vì $f_x = \mathrm{pr}_x \circ f \circ g_x$ nên suy ra rằng nếu $f$ liên tục tại $a$, thì $f_x$ liên tục tại $a_x$.
 
-#### Hệ quả 2 {#top-i-s4-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#top-i-s4-prop-1-cor-2 .statement tag=0B2B}
 
 *Cho $X, Y$ là hai không gian tôpô. Để một ánh xạ $f : X \to Y$ là liên tục, điều kiện cần và đủ là ánh xạ $g : x \to (x, f(x))$ là một đồng phôi của $X$ lên đồ thị $G$ của $f$ (được xét như một không gian con của không gian tích $X \times Y$).*
 
 Vì $f = \mathrm{pr}_2 \circ g$, điều kiện là đủ. Nó cũng là cần, vì nếu $f$ liên tục, thì $g$ là song ánh và liên tục (Mệnh đề 1) và nghịch đảo của $g$ là hạn chế của $\mathrm{pr}_1$ lên $G$, ánh xạ này là liên tục (xem *Lý thuyết tập hợp*, Chương IV, § 2, no. 4, tiêu chuẩn CST 17).
 
-#### Mệnh đề 2 (Tính kết hợp của các tích tôpô) {#top-i-s4-prop-2 .statement}
+#### Mệnh đề 2 (Tính kết hợp của các tích tôpô) {#top-i-s4-prop-2 .statement tag=0B2C}
 
 *Cho $(X_i)_{i \in I}$ là một họ các không gian tôpô, $(J_x)_{x \in K}$ là một phân hoạch của tập hợp $I$, và với mỗi $x \in K$ đặt $X'_x = \prod_{i \in J_x} X_i$ là tích của các không gian $X_i$ với $i \in J_K$. Khi đó ánh xạ chính tắc của không gian tích*
 $$
@@ -92,7 +92,7 @@ $$
 
 Nói chung ta *đồng nhất* các không gian tích $\prod_{i \in I} X_i$ và $\prod_{x \in K} X'_x$ bằng ánh xạ chính tắc.
 
-#### Hệ quả {#top-i-s4-n1-cor-1 .statement}
+#### Hệ quả {#top-i-s4-n1-cor-1 .statement tag=0B2D}
 
 *Cho $\sigma$ là một phép hoán vị của tập hợp $I$. Khi đó ánh xạ $(x_i) \to (x_{\sigma(i)})$ là một đồng phôi của*
 $$
@@ -101,13 +101,13 @@ $$
 
 Lấy $K = I$ và $J_i = \{ \sigma(i) \}$ với mỗi $i \in I$ trong Mệnh đề 2.
 
-#### Mệnh đề 3 {#top-i-s4-prop-3 .statement}
+#### Mệnh đề 3 {#top-i-s4-prop-3 .statement tag=0B2E}
 
 *Cho $X$ là một tập hợp, $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Gọi $f$ là ánh xạ $x \to (f_i(x))$ từ $X$ vào $Y = \prod_{i \in I} Y_i$, và gọi $\mathfrak{T}$ là tôpô thô nhất trên $X$ sao cho các ánh xạ $f_i$ là liên tục. Khi đó $\mathfrak{T}$ là ảnh ngược theo $f$ của tôpô cảm sinh trên $f(X)$ bởi tôpô tích trên $Y$.*
 
 Đây là một trường hợp riêng khác của tính bắc cầu của các tôpô ban đầu (\S\ 2, no. 3, Mệnh đề 5; xem thêm Lý thuyết tập hợp, Chương IV, \S\ 2, no. 4, tiêu chuẩn CST 15).
 
-#### Hệ quả {#top-i-s4-n1-cor-2 .statement}
+#### Hệ quả {#top-i-s4-n1-cor-2 .statement tag=0B2F}
 
 *Với mỗi $i \in I$ gọi $A_i$ là một không gian con của $Y_i$. Khi đó tôpô cảm sinh trên $A = \prod_{i \in I} A_i$ bởi tôpô tích trên $\prod_{i \in I} Y_i$ là tích của các tôpô của các không gian con $A_i$.*
 
@@ -115,7 +115,7 @@ Gọi $j_i$ là đơn ánh chính tắc $A_i \to Y_i$, và áp dụng Mệnh đ�
 
 ### 2. TIẾT DIỆN CỦA MỘT TẬP HỢP MỞ; TIẾT DIỆN CỦA MỘT TẬP HỢP ĐÓNG; PHÉP CHIẾU CỦA MỘT TẬP HỢP MỞ. TÍNH LIÊN TỤC BỘ PHẬN
 
-#### Mệnh đề 4 {#top-i-s4-prop-4 .statement}
+#### Mệnh đề 4 {#top-i-s4-prop-4 .statement tag=0B2G}
 
 *Cho $X_1, X_2$ là hai không gian tôpô; khi đó với mỗi $a_1 \in X_1$, ánh xạ $x_2 \to (a_1, x_2)$ là một đồng phôi của $X_2$ lên không gian con $\{a_1\} \times X_2$ của $X_1 \times X_2$.*
 
@@ -123,23 +123,23 @@ Gọi $j_i$ là đơn ánh chính tắc $A_i \to Y_i$, và áp dụng Mệnh đ�
 
 Ánh xạ $x_2 \to (a_1, x_2)$ là một *tiết diện liên tục* (\S\ 3, no. 5) đối với quan hệ tương đương $\mathrm{pr}_2 z = \mathrm{pr}_2 z'$ trên $X_1 \times X_2$; do đó không gian thương của $X_1 \times X_2$ theo quan hệ tương đương này đồng phôi với $X_2$.
 
-#### Hệ quả {#top-i-s4-n2-cor-1 .statement}
+#### Hệ quả {#top-i-s4-n2-cor-1 .statement tag=0B2H}
 
 *Tiết diện $A(x_1)$ của một tập hợp mở (tương ứng, đóng) $A$ của tích $X_1 \times X_2$ tại một điểm tùy ý $x_1 \in X_1 (*)$ là mở (tương ứng, đóng) trong $X_2$.*
 
-#### Mệnh đề 5 {#top-i-s4-prop-5 .statement}
+#### Mệnh đề 5 {#top-i-s4-prop-5 .statement tag=0B2I}
 
 *Phép chiếu của một tập hợp mở $U$ của tích $X_1 \times X_2$ lên một trong hai nhân tử là một tập hợp mở.*
 
 Chẳng hạn, ta có $\mathrm{pr}_2 U = \bigcup_{x_1 \in X_1} U(x_1)$, và mệnh đề suy ra từ Hệ quả của Mệnh đề 4 và tiên đề (O_1).
 
-#### Nhận xét 1 {#top-i-s4-n2-rem-1 .statement}
+#### Nhận xét 1 {#top-i-s4-n2-rem-1 .statement tag=0B2J}
 
 Phép chiếu của một tập con *đóng* của $X_1 \times X_2$ lên một nhân tử *không nhất thiết là đóng*. Chẳng hạn, trong mặt phẳng hữu tỉ $\mathbf{Q}^2$, hyperbol có phương trình là $x_1 x_2 = 1$ là một tập hợp đóng, nhưng cả hai phép chiếu của nó đều bằng phần bù của điểm 0 trong $\mathbf{Q}$, và đây không phải là một tập hợp đóng.
 
 (*) *Tiết diện* $A(x_1)$ của $A$ tại $x_1$ được hiểu là tập hợp tất cả các $x_2 \in X_2$ sao cho $(x_1, x_2) \in A$ (xem Lý thuyết tập hợp R, \S\ 3, no. 7).
 
-#### Mệnh đề 6 {#top-i-s4-prop-6 .statement}
+#### Mệnh đề 6 {#top-i-s4-prop-6 .statement tag=0B2K}
 
 Cho $X_1, X_2, Y$ là ba không gian tôpô, $f$ là một ánh xạ từ không gian tích $X_1 \times X_2$ vào $Y$. Nếu $f$ liên tục tại điểm $(a_1, a_2)$ thì ánh xạ bộ phận $x_2 \to f(a_1, x_2)$ từ $X_2$ vào $Y$ liên tục tại điểm $a_2$.
 
@@ -147,7 +147,7 @@ Thật vậy, ánh xạ này là hợp thành của $f$ và ánh xạ $x_2 \to (
 
 Mệnh đề 6 thường được phát biểu bằng cách nói rằng một hàm liên tục của hai biến là liên tục đối với từng biến một.
 
-#### Nhận xét 2 {#top-i-s4-n2-rem-2 .statement}
+#### Nhận xét 2 {#top-i-s4-n2-rem-2 .statement tag=0B2L}
 
 Có thể xảy ra trường hợp mọi ánh xạ riêng phần được xác định bởi một ánh xạ $f : X_1 \times X_2 \to Y$ đều liên tục mà $f$ không liên tục trên $X_1 \times X_2$ (xem Chương IX, § 5, Bài tập 23). \* Ví dụ nếu $f$ là ánh xạ từ mặt phẳng thực $\mathbf{R}^2$ vào $\mathbf{R}$ được xác định bởi
 $$
@@ -161,19 +161,19 @@ Các kết quả của tiểu mục này dễ dàng được mở rộng cho m�
 
 ### 3. BAO ĐÓNG TRONG MỘT TÍCH
 
-#### Mệnh đề 7 {#top-i-s4-prop-7 .statement}
+#### Mệnh đề 7 {#top-i-s4-prop-7 .statement tag=0B2M}
 
 Trong một không gian tích $\prod_{i \in I} X_i$, bao đóng của một tích các tập hợp $\prod_{i \in I} A_i$ cũng chính là tích $\prod_{i \in I} \overline{A}_i$ của các bao đóng của chúng.
 
 Giả sử rằng $a = (a_i)$ thuộc bao đóng của $\prod_{i \in I} A_i$; khi đó với mỗi $x \in I$, $a_x = \operatorname{pr}_x a$ thuộc bao đóng của $A_x$ do tính liên tục của $\operatorname{pr}_x$ (§ 2, no. 1, Định lý 1) và vì thế $a \in \prod_{i \in I} \overline{A}_i$. Ngược lại, cho $b = (b_i) \in \prod_{i \in I} \overline{A}_i$, và cho $\prod_{i \in I} V_i$ là một tập hợp sơ cấp bất kỳ chứa $b$; với mỗi $i \in I$, $V_i$ chứa một điểm $x_i \in A_i$; do đó $\prod_{i \in I} V_i$ chứa điểm $(x_i) \in \prod_{i \in I} A_i$ và vì thế $b$ thuộc bao đóng của $\prod_{i \in I} A_i$.
 
-#### Hệ quả {#top-i-s4-n3-cor-1 .statement}
+#### Hệ quả {#top-i-s4-n3-cor-1 .statement tag=0B2N}
 
 *Một tích* $\prod_{i \in I} A_i$ *của các tập hợp không rỗng là đóng trong không gian tích* $\prod_{i \in I} X_i$ *khi và chỉ khi* $A_i$ *là đóng trong* $X_i$ *với mỗi* $i \in I$.
 
 Nếu $I$ là *hữu hạn*, thì một tích $\prod_{i \in I} A_i$ là mở với điều kiện $A_i$ là mở trong $X_i$ với mỗi $i \in I$; nhưng điều này không còn đúng nữa nếu $I$ là vô hạn.
 
-#### Mệnh đề 8 {#top-i-s4-prop-8 .statement}
+#### Mệnh đề 8 {#top-i-s4-prop-8 .statement tag=0B2O}
 
 *Cho* $a = (a_i)$ *là một điểm bất kỳ của một không gian tích* $X = \prod_{i \in I} X_i$; *khi đó tập hợp* $D$ *các điểm* $x \in X$ *sao cho* $\mathrm{pr}_i x = a_i$ *trừ ra với một số hữu hạn chỉ số* $i$ *là trù mật trong* $X$.
 
@@ -200,7 +200,7 @@ Cho $(X'_\alpha, f'_{\alpha\beta})$ là một hệ ngược khác của các kh�
 
 Cuối cùng, giả sử $I$ là một tập hợp *có hướng*, và cho $J$ là một tập con *đồng tận* của $I$; gọi $Z$ là giới hạn ngược của hệ ngược các không gian tôpô $(X_\alpha, f_{\alpha\beta})_{\alpha \in J, \beta \in J}$. Khi đó song ánh chính tắc $g : X \to Z$ (*Lý thuyết tập hợp*, Chương III, § 7, no. 2, mệnh đề 3) là một *đồng phôi*. Thật vậy, ta có $\mathrm{pr}_\lambda(g(x)) = \mathrm{pr}_\lambda(x)$ với mọi $\lambda \in J$; do đó $g$ liên tục (no. 1, Mệnh đề 1); và nếu $h$ là ánh xạ nghịch đảo của $g$, thì với mọi $\alpha \in I$ tồn tại $\lambda \in J$ sao cho $\alpha \leq \lambda$, và vì thế $\mathrm{pr}_\alpha(h(z)) = f_{\alpha\lambda}(\mathrm{pr}_\lambda(z))$, điều này cho thấy $h$ liên tục (no. 1, Mệnh đề 1), vì các $f_{\alpha\lambda}$ là liên tục.
 
-#### Mệnh đề 9 {#top-i-s4-prop-9 .statement}
+#### Mệnh đề 9 {#top-i-s4-prop-9 .statement tag=0B2P}
 
 *Cho $I$ là một tập có hướng và $J$ là một tập con đồng cuối của $I$. Cho $(X_\alpha, f_{\alpha\beta})$ là một hệ ngược các không gian tôpô được đánh chỉ số bởi $I$; đặt $X = \varprojlim X_\alpha$ và gọi $f_\alpha : X \to X_\alpha$ là ánh xạ chính tắc. Khi đó họ các tập hợp $f^{-1}_\alpha(U_\alpha)$, trong đó $\alpha$ chạy qua $J$ và $U_\alpha$ chạy qua một cơ sở $\mathfrak{B}_\alpha$ của tôpô của $X_\alpha$ với mỗi $\alpha \in J$, là một cơ sở của tôpô của $X$.*
 
@@ -218,7 +218,7 @@ $$
 
 nhưng $V_\gamma$ là mở và vì vậy là một hợp của các tập hợp thuộc $\mathfrak{B}_\gamma$. Suy ra kết quả.
 
-#### Hệ quả {#top-i-s4-n4-cor-1 .statement}
+#### Hệ quả {#top-i-s4-n4-cor-1 .statement tag=0B2Q}
 
 *Cho $A$ là một tập con của $X$ và gọi $A_\alpha$ là $f_\alpha(A)$ với mỗi $\alpha \in I$. Khi đó:*
 
@@ -242,7 +242,7 @@ A = \lim \overline{A}_\alpha
 $$
 và (ii) suy ra.
 
-#### Ví dụ {#top-i-s4-n4-exa-1 .statement}
+#### Ví dụ {#top-i-s4-n4-exa-1 .statement tag=0B2R}
 
 Cho $I$ là một tập có hướng và $(X_\alpha)_{\alpha \in I}$ là một họ các tập con của một tập hợp $Y$, sao cho $X_\alpha \supset X_\beta$ mỗi khi $\alpha \leq \beta$. Với mỗi $\alpha \in I$ cho $\mathfrak{T}_\alpha$ là một tôpô trên $X_\alpha$ sao cho $\mathfrak{T}_\beta$ mịn hơn tôpô cảm sinh trên $X_\beta$ bởi $\mathfrak{T}_\alpha$ mỗi khi $\alpha \leq \beta$. Nếu lấy $f_{\alpha\beta}$ là đơn ánh chính tắc $X_\beta \to X_\alpha$ đối với $\alpha \leq \beta$, thì $\lim X_\alpha$ có thể được đồng nhất một cách chính tắc với *giao* $X$ của các $X_\alpha$, được trang bị tôpô là *cận trên bé nhất* (§ 2, no. 3, Ví dụ 2) của các tôpô cảm sinh trên $X$ bởi các $\mathfrak{T}_\alpha$.
 

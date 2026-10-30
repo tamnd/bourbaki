@@ -55,7 +55,7 @@ errata:
     - says: representing $\varphi$ and $\varphi \circ w$ have the same determinant and this follows from the relation $\det w = 1$
       read: representing $\varphi$ and $\varphi \circ \omega$ have the same determinant and this follows from the relation $\det \omega = 1$
       why: The last two occurrences of the same automorphism on page 86, both roman.
-content_sha256: 9c61acb577c85b4200dd53a42ac4452b8bb111f73a601445a3f0e1a21a8eeb82
+content_sha256: b6c3b59be706d899df8c14677f2a1f585996a74c952028c811d04e381a1ed6be
 ---
 
 ## § 6. SYMMETRIC FUNCTIONS
@@ -102,7 +102,7 @@ $$
 \prod_{i=1}^{n} (\mathbf{X} - \mathbf{X}_i) = \sum_{k=0}^{n} (-1)^{n-k} s_{n-k} \mathbf{X}^k .
 $$
 
-#### Theorem 1 {#alg-iv-s6-thm-1 .statement}
+#### Theorem 1 {#alg-iv-s6-thm-1 .statement tag=06EE}
 
 — Let us put $E = A[\mathbf{X}_1, \ldots, \mathbf{X}_n]$ and $S = A[\mathbf{X}_1, \ldots, \mathbf{X}_n]^{\text{sym}}$.
 
@@ -259,7 +259,7 @@ g \mapsto g (X_1, \ldots, X_m, 0, \ldots, 0)
 $$
 is commutative.
 
-#### Proposition 1 {#alg-iv-s6-prop-1 .statement}
+#### Proposition 1 {#alg-iv-s6-prop-1 .statement tag=06EF}
 
 *For every pair of positive integers k, n, let $S_k^{(n)}$ be the A-module consisting of all symmetric polynomials in $X_1, \ldots, X_n$, which are homogeneous of degree k. If the integer m satisfies $0 \leq k \leq m \leq n$, then the mapping $f \mapsto f (X_1, \ldots, X_m, 0, \ldots, 0)$ is an isomorphism of $S_k^{(n)}$ onto $S_k^{(m)}$.
 
@@ -269,7 +269,7 @@ $$
 $$
 implies $\alpha(j) = 0$ for $k < j \leq n$, whence the assertion.
 
-#### Example 3 {#alg-iv-s6-n1-exa-3 .statement}
+#### Example 3 {#alg-iv-s6-n1-exa-3 .statement tag=06EG}
 
 By example 2 of IV, p. 64 and Prop. 1 above we thus have
 $$
@@ -283,7 +283,7 @@ $$
 X_1^3 = s_{1,1}^3.
 $$
 
-#### Remark {#alg-iv-s6-n1-rem-1 .statement}
+#### Remark {#alg-iv-s6-n1-rem-1 .statement tag=06EH}
 
 — Let n and k be two positive integers. We denote by $\Delta_{k,n}$ the set of elements of length k in $N^n$ and further equip $A$, , with the order relation, written $a \leq \beta$, induced by the lexicographic order on $N^n$ (*Set Theory*, III, p. 157), and define an action of the group $\mathfrak{S}_n$ on $N^n$ by $(\sigma a)(i) = a(\sigma^{-1}(i))$ for $\sigma \in \mathfrak{S}_n, a \in N^n$ and $l \leq i \leq n$. Moreover, we denote by $D_k$ the set of elements $a = (\alpha(1), \ldots, \alpha(k))$ of $\mathbf{N}^k$ such that
 $$
@@ -315,7 +315,7 @@ It may be shown (cf. IV, p. 101, Exercise 13) that the matrix $C = (c_{\alpha\be
 
 Suppose now that $n < k$ and let us identify $N^n$ with a subset of $N^k$ by the mapping $(a(1), \ldots, a(n)) \mapsto (a(1), \ldots, a(n), 0, \ldots, 0)$. For every $a$ in $D_k \cap N^n$ we again denote by $O(\alpha)$ the orbit of $a$ in $\Delta_{k,n}$ under the operation of $\mathfrak{S}_n$ and define $\mathbf{M}(\alpha)$ by (11). Further we define $S(\alpha)$ by (12), then the families $(\mathbf{M}(a))_{a \in D_k \cap N^n}$ and $(S(a))_{a \in D_k \cap N^n}$ are bases of the A-module $S_k^{(n)}$. By formula (9) of IV, p. 64, we have a formula analogous to (13) where $D_k$ is replaced by $D_k \cap N^n$, with the same integers $c_{\alpha\beta}$.
 
-#### Example 4 {#alg-iv-s6-n1-exa-4 .statement}
+#### Example 4 {#alg-iv-s6-n1-exa-4 .statement tag=06EI}
 
 By Example 3 of IV, p. 65, we have
 
@@ -335,13 +335,13 @@ for $n = 2$.
 
 Let $K$ be a commutative field and $X_1, X_2, \ldots, X_n$ indeterminates. For every $\sigma \in S_n$ we have defined in No. 1 (IV, p. 61) an automorphism $\varphi_\sigma$ of $K[X_1, X_2, \ldots, X_n]$. This automorphism has a unique extension $\psi_\sigma$ to the field $K(X_1, \ldots, X_n)$, and $\sigma \mapsto \psi_\sigma$ is an injective homomorphism of $S_n$ into the automorphism group of $K(X_1, \ldots, X_n)$. For each $f \in K(X_1, \ldots, X_n)$ we have $(\psi_\sigma f)(X_1, \ldots, X_n) = f(X_{\sigma(1)}, \ldots, X_{\sigma(n)})$. The rational fractions $f$ such that $\psi_\sigma(f) = f$ for all $\sigma \in S_n$ are called symmetric rational fractions. The set of all symmetric rational fractions in $X_1, \ldots, X_n$ is a subfield of $K(X_1, \ldots, X_n)$.
 
-#### Proposition 2 {#alg-iv-s6-prop-2 .statement}
+#### Proposition 2 {#alg-iv-s6-prop-2 .statement tag=06EJ}
 
 — *The field of symmetric rational fractions in $X_1, \ldots, X_n$ is the field of fractions of the ring of symmetric polynomials in $X_1, \ldots, X_n$.*.
 
 Let $f \in K(X_1, \ldots, X_n)$ be a symmetric rational fraction, and let $u_1, v_1$ be two elements of $K[X_1, \ldots, X_n]$ such that $f = \frac{u_1}{v_1}$. We put $v = \prod_{\sigma \in S_n} \psi_\sigma(v_1) \in K[X_1, \ldots, X_n]$ and $u = fv \in K[X_1, \ldots, X_n]$; then $v$ is symmetric, hence $u$ is symmetric, because $f$ is, and $f = \frac{u}{v}$, whence the result.
 
-#### Corollary {#alg-iv-s6-n2-cor-1 .statement}
+#### Corollary {#alg-iv-s6-n2-cor-1 .statement tag=06EK}
 
 — *Let $s_1, s_2, \ldots, s_n$ be the elementary symmetric polynomials in $X_1, \ldots, X_n$. For every rational fraction $g \in K(S_1, S_2, \ldots, S_n)$ the sequence $(s_1, s_2, \ldots, s_n)$ is substitutable in $g$ and the mapping $g \mapsto g(s_1, s_2, \ldots, s_n)$ is an isomorphism of $K(S_1, S_2, \ldots, S_n)$ onto the field of symmetric rational fractions in $X_1, \ldots, X_n$.*
 
@@ -373,7 +373,7 @@ $$
 
 such that $\varphi_I(S_k) = s_k$ for each integer $k \geq 1$.
 
-#### Theorem 2 {#alg-iv-s6-thm-2 .statement}
+#### Theorem 2 {#alg-iv-s6-thm-2 .statement tag=06EL}
 
 **a)** *If I is a finite set of n elements, then $\varphi_I$ induces a bicontinuous isomorphism of $A[[S_1, \ldots, S_n]]$ onto $A[[X]]^{\text{sym}}$*.
 
@@ -381,13 +381,13 @@ such that $\varphi_I(S_k) = s_k$ for each integer $k \geq 1$.
 
 In case a) we put $B = A[[S_1, \ldots, S_n]]$ and equip this algebra with the topology induced by that of $A[[S]]$; we also denote by $\psi_I$ the restriction of $\varphi_I$ to B. In case b) we put $B = A[[S]]$ and $\psi_I = \varphi_I$. We shall equip the polynomial algebra $A[S]$ with the graduation of type N for which $S_k$ is of weight k for every integer $k \geq 1$.
 
-#### Lemma 1 {#alg-iv-s6-lem-1 .statement}
+#### Lemma 1 {#alg-iv-s6-lem-1 .statement tag=06EM}
 
 **Let J be a finite subset of I, r an integer such that Card $J \geq r$ and fa symmetric formal power series which is homogeneous of degree r in the $X_i$ ($i \in I$). Let $\bar{f}$ be the formal power series obtained by substituting 0 for $X_i$ for each i in $I - J$. If $\bar{f} = 0$, then we have $f = 0$.**
 
 Let us put $f = \sum_{|\alpha| = r} a_\alpha X^\alpha$ (where $|\alpha|$ is the length $\sum_{i \in I} \alpha_i$ of the multiindex $a = (\alpha_i)_{i \in I}$). If $a$ is a multiindex of length $r$, and $J'$ is the support of $a$ (the set of $i \in I$ such that $\alpha_i \neq 0$), then Card $J' \leq r$, hence there exists a permutation $\sigma \in S_I$ such that $\sigma(J') \subset J$. Put $\beta_i = \alpha_{\sigma^{-1}(i)}$ for $i \in I$, then the monomial $X^\beta = \prod_{i \in I} X_{\sigma(i)}^{\alpha_i}$ depends only on the indeterminates $X_j$ ($j \in J$), whence $a_\beta = 0$ by the hypothesis $\overline{f} = 0$. Since $f$ is symmetric, we have $a_\alpha = a_\beta$ and since $\alpha$ was arbitrary, we conclude that $f = 0$.
 
-#### Lemma 2 {#alg-iv-s6-lem-2 .statement}
+#### Lemma 2 {#alg-iv-s6-lem-2 .statement tag=06EN}
 
 *Let $f$ be a symmetric formal power series of degree $r$ in the $X_i (i \in I)$. There exists a unique polynomial $P \in B \cap A[S]$, isobaric of weight $r$, such that $f = \psi_1(P)$.*
 
@@ -395,7 +395,7 @@ The case when $I$ is finite follows from Th. 1 (IV, p. 62).
 
 Assume that $I$ is infinite and choose a finite subset $J$ of $I$, containing $r$ elements. We keep the notation of Lemma 1; we remark that every isobaric polynomial of weight $r$ in the $S_n \ (n \geq 1)$ depends only on $S_1, \ldots, S_r$ and that $\overline{s}_1, \ldots, \overline{s}_r$ are the elementary symmetric polynomials in the $r$ indeterminates $X_j \ (j \in J)$. If $P$ is an isobaric polynomial of weight $r$ in the $S_n$ and $h = f - \psi_1(P)$, then $\overline{h} = \overline{f} - P(\overline{s}_1, \ldots, S_r)$ and Lemma 1 shows the relation $f = \psi_1(P)$ to be equivalent to $\overline{f} = P(\overline{s}_1, \ldots, \overline{s}_r)$. By Th. 1 (IV, p. 62) there exists a unique polynomial $P \in A[S]$, isobaric of weight $r$ and such that $\overline{f} = P(\overline{s}_1, \ldots, \overline{s}_r)$, whence the result.
 
-#### Lemma 3 {#alg-iv-s6-lem-3 .statement}
+#### Lemma 3 {#alg-iv-s6-lem-3 .statement tag=06EO}
 
 *For every integer $m \geq 0$ let $c_m$ be the ideal of the algebra $A[[X]]^{sym}$ consisting of all symmetric formal power series of order $\geq m$. The sequence $(c_m)_{m \geq 0}$ is a fundamental system of neighbourhoods of $0$ in $A[[X]]^{sym}$.*
 
@@ -421,7 +421,7 @@ $$
 
 This is a symmetric formal power series which is homogeneous of degree k.
 
-#### Lemma 4 (« Newton's relations ») {#alg-iv-s6-lem-4 .statement}
+#### Lemma 4 (« Newton's relations ») {#alg-iv-s6-lem-4 .statement tag=06EP}
 
 — *For every integer $d \geq 1$ we have*
 
@@ -449,7 +449,7 @@ $$
 
 and now Lemma 4 follows by a comparison of homogeneous components of degree d.
 
-#### Remark {#alg-iv-s6-n4-rem-1 .statement}
+#### Remark {#alg-iv-s6-n4-rem-1 .statement tag=06EQ}
 
 — With the notation of the above proof we have
 
@@ -504,7 +504,7 @@ $$
 
 such that $\lambda_I(P_k) = p_k$ for every integer $k \geq 1$ *(IV, p. 28)*. If we assign to $P_k$ the weight k, then $\lambda_I$ transforms an isobaric polynomial of weight $n$ in the $P_k$ into a formal power series which is homogeneous of degree $n$ in the $X_i$.
 
-#### Proposition 3 {#alg-iv-s6-prop-3 .statement}
+#### Proposition 3 {#alg-iv-s6-prop-3 .statement tag=06ER}
 
 — *a) If I is a finite set with n elements and $n! \cdot 1$ is invertible in A, then $\lambda_I$ induces a bicontinuous isomorphism of $A[[P_1, \ldots, P_n]]$ onto $A[[X]]^{\mathrm{sym}}$.*
 *b) If I is infinite and A is a Q-algebra, then $\lambda_I$ is a bicontinuous isomorphism of $A[[P]]$ onto $A[[X]]^{\mathrm{sym}}$.*
@@ -518,7 +518,7 @@ $$
 
 Since $k! . 1$ is invertible in $\mathbf{A}$, Lemma 2 of IV, p. 35 proves the existence of an automorphism $T$ of the topological $\mathbf{A}$-algebra $\mathbf{A}[[\mathbf{X}]]^{\text{sym}}$ which maps $s_k$ to $p_k$ for $l \leq k \leq n$. Now Prop. 3, a) is an immediate consequence.
 
-#### Corollary {#alg-iv-s6-n4-cor-1 .statement}
+#### Corollary {#alg-iv-s6-n4-cor-1 .statement tag=06ES}
 
 — *Let $\xi_1, \ldots, \xi_n, \eta_1, \ldots, \eta_n$ be elements of $\mathbf{A}$ and suppose that $\mathbf{A}$ is an integral domain.*
 
@@ -564,7 +564,7 @@ $$
 
 where the ideal $a$ is generated by the polynomials $s_k + (-1)^{k+1} a_k$ for $1 \leq k \leq n$, and $x_i$ is the residue class of $X_i$ mod $a$ for $1 \leq i \in n$. The relation (24) is also equivalent to $f(X) = \prod_{i=1}^n (X - x_i)$. When there is any risk of ambiguity, we write $x_{1,f}, ..., x_{n,f}$ in place of $x_1, ..., x_n$.
 
-#### Proposition 4 {#alg-iv-s6-prop-4 .statement}
+#### Proposition 4 {#alg-iv-s6-prop-4 .statement tag=06ET}
 
 *Let B be a commutative ring, $\rho$ a homomorphism of A into B and $\xi_1, ..., 5$, elements of B. Suppose that the relation $^\rho f(X) = \prod_{i=1}^n (X - \xi_i)$ holds in B[X]. Then there exists one and only one ring homomorphism $u : E_f \to B$ such that $\rho(a) = u(a . 1)$ for all $a \in A$ and $u(x_i) = \xi_i$ for $1 \leq i \leq n$.
 
@@ -578,7 +578,7 @@ in B. Since the relations (24) define a presentation of $E_f$, Prop. 4 follows.
 
 Prop. 4 justifies the name « universal decomposition algebra of $f$ » for $E_f$. The relation $f(X) = \prod_{i=1}^n (X - x_{i,f})$ is called the « universal decomposition of $f$ ». Let $\sigma \in S_n$ be a permutation ; since $f(X) = \prod_{i=1}^n (X - x_{\sigma(i),f})$, there exists an automorphism $t_\sigma$ of the A-algebra $E_f$ characterized by $t_\sigma(x_{i,f}) = x_{\sigma(i),f}$ for $1 \leq i \leq n$. We have $t_{\sigma \tau} = t_\sigma \circ t_\tau$ for $\sigma, \tau$ in $S_n$, and hence obtain an action of the group $\mathscr{G}$, an the A-algebra $E_f$.
 
-#### Proposition 5 {#alg-iv-s6-prop-5 .statement}
+#### Proposition 5 {#alg-iv-s6-prop-5 .statement tag=06EU}
 
 *In the universal decomposition algebra $E_f$ the family of monomials $x_1^{\nu(1)} ... x_n^{\nu(n)}$ such that $0 \leq \nu(i) < i$ for $1 \leq i \leq n$ is a basis of the A-module $E_f$. In particular $E_f$ is a free A-module of rank $n!$.
 
@@ -594,13 +594,13 @@ B = a \oplus \bigoplus_{\nu \in S} AX^\nu,
 $$
 whence Prop. 5, because $E_f = B/a$.
 
-#### Corollary {#alg-iv-s6-n5-cor-1 .statement}
+#### Corollary {#alg-iv-s6-n5-cor-1 .statement tag=06EV}
 
 — *The canonical homomorphism of A into the universal decomposition algebra of the monic polynomial $f \in A[X]$ is injective.*
 
 For the unit element of $E_f$ forms part of a basis of the A-module $E_f$.
 
-#### Proposition 6 {#alg-iv-s6-prop-6 .statement}
+#### Proposition 6 {#alg-iv-s6-prop-6 .statement tag=06EW}
 
 — *Let $f \in A[X]$ be a monic polynomial of degree n, and let P be a symmetric polynomial in $X_1, ..., X_n$ with coefficients in A. Then there exists precisely one element a of A with the following property:
 (FS) For any ring homomorphism $\rho : A \to B$ and decomposition $^0f(X) = \prod_{i=1}^n (X - \xi_i)$ in B[X] we have $\rho(a) = P(\xi_1, ..., \xi_n)$.*
@@ -622,7 +622,9 @@ This proves the existence of an element a satisfying (FS). The uniqueness of a f
 
 With the notation of Prop. 6 one sometimes writes $a = P^*(f)$. Here are some examples.
 
-*Examples. — 1) If $P = s_k$, then $P^*(f) = (-1)^k a_k$.
+#### Examples {#alg-iv-s6-n5-exa-1 .statement tag=0DHL}
+
+*1) If $P = s_k$, then $P^*(f) = (-1)^k a_k$.
 \* 2) Let g be a polynomial in $A[X]$ and put
 $$
 P(X_1, ..., X_n) = g(X_1) ... g(X_n) .
@@ -721,13 +723,13 @@ t_0 & t_1 & t_2 & u_1 & u_2 \\
 \end{pmatrix}.
 $$
 
-#### Definition 1 {#alg-iv-s6-def-1 .statement}
+#### Definition 1 {#alg-iv-s6-def-1 .statement tag=06EX}
 
 *With the above notation the determinant of the matrix $M(f, g, p, q)$ is called the resultant of the pair $(f, g)$ for the degrees $p$ and $q$, or simply the resultant of $f$ and $g$ if $p = \deg f$ and $q = \deg g$.*
 
 The resultant is denoted by $\operatorname{res}_{p,q}(f, g)$ or simply $\operatorname{res}(f, g)$ when $p = \deg f$, $q = \deg g$.
 
-#### Example 1 {#alg-iv-s6-n6-exa-1 .statement}
+#### Example 1 {#alg-iv-s6-n6-exa-1 .statement tag=06EY}
 
 Given $\Lambda, \mu$ in $\Lambda$, we have the formulae
 $$
@@ -738,28 +740,28 @@ $$
 $$
 whose proof is immediate.
 
-#### Example 2 {#alg-iv-s6-n6-exa-2 .statement}
+#### Example 2 {#alg-iv-s6-n6-exa-2 .statement tag=06EZ}
 
 When $p = q = 1$, we have
 $$
 \operatorname{res}_{1,1}(t_1 X + t_0, u_1 X + u_0) = t_1 u_0 - t_0 u_1
 $$
 
-#### Remark 1 {#alg-iv-s6-n6-rem-1 .statement}
+#### Remark 1 {#alg-iv-s6-n6-rem-1 .statement tag=06F0}
 
 The matrix $M(g, f, q, p)$ is obtained from $M(f, g, p, q)$ by $pq$ transpositions of columns, whence
 $$
 \operatorname{res}_{q,p}(g, f) = (-1)^{pq} \operatorname{res}_{p,q}(f, g)
 $$
 
-#### Remark 2 {#alg-iv-s6-n6-rem-2 .statement}
+#### Remark 2 {#alg-iv-s6-n6-rem-2 .statement tag=06F1}
 
 Let $\rho : A \to B$ be a ring homomorphism. Def. / implies directly the formula
 $$
 \operatorname{res}_{p,q}(\rho f, \rho g) = \rho(\operatorname{res}_{p,q}(f, g)) .
 $$
 
-#### Remark 3 {#alg-iv-s6-n6-rem-3 .statement}
+#### Remark 3 {#alg-iv-s6-n6-rem-3 .statement tag=06F2}
 
 Given $\lambda, \mu$ in $A$, we have
 $$
@@ -767,7 +769,7 @@ $$
 $$
 (28)
 
-#### Remark 4 {#alg-iv-s6-n6-rem-4 .statement}
+#### Remark 4 {#alg-iv-s6-n6-rem-4 .statement tag=06F3}
 
 Suppose that $p + q \geq 1$. By III, p. 532, formula (28), the image of $\varphi$ contains the constant polynomial $\operatorname{res}_{p,q}(f, g)$. Hence there exist a pair of polynomials $(u, v)$, with $u \in S_q, v \in S_p$ such that
 $$
@@ -779,7 +781,7 @@ $$
 $$
 This pair $(u, v)$ is unique when $\operatorname{res}_{p,q}(f, g)$ is cancellable in $A$: for then $\varphi$ is injective (III, p. 524, Prop. 3).
 
-#### Remark 5 {#alg-iv-s6-n6-rem-5 .statement}
+#### Remark 5 {#alg-iv-s6-n6-rem-5 .statement tag=06F4}
 
 Suppose that $p \geq q$, and let $h \in A[X]$ be a polynomial of degree $\leq p - q$. Let us show that
 $$
@@ -794,7 +796,7 @@ The matrix of $w$ with respect to the basis $B_1$ is lower triangular and its di
 
 Assume that $f$ is monic of degree $p$; put $E = A[X]/(f)$ and denote by $x$ the canonical image of $X$ in $E$. We know (IV, p. 11) that $E$ is a free $A$-module with basis $(1, x, \ldots, x^{p-1})$. We can thus define the norm $N_{E/A}(u)$ of any element $u$ of $E$ (III, p. 543, Def. 2).
 
-#### Proposition 7 {#alg-iv-s6-prop-7 .statement}
+#### Proposition 7 {#alg-iv-s6-prop-7 .statement tag=06F5}
 
 — *Assume that f is monic of degree p; with the above notations we have*¹
 $$
@@ -816,7 +818,7 @@ $$
 $$
 for any pair $(u, v)$ in $S_q \times S_s$. Now we have $A[X] = S_{p+q} + (f)$ and $fS_q = S_s \cap (f)$, hence the canonical injection of $S_{p-s}$ into $A[X]$ defines by the passage to quotients an isomorphism $\gamma$ of $S_{p+q}/fS_q$ onto E. Let $\psi$ be the multiplication by $g(x)$ in E. Formula (31) shows that $\varphi'$ induces the identity on $fS_q$ and $\gamma^{-1}\psi\gamma$ on $S_{p+q}/fS_q$. We thus have $\det \varphi' = \det \psi$, whence (30) follows, because $\det \varphi' = \operatorname{res}_{p,q}(f, g)$ and $\det \psi = N_{E/A}(g(x))$, by definition.
 
-#### Corollary 1 {#alg-iv-s6-prop-7-cor-1 .statement}
+#### Corollary 1 {#alg-iv-s6-prop-7-cor-1 .statement tag=06F6}
 
 — Let $f \in A[X]$ be a monic polynomial; for every polynomial $g \in A[X]$ the following conditions are equivalent:
 (i) $\operatorname{res}(f, g)$ is invertible in $A$;
@@ -824,7 +826,7 @@ for any pair $(u, v)$ in $S_q \times S_s$. Now we have $A[X] = S_{p+q} + (f)$ an
 (iii) $g(x)$ is invertible in the algebra $A[X]/(f)$.
 The equivalence of (i) and (iii) follows from Prop. 3 of III, p. 545 and Prop. 7; that of (ii) and (iii) follows trivially.
 
-#### Corollary 2 {#alg-iv-s6-prop-7-cor-2 .statement}
+#### Corollary 2 {#alg-iv-s6-prop-7-cor-2 .statement tag=06F7}
 
 — Suppose that $A$ is a field and let $f, g \in A[X]$, then the following conditions are equivalent when $f, g$ are non-zero:
 (i) $\operatorname{res}(f, g) \neq 0$;
@@ -834,7 +836,7 @@ The equivalence of (i) and (iii) follows from Prop. 3 of III, p. 545 and Prop. 7
 We can reduce at once to the case where $f$ is monic (IV, p. 77, remark 3).
 The equivalence of (i) and (ii) is just a translation of Cor. 1, by Def. 1 of IV, p. 12; the equivalence of (ii) and (iii) is just Cor. 7 of IV, p. 13.
 
-#### Corollary 3 {#alg-iv-s6-prop-7-cor-3 .statement}
+#### Corollary 3 {#alg-iv-s6-prop-7-cor-3 .statement tag=06F8}
 
 — For every $\lambda \in A$ we have
 $$
@@ -847,7 +849,7 @@ $$
 
 Suppose now that f and g are monic. We denote by F the A-algebra $A[X, Y]/(f(X), g(Y))$ and denote by x (resp. y) the canonical image of X (resp. Y) in F.
 
-#### Proposition 8 {#alg-iv-s6-prop-8 .statement}
+#### Proposition 8 {#alg-iv-s6-prop-8 .statement tag=06F9}
 
 — Suppose that f and g are monic of degrees p and q respectively. With the above notation, the A-module F is free with basis $(x^i y^j)_{0 \leq i < p,\ 0 \leq j < q}$ and we have
 
@@ -869,7 +871,7 @@ $$
 N_{F/A}(x - y) = N_{E/A}(g(x)) = \text{res}(f, g)
 $$
 
-#### Proposition 9 {#alg-iv-s6-prop-9 .statement}
+#### Proposition 9 {#alg-iv-s6-prop-9 .statement tag=06FA}
 
 — Let $p_1$ and $q_1$ be positive integers and $f_1, g_1$ polynomials in $A[X]$ such that $\deg f_1 \leq p_1, \deg g_1 \leq q_1$; then we have
 
@@ -882,7 +884,7 @@ $$
 
 We have $\text{res}_{p, q}(f, g) = (-1)^{pq} \text{res}_{q, p}(g, f)$ (IV, p. 76); so it is enough to prove (35). Likewise, Remark 3 (loc. cit.) shows that if formula (35) is established for a polynomial $f$, then it holds for all polynomials of the form Af, where $A \in A$. Finally, when f is monic of degree p, formula (35) follows from Prop. 7 (IV, p. 77) by the formula $N_{E/A}(ab) = N_{E/A}(a) \cdot N_{E/A}(b)$. In all we conclude that (35) holds when the coefficient $t_p$ of $X^p$ in f is invertible.
 
-#### Lemma 5 {#alg-iv-s6-lem-5 .statement}
+#### Lemma 5 {#alg-iv-s6-lem-5 .statement tag=06FB}
 
 Let t be an element of A. There exists a commutative ring C containing A as subring, a subring B of C containing A, an element $\tau$ of B invertible in C and a ring homomorphism $p : B \to A$ such that $p(\tau) = t$ and the restriction of p to A is equal to Id.
 
@@ -898,7 +900,7 @@ $$
 $$
 by what has been said. The resultants are unchanged if we consider F, g and $g_1$ as polynomials in B[X]. Since $^\rho F = f$, $^\rho g = g$, $^\rho g_1 = g_1$, formula (35) follows from (38) and Remark 2 (IV, p. 77).
 
-#### Corollary 1 {#alg-iv-s6-lem-5-cor-1 .statement}
+#### Corollary 1 {#alg-iv-s6-lem-5-cor-1 .statement tag=06FC}
 
 — (i) Let $\lambda, \alpha_1, \ldots, \alpha_p$ be elements of A and suppose that $f(X) = \lambda (X - \alpha_1) \ldots (X - \alpha_p)$. We have
 $$
@@ -910,7 +912,7 @@ $$
 $$
 Assertion (i) follows directly from the formulae (28), (32) and (36). Now Assertion (ii) follows from (i).
 
-#### Corollary 2 {#alg-iv-s6-lem-5-cor-2 .statement}
+#### Corollary 2 {#alg-iv-s6-lem-5-cor-2 .statement tag=06FD}
 
 — For every integer $r \geq 0$ we have
 $$
@@ -928,7 +930,7 @@ $$
 $$
 This remark applies in particular to the universal decomposition off (IV, p. 73) and since $\rho$ is then injective, this provides a means of calculating $\operatorname{res}(f, g)$.
 
-#### Example 3 {#alg-iv-s6-n6-exa-3 .statement}
+#### Example 3 {#alg-iv-s6-n6-exa-3 .statement tag=06FE}
 
 Let us prove the formula
 $$
@@ -975,7 +977,7 @@ from which the desired result follows.
 
 ### 7. The discriminant
 
-#### Definition 2 {#alg-iv-s6-def-2 .statement}
+#### Definition 2 {#alg-iv-s6-def-2 .statement tag=06FF}
 
 *Let $f$ be a monic polynomial of $A[X]$ of degree $m$, and denote by $E$ the $A$-algebra $A[X]/(f)$ and by $x$ the canonical image of $X$ in $E$. We define the discriminant of $f$, written $\operatorname{dis}(f)$, as the discriminant $D_{E/A}(1, x, \ldots, x^{m-1})$ of the basis $(1, x, \ldots, x^{m-1})$ of the $A$-algebra $E$.*
 
@@ -1025,7 +1027,7 @@ $$
 \operatorname{res}(f, Df) = \operatorname{res}(Df, f) = (-1)^{m(m-1)/2} \operatorname{dis}(f).
 $$
 
-#### Proposition 10 {#alg-iv-s6-prop-10 .statement}
+#### Proposition 10 {#alg-iv-s6-prop-10 .statement tag=06FG}
 
 Let $m \geq 1$. There exists a unique polynomial $A \in \mathbf{Z}[A_1, \ldots, A_m]$ with the following property : for any commutative ring A and *monic* polynomial $f = X^m + \sum_{i=1}^m a_i X^{m-i}$ in $A[X]$ we have
 $$
@@ -1086,7 +1088,7 @@ $$
 
 When $m = \deg f$, we shall simply write dis(f) for $\operatorname{dis}_m(f)$; if f is monic, dis(f) agrees with the discriminant defined in Def. 2, by (48), (51) and (52).
 
-#### Proposition 11 {#alg-iv-s6-prop-11 .statement}
+#### Proposition 11 {#alg-iv-s6-prop-11 .statement tag=06FH}
 
 — Let f in $A[X]$ be of degree $\leq m$.
 
@@ -1122,7 +1124,7 @@ $$
 
 (IV, p. 77), we can pass from there to the case where $a_0$ is invertible in $A$. Now the general case follows by Prop. 11, (i) and Lemma 5 (IV, p. 79).
 
-#### Corollary 1 {#alg-iv-s6-prop-11-cor-1 .statement}
+#### Corollary 1 {#alg-iv-s6-prop-11-cor-1 .statement tag=06FI}
 
 — Let $g \in A[X]$ and let $n$ be a positive integer such that $\deg g \leq n$. We have
 
@@ -1150,7 +1152,7 @@ $$
 
 On squaring this relation we obtain (57), by (40) and (46).
 
-#### Corollary 2 {#alg-iv-s6-prop-11-cor-2 .statement}
+#### Corollary 2 {#alg-iv-s6-prop-11-cor-2 .statement tag=06FJ}
 
 — If $a_0$ is the coefficient of $X^m$ in $f$, we have
 
@@ -1160,23 +1162,23 @@ $$
 
 This follows from Cor. 1 on taking $n = 1,\ g = 1$, by the formula $\operatorname{res}_{m,1}(f,1) = a_0$ (IV, p. 76, Example 1).
 
-#### Corollary 3 {#alg-iv-s6-prop-11-cor-3 .statement}
+#### Corollary 3 {#alg-iv-s6-prop-11-cor-3 .statement tag=06FK}
 
 — Let $A$ be a field, and let $f$ be a non-constant polynomial in $A[X]$. For $f$ and $Df$ to be relatively prime, it is necessary and sufficient that $\mathrm{dis}(f) \neq 0$.
 This follows from Prop. 11, (iii) and Cor. 2 of IV, p. 78.
 
-#### Remark {#alg-iv-s6-n7-rem-1 .statement}
+#### Remark {#alg-iv-s6-n7-rem-1 .statement tag=06FL}
 
 Adouble application of Cor. 2 above shows that we have $\mathrm{dis}_m(f) = 0$ for every polynomial $f$ of degree $\leq m - 2$.
 
-#### Example 3 {#alg-iv-s6-n7-exa-3 .statement}
+#### Example 3 {#alg-iv-s6-n7-exa-3 .statement tag=06FM}
 
 Let $m = 2$. By Example2 (IV, p. 81) we have $\Delta(A_1, A_2) = A_1^2 - 4A_2$, whence $\tilde{\Delta}(A_0, A_1, A_2) = A_1^2 - 4A_0A_2$. In other words, we have
 $$
 \mathrm{dis}_2(a_0X^2 + a_1X + a_2) = a_1^2 - 4a_0a_2 .
 $$
 
-#### Example 4 {#alg-iv-s6-n7-exa-4 .statement}
+#### Example 4 {#alg-iv-s6-n7-exa-4 .statement tag=06FN}
 
 Consider the polynomial
 $$

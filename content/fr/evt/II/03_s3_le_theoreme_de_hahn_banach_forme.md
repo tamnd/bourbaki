@@ -21,14 +21,14 @@ subsections:
       pdf_page: 59
 statements: 5
 exercises: 8
-content_sha256: 26c63f02d74a435769e3f610e43cef67fcd736bbd947e4e6a39ce9ff39d9f905
+content_sha256: 3a23a75353b5aa61dcb49b04cb7b55f65ab78e43ba997c0b7746d733ba1ceaa6
 ---
 
 ## § 3. LE THÉORÈME DE HAHN-BANACH (FORME ANALYTIQUE)
 
 ### 1. Prolongement des formes linéaires positives
 
-#### Proposition 1 {#evt-ii-s3-prop-1 .statement}
+#### Proposition 1 {#evt-ii-s3-prop-1 .statement tag=07DQ}
 
 *Soient E un espace vectoriel préordonné, V un sous-espace vectoriel de E tel que tout élément de E soit majoré par un élément de V. Pour toute forme linéaire f sur V, positive pour la structure d’espace vectoriel préordonné de V (induite par celle de E), l’ensemble $S_f$ des formes linéaires positives sur E qui prolongent f est non vide, et pour tout $a \in E$, l’ensemble des valeurs $h(a)$, où h parcourt $S_f$, est l’intervalle $[\alpha', \alpha'']$, où
 
@@ -67,7 +67,7 @@ $$
 
 si $W \subset W'$ et si $g'$ prolonge $g$. Il est immédiat que $\mathfrak{F}$ est inductif, et, en vertu du th. 2 de E, III, p. 20, il a donc un élément maximal $(W_0, g_0)$. Supposons $W_0 \neq E$. Il existe alors un vecteur $b \notin W_0$, et si $W_1 = W_0 + \mathbf{R}b$, la première partie de la démonstration montre qu’il existe une forme linéaire positive sur $W_1$ qui prolonge $g_0$, ce qui contredit l’hypothèse que $(W_0, g_0)$ est maximal ; on a donc $W_0 = E$, ce qui prouve la première assertion de la proposition. Lorsque $a \in V$, la seconde assertion est évidente, avec $\alpha' = \alpha'' = f(a)$; si au contraire $a \notin V$ et si l’on pose $V_1 = V + \mathbf{R}a$, la seconde assertion résulte de la première partie de la démonstration.
 
-#### Corollaire {#evt-ii-s3-n1-cor-1 .statement}
+#### Corollaire {#evt-ii-s3-n1-cor-1 .statement tag=07DR}
 
 *Soient E un espace vectoriel topologique muni d’une structure de préordre compatible avec sa structure d’espace vectoriel, P l’ensemble des éléments $\geq 0$ de E. Soit V un sous-espace vectoriel de E contenant au moins un point intérieur $x_0$ de P. Alors toute forme linéaire positive sur V se prolonge en une forme linéaire positive sur E.*
 
@@ -81,7 +81,7 @@ La conclusion de ce corollaire ne subsiste pas nécessairement si l’on ne supp
 
 ### 2. Le théorème de Hahn-Banach (forme analytique)
 
-#### Théorème 1 (Hahn-Banach) {#evt-ii-s3-thm-1 .statement}
+#### Théorème 1 (Hahn-Banach) {#evt-ii-s3-thm-1 .statement tag=07DS}
 
 *Soient* $E$ *un espace vectoriel*, $p$ *une fonction sous-linéaire dans* $E$. *Soit* $V$ *un sous-espace vectoriel de* $E$, *et soit* $f$ *une forme linéaire sur* $V$ *telle que, pour tout* $y \in V$, *on ait* $f(y) \leq p(y)$. *Alors il existe une forme linéaire* $h$ *sur* $E$ *prolongeant* $f$ *et telle que, pour tout* $x \in E$, *on ait* $h(x) \leq p(x)$.
 
@@ -89,19 +89,19 @@ Dans l’espace vectoriel $E_1 = E \times \mathbf{R}$, l’ensemble $P$ des coup
 
 C.Q.F.D.
 
-#### Corollaire 1 {#evt-ii-s3-prop-1-cor-1 .statement}
+#### Corollaire 1 {#evt-ii-s3-prop-1-cor-1 .statement tag=0E4L}
 
 *Soient* $p$ *une semi-norme sur un espace vectoriel* $E$, $V$ *un sous-espace vectoriel de* $E$, $f$ *une forme linéaire sur* $V$ *telle que* $|f(y)| \leq p(y)$ *pour tout* $y \in V$. *Alors il existe une forme linéaire* $h$ *sur* $E$, *prolongeant* $f$, *et telle que* $|h(x)| \leq p(x)$ *pour tout* $x \in E$.
 
 Pour une semi-norme $q$ et une forme linéaire $g$ sur $E$, les relations $g \leq q$ et $|g| \leq q$ sont équivalentes. Le corollaire résulte donc du th. 1.
 
-#### Corollaire 2 {#evt-ii-s3-prop-1-cor-2 .statement}
+#### Corollaire 2 {#evt-ii-s3-prop-1-cor-2 .statement tag=0E4M}
 
 *Soient* $E$ *un espace vectoriel*, $x_0$ *un point de* $E$, $p$ *une semi-norme sur* $E$; *il existe une forme linéaire* $f$ *définie dans* $E$, *telle que* $f(x_0) = p(x_0)$ *et que* $|f(x)| \leq p(x)$ *pour tout* $x \in E$.
 
 On applique le cor. 1 au sous-espace vectoriel $V$ engendré par $x_0$ et à la forme linéaire $\xi x_0 \mapsto \xi p(x_0)$ définie dans $V$.
 
-#### Corollaire 3 {#evt-ii-s3-prop-1-cor-3 .statement}
+#### Corollaire 3 {#evt-ii-s3-prop-1-cor-3 .statement tag=0E4N}
 
 Soient E un espace normé, V un sous-espace vectoriel de E, f une forme linéaire continue dans V ; il existe une forme linéaire continue h définie dans E, prolongeant f, et de même norme (TG, X, p. 23).
 

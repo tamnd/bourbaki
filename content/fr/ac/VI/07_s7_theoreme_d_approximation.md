@@ -24,20 +24,20 @@ subsections:
       pdf_page: 132
 statements: 16
 exercises: 3
-content_sha256: d1da8d8cb6a9cdd7126633763c95f4a30fc05e45fefccd85791d7ec09ba64593
+content_sha256: 6d365bbdc588df5f0e4c7257ebef382e9a0410a412bd21856f431ac8dade59a8
 ---
 
 ## § 7. Théorème d’approximation.
 
 ### 1. Intersection d’un nombre fini d’anneaux de valuation
 
-#### Proposition 1 {#ac-vi-s7-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s7-prop-1 .statement tag=04VN}
 
 Soient $K$ un corps, $(\mathbf{A}_i)_{1 \leq i \leq n}$ une famille finie d’anneaux de valuation pour $K$, et $B = \bigcap_{i=1}^n \mathbf{A}_i$. Posons $\mathfrak{p}_i = B \cap m(\mathbf{A}_i)$. Alors $\mathbf{A}_i = B_{\mathfrak{p}_i}$ pour tout $i$, et le corps des fractions de $B$ est $K$.
 
 Il est clair que $B_{p_i} \subset A_i$. Pour prouver l’inclusion opposée, nous aurons besoin du lemme suivant :
 
-#### Lemme 1 {#ac-vi-s7-lem-1 .statement}
+#### Lemme 1 {#ac-vi-s7-lem-1 .statement tag=04VO}
 
 *Soient $v_i$ ($1 \leq i \leq n$) des valuations d’un corps $K$, et $x \in K^*$. Il existe alors un polynôme $f(X)$ de la forme*
 
@@ -59,24 +59,24 @@ Admettons pour un moment ce lemme, et montrons comment il entraîne que $A_1 \su
 
 Passons à la démonstration du lemme. Soit $I$ l’ensemble des indices $i$ tels que $v_i(x) \geq 0$. Pour $i \in I$, soit $A_i$ l’anneau de la valuation $v_i$, et notons $\bar{x}_i$ l’image canonique de $x$ dans $\kappa(A_i)$. Pour tout $i \in I$, construisons un polynôme $f_i$ de la façon suivante : s’il existe un polynôme $g(X)$ de la forme (1) tel que $g(\bar{x}_i) = 0$ dans $\kappa(A_i)$, nous prendrons pour $f_i$ un tel polynôme ; sinon nous prendrons $f_i = 1$. Posons alors $f(X) = 1 + X^2 \prod_{i \in I} f_i(X)$. C’est évidemment un polynôme de la forme (1). Si $i \in I$, on a $f(x) \in A_i$, et aussi $f(\bar{x}_i) \neq 0$ par construction ; donc $f(x) \notin m(A_i)$, $v_i(f(x)) = 0$ et $v_i(z) = 0$. Si $i \notin I$, on a $v_i(x) < 0$, d’où $v_i(f(x)) = kv_i(x)$ (§ 3, no 1, prop. 1), et $v_i(x) + v_i(z) = (1 - k)v_i(x) > 0$ (puisque $k \geq 2$). D’où le lemme.
 
-#### Proposition 2 {#ac-vi-s7-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s7-prop-2 .statement tag=04VP}
 
 *Les hypothèses étant celles de la prop. 1, supposons de plus que $A_i \not\subset A_j$ pour $i \neq j$. Alors les $p_i$ sont des idéaux maximaux de $B$ deux à deux distincts, et tout idéal maximal de $B$ est égal à un des $p_i$.
 
 Si on avait $p_i \subset p_j$ pour $i \neq j$, on aurait $A_i = B_{p_i} \supset B_{p_j} = A_j$. Il suffit alors d’appliquer le Chap. II, § 3, no 5, cor. de la prop. 17.
 
-#### Corollaire 1 {#ac-vi-s7-prop-2-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s7-prop-2-cor-1 .statement tag=04VQ}
 
 *Supposons que $A_i \not\subset A_j$ pour $i \neq j$. Pour toute famille d’éléments $a_i \in A_i \ (1 \leq i \leq n)$, il existe $x \in B$ tel que $x \equiv a_i \ (\mathrm{mod.}\ m(A_i))$ pour $1 \leq i \leq n$.*
 
 Puisque les $\mathfrak{p}_i$ sont des idéaux maximaux de $B$, on a $A_i / m(A_i) = B_{\mathfrak{p}_i}/\mathfrak{p}_i B_{\mathfrak{p}_i} = B/\mathfrak{p}_i$, et l’on peut donc supposer que $a_i \in B$ pour tout $i$. Le corollaire résulte alors du fait que l’application canonique de $B$ dans $\prod_{i=1}^n (B/\mathfrak{p}_i)$ est surjective (Chap. II, , n° 2, prop. 5)
 
-#### Corollaire 2 {#ac-vi-s7-prop-2-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s7-prop-2-cor-2 .statement tag=04VR}
 
 Supposons que $A_i \subsetneq A_j$ pour $i \neq j$. Il existe des éléments $x_i$ ($1 \leq i \leq n$) de $K$ tels que $v_i(x_i) = 0$ et $v_j(x_i) > 0$ pour $i \neq j$.
 Pour chaque indice $i$, on applique le cor. 1 à la famille $(a_j)$ telle que $a_i = 1$ et $a_j = 0$ pour $j \neq i$.
 
-#### Corollaire 3 {#ac-vi-s7-prop-2-cor-3 .statement}
+#### Corollaire 3 {#ac-vi-s7-prop-2-cor-3 .statement tag=04VS}
 
 Tout anneau de valuation pour $K$ contenant $B$ contient l’un des $A_i$.
 On peut se borner au cas où $A_i \subsetneq A_j$ pour $i \neq j$. Soit $V$ un anneau de valuation pour $K$ contenant $B$. Posons
@@ -90,13 +90,13 @@ $$
 
 ### 2. Valuations indépendantes
 
-#### Définition 1 {#ac-vi-s7-def-1 .statement}
+#### Définition 1 {#ac-vi-s7-def-1 .statement tag=04VT}
 
 Soient $A$ et $A'$ deux anneaux de valuation pour un même corps $K$. On dit que $A$ et $A'$ sont indépendants si $K$ est l’anneau engendré par $A$ et $A'$. Deux valuations de $K$ sont dites indépendantes si leurs anneaux sont indépendants, dépendantes dans le cas contraire.
 
 Une valuation impropre de $K$ est indépendante de toute valuation de $K$. Pour que deux valuations de hauteur 1 de $K$ soient indépendantes, il faut et il suffit qu’elles soient inéquivalentes ($§ 4, n° 5,$ prop. 6, c)).
 
-#### Théorème 1 (Théorème d’approximation pour les valuations) {#ac-vi-s7-thm-1 .statement}
+#### Théorème 1 (Théorème d’approximation pour les valuations) {#ac-vi-s7-thm-1 .statement tag=04VU}
 
 Soient $v_i$ ($1 \leq i \leq n$) des valuations deux à deux indépendantes d’un corps $K$, et $\Gamma_i$ le groupe des ordres de $v_i$. Soient $a_i \in K$ et $\alpha_i \in \Gamma_i$ ($1 \leq i \leq n$). Il existe alors $x \in K$ tel que $v_i(x - a_i) \geq \alpha_i$ pour tout $i$.
 Si $v_i$ est impropre, on a $\alpha_i = 0$ et la relation $v_i(x - a_i) \geq \alpha_i$ est vraie pour tout $x \in K$. On peut donc supposer les $v_i$ non impropres.
@@ -107,23 +107,23 @@ Supposons qu’il existe $i, j$ tels que l’on ait $q_i \subset \mathfrak{p}_j$
 
 Reste à montrer que $\mathfrak{p}$ est premier. Or ceci résulte du lemme suivant :
 
-#### Lemme 2 {#ac-vi-s7-lem-2 .statement}
+#### Lemme 2 {#ac-vi-s7-lem-2 .statement tag=04VV}
 
 Soient $A$ un anneau de valuation, et $\mathfrak{b}$ un idéal de $A$ distinct de $A$. Alors la racine $r$ de $\mathfrak{b}$ est un idéal premier.
 
 Supposons qu’on ait $xy \in r$. Il existe alors $n \geq 1$ tel que $(xy)^n \in \mathfrak{b}$. Notons $v$ une valuation associée à $A$. Si, par exemple, on a $v(x) \geq v(y)$, on a $v(x^{2^n}) \geq v(x^n y^n)$, d’où $x^{2^n} \in \mathfrak{b}$ et $x \in r$.
 
-#### Corollaire 1 {#ac-vi-s7-lem-2-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s7-lem-2-cor-1 .statement tag=04VW}
 
 Pour toute famille d’éléments $\gamma_i \in \Gamma_i (1 \leq i \leq n)$, il existe $x \in K$ tel que $v_i(x) = \gamma_i (1 \leq i \leq n)$.
 
 On peut supposer $A_i \neq K$ pour tout $i$. Alors, il existe pour tout $i$ un $a_i \in K$ tel que $v_i(a_i) = \gamma_i$ et un $\alpha_i \in \Gamma_i$ tel que $\gamma_i < \alpha_i$. Appliquons le th. 1 à ces éléments $a_i$: il existe $x \in K$ tel que $v_i(x - a_i) > v_i(a_i)$; d’où, comme $x = a_i + (x - a_i)$, $v_i(x) = v_i(a_i) = \gamma_i$ ($§ 3$, no 1, prop. 1).
 
-#### Corollaire 2 {#ac-vi-s7-lem-2-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s7-lem-2-cor-2 .statement tag=04VX}
 
 Soit $\mathscr{T}_i$ la topologie définie sur $K$ par $v_i$; munissons $K^n$ de la topologie produit des $\mathscr{T}_i$. Si les $v_i$ sont non impropres, la diagonale de $K^n$ est dense dans $K^n$.
 
-#### Proposition 3 {#ac-vi-s7-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s7-prop-3 .statement tag=04VY}
 
 Soient $v$ et $v'$ deux valuations non impropres d’un même corps K. Pour que $v$ et $v'$ définissent la même topologie sur K, il faut et il suffit qu’elles soient dépendantes.
 
@@ -131,15 +131,15 @@ Supposons les topologies $\mathscr{T}_v$ et $\mathscr{T}_{v'}$, définies par $v
 
 Inversement, supposons $v$ et $v'$ dépendantes. Alors leurs anneaux A et A' sont contenus dans un même anneau A'' distinct de K, et A'' est l’anneau d’une valuation $v''$ ($§ 4$, n° 1, prop. 1). Il suffit de montrer que la topologie $\mathscr{T}_{v''}$ est identique à $\mathscr{T}_v$. Soient $\Gamma$ et $\Gamma''$ les groupes des ordres de $v$ et $v''$. Il existe un homomorphisme croissant $\lambda$ de $\Gamma$ sur $\Gamma''$ tel que $v'' = \lambda \circ v$ ($§ 4$, n° 3). Si $\alpha'' \in \Gamma''$, soit $\alpha \in \lambda^{-1}(\alpha'')$; la condition $v(x) \geq \alpha$ entraîne $v''(x) \geq \alpha''$. Soient $\beta \in \Gamma$, et $\beta'' = \lambda(\beta)$; la condition $v(x) \leq \beta$ entraîne $v''(x) \leq \beta''$, donc la condition $v''(x) > \beta''$ entraîne $v(x) > \beta$. Comme $v$ et $v''$ sont non impropres, les inégalités envisagées définissent des systèmes fondamentaux de voisinages de 0 pour $\mathscr{T}_v$ et $\mathscr{T}_{v''}$. Donc $\mathscr{T}_v = \mathscr{T}_{v''}$, ce qui termine la démonstration.
 
-#### Remarque 1 {#ac-vi-s7-n2-rem-1 .statement}
+#### Remarque 1 {#ac-vi-s7-n2-rem-1 .statement tag=0CIE}
 
 La prop. 3 montre que la relation « $v$ et $v'$ sont dépendantes » est une relation d’équivalence.
 
-#### Remarque 2 {#ac-vi-s7-n2-rem-2 .statement}
+#### Remarque 2 {#ac-vi-s7-n2-rem-2 .statement tag=0CIF}
 
 Compte tenu des relations entre valuations de hauteur 1 et valeurs absolues ultramétriques ($§ 6$, n° 2), la prop. 3 résulte aussi, dans le cas des valuations de hauteur 1, de la caractérisation des valeurs absolues équivalentes (Top. gén., chap. IX, 2e éd., $§ 3$, n° 2, prop. 5).
 
-#### Proposition 4 {#ac-vi-s7-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s7-prop-4 .statement tag=04VZ}
 
 Soient $v_1, \ldots, v_n (n \geq 2)$ des valuations deux à deux dépendantes d’un même corps K. Alors les anneaux $A_1, \ldots, A_n$ de $v_1, \ldots, v_n$ engendrent un sous-anneau de K distinct de K.
 
@@ -147,7 +147,7 @@ Pour $n = 2$, la prop. 4 résulte de la déf. 1. Supposons-la établie pour $n -
 
 ### 3. Cas des valeurs absolues
 
-#### Théorème 2 (Théorème d’approximation pour les valeurs absolues) {#ac-vi-s7-thm-2 .statement}
+#### Théorème 2 (Théorème d’approximation pour les valeurs absolues) {#ac-vi-s7-thm-2 .statement tag=04W0}
 
 Soient $f_i (1 \leq i \leq n)$ des valeurs absolues non impropres et deux à deux inéquivalentes sur un même corps K. Soient $a_i (1 \leq i \leq n)$ des éléments de K, et $\varepsilon$ un nombre réel $> 0$. Il existe alors $x \in K$ tel que $f_i(x - a_i) \leq \varepsilon$ pour tout $i$.
 

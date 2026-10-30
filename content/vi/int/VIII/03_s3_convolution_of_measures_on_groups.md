@@ -25,9 +25,9 @@ subsections:
       pdf_page: 122
 statements: 16
 exercises: 13
-content_sha256: 85d63bf862348b8069868317faade0f3ea08d029b869e25cc8e2890cdda76ba2
+content_sha256: c8ba6eae84833404f38ac5e0dfb43483e831a76a4befb4f41fffd77448dc8e59
 translated_from: content/en/int/VIII/03_s3_convolution_of_measures_on_groups.md
-source_content_sha256: d7b8f6ce67aab9318c4bf1d66eb3da65db7aa355768329905786e678f3dc2cd4
+source_content_sha256: fbb17d2d8dfca6f7e44cfa7592c87c0769532c38cc2550dc3a50ed837fd6ab29
 translation_model: gpt-5.4
 translation_run: translate-vi-cf425743
 glossary_version: 34
@@ -65,7 +65,7 @@ $$
 
 theo §1, No. 1, Ví dụ 3. Nếu G là Abel, việc nói rằng $\mu_1$ và $\mu_2$ khả hợp theo phép chập là tương đương với việc nói rằng $\mu_2$ và $\mu_1$ khả hợp theo phép chập, và khi đó ta có $\mu_1 * \mu_2 = \mu_2 * \mu_1$. Khi G không Abel, có thể xảy ra việc $\mu_1$ và $\mu_2$ khả hợp theo phép chập mà $\mu_2$ và $\mu_1$ lại không như vậy (Bài tập 12).
 
-#### Mệnh đề 1 {#int-viii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#int-viii-s3-prop-1 .statement tag=09JB}
 
 — Cho G là một nhóm compact địa phương, $\lambda, \mu, \nu$ là các độ đo $\neq 0$ trên G.
 
@@ -83,7 +83,7 @@ Có thể tồn tại các độ đo $\lambda, \mu, \nu$ trên G sao cho các t�
 
 Cho $\rho$ là một hàm hữu hạn nửa liên tục dưới $> 0$ trên $G$ sao cho $\rho(st) \leq \rho(s)\rho(t)$ với mọi $s, t$ trong $G$. Ta ký hiệu bởi $\mathscr{M}^\rho(G)$ không gian vectơ các độ đo $\lambda$ trên $G$ sao cho $\rho$ khả tích đối với $\lambda$, và bởi $\| \lambda \|_\rho$ (hoặc đơn giản là $\| \lambda \|$) chuẩn $\int_G \rho(s) d|\lambda|(s)$ trên không gian này. Khi $\rho = 1$, ta thu được tập hợp $\mathscr{M}^1(G)$ các độ đo bị chặn trên $G$.
 
-#### Mệnh đề 2 {#int-viii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#int-viii-s3-prop-2 .statement tag=09JC}
 
 (i) *Hai phần tử bất kỳ của $\mathscr{M}^\rho(G)$ đều có thể chập được.*
 (ii) *Đối với phép chập, và đối với chuẩn $\| \lambda \|$, $\mathscr{M}^\rho(G)$ là một đại số chuẩn đầy đủ, nhận $\varepsilon_e$ làm phần tử đơn vị.*
@@ -117,7 +117,7 @@ Ta thấy rằng $\lambda * \mu \in \mathscr{M}^\rho(G)$ và $\| \lambda * \mu \
 
 Nếu $\rho = 1$, Mệnh đề 2, (i) và (ii) cũng suy ra từ §1, Mệnh đề 2.
 
-#### Mệnh đề 3 {#int-viii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#int-viii-s3-prop-3 .statement tag=09JD}
 
 *Cho $\mu_1, \ldots, \mu_n$ là các độ đo trên G. Nếu mọi $\mu_i$, trừ nhiều nhất một, đều có giá compắc, thì các $\mu_i$ là khả chập.*
 
@@ -129,13 +129,13 @@ $$
 
 Vậy các $\mu_i$ là khả chập (§1, No. 4, Mệnh đề 4).
 
-#### Mệnh đề 4 {#int-viii-s3-prop-4 .statement}
+#### Mệnh đề 4 {#int-viii-s3-prop-4 .statement tag=09JE}
 
 *Ánh xạ $(\lambda, \mu) \mapsto \lambda * \mu$ (tương ứng, $(\lambda, \mu) \mapsto \mu * \lambda$), trong đó $\lambda \in \mathscr{C}'(G)$, $\mu \in \mathscr{M}(G)$, xác định trên $\mathscr{M}(G)$ cấu trúc của một môđun trái (tương ứng, phải) trên đại số $\mathscr{C}'(G)$.*
 
 Điều này suy ra từ các Mệnh đề 1 và 3.
 
-#### Mệnh đề 5 {#int-viii-s3-prop-5 .statement}
+#### Mệnh đề 5 {#int-viii-s3-prop-5 .statement tag=09JF}
 
 *Cho $\lambda$ là một độ đo Haar trái (tương ứng, phải) trên G, và $\mu \in \mathscr{M}^1(G)$. Khi đó $\mu$ và $\lambda$ (tương ứng, $\lambda$ và $\mu$) chập được, và $\mu * \lambda = \mu(1)\lambda$ (tương ứng, $\lambda * \mu = \mu(1)\lambda$).*
 
@@ -147,7 +147,7 @@ $$
 
 do đó hàm $(x, y) \mapsto f(xy)$ là khả tích đối với $(\mu \otimes \lambda)$, và tích phân của nó đối với $\mu \otimes \lambda$ là $\lambda(f)\|\mu\|$. Ta lập luận tương tự khi $\lambda$ là một độ đo Haar phải.
 
-#### Mệnh đề 6 {#int-viii-s3-prop-6 .statement}
+#### Mệnh đề 6 {#int-viii-s3-prop-6 .statement tag=09JG}
 
 *Cho $\mu$ và $\nu$ là hai độ đo khả tích chập trên G. Cho $\chi$ là một biểu diễn liên tục của G trong $\mathbf{C}^*$. Khi đó $\chi \cdot \mu$ và $\chi \cdot \nu$ là khả tích chập và $(\chi \cdot \mu) * (\chi \cdot \nu) = \chi \cdot (\mu * \nu)$.*
 
@@ -166,7 +166,7 @@ $$
 
 do đó $(\chi \cdot \mu) * (\chi \cdot \nu) = \chi \cdot (\mu * \nu)$.
 
-#### Mệnh đề 7 {#int-viii-s3-prop-7 .statement}
+#### Mệnh đề 7 {#int-viii-s3-prop-7 .statement tag=09JH}
 
 *Cho G và G' là hai nhóm compact địa phương, u là một biểu diễn liên tục của G trong G', và $\mu_1, \ldots, \mu_n$ là các độ đo trên G, tất cả đều $\neq 0$. Khi đó các khẳng định sau là tương đương:
 (i) $u$ là $\mu_i$-thực sự với mọi i, và các độ đo $u(|\mu_i|)$ chập được;
@@ -179,7 +179,7 @@ $$
 
 Điều này suy ra từ §1, No. 2, Hệ quả của Mệnh đề 1.
 
-#### Hệ quả {#int-viii-s3-n1-cor-1 .statement}
+#### Hệ quả {#int-viii-s3-n1-cor-1 .statement tag=09JI}
 
 *Cho G là một nhóm compact địa phương, $\mu_1, \ldots, \mu_n$ là các độ đo trên G. Để dãy $(\mu_i)_{1 \leq i \leq n}$ chập được, điều kiện cần và đủ là dãy $(\check{\mu}_{n-i})_{0 \leq i \leq n-1}$ cũng vậy, trong trường hợp đó*
 
@@ -214,19 +214,19 @@ $$
 $$
 theo §1, No. 1, Ví dụ 3.
 
-#### Mệnh đề 8 {#int-viii-s3-prop-8 .statement}
+#### Mệnh đề 8 {#int-viii-s3-prop-8 .statement tag=09JJ}
 
 — Cho $\mu$ là một độ đo trên $G$, $\nu$ là một độ đo trên $X$.
 (i) Nếu $\mu$ có giá compact, thì $\mu$ và $\nu$ chập được.
 (ii) Nếu $\nu$ có giá compact, và nếu $G$ tác động một cách đúng lên $X$, thì $\mu$ và $\nu$ chập được.
 Điều này suy ra từ Mệnh đề 4 của §1, No. 4.
 
-#### Mệnh đề 9 {#int-viii-s3-prop-9 .statement}
+#### Mệnh đề 9 {#int-viii-s3-prop-9 .statement tag=09JK}
 
 — Đối với phép chập, $\mathscr{M}^1(X)$ là một môđun trái trên $\mathscr{M}^1(G)$, còn $\mathscr{M}(X)$ và $\mathscr{C}'(X)$ là những môđun trái trên $\mathscr{C}'(G)$.
 Điều này suy ra từ Mệnh đề 8, và từ §1, các Mệnh đề 1, 3 và Hệ quả của Mệnh đề 5.
 
-#### Mệnh đề 10 {#int-viii-s3-prop-10 .statement}
+#### Mệnh đề 10 {#int-viii-s3-prop-10 .statement tag=09JL}
 
 — Cho $\mu$ là một độ đo trên $G$, $\nu$ là một độ đo trên $X$, $\mu$ và $\nu$ có thể chập được. Giả sử thêm rằng tồn tại một độ đo dương $\beta$ trên $X$ sao cho $\gamma(s)\nu$ có cơ sở $\beta$ với mọi $s \in G$. Khi đó $\mu * \nu$ có cơ sở $\beta$.
 Cho $K$ là một tập con compắc $\beta$-không đáng kể của $X$. Khi đó $K$ là $\gamma(s)|\nu|$-không đáng kể với mọi $s \in G$. Bây giờ,
@@ -237,7 +237,7 @@ $$
 
 ### 3. Phép chập và các biểu diễn tuyến tính
 
-#### Mệnh đề 11 {#int-viii-s3-prop-11 .statement}
+#### Mệnh đề 11 {#int-viii-s3-prop-11 .statement tag=09JM}
 
 — Cho $G$ là một nhóm compact địa phương, $E$ là một không gian lồi địa phương tựa-đầy đủ, $U$ là một biểu diễn liên tục của $G$ trong $E$.
 (i) Nếu $\lambda \in \mathscr{C}'(G)$, $\mu \in \mathscr{C}'(G)$, thì $U(\lambda * \mu) = U(\lambda)U(\mu)$.
@@ -256,7 +256,7 @@ do đó suy ra (i). Một lập luận tương tự có thể được áp dụn
 
 Vẫn với G là một nhóm địa phương compact, giả sử rằng G tác động liên tục bên trái trên một không gian địa phương compact X. Điều này xác định (§2, No. 4) một biểu diễn tuyến tính liên tục $\gamma$ của G trong $\mathscr{M}(X)$ (được trang bị tôpô hội tụ compact trong $\mathscr{H}(X)$).
 
-#### Mệnh đề 12 {#int-viii-s3-prop-12 .statement}
+#### Mệnh đề 12 {#int-viii-s3-prop-12 .statement tag=09JN}
 
 *Nếu $\lambda \in \mathscr{C}'(G)$ và $\mu \in \mathscr{M}(X)$, thì*
 
@@ -278,13 +278,13 @@ $$
 
 theo định nghĩa của $\gamma(\lambda)$.
 
-#### Hệ quả {#int-viii-s3-n3-cor-1 .statement}
+#### Hệ quả {#int-viii-s3-n3-cor-1 .statement tag=09JO}
 
 *Ánh xạ $(\lambda, \mu) \mapsto \lambda * \mu$ từ $\mathscr{C}'(G) \times \mathscr{M}(X)$ vào $\mathscr{M}(X)$ là hypoliên tục đối với các tập con đồng liên tục của $\mathscr{C}'(G)$ và các tập con compact của $\mathscr{M}(X)$ ($\mathscr{C}'(G)$ và $\mathscr{M}(X)$ lần lượt được trang bị tôpô hội tụ compact trong $\mathscr{C}(G)$ và $\mathscr{H}(X)$).*
 
 Thật vậy, $\mathscr{M}(X)$, được trang bị tôpô hội tụ compact trong $\mathscr{H}(X)$, là gần đầy đủ. Do đó ánh xạ $(\lambda, \mu) \mapsto \gamma(\lambda)\mu$ từ $\mathscr{C}'(G) \times \mathscr{M}(X)$ vào $\mathscr{M}(X)$ là hypocontinuous đối với các tập con đẳng liên tục của $\mathscr{C}'(G)$ và các tập con compact của $\mathscr{M}(X)$ (§2, No. 6). Khi đó chỉ cần áp dụng Mệnh đề 12.
 
-#### Nhận xét {#int-viii-s3-n3-rem-1 .statement}
+#### Nhận xét {#int-viii-s3-n3-rem-1 .statement tag=09JP}
 
 — 1) Cho $\lambda_0 \in \mathscr{C}'(G)$. Ánh xạ $\mu \mapsto \lambda_0 * \mu$ từ $\mathscr{M}(X)$ vào $\mathscr{M}(X)$ là liên tục theo nghĩa mơ hồ. Thật vậy, cho $f \in \mathscr{H}(X)$. Ta có
 
@@ -296,7 +296,7 @@ trong đó $g(x) = \int f(sx) d\lambda_0(s)$. Khi đó, $g$ liên tục (Ch. VII
 
 2) Cho $\mu_0 \in \mathscr{M}(X)$. Ánh xạ $\lambda \mapsto \lambda * \mu_0$ từ $\mathscr{C}'(G)$ vào $\mathscr{M}(X)$ là liên tục đối với các tôpô $\sigma(\mathscr{C}'(G), \mathscr{C}(G))$ và $\sigma(\mathscr{M}(X), \mathscr{H}(X))$. Thật vậy, lấy $f \in \mathscr{K}(X)$. Đặt $h(s) = \int f(sx)\, d\mu_0(x)$, ta có $\langle f, \lambda * \mu_0 \rangle = \langle h, \lambda \rangle$, và $h \in \mathscr{C}(G)$ (Ch. VII, §1, No. 1, Bổ đề 1).
 
-#### Mệnh đề 13 {#int-viii-s3-prop-13 .statement}
+#### Mệnh đề 13 {#int-viii-s3-prop-13 .statement tag=09JQ}
 
 *Ánh xạ* $(s, \mu) \mapsto \gamma(s)\mu$ *từ* $G \times \mathscr{M}_+(X)$ *vào* $\mathscr{M}_+(X)$ *là liên tục khi tập hợp* $\mathscr{M}_+(X)$ *các độ đo dương trên* $X$ *được trang bị tôpô mờ*.
 

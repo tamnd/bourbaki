@@ -33,9 +33,9 @@ subsections:
       pdf_page: 441
 statements: 16
 exercises: 12
-content_sha256: f58bb7c2b5c6ec0b9e3ebc77403d89a11b44dd208124558d5ca1afd98616ce6a
+content_sha256: 5b8a8d8b1ef1d4c4011385c0c1147f3c7d54d1b941f079b6347b7fcc93bd7d47
 translated_from: content/en/int/VI/03_s3_disintegration_of_measures.md
-source_content_sha256: 750dc65d96c7938829c2e5588a97c1f03c8e0f04512b8bc62408a08635b07019
+source_content_sha256: af4e8435c165da3e46c8e743b1fe384a343285c290d2c1854e12b375334ea66b
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-71f41523
 glossary_version: 34
@@ -49,25 +49,25 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho T là một không gian compact địa phương có một cơ sở đếm được (nói cách khác, một không gian Polish compact địa phương (GT, IX, §6, No. 1). Ta biết rằng đối với mọi đo lường dương trên T, các khái niệm nguyên và nguyên cốt yếu trùng nhau (Ch. V, §1, No. 3, Hệ quả của Mệnh đề 9). Mặt khác, ta có các tính chất sau:
 
-#### Bổ đề 1 {#int-vi-s3-lem-1 .statement}
+#### Bổ đề 1 {#int-vi-s3-lem-1 .statement tag=09C0}
 
 *Nếu Y là một không gian compact địa phương có một cơ sở đếm được, không gian $\mathscr{H}(Y)$ chứa một tập con trù mật đếm được. Chính xác hơn, tồn tại trong $\mathscr{H}(Y)$ một tập con đếm được S gồm các hàm $\geq 0$, sao cho, đối với mọi hàm $f \geq 0$ của $\mathscr{H}(Y)$, tồn tại một dãy các hàm $f_n \in S$ ($n \geq 0$) hội tụ đều đến $f$ và sao cho $f_n \leq f_0$ với mọi $n \geq 0$.*
 
 Vì Y là hợp của một dãy tăng $(U_n)$ các tập mở tương đối compact sao cho $\overline{U}_n \subset U_{n+1}$ với mọi $n$ (GT, I, §9, No. 9, Mệnh đề 15); không gian $\mathscr{H}(Y)$ là hợp của dãy tăng các không gian Banach $\mathscr{H}(Y, \overline{U}_n)$, và mỗi không gian sau cùng này được biết là tách được (GT, Ch. X, §3, No. 3, Định lý 1). Cho $S'_n$ là một tập con trù mật đếm được trong $\mathscr{H}(Y, \overline{U}_n)$, $S_n$ là tập hợp các hàm $\varphi^+$ đối với $\varphi \in S'_n$, và $u_n$ là một hàm trong $\mathscr{H}(Y, \overline{U}_{n+1})$, có các giá trị trong $[0, 1]$ và bằng 1 trên $U_n$. Ta lấy cho S hợp của các $S_n$ và tập hợp các $m u_n$ với $m$ và $n$ là các số nguyên $\geq 0$. Đối với mọi hàm $f \geq 0$ của $\mathscr{H}(Y)$, $f$ có giá chứa được trong một trong các $U_n$, do đó là giới hạn đều của một dãy các hàm $f_p \in S_n$ ($p \geq 1$). Các hàm $f_p$ này bị chặn đều bởi một số nguyên dương $m$, và chỉ cần lấy $f_0 = m u_n$.*
 
-#### Bổ đề 2 {#int-vi-s3-lem-2 .statement}
+#### Bổ đề 2 {#int-vi-s3-lem-2 .statement tag=09C1}
 
 *Nếu T là một không gian compact địa phương với một cơ sở đếm được, thì không gian Banach $\mathscr{K}(Y)$ gồm các hàm số liên tục tiến về 0 tại điểm vô hạn là tách được.*
 
 Bổ đề này không gì khác hơn là Hệ quả của Định lý 1 của GT, X, §3, No. 3. Ta có thể nhận xét rằng nó cũng suy ra từ Bổ đề 1 và sự kiện rằng tôpô của sự hội tụ đều trên $\mathscr{K}(Y)$ thô hơn tôpô giới hạn trực tiếp của các tôpô của các không gian con $\mathscr{K}(Y, \overline{U}_n)$.
 
-#### Bổ đề 3 {#int-vi-s3-lem-3 .statement}
+#### Bổ đề 3 {#int-vi-s3-lem-3 .statement tag=09C2}
 
 — *Cho T và X là hai không gian compact địa phương có các cơ sở đếm được, $\mu$ là một đo lường dương trên T, và $t \mapsto \lambda_t$ ($t \in T$) là một họ các đo lường dương trên X. Nếu ánh xạ $t \mapsto \lambda_t$ là $\mu$-nguyên theo vô hướng (đối với tôpô $\sigma(\mathscr{M}(X), \mathscr{K}(X))$), thì họ $t \mapsto \lambda_t$ là $\mu$-thích hợp ($§ 1$, No. 1, Ví dụ).*
 
 Vì, Bổ đề 1, áp dụng cho $\mathscr{K}(X)$, chỉ ra rằng ánh xạ $t \mapsto \lambda_t$ là đo được theo nghĩa mơ hồ đối với $\mu$ ($§ 1$, No. 5, Mệnh đề 13).
 
-#### Định lý 1 {#int-vi-s3-thm-1 .statement}
+#### Định lý 1 {#int-vi-s3-thm-1 .statement tag=09C3}
 
 *Cho T và B là hai không gian compact địa phương có các cơ sở đếm được, $\mu$ là một độ đo dương trên T, p là một ánh xạ $\mu$-thực sự (Ch. V, §6, No. 1, Định nghĩa 1) của T vào B, và $\nu = p(\mu)$ là ảnh của $\mu$ qua p. Khi đó tồn tại một họ $\nu$-thích hợp ($§ 1$, No. 1, Ví dụ) $b \mapsto \lambda_b$ ($b \in B$) các độ đo dương trên T, có các tính chất sau:
 
@@ -133,11 +133,11 @@ Mọi họ $\nu$-thích hợp $b \mapsto \lambda_b$ các độ đo dương trên
 
 ### 2. Các độ đo ảnh giả
 
-#### Định nghĩa 1 {#int-vi-s3-def-1 .statement}
+#### Định nghĩa 1 {#int-vi-s3-def-1 .statement tag=09C4}
 
 *Cho T và B là hai không gian compact địa phương, $\mu$ là một độ đo dương trên T, và p là một ánh xạ $\mu$-khả đo được của T vào B. Một độ đo dương $\nu$ trên B được gọi là một độ đo ảnh giả của $\mu$ dưới p nếu nó thỏa mãn điều kiện sau: để một tập con N của B là địa phương $\nu$-không đáng kể, cần và đủ là $\overline{p}^{-1}(N)$ địa phương $\mu$-không đáng kể.*
 
-#### Ví dụ {#int-vi-s3-n2-exa-1 .statement}
+#### Ví dụ {#int-vi-s3-n2-exa-1 .statement tag=09C5}
 
 — 1) Nếu $p$ là $\mu$-thực sự và $\nu = p(\mu)$, thì $\nu$ là một độ đo ảnh giả của $\mu$ dưới $p$ (Ch. V, §6, No. 2, Hệ quả 2 của Mệnh đề 2).
 
@@ -147,7 +147,7 @@ Chú ý rằng nếu $\nu$ là một độ đo ảnh giả của $\mu$ dưới $
 
 Nếu $\nu$ là một ảnh giả của $\mu$ dưới $p$, thì tập các độ đo là ảnh giả của $\mu$ dưới $p$ là lớp các độ đo dương tương đương với $\nu$, và mọi độ đo dương tương đương với $\mu$ đều thừa nhận cùng các độ đo ảnh giả dưới $p$. Lớp của $\nu$ được gọi là *lớp ảnh giả* của lớp của $\mu$ dưới $p$.
 
-#### Mệnh đề 1 {#int-vi-s3-prop-1 .statement}
+#### Mệnh đề 1 {#int-vi-s3-prop-1 .statement tag=09C6}
 
 — *Cho T là một không gian compact địa phương đếm được ở vô cùng, $\mu$ là một độ đo dương trên T, và $p$ là một ánh xạ $\mu$-khả đo được của T vào một không gian compact địa phương B. Khi đó tồn tại một độ đo ảnh giả của $\mu$ dưới $p$.*
 
@@ -155,7 +155,7 @@ Vì tồn tại một độ đo *bị chặn* $\mu'$ trên T tương đương v�
 
 ### 3. Sự phân rã của một độ đo $\mu$ theo một ảnh giả của $\mu$
 
-#### Định lý 2 {#int-vi-s3-thm-2 .statement}
+#### Định lý 2 {#int-vi-s3-thm-2 .statement tag=09C7}
 
 ==========
 
@@ -196,13 +196,13 @@ $$
 
 Do đó Đl. 1 của No. 1, áp dụng cho $\mu''$ và $\nu''$, suy ra rằng với hầu hết mọi $b \in B$, $\lambda'''_b = \lambda''_b$, do đó $\lambda_b = r(b)\lambda'_b$.
 
-#### Định nghĩa 2 {#int-vi-s3-def-2 .statement}
+#### Định nghĩa 2 {#int-vi-s3-def-2 .statement tag=09C8}
 
 *Cho T và B là hai không gian Polish địa phương compact. Cho một độ đo dương $\mu$ trên T, một ánh xạ đo được theo $\mu$ p của T vào B, và một độ đo ảnh giả $\nu$ của $\mu$ theo p, mỗi họ $\nu$-thích hợp $b \mapsto \lambda_b$ ($b \in B$) các độ đo dương trên T có các tính chất b) và c) của Đl. 2 được gọi là một phép phân rã của $\mu$ đối với $\nu$.*
 
 Khi $p$ là $\mu$-thực sự và $\nu = p(\mu)$, khái niệm phân rã đối với $p$ do đó trùng với khái niệm phân rã đối với $\nu$. Dưới các giả thiết của Đl. 2, hai phép phân rã của $\mu$ đối với cùng một độ đo ảnh giả $\nu$ bằng nhau hầu khắp nơi đối với $\nu$.
 
-#### Nhận xét {#int-vi-s3-n3-rem-1 .statement}
+#### Nhận xét {#int-vi-s3-n3-rem-1 .statement tag=09C9}
 
 — Đl. 1 của Ch. V, §3, No. 4 chỉ ra (có tính đến sự kiện rằng T và B có các cơ sở đếm được) rằng với mọi hàm $f$ xác định trên T, có giá trị trong $\overline{\mathbf{R}}$ hoặc trong một không gian Banach F và $\mu$-khả tích, tập hợp các $b \in B$ sao cho $f$ không $\lambda_b$-khả tích là không đáng kể đối với $\nu$, hàm $b \mapsto \int f(t) d\lambda_b(t)$, được xác định hầu khắp nơi, là $\nu$-khả tích, và
 
@@ -220,7 +220,7 @@ Nhắc lại (GT, I, §8, No. 3, Prop. 8) rằng khi R là một quan hệ tươ
 
 Cho p là một ánh xạ của X vào một không gian tôpô Hausdorff B, và cho R là quan hệ tương đương $p(x) = p(y)$ trong X; nếu K là một tập con compact của X sao cho hạn chế của p trên K là liên tục, thì quan hệ $R_K$ cảm sinh bởi R trên K là Hausdorff, bởi vì không gian thương $K / R_K$ là đồng phôi với không gian $p(K)$, là compact (GT, I, §9, No. 4, Th. 2 và Hệ quả của nó 2). Nếu T là một không gian địa phương compact, $\mu$ là một độ đo dương trên T, và p là một ánh xạ đo được theo $\mu$ của T vào một không gian tôpô Hausdorff B, thì do đó ta thấy rằng tồn tại một tập hợp $\mu$-trù mật (Ch. IV, §5, No. 8) các tập con compact K của T sao cho quan hệ $R_K$ là Hausdorff. Vì vậy ta được dẫn đến định nghĩa sau:
 
-#### Định nghĩa 3 {#int-vi-s3-def-3 .statement}
+#### Định nghĩa 3 {#int-vi-s3-def-3 .statement tag=09CA}
 
 *Cho T là một không gian địa phương compact, $\mu$ một độ đo dương trên T. Một quan hệ tương đương R trong T được gọi là $\mu$-đo được nếu tồn tại một tập hợp $\mu$-trù mật các tập con compact K của T sao cho quan hệ $R_K$ là Hausdorff.*
 
@@ -228,7 +228,7 @@ Nếu R là Hausdorff thì R là $\mu$-đo được, bởi vì nếu $\varphi$ l
 
 Chú ý rằng nếu R là $\mu$-đo được, thì R cũng đo được đối với mọi độ đo trên T có cơ sở $\mu$.
 
-#### Mệnh đề 2 {#int-vi-s3-prop-2 .statement}
+#### Mệnh đề 2 {#int-vi-s3-prop-2 .statement tag=09CB}
 
 *Cho T là một không gian địa phương compact đếm được tại vô hạn, $\mu$ là một độ đo dương trên T.
 
@@ -244,7 +244,7 @@ Let A là sự bão hòa của $\bigcup_n K_n$ đối với quan hệ R, và đ�
 
 Xét tập thương $B_0 = N'/R_{N'}$; gọi $q_0$ là ánh xạ chính tắc của $N'$ lên $B_0$, $s_0$ một tiết diện của $q_0$. Đặt $p_0(x) = s_0(q_0(x))$ với $x \in N'$ và mở rộng $p_0$ lên T bằng cách cho $p_0$ là hằng trên A, bằng một phần tử của T. Khi đó $p = (p', p_0)$ là một ánh xạ $\mu$-đo được của T vào không gian địa phương compact $B = B' \times T$; hiển nhiên nếu $x \in N'$, $y \in N'$, quan hệ $p_0(x) = p_0(y)$ suy ra $R\{x, y\}$; do đó $p$ thỏa mãn các yêu cầu. Hơn nữa, nếu T thừa nhận một cơ sở đếm được, thì mỗi không gian thương $B_n$ cũng vậy (GT, IX, §2, No. 10, Prop. 17), do đó $B'$ thừa nhận một cơ sở đếm được, suy ra $B$ cũng thế.
 
-#### Mệnh đề 3 {#int-vi-s3-prop-3 .statement}
+#### Mệnh đề 3 {#int-vi-s3-prop-3 .statement tag=09CC}
 
 — *Cho T là một không gian địa phương compact Polish, $\mu$ là một độ đo dương trên T, và R là một quan hệ tương đương trong T. Các tính chất sau là tương đương:*
 
@@ -260,11 +260,11 @@ Tiếp theo ta hãy chứng minh rằng c) suy ra b). Giả sử c) được th�
 
 Cuối cùng, ta hãy chứng minh rằng a) suy ra c). Theo Mệnh đề 2, tồn tại một không gian compact địa phương B có một cơ sở đếm được, và một ánh xạ $\mu$-đo được $p$ của T vào B, sao cho quan hệ $R\{x, y\}$ tương đương với $p(x) = p(y)$. Hãy lấy $(U_n)$ là một cơ sở đếm được cho tôpô của B. Các tập hợp $A_n = \overline{p^{-1}(U_n)}$ là $\mu$-đo được (Chương IV, §5, No. 5, Mệnh đề 7) và bão hòa đối với R; và nếu $x, y$ là các điểm của T sao cho $p(x) \neq p(y)$, thì tồn tại một chỉ số $n$ sao cho $p(x) \in U_n$ và $p(y) \notin U_n$, nghĩa là $x \in A_n$ và $y \notin A_n$.
 
-#### Nhận xét {#int-vi-s3-n4-rem-1 .statement}
+#### Nhận xét {#int-vi-s3-n4-rem-1 .statement tag=09CD}
 
 Nếu R là một quan hệ tương đương $\mu$-đo được trong T, thì sự bão hòa đối với R của một tập con compact của T không nhất thiết $\mu$-đo được (Bài tập 5).
 
-#### Định lý 3 {#int-vi-s3-thm-3 .statement}
+#### Định lý 3 {#int-vi-s3-thm-3 .statement tag=09CE}
 
 — *Cho T là một không gian compact địa phương có một cơ sở đếm được, $\mu$ là một độ đo dương trên T, và R là một quan hệ tương đương $\mu$-đo được trong T. Khi đó, tồn tại một tập hợp con $\mu$-đo được S của T giao với mỗi lớp theo R tại một và chỉ một điểm (một 'tiết diện đo được' cho R).*
 
@@ -278,7 +278,7 @@ Cho T là một không gian Polish địa phương compact, $\mu$ là một đ�
 
 Không gian B, ánh xạ p và độ đo ảnh giả $\nu$ trên B nói chung có thể được chọn theo vô hạn cách khác nhau. Tuy nhiên, các sự phân rã khác nhau của $\mu$ theo R đều có thể suy ra từ một trong số chúng, như là hệ quả của định lý sau:
 
-#### Định lý 4 {#int-vi-s3-thm-4 .statement}
+#### Định lý 4 {#int-vi-s3-thm-4 .statement tag=09CF}
 
 *Cho T là một không gian Polish địa phương compact, $\mu$ là một độ đo dương trên T, và R là một quan hệ tương đương $\mu$-đo được trong T. Cho B, B' là hai không gian Polish địa phương compact, p, p' là hai ánh xạ $\mu$-đo được của T vào B, B' tương ứng, sao cho R$\{x, y\}$ tương đương với $p(x) = p(y)$ và với $p'(x) = p'(y)$. Cho $\nu, \nu'$ là các độ đo ảnh giả của $\mu$ theo p, p' tương ứng; cho $b \mapsto \lambda_b, b' \mapsto \lambda_{b'}$ là các sự phân rã của $\mu$ tương ứng với các độ đo $\nu, \nu'$.*
 

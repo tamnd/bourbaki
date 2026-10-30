@@ -25,7 +25,7 @@ subsections:
       pdf_page: 255
 statements: 10
 exercises: 0
-content_sha256: 1bb3505ac4e1daf1314c53912b5ccbc1316d47cdbbdbbeaeb27158c6609ae39d
+content_sha256: 9312e1a966f1c5bc60ded7611d1345461f06db492fc343d729b16bcbbd46a1c0
 ---
 
 ## § 2. GROUP OF TANGENT VECTORS TO A LIE GROUP
@@ -67,7 +67,7 @@ $$T(m)(0_x, 0_y) = 0_{m(x, y)}$$
 
 for all x, y in X; in other words, the zero section $x \mapsto 0_x$ of T(X) is compatible with the laws m and T(m).
 
-#### Proposition 1 {#lie-iii-s2-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s2-prop-1 .statement tag=0A8Y}
 
 *Let X be a manifold of class C^r and m a law of composition of class C^r on X. If m is associative (resp. commutative), then T(m) is associative (resp. commutative).*
 
@@ -83,7 +83,7 @@ $$
 
 But $T(s)$ is the mapping $(u, v) \mapsto (v, u)$ of $T(X) \times T(X)$ into $T(X) \times T(X)$. Hence $T(m)$ is commutative.
 
-#### Proposition 2 {#lie-iii-s2-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s2-prop-2 .statement tag=0A8Z}
 
 *Let $X$ be a manifold of class $C^r$, $m$ a law of composition of class $C^r$ on $X$ and $e$ an identity element for $m$.
 
@@ -105,7 +105,7 @@ $$
 
 for all $u \in T(U)$, whence (iii).
 
-#### Proposition 3 {#lie-iii-s2-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s2-prop-3 .statement tag=0A90}
 
 *Let $X_1, X_2, \ldots, X_p, Y$ be manifolds of class $C^r$, $i$ an integer of $\{1, p\}$, $m_i$ (resp. $n$) a law of composition of class $C^r$ on $X_i$ (resp. $Y$) and $u$ a mapping of class $C^r$ of $X_1 \times X_2 \times \cdots \times X_p$ into $Y$. If $u$ is distributive relative to the variable of index $i$, then $T(u)$ is distributive relative to the variable of index $i$.
 
@@ -113,13 +113,13 @@ The proof is analogous to that of Proposition 1.
 
 ### 2. GROUP OF TANGENT VECTORS TO A LIE GROUP
 
-#### Proposition 4 {#lie-iii-s2-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s2-prop-4 .statement tag=0A91}
 
 *Let $G$ be a Lie group. Then $T(G)$, with the law of composition tangent to the multiplication of $G$, is a Lie group. The identity element of $T(G)$ is the vector $0_e$.
 
 This follows from Propositions 1 and 2.
 
-#### Proposition 5 {#lie-iii-s2-prop-5 .statement}
+#### Proposition 5 {#lie-iii-s2-prop-5 .statement tag=0A92}
 
 *Let $G$ and $H$ be Lie groups and $f$ a morphism of $G$ into $H$. Then $T(f)$ is a morphism of the Lie group $T(G)$ into the Lie group $T(H)$.
 
@@ -131,13 +131,13 @@ $$
 
 which expresses the fact that $T(f)$ is a group homomorphism.
 
-#### Corollary {#lie-iii-s2-n2-cor-1 .statement}
+#### Corollary {#lie-iii-s2-n2-cor-1 .statement tag=0A93}
 
 *Let $G_1, \ldots, G_n$ be Lie groups. The canonical isomorphism of the manifold $T(G_1 \times \cdots \times G_n)$ onto the manifold $T(G_1) \times \cdots \times T(G_n)$ is a Lie group isomorphism.*
 
 $\mathrm{pr}_i$ is a morphism of $G_1 \times \cdots \times G_n$ into $G_i$ and hence $T(\mathrm{pr}_i)$ is a morphism of $T(G_1 \times \cdots \times G_n)$ into $T(G_i)$.
 
-#### Proposition 6 {#lie-iii-s2-prop-6 .statement}
+#### Proposition 6 {#lie-iii-s2-prop-6 .statement tag=0A94}
 
 *Let $G$ be a Lie group.*
   (i) *The canonical projection $p : T(G) \to G$ is a Lie group morphism.*
@@ -149,7 +149,7 @@ Assertion (i) follows from (5). Assertion (ii) is obvious taking account of Prop
 
 Let $u \in T(G)$ and $g \in G$. By (3) and (4), the products $ug, gu$ calculated in the group $T(G)$ are the images of $u$ under $T(\delta(g^{-1}))$ and $T(\gamma(g))$. It follows from § 1, Corollary 2 to Proposition 17 that the mapping $(g, u) \mapsto gu$ of $G \times T_e(G)$ into $T(G)$ is an isomorphism of the trivial vector bundle $G \times T_e(G)$ with base space $G$ onto the vector bundle $T(G)$. The inverse isomorphism is called the *left trivialization* of $T(G)$. By considering the mapping $(g, u) \mapsto ug$, the *right trivialization* of $T(G)$ is defined similarly.
 
-#### Proposition 7 {#lie-iii-s2-prop-7 .statement}
+#### Proposition 7 {#lie-iii-s2-prop-7 .statement tag=0A95}
 
 *Let $G$ be a Lie group, $M$ a manifold of class $C^r$ and $f$ and $g$ mappings of class $C^r$ of $M$ into $G$, so that $fg$ is a mapping of class $C^r$ of $M$ into $G$. Let $m \in M, x = f(m), y = g(m), u \in T_m(M)$. Then*
 
@@ -165,7 +165,7 @@ $$
 
 hence $T(fg)u = T(f)u.T(g)u$. It then suffices to apply (1) with $f$ replaced by $m$.
 
-#### Corollary {#lie-iii-s2-n2-cor-2 .statement}
+#### Corollary {#lie-iii-s2-n2-cor-2 .statement tag=0A96}
 
 *Let $n \in \mathbf{Z}$. The tangent mapping at $e$ to the mapping $g \mapsto g^n$ of $G$ into $G$ is the mapping $x \mapsto nx$ of $T_e(G)$ into $T_e(G)$.*
 
@@ -191,7 +191,7 @@ $$
 
 The above can be applied to the case of a Lie group operating on itself by left (resp. right) translation. The corresponding law of operation of T(G) on T(G) is defined by left (resp. right) translation of the Lie group T(G). Formulae (7), (8) and (9) are therefore valid in T(G).
 
-#### Proposition 8 {#lie-iii-s2-prop-8 .statement}
+#### Proposition 8 {#lie-iii-s2-prop-8 .statement tag=0A97}
 
 Let G_1 and G_2 be Lie groups, X_1 and X_2 manifolds of class C^r and f_i a law of left operation of class C^r of G_i on X_i (i = 1, 2). Let \phi be a morphism of G_1 into G_2 and \psi a \phi-morphism of X_1 into X_2. Then T(\psi) is a T(\phi)-morphism of T(X_1) into T(X_2).
 

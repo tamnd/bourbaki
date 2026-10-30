@@ -41,14 +41,14 @@ subsections:
       pdf_page: 296
 statements: 29
 exercises: 18
-content_sha256: 652b0ffe9e2e91793eb78947d5ce00d0b2518f68146e6e76088165fce5b471c3
+content_sha256: c6b0ba83c1111024ac5b63dccfd80e7e10d7699a0c776950771466d1af633780
 ---
 
 ## § 5. FONCTIONS NUMÉRIQUES
 
 ### 1. Fonctions numériques
 
-#### Définition 1 {#top-iv-s5-def-1 .statement}
+#### Définition 1 {#top-iv-s5-def-1 .statement tag=0BR2}
 
 Les applications d’un ensemble $E$ dans la droite numérique sont appelées fonctions numériques (ou fonctions réelles) définies dans $E$.
 
@@ -64,13 +64,13 @@ Toute fonction bornée est donc finie ; la réciproque est inexacte comme le mon
 
 ### 2. Fonctions numériques définies dans un ensemble filtré
 
-#### Proposition 1 {#top-iv-s5-prop-1 .statement}
+#### Proposition 1 {#top-iv-s5-prop-1 .statement tag=0BR3}
 
 Soient $f$ et $g$ deux fonctions numériques, définies dans un ensemble $E$, filtré par un filtre $\mathfrak{F}$. Si $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent, et si, pour toute partie $A \in \mathfrak{F}$, il existe $x \in A$ tel que $f(x) \leq g(x)$, on a $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$.
 
 Pour établir cette proposition, nous démontrerons l’énoncé suivant, qui lui est équivalent:
 
-#### Proposition 2 {#top-iv-s5-prop-2 .statement}
+#### Proposition 2 {#top-iv-s5-prop-2 .statement tag=0BR4}
 
 Soient $f$ et $g$ deux fonctions numériques, définies dans un ensemble $E$, filtré par un filtre $\mathfrak{F}$. Si $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent, et si $\lim_{\mathfrak{F}} f > \lim_{\mathfrak{F}} g$, il existe un ensemble $A \in \mathfrak{F}$ tel que, pour tout $x \in A$, $f(x) > g(x)$.
 
@@ -78,28 +78,28 @@ Posons $a = \lim_{\mathfrak{F}} f$, $b = \lim_{\mathfrak{F}} g$, et soit $c$ tel
 
 De la prop. 1, on déduit, comme cas particulier, le théorème suivant:
 
-#### Théorème 1 (principe de prolongement des inégalités) {#top-iv-s5-thm-1 .statement}
+#### Théorème 1 (principe de prolongement des inégalités) {#top-iv-s5-thm-1 .statement tag=0BR5}
 
 Soient $f, g$ deux fonctions numériques, définies dans un ensemble $E$, filtré par un filtre $\mathfrak{F}$. Si $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent, et si $f \leq g$, on a aussi $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$.
 
-#### Remarque {#top-iv-s5-n2-rem-1 .statement}
+#### Remarque {#top-iv-s5-n2-rem-1 .statement tag=0BR6}
 
 Si on a en particulier $f(x) < g(x)$ pour tout $x \in E$ (ou seulement pour tous les points d’un ensemble du filtre $\mathfrak{F}$), on peut en conclure, d’après le th. 1, que $\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$; mais il ne faudrait pas croire qu’on puisse en déduire l’inégalité plus précise $\lim_{\mathfrak{F}} f < \lim_{\mathfrak{F}} g$. Par exemple, si on prend pour $E$ l’ensemble $\mathbf{N}$ des entiers naturels, filtré par le filtre de Fréchet, et si $f(n) = 0, g(n) = 1/n$, on a $f(n) < g(n)$ quel que soit $n$, mais $\lim_{n \to \infty} f(n) = \lim_{n \to \infty} g(n) = 0$.
 
 D’une manière plus imagée, on peut dire qu’on perd en précision lorsqu’on passe à la limite dans une inégalité stricte.
 
-#### Théorème 2 (théorème de la limite monotone) {#top-iv-s5-thm-2 .statement}
+#### Théorème 2 (théorème de la limite monotone) {#top-iv-s5-thm-2 .statement tag=0BR7}
 
 Soient $E$ un ensemble ordonné, $A$ une partie de $E$ filtrante à droite.\footnote{Cet énoncé suppose implicitement que la relation d’ordre dans $E$ est notée $x \leq y$. Si cette relation est notée $x(\sigma)y$, où $(\sigma)$ est un certain signe ou groupe de signes caractéristique de la relation envisagée, il faut remplacer, dans l’énoncé, les mots « filtrante à droite » par « filtrante pour la relation $(\sigma)$ ».} Toute fonction numérique monotone $f$ définie dans $A$ possède une limite suivant $A$ (I, p. 49); si $f$ est croissante (resp. décroissante), cette limite est égale à la borne supérieure (resp. inférieure) de l’ensemble $f(A) \subset \overline{\mathbf{R}}$.
 
 Supposons par exemple que $f$ soit croissante, et soit $a = \sup f(A)$. Si $a = -\infty$, le théorème est trivial. Si $a > -\infty$, pour tout $b < a$, il existe $x \in A$ tel que $b < f(x) \leq a$; donc, si $S_x$ est la section de $A$ relative à $x$ (ensemble des $y \geq x$, cf. I, p. 38), $f(S_x)$ est contenu dans le voisinage $]b, +\infty]$ de $a$, d’où le théorème. Démonstration analogue lorsque $f$ est décroissante.
 
-#### Corollaire {#top-iv-s5-n2-cor-1 .statement}
+#### Corollaire {#top-iv-s5-n2-cor-1 .statement tag=0BR8}
 
 Pour qu’une fonction numérique croissante (resp. décroissante), définie dans une partie filtrante $A$ d’un ensemble ordonné $E$, ait une limite finie suivant $A$, il faut et il suffit qu’elle soit majorée (resp. minorée) dans $A$.
 
 Si on applique le th. 2 au cas où $A = E = \mathbf{N}$ (ordonné par la relation $\leqslant$), on a la proposition suivante:
-#### Proposition 3 {#top-iv-s5-prop-3 .statement}
+#### Proposition 3 {#top-iv-s5-prop-3 .statement tag=0BR9}
 
 *Toute suite monotone de nombres réels a une limite dans $\overline{\mathbf{R}}$.*
 
@@ -113,20 +113,20 @@ De même, toute suite d’entiers $(p_n)$ *strictement croissante* converge vers
 
 Soit $A$ une partie non vide de $\overline{\mathbf{R}}$, et $a \neq -\infty$ un point de $\overline{\mathbf{R}}$ adhérent à l’ensemble $B = A \cap (-\infty, a[$. L’ensemble $B$ est filtrant pour la relation $\leqslant$, et son filtre des sections $\mathfrak{F}$ est identique à la *trace* sur $B$ du filtre des voisinages de $a$ dans $\overline{\mathbf{R}}$.
 
-#### Définition 2 {#top-iv-s5-def-2 .statement}
+#### Définition 2 {#top-iv-s5-def-2 .statement tag=0BRA}
 
 *Soit $f$ une fonction définie dans la partie $A$ de $\overline{\mathbf{R}}$, à valeurs dans un espace topologique $E$. Une limite de $f$ suivant le filtre $\mathfrak{F}$, si elle existe, s’appelle limite à gauche de $f$ au point $a$, relativement à $A$, et se note $\lim_{x \to a, x < a, x \in A} f(x)$, ou $f(a-)$ lorsque $E$ est séparé.*
 
 On définit de même, lorsque $a \neq +\infty$ est adhérent à l’ensemble $A \cap ]a, +\infty]$, une *limite à droite* (si elle existe) de $f$ au point $a$ qu’on note $\lim_{x \to a, x > a, x \in A} f(x)$, ou $f(a+)$ lorsque $E$ est séparé.
 
 Le th. 2 de IV, p. 18 entraîne immédiatement la proposition suivante:
-#### Proposition 4 {#top-iv-s5-prop-4 .statement}
+#### Proposition 4 {#top-iv-s5-prop-4 .statement tag=0BRB}
 
 *Soient $A$ une partie de $\overline{\mathbf{R}}$, $a \neq -\infty$ un point adhérent à l’intersection $A \cap (-\infty, a[$; si $f$ est une fonction numérique monotone définie dans $A$, elle a une limite à gauche $f(a-)$ au point $a$, relativement à $A$.*
 
 ### 4. Bornes d’une fonction numérique
 
-#### Définition 3 {#top-iv-s5-def-3 .statement}
+#### Définition 3 {#top-iv-s5-def-3 .statement tag=0BRC}
 
 *Soit $f$ une fonction numérique définie dans un ensemble $E$; on appelle borne supérieure (resp. borne inférieure) de $f$ dans une partie non vide $A$ de $E$, et on note $\sup_{x \in A} f(x)$ (resp. $\inf_{x \in A} f(x)$) la borne supérieure (resp. borne inférieure) dans $\overline{\mathbf{R}}$ de l’ensemble $f(A)$.
 
@@ -152,7 +152,7 @@ $$
 $$
 Cette relation ramène toutes les propriétés de la borne inférieure à celles de la borne supérieure; aussi ne parlerons-nous en général que de ces dernières.
 
-#### Proposition 5 {#top-iv-s5-prop-5 .statement}
+#### Proposition 5 {#top-iv-s5-prop-5 .statement tag=0BRD}
 
 Soit $f$ une fonction numérique définie dans un ensemble E. Dans l’ensemble $\mathfrak{F}(E)$ des parties finies de E, ordonné filtrant pour la relation $\subset$, la fonction numérique $H \mapsto \sup_{x \in H} f(x)$ est croissante, la fonction numérique $H \mapsto \inf_{x \in H} f(x)$ est décroissante et on a
 $$
@@ -169,7 +169,7 @@ $$
 \sup A = \lim_{H \in \mathfrak{F}(A)} (\sup_{x \in H} x).
 $$
 
-#### Proposition 6 {#top-iv-s5-prop-6 .statement}
+#### Proposition 6 {#top-iv-s5-prop-6 .statement tag=0BRE}
 
 *Soient f et g deux fonctions numériques définies dans E. Si $f(x) \leq g(x)$ en tout point d’une partie non vide $A$ de $E$, on a*
 
@@ -182,7 +182,7 @@ $$
 
 (5)
 
-#### Proposition 7 {#top-iv-s5-prop-7 .statement}
+#### Proposition 7 {#top-iv-s5-prop-7 .statement tag=0BRF}
 
 *Soit f une fonction numérique définie dans E; si A et B sont deux parties non vides de E telles que $A \subset B$, on a*
 
@@ -192,7 +192,7 @@ $$
 
 (6)
 
-#### Proposition 8 {#top-iv-s5-prop-8 .statement}
+#### Proposition 8 {#top-iv-s5-prop-8 .statement tag=0BRG}
 
 *Soient f une fonction numérique définie dans E, et $(A_i)_{i \in I}$ une famille de parties non vides de E; on a*
 
@@ -206,7 +206,7 @@ Ces propositions sont des cas particuliers de E, III, p. 11, prop. 6 et 7 et cor
 
 Soit f une fonction numérique définie dans un ensemble produit $E_1 \times E_2$; si $A_2$ est une partie non vide de $E_2$, on notera $\sup_{x_2 \in A_2} f(x_1, x_2)$ la borne supérieure dans $A_2$ de la fonction numérique $x_2 \mapsto f(x_1, x_2)$ définie dans $E_2$. De la prop. 8, on déduit en particulier:
 
-#### Proposition 9 {#top-iv-s5-prop-9 .statement}
+#### Proposition 9 {#top-iv-s5-prop-9 .statement tag=0BRH}
 
 *Soit f une fonction numérique définie dans un ensemble produit $E_1 \times E_2$. Quelles que soient les parties non vides $A_1$ de $E_1$, $A_2$ de $E_2$, on a*
 
@@ -218,7 +218,7 @@ $$
 
 ### 5. Enveloppes d’une famille de fonctions numériques
 
-#### Définition 4 {#top-iv-s5-def-4 .statement}
+#### Définition 4 {#top-iv-s5-def-4 .statement tag=0BRI}
 
 *Soit $(f_i)_{i \in I}$ une famille de fonctions numériques, définies dans un ensemble E. On appelle enveloppe supérieure (resp. enveloppe inférieure) de la famille $(f_i)$, et on note $\sup_{i \in I} f_i$ ou $\sup_i f_i$ (resp. $\inf_{i \in I} f_i$ ou $\inf_i f_i$), la fonction numérique définie dans E, dont la valeur en tout point $x \in E$ est $\sup_{i \in I} (f_i(x))$ (resp. $\inf_{i \in I} (f_i(x))$).
 
@@ -226,7 +226,7 @@ L’enveloppe supérieure de la famille $(f_i)$ n’est autre que la *borne sup�
 
 En outre, si on munit $\overline{\mathbf{R}}^E$ de la *topologie produit* de celles de ses facteurs (tous identiques à $\overline{\mathbf{R}}$), on a la proposition suivante:
 
-#### Proposition 10 {#top-iv-s5-prop-10 .statement}
+#### Proposition 10 {#top-iv-s5-prop-10 .statement tag=0BRJ}
 
 *Dans l’espace produit $\overline{\mathbf{R}}^E$, l’enveloppe supérieure $\sup_i f_i$ d’une famille* de fonctions numériques $(f_i)_{i \in I}$ est la limite, suivant l’ensemble filtrant $\mathfrak{F}(I)$ des parties finies de $I$, de l’application $H \mapsto \sup_{i \in H} f_i$ (qui, à tout partie finie $H$ de $I$, fait correspondre l’enveloppe supérieure de la sous-famille finie $(f_i)_{i \in H}$).
 
@@ -238,7 +238,7 @@ $$
 \sup_{i \in I} f_i = \lim_{H \in \mathfrak{F}(I)} (\sup_{i \in H} f_i).
 $$
 
-#### Définition 5 {#top-iv-s5-def-5 .statement}
+#### Définition 5 {#top-iv-s5-def-5 .statement tag=0BRK}
 
 Une famille $(f_i)_{i \in I}$ de fonctions numériques, définies dans un ensemble $E$, est dite uniformément majorée (resp. uniformément minorée) dans $E$, s’il existe un nombre fini $a$ tel que $f_i(x) \leq a$ (resp. $f_i(x) \geq a$) quels que soient $x \in E$ et $i \in I$. La famille $(f_i)$ est dite uniformément bornée dans $E$ si elle est à la fois uniformément majorée et uniformément minorée dans $E$.
 
@@ -248,7 +248,7 @@ Pour que $(f_i)$ soit uniformément majorée dans $E$, il faut et il suffit donc
 
 Soit $f$ une fonction numérique, définie dans un ensemble $E$, filtré par un filtre $\mathfrak{G}$. On sait (I, p. 39) que $\mathfrak{G}$ est un ensemble ordonné filtrant pour la relation $\supseteq$. Considérons, pour tout ensemble $X \in \mathfrak{G}$, le nombre réel $\sup_{x \in X} f(x)$; on définit ainsi une application $X \mapsto \sup_{x \in X} f(x)$ de $\mathfrak{G}$ dans $\overline{\mathbf{R}}$, qui est décroissante dans $\mathfrak{G}$, d’après la prop. 7 de IV, p. 21. Elle a donc une limite suivant l’ensemble filtrant $\mathfrak{G}$, d’après le th. 2 de IV, p. 18.
 
-#### Définition 6 {#top-iv-s5-def-6 .statement}
+#### Définition 6 {#top-iv-s5-def-6 .statement tag=0BRL}
 
 On appelle limite supérieure de $f$ suivant le filtre $\mathfrak{G}$, et on note $\lim.\sup_{\mathfrak{G}} f$, ou $\lim.\sup_{x,\mathfrak{G}} f(x)$, la limite de la fonction numérique $X \mapsto \sup_{x \in X} f(x)$ suivant l’ensemble filtrant $\mathfrak{G}$.
 
@@ -283,14 +283,14 @@ $$
 $$
 ce qui permet de n’étudier que les propriétés de la limite supérieure.
 
-#### Théorème 3 {#top-iv-s5-thm-3 .statement}
+#### Théorème 3 {#top-iv-s5-thm-3 .statement tag=0BRM}
 
 *La limite supérieure d’une fonction numérique $f$ suivant un filtre $\mathfrak{G}$ est égale à la plus grande valeur d’adhérence de $f$ suivant $\mathfrak{G}$.*
 En effet, soit $b$ une valeur d’adhérence de $f$ suivant $\mathfrak{G}$; pour tout $X \in \mathfrak{G}$, $b$ est adhérent à $f(X)$, donc $b \leq \sup_{x \in X} f(x)$, ce qui entraîne, d’après (12),
 $b \leq \lim.\sup_{\mathfrak{G}} f = a$.
 D’autre part, soit $V$ un voisinage ouvert quelconque du point $a$ dans $\overline{\mathbf{R}}$; il existe $X_0 \in \mathfrak{G}$ tel que, pour tout $X \in \mathfrak{G}$ contenu dans $X_0$, on ait $\sup_{x \in X} f(x) \in V$; comme $V$ est ouvert, on en déduit que $f(X)$ rencontre $V$; donc $a$ est une *valeur d’adhérence* de $f$ suivant $\mathfrak{G}$, ce qui achève la démonstration.
 
-#### Corollaire 1 {#top-iv-s5-thm-3-cor-1 .statement}
+#### Corollaire 1 {#top-iv-s5-thm-3-cor-1 .statement tag=0BRN}
 
 *Pour que $\lim.\sup_{\mathfrak{G}} f = \lim.\inf_{\mathfrak{G}} f$, il faut et il suffit que $f$ ait une limite suivant le filtre $\mathfrak{G}$; on a alors*
 $$
@@ -298,7 +298,7 @@ $$
 $$
 En effet, comme $\overline{\mathbf{R}}$ est compact, pour que la base de filtre $f(\mathfrak{G})$ ait un point limite, il faut et il suffit que l’ensemble de ses points adhérents se réduise à un point (I, p. 60, corollaire).
 
-#### Corollaire 2 {#top-iv-s5-thm-3-cor-2 .statement}
+#### Corollaire 2 {#top-iv-s5-thm-3-cor-2 .statement tag=0BRO}
 
 *Si $\mathfrak{H}$ est un filtre plus fin que $\mathfrak{G}$, on a*
 $$
@@ -310,7 +310,7 @@ $$
 \lim.\inf_{\mathfrak{G}} f \leq \lim_{\mathfrak{H}} f \leq \lim.\sup_{\mathfrak{G}} f.
 $$
 
-#### Corollaire 3 {#top-iv-s5-thm-3-cor-3 .statement}
+#### Corollaire 3 {#top-iv-s5-thm-3-cor-3 .statement tag=0BRP}
 
 Soit $A$ un ensemble du filtre $\mathfrak{G}$ et soient $\mathfrak{G}_A$ le filtre induit sur $A$ par $\mathfrak{G}$, $f_A$ la restriction de $f$ à $A$; on a
 $$
@@ -320,7 +320,7 @@ En effet, tout point adhérent à la base de filtre $f(\mathfrak{G})$ est adhér
 
 En raison de ce fait, lorsque $f$ n’est définie que sur une partie $A$ de $E$ appartenant à $\mathfrak{G}$, on écrit souvent $\limsup_{\mathfrak{G}} f$, au lieu de $\limsup_{\mathfrak{G}_A} f_A$, par abus de langage.
 
-#### Proposition 11 {#top-iv-s5-prop-11 .statement}
+#### Proposition 11 {#top-iv-s5-prop-11 .statement tag=0BRQ}
 
 Soient $f$ et $g$ deux fonctions numériques définies dans un ensemble filtré $E$. La relation $f \leq g$ entraîne
 $$
@@ -372,7 +372,7 @@ Cette dernière fonction est donc définie lorsque $f$ ne prend pas la valeur 0;
 
 Supposons $E$ filtré par un filtre $\mathfrak{F}$, et que $\lim_{\mathfrak{F}} f$ et $\lim_{\mathfrak{F}} g$ existent; si, d’une part, la fonction $f + g$ (resp. $fg$, resp. $1/f$) est définie, et si, d’autre part, l’expression $\lim_{\mathfrak{F}} f + \lim_{\mathfrak{F}} g$ (resp. $\lim_{\mathfrak{F}} f . \lim_{\mathfrak{F}} g$, resp. $1/\lim_{\mathfrak{F}} f$) a un sens, alors $\lim_{\mathfrak{F}} (f + g)$ (resp. $\lim_{\mathfrak{F}} fg$, resp. $\lim_{\mathfrak{F}} (1/f)$) existe et est égale à cette expression, en vertu de la continuité de la fonction $x + y$ (resp. $xy$, resp. $1/x$) aux points où elle est définie.
 
-#### Proposition 12 {#top-iv-s5-prop-12 .statement}
+#### Proposition 12 {#top-iv-s5-prop-12 .statement tag=0BRR}
 
 *Soient $f$ et $g$ deux fonctions numériques définies dans un ensemble $E$, et $A$ une partie non vide de $E$.*
 
@@ -420,7 +420,7 @@ $$
 
 Les inégalités (17) et (18) en résultent, en appliquant la prop. 5 de IV, p. 20 et le th. 1 de IV, p. 18. Démonstrations analogues pour les autres inégalités.
 
-#### Corollaire 1 {#top-iv-s5-prop-12-cor-1 .statement}
+#### Corollaire 1 {#top-iv-s5-prop-12-cor-1 .statement tag=0BRS}
 
 *Soient $f$ une fonction numérique définie dans $E$, et $k$ un nombre réel. On a*
 $$
@@ -433,7 +433,7 @@ $$
 $$
 *lorsque les deux membres sont définis*.
 
-#### Corollaire 2 {#top-iv-s5-prop-12-cor-2 .statement}
+#### Corollaire 2 {#top-iv-s5-prop-12-cor-2 .statement tag=0BRT}
 
 *Soient $f_1$ et $f_2$ deux fonctions numériques définies respectivement dans des ensembles $E_1$ et $E_2$; quelles que soient les parties non vides $A_1 \subset E_1, A_2 \subset E_2$, on a*
 $$
@@ -459,7 +459,7 @@ $$
 $$
 lorsque les deux membres ont un sens.
 
-#### Proposition 13 {#top-iv-s5-prop-13 .statement}
+#### Proposition 13 {#top-iv-s5-prop-13 .statement tag=0BRU}
 
 *Soient f et g deux fonctions numériques définies dans un ensemble filtré E.*
 
@@ -494,7 +494,7 @@ $$
 
 Ce sont des conséquences de la prop. 12 (IV, p. 25) et des relations (10) (IV, p. 22).
 
-#### Corollaire 1 {#top-iv-s5-prop-13-cor-1 .statement}
+#### Corollaire 1 {#top-iv-s5-prop-13-cor-1 .statement tag=0BRV}
 
 *Soient f et g deux fonctions numériques définies dans un ensemble filtré E. Si $\lim g$ existe, on a*
 (33)
@@ -508,7 +508,7 @@ $$
 $$
 *lorsque les deux membres sont définis, et que f et g sont $\geq 0$.*
 
-#### Corollaire 2 {#top-iv-s5-prop-13-cor-2 .statement}
+#### Corollaire 2 {#top-iv-s5-prop-13-cor-2 .statement tag=0BRW}
 
 *Soient f et g deux fonctions numériques définies dans un ensemble filtré E. Si $\lim f = +\infty$, $\lim . \inf g > -\infty$, et si $f + g$ est définie, on a $\lim (f + g) = +\infty$. Si $\lim f = +\infty$, $\lim . \inf g > 0$ et si $fg$ est défini, on a $\lim fg = +\infty$.*
 

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: 2f1a5bd87f4411ccbc79d4588d2746155dcaeb847a59bd23a9c9915ac79774b0
+content_sha256: 88835ad1fbae7ef0a5c13987bac0f6fc980b84197bf24b3bc093b8842e1a4906
 ---
 
 ## § 7. CONVERGENCE OF THE HAUSDORFF SERIES (REAL OR COMPLEX CASE)
@@ -101,7 +101,7 @@ $$
 $$
 Let $r, s \geq 0$ and let $\| \tilde{H}_{r,s} \|$ be the norm of the continuous-polynomial $\tilde{H}_{r,s}$ (Differentiable and Analytic Manifolds, R, Appendix, no. 2).
 
-#### Lemma 1 {#lie-ii-s7-lem-1 .statement}
+#### Lemma 1 {#lie-ii-s7-lem-1 .statement tag=0A6L}
 
 $$
 \| \tilde{H}_{r,s} \| \leq M^{r+s-1} \eta_{r,s}.
@@ -137,7 +137,7 @@ $$
 
 which proves the lemma.
 
-#### Proposition 1 {#lie-ii-s7-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s7-prop-1 .statement tag=0A6M}
 
 *The formal power series* $\tilde{H}$ *is a convergent series* (*Differentiable and Analytic Manifolds*, R, 3.1.1); *its domain of absolute convergence* (*Differentiable and Analytic Manifolds*, R, 3.1.4) *contains the open set*
 
@@ -171,7 +171,7 @@ $$
 \text{(15)} \quad h(0, x) = h(x, 0) = x \quad \text{for } \|x\| < \frac{1}{M} \log 2.
 $$
 
-#### Proposition 2 {#lie-ii-s7-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s7-prop-2 .statement tag=0A6N}
 
 *Let*
 
@@ -303,7 +303,7 @@ $$
 $$
 Hence $\tilde{H}$ defines an analytic function $h : \Omega \to A$. Then $h(x, y) = \sum_{r,s} H_{r,s}(x, y)$ (cf. § 3, no. 1, *Remark 4*).
 
-#### Proposition 3 {#lie-ii-s7-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s7-prop-3 .statement tag=0A6O}
 
 *For $\|x\| + \|y\| < \frac{1}{2} \log 2$,*
 (23)    $\exp_A x \cdot \exp_A y = \exp_A h(x, y).$

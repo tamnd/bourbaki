@@ -45,7 +45,7 @@ subsections:
       pdf_page: 127
 statements: 29
 exercises: 58
-content_sha256: 19bf0e96e44fdb62f0ed1e7ecb0e5603ce0910a170c5108446329276d2997029
+content_sha256: 8284056f7bb9091fb63ca6786553e2486682247efaebdd6c86892a1bed817811
 translated_from: content/fr/ac/IX/01_s1_vecteurs_de_witt.md
 source_lang: fr
 translation_method: machine
@@ -80,7 +80,7 @@ $$
 
 When one assigns to $X_i$ the weight $p^i$, the polynomial $\Phi_n$ is isobaric of weight $p^n$ (A, IV, p. 3).
 
-#### Proposition 1 {#ac-ix-s1-prop-1 .statement}
+#### Proposition 1 {#ac-ix-s1-prop-1 .statement tag=0CTV}
 
 Let A be a filtered ring and $(\mathbf{J}_n)_{n \in \mathbf{Z}}$ its filtration. Assume that one has $\mathbf{J}_0 = \mathbf{A}$ and $p.1_A \in \mathbf{J}_1$. Let m and n be integers such that $m \geqslant 1$ and $n \geqslant 0$, and let $a_0, ..., a_n, b_0, ..., b_n$ be elements of A.
 
@@ -91,7 +91,7 @@ $$
 
 b) Suppose that, for every integer $k \geqslant 1$, and every $x \in \mathbf{A}$, the relation $p.x \in \mathbf{J}_{k+1}$ entails $x \in \mathbf{J}_k$. If one has $\Phi_i(a_0, ..., a_i) \equiv \Phi_i(b_0, ..., b_i) \mod \mathbf{J}_{m+i}$ for $0 \leqslant i \leqslant n$, then one has $a_i \equiv b_i \mod \mathbf{J}_m$ for $0 \leqslant i \leqslant n$.
 
-#### Lemma 1 {#ac-ix-s1-lem-1 .statement}
+#### Lemma 1 {#ac-ix-s1-lem-1 .statement tag=0CTW}
 
 If x and y are two elements of A congruent modulo $\mathbf{J}_m$, one has
 $$
@@ -118,7 +118,7 @@ Let A be a ring. Endow $\mathbf{A}^\mathbf{N}$ with the product ring structure. 
 
 For every integer $m \geqslant 0$, denote by $\Phi_m$ the mapping from $\mathbf{A}^{\mathbf{N}}$ into $\mathbf{A}$ which associates $\Phi_m(a_0, ..., a_m)$ with $a = (a_n)_{n \in \mathbf{N}}$. We denote by $\Phi_A$, or simply by $\Phi$, the mapping $a \mapsto (\Phi_n(a))_{n \in \mathbf{N}}$ from $\mathbf{A}^{\mathbf{N}}$ into itself.
 
-#### Lemma 2 {#ac-ix-s1-lem-2 .statement}
+#### Lemma 2 {#ac-ix-s1-lem-2 .statement tag=0CTX}
 
 Let $\mathbf{A}$ be a ring endowed with an endomorphism $\sigma$ satisfying $\sigma(a) \equiv a^p \mod. p \cdot \mathbf{A}$ for every $a \in \mathbf{A}$. Let $n \geqslant 1$ be an integer and let $a_0, ..., a_{n-1}$ be elements of $\mathbf{A}$. Put $u_i = \Phi_i(a_0, ..., a_i)$ for $0 \leqslant i \leqslant n - 1$. Let $u_n$ be an element of $\mathbf{A}$. The following conditions are equivalent:
 
@@ -146,7 +146,7 @@ $$
 
 The lemma follows.
 
-#### Proposition 2 {#ac-ix-s1-prop-2 .statement}
+#### Proposition 2 {#ac-ix-s1-prop-2 .statement tag=0CTY}
 
 Let $\mathbf{A}$ be a ring.
 
@@ -169,7 +169,7 @@ Let $u = (u_n)_{n \in \mathbf{N}}$ be in $\mathbf{A}^{\mathbf{N}}$. When $p \cdo
 
 Let us prove c). According to Lemma 2, the image $\mathbf{A}'$ of $\mathbf{A}^{\mathbf{N}}$ by $\Phi_A$ is the set of $u = (u_n)_{n \in \mathbf{N}}$ in $\mathbf{A}^{\mathbf{N}}$ such that $\sigma(u_n) \equiv u_{n+1} \mod. p^{n+1} \cdot \mathbf{A}$ for every $n \in \mathbf{N}$. It follows immediately that $\mathbf{A}'$ is a subring of $\mathbf{A}^{\mathbf{N}}$, stable under $f_A$ and $v_A$.
 
-#### Remark {#ac-ix-s1-n2-rem-1 .statement}
+#### Remark {#ac-ix-s1-n2-rem-1 .statement tag=0CTZ}
 
 Let $a = (a_n)_{n \in \mathbf{N}}$ and $u = (u_n)_{n \in \mathbf{N}}$ be elements of $A^\mathbf{N}$ such that $u = \Phi_A(a)$, and let $m$ be an integer $\geqslant 0$. From (10) one deduces the following assertions:
 
@@ -210,7 +210,7 @@ d) We have $F_n \in \mathbf{Z}[X_0, ..., X_{n+1}]$ and $F_n$ is isobaric of weig
 
 Formula (2) makes it possible in practice to determine the polynomials $S_n, P_n, I_n$ and $F_n$ successively.
 
-#### Example 1 {#ac-ix-s1-n3-exa-1 .statement}
+#### Example 1 {#ac-ix-s1-n3-exa-1 .statement tag=0CU0}
 
 We have
 
@@ -223,7 +223,7 @@ $$
 
 Moreover, $S_n - X_n - Y_n$ belongs to the ring $\mathbf{Z}[X_0, ..., X_{n-1}, Y_0, ..., Y_{n-1}]$.
 
-#### Example 2 {#ac-ix-s1-n3-exa-2 .statement}
+#### Example 2 {#ac-ix-s1-n3-exa-2 .statement tag=0CU1}
 
 We have
 
@@ -234,7 +234,7 @@ $$
 P_1 = p X_1 Y_1 + X_0^p Y_1 + X_1 Y_0^p.
 $$
 
-#### Example 3 {#ac-ix-s1-n3-exa-3 .statement}
+#### Example 3 {#ac-ix-s1-n3-exa-3 .statement tag=0CU2}
 
 When $p \neq 2$, we have $I_n = - X_n$. For $p = 2$, we have
 
@@ -248,7 +248,7 @@ $$
 I_2 = - X_0^4 - X_0^2 X_1 - X_1^2 - X_2.
 $$
 
-#### Example 4 {#ac-ix-s1-n3-exa-4 .statement}
+#### Example 4 {#ac-ix-s1-n3-exa-4 .statement tag=0CU3}
 
 We have
 
@@ -261,7 +261,7 @@ $$
 
 Since we have $\Phi_n(F_0, ..., F_n) \equiv \Phi_n(X_0^p, ..., X_n^p) \mod. p^{n+1}$. A for every $n \in \mathbf{N}$ (formulas (2) and (15)), it follows from prop. 1, b) that we have $F_n \equiv X_n^p \mod. p$. A for every $n \in \mathbf{N}$.
 
-#### Remark {#ac-ix-s1-n3-rem-1 .statement}
+#### Remark {#ac-ix-s1-n3-rem-1 .statement tag=0CU4}
 
 Let $J$ be the set of integers $j \geq 1$. For every element $j$ of $J$, define the polynomial $\varphi_j$ of $\mathbf{Z}[(X_j)_{j \in J}]$ by the formula
 
@@ -333,13 +333,13 @@ $$
 \rho^\mathbf{N} \circ \Phi_B = \Phi_A \circ W(\rho) .
 $$
 
-#### Lemma 3 {#ac-ix-s1-lem-3 .statement}
+#### Lemma 3 {#ac-ix-s1-lem-3 .statement tag=0CU5}
 
 Let A be a ring. There exists a surjective homomorphism of rings $\rho : B \to A$, where B is a ring satisfying the following conditions: p is not a divisor of 0 in B, and there exists an endomorphism $\sigma$ of B such that $\sigma(b) \equiv b^p \mod. p.B$ for all $b \in B$.
 
 It suffices indeed to set $B = \mathbf{Z}[(X_a)_{a \in A}]$, to take for $\sigma$ the endomorphism of B defined by $\sigma(X_a) = X_a^p$ for all $a \in A$, and for $\rho$ the homomorphism of B into A defined by $\rho(X_a) = a$ for all $a \in A$.
 
-#### Theorem 1 {#ac-ix-s1-thm-1 .statement}
+#### Theorem 1 {#ac-ix-s1-thm-1 .statement tag=0CU6}
 
 a) Let A be a (commutative) ring. Endowed with the addition $S_A$ and the multiplication $P_A$, W(A) is a (commutative) ring. The identity element for the addition is the sequence $0_A$ all of whose terms are zero; the identity element for the multiplication is the sequence $1_A$ all of whose terms are zero except the one of index 0 which is equal to $1_A$. The opposite of an element a of W(A) is $I_A(a)$.
 
@@ -353,13 +353,13 @@ Let $\rho : B \to A$ be a homomorphism of rings satisfying the conditions of Lem
 
 The mapping $W(\rho) : W(B) \to W(A)$ is surjective. According to formulas (19) and (20), the equivalence relation R on $W(B)$ associated with the mapping $W(\rho)$ is compatible with the ring structure of $W(B)$. Since $W(\rho)$ induces a bijection $\Psi$ from the quotient ring $W(B)/R$ onto $W(A)$, compatible with the laws of addition and multiplication, assertion $a$ follows from this by transport of structure.
 
-#### Definition 1 {#ac-ix-s1-def-1 .statement}
+#### Definition 1 {#ac-ix-s1-def-1 .statement tag=0CU7}
 
 Let $A$ be a ring. The ring $W(A)$ is called the ring of Witt vectors with coefficients in $A$.
 
 For $a$ in $W(A)$ and $n$ in $\mathbf{N}$, the element $\Phi_n(a) = \Phi_n(a_0, ..., a_n)$ is sometimes called the ghost component of index $n$ of $a$.
 
-#### Remark {#ac-ix-s1-n4-rem-1 .statement}
+#### Remark {#ac-ix-s1-n4-rem-1 .statement tag=0CU8}
 
 Let us take up again the notations of the remark of No. 3. Let $A$ be a ring. If $a$ and $b$ are elements of $A^J$ and $r = (r_j)_{j \in J}$ is an element of $A^J$, we denote by $r_A(a, b)$ the element $(r_j(a, b))_{j \in J}$ of $A^J$. Let us denote by $U(A)$ the set $A^J$ endowed with the composition laws $s_A$ and $p_A$. One can show (p. 52, Exercise 35) that, endowed with the addition $s_A$ and the multiplication $p_A$, $U(A)$ is a (commutative) ring; it is called the universal Witt ring of $A$. The identity element for the addition is the element of $U(A)$ all of whose components are zero; the identity element for the multiplication is the element of $U(A)$ all of whose components are zero except that of index 1 which is equal to $1_A$; the opposite of an element $a$ of $U(A)$ is $i_A(a)$. The mapping $\varphi_A$ is a ring homomorphism of $U(A)$ into the product ring $A^J$.
 
@@ -401,7 +401,7 @@ $$
 $$
 follow immediately from the definitions.
 
-#### Proposition 3 {#ac-ix-s1-prop-3 .statement}
+#### Proposition 3 {#ac-ix-s1-prop-3 .statement tag=0CU9}
 
 *Let A be a ring.*
   a) *The mapping $F_A$ is an endomorphism of the ring $W(A)$.*
@@ -481,13 +481,13 @@ $$
 
 This proves the desired relation.
 
-#### Remark {#ac-ix-s1-n5-rem-1 .statement}
+#### Remark {#ac-ix-s1-n5-rem-1 .statement tag=0CUA}
 
 For the definition of mappings analogous to the mappings F and V, in the case of the universal Witt ring, see exercises 36, 37 and 38, p. 52 and following.
 
 ### 6. Filtration and topology of the ring W(A)
 
-#### Lemma 4 {#ac-ix-s1-lem-4 .statement}
+#### Lemma 4 {#ac-ix-s1-lem-4 .statement tag=0CUB}
 
 Let A be a ring and m $\geqslant 1$ an integer. One has
 
@@ -535,7 +535,7 @@ In what follows, we shall endow $W(A)$ with the topology $\mathscr{T}$ associate
 
 Let us denote by $\tau_A$ (or simply $\tau$) the mapping of $A$ into $W(A)$ which associates with an element $a$ of $A$ $(a, 0, 0, ...)$ . We have $\Phi_n(\tau(a)) = a^{p^n}$ for every $n \in \mathbf{N}$. For every ring homomorphism $\rho : B \to A$, we have $W(\rho) \circ \tau_B = \tau_A \circ \rho$.
 
-#### Proposition 4 {#ac-ix-s1-prop-4 .statement}
+#### Proposition 4 {#ac-ix-s1-prop-4 .statement tag=0CUC}
 
 *Let $a$ and $b$ be in $A$ and let $x = (x_n)_{n \in \mathbf{N}}$ be an element of $W(A)$.*
 
@@ -572,7 +572,7 @@ for every integer $m \geq 0$; we deduce b) by passing to the limit since the top
 
 ### 7. The rings $W_n(A)$ of Witt vectors of finite length
 
-#### Definition 2 {#ac-ix-s1-def-2 .statement}
+#### Definition 2 {#ac-ix-s1-def-2 .statement tag=0CUD}
 
 Let $A$ be a ring and let $n \geq 1$ be an integer. We denote by $W_n(A)$ the quotient ring $W(A)/V_n(A)$.
 
@@ -614,11 +614,11 @@ for $[a_0, ..., a_{m-1}]$ in $W_m(A)$. The family $(W_n(A), \pi_{n,m})$ is a pro
 
 Henceforth, the homomorphisms $\pi_n$ and $\pi_{n,m}$ will be called *projection homomorphisms* from $W(A)$ into $W_n(A)$, and from $W_m(A)$ into $W_n(A)$ respectively.
 
-#### Example 1 {#ac-ix-s1-n7-exa-1 .statement}
+#### Example 1 {#ac-ix-s1-n7-exa-1 .statement tag=0CUE}
 
 The homomorphism $\Phi_0 : W_1(A) \to A$ is an isomorphism.
 
-#### Example 2 {#ac-ix-s1-n7-exa-2 .statement}
+#### Example 2 {#ac-ix-s1-n7-exa-2 .statement tag=0CUF}
 
 Let us make explicit the operations in $W_2(A)$. We have
 
@@ -632,7 +632,7 @@ $$
 
 for $[a_0, a_1]$ and $[b_0, b_1]$ in $W_2(A)$. The ghost components of $[a_0, a_1]$ are $a_0$ and $a_0^p + p \cdot a_1$.
 
-#### Example 3 {#ac-ix-s1-n7-exa-3 .statement}
+#### Example 3 {#ac-ix-s1-n7-exa-3 .statement tag=0CUG}
 
 Let $n \geq 1$ be an integer. If $a_0, ..., a_{n-1}, b_0, ..., b_{n-1}$ are integers such that $a_i \equiv b_i \bmod p$ for $0 \leq i < n$, one has (No. 1, prop. 1)
 
@@ -706,7 +706,7 @@ Let $a \in W_m(A)$, $a' \in W_m(A)$ and $b \in W_{m+1}(A)$. The following formul
 
 ### 8. The ring of Witt vectors with coefficients in a ring of characteristic $p$
 
-#### Proposition 5 {#ac-ix-s1-prop-5 .statement}
+#### Proposition 5 {#ac-ix-s1-prop-5 .statement tag=0CUH}
 
 Let $A$ be a ring of characteristic $p$ (A, V, p. 2). Whatever the elements $a$ and $b$ of $W(A)$, and the positive integers $m, n$, one has, if $a = (a_n)_{n \in \mathbf{N}}$,
 
@@ -742,7 +742,7 @@ $$
 
 Formula (53) then results from (54) and (55) and from the relation $F^m \circ V^n = V^n \circ F^m$, itself a consequence of (51).
 
-#### Corollary {#ac-ix-s1-n8-cor-1 .statement}
+#### Corollary {#ac-ix-s1-n8-cor-1 .statement tag=0CUI}
 
 If $m$ and $n$ are two positive integers, one has
 
@@ -752,7 +752,7 @@ $$
 
 This results from formula (53), since $V_m(A)$ is the image of $V^m : W(A) \to W(A)$.
 
-#### Proposition 6 {#ac-ix-s1-prop-6 .statement}
+#### Proposition 6 {#ac-ix-s1-prop-6 .statement tag=0CUJ}
 
 Let $A$ be a ring.
 
@@ -772,7 +772,7 @@ one deduces from a) the inclusions $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.
 
 Let $k$ be an integer $\geqslant 1$. According to formula (52), the ideal $p^k.W(A)$ of $W(A)$ is the set of elements $a = (a_n)_{n \in \mathbf{N}}$ of $W(A)$ such that one has $a_n = 0$ for $n < k$ and $a_n \in A^{p^k}$ for $n \geqslant k$. It is therefore closed for the topology $\mathscr{G}$. Since $W(A)$ is separated and complete for the topology $\mathscr{G}$ (no 6) and since the ideals $p^k.W(A)$ of $W(A)$, for $k \geqslant 1$, form a basis of neighbourhoods of $0$ in $W(A)$ for the $p$-adic topology, the ring $W(A)$ is separated and complete for the $p$-adic topology (TG, III, p. 26, cor. 1 to prop. 10).
 
-#### Proposition 7 {#ac-ix-s1-prop-7 .statement}
+#### Proposition 7 {#ac-ix-s1-prop-7 .statement tag=0CUK}
 
 *Let A be a perfect ring of characteristic p.*
 
@@ -796,7 +796,7 @@ $$
 
 and the assertion a) follows from prop. 4 of no 6.
 
-#### Proposition 8 {#ac-ix-s1-prop-8 .statement}
+#### Proposition 8 {#ac-ix-s1-prop-8 .statement tag=0CUL}
 
 *Let A be a field of characteristic p. The ring $W(A)$ is a separated and complete integral local ring, with maximal ideal $V_1(A)$ and residue field isomorphic to A. If the field A is perfect, the ring $W(A)$ is a discrete valuation ring, and its maximal ideal is $p.W(A)$.*
 
@@ -806,11 +806,11 @@ Let $a$ and $b$ be two nonzero elements of $W(A)$. There exist integers $m \geqs
 
 If the field $A$ is perfect, the maximal ideal $V_1(A)$ of $W(A)$ is equal to $p.W(A)$ (Prop. 7, b)) and consequently W(A) is a discrete valuation ring (VI, § 3, No. 6, Prop. 9, c)).
 
-#### Remark 1 {#ac-ix-s1-n8-rem-1 .statement}
+#### Remark 1 {#ac-ix-s1-n8-rem-1 .statement tag=0CUM}
 
 Let A be a field of characteristic p. One can now prove that the ring W(A) is noetherian if and only if A is perfect (p. 43, Exercise 9).
 
-#### Remark 2 {#ac-ix-s1-n8-rem-2 .statement}
+#### Remark 2 {#ac-ix-s1-n8-rem-2 .statement tag=0CUN}
 
 Let A be a ring of characteristic p. According to Prop. 5, one has the formulas
 

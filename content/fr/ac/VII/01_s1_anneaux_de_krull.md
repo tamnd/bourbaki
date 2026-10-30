@@ -52,14 +52,14 @@ subsections:
       pdf_page: 212
 statements: 44
 exercises: 32
-content_sha256: 30e4445b984b37be490c4bf26d2ba381ce15811dabfb13a95f8a5c3dcd107420
+content_sha256: bfa677a2267151b1660204088ef5724951567f43318f5a81f9b95454b3d124c5
 ---
 
 ## § 1. Anneaux de Krull
 
 ### 1. Idéaux divisoriels d’un anneau intègre
 
-#### Définition 1 {#ac-vii-s1-def-1 .statement}
+#### Définition 1 {#ac-vii-s1-def-1 .statement tag=04YL}
 
 Soient A un anneau intègre, K son corps des fractions. On appelle idéal fractionnaire de A (ou de K, par abus de langage) tout sous-A-module a de K tel qu’il existe un élément d ≠ 0 de A pour lequel da ⊂ A.
 
@@ -69,7 +69,7 @@ Nous noterons I(A) l’ensemble des idéaux fractionnaires non nuls de A. Etant 
 
 Pour tout $a \in I(A)$ il existe par hypothèse un $d \neq 0$ dans $A$ tel que $a \subset Ad^{-1}$; l’intersection $\tilde{a}$ des idéaux principaux fractionnaires contenant $a$ est donc un élément de $I(A)$. Il est clair que la relation $a < b$ est équivalente à la relation $\tilde{a} \supset \tilde{b}$; la relation $a \supset b$ entraîne donc $a < b$. Pour que deux éléments $a, b$ de $I(A)$ soient équivalents modulo $R$, il faut et il suffit que $\tilde{a} = \tilde{b}$.
 
-#### Définition 2 {#ac-vii-s1-def-2 .statement}
+#### Définition 2 {#ac-vii-s1-def-2 .statement tag=04YM}
 
 *On appelle idéal fractionnaire divisoriel de* $A$ *tout élément* $a$ *de* $I(A)$ *tel que* $a = \tilde{a}$.
 
@@ -88,7 +88,7 @@ n° 1
 
 ANNEAUX DE KRULL
 
-#### Proposition 1 {#ac-vii-s1-prop-1 .statement}
+#### Proposition 1 {#ac-vii-s1-prop-1 .statement tag=04YN}
 
 a) Si b est un idéal divisoriel, et si $a \in I(A)$, $b : a$ est divisoriel.
 
@@ -108,11 +108,11 @@ $$
 
 On a donc $A : a = A : (A : (A : a))$, et il résulte de b) que div $a = \mathrm{div}(A : (A : a))$. Comme $A : (A : a)$ est divisoriel en vertu de a), on a bien $\tilde{a} = A : (A : a)$, ce qui prouve c).
 
-#### Remarque {#ac-vii-s1-n1-rem-1 .statement}
+#### Remarque {#ac-vii-s1-n1-rem-1 .statement tag=04YO}
 
 Au cours de la démonstration précédente, on a prouvé que $A : a = A : (A : (A : a))$ pour tout idéal $a \in I(A)$, ce qui est un cas particulier de Ens., chap. III, 3e éd., § 1, n° 5, prop. 2.
 
-#### Proposition 2 {#ac-vii-s1-prop-2 .statement}
+#### Proposition 2 {#ac-vii-s1-prop-2 .statement tag=04YP}
 
 (i) Dans $D(A)$, tout ensemble majoré non vide admet une borne supérieure. Plus précisément, si $(\alpha_i)$ est une famille majorée non vide d’éléments de $I(A)$, on a
 
@@ -134,14 +134,14 @@ Soit maintenant $(\alpha_i)$ une famille minorée non vide d’éléments de $I(
 
 Enfin, pour prouver (iii), il suffit, en vertu de (i) et (ii), de prouver que, si $a, b$ sont dans $I(A)$, l’ensemble $\{ a, b \}$ est à la fois majoré et minoré dans $I(A)$; or il est majoré par $a \cap b$ (qui est différent de (0)). Il est minoré par $a + b$, car on a $a + b \in I(A)$: en effet, si $d$ et $d'$ sont des éléments non nuls de $A$ tels que $da \subset A$ et $d'b \subset A$, on a $dd'(a + b) \subset A$.
 
-#### Corollaire {#ac-vii-s1-n1-cor-1 .statement}
+#### Corollaire {#ac-vii-s1-n1-cor-1 .statement tag=04YQ}
 
 *Si $x, y$ et $x + y$ sont dans $K^*$, on a* div$(x + y) \geq \inf(\mathrm{div}(x), \mathrm{div}(y))$.
 En effet $A(x + y) \subset Ax + Ay$, donc $\mathrm{div}(x + y) \geq \mathrm{div}(Ax + Ay)$.
 
 ### 2. *Structure de monoïde sur $D(A)$*
 
-#### Proposition 3 {#ac-vii-s1-prop-3 .statement}
+#### Proposition 3 {#ac-vii-s1-prop-3 .statement tag=04YR}
 
 *Soient $a, a', b, b'$ des éléments de $I(A)$. Les relations $a > a'$ et $b > b'$ impliquent $ab > a'b'$.
 On peut se borner au cas où $b = b'$. Soit alors $Ax$ un idéal principal fractionnaire contenant $a'b$; pour tout élément non nul $y$ de $b$, on a $Ax \supset a'y$, donc $Axy^{-1} \supset a'$, d’où $Axy^{-1} \supset a$ et $Ax \supset ay$. Faisant varier $y$, on voit que $Ax \supset ab$, d’où $ab > a'b$.
@@ -169,7 +169,7 @@ Pour deux éléments $x, y$ de $K^*$, la relation $\mathrm{div}(x) = \mathrm{div
 
 est donc une relation d’équivalence, puisque la relation $P = Q + \mathrm{div}(x)$ est équivalente à $Q = P + \mathrm{div}(x^{-1})$; si $P$ et $Q$ sont congrus modulo $S$, on dit que ce sont des diviseurs équivalents de $A$. Il est clair en outre que la relation $S$ est compatible avec la loi du monoïde $D(A)$, et cette dernière définit donc, par passage aux quotients, une structure de monoïde sur $D(A)/S$; on dit que ce monoïde est le monoïde des classes de diviseurs de $A$.
 
-#### Proposition 4 {#ac-vii-s1-prop-4 .statement}
+#### Proposition 4 {#ac-vii-s1-prop-4 .statement tag=04YS}
 
 *Soient $a, b$ deux idéaux fractionnaires divisoriels de $A$. Les propriétés suivantes sont équivalentes*:
 a) $\mathrm{div}\ a$ et $\mathrm{div}\ b$ sont des diviseurs équivalents;
@@ -179,7 +179,7 @@ En effet, si $\mathrm{div}\ b = \mathrm{div}\ a + \mathrm{div}(x)$ pour un $x \i
 
 Soit $a$ un idéal fractionnaire *inversible* (chap. II, § 5, no 6); on a alors $a = A : (A : a)$ (*loc. cit.*, prop. 10), donc $a$ est *divisoriel* (no 1, prop. 1). Le groupe $J(A)$ des idéaux fractionnaires inversibles s’identifie donc à un sous-groupe du monoïde $D(A)$, et l’image canonique de $J(A)$ dans $D(A)/S$ au groupe des classes des $A$-modules *projectifs de rang* 1 (chap. II, § 5, no 7, cor. 2 de la prop. 12 et *Remarque* 1).
 
-#### Théorème 1 {#ac-vii-s1-thm-1 .statement}
+#### Théorème 1 {#ac-vii-s1-thm-1 .statement tag=04YT}
 
 *Soit $A$ un anneau intègre. Pour que le monoïde $D(A)$ des diviseurs de $A$ soit un groupe, il faut et il suffit que $A$ soit complètement intégralement clos*.
 
@@ -189,7 +189,7 @@ Réciproquement, supposons $A$ complètement intégralement clos. Soit $a$ un id
 
 On notera que si $A$ est complètement intégralement clos (et même noethérien), un idéal divisoriel de $A$ n’est pas nécessairement inversible, autrement dit, on a en général $J(A) \neq D(A)$ (exerc. 2 et § 3, n° 2, prop. 1).
 
-#### Corollaire {#ac-vii-s1-n2-cor-1 .statement}
+#### Corollaire {#ac-vii-s1-n2-cor-1 .statement tag=04YU}
 
 Soient $A$ un anneau complètement intégralement clos, $a$ un idéal fractionnaire divisoriel de $A$. Alors, pour tout idéal fractionnaire $b \neq 0$ de $A$, on a $\operatorname{div}(a : b) = \operatorname{div} a - \operatorname{div} b$.
 
@@ -207,7 +207,7 @@ $$
 
 ### 3. Anneaux de Krull
 
-#### Définition 3 {#ac-vii-s1-def-3 .statement}
+#### Définition 3 {#ac-vii-s1-def-3 .statement tag=04YV}
 
 On dit qu’un anneau $A$ est un anneau de Krull s’il est intègre, et s’il existe une famille $(v_i)_{i \in I}$ de valuations du corps des fractions $K$ de $A$ possédant les propriétés suivantes :
 (AK_I) les valuations $v_i$ sont discrètes ;
@@ -216,23 +216,23 @@ On dit qu’un anneau $A$ est un anneau de Krull s’il est intègre, et s’il 
 
 Il suffit évidemment de vérifier la condition (AK_{III}) pour les éléments x de A − (0).
 
-#### Exemple 1 {#ac-vii-s1-n3-exa-1 .statement}
+#### Exemple 1 {#ac-vii-s1-n3-exa-1 .statement tag=0CIM}
 
 Tout anneau de valuation discrète est un anneau de Krull.
 
-#### Exemple 2 {#ac-vii-s1-n3-exa-2 .statement}
+#### Exemple 2 {#ac-vii-s1-n3-exa-2 .statement tag=0CIN}
 
 Plus généralement, tout anneau principal A est un anneau de Krull. En effet soit $(p_i)_{i \in I}$ un système représentatif d’éléments extrémaux de A, et soit $v_i$ la valuation du corps des fractions de A définie par $p_i$ (chap. VI, § 3, n° 3, Exemple 4). On voit aussitôt que la famille $(v_i)_{i \in I}$ vérifie les propriétés (AK_I), (AK_{II}) et AK_{III}.
 
-#### Exemple 3 {#ac-vii-s1-n3-exa-3 .statement}
+#### Exemple 3 {#ac-vii-s1-n3-exa-3 .statement tag=0CIO}
 
 Soient F un corps, et $(R_i)_{1 \leq i \leq n}$ une famille finie de sous-anneaux de F qui soient des anneaux de Krull. Alors leur intersection $S = \bigcap_{j=1}^n R_j$ est un anneau de Krull. En effet, pour $1 \leq j \leq n$, soit $(v_{ji})_{i \in I_j}$ une famille de valuations du corps des fractions de $R_j$ vérifiant (AK_I), (AK_{II}), (AK_{III}) (où A est remplacé par $R_j$). Notons $w_{ji}$ la restriction de $v_{ji}$ au corps des fractions de S. Alors la famille $(v_{ji})_{1 \leq j \leq n, i \in I_j}$ vérifie évidemment (AK_{II}) (où A est remplacé par S), et aussi (AK_{III}) puisque l’ensemble des indices j est fini. Les valuations $w_{ji}$ sont, soit discrètes, soit impropres. En ne gardant que celles qui sont discrètes, on obtient évidemment une famille vérifiant (AK_I), (AK_{II}) et (AK_{III}) (où A est remplacé par S). Donc S est bien un anneau de Krull.
 
-#### Exemple 4 {#ac-vii-s1-n3-exa-4 .statement}
+#### Exemple 4 {#ac-vii-s1-n3-exa-4 .statement tag=0CIP}
 
 En particulier, si A est un anneau de Krull et K’ un sous-corps du corps des fractions K de A, $K' \cap A$ est un anneau de Krull.
 
-#### Théorème 2 {#ac-vii-s1-thm-2 .statement}
+#### Théorème 2 {#ac-vii-s1-thm-2 .statement tag=04YW}
 
 Soit A un anneau intègre. Pour que A soit un anneau de Krull, il faut et il suffit que les deux conditions suivantes soient satisfaites:
 
@@ -267,7 +267,7 @@ En effet, il existe $x, y$ dans $K^*$ tels que $Ax \subset a \subset Ay$. D’ap
 
 Nous avons donc démontré le lemme suivant :
 
-#### Lemme 1 {#ac-vii-s1-lem-1 .statement}
+#### Lemme 1 {#ac-vii-s1-lem-1 .statement tag=04YX}
 
 *Si $A$ est un anneau de Krull, et $(v_i)_{i \in I}$ une famille de valuations normées de $K$ vérifiant (AK$_I$), (AK$_{II}$) et (AK$_{III}$), l’application $a \to (v_i(a))_{i \in I}$ est une application injective décroissante de l’ensemble des idéaux entiers divisoriels de $A$ (ordonné par $\subset$) dans l’ensemble des éléments positifs du groupe ordonné somme directe $\mathbf{Z}^{(I)}$.
 
@@ -298,7 +298,7 @@ pour $x, y$ et $x + y$ dans $K^*$, on déduit que les $v_P$ sont des valuations 
 
 C.Q.F.D.
 
-#### Corollaire {#ac-vii-s1-n3-cor-1 .statement}
+#### Corollaire {#ac-vii-s1-n3-cor-1 .statement tag=04YY}
 
 Pour qu’un anneau noethérien soit un anneau de Krull, il faut et il suffit qu’il soit intégralement clos.
 
@@ -312,38 +312,38 @@ Soient A un anneau de Krull, K son corps des fractions. On appelle valuations es
 
 On a remarqué, au cours de la démonstration du th. 2, que les valuations $v_P$ vérifient les propriétés (AK_I), (AK_II) et (AK_III) de la déf. 3. En outre, ces valuations discrètes $v_P$ sont normées : en effet, pour tout diviseur extrémal $P \in P(A)$, on a $P < 2P$, donc, si $a$ et $b$ sont les idéaux divisoriaux correspondant à $P$ et $2P$, on a $a \supset b$ et $a \neq b$; pour $x \in a - b$, on a $\text{div}(x) \geq P$ et $\text{div}(x) \not\geq 2P$, d’où $v_P(x) = 1$, ce qui démontre notre assertion.
 
-#### Proposition 5 {#ac-vii-s1-prop-5 .statement}
+#### Proposition 5 {#ac-vii-s1-prop-5 .statement tag=04YZ}
 
 Soient $A$ un anneau de Krull, $K$ son corps des fractions, et $(v_P)_{P \in P(A)}$ la famille de ses valuations essentielles. Soit $(n_P)_{P \in P(A)}$ une famille d’entiers rationnels, nuls sauf pour un nombre fini d’indices. Alors l’ensemble des $x \in K$ tels que $v_P(x) \geq n_P$ pour tout $P \in P(A)$ est l’idéal divisoriel $a$ de $A$ tel que $\operatorname{div} a = \sum_{P \in P(A)} n_P \cdot P$.
 
 Soit $x \in K^*$. Pour que $x \in a$, il faut et il suffit que $Ax \subset a$, donc que $\operatorname{div}(x) \geq \operatorname{div} a$, donc, d’après (4), que $v_P(x) \geq n_P$ pour tout $P \in P(A)$.
 
-#### Proposition 6 {#ac-vii-s1-prop-6 .statement}
+#### Proposition 6 {#ac-vii-s1-prop-6 .statement tag=04Z0}
 
 Soient $A$ un anneau de Krull, $K$ son corps des fractions, $(v_i)_{i \in I}$ une famille de valuations de $K$ possédant les propriétés de la déf. 3, et $A_i$ l’anneau de $v_i$. Soient $S$ une partie multiplicative de $A$ ne contenant pas $0$, et $J$ l’ensemble des indices $i \in I$ tels que $v_i$ soit nulle dans $S$. Alors on a $S^{-1}A = \bigcap_{i \in J} A_i$; en particulier $S^{-1}A$ est un anneau de Krull.
 
 Posons $B = \bigcap_{i \in J} A_i$. On a $S^{-1} \subset B$ et $A \subset B$, donc $S^{-1}A \subset B$.
 Inversement, soit $x \in B$. Notons $J'$ l’ensemble fini des indices $i$ tels que $v_i(x) < 0$. Si $i \in J'$, on a $x \notin A_i$, donc $i \notin J$, donc il existe $s_i \in S$ tel que $v_i(s_i) > 0$. Soit $n(i)$ un entier $> 0$ tel que $v_i(s_i^{n(i)}x) \geq 0$; posons $s = \prod_{i \in J'} s_i^{n(i)}$. On a alors $v_i(sx) \geq 0$ pour tout $i \in I$, donc $sx \in A$, et $x \in S^{-1}A$. Ainsi $B = S^{-1}A$.
 
-#### Corollaire 1 {#ac-vii-s1-prop-6-cor-1 .statement}
+#### Corollaire 1 {#ac-vii-s1-prop-6-cor-1 .statement tag=04Z1}
 
 Soient $P$ un diviseur extrémal de $A$, et $p$ l’idéal divisoriel correspondant. Alors $p$ est premier, l’anneau de $v_p$ est $A_p$ et le corps résiduel de $v_p$ s’identifie au corps des fractions de $A/p$.
 
 Soit $S = A - p$. D’après la prop. 5, $v_p$ est nulle dans $S$ et $> 0$ dans $p$. Donc $p$ est l’intersection de $A$ et de l’idéal de $v_p$, et par suite est premier. D’autre part, pour tout diviseur extrémal $Q \neq P$, on a $Q \not\supseteq P$, donc l’idéal divisoriel $q$ correspondant à $Q$ n’est pas contenu dans $p$; ainsi $q \cap S \neq \emptyset$, donc, d’après la prop. 5, $v_Q$ n’est pas nulle dans $S$. Ceci étant, le corollaire résulte de la prop. 6 et du chap. II, § 3, n° 1, prop. 3.
 
-#### Corollaire 2 {#ac-vii-s1-prop-6-cor-2 .statement}
+#### Corollaire 2 {#ac-vii-s1-prop-6-cor-2 .statement tag=04Z2}
 
 Soient $A$ un anneau de Krull, $K$ son corps des fractions, et $(v_i)_{i \in I}$ une famille de valuations possédant les propriétés de la déf. 3. Alors toute valuation essentielle de $A$ est équivalente à l’une des $v_i$.
 
 Soient $P$ un diviseur extrémal de $A$, et $p$ l’idéal divisoriel correspondant. D’après le cor. 1, la prop. 5, le lemme 1 et l’assertion 1) dans la démonstration du th. 2, n° 3, il existe $t \in I$ tel que l’anneau $A_t$ de $v_t$ contienne l’anneau $A_p$ de $v_p$. Comme $v_t$ et $v_p$ sont de hauteur 1, elles sont donc équivalentes (chap. VI, , n° 5, prop. 6)
 
-#### Proposition 7 {#ac-vii-s1-prop-7 .statement}
+#### Proposition 7 {#ac-vii-s1-prop-7 .statement tag=04Z3}
 
 *Soient A un anneau de Krull, $(v_p)_{P \in P(A)}$ la famille de ses valuations essentielles, et $a \in I(A)$. Alors le coefficient de P dans div $a$ est $\inf_{y \in a} (v_p(y))$. Si $p$ est l’idéal premier divisoriel correspondant au diviseur extrémal P, on a $aA_p = \tilde{a}A_p$.
 
 Comme $a = \sum_{x \in a} Ax$, la prop. 2, b) (n° 1) montre qu’on a $\operatorname{div}(a) = \inf_{x \in a} (\operatorname{div}(Ax))$, d’où notre première assertion. La seconde s’en déduit aussitôt, puisque $\operatorname{div} \tilde{a} = \operatorname{div} a$ et que $A_p$ est l’anneau de la valuation discrète $v_p$.
 
-#### Proposition 8 {#ac-vii-s1-prop-8 .statement}
+#### Proposition 8 {#ac-vii-s1-prop-8 .statement tag=04Z4}
 
 *Soit A un anneau noethérien intégralement-clos.
 
@@ -357,19 +357,19 @@ D’après le cor. 1 de la prop. 6, la relation $x \in p^n A_p = (pA_p)^n$ équi
 
 Comme les valuations essentielles d’un anneau de Krull sont discrètes et normées, elles sont deux à deux inéquivalentes, donc indépendantes (chap. VI, § 7, n° 2). On peut donc leur appliquer le cor. 1 du théorème d’approximation (loc. cit., th. 1) : étant donnés des $n_i \in \mathbf{Z}$ et des valuations essentielles $v_i$ en nombre fini, deux à deux distinctes, il existe $x \in \mathbf{K}$ tel que $v_i(x) = n_i$ pour tout $i$. Mais on a ici un résultat plus précis :
 
-#### Proposition 9 {#ac-vii-s1-prop-9 .statement}
+#### Proposition 9 {#ac-vii-s1-prop-9 .statement tag=04Z5}
 
 Soient $v_1, \ldots, v_r$ des valuations essentielles, deux à deux distinctes, d’un anneau de Krull $\mathbf{A}$, et $n_1, \ldots, n_r$ des entiers rationnels. Il existe un élément $x$ du corps des fractions $\mathbf{K}$ de $\mathbf{A}$ tel que $v_i(x) = n_i$ pour $1 \leq i \leq r$, et que $v(x) \geq 0$ pour toute valuation essentielle $v$ de $\mathbf{A}$ distincte de $v_1, \ldots, v_r$.
 
 Soient, en effet, $p_1, \ldots, p_r$ les idéaux divisoriels de $\mathbf{A}$ correspondant aux valuations $v_1, \ldots, v_r$. Il existe $y \in \mathbf{K}$ tel que $v_i(y) = n_i$ pour $1 \leq i \leq r$ (chap. VI, § 7, n° 2, cor. 1 du th. 1). Les valuations essentielles $w_1, \ldots, w_s$ de $\mathbf{A}$ distinctes des $v_i$ pour lesquelles l’entier $w_j(y) = -m_j$ est $< 0$ sont en nombre fini ; soient $q_1, \ldots, q_s$ les idéaux divisoriels correspondants. Il n’existe aucune relation d’inclusion entre $p_1, \ldots, p_r, q_1, \ldots, q_s$ puisque ces idéaux correspondent à des diviseurs extrémaux, et ces idéaux sont premiers (cor. 1 de la prop. 6). Donc l’idéal entier $a = q_1^{m_1} \ldots q_s^{m_s}$ n’est contenu dans aucun des $p_i$ (chap. II, § 1, n° 1, prop. 1), et n’est par conséquent pas contenu dans leur réunion (loc. cit., prop. 2). Par suite, il existe $z \in a$ tel que $z \notin p_i$ pour $1 \leq i \leq r$; on a $v_1(z) = \ldots = v_r(z) = 0$, et $w_j(z) \geq m_j$ pour $1 \leq j \leq s$; donc l’élément $x = yz$ répond à la question.
 
-#### Corollaire 1 {#ac-vii-s1-prop-9-cor-1 .statement}
+#### Corollaire 1 {#ac-vii-s1-prop-9-cor-1 .statement tag=04Z6}
 
 Soient $\mathbf{A}$ un anneau de Krull, $\mathbf{K}$ son corps des fractions, $a, b, c$ trois idéaux fractionnaires divisoriels de $\mathbf{A}$ tels que $a \subset b$. Il existe $x \in \mathbf{K}$ tel que $a = b \cap xc$.
 
 En effet, soit $(v_\iota)_{\iota \in I}$ la famille des valuations essentielles de $\mathbf{A}$, et soit $(m_\iota)$ (resp. $(n_\iota), (p_\iota)$) la famille d’entiers rationnels (nuls sauf pour un nombre fini d’indices) telle que $a$ (resp. $b, c$) soit l’ensemble des $x \in \mathbf{K}$ pour lesquels $v_\iota(x) \geq m_\iota$ (resp. $n_\iota, p_\iota$), quel que soit $\iota \in I$ (prop. 5, n° 4). L’ensemble $J$ des $\iota \in I$ tels que $m_\iota > n_\iota$ est fini. Comme on a $p_\iota = m_\iota = 0$ sauf pour un nombre fini d’indices, la prop. 9 montre qu’il existe $x \in \mathbf{K}^*$ tel que $v_\iota(x^{-1}) + m_\iota = p_\iota$ pour $\iota \in J$ et $v_\iota(x^{-1}) + m_\iota \geq p_\iota$ pour $\iota \in I - J$. On a alors, pour tout $\iota \in I$, $m_\iota = \sup(n_\iota, v_\iota(x) + p_\iota)$. D’où $a = b \cap xc$.
 
-#### Corollaire 2 {#ac-vii-s1-prop-9-cor-2 .statement}
+#### Corollaire 2 {#ac-vii-s1-prop-9-cor-2 .statement tag=04Z7}
 
 Soit $A$ un anneau de Krull. Pour qu’un idéal fractionnaire $a$ de $A$ soit divisoriel, il faut et il suffit qu’il soit intersection de deux idéaux principaux fractionnaires.
 
@@ -377,7 +377,7 @@ La suffisance est évidente (n° 1, déf. 2). La nécessité se déduit du cor. 
 
 ### 6. Idéaux premiers de hauteur 1 d’un anneau de Krull
 
-#### Définition 4 {#ac-vii-s1-def-4 .statement}
+#### Définition 4 {#ac-vii-s1-def-4 .statement tag=04Z8}
 
 Soit $A$ un anneau intègre. Un idéal premier $p$ de $A$ est dit de hauteur 1 s’il est minimal parmi les idéaux premiers non nuls de $A$.
 
@@ -385,25 +385,25 @@ Nous dirons aussi que l’idéal (0) dans $A$ est de hauteur 0 ; un idéal premi
 
 Nous définirons ultérieurement, de manière générale, la hauteur d’un idéal premier.
 
-#### Théorème 3 {#ac-vii-s1-thm-3 .statement}
+#### Théorème 3 {#ac-vii-s1-thm-3 .statement tag=04Z9}
 
 Soient $A$ un anneau de Krull, et $p$ un idéal entier de $A$. Pour que $p$ soit l’idéal divisoriel correspondant à un diviseur extrémal, il faut et il suffit que $p$ soit un idéal premier de hauteur 1.
 
 Si $p$ est l’idéal divisoriel correspondant à un diviseur extrémal, on sait (n° 4, cor. 1 de la prop. 6) que $p$ est premier et que $A_p$ est un anneau de valuation discrète ; comme $A_p$ n’a d’autres idéaux premiers que (0) et $pA_p$, (0) et $p$ sont les seuls idéaux premiers de $A$ contenus dans $p$ (chap. II, § 3, n° 1, prop. 3) ; donc $p$ est de hauteur 1. Réciproquement, nous montrerons d’abord que tout idéal premier $p \neq (0)$ de $A$ contient un idéal premier divisoriel $q$ correspondant à un diviseur extrémal : en effet, comme $A_p \neq K$, $A_p$ est l’intersection d’une famille non vide ($A_i$) d’anneaux de valuations essentielles (n° 4, prop. 6) ; chaque $A_i$ est de la forme $A_{q_i}$ (n° 4, cor. 1 de la prop. 6), et, de $A_p \subset A_{q_i}$ on déduit $q_i \subset p$. Ainsi, si $p$ est de hauteur 1, on a $p = q$, ce qui montre que $p$ est l’idéal divisoriel correspondant à un diviseur extrémal.
 
-#### Corollaire 1 {#ac-vii-s1-thm-3-cor-1 .statement}
+#### Corollaire 1 {#ac-vii-s1-thm-3-cor-1 .statement tag=04ZA}
 
 Dans un anneau de Krull, tout idéal premier non nul $m$ contient un idéal premier de hauteur 1. Si $m$ n’est pas de hauteur 1, on a $\operatorname{div} m = 0$ et $A : m = A$.
 
 La première assertion a été vue au cours de la démonstration du th. 3. Si $m$ n’est pas de hauteur 1 et si $p$ est un idéal premier de hauteur 1 contenu dans $m$, on a $p \subset \tilde{m}$ et $p \neq \tilde{m}$; comme $\operatorname{div} p$ est extrémal, on a nécessairement div $m = \operatorname{div} \tilde{m} = 0$; donc $\operatorname{div}(A : m) = 0$ et comme $A : m$ est divisoriel (n° 1, prop. 1), $A : m = A$.
 
-#### Corollaire 2 {#ac-vii-s1-thm-3-cor-2 .statement}
+#### Corollaire 2 {#ac-vii-s1-thm-3-cor-2 .statement tag=04ZB}
 
 Soient $A$ un anneau de Krull, $K$ son corps des fractions, $v$ une valuation de $K$ positive sur $A$, et $p$ l’ensemble des $x \in A$ tels que $v(x) > 0$. Si l’idéal premier $p$ est de hauteur 1, $v$ est équivalente à une valuation essentielle de $A$.
 
 Soient $B$ l’anneau de $v$ et $m$ son idéal. On a $m \cap A = p$, donc $A_p \subset B$. Or $A_p$ est un anneau de valuation discrète (th. 3, et cor. 1 de la prop. 6). Comme $p \neq (0)$, on a $B \neq K$, donc $B = A_p$ (chap. VI, § 4, n° 5, prop. 6).
 
-#### Théorème 4 {#ac-vii-s1-thm-4 .statement}
+#### Théorème 4 {#ac-vii-s1-thm-4 .statement tag=04ZC}
 
 Soient $A$ un anneau intègre, $M$ l’ensemble de ses idéaux premiers de hauteur 1. Pour que $A$ soit un anneau de Krull, il faut et il suffit que les propriétés suivantes soient vérifiées :
 (i) Pour tout $p \in M$, $A_p$ est un anneau de valuation discrète.
@@ -414,7 +414,7 @@ En outre, les valuations correspondant aux $A_p$ pour $p \in M$ sont les valuati
 
 Les conditions sont trivialement suffisantes. Leur nécessité résulte aussitôt du th. 3, du n° 4, cor. 1 de la prop. 6 et du fait que les valuations essentielles de $A$ vérifient les conditions de la déf. 3 du n° 3.
 
-#### Proposition 10 {#ac-vii-s1-prop-10 .statement}
+#### Proposition 10 {#ac-vii-s1-prop-10 .statement tag=04ZD}
 
 Soient $A$ un anneau noethérien intégralement clos, et $a$ un idéal entier de $A$. Les conditions suivantes sont équivalentes :
 a) $a$ est divisoriel ;
@@ -424,7 +424,7 @@ Rappelons que, si $a = \bigcap_{i=1}^n q_i$ est une décomposition primaire réd
 
 ### 7. Application: nouvelles caractérisations des anneaux de valuation discrète
 
-#### Proposition 11 {#ac-vii-s1-prop-11 .statement}
+#### Proposition 11 {#ac-vii-s1-prop-11 .statement tag=04ZE}
 
 Soient $A$ un anneau de Krull local (en particulier un anneau noethérien local et intégralement clos) et $m$ son idéal maximal. Les conditions suivantes sont équivalentes:
 a) $A$ est un anneau de valuation discrète ;
@@ -437,7 +437,7 @@ Comme tout idéal non nul d’un anneau de valuation discrète est principal (ch
 
 ### 8. Fermeture intégrale d’un anneau de Krull dans une extension finie de son corps des fractions
 
-#### Proposition 12 {#ac-vii-s1-prop-12 .statement}
+#### Proposition 12 {#ac-vii-s1-prop-12 .statement tag=04ZF}
 
 Soient $A$ un anneau de Krull, $K$ son corps des fractions, $K'$ une extension de degré fini de $K$, et $A'$ la fermeture intégrale de $A$ dans $K'$. Alors $A'$ est un anneau de Krull. Les valuations essentielles de $A'$ sont les valuations discrètes normées de $K'$ qui sont équivalentes aux prolongements des valuations essentielles de $A$.
 
@@ -445,7 +445,7 @@ Soit $(v_i)_{i \in I}$ la famille des prolongements à $K'$ des valuations essen
 
 Il reste à montrer que les $v_i$ sont équivalentes à des valuations essentielles de $A'$ (n° 4, cor. 2 de la prop. 6), c’est-à-dire (n° 6, cor. 2 du th. 3) que l’idéal premier $p_i$, formé par les $x \in A'$ tels que $v_i(x) > 0$, est de hauteur 1. S’il n’en était pas ainsi, il existerait un idéal premier $q$ de $A'$ tel que $(0) \subset q \subset p_i$ distinct de $(0)$ et de $p_i$; on aurait alors $(0) \subset q \cap A \subset p_i \cap A$, et $q \cap A$ serait distinct de $(0)$ et de $p_i \cap A$ (chap. V, § 2, n° 1, cor. 1 de la prop. 1); l’idéal premier $p_i \cap A$ ne serait donc pas de hauteur 1, ce qui contredit le fait qu’il correspond à une valuation essentielle de $A$.
 
-#### Corollaire {#ac-vii-s1-n8-cor-1 .statement}
+#### Corollaire {#ac-vii-s1-n8-cor-1 .statement tag=04ZG}
 
 Soient $p$ (resp. $p'$) un idéal premier de hauteur 1 de $A$ (resp. $A'$), et $v$ (resp. $v'$) la valuation essentielle de $A$ (resp. $A'$) qui lui correspond. Pour que $p'$ soit au-dessus de $p$, il faut et il suffit que la restriction de $v'$ à $K$ soit équivalente à $v$.
 
@@ -453,7 +453,7 @@ La valuation $v'$ est équivalente au prolongement d’une valuation essentielle
 
 ### 9. Anneaux de polynômes sur un anneau de Krull
 
-#### Proposition 13 {#ac-vii-s1-prop-13 .statement}
+#### Proposition 13 {#ac-vii-s1-prop-13 .statement tag=04ZH}
 
 Soient $A$ un anneau de Krull, $X_1, X_2, \ldots, X_n$ des indéterminées. L’anneau $A[X_1, \ldots, X_n]$ est un anneau de Krull.
 
@@ -465,7 +465,7 @@ Il est clair que les $v_f$ et les $\bar{w}$ sont discrètes, normées, et que, p
 
 Pour démontrer la proposition, il suffit donc de montrer que $A[X]$ est l’intersection des anneaux des valuations $v_f$ et $\bar{w}$. Or l’intersection des anneaux des valuations $v_f$ est $K[X]$. D’autre part, pour $\sum_j a_j X^j \in K[X]$, la relation $\bar{w} \left( \sum_j a_j X^j \right) \geqslant 0$ équivaut à « $w(a_j) \geqslant 0$ pour tout $j$ »; donc la relation « $\bar{w} \left( \sum_j a_j X^j \right) \geqslant 0$ pour toute valuation $\bar{w}$ » équivaut à « $w(a_j) \geqslant 0$ pour tout $j$ et toute valuation essentielle $w$ de $A$ ». Ceci démontre notre assertion.
 
-#### Remarque {#ac-vii-s1-n9-rem-1 .statement}
+#### Remarque {#ac-vii-s1-n9-rem-1 .statement tag=04ZI}
 
 Les valuations $v_f$ et $\bar{w}$ introduites dans la démonstration de la prop. 13 sont les valuations essentielles de $A[X]$. Il nous suffira de montrer que si $V$ est l’ensemble des valuations $v_f$ ($f$ irréductible) et $\bar{w}$ ($w$ essentielle), alors, pour toute $v' \in V$, il existe un élément $g \in K(X)$ non dans $A[X]$ tel que $v''(g) \geqslant 0$ pour toutes les valuations $v'' \in V$ distinctes de $v'$; cela prouvera que $V - \{ v' \}$ ne vérifie pas (AK$_{II}$) et la conclusion résultera donc du n° 4, cor. 2 de la prop. 6. Supposons d’abord que $v'$ soit de la forme $\bar{w}$: on peut alors prendre pour $g$ un élément $b \in K$ tel que $w(b) < 0,\ w'(b) \geqslant 0$ pour les valuations essentielles $w'$ de $A$ distinctes de $w$, car on aura alors $v_f(b) = 0$ pour tout polynôme unitaire irréductible $f$ de $K[X]$; l’existence d’un élément $b$ vérifiant les conditions précédentes résulte du n° 5, prop. 9. Supposons en second lieu que $v'$ soit de la forme $v_f$ pour un polynôme unitaire irréductible $f \in K[X]$ de degré $m$; on peut alors prendre $g = a/f$ avec $a \in A$. En effet, on aura $v_h(g) \geqslant 0$ pour tout polynôme unitaire irréductible $h \neq f$ de $K[X]$; reste à choisir $a \in A$ tel que pour toute valuation essentielle $w$ de $A$, $w(a)$ soit au moins égal à la borne inférieure des éléments $w(c_i)$, où les $c_i$ sont les coefficients de $f$ ($1 \leqslant i \leqslant m$); or l’existence d’un tel $a \in A$ résulte de (AK$_{III}$) et du n° 5, prop. 9.
 
@@ -481,7 +481,7 @@ Les seconds se caractérisent par le fait que leur intersection avec $A$ est ré
 
 Soit $A$ un anneau de Krull. Rappelons que le groupe $D(A)$ de diviseurs de $A$ est le groupe commutatif libre engendré par l’ensemble $P(A)$ de ses éléments extrémaux (n° 3, th. 2), et que $P(A)$ s’identifie à l’ensemble des idéaux premiers de hauteur 1 de $A$ (n° 6); pour $p \in P(A)$, nous noterons $v_p$ la valuation essentielle normée correspondant à $p$ (n° 4); rappelons que l’anneau de $v_p$ est $A_p$ (n° 4, cor. 1 de la prop. 6). Nous noterons $F(A)$ le sous-groupe de $D(A)$ formé des diviseurs principaux, et par $C(A) = D(A)/F(A)$ le groupe des classes de diviseurs de $A$ (n° 2).
 
-#### Proposition 14 {#ac-vii-s1-prop-14 .statement}
+#### Proposition 14 {#ac-vii-s1-prop-14 .statement tag=04ZJ}
 
 Soient $A$ un anneau de Krull, et $B$ un anneau de Krull contenant $A$. On suppose vérifiée la condition suivante:
 (PDE) Pour tout idéal premier $\mathfrak{P}$ de hauteur 1 de $B$, l’idéal premier $\mathfrak{P} \cap A$ est nul ou de hauteur 1.
@@ -515,7 +515,7 @@ La condition (PDE) est satisfaite dans les deux cas suivants :
 
 2) B est un A-module plat. Plus précisément :
 
-#### Proposition 15 {#ac-vii-s1-prop-15 .statement}
+#### Proposition 15 {#ac-vii-s1-prop-15 .statement tag=04ZK}
 
 Soient A et B des anneaux de Krull tels que B contienne A et soit un A-module plat. Alors :
 a) la condition (PDE) de la prop. 14 est satisfaite ;
@@ -528,19 +528,19 @@ Démontrons b). Si $a$ est un idéal divisoriel de $A$, c’est l’intersection
 $= i(\sup(\operatorname{div}_A(a), \operatorname{div}_A(b))) - i(\operatorname{div}_A(d)) = i(\operatorname{div}_A(Aa \cap Ab)) - i(\operatorname{div}_A(d))$
 $= i(\operatorname{div}_A(d^{-1}(Aa \cap Ab))) = i(\operatorname{div}_A(a))$.
 
-#### Corollaire {#ac-vii-s1-n10-cor-1 .statement}
+#### Corollaire {#ac-vii-s1-n10-cor-1 .statement tag=04ZL}
 
 Soient $A$ un anneau de Krull local, et $B$ un anneau de valuation discrète tel que $B$ domine $A$ et soit un $A$-module plat. Alors $A$ est un corps ou un anneau de valuation discrète.
 
 Soit, en effet, $\mathfrak{m}$ l’idéal maximal de $B$. D’après (PDE), $\mathfrak{m} \cap A$ est nul ou de hauteur 1. Comme c’est, par hypothèse, l’idéal maximal de $A$, notre assertion résulte de la prop. 11 du n° 7.
 
-#### Remarque {#ac-vii-s1-n10-rem-1 .statement}
+#### Remarque {#ac-vii-s1-n10-rem-1 .statement tag=04ZM}
 
 Dans le premier des deux cas précédents, l’application $i : D(A) \to D(B)$ est injective : comme les éléments de $P(B)$ forment une base de $D(B)$ et que deux idéaux distincts de $P(A)$ ne peuvent être traces sur $A$ du même idéal de $P(B)$, tout revient à voir que $i(p) \neq 0$ pour tout $p \in P(A)$; or, cela résulte du chap. V, § 2, n° 1, th. 1. On voit de même que lorsque $B$ est un $A$-module fidèlement plat, $i$ est injective (chap. II, § 2, n° 5, cor. 4 de la prop. 11).
 
 Dans ce qui suit, nous nous proposons d’étudier l’homomorphisme canonique $i$ de $C(A)$ dans $C(B)$ pour certains couples d’anneaux de Krull $A, B$.
 
-#### Proposition 16 {#ac-vii-s1-prop-16 .statement}
+#### Proposition 16 {#ac-vii-s1-prop-16 .statement tag=04ZN}
 
 *Soit $A$ un anneau de Zariski tel que son complété $\hat{A}$ soit un anneau de Krull. Alors $A$ est un anneau de Krull, et l’homomorphisme canonique $i$ de $C(A)$ dans $C(\hat{A})$ (qui est défini puisque $\hat{A}$ est un $A$-module plat ; cf. chap. III, § 3, n° 4, th. 3) est injectif.*
 
@@ -558,13 +558,13 @@ en effet, si un élément de $D(S^{-1}A)$ est égal à $\mathrm{div}_{S^{-1}A}(x
 
 Supposons maintenant que $S$ soit engendrée par une famille d’éléments $(p_i)_{i \in I}$ de $A$ tels que les idéaux principaux $Ap_i$ soient tous *premiers*. Alors, si $p$ est un idéal premier de hauteur 1 de $A$ tel que $p \cap S \neq \phi$, $p$ contient un produit de puissances des $p_i$, et donc l’un des $p_i$, soit $p_\alpha$; comme $Ap_\alpha$ est non nul et premier, et que $p$ est de hauteur 1, il en résulte que $p = Ap_\alpha$. Avec les notations ci-dessus, on a donc $G \subset F(A)$, et (5) montre que le noyau de $i$ est nul. On a donc démontré le résultat suivant :
 
-#### Proposition 17 {#ac-vii-s1-prop-17 .statement}
+#### Proposition 17 {#ac-vii-s1-prop-17 .statement tag=04ZO}
 
 Soient $A$ un anneau de Krull, et $S$ une partie multiplicative de $A$ ne contenant pas $0$. Alors l’homomorphisme canonique $i$ de $C(A)$ dans $C(S^{-1}A)$ est surjectif. Si, de plus, $S$ est engendrée par une famille d’éléments $p_i$ tels que les idéaux principaux $Ap_i$ soient tous premiers, alors $i$ est bijectif.
 
 Comme seconde application de la formule (5), considérons la situation suivante : soit $R$ un anneau de Krull ; prenons pour $A$ l’anneau de polynômes $A = R[X]$ (n° 9, prop. 13), et pour $S$ l’ensemble $R - (0)$ des polynômes constants non nuls de $A$. Les idéaux premiers $p$ de hauteur 1 de $A$ tels que $p \cap S \neq \phi$ sont ceux de la forme $p_0A$, où $p_0$ est un idéal premier de hauteur 1 de $R$ (n° 9, Remarque). Donc, avec les notations introduites ci-dessus, $G$ s’identifie à $D(R)$ en identifiant $\operatorname{div}_A(p_0A)$ à $\operatorname{div}_R(p_0)$. D’autre part $G \cap F(A)$ s’identifie à $F(R)$ : en effet, si un idéal $a_0$ de $R$ engendre un idéal principal $a_0A = f(X)A$ dans $A = R[X]$, on a $f(0) \in a_0A$ puisque $a_0A$ est un idéal gradué de l’anneau $A$ (gradué par le degré usuel des polynômes), donc $f(0) \in a_0$; de plus, pour $a \in a_0$, on a $a = f(X)g(X)$ avec $g(X) \in R$, d’où par comparaison des termes de degré 0, $a = f(0)g(0)$; il s’ensuit que $a_0$ est l’idéal principal de $R$ engendré par $f(0)$. Enfin, en notant $K$ le corps des fractions de $R$, $S^{-1}A$ s’identifie à l’anneau de polynômes $K[X]$, qui est principal ; donc $C(S^{-1}A) = (0)$. Ainsi, en vertu de (5), $C(A) = \operatorname{Ker}(i)$ s’identifie à $C(R)$, et on a démontré le résultat suivant :
 
-#### Proposition 18 {#ac-vii-s1-prop-18 .statement}
+#### Proposition 18 {#ac-vii-s1-prop-18 .statement tag=04ZP}
 
 Soient $R$ un anneau de Krull, et $A$ l’anneau de polynômes $R[X]$. L’homomorphisme canonique de $C(R)$ dans $C(R[X])$ est bijectif.
 

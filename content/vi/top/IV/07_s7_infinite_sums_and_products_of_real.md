@@ -36,9 +36,9 @@ subsections:
       pdf_page: 376
 statements: 20
 exercises: 22
-content_sha256: 45fb271e86e6249de938649ae24886f7532c2f9b4c5f44a4880e1780adab8d4d
+content_sha256: a4c6f27b89b367a570d434abd159f92a0cbf18ef29e5555fec7b29edab94c997
 translated_from: content/en/top/IV/07_s7_infinite_sums_and_products_of_real.md
-source_content_sha256: d12e61abaa0776c3c22cc180ebafa3f47bdea5f60a24d2473807cbb0c4c47432
+source_content_sha256: 455d0ffdcd364c6ed9f0b7d02c710c2c2c96a2ff460df4ccbbd8a2f0e2e71d59
 translation_model: gpt-5.4
 translation_run: translate-vi-e536aaea
 glossary_version: 34
@@ -52,17 +52,17 @@ Vì mọi điểm của $\mathbf{R}$ đều có một hệ cơ bản lân cận 
 
 ### 1. CÁC HỌ SỐ HỮU HẠN DƯƠNG KHẢ TỔNG TRONG $\mathbf{R}$
 
-#### Định lý 1 {#top-iv-s7-thm-1 .statement}
+#### Định lý 1 {#top-iv-s7-thm-1 .statement tag=0BT9}
 
 *Một họ* $(x_i)$ *các số thực hữu hạn* $\geqslant 0$ *là khả tổng trong* $\mathbf{R}$ *khi và chỉ khi tập hợp các tổng riêng phần hữu hạn của họ bị chặn trên trong* $\mathbf{R}$. *Khi đó, cận trên bé nhất của tập hợp này là tổng của họ* $(x_i)$.
 
 Với mỗi tập con hữu hạn $H$ của tập chỉ số $I$, đặt $s_H = \sum_{i \in H} x_i$; vì các $x_i$ đều $\geqslant 0$, quan hệ $H \subset H'$ kéo theo $s_H \leqslant s_{H'}$. Nói cách khác, ánh xạ $H \to s_H$ là một hàm *tăng* trên tập có hướng $\mathfrak{F}(I)$ các tập con hữu hạn của $I$; do đó (§ 5, no. 2, Hệ quả của Định lý 2) nó có một giới hạn hữu hạn khi và chỉ khi nó *bị chặn trên*.
 
-#### Nhận xét {#top-iv-s7-n1-rem-1 .statement}
+#### Nhận xét {#top-iv-s7-n1-rem-1 .statement tag=0BTA}
 
 Cho $(H_\lambda)$ là một họ các tập con hữu hạn của $I$ sao cho, với mỗi tập con hữu hạn $H$ của $I$, tồn tại một chỉ số $\lambda$ sao cho $H \subset H_\lambda$; khi đó $(x_i)$ là khả tổng nếu và chỉ nếu họ các $s_{H_\lambda}$ bị *chặn trên* trong $\mathbf{R}$. Đặc biệt, cho $(x_n)$ là một dãy các số thực hữu hạn $\geqslant 0$, và với mỗi số nguyên $n$ đặt $s_n = \sum_{p=0}^n x_p$; khi đó dãy $(x_n)$ là khả tổng trong $\mathbf{R}$ nếu và chỉ nếu, đối với *một dãy* các số nguyên tăng ngặt $(n_k)$, dãy bộ phận $(s_{n_k})$ bị *chặn trên* trong $\mathbf{R}$.
 
-#### Ví dụ {#top-iv-s7-n1-exa-4 .statement}
+#### Ví dụ {#top-iv-s7-n1-exa-4 .statement tag=0EAD}
 
 1) Với mỗi số $q$ sao cho $0 \leqslant q < 1$, dãy $(q^n)$ ("cấp số nhân có công bội $q$") là khả tổng trong $\mathbf{R}$, vì
 $$
@@ -96,7 +96,7 @@ nên tiêu chuẩn của Định lý 1 không được thỏa mãn.
 
 5) Cho $(I_n)$ là một dãy các khoảng mở không rỗng đôi một rời nhau, tất cả đều được chứa trong một khoảng có độ dài hữu hạn $l$. Tổng các độ dài của một số hữu hạn khoảng thuộc họ này là $\leq l$ ($§ 1$, no. 5) và do đó họ các độ dài của các $I_n$ là khả tổng trong $\mathbf{R}$, và tổng của nó là $\leq l$.
 
-#### Định lý 2 (Nguyên lý so sánh) {#top-iv-s7-thm-2 .statement}
+#### Định lý 2 (Nguyên lý so sánh) {#top-iv-s7-thm-2 .statement tag=0BTB}
 
 *Cho* $(x_i)_{i \in I}$ *và* $(y_i)_{i \in I}$ *là hai họ các số thực hữu hạn* $\geq 0$, *sao cho* $x_i \leq y_i$ *với mọi* $i$. *Nếu* $(y_i)$ *là khả tổng trong* $\mathbf{R}$ *thì* $(x_i)$ *cũng vậy, và ta có* $\sum_i x_i \leq \sum_i y_i$; *nếu thêm nữa tồn tại một chỉ số* $x$ *sao cho* $x_x < y_x$, *thì* $\sum_i x_i < \sum_i y_i$.
 
@@ -111,7 +111,7 @@ $$
 
 Định lý này cung cấp tiêu chuẩn được dùng thông dụng nhất để quyết định một dãy $(x_n)$ các số thực $\geq 0$ có tổng được trong $\mathbf{R}$ hay không: ta cố *so sánh* dãy đã cho với một dãy đơn giản hơn $(y_n)$ mà ta đã biết nó có tổng được hay không. Nếu tồn tại một số hữu hạn $a > 0$ sao cho $x_n \leq a y_n$ với mọi $n$ kể từ một điểm nào đó trở đi, và nếu $(y_n)$ có tổng được, thì $(x_n)$ có tổng được; còn nếu tồn tại một số hữu hạn $b > 0$ sao cho $x_n \geq b y_n$ với mọi $n$ kể từ một điểm nào đó trở đi, và nếu $(y_n)$ không có tổng trong $\mathbf{R}$, thì $(x_n)$ không có tổng trong $\mathbf{R}$. Ta sẽ thấy trong một tập sau cách thu được những dãy so sánh như thế trong các trường hợp xuất hiện thường gặp nhất.
 
-#### Ví dụ 1 {#top-iv-s7-n1-exa-1 .statement}
+#### Ví dụ 1 {#top-iv-s7-n1-exa-1 .statement tag=0BTC}
 
 Cho $a$ là một số thực hữu hạn $> 0$, và xét dãy $\left( \frac{a^n}{n!} \right)$; gọi $n_0$ là số nguyên nhỏ nhất sao cho $a < n_0$. Khi đó với mỗi $n \geq n_0$ ta có
 $$
@@ -119,7 +119,7 @@ $$
 $$
 vì $q = \frac{a}{n_0} < 1$, dãy $(q^{n-n_0})$ là hội tụ tuyệt đối, và do đó dãy $\left( \frac{a^n}{n!} \right)$ cũng vậy.
 
-#### Ví dụ 2 {#top-iv-s7-n1-exa-2 .statement}
+#### Ví dụ 2 {#top-iv-s7-n1-exa-2 .statement tag=0BTD}
 
 Cho $(a_n)$ là một dãy khả tổng gồm các số dương. Vì
 $$
@@ -127,7 +127,7 @@ $$
 $$
 nên tồn tại một số nguyên $n_0$ sao cho $a_n \leq 1$ mỗi khi $n \geq n_0$. Do đó, với mỗi $n \geq n_0$ ta có $a_n^2 \leq a_n$, và vì thế dãy $(a_n^2)$ là khả tổng trong $\mathbf{R}$. Dãy $(a_n^p)$ cũng vậy với mỗi số nguyên $p > 1$.
 
-#### Ví dụ 3 {#top-iv-s7-n1-exa-3 .statement}
+#### Ví dụ 3 {#top-iv-s7-n1-exa-3 .statement tag=0BTE}
 
 Cho $a$ và $b$ là hai số $< 1$; khi đó
 $$
@@ -135,7 +135,7 @@ $$
 $$
 và do đó họ $\left( \frac{1}{a^m + b^n} \right)$ là khả tổng trong $\mathbf{R}$.
 
-#### Hệ quả {#top-iv-s7-n1-cor-1 .statement}
+#### Hệ quả {#top-iv-s7-n1-cor-1 .statement tag=0BTF}
 
 *Cho* $(x_i)_{i \in I}$ *là một họ khả tổng các số hữu hạn* $\geq 0$ *trong* $\mathbf{R}$. *Nếu* $H$ *là một tập con tùy ý của* $I$, *ta có*
 $$
@@ -145,7 +145,7 @@ $$
 
 ### 2. HỌ CÁC SỐ HỮU HẠN CÓ DẤU TÙY Ý KHẢ TỔNG TRONG $\mathbf{R}$
 
-#### Định lý 3 {#top-iv-s7-thm-3 .statement}
+#### Định lý 3 {#top-iv-s7-thm-3 .statement tag=0BTG}
 
 *Cho* $(x_i)_{i \in I}$ *là một họ các số thực hữu hạn; khi đó các mệnh đề sau là tương đương*:
 
@@ -161,7 +161,7 @@ Nhắc lại (Chương III, § 5, no. 5, Mệnh đề 6) rằng nếu $(x_i)$ v�
 
 ### 3. TÍCH CỦA HAI TỔNG VÔ HẠN
 
-#### Mệnh đề 1 {#top-iv-s7-prop-1 .statement}
+#### Mệnh đề 1 {#top-iv-s7-prop-1 .statement tag=0BTH}
 
 *Nếu các họ* $(x_\lambda)_{\lambda \in L}$ *và* $(y_\mu)_{\mu \in M}$ *các số thực hữu hạn là khả tổng trong* $\mathbf{R}$, *thì họ* $(x_\lambda y_\mu)_{(\lambda, \mu) \in L \times M}$ *cũng vậy và ta có*
 
@@ -184,10 +184,10 @@ do đó có kết quả phải chứng minh.
 
 Trong nhóm nhân $\mathbf{R}^*$ của các số thực khác không hữu hạn, một họ $(x_i)_{i \in I}$ chỉ có thể khả nhân nếu $\lim x_i = 1$ đối với bộ lọc các phần bù của các tập con hữu hạn của $I$ (Chương III, § 5, no. 2, Mệnh đề 1). Đặc biệt chỉ có thể có một số *hữu hạn* chỉ số $i$ sao cho $x_i < 0$. Vì vậy ta có thể chỉ cần xét các họ $x_i$ mà mọi số hạng đều dương ngặt; khi đó thuận tiện là đặt $x_i = 1 + u_i$, trong đó các $u_i$ thỏa mãn các bất đẳng thức $-1 < u_i < +\infty$ với mọi $i$. Vì mỗi điểm của $\mathbf{R}^*$ có một hệ cơ bản đếm được các lân cận, tập hợp các chỉ số $i$ sao cho $u_i \neq 0$ là đếm được, nếu họ $(1 + u_i)$ là khả nhân trong $\mathbf{R}^*$.
 
-#### Định lý 4 {#top-iv-s7-thm-4 .statement}
+#### Định lý 4 {#top-iv-s7-thm-4 .statement tag=0BTI}
 
 *Họ* $(1 + u_i)$ *là khả nhân trong* $\mathbf{R}^*$ *khi và chỉ khi họ* $(u_i)$ *là khả tổng trong* $\mathbf{R}$.
-#### Bổ đề (i) {#top-iv-s7-n4-lem-1 .statement}
+#### Bổ đề (i) {#top-iv-s7-n4-lem-1 .statement tag=0BTJ}
 
 *Nếu* $(a_i)_{1 \leq i \leq p}$ *là một dãy hữu hạn các số* $> 0$, *thì*
 $$
@@ -235,7 +235,7 @@ Trong Chương V (§ 4), việc nghiên cứu tôpô của nhóm $\mathbf{R}^*$ 
 
 Trên khoảng $[0, + \infty]$ của $\overline{\mathbf{R}}$, phép cộng là một luật hợp thành kết hợp và giao hoán (§ 4, no. 3); do đó khái niệm một họ *khả tổng* các số trong khoảng này được xác định (Chương III, § 5, no. 1, Nhận xét 3).
 
-#### Mệnh đề 2 {#top-iv-s7-prop-2 .statement}
+#### Mệnh đề 2 {#top-iv-s7-prop-2 .statement tag=0BTK}
 
 *Mọi họ* $(x_i)$ *gồm các số thực* $\geq 0$ *đều khả tổng trong* $\overline{\mathbf{R}}$.
 
@@ -245,19 +245,19 @@ Cùng lập luận ấy cho thấy rằng mọi họ số thực $\leq 0$ đều
 
 Tương tự, phép nhân là một luật hợp thành kết hợp và giao hoán trên mỗi khoảng $[0, 1]$ và $[1, + \infty]$ của $\overline{\mathbf{R}}$, và do đó khái niệm về một họ khả nhân được xác định trên mỗi khoảng ấy.
 
-#### Mệnh đề 3 {#top-iv-s7-prop-3 .statement}
+#### Mệnh đề 3 {#top-iv-s7-prop-3 .statement tag=0BTL}
 
 Mọi họ $(1 + u_i)$ [resp. $(1 - u_i)$] các số $\geq 1$ (resp. $\geq 0$ và $\leq 1$) đều khả tích trong $\overline{\mathbf{R}}$.
 
 Chứng minh giống như đối với Mệnh đề 2.
 
-#### Hệ quả {#top-iv-s7-n5-cor-1 .statement}
+#### Hệ quả {#top-iv-s7-n5-cor-1 .statement tag=0BTM}
 
 Tích $\prod (1 + u_i)$ [resp. $\prod (1 - u_i)$] của các số $\geq 1$ (resp. $> 0$ và $\leq 1$) bằng $+ \infty$ (resp. 0) khi và chỉ khi $\sum u_i = + \infty$.
 
 Thật vậy, nếu $\sum u_i$ là hữu hạn thì $\prod (1 + u_i)$ và $\prod (1 - u_i)$ đều thuộc $\mathbf{R}^*$, và ngược lại (no. 4, Định lý 4).
 
-#### Nhận xét {#top-iv-s7-n5-rem-1 .statement}
+#### Nhận xét {#top-iv-s7-n5-rem-1 .statement tag=0BTN}
 
 Định lý về tính kết hợp (Chương III, § 5, no. 3, Định lý 2) vẫn đúng khi thay G bằng $\overline{\mathbf{R}}$ và giả thiết rằng các $x_i$ đều $\geq 0$. Điều này hiển nhiên nếu $\sum_{i \in I} x_i$ là hữu hạn. Ngược lại, giả sử rằng $\sum_{i \in I} x_i = + \infty$. Khi đó với mỗi $a > 0$ hữu hạn, tồn tại một tập con hữu hạn H của I sao cho $\sum_{i \in H} x_i \geq a$. Gọi K là một tập con hữu hạn của L sao cho $H \subset \bigcup_{\lambda \in K} I_\lambda$; khi đó vì $s_\lambda \geq \sum_{i \in I_\lambda \cap H} x_i$ với mọi $\lambda \in K$, ta có
 $$
@@ -269,11 +269,11 @@ $$
 
 Một chuỗi các số thực hữu hạn được gọi đơn giản là hội tụ nếu nó hội tụ trong $\mathbf{R}$.
 
-#### Định nghĩa 1 {#top-iv-s7-def-1 .statement}
+#### Định nghĩa 1 {#top-iv-s7-def-1 .statement tag=0BTO}
 
 Một chuỗi các số thực hữu hạn được gọi là hội tụ tuyệt đối nếu chuỗi các giá trị tuyệt đối của các số hạng của nó hội tụ.
 
-#### Mệnh đề 4 {#top-iv-s7-prop-4 .statement}
+#### Mệnh đề 4 {#top-iv-s7-prop-4 .statement tag=0BTP}
 
 Một chuỗi các số thực hữu hạn là hội tụ giao hoán nếu và chỉ nếu nó hội tụ tuyệt đối.
 
@@ -287,7 +287,7 @@ $$
 
 Như chúng tôi đã nhận xét ở Chương III, § 5, một chuỗi số thực có thể hội tụ mà không hội tụ giao hoán, nghĩa là, không hội tụ tuyệt đối.
 
-#### Ví dụ {#top-iv-s7-n6-exa-1 .statement}
+#### Ví dụ {#top-iv-s7-n6-exa-1 .statement tag=0BTQ}
 
 *Chuỗi phản xứng.* Một chuỗi được xác định bởi một dãy $(u_n)$ các số thực hữu hạn được gọi là *phản xứng* nếu $u_n = (-1)^n v_n$, trong đó $v_n \geq 0$ với mọi $n$. Hãy chỉ ra rằng một điều kiện *đủ* để một chuỗi như vậy hội tụ là *dãy* $(v_n)$ *giảm và có* 0 *làm giới hạn*. Thật vậy, nếu $s_n$ ký hiệu
 $$
@@ -317,11 +317,11 @@ Cần lưu ý rằng, nếu ta giả sử chuỗi $(v_n)$ hội tụ nhưng khô
 
 Một tích vô hạn các số thực hữu hạn khác không được gọi đơn giản là hội tụ nếu nó hội tụ trong $\mathbf{R}^*$; khi đó giá trị của nó là một số thực hữu hạn khác không.
 
-#### Định nghĩa 2 {#top-iv-s7-def-2 .statement}
+#### Định nghĩa 2 {#top-iv-s7-def-2 .statement tag=0BTR}
 
 *Một tích vô hạn có nhân tử tổng quát là $1 + u_n$ được gọi là hội tụ tuyệt đối nếu tích có nhân tử tổng quát là $1 + |u_n|$ hội tụ.*
 
-#### Mệnh đề 5 {#top-iv-s7-prop-5 .statement}
+#### Mệnh đề 5 {#top-iv-s7-prop-5 .statement tag=0BTS}
 
 *Một tích vô hạn các số thực hữu hạn là hội tụ giao hoán khi và chỉ khi nó hội tụ tuyệt đối.*
 
@@ -331,7 +331,7 @@ Hơn nữa, tích có nhân tử tổng quát là $1 + u_n$ là *hội tụ tuy�
 
 Một tích các số thực khác không có thể hội tụ mà không hội tụ giao hoán, nghĩa là không hội tụ tuyệt đối.
 
-#### Ví dụ {#top-iv-s7-n6-exa-2 .statement}
+#### Ví dụ {#top-iv-s7-n6-exa-2 .statement tag=0BTT}
 
 Nếu ta lấy $u_{2n-1} = -1/n$ và $u_{2n} = 1/n$ với $n \geq 2$, thì tích $(1 + u_n)$ không hội tụ tuyệt đối, vì chuỗi $(u_n)$ không hội tụ tuyệt đối; nhưng vì
 

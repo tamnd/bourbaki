@@ -37,30 +37,30 @@ subsections:
       pdf_page: 123
 statements: 15
 exercises: 0
-content_sha256: 762de3cb00bf4cfa9b53b7a3a0b74ada1ed70f6aab72ccae19b058105ca629cd
+content_sha256: 48a74bb29ea2e0671914af4710029a73eeba8926caa6ba8d663276f288e2e1b1
 ---
 
 ## § 2. NEGLIGIBLE FUNCTIONS AND SETS
 
 ### 1. Negligible positive functions
 
-#### Definition 1 {#int-iv-s2-def-1 .statement}
+#### Definition 1 {#int-iv-s2-def-1 .statement tag=08Q8}
 
 — *Given a measure $\mu$ on a locally compact space X*, *a numerical function* $f \geq 0$ (*finite or not*) *defined on X is said to be negligible for the measure $\mu$ if* $|\mu|^*(f) = 0$.
 
 We then also say that $f$ is $\mu$*-negligible*, or simply *negligible* if no confusion can result.
 
-#### Proposition 1 {#int-iv-s2-prop-1 .statement}
+#### Proposition 1 {#int-iv-s2-prop-1 .statement tag=08Q9}
 
 — *If* $f$ *is a negligible function* $\geq 0$, *then every numerical function* $g$ *such that* $0 \leq g \leq \alpha f$ ($\alpha$ *a scalar* $> 0$) *is negligible*. For, $0 \leq |\mu|^*(g) \leq \alpha |\mu|^*(f) = 0$.
 
-#### Proposition 2 {#int-iv-s2-prop-2 .statement}
+#### Proposition 2 {#int-iv-s2-prop-2 .statement tag=08QA}
 
 — *The sum and upper envelope of a sequence* $(f_n)$ *of negligible functions* $\geq 0$ *are negligible*.
 
 For, $|\mu|^*(\sum_n f_n) \leq \sum_n |\mu|^*(f_n) = 0$ (§ 1, No. 3, Prop. 13) and $\sup_n f_n \leq \sum_n f_n$.
 
-#### Proposition 3 {#int-iv-s2-prop-3 .statement}
+#### Proposition 3 {#int-iv-s2-prop-3 .statement tag=08QB}
 
 *For a lower semi-continuous function $f \geq 0$ on $X$ to be negligible, it is necessary and sufficient that $f$ be zero on the support of $\mu$.*
 
@@ -68,23 +68,23 @@ If $|\mu|^*(f) = 0$ then $|\mu|(g) = 0$ for every function $g \in \mathscr{K}_+$
 
 ### 2. Negligible sets
 
-#### Definition 2 {#int-iv-s2-def-2 .statement}
+#### Definition 2 {#int-iv-s2-def-2 .statement tag=08QC}
 
 *Given a measure $\mu$ on a locally compact space $X$, a subset $A$ of $X$ is said to be negligible for the measure $\mu$ if $|\mu|^*(A) = 0$.*
 
 One also says that $A$ is $\mu$-negligible, or simply negligible if no confusion can result. It comes to the same thing to say that the characteristic function $\varphi_A$ is negligible.
 
-#### Proposition 4 {#int-iv-s2-prop-4 .statement}
+#### Proposition 4 {#int-iv-s2-prop-4 .statement tag=08QD}
 
 *Every subset of a negligible set is negligible; every countable union of negligible sets is negligible.*
 
 This is an immediate consequence of Props. 1 and 2.
 
-#### Example {#int-iv-s2-n2-exa-1 .statement}
+#### Example {#int-iv-s2-n2-exa-1 .statement tag=08QE}
 
 — Let $\mu$ be Lebesgue measure on $\mathbf{R}$. Every set $\{x_0\}$ reduced to a point is negligible (cf. § 1, No. 3, *Remark* 1). It follows that *every countable subset of $\mathbf{R}$ is negligible for Lebesgue measure*. The converse of this proposition is incorrect (§ 4, Exer. 4 b)).
 
-#### Proposition 5 {#int-iv-s2-prop-5 .statement}
+#### Proposition 5 {#int-iv-s2-prop-5 .statement tag=08QF}
 
 *The complement of the support $S$ of $\mu$ is the largest negligible open set in $X$.*
 
@@ -94,7 +94,7 @@ For, by Prop. 3, in order that an open set $G$ be negligible, it is necessary an
 
 Let $X$ be a locally compact space, $\mu$ a measure on $X$. If $P\{x\}$ is a property, the property « $P\{x\}$ almost everywhere (with respect to $\mu$) » is by definition equivalent to the property « *the set of x such that* $(x \in X \text{ and not } P\{x\})$ *is $\mu$*-negligible ».
 
-#### Theorem 1 {#int-iv-s2-thm-1 .statement}
+#### Theorem 1 {#int-iv-s2-thm-1 .statement tag=08QG}
 
 — In order that a numerical function (finite or not) $f \geqslant 0$ defined on $X$ be negligible, it is necessary and sufficient that $f(x) = 0$ almost everywhere.
 
@@ -102,7 +102,7 @@ The condition is necessary. For, suppose that $f$ is negligible, and let $N$ be 
 
 The condition is sufficient. Suppose that the set $N$ of points where $f(x) \neq 0$ is negligible; then $f \leqslant \sup_n n \varphi_N$, therefore $f$ is negligible (No. 1, Props. 1 and 2).
 
-#### Proposition 6 {#int-iv-s2-prop-6 .statement}
+#### Proposition 6 {#int-iv-s2-prop-6 .statement tag=08QH}
 
 — If $f$ and $g$ are two functions $\geqslant 0$ (finite or not) defined on $X$ such that $f(x) = g(x)$ almost everywhere, then $|\mu|^*(f) = |\mu|^*(g)$.
 
@@ -114,7 +114,7 @@ $$
 
 (since $h$ is negligible), whence the proposition.
 
-#### Proposition 7 {#int-iv-s2-prop-7 .statement}
+#### Proposition 7 {#int-iv-s2-prop-7 .statement tag=08QI}
 
 — If $f$ is a function $\geqslant 0$ defined on $X$ such that $|\mu|^*(f) < +\infty$, then $f(x)$ is finite almost everywhere.
 
@@ -126,13 +126,13 @@ However, even if $X$ is compact, a function $f \geqslant 0$ defined on $X$ and e
 
 Let $\mu$ be a measure on a locally compact space $X$. Given a set $F$, two mappings $f, g$ of $X$ into $F$ are said to be *equivalent with respect to* $\mu$ (or $\mu$-*equivalent*, or simply *equivalent* if no confusion can arise) if $f(x) = g(x)$ *almost everywhere* in $X$. Since the union of two negligible sets is negligible, one indeed defines in this way an equivalence relation in the set $F^X$ of all mappings of $X$ into $F$; when we speak of the *equivalence class* of such a function $f$ (without further specification) it will be understood to be the class of all the functions equal almost everywhere to $f$; in this chapter and those that follow, we will indicate this class by the notation $\tilde{f}$.
 
-#### Proposition 8 {#int-iv-s2-prop-8 .statement}
+#### Proposition 8 {#int-iv-s2-prop-8 .statement tag=08QJ}
 
 *Let* $(F_n)$ *be a countable family (finite or infinite) of sets. For every index n, let* $f_n, g_n$ *be two equivalent mappings of X into* $F_n$; *then, there exists a negligible set H such that, for every* $x \notin H$, $f_n(x) = g_n(x)$ *for all n*.
 
 For, the set $H_n$ of $x \in X$ such that $f_n(x) \neq g_n(x)$ is negligible, therefore so is their union H (No. 2, Prop. 4), and this set meets the requirements.
 
-#### Corollary {#int-iv-s2-n4-cor-1 .statement}
+#### Corollary {#int-iv-s2-n4-cor-1 .statement tag=08QK}
 
 *If* $\varphi$ *is a mapping of* $\prod_n F_n$ *into a set G, then the mappings* $\varphi((f_n))$ *and* $\varphi((g_n))$ *of X into G are equivalent*.
 
@@ -142,13 +142,13 @@ In particular, if F is a *vector space* over $\mathbf{R}$, one defines $\tilde{f
 
 Let F be a *metrizable* topological space, and consider a uniform structure on F compatible with its topology and defined by a *countable* family of pseudometrics $\rho_n$ (GT, IX, §§1 and 2); in order that two mappings $f, g$ of X into F be equivalent, it is necessary and sufficient that the numerical functions $\rho_n(f, g)$ be *negligible*; for, this is equivalent to saying that there exists a negligible set H in X such that, for every $x \notin H$, $\rho_n(f(x), g(x)) = 0$ for all $n$, that is, $f(x) = g(x)$. In particular, if F is a metrizable locally convex space, and $(q_n)$ is a countable family of seminorms defining the topology of F (TVS, II, §4, No. 1), in order that two mappings $f, g$ of X into F be equivalent it is necessary and sufficient that all of the numerical functions $q_n(f(x) - g(x))$ be negligible.
 
-#### Proposition 9 {#int-iv-s2-prop-9 .statement}
+#### Proposition 9 {#int-iv-s2-prop-9 .statement tag=08QL}
 
 — Let $f$ and $g$ be two continuous mappings of $X$ into a Hausdorff topological space $F$; for $f$ and $g$ to be equivalent, it is necessary and sufficient that $f(x) = g(x)$ at every point of the support of $\mu$.
 
 For, the set of $x \in X$ such that $f(x) \neq g(x)$ is an open set (GT, I, §8, No. 1); for it to be negligible, it is necessary and sufficient that it not intersect the support of $\mu$ (No. 2, Prop. 5).
 
-#### Proposition 10 {#int-iv-s2-prop-10 .statement}
+#### Proposition 10 {#int-iv-s2-prop-10 .statement tag=08QM}
 
 — Let $F$ be a Hausdorff locally convex space over $\mathbf{R}$ such that there exists in the dual $F'$ of $F$ a sequence $(a'_n)$ that is dense for the weak topology $\sigma(F', F)$ (TVS, II, §6, No. 2). In order that two mappings $f, g$ of $X$ into $F$ be equivalent, it is necessary and sufficient that, for every $n$, the numerical functions $\langle f(x), a'_n \rangle$ and $\langle g(x), a'_n \rangle$ be equivalent.
 

@@ -29,9 +29,9 @@ subsections:
       pdf_page: 147
 statements: 5
 exercises: 2
-content_sha256: fceb94368148e02da7bb25f016ca0e2398b5490004bb6d3d277ec575c249a24b
+content_sha256: 0c20967c8521738544a757e188dea5ff53d9d7b279639e9f06b14404939b59f4
 translated_from: content/en/alg/I/10_s10_inverse_and_direct_limits.md
-source_content_sha256: 4d3540b7ec97407be71cb0f6cb3acc3e307d1f899278290311099ea565ce0b4a
+source_content_sha256: 3a49dcd1591d3ccd8d3da36eb91e210dee0ffea0f51202486e0a783d55ffe2f0
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-37f286f0
 glossary_version: 34
@@ -45,7 +45,7 @@ Trong toàn bộ đoạn này, tôi ký hiệu một tập tiền thứ tự kh�
 
 ### 1. CÁC HỆ NGƯỢC CỦA CÁC MAGMA
 
-#### Định nghĩa 1 {#alg-i-s10-def-1 .statement}
+#### Định nghĩa 1 {#alg-i-s10-def-1 .statement tag=05JH}
 
 *Một hệ ngược của các magma đối với tập chỉ số I là một hệ ngược của các tập hợp* $(\mathbf{E}_\alpha, f_{\alpha\beta})$ *đối với I, mỗi* $\mathbf{E}_\alpha$ *có một cấu trúc magma và mỗi* $f_{\alpha\beta}$ *là một đồng cấu magma.*
 
@@ -85,7 +85,7 @@ cho $\alpha \leq \beta, x_\beta \in E_\beta, \omega_\beta \in \Omega_\beta$. Khi
 
 Trong số này và các số tiếp theo ta giả sử rằng I là *có hướng phải*.
 
-#### Định nghĩa 2 {#alg-i-s10-def-2 .statement}
+#### Định nghĩa 2 {#alg-i-s10-def-2 .statement tag=05JI}
 
 *Một hệ trực tiếp của các magma đối với tập chỉ số I là một hệ trực tiếp của các tập hợp* $(E_\alpha, f_{\beta\alpha})$ *đối với I, mỗi* $E_\alpha$ *có một cấu trúc magma và mỗi* $f_{\beta\alpha}$ *là một đồng cấu magma.*
 
@@ -110,7 +110,7 @@ $$
 
 Nếu $x_\alpha, y_\alpha \in E_\alpha$ là sao cho $f_\alpha(x_\alpha) = f_\alpha(y_\alpha)$, tồn tại một $\beta \geq \alpha$ sao cho $f_{\beta\alpha}(x_\alpha) = f_{\beta\alpha}(y_\alpha)$.
 
-#### Mệnh đề 1 {#alg-i-s10-prop-1 .statement}
+#### Mệnh đề 1 {#alg-i-s10-prop-1 .statement tag=05JJ}
 
 *Trên E tồn tại duy nhất một cấu trúc magma sao cho các ánh xạ* $f_\alpha : E_\alpha \to E$ *là các đồng cấu. Nếu các magma* $E_\alpha$ *là kết hợp (tương ứng giao hoán), thì E cũng vậy. Nếu các magma* $E_\alpha$ *và đồng cấu* $f_{\beta\alpha}$ *là có đơn vị, thì magma* E *và các đồng cấu* $f_\alpha$ *cũng vậy.*
 
@@ -151,7 +151,7 @@ và tương tự $x \cdot e = x$, do đó $e$ là phần tử đơn vị của $
 
 Magma $E$ được gọi là *giới hạn trực tiếp của các magma* $E_\alpha$.
 
-#### Mệnh đề 2 {#alg-i-s10-prop-2 .statement}
+#### Mệnh đề 2 {#alg-i-s10-prop-2 .statement tag=05JK}
 
 *Cho* $(E_\alpha, f_{\beta \alpha})$ *là một hệ trực tiếp của các magma và cho* $E$ *là giới hạn trực tiếp của nó với* $f_\alpha : E_\alpha \to E$ *là các đồng cấu chính tắc. Giả sử một magma* $F$ *và các đồng cấu* $u_\alpha : E_\alpha \to F$ *được cho sao cho* $u_\alpha = u_\beta \circ f_{\beta \alpha}$ *đối với* $\alpha \leq \beta$. *Tồn tại một và chỉ một đồng cấu* $u : E \to F$ *sao cho* $u_\alpha = u \circ f_\alpha$ *với mọi* $\alpha \in I$. *Nếu các magma* $E_\alpha$ *và* $F$ *cũng như các đồng cấu* $f_{\beta \alpha}$ *và* $u_\alpha$ *đều có đơn vị, thì đồng cấu* $u$ *có đơn vị.*
 
@@ -181,7 +181,7 @@ và quan hệ $x(y + z) = xy + xz$ được chứng minh tương tự. Nói các
 
 Vành A được gọi là giới hạn trực tiếp của các vành $A_\alpha$. Mệnh đề 2 mở rộng ngay lập tức sang trường hợp các vành.
 
-#### Mệnh đề 3 {#alg-i-s10-prop-3 .statement}
+#### Mệnh đề 3 {#alg-i-s10-prop-3 .statement tag=05JL}
 
 (a) *Nếu các $A_\alpha$ khác không, thì A khác không.*
 (b) *Nếu các $A_\alpha$ là các miền nguyên, thì A là một miền nguyên.*

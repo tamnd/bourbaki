@@ -12,18 +12,18 @@ pdf_pages: 0195-0197
 extraction: ocr
 statements: 8
 exercises: 0
-content_sha256: db132edc19538b624967f7bf20a1e698bea65a774bf924c3b75737fc35181dce
+content_sha256: fe667206e9ebb3c7a51bb0467238a932ee178c61eba532ab093734ddf7b9de2a
 ---
 
 ## APPENDICE 1
 
 # ESPACES DE LINDELÖF
 
-#### Définition 1 {#top-ix-a1-def-1 .statement}
+#### Définition 1 {#top-ix-a1-def-1 .statement tag=0ED4}
 
 On dit qu’un espace topologique $X$ (non nécessairement séparé) est un espace de Lindelöf si, de tout recouvrement ouvert de $X$, on peut extraire un recouvrement dénombrable de $X$.
 
-#### Proposition 1 {#top-ix-a1-prop-1 .statement}
+#### Proposition 1 {#top-ix-a1-prop-1 .statement tag=0ED5}
 
 Soit $X$ un espace topologique.
 
@@ -35,23 +35,23 @@ Soit $X$ un espace topologique.
 
 (ii) Soit $(V_\lambda)_{\lambda \in L}$ une famille d’ensembles ouverts dans $Y$ formant un recouvrement de $f(X)$. Les ensembles $f^{-1}(V_\lambda)$ forment alors un recouvrement ouvert de $X$, et il existe par suite une partie dénombrable $J$ de $L$ telle que les ensembles ouverts $f^{-1}(V_\lambda)$ pour $\lambda \in J$ forment un recouvrement de $X$. Mais alors les ensembles $V_\lambda$ pour $\lambda \in J$ forment un recouvrement de $f(X)$, ce qui prouve que $f(X)$ est un espace de Lindelöf.
 
-#### Corollaire {#top-ix-a1-n0-cor-1 .statement}
+#### Corollaire {#top-ix-a1-n0-cor-1 .statement tag=0ED6}
 
 *Tout espace souslinien, et en particulier tout espace polonais ou lusinien, est un espace de Lindelöf.*
 
 Cela résulte aussitôt de la prop. 1 précédente et de la définition des espaces sousliniens (IX, p. 59, déf. 2), puisqu’un espace polonais admet une base dénombrable.
 
-#### Proposition 2 {#top-ix-a1-prop-2 .statement}
+#### Proposition 2 {#top-ix-a1-prop-2 .statement tag=0ED7}
 
 *Tout espace de Lindelöf régulier est paracompact.*
 
 Soient $X$ un espace de Lindelöf régulier, et $\mathscr{R}$ un recouvrement ouvert de $X$. Pour tout $x \in X$, soit $U_x \in \mathscr{R}$ contenant $X$, et soit $V_x$ un voisinage ouvert de $x$ tel que $V_x \subset U_x$. Comme $X$ est un espace de Lindelöf, il existe une suite $(x_n)_{n \geq 0}$ de points de $X$ tels que les $V_{x_n}$ forment un recouvrement de $X$. Posons alors, pour tout entier $n \geq 0$, $W_n = U_{x_n} \cap \complement \left( \bigcup_{k < n} V_{x_k} \right)$. Les ensembles $W_n$ sont ouverts et forment un recouvrement de $X$ plus fin que $\mathscr{R}$. D’autre part, ce recouvrement est localement fini, car tout $x \in X$ appartient à un $V_{x_i}$ pour un $i$ au moins ; alors $V_{x_i}$ est un voisinage de $x$, qui ne rencontre aucun ensemble $W_n$ pour $n > i$.
 
-#### Corollaire {#top-ix-a1-n0-cor-2 .statement}
+#### Corollaire {#top-ix-a1-n0-cor-2 .statement tag=0ED8}
 
 *Tout espace souslinien régulier est paracompact* (et en particulier *normal* (IX, p. 49, prop. 4) et *a fortiori complètement régulier*).
 
-#### Proposition 3 {#top-ix-a1-prop-3 .statement}
+#### Proposition 3 {#top-ix-a1-prop-3 .statement tag=0ED9}
 
 *Soit $X$ un espace topologique (non nécessairement séparé). Les propriétés suivantes sont équivalentes*:
 a) *Tout sous-espace ouvert de $X$ est un espace de Lindelöf*.
@@ -67,13 +67,13 @@ $$
 
 Posons $\mathscr{F}' = \bigcup_{d \in D} \mathscr{F}'_d$, et désignons par $s'$ l’enveloppe supérieure de $\mathscr{F}'$. On a évidemment $s \geqslant s'$; d’autre part, soit $x$ un point de $X$, et soit $d$ un élément de $D$ tel que $s(x) > d$; il existe une fonction $f \in \mathscr{F}$ telle que $f(x) > d$; on a donc $x \in U_{f,d}$, et il existe une fonction $f' \in \mathscr{F}'_d$ telle que $x \in U_{f',d}$. Par suite, on a aussi $s'(x) > d$, d’où l’inégalité $s' \geqslant s$, et finalement $s' = s$. Comme $\mathscr{F}'$ est dénombrable, l’assertion est établie pour les fonctions semi-continues inférieurement; le cas des fonctions semi-continues supérieurement s’y ramène par changement de signe.
 
-#### Corollaire 1 {#top-ix-a1-prop-3-cor-1 .statement}
+#### Corollaire 1 {#top-ix-a1-prop-3-cor-1 .statement tag=0EDA}
 
 *Soient $X$ un espace souslinien régulier, $H$ un ensemble de fonctions numériques continues dans $X$, qui sépare les points de $X$* (IX, p. 9, déf. 5). *Il existe alors une partie dénombrable $H'$ de $H$ qui sépare les points de $X$*.
 
 En effet, $X \times X$ est un espace souslinien (IX, p. 60, prop. 7); il en est de même de tout sous-espace ouvert de $X \times X$ (IX, p. 59, prop. 5), qui est donc un espace de Lindelöf (IX, p. 76, corollaire). À toute fonction $h \in H$, associons l’ensemble fermé $F_h$ des couples $(x, y) \in X \times X$ tels que $h(x) = h(y)$. En vertu de la prop. 3, il existe une partie dénombrable $H'$ de $H$ telle que l’on ait $\bigcap_{h \in H'} F_h = \bigcap_{h \in H} F_h$. Mais par hypothèse le second membre est la diagonale de $X \times X$; il en est donc de même du premier, et par suite $H'$ sépare les points de $X$.
 
-#### Corollaire 2 {#top-ix-a1-prop-3-cor-2 .statement}
+#### Corollaire 2 {#top-ix-a1-prop-3-cor-2 .statement tag=0EDB}
 
 *Tout espace compact souslinien est métrisable*.
 

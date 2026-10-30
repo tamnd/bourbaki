@@ -61,7 +61,7 @@ subsections:
       pdf_page: 522
 statements: 41
 exercises: 5
-content_sha256: b7cae74a617646a9a3b81a640ac101de0fdf3dda13a2a0e27048a406c5377078
+content_sha256: ac053309e9a29ee2146b00dd90f0419e0b04ac607b58560f1bace03422918f45
 ---
 
 ## § 10. DÉRIVATIONS
@@ -105,7 +105,7 @@ $$
 
 soient *graduées de degré* 0. On notera simplement $a.a'$ ou même $aa'$ l’image $\mu(a, a')$ pour $a \in A, a' \in A'$, et de même pour les deux autres applications bilinéaires. Le *degré* de $a.a'$ est donc la *somme* des degrés de $a$ et de $a'$.
 
-#### Définition 1 {#alg-iii-s10-def-1 .statement}
+#### Définition 1 {#alg-iii-s10-def-1 .statement tag=0667}
 
 *Pour les données précédentes et pour un facteur de commutation $\varepsilon$ sur $\Delta \times \Delta$, on appelle $\varepsilon$-dérivation (ou (K, $\varepsilon$)-dérivation) de degré $\delta \in \Delta$ de (A, A', A'') dans (B, B', B'') un triplet d’applications K-linéaires graduées de degré $\delta$:*
 
@@ -152,11 +152,11 @@ $$
 
 pour un élément *homogène* $a \in A$.
 
-#### Remarque 1 {#alg-iii-s10-n2-rem-1 .statement}
+#### Remarque 1 {#alg-iii-s10-n2-rem-1 .statement tag=0668}
 
 On peut définir la notion de dérivation pour des modules non gradués, en convenant de munir ces modules de la graduation triviale.
 
-#### Remarque 2 {#alg-iii-s10-n2-rem-2 .statement}
+#### Remarque 2 {#alg-iii-s10-n2-rem-2 .statement tag=0DH1}
 
 Tant qu’on ne considère que des ε-dérivations d’un degré donné δ, on peut se débarrasser du facteur de commutation ε par le procédé suivant: on modifie l’application bilinéaire $\lambda_2 : A \times B' \to B''$ en la remplaçant par l’application bilinéaire $\lambda'_2 : A \times B' \to B''$ telle que pour tout $a$ homogène dans $A$ et tout $b' \in B'$, on ait
 
@@ -203,23 +203,23 @@ pour une telle dérivation $d : A \to B$.
 
 ### 3. Exemples de dérivations
 
-#### Exemple 1 {#alg-iii-s10-n3-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s10-n3-exa-1 .statement tag=0669}
 
 *Soit A la $\mathbf{R}$-algèbre des applications dérivables de $\mathbf{R}$ dans $\mathbf{R}$, et soit $x_0$ un point de $\mathbf{R}$; on peut considérer $\mathbf{R}$ comme A-module pour la loi d’action $(f, a) \mapsto f(x_0)a$. Alors l’application $f \mapsto Df(x_0)$ est une dérivation, puisque l’on a (FVR, I, § 1, no 3) $(D(fg))(x_0) = (Df(x_0))g(x_0) + f(x_0)(Dg(x_0)).*$
 
-#### Exemple 2 {#alg-iii-s10-n3-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s10-n3-exa-2 .statement tag=066A}
 
 *Soit X une variété différentielle de classe $C^\infty$, et soit A la $\mathbf{R}$-algèbre graduée des formes différentielles sur X, L’application qui à toute forme différentielle $\omega$ sur X associe sa différentielle extérieure $d\omega$ est une antidérivation de degré +1 (VAR. R, § 8).*
 
-#### Exemple 3 {#alg-iii-s10-n3-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s10-n3-exa-3 .statement tag=066B}
 
 Soit A une K-algèbre associative. Pour tout $a \in A$, l’application $x \mapsto ax - xa$ est une dérivation de l’algèbre A (cf. III, p. 124).
 
-#### Exemple 4 {#alg-iii-s10-n3-exa-4 .statement}
+#### Exemple 4 {#alg-iii-s10-n3-exa-4 .statement tag=066C}
 
 Soient M un K-module, A l’algèbre extérieure $\wedge(M^*)$, munie de sa graduation usuelle (III, p. 76). *On verra dans III, p. 167 que, pour tout $x \in M$, le produit intérieur droit $i(x)$ est une antidérivation de degré −1 de A.*
 
-#### Exemple 5 {#alg-iii-s10-n3-exa-5 .statement}
+#### Exemple 5 {#alg-iii-s10-n3-exa-5 .statement tag=066D}
 
 Reprenons la situation générale de la déf. 1 de III, p. 117, et soient $\overline{K}$ un second anneau commutatif, $\rho : K \to \overline{K}$ un homomorphisme d’anneaux; désignons par $\overline{A}, \overline{A}', \overline{A}'', \overline{B}, \overline{B}', \overline{B}''$ les $\overline{K}$-modules gradués obtenus respectivement à partir de A, A', A'', B, B', B'' par extension à $\overline{K}$ de l’anneau des scalaires (II, p. 174); on déduit de $\mu, \lambda_1$ et $\lambda_2$ des applications $\overline{K}$-bilinéaires
 $$
@@ -227,7 +227,7 @@ $$
 $$
 en considérant les produits tensoriels par $1_{\overline{K}}$ des applications K-linéaires correspondant à $\mu, \lambda_1$ et $\lambda_2$ (II, p. 82). Alors, si $d$ est une $\varepsilon$-dérivation de degré $\delta$ de (A, A', A'') dans (B, B', B''), l’application $\bar{d} = d \otimes 1_{\overline{K}}$ de $\overline{A} \oplus \overline{A}' \oplus \overline{A}''$ dans $\overline{B} \oplus \overline{B}' \oplus \overline{B}''$ est une $\varepsilon$-dérivation de degré $\delta$ de ($\overline{A}, \overline{A}', \overline{A}''$) dans ($\overline{B}, \overline{B}', \overline{B}''$).
 
-#### Exemple 6 {#alg-iii-s10-n3-exa-6 .statement}
+#### Exemple 6 {#alg-iii-s10-n3-exa-6 .statement tag=066E}
 
 Soit A une K-algèbre graduée de type $\mathbf{Z}$; on définit une K-application linéaire graduée de degré 0, $d : A \to A$ en prenant, pour $x_n \in A_n$ ($n \in \mathbf{Z}$), $d(x_n) = nx_n$. Cette application est une dérivation de A, car pour $x_p \in A_p, x_q \in A_q$, on a $d(x_p x_q) = (p + q)x_p x_q = d(x_p) x_q + x_p d(x_q)$.
 
@@ -249,7 +249,7 @@ $$
 
 Appliquons cette définition à l’algèbre graduée $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ : on définit ainsi le $\varepsilon$-crochet de deux endomorphismes gradués.
 
-#### Proposition 1 {#alg-iii-s10-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s10-prop-1 .statement tag=066F}
 
 *Soient $d_1, d_2$ deux $\varepsilon$-dérivations de $(A, A', A'')$, de degrés respectifs $\delta_1, \delta_2$. Alors le $\varepsilon$-crochet*
 
@@ -289,7 +289,7 @@ $$
 
 et comme $\varepsilon_{2\delta, \xi} = 1$, on voit que $d^2$ est bien une dérivation.
 
-#### Corollaire {#alg-iii-s10-n4-cor-1 .statement}
+#### Corollaire {#alg-iii-s10-n4-cor-1 .statement tag=066G}
 
 Supposons $\Delta = \mathbf{Z}$. Alors:
     (i) Le carré d’une antidérivation est une dérivation.
@@ -299,7 +299,7 @@ Supposons $\Delta = \mathbf{Z}$. Alors:
 
 Sous les hypothèses du début de ce n° (III, p. 119,) considérons maintenant une suite finie $D = (d_i)_{i \leq i \leq n}$ de dérivations deux à deux permutables de $(A, A', A'')$. Pour tout polynôme $P(X_1, \ldots, X_n)$ de l’algèbre $K[X_1, \ldots, X_n]$, l’élément $P(d_1, \ldots, d_n)$ de $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ est donc défini (III, p. 26); on le notera en abrégé $P(D)$.
 
-#### Proposition 2 {#alg-iii-s10-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s10-prop-2 .statement tag=066H}
 
 Avec les hypothèses et notations précédentes, considérons $2n$ indéterminées $T_1, \ldots, T_n, T'_1, \ldots, T'_n$, et pour tout polynôme $F \in K[X_1, \ldots, X_n]$, posons $F(T) = F(T_1, \ldots, T_n), F(T') = F(T'_1, \ldots, T'_n)$ et
 $$
@@ -350,7 +350,7 @@ $$
 
 où les $\mathrm{G}_i$ sont des éléments de B. La relation (14) est donc conséquence immédiate des relations (15).
 
-#### Corollaire (formule de Leibniz) {#alg-iii-s10-n4-cor-2 .statement}
+#### Corollaire (formule de Leibniz) {#alg-iii-s10-n4-cor-2 .statement tag=066I}
 
 Soient $d_i$ ($1 \leqslant i \leqslant n$) $n$ dérivations de $(\mathrm{A}, \mathrm{A}', \mathrm{A}'')$, deux à deux permutables. Pour tout $\alpha = (\alpha_1, \ldots, \alpha_n) \in \mathbf{N}^n$ posons
 
@@ -386,19 +386,19 @@ $$
 x \otimes a \mapsto x . a \quad \text{et} \quad a \otimes x \mapsto a . x \qquad \text{pour } a \in \mathrm{A} \text{ et } x \in \mathrm{E}.
 $$
 
-#### Proposition 3 {#alg-iii-s10-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s10-prop-3 .statement tag=066J}
 
 Soit $d : \mathrm{A} \to \mathrm{E}$ une $\varepsilon$-dérivation de degré $\delta$. Alors $\mathrm{Ker}(d)$ est une sous-algèbre graduée de A; si A admet un élément unité, il appartient à $\mathrm{Ker}(d)$.
 
 Il est clair que $\mathrm{Ker}(d)$ est un sous-K-module gradué de A; de plus, la relation (8) de III, p. 118 montre que, si x et y sont deux éléments homogènes appartenant à Ker(d), on a d(xy) = 0, donc xy ∈ Ker(d). Enfin, si A admet un élément unité 1 (de degré 0, cf. III, p. 30), la relation (8) de III, p. 118, où on remplace x et y par 1, donne d(1) = d(1) + d(1), donc d(1) = 0.
 
-#### Corollaire {#alg-iii-s10-n5-cor-1 .statement}
+#### Corollaire {#alg-iii-s10-n5-cor-1 .statement tag=066K}
 
 Soient d₁ et d₂ deux ε-dérivations de A dans E, de même degré δ. Si d₁ et d₂ prennent les mêmes valeurs en chaque élément d’un système générateur de l’algèbre A, on a d₁ = d₂.
 
 En effet, d₁ − d₂ est une ε-dérivation de degré δ, donc Ker(d₁ − d₂) est une sous-algèbre de A qui contient un système générateur de A, donc est égale à A.
 
-#### Proposition 4 {#alg-iii-s10-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s10-prop-4 .statement tag=066L}
 
 Soit d : A → E une ε-dérivation de degré δ. Supposons que A possède un élément unité 1, et soit x un élément homogène de A, ayant un inverse x⁻¹ dans A. Alors on a
 
@@ -412,7 +412,7 @@ $$(dx)x^{-1} + \varepsilon_{\delta, \deg(x)} x(d(x^{-1})) = 0$$
 
 ce qui prouve la première formule (19). D’autre part, x⁻¹ est homogène de degré −deg(x) et $\varepsilon_{\delta, \deg(x)} = \varepsilon_{\delta, -\deg(x)}$ en vertu des formules (1) de III, p. 116; en écrivant que $d(x^{-1}x) = 0$, on obtient de même la seconde formule (19).
 
-#### Proposition 5 {#alg-iii-s10-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s10-prop-5 .statement tag=066M}
 
 Supposons que A soit un anneau commutatif intègre, et soit L son corps des fractions. Toute dérivation de A dans un espace vectoriel E sur L (considéré comme A-module) se prolonge d’une seule manière en une dérivation de L dans E.
 
@@ -424,7 +424,7 @@ $$
 
 ce qui prouve l’unicité de $\overline{d}$. Inversement, montrons qu’on peut définir $\overline{d}$ par la formule (20); on doit d’abord vérifier que si $u/v = u'/v'$, la valeur du second membre de (20) ne change pas quand on remplace u par u’ et v par v’. Or, on a $uv' = vu'$, donc $v'(du) + u(dv') = v(du') + u'(dv)$, et par suite $v'(du - uv^{-1}dv) = v(du' - u'{v'}^{-1}dv')$, puisque $uv'v^{-1} = u'$ et $u'{v'}^{-1}v = u$. On a ainsi défini une application $\overline{d} : L \to E$, qui prolonge d; on vérifie aussitôt qu’elle est K-linéaire et est une dérivation.
 
-#### Proposition 6 {#alg-iii-s10-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s10-prop-6 .statement tag=066N}
 
 Supposons que A soit une K-algèbre graduée associative unifère, E un (A, A)-bimodule gradué. Si d : A → E est une ε-dérivation de degré δ, on a, pour toute suite finie $(x_i)_{1 \leq i \leq n}$ d’éléments homogènes de A, de degrés respectifs $\xi_i$ (1 ≤ i ≤ n)
 
@@ -434,7 +434,7 @@ $$
 
 La formule (21) est triviale pour $n = 0$ et se prouve par récurrence sur $n$, compte tenu de (4) (III, p. 117).
 
-#### Corollaire {#alg-iii-s10-n5-cor-2 .statement}
+#### Corollaire {#alg-iii-s10-n5-cor-2 .statement tag=066O}
 
 Supposons que $A$ soit une algèbre associative unifère, commutative et ayant un élément unité, et $E$ un $A$-module. Si $d : A \to E$ est une dérivation, on $a$, pour tout entier $n \geqslant 0$,
 
@@ -452,7 +452,7 @@ $$
 
 Si $A$ est une algèbre graduée associative unifère, et $E$ un $(A, A)$-bimodule gradué, il résulte aussitôt de cette définition que $Z_\varepsilon$ est une sous-algèbre graduée de $A$ contenant l’élément unité.
 
-#### Proposition 7 {#alg-iii-s10-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s10-prop-7 .statement tag=066P}
 
 Supposons que $A$ soit une algèbre graduée associative unifère et $E$ un $(A, A)$-bimodule gradué. Soit $d : A \to E$ une $\varepsilon$-dérivation de degré $\delta$, et $a$ un élément homogène de degré $\alpha$ de $Z_\varepsilon$. Alors l’application $x \mapsto a(dx)$ est une $\varepsilon$-dérivation de degré $\delta + \alpha$.
 
@@ -477,7 +477,7 @@ $$
 
 (III, p. 120, formule (10)) qui est graduée de degré $\deg a$.
 
-#### Proposition 8 {#alg-iii-s10-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s10-prop-8 .statement tag=066Q}
 
 Soit $A$ une $K$-algèbre graduée.
 
@@ -510,7 +510,7 @@ compte tenu de (1) et de l’associativité de $A$.
 
 Lorsque $A$ est associative, on dit que $\mathrm{ad}_\varepsilon(a)$ est la $\varepsilon$-dérivation intérieure de $A$ définie par $a$.
 
-#### Corollaire {#alg-iii-s10-n6-cor-1 .statement}
+#### Corollaire {#alg-iii-s10-n6-cor-1 .statement tag=066R}
 
 Soit $A$ une algèbre graduée associative. Pour deux éléments homogènes $a, b$ de $A$, on a
 
@@ -534,7 +534,7 @@ dite identité de Jacobi.
 
 Dans ce no, toutes les algèbres sont supposées associatives et unifères, et tout homomorphisme d’algèbres est supposé unifère.
 
-#### Proposition 9 {#alg-iii-s10-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s10-prop-9 .statement tag=066S}
 
 Soient $A, B$ deux $K$-algèbres graduées, $E$ un $(A,A)$-bimodule gradué, $F$ un $(B,B)$-bimodule gradué; soient $\rho : A \to B$ un homomorphisme d’algèbres graduées, $\theta : E \to F$ un $A$-homomorphisme de $A$-bimodules (relatif à $\rho$), gradué et de degré 0. Alors:
 
@@ -553,7 +553,7 @@ $$
 
 pour $x \in A$ homogène de degré $\xi$ et $y \in A$, $\delta$ et $\delta'$ désignant les degrés respectifs de $d$ et $d'$.
 
-#### Corollaire {#alg-iii-s10-n7-cor-1 .statement}
+#### Corollaire {#alg-iii-s10-n7-cor-1 .statement tag=066T}
 
 *Soit S un système générateur de l’algèbre A. Pour que $d'\circ\rho = \theta\circ d$, il faut et il suffit que $d'(\rho(x)) = \theta(d(x))$ pour tout $x \in S$.*
 
@@ -561,7 +561,7 @@ C’est une conséquence immédiate de la prop. 9 et de III, p. 123, corollaire.
 
 Sous les conditions de la prop. 9, on sait que B est muni (au moyen de $\rho$) d’une structure de (A, A)-bimodule (II, p. 34, *Exemple 1*).
 
-#### Proposition 10 {#alg-iii-s10-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s10-prop-10 .statement tag=066U}
 
 *Sous les conditions de la prop. 9, pour qu’une $\varepsilon$-dérivation $d' : B \to F$ soit A-linéaire pour les structures de A-module à gauche (resp. à droite) de B et de $\rho_*(F)$, il faut et il suffit que $d'$ s’annule dans la sous-algèbre $\rho(A)$ de B.*
 
@@ -579,7 +579,7 @@ Notons en particulier $D_K(B,F)$ le K-module des *dérivations* de B dans F (III
 
 Soient maintenant A, B, C trois K-algèbres graduées, $\rho : A \to B, \sigma : B \to C$ deux homomorphismes d’algèbres graduées, G un (C,C)-bimodule gradué; si l’on note $D_A(B,G), D_B(C,G)$ et $D_A(C,G)$ les K-modules respectifs $D_{A,\rho}(B, \sigma_*(G)), D_{B,\sigma}(C,G)$ et $D_{A,\sigma\circ\rho}(C,G)$, il est clair que $D_B(C,G)$ est un *sous-K-module* de $D_A(C,G)$ puisque $\sigma(\rho(A)) \subset \sigma(B)$.
 
-#### Proposition 11 {#alg-iii-s10-prop-11 .statement}
+#### Proposition 11 {#alg-iii-s10-prop-11 .statement tag=066V}
 
 *Sous les conditions précédentes, on a une suite exacte de K-homomorphismes*
 $$
@@ -606,7 +606,7 @@ $$
 
 soit l’identité $1_A$ sont les applications de la forme $x \mapsto (x, f(x))$, où $f : A \to E$ est une application K-linéaire graduée \emph{de degré} $\delta$.
 
-#### Proposition 12 {#alg-iii-s10-prop-12 .statement}
+#### Proposition 12 {#alg-iii-s10-prop-12 .statement tag=066W}
 
 *Pour qu’une application K-linéaire graduée $f : A \to E$ de degré $\delta$ soit une $\varepsilon$-dérivation, il faut et il suffit que l’application $x \mapsto (x, f(x))$ de $A$ dans $A \oplus E(\delta)$ soit un homomorphisme de K-algèbres graduées.*
 
@@ -620,7 +620,7 @@ $$f(xy) = f(x).y + \varepsilon_{\delta, \deg(x)} x.f(y)$$
 
 d’où la proposition.
 
-#### Proposition 13 {#alg-iii-s10-prop-13 .statement}
+#### Proposition 13 {#alg-iii-s10-prop-13 .statement tag=066X}
 
 *Pour que l’algèbre $A \oplus E(\delta)$ soit associative et unifère, il faut et il suffit que $A$ soit associative et unifère et que les applications $(a, x) \mapsto a.x$ et $(a, x) \mapsto x.a$ définissent sur $E$ une structure de $(A, A)$-bimodule ; l’élément unité de $A \oplus E(\delta)$ est alors $(1, 0)$.*
 
@@ -628,7 +628,7 @@ Si l’on écrit qu’un élément $(u, m) \in A \oplus E(\delta)$ est élément
 
 ### 9. Prolongement de dérivations
 
-#### Proposition 14 {#alg-iii-s10-prop-14 .statement}
+#### Proposition 14 {#alg-iii-s10-prop-14 .statement tag=066Y}
 
 Soient $A$ un anneau commutatif, $M$ un $A$-module, $B$ la $A$-algèbre $T(M)$ (resp. $S(M)$, resp. $\wedge(M)$), $E$ un $(B,B)$-bimodule. Soient $d_0 : A \to E$ une dérivation de l’anneau $A$ dans le $A$-module $E$, $d_1 : M \to E$ un homomorphisme de groupes additifs tel que, pour tout $a \in A$ et tout $x \in M$, on ait
 $$
@@ -652,7 +652,7 @@ $$
 $$
 dont $(1, 0)$ est l’élément unité (III, p. 127, prop. 13). Par l’injection canonique $t \mapsto (0, t)$, $E$ s’identifie à un idéal bilatère de $B \oplus E$ tel que $E^2 = \{0\}$. D’autre part, l’application $h_0 : A \to B \oplus E$ définie par $h_0(a) = (a, d_0(a))$ est un homomorphisme unifère d’anneaux (III, p. 127, prop. 12); par cette application, $B \oplus E$ devient donc une $A$-algèbre. En outre, si, pour tout $x \in M$, on pose $h_1(x) = (x, d_1(x))$, il résulte de la définition de $h_0$ et de (29) que l’on a $h_1(ax) = h_0(a)h_1(x)$; autrement dit $h_1$ est une application $A$-linéaire de $M$ dans $B \oplus E$. Il existe alors un homomorphisme de $A$-algèbres $h : B \to B \oplus E$ et un seul tel que $h | M = h_1$ (et nécessairement $h | A = h_0$) : en effet, si $B = T(M)$, cela résulte de III, p. 56, prop. 1; si $B = S(M)$, la condition (30) montre que $h(x)h(y) = h(y)h(x)$ quels que soient $x, y$ dans $M$, et la conclusion résulte de III, p. 67, prop. 2; enfin, si $B = \wedge(M)$, la condition (31) montre que $(h(x))^2 = 0$ quel que soit $x \in M$, puisque $x \wedge x = 0$, et la conclusion résulte de III, p. 77, prop. 1. L’homomorphisme $h$ est tel que le composé $p \circ h : B \to B$ avec l’augmentation $p : B \oplus E \to B$ soit l’identité $1_B$, car $p \circ h$ et $1_B$ coïncident par définition pour les éléments de $A$ et ceux de $M$, et l’ensemble de ces éléments est un système générateur de $B$. On peut par suite écrire $h(b) = (b, d(b))$ pour tout $b \in B$, et l’application $b \mapsto d(b)$ de $B$ dans $E$ est une dérivation répondant à la question, en vertu de la prop. 12 de III, p. 127.
 
-#### Corollaire {#alg-iii-s10-n9-cor-1 .statement}
+#### Corollaire {#alg-iii-s10-n9-cor-1 .statement tag=066Z}
 
 Soit $M$ un $K$-module gradué de type $\Delta$; on munit les $K$-algèbres $T(M)$, $S(M)$ et $\wedge(M)$ des graduations correspondantes de type $\Delta' = \Delta \times \mathbf{Z}$ (III, p. 62, prop. 7, III, p. 76, prop. 10 et III, p. 86, prop. 11). On munit d’autre part $M$ de la graduation de type $\Delta'$ telle que $M_{\alpha, 1} = M_\alpha$ pour tout $\alpha \in \Delta$ et $M_{\alpha, n} = \{0\}$ pour $\alpha \in \Delta$ et $n \neq 1$. Soit $\varepsilon'$ un facteur de commutation sur $\Delta'$.
 
@@ -686,7 +686,7 @@ $$
 
 Dans le cas de l’algèbre $\wedge (\mathbf{M})$, on a la propriété suivante de $D_s$:
 
-#### Proposition 15 {#alg-iii-s10-prop-15 .statement}
+#### Proposition 15 {#alg-iii-s10-prop-15 .statement tag=0670}
 
 *Si $\mathbf{M}$ est un $K$-module libre de rang fini $n$, alors, pour tout endomorphisme $s$ de $\mathbf{M}$, la restriction à $\wedge^n(\mathbf{M})$ de la dérivation $D_s$ est l’homothétie de rapport $\mathrm{Tr}(s)$.*
 
@@ -701,7 +701,7 @@ i(x^*)(x_1 \wedge \ldots \wedge x_n) = \sum_{i=1}^n (-1)^{i-1} \langle x_i, x^* 
 $$
 et qui est un cas particulier du produit intérieur qui sera défini dans III, p. 166, formule (68).
 
-#### Proposition 16 {#alg-iii-s10-prop-16 .statement}
+#### Proposition 16 {#alg-iii-s10-prop-16 .statement tag=0671}
 
 *Soient $A$ une $K$-algèbre commutative, $M_i$ ($1 \leq i \leq n$) et $P$ des $A$-modules, $H$ le $A$-module des applications $A$-multilinéaires de $M_1 \times M_2 \times \cdots \times M_n$ dans $P$. On suppose donnée une $K$-dérivation $d_0 : A \to A$ de l’algèbre $A$, et pour chaque $i$, une application $K$-linéaire $d_i : M_i \to M_i$ et une application $K$-linéaire $D : P \to P$, de sorte que pour $1 \leq i \leq n$, $(d_0, d_i, d_i)$ soit une $K$-dérivation de $(A, M_i, M_i)$ dans lui-même et que $(d_0, D, D)$ soit une dérivation de $(A, P, P)$ dans lui-même. Alors il existe une application $K$-linéaire $D' : H \to H$ telle que $(d_0, D', D')$ soit une $K$-dérivation de $(A, H, H)$ dans lui-même et que l’on ait*
 $$
@@ -765,7 +765,7 @@ x . (u \otimes v) . y = (xu) \otimes (vy)
 $$
 quels que soient $x, y, u, v$ dans $A$ (III, p. 39, Exemple 2). L’application $K$-linéaire $m : A \otimes_K A \to A$ correspondant à la multiplication dans $A$ (donc telle que $m(x \otimes y) = xy$) est un homomorphisme de $(A, A)$-bimodules; son noyau $I$ est donc un sous-bimodule de $A \otimes_K A$.
 
-#### Lemme 1 {#alg-iii-s10-lem-1 .statement}
+#### Lemme 1 {#alg-iii-s10-lem-1 .statement tag=0673}
 
 *L’application $\delta_A : x \mapsto x \otimes 1 - 1 \otimes x$ est une $K$-dérivation de $A$ dans $I$, et $I$ est engendré, en tant que $A$-module à gauche, par l’image de $\delta_A$.*
 
@@ -779,7 +779,7 @@ $$
 $$
 en vertu de (40), ce qui achève de prouver le lemme.
 
-#### Proposition 17 {#alg-iii-s10-prop-17 .statement}
+#### Proposition 17 {#alg-iii-s10-prop-17 .statement tag=0674}
 
 *La dérivation $\delta_A$ possède la propriété universelle suivante: pour toute $(A, A)$-bimodule $E$ et toute $K$-dérivation $d : A \to E$, il existe un homomorphisme de $(A, A)$-bimodules $f : I \to E$ et un seul tel que $d = f \circ \delta_A$.*
 
@@ -827,7 +827,7 @@ $$
 
 Compte tenu de la prop. 17 de III, p. 132, on voit que nous avons prouvé la proposition suivante:
 
-#### Proposition 18 {#alg-iii-s10-prop-18 .statement}
+#### Proposition 18 {#alg-iii-s10-prop-18 .statement tag=0675}
 
 *Soient $A$ une K-algèbre commutative, $\mathfrak{J}$ l’idéal noyau de l’homomorphisme canonique surjectif $m : A \otimes_K A \to A$, de sorte que $A$ est isomorphe à $(A \otimes_K A)/\mathfrak{J}$ et que $\mathfrak{J}/\mathfrak{J}^2$ est canoniquement muni d’une structure de $A$-module. Soit $d_{A/K} : A \to \mathfrak{J}/\mathfrak{J}^2$ l’application K-linéaire qui, à tout $x \in A$, fait correspondre la classe de $x \otimes 1 - 1 \otimes x$ modulo $\mathfrak{J}^2$. L’application $d_{A/K}$ est une K-dérivation, et pour tout $A$-module $E$, et toute
 
@@ -843,7 +843,7 @@ $$
 
 Le couple $(\Omega_K(A), d_{A/K})$ est donc solution du problème d’application universelle où $\Sigma$ est l’espèce de structure de A-module et les $\alpha$-applications les K-dérivations de A dans un A-module (E, IV, p. 23).
 
-#### Exemple {#alg-iii-s10-n11-exa-1 .statement}
+#### Exemple {#alg-iii-s10-n11-exa-1 .statement tag=0676}
 
 Soit M un K-module; il résulte de la prop. 14 de III, p. 128 que pour tout S(M)-module E, l’application $D \mapsto D|_M$ définit un isomorphisme de S(M)-modules de $D_K(S(M), E)$ sur $\operatorname{Hom}_K(M, E)$; d’autre part, puisque E est un S(M)-module, $\operatorname{Hom}_K(M, E)$ est canoniquement isomorphe à $\operatorname{Hom}_{S(M)}(M \otimes_K S(M), E)$, tout K-homomorphisme de M dans E s’écrivant d’une seule manière $x \mapsto h(x \otimes 1)$, où $h \in \operatorname{Hom}_{S(M)}(M \otimes_K S(M), E)$ (II, p. 82). Soit $D_0$ la K-dérivation $S(M) \to M \otimes_K S(M)$ dont la restriction à M est l’homomorphisme canonique $x \mapsto x \otimes 1$; toute K-dérivation $D : S(M) \to E$ s’écrit donc d’une seule manière $h \circ D_0$ avec $h \in \operatorname{Hom}_{S(M)}(M \otimes_K S(M), E)$. En vertu de l’unicité d’une solution d’un problème d’application universelle, on voit qu’il existe un unique isomorphisme de S(M)-modules
 
@@ -863,7 +863,7 @@ avec $D_i P \in K[X_1, \ldots, X_n]$, et en vertu de ce qui précède, les appli
 
 ### 12. Propriétés fonctorielles des K-différentielles
 
-#### Proposition 19 {#alg-iii-s10-prop-19 .statement}
+#### Proposition 19 {#alg-iii-s10-prop-19 .statement tag=0677}
 
 Soit
 
@@ -921,7 +921,7 @@ $$
 
 où $C(u)$ est l’application $D \mapsto D \circ u$ (III, p. 125, prop. 9) et $r_A$ l’isomorphisme canonique $\operatorname{Hom}(i_A, 1_{E'}) : \operatorname{Hom}_{A'}(\Omega_K(A) \otimes_A A', E') \to \operatorname{Hom}_A(\Omega_K(A), E')$; cela résulte aussitôt de la prop. 19 et de la définition des isomorphismes $\varphi_A$ et $\varphi_{A'}$.
 
-#### Proposition 20 {#alg-iii-s10-prop-20 .statement}
+#### Proposition 20 {#alg-iii-s10-prop-20 .statement tag=0678}
 
 Supposons que l’on ait $A' = A \otimes_K K'$, $\eta': K' \to A'$ et $u: A \to A'$ étant les homomorphismes canoniques. Alors l’application $A'$-linéaire
 
@@ -957,7 +957,7 @@ $$
 
 $j_u$ étant l’injection canonique (III, p. 126); cela résulte aussitôt de la prop. 18 de III, p. 133.
 
-#### Proposition 21 {#alg-iii-s10-prop-21 .statement}
+#### Proposition 21 {#alg-iii-s10-prop-21 .statement tag=0679}
 
 La suite d’applications $B$-linéaires
 
@@ -999,7 +999,7 @@ $$
 
 et comme $\mathfrak{J}$ annule le A-module $\mathfrak{J}/\mathfrak{J}^2$, $\bar{d}$ est en fait une application B-linéaire.
 
-#### Proposition 22 {#alg-iii-s10-prop-22 .statement}
+#### Proposition 22 {#alg-iii-s10-prop-22 .statement tag=067A}
 
 *Soient $\mathfrak{J}$ un idéal de la K-algèbre commutative $A, B = A/\mathfrak{J}$, et $u : A \to B$ l’homomorphisme canonique. La suite des applications B-linéaires*
 
@@ -1021,7 +1021,7 @@ C. Q. F. D.
 
 On se gardera de croire que, si $u : A \to B$ est un homomorphisme injectif, $\Omega_0(u) : \Omega_K(A) \otimes_A B \to \Omega_K(B)$ soit nécessairement injectif (III, p. 197, exerc. 5). Toutefois, on a la proposition suivante:
 
-#### Proposition 23 {#alg-iii-s10-prop-23 .statement}
+#### Proposition 23 {#alg-iii-s10-prop-23 .statement tag=067B}
 
 *Soient A une K-algèbre intègre, B son corps des fractions, u : A → B l’injection canonique. Alors $\Omega_0(u) : \Omega_K(A) \otimes_A B \to \Omega_K(B)$ est un isomorphisme.*
 

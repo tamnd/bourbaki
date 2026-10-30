@@ -37,7 +37,7 @@ subsections:
       pdf_page: 79
 statements: 18
 exercises: 10
-content_sha256: e519090fb1cff6e92680d9c6a69ce418aa74df7fef3b665abe269a12bf1043ec
+content_sha256: c8f87dd197d7b252475c38fa0e164dd5fec2857fba9ef3e8a43802a57cd03177
 ---
 
 ## § 3. DÉRIVÉES ET INTÉGRALES DE FONCTIONS DÉPENDANT D’UN PARAMÈTRE
@@ -46,7 +46,7 @@ content_sha256: e519090fb1cff6e92680d9c6a69ce418aa74df7fef3b665abe269a12bf1043ec
 
 Le th. 1 de II, p. 2, appliqué au cas particulier des primitives de fonctions réglées dans un intervalle compact, se traduit de la manière suivante dans la notation propre aux intégrales:
 
-#### Proposition 1 {#fvr-ii-s3-prop-1 .statement}
+#### Proposition 1 {#fvr-ii-s3-prop-1 .statement tag=088Y}
 
 Soient $A$ un ensemble filtré par un filtre $\mathfrak{F}$, $(f_\alpha)_{\alpha \in A}$ une famille de fonctions réglées dans un intervalle compact $I = (a, b)$; si les fonctions $f_\alpha$ convergent uniformément dans $I$ vers une fonction (réglée) $f$ suivant le filtre $\mathfrak{F}$, on a
 $$
@@ -56,7 +56,7 @@ $$
 
 Deux corollaires de cette proposition sont importants dans les applications:
 
-#### Corollaire 1 {#fvr-ii-s3-prop-1-cor-1 .statement}
+#### Corollaire 1 {#fvr-ii-s3-prop-1-cor-1 .statement tag=088Z}
 
 Soit $(\mathbf{f}_n)$ une suite de fonctions réglées dans un intervalle compact $I = (a, b)$. Si la suite $(\mathbf{f}_n)$ converge uniformément dans $I$ vers une fonction (réglée) $\mathbf{f}$, on a
 $$
@@ -66,7 +66,7 @@ $$
 
 En particulier, si une série dont le terme général $u_n$ est une fonction réglée dans $I$, converge uniformément vers $\mathbf{f}$ dans $I$, la série de terme général $\int_a^b u_n(t) dt$ est convergente et a pour somme $\int_a^b \mathbf{f}(t)dt$ (« intégration terme à terme d’une série uniformément convergente »).
 
-#### Corollaire 2 {#fvr-ii-s3-prop-1-cor-2 .statement}
+#### Corollaire 2 {#fvr-ii-s3-prop-1-cor-2 .statement tag=0890}
 
 Soient $A$ une partie d’un espace topologique $F$, $\mathbf{f}$ une application de $I \times A$ dans un espace normé complet $E$ sur $\mathbf{R}$, telle que, pour tout $\alpha \in A$, la fonction $x \mapsto \mathbf{f}(x, \alpha)$ soit réglée dans $I$. Si les fonctions $x \mapsto \mathbf{f}(x, \alpha)$ convergent uniformément dans $I$ vers une fonction (réglée) $x \mapsto \mathbf{f}(x)$, lorsque $\alpha$ tend vers un point $\alpha_0 \in \overline{A}$ en restant dans $A$, on a
 $$
@@ -76,7 +76,7 @@ $$
 
 En particulier:
 
-#### Proposition 2 (« continuité d’une intégrale par rapport au paramètre ») {#fvr-ii-s3-prop-2 .statement}
+#### Proposition 2 (« continuité d’une intégrale par rapport au paramètre ») {#fvr-ii-s3-prop-2 .statement tag=0891}
 
 Soient $F$ un espace compact, $I = (a, b)$ un intervalle compact de $\mathbf{R}$, $\mathbf{f}$ une application continue de $I \times F$ dans un espace normé complet $E$ sur $\mathbf{R}$; la fonction $h(\alpha) = \int_a^b \mathbf{f}(\alpha, x) \, dx$ est continue dans $F$.
 
@@ -124,7 +124,7 @@ Enfin, le lemme de II, p. 16 nous permet de mettre la dernière condition trouv�
 
 Le plus souvent, on utilise une condition plus restrictive, obtenue en supposant, dans l’énoncé précédent, que l’ensemble $M$ *ne dépende pas de* $\varepsilon$:
 
-#### Définition 1 {#fvr-ii-s3-def-1 .statement}
+#### Définition 1 {#fvr-ii-s3-def-1 .statement tag=0892}
 
 *On dit que l’intégrale* $\int_I f_\alpha(t)\ dt$ *est uniformément convergente pour* $\alpha \in A$ *(ou uniformément convergente dans* $A$*) si, pour tout* $\varepsilon > 0$, *il existe un intervalle compact* $J_0 \subset I$ *tel que, pour tout intervalle compact* $K \subset I$ *sans point intérieur commun avec* $J_0$, *et tout* $\alpha \in A$, *on ait*
 
@@ -134,7 +134,7 @@ $$
 
 Cette définition équivaut à dire que la famille des applications $\alpha \mapsto \int_I f_\alpha(t) \, dt$ est uniformément convergente dans $A$ (vers l’application $\alpha \mapsto \int_I f_\alpha(t) \, dt$) suivant le filtre des sections $\Phi$ de $\mathfrak{F}(I)$; chacune des intégrales $\int_I f_\alpha(t)$ est a fortiori convergente (la réciproque étant inexacte). En outre, d’après ce que nous venons de voir (ou d’après TG, X, p. 8, cor. 2):
 
-#### Proposition 3 {#fvr-ii-s3-prop-3 .statement}
+#### Proposition 3 {#fvr-ii-s3-prop-3 .statement tag=0893}
 
 Soit $(\mathbf{f}_\alpha)$ une famille de fonctions réglées dans un intervalle $I$, telles que:
 1° suivant le filtre $\mathfrak{F}$, la famille $(\mathbf{f}_\alpha)$ converge uniformément vers une fonction $\mathbf{f}$ (réglée dans $I$) dans tout intervalle compact contenu dans $I$; 2° l’intégrale $\int_I \mathbf{f}_\alpha(t) \, dt$ soit uniformément convergente pour tout $\alpha \in A$. Dans ces conditions, l’intégrale $\int_I \mathbf{f}(t) \, dt$ est convergente, et on a
@@ -145,18 +145,18 @@ Les conditions de la prop. 3 sont remplies par exemple lorsque $I$ est un interv
 
 Comme pour la prop. 1 de II, p. 19, deux corollaires de la prop. 3 sont importants dans les applications:
 
-#### Corollaire 1 {#fvr-ii-s3-prop-3-cor-1 .statement}
+#### Corollaire 1 {#fvr-ii-s3-prop-3-cor-1 .statement tag=0894}
 
 Soit $(\mathbf{f}_n)$ une suite de fonctions réglées dans un intervalle quelconque $I$, uniformément convergente vers une fonction $\mathbf{f}$ dans tout intervalle compact contenu dans $I$; si l’intégrale $\int_I \mathbf{f}_n(t) \, dt$ est uniformément convergente, l’intégrale $\int_I \mathbf{f}(t) \, dt$ est convergente, et on a
 $$
 \lim_{n \to \infty} \int_I \mathbf{f}_n(t) \, dt = \int_I \mathbf{f}(t) \, dt.
 $$
 
-#### Remarque {#fvr-ii-s3-n2-rem-1 .statement}
+#### Remarque {#fvr-ii-s3-n2-rem-1 .statement tag=0895}
 
 Les hypothèses faites dans ce corollaire sont suffisantes, mais non nécessaires pour la validité de la formule (9); nous généraliserons plus tard cette formule en même temps que la notion d’intégrale (voir INT, IV), et obtiendrons des conditions beaucoup moins restrictives.
 
-#### Corollaire 2 {#fvr-ii-s3-prop-3-cor-2 .statement}
+#### Corollaire 2 {#fvr-ii-s3-prop-3-cor-2 .statement tag=0896}
 
 Soient $A$ une partie d’un espace topologique $F$, $\mathbf{f}$ une application de $I \times A$ dans un espace normé complet $E$ sur $\mathbf{R}$, telle que, pour tout $\alpha \in A$, la fonction $x \mapsto \mathbf{f}(x, \alpha)$ soit réglée dans $I$. Si, d’une part, les fonctions $x \mapsto \mathbf{f}(x, \alpha)$ convergent uniformément, dans tout intervalle compact contenu dans $I$, vers une fonction $x \mapsto \mathbf{f}(x)$, lorsque $\alpha$ tend vers $\alpha_0 \in \overline{A}$ en restant dans $A$; si, d’autre part, l’intégrale $\int_I \mathbf{f}(x, \alpha) \, dx$ est uniformément convergente dans $A$, alors l’intégrale $\int_I \mathbf{f}(x) \, dx$ est convergente, et on a
 $$
@@ -165,7 +165,7 @@ $$
 
 En particulier:
 
-#### Proposition 4 (« continuité d’une intégrale impropre par rapport au paramètre ») {#fvr-ii-s3-prop-4 .statement}
+#### Proposition 4 (« continuité d’une intégrale impropre par rapport au paramètre ») {#fvr-ii-s3-prop-4 .statement tag=0897}
 
 Soient F un espace compact, I un intervalle quelconque de R, f une application continue de I × F dans un espace normé complet E sur R ; si l’intégrale h(α) = ∫_I f(x, α) dx est uniformément convergente dans F, elle est fonction continue de α dans F.
 
@@ -213,7 +213,7 @@ $$
 
 La proposition suivant donne une condition suffisante plus simple pour la validité de la formule (12):
 
-#### Proposition 5 {#fvr-ii-s3-prop-5 .statement}
+#### Proposition 5 {#fvr-ii-s3-prop-5 .statement tag=0898}
 
 *On suppose que la dérivée partielle* $f'_\alpha(x,\ x)$ *existe pour tout* $x \in I$ *et tout* $\alpha$ *appartenant à un voisinage ouvert* $V$ *de* $x_0$, *et que, pour tout* $\alpha \in V$, *l’application* $x \mapsto f'_\alpha(x,\ \alpha)$ *soit réglée dans* $I$. *Dans ces conditions, si* $x \mapsto f'_\alpha(x,\ \alpha)$ *converge uniformément dans* $I$ *vers* $x \mapsto f'_\alpha(x,\ x_0)$ *lorsque* $\alpha$ *tend vers* $x_0$, *la fonction* $g(\alpha) = \int_a^b f(t,\ \alpha)\, dt$ *admet au point* $x_0$ *une dérivée donnée par la formule* (12).
 
@@ -225,7 +225,7 @@ $$
 
 ce qui prouve la convergence uniforme de $\frac{\mathbf{f}(x, \alpha) - \mathbf{f}(x, \alpha_0)}{\alpha - \alpha_0}$ vers $\mathbf{f}'_\alpha(x, \alpha_0)$ dans $I$ lorsque $\alpha$ tend vers $\alpha_0$ (en restant $\neq \alpha_0$), et établit donc la formule (12).
 
-#### Corollaire {#fvr-ii-s3-n4-cor-1 .statement}
+#### Corollaire {#fvr-ii-s3-n4-cor-1 .statement tag=0899}
 
 *Si la dérivée partielle $\mathbf{f}'_\alpha(x, \alpha)$ existe dans $I \times V$ et est fonction continue de $(x, \alpha)$ dans cet ensemble, la fonction $g$ admet au point $\alpha_0$ une dérivée donnée par la formule (12).*
 
@@ -233,7 +233,7 @@ En effet, si $W$ est un voisinage compact de $\alpha_0$ contenu dans $V$, l’ap
 
 De la prop. 5, on déduit une proposition plus générale permettant de calculer la dérivée d’une intégrale lorsque, non seulement la fonction intégrée $\mathbf{f}$, mais aussi les limites d’intégration, dépendent du paramètre $\alpha$:
 
-#### Proposition 6 {#fvr-ii-s3-prop-6 .statement}
+#### Proposition 6 {#fvr-ii-s3-prop-6 .statement tag=089A}
 
 *Les conditions de la prop. 5 étant supposées vérifiées, soient $a(\alpha), b(\alpha)$ deux fonctions définies dans $V$, à valeurs dans $I$; si les dérivées $a'(\alpha_0), b'(\alpha_0)$ existent et sont finies, la fonction $g(\alpha) = \int_{a(\alpha)}^{b(\alpha)} \mathbf{f}(t, \alpha) dt$ admet au point $\alpha_0$ une dérivée donnée par la formule*
 
@@ -272,7 +272,7 @@ L’ensemble V ayant la même signification que dans la prop. 5 de II, p. 24, su
 
 Une condition suffisante pour que la formule (12) (II, p. 24) soit encore valable dans ce cas est donnée par la proposition suivante:
 
-#### Proposition 7 {#fvr-ii-s3-prop-7 .statement}
+#### Proposition 7 {#fvr-ii-s3-prop-7 .statement tag=089B}
 
 *Soit I un intervalle quelconque de $\mathbf{R}$, $\mathbf{f}$ une fonction continue dans $I \times V$. On suppose que:
 1° la dérivée partielle $\mathbf{f}'_\alpha(x, \alpha)$ existe pour tout $x \in I$ et tout $\alpha \in V$, et, pour tout $\alpha \in V$, l’application $x \mapsto \mathbf{f}'_\alpha(x, \alpha)$ est réglée dans I;
@@ -288,11 +288,11 @@ $$
 
 La convergence uniforme dans V de l’intégrale $\int_I \mathbf{f}'_\alpha(t, \alpha) \, dt$ signifie que la fonction $\alpha \mapsto \int_J f'_\alpha(t, \alpha) \, dt$ converge uniformément dans V suivant le filtre des sections $\Phi$ de l’ordonné filtrant $\mathfrak{t}(I)$ des intervalles compacts J contenus dans I. Posons $u_J(\alpha) = \int_J f(t, \alpha)dt$; les hypothèses montrent d’une part que $u_J(\alpha_0)$ a une limite suivant $\Phi$, et d’autre part, en vertu de la prop. 5 de II, p. 24, que $u'_J(\alpha) = \int_J f'_\alpha(t, \alpha) \, dt$ pour tout $\alpha \in V$. Nous pouvons donc appliquer le th. 1 de II, p. 2, aux fonctions $u_J$, le rôle de l’ensemble d’indices étant tenu ici par $\mathfrak{t}(I)$, celui du filtre sur cet ensemble par le filtre $\Phi$; la proposition en résulte aussitôt.
 
-#### Remarque 1 {#fvr-ii-s3-n5-rem-1 .statement}
+#### Remarque 1 {#fvr-ii-s3-n5-rem-1 .statement tag=089C}
 
 Les conditions 1° et 2° de la prop. 7 sont remplies a fortiori lorsque $f'_\alpha(x, \alpha)$ est fonction continue de $(x, \alpha)$ dans $I \times V$.
 
-#### Remarque 2 {#fvr-ii-s3-n5-rem-2 .statement}
+#### Remarque 2 {#fvr-ii-s3-n5-rem-2 .statement tag=089D}
 
 Lorsque, dans une intégrale $\int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt$, les extrémités de l’intervalle d’intégration sont des fonctions finies du paramètre, l’étude de cette intégrale en fonction de $\alpha$ peut se rattacher à celle d’une intégrale dans $[0, 1]$; en effet, par le changement de variable $t = a(\alpha)(1-u) + b(\alpha)u$, on a
 $$
@@ -303,7 +303,7 @@ $$
 
 Soient $I = [a, b]$ et $A = [c, d]$ deux intervalles compacts de $\mathbf{R}$; soit $f$ une fonction continue dans $I \times A$, à valeurs dans un espace normé complet $E$ sur $\mathbf{R}$; d’après la prop. 2 de II, p. 19, $\int_a^b f(x, \alpha) \, dx$ est fonction continue de $\alpha$ dans $A$; son intégrale $\int_c^d (\int_a^b f(x, \alpha) \, dx) d\alpha$ se note aussi, pour simplifier $\int_c^d d\alpha \int_a^b f(x, \alpha) \, dx$.
 
-#### Proposition 8 {#fvr-ii-s3-prop-8 .statement}
+#### Proposition 8 {#fvr-ii-s3-prop-8 .statement tag=089E}
 
 Si $f$ est continue dans $I \times A$, on a
 $$
@@ -325,7 +325,7 @@ Or, la dérivée du premier membre par rapport à $y$ est $g(y)$, celle du secon
 
 Supposons maintenant que $A = [c, d]$ soit un intervalle *compact* dans $\mathbf{R}$, $I$ un intervalle *quelconque* dans $\mathbf{R}$; soit $\mathbf{f}$ une fonction continue dans $I \times A$, à valeurs dans $E$, telle que l’intégrale $\mathbf{f}(\alpha) = \int_I \mathbf{f}(t, \alpha) \, dt$ soit convergente pour tout $\alpha \in A$; même si $g(\alpha)$ est continue dans $A$, on ne peut pas toujours intervertir les intégrations dans l’intégrale $\int_c^d d\alpha \int_I \mathbf{f}(t, \alpha) \, dt$, car l’intégrale $\int_I dt \int_c^d \mathbf{f}(t, \alpha) \, d\alpha$ peut ne pas exister, ou être distincte de l’intégrale $\int_c^d d\alpha \int_I \mathbf{f}(t, \alpha) \, dt$ (cf. II, p. 36, exerc. 7). On a toutefois le résultat suivant:
 
-#### Proposition 9 {#fvr-ii-s3-prop-9 .statement}
+#### Proposition 9 {#fvr-ii-s3-prop-9 .statement tag=089F}
 
 *Si la fonction* $\mathbf{f}$ *est continue dans* $I \times A$, *et si l’intégrale* $\int_I \mathbf{f}(t, \alpha) \, dt$ *est uniformément convergente dans* $A$, *l’intégrale* $\int_I dt \int_c^d \mathbf{f}(t, \alpha) \, d\alpha$ *est convergente*, *et on a*
 $$

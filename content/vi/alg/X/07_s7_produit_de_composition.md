@@ -49,7 +49,7 @@ subsections:
       pdf_page: 138
 statements: 34
 exercises: 11
-content_sha256: 10eb4072b77634cf491b13fadef29738398fea08d9c7bda9c67cc92fb1c440d0
+content_sha256: cfcdbdb4f17ebb172b4c935dec313b60ce45b15471c503365806b293badde462
 translated_from: content/en-mt/alg/X/07_s7_produit_de_composition.md
 source_lang: en-mt
 translation_method: machine
@@ -105,11 +105,11 @@ $$
 
 Nếu $u \in \mathrm{Ext}_A(N, P)$, $v \in \mathrm{Ext}_A(M, N)$, thì ảnh của $(u, v)$ qua (1) được gọi là *tích hợp thành của $u$ và $v$* và được ký hiệu là $u \circ v$. Nếu $g$ (ứng với $f$) là một cấu xạ bậc-tăng bậc $j$ (ứng với $i$) từ $I(M)$ đến $I(N)$ (ứng với từ $I(N)$ đến $I(P)$), có lớp đồng luân là $\bar{g}$ (ứng với $\bar{f}$), thì tích hợp thành $a_{N,P}(\bar{f}) \circ a_{M,N}(\bar{g})$ là ảnh qua $a_{M,P}$ của lớp đồng luân của cấu xạ $f \circ g$ từ $I(M)$ đến $I(P)$.
 
-#### Ví dụ 1 {#alg-x-s7-n1-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s7-n1-exa-1 .statement tag=0DZG}
 
 Nếu $u \in \mathrm{Hom}_A(N, P)$, $v \in \mathrm{Hom}_A(M, N)$, thì $u \circ v$ là hợp thành của $u$ và $v$.
 
-#### Ví dụ 2 {#alg-x-s7-n1-exa-2 .statement}
+#### Ví dụ 2 {#alg-x-s7-n1-exa-2 .statement tag=0DZH}
 
 Nếu $u \in \mathrm{Hom}_A(N, P)$, $v \in \mathrm{Ext}_A(M, N)$, thì
 
@@ -133,7 +133,7 @@ $$
 
 thì $(u \circ v) \circ w = u \circ (v \circ w)$: tích hợp thành là *kết hợp*; do đó từ đây ta sẽ ký hiệu hợp thành của nhiều phần tử mà không dùng dấu ngoặc. Đặc biệt, theo Ví dụ 2:
 
-#### Ví dụ 3 {#alg-x-s7-n1-exa-3 .statement}
+#### Ví dụ 3 {#alg-x-s7-n1-exa-3 .statement tag=0DZI}
 
 Cho $M, N, M', N'$ là bốn $A$-môđun trái. Nếu $u \in \mathrm{Ext}_A(M, N)$, $f \in \mathrm{Hom}_A(M', M)$, $g \in \mathrm{Hom}_A(N, N')$, thì
 
@@ -195,7 +195,7 @@ Trong phần sau, tùy trường hợp ta sẽ dùng cách này hay cách khác 
 
 ### 3. Lớp liên kết với một dãy khớp
 
-#### Mệnh đề 1 {#alg-x-s7-prop-1 .statement}
+#### Mệnh đề 1 {#alg-x-s7-prop-1 .statement tag=0DZJ}
 
 Cho $(C,d)$ và $(C',d')$ là hai phức các $A$-môđun trái và $n,p,q$ là ba số nguyên sao cho $p \geq q$. Với $p \geq i \geq q-1$, cho $f_i:C_i\longrightarrow C'_{i+n+1}$ là một đồng cấu các $A$-môđun sao cho $f_p\circ d=0$, $f_i\circ d=d'\circ f_{i+1}$ với $p>i\geq q-1$, và $d'\circ f_{q-1}=0$ (xem hình 2).
 
@@ -272,7 +272,7 @@ $$
 
 tương ứng.
 
-#### Mệnh đề 2 {#alg-x-s7-prop-2 .statement}
+#### Mệnh đề 2 {#alg-x-s7-prop-2 .statement tag=0DZK}
 
 *Ta có* $a, b \in Z^n(\mathrm{Homgr}_A(L(M), I(N)))$. *Hơn nữa*, các lớp $\overline{a}$ và $\overline{b}$ của $a$ và $b$ trong $H^n(\mathrm{Homgr}_A(L(M), I(N))) = \mathrm{Ext}_A^n(M, N)$ chỉ phụ thuộc vào dãy khớp (4) và bằng nhau.
 
@@ -284,11 +284,11 @@ $$
 
 Vì $a$ (resp. $b$) độc lập với lựa chọn của $u$ (resp. $v$), phần tử $\overline{a} = \overline{b}$ của $\mathrm{Ext}_A^n(M, N)$ độc lập với lựa chọn các cấu xạ $u$ và $v$, do đó suy ra mệnh đề.
 
-#### Định nghĩa 1 {#alg-x-s7-def-1 .statement}
+#### Định nghĩa 1 {#alg-x-s7-def-1 .statement tag=0DZL}
 
 *Ta gọi lớp liên kết với dãy khớp* (4) *là phần tử* $\theta$ *của* $\mathrm{Ext}_A^n(M, N)$ *được xác định bởi* $\theta = (-1)^{n(n+1)/2} \overline{a} = (-1)^{n(n+1)/2} \overline{b}$.
 
-#### Nhận xét 1 {#alg-x-s7-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s7-n3-rem-1 .statement tag=0DZM}
 
 Cho (P, p) là một phân giải xạ ảnh của M. Theo X, p. 49. mệnh đề 3, tồn tại một biểu đồ giao hoán
 
@@ -312,13 +312,13 @@ $$
 
 và θ là ảnh dưới φ(M, E) của lớp đồng luân của cấu xạ M → E xác định bởi (−1)^{n(n+1)/2} v^n. Điều này suy ra từ phép dựng của θ và các định nghĩa của φ(P, N) và φ(M, E).
 
-#### Nhận xét 2 {#alg-x-s7-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s7-n3-rem-2 .statement tag=0DZN}
 
 Khi $n = 0$, dãy khớp (4) có dạng $0 \to N \xrightarrow{f} M \to 0$, và lớp liên kết là $f^{-1} \in \mathrm{Hom}_A(M, N) = \mathrm{Ext}^0_A(M, N)$.
 
 ### 4. Các tính chất của lớp liên kết với một dãy khớp
 
-#### Mệnh đề 3 {#alg-x-s7-prop-3 .statement}
+#### Mệnh đề 3 {#alg-x-s7-prop-3 .statement tag=0DZO}
 
 Cho
 
@@ -409,7 +409,7 @@ $$
 
 Theo định nghĩa, $\theta'\circ f$ là lớp của $(-1)^{n(n+1)/2}v^n\circ f\circ p_M\in\operatorname{Homgr}^n(L(M),I(N'))$, còn $g\circ\theta$ là lớp của $(-1)^{n(n+1)/2}\epsilon_{N'}\circ g\circ u_n$. Theo Bổ đề 1, áp dụng cho hai hàng biên của biểu đồ, hai lớp này bằng nhau.
 
-#### Hệ quả 1 {#alg-x-s7-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s7-prop-3-cor-1 .statement tag=0DZP}
 
 Xét một biểu đồ giao hoán với các hàng khớp
 
@@ -423,7 +423,7 @@ $$
 
 hai hàng của biểu đồ có cùng lớp liên kết trong $\mathrm{Ext}_A^n(M, N)$.
 
-#### Hệ quả 2 {#alg-x-s7-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s7-prop-3-cor-2 .statement tag=0DZQ}
 
 Cho
 
@@ -451,7 +451,7 @@ $$
 
 và ta áp dụng mệnh đề.
 
-#### Hệ quả 3 {#alg-x-s7-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#alg-x-s7-prop-3-cor-3 .statement tag=0DZR}
 
 Cho $0 \to N \xrightarrow{f_{n-1}} R_n \xrightarrow{f_n} \cdots \to R_1 \xrightarrow{f_1} M \to 0$ là một dãy khớp, $\theta$ lớp của nó trong $\mathrm{Ext}_A^n(M, N)$, $u \colon M' \to M$ và $v \colon N \to N'$ là các đồng cấu của $A$-môđun.
 
@@ -487,7 +487,7 @@ mệnh đề $a$ khi đó suy ra từ mệnh đề.
 
 Chứng minh của $b$ là tương tự.
 
-#### Nhận xét {#alg-x-s7-n4-rem-1 .statement}
+#### Nhận xét {#alg-x-s7-n4-rem-1 .statement tag=0DZS}
 
 Cho $\theta \in \mathrm{Ext}^n_A(M, N)$, tương ứng $\theta' \in \mathrm{Ext}^n_A(M', N')$, là lớp của một dãy khớp
 
@@ -524,7 +524,7 @@ theo X, p. 89, mệnh đề 7, điều đó kéo theo $\theta'' = m(\theta, \the
 
 ### 5. Quan hệ giữa các dãy khớp và các phần tử của $\mathrm{Ext}_A(M, N)$
 
-#### Định lý 1 {#alg-x-s7-thm-1 .statement}
+#### Định lý 1 {#alg-x-s7-thm-1 .statement tag=0DZT}
 
 *Cho $n$ là một số nguyên $\geqslant 1$, $M$ và $N$ là hai $A$-môđun.*
 
@@ -626,11 +626,11 @@ $$
 
 với $M' = M \times_{\mathbf{R}_1} E_{n-1}$ (xem X, p. 120, hệ quả 3, b)). Vậy điều kiện (iii) được thỏa mãn, điều này hoàn tất chứng minh định lý.
 
-#### Nhận xét 1 {#alg-x-s7-n5-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s7-n5-rem-1 .statement tag=0DZU}
 
 Nếu vành $A$ là Noether, và nếu các $A$-môđun $M$ và $N$ là hữu hạn kiểu, thì từ chứng minh của a) suy ra rằng mọi phần tử của $\mathrm{Ext}_A^n(M, N)$ là lớp liên kết với một dãy khớp $0 \to N \to R_n \to \ldots \to R_1 \to M \to 0$ trong đó các $R_i$ là hữu hạn kiểu.
 
-#### Hệ quả {#alg-x-s7-n5-cor-1 .statement}
+#### Hệ quả {#alg-x-s7-n5-cor-1 .statement tag=0DZV}
 
 *Cho* $0 \to N \xrightarrow{f} R \xrightarrow{g} M \to 0$ *và* $0 \to N \xrightarrow{f'} R' \xrightarrow{g'} M \to 0$ *là hai dãy khớp*, $\theta$ *và* $\theta'$ *các lớp liên kết của chúng trong* $\mathrm{Ext}^1(M, N)$. *Để có* $\theta = \theta'$*, điều kiện cần và đủ là tồn tại một* A-đồng cấu $h : R \to R'$ *làm cho biểu đồ*
 
@@ -661,7 +661,7 @@ $$
 
 Các đồng cấu $h'$ và $h''$ là các đẳng cấu theo X, p. 7, hệ quả 3, và $h = h'' \circ {h'}^{-1}$ trả lời câu hỏi. Khẳng định cuối cùng suy ra từ *loc. cit.*
 
-#### Nhận xét 2 {#alg-x-s7-n5-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s7-n5-rem-2 .statement tag=0DZW}
 
 Định lý 1 cho một mô tả của $\mathrm{Ext}_A^n(M, N)$ như một tập hợp các lớp tương đương của các dãy khớp; thật dễ mô tả luật nhóm thu được trên tập hợp này bằng phép chuyển cấu trúc. Thật vậy, gọi $\theta$ (tương ứng, $\theta'$) là lớp của một dãy khớp $0 \to N \xrightarrow{f_{n+1}} R_n \xrightarrow{f_n} \ldots \to R_1 \to M \to 0$ (tương ứng, $0 \to N \xrightarrow{f'_{n+1}} R'_n \xrightarrow{f'_n} \ldots \to R'_1 \to M \to 0$). Gọi $\Delta : M \to M \oplus M$ và $\nabla : N \oplus N \to N$ là các ánh xạ $A$-tuyến tính được xác định bởi $\Delta(x) = (x, x)$ với $x \in M$ và $\nabla(y, z) = y + z$ với $y, z \in N$. Xét ánh xạ
 
@@ -685,7 +685,7 @@ và trong đó $R''_1=R_1\times_M R'_1$.
 
 ### 6. Tích Hợp thành và các Đồng cấu Nối kết của các Môđun Mở rộng
 
-#### Mệnh đề 5 {#alg-x-s7-prop-5 .statement}
+#### Mệnh đề 5 {#alg-x-s7-prop-5 .statement tag=0DZX}
 
 Cho
 
@@ -695,13 +695,13 @@ là một dãy khớp của các môđun trái trên $A$, $\theta\in\operatornam
 
 a) Đồng cấu nối kết $\delta^n(N,\mathscr{E}):\operatorname{Ext}^n_A(N,M'')\longrightarrow\operatorname{Ext}^{n+1}_A(N,M')$ là tích hợp thành $\alpha\mapsto\theta\circ\alpha$ với $\theta$.
 
-#### Hệ quả 1 {#alg-x-s7-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s7-prop-5-cor-1 .statement tag=0DZY}
 
 a) *Đồng cấu nối kết* $\mathrm{Hom}_A(M'', M'') \to \mathrm{Ext}_A^1(M'', M')$ *gửi* $1_{M''}$ *lên* $\theta$.
 
 b) *Đồng cấu nối kết* $\mathrm{Hom}_A(M', M') \to \mathrm{Ext}_A^1(M'', M')$ *gửi* $1_{M'}$ *lên* $-\theta$.
 
-#### Hệ quả 2 {#alg-x-s7-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s7-prop-5-cor-2 .statement tag=0DZZ}
 
 *Xét hai dãy khớp ngắn của các môđun trái trên A*
 
@@ -764,7 +764,7 @@ $$
 \delta^m(\mathscr{S},P):\operatorname{Ext}_A^m(N,P)\to\operatorname{Ext}_A^{m+n}(M,P).
 $$
 
-#### Hệ quả 3 {#alg-x-s7-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#alg-x-s7-prop-5-cor-3 .statement tag=0E00}
 
 Nếu $\theta\in\operatorname{Ext}_A^n(M,N)$ là lớp của dãy khớp $(\mathscr{S})$, ta có
 
@@ -789,7 +789,7 @@ $$
 (m+1)+\cdots+(m+n)=mn+n(n+1)/2.
 $$
 
-#### Hệ quả 4 {#alg-x-s7-prop-5-cor-4 .statement}
+#### Hệ quả 4 {#alg-x-s7-prop-5-cor-4 .statement tag=0E01}
 
 Nếu mỗi môđun $R_i,\ i = 1, ..., n,$ là đơn ánh (resp. xạ ảnh), thì ánh xạ $\alpha \mapsto \theta \circ \alpha$ (resp. $\alpha \mapsto \alpha \circ \theta$) từ $\mathrm{Ext}_A^m(P, M)$ vào $\mathrm{Ext}_A^{m+n}(P, N)$ (resp. từ $\mathrm{Ext}_A^m(N, P)$ vào $\mathrm{Ext}_A^{m+n}(M, P)$) là song ánh với mọi $A$-môđun $P$ và mọi số nguyên $m > 0$.
 
@@ -801,7 +801,7 @@ $$
 (resp. $\mathrm{Ext}_A^{m+i-1}(R_i, P) \to \mathrm{Ext}_A^{m+i-1}(K_i, P) \to \mathrm{Ext}_A^{m+i}(K_{i-1}, P) \to \mathrm{Ext}_A^{m+i}(R_i, P)$),
 mà các hạng ở hai đầu bằng không theo giả thiết.
 
-#### Nhận xét {#alg-x-s7-n6-rem-1 .statement}
+#### Nhận xét {#alg-x-s7-n6-rem-1 .statement tag=0E02}
 
 Các định nghĩa và các mệnh đề từ No. 3 đến No. 6 áp dụng cho các $A$-môđun phải, được xét như các môđun trái trên vành đối $A^\circ$ của $A$.
 
@@ -835,7 +835,7 @@ $$
 
 Ví dụ, nếu $\alpha \in \mathrm{Hom}_A(P, Q)$, thì $\alpha \circ \gamma = \mathrm{Tor}(\alpha, 1)(\gamma)$.
 
-#### Nhận xét 1 {#alg-x-s7-n7-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s7-n7-rem-1 .statement tag=0E03}
 
 Nếu ta dùng các đẳng cấu $\psi$ của X, p. 69, thì cũng có thể định nghĩa tích hợp thành bằng biểu đồ giao hoán
 
@@ -853,7 +853,7 @@ $$
 (f_m \otimes 1_M)(x) \in L_{m-n}(Q) \otimes_A M.
 $$
 
-#### Nhận xét 2 {#alg-x-s7-n7-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s7-n7-rem-2 .statement tag=0E04}
 
 Ta cũng có thể dùng các giải quyết $l(P)$ và $l(Q)$.
 
@@ -879,7 +879,7 @@ Nếu $\mu \in \mathrm{Ext}_A^r(M, N)$ là lớp của cấu xạ $g : L(M) \to 
 
 Ta cũng có thể biểu diễn $\gamma$ bởi một chu trình $y \in P \otimes L_m(M)$, và $\mu \circ \gamma$ là lớp của chu trình $(1 \otimes g)(y) \in P \otimes L_{m-r}(M)$.
 
-#### Mệnh đề 6 {#alg-x-s7-prop-6 .statement}
+#### Mệnh đề 6 {#alg-x-s7-prop-6 .statement tag=0E05}
 
 Cho $K, M, N$ là các $A$-môđun trái, $P, Q, R$ là các $A$-môđun phải,
 $\alpha \in \mathrm{Ext}_A^n(P, Q)$, $\beta \in \mathrm{Ext}_A^p(Q, R)$, $\lambda \in \mathrm{Ext}_A^r(K, M)$, $\mu \in \mathrm{Ext}_A^s(M, N)$, $\gamma \in \mathrm{Tor}_m^A(P, K)$.
@@ -897,7 +897,7 @@ $$
 
 ### 8. Các tích hợp thành và các đồng cấu nối của các tích xoắn
 
-#### Mệnh đề 7 {#alg-x-s7-prop-7 .statement}
+#### Mệnh đề 7 {#alg-x-s7-prop-7 .statement tag=0E06}
 
 a) Cho
 
@@ -956,7 +956,7 @@ $$
 $$
 điều này hoàn tất chứng minh của a). Mệnh đề b) suy ra từ a) nhờ các đẳng cấu giao hoán.
 
-#### Hệ quả 1 {#alg-x-s7-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s7-prop-7-cor-1 .statement tag=0E07}
 
 *Cho* $0 \to P' \to P \to P'' \to 0$ *là một dãy khớp của các* $A$-*môđun phải*, $0 \to M' \to M \to M'' \to 0$ *là một dãy khớp của các* $A$-*môđun trái*. *Khi đó các hợp thành của các đồng cấu nối*
 $$
@@ -980,11 +980,11 @@ $$
 $$
 Khi đó theo mệnh đề 7 và mệnh đề 3 của X, p. 118 :
 
-#### Hệ quả 2 {#alg-x-s7-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s7-prop-7-cor-2 .statement tag=0E08}
 
 Nếu $\theta \in \mathrm{Ext}_A^n(M, N)$ là lớp liên kết với dãy khớp $(\mathscr{S})$, ta có $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ với mọi $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
-#### Hệ quả 3 {#alg-x-s7-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#alg-x-s7-prop-7-cor-3 .statement tag=0E09}
 
 Nếu tất cả các môđun $R_i$, $i = 1, ..., n$, đều phẳng, thì ánh xạ $\alpha \mapsto \theta \circ \alpha$ từ $\mathrm{Tor}_{m+n}^A(P, M)$ vào $\mathrm{Tor}_m^A(P, N)$ là song ánh đối với mọi A-môđun phải $P$ và mọi số nguyên $m > 0$.
 
@@ -1007,7 +1007,7 @@ $$\partial^m(\mathscr{S}_1, M) : \mathrm{Tor}_m^A(P, M) \to \mathrm{Tor}_{m-n}^A
 
 và ta có:
 
-#### Hệ quả 4 {#alg-x-s7-prop-7-cor-4 .statement}
+#### Hệ quả 4 {#alg-x-s7-prop-7-cor-4 .statement tag=0E0A}
 
 Nếu $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ là lớp liên kết với dãy khớp $(\mathscr{S}_1)$, thì ta có $\partial^m(\mathscr{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ với mọi $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
@@ -1042,7 +1042,7 @@ $$\mathrm{H}(\mathrm{Homgr}_A(\varphi, 1_N)) : \mathrm{H}(\mathrm{Homgr}_A(R, N)
 
 Cho $k$ là một số nguyên.
 
-#### Mệnh đề 8 {#alg-x-s7-prop-8 .statement}
+#### Mệnh đề 8 {#alg-x-s7-prop-8 .statement tag=0E0B}
 
 *a)* Biểu đồ sau đây, trong đó $h_\theta(\alpha) = \theta \circ \alpha$, là giao hoán
 
@@ -1106,7 +1106,7 @@ $$
 
 từ đó suy ra a); chứng minh của b) là tương tự.
 
-#### Nhận xét {#alg-x-s7-n9-rem-1 .statement}
+#### Nhận xét {#alg-x-s7-n9-rem-1 .statement tag=0E0C}
 
 Nhờ các đẳng cấu giao hoán, từ a) ta suy ra một mệnh đề tương tự trong trường hợp một dãy khớp (16) các A-môđun phải.
 
@@ -1122,7 +1122,7 @@ $$
 H(\mathrm{Homgr}_A(1_N, \sigma)) : H(\mathrm{Homgr}_A(N, E'))(n) \to H(\mathrm{Homgr}_A(N, E)) .
 $$
 
-#### Mệnh đề 9 {#alg-x-s7-prop-9 .statement}
+#### Mệnh đề 9 {#alg-x-s7-prop-9 .statement tag=0E0D}
 
 *Biểu đồ sau đây, trong đó $\gamma_\theta(\alpha) = \theta \circ \alpha$, là giao hoán*:
 

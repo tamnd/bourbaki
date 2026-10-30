@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 46
 exercises: 0
-content_sha256: 6c3c715713c4fa2e6f254fef42641b839a523a15eb7772322f1432e2670dc680
+content_sha256: 45ba02559ce422ca4f9ad81ffa98a11f0a681d42a7f379ae836af0041c53837d
 ---
 
 ## § 1. Formes sesquilinéaires
@@ -61,7 +61,7 @@ content_sha256: 6c3c715713c4fa2e6f254fef42641b839a523a15eb7772322f1432e2670dc680
 
 Dans ce no l’on désigne par $A$ et $B$ deux anneaux, par $E$ un $A$-module à gauche, par $F$ un $B$-module à droite, et par $G$ un $(A, B)$-bimodule, c’est-à-dire un groupe commutatif muni d’une structure de $A$-module à gauche et d’une structure de $B$-module à droite telles que l’on ait $(ag)b = a(gb)$ quels que soient $a \in A$, $b \in B$, $g \in G$.
 
-#### Définition 1 {#alg-ix-s1-def-1 .statement}
+#### Définition 1 {#alg-ix-s1-def-1 .statement tag=0DIQ}
 
 On dit qu’une application $\Phi$ du produit $E \times F$ dans $G$ est bilinéaire si elle satisfait aux conditions suivantes :
 
@@ -89,7 +89,7 @@ quels que soient $x, x'$ dans $E$, $y, y'$ dans $F$, $a \in A$, $b \in B$; autre
 
 $$(5) \quad \Phi(x, y) = d_\Phi(y)(x) = s_\Phi(x)(y) \text{ quels que soient } x \in E, y \in F.$$
 
-#### Définition 2 {#alg-ix-s1-def-2 .statement}
+#### Définition 2 {#alg-ix-s1-def-2 .statement tag=0DIR}
 
 Etant donnée une application bilinéaire $\Phi$ de $E \times F$ dans $G$, l’application $d_\Phi$ de $F$ dans $\mathscr{L}_A(E, G)$ (resp. l’application $s_\Phi$ de $E$ dans $\mathscr{L}_B(F, G)$) caractérisée par (5) est appelée l’application linéaire associée à droite (resp. à gauche) à $\Phi$.
 
@@ -101,7 +101,7 @@ $$
 
 une application bilinéaire $\Phi$ de $E \times F$ dans $G$, dont $d$ (resp. $s$) est l’application linéaire associée à droite (resp. à gauche).
 
-#### Définition 3 {#alg-ix-s1-def-3 .statement}
+#### Définition 3 {#alg-ix-s1-def-3 .statement tag=0DIS}
 
 Une application bilinéaire $\Phi$ de $E \times F$ dans $G$ est dite dégénérée à droite (resp. à gauche) s’il existe un élément non nul $y_0$ de $F$ (resp. $x_0$ de $E$) tel que $\Phi(x, y_0) = 0$ pour tout $x \in E$ (resp. $\Phi(x_0, y) = 0$ pour tout $y \in F$). On dit que $\Phi$ est dégénérée si elle est dégénérée à droite ou si elle est dégénérée à gauche.
 
@@ -139,7 +139,7 @@ Soient $\Phi$ une application bilinéaire de $E \times F$ dans G, et h un homomo
 
 Dans ce n° l’on désigne, sauf mention expresse du contraire, par A et B deux anneaux, par E un A-module à gauche et par F un B-module *à gauche* ; l’on désigne par $b \to b^J$ ($b \in B$) un *antiautomorphisme* de B, c’est-à-dire une bijection de B sur lui-même qui vérifie $(b + c)^J = b^J + c^J$ et $(bc)^J = c^J b^J$ quels que soient $b,\ c$ dans B ; on écrira $J'$ au lieu de $J^{-1}$. On désigne par G un (A, B)-bimodule (n° 1).
 
-#### Définition 4 {#alg-ix-s1-def-4 .statement}
+#### Définition 4 {#alg-ix-s1-def-4 .statement tag=0DIT}
 
 *On dit qu’une application $\Phi$ de $E \times F$ dans G est sesquilinéaire à droite pour J si elle satisfait aux conditions (1), (2), (3) (déf. 1, n° 1) ainsi qu’à*
 (7) $\Phi(x, by) = \Phi(x, y) \cdot b^J$ quels que soient $x \in E,\ y \in F$ et $b \in B$.
@@ -155,7 +155,7 @@ Comme dans le cas d’une application bilinéaire, les éléments $\Phi(e_i, f_k
 
 Comme pour les applications bilinéaires, on définit sur l’ensemble des applications sesquilinéaires à droite (pour $J$) de $E \times F$ dans $G$ une structure de bimodule sur les centres de $A$ et $B$. On définit la notion d’image réciproque d’une application sesquilinéaire par la même formule que pour une application bilinéaire. Nous allons du reste voir que l’étude des applications sesquilinéaires peut se ramener à celle des applications bilinéaires.
 
-#### Définition 5 {#alg-ix-s1-def-5 .statement}
+#### Définition 5 {#alg-ix-s1-def-5 .statement tag=0DIU}
 
 Soient $B$ un anneau, $F$ un $B$-module à gauche (resp. à droite) et $J$ un antiautomorphisme de $B$. On désigne par $F^J$ le $B$-module à droite (resp. à gauche) ayant même groupe additif sous-jacent que $F$ et dans lequel la loi de composition externe est $(b, y) \to b^{J'}y$ (resp. $(b, y) \to yb^{J'}$) $(b \in B,\ y \in F,\ J' = J^{-1})$.
 
@@ -168,7 +168,7 @@ L’application $u$ de $F$ dans $H$ est une application semi-linéaire de $F$ da
 
 De même une application sesquilinéaire à droite $\Phi$ (pour $J$) de $E \times F$ dans $G$, où $F$ est un $B$-module à gauche, s’identifie à une application bilinéaire de $E \times F^J$ dans $G$; si cette dernière est dégénérée à droite (resp. dégénérée à gauche, non dégénérée), on dit que $\Phi$ est dégénérée à droite (resp. dégénérée à gauche, non dégénérée).
 
-#### Remarque {#alg-ix-s1-n2-rem-1 .statement}
+#### Remarque {#alg-ix-s1-n2-rem-1 .statement tag=0DIV}
 
 Soient $A$ et $B$ deux anneaux, $J_1$ un antiautomorphisme de $A$, $M$ un $A$-module à droite, $N$ un $B$-module à droite et G un (A, B)-bimodule. On dit qu’une application $\Phi$ de $M \times N$ dans G est *sesquilinéaire à gauche pour $J_1$* si elle est $\mathbf{Z}$-bilinéaire et si elle vérifie
 
@@ -182,7 +182,7 @@ Une telle application s’identifie à une application bilinéaire de $M^{J_1} \
 
 Dans ce no , A et B désignent des anneaux, E un A-module à gauche, F un B-module à droite (resp. à gauche), G un (A, B)-bimodule, et $\Phi$ une application bilinéaire (resp. sesquilinéaire pour un antiautomorphisme donné J de B) de $E \times F$ dans G.
 
-#### Définition 6 {#alg-ix-s1-def-6 .statement}
+#### Définition 6 {#alg-ix-s1-def-6 .statement tag=0DIW}
 
 *Deux éléments $x \in E$ et $y \in F$ sont dits orthogonaux par rapport à $\Phi$ si $\Phi(x, y) = 0$. Deux parties $E' \subset E$ et $F' \subset F$ sont dites orthogonales si, quels que soient $x \in E'$ et $y \in F'$, $x$ et $y$ sont orthogonaux. L’ensemble des éléments de $E$ (resp. F) orthogonaux à un sous-module donné N de F (resp. M de E) est un sous-module de E (resp. F), qu’on appelle le sous-module totalement orthogonal (ou simplement orthogonal) à N (resp. M), et qu’on note $N^0$ (resp. $M^0$).
 
@@ -218,7 +218,7 @@ a'_1(a' \otimes x) = (a'_1 a') \otimes x \quad (a', a'_1 \in A', x \in E)
 $$
 (resp. $(y \otimes b') b'_1 = y \otimes (b' b'_1)$ $(b', b'_1 \in B', y \in F)$).
 
-#### Proposition 1 {#alg-ix-s1-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s1-prop-1 .statement tag=0DIX}
 
 *Soient $E$ un $A$-module à gauche et $F$ un $B$-module à droite ; posons $E' = A' \otimes_A E$ et $F' = F \otimes_B B'$. Pour toute application bilinéaire $\Phi$ de $E \times F$ dans $G$, il existe une application bilinéaire $\Phi'$ et une seule de $E' \times F'$ dans $G'$ telle que l’on ait*
 
@@ -261,7 +261,7 @@ $$
 
 (où $d_\Phi$ et $d_{\Phi'}$ désignent les applications linéaires associées à droite à $\Phi$ et $\Phi'$) est *commutatif*. En effet, pour $x \in E, y \in F$ et $a' \in A'$, on a $d_{\Phi'}(i(y))(a' \otimes x) = \Phi'(a' \otimes x, y \otimes 1) = a'.u(\Phi(x, y)) = a'.u(d_\Phi(y)(x))$, c’est-à-dire $d_{\Phi'}(i(y))(a' \otimes x) = k(d_\Phi(y))(a' \otimes x)$. On a une relation de commutation analogue pour les applications linéaires $s_\Phi$ et $s_{\Phi'}$ associées à gauche à $\Phi$ et $\Phi'$.
 
-#### Proposition 2 {#alg-ix-s1-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s1-prop-2 .statement tag=0DIY}
 
 *Supposons que B et B' soient munis d’anti-automorphismes J et I tels que*
 
@@ -295,7 +295,7 @@ de G dans G'. Le couple $(G', u)$ ainsi défini est visiblement *universel* dans
 
 Ce qui suit est valable aussi bien pour les applications bilinéaires que pour les applications sesquilinéaires ; les hypothèses et notations sont celles de la prop. 1 (resp. prop. 2). Étant donné un sous-module M de E ou F, on désignera par M' le sous-module de E' ou F' engendré par l’image canonique de M.
 
-#### Proposition 3 {#alg-ix-s1-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s1-prop-3 .statement tag=0DIZ}
 
 Les hypothèses et notations étant celles de la prop. 1 (resp. prop. 2) supposons de plus que A, B, A', B' soient des corps et que les applications α et β de A' ⊗_A G et G ⊗_B B' dans G' caractérisées par $\alpha(a' \otimes g) = a'u(g)$ et $\beta(g \otimes b') = u(g)b'$ ($a' \in A'$, $b' \in B'$, $g \in G$) soient injectives. Soient M un sous-espace de E et N un sous-espace de F. Alors le sous-espace $(M')^0$ de F' orthogonal à M' par rapport à $\Phi'$ est égal à $(M^0)',$ et, de même, on a $(N')^0 = (N^0)'.$
 
@@ -314,13 +314,13 @@ $$
 
 Comme $\beta$ est injective et que les $b'_i$ (resp. les ${b'}^I_i$, compte tenu de (15)) sont linéairement indépendants sur B pour la structure de B-module à gauche de B', ceci entraîne $\Phi(x, y_i) = 0$ pour $i = 1, \ldots, s$. Comme cette dernière relation est vraie pour tout $x \in M$, on a $y_i \in M^0$ pour $i = 1, \ldots, s$, d’où $y' \in (M^0)'$. CQFD.
 
-#### Corollaire {#alg-ix-s1-n4-cor-1 .statement}
+#### Corollaire {#alg-ix-s1-n4-cor-1 .statement tag=0DJ0}
 
 Les hypothèses et notations étant celles de la prop. 3, pour que $\Phi'$ soit non dégénérée, il faut et il suffit que $\Phi$ soit non dégénérée.
 
 En effet, d’après la prop. 3, on a $(F')^0 = (F^0)'$ et $(E')^0 = (E^0)'$. D’autre part, pour que $\Phi$ (resp. $\Phi'$) soit non dégénérée, il faut et il suffit que l’on ait $F^0 = E^0 = \{0\}$ (resp. $(F')^0 = (E')^0 = \{0\}$).
 
-#### Remarque {#alg-ix-s1-n4-rem-1 .statement}
+#### Remarque {#alg-ix-s1-n4-rem-1 .statement tag=0DJ1}
 
 Supposons que A, B, A' et B' soient des corps. Alors, pour les bimodules G' définis dans les trois exemples ci-dessus, les applications $\alpha$ et $\beta$ sont injectives, comme il résulte aussitôt du chap. III, 2e éd., App. II, n° 6.
 
@@ -400,19 +400,19 @@ $$
 
 où $N'$ (resp. $M'$) est le sous-module du dual $F^*$ de $F$ (resp. du dual $E^*$ de $E$) orthogonal à $N$ (resp. $M$) (chap. II, § 4, no 2).
 
-#### Proposition 4 {#alg-ix-s1-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s1-prop-4 .statement tag=0DJ2}
 
 *Supposons que $A$ soit un corps, et soit $\Phi$ une forme bilinéaire (resp. sesquilinéaire pour $J$) sur $E \times F$; pour que $E/F^0$ soit de dimension finie, il faut et il suffit que $F/E^0$ soit de dimension finie, et ces dimensions sont alors égales.*
 
 En effet, soit $\Phi_1$ la forme non dégénérée associée à $\Phi$, sur $(E/F^0) \times (F/E^0)$ (no 3). Supposons que $E/F^0$ soit de dimension finie $n$; comme l’application linéaire $d_{\Phi_1}$ de $F/E^0$ (resp. $(F/E^0)^J$) dans $(E/F^0)^*$ est injective, $F/E^0$ est de dimension finie $n' \leq n$; en considérant $s_{\Phi_1}$, on voit de même que $n \leq n'$.
 
-#### Corollaire 1 {#alg-ix-s1-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s1-prop-4-cor-1 .statement tag=0DJ3}
 
 *On suppose que $A$ est un corps et que $\Phi$ est non dégénérée. Pour qu’un sous-espace $M$ de $E$ soit de dimension finie, il faut et il suffit que $M^0$ soit de codimension finie dans $F$, et on a alors $\operatorname{codim} M^0 = \dim M$, et $M^{00} = M$.*
 
 Comme $F^0 = \{0\}$, les deux premières assertions résultent de la prop. 4 appliquée à la restriction de $\Phi$ à $M \times F$. En outre, $M^0$ est l’orthogonal de $M^{00}$, donc $M^{00}$ est de dimension finie égale à $\operatorname{codim} M^0 = \dim M$; mais comme $M^{00} \supset M$, on a $M^{00} = M$.
 
-#### Corollaire 2 {#alg-ix-s1-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s1-prop-4-cor-2 .statement tag=0DJ4}
 
 *Les hypothèses étant celles du cor. 1, soient $M, N$ deux sous-espaces de $E$; on a alors $(M + N)^0 = M^0 \cap N^0$; si de plus $M$ et $N$ sont de dimension finie, on a $(M \cap N)^0 = M^0 + N^0$.*
 
@@ -420,19 +420,19 @@ La première assertion est triviale. Supposons M et N de dimension finie, et soi
 
 La prop. 4 permet de poser la définition suivante :
 
-#### Définition 7 {#alg-ix-s1-def-7 .statement}
+#### Définition 7 {#alg-ix-s1-def-7 .statement tag=0DJ5}
 
 Soient A un corps (resp. un corps muni d’un antiautomorphisme J), E un espace vectoriel à gauche sur A, F un espace vectoriel à droite (resp. à gauche) sur A, et $\Phi$ une forme bilinéaire (resp. sesquilinéaire pour J) sur $E \times F$. Supposons que $E/F^0$ et $F/E^0$ soient de dimension finie sur A. On appelle rang de $\Phi$ la dimension (finie) commune des espaces vectoriels $E/F^0$ et $F/E^0$.
 
 Lorsque $E/F^0$ et $F/E^0$ sont de dimension infinie, on dit que $\Phi$ est de rang infini.
 
-#### Proposition 5 {#alg-ix-s1-prop-5 .statement}
+#### Proposition 5 {#alg-ix-s1-prop-5 .statement tag=0DJ6}
 
 Les hypothèses et notations étant celles de la déf. 7, les applications linéaires $s_\Phi$ et $d_\Phi$ associées à $\Phi$ ont même rang, et ce rang est égal au rang de la forme $\Phi$.
 
 En effet le noyau de l’application $d_\Phi$ de F dans $E^*$ est évidemment $E^0$, donc son rang est égal à la dimension de $F/E^0$. De même le rang de $s_\Phi$ est égal à la dimension de $E/F^0$.
 
-#### Proposition 6 {#alg-ix-s1-prop-6 .statement}
+#### Proposition 6 {#alg-ix-s1-prop-6 .statement tag=0DJ7}
 
 Les hypothèses et notations étant celles de la déf. 7, supposons de plus que E et F aient même dimension finie. Alors les conditions suivantes sont équivalentes :
 a) $d_\Phi$ est injective ;
@@ -445,7 +445,7 @@ En effet, comme E, F, $E^*$ et $F^*$ ont même dimension finie,
 
 a) et b) sont équivalentes, ainsi que c) et d) (chap. II, § 3, no 4). Comme $s_\Phi$ et $d_\Phi$ ont même rang (prop. 5), a) et c) sont équivalentes. Comme e) équivaut à la relation $E^0 = F^0 = \{0\}$, elle équivaut à la conjonction de a) et c), d’où l’équivalence des conditions énoncées.
 
-#### Corollaire {#alg-ix-s1-n6-cor-1 .statement}
+#### Corollaire {#alg-ix-s1-n6-cor-1 .statement tag=0DJ8}
 
 Les hypothèses et notations étant celles de la déf. 7, on suppose de plus que E est de dimension finie et que $\Phi$ est non dégénérée. Alors on a $\dim E = \dim F$ et, pour toute base $(e_i)$ ($1 \leq i \leq \dim E$) de E, il existe une base $(f_i)$ de F telle que $\Phi(e_i, f_k) = \delta_{ik}$ ($i, k = 1, ..., \dim E$).
 
@@ -453,7 +453,7 @@ En effet, comme $\Phi$ est non dégénérée, on a $E^0 = F^0 = \{0\}$, d’où 
 
 Il est immédiat que, dans ce corollaire, on peut échanger les rôles de E et de F, en remplaçant $d_\Phi$ par $s_\Phi$ dans la démonstration.
 
-#### Remarque {#alg-ix-s1-n6-rem-1 .statement}
+#### Remarque {#alg-ix-s1-n6-rem-1 .statement tag=0DJ9}
 
 Soient A un anneau muni d’un antiautomorphisme J, M et N des A-modules à droite, et $\Phi$ une forme sesquilinéaire à gauche pour J sur $M \times N$ (no 2, Remarque) ; elle vérifie donc l’égalité
 
@@ -481,7 +481,7 @@ $$
 = \langle s^{-1}(y'), x' \rangle = \langle d^{-1}(x'), y' \rangle \qquad (x' \in E^*, y' \in F^*).
 $$
 
-#### Définition 8 {#alg-ix-s1-def-8 .statement}
+#### Définition 8 {#alg-ix-s1-def-8 .statement tag=0DJA}
 
 *Soit $\Phi$ une forme bilinéaire sur $E \times F$ dont les applications associées $s$ et $d$ sont bijectives. La forme bilinéaire $\hat{\Phi}$ sur $F^* \times E^*$ définie par (27) s’appelle la forme inverse de $\Phi$.*
 
@@ -507,7 +507,7 @@ $$
 
 donc $\widehat{\Phi}$ est une *forme sesquilinéaire à gauche* pour $J$ (n° 2) sur $F^* \times E^*$.
 
-#### Définition 9 {#alg-ix-s1-def-9 .statement}
+#### Définition 9 {#alg-ix-s1-def-9 .statement tag=0DJB}
 
 *Soit $\Phi$ une forme sesquilinéaire à droite pour $J$ sur $E \times F$, dont les applications associées $s$ et $d$ sont bijectives. La forme sesquilinéaire à gauche $\widehat{\Phi}$ pour $J$ sur $F^* \times E^*$ s’appelle la forme inverse de $\Phi$.*
 
@@ -533,7 +533,7 @@ $$
 \Phi'(u(x), y') = \Phi(x, u^*(y')).
 $$
 
-#### Définition 10 {#alg-ix-s1-def-10 .statement}
+#### Définition 10 {#alg-ix-s1-def-10 .statement tag=0DJC}
 
 Les hypothèses et notations étant comme précédemment, on dit que l’homomorphisme $u^*$ de $F'_1$ dans F vérifiant (30) est l’adjoint à gauche de $u$, et que $F'_1$ est le sous-module de définition de $u^*$.
 
@@ -545,7 +545,7 @@ $$
 
 où $E'_1$ désigne le sous-module de $E'$ défini de façon analogue à $F'_1$.
 
-#### Remarque {#alg-ix-s1-n8-rem-1 .statement}
+#### Remarque {#alg-ix-s1-n8-rem-1 .statement tag=0DJD}
 
 Si l’adjoint à gauche $u^*$ de $u : E \to E'$ est partout défini, et si $s_{\Phi'}$ et $d_{\Phi'}$ sont injectives, la formule (30) montre que $u$ est l’adjoinat à droite de $u^*$.
 
@@ -565,7 +565,7 @@ $$(u' \circ u)^* = u^* \circ {u'}^*.$$
 
 En particulier, si $u$ est un *isomorphisme* de $E$ sur $E'$, et si les adjoints $u^*$ et $(u^{-1})^*$ sont partout définis, $u^*$ est un isomorphisme de $F'$ sur $F$, et l’on a $(u^*)^{-1} = (u^{-1})^*$. Propriétés analogues pour les adjoints à droite.
 
-#### Proposition 7 {#alg-ix-s1-prop-7 .statement}
+#### Proposition 7 {#alg-ix-s1-prop-7 .statement tag=0DJE}
 
 Avec les mêmes notations que précédemment, on suppose que $d_{\Phi}$ est bijective. Alors tout homomorphisme $u$ de $E$ dans $E'$ admet un adjoint à gauche partout défini, et l’on a $u^* = (d_{\Phi})^{-1} \circ {}^t u \circ d_{\Phi'}$.
 
@@ -575,26 +575,26 @@ $$\langle u(x), d_{\Phi'}(y') \rangle = \langle x, (d_{\Phi} \circ u^*)(y') \ran
 
 or $\langle d_{\Phi'}(y'), u(x) \rangle = \langle {}^t u(d_{\Phi'}(y')), x \rangle$; on a donc ${}^t u(d_{\Phi'}(y')) = d_{\Phi}(u^*(y'))$ pour tout $y' \in F'$, d’où ${}^t u \circ d_{\Phi'} = d_{\Phi} \circ u^*$, et par conséquent l’expression annoncée de $u^*$. CQFD.
 
-#### Remarque {#alg-ix-s1-n8-rem-2 .statement}
+#### Remarque {#alg-ix-s1-n8-rem-2 .statement tag=0DJF}
 
 Lorsque $s_{\Phi}$ est bijective, tout homomorphisme $\nu$ de $F$ dans $F'$ admet un adjoint à droite partout défini, et on a
 
 $$(34)$$
 $$\nu^* = (s_{\Phi})^{-1} \circ {}^t \nu \circ s_{\Phi'}.$$
 
-#### Proposition 8 {#alg-ix-s1-prop-8 .statement}
+#### Proposition 8 {#alg-ix-s1-prop-8 .statement tag=0DJG}
 
 Avec les mêmes notations que précédemment, on suppose que $s_{\Phi}$ et $d_{\Phi}$ sont bijectives. Soient $u$ et $\nu$ des isomorphismes de E sur E' et de F sur F' respectivement. Alors, pour que Φ soit l’image réciproque de Φ' relativement à u et v (c’est-à-dire pour que l’on ait Φ(x, y) = Φ'(u(x), v(y)) quels que soient x ∈ E, y ∈ F), il faut et il suffit que l’on ait u^{-1} = v^* et v^{-1} = u^*.
 
 En effet Φ'(u(x), v(y)) = Φ(x, y) s’écrit aussi Φ (x, u^*(v(y))) = Φ(x, y). Si ceci a lieu quels que soient x ∈ E et y ∈ F, on a u^* ∘ v = 1 puisque Φ est non dégénérée. On a donc aussi v^* ∘ u = 1 d’après (33). La réciproque est immédiate.
 
-#### Corollaire {#alg-ix-s1-n8-cor-1 .statement}
+#### Corollaire {#alg-ix-s1-n8-cor-1 .statement tag=0DJH}
 
 Soient A un anneau muni d’un antiautomorphisme J, E un A-module à gauche, Φ une forme sesquilinéaire pour J sur E × E dont les applications associées sont bijectives, et u un automorphisme du A-module E. Pour que u laisse Φ invariante (c’est-à-dire pour que l’on ait Φ(u(x), u(y)) = Φ(x, y) quels que soient x, y dans E), il faut et il suffit que les deux adjoints de u soient égaux et que l’on ait u^* = u^{-1}.
 
 Ceci résulte aussitôt de la prop. 8.
 
-#### Remarque {#alg-ix-s1-n8-rem-3 .statement}
+#### Remarque {#alg-ix-s1-n8-rem-3 .statement tag=0DJI}
 
 Sous les hypothèses du cor. de la prop. 8, supposons de plus que A soit un corps et que E soit de dimension finie sur A. Soient ω un endomorphisme de E, ω_1 et ω_2 ses adjoints à droite et à gauche. Chacune des conditions ωω_1 = 1, ωω_2 = 1, ω_1ω = 1, ω_2ω = 1 entraîne que ω est un automorphisme de E laissant Φ invariante, et que ω_1 = ω_2.
 
@@ -625,7 +625,7 @@ $$
 \Phi(x_1 \otimes \cdots \otimes x_m, y_1 \otimes \cdots \otimes y_m) = \prod_{i=1}^m \Phi_i(x_i, y_i) \quad (x_i \in E_i, y_i \in F_i).
 $$
 
-#### Définition 11 {#alg-ix-s1-def-11 .statement}
+#### Définition 11 {#alg-ix-s1-def-11 .statement tag=0DJJ}
 
 Etant donnés des A-modules $E_i, F_i (i = 1, \ldots, m)$ et, pour chaque $i$, une forme sesquilinéaire $\Phi_i$ pour $J$ sur $E_i \times F_i$, la forme sesquilinéaire $\Phi$ pour $J$ sur $(\bigotimes_i E_i) \times (\bigotimes_i F_i)$ caractérisée par (35) est appelée le produit tensoriel des formes sesquilinéaires $\Phi_i$.
 
@@ -643,7 +643,7 @@ On a donc :
 
 où $j_s$ (resp. $j_d$) désigne l’application canonique de $\bigotimes_i F_i^*$ dans $(\bigotimes_i F_i)^*$ (resp. de $\bigotimes_i E_i^*$ dans $(\bigotimes_i E_i)^*$) (chap. III, § 1, n°s 4 et 7).
 
-#### Proposition 9 {#alg-ix-s1-prop-9 .statement}
+#### Proposition 9 {#alg-ix-s1-prop-9 .statement tag=0DJK}
 
 Soient $A$ un corps commutatif muni d’un automorphisme $J$, $E_i, F_i$ des espaces vectoriels de dimension finie sur $A$, et $\Phi_i$ une forme sesquilinéaire pour $J$ sur $E_i \times F_i$ ($1 \leqslant i \leqslant m$). Si les formes $\Phi_i$ sont non dégénérées, il en est de même de leur produit tensoriel $\Phi$. Dans ce cas la forme inverse $\widehat{\Phi}$ de $\Phi$ est le produit tensoriel des formes inverses $\widehat{\Phi}_i$.
 
@@ -681,7 +681,7 @@ $$
 $$
 (37)
 
-#### Définition 12 {#alg-ix-s1-def-12 .statement}
+#### Définition 12 {#alg-ix-s1-def-12 .statement tag=0DJL}
 
 Etant donnés deux A-modules E, F et une forme $\Phi$ sesquilinéaire pour J sur $E \times F$, la forme $\Phi_{(m)}$ sesquilinéaire pour J sur $(\wedge^m E) \times (\wedge^m F)$ caractérisée par (37) s’appelle l’extension de $\Phi$ aux m-ièmes puissances extérieures.
 
@@ -700,7 +700,7 @@ $$
 
 où $k_s$ (resp. $k_d$) désigne l’application canonique de $\wedge^m F^*$ dans $(\wedge^m F)^*$ (resp. de $\wedge^m E^*$ dans $(\wedge^m E)^*$) (cf. chap. III, § 8, n° 2).
 
-#### Proposition 10 {#alg-ix-s1-prop-10 .statement}
+#### Proposition 10 {#alg-ix-s1-prop-10 .statement tag=0DJM}
 
 *Soient A un corps commutatif muni d’un automorphisme J, E et F deux espaces vectoriels de dimension finie sur A, et $\Phi$ une forme sesquilinéaire pour J sur $E \times F$. Si $\Phi$ est non dégénérée, alors son extension $\Phi_{(m)}$ aux m-ièmes puissances extérieures est non dégénérée, et la forme inverse de $\Phi_{(m)}$ est l’extension aux m-ièmes puissances extérieures de la forme inverse $\widehat{\Phi}$ de $\Phi$.*
 
@@ -713,7 +713,7 @@ $$
 
 d’où notre seconde assertion.
 
-#### Remarque {#alg-ix-s1-n9-rem-1 .statement}
+#### Remarque {#alg-ix-s1-n9-rem-1 .statement tag=0DJN}
 
 Soient E un A-module libre, et θ l’isomorphisme canonique de $\bigwedge^m E$ sur le sous-module des tenseurs antisymétrisés d’ordre m (chap. III, § 5, n° 6, prop. 6). Soient $\Phi$ une forme sesquilinéaire sur E, $\Phi_{(m)}$ l’extension de $\Phi$ à $\bigwedge^m E$, et $\Theta$ la forme sesquilinéaire sur $\bigwedge^m E$ qui est l’image réciproque par $\theta$ de l’extension de $\Phi$ à $\bigotimes^m E$. D’après la définition de $\theta$ et de l’antisymétrisé d’un tenseur, et d’après (35), on a
 
@@ -808,11 +808,11 @@ $$
 $$
 Vérifions, par exemple (45 DG), les autres vérifications étant analogues et un peu plus faciles. Posons $x = \sum e_ix_{io}$, $u(x) = \sum y_{ko}f_k$; on a $u(x) = u(\sum e_ix_{io}) = \sum x_{io}^ju(e_i) = \sum x_{io}^ju_{ki}/k$; d’où $y_{ko} = \sum x_{io}^ju_{ki}$; afin de mettre les deux indices i à côté l’un de l’autre, considérons les matrices transposées ${}^tM(x) = (x'_{oi})$ où $x'_{oi} = x_{io}$, et ${}^tM(u) = (u'_{ik})$ où $u'_{ik} = u_{ki}$; on a alors $y_{ko} = \sum x'_{oi}u'_{ik}$; comme le second membre est l’élément d’indice k de la matrice à une ligne ${}^tM(x)^J \cdot {}^tM(u)$, la formule (45 DG) est vérifiée.
 
-#### Remarque 1 {#alg-ix-s1-n10-rem-1 .statement}
+#### Remarque 1 {#alg-ix-s1-n10-rem-1 .statement tag=0DJO}
 
 Lorsque A est commutatif, (45 G) se ramène à (45 D), et (45 DG) à (45 GD), au moyen de la formule ${}^t(M'M'') = {}^tM'' \cdot {}^tM'$ (cf. (42)), où les deux membres sont ici calculés dans A.
 
-#### Remarque 2 {#alg-ix-s1-n10-rem-2 .statement}
+#### Remarque 2 {#alg-ix-s1-n10-rem-2 .statement tag=0DJP}
 
 Soient E, F, G trois modules à gauche ayant des bases finies, et $u : E \to F,\ v : F \to G$ des applications A-linéaires. Il résulte de (45 G) que l’on a
 $$
@@ -867,11 +867,11 @@ IV. — On suppose ici que les anneaux $A$ et $B$ sont égaux, et on désigne pa
 
 (49) $M(d) = R, \ M(s) = 'R$   (resp. $M(d) = R, \ M(s) = 'R^{J'}$).
 
-#### Remarque 3 {#alg-ix-s1-n10-rem-3 .statement}
+#### Remarque 3 {#alg-ix-s1-n10-rem-3 .statement tag=0DJQ}
 
 Lorsque $A$ est un corps, les applications linéaires $s$ et $d$ ont même rang. Nous voyons ici que leurs matrices $M(s)$ et $M(d)$ ont même rang ; en effet, une matrice sur $A$ et sa transposée ont même rang (chap. II, § 6, n° 7, prop. 3) et, lorsque $\Phi$ est sesquilinéaire, l’égalité des rangs de $R$ sur $A$ et de $'R$ sur $A^0$ (ibid.) et le fait que $J'$ est un isomorphisme de $A^0$ sur $A$, entraînent l’égalité des rangs de $R$ et de $'R^J$ sur $A$.
 
-#### Remarque 4 {#alg-ix-s1-n10-rem-4 .statement}
+#### Remarque 4 {#alg-ix-s1-n10-rem-4 .statement tag=0DJR}
 
 Si $M$ et $N$ sont des $A$-modules à droite ayant des bases finies $(m_i)$ et $(n_k)$, $\Phi$ une forme sesquilinéaire à gauche pour $J$ sur $M \times N$ (n° 6, Remarque), $s$ et $d$ ses applications associées, et $R = (\Phi(m_i, n_k))$ sa matrice, les formules (26) du n° 6 montrent que l’on a
 
@@ -894,11 +894,11 @@ En effet, quels que soient $x \in E$ et $y \in F'$, on a $\Phi'(u(x), y) = \Phi(
 
 2) Soit E le $\mathbf{Z}$-module somme directe de $\mathbf{Z}$ et de $\mathbf{Z}/(2)$, et soit $E^*$ son dual (isomorphe à $\mathbf{Z}$). Montrer que la forme bilinéaire $(x, x') \to \langle x, x' \rangle$ sur $E \times E^*$ est telle que l’application linéaire associée à droite est injective, mais non l’application linéaire associée à gauche.
 
-#### Remarque 5 {#alg-ix-s1-n10-rem-5 .statement}
+#### Remarque 5 {#alg-ix-s1-n10-rem-5 .statement tag=0DJS}
 
 Donner un exemple de forme bilinéaire $\Phi$ définie sur un produit $E \times F$ de deux espaces vectoriels, telle que $d_\Phi$ soit bijective, $s_\Phi$ injective mais non bijective (prendre $E$ de dimension infinie et $F$ égal au dual $E^*$ de $E$; cf. chap. II, § 5, exerc. 3).
 
-#### Remarque 6 {#alg-ix-s1-n10-rem-6 .statement}
+#### Remarque 6 {#alg-ix-s1-n10-rem-6 .statement tag=0DJT}
 
 Soient $A$ un anneau muni d’un antiautomorphisme $J$, $E$ un $A$-module à gauche, $G$ un $(A, A)$-bimodule et $\Phi$ une application de $E \times E$ dans $G$, sesquilinéaire à droite pour $J$. Démontrer l’identité (où $Q(x) = \Phi(x, x)$) :
 
@@ -907,7 +907,7 @@ $$
 - \mu Q(x - \lambda y) + Q(x + \mu y)\lambda^J - Q(x - \mu y)\lambda^J + \mu Q(x - y)\lambda^J - \mu Q(x + y)\lambda^J.
 $$
 
-#### Remarque 7 {#alg-ix-s1-n10-rem-7 .statement}
+#### Remarque 7 {#alg-ix-s1-n10-rem-7 .statement tag=0DJU}
 
 Soient $K$ un corps commutatif de caractéristique 2, $A$ une extension quadratique séparable de $K$; on a $A = K(\theta)$, où $\theta$ est racine d’un polynôme irréductible $X^2 + X + \beta$ de $K[X]$ et le $K$-automorphisme $J$ de $A$, distinct de l’identité, est tel que $\theta^J = \theta + 1$ (chap. V, § 11, exerc. 8). Montrer que si $E$ et $G$ sont des espaces vectoriels sur $A$, $\Phi$ une application sesquilinéaire (pour $J$) de $E \times E$ dans $G$, on a, en posant $Q(x) = \Phi(x, x)$,
 
@@ -915,7 +915,7 @@ $$
 \Phi(x, y) = Q(\theta x + y) - \beta Q(x) - Q(y) - (\theta + 1)(Q(x + y) - Q(x) - Q(y)).
 $$
 
-#### Remarque 8 {#alg-ix-s1-n10-rem-8 .statement}
+#### Remarque 8 {#alg-ix-s1-n10-rem-8 .statement tag=0DJV}
 
 Soient $A$ un corps, $E$ un espace vectoriel sur $A$, $\Phi$ une forme sesquilinéaire sur $E$, $u$ un endomorphisme de $E$.
 
@@ -923,11 +923,11 @@ a) Pour qu’il existe un endomorphisme $u^*$ et un seul de $E$ tel que $\Phi(u(
 
 b) Donner un exemple où $E$ est de dimension infinie et $d_\Phi$ injective, mais où $u(d_\Phi(E))$ n’est pas contenu dans $d_\Phi(E)$.
 
-#### Remarque 9 {#alg-ix-s1-n10-rem-9 .statement}
+#### Remarque 9 {#alg-ix-s1-n10-rem-9 .statement tag=0DJW}
 
 Soient $E, E_1$ deux $A$-modules, $\Phi$ (resp. $\Phi_1$) une forme sesquilinéaire sur $E$ (resp. $E_1$). On suppose que $\Phi_1$ est non dégénérée et qu’il existe un élément $\alpha \in A$ et une bijection $u$ de $E$ sur $E_1$ telle que $\Phi_1(u(x), u(y)) = \Phi(x, y)\alpha$ quels que soient $x, y$ dans $E$. Montrer que : 1° $\Phi$ est non dégénérée ; 2° $u$ est linéaire ; 3° si $E_1$ est un $A$-module fidèle, il en est de même de $E$, et $\alpha$ n’est pas diviseur de 0 à droite dans $A$ ; 4° si $\Phi_1$ prend des valeurs dans $A$ qui ne sont pas diviseurs à gauche de 0, il en est de même de $\Phi$.
 
-#### Remarque 10 {#alg-ix-s1-n10-rem-10 .statement}
+#### Remarque 10 {#alg-ix-s1-n10-rem-10 .statement tag=0DJX}
 
 Soient $A$ un corps, $E_1, E_2$ deux espaces vectoriels non réduits à 0 sur $A$, $\Phi_1$ (resp. $\Phi_2$) une forme sesquilinéaire non dégénérée sur $E_1$ (resp. $E_2$) pour un antiautomorphisme $J_1$ (resp. $J_2$) de $A$. Soit $u$ une application linéaire de $E_1$ sur $E_2$ telle que la relation $\Phi_1(x, y) = 0$ entraîne $\Phi_2(u(x), u(y)) = 0$.
 
@@ -935,7 +935,7 @@ a) Montrer que $u$ est une bijection de $E_1$ sur $E_2$. (Si $u(0)$ n’était p
 
 b) Montrer que si dim $E_1 \geqslant 2$, il existe $\alpha \in A$ tel que l’on ait $\Phi_2(u(x), u(y)) = \Phi_1(x, y)\alpha$ quels que soient $x, y$ dans $E_1$. (Pour tout $y \in E_1$, montrer qu’il existe un élément $m(y) \in A$ tel que $\Phi_2(u(x), u(y)) = \Phi_1(x, y)m(y)$ pour tout $x \in E_1$, et que si $y$ et $y'$ sont linéairement indépendants dans $E_1$, on a $m(y + y') = m(y) = m(y')$).
 
-#### Remarque 11 {#alg-ix-s1-n10-rem-11 .statement}
+#### Remarque 11 {#alg-ix-s1-n10-rem-11 .statement tag=0DJY}
 
 Soient $A$ un corps, $E, F$ deux espaces vectoriels à gauche sur $A$, $\Phi$ une forme sesquilinéaire non dégénérée sur $E \times F$ pour un antiautomorphisme $J$ de $A$.
 
@@ -950,7 +950,7 @@ c) Si $E = F$ et si $M$ est un sous-espace de $E$ tel que $E = M^0 + M^{00}$, mo
 
 d) Soit $E$ un espace vectoriel sur un corps commutatif $A$ admettant une base infinie dénombrable $(e_n)_{n \geqslant 0}$, et soit $\Phi$ la forme bilinéaire symétrique sur $E$ telle que $\Phi(e_n, e_n) = 1$ pour tout $n$, $\Phi(e_i, e_j) = 0$ pour $i \geqslant 1, j \geqslant 1$ et $i \neq j$, et $\Phi(e_0, e_n) = 1$ pour tout $n \geqslant 1$. Montrer que $\Phi$ est non dégénérée. Soit $M$ (resp. $N$) le sous-espace de $E$ engendré par les $e_{2k}$ (resp. $e_{2k-1}$) pour $k \geqslant 1$, et soit $H = M + N$, qui est un hyperplan dans $E$. Montrer que l’on a $M^0 = N, N^0 = M, H^{00} = E \neq H, (M \cap N)^0 \neq M^0 + N^0$ et $(M + N)^{00} \neq M + N$, bien que $M^{00} = M, N^{00} = N$; si $L$ est le sous-espace de dimension 2 engendré par $e_0$ et $e_1$, on a $(L \cap H)^0 \neq L^0 + H^0$.
 
-#### Remarque 12 {#alg-ix-s1-n10-rem-12 .statement}
+#### Remarque 12 {#alg-ix-s1-n10-rem-12 .statement tag=0DJZ}
 
 Soient $E, E'$ deux espaces vectoriels à gauche sur des corps $A, A'$ respectivement, de dimension $\geqslant 3$; soit $\mathfrak{F}(E)$ (resp. $\mathfrak{F}(E')$) l’ensemble réticulé (pour la relation d’inclusion) formé des sous-espaces de dimension finie de $E$ (resp. $E'$).
 

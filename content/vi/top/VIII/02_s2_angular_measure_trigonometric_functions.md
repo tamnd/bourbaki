@@ -36,7 +36,7 @@ subsections:
       pdf_page: 119
 statements: 5
 exercises: 4
-content_sha256: 1c996c09be31a3e6dcaefc14bf74ed022012096e9f9ecff7570764a9d8cf434c
+content_sha256: 7a1090ca343fe597070cff37eaa773d17c75cd18b919a82656783626f8b61476
 translated_from: content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md
 source_content_sha256: 2e8e0396b01fa2c0c1fc1a5a72586ea4ad250d3983c3fd7034ef9e1594ea4c6c
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -50,17 +50,17 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. NHÓM NHÂN U
 
-#### Định lý 1 {#top-viii-s2-thm-1 .statement}
+#### Định lý 1 {#top-viii-s2-thm-1 .statement tag=0C09}
 
 Nhóm (nhân, tôpô $U$ của các số phức có môđun bằng 1 đẳng cấu với nhóm (cộng, tôpô $T$ của các số thực môđun 1.
 
 $U = S_1$ compact và liên thông, và có một lân cận của phần tử đơn vị -1 đồng phôi với một khoảng mở của $\mathbf{R}$ (Chương VI, § 2, no. 4, Mệnh đề 5); do đó định lý là một hệ quả của đặc trưng hóa tôpô của $T$ được cho trong Chương V, § 2, Định lý 2.
 
-#### Hệ quả {#top-viii-s2-n1-cor-1 .statement}
+#### Hệ quả {#top-viii-s2-n1-cor-1 .statement tag=0C0A}
 
 Nhóm nhân $C^*$ của các số phức khác không đẳng cấu với nhóm $\mathbf{R} \times T$ (cf. § 1, no. 3, Mệnh đề 1).
 
-#### Nhận xét {#top-viii-s2-n1-rem-1 .statement}
+#### Nhận xét {#top-viii-s2-n1-rem-1 .statement tag=0C0B}
 
 Sự đẳng cấu của các nhóm $C^*$ và $\mathbf{R} \times T$ kéo theo sự tồn tại các căn của mọi "phương trình nhị thức" $z^n = a$ trong trường $C$. Dùng sự kiện này và tính tương thích địa phương của $C$, ta có thể thu được một chứng minh khác của định lý d'Alembert-Gauss (Bài tập 2).
 
@@ -86,7 +86,7 @@ $$
 
 Do đó hàm $e(x)$ là *tuần hoàn* và có 1 làm chu kỳ chính.
 
-#### Nhận xét {#top-viii-s2-n1-rem-2 .statement}
+#### Nhận xét {#top-viii-s2-n1-rem-2 .statement tag=0C0C}
 
 Ánh xạ $x + iy \to e^{x}e(y)$ là một cấu xạ ngặt của nhóm cộng $\mathbf{C}$ lên nhóm nhân $\mathbf{C}^*$, và hạn chế của nó lên một lân cận thích hợp của 0 là một đẳng cấu địa phương của $\mathbf{C}$ với $\mathbf{C}^*$. Do đó (Chương VII, § 2, no. 3) mọi cấu xạ ngặt của $\mathbf{C}$ lên $\mathbf{C}^*$ đều có dạng $x + iy \to e^{\alpha x + \beta y}e(\gamma x + \delta y)$, trong đó $\alpha, \beta, \gamma, \delta$ là các số thực tùy ý sao cho $\alpha \delta - \beta \gamma \neq 0$. Về sau ta sẽ thấy rằng chỉ có một trong các đồng cấu này, ký hiệu bởi $z \to e^z$, sao cho
 
@@ -275,7 +275,7 @@ Nếu ta lấy hợp thành của đồng cấu $\varphi$ của $\mathfrak{A}$ l
 
 Ở đây cũng vậy, một khi cơ sở $a$ đã được chọn, khi nói đến một chéo, nói chung ta muốn nói, do lạm dụng ngôn ngữ, đến một số đo của chéo này đối với cơ sở $a$.
 
-#### Nhận xét {#top-viii-s2-n6-rem-1 .statement}
+#### Nhận xét {#top-viii-s2-n6-rem-1 .statement tag=0C0D}
 
 Ta có thể định nghĩa một đồng cấu của $\mathbf{C}^*$ lên $\mathfrak{A}_0$ bằng cách ánh xạ mỗi số phức $z \neq 0$ vào chéo mà đường thẳng đi qua o và $z$ tạo với trục thực. Rõ ràng đồng cấu này là hợp thành của $\varphi$ và đồng cấu $z \to \mathrm{Am}\,(z)$ của $\mathbf{C}^*$ lên $\mathfrak{A}$; do đó nó là một cấu xạ ngặt của nhóm tôpô $\mathbf{C}^*$ lên nhóm tôpô $\mathfrak{A}_0$, và đồng cấu song ánh liên kết là một đẳng cấu của nhóm thương $\mathbf{C}^*/\mathbf{R}^*$ lên $\mathfrak{A}_0$.
 

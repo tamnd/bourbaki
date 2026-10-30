@@ -33,7 +33,7 @@ subsections:
       pdf_page: 164
 statements: 16
 exercises: 15
-content_sha256: cfe2fbf3a4ea8f353b92fd07c36af0a1ed46b71984600ab991f0f95918966ca7
+content_sha256: eefe4b53c6330aa7a5e81cb0b9c60f3b12b31b2df9f7ff14d5388452b92097de
 ---
 
 ## § 5. HYPOCONTINUOUS BILINEAR MAPPINGS
@@ -42,13 +42,13 @@ content_sha256: cfe2fbf3a4ea8f353b92fd07c36af0a1ed46b71984600ab991f0f95918966ca7
 
 Let $E, F, G$ be three locally convex spaces. For every bilinear mapping $u$ from $E \times F$ into $G$, and for every $x \in E$ (resp. $y \in F$), we denote by $u(x, .)$ (resp. $u(., y)$) the mapping $y \mapsto u(x, y)$ (resp. $x \mapsto u(x, y)$) from $F$ into $G$ (resp. from $E$ into $G$).
 
-#### Definition 1 {#evt-iii-s5-def-1 .statement}
+#### Definition 1 {#evt-iii-s5-def-1 .statement tag=07P9}
 
 *A bilinear mapping $u$ from $E \times F$ into $G$ is said to be separately continuous if, for all $x \in E$, the linear mapping $u(x, .)$ from $F$ into $G$ is continuous, and for all $y \in F$, the linear mapping $u(., y)$ from $E$ into $G$ is continuous.*
 
 The following proposition follows immediately from the definition.
 
-#### Proposition 1 {#evt-iii-s5-prop-1 .statement}
+#### Proposition 1 {#evt-iii-s5-prop-1 .statement tag=07PA}
 
 *For a bilinear mapping $u$ from $E \times F$ into $G$ to be separately continuous, it is necessary and sufficient that for all $y \in F$, the linear mapping $u(., y)$ from $E$ into $G$ is continuous and that the linear mapping $y \mapsto u(., y)$ from $F$ into $\mathscr{L}_s(E; G)$ is continuous.*
 
@@ -85,13 +85,13 @@ where $t$ is the isomorphism of transposition (II, p. 46, prop. 5 and corollary)
 
 ### 2. Separately continuous bilinear mappings on a product of Fréchet spaces
 
-#### Proposition 2 {#evt-iii-s5-prop-2 .statement}
+#### Proposition 2 {#evt-iii-s5-prop-2 .statement tag=07PB}
 
 *Let E, F and G be three locally convex spaces. Suppose that E and F are metrizable and E is barrelled. Let H be a set of separately continuous bilinear mappings from E × F into G. Suppose that for every $x \in E$, the set of mappings $u(x, .)$ from F into G, where u runs through H, is equicontinuous. Then H is equicontinuous.*
 
 Let $U_n$ (resp. $V_n$) be a fundamental sequence of neighbourhoods of 0 in E (resp. F). If H is not equicontinuous, there exists a closed, convex, balanced neighbourhood W of 0 in G such that for all $n$, $H(U_n \times V_n)$ is not contained in W. There exists then a sequence of pairs $(x_n, y_n) \in U_n \times V_n$, and a sequence $(u_n)$ of elements of H, such that $u_n(x_n, y_n) \notin W$. Let $p$ be the gauge of W. For every $y \in F$ and every $u \in H$, the mapping $u(., y)$ from E into G is continuous, hence $p \circ u(., y)$ is a continuous semi-norm on E. On the other hand, for every $x \in E$, the set of mappings $u(x, .)$ for $u \in H$ is equicontinuous; since the sequence $(y_n)$ tends to 0, it is bounded, and the set of all $u(x, y_n)$, for $n \geq 0$ and $u \in H$, is bounded (III, p. 22, prop. 9). It follows from this that the function $p'(x) = \sup_{\substack{u \in H \\ n \geq 0}} p(u(x, y_n))$ is a lower semi-continuous semi-norm (finite) on E. Since E is barrelled, $p'$ is continuous (III, p. 24, corollary). Since $(x_n)$ tends to 0 in E, $p'(x_n)$ tends to 0, so that we have $p'(x_n) \leq 1$ if $n$ is large enough; but then $p(u_n(x_n, y_n)) \leq p'(x_n) \leq 1$, hence $u_n(x_n, y_n) \in W$, which contradicts the hypothesis on $u_n, x_n, y_n$.
 
-#### Corollary 1 {#evt-iii-s5-prop-2-cor-1 .statement}
+#### Corollary 1 {#evt-iii-s5-prop-2-cor-1 .statement tag=07PC}
 
 — Let E and F be two Fréchet spaces, and G a locally convex space. Every separately continuous bilinear mapping from $E \times F$ into G is continuous.
 
@@ -103,7 +103,7 @@ u(x, y) = \langle y, \phi(u)(x) \rangle
 $$
 (for $x \in E, y \in F$ and $u \in \mathscr{B}(E, F)$) defines a continuous linear injective mapping $\phi$ from $\mathscr{B}(E, F)$ into $\mathscr{L}_b(E; F'_b)$.
 
-#### Corollary 2 {#evt-iii-s5-prop-2-cor-2 .statement}
+#### Corollary 2 {#evt-iii-s5-prop-2-cor-2 .statement tag=07PD}
 
 — Suppose that E and F are metrizable and that E is barrelled. Then $\phi$ is a topological vector space isomorphism from $\mathscr{B}(E, F)$ onto $\mathscr{L}_b(E; F'_b)$.
 
@@ -113,7 +113,7 @@ Let $f \in \mathscr{L}_b(E; F'_b)$. Put $u(x, y) = \langle y, f(x) \rangle$ for 
 
 In what follows, we shall define a notion which is intermediate between that of a continuous bilinear mapping and that of a separately continuous bilinear mapping.
 
-#### Proposition 3 {#evt-iii-s5-prop-3 .statement}
+#### Proposition 3 {#evt-iii-s5-prop-3 .statement tag=07PE}
 
 — Let E, F, G be three locally convex spaces, $\mathfrak{S}$ a family of bounded subsets of E. Let u be a separately continuous bilinear mapping from $E \times F$ into G. The following properties are equivalent :
 
@@ -125,7 +125,7 @@ c) The mapping $y \mapsto u(., y)$ from F into $\mathscr{L}_{\mathfrak{S}}(E; G)
 
 a) expresses that $y \mapsto u(., y)$ is continuous at the point 0, on account of the definition of neighbourhoods of 0 in $\mathscr{L}_{\mathfrak{S}}(E; G)$ (III, p. 13); likewise a) expresses that the image of M under the mapping $x \mapsto u(x, .)$ is equicontinuous at the point 0 (III, p. 16).
 
-#### Definition 2 {#evt-iii-s5-def-2 .statement}
+#### Definition 2 {#evt-iii-s5-def-2 .statement tag=07PF}
 
 — Let u be a bilinear mapping from $E \times F$ into G. We say that u is $\mathfrak{S}$-hypocontinuous if u is separately continuous and if it verifies one of the equivalent conditions a), b), c) of prop. 3.
 
@@ -141,19 +141,19 @@ $$
 
 The converse is in general false (III, p. 47, exerc. 3).
 
-#### Proposition 4 {#evt-iii-s5-prop-4 .statement}
+#### Proposition 4 {#evt-iii-s5-prop-4 .statement tag=07PG}
 
 *Let $u$ be a $\mathscr{S}$-hypocontinuous bilinear mapping from $E \times F$ into $G$. For every set $M \in \mathscr{S}$, the restriction of $u$ to $M \times F$ is continuous, and $u(M \times Q)$ is bounded in $G$ for every bounded subset $Q$ of $F$.*
 
 The first assertion follows from cor. 3 of GT, X, § 2, No. 1. Let $W$ be a neighbourhood of 0 in $G$; there exists, by hypothesis, a neighbourhood $V$ of 0 in $F$ such that $u(M \times V) \subset W$. Since there exists $\lambda \neq 0$ such that $\lambda Q \subset V$, we have $\lambda u(M \times Q) = u(M \times \lambda Q) \subset W$, and this proves the second part of the proposition.
 
-#### Proposition 5 {#evt-iii-s5-prop-5 .statement}
+#### Proposition 5 {#evt-iii-s5-prop-5 .statement tag=07PH}
 
 *Let $u$ be a $(\mathscr{S}, \mathscr{T})$-hypocontinuous bilinear mapping from $E \times F$ into $G$. For every pair of sets $M \in \mathscr{S}$, $N \in \mathscr{T}$, $u$ is uniformly continuous on $M \times N$.*
 
 The proposition follows immediately from prop. 2 of GT, X, § 2, No. 1 and prop. 5 of GT, X, § 2, No. 2.
 
-#### Proposition 6 {#evt-iii-s5-prop-6 .statement}
+#### Proposition 6 {#evt-iii-s5-prop-6 .statement tag=07PI}
 
 *If $F$ is a barrelled space, every separately continuous bilinear mapping $u$ from $E \times F$ into a locally convex space $G$ is $\mathscr{S}$-hypocontinuous for every set $\mathscr{S}$ of bounded subsets of $E$.*
 
@@ -161,7 +161,7 @@ In other words, the *linear mapping* $y \mapsto u(., y)$ from $F$ into $\mathscr
 
 It is enough (III, p. 30, prop. 3) to prove that the image of every bounded subset $M$ of $E$ under $x \mapsto u(x, .)$ is equicontinuous in $\mathscr{L}(F; G)$. But, by virtue of prop. 1 (III, p. 28) this image is a simply bounded subset of $\mathscr{L}(F; G)$, and since $F$ is barrelled, every simply bounded subset of $\mathscr{L}(F; G)$ is equicontinuous (III, p. 25, th. 1).
 
-#### Remark {#evt-iii-s5-n3-rem-1 .statement}
+#### Remark {#evt-iii-s5-n3-rem-1 .statement tag=07PJ}
 
 — Suppose the topology of $F$ is the finest locally convex topology on $F$ for which the linear mappings $h_\alpha : F_\alpha \to F$ are continuous (II, p. 27). Then condition *c)* of prop. 3 (III, p. 30) shows that if $E$ and $G$ are locally convex, then the bilinear mapping $u : E \times F \to G$ is $\mathscr{S}$-hypocontinuous if and only if each of the bilinear mappings
 
@@ -177,7 +177,7 @@ Condition a) of prop. 3 (III, p. 30) shows that for a bilinear mapping $u : E \t
 
 ### 4. Extension of a hypocontinuous bilinear mapping
 
-#### Proposition 7 {#evt-iii-s5-prop-7 .statement}
+#### Proposition 7 {#evt-iii-s5-prop-7 .statement tag=07PK}
 
 *Let* $E, F, G$ *be three locally convex spaces*, $G$ *being assumed Hausdorff*; *let* $E_0$ *(resp. $F_0$) be a dense vector subspace of* $E$ *(resp. $F$). Let* $u$ *be a separately continuous bilinear mapping from* $E \times F$ *into* $G$.
 
@@ -189,7 +189,7 @@ Condition a) of prop. 3 (III, p. 30) shows that for a bilinear mapping $u : E \t
 
 2) For every closed neighbourhood $W$ of 0 in $G$ and for every set $M \in \mathfrak{S}_0$, there exists, by hypothesis, a neighbourhood $V$ of 0 in $F_0$ such that $u(M \times V) \subset W$. But $\overline{V}$ is a neighbourhood of 0 in $F$; for every $x \in M$, the relation $u(\{x\} \times V) \subset W$ implies that $u(\{x\} \times \overline{V}) \subset W$, since $u(x, .)$ is continuous and $W$ is closed; therefore $u(M \times \overline{V}) \subset W$, which proves that $u$ is $\mathfrak{S}_0$*-hypocontinuous.
 
-#### Proposition 8 {#evt-iii-s5-prop-8 .statement}
+#### Proposition 8 {#evt-iii-s5-prop-8 .statement tag=07PL}
 
 *Let* $E, F, G$ *be three locally convex spaces*; *assume that* $G$ *is Hausdorff and quasi-complete*. *Let* $E_0$ *(resp. $F_0$) be a dense vector subspace of* $E$ *(resp. $F$), $\mathfrak{S}_0$ *(resp. $\mathfrak{T}_0$) a family of bounded subsets of* $E_0$ *(resp. $F_0$) such that every point of* $E$ *(resp. $F$) is in the closure of an element of* $\mathfrak{S}_0$ *(resp. $\mathfrak{T}_0$). Then every* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-hypocontinuous bilinear mapping* $u$ *from* $E_0 \times F_0$ *into* $G$ *extends uniquely to a separately continuous bilinear mapping* $\overline{u}$ *from* $E \times F$ *into* $G$ *and* $\overline{u}$ *is* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-hypocontinuous*.
 
@@ -197,7 +197,7 @@ The uniqueness and hypocontinuity of $\overline{u}$ follows from prop. 7; it rem
 
 ### 5. Hypocontinuity of the mapping $(u, v) \mapsto v \circ u$
 
-#### Proposition 9 {#evt-iii-s5-prop-9 .statement}
+#### Proposition 9 {#evt-iii-s5-prop-9 .statement tag=07PM}
 
 *Let* $R, S, T$ *be three locally convex Hausdorff spaces*. *Suppose that the spaces* $\mathscr{L}(R; S), \mathscr{L}(S; T), \mathscr{L}(R; T)$ *are each assigned the topology of simple* (resp. *compact*, *bounded*) convergence. *Then the bilinear mapping* $(u, v) \mapsto v \circ u$ *from* $\mathscr{L}(R; S) \times \mathscr{L}(S; T)$ *into* $\mathscr{L}(R; T)$ *is* $(\mathfrak{S}, \mathfrak{T})$-*hypocontinuous*, *where* $\mathfrak{T}$ *is the family of equicontinuous subsets of* $\mathscr{L}(S; T)$, *and* $\mathfrak{S}$ *the family of finite* (resp. *compact, bounded*) *subsets of* $\mathscr{L}(R; S)$.
 
@@ -207,13 +207,13 @@ To see that $(u, v) \mapsto v \circ u$ is $\mathfrak{S}$-hypocontinuous, we shal
 
 In the two corollaries that follow, we assume as in prop. 9, that the spaces $\mathscr{L}(R; S)$, $\mathscr{L}(S; T)$, $\mathscr{L}(R; T)$ are *all three* assigned the topology of simple convergence, or all three the topology of compact convergence, or all three that of bounded convergence.
 
-#### Corollary 1 {#evt-iii-s5-prop-9-cor-1 .statement}
+#### Corollary 1 {#evt-iii-s5-prop-9-cor-1 .statement tag=07PN}
 
 *For every equicontinuous subset H of* $\mathscr{L}(S; T)$ *the map* $(u, v) \mapsto v \circ u$ *from* $\mathscr{L}(R; S) \times H$ *into* $\mathscr{L}(R; T)$ *is continuous*.
 
 This follows immediately from prop. 9 (III, p. 32) and 4 (III, p. 31).
 
-#### Corollary 2 {#evt-iii-s5-prop-9-cor-2 .statement}
+#### Corollary 2 {#evt-iii-s5-prop-9-cor-2 .statement tag=07PO}
 
 *Suppose S is barrelled. If the sequence* $(u_n)$ *tends to u in* $\mathscr{L}(R; S)$ *and the sequence* $(v_n)$ *to v in* $\mathscr{L}(S, T)$, *then the sequence* $(v_n \circ u_n)$ *tends to* $v \circ u$ *in* $\mathscr{L}(R; T)$.
 

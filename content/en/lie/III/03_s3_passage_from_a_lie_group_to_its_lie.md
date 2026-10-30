@@ -85,18 +85,18 @@ subsections:
       pdf_page: 294
 statements: 111
 exercises: 9
-content_sha256: 0230f525d7253b5ffaede62c1e152c9b74663cfda4e1d3e708fce76a3443853e
+content_sha256: 193928cff06a2ceb18dda5088dbb423a5350969e2aae51ddb6917c3c9500b0c0
 ---
 
 ## § 3. PASSAGE FROM A LIE GROUP TO ITS LIE ALGEBRA
 
 ### 1. CONVOLUTION OF POINT DISTRIBUTIONS ON A LIE GROUP
 
-#### Definition 1 {#lie-iii-s3-def-1 .statement}
+#### Definition 1 {#lie-iii-s3-def-1 .statement tag=0A98}
 
 *Let $G$ be a Lie group, $g$ and $g'$ two points of $G$ and let $t \in T_g^{(\infty)}(G)$ $t' \in T_{g'}^{(\infty)}(G)$ be two point distributions at $g$ and $g'$ on $G$ (*Differentiable and Analytic Manifolds*, R, 13.2.1). The convolution product of $t$ and $t'$, denoted by $t * t'$, is the image of $t \otimes t'$ under the mapping $(h, h') \mapsto hh'$ of $G \times G$ into $G$ (*Differentiable and Analytic Manifolds*, R, 13.2.3).*
 
-#### Proposition 1 {#lie-iii-s3-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s3-prop-1 .statement tag=0A99}
 
 (i) *If $t \in T_g^{(s)}(G)$ and $t' \in T_{g'}^{(s')}(G)$, then $t * t' \in T_{gg'}^{(s+s')}(G)$.*
 
@@ -117,13 +117,13 @@ Suppose that K = \mathbf{R} or \mathbf{C} and that G is finite-dimensional. Then
 
 Let \mathscr{T}^{(\infty)}(G) be the direct sum of the T_g^{(\infty)}(G) for g \in G (cf. Differentiable and Analytic Manifolds, R, 13.6.1). We define the convolution product in \mathscr{T}^{(\infty)}(G) as the bilinear mapping of \mathscr{T}^{(\infty)}(G) \times \mathscr{T}^{(\infty)}(G) into \mathscr{T}^{(\infty)}(G) extending the convolution product of Definition 1. We also denote it by *. Thus \mathscr{T}^{(\infty)}(G) has an algebra structure filtered by the \mathscr{T}^{(s)}(G). The subalgebra \mathscr{T}^{(0)}(G) = \bigoplus_{g \in G} T_g^{(0)}(G) is identified with the algebra K^{(G)} of the group G over K.
 
-#### Proposition 2 {#lie-iii-s3-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s3-prop-2 .statement tag=0A9A}
 
 The algebra \mathscr{T}^{(\infty)}(G) is associative. It is commutative if and only if G is commutative.
 
 Let t \in \mathscr{T}^{(\infty)}(G), t' \in \mathscr{T}^{(\infty)}(G), t'' \in \mathscr{T}^{(\infty)}(G). Then t \* (t' \* t'') is the image of t \otimes t' \otimes t'' under the mapping (g, g', g'') \mapsto g(g'g'') of G \times G \times G into G and (t \* t') \* t'' is the image of t \otimes t' \otimes t'' under the mapping (g, g', g'') \mapsto (gg')g'' of G \times G \times G into G. Hence (t \* t') \* t'' = t \* (t' \* t''). It is seen similarly that, if G is commutative, t \* t' = t' \* t. If the convolution product is commutative, G is commutative by Proposition 1 (iii).
 
-#### Proposition 3 {#lie-iii-s3-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s3-prop-3 .statement tag=0A9B}
 
 If t \in \mathscr{T}^{(\infty)}(G) and g \in G, then $\gamma(g)_* t = \varepsilon_g * t, \delta(g)_* t = t * \varepsilon_{g^{-1}}$, (Int g)_* t = $\varepsilon_g * t * \varepsilon_{g^{-1}}$. In particular, $\varepsilon_e$ is the unit element of \mathscr{T}^{(\infty)}(G).
 
@@ -145,7 +145,7 @@ and hence $(\operatorname{Int} g)_* = \gamma(g)_* \circ \delta(g)_*$.
 
 It is therefore seen that, for $t \in T(G)$, $\varepsilon_g * t$ and $t * \varepsilon_g$ are equal to $gt$ and $tg$ calculated in the group T(G) (§ 2, no. 2). But it should be noted that, for $t, t'$ in T(G), the product $tt'$ in the sense of § 2 is in general different from $t * t'$.
 
-#### Definition 2 {#lie-iii-s3-def-2 .statement}
+#### Definition 2 {#lie-iii-s3-def-2 .statement tag=0A9C}
 
 Let G be a Lie group. The subalgebra of $\mathscr{T}^{(\infty)}(G)$ consisting of the distributions with support contained in e is denoted by $U(G)$.
 
@@ -155,7 +155,7 @@ U_s(G) = U(G) \cap \mathscr{T}^{(s)}(G) = T_e^{(s)}(G).
 $$
 We write $U^+(G) = T_e^{(\infty)+}(G)$, $U_s^+(G) = U^+(G) \cap U_s(G)$ (cf. Differentiable and Analytic Manifolds, R, 13.2.1). Recall that $U_0(G)$ is identified with K and $U_1^+(G)$ with the tangent space $T_e(G)$. In $U(G)$, $U^+(G)$ is a two-sided ideal supplementary to $U_0(G)$.
 
-#### Example {#lie-iii-s3-n1-exa-1 .statement}
+#### Example {#lie-iii-s3-n1-exa-1 .statement tag=0A9D}
 
 Let E be a complete normable space considered as a Lie group. Then the vector space $U(E)$ is canonically identified with the vector space TS(E) (Differentiable and Analytic Manifolds, R, 13.2.4). Let $m : E \times E \to E$ be addition on E. Then
 $$
@@ -163,7 +163,7 @@ m_* : TS(E \times E) \to TS(E)
 $$
 is equal to TS(m) (Differentiable and Analytic Manifolds, R, 13.2.4). For $t, t'$ in $U(E) = TS(E)$, the image $t * t'$ of the symmetric tensor product $t \otimes t'$ under $m_*$ is therefore TS(m)($t \otimes t'$). By Algebra, Chapter IV, § 5, no. 6, Proposition 7, this image is just the product $tt'$ in the algebra TS(E). Thus the algebra $U(E)$ is identified with the algebra TS(E).
 
-#### Proposition 4 {#lie-iii-s3-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s3-prop-4 .statement tag=0A9E}
 
 Consider the bilinear mapping $(u, v) \mapsto u * v$ (resp. $(u, v) \mapsto v * u$) of $U(G) \otimes K^{(G)}$ into $\mathscr{T}^{(\infty)}(G)$. The corresponding linear mapping of $U(G) \otimes K^{(G)}$ into $\mathscr{T}^{(\infty)}(G)$ is a vector space isomorphism.
 
@@ -171,7 +171,7 @@ $K^{(G)}$ is the direct sum of the $K_{e_x}$ for $x \in G$. On the other hand, t
 
 Let X be a manifold of class $C^r$ ($r \geq \infty$) and $x \in X$. We have defined (Differentiable and Analytic Manifolds, R, 13.3.1) a canonical filtration on the vector space $\mathscr{T}_x^{(\infty)}(X)$ and a canonical isomorphism $i_{X,x}$ of the associated graded vector space onto the graded vector space TS(T_x(X)). In particular, let $T_e(G) = L$; then $i_{G,e}$ is an isomorphism of the graded vector space gr U(G) onto the graded vector space TS(L). But U(G) is a filtered algebra, from which we obtain a graded algebra structure on gr U(G).
 
-#### Proposition 5 {#lie-iii-s3-prop-5 .statement}
+#### Proposition 5 {#lie-iii-s3-prop-5 .statement tag=0A9F}
 
 The isomorphism $i_{G,e} : \mathrm{gr}\ U(G) \to \mathrm{TS}(L)$ is an algebra isomorphism.
 
@@ -201,7 +201,7 @@ is commutative. Now $T(m): L \times L \to L$ maps $(x, y)$ to $x + y$ (§ 2, no.
 
 ### 2. FUNCTIORAL PROPERTIES
 
-#### Proposition 6 {#lie-iii-s3-prop-6 .statement}
+#### Proposition 6 {#lie-iii-s3-prop-6 .statement tag=0A9G}
 
 Let $G, H$ be Lie groups and $\phi$ a morphism of $G$ into $H$. For $t, t'$ in $\mathscr{T}^{(\infty)}(G)$, $\phi_*(t * t') = \phi_*(t) * \phi_*(t')$.
 
@@ -226,11 +226,11 @@ $$
 t^\vee = -t \quad (§ 2, \text{Proposition 2}).
 $$
 
-#### Example {#lie-iii-s3-n2-exa-1 .statement}
+#### Example {#lie-iii-s3-n2-exa-1 .statement tag=0A9H}
 
 Suppose that $G$ is the Lie group defined by a complete normable space $E$. Then $\mathrm{U}(G)$ is identified with $\mathrm{TS}(E)$ and the restriction $\theta_*$ to $\mathrm{U}(G)$ is identified with $\mathrm{TS}(T_e(\theta))$ (*Differentiable and Analytic Manifolds*, R, 13.2.4). Therefore, if $t \in \mathrm{TS}^s(E)$, $t^\vee = (-1)^s t$.
 
-#### Proposition 7 {#lie-iii-s3-prop-7 .statement}
+#### Proposition 7 {#lie-iii-s3-prop-7 .statement tag=0A9I}
 
 Let G be a Lie group. Let t, t' be in $\mathscr{T}^{(\infty)}(G)$.
 
@@ -250,13 +250,13 @@ $$
 
 where $s(g, g') = (g', g)$, $m(g, g') = gg'$, $n(g, g') = g'g$ for all $g, g'$ in G. This diagram is commutative. Hence $n_*(t \otimes t') = m_*(s_*(t \otimes t')) = m_*(t' \otimes t)$. This equality is precisely (i). Assertion (ii) follows from (i) and Proposition 6.
 
-#### Proposition 8 {#lie-iii-s3-prop-8 .statement}
+#### Proposition 8 {#lie-iii-s3-prop-8 .statement tag=0A9J}
 
 Let G, H be Lie groups and $\phi$ a morphism of G into H. If $t \in \mathscr{T}^{(\infty)}(G)$, then $\phi_*(t^\vee) = (\phi_*(t))^\vee$.
 
 Let $\theta$ (resp. $\theta'$) be the mapping $g \mapsto g^{-1}$ of G into G (resp. of H into H). Then $\phi \circ \theta = \theta' \circ \phi$, whence $\phi_*(\theta_*(t)) = \theta'_*(\phi_*(t))$.
 
-#### Proposition 9 {#lie-iii-s3-prop-9 .statement}
+#### Proposition 9 {#lie-iii-s3-prop-9 .statement tag=0A9K}
 
 Let $G_1, \ldots, G_n$ be Lie groups and $G = G_1 \times \cdots \times G_n$. If the vector spaces $\mathscr{T}^{(\infty)}(G)$ and $\mathscr{T}^{(\infty)}(G_1) \otimes \cdots \otimes \mathscr{T}^{(\infty)}(G_n)$ are canonically identified, the algebra $\mathscr{T}^{(\infty)}(G)$ is the tensor product of the algebras $\mathscr{T}^{(\infty)}(G_1), \ldots, \mathscr{T}^{(\infty)}(G_n)$. If $t_i \in \mathscr{T}^{(\infty)}(G_i)$ for $i = 1, \ldots, n$, then
 
@@ -298,7 +298,7 @@ $$
 
 It is seen analogously that $(t_1 \otimes t_2)^\vee = t_1^\vee \otimes t_2^\vee$.
 
-#### Proposition 10 {#lie-iii-s3-prop-10 .statement}
+#### Proposition 10 {#lie-iii-s3-prop-10 .statement tag=0A9L}
 
 Let H be a Lie subgroup of G and $i : H \to G$ the canonical injection. Then $i_*$ is an injective homomorphism of the algebra $\mathscr{T}^{(\infty)}(H)$ into the algebra $\mathscr{T}^{(\infty)}(H)$ and $i_*(t^\vee) = (i_*(t))^\vee$ for all $t \in \mathscr{T}^{(\infty)}(H)$.
 
@@ -306,13 +306,13 @@ This follows from Propositions 6 and 8 and Differentiable and Analytic Manifolds
 
 $\mathscr{T}^{(\infty)}(H)$ is identified with a subalgebra of $\mathscr{T}^{(\infty)}(G)$ by means of the isomorphism of Proposition 10.
 
-#### Remark {#lie-iii-s3-n2-rem-1 .statement}
+#### Remark {#lie-iii-s3-n2-rem-1 .statement tag=0A9M}
 
 Proposition 10 remains valid if H is a Lie quasi-subgroup.
 
 We recall (Differentiable and Analytic Manifolds, R, 13.5.1) that, if V is an analytic manifold over K, $\mathscr{T}^{(\infty)}(V)$ has canonically a cogebra structure over K with a counit; the counit is the linear mapping of $\mathscr{T}^{(\infty)}(G)$ into K which associates with each element of $T_x^{(\infty)}(V)$ its constant term.
 
-#### Proposition 11 {#lie-iii-s3-prop-11 .statement}
+#### Proposition 11 {#lie-iii-s3-prop-11 .statement tag=0A9N}
 
 Let G be a Lie group.
 (i) The cogebra $\mathscr{T}^{(\infty)}(G)$, with convolution, is a bigebra (Algebra, Chapter III, § 11, no. 4).
@@ -329,7 +329,7 @@ $$
 c(t^\vee) = d_*(t^\vee) = (d_*(t))^\vee = \left( \sum_{i=1}^n t_i \otimes t_i' \right)^\vee = \sum_{i=1}^n t_{i'}^\vee \otimes t_{i'}^\vee.
 $$
 
-#### Proposition 12 {#lie-iii-s3-prop-12 .statement}
+#### Proposition 12 {#lie-iii-s3-prop-12 .statement tag=0A9O}
 
 Let G, H be two Lie groups and $\phi$ a morphism of G into H. Then $\phi_*$ is a bigebra morphism of $\mathscr{T}^{(\infty)}(G)$ into $\mathscr{T}^{(\infty)}(H)$.
 
@@ -349,7 +349,7 @@ Let G be a Lie group, X a manifold of class C^r and f a law of left operation of
 
 When G operates on itself by left translation, we recover Definition 1 of no. 1.
 
-#### Proposition 13 {#lie-iii-s3-prop-13 .statement}
+#### Proposition 13 {#lie-iii-s3-prop-13 .statement tag=0A9P}
 
 Let $t \in \mathscr{T}^{(s)}(G)$, $t' \in \mathscr{T}^{(s')}(G)$, $u \in \mathscr{T}^{(s'')}(X)$, such that
 
@@ -363,7 +363,7 @@ This can be proved as is Proposition 2 of no. 1.
 
 In particular, if $r \leq \infty$, the vector space $\mathscr{T}^{(\infty)}(X)$ is a left module over the algebra $\mathscr{T}^{(\infty)}(G)$ with the product *.
 
-#### Proposition 14 {#lie-iii-s3-prop-14 .statement}
+#### Proposition 14 {#lie-iii-s3-prop-14 .statement tag=0A9Q}
 
 (i) Let $g_0 \in G$ and $\tau(g_0)$ be the mapping $x \mapsto f(g_0, x)$ of X into X. If $u \in \mathscr{T}^{(r)}(X)$, then $\tau(g_0)*u = \varepsilon_{g_0}*u$.
 
@@ -373,7 +373,7 @@ This can be proved as is Proposition 3 of no. 1.
 
 In particular, if $u \in T(X)$ and $t \in T(G)$, $\varepsilon_{g_0} * u$ and $t * \varepsilon_{x_0}$ are equal to the products $g_0u$ and $tx_0$ defined in § 2, no. 2.
 
-#### Proposition 15 {#lie-iii-s3-prop-15 .statement}
+#### Proposition 15 {#lie-iii-s3-prop-15 .statement tag=0A9R}
 
 Let G (resp. G') be a Lie group and X (resp. X') a manifold of class C^r. Suppose that a law of left operation of class C^r of G (resp. G') on X (resp. X') is given. Let $\phi$ be a morphism of G into G' and $\psi$ a $\phi$-morphism of X into X'. Let $t \in \mathscr{T}^{(s)}(G)$, $u \in T^{(s')}(X)$ be such that $s + s' \leq r$. Then
 $$
@@ -381,11 +381,11 @@ $$
 $$
 This can be proved as is Proposition 6 of no. 2.
 
-#### Remark {#lie-iii-s3-n3-rem-1 .statement}
+#### Remark {#lie-iii-s3-n3-rem-1 .statement tag=0A9S}
 
 Let f be a law of right operation of class C^r of G on X. If $t \in \mathscr{T}^{(s)}(G)$ and $u \in \mathscr{T}^{(s')}(X)$, with $s + s' \leq r$, we denote by $u * t$ the image of $u \otimes t$ under $f_*$. Propositions 13, 14, 15 go over to this situation in an obvious way.
 
-#### Proposition 16 {#lie-iii-s3-prop-16 .statement}
+#### Proposition 16 {#lie-iii-s3-prop-16 .statement tag=0A9T}
 
 Let G, G' be Lie groups, X a manifold of class C^r and suppose that G (resp. G') operates on X on the left (resp. right), with $(gx)g' = g(xg')$ for all $x \in X, g \in G, g' \in G'$. Let $t \in \mathscr{T}^{(s)}(G)$, $t' \in \mathscr{T}^{(s')}(G')$, $t'' \in T^{(s'')}(X)$, with $s + s' + s'' \leq r$. Then
 $$
@@ -397,7 +397,7 @@ $(t * t'') * t'$ (resp. $t * (t'' * t')$) is the image of $t \otimes t'' \otimes
 
 Let G be a Lie group, X a manifold of class C^r and $(g, x) \mapsto gx$ a law of left operation of class C^r of G on X. For all $x \in X$, let $\varrho(x)$ denote the orbital mapping of x.
 
-#### Definition 3 {#lie-iii-s3-def-3 .statement}
+#### Definition 3 {#lie-iii-s3-def-3 .statement tag=0A9U}
 
 Let $t \in \mathscr{T}^{(s)}(G)$ with $s \leq r$. Let $f : X \to F$ be a function of class C^r with values in a Hausdorff polynormed space (for example $F = \mathbf{K}$). The convolution of t and f, denoted by $t * f$, is the function on X with values in F defined by
 $$
@@ -430,7 +430,7 @@ $$
 
 Suppose that $K = \mathbf{R}$ or $\mathbf{C}$, that $G$ and $X$ are finite-dimensional and that $X$ has a positive measure invariant under $G$. The definition of $\varepsilon_g * f$ agrees with that of Integration, Chapter VIII, § 4, no. 1 (cf. formula (2), loc. cit.).
 
-#### Proposition 17 {#lie-iii-s3-prop-17 .statement}
+#### Proposition 17 {#lie-iii-s3-prop-17 .statement tag=0A9V}
 
 Let $t \in \mathscr{T}^{(s)}(G)$, $t' \in \mathscr{T}^{(s')}(X)$ and $f : X \to F$ a function of class $C^r$ with $s + s' \leq r$. Then
 $$
@@ -445,7 +445,7 @@ $$
 \end{align*}
 $$
 
-#### Proposition 18 {#lie-iii-s3-prop-18 .statement}
+#### Proposition 18 {#lie-iii-s3-prop-18 .statement tag=0A9W}
 
 Let $t \in \mathscr{T}^{(s)}(G)$, $t' \in \mathscr{T}^{(s')}(G)$ and $f : X \to F$ a function of class $C^r$, with $s + s' \leq r$. Then
 $$
@@ -463,7 +463,7 @@ $$
 
 If $r \geq \infty$, we see that the set of functions of class $C^\infty$ on $X$ with values in $F$ is a left module over the algebra $\mathscr{T}^{(\infty)}(G)$.
 
-#### Proposition 19 {#lie-iii-s3-prop-19 .statement}
+#### Proposition 19 {#lie-iii-s3-prop-19 .statement tag=0A9X}
 
 Let $t \in \mathscr{T}^{(s)}(G)$, with $s \leq r$. Let $f$ (resp. $f'$) be a function of class $C^r$ on $X$ with values in a Hausdorff polynormed space $F$ (resp. $F'$). Let $(u, u') \mapsto uu'$ be a continuous bilinear mapping of $F \times F'$ into a Hausdorff polynormed space $F''$, so that $ff'$ is a function of class $C^r$ on $X$ with values in $F''$. Let
 $$
@@ -481,7 +481,7 @@ $$
 = \sum_{i=1}^n \langle \varepsilon_x, t_i * f \rangle \langle \varepsilon_x, t_i' * f' \rangle \quad \text{by (4).}
 $$
 
-#### Remark 1 {#lie-iii-s3-n4-rem-1 .statement}
+#### Remark 1 {#lie-iii-s3-n4-rem-1 .statement tag=0A9Y}
 
 Let G be a Lie group, X a manifold of class $C^r$ and $(x, g) \mapsto xg$ a law of right operation of class $C^r$ of G on X. If $t \in \mathscr{T}^{(s)}(G)$ with $s \leq r$ and $f : X \to F$ is a function of class $C^r$ on X, we denote by $f * t$ the function on X defined by
 $$
@@ -509,7 +509,7 @@ $$
 (ff') * t = \sum_{i=1}^n (f * t_i)(f' * t_i') \tag{13}
 $$
 
-#### Proposition 20 {#lie-iii-s3-prop-20 .statement}
+#### Proposition 20 {#lie-iii-s3-prop-20 .statement tag=0A9Z}
 
 *Let G, G' be Lie groups, X a manifold of class $C^r$ and $(g, x) \mapsto gx$ (resp. $(x, g') \mapsto xg'$) a law of left (resp. right) operation of class $C^r$ of G (resp. G') on X. Suppose that $(gx)g' = g(xg')$ for all $x \in X, g \in G, g' \in G'$. Let $t \in \mathscr{T}^{(s)}(G)$, $t' \in \mathscr{T}^{(s')}(G')$ and $f : X \to F$ be a function of class $C^r$ such that $s + s' \leq r$. Then*
 $$
@@ -532,7 +532,7 @@ $$
 \langle t, f \rangle = \langle \varepsilon_e, t^\vee * f \rangle = \langle \varepsilon_e, f * t^\vee \rangle.
 $$
 
-#### Remark 2 {#lie-iii-s3-n4-rem-2 .statement}
+#### Remark 2 {#lie-iii-s3-n4-rem-2 .statement tag=0AA0}
 
 Let $(g, x) \mapsto gx$ be a law of left operation of class $C^r$ of G on X. Let $t \in U_s(G)$ with $s \leq r$, $\Omega$ be an open subset of X and $f : \Omega \to F$ a function of class $C^r$. $t * f$ can also be defined by formula (4) or (5); it is a function defined on $\Omega$ with values in F, of class $C^{r-s}$ if $s < \infty$. The results of this no. extend in an obvious way to this situation.
 
@@ -555,7 +555,7 @@ Suppose that G and X are finite-dimensional. The mapping $(t, x) \mapsto t \otim
 
 We now no longer suppose that G and X are finite-dimensional. Let $\psi$ be an automorphism of the manifold X and $\Delta$ a field of point distributions on X. Conforming with the general definitions, the transform of $\Delta$ under $\psi$ is the field of point distributions on X whose value at $\psi(x)$ is $\psi_*(\Delta(x))$; we denote this mapping by $\psi(\Delta)$. If $g \in G$ and $\tau(g)$ denotes the automorphism $x \mapsto gx$ of X, the transform of $\Delta$ under $\tau(g)$ is also called the transform of $\Delta$ under g.
 
-#### Proposition 21 {#lie-iii-s3-prop-21 .statement}
+#### Proposition 21 {#lie-iii-s3-prop-21 .statement tag=0AA1}
 
 *Let $\psi$ be an automorphism of X commuting with the operations of G. Then $D_t$ is invariant under $\psi$.*
 
@@ -569,7 +569,7 @@ $$
 \end{align*}
 $$
 
-#### Proposition 22 {#lie-iii-s3-prop-22 .statement}
+#### Proposition 22 {#lie-iii-s3-prop-22 .statement tag=0AA2}
 
 *If $g \in G$, the transform of $D_t$ under g is $D_{\varepsilon_g * t * \varepsilon_g^{-1}}$.*
 
@@ -601,7 +601,7 @@ Proposition 21 remains valid. Let $g \in G$. The transform of $D_t$ under g (tha
 
 ### 6. INVARIANT FIELDS OF POINT DISTRIBUTIONS ON A LIE GROUP
 
-#### Definition 4 {#lie-iii-s3-def-4 .statement}
+#### Definition 4 {#lie-iii-s3-def-4 .statement tag=0AA3}
 
 *Let G be a Lie group. A field of distributions on G is called left (resp. right) invariant if it is invariant under left (resp. right) translations of G.*
 
@@ -626,7 +626,7 @@ $$
 $$
 for $g, g'$ in $G$.
 
-#### Definition 5 {#lie-iii-s3-def-5 .statement}
+#### Definition 5 {#lie-iii-s3-def-5 .statement tag=0AA4}
 
 *Let $G$ be a Lie group and $t \in U(G)$. Let $L_t$ denote the field of distributions $g \mapsto \varepsilon_g * t$ on $G$ and $R_t$ the field of distributions $g \mapsto t * \varepsilon_g$ on $G$.*
 
@@ -636,7 +636,7 @@ R_t f = t^\vee * f \in C^\omega(\Omega, F)
 $$
 (no. 5). If $G$ is finite-dimensional, the differential operators $L_t$ and $R_t$ are of class $C^\omega$ (no. 5).
 
-#### Proposition 23 {#lie-iii-s3-prop-23 .statement}
+#### Proposition 23 {#lie-iii-s3-prop-23 .statement tag=0AA5}
 
 (i) *The mapping $t \mapsto L_t$ (resp. $t \mapsto R_t$) is an isomorphism of the vector space $U(G)$ onto the vector field of left (resp. right) invariant distributions on $G$.*
 (ii) *For $t, t'$ in $U(G)$, $L_{t*t'} = L_t \circ L_{t'}$, $R_{t*t'} = R_{t'} \circ R_t$, $L_t \circ R_{t'} = R_{t'} \circ L_t$ (with the abuse of notation of no. 5).*
@@ -656,11 +656,11 @@ $$
 (L_t)_g = \varepsilon_g * t = (\varepsilon_g * t * \varepsilon_g^{-1}) * \varepsilon_g = (R_{\varepsilon_g * t * \varepsilon_g^{-1}})_g.
 $$
 
-#### Remark 1 {#lie-iii-s3-n6-rem-1 .statement}
+#### Remark 1 {#lie-iii-s3-n6-rem-1 .statement tag=0AA6}
 
 It is the action of G on itself by right translation which defines the fields of left invariant distributions.
 
-#### Remark 2 {#lie-iii-s3-n6-rem-2 .statement}
+#### Remark 2 {#lie-iii-s3-n6-rem-2 .statement tag=0AA7}
 
 Suppose that G is finite-dimensional. The mapping
 
@@ -672,7 +672,7 @@ of $U_s(G) \times G$ into $T^{(s)}(G)$ is an isomorphism of analytic vector bund
 
 Let G be a Lie group. In $U(G)$, as in any associative algebra, we write $[t, t'] = t * t' - t' * t$. As $T_e(G)$ is the set of primitive elements of $U(G)$, $[T_e(G), T_e(G)] \subset T_e(G)$ (Chapter II, § 1, no. 2, Proposition 4). The restriction of the bracket to $T_e(G)$ therefore defines on $T_e(G)$ a Lie algebra structure.
 
-#### Lemma 1 {#lie-iii-s3-lem-1 .statement}
+#### Lemma 1 {#lie-iii-s3-lem-1 .statement tag=0AA8}
 
 Let X and $X'$ be complete normable spaces, $X_0$ an open neighbourhood of 0 in X and f an analytic mapping of $X_0$ into $X'$ such that $f(0) = 0$. Let $f = f_1 + f_2 + f_3 + \cdots$ be the expansion of f as an integral series about 0, where $f_i$ is a homogeneous continuous-polynomial of degree i on X with values in $X'$. Let t be an element of TS$^2(X)$, considered as a point distribution on X with support contained in \{0\}. Let $t' = f_*(t) \in TS(X')$. The homogeneous component of $t'$ of degree 1 is $\langle f_2, t \rangle$.
 
@@ -693,7 +693,7 @@ $$
 
 whence the lemma.
 
-#### Proposition 24 {#lie-iii-s3-prop-24 .statement}
+#### Proposition 24 {#lie-iii-s3-prop-24 .statement tag=0AA9}
 
 Let G be a Lie group and $(U, \phi, E)$ a chart on G such that $\phi(e) = 0$. Let V be an open neighbourhood of e such that $V^2 \subset U$. Let m be the analytic mapping $(a, b) \mapsto \phi(\phi^{-1}(a)\phi^{-1}(b))$ of $\phi(V) \times \phi(V)$ into E. Let
 
@@ -740,15 +740,15 @@ $$
 
 Similarly, $\phi * (v * u)$ admits $m_{1,1}(\phi(v), \phi(u))$ as component of degree 1 in $TS(E)$. As $\phi([u, v])$ is of degree 1, this proves (iii).
 
-#### Corollary {#lie-iii-s3-n7-cor-1 .statement}
+#### Corollary {#lie-iii-s3-n7-cor-1 .statement tag=0AAA}
 
 *The normable space $T_e(G)$ together with the bracket, is a normable Lie algebra.*
 
-#### Definition 6 {#lie-iii-s3-def-6 .statement}
+#### Definition 6 {#lie-iii-s3-def-6 .statement tag=0AAB}
 
 *The normable space $T_e(G)$, together with the bracket, is called the normable Lie algebra of G, or simply the Lie algebra of G, and is denoted by $L(G)$.*
 
-#### Proposition 25 {#lie-iii-s3-prop-25 .statement}
+#### Proposition 25 {#lie-iii-s3-prop-25 .statement tag=0AAC}
 
 *Let G be a Lie group and $E(G)$ the enveloping algebra of $L(G)$. The canonical injection of $L(G)$ into $E(G)$ defines a homomorphism $\theta$ of the algebra $E(G)$ into the algebra $U(G)$. If K is of characteristic 0, $\eta$ is a bigebra isomorphism.*
 
@@ -756,13 +756,13 @@ The bigebra $U(G)$ is cocommutative (*Differentiable and Analytic Manifolds*, R,
 
 When K is of characteristic 0 we shall in future identify $U(G)$ with the enveloping algebra of $L(G)$. By (2) and Proposition 7 (ii), the mapping $t \mapsto t^\vee$ of $U(G)$ into $U(G)$ is then identified with the principal antiautomorphism of $U(G)$ (Chapter I, § 2, no. 4).
 
-#### Proposition 26 {#lie-iii-s3-prop-26 .statement}
+#### Proposition 26 {#lie-iii-s3-prop-26 .statement tag=0AAD}
 
 *Suppose that K is of characteristic $p > 0$. For all $a \in L(G)$, $a^p \in L(G)$ and $\operatorname{ad}(a^p) = (\operatorname{ad} a)^p$ (the power $a^p$ being calculated in $U(G)$).*
 
 If $a \in L(G)$, $a$ is primitive in $U(G)$, hence $a^p$ is primitive in $U(G)$ (Chapter II, § 1, no. 2, *Remark 1*) and hence $a^p \in L(G)$. Let $\sigma_a$ (resp. $\tau_a$) be the linear mapping $x \mapsto a * x$ (resp. $x \mapsto x * a$) of $U(G)$ into $U(G)$. For all $x \in U(G)$, $(\operatorname{ad} a)(x) = (\sigma_a - \tau_a)(x)$ and hence $(\operatorname{ad} a)^p = (\sigma_a - \tau_a)^p$. But $\sigma_a$ and $\tau_a$ commute and therefore $(\sigma_a - \tau_a)^p = (\sigma_a)^p - (\tau_a)^p = \tau_a^p - \sigma_a^p$, whence the second assertion.
 
-#### Definition 7 {#lie-iii-s3-def-7 .statement}
+#### Definition 7 {#lie-iii-s3-def-7 .statement tag=0AAE}
 
 *Let X be a manifold of class $C^r$ ($r \geq 2$) and $g$ a complete normable Lie algebra. A law of infinitesimal left (resp. right) operation of class $C^{r-1}$ of $g$ on X is a mapping $a \mapsto D_a$ of $g$ into the set of vector fields on X with the following properties:*
 
@@ -772,11 +772,11 @@ If $a \in L(G)$, $a$ is primitive in $U(G)$, hence $a^p$ is primitive in $U(G)$ 
 
 In particular, each vector field $D_a$ is of class $C^{r-1}$.
 
-#### Remark {#lie-iii-s3-n7-rem-1 .statement}
+#### Remark {#lie-iii-s3-n7-rem-1 .statement tag=0AAF}
 
 Let X be a manifold of class $C^r$, $g$ a finite-dimensional Lie algebra and $a \mapsto D_a$ a linear mapping of $g$ into the vector space of vector fields of class $C^{r-1}$ on X. Then condition (a) of Definition 7 holds. For, by considering a basis of $g$ and applying *Differentiable and Analytic Manifolds*, R, 7.7.1, the problem is reduced to the case $\dim g = 1$ and our assertion is then obvious.
 
-#### Proposition 27 {#lie-iii-s3-prop-27 .statement}
+#### Proposition 27 {#lie-iii-s3-prop-27 .statement tag=0AAG}
 
 *Let G be a Lie group and X a manifold of class $C^r$. Suppose that a law of left (resp. right) operation of class $C^r$ of G on X is given. For all $a \in L(G)$, let $D_a$ be the field of point distributions defined by a on X.*
 
@@ -821,7 +821,7 @@ For $\phi$ to be a submersion, it is necessary and sufficient that $L(\phi)$ be 
 
 Let $I$ be a finite set, $(G_i)_{i \in I}$ a family of Lie groups, $G$ their product and $p_i$ the canonical morphism of $G$ onto $G_i$. Then $(L(p_i))_{i \in I}$ is a morphism of the Lie algebra $L(G)$ into the Lie algebra $\prod_{i \in I} L(G_i)$ and is an isomorphism of normable spaces. $L(G)$ is therefore identified with $\prod_{i \in I} L(G_i)$ by means of $(L(p_i))_{i \in I}$.
 
-#### Proposition 28 {#lie-iii-s3-prop-28 .statement}
+#### Proposition 28 {#lie-iii-s3-prop-28 .statement tag=0AAH}
 
 Let G and H be Lie groups and φ a morphism of G into H. Suppose that K is of characteristic 0 and that H is finite-dimensional.
 
@@ -833,31 +833,31 @@ Let G and H be Lie groups and φ a morphism of G into H. Suppose that K is of ch
 
 Let G operate on H on the left by the mapping (g, h) ↦ φ(g)h. It suffices to apply Proposition 14 of § 1, no. 7, to the orbit of e.
 
-#### Proposition 29 {#lie-iii-s3-prop-29 .statement}
+#### Proposition 29 {#lie-iii-s3-prop-29 .statement tag=0AAI}
 
 Let G and H be Lie groups and φ a morphism of G into H. Suppose that K is of characteristic 0 and that H is finite-dimensional. If H' is a Lie subgroup of H, then G' = φ⁻¹(H') is a Lie subgroup of G and L(G') = L(φ)⁻¹(L(H')).
 
 Let π be the canonical mapping of H into the homogeneous space X = H/H'. Let G operate on X on the left by the mapping (g, x) ↦ φ(g)x. The stabilizer of π(e) is G', which is therefore a Lie subgroup of G (§ 1, no. 7, Proposition 14). The orbital mapping of π(e) is π ∘ φ. By Proposition 14 of § 1, L(G') is the kernel of L(π ∘ φ) = T_e(π) ∘ L(φ). The kernel of T_e(π) is L(H') (§ 1, no. 6, Proposition 11 (i)) and hence Ker L(π ∘ φ) = L(φ)⁻¹(L(H')).
 
-#### Corollary 1 {#lie-iii-s3-prop-29-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s3-prop-29-cor-1 .statement tag=0AAJ}
 
 Let G, H be Lie groups and φ₁ and φ₂ morphisms of G into H. Suppose that K is of characteristic 0 and that H is finite-dimensional. The set of g ∈ G such that φ₁(g) = φ₂(g) is a Lie subgroup G' of G and L(G') is the set of x ∈ L(G) such that L(φ₁)x = L(φ₂)x.
 
 We write φ(g) = (φ₁(g), φ₂(g)) for all g ∈ G, so that φ is a morphism of G into H × H. Let Δ be the diagonal subgroup of H × H. Then G' = φ⁻¹(Δ) and L(φ)x = (L(φ₁)x, L(φ₂)x) for all x ∈ L(G). It now suffices to apply Proposition 29.
 
-#### Corollary 2 {#lie-iii-s3-prop-29-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s3-prop-29-cor-2 .statement tag=0AAK}
 
 Let G be a finite-dimensional Lie group and G₁ and G₂ two Lie subgroups of G. Suppose that K is of characteristic 0. Then G₁ ∩ G₂ is a Lie subgroup of G with Lie algebra L(G₁) ∩ L(G₂).
 
 We apply Proposition 29 to the canonical injection of G₁ into G and the subgroup G₂.
 
-#### Corollary 3 {#lie-iii-s3-prop-29-cor-3 .statement}
+#### Corollary 3 {#lie-iii-s3-prop-29-cor-3 .statement tag=0AAL}
 
 Let G, G', H be Lie groups and φ : G → H and φ' : G' → H Lie group morphisms. Suppose that K is of characteristic 0 and that H is finite-dimensional. Let F be the set of (g, g') ∈ G × G' such that φ(g) = φ'(g'). Then F is a Lie subgroup of G × G' and L(F) is the set of (x, x') ∈ L(G) × L(G') such that L(φ)x = L(φ')x'.
 
 We apply Corollary 1 to the morphisms (g, g') ↦ φ(g) and (g, g') ↦ φ'(g') of G × G' into H.
 
-#### Proposition 30 {#lie-iii-s3-prop-30 .statement}
+#### Proposition 30 {#lie-iii-s3-prop-30 .statement tag=0AAM}
 
 Let G be a finite-dimensional Lie group with a countable base and
 
@@ -875,7 +875,7 @@ $$
 
 and hence $T_e(HH') = L(H) + L(H')$. Suppose that every element of H commutes with every element of H'. Then HH' is a subgroup of G. By (i), it is a Lie subgroup of G. The rest of the statement follows from Proposition 28.
 
-#### Proposition 31 {#lie-iii-s3-prop-31 .statement}
+#### Proposition 31 {#lie-iii-s3-prop-31 .statement tag=0AAN}
 
 Let G be a finite-dimensional Lie group with countable base, H a normal Lie subgroup of G and A a Lie subgroup of G. Suppose that K is of characteristic 0 and that AH is closed. Let $\phi$ be the canonical morphism of G onto G/H. Then the canonical mappings
 
@@ -887,7 +887,7 @@ are Lie group isomorphisms.
 
 By Proposition 30, AH is a Lie subgroup of G. By Corollary 2 to Proposition 29, $H \cap A$ is a Lie subgroup of G. It is therefore meaningful to speak of the groups $AH/H$ and $A/(H \cap A)$. On the other hand, $\phi(A)$, which is the canonical image of AH in G/H, is closed and hence is a Lie subgroup of G/H (Proposition 28 (iii)). Proposition 28, applied to the composite morphisms $A \to G \to G/H$ and $AH \to G \to G/H$, proves that the canonical mappings of the proposition are Lie group isomorphisms.
 
-#### Proposition 32 {#lie-iii-s3-prop-32 .statement}
+#### Proposition 32 {#lie-iii-s3-prop-32 .statement tag=0AAO}
 
 Let G and H be Lie groups, k a non-discrete closed subfield of K and $\phi$ a morphism of G into H for the Lie group structures over k. Suppose that K is of characteristic 0. If $L(\phi)$ is K-linear, $\phi$ is a morphism for the Lie group structures over K.
 
@@ -903,7 +903,7 @@ and hence $T_g(\phi)$ is K-linear. The proposition then follows from Differentia
 
 Let $A$ be a complete normable associative algebra with unit element $e$. Let $A^*$ be the group of invertible elements of $A$. We have seen (§ 1, no. 1) that $A^*$ is an open submanifold of $A$ and is a Lie group. Let $G$ be a Lie group and $f$ a morphism of the Lie group $G$ into the Lie group $A^*$. $f$ can be considered as an analytic mapping of $G$ into the complete normable space $A$. Hence, if $t \in \mathscr{T}^{(\infty)}(G)$, we can form $\langle t, f \rangle$, which is an element of $A$.
 
-#### Proposition 33 {#lie-iii-s3-prop-33 .statement}
+#### Proposition 33 {#lie-iii-s3-prop-33 .statement tag=0AAP}
 
 *The mapping $t \mapsto \langle t, f \rangle$ is a morphism of the algebra $\mathscr{T}^{(\infty)}(G)$ into the algebra $A$.*
 
@@ -921,7 +921,7 @@ The morphism of Proposition 33 is said to be *associated* with $f$.
 
 Take $G$ to be the group $A^*$ itself and $f$ to be the identity mapping $i$ of $A^*$. We obtain a morphism, called *canonical*, of the algebra $\mathscr{T}^{(\infty)}(A^*)$ into the algebra $A$. The tangent space $T_e(A^*)$ is canonically identified with $A$; and if $t \in T_e(A^*)$, the definition of this identification is such that $\langle t, i \rangle = t$. Then Proposition 33 implies the following corollary:
 
-#### Corollary {#lie-iii-s3-n9-cor-1 .statement}
+#### Corollary {#lie-iii-s3-n9-cor-1 .statement tag=0AAQ}
 
 *The canonical mapping $\zeta$ of $L(A^*)$ into $A$ is an isomorphism of the Lie algebra, $L(A^*)$ onto the Lie algebra $A$. In other words,
 $$
@@ -933,7 +933,7 @@ Henceforth $L(A^*)$ and $A$ are identified by means of the isomorphism $\zeta$.
 
 The canonical morphism of $\mathscr{T}^{(\infty)}(A^*)$ into $A$ has been obtained as a special case of the morphism of Proposition 33. But it is possible to argue in the opposite direction:
 
-#### Proposition 34 {#lie-iii-s3-prop-34 .statement}
+#### Proposition 34 {#lie-iii-s3-prop-34 .statement tag=0AAR}
 
 *Let $H$ be a Lie group, $A$ a unital complete normable associative algebra and $\phi : H \to A^*$ a Lie group morphism. The associated morphism $\phi'$ of $\mathscr{T}^{(\infty)}(H)$ into $A$ is obtained by composing $\phi_*$ with the canonical morphism of $\mathscr{T}^{(\infty)}(A^*)$ into $A$. In particular, $\phi'(x) = L(\phi)(x)$ for all $x \in L(H)$.*
 
@@ -949,7 +949,7 @@ $$
 
 Let E be a complete normable space. Then $\mathscr{L}(E)$ is a unital complete normable algebra and $\mathbf{GL}(E)$ is a Lie group. By the Corollary to Proposition 33, no. 9, if $T_1(\mathbf{GL}(E))$ is canonically identified with $\mathscr{L}(E)$, the Lie algebra structure on $\mathbf{L}(\mathbf{GL}(E))$ is given by the bracket $(x, y) \mapsto xy - yx$ of two elements of $\mathscr{L}(E)$. In particular, $\mathbf{L}(\mathbf{GL}(n, K))$ is canonically identified with $\mathfrak{gl}(n, K)$ (Chapter I, § 1, no. 2).
 
-#### Proposition 35 {#lie-iii-s3-prop-35 .statement}
+#### Proposition 35 {#lie-iii-s3-prop-35 .statement tag=0AAS}
 
 *Let E be a finite-dimensional vector space. Let $\phi$ be the morphism $g \mapsto \det g$ of the Lie group $\mathbf{GL}(E)$ into the Lie group $K^*$. The mapping $\mathbf{L}(\phi)$ of $\mathscr{L}(E)$ into K is the mapping $x \mapsto \operatorname{Tr} x$. The kernel $\mathbf{SL}(E)$ of $\phi$ is a Lie subgroup of $\mathbf{GL}(E)$ with Lie algebra $\mathfrak{sl}(E)$.*
 
@@ -965,7 +965,7 @@ It follows that $\phi$ is a submersion. Therefore, $\operatorname{Ker} \phi = \m
 
 Let $E_1, \ldots, E_n$ be complete normable spaces and E their direct sum. Every $x \in \mathscr{L}(E)$ can be represented by a matrix $(x_{ij})_{1 \leq i, j \leq n}$, where $x_{ij} \in \mathscr{L}(E_i, E_j)$.
 
-#### Proposition 36 {#lie-iii-s3-prop-36 .statement}
+#### Proposition 36 {#lie-iii-s3-prop-36 .statement tag=0AAT}
 
 *Let I be a subset of $\{1, 2, \ldots, n\}$ and G the subgroup of $\mathbf{GL}(E)$ consisting of the $g = (g_{ij})_{1 \leq i, j \leq n} \in \mathbf{GL}(E)$ such that $g_{ij} = 0$ for $i < j$ and $g_{ii} = 1$ for $i \in I$. Then G is a Lie subgroup of $\mathbf{GL}(E)$ and $\mathbf{L}(G)$ is the set of $x = (x_{ij})_{1 \leq i, j \leq n} \in \mathscr{L}(E)$ such that $x_{ij} = 0$ for $i < j$ and $x_{ii} = 0$ for $i \in I$.
 
@@ -973,7 +973,7 @@ Let S be the set of $(x_{ij}) \in \mathscr{L}(E)$ such that $x_{ij} = 0$ for $i 
 
 In particular, in $\mathbf{GL}(n, K)$, the total lower triangular subgroup and the lower strict triangular subgroup, defined as in Integration, Chapter VII, § 3, no. 3, are Lie subgroups with Lie algebras $t(n, K)$ and $n(n, K)$ (Chapter I, § 1, no. 2).
 
-#### Proposition 37 {#lie-iii-s3-prop-37 .statement}
+#### Proposition 37 {#lie-iii-s3-prop-37 .statement tag=0AAU}
 
 *Let A be a complete normable unital associative algebra and $x \mapsto x^t$ a continuous linear mapping of A into A such that $(x^t)^t = x$ and $(xy)^t = y^t x^t$ for all $x, y$ in A. Suppose that K is of characteristic $\neq 2$. Let G be the subgroup of $A^*$ consisting of the $x \in A$ such that $xx^t = x^t x = 1$. Then G is a Lie subgroup of $A^*$ and $\mathbf{L}(G)$ is the set of $y \in A$ such that $y^t = -y$.*
 
@@ -991,13 +991,13 @@ $$
 
 Thus, $T_1(f)(y) = y + y^t$, so that f is a submersion at 1. Therefore, there exists an open neighbourhood U of 1 in A such that $U \cap G$ is a submanifold of U. Hence (§ 1, no. 3, Proposition 6) G is a Lie subgroup of A*. Moreover, $L(G) = T_e(G) = \operatorname{Ker} T_1(f)$.
 
-#### Corollary 1 {#lie-iii-s3-prop-37-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s3-prop-37-cor-1 .statement tag=0AAV}
 
 *Suppose that K is of characteristic $\neq 2$. Let E be a finite-dimensional vector space over K and $\phi$ a non-degenerate symmetric (resp. alternating) bilinear form on E. For all $u \in \mathscr{L}(E)$, let $u^*$ be the adjoint of u relative to $\phi$. Let G be the orthogonal (resp. symplectic) group of $\phi$. Then G is a Lie subgroup of $\mathbf{GL}(E)$ and $L(G)$ is the set of $x \in \mathscr{L}(E)$ such that $x^* = -x$.
 
 We apply Proposition 37 with $A = \mathscr{L}(E)$ and $x^t = x^*$.*
 
-#### Remark {#lie-iii-s3-n10-rem-1 .statement}
+#### Remark {#lie-iii-s3-n10-rem-1 .statement tag=0AAW}
 
 Let B be a basis of E and J the matrix of $\phi$ with respect to B. Then $L(G)$ is the set of elements of $\mathscr{L}(E)$ whose matrix X with respect to B satisfies the equation
 
@@ -1007,13 +1007,13 @@ $$
 
 This follows from *Algebra*, Chapter IX, § 1, formula (50).
 
-#### Corollary 2 {#lie-iii-s3-prop-37-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s3-prop-37-cor-2 .statement tag=0AAX}
 
 *Let E be a complex (resp. real) Hilbert space and U the unitary group of E. Then U is a real subgroup of $\mathbf{GL}(E)$ and $L(U)$ is the set of $x \in \mathscr{L}(E)$ such that $x^* = -x$.
 
 We apply Proposition 37 with $A = \mathscr{L}(E)$ considered as an algebra over $\mathbf{R}$ and $x^t = x^*$.*
 
-#### Corollary 3 {#lie-iii-s3-prop-37-cor-3 .statement}
+#### Corollary 3 {#lie-iii-s3-prop-37-cor-3 .statement tag=0AAY}
 
 *Let E be a finite-dimensional complex vector space, $\phi$ a non-degenerate Hermitian sesquilinear form on E and U the unitary group of $\phi$. Then U is a real Lie subgroup of $\mathbf{GL}(E)$ and $L(U)$ is the set of $x \in \mathscr{L}(E)$ such that $ix$ is Hermitian.*
 
@@ -1023,7 +1023,7 @@ When $E \neq \{0\}$, U is *not* a Lie subgroup of the complex Lie group $\mathbf
 
 Let G be a Lie group, E a complete normable space and $\pi$ an analytic linear representation of G on E (§ 1, no. 2). The associated morphism $t \mapsto \langle t, \pi \rangle$ of $\mathscr{T}^{(\infty)}(G)$ into $\mathscr{L}(E)$ is an algebra morphism (no. 9, Proposition 33) and its restriction to $L(G)$ is $L(\pi)$. Hence $L(\pi)$ is a representation of $L(G)$ on $E$ (Chapter I, § 3, Definition 1).
 
-#### Proposition 38 {#lie-iii-s3-prop-38 .statement}
+#### Proposition 38 {#lie-iii-s3-prop-38 .statement tag=0AAZ}
 
 Consider $G$ as operating on $E$ on the left by the mapping $(g, x) \mapsto \pi(g)x$. Let $b \in E$ and $\varphi(b)$ be its orbital mapping. Let $T_b(E)$ be canonically identified with $E$. For all $t \in L(G)$,
 
@@ -1046,19 +1046,19 @@ $$
 
 Finally, $\varphi(b)*t = t * \varepsilon_b$ (no. 3, Proposition 14 (ii)).
 
-#### Proposition 39 {#lie-iii-s3-prop-39 .statement}
+#### Proposition 39 {#lie-iii-s3-prop-39 .statement tag=0AB0}
 
 Suppose that $K$ is of characteristic 0. Let $G$ be a Lie group, $E$ a finite-dimensional vector space and $\pi$ an analytic linear representation of $G$ on $E$. Let $E_1, E_2$ be vector subspaces of $E$ such that $E_2 \subset E_1$. The set $G_1$ of $g \in G$ such that $\pi(g)x \equiv x$ (mod. $E_2$) for all $x \in E_1$ is a Lie subgroup of $G$ and $L(G_1)$ is the set of $a \in L(G)$ such that $L(\pi)a$ maps $E_1$ into $E_2$.
 
 This follows from Propositions 29 (no. 8) and 36 (no. 10).
 
-#### Corollary 1 {#lie-iii-s3-prop-39-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s3-prop-39-cor-1 .statement tag=0AB1}
 
 In the notation of Proposition 39, the set of $g \in G$ such that $\pi(g)(E_1) \subset E_1$ is a Lie subgroup of $G$ and its Lie algebra is the set of $a \in L(G)$ such that $L(\pi)a$ maps $E_1$ into $E_1$.
 
 We apply Proposition 39 with $E_1 = E_2$.
 
-#### Corollary 2 {#lie-iii-s3-prop-39-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s3-prop-39-cor-2 .statement tag=0AB2}
 
 Let $G, E, \pi$ be as in Proposition 39. Let $F$ be a subset of $E$. The set of $g \in G$ such that $\pi(g)x = x$ for all $x \in F$ is a Lie subgroup of $G$ and its Lie algebra is the set of $a \in L(G)$ such that $(L(\pi)a)(x) = 0$ for all $x \in F$.
 
@@ -1066,7 +1066,7 @@ We apply Proposition 39 with $E_2 = \{0\}$ and $E_1$ the vector subspace of $E$ 
 
 Let $\pi_1, \pi_2, \ldots, \pi_n$ be analytic linear representations of $G$. Clearly the direct sum $\pi$ of the $\pi_i$ (Algebra, Chapter VIII, § 13, no. 1) is an analytic linear representation of $G$ and $L(\pi)$ is the direct sum of $L(\pi_1), L(\pi_2), \ldots, L(\pi_n)$ (Chapter I, § 3, no. 1).
 
-#### Proposition 40 {#lie-iii-s3-prop-40 .statement}
+#### Proposition 40 {#lie-iii-s3-prop-40 .statement tag=0AB3}
 
 Let $G$ be a Lie group, $E$ a complete normable space, $\pi$ an analytic linear representation of $G$ on $E$ and $F$ a closed vector subspace of $E$ stable under $\pi(G)$. Suppose that $K$ is of characteristic 0, or that $F$ is a direct factor of $E$.
 
@@ -1082,7 +1082,7 @@ T_e(\pi_1) = T_e(\theta_1 \circ \pi') = \theta_1 \circ T_e(\pi') = \varrho_1 \\
 T_e(\pi_2) = T_e(\theta_2 \circ \pi') = \theta_2 \circ T_e(\pi') = \varrho_2.
 $$
 
-#### Proposition 41 {#lie-iii-s3-prop-41 .statement}
+#### Proposition 41 {#lie-iii-s3-prop-41 .statement tag=0AB4}
 
 *Let* $G$ *be a Lie group and* $\pi_1, \pi_2, \ldots, \pi_n, \pi$ *analytic linear representation of* $G$ *on complete normable spaces* $E_1, E_2, \ldots, E_n, E$. *Let*
 $$
@@ -1108,7 +1108,7 @@ $$
 \end{align*}
 $$
 
-#### Corollary 1 {#lie-iii-s3-prop-41-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s3-prop-41-cor-1 .statement tag=0AB5}
 
 *Let* $G$ *be a Lie group,* $E_1, \ldots, E_{n+1}$ *complete normable spaces and* $\pi_1, \ldots, \pi_{n+1}$ *analytic linear representations of* $G$ *on* $E_1, \ldots, E_{n+1}$. *Let*
 $$
@@ -1154,7 +1154,7 @@ $$
 
 When the $E_i$ are finite-dimensional, the representation $L(\pi)$ of $L(G)$ is derived from the representations $L(\pi_1), \ldots, L(\pi_{n+1})$ under the procedure of Chapter I, § 3, Proposition 3.
 
-#### Corollary 2 {#lie-iii-s3-prop-41-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s3-prop-41-cor-2 .statement tag=0AB6}
 
 Let $G$ be a Lie group and $\pi$ an analytic linear representation of $G$ on a complete normable space $E$. Then $g \mapsto {}^t\pi(g)^{-1}$ is an analytic linear representation $\rho$ of $G$ on the complete normable space $\mathscr{L}(E, K)$\footnote{As when $K = \mathbf{R}$ or $\mathbf{C}$, the transpose ${}^t\pi(g)$ considered here is the restriction to $\mathscr{L}(E, K)$ of the transpose of $\pi(g)$ in the purely algebraic sense.} and $L(\rho)a = -{}^t(L(\pi)a)$ for all $a \in L(G)$.
 
@@ -1164,7 +1164,7 @@ $\rho$ is called the *contragredient* representation of $\pi$.
 
 When $E$ is finite-dimensional, $L(\rho)$ is the dual representation of $L(\pi)$ in the sense of Chapter I, § 3, no. 3.
 
-#### Corollary 3 {#lie-iii-s3-prop-41-cor-3 .statement}
+#### Corollary 3 {#lie-iii-s3-prop-41-cor-3 .statement tag=0AB7}
 
 Let $G$ be a Lie group and $\pi_1, \ldots, \pi_n$ analytic linear representations of $G$ on finite-dimensional vector spaces $E_1, \ldots, E_n$. Then the representation $\pi_1 \otimes \cdots \otimes \pi_n$ of $G$ (Appendix) is analytic and $L(\pi_1 \otimes \cdots \otimes \pi_n)$ is the tensor product of $L(\pi_1), \ldots, L(\pi_n)$.
 
@@ -1178,7 +1178,7 @@ $$
 $$
 for all $a \in L(G)$, $x_i \in E_i$ for $1 \leq i \leq n$. Hence $L(\pi)$ is the tensor product of the $L(\pi_i)$.
 
-#### Corollary 4 {#lie-iii-s3-prop-41-cor-4 .statement}
+#### Corollary 4 {#lie-iii-s3-prop-41-cor-4 .statement tag=0AB8}
 
 Let $G$ be a Lie group and $\pi$ an analytic linear representation of $G$ on a finite-dimensional vector space $E$. Then the representations $T^n(\pi)$, $S^n(\pi)$ and $\wedge^n(\pi)$ of $G$ (Appendix) are analytic and
 $$
@@ -1186,17 +1186,17 @@ L(T^n(\pi)) = T^n(L(\pi)), \quad L(S^n(\pi)) = S^n(L(\pi)), \quad L(\wedge^n(\pi
 $$
 This follows from Corollary 3 and Proposition 40.
 
-#### Corollary 5 {#lie-iii-s3-prop-41-cor-5 .statement}
+#### Corollary 5 {#lie-iii-s3-prop-41-cor-5 .statement tag=0AB9}
 
 Let $A$ be a finite-dimensional algebra. Suppose that $K$ is of characteristic 0. The automorphism group $\mathrm{Aut}(A)$ of $A$ is a Lie subgroup of $\mathbf{GL}(A)$ and $L(\mathrm{Aut}(A))$ is the Lie algebra of derivation of $A$.
 
 This follows from Corollary 1 (applied to $E = \mathscr{L}(A, A; A)$) and Corollary 2 of Proposition 39 (applied to the subset of $E$ consisting only of multiplication on $A$).
 
-#### Remark {#lie-iii-s3-n11-rem-1 .statement}
+#### Remark {#lie-iii-s3-n11-rem-1 .statement tag=0ABA}
 
 We apply Corollary 1 with $G = \mathbf{GL}(F)$ ($F$ a complete normable space), $\pi_1 = \pi_2 = \mathrm{Id}_G$ and $\pi_3$ the trivial representation of $G$ on $K$. We obtain an analytic representation $\pi$ of $\mathbf{GL}(F)$ on $\mathscr{L}(F, F; K)$. We assume that $F$ is finite-dimensional and that $K$ is of characteristic 0. Applying Corollary 2 to Proposition 39 to $\pi$, we recover part of Corollary 1 to Proposition 37.
 
-#### Proposition 42 {#lie-iii-s3-prop-42 .statement}
+#### Proposition 42 {#lie-iii-s3-prop-42 .statement tag=0ABB}
 
 Let $G$ be a Lie group, $X$ an analytic manifold, $(g, x) \mapsto gx$ (resp. $xg$) a law of analytic left (resp. right) operation of $G$ on $X$ and $x_0$ a point of $X$ which is invariant under $G$. For all $g \in G$, let $\tau(g)$ be the automorphism $x \mapsto gx$ (resp. $xg$) of $X$ and let $\pi(g)$ be the automorphism of $T_{x_0}(X)$ tangent at $x_0$ to $\tau(g)$.
 (i) $\pi$ is an analytic representation of $G$ (resp. $G^\vee$) on $T_{x_0}(X)$.
@@ -1254,7 +1254,7 @@ $$
 $$
 for all $t, t'$ in $\mathscr{T}^{(\infty)}(G)$; this follows from Proposition 15 of no. 3.
 
-#### Proposition 43 {#lie-iii-s3-prop-43 .statement}
+#### Proposition 43 {#lie-iii-s3-prop-43 .statement tag=0ABC}
 
 *Let $t, u$ be in $\mathscr{T}^{(\infty)}(G)$. Let $\sum_{i=1}^n t_i \otimes t'_i$ be the image of $t$ under the coproduct. Then*
 $$
@@ -1279,7 +1279,7 @@ $$
 \end{aligned}
 $$
 
-#### Corollary 1 {#lie-iii-s3-prop-43-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s3-prop-43-cor-1 .statement tag=0ABD}
 
 *Let $u \in \mathbf{L}(G)$ and $u' \in \mathscr{T}^{(\infty)}(G)$. Then $u \top u' = u * u' - u' * u$.*
 
@@ -1288,13 +1288,13 @@ $$
 u \top u' = u * u' * \varepsilon_e + \varepsilon_e * u' * u^\vee = u * u' - u' * u.
 $$
 
-#### Corollary 2 {#lie-iii-s3-prop-43-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s3-prop-43-cor-2 .statement tag=0ABE}
 
 *Let $t \in \mathscr{T}^{(\infty)}(G)$ and $g \in G$. Then $\varepsilon_g \top t = \varepsilon_g * t * \varepsilon_{g^{-1}}$. If $t \in \mathbf{L}(G)$, then $\varepsilon_g \top t = gtg^{-1}$ (where the latter product is evaluated in the group $\mathbf{T}(G)$).*
 
 The image of $\varepsilon_g$ under the coproduct is $\varepsilon_g \otimes \varepsilon_g$.
 
-#### Corollary 3 {#lie-iii-s3-prop-43-cor-3 .statement}
+#### Corollary 3 {#lie-iii-s3-prop-43-cor-3 .statement tag=0ABF}
 
 *Let $a \in \mathbf{L}(G)$. The vector field defined by $a$ and the left operation $g \mapsto \mathrm{Int}\, g$ of $G$ on $G$ is the field $\mathbf{R}_a - \mathbf{L}_a$.*
 
@@ -1312,11 +1312,11 @@ $$
 $$
 Since $\mathrm{Ad}\,g = T_e(\mathrm{Int}\,g)$, Proposition 42 of no. 11 proves that $\mathrm{Ad}$ is an analytic linear representation of $G$ on the normable space $L(G)$.
 
-#### Definition 8 {#lie-iii-s3-def-8 .statement}
+#### Definition 8 {#lie-iii-s3-def-8 .statement tag=0ABG}
 
 *The representation Ad of G on L(G) is called the adjoint representation of G.*
 
-#### Proposition 44 {#lie-iii-s3-prop-44 .statement}
+#### Proposition 44 {#lie-iii-s3-prop-44 .statement tag=0ABH}
 
 *For all $a \in L(G)$,*
 $$
@@ -1331,7 +1331,7 @@ $$
 (L(\mathrm{Ad}))(a).b = [L_a, L_b](e) = L_{[a, b]}(e) = [a, b] = (\mathrm{ad}_{L(G)}a)b.
 $$
 
-#### Proposition 45 {#lie-iii-s3-prop-45 .statement}
+#### Proposition 45 {#lie-iii-s3-prop-45 .statement tag=0ABI}
 
 *Suppose that G is finite-dimensional and that K is of characteristic 0. Let s be an integer $\geqslant 0$. Then the mapping $\pi : g \mapsto \mathrm{Ad}_{U_s(G)}(g)$ is an analytic linear representation of G on $U_s(G)$ and $L(\pi)a = \mathrm{ad}_{U_s(G)}a$ for all $a \in L(G)$.*
 
@@ -1344,7 +1344,7 @@ $$
 \end{align*}
 $$
 
-#### Proposition 46 {#lie-iii-s3-prop-46 .statement}
+#### Proposition 46 {#lie-iii-s3-prop-46 .statement tag=0ABJ}
 
 *Let $h \in G, x \in T_h(G)$ and $a \in L(G)$. Let $\phi$ be the mapping $(g, g') \mapsto gg'g^{-1}$ of $G \times G$ into $G$. The image y of $(a, x) \in T_e(G) \times T_h(G)$ under $T_{(e, h)}(\phi)$ is $y = x + h((\mathrm{Ad}\,h^{-1})a - a)$.
 We have*
@@ -1357,13 +1357,13 @@ y &= (T_{(e, h)}\phi)(a \otimes \varepsilon_h + \varepsilon_e \otimes x) \\
 \end{align*}
 $$
 
-#### Proposition 47 {#lie-iii-s3-prop-47 .statement}
+#### Proposition 47 {#lie-iii-s3-prop-47 .statement tag=0ABK}
 
 Let G be a Lie group, H and E Lie subgroups of G and suppose that hEh$^{-1}$ = E for all h \in H. Then $\mathscr{T}^{(\infty)}(H) \subset \mathscr{T}^{(\infty)}(E) \subset \mathscr{T}^{(\infty)}(E)$. In particular, $\mathrm{Ad}(H)(L(E)) \subset L(E)$ and $[L(H), L(E)] \subset L(E)$.
 
 If $t \in \mathscr{T}^{(\infty)}(H)$ and $t' \in \mathscr{T}^{(\infty)}(E)$, then $t \otimes t' \in \mathscr{T}^{(\infty)}(H \times E)$ and the image of $H \times E$ under the mapping $(g, g') \mapsto gg'g^{-1}$ is contained in E.
 
-#### Proposition 48 {#lie-iii-s3-prop-48 .statement}
+#### Proposition 48 {#lie-iii-s3-prop-48 .statement tag=0ABL}
 
 Let G be a Lie group and H and E Lie subgroups of G. Suppose that G is, as a Lie group, the semi-direct product of H by E. Let $\varphi$ be the linear representation $g \mapsto (\mathrm{Ad}\, g) \mid L(E)$ of the Lie group G on $L(E)$ (cf. Proposition 47) and let $\sigma$ be the restriction of $\varphi$ to H. Then:
 (i) $L(G)$ is the topological direct sum of $L(H)$ and $L(E)$;
@@ -1373,7 +1373,7 @@ Let G be a Lie group and H and E Lie subgroups of G. Suppose that G is, as a Lie
 
 (i) is obvious and (ii) follows from Proposition 47. $L(\sigma) = L(\varphi) \mid L(H)$. Now by Propositions 40 (no. 11) and 44 (no. 12), $L(\varphi)(t)$ is, for all $t \in L(G)$, the restriction of $\mathrm{ad}_{L(G)} t$ to $L(E)$. This proves (iii). Using (i) and (ii), this also proves (iv).
 
-#### Corollary {#lie-iii-s3-n12-cor-1 .statement}
+#### Corollary {#lie-iii-s3-n12-cor-1 .statement tag=0ABM}
 
 Let G be a Lie group. Let $T_e(G)$ be given its unique commutative Lie algebra structure. Let $\tau$ be an adjoint representation of $L(G)$. Then the Lie algebra of $T(G)$ is the semi-direct product of $L(G)$ by $T_e(G)$ defined by $\tau$. In other words, for $x, x'$ in $L(G)$ and $y, y'$ in $T_e(G)$,
 
@@ -1385,13 +1385,13 @@ $$
 
 This follows from Proposition 48 and Proposition 6 of § 2, no. 2.
 
-#### Proposition 49 {#lie-iii-s3-prop-49 .statement}
+#### Proposition 49 {#lie-iii-s3-prop-49 .statement tag=0ABN}
 
 Let A be a complete normable unital associative algebra. We identify A with $L(A^*)$. Then, if $g \in A^*$ and $y \in A$, $(\mathrm{Ad}\, g)y = gyg^{-1}$.
 
 Recall that $\mathrm{Ad}\, g = T_1(\mathrm{Int}\, g)$. Let $u_g$ be the mapping $x \mapsto gxg^{-1}$ of A into A. The identity chart of $A^*$ into A transforms $\mathrm{Int}\, g$ into $u_g \mid A^*$. The tangent mapping at each point of $A^*$ to this mapping is equal to $u_g$, whence the proposition.
 
-#### Corollary {#lie-iii-s3-n12-cor-2 .statement}
+#### Corollary {#lie-iii-s3-n12-cor-2 .statement tag=0ABO}
 
 For all $g \in A^*$, let $i(g)$ be the automorphism $y \mapsto gyg^{-1}$ of A, so that $i$ is an analytic linear representation of $A^*$ on A. For all $z \in L(A^*) = A, L(i)z$ is the inner derivation $y \mapsto zy - yz$ of A.
 
@@ -1419,7 +1419,7 @@ $$
 
 Then G is a left Lie homogeneous space of $G \times G$ (§ 1, no. 6, *Example*). Hence $\lambda(\mathrm{TG})$ is an analytic left vector $(G \times G)$-bundle. A section of $\lambda(\mathrm{TG})$ is called *biinvariant* if it is invariant under the action of $G \times G$ on $\lambda(\mathrm{TG})$, in other words if it is invariant under left and right translations. Let $\lambda(\mathrm{L}(G))_0$ be the set of elements of $\lambda(\mathrm{L}(G))$ invariant under $\lambda(\mathrm{Ad}(G))$. For all $u \in \lambda(\mathrm{L}(G))_0$, let $\sigma_u$ be the mapping of $G$ into $\lambda(\mathrm{TG})$ defined by $\sigma_u(g) = gu = ug$. Then $u \mapsto \sigma_u$ is a bijection of $\lambda(\mathrm{L}(G))_0$ onto the set of biinvariant sections of $\lambda(\mathrm{TG})$ (§ 1, no. 8, Corollary 1 to Proposition 17).
 
-#### Proposition 50 {#lie-iii-s3-prop-50 .statement}
+#### Proposition 50 {#lie-iii-s3-prop-50 .statement tag=0ABP}
 
 *Let G be a Lie Group (assumed to be finite-dimensional if K is of characteristic > 0). Let E be the vector space of continuous alternating multilinear forms of degree k on $\mathrm{T}_e(G)$. For all $u \in E$, let $\omega^u$ be the differential form of degree k on G such that $(\omega^u)_g$ is the multilinear form on $\mathrm{T}_g(G)$ derived from u by the translation $h \mapsto gh$ (resp. $h \mapsto hg$). Then $\omega^u$ is analytic and left (resp. right) invariant on G. The mapping $u \mapsto \omega^u$ is an isomorphism of E onto the vector space of left (resp. right) invariant differential forms of degree k on G.*
 
@@ -1460,7 +1460,7 @@ $$
 \alpha \wedge \alpha = 2[\alpha]^2.
 $$
 
-#### Proposition 51 {#lie-iii-s3-prop-51 .statement}
+#### Proposition 51 {#lie-iii-s3-prop-51 .statement tag=0ABQ}
 
 *Let $G$ be a Lie group, of finite dimension if $K$ is of characteristic $> 0$, and let $a_1, \ldots, a_p$ be elements of $L(G)$, $F$ a complete normable space and $\alpha$ a differential form of degree $p-1$ on $G$ with values in $F$. If $\alpha$ is left invariant, then*
 
@@ -1484,7 +1484,7 @@ L_{a_i} \alpha(L_{a_1}, \ldots, L_{a_{i-1}}, L_{a_{i+1}}, \ldots, L_{a_p}) = 0.
 $$
 Moreover, $[L_{a_i}, L_{a_j}] = L_{[a_i, a_j]}$ (Proposition 23), whence the first formula of Proposition 51. The second can be established analogously, this time using the relation $[R_{a_i}, R_{a_j}] = -R_{[a_i, a_j]}$.
 
-#### Corollary 1 {#lie-iii-s3-prop-51-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s3-prop-51-cor-1 .statement tag=0ABR}
 
 *Let G be a Lie group, of finite dimension if K is of characteristic > 0, and $\omega$ and $\omega'$ the left and right canonical differential forms of G. Then*
 $$
@@ -1497,7 +1497,7 @@ $$
 $$
 whence the first formula. The second can be established analogously.
 
-#### Corollary 2 {#lie-iii-s3-prop-51-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s3-prop-51-cor-2 .statement tag=0ABS}
 
 *Suppose that G is finite-dimensional. Let $(e_1, \ldots, e_n)$ be a basis of $L(G)$, $(e_1^*, \ldots, e_n^*)$ the dual basis, $(c_{ijk})$ the constants of structure of $L(G)$ relative to the basis $(e_1, \ldots, e_n)$ and $\omega_i$ (resp. $\omega'_i$) the left (resp. right) invariant differential form on G with values in K such that $(\omega_i)_e = e_i^*$ (resp. $(\omega'_i)_e = e_i^*$). Then*
 $$
@@ -1517,7 +1517,7 @@ The argument is similar for the $\omega'_k$.
 
 ### 15. CONSTRUCTION OF INVARIANT DIFFERENTIAL FORMS
 
-#### Lemma 2 {#lie-iii-s3-lem-2 .statement}
+#### Lemma 2 {#lie-iii-s3-lem-2 .statement tag=0ABT}
 
 Let G be a Lie group, U a symmetric open neighbourhood of e in G, E a complete normable space and $\phi : U^2 \to E$ an analytic mapping. For all $g \in U$, let $\omega_g$ be the differential at the point g of the mapping $h \mapsto \phi(g^{-1}h)$. Then $\omega$ is the restriction to U of the left invariant differential form on G whose value at e is $d_e \phi$.
 
@@ -1530,7 +1530,7 @@ $$
 
 and hence $\omega_g$ is derived from $d_e \phi$ by $T_e(\gamma(g))$.
 
-#### Proposition 52 {#lie-iii-s3-prop-52 .statement}
+#### Proposition 52 {#lie-iii-s3-prop-52 .statement tag=0ABU}
 
 Let n be an integer > 0, G an n-dimensional Lie group, U a symmetric open neighbourhood of e in G and $\psi : U^2 \to K^n$ a chart of G such that $\psi(e) = 0$. If $(x_1, \ldots, x_n)$ are the coordinates of $x \in \psi(U)$ and $(y_1, \ldots, y_n)$ the coordinates of $y \in \psi(U)$, we denote by
 
@@ -1549,7 +1549,7 @@ the differential forms $\varpi_k$ on $\psi(U)$ are derived through $\psi$ from l
 
 We apply Lemma 2 with $E = K$, taking $\phi(g)$ to be the coordinate of $\psi(g)$ of index k. We obtain a differential form $\omega_k$; let $\varpi_k$ be its transform under $\psi$. The value of $\varpi_k$ at $(x_1, \ldots, x_n)$ is the differential at $(x_1, \ldots, x_n)$ of the function $y \mapsto m_k(x_1, \ldots, x_n, y_1, \ldots, y_n)$; this value is therefore given by formula (32). It then suffices to use the conclusion to Lemma 2.
 
-#### Proposition 53 {#lie-iii-s3-prop-53 .statement}
+#### Proposition 53 {#lie-iii-s3-prop-53 .statement tag=0ABV}
 
 Let G be a Lie group, A a complete normable algebra and $\phi$ a Lie group morphism of G into $A^*$. For all $g \in G$, let $\omega_g = \phi(g)^{-1} d_g \phi$. Then $\omega$ is the left invariant differential form on G whose value at e is $d_e \phi$.
 
@@ -1559,7 +1559,7 @@ We apply Lemma 2 with $E = A$ and $U = G$. The differential at g of the mapping 
 
 Let G be a Lie group of finite dimension n. Then $\bigwedge^n(T_e(G))$ is of dimension 1. Hence (no. 13) the vector space S of left invariant differential forms of degree n on G is of dimension 1. Let $(\omega_1, \ldots, \omega_n)$ be a basis of the space of left invariant differential forms of degree 1 on G; then $\omega_1 \wedge \omega_2 \wedge \cdots \wedge \omega_n$ is a basis of S.
 
-#### Proposition 54 {#lie-iii-s3-prop-54 .statement}
+#### Proposition 54 {#lie-iii-s3-prop-54 .statement tag=0ABW}
 
 Let G be a Lie group of finite dimension n, ω a left invariant differential form of degree n on G and φ an endomorphism of G. Then
 
@@ -1581,7 +1581,7 @@ $$
 
 and hence $\gamma(g)^*\phi^*(\omega) = \phi^*(\omega)$. Thus $\phi^*(\omega)$ is left invariant, whence the proposition.
 
-#### Corollary {#lie-iii-s3-n16-cor-1 .statement}
+#### Corollary {#lie-iii-s3-n16-cor-1 .statement tag=0ABX}
 
 For all $g \in G$,
 
@@ -1595,7 +1595,7 @@ $$
 
 Let G be a locally compact group and φ an endomorphism of G. Suppose that there exist open neighbourhoods V, $V'$ of e such that $\phi(V) = V'$ and $\phi|V$ is a local isomorphism of G into G. Let μ be a left Haar measure on G. By Integration, Chapter VII, § 1, Corollary to Proposition 9, there exists a unique number $a > 0$ such that $\phi(\mu|V) = a^{-1}\mu|V'$. Clearly a is independent of the choice of V, $V'$ and μ. It is called the modulus of φ and is denoted by $\mathrm{mod}_G \phi$ or simply $\mathrm{mod}\, \phi$. When φ is an automorphism of G, we recover Definition 4 of Integration, Chapter VII, § 1.
 
-#### Proposition 55 {#lie-iii-s3-prop-55 .statement}
+#### Proposition 55 {#lie-iii-s3-prop-55 .statement tag=0ABY}
 
 Suppose that K is locally compact. Let μ be a Haar measure on the additive group of K. Let G be a Lie group of finite dimension n.
 
@@ -1617,7 +1617,7 @@ $$
 
 whence $\mathrm{mod}\, \phi = \mathrm{mod}\, \det L(\phi)$ by definition of $\mathrm{mod}\, \phi$.
 
-#### Corollary {#lie-iii-s3-n16-cor-2 .statement}
+#### Corollary {#lie-iii-s3-n16-cor-2 .statement tag=0ABZ}
 
 For all $g \in G$, $\Delta_G(g) = (\operatorname{mod} \det \operatorname{Ad} g)^{-1}$. In particular, for $G$ to be unimodular, it is necessary and sufficient that $\operatorname{mod} \det \operatorname{Ad} g = 1$ for all $g \in G$.
 
@@ -1627,7 +1627,7 @@ $$
 = (\operatorname{mod} \det \operatorname{Ad} g)^{-1}.
 $$
 
-#### Remark {#lie-iii-s3-n16-rem-1 .statement}
+#### Remark {#lie-iii-s3-n16-rem-1 .statement tag=0AC0}
 
 Preserving the hypotheses and notation of Proposition 52, suppose that $K$ is locally compact. Let $\mu$ be the measure
 $$
@@ -1635,7 +1635,7 @@ $$
 $$
 on $\psi(U)$. Then $\psi^{-1}(\mu)$ is the restriction to $U$ of a Haar measure on $G$.
 
-#### Proposition 56 {#lie-iii-s3-prop-56 .statement}
+#### Proposition 56 {#lie-iii-s3-prop-56 .statement tag=0AC1}
 
 Let $G$ be a Lie group of finite dimension $n$, $H$ a $p$-dimensional Lie subgroup and $X$ the Lie homogeneous space $G/H$. Suppose that
 $$
@@ -1654,7 +1654,7 @@ the hypothesis implies that $\det T_{x_0}(h) = 1$. Thus, every element of $\bigw
 
 The existence of a non-zero positive measure on $X$ invariant under $G$ follows from Integration, Chapter VII, § 2, Corollary 2 to Theorem 3, for the hypothesis of Proposition 56 implies $\Delta_G|H = \Delta_H$ (Corollary to Proposition 55).
 
-#### Proposition 57 {#lie-iii-s3-prop-57 .statement}
+#### Proposition 57 {#lie-iii-s3-prop-57 .statement tag=0AC2}
 
 Let $G$ be a Lie group of finite dimension $n$. Choose a basis for $\bigwedge^n T_e(G)^*$; by means of the right (resp. left) trivialization of $\bigwedge^n T(G)^*$, we can identify this vector bundle with the trivial vector bundle $G \times K$, so that the transpose of a scalar differential operator is identified with a scalar differential operator.
 
@@ -1676,7 +1676,7 @@ $$
 
 and hence the proposition is true for $u_1 * u_2$. It therefore suffices to prove the proposition when $u \in T_e(G)$. Now $L_u$ is defined by $G$ operating on $G$ on the right (no. 6) and hence $\theta_{L_u} \omega = 0$ since $\omega$ is right invariant (\emph{Differentiable and Analytic Manifolds}, R, 8.4.5); therefore, if $f$ is an analytic function in an open neighbourhood of $e$ with values in $K$, then $\theta_{L_u}(f \omega) = (\theta_{L_u} f) \omega$ (\emph{Differentiable and Analytic Manifolds}, R, 8.4.8). Using the identifications made and \emph{Differentiable and Analytic Manifolds}, R, 14.4.1, the transpose of $L_u$ is $-L_u$, that is $L_u^\nu$.
 
-#### Corollary {#lie-iii-s3-n16-cor-3 .statement}
+#### Corollary {#lie-iii-s3-n16-cor-3 .statement tag=0AC3}
 
 Let $G$ be a finite-dimensional real Lie group, $\mu$ (resp. $\nu$) a left (resp. right) Haar measure on $G$, $k$ an integer $\geqslant 0$, $u \in U_k(G)$ and $f$ and $g$ real-valued functions of class $C^k$ on $G$ with compact support. Then
 
@@ -1691,7 +1691,7 @@ This follows from Proposition 57 and \emph{Differentiable and Analytic Manifolds
 
 ### 17. LEFT DIFFERENTIAL
 
-#### Definition 9 {#lie-iii-s3-def-9 .statement}
+#### Definition 9 {#lie-iii-s3-def-9 .statement tag=0AC4}
 
 Let $G$ be a Lie group, $M$ a manifold of class $C^r$ and $f$ a mapping of class $C^r$ of $M$ into $G$. The left (resp. right) differential of $f$ is the differential form of degree 1 on $M$ with values in $L(G)$ which associates with every vector $u \in T_m(M)$ the element $f(m)^{-1} \cdot (T_m f)(u)$ (resp. $(T_m f)(u) \cdot f(m)^{-1}$).
 
@@ -1705,13 +1705,13 @@ $$
 
 and hence $f^{-1}.df = f^*(\omega)$. This implies that $f^{-1}.df$ is of class $C^{r-1}$.
 
-#### Example {#lie-iii-s3-n17-exa-1 .statement}
+#### Example {#lie-iii-s3-n17-exa-1 .statement tag=0AC5}
 
 (1) If $G$ is the additive group of a complete normable space and $T_0(E)$ is canonically identified with $E$, $f^{-1}.df$ is the differential $df$ defined in Differentiable and Analytic Manifolds, R, 8.2.2.
 
 (2) Suppose that $G$ is the multiplicative group $A^*$ associated with a complete normable algebra $A$. Then $f$ can be considered as a mapping of $M$ into $A$ and hence the differential $df$ in the sense of Differentiable and Analytic Manifolds, R, 8.2.2 is defined and the product $f^{-1}df$ in the sense of Differentiable and Analytic Manifolds, R, 8.3.2 is defined. Clearly the latter form is identical with the left differential of $f$.
 
-#### Proposition 58 {#lie-iii-s3-prop-58 .statement}
+#### Proposition 58 {#lie-iii-s3-prop-58 .statement tag=0AC6}
 
 Let $G$ and $H$ be two Lie groups, $M$ a manifold of class $C^r$, $f$ a mapping of class $C^r$ of $M$ into $G$ and $h$ a morphism of $G$ into $H$. Then
 
@@ -1743,7 +1743,7 @@ $$
 = (h^{-1}.dh)(T(f)u).
 $$
 
-#### Proposition 59 {#lie-iii-s3-prop-59 .statement}
+#### Proposition 59 {#lie-iii-s3-prop-59 .statement tag=0AC7}
 
 Let $G$ be a Lie group, $M$ a manifold of class $C^r$, $f$ and $g$ mappings of class $C^r$ of $M$ into $G$ and $p$ the canonical surjection of $TM$ onto $M$.
 
@@ -1757,7 +1757,7 @@ $$
 
 Assertion (i) follows from § 2, no. 2, Proposition 7. Assertion (ii) follows from (i) by putting $g = h$.
 
-#### Corollary 1 {#lie-iii-s3-prop-59-cor-1 .statement}
+#### Corollary 1 {#lie-iii-s3-prop-59-cor-1 .statement tag=0AC8}
 
 Let $s \in G$ and $sg$ be the mapping $x \mapsto sg(x)$ of $M$ into $G$. Then
 
@@ -1767,7 +1767,7 @@ $$
 
 This follows from Proposition 59 (i) taking $f$ to be the constant mapping $x \mapsto s$ of $M$ into $G$.
 
-#### Corollary 2 {#lie-iii-s3-prop-59-cor-2 .statement}
+#### Corollary 2 {#lie-iii-s3-prop-59-cor-2 .statement tag=0AC9}
 
 *If the mappings $f$ and $g$ of $M$ into $G$ have the same left differential, the tangent mapping to $fg^{-1}$ is everywhere zero. If further $K$ is of characteristic 0, then $fg^{-1}$ is locally constant.*
 
@@ -1779,7 +1779,7 @@ $$
 
 If $f^{-1}.df = g^{-1}.dg$, then $(fg^{-1})^{-1} \cdot d(fg^{-1}) = 0$, that is $T_x(fg^{-1}) = 0$ for all $x \in M$. This proves the first assertion. The second follows from it by *Differentiable and Analytic Manifolds*, R, 5.5.3.
 
-#### Proposition 60 {#lie-iii-s3-prop-60 .statement}
+#### Proposition 60 {#lie-iii-s3-prop-60 .statement tag=0ACA}
 
 *Let $G$ be a Lie group, of finite dimension if $K$ is of characteristic > 0, $M$ a manifold of class $C^r$, $f$ a mapping of class $C^r$ of $M$ into $G$ and $\alpha$ the left differential of $f$. Then $d\alpha + [\alpha]^2 = 0$.*
 

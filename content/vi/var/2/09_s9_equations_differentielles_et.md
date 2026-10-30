@@ -28,7 +28,7 @@ subsections:
       pdf_page: 124
 statements: 2
 exercises: 0
-content_sha256: 9a7b35caf5ca08886fd8fe47314703d5f1fe681ebc1f262bb9901c01b02dc9de
+content_sha256: 7916dd2d2f511f5bdabf625e5cac1bbd91f0f2177395770037d567efac6a9d91
 translated_from: content/en-mt/var/2/09_s9_equations_differentielles_et.md
 source_lang: en-mt
 translation_method: machine
@@ -191,7 +191,7 @@ b) Với mọi $x \in X$, tồn tại một đa tạp con $S_x$ của X có hai 
 
 Giả sử các điều kiện này được thỏa mãn và cho $R \{x, y\}$ là quan hệ trên X “x và y thuộc cùng một lá liên thông”; khi đó R là một quan hệ tương đương chính quy (5.9.5) trên X, và, nếu p ký hiệu phép chiếu chính tắc $X \to X/R$, ta có $Y = X_p$.
 
-#### Ví dụ {#var-2-s9-n2-exa-1 .statement}
+#### Ví dụ {#var-2-s9-n2-exa-1 .statement tag=0EEH}
 
 Cho $K = R$ và $X = R^2$. Cho nhóm rời rạc $\Gamma = Z^2$ tác động lên X bởi các phép tịnh tiến. Cho $m \in R$ và cho $(X, Y_m)$ là phép phân lá được xác định bởi hàm dưới ngập $p : (x_1, x_2) \mapsto x_2 - mx_1$ của X lên R. Đặt $X' = X/\Gamma$ và $Y'_m = Y_m/\Gamma$; khi đó $Y'_m$ là một phép phân lá của xuyến $X'$ (xem 9.2.4, ví dụ d)). Nếu m là hữu tỉ, tồn tại một hàm dưới ngập $p'$ của $X'$ lên $R/Z$ sao cho $Y'_m = X'_{p'}$. Nếu m là vô tỉ, mọi lá liên thông cực đại của $(X', Y'_m)$ đều trù mật trong $X'$, và không tồn tại một hàm dưới ngập $p'$ của $X'$ vào một đa tạp S sao cho $Y'_m = X'_{p'}$.
 
@@ -215,7 +215,7 @@ Cho $x \in X$. Nếu $Z_1$ và $Z_2$ là hai đa tạp con nguyên của X chứ
 
 9.3.2. Ta nói rằng F là khả tích nếu tồn tại một lá Y của X lớp $C^s$ sao cho $F = T(X, Y)$ (9.2.8). Khi đó lá như vậy là duy nhất; nó được gọi là lá nguyên của F. Để một cấu xạ $f : V \to X$ lớp $C^s$ là một tích phân của F, điều kiện cần và đủ là $f$ là một cấu xạ của V vào Y.
 
-#### Ví dụ {#var-2-s9-n3-exa-1 .statement}
+#### Ví dụ {#var-2-s9-n3-exa-1 .statement tag=0EEI}
 
 Nếu F có hạng 1 tại mọi điểm, thì F là khả tích, và xác định trên X một lá thuần nhất chiều 1. Giả sử thêm rằng $K = \mathbf{R}$, rằng X là tách được, và rằng F có một trường vectơ $\xi$ làm khung, khác không khắp nơi. Khi đó, với mọi $x \in X$, lá liên thông cực đại chứa $x$ là ảnh của cung nguyên cực đại của $\xi$ với gốc $x$ (9.1.3).
 

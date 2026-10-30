@@ -40,9 +40,9 @@ subsections:
       pdf_page: 141
 statements: 30
 exercises: 16
-content_sha256: ea70ed124b417de4972c341d61e3c461a6d8fc9f7cda275e59f18a38c267fea5
+content_sha256: 11cc601eff7d61510a9b075114ec19868235f3fb70e0e09b0a50ec6885bc39a8
 translated_from: content/en/evt/III/01_s1_bornology_in_a_topological_vector_space.md
-source_content_sha256: 960bc7c352d04bbbc5627738c519ef4cfd67e4967289aea5768d8be947557e73
+source_content_sha256: 4e7875bd1f38c0a02c517e1a85849c5df0ef1b2158b71d579dbe784bbc3c6f54
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-ef9d8679
 glossary_version: 34
@@ -54,7 +54,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các bornôlôgi
 
-#### Định nghĩa 1 {#evt-iii-s1-def-1 .statement}
+#### Định nghĩa 1 {#evt-iii-s1-def-1 .statement tag=07KW}
 
 — *Một bornôlôgi trên một tập hợp* $E$ *là một tập con* $\mathscr{B}$ *của tập hợp tất cả các tập con của* $E$ *thỏa mãn các điều kiện sau* (cf. GT, X, § 1.2, Nhận xét 2).
 (B1) *Mọi tập con của một tập hợp thuộc* $\mathscr{B}$ *đều thuộc* $\mathscr{B}$.
@@ -62,7 +62,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 *Ta nói rằng* $\mathscr{B}$ *là phủ nếu mọi phần tử của* $E$ *được chứa trong một tập hợp thuộc* $\mathscr{B}$, *hay, tương đương, nếu* $\mathscr{B}$ *là một phủ của* $E$.
 
-#### Ví dụ {#evt-iii-s1-n1-exa-1 .statement}
+#### Ví dụ {#evt-iii-s1-n1-exa-1 .statement tag=07KX}
 
 — Cho E là một không gian metric; tập hợp tất cả các tập con bị chặn của E (GT, IX, § 2, No. 2) là một bornôlôgi phủ trên E. Cho G là nhóm các đẳng cự của E; tập hợp tất cả các tập con M của G sao cho với mọi $x \in E$, tập hợp $M.x$ là một tập con bị chặn của E, là một bornôlôgi phủ trên G.
 
@@ -70,7 +70,7 @@ Nếu $\mathscr{B}$ là một bornôlôgi trên một tập hợp E, một tập
 
 Giao của một họ các bornôlôgi trên E là một bornôlôgi; do đó với mọi tập con $\mathfrak{S}$ của $\mathfrak{P}(E)$, tồn tại một bornôlôgi nhỏ nhất chứa $\mathfrak{S}$; bornôlôgi này được gọi là *sinh bởi* $\mathfrak{S}$ và nhận làm cơ sở tập hợp các hợp hữu hạn của các tập hợp thuộc $\mathfrak{S}$. Nếu E và E' là hai tập hợp, và $\mathscr{B}$ (resp. $\mathscr{B}'$) là một bornôlôgi trên E (resp. E'), bornôlôgi tích là bornôlôgi trên $E \times E'$ nhận các tập hợp $M \times M'$ làm cơ sở, trong đó $M \in \mathscr{B}$ và $M' \in \mathscr{B}'$.
 
-#### Định nghĩa 2 {#evt-iii-s1-def-2 .statement}
+#### Định nghĩa 2 {#evt-iii-s1-def-2 .statement tag=07KY}
 
 *Cho $E$ là một không gian vectơ. Một bornôlôgi $\mathscr{B}$ trên $E$ được gọi là lồi nếu với mọi $X \in \mathscr{B}$ và $t \in K$, tập hợp đồng dạng $tX$ và bao lồi cân bằng $\Gamma(X)$ (II, p. 10) của $X$ đều thuộc $\mathscr{B}$.*
 
@@ -86,7 +86,7 @@ Do đó, nếu $\mathscr{B}$ là một bornôlôgi lồi trên $E$, nếu $A$ l�
 
 ### 2. Các tập con bị chặn của một không gian vectơ tôpô
 
-#### Định nghĩa 3 {#evt-iii-s1-def-3 .statement}
+#### Định nghĩa 3 {#evt-iii-s1-def-3 .statement tag=07KZ}
 
 *Cho $E$ là một không gian vectơ tôpô. Một tập con $A$ của $E$ được gọi là bị chặn nếu nó bị hấp thụ bởi mọi lân cận của $0$ trong $E$ (I, p. 7, def. 4).*
 
@@ -96,7 +96,7 @@ Giả sử tôpô của $E$ được xác định bởi một hệ $\Gamma$ các
 
 Đặc biệt, nếu $E$ là một không gian nửa chuẩn, một tập con $A$ của $E$ bị chặn khi và chỉ khi nó được chứa trong một quả cầu. Nói cách khác, nếu $E$ là không gian chuẩn thì điều này có nghĩa là $A$ bị chặn đối với cấu trúc không gian mêtric của $E$ (GT, IX, § 2, No. 2).
 
-#### Nhận xét {#evt-iii-s1-n2-rem-1 .statement}
+#### Nhận xét {#evt-iii-s1-n2-rem-1 .statement tag=07L0}
 
 — 1) Nếu $E$ là một không gian nửa chuẩn, các quả cầu tạo thành một hệ lân cận cơ bản bị chặn của $0$ trong $E$. Đảo lại, nếu $E$ là một không gian vectơ tôpô lồi địa phương, và nếu tồn tại một lân cận bị chặn của $0$ trong $E$, thì lân cận này chứa một lân cận lồi cân bằng $W$, và hàm gauge của $W$ khi đó là một nửa chuẩn xác định tôpô của $E$.
 
@@ -108,11 +108,11 @@ Do đó, nếu $E$ là lồi địa phương và mêtric hóa được, và nế
 
 4) Cho $E$ là một không gian lồi địa phương Hausdorff; khi đó với mọi $x \neq 0$ trong $E$, tồn tại một nửa chuẩn liên tục $p$ sao cho $p(x) \neq 0$; nửa chuẩn này không bị chặn trên nửa đường thẳng thực $\mathbf{R}_+ . x$ sinh bởi $x$. Do đó không có không gian con khác không nào của $E$ là bị chặn. Đặc biệt, một tập con bị chặn không chứa đường thẳng nào.
 
-#### Định nghĩa 4 {#evt-iii-s1-def-4 .statement}
+#### Định nghĩa 4 {#evt-iii-s1-def-4 .statement tag=07L1}
 
 *Cho $E$ là một không gian lồi địa phương. Một bornology $\mathscr{B}$ trên $E$ được gọi là thích nghi với $E$, nếu nó lồi, gồm các tập con bị chặn của $E$ và nếu bao đóng của mọi tập hợp thuộc $\mathscr{B}$ cũng thuộc $\mathscr{B}$.*
 
-#### Mệnh đề 1 {#evt-iii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#evt-iii-s1-prop-1 .statement tag=07L2}
 
 *Cho $E$ là một không gian lồi địa phương. Tập hợp các tập con bị chặn của $E$ là một bornology thích nghi.*
 
@@ -123,7 +123,7 @@ c) Mọi tập hợp đồng dạng với một tập bị chặn đều bị ch
 d) Bao lồi cân bằng đóng (II, p. 13) của một tập con bị chặn là bị chặn.
 Nếu $p$ là một nửa chuẩn liên tục trên $E$, các quả cầu của $p$ là lồi, cân bằng, đóng và tập hợp đồng dạng với một quả cầu là một quả cầu. Do đó, nếu $p$ bị chặn trên hai tập con $X$ và $Y$ của $E$, thì nó cũng bị chặn trên bao lồi cân bằng đóng của $X \cup Y$, và trên các tập hợp đồng dạng với chúng. Điều này thiết lập các tính chất $b), c)$ và d), còn a) là hiển nhiên.
 
-#### Định nghĩa 5 {#evt-iii-s1-def-5 .statement}
+#### Định nghĩa 5 {#evt-iii-s1-def-5 .statement tag=07L3}
 
 *Cho $E$ là một không gian lồi địa phương. Tập hợp tất cả các tập con bị chặn của $E$ được gọi là bornology chính tắc của $E$.*
 
@@ -131,7 +131,7 @@ Nếu $\mathscr{B}$ là một tập hợp các tập con bị chặn của $E$, 
 
 Mọi bornology thích nghi đều được chứa trong bornology chính tắc.
 
-#### Mệnh đề 2 {#evt-iii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#evt-iii-s1-prop-2 .statement tag=07L4}
 
 *Trong một không gian lồi địa phương $E$, mọi tập tiền compact đều bị chặn.*
 Cho $A$ là một tập con tiền compact của $E$, và $V$ là một lân cận lồi cân bằng của $0$. Tồn tại một dãy hữu hạn $(a_i)_{1 \leq i \leq n}$ các điểm của $A$ sao cho
@@ -140,17 +140,17 @@ A \subset \bigcup_{1 \leq i \leq n} (a_i + V).
 $$
 Vì $B = \{a_1, ..., a_n\}$ bị chặn, tồn tại một vô hướng $\lambda$ sao cho $0 < \lambda < 1$ và $\lambda B \subset V$; ta có $\lambda A \subset \lambda B + \lambda V \subset V + V$, từ đó suy ra mệnh đề.
 
-#### Hệ quả {#evt-iii-s1-n2-cor-1 .statement}
+#### Hệ quả {#evt-iii-s1-n2-cor-1 .statement tag=07L5}
 
 *Trong một không gian lồi địa phương, tập hợp các điểm của một dãy Cauchy là bị chặn.*
 Thực vậy, tập hợp này là tiền compact (GT, II, § 4, No. 2).
 
-#### Nhận xét 5 {#evt-iii-s1-n2-rem-5 .statement}
+#### Nhận xét 5 {#evt-iii-s1-n2-rem-5 .statement tag=07L6}
 
 — Nói chung các tập con bị chặn của một không gian lồi địa phương $E$ không phải tất cả đều là tiền compact (ví dụ, nếu $E$ là một không gian định chuẩn vô hạn chiều, quả cầu đơn vị của nó không compact (I, p. 15, th. 3)). Tuy nhiên, điều này đúng nếu $E$ là một không gian yếu (II, p. 42) : vì không gian vectơ tôpô Hausdorff liên kết với E khi đó đẳng cấu với một không gian con của một tích K^l mà các tập con bị chặn của nó là tiền compact (*cf.* III, p. 4, cor. 2).
 Về các ví dụ khác, xem IV, p. 18.
 
-#### Mệnh đề 3 {#evt-iii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#evt-iii-s1-prop-3 .statement tag=07L7}
 
 — *Cho A là một tập con của một không gian lồi địa phương E. Giả sử rằng A bị chặn; khi đó với mọi dãy (x_n) các điểm của A và với mọi dãy (\lambda_n) các vô hướng tiến tới 0, dãy (\lambda_n x_n) tiến tới 0. Ngược lại, nếu tồn tại một dãy (\lambda_n) các vô hướng khác không sao cho với mọi dãy (x_n) các điểm của A, dãy (\lambda_n x_n) bị chặn, thì A bị chặn.*
 
@@ -158,45 +158,45 @@ Giả sử rằng A bị chặn. Nếu (\lambda_n) là một dãy các vô hư�
 
 Ngược lại, nếu A không bị chặn và nếu (\lambda_n) là một dãy các vô hướng \neq 0, thì tồn tại một nửa chuẩn liên tục p và một dãy (x_n) các điểm của A, sao cho $p(x_n) \geq \frac{n}{|\lambda_n|}$. Khi đó ta có $p(\lambda_n x_n) \geq n$, và dãy (\lambda_n x_n) không bị chặn.
 
-#### Hệ quả {#evt-iii-s1-n2-cor-2 .statement}
+#### Hệ quả {#evt-iii-s1-n2-cor-2 .statement tag=07L8}
 
 — *Một tập con A của E bị chặn khi và chỉ khi mọi tập con đếm được của A đều bị chặn.*
 
 ### 3. Ảnh qua một ánh xạ liên tục
 
-#### Mệnh đề 4 {#evt-iii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#evt-iii-s1-prop-4 .statement tag=07L9}
 
 — *Cho E và F là hai không gian lồi địa phương và f : E \to F là một ánh xạ liên tục. Giả sử rằng f(0) = 0 và tồn tại một số thực m \geq 0 sao cho f(\lambda x) = \lambda^m f(x) với mọi \lambda > 0. Khi đó, nếu A là một tập con bị chặn của E, f(A) bị chặn trong F.*
 
 Thật vậy, nếu V là một lân cận của 0 trong F, thì $f^{-1}(V)$ là một lân cận của 0 trong E. Nếu A bị chặn trong E, tồn tại \lambda > 0 sao cho A \subset \lambda f^{-1}(V) và điều này suy ra rằng $f(A) \subset \lambda^m V$.
 
-#### Hệ quả 1 {#evt-iii-s1-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#evt-iii-s1-prop-4-cor-1 .statement tag=07LA}
 
 — *Cho E và F là hai không gian lồi địa phương, và u : E \to F là một ánh xạ tuyến tính liên tục. Nếu A là một tập con bị chặn của E, thì u(A) bị chặn trong F.*
 
-#### Hệ quả 2 {#evt-iii-s1-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#evt-iii-s1-prop-4-cor-2 .statement tag=07LB}
 
 — *Cho E = \prod_{i \in I} E_i là tích của một họ các không gian lồi địa phương. Khi đó một tập con của E bị chặn khi và chỉ khi tất cả các phép chiếu của nó đều bị chặn.*
 
 Nói chung hơn :
 
-#### Hệ quả 3 {#evt-iii-s1-prop-4-cor-3 .statement}
+#### Hệ quả 3 {#evt-iii-s1-prop-4-cor-3 .statement tag=07LC}
 
 — *Cho E là một không gian vectơ, (F_i)_{i \in I} là một họ các không gian lồi địa phương và f_i là một ánh xạ tuyến tính từ E vào F_i (với i \in I). Giả sử E được trang bị tôpô thô nhất (lồi địa phương) sao cho mọi f_i đều liên tục (II, p. 26). Khi đó, để một tập con A của E bị chặn, điều kiện cần và đủ là f_i(A) bị chặn trong F_i với mọi i \in I.*
 
 Thật vậy, nếu A bị chặn, các f_i(A) cũng vậy (hệ quả 1). Ngược lại, nếu các f_i(A) bị chặn và nếu p là một nửa chuẩn liên tục trên E, thì tồn tại một tập con hữu hạn J của I và một họ $(q_j)_{j \in J}$, trong đó $q_j$ là một nửa chuẩn liên tục trên $F_j$, sao cho $p \leq \sup_{j \in J} (q_j \circ f_j)$ do đó p bị chặn trên A.
 
-#### Hệ quả 4 {#evt-iii-s1-prop-4-cor-4 .statement}
+#### Hệ quả 4 {#evt-iii-s1-prop-4-cor-4 .statement tag=07LD}
 
 *Cho $E_i$ ($1 \leq i \leq n$) và $F$ là các không gian lồi địa phương, và $f$ là một ánh xạ đa tuyến tính liên tục từ $\prod_{i=1}^n E_i$ vào $F$. Nếu $B_i$ là một tập con bị chặn của $E_i$, với $1 \leq i \leq n$, thì $f(\prod_{i=1}^n B_i)$ bị chặn trong $F$.*
 
-#### Hệ quả 5 {#evt-iii-s1-prop-4-cor-5 .statement}
+#### Hệ quả 5 {#evt-iii-s1-prop-4-cor-5 .statement tag=07LE}
 
 *Cho $E$ và $F$ là hai không gian lồi địa phương và $u : E \to F$ là một ánh xạ đa thức liên tục. Nếu $A$ là một tập con bị chặn của $E$, thì $u(A)$ bị chặn.*
 
 ### 4. Các tập con bị chặn trong một số giới hạn quy nạp
 
-#### Mệnh đề 5 {#evt-iii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#evt-iii-s1-prop-5 .statement tag=07LF}
 
 *Cho $(E_i)_{i \in I}$ là một họ các không gian lồi địa phương Hausdorff, và cho E là tổng trực tiếp tôpô của họ này (II, p. 29). Để một tập con $B$ của $E$ bị chặn, điều kiện cần và đủ là tồn tại một tập con hữu hạn $J$ của $I$ sao cho $\operatorname{pr}_i(B)$ bị chặn trong $E_i$ với $i \in J$ và $\operatorname{pr}_i(B) \subset \{0\}$ với mọi $i \notin J$.*
 
@@ -204,7 +204,7 @@ Cho $J$ là một tập con hữu hạn của $I$. Vì tôpô của $E$ cảm si
 
 Ngược lại, cho $B$ là một tập con bị chặn của $E$. Khi đó $\operatorname{pr}_i(B)$ bị chặn với mọi $i$ (III, p. 4, hệ quả 1). Do đó chỉ cần chứng minh rằng tồn tại một tập con hữu hạn $J$ của $I$ sao cho $\operatorname{pr}_i(B) \subset \{0\}$ với mọi $i \notin J$. Nếu không, thì tồn tại một dãy vô hạn $(i_n)$ gồm các phần tử phân biệt của $I$ và một dãy vô hạn $(x_n)$ gồm các phần tử của $B$ sao cho $\operatorname{pr}_{i_n}(x_n) \neq 0$. Vì $E_{i_n}$ là Hausdorff, tồn tại một nửa chuẩn liên tục $p_n$ trên $E_{i_n}$ sao cho $p_n(\operatorname{pr}_{i_n}(x_n)) \geq n$. Do đó $p = \sum_{n \geq 1} p_n \circ \operatorname{pr}_{i_n}$ là một nửa chuẩn liên tục trên $E$ và $p$ không bị chặn trên $B$, đây là một mâu thuẫn.*
 
-#### Mệnh đề 6 {#evt-iii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#evt-iii-s1-prop-6 .statement tag=07LG}
 
 *Một $E$ là một không gian lồi địa phương là giới hạn quy nạp ngặt của một dãy tăng $(E_n)$ các không gian con vectơ đóng của $E$ (II, p. 33). Một tập con $B$ của $E$ bị chặn khi và chỉ khi nó được chứa trong một trong các không gian con $E_n$, và bị chặn trong không gian con này.
 
@@ -212,7 +212,7 @@ Ngược lại, cho $B$ là một tập con bị chặn của $E$. Khi đó $\op
 
 Kết luận của mệnh đề 6 không nhất thiết đúng đối với một không gian $E$ là giới hạn quy nạp của một tập có hướng không đếm được gồm các không gian con đóng của $E$ (xem III, p. 38, bài tập 7).
 
-#### Mệnh đề 7 {#evt-iii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#evt-iii-s1-prop-7 .statement tag=07LH}
 
 — Cho $(E_n)_{n \geq 0}$ là một dãy các không gian lồi địa phương Hausdorff, và với mọi $n$, cho $u_n : E_n \to E_{n+1}$ là một ánh xạ tuyến tính đơn ánh và compact (nghĩa là tồn tại một lân cận của 0 trong $E_n$ mà ảnh của nó qua $u_n$ là tương đối compact; điều này suy ra rằng $u_n$ liên tục). Cho $E$ là giới hạn quy nạp của hệ $(E_n, u_n)$ (II, p. 29), và cho $v_n$ là ánh xạ chính tắc từ $E_n$ vào $E$. Khi đó không gian lồi địa phương $E$ là Hausdorff. Hơn nữa, với mọi tập con $A$ của $E$, các điều kiện sau là tương đương :
 (i) $A$ bị chặn;
@@ -220,7 +220,7 @@ Kết luận của mệnh đề 6 không nhất thiết đúng đối với mộ
 (iii) $A$ là tương đối compact.
 Ta đồng nhất $E_n$ với một không gian con vectơ của $E$ (được trang bị một tôpô mịn hơn tôpô cảm sinh).
 
-#### Bổ đề 1 {#evt-iii-s1-lem-1 .statement}
+#### Bổ đề 1 {#evt-iii-s1-lem-1 .statement tag=07LI}
 
 Dưới giả thiết của mệnh đề 7, tôpô của $E$ là tôpô mịn nhất mà đối với nó mọi ánh xạ $v_n : E_n \to E$ đều liên tục.
 
@@ -234,11 +234,11 @@ Tập hợp $U = E - \{0\}$ là sao cho tập hợp $U \cap E_n = E_n - \{0\}$ l
 
 Khi đó tập hợp của các $x_n / n$ là đóng theo bổ đề 1, vì giao của nó với $E_m$ là rời rạc với mọi số nguyên $m$. Phần bù của tập hợp các $x_n / n$ khi đó là một lân cận mở của 0 không hấp thụ dãy $(x_n)$, do đó $A$ không bị chặn.
 
-#### Nhận xét 1 {#evt-iii-s1-n4-rem-1 .statement}
+#### Nhận xét 1 {#evt-iii-s1-n4-rem-1 .statement tag=07LJ}
 
 Với các ký hiệu trên, cho $F_n$ là không gian vectơ sinh bởi $H_n$, với một chuẩn bằng gauge của $H_n$. Ta sẽ thấy (III, p. 8, cor.) rằng $F_n$ là một không gian Banach. Đơn ánh từ $F_n$ vào $E_{n+1}$ là compact, do đó *a fortiori* đơn ánh $w_n$ từ $F_n$ vào $F_{n+1}$ cũng vậy. Hơn nữa, $E$ là *giới hạn quy nạp của hệ quy nạp* $(F_n, w_n)$ *của các không gian Banach*. Thật vậy, một lân cận lồi cân bằng $V$ của 0 trong $E$ là sao cho $V \cap E_n$ hấp thụ $H_{n-1}$ với mọi $n \geq 1$, và ngược lại, nếu một tập lồi cân bằng $W$ trong $E$ là sao cho $W \cap E_n$ hấp thụ $H_{n-1}$, thì $W \cap E_{n-1}$ chứa một tập đồng dạng với $W_{n-1}$ với mọi $n \geq 1$, và do đó $W$ là một lân cận của 0 trong $E$.
 
-#### Nhận xét 2 {#evt-iii-s1-n4-rem-2 .statement}
+#### Nhận xét 2 {#evt-iii-s1-n4-rem-2 .statement tag=07LK}
 
 Cho $F$ là một không gian lồi địa phương, $k$ một số nguyên $\geq 0$ và $f : E^k \to F$ một ánh xạ đa tuyến tính. Để $f$ liên tục, điều kiện cần và đủ là hạn chế của $f$ trên $E_n^k$ liên tục với mọi $n$. Ta kiểm tra ngay lập tức rằng $E^k$ có tôpô lồi địa phương cuối đối với họ các ánh xạ tuyến tính $v_n \times \cdots \times v_n : E_n \times \cdots \times E_n \to E \times \cdots \times E$ (II, p. 28, cor. 2 and p. 30, prop. 7) và rằng $u_n \times \cdots \times u_n$ là một ánh xạ tuyến tính đơn ánh compact từ $(E_n)^k$ vào $(E_{n+1})^k$. Bây giờ chỉ cần áp dụng bổ đề 1.
 
@@ -248,27 +248,27 @@ Cho $E$ là một không gian lồi địa phương và $A$ là một tập con 
 
 Ta sẽ nói rằng một không gian đều $X$ là *nửa đầy đủ* nếu mọi dãy Cauchy trong $X$ đều hội tụ. Một không gian đều đầy đủ là nửa đầy đủ; nhưng điều đảo lại không phải lúc nào cũng đúng (GT, II, § 4, exerc. 4); tuy nhiên, một không gian nửa đầy đủ khả mêtric là đầy đủ (GT, IX, § 2, No. 6, prop. 9).
 
-#### Mệnh đề 8 {#evt-iii-s1-prop-8 .statement}
+#### Mệnh đề 8 {#evt-iii-s1-prop-8 .statement tag=07LL}
 
 *Cho $E$ là một không gian lồi địa phương Hausdorff và cho $A$ là một tập con đóng, cân bằng, bị chặn và lồi của $E$. Cho $(x_n)$ là một dãy Cauchy trong $E_A$. Khi đó dãy này hội tụ trong $E_A$ khi và chỉ khi nó hội tụ trong $E$.*
 
 Đơn ánh chính tắc từ $E_A$ vào $E$ là liên tục. Do đó, nếu $(x_n)$ hội tụ trong $E_A$, thì nó hội tụ trong $E$. Ngược lại, giả sử $(x_n)$ hội tụ về $y$ trong $E$. Tồn tại một dãy tăng các số nguyên $(n_k)$ sao cho $p_A(x_m - x_n) \leq 2^{-k-1}$ nếu $m \geq n_k$ và $n \geq n_k$. Do đó dãy $(x_{n_k} + 2^{-k}A)$ là giảm. Vì $A$ đóng trong $E$, ta có $y \in \bigcap_k (x_{n_k} + 2^{-k}A)$, điều này chứng minh rằng $(x_{n_k})$, do đó $(x_n)$, hội tụ về $y$ trong $E_A$.
 
-#### Hệ quả {#evt-iii-s1-n5-cor-1 .statement}
+#### Hệ quả {#evt-iii-s1-n5-cor-1 .statement tag=07LM}
 
 — *Nếu A là nửa đầy đủ (đặc biệt là đầy đủ) thì E_A là một không gian Banach.*
     Thật vậy, một dãy Cauchy trong E_A cũng là một dãy Cauchy đối với tôpô của E và được chứa trong một tập đồng dạng với A, do đó hội tụ trong E.
 
 ### 6. Các tập hợp bị chặn đầy đủ và các không gian gần đầy đủ
 
-#### Định nghĩa 6 {#evt-iii-s1-def-6 .statement}
+#### Định nghĩa 6 {#evt-iii-s1-def-6 .statement tag=07LN}
 
 — *Một không gian lồi địa phương E được gọi là gần đầy đủ nếu mọi tập con đóng và bị chặn của E đều đầy đủ (đối với cấu trúc đều cảm sinh bởi cấu trúc đều của E).*
     Một không gian lồi địa phương đầy đủ là gần đầy đủ, nhưng điều đảo lại không phải lúc nào cũng đúng. *Ví dụ, nếu E là một không gian Hilbert vô hạn chiều, hoặc tổng quát hơn, một không gian Banach phản xạ vô hạn chiều, thì E với tôpô yếu hơn của nó là gần đầy đủ nhưng không đầy đủ (II, p. 51, prop. 9).*
     Một không gian gần đầy đủ là nửa đầy đủ, vì mọi dãy Cauchy đều được chứa trong một tập đóng và bị chặn (III, p. 3, hệ quả và prop. 1). Đặc biệt, một không gian lồi địa phương khả mêtric và gần đầy đủ là đầy đủ.
     Trong một không gian gần đầy đủ Hausdorff, bao đóng và bao lồi cân bằng đóng của một tập con tiền compact là compact; thực ra, chúng là tiền compact (II, p. 25, prop. 3), và đầy đủ vì đóng và bị chặn (III, p. 3, prop. 2).
 
-#### Mệnh đề 9 {#evt-iii-s1-prop-9 .statement}
+#### Mệnh đề 9 {#evt-iii-s1-prop-9 .statement tag=07LO}
 
 — (i) *Một không gian con vectơ đóng của một không gian lồi địa phương gần đầy đủ là gần đầy đủ.*
     (ii) *Tích của các không gian lồi địa phương gần đầy đủ là gần đầy đủ.*
@@ -278,7 +278,7 @@ Ta sẽ nói rằng một không gian đều $X$ là *nửa đầy đủ* nếu 
 
     Ta sẽ thấy sau này rằng không gian thương của một không gian lồi địa phương gần đầy đủ theo một không gian vectơ đóng không nhất thiết là gần đầy đủ (IV, p. 63, exerc. 10).
 
-#### Mệnh đề 10 {#evt-iii-s1-prop-10 .statement}
+#### Mệnh đề 10 {#evt-iii-s1-prop-10 .statement tag=07LP}
 
 — *Cho E là một không gian lồi địa phương, M là một không gian con vectơ của E sao cho mọi điểm của E đều thuộc bao đóng của một tập con bị chặn của M. Khi đó mọi ánh xạ tuyến tính liên tục f từ M vào một không gian lồi địa phương Hausdorff gần đầy đủ F đều duy nhất mở rộng thành một ánh xạ tuyến tính liên tục từ E vào F.* Giả thiết suy ra rằng M trù mật trong E, do đó f duy nhất mở rộng thành một ánh xạ tuyến tính liên tục $\hat{f}$ từ E vào phần bù $\hat{F}$ của F (GT, III, § 3, No. 4, hệ quả). Nhưng mọi $x \in F$ đều thuộc bao đóng của một tập con bị chặn B của M; do đó $\hat{f}(x)$ thuộc bao đóng của $f(B)$ trong $\hat{F}$. Nhưng $f(B)$ bị chặn trong F, do đó bao đóng của nó trong F là đầy đủ, và trùng với bao đóng của nó trong $\hat{F}$. Điều này chứng minh rằng $\hat{f}(x) \in F$.
 

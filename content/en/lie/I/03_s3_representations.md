@@ -45,14 +45,14 @@ subsections:
       pdf_page: 54
 statements: 24
 exercises: 12
-content_sha256: e9e8544872aca4afd6e935784cea1e8509f6c074913cee91197e92a4cc8b55b8
+content_sha256: a021ec46ba121f306f571608589128b59fe9512dee7105b93f2d9f49b1ae24bd
 ---
 
 ## § 3. REPRESENTATIONS
 
 ### 1. REPRESENTATIONS
 
-#### Definition 1 {#lie-i-s3-def-1 .statement}
+#### Definition 1 {#lie-i-s3-def-1 .statement tag=09VS}
 
 *Let $g$ be a Lie algebra over $K$ and $M$ a $K$-module. A homomorphism of $g$ into the Lie Algebra $gl(M)$ is called a representation of $g$ on the module $M$. An injective representation is called faithful. If $K$ is a field, the dimension (finite or infinite) of $M$ over $K$ is called the dimension of the representation. The representation $x \mapsto \operatorname{ad} x$ of $g$ on the $K$-module $g$ is called the adjoint representation of $g$.*
 
@@ -64,13 +64,13 @@ $$
 
 for all $x \in g, y \in g, m \in M$.
 
-#### Example {#lie-i-s3-n1-exa-1 .statement}
+#### Example {#lie-i-s3-n1-exa-1 .statement tag=09VT}
 
 Let G be a real Lie group, g its Lie algebra and θ an analytic representation of G on a finite-dimensional real vector space E. Then the corresponding homomorphism of g into gl(E) is a representation of g on E.*
 
 Let U be the enveloping algebra of g. Proposition 1 of § 2, no. 1 defines a one-to-one correspondence between the set of representations of g on M and the set of representations of U on M. On the other hand we know (Algebra, Chapter VIII, § 13, no. 1) that there is an equivalence between the notion of representation of the associative algebra U and that of left U-module.
 
-#### Definition 2 {#lie-i-s3-def-2 .statement}
+#### Definition 2 {#lie-i-s3-def-2 .statement tag=09VU}
 
 *Let g be a Lie algebra over K and U its enveloping algebra. A unitary left module over U is called a left g-module, or simply a g-module.*
 
@@ -112,7 +112,7 @@ Henceforth let M be a $g$-module and suppose that the set of sub-$g$-modules of 
 
 Suppose that the $g$-module M admits a Jordan-Hölder series $(M_i)_{0 \leq i \leq n}$. For M to be pure of species N, it is necessary and sufficient that $M_0/M_1, M_1/M_2, \ldots, M_{n-1}/M_n$ be isomorphic to N; for the condition is obviously necessary and its sufficiency follows immediately by induction on $n$ from what we have seen above.
 
-#### Proposition 1 {#lie-i-s3-prop-1 .statement}
+#### Proposition 1 {#lie-i-s3-prop-1 .statement tag=09VV}
 
 *Let g be a Lie algebra over K and a an ideal of g. Let M be a g-module* and $N$ a simple $a$-module. Consider $M$ as an $a$-module and suppose that the set of sub-$a$-modules of $M$ which are pure of species $N$ admits a maximal element $M'$. Then $M'$ is a sub-$g$-module of $M$.
 
@@ -130,7 +130,7 @@ $$
 
 Hence $x_{M/M'} \cdot f(m) = f(x_M \cdot m)$. It follows that $f(M')$ is a sub-$a$-module of $M/M'$ isomorphic to a quotient of $M'$ and hence pure of species $N$; hence $f(M') = \{0\}$.
 
-#### Corollary {#lie-i-s3-n1-cor-1 .statement}
+#### Corollary {#lie-i-s3-n1-cor-1 .statement tag=09VW}
 
 *Let $g$ be a Lie algebra over $K$ and $a$ an ideal of $g$. Let $M$ be a simple $g$-module, of finite length as a $K$-module. There exists a simple $a$-module $N$ such that $M$ is a pure $a$-module of species $N$.*
 
@@ -159,7 +159,7 @@ $$
 
 By an analogous argument we see that:
 
-#### Proposition 2 {#lie-i-s3-prop-2 .statement}
+#### Proposition 2 {#lie-i-s3-prop-2 .statement tag=09VX}
 
 Let $g$ be a Lie algebra over $K$ and $M_i$ a $g$-module ($1 \leq i \leq n$). On the tensor product $M_1 \otimes_K M_2 \otimes \cdots \otimes M_n$, there exists one and only one $g$-module structure such that
 
@@ -208,7 +208,7 @@ $$
 
 Combining these results with Proposition 2, we see that:
 
-#### Proposition 3 {#lie-i-s3-prop-3 .statement}
+#### Proposition 3 {#lie-i-s3-prop-3 .statement tag=09VY}
 
 *Let $g$ be a Lie algebra over $K$ and $M_i$ a $g$-module ($1 \leq i \leq n + 1$). Let $N$ be the $K$-module $\mathscr{L}_K(M_1, \ldots, M_n; M_{n+1})$ of multilinear mappings of $\prod_{i=1}^n M_i$ into $M_{n+1}$. There exists one and only one $g$-module structure on $N$ such that*
 
@@ -235,7 +235,7 @@ $$
 
 When $K$ is a field and $M$ is finite-dimensional, the $g$-module $M$ is simple (resp. semi-simple) if and only if the $g$-module $M^*$ is simple (resp. semi-simple).
 
-#### Proposition 4 {#lie-i-s3-prop-4 .statement}
+#### Proposition 4 {#lie-i-s3-prop-4 .statement tag=09VZ}
 
 *Let $M_1, M_2$ be two $g$-modules. The canonical $K$-linear mappings* (Algebra, Chapter II, § 4, no. 2, Proposition 2 and no. 1, Proposition 1):
 
@@ -277,7 +277,7 @@ The $g$-modules $\mathscr{L}(M_1, M_2^*)$ and $(M_1 \otimes M_2)^*$ are identifi
 
 ### 4. EXAMPLES
 
-#### Example 1 {#lie-i-s3-n4-exa-1 .statement}
+#### Example 1 {#lie-i-s3-n4-exa-1 .statement tag=09W0}
 
 Let $g$ be a Lie algebra over $K$ and $M$ a $g$-module. The $g$-module structure on $M$ and the trivial $g$-module structure on $K$ define a $g$-module structure on the $K$-module $N = \mathscr{L}(M, M; K)$ of bilinear forms on $M$. Then
 
@@ -339,7 +339,7 @@ D = -tA \quad B = tB \quad C = tC.
 $$
 *When $K = \mathbf{R}$, the Lie algebra obtained is the Lie algebra of the symplectic group $\mathbf{Sp}(2m, \mathbf{R})$.*
 
-#### Example 2 {#lie-i-s3-n4-exa-2 .statement}
+#### Example 2 {#lie-i-s3-n4-exa-2 .statement tag=09W1}
 
 We preserve the notation of *Example 1*.
 
@@ -357,25 +357,25 @@ in $\mathscr{L}(\mathscr{L}(M, M)) = \mathscr{L}(\mathrm{gl}(M))$.
 
 ### 5. INVARIANT ELEMENTS
 
-#### Definition 3 {#lie-i-s3-def-3 .statement}
+#### Definition 3 {#lie-i-s3-def-3 .statement tag=09W2}
 
 *Let $g$ be a Lie algebra and $M$ a $g$-module. An element $m \in M$ is called invariant (with respect to the $g$-module structure on $M$ or with respect to the corresponding representation of $g$) if $x_M \cdot m = 0$ for all $x \in g$.*
 
 *Let $G$ be a connected real Lie group, $g$ its Lie algebra, $\theta$ an analytic representation of $G$ on a finite-dimensional real vector space $E$ and $\rho$ the corresponding representation of $g$ on $E$. Let $m \in E$. The element $m$ is invariant with respect to $\rho$ if and only if $\theta(g) \cdot m = m$ for all $g \in G$. This justifies the use of the word "invariant".*
 
-#### Example 1 {#lie-i-s3-n5-exa-1 .statement}
+#### Example 1 {#lie-i-s3-n5-exa-1 .statement tag=09W3}
 
 Let $M, N$ be two $g$-modules and $P = \mathscr{L}_K(M, N)$. For an element $f$ of $P$ to be invariant, it is necessary and sufficient, by (6), that $f$ be a homomorphism of the $g$-module $M$ into the $g$-module $N$. In particular, if $M = N$ and $x_M = x_N$ for all $x \in g$, $f$ is invariant if and only if $f$ is permutable with the $x_M$.
 
-#### Example 2 {#lie-i-s3-n5-exa-2 .statement}
+#### Example 2 {#lie-i-s3-n5-exa-2 .statement tag=09W4}
 
 Let M be a K-module with a finite basis. If M has a g-module structure, $\mathscr{L}(M, M)$ and $M^* \otimes M$ have g-module structures and the canonical mapping of $M^* \otimes M$ into $\mathscr{L}(M, M)$ is a g-module isomorphism (Proposition 4). As $1 \in \mathscr{L}(M, M)$ is obviously an invariant (cf. Example 1), the corresponding element $u$ of $M^* \otimes M$ is an invariant. If $(e_i)_{1 \leq i \leq n}$ is a basis of M and $(e_i^*)_{1 \leq i \leq n}$ is the dual basis, we have $u = \sum_{i=1}^n e_i^* \otimes e_i$.
 
-#### Example 3 {#lie-i-s3-n5-exa-3 .statement}
+#### Example 3 {#lie-i-s3-n5-exa-3 .statement tag=09W5}
 
 Let M be a g-module. Let $\beta$ be a bilinear form on M and f the corresponding element of $\mathscr{L}(M, M^*)$. For $\beta$ to be invariant, it is necessary and sufficient that f be a g-module homomorphism (Proposition 4 and Example 1). Suppose that K is a field and that $\dim_K M < +\infty$. A non-degenerate invariant bilinear form $\beta$ on M defines an isomorphism of the g-module M onto the g-module $M^*$ and hence an isomorphism of the g-module $M \otimes M$ onto the g-module $M^* \otimes M$. Thus, by Example 2, giving $\beta$ defines canonically an invariant element c in the g-module $M \otimes M$, which can be constructed as follows: let $(e_i)_{1 \leq i \leq n}$ be a basis of M and $(e'_i)_{1 \leq i \leq n}$ the basis of M such that $\beta(e_i, e'_j) = \delta_{ij}$; then $c = \sum_{i=1}^n e_i \otimes e'_i$.
 
-#### Proposition 5 {#lie-i-s3-prop-5 .statement}
+#### Proposition 5 {#lie-i-s3-prop-5 .statement tag=09W6}
 
 *Let g be a Lie K-algebra, h an ideal of g, $\rho$ a representation of g on M and $\rho'$ the restriction of $\rho$ to h. Then the set N of elements of M invariant with respect to $\rho'$ is stable under $\rho(g)$.*
 
@@ -385,7 +385,7 @@ $$
 $$
 hence $\rho(y)n \in N$.
 
-#### Proposition 6 {#lie-i-s3-prop-6 .statement}
+#### Proposition 6 {#lie-i-s3-prop-6 .statement tag=09W7}
 
 *Let M be a semi-simple g-module. Then the submodule $M_0$ of invariant elements of M admits one and only one supplement stable under the $x_M$, namely the submodule $M_1$ generated by the $x_M.m$ ($x \in g, m \in M$).
 
@@ -415,7 +415,7 @@ $$
 
 for all $x, y$ in $g$ and $D \in \mathfrak{d}$.
 
-#### Proposition 7 {#lie-i-s3-prop-7 .statement}
+#### Proposition 7 {#lie-i-s3-prop-7 .statement tag=09W8}
 
 *Let $g$ be a Lie algebra, $\beta$ an invariant symmetric bilinear form on $g$ and $a$ an ideal of $g$.*
 
@@ -427,11 +427,11 @@ Let $D$ be a derivation of $g$. Suppose that $a$ is stable under $D$ and that $\
 
 Now let $b$ be an ideal of $g$ and suppose that the restriction of $\beta$ to $b$ is zero. For $x, y$ in $b$ and $z \in g$, $\beta([x, y], z) = \beta(x, [y, z]) = 0$, for $[y, z] \in b$. Thus $[b, b]$ is orthogonal to $g$. If $\beta$ is non-degenerate, $b$ is therefore commutative. This result applied to $a \cap a'$ proves (c).
 
-#### Definition 4 {#lie-i-s3-def-4 .statement}
+#### Definition 4 {#lie-i-s3-def-4 .statement tag=09W9}
 
 *Let $g$ be a Lie $K$-algebra and $M$ a $g$-module. Suppose that $M$, considered as a $K$-module, admits a finite basis. The bilinear form associated with the $g$-module $M$ (or with the corresponding representation) is the symmetric bilinear form $(x, y) \mapsto \operatorname{Tr}(x_M y_M)$ on $g$. If the representation in question is the adjoint representation, the associated bilinear form is called the Killing form of $g$.*
 
-#### Proposition 8 {#lie-i-s3-prop-8 .statement}
+#### Proposition 8 {#lie-i-s3-prop-8 .statement tag=09WA}
 
 *Let $g$ be a Lie algebra and $M$ a $g$-module. Suppose that $M$, considered as a $K$-module, admits a finite basis. The bilinear form associated with $M$ is invariant.*
 
@@ -444,13 +444,13 @@ $$
 \end{align*}
 $$
 
-#### Proposition 9 {#lie-i-s3-prop-9 .statement}
+#### Proposition 9 {#lie-i-s3-prop-9 .statement tag=09WB}
 
 *Suppose that $K$ is a field and that the Lie algebra $g$ is finite-dimensional* over $K$. *Let $a$ be an ideal of $g$, $\beta$ the Killing form of $g$ and $\beta'$ the Killing form of $a$. Then $\beta'$ is the restriction of $\beta$ to $a$.
 
 Let $u$ be an endomorphism of the vector space $g$ which leaves $a$ stable. Let $v$ be the restriction of $u$ to $a$ and $w$ the endomorphism of the vector space $g/a$ derived from $u$ when passing to the quotient. Then $\operatorname{Tr} u = \operatorname{Tr} v + \operatorname{Tr} w$ as is seen by taking a basis $(x_1, \ldots, x_n)$ of $g$ of which the first $p$ elements form a basis of $a$. Then let $x \in a, y \in a$ and apply the above formula to the case where $u = (\operatorname{ad}_g x)(\operatorname{ad}_g y)$. Then $v = (\operatorname{ad}_a x)(\operatorname{ad}_a y)$ and $w = 0$. Hence $\beta(x, y) = \beta'(x, y)$.
 
-#### Proposition 10 {#lie-i-s3-prop-10 .statement}
+#### Proposition 10 {#lie-i-s3-prop-10 .statement tag=09WC}
 
 *Suppose that $K$ is a field and that the Lie algebra $g$ is finite-dimensional over $K$. The Killing form $\beta$ of $g$ is completely invariant.*
 
@@ -458,7 +458,7 @@ Let $D$ be a derivation of $g$. There exists a Lie algebra $g'$ containing $g$ a
 
 ### 7. CASIMIR ELEMENT
 
-#### Proposition 11 {#lie-i-s3-prop-11 .statement}
+#### Proposition 11 {#lie-i-s3-prop-11 .statement tag=09WD}
 
 *Let $g$ be a Lie algebra over a field $K$, $U$ its enveloping algebra, $h$ a finite-dimensional ideal of $g$ and $\beta$ an invariant bilinear form on $g$, whose restriction to $h$ is non-degenerate. Let $(e_i)_{1 \leq i \leq n}, (e'_j)_{1 \leq j \leq n}$ be two bases of $h$ such that $\beta(e_i, e'_j) = \delta_{ij}$. Then the element $c = \sum_{i=1}^n e_i e'_i$ of $U$ belongs to the centre of $U$ and is independent of the choice of basis $(e_i)$.
 
@@ -466,7 +466,7 @@ For $x \in g$ let $x_h$ be the restriction to $h$ of $\operatorname{ad}_g x$. Th
 
 When $\beta$ is the bilinear form associated with a $g$-module $M$, the element $c$ of Proposition 11 is called the *Casimir element* associated with $M$ (or with the corresponding representation). This element exists if the restriction of $\beta$ to $h$ is non-degenerate.
 
-#### Proposition 12 {#lie-i-s3-prop-12 .statement}
+#### Proposition 12 {#lie-i-s3-prop-12 .statement tag=09WE}
 
 *Let $g$ be a Lie algebra over a field $K$, $h$ an ideal of $g$ of finite dimension n and M a g-module of finite dimension over K. Let c be the Casimir element (assumed to exist) associated with M and h.
 
@@ -491,7 +491,7 @@ Let K, $K_1$, g, $\rho$, M be as in the last paragraph. Let b be a vector subspa
 
 Let $K, K_1$ and $\phi$ be as at the beginning of this no. Let $g$ be a Lie $K$-algebra and $M$ and $N$ $g$-modules. If $M$ and $N$ are isomorphic $g$-modules, $M_{(K_1)}$ and $N_{(K_1)}$ are isomorphic $g_{(K_1)}$-modules. Conversely:
 
-#### Proposition 13 {#lie-i-s3-prop-13 .statement}
+#### Proposition 13 {#lie-i-s3-prop-13 .statement tag=09WF}
 
 *Let $K$ be a field, $K_1$ an extension of $K$, $g$ a Lie $K$-algebra and $M, N$ two $g$-modules of finite dimension over $K$. If $M_{(K_1)}$ and $N_{(K_1)}$ are isomorphic $g_{(K_1)}$-modules, $M$ and $N$ are isomorphic $g$-modules.*
 

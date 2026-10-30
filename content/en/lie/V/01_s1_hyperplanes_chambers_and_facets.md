@@ -36,7 +36,7 @@ subsections:
       pdf_page: 81
 statements: 18
 exercises: 0
-content_sha256: 88296e8ecd750a7b7e406ceea50477e26e5c392b67a92cbaabd00a82b6dbf1e1
+content_sha256: f7be8f3f0168194f8856d763a03172c04c58eb904c3b4c4db2d065f58af6315e
 ---
 
 ## § 1. HYPERPLANES, CHAMBERS AND FACETS
@@ -59,7 +59,7 @@ If A consists of a single point a, we write $D_H(a)$ and $D_{\mathfrak{N}}(a)$ i
 
 The set of points of E that do not belong to any hyperplane H of the set $\mathscr{H}$ is open since $\mathscr{H}$ is locally finite. More precisely, we have the following result:
 
-#### Proposition 1 {#lie-v-s1-prop-1 .statement}
+#### Proposition 1 {#lie-v-s1-prop-1 .statement tag=0AP1}
 
 *Let a be a point of E. There exists a connected open neighbourhood of a that does not meet any hyperplane H that belongs to $\mathscr{H}$ and does not pass through a. Moreover, there exist only finitely many hyperplanes that belong to $\mathscr{H}$ and pass through a.*
 
@@ -71,11 +71,11 @@ Given two points x and y of E, denote by R\{x, y\} the relation
 
 Clearly, R is an equivalence relation on E.
 
-#### Definition 1 {#lie-v-s1-def-1 .statement}
+#### Definition 1 {#lie-v-s1-def-1 .statement tag=0AP2}
 
 *A facet of E relative to $\mathscr{H}$ is an equivalence class of the equivalence relation defined above.*
 
-#### Proposition 2 {#lie-v-s1-prop-2 .statement}
+#### Proposition 2 {#lie-v-s1-prop-2 .statement tag=0AP3}
 
 *The set of facets is locally finite.*
 
@@ -97,7 +97,7 @@ $$
 
 It is clear that the right-hand side contains the left-hand side. Conversely, let $x \in L \cap \bigcap_{H \in \mathscr{N}} \overline{D_H(a)}$. The open segment with extremities a and x is contained in L and in each of the $D_H(a)$ for $H \in \mathscr{N}$, and hence in F. It follows that x is in the closure of F, hence the formula.
 
-#### Proposition 3 {#lie-v-s1-prop-3 .statement}
+#### Proposition 3 {#lie-v-s1-prop-3 .statement tag=0AP4}
 
 *Let F be a facet and L its affine support.*
 
@@ -123,13 +123,13 @@ hence $F' \subset \overline{F}$. We cannot have $\mathfrak{N}' = \varnothing$, f
 
 Let H be in $\mathfrak{N}'$ and let D be the open half-space bounded by H and distinct from $D_H(a)$; we have $b \in H \cap L$, and it is immediate that $D \cap L$ is a half-space of L bounded by the hyperplane $H \cap L$ of L; consequently, every neighbourhood of b in L meets $D \cap L$, and since $D \cap L$ is disjoint from $\overline{F}$ by (3), we see that the point b of $\overline{F} - F$ cannot be in the interior of $\overline{F}$ in the topological space L. Since F is open in L, we have (iii). Q.E.D.
 
-#### Corollary {#lie-v-s1-n2-cor-1 .statement}
+#### Corollary {#lie-v-s1-n2-cor-1 .statement tag=0AP5}
 
 *Let F and F' be two facets. If $\overline{F} = \overline{F}'$, the facets F and F' are equal.*
 
 This follows from (iii).
 
-#### Proposition 4 {#lie-v-s1-prop-4 .statement}
+#### Proposition 4 {#lie-v-s1-prop-4 .statement tag=0AP6}
 
 *Let F be a facet, and let L be an affine subspace of E that is the intersection of hyperplanes belonging to $\mathfrak{H}$; denote by $\mathfrak{N}$ the set of hyperplanes $H \in \mathfrak{H}$ that do not contain L. The following conditions are equivalent:*
 
@@ -155,7 +155,7 @@ Q.E.D.
 
 ### 3. CHAMBERS
 
-#### Definition 2 {#lie-v-s1-def-2 .statement}
+#### Definition 2 {#lie-v-s1-def-2 .statement tag=0AP7}
 
 A chamber of $E$ relative to $\mathfrak{H}$ (or simply a chamber if there is no ambiguity regarding $\mathfrak{H}$) is a facet of $E$ relative to $\mathfrak{H}$ that is not contained in any hyperplane belonging to $\mathfrak{H}$.
 
@@ -167,7 +167,7 @@ $$
 
 since $D_H(A) = D_H(a)$ for all $a \in A$.
 
-#### Proposition 5 {#lie-v-s1-prop-5 .statement}
+#### Proposition 5 {#lie-v-s1-prop-5 .statement tag=0AP8}
 
 Let $C$ be a non-empty subset of $E$. Assume that there exists a subset $\mathfrak{H}'$ of $\mathfrak{H}$ with the following properties:
 
@@ -177,13 +177,13 @@ b) *The set C does not meet any hyperplane belonging to $\mathfrak{H} - \mathfra
 
 Properties a) and b) show that C is a convex subset of U; hence there is a chamber $C'$ with $C \subset C'$. Since $C \subset D_H$, we have $D_H = D_H(C)$ for all H in $\mathfrak{H}'$, hence $C = D_{\mathfrak{H}'}(C) \supset D_{\mathfrak{H}}(C)$ since $\mathfrak{H}' \subset \mathfrak{H}$; we have $D_{\mathfrak{H}}(C) = C'$ by (6), hence $C \supset C'$. Finally therefore, $C = C'$.
 
-#### Proposition 6 {#lie-v-s1-prop-6 .statement}
+#### Proposition 6 {#lie-v-s1-prop-6 .statement tag=0AP9}
 
 *Every point of E is in the closure of at least one chamber.*
 
 If E reduces to a single point, this is clear. Otherwise, let $a \in E$ and let $H_1, \ldots, H_m$ be the hyperplanes of $\mathfrak{H}$ containing $a$. Since $\mathfrak{H}$ is locally finite, there exists a neighbourhood V of $a$ that does not meet any hyperplane of $\mathfrak{H}$ other than $H_1, \ldots, H_m$. Let D be a straight line passing through $a$ and not contained in any of the $H_i$; if $x \in D, x \neq a$, and $x$ is sufficiently close to $a$, the open segment $]ax[$ is contained in V and does not meet any of the $H_i$. Then $]ax[ \subset U$; since $]ax[$ is connected, it is contained in a chamber C, hence $a \in \overline{C}$.
 
-#### Proposition 7 {#lie-v-s1-prop-7 .statement}
+#### Proposition 7 {#lie-v-s1-prop-7 .statement tag=0APA}
 
 *Let L be an affine subspace of E and $\Omega$ a non-empty open subset of L.*
 
@@ -203,19 +203,19 @@ b) $L \in \mathfrak{H}$: then $\mathfrak{N} = \mathfrak{H} - \{L\}$, hence (iii)
 
 ### 4. WALLS AND FACES
 
-#### Definition 3 {#lie-v-s1-def-3 .statement}
+#### Definition 3 {#lie-v-s1-def-3 .statement tag=0APB}
 
 *Let C be a chamber of E. A face of C is a facet contained in the closure of C whose support is a hyperplane. A wall of C is a hyperplane that is the support of a face of C.*
 
 Every wall of C belongs to $\mathfrak{H}$. Prop. 4 shows that a hyperplane $L \in \mathfrak{H}$ is a wall of C if and only if $C \neq D_{\mathfrak{H} - \{L\}}(C)$. Moreover, every wall of C is the support of a single face of C.
 
-#### Proposition 8 {#lie-v-s1-prop-8 .statement}
+#### Proposition 8 {#lie-v-s1-prop-8 .statement tag=0APC}
 
 *Every hyperplane* $H$ *belonging to* $\mathfrak{H}$ *is the wall of at least one chamber*.
 
 By Prop. 7, (iii), there exists a point $a$ of $H$ that does not belong to any hyperplane $H' \neq H$ of $\mathfrak{H}$; by Prop. 6, there exists a chamber $C$ such that $a \in \overline{C}$; Prop. 4 then shows that $H$ is a wall of $C$.
 
-#### Proposition 9 {#lie-v-s1-prop-9 .statement}
+#### Proposition 9 {#lie-v-s1-prop-9 .statement tag=0APD}
 
 *Let* $C$ *be a chamber and* $\mathscr{M}$ *the set of walls of* $C$. *Then* $C = D_{\mathscr{M}}(C)$ *and every subset* $\mathscr{L}$ *of* $\mathfrak{H}$ *such that* $C = D_{\mathscr{L}}(C)$ *contains* $\mathscr{M}$. *A subset* $F$ *of* $\overline{C}$ *is a facet if and only if it is a facet of* $E$ *relative to the family* $\mathscr{M}$.
 
@@ -227,11 +227,11 @@ c) Let $a$ be a point of $C$; clearly, $C \subset D_{\mathfrak{M}}(a)$. Let $a'$
 
 d) To prove the last assertion of the proposition, it clearly suffices to show that a subset $F$ of $\overline{C}$ that is a facet of $E$ relative to $\mathscr{M}$ is a facet of $E$ relative to $\mathfrak{H}$, or that every hyperplane $H \in \mathfrak{H}$ that meets $F$ contains $F$. So let $H$ be a hyperplane that meets $F$ but does not contain it. Since $F$ is open in its affine support, it is not completely on one side of $H$. It follows that $\overline{C}$ is not completely on one side of $H$ and hence that the hyperplane $H$ does not belong to $\mathfrak{H}$, which completes the proof.
 
-#### Remark 1 {#lie-v-s1-n4-rem-1 .statement}
+#### Remark 1 {#lie-v-s1-n4-rem-1 .statement tag=0APE}
 
 It follows from formula (6) and Prop. 9 that the closure of a chamber $C$ is the intersection of the closed half-spaces that are bounded by a wall of $C$ and contain $C$.
 
-#### Remark 2 {#lie-v-s1-n4-rem-2 .statement}
+#### Remark 2 {#lie-v-s1-n4-rem-2 .statement tag=0APF}
 
 Let $F$ be a facet whose support is a hyperplane $L$; we shall show that $F$ is a face of two chambers. Let $\mathfrak{N}$ be the set of hyperplanes $H \neq L$ belonging to $\mathfrak{H}$; put $A = D_{\mathfrak{N}}(F)$ and denote by $D^+$ and $D^-$ the two open half-spaces bounded by $L$. The set $A$ is open and contains $F \subset L$, and since every point of $L$ is in the closure of $D^+$ and $D^-$, the sets $C^+ = A \cap D^+$ and $C^- = A \cap D^-$ are non-empty; these are chambers. Moreover, the hyperplane $L$ meets $D_{\mathfrak{N}}(F) = D_{\mathfrak{N}}(C^+)$; Prop. 4 shows that $L$ is a wall of $C^+$ and that
 
@@ -245,13 +245,13 @@ $$
 
 Recall (Algebra, Chap. II, § 9, no. 3) that two affine subspaces P and $P'$ of E are said to be parallel if there exists a vector t in T such that $P' = t + P$. It is clear that the relation "P and $P'$ are parallel" is an equivalence relation on the set of affine subspaces of E.
 
-#### Lemma 1 {#lie-v-s1-lem-1 .statement}
+#### Lemma 1 {#lie-v-s1-lem-1 .statement tag=0APG}
 
 *Any two non-parallel hyperplanes have non-empty intersection.*
 
 Let H and $H'$ be two non-parallel hyperplanes, $a \in H$ and $a' \in H'$; there exist two hyperplanes M and $M'$ of the vector space T such that $H = M + a$ and $H' = M' + a'$; since H and $H'$ are not parallel, we have $M \neq M'$ and hence $T = M + M'$; hence there exist $u \in M$ and $u' \in M'$ such that $a' - a = u - u'$, and the point $u + a = u' + a'$ belongs to $H \cap H'$.
 
-#### Lemma 2 {#lie-v-s1-lem-2 .statement}
+#### Lemma 2 {#lie-v-s1-lem-2 .statement tag=0APH}
 
 *Let H and $H'$ be two distinct hyperplanes of E, and f, $f'$ two affine functions on E such that H (resp. $H'$) consists of the points a in E such that $f(a) = 0$ (resp. $f'(a) = 0$). Finally, let L be a hyperplane of E. Assume that one of the following hypotheses is satisfied:
 a) The hyperplanes H, $H'$ and L are parallel.
@@ -270,7 +270,7 @@ a) *Assume that H and $H'$ are parallel*: g and f both vanish at every point of 
 
 b) *Assume that H and $H'$ are not parallel*: by Lemma 1, there is a point c in $H \cap H'$; we give E the vector space structure obtained by taking c as the origin. Then $H \cap H'$ is a vector subspace of $E$ of codimension 2, and since $a \notin H$, the vector subspace $M$ of $E$ generated by $H \cap H'$ and $a$ is a hyperplane; since $H \cap H' \subset L \cap L_1$ and $a \in L \cap L_1$, we have $M \subset L \cap L_1$, hence $M = L = L_1$. Q.E.D.
 
-#### Proposition 10 {#lie-v-s1-prop-10 .statement}
+#### Proposition 10 {#lie-v-s1-prop-10 .statement tag=0API}
 
 *Let C be a chamber, let H and H' be two walls of C, and let L be a hyperplane meeting $D_H(C) \cap D_{H'}(C)$. Assume that H is distinct from H' and that one of the following conditions is satisfied:
 

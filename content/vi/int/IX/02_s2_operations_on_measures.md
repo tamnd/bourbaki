@@ -41,7 +41,7 @@ subsections:
       pdf_page: 219
 statements: 41
 exercises: 3
-content_sha256: 4c4a44625b481630acd1bcd12be2f2646e8b71b7dc791023a3c785ec07c8f764
+content_sha256: a85db88275083b9caa8736cbaa1672ca4959a41dd281eb05c8d8c9df07987bd3
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
 source_content_sha256: 5d3aed35c21d37dd0891ce27752ff8c2c681733ce8a642742891a5f7895e1d07
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
@@ -67,21 +67,21 @@ theo *Nhận xét 3* của §1, No. 2, do đó $\nu$ là một độ đo.
 
 Khi $X$ không $\mu$-đo được, các bao hàm $\nu^\bullet$ và $(\mu^\bullet)_X$ không nhất thiết bằng nhau và độ đo $\nu$ không có lợi ích gì.
 
-#### Định nghĩa 1 {#int-ix-s2-def-1 .statement}
+#### Định nghĩa 1 {#int-ix-s2-def-1 .statement tag=09OF}
 
 *Cho $X$ là một tập con $\mu$-đo được của $T$. Hạn chế của $\mu : K \mapsto \mu_K$ lên tập hợp các tập con compact của $X$ được gọi là độ đo cảm sinh bởi $\mu$ trên không gian con $X$, và được ký hiệu bởi $\mu_X$ hoặc $\mu|X$.*
 
-#### Mệnh đề 1 {#int-ix-s2-prop-1 .statement}
+#### Mệnh đề 1 {#int-ix-s2-prop-1 .statement tag=09OG}
 
 *Cho $X$ là một tập con $\mu$-đo được của $T$. Bao hàm $(\mu_X)^\bullet$ bằng với bao hàm $(\mu^\bullet)_X$ cảm sinh bởi $\mu^\bullet$ trên $X$ (§1, No. 1). Nói cách khác, $(\mu_X)^\bullet(g) = \mu^\bullet(g^0)$ với mọi hàm $g \in \mathscr{F}_+(X)$.*
 
 Cho $f \in \mathscr{F}_+(X)$ và gọi $f^0$ là mở rộng bằng 0 của $f$ lên $T$. Ta có $(\mu^\bullet)_X(f) = \mu^\bullet(f^0) = \sup_L \mu^\bullet(f^0 \varphi_L)$, trong đó $L$ chạy trên tập hợp các tập con compact của $T$ (§1, No. 2, Prop. 2); tương tự $(\mu_X)^\bullet(f) = \sup_K \mu_K^\bullet(f_K) = \sup_K \mu^\bullet(f^0 \varphi_K)$, trong đó $K$ chạy trên tập hợp các tập con compact của $X$. Do đó tất cả quy về việc chỉ ra rằng $\mu^\bullet(f^0 \varphi_L) = \sup_K \mu^\bullet(f^0 \varphi_K)$ đối với mọi tập con compact $L$ của $T$, trong đó $K$ chạy trên tập hợp các tập con compact của $L \cap X$. Bây giờ, cho $(K_n)$ là một dãy tăng các tập compact được chứa trong $L \cap X$, sao cho $(L \cap X) - \bigcup_n K_n$ là địa phương $\mu$-không đáng kể (§1, No. 8, Prop. 11); vì $f^0$ bằng không bên ngoài $X$, $f^0 \varphi_L$ bằng không bên ngoài $L \cap X$, do đó bằng địa phương hầu khắp nơi với bao trên của dãy $(f^0 \varphi_{K_n})$. Điều này suy ra rằng $\mu^\bullet(f^0 \varphi_L) = \sup_n \mu^\bullet(f^0 \varphi_{K_n})$, do đó có kết quả mong muốn.*
 
-#### Nhận xét 1 {#int-ix-s2-n1-rem-1 .statement}
+#### Nhận xét 1 {#int-ix-s2-n1-rem-1 .statement tag=09OH}
 
 Quan hệ $(\mu_X)^\bullet = (\mu^\bullet)_X$ cho phép sử dụng ký hiệu $\mu_X^\bullet$ mà không có sự nhập nhằng; từ nay về sau ta sẽ làm như vậy. Prop. 1 và Prop. 2 trước đó của §1, No. 2 chỉ ra rằng các độ đo được ký hiệu $\mu_K$ cho đến nay, với $K$ compact, thực sự là các độ đo cảm sinh theo nghĩa của Định nghĩa 1. Tương tự, nếu $T$ là compact địa phương, và nếu $X$ là một không gian con compact địa phương của $T$, Prop. 1 ở trên và Prop. 1 của Ch. V, §7, No. 1 chỉ ra rằng Định nghĩa 1 trùng với định nghĩa của Ch. IV, §5, No. 7.
 
-#### Nhận xét 2 {#int-ix-s2-n1-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s2-n1-rem-2 .statement tag=09OI}
 
 Định nghĩa 1 có thể được mở rộng đến trường hợp $\mu$ là một độ đo phức trên $T$. Để chỉ ra trong trường hợp này rằng tiền độ đo $\mu_X$ là một độ đo, chỉ cần nhận xét rằng $|\mu_K| = |\mu|_K$ đối với mọi tập con compact $K$ của $X$ (§1, No. 2).
 
@@ -91,7 +91,7 @@ Nhận xét 3). — Cho X là một tập con $\mu$-đo được của T. Theo M
 
 ### 2. Các độ đo được xác định bởi các mật độ số
 
-#### Định nghĩa 2 {#int-ix-s2-def-2 .statement}
+#### Định nghĩa 2 {#int-ix-s2-def-2 .statement tag=09OJ}
 
 *Một hàm f xác định trên T, có giá trị trong $\overline{\mathbf{R}}$ hoặc trong một không gian Banach, được gọi là khả tích $\mu$ địa phương nếu f là $\mu$-đo được và mọi điểm $x \in T$ đều có một lân cận V sao cho $\mu^\bullet(|f|\varphi_V) < +\infty$.*
 
@@ -99,7 +99,7 @@ Nhận xét 3). — Cho X là một tập con $\mu$-đo được của T. Theo M
 
 Cho $f$ là một hàm dương khả tích $\mu$ địa phương; ánh xạ $K \mapsto f_K \cdot \mu_K$ là một độ đo tiền (Ch. V, §7, No. 1, Hệ quả 2 của Định lý 1), sẽ được ký hiệu là $f \cdot \mu$.
 
-#### Mệnh đề 2 {#int-ix-s2-prop-2 .statement}
+#### Mệnh đề 2 {#int-ix-s2-prop-2 .statement tag=09OK}
 
 *Nếu f là một hàm dương khả tích $\mu$ địa phương, thì, với mọi hàm $g \in \mathscr{F}_+(T)$, ta có quan hệ*
 
@@ -117,19 +117,19 @@ bằng cách sử dụng định nghĩa của $f \cdot \mu$ và Mệnh đề 3 c
 
 Bây giờ cho $x \in T$ và cho V là một lân cận của x sao cho $\mu^\bullet(f \varphi_V) < +\infty$ (Định nghĩa 2); khi đó $(f \cdot \mu)^\bullet(V) = \mu^\bullet(f \varphi_V) < +\infty$, do đó $f \cdot \mu$ là một độ đo.
 
-#### Định nghĩa 3 {#int-ix-s2-def-3 .statement}
+#### Định nghĩa 3 {#int-ix-s2-def-3 .statement tag=09OL}
 
 *Cho f là một hàm dương khả tích $\mu$ địa phương. Độ đo $f \cdot \mu : K \mapsto f_K \cdot \mu_K$ được gọi là độ đo với mật độ f đối với* $\mu$, hoặc là độ đo tích của $\mu$ bởi hàm $f$. Mọi độ đo có dạng $f \cdot \mu$, trong đó $f$ là dương và khả tích $\mu$ địa phương, được gọi là một độ đo có cơ sở $\mu$.
 
-#### Nhận xét 1 {#int-ix-s2-n2-rem-1 .statement}
+#### Nhận xét 1 {#int-ix-s2-n2-rem-1 .statement tag=09OM}
 
 Định nghĩa của $f \cdot \mu$ mở rộng sang trường hợp f là một hàm phức khả tích địa phương; khi đó ta có $|f \cdot \mu| = |f| \cdot \mu$, điều này kéo theo ngay rằng $f \cdot \mu$ là một độ đo, không chỉ là một độ đo tiền. Ta giữ lại biểu thức 'các độ đo có cơ sở $\mu$' để chỉ các độ đo phức được định nghĩa như vậy.
 
-#### Nhận xét 2 {#int-ix-s2-n2-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s2-n2-rem-2 .statement tag=09ON}
 
 Tương tự, nếu $\theta$ là một độ đo phức, f được gọi là khả tích $\theta$ địa phương nếu nó khả tích $|\theta|$ địa phương, và người ta định nghĩa độ đo $f \cdot \theta : K \mapsto f_K \cdot \theta_K$. Ta có $|f \cdot \theta| = |f| \cdot |\theta|$ (Ch. V, §5, No. 2, Mệnh đề 2). Trong No. này, ta sẽ bỏ qua mọi điều liên quan đến các độ đo không dương.
 
-#### Mệnh đề 3 {#int-ix-s2-prop-3 .statement}
+#### Mệnh đề 3 {#int-ix-s2-prop-3 .statement tag=09OO}
 
 — Cho $\nu$ là một độ đo trên T. Để $\nu$ có dạng $f \cdot \mu$, trong đó $f$ là một hàm dương khả tích địa phương theo $\mu$, thì điều kiện cần và đủ là mọi tập compact không đáng kể theo $\mu$ đều không đáng kể theo $\nu$. Nếu $f'$ là một hàm khả tích địa phương theo $\mu$ thứ hai sao cho $\nu = f' \cdot \mu$, thì $f = f'$ hầu khắp nơi địa phương theo $\mu$.
 
@@ -151,27 +151,27 @@ Nhận xét 3). — Lý thuyết về tích phân đối với một độ đo $
 
 ### 3. Ảnh của một độ đo
 
-#### Định nghĩa 4 {#int-ix-s2-def-4 .statement}
+#### Định nghĩa 4 {#int-ix-s2-def-4 .statement tag=09OP}
 
 Cho $\pi$ là một ánh xạ từ T vào một không gian tôpô X. Ta nói rằng $\pi$ là $\mu$-thực sự nếu $\pi$ là $\mu$-đo được, và nếu mỗi điểm x của X thừa nhận một lân cận V sao cho $\mu^\bullet(\overline{\pi}(V)) < +\infty$.
 
-#### Nhận xét 1 {#int-ix-s2-n3-rem-1 .statement}
+#### Nhận xét 1 {#int-ix-s2-n3-rem-1 .statement tag=09OQ}
 
 Khi T và X là compact địa phương, định nghĩa này tương đương với định nghĩa trong Ch. V, §6, No. 1.
 
-#### Nhận xét 2 {#int-ix-s2-n3-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s2-n3-rem-2 .statement tag=09OR}
 
 Một ánh xạ liên tục thực sự (GT, I, §10, No. 1, Def. 1) từ T vào X là $\mu$-thực sự đối với mọi độ đo $\mu$. Thật vậy, cho $x \in X$; vì $\overline{\pi}(x)$ là compact (loc. cit., No. 2, Th. 1), tập $\overline{\pi}(x)$ có một lân cận mở H sao cho $\mu^\bullet(H) < +\infty$. Đặt $V = X - \pi(T - H)$; vì $\pi$ là đóng, V là mở trong X, chứa x, và thỏa mãn $\overline{\pi}(V) \subset H$, do đó $\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$.
 
-#### Nhận xét 3 {#int-ix-s2-n3-rem-3 .statement}
+#### Nhận xét 3 {#int-ix-s2-n3-rem-3 .statement tag=09OS}
 
 Nếu $\mu$ bị chặn, mọi ánh xạ $\mu$-đo được từ T vào X là $\mu$-thực sự.
 
-#### Nhận xét 4 {#int-ix-s2-n3-rem-4 .statement}
+#### Nhận xét 4 {#int-ix-s2-n3-rem-4 .statement tag=09OT}
 
 Nếu $\theta$ là một độ đo phức trên T, $\pi$ được gọi là $\theta$-thực sự nếu $\pi$ là thực sự đối với độ đo dương $|\theta|$.
 
-#### Mệnh đề 4 {#int-ix-s2-prop-4 .statement}
+#### Mệnh đề 4 {#int-ix-s2-prop-4 .statement tag=09OU}
 
 Cho $\pi$ là một ánh xạ $\mu$-thực sự từ T vào một không gian tôpô X. Tồn tại một và chỉ một độ đo $\nu$ trên X sao cho $\nu^\bullet$ bằng ảnh của $\pi(\mu^\bullet)$ (§1, No. 1), nói cách khác, sao cho $\nu^\bullet(g) = \mu^\bullet(g \circ \pi)$ với mọi $g \in \mathscr{F}_+(X)$.
 
@@ -191,11 +191,11 @@ $$
 
 Độ đo $\pi(\mu^\bullet)$ bị chặn địa phương, vì $\pi$ là $\mu$-thực sự; do đó họ $(\nu_\alpha)_{\alpha \in A}$ là khả tổng (§1, No. 7, Mệnh đề 7), và tổng của nó $\nu$ thỏa mãn mệnh đề.
 
-#### Định nghĩa 5 {#int-ix-s2-def-5 .statement}
+#### Định nghĩa 5 {#int-ix-s2-def-5 .statement tag=09OV}
 
 *Nếu $\pi$ là một ánh xạ $\mu$-thực sự từ T vào một không gian tôpô X, thì độ đo duy nhất $\nu$ trên X sao cho $\nu^\bullet(g) = \mu^\bullet(g \circ \pi)$ với mọi $g \in \mathscr{F}_+(X)$ được gọi là độ đo ảnh của $\mu$ qua $\pi$, và được ký hiệu là $\pi(\mu)$.*
 
-#### Ví dụ {#int-ix-s2-n3-exa-1 .statement}
+#### Ví dụ {#int-ix-s2-n3-exa-1 .statement tag=09OW}
 
 — Cho K là một không gian con compact của T, i là đơn ánh chính tắc của K vào T, và $\lambda$ là một độ đo trên K; vì i là liên tục và $\lambda$ bị chặn, i là $\lambda$-thực sự. Công thức (3) của §1, No. 3 chỉ ra rằng "độ đo trên T được xác định bởi $\lambda$" là độ đo ảnh $i(\lambda)$.
 
@@ -205,19 +205,19 @@ $$
 \pi(\theta) = \pi(\Re(\theta)) + i \pi(\Im(\theta)).
 $$
 
-#### Mệnh đề 5 {#int-ix-s2-prop-5 .statement}
+#### Mệnh đề 5 {#int-ix-s2-prop-5 .statement tag=09OX}
 
 *Cho $\pi$ là một ánh xạ $\mu$-thực sự của T vào một không gian tôpô X, và cho f là một ánh xạ của X vào một không gian tôpô F (Hausdorff hoặc không). Để f là $\pi(\mu)$-đo được, điều kiện cần và đủ là $f \circ \pi$ là $\mu$-đo được.*
 
 Ta xét lại chứng minh của Mệnh đề 4, và bắt đầu với trường hợp đặc biệt được xét ở đầu, với cùng các ký hiệu; g là đo được đối với độ đo $\pi(\mu) = \nu$ khi và chỉ khi $g_L$ là $\nu'$-đo được (§1, No. 5, *Ví dụ*); khi đó, điều này tương đương với việc nói rằng $g_L \circ \pi' = (g \circ \pi)_K$ là $\mu_K$-đo được (Ch. V, §6, No. 2, Mệnh đề 3), và cuối cùng là $g \circ \pi$ là $\mu$-đo được (§1, No. 5, *Ví dụ*). Bây giờ ta chuyển sang trường hợp tổng quát, với cùng các ký hiệu như trong chứng minh của Mệnh đề 4; f là $\nu$-đo được khi và chỉ khi f là $\nu_\alpha$-đo được với mọi $\alpha \in A$ (§1, No. 7, Mệnh đề 8), do đó khi và chỉ khi $f \circ \pi$ là $\mu_\alpha$-đo được với mọi $\alpha \in A$ (trường hợp đặc biệt vừa xét) và cuối cùng khi và chỉ khi $f \circ \pi$ là $\mu$-đo được ($§ 1$, No. 7, Mệnh đề 8).
 
-#### Hệ quả {#int-ix-s2-n3-cor-1 .statement}
+#### Hệ quả {#int-ix-s2-n3-cor-1 .statement tag=09OY}
 
 — *Cho X và Y là hai không gian tôpô, $\pi$ là một ánh xạ $\mu$-thực sự của T vào X, và $\pi'$ là một ánh xạ $\pi(\mu)$-thực sự của X vào Y. Ánh xạ $\pi'' = \pi' \circ \pi$ khi đó là $\mu$-thực sự, và $\pi''(\mu) = \pi'(\pi(\mu))$ ('tính bắc cầu của các ảnh của độ đo').*
 
 Vì, $\pi''$ là $\mu$-đo được (Mệnh đề 5). Đặt $\mu' = \pi(\mu)$; bao hàm ảnh $\pi'({\mu'}^\bullet) = \pi'(\pi(\mu^\bullet))$ hiển nhiên bằng $\pi''(\mu^\bullet)$. Vì nó bị chặn địa phương, $\pi''$ là $\mu$-thực sự. Khi đó các độ đo $\pi''(\mu)$ và $\pi'(\mu')$ có cùng tích phân trên cốt yếu, do đó bằng nhau.
 
-#### Mệnh đề 6 {#int-ix-s2-prop-6 .statement}
+#### Mệnh đề 6 {#int-ix-s2-prop-6 .statement tag=09OZ}
 
 — *Cho $\pi$ là một ánh xạ $\mu$-thực sự của T vào một không gian tôpô X, và cho B là một tập con $\pi(\mu)$-đo được của X. Đặt $A = \overline{\pi^{-1}(B)}$, và ký hiệu $\pi'$ là ánh xạ của A vào B trùng với $\pi$ trên A. Khi đó tập hợp A là $\mu$-đo được, $\pi_A$ và $\pi'$ là $\mu_A$-thực sự, và*
 
@@ -233,7 +233,7 @@ $$
 
 do đó $(\pi(\mu)_B)^\bullet = \pi'(\mu_A^\bullet)$. Vì bao hàm $(\pi(\mu)_B)^\bullet$ bị chặn địa phương, điều tương tự đúng với $\pi'(\mu_A^\bullet)$ và do đó $\pi'$ là $\mu_A$-thực sự. Các độ đo $\pi'(\mu_A)$ và $(\pi(\mu))_B$ có cùng tích phân trên cốt yếu, do đó bằng nhau. Quan hệ kia có thể được thiết lập theo một cách tương tự.
 
-#### Mệnh đề 7 {#int-ix-s2-prop-7 .statement}
+#### Mệnh đề 7 {#int-ix-s2-prop-7 .statement tag=09P0}
 
 — *Cho T là một không gian con của một không gian tôpô X, và cho i là đơn ánh của T vào X.
 
@@ -249,7 +249,7 @@ b) Cho $f$ là một hàm dương xác định trên X; đặt $\mu = \lambda_T$
 
 ### 4. Nâng độ đo
 
-#### Mệnh đề 8 {#int-ix-s2-prop-8 .statement}
+#### Mệnh đề 8 {#int-ix-s2-prop-8 .statement tag=09P1}
 
 *Cho $T$ và $X$ là hai không gian tôpô, $\pi$ là một ánh xạ từ $T$ vào $X$.
 
@@ -265,7 +265,7 @@ $$
 
 Để chứng minh rằng điều kiện là đủ, trước hết ta xét một trường hợp đặc biệt.
 
-#### Bổ đề 1 {#int-ix-s2-lem-1 .statement}
+#### Bổ đề 1 {#int-ix-s2-lem-1 .statement tag=09P2}
 
 Cho U và V là hai không gian compact, h là một ánh xạ liên tục từ U lên V. Khi đó ánh xạ $\lambda \mapsto h(\lambda)$ từ $\mathscr{M}_+(U)$ vào $\mathscr{M}_+(V)$ là toàn ánh.
 
@@ -292,13 +292,13 @@ $$
 
 Hai độ đo $\mu$ và $\mu'$ do đó có cùng tích phân trên cốt yếu, điều này kéo theo chúng bằng nhau (§ 1, No. 2, Hệ quả của Mệnh đề 2).
 
-#### Nhận xét {#int-ix-s2-n4-rem-1 .statement}
+#### Nhận xét {#int-ix-s2-n4-rem-1 .statement tag=09P3}
 
 Giả sử rằng $\pi$ là đơn ánh. Gọi $\theta$ là một độ đo phức sao cho $\pi$ là $\theta$-thực sự và $\pi(\theta) = 0$; khi đó $\theta = 0$. Thật vậy, bằng cách tách $\theta$ thành các phần thực và ảo của nó, ta có thể rút gọn về trường hợp $\theta$ là thực. Khi đó ta có $\pi(\theta^+) = \pi(\theta^-)$, do đó $\theta^+ = \theta^-$ (Mệnh đề 8), và cuối cùng $\theta = 0$.
 
 Sau đây là một trường hợp quan trọng trong đó điều kiện a) của Mệnh đề 8 luôn được thỏa mãn.
 
-#### Mệnh đề 9 {#int-ix-s2-prop-9 .statement}
+#### Mệnh đề 9 {#int-ix-s2-prop-9 .statement tag=09P4}
 
 — *Cho T là một không gian Souslin* (GT, IX, §6, No. 2, Định nghĩa 2), *X là một không gian Hausdorff*, $\pi$ *là một ánh xạ liên tục từ T lên X*, và $\nu$ *là một độ đo bị chặn trên X*. *Khi đó tồn tại một độ đo bị chặn $\mu$ trên T sao cho $\pi(\mu) = \nu$*.
 
@@ -325,7 +325,7 @@ $$
 = ((\lambda_C \otimes \mu_D)_{A \times B})_K = (\lambda_A \otimes \mu_B)_K = \nu_K .
 $$
 
-#### Định nghĩa 6 {#int-ix-s2-def-6 .statement}
+#### Định nghĩa 6 {#int-ix-s2-def-6 .statement tag=09P5}
 
 *$\nu$ tiền độ đo được định nghĩa bởi (3) được gọi là tiền độ đo tích của $\lambda$ và $\mu$, và được ký hiệu là $\lambda \otimes \mu$.*
 
@@ -333,7 +333,7 @@ $$
 
 Ta giữ lại các ký hiệu của Ch. III, §4 và Ch. V, §8 liên quan đến các tích của độ đo và các tích phân lặp. Đặc biệt, nếu $f$ và $g$ là hai hàm lần lượt được xác định trên $S$ và $T$, với các giá trị trong $\overline{\mathbf{R}}_+$ hoặc trong $\mathbf{C}$, thì hàm $(s, t) \mapsto f(s)g(t)$ trên $S \times T$ sẽ được ký hiệu là $f \otimes g$.
 
-#### Mệnh đề 10 {#int-ix-s2-prop-10 .statement}
+#### Mệnh đề 10 {#int-ix-s2-prop-10 .statement tag=09P6}
 
 *Cho $\nu$ là tiền độ đo tích của $\lambda$ và $\mu$; với mọi hàm $f \in \mathscr{F}_+(S)$ và mọi hàm $g \in \mathscr{F}_+(T)$,*
 
@@ -364,7 +364,7 @@ $$
 
 Đặc biệt, nếu lấy $f \in \mathscr{K}_+(K)$, $g \in \mathscr{K}_+(L)$, ta thấy rằng $\eta_{K \times L}$ có tính chất đặc trưng của độ đo tích $\lambda_K \otimes \mu_L$ (Ch. III, §4, No. 1, Th. 1). Do đó $\eta_{K \times L} = \nu_{K \times L}$; vì mọi tập con compact của $S \times T$ đều được chứa trong một tập có dạng $K \times L$, tính bắc cầu của các độ đo cảm sinh suy ra rằng $\eta = \nu$.
 
-#### Hệ quả 1 {#int-ix-s2-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#int-ix-s2-prop-10-cor-1 .statement tag=09P7}
 
 — *Nếu $\lambda$ và $\mu$ là các độ đo, thì $\nu$ là một độ đo.*
 
@@ -372,11 +372,11 @@ Thật vậy, cho $x = (s, t)$ là một điểm của $X$, và cho $U$ và $V$ 
 
 Kết quả này mở rộng ngay lập tức đến các độ đo phức.
 
-#### Hệ quả 2 {#int-ix-s2-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#int-ix-s2-prop-10-cor-2 .statement tag=09P8}
 
 — *Nếu $A$ là một tập con của $S$ không đáng kể địa phương đối với $\lambda$, thì $A \times T$ là không đáng kể địa phương đối với $\nu$.*
 
-#### Hệ quả 3 {#int-ix-s2-prop-10-cor-3 .statement}
+#### Hệ quả 3 {#int-ix-s2-prop-10-cor-3 .statement tag=09P9}
 
 — *Giả sử rằng $\lambda$ (tương ứng $\mu$) là tổng của một họ cộng được $(\lambda_\alpha)_{\alpha \in A}$ (tương ứng $(\mu_\beta)_{\beta \in B}$) các độ đo trên $S$ (tương ứng $T$). Khi đó họ $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ là cộng được, và tổng của nó là $\lambda \otimes \mu$.*
 
@@ -386,7 +386,7 @@ Thật vậy, cho $p$ là bao hàm $\sum_{\alpha, \beta} (\lambda_\alpha \otimes
 
 *Trong suốt số này, $\lambda$ và $\mu$ lần lượt ký hiệu các độ đo trên $S$ và $T$, và $\nu$ ký hiệu độ đo tích $\lambda \otimes \mu$ trên $S \times T$. Ngoài ra, nếu $f$ là một hàm dương trên $S \times T$, thì với mọi $s \in S$ ta ký hiệu bởi $f_s$ hàm $t \mapsto f(s, t)$ trên $T$, và bởi $I_f$ hàm $s \mapsto \mu^\bullet(f_s)$ trên $S$.*
 
-#### Bổ đề 2 {#int-ix-s2-lem-2 .statement}
+#### Bổ đề 2 {#int-ix-s2-lem-2 .statement tag=09PA}
 
 *Cho $f$ là một hàm dương khả đo được theo $\nu$ trên $S \times T$; với mọi tập con compact $L$ của $T$, ký hiệu $I_f^L$ là hàm $s \mapsto \mu^\bullet(f_s \varphi_L)$ trên $S$. Khi đó hàm $I_f^L$ là $\lambda$-có thể đo được, và*
 
@@ -417,7 +417,7 @@ nghĩa là (6).
 
 Cuối cùng, Mệnh đề 7 của Ch. V, §8, No. 3 suy ra rằng hạn chế của $I_f^L$ lên mọi tập con compact K của S là $\lambda_K$-có thể đo được; điều đó tương đương với nói rằng $I_f^L$ là $\lambda$-có thể đo được.
 
-#### Mệnh đề 11 {#int-ix-s2-prop-11 .statement}
+#### Mệnh đề 11 {#int-ix-s2-prop-11 .statement tag=09PB}
 
 *Cho f là một hàm nửa liên tục dưới $\geqslant 0$ được xác định trên $X = S \times T$.*
 
@@ -431,7 +431,7 @@ $$
 
 Tính chất *a)* là hiển nhiên, vì ánh xạ $t \mapsto f(s, t)$ của T vào $\overline{\mathbf{R}}$ là hợp thành của $f$ với ánh xạ liên tục $t \mapsto (s, t)$ của T vào X. Để chứng minh *b)*, ta sẽ dùng một bổ đề:
 
-#### Bổ đề 3 {#int-ix-s2-lem-3 .statement}
+#### Bổ đề 3 {#int-ix-s2-lem-3 .statement tag=09PC}
 
 — *Cho X là một không gian tôpô (Hausdorff hay không), f là một hàm nửa liên tục dưới $\geqslant 0$ được xác định trên X; khi đó f là giới hạn của một dãy tăng $(f_n)_{n \in \mathbf{N}}$ các hàm nửa liên tục dưới trên X, sao cho mỗi hàm $f_n$ là một tổ hợp tuyến tính, với các hệ số dương, của các hàm đặc trưng của các tập mở.*
 
@@ -452,7 +452,7 @@ W = \bigcup_{1 \leq i \leq n} (U_i \times V_i),
 $$
 trong đó các $U_i$ là mở trong $S$ và các $V_i$ là mở trong $T$; theo các nhận xét đã nêu ở trên, chỉ cần chứng minh rằng hàm đặc số của một tập mở như vậy thuộc về $\mathscr{H}$. Khi đó cho $s \in S$, và cho $U$ là giao của họ (có thể rỗng) tạo bởi các tập mở $U_i$ chứa $s$; ta thấy ngay rằng $\varphi_W(s,t) \leq \varphi_W(s',t)$ với mọi $s' \in U$ và $t \in T$, do đó, bằng cách lấy tích phân, $I_{\varphi_W}^L(s) \leq I_{\varphi_W}^L(s')$ với mọi $s' \in U$. Do đó $I_{\varphi_W}^L$ là nửa liên tục dưới, và mệnh đề được chứng minh.
 
-#### Hệ quả 1 {#int-ix-s2-lem-3-cor-1 .statement}
+#### Hệ quả 1 {#int-ix-s2-lem-3-cor-1 .statement tag=09PD}
 
 *Cho $f$ là một hàm số dương xác định trên $X = S \times T$; khi đó*
 $$
@@ -468,11 +468,11 @@ $$
 $$
 Bất đẳng thức (10) thu được bằng cách chuyển qua bao dưới theo $g$.
 
-#### Hệ quả 2 {#int-ix-s2-lem-3-cor-2 .statement}
+#### Hệ quả 2 {#int-ix-s2-lem-3-cor-2 .statement tag=09PE}
 
 — Cho $f$ là một hàm số xác định trên $S \times T$ và $\nu$-không đáng kể. Khi đó hàm $f_s : t \mapsto f(s, t)$ là $\mu$-không đáng kể với $\lambda$-hầu khắp mọi $s \in S$.
 
-#### Mệnh đề 12 {#int-ix-s2-prop-12 .statement}
+#### Mệnh đề 12 {#int-ix-s2-prop-12 .statement tag=09PF}
 
 — Cho $f$ là một hàm dương $\nu$-đo được trên $X = S \times T$. Giả sử rằng $f$ là $\nu$-điều độ (tương ứng rằng $\mu$ là điều độ). Khi đó:
 a) Tập $N$ gồm các $s \in S$ sao cho hàm $f_s : t \mapsto f(s, t)$ không $\mu$-đo được là tập không đáng kể (tương ứng địa phương không đáng kể) đối với $\lambda$.
@@ -492,13 +492,13 @@ Giả sử rằng $f$ bằng không ở ngoài một tập compact dạng $K \ti
 
 Giả sử rằng $\mu$ được mang bởi một tập con compact $L$ của $T$; khi đó lại $N = N_L$, do đó $N$ là $\lambda$-không đáng kể địa phương. Vì mọi độ đo điều hòa đều là tổng của một dãy các độ đo có giá đỡ compact ($§ 1$, No. 9, Hệ quả 5 của Mệnh đề 14), kết quả này được suy rộng ngay sang trường hợp $\mu$ là điều hòa, bằng cách dùng Mệnh đề 8 của $§ 1$, No. 7.
 
-#### Nhận xét {#int-ix-s2-n6-rem-1 .statement}
+#### Nhận xét {#int-ix-s2-n6-rem-1 .statement tag=09PG}
 
 — Cho $(K_\alpha)_{\alpha \in A}$ là một phép co của $S$ đối với $\lambda$ và đặt $M = S - \bigcup_{\alpha \in A} K_\alpha$; định nghĩa một cách tương tự $(L_\beta)_{\beta \in B}$ và $N$ đối với độ đo $\mu$ trên $T$. Ta ký hiệu bởi $S'$ không gian compact địa phương là tổng của các không gian con $K_\alpha$ của $S$ và không gian *rời rạc* $M$; không gian $T'$ được định nghĩa tương tự, và ta đặt $X' = S' \times T'$. Không gian compact địa phương $X'$ là tổng của họ $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ các không gian con compact của $X$ và không gian con $P = (M \times T) \cup (S \times N)$ là một tập con không đáng kể địa phương theo $\nu$ của $X$ (ta nhận thấy rằng nói chung $P$ không phải là một không gian rời rạc). Trong *Chú giải* của $§ 1$, No. 8 ta đã thấy rằng tồn tại một độ đo $\lambda'$ trên $S'$ sao cho các hàm đo được, tích phân trên cốt yếu của các hàm dương, các hàm khả tích cốt yếu và các tích phân của chúng, là như nhau đối với $\lambda$ và $\lambda'$. Ta liên kết độ đo $\mu'$ trên $T'$ với $\mu$, và độ đo $\nu'$ trên $X'$ với $\nu$, phù hợp với Chú giải đã dẫn; ta thấy ngay lập tức rằng ${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$ đối với $f \in \mathscr{F}_+(S)$ và $g \in \mathscr{F}_+(T)$; do đó $\nu' = \lambda' \otimes \mu'$ theo Mệnh đề 10 của No. 5. Vì tôpô của $X'$ mịn hơn tôpô của $X$, mọi hàm $\nu$-điều hòa đều là $\nu'$-điều hòa. Thủ tục này cho phép mở rộng không cần chứng minh mới định lý Lebesgue–Fubini (Ch. V, $§ 8$, No. 4, Th. 1) sang tình huống hiện tại.
 
 ### 7. Một kết quả về sự phân rã của các độ đo
 
-#### Mệnh đề 13 {#int-ix-s2-prop-13 .statement}
+#### Mệnh đề 13 {#int-ix-s2-prop-13 .statement tag=09PH}
 
 *Cho $X$ là một không gian tôpô, $\nu$ là một độ đo điều hòa trên $X$, $p$ là một ánh xạ $\nu$-thực sự của $X$ vào một không gian tôpô $T$, và $\mu = p(\nu)$. Giả sử rằng mọi không gian con compact của $X$ đều mêtric hóa được. Khi đó tồn tại một ánh xạ $t \mapsto \lambda_t$ từ $T$ vào $\mathscr{M}_+(X)$ có các tính chất sau:*
 
@@ -515,7 +515,7 @@ c) tập hợp các $t \in T$ sao cho $\lambda_t(1) \neq 1$ là địa phương 
 Ngoài ra, nếu $t \mapsto \lambda'_t$ là một ánh xạ của $T$ vào $\mathscr{M}_+(X)$ thỏa mãn các điều kiện a) và b), thì tập hợp các $t \in T$ sao cho $\lambda_t \neq \lambda'_t$ là địa phương $\mu$-không đáng kể.
 Ta sẽ cần một kết quả phụ trợ:
 
-#### Bổ đề 4 {#int-ix-s2-lem-4 .statement}
+#### Bổ đề 4 {#int-ix-s2-lem-4 .statement tag=09PI}
 
 Cho $X$ là một không gian tôpô, $\nu$ là một độ đo trên $X$, và $f$ là một ánh xạ $\nu$-đo được của $X$ vào một không gian tôpô $F$ (Hausdorff hoặc không). Tồn tại một ánh xạ $f'$ đo được phổ quát của $X$ vào $F$, bằng $f$ địa phương $\nu$-hầu khắp nơi.
 
@@ -576,7 +576,7 @@ Cho $f \in D$; theo D), các hàm $t \mapsto (\lambda_t^1)^\bullet(f)$ và $t \m
 
 Q.E.D.
 
-#### Nhận xét {#int-ix-s2-n7-rem-1 .statement}
+#### Nhận xét {#int-ix-s2-n7-rem-1 .statement tag=09PJ}
 
 — 1) Nếu $X$ là một không gian Souslin, thì mọi không gian con compact của $X$ đều là một không gian Souslin, do đó là mêtric hóa được (TG, IX, Phụ lục I, Hệ quả 2 của Mệnh đề 3),$^{(2)}$
 

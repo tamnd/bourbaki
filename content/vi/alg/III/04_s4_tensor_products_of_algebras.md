@@ -50,9 +50,9 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: d6abe7f6a386e0e18581b2fc8fdadc7e0ab9dbf6bbc5cbb3beeb8c56e11c3276
+content_sha256: 6efda02dea44176a40ab223fd28d7efb30d19d3ac55374efa19a7176c489fa02
 translated_from: content/en/alg/III/04_s4_tensor_products_of_algebras.md
-source_content_sha256: e4f97fce390410665271a3fec7e11e3f97e3ebed511a8bc2d0ba2eea7c3667d7
+source_content_sha256: 25682b65ee25b300876c8d2b79b960cdd7e6d7279edee98e796e41613580d0ee
 translation_model: gpt-5.4
 translation_run: translate-vi-b55d44b5
 glossary_version: 34
@@ -93,7 +93,7 @@ $$
 
 do đó, bởi tính tuyến tính, có quan hệ $x(yz) = (xy)z$ với mọi $x, y, z$ trong $E$.
 
-#### Định nghĩa 1 {#alg-iii-s4-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s4-def-1 .statement tag=0608}
 
 *Cho một họ* $(E_i)_{i \in I}$ *các đại số trên* $A$, *tích tenxơ của họ này*, ký hiệu bởi $\bigotimes_{i \in I} E_i$ (hoặc, khi $I$ là khoảng $\{1, n\}$ của $\mathbf{N}$, $E_1 \otimes_A E_2 \otimes \cdots \otimes_A E_n$, hoặc đơn giản là $E_1 \otimes E_2 \otimes \cdots \otimes E_n$) *là đại số thu được bằng cách trang bị cho tích tenxơ của các* $A$*-môđun* $E_i$ *phép nhân được xác định bởi* (1).
 
@@ -121,7 +121,7 @@ Trong phần còn lại của số này, ta sẽ chỉ giới hạn sự chú ý
 
 Cho $E, F$ là hai $A$-đại số; nếu $a$ (resp. $b$) là một iđêan trái của $E$ (resp. $F$), ảnh chính tắc $\operatorname{Im}(a \otimes b)$ của $a \otimes_A b$ trong $E \otimes_A F$ là một iđêan trái của $E \otimes_A F$; có các kết quả tương tự khi thay "iđêan trái" bằng "iđêan phải" hoặc "iđêan hai phía". Hơn nữa:
 
-#### Mệnh đề 1 {#alg-iii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s4-prop-1 .statement tag=0609}
 
 *Cho $E, F$ là hai $A$-đại số và $a$ (resp. $b$) là một iđêan hai phía của $E$ (resp. $F$). Khi đó đẳng cấu $A$-môđun chính tắc*
 
@@ -133,7 +133,7 @@ $$
 
 Điều này suy ra từ (1) và định nghĩa đã cho ở *loc. cit*.
 
-#### Hệ quả 1 {#alg-iii-s4-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-iii-s4-prop-1-cor-1 .statement tag=060A}
 
 *Cho $E$ là một $A$-đại số và $a$ là một iđêan của $A$. Khi đó $A$-môđun $aE$ là một iđêan hai phía của $E$ và đẳng cấu $(A/a)$-môđun chính tắc*
 
@@ -143,15 +143,15 @@ $$
 
 *là một đẳng cấu $(A/a)$-đại số*.
 
-#### Hệ quả 2 {#alg-iii-s4-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-iii-s4-prop-1-cor-2 .statement tag=060B}
 
 *Nếu $a, b$ là hai iđêan của $A$, thì $(A/a) \otimes_A (A/b)$ đẳng cấu chính tắc với $A/(a + b)$*.
 
-#### Hệ quả 3 {#alg-iii-s4-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-iii-s4-prop-1-cor-3 .statement tag=060C}
 
 *Cho $E, F$ là hai $A$-đại số và $a$ là một iđêan của $A$ được chứa trong linh hóa tử của $F$. Khi đó $(A/a)$-đại số $E \otimes_A F$ đẳng cấu chính tắc với $(E/aE) \otimes_{A/a} F$*.
 
-#### Mệnh đề 2 {#alg-iii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-s4-prop-2 .statement tag=060D}
 
 *Cho $(E_\lambda)_{\lambda \in L}$ và $(F_\mu)_{\mu \in M}$ là hai họ $A$-đại số. Ánh xạ chính tắc* (II, § 3, no. 7)
 
@@ -163,7 +163,7 @@ $$
 
 Điều này suy ra ngay lập tức từ II, § 3, no. 7, Mệnh đề 7 và định nghĩa của phép nhân trên $E \otimes F$.
 
-#### Mệnh đề 3 {#alg-iii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-s4-prop-3 .statement tag=060E}
 
 *Cho $A, B$ là hai vành giao hoán, $\varphi : A \to B$ là một đồng cấu vành và $E, F$ là hai $A$-đại số. Khi đó đẳng cấu $B$-môđun chính tắc*
 
@@ -173,7 +173,7 @@ $$
 
 (II, § 5, no. 1, Mệnh đề 3) *là một đẳng cấu $B$-đại số*.
 
-#### Mệnh đề 4 {#alg-iii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-s4-prop-4 .statement tag=060F}
 
 Cho $A, B$ là hai vành giao hoán, $\rho : A \to B$ là một đồng cấu vành, $E$ là một $A$-đại số và $F$ là một $B$-đại số. Khi đó đẳng cấu $A$-môđun chính tắc
 
@@ -213,7 +213,7 @@ Các phần tử $e_s \otimes e_t$ (tương ứng $e_{(s,t)}$), trong đó $s$ c
 
 ### 2. ĐẶC TRƯNG HÓA PHỔ QUÁT CỦA TÍCH TENXƠ CÁC ĐẠI SỐ
 
-#### Mệnh đề 5 {#alg-iii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iii-s4-prop-5 .statement tag=060G}
 
 Cho $(E_i)_{i \in I}$ là một họ hữu hạn các đại số $A$ và, với mỗi $i \in I$, ký hiệu $e_i$ là phần tử đơn vị của $E_i$. Với mỗi $i \in I$, ký hiệu $u_i : E_i \to E = \bigotimes_{i \in I} E_i$ là ánh xạ tuyến tính $A$ được xác định bởi
 
@@ -265,7 +265,7 @@ $$
 
 Cặp có thứ tự gồm E và ánh xạ chính tắc $\phi : (x_i) \mapsto \bigotimes_i x_i$ từ $\prod_i E_i$ vào E là một nghiệm của bài toán ánh xạ phổ quát (Lý thuyết tập hợp, IV, § 3, no. 1), trong đó $\Sigma$ là loài cấu trúc đại số trên A, các cấu xạ là các đồng cấu đại số trên A và các ánh xạ-$\alpha$ là các ánh xạ $\prod_i u_i$ từ $\prod_i E_i$ vào một đại số trên A sao cho các $u_i$ là các đồng cấu đại số trên A và $u_i(x_i)$ và $u_j(x_j)$ giao hoán với nhau khi $i \neq j$, với mọi $x_i \in E_i$ và $x_j \in E_j$.
 
-#### Hệ quả {#alg-iii-s4-n2-cor-1 .statement}
+#### Hệ quả {#alg-iii-s4-n2-cor-1 .statement tag=060H}
 
 *Cho* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *là hai họ hữu hạn các đại số trên A và, với mọi* $i \in I$, *cho* $f_i : E_i \to F_i$ *là một đồng cấu đại số. Nếu* $u_i : E_i \to \bigotimes_{j \in I} E_j, v_i : F_i \to \bigotimes_{j \in I} F_j$ *là các đồng cấu chính tắc, thì ánh xạ* $f = \bigotimes_i f_i$ *(xem no. 1)* *là đồng cấu đại số trên A duy nhất sao cho* $f \circ u_i = v_i \circ f_i$ *với mọi* $i \in I$.
 
@@ -283,7 +283,7 @@ Chú ý rằng nếu E là một đại số giao hoán trên A, thì cấu trú
 
 ### 3. MÔĐUN VÀ ĐA MÔĐUN TRÊN CÁC TÍCH TENXƠ CỦA ĐẠI SỐ
 
-#### Định nghĩa 2 {#alg-iii-s4-def-2 .statement}
+#### Định nghĩa 2 {#alg-iii-s4-def-2 .statement tag=060I}
 
 *Cho E là một đại số trên A (có đơn vị). Một E-môđun trái (tương ứng, phải) là một môđun trái (tương ứng, phải) trên vành nền của E.*
 
@@ -297,7 +297,7 @@ $$
 
 do đó với mọi $s \in E$, phép vị tự $h_s : x \mapsto sx$ của M là một tự đồng cấu của cấu trúc A-môđun nền. Ngược lại, việc cho một cấu trúc E-môđun trên M tương đương với việc cho một cấu trúc A-môđun trên M và một đồng cấu đại số trên A $s \mapsto h_s$ từ E vào $\mathrm{End}_A(M)$.
 
-#### Định nghĩa 3 {#alg-iii-s4-def-3 .statement}
+#### Định nghĩa 3 {#alg-iii-s4-def-3 .statement tag=060J}
 
 *Cho E và F là hai đại số trên A (có đơn vị) và M là một tập hợp được trang bị một cấu trúc E-môđun và một cấu trúc F-môđun. M được gọi là một song môđun (trái) trên các đại số E và F nếu:*
 
@@ -326,7 +326,7 @@ Như vậy một sự tương ứng một-một đã được thiết lập gi�
 
 Hiển nhiên cũng có các mệnh đề tương ứng đối với các cấu trúc song môđun phải, hoặc chẳng hạn khi có một cấu trúc E-môđun trái và một cấu trúc F-môđun phải; trong trường hợp này ta nói đến một $(E, F)$-song môđun và việc cho một cấu trúc như vậy tương đương với việc cho một cấu trúc song môđun trái trên E và $F^o$.
 
-#### Ví dụ {#alg-iii-s4-n3-exa-1 .statement}
+#### Ví dụ {#alg-iii-s4-n3-exa-1 .statement tag=060K}
 
 (1) Cho B là một đại số trên A; vành B có một cách chính tắc một cấu trúc (B, B)-song môđun (II, § 1, no. 14, Ví dụ 1) và, nếu e là phần tử đơn vị của B, thì $(\alpha e)x = x(\alpha e) = \alpha x$ với mọi $x \in B$ và mọi $\alpha \in A$; vì vậy B có thể được xem như một song môđun trái trên các đại số B và $B^o$ (đối của B); do đó có một cấu trúc $(B \otimes_A B^o)$-môđun liên kết với cấu trúc (B, B)-song môđun trên B sao cho, với $b, x$ và $b'$ trong B,
 
@@ -366,7 +366,7 @@ Cho K là một *trường* giao hoán và E, F là hai đại số trên K mà 
 
 Nếu E' và F' lần lượt là các đại số con của E và F, thì đồng cấu chính tắc $E' \otimes_K F' \to E \otimes_K F$ là đơn ánh và cho phép ta đồng nhất $E' \otimes_K F'$ với đại số con của $E \otimes_K F$ được sinh bởi $E' \cup F'$ (II, § 7, no. 7, mệnh đề 14).
 
-#### Mệnh đề 6 {#alg-iii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iii-s4-prop-6 .statement tag=060L}
 
 *Cho E, F là hai đại số khác không trên một trường giao hoán, K, C (tương ứng D) là một đại số con của E (tương ứng của F) và C' (tương ứng D') là tập trung hóa tử của C trong E (tương ứng của D trong F). Khi đó tập trung hóa tử của C \otimes_K D trong E \otimes_K F là C' \otimes_K D'.*
 
@@ -378,7 +378,7 @@ $$
 
 (II, § 7, no. 7, Hệ quả to mệnh đề 14). Có thể giả thiết các $y_i$ độc lập tuyến tính trên K; với mọi $x \in C$, tất yếu có $(x \otimes e')z = z(x \otimes e')$, tức là $\sum_i (xx_i - x_ix) \otimes y_i = 0$, do đó $xx_i = x_ix$ với mọi $i$ (II, § 3, no. 7, Hệ quả 1 to mệnh đề 7); vì thế tất yếu $x_i \in C'$ với mọi $i$ và do đó $z \in C' \otimes_K F$; tương tự có thể chứng minh rằng $z \in E \otimes_K D'$, do đó có mệnh đề.
 
-#### Hệ quả {#alg-iii-s4-n4-cor-1 .statement}
+#### Hệ quả {#alg-iii-s4-n4-cor-1 .statement tag=060M}
 
 *Nếu Z và Z' là các tâm tương ứng của E và F, thì tâm của E \otimes_K F là Z \otimes_K Z'*.
 
@@ -387,13 +387,13 @@ $$
 (i \otimes j)(x \otimes y) = xy \quad \text{với } x \in E, y \in F.
 $$
 
-#### Định nghĩa 4 {#alg-iii-s4-def-4 .statement}
+#### Định nghĩa 4 {#alg-iii-s4-def-4 .statement tag=060N}
 
 *Cho một đại số G trên một trường giao hoán K, hai đại số con E, F của G được gọi là độc lập tuyến tính trên K nếu chúng thỏa mãn các điều kiện sau:*
 (1) *mọi phần tử của E đều giao hoán với mọi phần tử của F;*
 (2) *đồng cấu chính tắc của $E \otimes_K F$ vào G là đơn ánh.*
 
-#### Mệnh đề 7 {#alg-iii-s4-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iii-s4-prop-7 .statement tag=060O}
 
 *Cho G là một đại số trên một trường giao hoán K và E, F là hai đại số con của G sao cho mọi phần tử của E đều giao hoán với mọi phần tử của F. Để E và F độc lập tuyến tính trên K, điều kiện cần và đủ là tồn tại một cơ sở của E trên K là một tập con tự do của G đối với cấu trúc F-môđun phải trên G. Khi đó:*
 (i) *đồng cấu chính tắc $h : E \otimes_K F \to G$ là một đẳng cấu từ $E \otimes_K F$ lên đại số con của G sinh bởi $E \cup F$;*
@@ -402,11 +402,11 @@ $$
 
 Điều kiện của mệnh đề hiển nhiên là cần thiết, vì mọi cơ sở của E trên K đều là một cơ sở của $E \otimes_K F$ với cấu trúc F-môđun phải của nó (II, § 3, no. 7, Hệ quả 1 của Mệnh đề 7). Để thấy rằng điều kiện là đủ, chú ý rằng ảnh H của $E \otimes_K F$ dưới h là tập các tổng $\sum_i x_i y_i = \sum_i y_i x_i$ trong G, với $x_i \in E$ và $y_i \in F$; do đó nếu $(a_\lambda)$ là một cơ sở của E trên K thì H cũng là môđun con của F-môđun G (phải hoặc trái) sinh bởi $(a_\lambda)$. Vậy điều kiện của mệnh đề có nghĩa là tồn tại một cơ sở $(a_\lambda)$ của E đồng thời cũng là một cơ sở của F-môđun H; suy ra h là đơn ánh. Mệnh đề (iii) suy ra từ việc mọi tập con tự do của E đều được chứa trong một cơ sở của E (II, § 7, no. 1, Định lý 2).
 
-#### Hệ quả 1 {#alg-iii-s4-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#alg-iii-s4-prop-7-cor-1 .statement tag=060P}
 
 *Để đồng cấu chính tắc của $E \otimes_K F$ vào G là song ánh, điều kiện cần và đủ là tồn tại một cơ sở của E trên K đồng thời là một cơ sở của F-môđun G (phải hoặc trái).*
 
-#### Hệ quả 2 {#alg-iii-s4-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#alg-iii-s4-prop-7-cor-2 .statement tag=060Q}
 
 *Cho E, F là hai đại số con của G, có hạng hữu hạn trên K và sao cho mọi phần tử của E đều giao hoán với mọi phần tử của F. Để E và F độc lập tuyến tính trên K, điều kiện cần và đủ là đại số con H của G sinh bởi $E \cup F$ thỏa mãn*
 $$
@@ -418,7 +418,7 @@ $$
 
 Cho A là một vành giao hoán và $(E_i)_{i \in I}$ là một họ tùy ý các A-đại số (có đơn vị). Với mọi tập con hữu hạn J của I, ký hiệu E_J là tích tenxơ $\bigotimes_{i \in J} E_i$ của các đại số E_i có chỉ số $i \in J$; ký hiệu $e_i$ là phần tử đơn vị của E_i và $e_J = \bigotimes_{i \in J} e_i$ là phần tử đơn vị của E_J; ký hiệu $f_{J,i}$ là đồng cấu chính tắc $E_i \to E_J$ với $i \in J$ (no. 2, Mệnh đề 5). Nếu J, J' là hai tập con hữu hạn của I sao cho $J \subset J'$, thì một đồng cấu $f_{J'J} : E_J \to E_{J'}$ được dẫn xuất một cách chính tắc (no. 2, Mệnh đề 5), bởi điều kiện $f_{J'J} \circ f_{J,i} = f_{J',i}$ với mọi $i \in J$. Hơn nữa tính duy nhất của $f_{J'J}$ suy ra rằng nếu J, J', J'' là ba tập con hữu hạn của I sao cho $J \subset J' \subset J''$, thì $f_{J''J} = f_{J''J'} \circ f_{J'J}$. Nói cách khác, $(E_J, f_{J'J})$ là một hệ trực tiếp các A-đại số mà tập chỉ số là tập có hướng phải $\mathscr{F}(I)$ của các tập con hữu hạn của I.
 
-#### Định nghĩa 5 {#alg-iii-s4-def-5 .statement}
+#### Định nghĩa 5 {#alg-iii-s4-def-5 .statement tag=060R}
 
 *Giới hạn trực tiếp E của hệ trực tiếp* $(E_J, f_{J'J})$ *được gọi là tích tenxơ của họ các A-đại số* $(E_i)_{i \in I}$.
 
@@ -426,7 +426,7 @@ Nếu I là hữu hạn, E được đồng nhất với $\bigotimes_{i \in I} E
 
 Với mọi tập con hữu hạn J của I, ký hiệu $f_J$ là đồng cấu chính tắc $\bigotimes_{i \in J} E_i \to \bigotimes_{i \in I} E_i$ (viết $f_i$ thay cho $f_{\{i\}}$); nếu e là phần tử đơn vị của $\bigotimes_{i \in I} E_i$, thì $f_J(e_J) = e$ với mọi $J \in \mathscr{F}(I)$. Ngay lập tức thấy rằng nếu mọi đại số E_i đều giao hoán, thì $\bigotimes_{i \in I} E_i$ cũng giao hoán.
 
-#### Mệnh đề 8 {#alg-iii-s4-prop-8 .statement}
+#### Mệnh đề 8 {#alg-iii-s4-prop-8 .statement tag=060S}
 
 (i) *Các đồng cấu* $f_i : E_i \to E = \bigotimes_{k \in I} E_k$ *có tính chất sau: với hai chỉ số* i, j *sao cho* $i \neq j$, $f_i(x_i)$ *và* $f_j(x_j)$ *giao hoán trong* E *với mọi* $x_i \in E_i$ *và* $x_j \in E_j$; *hơn nữa,* E *được sinh bởi hợp của các đại số con* $f_i(E_i)$.
 
@@ -436,7 +436,7 @@ Với mọi tập con hữu hạn J của I, ký hiệu $f_J$ là đồng cấu 
 
 (ii) Với mọi tập con hữu hạn J của I, suy ra từ No. 2, Mệnh đề 5 rằng tồn tại một đồng cấu duy nhất $u_J : E_J \to F$ sao cho $u_J \circ f_{J,i} = u_i$ với mọi $i \in J$; ngay lập tức suy ra từ tính duy nhất này rằng, với $J \subset J'$, $u_J = u_{J'} \circ f_{J'J}$; nói cách khác, các $u_J$ tạo thành một *hệ trực tiếp* các đồng cấu. Đặt $u = \lim \to u_J : E \to F$; khi đó theo định nghĩa ta có $u_J = u \circ f_J$ với mọi tập con hữu hạn $J$ của $I$ và đặc biệt $u_i = u \circ f_i$ với mọi $i \in I$; tính duy nhất của $u$ suy ra từ các hệ thức này và từ sự kiện rằng các $f_i(E_i)$ sinh đại số $E$.
 
-#### Hệ quả {#alg-iii-s4-n5-cor-1 .statement}
+#### Hệ quả {#alg-iii-s4-n5-cor-1 .statement tag=060T}
 
 *Cho* $(E_i)_{i \in I},\ (E'_i)_{i \in I}$ *là hai họ* $A$*-đại số có cùng tập hợp chỉ số và, với mọi* $i \in I$, *cho* $u_i : E_i \to E'_i$ *là một đồng cấu đại số. Khi đó tồn tại một và chỉ một đồng cấu đại số trên* $A$ $u : \bigotimes_{i \in I} E_i \to \bigotimes_{i \in I} E'_i$ *sao cho, với mọi* $i \in I$, *biểu đồ*
 
@@ -462,7 +462,7 @@ $$
 
 Giá trị chung của các $f_J((x_i)_{i \in J})$ đối với các tập con hữu hạn $J \supset H$ của $I$ được ký hiệu là $\bigotimes_{i \in I} x_i$.
 
-#### Mệnh đề 9 {#alg-iii-s4-prop-9 .statement}
+#### Mệnh đề 9 {#alg-iii-s4-prop-9 .statement tag=060U}
 
 *Cho* $(E_i)_{i \in I}$ *là một họ các* $A$*-đại số và với mỗi* $i \in I$ *cho* $B_i$ *là một cơ sở của* $E_i$ *sao cho phần tử đơn vị* $e_i$ *thuộc về* $B_i$. *Gọi* $B$ *là tập hợp các phần tử có dạng* $\bigotimes_{i \in I} x_i$, *trong đó* $(x_i)$ *chạy qua tập hợp các phần tử của* $\prod_{i \in I} B_i$ *sao cho họ* $(x_i - e_i)$ *có giá hữu hạn*. *Khi đó* $B$ *là một cơ sở của đại số* $\bigotimes_{i \in I} E_i$ *và cơ sở này chứa phần tử đơn vị* $e$.
 
@@ -472,7 +472,7 @@ Cơ sở $B$ cũng được gọi là *tích tenxơ* của các cơ sở $B_i$ v
 
 ### 6. CÁC BỔ ĐỀ GIAO HOÁN
 
-#### Bổ đề 1 {#alg-iii-s4-lem-1 .statement}
+#### Bổ đề 1 {#alg-iii-s4-lem-1 .statement tag=060V}
 
 *Cho $A$ là một vành giao hoán, $E$ là một $A$-đại số, $(x_i)_{1 \leq i \leq n}$ là một dãy hữu hạn các phần tử của $E$, $(\lambda_i)_{1 \leq i \leq n}$ là một dãy hữu hạn các phần tử của $A$ và $y$ là một phần tử của $E$; giả sử rằng*
 $$
@@ -494,7 +494,7 @@ $$
 $$
 do đó suy ra bổ đề.
 
-#### Bổ đề 2 {#alg-iii-s4-lem-2 .statement}
+#### Bổ đề 2 {#alg-iii-s4-lem-2 .statement tag=060W}
 
 *Cho $A$ là một vành giao hoán, $E$ là một $A$-đại số và $(x_i)_{1 \leq i \leq n}$ và $(y_i)_{1 \leq i \leq n}$ là hai dãy hữu hạn gồm $n$ phần tử của $E$; giả sử rằng với $1 \leq j \leq i \leq n$,*
 $$
@@ -520,7 +520,7 @@ $$
 
 Chú ý rằng, khi $\mathbf{A} = \mathbf{Z}$ và $\lambda_{ij} = -1$ với mọi cặp có thứ tự $(i, j)$ sao cho $1 \leq j < i \leq n$, $\varepsilon_\sigma(\lambda)$ chỉ đơn giản là dấu $\varepsilon_\sigma$ của phép hoán vị $\sigma$ (I, § 5, no. 7).
 
-#### Bổ đề 3 {#alg-iii-s4-lem-3 .statement}
+#### Bổ đề 3 {#alg-iii-s4-lem-3 .statement tag=060X}
 
 *Cho $\mathbf{A}$ là một vành giao hoán, $\mathbf{E}$ là một $\mathbf{A}$-đại số, $(x_i)_{1 \leq i \leq n}$ là một dãy hữu hạn các phần tử của $\mathbf{E}$ và giả sử rằng, với mọi cặp có thứ tự $(i, j)$ của các số nguyên sao cho $1 \leq j < i \leq n$,*
 
@@ -593,7 +593,7 @@ $$
 
 ### 7. TÍCH TENXƠ CỦA CÁC ĐẠI SỐ PHÂN BẬC ĐỐI VỚI CÁC NHÂN TỬ GIAO HOÁN
 
-#### Định nghĩa 6 {#alg-iii-s4-def-6 .statement}
+#### Định nghĩa 6 {#alg-iii-s4-def-6 .statement tag=060Y}
 
 *Cho* $(\Delta_i)_{i \in I}$ *là một họ hữu hạn các monoid giao hoán viết theo phép cộng. Một hệ các nhân tử giao hoán trên các* $\Delta_i$ *với giá trị trong một vành giao hoán* $\mathbf{A}$ *là một hệ các ánh xạ* $\varepsilon_{ij}: \Delta_i \times \Delta_j \to \mathbf{A}$, *trong đó* $i \in I$, $j \in I$, $i \neq j$ *thỏa mãn các điều kiện sau*:
 
@@ -628,7 +628,7 @@ $$
 
 theo (22) và (23).
 
-#### Ví dụ {#alg-iii-s4-n7-exa-1 .statement}
+#### Ví dụ {#alg-iii-s4-n7-exa-1 .statement tag=060Z}
 
 (1) Hệ các nhân tử giao hoán *tầm thường* là hệ gồm các $\varepsilon_{ij}$ sao cho $\varepsilon_{ij}(\alpha_i, \beta_j) = 1$ với mọi $i, j$, $\alpha_i \in \Delta_i$, $\beta_j \in \Delta_j$.
 
@@ -636,7 +636,7 @@ theo (22) và (23).
 
 Hai ví dụ này là những trường hợp thường gặp nhất trong các ứng dụng.
 
-#### Mệnh đề 10 {#alg-iii-s4-prop-10 .statement}
+#### Mệnh đề 10 {#alg-iii-s4-prop-10 .statement tag=0610}
 
 Cho $\mathbf{A}$ là một vành giao hoán và $(\Delta_i)_{i \in I}$ là một họ hữu hạn các monoid giao hoán viết theo phép cộng; với mỗi $i \in I$, cho $E_i$ là một $\mathbf{A}$-đại số phân bậc kiểu $\Delta_i$. Sau hết, cho $(\varepsilon_{ij})$ là một hệ các nhân tử giao hoán trên các $\Delta_i$ với giá trị trong $\mathbf{A}$. Khi đó tồn tại một $\mathbf{A}$-đại số phân bậc $E$ kiểu $\Delta = \prod_{i \in I} \Delta_i$ và, với mỗi $i \in I$, một đồng cấu đại số $h_i : E_i \to E$, có các tính chất sau:
 
@@ -733,13 +733,13 @@ Rõ ràng đại số $E$ và ánh xạ chính tắc $\psi : \bigotimes_{i \in I
 
 Với một thứ tự toàn phần cố định trên $I$, đại số phân bậc $E$ được định nghĩa trong chứng minh của Mệnh đề 10 sẽ được gọi là một *tích tenxơ $\varepsilon$ phân bậc kiểu* $\Delta$ của họ $(E_i)_{i \in I}$ các đại số phân bậc kiểu $\Delta_i$ và sẽ được ký hiệu bởi $^{\varepsilon} \bigotimes_{i \in I} E_i$ (nếu không thể có nhầm lẫn về thứ tự trên $I$); tương tự, đồng cấu $f : E \to F$ được định nghĩa trong chứng minh của Mệnh đề 10 sẽ được ký hiệu bởi $^{\varepsilon} \bigotimes_{i \in I} f_i$. Các đồng cấu $h_i$ được gọi là *chính tắc*. Ta cũng viết $^{\varepsilon} G^{\otimes n}$ khi $I = \{1, n\}$ và mọi $E_i$ đều bằng cùng một đại số $G$.
 
-#### Nhận xét {#alg-iii-s4-n7-rem-1 .statement}
+#### Nhận xét {#alg-iii-s4-n7-rem-1 .statement tag=0611}
 
 (1) Ta thu được tích tenxơ các đại số được định nghĩa ở no. 1 (hơn nữa với phân bậc là tích tenxơ của các phân bậc của các thừa số của nó) bằng cách lấy $\varepsilon_{ij}(\alpha_i, \beta_j) = 1$ với mọi $i, j, \alpha_i$ và $\beta_j$.
 
 (2) Giả sử rằng mọi $\Delta_i$ đều bằng $\mathbf{Z}$ và đặt $\varepsilon_{ij}(\alpha_i, \beta_j) = (-1)^{\alpha_i \beta_j}$; khi đó tích tenxơ $\varepsilon$ $^{\varepsilon} \bigotimes_{i \in I} E_i$ tương ứng với hệ các yếu tố giao hoán này được gọi là tích tenxơ *lệch* của các đại số phân bậc $E_i$ kiểu $\mathbf{Z}$ và được ký hiệu bởi $^{\varepsilon} \bigotimes_{i \in I} E_i$ (hoặc $E \ ^{\varepsilon} \otimes_A F$ đối với hai đại số, hoặc $^{\varepsilon} G^{\otimes n}$ thay cho $^{\varepsilon} G^{\otimes n}$).
 
-#### Hệ quả 1 {#alg-iii-s4-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#alg-iii-s4-prop-10-cor-1 .statement tag=0612}
 
 Theo ký hiệu của Mệnh đề 10, giả sử thêm rằng F là một đại số trên A phân bậc kiểu $\Delta$ và mỗi $f_i$ là một đồng cấu đại số phân bậc đối với $\phi_i : \Delta_i \to \Delta$; khi đó $f = \varepsilon \bigotimes_i f_i$ là một đồng cấu đại số phân bậc.
 
@@ -751,7 +751,7 @@ theo định nghĩa của các $\phi_i$.
 
 Do đó ta thấy rằng $(E, \psi)$ cũng là một nghiệm của một bài toán ánh xạ phổ quát khác, trong đó lần này $\Sigma$ là loài các cấu trúc *đại số trên A phân bậc* *kiểu* $\Delta$, các cấu xạ là các đồng cấu đại số phân bậc kiểu $\Delta$ và các ánh xạ $\alpha$ là các ánh xạ $\prod_i f_i$, trong đó, ngoài các điều kiện (26), còn giả sử rằng $f_i$ là một đồng cấu đại số phân bậc đối với $\phi_i$.
 
-#### Hệ quả 2 {#alg-iii-s4-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#alg-iii-s4-prop-10-cor-2 .statement tag=0613}
 
 *Cho* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *là hai họ hữu hạn các* A*-đại số, với* $E_i$ *và* $F_i$ *đều phân bậc kiểu* $\Delta_i$ *với mọi* $i \in I$. *Với mỗi* $i \in I$, *cho* $g_i : E_i \to F_i$ *là một đồng cấu đại số phân bậc kiểu* $\Delta_i$. *Khi đó, nếu* $h_i : E_i \to \varepsilon \bigotimes_{i \in I} E_i$ *và* $h'_i : F_i \to \varepsilon \bigotimes_{i \in I} F_i$ *là các đồng cấu chính tắc, thì tồn tại một và chỉ một đồng cấu các* A*-đại số phân bậc kiểu* $\Delta$, $g : \varepsilon \bigotimes_{i \in I} E_i \to \varepsilon \bigotimes_{i \in I} F_i$ *sao cho* $g \circ h_i = h'_i \circ g_i$ *với mọi* $i \in I$. *Ngoài ra, nếu mỗi* $g_i$ *là song ánh, thì* $g$ *cũng vậy*.
 
@@ -765,7 +765,7 @@ như suy ra ngay lập tức từ (30).
 
 Trong trường hợp tích tenxơ *xiên* của các đại số phân bậc kiểu $\mathbf{Z}$, ta viết $\varepsilon \bigotimes_i f_i$ thay cho $\varepsilon \bigotimes_i f_i$ đối với các đồng cấu $f_i : E_i \to F_i$ của các đại số phân bậc kiểu $\mathbf{Z}$; khi $I = \{1, 2\}$, đồng cấu này cũng được ký hiệu bởi $f_1 \varepsilon \otimes f_2$; khi $I = \{1, n\}$ và mọi $E_i$ (tương ứng mọi $F_i$) đều bằng nhau và mọi $f_i$ đều bằng cùng một đồng cấu $f$, ta viết $\varepsilon f^{\otimes n}$.
 
-#### Nhận xét {#alg-iii-s4-n7-rem-2 .statement}
+#### Nhận xét {#alg-iii-s4-n7-rem-2 .statement tag=0614}
 
 Trong chứng minh của Mệnh đề 10, một thứ tự toàn phần trên $I$ đã được dùng để định nghĩa một cấu trúc *đại số* trên tích tenxơ $\bigotimes_{i \in I} E_i$ của các A-môđun
 
@@ -779,7 +779,7 @@ $$
 
 trong đó số hạng ở giữa là tích của *dãy có thứ tự* $(h_i(x_i))_{i \in J}$ và trong số hạng bên phải, $x'_i = x_i$ với $i \in J$, $x'_i = e_i$ với $i \notin J$.
 
-#### Mệnh đề 11 {#alg-iii-s4-prop-11 .statement}
+#### Mệnh đề 11 {#alg-iii-s4-prop-11 .statement tag=0615}
 
 ("tính kết hợp" của tenxơ $\varepsilon$-tích). *Theo ký hiệu của Mệnh đề 10, giả sử* $(J_\lambda)_{\lambda \in L}$ *là một phân hoạch của I và đặt* $\Delta'_\lambda = \prod_{i \in J_\lambda} \Delta_i$ *với mọi* $\lambda \in L$. *Giả sử* $E'_\lambda$ *là một tenxơ $\varepsilon$-tích phân bậc kiểu* $\Delta'_\lambda$ *của họ* $(E_i)_{i \in J_\lambda}$ *ứng với một thứ tự toàn phần nào đó được chọn trên* $J_\lambda$. *Mặt khác, với* $\lambda, \mu$ *trong* $L$ *và* $\lambda \neq \mu$, *ta đặt, với* $\alpha'_\lambda = (\alpha_i)_{i \in J_\lambda}$, $\beta'_\mu = (\beta_j)_{j \in J_\mu}$,
 
@@ -813,7 +813,7 @@ Do đó có thể nói rằng $\varepsilon \bigotimes_{i \in I} E_i$, với phâ
 
 Với mọi tập con J của I, đồng cấu chính tắc $\varepsilon \bigotimes_{i \in J} E_i \to \varepsilon \bigotimes_{i \in I} E_i$ (no. 7) thực ra là một đồng cấu của các đại số phân bậc kiểu $\Delta_0$, như suy ra ngay lập tức từ trên đây.
 
-#### Mệnh đề 12 {#alg-iii-s4-prop-12 .statement}
+#### Mệnh đề 12 {#alg-iii-s4-prop-12 .statement tag=0616}
 
 ("tính kết hợp" của $\varepsilon$-tích tenxơ của các đại số phân bậc cùng kiểu). *Với ký hiệu của Mệnh đề 10 của no. 7, giả sử rằng tất cả các $\Delta_i$ đều bằng cùng một monoide $\Delta_0$; gọi $(J_\lambda)_{\lambda \in L}$ là một phân hoạch của I. Với ký hiệu của Mệnh đề 11 của no. 7, giả sử rằng vế phải của công thức (32) (no. 7) chỉ phụ thuộc vào các tổng $\alpha''_\lambda = \sum_{i \in J_\lambda} \alpha_i, \beta''_\mu = \sum_{j \in J_\mu} \beta_j$, với mọi cặp có thứ tự $(\lambda, \mu)$ của các chỉ số phân biệt, mọi $\alpha'_\lambda \in \Delta'_\lambda$ và mọi $\beta'_\mu \in \Delta'_\mu$; gọi $\varepsilon''_{\lambda \mu}(\alpha''_\lambda, \beta''_\mu)$ là vế phải của (32). *Khi đó $(\varepsilon''_{\lambda \mu})$ là một hệ các nhân tử giao hoán trên họ $(\Delta''_\lambda)_{\lambda \in L}$, trong đó $\Delta''_\lambda = \Delta_0$ với mọi $\lambda \in L$. *Nếu $E''_\lambda$ là $\varepsilon$-tích tenxơ phân bậc kiểu $\Delta_0$ của họ $(E_i)_{i \in J_\lambda}$, thì tồn tại một và chỉ một đẳng cấu của các đại số phân bậc kiểu $\Delta_0$, $w : \varepsilon'' \bigotimes_{\lambda \in L} E''_\lambda \to \varepsilon \bigotimes_{i \in I} E_i$, sao cho
 
@@ -831,7 +831,7 @@ $$
 \gamma = \sum_{i \in J_\lambda, j \in J_\mu} \alpha_i \beta_j = \left( \sum_{i \in J_\lambda} \alpha_i \right) \left( \sum_{j \in J_\mu} \beta_j \right).
 $$
 
-#### Nhận xét {#alg-iii-s4-n8-rem-1 .statement}
+#### Nhận xét {#alg-iii-s4-n8-rem-1 .statement tag=0617}
 
 (1) Cho I là một tập chỉ số vô hạn và $\Delta_0$ là một monoid giao hoán; ký hiệu $(\Delta_i)_{i \in I}$ là họ sao cho $\Delta_i = \Delta_0$ với mọi $i$ và giả sử rằng với mọi cặp có thứ tự các chỉ số phân biệt $(i, j)$ của I, ta được cho một ánh xạ $\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$ thỏa mãn các điều kiện (22), (23) và (24) (no. 7); hệ này cũng sẽ được gọi là một *hệ các nhân tử giao hoán trên họ* $(\Delta_i)$. Xét một họ $(E_i)_{i \in I}$ các A-đại số phân bậc kiểu $\Delta_0$; với mỗi tập con hữu hạn J của I, ký hiệu $E_J$ là một *tích tenxơ phân bậc $\varepsilon$ kiểu* $\Delta_0$ của họ con $(E_i)_{i \in J}$ (với một lựa chọn tùy ý về một thứ tự toàn phần trên J). Nếu J, J' là hai tập con hữu hạn của I sao cho $J \subset J'$, thì một đồng cấu chính tắc của các đại số phân bậc kiểu $\Delta_0$, h_{J'J}: E_J \to E_{J'}, đã được định nghĩa ở trên, và các tính chất duy nhất của các đồng cấu này cho thấy ngay lập tức rằng nếu $J \subset J' \subset J''$ là ba tập con hữu hạn của I, thì h_{J''J} = h_{J'J'} \circ h_{J'J}. Do đó có một hệ trực tiếp $(E_J, h_{J'J})$ của các đại số phân bậc kiểu $\Delta_0$ (§ 3, no. 3), mà tập chỉ số là tập có hướng phải $\mathfrak{F}(I)$ của các tập con hữu hạn của I. Đại số phân bậc kiểu $\Delta_0$, *giới hạn trực tiếp* của hệ trực tiếp này (§ 3, no. 3), được gọi là một *tích tenxơ phân bậc $\varepsilon$ kiểu* $\Delta_0$ của họ $(E_i)_{i \in I}$; nó cũng được ký hiệu bởi $\varepsilon \bigotimes_{i \in I} E_i$. Khi mọi $\Delta_i$ đều bằng $\mathbf{Z}$ và $\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$, tích tenxơ $\varepsilon \bigotimes_{i \in I} E_i$ cũng được gọi là tích tenxơ *lệch* của họ $(E_i)_{i \in I}$ và được ký hiệu bởi $g \bigotimes_{i \in I} E_i$. Chúng tôi để cho người đọc công việc phát biểu và chứng minh mệnh đề tổng quát hóa Mệnh đề 10 của no. 7 cho trường hợp I là vô hạn, cũng như Mệnh đề 8 của no. 5 tổng quát hóa Mệnh đề 5 của no. 2 cho trường hợp I là vô hạn. Chú ý rằng A-môđun nền của $\varepsilon \bigotimes_{i \in I} E_i$ cũng chính là A-môđun nền của tích tenxơ (không phân bậc) của họ $(E_i)_{i \in I}$ các đại số không phân bậc được định nghĩa ở no. 5.
 
@@ -839,7 +839,7 @@ $$
 
 ### 9. CÁC ĐẠI SỐ PHẢN GIAO HOÁN VÀ CÁC ĐẠI SỐ PHẢN XỨNG
 
-#### Định nghĩa 7 {#alg-iii-s4-def-7 .statement}
+#### Định nghĩa 7 {#alg-iii-s4-def-7 .statement tag=0618}
 
 *Một A-đại số phân bậc E kiểu $\mathbf{Z}$ được gọi là phản giao hoán nếu với mọi phần tử thuần nhất khác không x, y của E*
 
@@ -849,7 +849,7 @@ $$
 
 *Đại số E được gọi là phản xứng nếu nó phản giao hoán và thêm nữa $x^2 = 0$ với mọi phần tử thuần nhất $x \in E$ có bậc lẻ.*
 
-#### Nhận xét {#alg-iii-s4-n9-rem-1 .statement}
+#### Nhận xét {#alg-iii-s4-n9-rem-1 .statement tag=0619}
 
 (1) Cho $E^+$ là đại số con phân bậc của E bằng tổng trực tiếp của các $E_{2n}$ ($n \in \mathbf{Z}$); từ Định nghĩa 7 suy ra rằng nếu E phản giao hoán thì $E^+$ là một *đại số con được chứa trong tâm của* E (và do đó giao hoán).
 
@@ -857,7 +857,7 @@ $$
 
 (3) Chúng tôi sẽ nghiên cứu chi tiết trong § 7 những ví dụ quan trọng của các đại số phản xứng.
 
-#### Bổ đề 4 {#alg-iii-s4-lem-4 .statement}
+#### Bổ đề 4 {#alg-iii-s4-lem-4 .statement tag=061A}
 
 *Cho E là một đại số phân bậc kiểu $\mathbf{Z}$ và S là một tập hợp các phần tử thuần nhất $\neq 0$; tập F gồm các phần tử của E mà mọi thành phần thuần nhất $x \neq 0$ đều thỏa mãn quan hệ (36) với mọi $y \in S$ là một đại số con phân bậc của E.*
 
@@ -866,7 +866,7 @@ $$
 (x'x'')y = (-1)^{(p'+p'')q}y(x'x'').
 $$
 
-#### Mệnh đề 13 {#alg-iii-s4-prop-13 .statement}
+#### Mệnh đề 13 {#alg-iii-s4-prop-13 .statement tag=061B}
 
 *Cho E là một đại số trên A phân bậc kiểu $\mathbf{Z}$ và S là một hệ sinh của đại số E gồm các phần tử thuần nhất $\neq 0$; để E là phản giao hoán (tương ứng, phản xứng), điều kiện cần và đủ là (36) đúng với mọi $x \in S$ và $y \in S$ (tương ứng, điều kiện này đúng và thêm nữa $x^2 = 0$ với mọi $x$ thuần nhất bậc lẻ thuộc S).*
 
@@ -874,7 +874,7 @@ Trước hết ta xét trường hợp các đại số phản giao hoán. Theo 
 
 Để chứng minh mệnh đề trong trường hợp các đại số phản xứng, có thể giả sử E đã là phản giao hoán; khi đó ngay lập tức thấy rằng mọi phần tử thuần nhất bậc lẻ trong E đều có dạng $\sum_i z_ix_i$, trong đó $z_i \in E^+$ và $x_i \in S$ có bậc lẻ (dùng sự kiện rằng $E^+$ được chứa trong tâm của E); suy ra $\left( \sum_i z_ix_i \right)^2 = \sum_i z_i^2x_i^2 + \sum_{i<j} z_i z_j (x_ix_j + x_jx_i) = 0$ vì $x_i^2 = 0$ theo giả thiết và $x_ix_j + x_jx_i = 0$ theo (36).
 
-#### Mệnh đề 14 {#alg-iii-s4-prop-14 .statement}
+#### Mệnh đề 14 {#alg-iii-s4-prop-14 .statement tag=061C}
 
 *Cho E và F là hai đại số trên A phân bậc kiểu $\mathbf{Z}$, cả hai đều phản giao hoán (tương ứng, phản xứng). Khi đó tích tenxơ xiên $E^g \otimes_A F$ (no. 7) là một đại số phản giao hoán (tương ứng, phản xứng).*
 
@@ -888,13 +888,13 @@ $$
 $$
 và tiêu chuẩn của Mệnh đề 13 cho thấy $E^g \otimes_A F$ là phản giao hoán vì $pq' + pp' + qq' - qp' \equiv (p + q)(p' + q')$ (mod. 2). Nếu thêm nữa E và F là phản xứng và $p + q$ là lẻ, thì một trong hai số $p, q$ tất yếu là lẻ, do đó $(x \otimes y)^2 = \pm (x^2) \otimes (y^2) = 0$ và Mệnh đề 13 cho thấy $E^g \otimes_A F$ là phản xứng.
 
-#### Hệ quả {#alg-iii-s4-n9-cor-1 .statement}
+#### Hệ quả {#alg-iii-s4-n9-cor-1 .statement tag=061D}
 
 *Cho E là một đại số trên A phân bậc kiểu $\mathbf{Z}$ phản giao hoán* (tương ứng, *phản xứng*). *Khi đó với mọi đồng cấu vành $\rho : A \to B$, đại số trên B phân bậc $\rho^*(E)$ (no. 8, *Nhận xét 2*) *là phản giao hoán* (tương ứng, *phản xứng*).
 
 Vành B với phân bậc tầm thường có thể được xem như một đại số trên A phản xứng và $\rho^*(E) = E^g \otimes_A B$, do đó có thể áp dụng Mệnh đề 14.
 
-#### Nhận xét {#alg-iii-s4-n9-rem-2 .statement}
+#### Nhận xét {#alg-iii-s4-n9-rem-2 .statement tag=061E}
 
 Cho E là một đại số trên A phân bậc phản giao hoán kiểu $\mathbf{Z}$. Khi đó ánh xạ A-tuyến tính từ $E \otimes_A E$ vào E được xác định bởi phép nhân của E ($§ 1$, no. 3) là một đồng cấu từ đại số trên A phân bậc $E^g \otimes_A E$ vào E, vì, theo ký hiệu của Mệnh đề 14, trong đại số E,
 $$

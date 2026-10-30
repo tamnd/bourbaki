@@ -57,7 +57,7 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: 9014150dd23621beb068a9cff949348c6c1889c2a84b07cd06313dd80e417bed
+content_sha256: e617c5fb964b4dfa4c93d927e10519f76530432982d0dd1d298de1585dc144da
 ---
 
 ## § 6. PROMEASURES AND MEASURES ON A LOCALLY CONVEX SPACE
@@ -70,7 +70,7 @@ Let E be a locally convex space. We denote by $\mathscr{F}(E)$ the set of closed
 
 It can be shown that the inverse limit of the inverse system $\mathscr{Q}(E)$ is canonically isomorphic to the algebraic dual $E'{}^*$ of $E'$, equipped with the weak topology $\sigma(E'{}^*, E')$.
 
-#### Definition 1 {#int-ix-s6-def-1 .statement}
+#### Definition 1 {#int-ix-s6-def-1 .statement tag=09S6}
 
 *Let $E$ be a locally convex space. One calls promeasure on $E$ every inverse system$^{(1)}$ of measures (§ 4, No. 2, Def. 1) on the inverse system of finite-dimensional quotients of $E$.*
 
@@ -80,7 +80,7 @@ For a subspace $V$ of $E$ to belong to $\mathscr{F}(E)$, it is necessary and suf
 
 Let $\lambda$ be a bounded measure on $E$. For every $V \in \mathscr{F}(E)$, let us denote by $\widetilde{\lambda}_V$ the image of $\lambda$ under the canonical mapping $p_V$ of $E$ onto $E/V$. One has $p_V = p_{VW} \circ p_W$ for any two elements $V$ and $W$ of $\mathscr{F}(E)$ such that $V \supset W$; consequently, the family $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathscr{F}(E)}$ is a promeasure on $E$. We shall say that $\widetilde{\lambda}$ is the promeasure *associated* with the measure $\lambda$. One sees immediately that $\lambda$ and $\widetilde{\lambda}$ have the same total mass.
 
-#### Proposition 1 {#int-ix-s6-prop-1 .statement}
+#### Proposition 1 {#int-ix-s6-prop-1 .statement tag=09S7}
 
 *Let $E$ be a locally convex space. The mapping $\lambda \mapsto \widetilde{\lambda}$ is a bijection of the set of bounded measures on $E$ onto the set of promeasures $(\mu_V)_{V \in \mathscr{F}(E)}$ on $E$ satisfying the following condition:
 
@@ -92,7 +92,7 @@ In particular, the mapping $\lambda \mapsto \widetilde{\lambda}$ is injective. I
 
 (1) Also called a 'projective system'.
 
-#### Proposition 2 {#int-ix-s6-prop-2 .statement}
+#### Proposition 2 {#int-ix-s6-prop-2 .statement tag=09S8}
 
 — Let T be a countable set, and E the vector space of real functions on T, equipped with the topology of pointwise convergence. Every promeasure on E is a measure.
 
@@ -167,7 +167,7 @@ $$
 
 for all $x' \in V^\circ$. One has $E' = \bigcup_{V \in \mathscr{F}(E)} V^\circ$, so that the preceding formula characterizes the function $\mathscr{F}\mu$ on $E'$. Finally, if one sets $x' = 0$ in (5), one sees that the total mass of $\mu$ is equal to $(\mathscr{F}\mu)(0)$.
 
-#### Proposition 3 {#int-ix-s6-prop-3 .statement}
+#### Proposition 3 {#int-ix-s6-prop-3 .statement tag=09S9}
 
 *Let $E$ be a locally convex space. The mapping $\mu \mapsto \mathscr{F}\mu$ of the set of promeasures on $E$ into the set of functions on $E'$ is injective.*
 
@@ -183,13 +183,13 @@ For every integer $m \geqslant 0$, let $G_m$ be the subgroup $m \cdot \mathbf{Z}
 
 Let $f$ be a continuous function on $\mathbf{R}^n$ with compact support. For every integer $m \geqslant 0$, set $f_m(x) = \sum_{q \in G_m} f(x + q)$. It is immediate that for every $x \in \mathbf{R}^n$, the preceding series has only finitely many terms, and that $f_m$ belongs to $\mathscr{C}_m$. Moreover, it is easy to see that the sequence $(f_m)$ tends to $f$ uniformly on every compact set, and that there exists a constant $C \geqslant 0$ such that $|f_m| \leqslant C$ for all $m$. Consequently, $\mu(f) = \lim_{m \to \infty} \mu(f_m)$ by Prop. 12 of §5, No. 6. Since $f_m \in \mathscr{C}_m$, we have $\mu(f_m) = 0$, whence finally $\mu(f) = 0$. Thus $\mu = 0$.
 
-#### Remark {#int-ix-s6-n3-rem-1 .statement}
+#### Remark {#int-ix-s6-n3-rem-1 .statement tag=09SA}
 
 — When $E$ is finite-dimensional, every character of $E$ is of the form $x \mapsto e^{i\langle x, x' \rangle}$ with $x' \in E'$ (*Théor. spect.*, Ch. II, §1, No. 9, Cor. 3 of Prop. 12). In this case, Prop. 3 follows from the uniqueness theorem for the Fourier transformation (*loc. cit.*, §1, No. 6, Cor. of Prop. 6).*
 
 ### 4. Calculation of Gaussian integrals
 
-#### Lemma 1 {#int-ix-s6-lem-1 .statement}
+#### Lemma 1 {#int-ix-s6-lem-1 .statement tag=09SB}
 
 For every integer $n \geqslant 0$,
 
@@ -238,7 +238,7 @@ For $n = 0$, this relation reduces to $\Gamma(\frac{1}{2}) = \pi^{1/2}$, that is
 
 Finally, the formula (8) follows from the fact that the function $x \mapsto x^{2n+1} e^{-x^2/2}$ is odd.
 
-#### Lemma 2 {#int-ix-s6-lem-2 .statement}
+#### Lemma 2 {#int-ix-s6-lem-2 .statement tag=09SC}
 
 For every complex number $y$,
 
@@ -302,7 +302,7 @@ by (14). The formula (11) then follows from (12).
 
 ### 5. Gaussian promeasures and measures
 
-#### Proposition 4 {#int-ix-s6-prop-4 .statement}
+#### Proposition 4 {#int-ix-s6-prop-4 .statement tag=09SD}
 
 *Let E be a locally convex space. For every positive quadratic form Q on E', there exists one and only one promeasure $\Gamma_Q$ on E such that $\mathscr{F} \Gamma_Q = e^{-Q/2}$. The total mass of $\Gamma_Q$ is equal to 1.*
 
@@ -349,13 +349,13 @@ by formula (4) of No. 3.
 C) *The general case.*
 Let $V \in \mathscr{F}(E)$. Denote by $p_V$ the canonical mapping of $E$ onto $E/V$, and by $Q_V$ the positive quadratic form $Q \circ {}^t p_V$ on $(E/V)'$; finally, let $\mu_V$ be the measure on $E/V$ with Fourier transform $e^{-Q_V/2}$ (cf. B)). If $W \in \mathscr{F}(E)$ is contained in $V$, then $p_V = p_{VW} \circ p_W$, whence $Q_V = Q_W \circ {}^t p_{VW}$; by formula (4) of No. 3, the measure $p_{VW}(\mu_W)$ has as Fourier transform the function $(e^{-Q_W/2}) \circ {}^t p_{VW} = e^{-Q_V/2}$, hence is equal to $\mu_V$. The family $(\mu_V)_{V \in \mathscr{F}(E)}$ is therefore a promeasure $\mu$ on $E$. Formula (5) of No. 3 shows that $\mathscr{F}\mu$ is equal to $e^{-Q/2}$.
 
-#### Definition 2 {#int-ix-s6-def-2 .statement}
+#### Definition 2 {#int-ix-s6-def-2 .statement tag=09SE}
 
 *Let $E$ be a locally convex space. For every positive quadratic form $Q$ on $E'$, the promeasure on $E$ whose Fourier transform is equal to $e^{-Q/2}$ is called the Gaussian promeasure on $E$ with variance $Q$, and is denoted $\Gamma_Q$. A promeasure $\mu$ on $E$ is said to be Gaussian if there exists a positive quadratic form $Q$ on $E'$ such that $\mu = \Gamma_Q$.*
 
 By an abuse of language, a bounded measure $\mu$ on $E$ will be said to be Gaussian with variance $Q$ if the associated promeasure $\widetilde{\mu}$ is equal to $\Gamma_Q$.
 
-#### Remark {#int-ix-s6-n5-rem-1 .statement}
+#### Remark {#int-ix-s6-n5-rem-1 .statement tag=09SF}
 
 — 1) Let $E$ be a finite-dimensional vector space, and let $\mu$ be a positive measure on $E$ of mass 1, such that every linear form on $E$ belongs to $\mathscr{L}^2(E, \mu)$. One defines an element $m$ of $E$ and a positive quadratic form $V$ on $E'$ by the formulas
 $$
@@ -377,7 +377,7 @@ $$
 
 The image of a Gaussian promeasure under a continuous linear mapping is a Gaussian promeasure. More precisely, we have the following result:
 
-#### Proposition 5 {#int-ix-s6-prop-5 .statement}
+#### Proposition 5 {#int-ix-s6-prop-5 .statement tag=09SG}
 
 *Let E and E₁ be two locally convex spaces, and u a continuous linear mapping of E into E₁. Let Q be a positive quadratic form on E', and Q₁ the positive quadratic form Q $\circ {}^t u$ on E'₁. Then $u(\Gamma_Q) = \Gamma_{Q_1}$.*
 
@@ -389,11 +389,11 @@ $$
 
 whence $\mu = \Gamma_{Q_1}$ by Prop. 3 of No. 3.
 
-#### Corollary {#int-ix-s6-n5-cor-1 .statement}
+#### Corollary {#int-ix-s6-n5-cor-1 .statement tag=09SH}
 
 *Let E be a locally convex space and Q a positive quadratic form on E'. For every $x' \in E'$, the image of $\Gamma_Q$ under $x'$ is the Gaussian measure on $\mathbf{R}$ with variance $Q(x')$.*
 
-#### Proposition 6 {#int-ix-s6-prop-6 .statement}
+#### Proposition 6 {#int-ix-s6-prop-6 .statement tag=09SI}
 
 *Let E be a locally convex space, and $\mu$ a Gaussian measure on E, with variance Q. For every integer $n \geq 0$ and every $x' \in E'$, one has the relations*
 
@@ -423,7 +423,7 @@ and (16) follows immediately from (6) (No 4, Lemma 1). Similarly, formulas (17) 
 
 We can now prove a converse of the Cor. of Prop. 5.
 
-#### Proposition 7 {#int-ix-s6-prop-7 .statement}
+#### Proposition 7 {#int-ix-s6-prop-7 .statement tag=09SJ}
 
 *Let E be a locally convex space and $\mu$ a promeasure on E. Suppose that $x'(\mu)$ is a Gaussian measure on $\mathbf{R}$ for every $x' \in E'$. Then $\mu$ is a Gaussian promeasure on E.*
 
@@ -622,7 +622,7 @@ For every integer $n \geqslant 0$, denote by $D_n$ the set of numbers of the for
 
 For $t, t'$ in D, set $M(t, t') = \inf(t, t')$; we have seen that M is a kernel of positive type on D. Since the set D is countable, one can define the Gaussian *measure* m on $\Omega$ with covariance M (No. 6, *Example 2*).
 
-#### Lemma 3 {#int-ix-s6-lem-3 .statement}
+#### Lemma 3 {#int-ix-s6-lem-3 .statement tag=09SK}
 
 *For any $t, t'$ in D,
 $$
@@ -658,7 +658,7 @@ for $f \in E_n$.
 
 For every function $g \in \Omega$ and every integer $n \geqslant 0$, there exists one and only one function $u_n(g)$ that belongs to $E_n$ and coincides with $g$ at every point of $D_n$; we shall write $T_n g = u_{n+1}(g) - u_n(g)$. Since $D_n$ is finite, the mapping $T_n$ of $\Omega$ into $\mathscr{C}$ is continuous, hence $m$-measurable.
 
-#### Lemma 4 {#int-ix-s6-lem-4 .statement}
+#### Lemma 4 {#int-ix-s6-lem-4 .statement tag=09SL}
 
 — *For every integer $n \geqslant 0$,*
 
@@ -716,7 +716,7 @@ Since $u_n(g)$ and $g$ coincide on $D_m \subset D_n$ for $0 \leq m \leq n$, it i
 C) Construction of a Gaussian measure on $\mathscr{C}$:
 Let $w'$ be the bounded measure on $\mathscr{C}$ that is the image of $m$ under the $m$-measurable mapping $u : \Omega \to \mathscr{C}$. We are going to show that $w'$ is a Gaussian measure on $\mathscr{C}$, with variance $W$, whence $w = w'$. Denote by $\mathscr{D}$ the linear subspace of $\mathscr{M}^1$ generated by the measures $\varepsilon_t$ for $t$ running over $D$.
 
-#### Lemma 5 {#int-ix-s6-lem-5 .statement}
+#### Lemma 5 {#int-ix-s6-lem-5 .statement tag=09SM}
 
 For every measure $\mu \in \mathscr{D}$,
 
@@ -750,7 +750,7 @@ $$
 
 The formula (48) follows immediately from the formulas (49) to (52).
 
-#### Lemma 6 {#int-ix-s6-lem-6 .statement}
+#### Lemma 6 {#int-ix-s6-lem-6 .statement tag=09SN}
 
 Let $\mu \in \mathscr{M}^1$. There exists a sequence of measures $\mu_n \in \mathscr{D}$ such that $\mu(f) = \lim_{n \to \infty} \mu_n(f)$ for all $f \in \mathscr{C}$ and $W(\mu) = \lim_{n \to \infty} W(\mu_n)$.
 
@@ -780,7 +780,7 @@ Q.E.D.
 
 The measure $w$ on $\mathscr{C}$ whose Fourier transform is equal to $e^{-W/2}$ is called the *Wiener measure on $\mathscr{C}$*.
 
-#### Remark {#int-ix-s6-n7-rem-1 .statement}
+#### Remark {#int-ix-s6-n7-rem-1 .statement tag=09SO}
 
 — For every semi-open interval $J = ]a, b]$ contained in T, let us set $l(J) = b - a$ (the length of J) and denote by $A_J$ the linear form $f \mapsto f(b) - f(a)$ on $\mathscr{C}$. It can be shown that the Wiener measure is characterized by the following property:
 
@@ -788,7 +788,7 @@ The measure $w$ on $\mathscr{C}$ whose Fourier transform is equal to $e^{-W/2}$ 
 
 ### 8. Continuity of the Fourier transform
 
-#### Proposition 8 {#int-ix-s6-prop-8 .statement}
+#### Proposition 8 {#int-ix-s6-prop-8 .statement tag=09SP}
 
 — Let E be a locally convex space, $\mu$ a promeasure on E, and $\Phi$ the Fourier transform of $\mu$. One has the inequalities
 
@@ -830,7 +830,7 @@ $$
 
 whence (54).
 
-#### Corollary {#int-ix-s6-n8-cor-1 .statement}
+#### Corollary {#int-ix-s6-n8-cor-1 .statement tag=09SQ}
 
 — Equip $E'$ with a topology compatible with its vector space structure. For $\Phi$ to be continuous, it is necessary and sufficient that its real part $\Re \Phi$ be continuous at the origin, in which case $\Phi$ is uniformly continuous.
 
@@ -842,7 +842,7 @@ $$
 (\mathscr{F}\mu)(x) = \int_{F'} e^{i\langle x, x' \rangle} d\mu(x').
 $$
 
-#### Proposition 9 {#int-ix-s6-prop-9 .statement}
+#### Proposition 9 {#int-ix-s6-prop-9 .statement tag=09SR}
 
 — *If F is barreled, then the Fourier transform of every bounded measure on F' is a uniformly continuous function on F*.
 
@@ -870,7 +870,7 @@ The second member of this inequality tends to 0 with $\varepsilon$; thus $\Re \P
 
 Let T be a finite-dimensional vector space and $\mu$ a bounded measure on $T'$; we shall identify T with the dual of $T'$, so that the Fourier transform $\Phi$ of $\mu$ is a function on T. We assume given two positive quadratic forms h and q on T and a number $\varepsilon > 0$. For every real number $r > 0$, we denote by $C_r$ the set of $x' \in T'$ such that $\langle x, x' \rangle^2 \leq r^2 h(x)$ for all $x \in T$.
 
-#### Proposition 10 {#int-ix-s6-prop-10 .statement}
+#### Proposition 10 {#int-ix-s6-prop-10 .statement tag=09SS}
 
 — *Under the hypothesis $\Phi(0) - \Re \Phi \leq \varepsilon + q$, we have*
 
@@ -963,7 +963,7 @@ Let F be a locally convex space. Let $\mathscr{T}_s$ be the weak topology $\sigm
 
 One calls Sazonov’s topology on F the locally convex topology $\mathscr{S}$ defined by the continuous seminorms N satisfying the following condition: $N^2$ is a positive quadratic form on F and there exists a continuous positive quadratic form H on F such that $\operatorname{Tr}(N^2/H) < +\infty$. The topology $\mathscr{S}$ is coarser than the given topology on F; if these topologies are identical, F is said to be nuclear. This class of spaces will be studied in detail later on.
 
-#### Theorem 2 (Minlos) {#int-ix-s6-thm-2 .statement}
+#### Theorem 2 (Minlos) {#int-ix-s6-thm-2 .statement tag=09ST}
 
 — *Let F be a locally convex space, $\mathscr{T}$ a locally convex topology on $F'$ intermediate to $\mathscr{T}_s$ and $\mathscr{T}_c$, and $\mu$ a promeasure on $F'_{\mathscr{T}}$. Assume that the Fourier transform $\Phi$ of $\mu$ is continuous on F for the Sazonov topology. Then $\mu$ is a measure on $F'_{\mathscr{T}}$.*
 
@@ -993,13 +993,13 @@ Since $p_V$ defines, by passage to the quotient, an isomorphism of $F'_\mathscr{
 
 Q.E.D.
 
-#### Corollary {#int-ix-s6-n10-cor-1 .statement}
+#### Corollary {#int-ix-s6-n10-cor-1 .statement tag=09SU}
 
 — *Let F be a barreled nuclear space, $\mathscr{T}$ a locally convex topology on $F'$ intermediate to $\mathscr{T}_s$ and $\mathscr{T}_c$, $\mu$ a promeasure on $F'_\mathscr{T}$, and $\Phi$ the Fourier transform of $\mu$. For $\mu$ to be a measure, it is necessary and sufficient that $\Phi$ be continuous on F.*
 
 Necessity follows from Prop. 9 of No. 8 and sufficiency from Th. 2.
 
-#### Remark {#int-ix-s6-n10-rem-1 .statement}
+#### Remark {#int-ix-s6-n10-rem-1 .statement tag=09SV}
 
 — Let F be a barreled space and $\mathscr{T}$ a locally convex topology on $F'$ intermediate to $\mathscr{T}_s$ and $\mathscr{T}_c$. Every subset of $F'$ compact for $\mathscr{T}$ is compact for the coarser topology $\mathscr{T}_s$. Conversely, let K be a subset of $F'$ compact for $\mathscr{T}_s$. Since F is barreled, K is equicontinuous (TVS, III, §4, No. 2, Th. 1); but by Ascoli’s theorem, every equicontinuous subset of $F'$ is relatively compact for $\mathscr{T}_c$ and *a fortiori* for $\mathscr{T}$, therefore K is contained in a subset of $F'$ compact for $\mathscr{T}$. It is not difficult to infer from this that the identity mapping of $F'_\mathscr{T}$ onto $F'_{\mathscr{T}_s}$ defines a bijection between the sets of measures on these two spaces.
 
@@ -1010,7 +1010,7 @@ Let E be a real Hilbert space, in which the scalar product is denoted $(x|y)$. T
 $$(64)$$
 $$(\mathscr{F}\mu)(x) = \int_{E} e^{i(x|y)} d\mu(y) \quad (x \in E).$$
 
-#### Theorem 3 (Prokhorov–Sazonov) {#int-ix-s6-thm-3 .statement}
+#### Theorem 3 (Prokhorov–Sazonov) {#int-ix-s6-thm-3 .statement tag=09SW}
 
 *Let E be a Hilbert space and Es the space E equipped with the weakened topology. Let μ be a promeasure on E, and Φ its Fourier transform. The following conditions are equivalent*:
 
@@ -1059,19 +1059,19 @@ for all $x \in E$. Thus b) is verified.
 
 Q.E.D.
 
-#### Corollary 1 {#int-ix-s6-thm-2-cor-1 .statement}
+#### Corollary 1 {#int-ix-s6-thm-2-cor-1 .statement tag=09SX}
 
 — *Let $E_1$ and $E_2$ be two Hilbert spaces, $u$ a Hilbert–Schmidt mapping of $E_1$ into $E_2$, and $\mu$ a promeasure on $E_1$. Assume that the Fourier transform $\Phi$ of $\mu$ is continuous on $E_1$. Then the promeasure $\nu = u(\mu)$ is a measure on $E_2$ equipped with the weak topology.*
 
 With the identifications of $E_1$ and $E_2$ with their duals introduced in this No., the Fourier transform of $\nu$ is equal to $\Phi \circ u^*$, where $u^*$ is the adjoint of $u$. Now, $u^*$ is a Hilbert–Schmidt mapping of $E_2$ into $E_1$ (Annex, No. 2), and the quadratic form $y \mapsto \|u^*(y)\|^2$ on $E_2$ is therefore nuclear. If $(E_2)_\mathscr{S}$ denotes $E_2$ equipped with the Sazonov topology, $u^*$ is therefore a continuous linear mapping of $(E_2)_\mathscr{S}$ into $E_1$, and $\mathscr{F}_V = \Phi \circ u^*$ is continuous on $(E_2)_\mathscr{S}$; Theorem 3 then shows that $\nu$ is a measure on the space $E_2$ equipped with the weak topology.
 
-#### Corollary 2 {#int-ix-s6-thm-2-cor-2 .statement}
+#### Corollary 2 {#int-ix-s6-thm-2-cor-2 .statement tag=09SY}
 
 — *Let $Q$ be a nuclear positive quadratic form on the Hilbert space $E$. The Gaussian promeasure $\Gamma_Q$ on $E$ with variance $Q$ is a measure on $E_s$.*
 
 The Fourier transform $\Phi$ of $\Gamma_Q$ is equal to $e^{-Q/2}$. Now, $e^t \geq 1 + t$ for every real number $t$, whence $\Phi(0) - \Re \Phi \leq Q/2$. The condition b) of Theorem 3 is therefore verified and $\Gamma_Q$ is a measure on $E_s$.
 
-#### Remark {#int-ix-s6-n11-rem-1 .statement}
+#### Remark {#int-ix-s6-n11-rem-1 .statement tag=09SZ}
 
 — 1) Let $E$ be a Hilbert space, $E_s$ the space $E$ equipped with the weak topology, and $j$ the identity mapping of $E$ into $E_s$. One knows that $j$ defines a bijection of the set of promeasures on $E$ onto the corresponding set for $E_s$. Moreover, if $E$ is separable, it is a Polish space and $j$ defines a bijection of the set of bounded measures on $E$ onto the set of bounded measures on $E_s$ (§ 3, No. 3, *Remark*); it can be shown (the theorem of Phillips) that this theorem still holds if $E$ is not separable. Consequently, Theorem 3 furnishes criteria for a promeasure on $E$ to be a measure.
 
@@ -1079,7 +1079,7 @@ The Fourier transform $\Phi$ of $\Gamma_Q$ is equal to $e^{-Q/2}$. Now, $e^t \ge
 
 *12. Relations with functions of positive type*
 
-#### Definition 3 {#int-ix-s6-def-3 .statement}
+#### Definition 3 {#int-ix-s6-def-3 .statement tag=09T0}
 
 — *Let $G$ be a group. A complex-valued function $\Phi$ on $G$ is said to be of positive type if the inequality*
 
@@ -1091,7 +1091,7 @@ $$
 
 This concept will be studied in detail later on.
 
-#### Proposition 11 {#int-ix-s6-prop-11 .statement}
+#### Proposition 11 {#int-ix-s6-prop-11 .statement tag=09T1}
 
 — Let E be a finite-dimensional vector space, $\mu$ a bounded (positive) measure on E, and $\Phi$ the Fourier transform of $\mu$. The function $\Phi$ is continuous and of positive type on $E'$.
 
@@ -1110,7 +1110,7 @@ Q.E.D.
 
 One can prove a converse known as *Bochner's theorem*: every continuous function on $E'$ of positive type is the Fourier transform of a bounded (positive) measure. (*) We shall assume this result for the rest of No. 12.
 
-#### Theorem 4 {#int-ix-s6-thm-4 .statement}
+#### Theorem 4 {#int-ix-s6-thm-4 .statement tag=09T2}
 
 — Let E be a locally convex space. The Fourier transformation is a bijection of the set of promeasures on E onto the set of functions of positive type on $E'$ whose restriction to every finite-dimensional subspace is continuous.
 
@@ -1126,7 +1126,7 @@ $$
 
 whence $pvw(\mu_w) = \mu_v$ by Prop. 3 of No. 3. Consequently, the family $\mu = (\mu_v)_{v \in \mathscr{F}(E)}$ is a promeasure on $E$; it is clear that $\Phi$ is the Fourier transform of $\mu$.
 
-#### Corollary {#int-ix-s6-n11-cor-1 .statement}
+#### Corollary {#int-ix-s6-n11-cor-1 .statement tag=09T3}
 
 — *Let F be a barreled nuclear space; equip F' with a locally convex topology $\mathscr{T}$ intermediate to the weak topology $\sigma(F', F)$ and the topology of uniform convergence on the compact convex subsets of F. The Fourier transformation is a bijection of the set of bounded (positive) measures on F' onto the set of continuous functions of positive type on F.*
 

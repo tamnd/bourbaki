@@ -12,9 +12,9 @@ pdf_pages: 0143-0145, 0172-0173
 extraction: ocr
 statements: 6
 exercises: 4
-content_sha256: cdb2d60130ed4003cf88f785d97836b553339751b3d31f5a2ef4d6665f4fbd72
+content_sha256: 000923317b41d026f6e781b2ea3ebfb558595453cffa27a4e2db67be7b70c57d
 translated_from: content/en/evt/III/02_s2_bornological_spaces.md
-source_content_sha256: c9b75a7d07661743ad6632e76701373f969d94167d8df709d5750d9911b44db5
+source_content_sha256: 40a687273614f4755635004c7de82956200bd4dc25c1f116ef776c135c6ae0d1
 translation_model: gpt-5.4
 translation_run: translate-vi-b564a2fb
 glossary_version: 34
@@ -26,7 +26,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Trong đoạn này, E ký hiệu một không gian lồi địa phương, và $\mathscr{B}$ ký hiệu bornology chính tắc của nó (III, p. 3, định nghĩa 5).
 
-#### Bổ đề 1 {#evt-iii-s2-lem-1 .statement}
+#### Bổ đề 1 {#evt-iii-s2-lem-1 .statement tag=07M8}
 
 — *Cho G là một không gian nửa chuẩn, p là nửa chuẩn của nó, và u là một ánh xạ tuyến tính từ G vào E. Các điều kiện sau là tương đương* :
 
@@ -36,7 +36,7 @@ Trong đoạn này, E ký hiệu một không gian lồi địa phương, và $\
 
 Ngay lập tức thấy rằng (i) kéo theo (ii) (III, p. 4, hệ quả 1) và (ii) kéo theo (iii). Cho V là một lân cận của 0 trong E ; nếu $u^{-1}(V)$ không phải là một lân cận của 0 trong G, thì tồn tại một dãy $(y_n)$ các điểm của $G - u^{-1}(V)$ sao cho $p(y_n) \leq \frac{1}{n^2}$. Do đó dãy $x_n = n y_n$ hội tụ về 0 trong G và $u(x_n) \notin nV$, điều này kéo theo dãy $(u(x_n))$ không bị chặn. Vậy (iii) kéo theo (i).
 
-#### Mệnh đề 1 {#evt-iii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#evt-iii-s2-prop-1 .statement tag=07M9}
 
 *Các điều kiện sau là tương đương* :
 (i) *Mọi nửa chuẩn trên E bị chặn trên các tập con bị chặn của E đều liên tục*.
@@ -53,11 +53,11 @@ Bây giờ cho $(E_i, u_i)_{i \in I}$ như trong (ii') và cho u là một ánh 
 
 Ngay lập tức thấy rằng (iii) kéo theo (iii') (III, p. 3, hệ quả.) Sau cùng, nếu p là một nửa chuẩn trên E, bị chặn trên các tập con bị chặn của E, thì điều kiện (iii') khẳng định rằng ánh xạ đồng nhất là liên tục từ E vào không gian nửa chuẩn (E, p); nói cách khác, p liên tục. Điều này chứng minh rằng (iii') kéo theo (i).
 
-#### Định nghĩa 1 {#evt-iii-s2-def-1 .statement}
+#### Định nghĩa 1 {#evt-iii-s2-def-1 .statement tag=07MA}
 
 *Một không gian lồi địa phương được gọi là bornological nếu nó thỏa mãn các điều kiện tương đương của mệnh đề 1.*
 
-#### Ví dụ {#evt-iii-s2-n0-exa-1 .statement}
+#### Ví dụ {#evt-iii-s2-n0-exa-1 .statement tag=07MB}
 
 — 1) Mọi không gian nửa chuẩn đều bornological.
 2) Đặc biệt, mọi không gian lồi địa phương hữu hạn chiều đều bornological.
@@ -65,19 +65,19 @@ Ngay lập tức thấy rằng (iii) kéo theo (iii') (III, p. 3, hệ quả.) S
 
 Mặt khác, một không gian con đóng của một không gian bornological không nhất thiết là bornological (IV, p. 63, bài tập 8).
 
-#### Hệ quả {#evt-iii-s2-n0-cor-1 .statement}
+#### Hệ quả {#evt-iii-s2-n0-cor-1 .statement tag=07MC}
 
 *Mọi không gian bornological Hausdorff và nửa đầy đủ đều là một giới hạn quy nạp của các không gian Banach.*
 
 Thật vậy, các không gian $E_A$, trong đó A đóng và bị chặn, là các không gian Banach (III, p. 8, hệ quả).
 
-#### Mệnh đề 2 {#evt-iii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#evt-iii-s2-prop-2 .statement tag=07MD}
 
 *Một không gian lồi địa phương khả mêtric là bornological.*
 
 Giả sử E khả mêtric, và p là một nửa chuẩn trên E bị chặn trên các tập con bị chặn của E, nhưng không liên tục. Cho A là tập hợp tất cả các $x \in E$ sao cho $p(x) < 1$. Cho $(V_n)_{n \geq 1}$ là một dãy giảm lập thành một hệ cơ bản các lân cận của 0 trong E. Vì p không liên tục, A không phải là một lân cận của 0; do đó với mọi $n > 0$, ta có $A \not\supseteq n^{-1} V_n$ và tồn tại một điểm $x_n$ trong $V_n$, sao cho $n^{-1} x_n \notin A$, nghĩa là $p(x_n) \geq n$. Dãy $(x_n)$ hội tụ về 0, nên bị chặn (III, p. 3, hệ quả); điều này mâu thuẫn với giả thiết về p.
 
-#### Hệ quả {#evt-iii-s2-n0-cor-2 .statement}
+#### Hệ quả {#evt-iii-s2-n0-cor-2 .statement tag=07ME}
 
 — *Mọi không gian Fréchet* (II, p. 24) *đều là giới hạn quy nạp của các không gian Banach*.
 

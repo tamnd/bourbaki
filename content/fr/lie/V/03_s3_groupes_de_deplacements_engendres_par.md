@@ -52,7 +52,7 @@ subsections:
       pdf_page: 86
 statements: 35
 exercises: 8
-content_sha256: 77eaa7c591ca0b86c37b65bc9267fc579783717370fd90281149824c262b3da3
+content_sha256: 61437a1e763704f4c3c7fb5e3ee5526fb5000dee377f0f4bef385d40eb9daecd
 ---
 
 ## § 3. Groupes de déplacements engendrés par des réflexions
@@ -70,7 +70,7 @@ Comme $E$ est localement compact, il résulte de la *Remarque* du § 4, no 5 de 
 
 ### 1. Résultats préliminaires
 
-#### Lemme 1 {#lie-v-s3-lem-1 .statement}
+#### Lemme 1 {#lie-v-s3-lem-1 .statement tag=0AQ2}
 
 *L’ensemble d’hyperplans* $\mathfrak{S}$ *est localement fini*.
 
@@ -78,7 +78,7 @@ Soit en effet $K$ une partie compacte de $E$. Si un hyperplan $H \in \mathfrak{S
 
 On peut donc appliquer à E et $\mathfrak{S}$ les définitions et résultats du . Nous appellerons simplement chambres, facettes, murs, etc. relatifs à W les chambres, facettes, murs, etc. définis dans E par $\mathfrak{S}$. Un déplacement $w \in W$ permutent entre elles les chambres, les facettes, les murs, etc
 
-#### Lemme 2 {#lie-v-s3-lem-2 .statement}
+#### Lemme 2 {#lie-v-s3-lem-2 .statement tag=0AQ3}
 
 *Soit C une chambre.*
 
@@ -113,7 +113,7 @@ Figure 1
 
 ### 2. Relation avec les systèmes de Coxeter
 
-#### Théorème 1 {#lie-v-s3-thm-1 .statement}
+#### Théorème 1 {#lie-v-s3-thm-1 .statement tag=0AQ4}
 
 Soient C une chambre et S l’ensemble des réflexions par rapport aux murs de C.
 
@@ -139,7 +139,7 @@ Le lemme 2 montre que W est transitif sur l’ensemble des chambres. De plus, si
 
 Soit enfin H un hyperplan tel que s_H ∈ W. Si l’on avait H ∉ $\mathfrak{h}$, il existerait au moins une chambre C' rencontrant H (§ 1, no 3, prop. 7). Tout point de H ∩ C' est invariant par s_H, donc appartient aux chambres C' et s_H(C') ; on a donc C' = s_H(C') ce qui contredit (iii) puisque s_H ≠ 1.
 
-#### Corollaire {#lie-v-s3-n2-cor-1 .statement}
+#### Corollaire {#lie-v-s3-n2-cor-1 .statement tag=0AQ5}
 
 Soit Σ un ensemble de réflexions engendrant W. Toute réflexion appartenant à W est conjuguée à un élément de Σ.
 
@@ -155,11 +155,11 @@ b) Étant donnés $x, y \in D$ et $w \in W$ tels que $y = w(x)$, on a $y = x$ (m
 
 Nous allons démontrer les trois énoncés suivants :
 
-#### Théorème 2 {#lie-v-s3-thm-2 .statement}
+#### Théorème 2 {#lie-v-s3-thm-2 .statement tag=0AQ6}
 
 Pour toute chambre C, l’adhérence $\overline{C}$ de C est un domaine fondamental pour W opérant dans E.
 
-#### Proposition 1 {#lie-v-s3-prop-1 .statement}
+#### Proposition 1 {#lie-v-s3-prop-1 .statement tag=0AQ7}
 
 Soient F une facette et C une chambre telles que $F \subset \overline{C}$. Soit $w \in W$. Les conditions suivantes sont équivalentes :
 
@@ -173,7 +173,7 @@ Soient F une facette et C une chambre telles que $F \subset \overline{C}$. Soit 
 
 Pour toute partie A de E, notons W(A) le sous-groupe de W formé des éléments laissant fixes tous les points de A.
 
-#### Proposition 2 {#lie-v-s3-prop-2 .statement}
+#### Proposition 2 {#lie-v-s3-prop-2 .statement tag=0AQ8}
 
 Soit A une partie non vide de E, soit $\mathfrak{H}_A$ l’ensemble des hyperplans $H \in \mathfrak{H}$ contenant A, soit $A'$ l’intersection des $H \in \mathfrak{H}_A$ et soit F une facette de E, ouverte dans $A'$ (§ 1, n° 3, prop. 7). On a $W(A) = W(A') = W(F)$, et $W(A)$ est engendré par les réflexions par rapport aux hyperplans de $\mathfrak{H}_A$.
 
@@ -205,15 +205,15 @@ $$
 
 d’où la proposition.
 
-#### Remarque 1 {#lie-v-s3-n3-rem-1 .statement}
+#### Remarque 1 {#lie-v-s3-n3-rem-1 .statement tag=0AQ9}
 
 Il résulte du th. 2 que si C est une chambre et F une facette, *il existe une facette F' et une seule contenue dans $\overline{C}$ qui soit transformée de F par un élément de W*.
 
-#### Remarque 2 {#lie-v-s3-n3-rem-2 .statement}
+#### Remarque 2 {#lie-v-s3-n3-rem-2 .statement tag=0AQA}
 
 Il résulte des prop. 1 et 2 que pour toute partie non vide A de E, il existe un point $a \in E$ tel que $W(A) = W(\{a\})$; de plus, le groupe $W(A)$ est un *groupe de Coxeter* (th. 1).
 
-#### Remarque 3 {#lie-v-s3-n3-rem-3 .statement}
+#### Remarque 3 {#lie-v-s3-n3-rem-3 .statement tag=0AQB}
 
 Soient C une chambre de E et S l’ensemble des réflexions par rapport aux murs de C. Soit $w \in W$ et soit $(s_1, \ldots, s_q)$ une décomposition réduite de $w$ par rapport à S. Si $x \in \overline{C}$ est fixe par $w$, on a $s_j(x) = x$ pour tout $j$ : cela résulte de la prop. 1 ci-dessus et du cor. 1 de la prop. 7 du chap. IV, § 1.
 
@@ -231,7 +231,7 @@ M(W) = (m_{ij})_{i,j \in I} est une matrice de Coxeter que l’on appelle la mat
 
 Soit C une chambre. Pour tout i \in I, on désigne par H_i(C) le mur de C tel que s_i(C) soit la réflexion par rapport à H_i(C) et par e_i(C) le vecteur unitaire orthogonal à H_i(C) et situé du même côté de H_i(C) que C. L’application i \mapsto H_i(C) est appelée la famille canoniquement indexée des murs de C.
 
-#### Proposition 3 {#lie-v-s3-prop-3 .statement}
+#### Proposition 3 {#lie-v-s3-prop-3 .statement tag=0AQC}
 
 Soit C une chambre, et soient i, j \in I, avec i \neq j. Posons s_i = s_i(C), H_i = H_i(C), e_i = e_i(C) et définissons de même s_j, H_j et e_j.
 
@@ -255,13 +255,13 @@ Soit W’ le sous-groupe de W engendré par s_i et s_j. Pour tout w \in W’, le
 
 Enfin, l’assertion (iii) résulte immédiatement de (i) et (ii), puisque m_{ij} \geq 2 pour i \neq j.
 
-#### Remarque {#lie-v-s3-n4-rem-1 .statement}
+#### Remarque {#lie-v-s3-n4-rem-1 .statement tag=0AQD}
 
 La formule (4) est en fait valable quels que soient i, j \in I : en effet, on a \pi/m_{ij} = 0 si m_{ij} = \infty, et si i = j, on a m_{ij} = 1 et (e_i|e_j) = 1.
 
 ### 5. Systèmes de vecteurs à produits scalaires négatifs
 
-#### Lemme 3 {#lie-v-s3-lem-3 .statement}
+#### Lemme 3 {#lie-v-s3-lem-3 .statement tag=0AQE}
 
 Soit q une forme quadratique positive sur un espace vectoriel réel V et soit B la forme bilinéaire symétrique associée. Soient a_1, \ldots, a_n des éléments de V tels que B(a_i, a_j) \leq 0 pour i \neq j.
 
@@ -280,7 +280,7 @@ $$
 $$
 pour toute forme linéaire $f$ sur $V$, on en déduit $\sum_i |c_i| \cdot f(a_i) = 0$, d’où $c_i = 0$ pour tout $i$, si de plus $f(a_i) > 0$ pour tout $i$. Cela démontre (ii).
 
-#### Lemme 4 {#lie-v-s3-lem-4 .statement}
+#### Lemme 4 {#lie-v-s3-lem-4 .statement tag=0AQF}
 
 Soit $Q = (q_{ij})$ une matrice réelle carrée symétrique d’ordre $n$ telle que :
 a) on a $q_{ij} \leq 0$ pour $i \neq j$;
@@ -295,7 +295,7 @@ Comme $q$ est une forme quadratique positive, le noyau $N$ de $q$ est l’ensemb
 
 D’autre part, on sait que les valeurs propres de $Q$ sont réelles (Alg., chap. IX, § 7, no 3, prop. 5) et positives puisque $q$ est positive. Soit $\lambda$ la plus petite d’entre elles. La matrice $Q' = Q - \lambda I_n$ est alors la matrice d’une forme positive dégénérée $q'$ et les éléments non diagonaux de $Q'$ sont les mêmes que ceux de $Q$. Par suite, $Q'$ satisfait aux conditions $a), b)$ et c) de l’énoncé. Comme le noyau $N'$ de $q'$ est le sous-espace propre de $Q$ correspondant à la valeur propre $\lambda$, l’assertion (ii) résulte de (i).
 
-#### Lemme 5 {#lie-v-s3-lem-5 .statement}
+#### Lemme 5 {#lie-v-s3-lem-5 .statement tag=0AQG}
 
 *Soient $e_1, \ldots, e_n$ des vecteurs engendrant $T$ tels que :*
     *a)* $(e_i|e_j) \leq 0$ pour $i \neq j;$
@@ -306,7 +306,7 @@ D’autre part, on sait que les valeurs propres de $Q$ sont réelles (Alg., chap
 
     Posons $q_{ij} = (e_i|e_j)$. La matrice $Q = (q_{ij})$ satisfait alors aux hypothèses du lemme 4 : les conditions a) et b) du lemme 4 sont les mêmes que les conditions a) et b) ci-dessus, et c) est satisfaite puisque $\sum_{i,j} q_{ij} x_i x_j = \sum_i ||x_i e_i||^2$. Le noyau $N$ de la forme quadratique $q$ sur $\mathbf{R}^n$, de matrice $Q$, est l’ensemble des $(c_1, \ldots, c_n) \in \mathbf{R}^n$ tels que $\sum_i c_i e_i = 0$. Si $N = \{0\}$, les $e_i$ sont linéairement indépendants et l’on est dans le cas 1). Si $\dim N > 0$, le lemme 4 (i) montre que l’on est dans le cas 2).
 
-#### Lemme 6 {#lie-v-s3-lem-6 .statement}
+#### Lemme 6 {#lie-v-s3-lem-6 .statement tag=0AQH}
 
 *Soit $(e_1, \ldots, e_n)$ une base de $T$ telle que $(e_i|e_j) \leq 0$ pour $i \neq j$.*
     *(i)* *Si $x = \sum_i c_i e_i \in T$ est tel que $(x|e_i) \geq 0$ pour tout $i$, on a $c_i \geq 0$ pour tout $i$.*
@@ -322,7 +322,7 @@ Les vecteurs — $x, e_1, \ldots, e_n$ satisfont alors aux hypothèses du lemme 
 
 ### 6. Théorèmes de finitude
 
-#### Lemme 7 {#lie-v-s3-lem-7 .statement}
+#### Lemme 7 {#lie-v-s3-lem-7 .statement tag=0AQI}
 
 *Soit $A$ un ensemble de vecteurs unitaires de $T$. S’il existe un nombre réel $\lambda < 1$ avec $(a|a') \leq \lambda$ pour $a, a' \in A$ et $a \neq a'$, alors l’ensemble $A$ est fini.*
 
@@ -342,7 +342,7 @@ $$
 
 On définit ainsi un homomorphisme $U$ du groupe W dans le groupe orthogonal de T ; le noyau de $U$ est l’ensemble des translations appartenant à W.
 
-#### Théorème 3 {#lie-v-s3-thm-3 .statement}
+#### Théorème 3 {#lie-v-s3-thm-3 .statement tag=0AQJ}
 
 (i) *L’ensemble des murs d’une chambre est fini.*
 (ii) *L’ensemble des directions des hyperplans appartenant à $\mathfrak{H}$ est fini.*
@@ -360,7 +360,7 @@ et l’ensemble A est fini d’après le lemme 7. D’où (ii).
 
 Soit maintenant $w \in W$ tel que $U(w).a = a$ pour tout $a \in A$. On a alors $U(w).t = t$ pour tout $t$ appartenant au sous-espace de T engendré par A. D’autre part, si $t \in T$ est orthogonal à A, on a $U(s_H).t = t$ pour tout $H \in \mathfrak{H}$, d’où $U(w).t = t$ et finalement $U(w) = 1$. Comme $U(w)(A) = A$ pour tout $w \in W$, on en déduit que $U(W)$ est isomorphe à un groupe de permutations de l’ensemble fini A, d’où (iii).
 
-#### Proposition 4 {#lie-v-s3-prop-4 .statement}
+#### Proposition 4 {#lie-v-s3-prop-4 .statement tag=0AQK}
 
 *Soient C une chambre et $\mathfrak{N}$ un ensemble de murs de C. Soit $W_{\mathfrak{N}}$ le sous-groupe de W engendré par les réflexions orthogonales par rapport aux éléments de $\mathfrak{N}$.*
 
@@ -381,11 +381,11 @@ Supposons qu’il existe un point $a$ de $E$ tel que $a \in H$ pour tout $H \in 
 
 Supposons enfin que la famille $(e_H)_{H \in \mathfrak{N}}$ soit libre. Soit $a$ un point de $E$. Pour tout hyperplan $H \in \mathfrak{N}$, il existe un nombre réel $c_H$ tel que $H$ se compose des points $a + t$ de $E$ avec $(t|e_H) = c_H$. Puisque la famille $(e_H)$ est libre, il existe $t \in T$ tel que $(t|e_H) = c_H$ pour tout $H \in \mathfrak{N}$, et le point $a + t$ de $E$ appartient à tous les hyperplans $H \in \mathfrak{N}$. Donc (iv) entraîne (iii).
 
-#### Remarque 1 {#lie-v-s3-n6-rem-1 .statement}
+#### Remarque 1 {#lie-v-s3-n6-rem-1 .statement tag=0AQL}
 
 Comme $W$ est engendré par les réflexions par rapport aux murs de la chambre $C$, la proposition précédente donne un critère pour que $W$ soit fini. Nous reviendrons sur cette question au n° 9.
 
-#### Remarque 2 {#lie-v-s3-n6-rem-2 .statement}
+#### Remarque 2 {#lie-v-s3-n6-rem-2 .statement tag=0AQM}
 
 Soient $F$ un espace affine réel de dimension finie et $G$ un groupe d’automorphismes de $F$. Pour tout $g \in G$, notons $U(g)$ l’automorphisme de l’espace des translations $V$ de $F$ associé à $g$. Supposons que l’image $U(G)$ soit un sous-groupe fini de $\mathbf{GL}(V)$; il existe alors sur $V$ un produit scalaire invariant par $U(G)$ (Intégr., chap. VII, § 3, n° 1, prop. 1). Si de plus $G$ opère proprement sur $F$ lorsqu’on le munit de la topologie discrète et qu’il soit engendré par des réflexions, on peut donc appliquer à $G$ tous les résultats du présent paragraphe.
 
@@ -397,7 +397,7 @@ La définition de $W_{J,C}$ s’étend évidemment à une partie J quelconque de
 
 Soit $T_J^0$ le sous-espace de T formé des vecteurs invariants par tout élément de $U(W_J)$ et soit $T_J$ le sous-espace orthogonal à $T_J^0$. Puisque $W_J$ est un sous-groupe distingué de W, il est clair que $T_J^0$ est invariant par $U(W)$, donc aussi $T_J$.
 
-#### Proposition 5 {#lie-v-s3-prop-5 .statement}
+#### Proposition 5 {#lie-v-s3-prop-5 .statement tag=0AQN}
 
 Soient $J_1, \ldots, J_s$ les ensembles de sommets des composantes connexes du graphe de Coxeter de W. Pour $1 \leq p \leq s$, posons
 
@@ -421,11 +421,11 @@ Enfin, soit V un sous-espace de $T_p$ invariant par $U(W_p)$. Pour tout $i \in J
 
 On dit que W est essentiel si le sous-espace T_0 des vecteurs de T invariants par U(W) est réduit à {0}; on dit que W est irréductible si la représentation U de W dans T est irréductible.
 
-#### Corollaire {#lie-v-s3-n7-cor-1 .statement}
+#### Corollaire {#lie-v-s3-n7-cor-1 .statement tag=0AQO}
 
 Supposons W ≠ {1}. Pour que W soit irréductible, il faut et il suffit qu’il soit essentiel et que son graphe de Coxeter soit connexe.
 
-#### Remarque {#lie-v-s3-n7-rem-1 .statement}
+#### Remarque {#lie-v-s3-n7-rem-1 .statement tag=0AQP}
 
 Sous les hypothèses de la prop. 5, les sous-espaces T_p pour 0 ≤ p ≤ s sont les composantes isotypiques de la représentation linéaire U de W dans T (Alg., chap. VIII, § 3, no 4). Il en résulte (loc. cit., prop. 11) que tout sous-espace vectoriel V de T stable par W est somme directe des sous-espaces V ∩ T_p pour 0 ≤ p ≤ s; de plus (loc. cit., prop. 10) tout endomorphisme commutant aux opérateurs U(w) pour w ∈ W, laisse stable chacun des T_p pour 0 ≤ p ≤ s et y induit une homothétie pour 1 ≤ p ≤ s. En particulier, les formes bilinéaires Φ sur T invariantes par W sont les formes bilinéaires données par:
 
@@ -459,7 +459,7 @@ $$
 
 quels que soient les $x_p \in E_p$ pour $0 \leq p \leq s$. Autrement dit, la loi d’opération de $W$ dans $E = E'$ n’est autre que la loi produit des lois d’opérations des $W_p$ dans les $E_p$ (en posant $W_0 = \{1\}$). Il en résulte que $W_p$ opère fidèlement dans $E_p$ et qu’on peut identifier $W_p$ à un groupe de déplacements de l’espace euclidien $E_p$ (l’espace des translations $T_p$ de $E_p$ étant naturellement muni du produit scalaire induit par celui de $T$).
 
-#### Proposition 6 {#lie-v-s3-prop-6 .statement}
+#### Proposition 6 {#lie-v-s3-prop-6 .statement tag=0AQQ}
 
 (i) Le groupe $W_p$ est un groupe de déplacements de l’espace affine euclidien $E_p$; il est engendré par des réflexions; muni de la topologie discrète, il opère proprement dans $E_p$; il est irréductible.
 
@@ -505,7 +505,7 @@ par suite aucun des ensembles $C_p$ n’est vide, et comme $C$ ne rencontre aucu
 
 Soient $C$ une chambre, $\mathscr{M}$ l’ensemble des murs de $C$ et pour $H \in \mathscr{M}$, soit $e_H$ le vecteur unitaire orthogonal à $H$ situé du même côté que $C$ de l’hyperplan $H$.
 
-#### Proposition 7 {#lie-v-s3-prop-7 .statement}
+#### Proposition 7 {#lie-v-s3-prop-7 .statement tag=0AQR}
 
 Supposons que le groupe $W$ soit essentiel et fini. Alors :
 (i) Il existe un unique point $a$ de $E$ invariant par $W$.
@@ -522,7 +522,7 @@ d’où $U(w).t = t$; comme $W$ est essentiel, cela entraîne $t = 0$, ce qui mo
 
 (iii) Soit $a$ l’unique point de $E$ invariant par $W$. Comme $(e_H)_{H \in \mathscr{M}}$ est une base de $T$, et que le produit scalaire est une forme bilinéaire non dégénérée sur $T$, il existe une base $(e'_H)_{H \in \mathscr{M}}$ de $T$ et une seule telle que $(e_H|e'_{H'}) = \delta_{HH'}$ pour $H, H'$ dans $\mathscr{M}$. Tout point $x$ de $E$ s’écrit de manière unique sous la forme $x = t + a$ avec $t = \sum_{H \in \mathscr{M}} \xi_H \cdot e'_H$ et les $\xi_H$ réels. Pour que $x$ appartienne à $C$, il faut et il suffit que, pour tout hyperplan $H \in \mathscr{M}$, il soit du même côté de $H$ que $e_H$, c’est-à-dire que $(t|e_H) = \xi_H$ soit strictement positif. D’où (iii).
 
-#### Proposition 8 {#lie-v-s3-prop-8 .statement}
+#### Proposition 8 {#lie-v-s3-prop-8 .statement tag=0AQS}
 
 Supposons que le groupe W soit essentiel, irréductible et infini. Alors :
 (i) Aucun point de E n’est invariant par W.
@@ -539,7 +539,7 @@ Comme le vecteur $t_0$ est orthogonal à l’hyperplan $H_0$, il existe un nombr
 
 Tout point de E s’écrit de manière unique sous la forme $x = t + a_0$ avec $t = \xi_1 \cdot t'_1 + \cdots + \xi_d \cdot t'_d$ et $\xi_1, \ldots, \xi_d$ réels. Pour que $x$ appartienne à C, il faut et il suffit qu’il soit du même côté de $H_m$ que $t_m$ pour $0 \leq m \leq d$; ceci se traduit par les inégalités $(t|t_1) > 0, \ldots, (t|t_d) > 0$, et $(t|t_0) > -c$, ou encore par $\xi_1 > 0, \ldots, \xi_d > 0, c_1 \xi_1 + \cdots + c_d \xi_d < c$. Comme C est non vide, on a $c > 0$. Posons $a_m = a_0 + \frac{c}{c_m} \cdot t'_m$ pour $1 \leq m \leq d$; la chambre C se compose alors des points de E de la forme $a_0 + \sum_{m=1}^d \lambda_m \cdot (a_m - a_0)$ avec $\lambda_1 > 0, \ldots, \lambda_d > 0$ et $\lambda_1 + \cdots + \lambda_d < 1$, donc C est le simplexe ouvert de sommets $a_0, \ldots, a_d$.
 
-#### Remarque 1 {#lie-v-s3-n9-rem-1 .statement}
+#### Remarque 1 {#lie-v-s3-n9-rem-1 .statement tag=0AQT}
 
 Identifions E à $E_0 \times E_1 \times \cdots \times E_s$, et W à $W_1 \times \cdots \times W_s$ comme au n° 8. D’après la prop. 6, la chambre C s’identifie alors à
 $$
@@ -547,7 +547,7 @@ E_0 \times C_1 \times \cdots \times C_s
 $$
 où $C_p$ est une chambre dans $E_p$ par rapport à l’ensemble $\mathfrak{S}_p$ d’hyperplans. D’après les prop. 7 et 8, chacune des chambres $C_1, \ldots, C_s$ est un cône simplicial ouvert ou un simplexe ouvert.
 
-#### Remarque 2 {#lie-v-s3-n9-rem-2 .statement}
+#### Remarque 2 {#lie-v-s3-n9-rem-2 .statement tag=0AQU}
 
 Supposons W irréductible et essentiel. Si H et H’ sont deux murs de C, on a $m_{HH'} = +\infty$ si et seulement si l’on a $e_H = -e_{H'}$ (prop. 3). D’après les prop. 7 et 8, ceci ne peut se produire que si $H$ et $H'$ sont les seuls murs de $C$ et $E$ de dimension 1. Le seul cas où l’un des $m_{HH'}$ est infini est donc celui où $E$ est de dimension 1 et où le groupe $W$ est engendré par les réflexions associées à deux points distincts (cf. § 2, no 4).
 
@@ -557,7 +557,7 @@ Dans le cas général, la matrice de Coxeter associée à $W$ a ses éléments f
 
 Soient $L$ l’ensemble des translations appartenant à $W$ et $\Lambda$ l’ensemble des $t \in T$ tels que la translation $x \mapsto t + x$ appartienne à $L$. Il est immédiat que $\Lambda$ est stable par $U(W)$ et que $L$ est un sous-groupe distingué de $W$. Comme $W$ opère proprement dans $E$, il en est de même de $L$, et on en déduit facilement que $\Lambda$ est un sous-groupe discret de $T$. Pour tout point $x$ de $E$, on notera $W_x$ le stabilisateur de $x$ dans $W$.
 
-#### Proposition 9 {#lie-v-s3-prop-9 .statement}
+#### Proposition 9 {#lie-v-s3-prop-9 .statement tag=0AQV}
 
 Soit $a \in E$. Les conditions suivantes sont équivalentes :
 
@@ -571,13 +571,13 @@ Admettons (i) et soit $H \in \mathfrak{S}$; on a $s_H \in W_a . L$ et il existe 
 
 Admettons (iii). Soit $H \in \mathfrak{S}$; prenons $H'$ comme dans (iii). Alors $s_{H'}(a) = a$, d’où $s_{H'} \in W_a$; comme $H$ est parallèle à $H'$, l’élément $w = s_{H'} s_H$ de $W$ est une translation (§ 2, no 4, prop. 5), d’où $w \in L$; on a alors $s_H = s_{H'} w \in W_a . L$. Comme $W$ est engendré par la famille $(s_H)_{H \in \mathfrak{S}}$, on a donc $W = W_a . L$ et (iii) implique (i).
 
-#### Définition 1 {#lie-v-s3-def-1 .statement}
+#### Définition 1 {#lie-v-s3-def-1 .statement tag=0AQW}
 
 On dit qu’un point $a$ de $E$ est spécial pour $W$ s’il satisfait aux conditions équivalentes de la prop. 9.
 
 Il est clair que l’ensemble des points spéciaux de $E$ est stable par $W$.
 
-#### Proposition 10 {#lie-v-s3-prop-10 .statement}
+#### Proposition 10 {#lie-v-s3-prop-10 .statement tag=0AQX}
 
 Il existe un point spécial pour $W$.
 
@@ -591,7 +591,7 @@ Le cor. du th. 1 du n° 2 montre que toute réflexion $s \in U(W)$ est de la for
 
 Lorsque $W$ est fini essentiel, il n’y a qu’un seul point spécial pour $W$, à savoir l’unique point invariant par $W$. La considération des points spéciaux est donc surtout intéressante quand $W$ est infini.
 
-#### Proposition 11 {#lie-v-s3-prop-11 .statement}
+#### Proposition 11 {#lie-v-s3-prop-11 .statement tag=0AQY}
 
 *Supposons $W$ essentiel. Soit $a$ un point spécial pour $W$. Les chambres relatives à $W_a$ sont des cônes simpliciaux ouverts de sommet $a$. Pour toute chambre $C'$ relative à $W_a$ il existe une chambre $C$ et une seule relative à $W$, contenue dans $C'$, et telle que $a \in \overline{C}$. La réunion des $w'(\overline{C})$ pour $w' \in W_a$ est un voisinage fermé de $a$ dans $E$. Tout mur de $C'$ est un mur de $C$. Si $W$ est infini irréductible, les murs de $C$ sont les murs de $C'$ et un hyperplan affine non parallèle aux murs de $C$.
 
@@ -601,7 +601,7 @@ U \cap w'(C) = w'(U \cap C) = w'(U \cap C') = U \cap w'(C');
 $$
 comme la réunion des $w'(C')$ pour $w' \in W_a$ est dense dans $E$, la réunion des $U \cap w'(C') = U \cap w'(C)$ est dense dans $U$, et la réunion des $w'(\overline{C})$ pour $w' \in W_a$ contient donc $U$. Enfin, si $H$ est un mur de $C'$, il existe un point $c \in U \cap H$ et un voisinage ouvert $V \subset U$ de $c$ tel que $V \cap C'$ soit l’intersection de $V$ et du demi-espace ouvert déterminé par $H$ contenant $C'$; comme $V \cap C' = V \cap U \cap C' = V \cap U \cap C = V \cap C$, on voit que $H$ est un mur de $C$. Si $W$ est infini irréductible, $C$ est un simplexe ouvert (n° 9, prop. 8), donc admet un mur de plus que le cône simplicial ouvert $C'$.
 
-#### Corollaire {#lie-v-s3-n10-cor-1 .statement}
+#### Corollaire {#lie-v-s3-n10-cor-1 .statement tag=0AQZ}
 
 Supposons W essentiel.
     (i) Si $a \in E$ est spécial, il existe une chambre $C$ telle que $a$ soit un point extrémal de $\overline{C}$.
@@ -612,7 +612,7 @@ Par contre, un point extrémal de $\overline{C}$ n’est pas nécessairement un 
 
 Remarque 1). — Supposons W essentiel, irréductible et infini et gardons les notations de la prop. 11. Puisque $U$ est un isomorphisme de $W_a$ sur $U(W)$, on voit que le graphe de Coxeter du groupe de déplacements $U(W)$ (qui est engendré par les réflexions $U(s_H)$ pour $H \in \mathfrak{g}$) s’obtient à partir du graphe de Coxeter de W en supprimant le sommet $i$ correspondant à l’unique mur de $C$ qui n’est pas un mur de $C'$.
 
-#### Proposition 12 {#lie-v-s3-prop-12 .statement}
+#### Proposition 12 {#lie-v-s3-prop-12 .statement tag=0AR1}
 
 Supposons W essentiel. Soit $a$ un point spécial, soit $L(a)$ l’ensemble de ses transformés par le groupe de translations $L$, et soit $C$ une chambre. Alors $\overline{C}$ rencontre $L(a)$ en un point et un seul; ce point est point extrémal de $\overline{C}$.
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 15
 statements: 48
 exercises: 17
-content_sha256: b3779eca895409ab64fe3cdd0e118ad1f2f17245b1e9b10d8684ab266b6974da
+content_sha256: ccec3a3bd41110ff493dfbbba05eb4bd4573381ee65cd5a7e45579ea8a3078ba
 translated_from: content/en-mt/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md
 source_lang: en-mt
 translation_method: machine
@@ -49,7 +49,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Chiều Krull của một Không gian Tôpô
 
-#### Định nghĩa 1 {#ac-viii-s1-def-1 .statement}
+#### Định nghĩa 1 {#ac-viii-s1-def-1 .statement tag=0CJG}
 
 Cho $I$ là một tập hợp có thứ tự. Một tập con hữu hạn khác rỗng được sắp thứ tự toàn phần của $I$ được gọi là một xích trong $I$. Cho $c$ là một xích trong $I$; phần tử nhỏ nhất và phần tử lớn nhất của $c$ được gọi là các đầu mút của $c$. Số nguyên $\mathrm{Card}(c) - 1$ được gọi là độ dài của $c$. Quan hệ bao hàm trong tập hợp các tập con của $I$ sinh ra một quan hệ thứ tự trong tập hợp các xích trong $I$. Một xích $c$ trong $I$ được gọi là bão hòa nếu nó là cực đại trong số các xích trong $I$ có cùng các đầu mút với $c$.
 
@@ -57,7 +57,7 @@ Cho $I$ là một tập hợp có thứ tự. Một tập con hữu hạn khác 
 
 Cho X là một không gian tôpô. Ta trang bị tập hợp các tập con đóng bất khả quy của X (II, § 4, No. 1, Def. 1) với quan hệ thứ tự được xác định bởi bao hàm. Mỗi khi ta nói đến một xích các tập con đóng bất khả quy của X, điều đó luôn luôn có nghĩa là một xích đối với quan hệ thứ tự này.
 
-#### Định nghĩa 2 {#ac-viii-s1-def-2 .statement}
+#### Định nghĩa 2 {#ac-viii-s1-def-2 .statement tag=0CJH}
 
 Chiều Krull của không gian tôpô X, theo định nghĩa, được ký hiệu là dim kr(X), hoặc đơn giản là dim(X), là cận trên nhỏ nhất trong $\overline{\mathbf{R}}$ của tập hợp các độ dài của các xích các tập con đóng bất khả quy của X.
 Với mọi điểm x của X, chiều Krull của X tại x, theo định nghĩa, được ký hiệu là $\dim_x(X)$, là cận dưới lớn nhất của các chiều của các lân cận mở của x.
@@ -65,7 +65,7 @@ Với mọi điểm x của X, chiều Krull của X tại x, theo định nghĩ
 Ta có $\dim(\varnothing) = -\infty$. Mặt khác, nếu X khác rỗng, bao đóng của mọi điểm của X là một tập con đóng bất khả quy của X (II, § 4, No. 1, Prop. 2), và do đó chiều của X hoặc là $+\infty$ hoặc là một số nguyên dương. Giả sử rằng X tách và khác rỗng; khi đó mọi tập con bất khả quy của X đều thu về một điểm, và X có chiều 0.
 Do đó định nghĩa chiều Krull là không có mấy ý nghĩa đối với các không gian tách, nhưng nó đặc biệt thích nghi với các không gian tôpô gặp trong Đại số giao hoán (phổ của các vành, \* lược đồ *, ...). Trong chương này, không có sự lẫn lộn nào phải e ngại với các khái niệm khác về chiều của các không gian tôpô (chẳng hạn khái niệm của Lebesgue), và ta sẽ đơn giản nói “chiều” thay cho “chiều Krull”.
 
-#### Mệnh đề 1 {#ac-viii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#ac-viii-s1-prop-1 .statement tag=0CJI}
 
 Cho X là một không gian tôpô.
 a) Nếu Y là một không gian con của X, thì $\dim(Y) \leq \dim(X)$, và $\dim_y(Y) \leq \dim_y(X)$ với mọi điểm y của Y.
@@ -80,7 +80,7 @@ vì I là hữu hạn, $Z_n$ được chứa trong một trong các $X_i$. Do đ
 
 Bây giờ cho $x$ là một điểm của $X$ và $n = \sup_{i \in J_x} \dim_x(X_i)$, trong đó $J_x$ như trong mệnh đề. Ta có $\dim_x(X) \geq n$ theo *a*), và, để thiết lập đẳng thức, có thể giả sử $n$ hữu hạn. Với mọi $i \in J_x$, cho $U_i$ là một lân cận mở của $x$ trong $X$, sao cho $\dim(U_i \cap X_i) \leq n$. Đặt $U = (\bigcap_{i \in J_x} U_i) \cap (\bigcap_{i \in I - J_x} \mathscr{C} X_i)$; tập hợp $U$ là mở trong $X$. Hơn nữa, ta có $\dim(U) = \sup_{i \in J_x} \dim(U \cap X_i) \leq n$ theo đoạn trước, nên $\dim_x(X) \leq n$.
 
-#### Hệ quả {#ac-viii-s1-n1-cor-1 .statement}
+#### Hệ quả {#ac-viii-s1-n1-cor-1 .statement tag=0CJJ}
 
 *a*) *Chiều của không gian tôpô $X$ là cận trên nhỏ nhất của các chiều của các thành phần bất khả quy của nó* (II, § 4, No. 1, Def. 2).
 
@@ -92,13 +92,13 @@ $$
 $$
 ta kết luận bằng cách nhận thấy rằng mỗi $V_j$ được chứa trong một trong các $X_i$, $i \in J_x$, và do đó ta có $\sup_{j \in J} \dim_x(V_j) \leq \sup_{i \in J_x} \dim_x(X_i)$.
 
-#### Mệnh đề 2 {#ac-viii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#ac-viii-s1-prop-2 .statement tag=0CJK}
 
 *Cho $X$ là một không gian tôpô. Khi đó $\dim(X) = \sup_{x \in X} \dim_x(X)$*.
 
 Thật vậy, theo định nghĩa ta có $\dim(X) \geq \dim_x(X)$ với mọi $x \in X$. Mặt khác, nếu $Z_0 \subset ... \subset Z_n$ là một chuỗi tập con đóng bất khả quy của $X$, thì với mọi $x \in Z_0$ và mọi lân cận mở $U$ của $x$, các tập hợp $Z_0 \cap U, ..., Z_n \cap U$ tạo thành một chuỗi tập con đóng bất khả quy của $U$ (II, § 4, No. 1, Prop. 7). Do đó $\dim_x(X) \geq n$, suy ra $\dim(X) \leq \sup_{x \in X} \dim_x(X)$.
 
-#### Hệ quả {#ac-viii-s1-n1-cor-2 .statement}
+#### Hệ quả {#ac-viii-s1-n1-cor-2 .statement tag=0CJL}
 
 *Nếu $(X_\alpha)_{\alpha \in A}$ là một phủ mở, hoặc một phủ đóng hữu hạn địa phương, của một không gian tôpô $X$, thì ta có*
 $$
@@ -109,7 +109,7 @@ Chỉ cần chứng minh rằng, với mọi điểm $x$ của $X$, ta có $\dim
 
 ### 2. Đối chiều của một tập con đóng
 
-#### Định nghĩa 3 {#ac-viii-s1-def-3 .statement}
+#### Định nghĩa 3 {#ac-viii-s1-def-3 .statement tag=0CJM}
 
 Cho X là một không gian tôpô.
 
@@ -117,15 +117,15 @@ a) Nếu Y là một tập con đóng bất khả quy của X, đối chiều c�
 
 b) Nếu Y là một tập con đóng của X, đối chiều của Y trong X được định nghĩa là cận dưới lớn nhất trong $\overline{\mathbf{R}}$ của các đối chiều, trong X, của các thành phần bất khả quy của Y, và được ký hiệu là $\operatorname{codim}(Y, X)$.
 
-#### Nhận xét 1 {#ac-viii-s1-n2-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s1-n2-rem-1 .statement tag=0CJN}
 
 Đối chiều của một tập con đóng Y của X vì thế là cận dưới lớn nhất của các đối chiều của các tập con đóng bất khả quy của Y. Ta có $\operatorname{codim}(\varnothing, X) = +\infty$ và, nếu X không rỗng, $\operatorname{codim}(X, X) = 0$. Mọi tập con đóng khác rỗng của X đều chứa một tập con đóng bất khả quy (II, § 4, No. 1, Prop. 5); vì thế đối chiều trong X của một tập con đóng Y luôn luôn là một số nguyên dương hoặc $+\infty$; nó bằng không khi và chỉ khi Y chứa một thành phần bất khả quy của X.
 
-#### Nhận xét 2 {#ac-viii-s1-n2-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s1-n2-rem-2 .statement tag=0CJO}
 
 Nếu Y là một tập con đóng khác rỗng của X, ta có $\operatorname{codim}(Y, X) \leq \dim(X)$. Ta có $\dim(X) = \sup_Y \operatorname{codim}(Y, X)$, trong đó Y chạy qua tập hợp các tập con đóng bất khả quy của X. Nếu Y và Y’ là hai tập con đóng của X sao cho $Y' \subset Y$, ta có $\operatorname{codim}(Y, X) \leq \operatorname{codim}(Y', X)$.
 
-#### Nhận xét 3 {#ac-viii-s1-n2-rem-3 .statement}
+#### Nhận xét 3 {#ac-viii-s1-n2-rem-3 .statement tag=0CJP}
 
 Cho $Y$ là một tập con đóng của không gian tôpô $X$ và $(X_\alpha)_{\alpha \in A}$ (resp. $(Y_\beta)_{\beta \in B}$) là họ các thành phần bất khả quy của $X$ (resp. của $Y$). Với mỗi $\beta \in B$, ký hiệu $A(\beta)$ là tập hợp các $\alpha \in A$ sao cho $Y_\beta \subset X_\alpha$. Vì mọi tập con bất khả quy của $X$ đều được chứa trong một trong các $X_\alpha$ (II, § 4, No. 1, Mệnh đề 5), suy ra từ Định nghĩa 3 rằng ta có:
 
@@ -133,7 +133,7 @@ $$
 \operatorname{codim}(Y, X) = \inf_{\beta \in B} \sup_{\alpha \in A(\beta)} \operatorname{codim}(Y_\beta, X_\alpha).
 $$
 
-#### Nhận xét 4 {#ac-viii-s1-n2-rem-4 .statement}
+#### Nhận xét 4 {#ac-viii-s1-n2-rem-4 .statement tag=0CJQ}
 
 Cho $(Y_i)_{i \in I}$ là một họ hữu hạn các tập con đóng của $X$ và $Y = \bigcup_{i \in I} Y_i$; ta có
 
@@ -143,7 +143,7 @@ $$
 
 Thật vậy, mọi thành phần bất khả quy của $Y$ đều được chứa trong một trong các $Y_i$.
 
-#### Mệnh đề 3 {#ac-viii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#ac-viii-s1-prop-3 .statement tag=0CJR}
 
 Cho $X$ là một không gian tôpô.
 
@@ -161,7 +161,7 @@ $$
 
 Chỉ cần chứng minh mệnh đề a) trong trường hợp $\dim(X)$ là hữu hạn. Trong trường hợp này, $\dim(Y)$ và $\operatorname{codim}(Y, X)$ là hữu hạn. Tồn tại một chuỗi $Y_0 \subset ... \subset Y_n$ các tập con đóng bất khả quy của $Y$, có độ dài $n = \dim(Y)$, và một chuỗi $Y_n \subset ... \subset Y_{n+p}$ các tập con đóng bất khả quy của $X$, có độ dài $p \geq \operatorname{codim}(Y, X)$. Suy ra $\dim(X) \geq n + p$, do đó a). Để thiết lập b), có thể giả sử $Y$ là bất khả quy. Vì ta có $\operatorname{codim}(Y, Z) \leq \operatorname{codim}(Y, T)$, bất đẳng thức được chứng minh nếu $\operatorname{codim}(Y, Z) = +\infty$. Nếu không, gọi $Z_0$ là một thành phần bất khả quy của $Z$ chứa $Y$ và sao cho $\operatorname{codim}(Y, Z) = \operatorname{codim}(Y, Z_0)$. Ta có $\operatorname{codim}(Z, T) \leq \operatorname{codim}(Z_0, T)$, và ta thấy, như trên, rằng $\operatorname{codim}(Y, Z_0) + \operatorname{codim}(Z_0, T) \leq \operatorname{codim}(Y, T)$, do đó b).
 
-#### Định nghĩa 4 {#ac-viii-s1-def-4 .statement}
+#### Định nghĩa 4 {#ac-viii-s1-def-4 .statement tag=0CJS}
 
 Một không gian tôpô $X$ được gọi là catenaire nếu, với mọi cặp $(Y, Z)$ các tập con đóng bất khả quy của $X$ sao cho $Y \subset Z$, mọi chuỗi bão hòa các tập con đóng bất khả quy với hai đầu mút là $Y$ và $Z$ đều có độ dài $\operatorname{codim}(Y, Z)$.
 
@@ -169,7 +169,7 @@ Nói rằng, với mọi cặp $(Y, Z)$ các tập con đóng bất khả quy c�
 
 Mọi không gian con đóng của một không gian catenary đều là catenary. Để một không gian là catenary, điều kiện cần và đủ là mọi thành phần bất khả quy của nó đều như vậy.
 
-#### Mệnh đề 4 {#ac-viii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#ac-viii-s1-prop-4 .statement tag=0CJT}
 
 Cho $X$ là một không gian tôpô. Để $X$ là catenary, điều kiện cần và đủ là, với mọi bộ ba $(Y, Z, T)$ các tập con đóng bất khả quy của $X$ sao cho $Y \subset Z \subset T$, ta có:
 
@@ -181,7 +181,7 @@ Giả sử $X$ là catenary. Theo Mệnh đề 3, b), chỉ cần chứng minh h
 
 Ngược lại, giả sử rằng ta có $\operatorname{codim}(Y, T) = \operatorname{codim}(Y, Z) + \operatorname{codim}(Z, T)$ với mọi tập con đóng bất khả quy $Y, Z, T$ của $X$ sao cho $Y \subset Z \subset T$, và hãy chứng minh rằng $X$ là catenary. Để làm điều đó, ta chứng minh bằng quy nạp theo số nguyên $n \geq 0$ rằng, với mọi chuỗi bão hòa $Z_0 \subset ... \subset Z_n$ các tập con đóng bất khả quy của $X$, ta có $\operatorname{codim}(Z_0, Z_n) = n$. Nếu $n = 0$, điều này là hiển nhiên. Cho $n > 0$, và giả sử tính chất đúng với các chuỗi có độ dài $\leq n - 1$. Nếu $Z_0 \subset ... \subset Z_n$ là một chuỗi bão hòa độ dài $n$, thì $Z_0 \subset ... \subset Z_{n-1}$ là một chuỗi bão hòa độ dài $n - 1$, do đó $\operatorname{codim}(Z_0, Z_{n-1}) = n - 1$. Theo giả thiết đặt ra trên $X$, ta có $\operatorname{codim}(Z_0, Z_n) = \operatorname{codim}(Z_0, Z_{n-1}) + \operatorname{codim}(Z_{n-1}, Z_n) = (n - 1) + 1 = n$.
 
-#### Hệ quả {#ac-viii-s1-n2-cor-1 .statement}
+#### Hệ quả {#ac-viii-s1-n2-cor-1 .statement tag=0CJU}
 
 Cho X là một không gian tôpô bất khả quy có số chiều hữu hạn. Để X là catenary, điều kiện cần và đủ là, với mọi cặp (Y, Z) các tập con đóng bất khả quy của X sao cho Y ⊂ Z, ta có codim(Y, X) = codim(Y, Z) + codim(Z, X).
 
@@ -195,7 +195,7 @@ $$
 $$
 và X là catenary theo Mệnh đề 4.
 
-#### Mệnh đề 5 {#ac-viii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#ac-viii-s1-prop-5 .statement tag=0CJV}
 
 Cho X là một không gian tôpô có số chiều hữu hạn. Giả sử rằng mọi chuỗi cực đại các tập con đóng bất khả quy của X đều có cùng độ dài. Khi đó X là catenary; với mọi tập con đóng bất khả quy Z của X, ta có
 $$
@@ -218,7 +218,7 @@ Lấy Y = Z, ta thấy vế thứ hai bằng \dim(Z), do đó có mệnh đề.
 
 ### 3. Chiều của một vành, độ cao của một iđêan
 
-#### Định nghĩa 5 {#ac-viii-s1-def-5 .statement}
+#### Định nghĩa 5 {#ac-viii-s1-def-5 .statement tag=0CJW}
 
 Chiều Krull, hay đơn giản là chiều, của một vành A (giao hoán) theo định nghĩa là chiều Krull của không gian tôpô Spec(A) (II, § 4, No. 3, Định nghĩa 4); nó được ký hiệu bởi \dim(A). Nếu p là một iđêan nguyên tố của A, chiều của A tại p theo định nghĩa là số \dim_p(\operatorname{Spec}(A)); nó được ký hiệu bởi \dim_p(A).
 
@@ -226,19 +226,19 @@ Chiều Krull, hay đơn giản là chiều, của một vành A (giao hoán) th
 
 Cho $p \in \mathrm{Spec}(A)$; các tập hợp $\mathrm{Spec}(A)_f$, khi $f$ chạy qua $A$, lập thành một cơ sở của tôpô trên $\mathrm{Spec}(A)$, và $p$ thuộc tập hợp mở $\mathrm{Spec}(A)_f$ khi và chỉ khi $f$ không thuộc $p$. Do đó, $\dim_p(A)$ là cận dưới lớn nhất của các số $\dim(A_f)$, khi $f$ chạy qua $A - p$ (II, § 5, No. 1, Mệnh đề 1).
 
-#### Ví dụ 1 {#ac-viii-s1-n3-exa-1 .statement}
+#### Ví dụ 1 {#ac-viii-s1-n3-exa-1 .statement tag=0CJX}
 
 Ta có $\dim(A) < 0$ khi và chỉ khi $A$ thu về 0. Để có $\dim(A) \leqslant 0$, điều kiện cần và đủ là mọi iđêan nguyên tố của $A$ đều cực đại. Các vành nguyên có chiều 0 là các trường. Một vành Noether có chiều $\leqslant 0$ khi và chỉ khi nó là Artin (IV, § 2, No. 5, mệnh đề 9).
 
-#### Ví dụ 2 {#ac-viii-s1-n3-exa-2 .statement}
+#### Ví dụ 2 {#ac-viii-s1-n3-exa-2 .statement tag=0CJY}
 
 Các vành Dedekind là các vành Noether nguyên đóng có chiều $\leqslant 1$ (VII, § 2, No. 2, định lý 1). Nói chung hơn, theo V, § 1, No. 2, hệ quả 2 của mệnh đề 9, một vành là một tích hữu hạn các vành Dedekind khi và chỉ khi nó là Noether, thu gọn, nguyên đóng trong vành phân thức toàn phần của nó, và có chiều $\leqslant 1$.
 
-#### Ví dụ 3 {#ac-viii-s1-n3-exa-3 .statement}
+#### Ví dụ 3 {#ac-viii-s1-n3-exa-3 .statement tag=0CJZ}
 
 Nếu $A$ là một vành định giá (VI, § 1, No. 2, định nghĩa 2), thì chiều của nó bằng với chiều cao của định giá (VI, § 4, No. 4, mệnh đề 5).
 
-#### Ví dụ 4 {#ac-viii-s1-n3-exa-4 .statement}
+#### Ví dụ 4 {#ac-viii-s1-n3-exa-4 .statement tag=0CK0}
 
 Cho $A$ là một vành. Ta có
 $$
@@ -256,23 +256,23 @@ $$
 
 Sau này chúng tôi sẽ chứng minh (§ 3, No. 4, hệ quả 3 của mệnh đề 7 và hệ quả 3 của mệnh đề 8) rằng ta có đẳng thức trong hai công thức trước khi $A$ là Noether.
 
-#### Ví dụ 5 {#ac-viii-s1-n3-exa-5 .statement}
+#### Ví dụ 5 {#ac-viii-s1-n3-exa-5 .statement tag=0CK1}
 
 Cho $X$ là một đa tạp giải tích phức. Nếu $X$ có chiều phức $n$ tại một điểm $x$ của $X$, thì vành địa phương của các mầm tại $x$ của các hàm giải tích trên $X$ có chiều $n$. \*
 
-#### Ví dụ 6 {#ac-viii-s1-n3-exa-6 .statement}
+#### Ví dụ 6 {#ac-viii-s1-n3-exa-6 .statement tag=0CK2}
 
 Cho $k$ là một trường và $A$ là một $k$-đại số nguyên khác không. Khi đó ta có $\dim(A) = 0$. Điều này suy ra từ hệ quả 1 của mệnh đề 1 trong V, § 2, No. 1, và từ sự kiện $\dim(k) = 0$.
 
-#### Ví dụ 7 {#ac-viii-s1-n3-exa-7 .statement}
+#### Ví dụ 7 {#ac-viii-s1-n3-exa-7 .statement tag=0CK3}
 
 Nếu $\mathfrak{n}$ là một iđêan lũy linh của $A$, thì $\mathrm{Spec}(A)$ đồng phôi với $\mathrm{Spec}(A/\mathfrak{n})$ (II, § 4, No. 3, nhận xét). Vì vậy ta có $\dim(A/\mathfrak{n}) = \dim(A)$; đặc biệt, ta có $\dim(A) = \dim(A_{\mathrm{red}})$ trong đó $A_{\mathrm{red}}$ là thương của vành $A$ theo căn lũy linh của nó.
 
-#### Ví dụ 8 {#ac-viii-s1-n3-exa-8 .statement}
+#### Ví dụ 8 {#ac-viii-s1-n3-exa-8 .statement tag=0CK4}
 
 Tồn tại các vành Noether có chiều vô hạn (p. 83, bài tập 13). Dưới đây chúng ta sẽ thấy (§ 3, No. 1, hệ quả 1 của mệnh đề 2) rằng mọi vành địa phương Noether đều có chiều hữu hạn.
 
-#### Mệnh đề 6 {#ac-viii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#ac-viii-s1-prop-6 .statement tag=0CK5}
 
 Cho A là một vành.
 a) Nếu a là một iđêan của A, ta có dim(A/a) $\leq$ dim(A).
@@ -289,7 +289,7 @@ Theo nhận xét của II, § 4, No. 3, nếu a là một iđêan của A, khôn
 
 Sau cùng, hãy chứng minh e). Vấn đề là chứng minh rằng, với mọi dãy $p_0 \subset ... \subset p_n$ các iđêan nguyên tố của A sao cho $a \subset p_0$, ta có dim(A) $\geq n + 1$. Do giả thiết đặt trên a, tồn tại một iđêan nguyên tố $p_{-1}$ của A được chứa trong $p_0$, phân biệt với $p_0$, và $p_{-1} \subset p_0 \subset ... \subset p_n$ là một dãy các iđêan nguyên tố của A, có độ dài $n + 1$.
 
-#### Nhận xét 1 {#ac-viii-s1-n3-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s1-n3-rem-1 .statement tag=0CK6}
 
 Cho $\rho : A \to B$ là một đồng cấu vành. Khi đó dim(B) là cận trên bé nhất của các số dim(B/$\rho(p)$.B), trong đó p chạy qua tập hợp các iđêan nguyên tố cực tiểu của A: thật vậy, với mọi iđêan nguyên tố cực tiểu q của B, tồn tại một iđêan nguyên tố cực tiểu p của A được chứa trong $\rho^{-1}(q)$ (II, § 2, No. 6, Bổ đề 2), và ta có
 $$
@@ -297,13 +297,13 @@ $$
 $$
 theo Mệnh đề 6, a); suy ra kết luận nhờ Mệnh đề 6, c).
 
-#### Định nghĩa 6 {#ac-viii-s1-def-6 .statement}
+#### Định nghĩa 6 {#ac-viii-s1-def-6 .statement tag=0CK7}
 
 Cho a là một iđêan của một vành A. Đối chiều của V(a) trong Spec(A) được gọi là chiều cao của iđêan a và được ký hiệu là ht(a).
 
 Giả sử A là một miền nguyên. Khi đó các iđêan nguyên tố có chiều cao 1 của A theo nghĩa của Định nghĩa 4 của VII, § 1, No. 6 là các iđêan nguyên tố có chiều cao 1 theo nghĩa của định nghĩa trên.
 
-#### Mệnh đề 7 {#ac-viii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#ac-viii-s1-prop-7 .statement tag=0CK8}
 
 a) Chiều cao của một iđêan nguyên tố p của A là cận trên bé nhất của các độ dài của những dãy iđêan nguyên tố $p_0 \subset ... \subset p_n$ sao cho $p_n = p$.
 
@@ -313,13 +313,13 @@ c) Nếu a là một iđêan của A, ta có $\operatorname{ht}(a) = \inf_{p} \o
 
 Mệnh đề a) là bản dịch của Định nghĩa 3, a) của No. 2. Mệnh đề b) suy ra từ việc ánh xạ $q \mapsto q(A_p/aA_p)$ là một đẳng cấu tăng của tập hợp các iđêan nguyên tố q của A sao cho $a \subset q \subset p$ lên tập hợp các iđêan nguyên tố của vành địa phương $A_p/aA_p$ (II, § 2, No. 5, Mệnh đề 11). Cho a là một iđêan của A; các tập con đóng bất khả quy của $V(a)$ là các tập hợp $V(p)$, trong đó p là một iđêan nguyên tố của A chứa a. Do đó mệnh đề c) suy ra từ Nhận xét 1 của No. 2.
 
-#### Hệ quả {#ac-viii-s1-n3-cor-1 .statement}
+#### Hệ quả {#ac-viii-s1-n3-cor-1 .statement tag=0CK9}
 
 Cho p là một iđêan nguyên tố của A và S là một tập hợp nhân của A không giao với p. Khi đó $\operatorname{ht}(p) = \operatorname{ht}(S^{-1}p)$.
 
 Điều này suy ra từ Mệnh đề 7, a), và từ II, § 2, No. 5, Mệnh đề 11.
 
-#### Mệnh đề 8 {#ac-viii-s1-prop-8 .statement}
+#### Mệnh đề 8 {#ac-viii-s1-prop-8 .statement tag=0CKA}
 
 Cho A là một vành.
 
@@ -329,31 +329,31 @@ b) Cho b là một iđêan của A phân biệt với A, và a là một iđêan
 
 Mệnh đề thứ nhất suy ra từ Nhận xét 2 của No. 2 và từ Mệnh đề 7, b). Mệnh đề thứ hai suy ra từ Mệnh đề 3, a) của No. 2 và từ các hệ thức $\dim(A/b) = \dim(V(b))$, $\dim(A/a) = \dim(V(a))$.
 
-#### Định nghĩa 7 {#ac-viii-s1-def-7 .statement}
+#### Định nghĩa 7 {#ac-viii-s1-def-7 .statement tag=0CKB}
 
 Một vành A được gọi là catenary nếu không gian tôpô Spec(A) là catenary (No. 2, Định nghĩa 4).
 
 Do đó điều này có nghĩa là, với mọi cặp (p, q) các iđêan nguyên tố của A sao cho $q \subset p$, mọi dãy bão hòa các iđêan nguyên tố của A với các đầu mút p và q đều có độ dài $\operatorname{codim}(V(p), V(q)) = \dim(A_p/qA_p)$.
 
-#### Nhận xét 2 {#ac-viii-s1-n3-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s1-n3-rem-2 .statement tag=0CKC}
 
 Mọi vành thương của một vành catenary đều là catenary. Để vành A là catenary, điều kiện cần và đủ là, với mọi iđêan nguyên tố p của A, vành $A_p$ là catenary.
 
-#### Nhận xét 3 {#ac-viii-s1-n3-rem-3 .statement}
+#### Nhận xét 3 {#ac-viii-s1-n3-rem-3 .statement tag=0CKD}
 
 Theo Mệnh đề 7, b) và Mệnh đề 4 của No. 2, vành A là catenary khi và chỉ khi, với mọi bộ ba (p, q, r) các iđêan nguyên tố của A sao cho $r \subset q \subset p$, ta có dim(A_p/qA_p) + dim(A_q/rA_q) = dim(A_p/rA_p). Nếu A là một miền nguyên và có số chiều hữu hạn, thì A là catenary khi và chỉ khi ta có ht(q) + dim(A_p/qA_p) = ht(p) với mọi cặp (p, q) các iđêan nguyên tố của A sao cho q ⊂ p. Thật vậy, khi đó không gian tôpô Spec(A) là bất khả quy và có số chiều hữu hạn, và ta áp dụng Hệ quả của Mệnh đề 4 của No. 2.
 
-#### Nhận xét 4 {#ac-viii-s1-n3-rem-4 .statement}
+#### Nhận xét 4 {#ac-viii-s1-n3-rem-4 .statement tag=0CKE}
 
 Cho A là một vành có số chiều hữu hạn mà mọi chuỗi cực đại các iđêan nguyên tố đều có cùng độ dài. Khi đó A là catenary, ta có ht(p) + dim(A/p) = dim(A) với mọi iđêan nguyên tố p của A, và dim(A_p/qA_p) + dim(A/p) = dim(A/q) với mọi cặp (p, q) các iđêan nguyên tố của A sao cho q ⊂ p (No. 2, Mệnh đề 5).
 
-#### Nhận xét 5 {#ac-viii-s1-n3-rem-5 .statement}
+#### Nhận xét 5 {#ac-viii-s1-n3-rem-5 .statement tag=0CKF}
 
 Ta sẽ thấy ở § 2, No. 4, rằng mọi đại số hữu hạn sinh trên một trường đều là một vành catenary. Có những vành địa phương Noether không catenary (p. 83, Bài tập 16).
 
 ### 4. Chiều của một môđun hữu hạn sinh
 
-#### Định nghĩa 8 {#ac-viii-s1-def-8 .statement}
+#### Định nghĩa 8 {#ac-viii-s1-def-8 .statement tag=0CKG}
 
 Cho A là một vành và M là một A-môđun hữu hạn sinh. Chiều Krull (hay đơn giản là chiều $^1$) của A-môđun M là chiều Krull của giá đỡ của M (II, § 4, No. 4, Định nghĩa 5); nó được ký hiệu là $\dim_A(M)$ (hay $\dim(M)$ nếu không có sự nhập nhằng).
 
@@ -367,17 +367,17 @@ $$
 
 (II, § 4, n° 4, prop. 17). Do đó chiều của A-môđun M, chiều của A-môđun A/α, chiều của vành A/α và chiều của (A/α)-môđun M đều trùng nhau; đó là cận trên bé nhất của tập hợp các độ dài của những chuỗi $p_0 \subset ... \subset p_n$ các iđêan nguyên tố của A sao cho $\alpha \subset p_0$. Theo prop. 6, c) của n° 3, chiều của M cũng là cận trên bé nhất của các chiều của các vành (hay của các A-môđun) A/p, trong đó p chạy trên tập hợp các iđêan nguyên tố của A cực tiểu trong số những iđêan chứa α.
 
-#### Nhận xét 1 {#ac-viii-s1-n4-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s1-n4-rem-1 .statement tag=0CKH}
 
 Cho A là một vành Noether và M là một A-môđun hữu hạn sinh. Việc nói rằng $\dim_A(M) \leq 0$, hay rằng các phần tử của Supp(M) là các iđêan cực đại của A, hay rằng M có độ dài hữu hạn, là tương đương (IV, § 2, n° 5, prop. 7).
 
-#### Nhận xét 2 {#ac-viii-s1-n4-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s1-n4-rem-2 .statement tag=0CKI}
 
 Nếu M là một môđun hữu hạn sinh trên một vành Noether A, thì $\dim_A(M)$ là cận trên bé nhất của các số $\dim(A/p)$, trong đó p chạy trên tập $\operatorname{Ass}_A(M)$ các iđêan nguyên tố của A liên kết với M (IV, § 1, n° 4, th. 2).
 
 1 Nếu A là một trường, chiều Krull của M là $\leq 0$. Cần chú ý không được nhầm chiều Krull của M với chiều (hay hạng) của không gian vectơ M trên trường A (A, II, p. 97, déf. 1).
 
-#### Mệnh đề 9 {#ac-viii-s1-prop-9 .statement}
+#### Mệnh đề 9 {#ac-viii-s1-prop-9 .statement tag=0CKJ}
 
 Cho $A$ là một vành và $M$ là một $A$-môđun hữu hạn sinh.
 
@@ -397,7 +397,7 @@ b) Điều này suy ra ngay từ a) và từ sự kiện rằng $\dim_{A_p}(M_p)
 
 c) Ta có $\mathrm{Supp}(M) = \mathrm{Supp}(M') \cup \mathrm{Supp}(M/M')$ (II, § 4, n° 4, prop. 16), và ta áp dụng prop. 1 của n° 1.
 
-#### Nhận xét 3 {#ac-viii-s1-n4-rem-3 .statement}
+#### Nhận xét 3 {#ac-viii-s1-n4-rem-3 .statement tag=0CKK}
 
 Trong các điều kiện của prop. 9, c), ta có $\mathrm{codim}(\mathrm{Supp}(M), \mathrm{Spec}(A)) = \inf(\mathrm{codim}(\mathrm{Supp}(M'), \mathrm{Spec}(A)), \mathrm{codim}(\mathrm{Supp}(M/M'), \mathrm{Spec}(A)))$. Điều này suy ra từ công thức $\mathrm{Supp}(M) = \mathrm{Supp}(M') \cup \mathrm{Supp}(M/M')$ và từ nhận xét 4 của n° 2.
 
@@ -415,7 +415,7 @@ $$
 
 trong đó $p$ chạy trên tập hữu hạn các iđêan nguyên tố cực tiểu của $\mathrm{Supp}(M)$.
 
-#### Nhận xét {#ac-viii-s1-n5-rem-1 .statement}
+#### Nhận xét {#ac-viii-s1-n5-rem-1 .statement tag=0CKL}
 
 Với mọi $p \in \mathrm{Spec}(A)$, ta có $z(A/p) = [V(p)]$. Nói chung hơn, cho $M$ là một $A$-môđun sinh hữu hạn, và $(M_i)_{0 \leq i \leq n}$ là một dãy hợp thành của $M$ sao cho với $0 \leq i \leq n-1$, môđun $M_i/M_{i+1}$ đẳng cấu với $A/p_i$, trong đó $p_i$ là một iđêan nguyên tố của $A$ (xem IV, § 1, No. 4, Định lý 1); khi đó ta có $z(M) = \sum_{i \in J} [V(p_i)]$, trong đó $J$ là tập con của $I$ gồm các $i$ sao cho $p_i$ là một phần tử cực tiểu của $\{ p_0, ..., p_{n-1} \}$ (IV, § 1, No. 4, Định lý 2 và § 2, No. 5, Nhận xét 1).
 
@@ -425,7 +425,7 @@ Z_{\leq d} = Z_{\leq d-1} \oplus Z_d,\quad Z^{>d} = Z^{>d+1} \oplus Z^d.
 $$
 Hơn nữa, cho $C$ là tập hợp các lớp của các $A$-môđun sinh hữu hạn (A, VIII, § 3, No. 5), và với mỗi số nguyên $d$, cho $C_{\leq d}$ (resp. $C^{>d}$) là tập con của $C$ gồm các lớp của các $A$-môđun sinh hữu hạn có chiều $\leq d$ (resp. có giá đỡ là đối chiều $\geq d$ trong $\mathrm{Spec}(A)$).
 
-#### Bổ đề 1 {#ac-viii-s1-lem-1 .statement}
+#### Bổ đề 1 {#ac-viii-s1-lem-1 .statement tag=0CKM}
 
 *Cho $M$ là một $A$-môđun hữu hạn sinh và $d$ là một số nguyên.*
   *a*) *Để $M$ thuộc kiểu $C_{\leq d}$, điều kiện cần và đủ là $z(M) \in Z_{\leq d}$; khi đó phép chiếu $z_d(M)$ của $z(M)$ lên $Z_d$ song song với $Z_{\leq d-1}$ được cho bởi*
@@ -449,7 +449,7 @@ i_d : K(C_{\leq d-1}) \to K(C_{\leq d})\quad \text{và}\quad i^d : K(C^{>d+1}) \
 $$
 Với các ký hiệu này:
 
-#### Mệnh đề 10 {#ac-viii-s1-prop-10 .statement}
+#### Mệnh đề 10 {#ac-viii-s1-prop-10 .statement tag=0CKN}
 
 Các dãy $\mathbf{Z}$-môđun và đồng cấu
 
@@ -466,19 +466,19 @@ Ta có $\zeta_d \circ i_d = 0$ theo Bổ đề 1. Với mọi $p \in \mathrm{Spe
 
 Ta lập luận tương tự cho dãy thứ hai.
 
-#### Ví dụ 1 {#ac-viii-s1-n5-exa-1 .statement}
+#### Ví dụ 1 {#ac-viii-s1-n5-exa-1 .statement tag=0CKO}
 
 Giả sử A là Noether và nguyên. Khi đó ta có $Z^0 = \mathbf{Z}.[\mathrm{Spec}(A)]$; ta có $\mathscr{C}^{>0} = \mathscr{C}$ và $z^0(M) = \mathrm{rg}(M).[Spec(A)]$. Do đó các môđun thuộc kiểu $\mathscr{C}^{>1}$ là các môđun xoắn.
 
-#### Ví dụ 2 {#ac-viii-s1-n5-exa-2 .statement}
+#### Ví dụ 2 {#ac-viii-s1-n5-exa-2 .statement tag=0CKP}
 
 Giả sử A là Noether và đóng nguyên. Khi đó $Z^1$ được đồng nhất với nhóm $D(A)$ các ước tử của A được đưa vào trong Chương VII (§ 1, No. 3, Định lý 2, và No. 6, Định lý 3). Các môđun thuộc kiểu $\mathscr{C}^{>2}$ là các môđun giả-không (VII, § 4, No. 4, Định nghĩa 2); nếu M là một môđun xoắn kiểu hữu hạn, thì $z^1(M) \in Z^1 = D(A)$ là nội dung $\chi(M)$ của M (VII, § 4, No. 5, Định nghĩa 4). Do đó các Mệnh đề 10 và 11 của *loc. cit.* tương đương với tính khớp của dãy $K(\mathscr{C}^{>2}) \to K(\mathscr{C}^{>1}) \to Z^1 \to 0$.
 
-#### Ví dụ 3 {#ac-viii-s1-n5-exa-3 .statement}
+#### Ví dụ 3 {#ac-viii-s1-n5-exa-3 .statement tag=0CKQ}
 
 Các môđun kiểu $\mathscr{C}_{\leq 0}$ là các môđun có chiều $\leq 0$, nghĩa là các môđun có độ dài hữu hạn (No. 4, Nhận xét 1). Ta có $\mathrm{long}_A(M) = \varepsilon(z_0(M))$ với mọi A-môđun M có độ dài hữu hạn, trong đó $\varepsilon : Z_0 \to \mathbf{Z}$ gán cho tổ hợp tuyến tính $\sum_m n_m[V(m)]$ số nguyên $\sum_m n_m$ (IV, § 2, No. 5, hệ quả của Mệnh đề 8).
 
-#### Ví dụ 4 {#ac-viii-s1-n5-exa-4 .statement}
+#### Ví dụ 4 {#ac-viii-s1-n5-exa-4 .statement tag=0CKR}
 
 Giả sử A là một miền nguyên và hữu hạn chiều. Đặt $d = \dim(A)$. Khi đó ta có $\mathscr{C}_{\leq d} = \mathscr{C}$, $Z_d = \mathbf{Z}.[\mathrm{Spec}(A)] = Z^0$, $z_d(M) = \mathrm{rg}(M).[Spec(A)] = z^0(M)$, và các môđun kiểu $\mathscr{C}_{\leq d-1}$ là các môđun xoắn.
 

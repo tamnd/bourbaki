@@ -33,20 +33,20 @@ subsections:
       pdf_page: 200
 statements: 32
 exercises: 26
-content_sha256: 673d74e415867270e5bde1942d94224c165fb8df9ad99ad5c1376b35287561bc
+content_sha256: b91386e65623979a9a9994a73c883cd7ba5db67a5bb1adc0fbb46df95c3c8a73
 ---
 
 ## § 2. BIDUAL. REFLEXIVE SPACES
 
 ### 1. Bidual
 
-#### Definition 1 {#evt-iv-s2-def-1 .statement}
+#### Definition 1 {#evt-iv-s2-def-1 .statement tag=07S8}
 
 — *Let $E$ be a locally convex space and $E'_b$ its strong dual. The dual of the locally convex space $E'_b$ is called the bidual of $E$ and is denoted by $E''$.*
 
 For every $x \in E$, let $\tilde{x}$ be the linear form $x' \mapsto \langle x, x' \rangle$ on $E'$; it is continuous for the weak topology $\sigma(E', E)$, hence *a fortiori*, for the strong topology on $E'$; therefore $\tilde{x} \in E''$ for all $x \in E$. The map $c_E : x \mapsto \tilde{x}$ from $E$ into $E''$ is a linear mapping, said to be *canonical*.
 
-#### Proposition 1 {#evt-iv-s2-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s2-prop-1 .statement tag=07S9}
 
 — *The kernel of $c_E : E \to E''$ is the closure of 0 in $E$. If $E$ is Hausdorff, $c_E$ is injective.*
 
@@ -60,31 +60,31 @@ TVS IV.15
 
 The strong topology on $E''$ is the $\mathscr{S}$-topology, where $\mathscr{S}$ is the family of all strongly bounded subsets of $E'$. Since every equicontinuous subset of $E'$ is strongly bounded (III, p. 22, prop. 9), the initial topology on $E$ is coarser than the topology obtained by taking the inverse image under $c_E$ of the strong topology on $E''$; it can be strictly coarser (IV, p. 52, exerc. 1). However:
 
-#### Proposition 2 {#evt-iv-s2-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s2-prop-2 .statement tag=07SA}
 
 — Suppose that the space $E$ is bornological or barrelled. The initial topological on $E$ is the inverse image under $c_E$ of the strong topology on $E''$.
 
 For, every subset of $E'$ which is strongly bounded is equicontinuous (III, p. 22, prop. 10 and III, p. 24).
 
-#### Proposition 3 {#evt-iv-s2-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s2-prop-3 .statement tag=07SB}
 
 — Let $E$ be a locally convex Hausdorff space. In order that the strong dual $E'_b$ of $E$ be barrelled, it is necessary and sufficient that every subset of $E''$ which is bounded for $\sigma(E'', E')$, is contained in the closure, for $\sigma(E'', E')$, of a bounded subset of $E$.
 
 The equicontinuous subsets of $E''$ are the subsets contained in the bipolar (for the duality between $E''$ and $E'$) of a bounded subset of the subspace $E$ of $E''$. It is now enough to apply the theorem of bipolars (II, p. 45, cor. 3) and the definition of a barrelled space (III, p. 24).
 
-#### Remark {#evt-iv-s2-n1-rem-1 .statement}
+#### Remark {#evt-iv-s2-n1-rem-1 .statement tag=07SC}
 
 Let $E$ be a locally convex Hausdorff space, $E'$ its dual and $E''$ its bidual. We have $E \subset E'' \subset {E'}^*$, where ${E'}^*$ is the algebraic dual of $E'$. If $B$ is a bounded subset of $E$, its closure $\overline{B}$ in ${E'}^*$ endowed with $\sigma({E'}^*, E')$ is contained in $E''$: for, the polar $U = B^\circ$ of $B$ in $E'$ is a neighbourhood of 0 in $E'_b$, and we have $\overline{B} \subset U^\circ \subset E''$.
 
 ### 2. Semi-reflexive spaces
 
-#### Definition 2 {#evt-iv-s2-def-2 .statement}
+#### Definition 2 {#evt-iv-s2-def-2 .statement tag=07SD}
 
 — Let $E$ be a locally convex space. We say that $E$ is semi-reflexive if the canonical mapping $c_E$ from $E$ into $E''$ is bijective.
 
 This implies that $E$ is Hausdorff, and that every linear form on $E'$, which is continuous for the strong topology $\beta(E', E)$, is of the form $x' \mapsto \langle x, x' \rangle$ with $x \in E$, i.e. continuous for the weak topology $\sigma(E', E)$.
 
-#### Theorem 1 {#evt-iv-s2-thm-1 .statement}
+#### Theorem 1 {#evt-iv-s2-thm-1 .statement tag=07SE}
 
 — A locally convex Hausdorff space is semi-reflexive if and only if every bounded subset of $E$ is relatively compact for the weakened topology $\sigma(E, E')$. If $E$ is semi-reflexive, the strong dual $E'_b$ of $E$ is barrelled.
 
@@ -92,39 +92,39 @@ The second assertion follows from prop. 3 (IV, p. 15), and the identity between 
 
 To say that $E$ is semi-reflexive means that the topology on $E'_b$ is compatible with the duality between $E$ and $E'$, in other words, by Mackey's theorem (IV, p. 2, th. 1) that the topology on $E'_b$ is coarser than $\tau(E', E)$ (and in fact is identical with it); by definition (IV, p. 2), this means that every closed, convex and bounded subset of $E$ is compact for $\sigma(E, E')$, and this is equivalent to saying that every bounded subset of E is relatively compact for $\sigma(E, E')$, because the closed convex envelope of a bounded subset of E is bounded (III, p. 3, prop. 1).
 
-#### Corollary {#evt-iv-s2-n2-cor-1 .statement}
+#### Corollary {#evt-iv-s2-n2-cor-1 .statement tag=07SF}
 
 — *Let E be a locally convex semi-reflexive space. Every closed vector subspace M of E is semi-reflexive; moreover, the strong topology on $E'/M^\circ$ (considered as the dual of M) is the quotient of the strong topology on E'.
 
 Let B be a bounded subset of M. Since B is bounded in E, and the weakened topology $\sigma(M, M')$ on M is induced by $\sigma(E, E')$ (IV, p. 10, prop. 11), the closure of B in M endowed with $\sigma(M, M')$ is compact. Hence, by th. 1, M is semi-reflexive. The last assertion of the corollary follows from prop. 10 of IV, p. 9, applied to the set $\mathscr{S}$ of all closed, convex and bounded subsets of E.
 
-#### Remark 1 {#evt-iv-s2-n2-rem-1 .statement}
+#### Remark 1 {#evt-iv-s2-n2-rem-1 .statement tag=07SG}
 
 Suppose E is semi-reflexive. Every subset of E which is convex, closed and bounded for the initial topology is compact for the topology $\sigma(E, E')$ (IV, p. 1, prop. 1). *On the other hand, the unit sphere (with the equation $\|x\| = 1$) of an infinite dimensional hilbertian space E is closed and bounded for the initial topology, but is not closed for the weakened topology, even if E is semi-reflexive. \*
 
-#### Remark 2 {#evt-iv-s2-n2-rem-2 .statement}
+#### Remark 2 {#evt-iv-s2-n2-rem-2 .statement tag=07SH}
 
 By remark 3 of IV, p. 5, we can reformulate th. 1 as follows : *the Hausdorff space E is semi-reflexive if and only if it is quasi-complete for its weakened topology.* If it is semi-reflexive, then it is *quasi-complete for its initial topology* (IV, p. 5, Remark 2).
 
-#### Remark 3 {#evt-iv-s2-n2-rem-3 .statement}
+#### Remark 3 {#evt-iv-s2-n2-rem-3 .statement tag=07SI}
 
 Under the hypotheses of the above corollary, the space E/M is not necessarily semi-reflexive (IV, p. 63, exerc. 10).
 
 ### 3. Reflexive spaces
 
-#### Definition 3 {#evt-iv-s2-def-3 .statement}
+#### Definition 3 {#evt-iv-s2-def-3 .statement tag=07SJ}
 
 — *A locally convex space E is said to be reflexive if the canonical mapping $c_E$ from E into $E''$ is a topological vector space isomorphism from E onto the strong dual of $E'_b$.*
 
 In particular, a reflexive space is semi-reflexive, hence Hausdorff.
 
-#### Proposition 4 {#evt-iv-s2-prop-4 .statement}
+#### Proposition 4 {#evt-iv-s2-prop-4 .statement tag=07SK}
 
 — *The strong dual of a reflexive space is reflexive.*
 
 This follows immediately from def. 3.
 
-#### Theorem 2 {#evt-iv-s2-thm-2 .statement}
+#### Theorem 2 {#evt-iv-s2-thm-2 .statement tag=07SL}
 
 — *In order that a locally convex Hausdorff space E be reflexive, it is necessary and sufficient that it is barrelled and that every bounded subset of E is relatively compact for the weakened topology $\sigma(E, E')$.*
 
@@ -132,13 +132,13 @@ By th. 1 (IV, p. 15), this is the same as saying that E *is reflexive if and onl
 
 If E is reflexive, $E'_b$ is reflexive (prop. 4) and consequently E is barrelled (IV, p. 15, th. 1). Conversely, if E is semi-reflexive and barrelled, $c_E$ is a bijection and is bicontinuous by IV, p. 15, prop. 2, hence E is reflexive.
 
-#### Remark 1 {#evt-iv-s2-n3-rem-1 .statement}
+#### Remark 1 {#evt-iv-s2-n3-rem-1 .statement tag=07SM}
 
 Let E be an infinite dimensional real hilbertian space. Let F denote the space E endowed with the weakened topology. The spaces E and F have the same dual E', and E is a reflexive Banach space (V, p. 17). Consequently, F is *semi-reflexive*.
 
 However, the strong topology and the weakened topology on E are distinct, hence F *is not reflexive*.
 
-#### Remark 2 {#evt-iv-s2-n3-rem-2 .statement}
+#### Remark 2 {#evt-iv-s2-n3-rem-2 .statement tag=07SN}
 
 Let E be a reflexive space and M a closed vector subspace of E. It may happen that neither M nor E/M are reflexive spaces (IV, p. 63, exerc. 10). \* For the case of normed spaces, see prop. 7 of IV, p. 17. \*
 
@@ -159,31 +159,31 @@ $$
 
 By prop. 8, (i) of IV, p. 7, the canonical linear mapping $c_E : E \to E''$ is an isometry. Henceforth, *we shall identify E with a normed subspace of its bidual E''*.
 
-#### Proposition 5 {#evt-iv-s2-prop-5 .statement}
+#### Proposition 5 {#evt-iv-s2-prop-5 .statement tag=07SO}
 
 — *Let E be a normed space, E' its dual and E'' its bidual. The (closed) unit ball in E'' is the closure of the unit ball B in E for the weak topology $\sigma(E'', E')$.*
 
 By formulas (1) and (2), the unit ball in E'' is the bipolar $B^{\circ \circ}$ of B. Prop. 5 then follows from the theorem of bipolars (II, p. 45, cor. 3).
 
-#### Remark {#evt-iv-s2-n4-rem-1 .statement}
+#### Remark {#evt-iv-s2-n4-rem-1 .statement tag=07SP}
 
 — A Banach space E is closed in its bidual E'' for the strong topology, but is dense for the weak topology (prop. 5).
 
 In order that a normed space be *reflexive*, it is necessary and sufficient that it is *semi-reflexive*; for, the initial topology of E is always induced by the strong topology of E''. Th. 1 (IV, p. 15) then implies the following result :
 
-#### Proposition 6 {#evt-iv-s2-prop-6 .statement}
+#### Proposition 6 {#evt-iv-s2-prop-6 .statement tag=07SQ}
 
 — *In order that a normed space E be reflexive, it is necessary and sufficient that the unit ball in E be compact for the weakened topology $\sigma(E, E')$.*
 
 We observe that a reflexive normed space is complete hence a Banach space, and that its dual is a reflexive Banach space by prop. 4 of IV, p. 16.
 
-#### Proposition 7 {#evt-iv-s2-prop-7 .statement}
+#### Proposition 7 {#evt-iv-s2-prop-7 .statement tag=07SR}
 
 — *Let E be a reflexive Banach space and M a closed vector subspace of E. Then M and E/M are reflexive Banach spaces.*
 
 Let E' be the dual of E and $M^\circ$ the orthogonal of M in E'. As a normed space, we can identify the space $E'/M^\circ$ with the dual $M'$ of M (IV, p. 9, prop. 10). Since M is semi-reflexive (IV, p. 16, corollary), it is reflexive, hence so is $E'/M^\circ$; similarly $M^\circ$ is reflexive, as also its dual $E/M^{\circ \circ} = E/M$.
 
-#### Example {#evt-iv-s2-n4-exa-1 .statement}
+#### Example {#evt-iv-s2-n4-exa-1 .statement tag=07SS}
 
 — 1) Let $\ell^\infty(\mathbf{N})$ denote the Banach space of bounded sequences $x = (x_n)_{n \in \mathbf{N}}$ of scalars, with the norm
 
@@ -210,29 +210,29 @@ for all $\mathbf{x} \in c_0(\mathbf{N})$ and $\mathbf{x}' \in \ell^1(\mathbf{N})
 
 ### 5. Montel spaces
 
-#### Definition 4 {#evt-iv-s2-def-4 .statement}
+#### Definition 4 {#evt-iv-s2-def-4 .statement tag=07ST}
 
 *A locally convex Hausdorff and barrelled space in which every bounded subset is relatively compact is called a Montel space.*
 
-#### Example 1 {#evt-iv-s2-n5-exa-1 .statement}
+#### Example 1 {#evt-iv-s2-n5-exa-1 .statement tag=07SU}
 
 Every finite dimensional Hausdorff space is a Montel space. A normed space which is a Montel space is locally compact, hence is finite dimensional (I, p. 15, th. 3).
 
-#### Example 2 {#evt-iv-s2-n5-exa-2 .statement}
+#### Example 2 {#evt-iv-s2-n5-exa-2 .statement tag=07SV}
 
 With the notations and hypothesis of prop. 7 of III, p. 6, the space E, being the inductive limit of Banach spaces, is barrelled (III, p. 25); moreover, every bounded subset of E is relatively compact (III, p. 6, prop. 7). In other words, E is a Montel space. In particular, Gevrey spaces (III, p. 10) are Montel spaces. \* This is true for the space $\mathscr{H}(K)$ consisting of germs of functions analytic in a neighbourhood of a compact subset K of $\mathbf{C}^n$ (III, p. 10).*
 
-#### Example 3 {#evt-iv-s2-n5-exa-3 .statement}
+#### Example 3 {#evt-iv-s2-n5-exa-3 .statement tag=07SW}
 
 Every strict inductive limit E of a sequence $(E_n)$ of Montel spaces (II, p. 33) such that $E_n$ is closed in $E_{n+1}$ for all n, is a Montel space; in fact, E is Hausdorff (II, p. 32, prop. 9 (i)), barrelled (III, p. 25, cor. 3) and every bounded subset of E is contained in one of the $E_n$ (III, p. 5, prop. 6) hence is relatively compact in $E_n$, and consequently also in E.
 
-#### Example 4 {#evt-iv-s2-n5-exa-4 .statement}
+#### Example 4 {#evt-iv-s2-n5-exa-4 .statement tag=07SX}
 
 \* Let U be an open set in $\mathbf{R}^n$ and let $\mathscr{C}^\infty(U)$ be the Fréchet space of infinitely differentiable functions on U (III, p. 9). We shall prove that this is a Montel space. Since $\mathscr{C}^\infty(U)$ is a Fréchet space, it is barrelled (III, p. 25, corollary). Let B be a bounded subset of $\mathscr{C}^\infty(U)$ and let K be a compact subset of U. For every $\alpha \in \mathbf{N}^n$ let $H_{\alpha, K}$ be the set of restrictions to K of the functions $\partial^\alpha f$, as $f$ runs through B. Let $\alpha \in \mathbf{N}^n$; for every $\beta \in \mathbf{N}^n$ such that $|\beta| = |\alpha| + 1$, the set $H_{\alpha, K}$ is bounded in $\mathscr{C}(K)$ since B is bounded in $\mathscr{C}^\infty(U)$; by VAR, R., No. 2.2.3, the set $H_{\alpha, K}$ is equicontinuous, hence (GT, X, § 2, No. 5) relatively compact in $\mathscr{C}(K)$. But the topology of $\mathscr{C}^\infty(U)$ is the coarsest among the topologies for which all the maps $f \mapsto \partial^\alpha f|K$ from $\mathscr{C}^\infty(U)$ into $\mathscr{C}(K)$ are continuous, therefore B is relatively compact in $\mathscr{C}^\infty(U)$ (GT, I, § 4, No. 1, prop. 3 and § 9, No. 5, corollary).
 
 Similarly, *the space $\mathscr{C}_0^\infty(U)$ of all infinitely differentiable functions with compact support in U* (III, p. 9) *is a Montel space*. For, $\mathscr{C}_0^\infty(U)$ is the strict inductive limit of a sequence $\mathscr{C}_{H_n}^\infty(U)$ of Fréchet spaces (III, p. 9), and it is enough to see that each of the spaces $\mathscr{C}_{H_n}^\infty(U)$ is a Montel space (*Example 3*). But a bounded and closed subset of $\mathscr{C}_0^\infty(U)$ is closed and bounded in $\mathscr{C}^\infty(U)$, hence compact in $\mathscr{C}^\infty(U)$, and consequently in $\mathscr{C}_{H_n}^\infty(U)$. \*
 
-#### Proposition 8 {#evt-iv-s2-prop-8 .statement}
+#### Proposition 8 {#evt-iv-s2-prop-8 .statement tag=07SY}
 
 *Let E be a Montel space and $\mathfrak{T}$ a filter on E, which converges to a point $x_0$ in E for the weakened topology. If $\mathfrak{T}$ is a countable base, or contains a bounded set, then $\mathfrak{T}$, converges to $x_0$ for the initial topology also.*
 
@@ -242,13 +242,13 @@ Next assume that $\mathfrak{T}$ has a countable base. It is enough (GT, I, § 6,
 
 *Every Montel space is reflexive*: this follows from def. 4 and from th. 2 of IV, p. 16. Further:
 
-#### Proposition 9 {#evt-iv-s2-prop-9 .statement}
+#### Proposition 9 {#evt-iv-s2-prop-9 .statement tag=07SZ}
 
 *The strong dual of a Montel space is a Montel space.*
 
 Let E be a Montel space and $E'_b$ its strong dual. Since E is reflexive, $E'_b$ is barrelled (IV, p. 15, th. 1). Since every bounded subset of E is relatively compact the strong topology on $E'$ coincides with the topology of compact convergence. Let B be a bounded subset of $E'_b$; it is bounded for the weak topology $\sigma(E', E)$, hence is equicontinuous because E is barrelled. Then Ascoli’s theorem (GT, X, § 2, No. 4, cor. and § 2, No. 5, cor. 1) implies that the closure of B for $\sigma(E', E)$ is compact for the topology of compact convergence; therefore B is relatively compact in $E'_b$.
 
-#### Proposition 10 {#evt-iv-s2-prop-10 .statement}
+#### Proposition 10 {#evt-iv-s2-prop-10 .statement tag=07T0}
 
 *Every metrizable Montel space satisfies the first axiom of countability.*
 
@@ -256,7 +256,7 @@ Let E be a metrizable Montel space. We know (II, p. 5) that E can be identified 
 
 We argue by *reductio ad absurdum*. Assume for example that $F_0$ does not satisfy the first axiom of countability. Let $B_0$ be the unit ball (closed) in $F_0$; this is a metric space which does not satisfy the first axiom of countability. We shall use the following lemma :
 
-#### Lemma 1 {#evt-iv-s2-lem-1 .statement}
+#### Lemma 1 {#evt-iv-s2-lem-1 .statement tag=07T1}
 
 *Suppose the metric space X does not satisfy the first axiom of countability. Then there exists a real number $\varepsilon > 0$ and an uncountable subset A in X such that $d(x, y) \geq \varepsilon$ for all distinct $x, y$ in A.*
 
@@ -268,7 +268,7 @@ Q.E.D.
 
 By lemma 1, applied to $B_0$, there exists an uncountable subset $A_0$ of $F_0$ and a number $\varepsilon > 0$ such that $\|x\| \leq 1$ and $\|x - y\| \geq \varepsilon$ for distinct $x, y$ in $A_0$. We have $\mathrm{pr}_0(E) = F_0$ and hence there exists a subset A in E such that $\mathrm{pr}_0$ induces a bijection from A onto $A_0$.
 
-#### Lemma 2 {#evt-iv-s2-lem-2 .statement}
+#### Lemma 2 {#evt-iv-s2-lem-2 .statement tag=07T2}
 
 *There exists a sequence $(x_m)_{m \geq 0}$ consisting of distinct elements of A, which is bounded in E.*
 
@@ -291,7 +291,7 @@ Q.E.D.
 
 With the notations of lemma 2, the bounded sequence $(x_m)_{m \geq 0}$ has a limit point $y$ in E. Therefore the sequence $(\mathrm{pr}_0(x_m))_{m \geq 0}$ has a limit point $\mathrm{pr}_0(y)$ in $F_0$, but this contradicts the construction of $A_0$.
 
-#### Corollary {#evt-iv-s2-n5-cor-1 .statement}
+#### Corollary {#evt-iv-s2-n5-cor-1 .statement tag=07T3}
 
 — Let E be a metrizable Montel space. Then there exists a countable dense set in the strong dual of E.
 

@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: f50f20d7630466ba59345cf3421137475f003225ee1a534803ec1df2bf1c54b3
+content_sha256: e572fda2f90f253e610137a4546cad5a20940b2523cc5970edf9d082fd81cc68
 translated_from: content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: en-mt
 translation_method: machine
@@ -70,7 +70,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Trong No. này $A$ và $B$ ký hiệu hai vành, $E$ một $A$-môđun trái, $F$ một $B$-môđun phải, và $G$ một $(A, B)$-song môđun, nghĩa là một nhóm giao hoán được trang bị một cấu trúc $A$-môđun trái và một cấu trúc $B$-môđun phải sao cho $(ag)b = a(gb)$ với mọi $a \in A$, $b \in B$, $g \in G$.
 
-#### Định nghĩa 1 {#alg-ix-s1-def-1 .statement}
+#### Định nghĩa 1 {#alg-ix-s1-def-1 .statement tag=0DIQ}
 
 Một ánh xạ $\Phi$ của tích $E \times F$ vào $G$ được gọi là song tuyến tính nếu nó thỏa mãn các điều kiện sau:
 
@@ -98,7 +98,7 @@ với mọi $x, x'$ trong $E$, $y, y'$ trong $F$, $a \in A$, $b \in B$; nói cá
 
 $$(5) \quad \Phi(x, y) = d_\Phi(y)(x) = s_\Phi(x)(y) \text{ với mọi } x \in E, y \in F.$$
 
-#### Định nghĩa 2 {#alg-ix-s1-def-2 .statement}
+#### Định nghĩa 2 {#alg-ix-s1-def-2 .statement tag=0DIR}
 
 Cho một ánh xạ song tuyến tính $\Phi$ từ $E \times F$ vào $G$, ánh xạ $d_\Phi$ từ $F$ vào $\mathscr{L}_A(E, G)$ (resp. ánh xạ $s_\Phi$ từ $E$ vào $\mathscr{L}_B(F, G)$) được đặc trưng bởi (5) được gọi là ánh xạ tuyến tính liên kết bên phải (resp. bên trái) với $\Phi$.
 
@@ -110,7 +110,7 @@ $$
 
 một ánh xạ song tuyến tính $\Phi$ từ $E \times F$ vào $G$, mà $d$ (resp. $s$) là ánh xạ tuyến tính liên kết bên phải (resp. bên trái).
 
-#### Định nghĩa 3 {#alg-ix-s1-def-3 .statement}
+#### Định nghĩa 3 {#alg-ix-s1-def-3 .statement tag=0DIS}
 
 Một ánh xạ song tuyến tính $\Phi$ của $E \times F$ vào $G$ được gọi là suy biến bên phải (tương ứng bên trái) nếu tồn tại một phần tử khác không $y_0$ của $F$ (tương ứng $x_0$ của $E$) sao cho $\Phi(x, y_0) = 0$ với mọi $x \in E$ (tương ứng $\Phi(x_0, y) = 0$ với mọi $y \in F$). Ta nói rằng $\Phi$ là suy biến nếu nó suy biến bên phải hoặc nếu nó suy biến bên trái.
 
@@ -148,7 +148,7 @@ Cho $\Phi$ là một ánh xạ song tuyến tính của $E \times F$ vào G, và
 
 Trong No. này, trừ khi được nói rõ khác đi, A và B là hai vành, E là một A-môđun trái và F là một B-môđun *trái*; $b \to b^J$ ($b \in B$) là một *phản tự đẳng cấu* của B, nghĩa là một song ánh của B lên chính nó thỏa mãn $(b + c)^J = b^J + c^J$ và $(bc)^J = c^J b^J$ với mọi $b,\ c$ trong B; ta sẽ viết $J'$ thay cho $J^{-1}$. G là một song môđun (A, B) (No. 1).
 
-#### Định nghĩa 4 {#alg-ix-s1-def-4 .statement}
+#### Định nghĩa 4 {#alg-ix-s1-def-4 .statement tag=0DIT}
 
 *Ta nói rằng một ánh xạ $\Phi$ của $E \times F$ vào G là nửa song tuyến tính phải đối với J nếu nó thỏa mãn các điều kiện (1), (2), (3) (đn. 1, No. 1) cũng như*
 (7) $\Phi(x, by) = \Phi(x, y) \cdot b^J$ với mọi $x \in E,\ y \in F$ và $b \in B$.
@@ -164,7 +164,7 @@ Như trong trường hợp của một ánh xạ song tuyến tính, các phần
 
 Đối với các ánh xạ song tuyến tính, người ta định nghĩa trên tập hợp các ánh xạ nửa song tuyến tính phải (đối với $J$) từ $E \times F$ vào $G$ một cấu trúc song môđun trên các tâm của $A$ và $B$. Người ta định nghĩa khái niệm ảnh ngược của một ánh xạ nửa song tuyến tính bằng cùng một công thức như đối với một ánh xạ song tuyến tính. Hơn nữa, ta sẽ thấy rằng việc nghiên cứu các ánh xạ nửa song tuyến tính có thể quy về việc nghiên cứu các ánh xạ song tuyến tính.
 
-#### Định nghĩa 5 {#alg-ix-s1-def-5 .statement}
+#### Định nghĩa 5 {#alg-ix-s1-def-5 .statement tag=0DIU}
 
 Cho $B$ là một vành, $F$ là một $B$-môđun trái (tương ứng phải) và $J$ là một phản tự đẳng cấu của $B$. Ta ký hiệu $F^J$ là $B$-môđun phải (tương ứng trái) có cùng nhóm cộng nền với $F$ và trong đó luật hợp thành ngoài là $(b, y) \to b^{J'}y$ (tương ứng $(b, y) \to yb^{J'}$) $(b \in B,\ y \in F,\ J' = J^{-1})$.
 
@@ -177,7 +177,7 @@ $$
 
 Tương tự, một ánh xạ nửa song tuyến tính phải $\Phi$ (đối với $J$) từ $E \times F$ vào $G$, trong đó $F$ là một $B$-môđun trái, được đồng nhất với một ánh xạ song tuyến tính từ $E \times F^J$ vào $G$; nếu ánh xạ sau suy biến phải (tương ứng suy biến trái, không suy biến), người ta nói rằng $\Phi$ suy biến phải (tương ứng suy biến trái, không suy biến).
 
-#### Nhận xét {#alg-ix-s1-n2-rem-1 .statement}
+#### Nhận xét {#alg-ix-s1-n2-rem-1 .statement tag=0DIV}
 
 Cho $A$ và $B$ là hai vành, $J_1$ là một phản tự đẳng cấu của $A$, $M$ là một $A$-môđun phải, $N$ là một $B$-môđun phải và G là một (A, B)-song môđun. Người ta nói rằng một ánh xạ $\Phi$ từ $M \times N$ vào G là *nửa song tuyến tính trái đối với $J_1$* nếu nó là $\mathbf{Z}$-song tuyến tính và nếu nó thỏa mãn
 
@@ -191,7 +191,7 @@ Một ánh xạ như vậy được đồng nhất với một ánh xạ song tu
 
 Trong Số này, A và B ký hiệu các vành, E là một A-môđun trái, F là một B-môđun phải (resp. một B-môđun trái), G là một song môđun (A, B), và $\Phi$ là một ánh xạ song tuyến tính (resp. ánh xạ sesquilinear đối với một tự đẳng cấu phản J đã cho của B) từ $E \times F$ vào G.
 
-#### Định nghĩa 6 {#alg-ix-s1-def-6 .statement}
+#### Định nghĩa 6 {#alg-ix-s1-def-6 .statement tag=0DIW}
 
 *Hai phần tử $x \in E$ và $y \in F$ được gọi là trực giao đối với $\Phi$ nếu $\Phi(x, y) = 0$. Hai tập con $E' \subset E$ và $F' \subset F$ được gọi là trực giao nếu, với mọi $x \in E'$ và $y \in F'$, $x$ và $y$ là trực giao. Tập hợp các phần tử của $E$ (resp. F) trực giao với một môđun con N đã cho của F (resp. M của E) là một môđun con của E (resp. F), được gọi là môđun con trực giao toàn phần (hoặc đơn giản là môđun con trực giao) với N (resp. M), và được ký hiệu bởi $N^0$ (resp. $M^0$).*
 
@@ -227,7 +227,7 @@ a'_1(a' \otimes x) = (a'_1 a') \otimes x \quad (a', a'_1 \in A', x \in E)
 $$
 (tương ứng, $(y \otimes b') b'_1 = y \otimes (b' b'_1)$ $(b', b'_1 \in B', y \in F)$).
 
-#### Mệnh đề 1 {#alg-ix-s1-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ix-s1-prop-1 .statement tag=0DIX}
 
 *Cho $E$ là một A-môđun trái và $F$ là một B-môđun phải; đặt $E' = A' \otimes_A E$ và $F' = F \otimes_B B'$. Với mọi ánh xạ song tuyến tính $\Phi$ từ $E \times F$ vào $G$, tồn tại duy nhất một ánh xạ song tuyến tính $\Phi'$ từ $E' \times F'$ vào $G'$ sao cho*
 
@@ -270,7 +270,7 @@ $$
 
 (trong đó $d_\Phi$ và $d_{\Phi'}$ ký hiệu các ánh xạ tuyến tính liên kết phải của $\Phi$ và $\Phi'$) là *giao hoán*. Thật vậy, với $x \in E, y \in F$ và $a' \in A'$, ta có $d_{\Phi'}(i(y))(a' \otimes x) = \Phi'(a' \otimes x, y \otimes 1) = a'.u(\Phi(x, y)) = a'.u(d_\Phi(y)(x))$, nghĩa là, $d_{\Phi'}(i(y))(a' \otimes x) = k(d_\Phi(y))(a' \otimes x)$. Có một quan hệ giao hoán tương tự cho các ánh xạ tuyến tính liên kết trái $s_\Phi$ và $s_{\Phi'}$ của $\Phi$ và $\Phi'$.
 
-#### Mệnh đề 2 {#alg-ix-s1-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ix-s1-prop-2 .statement tag=0DIY}
 
 *Giả sử rằng B và B' được trang bị các phản tự đẳng cấu J và I sao cho*
 
@@ -304,7 +304,7 @@ từ G vào G'. Cặp $(G', u)$ được xác định như vậy rõ ràng là *
 
 Điều sau đây đúng như nhau đối với các ánh xạ song tuyến tính và các ánh xạ nửa song tuyến tính; các giả thiết và ký hiệu là những điều của mệnh đề 1 (tương ứng mệnh đề 2). Cho một môđun con M của E hoặc F, ta ký hiệu bởi M' môđun con của E' hoặc F' sinh bởi ảnh chính tắc của M.
 
-#### Mệnh đề 3 {#alg-ix-s1-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ix-s1-prop-3 .statement tag=0DIZ}
 
 Các giả thiết và ký hiệu là những điều của mệnh đề 1 (tương ứng mệnh đề 2), giả sử thêm rằng A, B, A', B' là các trường và rằng các ánh xạ α và β của $A' \otimes_A G$ và $G \otimes_B B'$ vào G' được đặc trưng bởi $\alpha(a' \otimes g) = a'u(g)$ và $\beta(g \otimes b') = u(g)b'$ ($a' \in A'$, $b' \in B'$, $g \in G$) là đơn ánh. Cho M là một không gian con của E và N là một không gian con của F. Khi đó không gian con $(M')^0$ của F' trực giao với M' đối với $\Phi'$ bằng $(M^0)'$, và tương tự, ta có $(N')^0 = (N^0)'$.
 
@@ -323,13 +323,13 @@ $$
 
 Vì $\beta$ là đơn ánh và các $b'_i$ (tương ứng các ${b'}^I_i$, có tính đến (15)) độc lập tuyến tính trên B đối với cấu trúc B-môđun trái của B', điều này suy ra $\Phi(x, y_i) = 0$ với $i = 1, \ldots, s$. Vì quan hệ cuối cùng này đúng với mọi $x \in M$, ta có $y_i \in M^0$ với $i = 1, \ldots, s$, do đó $y' \in (M^0)'$. QED.
 
-#### Hệ quả {#alg-ix-s1-n4-cor-1 .statement}
+#### Hệ quả {#alg-ix-s1-n4-cor-1 .statement tag=0DJ0}
 
 Các giả thiết và ký hiệu là những cái của Mệnh đề 3, để $\Phi'$ không suy biến, điều kiện cần và đủ là $\Phi$ không suy biến.
 
 Thật vậy, theo Mệnh đề 3, ta có $(F')^0 = (F^0)'$ và $(E')^0 = (E^0)'$. Mặt khác, để $\Phi$ (tương ứng $\Phi'$) không suy biến, điều kiện cần và đủ là phải có $F^0 = E^0 = \{0\}$ (tương ứng $(F')^0 = (E')^0 = \{0\}$).
 
-#### Nhận xét {#alg-ix-s1-n4-rem-1 .statement}
+#### Nhận xét {#alg-ix-s1-n4-rem-1 .statement tag=0DJ1}
 
 Giả sử rằng A, B, A' và B' là các trường. Khi đó, đối với các song môđun G' được định nghĩa trong ba ví dụ trên, các ánh xạ $\alpha$ và $\beta$ là đơn ánh, như suy ra ngay lập tức từ Chap. III, 2nd ed., App. II, No. 6.
 
@@ -409,19 +409,19 @@ $$
 
 trong đó $N'$ (tương ứng $M'$) là môđun con của đối ngẫu $F^*$ của $F$ (tương ứng của đối ngẫu $E^*$ của $E$) vuông góc với $N$ (tương ứng $M$) (Chương II, § 4, No. 2).
 
-#### Mệnh đề 4 {#alg-ix-s1-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ix-s1-prop-4 .statement tag=0DJ2}
 
 *Giả sử rằng $A$ là một trường, và cho $\Phi$ là một dạng song tuyến tính (tương ứng dạng nửa song tuyến tính đối với $J$) trên $E \times F$; để $E/F^0$ có số chiều hữu hạn, điều kiện cần và đủ là $F/E^0$ có số chiều hữu hạn, và khi đó các số chiều này bằng nhau.*
 
 Thật vậy, gọi $\Phi_1$ là dạng không suy biến liên kết với $\Phi$, trên $(E/F^0) \times (F/E^0)$ (No. 3). Giả sử rằng $E/F^0$ có số chiều hữu hạn $n$; vì ánh xạ tuyến tính $d_{\Phi_1}$ từ $F/E^0$ (tương ứng $(F/E^0)^J$) vào $(E/F^0)^*$ là đơn ánh, $F/E^0$ có số chiều hữu hạn $n' \leq n$; xét $s_{\Phi_1}$, ta thấy tương tự rằng $n \leq n'$.
 
-#### Hệ quả 1 {#alg-ix-s1-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-ix-s1-prop-4-cor-1 .statement tag=0DJ3}
 
 *Giả sử rằng $A$ là một trường và rằng $\Phi$ không suy biến. Để một không gian con $M$ của $E$ có số chiều hữu hạn, điều kiện cần và đủ là $M^0$ có đối chiều hữu hạn trong $F$, và khi đó ta có $\operatorname{codim} M^0 = \dim M$, và $M^{00} = M$.*
 
 Vì $F^0 = \{0\}$, hai mệnh đề đầu tiên suy ra từ mệnh đề 4 áp dụng cho hạn chế của $\Phi$ lên $M \times F$. Hơn nữa, $M^0$ là trực giao của $M^{00}$, do đó $M^{00}$ có số chiều hữu hạn bằng $\operatorname{codim} M^0 = \dim M$; nhưng vì $M^{00} \supset M$, ta có $M^{00} = M$.
 
-#### Hệ quả 2 {#alg-ix-s1-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-ix-s1-prop-4-cor-2 .statement tag=0DJ4}
 
 *Các giả thiết là các giả thiết của hệ quả 1, cho $M, N$ là hai không gian con của $E$; khi đó ta có $(M + N)^0 = M^0 \cap N^0$; nếu hơn nữa $M$ và $N$ có số chiều hữu hạn, ta có $(M \cap N)^0 = M^0 + N^0$.*
 
@@ -429,19 +429,19 @@ Mệnh đề đầu tiên là tầm thường. Giả sử rằng M và N có s�
 
 Mệnh đề 4 cho phép ta đưa ra định nghĩa sau:
 
-#### Định nghĩa 7 {#alg-ix-s1-def-7 .statement}
+#### Định nghĩa 7 {#alg-ix-s1-def-7 .statement tag=0DJ5}
 
 Cho A là một trường (tương ứng, một trường được trang bị một phản tự đẳng cấu J), E là một không gian vectơ trái trên A, F là một không gian vectơ phải (tương ứng, trái) trên A, và $\Phi$ là một dạng song tuyến tính (tương ứng, sesquilinear đối với J) trên $E \times F$. Giả sử rằng $E/F^0$ và $F/E^0$ có số chiều hữu hạn trên A. Hạng của $\Phi$ được gọi là số chiều chung (hữu hạn) của các không gian vectơ $E/F^0$ và $F/E^0$.
 
 Khi $E/F^0$ và $F/E^0$ có số chiều vô hạn, ta nói rằng $\Phi$ có hạng vô hạn.
 
-#### Mệnh đề 5 {#alg-ix-s1-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ix-s1-prop-5 .statement tag=0DJ6}
 
 Các giả thiết và ký hiệu là các giả thiết và ký hiệu của định nghĩa 7, các ánh xạ tuyến tính $s_\Phi$ và $d_\Phi$ liên kết với $\Phi$ có cùng hạng, và hạng này bằng hạng của dạng $\Phi$.
 
 Thật vậy, hạt nhân của ánh xạ $d_\Phi$ từ F vào $E^*$ hiển nhiên là $E^0$, do đó hạng của nó bằng chiều của $F/E^0$. Tương tự, hạng của $s_\Phi$ bằng chiều của $E/F^0$.
 
-#### Mệnh đề 6 {#alg-ix-s1-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ix-s1-prop-6 .statement tag=0DJ7}
 
 Các giả thiết và ký hiệu là các giả thiết và ký hiệu của định nghĩa 7, giả sử thêm rằng E và F có cùng số chiều hữu hạn. Khi đó các điều kiện sau là tương đương:
 a) $d_\Phi$ là đơn ánh ;
@@ -454,7 +454,7 @@ Thật vậy, vì E, F, $E^*$ và $F^*$ có cùng số chiều hữu hạn,
 
 a) và b) là tương đương, cũng như c) và d) (chương II, § 3, số 4). Vì $s_\Phi$ và $d_\Phi$ có cùng hạng (mệnh đề 5), a) và c) là tương đương. Vì e) tương đương với quan hệ $E^0 = F^0 = \{0\}$, nó tương đương với phép hội của a) và c), do đó có sự tương đương của các điều kiện đã nêu.
 
-#### Hệ quả {#alg-ix-s1-n6-cor-1 .statement}
+#### Hệ quả {#alg-ix-s1-n6-cor-1 .statement tag=0DJ8}
 
 Các giả thiết và ký hiệu là những giả thiết và ký hiệu của Định nghĩa 7, ta giả sử thêm rằng E có số chiều hữu hạn và $\Phi$ không suy biến. Khi đó ta có $\dim E = \dim F$ và, với mọi cơ sở $(e_i)$ ($1 \leq i \leq \dim E$) của E, tồn tại một cơ sở $(f_i)$ của F sao cho $\Phi(e_i, f_k) = \delta_{ik}$ ($i, k = 1, ..., \dim E$).
 
@@ -462,7 +462,7 @@ Thật vậy, vì $\Phi$ không suy biến, ta có $E^0 = F^0 = \{0\}$, do đó 
 
 Ngay lập tức thấy rằng, trong hệ quả này, ta có thể hoán đổi vai trò của E và F, thay thế $d_\Phi$ bởi $s_\Phi$ trong chứng minh.
 
-#### Nhận xét {#alg-ix-s1-n6-rem-1 .statement}
+#### Nhận xét {#alg-ix-s1-n6-rem-1 .statement tag=0DJ9}
 
 Cho A là một vành được trang bị một tự đẳng cấu ngược J, M và N là các A-môđun phải, và $\Phi$ là một dạng nửa song tuyến tính trái đối với J trên $M \times N$ (No. 2, Nhận xét); do đó nó thỏa mãn đẳng thức
 
@@ -490,7 +490,7 @@ $$
 = \langle s^{-1}(y'), x' \rangle = \langle d^{-1}(x'), y' \rangle \qquad (x' \in E^*, y' \in F^*).
 $$
 
-#### Định nghĩa 8 {#alg-ix-s1-def-8 .statement}
+#### Định nghĩa 8 {#alg-ix-s1-def-8 .statement tag=0DJA}
 
 *Cho $\Phi$ là một dạng song tuyến tính trên $E \times F$ mà các ánh xạ liên kết $s$ và $d$ là song ánh. Dạng song tuyến tính $\hat{\Phi}$ trên $F^* \times E^*$ được định nghĩa bởi (27) được gọi là dạng nghịch đảo của $\Phi$.*
 
@@ -516,7 +516,7 @@ $$
 
 do đó $\widehat{\Phi}$ là một *dạng sesquilinear trái* đối với $J$ trên $F^* \times E^*$ (No. 2).
 
-#### Định nghĩa 9 {#alg-ix-s1-def-9 .statement}
+#### Định nghĩa 9 {#alg-ix-s1-def-9 .statement tag=0DJB}
 
 *Cho $\Phi$ là một dạng sesquilinear phải đối với $J$ trên $E \times F$, có các ánh xạ liên kết $s$ và $d$ là song ánh. Dạng sesquilinear trái $\widehat{\Phi}$ đối với $J$ trên $F^* \times E^*$ được gọi là dạng nghịch đảo của $\Phi$.*
 
@@ -542,7 +542,7 @@ $$
 \Phi'(u(x), y') = \Phi(x, u^*(y')).
 $$
 
-#### Định nghĩa 10 {#alg-ix-s1-def-10 .statement}
+#### Định nghĩa 10 {#alg-ix-s1-def-10 .statement tag=0DJC}
 
 Với các giả thiết và ký hiệu như trước, ta nói rằng đồng cấu $u^*$ từ $F'_1$ vào F thỏa mãn (30) là liên hợp trái của $u$, và rằng $F'_1$ là môđun con xác định của $u^*$.
 
@@ -554,7 +554,7 @@ $$
 
 trong đó $E'_1$ ký hiệu môđun con của $E'$ được định nghĩa tương tự như $F'_1$.
 
-#### Nhận xét {#alg-ix-s1-n8-rem-1 .statement}
+#### Nhận xét {#alg-ix-s1-n8-rem-1 .statement tag=0DJD}
 
 Nếu liên hợp trái $u^*$ của $u : E \to E'$ được xác định khắp nơi, và nếu $s_{\Phi'}$ và $d_{\Phi'}$ là đơn ánh, công thức (30) chỉ ra rằng $u$ là liên hợp phải của $u^*$.
 
@@ -574,7 +574,7 @@ $$(u' \circ u)^* = u^* \circ {u'}^*.$$
 
 Đặc biệt, nếu $u$ là một *đẳng cấu* của $E$ lên $E'$, và nếu các ánh xạ liên hợp $u^*$ và $(u^{-1})^*$ đều xác định khắp nơi, thì $u^*$ là một đẳng cấu của $F'$ lên $F$, và ta có $(u^*)^{-1} = (u^{-1})^*$. Các tính chất tương tự đối với các ánh xạ liên hợp phải.
 
-#### Mệnh đề 7 {#alg-ix-s1-prop-7 .statement}
+#### Mệnh đề 7 {#alg-ix-s1-prop-7 .statement tag=0DJE}
 
 Với cùng các ký hiệu như trước, giả sử rằng $d_{\Phi}$ là song ánh. Khi đó mọi đồng cấu $u$ của $E$ vào $E'$ đều thừa nhận một ánh xạ liên hợp trái xác định khắp nơi, và ta có $u^* = (d_{\Phi})^{-1} \circ {}^t u \circ d_{\Phi'}$.
 
@@ -584,26 +584,26 @@ $$\langle u(x), d_{\Phi'}(y') \rangle = \langle x, (d_{\Phi} \circ u^*)(y') \ran
 
 bây giờ $\langle d_{\Phi'}(y'), u(x) \rangle = \langle {}^t u(d_{\Phi'}(y')), x \rangle$; do đó ta có ${}^t u(d_{\Phi'}(y')) = d_{\Phi}(u^*(y'))$ với mọi $y' \in F'$, do đó ${}^t u \circ d_{\Phi'} = d_{\Phi} \circ u^*$, và do đó biểu thức đã công bố của $u^*$. Q.E.D.
 
-#### Nhận xét {#alg-ix-s1-n8-rem-2 .statement}
+#### Nhận xét {#alg-ix-s1-n8-rem-2 .statement tag=0DJF}
 
 Khi $s_{\Phi}$ là song ánh, mọi đồng cấu $\nu$ của $F$ vào $F'$ đều thừa nhận một ánh xạ liên hợp phải xác định khắp nơi, và ta có
 
 $$(34)$$
 $$\nu^* = (s_{\Phi})^{-1} \circ {}^t \nu \circ s_{\Phi'}.$$
 
-#### Mệnh đề 8 {#alg-ix-s1-prop-8 .statement}
+#### Mệnh đề 8 {#alg-ix-s1-prop-8 .statement tag=0DJG}
 
 Với cùng các ký hiệu như trước, giả sử rằng $s_{\Phi}$ và $d_{\Phi}$ là song ánh. Cho $u$ và $\nu$ lần lượt là các đẳng cấu của E lên E' và của F lên F'. Khi đó, để Φ là ảnh ngược của Φ' đối với u và v (nghĩa là ta có Φ(x, y) = Φ'(u(x), v(y)) với mọi x ∈ E, y ∈ F), điều kiện cần và đủ là ta có u^{-1} = v^* và v^{-1} = u^*.
 
 Thật vậy Φ'(u(x), v(y)) = Φ(x, y) cũng có thể được viết là Φ (x, u^*(v(y))) = Φ(x, y). Nếu điều này đúng với mọi x ∈ E và y ∈ F, ta có u^* ∘ v = 1 vì Φ là không suy biến. Do đó ta cũng có v^* ∘ u = 1 theo (33). Điều đảo lại là ngay lập tức.
 
-#### Hệ quả {#alg-ix-s1-n8-cor-1 .statement}
+#### Hệ quả {#alg-ix-s1-n8-cor-1 .statement tag=0DJH}
 
 Cho A là một vành được trang bị một tự đẳng cấu phản $J$, E là một A-môđun trái, Φ là một dạng nửa song tuyến tính đối với $J$ trên E × E mà các ánh xạ liên kết của nó là song ánh, và u là một tự đẳng cấu của A-môđun E. Để u giữ bất biến Φ (nghĩa là ta có Φ(u(x), u(y)) = Φ(x, y) với mọi x, y trong E), điều kiện cần và đủ là hai ánh xạ liên hợp của u bằng nhau và ta có u^* = u^{-1}.
 
 Điều này suy ra ngay lập tức từ mệnh đề 8.
 
-#### Nhận xét {#alg-ix-s1-n8-rem-3 .statement}
+#### Nhận xét {#alg-ix-s1-n8-rem-3 .statement tag=0DJI}
 
 Dưới các giả thiết của hệ quả của mệnh đề 8, giả sử thêm rằng A là một trường và E có số chiều hữu hạn trên A. Cho ω là một tự đồng cấu của E, ω_1 và ω_2 là các ánh xạ liên hợp phải và trái của nó. Mỗi điều kiện ωω_1 = 1, ωω_2 = 1, ω_1ω = 1, ω_2ω = 1 kéo theo rằng ω là một tự đẳng cấu của E giữ Φ bất biến, và rằng ω_1 = ω_2.
 
@@ -634,7 +634,7 @@ $$
 \Phi(x_1 \otimes \cdots \otimes x_m, y_1 \otimes \cdots \otimes y_m) = \prod_{i=1}^m \Phi_i(x_i, y_i) \quad (x_i \in E_i, y_i \in F_i).
 $$
 
-#### Định nghĩa 11 {#alg-ix-s1-def-11 .statement}
+#### Định nghĩa 11 {#alg-ix-s1-def-11 .statement tag=0DJJ}
 
 Cho các A-môđun $E_i, F_i (i = 1, \ldots, m)$ và, với mỗi $i$, một dạng nửa song tuyến tính $\Phi_i$ đối với $J$ trên $E_i \times F_i$, dạng nửa song tuyến tính $\Phi$ đối với $J$ trên $(\bigotimes_i E_i) \times (\bigotimes_i F_i)$ được đặc trưng bởi (35) được gọi là tích tenxơ của các dạng nửa song tuyến tính $\Phi_i$.
 
@@ -652,7 +652,7 @@ Do đó ta có:
 
 trong đó $j_s$ (tương ứng $j_d$) là ánh xạ chính tắc của $\bigotimes_i F_i^*$ vào $(\bigotimes_i F_i)^*$ (tương ứng của $\bigotimes_i E_i^*$ vào $(\bigotimes_i E_i)^*$) (Chương III, § 1, Số 4 và 7).
 
-#### Mệnh đề 9 {#alg-ix-s1-prop-9 .statement}
+#### Mệnh đề 9 {#alg-ix-s1-prop-9 .statement tag=0DJK}
 
 Cho $A$ là một trường giao hoán được trang bị một tự đẳng cấu $J$, $E_i, F_i$ là các không gian vectơ hữu hạn chiều trên $A$, và $\Phi_i$ là một dạng sesquilinear đối với $J$ trên $E_i \times F_i$ ($1 \leqslant i \leqslant m$). Nếu các dạng $\Phi_i$ không suy biến, thì điều tương tự cũng đúng đối với tích tenxơ $\Phi$ của chúng. Trong trường hợp này dạng nghịch đảo $\widehat{\Phi}$ của $\Phi$ là tích tenxơ của các dạng nghịch đảo $\widehat{\Phi}_i$.
 
@@ -690,7 +690,7 @@ $$
 $$
 (37)
 
-#### Định nghĩa 12 {#alg-ix-s1-def-12 .statement}
+#### Định nghĩa 12 {#alg-ix-s1-def-12 .statement tag=0DJL}
 
 Cho hai A-môđun E, F và một dạng $\Phi$ sesquilinear đối với J trên $E \times F$, dạng $\Phi_{(m)}$ sesquilinear đối với J trên $(\wedge^m E) \times (\wedge^m F)$ được đặc trưng bởi (37) được gọi là mở rộng của $\Phi$ tới các lũy thừa ngoài bậc m.
 
@@ -709,7 +709,7 @@ $$
 
 trong đó $k_s$ (tương ứng $k_d$) ký hiệu ánh xạ chính tắc của $\wedge^m F^*$ vào $(\wedge^m F)^*$ (tương ứng của $\wedge^m E^*$ vào $(\wedge^m E)^*$) (xem Chương III, § 8, No. 2).
 
-#### Mệnh đề 10 {#alg-ix-s1-prop-10 .statement}
+#### Mệnh đề 10 {#alg-ix-s1-prop-10 .statement tag=0DJM}
 
 *Cho A là một trường giao hoán được trang bị một tự đẳng cấu J, E và F là hai không gian vectơ hữu hạn chiều trên A, và $\Phi$ là một dạng sesquilinear đối với J trên $E \times F$. Nếu $\Phi$ không suy biến, thì mở rộng $\Phi_{(m)}$ của nó tới các lũy thừa ngoài bậc m là không suy biến, và dạng nghịch đảo của $\Phi_{(m)}$ là mở rộng tới các lũy thừa ngoài bậc m của dạng nghịch đảo $\widehat{\Phi}$ của $\Phi$.*
 
@@ -722,7 +722,7 @@ $$
 
 do đó có khẳng định thứ hai.
 
-#### Nhận xét {#alg-ix-s1-n9-rem-1 .statement}
+#### Nhận xét {#alg-ix-s1-n9-rem-1 .statement tag=0DJN}
 
 Cho E là một A-môđun tự do, và cho θ là đẳng cấu chính tắc của $\bigwedge^m E$ lên môđun con gồm các tenxơ phản đối xứng hóa cấp m (Chương III, § 5, No. 6, Mệnh đề 6). Cho $\Phi$ là một dạng sesquilinear trên E, $\Phi_{(m)}$ là mở rộng của $\Phi$ lên $\bigwedge^m E$, và $\Theta$ là dạng sesquilinear trên $\bigwedge^m E$ là ảnh ngược bởi $\theta$ của mở rộng của $\Phi$ lên $\bigotimes^m E$. Từ định nghĩa của $\theta$ và của tenxơ phản đối xứng hóa, và từ (35), ta có
 
@@ -817,7 +817,7 @@ $$
 $$
 Ta hãy kiểm tra, chẳng hạn (45 DG), các kiểm tra khác là tương tự và dễ hơn một chút. Đặt $x = \sum e_ix_{io}$, $u(x) = \sum y_{ko}f_k$; ta có $u(x) = u(\sum e_ix_{io}) = \sum x_{io}^ju(e_i) = \sum x_{io}^ju_{ki}/k$; do đó $y_{ko} = \sum x_{io}^ju_{ki}$; để đặt hai chỉ số i cạnh nhau, xét các ma trận chuyển vị ${}^tM(x) = (x'_{oi})$ trong đó $x'_{oi} = x_{io}$, và ${}^tM(u) = (u'_{ik})$ trong đó $u'_{ik} = u_{ki}$; khi đó ta có $y_{ko} = \sum x'_{oi}u'_{ik}$; vì vế thứ hai là phần tử có chỉ số k của ma trận một hàng ${}^tM(x)^J \cdot {}^tM(u)$, công thức (45 DG) được kiểm tra.
 
-#### Nhận xét 1 {#alg-ix-s1-n10-rem-1 .statement}
+#### Nhận xét 1 {#alg-ix-s1-n10-rem-1 .statement tag=0DJO}
 
 Khi A là giao hoán, (45 G) thu gọn về (45 D), và (45 DG) về (45 GD), nhờ công thức ${}^t(M'M'') = {}^tM'' \cdot {}^tM'$ (xem (42)), trong đó hai vế ở đây được tính trong A.
 2) Cho E, F, G là ba môđun trái có các cơ sở hữu hạn, và $u : E \to F,\ v : F \to G$ là các ánh xạ A-tuyến tính. Từ (45 G) suy ra rằng ta có
@@ -873,11 +873,11 @@ IV. — Ở đây ta giả sử rằng các vành $A$ và $B$ bằng nhau, và t
 
 (49) $M(d) = R, \ M(s) = 'R$   (tương ứng $M(d) = R, \ M(s) = 'R^{J'}$).
 
-#### Nhận xét 2 {#alg-ix-s1-n10-rem-2 .statement}
+#### Nhận xét 2 {#alg-ix-s1-n10-rem-2 .statement tag=0DJP}
 
 Khi $A$ là một trường, các ánh xạ tuyến tính $s$ và $d$ có cùng hạng. Ta thấy ở đây rằng các ma trận $M(s)$ và $M(d)$ của chúng có cùng hạng; thật vậy, một ma trận trên $A$ và ma trận chuyển vị của nó có cùng hạng (chương II, § 6, No. 7, mệnh đề 3) và, khi $\Phi$ là sesqui tuyến tính, đẳng thức các hạng của $R$ trên $A$ và của $'R$ trên $A^0$ (nt.) cùng với sự kiện rằng $J'$ là một đẳng cấu của $A^0$ lên $A$, kéo theo đẳng thức các hạng của $R$ và của $'R^J$ trên $A$.
 
-#### Nhận xét 3 {#alg-ix-s1-n10-rem-3 .statement}
+#### Nhận xét 3 {#alg-ix-s1-n10-rem-3 .statement tag=0DJQ}
 
 Nếu $M$ và $N$ là các môđun phải $A$ có các cơ sở hữu hạn $(m_i)$ và $(n_k)$, $\Phi$ là một dạng sesqui tuyến tính trái đối với $J$ trên $M \times N$ (No. 6, Nhận xét), $s$ và $d$ là các ánh xạ liên kết của nó, và $R = (\Phi(m_i, n_k))$ là ma trận của nó, các công thức (26) của No. 6 cho thấy rằng ta có
 
@@ -900,11 +900,11 @@ Thật vậy, với mọi $x \in E$ và $y \in F'$, ta có $\Phi'(u(x), y) = \Ph
 
 2) Cho E là tổng trực tiếp các môđun $\mathbf{Z}$ và $\mathbf{Z}/(2)$ trên $\mathbf{Z}$, và cho $E^*$ là môđun đối ngẫu của nó (đẳng cấu với $\mathbf{Z}$). Chứng minh rằng dạng song tuyến tính $(x, x') \to \langle x, x' \rangle$ trên $E \times E^*$ có tính chất rằng ánh xạ tuyến tính liên kết ở bên phải là đơn ánh, nhưng ánh xạ tuyến tính liên kết ở bên trái không đơn ánh.
 
-#### Nhận xét 4 {#alg-ix-s1-n10-rem-4 .statement}
+#### Nhận xét 4 {#alg-ix-s1-n10-rem-4 .statement tag=0DJR}
 
 Cho một ví dụ về một dạng song tuyến tính $\Phi$ xác định trên một tích $E \times F$ của hai không gian vectơ, sao cho $d_\Phi$ là song ánh, $s_\Phi$ đơn ánh nhưng không song ánh (lấy $E$ có chiều vô hạn và $F$ bằng không gian đối ngẫu $E^*$ của $E$; xem Chương. II, § 5, bài tập. 3).
 
-#### Nhận xét 5 {#alg-ix-s1-n10-rem-5 .statement}
+#### Nhận xét 5 {#alg-ix-s1-n10-rem-5 .statement tag=0DJS}
 
 Cho $A$ là một vành được trang bị một phản tự đẳng cấu $J$, $E$ là một $A$-môđun trái, $G$ là một $(A, A)$-song môđun và $\Phi$ là một ánh xạ từ $E \times E$ vào $G$, nửa song tuyến phải đối với $J$. Chứng minh đẳng thức (trong đó $Q(x) = \Phi(x, x)$) :
 
@@ -913,7 +913,7 @@ $$
 - \mu Q(x - \lambda y) + Q(x + \mu y)\lambda^J - Q(x - \mu y)\lambda^J + \mu Q(x - y)\lambda^J - \mu Q(x + y)\lambda^J.
 $$
 
-#### Nhận xét 6 {#alg-ix-s1-n10-rem-6 .statement}
+#### Nhận xét 6 {#alg-ix-s1-n10-rem-6 .statement tag=0DJT}
 
 Cho $K$ là một trường giao hoán có đặc số 2, $A$ là một mở rộng bậc hai tách được của $K$; ta có $A = K(\theta)$, trong đó $\theta$ là nghiệm của một đa thức bất khả quy $X^2 + X + \beta$ của $K[X]$ và tự đẳng cấu $K$-tự đẳng cấu $J$ của $A$, khác với tự đẳng cấu đồng nhất, sao cho $\theta^J = \theta + 1$ (Chương V, § 11, Bài tập 8). Bây giờ chứng minh rằng nếu $E$ và $G$ là các không gian vectơ trên $A$, $\Phi$ là một ánh xạ nửa song tuyến (đối với $J$) từ $E \times E$ vào $G$, thì, đặt $Q(x) = \Phi(x, x)$, ta có
 
@@ -921,7 +921,7 @@ $$
 \Phi(x, y) = Q(\theta x + y) - \beta Q(x) - Q(y) - (\theta + 1)(Q(x + y) - Q(x) - Q(y)).
 $$
 
-#### Nhận xét 7 {#alg-ix-s1-n10-rem-7 .statement}
+#### Nhận xét 7 {#alg-ix-s1-n10-rem-7 .statement tag=0DJU}
 
 Cho $A$ là một trường, $E$ là một không gian vectơ trên $A$, $\Phi$ là một dạng nửa song tuyến trên $E$, $u$ là một tự đồng cấu của $E$.
 
@@ -929,11 +929,11 @@ a) Để tồn tại duy nhất một tự đồng cấu $u^*$ của $E$ sao cho
 
 b) Cho một ví dụ trong đó $E$ có chiều vô hạn và $d_\Phi$ là đơn ánh, nhưng $u(d_\Phi(E))$ không được chứa trong $d_\Phi(E)$.
 
-#### Nhận xét 8 {#alg-ix-s1-n10-rem-8 .statement}
+#### Nhận xét 8 {#alg-ix-s1-n10-rem-8 .statement tag=0DJV}
 
 Cho $E, E_1$ là hai $A$-môđun, $\Phi$ (tương ứng $\Phi_1$) là một dạng sesquilinear trên $E$ (tương ứng $E_1$). Giả sử rằng $\Phi_1$ không suy biến và tồn tại một phần tử $\alpha \in A$ cùng một song ánh $u$ của $E$ lên $E_1$ sao cho $\Phi_1(u(x), u(y)) = \Phi(x, y)\alpha$ với mọi $x, y$ trong $E$. Chứng minh rằng: 1° $\Phi$ không suy biến ; 2° $u$ tuyến tính ; 3° nếu $E_1$ là một $A$-môđun trung thành, thì điều đó cũng đúng với $E$, và $\alpha$ không là một ước phải của 0 trong $A$ ; 4° nếu $\Phi_1$ nhận các giá trị trong $A$ không phải là các ước trái của 0, thì điều đó cũng đúng với $\Phi$.
 
-#### Nhận xét 9 {#alg-ix-s1-n10-rem-9 .statement}
+#### Nhận xét 9 {#alg-ix-s1-n10-rem-9 .statement tag=0DJW}
 
 Cho $A$ là một trường, $E_1, E_2$ là hai không gian vectơ khác 0 trên $A$, $\Phi_1$ (tương ứng $\Phi_2$) là một dạng sesquilinear không suy biến trên $E_1$ (tương ứng $E_2$) đối với một phản tự đẳng cấu $J_1$ (tương ứng $J_2$) của $A$. Cho $u$ là một ánh xạ tuyến tính của $E_1$ lên $E_2$ sao cho quan hệ $\Phi_1(x, y) = 0$ kéo theo $\Phi_2(u(x), u(y)) = 0$.
 
@@ -941,7 +941,7 @@ a) Chứng minh rằng $u$ là một song ánh của $E_1$ lên $E_2$. (Nếu $u
 
 b) Chứng minh rằng nếu dim $E_1 \geqslant 2$, tồn tại $\alpha \in A$ sao cho ta có $\Phi_2(u(x), u(y)) = \Phi_1(x, y)\alpha$ với mọi $x, y$ thuộc $E_1$. (Với mọi $y \in E_1$, chứng minh rằng tồn tại một phần tử $m(y) \in A$ sao cho $\Phi_2(u(x), u(y)) = \Phi_1(x, y)m(y)$ với mọi $x \in E_1$, và rằng nếu $y$ và $y'$ độc lập tuyến tính trong $E_1$, thì có $m(y + y') = m(y) = m(y')$).
 
-#### Nhận xét 10 {#alg-ix-s1-n10-rem-10 .statement}
+#### Nhận xét 10 {#alg-ix-s1-n10-rem-10 .statement tag=0DJX}
 
 Cho $A$ là một trường, $E, F$ là hai không gian vectơ trái trên $A$, $\Phi$ là một dạng sesquilinear không suy biến trên $E \times F$ đối với một tự đẳng cấu phản của $A$.
 
@@ -956,7 +956,7 @@ c) Nếu $E = F$ và nếu $M$ là một không gian con của $E$ sao cho $E = 
 
 d) Cho $E$ là một không gian vectơ trên một trường giao hoán $A$ thừa nhận một cơ sở đếm được vô hạn $(e_n)_{n \geqslant 0}$, và cho $\Phi$ là dạng song tuyến tính đối xứng trên $E$ sao cho $\Phi(e_n, e_n) = 1$ với mọi $n$, $\Phi(e_i, e_j) = 0$ với $i \geqslant 1, j \geqslant 1$ và $i \neq j$, và $\Phi(e_0, e_n) = 1$ với mọi $n \geqslant 1$. Bây giờ chứng minh rằng $\Phi$ là không suy biến. Cho $M$ (tương ứng $N$) là không gian con của $E$ sinh bởi các $e_{2k}$ (tương ứng $e_{2k-1}$) với $k \geqslant 1$, và cho $H = M + N$, là một siêuphẳng trong $E$. Bây giờ chứng minh rằng ta có $M^0 = N, N^0 = M, H^{00} = E \neq H, (M \cap N)^0 \neq M^0 + N^0$ và $(M + N)^{00} \neq M + N$, mặc dù $M^{00} = M, N^{00} = N$; nếu $L$ là không gian con có số chiều hữu hạn 2 sinh bởi $e_0$ và $e_1$, thì có $(L \cap H)^0 \neq L^0 + H^0$.
 
-#### Nhận xét 11 {#alg-ix-s1-n10-rem-11 .statement}
+#### Nhận xét 11 {#alg-ix-s1-n10-rem-11 .statement tag=0DJY}
 
 Cho $E, E'$ là hai không gian vectơ trái trên các trường $A, A'$ tương ứng, có chiều $\geqslant 3$; cho $\mathfrak{F}(E)$ (tương ứng $\mathfrak{F}(E')$ là tập hợp có thứ tự dàn (theo quan hệ bao hàm) tạo bởi các không gian con hữu hạn chiều của $E$ (tương ứng $E'$).
 

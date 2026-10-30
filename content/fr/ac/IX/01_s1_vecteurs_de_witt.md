@@ -45,7 +45,7 @@ subsections:
       pdf_page: 127
 statements: 29
 exercises: 58
-content_sha256: d4a9d7b0a297fb36d58d11080939c18134be68cd7ca8f3130b786f023d0f006e
+content_sha256: d248d8d146addbc2467eef86e99c3952cc124cc4bad2f7bd584e52bc4cc87084
 ---
 
 ## § 1. VECTEURS DE WITT
@@ -71,7 +71,7 @@ $$
 
 Lorsqu’on affecte $X_i$ du poids $p^i$, le polynôme $\Phi_n$ est isobare de poids $p^n$ (A, IV, p. 3).
 
-#### Proposition 1 {#ac-ix-s1-prop-1 .statement}
+#### Proposition 1 {#ac-ix-s1-prop-1 .statement tag=0CTV}
 
 Soient A un anneau filtré et $(\mathbf{J}_n)_{n \in \mathbf{Z}}$ sa filtration. On suppose que l’on a $\mathbf{J}_0 = \mathbf{A}$ et $p.1_A \in \mathbf{J}_1$. Soient m et n des entiers tels que $m \geqslant 1$ et $n \geqslant 0$, et $a_0, ..., a_n, b_0, ..., b_n$ des éléments de A.
 
@@ -82,7 +82,7 @@ $$
 
 b) Supposons que, pour tout entier $k \geqslant 1$, et tout $x \in \mathbf{A}$, la relation $p.x \in \mathbf{J}_{k+1}$ entraîne $x \in \mathbf{J}_k$. Si l’on a $\Phi_i(a_0, ..., a_i) \equiv \Phi_i(b_0, ..., b_i) \mod \mathbf{J}_{m+i}$ pour $0 \leqslant i \leqslant n$, alors on a $a_i \equiv b_i \mod \mathbf{J}_m$ pour $0 \leqslant i \leqslant n$.
 
-#### Lemme 1 {#ac-ix-s1-lem-1 .statement}
+#### Lemme 1 {#ac-ix-s1-lem-1 .statement tag=0CTW}
 
 Si x et y sont deux éléments de A congrus modulo $\mathbf{J}_m$, on a
 $$
@@ -109,7 +109,7 @@ Soit A un anneau. Munissons $\mathbf{A}^\mathbf{N}$ de la structure d’anneau p
 
 Pour tout entier $m \geqslant 0$, notons $\Phi_m$ l’application de $\mathbf{A}^{\mathbf{N}}$ dans $\mathbf{A}$ qui à $a = (a_n)_{n \in \mathbf{N}}$ associe $\Phi_m(a_0, ..., a_m)$. On note $\Phi_A$, ou simplement $\Phi$, l’application $a \mapsto (\Phi_n(a))_{n \in \mathbf{N}}$ de $\mathbf{A}^{\mathbf{N}}$ dans lui-même.
 
-#### Lemme 2 {#ac-ix-s1-lem-2 .statement}
+#### Lemme 2 {#ac-ix-s1-lem-2 .statement tag=0CTX}
 
 Soit $\mathbf{A}$ un anneau muni d’un endomorphisme $\sigma$ vérifiant $\sigma(a) \equiv a^p \mod. p \cdot \mathbf{A}$ pour tout $a \in \mathbf{A}$. Soient $n \geqslant 1$ un entier et $a_0, ..., a_{n-1}$ des éléments de $\mathbf{A}$. Posons $u_i = \Phi_i(a_0, ..., a_i)$ pour $0 \leqslant i \leqslant n - 1$. Soit $u_n$ un élément de $\mathbf{A}$. Les conditions suivantes sont équivalentes :
 
@@ -137,7 +137,7 @@ $$
 
 Le lemme en résulte.
 
-#### Proposition 2 {#ac-ix-s1-prop-2 .statement}
+#### Proposition 2 {#ac-ix-s1-prop-2 .statement tag=0CTY}
 
 Soit $\mathbf{A}$ un anneau.
 
@@ -160,7 +160,7 @@ Soit $u = (u_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}^{\mathbf{N}}$. Lorsque $p \
 
 Démontrons c). D’après le lemme 2, l’image $\mathbf{A}'$ de $\mathbf{A}^{\mathbf{N}}$ par $\Phi_A$ est l’ensemble des $u = (u_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}^{\mathbf{N}}$ tels que $\sigma(u_n) \equiv u_{n+1} \mod. p^{n+1} \cdot \mathbf{A}$ pour tout $n \in \mathbf{N}$. Il en résulte aussitôt que $\mathbf{A}'$ est un sous-anneau de $\mathbf{A}^{\mathbf{N}}$, stable par $f_A$ et $v_A$.
 
-#### Remarque {#ac-ix-s1-n2-rem-1 .statement}
+#### Remarque {#ac-ix-s1-n2-rem-1 .statement tag=0CTZ}
 
 Soient $a = (a_n)_{n \in \mathbf{N}}$ et $u = (u_n)_{n \in \mathbf{N}}$ des éléments de $A^\mathbf{N}$ tels que $u = \Phi_A(a)$, et $m$ un entier $\geqslant 0$. On déduit de (10) les assertions suivantes :
 
@@ -201,7 +201,7 @@ d) On a $F_n \in \mathbf{Z}[X_0, ..., X_{n+1}]$ et $F_n$ est isobare de poids $p
 
 La formule (2) permet dans la pratique de déterminer les polynômes $S_n, P_n, I_n$ et $F_n$ de proche en proche.
 
-#### Exemple 1 {#ac-ix-s1-n3-exa-1 .statement}
+#### Exemple 1 {#ac-ix-s1-n3-exa-1 .statement tag=0CU0}
 
 On a
 
@@ -214,7 +214,7 @@ $$
 
 De plus, $S_n - X_n - Y_n$ appartient à l’anneau $\mathbf{Z}[X_0, ..., X_{n-1}, Y_0, ..., Y_{n-1}]$.
 
-#### Exemple 2 {#ac-ix-s1-n3-exa-2 .statement}
+#### Exemple 2 {#ac-ix-s1-n3-exa-2 .statement tag=0CU1}
 
 On a
 
@@ -225,7 +225,7 @@ $$
 P_1 = p X_1 Y_1 + X_0^p Y_1 + X_1 Y_0^p.
 $$
 
-#### Exemple 3 {#ac-ix-s1-n3-exa-3 .statement}
+#### Exemple 3 {#ac-ix-s1-n3-exa-3 .statement tag=0CU2}
 
 Lorsque $p \neq 2$, on a $I_n = - X_n$. Pour $p = 2$, on a
 
@@ -239,7 +239,7 @@ $$
 I_2 = - X_0^4 - X_0^2 X_1 - X_1^2 - X_2.
 $$
 
-#### Exemple 4 {#ac-ix-s1-n3-exa-4 .statement}
+#### Exemple 4 {#ac-ix-s1-n3-exa-4 .statement tag=0CU3}
 
 On a
 
@@ -252,7 +252,7 @@ $$
 
 Comme on a $\Phi_n(F_0, ..., F_n) \equiv \Phi_n(X_0^p, ..., X_n^p) \mod. p^{n+1}$. A pour tout $n \in \mathbf{N}$ (formules (2) et (15)), il résulte de la prop. 1, b) qu’on a $F_n \equiv X_n^p \mod. p$. A pour tout $n \in \mathbf{N}$.
 
-#### Remarque {#ac-ix-s1-n3-rem-1 .statement}
+#### Remarque {#ac-ix-s1-n3-rem-1 .statement tag=0CU4}
 
 Soit $J$ l’ensemble des entiers $j \geq 1$. Pour tout élément $j$ de $J$, définissons le polynôme $\varphi_j$ de $\mathbf{Z}[(X_j)_{j \in J}]$ par la formule
 
@@ -324,13 +324,13 @@ $$
 \rho^\mathbf{N} \circ \Phi_B = \Phi_A \circ W(\rho) .
 $$
 
-#### Lemme 3 {#ac-ix-s1-lem-3 .statement}
+#### Lemme 3 {#ac-ix-s1-lem-3 .statement tag=0CU5}
 
 Soit A un anneau. Il existe un homomorphisme surjectif d’anneaux $\rho : B \to A$, où B est un anneau satisfaisant aux conditions suivantes : p n’est pas diviseur de 0 dans B, et il existe un endomorphisme $\sigma$ de B tel que $\sigma(b) \equiv b^p \mod. p.B$ pour tout $b \in B$.
 
 Il suffit en effet de poser $B = \mathbf{Z}[(X_a)_{a \in A}]$, de prendre pour $\sigma$ l’endomorphisme de B défini par $\sigma(X_a) = X_a^p$ pour tout $a \in A$, et pour $\rho$ l’homomorphisme de B dans A défini par $\rho(X_a) = a$ pour tout $a \in A$.
 
-#### Théorème 1 {#ac-ix-s1-thm-1 .statement}
+#### Théorème 1 {#ac-ix-s1-thm-1 .statement tag=0CU6}
 
 a) Soit A un anneau (commutatif). Muni de l’addition $S_A$ et de la multiplication $P_A$, W(A) est un anneau (commutatif). L’élément neutre pour l’addition est la suite $0_A$ dont tous les termes sont nuls ; l’élément neutre pour la multiplication est la suite $1_A$ dont tous les termes sont nuls sauf celui d’indice 0 qui vaut $1_A$. L’opposé d’un élément a de W(A) est $I_A(a)$.
 
@@ -344,13 +344,13 @@ Soit $\rho : B \to A$ un homomorphisme d’anneaux satisfaisant aux conditions d
 
 L’application $W(\rho) : W(B) \to W(A)$ est surjective. D’après les formules (19) et (20), la relation d’équivalence R sur $W(B)$ associée à l’application $W(\rho)$ est compatible avec la structure d’anneau de $W(B)$. Comme $W(\rho)$ induit une bijection $\Psi$ de l’anneau quotient $W(B)/R$ sur $W(A)$, compatible avec les lois d’addition et de multiplication, l’assertion $a$ se déduit de là par transport de structure.
 
-#### Définition 1 {#ac-ix-s1-def-1 .statement}
+#### Définition 1 {#ac-ix-s1-def-1 .statement tag=0CU7}
 
 Soit $A$ un anneau. L’anneau $W(A)$ est appelé l’anneau des vecteurs de Witt à coefficients dans $A$.
 
 Pour $a$ dans $W(A)$ et $n$ dans $\mathbf{N}$, l’élément $\Phi_n(a) = \Phi_n(a_0, ..., a_n)$ est parfois appelé la composante fantôme d’indice $n$ de $a$.
 
-#### Remarque {#ac-ix-s1-n4-rem-1 .statement}
+#### Remarque {#ac-ix-s1-n4-rem-1 .statement tag=0CU8}
 
 Reprenons les notations de la remarque du no 3. Soit $A$ un anneau. Si $a$ et $b$ sont des éléments de $A^J$ et $r = (r_j)_{j \in J}$ un élément de $A^J$, on note $r_A(a, b)$ l’élément $(r_j(a, b))_{j \in J}$ de $A^J$. Notons $U(A)$ l’ensemble $A^J$ muni des lois de composition $s_A$ et $p_A$. On peut montrer (p. 52, exerc. 35) que, muni de l’addition $s_A$ et de la multiplication $p_A$, $U(A)$ est un anneau (commutatif); on l’appelle l’anneau de Witt universel de $A$. L’élément neutre pour l’addition est l’élément de $U(A)$ dont toutes les composantes sont nulles ; l’élément neutre pour la multiplication est l’élément de $U(A)$ dont toutes les composantes sont nulles sauf celle d’indice 1 qui vaut $1_A$; l’opposé d’un élément $a$ de $U(A)$ est $i_A(a)$. L’application $\varphi_A$ est un homomorphisme d’anneaux de $U(A)$ dans l’anneau produit $A^J$.
 
@@ -392,7 +392,7 @@ $$
 $$
 résultent aussitôt des définitions.
 
-#### Proposition 3 {#ac-ix-s1-prop-3 .statement}
+#### Proposition 3 {#ac-ix-s1-prop-3 .statement tag=0CU9}
 
 *Soit A un anneau.*
   a) *L’application $F_A$ est un endomorphisme de l’anneau $W(A)$.*
@@ -472,13 +472,13 @@ $$
 
 Ceci prouve la relation voulue.
 
-#### Remarque {#ac-ix-s1-n5-rem-1 .statement}
+#### Remarque {#ac-ix-s1-n5-rem-1 .statement tag=0CUA}
 
 Pour la définition d’applications analogues aux applications F et V, dans le cas de l’anneau de Witt universel, voir les exerc. 36, 37 et 38, p. 52 et suivantes.
 
 ### 6. Filtration et topologie de l’anneau W(A)
 
-#### Lemme 4 {#ac-ix-s1-lem-4 .statement}
+#### Lemme 4 {#ac-ix-s1-lem-4 .statement tag=0CUB}
 
 Soient A un anneau et m $\geqslant 1$ un entier. On a
 
@@ -528,7 +528,7 @@ Dans la suite, on munira $W(A)$ de la topologie $\mathscr{T}$ associée à la fi
 
 Notons $\tau_A$ (ou simplement $\tau$) l’application de $A$ dans $W(A)$ qui à un élément $a$ de $A$ associe $(a, 0, 0, ...)$. On a $\Phi_n(\tau(a)) = a^{p^n}$ pour tout $n \in \mathbf{N}$. Pour tout homomorphisme d’anneaux $\rho : B \to A$, on a $W(\rho) \circ \tau_B = \tau_A \circ \rho$.
 
-#### Proposition 4 {#ac-ix-s1-prop-4 .statement}
+#### Proposition 4 {#ac-ix-s1-prop-4 .statement tag=0CUC}
 
 *Soient $a$ et $b$ dans $A$ et $x = (x_n)_{n \in \mathbf{N}}$ un élément de $W(A)$.*
 
@@ -565,7 +565,7 @@ pour tout entier $m \geq 0$; on en déduit b) par passage à la limite puisque l
 
 ### 7. Les anneaux $W_n(A)$ des vecteurs de Witt de longueur finie
 
-#### Définition 2 {#ac-ix-s1-def-2 .statement}
+#### Définition 2 {#ac-ix-s1-def-2 .statement tag=0CUD}
 
 Soient $A$ un anneau et $n \geq 1$ un entier. On note $W_n(A)$ l’anneau quotient $W(A)/V_n(A)$.
 
@@ -607,11 +607,11 @@ pour $[a_0, ..., a_{m-1}]$ dans $W_m(A)$. La famille $(W_n(A), \pi_{n,m})$ est u
 
 Désormais, les homomorphismes $\pi_n$ et $\pi_{n,m}$ seront qualifiés d’*homomorphismes de projection* de $W(A)$ dans $W_n(A)$, et de $W_m(A)$ dans $W_n(A)$ respectivement.
 
-#### Exemple 1 {#ac-ix-s1-n7-exa-1 .statement}
+#### Exemple 1 {#ac-ix-s1-n7-exa-1 .statement tag=0CUE}
 
 L’homomorphisme $\Phi_0 : W_1(A) \to A$ est un isomorphisme.
 
-#### Exemple 2 {#ac-ix-s1-n7-exa-2 .statement}
+#### Exemple 2 {#ac-ix-s1-n7-exa-2 .statement tag=0CUF}
 
 Explicitons les opérations dans $W_2(A)$. On a
 
@@ -625,7 +625,7 @@ $$
 
 pour $[a_0, a_1]$ et $[b_0, b_1]$ dans $W_2(A)$. Les composantes fantômes de $[a_0, a_1]$ sont $a_0$ et $a_0^p + p \cdot a_1$.
 
-#### Exemple 3 {#ac-ix-s1-n7-exa-3 .statement}
+#### Exemple 3 {#ac-ix-s1-n7-exa-3 .statement tag=0CUG}
 
 Soit $n \geq 1$ un entier. Si $a_0, ..., a_{n-1}, b_0, ..., b_{n-1}$ sont des entiers tels que $a_i \equiv b_i \bmod p$ pour $0 \leq i < n$, on a (n° 1, prop. 1)
 
@@ -699,7 +699,7 @@ Soient $a \in W_m(A)$, $a' \in W_m(A)$ et $b \in W_{m+1}(A)$. Les formules suiva
 
 ### 8. L’anneau des vecteurs de Witt à coefficients dans un anneau de caractéristique $p$
 
-#### Proposition 5 {#ac-ix-s1-prop-5 .statement}
+#### Proposition 5 {#ac-ix-s1-prop-5 .statement tag=0CUH}
 
 Soit $A$ un anneau de caractéristique $p$ (A, V, p. 2). Quels que soient les éléments $a$ et $b$ de $W(A)$, et les entiers positifs $m, n$, on $a$, si $a = (a_n)_{n \in \mathbf{N}}$,
 
@@ -735,7 +735,7 @@ $$
 
 La formule (53) résulte alors de (54) et (55) et de la relation $F^m \circ V^n = V^n \circ F^m$, elle-même conséquence de (51).
 
-#### Corollaire {#ac-ix-s1-n8-cor-1 .statement}
+#### Corollaire {#ac-ix-s1-n8-cor-1 .statement tag=0CUI}
 
 Si $m$ et $n$ sont deux entiers positifs, on a
 
@@ -745,7 +745,7 @@ $$
 
 Cela résulte de la formule (53), car $V_m(A)$ est l’image de $V^m : W(A) \to W(A)$.
 
-#### Proposition 6 {#ac-ix-s1-prop-6 .statement}
+#### Proposition 6 {#ac-ix-s1-prop-6 .statement tag=0CUJ}
 
 Soit $A$ un anneau.
 
@@ -765,7 +765,7 @@ on déduit de a) les inclusions $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.W(A
 
 Soit $k$ un entier $\geqslant 1$. D’après la formule (52), l’idéal $p^k.W(A)$ de $W(A)$ est l’ensemble des éléments $a = (a_n)_{n \in \mathbf{N}}$ de $W(A)$ tels qu’on ait $a_n = 0$ pour $n < k$ et $a_n \in A^{p^k}$ pour $n \geqslant k$. Il est donc fermé pour la topologie $\mathscr{G}$. Comme $W(A)$ est séparé et complet pour la topologie $\mathscr{G}$ (no 6) et que les idéaux $p^k.W(A)$ de $W(A)$, pour $k \geqslant 1$, forment une base de voisinages de $0$ dans $W(A)$ pour la topologie $p$-adique, l’anneau $W(A)$ est séparé et complet pour la topologie $p$-adique (TG, III, p. 26, cor. 1 à la prop. 10).
 
-#### Proposition 7 {#ac-ix-s1-prop-7 .statement}
+#### Proposition 7 {#ac-ix-s1-prop-7 .statement tag=0CUK}
 
 *Soit A un anneau parfait de caractéristique p.*
 
@@ -789,7 +789,7 @@ $$
 
 et l’assertion a) résulte de la prop. 4 du no 6.
 
-#### Proposition 8 {#ac-ix-s1-prop-8 .statement}
+#### Proposition 8 {#ac-ix-s1-prop-8 .statement tag=0CUL}
 
 *Soit A un corps de caractéristique p. L’anneau $W(A)$ est un anneau local intègre séparé et complet, d’idéal maximal $V_1(A)$ et de corps résiduel isomorphe à A. Si le corps A est parfait, l’anneau $W(A)$ est un anneau de valuation discrète, et son idéal maximal est $p.W(A)$.*
 
@@ -799,11 +799,11 @@ Soient $a$ et $b$ deux éléments non nuls de $W(A)$. Il existe des entiers $m \
 
 Si le corps $A$ est parfait, l’idéal maximal $V_1(A)$ de $W(A)$ est égal à $p.W(A)$ (prop. 7, b)) et par suite W(A) est un anneau de valuation discrète (VI, § 3, n° 6, prop. 9, c)).
 
-#### Remarque 1 {#ac-ix-s1-n8-rem-1 .statement}
+#### Remarque 1 {#ac-ix-s1-n8-rem-1 .statement tag=0CUM}
 
 Soit A un corps de caractéristique p. On peut montrer que l’anneau W(A) est noethérien si et seulement si A est parfait (p. 43, exerc. 9).
 
-#### Remarque 2 {#ac-ix-s1-n8-rem-2 .statement}
+#### Remarque 2 {#ac-ix-s1-n8-rem-2 .statement tag=0CUN}
 
 Soit A un anneau de caractéristique p. D’après la prop. 5, on a les formules
 

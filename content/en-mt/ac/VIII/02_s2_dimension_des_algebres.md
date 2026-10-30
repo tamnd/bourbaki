@@ -29,7 +29,7 @@ subsections:
       pdf_page: 23
 statements: 32
 exercises: 18
-content_sha256: b8e1ebd3e2fd9776cb8144b9349cd361f182844488973d9c0ece34efe2b398d8
+content_sha256: 20205527161aae8c902aaec20c45914a11428f6bbf3f2fbd643e710db2e2c212
 translated_from: content/fr/ac/VIII/02_s2_dimension_des_algebres.md
 source_lang: fr
 translation_method: machine
@@ -48,19 +48,19 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 Let $\rho : A \to B$ be a homomorphism of rings. We denote by (PM) the following condition:
 (PM) There exists a B-module N faithfully flat over A such that, for every prime ideal q of B, one has $N \otimes_B \kappa(q) \neq 0$.
 
-#### Remark 1 {#ac-viii-s2-n1-rem-1 .statement}
+#### Remark 1 {#ac-viii-s2-n1-rem-1 .statement tag=0CL9}
 
 The condition (PM) is satisfied when there exists a finitely generated B-module, faithfully flat over A and with support equal to Spec(B). This is the case, in particular, if the A-module B is faithfully flat.
 
-#### Remark 2 {#ac-viii-s2-n1-rem-2 .statement}
+#### Remark 2 {#ac-viii-s2-n1-rem-2 .statement tag=0CLA}
 
 The existence of a B-module N faithfully flat over A implies the injectivity of ρ (I, § 3, No. 5, prop. 8), and the surjectivity of the mapping “ρ : Spec(B) → Spec(A) (II, § 2, No. 5, cor. 4 to prop. 11).
 
-#### Remark 3 {#ac-viii-s2-n1-rem-3 .statement}
+#### Remark 3 {#ac-viii-s2-n1-rem-3 .statement tag=0CLB}
 
 Suppose that ρ : A → B is a local homomorphism of local rings and that there exists a B-module N flat over A and such that N ⊗_B κ(q) ≠ 0 for every prime ideal q of B. Then N is faithfully flat over A and ρ therefore has the property (PM): indeed we have N/m_B N = N ⊗_B κ(m_B) ≠ 0, hence N ≠ m_B N and fortiori N ≠ m_A N, and the conclusion follows from prop. 1 of I, § 3, No. 1.
 
-#### Proposition 1 {#ac-viii-s2-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s2-prop-1 .statement tag=0CLC}
 
 Let ρ : A → B be a homomorphism of rings satisfying the condition (PM).
 
@@ -82,7 +82,7 @@ Prove b). According to props. 13 and 14 of II, § 3, No. 4, the A_p-module N_q i
 
 Prove c). The local homomorphism ρ_q : A_p → B_q deduced from ρ satisfies the condition (PM) according to b). The mapping Spec(B_q) → Spec(A_p) is therefore surjective (Remark 2), which was to be proved.
 
-#### Corollary {#ac-viii-s2-n1-cor-1 .statement}
+#### Corollary {#ac-viii-s2-n1-cor-1 .statement tag=0CLD}
 
 Let F be a closed subset of Spec(A). If Y is an irreducible component of the inverse image of F by the mapping “ρ : Spec(B) → Spec(A), then the closure of “ρ(Y) is an irreducible component of F.
 
@@ -90,7 +90,7 @@ Let indeed a be an ideal of A such that F = V(a) and q the prime ideal of B such
 
 It is a matter of proving that if q is minimal among the prime ideals of B containing $\rho(a)$, then $\rho^{-1}(q)$ is minimal among the prime ideals of A containing a. Otherwise, there would exist a prime ideal $p'$ of A with $a \subset p' \subset \rho^{-1}(q)$ and $p' \neq \rho^{-1}(q)$; according to prop. 1, c), there would exist a prime ideal $q'$ of B such that $q' \subset q$ and $p' = \rho^{-1}(q')$, whence $\rho(a) \subset q' \subset q$ and $q' \neq q$ contrary to the assumption made on q.
 
-#### Proposition 2 {#ac-viii-s2-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s2-prop-2 .statement tag=0CLE}
 
 Let $\rho : A \to B$ be a homomorphism of nonzero rings possessing the property (PM). One has the inequality
 
@@ -114,23 +114,23 @@ $$
 $$
 if $p_0 \subset ... \subset p_n$ is a chain of prime ideals of A contained in m and $\overline{q}_0 \subset ... \subset \overline{q}_r$ is a chain of prime ideals of B/mB. For $0 \leq i \leq r$, there exists a prime ideal $q_{n+i}$ of B lying above m such that $\overline{q}_i = q_{n+i}/mB$, and $q_n \subset ... \subset q_{n+r}$ is a chain of prime ideals of B. Put $p'_i = p_i$ for $0 \leq i \leq n-1$ and $p'_n = m$, so that $p'_0 \subset ... \subset p'_n$ is a chain of prime ideals of A and q_n lies above $p'_n$. If $q_i$ is a prime ideal of B lying above $p'_i$ ($1 \leq i \leq n$), prop. 1, c) proves that there exists a prime ideal $q_{i-1}$ of B lying above $p'_{i-1}$ and contained in $q_i$. By descending induction, we thus construct a chain $q_0 \subset ... \subset q_n$ of prime ideals of B such that $q_i$ lies above $p_i$ for $0 \leq i \leq n$. As $q_0 \subset ... \subset q_{n+r}$ is a chain of prime ideals of B, we have proved the inequality (3).
 
-#### Remark 4 {#ac-viii-s2-n1-rem-4 .statement}
+#### Remark 4 {#ac-viii-s2-n1-rem-4 .statement tag=0CLF}
 
 Let $\rho : A \to B$ be a local homomorphism of noetherian local rings satisfying condition (PM). We shall see later (§ 3, no 4, prop. 7) that in this case there is equality in (1). In the general case there may be strict inequality (p. 84, exercise 1).
 
-#### Corollary {#ac-viii-s2-n1-cor-2 .statement}
+#### Corollary {#ac-viii-s2-n1-cor-2 .statement tag=0CLG}
 
 For every ideal a of A, one has $\mathrm{ht}(a) \leq \mathrm{ht}(\rho(a)B)$.
 
 Let q be a prime ideal of B containing $\rho(a)B$, and $p = \rho^{-1}(q)$. According to prop. 1, the local homomorphism $\rho_q : A_p \to B_q$ deduced from $\rho$ satisfies (PM), and we therefore have $\dim(A_p) \leq \dim(B_q)$ according to prop. 2. According to prop. 7 of § 7, no 3, we have $\mathrm{ht}(a) \leq \dim(A_p)$ since p contains a, whence $\mathrm{ht}(a) \leq \dim(B_q)$ for every prime ideal q of B containing $\rho(a)B$. The corollary then follows from loc. cit.
 
-#### Lemma 1 {#ac-viii-s2-lem-1 .statement}
+#### Lemma 1 {#ac-viii-s2-lem-1 .statement tag=0CLH}
 
 Let $\rho : A \to B$ be a homomorphism of rings and p a prime ideal of A. The continuous mapping $^a h : \mathrm{Spec}(B \otimes_A \kappa(p)) \to \mathrm{Spec}(B)$, associated with the canonical homomorphism $h : B \to B \otimes_A \kappa(p)$, *induces a homeomorphism of* $\mathrm{Spec}(B \otimes_A \kappa(p))$ *onto the subspace* $(\alpha\rho)^{-1}(p)$ *of* $\mathrm{Spec}(B)$ *formed by the prime ideals of* $B$ *lying above* $p$.
 
 The homomorphism $h$ is composed of the homomorphism of passing to the quotient of $B$ into $B/\rho(p)$ $B$ and of the canonical homomorphism of $B/\rho(p)$ $B$ into its ring of fractions $(\rho(A - p))^{-1}(B/\rho(p) \ B)$. According to the remark and the corollary to prop. 13 of II, § 4, no 3, $^a h$ therefore induces a homeomorphism of $\mathrm{Spec}(B \otimes_A \kappa(p))$ onto the subspace of $\mathrm{Spec}(B)$ formed by the prime ideals $q$ of $B$ which contain $\rho(p)$ and are disjoint from $\rho(A - p)$, that is to say which lie above $p$.
 
-#### Remark 5 {#ac-viii-s2-n1-rem-5 .statement}
+#### Remark 5 {#ac-viii-s2-n1-rem-5 .statement tag=0CLI}
 
 According to prop. 2 and Lemma 1, we therefore have, under the hypotheses of prop. 2, the inequality
 $$
@@ -139,7 +139,7 @@ $$
 
 ### 2. Dimension of an algebra of finite type
 
-#### Proposition 3 {#ac-viii-s2-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s2-prop-3 .statement tag=0CLJ}
 
 *Let* $\rho : A \to B$ *be a homomorphism of rings*. *Put*
 $n = \sup_{p \in \mathrm{Spec}(A)} \dim(B \otimes_A \kappa(p))$. *One has the inequality*
@@ -149,15 +149,15 @@ $$
 
 We may suppose $\dim(A) \neq -\infty$ and $n < +\infty$. Let $q_0 \subset ... \subset q_m$ be a chain of prime ideals of B; put $p_i = \rho^{-1}(q_i)$. The sequence of the $p_i$ is increasing, hence the set of its values has cardinal $\leq \dim(A) + 1$. For each $p \in \mathrm{Spec}(A)$, the set of the $q_j$ such that $p_j = p$ is a chain of the subset $^a\rho^{-1}(p)$ of $\mathrm{Spec}(B)$, hence has cardinal less than $\dim(B \otimes_A \kappa(p)) + 1$ (no 1, Lemma 1), and consequently less than or equal to $(n + 1)$. It follows that $m + 1 \leq (\dim(A) + 1)(n + 1)$, whence the proposition.
 
-#### Remark 1 {#ac-viii-s2-n2-rem-1 .statement}
+#### Remark 1 {#ac-viii-s2-n2-rem-1 .statement tag=0CLK}
 
 If the rings $A$ and $B$ are noetherian, we shall see below (§ 3, no 4, cor. 2 to prop. 7) that one has the inequality $\dim(B) \leq \dim(A) + n$, stronger than that of prop. 3.
 
-#### Corollary 1 {#ac-viii-s2-prop-3-cor-1 .statement}
+#### Corollary 1 {#ac-viii-s2-prop-3-cor-1 .statement tag=0CLL}
 
 *Suppose that one has* $\dim(A) < +\infty$ *and that there exists an integer* $n$ *such that* $\dim(B \otimes_A \kappa(p)) \leq n$ *for every* $p \in \mathrm{Spec}(A)$. *Then one has* $\dim(B) < +\infty$.
 
-#### Corollary 2 {#ac-viii-s2-prop-3-cor-2 .statement}
+#### Corollary 2 {#ac-viii-s2-prop-3-cor-2 .statement tag=0CLM}
 
 *Let* $A$ *be a ring and* $B = A[X]$ *the ring of polynomials in one indeterminate with coefficients in* $A$. *One has* :
 $$
@@ -168,7 +168,7 @@ The first inequality has already been proved (§ 1, No. 3, example 4). Let us pr
 
 However, whatever the integers n and q with n + 1 ≤ q ≤ 2n + 1 may be, there exists a ring A of dimension n such that dim(A[X]) = q (see p. 84, exerc. 7).
 
-#### Corollary 3 {#ac-viii-s2-prop-3-cor-3 .statement}
+#### Corollary 3 {#ac-viii-s2-prop-3-cor-3 .statement tag=0CLO}
 
 If A is of finite dimension, every nonzero finitely generated A-algebra is of finite dimension.
 
@@ -176,13 +176,13 @@ Indeed, one deduces from cor. 2, by induction on n, that the ring A[T₁, ..., T
 
 ### 3. Dimension of an integral algebra
 
-#### Lemma 2 {#ac-viii-s2-lem-2 .statement}
+#### Lemma 2 {#ac-viii-s2-lem-2 .statement tag=0CLP}
 
 Let ρ : A → B be a homomorphism of rings such that, for every prime ideal p of A, the κ(p)-algebra B ⊗ₓₐ κ(p) is integral (V, § 1, No. 1, def. 2). Let q and q’ be two prime ideals of B such that q ⊂ q’ and q ≠ q’. Then ρ⁻¹(q) ≠ ρ⁻¹(q’).
 
 Indeed, if q and q’ are over the same prime ideal p of A, one has dim(B ⊗ₓₐ κ(p)) ≥ 1 by Lemma 1 of No. 1, which contradicts the fact that dim(B ⊗ₓₐ κ(p)) ≤ 0 (§ 1, No. 3, example 6).
 
-#### Theorem 1 {#ac-viii-s2-thm-1 .statement}
+#### Theorem 1 {#ac-viii-s2-thm-1 .statement tag=0CLQ}
 
 Let ρ : A → B be a homomorphism of rings making B an integral A-algebra.
 
@@ -208,13 +208,13 @@ by Prop. 6 of § 1, No. 3 and the assertion $a$ above. We have thus proved the i
 
 Finally, $c$ follows from $b$ applied to the annihilator $b$ of $N$.
 
-#### Theorem 2 {#ac-viii-s2-thm-2 .statement}
+#### Theorem 2 {#ac-viii-s2-thm-2 .statement tag=0CLR}
 
 Let $A$ be an integrally closed ring, and $B$ a ring containing $A$, integral over $A$. Assume that $B$ is a torsion-free $A$-module. For every ideal $a$ of $A$, one has $\operatorname{ht}(a) = \operatorname{ht}(aB)$. Let $b$ be an ideal of $B$ and $a = b \cap A$; one then has $\operatorname{ht}(a) = \operatorname{ht}(b)$.
 
 Soit $\rho$ l’application canonique de $A$ dans $B$. Soient $a$ un idéal de $A$. Si $a = A$, la première égalité est claire. Supposons $a \neq A$. Comme $\rho$ est injectif, $^a\rho$ est surjectif (V, § 2, No. 1, Theorem 1). Par suite $aB \neq B$. Soit alors $q$ un idéal premier de $B$ contenant $aB$. Posons $p = q \cap A$. On a $a \subset p$, d’où $\operatorname{ht}(a) \leq \operatorname{ht}(p)$. Soit $p_0 \subset ... \subset p_n$ une chaîne d’idéaux premiers de $A$ avec $p_n = p$. D’après le deuxième théorème d’existence (V, § 2, No. 4, Theorem 3), on construit par récurrence une chaîne $q_0 \subset ... \subset q_n$ d’idéaux premiers de $B$ telle que $q_n = q$ et $q_i$ soit au-dessus de $p_i$ pour $0 \leq i \leq n$. On a $n \leq \operatorname{ht}(q)$, d’où $\operatorname{ht}(a) \leq \operatorname{ht}(q)$. En passant à la borne inférieure on obtient $\operatorname{ht}(a) \leq \operatorname{ht}(aB)$ ($§ 1$, No. 3, Prop. 7). L’inégalité $\operatorname{ht}(aB) \leq \operatorname{ht}(a)$ résulte du Theorem 1, d’où la première equality. Soit $b$ un idéal de $B$. Posons $a = \rho^{-1}(b)$. On a $aB \subset b$, d’où $\operatorname{ht}(a) = \operatorname{ht}(aB) \leq \operatorname{ht}(b)$. L’inégalité $\operatorname{ht}(b) \leq \operatorname{ht}(a)$ résulte du Theorem 1, d’où le theorem.
 
-#### Remark {#ac-viii-s2-n3-rem-1 .statement}
+#### Remark {#ac-viii-s2-n3-rem-1 .statement tag=0CLS}
 
 Soient $A$ un anneau intègre et $B$ un anneau contenant $A$, entier sur $A$. Soit $p$ un idéal premier de $A$ tel que la clôture intégrale de $A_p$ soit un anneau local. On peut démontrer que, pour tout idéal premier $q$ de $B$ au-dessus de $p$, on a $\operatorname{ht}(p) = \operatorname{ht}(q)$ (p. 85, Exer. 9) lorsque $B$ est intègre.
 
@@ -222,7 +222,7 @@ Soient $A$ un anneau intègre et $B$ un anneau contenant $A$, entier sur $A$. So
 
 Dans ce numéro, $k$ désigne un field.
 
-#### Lemma 3 {#ac-viii-s2-lem-3 .statement}
+#### Lemma 3 {#ac-viii-s2-lem-3 .statement tag=0CLT}
 
 Let $A$ be a $k$-algebra of finite type and $p_0 \subset ... \subset p_m$ a maximal chain of prime ideals of $A$. There exists an integer $n \geq m$, a sequence $(x_1, ..., x_n)$ of elements of $A$, algebraically free over $k$ (A, IV, p. 4), and such that :
 a) $A$ is entire over the ring $B = k[x_1, ..., x_n]$;
@@ -236,7 +236,7 @@ $$
 
 It follows that one has $h(j+1) \leq h(j) + 1$ and $q_{j+1} \neq q_j$, whence $h(j+1) = h(j) + 1$. But one has $h(m) = n$ since $q_m$ is maximal (V, § 2, No. 1, Prop. 1), whence finally $h(j) = n - m + j$.
 
-#### Theorem 3 {#ac-viii-s2-thm-3 .statement}
+#### Theorem 3 {#ac-viii-s2-thm-3 .statement tag=0CLU}
 
 Let $A$ be a $k$-algebra of finite type.
 a) For every minimal prime ideal $p$ of $A$, all maximal chains of prime ideals of $A$ with origin $p$ have length the integer $\deg.\mathrm{tr}_k \kappa(p)$.
@@ -245,7 +245,7 @@ c) If $A$ is integral, then all maximal chains of prime ideals of $A$ have the s
 
 Suppose $A$ is integral and consider a maximal chain $p_0 \subset ... \subset p_m$ of prime ideals of $A$. We have $p_0 = 0$. We deduce then from Lemma 3 the existence of an injective homomorphism $\varphi : k[X_1, ..., X_m] \to A$ of $k$-algebras which makes $A$ a finite $k[X_1, ..., X_m]$-algebra. Consequently, the degree of transcendence over $k$ of the field of fractions of $A$ is equal to $m$, whence c). Assertion a) follows from assertion c) applied to the ring $A/p$ and assertion b) is an immediate consequence of a) and Prop. 5 of § 1, No. 2.
 
-#### Corollary 1 {#ac-viii-s2-thm-3-cor-1 .statement}
+#### Corollary 1 {#ac-viii-s2-thm-3-cor-1 .statement tag=0CLV}
 
 Let $n$ be a positive integer. We have
 
@@ -257,7 +257,7 @@ For a finite type k-algebra A to have dimension n, it is necessary and sufficien
 
 This follows from th. 3, from the normalization lemma (V, § 3, No. 1, th. 1) and from th. 1, a) of No. 3.
 
-#### Corollary 2 {#ac-viii-s2-thm-3-cor-2 .statement}
+#### Corollary 2 {#ac-viii-s2-thm-3-cor-2 .statement tag=0CLW}
 
 Let A be an integral k-algebra of finite type. For every prime ideal p of A, we have
 
@@ -272,13 +272,13 @@ In particular, we have $\operatorname{ht}(m) = \dim(A_m) = \dim(A)$ for every ma
 
 This follows from th. 3 and Remark 4 of § 1, No. 3.
 
-#### Corollary 3 {#ac-viii-s2-thm-3-cor-3 .statement}
+#### Corollary 3 {#ac-viii-s2-thm-3-cor-3 .statement tag=0CLX}
 
 Let A be a k-algebra of finite type and let f be an element of A which belongs to no minimal prime ideal of A (for example an element of A which is not a divisor of zero, cf. IV, § 1, No. 1, Cor. 3 to Prop. 2 and No. 3, Cor. 1 to Prop. 7). We have $\dim(A) = \dim(A_f)$.
 
 The mapping $p \mapsto pA_f$ is a bijection of the set of minimal prime ideals of A onto the set of minimal prime ideals of $A_f$. Moreover the rings $A/p$ and $A_f/pA_f = (A/p)_f$ have the same field of fractions. It is therefore sufficient to apply th. 3, b).
 
-#### Corollary 4 {#ac-viii-s2-thm-3-cor-4 .statement}
+#### Corollary 4 {#ac-viii-s2-thm-3-cor-4 .statement tag=0CLY}
 
 Let A be a k-algebra of finite type and let p be a prime ideal of A.
 
@@ -290,7 +290,7 @@ If p is a maximal ideal of A, then $A/p$ is a field, hence a ring of dimension 0
 
 Assertion a) of Cor. 4 is a form of the theorem of zeros (V, § 3, No. 3, Prop. 1).
 
-#### Corollary 5 {#ac-viii-s2-thm-3-cor-5 .statement}
+#### Corollary 5 {#ac-viii-s2-thm-3-cor-5 .statement tag=0CLZ}
 
 Let A be a k-algebra of finite type, p a prime ideal of A and $(\mathfrak{p}_i)_{i \in I}$ the family of minimal prime ideals of A contained in p. We have:
 
@@ -308,7 +308,7 @@ We have $\dim_p(A) = \sup_{i \in I} \dim_{p/p_i}(A/p_i)$ (§ 1, No. 3, Prop. 6).
 
 Thus $\dim_p(A)$ is the supremum of the lengths of the chains of prime ideals of $A$ of which $p$ is an element.
 
-#### Corollary 6 {#ac-viii-s2-thm-3-cor-6 .statement}
+#### Corollary 6 {#ac-viii-s2-thm-3-cor-6 .statement tag=0CM0}
 
 *Let A be a finitely generated k-algebra not reduced to 0, and let n be an integer $\geqslant 0$. The following conditions are equivalent:*
 
@@ -322,11 +322,11 @@ The equivalence of a) and b) is immediate. Let us show that a) implies c). Accor
 
 Conversely, suppose that condition c) is satisfied. For every prime ideal $p \in \operatorname{Ass}(A)$, the homomorphism $k[X_1, ..., X_n] \to A/p$ deduced from $\varphi$ is injective (*loc. cit.*). We therefore have $\dim(A/p) = n$ by cor. 1.
 
-#### Remark 1 {#ac-viii-s2-n4-rem-1 .statement}
+#### Remark 1 {#ac-viii-s2-n4-rem-1 .statement tag=0CM1}
 
 By cor. 5, the conditions a), b), c) of cor. 6 imply that one has $\dim_p(A) = \dim(A)$ for every prime ideal $p$ of A.
 
-#### Proposition 4 {#ac-viii-s2-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s2-prop-4 .statement tag=0CM2}
 
 *Let A and B be two finitely generated k-algebras and $\rho : A \to B$ an algebra homomorphism. Suppose that A is integral and that the A-module B is without torsion, and denote by K the field of fractions of A. One has*
 
@@ -353,19 +353,19 @@ whence the result in this case.
 
 Let us pass to the general case. Every minimal prime ideal $p$ of $B$ is formed of zero divisors in $B$, and is therefore above the ideal 0 of $A$. It follows that the mapping $p \mapsto p . (B \otimes_A K)$ is a bijection from the set of minimal prime ideals of $B$ onto the set of minimal prime ideals of $B \otimes_A K$. The proposition therefore follows from the first part of the proof and from prop. 6, c) of § 1, no 3.
 
-#### Corollary {#ac-viii-s2-n4-cor-1 .statement}
+#### Corollary {#ac-viii-s2-n4-cor-1 .statement tag=0CM3}
 
 *Let $\rho : A \to B$ be an injective homomorphism of finitely generated k-algebras.* *One has* $\dim(A) \leq \dim(B)$.
 
 Indeed, let $p$ be a minimal prime ideal of $A$ such that $\dim(A) = \dim(A/p)$. There exists a prime ideal $q$ of $B$ above $p$ (II, § 2, no 6, prop. 16). By prop. 4 applied to $A/p$ and $B/q$, one has $\dim(A) = \dim(A/p) \leq \dim(B/q) \leq \dim(B)$, whence the corollary.
 
-#### Lemma 4 {#ac-viii-s2-lem-4 .statement}
+#### Lemma 4 {#ac-viii-s2-lem-4 .statement tag=0CM4}
 
 *Let $A$ and $B$ be two integral k-algebras, $M$ an $A$-module without torsion, $N$ a $B$-module without torsion. If the ring $A \otimes_k B$ is integral, then $M \otimes_k N$ is a module without torsion over $A \otimes_k B$.*
 
 Let $K$ (resp. $L$) be the field of fractions of $A$ (resp. $B$). There exists a set $I$ (resp. $J$) such that $M$ (resp. $N$) is isomorphic to a submodule of $K^{(I)}$ (resp. $L^{(J)}$). The $(A \otimes_k B)$-module $M \otimes_k N$ is therefore isomorphic to a submodule of $K^{(I)} \otimes_k L^{(J)}$, which is isomorphic to $(K \otimes_k L)^{(I \times J)}$. Since $K \otimes_k L$ is a ring of fractions of the integral ring $A \otimes_k B$, it is a torsion-free module over $A \otimes_k B$, whence the lemma.
 
-#### Proposition 5 {#ac-viii-s2-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s2-prop-5 .statement tag=0CM5}
 
 *Let $k'$ be an extension of $k$, $A$ a k-algebra of finite type and $B$ a $k'$-algebra of finite type.
 
@@ -415,7 +415,7 @@ $$
 
 which completes the proof.
 
-#### Corollary {#ac-viii-s2-n4-cor-2 .statement}
+#### Corollary {#ac-viii-s2-n4-cor-2 .statement tag=0CM6}
 
 *Let A be a finitely generated k-algebra, k' an extension of k, and A' the k'-algebra A \otimes_k k'.*
 
@@ -431,7 +431,7 @@ $$
 \dim(A'/p') = \dim_{p'}(A') = \dim_p(A) = \dim(A/p).
 $$
 
-#### Remark 2 {#ac-viii-s2-n4-rem-2 .statement}
+#### Remark 2 {#ac-viii-s2-n4-rem-2 .statement tag=0CM7}
 
 *Suppose that the extension k' of k is radicial. Then the canonical mapping $f : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ is a homeomorphism.*
 

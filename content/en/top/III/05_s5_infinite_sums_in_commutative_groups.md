@@ -41,7 +41,7 @@ subsections:
       pdf_page: 275
 statements: 19
 exercises: 7
-content_sha256: 9bcc7dfaf84ccabb941e3532c92f0515e21c59f23418a2457fb44bfaaea40d45
+content_sha256: 91048f1fa3704dfbdf345b8175de3a71f69a6c736f07b39c3b412650ede3cf78
 ---
 
 ## 5. INFINITE SUMS IN COMMUTATIVE GROUPS
@@ -52,7 +52,7 @@ In this section we shall be concerned only with *Hausdorff commutative topologic
 
 Let $G$ be a Hausdorff commutative group, let $I$ be any index set and let $(x_i)_{i \in I}$ be a family of points of $G$, indexed by $I$. With each *finite* subset $J$ of $I$ we associate the element $s_J = \sum_{i \in J} x_i$ of $G$, which we call the *finite partial sum of the family* $(x_i)_{i \in I}$, corresponding to the set $J$. If $\mathfrak{F}(I)$ denotes the *set of finite subsets* of $I$, we have thus a mapping $J \to s_J$ of $\mathfrak{F}(I)$ into $G$. Now $\mathfrak{F}(I)$ is a *directed* set with respect to the relation $\subset$; for if $J$ and $J'$ are two elements of $\mathfrak{F}(I)$, then $J \subset J \cup J'$ and $J' \subset J \cup J'$, and $J \cup J'$ is a finite subset of $I$. Let $\Phi$ be the *section filter* of the directed set $\mathfrak{F}(I)$ (Chapter I, § 6, no. 3).
 
-#### Definition 1 {#top-iii-s5-def-1 .statement}
+#### Definition 1 {#top-iii-s5-def-1 .statement tag=0BMB}
 
 Let $(x_i)_{i \in I}$ be a family of points of a Hausdorff commutative group $G$; let $\mathfrak{F}(I)$ be the set of finite subsets of the index set $I$, and for each finite subset $J$ of $I$, let $s_J$ be the sum of those $x_i$ such that $i \in J$. The family $(x_i)_{i \in I}$ is said to be summable if the mapping $J \to s_J$ has a limit with respect to the section filter $\Phi$ of the set $\mathfrak{F}(I)$ directed by the relation $\subset$; this limit is then said to be the sum of the family $(x_i)_{i \in I}$ and is denoted by $\sum_{i \in I} x_i$ (or simply $\sum_i x_i$, or even $\sum x_i$, when there is no risk of ambiguity).
 
@@ -60,15 +60,15 @@ Definition 1 is equivalent to the following: *the family* $(x_i)$ *is summable a
 
 If $G$ is written *multiplicatively*, and if we put $p_J = \prod_{i \in J} x_i$ for each finite subset $J$ of $I$, the family $(x_i)$ will be said to be *multipliable* if the mapping $J \to p_J$ has a limit with respect to the filter $\Phi$; this limit is called the *product* of the family $(x_i)$, and is denoted by $\prod_{i \in I} x_i$.
 
-#### Remark 1 {#top-iii-s5-n1-rem-1 .statement}
+#### Remark 1 {#top-iii-s5-n1-rem-1 .statement tag=0BMC}
 
 When $I$ is *finite*, Definition 1 reduces to the ordinary definition of the sum of a finite family. More generally, if $I$ is arbitrary and $x_i = 0$ except when the index $i$ belongs to a *finite* subset $J$ of $I$, then the sum $\sum_{i \in I} x_i$ is equal to $\sum_{i \in J} x_i$.
 
-#### Remark 2 {#top-iii-s5-n1-rem-2 .statement}
+#### Remark 2 {#top-iii-s5-n1-rem-2 .statement tag=0BMD}
 
 The definition of a summable family does not involve any *ordering* of the index set $I$, and we may therefore say that the notion of a sum thus defined is *commutative*. More precisely, we have the following property: let $(x_i)_{i \in I}$ be a summable family and let $\varphi$ be a bijective mapping of an index set $K$ onto the set $I$; then if we put $y_x = x_{\varphi(x)}$, the family $(y_x)_{x \in K}$ is summable and has the same sum as $(x_i)$. For if $s = \sum_{i \in I} x_i$, and if $\sum_{i \in J} x_i \in s + V$ for every finite subset $J$ containing the finite subset $J_0$, then we shall have $\sum_{x \in L} y_x \in s + V$ for every finite subset $L$ of $K$ containing $\overline{\varphi}(J_0)$.
 
-#### Remark 3 {#top-iii-s5-n1-rem-3 .statement}
+#### Remark 3 {#top-iii-s5-n1-rem-3 .statement tag=0BME}
 
 Definition 1 applies, more generally, to every family of points in a *Hausdorff topological space* $X$ on which has been defined an *associative and commutative law of composition*, written additively; for it does not make use of the axioms of topological groups.
 
@@ -78,7 +78,7 @@ Let $(x_i)_{i \in I}$ be a summable family in $G$. Then for each neighbourhood $
 
 Conversely, suppose that the family $(x_i)$ has this property. Then the image of the filter $\Phi$, under the mapping $J \to s_J$, is a *Cauchy filter base* in $G$. For if $J$ is a finite subset containing $J_0$, and if $K$ denotes $J \cap C J_0$, then $K \cap J_0 = \varnothing$ and $s_K = s_J - s_{J_0}$, so that $s_J \in s_{J_0} + V$. If $J'$ is another finite subset containing $J_0$, then $s_J - s_{J'} \in V + V$, and the result follows. Consequently:
 
-#### Theorem 1 (Cauchy's criterion) {#top-iii-s5-thm-1 .statement}
+#### Theorem 1 (Cauchy's criterion) {#top-iii-s5-thm-1 .statement tag=0BMF}
 
 *In a Hausdorff commutative group* $G$, *in order that a family* $(x_i)_{i \in I}$ *should be summable it is necessary that, for each neighbourhood* $V$ *of the origin in* $G$, *there is a finite subset* $J_0$ *of* $I$ *such that* $\sum_{i \in K} x_i \in V$ *for all finite subsets* $K$ *of* $I$ *which do not meet* $J_0$. *This necessary condition is also sufficient if* $G$ *is complete*.
 
@@ -86,13 +86,13 @@ Thus by taking away a (sufficiently large) finite number of terms from the famil
 
 An immediate consequence of the first part of Theorem 1 is the following proposition:
 
-#### Proposition 1 {#top-iii-s5-prop-1 .statement}
+#### Proposition 1 {#top-iii-s5-prop-1 .statement tag=0BMG}
 
 *If the family* $(x_i)$ *is summable, then every neighbourhood of* $o$ *contains all the* $x_i$ *except for a finite subfamily* (in other words, if $I$ is infinite, we have $\lim x_i = o$ with respect to the *filter of complements of finite subsets of* $I$).
 
 This *necessary* condition for a family $(x_i)$ to be summable is *by no means sufficient* in general, even if $G$ is complete; we shall see many examples later (see Chapter IV, § 7).
 
-#### Corollary {#top-iii-s5-n2-cor-1 .statement}
+#### Corollary {#top-iii-s5-n2-cor-1 .statement tag=0BMH}
 
 *Let* $(x_i)_{i \in I}$ *be a summable family in a commutative group whose identity element has a countable fundamental system of neighbourhoods. Then the set of indices* $i$ *such that* $x_i \neq o$ *is countable*.
 
@@ -100,13 +100,13 @@ Let $(V_n)$ be a countable fundamental system of neighbourhoods of $o$. If $H_n$
 
 This corollary is no longer necessarily valid if we do not assume that the origin has a countable fundamental system of neighbourhoods. \* Consider, for example, the product group $\mathbf{R}^\mathbf{R}$ [the additive group of all finite real-valued functions of a real variable, with the topology of pointwise convergence (cf. Chapter X, , no. 3)], and let $f_a$ be the element of $\mathbf{R}$ such that $f_a(a) = 1$ and $f_a(x) = 0$ if $x \neq a$; then the family $(f_a)_{a \in \mathbf{R}}$ is summable and its sum is the function whose value at each point of $\mathbf{R}$ is 1. \*
 
-#### Remark {#top-iii-s5-n2-rem-1 .statement}
+#### Remark {#top-iii-s5-n2-rem-1 .statement tag=0BMI}
 
 When G is written multiplicatively, Cauchy’s criterion takes the following form : for the family $(x_i)_{i \in I}$ to be multipliable it is necessary that, for each neighbourhood V of the identity element, there should exist a finite subset $J_0$ of I such that, for each finite subset K of I which does not meet $J_0$, we have $\prod_{i \in K} x_i \in V$; and this condition is sufficient provided that G is complete. We deduce that if I is infinite and $(x_i)$ is multipliable, then $\lim x_i = 1$ with respect to the filter of complements of finite subsets of I; if in addition the identity element has a countable fundamental system of neighbourhoods, then the set of indices i such that $x_i \neq 1$ is countable.
 
 ### 3. PARTIAL SUMS ; ASSOCIATIVITY
 
-#### Proposition 2 {#top-iii-s5-prop-2 .statement}
+#### Proposition 2 {#top-iii-s5-prop-2 .statement tag=0BMJ}
 
 In a complete group G, every subfamily of a summable family is summable.
 
@@ -114,7 +114,7 @@ For if Cauchy’s criterion is satisfied by a family $(x_i)_{i \in I}$, then it 
 
 If $(x_i)_{i \in I}$ is summable, it follows therefore that the sum $\sum_{i \in J} x_i$ is defined for every subset J of I, finite or not : it is again called the partial sum of the family $(x_i)$, corresponding to the subset J of the index set. The set of partial sums of a summable family is evidently contained in the closure of the set of finite partial sums.
 
-#### Theorem 2 (Associativity of the sum) {#top-iii-s5-thm-2 .statement}
+#### Theorem 2 (Associativity of the sum) {#top-iii-s5-thm-2 .statement tag=0BMK}
 
 Let $(x_i)_{i \in I}$ be a summable family in a complete group G, and let $(I_\lambda)_{\lambda \in L}$ be any partition of I. If $s_\lambda$ denotes $\sum_{i \in I_\lambda} x_i$, then the family $(s_\lambda)_{\lambda \in L}$ is summable and has the same sum as the family $(x_i)_{i \in I}$.
 
@@ -158,7 +158,7 @@ Likewise, it can happen that the left-hand side of (2) is not defined but that e
 
 Thus although it is always possible to "associate" the terms of a sum, it is not possible, on the other hand, to "dissociate" into their elements those terms of a sum which appear themselves as sums. Nevertheless, this operation is legitimate whenever the number of these "dissociable" terms is finite.
 
-#### Proposition 3 {#top-iii-s5-prop-3 .statement}
+#### Proposition 3 {#top-iii-s5-prop-3 .statement tag=0BML}
 
 Let $(x_i)_{i \in I}$ be a family of points of a group $G$, and let $(I_\lambda)_{\lambda \in L}$ be a finite partition of $I$. If each of the subfamilies $(x_i)_{i \in I_\lambda}$ is summable, then the family $(x_i)_{i \in I}$ is summable and the formula (1) is valid.
 
@@ -166,7 +166,7 @@ It is enough to prove the proposition when $L = (1,2)$; having done so, we then 
 
 ### 4. SUMMABLE FAMILIES IN A PRODUCT OF GROUPS
 
-#### Proposition 4 {#top-iii-s5-prop-4 .statement}
+#### Proposition 4 {#top-iii-s5-prop-4 .statement tag=0BMM}
 
 Let $G = \prod_{\lambda \in L} G_\lambda$ be the product of a family of Hausdorff commutative groups. Then a family $(x_i)_{i \in I}$ of points of $G$ is summable if and only if, for each $\lambda \in L$, the family $(\mathrm{pr}_\lambda x_i)_{i \in I}$ is summable; and if $s_\lambda$ is the sum of this family, then $s = (s_\lambda)$ is the sum of the family $(x_i)$.
 
@@ -178,7 +178,7 @@ $$
 
 ### 5. IMAGE OF A SUMMABLE FAMILY UNDER A CONTINUOUS HOMOMORPHISM
 
-#### Proposition 5 {#top-iii-s5-prop-5 .statement}
+#### Proposition 5 {#top-iii-s5-prop-5 .statement tag=0BMN}
 
 Let $f$ be a continuous homomorphism of a commutative group $G$ into a commutative group $G'$. If $(x_i)$ is a summable family in $G$, then $(f(x_i))$ is a summable family in $G'$, and we have
 
@@ -188,7 +188,7 @@ $$
 
 If $J$ is any finite subset of the index set, then $f \left( \sum_{i \in J} x_i \right) = \sum_{i \in J} f(x_i)$, and the image under $f$ of a convergent filter base is a convergent filter base (Chapter I, § 7, no. 4, Corollary 1 to Proposition 9).
 
-#### Proposition 6 {#top-iii-s5-prop-6 .statement}
+#### Proposition 6 {#top-iii-s5-prop-6 .statement tag=0BMO}
 
 Let $(x_i), (y_i)$ be two summable families, with the same index set, in a group $G$. Then the families $(-x_i), (nx_i)$ ($n \in \mathbf{Z}$), $(x_i + y_i)$ are summable, and we have
 
@@ -202,7 +202,7 @@ $$
 
 For $x \to -x$ and $x \to nx$ are continuous homomorphisms of $G$ into $G$; on the other hand, if $(x_i)$ and $(y_i)$ are summable, then the family $(x_i, y_i)$ is summable in $G \times G$, and since $(x, y) \to x + y$ is a continuous homomorphism of $G \times G$ into $G$, we deduce (6).
 
-#### Remark {#top-iii-s5-n5-rem-1 .statement}
+#### Remark {#top-iii-s5-n5-rem-1 .statement tag=0BMP}
 
 Propositions 4 and 5 again apply to the case, mentioned earlier, of summable families in a topological space $X$ which has an associative and commutative law of composition; the same holds for Proposition 3 and formula (6) if we suppose in addition that $x + y$ is continuous on $X \times X$.
 
@@ -222,7 +222,7 @@ If $G$ is *complete*, this condition is also *sufficient* (*Cauchy's criterion f
 
 If the series whose general term is $x_n$ is convergent, we have in particular $\lim_{n \to \infty} (s_n - s_{n-1}) = \lim_{n \to \infty} x_n = 0$; but this *necessary* condition for convergence is by no means sufficient in general, even if $G$ is complete (see Chapter IV, § 7).
 
-#### Proposition 7 {#top-iii-s5-prop-7 .statement}
+#### Proposition 7 {#top-iii-s5-prop-7 .statement tag=0BMQ}
 
 *If the series defined by the sequences* $(x_n)$ *and* $(y_n)$ *are convergent, then so are the series defined by the sequences* $(-x_n)$ *and* $(x_n + y_n)$, *and we have*
 (7)
@@ -235,7 +235,7 @@ $$
 $$
 This is an obvious consequence of the continuity of $-x$ on $G$, and of $x + y$ on $G \times G$.
 
-#### Corollary {#top-iii-s5-n6-cor-1 .statement}
+#### Corollary {#top-iii-s5-n6-cor-1 .statement tag=0BMR}
 
 *If* $(x_n), (y_n)$ *are two sequences of points of* $G$ *such that* $x_n = y_n$ *except for a finite number of indices, and if the series whose general term is* $x_n$ *converges, then so does the series whose general term is* $y_n$.
 
@@ -254,7 +254,7 @@ It is important to notice that if the series defined by a sequence $(x_n)_{n \in
 
 Propositions 4 and 5 extend immediately to series, and we leave their formulation in this case to the reader.
 
-#### Proposition 8 (Restricted associativity of series) {#top-iii-s5-prop-8 .statement}
+#### Proposition 8 (Restricted associativity of series) {#top-iii-s5-prop-8 .statement tag=0BMS}
 
 *Let* $(k_n)$ *be a strictly increasing sequence of integers* $\geqslant 0$. *If the series whose general term is* $x_n$ *converges, and if we put* $u_n = \sum_{p=k_{n-1}}^{k_n-1} x_p$, *then the series whose general term is* $u_n$ *is convergent, and we have* $\sum_{n=0}^{\infty} u_n = \sum_{n=0}^{\infty} x_n$.
 
@@ -268,11 +268,11 @@ the sequence of terms of a convergent series can very well fail to be summable (
 
 Moreover, the definition of a convergent series essentially involves the order structure of $\mathbf{N}$. If the series $(x_n)$ is convergent, and if $\sigma$ is a permutation of $\mathbf{N}$, then the series $(x_{\sigma(n)})$ is not necessarily convergent (cf. Chapter IV, § 7, Exercise 15).
 
-#### Definition 2 {#top-iii-s5-def-2 .statement}
+#### Definition 2 {#top-iii-s5-def-2 .statement tag=0BMT}
 
 *A series defined by a sequence* $(x_n)$ *is said to be commutatively convergent if, for each permutation* $\sigma$ *of* $\mathbf{N}$, *the series defined by the sequence* $(x_{\varphi(n)})$ *is convergent.*
 
-#### Proposition 9 {#top-iii-s5-prop-9 .statement}
+#### Proposition 9 {#top-iii-s5-prop-9 .statement tag=0BMU}
 
 *The series defined by the sequence* $(x_n)$ *is commutatively convergent if and only if the sequence* $(x_n)$ *is summable; and then, for each permutation* $\sigma$ *of* $\mathbf{N}$, *we have*
 

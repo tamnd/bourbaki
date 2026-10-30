@@ -28,7 +28,7 @@ subsections:
       pdf_page: 15
 statements: 7
 exercises: 7
-content_sha256: 64e5515bf5e1f007bc69b4722dfff3f7637a4b2e0045ac638909cace9cef610c
+content_sha256: 39e0e860386192be9bd10706b19bd5811d2438a1b5edfd09d0e22f53ece3d6db
 ---
 
 ## § 1. Diagrammes et suites exactes
@@ -81,7 +81,7 @@ Par la suite, nous laisserons au lecteur le soin de formuler et de vérifier des
 
 Rappelons la définition suivante (Alg., chap. II, 3e éd., § 1, n° 4) :
 
-#### Définition 1 {#ac-i-s1-def-1 .statement}
+#### Définition 1 {#ac-i-s1-def-1 .statement tag=0421}
 
 Soient A un anneau, F, G, H trois A-modules à droite (resp. à gauche), f un homomorphisme de F dans G et g un homomorphisme de G dans H. On dit que le couple (f, g) est une suite exacte si l’on a $\bar{g}^{-1}(0) = f(F)$, c’est-à-dire si le noyau de g est égal à l’image de f.
 
@@ -151,7 +151,7 @@ Rappelons enfin que si $f : E \to F$ est un homomorphisme de A-modules, on pose 
 
 ### 4. Le diagramme du serpent.
 
-#### Proposition 1 {#ac-i-s1-prop-1 .statement}
+#### Proposition 1 {#ac-i-s1-prop-1 .statement tag=0422}
 
 Considérons un diagramme commutatif de groupes commutatifs :
 
@@ -190,7 +190,7 @@ $$
 
 Inversement, soit $x \in \operatorname{Ker}(v' \circ b)$. Alors $b(x) \in \operatorname{Ker}(v')$, et il existe $y' \in A'$ tel que $u'(y') = b(x)$ puisque la suite $(u', v')$ est exacte. Comme $a$ est surjectif, il existe $y \in A$ tel que $a(y) = y'$, d’où $b(x) = u'(a(y)) = b(u(y))$; on en conclut que $x - u(y) \in \operatorname{Ker}(b)$, ce qui termine la démonstration.
 
-#### Lemme 1 {#ac-i-s1-lem-1 .statement}
+#### Lemme 1 {#ac-i-s1-lem-1 .statement tag=0423}
 
 Considérons un diagramme commutatif de groupes commutatifs :
 
@@ -242,7 +242,7 @@ $$
 
 où $i, j, k$ sont les injections canoniques, $p, q, r$ les surjections canoniques, $u_1, u_2$ (resp. $v_1, v_2$) les homomorphismes canoniquement associés à $u, u'$ (resp. $v, v'$) par le lemme 1. On vérifie aussitôt que ce diagramme est commutatif.
 
-#### Proposition 2 {#ac-i-s1-prop-2 .statement}
+#### Proposition 2 {#ac-i-s1-prop-2 .statement tag=0424}
 
 *Supposons que dans le diagramme commutatif (10), les suites $(u, v)$ et $(u', v')$ soient exactes. Alors* :
 
@@ -279,11 +279,11 @@ Supposons que $x = v_1(x')$ pour un $x' \in \mathrm{Ker}(b)$ ; on prendra alors 
 
 Enfin, on a (toujours avec les mêmes notations) $u_2(d(x)) =$ u_2(p(t')) = q(u'(t')) = q(b(y)) = 0 donc u_2 \circ d = 0. Inversement, supposons qu’un élément $w = p(t')$ de Coker (a) soit tel que $u_2(w) = u_2(p(t')) = 0$ (avec $t' \in \mathbf{A}'$). On a donc $q(u'(t')) = 0$, et par suite $u'(t') = b(y)$ pour un $y \in \mathbf{B}$; comme $v'(u'(t')) = 0$, on a $v'(b(y)) = 0$, donc $c(v(y)) = 0$, autrement dit $v(y) = k(x)$ pour un $x \in \mathrm{Ker}\,(c)$, et par définition $w = d(x)$, ce qui montre que la suite (*) est exacte en Coker (a). On a vu dans (i) qu’elle est exacte en Ker (b) et dans (ii) qu’elle est exacte en Coker (b), ce qui achève de prouver (iii).
 
-#### Remarque {#ac-i-s1-n4-rem-1 .statement}
+#### Remarque {#ac-i-s1-n4-rem-1 .statement tag=0425}
 
 Lorsque les groupes du diagramme (10) sont tous des modules (à droite par exemple) sur un anneau $A$ et les homomorphismes des homomorphismes de $A$-modules, on vérifie aussitôt que l’homomorphisme $d$ défini dans la prop. 2, (iii) est encore un homomorphisme de $A$-modules : si $x \in \mathrm{Ker}\,(c)$ et $\alpha \in A$, et si $y \in \mathbf{B}$ est tel que $v(y) = k(x)$, il suffit de remarquer que $v(y\alpha) = k(x\alpha)$.
 
-#### Corollaire 1 {#ac-i-s1-prop-2-cor-1 .statement}
+#### Corollaire 1 {#ac-i-s1-prop-2-cor-1 .statement tag=0426}
 
 Supposons que le diagramme (10) soit commutatif et ait ses lignes exactes. Alors :
 (i) Si $u'$, $a$ et $c$ sont injectifs, $b$ est injectif.
@@ -293,7 +293,7 @@ L’assertion (i) est conséquence de l’assertion (i) de la prop. 2 : en effet
 
 L’assertion (ii) est conséquence de l’assertion (ii) de la prop. 2 : en effet, on a $\mathrm{Coker}\,(a) = 0$ et $\mathrm{Coker}\,(c) = 0$, donc $\mathrm{Coker}\,(b) = 0$.
 
-#### Corollaire 2 {#ac-i-s1-prop-2-cor-2 .statement}
+#### Corollaire 2 {#ac-i-s1-prop-2-cor-2 .statement tag=0427}
 
 Supposons que le diagramme (10) soit commutatif et ait ses lignes exactes. Dans ces conditions :
 (i) Si $b$ est injectif et si $a$ et $v$ sont surjectifs, alors $c$ est injectif.

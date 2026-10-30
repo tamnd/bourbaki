@@ -37,14 +37,14 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: e60543e27e104062093ede1592665f6dc419979cd1eafe21e62e5aadeb841293
+content_sha256: 2ea085e7d32aa31b87b7e5e944f3f6487ad556472cc1fd617b46f58ffb5fe66b
 ---
 
 ## 4. GROUPS OPERATING PROPERLY ON A TOPOLOGICAL SPACE; COMPACTNESS IN TOPOLOGICAL GROUPS AND SPACES WITH OPERATORS
 
 ### 1. GROUPS OPERATING PROPERLY ON A TOPOLOGICAL SPACE
 
-#### Definition 1 {#top-iii-s4-def-1 .statement}
+#### Definition 1 {#top-iii-s4-def-1 .statement tag=0BKR}
 
 Let $G$ be a topological group operating continuously on a topological space $X$. $G$ is said to operate properly on $X$ if the mapping
 
@@ -69,21 +69,21 @@ $$
 $$
 of A into $G \times X$, if the mapping $\alpha \to (s_\alpha \cdot x_\alpha, x_\alpha)$ has a limit $(b, a)$ with respect to $\mathfrak{F}$, then $\alpha \to s_\alpha$ has a limit $t \in G$ with respect to $\mathfrak{F}$, such that $t.a = b$.
 
-#### Example 1 {#top-iii-s4-n1-exa-1 .statement}
+#### Example 1 {#top-iii-s4-n1-exa-1 .statement tag=0BKS}
 
 Let H be a closed subgroup of a topological group G. If G operates properly on X, then so does H, since $H \times X$ is closed in $G \times X$ (Chapter I, § 10, no. 1, Proposition 5, Corollary 1). If for example we take $X = G$, with G operating on itself by left translations, then the mapping $G \times X \to X \times X$ is a homeomorphism, hence proper; thus H operates properly on G by left translations.
 
-#### Example 2 {#top-iii-s4-n1-exa-2 .statement}
+#### Example 2 {#top-iii-s4-n1-exa-2 .statement tag=0BKT}
 
 If G operates properly on X, then it operates properly on every subspace $X'$ of X which is a union of orbits of points of X (in other words, $X'$ is saturated with respect to the equivalence relation defined by G). For the inverse image of $X' \times X'$ in $G \times X$ is $G \times X'$, and we can apply Proposition 3 of Chapter I, § 10, no. 1.
 
-#### Proposition 1 {#top-iii-s4-prop-1 .statement}
+#### Proposition 1 {#top-iii-s4-prop-1 .statement tag=0BKU}
 
 Let G be a topological group operating continuously on a topological space X, and let K be a quasi-compact subset of G. Then the mapping $\rho : (s, x) \to s.x$ of $K \times X$ into X is proper.
 
 $\rho$ factorizes into $K \times X \to K \times X \xrightarrow{\mathrm{pr}_2} X$, where $\alpha(s, x) = (s, s.x)$. $\alpha$ is a homeomorphism, for $\alpha^{-1} : (s, y) \to (s, s^{-1}.y)$ is continuous. Since K is quasi-compact, $\mathrm{pr}_2$ is proper (Chapter I, § 10, no. 2, Theorem 1, Corollary 5); hence $\rho$ is proper (Chapter I, § 10, no. 1, Proposition 5).
 
-#### Corollary 1 {#top-iii-s4-prop-1-cor-1 .statement}
+#### Corollary 1 {#top-iii-s4-prop-1-cor-1 .statement tag=0BKV}
 
 If A is a closed (resp. compact) subset of X, then K.A is closed in X (resp. compact if X is Hausdorff).
 
@@ -91,19 +91,19 @@ The assertion concerning closed sets follows from Proposition 1 and the fact tha
 
 It should be noted that if L is a compact subset of X, and F a closed subset of G, then F.L is not necessarily closed in X ($§ 2$, Exercise 29; cf. no. 5, Corollary to Proposition 12).
 
-#### Corollary 2 {#top-iii-s4-prop-1-cor-2 .statement}
+#### Corollary 2 {#top-iii-s4-prop-1-cor-2 .statement tag=0BKW}
 
 If K is a quasi-compact subgroup of a topological group G, then the equivalence relation $x^{-1}y \in K$ is closed, and the canonical mapping $\varphi : G \to G/K$ is proper.
 
 The first assertion follows from Corollary 1 applied to G acting by right translations on itself, and the second assertion then follows from Chapter I, , no. 2, Theorem 1
 
-#### Corollary 3 {#top-iii-s4-prop-1-cor-3 .statement}
+#### Corollary 3 {#top-iii-s4-prop-1-cor-3 .statement tag=0BKX}
 
 Let K be a quasi-compact normal subgroup of a topological group G, and let φ be the canonical mapping G → G/K. Then for each closed subgroup A of G the canonical bijection of A/A ∩ K onto φ(A) is an isomorphism of topological groups.
 
 Since x⁻¹y ∈ K is a closed equivalence relation (Corollary 2), the Corollary follows from Chapter I, § 5, no. 2, Proposition 4.
 
-#### Proposition 2 {#top-iii-s4-prop-2 .statement}
+#### Proposition 2 {#top-iii-s4-prop-2 .statement tag=0BKY}
 
 Let K be a compact group operating continuously on a Hausdorff space X. Then:
 
@@ -113,13 +113,13 @@ c) The canonical mapping of X onto X/K is proper.
 
 b) is a consequence of Proposition 1. As to a), since K is compact, pr₂ : (s, x) → x is proper (Chapter I, § 10, no. 2, Theorem 1, Corollary 5); hence, X being Hausdorff, (s, x) → (x, s.x) is proper (Chapter I, § 10, no. 1, Proposition 5, Corollary 3). It remains to prove c). By Corollary 1 to Proposition 1, the canonical mapping φ : X → X/K is closed. If Z is any topological space and if we make K operate trivially on Z, then K operates continuously on X × Z and hence the canonical mapping X × Z → (X × Z)/K is closed. But (X × Z)/K can be canonically identified with (X/K) × Z (§ 2, no. 4, Lemma 2 and Chapter I, § 5, no. 3, Corollary to Proposition 8); hence the canonical mapping X × Z → (X × Z)/K can be identified with φ × 1, and since it is closed for all Z it follows that φ is proper.
 
-#### Corollary 1 {#top-iii-s4-prop-2-cor-1 .statement}
+#### Corollary 1 {#top-iii-s4-prop-2-cor-1 .statement tag=0BKZ}
 
 Under the hypotheses of Proposition 2, X is compact (resp. locally compact) if and only if X/K is compact (resp. locally compact).
 
 This follows from the fact that the canonical mapping X → X/K is proper, in view of Proposition 9 of Chapter I, § 10, no. 4.
 
-#### Corollary 2 {#top-iii-s4-prop-2-cor-2 .statement}
+#### Corollary 2 {#top-iii-s4-prop-2-cor-2 .statement tag=0BL0}
 
 Let G be a Hausdorff topological group and let K be a compact subgroup of G. Then G is compact (resp. locally compact) if and only if G/K is compact (resp. locally compact).
 
@@ -127,7 +127,7 @@ Apply Corollary 1 to K operating on G by right translations.
 
 ### 2. PROPERTIES OF GROUPS ACTING PROPERLY
 
-#### Proposition 3 {#top-iii-s4-prop-3 .statement}
+#### Proposition 3 {#top-iii-s4-prop-3 .statement tag=0BL1}
 
 *If a topological group* $G$ *operates properly on a topological space* $X$, *then the orbit space* $X/G$ *is Hausdorff*. *If also* $G$ *is Hausdorff*, *then* $X$ *is Hausdorff*.
 
@@ -135,7 +135,7 @@ Let $C \subset X \times X$ be the graph of the equivalence relation $R$ defined 
 
 Now suppose that $G$ is Hausdorff. Then the mapping $x \to (e, x)$ of $X$ into $G \times X$ is a homeomorphism of $X$ onto a closed subspace of $G \times X$, and is therefore proper (Chapter I, § 10, no. 1, Proposition 2). If we compose this mapping with the mapping $(s, x) \to (x, s.x)$ of $G \times X$ into $X \times X$, which by hypothesis is proper, we obtain a proper mapping of $X$ into $X \times X$, namely the diagonal mapping $x \to (x, x)$. Hence the diagonal $\Delta$ of $X \times X$ is closed in $X$, and therefore $X$ is Hausdorff.
 
-#### Proposition 4 {#top-iii-s4-prop-4 .statement}
+#### Proposition 4 {#top-iii-s4-prop-4 .statement tag=0BL2}
 
 *Let* $G$ *be a topological group operating properly on a topological space* $X$, *and let* $x$ *be a point of* $X$. *Let* $G.x$ *denote the orbit of* $x$, *and let* $K_x$ *denote the stabilizer of* $x$. *Then*:
 
@@ -149,11 +149,11 @@ d) *The orbit* $G.x$ *is closed in* $X$.
 
 The inverse image of $\{ x \} \times X$ under $\theta : (s, x) \to (x, s.x)$ is $G \times \{ x \}$; hence, by Proposition 3 of Chapter I, § 10, no. 1, the restriction of $\theta$ to $G \times \{ x \}$ is a proper mapping of $G \times \{ x \}$ into $\{ x \} \times X$, whence a) follows. Since $K_x$ is the inverse image of $x$ under $s \to s.x$, b) follows from Chapter I, § 10, no. 2, Theorem 1. c) and d) are consequences of a), by virtue of Chapter I, § 10, no. 1, Propositions 2 and 5 b).
 
-#### Remark {#top-iii-s4-n2-rem-1 .statement}
+#### Remark {#top-iii-s4-n2-rem-1 .statement tag=0BL3}
 
 Proposition 4 shows that if a topological group $G$ operates properly on a homogeneous space $G/H$, then the subgroup $H$ is quasi-compact (and therefore compact if $G$ is Hausdorff). It can be shown that this is also a sufficient condition for $G$ to operate properly on $G/H$ (Exercise 3).
 
-#### Proposition 5 {#top-iii-s4-prop-5 .statement}
+#### Proposition 5 {#top-iii-s4-prop-5 .statement tag=0BL4}
 
 *Let* $G$ *(resp.* $G'$) *be a topological group operating continuously on a topological space* $X$ *(resp.* $X'$). *Let* $\varphi$ *be a continuous homomorphism* of $G$ into $G'$ and let $\psi$ be a continuous mapping of $X$ into $X'$ compatible with $\varphi$ (§ 2, no. 4). Then:
 
@@ -183,17 +183,17 @@ converge with respect to $U$ to $y_0$ and $x_0$ respectively. It follows that $(
 
 ### 3. GROUPS OPERATING FREELY ON A TOPOLOGICAL SPACE
 
-#### Definition 2 {#top-iii-s4-def-2 .statement}
+#### Definition 2 {#top-iii-s4-def-2 .statement tag=0BL5}
 
 *Let $G$ be a group operating on a set $X$. $G$ is said to operate freely on $X$ if the stabilizer of every element of $X$ is $\{e\}$, in other words if the relations $s.x = x,\ s \in G,\ x \in X$ imply $s = e$.*
 
-#### Example {#top-iii-s4-n3-exa-1 .statement}
+#### Example {#top-iii-s4-n3-exa-1 .statement tag=0BL6}
 
 Let $G$ be a group and let $H$ be a subgroup of $G$. Then $H$ operates freely by (left or right) translations on $G$.
 
 Let $G$ be a group operating freely on a set $X$, let $R$ be the equivalence relation defined by $G$ on $X$, and let $C \subset X \times X$ be the graph of $R$. If $(x, y) \in C$, then there exists $s \in G$ such that $s.x = y$; and $s$ is *unique*, since $s.x = s'.x$ implies ${s'}^{-1}s.x = x$, and therefore ${s'}^{-1}s = e$ (as $G$ operates freely). If we make correspond to $(x, y) \in C$ the unique $s \in G$ such that $s.x = y$, we define a mapping $\varphi : C \to G$, which we shall call the canonical mapping of $C$ into $G$. With this notation:
 
-#### Proposition 6 {#top-iii-s4-prop-6 .statement}
+#### Proposition 6 {#top-iii-s4-prop-6 .statement tag=0BL7}
 
 *Let $G$ be a topological group operating continuously on a topological space $X$, and suppose that $G$ operates freely on $X$. Then $G$ operates properly on $X$ if and only if the following condition is satisfied:*
 
@@ -203,7 +203,7 @@ The set $C$ is the image of the mapping $\theta : (s, x) \to (x, s.x)$ of $G \ti
 
 ### 4. LOCALLY COMPACT GROUPS OPERATING PROPERLY
 
-#### Proposition 7 {#top-iii-s4-prop-7 .statement}
+#### Proposition 7 {#top-iii-s4-prop-7 .statement tag=0BL8}
 
 *Let $G$ be a locally compact group operating continuously on a Hausdorff space $X$. Then $G$ operates properly on $X$ if and only if, for each pair of points $x, y$ of $X$, there is a neighbourhood $V_x$ of $x$ and a neighbourhood $V_y$ of $y$ such that the set $K$ of all $s \in G$ for which $s.V_x \cap V_y \neq \emptyset$ is relatively compact in $G$.*
 
@@ -219,7 +219,7 @@ If G is compact, the condition of Proposition 7 is trivially satisfied; we thus 
 
 Proposition 7 shows in particular that a discrete group G, operating continuously on a Hausdorff space X, operates properly on X if and only if, for each pair (x, y) of points of X, there is a neighbourhood V_x of x and a neighbourhood V_y of y such that the set of points s ∈ G for which s · V_x ∩ V_y ≠ ∅ is finite.
 
-#### Proposition 8 {#top-iii-s4-prop-8 .statement}
+#### Proposition 8 {#top-iii-s4-prop-8 .statement tag=0BL9}
 
 Let G be a discrete group operating properly on a Hausdorff space X. Let x be a point of X and let K_x be the stabilizer of x. Then:
 
@@ -231,25 +231,25 @@ By Proposition 7, K_x is finite. To construct an open set U which satisfies the 
 
 The fact that the canonical mapping U/K_x → X/G is a homeomorphism of U/K_x onto an open set in X/G follows from Chapter I, § 5, no. 2, Proposition 4, since U is open and the equivalence relation defined by G is open (§ 2, no. 4, Lemma 2).
 
-#### Corollary {#top-iii-s4-n4-cor-1 .statement}
+#### Corollary {#top-iii-s4-n4-cor-1 .statement tag=0BLA}
 
 *If we suppose in addition that $K_x = \{ e \}$, then the point $x$ has an open neighbourhood $U$ such that the restriction to $U$ of the canonical mapping $X \to X/G$ is a homeomorphism of $U$ onto an open subset of $X/G$.*
 
 ### 5. GROUPS OPERATING CONTINUOUSLY ON A LOCALLY COMPACT SPACE
 
-#### Proposition 9 {#top-iii-s4-prop-9 .statement}
+#### Proposition 9 {#top-iii-s4-prop-9 .statement tag=0BLB}
 
 *Let $G$ be a topological group operating continuously on a locally compact space $X$. Then if $X/G$ is Hausdorff it is locally compact.*
 
 Since the equivalence relation on $X$ defined by $G$ is open ($§ 2$, no. 4, Lemma 2), the proposition results from Chapter I, $§ 10$, no. 4, Proposition 10.
 
-#### Proposition 10 {#top-iii-s4-prop-10 .statement}
+#### Proposition 10 {#top-iii-s4-prop-10 .statement tag=0BLC}
 
 *Let $G$ be a topological group operating continuously on a locally compact space $X$, and suppose that $X/G$ is Hausdorff. Let $\varphi$ be the canonical mapping of $X$ onto $X/G$. Then if $K'$ is any compact subset of $X/G$, there is a compact subset $K$ of $X$ such that $\varphi(K) = K'$.*
 
 Since the equivalence relation defined by $G$ is open ($§ 2$, no. 4, Lemma 2), the proposition is a particular case of Proposition 10 of Chapter I, $§ 10$, no. 4.
 
-#### Proposition 11 {#top-iii-s4-prop-11 .statement}
+#### Proposition 11 {#top-iii-s4-prop-11 .statement tag=0BLD}
 
 *Let $G$ be a Hausdorff topological group operating properly on a non-empty space $X$. If $X$ is compact (resp. locally compact) then so are $G$ and $X/G$.*
 
@@ -257,7 +257,7 @@ By hypothesis, the mapping $\theta : (s, x) \to (x, s.x)$ of $G \times X$ into $
 
 We shall now give criteria which allow us to assert that a Hausdorff topological group $G$ operates properly on a locally compact space $X$. For each pair of subsets $K, L$ of $X$ we denote by $P(K, L)$ the set of all $s \in G$ such that $s.K \cap L \neq \emptyset$.
 
-#### Theorem 1 {#top-iii-s4-thm-1 .statement}
+#### Theorem 1 {#top-iii-s4-thm-1 .statement tag=0BLE}
 
 *Let $G$ be a Hausdorff topological group which operates continuously on a topological space $X$. Let $K$ be a compact subset of $X$ and let $L$ be a closed subset of $X$. Then:
 a) The set $P(K, L)$ is closed in $G$.*
@@ -272,17 +272,17 @@ To prove b): $X$ is Hausdorff (no. 2, Proposition 3). By hypothesis the mapping 
 
 To prove c): since $K \times L$ is closed in $X \times X$, it follows that $\overline{\theta}(K \times L)$ is closed in $P(K, L) \times K$ and is therefore compact under the hypotheses of c). Since every compact subset of $X \times X$ is contained in a compact subset of the form $K \times L$, it follows that the inverse image of any compact subset of $X \times X$ under $\theta$ is compact, and since $X \times X$ is locally compact, this shows that $\theta$ is proper (Chapter I, § 10, no. 3, Proposition 7) [see Chapter IV, § 1, Exercise 4c)].
 
-#### Remark {#top-iii-s4-n5-rem-1 .statement}
+#### Remark {#top-iii-s4-n5-rem-1 .statement tag=0BLF}
 
 Clearly, we have $P(K, L) \subset P(K \cup L, K \cup L)$; therefore for $G$ to operate properly on a locally compact space $X$, it is sufficient that, for each compact subset $K$ of $X$, the set $P(K, K)$ is relatively compact in $G$. In particular, a *discrete* group $G$ operates properly on a locally compact space $X$ if and only if, for each compact subset $K$ of $X$, the set of $s \in G$ such that $s.K \cap K \neq \emptyset$ is *finite*.
 
-#### Example {#top-iii-s4-n5-exa-1 .statement}
+#### Example {#top-iii-s4-n5-exa-1 .statement tag=0BLG}
 
 Let $X$ be a complex analytic manifold, analytically isomorphic to a bounded open subset of $\mathbf{C}^n$, and let $G$ be the group of analytic automorphisms of $X$. The topology of compact convergence is compatible with the group structure of $G$, and it can be shown that $G$ operates properly on $X$. In particular, every discrete subgroup of $G$ operates properly on $X$.
 
 Take for example $X$ to be the upper half-plane $\mathscr{J}(z) > 0$, which is analytically isomorphic to an open disc in $\mathbf{C}$. Then $G$ is the group of all transformations $z \to (az + b)/(cz + d)$, where $a, b, c, d$ are real and $ad - bc \neq 0$. The subgroup $H$ of $G$ which consists of all such transformations for which $a, b, c, d$ are integers and $ad - bc = 1$ is a discrete subgroup of $G$, called the *modular group*. By what has been said above, it operates properly on the upper half-plane $\mathscr{J}(z) > 0$.*
 
-#### Proposition 12 {#top-iii-s4-prop-12 .statement}
+#### Proposition 12 {#top-iii-s4-prop-12 .statement tag=0BLH}
 
 Let G be a Hausdorff topological group which operates continuously on a topological space X. Let K be a compact subset of X, and let $\rho_K$ be the mapping $(s, x) \to s.x$ of $G \times K$ into X. Then:
 
@@ -294,7 +294,7 @@ The mapping $\rho_K$ factorizes as $G \times K \xrightarrow{\theta_K} K \times X
 
 Suppose conversely that $\rho_K$ is proper for each compact $K \subset X$. If L is a compact subset of X, then $\rho_K^{-1}(L)$ is a compact subset of $G \times K$, whose projection into G is $P(K, L)$; therefore $P(K, L)$ is compact. Hence if X is locally compact it follows from Theorem 1 that G operates properly on X.
 
-#### Corollary {#top-iii-s4-n5-cor-1 .statement}
+#### Corollary {#top-iii-s4-n5-cor-1 .statement tag=0BLI}
 
 Let G be a Hausdorff topological group operating properly on a topological space X. If K is any compact subset of X and if F is any closed subset of G, then F.K is closed in X.
 
@@ -302,13 +302,13 @@ This follows from Proposition 12 and from Chapter I, § 10, no. 1, Proposition 1
 
 ### 6. LOCALLY COMPACT HOMOGENEOUS SPACES
 
-#### Proposition 13 {#top-iii-s4-prop-13 .statement}
+#### Proposition 13 {#top-iii-s4-prop-13 .statement tag=0BLJ}
 
 Let G be a locally compact group and let H be a closed subgroup of G. Then the homogeneous space $G/H$ is locally compact and paracompact.
 
 Since $G/H$ is Hausdorff (§ 2, no. 5, Proposition 13) it is locally compact, by Proposition 9 of no. 5 applied to H operating on G on the right. Thus it remains to show that $G/H$ is paracompact. Let V be a symmetric compact neighbourhood of e in G, and let $G_0 = V^\infty$ be the subgroup of G generated by V. $G_0$ is open (§ 2, no. 1, Corollary to Proposition 4) and operates continuously on $G/H$ (§ 2, no. 5, Proposition 12). If we can show that each of the orbits $G_0.z \ (z \in G/H)$ is an open subset of $G/H$ and a countable union of compact sets, then it will follow that $G/H$ is the *topological sum* of the distinct orbits $G_0.z$ and is therefore paracompact (Chapter I, , no. 10, Theorem 5). That $G_0 . z$ is open in $G/H$ follows from the facts that $G_0$ is open in $G$ and the equivalence relation $x^{-1} y \in H$ is open ($\S 2$, no. 4, Lemma 2). On the other hand, $G_0 z$ is the union of the sets $V^n . z$ ($n \geq 1$), and since $V^n$ is compact in $G$ and $G/H$ is Hausdorff, $V^n . z$ is compact. This completes the proof
 
-#### Proposition 14 {#top-iii-s4-prop-14 .statement}
+#### Proposition 14 {#top-iii-s4-prop-14 .statement tag=0BLK}
 
 *In a locally compact group $G$, the identity component $C$ is the intersection of the open subgroups of $G$.*
 
@@ -316,15 +316,15 @@ $C$ is a closed normal subgroup of $G$ ($§ 2$, no. 2, Proposition 7), and hence
 
 We have also proved:
 
-#### Corollary 1 {#top-iii-s4-prop-14-cor-1 .statement}
+#### Corollary 1 {#top-iii-s4-prop-14-cor-1 .statement tag=0BLL}
 
 *If $G$ is a totally disconnected locally compact group, then every neighbourhood of $e$ in $G$ contains an open subgroup of $G$.*
 
-#### Corollary 2 {#top-iii-s4-prop-14-cor-2 .statement}
+#### Corollary 2 {#top-iii-s4-prop-14-cor-2 .statement tag=0BLM}
 
 *A locally compact group is connected if it is generated by each neighbourhood of the identity element.*
 
-#### Corollary 3 {#top-iii-s4-prop-14-cor-3 .statement}
+#### Corollary 3 {#top-iii-s4-prop-14-cor-3 .statement tag=0BLN}
 
 *Let $G$ be a locally compact group, let $H$ be a closed subgroup of $G$, and let $\varphi$ be the canonical mapping of $G$ onto $G/H$. Then the components of $G/H$ are the closures of the images under $\varphi$ of the components of $G$.*
 

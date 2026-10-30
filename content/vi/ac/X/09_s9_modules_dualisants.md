@@ -36,7 +36,7 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 12
-content_sha256: 9eb8fd7d5419f7f6262bb8ffa3d3f82d4565ac0ca36e2d96bf6086f39bc0d3d1
+content_sha256: 22e3929eb609b5e6428278e71b6c200128043178a77a74eed0bdd33b77b12b93
 translated_from: content/en-mt/ac/X/09_s9_modules_dualisants.md
 source_lang: en-mt
 translation_method: machine
@@ -52,29 +52,29 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Môđun đối ngẫu hóa
 
-#### Định nghĩa 1 {#ac-x-s9-def-1 .statement}
+#### Định nghĩa 1 {#ac-x-s9-def-1 .statement tag=0DBF}
 
 Cho $A$ là một vành Noether. Ta nói rằng một $A$-môđun $\Omega$ là đối ngẫu hóa nếu nó sinh hữu hạn và nếu, với mọi iđêan cực đại $m$ của $A$, không gian vectơ $A/m$ $\mathrm{Ext}_A^i(A/m, \Omega)$ bằng không với $i \neq \mathrm{ht}(m)$ và có chiều 1 với $i = \mathrm{ht}(m)$.
 
 Với mọi iđêan cực đại $m$ của $A$ và mọi số nguyên $i$, không gian vectơ $A/m$ $\mathrm{Ext}_A^i(A/m, \Omega)$ đẳng cấu chính tắc với $\mathrm{Ext}_{A_m}^i(A/m, \Omega_m)$ ($\S$ 3, No. 2, mệnh đề 2). Do đó, để một $A$-môđun sinh hữu hạn $\Omega$ là đối ngẫu hóa, điều kiện cần và đủ là $A_m$-môđun $\Omega_m$ là đối ngẫu hóa với mọi iđêan cực đại $m$ của $A$.
 
-#### Ví dụ 1 {#ac-x-s9-n1-exa-1 .statement}
+#### Ví dụ 1 {#ac-x-s9-n1-exa-1 .statement tag=0DBG}
 
 Nếu vành $A$ là địa phương và Artin, thì các $A$-môđun đối ngẫu hóa là các $A$-môđun đơn ánh sinh hữu hạn $\Omega$ sao cho $\mathrm{Hom}_A(\kappa_A, \Omega)$ có chiều 1 ($\S$ 3, No. 3, mệnh đề 6), tức là các $A$-môđun Matlis ($\S$ 8, No. 3).
 
-#### Ví dụ 2 {#ac-x-s9-n1-exa-2 .statement}
+#### Ví dụ 2 {#ac-x-s9-n1-exa-2 .statement tag=0DBH}
 
 Để một vành Noether $A$ là Gorenstein, điều kiện cần và đủ là $A$-môđun $A$ là đối ngẫu hóa ($\S$ 3, No. 7, mệnh đề 11). Đặc biệt, $A$-môđun $A$ là đối ngẫu hóa khi $A$ là chính quy.
 
-#### Nhận xét 1 {#ac-x-s9-n1-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s9-n1-rem-1 .statement tag=0DBI}
 
 Cho $A$ là một vành địa phương Noether và $\Omega$ một $A$-môđun sinh hữu hạn. Trường thặng dư $\kappa_{\widehat{A}}$ được đồng nhất với $\kappa_A$, và $\widehat{A}$-môđun $\widehat{\Omega}$ với $\widehat{A} \otimes_A \Omega$ (III, $\S$ 3, No. 4, định lý 3). Khi đó suy ra từ A, X, p. 111, mệnh đề 10 rằng không gian vectơ $\kappa_A$ $\mathrm{Ext}_A^i(\kappa_A, \Omega)$ đẳng cấu chính tắc với $\mathrm{Ext}_{\widehat{A}}^i(\kappa_{\widehat{A}}, \widehat{\Omega})$. Do đó, để $A$-môđun $\Omega$ là đối ngẫu hóa, điều kiện cần và đủ là $\widehat{A}$-môđun $\widehat{\Omega}$ là đối ngẫu hóa.
 
-#### Nhận xét 2 {#ac-x-s9-n1-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s9-n1-rem-2 .statement tag=0DBJ}
 
 Cho $\Omega$ là một $A$-môđun đối ngẫu hóa; với mọi $A$-môđun xạ ảnh $L$ hạng 1, $A$-môđun $\Omega \otimes_A L$ là đối ngẫu hóa (A, X, p. 108, mệnh đề 7, b)). Ta sẽ thấy dưới đây (No. 4, mệnh đề 6) rằng mọi $A$-môđun đối ngẫu hóa đều đẳng cấu với một môđun có dạng này.
 
-#### Mệnh đề 1 {#ac-x-s9-prop-1 .statement}
+#### Mệnh đề 1 {#ac-x-s9-prop-1 .statement tag=0DBK}
 
 Cho $A$ là một vành Noether và $\Omega$ là một A-môđun đối ngẫu hóa.
 
@@ -86,7 +86,7 @@ Trước hết giả sử rằng vành $A$ là địa phương, và ký hiệu $
 
 Trong trường hợp tổng quát, A$_m$-môđun $\Omega_m$ là đối ngẫu hóa với mọi iđêan cực đại $m$ của $A$, do đó $A_m$ là một vành Macaulay và $\Omega_m$ là một A$_m$-môđun Macaulay theo điều vừa đi trước, điều này kéo theo a). Hơn nữa ta có $\mathrm{di}_{A_m}(\Omega_m) = \dim(\Omega_m) = \dim(A_m)$ với mọi iđêan cực đại $m$, do đó có b) bằng cách chuyển qua cận trên bé nhất (§ 3, No. 2, mệnh đề 3).
 
-#### Mệnh đề 2 {#ac-x-s9-prop-2 .statement}
+#### Mệnh đề 2 {#ac-x-s9-prop-2 .statement tag=0DBL}
 
 *Cho A là một vành Noether, $\Omega$ là một A-môđun đối ngẫu hóa. Với mọi iđêan nguyên tố $p$ của A, A$_p$-môđun $\Omega_p$ là đối ngẫu hóa.*
 
@@ -108,7 +108,7 @@ $$
 
 Ta có $\mathrm{long}_A(\mathrm{Ext}^i_A(A/(p + xA), \Omega)) = \mathrm{long}_A(A/(p + xA))$ (*loc. cit.*); khi đó mệnh đề suy ra từ bổ đề sau đây, áp dụng cho vành $B = A/p$ và B-môđun $M = \mathrm{Ext}^{d-1}_A(A/p, \Omega)$:
 
-#### Bổ đề 1 {#ac-x-s9-lem-1 .statement}
+#### Bổ đề 1 {#ac-x-s9-lem-1 .statement tag=0DBM}
 
 *Cho B là một vành nguyên địa phương Noether chiều 1, và M là một B-môđun xoắn-không sinh hữu hạn. Giả sử rằng ta có $\mathrm{long}_B(M/xM) = \mathrm{long}_B(B/xB)$ với mọi phần tử khác không x của B. Khi đó B-môđun M có hạng 1.*
 
@@ -130,23 +130,23 @@ $$
 
 do đó $\operatorname{long}(M/xM) = \operatorname{long}(L/xL)$. Vì $\operatorname{long}(M/xM) = \operatorname{long}(B/xB)$ theo giả thiết và $\operatorname{long}(L/xL) = r \operatorname{long}(B/xB)$, suy ra $r = 1$.
 
-#### Hệ quả 1 {#ac-x-s9-lem-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s9-lem-1-cor-1 .statement tag=0DBN}
 
 *Với mọi tập con nhân tính S của A, S$^{-1}$A-môđun S$^{-1}\Omega$ là đối ngẫu hóa.*
 
-#### Hệ quả 2 {#ac-x-s9-lem-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s9-lem-1-cor-2 .statement tag=0DBO}
 
 *Giá của $\Omega$ bằng Spec(A).*
 
 Thật vậy một môđun đối ngẫu hóa trên một vành địa phương theo định nghĩa là khác không.
 
-#### Hệ quả 3 {#ac-x-s9-lem-1-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s9-lem-1-cor-3 .statement tag=0DBP}
 
 *Cho M là một A-môđun sinh hữu hạn, và i là một số nguyên. A-môđun $\operatorname{Ext}_A^i(M, \Omega)$ là sinh hữu hạn, và giá của nó có đối chiều $\geqslant i$ trong Spec(A).*
 
 Mệnh đề thứ nhất suy ra từ A, X, p. 108, hệ quả. Cho $\mathfrak{p}$ là một iđêan nguyên tố của giá của $\operatorname{Ext}_A^i(M, \Omega)$. Ta có $\operatorname{Ext}_A^i(M, \Omega)_\mathfrak{p} \neq 0$, do đó $\operatorname{Ext}_{A_\mathfrak{p}}^i(M_\mathfrak{p}, \Omega_\mathfrak{p}) \neq 0$ (§ 3, No. 2, mệnh đề 2), điều này kéo theo $\operatorname{di}_{A_\mathfrak{p}}(\Omega_\mathfrak{p}) \geqslant i$. Vì $\Omega_\mathfrak{p}$ là một $A_\mathfrak{p}$-môđun đối ngẫu hóa (mệnh đề 2), ta có $\operatorname{di}_{A_\mathfrak{p}}(\Omega_\mathfrak{p}) = \dim(A_\mathfrak{p})$ (mệnh đề 1), do đó có hệ quả.
 
-#### Mệnh đề 3 {#ac-x-s9-prop-3 .statement}
+#### Mệnh đề 3 {#ac-x-s9-prop-3 .statement tag=0DBQ}
 
 *Cho A là một vành địa phương Noether, $\Omega$ là một A-môđun đối ngẫu hóa và M là một A-môđun sinh hữu hạn.
 
@@ -180,7 +180,7 @@ $$
 
 Với $i > \dim(A) - \operatorname{prof}_A(M)$, $A$-môđun $\operatorname{Ext}_A^{i+1}(M/xM, \Omega)$ là không theo giả thiết quy nạp; bởi vậy phép vị tự có tỉ số $x$ là toàn ánh trong $\operatorname{Ext}_A^i(M, \Omega)$, điều này suy ra $A$-môđun này là không (bổ đề Nakayama). Điều này chứng minh c).
 
-#### Hệ quả {#ac-x-s9-n1-cor-1 .statement}
+#### Hệ quả {#ac-x-s9-n1-cor-1 .statement tag=0DBR}
 
 *Nếu $M$ là Macaulay, thì $\operatorname{Ext}_A^i(M, \Omega) = 0$ với $i \neq c$; $A$-môđun $\operatorname{Ext}_A^c(M, \Omega)$ là Macaulay, và giá của nó bằng giá của $M$.*
 
@@ -202,7 +202,7 @@ Mệnh đề 4 của § 2, No. 3 và giả thiết quy nạp khi đó suy ra $\o
 
 ### 2. Thương bởi một dãy chính quy
 
-#### Mệnh đề 4 {#ac-x-s9-prop-4 .statement}
+#### Mệnh đề 4 {#ac-x-s9-prop-4 .statement tag=0DBS}
 
 *Cho $A$ là một vành Noether, $J$ là một iđêan của $A$ sinh bởi một $A$-dãy chính quy $x$, và $\Omega$ là một $A$-môđun sinh hữu hạn.
 
@@ -220,13 +220,13 @@ $$
 
 (VIII, § 3, n° 1, hệ quả 2, a)). Bây giờ các iđêan cực đại của \overline{A} là các iđêan \overline{m}, trong đó m là một iđêan cực đại của A chứa x; và hơn nữa nếu x thuộc căn của A, thì mọi iđêan cực đại của A đều chứa x. Mệnh đề được chứng minh.
 
-#### Hệ quả 1 {#ac-x-s9-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s9-prop-4-cor-1 .statement tag=0DBT}
 
 **Cho A là một vành nguyên Noether. Mọi A-môđun đối ngẫu hóa đều không xoắn và có hạng 1.**
 
 Cho \Omega là một A-môđun đối ngẫu hóa; nó không xoắn theo mệnh đề 4. Kí hiệu K là trường các phân thức của A; không gian vectơ trên K K \otimes_A \Omega là đối ngẫu hóa (n° 1, mệnh đề 2), do đó có chiều 1.
 
-#### Hệ quả 2 {#ac-x-s9-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s9-prop-4-cor-2 .statement tag=0DBU}
 
 **Cho A là một vành Macaulay địa phương, \Omega một A-môđun hữu hạn sinh, và x một dãy cát tuyến cực đại gồm các phần tử của m_A, sinh ra một iđêan J. Các điều kiện sau là tương đương:**
 
@@ -245,7 +245,7 @@ Cho \Omega là một A-môđun đối ngẫu hóa; nó không xoắn theo mệnh
 
 ### 3. Thay đổi vành
 
-#### Mệnh đề 5 {#ac-x-s9-prop-5 .statement}
+#### Mệnh đề 5 {#ac-x-s9-prop-5 .statement tag=0DBV}
 
 Cho $\rho : A \to B$ là một đồng cấu của các vành Noether, biến $B$ thành một $A$-môđun phẳng. Giả sử rằng với mọi iđêan cực đại $n$ của $B$, vành $\kappa(\rho^{-1}(n)) \otimes_A B$ là một vành Gorenstein. Cho $\Omega$ là một $A$-môđun đối ngẫu hóa ; $B$-môđun $\Omega_{(B)}$ là đối ngẫu hóa.
 
@@ -284,13 +284,13 @@ Các $B$-môđun $\mathrm{Hom}_B(\kappa_A \otimes_A B, \Omega_{(B)})$ và $\math
 
 Ta chuyển sang trường hợp tổng quát. Đặt $C = \kappa_A \otimes_A B$; theo giả thiết đây là một vành Gorenstein, do đó là một vành Macaulay ($§ 3, n° 7$, mệnh đề 10). Theo mệnh đề 1 của No. 1, $A$ là một vành Macaulay, và $A$-môđun $\Omega$ là Macaulay. Do đó $B$ là một vành Macaulay, và $B$-môđun $\Omega_{(B)}$ là Macaulay ($§ 2, n° 7$, hệ quả 1 của mệnh đề 9). Đặt $r = \dim(A)$, $s = \dim(C)$. Tồn tại một dãy $(x_1, \ldots, x_r)$ các phần tử của $\mathfrak{m}_A$ chính quy đối với các $A$-môđun $A$ và $\Omega$, và một dãy $(y_1, \ldots, y_s)$ các phần tử của $\mathfrak{m}_B$ chính quy đối với $B$-môđun $C$; gọi $x$ là iđêan của $A$ và $\mathfrak{g}$ là iđêan của $B$ lần lượt được sinh bởi chúng. Dãy $(y_1, \ldots, y_s, \rho(x_1), \ldots, \rho(x_r))$ là chính quy đối với các $B$-môđun $B$ và $\Omega_{(B)}$ ($§ 1, n° 6$, mệnh đề 11), và $A$-môđun $B/\mathfrak{g}$ là phẳng (*loc. cit.*, mệnh đề 10). Đặt $A' = A/x$, $B' = B/(xB + \mathfrak{g})$ và gọi $\rho' : A' \to B'$ là đồng cấu suy ra từ $\rho$ bằng cách chuyển qua các thương. Các vành $A'$ và $B'$ là Artin, $A'$-môđun $B'$ là phẳng, vành $\kappa_{A'} \otimes_{A'} B'$, được đồng nhất với $C/\mathfrak{g}$, là một vành Gorenstein ($§ 3, n° 7$, ví dụ 2) và $A'$-môđun $\Omega_{(A')}$ là đối ngẫu hóa (No. 2, mệnh đề 4). Theo phần đầu của chứng minh, $B'$-môđun $\Omega_{(B')}$ là đối ngẫu hóa. Khi đó suy ra từ *loc. cit.* rằng $B$-môđun $\Omega_{(B)}$ là đối ngẫu hóa.
 
-#### Hệ quả {#ac-x-s9-n3-cor-1 .statement}
+#### Hệ quả {#ac-x-s9-n3-cor-1 .statement tag=0DBW}
 
 *Cho $A$ là một vành Noether nhận một môđun đối ngẫu hóa $\Omega$; cho $B$ là một đại số đa thức trên $A$ theo một số hữu hạn bất định. $B$-môđun $\Omega_{(B)}$ là đối ngẫu hóa.*
 
 Thật vậy, với mọi iđêan nguyên tố $\mathfrak{p}$ của $A$, vành $\kappa(\mathfrak{p}) \otimes_A A[X]$ được đồng nhất với $\kappa(\mathfrak{p})[X]$, là vành chính quy, do đó Gorenstein.
 
-#### Mệnh đề 6 {#ac-x-s9-prop-6 .statement}
+#### Mệnh đề 6 {#ac-x-s9-prop-6 .statement tag=0DBX}
 
 *Cho $A$ là một vành địa phương Noether và $\Omega$ là một A-môđun đối ngẫu hóa. Cho $B$ là một A-đại số hữu hạn; giả sử rằng A-môđun $B$ là Macaulay. B-môđun $\mathrm{Ext}_A^i(B, \Omega)$ bằng không với $i \neq \dim(A) - \dim(B)$ và là đối ngẫu hóa với $i = \dim(A) - \dim(B)$.
 
@@ -308,23 +308,23 @@ $$
 
 Theo giả thiết quy nạp, $B/xB$-môđun $\mathrm{Ext}_A^{c+1}(B/xB, \Omega)$ là đối ngẫu hóa. Vì đại số trên $A$ $B$ là hữu hạn, ảnh của $m_A$ trong $B$ được chứa trong căn của $B$ (V, $§ 2$, No. 1, Mệnh đề 1) ; theo Mệnh đề 4 của No. 2, $B$-môđun $\mathrm{Ext}_A^c(B, \Omega)$ là đối ngẫu hóa.
 
-#### Hệ quả 1 {#ac-x-s9-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s9-prop-6-cor-1 .statement tag=0DBY}
 
 *Cho A là một vành Noether, $\Omega$ một A-môđun đối ngẫu hóa, và B một đại số trên A hữu hạn; giả sử rằng A-môđun B là Macaulay. B-môđun $\mathrm{Ext}_A(B, \Omega)$ là đối ngẫu hóa.*
 
 Ký hiệu $\Omega'$ là $B$-môđun $\mathrm{Ext}_A(B, \Omega)$. Cho $n$ là một iđêan cực đại của $B$; ảnh ngược của nó trong $A$ là một iđêan cực đại $m$ (V, $§ 2$, No. 1, mệnh đề 1). Đại số trên $A_m$ $B_m = A_m \otimes_A B$ là hữu hạn, và là một $A_m$-môđun Macaulay; theo mệnh đề, $B_m$-môđun $\Omega'_m$, đồng nhất với $\mathrm{Ext}_{A_m}(B_m, \Omega_m)$ ($§ 3$, No. 2, mệnh đề 2), là đối ngẫu hóa. Vì $B_n$ là một vành phân thức của $B_m$, nên $B_n$-môđun $\Omega'_n$ là đối ngẫu hóa, do đó có hệ quả.
 
-#### Nhận xét {#ac-x-s9-n3-rem-1 .statement}
+#### Nhận xét {#ac-x-s9-n3-rem-1 .statement tag=0DBZ}
 
 Giữ các giả thiết của hệ quả 1 và giả sử thêm rằng đồng cấu chính tắc $\rho : A \to B$ là đơn ánh. Khi đó ta có $\dim(A_m) = \dim(B_m)$ với mọi iđêan cực đại $m$ của $A$ (VIII, $§ 2$, No. 3, định lý 1 a)). Theo mệnh đề 6 và hệ quả 1, $\mathrm{Ext}_A^i(B, \Omega)$ bằng không với $i \neq 0$, và $B$-môđun $\mathrm{Hom}_A(B, \Omega)$ là đối ngẫu hóa.
 
-#### Hệ quả 2 {#ac-x-s9-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s9-prop-6-cor-2 .statement tag=0DC0}
 
 *Nếu một vành Noether $A$ có một môđun đối ngẫu hóa, thì mọi đại số trên $A$ sinh hữu hạn là một vành Macaulay đều có một môđun đối ngẫu hóa.*
 
 Điều này suy ra từ hệ quả 1 và hệ quả của mệnh đề 5.
 
-#### Hệ quả 3 {#ac-x-s9-prop-6-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s9-prop-6-cor-3 .statement tag=0DC1}
 
 *Mọi vành Macaulay biểu diễn được (đặc biệt, mọi vành địa phương Macaulay đầy đủ) đều có một môđun đối ngẫu hóa.*
 
@@ -334,7 +334,7 @@ Nói chung hơn, mọi thương vành Macaulay của một vành Gorenstein đ�
 
 ### 4. Cấu trúc của các môđun đối ngẫu hóa
 
-#### Bổ đề 2 {#ac-x-s9-lem-2 .statement}
+#### Bổ đề 2 {#ac-x-s9-lem-2 .statement tag=0DC2}
 
 Cho $A$ là một vành Noether, $M$ và $N$ là các $A$-môđun sinh hữu hạn, $u : M \to N$ là một đồng cấu. Cho $x$ là một phần tử của căn của $A$, sao cho phép vị tự $x_N$ là đơn ánh. Nếu đồng cấu $\overline{u} : M/xM \to N/xN$ được cảm sinh bởi $u$ là đơn ánh (tương ứng, toàn ánh, tương ứng, song ánh), thì $u$ cũng có tính chất đó.
 
@@ -350,7 +350,7 @@ $$
 
 nhờ bổ đề con rắn (I, § 1, No. 4, mệnh đề 2), ta suy ra từ đó một dãy khớp $\mathrm{Ker}\, u \xrightarrow{x} \mathrm{Ker}\, u \longrightarrow \mathrm{Ker}\, \overline{u}$. Nếu $\overline{u}$ là đơn ánh, thì phép vị tự với tỷ số $x$ là toàn ánh trong $\mathrm{Ker}\, u$, điều này kéo theo $\mathrm{Ker}\, u = 0$ bởi bổ đề Nakayama.
 
-#### Mệnh đề 7 {#ac-x-s9-prop-7 .statement}
+#### Mệnh đề 7 {#ac-x-s9-prop-7 .statement tag=0DC3}
 
 Cho $A$ là một vành Noether và $\Omega$ là một $A$-môđun đối ngẫu hóa.
 
@@ -382,13 +382,13 @@ B) Ta chuyển sang trường hợp tổng quát. Với mọi iđêan cực đ�
 
 Cuối cùng, ta chứng minh c). Gọi $\Omega'$ là một $A$-môđun đối ngẫu hoá. Kí hiệu $L$ là $A$-môđun $\mathrm{Hom}_A(\Omega', \Omega)$, và $v : \Omega' \otimes_A L \to \Omega$ là đồng cấu sao cho $v(x \otimes f) = f(x)$ với $x \in \Omega'$, $f \in L$. Gọi $m$ là một iđêan cực đại của $A$. $A_m$-môđun $L_m$ được đồng nhất với $\mathrm{Hom}_{A_m}(\Omega'_m, \Omega_m)$; theo trường hợp đã xét, nó tự do hạng một, và mọi đẳng cấu $h : \Omega'_m \to \Omega_m$ là một phần tử sinh của nó. Khi đồng nhất $L_m$ với $A_m$ nhờ phần tử sinh $h$, đồng cấu $v_m : \Omega'_m \otimes_{A_m} L_m \to \Omega_m$ được đồng nhất với $h$, nên là song ánh. Vì điều này đúng với mọi iđêan cực đại $m$ của $A$, $A$-môđun $L$ là xạ ảnh hạng một (II, $§ 5$, No. 3, Định lý 2), và đồng cấu $v$ là song ánh (II, $§ 3$, No. 3, Định lý 1).
 
-#### Hệ quả 1 {#ac-x-s9-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s9-prop-7-cor-1 .statement tag=0DC4}
 
 *Để $A$ là một vành Gorenstein, điều kiện cần và đủ là A-môđun $\Omega$ xạ ảnh hạng 1*.
 
 Điều này suy ra từ Ví dụ 2 của No. 1 và Mệnh đề 7 c).
 
-#### Hệ quả 2 {#ac-x-s9-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s9-prop-7-cor-2 .statement tag=0DC5}
 
 *Giả sử rằng vành $A$ là trình bày được. Tập hợp các iđêan nguyên tố $p$ của $A$ sao cho $A_p$ là một vành Gorenstein là mở trong $\mathrm{Spec}(A)$*.
 
@@ -442,7 +442,7 @@ $$
 \alpha_M : M \to H_0(D(D(M))).
 $$
 
-#### Định lý 1 {#ac-x-s9-thm-1 .statement}
+#### Định lý 1 {#ac-x-s9-thm-1 .statement tag=0DC6}
 
 **Cho $M$ là một $A$-môđun sinh hữu hạn. Khi đó $\alpha_M$ là một đồng cấu trên đồng điều: ta có $H_i(D(D(M))) = 0$ với $i \neq 0$ và đồng cấu $\alpha_M$ là song ánh.**
 
@@ -510,7 +510,7 @@ $$
 \beta_M : M \to \mathrm{Ext}_A^c(\mathrm{Ext}_A^c(M, \Omega), \Omega).
 $$
 
-#### Hệ quả {#ac-x-s9-n5-cor-1 .statement}
+#### Hệ quả {#ac-x-s9-n5-cor-1 .statement tag=0DC7}
 
 Nếu $A$-môđun $M$ là Macaulay, đồng cấu $\beta_M$ là song ánh.
 
@@ -524,7 +524,7 @@ Trong số này, ta xét một vành nguyên Noether $A$ có chiều 1 và nhậ
 
 Đồng cấu chính tắc $\Omega \to V$ là đơn ánh, và không gian vectơ trên K V có chiều 1 (No. 2, hệ quả 1 của mệnh đề 4); ta đồng nhất $\Omega$ với một môđun con trên A của V.
 
-#### Mệnh đề 8 {#ac-x-s9-prop-8 .statement}
+#### Mệnh đề 8 {#ac-x-s9-prop-8 .statement tag=0DC8}
 
 *$A$-môđun $V/\Omega$ là một môđun Matlis.*
 
@@ -618,7 +618,7 @@ Vì $\Omega_B$ là một B-môđun, quan hệ $x \Omega \subset \Omega_B$ tươn
 
 Ta sẽ chuyên biệt hóa phần bàn luận trước vào trường hợp B là bao đóng nguyên của A; giả thiết B là một A-môđun hữu hạn sinh được thỏa mãn khi vành A là vành Nhật (IX, § 4, No. 1, định nghĩa 1), điều này xảy ra khi nó địa phương và đầy đủ (*loc. cit.*, No. 2, định lý 2), hoặc khi nó về bản chất là kiểu hữu hạn trên một trường (*loc. cit.*, No. 1, nhận xét 2 và ví dụ). Khi đó vành B là một vành Dedekind (VII, § 2, No. 2, định lý 1), và các B-môđun không xoắn $\Omega_B$, $B\Omega$ và $c$ đều xạ ảnh hạng 1 (VII, § 4, No. 10, mệnh đề 22). Khi đó quan hệ $c = \Omega_B : B\Omega$ có nghĩa là ánh xạ tuyến tính $c \otimes_B B\Omega \to \Omega_B$ suy ra từ tác động của K trên V là một đẳng cấu (II, § 5, No. 6, mệnh đề 11). Đặc biệt ta có $\Omega_B = c(B\Omega) = c\Omega$.
 
-#### Mệnh đề 9 {#ac-x-s9-prop-9 .statement}
+#### Mệnh đề 9 {#ac-x-s9-prop-9 .statement tag=0DC9}
 
 *Cho B là bao đóng nguyên của A, và $c = A : B$. Giả sử B là một A-môđun hữu hạn sinh. Ta có bất đẳng thức $[B/c] \leq 2[B/A]$ trong $Z_0(A)$. Để có đẳng thức, điều kiện cần và đủ là A là một vành Gorenstein.*
 

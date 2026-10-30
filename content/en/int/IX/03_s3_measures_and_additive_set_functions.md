@@ -25,7 +25,7 @@ subsections:
       pdf_page: 228
 statements: 17
 exercises: 18
-content_sha256: c8e5e6d7c3b2307cb63e315e8689da890304f906e25ea65d78d2f88a020702fa
+content_sha256: b7143e1dccb4a50f4c6430b942b6320cab29a534320ec6405180a553d32e45d9
 ---
 
 ## § 3. MEASURES AND ADDITIVE SET FUNCTIONS
@@ -34,7 +34,7 @@ In this section, we shall denote by $\mathscr{K}(T)$ and $\mathscr{B}(T)$, respe
 
 ### 1. Measures and additive set functions of compact sets
 
-#### Theorem 1 {#int-ix-s3-thm-1 .statement}
+#### Theorem 1 {#int-ix-s3-thm-1 .statement tag=09PN}
 
 — Let T be a topological space, and I a mapping of $\mathscr{K}(T)$ into $\mathbf{R}_+$. In order that there exist a measure $\mu$ on T such that $I(K) = \mu^\bullet(K)$ for all $K \in \mathscr{K}(T)$, it is necessary and sufficient that I satisfy the following conditions:
 
@@ -58,7 +58,7 @@ The uniqueness of $\mu$ follows from the Cor. of Prop. 2 of § 1, No. 2. The abo
 
 To show that these conditions are sufficient, we begin by treating the case that T is compact.
 
-#### Lemma 1 {#int-ix-s3-lem-1 .statement}
+#### Lemma 1 {#int-ix-s3-lem-1 .statement tag=09PO}
 
 Assume that T is compact, and set l = I(T). For every $A \subset T$, set
 
@@ -121,7 +121,7 @@ $\varepsilon$ being arbitrary, the desired inequality is proved, and the theorem
 
 Let us now pass to the general case. For every compact set $L$ in $T$, let $I_L$ be the restriction of $I$ to $\mathfrak{K}(L)$. By the special case just treated, there exists a measure $\mu_L$ on $L$, unique, such that $\mu_L(K) = I_L(K)$ for every compact set $K \subset L$. Let then $L'$ be a compact set contained in $L$; we have $(\mu_L)_{L'}^\bullet(K) = \mu_{L'}^\bullet(K) = \mu_{L'}^\bullet(K)$ for every compact set $K \subset L'$, therefore $\mu_{L'} = (\mu_L)_{L'}$; the mapping $\mu : L \mapsto \mu_L$ is a premeasure. The condition 5) expresses that $\mu$ is a measure, and the relation $I(K) = \mu^*(K)$ for all compact $K \subset T$ is obvious.
 
-#### Remark 1 {#int-ix-s3-n1-rem-1 .statement}
+#### Remark 1 {#int-ix-s3-n1-rem-1 .statement tag=09PP}
 
 The condition 4) may be replaced, in the statement of Theorem 1, by the following condition ('right-continuity'):
 $4')$ For every $K \in \mathscr{K}(T)$ and every $\varepsilon > 0$, there exists an open set $U$ containing $K$, such that $I(H) \leq I(K) + \varepsilon$ for every compact set $H \subset U$.
@@ -131,7 +131,7 @@ $$
 $$
 and 4) is indeed verified.
 
-#### Remark 2 {#int-ix-s3-n1-rem-2 .statement}
+#### Remark 2 {#int-ix-s3-n1-rem-2 .statement tag=09PQ}
 
 The set of conditions 2) and 3) may be replaced, in the statement of Theorem 1, by the following condition:
 If $K$ and $L$ are compact subsets of $T$, then
@@ -146,7 +146,7 @@ for every measure $\mu$, by virtue of the relation $\varphi_{K \cup L} + \varphi
 
 ### 2. Inner regular set functions
 
-#### Definition 1 {#int-ix-s3-def-1 .statement}
+#### Definition 1 {#int-ix-s3-def-1 .statement tag=09PR}
 
 Let $T$ be a topological space, and let $\mathscr{B}(T)$ be the Borel tribe of $T$; let $I$ be a mapping of $\mathscr{B}(T)$ into $\overline{\mathbf{R}}_+$.
 a) $I$ is said to be countably additive if, for every sequence $(A_n)$ of pairwise disjoint elements of $\mathscr{B}(T)$,
@@ -161,15 +161,15 @@ where $K$ runs over the set of compact subsets of $A$.
 
 c) I is said to be bounded (resp. locally bounded) if $I(T) < +\infty$ (resp. if every point $x \in T$ admits an open neighborhood $V$ such that $I(V) < +\infty$).
 
-#### Remark 1 {#int-ix-s3-n2-rem-1 .statement}
+#### Remark 1 {#int-ix-s3-n2-rem-1 .statement tag=09PS}
 
 The condition a) clearly implies that I is an increasing mapping of $\mathscr{B}(T)$ (ordered by inclusion) into $\overline{\mathbf{R}}_+$.
 
-#### Remark 2 {#int-ix-s3-n2-rem-2 .statement}
+#### Remark 2 {#int-ix-s3-n2-rem-2 .statement tag=09PT}
 
 Suppose that I is countably additive; let $(A_n)_{n \in \mathbf{N}}$ be an increasing sequence of Borel sets, and let $A = \bigcup_{n \in \mathbf{N}} A_n$. The sets $D_0 = A_0$, $D_n = A_n - A_{n-1}$ being pairwise disjoint, and their union being A, we have $I(A) = \sum_n I(D_n) = \lim_{n \to \infty} I(A_n)$. Similarly, if $(B_n)$ is a decreasing sequence of Borel sets, and if $I(B_0) < +\infty$, then $I(\bigcap_n B_n) = \lim_{n \to \infty} I(B_n)$: it suffices to apply the preceding to the sets $A_n = B_0 - B_n$.
 
-#### Remark 3 {#int-ix-s3-n2-rem-3 .statement}
+#### Remark 3 {#int-ix-s3-n2-rem-3 .statement tag=09PU}
 
 Let $(A_n)$ be any sequence of Borel sets of T. If I is countably additive, then $I(\bigcup_n A_n) \leq \sum_n I(A_n)$. By the preceding remark, it suffices to establish this inequality for a finite sequence. One immediately reduces to the case of two sets $A_1$ and $A_2$; but the relation (4) implies that
 
@@ -179,15 +179,15 @@ $$
 
 The desired inequality then follows immediately.
 
-#### Remark 4 {#int-ix-s3-n2-rem-4 .statement}
+#### Remark 4 {#int-ix-s3-n2-rem-4 .statement tag=09PV}
 
 If I is a countably additive and locally bounded function, the preceding remark implies at once that $I(K) < +\infty$ for every compact set $K \subset T$.
 
-#### Remark 5 {#int-ix-s3-n2-rem-5 .statement}
+#### Remark 5 {#int-ix-s3-n2-rem-5 .statement tag=09PW}
 
 One can show that if I is additive, that is, satisfies (4) for finite sequences, and if I is inner regular, then I is countably additive (Exer. 7). The reader can also ascertain that only additivity and inner regularity are used in the proof of Th. 2 below.
 
-#### Theorem 2 {#int-ix-s3-thm-2 .statement}
+#### Theorem 2 {#int-ix-s3-thm-2 .statement tag=09PX}
 
 — Let T be a topological space, and let I be a function defined on $\mathscr{B}(T)$, with values in $\overline{\mathbf{R}}_+$. In order that there exist a measure $\mu$ on T such that $\mu^*(A) = I(A)$ for every $A \in \mathscr{B}(T)$, it is necessary and sufficient that I be countably additive, locally bounded and inner regular. The measure $\mu$ is then unique.
 
@@ -199,7 +199,7 @@ By Th. 1, there exists a measure $\mu$ such that $\mu^\bullet(K) = I(K)$ for all
 
 ### 3. Radon spaces
 
-#### Definition 2 {#int-ix-s3-def-2 .statement}
+#### Definition 2 {#int-ix-s3-def-2 .statement tag=09PY}
 
 *Let T be a topological space. One says that T is a Radon (resp. strongly Radon) space if T is Hausdorff and if every function defined on the Borel tribe $\mathscr{B}(T)$ of T, with values in $\overline{\mathbf{R}}_+$, that is countably additive and bounded (resp. locally bounded) is inner regular.*
 
@@ -207,7 +207,7 @@ For example, we shall see later on (Prop. 3) that every Polish space is strongly
 
 There exist Radon spaces that are not strongly Radon.
 
-#### Proposition 1 {#int-ix-s3-prop-1 .statement}
+#### Proposition 1 {#int-ix-s3-prop-1 .statement tag=09PZ}
 
 *Every Lindelöf*$^{(1)}$* Radon space is strongly Radon.*
 
@@ -217,7 +217,7 @@ Recall that a subset A of a topological space T is said to be *universally measu
 
 (1) Recall (GT, I, §9, Exer. 14; TG, IX, Appendix I) that a *Lindelöf space* is a topological space T such that every open covering of T contains a countable covering.
 
-#### Proposition 2 {#int-ix-s3-prop-2 .statement}
+#### Proposition 2 {#int-ix-s3-prop-2 .statement tag=09Q0}
 
 — Let X be a topological space and T a subspace of X.
 
@@ -255,13 +255,13 @@ Set $K' = \bigcup_{n \in \mathbf{N}} K_n$; $K'$ is Borel in $X$, $K' \subset T \
 
 Let us pass to b). Suppose that $X$ is a Radon space, and that $T$ is universally measurable in $X$. Let $I$ be a positive function on $\mathscr{B}(T)$ that is countably additive and bounded; the function $A \mapsto I(A \cap T)$ on $\mathscr{B}(X)$ is then positive, countably additive and bounded, therefore there exists a bounded measure $\nu$ on $X$ such that $I(A \cap T) = \nu^*(A)$ for all $A \in \mathscr{B}(X)$. Now, $T$ is $\nu$-measurable; the preceding relation shows that $\nu^*(K) = 0$ for every compact subset $K$ of $X$ that is disjoint from $T$, therefore $\nu$ is concentrated on $T$. Consequently, for every Borel set $A$ of $X$, we have $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, where $\mu$ is the measure induced by $\nu$ on $T$. Finally, it follows that $I(B) = \mu^*(B)$ for every set $B \in \mathscr{B}(T)$ (GT, IX, §6, No. 3, *Remark 2*), and $I$ is indeed inner regular.
 
-#### Corollary {#int-ix-s3-n3-cor-1 .statement}
+#### Corollary {#int-ix-s3-n3-cor-1 .statement tag=09Q1}
 
 — *If $X$ is a Radon space, then every Borel subset $T$ of $X$ is Radon.*
 
 For, $T$ is universally measurable in $X$.
 
-#### Proposition 3 {#int-ix-s3-prop-3 .statement}
+#### Proposition 3 {#int-ix-s3-prop-3 .statement tag=09Q2}
 
 — *Every Souslin space (in particular, every Polish or Lusin space) is strongly Radon.*
 
@@ -289,7 +289,7 @@ $$
 
 where K runs over the set of compact sets contained in A; we have proved that I is inner regular.
 
-#### Remark {#int-ix-s3-n3-rem-1 .statement}
+#### Remark {#int-ix-s3-n3-rem-1 .statement tag=09Q3}
 
 — Let X be a Lusin space (in particular, any Polish space), and f a bijective continuous mapping of X onto a (Lusin) regular space Y. One knows (TG, IX, §6, No. 7, Prop. 14) that the mapping $B \mapsto f^{-1}(B)$ is a bijection of the Borel tribe of Y onto the Borel tribe of X. The spaces X and Y are Lusin, hence strongly Radon (Prop. 3). It follows immediately that the mapping $\mu \mapsto f(\mu)$ is a bijection of the set of bounded measures on X onto the set of bounded measures on Y.(4)
 

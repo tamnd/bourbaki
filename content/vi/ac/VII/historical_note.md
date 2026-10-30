@@ -13,7 +13,7 @@ pdf_pages: 0597-0642
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 6706e8e4b6b051f4ce10448d80d82a9398db1962f6decfc5059f0a17ea1ea8af
+content_sha256: 8f355294cdc026f1176be1e396146c2afd2d9d0cff39432fecfe4ba57fe31030
 translated_from: content/en/ac/VII/historical_note.md
 source_content_sha256: 310b51f7681f87389ad268cda064f6af31cea24a76ec2275974603d2dfff3682
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini, copied

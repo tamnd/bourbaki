@@ -24,11 +24,11 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: 69ccf57417877e7efbb540431abf3c69138f8cc1fc31ad5ad2f470d41299d435
+content_sha256: 61a13bd860d8e7a732e12d3f293fb88521ec340aa4b51f796aab80f879bf291b
 translated_from: content/fr/alg/IX/04_s4_sous_espaces_totalement_isotropes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: c93097d3f7d4a4f9fa1596bf76e7274625e74003a4e1adb2c4854da5ece02dd8
+source_content_sha256: 4ec9e3cc954a32377d2ee4ae9a6e6e25e8b896979eaf8917100403344ab131c6
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-en-mt-dc2ffc45
 glossary_version: 34
@@ -42,7 +42,7 @@ In this paragraph it is assumed, unless expressly stated otherwise, that A is a 
 
 ### 1. Isotropic subspaces.
 
-#### Definition 1 {#alg-ix-s4-def-1 .statement}
+#### Definition 1 {#alg-ix-s4-def-1 .statement tag=0DKL}
 
 Given a module E over the ring A, an element x of E is said to be isotropic if $\Phi(x, x) = 0$. A submodule F of E is said to be
     1) isotropic if there exists an element $x \neq 0$ of F orthogonal to F;
@@ -52,13 +52,13 @@ When the module E is endowed with a quadratic form Q, an element of E will be sa
 
 An isotropic vector is simply a vector orthogonal to itself. To say that a submodule F is isotropic means that $F \cap F^0 \neq \{0\}$, or, equivalently, that the restriction of $\Phi$ to F is degenerate; a non-isotropic submodule G of E is therefore a submodule such that the restriction of $\Phi$ to G is non-degenerate. In order that a submodule F of E be totally isotropic, it is necessary and sufficient that $F \subset F^0$. If F is a totally isotropic submodule of E, the same is true of every submodule $F'$ contained in F. The sum of a family of pairwise orthogonal totally isotropic submodules is a totally isotropic submodule. The set of totally isotropic submodules of E, ordered by inclusion, is obviously inductive; it follows that every totally isotropic submodule is contained in a maximal totally isotropic submodule.
 
-#### Proposition 1 {#alg-ix-s4-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s4-prop-1 .statement tag=0DKM}
 
 Suppose that A is a field. Let F be a non-isotropic finite-dimensional subspace of E; then E is the direct sum of F and $F^0$.
 
 Indeed, since the restriction $\Phi'$ of $\Phi$ to F is non-degenerate by assumption, the mapping $d_{\Phi'}$ from F into its dual $F^*$ associated on the right with $\Phi'$ is injective, hence bijective since F and $F^*$ are two spaces of the same finite dimension. Consequently, for every $y \in E$, there exists one and only one element $y_0$ of F such that $\Phi(x, y) = \Phi(x, y_0)$ for every $x \in F$, that is, $y - y_0 \in F^0$; this proves that E is the direct sum of F and $F^0$.
 
-#### Corollary {#alg-ix-s4-n1-cor-1 .statement}
+#### Corollary {#alg-ix-s4-n1-cor-1 .statement tag=0DKN}
 
 If F is a finite-dimensional subspace of E, and if Φ is non-degenerate, the following conditions are equivalent:
 
@@ -68,7 +68,7 @@ c) E is the direct sum of F and F^0.
 
 Proposition 1 shows indeed that a) implies c), and that c) implies a) and b). Finally, if F^0 is non-isotropic, we have F ∩ F^0 ⊂ F^0 ∩ F^{00} = {0}; hence F is non-isotropic, which shows that b) implies a).
 
-#### Definition 2 {#alg-ix-s4-def-2 .statement}
+#### Definition 2 {#alg-ix-s4-def-2 .statement tag=0DKO}
 
 Let Q be a quadratic form on E. An element x of E is said to be singular (relative to Q) if Q(x) = 0. A submodule F of E is said to be:
 1) singular if there exists an element x ≠ 0 of F which is singular and orthogonal to F;
@@ -86,7 +86,7 @@ CONDITION (T). — For every $x \in E$, there exists $\alpha \in A$ such that $\
 
 This condition is always satisfied when $\Phi$ is alternating, or when $\varepsilon = 1$ and $A$ is a field of characteristic $\neq 2$, by taking $\alpha = \frac{1}{2} \Phi(x, x)$ (cf. exerc. 1 and 14).
 
-#### Lemma 1 {#alg-ix-s4-lem-1 .statement}
+#### Lemma 1 {#alg-ix-s4-lem-1 .statement tag=0DKP}
 
 Let $\Phi$ be an $\varepsilon$-hermitian form satisfying (T) (resp. the bilinear form associated with a quadratic form Q) on $E$, and let F be a totally isotropic (resp. totally singular) subspace of $E$, not reduced to 0. For every $x \in E$ not orthogonal to F and every $\alpha \in A$, there exists $y \in F$ such that
 
@@ -110,7 +110,7 @@ $$
 
 On dit que $\Phi$ est une forme neutre si elle est non dégénérée et si E est de dimension finie et est somme directe de deux sous-espaces totalement isotropes (resp. totalement singuliers). La somme directe de deux formes neutres est une forme neutre.
 
-#### Proposition 2 {#alg-ix-s4-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s4-prop-2 .statement tag=0DKQ}
 
 Soit $\Phi$ une forme $\varepsilon$-hermitienne non dégénérée vérifiant (T) (resp. la forme bilinéaire associée à une forme quadratique non dégénérée Q), et soit F un sous-espace totalement isotrope (resp. totalement singulier) de dimension finie r.
 
@@ -130,21 +130,21 @@ ce qui est impossible. Il existe alors un élément $x$ de $G^0$ tel que $x \not
 
 Then the subspace $G' = G + Ax$ is of dimension $s + 1$, and is totally isotropic (resp. totally singular); moreover we have $G' \cap F^0 = \{0\}$ since, if $y = z + ax$ ($z \in G,\ a \in A$) is in $F^0$, we have $a = 0$, for otherwise $x \in F^0 + G$, contrary to the choice of $x$, whence $y = z \in G \cap F^0 = \{0\}$ and $y = 0$. Consequently the subspace $G'$ answers the question.
 
-#### Corollary 1 {#alg-ix-s4-prop-2-cor-1 .statement}
+#### Corollary 1 {#alg-ix-s4-prop-2-cor-1 .statement tag=0DKR}
 
 *If F is a totally isotropic (resp. totally singular) subspace of dimension r, there exists a totally isotropic (resp. totally singular) subspace F' of dimension r such that $F \cap F' = \{0\}$ and $F + F'$ is non-isotropic.*
 
 It suffices to take $G = \{0\}$ in prop. 2, b).
 
-#### Corollary 2 {#alg-ix-s4-prop-2-cor-2 .statement}
+#### Corollary 2 {#alg-ix-s4-prop-2-cor-2 .statement tag=0DKS}
 
 *Two neutral $\varepsilon$-hermitian forms on spaces of the same dimension over A are equivalent.*
 
-#### Remark {#alg-ix-s4-n2-rem-1 .statement}
+#### Remark {#alg-ix-s4-n2-rem-1 .statement tag=0DKT}
 
 Under the conditions of Corollary 1, E is the direct sum of $F + F'$ and the orthogonal of $F + F'$. We therefore have a Witt decomposition of E. By prop. 2, a), there exist bases of F and F’ such that, in matrix (1) of $\Phi$, the block $U$ is the unit matrix $1_r$.
 
-#### Proposition 3 {#alg-ix-s4-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s4-prop-3 .statement tag=0DKU}
 
 *Let $\Phi$ be a non-degenerate $\varepsilon$-hermitian form satisfying (T) (resp. the bilinear form associated with a non-degenerate quadratic form Q). Let $F_1$ and $F_2$ be two maximal totally isotropic (resp. totally singular) subspaces of E, one of them being finite-dimensional. Put $F = F_1 \cap F_2$. Let $S_i \ (i = 1, 2)$ be a supplementary subspace to $F$ in $F_i$; put $S = S_1 + S_2$. Then there exist two subspaces G and H of E such that
 a) The subspaces $G + F, S$ and H are non-isotropic and pairwise orthogonal;
@@ -163,13 +163,13 @@ One therefore has $S_1 \cap S_2^0 = \{0\}$, and analogously $S_2 \cap S_1^0 = \{
 
 Now the orthogonal $N$ of $S$ is non-isotropic ($\mathrm{n}^\circ 1, \mathrm{cor.\ de\ la\ prop.\ 1}$) and contains $F$; Cor. 1 of Prop. 2 therefore shows that there exists a subspace $G$ totally isotropic (resp. totally singular) of $N$ such that $\dim G = \dim F$, that $G \cap F = \{0\}$ and that $G + F$ is non-isotropic. Thus d) is satisfied by $G$. We shall then satisfy a) and b) by taking for $H$ the orthogonal of $G + F$ in $N$. As for c), we note that, since $H$ is orthogonal to $F_1 = S_1 + F$, there is no nonzero isotropic (resp. singular) vector in $H$ by virtue of what was noted at the beginning of the proof and of the fact that $H \cap F_1 = \{0\}$. Finally some of the assertions concerning dimensions have been proved along the way; the others follow from them trivially.
 
-#### Corollary 1 {#alg-ix-s4-prop-3-cor-1 .statement}
+#### Corollary 1 {#alg-ix-s4-prop-3-cor-1 .statement tag=0DKV}
 
 Under the hypotheses of Prop. 3, two maximal totally isotropic (resp. totally singular) subspaces of finite dimension have the same dimension. For every maximal totally isotropic (resp. totally singular) subspace F of finite dimension, there exists another F' such that F ∩ F' = {0}, and under these conditions F + F' is non-isotropic.
 
 If F ∩ F' = {0}, we shall have G = {0} with the notation of Prop. 3, and F + F' will be non-isotropic. The other assertions follow trivially from Prop. 3 and Cor. 1 of Prop. 2.
 
-#### Corollary 2 {#alg-ix-s4-prop-3-cor-2 .statement}
+#### Corollary 2 {#alg-ix-s4-prop-3-cor-2 .statement tag=0DKW}
 
 Let Q be a non-degenerate quadratic form on a vector space E of finite dimension n over an algebraically closed field A; there then exists a basis (e_i)_{1 \leq i \leq n} of E such that
 
@@ -185,7 +185,7 @@ $$
 
 Indeed, let F_1 and F_2 be two maximal totally singular subspaces such that F_1 ∩ F_2 = {0} (Cor. 1) and let q be their dimension. We then have G = {0} with the notation of Prop. 3. Taking a basis (e_i)_{1 \leq i \leq q} of F_1 and a basis (e_i)_{q+1 \leq i \leq 2q} of F_2 such that Φ(e_i, e_{j+q}) = δ_{ij} for i, j = 1, ..., q (Prop. 2 a)), we see that it suffices to show that dim H ≤ 1. Now, if x ∈ H, y ∈ H and if x ≠ 0, the equation Q(y - ax) = Q(y) - aΦ(x, y) + a^2 Q(x) = 0 has at least one solution a_0 since Q(x) ≠ 0, and we have y = a_0 x since every singular vector of H is zero.
 
-#### Definition 3 {#alg-ix-s4-def-3 .statement}
+#### Definition 3 {#alg-ix-s4-def-3 .statement tag=0DKX}
 
 Suppose that E is of finite dimension and that Φ is a non-degenerate ε-hermitian form satisfying (T) (resp. the bilinear form associated with a non-degenerate quadratic form Q). We call the index of Φ (resp. Q) the common dimension of the maximal totally isotropic (resp. totally singular) subspaces of E.
 
@@ -198,7 +198,7 @@ $$
 
 Moreover, since every totally isotropic (resp. totally singular) subspace is contained in a maximal totally isotropic (resp. totally singular) subspace, the totally isotropic (resp. totally singular) subspaces which are maximal are those which are of dimension $v$. The assertion that $\Phi$ (resp. Q) is of index 0 means that every isotropic (resp. singular) vector of E is zero. In a space of even dimension $n$, the neutral forms are those of index $\frac{1}{2}n$; there is no neutral form in a space of odd dimension. Prop. 3 shows that every form is a direct sum of a neutral form and a form of index 0.
 
-#### Proposition 4 {#alg-ix-s4-prop-4 .statement}
+#### Proposition 4 {#alg-ix-s4-prop-4 .statement tag=0DKY}
 
 *A non-degenerate quadratic form Q on E such that there exists a vector $x \neq 0$ of E such that $Q(x) = 0$ being given, for every element a of A, there then exists $y \in E$ such that $Q(y) = a$.*
 
@@ -212,7 +212,7 @@ It suffices therefore to take for $y$ the vector $ae + b^{-1}e'$.
 
 Given two vector spaces E, $E'$ over A provided respectively with two sesquilinear forms $\Phi, \Phi'$ (resp. with two quadratic forms Q, $Q'$), a *metric homomorphism* from E into $E'$ is any linear mapping $u$ from E into $E'$ such that $\Phi'(u(x), u(y)) = \Phi(x, y)$ (resp. $Q'(u(x)) = Q(x)$) for $x \in E, y \in E$. If E and $E'$ have the same finite dimension and if $\Phi$ (resp. Q) is non-degenerate, every metric homomorphism $u$ from E into $E'$ is an isomorphism, since $u(x) = 0$ implies $\Phi(x, y) = 0$ for every $y \in E$, hence $x = 0$; thus $u$ is injective, hence bijective since E and $E'$ have the same finite dimension.
 
-#### Theorem 1 (Witt) {#alg-ix-s4-thm-1 .statement}
+#### Theorem 1 (Witt) {#alg-ix-s4-thm-1 .statement tag=0DKZ}
 
 *Let E and $E'$ be two vector spaces of finite dimensions, provided respectively with two non-degenerate $\varepsilon$-hermitian forms $\Phi$ and $\Phi'$ satisfying condition (T) of No. 2* (resp. with two non-degenerate quadratic forms Q and Q'), and isomorphic for these structures. Given an arbitrary subspace F of E, every injective metric homomorphism from F into E' extends to a metric isomorphism from E onto E'.
 
@@ -240,17 +240,17 @@ for every x ∈ F; indeed the linear form x → Φ(u^{-1}(x), z) on F is the res
 
 2) In the general case, we reason by induction on r = dim F. The case r = 0 is trivial. Let then r > 0, that is to say F ≠ {0}, and let U be a hyperplane of F. The restriction u_0 of u to U extends, by the induction hypothesis, to a metric automorphism ϕ_0 of E. If ϕ_0 extends u, the theorem is proved. Otherwise U is the set of elements invariant by v_0^{-1}u, and there exists, according to 1), a metric automorphism v_1 of E extending v_0^{-1}u. The automorphism v_0v_1 is then the required extension of u. QED.
 
-#### Corollary 1 {#alg-ix-s4-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-ix-s4-prop-4-cor-1 .statement tag=0DL0}
 
 Let, for i = 1, 2, E_i be a finite-dimensional vector space, Φ_i a non-degenerate ε-hermitian form on E_i satisfying (T) (resp. Q_i a non-degenerate quadratic form on E_i), E'_i and E''_i two orthogonal subspaces of E_i whose direct sum is E_i. If the forms Φ_1 and Φ_2 (resp. Q_1 and Q_2) are equivalent, and if their restrictions to E'_1 and E'_2 are equivalent, the same is true of their restrictions to E''_1 and E''_2.
 
 Indeed, let u be a metric isomorphism of E'_1 onto E'_2. By Theorem 1, u extends to a metric isomorphism ϕ of E_1 onto E_2. Since Φ_i is non-degenerate, E''_i is the orthogonal of E'_i in E_i, hence ϕ maps E''_1 onto E''_2. QED.
 
-#### Corollary 2 {#alg-ix-s4-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-ix-s4-prop-4-cor-2 .statement tag=0DL1}
 
 The hypotheses being those of Theorem 1, the group of metric automorphisms of E permutes transitively the totally isotropic (resp. totally singular) subspaces of given dimension of E. Moreover, if F is a totally isotropic (resp. totally singular) subspace of E, every bijective linear mapping of F onto F is induced by a metric automorphism of E.
 
-#### Corollary 3 {#alg-ix-s4-prop-4-cor-3 .statement}
+#### Corollary 3 {#alg-ix-s4-prop-4-cor-3 .statement tag=0DL2}
 
 Let Q be a non-degenerate quadratic form on a finite-dimensional vector space E over an algebraically closed field A. The group of metric automorphisms of E permutes transitively the non-isotropic subspaces of given dimension of E.
 

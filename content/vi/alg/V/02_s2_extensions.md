@@ -34,9 +34,9 @@ subsections:
       pdf_page: 127
 statements: 19
 exercises: 4
-content_sha256: 7f1b5df7bbbb6bfb68983866c062a19d5855ae4fec409160406ac4dd54c1bdd8
+content_sha256: 92a5ffa24dab0588f8d251dff2e0bb006d3791965ed8b63df71b1f0a59105727
 translated_from: content/en/alg/V/02_s2_extensions.md
-source_content_sha256: c56298305798340d35687f547df30634007d85db2c245dd5915f3c10156178bb
+source_content_sha256: 101cc4d1109f50a0e0cf391686f5376a9cdac7d1f76b8f5bb4664a68d107975c
 translation_model: gpt-5.4
 translation_run: translate-vi-2eae79d2
 glossary_version: 34
@@ -48,7 +48,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Cấu trúc của một mở rộng
 
-#### Định nghĩa 1 {#alg-v-s2-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s2-def-1 .statement tag=06GV}
 
 — Cho K là một trường. Bởi một mở rộng của K ta hiểu là một đại số trên K mà vành nền là một trường. Bởi một mở rộng con (hay mở rộng con trên K) của mở rộng E ta hiểu là một đại số con trên K của E mà là một trường.
 Cho E là một mở rộng của K. Ánh xạ u : A ↦ λ . 1 của K vào E là một đồng cấu vành; theo I, p. 115, u cảm sinh một đẳng cấu từ K lên một trường con u(K) của E.
@@ -65,7 +65,7 @@ Cho $A$ là một đại số trên một trường $K$. Đặc biệt, nó là 
 
 Một mở rộng bậc 1 là tầm thường. Một mở rộng bậc 2 (tương ứng 3, v.v.) được gọi là bậc hai (tương ứng bậc ba, v.v.). Một mở rộng có bậc hữu hạn đôi khi được gọi, do lạm dụng ngôn ngữ, là một mở rộng hữu hạn.
 
-#### Định lý 1 {#alg-v-s2-thm-1 .statement}
+#### Định lý 1 {#alg-v-s2-thm-1 .statement tag=06GW}
 
 *Cho $E$ là một mở rộng của $K$ và $A$ là một đại số trên $E$. Khi đó ta có $[A : K] = [A : E] \cdot [E : K]$. Đặc biệt, nếu $F$ là một mở rộng của $E$, ta có*
 
@@ -75,25 +75,25 @@ $$
 
 Định lý này chỉ là một trường hợp riêng của II, p. 222, Mệnh đề 25; chính xác hơn, nếu $(a_i)$, , , là một cơ sở của $A$ trên $E$ và $(b_j)$, $\in M$ là một cơ sở của $E$ trên $K$, thì họ $(a_\lambda b_\mu)_{(\lambda,\mu) \in L \times J}$ là một cơ sở của $A$ trên $K$.
 
-#### Hệ quả 1 {#alg-v-s2-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s2-thm-1-cor-1 .statement tag=06GX}
 
 *Cho $K, E, F$ là ba trường sao cho $K \subset E \subset F$ và $[F : K]$ là hữu hạn. Khi đó các bậc $[E : K]$ và $[F : E]$ là các ước của $[F : K]$.
 
 Nếu bậc $[F : K]$ là nguyên tố, do đó không có mở rộng con nào của $F$ ngoài $K$ và $F$. Nhưng chú ý rằng khi $[F : K]$ không nguyên tố, không nhất thiết có một mở rộng con của $F$ ngoài $K$ và $F$ (xem V, p. 146, Bài tập 1).*
 
-#### Hệ quả 2 {#alg-v-s2-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s2-thm-1-cor-2 .statement tag=06GY}
 
 *Cho $K, E$ và $F$ là ba trường sao cho $K \subset E \subset F$. Giả sử rằng $[F : K]$ là hữu hạn, khi đó quan hệ $[E : K] = [F : K]$ là tương đương với $E = F$ và quan hệ $[F : E] = [F : K]$ là tương đương với $E = K$.
 
 Thật vậy, nếu $L$ là một trường mở rộng của $L'$ thì $[L : L'] = 1$ là tương đương với $L' = L$.*
 
-#### Mệnh đề 1 {#alg-v-s2-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s2-prop-1 .statement tag=06GZ}
 
 *Cho $A$ là một đại số có bậc hữu hạn trên một trường $K$. Nếu một phần tử $a \in A$ không là một ước không trái (tương ứng phải) trong $A$, thì nó khả nghịch trong $A$.
 
 Vì không gian vectơ $A$ trên $K$ có số chiều hữu hạn, theo giả thiết, và ánh xạ tuyến tính $x \mapsto ax$ (resp. $x \mapsto xa$) từ $A$ vào $A$ là đơn ánh; do đó nó là song ánh (II, p. 298, Hệ quả) và vì thế (I, p. 16, Nhận xét) $a$ khả nghịch trong $A$.*
 
-#### Hệ quả {#alg-v-s2-n2-cor-1 .statement}
+#### Hệ quả {#alg-v-s2-n2-cor-1 .statement tag=06H0}
 
 *Nếu $A$ là một đại số giao hoán bậc hữu hạn trên một trường $K$. Nếu $A$ là một miền nguyên, thì nó là một trường.*
 
@@ -103,7 +103,7 @@ Cho $E$ là một mở rộng của một trường $K$. Với một họ $x = (
 
 Cần nhận thấy rằng nói chung A không phải là một tập sinh của đại số $K(A)$, nói cách khác rằng $K(A) \neq K[A]$. "Tuy nhiên ta sẽ thấy rằng $K(A) = K[A]$ khi $K(A)$ là một mở rộng đại số của K (V, p. 18, Hệ quả 1). \*
 
-#### Mệnh đề 2 {#alg-v-s2-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s2-prop-2 .statement tag=06H1}
 
 — *Nếu M và N là hai tập con bất kỳ của một mở rộng của một trường K, thì* $K(M \cup N) = K(M)(N) = K(N)(M)$.
 
@@ -111,23 +111,23 @@ Vì $K(M \cup N)$ chứa $K(M)$ và N và do đó chứa $K(M)(N)$; vì $K(M)(N)
 
 Đôi khi ta sẽ viết $K(M, N)$ thay cho $K(M \cup N)$.
 
-#### Nhận xét {#alg-v-s2-n3-rem-1 .statement}
+#### Nhận xét {#alg-v-s2-n3-rem-1 .statement tag=06H2}
 
 — Cho P là trường con nguyên tố của một trường E (V, p. 2); với mọi tập con A của E, $P(A)$ là trường con nhỏ nhất của E chứa A. Đặc biệt nếu K là một trường con của E, ta có $P(K \cup A) = K(A)$. Nếu K và K' là hai trường con của E, do đó ta có $P(K \cup K') = K(K') = K'(K)$; trường này là trường con nhỏ nhất của E chứa K hoặc K', hoặc cũng là cận trên của K và K' trong tập hợp các trường con của E, có thứ tự theo quan hệ bao hàm; đôi khi ta nói rằng trường này là trường sinh bởi K và K' trong E.
 
-#### Mệnh đề 3 {#alg-v-s2-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s2-prop-3 .statement tag=06H3}
 
 — *Cho $\mathscr{F}$ là một tập hợp các trường con của một trường E, có hướng đối với quan hệ $\subset$. Hợp L của các trường của $\mathscr{F}$ là một trường.*
 
 Thật vậy, nếu x và y là hai phần tử của L, tồn tại hai trường R, S của $\mathscr{F}$ sao cho $x \in R,\ y \in S$; cho T là một trường của $\mathscr{F}$ chứa R và S; khi đó $x \in T,\ y \in T$, nên $x + y,\ xy$ và $x^{-1}$ (nếu $x \neq 0$) thuộc T, nên thuộc L.
 
-#### Hệ quả {#alg-v-s2-n3-cor-1 .statement}
+#### Hệ quả {#alg-v-s2-n3-cor-1 .statement tag=06H4}
 
 — *Cho E là một mở rộng của một trường K và $A \subset E$. Trường $K(A)$ là hợp của các trường $K(F)$, trong đó F chạy qua tập hợp mọi tập con hữu hạn của A.*
 
 Đối với tập các trường, $K(F)$ được sắp thứ tự có hướng bởi quan hệ $\subset$, vì $F \subset F'$ kéo theo $K(F) \subset K(F')$. Do đó hợp L của các trường này là một trường chứa $K \cup A$ và được chứa trong $K(A)$, nên đồng nhất với $K(A)$.
 
-#### Định nghĩa 2 {#alg-v-s2-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s2-def-2 .statement tag=06H5}
 
 — *Một mở rộng E của một trường K được gọi là sinh hữu hạn nếu nó có một họ sinh hữu hạn. Nó được gọi là đơn sinh nếu tồn tại x trong E sao cho* $E = K(x)$.
 
@@ -145,7 +145,7 @@ Phù hợp với các định nghĩa tổng quát (E, IV, p. 6), một đẳng c
 
 Cho $(L, u, v)$ là một mở rộng hợp thành của E và F. Ánh xạ K-tuyến tính $w$ của $E \otimes_K F$ vào L biến $x \otimes y$ thành $u(x)v(y)$ là một đồng cấu đại số trên K; trong số này ta sẽ ký hiệu nó bởi $u * v$. Ảnh của nó là vành con của L được sinh bởi $u(E) \cup v(F)$.
 
-#### Mệnh đề 4 {#alg-v-s2-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s2-prop-4 .statement tag=06H6}
 
 — Cho E, F là hai mở rộng của K.
 
@@ -159,11 +159,11 @@ Cho p là một iđêan nguyên tố của $E \otimes_K F$, A là vành thương
 
 Cho $(L', u', v')$ là một mở rộng hợp thành của E và F sao cho hạt nhân của $u' * v'$ bằng p. Vì $u * v$ và $u' * v'$ có cùng hạt nhân, nên tồn tại một đẳng cấu $\psi$ từ A lên ảnh $A'$ của $u' * v'$, được đặc trưng bởi $u' * v' = \psi \circ (u * v)$. Nhưng $A'$ là vành con của $L'$ được sinh bởi $u'(E) \cup v'(F)$, do đó L' là trường phân thức của $A'$. Vậy $\psi$ mở rộng thành một đồng cấu $\varphi$ từ L vào L' và hiển nhiên $\varphi$ là một đẳng cấu từ $(L, u, v)$ lên $(L', u', v')$.
 
-#### Nhận xét {#alg-v-s2-n4-rem-1 .statement}
+#### Nhận xét {#alg-v-s2-n4-rem-1 .statement tag=06H7}
 
 — Nếu $p$ và $p'$ là hai iđêan nguyên tố phân biệt của $E \otimes_K F$, thì các *mở rộng hợp thành* tương ứng của $E$ và $F$ (được xây dựng theo thủ tục của chứng minh trên) không đẳng cấu. Tuy nhiên, chúng vẫn có thể đẳng cấu như những *mở rộng* của K (*V*, p. 146, Bài tập 2).
 
-#### Hệ quả {#alg-v-s2-n4-cor-1 .statement}
+#### Hệ quả {#alg-v-s2-n4-cor-1 .statement tag=06H8}
 
 *Tồn tại các mở rộng hợp thành của E và F*.
 
@@ -181,7 +181,7 @@ $$
 
 Bằng cách thay thế $(L, u')$ bởi một mở rộng đẳng cấu của E, ta có thể giả sử rằng L chứa E như một trường con và rằng $u'$ là đơn ánh chính tắc của E vào L. Do đó, bằng cách đổi ký hiệu, ta thu được chú giải sau đây:
 
-#### Chú giải {#alg-v-s2-n4-sch-1 .statement}
+#### Chú giải {#alg-v-s2-n4-sch-1 .statement tag=06H9}
 
 *Cho K và E là hai trường và u là một đồng cấu từ K vào E. Nếu K' là một trường chứa K như trường con, thì tồn tại một trường E' chứa E như trường con và một đồng cấu u' từ K' vào E' mở rộng u*'.
 
@@ -195,7 +195,7 @@ Ta sẽ nói rằng A và B là *rời nhau tuyến tính trên* K nếu $\varph
 
 Xét riêng trường hợp A và B là các *mở rộng con* của $\Omega$.
 
-#### Mệnh đề 5 {#alg-v-s2-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s2-prop-5 .statement tag=06HA}
 
 *Cho E và F là hai mở rộng của K chứa trong $\Omega$.*
 
@@ -207,7 +207,7 @@ Thật vậy, gọi C là vành con của $\Omega$ sinh bởi $E \cup F$; nếu 
 
 Cho E và F là những mở rộng của K được chứa trong $\Omega$; nếu E và F có bậc vô hạn trên K, vành con $C = K[E \cup F]$ không nhất thiết là một trường $^1$; tuy nhiên *trường phân thức* của C khi đó trùng với $K(E \cup F)$. Tổng quát hơn, cho A là một vành con của E sao cho E là trường phân thức của A, và cho B là một vành con của F sao cho F là trường phân thức của B; khi đó nếu C là vành con của $\Omega$ sinh bởi $A \cup B$, thì $K(E \cup F)$ trùng với *trường phân thức* của C, vì trường sau là trường con nhỏ nhất của $\Omega$ chứa C và nó chứa E và F. Hơn nữa:
 
-#### Mệnh đề 6 {#alg-v-s2-prop-6 .statement}
+#### Mệnh đề 6 {#alg-v-s2-prop-6 .statement tag=06HB}
 
 *Cho E và F là hai mở rộng của K được chứa trong $\Omega$, và A và B là hai đại số con của $\Omega$ trên K sao cho E là trường phân thức của A và F là trường phân thức của B. Khi đó điều kiện cần và đủ để E và F rời nhau tuyến tính trên K là A và B rời nhau tuyến tính trên K.*
 
@@ -215,7 +215,7 @@ Cho E và F là những mở rộng của K được chứa trong $\Omega$; nế
 
 $^1$ Chẳng hạn chỉ cần xét trường hợp $\Omega$ là trường $K(X, Y)$ các phân thức hữu tỉ theo hai ẩn độc lập X và Y và $E = K(X), F = K(Y)$.
 
-#### Mệnh đề 7 {#alg-v-s2-prop-7 .statement}
+#### Mệnh đề 7 {#alg-v-s2-prop-7 .statement tag=06HC}
 
 — Cho E và F là hai mở rộng của K được chứa trong $\Omega$; nếu E và F rời nhau tuyến tính trên K, thì mọi mở rộng con của E và mọi mở rộng con của F đều rời nhau tuyến tính trên K. Ngược lại, nếu với mọi cặp mở rộng con sinh hữu hạn E', F' của E và F tương ứng, E' và F' rời nhau tuyến tính trên K, thì E và F rời nhau tuyến tính trên K.
 
@@ -223,7 +223,7 @@ Thật vậy, điều kiện để E và F rời nhau tuyến tính trên K có 
 
 Như vậy ta có thể nói, theo trực giác, rằng sự rời nhau tuyến tính là một tính chất « hữu hạn ».
 
-#### Mệnh đề 8 {#alg-v-s2-prop-8 .statement}
+#### Mệnh đề 8 {#alg-v-s2-prop-8 .statement tag=06HD}
 
 — Cho E, F, G là ba mở rộng của một trường K được chứa trong $\Omega$, sao cho $F \subset G$. Điều kiện cần và đủ để E và G rời nhau tuyến tính trên K là E và F rời nhau tuyến tính trên K và $E(F)$ và G rời nhau tuyến tính trên F.
 

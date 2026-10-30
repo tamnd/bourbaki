@@ -65,7 +65,7 @@ subsections:
       pdf_page: 118
 statements: 54
 exercises: 24
-content_sha256: 27676f677bfbc0d9e260045b332309ec6b0175f798dd91c0ae72623cb2e81228
+content_sha256: f7ffa8b44e8d292c9f31a1b1e1170c4ff14f28fce5509ff6902a1e2a19d19070
 ---
 
 ## § 1. RELATIONS D’ORDRE.. ENSEMBLES ORDONNÉS
@@ -466,7 +466,7 @@ En effet, supposons que, pour tout $t \in I$, $A_t$ admette une borne supérieur
 
 Soit F une partie d’un ensemble ordonné E, et soit A une partie de F. Il peut se faire que l’un des deux éléments $\sup_E A$, $\sup_F A$ existe, et non l’autre, ou qu’il existent tous deux et soient inégaux.
 
-#### Exemple 4 {#ens-iii-s1-n9-exa-4 .statement}
+#### Exemple 4 {#ens-iii-s1-n9-exa-4 .statement tag=0E42}
 
 Dans l’ensemble ordonné $E = \mathbf{R}$ des nombres réels, considérons l’ensemble $F = \mathbf{Q}$ des nombres rationnels, et l’ensemble $A \subset F$ des nombres rationnels $< \sqrt{2}$; alors $\sup_E A$ existe, mais non $\sup_F A$.
 3) Avec les mêmes notations que dans l’exemple 1), soit G la réunion de A et de l’ensemble {2}; on a $G \subset F$, et $\sup_G A$ existe, mais non $\sup_F A$.
@@ -490,15 +490,15 @@ Au lieu de « filtrant à droite », on dit aussi « filtrant pour la relation $
 
 Par abus de langage, au lieu d’« ensemble filtrant à droite » (resp. « à gauche »), on dira aussi parfois « ensemble filtrant croissant » (resp. « décroissant »).
 
-#### Exemple 1 {#ens-iii-s1-n10-exa-1 .statement}
+#### Exemple 1 {#ens-iii-s1-n10-exa-1 .statement tag=0E43}
 
 Un ensemble ordonné qui admet un plus grand élément est filtrant à droite.
 
-#### Exemple 2 {#ens-iii-s1-n10-exa-2 .statement}
+#### Exemple 2 {#ens-iii-s1-n10-exa-2 .statement tag=0E44}
 
 \* Dans un espace topologique, un système fondamental de voisinages d’un point est filtrant pour la relation ⊃ (TG, I, § 1, no. 3).
 
-#### Exemple 3 {#ens-iii-s1-n10-exa-3 .statement}
+#### Exemple 3 {#ens-iii-s1-n10-exa-3 .statement tag=0E45}
 
 L’ensemble des sous-modules de type fini d’un module quelconque (A, II, § 1, n° 7) est filtrant pour la relation ⊂.*
 

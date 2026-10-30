@@ -24,7 +24,7 @@ subsections:
       pdf_page: 20
 statements: 12
 exercises: 4
-content_sha256: 982b059bcfa805e71f1c99a11a61b141555d669b7aad9ba690d644527f4cd1b8
+content_sha256: e878751b271b24f82e2cd21644aecd42858da9e73c240ac201a426d33e7dbe34
 ---
 
 ## § 2. Familles sommables de mesures positives
@@ -49,11 +49,11 @@ pour tout compact $K \subset X$.
 
 En effet, (2) entraîne (1), car on a $f \leq \|f\| \cdot \varphi_S$, où S désigne le support compact de $f$. Inversement, si K est un compact, il existe une fonction $f \in \mathscr{K}_+(X)$ telle que $\varphi_K \leq f$ (chap. III, 2e éd., , n° 2, lemme 1), et il en résulte que (1) entraîne (2)
 
-#### Remarque 1 {#int-v-s2-n1-rem-1 .statement}
+#### Remarque 1 {#int-v-s2-n1-rem-1 .statement tag=090G}
 
 Il est immédiat que, lorsque la famille $(\lambda_\alpha)_{\alpha \in A}$ est sommable, sa somme est la borne supérieure, dans $\mathscr{M}_+(X)$, des sommes partielles finies $\sum_{\alpha \in J} \lambda_\alpha$, où J parcourt l’ensemble des parties finies de A.
 
-#### Remarque 2 {#int-v-s2-n1-rem-2 .statement}
+#### Remarque 2 {#int-v-s2-n1-rem-2 .statement tag=090H}
 
 Soit $(\theta_\alpha)_{\alpha \in A}$ une famille de mesures complexes sur X ; on dira que la famille $(\theta_\alpha)$ est sommable si la famille $(|\theta_\alpha|)$ de mesures positives est sommable ; *il ne suffit pas pour cela* que la famille $(\theta_\alpha)$ soit sommable dans l’espace vectoriel $\mathscr{M}(X; \mathbf{C})$ muni de la topologie vague (cf. exerc. 3).
 
@@ -61,7 +61,7 @@ Soit $(\theta_\alpha)_{\alpha \in A}$ une famille de mesures complexes sur X ; o
 
 Dans tout ce numéro, X désigne un espace localement compact, $(\lambda_\alpha)_{\alpha \in A}$ une famille sommable de mesures positives sur X, et $\nu$ la mesure $\sum_{\alpha \in A} \lambda_\alpha$.
 
-#### Proposition 1 {#int-v-s2-prop-1 .statement}
+#### Proposition 1 {#int-v-s2-prop-1 .statement tag=090I}
 
 Soit $f$ une fonction numérique positive définie dans X. On a
 
@@ -72,18 +72,18 @@ $$
 
 Cela résulte aussitôt de la remarque 1, de la prop. 11 du § 1, n° 3 et de la prop. 3 du § 1, n° 1.
 
-#### Corollaire 1 {#int-v-s2-prop-1-cor-1 .statement}
+#### Corollaire 1 {#int-v-s2-prop-1-cor-1 .statement tag=090J}
 
 Pour tout partie compacte (resp. ouverte et relativement compacte) M de X, on a
 $$
 \nu(M) = \sum_{\alpha \in A} \lambda_\alpha(M).
 $$
 
-#### Corollaire 2 {#int-v-s2-prop-1-cor-2 .statement}
+#### Corollaire 2 {#int-v-s2-prop-1-cor-2 .statement tag=090K}
 
 Pour qu’une partie N de X soit localement $\nu$-négligeable, il faut et il suffit que, pour tout $\alpha \in A$, N soit localement $\lambda_\alpha$-négligeable.
 
-#### Corollaire 3 {#int-v-s2-prop-1-cor-3 .statement}
+#### Corollaire 3 {#int-v-s2-prop-1-cor-3 .statement tag=090L}
 
 On a pour toute fonction $f \in \mathscr{F}_+(X)$
 
@@ -96,13 +96,13 @@ Cette inégalité est évidente si $f$ n’est pas $\nu$-modérée, car alors $\
 
 Il peut arriver que les deux membres de (4) ne soient pas égaux, même lorsque $A$ est dénombrable, et que chacune des mesures $\lambda_\alpha$ est ponctuelle ($§ 1$, exerc. 4a)).
 
-#### Proposition 2 {#int-v-s2-prop-2 .statement}
+#### Proposition 2 {#int-v-s2-prop-2 .statement tag=090M}
 
 Soit $f$ une application de $X$ dans un espace topologique $G$. Pour que $f$ soit $\nu$-mesurable, il faut et il suffit que $f$ soit $\lambda_\alpha$-mesurable pour tout $\alpha \in A$.
 
 Cela résulte immédiatement du cor. 2 de la prop. 11 du $§ 1$.
 
-#### Proposition 3 {#int-v-s2-prop-3 .statement}
+#### Proposition 3 {#int-v-s2-prop-3 .statement tag=090N}
 
 Pour qu’une application $f$ de $X$ dans un espace de Banach $F$ soit essentiellement $\nu$-intégrable, il faut et il suffit que $f$ soit essentiellement $\lambda_\alpha$-intégrable pour tout $\alpha \in A$, et qu’on ait
 
@@ -126,13 +126,13 @@ entraîne que la famille $(\int f \, d\lambda_\alpha)$ est absolument sommable d
 
 La prop. 3 peut aussi se déduire du théorème général d’intégration qui sera prouvé au paragraphe 3 (n° 3, th. 1).
 
-#### Corollaire 1 {#int-v-s2-prop-3-cor-1 .statement}
+#### Corollaire 1 {#int-v-s2-prop-3-cor-1 .statement tag=090O}
 
 Supposons que $f$ soit $v$-intégrable ; $f$ est alors $\lambda_\alpha$-intégrable pour tout $\alpha \in A$, et on a la formule (6). Inversement, si l’ensemble $A$ est fini, et si $f$ est $\lambda_\alpha$-intégrable pour tout $\alpha \in A$, la fonction $f$ est $v$-intégrable.
 
 Si $f$ est $v$-intégrable, $f$ est essentiellement $v$-intégrable et $v$-modérée (§ 1, n° 3, cor. de la prop. 9); $f$ est donc essentiellement $\lambda_\alpha$-intégrable et $\lambda_\alpha$-modérée, donc $\lambda_\alpha$-intégrable, pour tout $\alpha \in A$. Inversement, si $A$ est fini, et si $f$ est $\lambda_\alpha$-intégrable pour tout $\alpha \in A$, $f$ est essentiellement $v$-intégrable d’après la prop. 3, et il suffit de vérifier que $v^*(|f|) < +\infty$; cela résulte aussitôt de la relation $v^* = \sum_{\alpha \in A} \lambda_\alpha^*$ (chap. IV, § 1, n° 4, prop. 15).
 
-#### Corollaire 2 {#int-v-s2-prop-3-cor-2 .statement}
+#### Corollaire 2 {#int-v-s2-prop-3-cor-2 .statement tag=090P}
 
 Soit $\theta$ une mesure complexe sur $X$; on pose $\theta_1 = (\Re \theta)^+$, $\theta_2 = (\Re \theta)^-$, $\theta_3 = (\Im \theta)^+$, $\theta_4 = (\Im \theta)^-$. Pour qu’une application $f$ de $X$ dans un espace topologique $G$ (resp. dans un espace de Banach $F$) soit mesurable (resp. essentiellement intégrable, intégrable) pour la mesure $\theta$, il faut et il suffit qu’elle soit mesurable (resp. essentiellement intégrable, intégrable) pour chacune des mesures $\theta_i$ ($i = 1, 2, 3, 4$).
 
@@ -140,7 +140,7 @@ Si $f$ est mesurable (resp. essentiellement intégrable, intégrable) pour $\the
 
 ### 3. Décomposition d’une mesure en somme de mesures à supports compacts
 
-#### Proposition 4 {#int-v-s2-prop-4 .statement}
+#### Proposition 4 {#int-v-s2-prop-4 .statement tag=090Q}
 
 Soit $\mu$ une mesure positive sur un espace localement compact $T$, et soit $\mathscr{R}$ un ensemble $\mu$-dense de parties compactes de $T$. Il existe une famille sommable $(\mu_\alpha)_{\alpha \in A}$ de mesures positives sur $T$, telle qu’on ait $\mu = \sum_{\alpha \in A} \mu_\alpha$, que les supports des mesures $\mu_\alpha$ appartiennent à $\mathscr{R}$, et forment une famille localement dénombrable de compacts deux à deux disjoints.
 
@@ -163,7 +163,7 @@ $$
 
 Cela achève la démonstration du cas général. Si $\mu$ est modérée, l’ensemble $T$ est $\mu$-modéré, et $T$ est donc réunion d’une suite $(L_n)$ de compacts et d’un ensemble négligeable ($§ 1$, n° 2, prop. 5); soit $A'$ l’ensemble dénombrable des $\alpha \in A$ tels que $K_\alpha$ rencontre l’un des $L_n$. On a $\mu_\alpha = 0$ pour $\alpha \notin A'$, et la dernière phrase de l’énoncé en résulte immédiatement.
 
-#### Remarque {#int-v-s2-n3-rem-1 .statement}
+#### Remarque {#int-v-s2-n3-rem-1 .statement tag=090R}
 
 Une mesure positive peut être somme d’une suite de mesures à support compact, et ne pas être modérée (voir l’exerc. 4a) du § 1).
 

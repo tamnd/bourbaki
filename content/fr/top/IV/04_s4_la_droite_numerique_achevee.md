@@ -25,20 +25,20 @@ subsections:
       pdf_page: 286
 statements: 11
 exercises: 7
-content_sha256: af63fd49662b26044df6b743e044f17da548890c091998233d4421ac7411fd07
+content_sha256: 3bcaea253efae0d09e05056ecc2f0edc7b264ffa3481224b5ca8a66d8bf351c7
 ---
 
 ## § 4. LA DROITE NUMÉRIQUE ACHEVÉE
 
 ### 1. Homéomorphie des intervalles ouverts de $\mathbf{R}$
 
-#### Proposition 1 {#top-iv-s4-prop-1 .statement}
+#### Proposition 1 {#top-iv-s4-prop-1 .statement tag=0BQK}
 
 *Tous les intervalles ouverts non vides de $\mathbf{R}$ sont homéomorphes à la droite $\mathbf{R}$.*
 
 Considérons d’abord un intervalle ouvert *borné* $I = ]a, b[ \quad (a < b)$. Posons, pour $x \in I, f(x) = -\left( \frac{1}{x-a} + \frac{1}{x-b} \right)$. Cette fonction est continue et strictement croissante dans $I$, car on a vu que $\frac{1}{x-b}$ est strictement décroissante dans $]-\infty, b[$ et $\frac{1}{x-a}$ strictement décroissante dans $]a, +\infty[$. Il en résulte que $f$ est un homéomorphisme de $I$ sur un intervalle $f(I)$ de $\mathbf{R}$ (IV, p. 9, th. 5); $f(I)$ n’est borné ni supérieurement, ni inférieurement, car si on avait par exemple $f(x) \leq c$ quel que soit $x \in I$, on en tirerait, puisque $b-x > 0, 1 - \frac{b-x}{x-a} \leq c(b-x)$, d’où contradiction dès que $x$ est suffisamment voisin de $b$ (en vertu de la continuité des deux membres, qui sont des fonctions rationnelles, au point $b$). Donc $f(I) = \mathbf{R}$, ce qui établit que tout intervalle ouvert borné est homéomorphe à $\mathbf{R}$. Soit $g$ l’application réciproque de $f$; elle applique tout intervalle ouvert illimité de $\mathbf{R}$ sur un intervalle $J$ contenu dans $I$ et ouvert par rapport à $I$. Puisque $I$ est ouvert dans $\mathbf{R}$, $J$ est lui-même ouvert dans $\mathbf{R}$; comme il est borné, il est homéomorphe à $\mathbf{R}$, ce qui démontre que tout intervalle ouvert illimité est homéomorphe à $\mathbf{R}$.
 
-#### Remarque {#top-iv-s4-n1-rem-1 .statement}
+#### Remarque {#top-iv-s4-n1-rem-1 .statement tag=0BQL}
 
 Pour démontrer que tous les intervalles ouverts *bornés* sont homéomorphes entre eux, il suffirait de remarquer que, pour $a \neq b, a' \neq b'$, il existe un homéomorphisme de $\mathbf{R}$ sur lui-même, de la forme $x \mapsto \alpha x + \beta$ (et un seul) qui applique $a$ sur $a'$ et $b$ sur $b'$, donc tout intervalle ouvert (resp. fermé, semi-ouvert) d’extrémités $a, b$, sur un intervalle ouvert (resp. fermé, semi-ouvert) d’extrémités $a', b'$: ce que le lecteur vérifiera facilement en calculant $\alpha$ et $\beta$.
 
@@ -50,7 +50,7 @@ Pour cela, soit $\overline{\mathbf{R}}$ l’ensemble obtenu par adjonction à $\
 
 comme la trace sur $\mathbf{R}$ d’un intervalle ouvert de $\overline{\mathbf{R}}$ est un intervalle ouvert de $\mathbf{R}$, cette topologie induit sur $\mathbf{R}$ la topologie de la droite numérique.
 
-#### Définition 1 {#top-iv-s4-def-1 .statement}
+#### Définition 1 {#top-iv-s4-def-1 .statement tag=0BQM}
 
 On appelle droite numérique achevée l’ensemble $\overline{\mathbf{R}}$ muni de la structure d’ordre et de la topologie ainsi définies.
 
@@ -58,7 +58,7 @@ Lorsqu’on raisonne sur la droite achevée $\overline{\mathbf{R}}$, il est souv
 
 Si $a$ est un nombre réel fini, les intervalles $]a, +\infty[$ et $]-\infty, a[$ (resp. $]a, +\infty[$ et $]-\infty, a[$) de $\overline{\mathbf{R}}$ sont contenus dans $\mathbf{R}$ et identiques aux intervalles de $\mathbf{R}$ désignés jusqu’ici par les notations $]a, \rightarrow[$ et $]\leftarrow, a[$ (resp. $]a, \rightarrow[$ et $]\leftarrow, a[$); ces nouvelles notations sont beaucoup plus fréquemment employées. De même $\mathbf{R}$ est identique à l’intervalle $]-\infty, +\infty[$ de $\overline{\mathbf{R}}$; on le désigne parfois par cette notation.
 
-#### Proposition 2 {#top-iv-s4-prop-2 .statement}
+#### Proposition 2 {#top-iv-s4-prop-2 .statement tag=0BQN}
 
 Tout homéomorphisme $f$ de $\mathbf{R}$ sur un intervalle $]a, b[$ se prolonge en un homéomorphisme $\tilde{f}$ de $\overline{\mathbf{R}}$ sur $[a, b]$; si $f$ est une fonction croissante, $\tilde{f}$ est un isomorphisme de la structure d’ordre de $\overline{\mathbf{R}}$ sur celle de $[a, b]$.
 
@@ -68,13 +68,13 @@ Si $f$ est décroissant, on appliquera ce qui précède à l’homéomorphisme c
 
 Toutes les propriétés de l’intervalle $[a, b]$, obtenues au § 2, qui ne font intervenir que la structure d’ordre et la topologie de cet intervalle, se transportent donc à $\overline{\mathbf{R}}$, d’où les propositions suivantes:
 
-#### Proposition 3 {#top-iv-s4-prop-3 .statement}
+#### Proposition 3 {#top-iv-s4-prop-3 .statement tag=0BQO}
 
 La droite numérique achevée est compacte.
 
 Il existe donc (II, p. 27, th. 1) une structure uniforme et une seule compatible avec la topologie de $\overline{\mathbf{R}}$; cette structure est isomorphe à la structure uniforme induite sur $[a, b]$ par la structure uniforme additive de $\mathbf{R}$. Mais il faut remarquer que la structure uniforme *induite* sur $\mathbf{R}$ par celle de $\overline{\mathbf{R}}$ (structure qui est compatible avec la topologie de la droite numérique) *n’est pas la structure uniforme additive* de $\mathbf{R}$; car pour cette dernière $\mathbf{R}$ est un espace *complet*, alors que $\mathbf{R}$ n’est pas un sous-espace complet de $\overline{\mathbf{R}}$, puisque $\mathbf{R}$ n’est pas fermé dans $\overline{\mathbf{R}}$.
 
-#### Proposition 4 {#top-iv-s4-prop-4 .statement}
+#### Proposition 4 {#top-iv-s4-prop-4 .statement tag=0BQP}
 
 Toute partie non vide de $\overline{\mathbf{R}}$ possède une borne supérieure et une borne inférieure.
 
@@ -86,15 +86,15 @@ $$
 
 Si $A \subset B$, $\sup A \leq \sup B$ et $\inf A \geq \inf B$ (E, III, p. 10, prop. 4).
 
-#### Proposition 5 {#top-iv-s4-prop-5 .statement}
+#### Proposition 5 {#top-iv-s4-prop-5 .statement tag=0BQQ}
 
 *Pour qu’une partie A de $\overline{\mathbf{R}}$ soit connexe, il faut et il suffit que A soit un intervalle.*
 
-#### Corollaire {#top-iv-s4-n2-cor-1 .statement}
+#### Corollaire {#top-iv-s4-n2-cor-1 .statement tag=0BQR}
 
 *La droite numérique achevée est un espace connexe et localement connexe.*
 
-#### Proposition 6 {#top-iv-s4-prop-6 .statement}
+#### Proposition 6 {#top-iv-s4-prop-6 .statement tag=0BQS}
 
 *Pour qu’une application f dans $\overline{\mathbf{R}}$ d’un intervalle I de $\overline{\mathbf{R}}$ soit un homéomorphisme de I sur $f(I)$, il faut et il suffit que f soit strictement monotone et continue dans I; $f(I)$ est alors un intervalle de $\overline{\mathbf{R}}$.*
 
@@ -108,7 +108,7 @@ En second lieu, considérons les fonctions $x + y$ et $xy$, définies dans $\mat
 
 En ce qui concerne $x + y$, posons $A' = ]-\infty, +\infty]$, $A'' = [-\infty, +\infty[$; on a la proposition suivante:
 
-#### Proposition 7 {#top-iv-s4-prop-7 .statement}
+#### Proposition 7 {#top-iv-s4-prop-7 .statement tag=0BQT}
 
 *La fonction $x + y$ peut être prolongée par continuité à chacun des ensembles $A' \times A'$, $A'' \times A''$, suivant les formules*
 
@@ -142,7 +142,7 @@ On notera par contre que les formules (6) et (7) de IV, p. 2, peuvent cesser d�
 
 Désignons maintenant par $\overline{\mathbf{R}}^*$ le complémentaire de 0 dans $\overline{\mathbf{R}}$; l’analogue de la prop. 7 pour la multiplication est la suivante:
 
-#### Proposition 8 {#top-iv-s4-prop-8 .statement}
+#### Proposition 8 {#top-iv-s4-prop-8 .statement tag=0BQU}
 
 *La fonction xy peut être prolongée par continuité à l’ensemble $\overline{\mathbf{R}}^* \times \overline{\mathbf{R}}^*$, suivant les formules*
 

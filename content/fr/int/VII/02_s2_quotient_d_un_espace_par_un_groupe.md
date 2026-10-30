@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 52
 exercises: 13
-content_sha256: f7967f46d49a59cfaea4ad697fdd37dd1ca951cf9236989bfd07cfca55e08d93
+content_sha256: 65f5659ad57a80a69206ace0ae5444f3ed887b2639432d444fcd84d879ac4663
 ---
 
 ## § 2. Quotient d’un espace par un groupe ; espaces homogènes.
@@ -63,7 +63,7 @@ Soit X un espace localement compact dans lequel un groupe localement compact H o
 
 Soit $\chi$ une représentation continue de H dans $\mathbf{R}_+^*$. Si une fonction $g$ sur X satisfait à $g(x\xi) = \chi(\xi)g(x)$ quels que soient $x \in X$ et $\xi \in H$, son support S est invariant par H et s’écrit donc $\pi^{-1}(\pi(S))$. On désignera par $\mathscr{K}^\chi(X)$ l’espace de Riesz formé des fonctions numériques continues $g$ sur X qui satisfont à $g(x\xi) = \chi(\xi)g(x)$ ($x \in X, \xi \in H$), et dont le support est le saturé d’une partie compacte de X ; on notera $\mathscr{K}_+^\chi(X)$ l’ensemble des éléments $\geq 0$ de $\mathscr{K}^\chi(X)$. En particulier, $\mathscr{K}^1(X)$ n’est autre que l’ensemble des fonctions continues sur X, constantes sur les orbites, et dont le support est le saturé d’une partie compacte.
 
-#### Proposition 1 {#int-vii-s2-prop-1 .statement}
+#### Proposition 1 {#int-vii-s2-prop-1 .statement tag=09EY}
 
 Soit f une fonction numérique continue sur X dont le support S ait une intersection compacte avec le saturé de toute partie compacte de X.
 
@@ -97,13 +97,13 @@ $$
 = \chi(\eta)\Delta_H(\eta)^{-1} \int_H f(x\xi)\chi(\xi)^{-1}d\beta(\xi).
 $$
 
-#### Proposition 2 {#int-vii-s2-prop-2 .statement}
+#### Proposition 2 {#int-vii-s2-prop-2 .statement tag=09EZ}
 
 L’application $f \to f^\chi$ de $\mathscr{K}(X)$ dans $\mathscr{K}^\chi(X)$ est linéaire, et l’image de $\mathscr{K}(X)$ (resp. $\mathscr{K}_+(X)$) est $\mathscr{K}^\chi(X)$ (resp. $\mathscr{K}_+^\chi(X)$).
 
 La linéarité est immédiate. Il est clair que $f^\chi \geqslant 0$ pour $f \geqslant 0$. Il suffit alors d’appliquer le lemme suivant :
 
-#### Lemme 1 {#int-vii-s2-lem-1 .statement}
+#### Lemme 1 {#int-vii-s2-lem-1 .statement tag=09F0}
 
 Soient $K$ une partie compacte de $X$, $u$ une fonction de $\mathscr{K}_+(X)$, avec $u(x) > 0$ pour $x \in K$. Soit $g \in \mathscr{K}^\chi(X)$ telle que $\operatorname{Supp} g \subset KH$.
 
@@ -119,7 +119,7 @@ L’assertion b) en résulte aussitôt. Enfin, d’après la prop. 1 c), on a $(
 
 Soit I une forme linéaire relativement bornée (chap. II, § 2, n° 2) sur $\mathscr{K}^\times(X)$. Alors $f \to I(f^\times)$ est une forme linéaire relativement bornée sur $\mathscr{K}(X)$, c’est-à-dire une mesure $\mu_I$ sur X. L’application $I \to \mu_I$ est injective d’après la prop. 2. Les mesures $\mu_I$ ainsi obtenues sur X peuvent être caractérisées comme suit :
 
-#### Proposition 3 {#int-vii-s2-prop-3 .statement}
+#### Proposition 3 {#int-vii-s2-prop-3 .statement tag=09F1}
 
 Soit $\mu$ une mesure sur X. Les conditions suivantes sont équivalentes :
 
@@ -195,7 +195,7 @@ On n’oubliera pas que la définition de $f^b$ dépend du choix de $\beta$. Si 
 
 Si $f \in \mathscr{K}(X)$, on a $f^b \in \mathscr{K}(X/H)$. L’application $f \to f^b$ de $\mathscr{K}(X)$ dans $\mathscr{K}(X/H)$ est linéaire, et l’image de $\mathscr{K}(X)$ (resp. $\mathscr{K}_+(X)$) est $\mathscr{K}(X/H)$ (resp. $\mathscr{K}_+(X/H)$).
 
-#### Remarque 1 {#int-vii-s2-n2-rem-1 .statement}
+#### Remarque 1 {#int-vii-s2-n2-rem-1 .statement tag=09F2}
 
 On va montrer que l’application $f \to f^b$ est un morphisme strict (Top. gén., chap. III, 3e éd., § 2, n° 8) de $\mathscr{K}(X)$ sur $\mathscr{K}(X/H)$.
 
@@ -209,7 +209,7 @@ b) Soit $K'$ une partie compacte de $X/H$. Choisissons une partie compacte $K$ d
 
 c) Ceci posé, si $V$ est un voisinage convexe de 0 dans $\mathscr{K}(X)$, $V \cap \mathscr{K}(X, K)$ est un voisinage convexe de 0 dans $\mathscr{K}(X, K)$, donc $V^b \cap \mathscr{K}(X/H, K')$ est un voisinage convexe de 0 dans $\mathscr{K}(X/H, K')$ d’après b), donc $V^b$ est un voisinage de 0 dans $\mathscr{K}(X/H)$ (Esp. vect. top., chap. II, § 2, n° 4). Ceci achève la démonstration.
 
-#### Proposition 4 {#int-vii-s2-prop-4 .statement}
+#### Proposition 4 {#int-vii-s2-prop-4 .statement tag=09F3}
 
 a) Soit $\lambda$ une mesure sur $X/H$. Il existe une mesure $\lambda^\#$ et une seule sur $X$ telle que
 
@@ -223,7 +223,7 @@ b) Réciproquement, soit $\mu$ une mesure sur $X$ telle que $\delta(\xi)\mu = \D
 
 C'est un cas particulier du no 1.
 
-#### Définition 1 {#int-vii-s2-def-1 .statement}
+#### Définition 1 {#int-vii-s2-def-1 .statement tag=09F4}
 
 Les hypothèses et les notations étant celles de la prop. 4, $\lambda$ s'appelle le quotient de $\mu$ par $\beta$ et se note $\frac{\mu}{\beta}$ ou $\mu/\beta$.
 
@@ -237,7 +237,7 @@ $$
 
 Il s'agit d'un abus de notations, l'intégrale $\int_H f(x\xi)d\beta(\xi)$ étant considérée comme fonction de $\dot{x}$ et non de $x$; cette manière d'écrire s'emploiera souvent par la suite quand elle ne pourra prêter à confusion.
 
-#### Remarque 2 {#int-vii-s2-n2-rem-2 .statement}
+#### Remarque 2 {#int-vii-s2-n2-rem-2 .statement tag=09F5}
 
 Soit $E$ un espace vectoriel localement convexe et soit $m$ une mesure vectorielle sur $X/H$, à valeurs dans $E$. L'application $f \to m(f^b)$ de $\mathscr{K}(X)$ dans $E$ est alors une mesure vectorielle sur $X$, à valeurs dans $E$, que nous noterons encore $m^\#$. L'application $m \to m^\#$ est encore un isomorphisme de $\mathscr{L}(\mathscr{K}(X/H); E)$ sur un sous-espace vectoriel $A$ de $\mathscr{L}(\mathscr{K}(X); E)$ (si on munit ces espaces de la topologie de la convergence simple). De plus, comme l'application $f \to f^b$ est un morphisme strict surjectif, le sous-espace $A$ se compose exactement des mesures vectorielles $n$ sur $X$ qui sont nulles sur le noyau $N$ de l’application $f \to f^\flat$. Pour que $n \in A$, il est donc nécessaire et suffisant que les mesures scalaires $z' \circ n$ soient nulles sur $N$ pour tout $z' \in E'$. On déduit alors de la prop. 3 que $n \in A$ si et seulement si l’on a
 $$
@@ -256,7 +256,7 @@ $$
 (\varepsilon_u)^\# = \beta_u.
 $$
 
-#### Lemme 2 {#int-vii-s2-lem-2 .statement}
+#### Lemme 2 {#int-vii-s2-lem-2 .statement tag=09F6}
 
 *Soit $f$ une fonction sur $X$, à valeurs dans un espace topologique.*
 a) *Si $f$ est une fonction numérique $\geq 0$, on a, pour $x \in X$*
@@ -278,7 +278,7 @@ $$
 
 ce qui fournit une nouvelle interprétation de $\lambda^*$.
 
-#### Proposition 5 {#int-vii-s2-prop-5 .statement}
+#### Proposition 5 {#int-vii-s2-prop-5 .statement tag=09F7}
 
 *Soit $\lambda$ une mesure positive sur $X/H$.*
 
@@ -316,7 +316,7 @@ $$
 
 Compte tenu du lemme 2, a), b), c) résultent du chap. V, § 3, prop. 3, prop. 4 et th. 1 (à l’exception de (13) qui résulte de (12), car il est clair que $|f^{\flat}| \leq |f|^{\flat}$) ; d) résulte de b).
 
-#### Proposition 6 {#int-vii-s2-prop-6 .statement}
+#### Proposition 6 {#int-vii-s2-prop-6 .statement tag=09F8}
 
 Soit $\lambda$ une mesure positive sur $X/H$.
 a) Soit $N$ une partie de $X/H$. Pour que $N$ soit localement $\lambda$-négligeable, il faut et il suffit que $\pi^{-1}(N)$ soit localement $\lambda^{\#}$-négligeable.
@@ -350,19 +350,19 @@ $$
 
 donc $h \circ \pi$ est localement $\lambda^*$-intégrable.
 
-#### Corollaire 1 {#int-vii-s2-prop-6-cor-1 .statement}
+#### Corollaire 1 {#int-vii-s2-prop-6-cor-1 .statement tag=09F9}
 
 Soient $\lambda, \lambda'$ deux mesures positives sur X/H. Pour que $\lambda'$ soit de base $\lambda$, il faut et il suffit que ${\lambda'}^*$ soit de base $\lambda^*$. Pour que $\lambda$ et $\lambda'$ soient équivalentes, il faut et il suffit que $\lambda^*$ et ${\lambda'}^*$ soient équivalentes.
 
 La première assertion résulte de la prop. 6, a) et c). La deuxième résulte de la première.
 
-#### Corollaire 2 {#int-vii-s2-prop-6-cor-2 .statement}
+#### Corollaire 2 {#int-vii-s2-prop-6-cor-2 .statement tag=09FA}
 
 Soient $\lambda$ une mesure positive sur X/H, et f une fonction numérique $\lambda^*$-mesurable sur X. On suppose que, pour tout $\xi \in H$, on ait $\delta(\xi)f = f$ localement $\lambda^*$-presque partout. Alors il existe une fonction $\lambda$-mesurable g sur X/H telle que $f = g \circ \pi$ localement $\lambda^*$-presque partout.
 
 En remplaçant f par $f/(1 + |f|)$, on se ramène au cas où f est bornée, donc localement $\lambda^*$-intégrable. Soit $\mu = f \cdot \lambda^*$. L’hypothèse sur f entraîne que $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^* = \Delta_H(\xi)\mu$ pour tout $\xi \in H$. Il existe alors (prop. 4) une mesure $\lambda'$ sur $X/H$ telle que $\mu = {\lambda'}^\#$. D’après le cor. 1, il existe une fonction localement $\lambda$-intégrable $g$ sur $X/H$ telle que $\lambda' = g.\lambda$. D’après la prop. 6, on a $f.\lambda^\# = {\lambda'}^\# = (g \circ \pi).\lambda^\#$, d’où $f = g \circ \pi$ localement $\lambda^\#$-presque partout.
 
-#### Corollaire 3 {#int-vii-s2-prop-6-cor-3 .statement}
+#### Corollaire 3 {#int-vii-s2-prop-6-cor-3 .statement tag=09FB}
 
 a) *Soit* $(\lambda_i)_{i \in I}$ *une famille de mesures réelles sur* $X/H$. *Pour que la famille* $(\lambda_i)$ *soit majorée dans* $\mathscr{M}(X/H)$, *il faut et il suffit que la famille* $(\lambda_i^\#)$ *soit majorée dans* $\mathscr{M}(X)$, *et on a alors*
 
@@ -388,11 +388,11 @@ $$
 
 ce qui achève la démonstration de a). L’assertion b) en résulte aussitôt, puisque $\lambda^+$ par exemple n’est autre que $\sup(\lambda, 0)$. Pour démontrer c), il suffit de remarquer que $|\lambda| = \sup \Re(\alpha \lambda)$ pour $\alpha$ nombre complexe de module 1, et d’autre part que $\Re(\mu^\#) = (\Re \mu)^\#$ pour toute $\mu \in \mathscr{M}(X/H)$.
 
-#### Remarque 1 {#int-vii-s2-n3-rem-1 .statement}
+#### Remarque 1 {#int-vii-s2-n3-rem-1 .statement tag=09FC}
 
 La prop. 6 a) peut s’exprimer en disant que $\lambda$ est une mesure *pseudo-image* de $\lambda^\#$ par $\pi$ (chap. VI, § 3, no 2, déf. 1).
 
-#### Remarque 2 {#int-vii-s2-n3-rem-2 .statement}
+#### Remarque 2 {#int-vii-s2-n3-rem-2 .statement tag=09FD}
 
 Supposons $H$ compact et $\beta$ normalisée. Le saturé de toute partie compacte de $X$ est compact. Donc, si $f \in \mathscr{K}(X/H)$, on a $f \circ \pi \in \mathscr{K}(X)$; et, pour toute mesure positive $\lambda$ sur $X/H$, la prop. 5c) donne
 
@@ -402,11 +402,11 @@ $$
 
 Autrement dit, $\lambda$ est l’image de $\lambda^*$ par $\pi$.
 
-#### Remarque 3 {#int-vii-s2-n3-rem-3 .statement}
+#### Remarque 3 {#int-vii-s2-n3-rem-3 .statement tag=09FE}
 
 Le cor. 3 c) de la prop. 6 montre aussitôt que les résultats de ce n° restent valables dans le cas des mesures complexes (sauf ceux qui font intervenir l’intégrale supérieure).
 
-#### Remarque 4 {#int-vii-s2-n3-rem-4 .statement}
+#### Remarque 4 {#int-vii-s2-n3-rem-4 .statement tag=09FF}
 
 Soit $m$ une mesure vectorielle sur $X/H$ à valeurs dans $E$ et soit $q$ une semi-norme semi-continue inférieurement sur $E$. Pour que $m$ soit $q$-majorable (chap. VI, § 2, n° 3, déf. 3), il faut et il suffit que $m^*$ le soit, et on a alors $q(m^*) = q(m)^*$. Ceci résulte aussitôt des définitions et du cor. 3 a).
 
@@ -418,7 +418,7 @@ Enfin, si $m$ est de base $\mu$, de densité $f$ par rapport à $\mu$ (chap. VI,
 
 Si $X/H$ est paracompact, on va voir d’abord que les espaces vectoriels $\mathscr{K}^\chi(X)$, pour $\chi$ variable, sont tous isomorphes entre eux, et en particulier isomorphes à $\mathscr{K}^1(X)$.
 
-#### Proposition 7 {#int-vii-s2-prop-7 .statement}
+#### Proposition 7 {#int-vii-s2-prop-7 .statement tag=09FG}
 
 Supposons $X/H$ paracompact. Soit $\chi$ une représentation continue de $H$ dans $\mathbf{R}_+^*$.
 
@@ -428,21 +428,21 @@ b) L’application $g \to g/r$ est un isomorphisme de l’espace vectoriel $\mat
 
 Appliquons la prop. 1 du n° 1 en prenant pour $f$ une fonction $\geqslant 0$ non identiquement nulle sur chaque orbite (c’est possible d’après le lemme 1 de l’Appendice 1) ; alors $r = f^\chi$ vérifie les propriétés de $a$. L’assertion $b$ est évidente.
 
-#### Proposition 8 {#int-vii-s2-prop-8 .statement}
+#### Proposition 8 {#int-vii-s2-prop-8 .statement tag=09FH}
 
 Supposons $X/H$ paracompact. Il existe une fonction $h \geq 0$ continue dans $X$, dont le support a une intersection compacte avec le saturé de toute partie compacte de $X$, et telle que $h^b = 1$. Pour une telle fonction, on a $g = (h . (g \circ \pi))^b$ quelle que soit la fonction $g$ continue dans $X/H$.
 
 Appliquons la prop. 1 du n° 1, avec $\chi = 1$, en prenant pour $f$ une fonction $\geq 0$ non identiquement nulle sur chaque orbite. On a $f^1(x) > 0$ en tout point $x$ de $X$. Posons $h = f/f^1$. Alors $h^1 = f^1/f^1 = 1$, donc $h^b = 1$. Si $g$ est une fonction continue sur $X/H$, on a donc $(h . (g \circ \pi))^b = h^b . g = g$.
 
-#### Remarque 1 {#int-vii-s2-n4-rem-1 .statement}
+#### Remarque 1 {#int-vii-s2-n4-rem-1 .statement tag=09FI}
 
 En particulier, soit $X$ un espace localement compact sur lequel opère à droite, continûment et proprement, un groupe discret $D$; supposons $X/D$ paracompact. Alors il existe sur $X$ une fonction continue $h \geq 0$, dont le support a une intersection compacte avec le saturé de toute partie compacte de $X$, et telle que $\sum_{d \in D} h(xd) = 1$ pour tout $x \in X$ (tous les termes de la somme étant nuls sauf un nombre fini d'entre eux).
 
-#### Remarque 2 {#int-vii-s2-n4-rem-2 .statement}
+#### Remarque 2 {#int-vii-s2-n4-rem-2 .statement tag=09FJ}
 
 Conservons les hypothèses et les notations de la prop. 8. L’application $g \to h . (g \circ \pi)$ est une application continue de $\mathscr{K}(X/H)$ dans $\mathscr{K}(X)$ qui est inverse à droite de l’application $f \to f^b$. Par suite, toute partie bornée (resp. compacte) de $\mathscr{K}(X/H)$ est l’image d’une partie bornée (resp. compacte) de $\mathscr{K}(X)$. On en déduit aussitôt que l’application $\lambda \to \lambda^\#$ est encore un isomorphisme de $\mathscr{M}(X/H)$ sur un sous-espace vectoriel fermé de $\mathscr{M}(X)$ quand on munit ces espaces de la topologie de la convergence bornée (resp. compacte).
 
-#### Proposition 9 {#int-vii-s2-prop-9 .statement}
+#### Proposition 9 {#int-vii-s2-prop-9 .statement tag=09FK}
 
 On conserve les hypothèses et les notations de la prop. 8. Soit $\lambda$ une mesure positive sur $X/H$.
 
@@ -470,7 +470,7 @@ $$
 
 en posant $M = \sup |f|$; donc $h . ((\mathbf{k}f) \circ \pi)$ est $\lambda^*$-intégrable, et par suite $\mathbf{k}f$ est $\lambda$-intégrable d’après ce qu’on a déjà démontré; ceci prouve bien que $\mathbf{k}$ est localement $\lambda$-intégrable.
 
-#### Corollaire {#int-vii-s2-n4-cor-1 .statement}
+#### Corollaire {#int-vii-s2-n4-cor-1 .statement tag=09FL}
 
 *L’application linéaire continue* $f \to f^b$ de $L^1(X, \lambda^*)$ *dans* $L^1(X/H, \lambda)$ *définie par la prop. 5 est surjective*.
 
@@ -478,13 +478,13 @@ Supposons d’abord $X/H$ paracompact et soit $h$ une fonction sur $X$ satisfais
 
 Dans le cas général, soit $u \in L^1(X/H, \lambda)$. Il existe une fonction $f \in \mathscr{L}^1(X/H, \lambda)$, de classe $u$ et nulle en dehors d’une réunion dénombrable d’ensembles compacts $K_n$. Définissons par récurrence une suite d’ensembles ouverts relativement compacts $U_n$ de $X/H$, tels que $U_{n+1} \supset K_n \cup \overline{U}_n$, et soit $V$ la réunion des $U_n$. Alors $V$ est une partie ouverte de $X/H$, réunion dénombrable de parties compactes $\overline{U}_n$, donc paracompacte (*Top. gén.*, chap. I, 3e éd., § 9, no 10, th. 5). Posons $Y = \pi^{-1}(V)$ et soit $\lambda_V$ (resp. $\lambda_Y^\#$) la mesure induite par $\lambda$ (resp. $\lambda^\#$) sur $V$ (resp. $Y$). Il est clair que $Y/H$ s’identifie à $V$ (*Top. gén.*, chap. I, 3e éd., § 3, prop. 10) et que $\lambda_Y^\#$ s’identifie à $(\lambda_V)^\#$. De plus, $f$ est nulle en dehors de $V$ et appartient à $\mathscr{L}^1(V, \lambda_V)$. Il existe donc $g \in \mathscr{L}^1(Y, \lambda_Y^\#)$ telle que $g^b = f$ presque partout sur $V$. En prolongeant $g$ par 0 sur $X - Y$, on obtient une fonction $g_1 \in \mathscr{L}^1(X, \lambda^\#)$ et il est clair que la classe de $g_1^b$ dans $L^1(X/H, \lambda)$ n’est autre que $u$.
 
-#### Remarque 3 {#int-vii-s2-n4-rem-3 .statement}
+#### Remarque 3 {#int-vii-s2-n4-rem-3 .statement tag=09FM}
 
 Supposons $X/H$ paracompact et gardons les notations de la proposition 9. L’application $k \to h(k \circ \pi)$ de $L^1(X/H, \lambda)$ dans $L^1(X, \lambda^\#)$ est alors *isométrique* d’après (14) et est *inverse à droite* de l’application $f \to f^b$ de $L^1(X, \lambda^\#)$ sur $L^1(X/H, \lambda)$.
 
 ### 5. Mesures quasi-invariantes sur un espace homogène.
 
-#### Lemme 3 {#int-vii-s2-lem-3 .statement}
+#### Lemme 3 {#int-vii-s2-lem-3 .statement tag=09FN}
 
 Soient $G$ un groupe *localement compact*, $\mu$ une mesure de Haar à gauche sur $G$, $\nu$ et $\nu'$ deux mesures non nulles *quasi-invariantes* sur $G$. Si, pour tout $s \in G$, les densités de $\gamma(s)\nu$ par rapport à $\nu$ et de $\gamma(s)\nu'$ par rapport à $\nu'$ sont égales localement $\mu$-presque partout, $\nu$ et $\nu'$ sont *proportionnelles*.
 
@@ -516,7 +516,7 @@ $$
 $$
 d’où la formule (15), qui entraîne la formule (16).
 
-#### Lemme 4 {#int-vii-s2-lem-4 .statement}
+#### Lemme 4 {#int-vii-s2-lem-4 .statement tag=09FO}
 
 *Soient $\lambda$ une mesure $\neq 0$ sur $G/H$ et $\mu$ une mesure de Haar à gauche sur $G$. Les propriétés suivantes sont équivalentes :*
 
@@ -557,7 +557,7 @@ d’où (17).
 
 L’équivalence de a) et b) entraîne d’abord le résultat d’unicité déjà annoncé, et même un résultat plus précis :
 
-#### Théorème 1 {#int-vii-s2-thm-1 .statement}
+#### Théorème 1 {#int-vii-s2-thm-1 .statement tag=09FP}
 
 Soient $G$ un groupe localement compact, $H$ un sous-groupe fermé de $G$.
 
@@ -569,7 +569,7 @@ a) résulte aussitôt du lemme 4. Soient $\lambda$ et $\lambda'$ deux mesures qu
 
 D'autre part, le lemme 4 ramène la recherche des mesures quasi-invariantes non nulles sur G/H à celle des mesures sur G équivalentes à la mesure de Haar et de la forme $\lambda^\#$. On a à ce sujet le lemme suivant :
 
-#### Lemme 5 {#int-vii-s2-lem-5 .statement}
+#### Lemme 5 {#int-vii-s2-lem-5 .statement tag=09FQ}
 
 Soient μ une mesure de Haar à gauche sur G, et ρ une fonction localement μ-intégrable. Pour que ρ.μ soit de la forme $\lambda^\#$, il faut et il suffit que, pour tout ξ ∈ H, on ait
 
@@ -589,7 +589,7 @@ d'où le lemme.
 
 Nous pouvons maintenant établir le résultat d'existence annoncé, et même un résultat plus précis :
 
-#### Théorème 2 {#int-vii-s2-thm-2 .statement}
+#### Théorème 2 {#int-vii-s2-thm-2 .statement tag=09FR}
 
 Soient G un groupe localement compact, H un sous-groupe fermé de G, μ une mesure de Haar à gauche sur G, β une mesure de Haar à gauche sur H.
 
@@ -615,11 +615,11 @@ a) résulte de la prop. 7.
 b) résulte des lemmes 5 et 4.
 c) résulte de (17).
 
-#### Remarque 1 {#int-vii-s2-n5-rem-1 .statement}
+#### Remarque 1 {#int-vii-s2-n5-rem-1 .statement tag=09FS}
 
 On déduit de la remarque 1 du n° 3 que les mesures quasi-invariantes non nulles sur $G/H$ ne sont autres que les mesures pseudo-images par $\pi$ d'une mesure de Haar sur $G$.
 
-#### Remarque 2 {#int-vii-s2-n5-rem-2 .statement}
+#### Remarque 2 {#int-vii-s2-n5-rem-2 .statement tag=09FT}
 
 Si $G$ est un groupe de Lie, nous verrons plus tard qu'on peut choisir la fonction $\rho$ du th. 2 indéfiniment différentiable.*
 
@@ -647,7 +647,7 @@ $$
 
 Soient toujours G un groupe localement compact, H un sous-groupe fermé, $\beta$ une mesure de Haar à gauche sur H.
 
-#### Lemme 6 {#int-vii-s2-lem-6 .statement}
+#### Lemme 6 {#int-vii-s2-lem-6 .statement tag=09FU}
 
 Soient $\lambda$ une mesure sur $G/H$, $\chi$ une représentation continue de G dans $\mathbf{C}^*$. Les propriétés suivantes sont équivalentes :
 
@@ -669,7 +669,7 @@ $$
 
 D'où l'équivalence de a) et b). L'équivalence de b) et c) résulte du § 1, no 8, cor. 1 de la prop. 10.
 
-#### Théorème 3 {#int-vii-s2-thm-3 .statement}
+#### Théorème 3 {#int-vii-s2-thm-3 .statement tag=09FV}
 
 Soient G un groupe localement compact, H un sous-groupe fermé de G, $\mu$ (resp. $\beta$) une mesure de Haar à gauche sur G (resp. H), $\chi$ une représentation continue de G dans $\mathbf{C}^*$.
 
@@ -687,17 +687,17 @@ pour tout $\xi \in H$. D’où a). L’assertion b) résulte aussitôt du lemme 
 
 On verra au § 3 (n° 3, exemple 4) des exemples très simples où la représentation $\xi \to \Delta_H(\xi)/\Delta_G(\xi)$ ne se prolonge pas en une représentation continue de $G$ dans $\mathbf{C}^*$. Dans ce cas, il n’existe donc aucune mesure complexe non nulle sur $G/H$ relativement invariante par $G$.
 
-#### Corollaire 1 {#int-vii-s2-thm-3-cor-1 .statement}
+#### Corollaire 1 {#int-vii-s2-thm-3-cor-1 .statement tag=09FW}
 
 Pour qu’il existe sur $G/H$ une mesure positive non nulle relativement invariante par $G$, il faut et il suffit qu’il existe une représentation continue de $G$ dans $\mathbf{R}_+^*$ prolongeant la représentation $\xi \to \Delta_H(\xi)/\Delta_G(\xi)$.
 
 On notera que cette condition est remplie lorsque $H$ est unimodulaire.
 
-#### Corollaire 2 {#int-vii-s2-thm-3-cor-2 .statement}
+#### Corollaire 2 {#int-vii-s2-thm-3-cor-2 .statement tag=09FX}
 
 Pour qu’il existe sur $G/H$ une mesure positive non nulle invariante par $G$, il faut et il suffit que $\Delta_G$ coïncide avec $\Delta_H$ sur $H$.
 
-#### Corollaire 3 {#int-vii-s2-thm-3-cor-3 .statement}
+#### Corollaire 3 {#int-vii-s2-thm-3-cor-3 .statement tag=09FY}
 
 On suppose que $H$ est unimodulaire et qu’il existe sur $G/H$ une mesure positive bornée non nulle $\nu$ relativement invariante par $G$. Alors $\nu$ est invariante, et $G$ est unimodulaire.
 
@@ -707,7 +707,7 @@ G/G'. Alors $\pi(v)$ est une mesure positive bornée non nulle invariante par G.
 
 ### 7. Mesure de Haar sur un groupe quotient.
 
-#### Proposition 10 {#int-vii-s2-prop-10 .statement}
+#### Proposition 10 {#int-vii-s2-prop-10 .statement tag=09FZ}
 
 Soient G un groupe localement compact, G' un sous-groupe distingué fermé, G'' le groupe G/G', $\pi$ l'application canonique de G sur G/G', $\alpha, \alpha', \alpha''$ des mesures de Haar à gauche sur G, G', G''.
 
@@ -723,7 +723,7 @@ c) Le noyau de la représentation $\Delta_G$ de G dans $\mathbf{R}_+^*$ est le p
 
 En appliquant le th. 3 du n° 6 avec $\chi = 1$ (et sachant qu'ici il existe une mesure sur G/G' invariante par G, à savoir $\alpha''$), on obtient a) et b); c) résulte aussitôt de b).
 
-#### Proposition 11 {#int-vii-s2-prop-11 .statement}
+#### Proposition 11 {#int-vii-s2-prop-11 .statement tag=09G0}
 
 On conserve les notations de la prop. 10. Soit u un automorphisme de G tel que $u(G') = G'$. Soient $u'$ la restriction de u à G', et $u''$ l'automorphisme de G'' déduit de u par passage aux quotients. Alors
 
@@ -741,7 +741,7 @@ $$
 $$
 d'où la proposition.
 
-#### Corollaire {#int-vii-s2-n7-cor-1 .statement}
+#### Corollaire {#int-vii-s2-n7-cor-1 .statement tag=09G1}
 
 Pour tout $x \in G$, on a
 
@@ -767,7 +767,7 @@ pour $\xi \in H$; on peut donc former les mesures $\mu/\beta$ sur $X/H$ et $\mu/
 
 L’application $(x, \xi) \to \pi'(x\xi)$ de $X \times H$ dans $X/H'$ est continue; comme $\pi'(x\xi) = \pi'(x\xi\xi')$ pour tout $\xi' \in H'$, cette application définit par passage au quotient une application continue de $X \times (H/H')$ dans $X/H'$; d’où, pour chaque $x$ fixé dans $X$, une application partielle $\omega_x$ de $H/H'$ dans $X/H'$, déduite par passage au quotient de l’application $\psi_x : \xi \to x\xi$ de $H$ dans $X$. Notons que $\psi_{x\xi} = \psi_x \circ \gamma_H(\xi)$, donc que $\omega_{x\xi} = \omega_x \circ \gamma_{H/H'}(\xi)$ pour tout $\xi \in H$.
 
-#### Lemme 7 {#int-vii-s2-lem-7 .statement}
+#### Lemme 7 {#int-vii-s2-lem-7 .statement tag=09G2}
 
 *Soient K une partie compacte de $X/H'$, et L une partie compacte de $X$. Alors* $\bigcup_{x \in L} \omega_x^{-1}(K)$ *est relativement compact dans $H/H'$.*
 
@@ -793,7 +793,7 @@ $$
 
 On a des propriétés analogues pour la mesurabilité, l’intégrale supérieure et l’intégrale essentielle.
 
-#### Proposition 12 {#int-vii-s2-prop-12 .statement}
+#### Proposition 12 {#int-vii-s2-prop-12 .statement tag=09G3}
 
 **On a**
 
@@ -836,7 +836,7 @@ $$
 
 ce qui prouve la proposition.
 
-#### Corollaire 1 {#int-vii-s2-lem-7-cor-1 .statement}
+#### Corollaire 1 {#int-vii-s2-lem-7-cor-1 .statement tag=0E76}
 
 a) Soit $\mathbf{f}$ une fonction sur $X/H'$, à valeurs dans un espace de Banach ou dans $\overline{\mathbf{R}}$, intégrable pour $\mu/\beta'$. Il existe une partie $(\mu/\beta)$-négligeable $N$ de $X/H$ ayant la propriété suivante : si $x \in X$ est tel que $\pi(x) \notin N$, la fonction $\mathbf{f} \circ \omega_x$ sur $H/H'$, c'est-à-dire la fonction $\dot{\xi} \to \mathbf{f}(\pi'(x\xi))$, est intégrable pour $\beta/\beta'$; l'intégrale $\int_{H/H'} \mathbf{f}(\pi'(x\xi)) d(\beta/\beta')(\dot{\xi})$ ne dépend que de $\dot{x} = \pi(x)$, et est une fonction $(\mu/\beta)$-intégrable de $\dot{x}$; et l'on a
 
@@ -856,7 +856,7 @@ $$
 \int_{X/H}^* d(\mu/\beta)(\dot{x}) \int_{H/H'}^* |\mathbf{f}(\pi'(x\xi))| d(\beta/\beta')(\dot{\xi}) < +\infty.
 $$
 
-#### Corollaire 2 {#int-vii-s2-lem-7-cor-2 .statement}
+#### Corollaire 2 {#int-vii-s2-lem-7-cor-2 .statement tag=0E77}
 
 Soient $G$ un groupe localement compact, $A$ et $B$ des sous-groupes fermés de $G$ tels que $A \supset B$. On suppose qu'il existe, sur l'espace homogène $G/B$ des classes à gauche suivant $B$, une mesure positive non nulle $\alpha$ invariante par $G$ et bornée.
 
@@ -876,7 +876,7 @@ Soient $G$ un groupe localement compact, $X$ et $Y$ deux sous-groupes fermés de
 
 Le groupe $X \times Y$ opère continûment à gauche dans $G$ par la loi $(x, y).s = xsy^{-1}$ ($x \in X, y \in Y, s \in G$). Soit $Z = X \cap Y$. Le stabilisateur de $e$ dans $X \times Y$ est le sous-groupe $Z_0$ de $X \times Y$ formé des couples $(z, z)$, où $z \in Z$, sous-groupe qui est canoniquement isomorphe à $Z$. Donc l’ensemble $\Omega$ s’identifie à l’espace homogène des classes à gauche $(X \times Y)/Z_0$; plus précisément, l’application $(x, y) \to xy^{-1}$ de $X \times Y$ sur $\Omega$ définit par passage au quotient une bijection continue de $(X \times Y)/Z_0$ sur $\Omega$. Nous supposerons que cette application est un homéo-morphisme. (Il en est ainsi notamment si G est dénombrable à l'infini : cf. App. 1).
 
-#### Proposition 13 {#int-vii-s2-prop-13 .statement}
+#### Proposition 13 {#int-vii-s2-prop-13 .statement tag=09G6}
 
 Supposons en outre Z compact. Soient $\mu_G, \mu_X, \mu_Y$ des mesures de Haar à gauche sur G, X, Y, et $\Lambda$ la restriction de $\Delta_G$ à Y. Alors la restriction $\mu$ de $\mu_G$ à $\Omega$ est, à un facteur constant près, l'image de $\mu_X \otimes (\Lambda^{-1} \cdot \mu_Y)$ par l'application $(x, y) \to xy^{-1}$ de $X \times Y$ sur $\Omega$ (application qui est propre).
 Pour $x \in X, \ y \in Y$, on a
@@ -885,7 +885,7 @@ $$
 $$
 Identifiant $\Omega$ à l'espace homogène $(X \times Y)/Z_0$ et choisissant une mesure de Haar convenable sur $Z_0$, on voit que $\mu^\#$ est le produit de la mesure de Haar à gauche de $X \times Y$, à savoir $\mu_X \otimes \mu_Y$, par la fonction $(x, y) \to \Delta_G(y)^{-1}$ (n° 6, lemme 6). D'autre part, $\mu$ est, à un facteur constant près, l'image de $\mu^\#$ par l'application canonique de $X \times Y$ sur $\Omega$ (n° 3, Remarque 2).
 
-#### Corollaire {#int-vii-s2-n9-cor-1 .statement}
+#### Corollaire {#int-vii-s2-n9-cor-1 .statement tag=09G7}
 
 Soit $f$ une fonction définie dans $\Omega$, à valeurs dans un espace de Banach ou dans $\overline{\mathbf{R}}$. Pour que $f$ soit $\mu$-intégrable, il faut et il suffit que la fonction $(x, y) \to f(xy)\Delta_G(y)\Delta_Y(y)^{-1}$ soit $(\mu_X \otimes \mu_Y)$-intégrable ; on a alors
 $$
@@ -894,7 +894,7 @@ $$
 où $a$ est une constante $> 0$ indépendante de $f$.
 D'après la prop. 13, et le chap. V, § 4, n° 4, th. 2, pour que $f$ soit $\mu$-intégrable, il faut et il suffit que la fonction $(x, y) \to f(xy^{-1})$ soit intégrable pour $\mu_X \otimes (\Lambda^{-1} \cdot \mu_Y)$, ou encore que la fonction $(x, y) \to f(xy^{-1})\Delta_G(y)^{-1}$ soit intégrable pour $\mu_X \otimes \mu_Y$, ou encore que la fonction $(x, y) \to f(xy)\Delta_G(y)\Delta_Y(y)^{-1}$ soit intégrable pour $\mu_X \otimes \mu_Y$. La formule (23) résulte d'un raisonnement analogue.
 
-#### Proposition 14 {#int-vii-s2-prop-14 .statement}
+#### Proposition 14 {#int-vii-s2-prop-14 .statement tag=09G8}
 
 Supposons que les conditions de la prop. 13 soient remplies et en outre que Y soit distingué.
 a) La restriction de $\mu_G$ à $\Omega$ est, à un facteur constant près, l'image de $\mu_X \otimes \mu_Y$ par l'application $(x, y) \to xy$ de $X \times Y$ sur $\Omega$.
@@ -927,7 +927,7 @@ $$
 
 d’où b).
 
-#### Remarque {#int-vii-s2-n9-rem-1 .statement}
+#### Remarque {#int-vii-s2-n9-rem-1 .statement tag=09G9}
 
 La prop. 14 s’applique en particulier quand G est produit semi-direct topologique de X par Y (Top. Gén., chap. III, 3e éd., § 2, n° 10). Dans ce cas, $Z = \{e\}$ et $\Omega = G$. Comme $yx = xi_x(y)$ pour $x \in X,\ y \in Y$, $\mu_G$ est aussi, à un facteur constant près, l’image de $(\mathrm{mod}\, i_x)\mu_X \otimes \mu_Y$ par l’application $(x, y) \to yx$ de $X \times Y$ dans G.
 
@@ -935,11 +935,11 @@ La prop. 14 s’applique en particulier quand G est produit semi-direct topologi
 
 Soient X un espace localement compact, H un groupe discret opérant à droite continûment et proprement dans X. Soit $\pi$ l’application canonique de X sur X/H. Pour tout $x \in X$, on notera $H_x$ le stabilisateur de $x$ dans H ; c’est un sous-groupe fini de H (Top. gén., chap. III, 3e éd., § 4, n° 2, prop. 4) ; on notera $n(x)$ son ordre. Pour tout $s \in H$, on a $H_{xs} = s^{-1}H_x s$, donc $n(xs) = n(x)$. Il existe un voisinage ouvert U de $x$ tel que $U \cap Us = \varnothing$ pour $s \notin H_x$ (loc. cit., n° 4, démonstration de la prop. 8) ; pour $y \in U$, on a $H_y \subset H_x$ ; donc la fonction $n$ sur X est semi-continue supérieurement. Lorsque X est dénombrable à l’infini, H est dénombrable ; en effet, soit $(K_1, K_2, \ldots)$ un recouvrement de X par une suite de parties compactes, et soit x_0 \in X ; l'ensemble des s \in H tels que sx_0 \in K_i est fini (loc. cit., n° 5, th. 1), d'où notre assertion.
 
-#### Définition 2 {#int-vii-s2-def-2 .statement}
+#### Définition 2 {#int-vii-s2-def-2 .statement tag=09GA}
 
 Soit F \subset X. On dit que F est un domaine fondamental (pour H) si la restriction de \pi à F est une bijection de F sur X/H (autrement dit si F est un système de représentants pour la relation d'équivalence définie par H).
 
-#### Lemme 8 {#int-vii-s2-lem-8 .statement}
+#### Lemme 8 {#int-vii-s2-lem-8 .statement tag=09GB}
 
 Soit F un domaine fondamental. Pour tout x \in X, on a
 
@@ -955,7 +955,7 @@ $$
 
 d'où (24).
 
-#### Proposition 15 {#int-vii-s2-prop-15 .statement}
+#### Proposition 15 {#int-vii-s2-prop-15 .statement tag=09GC}
 
 On suppose X dénombrable à l'infini. Soit \mu une mesure \geqslant 0 sur X. Soit F un domaine fondamental tel que Fs soit \mu-mesurable pour tout s \in H. Soit f une fonction \mu-intégrable sur X, à valeurs dans un espace de Banach ou dans \mathbf{R}. Alors la famille des \int_{Fs} n(x)^{-1}f(x)d\mu(x) (s \in H) est sommable, et l'on a
 
@@ -971,7 +971,7 @@ $$
 
 d'après le lemme 8. Le lemme 8 prouve aussi que \sum_{s \in A} n^{-1}f \varphi_{F_s} converge simplement vers f suivant l'ensemble filtrant croissant
 
-#### Théorème 4 {#int-vii-s2-thm-4 .statement}
+#### Théorème 4 {#int-vii-s2-thm-4 .statement tag=09GD}
 
 Soient X un espace localement compact dénombrable à l'infini, H un groupe discret opérant à droite continûment et proprement dans X, π l'application canonique de X sur X/H, μ une mesure positive sur X invariante par H, β la mesure de Haar normalisée de H, et λ = μ/β. Soit F un domaine fondamental μ-mesurable.
 
@@ -1003,7 +1003,7 @@ $$
 
 Ceci prouve a). L'assertion b) se démontre de même. L'assertion c) se déduit de b) et du chap. V, § 4, prop. 3 et th. 2.
 
-#### Corollaire {#int-vii-s2-n10-cor-1 .statement}
+#### Corollaire {#int-vii-s2-n10-cor-1 .statement tag=09GE}
 
 On conserve les hypothèses et les notations du th. 4. Soit F' un second domaine fondamental μ-mesurable.
 

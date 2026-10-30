@@ -56,7 +56,7 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 30
-content_sha256: 62132d69780c5384e8642c385d846a4c29ae205f8f3be600977656dc11934c19
+content_sha256: e46166486e36efa944d66af30ebaacb93e9bc8f019659598c1d03449537e5e11
 ---
 
 ## § 1. CONSTRUCTION OF A HAAR MEASURE
@@ -115,14 +115,14 @@ $$
 
 the expression on the right may then be deduced from that on the left by 'replacing $x$ by $sx$.'
 
-#### Definition 1 {#int-vii-s1-def-1 .statement}
+#### Definition 1 {#int-vii-s1-def-1 .statement tag=09CY}
 
 *Let $\mu$ be a measure on $X$.*
 a) $\mu$ *is said to be invariant under $G$* if $\gamma(s)\mu = \mu$ *for every* $s \in G$.
 b) $\mu$ *is said to be relatively invariant under $G$* if $\gamma(s)\mu$ *is proportional to* $\mu$ *for every* $s \in G$.
 c) $\mu$ *is said to be quasi-invariant under $G$* if $\gamma(s)\mu$ *is equivalent to* $\mu$ *for every* $s \in G$.
 
-#### Remark {#int-vii-s1-n1-rem-1 .statement}
+#### Remark {#int-vii-s1-n1-rem-1 .statement tag=09CZ}
 
 — 1) Assume $\mu$ invariant. Then $|\mu|$, $\mathscr{R}(\mu)$, $\mathscr{I}(\mu)$ are invariant. If $\mu$ is real, then $\mu^+$ and $\mu^-$ are invariant.
 2) Assume $\mu$ relatively invariant and nonzero. There exists, for every $s \in G$, a unique complex number $\chi(s)$ such that
@@ -158,7 +158,7 @@ For $\mu$ to be quasi-invariant, it is necessary and sufficient that the set of 
 
 If $\mu$ is quasi-invariant, then the support of $\mu$ is invariant under $G$. In particular if $G$ is *transitive* in $X$ (A, I, §5, No. 5, Def. 6), this support is either empty (if $\mu = 0$) or equal to $X$ (if $\mu \neq 0$).
 
-#### Lemma 1 {#int-vii-s1-lem-1 .statement}
+#### Lemma 1 {#int-vii-s1-lem-1 .statement tag=09D0}
 
 — *Let $X, Y, Z$ be three topological spaces, with $Y$ locally compact. Let $(x, y) \mapsto xy$ be a continuous mapping of $X \times Y$ into $Z$, which defines a mapping $x \mapsto u_x$ of $X$ into $\mathscr{F}(Y; Z)$ by the relation $u_x(y) = xy$. Let $f$ be a continuous function on $Z$ with values in $\mathbf{R}$ or in a Banach space, S the support of $f$, and $\mu$ a measure on $Y$. Assume that for every $x_0 \in X$, there exists a neighborhood $V$ of $x_0$ in $X$ such that $\bigcup_{x \in V} u_x^{-1}(S)$ is relatively compact in $Y$. Then:
 a) for every $x \in X$, $f \circ u_x$ is continuous on $Y$, with compact support;
@@ -170,7 +170,7 @@ The assertion a) is obvious. Let us prove b). Since continuity is a local proper
 
 Let us now return to the previous notations.
 
-#### Proposition 1 {#int-vii-s1-prop-1 .statement}
+#### Proposition 1 {#int-vii-s1-prop-1 .statement tag=09D1}
 
 — *Assume that G is locally compact. Let $\mu$ be a nonzero relatively invariant measure on X. Then its multiplier $\chi$ is a continuous function on G.*
 
@@ -278,11 +278,11 @@ $$
 
 ### 2. The existence and uniqueness theorem
 
-#### Definition 2 {#int-vii-s1-def-2 .statement}
+#### Definition 2 {#int-vii-s1-def-2 .statement tag=09D2}
 
 *Let G be a locally compact group. A nonzero positive measure on G that is left (resp. right) invariant is called a left (resp. right) Haar measure on G.*
 
-#### Theorem 1 {#int-vii-s1-thm-1 .statement}
+#### Theorem 1 {#int-vii-s1-thm-1 .statement tag=09D3}
 
 *On every locally compact group, there exists a left (resp. right) Haar measure, and, up to a constant factor, there exists only one.*
 
@@ -375,11 +375,11 @@ $$
 
 The formula (19) may be extended by linearity to the functions $f \in \mathscr{K}$ such that $\mu(f) = 0$. We have $D(e) \neq 0$ since $\check{\nu} \neq 0$. This indeed establishes the proportionality of $\mu$ and $\check{\nu}$.
 
-#### Corollary {#int-vii-s1-n2-cor-1 .statement}
+#### Corollary {#int-vii-s1-n2-cor-1 .statement tag=09D4}
 
 — *Every left-invariant* (resp. *right-invariant*) *measure on* $G$ *is proportional to a left* (resp. *right*) *Haar measure*.
 
-#### Example {#int-vii-s1-n2-exa-1 .statement}
+#### Example {#int-vii-s1-n2-exa-1 .statement tag=09D5}
 
 — 1) On the additive group $\mathbf{R}$, the Lebesgue measure $dx$ is a Haar measure (Ch. III, §1, No. 3, *Example*).
 
@@ -399,7 +399,7 @@ $$
 
 is independent of the choice of $a \in \mathbf{R}$; it is immediate that it is invariant under translation; it therefore defines a Haar measure on $T$. By transport of structure, one deduces from this that $I(f) = \int_a^{a+1} f(e^{2\pi i t}) dt$ is a Haar measure on the multiplicative group $U$ of complex numbers of absolute value 1 (GT, VIII, §2, No. 1).
 
-#### Proposition 2 {#int-vii-s1-prop-2 .statement}
+#### Proposition 2 {#int-vii-s1-prop-2 .statement tag=09D6}
 
 — *Let* $G$ *be a locally compact group*, $\mu$ *a left or right Haar measure on* $G$. *For* $G$ *to be discrete, it is necessary and sufficient that* $\mu(\{e\}) > 0$. *For* $G$ *to be compact, it is necessary and sufficient that* $\mu^*(G) < +\infty$.
 
@@ -415,13 +415,13 @@ therefore $n \leq \mu^*(G)/\mu(V)$. We may therefore choose in $\mathscr{E}$ a m
 
 Let $\mu$ be a left Haar measure on $G$. For every $s \in G$, $\delta(s)\mu$ is also left-invariant (No. 1, formula (11)), therefore (Th. 1) there exists a unique number $\Delta_G(s) > 0$ such that $\delta(s)\mu = \Delta_G(s)\mu$. By virtue of Th. 1, the number $\Delta_G(s)$ is independent of the choice of $\mu$.
 
-#### Definition 3 {#int-vii-s1-def-3 .statement}
+#### Definition 3 {#int-vii-s1-def-3 .statement tag=09D7}
 
 *The function $\Delta_G$ on $G$ is called the modulus (or modular function) of $G$. If $\Delta_G = 1$, the group $G$ is said to be unimodular.*
 
 One can also say that $\mu$ is relatively right-invariant with multiplier $\Delta_G$. Thus $\Delta_G$ is a *continuous representation of $G$ in $\mathbf{R}_+^*$* (No. 1, Prop. 1).
 
-#### Remark {#int-vii-s1-n3-rem-1 .statement}
+#### Remark {#int-vii-s1-n3-rem-1 .statement tag=09D8}
 
 — If $\varphi$ is an isomorphism of $G$ onto a locally compact group $G'$, then $\Delta_{G'} \circ \varphi = \Delta_G$. In particular:
 1) Since $x \mapsto x^{-1}$ is an isomorphism of $G$ onto the opposite group $G^0$, one has $\Delta_{G^0} = \Delta_G^{-1}$.
@@ -527,7 +527,7 @@ $$
 
 The analogous properties hold for the essential integral.
 
-#### Proposition 3 {#int-vii-s1-prop-3 .statement}
+#### Proposition 3 {#int-vii-s1-prop-3 .statement tag=09D9}
 
 *If there exists in G a compact neighborhood V of e invariant under the inner automorphisms, then G is unimodular.*
 
@@ -541,7 +541,7 @@ whence $\Delta_G(s) = 1$ since $0 < \mu(V) < +\infty$.
 
 From this, one deduces immediately:
 
-#### Corollary {#int-vii-s1-n3-cor-1 .statement}
+#### Corollary {#int-vii-s1-n3-cor-1 .statement tag=09DA}
 
 *If G is discrete, or compact, or commutative, then G is unimodular.*
 
@@ -555,7 +555,7 @@ Subgroups and quotient groups of a unimodular group are not always unimodular (�
 
 Let G be a locally compact group, $\varphi$ an automorphism of G, and $\mu$ a left Haar measure on G. It is clear that $\varphi^{-1}(\mu)$ is also a left Haar measure on G. Therefore there exists (No. 2, Th. 1) one and only one number $a > 0$ such that $\varphi^{-1}(\mu) = a \mu$. By No. 2, Th. 1, this number is independent of the choice of $\mu$. Note that if one had started with a right Haar measure, for example $\Delta_G^{-1} \cdot \mu$ (No. 3), one would have arrived at the same scalar $a$: for, since $\varphi^{-1}$ leaves $\Delta_G$ invariant (No. 3, Remark), one has $\varphi^{-1}(\Delta_G^{-1} \cdot \mu) = \Delta_G^{-1} \cdot \varphi^{-1}(\mu) = a \Delta_G^{-1} \cdot \mu$.
 
-#### Definition 4 {#int-vii-s1-def-4 .statement}
+#### Definition 4 {#int-vii-s1-def-4 .statement tag=09DB}
 
 *The number $a > 0$ such that $\varphi^{-1}(\mu) = a \mu$ is called the modulus of the automorphism $\varphi$ and is denoted $\operatorname{mod}_G \varphi$ or simply $\operatorname{mod} \varphi$.*
 
@@ -585,7 +585,7 @@ $$
 
 If G is either discrete or compact, then its normalized Haar measure is transformed into itself by every automorphism $\varphi$ of G, as one sees immediately by transport of structure. Thus *an automorphism of a discrete or compact group has modulus 1*.
 
-#### Proposition 4 {#int-vii-s1-prop-4 .statement}
+#### Proposition 4 {#int-vii-s1-prop-4 .statement tag=09DC}
 
 *Let G be a locally compact group, $\Gamma$ a topological group, and $\gamma \mapsto u_\gamma$ a homomorphism of $\Gamma$ into the group $\mathscr{G}$ of automorphism of G, such that $(\gamma, x) \mapsto u_\gamma(x)$ is a continuous mapping of $\Gamma \times G$ into G. Then, the mapping $\gamma \mapsto \operatorname{mod}(u_\gamma)$ is a continuous representation of $\Gamma$ in $\mathbf{R}_+^*$.
 
@@ -595,7 +595,7 @@ Let $\gamma_0 \in \Gamma$ and let $U$ be a relatively compact neighborhood of $u
 
 ### 5. Haar measure of a product
 
-#### Proposition 5 {#int-vii-s1-prop-5 .statement}
+#### Proposition 5 {#int-vii-s1-prop-5 .statement tag=09DD}
 
 — *Let* $(G_\iota)_{\iota \in I}$ *be a family of locally compact groups*. *For every* $\iota \in I$ *let* $\mu_\iota$ *be a left (resp. right) Haar measure on* $G_\iota$. *Assume that there exists a finite subset* $J$ *of* $I$ *such that, for every* $\iota \in I - J$, $G_\iota$ *is compact and* $\mu_\iota(G_\iota) = 1$. *Then the product measure* $\bigotimes_{\iota \in I} \mu_\iota$ *is a left (resp. right) Haar measure on* $G = \prod_{\iota \in I} G_\iota$. *If* $x = (x_\iota) \in G$ *then*
 $$
@@ -607,7 +607,7 @@ $$
 $$
 whence $\Delta_G(x) = \prod_{\iota \in I} \Delta_{G_\iota}(x_\iota)$.
 
-#### Example {#int-vii-s1-n5-exa-1 .statement}
+#### Example {#int-vii-s1-n5-exa-1 .statement tag=09DE}
 
 — 1) Lebesgue measure on $\mathbf{R}^n$ is a Haar measure of the additive group $\mathbf{R}^n$.
 
@@ -635,17 +635,17 @@ $$
 \mu(v) = (\varphi_\alpha(\mu))(w) = (\varphi_\alpha(\mu'))(w) = \mu'(v); \text{ it follows that } \mu = \mu' \text{ by virtue of a)}.
 $$
 
-#### Proposition 6 {#int-vii-s1-prop-6 .statement}
+#### Proposition 6 {#int-vii-s1-prop-6 .statement tag=09DF}
 
 *For every* $\alpha \in A$, *let* $\mu_\alpha$ *be a positive measure on* $G_\alpha$. *Suppose that* $\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$ *for* $\alpha \geq \beta$. *Then, there exists one and only one positive measure* $\mu$ *on* $G$ *such that* $\varphi_\alpha(\mu) = \mu_\alpha$ *for all* $\alpha \in A$.
 
 Uniqueness follows immediately from Lemma 2 b). Let us prove the existence of $\mu$. Let $V$ be the vector space of functions belonging to $\mathscr{K}(G)$ and constant on the cosets of some $K_\alpha$ ($\alpha$ may depend on the function). It follows from Lemma 2 a) that $V$ satisfies the condition (P) of Ch. III, §1, No. 7, Prop. 9: for, let $K$ be a compact set in $G$ and choose $f \in \mathscr{K}_+(G)$ with $f(x) > 0$ for all $x \in K$; let $a > 0$ be the smallest value of $f$ on $K$; by Lemma 2 a), there exists a function $g \in V \cap \mathscr{K}_+(G)$ such that $|f - g| \leq a/2$, therefore $g(x) > 0$ for all $x \in K$, and condition (P) is verified. Let $f \in V$. There exists an $\alpha \in A$ such that $f$ is constant on the cosets of $K_\alpha$. By passage to the quotient, $f$ defines a function $f_\alpha \in \mathscr{K}(G_\alpha)$. The number $\mu(f) = \mu_\alpha(f_\alpha)$ does not depend on the choice of $\alpha$: for, let $\beta$ be any index such that $f$ is constant on the cosets of $K_\beta$; let $\gamma \in A$ be such that $\gamma \geq \alpha, \gamma \geq \beta$; then $f$ defines functions $f_\beta \in \mathscr{K}(G_\beta)$, $f_\gamma \in \mathscr{K}(G_\gamma)$ such that $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$; then $f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$, therefore $\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$, and similarly $\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$, whence our assertion. This established, it is clear that $\mu$ is a linear form on $V$ and that $\mu(f) \geq 0$ for $f \geq 0$. By Prop. 9 of Ch. III, §1, No. 7, $\mu$ may be extended to a positive measure on $G$, which we again denote by $\mu$. One has $\varphi_\alpha(\mu) = \mu_\alpha$ for all $\alpha \in A$ by the very construction of $\mu$.
 
-#### Definition 5 {#int-vii-s1-def-5 .statement}
+#### Definition 5 {#int-vii-s1-def-5 .statement tag=09DG}
 
 *The measure* $\mu$ *is said to be the inverse limit (or projective limit) of the* $\mu_\alpha$.
 
-#### Proposition 7 {#int-vii-s1-prop-7 .statement}
+#### Proposition 7 {#int-vii-s1-prop-7 .statement tag=09DH}
 
 *We retain the notations of Prop. 6. If each* $\mu_\alpha$ *is a left (resp. right) Haar measure on* $G_\alpha$, *then* $\mu$ *is a left (resp. right) Haar measure on* $G$.
 
@@ -659,7 +659,7 @@ therefore $\varphi_\alpha(\gamma(s)\mu) = \gamma(\varphi_\alpha(s))\mu_\alpha = 
 
 We suppose henceforth the $K_\alpha$ to be not only compact, but open in $G$. The $G_\alpha$ are then discrete and, for $\beta \geq \alpha$, $K_\alpha/K_\beta$ is a compact and discrete group, hence is finite. The group $G$ is unimodular (Prop. 3).
 
-#### Proposition 8 {#int-vii-s1-prop-8 .statement}
+#### Proposition 8 {#int-vii-s1-prop-8 .statement tag=09DI}
 
 a) *Let* $\mu$ *and* $\mu'$ *be two positive measures on* $G$ *such that, for every* $\alpha$ *and for every coset* $C$ *of* $K_\alpha$, $\mu(C) = \mu'(C)$. *Then* $\mu = \mu'$.
 
@@ -669,7 +669,7 @@ Let $\mu$ and $\mu'$ be two positive measures on $G$ satisfying the condition a)
 
 Let us prove b). For every $\alpha \geq \alpha_0$, let $\mu_\alpha$ be the Haar measure of the discrete group $G_\alpha$ such that every point has measure $n_\alpha^{-1}$. Let $\alpha, \beta$ be such that $\alpha \geq \beta \geq \alpha_0$. Then $K_\beta/K_\alpha$ has $n_\alpha/n_\beta$ elements. Therefore $\varphi_{\beta\alpha}(\mu_\alpha)$ is the measure on $G_\beta$ such that each point has measure $n_\alpha^{-1} \cdot \frac{n_\alpha}{n_\beta} = n_\beta^{-1}$; in other words, $\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$. It then suffices to apply Props. 6 and 7.
 
-#### Example {#int-vii-s1-n6-exa-1 .statement}
+#### Example {#int-vii-s1-n6-exa-1 .statement tag=09DJ}
 
 — Let $\mathbf{Q}_p$ be the $p$-adic field, the completion of $\mathbf{Q}$ for the $p$-adic absolute value $|x|_p = p^{-v_p(x)}$ (GT, IX, §3, No. 2, *Example 3*). The elements of $\mathbf{Q}_p$ are called *$p$*-*adic numbers*. We denote again by $|x|_p$ the continuous extension of the $p$-adic absolute value to $\mathbf{Q}_p$. One has
 
@@ -691,13 +691,13 @@ The restriction of $\alpha$ to $\mathbf{Z}_p$ is obviously a Haar measure on $\m
 
 ### 7. Local definition of a Haar measure
 
-#### Proposition 9 {#int-vii-s1-prop-9 .statement}
+#### Proposition 9 {#int-vii-s1-prop-9 .statement tag=09DK}
 
 *Let G be a locally compact group, V an open subset of G, and $\mu$ a nonzero positive measure on V having the following property: if U is an open subset of V and if $s \in G$ is such that $sU \subset V$, then the image of the measure $\mu_U$ induced by $\mu$ on U, under the homeomorphism $x \mapsto sx$ of U onto sU, is $\mu_{sU}$. Then, there exists one and only one left Haar measure $\alpha$ on G that induces $\mu$ on V.*
 
 For every $s \in G$, let $\mu_s$ be the image of $\mu$ under the homeomorphism $x \mapsto sx$ of V onto sV. The restriction of $\mu_s$ to $V \cap sV$ is the image of $\mu_{s^{-1}V \cap V}$ under the restriction of $x \mapsto sx$ to $s^{-1}V \cap V$; by hypothesis, this image is $\mu_{V \cap sV}$. By translation, one concludes from this that $\mu_s$ and $\mu_t$ have the same restriction to $sV \cap tV$ for any $s, t$. Therefore, by Prop. 1 of Ch. III, §2, No. 1, there exists a measure $\alpha$ on G that induces $\mu_s$ on sV for every $s$. It is clear that $\alpha$ is the unique left Haar measure on G inducing $\mu$ on V.
 
-#### Corollary {#int-vii-s1-n7-cor-1 .statement}
+#### Corollary {#int-vii-s1-n7-cor-1 .statement tag=09DL}
 
 *Let G, G' be two locally compact groups, V (resp. V') an open neighborhood of the neutral element of G (resp. G'), and $\varphi$ a local isomorphism of G' with G (GT, III, §1, No. 3, Def. 2) defined on V', such that $\varphi(V') = V$. Let $\alpha'$ be a left Haar measure on G', and $\alpha'_V$, its restriction to $V'$. Then $\varphi(\alpha'_{V'})$ is the restriction to $V$ of a unique left Haar measure $\alpha$ on $G$.
 
@@ -705,13 +705,13 @@ Let $V_1$ be an open neighborhood of $e$ in $G$ such that $V_1 V_1^{-1} \subset 
 
 One says that $\alpha$ *is deduced from* $\alpha'$ *by means of the local isomorphism* $\varphi$.
 
-#### Example {#int-vii-s1-n7-exa-1 .statement}
+#### Example {#int-vii-s1-n7-exa-1 .statement tag=09DM}
 
 — The Haar measure on $T$ obtained in No. 2, *Example 3* may be deduced from the Lebesgue measure on $R$ by a local isomorphism of $R$ with $T$.
 
 ### 8. Relatively invariant measures
 
-#### Proposition 10 {#int-vii-s1-prop-10 .statement}
+#### Proposition 10 {#int-vii-s1-prop-10 .statement tag=09DN}
 
 *Let $G$ be a locally compact group, $\mu$ a relatively left-invariant measure on $G$ with multiplier $\chi$. If $\chi_1$ is a continuous representation of $G$ in $\mathbf{C}^*$, the measure $\chi_1 \cdot \mu$ is relatively left-invariant with multiplier $\chi_1 \chi$.*
 
@@ -722,13 +722,13 @@ $$
 = (\chi_1 \chi)(s)^{-1}(\chi_1 \cdot \mu).
 $$
 
-#### Corollary 1 {#int-vii-s1-prop-10-cor-1 .statement}
+#### Corollary 1 {#int-vii-s1-prop-10-cor-1 .statement tag=09DO}
 
 *Let $\mu$ be a left Haar measure on $G$. For a nonzero measure $\nu$ on $G$ to be relatively left-invariant, it is necessary and sufficient that it be of the form $a \chi \cdot \mu$, where $a \in \mathbf{C}^*$ and $\chi$ is a continuous representation of $G$ in $\mathbf{C}^*$; its multiplier is then $\chi$.*
 
 The condition is sufficient (Prop. 10). On the other hand, if $\nu$ is a nonzero relatively left-invariant measure with multiplier $\chi$, then $\chi^{-1} \cdot \nu$ is left-invariant (Prop. 10) hence is of the form $a \mu$ with $a \in \mathbf{C}^*$ (No. 2, Cor. of Th. 1).
 
-#### Corollary 2 {#int-vii-s1-prop-10-cor-2 .statement}
+#### Corollary 2 {#int-vii-s1-prop-10-cor-2 .statement tag=09DP}
 
 *Every relatively left-invariant measure is relatively right-invariant.*
 
@@ -757,7 +757,7 @@ The concepts of negligible, locally negligible, measurable and locally integrabl
 
 ### 9. Quasi-invariant measures
 
-#### Proposition 11 {#int-vii-s1-prop-11 .statement}
+#### Proposition 11 {#int-vii-s1-prop-11 .statement tag=09DQ}
 
 *Let G be a locally compact group, $\mu$ a left Haar measure on G. For a measure $\nu \neq 0$ on G to be left quasi-invariant, it is necessary and sufficient that $\nu$ be equivalent to $\mu$.*
 
@@ -783,17 +783,17 @@ Applying Prop. 11 to $G^0$, one sees that the right quasi-invariant measures are
 
 ### 10. Locally compact fields
 
-#### Definition 6 {#int-vii-s1-def-6 .statement}
+#### Definition 6 {#int-vii-s1-def-6 .statement tag=09DR}
 
 — *Let K be a locally compact field*$^{(1)}$. *For $a \in K^*$, one calls modulus of a*, and denotes by $\mathrm{mod}_K(a)$ or simply $\mathrm{mod}(a)$, *the modulus of the automorphism* $x \mapsto ax$ *of the additive group* $K^+$ *underlying K; one sets* $\mathrm{mod}(0) = 0$.
 
-#### Example {#int-vii-s1-n10-exa-1 .statement}
+#### Example {#int-vii-s1-n10-exa-1 .statement tag=09DS}
 
 — 1) Let $K = \mathbf{R}$. If $s > 0$ then $s \cdot [0,1] = [0,s]$; if $s < 0$, $s \cdot [0,1] = [s,0]$. Thus $\mathrm{mod}_\mathbf{R} t = |t|$ for all $t \in \mathbf{R}$.
 
 2) Let $K = \mathbf{Q}_p$. If $s \in \mathbf{Q}_p^*$ is such that $|s|_p = p^{-n}$, then $s \mathbf{Z}_p$ is the set of $x \in \mathbf{Q}_p$ such that $|x|_p \leq p^{-n}$; therefore, if $\mu$ denotes the normalized Haar measure on $\mathbf{Q}_p$, then $\mu(s \mathbf{Z}_p) = p^{-n}$. Thus $\mathrm{mod}_{\mathbf{Q}_p} t = |t|_p$ for all $t \in \mathbf{Q}_p$.
 
-#### Proposition 12 {#int-vii-s1-prop-12 .statement}
+#### Proposition 12 {#int-vii-s1-prop-12 .statement tag=09DT}
 
 — *The function mod is continuous on K, and* $\mathrm{mod}(ab) = \mathrm{mod}(a)\mathrm{mod}(b)$ *for all* $a, b$ *in K*.
 
@@ -803,7 +803,7 @@ The last assertion is obvious. Prop. 4 of No. 4 shows that the function mod is c
 
 Since K is not discrete, $\alpha(\{0\}) = 0$ (No. 2, Prop. 2); therefore, for every $\varepsilon > 0$ there exists an open neighborhood U of 0 such that $\alpha(U) \leq \varepsilon$. Since the product in K is continuous, $aC \subset U$ for $a$ sufficiently near 0, and then $\mathrm{mod}(a) \leq \varepsilon / \alpha(C)$.
 
-#### Proposition 13 {#int-vii-s1-prop-13 .statement}
+#### Proposition 13 {#int-vii-s1-prop-13 .statement tag=09DU}
 
 — *For every* $M > 0$, *let* $V_M$ *be the set of* $x \in K$ *such that* $\mathrm{mod}(x) \leq M$. *If* K *is nondiscrete, the* $V_M$ *form a fundamental system of compact neighborhoods of* 0 *in* K.
 
@@ -811,19 +811,19 @@ The $V_M$ are closed neighborhoods of 0 by Prop. 12. Let us show that they are c
 
 This being so, since the intersection of the $V_M$ reduces to $\{0\}$ the $V_M$ form a fundamental system of neighborhoods of 0 (GT, I, §9, No. 2, Prop. 1).
 
-#### Corollary {#int-vii-s1-n10-cor-1 .statement}
+#### Corollary {#int-vii-s1-n10-cor-1 .statement tag=09DV}
 
 — *The topology of a nondiscrete locally compact field admits a countable base.*
 
 For, K is the union of compact sets $V_1, V_2, \ldots$. On the other hand, K is metrizable by Prop. 1 of GT, IX, §3, No. 1. Therefore the topology of K admits a countable base (*loc. cit.*, §2, No. 9, Cor. of Prop. 16).
 
-#### Proposition 14 {#int-vii-s1-prop-14 .statement}
+#### Proposition 14 {#int-vii-s1-prop-14 .statement tag=09DW}
 
 — *Let* $\alpha$ *be a Haar measure on* $K^+$. *Then the measure* $\beta = (\mathrm{mod}_K)^{-1} \cdot \alpha$ *on* $K^*$ *is a left Haar measure on the multiplicative group* $K^*$.
 
 For, if $b \in K^*$, the mapping $a \mapsto b^{-1} a$ of K into K transforms $\alpha$ into $(\mathrm{mod}_K b) \alpha$, hence $(\mathrm{mod}_K)^{-1} \cdot \alpha$ into itself, whence the proposition.
 
-#### Corollary {#int-vii-s1-n10-cor-2 .statement}
+#### Corollary {#int-vii-s1-n10-cor-2 .statement tag=09DX}
 
 — *Let* f *be a function defined on* $K^*$, *with values in* $\overline{\mathbf{R}}$ *or in a Banach space. For* f *to be* $\beta$-*integrable, it is necessary and sufficient* that $(\mathrm{mod}_K)^{-1} f$ be $\alpha$-integrable, in which case
 
@@ -833,7 +833,7 @@ $$
 
 This follows from Prop. 14, the Cor. of Prop. 13, and Ch. V, §5, No. 3, Th. 1.
 
-#### Proposition 15 {#int-vii-s1-prop-15 .statement}
+#### Proposition 15 {#int-vii-s1-prop-15 .statement tag=09DY}
 
 — *Assume K to be commutative. Let u be an automorphism of the vector space E = K^n. Then*
 
@@ -881,13 +881,13 @@ and on the other hand $\mathrm{mod}_K(\det u_3) = \mathrm{mod}_K(1) = 1$, whence
 
 Let K be a commutative locally compact field, E a vector space of finite dimension n over K. If $\varphi$ is an isomorphism of the vector space $K^n$ onto the vector space E, $\varphi$ transforms the topology of $K^n$ into a topology on E that makes E a locally compact vector space. This topology (called canonical) is independent of $\varphi$ since every automorphism of the vector space $K^n$ is bicontinuous. Absent express mention to the contrary, when we speak of E as a topological vector space, the topology will always be understood to be the one just defined. Every automorphism u of the vector space E is bicontinuous, therefore $\mathrm{mod}_E u$ is defined. If, on the other hand, u is a noninvertible endomorphism of E, one sets $\mathrm{mod}_E u = 0$. Then:
 
-#### Corollary 1 {#int-vii-s1-prop-15-cor-1 .statement}
+#### Corollary 1 {#int-vii-s1-prop-15-cor-1 .statement tag=09DZ}
 
 — *Let K be a commutative locally compact field, E a finite-dimensional vector space over K, and u an endomorphism of the vector space E. Then* $\mathrm{mod}_E(u) = \mathrm{mod}_K(\det u)$.
 
 If u is invertible, this follows from Prop. 15. If u is not invertible then $\det u = 0$, therefore $\mathrm{mod}_K(\det u) = 0 = \mathrm{mod}_E u$.
 
-#### Corollary 2 {#int-vii-s1-prop-15-cor-2 .statement}
+#### Corollary 2 {#int-vii-s1-prop-15-cor-2 .statement tag=09E0}
 
 — *Let E be a real vector space of finite dimension n, $(e_1, e_2, \ldots, e_n)$ a basis of E, P the set of* $x = \sum_{i=1}^n \xi_i e_i \in E$ *such that* $0 \leq \xi_i \leq 1$ *for all i*, and $\mu$ *the unique Haar measure on the additive group E such that* $\mu(P) = 1$. *Let* $x_1, \ldots, x_n$ *be points of E, S the closed convex envelope in E of the set* $\{0, x_1, \ldots, x_n\}$. *Writing* $x_i = \sum_{j=1}^n \alpha_{ij} e_j$, *one has*
 
@@ -935,7 +935,7 @@ $$
 \mathrm{mod}_A L_a = \mathrm{mod}_K N_{A/K}(a), \quad \mathrm{mod}_A R_a = \mathrm{mod}_K N_{A^0/K}(a).
 $$
 
-#### Proposition 16 {#int-vii-s1-prop-16 .statement}
+#### Proposition 16 {#int-vii-s1-prop-16 .statement tag=09E1}
 
 — *Let $\alpha$ be a Haar measure of the additive group of $A$. The measures*
 
@@ -947,13 +947,13 @@ $$
 
 Let $\alpha'$ be the restriction of $\alpha$ to the open set $A^*$. For $a \in A^*$, one has $L_a(\alpha') = (\mathrm{mod}_K N_{A/K}(a))^{-1} \alpha'$, therefore $(\mathrm{mod}_K N_{A/K}(a))^{-1} d\alpha'(a)$ is a left Haar measure on $A^*$ (No. 8, Cor. 1 of Prop. 10). Passing to the opposite algebra, one sees that $(\mathrm{mod}_K N_{A^0/K}(a))^{-1} d\alpha'(a)$ is a right Haar measure on $A^*$.
 
-#### Proposition 17 {#int-vii-s1-prop-17 .statement}
+#### Proposition 17 {#int-vii-s1-prop-17 .statement tag=09E2}
 
 — *Suppose A is a field (locally compact). For every $a \in A$, $\mathrm{mod}_A(a) = \mathrm{mod}_K N_{A/K}(a)$.*
 
 This is a translation of the first formula of (38).
 
-#### Example {#int-vii-s1-n11-exa-1 .statement}
+#### Example {#int-vii-s1-n11-exa-1 .statement tag=09E3}
 
 — 1) Take $K = \mathbf{R}$, $A = \mathbf{C}$. Taking into account *Alg.*, chap. VIII, §12, n° 2, prop. 4, we obtain $\mathrm{mod}_\mathbf{C}(z) = |z|^2$ for all $z \in \mathbf{C}$. (2)
 

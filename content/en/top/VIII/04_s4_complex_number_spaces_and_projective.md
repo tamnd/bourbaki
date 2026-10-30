@@ -28,7 +28,7 @@ subsections:
       pdf_page: 127
 statements: 3
 exercises: 8
-content_sha256: 5ec593cebbee52dc556dcb0f772698b7cf66722f409a4e9d29745d7be45ccbab
+content_sha256: a0635aa3afab1817d675f46cf3f74b8d72a27d4aefcae7dd03e7963e1016fe2d
 ---
 
 ## 4. COMPLEX NUMBER SPACES AND PROJECTIVE SPACES
@@ -61,7 +61,7 @@ All the definitions and all the results of nos. 5 and 6 of Chapter VI, § 1, rel
 
 With the notation recalled in Chapter VI, § 3, no. 1, we make the following definition, analogous to the definition of real projective spaces:
 
-#### Definition 1 {#top-viii-s4-def-1 .statement}
+#### Definition 1 {#top-viii-s4-def-1 .statement tag=0C0W}
 
 *The projective space* $\mathbf{P}_n(\mathbf{C})$, *endowed with the topology which is the quotient of that of* $\mathbf{C}_{n+1}^*$ *by the equivalence relation* $\Delta_n(\mathbf{C})$, *is called complex projective space of* $n$ *dimensions.*
 
@@ -95,7 +95,7 @@ Since every vector subspace of $p + 1$ dimensions of $\mathbf{R}^{n+1}$ generate
 
 With the notation recalled in Chapter VI, § 3, no. 5, we define similarly the spaces of projective linear varieties in a complex projective space:
 
-#### Definition 2 {#top-viii-s4-def-2 .statement}
+#### Definition 2 {#top-viii-s4-def-2 .statement tag=0C0X}
 
 *The quotient space* $P_{n,p}(\mathbf{C})$ *of the topological space* $L_{n+1,\ p+1}(\mathbf{C})$ *by the equivalence relation* $\Delta_{n,p}(\mathbf{C})$ *is called the space of projective linear varieties of* $p \geqslant 0$ *dimensions in the projective space* $P_n(\mathbf{C})$.
 
@@ -110,7 +110,7 @@ $$
 
 The proof of Proposition 8 of Chapter VI, § 3, no. 5 extends unaltered for the space $P_{n,p}(\mathbf{C})$ and shows that this space is *connected* and *locally connected* and that each of its points has a neighbourhood homeomorphic to $\mathbf{C}^{p+1,(n-p)}$. Finally the proof of Proposition 9 of Chapter VI, § 3, no. 6 applies without change, and therefore the Grassmannian $G_{n,p}(\mathbf{C})$ is homeomorphic to $\mathbf{P}_{n,p}(\mathbf{C})$.
 
-#### Remark {#top-viii-s4-n4-rem-1 .statement}
+#### Remark {#top-viii-s4-n4-rem-1 .statement tag=0C0Y}
 
 Most of the properties common to the real and complex number spaces (resp. projective spaces) are also valid for number spaces (resp. projective spaces) defined in the same way over the division ring of quaternions $\mathbf{H}$; indeed, they are capable of extension to many other topological fields and division rings (cf. Exercises 2 and 6).
 

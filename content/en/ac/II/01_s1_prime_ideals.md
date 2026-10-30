@@ -21,14 +21,14 @@ subsections:
       pdf_page: 73
 statements: 9
 exercises: 11
-content_sha256: eaf2b502618aa5ba762ff7b78f5dd83041b3b831304194dfec9cee96f2fab555
+content_sha256: 556d7efab2e0c3d357dfbbd27923b000a4c0af8dc523529bed393394168a1056
 ---
 
 ## 1. PRIME IDEALS
 
 ### 1. DEFINITION OF PRIME IDEALS
 
-#### Definition 1 {#ac-ii-s1-def-1 .statement}
+#### Definition 1 {#ac-ii-s1-def-1 .statement tag=0450}
 
 An ideal $p$ of a ring $A$ is called prime if the ring $A/p$ is an integral domain.
 
@@ -46,19 +46,19 @@ A *other than* $\mathbf{A}$ is contained in at least one prime ideal. In particu
 
 Let $f : \mathbf{A} \to \mathbf{B}$ be a ring homomorphism and $q$ an ideal of $\mathbf{B}$. Set $p = f^{-1}(q)$; the homomorphism $\overline{f} : \mathbf{A}/p \to \mathbf{B}/q$ derived from $f$ by taking quotients is injective. Suppose that $q$ is prime; as the ring $\mathbf{B}/q$ is an integral domain, so is $\mathbf{A}/p$, being isomorphic to a subring of $\mathbf{B}/q$; consequently the ideal $p = f^{-1}(q)$ is prime. In particular, let $\mathbf{A}$ be a subring of $\mathbf{B}$; for every ideal $q$ of $\mathbf{B}$, $q \cap \mathbf{A}$ is a prime ideal $\mathbf{A}$. If $f$ is surjective, $\overline{f}$ is an isomorphism; the conditions "p is prime" and "$q$ is prime" are then equivalent. Hence, if $p$ and $a$ are ideals of $\mathbf{A}$ such that $a \subset p$, a necessary and sufficient condition for $p$ to be prime is that $p/a$ be prime in $\mathbf{A}/a$.
 
-#### Proposition 1 {#ac-ii-s1-prop-1 .statement}
+#### Proposition 1 {#ac-ii-s1-prop-1 .statement tag=0451}
 
 *Let $\mathbf{A}$ be a ring, $a_1, a_2, \ldots, a_n$ ideals of $\mathbf{A}$ and $p$ a prime ideal of $\mathbf{A}$. If $p$ contains the product $a_1 a_2 \ldots a_n$, it contains at least one of the $a_i$.*
 
 Suppose in fact that $p$ contains none of the $a_i$. For $1 \leq i \leq n$ there exists then an element $s_i \in a_i \cap p$; then $s = s_1 s_2 \ldots s_n$ is contained in $a_1 a_2 \ldots a_n$, and is not contained in $p$, which is absurd.
 
-#### Corollary {#ac-ii-s1-n1-cor-1 .statement}
+#### Corollary {#ac-ii-s1-n1-cor-1 .statement tag=0452}
 
 *Let $m$ be a maximal ideal of $\mathbf{A}$; for every integer $n > 0$, the only prime ideal containing $m^n$ is $m$.*
 
 Such an ideal $p$ must contain $m$ by Proposition 1 applied to $a_i = m$ for $1 \leq i \leq n$; as $m$ is maximal, $p = m$.
 
-#### Proposition 2 {#ac-ii-s1-prop-2 .statement}
+#### Proposition 2 {#ac-ii-s1-prop-2 .statement tag=0453}
 
 *Let $\mathbf{A}$ be a ring, $a$ a non-empty set of $\mathbf{A}$ which is closed under addition and multiplication and $(p_i)_{i \in I}$ a non-empty finite family of ideals of $\mathbf{A}$. Suppose that $a$ is contained in the union of the $p_i$ and that at most two of the $p_i$ are not prime. Then $a$ is contained in one of the $p_i$.*
 
@@ -70,19 +70,19 @@ Let $A$ be a ring; two ideals $a, b$ of $A$ are called *relatively prime* if $a 
 
 If $A$ is a *principal ideal domain* (*Algebra*, Chapter VII, § 1), for two elements $a, b$ of $A$ to be relatively prime, it is necessary and sufficient, by Bezout’s identity (*loc. cit.*, no. 2, Theorem 1), that the ideals $Aa$ and $Ab$ be relatively prime.
 
-#### Proposition 3 {#ac-ii-s1-prop-3 .statement}
+#### Proposition 3 {#ac-ii-s1-prop-3 .statement tag=0454}
 
 *Let $a$ and $b$ be two relatively prime ideals of a ring $A$. Let $a'$ and $b'$ be two ideals of $A$ such that every element of $a$ (resp. $b$) has a power in $a'$ (resp. $b'$). Then $a'$ and $b'$ are relatively prime.*
 
 Under the given hypothesis, every prime ideal which contains $a'$ contains $a$ and every prime ideal which contains $b'$ contains $b$. If a prime ideal contains $a'$ and $b'$, then it contains $a$ and $b$, which is absurd, since $a$ and $b$ are relatively prime; hence $a'$ and $b'$ are relatively prime.
 
-#### Proposition 4 {#ac-ii-s1-prop-4 .statement}
+#### Proposition 4 {#ac-ii-s1-prop-4 .statement tag=0455}
 
 *Let $a, b_1, \ldots, b_n$ be ideals of a ring $A$. If $a$ is relatively prime to each of the $b_i$ ($1 \leq i \leq n$), it is relatively prime to $b_1 b_2 \ldots b_n$.
 
 Let $p$ be a prime ideal of $A$. If $p$ contains $a$ and $b_1 b_2 \ldots b_n$ it contains one of the $b_i$ (no. 1, Proposition 1), which is absurd since $a$ and $b_i$ are relatively prime.
 
-#### Proposition 5 {#ac-ii-s1-prop-5 .statement}
+#### Proposition 5 {#ac-ii-s1-prop-5 .statement tag=0456}
 
 *Let $(a_i)_{i \in I}$ be a non-empty finite family of ideals of a ring $A$. The following properties are equivalent =
 (a) For $i \neq j$, $a_i$ and $a_j$ are relatively prime.
@@ -117,7 +117,7 @@ $$
 
 $f$ being the product of the canonical homomorphisms $A/a_i \to A/a_i'$; clearly $\phi'$ is not surjective, the projection of $+(A)$ onto $(A/a_i') \times (A/a_i')$ being the diagonal of the product $(A/c) \times (A/c)$, which is distinct from this product since $c \neq A$. As $f$ is surjective, this shows that $\phi$ is not surjective.
 
-#### Proposition 6 {#ac-ii-s1-prop-6 .statement}
+#### Proposition 6 {#ac-ii-s1-prop-6 .statement tag=0457}
 
 *Let $(a_i)_{i \in I}$ be a non-empty finite family of ideals of a ring $A$ which are relatively prime in pairs; let $a$ be the intersection of the $a_i$. For every $A$-module $M$, the canonical mapping $M \to \prod_{i \in I} (M/a_i M)$ is surjective and its kernel is $aM$.*
 
@@ -127,7 +127,7 @@ $$
 $$
 is bijective. Then so is $1_M \otimes \psi : M \otimes (A/a) \to M \otimes \prod_{i \in I} (A/a_i)$. Now $M \otimes (A/a)$ is identified with $M/aM$ and $M \otimes \prod_{i \in I} (A/a_i)$ with $\prod_{i \in I} M \otimes (A/a_i)$, which is itself identified with $\prod_{i \in I} (M/a_i M)$. It is immediately verified that the above identifications transforms $1_M \otimes \psi$ into $\lambda$, whence the proposition.
 
-#### Example {#ac-ii-s1-n2-exa-1 .statement}
+#### Example {#ac-ii-s1-n2-exa-1 .statement tag=0458}
 
 Let $K$ be a field, $a, (1 \leq i \leq m)$ distinct elements of $K$ and, for each $i$, let $g_i$ be a polynomial in $K[X]$; the principal ideal $(X - a_i) = m_i$ is maximal in $K[X]$, hence, for every system $(n_i)_{1 \leq i \leq m}$ of $m$ integers $\geq 1$, the ideals $m_i^{n_i}$ are relatively prime in pairs. Then it follows from Proposition 5 that there exists a polynomial $f \in K[X]$ such that $f(X) \equiv g_i(X) \pmod{(X - a_i)^{n_i}}$ for $1 \leq i \leq m$, the difference of two such polynomials being divisible by $\omega(X) = \prod_{i=1}^m (X - a_i)^{n_i}$. If all the $n_i$ are taken equal to 1, we find the problem is solved explicitly by Lagrange's interpolation formula (*Algebra*, Chapter IV, § 2, no. 4).
 

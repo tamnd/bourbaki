@@ -12,12 +12,12 @@ pdf_pages: 0017-0018, 0023-0025
 extraction: ocr
 statements: 5
 exercises: 8
-content_sha256: 9d6c901d14bd783b3438d15cccece809a80e1cc65d54bd2fa35bbd2ea28d4340
+content_sha256: a1828c6bea81a98faa9dda46643de0c17b5c2748c8569ed34aa2e4166e06eed8
 ---
 
 ## § 3. CARACTÉRISATION TOPOLOGIQUE DES GROUPES R ET T
 
-#### Théorème 1 {#top-v-s3-thm-1 .statement}
+#### Théorème 1 {#top-v-s3-thm-1 .statement tag=0BVN}
 
 Un groupe topologique G, dans lequel il existe un voisinage ouvert de l’élément neutre homéomorphe à un intervalle ouvert de R, est localement isomorphe à R.
 
@@ -33,21 +33,21 @@ Si $x$ et $y$ sont deux éléments de V tels que $x \geq e, y \geq e$, on a en p
 
 Pour tout élément $x \in V$ n’appartenant pas à I, on a $x < e$, donc $x^{-1} > e$; on prolonge par suite $f$ en une application strictement croissante $f$ de V sur un intervalle de $\mathbf{R}$ en posant $\tilde{f}(x) = -f(x^{-1})$ pour tout $x < e$ de V. L’image réciproque par $\tilde{f}$ d’un intervalle ouvert contenu dans $\tilde{f}(V)$ est un intervalle ouvert de V, donc $\tilde{f}$ est continue dans V; inversement, l’image par $\tilde{f}$ d’un intervalle ouvert de V est un intervalle ouvert de $\tilde{f}(V)$, donc $\tilde{f}$ est un homéomorphisme de V sur un voisinage de 0 dans le groupe $\mathbf{R}$. D’autre part, on vérifie aisément (comme dans la prop. 6 de V, p. 3, en examinant les divers cas possibles) qu’on a $\tilde{f}(xy) = \tilde{f}(x) + \tilde{f}(y)$ chaque fois que $x, y$ et $xy$ appartiennent à V; on en conclut que $\tilde{f}$, restreint à un voisinage convenable de $e$ dans G, est un isomorphisme local de G à $\mathbf{R}$ (III, p. 6, prop. 3).
 
-#### Théorème 2 {#top-v-s3-thm-2 .statement}
+#### Théorème 2 {#top-v-s3-thm-2 .statement tag=0BVO}
 
 Un groupe connexe G, dans lequel il existe un voisinage ouvert de l’élément neutre homéomorphe à un intervalle ouvert de $\mathbf{R}$, est isomorphe à $\mathbf{R}$ ou à $\mathbf{T}$.
 
 C’est une conséquence immédiate du théorème précédent, et de la prop. 7 de V, p. 5.
 
-#### Remarque 1 {#top-v-s3-rem-1 .statement}
+#### Remarque 1 {#top-v-s3-rem-1 .statement tag=0BVP}
 
 Pour décider si un groupe G, qui remplit les conditions du th. 2, est isomorphe à $\mathbf{T}$ ou isomorphe à $\mathbf{R}$, il suffit de voir si G est compact ou ne l’est pas.
 
-#### Remarque 2 {#top-v-s3-rem-2 .statement}
+#### Remarque 2 {#top-v-s3-rem-2 .statement tag=0BVQ}
 
 Le th. 2 montre en particulier que tout groupe topologique homéomorphe au groupe $\mathbf{R}$ lui est nécessairement isomorphe.
 
-#### Remarque 3 {#top-v-s3-rem-3 .statement}
+#### Remarque 3 {#top-v-s3-rem-3 .statement tag=0BVR}
 
 La caractérisation topologique précédente des groupes $\mathbf{R}$ et $\mathbf{T}$ fait intervenir l’espace topologique $\mathbf{R}$ comme ensemble auxiliaire. Il est possible de caractériser les structures de groupe topologique de $\mathbf{R}$ et de $\mathbf{T}$ par des axiomes ne faisant intervenir aucun ensemble auxiliaire (voir V, p. 16 et 17, exerc. 4 et 6).
 

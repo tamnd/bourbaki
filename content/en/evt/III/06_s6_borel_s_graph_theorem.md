@@ -25,38 +25,38 @@ subsections:
       pdf_page: 168
 statements: 8
 exercises: 6
-content_sha256: 5d74351d9b7ddcf9c7875428c2bc5f92a8a8d0119dbfdf4dbc6aa7cf4fe74dab
+content_sha256: 207efa273694316acd7d5b27dedee7a3292c04e1a0a2e90cfe57fd450ad44773
 ---
 
 ## § 6. BOREL’S GRAPH THEOREM
 
 ### 1. Borel’s graph theorem
 
-#### Theorem 1 {#evt-iii-s6-thm-1 .statement}
+#### Theorem 1 {#evt-iii-s6-thm-1 .statement tag=07Q4}
 
 — Let E be a locally convex space which is the inductive limit of Banach spaces, F a Souslin locally convex space, for example a Lusin space (GT, IX, § 6, No. 2 and No. 4), and u a linear mapping from E into F. If the graph of u is a Borel subset of E × F, then u is continuous.
 
 Let E_i be a family of Banach spaces, and (u_i) a family of continuous linear mappings u_i : E_i → E such that the topology of E is the finest locally convex topology for which the u_i are continuous. It is enough to prove that the composed mappings u ∘ u_i are continuous, or in fact (GT, IX, § 2, No. 6, prop. 10) that the restriction of u ∘ u_i to every closed subspace G of E_i satisfying the first axiom of countability is continuous. The graph of this restriction is the inverse image of the graph of u under the continuous mapping u_i × Id_F : G × F → E × F, hence is a Borel set in G × F. In addition, G × F is a Souslin space and every Borel subset of a Souslin space is a Souslin space (GT, IX, § 6, No. 3, prop. 10). Th. 1 then follows from th. 4, GT, IX, § 6, No. 8.
 
-#### Remark {#evt-iii-s6-n1-rem-1 .statement}
+#### Remark {#evt-iii-s6-n1-rem-1 .statement tag=07Q5}
 
 Recall (III, p. 12) that every homological Hausdorff and semi-complete space, for example every Fréchet space, is the inductive limit of Banach spaces. \* This is also true for the strong dual of a reflexive Fréchet space (IV, p. 23, prop. 4). \*
 
 ### 2. Locally convex Lusin spaces
 
-#### Proposition 1 {#evt-iii-s6-prop-1 .statement}
+#### Proposition 1 {#evt-iii-s6-prop-1 .statement tag=07Q6}
 
 — Let E be a Hausdorff locally convex space. Suppose that there exists a sequence (E_n)_{n \in \mathbf{N}} of Fréchet spaces satisfying the first axiom of countability, and continuous linear mappings u_n : E_n → E such that E = \bigcup_{n \in \mathbf{N}} u_n(E_n). Then E is a Lusin space.
 
 Let P_n be the kernel of u_n; then u_n defines a bijective continuous mapping from the quotient space E_n/P_n onto u_n(E_n). Since E_n/P_n is a Fréchet space satisfying the first axiom of countability (GT, IX, § 3, No. 1), hence a polish space (GT, IX, § 6, No. 1, def. 1), u_n(E_n) is a Lusin subspace of E (GT, IX, § 6, No. 4, prop. 11). Therefore by GT, IX, § 6, No. 7, cor. of th. 3, the space E, which is regular (GT, III, § 3, No. 1) is a Lusin space.
 
-#### Example 1 {#evt-iii-s6-n2-exa-1 .statement}
+#### Example 1 {#evt-iii-s6-n2-exa-1 .statement tag=07Q7}
 
 Every Fréchet space satisfying the first axiom of countability is a polish space, hence a Lusin space. Consequently, so are the spaces $\mathscr{C}(X)$, where X is locally compact and has a countable base (the topology of $\mathscr{C}(X)$ being that of compact convergence, cf. GT, X, § 3, No. 3, corollary and § 1, No. 6, cor. 3); \* the spaces $\mathscr{C}_0^\infty(U)$, where U is an open subset of $\mathbf{R}^n$ (III, p. 9) and $\mathscr{H}(U)$, where U is an open subset of $\mathbf{C}^n$ (III, p. 10).
 
 Prop. 1 shows that the spaces $\mathscr{C}_0^\infty(U)$, where U is an open set in $\mathbf{R}^n$, $\mathscr{G}_s(I)$, where I is a compact interval in $\mathbf{R}$ and $s \geq 1$, and $\mathscr{H}(K)$, where K is a compact subset of $\mathbf{C}^n$ are all Lusin spaces (III, p. 10). \*
 
-#### Theorem 2 {#evt-iii-s6-thm-2 .statement}
+#### Theorem 2 {#evt-iii-s6-thm-2 .statement tag=07Q8}
 
 — Let E be a locally convex space, which is the inductive limit of an increasing sequence $(E_n)_{n \in \mathbf{N}}$ of subspaces of E, endowed with the topologies of Fréchet spaces satisfying the first axiom of countability. Suppose that every compact subset of E is contained in one of the $E_n$ and is compact in this space. Let F be a Fréchet space satisfying the first axiom of countability. Then the space $\mathscr{L}_c(E; F)$ is a Lusin space.
 
@@ -66,7 +66,7 @@ Since F is a Fréchet space satisfying the first axiom of countability, it is is
 
 The space $\mathscr{L}_c(E; F)$ is the union of a countable family of equicontinuous and closed subsets (III, p. 19, cor. 1 and GT, X, § 2, No. 3, prop. 6). But every equicontinuous subset H of $\mathscr{L}_c(E; F)$ is metrizable and satisfies the first axiom of countability (III, p. 18, prop. 6 and GT, X, § 2, No. 4, th. 1); if H is closed, then it is a complete space for the uniform structure induced by that of $\mathscr{L}_c(E; F)$, since the latter is complete In other words, H is a polish space, and *a fortiori* a Lusin space; consequently the regular space $\mathscr{L}_c(E; F)$ is a Lusin space (GT, IX, § 6, No. 7, cor. of th. 3).
 
-#### Corollary {#evt-iii-s6-n2-cor-1 .statement}
+#### Corollary {#evt-iii-s6-n2-cor-1 .statement tag=07Q9}
 
 — *The hypotheses on E being as in th. 2, assume, in addition that every bounded subset of E is relatively compact. Then the strong dual of E is a Lusin space.* *In particular, the strong dual of a Fréchet space satisfying the first axiom of countability, which is also a Montel space, is a Lusin space.*
 
@@ -76,13 +76,13 @@ The space $\mathscr{C}_c^\infty(U)$ is a strict inductive limit of a sequence of
 
 Similarly we prove that for every open subset U of $\mathbf{C}^n$, and for every compact subset K of $\mathbf{C}^n$, the strong dual of $\mathscr{H}(U)$ and the strong dual of $\mathscr{H}(K)$ are Lusin spaces. \*
 
-#### Remark {#evt-iii-s6-n2-rem-1 .statement}
+#### Remark {#evt-iii-s6-n2-rem-1 .statement tag=07QA}
 
 — Let E be as in th. 2; let F be a Hausdorff locally convex space which is the union of the images of a sequence of continuous linear mappings $u_n : F_n \to F$, where each $F_n$ is a Fréchet space satisfying the first axiom of countability; then $\mathscr{L}_c(E ; F)$ is a Lusin space. As in prop. 1, we first reduce to the case where each $u_n$ is injective; then, as in the proof of th. 2, we can assume that E is a Fréchet space satisfying the first axiom of countability. Then, by I, p. 20, prop. 1, $\mathscr{L}(E ; F)$ is the union of the $\mathscr{L}(E ; F_n)$; moreover, the canonical injection $\mathscr{L}_c(E ; F_n) \to \mathscr{L}_c(E ; F)$ is continuous (GT, X, § 1, No. 4, prop. 3). Since each of the spaces $\mathscr{L}_c(E ; F_n)$ is a Lusin space by th. 2, $\mathscr{L}(E ; F_n)$ is also a Lusin space for the topology induced by that of $\mathscr{L}_c(E ; F)$ (GT, IX, § 6, No. 4, prop. 11); consequently $\mathscr{L}_c(E ; F)$ is a Lusin space by virtue of GT, IX, § 6, No. 7, corollary of th. 3.
 
 ### \*3. Measurable linear mappings on a Banach space $^1$
 
-#### Proposition 2 {#evt-iii-s6-prop-2 .statement}
+#### Proposition 2 {#evt-iii-s6-prop-2 .statement tag=07QB}
 
 — *Let E be a Banach space, F a locally convex space and u a linear mapping from E into F. Assume that for every closed subset B of F, every compact subset X of E and every measure $\mu$ on X, the intersection $X \cap u^{-1}(B)$ is $\mu$-measurable. Then u is continuous.*
 

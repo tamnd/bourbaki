@@ -28,31 +28,31 @@ subsections:
       pdf_page: 275
 statements: 11
 exercises: 8
-content_sha256: 593c4e403b37dd178d67dc7d6d34f792b3334896636e2904531af74b0bf4c224
+content_sha256: 90e0738e4f008c8df1ded2ba70a6d55e753d37a25d18fb7c01129856c480a307
 ---
 
 ## § 5. Propriétés de platitude des modules filtrés.
 
 ### 1. Modules idéalement séparés.
 
-#### Définition 1 {#ac-iii-s5-def-1 .statement}
+#### Définition 1 {#ac-iii-s5-def-1 .statement tag=04IO}
 
 Soient $A$ un anneau commutatif, $\mathfrak{J}$ un idéal de $A$. On dit qu’un $A$-module $M$ est idéalement séparé pour $\mathfrak{J}$ (ou simplement idéalement séparé s’il n’en résulte pas de confusion) si, pour tout idéal $a$ de type fini de $A$, le $A$-module $a \otimes_A M$ est séparé pour la topologie $\mathfrak{J}$-adique.
 
 Faisant $a = A$ dans cette définition, on voit déjà que $M$ est nécessairement séparé pour la topologie $\mathfrak{J}$-adique.
 
-#### Exemple 1 {#ac-iii-s5-n1-exa-1 .statement}
+#### Exemple 1 {#ac-iii-s5-n1-exa-1 .statement tag=04IP}
 
 Si $A$ est noethérien, et si $\mathfrak{J}$ est contenu dans le radical de $A$ (autrement dit si $A$ est un anneau de Zariski pour la topologie $\mathfrak{J}$-adique), tout $A$-module de type fini est idéalement séparé ($\S$ 3, no 3, prop. 6).
 
-#### Exemple 2 {#ac-iii-s5-n1-exa-2 .statement}
+#### Exemple 2 {#ac-iii-s5-n1-exa-2 .statement tag=04IQ}
 
 Toute somme directe de modules idéalement séparés est un module idéalement séparé, en vertu des relations
 $$
 \mathfrak{J}^n(a \otimes_A \bigoplus_{\lambda \in L} M_\lambda) = \mathfrak{J}^n \bigoplus_{\lambda \in L} (a \otimes_A M_\lambda) = \bigoplus_{\lambda \in L} \mathfrak{J}^n(a \otimes_A M_\lambda).
 $$
 
-#### Exemple 3 {#ac-iii-s5-n1-exa-3 .statement}
+#### Exemple 3 {#ac-iii-s5-n1-exa-3 .statement tag=04IR}
 
 Si un $A$-module $M$ est plat et séparé pour la topologie $\mathfrak{J}$-adique il est idéalement séparé, car $a \otimes_A M$ s’identifie alors à un sous-module de $M$, et la topologie $\mathfrak{J}$-adique sur $a \otimes_A M$ est plus fine que la topologie induite sur $a \otimes_A M$ par la topologie $\mathfrak{J}$-adique de $M$, qui est séparée par hypothèse.
 
@@ -69,7 +69,7 @@ $$
 
 dant la restriction à $\mathrm{gr}_n(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(M)$ est $\gamma_n$ pour tout $n$, et qui est par suite surjectif.
 
-#### Théorème 1 {#ac-iii-s5-thm-1 .statement}
+#### Théorème 1 {#ac-iii-s5-thm-1 .statement tag=04IS}
 
 Soient $A$ un anneau commutatif, $\mathfrak{J}$ un idéal de $A$, $M$ un $A$-module. Considérons les propriétés suivantes :
 (i) $M$ est un $A$-module plat.
@@ -80,7 +80,7 @@ Soient $A$ un anneau commutatif, $\mathfrak{J}$ un idéal de $A$, $M$ un $A$-mod
 Alors on a (i) $\Rightarrow$ (ii) $\Leftrightarrow$ (iii) $\Rightarrow$ (iv) $\Leftrightarrow$ (v).
 Si en outre $\mathfrak{J}$ est nilpotent, ou si $A$ est noethérien et $M$ idéalement séparé, les propriétés (i), (ii), (iii), (iv) et (v) sont équivalentes.
 
-#### Remarque {#ac-iii-s5-n2-rem-1 .statement}
+#### Remarque {#ac-iii-s5-n2-rem-1 .statement tag=0CHH}
 
 Lorsque $A/\mathfrak{J}$ est un corps (cas fréquent dans les applications) la condition « $M/\mathfrak{J}M$ est un $(A/\mathfrak{J})$-module plat » est automatiquement vérifiée pour tout $A$-module $M$, ce qui simplifie l’énoncé des propriétés (iii) et (iv) ; en outre, dans ce cas, la propriété (v) équivaut à dire que $M/\mathfrak{J}^nM$ est un $(A/\mathfrak{J}^n)$-module libre pour tout entier $n \geq 1$ (chap. II, § 3, no 2, cor. 2 de la prop. 5).
 
@@ -111,7 +111,7 @@ Il résulte de là que lorsque $\mathfrak{J}$ est nilpotent, (ii) $\Rightarrow$ 
 
 B) Démontrons la proposition suivante :
 
-#### Proposition 1 {#ac-iii-s5-prop-1 .statement}
+#### Proposition 1 {#ac-iii-s5-prop-1 .statement tag=04IU}
 
 Soient A un anneau commutatif, $\mathfrak{J}$ un idéal de A, M un A-module. Les conditions suivantes sont équivalentes :
 a) Pour tout $n \geq 1$, on a $\text{Tor}_1^A(A/\mathfrak{J}^n, M) = 0$.
@@ -179,13 +179,13 @@ et comme $h$ est injective et que, d’après (v), $M/\mathfrak{J}^k M$ est un $
 
 ### 4. Applications.
 
-#### Proposition 2 {#ac-iii-s5-prop-2 .statement}
+#### Proposition 2 {#ac-iii-s5-prop-2 .statement tag=04IV}
 
 Soient $A$ un anneau commutatif, $\mathfrak{J}$ un idéal de $A$, $B$ une $A$-algèbre commutative noethérienne telle que $\mathfrak{J}B$ soit contenu dans le radical de $B$. Alors tout $B$-module de type fini $M$ est un $A$-module idéalement séparé pour $\mathfrak{J}$.
 
 Nous allons voir plus généralement que pour tout A-module de type fini N, $N \otimes_A M$ est séparé pour la topologie $\mathfrak{J}$-adique. En effet, $N_{(B)} = N \otimes_A B$ est un B-module de type fini, et le B-module $N \otimes_A M$ s’identifie canoniquement à $N_{(B)} \otimes_B M$ en vertu de l’associativité du produit tensoriel. Soit $\mathfrak{L}$ le radical de B ; comme $\mathfrak{J}B \subset \mathfrak{L}$, la topologie $\mathfrak{J}$-adique sur $N \otimes_A M$ est ainsi identifiée à une topologie plus fine que la topologie $\mathfrak{L}$-adique de $N_{(B)} \otimes_B M$ ; mais cette dernière topologie est séparée puisque $N_{(B)} \otimes_B M$ est un B-module de type fini (n° 1, Exemple 1), d’où la conclusion.
 
-#### Proposition 3 {#ac-iii-s5-prop-3 .statement}
+#### Proposition 3 {#ac-iii-s5-prop-3 .statement tag=04IW}
 
 Soient A un anneau commutatif, B une A-algèbre commutative, $\mathfrak{J}$ un idéal de A, M un B-module. On suppose que B est un anneau noethérien et un A-module plat, et que M est idéalement séparé pour $\mathfrak{J}B$. Les conditions suivantes sont équivalentes :
 
@@ -199,13 +199,13 @@ La condition a) entraîne b) en vertu du chap. I, § 2, n° 7, cor. 2 et 3 à la
 
 Soit $\rho : A/\mathfrak{J} \to B/\mathfrak{J}B$ l’homomorphisme canonique ; la structure de $(A/\mathfrak{J})$-module de $M/\mathfrak{J}M$ déduite par $\rho$ de sa structure de $(B/\mathfrak{J}B)$-module est isomorphe à celle de $M \otimes_A (A/\mathfrak{J})$. Il en résulte que si M est un A-module plat, $M/\mathfrak{J}M$ est un $(A/\mathfrak{J})$-module plat, donc aussi un (B/\mathfrak{J}B)-module plat si $\rho$ est un isomorphisme ; on a ainsi prouvé que c) $\Rightarrow b)$ dans ce cas.
 
-#### Corollaire {#ac-iii-s5-n4-cor-1 .statement}
+#### Corollaire {#ac-iii-s5-n4-cor-1 .statement tag=04IX}
 
 *Soient A un anneau commutatif noethérien, $\mathfrak{J}$ un idéal de A, $\hat{A}$ le séparé complété de A pour la topologie $\mathfrak{J}$-adique, M un $\hat{A}$-module idéalement séparé pour $\mathfrak{J}\hat{A}$. Pour que M soit un A-module plat, il faut et il suffit que M soit un $\hat{A}$-module plat.*
 
 On sait en effet que $\hat{A}$ est un anneau noethérien (§ 3, n° 4, prop. 8) et un A-module plat (§ 3, n° 4, th. 3), que $\mathfrak{J}\hat{A} = \hat{\mathfrak{J}}$ (§ 2, n° 12, prop. 16) et que l’homomorphisme canonique $A/\mathfrak{J} \to \hat{A}/\hat{\mathfrak{J}}$ est bijectif (§ 2, n° 12, prop. 15) ; on peut donc appliquer la prop. 3.
 
-#### Proposition 4 {#ac-iii-s5-prop-4 .statement}
+#### Proposition 4 {#ac-iii-s5-prop-4 .statement tag=04IY}
 
 *Soient A et B deux anneaux commutatifs noethériens, $h : A \to B$ un homomorphisme d’anneaux, $\mathfrak{J}$ un idéal de A, $\mathfrak{L}$ un idéal de B contenant $\mathfrak{J}B$ et contenu dans le radical de B. Soient $\hat{A}$ le séparé complété de A pour la topologie $\mathfrak{J}$-adique, $\hat{B}$ le séparé complété de B pour la topologie $\mathfrak{L}$-adique ; $h$ est continu pour ces topologies et $\hat{h} : \hat{A} \to \hat{B}$ fait donc de $\hat{B}$ une $\hat{A}$-algèbre. Soient M un B-module de type fini, $\hat{M}$ son séparé complété pour la topologie $\mathfrak{L}$-adique ; les propriétés suivantes sont équivalentes :
 

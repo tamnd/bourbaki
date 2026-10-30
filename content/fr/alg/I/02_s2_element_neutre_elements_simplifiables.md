@@ -45,38 +45,38 @@ subsections:
       pdf_page: 33
 statements: 32
 exercises: 17
-content_sha256: 6cd82371ad499c7e4fc53f696e4bd99a01dd048130d9fa0a268632dba11a8580
+content_sha256: 69220e06ff68cb4dec48c4a13bd4e4b467e95b47437a9f314d277f3a7b60370a
 ---
 
 ## § 2. ÉLÉMENT NEUTRE; ÉLÉMENTS SIMPLIFIABLES; ÉLÉMENTS INVERSIBLES
 
 ### 1. Élément neutre
 
-#### Définition 1 {#alg-i-s2-def-1 .statement}
+#### Définition 1 {#alg-i-s2-def-1 .statement tag=056M}
 
 *Pour une loi de composition $\top$ sur un ensemble $E$, un élément $e$ de $E$ est dit élément neutre si, pour tout $x \in E$, on a $e \top x = x \top e = x$.*
 
 Il existe au plus un élément neutre pour une loi donnée $\top$, car si $e$ et $e'$ sont éléments neutres, on a $e = e \top e' = e'$. Un élément neutre est permutable avec tout élément : c’est un élément central.
 
-#### Définition 2 {#alg-i-s2-def-2 .statement}
+#### Définition 2 {#alg-i-s2-def-2 .statement tag=056N}
 
 *On appelle magma unifère un magma qui possède un élément neutre. Si $E, E'$ sont des magmas unifères, on appelle homomorphisme (ou morphisme) unifère de $E$ dans $E'$ un homomorphisme du magma $E$ dans le magma $E'$ qui transforme l’élément neutre de $E$ en l’élément neutre de $E'$. On appelle monoïde un magma unifère associatif.*
 
 Si $E, E'$ sont des monoïdes, on appelle *homomorphisme de monoïdes* ou *morphisme de monoïdes* de $E$ dans $E'$ un morphisme *unifère* de $E$ dans $E'$.
 
-#### Exemple 1 {#alg-i-s2-n1-exa-1 .statement}
+#### Exemple 1 {#alg-i-s2-n1-exa-1 .statement tag=056O}
 
 Dans l’ensemble $\mathbf{N}$ des entiers naturels, 0 est élément neutre pour l’addition et 1 est élément neutre pour la multiplication. Chacune de ces deux lois munit $\mathbf{N}$ d’une structure de monoïde commutatif (E, III, p. 27).
 
-#### Exemple 2 {#alg-i-s2-n1-exa-2 .statement}
+#### Exemple 2 {#alg-i-s2-n1-exa-2 .statement tag=0DDR}
 
 Dans l’ensemble des parties d’un ensemble $E$, $\varnothing$ est élément neutre pour la loi $\cup$, $E$ pour la loi $\cap$. Plus généralement, dans un ensemble ordonné réticulé, le plus petit élément, s’il existe, est élément neutre pour la loi sup ; réciproquement, s’il existe un élément neutre pour cette loi, il est le plus petit élément de l’ensemble. De même pour le plus grand élément et la loi inf.
 
-#### Exemple 3 {#alg-i-s2-n1-exa-3 .statement}
+#### Exemple 3 {#alg-i-s2-n1-exa-3 .statement tag=0DDS}
 
 L’ensemble $\mathbf{N}$ ne possède pas d’élément neutre pour la loi $(x, y) \mapsto x^y$. Pour la loi $(X, Y) \mapsto X \circ Y$ entre parties de $E \times E$, la diagonale $\Delta$ est l’élément neutre. Pour la loi $(f, g) \mapsto f \circ g$ entre applications de $E$ dans $E$, l’application identique de $E$ est l’élément neutre.
 
-#### Exemple 4 {#alg-i-s2-n1-exa-4 .statement}
+#### Exemple 4 {#alg-i-s2-n1-exa-4 .statement tag=0DDT}
 
 Soient E un magma et R une relation d’équivalence sur E, compatible avec la loi de E (I, p. 11). Si e est élément neutre de E, l’image canonique de e dans E/R est élément neutre du magma E/R.
 
@@ -92,7 +92,7 @@ Si F est un magma sans élément neutre, un sous-magma de F peut posséder un é
 
 Si E est un magma d’élément neutre e, il peut se faire qu’un sous-magma A de E tel que $e \notin A$ possède un élément neutre.
 
-#### Définition 3 {#alg-i-s2-def-3 .statement}
+#### Définition 3 {#alg-i-s2-def-3 .statement tag=056P}
 
 Soit E un magma unifère. On appelle composé de la famille vide d’éléments de E l’élément neutre de E.
 
@@ -117,7 +117,7 @@ L’élément neutre, pour une loi notée additivement, se note souvent 0 et s�
 
 ### 2. Eléments simplifiables
 
-#### Définition 4 {#alg-i-s2-def-4 .statement}
+#### Définition 4 {#alg-i-s2-def-4 .statement tag=056Q}
 
 Etant donnée une loi de composition $\top$ sur un ensemble E, on appelle translation à gauche (resp. translation à droite) par un élément $a \in E$, l’application $x \mapsto a \top x$ (resp. $x \mapsto x \top a$) de E dans lui-même.
 
@@ -129,7 +129,7 @@ $$
 \gamma_a(x) = a \top x, \qquad \delta_a(x) = x \top a.
 $$
 
-#### Proposition 1 {#alg-i-s2-prop-1 .statement}
+#### Proposition 1 {#alg-i-s2-prop-1 .statement tag=056R}
 
 Si la loi $\top$ est associative, on a, pour $x \in E$ et $y \in E$,
 
@@ -148,21 +148,21 @@ $$
 
 Autrement dit, l’application $x \mapsto \gamma_x$ est un homomorphisme du magma E dans l’ensemble $E^E$ des applications de E dans lui-même, muni de la loi $(f, g) \mapsto f \circ g$; l’application $x \mapsto \delta_x$ est un homomorphisme de E dans l’ensemble $E^E$ muni de la loi opposée. Si E est un monoïde, ces homomorphismes sont unifères.
 
-#### Définition 5 {#alg-i-s2-def-5 .statement}
+#### Définition 5 {#alg-i-s2-def-5 .statement tag=056S}
 
 Un élément $a$ d’un magma $E$ est dit simplifiable (ou régulier) à gauche (resp. à droite) si la translation à gauche (resp. à droite) par $a$ est injective. Un élément simplifiable à gauche et à droite est appelé élément simplifiable (ou régulier).
 
 Autrement dit, pour que $a$ soit simplifiable pour la loi $\tau$, il faut et il suffit que chacune des relations $a \tau x = a \tau y, x \tau a = y \tau a$, entraîne $x = y$ (on dit qu’on peut « simplifier par $a$ » ces égalités). S’il existe un élément neutre $e$ pour la loi $\tau$, il est simplifiable pour cette loi : les translations $\gamma_e$ et $\delta_e$ sont alors l’application identique de $E$ sur lui-même.
 
-#### Exemple 1 {#alg-i-s2-n2-exa-1 .statement}
+#### Exemple 1 {#alg-i-s2-n2-exa-1 .statement tag=056T}
 
 Tout entier naturel est simplifiable pour l’addition ; tout entier naturel $\neq 0$ est simplifiable pour la multiplication.
 
-#### Exemple 2 {#alg-i-s2-n2-exa-2 .statement}
+#### Exemple 2 {#alg-i-s2-n2-exa-2 .statement tag=0DDU}
 
 Dans un ensemble ordonné réticulé, il ne peut y avoir d’autre élément simplifiable pour la loi sup que l’élément neutre (plus petit élément) s’il existe ; de même pour inf. En particulier, dans l’ensemble des parties d’un ensemble $E$, $\varnothing$ est le seul élément simplifiable pour la loi $\cup$, $E$ le seul élément simplifiable pour la loi $\cap$.
 
-#### Proposition 2 {#alg-i-s2-prop-2 .statement}
+#### Proposition 2 {#alg-i-s2-prop-2 .statement tag=056U}
 
 L’ensemble des éléments simplifiables (resp. simplifiables à gauche, resp. simplifiables à droite) d’un magma associatif est un sous-magma.
 
@@ -170,7 +170,7 @@ En effet, si $\gamma_x$ et $\gamma_y$ sont injectives, il en est de même de $\g
 
 ### 3. Eléments inversibles
 
-#### Définition 6 {#alg-i-s2-def-6 .statement}
+#### Définition 6 {#alg-i-s2-def-6 .statement tag=056V}
 
 Soient $E$ un magma unifère, $\tau$ sa loi de composition, $e$ son élément neutre, $x$ et $x'$ deux éléments de $E$. On dit que $x'$ est inverse à gauche (resp. inverse à droite, resp. inverse) de $x$ si l’on a $x' \tau x = e$ (resp. $x \tau x' = e$, resp. $x' \tau x = x \tau x' = e$).
 
@@ -180,11 +180,11 @@ Un monoïde dont tous les éléments sont inversibles s’appelle un groupe.
 
 On dit parfois symétrique et symétrisable au lieu d’inverse et inversible. Lorsque la loi de $E$ est notée additivement, on dit généralement opposé au lieu d’inverse.
 
-#### Exemple 1 {#alg-i-s2-n3-exa-1 .statement}
+#### Exemple 1 {#alg-i-s2-n3-exa-1 .statement tag=056W}
 
 Un élément neutre est son propre inverse.
 
-#### Exemple 2 {#alg-i-s2-n3-exa-2 .statement}
+#### Exemple 2 {#alg-i-s2-n3-exa-2 .statement tag=0DDV}
 
 Dans l’ensemble des applications de $E$ dans $E$, un élément $f$ est inversible à gauche (resp. inversible à droite) si $f$ est une injection (resp. surjection). Les inverses à gauche (resp. inverses à droite) sont alors les rétractions (resp. sections) associées à $f$ (E, II, p. 18, déf. 11). Pour que $f$ soit inversible, il faut et il suffit que $f$ soit une bijection. Son unique inverse est alors la bijection réciproque de $f$.
 
@@ -192,7 +192,7 @@ Soient $E$ et $F$ deux magmas unifères, et $f$ un homomorphisme unifère de $E$
 
 En particulier, si $R$ est une relation d’équivalence compatible avec la loi d’un magma unifère E, l’image canonique dans E/R d’un élément inversible de E est inversible.
 
-#### Proposition 3 {#alg-i-s2-prop-3 .statement}
+#### Proposition 3 {#alg-i-s2-prop-3 .statement tag=056X}
 
 Soient E un monoïde et x un élément de E.
 
@@ -212,7 +212,7 @@ x' = x' \top e = x' \top (x \top x'') = (x' \top x) \top x'' = e \top x'' = x''
 $$
 d’où (ii).
 
-#### Remarque {#alg-i-s2-n3-rem-1 .statement}
+#### Remarque {#alg-i-s2-n3-rem-1 .statement tag=056Y}
 
 Soient E un monoïde et x un élément de E. Si x est inversible à gauche, il est simplifiable à gauche; en effet, si $x'$ est un inverse à gauche de $x$, on a
 $$
@@ -220,13 +220,13 @@ $$
 $$
 et $\gamma_x$ est injective. En particulier, si $x$ est inversible, les translations à gauche et à droite par $x$ sont bijectives. Réciproquement, supposons $\gamma_x$ bijective; il existe $x' \in E$ tel que $xx' = \gamma_x(x') = e$; on a $\gamma_x(x'x) = (xx')x = x = \gamma_x(e)$, donc $x'x = e$, de sorte que $x$ est inversible. On voit de même que si $\delta_x$ est bijective, $x$ est inversible.
 
-#### Proposition 4 {#alg-i-s2-prop-4 .statement}
+#### Proposition 4 {#alg-i-s2-prop-4 .statement tag=056Z}
 
 Soient E un monoïde, x et y deux éléments inversibles de E, d’inverses $x'$ et $y'$ respectivement. Alors $y' \top x'$ est inverse de $x \top y$.
 
 Cela résulte de la relation $(y' \top x') \top (x \top y) = y' \top (x' \top x) \top y = y' \top y = e$, et du calcul analogue pour $(x \top y) \top (y' \top x')$.
 
-#### Corollaire 1 {#alg-i-s2-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-i-s2-prop-4-cor-1 .statement tag=0570}
 
 Soit E un monoïde; si chacun des éléments $x_\alpha$ d’une séquence $(x_\alpha)_{\alpha \in A}$ d’éléments de E a un inverse $x'_\alpha$, le composé $\prod_{\alpha \in A} x_\alpha$ a pour inverse $\prod_{\alpha \in A'} x'_\alpha$, où $A'$ est l’ensemble totalement ordonné déduit de A en remplaçant l’ordre de A par l’ordre opposé.
 
@@ -234,21 +234,21 @@ On déduit ce corollaire de la prop. 4 en raisonnant par récurrence sur le nomb
 
 En particulier, si $x$ et $x'$ sont inverses, $\top^n x$ et $\top^n x'$ sont inverses, pour tout entier $n \geqslant 0$.
 
-#### Corollaire 2 {#alg-i-s2-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-i-s2-prop-4-cor-2 .statement tag=0571}
 
 Dans un monoïde, l’ensemble des éléments inversibles est stable.
 
-#### Proposition 5 {#alg-i-s2-prop-5 .statement}
+#### Proposition 5 {#alg-i-s2-prop-5 .statement tag=0572}
 
 Si, dans un monoïde, x et x' sont inverses, et si x commute avec y, alors x' commute avec y.
 
 En effet, de $x \top y = y \top x$, on tire $x' \top (x \top y) \top x' = x' \top (y \top x) \top x'$ puis $(x' \top x) \top (y \top x') = (x' \top y) \top (x \top x')$, c’est-à-dire $y \top x' = x' \top y$.
 
-#### Corollaire 1 {#alg-i-s2-prop-5-cor-1 .statement}
+#### Corollaire 1 {#alg-i-s2-prop-5-cor-1 .statement tag=0573}
 
 Soient E un monoïde, X une partie de E et X' le commutant de X. L’inverse de tout élément inversible de X' appartient à X'.
 
-#### Corollaire 2 {#alg-i-s2-prop-5-cor-2 .statement}
+#### Corollaire 2 {#alg-i-s2-prop-5-cor-2 .statement tag=0574}
 
 Dans un monoïde, l’inverse d’un élément central inversible est un élément central.
 
@@ -258,7 +258,7 @@ Dans ce n°, on notera e l’élément neutre d’un monoïde E, et $x^*$ l’in
 
 Soient E un monoïde *commutatif*, S une partie de E et S' le sous-monoïde de E engendré par S.
 
-#### Lemme 1 {#alg-i-s2-lem-1 .statement}
+#### Lemme 1 {#alg-i-s2-lem-1 .statement tag=0575}
 
 Dans $E \times S'$, la relation $R \mathbin{\mathscr{R}} x, y$ que voici:
 « il existe a, b dans E et p, q, s dans S' tels que $x = (a, p), y = (b, q)$, et $aqs = bps$ » est une relation d’équivalence compatible avec la loi du monoïde produit $E \times S'$.
@@ -281,7 +281,7 @@ d’où l’on déduit $(aa')(qq')(ss') = (bb')(pp')(ss')$, donc $R \mathbin{\ma
 
 Le magma quotient $(E \times S')/R$ est un monoïde commutatif.
 
-#### Définition 7 {#alg-i-s2-def-7 .statement}
+#### Définition 7 {#alg-i-s2-def-7 .statement tag=0576}
 
 Soient E un monoïde commutatif, S une partie de E et S' le sous-monoïde de E engendré par S. On note $E_S$ et l’on appelle monoïde des fractions¹ de E associé à S (ou à dénominateurs dans S) le monoïde quotient $(E \times S')/R$, où la relation d’équivalence R est décrite comme dans le lemme 1.
 
@@ -300,7 +300,7 @@ $$
 
 pour $a \in A$ et $p \in S$; le monoïde $E_S$ est donc engendré par $\varepsilon(E) \cup \varepsilon(S)^*$.
 
-#### Proposition 6 {#alg-i-s2-prop-6 .statement}
+#### Proposition 6 {#alg-i-s2-prop-6 .statement tag=0577}
 
 *Les notations sont celles de la déf. 7 et $\varepsilon$ désigne l’homomorphisme canonique de $E$ dans $E_S$.*
 
@@ -314,7 +314,7 @@ L’assertion (i) est claire, et entraîne que $\varepsilon$ est injectif si et 
 
 Si $\varepsilon$ est bijective, tout élément de $S$ est inversible, car $\varepsilon(S)$ se compose d’éléments inversibles de $E_S$. Réciproquement, supposons tout élément de $S$ inversible; alors tout élément de $S'$ est inversible (I, p. 16, cor. 2), donc simplifiable. Alors $\varepsilon$ est injectif d’après (ii) et l’on a $a/p = \varepsilon(a.p^*)$ d’après (1), donc $\varepsilon$ est surjectif.
 
-#### Théorème 1 {#alg-i-s2-thm-1 .statement}
+#### Théorème 1 {#alg-i-s2-thm-1 .statement tag=0578}
 
 *Soient $E$ un monoïde commutatif, $S$ une partie de $E$, $E_S$ le monoïde de fractions associé à $S$ et $\varepsilon : E \to E_S$ l’homomorphisme canonique. Soit de plus $f$ un homomorphisme de $E$ dans un monoïde $F$ (non nécessairement commutatif ), tel que tout élément de $f(S)$ soit inversible dans $F$. Il existe un homomorphisme $\bar{f}$ et un seul de $E_S$ dans $F$ tel que $f = \bar{f} \circ \varepsilon$.
 
@@ -335,17 +335,17 @@ $$
 
 Il existe donc un homomorphisme $\tilde{f}$ de $E_S$ dans $F$ tel que $\tilde{f}(a/p) = g(a, p)$ d’où $\tilde{f}(\varepsilon(a)) = \tilde{f}(a/e) = f(a)f(e)^* = f(a)$. On a donc $\tilde{f} \circ \varepsilon = f$.
 
-#### Corollaire {#alg-i-s2-n4-cor-1 .statement}
+#### Corollaire {#alg-i-s2-n4-cor-1 .statement tag=0579}
 
 *Soient $E$ et $F$ deux monoïdes commutatifs, $S$ et $T$ des parties de $E$ et $F$ respectivement, $f$ un homomorphisme de $E$ dans $F$ tel que $f(S) \subset T$, et $\varepsilon : E \to E_S, \eta : F \to F_T$ les homomorphismes canoniques. Il existe un homomorphisme $g : E_S \to F_T$ et un seul tel que $g \circ \varepsilon = \eta \circ f$.*
 
 En effet, l’homomorphisme $\eta \circ f$ de $E$ dans $F_T$ transforme tout élément de $S$ en un élément inversible de $F_T$.
 
-#### Remarque 1 {#alg-i-s2-n4-rem-1 .statement}
+#### Remarque 1 {#alg-i-s2-n4-rem-1 .statement tag=057A}
 
 Le th. 1 peut encore s’énoncer en disant que $(E_S, \varepsilon)$ est solution du problème d’application universelle pour $E$, relativement aux monoïdes, aux homomorphismes de monoïdes, et aux homomorphismes de $E$ dans les monoïdes qui transforment les éléments de $S$ en éléments inversibles (E, IV, p. 23). Il en résulte (*loc. cit.*) que toute autre solution de ce problème est isomorphe de façon unique à $(E_S, \varepsilon)$.
 
-#### Remarque 2 {#alg-i-s2-n4-rem-2 .statement}
+#### Remarque 2 {#alg-i-s2-n4-rem-2 .statement tag=0DDW}
 
 Pour l’existence d’une solution du problème d’application universelle ci-dessus, il est inutile de supposer le monoïde $E$ commutatif, ainsi qu’il résulte de E, IV, p. 23 et p. 24 (cf. I p. 121, exerc. 17).
 
@@ -388,7 +388,7 @@ Soient $x$, $y$ et $z$ trois entiers rationnels; on a $x \leq y$ si et seulement
 
 ### 6. Applications: II. Multiplication des entiers rationnels
 
-#### Lemme 2 {#alg-i-s2-lem-2 .statement}
+#### Lemme 2 {#alg-i-s2-lem-2 .statement tag=057B}
 
 *Soient E un monoïde et x un élément de E.*
 

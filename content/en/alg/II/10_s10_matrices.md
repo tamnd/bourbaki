@@ -66,14 +66,14 @@ subsections:
       pdf_page: 384
 statements: 35
 exercises: 17
-content_sha256: a47679ba1ab8c0e078a09ebdfca77031eefe61db8ddab4faffc08a0fa8c19aa5
+content_sha256: 9f20d99617c7f5aad6362a5f7207c5eb84fe7bf5906f6a9107df6de45c2d511a
 ---
 
 ## § 10. MATRICES
 
 ### 1. DEFINITION OF MATRICES
 
-#### Definition 1 {#alg-ii-s10-def-1 .statement}
+#### Definition 1 {#alg-ii-s10-def-1 .statement tag=05WH}
 
 Let $I, K, H$ be three sets; a matrix of type $(I, K)$ with elements in $H$ (or a matrix of type $(I, K)$ over $H$) is any family $M = (m_{i\kappa})_{(i, \kappa) \in I \times K}$ of elements of $H$ whose indexing set is the product $I \times K$. For all $i \in I$, the family $(m_{i\kappa})_{\kappa \in K}$ is called the row of $M$ of index $i$; for all $\kappa \in K$, the family $(m_{i\kappa})_{i \in I}$ is called the column of $M$ of index $\kappa$.
 
@@ -111,7 +111,7 @@ Every matrix over $H$ for which one of the indexing sets $I, K$ is empty is iden
 
 A subfamily $M' = (m_{\iota \kappa})_{(\iota, \kappa) \in J \times L}$ of a matrix $M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K}$, whose indexing set is the product of a subset $J$ of $I$ and a subset $L$ of $K$, is called a *submatrix* of the matrix $M$; it is said to be obtained by *suppressing* in $M$ the rows of index $\iota \notin J$ and the columns of index $\kappa \notin L$; conversely, $M$ is said to be obtained by *bordering* $M'$ with the rows of index $\iota \notin J$ and the columns of index $\kappa \notin L$.
 
-#### Definition 2 {#alg-ii-s10-def-2 .statement}
+#### Definition 2 {#alg-ii-s10-def-2 .statement tag=05WI}
 
 *The transpose of a matrix* $M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K}$, *denoted by* $^tM$, *is the matrix* $(m'_{\kappa \iota})_{(\kappa, \iota) \in K \times I}$ *over* $H$ *given by* $m'_{\kappa \iota} = m_{\iota \kappa}$ *for all* $(\iota, \kappa) \in K \times L$.
 
@@ -187,7 +187,7 @@ by virtue of the hypotheses made.
 
 The two sides of (6) are also denoted by $M'M''M'''$. Analogous conventions are made for products of more than three factors.
 
-#### Remark {#alg-ii-s10-n2-rem-1 .statement}
+#### Remark {#alg-ii-s10-n2-rem-1 .statement tag=05WJ}
 
 The above formulae extend to a more general situation. To be precise:
 
@@ -243,7 +243,7 @@ $$
 ^t(XY) = ^tY.^tX
 $$
 
-#### Proposition 1 {#alg-ii-s10-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s10-prop-1 .statement tag=05WK}
 
 *Let $\mathbf{A}, \mathbf{B}$ be two rings and $M = (m_{ik})_{(i,k) \in I \times K}$ and*
 $$
@@ -288,7 +288,7 @@ We now consider two (left or right) A-modules E and F with bases $(e_i)_{i \in I
 
 In what follows, we shall attach the letter (D) (resp. (G)) to formulae applying to right (resp. left) modules.
 
-#### Definition 3 {#alg-ii-s10-def-3 .statement}
+#### Definition 3 {#alg-ii-s10-def-3 .statement tag=05WL}
 
 *In each of the above two cases, the matrix of u with respect to the bases* $(e_i), (f_k)$ *is the matrix* $M(u) = (u_{ki})_{(k, i) \in K \times I}$ *such that*
 
@@ -320,7 +320,7 @@ M(\gamma u) = \gamma M(u)
 $$
 for every element $\gamma$ of the *centre* $\Gamma$ of A. In other words, once the bases $(e_i), (f_k)$ are fixed, the mapping $u \mapsto M(u)$ is a *$\Gamma$-module isomorphism* of $\mathrm{Hom}_A(E, F)$ onto a subset of the set $A^{K \times I}$, equal to $A^{K \times I}$ if K is *finite*.
 
-#### Proposition 2 {#alg-ii-s10-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s10-prop-2 .statement tag=05WM}
 
 *Suppose I and K are finite. For every element* $x \in E$, *the matrix* $M(u(x))$ *with respect to the basis* $(f_k)$ *is given by the formula*
 
@@ -341,7 +341,7 @@ where $u'_{ik} = u_{ki}$; then $y_{k0} = \sum_i x'_{0i} u'_{ik}$ and the right h
 
 When A is commutative, (17 G) reduces to (17 D) by formula (4) of no. 2.
 
-#### Corollary {#alg-ii-s10-n4-cor-1 .statement}
+#### Corollary {#alg-ii-s10-n4-cor-1 .statement tag=05WN}
 
 *Let E, F, G be three right (resp. left) modules over a ring A, $(e_i)_{i \in I}$, $(f_k)_{k \in K}$, $(g_l)_{l \in L}$ respective finite bases of E, F, G, $u : E \to F$, $v : F \to G$ two linear mappings, $M(u)$ the matrix of u relative to the bases $(e_i)$, $(f_k)$, $M(v)$ the matrix of v relative to the bases $(f_k)$, $(g_l)$ and $M(v \circ u)$ the matrix of $v \circ u$ relative to the bases $(e_i)$, $(g_l)$; then*
 
@@ -365,7 +365,7 @@ $$
 \theta_{u(x)} = u \circ \theta_x.
 $$
 
-#### Proposition 3 {#alg-ii-s10-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s10-prop-3 .statement tag=05WO}
 
 *Let E, F be two right (resp. left) A-modules and $(e_i)_{i \in I}$, $(f_k)_{k \in K}$ finite bases of E and F respectively. For every linear mapping u of E into F, let $M(u)$ be the matrix of u with respect to the bases $(e_i)$ and $(f_k)$. Then the matrix of ${}^t u : F^* \to E^*$ with respect to the dual bases $(f_k^*)$ and $(e_i^*)$ is equal to ${}^t M(u)$.*
 
@@ -375,7 +375,7 @@ $$
 $$
 whence the proposition.
 
-#### Remark {#alg-ii-s10-n4-rem-1 .statement}
+#### Remark {#alg-ii-s10-n4-rem-1 .statement tag=05WP}
 
 (2) Let E and F be two left A-modules with bases $(e_i)_{i \in I}$ and $(f_k)_{k \in K}$ respectively. For every A-linear mapping $u : E \to F$, by (14 G), $u(e_i) = \sum_k u_{ki} f_k$; these relations can also be interpreted by saying that the column matrix $(u(e_i))_{i \in I}$ with elements in F is equal to the product $^tM(u) \cdot (f_k)$, where $(f_k)_{k \in K}$ is considered as a column matrix with elements in F and the product is calculated for the mapping $A \times F \to F$ defining the law of action on the A-module F (no. 2).
 
@@ -506,7 +506,7 @@ $$
 $$
 when $\sigma$ is denoted by $x \mapsto x^\sigma$.
 
-#### Remark {#alg-ii-s10-n6-rem-1 .statement}
+#### Remark {#alg-ii-s10-n6-rem-1 .statement tag=05WQ}
 
 Let A be a ring and $\sigma$ an *anti-endomorphism* of A (no. 3); consider the two following situations:
 
@@ -526,13 +526,13 @@ the products on the two sides being calculated *in* A. This follows immediately 
 
 ### 7. SQUARE MATRICES
 
-#### Definition 4 {#alg-ii-s10-def-4 .statement}
+#### Definition 4 {#alg-ii-s10-def-4 .statement tag=05WR}
 
 *A matrix whose rows and columns have the same indexing set is called a square matrix.*
 
 A square matrix with $n$ rows and $n$ columns is called a *matrix of order* $n$.
 
-#### Remark {#alg-ii-s10-n7-rem-1 .statement}
+#### Remark {#alg-ii-s10-n7-rem-1 .statement tag=05WS}
 
 It should be noted that a matrix for which the indexing sets of the rows and columns have the *same cardinal* but *are not identical*, must not be considered as a square matrix; in particular, the product of two such matrices over a ring *is not defined*.
 
@@ -629,7 +629,7 @@ With this notation, (32) will be called a diagonal (resp. upper triangular, resp
 
 ### 8. CHANGE OF BASES
 
-#### Proposition 4 {#alg-ii-s10-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s10-prop-4 .statement tag=05WT}
 
 *Let E be a right A-module with finite basis $(e_i)_{1 \leq i \leq n}$ of n elements. For a family of n elements $e'_i = \sum_{j=1}^n e_j a_{ji} (1 \leq i \leq n)$ to be a basis of E, it is necessary and sufficient that the square matrix $P = (a_{ji})$ of order n be invertible.*
 
@@ -637,13 +637,13 @@ $P$ is just the matrix, with respect to the basis $(e_i)$ of the endomorphism $u
 
 The invertible matrix $P$ is called the *matrix of passage from the basis* $(e_i)$ *to the basis* $(e'_i)$. It can also be interpreted as the matrix of the identity mapping $l_E$ with respect to the bases $(e'_i)$ and $(e_i)$ (*in that order*); then clearly the matrix of passage *from the basis* $(e'_i)$ *to the basis* $(e_i)$ is the *inverse* $P^{-1}$ of $P$.
 
-#### Proposition 5 {#alg-ii-s10-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s10-prop-5 .statement tag=05WU}
 
 *Let $(e_i), (e'_i)$ be two bases of n elements of E and P the matrix of passage from $(e_i)$ to $(e'_i)$. If $(e_i^*)$ and $({e'_i}^*)$ are the respective dual bases of $(e_i)$ and $(e'_i)$, the matrix of passage from $(e_i^*)$ to $({e'_i}^*)$ is the contragredient $^tP^{-1}$ of P.*
 
 The transpose of the identity mapping $l_E$ is the identity mapping $l_{E^*}$; by Proposition 3, no. 4, the matrix of $l_{E^*}$ with respect to the bases $({e'_i}^*)$ and $(e_i^*)$ (in that order) is the transpose of the matrix of $l_E$ with respect to the bases $(e_i)$ and $(e'_i)$ (in that order), that is the transpose of $P^{-1}$.
 
-#### Proposition 6 {#alg-ii-s10-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s10-prop-6 .statement tag=05WV}
 
 *Let E and F be two right A-modules, $(e_i)$ and $(e'_i)$ two bases of E* with $n$ elements, $(f_j)$ and $(f'_j)$ two bases of $F$ with $m$ elements, $P$ the matrix of passage from $(e_i)$ to $(e'_i)$ and $Q$ the matrix of passage from $(f_j)$ to $(f'_j)$. For every linear mapping $u$ of $E$ into $F$, let $M(u)$ be the matrix of $u$ with respect to the bases $(e_i)$ and $(f_j)$ and $M'(u)$ the matrix of $u$ with respect to the bases $(e'_i)$ and $(f'_j)$; then
 
@@ -653,7 +653,7 @@ $$
 
 We may write $u = l_F \circ u \circ l_E$. Formula (33) follows immediately from no. 4, Corollary to Proposition 2 when the matrix of $l_E$ is taken with respect to $(e'_i)$ and $(e_i)$, that of $u$ with respect to $(e_i)$ and $(f_i)$ and that of $l_F$ with respect to $(f_i)$ and $(f'_j)$.
 
-#### Corollary 1 {#alg-ii-s10-prop-6-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s10-prop-6-cor-1 .statement tag=05WW}
 
 *If $u$ is an endomorphism of $E$ and $M(u)$ and $M'(u)$ its matrices with respect to the bases $(e_i)$ and $(e'_i)$ respectively, then*
 
@@ -661,7 +661,7 @@ $$
 M'(u) = P^{-1} M(u) P.
 $$
 
-#### Corollary 2 {#alg-ii-s10-prop-6-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s10-prop-6-cor-2 .statement tag=05WX}
 
 *If $M(x)$ and $M'(x)$ are the matrices with one column of the same element $x \in E$ with respect to the bases $(e_i)$ and $(e'_i)$ respectively, then*
 
@@ -679,7 +679,7 @@ $$
 
 for the elements $x_i$ and $x'_i$ of the matrices $M(x)$ and $M'(x)$ respectively. Formulae (36 D) are called *formulae of change of coordinates*. Observe that they express the components of $x$ relative to the "old" basis $(e_i)$ as functions of the components of $x$ relative to the "new" basis $(e'_i)$ and the elements of $P$, that is the components of the "new" basis relative to the "old" basis.
 
-#### Remark {#alg-ii-s10-n8-rem-1 .statement}
+#### Remark {#alg-ii-s10-n8-rem-1 .statement tag=05WY}
 
 (1) We now start with a *left* $A$-module $E$ with two bases $(e_i), (e'_i)$, each with $n$ elements; if we write $e'_i = \sum_{j=1}^n a_{ji} e_i$, $P = (a_{ji})$ is also called the *matrix of passing* from $(e_i)$ to $(e'_i)$; it is also the matrix of the automorphism of $E$ such that $u(e_i) = e'_i$, with respect to the basis $(e_i)$ and also the matrix of $l_E$ with respect to the bases $(e'_i)$ and $(e_i)$ *in that order*. The above results then hold with only the following modifications: formulae (33 D) to (36 D) are respectively replaced by
 
@@ -748,7 +748,7 @@ The proof is the same as that for (33 D) and (33 G), this time using formulae (2
 
 ### 9. EQUIVALENT MATRICES; SIMILAR MATRICES
 
-#### Definition 5 {#alg-ii-s10-def-5 .statement}
+#### Definition 5 {#alg-ii-s10-def-5 .statement tag=05WZ}
 
 *Two matrices* $X, X'$ *with m rows and n columns over a ring are called equivalent if there exists an invertible square matrix* $P$ *of order m and an invertible square matrix* $Q$ *of order n such that*
 
@@ -779,7 +779,7 @@ Similarly, let $h, i$ be two distinct elements of $[1, m]$ and $a$ an element of
 
 Similarly, if $X'$ is derived from $X'$ by multiplying the row of $X$ of index $i$ on the left by an invertible element $c \in A$, $X'$ and $X$ are equivalent, for $X' = PX$ where $P$ is the matrix $\operatorname{diag}(b_h)$ with $b_i = c$, $b_h = 1$ for $h \neq i$.
 
-#### Definition 6 {#alg-ii-s10-def-6 .statement}
+#### Definition 6 {#alg-ii-s10-def-6 .statement tag=05X0}
 
 *Two square matrices X, X' of order n over a ring A are called similar if there exists an invertible square matrix P of order n such that*
 
@@ -790,7 +790,7 @@ Clearly the relation "X and X' are similar" is an *equivalence relation* on $M_n
 
 With this definition, Corollary 1 to Proposition 6 of no. 8 can be stated by saying that when the basis of an A-module E (with a finite basis) is changed, the matrix of an endomorphism u with respect to the new basis is *similar* to the matrix of u with respect to the old basis.
 
-#### Remark {#alg-ii-s10-n9-rem-1 .statement}
+#### Remark {#alg-ii-s10-n9-rem-1 .statement tag=05X1}
 
 (1) Two square matrices which differ only in the order of their rows (or the order of their columns) are equivalent, but in general *not similar*. A matrix similar to a square matrix $X = (x_{ij})$ can be obtained by performing *the same permutation* $\sigma^{-1}$ on the rows and columns, that is by considering the matrix $X' = (x'_{ij})$, where $x'_{ij} = x_{\sigma(i), \sigma(j)}$ for every ordered pair of indices; for if X is the matrix of an endomorphism u of $A^n_d$ with respect to a basis $(e_i)_{1 \leq i \leq n}$, $X'$ is the matrix of u with respect to the basis $(e_{\sigma(i)})_{1 \leq i \leq n}$.
 
@@ -923,11 +923,11 @@ $$
 
 by (49). The latter formula proves moreover:
 
-#### Proposition 7 {#alg-ii-s10-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s10-prop-7 .statement tag=05X2}
 
 *Let $C$ be a commutative ring and for every matrix $P \in \mathbf{M}_n(C)$ let $f_P$ be the linear form $X \mapsto \operatorname{Tr}(PX)$ on $\mathbf{M}_n(C)$; the mapping $P \mapsto f_P$ is a $C$-linear bijection of $\mathbf{M}_n(C)$ onto its dual.*
 
-#### Proposition 8 {#alg-ii-s10-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s10-prop-8 .statement tag=05X3}
 
 *If $g$ is a linear form on the $C$-module $\mathbf{M}_n(C)$ such that $g(XY) = g(YX)$ for all matrices $X, Y$ in $\mathbf{M}_n(C)$, there exists one and only one scalar $c \in C$ such that $g(X) = c \cdot \operatorname{Tr}(X)$ for every matrix $X \in \mathbf{M}_n(C)$.*
 
@@ -937,7 +937,7 @@ Since the proposition is trivial for $n = 1$, attention may be confined to the c
 
 The finite matrices with $m$ rows and $n$ columns over a field $K$ are in one-to-one correspondence with the linear mappings of the right vector space $E = K_d^n$ into the right vector space $K_d^m$ when the matrices of these mappings are taken with respect to the canonical bases of $E$ and $F$. By definition, the *rank* of such a matrix $X$ is the rank of the linear mapping $u : E \to F$ corresponding to it; as this number is by definition the dimension of the subspace $u(E)$ of $F$, it amounts to the same (identifying the columns of $X$ with the images under $u$ of the canonical basis of $E$) to give the following definition:
 
-#### Definition 7 {#alg-ii-s10-def-7 .statement}
+#### Definition 7 {#alg-ii-s10-def-7 .statement tag=05X4}
 
 *Given a matrix $X$ with $m$ rows and $n$ columns over a field $K$, the dimension of the subspace of $K_d^m$ generated by the $n$ columns of $X$ is called the rank of $X$ with respect to $K$ and denoted by $\operatorname{rg}(X)$.*
 
@@ -945,13 +945,13 @@ It can also be said that the rank of $X$ is the *maximum number of linearly inde
 
 If $E$ and $F$ are two finite-dimensional vector spaces over $K$ and $u$ a linear mapping of $E$ into $F$, the rank of the matrix $M(u)$ with respect to any two bases is equal to the rank of $u$.
 
-#### Proposition 9 {#alg-ii-s10-prop-9 .statement}
+#### Proposition 9 {#alg-ii-s10-prop-9 .statement tag=05X5}
 
 *If the elements of a matrix $X$ with $m$ rows and $n$ columns belong to a subfield $K_0$ of a field $K$, the rank of $X$ with respect to $K_0$ is equal to the rank of $X$ with respect to $K$.*
 
 Let $F_0$ be the right vector $K_0$-space generated by the canonical basis of the right vector $K$-space $E = K_d^m$; by hypothesis the columns of $X$ belong to $E_0$. Let $V_0$ (resp. $V$) be the vector sub-$K_0$-space of $F_0$ (resp. the vector sub-$K$-space of $E$) generated by these columns. Then $V = V_0 \otimes_{K_0} K$ (§ 8, no. 2, Proposition 2) and hence $\dim_K V = \dim_{K_0} V_0$.
 
-#### Proposition 10 {#alg-ii-s10-prop-10 .statement}
+#### Proposition 10 {#alg-ii-s10-prop-10 .statement tag=05X6}
 
 *The rank of a matrix $X$ over a field $K$ is equal to the rank of its transpose ${}^t X$ over the opposite field $K^0$.*
 
@@ -963,7 +963,7 @@ The square matrices of order $n$ over a field $K$ correspond bijectively with th
 
 End$_{\mathbf{K}}$ (E) (no. 7); corresponding to the automorphisms of E are the invertible square matrices.
 
-#### Proposition 11 {#alg-ii-s10-prop-11 .statement}
+#### Proposition 11 {#alg-ii-s10-prop-11 .statement tag=05X7}
 
 *Let X be a square matrix of order n over a field K. The following properties are equivalent:*
 
@@ -974,7 +974,7 @@ End$_{\mathbf{K}}$ (E) (no. 7); corresponding to the automorphisms of E are the 
 
 This is just a translation of § 7, no. 4, Corollary to Proposition 9.
 
-#### Proposition 12 {#alg-ii-s10-prop-12 .statement}
+#### Proposition 12 {#alg-ii-s10-prop-12 .statement tag=05X8}
 
 *For a system of m linear equations in n unknowns*
 
@@ -990,7 +990,7 @@ Note that the condition of Proposition 12 is always fulfilled when $m = n$ and $
 
 ### 13. EQUIVALENCE OF MATRICES OVER A FIELD
 
-#### Proposition 13 {#alg-ii-s10-prop-13 .statement}
+#### Proposition 13 {#alg-ii-s10-prop-13 .statement tag=05X9}
 
 *Let E, F be two finite-dimensional vector spaces over a field K. If $u : E \to F$ is a linear mapping of rank r, there exist bases of E and F such that, with respect to these bases,
 
@@ -1002,7 +1002,7 @@ Every matrix of type $(m, n)$ over K and of rank r is equivalent to a matrix of 
 
 The second assertion is trivially equivalent to the first. To show the latter, let $\dim E = n$, $\dim F = m$. The kernel $N = u^{-1}(0)$ is of dimension $n - r$ (§ 7, no. 4, formula (11)); let V be a supplementary subspace of N in E and $(e_i)_{1 \leq i \leq n}$ a basis of E such that $(e_i)_{1 \leq i \leq r}$ is a basis of V and $(e_i)_{r+1 \leq i \leq n}$ a basis of N. Then the $u(e_j)$ $(1 \leq j \leq r)$ form a basis of $u(E)$; hence there exists a basis $(f_j)_{1 \leq j \leq m}$ of F such that $f_j = u(e_j)$ for $1 \leq j \leq r$ (§ 7, no. 1, Theorem 2) and clearly with respect to the bases $(e_i)$ and $(f_j)$ the matrix $M(u)$ is given by (55).
 
-#### Corollary {#alg-ii-s10-n13-cor-1 .statement}
+#### Corollary {#alg-ii-s10-n13-cor-1 .statement tag=05XA}
 
 *For two matrices over a field, of type $(m, n)$, to be equivalent, it is necessary and sufficient that they have the same rank.*
 
@@ -1014,7 +1014,7 @@ $$
 
 an invertible matrix of order $m$ by no. 8.
 
-#### Lemma 1 {#alg-ii-s10-lem-1 .statement}
+#### Lemma 1 {#alg-ii-s10-lem-1 .statement tag=05XB}
 
 *Let $X = (\xi_{ij})$ be a matrix of type $(m, n)$ over a ring $A$. Suppose that $m \geqslant 2$ and that there exists an element $\xi_{i1}$ in the first column of $X$ which is invertible in $A$. Then there exist two invertible square matrices $P \in \mathbf{M}_m(A)$, $Q \in \mathbf{M}_n(A)$ and a matrix $Y$ of type $(m - 1, n - 1)$ over $A$ such that $P$ (resp. $Q$) is a product of matrices of the form $B_{ij}(\lambda)$ of order $m$ (resp. $n$) and*
 
@@ -1029,7 +1029,7 @@ $$
 
 The matrix $B_{ij}(\lambda)X$ is obtained by adding to the row of $X$ of index $i$ the row of index $j$ multiplied on the left by $\lambda$ (no. 9, *Example 2*); if $\xi_{i1}$ is invertible, then there exists $\lambda \in A$ such that, for the matrix $X' = B_{1i}(\lambda)X = (\xi'_{kl})$, $\xi'_{11} = 1$; multiplying $X'$ on the left by suitably chosen matrices $B_{k1}(\mu_k)$ of order $m$ (for $1 \leq k \leq m$), a matrix $X'' = (\xi''_{kl})$ is obtained such that $\xi''_{j1} = 1$, $\xi''_{k1} = 0$ for $k \neq 1$. Then the matrix obtained is multiplied successively *on the right* by suitable matrices $B_{1j}(v_j)$ of order $n$ $(2 \leq j \leq n)$ and a matrix is obtained of the form (57).
 
-#### Proposition 14 {#alg-ii-s10-prop-14 .statement}
+#### Proposition 14 {#alg-ii-s10-prop-14 .statement tag=05XC}
 
 *Let $X$ be a matrix of type $(m, n)$ over a field $K$. If $X$ is of rank $r$, there exist two invertible square matrices $P \in \mathbf{M}_m(K)$, $Q \in M_n(K)$ such that $P$ (resp. $Q$) is a product of matrices of order $m$ (resp. $n$) of the form $B_{ij}(\lambda)$ and*
 
@@ -1072,7 +1072,7 @@ If finally $j \neq 1$, it would be sufficient to consider the matrix $XB_{j1}(1)
 
 Proposition 14 recovers Proposition 13 immediately.
 
-#### Corollary 1 {#alg-ii-s10-prop-14-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s10-prop-14-cor-1 .statement tag=05XD}
 
 *If $X$ is an invertible square matrix of order $n$ over a field $\mathbf{K}$, there exist three invertible matrices $P, Q, D$ of order $n$ such that $X = PDQ$, $P$ and $Q$ being products of matrices of the form $B_{ij}(\lambda)$ and $D$ a diagonal matrix of the form*
 
@@ -1082,13 +1082,13 @@ $$
 
 *where $\delta \neq 0$ (cf. Exercise 13).*
 
-#### Corollary 2 {#alg-ii-s10-prop-14-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s10-prop-14-cor-2 .statement tag=05XE}
 
 *For every field $\mathbf{K}$, the group of invertible matrices $\mathbf{GL}(n, \mathbf{K})$ is generated by the permutation matrices (no. 7, Example 2), the diagonal matrices $\operatorname{diag}(a, 1, \ldots, 1)$ ($a \neq 0$ in $\mathbf{K}$) and the matrices $B_{12}(\lambda)$ ($\lambda \in \mathbf{K}$).*
 
 It has been seen (no. 9) that the right (resp. left) product of a matrix by the matrix of a suitable transposition exchanges any two columns (resp. rows). Then the matrix $\operatorname{diag}(1, \ldots, 1, a)$ is equal to the product of $\operatorname{diag}(a, 1, \ldots, 1)$ and permutation matrices and every matrix $B_{ij}(\lambda)$ is equal to the product of $B_{12}(\lambda)$ and permutation matrices, whence the corollary.
 
-#### Remark {#alg-ii-s10-n13-rem-1 .statement}
+#### Remark {#alg-ii-s10-n13-rem-1 .statement tag=05XF}
 
 (1) In Chapter III, we shall see that, if $m = n = r$ and $K$ is *commutative*, then, for all choices of $P$ and $Q$ satisfying the conditions of Proposition 14, the element $\delta_r$ is always the same and equal to the *determinant* of $X$ (III, § 8, no. 6).
 

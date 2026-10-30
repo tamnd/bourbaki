@@ -40,7 +40,7 @@ subsections:
       pdf_page: 173
 statements: 29
 exercises: 18
-content_sha256: 2ecc494397a0f4a79b66829f4374958652b1a231194162cffe7e6e4774146319
+content_sha256: 11ba5ccdac69f56fdc3d6e496b624474ded72184a7f89b9f66d4c4c4337e5a73
 ---
 
 ## § 1. THÉORÈMES D’EXISTENCE
@@ -107,7 +107,7 @@ $$
 
 Rappelons (II, p. 4, déf. 3) qu’une fonction vectorielle u définie dans un intervalle I ⊂ \mathbf{R} est dite réglée si, dans toute partie compacte de I, elle est limite uniforme de fonctions en escalier; une condition équivalente est qu’en tout point intérieur à I, u ait une limite à droite et une limite à gauche, ainsi qu’une limite à droite à l’origine de I et une limite à gauche à l’extrémité de I, lorsque ces points appartiennent à I (II, p. 5, th. 3). Nous allons dans ce chapitre nous restreindre aux équations différentielles (1) dont toute solution est une primitive d’une fonction réglée dans I. Cette condition est évidemment satisfaite si, pour toute application continue u de I dans H, la fonction f(t, u(t)) est réglée dans I; le lemme suivant donne une condition suffisante pour qu’il en soit ainsi:
 
-#### Lemme 1 {#fvr-iv-s1-lem-1 .statement}
+#### Lemme 1 {#fvr-iv-s1-lem-1 .statement tag=08BD}
 
 Soit f une application de I × H dans E telle que, en désignant par fx (pour tout x ∈ H) l’application t ↦ f(t, x) de I dans E, les conditions suivantes soient réalisées:
 1° fx est réglée dans I pour tout x ∈ H; 2° l’application x ↦ fx de H dans l’ensemble F(I, E) des applications de I dans E est continue quand on munit F(I, E) de la topologie de la convergence compacte (TG, X, p. 04). Dans ces conditions:
@@ -122,7 +122,7 @@ par suite, on a \|uₙ(t) − xᵢ\| ≤ δₓᵢ, d’où \|f(t, uₙ(t)) − f
 
 Dans toute la suite de ce paragraphe, I désignera un intervalle contenu dans $\mathbf{R}$ et non réduit à un point, H un ensemble ouvert non vide contenu dans l’espace normé E, f une application de $I \times H$ dans E satisfaisant aux conditions du lemme 1.
 
-#### Proposition 1 {#fvr-iv-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-iv-s1-prop-1 .statement tag=08BE}
 
 Soient $t_0$ un point de I, $x_0$ un point de H ; pour qu’une fonction continue u soit une solution de l’équation (1) dans I et prenne la valeur $x_0$ au point $t_0$, il faut et il suffit qu’elle vérifie la relation
 
@@ -134,11 +134,11 @@ pour tout $t \in I$.
 
 En effet, d’après le lemme 1, si u est solution de (1) dans I, $f(t, u(t))$ est réglée, donc le second membre de (6) est défini et égal à $u(t)$ pour tout $t \in I$. Réciproquement, si u est une fonction continue satisfaisant à (6), $f(t, u(t))$ est réglée d’après le lemme 1, donc u a pour dérivée $f(t, u(t))$ sauf aux points d’une partie dénombrable de I.
 
-#### Corollaire {#fvr-iv-s1-n2-cor-1 .statement}
+#### Corollaire {#fvr-iv-s1-n2-cor-1 .statement tag=08BF}
 
 En tout point de I distinct de l’origine (resp. de l’extrémité) de cet intervalle, toute solution u de (1) dans I admet une dérivée à gauche (resp. à droite) égale à la limite à gauche (resp. à droite) de $f(t, u(t))$ en ce point.
 
-#### Proposition 2 {#fvr-iv-s1-prop-2 .statement}
+#### Proposition 2 {#fvr-iv-s1-prop-2 .statement tag=08BG}
 
 Si f est une application continue de $I \times H$ dans E, toute solution de l’équation (1) dans I est une solution stricte.
 
@@ -164,7 +164,7 @@ $$
 
 Soit $(t_0, x_0)$ un point de $I \times H$; $f$ satisfaisant par hypothèse aux conditions du lemme 1 (IV, p. 3), il existe un voisinage compact $J$ de $t_0$ dans $I$ tel que $f(t, x_0)$ soit bornée dans $J$, et une boule ouverte $S$ de centre $x_0$, contenue dans $H$, telle que $f(t, x) - f(t, x_0)$ soit bornée dans $J \times S$; il en résulte que $f(t, x)$ est bornée dans $J \times S$. Dans tout ce n°, $J$ désignera un intervalle compact, voisinage de $t_0$ dans $I$, $S$ une boule ouverte de centre $x_0$ et de rayon $r$, contenue dans $H$, $J$ et $S$ étant tels que $f$ soit bornée dans $J \times S$; $M$ désignera la borne supérieure de $\|f(t, x)\|$ dans $J \times S$.
 
-#### Proposition 3 {#fvr-iv-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-iv-s1-prop-3 .statement tag=08BH}
 
 *Dans tout intervalle compact d’origine (ou d’extrémité) $t_0$, contenu dans $J$ et de longueur $< r/(M + \varepsilon)$, il existe une solution approchée à $\varepsilon$ près de l’équation (1), à valeurs dans $S$, et égale à $x_0$ au point $t_0$.*
 
@@ -182,7 +182,7 @@ d’après le th. des accroissements finis; le critère de Cauchy montre donc qu
 
 Lorsque $f$ est uniformément continue dans $J \times S$, on peut démontrer la prop. 3 sans faire usage du th. de Zorn (IV, p. 37, exerc. 1 a)).
 
-#### Proposition 4 {#fvr-iv-s1-prop-4 .statement}
+#### Proposition 4 {#fvr-iv-s1-prop-4 .statement tag=08BI}
 
 L’ensemble des solutions approchées de (1) à $\varepsilon$ près définies dans un même intervalle $K \subset J$, et prenant leurs valeurs dans $S$, est uniformément équicontinu.
 
@@ -192,13 +192,13 @@ $$
 \|u(s) - u(t)\| \leq (M + \varepsilon)|s - t|.
 $$
 
-#### Corollaire (théorème de Peano) {#fvr-iv-s1-n3-cor-1 .statement}
+#### Corollaire (théorème de Peano) {#fvr-iv-s1-n3-cor-1 .statement tag=08BJ}
 
 Si $E$ est de dimension finie sur $\mathbf{R}$, dans tout intervalle compact $K$ d’origine (ou d’extrémité) $t_0$, contenu dans $J$ et de longueur $< r/M$, il existe une solution de (1) à valeurs dans $S$, égale à $x_0$ au point $t_0$.
 
 En effet, d’après la prop. 3, dès que $n$ est assez grand, il existe une solution approchée $u_n$ de l’équation (1) à $1/n$ près, définie dans $K$, à valeurs dans $S$, et égale à $x_0$ au point $t_0$. En outre, à partir d’une certaine valeur de $n$, $u_n(K)$ est contenu dans une boule fermée de centre $x_0$ et de rayon $< r$, indépendant de $n$. L’ensemble des $u_n$ est équicontinu (prop. 4), et comme $E$ est de dimension finie, $S$ est relativement compacte dans $E$, donc pour tout $t \in K$, l’ensemble des $u_n(t)$ est relativement compact dans $E$. D’après le th. d’Ascoli (TG, X, p. 17, th. 2), l’ensemble des $u_n$ est relativement compact dans l’espace $\mathscr{F}(K; E)$ des applications de $K$ dans $E$, muni de la topologie de la convergence uniforme. Il existe donc une suite $(u_{n_k})$ extraite de $(u_n)$, qui converge uniformément dans $K$ vers une fonction continue $u$. On a $u(K) \subset S$ et par suite $t \mapsto f(t, u(t))$ est définie dans $K$; en vertu du lemme 1 (IV, p. 3), $f(t, u_{n_k}(t))$ converge uniformément vers $f(t, u(t))$ dans $K$; d’après (IV, p. 4, formule (7)), $u_{n_k}$ est primitive d’une fonction qui tend uniformément vers $f(t, u(t))$ dans $K$, donc (II, p. 2, th. 1) $u$ est solution de (1) dans $K$, égale à $x_0$ au point $t_0$.
 
-#### Remarque 1 {#fvr-iv-s1-n3-rem-1 .statement}
+#### Remarque 1 {#fvr-iv-s1-n3-rem-1 .statement tag=08BK}
 
 Il peut exister une infinité d’intégrales d’une équation différentielle (1), prenant la même valeur en un point donné. Par exemple, l’équation différentielle scalaire $x' = 2 \sqrt{|x|}$ admet pour intégrales prenant la valeur 0 au point $t = 0$ toutes les fonctions définies par
 
@@ -212,7 +212,7 @@ $$
 
 quels que soient les nombres positifs $\alpha$ et $\beta$.
 
-#### Remarque 2 {#fvr-iv-s1-n3-rem-2 .statement}
+#### Remarque 2 {#fvr-iv-s1-n3-rem-2 .statement tag=08BL}
 
 Le th. de Peano n’est plus exact lorsque $E$ est un espace normé complet quelconque de dimension infinie (IV, p. 41, exerc. 18).
 
@@ -220,7 +220,7 @@ Le th. de Peano n’est plus exact lorsque $E$ est un espace normé complet quel
 
 Dans ce qui suit, I et H désignent, comme ci-dessus, un intervalle contenu dans $\mathbf{R}$ et un ensemble ouvert dans l’espace normé E, respectivement; $t_0$ est un point de I.
 
-#### Définition 1 {#fvr-iv-s1-def-1 .statement}
+#### Définition 1 {#fvr-iv-s1-def-1 .statement tag=08BM}
 
 Etant donnée une fonction numérique positive $t \mapsto k(t)$ définie dans I, on dit qu’une application $\mathbf{f}$ de $I \times H$ dans E est lipschitzienne pour la fonction $k(t)$ si, pour tout $x \in H$, la fonction $t \mapsto \mathbf{f}(t, x)$ est réglée dans I, et si, pour tout $t \in I$ et tout couple de points $x_1, x_2$ de H, on a (« condition de Lipschitz »)
 
@@ -236,13 +236,13 @@ $$
 
 est lipschitzienne (dans $I \times H$).
 
-#### Exemple {#fvr-iv-s1-n4-exa-1 .statement}
+#### Exemple {#fvr-iv-s1-n4-exa-1 .statement tag=08BN}
 
 Lorsque $E = \mathbf{R}$, et que H est un intervalle dans $\mathbf{R}$, si en tout point $(t, x)$ de $I \times H$ la fonction $f(t, x)$ admet une dérivée partielle $f'_x$ (II, p. 24) telle que $|f'_x(t, x)| \leq k(t)$ dans $I \times H$, la condition (8) est vérifiée en vertu du th. des accroissements finis; nous verrons plus tard comment cet exemple se généralise au cas où E est un espace normé quelconque.
 
 Si $\mathbf{f}$ est lipschitzienne dans $I \times H$, pour tout intervalle compact $J \subset I$ et toute boule ouverte $S \subset H$, $\mathbf{f}$ est bornée dans $J \times S$. La prop. 3 (IV, p. 5) est donc applicable, et démontre l’existence de solutions approchées de l’équation (1). Mais on a en outre la proposition suivante, qui permet de comparer deux solutions approchées:
 
-#### Proposition 5 {#fvr-iv-s1-prop-5 .statement}
+#### Proposition 5 {#fvr-iv-s1-prop-5 .statement tag=08BO}
 
 Soient $k(t)$ une fonction numérique réglée et $> 0$ dans I, $\mathbf{f}(t, x)$ une fonction définie et lipschitzienne pour la fonction $k(t)$ dans $I \times H$. Si $u$ et $v$ sont deux solutions approchées de l’équation (1) à $\varepsilon_1$ et $\varepsilon_2$ près respectivement, définies dans I et prenant leurs valeurs dans H, on a, pour tout $t \in I$ tel que $t \geq t_0$,
 
@@ -283,7 +283,7 @@ w(t) \leq w(t_0) + (\varepsilon_1 + \varepsilon_2)(t - t_0) + \int_{t_0}^t k(s)w
 $$
 La proposition est alors conséquence du lemme suivant:
 
-#### Lemme 2 {#fvr-iv-s1-lem-2 .statement}
+#### Lemme 2 {#fvr-iv-s1-lem-2 .statement tag=08BP}
 
 Si, dans l’intervalle $[t_0, t_1]$, $w$ est une fonction numérique continue satisfaisant à l’inégalité
 $$
@@ -316,7 +316,7 @@ $$
 
 et comme $w(t) \leq \varphi(t) + y(t)$, on obtient ainsi (13).
 
-#### Corollaire {#fvr-iv-s1-n4-cor-1 .statement}
+#### Corollaire {#fvr-iv-s1-n4-cor-1 .statement tag=08BQ}
 
 *Soit $\mathbf{f}$ une fonction lipschitzienne pour la constante $k > 0$, définie dans $I \times H$. Si $\mathbf{u}$ et $\mathbf{v}$ sont deux solutions approchées de (1) à $\varepsilon_1$ et $\varepsilon_2$ près respectivement, définies dans $I$ et prenant leurs valeurs dans $H$, on a, pour tout $t \in I$,
 
@@ -332,7 +332,7 @@ $$
 
 déduite de (1) par le changement de variable $t = -s$.
 
-#### Remarque 1 {#fvr-iv-s1-n4-rem-1 .statement}
+#### Remarque 1 {#fvr-iv-s1-n4-rem-1 .statement tag=08BR}
 
 Lorsque $k = 0$, l’inégalité (15) est remplacée par l’inégalité
 
@@ -342,11 +342,11 @@ $$
 
 dont la démonstration est immédiate.
 
-#### Remarque 2 {#fvr-iv-s1-n4-rem-2 .statement}
+#### Remarque 2 {#fvr-iv-s1-n4-rem-2 .statement tag=08BS}
 
 Lorsque $E$ est de dimension *finie*, et que $\mathbf{f}$ est lipschitzienne dans $I \times H$, on peut démontrer l’existence de solutions approchées de l’équation (1) (IV, p. 5, prop. 3) sans utiliser l’axiome de choix (IV, p. 37, exerc. 1b)).
 
-#### Proposition 6 {#fvr-iv-s1-prop-6 .statement}
+#### Proposition 6 {#fvr-iv-s1-prop-6 .statement tag=08BT}
 
 *Soient $\mathbf{f}$ et $\mathbf{g}$ deux fonctions définies dans $I \times H$, satisfaisant aux conditions du lemme 1 de IV, p. 3, et telles que, dans $I \times H$,
 
@@ -368,7 +368,7 @@ autrement dit, $u$ est solution approchée de $x' = g(t, x)$ à $\alpha + \varep
 
 ### 5. Existence et unicité des solutions des équations lipschitziennes et localement lipschitziennes
 
-#### Théorème 1 (Cauchy) {#fvr-iv-s1-thm-1 .statement}
+#### Théorème 1 (Cauchy) {#fvr-iv-s1-thm-1 .statement tag=08BU}
 
 Soient $f$ une fonction lipschitzienne dans $I \times H$, J un intervalle compact contenu dans I et non réduit à un point, $t_0$ un point de J, S une boule ouverte de centre $x_0$ et de rayon r, contenue dans H, M la borne supérieure de $\|f(t, x)\|$ dans $J \times S$. Dans ces conditions, pour tout intervalle compact K non réduit à un point, contenu dans l’intersection de J et de $]t_0 - r/M, t_0 + r/M[$ et contenant $t_0$, il existe une solution et une seule de l’équation différentielle $x' = f(t, x)$, définie dans K, à valeurs dans S et égale à $x_0$ au point $t_0$.
 
@@ -382,7 +382,7 @@ Nous dirons qu’une fonction $f$ définie dans $I \times H$ est localement lips
 
 Nous allons généraliser et préciser le th. 1 de IV, p. 10 pour les équations localement lipschitziennes; nous nous bornerons au cas où $t_0$ est l’origine de l’intervalle I; on passe aisément de là au cas où $t_0$ est un point quelconque de I (cf. IV, IV, p. 9, corollaire).
 
-#### Théorème 2 {#fvr-iv-s1-thm-2 .statement}
+#### Théorème 2 {#fvr-iv-s1-thm-2 .statement tag=08BV}
 
 Soient $I \subset \mathbf{R}$ un intervalle (non réduit à un point) d’origine $t_0 \in I$, $H$ une partie ouverte non vide de $E$, $f$ une fonction localement lipschitzienne dans $I \times H$.
 
@@ -406,7 +406,7 @@ Si $K$ est une partie compacte de $H$, $\overline{u}^1(K)$ est fermé dans $J$; 
 
 3° Supposons que $J$ soit borné et que $\|\mathbf{f}(t, u(t))\| \leq M$ dans $J$; on a donc $\|u'(t)\| \leq M$ dans le complémentaire d’une partie dénombrable de $J$; par suite $\|u(s) - u(t)\| \leq M|s - t|$ quels que soient $s$ et $t$ dans $J$, en vertu du th. des accroissements finis; d’après le critère de Cauchy, $u$ a donc une limite à gauche $c$ à l’extrémité $\beta$ de $J$. Si $J \neq I$, $c$ ne peut appartenir à $H$, car en prolongeant $u$ par continuité au point $\beta$, $u$ serait une intégrale de (1) à valeurs dans $H$, définie dans l’intervalle $[t_0, \beta]$ et égale à $x_0$ au point $t_0$; on aurait donc $J = [t_0, \beta[$, contrairement à ce qu’on a vu au 2°.
 
-#### Corollaire 1 {#fvr-iv-s1-thm-2-cor-1 .statement}
+#### Corollaire 1 {#fvr-iv-s1-thm-2-cor-1 .statement tag=08BW}
 
 Si $H = E$ et $J \neq I$, $\mathbf{f}(t, u(t))$ n’est pas bornée dans $J$; si de plus $E$ est de dimension finie, $\|u(t)\|$ a pour limite à gauche $+\infty$ à l’extrémité de $J$.
 
@@ -414,25 +414,25 @@ La première partie est une conséquence immédiate de la troisième partie du t
 
 Si $E$ est de dimension infinie, il peut se faire que $J \neq I$, mais que $\|u(t)\|$ reste bornée lorsque $t$ tend vers l’extrémité de $J$ (IV, p. 37, exerc. 5).
 
-#### Corollaire 2 {#fvr-iv-s1-thm-2-cor-2 .statement}
+#### Corollaire 2 {#fvr-iv-s1-thm-2-cor-2 .statement tag=08BX}
 
 Si, dans $I \times H$, $\mathbf{f}$ est lipschitzienne pour une fonction réglée $k(t)$, et si l’extrémité $\beta$ de $J$ appartient à $I$, $u$ a une limite à gauche au point $\beta$; si $H = E$ et si $\mathbf{f}$ est lipschitzienne pour une fonction réglée $k(t)$ dans $I \times E$, on a $J = I$.
 
 En effet, si $\beta \in I$, il existe un voisinage compact $V$ de $\beta$ dans $I$, tel que $\mathbf{f}(t, x_0)$ et $k(t)$ soient bornées dans $V$; on a donc $\|\mathbf{f}(t, x)\| \leq m\|x\| + h$ ($m$ et $h$ constantes) dans $V \times H$, d’où $\|u'(t)\| \leq m\|u(t)\| + h$ dans le complémentaire d’une partie dénombrable de $V \cap J$, et par suite $\|u(t)\| \leq m \int_{t_0}^t \|u(s)\| ds + q$ ($q$ constante) dans $V \cap J$; le lemme 2 (IV, p. 8) montre que $\|u(t)\| \leq c e^{mt} + d$ ($c$ et $d$ constantes) dans $V \cap J$, donc $\mathbf{f}(t, u(t))$ reste bornée dans $J$, et le corollaire résulte alors du th. 2 de IV, p. 11.
 
-#### Exemple 1 {#fvr-iv-s1-n5-exa-1 .statement}
+#### Exemple 1 {#fvr-iv-s1-n5-exa-1 .statement tag=08BY}
 
 Pour une équation différentielle de la forme $x' = g(t)$, où $g$ est réglée dans $I$, toute intégrale $u$ est évidemment définie dans $I$ tout entier. On notera que $u$ peut être bornée dans $I$ sans que $g(t)$ le soit.
 
-#### Exemple 2 {#fvr-iv-s1-n5-exa-2 .statement}
+#### Exemple 2 {#fvr-iv-s1-n5-exa-2 .statement tag=08BZ}
 
 Pour l’équation scalaire $x' = \sqrt{1 - x^2}$, on a $I = \mathbf{R}$, $H = ]-1, 1[$. Si on prend $t_0 = x_0 = 0$, l’intégrale correspondante est $\sin t$ dans le plus grand intervalle contenant 0, où la dérivée de $\sin t$ soit positive, c’est-à-dire dans $]-\pi/2, +\pi/2[$; aux extrémités de cet intervalle, l’intégrale tend vers une extrémité de $H$.
 
-#### Exemple 3 {#fvr-iv-s1-n5-exa-3 .statement}
+#### Exemple 3 {#fvr-iv-s1-n5-exa-3 .statement tag=08C0}
 
 Pour l’équation scalaire $x' = 1 + x^2$, on a $I = H = \mathbf{R}$; l’intégrale nulle pour $t = 0$ est $\operatorname{tg} t$, et le plus grand intervalle contenant 0, où cette fonction est continue, est $J = ]-\pi/2, +\pi/2[$; aux extrémités de $J$, $|\operatorname{tg} t|$ tend vers $+\infty$ (cf. IV, p. 12, cor. 1).
 
-#### Exemple 4 {#fvr-iv-s1-n5-exa-4 .statement}
+#### Exemple 4 {#fvr-iv-s1-n5-exa-4 .statement tag=08C1}
 
 Pour l’équation scalaire $x' = \sin tx$, on a $I = H = \mathbf{R}$ et le second membre est borné dans $I \times H$, donc (IV, p. 12, cor. 1) toute intégrale est définie dans $\mathbf{R}$ tout entier.
 
@@ -446,7 +446,7 @@ $$
 
 est « voisine » d’une équation lipschitzienne $\mathbf{x}' = \mathbf{g}(t, \mathbf{x})$ et qu’on suppose que les deux équations admettent chacune une solution approchée dans un même intervalle, ces deux solutions approchées sont « voisines »; nous allons préciser ce résultat en montrant que l’existence de solutions de l’équation lipschitzienne $\mathbf{x}' = \mathbf{g}(t, \mathbf{x})$ dans un intervalle entraîne celle de solutions approchées de l’équation $\mathbf{x}' = \mathbf{f}(t, \mathbf{x})$ dans le même intervalle pourvu que, dans ce dernier, les valeurs de la solution de $\mathbf{x}' = \mathbf{g}(t, \mathbf{x})$ ne soient pas « trop voisines » de la frontière de H.
 
-#### Proposition 7 {#fvr-iv-s1-prop-7 .statement}
+#### Proposition 7 {#fvr-iv-s1-prop-7 .statement tag=08C2}
 
 Soient $\mathbf{f}$ et $\mathbf{g}$ deux fonctions définies dans $I \times H$, satisfaisant aux conditions du lemme 1 de IV, p. 3, et telles que, dans $I \times H$
 
@@ -472,7 +472,7 @@ dans l’intervalle $[t_0, t_1[$ (en vertu de la prop. 6; dans l’intervalle co
 
 Comme $v_0$ est solution approchée de $x' = g(t, x)$ à $\alpha$ près dans $[t_0, t_1[$, il existe un nombre $M > 0$ tel que $\|v'_0(t)\| \leq M$ dans cet intervalle, sauf aux points d’un ensemble dénombrable; le th. des accroissements finis montre alors que $\|v_0(s) - v_0(t)\| \leq M|s - t|$ pour tout couple de points $s, t$ de $[t_0, t_1[$, donc (critère de Cauchy) $v_0(t)$ a une limite à gauche $c$ au point $t_1$, et, par continuité, on a $\|c - u(t_1)\| \leq \varphi(t_1)$, donc $c \in H$. On voit alors par IV, p. 10, th. 1 ou IV, p. 6, corollaire, qu’il existe une intégrale de $x' = f(t, x)$ définie dans un intervalle $[t_1, t_2[$ et égale à $c$ au point $t_1$, ce qui contredit la définition de $v_0$.
 
-#### Théorème 3 {#fvr-iv-s1-thm-3 .statement}
+#### Théorème 3 {#fvr-iv-s1-thm-3 .statement tag=08C3}
 
 Soient $F$ un espace topologique, $f$ une application de $I \times H \times F$ dans $E$ telle que, pour tout $\xi \in F$, $(t, x) \mapsto f(t, x, \xi)$ soit lipschitzienne dans $I \times H$, et que, lorsque $\xi$ tend vers $\xi_0$, $f(t, x, \xi)$ tende uniformément vers $f(t, x, \xi_0)$ dans $I \times H$. Soit $u_0(t)$ une intégrale de $x' = f(t, x, \xi_0)$, définie dans un intervalle $J = [t_0, b[$ contenu dans $I$, à valeurs dans $H$ et égale à $x_0$ au point $t_0$. Pour tout intervalle compact $(t_0, t_1]$ contenu dans $J$, il existe un voisinage $V$ de $\xi_0$ dans $F$ tel que, pour tout $\xi \in V$, l’équation $x' = f(t, x, \xi)$ ait une intégrale (et une seule) $u(t, \xi)$ définie dans $(t_0, t_1]$, à valeurs dans $H$ et égale à $x_0$ au point $t_0$; en outre, lorsque $\xi$ tend vers $\xi_0$, $u(t, \xi)$ tend uniformément vers $u_0(t)$ dans $(t_0, t_1]$.
 
@@ -482,7 +482,7 @@ $$
 $$
 dans $(t_0, t_1]$, ce qui achève de démontrer le théorème.
 
-#### Remarque {#fvr-iv-s1-n6-rem-1 .statement}
+#### Remarque {#fvr-iv-s1-n6-rem-1 .statement tag=08C4}
 
 Lorsque $H = E$ et que la condition (16) de IV, p. 13, est vérifiée dans $I \times E$, la prop. 7 de IV, p. 13, s’applique à toute solution $u$ de $x' = g(t, x)$, dans un intervalle quelconque où cette solution est définie; on peut même supposer que $g(t, x)$ est lipschitzienne pour une fonction $k(t)$ réglée dans $K$, mais non nécessairement bornée dans cet intervalle.
 
@@ -490,7 +490,7 @@ Lorsque $H = E$ et que la condition (16) de IV, p. 13, est vérifiée dans $I \t
 
 Soit $x' = f(t, x)$ une équation localement lipschitzienne dans $I \times H$; d’après le th. 2 (IV, p. 11), pour tout point $(t_0, x_0)$ de $I \times H$, il existe un plus grand intervalle $J(t_0, x_0) \subset I$, non réduit à un point, contenant $t_0$, et dans lequel il existe une intégrale (et une seule) de l’équation, égale à $x_0$ au point $t_0$; nous allons préciser la manière dont cette intégrale, et l’intervalle $J(t_0, x_0)$ où elle est définie, dépendent du point $(t_0, x_0)$.
 
-#### Théorème 4 {#fvr-iv-s1-thm-4 .statement}
+#### Théorème 4 {#fvr-iv-s1-thm-4 .statement tag=08C5}
 
 Soient $f$ une fonction localement lipschitzienne dans $I \times H$, $(a, b)$ un point quelconque de $I \times H$.
 

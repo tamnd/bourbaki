@@ -24,7 +24,7 @@ subsections:
       pdf_page: 253
 statements: 13
 exercises: 4
-content_sha256: 7fa7cfebdd4c555cde4b861239162c5c3f35121819f23e8e58e8d5e3f36f712c
+content_sha256: 9ffc78d8b8bafe54f0d87fa6911cb465ace55652c3a2720fbf7b57614c7c1b71
 ---
 
 ## § 10. Le groupe des automorphismes d’un groupe de Lie
@@ -33,7 +33,7 @@ Dans ce paragraphe, on suppose que K est de caractéristique zéro.
 
 ### 1. Automorphismes infinitésimaux
 
-#### Lemme 1 {#lie-iii-s10-lem-1 .statement}
+#### Lemme 1 {#lie-iii-s10-lem-1 .statement tag=0AL6}
 
 Soient G un groupe de Lie, α un champ de vecteurs sur G. Pour tout g ∈ G, soit β(g) = α(g)g⁻¹ ∈ L(G). Les conditions suivantes sont équivalentes:
 (i) α est un homomorphisme du groupe G dans le groupe T(G);
@@ -54,11 +54,11 @@ $$
 $$
 donc (ii) ⇔ (iii).
 
-#### Définition 1 {#lie-iii-s10-def-1 .statement}
+#### Définition 1 {#lie-iii-s10-def-1 .statement tag=0AL7}
 
 Soit G un groupe de Lie. On appelle automorphisme infinitésimal de G tout champ de vecteurs analytique sur G vérifiant les conditions du lemme 1.
 
-#### Lemme 2 {#lie-iii-s10-lem-2 .statement}
+#### Lemme 2 {#lie-iii-s10-lem-2 .statement tag=0AL8}
 
 Soient K′ un sous-corps fermé non discret de K, A une K′-variété, B et C des K-variétés, f une application K′-analytique de A × B dans C. On suppose que, pour tout a ∈ A, l’application b ↦ f(a, b) de B dans C est K-analytique. Alors, pour tout t ∈ TA, l’application u ↦ (Tf)(t, u) de TB dans TC est K-analytique.
 
@@ -85,13 +85,13 @@ $$
 $$
 et, pour $\lambda$ fixé, l’application $x \mapsto f(\lambda t, x)$ est K-analytique, de sorte que l’application $h \mapsto (D_2 f)(\lambda t, x)(h)$ est K-linéaire.
 
-#### Proposition 1 {#lie-iii-s10-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s10-prop-1 .statement tag=0AL9}
 
 *Soient K' un sous-corps fermé non discret de K, G un groupe de Lie sur K, V une variété sur K' et $(v, g) \mapsto vg$ une application K'-analytique de $V \times G$ dans G. On suppose que, pour tout $v \in V$, l’application $g \mapsto vg$ de G dans G soit un automorphisme de G. Soient $e$ un élément de V tel que $eg = g$ pour tout $g \in G$, et $a \in T_e(V)$. Alors le champ de vecteurs $g \mapsto ag$ sur G est un automorphisme infinitésimal de G.*
 
 Pour $v \in V$, $g_1 \in G$, $g_2 \in G$, on a $v(g_1 g_2) = (vg_1)(vg_2)$. Donc, pour $u_1 \in TG$, $u_2 \in TG$, on a $a(u_1 u_2) = (au_1)(au_2)$ (§ 2, n° 1, prop. 3). En particulier, l’application $g \mapsto ag$ de G dans TG est un homomorphisme de groupes. D’autre part, cette application est analytique d’après le lemme 2.
 
-#### Proposition 2 {#lie-iii-s10-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s10-prop-2 .statement tag=0ALA}
 
 *Soient G un groupe de Lie réel ou complexe, $\alpha$ un automorphisme infinitésimal de G. Il existe une loi d’opération analytique $(\lambda, g) \mapsto \varphi_\lambda(g)$ de K dans G possédant les propriétés suivantes:
 1) si D est la loi d’opération infinitésimale associée, on a $D(1) = \alpha;$
@@ -116,7 +116,7 @@ $$
 $$
 quels que soient $\lambda \in K, g_1 \in G, g_2 \in G$.
 
-#### Proposition 3 {#lie-iii-s10-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s10-prop-3 .statement tag=0ALB}
 
 *On suppose K ultramétrique. Soient G un groupe de Lie compact, $\alpha$ un automorphisme infinitésimal de G. Il existe un sous-groupe ouvert I de K et une loi d’opération analytique $(\lambda, g) \mapsto \varphi_\lambda(g)$ de I dans G possédant les propriétés suivantes:
 1) *si D est la loi d’opération infinitésimale associée, on a $D(1) = \alpha$;
@@ -133,7 +133,7 @@ $$
 $$
 et $(f_{g_1} f_{g_2})(0) = g_1 g_2 = f_{g_1 g_2}(0)$. Donc $f_{g'_1 g'_2}(\lambda) = f_{g'_1}(\lambda) f_{g'_2}(\lambda)$ pour $(g'_1, g'_2, \lambda)$ dans un voisinage de $(g_1, g_2, 0)$ (VAR, R, 9.1.8). Comme G est compact, il existe un sous-groupe ouvert I de I’ tel que $f_{g_1 g_2}(\lambda) = f_{g_1}(\lambda) f_{g_2}(\lambda)$ quels que soient $g_1 \in G, g_2 \in G, \lambda \in I$. Autrement dit, $\varphi_\lambda \in \mathrm{Aut}\, G$ pour $\lambda \in I$.
 
-#### Lemme 3 {#lie-iii-s10-lem-3 .statement}
+#### Lemme 3 {#lie-iii-s10-lem-3 .statement tag=0ALC}
 
 *Soient G et G’ des groupes de Lie, $\varphi$ un homomorphisme de G dans Aut (G’). Posons $f(g, g') = (\varphi(g))(g')$ pour $g \in G, g' \in G'$. Considérons les conditions suivantes:
 
@@ -151,7 +151,7 @@ Cela prouve l’implication ((ii) et (iii)) $\Rightarrow$ (i). Enfin, si $G'$ es
 
 Dans ce n°, on suppose $K = \mathbf{R}$ ou $\mathbf{C}$.
 
-#### Lemme 4 {#lie-iii-s10-lem-4 .statement}
+#### Lemme 4 {#lie-iii-s10-lem-4 .statement tag=0ALD}
 
 Soit $H$ un groupe de Lie simplement connexe de dimension finie.
 (i) Pour tout $u \in \mathrm{Aut}\ L(H)$, soit $\theta(u)$ l’unique automorphisme de $H$ tel que $L(\theta(u)) = u$. Alors l’application $(u, g) \mapsto \theta(u)g$ de $(\mathrm{Aut}\ L(H)) \times H$ dans $H$ est analytique.
@@ -179,7 +179,7 @@ donc $p \circ \eta(w) = w \circ p$ et par suite $\eta(w) \in \mathrm{Aut}(H, N)$
 
 Soient G un groupe localement compact, $\Gamma$ le groupe des automorphismes de G. Rappelons qu’on a défini sur $\Gamma$ la topologie $\mathscr{T}_\beta$ (TG, X, § 3, no 5). C’est la topologie la moins fine rendant continues les applications $v \mapsto v$ et $v \mapsto v^{-1}$ de $\Gamma$ dans $\mathscr{C}_c(G;G)$ (espace des applications continues de G dans G muni de la topologie de la convergence compacte). La topologie $\mathscr{T}_\beta$ est compatible avec la structure de groupe de $\Gamma$ (*loc. cit.*). Pour toute partie compacte L de G et tout voisinage U de $e_G$ dans G, soit $N(L, U)$ l’ensemble des $\varphi \in \Gamma$ tels que $\varphi(g) \in gU$ et $\varphi^{-1}(g) \in gU$ pour tout $g \in L$; alors les $N(L, U)$ forment un système fondamental de voisinages de $e_\Gamma$. Si G est engendré par une partie compacte C, la topologie $\mathscr{T}_\beta$ est aussi la topologie la moins fine pour laquelle les applications $v \mapsto v|C$ et $v \mapsto v^{-1}|C$ de $\Gamma$ dans $\mathscr{C}_u(C;G)$ soient continues (car toute partie compacte de G est contenue dans $(C \cup C^{-1})^n$ pour n assez grand). Si K est localement compact et si V est un espace vectoriel de dimension finie sur K, la topologie $\mathscr{T}_\beta$ sur $\mathbf{GL}(V)$ n’est autre que la topologie usuelle.
 
-#### Théorème 1 {#lie-iii-s10-thm-1 .statement}
+#### Théorème 1 {#lie-iii-s10-thm-1 .statement tag=0ALE}
 
 *Soient G un groupe de Lie de dimension finie, $G_0$ sa composante neutre. On suppose que G est engendré par $G_0$ et par un nombre fini d’éléments.*
 (i) *Il existe sur Aut G une structure de variété analytique et une seule vérifiant la condition suivante:*
@@ -268,11 +268,11 @@ D’autre part, il est clair que $\mathrm{L}(\zeta) = f \circ D$. Donc $\mathrm{
 
 Il est clair que $\mathrm{Aut}_1 G$ est ouvert dans Aut G pour la topologie $\mathscr{T}_\beta$. Soit $w \in \mathrm{Aut}\ G$. Soit $\sigma$ l’automorphisme $v \mapsto wvw^{-1}$ de $\mathrm{Aut}_1 G$. Il est analytique réel (§ 8, n° 1, th. 1), $\mathrm{L}(\sigma)$ est un $\mathbf{R}$-automorphisme de $\mathrm{L}(\mathrm{Aut}_1 G)$, et $D \circ \mathrm{L}(\mathrm{Aut}_1 G) \circ D^{-1}$ est un $\mathbf{R}$-automorphisme de $\alpha$. Cet automorphisme est aussi l’automorphisme de $\alpha$ déduit de $w$ par transport de structure; comme $w$ est K-analytique, on voit que $\mathrm{L}(\sigma)$ est K-linéaire. Donc $\sigma$ est K-analytique (§ 3, n° 8, prop. 32). D’après le § 1, n° 9, prop. 18, il existe sur Aut G une structure de K-groupe de Lie et une seule telle que $\mathrm{Aut}_1 G$ soit un sous-groupe de Lie ouvert de Aut G. Le fait que cette structure possède les propriétés du théorème résulte des propriétés correspondantes de $\mathrm{Aut}_1 G$.
 
-#### Corollaire 1 {#lie-iii-s10-thm-1-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s10-thm-1-cor-1 .statement tag=0ALF}
 
 Soient G un groupe de Lie réel de dimension finie, $G_0$ sa composante neutre. On suppose que G est engendré par $G_0$ et par un nombre fini d’éléments. Alors Aut G, muni de la topologie $\mathscr{T}_\beta$, est un groupe de Lie réel de dimension finie.
 
-#### Corollaire 2 {#lie-iii-s10-thm-1-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s10-thm-1-cor-2 .statement tag=0ALG}
 
 Soit G un groupe de Lie réel ou complexe connexe semi-simple. Le groupe Int G est la composante neutre de Aut G.
 
@@ -280,7 +280,7 @@ L’application $u \mapsto L(u)$ est un isomorphisme de Aut G sur un sous-groupe
 
 ### 3. Le groupe des automorphismes d’un groupe de Lie (cas ultramétrique)
 
-#### Théorème 2 {#lie-iii-s10-thm-2 .statement}
+#### Théorème 2 {#lie-iii-s10-thm-2 .statement tag=0ALH}
 
 Lorsque K est ultramétrique localement compact et que G est un groupe de Lie compact, les assertions (i), (ii), (iii), (v), (vi) du th. 1 sont vraies.
 
@@ -299,7 +299,7 @@ c) Passons au cas général. D’après le § 7, n° 1, prop. 1, il existe un so
 
 d), e) : on raisonne exactement comme dans les parties d), e) de la démonstration du th. 1, en remplaçant $\mathbf{R}$ par $\mathbf{Q}_p$ et en utilisant la prop. 3 au lieu de la prop. 2.
 
-#### Remarque {#lie-iii-s10-n3-rem-1 .statement}
+#### Remarque {#lie-iii-s10-n3-rem-1 .statement tag=0ALI}
 
 Si $K = \mathbf{Q}_p$, et si le groupe de Lie G est engendré par une partie compacte (cf. exerc. 2), les assertions (i), (ii), (iii), (vi) du th. 1 sont encore vraies, mais non (v) (exerc. 3).
 

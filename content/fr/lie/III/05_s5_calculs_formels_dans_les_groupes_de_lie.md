@@ -28,7 +28,7 @@ subsections:
       pdf_page: 188
 statements: 8
 exercises: 2
-content_sha256: 57db1b938934ff3d24aec0ae66b8c6f64f8cc88bd34c6237e16755493c34b6cb
+content_sha256: b2616ff39c8f7dd2832511edfae6d41cc8208e6db1ea85228f24b24725cd8a0f
 ---
 
 ## § 5. Calculs formels dans les groupes de Lie
@@ -244,7 +244,7 @@ où le second membre est une série entière convergente par rapport à la varia
 
 Si $t \in \mathbf{K}$, toutes les applications puissance $t$-ème de $G$ ont même développement en série entière à l’origine, puisque deux quelconques d’entre elles coïncident dans un voisinage de 0. Nous noterons $x^{[t]}$ ce développement en série entière.
 
-#### Proposition 2 {#lie-iii-s5-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s5-prop-2 .statement tag=0AE2}
 
 (i) *On a* $\psi_j \equiv 0 \mod \deg j$.
 (ii) *Si* $t \in \mathbf{K}$, *on a*
@@ -301,7 +301,7 @@ Cela établi, posons $x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$ pour 
 
 Comme $x^{[t]} = x^{[t]'}$ pour $t$ entier $\geq 0$, on conclut de là que $x^{[t]} = x^{[t]'}$ pour tout $t \in K$.
 
-#### Remarque 1 {#lie-iii-s5-n3-rem-1 .statement}
+#### Remarque 1 {#lie-iii-s5-n3-rem-1 .statement tag=0AE3}
 
 Ecrivons la condition (ii) de la prop. 2 pour $t$ entier $\geq 0$:
 
@@ -316,7 +316,7 @@ $$
 
 Ces formules suffisent à déterminer les $\psi_i$.
 
-#### Remarque 2 {#lie-iii-s5-n3-rem-2 .statement}
+#### Remarque 2 {#lie-iii-s5-n3-rem-2 .statement tag=0E8G}
 
 On voit que $\psi_0(x) = 0$, $\psi_1(x) = x$, $\psi_2(x) = x^{[2]} - 2x$,
 
@@ -324,7 +324,7 @@ $$
 x^{[-1]} = \sum_{i=1}^\infty (-1)^i \psi_i(x).
 $$
 
-#### Remarque 3 {#lie-iii-s5-n3-rem-3 .statement}
+#### Remarque 3 {#lie-iii-s5-n3-rem-3 .statement tag=0E8H}
 
 L’expression précédente de $\psi_2$ et la formule (6) prouvent que
 
@@ -340,7 +340,7 @@ $$
 x^{[t]} \equiv tx + \binom{t}{2} B(x, x) \mod \deg 3.
 $$
 
-#### Remarque 4 {#lie-iii-s5-n3-rem-4 .statement}
+#### Remarque 4 {#lie-iii-s5-n3-rem-4 .statement tag=0E8I}
 
 Notons $\psi_{p,m}(x)$ et $h_{t,m}(x)$ les composantes homogènes de degré $m$ de $\psi_p(x)$ et de $x^{[t]}$. On a $\psi_{p,m} = 0$ pour $m < p$. D’autre part, la prop. 2 (ii) donne
 
@@ -363,7 +363,7 @@ $$
 \varphi_{m,m}(x) = \frac{1}{m!} \psi_{m,m}(x).
 $$
 
-#### Remarque 5 {#lie-iii-s5-n3-rem-5 .statement}
+#### Remarque 5 {#lie-iii-s5-n3-rem-5 .statement tag=0E8J}
 
 Si $K$ est de caractéristique $> 0$, les résultats des n° 1 et 2 restent valables à condition de définir $e_\alpha$, au n° 2, par $\langle e_\alpha, \sum_\beta \lambda_\beta x^\beta \rangle = \lambda_\alpha$. Au n° 3, si on définit les $\psi_j$ comme ci-dessus, le raisonnement fait prouve encore que $x^{[t]} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$ si $t \in \mathbf{N}$.
 
@@ -371,7 +371,7 @@ Si $K$ est de caractéristique $> 0$, les résultats des n° 1 et 2 restent vala
 
 Soit $E(x)$ le développement en série entière en 0 d’une application exponentielle de G. Soit $L(x)$ le développement en série entière en 0 de l’application réciproque d’une application exponentielle injective de G. Puisque l’application tangente en 0 à toute application exponentielle est l’identité de $L(G)$, on a $E(x) \equiv x \mod \deg 2$ et $L(x) \equiv x \mod \deg 2$. Puisque $E(L(x)) = L(E(x))$ pour $x$ assez voisin de 0, les séries formelles $E$ et $L$ sont telles que $E(L(X)) = L(E(X)) = X$. Un raisonnement analogue montre que $E(tX) = (E(X))^{[t]}$, $L(X^{[t]}) = tL(X)$ pour $t \in K$.
 
-#### Proposition 3 {#lie-iii-s5-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s5-prop-3 .statement tag=0AE4}
 
 On a
 
@@ -437,7 +437,7 @@ E(x) &= \sum_{m \geq 0} \varphi_{m,m}(x) \\
 \end{align*}
 $$
 
-#### Proposition 4 {#lie-iii-s5-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s5-prop-4 .statement tag=0AE5}
 
 *Pour que la carte utilisée de $G$ soit canonique, il faut et il suffit que $\psi_j = 0$ pour $j \geq 2$.*
 

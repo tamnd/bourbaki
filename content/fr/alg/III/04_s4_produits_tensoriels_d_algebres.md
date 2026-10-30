@@ -49,7 +49,7 @@ subsections:
       pdf_page: 440
 statements: 48
 exercises: 2
-content_sha256: a18b0aaf982ca60eec9c3b2dd390885fe59495cb41bdf03f6e9d574d11322b84
+content_sha256: 0cf9adecd256ba80f7a414ae3dc2d38b7cb445cfa74d3f51a66c1272dd47e4df
 ---
 
 ## § 4. PRODUITS TENSORIELS D’ALGÈBRES
@@ -85,7 +85,7 @@ $$
 
 d’où, par linéarité, la relation $x(yz) = (xy)z$ quels que soient $x, y, z$ dans E.
 
-#### Définition 1 {#alg-iii-s4-def-1 .statement}
+#### Définition 1 {#alg-iii-s4-def-1 .statement tag=0608}
 
 Etant donnée une famille finie $(E_i)_{i \in I}$ d’algèbres sur $A$, on appelle produit tensoriel de cette famille, et on note $\bigotimes_{i \in I} E_i$ (ou, lorsque $I$ est l’intervalle $[1, n]$ de $\mathbf{N}$, $E_1 \otimes_A E_2 \otimes \cdots \otimes_A E_n$, ou simplement $E_1 \otimes E_2 \otimes \cdots \otimes E_n$) l’algèbre obtenue en munissant le produit tensoriel des $A$-modules $E_i$ de la multiplication définie par (1).
 
@@ -113,7 +113,7 @@ Nous nous bornerons dans le reste de ce $n^o$ aux propriétés des produits tens
 
 Soient $E, F$ deux $A$-algèbres; si $a$ (resp. $b$) est un idéal à gauche de $E$ (resp. $F$), l’image canonique $\operatorname{Im}(a \otimes_A b)$ de $a \otimes_A b$ dans $E \otimes_A F$ est un idéal à gauche de $E \otimes_A F$; on a des énoncés analogues en remplaçant « idéal à gauche » par « idéal à droite » ou « idéal bilatère ». En outre:
 
-#### Proposition 1 {#alg-iii-s4-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s4-prop-1 .statement tag=0609}
 
 Soient $E, F$ deux $A$-algèbres, $a$ (resp. $b$) un idéal bilatère de $E$ (resp. $F$). Alors l’isomorphisme canonique de $A$-modules
 
@@ -125,7 +125,7 @@ $$
 
 Cela résulte de (1) (III, p. 33) et de la définition donnée loc. cit.
 
-#### Corollaire 1 {#alg-iii-s4-prop-1-cor-1 .statement}
+#### Corollaire 1 {#alg-iii-s4-prop-1-cor-1 .statement tag=060A}
 
 Soient $E$ une $A$-algèbre, $a$ un idéal de $A$. Alors le $A$-module $aE$ est un idéal bilatère de $E$, et l’isomorphisme canonique de $(A/a)$-modules
 
@@ -135,15 +135,15 @@ $$
 
 est un isomorphisme de $(A/a)$-algèbres.
 
-#### Corollaire 2 {#alg-iii-s4-prop-1-cor-2 .statement}
+#### Corollaire 2 {#alg-iii-s4-prop-1-cor-2 .statement tag=060B}
 
 Si $a, b$ sont deux idéaux de $A$, la $A$-algèbre $(A/a) \otimes_A (A/b)$ est canoniquement isomorphe à $A/(a + b)$.
 
-#### Corollaire 3 {#alg-iii-s4-prop-1-cor-3 .statement}
+#### Corollaire 3 {#alg-iii-s4-prop-1-cor-3 .statement tag=060C}
 
 Soient $E, F$ deux $A$-algèbres, $a$ un idéal de $A$ contenu dans l’annulateur de $F$. Alors la $(A/a)$-algèbre $E \otimes_A F$ est canoniquement isomorphe à $(E/aE) \otimes_{A/a} F$.
 
-#### Proposition 2 {#alg-iii-s4-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s4-prop-2 .statement tag=060D}
 
 Soient $(E_\lambda)_{\lambda \in L}$ et $(F_\mu)_{\mu \in M}$ deux familles de $A$-algèbres. L’application canonique (II, p. 61)
 
@@ -155,7 +155,7 @@ est un isomorphisme d’algèbres.
 
 Cela résulte aussitôt de II, p. 61, prop. 7 et de la définition de la multiplication dans $E \otimes F$.
 
-#### Proposition 3 {#alg-iii-s4-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s4-prop-3 .statement tag=060E}
 
 Soient $A, B$ deux anneaux commutatifs, $\varphi : A \to B$ un homomorphisme d’anneaux, $E, F$ deux $A$-algèbres. Alors l’isomorphisme canonique de $B$-modules
 
@@ -165,7 +165,7 @@ $$
 
 (II, p. 83, prop. 3) est un isomorphisme de $B$-algèbres.
 
-#### Proposition 4 {#alg-iii-s4-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s4-prop-4 .statement tag=060F}
 
 Soient $A, B$ deux anneaux commutatifs, $\varphi : A \to B$ un homomorphisme d’anneaux, $E$ une $A$-algèbre, $F$ une $B$-algèbre. Alors l’isomorphisme canonique de $A$-modules
 
@@ -206,7 +206,7 @@ En effet, les éléments $e_s \otimes e_t$ (resp. $e_{(s, t)}$), où s parcourt 
 
 ### 2. Caractérisation universelle des produits tensoriels d’algèbres
 
-#### Proposition 5 {#alg-iii-s4-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s4-prop-5 .statement tag=060G}
 
 *Soit* $(E_i)_{i \in I}$ *une famille finie de A-algèbres*, *et, pour chaque* $i \in I$, *soit* $e_i$ *l’élément unité de* $E_i$. *Pour chaque* $i \in I$, *soit* $u_i : E_i \to E = \bigotimes_{k \in I} E_k$ *l’application A-linéaire défini par*
 
@@ -260,7 +260,7 @@ ce qui, par linéarité, achève la démonstration.
 
 Le couple formé de E et de l’application canonique $\varphi : (x_i) \to \bigotimes_i x_i$ de $\prod_i E_i$ dans E est solution du *problème d’application universelle* (E, IV, p. 23) où $\Sigma$ est l’espèce de structure de A-algèbre, les morphismes étant les homomorphismes de A-algèbres, et les $\alpha$-applications les applications $\prod_i u_i$ de $\prod_i E_i$ dans une A-algèbre, telles que les $u_i$ soient des homomorphismes de A-algèbres, et que $u_i(x_i)$ et $u_j(x_j)$ permutent pour $i \neq j$, quels que soient $x_i \in E_i$ et $x_j \in E_j$.
 
-#### Corollaire {#alg-iii-s4-n2-cor-1 .statement}
+#### Corollaire {#alg-iii-s4-n2-cor-1 .statement tag=060H}
 
 *Soient* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *deux familles finies de A-algèbres*, et, *pour tout* $i \in I$, *soit* $f_i : E_i \to F_i$ *un homomorphisme d’algèbres*. *Si* $u_i : E_i \to \bigotimes_{j \in I} E_j, v_i : F_i \to \bigotimes_{j \in I} F_j$ *sont les homomorphismes canoniques*, *l’application* $f = \bigotimes_i f_i$ *(cf. III, p. 34)* *est l’unique homomorphisme de A-algèbres tel que* $f \circ u_i = v_i \circ f_i$ *pour tout* $i \in I$.
 
@@ -278,7 +278,7 @@ On notera que si $E$ est une $A$-algèbre commutative, la structure d’anneau d
 
 ### 3. Modules et multimodules sur les produits tensoriels d’algèbres
 
-#### Définition 2 {#alg-iii-s4-def-2 .statement}
+#### Définition 2 {#alg-iii-s4-def-2 .statement tag=060I}
 
 Soit $E$ une $A$-algèbre (unifère). On appelle $E$-module à gauche (resp. à droite) un module à gauche (resp. à droite) sur l’anneau sous-jacent à $E$.
 
@@ -292,7 +292,7 @@ $$
 
 de sorte que pour tout $s \in E$, l’homothétie $h_s : x \mapsto sx$ de $M$ est un endomorphisme de la structure sous-jacente de $A$-module. Inversement, la donnée d’une structure de $E$-module sur $M$ équivaut à la donnée d’une structure de $A$-module sur $M$ et d’un homomorphisme de $A$-algèbres $s \mapsto h_s$ de $E$ dans $\operatorname{End}_A(M)$.
 
-#### Définition 3 {#alg-iii-s4-def-3 .statement}
+#### Définition 3 {#alg-iii-s4-def-3 .statement tag=060J}
 
 Soient $E$ et $F$ deux $A$-algèbres (unifères), $M$ un ensemble muni d’une structure de $E$-module et d’une structure de $F$-module. On dit que $M$ est un bimodule (à gauche) sur les algèbres $E$ et $F$ si ;
 1° $M$ est un bimodule sur les anneaux sous-jacents à $E$ et $F$ (II, p. 33);
@@ -318,7 +318,7 @@ On a ainsi établi une correspondance biunivoque entre les $(E \otimes_A F)$-mod
 
 On a évidemment des énoncés correspondants pour les structures de bimodule à droite, ou lorsque par exemple il s’agit d’une structure de $E$-module à gauche et d’une structure de $F$-module à droite; on parle dans ce cas de $(E, F)$-*bimodule*, et la donnée d’une telle structure revient à celle d’une structure de *bimodule à gauche* sur $E$ et $F^\circ$.
 
-#### Exemple 1 {#alg-iii-s4-n3-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s4-n3-exa-1 .statement tag=060K}
 
 Soit $B$ une $A$-algèbre; l’anneau $B$ est canoniquement muni d’une structure de $(B, B)$-*bimodule* (II, p. 34, *Exemple* 1), et si $e$ est l’élément unité de $B$, on a $(\alpha e)x = x(\alpha e) = \alpha x$ pour tout $x \in B$ et tout $\alpha \in A$; on peut donc considérer $B$ comme un *bimodule à gauche* sur les algèbres $B$ et $B^\circ$ (opposée à $B$); à la structure de $(B, B)$-bimodule de $B$ est donc associée une structure de $(B \otimes_A B^\circ)$-*module* telle que, pour $b, x$ et $b'$ dans $B$, on ait
 $$
@@ -326,7 +326,7 @@ $$
 $$
 le second membre étant le produit dans l’anneau $B$.
 
-#### Exemple 2 {#alg-iii-s4-n3-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s4-n3-exa-2 .statement tag=0DGL}
 
 Soient $E$ et $F$ deux $A$-algèbres, $e, e'$ leurs éléments unités respectifs, $M$ un $E$-module, $N$ un $F$-module; ces structures de module définissent sur $M$ une structure de bimodule sur les anneaux $A$ et $E$, et sur $N$ une structure de bimodule sur les anneaux $A$ et $F$; on en déduit donc sur le produit tensoriel $M \otimes_A N$ une structure de bimodule sur les anneaux $E$ et $F$, définie par
 $$
@@ -351,25 +351,25 @@ Soient $K$ un *corps* commutatif, $E$ et $F$ deux algèbres sur $K$, dont les é
 
 Si $E'$ et $F'$ sont des sous-algèbres de $E$ et $F$ respectivement, l’homomorphisme canonique $E' \otimes_K F' \to E \otimes_K F$ est injectif, et permet d’identifier $E' \otimes_K F'$ à la sous-algèbre de $E \otimes_K F$ engendrée par $E' \cup F'$ (II, p. 108, prop. 14).
 
-#### Proposition 6 {#alg-iii-s4-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s4-prop-6 .statement tag=060L}
 
 *Soient* $E, F$ *deux algèbres sur un corps commutatif* $K$, *non réduites à* $0$, $C$ (resp. $D$) *une sous-algèbre de* $E$ (resp. $F$), $C'$ (resp. $D'$) *la commutante de* $C$ *dans* $E$ (resp. *de* $D$ *dans* $F$). *Alors la commutante de* $C \otimes_K D$ *dans* $E \otimes_K F$ *est* $C' \otimes_K D'$.
 
 Tout revient à voir qu’un élément $z = \sum_i x_i \otimes y_i$ de la commutante de $C \otimes_K D$ ($x_i \in E, y_i \in F$) appartient à $C' \otimes_K D'$; on sait que l’on a $C' \otimes_K D' = (C' \otimes_K F) \cap (E \otimes_K D')$ (II, p. 109, corollaire). On peut supposer les $y_i$ linéairement indépendants sur $K$; pour tout $x \in C$, on doit avoir $(x \otimes e')z = z(x \otimes e')$, c’est-à-dire $\sum_i (xx_i - x_ix) \otimes y_i = 0$, d’où $xx_i = x_ix$ pour tout $i$ (II, p. 62, cor. 1); on doit donc avoir $x_i \in C'$ pour tout $i$, et par suite $z \in C' \otimes_K F$; on montre de même que $z \in E \otimes_K D'$, d’où la proposition.
 
-#### Corollaire {#alg-iii-s4-n4-cor-1 .statement}
+#### Corollaire {#alg-iii-s4-n4-cor-1 .statement tag=060M}
 
 *Si Z et Z' sont les centres respectifs de E et F, le centre de E $\otimes_K$ F est Z $\otimes_K$ Z'._
 
 Soient E et F deux sous-algèbres d’une algèbre G sur un corps commutatif K; supposons que tout élément de E *commute* à tout élément de F. Alors les injections canoniques $i : E \to G,\ j : F \to G$ définissent un homomorphisme canonique $h = i \otimes j : E \otimes_K F \to G$ (III, p. 36, prop. 5) tel que $(i \otimes j)(x \otimes y) = xy$ pour $x \in E, y \in F$.
 
-#### Définition 4 {#alg-iii-s4-def-4 .statement}
+#### Définition 4 {#alg-iii-s4-def-4 .statement tag=060N}
 
 *Etant donnée une algèbre G sur un corps commutatif K, on dit que deux sous-algèbres E, F de G sont linéairement disjointes sur K si elles vérifient les conditions suivantes:
 1° tout élément de E commute à tout élément de F;
 2° l’homomorphisme canonique de E $\otimes_K$ F dans G est injectif.*
 
-#### Proposition 7 {#alg-iii-s4-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s4-prop-7 .statement tag=060O}
 
 *Soient G une algèbre sur un corps commutatif K, E et F deux sous-algèbres de G telles que tout élément de E commute à tout élément de F. Pour que E et F soient linéairement disjointes sur K, il faut et il suffit qu’il existe une base de E sur K qui soit une partie libre de G pour la structure de F-module à droite de G. Lorsqu’il en est ainsi:
 (i) l’homomorphisme canonique $h : E \otimes_K F \to G$ est un isomorphisme de E $\otimes_K$ F sur la sous-algèbre de G engendrée par $E \cup F$;
@@ -377,11 +377,11 @@ Soient E et F deux sous-algèbres d’une algèbre G sur un corps commutatif K; 
 (iii) toute partie libre de E (resp. F) sur K est une partie libre de G pour sa structure de F-module (resp. de E-module) à droite ou à gauche.
 La condition de l’énoncé est évidemment nécessaire, toute base de E sur K étant une base de E $\otimes_K$ F pour sa structure de F-module à droite (II, p. 62, cor. 1). Pour voir que la condition est suffisante, remarquons que l’image H de E $\otimes_K$ F par $h$ est l’ensemble des sommes $\sum_i x_i y_i = \sum_i y_i x_i$ dans G, avec $x_i \in E$ et $y_i \in F$; si $(a_\lambda)$ est une base de E sur K, H est donc aussi le *sous-module* du F-module (à droite ou à gauche) G, engendré par $(a_\lambda)$. La condition de l’énoncé signifie donc qu’il existe une base $(a_\lambda)$ de E qui est aussi une base du F-module H; il en résulte que $h$ est injective. L’assertion (iii) résulte de ce que toute partie libre de E est contenue dans une base de E (II, p. 95, th. 2).
 
-#### Corollaire 1 {#alg-iii-s4-prop-7-cor-1 .statement}
+#### Corollaire 1 {#alg-iii-s4-prop-7-cor-1 .statement tag=060P}
 
 *Pour que l’homomorphisme canonique de E $\otimes_K$ F dans G soit bijectif,* il faut et il suffit qu’il existe une base de E sur K qui soit une base du F-module (à droite ou à gauche) G.
 
-#### Corollaire 2 {#alg-iii-s4-prop-7-cor-2 .statement}
+#### Corollaire 2 {#alg-iii-s4-prop-7-cor-2 .statement tag=060Q}
 
 Soient E, F deux sous-algèbres de G, de rang fini sur K, telles que tout élément de E commute à tout élément de F. Pour que E et F soient linéairement disjointes sur K, il faut et il suffit que la sous-algèbre H de G engendrée par E ∪ F soit telle que
 
@@ -393,7 +393,7 @@ En effet, cela exprime que le rang sur K de l’homomorphisme canonique surjecti
 
 Soient A un anneau commutatif, et $(E_i)_{i \in I}$ une famille quelconque de A-algèbres (unifères). Pour toute partie finie J de I, notons $E_J$ le produit tensoriel $\bigotimes_{i \in J} E_i$ des algèbres $E_i$ d’indice $i \in J$; on note $e_i$ l’élément unité de $E_i$, et $e_J = \bigotimes_{i \in J} e_i$ l’élément unité de $E_J$; on note $f_{J,i}$ l’homomorphisme canonique $E_i \to E_J$ pour $i \in J$ (III, p. 36, prop. 5). Si J, J’ sont deux parties finies de I telles que $J \subset J'$, on en déduit canoniquement (III, p. 36, prop. 5) un homomorphisme $f_{J',J} : E_J \to E_{J'}$ par la condition $f_{J',J} \circ f_{J,i} = f_{J',i}$ pour tout $i \in J$. En outre l’unicité de $f_{J',J}$ entraîne que si J, J’, J'' sont trois parties finies de I telles que $J \subset J' \subset J''$, on a $f_{J'',J} = f_{J'',J'} \circ f_{J',J}$. Autrement dit, $(E_J, f_{J',J})$ est un système inductif de A-algèbres dont l’ensemble d’indices est l’ensemble filtrant croissant $\mathfrak{F}(I)$ des parties finies de I.
 
-#### Définition 5 {#alg-iii-s4-def-5 .statement}
+#### Définition 5 {#alg-iii-s4-def-5 .statement tag=060R}
 
 On appelle produit tensoriel de la famille de A-algèbres $(E_i)_{i \in I}$ la limite inductive E du système inductif $(E_J, f_{J',J})$.
 
@@ -401,7 +401,7 @@ Si I est fini, E s’identifie à $\bigotimes_{i \in I} E_i$. Par abus de notati
 
 Pour toute partie finie J de I, on notera $f_J$ l’homomorphisme canonique $\bigotimes_{i \in J} E_i \to \bigotimes_{i \in I} E_i$ (et on écrira $f_i$ au lieu de $f_{\{i\}}$); si $e$ est l’élément unité de $\bigotimes_{i \in I} E_i$, on a donc $f_J(e_J) = e$ pour tout $J \in \mathfrak{F}(I)$. Il est immédiat que si toutes les algèbres $E_i$ sont commutatives, il en est de même de $\bigotimes_{i \in I} E_i$.
 
-#### Proposition 8 {#alg-iii-s4-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s4-prop-8 .statement tag=060S}
 
 (i) Les homomorphismes $f_i : E_i \to E = \bigotimes_{k \in I} E_k$ sont tels que pour deux indices $i, j$ tels que $i \neq j$, $f_i(x_i)$ et $f_j(x_j)$ commutent dans E quels que soient $x_i \in E_i$ et $x_j \in E_j$; en outre, E est engendrée par la réunion des sous-algèbres $f_i(E_i)$.
 
@@ -411,7 +411,7 @@ Pour toute partie finie J de I, on notera $f_J$ l’homomorphisme canonique $\bi
 
 (ii) Pour toute partie finie J de I, il résulte de III, p. 36, prop. 5 qu’il existe un homomorphisme unique $u_J : E_J \to F$ tel que $u_J \circ f_{J,i} = u_i$ pour tout $i \in J$; on déduit aussitôt de cette propriété d’unicité que, pour $J \subset J'$, on a $u_J = u_{J'} \circ f_{J',J}$; autrement dit, les $u_J$ forment un système inductif d’homomorphismes. Soit $u = \lim_{\longrightarrow} u_J : E \to F$; on a par définition $u_J = u \circ f_J$ pour toute partie finie J de I, et en particulier $u_i = u \circ f_i$ pour tout $i \in I$; l’unicité de u résulte de ces relations et du fait que les $f_i(E_i)$ engendrent l’algèbre E.
 
-#### Corollaire {#alg-iii-s4-n5-cor-1 .statement}
+#### Corollaire {#alg-iii-s4-n5-cor-1 .statement tag=060T}
 
 Soient $(E_i)_{i \in I}, (E'_i)_{i \in I}$ deux familles de A-algèbres ayant même ensemble d’indices, et, pour tout $i \in I$, soit $u_i : E_i \to E'_i$ un homomorphisme d’algèbres. Il existe alors un homomorphisme de A-algèbres et un seul $u : \bigotimes_{i \in I} E_i \to \bigotimes_{i \in I} E'_i$ tel que, pour tout $i \in I$, le diagramme
 
@@ -437,7 +437,7 @@ $$
 
 On désignera par $\bigotimes_{i \in I} x_i$ la valeur commune des $f_J((x_i)_{i \in J})$ pour les parties finies $J \supset H$ de I.
 
-#### Proposition 9 {#alg-iii-s4-prop-9 .statement}
+#### Proposition 9 {#alg-iii-s4-prop-9 .statement tag=060U}
 
 Soit $(E_i)_{i \in I}$ une famille de A-algèbres, et pour chaque $i \in I$, soit B une base de $E_i$ telle que l’élément unité $e_i$ appartienne à $B_i$. Soit $B$ l’ensemble des éléments de la forme $\bigotimes_{i \in I} x_i$, où $(x_i)$ parcourt l’ensemble des éléments de $\prod_{i \in I} B_i$ tels que la famille $(x_i - e_i)$ ait un support fini. Alors $B$ est une base de l’algèbre $\bigotimes_{i \in I} E_i$, et cette base contient l’élément unité $e$.
 
@@ -447,7 +447,7 @@ On dit encore que la base $B$ est le produit tensoriel des bases $B_i$ pour $i \
 
 ### 6. Lemmes de commutation
 
-#### Lemme 1 {#alg-iii-s4-lem-1 .statement}
+#### Lemme 1 {#alg-iii-s4-lem-1 .statement tag=060V}
 
 Soient $A$ un anneau commutatif, $E$ une $A$-algèbre, $(x_i)_{1 \leq i \leq n}$ une suite finie d’éléments de $E$, $(\lambda_i)_{1 \leq i \leq n}$ une suite finie d’éléments de $A$, $y$ un élément de $E$; supposons que l’on ait
 $$
@@ -468,7 +468,7 @@ $$
 $$
 d’où le lemme.
 
-#### Lemme 2 {#alg-iii-s4-lem-2 .statement}
+#### Lemme 2 {#alg-iii-s4-lem-2 .statement tag=060W}
 
 Soient $A$ un anneau commutatif, $E$ une $A$-algèbre, $(x_i)_{1 \leq i \leq n}$ et $(y_i)_{1 \leq i \leq n}$ deux suites finies de $n$ éléments de $E$; supposons que pour $1 \leq j < i \leq n$, on ait
 $$
@@ -492,7 +492,7 @@ $$
 $$
 On observera que, lorsque $\mathbf{A} = \mathbf{Z}$ et $\lambda_{ij} = -1$ pour tout couple $(i, j)$ tel que $1 \leq j < i \leq n$, $\varepsilon_\sigma(\lambda)$ n’est autre que la signature $\varepsilon_\sigma$ de la permutation $\sigma$ (I, p. 62).
 
-#### Lemme 3 {#alg-iii-s4-lem-3 .statement}
+#### Lemme 3 {#alg-iii-s4-lem-3 .statement tag=060X}
 
 *Soient $\mathbf{A}$ un anneau commutatif, $\mathbf{E}$ une $\mathbf{A}$-algèbre, $(x_i)_{1 \leq i \leq n}$ une suite finie d’éléments de $\mathbf{E}$, et supposons que, pour tout couple $(i, j)$ d’entiers tel que $1 \leq j < i < n$, on ait*
 $$
@@ -555,7 +555,7 @@ ce qui achève la démonstration du lemme 3.
 
 ### 7. Produit tensoriel d’algèbres graduées relativement à des facteurs de commutation
 
-#### Définition 6 {#alg-iii-s4-def-6 .statement}
+#### Définition 6 {#alg-iii-s4-def-6 .statement tag=060Y}
 
 Soit $(\Delta_i)_{i \in I}$ une famille finie de monoïdes commutatifs, notés additives ment. On appelle système de facteurs de commutation sur les $\Delta_i$, à valeurs dans un anneau commutatif $\mathbf{A}$, un système d’applications $\varepsilon_{ij} : \Delta_i \times \Delta_j \to \mathbf{A}$, où $i \in I, j \in I, i \neq j$, vérifiant les conditions suivantes:
 
@@ -584,17 +584,17 @@ $$
 
 en vertu de (22) et (23).
 
-#### Exemple 1 {#alg-iii-s4-n7-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s4-n7-exa-1 .statement tag=060Z}
 
 Le système de facteurs de commutation trivial est formé des $\varepsilon_{ij}$ tels que $\varepsilon_{ij}(\alpha_i, \beta_j) = 1$ quels que soient $i, j$, $\alpha_i \in \Delta_i$, $\beta_j \in \Delta_j$.
 
-#### Exemple 2 {#alg-iii-s4-n7-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s4-n7-exa-2 .statement tag=0DGM}
 
 Si on prend $\mathbf{A} = \mathbf{Z}$ et $\Delta_i = \mathbf{Z}$ pour tout $i \in I$, on a un système de facteurs de commutation en prenant $\varepsilon_{ij}(\alpha_i, \beta_j) = (-1)^{\alpha_i \beta_j}$. On notera que ce nombre ne dépend que des parités de $\alpha_i$ et $\beta_j$, et les $\varepsilon_{ij}$ peuvent donc être considérés comme un système de facteurs de commutation lorsque certains des $\Delta_i$ sont égaux à $\mathbf{Z}/2\mathbf{Z}$, les autres à $\mathbf{Z}$.
 
 Ces deux exemples sont les cas les plus fréquents que l’on rencontre dans les applications.
 
-#### Proposition 10 {#alg-iii-s4-prop-10 .statement}
+#### Proposition 10 {#alg-iii-s4-prop-10 .statement tag=0610}
 
 *Soient A un anneau commutatif, $(\Delta_i)_{i \in I}$ une famille finie de monoïdes commutatifs, notés additivement; pour chaque $i \in I$, soit $E_i$ une A-algèbre graduée de type $\Delta_i$. Enfin, soit $(\varepsilon_{ij})$ un système de facteurs de commutation sur les $\Delta_i$, à valeurs dans A. Il existe alors une A-algèbre graduée E de type $\Delta = \prod_{i \in I} \Delta_i$ et, pour chaque $i \in I$, un homomorphisme d’algèbres $h_i : E_i \to E$, ayant les propriétés suivantes:
 
@@ -666,15 +666,15 @@ Il est clair que l’algèbre $E$ et l’application canonique $\psi : \bigotime
 
 Pour un ordre total fixé sur $I$, nous dirons que l’algèbre graduée $E$ définie dans la démonstration de la prop. 10 est un $\varepsilon$-*produit tensoriel gradué de type* $\Delta$ de la famille $(E_i)_{i \in I}$ d’algèbres graduées de types $\Delta_i$, et nous le noterons $\varepsilon \bigotimes_{i \in I} E_i$ (s’il n’y a pas de confusion possible sur l’ordre de $I$); nous noterons de même $\varepsilon \bigotimes_{i \in I} f_i$ l’homomorphisme $f : E \to F$ défini dans la démonstration de la prop. 10. Les homomorphismes $h_i$ sont dits *canoniques*. On écrit aussi $^e G^{\otimes n}$ lorsque $I = \{1, n\}$ et que toutes les $E_i$ sont égales à une même algèbre $G$.
 
-#### Remarque 1 {#alg-iii-s4-n7-rem-1 .statement}
+#### Remarque 1 {#alg-iii-s4-n7-rem-1 .statement tag=0611}
 
 On retrouve le produit tensoriel d’algèbres défini dans III, p. 34 (muni en outre de la graduation produit tensoriel de celles de ses facteurs) lorsque l’on prend $\varepsilon_{ij}(\alpha_i, \beta_j) = 1$ quels que soient $i, j, \alpha_i$ et $\beta_j$.
 
-#### Remarque 2 {#alg-iii-s4-n7-rem-2 .statement}
+#### Remarque 2 {#alg-iii-s4-n7-rem-2 .statement tag=0614}
 
 Supposons que tous les $\Delta_i$ soient égaux à $\mathbf{Z}$, et posons $\varepsilon_{ij}(\alpha_i, \beta_j) = (-1)^{\alpha_i \beta_j}$; le $\varepsilon$-produit tensoriel $\varepsilon \bigotimes_{i \in I} E_i$ correspondant à ce système de facteurs de commutation est alors appelé le produit tensoriel *gauche* des algèbres graduées $E_i$ de type $\mathbf{Z}$, et se note $^g \bigotimes_{i \in I} E_i$ (ou $E \ ^g \bigotimes_A F$ pour deux algèbres, ou $^g G^{\otimes n}$ au lieu de $^e G^{\otimes n}$).
 
-#### Corollaire 1 {#alg-iii-s4-prop-10-cor-1 .statement}
+#### Corollaire 1 {#alg-iii-s4-prop-10-cor-1 .statement tag=0612}
 
 *Avec les notations de la prop. 10 (III, p. 48), supposons en outre que F soit une A-algèbre graduée de type $\Delta$, et que chaque $f_i$ soit un homomorphisme d’algèbres graduées relatif à $\varphi_i : \Delta_i \to \Delta$; alors $f = \varepsilon \bigotimes_{i \in I} f_i$ est un homomorphisme d’algèbres graduées.*
 
@@ -682,7 +682,7 @@ Cela résulte aussitôt de la définition de $f$ et du fait que $\sum_{i \in I} 
 
 On voit donc que $(E, \psi)$ est *aussi* solution d’un second problème d’application universelle, où $\Sigma$ est cette fois l’espèce de structure de *A-algèbre graduée de type* $\Delta$, les morphismes étant les homomorphismes d’algèbres graduées de type $\Delta$, et les $\alpha$-applications les applications $\prod_i f_i$, où en plus des conditions (26) de III, p. 47, on suppose que $f_i$ est un homomorphisme d’algèbres graduées relatif à $\varphi_i$.
 
-#### Corollaire 2 {#alg-iii-s4-prop-10-cor-2 .statement}
+#### Corollaire 2 {#alg-iii-s4-prop-10-cor-2 .statement tag=0613}
 
 Soient $(E_i)_{i \in I}, (F_i)_{i \in I}$ deux familles finies de $A$-algèbres, $E_i$ et $F_i$ étant graduées de type $\Delta_i$ pour tout $i \in I$. Pour chaque $i \in I$, soit $g_i : E_i \to F_i$ un homomorphisme d’algèbres graduées de type $\Delta_i$. Alors, si $h_i : E_i \to \varepsilon \bigotimes_{i \in I} E_i$ et $h'_i : F_i \to \varepsilon \bigotimes_{i \in I} F_i$ sont les homomorphismes canoniques, il existe un homomorphisme de $A$-algèbres graduées de type $\Delta$ et un seul, $g : \varepsilon \bigotimes_{i \in I} E_i \to \varepsilon \bigotimes_{i \in I} F_i$ tel que $g \circ h_i = h'_i \circ g_i$ pour tout $i \in I$. En outre, si chaque $g_i$ est bijectif, il en est de même de $g$.
 
@@ -696,7 +696,7 @@ comme il résulte aussitôt de (30) (III p. 48).
 
 Lorsqu’il s’agit du produit tensoriel gauche d’algèbres graduées de type $\mathbf{Z}$, on écrit $\varepsilon \bigotimes_i f_i$ au lieu de $\varepsilon \bigotimes_i f_i$ pour des homomorphismes $f_i : E_i \to F_i$ d’algèbres graduées de type $\mathbf{Z}$; quand $I = \{1, 2\}$, on écrit aussi $f_1 \varepsilon \otimes f_2$ cet homomorphisme; quand $I = \{1, n\}$, que tous les $E_i$ (resp. $F_i$) sont égaux et tous les $f_i$ égaux à un même homomorphisme $f$, on écrit $\varepsilon f^{\otimes n}$.
 
-#### Remarque {#alg-iii-s4-n7-rem-3 .statement}
+#### Remarque {#alg-iii-s4-n7-rem-3 .statement tag=0DGN}
 
 Dans la démonstration de la prop. 10 (III, p. 47), on s’est servi d’une relation d’ordre total sur $I$ pour définir une structure d’algèbre sur le produit tensoriel $\bigotimes_{i \in I} E_i$ des $A$-modules $E_i$. Si l’on change la relation d’ordre sur $I$, on trouve une autre structure multiplicative sur $\bigotimes_{i \in I} E_i$, mais la nouvelle algèbre ainsi obtenue est canoniquement isomorphe à la précédente, puisque l’une et l’autre sont solutions du même problème d’application universelle. Par exemple, lorsque $I = \{1, 2\}$, l’isomorphisme canonique de l’algèbre $E_1 \varepsilon \otimes_A E_2$ sur l’algèbre $E_2 \varepsilon \otimes_A E_1$ transforme $x_1 \otimes x_2$ en $\varepsilon_{2,1}(\alpha, \beta)x_2 \otimes x_1$, pour $x_1$ homogène de degré $\alpha$ et $x_2$ homogène de degré $\beta$.
 
@@ -707,7 +707,7 @@ $$
 
 où le second membre est le produit de la séquence $(h_i(x_i))_{i \in J}$, et où dans le troisième membre, $x'_i = x_i$ pour $i \in J$, $x'_i = e_i$ pour $i \notin J$.
 
-#### Proposition 11 (« associativité » du $\varepsilon$-produit tensoriel) {#alg-iii-s4-prop-11 .statement}
+#### Proposition 11 (« associativité » du $\varepsilon$-produit tensoriel) {#alg-iii-s4-prop-11 .statement tag=0615}
 
 *Avec les notations de la prop. 10 (III, p. 47), soit $(J_\lambda)_{\lambda \in L}$ une partition de $I$, et posons $\Delta'_\lambda = \prod_{i \in J_\lambda} \Delta_i$ pour tout $\lambda \in L$. Soit $E'_\lambda$ un $\varepsilon$-produit tensoriel gradué de type $\Delta'_\lambda$ de la famille $(E_i)_{i \in J_\lambda}$ (pour un ordre total choisi sur $J_\lambda$). D’autre part, pour $\lambda, \mu$ dans $L$ et $\lambda \neq \mu$, posons, pour $\alpha'_\lambda = (\alpha_i)_{i \in J_\lambda}$, $\beta'_\mu = (\beta_j)_{j \in J_\mu}$,
 
@@ -741,7 +741,7 @@ On peut donc dire que $\varepsilon \bigotimes_{i \in I} E_i$, muni de la graduat
 
 Pour toute partie J de I, l’homomorphisme canonique $\varepsilon \bigotimes_{i \in J} E_i \to \varepsilon \bigotimes_{i \in I} E_i$ (III, p. 50) est, dans le cas actuel, un homomorphisme d’algèbres graduées de type $\Delta_0$, comme il résulte de ce qui précède.
 
-#### Proposition 12 (« associativité » du $\varepsilon$-produit tensoriel d’algèbres graduées de mêmes types) {#alg-iii-s4-prop-12 .statement}
+#### Proposition 12 (« associativité » du $\varepsilon$-produit tensoriel d’algèbres graduées de mêmes types) {#alg-iii-s4-prop-12 .statement tag=0616}
 
 Avec les notations de III, p. 47, prop. 10, supposons que tous les $\Delta_i$ soient égaux à un même monoïde $\Delta_0$; soit $(J_\lambda)_{\lambda \in L}$ une partition de I. Avec les notations de la prop. 11 de III, p. 51, supposons que le second membre de la formule (32) (III, p. 51) ne dépende que des sommes $\alpha''_\lambda = \sum_{i \in J_\lambda} \alpha_i, \beta''_\mu = \sum_{j \in J_\mu} \beta_j$, pour tout couple $(\lambda, \mu)$ d’indices distincts, tout $\alpha'_\lambda \in \Delta'_\lambda$ et tout $\beta'_\mu \in \Delta'_\mu$; désignons par $\varepsilon''_{\lambda \mu}(\alpha''_\lambda, \beta''_\mu)$ le second membre de (32). Alors $(\varepsilon''_{\lambda \mu})$ est un système de facteurs de commutation sur la famille $(\Delta''_\lambda)_{\lambda \in L}$, où $\Delta''_\lambda = \Delta_0$ pour tout $\lambda \in L$. Si $E''_\lambda$ est le $\varepsilon$-produit tensoriel gradué de type $\Delta_0$ de la famille $(E_i)_{i \in J_\lambda}$, il existe un isomorphisme et un seul d’algèbres graduées de type $\Delta_0$, $w : \varepsilon'' \bigotimes_{\lambda \in L} E''_\lambda \to \varepsilon \bigotimes_{i \in I} E_i$, tel que
 $$
@@ -753,17 +753,17 @@ En vertu de l’hypothèse, pour $\gamma, \delta$ dans $\Delta_0$, on a $\vareps
 
 On notera que les hypothèses supplémentaires de la prop. 12 sont remplies lorsque $\Delta_0 = \mathbf{Z}$ et que $(\varepsilon_{ij})$ est, soit le système de facteurs trivial $(\varepsilon_{ij}(\alpha_i, \beta_j) = 1$ quels que soient $i, j$), soit le système de facteurs défini par $\varepsilon_{ij}(\alpha_i, \beta_j) = (-1)^{\alpha_i \beta_j}$; dans ce dernier cas, le second membre de la formule (32) est en effet égal à $(-1)^{\gamma}$, avec $\gamma = \sum_{i \in J_\lambda, j \in J_\mu} \alpha_i \beta_j = (\sum_{i \in J_\lambda} \alpha_i)(\sum_{j \in J_\mu} \beta_j)$.
 
-#### Remarque 1 {#alg-iii-s4-n8-rem-1 .statement}
+#### Remarque 1 {#alg-iii-s4-n8-rem-1 .statement tag=0617}
 
 Soit I un ensemble infini d’indices, $\Delta_0$ un monoïde commutatif; désignons par $(\Delta_i)_{i \in I}$ la famille telle que $\Delta_i = \Delta_0$ pour tout $i$, et supposons donnée, pour tout couple d’indices distincts $(i, j)$ de I, une application $\varepsilon_{ij}: \Delta_i \times \Delta_j \to A$ vérifiant les conditions (22), (23) et (24) (III, p. 46); nous dirons encore que c’est un système de facteurs de commutation sur la famille $(\Delta_i)$. Considérons une famille $(E_i)_{i \in I}$ de A-algèbres graduées de type $\Delta_0$; pour chaque partie finie J de I, désignons par $E_J$ un $\varepsilon$-produit tensoriel gradué de type $\Delta_0$ de la sous-famille $(E_i)_{i \in J}$ (avec un choix arbitraire d’un ordre total sur J). Si J, J' sont deux parties finies de I telles que $J \subset J'$, on a défini ci-dessus un homomorphisme canonique d’algèbres graduées de type $\Delta_0$, $h_{J',J}: E_J \to E_{J'}$, et les propriétés d’unicité de ces homomorphismes montrent aussitôt que si $J \subset J' \subset J''$ sont trois parties finies de I, on a $h_{J'',J} = h_{J'',J'} \circ h_{J',J}$. On a donc un système inductif $(E_J, h_{J',J})$ d’algèbres graduées de type $\Delta_0$ (III, p. 32), dont l’ensemble d’indices est l’ensemble filtrant croissant $\mathscr{F}(I)$ des parties finies de I. L’algèbre graduée de type $\Delta_0$, limite inductive de ce système inductif (III, p. 33) est appelée un $\varepsilon$-produit tensoriel gradué de type $\Delta_0$ de la famille $(E_i)_{i \in I}$; on le note encore $\varepsilon \bigotimes_{i \in I} E_i$. Lorsque tous les $\Delta_i$ sont égaux à $\mathbf{Z}$ et $\varepsilon_{ij}(\alpha_i, \beta_j) = (-1)^{\alpha_i \beta_j}$, on dit encore que le produit tensoriel $\varepsilon \bigotimes_{i \in I} E_i$ est le produit tensoriel gauche de la famille $(E_i)_{i \in I}$ et on le note $^g \bigotimes_{i \in I} E_i$. Nous laissons au lecteur le soin de formuler et de démontrer la proposition qui généralise au cas où I est infini la prop. 10 de III, p. 47, comme la prop. 8 de III, p. 42 généralise au cas où I est infini la prop. 5 de III, p. 36. On notera que le A-module sous-jacent à $\varepsilon \bigotimes_{i \in I} E_i$ est le même que celui sous-jacent au produit tensoriel (non gradué) de la famille $(E_i)_{i \in I}$ d’algèbres non graduées, défini dans III, p. 42.
 
-#### Remarque 2 {#alg-iii-s4-n8-rem-2 .statement}
+#### Remarque 2 {#alg-iii-s4-n8-rem-2 .statement tag=0DGO}
 
 Soient E une A-algèbre graduée de type $\Delta_0$ (où $\Delta_0$ est un monoïde commutatif), et $\rho: A \to B$ un homomorphisme d’anneaux; la graduation de $\rho^*(E)$ (II, p. 174) est identique à la graduation du produit tensoriel gradué $B \otimes_A E$, où B est muni de la graduation triviale.
 
 ### 9. Algèbres anticommutatives et algèbres alternées
 
-#### Définition 7 {#alg-iii-s4-def-7 .statement}
+#### Définition 7 {#alg-iii-s4-def-7 .statement tag=0618}
 
 On dit qu’une A-algèbre graduée E de type $\mathbf{Z}$ est anticommutative si, quels que soient les éléments homogènes non nuls x, y de E, on a
 
@@ -771,25 +771,25 @@ On dit qu’une A-algèbre graduée E de type $\mathbf{Z}$ est anticommutative s
 
 On dit que l’algèbre E est alternée si elle est anticommutative et si de plus $x^2 = 0$ pour tout élément homogène $x \in E$ de degré impair.
 
-#### Remarque 1 {#alg-iii-s4-n9-rem-1 .statement}
+#### Remarque 1 {#alg-iii-s4-n9-rem-1 .statement tag=0619}
 
 Soit $E^+$ la sous-algèbre graduée de $E$ somme directe des $E_{2n}$ ($n \in \mathbf{Z}$); il résulte de la déf. 7 que si $E$ est anticommutative, $E^+$ est une sous-algèbre contenue dans le centre de $E$ (donc commutative).
 
-#### Remarque 2 {#alg-iii-s4-n9-rem-2 .statement}
+#### Remarque 2 {#alg-iii-s4-n9-rem-2 .statement tag=061E}
 
 Supposons que 2 ne soit pas diviseur de 0 dans $E$; alors si $E$ est anticommutative, $E$ est alternée, car pour $x \in E$ homogène et de degré impair, on a $x^2 = -x^2$ d’après (36), d’où $2x^2 = 0$, et $x^2 = 0$ en vertu de l’hypothèse.
 
-#### Remarque 3 {#alg-iii-s4-n9-rem-3 .statement}
+#### Remarque 3 {#alg-iii-s4-n9-rem-3 .statement tag=0DGP}
 
 Nous étudierons en détail dans III, p. 76 à 90, des exemples importants d’algèbres alternées.
 
-#### Lemme 4 {#alg-iii-s4-lem-4 .statement}
+#### Lemme 4 {#alg-iii-s4-lem-4 .statement tag=061A}
 
 Soient $E$ une algèbre graduée du type $\mathbf{Z}$, $S$ un ensemble d’éléments homogènes $\neq 0$; l’ensemble $F$ des éléments de $E$ dont toutes les composantes homogènes $x \neq 0$ satisfont à la relation (36) (III, p. 53) pour tout $y \in S$, est une sous-algèbre graduée de $E$.
 
 Il suffit de noter que: 1° si $x', x''$ sont deux éléments homogènes de même degré $p$, $y$ un élément homogène de degré $q$, et si $x'y = (-1)^{pq}yx'$, $x''y = (-1)^{pq}yx''$, on a aussi $(x' + x'')y = (-1)^{pq}y(x' + x'')$; 2° si $x', x''$ sont deux éléments homogènes de degrés respectifs $p', p''$, $y$ un élément homogène de degré $q$, et si $x'y = (-1)^{p'q}yx'$, $x''y = (-1)^{p''q}yx''$, on a $(x'x'')y = (-1)^{(p' + p'')q}y(x'x'')$.
 
-#### Proposition 13 {#alg-iii-s4-prop-13 .statement}
+#### Proposition 13 {#alg-iii-s4-prop-13 .statement tag=061B}
 
 Soient $E$ une $A$-algèbre graduée de type $\mathbf{Z}$, $S$ un système générateur de l’algèbre $E$ formé d’éléments homogènes $\neq 0$; pour que $E$ soit anticommutative (resp. alternée), il faut et il suffit que (36) (III, p. 53) soit vérifiée, quels que soient $x \in S$ et $y \in S$ (resp. que cette condition soit vérifiée et en outre que $x^2 = 0$ pour tout $x$ homogène de degré impair appartenant à $S$).
 
@@ -797,7 +797,7 @@ Considérons d’abord le cas des algèbres anticommutatives. En vertu du lemme 
 
 Pour prouver la proposition dans le cas des algèbres alternées, on peut déjà supposer $E$ anticommutative; il est immédiat alors que tout élément homogène de degré impair de $E$ est de la forme $\sum_i z_i x_i$, où $z_i \in E^+$ et $x_i \in S$ est de degré impair (utilisant le fait que $E^+$ est contenu dans le centre de $E$); on en déduit $\left( \sum_i z_i x_i \right)^2 = \sum_i z_i^2 x_i^2 + \sum_{i < j} z_i z_j (x_i x_j + x_j x_i) = 0$ puisque $x_i^2 = 0$ par hypothèse et $x_i x_j + x_j x_i = 0$ en vertu de (36).
 
-#### Proposition 14 {#alg-iii-s4-prop-14 .statement}
+#### Proposition 14 {#alg-iii-s4-prop-14 .statement tag=061C}
 
 Soient $E$ et $F$ deux $A$-algèbres graduées de type $\mathbf{Z}$, toutes deux anticommutatives (resp. alternées). Alors le produit tensoriel gauche $E \mathop{\otimes}\limits_A F$ (III, p. 49) est (une algèbre) anticommutative (resp. alternée).
 
@@ -813,13 +813,13 @@ $$
 
 et le critère de la prop. 13 (III, p. 54) montre que $E^g \otimes_A F$ est anticommutative puisque $pq' + pp' + qq' - qp' \equiv (p + q)(p' + q')$ (mod. 2). Si de plus E et F sont alternées et $p + q$ impair, un des nombres $p, q$ est nécessairement impair, donc $(x \otimes y)^2 = \pm (x^2) \otimes (y^2) = 0$, et la prop. 13 montre que $E^g \otimes_A F$ est alternée.
 
-#### Corollaire {#alg-iii-s4-n9-cor-1 .statement}
+#### Corollaire {#alg-iii-s4-n9-cor-1 .statement tag=061D}
 
 *Soit E une A-algèbre graduée de type $\mathbf{Z}$, anticommutative (resp. alternée). Alors, pour tout homomorphisme d’anneaux $\rho : A \to B$, la B-algèbre graduée $\rho^*(E)$ (III, p. 53, Remarque 2) est anticommutative (resp. alternée)*.
 
 En effet, l’anneau B, muni de la graduation triviale, peut être considéré comme une A-algèbre alternée, et $\rho^*(E) = E^g \otimes_A B$, donc on peut appliquer la prop. 14.
 
-#### Remarque {#alg-iii-s4-n9-rem-4 .statement}
+#### Remarque {#alg-iii-s4-n9-rem-4 .statement tag=0DGQ}
 
 Soit E une A-algèbre graduée de type $\mathbf{Z}$ anticommutative. Alors l’application A-linéaire de $E \otimes_A E$ dans E définie par la multiplication de E (III, p. 5) est un homomorphisme de la A-algèbre graduée $E^g \otimes_A E$ dans E, car avec les notations de la prop. 14, on a, dans l’algèbre E, $(xy)(x'y') = (-1)^{qp'}(xx')(yy')$.
 

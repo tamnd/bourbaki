@@ -37,14 +37,14 @@ subsections:
       pdf_page: 383
 statements: 3
 exercises: 17
-content_sha256: cc580553600faae651b7943eeadba958e4028101a52e112dfe1c9051a2cb6aa3
+content_sha256: fc201404a7a205db6f15d21fa9d01ef19669eb40041bcaa87ccd2d1c2e452490
 ---
 
 ## 8. USUAL EXPANSIONS OF REAL NUMBERS; THE POWER OF R
 
 ### 1. APPROXIMATIONS TO A REAL NUMBER
 
-#### Definition 1 {#top-iv-s8-def-1 .statement}
+#### Definition 1 {#top-iv-s8-def-1 .statement tag=0BUG}
 
 Given a number $\varepsilon > 0$, a real number $r$ is said to be an approximation to within $\varepsilon$ to a real number $x$, if $|x - r| \leq \varepsilon$; $r$ is said to be an approximation by defect if $r \leq x$, by excess if $r \geq x$.
 
@@ -160,11 +160,11 @@ First, it is equipotent to the subset $S'$ of S consisting of sequences $(u_n)$ 
 
 Now S is equipotent to $\mathfrak{P}(\mathbf{N})$; for we can define a bijection of $\mathfrak{P}(\mathbf{N})$ onto S by mapping each subset A of $\mathbf{N}$ to the sequence $(u_n)$ such that $u_n = 0$ if $n \in A$ and $u_n = 1$ if $n \notin CA$. We have thus proved:
 
-#### Theorem 1 (Cantor) {#top-iv-s8-thm-1 .statement}
+#### Theorem 1 (Cantor) {#top-iv-s8-thm-1 .statement tag=0BUH}
 
 *The set of real numbers is equipotent to the set of all subsets of a countably infinite set.*
 
-#### Corollary {#top-iv-s8-n6-cor-1 .statement}
+#### Corollary {#top-iv-s8-n6-cor-1 .statement tag=0BUI}
 
 *The set of real numbers has a cardinal strictly greater than the cardinal of a countable set.*
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 219
 statements: 26
 exercises: 10
-content_sha256: cd692f639f782df857efd033848fbac531434721a4cf5266790f85c914b08d88
+content_sha256: 60b95929552c71614d6f9ad9b6358ff87a63492611f0456091007b350fd80a43
 ---
 
 ## § 7. Groupes de Lie sur un corps ultramétrique
@@ -45,30 +45,30 @@ Dans ce paragraphe, le corps valué $K$ est supposé ultramétrique et de caract
 
 ### 1. Passage des algèbres de Lie aux groupes de Lie
 
-#### Proposition 1 {#lie-iii-s7-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s7-prop-1 .statement tag=0AH2}
 
 *Soit* $G$ *un groupuscule de Lie d’élément neutre* $e$. *Il existe un système fondamental de voisinages ouverts de* $e$ *dans* $G$ *formé des sous-groupes de Lie de* $G$.
 
 Munissons $L(G)$ d'une norme compatible avec sa topologie et telle que $\| [x, y] \| \leq \| x \| \| y \|$ quels que soient $x, y$ dans $L(G)$. Soit $G_1$ le groupe de Lie défini par $L(G)$. D'après le , no 2, th. 2, $G$ et $G_1$ sont localement isomorphes. Il suffit alors d'appliquer le § 4, no 2, lemme 3 (iii)
 
-#### Théorème 1 {#lie-iii-s7-thm-1 .statement}
+#### Théorème 1 {#lie-iii-s7-thm-1 .statement tag=0AH3}
 
 *Soit $L$ une algèbre de Lie normable complète. Il existe un groupe de Lie $G$ tel que $L(G)$ soit isomorphe à $L$. Deux tels groupes sont localement isomorphes.*
 La première assertion a été prouvée au § 4, no 2, lemme 3. La deuxième est un cas particulier du § 4, no 2, th. 2.
 
-#### Théorème 2 {#lie-iii-s7-thm-2 .statement}
+#### Théorème 2 {#lie-iii-s7-thm-2 .statement tag=0AH4}
 
 *Soient $G$ un groupe de Lie, $\mathfrak{h}$ une sous-algèbre de Lie de $L(G)$ admettant un supplémentaire topologique. Il existe un sous-groupe de Lie $H$ de $G$ tel que $L(H) = \mathfrak{h}$. Si $H_1$ et $H_2$ sont des sous-groupes de Lie de $G$ tels que $L(H_1) = L(H_2) = \mathfrak{h}$, alors $H_1 \cap H_2$ est ouvert dans $H_1$ et $H_2$.*
 La première assertion résulte de la prop. 1, et du § 4, no 2, th. 3. La deuxième est un cas particulier du § 4, no 2, th. 3.
 
-#### Théorème 3 {#lie-iii-s7-thm-3 .statement}
+#### Théorème 3 {#lie-iii-s7-thm-3 .statement tag=0AH5}
 
 *Soient $G$ et $H$ des groupes de Lie, $\mathfrak{h}$ un morphisme continu de $L(G)$ dans $L(H)$.*
 (i) *Il existe un sous-groupe ouvert $G'$ de $G$ et un morphisme de groupes de Lie $\varphi$ de $G'$ dans $H$ tel que $h = L(\varphi)$.*
 (ii) *Soient $G_1, G_2$ des sous-groupes ouverts de $G$, et $\varphi_i$ un morphisme de $G_i$ dans $H$ tel que $h = L(\varphi_i)$. Alors $\varphi_1$ et $\varphi_2$ coïncident dans un sous-groupe ouvert de $G$.*
 Compte tenu de la prop. 1, cela résulte du § 4, no 1, th. 1.
 
-#### Proposition 2 {#lie-iii-s7-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s7-prop-2 .statement tag=0AH6}
 
 *Soient $G$ un groupe de Lie, $\mathfrak{h}$ une sous-algèbre de Lie de $L(G)$ admettant un supplémentaire topologique. Les conditions suivantes sont équivalentes:*
 (i) *Il existe un sous-groupe ouvert $G'$ de $G$ et un sous-groupe de Lie distingué $H$ de $G'$ tels que $L(H) = \mathfrak{h}$.*
@@ -78,7 +78,7 @@ Supposons que $\mathfrak{h}$ soit un idéal de $L(G)$. Il existe un groupe de Li
 
 ### 2. Applications exponentielles
 
-#### Proposition 3 {#lie-iii-s7-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s7-prop-3 .statement tag=0AH7}
 
 Soit G un groupe de Lie. Il existe une application exponentielle φ de G ayant les propriétés suivantes:
 (i) φ est définie dans un sous-groupe ouvert U du groupe additif L(G);
@@ -87,7 +87,7 @@ Soit G un groupe de Lie. Il existe une application exponentielle φ de G ayant l
 
 Munissons L(G) d’une norme compatible avec sa topologie et telle que $\| [x, y] \| \leq \| x \| \| y \|$ pour x, y dans L(G). Soit G_1 le groupe de Lie défini par L(G). Soit ψ = Id_{G_1}, qui est une application exponentielle de G_1. Pour tout μ > 0, soit L_μ l’ensemble des x ∈ L(G) tels que $\| x \| < \mu$. Alors, pour μ assez petit, L_μ est un sous-groupe ouvert du groupe additif L(G), ψ(L_μ) est un sous-groupe ouvert de G_1 (§ 4, n° 2, lemme 3), ψ|L_μ est un isomorphisme de variétés analytiques de L_μ sur ψ(L_μ), et ψ(nx) = ψ(x)^n pour tout x ∈ L_μ et tout n ∈ \mathbf{Z}. Les L_μ forment un système fondamental de voisinages de 0 dans L(G). D’après le th. 1, il existe un μ et un sous-groupe ouvert G' de G tels que ψ(L_μ) et G' soient isomorphes, d’où la proposition.
 
-#### Proposition 4 {#lie-iii-s7-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s7-prop-4 .statement tag=0AH8}
 
 Soient G un groupe de Lie, φ une application exponentielle injective de G. Supposons p > 0. Quels que soient x, y dans L(G), on a
 (1)
@@ -105,7 +105,7 @@ Ce sont des cas particuliers de la prop. 4 du § 4, n° 3.
 
 Si S(X_1, X_2, \ldots, X_n) est une série formelle à coefficients dans A, alors, quels que soient x_1, \ldots, x_r dans m, la série S(x_1, x_2, \ldots, x_r) est convergente. Plus précisément, m × m × \cdots × m est contenu dans le domaine de convergence stricte de S (VAR, R, 4.1.3).
 
-#### Définition 1 {#lie-iii-s7-def-1 .statement}
+#### Définition 1 {#lie-iii-s7-def-1 .statement tag=0AH9}
 
 Soit r un entier $\geq 0$. On appelle groupe standard de dimension r sur K un groupe de Lie G possédant les propriétés suivantes:
 (i) la variété analytique sous-jacente de G est m × m × \cdots × m (r facteurs);
@@ -117,11 +117,11 @@ On a alors $0.0 = 0$, donc l’élément neutre de $G$ est l’origine de $m \ti
 
 On identifiera $L(G)$ à $K^r$. D’après le § 5, formule (13), les constantes de structure de $L(G)$ par rapport à la base canonique appartiennent à $A$. Il nous arrivera, dans une même démonstration, de considérer les éléments de $m \times \cdots \times m$, tantôt comme des éléments de $G$, tantôt comme des éléments de $L(G)$.
 
-#### Exemple {#lie-iii-s7-n3-exa-1 .statement}
+#### Exemple {#lie-iii-s7-n3-exa-1 .statement tag=0AHA}
 
 Soit $G = 1 + \mathbf{M}_n(m)$, qui est une partie ouverte de $\mathbf{M}_n(K)$. Si $x \in G$, on a $\det x \in 1 + m$, donc $G \subset \mathbf{GL}(n, K)$. Il est clair que $GG \subset G$. Si $x = 1 + y$ avec $y \in \mathbf{M}_n(m)$, le calcul de l’inverse d’une matrice prouve d’abord que $x^{-1} \in \mathbf{M}_n(A)$; si l’on pose $x^{-1} = 1 + y'$, on a $y + y' + yy' = 0$, donc $y' \in \mathbf{M}_n(m)$, et par suite $x^{-1} \in G$. Ainsi, $G$ est un sous-groupe ouvert de $\mathbf{GL}(n, K)$. Identifions $G$ à $m^{n^2}$ grâce à l’application $(\delta_{ij} + y_{ij}) \mapsto (y_{ij})$. Il est clair que $G$ est un groupe standard.
 
-#### Théorème 4 {#lie-iii-s7-thm-4 .statement}
+#### Théorème 4 {#lie-iii-s7-thm-4 .statement tag=0AHB}
 
 *Soit $G$ un groupe de Lie de dimension finie. Il existe un sous-groupe ouvert de $G$ isomorphe à un groupe standard.*
 
@@ -166,7 +166,7 @@ $$
 \omega(x) = \inf (v(x_1), \ldots, v(x_r)).
 $$
 
-#### Proposition 5 {#lie-iii-s7-prop-5 .statement}
+#### Proposition 5 {#lie-iii-s7-prop-5 .statement tag=0AHC}
 
 Soit $G$ un groupe standard.
 
@@ -186,7 +186,7 @@ Si $x \in G$ et $y \in G(a)$, les coordonnées de $x$ et de $x.y$ sont égales m
 
 Si $x \in G(a)$ et $y \in G(a)$, les coordonnées de $x.y$ sont congrues à celles de $x + y$ modulo $G(a^2)$ d’après la formule (4) du § 5. Cela prouve (iv).
 
-#### Corollaire {#lie-iii-s7-n4-cor-1 .statement}
+#### Corollaire {#lie-iii-s7-n4-cor-1 .statement tag=0AHD}
 
 Supposons $\mathbf{K}$ localement compact et soit $q = \mathrm{Card} (\mathbf{A}/m)$.
 
@@ -196,7 +196,7 @@ Supposons $\mathbf{K}$ localement compact et soit $q = \mathrm{Card} (\mathbf{A}
 
 Le nombre d’éléments de $G(a)/G(b)$ est $(\mathrm{Card}(a/b))^r$; si $b = a + 1$, $a/b$ est un espace vectoriel de dimension 1 sur $\mathbf{A}/m$, d’où (i) dans ce cas; le cas général s’en déduit par récurrence sur $b - a$. L’assertion (ii) résulte de (i) et de la prop. 5 (iii).
 
-#### Proposition 6 {#lie-iii-s7-prop-6 .statement}
+#### Proposition 6 {#lie-iii-s7-prop-6 .statement tag=0AHE}
 
 Soient $a, b, c, c'$ des idéaux non nuls de $\mathbf{A}$ contenus dans $m$ tels que
 $$
@@ -223,7 +223,7 @@ x.y.x^{[-1]}.y^{[-1]} - [x,y] \in G(c').
 $$
 Enfin, d’après le § 5, formule (13), on a $[x,y] \in G(ab) \subset G(c)$. C.Q.F.D.
 
-#### Proposition 7 {#lie-iii-s7-prop-7 .statement}
+#### Proposition 7 {#lie-iii-s7-prop-7 .statement tag=0AHF}
 
 (i) *La famille* $(G(a_{\lambda}))$ *est une filtration centrale sur* $G$ (chap. II, § 4, n° 4, déf. 2).
 (ii) *Pour* $\lambda \in \mathbf{R}_+^*$, *on a* $G(a_{\lambda}) = \{ x \in G | \omega(x) \geq \lambda \}$, $G(a_{\lambda}^+) = \{ x \in G | \omega(x) > \lambda \}$.
@@ -239,7 +239,7 @@ D’après le chap. II, § 4, n° 4, on peut former le groupe gr(G) associé au 
 
 On conserve les notations du n° 4.
 
-#### Proposition 8 {#lie-iii-s7-prop-8 .statement}
+#### Proposition 8 {#lie-iii-s7-prop-8 .statement tag=0AHG}
 
 Soient $n \in \mathbf{Z}$, et $h_n$ l’application $x \mapsto x^n$ de G dans G. Soit $a$ un idéal non nul de A contenu dans m, tel que $n \notin a$. Alors $h_n|G(a)$ est un isomorphisme de la variété analytique $G(a)$ sur la variété analytique $G(na)$.
 
@@ -260,13 +260,13 @@ $$
 
 en posant $S(x) = x + \sum_{|\alpha| \geq 2} a_\alpha n^{|\alpha|-2} x^\alpha$. Cette série $S(x)$ définit une application analytique, que nous noterons encore $S$, de $G$ dans $G$. D’après A, IV, § 6, prop. 8, il existe une série entière en $r$ variables à coefficients dans $A^r$ telle que $S'(S(X)) = S(S'(X)) = X$. Donc $S$ est un isomorphisme de la variété analytique $G$ sur elle-même, et, pour tout idéal non nul $b$ de $A$ contenu dans $m$, on a $S(G(b)) \subset G(b), S'(G(b)) \subset G(b)$, donc $S(G(b)) = G(b)$. Comme $h_n(y) = n^2 S\left(\frac{1}{n} y\right)$ pour $y \in nG$, on voit que $h_n|n G(b)$ est un isomorphisme de la variété analytique $n G(b)$ sur la variété analytique $n^2 G(b)$. Or, comme $n \notin a$, on a $|n| > |\lambda|$ pour tout $\lambda \in a$, donc $n^{-1}a \subset m$, donc $a$ est de la forme $nb$ où $b$ est un idéal non nul de $A$ contenu dans $m$.
 
-#### Corollaire {#lie-iii-s7-n5-cor-1 .statement}
+#### Corollaire {#lie-iii-s7-n5-cor-1 .statement tag=0AHH}
 
 *Si $n$ est inversible dans $A$, $h_n$ est un isomorphisme de la variété analytique $G$ sur elle-même. Pour tout idéal non nul $a$ de $A$ contenu dans $m$, on a $h_n(G(a)) = G(a)$. Pour tout $x \in G$, on a $\omega(x^n) = \omega(x)$.*
 
 Cela résulte aussitôt de la prop. 8.
 
-#### Proposition 9 {#lie-iii-s7-prop-9 .statement}
+#### Proposition 9 {#lie-iii-s7-prop-9 .statement tag=0AHI}
 
 *Supposons $p \neq 0$.
 (i) Soient $a, b$ des idéaux non nuls de $A$ tels que $b \subset a \subset m$. Dans le groupe $G(a)/G(b)$, tout élément admet pour ordre une puissance de $p$.
@@ -286,7 +286,7 @@ D’autre part, si $|\alpha| \geq p$, on a $\omega(c_\alpha x^\alpha) \geq p \om
 
 ### 6. Application logarithme
 
-#### Lemme 1 {#lie-iii-s7-lem-1 .statement}
+#### Lemme 1 {#lie-iii-s7-lem-1 .statement tag=0AHJ}
 
 On suppose $p \neq 0$. Soient $G$ un groupe de Lie, $G_1$ un sous-groupe ouvert de $G$ qui soit isomorphe à un groupe standard, et $x \in G$. Les conditions suivantes sont équivalentes:
 (i) il existe une puissance de $x$ qui appartient à $G_1$;
@@ -294,7 +294,7 @@ On suppose $p \neq 0$. Soient $G$ un groupe de Lie, $G_1$ un sous-groupe ouvert 
 (ii) $\Rightarrow$ (i): évident.
 (i) $\Rightarrow$ (ii): supposons que $y = x^m \in G_1$. D’après la prop. 9 (i) du n° 5, $y^{p^n}$ tend vers $e$ quand $n$ tend vers $+ \infty$, autrement dit $x^{mp^n}$ tend vers $e$ quand $n$ tend vers $+ \infty$.
 
-#### Proposition 10 {#lie-iii-s7-prop-10 .statement}
+#### Proposition 10 {#lie-iii-s7-prop-10 .statement tag=0AHK}
 
 On suppose $p \neq 0$. Soit $G$ un groupe de Lie de dimension finie. Soit $G_f$ l’ensemble des $x \in G$ pour lesquels il existe une suite strictement croissante $(n_i)$ d’entiers tels que $x^{n_i}$ tende vers $e$ quand $i$ tend vers $+ \infty$.
 (i) $G_f$ est ouvert dans $G$.
@@ -320,11 +320,11 @@ n \psi'(x) = \psi'(x^n) = \psi(x^n) = n \psi(x)
 $$
 donc $\psi = \psi'$.
 
-#### Définition 2 {#lie-iii-s7-def-2 .statement}
+#### Définition 2 {#lie-iii-s7-def-2 .statement tag=0AHL}
 
 L’application $\psi$ de la prop. 10 s’appelle l’application logarithme de $G$, et se note $\log_G$ ou simplement $\log$.
 
-#### Proposition 11 {#lie-iii-s7-prop-11 .statement}
+#### Proposition 11 {#lie-iii-s7-prop-11 .statement tag=0AHM}
 
 Supposons $p \neq 0$. Soient $x, y$ deux éléments permutables de $G_f$. On a $xy \in G_f$ et $\log(xy) = \log x + \log y$.
 
@@ -341,7 +341,7 @@ $$
 np^i (\log x + \log y) = np^i \log(xy).
 $$
 
-#### Proposition 12 {#lie-iii-s7-prop-12 .statement}
+#### Proposition 12 {#lie-iii-s7-prop-12 .statement tag=0AHN}
 
 Supposons $p \neq 0$. Soit $x \in G_f$. Les conditions suivantes sont équivalentes:
 (i) $\log x = 0$;
@@ -354,25 +354,25 @@ $$
 
 d’où $\log x = 0$. Si $\log x = 0$, soit $V$ un voisinage de $e$ dans $G_f$ tel que $\log|V|$ soit l’application réciproque d’une application exponentielle injective. Il existe un entier $n > 0$ tel que $x^n \in V$; l’égalité $\log x^n = 0$ entraîne $x^n = e$.
 
-#### Proposition 13 {#lie-iii-s7-prop-13 .statement}
+#### Proposition 13 {#lie-iii-s7-prop-13 .statement tag=0AHO}
 
 *Supposons $p \neq 0$. Si $G$ est compact ou standard, on a $G_f = G$.*
 
 Si $G$ est standard, il suffit d’utiliser le lemme 1. Supposons $G$ compact. Soient $x \in G$ et $V$ un voisinage de $e$ dans $G$. Soit $y$ une valeur d’adhérence de la suite $(x^n)_{n \geq 0}$. Quel que soit $n > 0$, il existe deux entiers $n_1, n_2$ tels que $n_1 \geq 2n_2 \geq n$ et $x^{n_1} \in y\, V, x^{n_2} \in y\, V$, d’où $x^{n_1 - n_2} \in V^{-1}V$ et $n_1 - n_2 \geq n$. Donc $x \in G_f$.
 
-#### Corollaire {#lie-iii-s7-n6-cor-1 .statement}
+#### Corollaire {#lie-iii-s7-n6-cor-1 .statement tag=0AHP}
 
 *Supposons $K$ localement compact. Alors $G_f$ est la réunion des sous-groupes compacts de $G$.*
 
 Soit $x \in G$. Si $x$ appartient à un sous-groupe compact de $G$, on a $x \in G_f$ (prop. 13). Supposons $x \in G_f$. Comme $K$ est localement compact, il existe un sous-groupe ouvert $G_1$ de $G$ qui est compact. Puis il existe un entier $m > 0$ tel que $x^m \in G_1$. Le sous-groupe fermé $G_2$ engendré par $x^m$ est contenu dans $G_1$, donc compact. Alors $x$ commute aux éléments de $G_2$, donc $G_2 \cup xG_2 \cup \cdots \cup x^{m-1}G_2$ est un sous-groupe compact de $G$, qui contient $x$.
 
-#### Exemple {#lie-iii-s7-n6-exa-1 .statement}
+#### Exemple {#lie-iii-s7-n6-exa-1 .statement tag=0AHQ}
 
 Supposons $K$ localement compact. Soit $U$ l’ensemble des éléments inversibles de $A$; c’est un sous-groupe ouvert et compact du groupe de Lie $K^*$. On a $U \subset (K^*)_f$, d’après la prop. 13; d’autre part, si $x \in K^*$ est tel que $x \notin U$, ou bien $x^n$ tend vers 0 quand $n$ tend vers $+\infty$, ou bien $x^n$ tend vers 0 quand $n$ tend vers $-\infty$; donc $U = (K^*)_f$. La fonction $\log_{K^*}$ est définie et analytique dans $U$, à valeurs dans $L(K^*) = K$, et telle que $\log_{K^*}(xy) = \log_{K^*}(x) + \log_{K^*}(y)$ quels que soient $x, y$ dans $U$; les éléments $x$ de $U$ tels que $\log_{K^*}(x) = 0$ sont les racines de l’unité de $K$.
 
 On reprend les notations des nos 3, 4, 5.
 
-#### Proposition 14 {#lie-iii-s7-prop-14 .statement}
+#### Proposition 14 {#lie-iii-s7-prop-14 .statement tag=0AHR}
 
 *On suppose que $p \neq 0$ et que $v$ est choisie de telle sorte que $v(p) = 1$. Soient $G$ un groupe standard, $E(X)$ (resp. $L(X)$) le développement en série entière en 0 d’une application exponentielle de $G$ (resp. de l’application logarithme de $G$).
 

@@ -57,7 +57,7 @@ subsections:
       pdf_page: 415
 statements: 20
 exercises: 25
-content_sha256: 3d6e2b598afef6281f6666d1de27e86e4cb85205f55cb991484c265c8ed5d0c4
+content_sha256: f083a5e3cd28431b56c7a48a4d26a7c03e04b3f74da44d865742d8c47b97fb41
 ---
 
 ## § 2. EXEMPLES D’ALGÈBRES
@@ -94,7 +94,7 @@ On peut montrer que toute A-algèbre unifère qui admet une base de deux éléme
 
 Si une base $(e_1, e_2)$ d’une A-algèbre a la table de multiplication (2), on dit que c’est une base de type $(\alpha, \beta)$. Par abus de langage, on dit qu’une algèbre quadratique est de type $(\alpha, \beta)$ lorsqu’elle possède une base de type $(\alpha, \beta)$.
 
-#### Proposition 1 {#alg-iii-s2-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s2-prop-1 .statement tag=05YX}
 
 *Une algèbre quadratique E est associative et commutative.*
 
@@ -113,7 +113,7 @@ $$(\alpha \delta^2 - \gamma^2 - \beta \gamma \delta, 2\gamma + \beta \delta)$$
 
 pour tout $\delta \in A$ inversible et tout $\gamma \in A$. En particulier, si E est de type $(\alpha, 2\beta')$, elle est aussi de type $(\alpha + {\beta'}^2, 0)$ comme on le voit en prenant $\gamma = -\beta'$ et $\delta = 1$.
 
-#### Proposition 2 {#alg-iii-s2-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s2-prop-2 .statement tag=05YY}
 
 *Soient E une A-algèbre quadratique, e son élément unité. Pour tout $u \in E$, soit T(u) la trace de l’endomorphisme $m_u : x \mapsto ux$ du A-module libre E (II, p. 78). Alors l’application s définie par $s(u) = T(u).e - u$ est un automorphisme de l’algèbre E, et l’on a $s^2(u) = u$ pour tout $u \in E$.
 
@@ -152,7 +152,7 @@ $$
 
 La proposition suivante donne la structure des algèbres quadratiques sur un corps commutatif:
 
-#### Proposition 3 {#alg-iii-s2-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s2-prop-3 .statement tag=05YZ}
 
 Soit E une A-algèbre quadratique de type $(\alpha, \beta)$.
 
@@ -172,7 +172,7 @@ Une $A$-algèbre quadratique de type $(0, 0)$ s’appelle aussi une algèbre de 
 
 ### 4. Algèbres cayleyennes
 
-#### Définition 1 {#alg-iii-s2-def-1 .statement}
+#### Définition 1 {#alg-iii-s2-def-1 .statement tag=05Z0}
 
 On appelle algèbre cayleyenne sur $A$ un couple $(E, s)$, où $E$ est une algèbre sur $A$ ayant un élément unité $e$, et $s$ est un antiautomorphisme de $E$ tel que l’on ait
 $$
@@ -205,7 +205,7 @@ u^2 - \text{T}(u).u + \text{N}(u) = 0
 $$
 pour tout $u \in E$.
 
-#### Proposition 4 {#alg-iii-s2-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s2-prop-4 .statement tag=05Z1}
 
 Soient $E$ une $A$-algèbre, $s$ et $s'$ des antiautomorphismes de $E$ tels que $(E, s)$ et $(E, s')$ soient des algèbres cayleyennes. Si $E$ admet une base contenant l’élément unité $e$, on a $s' = s$.
 Il est clair que $s'(u) = s(u) = u$ pour tout $u \in Ae$. Si $T, N$ (resp. $T', N'$) sont les fonctions trace et norme pour $(E, s)$ (resp. $(E, s')$), il résulte de (13) que l’on a
@@ -290,7 +290,7 @@ $$
 t((x, y)) = (\bar{x}, -y) \quad (x \in E, y \in E).
 $$
 
-#### Proposition 5 {#alg-iii-s2-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s2-prop-5 .statement tag=05Z2}
 
 (i) *Le couple* $(F, t)$ *est une algèbre cayleyenne sur* A.
 (ii) *Posons* $j = (0, e)$ *de sorte que* $(x, y) = xe + yj$ *pour* $x \in E, y \in E$. *La trace et la norme cayleyennes* $T_F$ *et* $N_F$ *de* F *sont données par les formules*
@@ -335,7 +335,9 @@ j^2 = e.
 $$
 
 L’algèbre cayleyenne $(F, t)$ est appelée l’*extension cayleyenne de* $(E, s)$ *définie par* $\gamma$.
-*Exemples.* — 1) Si l’on prend $E = A$ (donc $s = 1_A$), l’algèbre F est une *A-algèbre quadratique*, de base $(e, j)$ avec $j^2 = \gamma e$.
+#### Exemples {#alg-iii-s2-n5-exa-1 .statement tag=05Z3}
+
+1) Si l’on prend $E = A$ (donc $s = 1_A$), l’algèbre F est une *A-algèbre quadratique*, de base $(e, j)$ avec $j^2 = \gamma e$.
 
 2) Prenons pour E une algèbre quadratique de type $(\alpha, \beta)$, de sorte que le module sous-jacent à E est $\mathbf{A}^2$, avec la table de multiplication (2) (III, p. 12) pour la base canonique. Prenons pour s la conjugaison dans E (III, p. 13, prop. 2). Alors, pour tout $\gamma \in \mathbf{A}$, l’extension cayleyenne F de $(E, s)$ définie par $\gamma$ est appelée l’algèbre de quaternions de type $(\alpha, \beta, \gamma)$, qui est associative en vertu de III, p. 13, prop. 1 et III, p. 17, prop. 5; son module sous-jacent est $\mathbf{A}^4$, et si l’on note $(e, i, j, k)$ la base canonique de $\mathbf{A}^4$, la table de multiplication correspondante est donnée par
 
@@ -417,7 +419,7 @@ Lorsque $A \neq \{0\}$, on identifie parfois S à son image par l’injection $s
 
 Soient B un second anneau commutatif, et $\rho : A \to B$ un homomorphisme d’anneaux; considérons les algèbres $E = A^{(S)}$ et $E' = B^{(S)}$ d’un même magma S sur A et sur B, et soient $(e_s)_{s \in S}$ et $(e'_s)_{s \in S}$ leurs bases canoniques respectives. L’algèbre $B^{(S)}$ s’identifie canoniquement, par l’application A-linéaire j telle que $j(e_s \otimes 1) = e'_s$ pour tout $s \in S$, à l’algèbre $A^{(S)} \otimes_A B$ obtenue à partir de $A^{(S)}$ par extension à B de l’anneau des scalaires (II, p. 25, cor. 3).
 
-#### Proposition 6 {#alg-iii-s2-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s2-prop-6 .statement tag=05Z4}
 
 *Soient S un magma, F une A-algèbre et f un homomorphisme de S dans F munie de sa seule structure multiplicative. Alors il existe un homomorphisme de A-algèbres $\bar{f} : A^{(S)} \to F$ et un seul rendant commutatif le diagramme*
 
@@ -435,7 +437,7 @@ En effet, soit $\bar{f} : A^{(S)} \to F$ l’unique homomorphisme de A-modules t
 
 La prop. 6 exprime que le couple formé de $A^{(S)}$ et de l’application canonique $s \mapsto e_s$ est solution du problème d’application universelle (E, IV, p. 23), où $\Sigma$ est l’espèce de structure de A-algèbre et les $\alpha$-applications les homomorphismes de S dans une A-algèbre munie de sa seule loi multiplicative.
 
-#### Corollaire {#alg-iii-s2-n6-cor-1 .statement}
+#### Corollaire {#alg-iii-s2-n6-cor-1 .statement tag=05Z5}
 
 *Soient S, S’ deux magmas, g : S $\to$ S’ un homomorphisme. Il existe alors un homomorphisme de A-algèbres u : $A^{(S)} \to A^{(S')}$ et un seul rendant commutatif le diagramme*
 
@@ -453,7 +455,7 @@ Il suffit d’appliquer la prop. 6 en prenant pour f l’application composée $
 
 En particulier, si T est une *partie stable* du magma S (I, p. 6), l’ensemble des éléments $\sum_{s \in T} \alpha_s e_s$ de $A^{(S)}$ est une *sous-algèbre* de $A^{(S)}$ canoniquement isomorphe à l’algèbre $A^{(T)}$, et qu’on identifie parfois à cette dernière.
 
-#### Exemple {#alg-iii-s2-n6-exa-1 .statement}
+#### Exemple {#alg-iii-s2-n6-exa-1 .statement tag=05Z6}
 
 Soient V un A-module, S un monoïde qui *opère à gauche* dans V; cela signifie (I, p. 49) qu’on se donne une application $(s, x) \mapsto s.x$ de S dans V telle que $s.(x + y) = s.x + s.y,\ s.(\alpha x) = \alpha(s.x)$ et $s.(t.x) = (st).x$ pour $s, t$ dans S, $x, y$ dans V et $\alpha \in A$ et que si e désigne l’élément neutre de S, $e.x = x$ pour $x \in V$.
 
@@ -465,7 +467,7 @@ Appliquant alors la méthode décrite ci-dessus, on obtient finalement sur $M$ u
 
 ### 7. Algèbres libres
 
-#### Définition 2 {#alg-iii-s2-def-2 .statement}
+#### Définition 2 {#alg-iii-s2-def-2 .statement tag=05Z7}
 
 *Soit I un ensemble ; désignons par* $M(I)$ (resp. $\mathrm{Mo}(I)$, resp. $\mathbf{N}^{(I)}$) *le magma libre* (I, p. 77) (resp. *le monoïde libre* (I, p. 79), resp. *le monoïde commutatif libre* (I, p. 88)) *construit sur I*. *L’algèbre de* $M(I)$ (resp. $\mathrm{Mo}(I)$, resp. $\mathbf{N}^{(I)}$) *sur* $A$ *s’appelle l’algèbre libre* (resp. *l’algèbre associative libre*, resp. *l’algèbre associative et commutative libre* (ou, par abus de langage, *l’algèbre commutative libre*)) *de l’ensemble* $I$ *sur l’anneau* $A$.
 
@@ -473,25 +475,25 @@ Nous noterons $\mathrm{Lib}_A(I)$ (resp. $\mathrm{Libas}_A(I)$, resp. $\mathrm{L
 
 Comme $\mathrm{Mo}(I)$ et $\mathbf{N}^{(I)}$ ont chacun un élément neutre, $\mathrm{Libas}_A(I)$ et $\mathrm{Libasc}_A(I)$ sont des algèbres associatives unifères, et en outre $\mathrm{Libasc}_A(I)$ est commutative. Si $e$ est l’élément unité de $\mathrm{Libas}_A(I)$ (resp. $\mathrm{Libasc}_A(I)$), l’application $\alpha \mapsto \alpha e$ est un isomorphisme de $A$ sur un sous-anneau du centre de $\mathrm{Libas}_A(I)$ (resp. $\mathrm{Libasc}_A(I)$), qu’on identifie à $A$ (III, p. 19).
 
-#### Proposition 7 {#alg-iii-s2-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s2-prop-7 .statement tag=05Z8}
 
 *Soient I un ensemble, F une algèbre (resp. une algèbre associative unifère, resp. une algèbre associative et commutative unifère) sur A. Pour toute application f : I → F, il existe un homomorphisme (resp. un homomorphisme unifère) et un seul $\bar{f}$ de Lib_A(I) (resp. Libas_A(I), resp. Libasc_A(I)) dans F tel que $\bar{f}(X_i) = f(i)$ pour tout $i \in I$.
 
 Soit $F_m$ le magma (resp. le monoïde) obtenu en munissant l’ensemble F de sa loi de composition multiplicative. Il y a un homomorphisme (resp. un homomorphisme unifère) et un seul g de M(I) (resp. Mo(I), resp. $\mathbf{N}^{(I)}$) dans $F_m$ tel que $g(i) = f(i)$ pour tout $i \in I$ (I, p. 78, p. 79 et p. 88); la prop. 7 résulte donc de III, p. 20, prop. 6.
 
-#### Remarque 1 {#alg-iii-s2-n7-rem-1 .statement}
+#### Remarque 1 {#alg-iii-s2-n7-rem-1 .statement tag=05Z9}
 
 Nous définirons plus loin un isomorphisme de Libas_A(I) sur l’algèbre tensorielle du module libre $A^{(I)}$ (III, p. 62) ainsi qu’un isomorphisme de Libasc_A(I) sur l’algèbre symétrique de $A^{(I)}$ (III, p. 75).
 
-#### Remarque 2 {#alg-iii-s2-n7-rem-2 .statement}
+#### Remarque 2 {#alg-iii-s2-n7-rem-2 .statement tag=0DGF}
 
 Soit $\rho$ un homomorphisme unifère de A dans un anneau commutatif B. Comme on l’a vu dans III, p. 20, on déduit de $\rho$ un isomorphisme $\sigma$ de Lib_B(I) (resp. Libas_B(I), resp. Libasc_B(I)) sur l’algèbre $(\mathrm{Lib}_A(I))_{(B)}$ (resp. $(\mathrm{Libas}_A(I))_{(B)}$, resp. $(\mathrm{Libasc}_A(I))_{(B)}$) obtenue par extension des scalaires à B au moyen de $\rho$; si $X_i^A, X_i^B$ sont les indéterminées d’indice i correspondant respectivement à A et à B, on a $\sigma(X_i^B) = X_i^A \otimes 1$.
 
-#### Remarque 3 {#alg-iii-s2-n7-rem-3 .statement}
+#### Remarque 3 {#alg-iii-s2-n7-rem-3 .statement tag=0DGG}
 
 Soit J une partie de I; on sait que M(J) s’identifie à une partie stable du magma $M(I)$, donc (III, p. 20) $\mathrm{Lib}_A(J)$ s’identifie canoniquement à une sous-algèbre de $\mathrm{Lib}_A(I)$, engendrée par les $X_i$ tels que $i \in J$; on dit qu’un élément de $\mathrm{Lib}_A(J)$ ne fait intervenir que les indéterminées d’indices appartenant à J. La définition donnée dans III, p. 19 de l’algèbre d’un magma montre que $\mathrm{Lib}_A(I)$ est la réunion de la famille filtrante des sous-algèbres $\mathrm{Lib}_A(J)$ lorsque J parcourt l’ensemble des parties *finies* de I. On a des résultats analogues pour Libas_A(I) et Libasc_A(I).
 
-#### Remarque 4 {#alg-iii-s2-n7-rem-4 .statement}
+#### Remarque 4 {#alg-iii-s2-n7-rem-4 .statement tag=0DGH}
 
 À tout élément s de M(I) (resp. Mo(I), resp. $\mathbf{N}^{(I)}$) est associé sa *longueur* $l(s)$, qui est un entier $\geqslant 1$ (resp. $\geqslant 0$) tel que $l(ss') = l(s) + l(s')$ (I, p. 77, p. 79 et p. 87). Si $e_s$ est l’élément de $\mathrm{Lib}_A(I)$ (resp. Libas_A(I), resp. Libasc_A(I)) correspondant à s, on appelle *degré total* (ou simplement *degré*) d’un élément $x = \sum_s \alpha_s e_s \neq 0$ de $\mathrm{Lib}_A(I)$ (resp. Libas_A(I), resp. Libasc_A(I)) le plus grand des nombres $l(s)$ lorsque s parcourt l’ensemble (non vide par hypothèse) des éléments tels que $\alpha_s \neq 0$. Par exemple, si $i, j, k$ sont trois éléments distincts de I, l’élément $(X_i(X_jX_k))X_i - (X_iX_j)(X_kX_i)$ est un élément $\neq 0$ de degré total 4 dans $\mathrm{Lib}_A(I)$.
 
@@ -517,7 +519,7 @@ Ces remarques justifient les abus de langage suivants: au lieu de dire « $((x_i
 
 Soit $H$ un ensemble; nous dirons qu’un élément $S$ de $\mathrm{Lib}_A(H)$ est un relateur universel pour une $A$-algèbre $F$ si l’on a $S((x_h)_{h \in H}) = 0$ pour toute famille $(x_h)_{h \in H}$ d’éléments de $F$ ayant $H$ pour ensemble d’indices.
 
-#### Exemple 1 {#alg-iii-s2-n8-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s2-n8-exa-1 .statement tag=05ZA}
 
 Prenons $H = \{1, 2, 3\}$; les algèbres qui admettent
 $$
@@ -533,7 +535,7 @@ sont les algèbres de Lie.*
 
 Soit I un ensemble; donnons-nous une famille $(S_k)_{k \in K}$ d’éléments de Lib_A(H), et considérons l’ensemble T des éléments de Lib_A(I) de la forme $S_k((U_h)_{h \in H})$, où $k$ parcourt K, et pour chaque $k$, $(U_h)_{h \in H}$ parcourt l’ensemble des familles d’éléments de Lib_A(I) ayant H pour ensemble d’indices; considérons une famille $(R_j)_{j \in J}$ ayant T pour ensemble d’éléments. Cela étant, soit F l’algèbre universelle définie par le système générateur I lié par la famille $(R_j)_{j \in J}$, et soit $u : \mathrm{Lib}_A(I) \to F$ l’homomorphisme canonique, de sorte que Ker(u) est engendré par les éléments $S_k((U_h)_{h \in H})$ pour tous les $k \in K$ et toutes les familles $(U_h)_{h \in H}$ d’éléments de Lib_A(I); il est clair que chacun des $S_k$ ($k \in K$) est un relateur universel pour F. Soit maintenant F’ une algèbre admettant un système générateur $(x_i)_{i \in I}$, pour laquelle chacun des $S_k$ soit un relateur universel, et soit $u' : \mathrm{Lib}_A(I) \to F'$ l’homomorphisme tel que $u'(X_i) = x_i$ pour tout $i \in I$; il est clair que Ker(u) $\subset$ Ker(u’), donc u’ s’écrit d’une seule manière sous la forme $u' = h \circ u$, où $h : F \to F'$ est un homomorphisme, tel que $h(\overline{X}_i) = x_i$ pour tout $i \in I$. On dit pour cette raison que F est l’algèbre universelle définie par le système générateur I, correspondant à la famille de relateurs universels $(S_k)_{k \in K}$. Par abus de langage, on dit parfois que F est l’algèbre universelle engendrée par I et soumise aux identités $S_k((u_h)) = 0$ pour toute famille $(u_h)_{h \in H}$ d’éléments de F.
 
-#### Exemple 2 {#alg-iii-s2-n8-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s2-n8-exa-2 .statement tag=0DGI}
 
 Soit L’ l’algèbre universelle engendrée par I et soumise aux identités $(uv)w - u(vw) = 0$ pour toute famille de trois éléments de L’, et soit L” l’algèbre obtenue par adjonction à L’ d’un élément unité; il existe alors un isomorphisme unifère unique g de L” sur Libas_A(I) tel que $g(\overline{X}_i) = X_i$ pour tout $i \in I$. En effet, il est clair que L” est associative et l’existence de l’homomorphisme g résulte de la définition de L’ et des remarques qui la précèdent; mais alors il est clair que L” vérifie la propriété universelle (III, p. 22, prop. 7) qui caractérise Libas_A(I), d’où la conclusion.
 
@@ -541,7 +543,7 @@ Des considérations analogues aux précédentes s’appliquent aux algèbres ass
 
 L’algèbre associative unifère universelle, définie par le système générateur $I$ lié par la famille de relateurs $(R_j)_{j \in J}$ est l’algèbre quotient de $\mathrm{Libas}_A(I)$ par l’idéal bilatère engendré par la famille $(R_j)$. On définit de même l’algèbre associative unifère universelle définie par le système générateur $I$, et correspondant à une famille de relateurs universels. Nous laissons au lecteur le soin d’énoncer les définitions analogues relatives aux algèbres associatives et commutatives, $\mathrm{Libasc}_A(I)$ se substituant à $\mathrm{Libas}_A(I)$.
 
-#### Exemple 3 {#alg-iii-s2-n8-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s2-n8-exa-3 .statement tag=05ZB}
 
 Soit $L'$ l’algèbre associative unifère universelle engendrée par $I$ et soumise aux identités $uv - vu = 0$ pour toute famille de deux éléments de $L'$. On voit comme dans III, p. 24, Exemple 2 que $L'$ est canoniquement isomorphe à $\mathrm{Libasc}_A(I)$.
 
@@ -573,7 +575,7 @@ $$
 0 \longrightarrow a \longrightarrow A[(X_i)_{i \in I}] \xrightarrow{h} A[(x_i)_{i \in I}] \longrightarrow 0.
 $$
 
-#### Proposition 8 {#alg-iii-s2-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s2-prop-8 .statement tag=05ZC}
 
 *Soient $A[(X_i)_{i \in I}]$ une algèbre de polynômes, $J$ une partie de $I$, K le complémentaire de $J$ dans $I$. Si on pose $A' = A[(X_j)_{j \in J}]$ et si on note $X'_k$ ($k \in K$) les indéterminées dans l’algèbre de polynômes Libasc$_A'$(K) = $A'[(X'_k)_{k \in K}]$, il existe un isomorphisme unique d’anneaux de $A'[(X'_k)_{k \in K}]$ sur $A[(X_i)_{i \in I}]$ qui coïncide avec l’identité dans $A'$ et transforme $X'_k$ en $X_k$ pour tout $k \in K$.*
 
@@ -581,7 +583,7 @@ En effet, il est clair que $A[(X_i)_{i \in I}]$ est une $A'$-algèbre engendrée
 
 On utilise souvent l’isomorphisme décrit dans la prop. 8 pour identifier les éléments de $A[(X_i)_{i \in I}]$ à des polynômes à coefficients dans $A' = A[(X_j)_{j \in J}]$. Si $u$ est un élément $\neq 0$ de $A[(X_i)_{i \in I}]$, son degré total quand on le considère comme élément de $A'[(X_k)_{k \in K}]$ est encore appelé son *degré par rapport aux* $X_i$ *d’indice* $i \in K$.
 
-#### Remarque {#alg-iii-s2-n9-rem-1 .statement}
+#### Remarque {#alg-iii-s2-n9-rem-1 .statement tag=05ZD}
 
 Soient $I$ et $J$ deux ensembles, $(P_j)_{j \in J}$ une famille d’éléments de $\mathbf{Z}[(X_i)_{i \in I}]$; si $Q$ est un élément de $\mathbf{Z}[(Y_j)_{j \in J}]$ tel que $Q((P_j)_{j \in J}) = 0$, alors, pour toute famille $(b_i)_{i \in I}$ d’éléments deux à deux permutables d’un anneau $B$, on a $Q((P_j((b_i)_{i \in I}))_{j \in J}) = 0$. On appelle parfois *identités polynomiales* les relations vraies de la forme $Q((P_j)_{j \in J}) = 0$. Par exemple
 

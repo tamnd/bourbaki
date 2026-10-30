@@ -12,9 +12,9 @@ pdf_pages: 0057-0058, 0070-0070
 extraction: ocr
 statements: 3
 exercises: 1
-content_sha256: b879d4d60fcaaa8f1d12b4ae4a138533fbf9f9b0b3dfc42441a6c52daa949938
+content_sha256: a743c6cb59b34b800bde60a49d27349c62a34f6bf0abae6bea34cf0623775eeb
 translated_from: content/en/ac/I/04_s4_flat_modules_and_tor_functors.md
-source_content_sha256: 9fd11944f9ccd26af40fbfd7087174fd30283103e635ee58c967ecaf0bfa5f58
+source_content_sha256: 2e67efa01c1410cffb73e90e94fea2974820179f25619519676ed3aa28003654
 translation_model: gpt-5.4
 translation_run: translate-vi-9b653a8f
 glossary_version: 34
@@ -26,7 +26,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Để thuận tiện cho những độc giả đã quen thuộc với Đại số đồng điều (*), chúng tôi sẽ chỉ ra vắn tắt lý thuyết môđun phẳng liên quan như thế nào với lý thuyết các hàm tử Tor.
 
-#### Mệnh đề 1 {#ac-i-s4-prop-1 .statement}
+#### Mệnh đề 1 {#ac-i-s4-prop-1 .statement tag=044W}
 
 Cho E là một A-môđun phải. Bốn tính chất sau là tương đương:
 
@@ -76,7 +76,7 @@ $$
 
 cho thấy rằng $\operatorname{Tor}_1^A(E', F) = 0$, do đó E' là phẳng.
 
-#### Mệnh đề 2 {#ac-i-s4-prop-2 .statement}
+#### Mệnh đề 2 {#ac-i-s4-prop-2 .statement tag=044X}
 
 *Cho R, S là hai vành, $\rho : \mathbf{R} \to \mathbf{S}$ là một đồng cấu và F là một R-môđun trái. Hai tính chất sau là tương đương:*
 (a) $\operatorname{Tor}_1^R(\rho_*(E), F) = 0$ với mọi S-môđun phải E.
@@ -114,7 +114,7 @@ $$
 
 Từ đó suy ra từ (2) rằng $\operatorname{Tor}_1^R(\rho_*(E), F) = 0$.
 
-#### Nhận xét {#ac-i-s4-n0-rem-1 .statement}
+#### Nhận xét {#ac-i-s4-n0-rem-1 .statement tag=044Y}
 
 Mệnh đề 2 cũng suy ra từ sự tồn tại của dãy khớp
 

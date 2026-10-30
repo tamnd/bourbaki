@@ -41,7 +41,7 @@ subsections:
       pdf_page: 297
 statements: 21
 exercises: 3
-content_sha256: 8fabc0a9721d5d38c131fc13fd57ab80f006226839dcd518e1d9f390e0f0a773
+content_sha256: 7b62ad591ac33887b2cec9de99a553da0d73b1a05da4f701901b379dc016e8a0
 ---
 
 ## § 1. GENERALIZED TAYLOR EXPANSIONS
@@ -65,7 +65,7 @@ As an example of these extensions we cite the derivation operator D on K[X] (Alg
 
 For any polynomial $f \in K[X]$ we denote by $T_Y(f)$ the polynomial $f(X + Y)$ in K[X,Y]; the map $T_Y$ is a K-linear map from K[X] into K[X,Y], called a translation operator.
 
-#### Definition 1 {#fvr-vi-s1-def-1 .statement}
+#### Definition 1 {#fvr-vi-s1-def-1 .statement tag=08HO}
 
 *One says that an operator U on K[X] is a composition operator if it commutes with the translation operator, that is, if $U_X T_Y = T_Y U$.*
 
@@ -79,21 +79,21 @@ $$
 
 (1)
 
-#### Example 1 {#fvr-vi-s1-n1-exa-1 .statement}
+#### Example 1 {#fvr-vi-s1-n1-exa-1 .statement tag=08HP}
 
 For every $\lambda \in K$ the operator which to every polynomial $f(X)$ associates the polynomial $f(X + \lambda)$ is a composition operator.
 
-#### Example 2 {#fvr-vi-s1-n1-exa-2 .statement}
+#### Example 2 {#fvr-vi-s1-n1-exa-2 .statement tag=08HQ}
 
 The derivation D on K[X] is a composition operator (*cf.* prop. 1).
 
-#### Remark {#fvr-vi-s1-n1-rem-1 .statement}
+#### Remark {#fvr-vi-s1-n1-rem-1 .statement tag=08HR}
 
 Since K is an infinite field the operator U on K[X] is a composition operator if and only if for every polynomial $f \in K[X]$ and every element $\alpha \in K$ one has, putting $g = U(f)$, that $g(X + \alpha) = U(f(X + \alpha))$. (Alg., IV. 16, cor.).
 
 It is clear that every linear combination of composition operators, with coefficients in K, is a composition operator; the same is true for the composition of two composition operators. In other words, the composition operators form a subalgebra $\Gamma$ of the algebra of endomorphisms of the vector space K[X].
 
-#### Proposition 1 {#fvr-vi-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-vi-s1-prop-1 .statement tag=08HS}
 
 *For an operator U on K[X] to be a composition operator it is necessary and sufficient that it commute with the derivation D on K[X].*
 
@@ -141,17 +141,17 @@ This formula can be interpreted in topological language as follows: if one consi
 
 The formula (3) shows that to every *formal series* $u(S) = \sum_{k=0}^{\infty} \alpha_k S^k$ in one indeterminate over K (*Alg.*, IV. 41) one can associate the composition operator $U = \sum_{k=0}^{\infty} \alpha_k D^k$, which in future we shall denote by $u(D)$. This remark can be clarified in the following manner:
 
-#### Theorem 1 {#fvr-vi-s1-thm-1 .statement}
+#### Theorem 1 {#fvr-vi-s1-thm-1 .statement tag=08HT}
 
 *The map which to every formal series* $u(S) = \sum_{k=0}^{\infty} \alpha_k S^k$ *in one indeterminate over* K *associates the composition operator* $u(D) = \sum_{k=0}^{\infty} \alpha_k D^k$ *on* $K[X]$ *is an isomorphism of the algebra* $K[[S]]$ *of formal series onto the algebra* $\Gamma$ *of composition operators.*
 
 One verifies immediately that this map is an homomorphism. It remains to see that it is injective, in other words, that the relation $\sum_{k=0}^{\infty} \alpha_k D^k = 0$ implies $\alpha_k = 0$ for every $k$; now $h! \alpha_h$ is the constant term in the polynomial obtained by applying $\sum_{k=0}^{\infty} \alpha_k D^k$ to $X^h$, whence the theorem.
 
-#### Corollary {#fvr-vi-s1-n1-cor-1 .statement}
+#### Corollary {#fvr-vi-s1-n1-cor-1 .statement tag=08HU}
 
 *The algebra $\Gamma$ of composition operators in $K[X]$ is commutative.*
 
-#### Example {#fvr-vi-s1-n1-exa-3 .statement}
+#### Example {#fvr-vi-s1-n1-exa-3 .statement tag=08HV}
 
 If $U$ is the operator which to each polynomial $f(X)$ associates $f(X + \lambda)$ (where $\lambda \in K$), one has $U_0(X^k) = \lambda^k$, and so $U = \sum_{k=0}^{\infty} \frac{1}{k!} (\lambda D)^k$. By analogy with the series expansion of $e^{\lambda}$ (III, p. 105) we write $e^S$ or $\exp(S)$ for the formal series $\sum_{n=0}^{\infty} \frac{1}{n!} S^n$ in the ring $K[[S]]$; so one can write $U = e^{\lambda D}$. Replacing the field $K$ by the field of rational fractions $K(Y)$ in this argument one sees similarly that the *translation operator* $T_Y$ can be written $e^{YD}$.
 
@@ -173,7 +173,7 @@ $$
 $$
 which justifies the notation we have introduced.
 
-#### Scholium {#fvr-vi-s1-n1-sch-1 .statement}
+#### Scholium {#fvr-vi-s1-n1-sch-1 .statement tag=08HW}
 
 The isomorphism of the algebra $K[[S]]$ of formal series and the algebra $\Gamma$ of composition operators on $K[X]$ sometimes allows one to prove propositions on formal series most simply, by proving them for the corresponding composition operators (*cf.* VI, p. 274, prop. 6).
 
@@ -181,13 +181,13 @@ The isomorphism of the algebra $K[[S]]$ of formal series and the algebra $\Gamma
 
 Given a composition operator $U = \sum_{k=0}^{\infty} \alpha_k D^k \neq 0$ let $p$ be the least of the integers $k$ such that $\alpha_k \neq 0$; we shall say that $p$ is the *order* of the operator $U$.
 
-#### Proposition 2 {#fvr-vi-s1-prop-2 .statement}
+#### Proposition 2 {#fvr-vi-s1-prop-2 .statement tag=08HX}
 
 Every composition operator of order 0 is invertible in the algebra $\Gamma$ of composition operators on $\mathbf{K}[X]$.
 
 Indeed, a formal series $\sum_{k=0}^{\infty} \alpha_k S^k$ such that $\alpha_0 \neq 0$ is invertible in the ring $\mathbf{K}[[S]]$ (Alg., IV. 41); the proposition thus follows from th. 1 of VI, p. 271.
 
-#### Proposition 3 {#fvr-vi-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-vi-s1-prop-3 .statement tag=08HY}
 
 Let $U$ be a composition operator of order $p$; then $U(f) = 0$ for every polynomial $f$ of degree $< p$; for every polynomial $f \neq 0$ of degree $n \geq p$, $U(f)$ is a polynomial $\neq 0$ of degree $n - p$.
 
@@ -195,7 +195,7 @@ This is an immediate consequence of formula (2) of VI, p. 271 and of the definit
 
 It is clear that every operator $U$ of order $p$ can be written in a unique way as $U = D^p V = V D^p$, where $V$ is an operator of order 0 (and so invertible).
 
-#### Definition 2 {#fvr-vi-s1-def-2 .statement}
+#### Definition 2 {#fvr-vi-s1-def-2 .statement tag=08HZ}
 
 Let $U = D^p V$ be a composition operator of order $p$ on $\mathbf{K}[X]$. The polynomial $u_n(X) = V^{-1}(X^n)$ is called the Appell polynomial of index $n$ attached to the operator $U$.
 
@@ -210,7 +210,7 @@ $$
 u_n(0) = \beta_n.
 $$
 
-#### Proposition 4 {#fvr-vi-s1-prop-4 .statement}
+#### Proposition 4 {#fvr-vi-s1-prop-4 .statement tag=08I0}
 
 The Appell polynomials attached to $U$ satisfy the relations
 $$
@@ -238,7 +238,7 @@ $$
 UV^{-1} = D^p. \tag{12}
 $$
 
-#### Proposition 5 {#fvr-vi-s1-prop-5 .statement}
+#### Proposition 5 {#fvr-vi-s1-prop-5 .statement tag=08I1}
 
 *For every polynomial $f \in K[X]$ and every composition operator of order $p$ one has*
 
@@ -258,7 +258,7 @@ the Taylor formula and by def. 2 of VI, p. 273; it suffices to apply the operato
 
 Let E be the ring of *formal series* in an indeterminate S, with coefficients in the ring of polynomials $K[X]$ (*Alg.*, IV. 41); in other words, the ring of formal series $g(X, S) = \sum_{n=0}^{\infty} \alpha_n(X) S^n$ where the $\alpha_n$ belong to $K[X]$. For every operator $U$ on $K[X]$ we defines a map $U_X$ of E to itself by putting $U_X(g(X, S)) = \sum_{n=0}^{\infty} U(\alpha_n) S^n$. It is clear that E is a module over the ring $K[[S]]$ of formal series in S with coefficients in $K$; by the linearity of $U$ on $K[X]$ one verifies immediately that for every element $\theta \in K[[S]]$ and every $g \in E$ one has $U_X(\theta g) = \theta U_X(g)$; in other words, $U_X$ is a linear map of the module E into itself.
 
-#### Proposition 6 {#fvr-vi-s1-prop-6 .statement}
+#### Proposition 6 {#fvr-vi-s1-prop-6 .statement tag=08I2}
 
 *Let $U = D^p V = u(D)$ be a composition operator of order $p$ on $K[X]$, $u(S)$ being a formal power series of order $p$ in $K[[S]]$. Then*
 
@@ -393,7 +393,7 @@ $$
 
 where $\xi$ is a *dummy* variable in the functional symbolism of the right-hand term (*cf.* II, p. 58). For every $a \geqslant 0$ the operator which to any function $f \in E$ associates the restriction to I of the function $x \mapsto f(x + a)$ is called the *translation operator by a*.
 
-#### Definition 3 {#fvr-vi-s1-def-3 .statement}
+#### Definition 3 {#fvr-vi-s1-def-3 .statement tag=08I3}
 
 *One says that an operator U on E is a composition operator if, for every $a \geqslant 0$, it is permutable with the translation operator by a*.
 
@@ -415,7 +415,7 @@ If $f$ is a polynomial, one has $f(\xi + x) = \sum_{k=0}^{\infty} \frac{1}{k!} f
 
 We again write $u_n$ for the Appell polynomials attached to the operator $U$. To the generalized Taylor expansion of a polynomial (VI, p. 274, formula (13)) there corresponds, for more general functions, the following result:
 
-#### Theorem 2 {#fvr-vi-s1-thm-2 .statement}
+#### Theorem 2 {#fvr-vi-s1-thm-2 .statement tag=08I4}
 
 *Let f be a function admitting a continuous $(n + 1)^{th}$ derivative on I, and belonging, with all its derivatives $f^{(m)}$ for $1 \leq m \leq n$, to E. If U is a composition operator of order $p \leq n$ on E one has, for $x \geq 0$ and $h \geq 0$*
 
@@ -488,7 +488,7 @@ $$
 \frac{\lambda^n e^{\lambda x}}{u(\lambda)} = \sum_{n=0}^\infty u_n(x) \frac{\lambda^n}{n!}.
 $$
 
-#### Remark {#fvr-vi-s1-n6-rem-1 .statement}
+#### Remark {#fvr-vi-s1-n6-rem-1 .statement tag=08I5}
 
 One can use formula (33) (resp. (34)) to calculate the $\beta_n$ (resp. the $u_n(x)$) by using the following lemma on entire series:
 
@@ -499,7 +499,7 @@ emma. **If two entire series** $\sum_{n=0}^{\infty} c_n \lambda^n,\ \sum_{n=0}^{
 
 If, by any procedure, one can find an entire series that converges to $\lambda^p / u(\lambda)$ on a neighbourhood of $0$, then the coefficients of this series are necessarily equal to the $\beta_n / n!$. Is this procedure that we shall apply in the examples that follow.
 
-#### Example 1 {#fvr-vi-s1-n6-exa-1 .statement}
+#### Example 1 {#fvr-vi-s1-n6-exa-1 .statement tag=08I6}
 
 If $U$ is the identity map one has $u(\lambda) = 1$ and the operator $U$ is clearly singular; since $u_n(x) = x^n$ the formula (27) of VI, p. 278, can be written, putting $\xi = \xi - \eta$
 
@@ -509,7 +509,7 @@ $$
 
 that is, it reduces to the Taylor formula (II, p. 62).
 
-#### Example 2 {#fvr-vi-s1-n6-exa-2 .statement}
+#### Example 2 {#fvr-vi-s1-n6-exa-2 .statement tag=08I7}
 
 Let us take for $U$ the composition operator which, to every function $f$ defined on $\mathbf{R}_+$, associates the function $x \mapsto f(x + 1) - f(x)$; then
 
@@ -537,7 +537,7 @@ $$
 
 (36)
 
-#### Example 3 {#fvr-vi-s1-n6-exa-3 .statement}
+#### Example 3 {#fvr-vi-s1-n6-exa-3 .statement tag=08I8}
 
 Let E be the vector space of functions $f$ defined and continuous on $\mathbf{R}$, and such that the integral $\int_{-\infty}^{+\infty} f(x + \xi) e^{-\xi^2/2} d\xi$ converges for all $x \geq 0$. The operator U defined by
 

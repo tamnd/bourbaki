@@ -45,7 +45,7 @@ subsections:
       pdf_page: 117
 statements: 30
 exercises: 18
-content_sha256: 872da96a7f06eb265f08e67dd2362e0ddeca85bb69f19988e9c80c2fe572db05
+content_sha256: 023c0baa2580f3b4c415ea8021d21949493a4959b4e360fa405ee9b33b799332
 translated_from: content/en-mt/alg/X/06_s6_utilisation_de_resolutions_non.md
 source_lang: en-mt
 translation_method: machine
@@ -87,7 +87,7 @@ $$
 
 Ví dụ, lấy đối với $a, b, c$ các ánh xạ đồng nhất của tương ứng $M, P, N$, ta thu được các đồng cấu $\psi(P, M) : \mathrm{Tor}^A(P, M) \to P \otimes_A M$ và $\varphi(M, N) : \mathrm{Hom}_A(M, N) \to \mathrm{Ext}_A(M, N)$ được đưa vào trong $X$, p. 68, nhận xét 2) và $X$, p. 87, nhận xét 2).
 
-#### Định lý 1 {#alg-x-s6-thm-1 .statement}
+#### Định lý 1 {#alg-x-s6-thm-1 .statement tag=0DXT}
 
 a) Nếu một trong hai phân giải $R$ hoặc $S$ là phẳng, thì $\psi(S, R)$ là một đẳng cấu của các $k$-môđun phân bậc.
 
@@ -103,7 +103,7 @@ Vì $L(P)$ (tương ứng $\mathbf R$) là phẳng và $\alpha$ (tương ứng $
 
 b) Ta lập luận tương tự, dùng mệnh đề 4 của X, p. 86.
 
-#### Hệ quả {#alg-x-s6-n1-cor-1 .statement}
+#### Hệ quả {#alg-x-s6-n1-cor-1 .statement tag=0DXU}
 
 Nếu $R$ là một phân giải phẳng của $M$, đồng cấu
 
@@ -125,7 +125,7 @@ $$
 
 là song ánh.
 
-#### Nhận xét {#alg-x-s6-n1-rem-1 .statement}
+#### Nhận xét {#alg-x-s6-n1-rem-1 .statement tag=0DXV}
 
 Biểu đồ các $k$-môđun
 
@@ -176,7 +176,7 @@ $$
 
 mà, như trên, ta kiểm tra được là độc lập với lựa chọn $\alpha_1, \beta_1, \gamma_1$.
 
-#### Mệnh đề 1 {#alg-x-s6-prop-1 .statement}
+#### Mệnh đề 1 {#alg-x-s6-prop-1 .statement tag=0DXW}
 
 *Nếu* $a_1, b_1, c_1$ *là các đồng cấu đồng điều,* $\psi'(S_1, R_1)$ *và* $\varphi'(R_1, E_1)$ *lần lượt là các song ánh nghịch đảo của các song ánh* $\psi(S_1, R_1)$ *và* $\varphi(R_1, E_1)$.
 
@@ -188,7 +188,7 @@ $$
 
 tương tự $\psi'(S_1, R_1) \circ \psi(S_1, R_1) = 1$. Ta lập luận tương tự cho các ánh xạ $\varphi$ và $\varphi'$.
 
-#### Ví dụ 1 {#alg-x-s6-n1-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s6-n1-exa-1 .statement tag=0DXX}
 
 Cho $a$ là một phần tử của $A$ sao cho ánh xạ $\varphi : x \mapsto xa$ từ $A$ vào chính nó là đơn ánh (*"* $a$ không là một ước của không phải *"*). Dùng phân giải
 
@@ -212,7 +212,7 @@ $$
 
 và $k$-môđun $\operatorname{Ext}_A^1 (A/Aa, M)$ đẳng cấu với $M/aM$.
 
-#### Ví dụ 2 {#alg-x-s6-n1-exa-2 .statement}
+#### Ví dụ 2 {#alg-x-s6-n1-exa-2 .statement tag=0DXY}
 
 Giả sử rằng $A$ là một miền nguyên; cho $K$ là trường phân thức của $A$ và $M$ là một $A$-môđun. Dùng phân giải phẳng
 
@@ -222,7 +222,7 @@ $$
 
 (X, p. 9, *ví dụ* 5), ta thấy rằng $\operatorname{Tor}_i^A (K/A, M) = 0$ với $i > 1$; hơn nữa, theo II, p. 116, prop. 26, (ii), $A$-môđun $\operatorname{Tor}_1^A (K, A, M)$ đẳng cấu với môđun con xoắn của $M$.
 
-#### Ví dụ 3 {#alg-x-s6-n1-exa-3 .statement}
+#### Ví dụ 3 {#alg-x-s6-n1-exa-3 .statement tag=0DXZ}
 
 Giả sử rằng $A$ là một vành địa phương Noether, ký hiệu $m$ là iđêan cực đại của nó, và đặt $\kappa = A/m$. Cho $M$ là một $A$-môđun sinh hữu hạn và $P$ là một phân giải xạ ảnh cực tiểu của $M$ (X, p. 54). Với mọi $n \geqslant 0$, các không gian vectơ trên $\kappa$ $\mathrm{Tor}_n^A(\kappa, M)$ và $\mathrm{Ext}_A^n(M, \kappa)$ đều hữu hạn chiều, có chiều bằng hạng của $A$-môđun tự do $P_n$; thực vậy, các phức $\kappa \otimes_A P$ và $\mathrm{Homgr}_A(P, \kappa)$ có vi phân bằng không.
 
@@ -234,7 +234,7 @@ $$
 a' \circ \tilde{f} = f \circ a, \quad b' \circ \tilde{g} = g \circ b, \quad \tilde{h} \circ c' = c \circ h .
 $$
 
-#### Mệnh đề 2 {#alg-x-s6-prop-2 .statement}
+#### Mệnh đề 2 {#alg-x-s6-prop-2 .statement tag=0DY0}
 
 *Hai biểu đồ sau là giao hoán*:
 
@@ -283,7 +283,7 @@ $$
 
 Ta lập luận tương tự đối với biểu đồ thứ hai.
 
-#### Nhận xét {#alg-x-s6-n2-rem-1 .statement}
+#### Nhận xét {#alg-x-s6-n2-rem-1 .statement tag=0DY1}
 
 Tương tự, xét các biểu đồ giao hoán của các cấu xạ của các phức
 
@@ -337,7 +337,7 @@ $$
 
 trong đó hàng thứ nhất (1) là một dãy khớp của các phức các A-môđun trái, hàng thứ hai (2) là một dãy khớp các A-môđun trái, và các mũi tên thẳng đứng là các phân giải trái.
 
-#### Mệnh đề 3 {#alg-x-s6-prop-3 .statement}
+#### Mệnh đề 3 {#alg-x-s6-prop-3 .statement tag=0DY2}
 
 a) Cho $P$ là một A-môđun, $b : S \to P$ là một phân giải trái của $P$; giả sử rằng dãy các phức các k-môđun
 
@@ -421,11 +421,11 @@ $$
 
 tương tự, $\psi(S, R') = H(\beta \otimes 1) ◦ H(1 \otimes a')^{-1} ◦ \psi_p(M')$, và mệnh đề cần chứng minh $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ suy ra từ tính giao hoán của biểu đồ trên.
 
-#### Nhận xét 1 {#alg-x-s6-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s6-n3-rem-1 .statement tag=0DY3}
 
 Dùng các đẳng cấu giao hoán, suy ra từ a) mệnh đề tương tự thu được bằng cách đổi vai trò của hai đối số của tích tenxơ.
 
-#### Nhận xét 2 {#alg-x-s6-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s6-n3-rem-2 .statement tag=0DY4}
 
 Với các ký hiệu của a), giả sử hoặc S là phẳng, hoặc R, R', R'' là phẳng; khi đó một mặt dãy (3) là khớp (X, p. 72, hệ quả 2) và có thể áp dụng mệnh đề 3; mặt khác $\psi(S, R')$ là song ánh (định lý 1), do đó
 
@@ -433,7 +433,7 @@ $$
 \partial(P, (2)) = \psi(S, R')^{-1} ◦ \partial((3)) ◦ \psi(S, R'').
 $$
 
-#### Nhận xét 3 {#alg-x-s6-n3-rem-3 .statement}
+#### Nhận xét 3 {#alg-x-s6-n3-rem-3 .statement tag=0DY5}
 
 Với các ký hiệu của b), giả sử hoặc E là đơn ánh, hoặc R, R', R'' là xạ ảnh; khi đó một mặt dãy (4) là khớp (X, p. 83, mệnh đề 2) và có thể áp dụng mệnh đề 3; mặt khác, $\varphi(R', E)$ là song ánh (định lý 1) ; do đó
 
@@ -460,7 +460,7 @@ $$
 
 trong đó hàng thứ nhất (5) là một dãy khớp các A-môđun trái, hàng thứ hai (6) là một dãy khớp các phức của các A-môđun trái, và trong đó các mũi tên thẳng đứng là các phân giải phải. Lập luận như trong Mệnh đề 3, ta chứng minh mệnh đề sau:
 
-#### Mệnh đề 4 {#alg-x-s6-prop-4 .statement}
+#### Mệnh đề 4 {#alg-x-s6-prop-4 .statement tag=0DY6}
 
 Cho M là một A-môđun trái, $a : R \to M$ là một phân giải trái của M sao cho dãy
 
@@ -479,7 +479,7 @@ $$
 \end{array}
 $$
 
-#### Nhận xét 4 {#alg-x-s6-n3-rem-4 .statement}
+#### Nhận xét 4 {#alg-x-s6-n3-rem-4 .statement tag=0DY7}
 
 Nếu R là xạ ảnh hoặc nếu E, E', E'' là đơn ánh, thì dãy (7) là khớp ($\lambda$, p. 83, Mệnh đề 2); hơn nữa, $\varphi(R, E'')$ là song ánh (Định lý 1); do đó
 
@@ -487,7 +487,7 @@ $$
 \delta(M, (5)) = \varphi(R, E') \circ \partial((7)) \circ \varphi(R, E'')^{-1}.
 $$
 
-#### Nhận xét 5 {#alg-x-s6-n3-rem-5 .statement}
+#### Nhận xét 5 {#alg-x-s6-n3-rem-5 .statement tag=0DY8}
 
 Chúng tôi để bạn đọc phát biểu và chứng minh các mệnh đề tương tự với các Mệnh đề 3 và 4 và liên quan đến các đồng cấu $\psi_1$ và $\varphi_1$.
 
@@ -499,7 +499,7 @@ $$
 \lim_{i \in I} \mathrm{Ext}_A(M, N_i) \to \mathrm{Ext}_A(M, \lim_{i \in I} N_i).
 $$
 
-#### Mệnh đề 5 {#alg-x-s6-prop-5 .statement}
+#### Mệnh đề 5 {#alg-x-s6-prop-5 .statement tag=0DY9}
 
 *Nếu A là Noether trái và nếu M là một A-môđun hữu hạn sinh, thì đồng cấu chính tắc (8) là song ánh.*
 
@@ -517,7 +517,7 @@ $$
 
 suy ra từ các đồng cấu $\mathrm{H}(\mathrm{Homgr}(l, u_i))$ cũng vậy (X, p. 28, Mệnh đề 1). Sau đó ta kết luận nhờ Mệnh đề 2 (X, p. 103) và Định lý 1 (X, p. 100).
 
-#### Mệnh đề 6 {#alg-x-s6-prop-6 .statement}
+#### Mệnh đề 6 {#alg-x-s6-prop-6 .statement tag=0DYA}
 
 *Cho B là một vành và N là một song môđun (A, B), là một B-môđun Noether (resp. có độ dài hữu hạn).
 
@@ -527,7 +527,7 @@ b) Giả sử A Noether trái và cho M là một A-môđun trái hữu hạn si
 
 Chọn một phân giải tự do $p : L \to M$ sao cho mỗi A-môđun $L_n$ là kiểu hữu hạn (X, p. 53, Mệnh đề 6), và gọi C là phức các B-môđun $L \otimes_A N$ trong trường hợp $a$, $\mathrm{Homgr}_A(L, N)$ trong trường hợp $b$. Mỗi B-môđun $C_n$ đẳng cấu với một tích của một số hữu hạn bản sao của N, nên là Noether (resp. có độ dài hữu hạn); vì vậy điều tương tự cũng đúng đối với các môđun $\mathrm{H}_n(C)$. Nhưng, theo X, p. 100, Định lý 1, các môđun này đẳng cấu với các $\mathrm{Tor}_n^A(M, N)$ trong trường hợp $a$, với các $\mathrm{Ext}_A^{-n}(M, N)$ trong trường hợp $b$.
 
-#### Hệ quả {#alg-x-s6-n4-cor-1 .statement}
+#### Hệ quả {#alg-x-s6-n4-cor-1 .statement tag=0DYB}
 
 Cho $\rho : A \to B$ là một đồng cấu của các vành giao hoán Noether, $M$ là một $A$-môđun hữu hạn sinh, $N$ là một $B$-môđun. Nếu $N$ là một $B$-môđun hữu hạn sinh (resp. có độ dài hữu hạn), thì điều tương tự cũng đúng đối với các $B$-môđun $\operatorname{Tor}^{A}_{n}(M,N)$ và $\operatorname{Ext}^{n}_{A}(M,N)$.
 
@@ -597,7 +597,7 @@ $$
 \varphi_{M}(N \otimes_{A} Q) \circ H(\alpha) \circ (\varphi_{M}(N) \otimes 1_{Q})^{-1} \,.
 $$
 
-#### Mệnh đề 7 {#alg-x-s6-prop-7 .statement}
+#### Mệnh đề 7 {#alg-x-s6-prop-7 .statement tag=0DYC}
 
 a) Nếu $A$-môđun $Q$ là phẳng thì đồng cấu (9) là song ánh.
 b) Nếu $A$-môđun $Q$ là xạ ảnh sinh hữu hạn thì đồng cấu (10) là song ánh.
@@ -648,7 +648,7 @@ ta suy ra từ chúng các đồng cấu phân bậc bậc 0 gọi là *chính t
 (11) $$ \mathrm{Tor}^B(P, N \otimes_A Q) \to \mathrm{Tor}^A(P \otimes_B N, Q) $$
 (12) $$ \mathrm{Ext}_A(Q, \mathrm{Hom}_B(N, M)) \to \mathrm{Ext}_B(N \otimes_A Q, M). $$
 
-#### Mệnh đề 8 {#alg-x-s6-prop-8 .statement}
+#### Mệnh đề 8 {#alg-x-s6-prop-8 .statement tag=0DYD}
 
 *a)* Nếu $N$ phẳng trên $A$ và trên $B$ thì đồng cấu (11) là song ánh.
 
@@ -688,7 +688,7 @@ $$
 
 được định nghĩa là hợp thành $\psi'(L(E) \otimes_A B, B \otimes_A L(F)) \circ H(u) \circ \gamma$.
 
-#### Mệnh đề 9 {#alg-x-s6-prop-9 .statement}
+#### Mệnh đề 9 {#alg-x-s6-prop-9 .statement tag=0DYE}
 
 *Nếu $B$ phẳng trên $A$, thì đồng cấu (13) là song ánh.*
 Thật vậy $\psi'(L(E) \otimes_A B, B \otimes_A L(F))$ là song ánh (X, p. 102, prop. 1) và $\gamma$ là song ánh (X, p. 66, hệ quả 2).
@@ -712,7 +712,7 @@ $$
 B \otimes_A \mathrm{Ext}_A(E, F) \to \mathrm{Ext}_B(B \otimes_A E, B \otimes_A F).
 $$
 
-#### Mệnh đề 10 {#alg-x-s6-prop-10 .statement}
+#### Mệnh đề 10 {#alg-x-s6-prop-10 .statement tag=0DYF}
 
 Đồng cấu (14) là song ánh trong các trường hợp sau:
 a) B là một A-môđun xạ ảnh sinh hữu hạn;
@@ -723,7 +723,7 @@ b) B là một A-môđun phẳng, A là Noether, và E là một A-môđun hữu
 
 Cho G là một nhóm, $\mathbf{Z}^{(G)}$ đại số của nó trên $\mathbf{Z}$ (III, p. 19). Nhắc lại (x. III, p. 20, ví dụ) rằng nếu M là một nhóm giao hoán, thì việc cho một tác động của G trên M (nghĩa là một đồng cấu $\tau : G \to \mathrm{Aut}(M)$), hay một cấu trúc môđun trái trên $\mathbf{Z}^{(G)}$ cho nhóm cộng M, là như nhau. Đặc biệt, ta sẽ coi nhóm $\mathbf{Z}$ như một môđun trái trên $\mathbf{Z}^{(G)}$ bằng cách trang bị cho nó tác động tầm thường.
 
-#### Định nghĩa 1 {#alg-x-s6-def-1 .statement}
+#### Định nghĩa 1 {#alg-x-s6-def-1 .statement tag=0DYG}
 
 Cho M là một $\mathbf{Z}^{(G)}$-môđun trái (tương ứng phải), $n$ là một số nguyên $\geqslant 0$. Nhóm $\mathrm{Ext}_{\mathbf{Z}^{(G)}}^n(\mathbf{Z}, M)$ (tương ứng $\mathrm{Tor}_n^{\mathbf{Z}^{(G)}}(M, \mathbf{Z})$) được ký hiệu bởi $H^n(G, M)$ (tương ứng $H_n(G, M)$) và được gọi là nhóm đối đồng điều thứ $n$ (tương ứng nhóm đồng điều) của G với hệ số trong M.
 
@@ -755,11 +755,11 @@ $$
 
 với mọi $n \geqslant 1$, $m$ trong M và $g_1, ..., g_n$ trong G.
 
-#### Ví dụ 1 {#alg-x-s6-n8-exa-1 .statement}
+#### Ví dụ 1 {#alg-x-s6-n8-exa-1 .statement tag=0DYH}
 
 Từ định nghĩa suy ra trực tiếp rằng $H^0(G, M)$ đẳng cấu với môđun con các phần tử của $M$ bất biến dưới tác động của $G$, và $H_0(G, M)$ đẳng cấu với môđun thương của $M$ theo môđun con sinh bởi các phần tử $m.g-m$ với $m\in M$, $g\in G$.
 
-#### Ví dụ 2 {#alg-x-s6-n8-exa-2 .statement}
+#### Ví dụ 2 {#alg-x-s6-n8-exa-2 .statement tag=0DYI}
 
 Từ điều trên suy ra rằng $H^1(G, M)$ đẳng cấu với $\mathbf{Z}$-môđun $Z^1(G, M)/B^1(G, M)$, trong đó $Z^1(G, M)$ là $\mathbf{Z}$-môđun các ánh xạ $f$ từ $G$ vào $M$ thỏa mãn:
 
@@ -779,7 +779,7 @@ Ký hiệu bởi $\iota:G\to \operatorname{Aut}(M)$ đồng cấu suy ra từ t�
 
 Khi $G$ tác động tầm thường trên $M$, ta có $B^1(G,M)=0$ và $H^1(G,M)$ đẳng cấu với $\mathbf{Z}$-môđun các đồng cấu nhóm từ $G$ vào $M$.
 
-#### Ví dụ 3 {#alg-x-s6-n8-exa-3 .statement}
+#### Ví dụ 3 {#alg-x-s6-n8-exa-3 .statement tag=0DYJ}
 
 Tương tự, $H^2(G,M)$ đẳng cấu với $\mathbf{Z}$-môđun $Z^2(G,M)/B^2(G,M)$, trong đó $Z^2(G,M)$ là $\mathbf{Z}$-môđun các ánh xạ $f$ từ $G\times G$ vào $M$, thỏa mãn:
 
@@ -797,13 +797,13 @@ với mọi $g_1,g_2$ trong $G$.
 
 Như vậy ta thu lại định nghĩa của nhóm $H^2(G,M)$ đã cho trong VIII, App. II; đặc biệt, tồn tại một đẳng cấu chính tắc từ $H^2(G,M)$ lên nhóm các lớp mở rộng của $G$ bởi $M$ (loc. cit.).
 
-#### Ví dụ 4 {#alg-x-s6-n8-exa-4 .statement}
+#### Ví dụ 4 {#alg-x-s6-n8-exa-4 .statement tag=0DYK}
 
 Cho $M$ là một $\mathbf{Z}$-môđun, được xét như một $\mathbf{Z}^{(G)}$-môđun phải bằng cách cho $G$ tác động tầm thường. Nhóm $H_1(G,M)$ đẳng cấu với thương của $M\otimes_{\mathbf{Z}}\mathbf{Z}^{(G)}$ bởi môđun con-$\mathbf{Z}$ sinh bởi các phần tử $m\otimes(e_{g_1g_2}-e_{g_1}-e_{g_2})$ với $m$ trong $M$, $g_1,g_2$ trong $G$; suy ra dễ dàng rằng $H_1(G,M)$ đẳng cấu với $M\otimes_{\mathbf{Z}}(G/(G,G))$.
 
 Kí hiệu $\sigma$ là phản tự đẳng cấu của $\mathbf{Z}^{(G)}$ được định nghĩa bởi $\sigma(e_g) = e_{g^{-1}}$ với $g \in G$. Mọi $\mathbf{Z}^{(G)}$-môđun trái đều có thể được xét như một $\mathbf{Z}^{(G)}$-môđun phải nhờ $\sigma$, và ngược lại. Điều này cho phép, chẳng hạn, định nghĩa các nhóm $H_q(G, M)$ đối với một $\mathbf{Z}^{(G)}$-môđun trái $M$, bằng cách đặt $H_q(G, M) = H_q(G, \sigma_*(M)) = \mathrm{Tor}_q^{\mathbf{Z}^{(G)}}(\mathbf{Z}, M)$.
 
-#### Bổ đề 1 {#alg-x-s6-lem-1 .statement}
+#### Bổ đề 1 {#alg-x-s6-lem-1 .statement tag=0DYL}
 
 *Cho $M$ là một $\mathbf{Z}$-môđun; kí hiệu $M^G$ là nhóm $\mathrm{Hom}_{\mathbf{Z}}(\mathbf{Z}^{(G)}, M)$ được trang bị cấu trúc tự nhiên của $\mathbf{Z}^{(G)}$-môđun trái. Khi đó:*
 
@@ -819,7 +819,7 @@ $$
 
 do đó có bổ đề.
 
-#### Mệnh đề 11 {#alg-x-s6-prop-11 .statement}
+#### Mệnh đề 11 {#alg-x-s6-prop-11 .statement tag=0DYM}
 
 *Cho $L$ là một mở rộng Galois bậc hữu hạn của một trường giao hoán $K$, với nhóm Galois $G$.
 a) *Ta có* $H^i(G, L) = 0$ *với* $i \geqslant 1$.

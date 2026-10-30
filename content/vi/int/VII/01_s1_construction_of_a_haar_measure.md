@@ -56,9 +56,9 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: 01b31290c0cbc456a7c9cee9f72468919171a2c02a35568e12f95a4c7a74abf6
+content_sha256: 2ac996cc76f2c1fd15ed2ebcfad6548032f76857c784691f9d1f392c69e92c40
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
-source_content_sha256: 62132d69780c5384e8642c385d846a4c29ae205f8f3be600977656dc11934c19
+source_content_sha256: e46166486e36efa944d66af30ebaacb93e9bc8f019659598c1d03449537e5e11
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-ae8ef630
 glossary_version: 34
@@ -122,14 +122,14 @@ $$
 
 biểu thức ở bên phải khi đó có thể được suy ra từ biểu thức ở bên trái bằng cách 'thay $x$ bằng $sx$.'
 
-#### Định nghĩa 1 {#int-vii-s1-def-1 .statement}
+#### Định nghĩa 1 {#int-vii-s1-def-1 .statement tag=09CY}
 
 *Cho $\mu$ là một độ đo trên $X$.*
 a) $\mu$ *được gọi là* **bất biến dưới $G$** *nếu* $\gamma(s)\mu = \mu$ *với mọi* $s \in G$.
 b) $\mu$ *được gọi là* **tương đối bất biến dưới $G$** *nếu* $\gamma(s)\mu$ *tỉ lệ với* $\mu$ *với mọi* $s \in G$.
 c) $\mu$ *được gọi là* **gần bất biến dưới $G$** *nếu* $\gamma(s)\mu$ *tương đương với* $\mu$ *với mọi* $s \in G$.
 
-#### Nhận xét {#int-vii-s1-n1-rem-1 .statement}
+#### Nhận xét {#int-vii-s1-n1-rem-1 .statement tag=09CZ}
 
 — 1) Giả sử $\mu$ bất biến. Khi đó $|\mu|$, $\mathscr{R}(\mu)$, $\mathscr{I}(\mu)$ đều bất biến. Nếu $\mu$ thực, thì $\mu^+$ và $\mu^-$ đều bất biến.
 2) Giả sử $\mu$ tương đối bất biến và khác không. Với mọi $s \in G$, tồn tại duy nhất một số phức $\chi(s)$ sao cho
@@ -165,7 +165,7 @@ Nếu $\mu$ là gần bất biến và $\mu'$ là một độ đo khác trên $X
 
 Nếu $\mu$ là gần bất biến, thì giá đỡ của $\mu$ bất biến dưới $G$. Đặc biệt nếu $G$ là *bắc cầu* trong $X$ (A, I, §5, No. 5, Def. 6), thì giá đỡ này hoặc rỗng (nếu $\mu = 0$) hoặc bằng $X$ (nếu $\mu \neq 0$).
 
-#### Bổ đề 1 {#int-vii-s1-lem-1 .statement}
+#### Bổ đề 1 {#int-vii-s1-lem-1 .statement tag=09D0}
 
 — *Cho $X, Y, Z$ là ba không gian tôpô, với $Y$ địa phương compact. Cho $(x, y) \mapsto xy$ là một ánh xạ liên tục của $X \times Y$ vào $Z$, xác định một ánh xạ $x \mapsto u_x$ của $X$ vào $\mathscr{F}(Y; Z)$ bởi quan hệ $u_x(y) = xy$. Cho $f$ là một hàm liên tục trên $Z$ lấy giá trị trong $\mathbf{R}$ hoặc trong một không gian Banach, S là giá đỡ của $f$, và $\mu$ là một độ đo trên $Y$. Giả sử rằng với mọi $x_0 \in X$, tồn tại một lân cận $V$ của $x_0$ trong $X$ sao cho $\bigcup_{x \in V} u_x^{-1}(S)$ tương đối compact trong $Y$. Khi đó:
 a) với mọi $x \in X$, $f \circ u_x$ liên tục trên $Y$, với giá đỡ compact;
@@ -177,7 +177,7 @@ Mệnh đề a) hiển nhiên. Ta chứng minh b). Vì tính liên tục là m�
 
 Bây giờ ta trở lại các ký hiệu trước.
 
-#### Mệnh đề 1 {#int-vii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#int-vii-s1-prop-1 .statement tag=09D1}
 
 — *Giả sử rằng G là địa phương compact. Cho $\mu$ là một độ đo bất biến tương đối khác không trên X. Khi đó nhân tử $\chi$ của nó là một hàm liên tục trên G.*
 
@@ -285,11 +285,11 @@ $$
 
 ### 2. Định lý tồn tại và duy nhất
 
-#### Định nghĩa 2 {#int-vii-s1-def-2 .statement}
+#### Định nghĩa 2 {#int-vii-s1-def-2 .statement tag=09D2}
 
 *Cho G là một nhóm địa phương compact. Một độ đo dương khác không trên G mà bất biến trái (resp. phải) được gọi là một độ đo Haar trái (resp. phải) trên G.*
 
-#### Định lý 1 {#int-vii-s1-thm-1 .statement}
+#### Định lý 1 {#int-vii-s1-thm-1 .statement tag=09D3}
 
 *Trên mọi nhóm địa phương compact, tồn tại một độ đo Haar trái (resp. phải), và, cho đến một thừa số hằng, chỉ có một.*
 
@@ -382,11 +382,11 @@ $$
 
 Công thức (19) có thể được mở rộng theo tính tuyến tính cho các hàm $f \in \mathscr{K}$ sao cho $\mu(f) = 0$. Ta có $D(e) \neq 0$ vì $\check{\nu} \neq 0$. Điều này quả thực thiết lập tính tỉ lệ của $\mu$ và $\check{\nu}$.
 
-#### Hệ quả {#int-vii-s1-n2-cor-1 .statement}
+#### Hệ quả {#int-vii-s1-n2-cor-1 .statement tag=09D4}
 
 — *Mọi độ đo bất biến trái* (resp. *bất biến phải*) *trên* $G$ *đều tỉ lệ với một độ đo Haar trái* (resp. *phải*).
 
-#### Ví dụ {#int-vii-s1-n2-exa-1 .statement}
+#### Ví dụ {#int-vii-s1-n2-exa-1 .statement tag=09D5}
 
 — 1) Trên nhóm cộng $\mathbf{R}$, độ đo Lebesgue $dx$ là một độ đo Haar (Ch. III, §1, No. 3, *Ví dụ*).
 
@@ -406,7 +406,7 @@ $$
 
 không phụ thuộc vào lựa chọn $a \in \mathbf{R}$; hiển nhiên nó bất biến dưới phép tịnh tiến; do đó nó xác định một độ đo Haar trên $T$. Nhờ phép chuyển cấu trúc, suy ra từ đó rằng $I(f) = \int_a^{a+1} f(e^{2\pi i t}) dt$ là một độ đo Haar trên nhóm nhân $U$ của các số phức có giá trị tuyệt đối bằng 1 (GT, VIII, §2, No. 1).
 
-#### Mệnh đề 2 {#int-vii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#int-vii-s1-prop-2 .statement tag=09D6}
 
 — *Cho* $G$ *là một nhóm địa phương compact*, $\mu$ *là một độ đo Haar trái hoặc phải trên* $G$. *Để* $G$ *rời rạc, điều kiện cần và đủ là* $\mu(\{e\}) > 0$. *Để* $G$ *compact, điều kiện cần và đủ là* $\mu^*(G) < +\infty$.
 
@@ -422,13 +422,13 @@ do đó $n \leq \mu^*(G)/\mu(V)$. Vì vậy ta có thể chọn trong $\mathscr{
 
 Cho $\mu$ là một độ đo Haar trái trên $G$. Với mọi $s \in G$, $\delta(s)\mu$ cũng bất biến trái (No. 1, công thức (11)), do đó (Định lý 1) tồn tại một số duy nhất $\Delta_G(s) > 0$ sao cho $\delta(s)\mu = \Delta_G(s)\mu$. Nhờ Định lý 1, số $\Delta_G(s)$ không phụ thuộc vào lựa chọn của $\mu$.
 
-#### Định nghĩa 3 {#int-vii-s1-def-3 .statement}
+#### Định nghĩa 3 {#int-vii-s1-def-3 .statement tag=09D7}
 
 *Hàm $\Delta_G$ trên $G$ được gọi là môđun (hay hàm môđun) của $G$. Nếu $\Delta_G = 1$, thì nhóm $G$ được gọi là đơn môđula.*
 
 Cũng có thể nói rằng $\mu$ là tương đối bất biến phải với nhân tử $\Delta_G$. Do đó $\Delta_G$ là một *biểu diễn liên tục của $G$ trong $\mathbf{R}_+^*$* (No. 1, Mệnh đề 1).
 
-#### Nhận xét {#int-vii-s1-n3-rem-1 .statement}
+#### Nhận xét {#int-vii-s1-n3-rem-1 .statement tag=09D8}
 
 — Nếu $\varphi$ là một đẳng cấu của $G$ lên một nhóm địa phương compact $G'$, thì $\Delta_{G'} \circ \varphi = \Delta_G$. Đặc biệt:
 1) Vì $x \mapsto x^{-1}$ là một đẳng cấu của $G$ lên nhóm đối $G^0$, ta có $\Delta_{G^0} = \Delta_G^{-1}$.
@@ -534,7 +534,7 @@ $$
 
 Các tính chất tương tự đúng đối với tích phân cốt yếu.
 
-#### Mệnh đề 3 {#int-vii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#int-vii-s1-prop-3 .statement tag=09D9}
 
 *Nếu trong G tồn tại một lân cận compact V của e bất biến dưới các tự đẳng cấu trong, thì G là đơn môđula.*
 
@@ -548,7 +548,7 @@ suy ra $\Delta_G(s) = 1$ vì $0 < \mu(V) < +\infty$.
 
 Từ đó, suy ra ngay:
 
-#### Hệ quả {#int-vii-s1-n3-cor-1 .statement}
+#### Hệ quả {#int-vii-s1-n3-cor-1 .statement tag=09DA}
 
 *Nếu G là rời rạc, hoặc compact, hoặc giao hoán, thì G là đơn môđula.*
 
@@ -562,7 +562,7 @@ Các nhóm con và các nhóm thương của một nhóm đơn môđula không p
 
 Cho G là một nhóm địa phương compact, $\varphi$ là một tự đẳng cấu của G, và $\mu$ là một độ đo Haar trái trên G. Hiển nhiên $\varphi^{-1}(\mu)$ cũng là một độ đo Haar trái trên G. Do đó tồn tại (Mục 2, Định lý 1) một và chỉ một số $a > 0$ sao cho $\varphi^{-1}(\mu) = a \mu$. Theo Mục 2, Định lý 1, số này không phụ thuộc vào lựa chọn của $\mu$. Chú ý rằng nếu ta bắt đầu với một độ đo Haar phải, chẳng hạn $\Delta_G^{-1} \cdot \mu$ (Mục 3), thì cũng sẽ thu được cùng một vô hướng $a$: vì, do $\varphi^{-1}$ để bất biến $\Delta_G$ (Mục 3, Chú ý), ta có $\varphi^{-1}(\Delta_G^{-1} \cdot \mu) = \Delta_G^{-1} \cdot \varphi^{-1}(\mu) = a \Delta_G^{-1} \cdot \mu$.
 
-#### Định nghĩa 4 {#int-vii-s1-def-4 .statement}
+#### Định nghĩa 4 {#int-vii-s1-def-4 .statement tag=09DB}
 
 *Số $a > 0$ sao cho $\varphi^{-1}(\mu) = a \mu$ được gọi là môđun của tự đẳng cấu $\varphi$ và được ký hiệu $\operatorname{mod}_G \varphi$ hoặc đơn giản là $\operatorname{mod} \varphi$. \*
 
@@ -592,7 +592,7 @@ $$
 
 Nếu G hoặc rời rạc hoặc compact, thì độ đo Haar chuẩn hóa của nó được mọi tự đẳng cấu $\varphi$ của G biến thành chính nó, như ta thấy ngay bằng phép chuyển cấu trúc. Vì vậy *một tự đẳng cấu của một nhóm rời rạc hoặc compact có môđun bằng 1*.
 
-#### Mệnh đề 4 {#int-vii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#int-vii-s1-prop-4 .statement tag=09DC}
 
 *Cho G là một nhóm địa phương compact, $\Gamma$ là một nhóm tôpô, và $\gamma \mapsto u_\gamma$ là một đồng cấu từ $\Gamma$ vào nhóm $\mathscr{G}$ các tự đẳng cấu của G, sao cho $(\gamma, x) \mapsto u_\gamma(x)$ là một ánh xạ liên tục từ $\Gamma \times G$ vào G. Khi đó, ánh xạ $\gamma \mapsto \operatorname{mod}(u_\gamma)$ là một biểu diễn liên tục của $\Gamma$ trong $\mathbf{R}_+^*$. \*
 
@@ -602,7 +602,7 @@ Cho $\gamma_0 \in \Gamma$ và cho $U$ là một láng giềng tương đối com
 
 ### 5. Độ đo Haar của một tích
 
-#### Mệnh đề 5 {#int-vii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#int-vii-s1-prop-5 .statement tag=09DD}
 
 — *Cho* $(G_\iota)_{\iota \in I}$ *là một họ các nhóm địa phương compact*. *Với mọi* $\iota \in I$ *gọi* $\mu_\iota$ *là một độ đo Haar trái (resp. phải) trên* $G_\iota$. *Giả sử tồn tại một tập con hữu hạn* $J$ *của* $I$ *sao cho, với mọi* $\iota \in I - J$, $G_\iota$ *là compact và* $\mu_\iota(G_\iota) = 1$. *Khi đó độ đo tích* $\bigotimes_{\iota \in I} \mu_\iota$ *là một độ đo Haar trái (resp. phải) trên* $G = \prod_{\iota \in I} G_\iota$. *Nếu* $x = (x_\iota) \in G$ *thì*
 $$
@@ -614,7 +614,7 @@ $$
 $$
 suy ra $\Delta_G(x) = \prod_{\iota \in I} \Delta_{G_\iota}(x_\iota)$.
 
-#### Ví dụ {#int-vii-s1-n5-exa-1 .statement}
+#### Ví dụ {#int-vii-s1-n5-exa-1 .statement tag=09DE}
 
 — 1) Độ đo Lebesgue trên $\mathbf{R}^n$ là một độ đo Haar của nhóm cộng $\mathbf{R}^n$.
 
@@ -642,17 +642,17 @@ $$
 \mu(v) = (\varphi_\alpha(\mu))(w) = (\varphi_\alpha(\mu'))(w) = \mu'(v); \text{ suy ra } \mu = \mu' \text{ theo a)}.
 $$
 
-#### Mệnh đề 6 {#int-vii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#int-vii-s1-prop-6 .statement tag=09DF}
 
 *Với mọi* $\alpha \in A$, *hãy cho* $\mu_\alpha$ *là một độ đo dương trên* $G_\alpha$. *Giả sử rằng* $\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$ *khi* $\alpha \geq \beta$. *Khi đó, tồn tại một và chỉ một độ đo dương* $\mu$ *trên* $G$ *sao cho* $\varphi_\alpha(\mu) = \mu_\alpha$ *với mọi* $\alpha \in A$.
 
 Tính duy nhất suy ra ngay từ Bổ đề 2 b). Hãy chứng minh sự tồn tại của $\mu$. Cho $V$ là không gian vectơ các hàm thuộc $\mathscr{K}(G)$ và hằng trên các lớp kề của một $K_\alpha$ nào đó ($\alpha$ có thể phụ thuộc vào hàm). Từ Bổ đề 2 a) suy ra rằng $V$ thỏa điều kiện (P) của Ch. III, §1, No. 7, Mệnh đề 9: thật vậy, cho $K$ là một tập compact trong $G$ và chọn $f \in \mathscr{K}_+(G)$ sao cho $f(x) > 0$ với mọi $x \in K$; cho $a > 0$ là giá trị nhỏ nhất của $f$ trên $K$; theo Bổ đề 2 a), tồn tại một hàm $g \in V \cap \mathscr{K}_+(G)$ sao cho $|f - g| \leq a/2$, do đó $g(x) > 0$ với mọi $x \in K$, và điều kiện (P) được thỏa mãn. Cho $f \in V$. Tồn tại một $\alpha \in A$ sao cho $f$ hằng trên các lớp kề của $K_\alpha$. Bằng cách chuyển sang thương, $f$ xác định một hàm $f_\alpha \in \mathscr{K}(G_\alpha)$. Số $\mu(f) = \mu_\alpha(f_\alpha)$ không phụ thuộc vào lựa chọn $\alpha$: thật vậy, cho $\beta$ là bất kỳ chỉ số nào sao cho $f$ hằng trên các lớp kề của $K_\beta$; cho $\gamma \in A$ sao cho $\gamma \geq \alpha, \gamma \geq \beta$; khi đó $f$ xác định các hàm $f_\beta \in \mathscr{K}(G_\beta)$, $f_\gamma \in \mathscr{K}(G_\gamma)$ sao cho $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$; khi đó $f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$, do đó $\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$, và tương tự $\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$, suy ra mệnh đề đã nêu. Điều đó đã được thiết lập, hiển nhiên $\mu$ là một dạng tuyến tính trên $V$ và $\mu(f) \geq 0$ khi $f \geq 0$. Theo Mệnh đề 9 của Ch. III, §1, No. 7, $\mu$ có thể được mở rộng thành một độ đo dương trên $G$, mà ta lại ký hiệu là $\mu$. Ta có $\varphi_\alpha(\mu) = \mu_\alpha$ với mọi $\alpha \in A$ theo chính phép dựng của $\mu$.
 
-#### Định nghĩa 5 {#int-vii-s1-def-5 .statement}
+#### Định nghĩa 5 {#int-vii-s1-def-5 .statement tag=09DG}
 
 *Độ đo* $\mu$ *được gọi là giới hạn ngược (hoặc giới hạn xạ ảnh) của các* $\mu_\alpha$.
 
-#### Mệnh đề 7 {#int-vii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#int-vii-s1-prop-7 .statement tag=09DH}
 
 *Ta giữ các ký hiệu của Mệnh đề 6. Nếu mỗi* $\mu_\alpha$ *là một độ đo Haar trái (resp. phải) trên* $G_\alpha$, *thì* $\mu$ *là một độ đo Haar trái (resp. phải) trên* $G$.
 
@@ -666,7 +666,7 @@ therefore $\varphi_\alpha(\gamma(s)\mu) = \gamma(\varphi_\alpha(s))\mu_\alpha = 
 
 Từ nay trở đi, ta giả sử các $K_\alpha$ không những compact, mà còn mở trong $G$. Khi đó các $G_\alpha$ là rời rạc và, với $\beta \geq \alpha$, $K_\alpha/K_\beta$ là một nhóm compact và rời rạc, do đó là hữu hạn. Nhóm $G$ là đơn môđula (Mệnh đề 3).
 
-#### Mệnh đề 8 {#int-vii-s1-prop-8 .statement}
+#### Mệnh đề 8 {#int-vii-s1-prop-8 .statement tag=09DI}
 
 a) *Cho* $\mu$ *và* $\mu'$ *là hai độ đo dương trên* $G$ *sao cho, với mọi* $\alpha$ *và với mọi lớp ghép* $C$ *của* $K_\alpha$, $\mu(C) = \mu'(C)$. *Khi đó* $\mu = \mu'$.
 
@@ -676,7 +676,7 @@ Cho $\mu$ và $\mu'$ là hai độ đo dương trên $G$ thỏa mãn điều ki�
 
 Chứng minh b). Với mọi $\alpha \geq \alpha_0$, gọi $\mu_\alpha$ là độ đo Haar của nhóm rời rạc $G_\alpha$ sao cho mỗi điểm đều có độ đo $n_\alpha^{-1}$. Cho $\alpha, \beta$ sao cho $\alpha \geq \beta \geq \alpha_0$. Khi đó $K_\beta/K_\alpha$ có $n_\alpha/n_\beta$ phần tử. Do đó $\varphi_{\beta\alpha}(\mu_\alpha)$ là độ đo trên $G_\beta$ sao cho mỗi điểm đều có độ đo $n_\alpha^{-1} \cdot \frac{n_\alpha}{n_\beta} = n_\beta^{-1}$; nói cách khác, $\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$. Khi đó chỉ cần áp dụng các Mệnh đề 6 và 7.
 
-#### Ví dụ {#int-vii-s1-n6-exa-1 .statement}
+#### Ví dụ {#int-vii-s1-n6-exa-1 .statement tag=09DJ}
 
 — Cho $\mathbf{Q}_p$ là trường $p$-adic, tức là sự hoàn thành của $\mathbf{Q}$ theo giá trị tuyệt đối $p$-adic $|x|_p = p^{-v_p(x)}$ (GT, IX, §3, No. 2, *Ví dụ 3*). Các phần tử của $\mathbf{Q}_p$ được gọi là *các số* *$p$-adic*. Ta ký hiệu tiếp tục bởi $|x|_p$ phần mở rộng liên tục của giá trị tuyệt đối $p$-adic lên $\mathbf{Q}_p$. Ta có
 
@@ -698,13 +698,13 @@ Hạn chế của $\alpha$ lên $\mathbf{Z}_p$ hiển nhiên là một độ đo
 
 ### 7. Định nghĩa địa phương của một độ đo Haar
 
-#### Mệnh đề 9 {#int-vii-s1-prop-9 .statement}
+#### Mệnh đề 9 {#int-vii-s1-prop-9 .statement tag=09DK}
 
 *Cho G là một nhóm địa phương compact, V là một tập con mở của G, và $\mu$ là một độ đo dương khác không trên V thỏa mãn tính chất sau: nếu U là một tập con mở của V và nếu s \in G sao cho sU \subset V, thì ảnh của độ đo $\mu_U$ cảm sinh bởi $\mu$ trên U, qua đồng phôi $x \mapsto sx$ của U lên sU, là $\mu_{sU}$. Khi đó, tồn tại một và chỉ một độ đo Haar trái $\alpha$ trên G cảm sinh $\mu$ trên V.*
 
 Với mọi $s \in G$, cho $\mu_s$ là ảnh của $\mu$ qua phép đồng phôi $x \mapsto sx$ từ V lên sV. Hạn chế của $\mu_s$ lên $V \cap sV$ là ảnh của $\mu_{s^{-1}V \cap V}$ qua phép hạn chế của $x \mapsto sx$ lên $s^{-1}V \cap V$; theo giả thiết, ảnh này là $\mu_{V \cap sV}$. Bằng phép tịnh tiến, suy ra từ đó rằng $\mu_s$ và $\mu_t$ có cùng hạn chế lên $sV \cap tV$ với mọi $s, t$. Do đó, theo Mệnh đề 1 của Ch. III, §2, No. 1, tồn tại một độ đo $\alpha$ trên G cảm sinh $\mu_s$ trên sV với mọi $s$. Rõ ràng $\alpha$ là độ đo Haar trái duy nhất trên G cảm sinh $\mu$ trên V.
 
-#### Hệ quả {#int-vii-s1-n7-cor-1 .statement}
+#### Hệ quả {#int-vii-s1-n7-cor-1 .statement tag=09DL}
 
 *Cho G, G' là hai nhóm compact địa phương, V (tương ứng V') là một lân cận mở của phần tử trung hòa của G (tương ứng G'), và $\varphi$ là một đẳng cấu địa phương của G' với G (GT, III, §1, No. 3, Def. 2) được xác định trên V', sao cho $\varphi(V') = V$. Cho $\alpha'$ là một độ đo Haar trái trên G', và $\alpha'_V$, là hạn chế của nó lên $V'$. Khi đó $\varphi(\alpha'_{V'})$ là hạn chế lên $V$ của một độ đo Haar trái duy nhất $\alpha$ trên $G$.*
 
@@ -712,13 +712,13 @@ Cho $V_1$ là một lân cận mở của $e$ trong $G$ sao cho $V_1 V_1^{-1} \s
 
 Người ta nói rằng $\alpha$ *được suy ra từ* $\alpha'$ *nhờ đẳng cấu địa phương* $\varphi$.
 
-#### Ví dụ {#int-vii-s1-n7-exa-1 .statement}
+#### Ví dụ {#int-vii-s1-n7-exa-1 .statement tag=09DM}
 
 — Độ đo Haar trên $T$ thu được ở No. 2, *Ví dụ 3* có thể được suy ra từ độ đo Lebesgue trên $R$ nhờ một đẳng cấu địa phương của $R$ với $T$.
 
 ### 8. Các độ đo bất biến tương đối
 
-#### Mệnh đề 10 {#int-vii-s1-prop-10 .statement}
+#### Mệnh đề 10 {#int-vii-s1-prop-10 .statement tag=09DN}
 
 *Cho $G$ là một nhóm địa phương compact, $\mu$ là một độ đo trái bất biến tương đối trên $G$ với nhân tử $\chi$. Nếu $\chi_1$ là một biểu diễn liên tục của $G$ trong $\mathbf{C}^*$, thì độ đo $\chi_1 \cdot \mu$ là trái bất biến tương đối với nhân tử $\chi_1 \chi$.*
 
@@ -729,13 +729,13 @@ $$
 = (\chi_1 \chi)(s)^{-1}(\chi_1 \cdot \mu).
 $$
 
-#### Hệ quả 1 {#int-vii-s1-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#int-vii-s1-prop-10-cor-1 .statement tag=09DO}
 
 *Cho $\mu$ là một độ đo Haar trái trên $G$. Để một độ đo không bằng không $\nu$ trên $G$ là bất biến tương đối trái, điều kiện cần và đủ là nó có dạng $a \chi \cdot \mu$, trong đó $a \in \mathbf{C}^*$ và $\chi$ là một biểu diễn liên tục của $G$ trong $\mathbf{C}^*$; khi đó nhân tử của nó là $\chi$. \*
 
 Điều kiện này là đủ (Mệnh đề 10). Mặt khác, nếu $\nu$ là một độ đo bất biến tương đối trái không bằng không với nhân tử $\chi$, thì $\chi^{-1} \cdot \nu$ là bất biến trái (Mệnh đề 10), do đó có dạng $a \mu$ với $a \in \mathbf{C}^*$ (No. 2, hệ quả của Định lý 1).
 
-#### Hệ quả 2 {#int-vii-s1-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#int-vii-s1-prop-10-cor-2 .statement tag=09DP}
 
 *Mọi độ đo bất biến tương đối trái đều là bất biến tương đối phải.*
 
@@ -764,7 +764,7 @@ Các khái niệm về hàm không đáng kể, hàm không đáng kể địa p
 
 ### 9. Các độ đo nửa bất biến
 
-#### Mệnh đề 11 {#int-vii-s1-prop-11 .statement}
+#### Mệnh đề 11 {#int-vii-s1-prop-11 .statement tag=09DQ}
 
 *Cho G là một nhóm địa phương compact, $\mu$ là một độ đo Haar trái trên G. Để một độ đo $\nu \neq 0$ trên G là nửa bất biến trái, điều kiện cần và đủ là $\nu$ tương đương với $\mu$. \*
 
@@ -790,17 +790,17 @@ c) Giả sử $\mu(A) = 0$. Khi đó, với mọi $f \in \mathscr{K}_+(G)$, vế
 
 ### 10. Các trường địa phương compact
 
-#### Định nghĩa 6 {#int-vii-s1-def-6 .statement}
+#### Định nghĩa 6 {#int-vii-s1-def-6 .statement tag=09DR}
 
 — *Cho K là một trường địa phương compact*^{(1)}. *Với $a \in K^*$, người ta gọi môđun của a*, và ký hiệu bằng $\mathrm{mod}_K(a)$ hoặc đơn giản $\mathrm{mod}(a)$, *là môđun của tự đẳng cấu* $x \mapsto ax$ *của nhóm cộng* $K^+$ *nền của K; người ta đặt* $\mathrm{mod}(0) = 0$.
 
-#### Ví dụ {#int-vii-s1-n10-exa-1 .statement}
+#### Ví dụ {#int-vii-s1-n10-exa-1 .statement tag=09DS}
 
 — 1) Cho $K = \mathbf{R}$. Nếu $s > 0$ thì $s \cdot [0,1] = [0,s]$; nếu $s < 0$, $s \cdot [0,1] = [s,0]$. Do đó $\mathrm{mod}_\mathbf{R} t = |t|$ với mọi $t \in \mathbf{R}$.
 
 2) Cho $K = \mathbf{Q}_p$. Nếu $s \in \mathbf{Q}_p^*$ sao cho $|s|_p = p^{-n}$, thì $s \mathbf{Z}_p$ là tập hợp các $x \in \mathbf{Q}_p$ sao cho $|x|_p \leq p^{-n}$; do đó, nếu $\mu$ ký hiệu độ đo Haar chuẩn hóa trên $\mathbf{Q}_p$, thì $\mu(s \mathbf{Z}_p) = p^{-n}$. Do đó $\mathrm{mod}_{\mathbf{Q}_p} t = |t|_p$ với mọi $t \in \mathbf{Q}_p$.
 
-#### Mệnh đề 12 {#int-vii-s1-prop-12 .statement}
+#### Mệnh đề 12 {#int-vii-s1-prop-12 .statement tag=09DT}
 
 — *Hàm mod liên tục trên K, và* $\mathrm{mod}(ab) = \mathrm{mod}(a)\mathrm{mod}(b)$ *với mọi* $a, b$ *trong K*.
 
@@ -810,7 +810,7 @@ Khẳng định cuối cùng là hiển nhiên. Mệnh đề 4 của No. 4 cho t
 
 Vì K không rời rạc, $\alpha(\{0\}) = 0$ (No. 2, Mệnh đề 2); do đó, với mọi $\varepsilon > 0$ tồn tại một lân cận mở U của 0 sao cho $\alpha(U) \leq \varepsilon$. Vì phép nhân trong K liên tục, $aC \subset U$ với $a$ đủ gần 0, và khi đó $\mathrm{mod}(a) \leq \varepsilon / \alpha(C)$.
 
-#### Mệnh đề 13 {#int-vii-s1-prop-13 .statement}
+#### Mệnh đề 13 {#int-vii-s1-prop-13 .statement tag=09DU}
 
 — *Với mọi* $M > 0$, *cho* $V_M$ *là tập hợp các* $x \in K$ *sao cho* $\mathrm{mod}(x) \leq M$. *Nếu* K *không rời rạc, thì* $V_M$ *lập thành một hệ cơ bản các lân cận compact của* 0 *trong* K.
 
@@ -818,19 +818,19 @@ Các $V_M$ là các lân cận đóng của 0 theo Mệnh đề 12. Ta sẽ ch�
 
 Vì thế, do giao của các $V_M$ thu về $\{0\}$ nên các $V_M$ tạo thành một hệ cơ bản các lân cận của 0 (GT, I, §9, No. 2, Mệnh đề 1).
 
-#### Hệ quả {#int-vii-s1-n10-cor-1 .statement}
+#### Hệ quả {#int-vii-s1-n10-cor-1 .statement tag=09DV}
 
 — *Tôpô của một trường compact địa phương không rời rạc có một cơ sở đếm được.*
 
 Quả vậy, K là hợp của các tập compact $V_1, V_2, \ldots$. Mặt khác, K là khả metric theo Mệnh đề 1 của GT, IX, §3, No. 1. Do đó tôpô của K có một cơ sở đếm được (*loc. cit.*, §2, No. 9, Hệ quả của Mệnh đề 16).
 
-#### Mệnh đề 14 {#int-vii-s1-prop-14 .statement}
+#### Mệnh đề 14 {#int-vii-s1-prop-14 .statement tag=09DW}
 
 — *Cho* $\alpha$ *là một độ đo Haar trên* $K^+$. *Khi đó độ đo* $\beta = (\mathrm{mod}_K)^{-1} \cdot \alpha$ *trên* $K^*$ *là một độ đo Haar trái trên nhóm nhân* $K^*$.
 
 Quả vậy, nếu $b \in K^*$, ánh xạ $a \mapsto b^{-1} a$ từ K vào K biến $\alpha$ thành $(\mathrm{mod}_K b) \alpha$, suy ra $(\mathrm{mod}_K)^{-1} \cdot \alpha$ thành chính nó, do đó có mệnh đề.
 
-#### Hệ quả {#int-vii-s1-n10-cor-2 .statement}
+#### Hệ quả {#int-vii-s1-n10-cor-2 .statement tag=09DX}
 
 — *Cho* f *là một hàm xác định trên* $K^*$, *với giá trị trong* $\overline{\mathbf{R}}$ *hoặc trong một không gian Banach. Để* f *là* $\beta$-*khả tích, điều kiện cần và đủ là* $(\mathrm{mod}_K)^{-1} f$ *là* $\alpha$-*khả tích, trong trường hợp đó*
 
@@ -840,7 +840,7 @@ $$
 
 Điều này suy ra từ Mệnh đề 14, Hệ quả của Mệnh đề 13, và Ch. V, §5, No. 3, Định lý 1.
 
-#### Mệnh đề 15 {#int-vii-s1-prop-15 .statement}
+#### Mệnh đề 15 {#int-vii-s1-prop-15 .statement tag=09DY}
 
 — *Giả sử K giao hoán. Cho u là một tự đẳng cấu của không gian vectơ E = K^n. Khi đó*
 
@@ -888,13 +888,13 @@ và mặt khác $\mathrm{mod}_K(\det u_3) = \mathrm{mod}_K(1) = 1$, do đó có 
 
 Cho K là một trường giao hoán compact địa phương, E là một không gian vectơ có số chiều hữu hạn n trên K. Nếu $\varphi$ là một đẳng cấu của không gian vectơ $K^n$ lên không gian vectơ E, thì $\varphi$ biến tôpô của $K^n$ thành một tôpô trên E làm cho E trở thành một không gian vectơ compact địa phương. Tôpô này (gọi là chính tắc) không phụ thuộc vào $\varphi$ vì mọi tự đẳng cấu của không gian vectơ $K^n$ đều song liên tục. Trừ khi có nói rõ điều ngược lại, khi chúng ta nói về E như một không gian vectơ tôpô, thì tôpô luôn được hiểu là tôpô vừa được định nghĩa. Mọi tự đẳng cấu u của không gian vectơ E đều song liên tục, do đó $\mathrm{mod}_E u$ được xác định. Mặt khác, nếu u là một tự đồng cấu không khả nghịch của E, ta đặt $\mathrm{mod}_E u = 0$. Khi đó:
 
-#### Hệ quả 1 {#int-vii-s1-prop-15-cor-1 .statement}
+#### Hệ quả 1 {#int-vii-s1-prop-15-cor-1 .statement tag=09DZ}
 
 — *Cho K là một trường compact địa phương giao hoán, E là một không gian vectơ hữu hạn chiều trên K, và u là một tự đồng cấu của không gian vectơ E. Khi đó* $\mathrm{mod}_E(u) = \mathrm{mod}_K(\det u)$.
 
 Nếu u khả nghịch, điều này suy ra từ Mệnh đề 15. Nếu u không khả nghịch thì $\det u = 0$, do đó $\mathrm{mod}_K(\det u) = 0 = \mathrm{mod}_E u$.
 
-#### Hệ quả 2 {#int-vii-s1-prop-15-cor-2 .statement}
+#### Hệ quả 2 {#int-vii-s1-prop-15-cor-2 .statement tag=09E0}
 
 — *Cho E là một không gian vectơ thực có số chiều hữu hạn n, $(e_1, e_2, \ldots, e_n)$ là một cơ sở của E, P là tập hợp các* $x = \sum_{i=1}^n \xi_i e_i \in E$ *sao cho* $0 \leq \xi_i \leq 1$ *với mọi i, và* $\mu$ *là độ đo Haar duy nhất trên nhóm cộng E sao cho* $\mu(P) = 1$. *Cho* $x_1, \ldots, x_n$ *là các điểm của E, S là bao lồi đóng trong E của tập hợp* $\{0, x_1, \ldots, x_n\}$. *Viết* $x_i = \sum_{j=1}^n \alpha_{ij} e_j$, *ta có*
 
@@ -942,7 +942,7 @@ $$
 \mathrm{mod}_A L_a = \mathrm{mod}_K N_{A/K}(a), \quad \mathrm{mod}_A R_a = \mathrm{mod}_K N_{A^0/K}(a).
 $$
 
-#### Mệnh đề 16 {#int-vii-s1-prop-16 .statement}
+#### Mệnh đề 16 {#int-vii-s1-prop-16 .statement tag=09E1}
 
 — *Cho $\alpha$ là một độ đo Haar của nhóm cộng của $A$. Các độ đo*
 
@@ -954,13 +954,13 @@ $$
 
 Gọi $\alpha'$ là hạn chế của $\alpha$ lên tập mở $A^*$. Với $a \in A^*$, ta có $L_a(\alpha') = (\mathrm{mod}_K N_{A/K}(a))^{-1} \alpha'$, do đó $(\mathrm{mod}_K N_{A/K}(a))^{-1} d\alpha'(a)$ là một độ đo Haar trái trên $A^*$ (No. 8, Hệ quả 1 của Mệnh đề 10). Chuyển qua đại số đối, ta thấy rằng $(\mathrm{mod}_K N_{A^0/K}(a))^{-1} d\alpha'(a)$ là một độ đo Haar phải trên $A^*$.
 
-#### Mệnh đề 17 {#int-vii-s1-prop-17 .statement}
+#### Mệnh đề 17 {#int-vii-s1-prop-17 .statement tag=09E2}
 
 — *Giả sử $A$ là một trường (compact địa phương). Với mọi $a \in A$, $\mathrm{mod}_A(a) = \mathrm{mod}_K N_{A/K}(a)$.*
 
 Đây là bản dịch của công thức thứ nhất của (38).
 
-#### Ví dụ {#int-vii-s1-n11-exa-1 .statement}
+#### Ví dụ {#int-vii-s1-n11-exa-1 .statement tag=09E3}
 
 — 1) Lấy $K = \mathbf{R}$, $A = \mathbf{C}$. Xét đến *Alg.*, chương VIII, §12, n° 2, mệnh đề 4, ta thu được $\mathrm{mod}_\mathbf{C}(z) = |z|^2$ với mọi $z \in \mathbf{C}$. (2)
 

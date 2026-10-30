@@ -32,9 +32,9 @@ subsections:
       pdf_page: 234
 statements: 38
 exercises: 3
-content_sha256: 48b2c0995c34e8be29e6803d89b8f5110db332b4466396f5ff4c525021e76f7d
+content_sha256: 4ab7570875aaba5ebf221716f1d172d2e46d2ab8bc6dc35be466a2cc39fbfbab
 translated_from: content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md
-source_content_sha256: 866ddc595833f4df526fd8eb97073f6b7852bd2cb892053b6e89c39b0b88935f
+source_content_sha256: 8313e76e55f08fcd7dd783b09028bd3331bcb51b6229df45213a85cc59097f4a
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-52b281be
 glossary_version: 34
@@ -64,11 +64,11 @@ Vì thế, điều quan trọng không chỉ là biết giá trị giới hạn 
 
 Trong phần sau ta ký hiệu V là một không gian vectơ định chuẩn trên một trường có giá trị K, và $\mathscr{H}(\mathfrak{F}, V)$ là tập hợp các hàm nhận giá trị trong V, mỗi hàm đều được xác định trên một tập con của E thuộc cơ sở của bộ lọc $\mathfrak{F}$. Những quan hệ mà ta sẽ định nghĩa giữa các hàm như vậy có một tính chất *địa phương* tương đối với bộ lọc có cơ sở $\mathfrak{F}$: hãy làm rõ ý ta muốn nói là gì. Nếu f và g là hai hàm trong $\mathscr{H}(\mathfrak{F}, V)$, hãy nhớ rằng quan hệ "có một tập $Z \in \mathfrak{F}$ sao cho f và g được xác định và bằng nhau trên Z" là một *quan hệ tương đương $R_\infty$ trên $\mathscr{H}(\mathfrak{F}, V)$ (*Gen. Top.*, I, p. 66). Vì thế, ta sẽ nói rằng một quan hệ S liên quan đến một hàm $f$ của $\mathscr{H}(\mathfrak{F}, V)$ là có tính chất *địa phương* (theo $\mathfrak{F}$) đối với f, nếu nó *tương thích* (với f) với quan hệ tương đương $R_\infty$ (*Set Theory*, II, p. 117); ta biết rằng nếu $\tilde{f}$ là *mầm* của f theo $\mathfrak{F}$, tức là lớp tương đương của f modulo $R_\infty$ (một phần tử của tập thương $\mathscr{H}_\infty(\mathfrak{F}, V) = \mathscr{H}(\mathfrak{F}, V)/R_\infty$), thì từ S, bằng cách chuyển qua tập thương, ta có thể suy ra một quan hệ giữa $\tilde{f}$ và các đối số khác của S, và ngược lại, mọi quan hệ như vậy đều xác định một quan hệ có tính chất địa phương đối với f.
 
-#### Ví dụ {#fvr-v-s1-n1-exa-5 .statement}
+#### Ví dụ {#fvr-v-s1-n1-exa-5 .statement tag=08DN}
 
 Nếu $f$ và $g$ là hai hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, quan hệ "có một $X \in \mathfrak{F}$ sao cho $f$ và $g$ được xác định trên $X$ và $f(t) \leq g(t)$ với mọi $t \in X$" là có tính chất địa phương đối với $f$ và $g$. Ta ký hiệu $\tilde{f} \leq \tilde{g}$ quan hệ thu được bằng cách chuyển qua tập thương (đối với $f$ và $g$); ta nhận xét rằng nếu $\tilde{f} \leq \tilde{g}$ thì tồn tại một hàm $f_1 \in \tilde{f}$ và một hàm $g_1 \in \tilde{g}$, được xác định trên *toàn bộ* E, sao cho $f_1(t) \leq g_1(t)$ với mọi $t \in E$.
 
-#### Nhận xét {#fvr-v-s1-n1-rem-3 .statement}
+#### Nhận xét {#fvr-v-s1-n1-rem-3 .statement tag=0E5L}
 
 1) Cho $V_i$ ($1 \leq i \leq n$) là $n$ không gian vectơ định chuẩn trên K, và $\varphi$ là một hàm được xác định trên $V_1 \times V_2 \times \cdots \times V_n$, nhận giá trị trong V; khi chuyển qua thương theo $R_\infty$ thì hàm $\varphi$ xác định một ánh xạ từ
 $$
@@ -78,7 +78,7 @@ vào $\mathscr{H}_\infty(\mathfrak{F}, V)$, mà người ta thường ký hiệu
 
 2) Với cùng ký hiệu, cho $\psi$ là một ánh xạ của một tập con của $\prod_{i=1}^n V_i$ vào V; ta ký hiệu bởi $\psi(f_1, f_2, \ldots, f_n)$ hàm bằng $\psi(f_1(t), f_2(t), \ldots, f_n(t))$ tại mọi điểm $t \in E$ nơi các $f_i(t)$ được xác định và nơi điểm $(f_i(t))$ thuộc tập mà trên đó $\psi$ được xác định $^1$. Chẳng hạn, $f + g$ là hàm bằng $f(t) + g(t)$ tại mọi điểm $t \in E$ nơi cả $f$ lẫn $g$ đều được xác định. Hãy chú ý rằng ánh xạ $(f, g) \mapsto f + g$ *không phải là một luật nhóm* trên $\mathscr{H}(\mathfrak{F}, V)$, vì nếu $f$ không được xác định trên toàn bộ E thì không có hàm $g \in \mathscr{H}(\mathfrak{F}, V)$ sao cho $f + g = 0$.
 
-#### Định nghĩa 1 {#fvr-v-s1-def-1 .statement}
+#### Định nghĩa 1 {#fvr-v-s1-def-1 .statement tag=08DO}
 
 *Cho hai hàm thực* $f, g$ *thuộc* $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, *đều* $\geq 0$ *trên một tập hợp trong* $\mathfrak{F}$, *ta nói rằng* $f$ *bị trội bởi* $g$, *hoặc rằng* $g$ *trội* $f$ *(theo* $\mathfrak{F}$*), và viết* $f \preceq g$ *hoặc* $g \succeq f$, *nếu có một tập hợp* $X \in \mathfrak{F}$ *và một số* $k > 0$ *sao cho* $f(t) \leq k\ g(t)$ *với mọi* $t \in X$ *(nói cách khác, nếu tồn tại một* $k > 0$ *sao cho* $\tilde{f} \leq k\ \tilde{g}$)
 
@@ -90,7 +90,7 @@ Quan hệ $f_1 \preccurlyeq f_2$ rõ ràng có đặc trưng địa phương the
 
 Chú ý rằng với mọi vô hướng $\lambda \neq 0$ quan hệ $f_1 \preccurlyeq f_2 \lambda$ *tương đương với* $f_1 \preccurlyeq f_2$. Nếu $f_1 \preccurlyeq f_2$ thì tồn tại một tập hợp $X \in \mathfrak{F}$ sao cho $f_1(x) = 0$ với mọi điểm $x \in X$ mà ở đó $f_2(x) = 0$.
 
-#### Ví dụ {#fvr-v-s1-n1-exa-6 .statement}
+#### Ví dụ {#fvr-v-s1-n1-exa-6 .statement tag=0E5I}
 
 1) Quan hệ $f \preccurlyeq 1$ có nghĩa là $f$ *bị chặn* trên một tập hợp của $\mathfrak{F}$.
 
@@ -103,17 +103,17 @@ $$
 
 Các mệnh đề sau là những hệ quả ngay lập tức của đn. 1:
 
-#### Mệnh đề 1 {#fvr-v-s1-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-v-s1-prop-1 .statement tag=08DP}
 
 *Nếu* $f, g, h$ *là ba hàm trong* $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ *thì các quan hệ* $f \preccurlyeq g$ *và* $g \preccurlyeq h$ *suy ra* $f \preccurlyeq h$.
 
-#### Mệnh đề 2 {#fvr-v-s1-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-v-s1-prop-2 .statement tag=08DQ}
 
 *Cho* $f_1, f_2$ *là hai hàm trong* $\mathscr{H}(\mathfrak{F}, V)$ *và* $g$ *là một hàm trong* $\mathscr{H}(\mathfrak{F}, \mathbf{R})$. *Các quan hệ* $f_1 \preccurlyeq g$ *và* $f_2 \preccurlyeq g$ *suy ra* $f_1 + f_2 \preccurlyeq g$.
 
 Tiếp theo:
 
-#### Mệnh đề 3 {#fvr-v-s1-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-v-s1-prop-3 .statement tag=08DR}
 
 *Cho* $V_1, V_2, V$ *là ba không gian chuẩn trên cùng một trường có định giá, và* $(x, y) \mapsto [x.y]$ *là một ánh xạ song tuyến tính từ* $V_1 \times V_2$ *vào* $V$. *Nếu* $f_1$ *và* $f_2$ *là các hàm trong* $\mathscr{H}(\mathfrak{F}, V_1)$ *và* $\mathscr{H}(\mathfrak{F}, V_2)$ *tương ứng, và* $g_1, g_2$ *là hai hàm trong* $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ *sao cho* $f_1 \preccurlyeq g_1$ *và* $f_2 \preccurlyeq g_2$ *thì* $[f_1.f_2] \preccurlyeq g_1 g_2$.
 
@@ -122,31 +122,31 @@ $$
 |[f_1.f_2]| \leq a \|f_1\| \|f_2\|.
 $$
 
-#### Hệ quả {#fvr-v-s1-n1-cor-1 .statement}
+#### Hệ quả {#fvr-v-s1-n1-cor-1 .statement tag=08DS}
 
 *Nếu* $V$ *là một đại số chuẩn*, *nếu* $f_1, f_2$ *là hai hàm trong* $\mathscr{H}(\mathfrak{F}, V)$, *và* $g_1, g_2$ *là hai hàm trong* $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, *thì các quan hệ* $f_1 \preccurlyeq g_1, f_2 \preccurlyeq g_2$ *suy ra* $f_1 f_2 \preccurlyeq g_1 g_2$.
 
 Quan hệ $f \preccurlyeq g$ giữa các hàm trong $\mathscr{H}(\mathfrak{F}, V)$ là *bắc cầu* theo mđ. 1; vì nó là *phản xạ* nên quan hệ "*f \preccurlyeq g and g \preccurlyeq f*" là một *quan hệ tương đương* trên $\mathscr{H}(\mathfrak{F}, V)$ (*Lý thuyết tập hợp*, II, p. 113).
 
-#### Định nghĩa 2 {#fvr-v-s1-def-2 .statement}
+#### Định nghĩa 2 {#fvr-v-s1-def-2 .statement tag=08DT}
 
 *Cho hai hàm* $f, g$ *của* $\mathscr{H}(\mathfrak{F}, V)$ *ta nói rằng* $f$ *và* $g$ *là tương tự (theo* $\mathfrak{F}$*), và viết* $f \simeq g$, *nếu* $f \preccurlyeq g$ *và* $g \preccurlyeq f$.
 
 Với mọi vô hướng $\lambda \neq 0$ quan hệ $f \simeq g$ tương đương với $f \simeq g \lambda$. Nó suy ra sự tồn tại của một tập $X \in \mathfrak{F}$ sao cho tập con của $X$ gồm các điểm mà ở đó $f(x) = 0$ trùng với tập con của $X$ gồm các điểm mà ở đó $g(x) = 0$.
 
-#### Ví dụ 1 {#fvr-v-s1-n1-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-s1-n1-exa-1 .statement tag=08DU}
 
 Với một hàm thực $f \in \mathscr{H}(\mathfrak{F}, \mathbf{R})$ quan hệ $f \simeq 1$ có nghĩa là có hai số $a > 0,\ b > 0$ sao cho $a \leq |f(x)| \leq b$ trên một tập trong $\mathfrak{F}$, hay rằng hàm số $\log |f|$ bị chặn trên một tập trong $\mathfrak{F}$: khi đó người ta nói rằng $f$ *bị chặn theo lôgarit* trên một tập trong $\mathfrak{F}$.
 
-#### Ví dụ 2 {#fvr-v-s1-n1-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-s1-n1-exa-2 .statement tag=08DV}
 
 Cho $V$ là một không gian định chuẩn trên một trường có định giá không rời rạc $K$, và cho $f(x) = a_0 x^n + a_1 x^{n-1} + \cdots + a_n$ là một đa thức theo biến $x \in K$, với các hệ số trong $V$, sao cho $a_0 \neq 0$. Với mọi vectơ $b \neq 0$ ta có $f(x) \simeq b x^n$ khi $|x|$ tiến tới $+\infty$.
 
-#### Ví dụ 3 {#fvr-v-s1-n1-exa-3 .statement}
+#### Ví dụ 3 {#fvr-v-s1-n1-exa-3 .statement tag=08DW}
 
 Ta đã thấy rằng $\sin^2 x \preccurlyeq \sin x$ khi $x$ tiến tới $+\infty$, nhưng *ta không có* $\sin^2 x \simeq \sin x$, mặc dù các hàm này triệt tiêu tại cùng các điểm.
 
-#### Ví dụ 4 {#fvr-v-s1-n1-exa-4 .statement}
+#### Ví dụ 4 {#fvr-v-s1-n1-exa-4 .statement tag=08DX}
 
 Ta có $x^2 + xy + y^2 \simeq x^2 + y^2$ khi $(x,\ y)$ tiến tới $(0,\ 0)$ trong $\mathbf{R}^2$, nhưng *không* $xy \simeq x^2 + y^2$.
 
@@ -156,17 +156,17 @@ Ta nhận xét rằng ngược lại các quan hệ $f_1 \simeq g_1$ và $f_2 \s
 
 Các quan hệ so sánh $f \preccurlyeq g,\ f \simeq g$ được gọi là *yếu*. Ta nói rằng hai hàm $f,\ g$ từ $\mathscr{H}(\mathfrak{F}, V)$ là *so sánh được yếu* nếu chúng thỏa mãn một trong các quan hệ $f \preccurlyeq g,\ g \preccurlyeq f$.
 
-#### Nhận xét 1 {#fvr-v-s1-n1-rem-1 .statement}
+#### Nhận xét 1 {#fvr-v-s1-n1-rem-1 .statement tag=08DY}
 
 Hai hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ không nhất thiết so sánh được yếu, như được chỉ ra bởi ví dụ về các hàm 1 và $x \sin x$ khi $x$ tiến tới $+\infty$.
 
-#### Nhận xét 2 {#fvr-v-s1-n1-rem-2 .statement}
+#### Nhận xét 2 {#fvr-v-s1-n1-rem-2 .statement tag=08DZ}
 
 Đặt $R_0$ là quan hệ $f \simeq g$ trên $\mathscr{H}(\mathfrak{F}, V)$, và đặt $\mathscr{H}_0(\mathfrak{F}, V)$ là tập thương $\mathscr{H}(\mathfrak{F}, V)/R_0$; chú ý rằng quan hệ $R$ *suy ra* $R_0$. Chuyển qua tập thương, quan hệ $f \preccurlyeq g$ cho, theo mệnh đề 1 của V, p. 213, một *quan hệ thứ tự* trên $\mathscr{H}_0(\mathfrak{F}, V)$ (*Lý thuyết tập hợp*, III, p. 134); ví dụ trước cho thấy rằng $\mathscr{H}_0(\mathfrak{F}, V)$ *không được sắp thứ tự toàn phần* bởi quan hệ này.
 
 ### 2. CÁC QUAN HỆ SO SÁNH: II. CÁC QUAN HỆ MẠNH
 
-#### Định nghĩa 3 {#fvr-v-s1-def-3 .statement}
+#### Định nghĩa 3 {#fvr-v-s1-def-3 .statement tag=08E0}
 
 *Cho hai hàm thực* $f,\ g$ *thuộc* $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, *mà đều* $\geq 0$ *trên một tập trong* $\mathfrak{F}$, *ta nói rằng* $f$ *không đáng kể so với* $g$, *hay rằng* $g$ *trội hơn* $f$ *(theo* $\mathfrak{F}$), *và viết* $f \ll g$ *hoặc* $g \gg f$ *nếu, với mọi* $\varepsilon > 0$, *tồn tại một tập* $X \in \mathfrak{F}$ *sao cho* $f(t) \leq \varepsilon g(t)$ *với mọi* $t \in X$.
 
@@ -176,7 +176,7 @@ Với mọi vô hướng $\lambda \neq 0$, quan hệ $f_1 \ll f_2 \lambda$ *tư�
 
 Chú ý rằng quan hệ $f_1 \preccurlyeq f_2$ hoàn toàn không suy ra quan hệ "f_1 \ll f_2 \text{ hoặc } f_1 \asymp f_2 \text{": ta có } \sin x \preccurlyeq 1 \text{ khi } x \text{ tiến tới } +\infty, \text{ nhưng không quan hệ nào trong hai quan hệ } \sin x \ll 1 \text{ hoặc } \sin x \asymp 1 \text{ là đúng.}"
 
-#### Ví dụ {#fvr-v-s1-n2-exa-8 .statement}
+#### Ví dụ {#fvr-v-s1-n2-exa-8 .statement tag=0E5N}
 
 1) Quan hệ $f \ll 1$ có nghĩa là $f$ *tiến tới 0 theo* $\mathfrak{F}$.
 
@@ -191,76 +191,76 @@ $$
 
 Các mệnh đề sau có thể được suy ra ngay lập tức từ định nghĩa 3:
 
-#### Mệnh đề 4 {#fvr-v-s1-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-v-s1-prop-4 .statement tag=08E1}
 
 *Nếu $f, g, h$ là ba hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ thì các quan hệ $f \preccurlyeq g$ và $g \ll h$ (resp. $f \ll g$ và $g \preccurlyeq h$) suy ra $f \ll h$. \*
 
-#### Mệnh đề 5 {#fvr-v-s1-prop-5 .statement}
+#### Mệnh đề 5 {#fvr-v-s1-prop-5 .statement tag=08E2}
 
 *Cho $f_1, f_2$ là hai hàm trong $\mathscr{H}(\mathfrak{F}, V)$ và $g$ là một hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$. Khi đó các quan hệ $f_1 \ll g$ và $f_2 \ll g$ suy ra $f_1 + f_2 \ll g$. \*
 
 Hơn nữa, lập luận tương tự như trong mệnh đề 3 của V, p. 213 cho thấy rằng:
 
-#### Mệnh đề 6 {#fvr-v-s1-prop-6 .statement}
+#### Mệnh đề 6 {#fvr-v-s1-prop-6 .statement tag=08E3}
 
 *Với ký hiệu của mệnh đề 3, các quan hệ $f_1 \ll g_1$ và $f_2 \preccurlyeq g_2$ (resp. $f_1 \preccurlyeq g_1$ và $f_2 \ll g_2$) suy ra $[f_1.f_2] \ll g_1g_2$. \*
 
 Mệnh đề 4 cho thấy quan hệ $f \ll g$ giữa các hàm trong $\mathscr{H}(\mathfrak{F}, V)$ là *bắc cầu*; nhưng *nó không phản xạ*: nói chính xác hơn, quan hệ $f \ll f$ suy ra rằng $f$ *triệt tiêu trên một tập hợp trong $\mathfrak{F}$* (nói cách khác, $f$ tương đương với 0 modulo $R_\infty$); thật vậy, với một $\varepsilon$ sao cho $0 < \varepsilon < 1$ tồn tại một $X \in \mathfrak{F}$ sao cho $\|f(x)\| \leq \varepsilon \|f(x)\|$ với mọi $x \in X$, điều này chỉ có thể xảy ra nếu $f(x) = 0$ với mọi $x \in X$. Suy ra quan hệ "f \ll g và g \ll f" là bắc cầu và đối xứng, nhưng không phản xạ: do đó nó không phải là một quan hệ tương đương (nó suy ra rằng tồn tại một tập hợp $X \in \mathfrak{F}$ sao cho $f(x) = g(x) = 0$ với mọi $x \in X$).
 
-#### Mệnh đề 7 {#fvr-v-s1-prop-7 .statement}
+#### Mệnh đề 7 {#fvr-v-s1-prop-7 .statement tag=08E4}
 
 *Nếu $f$ và $g$ là hai hàm trong $\mathscr{H}(\mathfrak{F}, V)$ thì quan hệ $f - g \ll f$ tương đương với $f - g \ll g$. \*
 
 Thật vậy, $f - g \ll f$ suy ra rằng với mọi $\varepsilon > 0$ tồn tại một $X \in \mathfrak{F}$ sao cho $\|f(x) - g(x)\| \leq \varepsilon \|f(x)\|$ với mọi $x \in X$. Nhưng khi đó $(1 - \varepsilon) \|f(x)\| \leq \|g(x)\|$, và do đó $f \preccurlyeq g$, suy ra (V, p. 215, mệnh đề 4) $f - g \ll g$.
 
-#### Hệ quả {#fvr-v-s1-n2-cor-1 .statement}
+#### Hệ quả {#fvr-v-s1-n2-cor-1 .statement tag=08E5}
 
 *Quan hệ $f - g \ll f$ là một quan hệ tương đương trên $\mathscr{H}(\mathfrak{F}, V)$. \*
 
 Thật vậy, nếu $f - g \ll f$ và $g - h \ll g$ thì $f - g \ll g$, do đó (V, p. 215, mệnh đề 5) $f - h \ll g$, và do đó, vì $g \preceq f$, ta có $f - h \ll f$, điều này cho thấy quan hệ này là bắc cầu; nó đối xứng theo mệnh đề 7, và rõ ràng là phản xạ, suy ra hệ quả.
 
-#### Định nghĩa 4 {#fvr-v-s1-def-4 .statement}
+#### Định nghĩa 4 {#fvr-v-s1-def-4 .statement tag=08E6}
 
 *Cho hai hàm* $f, g$ *của* $\mathscr{H}(\mathfrak{F}, V)$ *người ta nói rằng* $f$ *và* $g$ *tương đương (theo* $\mathfrak{F}$), *và viết* $f \sim g$, *nếu* $f - g \ll f$.
 
 Quan hệ $f \sim g$ suy ra $f \asymp g$ nhưng không tương đương với nó.
 
-#### Ví dụ 1 {#fvr-v-s1-n2-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-s1-n2-exa-1 .statement tag=08E7}
 
 Nếu $a$ là một hàm hằng, $\neq 0$ trên $E$, thì quan hệ $f \sim a$ có nghĩa là $f$ *tiến tới* $a$ *theo* $\mathfrak{F}$.
 
-#### Ví dụ 2 {#fvr-v-s1-n2-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-s1-n2-exa-2 .statement tag=08E8}
 
 Cho $V$ là một không gian chuẩn trên một trường định giá không rời rạc $K$, và cho $f(x) = a_0 x^n + a_1 x^{n-1} + \cdots + a_n$ là một đa thức theo biến $x \in K$, với các hệ số trong $V$, sao cho $a_0 \neq 0$. Khi đó $f(x) \sim a_0 x^n$ khi $|x|$ tiến tới $+\infty$.
 
-#### Ví dụ 3 {#fvr-v-s1-n2-exa-3 .statement}
+#### Ví dụ 3 {#fvr-v-s1-n2-exa-3 .statement tag=08E9}
 
 Khi số thực $x$ tiến tới $+\infty$ ta có $\left( 1 + \frac{1}{x} \right) \sin x \sim \sin x$.
 
-#### Ví dụ 4 {#fvr-v-s1-n2-exa-4 .statement}
+#### Ví dụ 4 {#fvr-v-s1-n2-exa-4 .statement tag=08EA}
 
 Khi biến phức $z$ tiến tới 0 ta có $e^z - 1 \sim z$. Nói chung hơn, nếu $V$ là một không gian chuẩn trên một trường định giá $K$, và $f$ là một hàm được xác định trên một lân cận của $x_0 \in K$, với giá trị trong $V$, và có đạo hàm $f'(x_0) \neq 0$ tại điểm $x_0$, thì, khi $x$ tiến tới $x_0$, ta có $f(x) - f(x_0) \sim f'(x_0)(x - x_0)$ (I, p. 3, định nghĩa 1).
 
-#### Ví dụ 5 {#fvr-v-s1-n2-exa-5 .statement}
+#### Ví dụ 5 {#fvr-v-s1-n2-exa-5 .statement tag=08EB}
 
 Khi $(x, y)$ tiến tới $(0, 0)$ trong $\mathbf{R}^2$ ta có
 $$
 \sqrt{\sin^2 x + \sin^2 y} \sim \sqrt{x^2 + y^2}.
 $$
 
-#### Ví dụ 6 {#fvr-v-s1-n2-exa-6 .statement}
+#### Ví dụ 6 {#fvr-v-s1-n2-exa-6 .statement tag=08EC}
 
 Cho $f(x, y)$ là một đa thức với hệ số thực theo hai biến thực $x, y$, không có số hạng tự do. Nếu, khi $x$ tiến tới 0 mà vẫn $> 0$, có một hàm $\varphi(x)$, liên tục trên một khoảng $[0, a]$, và sao cho $\varphi(0) = 0$ và $f(x, \varphi(x)) = 0$ với $0 \leq x \leq a$, ta có thể chứng minh rằng tồn tại một số hữu tỉ $r$ và một số thực $\lambda \neq 0$ sao cho $\varphi(x) \sim \lambda x^r$ (V, p. 259, exerc. 3).
 
-#### Ví dụ 7 {#fvr-v-s1-n2-exa-7 .statement}
+#### Ví dụ 7 {#fvr-v-s1-n2-exa-7 .statement tag=08ED}
 
 Với mọi $x > 0$ đặt $\pi(x)$ là số các số nguyên tố $\leq x$; người ta đã chứng minh rằng $\pi(x) \sim x / \log x$ $^2$ khi $x$ tiến tới $+\infty$.
 
-#### Nhận xét {#fvr-v-s1-n2-rem-3 .statement}
+#### Nhận xét {#fvr-v-s1-n2-rem-3 .statement tag=08EE}
 
 Chú ý rằng quan hệ $f \sim g$ hoàn toàn không suy ra rằng hiệu $f - g$ tiến tới 0 dọc theo $\mathfrak{F}$; hiệu này thậm chí có thể *không bị chặn*, như được chỉ ra bởi ví dụ $x^2 + x \sim x^2$ khi $x$ tiến tới $+\infty$.
 
-#### Mệnh đề 8 {#fvr-v-s1-prop-8 .statement}
+#### Mệnh đề 8 {#fvr-v-s1-prop-8 .statement tag=08EF}
 
 *Cho* $K$ *là một trường định giá và* $f_1, f_2, g_1, g_2$ *là bốn hàm trong* $\mathscr{H}(\mathfrak{F}, K)$; *khi đó các quan hệ* $f_1 \sim g_1$ *và* $f_2 \sim g_2$ *suy ra* $f_1 f_2 \sim g_1 g_2$.
 
@@ -272,11 +272,11 @@ $$ 2 Xem, chẳng hạn, A. E. INGHAM, *The distribution of prime numbers* (Camb
 
 Các quan hệ so sánh $f \ll g, f \sim g$ được gọi là các quan hệ mạnh. Hai hàm $f, g$ từ $\mathscr{H}(\mathfrak{F}, V)$ được gọi là tương đẳng được so sánh (hoặc tương đẳng mạnh nếu muốn tránh mọi nhầm lẫn có thể xảy ra) nếu chúng thỏa mãn một trong ba quan hệ: $f \ll g, f \gg g$, hoặc "tồn tại một $\lambda \neq 0$ sao cho $f \sim g\lambda$".
 
-#### Nhận xét 1 {#fvr-v-s1-n2-rem-1 .statement}
+#### Nhận xét 1 {#fvr-v-s1-n2-rem-1 .statement tag=08EG}
 
 Hai hàm có thể yếu tương đẳng mà không mạnh tương đẳng, chẳng hạn các hàm 1 và $\sin x$ khi $x$ tiến tới $+\infty$.
 
-#### Nhận xét 2 {#fvr-v-s1-n2-rem-2 .statement}
+#### Nhận xét 2 {#fvr-v-s1-n2-rem-2 .statement tag=08EH}
 
 Trong các định nghĩa của các quan hệ so sánh $f_1 \preccurlyeq f_2$ và $f_1 \ll f_2$ các chuẩn trên các không gian $V_1, V_2$ mà $f_1$ và $f_2$ lần lượt nhận giá trị, chỉ được xét một cách hình thức; trên thực tế chỉ các tôpô trên $V_1$ và $V_2$ được xét, vì các quan hệ $f_1 \preccurlyeq f_2$ và $f_1 \ll f_2$ được thay bởi các quan hệ tương đương khi thay chuẩn trên $V_1$ hoặc $V_2$ bằng một chuẩn tương đương (\emph{Gen. Top.}, IX, p. 170, def. 7).
 
@@ -288,7 +288,7 @@ Cho $\varphi$ là một ánh xạ từ tập hợp $E'$ vào $E$ sao cho $\varph
 
 Cho $g$ là một hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ mà dương ngặt trên một tập hợp trong $\mathfrak{F}$. Các quan hệ so sánh có chứa $g$ có thể được phát biểu theo một cách khác: quan hệ $f \preccurlyeq g$ tương đương với nói rằng $\|f\|/g$ (được định nghĩa trên một tập hợp trong $\mathfrak{F}$) bị chặn trên trên một tập hợp trong $\mathfrak{F}$; quan hệ $f \ll g$ tương đương với nói rằng $\|f\|/g$ tiến tới 0 dọc theo $\mathfrak{F}$. Nếu $f$ là một hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ quan hệ $f \asymp g$ có nghĩa là $f/g$ bị chặn theo lôgarit trên một tập hợp trong $\mathfrak{F}$, và quan hệ $f \sim g$ rằng $f/g$ tiến tới 1 dọc theo $\mathfrak{F}$. Nếu $f$ là một hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ và dương trên một tập hợp trong $\mathfrak{F}$, nói rằng $f$ và $g$ là so sánh được suy ra rằng $f/g$ tiến tới một giới hạn (hữu hạn hoặc bằng $+\infty$) dọc theo $\mathfrak{F}$.
 
-#### Mệnh đề 9 {#fvr-v-s1-prop-9 .statement}
+#### Mệnh đề 9 {#fvr-v-s1-prop-9 .statement tag=08EI}
 
 Cho $f$ và $g$ là hai hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, dương ngặt trên một tập hợp trong $\mathfrak{F}$. Để $f$ và $g$ là so sánh được thì cần và đủ là với mọi số $t \geqslant 0$, trừ nhiều nhất một ngoại lệ, hàm $f - tg$ có dấu không đổi $^3$ trên một tập hợp trong $\mathfrak{F}$.
 
@@ -296,7 +296,7 @@ Cho $f$ và $g$ là hai hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, dư�
 
 Điều kiện là đủ. Thật vậy, giả sử rằng tỉ số $f/g$ có hai điểm tụ phân biệt $\alpha < \beta$ theo $\mathfrak{F}$. Khi đó, với *mọi* số $t$ sao cho $\alpha < t < \beta$ tồn tại trong *mọi* tập hợp $X \in \mathfrak{F}$ hai điểm $x_1, x_2$ sao cho $f(x_1)/g(x_1) < t$ và $f(x_2)/g(x_2) > t$; do đó $f(x) - t g(x)$ không có dấu hằng trên $X$; ta đã đi đến một kết luận không tương thích với giả thiết. Suy ra rằng $f/g$ chỉ có thể có *một* giá trị tụ (hữu hạn hoặc vô hạn) theo bộ lọc có cơ sở là $\mathfrak{F}$, và do đó, (*Gen. Top.*, I, p. 85, hệ quả) có giá trị này làm *giới hạn* của nó theo $\mathfrak{F}$.
 
-#### Mệnh đề 10 {#fvr-v-s1-prop-10 .statement}
+#### Mệnh đề 10 {#fvr-v-s1-prop-10 .statement tag=08EJ}
 
 *Cho $f$ và $g$ là hai hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ dương ngặt trên một tập hợp thuộc $\mathfrak{F}$; với mọi $\alpha$ thực và $\neq 0$ thì quan hệ $f \asymp g$ (resp. $f \sim g$) tương đương với $f^\alpha \asymp g^\alpha$ (resp. $f^\alpha \sim g^\alpha$); nếu $\alpha > 0$ thì quan hệ $f \preccurlyeq g$ (resp. $f \ll g$) tương đương với $f^\alpha \preccurlyeq g^\alpha$ (resp. $f^\alpha \ll g^\alpha$); nếu $\alpha < 0$ thì nó tương đương với $f^\alpha \succcurlyeq g^\alpha$ (resp. $f^\alpha \succ g^\alpha$).*
 
@@ -304,7 +304,7 @@ Các chứng minh là ngay lập tức.
 
 Một nhận thấy rằng trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ tập hợp $I'$ các hàm dương ngặt trên một tập trong $\mathfrak{F}$ là như vậy rằng $\Gamma/\mathbf{R}_\infty$ là một *nhóm nhân* $\Gamma_\infty$ trong $\mathscr{H}_\infty(\mathfrak{F}, \mathbf{R})$; $\Gamma/\mathbf{R}_0$ trùng với nhóm thương của $\Gamma_\infty$ bởi nhóm con các lớp (mod. $\mathbf{R}_\infty$) của các hàm bị chặn logarit trong $\Gamma$; trên $\Gamma/\mathbf{R}_0$ quan hệ thứ tự suy ra từ quan hệ $f \preccurlyeq g$ khi đi qua thương là *tương thích* với cấu trúc nhóm của $\Gamma/\mathbf{R}_0$ và do đó biến nó thành một nhóm có thứ tự.
 
-#### Mệnh đề 11 {#fvr-v-s1-prop-11 .statement}
+#### Mệnh đề 11 {#fvr-v-s1-prop-11 .statement tag=08EK}
 
 *Cho $g$ là một hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ sao cho $\lim_{\mathfrak{F}} g = +\infty$; quan hệ $f \ll g$ kéo theo $e^f \ll e^g$; quan hệ $f \sim g$ kéo theo $\log f \sim \log g$.*
 
@@ -312,13 +312,13 @@ Thật vậy, nếu $f \ll g$ thì $f - g = g \left( \frac{f}{g} - 1 \right)$ ti
 
 Mặt khác, lưu ý rằng quan hệ $f \sim g$ *không kéo theo* $e^f \sim e^g$, cũng không kéo theo ngay cả $e^f \asymp e^g$, như được cho thấy bởi ví dụ trong đó $f(x) = x^2, \ g(x) = x^3 + x$ khi $x$ tiến tới $+\infty$; tương tự, quan hệ $f \ll g$ *không kéo theo* $\log f \ll \log g$, như được cho thấy bởi ví dụ $f(x) = x, \ g(x) = x^2$ khi $x$ tiến tới $+\infty$.
 
-#### Định nghĩa 5 {#fvr-v-s1-def-5 .statement}
+#### Định nghĩa 5 {#fvr-v-s1-def-5 .statement tag=08EL}
 
 *Cho $g$ là một hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$, dương ngặt trên một tập trong $\mathfrak{F}$, và sao cho $\lim_{\mathfrak{F}} g = 0$ hoặc $\lim_{\mathfrak{F}} g = +\infty$. Người ta nói rằng một hàm $f \in \mathscr{H}(\mathfrak{F}, \mathbf{R})$ có cấp $\rho$ (hữu hạn hoặc vô hạn) tương đối với $g$ nếu $\lim_{\mathfrak{F}} \log(|f|)/\log g = \rho$.*
 
 Lưu ý rằng nếu $f$ có cấp $\rho$ tương đối với $g$ thì $f$ có cấp $-\rho$ tương đối với $1/g$; do đó chỉ cần xét trường hợp $g(x)$ tiến tới $+\infty$ theo $\mathfrak{F}$.
 
-#### Mệnh đề 12 {#fvr-v-s1-prop-12 .statement}
+#### Mệnh đề 12 {#fvr-v-s1-prop-12 .statement tag=08EM}
 
 Cho g là một hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ sao cho $\lim_{\mathfrak{F}} g = +\infty$; cho f là một hàm trong $\mathscr{H}(\mathfrak{F}, \mathbf{R})$.
 
@@ -338,11 +338,11 @@ hay $(g(x))^{\rho - \frac{\varepsilon}{2}} \leq |f(x)| \leq (g(x))^{\rho + \frac
 
 Lưu ý rằng nếu f có cấp hữu hạn $\rho$ đối với g thì $fg^{-\rho}$ có cấp 0 đối với g, và ngược lại; nếu $f_1$ (resp. $f_2$) có cấp $\rho_1$ (resp. $\rho_2$) đối với g, và nếu $\rho_1 + \rho_2$ được xác định, thì $f_1 f_2$ có cấp $\rho_1 + \rho_2$ đối với g.
 
-#### Nhận xét 1 {#fvr-v-s1-n4-rem-1 .statement}
+#### Nhận xét 1 {#fvr-v-s1-n4-rem-1 .statement tag=08EN}
 
 Hãy lưu ý rằng mặc dù f có thể có cấp hữu hạn $\rho$ đối với g, tỷ số $f/g^\rho$ vẫn có thể không tiến tới một giới hạn; chẳng hạn, mọi hàm bị chặn theo lôgarit đều có cấp 0 đối với g, nhưng có thể không có giới hạn dọc theo $\mathfrak{F}$.
 
-#### Nhận xét 2 {#fvr-v-s1-n4-rem-2 .statement}
+#### Nhận xét 2 {#fvr-v-s1-n4-rem-2 .statement tag=08EO}
 
 Một hàm xác định trên một tập thuộc $\mathfrak{F}$ có thể không có cấp xác định (hữu hạn hay không) đối với g, vì các hàm có cấp xác định đối với g đều so sánh được với mọi lũy thừa của g, nhiều nhất là một ngoại lệ. Còn f thì có thể không có tính chất này, như thấy từ ví dụ $g(x) = x,\ f(x) = 1 + x^2 \sin^2 x$ (khi x tiến tới $+\infty$). Trong ví dụ này f so sánh được với $g^\alpha$ với $\alpha < 0$ và $\alpha > 2$; nếu lấy $f(x) = e^x \sin^2 x + e^{-x} \cos^2 x$ thì f không so sánh được với bất kỳ lũy thừa nào (dương hay âm) của g.
 

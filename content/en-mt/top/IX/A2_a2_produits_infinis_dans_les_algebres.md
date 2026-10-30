@@ -26,11 +26,11 @@ subsections:
       pdf_page: 202
 statements: 16
 exercises: 8
-content_sha256: 2fe7f596f7a8dcff7358c8fef9bcf1e3955a7283c9c8cff9e17445b96a9d361d
+content_sha256: 2baaef362268fdefff5dce0389525dbf9764f6fa1542af493ed8ab79700be6e5
 translated_from: content/fr/top/IX/A2_a2_produits_infinis_dans_les_algebres.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: ab6ab83a7be20d6d31a5cb9faff75800a97c61a65f3a651a3c634d8fa3f7f2ca
+source_content_sha256: fe3cc1002a0948bad180ceaef868c29761ff669b36bd2dd85171f4d2384fc2b4
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-en-mt-7b2672d1
 glossary_version: 34
@@ -48,17 +48,17 @@ Let $A$ be a normed algebra over a commutative non-discrete valued field (IX, p.
 
 Let $(x_n)_{n \geq N}$ be an infinite sequence of points of $A$; every finite subset $J$ of $\mathbf{N}$, totally ordered by the order of $\mathbf{N}$, defines a sequence (A, I, p. 3) $(x_n)_{n \in J}$ of points of $A$; in Algebra (A, I, p. 3) the product $p_J = \prod_{n \in J} x_n$ of this sequence has been defined, which we shall call the finite partial product of the sequence $(x_n)_{n \in \mathbf{N}}$, corresponding to the finite subset $J$ of $\mathbf{N}$ (recall that, for $J = \varnothing$, one puts $\prod_{n \in \varnothing} x_n = e$).
 
-#### Definition 1 {#top-ix-a2-def-1 .statement}
+#### Definition 1 {#top-ix-a2-def-1 .statement tag=0EDC}
 
 One says that the sequence $(x_n)_{n \geq N}$ is multipliable in the normed algebra $A$ if the mapping $J \mapsto p_J$ has a limit following the filter of sections of the set $\mathscr{F}(\mathbf{N})$ of finite subsets of $\mathbf{N}$, ordered by the relation $\subset$; this limit is called the product of the sequence $(x_n)_{n \in \mathbf{N}}$, and is denoted $\prod_{n \in \mathbf{N}} x_n$ (or simply $\prod_n x_n$); the $x_n$ are called the factors of this product.
 
 Def. 1 is equivalent to the following one: the sequence $(x_n)$ is multipliable and has product $p$ if, for every $\varepsilon > 0$, there exists a finite subset $J_0$ of $\mathbf{N}$ such that, for every finite subset $J \supset J_0$ of $\mathbf{N}$, one has $\|p_J - p\| \leq \varepsilon$.
 
-#### Remark 1 {#top-ix-a2-n1-rem-1 .statement}
+#### Remark 1 {#top-ix-a2-n1-rem-1 .statement tag=0EDD}
 
 When $A$ is a commutative algebra, def. 1 is identical with that which was given in III, p. 37 (Remark 3); but when $A$ is not commutative, the order structure of the set of indices $\mathbf{N}$ intervenes in an essential way in def. 1; if $\sigma$ is any permutation of $\mathbf{N}$, nothing permits one to assert in general that the sequence $(\mathbf{x}_{\sigma(n)})$ is multipliable when the sequence $(\mathbf{x}_n)$ is; moreover, when these two sequences are multipliable, their products are in general different.
 
-#### Remark 2 {#top-ix-a2-n1-rem-2 .statement}
+#### Remark 2 {#top-ix-a2-n1-rem-2 .statement tag=0EDE}
 
 Def. 1 generalizes immediately to the case of a family $(\mathbf{x}_n)_{n \in I}$ whose set of indices $I$ is a subset of $\mathbf{Z}$ (totally ordered by the order induced by that of $\mathbf{Z}$); we leave to the reader the task of extending to this case the following properties (cf. IX, p. 125, exerc. 1 and 2).
 
@@ -66,7 +66,7 @@ Def. 1 generalizes immediately to the case of a family $(\mathbf{x}_n)_{n \in I}
 
 We shall henceforth restrict ourselves to the case where the normed algebra $A$ is complete.
 
-#### Theorem 1 {#top-ix-a2-thm-1 .statement}
+#### Theorem 1 {#top-ix-a2-thm-1 .statement tag=0EDF}
 
 Let $(\mathbf{x}_n)_{n \in \mathbf{N}}$ be a sequence of points of a complete normed algebra $A$.
 
@@ -92,21 +92,21 @@ $$
 
 this shows that, in the multiplicative group $G$ of the invertible elements of $A$, the image by the mapping $J \mapsto p_J$ of the filter of sections of $\mathfrak{F}(N)$ is a Cauchy filter basis for the left uniform structure of the group $G$; but since $G$ is complete ($IX$, p. 40, prop. 14), the limit of the mapping $J \mapsto p_J$ belongs to $G$.
 
-#### Remark {#top-ix-a2-n2-rem-1 .statement}
+#### Remark {#top-ix-a2-n2-rem-1 .statement tag=0EDG}
 
 When $(x_n)$ is multipliable and has a noninvertible product, the condition of th. 1 is no longer necessarily verified; for example, if all the $x_n$ are equal to the same element $x$ such that $\| x \| < 1$, the sequence $(x_n)$ is multipliable and has product 0, and for every nonempty finite subset $H$ of $N$, one has $\| p_H \| \leq \| x \| < 1 \leq \| e \|$.
 
-#### Corollary 1 {#top-ix-a2-thm-1-cor-1 .statement}
+#### Corollary 1 {#top-ix-a2-thm-1-cor-1 .statement tag=0EDH}
 
 *If* $(x_n)$ *is a multipliable sequence whose product is invertible in* $A$, $\lim_{n \to \infty} x_n = e$.
 
-#### Corollary 2 {#top-ix-a2-thm-1-cor-2 .statement}
+#### Corollary 2 {#top-ix-a2-thm-1-cor-2 .statement tag=0EDI}
 
 *If* $(x_n)$ *is a multipliable sequence whose product is invertible in* $A$, *any sequence* $(x_{n_k})_{k \in \mathbf{N}}$ *extracted from* $(x_n)$ *(($n_k$) being a strictly increasing sequence of integers) is multipliable*.
 
 This is what the criterion of th. 1 ($IX$, p. 79) immediately shows.
 
-#### Theorem 2 {#top-ix-a2-thm-2 .statement}
+#### Theorem 2 {#top-ix-a2-thm-2 .statement tag=0EDJ}
 
 *Let* $A$ *be a complete normed algebra; if* $(u_n)$ *is an absolutely convergent series of points of* $A$, *the sequence* $(e + u_n)$ *is multipliable in* $A$; *moreover, if all the elements* $e + u_n$ *are invertible in* $A$, *the same is true of* $\prod_{n \in \mathbf{N}} (e + u_n)$.
 
@@ -118,7 +118,7 @@ $$
 
 Now, since the series of general term $\| u_n \|$ is convergent by assumption, the sequence $(1 + \| u_n \|)$ is multipliable in $\mathbf{R}_+^*$ ($IV$, p. 35, th. 4); for every $\varepsilon > 0$, there therefore exists a finite subset $J_0$ of $N$ such that, for every finite subset $L$ of $N$ not meeting $J_0$, we have $\left| \prod_{n \in L} (1 + \| u_n \|) - 1 \right| \leq \varepsilon$; whence the theorem.
 
-#### Corollary {#top-ix-a2-n2-cor-1 .statement}
+#### Corollary {#top-ix-a2-n2-cor-1 .statement tag=0EDK}
 
 *If the series of general term* $u_n$ *is absolutely convergent, and if none of the elements* $e + u_n$ *is a divisor of 0 in* $A$, *the product* $\prod_{n \in \mathbf{N}} (e + u_n)$ *is not a divisor of 0 in* $A$.
 
@@ -126,7 +126,7 @@ Indeed, there are only a finite number of integers $n$ such that $\|u_n\| > 1$. 
 
 The *sufficient* condition for multipliability given in th. 2 is not necessary in general (cf. IX, p. 126, exerc. 6). It is, however, necessary in the important case where $A$ is an algebra of *finite* rank over the field $\mathbf{R}$ (in particular when $A$ is the field of quaternions $\mathbf{K}$, or a matrix algebra $\mathbf{M}_n(\mathbf{R})$):
 
-#### Proposition 1 {#top-ix-a2-prop-1 .statement}
+#### Proposition 1 {#top-ix-a2-prop-1 .statement tag=0EDL}
 
 *Let $A$ be a normed algebra of finite rank over $\mathbf{R}$. If $(\mathbf{e} + u_n)$ is a multipliable sequence in $A$, whose product is invertible, the series of general term $u_n$ is absolutely convergent.*
 
@@ -142,7 +142,7 @@ $$
 p_I = \prod_{i \in I} (\mathbf{e} + a_i) \qquad s_I = \sum_{i \in I} a_i, \qquad \sigma_I = \sum_{i \in I} \|a_i\|.
 $$
 
-#### Lemma 1 {#top-ix-a2-lem-1 .statement}
+#### Lemma 1 {#top-ix-a2-lem-1 .statement tag=0EDM}
 
 *For every finite subset $I$ of $\mathbf{N}$, let $\varphi(I) = \sup_{J \subset I} \|p_J - \mathbf{e}\|.$ For every subset $J$ of $I$, one has*
 $$
@@ -158,7 +158,7 @@ $$
 $$
 which proves the lemma.
 
-#### Lemma 2 {#top-ix-a2-lem-2 .statement}
+#### Lemma 2 {#top-ix-a2-lem-2 .statement tag=0EDN}
 
 *If $I$ is a finite subset of $\mathbf{N}$ such that $\varphi(I) < 1/c$, one has $\sigma_I \leq \frac{c \varphi(I)}{1 - c \varphi(I)}$*.
 
@@ -179,7 +179,7 @@ By Lemma 2, one deduces $\sum_{i \in H} \| u_i \| \leq 1$ for every finite subse
 
 To every sequence $(x_n)$ of points of a normed algebra $A$, let us make correspond the sequence of the *partial products* $p_n = \prod_{k=0}^n x_k$; one calls *infinite product* of general factor $x_n$, the *couple* of the sequences $(x_n)$ and $(p_n)$. The infinite product of general factor $x_n$ is said to be *convergent* if the sequence $(p_n)$ is convergent in $A$; the limit of this sequence is then called the *product* of the sequence $(x_n)$, and is denoted $\prod_{n=0}^\infty x_n$.
 
-#### Proposition 2 {#top-ix-a2-prop-2 .statement}
+#### Proposition 2 {#top-ix-a2-prop-2 .statement tag=0EDO}
 
 *Let $(x_n)$ be a sequence of points of a complete normed algebra $A$.*
 
@@ -189,11 +189,11 @@ b) *Conversely, if the sequence* $(x_n)$ *satisfies this condition, the infinite
 
 We leave to the reader the development of the proof of this proposition, which is copied step by step from that of th. 1 of IX, p. 79 (the finite parts $L$ of $\mathbf{N}$ which occur in the latter having simply to be replaced by intervals).
 
-#### Corollary 1 {#top-ix-a2-prop-2-cor-1 .statement}
+#### Corollary 1 {#top-ix-a2-prop-2-cor-1 .statement tag=0EDP}
 
 *If the infinite product of general factor* $x_n$ *is convergent, and if* $\prod_{n=0}^\infty x_n$ *is invertible,* $\lim_{n \to \infty} x_n = e$.
 
-#### Corollary 2 {#top-ix-a2-prop-2-cor-2 .statement}
+#### Corollary 2 {#top-ix-a2-prop-2-cor-2 .statement tag=0EDQ}
 
 *If the infinite product of general factor* $x_n$ *is convergent, and if* $\prod_{n=0}^\infty x_n$ *is invertible, the infinite product of general factor* $y_n = x_{n+h} (n \geq 0)$ *is convergent.*
 
@@ -201,7 +201,7 @@ The product of the sequence $(y_n)$ is denoted by $\prod_{n=h}^\infty x_n$, and 
 
 Assuming still that $\prod_{n=0}^{\infty} x_n$ is invertible, we deduce also from prop. 2 (IX, p. 82) that, if $(z_n)$ is a sequence such that $z_n = x_n$ except for a finite number of indices, the product of general factor $z_n$ is convergent.
 
-#### Proposition 3 {#top-ix-a2-prop-3 .statement}
+#### Proposition 3 {#top-ix-a2-prop-3 .statement tag=0EDR}
 
 *Let* $(k_n)$ *be a strictly increasing sequence of integers* $\geqslant 0$ ($k_0 = 0$) : *if the infinite product of general factor* $x_n$ *converges, and if one sets* $u_n = \prod_{p=k_n}^{k_{n+1}-1} x_n$, *the infinite product of general factor* $u_n$ *is convergent, and one has* $\prod_{n=0}^{\infty} u_n = \prod_{n=0}^{\infty} x_n$.
 

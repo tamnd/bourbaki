@@ -49,7 +49,7 @@ subsections:
       pdf_page: 86
 statements: 39
 exercises: 9
-content_sha256: e98a40cd40f46d665e4de44061e8ca3ce8fa3849ad79dd27eb21891b4881be45
+content_sha256: 4e3035707e8a40f3e2be74e4514751451a90b1487003bd155e37d79d6e4587af
 translated_from: content/fr/alg/X/04_s4_produits_de_torsion.md
 source_lang: fr
 translation_method: machine
@@ -97,11 +97,11 @@ $$
 
 The complex of $k$-modules $(C\otimes_A C',D)$ is called the *tensor product complex* of the complexes $(C,d)$ and $(C',d')$.
 
-#### Remark 1 {#alg-x-s4-n1-rem-1 .statement}
+#### Remark 1 {#alg-x-s4-n1-rem-1 .statement tag=0DV2}
 
 When $C'$ is reduced to $C'_0=M$, then $(C\otimes_A C')_n=C_n\otimes_A M$ and $D=d\otimes 1_M$; for example $C\otimes_A A_s$ is naturally identified with $C$. Similarly, when $C$ is reduced to $C_0=P$, then $(C\otimes_A C')_n=P\otimes_A C'_n$ and $D=1_P\otimes d$.
 
-#### Remark 2 {#alg-x-s4-n1-rem-2 .statement}
+#### Remark 2 {#alg-x-s4-n1-rem-2 .statement tag=0DV3}
 
 For every integer $r$, we have $(C\otimes_A C')(r)=C(r)\otimes_A C'$, but $(C\otimes_A C')(r)$ and $C\otimes_A C'(r)$ do not in general have the same differential.
 
@@ -123,7 +123,7 @@ $$
 $$
 Prop. 6 of II, p. 59, can be reformulated as follows:
 
-#### Proposition 1 {#alg-x-s4-prop-1 .statement}
+#### Proposition 1 {#alg-x-s4-prop-1 .statement tag=0DV4}
 
 *If the complexes $C$ and $C'$ are zero on the right, $C \otimes_A C'$ is zero on the right and the canonical $k$-linear mapping*
 $$
@@ -154,7 +154,7 @@ $$
 \sigma(C, C') (x \otimes x') = (-1)^{pq} x' \otimes x .
 $$
 
-#### Proposition 2 {#alg-x-s4-prop-2 .statement}
+#### Proposition 2 {#alg-x-s4-prop-2 .statement tag=0DV5}
 
 The mapping $\sigma(C, C') : C \otimes_A C' \to {C'}^\circ \otimes_A C^\circ$ is an isomorphism of complexes of $k$-modules, whose reciprocal isomorphism is $\sigma({C'}^\circ, C^\circ)$.
 
@@ -214,11 +214,11 @@ $$
 \gamma((C^{(i)})) : \bigotimes_{i \in I} H(C^{(i)}) \to H \left( \bigotimes_{i \in I} C^{(i)} \right)
 $$
 
-#### Remark 3 {#alg-x-s4-n1-rem-3 .statement}
+#### Remark 3 {#alg-x-s4-n1-rem-3 .statement tag=0DV6}
 
 One can define the tensor product of a finite family of complexes without endowing the index set with a total order (X, p. 185, Exercise 3).
 
-#### Remark 4 {#alg-x-s4-n1-rem-4 .statement}
+#### Remark 4 {#alg-x-s4-n1-rem-4 .statement tag=0DV7}
 
 Suppose that each $C^{(i)}$ is endowed with a graded algebra structure compatible with its grading and such that the $d^{(i)}$ are antiderivations (III, p. 117). Let us then endow $\bigotimes_{i \in I} C^{(i)}$ with the left graded tensor product algebra structure of the given structures (III, p. 49). Then $D$ is an antiderivation. Indeed, using the associativity of the tensor product, we may assume that $I = \{1, 2\}$; let then $p_1,\ q_1,\ p_2,\ q_2 \in \mathbf{Z},\ x_1 \in (C^{(1)})_{p_1},\ y_1 \in (C^{(1)})_{q_1},\ x_2 \in (C^{(2)})_{p_2},\ y_2 \in (C^{(2)})_{q_2}$; we have
 
@@ -252,7 +252,7 @@ $$
 
 ### 2. Tensor products and homotopy
 
-#### Proposition 3 {#alg-x-s4-prop-3 .statement}
+#### Proposition 3 {#alg-x-s4-prop-3 .statement tag=0DV8}
 
 Let $C,\ C_1$ be two complexes of right $A$-modules, $C',\ C'_1$ two complexes of left $A$-modules, and $u : C \to C_1,\ v : C \to C_1,\ u' : C' \to C'_1,\ v' : C' \to C'_1$ be morphisms of complexes.
 
@@ -293,7 +293,7 @@ This gives $DS+SD=u\otimes u'-v\otimes v'$, whence a).
 
 Let us prove b). If $u$ and $u'$ are homotopy equivalences, there exist homomorphisms of complexes $\alpha:C_1\to C$ and $\alpha':C'_1\to C'$ such that $u\circ\alpha,\ \alpha\circ u',\ \alpha'\circ u'$ are homotopic respectively to $\mathrm{Id}_{C_1},\ \mathrm{Id}_C,\ \mathrm{Id}_{C'_1},\ \mathrm{Id}_{C'}$. Then $(u\otimes u')\circ(\alpha\otimes\alpha')$, which is equal to $(u\circ\alpha)\otimes(u'\circ\alpha')$, is homotopic by a) to $\mathrm{Id}_{C_1}\otimes\mathrm{Id}_{C'_1}=\mathrm{Id}_{C_1\otimes C'_1}$, while $(\alpha\otimes\alpha')\circ(u\otimes u')$ is homotopic to $\mathrm{Id}_{C\otimes C'}$, whence b). Finally, c) follows from b) applied to the case where $C_1$ or $C'_1$ is zero.
 
-#### Corollary 1 {#alg-x-s4-prop-3-cor-1 .statement}
+#### Corollary 1 {#alg-x-s4-prop-3-cor-1 .statement tag=0DV9}
 
 Let $C'$ be a split complex of left $A$-modules such that $H(C')$ is flat. For every complex $C$ of right $A$-modules, the canonical mapping
 
@@ -331,7 +331,7 @@ $$
 
 Since $d=i\circ j\circ\delta$, we have $D=d\otimes 1_{C'}=(i\otimes 1)\circ(j\otimes 1)\circ(\delta\otimes 1)$, which shows that the canonical mappings $Z(C)\otimes_A C'\to Z(C\otimes_A C')$ and $B(C)\otimes_A C'\to B(C\otimes_A C')$ are bijective, hence also $\gamma(C,C')$ by passing to quotients.
 
-#### Corollary 2 {#alg-x-s4-prop-3-cor-2 .statement}
+#### Corollary 2 {#alg-x-s4-prop-3-cor-2 .statement tag=0DVA}
 
 Let $\mathbf N$ be a flat left $A$-module. For every complex $C$ of right $A$-modules, the canonical homomorphisms
 
@@ -341,23 +341,23 @@ $$
 
 are bijective.
 
-#### Corollary 3 {#alg-x-s4-prop-3-cor-3 .statement}
+#### Corollary 3 {#alg-x-s4-prop-3-cor-3 .statement tag=0DVB}
 
 Let $C'$ be a complex of left $A$-modules such that $B(C')$ and $H(C')$ are projective. For every complex $C$ of right $A$-modules, the mapping $\gamma(C,C')$ is bijective.
 
 Indeed, $C'$ is split (X, p. 35, example 4) and $H(C')$ is projective; therefore we can apply corollary 1.
 
-#### Remark 1 {#alg-x-s4-n2-rem-1 .statement}
+#### Remark 1 {#alg-x-s4-n2-rem-1 .statement tag=0DVC}
 
 Using the commutation isomorphisms, one deduces from corollaries 1, 2 and 3 the analogous statements obtained by exchanging the roles of the two arguments of the tensor products.
 
-#### Remark 2 {#alg-x-s4-n2-rem-2 .statement}
+#### Remark 2 {#alg-x-s4-n2-rem-2 .statement tag=0DVD}
 
 We shall see below (X, p. 79, Cor. 4) that the conclusion of Cor. 1 is also true when one assumes $C'$ and $H(C')$ flat and $C'$ bounded on the right.
 
 ### 3. Tensor product by a flat complex bounded on the right
 
-#### Lemma 1 {#alg-x-s4-lem-1 .statement}
+#### Lemma 1 {#alg-x-s4-lem-1 .statement tag=0DVE}
 
 Let C be a complex of right A-modules and E a complex of left A-modules. We assume that $H(C)=0$ and that E is flat and bounded on the right. Then $H(C\otimes_A E)=0$.
 
@@ -375,7 +375,7 @@ $$
 
 where $i_k$ is the canonical injection and where $\pi$ projects the preceding direct sum onto its factor $C_{n-k}\otimes_A E_k=(C\otimes_A E_k(-k))_n$. By Cor. 2 above, we have $H(C\otimes_A E_k(-k))=0$, hence $i_k$ is a homomorphism. We have $T^{(k)}=0$ for $k$ sufficiently small, since $E$ is bounded on the right, hence $H(T^{(k)})=0$ for all $k$ by induction on $k$. Finally, the canonical morphism $\underset{\longrightarrow}{\lim}\,T^{(k)}\to C\otimes_A E$ is obviously an isomorphism, hence $H(C\otimes_A E)=0$ (X, p. 28, Prop. 1).
 
-#### Lemma 2 {#alg-x-s4-lem-2 .statement}
+#### Lemma 2 {#alg-x-s4-lem-2 .statement tag=0DVF}
 
 If $u:C\to C'$ is a morphism of complexes of right A-modules and $E$ a complex of left A-modules, then the complexes $\operatorname{Con}(u)\otimes_A E$ and $\operatorname{Con}(u\otimes 1_E)$ are isomorphic.
 
@@ -398,7 +398,7 @@ $$
 
 whence the assertion.
 
-#### Proposition 4 {#alg-x-s4-prop-4 .statement}
+#### Proposition 4 {#alg-x-s4-prop-4 .statement tag=0DVG}
 
 Let $u:C\to C'$ be a homology isomorphism of complexes of right A-modules and $E$ a complex of left A-modules, flat and bounded on the right. Then
 
@@ -410,7 +410,7 @@ is a homology isomorphism of complexes of $k$-modules.
 
 Indeed, by X, p. 38, Cor., $u$ (resp. $u\otimes 1_E$) is a homology isomorphism if and only if $H(\operatorname{Con}(u))=0$ (resp. $H(\operatorname{Con}(u\otimes 1_E))=0$). The conclusion then follows from Lemmas 1 and 2.
 
-#### Remark {#alg-x-s4-n3-rem-1 .statement}
+#### Remark {#alg-x-s4-n3-rem-1 .statement tag=0DVH}
 
 Using the commutation isomorphisms, one deduces from the preceding statements the analogous statements obtained by exchanging the roles of the two arguments of the tensor products.
 
@@ -418,7 +418,7 @@ Using the commutation isomorphisms, one deduces from the preceding statements th
 
 For every A-module $E$, we denote by $p_E:L(E)\to E$ the canonical free resolution of $E$ (X, p. 50).
 
-#### Definition 1 {#alg-x-s4-def-1 .statement}
+#### Definition 1 {#alg-x-s4-def-1 .statement tag=0DVI}
 
 Let $M$ be a right A-module and $N$ a left A-module. We call the torsion product of $M$ and $N$ the graded $k$-module
 
@@ -441,7 +441,7 @@ $$
 \operatorname{Tor}_n^A(M, N) = 0 \quad \text{for } n < 0 .
 $$
 
-#### Remark 1 {#alg-x-s4-n4-rem-1 .statement}
+#### Remark 1 {#alg-x-s4-n4-rem-1 .statement tag=0DVJ}
 
 We will see below (X, p. 107, Proposition 6) finiteness properties of the modules $\operatorname{Tor}^A(M, N)$. For example, if $A$ is commutative noetherian and if $M$ and $N$ are $A$-modules of finite type, every $A$-module $\operatorname{Tor}_n^A(M, N)$ is of finite type.
 
@@ -472,7 +472,7 @@ $$
 
 We will always identify $\operatorname{Tor}_0^A(M, N)$ with $M \otimes_A N$ through this isomorphism. Hence the $k$-linear map $\operatorname{Tor}_0^A(f, g)$ is identified with $f \otimes g$.
 
-#### Remark 2 {#alg-x-s4-n4-rem-2 .statement}
+#### Remark 2 {#alg-x-s4-n4-rem-2 .statement tag=0DVK}
 
 The complex morphism $p_M \otimes p_N : L(M) \otimes_A L(N) \to M \otimes_A N$ induces on the degree 0 homology the isomorphism
 
@@ -510,7 +510,7 @@ $$
 
 according to Proposition 4 of X, p. 67, $1 \otimes p_N$ and $p_M \otimes 1$ are homology morphisms. Therefore:
 
-#### Proposition 5 {#alg-x-s4-prop-5 .statement}
+#### Proposition 5 {#alg-x-s4-prop-5 .statement tag=0DVL}
 
 **The $k$-homomorphisms**
 
@@ -523,13 +523,13 @@ $$
 
 are *bijective*.
 
-#### Corollary {#alg-x-s4-n4-cor-3 .statement}
+#### Corollary {#alg-x-s4-n4-cor-3 .statement tag=0DVM}
 
 **If $M$ or $N$ is flat, $\mathrm{Tor}_i^A(M, N) = 0$ for $i \geqslant 0$.**
 
 Suppose that $N$ (resp. $M$) is flat. Then $p_M \otimes 1 : L(M) \otimes_A N \to M \otimes_A N$ (resp. $1 \otimes p_N : M \otimes_A L(N) \to M \otimes_A N$) is a homology morphism (X, p. 67, Proposition 4), hence $H_i(L(M) \otimes_A N)$ (resp. $H_i(M \otimes_A L(N))$) vanishes for $i > 0$.
 
-#### Remark 3 {#alg-x-s4-n4-rem-3 .statement}
+#### Remark 3 {#alg-x-s4-n4-rem-3 .statement tag=0DVN}
 
 *If $g : N \to N'$ is a homomorphism of left A-modules, then*
 
@@ -559,7 +559,7 @@ $$
 \end{array}
 $$
 
-#### Proposition 6 {#alg-x-s4-prop-6 .statement}
+#### Proposition 6 {#alg-x-s4-prop-6 .statement tag=0DVO}
 
 **The mapping** $(f, g) \mapsto \mathrm{Tor}^A(f, g) :$
 
@@ -583,13 +583,13 @@ $$
 
 One reasons analogously for the mapping $f \mapsto \mathrm{Tor}^A(f, g)$.
 
-#### Corollary {#alg-x-s4-n4-cor-1 .statement}
+#### Corollary {#alg-x-s4-n4-cor-1 .statement tag=0DVP}
 
 *Let $\lambda \in k$. If $\lambda$ annihilates $M$ or $N$, it annihilates $\mathrm{Tor}^A(M, N)$.*
 
 Indeed, $\lambda . 1_{\mathrm{Tor}(M, N)} = \mathrm{Tor}(\lambda . 1_M, 1_N) = \mathrm{Tor}(1_M, \lambda . 1_N)$.
 
-#### Proposition 7 {#alg-x-s4-prop-7 .statement}
+#### Proposition 7 {#alg-x-s4-prop-7 .statement tag=0DVQ}
 
 *Let I and J be two sets, $(M_\alpha)_{\alpha \in I}$ a family of right A-modules, $(N_\beta)_{\beta \in J}$ a family of left A-modules. The homomorphism*
 
@@ -617,7 +617,7 @@ $$
 
 An analogous reasoning gives :
 
-#### Proposition 8 {#alg-x-s4-prop-8 .statement}
+#### Proposition 8 {#alg-x-s4-prop-8 .statement tag=0DVR}
 
 *Let I (resp. J) be a right filtered preordered set, (($M_\alpha$, $u_{\alpha', \alpha}$) (resp. (($N_\beta$, $v_{\beta', \beta}$))) an inductive system of right A-modules (resp. left) relative to I (resp. J). The homomorphism of graded k-modules*
 
@@ -629,7 +629,7 @@ $$
 
 In particular, taking $J = I$ and remarking that the $(\alpha, \alpha), \alpha \in I$, form a cofinal subset of $I \times I$, one obtains :
 
-#### Corollary {#alg-x-s4-n4-cor-2 .statement}
+#### Corollary {#alg-x-s4-n4-cor-2 .statement tag=0DVS}
 
 Let I be a right filtered preordered set, $(M_i, u_{ji})$ (resp. $(N_i, v_{ji})$) an inductive system of right $A$-modules (resp. left) relative to I. The homomorphism of graded $k$-modules
 
@@ -685,7 +685,7 @@ $$
 
 the corresponding linking homomorphism (X, p. 29).
 
-#### Definition 2 {#alg-x-s4-def-2 .statement}
+#### Definition 2 {#alg-x-s4-def-2 .statement tag=0DVT}
 
 The linking homomorphism of torsion products, relative to the module $M$ and the exact sequence $\mathscr{E}$, is the composite homomorphism
 
@@ -695,7 +695,7 @@ $$
 
 This is a graded $k$-homomorphism of degree $-1$, whose homogeneous components are denoted $\partial_n(M, \mathscr{E}) : \mathrm{Tor}_n^A(M, N'') \to \mathrm{Tor}_{n-1}^A(M, N')$.
 
-#### Theorem 1 {#alg-x-s4-thm-1 .statement}
+#### Theorem 1 {#alg-x-s4-thm-1 .statement tag=0DVU}
 
 The left-infinite sequence of $k$-module homomorphisms
 
@@ -723,7 +723,7 @@ $$
 
 It commutes according to (X, p. 69, Remark 3) and Definition 2. Furthermore, the bottom row is exact (X, p. 30, Thm. 1), and the different $\psi_M$ are bijections (X, p. 69, prop. 5).
 
-#### Corollary 1 {#alg-x-s4-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-x-s4-thm-1-cor-1 .statement tag=0DVV}
 
 If $\mathrm{Tor}_1^A(M, N'') = 0$, the sequence
 
@@ -733,7 +733,7 @@ $$
 
 is exact.
 
-#### Corollary 2 {#alg-x-s4-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-x-s4-thm-1-cor-2 .statement tag=0DVW}
 
 Let $0 \to C' \xrightarrow{u} C \xrightarrow{v} C'' \to 0$ be an exact sequence of complexes of left $A$-modules, and let $E$ be a complex of right $A$-modules. If $C''$ or $E$ is flat, the sequence
 
@@ -745,7 +745,7 @@ is exact.
 
 Indeed, $\mathrm{Tor}_1^A(E, C'') = 0$ according to X, p. 69, Corollary to prop. 5.
 
-#### Example {#alg-x-s4-n5-exa-1 .statement}
+#### Example {#alg-x-s4-n5-exa-1 .statement tag=0DVX}
 
 Let $a$ be an ideal of $A$. The exact sequence
 
@@ -769,7 +769,7 @@ it follows that $\operatorname{Tor}_1^A(M, A/\alpha)$ is identified with the ker
 
 For example, taking for M a module of the form $A_d/b$, where b is a right ideal of A, one obtains an isomorphism of $\operatorname{Tor}_1^A(A/b, A/\alpha)$ onto $(\alpha \cap b)/ba$.
 
-#### Proposition 9 {#alg-x-s4-prop-9 .statement}
+#### Proposition 9 {#alg-x-s4-prop-9 .statement tag=0DVY}
 
 *Let f : M → M$_1$ be a homomorphism of right a-modules and*
 
@@ -838,7 +838,7 @@ $$\cdots\longrightarrow \operatorname{Tor}_1^A(M'',N)\xrightarrow{\partial_1(\ma
 
 We leave to the reader the task of stating and proving the properties analogous to the corollaries of th. 1 and to prop. 9. Moreover:
 
-#### Proposition 10 {#alg-x-s4-prop-10 .statement}
+#### Proposition 10 {#alg-x-s4-prop-10 .statement tag=0DVZ}
 
 *Let us denote by $(\mathscr F^\circ)$ the exact sequence of left $A$-modules*
 
@@ -870,7 +870,7 @@ We shall see later other commutation relations *(cf.* X, p. 131, cor. 1*).*
 
 ### 6. Flat modules and torsion products
 
-#### Theorem 2 {#alg-x-s4-thm-2 .statement}
+#### Theorem 2 {#alg-x-s4-thm-2 .statement tag=0DW0}
 
 *Let E be a right $A$-module. The following conditions are equi-*
 *valent :*
@@ -918,7 +918,7 @@ $$
 $$
 If (v) is satisfied, we have $\operatorname{Tor}_1^A(E, F) = 0$, whence (iii).
 
-#### Corollary 1 {#alg-x-s4-thm-2-cor-1 .statement}
+#### Corollary 1 {#alg-x-s4-thm-2-cor-1 .statement tag=0DW1}
 
 Let $0 \to E' \to E \to E'' \to 0$ be an exact sequence of right $A$-modules. Assume that $E''$ is flat. Then $E$ is flat if and only if $E'$ is flat.
 
@@ -928,7 +928,7 @@ $$
 $$
 whence the assertion (Th. 2, (i) $\Leftrightarrow$ (iii)).
 
-#### Corollary 2 {#alg-x-s4-thm-2-cor-2 .statement}
+#### Corollary 2 {#alg-x-s4-thm-2-cor-2 .statement tag=0DW2}
 
 *Let*
 $$
@@ -1017,7 +1017,7 @@ $$
 0 \longrightarrow Z \otimes_A C' \xrightarrow{j \otimes 1} C \otimes_A C' \xrightarrow{\delta \otimes 1} (B \otimes_A C')(-1) \longrightarrow 0 .
 $$
 
-#### Lemma 3 {#alg-x-s4-lem-3 .statement}
+#### Lemma 3 {#alg-x-s4-lem-3 .statement tag=0DW4}
 
 The connecting homomorphism $\mathrm{H}(B \otimes_A C') \to \mathrm{H}(Z \otimes_A C')$ associated with the exact sequence (12) is equal to $\mathrm{H}(i \otimes 1)$.
 
@@ -1066,18 +1066,18 @@ $$
 
 which is *commutative by definition of the homomorphisms $\gamma$*. But since the complexes $B$ and $Z$ are split and flat, $\gamma_B$ and $\gamma_Z$ are *bijective* (X, p. 65, Corollary 1). From this, on the one hand, we deduce that $\gamma_C$ is injective and has image equal to $\operatorname{Ker} H(\delta \otimes 1)$, and on the other hand, that $\gamma_B \circ \partial(\mathrm{II}, H')$ is injective with image equal to $\operatorname{Im} H(\delta \otimes 1)$. The theorem follows immediately from this.
 
-#### Corollary 1 {#alg-x-s4-lem-3-cor-1 .statement}
+#### Corollary 1 {#alg-x-s4-lem-3-cor-1 .statement tag=0DW5}
 
 *If $B(C)$ and $Z(C)$ are flat, then for every left $A$-module $N$ and every integer $n$, there is an exact sequence*
 
 (13) $$ 0 \longrightarrow H_n(C) \otimes_A N \xrightarrow{\gamma_n} H_n(C \otimes_A N) \xrightarrow{\alpha_n} \operatorname{Tor}_1^A(H_{n-1}(C), N) \longrightarrow 0 . $$
 
-#### Corollary 2 {#alg-x-s4-lem-3-cor-2 .statement}
+#### Corollary 2 {#alg-x-s4-lem-3-cor-2 .statement tag=0DW6}
 
 *Suppose $B(C)$ and $B(C')$ are projective and $Z(C)$ is flat. Then the sequences of $k$-modules (11) and (13) are exact and split.*
 This follows from the theorem and the following lemma:
 
-#### Lemma 4 {#alg-x-s4-lem-4 .statement}
+#### Lemma 4 {#alg-x-s4-lem-4 .statement tag=0DW7}
 
 *If $B(C)$ and $B(C')$ are projective, then the canonical homomorphism*
 $$ \gamma(C, C') : H(C) \otimes_A H(C') \to H(C \otimes_A C') $$
@@ -1094,12 +1094,12 @@ $$
 
 $H(\varphi) \otimes H(\varphi')$ and $\gamma(H(C), H(C'))$ are the identity, whence the assertion.
 
-#### Corollary 3 (universal coefficient formula) {#alg-x-s4-lem-4-cor-3 .statement}
+#### Corollary 3 (universal coefficient formula) {#alg-x-s4-lem-4-cor-3 .statement tag=0DW8}
 
 *Suppose the ring $A$ is principal. If the complexes $C$ and $C'$ are free, the sequences of $A$-modules (11) are exact and split; if the complex $C$ is free, the sequences of $A$-modules (13) are exact and split for every $A$-module $N$.*
 Indeed, $B(C), Z(C)$ and $B(C')$ are submodules of the free modules $C, C, C'$, so are free (VII, § 3, cor. 2 to th. 1), and we apply cor. 2.
 
-#### Corollary 4 (« Künneth formula ») {#alg-x-s4-lem-4-cor-4 .statement}
+#### Corollary 4 (« Künneth formula ») {#alg-x-s4-lem-4-cor-4 .statement tag=0DW9}
 
 Suppose C bounded on the right, C and H(C) flat; then the canonical homomorphism
 
@@ -1120,7 +1120,7 @@ $$
 
 whence, by X, p. 75, cor. 1, implications (B_{n-1}(C) is flat) $\Rightarrow$ (Z_n(C) is flat) $\Rightarrow$ (B_n(C) is flat) ; we conclude by remarking that B_n(C) = 0 for n small enough.
 
-#### Corollary 5 {#alg-x-s4-lem-4-cor-5 .statement}
+#### Corollary 5 {#alg-x-s4-lem-4-cor-5 .statement tag=0DWA}
 
 Let u : C \to C' be a homologism of complexes of right a-modules, flat and bounded on the right. For every complex E of left a-modules, the morphism $u \otimes 1_E : C \otimes_A E \to C' \otimes_A E$ is a homologism.
 
@@ -1128,7 +1128,7 @@ Indeed, Con (u) is a flat complex, bounded on the right and of zero homology; th
 
 ### 8. Bounded and flat complexes over a noetherian ring
 
-#### Proposition 11 {#alg-x-s4-prop-11 .statement}
+#### Proposition 11 {#alg-x-s4-prop-11 .statement tag=0DWB}
 
 Suppose A left noetherian, and let C be a bounded and flat complex of left a-modules such that H(C) is a finitely generated a-module. Let a and b be two integers such that a \leq b and H_n(C) = 0 for n < a, C_n = 0 for n > b. There exists a complex P of left a-modules such that P_n is projective and finitely generated for each n, and P_n = 0 for n \notin [a, b], and a homologism u : P \to C. Moreover, for every complex E of right a-modules, the homomorphism
 

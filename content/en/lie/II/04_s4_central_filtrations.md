@@ -37,14 +37,14 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: 5b8b11c50520f8ccfea99780d11840f43d7572ba4b6ee75c9508548dd842e65d
+content_sha256: 6dd2b136d04753cfdf0792754a0655d7811d3c21519c55e6a5ca6b7546279e90
 ---
 
 ## § 4. CENTRAL FILTRATIONS
 
 ### 1. REAL FILTRATIONS
 
-#### Definition 1 {#lie-ii-s4-def-1 .statement}
+#### Definition 1 {#lie-ii-s4-def-1 .statement tag=0A4H}
 
 Let $G$ be a group. A real filtration on $G$ is a family $(G_\alpha)_{\alpha \in \mathbf{R}}$ of subgroups of $G$ such that
 $$
@@ -53,7 +53,7 @@ $$
 
 Formula (1) implies $G_\alpha \subset G_\beta$ for $\beta < \alpha$ and hence the family $(G_\alpha)$ is *decreasing*. The filtration $(G_\alpha)$ is called *separated* if $\bigcap_\alpha G_\alpha$ reduces to the identity element and is called *exhaustive* if $G = \bigcup_\alpha G_\alpha$.
 
-#### Remark {#lie-ii-s4-n1-rem-1 .statement}
+#### Remark {#lie-ii-s4-n1-rem-1 .statement tag=0A4I}
 
 Let $(G_n)_{n \in \mathbf{Z}}$ be a decreasing sequence of subgroups of $G$. It is a decreasing filtration in the sense of *Commutative Algebra*, Chapter III, § 2, no. 1, Definition 1. For every integer $n$ and all $\alpha$ in the interval $]n-1, n]$ of $\mathbf{R}$, we write $H_\alpha = G_n$, in particular $H_n = G_n$. It is immediate that we thus obtain a real filtration $(H_\alpha)_{\alpha \in \mathbf{R}}$ on $G$; such a filtration will be called an *integral filtration*. Hence decreasing filtrations in the sense of *Commutative Algebra*, Chapter III, § 2, can be identified with integral filtrations.
 
@@ -97,7 +97,7 @@ defines a bijection of the set of exhaustive real filtrations $(A_\alpha)_{\alph
 (7) $$v(xy) \geq v(x) + v(y) \qquad (x, y \text{ in } A)$$
 (8) $$v(1) \geq 0.$$
 
-#### Remark {#lie-ii-s4-n2-rem-1 .statement}
+#### Remark {#lie-ii-s4-n2-rem-1 .statement tag=0A4J}
 
 If $v(x)$ is not everywhere equal to $+\infty$, conditions (7) and (8) imply $v(1) = 0$.
 
@@ -117,7 +117,7 @@ $$
 
 The *graded group associated with the filtered group* $G$ is the group $\operatorname{gr}(G)$ with its natural graduation of type $\mathbf{R}$.
 
-#### Remark {#lie-ii-s4-n3-rem-1 .statement}
+#### Remark {#lie-ii-s4-n3-rem-1 .statement tag=0A4K}
 
 When the filtration $(G_\alpha)$ is integral, $\operatorname{gr}_\alpha(G) = \{0\}$ for non-integral $\alpha$ and $\operatorname{gr}_n(G) = G_n / G_{n-1}$ for every integer $n$. The definition of the associated graded group therefore coincides essentially with that of *Commutative Algebra*, Chapter III, § 2, no. 3.
 
@@ -137,7 +137,7 @@ We derive a bilinear mapping of gr(A) × gr(A) into gr(A) which makes it a grade
 
 ### 4. CENTRAL FILTRATIONS ON A GROUP
 
-#### Definition 2 {#lie-ii-s4-def-2 .statement}
+#### Definition 2 {#lie-ii-s4-def-2 .statement tag=0A4L}
 
 Let G be a group. A real filtration $(G_\alpha)$ on G is called central if $G = \bigcup_{\alpha > 0} G_\alpha$ and the commutator $(x, y) = x^{-1}y^{-1}xy$ of an element x of $G_\alpha$ and an element y of $G_\beta$ belongs to $G_{\alpha + \beta}$.
 
@@ -167,7 +167,7 @@ $$
 $$
 By (14), $G_\alpha^+$ is a normal subgroup of $G_\alpha$ for all $\alpha \in \mathbf{R}$ and the quotient group $\mathrm{gr}_\alpha(G) = G_\alpha / G_\alpha^+$ is commutative. We write $\mathrm{gr}(G) = \bigoplus_{\alpha \in \mathbf{R}} \mathrm{gr}_\alpha(G)$ and give this group the graduation of type $\mathbf{R}$ in which $\mathrm{gr}_\alpha(G)$ consists of elements of degree $\alpha$. Then $\mathrm{gr}_\alpha(G) = \{0\}$ for $\alpha \leq 0$.
 
-#### Proposition 1 {#lie-ii-s4-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s4-prop-1 .statement tag=0A4M}
 
 (i) Let $\alpha, \beta$ be in $\mathbf{R}$. There exists a biadditive mapping
 $$
@@ -212,7 +212,7 @@ The Lie algebra $\mathrm{gr}(G)$ over $\mathbf{Z}$ defined in Proposition 1 is c
 
 Let $A$ be a unital associative algebra with a unital algebra filtration $(A_\alpha)$ such that $A_0 = A$; then $A_\alpha$ is a two-sided ideal of $A$ for all $\alpha \in \mathbf{R}$. Let $A^*$ denote the multiplicative group of invertible elements of $A$. For all $\alpha > 0$, let $\Gamma_\alpha$ denote the set of $x \in A^*$ such that $x - 1 \in A_\alpha$; we write $\Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha$ and $\Gamma_\beta = \Gamma$ for $\beta \leq 0$.
 
-#### Proposition 2 {#lie-ii-s4-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s4-prop-2 .statement tag=0A4N}
 
 *The set $\Gamma$ is a subgroup of $A^*$ and $(\Gamma_\alpha)$ is a central filtration on $\Gamma$.*
 
@@ -235,7 +235,7 @@ $$
 $$
 by hypothesis, $\xi \in A_\alpha$ and $\eta \in A_\beta$, whence $\xi \eta - \eta \xi \in A_{\alpha + \beta}$. As $A_{\alpha + \beta}$ is a two-sided ideal of $A$, $(x, y) - 1 \in A_{\alpha + \beta}$, whence $(x, y) \in \Gamma_{\alpha + \beta}$.
 
-#### Remark {#lie-ii-s4-n5-rem-1 .statement}
+#### Remark {#lie-ii-s4-n5-rem-1 .statement tag=0A4O}
 
 Let $\alpha \geq 0, \beta \geq 0$ and $x \in \Gamma_\alpha, y \in \Gamma_\beta$. By formulae (21), (22) and (23),
 $$
@@ -256,7 +256,7 @@ Now $[\xi, \eta] \in A_{\alpha + \beta}$, $(x^{-1} - 1) \in A_\alpha$, $(y^{-1} 
 
 Let $G$ be a group and $\rho : G \to \Gamma$ a homomorphism. For all real $\alpha$, we write $G_\alpha = \rho^{-1}(\Gamma_\alpha)$. As $(\Gamma_\alpha)$ is a central filtration on $\Gamma$, it is immediate that $(G_\alpha)$ is a central filtration on $G$.
 
-#### Proposition 3 {#lie-ii-s4-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s4-prop-3 .statement tag=0A4P}
 
 (i) *For all $\alpha \in \mathbf{R}$, there exists a unique group homomorphism $g_\alpha : \mathrm{gr}_\alpha(G) \to \mathrm{gr}_\alpha(A)$ which maps the class modulo $G_\alpha^+$ of an element $a \in G_\alpha$ to the class modulo $A_\alpha^+$ of $\rho(a) - 1$.*
 
@@ -292,7 +292,7 @@ $$
 
 The corresponding filtration is called the lower central filtration of G.
 
-#### Proposition 4 {#lie-ii-s4-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s4-prop-4 .statement tag=0A4Q}
 
 (i) The lower central series of G is an integral central filtration on G.
 
@@ -306,7 +306,7 @@ $$
 C^nG = (G, C^{n-1}G) \subset (G, G_{n-1}) \subset G_n.
 $$
 
-#### Proposition 5 {#lie-ii-s4-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s4-prop-5 .statement tag=0A4R}
 
 Let G be a group and gr(G) the graded Lie $\mathbf{Z}$-algebra associated with the lower central filtration on G. Then gr(G) is generated by $\mathrm{gr}_1(G) = G/(G, G)$.
 
@@ -322,7 +322,7 @@ $$
 \mathscr{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).
 $$
 
-#### Remark {#lie-ii-s4-n6-rem-1 .statement}
+#### Remark {#lie-ii-s4-n6-rem-1 .statement tag=0A4S}
 
 Let k be a ring, n an integer $> 0$ and A the set of lower triangular matrices with n rows and n columns and elements in k. For $p \geq 0$, let $A_p$ be the set of $(x_{ij}) \in A$ such that $x_{ij} = 0$ for $i - j < p$. Then $A_0 = A$ and $A_pA_q \subset A_{p+q}$. Let $\Gamma_p = 1 + A_p$. Then $\Gamma_1$ is a subgroup of $\mathbf{GL}(n, k)$ called the strict lower triangular group of order n over k. By Proposition 2 of no. 5, $(\Gamma_p)$ is an integral filtration on $\Gamma_1$. As $\Gamma_n = \{1\}$, we see that the group $\Gamma_1$ is nilpotent (Algebra, Chapter I, § 6, no. 3, Definition 6).
 

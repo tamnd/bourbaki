@@ -38,9 +38,9 @@ subsections:
       pdf_page: 239
 statements: 21
 exercises: 12
-content_sha256: 02e6dd31d2fc0304c2d4f506648bfb0babb58cbab337bfa44f53b7b9611c9102
+content_sha256: ededb2775e3eb7d3f8667c85d02b52e9bbce9267cd3430f5ec87e7b4613e3fae
 translated_from: content/en/alg/V/15_s15_separable_extensions.md
-source_content_sha256: cd3cc2bd76e6784392d91069b887e2344baeedd432fedf2725695282c5095d73
+source_content_sha256: 29004e5cd09fd460bf5167f0e6481b43d3d6e1b88934fe63c99d9a4a216f82d7
 translation_model: gpt-5.4
 translation_run: translate-vi-7c87708d
 glossary_version: 34
@@ -52,13 +52,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Đặc trưng hóa các phần tử lũy linh của một vành
 
-#### Mệnh đề 1 {#alg-v-s15-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s15-prop-1 .statement tag=06TN}
 
 — *Cho A là một vành giao hoán và x là một phần tử của A. Để x là lũy linh thì điều kiện cần và đủ là $1 - xT$ khả nghịch trong vành $A[T]$.*
 
 Ta chú ý rằng $A[T]$ là một vành con của vành các chuỗi lũy thừa hình thức $A[[T]]$ và $1 - xT$ có trong $A[[T]]$ nghịch đảo là $\sum_{n=0}^{\infty} x^n T^n$ (IV, p. 30, Mệnh đề 5). Để $1 - xT$ khả nghịch trong $A[T]$ thì điều kiện cần và đủ là $\sum_{n=0}^{\infty} x^n T^n$ là một đa thức, nghĩa là x là lũy linh.
 
-#### Mệnh đề 2 {#alg-v-s15-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s15-prop-2 .statement tag=06TO}
 
 — *Cho A là một vành giao hoán. Tập hợp các phần tử lũy linh của A là một iđêan của A, bằng giao của tập hợp mọi iđêan nguyên tố của A.*
 
@@ -68,7 +68,7 @@ Cho x là một phần tử không lũy linh của A. Theo Mệnh đề 1, iđê
 
 Vậy ta đã chứng tỏ rằng tập hợp $\mathfrak{n}$ các phần tử lũy linh của A là giao của tập hợp tất cả các iđêan nguyên tố của A; vì mọi giao của các iđêan đều là một iđêan, nên $\mathfrak{n}$ là một iđêan.
 
-#### Hệ quả {#alg-v-s15-n1-cor-1 .statement}
+#### Hệ quả {#alg-v-s15-n1-cor-1 .statement tag=06TP}
 
 — *Để một vành giao hoán là rút gọn* (*V*, p. 34, Định nghĩa 2) *thì điều kiện cần và đủ là nó đẳng cấu với một vành con của một tích các trường*.
 
@@ -78,13 +78,13 @@ Cho $\mathbf{A}$ là thu gọn. Theo Mệnh đề 2, giao $n$ của tập hợp 
 
 ### 2. Các đại số tách được
 
-#### Định nghĩa 1 {#alg-v-s15-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s15-def-1 .statement tag=06TQ}
 
 *Cho $\mathbf{A}$ là một đại số giao hoán trên một trường $K$. Khi đó $A$ được gọi là tách được trên $K$, hay cũng là một $K$-đại số tách được nếu vành $L \otimes_K \mathbf{A}$ là rút gọn đối với mọi mở rộng $L$ của $K$*.
 
 Mọi đại số tách được đều rõ ràng là rút gọn. Về một đảo lại bộ phận, xem Định lý 3 (*V*, p. 125).
 
-#### Ví dụ {#alg-v-s15-n2-exa-1 .statement}
+#### Ví dụ {#alg-v-s15-n2-exa-1 .statement tag=0DI7}
 
 *1*) Cho $\mathbf{A}$ là một đại số đa thức $K[X_i]_{i \in I}$. Với mọi mở rộng $L$ của $K$, vành $L \otimes_K \mathbf{A}$ đẳng cấu với $L[X_i]_{i \in I}$ (III, p. 449, Nhận xét 2) và do đó là một miền nguyên (*IV*, p. 9, Mệnh đề 8). Nói cách khác, mọi đại số đa thức trên một trường $K$ đều là một $K$-đại số tách được.
 
@@ -92,7 +92,7 @@ Mọi đại số tách được đều rõ ràng là rút gọn. Về một đ�
 
 3) Cho $E$ là một mở rộng đại số của một trường $K$. Nếu $L$ là một mở rộng của $K$, thì vành $L \otimes_K E$ là hợp của các vành con $L \otimes_K F$ khi $F$ chạy qua tập hợp tất cả các mở rộng con bậc hữu hạn của $E$; do đó vành $L \otimes_K E$ là rút gọn nếu và chỉ nếu điều này đúng với $L \otimes_K F$ đối với mọi mở rộng con $F$ của $E$, có bậc hữu hạn trên $K$. Có tính đến Ví dụ 2, ta thấy rằng $E$ là một đại số tách được theo nghĩa của Định nghĩa 1 ở trên nếu và chỉ nếu nó là một mở rộng đại số tách được theo nghĩa của Định nghĩa 1 của *V*, p. 36.
 
-#### Mệnh đề 3 {#alg-v-s15-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s15-prop-3 .statement tag=06TR}
 
 *Cho $K$ là một trường*.
 
@@ -108,7 +108,7 @@ Cho $L$ là một mở rộng của $K$. Cho $\mathbf{A}$ là một đại số 
 
 Chúng ta sẽ dùng ký hiệu của $d$). Với mọi mở rộng $L'$ của $K'$, các vành $L' \otimes_{K'} A_{(K')}$ và $L' \otimes_K A$ là đẳng cấu (II, p. 278, Prop. 2). Ta kết luận rằng nếu $A$ là một $K$-đại số tách được, thì $A_{(K')}$ là một $K'$-đại số tách được. Ngược lại, giả sử rằng $A_{(K')}$ là một $K'$-đại số tách được; nhận xét trước cho thấy rằng $L' \otimes_K A$ là rút gọn với mọi mở rộng $L'$ của $K$ chứa $K'$ như một mở rộng con. Cho $L$ là một mở rộng của $K$; theo Chú giải (V, p. 13) tồn tại một mở rộng $L'$ của $K$ chứa $K'$ như một mở rộng con và một $K$-đồng cấu từ $L$ vào $L'$; do đó vành $L \otimes_K A$ đẳng cấu với một vành con của $L' \otimes_K A$ và vì thế là rút gọn. Điều này chứng minh rằng $A$ là một $K$-đại số tách được.
 
-#### Mệnh đề 4 {#alg-v-s15-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s15-prop-4 .statement tag=06TS}
 
 — *Cho $A$ là một đại số tách được trên một trường $K$ và cho $B$ là vành phân thức toàn phần của $A$; khi đó $K$-đại số $B$ là tách được.*
 
@@ -119,13 +119,13 @@ $$
 với $y_i \in L, a_i \in A, s_i \in S$ đối với $1 \leq i \leq n$. Nếu ta đặt $s = s_1 \ldots s_n$
 thì $x(1 \otimes s)$ thuộc vành con $L \otimes_K A$ của $L \otimes_K B$; vì $x(1 \otimes s)$ là lũy linh và $A$ tách được trên $K$, ta có $x(1 \otimes s) = 0$, và vì $s$ khả nghịch trong $B$ nên do đó suy ra $x = 0$. Điều này chứng minh rằng vành $L \otimes_K B$ là rút gọn, do đó suy ra mệnh đề.
 
-#### Mệnh đề 5 {#alg-v-s15-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s15-prop-5 .statement tag=06TT}
 
 — *Cho $K$ là một trường và $A, B$ là các $K$-đại số giao hoán. Nếu $A$ là rút gọn và $B$ tách được thì $A \otimes_K B$ là rút gọn.*
 
 Theo Hệ quả của Mệnh đề 2 (V, p. 119) $A$ đẳng cấu với một đại số con của một tích $\prod_{i \in I} L_i$ trong đó $L_i$ là một mở rộng của $K$ với $i \in I$. Do đó $A \otimes_K B$ đẳng cấu với một vành con của $\left( \prod_{i \in I} L_i \right) \otimes_K B$ và vành sau này đẳng cấu với một vành con của $\prod_{i \in I} (L_i \otimes_K B)$ (II, p. 306, Mệnh đề 15). Vì $B$ tách được, mỗi vành $L_i \otimes_K B$ đều là rút gọn, và do đó $\prod_{i \in I} (L_i \otimes_K B)$ cũng vậy, và *a fortiori* $A \otimes_K B$ cũng vậy.
 
-#### Hệ quả 1 {#alg-v-s15-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s15-prop-5-cor-1 .statement tag=06TU}
 
 — *Cho $K$ là một trường, $L$ là một mở rộng tách được của $K$ và $f$ là một đa thức trong $K[X]$. Nếu $f$ không có nhân tử bội trong $K[X]$, thì nó cũng không có nhân tử bội trong $L[X]$.*
 
@@ -133,7 +133,7 @@ Nếu $f$ không có nhân tử bội trong $K[X]$, vành thương $K[X]/(f)$ l�
 
 K[X]/(f) đẳng cấu, theo I, p. 110, Prop. 9, với tích của các trường K[X]/(f_i). Theo Mệnh đề 5, vành L[X]/(f), đẳng cấu với L ⊗_K K[X]/(f ), là thu gọn; nếu g là một đa thức không hằng của L[X] sao cho g^2 chia hết f, thì lớp thặng dư của fg^{-1} trong L[X]/(f) là một phần tử lũy linh khác không; do đó f không có nhân tử bội trong L[X].
 
-#### Hệ quả 2 {#alg-v-s15-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s15-prop-5-cor-2 .statement tag=06TV}
 
 — Cho A và B là hai đại số giao hoán trên K. *Nếu* A và B tách được, thì A ⊗_K B cũng vậy.
 
@@ -143,12 +143,12 @@ Cho L là một mở rộng của K. Vành L ⊗_K A là thu gọn vì A tách �
 
 Cho K là một trường. Vì mọi mở rộng của K đều là một đại số trên K, khái niệm tính tách được đưa vào trong Định nghĩa 1 (V, p. 119) áp dụng đặc biệt cho trường hợp các mở rộng của K. Theo ví dụ 3 (V, p. 119), định nghĩa ấy về tính tách được trùng, trong trường hợp các mở rộng đại số, với định nghĩa ở § 7 (V, p. 36, Định nghĩa 1).
 
-#### Mệnh đề 6 {#alg-v-s15-prop-6 .statement}
+#### Mệnh đề 6 {#alg-v-s15-prop-6 .statement tag=06TW}
 
 — Mọi mở rộng thuần của một *trường* K đều tách được.
 Điều này suy ra ngay từ Ví dụ 1 (V, p. 119) và Mệnh đề 4 (V, p. 120).
 
-#### Mệnh đề 7 {#alg-v-s15-prop-7 .statement}
+#### Mệnh đề 7 {#alg-v-s15-prop-7 .statement tag=06TX}
 
 — Cho E là một trường, G là một nhóm các *tự đẳng cấu* của E và K là *trường con* của E gồm các phần tử bất biến của G. Khi đó E là một mở rộng tách được của K.
 
@@ -158,7 +158,7 @@ Với mỗi s ∈ G, cho h_s là tự đẳng cấu Id, ⊗ s của 0-đại s�
 
 Vậy họ các iđêan nguyên tố (a_s), _s ∈ G của A có giao bằng không. Theo Mệnh đề 2 (V, p. 118) vành A là thu gọn, và a fortiori điều này cũng đúng với vành con L ⊗_K E của A. Vì L là một mở rộng tùy ý của K, điều đó chứng tỏ rằng E tách được trên K.
 
-#### Mệnh đề 8 {#alg-v-s15-prop-8 .statement}
+#### Mệnh đề 8 {#alg-v-s15-prop-8 .statement tag=06TY}
 
 — Cho L là một mở rộng của một trường K. Nếu L tách được trên K, thì mọi mở rộng con của L đều tách được trên K. Ngược lại, nếu mọi mở rộng con sinh hữu hạn của L đều tách được trên K, thì L tách được trên K.
 
@@ -166,7 +166,7 @@ Vậy họ các iđêan nguyên tố (a_s), _s ∈ G của A có giao bằng kh�
 
 Vì vậy tính tách được có thể được gọi là một tính chất « đặc trưng hữu hạn ».
 
-#### Mệnh đề 9 {#alg-v-s15-prop-9 .statement}
+#### Mệnh đề 9 {#alg-v-s15-prop-9 .statement tag=06TZ}
 
 — Cho L là một mở rộng của một trường K và M là một đại số giao hoán trên L (chẳng hạn, một mở rộng của L). Nếu M tách được trên L và L tách được trên K, thì M tách được trên K.
 
@@ -178,7 +178,7 @@ Sau này (V, p. 137 Mệnh đề 5) chúng ta sẽ nghiên cứu tính tách đ�
 
 ### 4. Tiêu chuẩn tách được của Mac Lane
 
-#### Định lý 1 {#alg-v-s15-thm-1 .statement}
+#### Định lý 1 {#alg-v-s15-thm-1 .statement tag=06U0}
 
 — Cho K là một trường có đặc số 0. Mọi đại số trên K rút gọn, và đặc biệt mọi mở rộng của K, đều tách được trên K.
 
@@ -186,7 +186,7 @@ Trước hết ta chứng minh rằng mọi mở rộng L của K đều tách �
 
 Bây giờ giả sử A là một đại số rút gọn trên trường K. Theo Hệ quả của Mệnh đề 2 (V, p. 119), tồn tại một họ $(L_i)_{i \in I}$ các mở rộng của K sao cho A đẳng cấu với một đại số con của $\prod_{i \in I} L_i$. Mỗi đại số $L_i$ đều tách được trên K theo điều đã nói ở trên, nên A cũng có cùng tính chất đó, theo Mệnh đề 3 a) và c) (V, p. 119).
 
-#### Định lý 2 {#alg-v-s15-thm-2 .statement}
+#### Định lý 2 {#alg-v-s15-thm-2 .statement tag=06U1}
 
 — Cho K là một trường có đặc số $p \neq 0$, $K^{p^{-\infty}}$ là một bao đóng hoàn hảo của K và A là một đại số giao hoán trên K. Các tính chất sau là tương đương:
 a) A là tách được.
@@ -211,7 +211,7 @@ Theo giả thiết d) ta có $x = 0$, do đó $A_i = 0$ với mọi $i \in I$.
 
 Rõ ràng e) suy ra f) và còn lại phải chỉ ra rằng f) suy ra a). Vậy cho $(a_i)_{i \in I}$ là một cơ sở của $A$ trên $K$ sao cho họ $(a_i^p)_{i \in I}$ là tự do tuyến tính trên $K$. Gọi $L$ là một mở rộng của $K$ và gọi $x$ là một phần tử của $L \otimes_K A$ sao cho $x^p = 0$. Viết $x = \sum_{i \in I} \lambda_i \otimes a_i$ với $A_i \in L$ với mọi $i \in I$. Ta có $x^p = \sum_{i \in I} \lambda_i^p \otimes a_i^p = 0$ và vì họ $(a_i^p)_{i \in I}$, là tự do tuyến tính trên $K$, nên ta có $\lambda_i^p = 0$, do đó $\lambda_i = 0$ với mọi $i \in I$; suy ra $x = 0$. Vậy ta đã chứng minh rằng $x^p = 0$ suy ra $x = 0$ trong $L \otimes_K A$, từ đó suy ra ngay rằng $L \otimes_K A$ là rút gọn.
 
-#### Hệ quả 1 (Mac Lane) {#alg-v-s15-thm-2-cor-1 .statement}
+#### Hệ quả 1 (Mac Lane) {#alg-v-s15-thm-2-cor-1 .statement tag=06U2}
 
 — *Cho* $K$ *là một trường có số mũ đặc số* $p$, $\Omega$ *là một mở rộng hoàn hảo của* $K$ *và* $L$ *là một mở rộng con của* $\Omega$. *Khi đó các điều kiện sau là tương đương*:
 
@@ -231,19 +231,19 @@ và Định lý 2 suy ra, bằng quy nạp theo f, rằng họ $(a_i^{p^f})_{i \
 
 Hiển nhiên là b) suy ra c). Sau hết giả sử rằng c) đúng và cho K' là một mở rộng của K có bậc hữu hạn và p-căn có chiều cao $\leq 1$. Vành $K' \otimes_K L$ đẳng cấu với một vành con của $\Omega$, nên là vành thu gọn. Bây giờ từ Định lý 2 suy ra rằng L là tách được trên K.
 
-#### Hệ quả 2 {#alg-v-s15-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s15-thm-2-cor-2 .statement tag=06U3}
 
 — *Cho K là một trường có đặc số mũ p, $K^{p^{-\infty}}$ là một bao đóng hoàn hảo của K và L là một mở rộng tách được của K. Khi đó vành $L \otimes_K K^{p^{-\infty}}$ là một trường. Hơn nữa, nếu L là đại số trên K, thì $L \otimes_K K^{p^{-\infty}}$ là một bao đóng hoàn hảo của L.*
 
 Trường hợp $p = 1$ là tầm thường, vậy giả sử $p \neq 1$. Gọi $\Omega$ là một bao đóng hoàn hảo của L. Theo Hệ quả 1, tồn tại một đồng cấu đại số trên K từ $L \otimes_K K^{p^{-\infty}}$ lên $L[K^{p^{-\infty}}]$ ánh xạ $x \otimes y$ thành $xy$ với $x \in L$ và $y \in K^{p^{-\infty}}$. Vì $K^{p^{-\infty}}$ là đại số trên K, vành $L[K^{p^{-\infty}}]$ là một trường con của $\Omega$ (V, p. 18, Hệ quả 1). Giả sử thêm rằng L là đại số trên K, khi đó $L[K^p]$ là một mở rộng đại số của trường hoàn hảo $K^{p^{-\infty}}$, nên nó là một trường hoàn hảo (V, p. 43, Hệ quả 1); sau cùng, vì trường $L[K^{p^{-\infty}}]$ là một mở rộng căn-p của L (V, p. 25, Hệ quả), nó là một bao đóng hoàn hảo của L.
 
-#### Hệ quả 3 {#alg-v-s15-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#alg-v-s15-thm-2-cor-3 .statement tag=06U4}
 
 — *Cho L là một mở rộng đại số của K và M là một đại số trên L giao hoán (chẳng hạn một mở rộng của L). Nếu M tách được trên K, thì nó tách được trên L.*
 
 Đại số L đẳng cấu trên K với một đại số con của M, do đó L là một mở rộng tách được của K. Vì vậy (Hệ quả 2) tồn tại một đẳng cấu trên L của $L^{p^{-\infty}}$ lên $K^{p^{-\infty}} \otimes_K L$. Khi đó vành $L^{p^{-\infty}} \otimes_L M$ đẳng cấu với $(K^{p^{-\infty}} \otimes_K L) \otimes_L M$, và do đó đẳng cấu với $K^{p^{-\infty}} \otimes_K M$ (II, p. 278, Mệnh đề 2), và vành sau cùng này là rút gọn vì M tách được trên K. Vậy vành $L^{p^{-\infty}} \otimes_L M$ là rút gọn, điều này chứng tỏ rằng M tách được trên L (V, p. 122, Định lý 2).
 
-#### Nhận xét {#alg-v-s15-n4-rem-1 .statement}
+#### Nhận xét {#alg-v-s15-n4-rem-1 .statement tag=06U5}
 
 — Tiêu chuẩn của Mac Lane có thể được phát biểu mà không đưa vào bất kỳ mở rộng nào của K ngoài L. Thật vậy, theo c) của Hệ quả 1, L tách được trên K khi và chỉ khi L và $K^P$ rời nhau tuyến tính trên K. Vì ánh xạ $x \mapsto x^p$ là một đẳng cấu của L lên trường con $L^P$, ta thu được tiêu chuẩn sau (xem V, p. 177, Bài tập 11 để có một tiêu chuẩn tương tự đối với các đại số):
 
@@ -253,7 +253,7 @@ Trường hợp $p = 1$ là tầm thường, vậy giả sử $p \neq 1$. Gọi 
 
 Để tiện tra cứu, chúng tôi tóm tắt các tính chất chính của các mở rộng của các trường hoàn hảo:
 
-#### Định lý 3 {#alg-v-s15-thm-3 .statement}
+#### Định lý 3 {#alg-v-s15-thm-3 .statement tag=06U6}
 
 — Cho K là một trường hoàn hảo.
 a) Mọi mở rộng đại số của K đều là một trường hoàn hảo.
@@ -269,7 +269,7 @@ Cuối cùng, d) suy ra từ c) và Mệnh đề 5 (V, p. 120), còn e) là mộ
 
 ### 6. Đặc trưng hóa tính tách được bằng các tự đẳng cấu
 
-#### Định lý 4 {#alg-v-s15-thm-4 .statement}
+#### Định lý 4 {#alg-v-s15-thm-4 .statement tag=06U7}
 
 — Cho $\Omega$ là một mở rộng đóng đại số của một trường K và L là một mở rộng con của $\Omega$. Khi đó các điều kiện sau là tương đương:
 a) L tách được trên K.

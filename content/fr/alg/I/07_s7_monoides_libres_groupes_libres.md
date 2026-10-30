@@ -49,7 +49,7 @@ subsections:
       pdf_page: 100
 statements: 18
 exercises: 40
-content_sha256: a23b5cbac92dfa89924f09c506cd2b13a13ccc739397fe336baf702f6718b12a
+content_sha256: 3feb7f50a1f7b09e222c17534fb844707a4621648bcf23c4e529bb15a8879245
 ---
 
 ## § 7. MONOÏDES LIBRES, GROUPES LIBRES
@@ -64,7 +64,7 @@ Soient $w$ et $w'$ dans $M(X)$; posons $p = l(w)$ et $q = l(w')$. L’image de $
 
 On appelle magma libre construit sur X l’ensemble $M(X)$ muni de la loi de composition $(w, w') \mapsto w.w'$ (I, p. 1, déf. 1).
 
-#### Proposition 1 {#alg-i-s7-prop-1 .statement}
+#### Proposition 1 {#alg-i-s7-prop-1 .statement tag=05FH}
 
 Soit $M$ un magma. Toute application $f$ de $X$ dans $M$ se prolonge de manière unique en un morphisme de $M(X)$ dans $M$.
 
@@ -75,7 +75,7 @@ $$
 M(v) \circ M(u) = M(v \circ u).
 $$
 
-#### Proposition 2 {#alg-i-s7-prop-2 .statement}
+#### Proposition 2 {#alg-i-s7-prop-2 .statement tag=05FI}
 
 Soit $u : X \to Y$ une application. Si $u$ est injective (resp. surjective, bijective), il en est de même de $M(u)$.
 
@@ -118,7 +118,7 @@ $$
 
 Ce qui précède montre que l’ensemble des mots construits sur $X$, muni de la loi de composition $(w, w') \mapsto w.w'$, est un monoïde d’élément neutre $e$. On le note $Mo(X)$ et on l’appelle le monoïde libre construit sur $X$. Il résulte immédiatement de la définition du produit de mots que tout mot $w = (x_i)_{1 \leq i \leq n}$ est égal au produit $\prod_{i=1}^n x_i$. On peut donc écrire un mot sous la forme $x_1 \ldots x_n$.
 
-#### Proposition 3 {#alg-i-s7-prop-3 .statement}
+#### Proposition 3 {#alg-i-s7-prop-3 .statement tag=05FJ}
 
 *Soit $M$ un monoïde. Toute application $f$ de $X$ dans $M$ se prolonge de manière unique en un homomorphisme de $Mo(X)$ dans $M$.*
 
@@ -146,7 +146,7 @@ L’ensemble $S$ somme de la famille $(M_i)_{i \in I}$ a pour éléments les cou
 
 La propriété universelle des monoïdes définis par générateurs et relateurs (I, p. 80) entraîne le résultat suivant:
 
-#### Proposition 4 {#alg-i-s7-prop-4 .statement}
+#### Proposition 4 {#alg-i-s7-prop-4 .statement tag=05FK}
 
 a) Pour tout $i \in I$, l’application $\varphi_i$ est un homomorphisme de $M_i$ dans $M$ et l’on a $\varphi_i \circ h_i = h$ pour tout $i \in I$. De plus, $M$ est engendré par $\bigcup_{i \in I} \varphi_i(M_i)$.
 
@@ -164,7 +164,7 @@ $$
 
 L’entier $n \geq 0$ s’appelle la longueur de la décomposition $\sigma$ et se note $l(\sigma)$; la suite $(e)$ est une décomposition de longueur 0 de l’élément neutre de $M$. On dit que la décomposition $\sigma$ est réduite si l’on a $i_\alpha \neq i_{\alpha+1}$ pour $1 \leq \alpha < n$ et $p_\alpha \neq e_{i_\alpha}$ pour $1 \leq \alpha \leq n$.
 
-#### Proposition 5 {#alg-i-s7-prop-5 .statement}
+#### Proposition 5 {#alg-i-s7-prop-5 .statement tag=05FL}
 
 Sous l’hypothèse (A), tout élément $x$ de $M$ admet une décomposition réduite unique $\sigma$. Toute décomposition $\sigma' \neq \sigma$ de $x$ satisfait à $l(\sigma') > l(\sigma)$.
 
@@ -225,7 +225,7 @@ c’est-à-dire $\sigma = f(\Phi(\sigma))(e)$. Ceci prouve que $\Phi$ est inject
 B) *Existence d’une décomposition*:
 Soit D l’ensemble des éléments de M admettant une décomposition. On a $e \in D$ et $M$ est engendré par $\bigcup_{i \in I} \varphi_i(M_i)$, donc par $h(A) \cup \bigcup_{i \in I} \varphi_i(P_i)$. On a $D . \varphi_i(P_i) \subset D$ pour tout $i \in I$; pour prouver que l’on a $D = M$, il suffit donc de prouver la relation $D . h(A) \subset D$. Ceci résulte du lemme plus précis suivant :
 
-#### Lemme 1 {#alg-i-s7-lem-1 .statement}
+#### Lemme 1 {#alg-i-s7-lem-1 .statement tag=05FM}
 
 *Soient $i_1, \ldots, i_n$ dans $I$ et $p_\alpha$ dans $P_{i_\alpha}$ pour $1 \leq \alpha \leq n$. Pour tout $a \in A$, il existe $a' \in A$ et une suite $(p'_\alpha)_{1 \leq \alpha \leq n}$ avec $p'_\alpha \in P_{i_\alpha}$ telle que*
 $$
@@ -253,7 +253,7 @@ est une décomposition de $x$ de longueur $n - 1$, ce qui est contradictoire.
 
 On a bien prouvé que $\sigma$ est réduite. C. Q. F. D.
 
-#### Corollaire {#alg-i-s7-n3-cor-1 .statement}
+#### Corollaire {#alg-i-s7-n3-cor-1 .statement tag=05FN}
 
 Sous l’hypothèse (A), les homomorphismes $\varphi_i$ et $h$ sont injectifs. Pour $i \neq j$ dans $I$, on a $\varphi_i(M_i) \cap \varphi_j(M_j) = h(A)$.
 
@@ -279,13 +279,13 @@ b) On a une famille de groupes $(G_i)_{i \in I}$ contenant comme sous-groupe un 
 
 ### 4. Application aux monoïdes libres
 
-#### Lemme 2 {#alg-i-s7-lem-2 .statement}
+#### Lemme 2 {#alg-i-s7-lem-2 .statement tag=05FO}
 
 Soit $M$ la somme monoïdale de la famille $(M_x)_{x \in X}$ définie par $M_x = \mathbf{N}$ pour tout $x \in X$; on note $\varphi_x$ l’homomorphisme canonique de $M_x$ dans $M$. L’application $x \mapsto \varphi_x(1)$ de $X$ dans $M$ se prolonge en un isomorphisme $h$ de $Mo(X)$ sur $M$.
 
 Soit $h$ l’homomorphisme de $Mo(X)$ dans $M$ caractérisé par $h(x) = \varphi_x(1)$. Pour tout entier $n \geq 0$, on a $\varphi_x(n) = \varphi_x(1)^n = h(x)^n$ et comme $M$ est engendré par $\bigcup_{x \in X} \varphi_x(\mathbf{N})$, il est aussi engendré par $h(X)$. Donc $h$ est surjectif. Par ailleurs, pour tout $x$ dans $X$, l’application $n \mapsto x^n$ est un homomorphisme de $\mathbf{N} = M_x$ dans $Mo(X)$; il existe donc (I, p. 80, prop. 4) un homomorphisme $h'$ de $M$ dans $Mo(X)$ tel que $h'(\varphi_x(n)) = x^n$ pour $x \in X$ et $n \in \mathbf{N}$; en particulier, on a $h'(h(x)) = x$ pour $x \in X$, donc $h' \circ h$ est l’homomorphisme identique de $Mo(X)$. Par suite, $h$ est injectif. On a donc prouvé que $h$ est bijectif.
 
-#### Proposition 6 {#alg-i-s7-prop-6 .statement}
+#### Proposition 6 {#alg-i-s7-prop-6 .statement tag=05FP}
 
 Soit $w$ un élément de $Mo(X)$.
 
@@ -301,7 +301,7 @@ Posons $G_x = \mathbf{Z}$ pour tout $x \in X$. Le produit libre de la famille $(
 
 Par application de I, p. 81, prop. 5, on obtient le résultat suivant:
 
-#### Proposition 7 {#alg-i-s7-prop-7 .statement}
+#### Proposition 7 {#alg-i-s7-prop-7 .statement tag=05FQ}
 
 Soit $g$ un élément du groupe libre $F(X)$. Il existe un entier $n \geq 0$, et une suite $(x_\alpha, m(\alpha))_{1 \leq \alpha \leq n}$, déterminés de manière unique par les relations $x_\alpha \in X$, $x_\alpha \neq x_{\alpha+1}$ pour $1 \leq \alpha < n$, $m(\alpha) \in \mathbf{Z}$, $m(\alpha) \neq 0$ pour $1 \leq \alpha \leq n$ et $g = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)}$.
 
@@ -309,7 +309,7 @@ Soit $g$ un élément du groupe libre $F(X)$. Il existe un entier $n \geq 0$, et
 
 Le groupe libre F(X) jouit de la propriété universelle suivante:
 
-#### Proposition 8 {#alg-i-s7-prop-8 .statement}
+#### Proposition 8 {#alg-i-s7-prop-8 .statement tag=05FR}
 
 Soient G un groupe et f une application de X dans G. Il existe un homomorphisme $\tilde{f}$ de F(X) dans G qui prolonge f, et un seul.
 
@@ -347,15 +347,15 @@ $$
 \langle \tau_1, \ldots, \tau_n; u_1 = v_1, \ldots, u_m = v_m \rangle.
 $$
 
-#### Exemple 1 {#alg-i-s7-n6-exa-1 .statement}
+#### Exemple 1 {#alg-i-s7-n6-exa-1 .statement tag=05FS}
 
 Le groupe défini par la présentation $\langle \tau; \tau^q = e \rangle$ est cyclique d’ordre q.
 
-#### Exemple 2 {#alg-i-s7-n6-exa-2 .statement}
+#### Exemple 2 {#alg-i-s7-n6-exa-2 .statement tag=0DET}
 
 Le groupe défini par la présentation $\langle x, y; xy = yx \rangle$ est isomorphe à $\mathbf{Z} \times \mathbf{Z}$.
 
-#### Proposition 9 {#alg-i-s7-prop-9 .statement}
+#### Proposition 9 {#alg-i-s7-prop-9 .statement tag=05FT}
 
 *Soient G un groupe, $\mathbf{t} = (t_i)_{i \in I}$ une famille génératrice de G et $\mathbf{r} = (r_j)_{j \in J}$ une famille de relateurs de $\mathbf{t}$. Les conditions suivantes sont équivalentes*:
 
@@ -409,7 +409,7 @@ La relation d’ordre $\alpha \leq \beta$ est définie dans $\mathbf{Z}^{(X)}$ p
 
 Le monoïde $\mathbf{N}^{(X)}$ et le groupe $\mathbf{Z}^{(X)}$ jouissent de la propriété universelle suivante.
 
-#### Proposition 10 {#alg-i-s7-prop-10 .statement}
+#### Proposition 10 {#alg-i-s7-prop-10 .statement tag=05FU}
 
 *Soient M un monoïde (resp. un groupe) commutatif et f une application de X dans M. Il existe un homomorphisme g de $\mathbf{N}^{(X)}$ (resp. $\mathbf{Z}^{(X)}$) dans M, et un seul, tel que $g(\delta_x) = f(x)$ pour tout $x \in X$. Si M est noté additivement, on a $g(\alpha) = \sum_{x \in X} \alpha(x) \cdot f(x)$ pour tout $\alpha$ dans $\mathbf{N}^{(X)}$ (resp. $\mathbf{Z}^{(X)}$).*
 
@@ -459,7 +459,7 @@ et par suite H est l’ensemble des éléments de $\mathbf{Z}^{(X)}$ de support 
 
 La formule (15) montre que la restriction de $\mathbf{Z}^{(u)}$ à $\mathbf{N}^{(X)}$ est un homomorphisme $\mathbf{N}^{(u)}$ de $\mathbf{N}^{(X)}$ dans $\mathbf{N}^{(Y)}$. On a $\mathbf{N}^{(v \circ u)} = \mathbf{N}^{(v)} \circ \mathbf{N}^{(u)}$ pour toute application $v : Y \to Z$; de plus, $\mathbf{N}^{(u)}$ est injectif (resp. surjectif, bijectif) s’il en est ainsi de $u$. Si S est une partie de X, on a $\mathbf{N}^{(S)} = \mathbf{Z}^{(S)} \cap \mathbf{N}^{(X)}$.
 
-#### Remarque {#alg-i-s7-n7-rem-1 .statement}
+#### Remarque {#alg-i-s7-n7-rem-1 .statement tag=05FV}
 
 Soit M le monoïde multiplicatif des entiers strictement positifs, et soit $\mathfrak{P}$ l’ensemble des nombres premiers (I, p. 48, déf. 16). D’après la prop. 10 (I, p. 88), il existe un homomorphisme $u$ de $\mathbf{N}^{(\mathfrak{P})}$ dans M caractérisé par $u(\delta_p) = p$ pour tout nombre premier $p$. On a $u(\alpha) = \prod_{p \in \mathfrak{P}} p^{\alpha(p)}$ pour $\alpha$ dans $\mathbf{N}^{(\mathfrak{P})}$ et le th. 7 de I, p. 49 montre que $u$ est un isomorphisme de $\mathbf{N}^{(\mathfrak{P})}$ sur M.
 
@@ -516,7 +516,7 @@ pour $x_1, \ldots, x_n$ dans $X$, d’où $|\nu(x_1 \ldots x_n)| = n$ d’après
 |\nu(u)| = l(u) \qquad (u \in Mo(X)).
 $$
 
-#### Proposition 11 {#alg-i-s7-prop-11 .statement}
+#### Proposition 11 {#alg-i-s7-prop-11 .statement tag=05FW}
 
 *L’homomorphisme canonique* $\nu$ de $Mo(X)$ dans $\mathbf{N}^{(X)}$ est surjectif. Soient $w = x_1 \ldots x_n$ et $w' = x'_1 \ldots x'_m$ deux éléments de $Mo(X)$; pour qu’on ait $\nu(w) =$ ν(w'), il faut et il suffit que l’on ait m = n et qu’il existe une permutation σ ∈ S_n telle que x'_i = x_{σ(i)} pour 1 ≤ i ≤ n.
 
@@ -532,7 +532,7 @@ d’après la formule (21) (I, p. 90) et le théorème de commutativité (I, p. 
 
 Inversement, supposons que ν(w) et ν(w') soient égaux à un même élément α de N^{(X)}; d’après la formule (22) (I, p. 90), on a n = |α| = m. Pour tout x ∈ X, soit I_x (resp. I'_x) l’ensemble des entiers i tels que 1 ≤ i ≤ n et x_i = x (resp. x'_i = x). Donc (I_x)_{x ∈ X} et (I'_x)_{x ∈ X} sont des partitions de l’intervalle {1, n} de N; de plus, la formule $\alpha = \sum_{i=1}^n \delta_{x_i}$ montre que α(x) est le cardinal de I_x; de même la formule $\alpha = \sum_{i=1}^n \delta_{x'_i}$ montre que α(x) est le cardinal de I'_x. Il existe donc une permutation σ de {1, n} telle que σ(I'_x) = I_x pour tout x ∈ X, c’est-à-dire x'_i = x_{σ(i)} pour i = 1, ..., n.
 
-#### Remarque {#alg-i-s7-n9-rem-1 .statement}
+#### Remarque {#alg-i-s7-n9-rem-1 .statement tag=05FX}
 
 Soit S une partie de X. Rappelons que nous avons identifié M(S) à un sous-magma de M(X), Mo(S) à un sous-monoïde de Mo(X) et N^{(S)} à un sous-monoïde de N^{(X)}. On a
 

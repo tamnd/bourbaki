@@ -41,7 +41,7 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: 2c61e5016471c114c8619e3f3ae610250dd71a2ed1cb84fa0e9ffdc7592dc87d
+content_sha256: 80b705b3f9f0e254836af8cc36405c37a16c85755c16c07cdd40f1fdbc7ea3e4
 ---
 
 ## § 8. PRODUCTS OF MEASURES
@@ -68,7 +68,7 @@ $$
 
 Similarly, for every element $t' \in T'$, let $\lambda_{t'}$ be the image of $\mu$ under the mapping $t \mapsto (t, t')$ of T into X. The mapping $t' \mapsto \lambda_{t'}$ is $\mu'$-adequate and vaguely continuous, and $\nu = \int \lambda_{t'} \, d\mu'(t')$. We shall need the following lemmas:
 
-#### Lemma 1 {#int-v-s8-lem-1 .statement}
+#### Lemma 1 {#int-v-s8-lem-1 .statement tag=096Y}
 
 *For every numerical function $f \geqslant 0$ defined on X,*
 
@@ -78,12 +78,12 @@ $$
 
 Since $t' \mapsto (t, t')$ is a continuous and proper mapping, this follows from Prop. 2 of §4, No. 2.
 
-#### Lemma 2 {#int-v-s8-lem-2 .statement}
+#### Lemma 2 {#int-v-s8-lem-2 .statement tag=096Z}
 
 Let $f$ be a mapping of $X$ into a topological space. For $f$ to be $\lambda'_t$-measurable, it is necessary and sufficient that $f_t$ be $\mu'$-measurable.
 This is a consequence of Prop. 3 of §6, No. 2.
 
-#### Lemma 3 {#int-v-s8-lem-3 .statement}
+#### Lemma 3 {#int-v-s8-lem-3 .statement tag=0970}
 
 Let $f$ be a function defined on $X$, with values in $\overline{\mathbf{R}}$ or in a Banach space. For $f$ to be $\lambda'_t$-integrable, it is necessary and sufficient that $f_t$ be $\mu'$-integrable, in which case
 
@@ -93,7 +93,7 @@ $$
 
 This follows from Th. 2 of §4, No. 4, on taking into account the fact that $t' \mapsto (t, t')$ is continuous and proper.
 
-#### Remark {#int-v-s8-n1-rem-1 .statement}
+#### Remark {#int-v-s8-n1-rem-1 .statement tag=0971}
 
 Lemmas 1,2,3 can be proved very simply without making use of the results of §§4 and 6, by a direct argument. For example, the relation (2) is obvious by definition if $f \in \mathscr{K}(T \times T')$. If $f$ is lower semi-continuous on $X = T \times T'$, it suffices to observe that $t' \mapsto f_t(t')$ is the upper envelope of the functions $t' \mapsto g_t(t') = g(t, t')$, where $g$ runs over the set of functions in $\mathscr{K}(X)$ such that $0 \leq g \leq f$. Finally, for arbitrary $f$, one notes that if $h \geq f$ is lower semi-continuous on $X$, then $t' \mapsto h(t, t')$ is lower semi-continuous on $T'$; and conversely, if $t' \mapsto u(t')$ is lower semi-continuous on $T'$ and is such that $u(t') \geq f(t, t')$ for all $t' \in T'$, then the function $h$ such that $h(t, t') = u(t')$, $h(t_1, t') = +\infty$ for $t_1 \neq t'$, is lower semi-continuous on $X$ and satisfies $h \geq f$. Once Lemma 1 is proved, one deduces from it that the set $(T - \{t\}) \times T'$ is $\lambda'_t$-negligible, and it is then every easy to prove Lemmas 2 and 3.
 
@@ -115,7 +115,7 @@ consistent with the notations adopted in Ch. III, §4, No. 1.
 
 The interpretation of the measure $\nu$ as an integral $\int \lambda'_t \, d\mu(t)$ will allow us to translate the results of §3 into the language of product measures. On the other hand, the measure $\lambda'_t$ is carried by $\{t\} \times T' = \overline{\mathrm{pr}}_1^{-1}(t)$, so that this integral defines a decomposition of $\nu$ into slices, relative to the projection $\mathrm{pr}_1$ of $T \times T'$ onto $T$ (§6, No. 6). Before giving a list of the results so obtained, here is a useful property:
 
-#### Proposition 1 {#int-v-s8-prop-1 .statement}
+#### Proposition 1 {#int-v-s8-prop-1 .statement tag=0972}
 
 — Let $(\mu_\alpha)_{\alpha \in A}$ (resp. $(\mu'_\beta)_{\beta \in B}$) be a summable family of positive measures on T (resp. on T'), with sum denoted by $\mu$ (resp. by $\mu'$). The family $(\mu_\alpha \otimes \mu'_\beta)_{(\alpha, \beta) \in A \times B}$ is then summable on $T \times T'$, and
 
@@ -142,7 +142,7 @@ $$
 
 ### 2. Functions measurable with respect to a product of two measures
 
-#### Proposition 2 {#int-v-s8-prop-2 .statement}
+#### Proposition 2 {#int-v-s8-prop-2 .statement tag=0973}
 
 — Let $f$ be a $\nu$-measurable function defined on $T \times T'$, with values in a topological space G, and let M be the set of $t \in T$ such that the mapping $t' \mapsto f(t, t')$ is not $\mu'$-measurable.
 
@@ -154,7 +154,7 @@ The assertion a) follows from Prop. 4b) of §3, No. 2 and the remarks of No. 1. 
 
 This statement extends immediately to complex measures (Ch. III, § 4, No. 2, Prop. 3).
 
-#### Corollary {#int-v-s8-n2-cor-1 .statement}
+#### Corollary {#int-v-s8-n2-cor-1 .statement tag=0974}
 
 — *Let A be a $\nu$-measurable subset of $T \times T'$, and let M be the set of $t \in T$ such that the section $A(t)$ of A at t is not $\mu'$-measurable.*
 
@@ -164,7 +164,7 @@ b) *If the projection of A on $T'$ is $\mu'$-moderated, then M is locally $\mu$-
 
 The assertion a) follows immediately from Prop. 2. To establish b), denote by B a set, the union of a sequence of $\mu'$-integrable open sets in $T'$, that contains the projection of A on $T'$, and denote by $\mu'_1$ the moderated measure $\varphi_B \cdot \mu'$; since A is measurable with respect to $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$, Prop. 2 implies that $A(t)$ is $\mu'_1$-measurable, except for $t$ forming a locally $\mu$-negligible set. But since $A(t) \subset B$, to say that $A(t)$ is $\mu'_1$-measurable is equivalent to saying that $A(t)$ is $\mu'$-measurable (§ 5, No. 3, Cor. of Prop. 4).
 
-#### Proposition 3 {#int-v-s8-prop-3 .statement}
+#### Proposition 3 {#int-v-s8-prop-3 .statement tag=0975}
 
 — *Let f be a mapping of T into a topological space F. If f is $\mu$-measurable, then the mapping $(t, t') \mapsto f(t)$ is $\nu$-measurable. Conversely, if $\mu' \neq 0$, and if this mapping is $\nu$-measurable, then the function f is $\mu$-measurable.*
 
@@ -172,18 +172,18 @@ The first assertion follows from Cor. 1 of Prop. 10 of § 6, No. 6. Suppose that
 
 The preceding statement extends immediately to complex measures (Ch. III, § 4, No. 2, Prop. 3), as do the following corollaries.
 
-#### Corollary 1 {#int-v-s8-prop-3-cor-1 .statement}
+#### Corollary 1 {#int-v-s8-prop-3-cor-1 .statement tag=0976}
 
 — *Let F, F' and G be three topological spaces, and let u be a continuous mapping of $F \times F'$ into G. Let f (resp. $f'$) be a function defined on T (resp. $T'$) with values in F (resp. $F'$) and measurable for $\mu$ (resp. $\mu'$). Then the function $(t, t') \mapsto u(f(t), f'(t'))$ is measurable for $\mu \otimes \mu'$.*
 
 The mappings $(t, t') \mapsto f(t)$, $(t, t') \mapsto f'(t')$ being $\nu$-measurable by Prop. 3, this follows from Th. 1 of Ch. IV, § 5, No. 3.
 
-#### Corollary 2 {#int-v-s8-prop-3-cor-2 .statement}
+#### Corollary 2 {#int-v-s8-prop-3-cor-2 .statement tag=0977}
 
 — *If $A \subset T$ and $A' \subset T'$ are measurable (for $\mu$ and $\mu'$, respectively), then $A \times A'$ is measurable for $\mu \otimes \mu'$.*
 This follows at once from Cor. 1.
 
-#### Corollary 3 {#int-v-s8-prop-3-cor-3 .statement}
+#### Corollary 3 {#int-v-s8-prop-3-cor-3 .statement tag=0978}
 
 — *Consider two positive numerical (resp. complex-valued) functions $f$ defined on $T$ and $f'$ defined on $T'$. If these functions are measurable for $\mu$ and $\mu'$, respectively, then the function*
 
@@ -195,7 +195,7 @@ $$
 
 The case of complex functions, or of finite real functions, is an immediate consequence of Cor. 1. To treat the case of positive numerical functions, for every integer $n \geqslant 0$ we set $f_n = \inf(f, n)$, $f'_n = \inf(f', n)$, and we have (with the usual convention $0 \cdot (+\infty) = 0$) $f \otimes f' = \sup_n (f_n \otimes f'_n)$, whence the result.
 
-#### Proposition 4 {#int-v-s8-prop-4 .statement}
+#### Proposition 4 {#int-v-s8-prop-4 .statement tag=0979}
 
 — *Let $A$ be a subset of $T$. If $A$ is locally $\mu$-negligible, then $A \times T'$ is locally $\nu$-negligible. Conversely, if $A \times T'$ is locally $\nu$-negligible and if $\mu' \neq 0$, then $A$ is locally $\mu$-negligible.*
 
@@ -203,7 +203,7 @@ The first assertion follows from Cor. 1 of Prop. 10 of §6, No. 6. To establish 
 
 The preceding statement extends at once to the product of two complex measures (Ch. III, §4, No. 2, Prop. 3), as does the following corollary.
 
-#### Corollary {#int-v-s8-n2-cor-2 .statement}
+#### Corollary {#int-v-s8-n2-cor-2 .statement tag=097A}
 
 — *If the measure $\mu$ (resp. $\mu'$) is concentrated on $M$ (resp. $M'$), then $\mu \otimes \mu'$ is concentrated on $M \times M'$.*
 
@@ -213,7 +213,7 @@ For, $(T \times T') - (M \times M')$ is the union of the sets $(T - M) \times T'
 
 Recall that we have agreed to define the product $0 \cdot (+\infty)$ to be equal to 0. This convention has in particular the following consequence: if $f$ is a numerical function $\geqslant 0$ defined on a locally compact space equipped with a positive measure $\lambda$, then $\lambda^*(af) = a \cdot \lambda^*(f)$ for every constant $a$ such that $0 \leqslant a \leqslant +\infty$. This is obvious if $a = 0$; if $a = +\infty$, then $\lambda^*(af) = a \cdot \lambda^*(f) = 0$ or $\lambda^*(af) = a \cdot \lambda^*(f) = +\infty$ according as $f$ is $\lambda$-negligible or not; finally, if $0 < a < +\infty$, one knows that $\lambda^*(af) = a \cdot \lambda^*(f)$.
 
-#### Proposition 5 {#int-v-s8-prop-5 .statement}
+#### Proposition 5 {#int-v-s8-prop-5 .statement tag=097B}
 
 — Let $f$ be a numerical function $\geqslant 0$, lower semi-continuous on $T \times T'$. Then, the function
 
@@ -229,7 +229,7 @@ $$
 
 This is a consequence of Prop. 2 of §3, No. 1, taking into account Lemma 1 of No. 1.
 
-#### Corollary 1 {#int-v-s8-prop-5-cor-1 .statement}
+#### Corollary 1 {#int-v-s8-prop-5-cor-1 .statement tag=097C}
 
 — Let $f$ (resp. $f'$) be a lower semi-continuous function $\geqslant 0$ defined on $T$ (resp. $T'$); the function $f \otimes f' : (t, t') \mapsto f(t)f'(t')$ is then lower semi-continuous on $T \times T'$, and
 
@@ -245,13 +245,13 @@ $$
 
 Since the functions $g \otimes g'$ belong to $\mathscr{K}_+(T \times T')$, $f \otimes f'$ is indeed lower semi-continuous, and (6) follows at once from Prop. 5 (or directly by passage to the limit in the preceding formula).
 
-#### Corollary 2 {#int-v-s8-prop-5-cor-2 .statement}
+#### Corollary 2 {#int-v-s8-prop-5-cor-2 .statement tag=097D}
 
 — Let $A$ be a $\mu$-moderated subset of $T$, and $A'$ a $\mu'$-moderated subset of $T'$; then $A \times A'$ is $\nu$-moderated in $T \times T'$.
 
 In view of the definition of moderated set (§1, No. 2, Prop. 5), it suffices to show that if $B$ is an integrable open set in $T$, and $B'$ an integrable open set in $T'$, then the open set $B \times B'$ is integrable. This follows at once from Cor. 1.
 
-#### Corollary 3 {#int-v-s8-prop-5-cor-3 .statement}
+#### Corollary 3 {#int-v-s8-prop-5-cor-3 .statement tag=097E}
 
 — Let $A$ be a $\mu$-negligible subset of $T$, and let $B'$ be a $\mu'$-moderated subset of $T'$; then $A \times B'$ is $\nu$-negligible.
 
@@ -259,7 +259,7 @@ For, $A \times B'$ is locally $\nu$-negligible (Prop. 4) and $\nu$-moderated (Co
 
 Cors. 2 and 3 may be extended to the product of two complex measures, on applying the statement to their absolute values (Ch. III, §4, No. 2, Prop. 3).
 
-#### Proposition 6 {#int-v-s8-prop-6 .statement}
+#### Proposition 6 {#int-v-s8-prop-6 .statement tag=097F}
 
 — Let $f$ be a numerical function $\geqslant 0$ defined on $T \times T'$. Then
 
@@ -269,7 +269,7 @@ $$
 
 This follows from Prop. 3 of §3, No. 2, on taking (2) into account.
 
-#### Proposition 7 {#int-v-s8-prop-7 .statement}
+#### Proposition 7 {#int-v-s8-prop-7 .statement tag=097G}
 
 — Let $f$ be a $\nu$-measurable positive numerical function defined on $T \times T'$.
 
@@ -296,7 +296,7 @@ $$
 $$
 But $\mu \otimes \mu' = \sum_{n \in \mathbf{N}} (\mu \otimes \mu'_n)$ (Prop. 1); the assertion b) is then obtained by summing on $n$ (§ 2, No. 2, Prop. 1).
 
-#### Corollary 1 {#int-v-s8-prop-7-cor-1 .statement}
+#### Corollary 1 {#int-v-s8-prop-7-cor-1 .statement tag=097H}
 
 — Let $H$ be a subset of $T \times T'$, and let $A$ be the set of $t \in T$ such that the section $H(t)$ of $H$ at $t$ is not $\mu'$-negligible.
 
@@ -308,7 +308,7 @@ The property a) follows at once from Prop. 7 (or from Prop. 6). Under the hypoth
 
 This corollary extends at once, by passage to absolute values, to the product of two complex measures. The same is true for the following corollary:
 
-#### Corollary 2 {#int-v-s8-prop-7-cor-2 .statement}
+#### Corollary 2 {#int-v-s8-prop-7-cor-2 .statement tag=097I}
 
 — *If a set* $A \subset T \times T'$ *is ν-integrable, then the section* $A(t)$ *of* $A$ *at* $t$ *is μ′-integrable for almost every* $t \in T$, *the function* $t \mapsto \mu'(A(t))$ *is μ-integrable, and*
 
@@ -316,7 +316,7 @@ $$
 \nu(A) = \int \mu'(A(t))\, d\mu(t).
 $$
 
-#### Proposition 8 {#int-v-s8-prop-8 .statement}
+#### Proposition 8 {#int-v-s8-prop-8 .statement tag=097J}
 
 — *For every pair of numerical functions* $f \geq 0$, $f' \geq 0$ *defined on* $T$ *and* $T'$, *respectively,
 
@@ -353,7 +353,7 @@ $$
 
 which is the sought-for inequality. Thus the proposition is established when $\mu$ and $\mu'$ are measures with compact support. To treat the general case, it suffices to represent $\mu$ (resp. $\mu'$) as the sum of a family $(\mu_\alpha)_{\alpha \in A}$ (resp. $(\mu'_\beta)_{\beta \in B}$) of measures with compact support (§ 2, No. 3, Prop. 4), write the formula (10) for each measure $\mu_\alpha \otimes \mu'_\beta$, and sum on $(\alpha, \beta)$, taking into account Prop. 1 (§ 2, No. 2, Prop. 1).
 
-#### Corollary 1 {#int-v-s8-prop-8-cor-1 .statement}
+#### Corollary 1 {#int-v-s8-prop-8-cor-1 .statement tag=097K}
 
 *With notations as in Prop. 8,
 
@@ -365,7 +365,7 @@ except possibly when one of the factors of the second member is equal to 0 and t
 
 When the two factors of the second member are finite, the functions $f$ and $f'$ are moderated (§ 1, No. 2, Prop. 7), therefore the function $f \otimes f'$ is moderated (Cor. 2 of Prop. 5); the above equality therefore reduces to the formula (10) (§ 1, No. 2, Prop. 7). When one of the factors of the second member has the value $+\infty$ and the other is not zero, then the second member has the value $+\infty$, and the above equality follows from Prop. 6.
 
-#### Corollary 2 {#int-v-s8-prop-8-cor-2 .statement}
+#### Corollary 2 {#int-v-s8-prop-8-cor-2 .statement tag=097L}
 
 *Let $f$ and $f'$ be two functions with values in $\mathbf{C}$ or in $\overline{\mathbf{R}}$, defined on $T$ and $T'$, respectively, and essentially integrable (resp. integrable) for the measures $\mu$ and $\mu'$, respectively. The function $f \otimes f'$ is then essentially integrable (resp. integrable) for the measure $\mu \otimes \mu'$, and*
 
@@ -379,7 +379,7 @@ Corollary 2 extends at once to the product of two complex measures.
 
 ### 4. Integration of functions with values in a Banach space
 
-#### Theorem 1 (Lebesgue–Fubini) {#int-v-s8-thm-1 .statement}
+#### Theorem 1 (Lebesgue–Fubini) {#int-v-s8-thm-1 .statement tag=097M}
 
 — *Let $f$ be a function defined on $T \times T'$, with values in a Banach space $F$ or in $\overline{\mathbf{R}}$; let $N$ be the set of $t \in T$ such that the function $t' \mapsto f(t,t')$ is not $\mu'$-integrable.
 
@@ -393,7 +393,7 @@ b) *Suppose that $f$ is essentially $\nu$-integrable, and that the measure $\mu'
 
 The assertion a) follows at once from Th. 1 of §3, No. 3. To establish b), let us denote by $g$ a $\nu$-integrable function equal to $f$ locally almost everywhere, and by $H$ the set of $(t, t')$ such that $f(t, t') \neq g(t, t')$. By Cor. 1 of Prop. 7, the section $H(t)$ is $\mu'$-negligible, except for $t \in T$ forming a locally $\mu$-negligible set. The result pertaining to $f$ may then be deduced from the statement a) applied to $g$.
 
-#### Scholium {#int-v-s8-n4-sch-1 .statement}
+#### Scholium {#int-v-s8-n4-sch-1 .statement tag=097N}
 
 — *Let $f$ be a function defined on $T \times T'$, with values in $\overline{\mathbf{R}}$ or in a Banach space, that is $\nu$-measurable and $\nu$-moderated. For the three integrals*
 
@@ -411,13 +411,13 @@ $$
 
 This is an immediate consequence of Th. 1, Prop. 7 and the integrability criterion (Ch. IV, §5, No. 6, Th. 5).
 
-#### Remark {#int-v-s8-n4-rem-1 .statement}
+#### Remark {#int-v-s8-n4-rem-1 .statement tag=097O}
 
 — 1) When the measure $\mu'$ is not moderated, it can happen that $f$ is essentially $\nu$-integrable and the function $t' \mapsto f(t, t')$ is not essentially $\mu'$-integrable for any value of $t \in T$ (§3, Exer. 4).
 
 2) Let $\mu$ and $\mu'$ be two complex measures, and let $\nu = \mu \otimes \mu'$. If $f$ is $\nu$-integrable (in other words, $|\nu|$-integrable), then application of the theorem to the measures $|\mu|$ and $|\mu'|$, whose product is $|\nu|$ (Ch. III, §4, No. 2, Prop. 3), implies that $t' \mapsto f(t, t')$ is $\mu'$-integrable for $\mu$-almost every $t$. From this one deduces, on decomposing the measures $\mu$ and $\mu'$ as a linear combination of positive measures, that the statement of a) extends to complex measures. One can argue similarly for b).
 
-#### Proposition 9 {#int-v-s8-prop-9 .statement}
+#### Proposition 9 {#int-v-s8-prop-9 .statement tag=097P}
 
 *Let $F$, $F'$ and $G$ be three Banach spaces, and let $(x, y) \mapsto [x \cdot y]$ be a continuous bilinear mapping of $F \times F'$ into $G$. Let $f$ (resp. $f'$) be a function defined on $T$ (resp. $T'$) with values in $F$ (resp. $F'$) and essentially integrable for $\mu$ (resp. $\mu'$). Let $g$ be the function $(t, t') \mapsto [f(t) \cdot f'(t')]$; then $g$ is essentially integrable for $\mu \otimes \mu'$, and*
 
@@ -442,7 +442,7 @@ This result extends to the product of complex measures.
 
 ### 5. Operations on the product of two measures
 
-#### Proposition 10 {#int-v-s8-prop-10 .statement}
+#### Proposition 10 {#int-v-s8-prop-10 .statement tag=097Q}
 
 — Let $g$ (resp. $g'$) be a complex function (or a function with values in $\overline{\mathbf{R}}$) defined on $T$ (resp. $T'$).
 a) If $g$ (resp. $g'$) is locally integrable for $\mu$ (resp. $\mu'$), then the function $g \otimes g': (t, t') \mapsto g(t)g'(t')$ is locally integrable for $\nu = \mu \otimes \mu'$, and
@@ -467,7 +467,7 @@ The first factor of the first member is therefore finite, and this completes the
 
 This proposition extends to complex measures, thanks to Prop. 3 of Ch. III, § 4, No. 2.
 
-#### Proposition 11 {#int-v-s8-prop-11 .statement}
+#### Proposition 11 {#int-v-s8-prop-11 .statement tag=097R}
 
 *Let $\pi$ (resp. $\pi'$) be a mapping of $T$ (resp. $T'$) into a locally compact space $T_1$ (resp. $T'_1$).*
 
@@ -507,7 +507,7 @@ The first integral in the first member is therefore finite, which completes the 
 
 This result extends at once to the product of two complex measures (apply the statement to their absolute values). The same is true for the following proposition.
 
-#### Proposition 12 {#int-v-s8-prop-12 .statement}
+#### Proposition 12 {#int-v-s8-prop-12 .statement tag=097S}
 
 — Let X (resp. X') be a locally compact subspace of T (resp. T'). Then, the induced measure $(\mu \otimes \mu')_{X \times X'}$ on the locally compact subspace $X \times X'$ of $T \times T'$ is equal to the product $\mu_X \otimes \mu'_{X'}$ of the measures induced on X and X' by $\mu$ and $\mu'$, respectively.
 

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 419
 statements: 6
 exercises: 1
-content_sha256: 6f21229504e496b104498446d4de3ebeae83d02b31cb596d657fcf1f1e55bbfb
+content_sha256: 6c8a7df1e1f71b055256a7d6f3ae71868c66ac4de90176a84d05f529b8cefd51
 ---
 
 ## § 3. ALGÈBRES GRADUÉES
@@ -34,7 +34,7 @@ Les graduations dont il sera question dans ce paragraphe auront pour ensemble de
 
 ### 1. Algèbres graduées
 
-#### Définition 1 {#alg-iii-s3-def-1 .statement}
+#### Définition 1 {#alg-iii-s3-def-1 .statement tag=0603}
 
 Soient $\Delta$ un monoïde commutatif, $A$ un anneau commutatif gradué de type $\Delta$ (II, p. 164), $(A_\lambda)_{\lambda \in \Delta}$ sa graduation, $E$ une $A$-algèbre. On dit qu’une graduation $(E_\lambda)_{\lambda \in \Delta}$ de type $\Delta$ sur le groupe additif $E$ est compatible avec la structure de $A$-algèbre de $E$ si elle est compatible à la fois avec la structure de $A$-module et avec la structure d’anneau de $E$, autrement dit, si l’on a, quels que soient $\lambda, \mu$ dans $\Delta$,
 
@@ -59,7 +59,7 @@ Soient $E$ et $E'$ deux algèbres graduées de type $\Delta$ sur un anneau gradu
 
 Soit $E$ une $A$-algèbre graduée de type $\mathbf{N}$. On identifie $E$ à une $A$-algèbre graduée de type $\mathbf{Z}$, en convenant que $E_n = \{0\}$ pour $n < 0$.
 
-#### Remarque {#alg-iii-s3-n1-rem-1 .statement}
+#### Remarque {#alg-iii-s3-n1-rem-1 .statement tag=0604}
 
 La définition 1 peut encore s’interpréter en disant que E est un A-module gradué et que l’application A-linéaire
 
@@ -71,15 +71,15 @@ qui définit la multiplication dans E (III, p. 5) est homogène de degré 0 lors
 
 Définir une structure de A-algèbre graduée de type $\Delta$ sur l’anneau gradué A, ayant E pour A-module gradué sous-jacent, revient donc à définir, pour chaque couple $(\lambda, \mu)$ d’éléments de $\Delta$, une application $\mathbf{Z}$-bilinéaire $m_{\lambda \mu} : E_\lambda \times E_\mu \to E_{\lambda + \mu}$ telle que pour tout triplet d’indices $(\lambda, \mu, \nu)$ et pour $\alpha \in A_\lambda$, $x \in E_\mu$, $y \in E_\nu$, on ait $\alpha . m_{\mu, \nu}(x, y) = m_{\lambda + \mu, \nu}(\alpha x, y) = m_{\mu, \lambda + \nu}(x, \alpha y)$.
 
-#### Exemple 1 {#alg-iii-s3-n1-exa-1 .statement}
+#### Exemple 1 {#alg-iii-s3-n1-exa-1 .statement tag=0605}
 
 Soit B un anneau gradué de type $\Delta$; si on munit B de sa structure canonique de $\mathbf{Z}$-algèbre (III, p. 2, Exemple 2), B est une A-algèbre graduée ($\mathbf{Z}$ étant muni de la graduation triviale).
 
-#### Exemple 2 {#alg-iii-s3-n1-exa-2 .statement}
+#### Exemple 2 {#alg-iii-s3-n1-exa-2 .statement tag=0DGJ}
 
 Soient A un anneau commutatif gradué de type $\Delta$, M un A-module gradué de type $\Delta$. Supposons que tous les éléments du monoïde $\Delta$ soient simplifiables, ce qui permet (II, p. 175) de définir sur $\mathrm{Homgr}_A(M, M) = \mathrm{Endgr}_A(M)$ une structure de A-module gradué de type $\Delta$; comme cette graduation est compatible avec la structure d’anneau de $\mathrm{Endgr}_A(M)$ (II, p. 175), elle définit sur la A-algèbre $\mathrm{Endgr}_A(M)$ une structure de A-algèbre graduée unifère.
 
-#### Exemple 3 {#alg-iii-s3-n1-exa-3 .statement}
+#### Exemple 3 {#alg-iii-s3-n1-exa-3 .statement tag=0DGK}
 
 Algèbre d’un magma. Soient S un magma et soit $\varphi : S \to \Delta$ un homomorphisme. Pour tout $\lambda \in \Delta$, posons $S_\lambda = \varphi^{-1}(\lambda)$; on a alors $S_\lambda S_\mu \subset S_{\lambda + \mu}$. Soient A un anneau commutatif gradué de type $\Delta$, $(A_\lambda)_{\lambda \in \Delta}$ sa graduation; nous allons définir sur l’algèbre $E = A^{(S)}$ du magma S (III, p. 19) une structure de A-algèbre graduée. Pour cela, désignons par $E_\lambda$ le sous-groupe additif de E engendré par les éléments de la forme $\alpha . s$ tels que $\alpha \in A_\mu$, $s \in S_\nu$ et $\mu + \nu = \lambda$. Comme les $S_\lambda$ sont deux à deux disjoints, E est somme directe des $A_\mu S_\nu$, donc aussi somme directe des $E_\lambda$, et il est immédiat que les $E_\lambda$ vérifient les conditions (1) et (2) de III, p. 30 et définissent donc sur E la structure de A-algèbre graduée voulue. Si S admet un élément neutre $e$, on supposera en outre que $\varphi(e) = 0$. Un cas particulier est celui où la graduation de l’anneau A est triviale; alors $E_\lambda$ est le sous-A-module de E engendré par $S_\lambda$. Plus particulièrement, si l’on prend $S = \mathbf{N}^{(I)}$, $\Delta = \mathbf{N}$ et pour $\varphi$ l’application telle que $\varphi((n_i)) = \sum_{i \in I} n_i$, l’anneau A étant muni de la graduation triviale, on obtient ainsi sur l’algèbre de polynômes $A[X_i]_{i \in I}$ une graduation pour laquelle le degré d’un polynôme homogène $\neq 0$ est le degré total défini dans III, p. 26 (cf. III, p. 73).
 
@@ -93,7 +93,7 @@ De même, si a est un idéal à gauche (resp. à droite) de E qui soit un sous-A
 
 Si u : E → E' est un homomorphisme d’algèbres graduées, Im(u) est une sous-algèbre graduée de E', Ker(u) un idéal bilatère gradué de E, la bijection E/Ker(u) → Im(u) canoniquement associée à u étant un isomorphisme d’algèbres graduées.
 
-#### Proposition 1 {#alg-iii-s3-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s3-prop-1 .statement tag=0606}
 
 Soient A un anneau commutatif gradué de type Δ, E une A-algèbre graduée de type Δ, S un ensemble d’éléments homogènes de E. Alors la sous-A-algèbre (resp. l’idéal à gauche, l’idéal à droite, l’idéal bilatère) engendrée par S (resp. engendré par S) est une sous-algèbre graduée (resp. un idéal gradué).
 

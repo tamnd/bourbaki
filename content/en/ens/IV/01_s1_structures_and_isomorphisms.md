@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 17
 exercises: 1
-content_sha256: 6f80558fbc92e161f5d49ee0e3bc31cde68825641566b6b9033b62360094bb00
+content_sha256: 0afa8f8b2eeacc6c331a25088f06579b838538c263fddf5f044dbaa9e0fb2b95
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -312,7 +312,7 @@ The pair $(s_1,s_2\cap((\mathbf{R}\times E)\times E))$ is a procedure of deducti
 
 Suppose that $\Theta$ has the same (principal and auxiliary) base sets as $\Sigma$, and the same typical characterization. If, moreover, the axiom of $\Sigma$ implies (in $\mathscr{T}$) the axiom of $\Theta$, it is clear that the term $s$ is a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. $\Theta$ is then said to be poorer than $\Sigma$, and $\Sigma$ is richer than $\Theta$. Every structure of species $\Sigma$, in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, is then also a structure of species $\Theta$. For example, the species of structures of totally ordered sets (obtained by taking as axiom the conjunction of the axiom of order structures (no. 4, Example 1) and the relation $s\cup s^{-1}=A\times A$) is richer than the species of order structures. \*The species of commutative group structures is richer than the species of group structures. The species of compact topological space structures is richer than the species of topological structures, etc. \*
 
-#### Example 4 {#ens-iv-s1-n6-exa-4 .statement}
+#### Example 4 {#ens-iv-s1-n6-exa-4 .statement tag=077U}
 
 \* When each of $\Sigma$ and $\Theta$ is the species of group structures (resp. ring structures), there is defined in algebra a procedure of deduction which associates with each group structure (resp. ring structure) the group structure (resp. ring structure) on its centre. When $\Sigma$ is the species of vector space structures over a field $K$, and when $\Theta$ is the species of algebraic structures over $K$, there are defined procedures of deduction which associate with every vector space over $K$ its tensor algebra or its exterior algebra. We shall meet many other examples later in this series. \*
 

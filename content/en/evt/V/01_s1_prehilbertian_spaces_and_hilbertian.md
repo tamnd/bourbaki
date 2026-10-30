@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 37
-content_sha256: 7636f7903e66ecd5e6ed6cd0e99d4966eb0bae4c0a1dbd426a13a69b44083590
+content_sha256: a3c6df7442ce70b3c022a53d8c8d5c5898d4f54434a40fd2c9ae5e5be4f6a2de
 ---
 
 ## § 1. PREHILBERTIAN SPACES AND HILBERTIAN SPACES
@@ -49,7 +49,7 @@ content_sha256: 7636f7903e66ecd5e6ed6cd0e99d4966eb0bae4c0a1dbd426a13a69b44083590
 
 We recall the following definition given in Algebra (A, IX, § 3, No. 1):
 
-#### Definition 1 {#evt-v-s1-def-1 .statement}
+#### Definition 1 {#evt-v-s1-def-1 .statement tag=07X0}
 
 Let E be a vector space over the field K. A hermitian form (on the left) on E is a map f from E × E into K satisfying the following conditions (for $x_1, x_2, x, y_1, y_2, y$ in E and $\lambda, \mu$ in K):
 
@@ -105,13 +105,13 @@ $$
 4f(x, y) = \sum_{\varepsilon^4 = 1, \varepsilon \in \mathbf{C}} \varepsilon Q(x + \overline{\varepsilon} y) \quad \text{if } K \text{ is } \mathbf{C}.
 $$
 
-#### Remark {#evt-v-s1-n1-rem-1 .statement}
+#### Remark {#evt-v-s1-n1-rem-1 .statement tag=07X1}
 
 — We observe that formula (6) is valid for every *sesquilinear* form on $E \times E$ (that is to say, for every function $f$ satisfying (1) and (2), but not necessarily (3)). This remark shows that, when $K = \mathbf{C}$, a sesquilinear form $f$ such that $f(x, x)$ is real for all $x \in E$ is necessarily *hermitian*: relation (6) then gives $\overline{f(y, x)} = f(x, y)$ since we have $y + \varepsilon x = \varepsilon(x + \overline{\varepsilon} y)$ and $Q(\varepsilon z) = Q(z)$ whenever $\varepsilon^4 = 1$.
 
 From the polarisation formulas, we have in particular,
 
-#### Proposition 1 {#evt-v-s1-prop-1 .statement}
+#### Proposition 1 {#evt-v-s1-prop-1 .statement tag=07X2}
 
 *If $f$ is a hermitian form on $E$, and $M$ a vector subspace of $E$ such that $f(x, x) = 0$ for all $x \in M$, then we also have $f(x, y) = 0$ for every pair of points $x, y$ in $M$.*
 
@@ -119,13 +119,13 @@ Let $f$ be a hermitian form on $E$; the set $N$ of all $x \in E$ such that $f(x,
 
 ### 2. Positive hermitian forms
 
-#### Definition 2 {#evt-v-s1-def-2 .statement}
+#### Definition 2 {#evt-v-s1-def-2 .statement tag=07X3}
 
 *Let $E$ be a vector space over the field $K$. A hermitian form $f$ on $E$ is said to be positive if $f(x, x) \geq 0$ for all $x \in E$.*
 
 It is clear that hermitian forms on a vector space $E$ form a vector space *over the field* $\mathbf{R}$ (but not over the field $\mathbf{C}$, when $K$ is $\mathbf{C}$) : in this space the positive hermitian forms constitute *a pointed convex proper cone* (II, p. 10) as a result of def. 2 and prop. 1.
 
-#### Proposition 2 {#evt-v-s1-prop-2 .statement}
+#### Proposition 2 {#evt-v-s1-prop-2 .statement tag=07X4}
 
 — *If f is a positive hermitian form, we have*
 
@@ -157,11 +157,11 @@ $$
 
 Replacing $\xi$ by $-\overline{f(x, y)}$ in this inequality, we get $-2 \ |f(x, y)|^2 \geq 0$, and therefore $f(x, y) = 0$; we again get (7) in this case.
 
-#### Corollary 1 {#evt-v-s1-prop-2-cor-1 .statement}
+#### Corollary 1 {#evt-v-s1-prop-2-cor-1 .statement tag=07X5}
 
 — *If f is a positive hermitian form, the set N of all x \in E such that f(x, x) = 0 coincides with the vector subspace of all x \in E such that f(x, y) = 0 for all y \in E.*
 
-#### Corollary 2 {#evt-v-s1-prop-2-cor-2 .statement}
+#### Corollary 2 {#evt-v-s1-prop-2-cor-2 .statement tag=07X6}
 
 — *For a positive hermitian form to be separating, it is necessary and sufficient that the relation x \neq 0 implies f(x, x) > 0.*
 
@@ -169,7 +169,7 @@ This follows immediately from cor. 1.
 
 For every positive hermitian form f on E, the separating hermitian form associated with f (V, p. 2) is evidently a positive hermitian form on E/N.
 
-#### Proposition 3 {#evt-v-s1-prop-3 .statement}
+#### Proposition 3 {#evt-v-s1-prop-3 .statement tag=07X7}
 
 — *Let f be a positive hermitian form on E. Put*
 
@@ -194,13 +194,13 @@ $$
 = (f(x, x)^{1/2} + f(y, y)^{1/2})^2 .
 $$
 
-#### Remark {#evt-v-s1-n2-rem-1 .statement}
+#### Remark {#evt-v-s1-n2-rem-1 .statement tag=07X8}
 
 — 1) Suppose f is positive and separating, and let x, y be two vectors $\neq 0$. The proof of Cauchy-Schwarz inequality shows that, if the two members of (7) are equal, then there exists a scalar $\xi$ such that $f(x + \xi y, x + \xi y) = 0$, hence $x + \xi y = 0$, in other words, $x$ and $y$ are *linearly dependent*; the converse is immediate. The proof of inequality (8) shows that the equality $p(x + y) = p(x) + p(y)$ is possible only if $x$ and $y$ are linearly dependent; if $y = \lambda x$, the preceding equality can be written as $|1 + \lambda| = 1 + |\lambda|$, and implies that $\lambda$ is *real and positive*.
 
 2) Let $f$ be a positive hermitian form on $E$, and let $E$ be assigned the semi-norm $x \mapsto f(x, x)^{1/2}$; if $f$ is the positive, separating hermitian form defined on $E/N$ associated with $f$, then the normed space obtained by assigning the norm $x \mapsto f(\dot{x}, \dot{x})^{1/2}$ to $E/N$ is the normed space associated with $E$ (II, p. 5).
 
-#### Definition 3 {#evt-v-s1-def-3 .statement}
+#### Definition 3 {#evt-v-s1-def-3 .statement tag=07X9}
 
 *Let $E$ be a vector space over the field $K$. A semi-norm $p$ on $E$ is said to be prehilbertian if there exists a positive hermitian form $f$ on $E$ such that $p(x) = f(x, x)^{1/2}$ for all $x \in E$*.
 
@@ -208,19 +208,19 @@ Observe that for a semi-norm $p$ on $E$, there exists at most one positive hermi
 
 ### 3. Prehilbertian spaces
 
-#### Definition 4 {#evt-v-s1-def-4 .statement}
+#### Definition 4 {#evt-v-s1-def-4 .statement tag=07XA}
 
 *A prehilbertian space is a set $E$ with the structure of a vector space over $K$ and with a positive hermitian form. We say that $E$ is a real (resp. complex) prehilbertian space when $K$ is $\mathbf{R}$ (resp. $K$ is $\mathbf{C}$).
 
-#### Example 1 {#evt-v-s1-n3-exa-1 .statement}
+#### Example 1 {#evt-v-s1-n3-exa-1 .statement tag=07XB}
 
 The form $(\lambda, \mu) \mapsto \overline{\lambda} \mu$ defines a prehilbertian structure on $K$, said to be *canonical*. When $K$ is considered as a prehilbertian space, we shall always mean, unless otherwise mentioned that it has this structure.
 
-#### Example 2 {#evt-v-s1-n3-exa-2 .statement}
+#### Example 2 {#evt-v-s1-n3-exa-2 .statement tag=07XC}
 
 Let $I$ be an interval (bounded or not) in $\mathbf{R}$, and let $E$ be the set of regulated functions (FVR, II, p. 4) defined on $I$ with values in $\mathbf{C}$, having compact support. It is clear that $E$ is a vector space over $\mathbf{C}$; let $f$ be the sesquilinear form $(x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt$; it is immediate that $f$ is a positive hermitian form on $E$, and hence defines a prehilbertian structure on this space.
 
-#### Example 3 {#evt-v-s1-n3-exa-3 .statement}
+#### Example 3 {#evt-v-s1-n3-exa-3 .statement tag=07XD}
 
 Let $n \geqslant 0$ be an integer. We define a prehilbertian space structure on the space $K^n$, by means of the hermitian form
 
@@ -230,11 +230,11 @@ $$
 
 (for $x = (x_1, ..., x_n)$ and $y = (y_1, ..., y_n)$). When $K$ is $\mathbf{R}$, we see that this is just the scalar product of two vectors of $\mathbf{R}^n$ (GT, VI, § 2, No. 2).
 
-#### Example 4 {#evt-v-s1-n3-exa-4 .statement}
+#### Example 4 {#evt-v-s1-n3-exa-4 .statement tag=07XE}
 
 Let $\ell^2$ (or $\ell^2(\mathbf{N})$) be the set of sequences $x = (x_n)_{n \in \mathbf{N}}$ of elements of $K$ such that $\sum_{n=0}^\infty |x_n|^2$ is finite. One can show that $\ell^2$ is a vector subspace of $K^\mathbf{N}$ and define a prehilbertian space structure on $\ell^2$ by means of the hermitian form $(x, y) \mapsto \sum_{n=0}^\infty \overline{x_n} y_n$ (cf. V, p. 18).
 
-#### Example 5 {#evt-v-s1-n3-exa-5 .statement}
+#### Example 5 {#evt-v-s1-n3-exa-5 .statement tag=07XF}
 
 Let $E$ be a real prehilbertian space, $f$ the corresponding symmetric bilinear form on $E$. Let $E_{(c)}$ be the vector space complexification of $E$; we identify $E$ with a subset of $E_{(c)}$ by the map $x \mapsto 1 \otimes x$, in such a way that every element of $E_{(c)}$ can be written uniquely as $x_1 + ix_2$ with $x_1, x_2$ in $E$. The map $f$ extends uniquely to a hermitian form $f_{(c)}$ on $E_{(c)}$; we have,
 
@@ -281,17 +281,17 @@ If E is a prehilbertian space, M a vector subspace of E, the restriction of the 
 
 ### 4. Hilbertian spaces
 
-#### Definition 5 {#evt-v-s1-def-5 .statement}
+#### Definition 5 {#evt-v-s1-def-5 .statement tag=07XG}
 
 *A hilbertian space* (or *Hilbert space*) *is a prehilbertian space which is Hausdorff and complete*. *We say that a norm on a vector space E (over K) is hilbertian if it is prehilbertian, and if the normed space E is complete*.
 
 If E is a hilbertian space and M a closed vector subspace of E, the prehilbertian space structure induced on M is in fact a hilbertian space structure. In this case we say that M, with the induced structure is a *hilbertian subspace* of E.
 
-#### Example 1 {#evt-v-s1-n4-exa-1 .statement}
+#### Example 1 {#evt-v-s1-n4-exa-1 .statement tag=07XH}
 
 The prehilbertian spaces defined in examples 1, 3, 4 of V, p. 4, are hilbertian spaces. On the other hand, the prehilbertian space defined in example 2 is neither Hausdorff, nor complete. The *complexification* of a hilbertian space is a hilbertian space.
 
-#### Example 2 {#evt-v-s1-n4-exa-2 .statement}
+#### Example 2 {#evt-v-s1-n4-exa-2 .statement tag=07XI}
 
 \* Let X be a Hausdorff topological space and let $\mu$ be a positive measure on X. Let $L^2(X, \mu)$ be the space consisting of equivalence classes, for $\mu$, of all square $\mu$-integrable functions on X with values in $\mathbf{C}$. This is a complex hilbertian space, whose scalar product is given by
 
@@ -299,7 +299,7 @@ $$
 \langle f|g \rangle = \int_X \overline{f(x)}\ g(x)\ d\mu(x) .
 $$
 
-#### Example 3 {#evt-v-s1-n4-exa-3 .statement}
+#### Example 3 {#evt-v-s1-n4-exa-3 .statement tag=07XJ}
 
 \* Let $n \geqslant 1$ be an integer and let U be an open set in $\mathbf{R}^n$. Let $\mu$ be the measure on U induced by the Lebesgue measure on $\mathbf{R}^n$, and put $\mathscr{H}^0 = L^2(U, \mu)$. Let $\mathscr{H}^1$ denote the space of all functions $f \in \mathscr{H}^0$ with the following property; for $1 \leqslant i \leqslant n$, there exists a function $g_i \in \mathscr{H}^\circ$ such that
 
@@ -315,7 +315,7 @@ $$
 
 Then $\mathscr{H}^s$ is a complex hilbertian space, called *Sobolev space* of index s.
 
-#### Example 4 {#evt-v-s1-n4-exa-4 .statement}
+#### Example 4 {#evt-v-s1-n4-exa-4 .statement tag=07XK}
 
 \* Let X be a differential variety of class $C^r$ (with $r \geqslant 1$) pure of finite dimension $n$.
 
@@ -334,7 +334,7 @@ Then, there exists one and only one measure $\tilde{\omega}$ on X such that for 
 
 Let $\mathscr{V}$ (resp. $\mathscr{N}$) be the vector space of measurable densities $\omega$ of order 1/2 such that the measure associated with the density $|\omega|^2$ of order 1 is bounded (resp. null). Let $\omega_1$ and $\omega_2$ be in $\mathscr{V}$; then $\omega = \overline{\omega_1} \omega_2$ is a density of order 1, and the measure $\tilde{\omega}$ associated with $\omega$ is bounded; the number $\int_X \tilde{\omega}$ depends only on the classes $\dot{\omega}_1$ and $\dot{\omega}_2$ of $\omega_1$ and $\omega_2$ modulo $\mathscr{N}$ and is denoted by $\langle \omega_1 | \omega_2 \rangle$ or $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$. Then the mapping $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ assigns a complex hilbertian space structure to the vector space $\Omega_{1/2}(X) = \mathscr{V}/\mathscr{N}$.
 
-#### Example 5 {#evt-v-s1-n4-exa-5 .statement}
+#### Example 5 {#evt-v-s1-n4-exa-5 .statement tag=07XL}
 
 \* Let D be the open disc with centre 0 and radius 1 in $\mathbf{C}$. *The Hardy space* $H^2(D)$ consists of all holomorphic functions $f : D \to \mathbf{C}$ for which
 $$
@@ -354,7 +354,7 @@ for all $z \in D$. Then we have $\|f\|^2 = \sum_{n=0}^\infty |a_n|^2$ which give
 
 Every Hausdorff prehilbertian space is isomorphic to an everywhere dense subspace of a hilbertian space determined up to an isomorphism. Precisely :
 
-#### Proposition 4 {#evt-v-s1-prop-4 .statement}
+#### Proposition 4 {#evt-v-s1-prop-4 .statement tag=07XM}
 
 — *Let E be a Hausdorff prehilbertian space, $\hat{E}$ the normed space completion of E*(GT, IX, § 3, No. 3). The scalar product* $(x, y) \mapsto \langle x|y \rangle$ *extends by conti*nuity to a positive and separating hermitian form on* $\hat{E}$, *and defines a hilbertian space structure on* $\hat{E}$.
 
@@ -370,7 +370,7 @@ $$
 
 This prehilbertian space is not complete. Its completion is called the *Dirichlet space* associated with U. \*
 
-#### Corollary {#evt-v-s1-n4-cor-1 .statement}
+#### Corollary {#evt-v-s1-n4-cor-1 .statement tag=07XN}
 
 — *Let V be a vector space over K and f a positive hermitian form on V.*
 a) *There exists a Hilbert space E and a linear mapping* $u : V \to E$ *such that* $f(x, y) = \langle u(x)|u(y) \rangle$ *for x, y in V, and such that u(V) is dense in E.*
@@ -382,7 +382,7 @@ Under the hypotheses of *b*), N is equal to the kernel of $u_1$ and to that of $
 
 We say that the hilbertian space E is the *separated completion* of V (for the form *f*).
 
-#### Example 7 {#evt-v-s1-n4-exa-7 .statement}
+#### Example 7 {#evt-v-s1-n4-exa-7 .statement tag=07XO}
 
 Let G be a group (with unit element 1) and $\pi$ a homomorphism from G into the group of automorphisms of a complex hilbertian space E ; we say that $\pi$ is a *unitary representation* of G in E. Let $a \in E$ ; we put
 
@@ -432,7 +432,7 @@ From this identity we deduce the following proposition :
 
 Fig. 1.
 
-#### Proposition 5 {#evt-v-s1-prop-5 .statement}
+#### Proposition 5 {#evt-v-s1-prop-5 .statement tag=07XP}
 
 — Let $E$ be a prehilbertian space. Let $d$ be a real number $> 0$, $\delta$ a real number such that $0 \leqslant \delta \leqslant d$. Let $B$ and $B'$ be subsets of $E$ defined by $\| x \| < d$,
 
@@ -445,7 +445,7 @@ $$
 $$
 from which the proposition follows.
 
-#### Theorem 1 {#evt-v-s1-thm-1 .statement}
+#### Theorem 1 {#evt-v-s1-thm-1 .statement tag=07XQ}
 
 *Let E be a prehilbertian space, and H a non-empty convex subset of E such that H is a Hausdorff and complete uniform subspace of E. For every $x \in E$, there exists a unique point $p_H(x)$ in H such that $\|x - p_H(x)\| = \inf_{y \in H} \|x - y\|$. The element $p_H(x)$ of H is also the unique element a of H satisfying the relation*
 $$
@@ -481,7 +481,7 @@ The first part of th. 1 is valid under more general hypotheses on the space E (V
 
 The proof of th. 1 establishes, among others, the following property :
 
-#### Corollary 1 {#evt-v-s1-thm-1-cor-1 .statement}
+#### Corollary 1 {#evt-v-s1-thm-1-cor-1 .statement tag=07XR}
 
 *Let I be a set directed by a filter $\mathfrak{F}$ and let $(y_{i})_{i \in I}$ be a family of points of $\mathbf{H}$. Let $x \in \mathbf{E}$. Suppose that we have*
 $$
@@ -489,7 +489,7 @@ $$
 $$
 *Then $y_{i}$ tends to $p_{\mathbf{H}}(x)$ with respect to the filter $\mathfrak{F}$.*
 
-#### Corollary 2 {#evt-v-s1-thm-1-cor-2 .statement}
+#### Corollary 2 {#evt-v-s1-thm-1-cor-2 .statement tag=07XS}
 
 *For every $x, y$ in $\mathbf{E}$, we have*
 $$
@@ -506,7 +506,7 @@ $$
 $$
 This proves corollary 2.
 
-#### Proposition 6 {#evt-v-s1-prop-6 .statement}
+#### Proposition 6 {#evt-v-s1-prop-6 .statement tag=07XT}
 
 *Let $\mathbf{E}$ be a prehilbertian space and let $\Phi$ be a non-empty, directed decreasing set of non-empty Hausdorff and complete convex subsets of $\mathbf{E}$. For every $x \in \mathbf{E}$ and every subset $\mathbf{H}$ of $\mathbf{E}$, put $d(x, \mathbf{H}) = \inf_{z \in \mathbf{H}} \| x - z \|$. In order that the intersection M of the sets H belonging to $\Phi$ be non-empty, it is necessary and sufficient that there exists $x_0$ in E such that $\sup_{H \in \Phi} d(x_0, H)$ is finite. For every $x \in E$ we then have
 $$
@@ -522,7 +522,7 @@ d(x, H) \leq \|x - x_0\| + C \quad \text{for all } H \in \Phi,
 $$
 hence the number $d = \sup_{H \in \Phi} d(x, H)$ is finite. Let B be the set of all $z \in E$ such that $\|x - z\| \leq d$. Since B is convex and closed in E, the sets $H \cap B$, for H ranging over $\Phi$, are convex, Hausdorff and complete. Let $\varepsilon > 0$; there exists a set $H \in \Phi$ such that $d(x, H) \geq d - \varepsilon$, and if $\varepsilon < d/2$, the diameter of $H \cap B$ is bounded by $\sqrt{12 \varepsilon (d - \varepsilon)}$ by prop. 5 (V, p. 9). In other words, for all $H_0 \in \Phi$, the closed sets $H \cap B$, for $H \in \Phi$ and $H \subset H_0$, form a base of the Cauchy filter on the Hausdorff and complete space $H_0$. Hence the intersection of the sets $H \cap B$ (for $H \in \Phi$) reduces to a point y. We get $y \in M$ and $\|x - y\| = d = d(x, M)$. Since M is closed in $H_0$, it is a Hausdorff, convex and complete set in E, and so $y = p_M(x)$. For every $H \in \Phi$, we have $p_H(x) \in H \cap B$, from which we get that $p_M(x) = \lim_{H \in \Phi} p_H(x)$.
 
-#### Proposition 7 {#evt-v-s1-prop-7 .statement}
+#### Proposition 7 {#evt-v-s1-prop-7 .statement tag=07XU}
 
 *Let E be a Hausdorff prehilbertian space and let $\Psi$ be a non-empty directed increasing set of non-empty, convex, complete subsets of E. Put $A = \bigcup_{H \in \Psi} H$ and suppose that the closure N of A is complete. Then N is convex and we have*
 $$
@@ -547,7 +547,7 @@ Let A be a subset of E. We say that a vector x in E is orthogonal to A if it is 
 
 Let A and B be two subsets of E. We say that A and B are orthogonal if every vector of A is orthogonal to every vector of B. This is equivalent to saying that $A \subset B^\circ$, or that $B \subset A^\circ$. If E is Hausdorff and if A and B are orthogonal then $A \cap B$ is empty or reduces to 0 since 0 is the only vector of E orthogonal to itself.
 
-#### Theorem 2 {#evt-v-s1-thm-2 .statement}
+#### Theorem 2 {#evt-v-s1-thm-2 .statement tag=07XV}
 
 *Let E be a prehilbertian space and M a vector subspace of E, which is Hausdorff and complete. Then E is the topological direct sum of M and of $M^\circ$ the subspace orthogonal to M. The projector from E onto M associated with the decomposition $E = M \oplus M^\circ$ is the projection $p_M$ from E onto M defined in th. 1 (V, p. 10).
 
@@ -561,7 +561,7 @@ for all $\lambda \in K$. If, in particular we take $\lambda = \overline{\langle 
 
 Since M is Hausdorff, 0 is the only vector of M, orthogonal to itself, hence $M \cap M^\circ = \{0\}$. For every $x \in E$, we have $p_M(x) \in M$ and $x - p_M(x) \in M^\circ$. Consequently, E is the direct sum of M and $M^\circ$, and $p_M$ is the projector from E onto M with kernel $M^\circ$. Since $p_M$ is a continuous mapping from E into M (V, p. 11, cor. 2), if follows from GT, III, § 6, No. 2 that E is the topological direct sum of M and $M^\circ$.
 
-#### Corollary {#evt-v-s1-n6-cor-1 .statement}
+#### Corollary {#evt-v-s1-n6-cor-1 .statement tag=07XW}
 
 *Let E be a Hausdorff prehilbertian space and M a finite dimensional vector subspace of E. Then E is the direct sum of M and $M^\circ$.
 
@@ -573,13 +573,13 @@ It follows immediately from Pythagoras theorem that the canonical mapping $\psi$
 
 We shall often use the preceding results when E is a hilbertian space and M a closed vector subspace of E. In this case, $M^\circ$ is a closed vector subspace of E, and $p_{M^\circ} = 1 - p_M$, and $(M^\circ)^\circ = M$.
 
-#### Proposition 8 {#evt-v-s1-prop-8 .statement}
+#### Proposition 8 {#evt-v-s1-prop-8 .statement tag=07XX}
 
 — Let E be a hilbertian space, M a closed vector subspace of E, I a non-empty ordered directed set and $(M_i)_{i \in I}$ a family of closed vector subspaces of E. We assume that either the mapping $i \mapsto M_i$ is increasing and that M is the closure of $\bigcup_{i \in I} M_i$ or that the mapping $i \mapsto M_i$ is decreasing and that $M = \bigcap_{i \in I} M_i$. Then $p_M(x) = \lim_{i \in I} p_{M_i}(x)$ for all $x \in E$.
 
 Prop. 8 follows immediately from props. 6 (V, p. 11) and 7 (V, p. 12).
 
-#### Proposition 9 {#evt-v-s1-prop-9 .statement}
+#### Proposition 9 {#evt-v-s1-prop-9 .statement tag=07XY}
 
 — Let E be a hilbertian space and M, N two closed vector subspaces of E.
 
@@ -613,7 +613,7 @@ It is clear that the image of $q$ is contained in $M + N$; however, we have $p_N
 
 We have $p_M p_N = 0$ if and only if the image $N$ of $p_N$ is contained in the kernel $M^\circ$ of $p_M$, that is, if and only if $M$ is orthogonal to $N$. The rest of the assertion c) is then a particular case of b).
 
-#### Remark {#evt-v-s1-n6-rem-1 .statement}
+#### Remark {#evt-v-s1-n6-rem-1 .statement tag=07XZ}
 
 — Let $E$ be a hilbertian space and $M, N$ two closed vector subspaces of $E$. The relation $M \subset N$ is equivalent to the orthogonality of $M$ and $N^\circ$, that is to say, to the relation $p_M p_{N^\circ} = 0$ by prop. 9, c). Since we have $p_{N^\circ} = 1 - p_N$, we conclude that *the relations* $M \subset N$ *and* $p_M = p_M p_N$ *are equivalent* (« the three perpendicular theorem », *cf.* fig. 3).
 
@@ -623,7 +623,7 @@ Fig. 3.
 
 ### 7. Dual of a hilbertian space
 
-#### Theorem 3 {#evt-v-s1-thm-3 .statement}
+#### Theorem 3 {#evt-v-s1-thm-3 .statement tag=07Y0}
 
 *Let $E$ be a hilbertian space. For every $x \in E$, let $x^*$ be the continuous linear form $y \mapsto \langle x | y \rangle$ on $E$; the mapping $x \mapsto x^*$ is a bijective, semi-linear (for the automorphism $\xi \mapsto \bar{\xi}$) mapping from $E$ onto its dual $E'$, and an isometry from the normed space $E$ onto the normed space $E'$.*
 
@@ -649,13 +649,13 @@ for $x, y$ in E and $x'$ in E'.
 
 To say that the vector $x \in E$ is orthogonal to a vector $y \in E$ is equivalent to saying that the linear form $x^* \in E'$ is orthogonal to $y$ in the sense defined in II, p. 41 (this justifies the use of the word « orthogonal » in the two cases). If M is a closed vector subspace of E, the subspace $M^\circ$ orthogonal to M in E' (II, p. 44) is the image under $x \mapsto x^*$ of the orthogonal of M in E, defined in V, p. 13 (this justifies the use of the notation $M^\circ$ in the two cases).
 
-#### Corollary 1 {#evt-v-s1-thm-3-cor-1 .statement}
+#### Corollary 1 {#evt-v-s1-thm-3-cor-1 .statement tag=07Y1}
 
 *In order that the family $(x_i)_{i \in I}$ of points of a hilbertian space E be total, it is necessary and sufficient that the relations $\langle x_i|y \rangle = 0$ for $y \in E$ and for all indices $i \in I$ imply that $y = 0$.*
 
 In fact, this says that 0 is the only vector of E' which is orthogonal to all the $x_i$ (II, p. 43 and IV, p. 1).
 
-#### Corollary 2 {#evt-v-s1-thm-3-cor-2 .statement}
+#### Corollary 2 {#evt-v-s1-thm-3-cor-2 .statement tag=07Y2}
 
 *Let E and F be two hilbertian spaces. For $u \in \mathscr{L}(E; F)$, $x \in E$ and $y \in F$, put*
 
@@ -686,17 +686,17 @@ The canonical mapping from E into its bidual E'' (IV, p. 14) maps E onto E'', in
 
 As a consequence (IV, p. 17, prop. 6):
 
-#### Theorem 4 {#evt-v-s1-thm-4 .statement}
+#### Theorem 4 {#evt-v-s1-thm-4 .statement tag=07Y3}
 
 *In a hilbertian space E, the unit ball is weakly compact.*
 
-#### Proposition 10 {#evt-v-s1-prop-10 .statement}
+#### Proposition 10 {#evt-v-s1-prop-10 .statement tag=07Y4}
 
 *If, in a hilbertian space E, a filter $\mathfrak{F}$ converges weakly to $x_0$, and if moreover $\lim_{\mathfrak{F}} \|x\| = \|x_0\|$, then $\mathfrak{F}$ converges to $x_0$ for the initial topology of E.*
 
 In fact, $\|x - x_0\|^2 = \|x\|^2 - 2\Re \langle x|x_0 \rangle + \|x_0\|^2$. Since $\langle x|x_0 \rangle$ tends to $\|x_0\|^2$ with respect to $\mathfrak{F}$ by hypothesis, and $\|x\|$ tends to $\|x_0\|$ with respect to $\mathfrak{F}$, $\|x - x_0\|$ tends to 0 with respect to $\mathfrak{F}$, hence the proposition.
 
-#### Remark {#evt-v-s1-n7-rem-1 .statement}
+#### Remark {#evt-v-s1-n7-rem-1 .statement tag=07Y5}
 
 — If E is a Hausdorff prehilbertian space and $\hat{E}$ the hilbertian space completion of E, we know (III, p. 16) that the dual E' of E can be identified with the dual of $\hat{E}$; it then follows from th. 3 (V, p. 15) that every continuous linear form on E can be written in a unique way as $x \mapsto \langle a|x \rangle$, where $a \in \hat{E}$.
 

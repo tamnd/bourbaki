@@ -48,7 +48,7 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: f93feefe1420faa487ef2ec2c16e6762d54a952c27c5c013e47d3da535913104
+content_sha256: fa228e47e2ea7f0d968bdf2df3ac96e660c4754c16066d14f6fe458a41527c40
 translated_from: content/en/top/II/03_s3_complete_spaces.md
 source_content_sha256: 25443ca38e0d74878092070846f4496eceb085af929309efb7188d13993eaa0c
 translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-6
@@ -64,17 +64,17 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Khi một tập hợp $X$ được trang bị một cấu trúc đều, ta có thể định nghĩa ý nghĩa của một tập hợp con "nhỏ" của $X$ (tương đối với cấu trúc này): một tập hợp con "nhỏ" của $X$ là một tập hợp trong đó mọi điểm đều "rất gần" nhau. Chính xác:
 
-#### Định nghĩa 1 {#top-ii-s3-def-1 .statement}
+#### Định nghĩa 1 {#top-ii-s3-def-1 .statement tag=0BEE}
 
 Nếu $X$ là một không gian đều và nếu $V$ là một lân cận của $X$, một tập hợp con $A$ của $X$ được nói là $V$-nhỏ nếu mọi cặp điểm của $A$ đều $V$-gần nhau (nói cách khác, nếu $A \times A \subset V$).
 
-#### Mệnh đề 1 {#top-ii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#top-ii-s3-prop-1 .statement tag=0BEF}
 
 Trong một không gian đều $X$, nếu hai tập hợp $A$ và $B$ là $V$-nhỏ và giao nhau, thì hợp $A \cup B$ của chúng là $\vec{V}$-nhỏ.
 
 Cho $x$ và $y$ là bất kỳ hai điểm nào của $A \cup B$, và cho $Z \in A \cap B$. Khi đó $(x, z) \in V$ và $(z, y) \in V$, do đó $(x, y) \in \overline{V}$.
 
-#### Định nghĩa 2 {#top-ii-s3-def-2 .statement}
+#### Định nghĩa 2 {#top-ii-s3-def-2 .statement tag=0BEG}
 
 *Một bộ lọc $\mathfrak{F}$ trên một không gian đều là một bộ lọc Cauchy nếu với mỗi lân cận $V$ của $X$ có một tập hợp con của $X$ là $V$-nhỏ và thuộc $\mathfrak{F}$.*
 
@@ -82,7 +82,7 @@ Cho $x$ và $y$ là bất kỳ hai điểm nào của $A \cup B$, và cho $Z \in
 
 Một dãy vô hạn $(u_n)$ các điểm của một không gian đều $X$ được nói là một *dãy Cauchy* nếu bộ lọc sơ cấp liên kết với dãy là một bộ lọc Cauchy. Điều đó tương đương với việc nói rằng với mỗi lân cận $V$ của $X$ tồn tại một số nguyên $n_0$ sao cho với mọi số nguyên $m \geq n_0$ và $n \geq n_0$ ta có $(u_m, u_n) \in V$.
 
-#### Mệnh đề 2 {#top-ii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#top-ii-s3-prop-2 .statement tag=0BEH}
 
 *Trên một không gian đều $X$, mọi bộ lọc hội tụ đều là một bộ lọc Cauchy.*
 
@@ -90,7 +90,7 @@ Nếu $x$ là một điểm bất kỳ của $X$ và $V$ là một lân cận đ
 
 Rõ ràng mọi bộ lọc *mịn hơn* một bộ lọc Cauchy đều là một bộ lọc Cauchy.
 
-#### Mệnh đề 3 {#top-ii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#top-ii-s3-prop-3 .statement tag=0BEI}
 
 *Cho $f : X \to X'$ là một ánh xạ liên tục đều. Khi đó ảnh của một cơ sở bộ lọc Cauchy trên $X$ qua $f$ là một cơ sở bộ lọc Cauchy trên $X'$.*
 
@@ -100,7 +100,7 @@ Cho $g = f \times f$. Nếu $V'$ là một lân cận của $X'$, thì $\overlin
 
 Sự kiện này có thể dễ dàng ghi nhớ dưới dạng sau: *cấu trúc đều càng mịn thì càng có ít lọ Cauchy*.
 
-#### Mệnh đề 4 {#top-ii-s3-prop-4 .statement}
+#### Mệnh đề 4 {#top-ii-s3-prop-4 .statement tag=0BEJ}
 
 *Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian đều, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Cho $X$ mang cấu trúc đều cực tiểu $U$ sao cho các $f_i$ là liên tục đều. Khi đó để một cơ sở lọ $\mathfrak{B}$ trên $X$ là một cơ sở lọ Cauchy, điều kiện cần và đủ là $f_i(\mathfrak{B})$ là một cơ sở lọ Cauchy trên $Y_i$, với mỗi $i \in I$.*
 
@@ -110,11 +110,11 @@ $$
 $$
 Điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 {#top-ii-s3-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#top-ii-s3-prop-4-cor-1 .statement tag=0BEK}
 
 *Nếu một lọ Cauchy trên một không gian đều $X$ cảm sinh một lọ trên một tập con $A$ của $X$, thì lọ này là một lọ Cauchy trên không gian con đều $A$.*
 
-#### Hệ quả 2 {#top-ii-s3-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#top-ii-s3-prop-4-cor-2 .statement tag=0BEL}
 
 *Một cơ sở lọ $\mathfrak{B}$ trên một tích $\prod_{i \in I} X_i$ của các không gian đều là một cơ sở lọ Cauchy khi và chỉ khi, với mỗi $i \in I$, $\operatorname{pr}_i(\mathfrak{B})$ là một cơ sở lọ Cauchy trên $X_i$.*
 
@@ -122,31 +122,31 @@ $$
 
 Các phần tử cực tiểu (đối với phép chứa) của tập hợp các lọ Cauchy trên một không gian đều $X$ được gọi là *các lọ Cauchy cực tiểu* trên $X$.
 
-#### Mệnh đề 5 {#top-ii-s3-prop-5 .statement}
+#### Mệnh đề 5 {#top-ii-s3-prop-5 .statement tag=0BEM}
 
 *Cho $X$ là một không gian đều. Với mỗi bộ lọc Cauchy $\mathfrak{F}$ trên $X$, tồn tại một bộ lọc Cauchy cực tiểu duy nhất thô hơn $\mathfrak{F}$. Nếu $\mathfrak{B}$ là một cơ sở của $\mathfrak{F}$ và $\mathfrak{G}$ là một hệ cơ bản các lân cận đối xứng của $X$, thì các tập hợp $V(M)$ ($M \in \mathfrak{B}, V \in \mathfrak{G}$) lập thành một cơ sở của $\mathfrak{F}_0$.*
 
 Nếu $M, M'$ thuộc $\mathfrak{B}$ và $V, V'$ thuộc $\mathfrak{G}$, thì tồn tại một tập hợp $M'' \in \mathfrak{B}$ (resp. $V'' \in \mathfrak{G}$) sao cho $M'' \subset M \cap M'$ (resp. $V'' \subset V \cap V'$); do đó $V''(M'') \subset V(M) \cap V'(M')$ và vì thế các tập hợp $V(M)$ ($M \in \mathfrak{B}, V \in \mathfrak{G}$) thật sự lập thành một cơ sở của một bộ lọc $\mathfrak{F}_0$ trên $X$. Hơn nữa, nếu $M$ là $V$-nhỏ, thì $V(M)$ là $V$-nhỏ; do đó $\mathfrak{F}_0$ là một bộ lọc Cauchy và rõ ràng thô hơn $\mathfrak{F}$. Để hoàn tất chứng minh, chỉ cần chỉ ra rằng nếu $\mathfrak{G}$ là một bộ lọc Cauchy thô hơn $\mathfrak{F}$, thì $\mathfrak{G}$ mịn hơn $\mathfrak{F}_0$. Với mỗi $M \in \mathfrak{B}$ và mỗi $V \in \mathfrak{G}$ có một tập hợp $N \in \mathfrak{G}$ là $V$-nhỏ; vì $N \in \mathfrak{F}$, $N$ giao với $M$; do đó $N \subset V(M)$ và vì vậy $V(M) \in \mathfrak{G}$.
 
-#### Hệ quả 1 {#top-ii-s3-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#top-ii-s3-prop-5-cor-1 .statement tag=0BEN}
 
 *Với mỗi $x \in X$, bộ lọc lân cận $\mathfrak{B}(x)$ của $x$ trong $X$ là một bộ lọc Cauchy cực tiểu.*
 
 Lấy $\mathfrak{F}$ trong Mệnh đề 5 là bộ lọc của mọi tập con của $X$ chứa $x$, và lấy $\mathfrak{B}$ chỉ gồm phần tử duy nhất $\{x\}$.
 
-#### Hệ quả 2 {#top-ii-s3-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#top-ii-s3-prop-5-cor-2 .statement tag=0BEO}
 
 *Mọi điểm tụ* $x$ *của một bộ lọc Cauchy* $\mathfrak{F}$ *đều là một điểm giới hạn của* $\mathfrak{F}$.
 
 Có một bộ lọc $\mathfrak{G}$ mịn hơn cả $\mathfrak{F}$ và $\mathfrak{B}(x)$ (Chương I, § 7, no. 2, Mệnh đề 4); vì $\mathfrak{F}$ là một bộ lọc Cauchy, nên $\mathfrak{G}$ cũng vậy. Nếu $\mathfrak{F}_0$ là bộ lọc Cauchy cực tiểu duy nhất thô hơn $\mathfrak{F}$, thì cả $\mathfrak{F}_0$ và $\mathfrak{B}(x)$ đều là các bộ lọc Cauchy cực tiểu thô hơn $\mathfrak{G}$. Do đó $\mathfrak{F}_0 = \mathfrak{B}(x)$, điều này chứng tỏ rằng $\mathfrak{F}$ hội tụ đến $x$.
 
-#### Hệ quả 3 {#top-ii-s3-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#top-ii-s3-prop-5-cor-3 .statement tag=0BEP}
 
 *Mọi bộ lọc Cauchy, thô hơn một bộ lọc hội tụ đến một điểm* $x$, *cũng hội tụ đến* $x$.
 
 Đây là một hệ quả của Hệ quả 2.
 
-#### Hệ quả 4 {#top-ii-s3-prop-5-cor-4 .statement}
+#### Hệ quả 4 {#top-ii-s3-prop-5-cor-4 .statement tag=0BEQ}
 
 *Nếu* $\mathfrak{F}$ *là một bộ lọc Cauchy cực tiểu, thì mọi tập hợp của* $\mathfrak{F}$ *đều có một phần trong không rỗng cũng thuộc* $\mathfrak{F}$ *(nói cách khác, $\mathfrak{F}$ có một cơ sở gồm các tập mở)*.
 
@@ -156,7 +156,7 @@ Cho $V$ là một lân cận đồng đều bất kỳ của $X$; khi đó có m
 
 Trong một không gian đồng đều $X$, *một bộ lọc Cauchy không nhất thiết phải có một điểm giới hạn*.
 
-#### Ví dụ 1 {#top-ii-s3-n3-exa-1 .statement}
+#### Ví dụ 1 {#top-ii-s3-n3-exa-1 .statement tag=0BER}
 
 Xét dãy $(u_n)$ trên đường thẳng hữu tỉ $\mathbf{Q}$ được xác định bởi $u_n = \sum_{p=0}^n 2^{-p(p+1)/2}$. Nếu $m > n$ ta có
 $$
@@ -172,7 +172,7 @@ $$
 $$
 với mọi $n$. Bây giờ vế trái của bất đẳng thức này là một số nguyên với mọi $n$, và do đó phải bằng không khi $n$ lớn hơn một số nguyên $n_0$ sao cho $b < 2^{n_0}$; vì vậy ta phải có $a/b = u_n$ với mọi $n > n_0$, điều này là vô lý.
 
-#### Ví dụ 2 {#top-ii-s3-n3-exa-2 .statement}
+#### Ví dụ 2 {#top-ii-s3-n3-exa-2 .statement tag=0BES}
 
 Cho $X$ là một tập vô hạn, và xét tính đồng đều của các phân hoạch hữu hạn trên $X$ ($\S$ 2, no. 2, Nhận xét 1). Mọi *siêu lọc* $\mathfrak{F}$ trên $X$ là một
 
@@ -182,19 +182,19 @@ V = \bigcup_i (A_i \times A_i)
 $$
 là lân cận đều tương ứng, thì ít nhất một trong các $A_i$ thuộc $\mathfrak{F}$ (Chương I, § 6, no. 4, Hệ quả của Mệnh đề 5), và $A_i$ là V-nhỏ. Mặt khác, $X$ là một không gian rời rạc vô hạn, do đó không compact, và vì vậy tồn tại các siêu bộ lọc trên $X$ không hội tụ.
 
-#### Định nghĩa 3 {#top-ii-s3-def-3 .statement}
+#### Định nghĩa 3 {#top-ii-s3-def-3 .statement tag=0BET}
 
 *Một không gian đầy đủ là một không gian đều trong đó mọi bộ lọc Cauchy đều hội tụ.*
 
 Trong một không gian đầy đủ, mọi *dãy Cauchy* (no. 1) do đó đều hội tụ.
 
-#### Ví dụ {#top-ii-s3-n3-exa-3 .statement}
+#### Ví dụ {#top-ii-s3-n3-exa-3 .statement tag=0BEU}
 
 Trên một không gian đều *rời rạc* $X$, một bộ lọc Cauchy là một siêu bộ lọc tầm thường (Chương I, § 6, no. 4), do đó hội tụ; vì vậy, $X$ là đầy đủ.
 
 Từ các Định nghĩa 2 và 3 của no. 1 và Mệnh đề 2 của no. 1, ta suy ra mệnh đề sau, được gọi là *tiêu chuẩn Cauchy*:
 
-#### Mệnh đề 6 {#top-ii-s3-prop-6 .statement}
+#### Mệnh đề 6 {#top-ii-s3-prop-6 .statement tag=0BEV}
 
 *Cho $\mathfrak{F}$ là một bộ lọc trên một tập hợp $X$, và cho $f$ là một ánh xạ từ $X$ vào một không gian đều đầy đủ $X'$. Khi đó $f$ có giới hạn đối với $\mathfrak{F}$ khi và chỉ khi ảnh của $\mathfrak{F}$ qua $f$ là một cơ sở bộ lọc Cauchy.*
 
@@ -202,13 +202,13 @@ Tiêu chuẩn này cho thấy tầm quan trọng của các không gian đầy �
 
 Một tôpô đều *mịn hơn* tôpô đều của một không gian đầy đủ không nhất thiết là tôpô đều của một không gian đầy đủ (Bài tập 2). Tuy nhiên, ta có mệnh đề sau:
 
-#### Mệnh đề 7 {#top-ii-s3-prop-7 .statement}
+#### Mệnh đề 7 {#top-ii-s3-prop-7 .statement tag=0BEW}
 
 *Cho $\mathfrak{U}_1, \mathfrak{U}_2$ là hai tôpô đều trên một tập hợp $X$, và cho $\mathfrak{T}_1, \mathfrak{T}_2$ là các tôpô được cảm sinh bởi các tôpô đều này tương ứng. Giả sử rằng $\mathfrak{U}_1$ mịn hơn $\mathfrak{U}_2$, và rằng có một hệ cơ sở các lân cận đều của $\mathfrak{U}_1$ đóng trong $X \times X$ đối với tôpô $\mathfrak{T}_2 \times \mathfrak{T}_2$. Khi đó một bộ lọc $\mathfrak{F}$ trên $X$ hội tụ trong tôpô $\mathfrak{T}_1$ khi và chỉ khi nó là một bộ lọc Cauchy trong tôpô đều $\mathfrak{U}_1$ và hội tụ trong tôpô $\mathfrak{T}_2$.*
 
 Các điều kiện rõ ràng là cần thiết, vì $\mathfrak{T}_2$ thô hơn $\mathfrak{T}_1$. Ngược lại, giả sử rằng các điều kiện được thỏa mãn, và cho $x$ là một điểm giới hạn của $\mathfrak{F}$ đối với $\mathfrak{T}_2$; ta sẽ chứng minh rằng $x$ là một giới hạn của $\mathfrak{F}$ đối với $\mathfrak{T}_1$. Cho $V$ là một lân cận đều đối xứng của $\mathfrak{U}_1$ đóng trong tôpô $\mathfrak{T}_2 \times \mathfrak{T}_2$. Theo giả thiết, $\mathfrak{F}$ chứa một tập hợp $M$ là V-nhỏ; do đó nếu $x' \in M$ thì ta có $M \subset V(x')$. Nhưng $V(x')$ đóng trong tôpô $\mathfrak{T}_2$; do đó $x$, nằm trong bao đóng của $M$ đối với $\mathfrak{T}_2$, phải thuộc $V(x')$. Suy ra rằng $M \subset \hat{V}(x)$, và mệnh đề được chứng minh.
 
-#### Hệ quả {#top-ii-s3-n3-cor-1 .statement}
+#### Hệ quả {#top-ii-s3-n3-cor-1 .statement tag=0BEX}
 
 Trong các điều kiện của Mệnh đề 7, nếu $U_2$ là một tôpô đều của một không gian đầy đủ, thì $U_1$ cũng vậy.
 
@@ -218,7 +218,7 @@ Chú ý rằng các giả thiết của Hệ quả của Mệnh đề 7 được
 
 ### 4. KHÔNG GIAN CON CỦA CÁC KHÔNG GIAN ĐẦY ĐỦ
 
-#### Mệnh đề 8 {#top-ii-s3-prop-8 .statement}
+#### Mệnh đề 8 {#top-ii-s3-prop-8 .statement tag=0BEY}
 
 Mọi không gian con đóng của một không gian đầy đủ đều đầy đủ. Mọi không gian con đầy đủ của một không gian đều Hausdorff (đầy đủ hoặc không) đều đóng.
 
@@ -226,7 +226,7 @@ Cho $X$ là một không gian đầy đủ và cho $A$ là một không gian con
 
 Bây giờ cho $\overline{A}$ là một tập con không đóng của một không gian đều Hausdorff $X$, và cho $b \in \overline{A} - A$. Vết $\mathfrak{B}_A$ trên $A$ của lọc lân cận $\mathfrak{B}$ của $b$ trong $X$ là một lọc Cauchy trên $A$; nhưng nó không thể hội tụ đến một điểm $c \in A$, vì nếu vậy $c$ sẽ là một điểm giới hạn của $\mathfrak{B}$ (mục 2, Mệnh đề 5, Hệ quả 3), điều này là vô lý vì $b \neq c$ và $X$ là Hausdorff.
 
-#### Mệnh đề 9 {#top-ii-s3-prop-9 .statement}
+#### Mệnh đề 9 {#top-ii-s3-prop-9 .statement tag=0BEZ}
 
 Cho $X$ là một không gian đều và cho $A$ là một tập con trù mật của $X$ sao cho mọi cơ sở lọc Cauchy trên $A$ đều hội tụ trong $X$. Khi đó $X$ là đầy đủ.
 
@@ -234,7 +234,7 @@ Chỉ cần chứng minh rằng mọi lọc Cauchy cực tiểu $\mathfrak{F}$ t
 
 ### 5. TÍCH VÀ GIỚI HẠN NGƯỢC CỦA CÁC KHÔNG GIAN ĐẦY ĐỦ
 
-#### Mệnh đề 10 {#top-ii-s3-prop-10 .statement}
+#### Mệnh đề 10 {#top-ii-s3-prop-10 .statement tag=0BF0}
 
 Mọi tích của các không gian đều đầy đủ đều là đầy đủ. Ngược lại, nếu một tích của các không gian đều không rỗng là đầy đủ, thì mỗi thừa số là một không gian đều đầy đủ.
 
@@ -252,7 +252,7 @@ $$
 
 $\mathfrak{F}$ là một lọc Cauchy (mục 1, Hệ quả 2 của Mệnh đề 4), nên hội tụ, và do đó mỗi $\operatorname{pr}_x \mathfrak{F} = \mathfrak{F}_x$ cũng hội tụ (Chương I, § 7, mục 6, Hệ quả 1 của Mệnh đề 10).
 
-#### Hệ quả {#top-ii-s3-n5-cor-1 .statement}
+#### Hệ quả {#top-ii-s3-n5-cor-1 .statement tag=0BF1}
 
 *Cho* $(X_\alpha, f_{\alpha\beta})$ *là một hệ ngược các không gian đều.* *Nếu các* $X_\alpha$ *là Hausdorff và đầy đủ, thì* $X = \varprojlim X_\alpha$ *cũng vậy.*
 
@@ -260,7 +260,7 @@ Vì $X$ là Hausdorff và có thể được đồng nhất với một *không 
 
 Một giới hạn ngược của các không gian đều Hausdorff đầy đủ $X_\alpha$ có thể *rỗng*, ngay cả khi tất cả các $X_\alpha$ đều không rỗng và tất cả các $f_{\alpha\beta}$ đều toàn ánh, như được chỉ ra bởi trường hợp các không gian rời rạc (*Lý thuyết tập hợp*, Chương III, § 1, Bài tập 32). Tuy nhiên, ta có định lý sau:
 
-#### Định lý 1 (Mittag-Leffler) {#top-ii-s3-thm-1 .statement}
+#### Định lý 1 (Mittag-Leffler) {#top-ii-s3-thm-1 .statement tag=0BF2}
 
 *Cho* $(X_\alpha, f_{\alpha\beta})$ *là một hệ ngược các không gian đều Hausdorff đầy đủ, được chỉ số hóa bởi một tập có hướng* $I$ *có một tập con đồng cuối đếm được; đồng thời, giả sử rằng, với mỗi* $\alpha \in I$, $X_\alpha$ *có một hệ cơ sở đếm được các lân cận* (*). *Cuối cùng, giả sử rằng với mỗi* $\alpha \in I$ *tồn tại một chỉ số* $\beta \geq \alpha$ *thỏa mãn điều kiện sau*:
 
@@ -307,13 +307,13 @@ $$ [f_{mp}(x_p), f_{m, p+q}(x_{p+q})] \in V_{k+p+q-1, m} \circ V_{k+p+q-2, m} \c
 
 và nhờ (2) hiển nhiên rằng vế phải của (6) được chứa trong V_{k+p-1, m}. Cho q tăng vô hạn; suy ra đặc biệt rằng, với m = p = 0, ta có (x_0, z_0) ∈ V_{k-1, 0}, vì V_{k-1, 0} đóng. Mặt khác, từ các quan hệ z_m = \lim_{n→∞} f_{mn}(x_n) và từ tính liên tục của f_{m, m+1}, ta suy ra rằng f_{m, m+1}(z_{m+1}) = z_m với mỗi m ≥ 0. Với mỗi γ ∈ I tồn tại ít nhất một số nguyên n sao cho α_n ≥ γ; đặt $z_\gamma = f_{\gamma, \alpha_n}(z_n)$ ta kiểm tra ngay rằng $z_\gamma$ không phụ thuộc vào giá trị của $n$ sao cho $\alpha_n \geq \gamma$, và rằng họ $(z_\alpha)_{\alpha \in I}$ như thế được định nghĩa là một điểm $z$ của $X = \varprojlim X_\alpha$. Vì $f_{\alpha_0}(z) = z_0$, chứng minh hoàn tất.
 
-#### Hệ quả 1 {#top-ii-s3-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#top-ii-s3-thm-1-cor-1 .statement tag=0BF3}
 
 *Cho* $(X_\alpha, f_{\alpha \beta})$ *là một hệ ngược của các tập hợp được chỉ số hóa bởi một tập có hướng* $I$ *có một tập con đồng cuối đếm được, và giả sử rằng các* $f_{\alpha \beta}$ *đều toàn ánh. Khi đó nếu* $X = \varprojlim X_\alpha$, *thì ánh xạ chính tắc* $f_\alpha : X \to X_\alpha$ *là toàn ánh với mỗi* $\alpha \in I$.
 
 Hãy cho mỗi $X_\alpha$ mang cấu đều rời rạc, và áp dụng Định lý 1.
 
-#### Hệ quả 2 {#top-ii-s3-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#top-ii-s3-thm-1-cor-2 .statement tag=0BF4}
 
 *Cho* $I$ *là một tập có hướng có một tập con đồng cuối đếm được. Cho* $(X_\alpha, f_{\alpha \beta})$ *và* $(X'_\alpha, f'_{\alpha \beta})$ *là hai hệ ngược của các tập hợp được chỉ số hóa bởi* $I$, *và với mỗi* $\alpha \in I$ *cho* $u_\alpha : X_\alpha \to X'_\alpha$ *là một ánh xạ, sao cho các* $u_\alpha$ *lập thành một hệ ngược các ánh xạ. Cho* $u = \varprojlim u_\alpha$. *Cho* $x = (x'_\alpha)$ *là một phần tử của*
 
@@ -325,7 +325,7 @@ $$
 
 Áp dụng Định lý 1 cho hệ ngược các tập hợp $\overline{u}_\alpha^{-1}(x'_\alpha)$, mỗi tập mang độ đều rời rạc.
 
-#### Ví dụ {#top-ii-s3-n5-exa-1 .statement}
+#### Ví dụ {#top-ii-s3-n5-exa-1 .statement tag=0BF5}
 
 Giả sử ta được cho trong $C$: (i) một dãy $(a_n)$ các điểm phân biệt sao cho dãy $(|a_n|)$ tăng và tiến tới $+\infty$; (ii) với mỗi $n$, một hàm hữu tỉ $z \to R_n(z)$ được định nghĩa trên $C - \{a_n\}$ và có một cực tại $a_n$; (iii) một dãy tăng $(B_n)$ các đĩa mở tâm 0, có hợp là $C$, và sao cho không có $a_k$ nào nằm trên biên của bất kỳ đĩa nào trong các đĩa $B_n$. Với mỗi $n$, ký hiệu $B'_n$ là giao của $\overline{B}_n$ và phần bù trong $C$ của tập hợp các điểm $a_n$; và ký hiệu $X_n$ là tập hợp tất cả các ánh xạ
 
@@ -349,7 +349,7 @@ $$ tổng sau này là một hàm khả chỉnh trong một lân cận nào đó
 
 Định lý về mở rộng bằng tính liên tục (Chương I, § 8, no. 5, Định lý 1) có những bổ sung quan trọng khi các hàm đang xét lấy giá trị trong một không gian đều Hausdorff đầy đủ.
 
-#### Mệnh đề 11 {#top-ii-s3-prop-11 .statement}
+#### Mệnh đề 11 {#top-ii-s3-prop-11 .statement tag=0BF6}
 
 *Cho $A$ là một tập con trù mật của một không gian tôpô $X$, và cho $f$ là một ánh xạ từ $A$ vào một không gian đều Hausdorff đầy đủ $X'$. Khi đó $f$ có thể được mở rộng bằng tính liên tục đến $X$ khi và chỉ khi, với mỗi $x \in X$, ảnh dưới $f$ của vết trên $A$ của lọc lân cận của $x$ trong $X$ là một cơ sở lọc Cauchy trong $X'$.
 
@@ -357,7 +357,7 @@ $$ tổng sau này là một hàm khả chỉnh trong một lân cận nào đó
 
 Khi $X$ cũng là một không gian đều, có định lý sau:
 
-#### Định lý 2 {#top-ii-s3-thm-2 .statement}
+#### Định lý 2 {#top-ii-s3-thm-2 .statement tag=0BF7}
 
 *Cho $f$ là một hàm được xác định trên một không gian con trù mật $A$ của một không gian đều $X$, nhận giá trị trong một không gian đều Hausdorff đầy đủ $X'$, và giả sử rằng $f$ liên tục đều trên $A$. Khi đó $f$ có thể được kéo dài ra toàn bộ $X$ nhờ tính liên tục, và hàm kéo dài $\overline{f}$ là liên tục đều.*
 
@@ -365,7 +365,7 @@ Sự tồn tại của $\overline{f}$ là một hệ quả ngay lập tức củ
 
 Q.E.D.
 
-#### Hệ quả {#top-ii-s3-n6-cor-1 .statement}
+#### Hệ quả {#top-ii-s3-n6-cor-1 .statement tag=0BF8}
 
 *Cho $X_1, X_2$ là hai không gian đều Hausdorff đầy đủ, và cho $Y_1, Y_2$ lần lượt là các không gian con trù mật của $X_1, X_2$. Khi đó mọi đẳng cấu $f$ của $Y_1$ lên $Y_2$ đều kéo dài thành một đẳng cấu của $X_1$ lên $X_2$.*
 
@@ -375,7 +375,7 @@ Cần lưu ý rằng nếu $f$ là một ánh xạ liên tục đều *song ánh
 
 ### 7. Sự hoàn chỉnh của một không gian đều
 
-#### Định lý 3 {#top-ii-s3-thm-3 .statement}
+#### Định lý 3 {#top-ii-s3-thm-3 .statement tag=0BF9}
 
 *Cho $X$ là một không gian đều. Khi đó tồn tại một không gian đều Hausdorff đầy đủ $\hat{X}$ và một ánh xạ liên tục đều $i : X \to \hat{X}$ có tính chất sau:*
 
@@ -426,13 +426,13 @@ Cho $g$ là mở rộng của $g_0$ bởi tính liên tục lên $\hat{X}$ (no. 
 
 Q.E.D.
 
-#### Định nghĩa 4 {#top-ii-s3-def-4 .statement}
+#### Định nghĩa 4 {#top-ii-s3-def-4 .statement tag=0BFA}
 
 *Không gian Hausdorff đầy đủ* $\hat{X}$ *được định nghĩa trong chứng minh của Định lý 3 được gọi là bù Hausdorff của* $X$, *và ánh xạ* $i : X \to \hat{X}$ *được gọi là ánh xạ chính tắc của* $X$ *vào bù Hausdorff của nó.*
 
 Ta cũng lưu ý các sự kiện sau:
 
-#### Mệnh đề 12 {#top-ii-s3-prop-12 .statement}
+#### Mệnh đề 12 {#top-ii-s3-prop-12 .statement tag=0BFB}
 
 (i) *Không gian con* $i(X)$ *trù mật trong* $\hat{X}$.
 (ii) *Đồ thị của quan hệ tương đương* $i(x) = i(x')$ *là giao của các lân cận của* $X$.
@@ -445,31 +445,31 @@ i(x) = i(x')
 $$
 theo định nghĩa có nghĩa là $x$ và $x'$ có cùng bộ lọc lân cận. Nhưng điều này suy ra, theo định nghĩa, rằng $(x, x') \in V$ với mọi lân cận $V$ của $X$, và chiều ngược lại hiển nhiên.
 
-#### Hệ quả {#top-ii-s3-n7-cor-1 .statement}
+#### Hệ quả {#top-ii-s3-n7-cor-1 .statement tag=0BFC}
 
 *Nếu* $X$ *là một không gian đều Hausdorff, thì ánh xạ chính tắc* $i : X \to \hat{X}$ *là một đẳng cấu của* $X$ *lên một không gian con trù mật của* $\hat{X}$.
 
 Khi $X$ là Hausdorff, $\hat{X}$ được gọi là *sự hoàn chỉnh* của $X$, và nói chung ta *đồng nhất* $X$ với một tập con trù mật của $\hat{X}$ bằng $i$.
 
-#### Nhận xét {#top-ii-s3-n7-rem-1 .statement}
+#### Nhận xét {#top-ii-s3-n7-rem-1 .statement tag=0BFD}
 
 Nếu sự đồng nhất này được thực hiện, thì các bộ lọc Cauchy cực tiểu trên X chỉ là các vết trên X của các bộ lọc lân cận của các điểm của $\hat{X}$; điều này suy ra từ chứng minh Định lý 3.
 
 Hệ quả của Mệnh đề 12 đặc trưng hóa sự hoàn chỉnh của một không gian đều Hausdorff:
 
-#### Mệnh đề 13 {#top-ii-s3-prop-13 .statement}
+#### Mệnh đề 13 {#top-ii-s3-prop-13 .statement tag=0BFE}
 
 *Nếu Y là một không gian đều Hausdorff đầy đủ và X là một không gian con trù mật của Y, thì đơn ánh chính tắc $X \to Y$ mở rộng thành một đẳng cấu của $\hat{X}$ lên Y.*
 
 Với mọi ánh xạ liên tục đều của X vào một không gian đều Hausdorff đầy đủ Z, theo Định lý 2 của no. 6, đều mở rộng duy nhất thành một ánh xạ liên tục đều của Y vào Z.
 
-#### Mệnh đề 14 {#top-ii-s3-prop-14 .statement}
+#### Mệnh đề 14 {#top-ii-s3-prop-14 .statement tag=0BFF}
 
 *Cho X là một không gian đều Hausdorff đầy đủ, $\mathfrak{U}$ là cấu trúc đều của nó, và cho Z là một không gian con trù mật của X. Nếu $\mathfrak{U}'$ là một cấu trúc đều trên X thô hơn $\mathfrak{U}$ và cảm sinh trên Z cùng một cấu trúc đều như $\mathfrak{U}$, thì $\mathfrak{U} = \mathfrak{U}'$.*
 
 Kí hiệu X' là tập hợp X với cấu trúc đều $\mathfrak{U}'$. Hợp thành của ánh xạ chính tắc $X' \to \hat{X}'$ và ánh xạ đồng nhất $X \to X'$ là một ánh xạ liên tục đều $\varphi : X \to \hat{X}'$. Vì Z là Hausdorff đối với cấu trúc đều cảm sinh bởi $\mathfrak{U}'$, nên hạn chế của $\varphi$ trên Z theo giả thiết là một đẳng cấu của Z lên không gian con trù mật $\varphi(Z)$ của $\hat{X}'$; suy ra (no. 6, Hệ quả của Định lý 2) rằng chính $\varphi$ là một đẳng cấu của X lên $\hat{X}'$, do đó $X' = \hat{X}'$ và $\mathfrak{U}' = \mathfrak{U}$.
 
-#### Mệnh đề 15 {#top-ii-s3-prop-15 .statement}
+#### Mệnh đề 15 {#top-ii-s3-prop-15 .statement tag=0BFG}
 
 *Cho X và X' là hai không gian đều. Với mỗi ánh xạ liên tục đều $f : X \to X'$ có một ánh xạ liên tục đều duy nhất $\hat{f} : \hat{X} \to \hat{X}'$ sao cho biểu đồ
 
@@ -485,7 +485,7 @@ giao hoán (*), trong đó $i : X \to \hat{X}$ và $i' : X' \to \hat{X}'$ là c�
 
 Áp dụng Định lý 3 cho hàm $i' \circ f : X \to \hat{X}'$.
 
-#### Hệ quả {#top-ii-s3-n7-cor-2 .statement}
+#### Hệ quả {#top-ii-s3-n7-cor-2 .statement tag=0BFH}
 
 *Nếu $f : X \to X'$ và $g : X' \to X''$ là hai ánh xạ liên tục đều và $h = g \circ f$, thì $\hat{h} = \hat{g} \circ \hat{f}$.*
 
@@ -495,7 +495,7 @@ giao hoán (*), trong đó $i : X \to \hat{X}$ và $i' : X' \to \hat{X}'$ là c�
 
 ### 8. KHÔNG GIAN ĐỀU HAUSDORFF LIÊN KẾT VỚI MỘT KHÔNG GIAN ĐỀU
 
-#### Mệnh đề 16 {#top-ii-s3-prop-16 .statement}
+#### Mệnh đề 16 {#top-ii-s3-prop-16 .statement tag=0BFI}
 
 Cho $X$ là một không gian đều và $i$ là ánh xạ chính tắc của $X$ vào sự hoàn thành Hausdorff $\hat{X}$. Với mỗi ánh xạ liên tục đều $f$ của $X$ vào một không gian đều Hausdorff $Y$, tồn tại một ánh xạ liên tục đều duy nhất $h : i(X) \to Y$ sao cho $f = h \circ i$.
 
@@ -503,13 +503,13 @@ Ta có thể đồng nhất $Y$ với một không gian con của sự hoàn th�
 
 Vì vậy cặp $(i, i(X))$ là nghiệm của một bài toán ánh xạ phổ quát (Lý thuyết tập hợp, Chương IV, § 3, no. 1), ở đây lần này ta lấy các $\Sigma$-tập hợp là các không gian đều Hausdorff, và các $\sigma$-đồng cấu (resp. $\alpha$-ánh xạ) là các ánh xạ liên tục đều (resp. các ánh xạ liên tục đều của $X$ vào một không gian đều Hausdorff).
 
-#### Định nghĩa 5 {#top-ii-s3-def-5 .statement}
+#### Định nghĩa 5 {#top-ii-s3-def-5 .statement tag=0BFJ}
 
 Không gian đều Hausdorff $i(X)$ được định nghĩa trong chứng minh của Định lý 3 được gọi là không gian đều Hausdorff liên kết với $X$.
 
 Sự hoàn thành Hausdorff của $X$ như vậy là sự hoàn thành của không gian đều Hausdorff liên kết với $X$.
 
-#### Hệ quả {#top-ii-s3-n8-cor-1 .statement}
+#### Hệ quả {#top-ii-s3-n8-cor-1 .statement tag=0BFK}
 
 Cho $X, Y$ là hai không gian đều và $X', Y'$ là các không gian Hausdorff liên kết. Với mỗi ánh xạ liên tục đều $f : X \to Y$ tồn tại một ánh xạ liên tục đều duy nhất $f' : X' \to Y'$ sao cho biểu đồ
 
@@ -527,13 +527,13 @@ là giao hoán, trong đó $i$ và $i'$ là các ánh xạ chính tắc.
 
 Không gian Hausdorff liên kết với một không gian đều cũng có thể được đặc trưng bởi tính chất sau đây:
 
-#### Mệnh đề 17 {#top-ii-s3-prop-17 .statement}
+#### Mệnh đề 17 {#top-ii-s3-prop-17 .statement tag=0BFL}
 
 Cho $X$ là một không gian đều, $i(X)$ là không gian Hausdorff liên kết của nó, và cho $f$ là một ánh xạ của $X$ lên một không gian đều Hausdorff $X'$, sao cho cấu trúc đều của $X$ là ảnh ngược qua $f$ của cấu trúc đều của $X'$. Khi đó ánh xạ $g : i(X) \to X'$ sao cho $f = g \circ i$ là một đẳng cấu.
 
 Theo Mệnh đề 16, $g$ là liên tục đều; đồng thời $g$ hiển nhiên là toàn ánh, và cũng là đơn ánh vì đẳng thức $f(x) = f(y)$ suy ra theo định nghĩa rằng $(x, y)$ thuộc mọi lân cận của $X$, và do đó $i(x) = i(y)$ (no. 7, Mệnh đề 12). Cuối cùng, các lân cận của $X'$ là các ảnh qua $f \times f$ của các lân cận của $X$ ($§ 2$, no. 4, Nhận xét), do đó chúng cũng là các ảnh qua $g \times g$ của các lân cận của $i(X)$ (no. 7, Mệnh đề 12); suy ra điều phải chứng minh.
 
-#### Nhận xét {#top-ii-s3-n8-rem-1 .statement}
+#### Nhận xét {#top-ii-s3-n8-rem-1 .statement tag=0BFM}
 
 Cho $R$ là quan hệ tương đương $i(x) = i(x')$ trên $X$. Ta đã thấy (no. 7, Mệnh đề 12) rằng đồ thị $C$ của $R$ là giao của mọi lân cận của $X$. Hiển nhiên mọi tập mở (và do đó mọi tập đóng) trong $X$ đều *bão hòa* đối với $R$; xét đến định nghĩa của ảnh ngược của một tôpô, ta kết luận rằng song ánh chính tắc của không gian thương $X/R$ lên $i(X)$ cảm sinh bởi $i$ là một *đồng phôi*. Không gian Hausdorff liên kết với $X$ vì thế có thể được đồng nhất, *với tư cách là* không gian tôpô, với $X/R$. Ánh xạ chính tắc $i : X \to i(X)$ là mở và đóng, và thậm chí là thực sự (Chương I, $§ 10$, no. 2, Ví dụ).
 
@@ -541,7 +541,7 @@ Cho $X'$ là một không gian đều khác, $C'$ là giao của mọi lân cậ
 
 ### 9. SỰ HOÀN THÀNH CỦA CÁC KHÔNG GIAN CON VÀ CÁC KHÔNG GIAN TÍCH
 
-#### Mệnh đề 18 {#top-ii-s3-prop-18 .statement}
+#### Mệnh đề 18 {#top-ii-s3-prop-18 .statement tag=0BFN}
 
 *Cho $X$ là một tập hợp, cho $(Y_\lambda)_{\lambda \in L}$ là một họ các không gian đều, và với mỗi $\lambda \in L$ cho $f_\lambda$ là một ánh xạ của $X$ vào $Y_\lambda$. Cho $X$ mang cấu trúc đều thô nhất $U$ sao cho mọi $f_\lambda$ đều liên tục đều. Khi đó cấu trúc đều của sự hoàn thành Hausdorff $\hat{X}$ của $X$ là cấu trúc đều thô nhất sao cho mọi ánh xạ $\hat{f}_\lambda : \hat{X} \to \hat{Y}_\lambda$ ($\lambda \in L$) (no. 7, mệnh đề 15) đều liên tục đều. Hơn nữa, nếu $j_\lambda$ là ánh xạ chính tắc của $Y_\lambda$ vào $\hat{Y}_\lambda$, và nếu $g_\lambda = j_\lambda \circ f_\lambda$, thì $\hat{X}$ có thể được đồng nhất với bao đóng trong $\prod_{\lambda \in L} \hat{Y}_\lambda$ của ảnh của $X$ dưới ánh xạ $x \to (g_\lambda(x))$.
 
@@ -561,11 +561,11 @@ Tính bắc cầu của các cấu trúc đều ban đầu (§ 2, no. 3, mệnh 
 
 Do đó, song ánh $x' \to (f'_\lambda(x'))$ đồng nhất $X$ với một không gian con đều của tích $\prod_\lambda Y'_\lambda$ (§ 2, no. 6, Mệnh đề 8). Vì các $Y'_\lambda$ là Hausdorff, nên mỗi $Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của phần hoàn thành $\hat{Y}_\lambda$ của nó, và do đó $\prod_\lambda Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của $\prod_\lambda \hat{Y}_\lambda$ (Chương I, § 4, no. 3, Mệnh đề 7). Nhưng $\prod_\lambda \hat{Y}_\lambda$ là Hausdorff và đầy đủ (no. 5, Mệnh đề 10); do đó, bao đóng $\overline{X'}$ của $X'$ trong $\prod_\lambda \hat{Y}_\lambda$ là một không gian con Hausdorff đầy đủ (no. 4, Mệnh đề 8) có thể được đồng nhất với phần hoàn thành Hausdorff $\hat{X}$ của $X$; dưới sự đồng nhất này, các ánh xạ $\hat{f}_\lambda$ trở thành các phép chiếu lên các thừa số $\hat{Y}_\lambda$, và mệnh đề được chứng minh.
 
-#### Hệ quả 1 {#top-ii-s3-prop-18-cor-1 .statement}
+#### Hệ quả 1 {#top-ii-s3-prop-18-cor-1 .statement tag=0BFO}
 
 *Cho $X$ là một không gian đều và cho $i$ là ánh xạ chính tắc của $X$ vào phần hoàn thành Hausdorff $\hat{X}$ của nó; cho $A$ là một không gian con của $X$ và $j : A \to X$ là đơn ánh chính tắc. Khi đó $\hat{j} : \hat{A} \to \hat{X}$ là một đẳng cấu từ $\hat{A}$ lên bao đóng của $i(A)$ trong $\hat{X}$.*
 
-#### Hệ quả 2 {#top-ii-s3-prop-18-cor-2 .statement}
+#### Hệ quả 2 {#top-ii-s3-prop-18-cor-2 .statement tag=0BFP}
 
 *Cho $(Y_\lambda)_{\lambda \in L}$ là một họ các không gian đều. Khi đó phần hoàn thành Hausdorff của không gian tích $\prod_{\lambda \in L} Y_\lambda$ đẳng cấu chính tắc với tích $\prod_{\lambda \in L} \hat{Y}_\lambda$.*
 

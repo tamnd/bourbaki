@@ -61,14 +61,14 @@ subsections:
       pdf_page: 193
 statements: 79
 exercises: 30
-content_sha256: a884e01bc9079fb672558918f88286f16f20cd9512c50a20e27c6df3e8959c1e
+content_sha256: 3b5e810e086ae5ed0fb3b0f106b25333088c6f327ee0cfc196e61afb7abd9879
 ---
 
 ## § 5. MEASURABLE FUNCTIONS AND SETS
 
 ### 1. Definition of measurable functions and sets
 
-#### Definition 1 {#int-iv-s5-def-1 .statement}
+#### Definition 1 {#int-iv-s5-def-1 .statement tag=08UC}
 
 *Let $X$ be a locally compact space, $\mu$ a measure on $X$. A mapping $f$ of $X$ into a topological space $F$ is said to be measurable for the measure $\mu$ (or to be $\mu$-measurable) if, for every compact subset $K$ of $X$, there exist a $\mu$-negligible set $N \subset K$ and a partition of $K - N$ formed by a sequence (finite or infinite) $(K_n)$ of compact sets, such that the restriction of $f$ to each $K_n$ is continuous.*
 
@@ -78,19 +78,19 @@ Note that if $\mu$ and $\nu$ are two measures on $X$ such that every $\mu$-negli
 
 Definition 1 may be transformed into the following criterion:
 
-#### Proposition 1 {#int-iv-s5-prop-1 .statement}
+#### Proposition 1 {#int-iv-s5-prop-1 .statement tag=08UD}
 
 *For a mapping $f$ of $X$ into $F$ to be measurable, it is necessary and sufficient that, for every compact set $K \subset X$ and every number $\varepsilon > 0$, there exist a compact set $K_1 \subset K$ such that $|\mu|(K - K_1) \leq \varepsilon$ and the restriction of $f$ to $K_1$ is continuous.*
 
 If this condition is fulfilled, we may define recursively a sequence of pairwise disjoint compact sets $K_n \subset K$ such that $|\mu|(K - \bigcup_{i=1}^n K_i) \leq 1/n$ and such that the restriction of $f$ to each $K_n$ is continuous ($§ 4$, No. 6, Th. 4); the complement with respect to $K$ of the union of the $K_n$ is then negligible ($§ 4$, No. 5, Cor. of Prop. 7), thus $f$ is measurable. Conversely, suppose there exist a negligible set $N \subset K$ and a partition $(K_n)$ of $K - N$ formed of compact sets such that the restriction of $f$ to each $K_n$ is continuous; for every $\varepsilon > 0$ there exists an integer $n$ such that, if $H = \bigcup_{i=1}^n K_i$, then $|\mu|(K - H) \leq \varepsilon$ (§ 4, No. 5, Cor. of Prop. 7); the set $H$ is compact, the $K_i$ ($1 \leq i \leq n$) form a finite partition of $H$ into compact sets, and the restriction of $f$ to each $K_i$ is continuous; therefore the restriction of $f$ to $H$ is continuous.
 
-#### Proposition 2 {#int-iv-s5-prop-2 .statement}
+#### Proposition 2 {#int-iv-s5-prop-2 .statement tag=08UE}
 
 *Let* $(F_n)$ *be a sequence of topological spaces and, for each* $n$, *let* $f_n$ *be a measurable mapping of* $X$ *into* $F_n$. *For every compact set* $K \subset X$ *and every* $\varepsilon > 0$, *there exists a compact set* $K_0 \subset K$ *such that* $|\mu|(K - K_0) \leq \varepsilon$ *and the restriction to* $K_0$ *of each of the functions* $f_n$ *is continuous*.
 
 For each integer $n \geq 1$ there exists a compact set $K_n \subset K$ such that $|\mu|(K - K_n) \leq \varepsilon / 2^n$ and the restriction of $f_n$ to $K_n$ is continuous. The set $K_0 = \bigcap_{n=1}^\infty K_n$ is compact, the restrictions to $K_0$ of all of the functions $f_n$ are continuous and, since $K - K_0$ is contained in the union of the $K - K_n$, $|\mu|(K - K_0) \leq \sum_{n=1}^\infty \varepsilon / 2^n = \varepsilon$.
 
-#### Definition 2 {#int-iv-s5-def-2 .statement}
+#### Definition 2 {#int-iv-s5-def-2 .statement tag=08UF}
 
 *A subset* $A$ *of* $X$ *is said to be measurable if its characteristic function* $\varphi_A$ *is measurable*.
 
@@ -98,19 +98,19 @@ In view of Def. 1, it comes to the same to say that a measurable set $A$ is a se
 
 This definition yields at once the following criterion:
 
-#### Proposition 3 {#int-iv-s5-prop-3 .statement}
+#### Proposition 3 {#int-iv-s5-prop-3 .statement tag=08UG}
 
 *For a set* $A$ *to be measurable, it is necessary and sufficient that, for every compact set* $K$, $A \cap K$ *be integrable*.
 
 The condition is necessary, because the union of a sequence of integrable sets $A_n$ is integrable when $\sum_n |\mu|(A_n)$ is finite (§ 4, No. 5, Cor. of Prop. 8). The condition is sufficient because, for every integrable set $B$, there exist a negligible set $N \subset B$ and a partition of $B - N$ into a sequence of compact sets (§ 4, No. 6, Cor. 2 of Th. 4).
 
-#### Corollary 1 {#int-iv-s5-prop-3-cor-1 .statement}
+#### Corollary 1 {#int-iv-s5-prop-3-cor-1 .statement tag=08UH}
 
 *The open sets and the closed sets are measurable*.
 
 In particular, the entire space $X$ is measurable.
 
-#### Corollary 2 {#int-iv-s5-prop-3-cor-2 .statement}
+#### Corollary 2 {#int-iv-s5-prop-3-cor-2 .statement tag=08UI}
 
 — *If X is metrizable, then every Souslin subset A of X* (GT, IX, §6, No. 2) *is μ-measurable for every measure μ on X*.
 
@@ -124,7 +124,7 @@ Then $|\mu|^*(U - K) = |\mu|(U) - |\mu|(K) \leq 2\varepsilon$, therefore $|\mu|^
 
 ### 2. Principle of localization. Locally negligible sets
 
-#### Proposition 4 (Principle of localization) {#int-iv-s5-prop-4 .statement}
+#### Proposition 4 (Principle of localization) {#int-iv-s5-prop-4 .statement tag=08UJ}
 
 — *Let f be a mapping of X into a topological space F. Suppose that for every $x \in X$, there exist an integrable neighborhood $V_x$ of x and a measurable mapping $g_x$ of X into F such that $f(y) = g_x(y)$ almost everywhere in $V_x$. Then f is measurable.*
 
@@ -132,31 +132,31 @@ Let K be a compact set; there exists a finite number of points $x_i \in K$ such 
 
 The concept of measurable function is therefore a concept of local character.
 
-#### Definition 3 {#int-iv-s5-def-3 .statement}
+#### Definition 3 {#int-iv-s5-def-3 .statement tag=08UK}
 
 — *A set $A \subset X$ is said to be locally negligible (for the measure $\mu$) if, for every $x \in X$, there exists a neighborhood $V$ of $x$ such that $V \cap A$ is negligible.*
 
 By the principle of localization, every locally negligible set is *measurable*. The properties of negligible sets (§2) show that every subset of a locally negligible set is locally negligible, and that every countable union of locally negligible sets is locally negligible.
 
-#### Proposition 5 {#int-iv-s5-prop-5 .statement}
+#### Proposition 5 {#int-iv-s5-prop-5 .statement tag=08UL}
 
 — *For a set A to be locally negligible, it is necessary and sufficient that, for every compact set K, $A \cap K$ be negligible.*
 
 The condition is obviously sufficient since every point of X has a compact neighborhood. It is necessary, because if, for every $x \in K$, there exists a neighborhood $V_x$ of $x$ such that $A \cap V_x$ is negligible, then there exists a finite number of points $x_i \in K$ such that the $V_{x_i}$ form a covering of K, and $A \cap K$ is contained in the union of the negligible sets $A \cap V_{x_i}$.
 
-#### Corollary 1 {#int-iv-s5-prop-5-cor-1 .statement}
+#### Corollary 1 {#int-iv-s5-prop-5-cor-1 .statement tag=08UM}
 
 — *For a set A to be negligible, it is necessary and sufficient that it be locally negligible and of finite outer measure.*
 
 The condition is obviously necessary. Conversely, if it is satisfied then A is contained in an integrable open set G, which is the union of a negligible set N and a sequence $(K_n)$ of compact sets (§ 4, No. 6, Cor. 2 of Th. 4); since $A \cap N$ and the sets $A \cap K_n$ are negligible, the same is true of their union A.
 
-#### Corollary 2 {#int-iv-s5-prop-5-cor-2 .statement}
+#### Corollary 2 {#int-iv-s5-prop-5-cor-2 .statement tag=08UN}
 
 — *Every locally negligible open set is negligible* (and is therefore contained in the complement of the support of $\mu$).
 
 For, the outer measure of an open set G is the supremum of the measures $|\mu|(K)$ of the compact sets $K \subset G$ (§ 4, No. 6, Cor. 4 of Th. 4); if G is locally negligible then $|\mu|(K) = 0$ for every compact set K contained in G, therefore $|\mu|^*(G) = 0$.
 
-#### Corollary 3 {#int-iv-s5-prop-5-cor-3 .statement}
+#### Corollary 3 {#int-iv-s5-prop-5-cor-3 .statement tag=08UO}
 
 — *In a locally compact space X that is countable at infinity, every locally negligible set is negligible.*
 
@@ -164,7 +164,7 @@ Since X is the union of a sequence $(K_n)$ of compact sets, every locally neglig
 
 One can give examples of locally compact spaces that are not countable at infinity, and of measures on such a space X such that there exist sets in X that are locally negligible but not negligible (§ 1, Exer. 5).
 
-#### Corollary 4 {#int-iv-s5-prop-5-cor-4 .statement}
+#### Corollary 4 {#int-iv-s5-prop-5-cor-4 .statement tag=08UP}
 
 — *Let f be a mapping of X into a topological space F. If the set N of points of discontinuity of f is locally negligible, then f is measurable.*
 
@@ -172,56 +172,56 @@ For every compact set $K \subset X$, $K \cap N$ is negligible (Prop. 5), therefo
 
 If $P\{x\}$ is a property, the property « *P\{x\} locally almost everywhere (with respect to $\mu$)» is by definition equivalent to the property «*the set of x such that* (x $\in$ X and not $P\{x\}$) *is locally negligible (for the measure* $\mu$)». If F is any set, the relation «$f(x) = g(x)$ locally almost everywhere» is an equivalence relation in the set of mappings of X into F. In particular, if F is a vector space, a mapping $f$ of X into F such that f(x) = 0\text{ locally almost everywhere is said to be } \textit{locally negligible}. We leave to the reader the task of establishing for these concepts most of the properties corresponding to those that have been enumerated in §2, Nos. 4, 5 and 6 for functions equal almost everywhere. We shall limit ourselves to observing that if two \emph{continuous} mappings $f, g$ of X into a Hausdorff topological space F are equal \emph{locally almost everywhere}, then they are equal \emph{almost everywhere} by virtue of Cor. 2 of Prop. 5 (hence are equal at every point of the support of $\mu$ (§ 2, No. 4, Prop. 9)); however, we state explicitly the following proposition, which is an immediate consequence of the principle of localization:
 
-#### Proposition 6 {#int-iv-s5-prop-6 .statement}
+#### Proposition 6 {#int-iv-s5-prop-6 .statement tag=08UQ}
 
 *Let $f$ be a measurable mapping of X into a topological space F. Every mapping of X into F, equal to $f$ locally almost everywhere, is measurable.*
 
 ### 3. Elementary properties of measurable functions
 
-#### Theorem 1 {#int-iv-s5-thm-1 .statement}
+#### Theorem 1 {#int-iv-s5-thm-1 .statement tag=08UR}
 
 *Let X be a locally compact space, $\mu$ a measure on X, $(F_n)$ a sequence of topological spaces, $F = \prod_n F_n$ their product. For each index n, let $f_n$ be a measurable mapping of X into $F_n$, and let $f(x) = (f_n(x)) \in F$; then, for every continuous mapping u of $f(X)$ into a topological space G, the function $x \mapsto u(f(x))$ is measurable.*
 
 For every compact subset K of X and every number $\varepsilon > 0$, there exists a compact set $K_1 \subset K$ such that $|\mu|(K - K_1) \leq \varepsilon$ and such that the restrictions to $K_1$ of all the functions $f_n$ are continuous (No. 1, Prop. 2); it is clear that $u \circ f$ is continuous on $K_1$, whence the theorem.
 
-#### Remark {#int-iv-s5-n3-rem-1 .statement}
+#### Remark {#int-iv-s5-n3-rem-1 .statement tag=08US}
 
 — 1) The theorem does not extend to an \emph{arbitrary} product of topological spaces (Exer. 1).
 2) If $f$ is a continuous mapping of X into itself, and $g$ is a measurable mapping of X into F, then $g \circ f$ is not necessarily measurable (Exer. 2).
 
-#### Corollary 1 {#int-iv-s5-thm-1-cor-1 .statement}
+#### Corollary 1 {#int-iv-s5-thm-1-cor-1 .statement tag=08UT}
 
 *The upper envelope and the lower envelope of a finite number of measurable numerical functions (finite or not) are measurable.*
 For, $\sup(u, v)$ and $\inf(u, v)$ are continuous on $\overline{\mathbf{R}} \times \overline{\mathbf{R}}$.
 
-#### Corollary 2 {#int-iv-s5-thm-1-cor-2 .statement}
+#### Corollary 2 {#int-iv-s5-thm-1-cor-2 .statement tag=08UU}
 
 *For a numerical function $f$ (finite or not) to be measurable, it is necessary and sufficient that $f^+$ and $f^-$ be measurable.*
 The condition is necessary by Cor. 1; it is sufficient because the image A of X in $\overline{\mathbf{R}} \times \overline{\mathbf{R}}$ under the mapping $x \mapsto (f^+(x), f^-(x))$ does not contain the points $(+\infty, +\infty)$ and $(-\infty, -\infty)$, consequently the mapping $(u, v) \mapsto u - v$ is continuous on A.
 
-#### Corollary 3 {#int-iv-s5-thm-1-cor-3 .statement}
+#### Corollary 3 {#int-iv-s5-thm-1-cor-3 .statement tag=08UV}
 
 — *If f and g are two measurable mappings of X into a topological vector space F, then f + g and αf are measurable (α any scalar).*
 
 The set of measurable mappings of X into a topological vector space F is thus a vector space.
 
-#### Corollary 4 {#int-iv-s5-thm-1-cor-4 .statement}
+#### Corollary 4 {#int-iv-s5-thm-1-cor-4 .statement tag=08UW}
 
 — *Let F be a vector space of dimension n over R and let (e_k)_{1 \leq k \leq n} be a basis of F. In order that a function f = \sum_{k=1}^{n} e_k f_k be measurable, it is necessary and sufficient that each of the numerical functions f_k be measurable.*
 
-#### Corollary 5 {#int-iv-s5-thm-1-cor-5 .statement}
+#### Corollary 5 {#int-iv-s5-thm-1-cor-5 .statement tag=08UX}
 
 — *Let F, G, H be three topological vector spaces, and let (u, v) \to [u \cdot v] be a continuous bilinear mapping of F \times G into H. If f is a measurable mapping of X into F, and g is a measurable mapping of X into G, then [f \cdot g] is a measurable mapping of X into H.*
 
 In particular, if f is a measurable mapping of X into a real (resp. complex) normed space F, and g is a measurable mapping of X into R (resp. C), then gf is measurable. If F is a *normed algebra* and f, g are two measurable mappings of X into F, then fg is measurable.
 
-#### Corollary 6 {#int-iv-s5-thm-1-cor-6 .statement}
+#### Corollary 6 {#int-iv-s5-thm-1-cor-6 .statement tag=08UY}
 
 — *If f is a measurable mapping of X into a normed space F, then the numerical function |f| is measurable.*
 
 ### 4. Limits of measurable functions
 
-#### Theorem 2 (Egoroff) {#int-iv-s5-thm-2 .statement}
+#### Theorem 2 (Egoroff) {#int-iv-s5-thm-2 .statement tag=08UZ}
 
 — *Let X be a locally compact space, μ a measure on X, A a countable set, $\mathfrak{F}$ a filter on A having a countable base, and $(f_\alpha)_{\alpha \in A}$ a family of measurable mappings of X into a metrizable space F. Assume that $\lim_{\mathfrak{F}} f_\alpha(x) = f(x)$ exists in the complement of a locally negligible subset N of X. Under these conditions,
 1° the function f (extended to N in any manner whatsoever) is measurable;
@@ -237,13 +237,13 @@ $$
 
 The conclusions of Th. 2 do not necessarily hold if $F$ is not metrizable (Exer. 1). If $F$ is metrizable, and the set $A$ is not countable but the filter $\mathfrak{F}$ has a countable base, then the first conclusion of Th. 2 is again valid; for, if $(A_n)$ is a countable base for $\mathfrak{F}$ and $\alpha_n$ is an element of $A_n$, then $f$ is the limit of the sequence $(f_{\alpha_n})$ locally almost everywhere, hence is measurable; however, the second conclusion of Th. 2 is no longer necessarily valid (cf. Exer. 4).
 
-#### Corollary 1 {#int-iv-s5-thm-2-cor-1 .statement}
+#### Corollary 1 {#int-iv-s5-thm-2-cor-1 .statement tag=08V0}
 
 — *Let* $(f_n)$ *be a sequence of numerical functions (finite or not)*. *If the* $f_n$ *are measurable, then the functions* $\sup_n f_n$, $\inf_n f_n$, $\limsup_{n \to \infty} f_n$ *and* $\liminf_{n \to \infty} f_n$ *are measurable*.
 
 For, the extended real line $\overline{\mathbf{R}}$, being homeomorphic to a compact interval of $\mathbf{R}$, is metrizable. The function $\sup_n f_n$ is the pointwise limit of the increasing sequence of functions $g_n = \sup(f_1, f_2, \ldots, f_n)$, which are measurable (No. 3, Cor. 1 of Th. 1); similarly, $\limsup_{n \to \infty} f_n$ is the pointwise limit of the decreasing sequence of functions $h_n = \sup_{p \geq 0} f_{n+p}$, each of which is measurable by the foregoing. Finally, since $\inf_n f_n = -\sup(-f_n)$ and $\liminf_{n \to \infty} f_n = -\limsup_{n \to \infty} (-f_n)$, these functions are measurable.
 
-#### Corollary 2 {#int-iv-s5-thm-2-cor-2 .statement}
+#### Corollary 2 {#int-iv-s5-thm-2-cor-2 .statement tag=08V1}
 
 — *The measurable sets in* $X$ *form a tribe* (GT, IX, §6, No. 3).
 
@@ -257,7 +257,7 @@ are measurable by No. 3, Cors. 3 and 5 of Th. 1. If $(M_n)$ is a sequence of mea
 
 In particular, since the open sets are measurable:
 
-#### Corollary 3 {#int-iv-s5-thm-2-cor-3 .statement}
+#### Corollary 3 {#int-iv-s5-thm-2-cor-3 .statement tag=08V2}
 
 *The Borel sets in X* (GT, IX, §6, No. 3, Def. 4) *are $\mu$-measurable for every measure $\mu$ on X*.
 
@@ -265,31 +265,31 @@ In particular, since the open sets are measurable:
 
 When F is a topological vector space, every step function over the measurable sets (§4, No. 9, Def. 4), with values in F, is obviously measurable (No. 3, Cor. 3 of Th. 1); such a function $f$ takes on only a finite number of values, and for every $y \in F$, $f^{-1}(y)$ is measurable. More generally, let F be any topological space, $f$ a mapping of X into F taking on only a finite number of distinct values $a_i$ ($1 \leq i \leq m$); if the sets $A_i = f^{-1}(a_i)$ are measurable, then the function $f$ is measurable. For, for every compact set K and for each of the sets $A_i \cap K$, there exist a negligible set $N_i \subset A_i \cap K$ and a partition of $A_i \cap K \cap C N_i$ formed by a sequence $(K_{in})$ of compact sets; since K is the union of the sets $A_i \cap K$ and the restriction of $f$ to each of the $K_{in}$ is constant, therefore continuous, $f$ is measurable. By an abuse of language we shall say that a mapping $f$ of X into F is a *measurable step function* if it takes on only a finite number of values and if, for every $y \in F$, $f^{-1}(y)$ is measurable.
 
-#### Theorem 3 {#int-iv-s5-thm-3 .statement}
+#### Theorem 3 {#int-iv-s5-thm-3 .statement tag=08V3}
 
 *For a mapping $f$ of X into a metrizable space F to be measurable, it is necessary and sufficient that, for every compact set $K \subset X$, there exist a sequence $(g_n)$ of measurable step functions, with values in F, such that $g_n(x)$ tends to $f(x)$ for almost every $x \in K$*.
 
 The condition is sufficient by Egoroff’s theorem and the principle of localization. Let us show that it is necessary: by hypothesis, there exist a negligible set $N \subset K$ and a partition $(K_m)$ of $K - N$ formed of compact sets such that the restriction of $f$ to each $K_m$ is continuous. To define the sequence $(g_n)$, it suffices to proceed in the following manner: let $d$ be a metric compatible with the topology of F; for each $K_i$ with index $i \leq n$, there exists a finite partition of $K_i$ into integrable sets $A_{ij}$ ($1 \leq j \leq q_i$) sufficiently small that the oscillation of $f$ on each of the $A_{ij}$ is $\leq 1/n$ (§ 4, No. 9, Lemma); take $g_n$ to be constant on each $A_{ij}$, equal to one of the values of $f$ in this set (for $1 \leq i \leq n,\ 1 \leq j \leq q_i$), and equal to a fixed element $a \in \mathbf{F}$ for every point of $X$ that does not belong to any of the $A_{ij}$. It is clear that the sequence $(g_n(x))$ converges to $f(x)$ at every point of $K$ not belonging to $N$.
 
-#### Corollary 1 {#int-iv-s5-thm-3-cor-1 .statement}
+#### Corollary 1 {#int-iv-s5-thm-3-cor-1 .statement tag=08V4}
 
 *Let $f$ be a measurable mapping of $X$ into a Banach space $F$; for every compact set $K \subset X$, there exists a sequence $(g_n)$ of measurable step functions, with supports contained in $K$, such that $|g_n(x)| \leq |f(x)|$ for all $x \in X$ and such that $g_n(x)$ tends to $f(x)$ for almost every $x \in K$.*
 
 With notations as in the proof of Th. 3, and denoting by $a_{ij}$ one of the values of $f$ in $A_{ij}$, it suffices to take, as the value of $g_n$ in $A_{ij}$, the point 0 if $|a_{ij}| \leq 1/n$ and the point $a_{ij}(1 - 1/(n|a_{ij}|))$ otherwise; finally, set $g_n(x) = 0$ on the complement of the union of the $A_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq q_i$).
 
-#### Corollary 2 {#int-iv-s5-thm-3-cor-2 .statement}
+#### Corollary 2 {#int-iv-s5-thm-3-cor-2 .statement tag=08V5}
 
 *Let $X$ be a locally compact space that is countable at infinity. If $f$ is a measurable mapping of $X$ into a metrizable space $F$, then there exists a sequence $(g_n)$ of measurable step functions, with values in $F$, such that $g_n(x)$ tends to $f(x)$ for almost every $x \in X$.*
 
 If $X$ is the union of an increasing sequence $(A_n)$ of compact sets, the sets $A_n - A_{n-1}$ that are nonempty form a partition of $X$ into integrable sets; consequently, there exist a negligible set $N \subset X$ and a partition of $\mathbf{C}N$ formed by a sequence $(K_n)$ of compact sets such that the restriction of $f$ to each $K_n$ is continuous; the proof can then be concluded as in Th. 3 without modification.
 
-#### Proposition 7 {#int-iv-s5-prop-7 .statement}
+#### Proposition 7 {#int-iv-s5-prop-7 .statement tag=08V6}
 
 *Let $f$ be a measurable mapping of $X$ into a topological space $F$; the inverse image under $f$ of every closed (resp. open) set in $F$ is measurable.*
 
 It suffices to carry out the proof for the inverse image $^{-1}f(A)$ of a closed set $A$ in $F$. Let $K$ be a compact subset of $X$; there exist a negligible set $N \subset K$ and a partition $(K_n)$ of $K - N$ formed of compact sets such that the restriction of $f$ to each $K_n$ is continuous. The intersection $K_n \cap ^{-1}f(A)$ is thus the inverse image of the closed set $A$ under the restriction of $f$ to $K_n$; it is therefore a closed set in $K_n$, hence is compact. The set $K \cap ^{-1}f(A)$ is therefore the union of the negligible set $N \cap ^{-1}f(A)$ and the compact sets $K_n \cap ^{-1}f(A)$, which proves that $^{-1}f(A)$ is measurable.
 
-#### Theorem 4 {#int-iv-s5-thm-4 .statement}
+#### Theorem 4 {#int-iv-s5-thm-4 .statement tag=08V7}
 
 — Let F be a metrizable space and let d be a metric on F compatible with the topology. For a mapping f of X into F to be measurable, it is necessary and sufficient that it satisfy the following two conditions:
 a) the inverse image under f of every closed ball of F is measurable;
@@ -305,21 +305,21 @@ $$
 
 the sets $B_{n,p}$ are measurable, and those that are nonempty form a partition of $K - N$. Let $g_{m,p}$ be the function equal to $a_i$ on the set $B_{i,p}$ for $1 \leq i \leq m$ and equal to a constant $b \in F$ on the complement of the union of these sets; $g_{m,p}$ is a measurable step function; as $m$ tends to infinity, $g_{m,p}$ converges pointwise to the function $f_p$ equal to $a_n$ on $B_{n,p}$ ($n \geq 1$) and to $b$ on $N \cup C K$, therefore (Th. 2) $f_p$ is measurable. As $p$ tends to infinity, $f_p(x)$ tends to $f(x)$ for every $x \in K - N$, and to $b$ for $x \in N \cup C K$; the limit of the $f_p$ is therefore measurable, and the principle of localization proves that $f$ itself is measurable.
 
-#### Remark 1 {#int-iv-s5-n5-rem-1 .statement}
+#### Remark 1 {#int-iv-s5-n5-rem-1 .statement tag=08V8}
 
 Condition a) alone is not sufficient for $f$ to be measurable (Exer. 7).
 
-#### Remark 2 {#int-iv-s5-n5-rem-2 .statement}
+#### Remark 2 {#int-iv-s5-n5-rem-2 .statement tag=08V9}
 
 If the topology of F has a countable base then condition b) of Th. 4 is automatically satisfied for every mapping of X into F. The proof shows, moreover, that it suffices to assume that the inverse images under $f$ of the closed balls with rational radii, whose centers belong to a dense countable subset of F, are measurable sets.
 
-#### Remark 3 {#int-iv-s5-n5-rem-3 .statement}
+#### Remark 3 {#int-iv-s5-n5-rem-3 .statement tag=08VA}
 
 The hypothesis a) can be replaced by the condition that the inverse image under $f$ of every open ball of F is measurable.
 
 The case of numerical functions (finite or not) deserves special mention:
 
-#### Proposition 8 {#int-iv-s5-prop-8 .statement}
+#### Proposition 8 {#int-iv-s5-prop-8 .statement tag=08VB}
 
 — Let D be a countable dense subset of $\mathbf{R}$. In order that a numerical function $f$ (finite or not) be measurable, it is sufficient (and necessary) that for every $a \in D$, the set of $x \in X$ such that $f(x) \geq a$ be measurable.
 
@@ -327,7 +327,7 @@ For, if this is so, for every $b \in \overline{\mathbf{R}}$ the set of $x$ such 
 
 One could show similarly that it suffices that for every $a \in \mathrm{D}$, the set of $x$ such that $f(x) > a$ be measurable.
 
-#### Corollary {#int-iv-s5-n5-cor-1 .statement}
+#### Corollary {#int-iv-s5-n5-cor-1 .statement tag=08VC}
 
 — *Every lower* (resp. *upper*) *semi-continuous function is measurable*.
 
@@ -335,13 +335,13 @@ For, if $f$ is lower semi-continuous, then the set of $x \in \mathrm{X}$ such th
 
 When F is metrizable and *compact*, Prop. 7 makes it possible to sharpen Th. 3 as follows:
 
-#### Proposition 9 {#int-iv-s5-prop-9 .statement}
+#### Proposition 9 {#int-iv-s5-prop-9 .statement tag=08VD}
 
 — *If F is a metrizable compact space, then every measurable mapping f of X into F is the uniform limit (on all of X) of a sequence of measurable step functions*.
 
 Let $d$ be a metric compatible with the topology of F. For every positive integer $n$ there exists a *finite* number of points $a_k \in \mathrm{F}$ such that the closed balls $B_k$ with center $a_k$ and radius $1/n$ form a covering of F; the sets $A_k = f^{-1}(B_k)$ are therefore measurable (Prop. 7) and form a covering of X. Consequently (§ 4, No. 9, Lemma) there exists a partition $(C_i)$ of X into a finite number of measurable sets such that each $A_k$ is the union of certain of the $C_i$. Let $c_i$ be a point of $C_i$ and let $g_n$ be the measurable step function equal to $f(c_i)$ on $C_i$ (for each index $i$). It is clear that $d(f(x), g_n(x)) \leqslant 2/n$ for all $x \in \mathrm{X}$.
 
-#### Proposition 10 {#int-iv-s5-prop-10 .statement}
+#### Proposition 10 {#int-iv-s5-prop-10 .statement tag=08VE}
 
 — *Let F be a separable Banach space, F' its dual, and $(\mathbf{a}'_n)$ a weakly dense sequence in the unit ball of F' (TVS, III, § 3, No. 4, Cor. 2 of Prop. 6).*¹ *For a mapping f of X into F to be measurable, it is necessary and sufficient that for every n the scalar function $x \mapsto \langle \mathbf{f}(x), \mathbf{a}'_n \rangle$ be measurable*.
 
@@ -363,7 +363,7 @@ $$
 
 as these sets are measurable by hypothesis, $A$ is measurable.
 
-#### Corollary 1 {#int-iv-s5-prop-10-cor-1 .statement}
+#### Corollary 1 {#int-iv-s5-prop-10-cor-1 .statement tag=08VF}
 
 *Let F be a Banach space. In order that a mapping f of X into F be measurable, it is necessary and sufficient that it satisfy the following two conditions:*
 
@@ -373,13 +373,13 @@ b) *for every compact set $K \subset X$, there exists a countable subset H of F 
 
 The necessity of the conditions follows from No. 3, Th. 1, and Th. 4. To prove that the conditions are sufficient, it again suffices to verify condition a) of Th. 4. With notations as in the proof of Prop. 10, we may (on account of b)) suppose, after modifying $f$ if necessary on a negligible set, that $f(K) \subset \overline{H}$, where $H$ is a countable subset of $F$. If $V$ is the closed linear subspace of $F$ generated by the set $H \cup \{a\}$, then $V$ is a separable Banach space and every continuous linear form on $V$ is the restriction of a form $a' \in F'$; the same reasoning as in Prop. 10 then shows that $K \cap f^{-1}(B)$ is measurable.
 
-#### Corollary 2 {#int-iv-s5-prop-10-cor-2 .statement}
+#### Corollary 2 {#int-iv-s5-prop-10-cor-2 .statement tag=08VG}
 
 *Let F be a locally convex space that is metrizable and separable, and let $F'$ be its dual. For a mapping f of X into F to be measurable, it is necessary and sufficient that for every $a' \in F'$, the scalar function $x \mapsto \langle f(x), a' \rangle$ be measurable.*
 
 We may regard F as a subspace of a countable product $\prod_n E_n$ of Banach spaces (TVS, II, §4, No. 3), and we can suppose that $\operatorname{pr}_n(F)$ is dense in $E_n$, which is therefore separable. For every $n$, the mapping $\operatorname{pr}_n \circ f$ is then measurable by Prop. 10, therefore $f$ is measurable by No. 3, Th. 1.
 
-#### Proposition 11 {#int-iv-s5-prop-11 .statement}
+#### Proposition 11 {#int-iv-s5-prop-11 .statement tag=08VH}
 
 *Let F be a locally convex space that is the direct limit of a sequence of separable metrizable locally convex spaces $F_n$, F being the union of the $F_n$. Let $F'$ be the dual of F, equipped with the weak topology $\sigma(F', F)$. For a mapping f of X into $F'$ to be measurable, it is necessary and sufficient that, for every $a \in F$, the scalar function $x \mapsto \langle a, f(x) \rangle$ be measurable.*
 
@@ -389,7 +389,7 @@ Let us pass to the general case. If $z'$ is a continuous linear form on F, its r
 
 ### 6. Criteria for integrability
 
-#### Theorem 5 {#int-iv-s5-thm-5 .statement}
+#### Theorem 5 {#int-iv-s5-thm-5 .statement tag=08VI}
 
 — In order that a mapping f of X into a Banach space F be p-th power integrable ($1 \leq p < +\infty$), it is necessary and sufficient that f be measurable and that $N_p(f)$ be finite.
 
@@ -397,7 +397,7 @@ The condition is necessary: for, if $f \in \mathscr{L}_F^p$ then there exists a 
 
 To prove that the conditions are sufficient, we first establish a lemma:
 
-#### Lemma 1 {#int-iv-s5-lem-1 .statement}
+#### Lemma 1 {#int-iv-s5-lem-1 .statement tag=08VJ}
 
 *Let g be a function with values in F, such that N_p(g) < +\infty* (in other words, a function in $\mathscr{F}_F^p$). *The set A of points x \in X such that g(x) \neq 0 is contained in the union of a negligible set and a sequence of compact sets.*
 
@@ -409,17 +409,17 @@ In the general case, it follows from Lemma 1 that there exists an increasing seq
 
 One should take care to note that a function that is *locally negligible but not negligible* is not integrable; thus, a function equal *locally almost everywhere* to an integrable function is not necessarily integrable.
 
-#### Corollary 1 {#int-iv-s5-lem-1-cor-1 .statement}
+#### Corollary 1 {#int-iv-s5-lem-1-cor-1 .statement tag=08VK}
 
 *For a set to be integrable, it is necessary and sufficient that it be measurable and have finite outer measure.*
 
-#### Corollary 2 {#int-iv-s5-lem-1-cor-2 .statement}
+#### Corollary 2 {#int-iv-s5-lem-1-cor-2 .statement tag=08VL}
 
 *Let $(F_n)$ be a sequence of topological spaces; for every index n, let $f_n$ be a measurable mapping of X into $F_n$ and let $f(x) = (f_n(x)) \in F = \prod_n F_n$; finally, let u be a continuous mapping of $f(X)$ into a Banach space G. For the function $g(x) = u(f(x))$ to be integrable, it is necessary and sufficient that $N_1(g) < +\infty$.*
 
 For, g is measurable (No. 3, Th. 1).
 
-#### Corollary 3 {#int-iv-s5-lem-1-cor-3 .statement}
+#### Corollary 3 {#int-iv-s5-lem-1-cor-3 .statement tag=08VM}
 
 *For every integrable function f and every measurable set A, the function $f \varphi_A$ is integrable.*
 
@@ -427,7 +427,7 @@ For, it follows from Th. 5 and No. 3, Cor. 5 of Th. 1 that $f \varphi_A$ is meas
 
 We write $\int_A f d\mu = \int f \varphi_A d\mu$ (or $\int_A f \mu$) for every integrable function $f$ and every measurable set $A$. We also write $\int^* f d|\mu|$ (or $\int^*_A f |\mu|$) in place of $\int^* f \varphi_A d|\mu|$ for every numerical function (finite or not) $f \geqslant 0$ (on setting $f(x)\varphi_A(x) = 0$ if $f(x) = +\infty$ and $\varphi_A(x) = 0$).
 
-#### Corollary 4 {#int-iv-s5-lem-1-cor-4 .statement}
+#### Corollary 4 {#int-iv-s5-lem-1-cor-4 .statement tag=08VN}
 
 *For every sequence* $(f_n)$ *of measurable functions* $\geqslant 0$ *on* $X$,
 
@@ -443,7 +443,7 @@ $$
 
 This is nothing more than the additivity of the integral when $f$ and $g$ are integrable. In the contrary case, if for example $f$ is not integrable, then $\int^* f d|\mu| = +\infty$ by Th. 5; *a fortiori*, $\int^*(f + g) d|\mu| = +\infty$.
 
-#### Corollary 5 {#int-iv-s5-lem-1-cor-5 .statement}
+#### Corollary 5 {#int-iv-s5-lem-1-cor-5 .statement tag=08VO}
 
 *For every sequence* $(A_n)$ *of pairwise disjoint measurable sets*,
 
@@ -457,7 +457,7 @@ This follows from Cor. 4 applied to the $\varphi_{A_n}$.
 
 Let $X$ be a locally compact space, $\mu$ a measure on $X$, and $Y$ a *locally compact subspace* of $X$. Since $Y$ is the intersection of an open set and a closed set in $X$ (GT, I, §9, No. 7, Prop. 12), it is $\mu$-measurable (No. 1, Cor. of Prop. 3). For every function $g \in \mathscr{H}(Y; \mathbf{C})$ let $g'$ be the function, defined on all of $X$, equal to $g$ on $Y$ and to 0 on $X - Y$; let us show that $g'$ is $\mu$-*integrable*. We can restrict ourselves to the case that $g$ is real and $\geqslant 0$ (on writing $g$ as a linear combination of such functions); since $g'$ is bounded and has compact support, it suffices to show that $g'$ is $\mu$-measurable (No. 6, Th. 5); but this follows from the fact that $g'$ is upper semi-continuous on $X$ (No. 5, Cor. of Prop. 8). We may therefore make the following definition:
 
-#### Definition 4 {#int-iv-s5-def-4 .statement}
+#### Definition 4 {#int-iv-s5-def-4 .statement tag=08VP}
 
 — *Given a locally compact subspace Y of a locally compact space X, we call measure induced on Y by a measure $\mu$ on X, and denote by $\mu_Y$ or $\mu|Y$, the measure defined by the formula*
 
@@ -467,7 +467,7 @@ $$
 
 *for every function $g \in \mathscr{K}(Y; \mathbf{C})$, where $g'$ denotes the function equal to $g$ on $Y$ and to 0 on $X - Y$.*
 
-#### Example {#int-iv-s5-n7-exa-1 .statement}
+#### Example {#int-iv-s5-n7-exa-1 .statement tag=08VQ}
 
 — Let $\mu$ be Lebesgue measure on $\mathbf{R}$, I *any* interval in $\mathbf{R}$; I is a locally compact subspace of $\mathbf{R}$, and the measure induced by $\mu$ on I is the linear form
 
@@ -481,7 +481,7 @@ When Y is an *open* subspace of X, Def. 4 coincides with the definition of the m
 
 We shall study integration with respect to an induced measure in detail in Ch. V, §7, and until then we shall need only the following results:
 
-#### Lemma 2 {#int-iv-s5-lem-2 .statement}
+#### Lemma 2 {#int-iv-s5-lem-2 .statement tag=08VR}
 
 — *Let $\mu$ be a positive measure on X, and let K be a compact subset of X.*
 
@@ -503,7 +503,7 @@ by (1).
 
 (iii) For every open set U in K that intersects S, by hypothesis $\mu_K(U \cap S) \neq 0$, therefore $\mu(U \cap S) \neq 0$ by (i), and since $U \cap S$ is open in S, $\mu_S(U \cap S) \neq 0$ by (i); since every nonempty open set in S is of the form $U \cap S$, where U is open in K, this proves that $\operatorname{Supp}(\mu_S) = S$.
 
-#### Lemma 3 {#int-iv-s5-lem-3 .statement}
+#### Lemma 3 {#int-iv-s5-lem-3 .statement tag=08VS}
 
 *Let Y be a locally compact subspace of X; for every measure $\mu$ on X, $|\mu_Y| = |\mu|_Y$.*
 
@@ -541,7 +541,7 @@ and since $\varepsilon$ is arbitrary, $|\mu|_Y(f) \leq |\mu_Y|(f)$, which comple
 
 ### 8. $\mu$-dense families of compact sets
 
-#### Proposition 12 {#int-iv-s5-prop-12 .statement}
+#### Proposition 12 {#int-iv-s5-prop-12 .statement tag=08VT}
 
 — Let $\mu$ be a measure on a locally compact space $X$, $A$ a $\mu$-measurable subset of $X$, and $\mathscr{K}$ a set of compact subsets of $A$ satisfying the following conditions:
 (PLI) Every closed (hence compact) subset of a set of $\mathscr{K}$ belongs to $\mathscr{K}$.
@@ -562,7 +562,7 @@ $$
 
 But $L_n \cup H$ belongs to $\mathscr{K}$ by (PLII), and this contradicts the definition of $\alpha$.
 
-#### Definition 6 {#int-iv-s5-def-6 .statement}
+#### Definition 6 {#int-iv-s5-def-6 .statement tag=08VU}
 
 — Let $A$ be a $\mu$-measurable subset of $X$. A set $\mathscr{K}$ of compact subsets of $A$ is said to be $\mu$-dense in $A$ if it satisfies the conditions (PLI), (PLII), $a), b), c), d)$ of Prop. 12.
 
@@ -570,13 +570,13 @@ The set of *all* compact subsets of $A$ is $\mu$-dense in $A$.
 
 When $A = X$, we shall say simply ' $\mu$-dense set' in place of 'set $\mu$-dense in $X$'. If $X - A$ is locally $\mu$-negligible, then every set of compact subsets of $A$ that is $\mu$-dense in $A$ is also $\mu$-dense in $X$.
 
-#### Remark {#int-iv-s5-n8-rem-1 .statement}
+#### Remark {#int-iv-s5-n8-rem-1 .statement tag=08VV}
 
 — Suppose that $A$ is the union of a sequence $(L_n)$ of compact sets and a $\mu$-negligible (resp. locally $\mu$-negligible) set, and let $\mathscr{K}$ be a set of compact subsets that is $\mu$-dense in $A$. Applying to each $L_n$ the property *c*) of the statement of Prop. 12, we see that $A$ is the union a sequence of compact sets *belonging to* $\mathscr{K}$ and a $\mu$-negligible (resp. locally $\mu$-negligible) set.
 
 If $K$ is a compact subset of $X$, it comes to the same to say that a set of compact subsets of $K$ is $\mu$-dense in $K$ or that it is $\mu_K$-*dense* in $K$; this follows from Lemmas 2 and 3 of No. 7 and condition *b*) of Prop. 12.
 
-#### Proposition 13 {#int-iv-s5-prop-13 .statement}
+#### Proposition 13 {#int-iv-s5-prop-13 .statement tag=08VW}
 
 *Let $A$ be a $\mu$-measurable subset of $X$, $\mathscr{K}$ a set of compact subsets that is $\mu$-dense in $A$. Let $\mathfrak{H}$ be a set of compact subsets of $A$ satisfying (PL$_I$) and (PL$_{II}$) and such that, for every $K \in \mathscr{K}$, the set of $H \in \mathfrak{H}$ such that $H \subset K$ is $\mu_K$-*dense* (or, what amounts to the same, $\mu$-*dense*) in $K$. Then $\mathfrak{H}$ is $\mu$-dense in $A$.*
 
@@ -584,7 +584,7 @@ For, let $L$ be a compact subset of $A$. For every $\varepsilon > 0$ there exist
 
 ### 9. Locally countable partitions
 
-#### Definition 7 {#int-iv-s5-def-7 .statement}
+#### Definition 7 {#int-iv-s5-def-7 .statement tag=08VX}
 
 *A set $\mathfrak{A}$ of subsets of a topological space $T$ is said to be *locally countable* if, for every $t \in T$, there exists a neighborhood $V$ of $t$ such that the set of $A \in \mathfrak{A}$ that intersect $V$ is countable.*
 
@@ -592,7 +592,7 @@ If the set $\mathfrak{A}$ of subsets of $T$ is locally countable then, for every
 
 Def. 7 shows that the *union* of a locally countable set of $\mu$-measurable (resp. locally $\mu$-negligible) subsets of a locally compact space is $\mu$-measurable (resp. locally $\mu$-negligible) (No. 1, Prop. 3 and No. 2, Prop. 5).
 
-#### Proposition 14 {#int-iv-s5-prop-14 .statement}
+#### Proposition 14 {#int-iv-s5-prop-14 .statement tag=08VY}
 
 *Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $\mathscr{K}$ a set of compact subsets of $A$ that is $\mu$-dense in $A$. There exists a locally countable set $\mathfrak{H} \subset \mathscr{K}$, formed of pairwise disjoint sets, such that $A - \bigcup_{K \in \mathfrak{H}} K$ is locally $\mu$-negligible and such that, for every $K \in \mathfrak{H}$, the support of $\mu_K$ is all of $K$.*
 
@@ -612,7 +612,7 @@ and since $|\mu|(K \cap V) > 0$ for every $K \in \mathfrak{H}_V$, $\mathfrak{H}_
 
 ### 10. Measurable functions defined on a measurable subset
 
-#### Proposition 15 {#int-iv-s5-prop-15 .statement}
+#### Proposition 15 {#int-iv-s5-prop-15 .statement tag=08VZ}
 
 *Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $f$ a mapping of $A$ into a topological space $F$. The following conditions are equivalent:
 
@@ -632,25 +632,25 @@ $$
 
 On the other hand, there exists a set $H \in \mathscr{H}$ contained in $P$ such that $|\mu|(P - H) \leq \varepsilon/2$; the restriction of $g$ to the compact set $K = H \cup Q$ is then continuous ($g$ being constant on $Q$) and $|\mu|(L - K) \leq \varepsilon$, which completes the proof.
 
-#### Definition 8 {#int-iv-s5-def-8 .statement}
+#### Definition 8 {#int-iv-s5-def-8 .statement tag=08W0}
 
 *Let $X$ be a locally compact space, $\mu$ a measure on $X$, and $A$ a $\mu$-measurable subset of $X$. A mapping $f$ of $A$ into a topological space $F$ is said to be $\mu$-measurable if it satisfies the equivalent conditions of Prop. 15.*
 
 If $A$ is locally $\mu$-negligible, then *every* mapping of $A$ into $F$ is therefore $\mu$-measurable.
 
-#### Corollary 1 {#int-iv-s5-def-8-cor-1 .statement}
+#### Corollary 1 {#int-iv-s5-def-8-cor-1 .statement tag=08W1}
 
 *Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $f$ a $\mu$-measurable mapping of $A$ into a topological space $F$. Let $\mathscr{K}$ be a set of compact subsets of $X$, $\mu$-dense in $X$. Then, there exists a partition of $A$ formed by a locally negligible set $N$ and a locally countable family $(K_\lambda)_{\lambda \in L}$ of sets $K_\lambda \in \mathscr{K}$, such that $f|K_\lambda$ is continuous for every $\lambda \in L$.
 
 In view of No. 9, Prop. 14, it suffices to show that the set $\mathscr{H} \subset \mathscr{K}$ of subsets $K \in \mathscr{K}$ such that $K \subset A$ and $f|K$ is continuous, is $\mu$-dense in $A$. Now, it follows at once from Prop. 1 of No. 1 and condition d) of Prop. 15 that, for every compact subset $K_0$ of $A$ and every $\varepsilon > 0$, there exists a subset $K \subset K_0$ belonging to $\mathscr{K}$ such that $|\mu|(K_0 - K) \leq \varepsilon$ and $f|K$ is continuous; the conclusion therefore follows from Prop. 12 of No. 8.
 
-#### Corollary 2 {#int-iv-s5-def-8-cor-2 .statement}
+#### Corollary 2 {#int-iv-s5-def-8-cor-2 .statement tag=08W2}
 
 *Let $K$ be a compact subspace of $X$; in order that a mapping $f$ of $K$ into a topological space $F$ be $\mu$-measurable, it is necessary and sufficient that it be $\mu_K$-measurable.*
 
 In view of Lemma 2 of No. 7, this follows at once from Prop. 1 of No. 1 and condition a) of Prop. 15.
 
-#### Proposition 16 {#int-iv-s5-prop-16 .statement}
+#### Proposition 16 {#int-iv-s5-prop-16 .statement tag=08W3}
 
 *Let $\mathfrak{A}$ be a locally countable set of $\mu$-measurable subsets of $X$ and let $B = \bigcup_{A \in \mathfrak{A}} A$. For a mapping $f$ of $B$ into a topological space $F$ to be $\mu$-measurable, it is necessary and sufficient that the restriction of $f$ to every $A \in \mathfrak{A}$ be $\mu$-measurable.*
 
@@ -678,7 +678,7 @@ $$
 
 Note that as $K$ runs over a $\mu$-dense set $\mathfrak{K}$ of *compact* subsets of $A$, the sets $W(V, K, \delta)$ also form a fundamental system of entourages for the preceding uniform structure: for, for every integrable set $B \subset A$, there exists a compact set $K \in \mathfrak{K}$ contained in $B$ such that $|\mu|(B - K) \leq \delta$, and therefore $W(V, K, \delta) \subset W(V, B, 2\delta)$.
 
-#### Definition 9 {#int-iv-s5-def-9 .statement}
+#### Definition 9 {#int-iv-s5-def-9 .statement tag=08W4}
 
 *The uniform structure on $\mathscr{S}(A, \mu; F)$ of which the $W(V, B, \delta)$ form a fundamental system of entourages is called the uniform structure of convergence in measure in $A$.*.
 
@@ -688,7 +688,7 @@ Suppose $F$ is *Hausdorff*; then, for every $\mu$-integrable set $B \subset A$, 
 
 From this it follows that if $F$ is Hausdorff, then the intersection of *all* the entourages of $\mathscr{S}(A, \mu; F)$ is the set of pairs $(f, g)$ such that $f(x) = g(x)$ *locally almost everywhere in $A$*. The Hausdorff uniform space associated with $\mathscr{S}(A, \mu; F)$, which we shall denote $S(A, \mu; F)$ or $S_F(A, \mu)$ (or even $S_F(\mu)$ or $S_F$ when $A = X$), therefore consists of the *equivalence classes* for the relation « $f(x) = g(x)$ locally almost everywhere in $A$ » in the set $\mathscr{S}(A, \mu; F)$.
 
-#### Proposition 17 {#int-iv-s5-prop-17 .statement}
+#### Proposition 17 {#int-iv-s5-prop-17 .statement tag=08W5}
 
 — Let $(A_\lambda)_{\lambda \in L}$ be a locally countable family of $\mu$-measurable subsets of $A$, pairwise disjoint and such that $A - \bigcup_{\lambda \in L} A_\lambda$ is locally $\mu$-negligible. If, for every class $f \in S(A, \mu; F)$ and every $\lambda \in L$, $f_\lambda$ denotes the class of the restriction to $A_\lambda$ of any of the functions in the class $f$, then the mapping $\psi : f \mapsto (f_\lambda)_{\lambda \in L}$ is an isomorphism of the uniform space $S(A, \mu; F)$ onto the product uniform space $\prod_{\lambda \in L} S(A_\lambda, \mu; F)$.
 
@@ -700,13 +700,13 @@ $$
 
 The image of $T$ under $\psi \times \psi$ is then contained in the canonical image of the product $\prod_{\lambda \in H} W(V, B \cap A_\lambda, \delta)$. On the other hand, if $m$ is the number of elements of $H$, then the image of $T$ under $\psi \times \psi$ contains the canonical image of the entourage $\prod_{\lambda \in H} W(V, A_\lambda, \delta/2m)$, which proves the proposition.
 
-#### Proposition 18 {#int-iv-s5-prop-18 .statement}
+#### Proposition 18 {#int-iv-s5-prop-18 .statement tag=08W6}
 
 — *If $F$ is metrizable, and $A$ is the union of a locally $\mu$-negligible set and a sequence $(A_n)$ of $\mu$-integrable sets, then the space $S(A, \mu; F)$ is metrizable.*
 
 Since each $A_n$ is the union of a negligible set and a sequence of compact sets, we can suppose that the $A_n$ are already *compact* and pairwise disjoint. Prop. 17 then allows us to suppose that $A$ is compact. If $(V_n)$ is a countable fundamental system of entourages of $F$, it is clear that the $W(V_n, A, 1/n)$ form a fundamental system of entourages of $S(A, \mu; F)$ as $n$ runs over $\mathbf{N}$, whence the proposition.
 
-#### Lemma 4 {#int-iv-s5-lem-4 .statement}
+#### Lemma 4 {#int-iv-s5-lem-4 .statement tag=08W7}
 
 — *Let $F$ be a metrizable uniform space, and let $B \subset A$ be a countable union of $\mu$-integrable sets. Then, for every Cauchy sequence $(f_n)$ in $S(A, \mu; F)$, there exists a subsequence $(f_{n_k})$ of $(f_n)$ such that $(f_{n_k}(x))$ is a Cauchy sequence in $F$ for almost every $x \in B$.*
 
@@ -722,7 +722,7 @@ and, for every $x \in B - M_m$, we have $d(f_{mn}(x), f_{m,n+p}(x)) \leq 1/2^{m+
 
 If now $B$ is the union of a sequence $(B_m)$ of integrable sets, one can define recursively a double sequence $(g_{mn})$ such that $g_{0n} = f_n$, $(g_{mn})_{n \geq 0}$ is a subsequence of $(g_{m-1,n})_{n \geq 0}$ for every $m > 0$, and such that the sequence $(g_{mn}(x))_{n \geq 0}$ is a Cauchy sequence in $B_m - P_m$, where $P_m$ is negligible. Set $h_n = g_{nn}$ for every $n \geq 0$, so that, for every $m$, the sequence $(h_n)_{n \geq m}$ is a subsequence of $(g_{mn})_{n \geq 0}$; the sequence $(h_n(x))_{n \geq 0}$ is then a Cauchy sequence in $F$ for every $x \in B - P$, where $P = \bigcup_{m=0}^{\infty} P_m$ is negligible.
 
-#### Proposition 19 {#int-iv-s5-prop-19 .statement}
+#### Proposition 19 {#int-iv-s5-prop-19 .statement tag=08W8}
 
 *If the uniform space $F$ is metrizable and complete, then the uniform space $S(A, \mu; F)$ is complete.*
 
@@ -730,7 +730,7 @@ There exists a locally countable family $(K_{\lambda})_{\lambda \in L}$ of compa
 
 Q.E.D.
 
-#### Corollary {#int-iv-s5-n11-cor-1 .statement}
+#### Corollary {#int-iv-s5-n11-cor-1 .statement tag=08W9}
 
 — Let F be a metrizable uniform space.
 
@@ -742,7 +742,7 @@ Q.E.D.
 
 (ii) By Lemma 4, there exists a subsequence $(f_{n_k})$ of $(f_n)$ such that $(f_{n_k}(x))$ is a Cauchy sequence in F for every $x \in B - N$, where N is negligible; let $f'(x) \in \widehat{F}$ be the limit of this sequence for $x \in B - N$. It is clear that $f'$ is a $\mu$-measurable mapping of $B - N$ into $\widehat{F}$, and the sequence $(f_n)$ converges in measure to $f'$ in $B - N$ by (i); $f'$ is therefore equal to $f$ almost everywhere in B.
 
-#### Proposition 20 {#int-iv-s5-prop-20 .statement}
+#### Proposition 20 {#int-iv-s5-prop-20 .statement tag=08WA}
 
 — Let F be a Banach space, equipped with the uniform structure defined by its norm.
 
@@ -764,12 +764,12 @@ whence $|\mu|^*(C) \leq \delta$, which proves (iii).
 
 (ii) In view of (iii), it suffices to show for example that $\mathscr{L}_F^1$ is dense in $\mathscr{S}_F$, since by definition $\mathscr{H}(X; F)$ is dense in $\mathscr{L}_F^1$ for the topology of convergence in mean. Now, let $f$ be any element of $\mathscr{S}_F$ and let $T(B, \delta)$ be a neighborhood of 0 in this space; we see as in (i) that there exists an integrable subset $C$ of $B$ such that $|\mu|(C) \leq \delta$ and such that $f$ is *bounded* on $B - C$; denoting then by $g$ the function equal to $f$ on $B - C$ and to 0 on $X - (B - C)$, it follows from No. 6, Th. 5 that $g$ is integrable, and obviously $f - g \in T(B, \delta)$.
 
-#### Remark {#int-iv-s5-n11-rem-1 .statement}
+#### Remark {#int-iv-s5-n11-rem-1 .statement tag=08WB}
 
 — 1) The topological vector space $\mathscr{S}(X, \mu; F)$ is not necessarily locally convex (Exer. 24).
 2) The topology induced on the set of $f$ such that $N_p(f) \leq 1$ by the topology of convergence in measure may be strictly coarser than the topology induced on this set by the topology of convergence in mean of order $p$ (Exer. 22). However, see Prop. 21 below.
 
-#### Definition 10 {#int-iv-s5-def-10 .statement}
+#### Definition 10 {#int-iv-s5-def-10 .statement tag=08WC}
 
 *Let $X$ be a locally compact space, $\mu$ a measure on $X$, $F$ a Banach space, and $p \in [1, +\infty[$. A subset $H$ of $\mathscr{L}_F^p(X, \mu)$ is said to be equi-integrable of order $p$ (for $\mu$) if it satisfies the following conditions:*
 
@@ -783,11 +783,11 @@ $$
 
 When $p = 1$ we say 'equi-integrable' instead of 'equi-integrable of order 1'.
 
-#### Remark {#int-iv-s5-n11-rem-2 .statement}
+#### Remark {#int-iv-s5-n11-rem-2 .statement tag=08WD}
 
 — Suppose $\mu$ is bounded. For every $a > 0$, the set of measurable mappings of $X$ into $F$ such that $|f(x)| \leq a$ almost everywhere is equi-integrable of order $p$, and this is true for any $p \in [1, +\infty[$.
 
-#### Proposition 21 {#int-iv-s5-prop-21 .statement}
+#### Proposition 21 {#int-iv-s5-prop-21 .statement tag=08WE}
 
 *Let $H$ be a subset of $\mathscr{L}_F^p(X, \mu)$ that is equi-integrable of order $p$. On $H$, the uniform structure of convergence in measure is equal to the uniform structure induced by that of $\mathscr{L}_F^p(X, \mu)$.*
 
@@ -822,7 +822,7 @@ Thus, the uniform structure of convergence in measure on $H$ is finer than the u
 
 ### 12. A property of vague convergence
 
-#### Lemma 5 {#int-iv-s5-lem-5 .statement}
+#### Lemma 5 {#int-iv-s5-lem-5 .statement tag=08WF}
 
 *Let $X$ be a locally compact space, $\mu$ a bounded positive measure on $X$, $F$ a Banach space, and $f$ a bounded function on $X$ with values in $F$. The following conditions are equivalent:*
 
@@ -846,7 +846,7 @@ Then $2M \geq l \geq k$ on X, and $l = k$ on $X - N'$, that is, almost everywher
 
 (ii) $\Rightarrow$ (i). Suppose that condition (ii) is satisfied. For every $x \in X$ let $\omega(x)$ be the oscillation of f at x (GT, IX, § 2, No. 3). Let $\varepsilon > 0$. There exist $a_1, \ldots, a_n, g_1, \ldots, g_n, h$ with the properties of (ii). For every $x \in X$, $\omega(x)$ is the oscillation of $f - g_1 a_1 - \cdots - g_n a_n$ at x, therefore $\omega(x) \leq 2h(x)$. Thus $\int \omega \, d\mu \leq 2\varepsilon$. Consequently, the set $A_\varepsilon$ of $x \in X$ such that $\omega(x) \geq \sqrt{\varepsilon}$ satisfies $\mu(A_\varepsilon) \leq 2\sqrt{\varepsilon}$. This proves that $\mu(N) \leq 2\sqrt{\varepsilon}$, whence $\mu(N) = 0$.
 
-#### Proposition 22 {#int-iv-s5-prop-22 .statement}
+#### Proposition 22 {#int-iv-s5-prop-22 .statement tag=08WG}
 
 — *Let F be a Banach space, X a locally compact space, $\mathscr{E}$ the set of bounded positive measures on X, $\mu$ an element of $\mathscr{E}$, and $\mathscr{B}$ a filter base on $\mathscr{E}$. Assume that $\mathscr{B}$ converges vaguely to $\mu$ and that $\| \nu \|$ tends to $\| \mu \|$ with respect to $\mathscr{B}$. Let f be a mapping of X into F satisfying the following conditions:
 
@@ -883,11 +883,11 @@ $$
 $$
 which proves the proposition.
 
-#### Remark {#int-iv-s5-n12-rem-1 .statement}
+#### Remark {#int-iv-s5-n12-rem-1 .statement tag=08WH}
 
 The conditions (i) and (ii) of Proposition 22 are satisfied if $f$ is continuous and bounded.
 
-#### Example {#int-iv-s5-n12-exa-1 .statement}
+#### Example {#int-iv-s5-n12-exa-1 .statement tag=08WI}
 
 Let us take for $X$ the compact space $\mathbf{U}$ of complex numbers of absolute value 1. On setting $\mu(f) = \int_0^1 f(e^{2i\pi t}) \, dt$ for every $f \in \mathscr{H}(\mathbf{U})$, one defines a positive measure of mass 1 on $\mathbf{U}$. On the other hand, let $\theta$ be a real number; for every integer $n \geq 0$, let $\nu_n$ be the unit mass placed at the point $e^{2i\pi n \theta}$ of $\mathbf{U}$, and let
 $$

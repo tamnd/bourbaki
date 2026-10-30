@@ -41,9 +41,9 @@ subsections:
       pdf_page: 55
 statements: 18
 exercises: 10
-content_sha256: 513e330a164a52bd5b70274660d7432ca6a3049748c35dc687b01d4b60ccd1eb
+content_sha256: 11f894a5104040767404d811699f773e438fd60cc7a707844ac1ba8778affbd8
 translated_from: content/en/ac/I/03_s3_faithfully_flat_modules.md
-source_content_sha256: 0d9072835e4cc9d8e53fe3b6aad9c26f3af0064dfdb8a3707999932c7d47ff19
+source_content_sha256: 0a1be9878f698d84733905bb7d0c759aa5a8adfb87dd8b4532795f408851fd36
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-15ae5fed
 glossary_version: 34
@@ -55,7 +55,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA CÁC MÔĐUN PHẲNG TRUNG THÀNH
 
-#### Mệnh đề 1 {#ac-i-s3-prop-1 .statement}
+#### Mệnh đề 1 {#ac-i-s3-prop-1 .statement tag=0444}
 
 Cho $E$ là một $A$-môđun phải. Bốn tính chất sau là tương đương:
 
@@ -106,13 +106,13 @@ $$
 
 vì $A_s/m \neq 0$; do đó (d). Ngược lại, giả sử (d) đúng; mọi iđêan trái $a \neq A$ của $A$ đều được chứa trong một iđêan trái cực đại $m$ (*Algebra*, Chương I, §8, no. 7, Định lý 2), khi đó giả thiết $E \neq Em$ suy ra $E \neq Ea$, nói cách khác, $E \otimes_A (A_s/a) \neq 0$. Điều đó có nghĩa là, với mọi môđun trái $A$ đơn sinh $N \neq 0$, $T(N) \neq 0$. Nếu bây giờ $N$ là một môđun trái $A$ bất kỳ \#0, nó chứa một môđun con đơn sinh $N' \neq 0$; vì $E$ là phẳng, $T(N')$ được đồng nhất với một nhóm con của $T(N)$; ta vừa thấy rằng $T(N') \neq 0$, do đó $T(N) \neq 0$.
 
-#### Định nghĩa 1 {#ac-i-s3-def-1 .statement}
+#### Định nghĩa 1 {#ac-i-s3-def-1 .statement tag=0445}
 
 *Một môđun phải $A$* $E$ *được gọi là phẳng trung thành nếu nó thỏa mãn bốn điều kiện tương đương của Mệnh đề 1.*
 
 Các môđun trái $A$ phẳng trung thành được định nghĩa tương tự; rõ ràng, để một môđun trái $A$ $E$ là phẳng trung thành, điều kiện cần và đủ là $E$, được xem như một môđun phải $A^0$, là phẳng trung thành.
 
-#### Nhận xét {#ac-i-s3-n1-rem-1 .statement}
+#### Nhận xét {#ac-i-s3-n1-rem-1 .statement tag=0446}
 
 Nếu $E$ là một môđun $A$ phẳng trung thành, thì $E$ là một môđun $A$ *trung thành*: thật vậy, nếu một phần tử $a \in A$ sao cho $xa = 0$ với mọi $x \in E$, phép vị tự $h : b \mapsto ba$ trong $A$ có tính chất $1, \otimes h = 0$; do đó $h = 0$ theo tính chất (c) của Mệnh đề 1, tức là $a = 0$ vì $A$ có một phần tử đơn vị.
 
@@ -122,13 +122,13 @@ Nếu $E$ là một môđun $A$ phẳng trung thành, thì $E$ là một môđun
 (3) Cho $A$ là một *miền iđêan chính*. Để một $A$-môđun $E$ là phẳng trung thành, điều kiện cần và đủ là nó xoắn tự do và $E \neq Ep$ với mọi phần tử bất khả quy (*Đại số*, Chương VII, § 1, no. 3) $p$ của $A$; điều này suy ra ngay lập tức từ § 2, no. 4, Mệnh đề 3 và tiêu chuẩn (d) của Mệnh đề 1.
 (4) Ví dụ (3) chỉ ra rằng $\mathbf{Z}$-môđun $\mathbf{Q}$ là một môđun phẳng và trung thành, nhưng *không phẳng trung thành*.
 
-#### Mệnh đề 2 {#ac-i-s3-prop-2 .statement}
+#### Mệnh đề 2 {#ac-i-s3-prop-2 .statement tag=0447}
 
 *Cho $E$ là một $A$-môđun phải phẳng trung thành và $u : N' \to N$ là một đồng cấu $A$-môđun trái. Để $u$ là đơn ánh (tương ứng. toàn ánh, song ánh), điều kiện cần và đủ là $1_E \otimes u : E \otimes_A N' \to E \otimes_A N$ cũng là như vậy.*
 
 Đây là một hệ quả ngay lập tức của tiêu chuẩn (a) của Mệnh đề 1.
 
-#### Mệnh đề 3 {#ac-i-s3-prop-3 .statement}
+#### Mệnh đề 3 {#ac-i-s3-prop-3 .statement tag=0448}
 
 Cho $0 \to E' \to E \to E'' \to +0$ là một dãy khớp của các $A$-môđun phải. Giả sử rằng $E'$ và $E''$ là phẳng và một trong chúng là phẳng trung thành. Khi đó $E$ là phẳng trung thành.
 
@@ -142,7 +142,7 @@ $$
 
 ### 2. TÍCH TENXƠ CỦA CÁC MÔĐUN PHẲNG TRUNG THÀNH
 
-#### Mệnh đề 4 {#ac-i-s3-prop-4 .statement}
+#### Mệnh đề 4 {#ac-i-s3-prop-4 .statement tag=0449}
 
 Cho $R, S$ là hai vành, $E$ là một $R$-môđun phải và $F$ là một song môđun $(R, S)$. Giả sử rằng $E$ là phẳng trung thành. Khi đó, để $F$ là một $S$-môđun phẳng (tương ứng. phẳng trung thành), điều kiện cần và đủ là $E \otimes_R F$ cũng như vậy.
 
@@ -160,7 +160,7 @@ khi đó là đơn ánh ($§ 2$, no. 3, Mệnh đề 1). Suy ra từ Mệnh đ�
 
 (4) Giả sử $E \otimes_R F$ phẳng trung thành và cho $N$ là một môđun trái $S$ sao cho $F \otimes_S N = 0$. Khi đó $E \otimes_R F \otimes_S N = 0$, do đó $N = 0$, điều đó cho thấy rằng $F$ phẳng trung thành.
 
-#### Hệ quả {#ac-i-s3-n2-cor-1 .statement}
+#### Hệ quả {#ac-i-s3-n2-cor-1 .statement tag=044A}
 
 Cho $C$ là một vành giao hoán và $E$ và $F$ là hai C-môđun phẳng trung thành. Khi đó C-môđun $E \otimes_C F$ phẳng trung thành.
 
@@ -168,19 +168,19 @@ Cho $C$ là một vành giao hoán và $E$ và $F$ là hai C-môđun phẳng tru
 
 ### 3. THAY ĐỔI VÀNH
 
-#### Mệnh đề 5 {#ac-i-s3-prop-5 .statement}
+#### Mệnh đề 5 {#ac-i-s3-prop-5 .statement tag=044B}
 
 Cho $\rho$ là một đồng cấu từ một vành $A$ đến một vành $B$. Nếu $E$ là một môđun phải $A$ phẳng trung thành, thì môđun phải $B$ $\rho^*(E) = E_{(B)} = E \otimes_A B$ phẳng trung thành.
 
 Áp dụng Mệnh đề 4 của no. 2 với $R = A, S = F = B$, chú ý rằng $B$-môđun $B_d$ phẳng trung thành.
 
-#### Hệ quả {#ac-i-s3-n3-cor-1 .statement}
+#### Hệ quả {#ac-i-s3-n3-cor-1 .statement tag=044C}
 
 *Nếu $E$ là một môđun phải $A$ phẳng trung thành và nếu $a$ là một iđêan hai phía của $A$, thì môđun phải $(A/a)$ $E/Ea$ phẳng trung thành.*
 
 Áp dụng Mệnh đề 5 với $B = A/a, \rho$ là đồng cấu chính tắc.
 
-#### Mệnh đề 6 {#ac-i-s3-prop-6 .statement}
+#### Mệnh đề 6 {#ac-i-s3-prop-6 .statement tag=044D}
 
 Cho $A$ là một vành giao hoán, $B$ là một đại số trên $A$ và $\rho : a \mapsto a . 1$ là đồng cấu chính tắc của $A$ đến $B$. Giả sử rằng $B$ là một A-môđun phẳng trung thành. Khi đó, để một A-môđun $E$ là phẳng (tương ứng phẳng trung thành), cần và đủ rằng môđun phải $B$ $E_{(B)} = E \otimes_A B$ là phẳng (tương ứng phẳng trung thành).
 
@@ -198,7 +198,7 @@ Vì $B$ là một A-môđun phẳng trung thành, suy ra $1_E \otimes \nu : E \o
 
 ### 4. HẠN CHẾ CỦA CÁC VÔ HƯỚNG
 
-#### Mệnh đề 7 {#ac-i-s3-prop-7 .statement}
+#### Mệnh đề 7 {#ac-i-s3-prop-7 .statement tag=044E}
 
 *Cho $A, B$ là hai vành và $\rho$ là một đồng cấu từ $A$ đến $B$. Cho $E$ là một B-môđun phải phẳng trung thành. Để $\rho^*(E)$ là một A-môđun phải phẳng (tương ứng phẳng trung thành), thì điều kiện cần và đủ là $B$ là một A-môđun phải phẳng (tương ứng phẳng trung thành).*
 
@@ -212,7 +212,7 @@ Nhận xét
 
 ### 5. CÁC VÀNH PHẲNG TRUNG THÀNH
 
-#### Mệnh đề 8 {#ac-i-s3-prop-8 .statement}
+#### Mệnh đề 8 {#ac-i-s3-prop-8 .statement tag=044F}
 
 Cho $A, B$ là hai vành và $\rho$ là một đồng cấu từ $A$ đến $B$. Giả sử tồn tại một B-môđun phải $E$ sao cho $\rho_*(E)$ là một A-môđun phẳng trung thành. Khi đó:
 (i) Với mọi A-môđun trái $F$, đồng cấu chính tắc $j : F \to F_{(B)} = B \otimes_A F$ (sao cho $j(x) = 1 \otimes x$ với mọi $x \in F$) là đơn ánh.
@@ -234,7 +234,7 @@ Cuối cùng, nếu m là một iđêan trái cực đại của A, thì $\overl
 
 Nếu $A$ và $B$ thỏa mãn các điều kiện của Mệnh đề 8, thì $A$ thường được đồng nhất với một vành con của $B$ nhờ $\rho$.
 
-#### Hệ quả {#ac-i-s3-n5-cor-1 .statement}
+#### Hệ quả {#ac-i-s3-n5-cor-1 .statement tag=044G}
 
 Dưới các giả thiết của Mệnh đề 8, nếu $B$ là Noether trái (resp. Artin), thì $A$ cũng vậy.
 
@@ -244,7 +244,7 @@ Nếu (a) là một dãy tăng (resp. giảm) không dừng của các iđêan t
 
 Một áp dụng quan trọng của Mệnh đề 8 là trường hợp $B$ tự nó là một $A$-môđun phẳng trung thành. Nhưng trong trường hợp này ta có mệnh đề chính xác hơn sau:
 
-#### Mệnh đề 9 {#ac-i-s3-prop-9 .statement}
+#### Mệnh đề 9 {#ac-i-s3-prop-9 .statement tag=044H}
 
 Cho $A, B$ là hai vành và $\rho$ là một đồng cấu từ $A$ đến $B$. Năm điều kiện sau là tương đương:
 (a) A-môđun phải $B$ là phẳng trung thành.
@@ -269,7 +269,7 @@ cho thấy rằng $B$ là một A-môđun phải phẳng trung thành, vì $A_a$
 
 Dưới các điều kiện của Mệnh đề 9, ta đồng nhất $A$ với một *vành con* của $B$ bằng $\mathfrak{p}$. Khi đó quan hệ $\bar{\rho}^{-1}(Ba) = a$ viết thành $A \cap Ba = a$. Mặt khác, nếu $F$ là một môđun trái $A$, thì $F$ được đồng nhất với ảnh của nó trong $B \otimes_A F$ qua ánh xạ chính tắc $x \mapsto 1 @ x$; nếu $X$ là một nhóm con cộng tính của $F$, thì ta ký hiệu bởi $BX$ môđun con trái của $B \otimes_A F$ sinh bởi $X$. Với ký hiệu này, ta có:
 
-#### Mệnh đề 10 {#ac-i-s3-prop-10 .statement}
+#### Mệnh đề 10 {#ac-i-s3-prop-10 .statement tag=044I}
 
 *Cho* $B$ *là một vành và* $A$ *là một vành con của* $B$ *sao cho* $B$ *là một môđun phải phẳng trung thành trên* $A$. *Cho* $F$ *là một môđun trái* $A$, $F', F''$ *là hai môđun con của* $F$. *Khi đó:*
 (i) *Ánh xạ chính tắc* $B \otimes_A F' \to B \otimes_A F$ *là một đẳng cấu từ* $B \otimes_A F'$ *lên* $BF'$.
@@ -285,7 +285,7 @@ là đơn ánh; xét các sự đồng nhất đã thực hiện, ảnh của n�
 
 ### 6. CÁC VÀNH PHẲNG TRUNG THÀNH VÀ CÁC ĐIỀU KIỆN HỮU HẠN TÍNH
 
-#### Mệnh đề 11 {#ac-i-s3-prop-11 .statement}
+#### Mệnh đề 11 {#ac-i-s3-prop-11 .statement tag=044J}
 
 *Cho* $B$ *là một vành và* $A$ *là một vành con của* $B$ *sao cho* $B$ *là một môđun phải phẳng trung thành trên* $A$. *Để một môđun trái* $A$ *là sinh hữu hạn (resp. trình bày hữu hạn), điều kiện cần và đủ là môđun* $B$-*môđun* $B \otimes_A F$ *là sinh hữu hạn (resp. trình bày hữu hạn).*
 
@@ -293,7 +293,7 @@ là đơn ánh; xét các sự đồng nhất đã thực hiện, ảnh của n�
 
 (2) *Nếu* F *có một trình bày hữu hạn, thì* $B \otimes_A F$ *cũng vậy mà không cần giả thiết nào* về B (§ 2, no. 8). Còn phải chứng minh rằng, nếu $B \otimes_A F$ có một trình bày hữu hạn, thì F cũng vậy. Ta đã biết từ (1) rằng F sinh hữu hạn, do đó tồn tại một đồng cấu toàn ánh $u : L \to F$, trong đó L là một A-môđun tự do sinh hữu hạn. Cho R là hạt nhân của u, khi đó $B \otimes_A R$ được đồng nhất với hạt nhân của đồng cấu toàn ánh $l_B \otimes u : B \otimes_A L \to B \otimes_A F$ (§ 2, no. 3, *Nhận xét 2*). Vì $B \otimes_A F$ theo giả thiết có một trình bày hữu hạn, suy ra (§ 2, no. 8, Bổ đề 9) rằng $B \otimes_A R$ sinh hữu hạn; rồi từ (1) suy ra R là một A-môđun sinh hữu hạn và do đó F có một trình bày hữu hạn.
 
-#### Mệnh đề 12 {#ac-i-s3-prop-12 .statement}
+#### Mệnh đề 12 {#ac-i-s3-prop-12 .statement tag=044K}
 
 *Cho B là một vành và A là một vành con giao hoán của tâm của B sao cho B là một A-môđun phẳng trung thực. Để một A-môđun F là xạ ảnh và sinh hữu hạn, điều kiện cần và đủ là $B \otimes_A F$ là một B-môđun trái xạ ảnh sinh hữu hạn.*
 
@@ -333,7 +333,7 @@ $$
 
 trong đó $(x_k)$ là một nghiệm của (3) gồm các phần tử của $A$, các $b_j$ thuộc $B$ và mỗi $(z_{jk})_{1 \leq k \leq n}$ là một nghiệm của hệ phương trình tuyến tính thuần nhất liên kết với (3), gồm các phần tử của A.
 
-#### Mệnh đề 13 {#ac-i-s3-prop-13 .statement}
+#### Mệnh đề 13 {#ac-i-s3-prop-13 .statement tag=044L}
 
 Cho A là một vành con của một vành B. Để cặp có thứ tự $(A, B)$ thỏa mãn tính chất mở rộng tuyến tính, điều kiện cần và đủ là B là một A-môđun phẳng trung thực.
 

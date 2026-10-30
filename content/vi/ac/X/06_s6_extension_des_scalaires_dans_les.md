@@ -32,7 +32,7 @@ subsections:
       pdf_page: 77
 statements: 33
 exercises: 7
-content_sha256: cf69e1e05f62e15bb5b689413bc40ca7123ad2dd4e5cc5cb051bb7ecdf10b641
+content_sha256: 67879b6210764808d717ac3ba4870863efcdbadbcc995a43775132e2c64fdced
 translated_from: content/en-mt/ac/X/06_s6_extension_des_scalaires_dans_les.md
 source_lang: en-mt
 translation_method: machine
@@ -52,15 +52,15 @@ Cho $k$ là một vành. Cho $A$ là một $k$-đại số và $x = (x_i)_{i \in
 
 Ta sẽ nói rằng một $k$-đại số $A$ là cốt yếu kiểu hữu hạn nếu nó nhận một họ sinh cốt yếu hữu hạn. Điều này tương đương với việc nói rằng tồn tại một $k$-đại số $A'$ kiểu hữu hạn và một tập con nhân tính $S$ của $A'$ sao cho $k$-đại số $A$ đẳng cấu với $S^{-1}A'$.
 
-#### Ví dụ 1 {#ac-x-s6-n1-exa-1 .statement}
+#### Ví dụ 1 {#ac-x-s6-n1-exa-1 .statement tag=0D7O}
 
 Nói rằng một mở rộng $L$ của một trường $K$ là một $K$-đại số cốt yếu kiểu hữu hạn có nghĩa là nó là một mở rộng kiểu hữu hạn theo nghĩa của A, V, p. 11, Def. 2. $K$-đại số $L$ chỉ là kiểu hữu hạn nếu nó là một mở rộng bậc hữu hạn của $K$ (V, § 3, No. 4, Hệ quả 3 of Định lý 3).
 
-#### Ví dụ 2 {#ac-x-s6-n1-exa-2 .statement}
+#### Ví dụ 2 {#ac-x-s6-n1-exa-2 .statement tag=0D7P}
 
 Để một $k$-đại số địa phương là cốt yếu kiểu hữu hạn, điều kiện cần và đủ là nó đẳng cấu với một $k$-đại số dạng $A_p$, trong đó $A$ là một $k$-đại số kiểu hữu hạn và $p$ là một iđêan nguyên tố của $A$ (x. II, § 2, No. 5, Prop. 11 (iii)).
 
-#### Mệnh đề 1 {#ac-x-s6-prop-1 .statement}
+#### Mệnh đề 1 {#ac-x-s6-prop-1 .statement tag=0D7Q}
 
 Nếu vành $k$ là Noether, mọi $k$-đại số cốt yếu kiểu hữu hạn đều là một vành Noether.
 
@@ -68,7 +68,7 @@ Nếu vành $k$ là Noether, mọi $k$-đại số cốt yếu kiểu hữu hạ
 
 Các tính chất sau được suy ra từ định nghĩa:
 
-#### Mệnh đề 2 {#ac-x-s6-prop-2 .statement}
+#### Mệnh đề 2 {#ac-x-s6-prop-2 .statement tag=0D7R}
 
 a) Mọi đại số thương của một $k$-đại số cốt yếu kiểu hữu hạn đều là cốt yếu kiểu hữu hạn.
 
@@ -78,13 +78,13 @@ c) $k$-đại số tích của một họ hữu hạn các $k$-đại số cốt
 
 d) Cho $k \to k'$ là một đồng cấu các vành; với mọi $k$-đại số $A$ cốt yếu kiểu hữu hạn, $k'$-đại số $A_{(k')} = k' \otimes_k A$ là cốt yếu kiểu hữu hạn.
 
-#### Hệ quả {#ac-x-s6-n1-cor-1 .statement}
+#### Hệ quả {#ac-x-s6-n1-cor-1 .statement tag=0D7S}
 
 Cho $A$ là một $k$-đại số về cơ bản thuộc kiểu hữu hạn và $B$ là một $k$-đại số Noether. Khi đó vành $A \otimes_k B$ là Noether.
 
 Thật vậy, nó là một $B$-đại số về cơ bản thuộc kiểu hữu hạn (mệnh đề 2, d)), và áp dụng Mệnh đề 1.
 
-#### Mệnh đề 3 {#ac-x-s6-prop-3 .statement}
+#### Mệnh đề 3 {#ac-x-s6-prop-3 .statement tag=0D7T}
 
 Cho $k$ là một vành, $A$ là một $k$-đại số và $B$ là một $A$-đại số. Nếu $A$ về cơ bản thuộc kiểu hữu hạn trên $k$ và $B$ về cơ bản thuộc kiểu hữu hạn trên $A$, thì $B$ về cơ bản thuộc kiểu hữu hạn trên $k$.
 
@@ -96,7 +96,7 @@ $$
 
 Vậy các phần tử $\rho(x_i)$ với $i \in I$ và $y_j$ với $j \in J$ tạo thành một họ sinh về cơ bản hữu hạn của $k$-đại số $B$.
 
-#### Hệ quả {#ac-x-s6-n1-cor-2 .statement}
+#### Hệ quả {#ac-x-s6-n1-cor-2 .statement tag=0D7U}
 
 Tích tenxơ của hai $k$-đại số về cơ bản thuộc kiểu hữu hạn là một $k$-đại số về cơ bản thuộc kiểu hữu hạn.
 
@@ -104,7 +104,7 @@ Vì giả sử $A$ và $B$ là hai $k$-đại số về cơ bản thuộc kiểu
 
 ### 2. Tích tenxơ của các đại số Macaulay hoặc Gorenstein
 
-#### Mệnh đề 4 {#ac-x-s6-prop-4 .statement}
+#### Mệnh đề 4 {#ac-x-s6-prop-4 .statement tag=0D7V}
 
 Cho $k$ là một trường, $A$ là một $k$-đại số về cơ bản thuộc kiểu hữu hạn và $B$ là một $k$-đại số.
 
@@ -122,13 +122,13 @@ $$
 
 và sao cho $K_i$ là một $K_{i-1}$-đại số đơn sinh với $i = 1, \ldots, m$; điều này cho phép ta rút gọn về trường hợp mở rộng $K$ của $k$ là đơn sinh (bậc hữu hạn). Đồng cấu chính tắc $B \to K \otimes_k B$ biến $K \otimes_k B$ thành một B-đại số phẳng và, với mọi $q \in \mathrm{Spec}(B)$, vành $(K \otimes_k B) \otimes_B \kappa(q)$, đẳng cấu với $K \otimes_k \kappa(q)$, là một $\kappa(q)$-đại số đơn sinh, nên là một vành Gorenstein ($§ 3$, n° 9, ví dụ 5). Do đó $K \otimes_k B$ là một vành Gorenstein ($§ 3$, n° 8, hệ quả 1 của Mệnh đề 12), điều này hoàn tất chứng minh của b).
 
-#### Hệ quả 1 {#ac-x-s6-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s6-prop-4-cor-1 .statement tag=0D7W}
 
 Cho $k$ là một trường, $K$ là một mở rộng của $k$ và $A$ là một $k$-đại số về cơ bản thuộc kiểu hữu hạn. Để $A_{(K)}$ là một vành Macaulay (tương ứng một vành Gorenstein), điều kiện cần và đủ là điều đó cũng đúng với $A$.
 
 Nếu $A$ là một vành Macaulay (tương ứng một vành Gorenstein), thì $A_{(K)}$ cũng vậy theo Mệnh đề 4. Vì $A_{(K)}$ là một A-môđun phẳng trung thành, mệnh đề đảo lại suy ra từ Mệnh đề 10 của § 2, No. 7 (tương ứng Hệ quả 1 của Mệnh đề 12 của § 3, No. 8).
 
-#### Hệ quả 2 {#ac-x-s6-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s6-prop-4-cor-2 .statement tag=0D7X}
 
 Cho $k$ là một vành Noether, $A$ và $B$ là các $k$-đại số. Giả sử rằng $A$ là phẳng và về cơ bản thuộc kiểu hữu hạn trên $k$. Nếu $A$ và $B$ là các vành Macaulay (tương ứng các vành Gorenstein), thì $A \otimes_k B$ là một vành Macaulay (tương ứng một vành Gorenstein).
 
@@ -138,7 +138,7 @@ Ta chuyển sang trường hợp tổng quát. $B$-đại số $A \otimes_k B$ l
 
 ### 3. Mở rộng tách được của trường cơ sở trong các đại số chính quy¹ hoặc nguyên
 
-#### Bổ đề 1 {#ac-x-s6-lem-1 .statement}
+#### Bổ đề 1 {#ac-x-s6-lem-1 .statement tag=0D7Y}
 
 Cho $A$ là một vành Noether, là hợp của một họ lọc tăng $(A_\alpha)_{\alpha \in I}$ các vành con Noether.
 
@@ -150,7 +150,7 @@ a) Cho $m$ là một iđêan cực đại của $A$; với mỗi $\alpha \in I$,
 
 b) Vì các $A_\alpha$ là rút gọn, $A$ là rút gọn. Cho $a$ và $b$ là các phần tử của $A$ sao cho $b$ không phải là một ước của không và phần tử $a/b$ của vành phân thức toàn phần của $A$ là nguyên trên $A$. Tồn tại một đa thức đơn khởi $P \in A[X]$ sao cho $P(a/b) = 0$. Cho $\alpha$ là một phần tử của $I$ sao cho vành $A_\alpha$ chứa $a$, $b$ và các hệ số của $P$. Vì $A_\alpha$ là chuẩn tắc, tồn tại $c \in A_\alpha$ sao cho $a = bc$. Do đó $a/b = c$ thuộc $A$ và $A$ là chuẩn tắc.
 
-#### Bổ đề 2 {#ac-x-s6-lem-2 .statement}
+#### Bổ đề 2 {#ac-x-s6-lem-2 .statement tag=0D7Z}
 
 Cho $k$ là một trường, và cho $K$ và $L$ là các mở rộng của $k$. Giả sử rằng $K$ là kiểu hữu hạn và một trong hai mở rộng $K$ hoặc $L$ là tách được. Khi đó vành $K \otimes_k L$ là chính quy.
 
@@ -158,7 +158,7 @@ Ký hiệu $A$ là vành $K \otimes_k L$; nó là Noether theo hệ quả của 
 
 Bây giờ giả sử rằng $L$ tách được trên $k$. Theo phần đầu của chứng minh, vành $K \otimes_k L'$ là chính quy với mọi mở rộng con kiểu hữu hạn $L'$ của $L$. Kết luận bằng cách áp dụng bổ đề 1.
 
-#### Mệnh đề 5 {#ac-x-s6-prop-5 .statement}
+#### Mệnh đề 5 {#ac-x-s6-prop-5 .statement tag=0D80}
 
 Cho $k$ là một trường, $A$ một $k$-đại số và $K$ một mở rộng của $k$. Giả sử rằng $A$ là cốt yếu kiểu hữu hạn hoặc mở rộng $K$ là kiểu hữu hạn.
 
@@ -172,17 +172,17 @@ A-môđun $A_{(K)}$ là tự do, do đó phẳng trung thành; vì vậy mệnh 
 
 ### 4. Các đại số tuyệt đối chính quy hoặc tuyệt đối chuẩn tắc
 
-#### Định nghĩa 1 {#ac-x-s6-def-1 .statement}
+#### Định nghĩa 1 {#ac-x-s6-def-1 .statement tag=0D81}
 
 Cho $k$ là một trường và $A$ một $k$-đại số. Ta nói rằng $A$ là tuyệt đối chính quy (tương ứng tuyệt đối chuẩn tắc)$^1$ nếu vành $A_{(k')}$ là chính quy (tương ứng chuẩn tắc) với mọi mở rộng radicial $k'$ bậc hữu hạn của $k$.
 
 Mọi $k$-đại số tuyệt đối chính quy (tương ứng tuyệt đối chuẩn tắc) đều chính quy (tương ứng chuẩn tắc), như thấy được bằng cách lấy $k' = k$ trong định nghĩa 1. Nhắc lại rằng các $k$-đại số $A$ sao cho vành $A_{(k')}$ là rút gọn với mọi mở rộng radicial $k'$ bậc hữu hạn của $k$ là các $k$-đại số tách được (A, V, p. 117, định lý 2).
 
-#### Ví dụ 1 {#ac-x-s6-n4-exa-1 .statement}
+#### Ví dụ 1 {#ac-x-s6-n4-exa-1 .statement tag=0D82}
 
 Nếu $k$ là hoàn hảo, mọi đại số trên $k$ chính quy (tương ứng chuẩn tắc) đều là tuyệt đối chính quy (tương ứng tuyệt đối chuẩn tắc).
 
-#### Ví dụ 2 {#ac-x-s6-n4-exa-2 .statement}
+#### Ví dụ 2 {#ac-x-s6-n4-exa-2 .statement tag=0D83}
 
 Cho $A$ là một đại số trên $k$ Artin. Nếu $A$ là chuẩn tắc thì nó là rút gọn, do đó đẳng cấu với một tích hữu hạn các mở rộng của $k$ (A, VIII, § 8, No. 1, mệnh đề 2). Các điều kiện sau là tương đương:
 
@@ -194,13 +194,13 @@ Thật vậy, nếu $A$ là tuyệt đối chuẩn tắc thì nó tách được
 
 Nếu hơn nữa đại số trên $k$ $A$ có bậc hữu hạn, thì các điều kiện trên còn tương đương với việc nói rằng $A$ là étale (A, V, p. 34, định lý 4).
 
-#### Ví dụ 3 {#ac-x-s6-n4-exa-3 .statement}
+#### Ví dụ 3 {#ac-x-s6-n4-exa-3 .statement tag=0D84}
 
 Cho $A$ là một đại số trên $k$ địa phương chính quy. Nếu mở rộng $\kappa_A$ của $k$ là tách được thì đại số $A$ là tuyệt đối chính quy. Thật vậy, cho $k'$ là một mở rộng bậc hữu hạn của $k$. A-môđun $A_{(k')}$ là tự do. Vì nó có kiểu hữu hạn, mọi iđêan cực đại của $A_{(k')}$ đều nằm trên $\mathfrak{m}_A$ (V, § 2, No. 1, mệnh đề 1). Vành $\kappa_A \otimes_A A_{(k')}$, đẳng cấu với $\kappa_A \otimes_k k'$, là chính quy (No. 3, bổ đề 2). Theo hệ quả của mệnh đề 9 của § 4, No. 5, vành $A_{(k')}$ là chính quy, điều đó chứng tỏ rằng đại số trên $k$ $A$ là tuyệt đối chính quy.
 
 $^1$ Một số tác giả dùng thuật ngữ “chính quy hình học” (tương ứng “chuẩn tắc hình học”.
 
-#### Mệnh đề 6 {#ac-x-s6-prop-6 .statement}
+#### Mệnh đề 6 {#ac-x-s6-prop-6 .statement tag=0D85}
 
 Cho k là một trường và A là một đại số trên k Noether.
 
@@ -214,13 +214,13 @@ b) Giả sử rằng $A_m$ là tuyệt đối chính quy (tương ứng tuyệt 
 
 Đồng cấu chính tắc $A \to A_{(k')}$ làm cho $A_{(k')}$ thành một đại số trên A hữu hạn. Iđêan $m'$ nằm trên một iđêan cực đại m của A (V, § 2, No. 1, mệnh đề 1), và $(A_{(k')})_{m'}$ đẳng cấu với một vành phân thức của vành chính quy (tương ứng chuẩn tắc, tương ứng rút gọn) $(A_m)_{(k')}$, và do đó là chính quy (tương ứng chuẩn tắc, tương ứng rút gọn).
 
-#### Bổ đề 3 {#ac-x-s6-lem-3 .statement}
+#### Bổ đề 3 {#ac-x-s6-lem-3 .statement tag=0D86}
 
 Cho k là một trường và K là một mở rộng kiểu hữu hạn của k. Tồn tại một mở rộng L của K, có bậc hữu hạn, và một mở rộng con $k'$ của L trên k, không tách được thuần túy và có bậc hữu hạn trên k, sao cho mở rộng L của $k'$ là tách được.
 
 Hãy chọn một mở rộng hợp thành E của K và của một bao đóng hoàn hảo $\hat{k}$ của k, và các phần tử $(t_1, \ldots, t_n)$ của E sao cho E là một mở rộng đại số tách được của $\hat{k}(t_1, \ldots, t_n)$ (A, V, p. 130, hệ quả). Gọi I là một tập con sinh hữu hạn của K trên k. Trường $\hat{k}(t_1, \ldots, t_n)$ (resp. $\hat{k}K$) là hợp của các trường con $k'(t_1, \ldots, t_n)$ (resp. $k'K$), trong đó $k'$ chạy qua tập hợp các mở rộng con của $\hat{k}$ có bậc hữu hạn trên k; do đó có thể tìm được một mở rộng con như vậy $k'$ sao cho các phần tử $t_1, \ldots, t_n$ của E = $\hat{k}K$ thuộc $k'K$ và mỗi phần tử của I là đại số và tách được trên $k'(t_1, \ldots, t_n)$. Khi đó L = $k'K$ là một mở rộng tách được của $k'$, có bậc hữu hạn trên K, và $k'$ là một mở rộng xuyên căn hữu hạn của k.
 
-#### Mệnh đề 7 {#ac-x-s6-prop-7 .statement}
+#### Mệnh đề 7 {#ac-x-s6-prop-7 .statement tag=0D87}
 
 Cho k là một trường, A và B là hai đại số trên k, một trong hai đại số đó về cơ bản là kiểu hữu hạn. Giả sử A là chính quy tuyệt đối (resp. chuẩn tắc tuyệt đối). Nếu vành B là chính quy (resp. chuẩn tắc), thì vành $A \otimes_k B$ cũng vậy.
 
@@ -230,13 +230,13 @@ Giả sử vành B là chính quy (resp. chuẩn tắc), và hãy chứng minh m
 
 Nếu đại số trên $k$ B về cơ bản là kiểu hữu hạn, thì mở rộng $\kappa(p)$ của $k$ là kiểu hữu hạn và vành $A \otimes_k \kappa(p)$ là chính quy (resp. chuẩn tắc) theo điều đã thấy ở trên. Bây giờ giả sử đại số trên $k$ A về cơ bản là kiểu hữu hạn; vành $A \otimes_k \kappa(p)$ là Noether và là hợp của họ tăng lọc các vành con Noether $A \otimes_k K$, trong đó $K$ chạy qua các mở rộng con kiểu hữu hạn của $\kappa(p)$. Các vành sau cùng này là chính quy (resp. chuẩn tắc), và ta áp dụng bổ đề 1 của No. 3.
 
-#### Hệ quả 1 {#ac-x-s6-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s6-prop-7-cor-1 .statement tag=0D88}
 
 Cho $k$ là một trường. Tích tenxơ của hai đại số trên $k$ chính quy tuyệt đối (resp. chuẩn tắc tuyệt đối), một trong hai đại số đó về cơ bản là kiểu hữu hạn, là một đại số trên $k$ chính quy tuyệt đối (resp. chuẩn tắc tuyệt đối).
 
 Cho $A$ và $B$ là hai đại số trên $k$ thỏa mãn các giả thiết của hệ quả. Cho $k'$ là một mở rộng xuyên căn hữu hạn của $k$. Vành $B_{(k')}$ là chính quy (resp. chuẩn tắc); vành $A \otimes_k B_{(k')}$ là chính quy (resp. chuẩn tắc) theo Mệnh đề 7, cũng như vành $(A \otimes_k B) \otimes_k k'$ đẳng cấu với nó.
 
-#### Hệ quả 2 {#ac-x-s6-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s6-prop-7-cor-2 .statement tag=0D89}
 
 Cho $k$ là một trường, $A$ là một đại số trên $k$ chính quy tuyệt đối (resp. chuẩn tắc tuyệt đối), và $K$ là một mở rộng của $k$. Giả sử rằng $A$ về cơ bản là kiểu hữu hạn hoặc mở rộng $K$ của $k$ là kiểu hữu hạn.
 
@@ -246,7 +246,7 @@ b) Nếu mở rộng $K$ của $k$ là tách được, thì đại số trên k 
 
 Mệnh đề a) suy ra từ mệnh đề 7; mệnh đề b) suy ra từ hệ quả 1 và ví dụ 2.
 
-#### Hệ quả 3 {#ac-x-s6-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s6-prop-7-cor-3 .statement tag=0D8A}
 
 Cho $k$ là một trường, $A$ một đại số trên k, và $K$ một mở rộng của $k$. Giả sử rằng đại số trên k $A$ về bản chất thuộc kiểu hữu hạn hoặc rằng mở rộng $K$ của $k$ thuộc kiểu hữu hạn. Để đại số trên k $A$ là tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn tắc), điều kiện cần và đủ là đại số trên K $A_{(K)}$ cũng như vậy.
 
@@ -254,7 +254,7 @@ Giả sử $A$ tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn 
 
 Ngược lại, giả sử rằng đại số trên K $A_{(K)}$ là tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn tắc), và cho $k'$ là một mở rộng thuần túy không tách được của $k$ có bậc hữu hạn. Gọi $L$ là một mở rộng hợp thành của $k'$ và $K$; khi đó vành $A_{(L)}$ có thể được đồng nhất với $L \otimes_K A_{(K)}$, do đó là chính quy (tương ứng, chuẩn tắc); do đó, vành $A_{(k')}$ là chính quy (tương ứng, chuẩn tắc) theo mệnh đề 5, a) của No. 3.
 
-#### Hệ quả 4 {#ac-x-s6-prop-7-cor-4 .statement}
+#### Hệ quả 4 {#ac-x-s6-prop-7-cor-4 .statement tag=0D8B}
 
 Cho $k$ là một trường, $A$ một đại số trên k về bản chất thuộc kiểu hữu hạn, và $K$ một mở rộng của $k$ là một trường hoàn hảo. Để $A$ là tuyệt đối chính quy (tương ứng, tuyệt đối chuẩn tắc), điều kiện cần và đủ là vành $A_{(K)}$ là chính quy (tương ứng, chuẩn tắc).
 
@@ -262,7 +262,7 @@ Cho $k$ là một trường, $A$ một đại số trên k về bản chất thu
 
 ### 5. Các đặc trưng của các đại số tuyệt đối chính quy
 
-#### Mệnh đề 8 {#ac-x-s6-prop-8 .statement}
+#### Mệnh đề 8 {#ac-x-s6-prop-8 .statement tag=0D8C}
 
 Cho k là một trường và A một đại số trên k về bản chất thuộc kiểu hữu hạn. Gọi I là hạt nhân của đồng cấu các đại số trên k $\mu : A \otimes_k A \to A$ sao cho $\mu(x \otimes y) = xy$ với x và y trong A. Các điều kiện sau là tương đương:
 
@@ -296,7 +296,7 @@ n = \sup \deg.\mathrm{tr}_k(\kappa(\mathfrak{p}))
 $$
 trong đó \mathfrak{p} chạy qua họ (hữu hạn) các iđêan nguyên tố cực tiểu của A. Nếu A là một miền nguyên, thì n do đó là bậc siêu việt của trường phân thức của A.
 
-#### Định lý 1 {#ac-x-s6-thm-1 .statement}
+#### Định lý 1 {#ac-x-s6-thm-1 .statement tag=0D8D}
 
 *Gọi k là một trường và A là một k-đại số địa phương kiểu hữu hạn về bản chất. Đặt n = \dim(A) + \deg.\mathrm{tr}_k(\kappa_A).*
 
@@ -334,7 +334,7 @@ $$
 
 (iii') \Rightarrow (i) : Giả sử rằng ta có [\kappa_A \otimes_A \Omega_k(A) : \kappa_A] \leq n , tức là [\kappa(q) \otimes_B \Omega_k(B) : \kappa(q)] \leq n , và hãy chứng minh rằng đại số trên k B là tuyệt đối chính quy. Cho (x_1, \ldots , x_n) là một dãy các phần tử của B sao cho 1 \otimes dx_1, \ldots , 1 \otimes dx_n sinh không gian vectơ \kappa(q)-không gian vectơ \kappa(q) \otimes_B \Omega_k(B) . Thay thế B bằng B_f , với một phần tử thích hợp f của B - q , ta có thể giả sử rằng dx_1, \ldots , dx_n sinh B-môđun \Omega_k(B) (bổ đề Nakayama và II, § 5, No. 1, mệnh đề 2). Cho \bar{k} là một mở rộng đóng đại số của k . Chỉ cần chứng minh rằng đại số trên \bar{k} B_{(\bar{k})} là chính quy, vì điều đó sẽ kéo theo rằng B là tuyệt đối chính quy (hệ quả 4 của mệnh đề 7 ở No. 4). Với mọi nhân tử chính tắc C của B_{(k)} , các vi phân d(1 \otimes x_i) sinh C-môđun \Omega_{\bar{k}}(C) (A, III, § 10, No. 12, mệnh đề 20). Do đó định lý suy ra từ hai bổ đề sau đây:
 
-#### Bổ đề 4 {#ac-x-s6-lem-4 .statement}
+#### Bổ đề 4 {#ac-x-s6-lem-4 .statement tag=0D8E}
 
 Cho k là một trường, K là một mở rộng đại số của k , B là một đại số trên k mà phổ là liên thông. Với mọi nhân tử chính tắc C của B_{(K)} , ta có \dim(C) = \dim(B) .
 
@@ -342,7 +342,7 @@ Trước hết hãy xét trường hợp trong đó mở rộng K có bậc hữ
 
 Hãy chuyển sang trường hợp tổng quát. Cho e là phần tử lũy đẳng của B_{(K)} sao cho C = B_{(K)}/B_{(K)}e . Tồn tại một mở rộng con K' của K có bậc hữu hạn sao cho e là ảnh của một phần tử lũy đẳng e' của B_{(K')} . Đặt C' = B_{(K')}/B_{(K')}e' . Vành C' \otimes_{K'} K được đồng nhất với C , và C' là một nhân tử chính tắc của B_{(K')} . Ta có \dim(C') = \dim(B) theo trường hợp đã xét, và \dim(C') = \dim(C) theo loc. cit. , do đó bổ đề được chứng minh.
 
-#### Bổ đề 5 {#ac-x-s6-lem-5 .statement}
+#### Bổ đề 5 {#ac-x-s6-lem-5 .statement tag=0D8F}
 
 Cho k là một trường đóng đại số, A là một đại số trên k sinh hữu hạn mà phổ là liên thông, n là một số nguyên và (x_1, \ldots , x_n) là một dãy hữu hạn các phần tử của A . Giả sử rằng A có chiều n và các vi phân dx_1, \ldots , dx_n sinh A-môđun \Omega_k(A) . Khi đó vành A là một miền nguyên và chính quy và A-môđun \Omega_k(A) là tự do với cơ sở (dx_1, \ldots , dx_n) .
 
@@ -356,11 +356,11 @@ Bây giờ hãy chứng minh rằng vành $A$ là một miền nguyên và chín
 
 Cuối cùng, giả sử $\sum_{i=1}^n a_i dx_i = 0$ là một quan hệ tuyến tính giữa các $dx_i$ với các hệ số trong $A$. Nếu các $a_i$ không đồng thời bằng không, thì tồn tại một chỉ số $i$ và một iđêan cực đại $\mathfrak{m}$ của $A$ sao cho $a_i$ không thuộc $\mathfrak{m}$ (V, § 3, No. 3, Prop. 1, (iii) và (iv)); nhưng điều này mâu thuẫn với sự kiện đã chứng minh ở trên rằng các lớp của $dx_i$ trong $(A/\mathfrak{m}) \otimes_A \Omega_k(A)$ là độc lập tuyến tính.
 
-#### Ví dụ {#ac-x-s6-n5-exa-1 .statement}
+#### Ví dụ {#ac-x-s6-n5-exa-1 .statement tag=0D8G}
 
 Khi $A$ là một mở rộng hữu hạn kiểu của $k$, định lý 1 lại cho Hệ quả 1 của A, V, p. 128, nếu tính đến Ví dụ 2 của No. 4.
 
-#### Hệ quả 1 {#ac-x-s6-lem-5-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s6-lem-5-cor-1 .statement tag=0D8H}
 
 *Cho $k$ là một trường và $A$ là một $k$-đại số về bản chất là hữu hạn kiểu. Tập hợp các phần tử $\mathfrak{p}$ của $\operatorname{Spec}(A)$ sao cho $k$-đại số $A_{\mathfrak{p}}$ là chính quy tuyệt đối là một tập mở trong $\operatorname{Spec}(A)$.*
 
@@ -368,7 +368,7 @@ Ta có thể giả sử rằng $k$-đại số $A$ là hữu hạn kiểu. Khi �
 
 Ta sẽ thấy về sau (§ 7, No. 9, Hệ quả 4 của Định lý 3) rằng dưới các giả thiết của Hệ quả 1, tập hợp các iđêan nguyên tố $\mathfrak{p}$ của $A$ sao cho vành $A_{\mathfrak{p}}$ là chính quy là một tập mở trong $\operatorname{Spec}(A)$.
 
-#### Hệ quả 2 {#ac-x-s6-lem-5-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s6-lem-5-cor-2 .statement tag=0D8I}
 
 *Cho $k$ là một trường và $A$ là một $k$-đại số về bản chất là hữu hạn kiểu. Điều kiện cần và đủ để $A$ là chính quy tuyệt đối là $A$-môđun $\Omega_k(A)$ là xạ ảnh và với mọi iđêan nguyên tố cực tiểu $\mathfrak{q}$ của $A$, $k$-đại số $A_{\mathfrak{q}}$ là tách được.*
 
@@ -386,11 +386,11 @@ $$
 
 Khi đó từ Định lý 1 suy ra rằng $k$-đại số $A_p$ là chính quy tuyệt đối, do đó có hệ quả.
 
-#### Nhận xét {#ac-x-s6-n5-rem-1 .statement}
+#### Nhận xét {#ac-x-s6-n5-rem-1 .statement tag=0D8J}
 
 Giả sử $k$-đại số $A$ là chính quy tuyệt đối. Khi đó vành phân thức toàn phần $F$ của $A$ được đồng nhất với tích của các $A_q$, trong đó $q$ chạy qua tập hợp các iđêan nguyên tố cực tiểu của $A$ (IV, § 2, No. 5, Mệnh đề 10); do đó nó là một $k$-đại số tách được. Ngược lại, giả sử rằng $F$ là một $k$-đại số tách được; với mọi iđêan nguyên tố cực tiểu $q$ của $A$, $k$-đại số $A_q$ là một vành phân thức của $F$ (IV, § 1, No. 1, Hệ quả 3 của Mệnh đề 2 và No. 3, Hệ quả 1 của Mệnh đề 7), vì thế là một $k$-đại số tách được (No. 4, Mệnh đề 6). Nếu hơn nữa $A$-môđun $\Omega_k(A)$ là xạ ảnh, thì theo Hệ quả 2 suy ra $k$-đại số $A$ là chính quy tuyệt đối.
 
-#### Hệ quả 3 {#ac-x-s6-lem-5-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s6-lem-5-cor-3 .statement tag=0D8K}
 
 Cho $k$ là một trường có đặc số 0 và $A$ là một $k$-đại số thiết yếu kiểu hữu hạn. Để $A$ là chính quy, điều kiện cần và đủ là $A$-môđun $\Omega_k(A)$ là xạ ảnh.
 

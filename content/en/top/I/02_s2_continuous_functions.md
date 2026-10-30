@@ -33,14 +33,14 @@ subsections:
       pdf_page: 40
 statements: 30
 exercises: 11
-content_sha256: cf4004f9e84dc84c89cf22fd0ceba9043355d13939f4879b9dfbd3051337016b
+content_sha256: 1967343889fcc981f4c5cd14526701e2a3a3c66ffbc62c0729eebd3c4a84398d
 ---
 
 ## 2. CONTINUOUS FUNCTIONS
 
 ### 1. CONTINUOUS FUNCTIONS
 
-#### Definition 1 {#top-i-s2-def-1 .statement}
+#### Definition 1 {#top-i-s2-def-1 .statement tag=0AZY}
 
 A mapping $f$ of a topological space $X$ into a topological space $X'$ is said to be continuous at a point $x_0 \in X$ if, given any neighbourhood $V'$ of $f(x_0)$ in $X'$, there is a neighbourhood $V$ of $x_0$ in $X$ such that the relation $x \in V$ implies $f(x) \in V'$.
 
@@ -48,35 +48,35 @@ Definition 1 may be restated in the following more intuitive form: to say that $
 
 The relation "for each $x \in V, f(x) \in V'$" is equivalent to $f(V) \subset V'$ or again to $V \subset \overline{f}^{-1}(V')$; in view of the neighbourhood axiom ($V_I$), we see that Definition 1 is equivalent to the following: $f : X \to X'$ is said to be continuous at the point $x_0$ if, for each neighbourhood $V'$ of $f(x_0)$ in $X'$, $\overline{f}^{-1}(V')$ is a neighbourhood of $x_0$ in $X$. Moreover, it is sufficient that $\overline{f}^{-1}(V')$ is a neighbourhood of $x_0$ for each neighbourhood $V'$ belonging to a fundamental system of neighbourhoods of $f(x_0)$ in $X'$ ($§ 1$, no. 3).
 
-#### Proposition 1 {#top-i-s2-prop-1 .statement}
+#### Proposition 1 {#top-i-s2-prop-1 .statement tag=0AZZ}
 
 Let $f$ be a mapping of a topological space $X$ into a topological space $X'$. If $f$ is continuous at $x$, and if $x$ lies in the closure of a subset $A$ of $X$, then $f(x)$ lies in the closure of $f(A)$.
 
 Let $V'$ be a neighbourhood of $f(x)$ in $X'$. Since $f$ is continuous at $x$, $\overline{f}^{-1}(V')$ is a neighbourhood of $x$ in $X$. Hence $\overline{f}^{-1}(V')$ meets $A$, from which it follows that $V'$ meets $f(A)$, and therefore $f(x)$ is in the closure of $f(A)$.
 
-#### Proposition 2 {#top-i-s2-prop-2 .statement}
+#### Proposition 2 {#top-i-s2-prop-2 .statement tag=0B00}
 
 Let $X, X', X''$ be three topological spaces; let $f$ be a mapping of $X$ into $X'$, continuous at $x \in X$; let $g$ be a mapping of $X'$ into $X''$, continuous at $f(x)$. Then the composition $h = g \circ f : X \to X''$ is continuous at $x$.
 
 Let $V''$ be a neighbourhood of $h(x) = g(f(x))$ in $X''$. Since $g$ is continuous at $f(x)$ it follows that $\overline{g}^{-1}(V'')$ is a neighbourhood of $f(x)$ in $X'$. But $f$ is continuous at $x$, hence $\overline{f}^{-1}(\overline{g}^{-1}(V'')) = \overline{h}^{-1}(V'')$ is a neighbourhood of $x$ in $X$, and therefore $h$ is continuous at $x$.
 
-#### Definition 2 {#top-i-s2-def-2 .statement}
+#### Definition 2 {#top-i-s2-def-2 .statement tag=0B01}
 
 A mapping of a topological space $X$ into a topological space $X'$ is said to be continuous on $X$ (or just continuous) if it is continuous at each point of $X$.
 
-#### Example 1 {#top-i-s2-n1-exa-1 .statement}
+#### Example 1 {#top-i-s2-n1-exa-1 .statement tag=0B02}
 
 The identity mapping of a topological space $X$ onto itself is continuous.
 
-#### Example 2 {#top-i-s2-n1-exa-2 .statement}
+#### Example 2 {#top-i-s2-n1-exa-2 .statement tag=0B03}
 
 A constant map of a topological space into a topological space is continuous.
 
-#### Example 3 {#top-i-s2-n1-exa-3 .statement}
+#### Example 3 {#top-i-s2-n1-exa-3 .statement tag=0B04}
 
 Every mapping of a discrete space into a topological space is continuous.
 
-#### Theorem 1 {#top-i-s2-thm-1 .statement}
+#### Theorem 1 {#top-i-s2-thm-1 .statement tag=0B05}
 
 Let $f$ be a mapping of a topological space $X$ into a topological space $X'$. Then the following statements are equivalent:
 
@@ -96,9 +96,11 @@ $$
 
 and hence $x \in \overline{f^{-1}(A')} \subset \overline{f^{-1}(V')}$. By hypothesis, $\overline{f^{-1}(A')}$ is open in $X$, so that $\overline{f^{-1}(V')}$ is a neighbourhood of $x$ in $X$. Thus d) implies a).
 
-Remarks. 1) Let $\mathfrak{B}$ be a base (§ 1, no. 3) of the topology of $X'$; then for $f : X \to X'$ to be continuous, it is necessary and sufficient that $\overline{f^{-1}(U')}$ is open in $X$ for every $U' \in \mathfrak{B}$.
+#### Remarks {#top-i-s2-n1-rem-4 .statement tag=0E95}
 
-#### Example {#top-i-s2-n1-exa-4 .statement}
+1) Let $\mathfrak{B}$ be a base (§ 1, no. 3) of the topology of $X'$; then for $f : X \to X'$ to be continuous, it is necessary and sufficient that $\overline{f^{-1}(U')}$ is open in $X$ for every $U' \in \mathfrak{B}$.
+
+#### Example {#top-i-s2-n1-exa-4 .statement tag=0B06}
 
 Let $a$ be any rational number. The mapping $x \to a + x$ of the rational line $\mathbf{Q}$ into itself is continuous on $\mathbf{Q}$, for the inverse image under this mapping of an open interval $]b, c[$ is the open interval
 
@@ -110,11 +112,11 @@ Likewise, the mapping $x \to ax$ is continuous on $\mathbf{Q}$; this is clear if
 
 2) The direct image of an open (resp. closed) set of $X$ under a continuous mapping $f : X \to X'$ is not necessarily open (resp. closed) in $X'$ (cf. § 5).
 
-#### Example {#top-i-s2-n1-exa-5 .statement}
+#### Example {#top-i-s2-n1-exa-5 .statement tag=0B07}
 
 \* The mapping $f : x \to 1/(1 + x^2)$ of $\mathbf{R}$ into itself is continuous, but $f(\mathbf{R})$ is the half-open interval $]0, 1]$, which is neither open nor closed in $\mathbf{R}$. \*
 
-#### Theorem 2 {#top-i-s2-thm-2 .statement}
+#### Theorem 2 {#top-i-s2-thm-2 .statement tag=0B08}
 
 1) If $f : X \to X'$ and $g : X' \to X''$ are two continuous mappings, then $g \circ f : X \to X''$ is continuous.
 
@@ -122,15 +124,15 @@ Likewise, the mapping $x \to ax$ is continuous on $\mathbf{Q}$; this is clear if
 
 The first assertion is an immediate consequence of Proposition 2; the second follows from Theorem 1, d) and the definition of a homeomorphism (§ 1, no. 1).
 
-#### Remark 1 {#top-i-s2-n1-rem-1 .statement}
+#### Remark 1 {#top-i-s2-n1-rem-1 .statement tag=0B09}
 
 It is possible to have a continuous bijection of a topological space $X$ onto a topological space $X'$ which is not bicontinuous: for example, take $X'$ to be the rational line $\mathbf{Q}$, and $X$ to be the set $\mathbf{Q}$ with the discrete topology; then the identity map $X \to X'$ is continuous but is not a homeomorphism.
 
-#### Remark 2 {#top-i-s2-n1-rem-2 .statement}
+#### Remark 2 {#top-i-s2-n1-rem-2 .statement tag=0B0A}
 
 To verify that a continuous bijection $f : X \to X'$ is a homeomorphism, it is enough to show that for each $x \in X$ and each neighbourhood $V$ of $x$, $f(V)$ is a neighbourhood of $f(x)$ in $X'$.
 
-#### Remark 3 {#top-i-s2-n1-rem-3 .statement}
+#### Remark 3 {#top-i-s2-n1-rem-3 .statement tag=0B0B}
 
 Let $X$ be a topological space, and for each $x \in X$ let $\mathfrak{B}(x)$ be the set of all neighbourhoods of $x$. Let $x_0$ be a point of $X$; for each $x \in X$, define a set $\mathfrak{B}_0(x)$ of subsets of $X$ as follows: $\mathfrak{B}_0(x_0) = \mathfrak{B}(x_0)$, and if $x \neq x_0$ then $\mathfrak{B}_0(x)$ is to be the set of all subsets of $X$ which contain $x$. It is immediately verified (§ 1, no. 2, Proposition 2) that the sets $\mathfrak{B}_0(x)$ are sets of neighbourhoods of points of $X$ for a topology on $X$; let $X_0$ denote the topological space thus obtained, and let $j : X_0 \to X$ denote the identity map, which is continuous but not in general bicontinuous. A mapping $f$ of $X$ into a topological space $X'$ is continuous at the point $x_0$ if and only if the composition $X_0 \xrightarrow{j} X \xrightarrow{f} X'$ is continuous on $X_0$; this follows immediately from the definitions.
 
@@ -138,7 +140,7 @@ Let $X$ be a topological space, and for each $x \in X$ let $\mathfrak{B}(x)$ be 
 
 Theorem 2 of no. 1 shows that we may take the continuous mappings as morphisms of topological structures (Set Theory, Chapter IV, § 2, no. 1); from now on, we shall assume that we have made this choice of morphisms. In accordance with the general definitions (Set Theory, Chapter IV, § 2, no. 2), this allows us to define an ordering on the set of topologies on a given set $X$:
 
-#### Definition 3 {#top-i-s2-def-3 .statement}
+#### Definition 3 {#top-i-s2-def-3 .statement tag=0B0C}
 
 Given two topologies $\mathfrak{T}_1, \mathfrak{T}_2$ on the same set $X$, we say that $\mathfrak{T}_1$ is finer than $\mathfrak{T}_2$ (and that $\mathfrak{T}_2$ is coarser than $\mathfrak{T}_1$) if, denoting by $X_i$ the set $X$ with the topology $\mathfrak{T}_i$ ($i = 1, 2$), the identity mapping $X_1 \to X_2$ is continuous. If in addition $\mathfrak{T}_1 \neq \mathfrak{T}_2$, we say that $\mathfrak{T}_1$ is strictly finer than $\mathfrak{T}_2$ (and that $\mathfrak{T}_2$ is strictly coarser than $\mathfrak{T}_1$).
 
@@ -146,7 +148,7 @@ Two topologies, one of which is finer than the other, are said to be comparable.
 
 The criteria for a mapping to be continuous (no. 1, Definition 1 and Theorem 1) give the following proposition:
 
-#### Proposition 3 {#top-i-s2-prop-3 .statement}
+#### Proposition 3 {#top-i-s2-prop-3 .statement tag=0B0D}
 
 Given two topologies $\mathfrak{T}_1, \mathfrak{T}_2$ on a set $X$, the following statements are equivalent:
 a) $\mathfrak{T}_1$ is finer than $\mathfrak{T}_2$.
@@ -155,7 +157,7 @@ c) For each subset $A$ of $X$, the closure of $A$ in the topology $\mathfrak{T}_
 d) Every subset of $X$ which is closed in $\mathfrak{T}_2$ is closed in $\mathfrak{T}_1$.
 e) Every subset of $X$ which is open in $\mathfrak{T}_2$ is open in $\mathfrak{T}_1$.
 
-#### Example {#top-i-s2-n2-exa-1 .statement}
+#### Example {#top-i-s2-n2-exa-1 .statement tag=0B0E}
 
 \* In Hilbert space $H$ consisting of sequences $x = (x_n)$ of real numbers such that
 $$
@@ -167,21 +169,21 @@ $$
 $$
 if $x = (x_n)$ and $y = (y_n)$. Now if $\beta = \sup_{1 \leq i \leq n} \|a_i\|$, the relation $\|x - x_0\| \leq 1 / \beta$ implies that $|(x - x_0|a_i)| \leq \|x - x_0\| \cdot \|a_i\| \leq 1$ for $1 \leq i \leq n$; hence the strong topology on $H$ is finer than the weak topology. On the other hand, given any finite family $(a_i)_{1 \leq i \leq n}$ of points of $H$, there are points $x$ in $H$ such that $(x - x_0|a_i) = 0$ for $1 \leq i \leq n$ and such that $\|x - x_0\|$ is arbitrarily large; this shows that the strong topology is strictly finer than the weak topology. \*
 
-#### Remark 1 {#top-i-s2-n2-rem-1 .statement}
+#### Remark 1 {#top-i-s2-n2-rem-1 .statement tag=0B0F}
 
 In the ordered set of all topologies on a set $X$, the topology in which the only open sets are $\varnothing$ and $X$ is the coarsest and the discrete topology is the finest.
 
-#### Remark 2 {#top-i-s2-n2-rem-2 .statement}
+#### Remark 2 {#top-i-s2-n2-rem-2 .statement tag=0B0G}
 
 The finer the topology, the more open sets, closed sets and neighbourhoods; the finer the topology, the smaller (resp. the larger) the closure (resp. the interior) of a set; the finer the topology, the fewer dense sets.
 
-#### Remark 3 {#top-i-s2-n2-rem-3 .statement}
+#### Remark 3 {#top-i-s2-n2-rem-3 .statement tag=0B0H}
 
 If $f : X \to X'$ is a continuous mapping, it remains continuous if the topology of $X$ is replaced by a finer topology and the topology of $X'$ is replaced by a coarser topology (no. 1, Theorem 2). In other words, the finer the topology of $X$ and the coarser the topology of $X'$, the more continuous mappings there are of $X$ into $X'$.
 
 ### 3. INITIAL TOPOLOGIES
 
-#### Proposition 4 {#top-i-s2-prop-4 .statement}
+#### Proposition 4 {#top-i-s2-prop-4 .statement tag=0B0I}
 
 Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $\mathscr{S}$ be the set of subsets of $X$ of the form $\overline{f}_i^{-1}(U_i)$ ($i \in I$, $U_i$ open in $Y_i$), and let $\mathfrak{B}$ be the set of finite intersections of sets of $\mathscr{S}$. Then $\mathfrak{B}$ is a base of a topology $\mathfrak{T}$ on $X$ which is the initial topological structure on $X$ for the family $(f_i)$ (Set Theory, Chapter IV, § 2, no. 3) and in particular is the coarsest topology on $X$ for which the mappings $f_i$ are continuous. More precisely, if $g$ is a mapping of a topological space $Z$ into $X$, then $g$ is continuous at a point $z \in Z$ (X carrying the topology $\mathfrak{T}$) if and only if each of the functions $f_i \circ g$ is continuous at $z$.
 
@@ -195,35 +197,35 @@ Let $\mathfrak{B}_i$ be a base of the topology of $Y_i (i \in I)$; let $\mathscr
 
 The general properties of initial structures (Set Theory, Chapter IV, § 2, no. 3, criterion CST 10) imply in particular the following transitivity property (the direct proof of which is quite straightforward):
 
-#### Proposition 5 {#top-i-s2-prop-5 .statement}
+#### Proposition 5 {#top-i-s2-prop-5 .statement tag=0B0J}
 
 Let $X$ be a set, $(Z_i)_{i \in I}$ a family of topological spaces, $(J_\lambda)_{\lambda \in L}$ a partition of $I$ and $(Y_\lambda)_{\lambda \in L}$ a family of sets indexed by $L$. Also for each $\lambda \in L$ let $h_\lambda$ be a mapping of $X$ into $Y_\lambda$; for each $\lambda \in L$ and each $i \in J_\lambda$ let $g_{i\lambda}$ be a mapping of $Y_\lambda$ into $Z_i$, and put $f_i = g_{i\lambda} \circ h_\lambda$. If each $Y_\lambda$ carries the coarsest topology for which the mappings $g_{i\lambda} (i \in J_\lambda)$ are continuous, then the coarsest topology on $X$ for which the $f_i$ are continuous is the same as the coarsest topology for which the $h_\lambda$ are continuous.
 
-#### Example 1 {#top-i-s2-n3-exa-1 .statement}
+#### Example 1 {#top-i-s2-n3-exa-1 .statement tag=0B0K}
 
 Inverse image of a topology. Let $X$ be a set, $Y$ a topological space, $f$ a mapping of $X$ into $Y$; the coarsest topology $\mathfrak{T}$ on $X$ for which $f$ is continuous is called the inverse image under $f$ of the topology of $Y$. It follows from Proposition 4 and the formulae for the inverse image of a union and an intersection [Set Theory, R, § 4, formulae (34) and (46)] that the open (resp. closed) sets in the topology $\mathfrak{T}$ are the inverse images under $f$ of the open (resp. closed) sets of $Y$; consequently, for each $x \in X$, the sets $f^{-1}(W)$, where $W$ runs through a fundamental system of neighbourhoods of $f(x)$ in $Y$, form a fundamental system of neighbourhoods of $x$ in the topology $\mathfrak{T}$. In § 3 we shall study, under the name of induced topology, the particular case in which $X$ is a subset of $Y$ and $f$ is the canonical injection $X \to Y$; $X$, with the induced topology, is then called a subspace of $Y$.
 
 For a mapping $f$ of a topological space $X$ into a topological space $X'$ to be continuous it is necessary and sufficient that the topology of $X$ is finer than the inverse image under $f$ of the topology of $X'$.
 
-#### Example 2 {#top-i-s2-n3-exa-2 .statement}
+#### Example 2 {#top-i-s2-n3-exa-2 .statement tag=0B0L}
 
 Least upper bound of a set of topologies. Every family $(\mathfrak{T}_i)_{i \in I}$ of topologies on a set $X$ has a least upper bound $\mathfrak{T}$ in the ordered set of all topologies on $X$, i.e. there exists a topology on $X$ which is coarsest among all the topologies on $X$ which are finer than each of the $\mathfrak{T}_i$. To see this we may apply Proposition 4, taking $Y_i$ to be the set $X$ with the topology $\mathfrak{T}_i$, and $f_i$ to be the identity map $X \to Y_i$; $\mathfrak{T}$ is the coarsest topology for which all the mappings $f_i$ are continuous.
 
 Let $\mathfrak{S}$ be an arbitrary set of subsets of a set $X$; amongst the topologies $\mathfrak{T}$ on $X$ for which the sets of $\mathfrak{S}$ are open, there is a topology $\mathfrak{T}_0$ which is coarser than all the others and which is called the topology generated by $\mathfrak{S}$. For each set $U \in \mathfrak{S}$ let $\mathfrak{T}_U$ be the topology whose open sets are $\varnothing, U$ and $X$ [it is clear that this set of subsets of $X$ satisfies (O_I) and (O_{II})]; then $\mathfrak{T}_0$ is just the least upper bound of the topologies $\mathfrak{T}_U$. By Proposition 4, if $\mathfrak{B}$ is the set of finite intersections of sets belonging to $\mathfrak{S}$, then $\mathfrak{B}$ is a base of the topology $\mathfrak{T}_0$. We say that $\mathfrak{S}$ is a subbase of $\mathfrak{T}_0$.
 
-#### Example 3 {#top-i-s2-n3-exa-3 .statement}
+#### Example 3 {#top-i-s2-n3-exa-3 .statement tag=0B0M}
 
 Product topology. Let $(X_i)_{i \in I}$ be a family of topological spaces. The coarsest topology on the product set $X = \prod_{i \in I} X_i$ for which the projections $\mathrm{pr}_i : X \to X_i$ are continuous mappings is called the *product* of the topologies of the $X_i$; we shall study it in more detail in
 
 ### 4. FINAL TOPOLOGIES
 
-#### Proposition 6 {#top-i-s2-prop-6 .statement}
+#### Proposition 6 {#top-i-s2-prop-6 .statement tag=0B0N}
 
 *Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $Y_i$ into $X$. Let $\mathscr{D}$ be the set of subsets $U$ of $X$ such that $\overline{f}_i^{-1}(U)$ is open in $Y_i$ for each $i \in I$; then $\mathscr{D}$ is the set of open subsets of $X$ in a topology $\mathfrak{T}$ on $X$ which is the final structure on $X$ for the family $(f_i)$ (Set Theory, Chapter IV, § 2, no. 5), and in particular $\mathfrak{T}$ is the finest topology on $X$ for which the mappings $f_i$ are continuous. In other words, if $g$ is a mapping of $X$ into a topological space $Z$, then $g$ is continuous ($X$ carrying the topology $\mathfrak{T}$) if and only if each of the mappings $g \circ f_i$ is continuous.*
 
 It is immediately verified that $\mathscr{D}$ satisfies the axioms $(O_I)$ and $(O_{II})$. [Set Theory, R, § 4, formulae (34) and (46)]. We shall prove the last assertion of the proposition, which implies the other assertions by reason of the general properties of final structures (Set Theory, Chapter IV, § 2, no. 5, criterion CST 18). It is clear that the $f_i$ are continuous in the topology $\mathfrak{T}$, by the definition of $\mathscr{D}$ (no. 1, Theorem 1); hence if $g$ is continuous, so is each mapping $g \circ f_i$ (no. 1, Theorem 2). Conversely, suppose that each $g \circ f_i$ is continuous, and let $V$ be an open set in $Z$; by hypothesis, $\overline{f}_i^{-1}(\overline{g}^{-1}(V))$ is open in $Y_i$ for each $i \in I$; hence $\overline{g}^{-1}(V) \in \mathscr{D}$, and the proof is complete.
 
-#### Corollary {#top-i-s2-n4-cor-1 .statement}
+#### Corollary {#top-i-s2-n4-cor-1 .statement tag=0B0O}
 
 *Under the hypotheses of Proposition 6, a subset $F$ of $X$ is closed in the topology $\mathfrak{T}$ if and only if $\overline{f}_i^{-1}(F)$ is closed in $Y_i$ for each $i \in I$.*
 
@@ -231,7 +233,7 @@ This follows from the definition of the open sets in the topology $\mathfrak{T}$
 
 The general properties of final structures (Set Theory, Chapter IV, § 2, no. 5, criterion CST 19) imply the following *transitivity* property (the direct proof of which is also straightforward):
 
-#### Proposition 7 {#top-i-s2-prop-7 .statement}
+#### Proposition 7 {#top-i-s2-prop-7 .statement tag=0B0P}
 
 *Let $X$ be a set, $(Z_i)_{i \in I}$ a family of topological spaces, $(J_\lambda)_{\lambda \in L}$ a partition of $I$, and $(Y_\lambda)_{\lambda \in L}$ a family of sets indexed by $L$. Also, for each $\lambda \in L$ let $h_\lambda$ be a mapping of $Y_\lambda$ into $X$; for each $\lambda \in L$ and each $i \in J_\lambda$ let $g_{\lambda i}$ be a mapping of $Z_i$ into $Y_\lambda$, and put $f_i = h_\lambda \circ g_{\lambda i}$. If each $Y_\lambda$ carries the finest topology for which the mappings $g_{\lambda i} (i \in J_\lambda)$ are continuous, then the finest topology on $X$ for which the $f_i$ are continuous is the same as the finest topology for which the $h_\lambda$ are continuous.*
 
@@ -245,7 +247,7 @@ Examples
 
 The following proposition generalizes the situation of Example 3:
 
-#### Proposition 8 {#top-i-s2-prop-8 .statement}
+#### Proposition 8 {#top-i-s2-prop-8 .statement tag=0B0Q}
 
 Let $X$ be a set, $(X_\lambda)_{\lambda \in L}$ a family of subsets of $X$. Suppose each $X_\lambda$ carries a topology $\mathfrak{T}_\lambda$ such that, for each pair of indices $(\lambda, \mu)$:
 1) $X_\lambda \cap X_\mu$ is open (resp. closed) in each of the topologies $\mathfrak{T}_\lambda, \mathfrak{T}_\mu$.
@@ -285,7 +287,7 @@ Now suppose that each $X_\lambda$ is a *topological space*, and let $\mathfrak{T
 
 Since the restriction of $\varphi$ to each $X_\lambda$ is a bijection onto the subset $X'_\lambda = \varphi(X_\lambda)$ of $X/R$, we can transport the topology $\mathfrak{T}_\lambda$ to $X'_\lambda$ by means of this bijection, so that $X'_\lambda$ carries a topology $\mathfrak{T}'_\lambda$; and the topology $\mathfrak{T}$ on $X/R$ is the *finest* for which the canonical injections $X'_\lambda \to X/R$ are continuous. In general, the topology induced by $\mathfrak{T}$ on $X'_\lambda$ is *coarser* than $\mathfrak{T}'_\lambda$, but not identical with the latter; even if the $h_{\mu \lambda}$ are homeomorphisms (§ 3, Exercise 15). However, it follows from no. 4, Proposition 8 that, with the preceding notation:
 
-#### Proposition 9 {#top-i-s2-prop-9 .statement}
+#### Proposition 9 {#top-i-s2-prop-9 .statement tag=0B0R}
 
 *Suppose that the* $h_{\mu \lambda}$ *are homeomorphisms and that each* $A_{\lambda \mu}$ *is open (resp. closed)* *in* $X_\lambda$; *then each* $\varphi(X_\lambda)$ *is open (resp. closed)* *in* $X/R$ *and the restriction of* $\varphi$ *to* $X_\lambda$ *is a homeomorphism of* $X_\lambda$ *onto the subspace* $\varphi(X_\lambda)$ *of* $X/R$.
 

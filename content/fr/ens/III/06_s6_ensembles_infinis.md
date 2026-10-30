@@ -34,7 +34,7 @@ subsections:
       pdf_page: 154
 statements: 24
 exercises: 33
-content_sha256: 41b5aca4d4b602c8ce5281511afac92994211a99592fbe175741c2b5eddb4d15
+content_sha256: 18681510bee0f9aa062e594ef82251405d602574cccc7b3994c9789ed8c10c4e
 ---
 
 ## § 6. ENSEMBLES INFINIS
@@ -168,22 +168,22 @@ $$
 $$
 l’application $g$ de $Z$ dans $Z \times Z$ égale à $f$ dans $F$ et à $f_1$ dans $Y$ est alors une bijection qui prolonge $f$, ce qui est contraire à la définition de $f$.
 
-#### Corollaire 1 {#ens-iii-s6-lem-2-cor-1 .statement}
+#### Corollaire 1 {#ens-iii-s6-lem-2-cor-1 .statement tag=0E46}
 
 *Si $a$ est un cardinal infini, on a $a^n = a$ pour tout entier $n \geqslant 1$.*
 C’est évident par récurrence sur $n$.
 
-#### Corollaire 2 {#ens-iii-s6-lem-2-cor-2 .statement}
+#### Corollaire 2 {#ens-iii-s6-lem-2-cor-2 .statement tag=0E47}
 
 *Le produit d’une famille finie $(\alpha_i)_{i \in I}$ de cardinaux non nuls, dont le plus grand est un cardinal infini $\alpha$, est égal à $\alpha$.*
 Soit $b$ ce produit, et soit $n$ le nombre d’éléments de $I$; on a $b \leqslant \alpha^n = \alpha$ (III, p. 30, prop. 14); d’autre part, comme $\alpha_i \geqslant 1$ pour tout $i$, on a $b \geqslant \alpha$ (III, p. 30, prop. 14).
 
-#### Corollaire 3 {#ens-iii-s6-lem-2-cor-3 .statement}
+#### Corollaire 3 {#ens-iii-s6-lem-2-cor-3 .statement tag=0E48}
 
 *Soient $a$ un cardinal infini, et $(\alpha_i)_{i \in I}$ une famille de cardinaux $\leqslant a$ dont l’ensemble d’indices $I$ ait un cardinal $\leqslant a$. On a alors $\sum_{i \in I} \alpha_i \leqslant a$; en outre, si $\alpha_i = a$ pour un indice $i$ au moins, $\sum_{i \in I} \alpha_i = a$.*
 Soit $b$ le cardinal de $I$; on a alors $\sum_{i \in I} \alpha_i \leqslant ab \leqslant a^2 = a$ (III, p. 30, prop. 14) et $\sum_{i \in I} \alpha_i \geqslant \alpha_\kappa$ pour tout $\kappa \in I$.
 
-#### Corollaire 4 {#ens-iii-s6-lem-2-cor-4 .statement}
+#### Corollaire 4 {#ens-iii-s6-lem-2-cor-4 .statement tag=0E49}
 
 *Si $a$ et $b$ sont deux cardinaux non nuls dont l’un est infini, on a $ab = a + b = \sup(a, b)$.*
 Cela résulte aussitôt des cor. 2 et 3.
@@ -229,7 +229,7 @@ $$
 $$
 D'autre part, comme $x \mapsto \{x\}$ est une application injective de E dans $\mathfrak{F}(E)$, on a $\text{Card}(E) \leq \text{Card}(\mathfrak{F}(E))$.
 
-#### Corollaire {#ens-iii-s6-n4-cor-1 .statement}
+#### Corollaire {#ens-iii-s6-n4-cor-1 .statement tag=0E4A}
 
 L'ensemble S des suites finies d'éléments d'un ensemble infini E est équipotent à E.
 En effet, S est la réunion des $E^I$, où I parcourt l'ensemble $\mathfrak{F}(\mathbf{N})$ des parties finies de $\mathbf{N}$. Or, pour $I \in \mathfrak{F}(\mathbf{N})$ et $I \neq \varnothing$, $E^I$ est équipotent à E, et $\mathfrak{F}(\mathbf{N})$ est dénombrable en vertu de la prop. 5. On a donc

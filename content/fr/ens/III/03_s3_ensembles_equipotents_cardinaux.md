@@ -38,7 +38,7 @@ subsections:
       pdf_page: 133
 statements: 32
 exercises: 6
-content_sha256: 8b6a8facedddabb20d69e280a1e60838d1e968ca0b86c3ced3178badf40a938d
+content_sha256: 6861f7057136c1978555691f072ece04f57f80bdbc0b4699dc5fc5339848bb18
 ---
 
 ## § 3. ENSEMBLES ÉQUIPOTENTS. CARDINAUX
@@ -335,7 +335,7 @@ Posons $b_i = \alpha_i$ pour $i \in J$, et $b_i = 0$ (resp. $b_i = 1$) pour $i \
 
 On a en effet $a^b \leq a'^{b'}$ d'après les prop. 10 (III, p. 28) et 14, et $a'^b \leq a'^{b'}$ d'après la prop. 10 et le cor. 1 de la prop. 14.
 
-#### Théorème 2 (Cantor) {#ens-iii-s3-thm-2 .statement}
+#### Théorème 2 (Cantor) {#ens-iii-s3-thm-2 .statement tag=03R8}
 
 *Pour tout cardinal* $a$, *on a* $2^a > a$.
 

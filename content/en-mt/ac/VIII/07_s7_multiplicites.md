@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 28
 exercises: 25
-content_sha256: 0c64a79c5df3302209427c15825dd612b9acdfaa91017b23a402dff55f583d99
+content_sha256: fa1a39aac1d59ff3a24bb8eb668666cbb33bb03e2b64fc3482e9a0d47c36942a
 translated_from: content/fr/ac/VIII/07_s7_multiplicites.md
 source_lang: fr
 translation_method: machine
@@ -59,13 +59,13 @@ $$
 
 where $\beta_n$ tends to a limit as $n$ increases indefinitely.
 
-#### Definition 1 {#ac-viii-s7-def-1 .statement}
+#### Definition 1 {#ac-viii-s7-def-1 .statement tag=0CS8}
 
 The integer $e_q(M)$ is called the multiplicity of the A-module M relative to the ideal q.
 
 It is also denoted by $e_q^A(M)$ when it is desired to mention the ring A. When A is local with maximal ideal m, one writes $e(M)$ or $e^A(M)$ for $e_m(M)$ or $e_m^A(M)$.
 
-#### Remark 1 {#ac-viii-s7-n1-rem-1 .statement}
+#### Remark 1 {#ac-viii-s7-n1-rem-1 .statement tag=0CS9}
 
 If q’ is an ideal of A contained in the radical of A and containing q, one has $e_{q'}(M) \leqslant e_q(M)$ and, if the q’-adic filtration of M is q-good, one has $e_{q'}(M) = e_q(M)$ (§ 4, No. 3, th. 2).
 2) If M is of finite length, one has $e_q(M) = \operatorname{long}_A(M)$ (§ 4, No. 3, remark 3).
@@ -90,24 +90,24 @@ $$
 
 It follows from remarks 2 and 3 that $e_q(M)$ depends only on the graded A/q-module $\operatorname{gr}_q(M)$. Consequently:
 
-#### Proposition 1 {#ac-viii-s7-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s7-prop-1 .statement tag=0CSD}
 
 Let $\hat{A}$ and $\hat{M}$ be the completions of A and M for their q-adic topologies; then $e_q^A(M) = e_{q\hat{A}}(\hat{M})$.
 
-#### Proposition 2 {#ac-viii-s7-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s7-prop-2 .statement tag=0CSE}
 
 Suppose that A is local regular (§ 5, No. 1, def. 1); one has $e(A) = 1$.
 This follows from th. 1 of § 5, No. 2.
 
-#### Remark 5 {#ac-viii-s7-n1-rem-5 .statement}
+#### Remark 5 {#ac-viii-s7-n1-rem-5 .statement tag=0CSF}
 
 It may happen that $e(A) = 1$ without A being regular (p. 104, exerc. 5). In fact, a local noetherian ring A is regular if and only if $\hat{A}$ is integral and if one has $e(A) = 1$ (p. 108, exerc. 24).
 
-#### Example {#ac-viii-s7-n1-exa-1 .statement}
+#### Example {#ac-viii-s7-n1-exa-1 .statement tag=0CSG}
 
 By definition one has $e_{q,r}(M) = r^d e_q(M)$ where $d = \dim_A(M)$. Consequently, if A is local regular, one has $e_{m_A^r}(A) = r^d$. For example, if A is a discrete valuation ring, one has $e_q(A) = \operatorname{long}(A/q)$.
 
-#### Proposition 3 {#ac-viii-s7-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s7-prop-3 .statement tag=0CSH}
 
 *Let M be a finitely generated A-module, of dimension d ≥ 0. Let Φ be the set of minimal elements p of Supp(M) such that dim(A/p) = d. Let q be an ideal of A, contained in the radical of A, and such that M/qM is of finite length. One has*
 
@@ -115,7 +115,7 @@ $$
 e_q(M) = \sum_{p \in \Phi} \operatorname{long}_{A_p}(M_p).e_q(A/p).
 $$
 
-#### Corollary {#ac-viii-s7-n1-cor-1 .statement}
+#### Corollary {#ac-viii-s7-n1-cor-1 .statement tag=0CSI}
 
 *Suppose A semi-local and let q be an ideal of definition of A.
 a) One has $e_q(A) = \sum_p e_q(A/p)$, where p runs through the set of minimal prime ideals of A such that $\dim(A/p) = \dim(A)$.
@@ -123,7 +123,7 @@ b) Suppose A integral and let M be a finitely generated A-module such that $\dim
 
 ### 2. Multiplicities and flat extensions
 
-#### Proposition 4 {#ac-viii-s7-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s7-prop-4 .statement tag=0CSJ}
 
 *Let ρ : A → B be a local homomorphism of local noetherian rings, and let N be a finitely generated B-module, flat over A, and such that N ⊗_A κ_A is a B-module of finite length. If M is a nonzero finitely generated A-module and q an ideal of A distinct from A and such that M/qM is of finite length, then (M ⊗_A N)/(qB)(M ⊗_A N) is a B-module of finite length, and one has*
 
@@ -133,7 +133,7 @@ $$
 
 Let L be an A-module of finite length r. Then L possesses a Jordan-Hölder sequence of length r, with quotients isomorphic to κ_A; since N is flat over A, the B-module L ⊗_A N possesses a composition sequence of length r, with quotients isomorphic to N ⊗_A κ_A, hence is of length r · long_B(N ⊗_A κ_A). Since the B-module (M ⊗_A N)/(qB)^n(M ⊗_A N) is isomorphic to (M/q^nM) ⊗_A N for every $n \in \mathbf{N}$, the proposition follows from the definition of multiplicities.
 
-#### Corollary {#ac-viii-s7-n2-cor-1 .statement}
+#### Corollary {#ac-viii-s7-n2-cor-1 .statement tag=0CSK}
 
 *Suppose that B is flat over A and that ρ(m_A) B = m_B. Then*
 
@@ -143,13 +143,13 @@ $$
 
 This applies in particular when B is the completion \* or the henselisation \* of A relative to an ideal distinct from A, \* or a blowing-up of A, for example a strict henselisation of A. \*
 
-#### Example {#ac-viii-s7-n2-exa-1 .statement}
+#### Example {#ac-viii-s7-n2-exa-1 .statement tag=0CSL}
 
 \* Let X be a complex algebraic variety, $\mathscr{O}_{X,x}$ the local ring of X at a rational point x, $X^{an}$ the analytic space associated with X; let x again denote the point of $X^{an}$ corresponding to x, and let $\mathscr{O}_{X^{an},x}$ be the local ring of $X^{an}$ at x. Then $e(\mathscr{O}_{X^{an},x}) = e(\mathscr{O}_{X,x})$. \*
 
 ### 3. Multiplicities and finite extensions
 
-#### Proposition 5 {#ac-viii-s7-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s7-prop-5 .statement tag=0CSM}
 
 Suppose A semi-local, and let $\rho : A \to B$ be a ring homomorphism making B a finitely generated A-module. Let N be a nonzero finitely generated B-module, and let q be an ideal of A contained in the radical of A, such that $N/qN$ is of finite length. Among the maximal ideals of B (finite in number, by IV, § 2, No. 5, cor. 3 to prop. 9), let us denote by $m_1, ..., m_r$ those for which one has $\dim_{B_{m_i}}(N_{m_i}) = \dim_B(N)$. Put $B_i = B_{m_i}$ and $q_i = qB_i$ for $1 \leq i \leq r$. Then one has the equalities
 
@@ -171,11 +171,11 @@ $$
 
 $m$ ranging over the set of maximal ideals of B; this is in fact evident when E is one of the $B/m$, and the general case follows from this, since E possesses a composition series whose quotients are isomorphic to $B/m$. Applying this formula to the B-modules $N/q^{n+1}N$, one deduces the required equality by definition of the multiplicities.
 
-#### Corollary {#ac-viii-s7-n3-cor-1 .statement}
+#### Corollary {#ac-viii-s7-n3-cor-1 .statement tag=0CSN}
 
 If $[B/m_i : A/\rho^{-1}(m_i)] = 1$ for every i, one has $e_q^A(N) = e_{qB}^B(N)$.
 
-#### Lemma 1 {#ac-viii-s7-lem-1 .statement}
+#### Lemma 1 {#ac-viii-s7-lem-1 .statement tag=0CSO}
 
 Let $\rho : A \to B$ be a ring homomorphism, and let $p$ be a prime ideal of A. Consider the following two properties:
 (i) the canonical homomorphism $\tilde{\rho}$ of $A_p$ into $A_p \otimes_A B$ is bijective;
@@ -190,7 +190,7 @@ If condition (i) is satisfied, there exists (V, § 2, No. 1, Lemma 1) a unique p
 
 Conversely, suppose that (ii) is satisfied, and let $r$ be the unique prime ideal of $B$ lying over $p$. Since $(S^{-1}B)_{S^{-1}r}$ is identified with $B_r$, it is enough to prove that $S^{-1}B$ is local with maximal ideal $S^{-1}r$, that is to say, that every prime ideal $q$ of $B$ such that $\rho^{-1}(q) \subset p$ is contained in $r$. If $p$ is minimal, one has $\rho^{-1}(q) = p$, hence $q = r$. If $B$ is integral over $A$, there exists, by V, § 2, no. 1, cor. 2 to th. 1, a prime ideal $r'$ of $B$ such that $q \subset r'$ and $\rho^{-1}(r') = p$; necessarily one has $r' = r$, hence $q \subset r$.
 
-#### Lemma 2 {#ac-viii-s7-lem-2 .statement}
+#### Lemma 2 {#ac-viii-s7-lem-2 .statement tag=0CSP}
 
 *Suppose that $A$ is semi-local; let $q$ be an ideal of definition of $A$, and let $\rho : A \to B$ be a ring homomorphism making $B$ into a finitely generated $A$-module. Suppose that, for every prime ideal (necessarily minimal) $p$ of $A$ such that $\dim(A/p) = \dim(A)$, there exists a unique prime ideal $r$ of $B$ lying over $p$ and that the canonical homomorphism $\rho_p : A_p \to B_r$ is bijective. Then one has $\dim_A(B) = \dim(A)$ and $e_q^A(B) = e_q^A(A)$.*
 
@@ -226,19 +226,19 @@ $$
 
 by Lemma 1, one has $\operatorname{long}_{A_p}(A_p \otimes_A B) = 1$ for every $p \in \mathfrak{S}_A$, whence $e_q^A(A) = e_q^A(B)$.
 
-#### Proposition 6 {#ac-viii-s7-prop-6 .statement}
+#### Proposition 6 {#ac-viii-s7-prop-6 .statement tag=0CSQ}
 
 *Suppose $A$ semi-local and reduced; let $q$ be an ideal of definition of $A$; let $A'$ be the total ring of fractions of $A$, and let $B$ be a finite $A$-subalgebra of $A'$. Then $B$ is semi-local and $qB$ is an ideal of definition of it. Suppose that, for every maximal ideal m of B such that dim(B_m) = dim(B), one has [B/m : A/(A ∩ m)] = 1. Then one has $e_q^A(A) = e_{q_B}^B(B)$.
 
 By IV, § 2, No. 5, cor. 3 of prop. 9, B is semi-local with ideal of definition qB. One has $e_{q_B}^B(B) = e_q^A(B)$ by the corollary to Proposition 5. Since A′ is identified with $\prod_p A_p$ where p runs through the set of minimal prime ideals of A (IV, § 2, No. 5, prop. 10), the canonical mapping $A_p \to A_p \otimes_A B$ is bijective for every minimal prime ideal p of A. It then follows from Lemmas 1 and 2 that $e_q^A(B) = e_q^A(A)$, whence the proposition.
 
-#### Example {#ac-viii-s7-n3-exa-1 .statement}
+#### Example {#ac-viii-s7-n3-exa-1 .statement tag=0CSR}
 
 Let k be a field of characteristic $\neq 2$ and take for A the local ring $k[[X, Y]]/(X^2 + Y^2)$ with residue field k. Take $B = k[[X, T]]/(T^2 + 1)$ where $T = Y/X$. Distinguish two cases: if — 1 is the square of an element i of k, B has two maximal ideals generated respectively by {X, T + i} and {X, T − i}, they have residue field k, and one has $e_{m_A}^A(A) = e_{m_{AB}}^B(B) = 2$. If — 1 is not a square in k, B has a unique maximal ideal (X) with residue field $k[T]/(T^2 + 1)$, and one has $e_{m_A}^A(A) = 2,\ e_{m_{AB}}^B(B) = 1$.
 
 ### 4. Multiplicities and secant sequences
 
-#### Proposition 7 {#ac-viii-s7-prop-7 .statement}
+#### Proposition 7 {#ac-viii-s7-prop-7 .statement tag=0CSS}
 
 Suppose A local. Let s be an integer $\geq 1$ and, for $1 \leq i \leq s$, let $\delta_i$ be an integer $> 0$, $x_i$ an element of $m_A^{\delta_i}$, and $\xi_i$ its class in $m_A^{\delta_i}/m_A^{\delta_i+1}$. Suppose that $(x_1, ..., x_s)$ is a secant sequence for A. Let x denote the ideal of A generated by $(x_1, ..., x_s)$. Then one has $e(A/x) \geq \delta_1 ... \delta_s \cdot e(A)$, with equality if $(\xi_1, ..., \xi_s)$ is a completely secant sequence for gr(A).
 
@@ -275,11 +275,11 @@ $$
 $$
 and equality holds if the sequence $(\xi_1, ..., \xi_s)$ is completely secant. One concludes by Lemma 2 of § 4, No. 1.
 
-#### Remark {#ac-viii-s7-n4-rem-1 .statement}
+#### Remark {#ac-viii-s7-n4-rem-1 .statement tag=0CST}
 
 One can prove conversely (*cf.* p. 103, exerc. 4) that if A is regular and $e(A/x) = \delta_1 ... \delta_s$, then the sequence $(\xi_1, ..., \xi_s)$ is completely secant.
 
-#### Example {#ac-viii-s7-n4-exa-1 .statement}
+#### Example {#ac-viii-s7-n4-exa-1 .statement tag=0CSU}
 
 Let $A$ be a ring of formal series $k[[X_1, ..., X_n]]$ over a field $k$; let $F_1, ..., F_s$ be elements of A, a the ideal which they generate, and $B = A/a$. Let $P_1, ..., P_s \in k[X_1, ..., X_n]$ be the initial forms of the series $F_1, ..., F_s$ and $\delta_1, ..., \delta_s$ their respective degrees. If the sequence $F_1, ..., F_s$ is secant in A, one has $e(B) \geq \delta_1 ... \delta_s$; if the sequence $P_1, ..., P_s$ is completely secant in the ring $k[X_1, ..., X_n]$, one has $e(B) = \delta_1 ... \delta_s$.
 
@@ -289,7 +289,7 @@ Consider for example the ring $B = k[[X, Y]]/a$, where a is generated by $X^2 + 
 
 In this number, q denotes an ideal of A contained in the radical of A, and M a nonzero finitely generated A-module such that $M/qM$ is of finite length.
 
-#### Proposition 8 {#ac-viii-s7-prop-8 .statement}
+#### Proposition 8 {#ac-viii-s7-prop-8 .statement tag=0CSV}
 
 Let $\delta > 0$ be an integer, x an element of $q^\delta$, $\xi$ its class in $\mathrm{gr}_\delta(A) = q^\delta/q^{\delta+1}$ and $\varphi$ the multiplication by $\xi$ in the gr(A)-module gr(M).
 
@@ -354,7 +354,7 @@ Let $n \geq 1$ be an integer. Replace $x$ by $x^n$ in (2); one therefore has
 
 It is immediate that the submodules $\operatorname{Ker} \varphi^n$ of the noetherian gr(A)-module gr(M) form an increasing sequence and hence are stationary, and that each of them is of finite length over $A/q$. Dividing by $n \geq 1$ in inequality (3) and making $n$ tend to $+ \infty$, one finds $e_{xA}(M) = \delta e_q(M)$ by definition of $e_{xA}(M)$.
 
-#### Lemma 3 {#ac-viii-s7-lem-3 .statement}
+#### Lemma 3 {#ac-viii-s7-lem-3 .statement tag=0CSW}
 
 Let $R$ be a noetherian graded ring with degrees $\geq 0$, $E$ a graded $R$-module of finite type such that $E_n$ is an $R_0$-module of finite length for every $n \in \mathbf{Z}$.
 The following conditions are equivalent:
@@ -366,23 +366,23 @@ The following conditions are equivalent:
 (iii) ⇒ (i): let $p$ be a prime ideal associated with E. If (iii) is satisfied, one has $p = p_0 + R_+$ where $p_0$ is a prime ideal of $R_0$, and the R-module $R/p$ is isomorphic to $R_0/p_0$. By IV, § 3, No. 1, corollary of Prop. 1, the $R_0$-module $R_0/p_0$ is isomorphic to a submodule of one of the $E_k$, hence is of finite length. Consequently, $R/p$ is of finite length. By IV, § 2, No. 5, Prop. 7, $p$ is therefore maximal. In view of the arbitrariness of $p$, the R-module E is of finite length (loc. cit.).
 (i) ⇒ (iii): let $p$ be a prime ideal associated with E. Then $p$ is graded (IV, § 3, No. 1, Prop. 1) and maximal (IV, § 2, No. 5, Prop. 7), hence contains $R_+$ (§ 6, No. 2, Lemma 1).
 
-#### Proposition 9 {#ac-viii-s7-prop-9 .statement}
+#### Proposition 9 {#ac-viii-s7-prop-9 .statement tag=0CSX}
 
 Let us denote by $p_1, ..., p_r$ those prime ideals of the graded ring $\mathrm{gr}(A) = \bigoplus_n (q^n/q^{n+1})$ which are associated with the graded module $\mathrm{gr}(M) = \bigoplus_n (q^n M/q^{n+1} M)$ and do not contain $\mathrm{gr}_1(A) = q/q^2$. Let $\delta$ be an integer $> 0$, $\xi$ an element of $\mathrm{gr}_\delta(A)$, and $\varphi : \mathrm{gr}(M) \to \mathrm{gr}(M)$ the homothety of ratio $\xi$ in $\mathrm{gr}(M)$. For $\varphi_n$ to be injective for every $n$ sufficiently large, it is necessary and sufficient that $\xi$ belong to none of the $p_i$.
 In fact, the prime ideals associated with the $\mathrm{gr}(A)$-module $\mathrm{Ker}\, \varphi$ are those of the prime ideals associated with $\mathrm{gr}(M)$ which contain $\xi$ (IV, § 1, No. 1, Def. 1). By Lemma 3, $(\mathrm{Ker}\, \varphi)_n$ is zero for $n$ sufficiently large, if and only if all these ideals contain $\mathrm{gr}_+(A)$ (or, what amounts to the same, $\mathrm{gr}_1(A)$), whence the proposition.
 
-#### Definition 2 {#ac-viii-s7-def-2 .statement}
+#### Definition 2 {#ac-viii-s7-def-2 .statement tag=0CSY}
 
 Let A be a noetherian ring, q an ideal of A contained in the radical of A, and M a finitely generated A-module such that $M/qM$ is of finite length. An element x of A is said to be superficial for M relative to q if it belongs to q and if, for every $n$ sufficiently large, the mapping $q^n M/q^{n+1} M \to q^{n+1} M/q^{n+2} M$ induced by multiplication by x is injective.
 
-#### Remark 1 {#ac-viii-s7-n5-rem-1 .statement}
+#### Remark 1 {#ac-viii-s7-n5-rem-1 .statement tag=0CSZ}
 
 Let $\delta$ be an integer $> 0$. One sometimes says that an element x of A is superficial of order $\delta$ for M relative to q if $x \in q^\delta$, and if, for all $n$ sufficiently large, the mapping $q^n M/q^{n+1} M \to q^{n+\delta} M/q^{n+\delta+1} M$ induced by multiplication by x is injective. With this terminology, the superficial elements in the sense of Def. 2 are the superficial elements of order 1.
 2) With the notation of Prop. 9, x is superficial of order $\delta$ if and only if its class $\xi$ in $\mathrm{gr}_\delta(A)$ does not belong to any of the $p_i$.
 3) By III, § 1, No. 4, Prop. 8, there exists a homogeneous element of $\mathrm{gr}(A)$ of degree $> 0$ which does not belong to any of the $p_i$. Consequently, there exist an integer $\delta > 0$ and a superficial element of order $\delta$ for M.
 4) Suppose A local with residue field k, and consider the canonical surjective mapping $\lambda : q \to q \otimes_A k$. It is the composite of the canonical mappings $q \to q/q^2$ and $\bar{\lambda} : q/q^2 \to q \otimes_A k$. By Nakayama's lemma, each of the vector subspaces $V_i = \bar{\lambda}(p_i \cap (q/q^2))$ of $q \otimes_A k$ is distinct from $q \otimes_A k$; if $\alpha \in q \otimes_A k$ does not belong to any of the $V_i$, then $\lambda^{-1}(\alpha)$ consists of superficial elements for M (Prop. 9). If k is infinite, the union of the $V_i$ is distinct from $q \otimes_A k$ and there therefore exist superficial elements for M.
 
-#### Theorem 1 {#ac-viii-s7-thm-1 .statement}
+#### Theorem 1 {#ac-viii-s7-thm-1 .statement tag=0CT3}
 
 Let $A$ be a noetherian ring, $q$ an ideal of $A$ contained in the radical of $A$ and $M$ a finitely generated $A$-module such that $M/qM$ is of finite length. Let $x_1, ..., x_m$ be a finite sequence of elements of $q$. Put $x = Ax_1 + \cdots + Ax_m \subset q$.
 
@@ -410,7 +410,7 @@ $$
 
 Since $x$ is contained in $q$, this implies $e_x(M) = e_q(M)$ (No. 1, Remark 1), and completes the proof.
 
-#### Corollary {#ac-viii-s7-n5-cor-1 .statement}
+#### Corollary {#ac-viii-s7-n5-cor-1 .statement tag=0CT4}
 
 Suppose that $A$ is local, with infinite residue field, and set $d = \dim_A(M)$. There exists a sequence $x_1, ..., x_d$ of elements of $q$ such that, on setting $x = Ax_1 + \cdots + Ax_d$, one has
 
@@ -420,7 +420,7 @@ $$
 
 This follows at once from the theorem and Remark 4.
 
-#### Remark 5 {#ac-viii-s7-n5-rem-5 .statement}
+#### Remark 5 {#ac-viii-s7-n5-rem-5 .statement tag=0CT5}
 
 In the situation of the preceding corollary, one has
 

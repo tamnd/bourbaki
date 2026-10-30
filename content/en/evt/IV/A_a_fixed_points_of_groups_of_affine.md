@@ -29,7 +29,7 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 076881490dd895a4130169f869629c7d393bc61787c9bab8671b5d069b539f9f
+content_sha256: a3148232ea5c844b272b5847081786d07ced849332b19697c848a4c2a2b6e871
 ---
 
 ## APPENDIX
@@ -53,7 +53,7 @@ for every finite set I, points $x_i$ in K and positive real numbers $t_i$ such t
 
 Let $u$ and $v$ be two affine transformations on K, then the mapping $u \circ v$ is an affine transformation on K. If $v : E \to E$ is a linear mapping such that $v(K) \subset K$, the mapping $u : K \to K$ which coincides with $v$ on K is an affine transformation.
 
-#### Theorem 1 (Markoff-Kakutani) {#evt-iv-a0-thm-1 .statement}
+#### Theorem 1 (Markoff-Kakutani) {#evt-iv-a0-thm-1 .statement tag=07WI}
 
 — *Let E be a Hausdorff locally convex vector space over the field $\mathbf{R}$, and K a non-empty compact convex subset of E. Let $\Gamma$ be a set of continuous affine transformations on K, pairwise permutable. Then there exists a point a in K such that $u(a) = a$ for all $u \in \Gamma$.*
 
@@ -63,7 +63,7 @@ Since K is compact, hence also bounded (III, p. 3, prop. 2), the sequence $(u^n(
 
 Each of the sets $K_u$ is a closed and convex subset of the compact space K, and we shall prove that the intersection $\bigcap_{u \in \Gamma} K_u$ is non-empty. For this it is enough to prove that, for $n \geq 1$, and $u_1, ..., u_n$ in $\Gamma$, the set $K_{u_1} \cap ... \cap K_{u_n}$ is non-empty. The case $n = 1$ having been considered, we argue by induction on $n$. Suppose $n \geq 2$ and put $L = K_{u_1} \cap ... \cap K_{u_{n-1}}$. By the hypothesis of induction, L is a non-empty compact convex subset of E. Since $u_n$ commutes with $u_1, ..., u_{n-1}$, we have $u_n(L) \subset L$. Applying the first part of the proof to the affine transformation induced by $u_n$ on L, we conclude that there exists a point $a$ in L such that $u_n(a) = a$; then $a$ belongs to $K_{u_1} \cap ... \cap K_{u_n}$, which is then non-empty.
 
-#### Corollary {#evt-iv-a0-n1-cor-1 .statement}
+#### Corollary {#evt-iv-a0-n1-cor-1 .statement tag=07WJ}
 
 — *Let G be a solvable group of continuous affine transformations on K. Then there exists a point in K which is invariant under G.*
 
@@ -73,13 +73,13 @@ By the definition of a solvable group (A, I, § 6, No. 4) there exists a finite 
 
 Let X be a topological space. Let $\mathscr{B}(X; \mathbf{R})$ denote the real vector space consisting of continuous bounded mappings from X into $\mathbf{R}$. Endowed with the norm $\|f\| = \sup_{x \in X} |f(x)|$, this is a Banach space (GT, X, § 3, No. 1); it is also an ordered vector space, where the relation $f \geq g$ means «$f(x) \geq g(x)$ for all $x \in X$».
 
-#### Definition 1 {#evt-iv-a0-def-1 .statement}
+#### Definition 1 {#evt-iv-a0-def-1 .statement tag=07WK}
 
 *A positive linear form $\mu$ on the space $\mathscr{B}(X; \mathbf{R})$, where X is a topological space, for which $\|\mu\| = 1$, is called a mean on X.*
 
 \* When X is compact, a mean on X is a positive measure on X such that $\mu(X) = 1$. \*
 
-#### Lemma 1 {#evt-iv-a0-lem-1 .statement}
+#### Lemma 1 {#evt-iv-a0-lem-1 .statement tag=07WL}
 
 *The set K of means on X is the subset of the unit ball of the dual of the Banach space $E = \mathscr{B}(X; \mathbf{R})$ whose elements are the linear forms $\mu$ such that $\mu(1) = 1$. It is a subset of $E'$ which is convex and compact for $\sigma(E', E)$.*
 
@@ -107,11 +107,11 @@ If $K$ is assigned the topology induced by $\sigma(E', E)$, the mapping $u_{\gam
 
 In an analogous way, the corollary of th. 1 (IV, p. 40) implies the following result:
 
-#### Proposition 1 {#evt-iv-a0-prop-1 .statement}
+#### Proposition 1 {#evt-iv-a0-prop-1 .statement tag=07WM}
 
 *Let $X$ be a topological space and $G$ a solvable group. We assume that $G$ operates on $X$ on the left, in such a way that for all $g \in G$, the mapping $x \mapsto g.x$ from $X$ into $X$ is continuous. Then there exists a mean on $X$ which is invariant under $G$.*
 
-#### Corollary {#evt-iv-a0-n2-cor-1 .statement}
+#### Corollary {#evt-iv-a0-n2-cor-1 .statement tag=07WN}
 
 *Let $G$ be a solvable topological group. Then there exists a mean on $G$ which is invariant under the left and the right translations.*
 
@@ -130,7 +130,7 @@ d) There exist two normed spaces $F_1$ and $F_2$ such that $E = \mathscr{L}(F_1 
 
 Let $K$ be a convex subset of $E$. Suppose that $K$ is compact (for the topology $\mathscr{T}$), and that $K$ satisfies the first axiom of countability for the distance defined by the norm of $E$.
 
-#### Lemma 2 {#evt-iv-a0-lem-2 .statement}
+#### Lemma 2 {#evt-iv-a0-lem-2 .statement tag=07WO}
 
 Suppose $K$ contains at least two points. For every $\varepsilon > 0$, there exists a partition of $K$ into two non-empty subsets $K_1$ and $K_2$, having the following properties :
 
@@ -155,7 +155,7 @@ $$
 $$
 This completes the proof.
 
-#### Lemma 3 {#evt-iv-a0-lem-3 .statement}
+#### Lemma 3 {#evt-iv-a0-lem-3 .statement tag=07WP}
 
 Let G be a group of continuous (for $\mathscr{T}$) affine transformations on K. Suppose that K is non-empty and that $\|gx - gy\| = \|x - y\|$ for all x, y in K and all g in G. Then there exists a point in K which is invariant under G.
 
@@ -175,13 +175,13 @@ for $i = 1, 2$. By property (A), we have $gx_i \in L_1$. Since $L_1$ is convex, 
 
 Let $L'$ be the closed convex envelope of the orbit $Gx$ of x. The set $L'$ belongs to $\mathfrak{J}$. By the preceding argument, we have $L' \subset L_1$, hence $L' \subset L, L' \neq L$. This contradicts the minimal character of L and the proof is complete.
 
-#### Theorem 2 (Ryll-Nardzewski) {#evt-iv-a0-thm-2 .statement}
+#### Theorem 2 (Ryll-Nardzewski) {#evt-iv-a0-thm-2 .statement tag=07WQ}
 
 — *Let E be a normed space and K a non-empty convex subset of E, which is compact for the weakened topology $\sigma(E, E')$. Let G be a group of isometric affine transformations of K. Then there exists a point in K which is invariant under G.*
 
 For every $g \in G$, let $K_g$ denote the set of all points x in K such that $gx = x$; let K be assigned the weakened topology; each set $K_g$ is convex and closed in the compact space K. We shall prove that the intersection $\bigcap_{g \in G} K_g$ is non-empty; for this, it is enough to prove that the set $K_{g_1} \cap ... \cap K_{g_n}$ is non-empty for every $g_1, ..., g_n$ in G. Fix $g_1, ..., g_n$ and let H be the subgroup of G generated by $\{ g_1, ..., g_n \}$. Choose a point a in K and let L denote the closed convex envelope of the orbit Ha of a. Let D be the countable set of elements of the form $\lambda_1 h_1 a + \cdots + \lambda_m h_m a$, where $\lambda_1, ..., \lambda_m$ are positive rational numbers such that $\lambda_1 + \cdots + \lambda_m = 1$, and $h_1, ..., h_m$ are elements in H. The closure $\overline{D}$ of D for the strong topology, is convex, hence it is closed for $\sigma(E, E')$ (IV, p. 4, prop. 2); therefore $\overline{D} = L$ and this proves that L is a metric space satisfying the first axiom of countability for the distance $(x, y) \mapsto \|x - y\|$. We can now apply lemma 2. There exists a point b in L which is invariant under H, hence $b \in K_{g_1} \cap ... \cap K_{g_n}$.
 
-#### Corollary {#evt-iv-a0-n3-cor-1 .statement}
+#### Corollary {#evt-iv-a0-n3-cor-1 .statement tag=07WR}
 
 — Let E be a reflexive Banach space, G a group of automorphisms of the normed space E, and K a subset of E. Suppose that K is non-empty, convex, closed, bounded and stable under G. Then there exists a point in K which is invariant under G.
 

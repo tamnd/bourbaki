@@ -41,7 +41,7 @@ subsections:
       pdf_page: 149
 statements: 34
 exercises: 22
-content_sha256: ef610c576b1c5424da1c4c9098b939cf947cf30cfb392a796f3b32fce1b8bcf9
+content_sha256: 6c4eb0493e87881d119a006781c3daf08e367fbc7958c47a9fe9bd422dcc471a
 translated_from: content/en-mt/alg/X/08_s8_dimension_homologique.md
 source_lang: en-mt
 translation_method: machine
@@ -59,18 +59,18 @@ Trong tiết này, ta áp dụng các quy ước của § 5.
 
 ### 1. Chiều xạ ảnh của một môđun
 
-#### Định nghĩa 1 {#alg-x-s8-def-1 .statement}
+#### Định nghĩa 1 {#alg-x-s8-def-1 .statement tag=0E0P}
 
 *Cho $M$ là một $A$-môđun. Chiều xạ ảnh của $M$, ký hiệu bởi $\mathrm{dp}_A(M)$, là cận dưới lớn nhất trong $\overline{\mathbf{Z}}$ của các độ dài của các giải xạ ảnh của $M$* (X, p. 48).
 
 Do đó ta có $\mathrm{dp}_A(0) = -\infty$, $\mathrm{dp}_A(M) \geq 0$ nếu $M \neq 0$. Để $M$ là xạ ảnh, điều kiện cần và đủ là $\mathrm{dp}_A(M) \leq 0$.
 
-#### Bổ đề 1 {#alg-x-s8-lem-1 .statement}
+#### Bổ đề 1 {#alg-x-s8-lem-1 .statement tag=0E0Q}
 
 *Nếu $\mathrm{dp}_A(M) < n < +\infty$, thì $\mathrm{Ext}_A^n(M, N) = 0$ với mọi $A$-môđun $N$ và $\mathrm{Tor}_n^A(P, M) = 0$ với mọi $A$-môđun phải $P$.
 Điều này suy ra ngay lập tức từ sự kiện rằng $M$ có một giải xạ ảnh có độ dài $< n$ và từ X, p. 100, Định lý 1.*
 
-#### Mệnh đề 1 {#alg-x-s8-prop-1 .statement}
+#### Mệnh đề 1 {#alg-x-s8-prop-1 .statement tag=0E0R}
 
 *Cho $M$ là một $A$-môđun và $n$ là một số nguyên $\geq 0$. Các điều kiện sau là tương đương* :
 (i) $\mathrm{dp}_A(M) \leq n$ (*tức là* (định. 1), $M$ có một giải xạ ảnh có độ dài $\leq n$);
@@ -95,7 +95,7 @@ $$
 $$
 Nếu (iv) đúng, thì $Z_{n-1}(M)$ là xạ ảnh và $M$ có một giải xạ ảnh có độ dài $\leq n$.
 
-#### Hệ quả 1 {#alg-x-s8-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s8-prop-1-cor-1 .statement tag=0E0S}
 
 Cho $(M_i)_{i \in E}$ là một họ các $A$-môđun. Ta có
 $$
@@ -105,7 +105,7 @@ $$
 
 Trong mệnh đề sau, ta quy ước rằng $\pm \infty + 1 = \pm \infty - 1 = \pm \infty$.
 
-#### Hệ quả 2 {#alg-x-s8-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s8-prop-1-cor-2 .statement tag=0E0T}
 
 Cho
 $$
@@ -152,7 +152,7 @@ $$
 
 theo dãy khớp trước đó; theo mệnh đề 1, điều này ngay lập tức suy ra $\mathrm{dp}_A(M'')=\mathrm{dp}_A(M')+1$, vì một trong các đại lượng $\mathrm{dp}_A(M')$, $\mathrm{dp}_A(M'')$ là $>\mathrm{dp}_A(M)$.
 
-#### Ví dụ {#alg-x-s8-n1-exa-1 .statement}
+#### Ví dụ {#alg-x-s8-n1-exa-1 .statement tag=0E0U}
 
 Cho $a$ là một phần tử của A không khả nghịch cũng không là một ước của không phải.
 Khi đó $\mathrm{dp}_A(A/Aa)=1$.
@@ -165,7 +165,7 @@ $$
 
 và $a$ là khả nghịch.
 
-#### Mệnh đề 2 {#alg-x-s8-prop-2 .statement}
+#### Mệnh đề 2 {#alg-x-s8-prop-2 .statement tag=0E0V}
 
 Giả sử A là Noether trái. Cho M là một A-môđun sinh hữu hạn và n là một số nguyên $\geq0$. Các điều kiện sau là tương đương:
 
@@ -202,7 +202,7 @@ $$
 
 Theo (v) và X, p. 131, hệ quả 3, ta có $\operatorname{Tor}^A_1(A/a,K)=0$ với mọi iđêan phải sinh hữu hạn $a$ của A. Theo định lý 2 của X, p. 74, A-môđun K là phẳng; vì nó sinh hữu hạn, do đó có biểu diễn hữu hạn (X, p. 10, mệnh đề 5), nên nó là xạ ảnh (X, p. 13, hệ quả), vậy (1) là một phân giải xạ ảnh của M.
 
-#### Hệ quả {#alg-x-s8-n1-cor-1 .statement}
+#### Hệ quả {#alg-x-s8-n1-cor-1 .statement tag=0E0W}
 
 Giả sử $A$ là Noether trái và gọi $\mathscr{C}_0$ (tương ứng $\mathscr{C}$) là tập hợp các lớp của các $A$-môđun xạ ảnh kiểu hữu hạn (tương ứng của các $A$-môđun có chiều xạ ảnh hữu hạn và kiểu hữu hạn). Khi đó đồng cấu của các nhóm Grothendieck $K(\mathscr{C}_0) \to K(\mathscr{C})$ là song ánh.
 
@@ -230,7 +230,7 @@ $$
 \operatorname{Tor}_n^A(P, M) \to \operatorname{Hom}_A(\operatorname{Ext}_A^n(M, A), P).
 $$
 
-#### Mệnh đề 3 {#alg-x-s8-prop-3 .statement}
+#### Mệnh đề 3 {#alg-x-s8-prop-3 .statement tag=0E0X}
 
 a) Nếu $\mathrm{dp}_A(M) \leqslant n$, đồng cấu chính tắc (3) là đơn ánh.
 b) Nếu $\mathrm{dp}_A(M) \leqslant n$, nếu $A$ là Noether trái và nếu $M$ là kiểu hữu hạn, đồng cấu chính tắc (3) là song ánh.
@@ -290,7 +290,7 @@ là đơn ánh (tương ứng song ánh); biểu đồ (5) cho thấy điều t�
 
 ### 3. Chiều đồng điều của một vành
 
-#### Định nghĩa 2 {#alg-x-s8-def-2 .statement}
+#### Định nghĩa 2 {#alg-x-s8-def-2 .statement tag=0E0Y}
 
 Ta gọi chiều đồng điều của $A$ và ký hiệu bởi $\operatorname{dh}(A)$ là cận trên trong $\mathbf{Z}$ của tập hợp các số nguyên $n$ sao cho tồn tại hai $A$-môđun M và N thỏa mãn $\operatorname{Ext}_A^n(M,N)\neq 0$.
 
@@ -300,7 +300,7 @@ $$
 \operatorname{dh}(K[X_1,\ldots,X_n])=n.
 $$
 
-#### Mệnh đề 4 {#alg-x-s8-prop-4 .statement}
+#### Mệnh đề 4 {#alg-x-s8-prop-4 .statement tag=0E0Z}
 
 Cho $n$ là một số nguyên $\geq 0$. Các điều kiện sau là tương đương:
 
@@ -342,15 +342,15 @@ của X, p. 52, ta kết luận rằng $K^{n-1}(M)$ là đơn ánh, do đó (v).
 
 (v) $\Rightarrow$ (i): điều này suy ra từ X, p. 100, định lý 1.
 
-#### Nhận xét 1 {#alg-x-s8-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s8-n3-rem-1 .statement tag=0E10}
 
 Nếu $\mathrm{dh}(A) \leq n < +\infty$, ta có $\mathrm{Tor}_{n+1}^A(P, M) = 0$ đối với mọi $A$-môđun $M$ và mọi $A$-môđun phải $P$, vì $\mathrm{dp}_A(M) \leq n$ (xem bổ đề 1).
 
-#### Nhận xét 2 {#alg-x-s8-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s8-n3-rem-2 .statement tag=0E11}
 
 Để $\mathrm{dh}(A)$ hữu hạn, điều kiện cần và đủ là $\mathrm{dp}_A(M)$ hữu hạn đối với mọi $A$-môđun khác không $M$. Điều này thực sự suy ra từ điều trên và từ X, p. 135, hệ quả 1.
 
-#### Hệ quả {#alg-x-s8-n3-cor-1 .statement}
+#### Hệ quả {#alg-x-s8-n3-cor-1 .statement tag=0E12}
 
 Giả sử $A$ là Noether trái và cho $n$ là một số nguyên $> 0$. Các điều kiện sau là tương đương:
 
@@ -362,11 +362,11 @@ Giả sử $A$ là Noether trái và cho $n$ là một số nguyên $> 0$. Các 
 
 Điều này suy ra từ các Mệnh đề 2 và 4.
 
-#### Nhận xét {#alg-x-s8-n3-rem-3 .statement}
+#### Nhận xét {#alg-x-s8-n3-rem-3 .statement tag=0E13}
 
 Theo sự tương đương của (i) và (iii), ta có $\mathrm{dh}(A) = \mathrm{dh}(A^\circ)$ nếu $A$ là Noether trái và phải. Đẳng thức này không đúng trong trường hợp tổng quát (X, p. 204, Bài tập 20).
 
-#### Mệnh đề 5 {#alg-x-s8-prop-5 .statement}
+#### Mệnh đề 5 {#alg-x-s8-prop-5 .statement tag=0E14}
 
 Giả sử $A$ là Noether trái và có chiều đồng điều hữu hạn, và gọi $\mathscr{C}_0$ (tương ứng $\mathscr{C}$) là tập hợp các lớp tương đương của các A-môđun xạ ảnh sinh hữu hạn (tương ứng của các A-môđun). Khi đó đồng cấu chính tắc của các nhóm Grothendieck $K(\mathscr{C}_0) \to K(\mathscr{C})$ là song ánh.
 
@@ -374,7 +374,7 @@ Giả sử $A$ là Noether trái và có chiều đồng điều hữu hạn, v�
 
 ### 4. Các vành có chiều đồng điều 0
 
-#### Mệnh đề 6 {#alg-x-s8-prop-6 .statement}
+#### Mệnh đề 6 {#alg-x-s8-prop-6 .statement tag=0E15}
 
 Các điều kiện sau là tương đương :
 (i) mọi A-môđun đều xạ ảnh,
@@ -390,7 +390,7 @@ Theo Mệnh đề 4, ta có (i) ⇔ (ii) ⇔ (iv); theo Hệ quả 1 của Mện
 
 ### 5. Các vành có chiều đồng điều 1
 
-#### Mệnh đề 7 {#alg-x-s8-prop-7 .statement}
+#### Mệnh đề 7 {#alg-x-s8-prop-7 .statement tag=0E16}
 
 Các điều kiện sau là tương đương :
 (i) $\mathrm{dh}(A) \leq 1$,
@@ -423,11 +423,11 @@ $(ii)\Rightarrow(ii')$ : điều này là tầm thường.
 
 $(ii')\Rightarrow(ii)$ : điều này suy ra từ VII, § 3, Hệ quả 1 của Định lý 1.
 
-#### Ví dụ {#alg-x-s8-n5-exa-1 .statement}
+#### Ví dụ {#alg-x-s8-n5-exa-1 .statement tag=0E17}
 
 Nếu $A$ là chính, thì $\operatorname{dh}(A) \leq 1$.
 
-#### Nhận xét {#alg-x-s8-n5-rem-1 .statement}
+#### Nhận xét {#alg-x-s8-n5-rem-1 .statement tag=0E18}
 
 Nếu $A$ là một miền (giao hoán), các điều kiện trước đó cũng tương đương với các điều kiện sau :
 
@@ -437,7 +437,7 @@ Nếu $A$ là một miền (giao hoán), các điều kiện trước đó cũng
 
 Các miền thỏa mãn các điều kiện này được gọi là các vành Dedekind (xem X, p. 204, Bài tập 12 và AC, VII, § 2, No. 2, Th. 1).
 
-#### Hệ quả {#alg-x-s8-n5-cor-1 .statement}
+#### Hệ quả {#alg-x-s8-n5-cor-1 .statement tag=0E19}
 
 Cho $A$ là một vành có chiều đồng điều $\leq 1$, $C$ là một phức các A-môđun xạ ảnh, $\widetilde{C}$ là một phức các A-môđun phải xạ ảnh, $C'$ là một phức các A-môđun đơn ánh, $P$ là một A-môđun phải, $M$ là một A-môđun trái, và $n$ là một số nguyên. Khi đó tồn tại các dãy khớp tách
 
@@ -461,7 +461,7 @@ Vì $Z(C)$, $B(C)$, $Z(\widetilde C)$, và $B(\widetilde C)$ là xạ ảnh và 
 
 ### 6. Chiều đồng điều của các vành đa thức
 
-#### Bổ đề 2 {#alg-x-s8-lem-2 .statement}
+#### Bổ đề 2 {#alg-x-s8-lem-2 .statement tag=0E1A}
 
 Cho $\rho : A\to A'$ là một đồng cấu vành, M là một A-môđun, M′ là một A′-môđun. Nếu A-môđun $A'_d$ là phẳng, ta có $\mathrm{dp}_A(A'\otimes_A M)\leq\mathrm{dp}_A(M)$. Nếu A-môđun $A'_s$ là xạ ảnh, ta có $\mathrm{dp}_A(M')\leq\mathrm{dp}_{A'}(M')$.
 
@@ -485,7 +485,7 @@ $$
 
 trong đó các $P'_i$ là xạ ảnh ; dãy cơ sở của các $A$-môđun là khớp. Hơn nữa mỗi $P'_i$ là một nhân tử trực tiếp môđun con-$A'$ của một môđun ${A'_s}^{(1)}$, do đó là một $A$-môđun xạ ảnh ; do đó ta có $\mathrm{dp}_A(M') \leq m = \mathrm{dp}_{A'}(M')$.
 
-#### Bổ đề 3 {#alg-x-s8-lem-3 .statement}
+#### Bổ đề 3 {#alg-x-s8-lem-3 .statement tag=0E1B}
 
 *Giả sử A giao hoán và cho M là một a[X]-môđun.*
   a) *Ta có* $\mathrm{dp}_A(M) \leq \mathrm{dp}_{A[X]}(M) \leq \mathrm{dp}_A(M) + 1$.
@@ -537,7 +537,7 @@ $$
 
 do đó c).
 
-#### Định lý 1 {#alg-x-s8-thm-1 .statement}
+#### Định lý 1 {#alg-x-s8-thm-1 .statement tag=0E1C}
 
 *Giả sử $A$ giao hoán. Khi đó*
 
@@ -559,7 +559,7 @@ $$
 
 do đó $dh(A) \leq dh(A[X]) - 1$.
 
-#### Hệ quả 1 {#alg-x-s8-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s8-thm-1-cor-1 .statement tag=0E1D}
 
 *Giả sử $A$ giao hoán. Ta có*
 
@@ -569,7 +569,7 @@ $$
 
 Điều này suy ra từ định lý bằng quy nạp theo $n$.
 
-#### Hệ quả 2 {#alg-x-s8-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s8-thm-1-cor-2 .statement tag=0E1E}
 
 *Cho $K$ là một trường giao hoán* (tương ứng *một miền iđêan chính* *hoặc một vành Dedekind* *không là trường*). *Khi đó* $dh(K[X_1, ..., X_n])$ *bằng* $n$ (tương ứng $n + 1$). Điều này suy ra từ sự kiện rằng $dh(K) = 0$ (tương ứng $dh(K) = 1$).
 
@@ -577,13 +577,13 @@ $$
 
 Trong tiết diện này, ta giả sử rằng $A$ là một vành phân bậc với các bậc $\geq 0$. Ta ký hiệu bởi $(A_n)_{n \in \mathbf{Z}}$ sự phân bậc của nó; do đó ta có $A_n = 0$ với $n < 0$, $A_0$ là một vành con của $A$, $J_0 = \bigoplus_{n > 0} A_n$ là một iđêan hai phía của $A$ và vành thương phân bậc $A/J_0$ được đồng nhất với $A_0$.
 
-#### Bổ đề 4 {#alg-x-s8-lem-4 .statement}
+#### Bổ đề 4 {#alg-x-s8-lem-4 .statement tag=0E1F}
 
 Cho $M$ là một $A$-môđun phân bậc bị chặn dưới (X, p. 56). Nếu $A_0 \otimes_A M = 0$, thì $M = 0$.
 
 Vì $A_0 \otimes_A M$ đẳng cấu với $M/J_0 M$, đây chính là ll, p. 171, mệnh đề 6.
 
-#### Bổ đề 5 {#alg-x-s8-lem-5 .statement}
+#### Bổ đề 5 {#alg-x-s8-lem-5 .statement tag=0E1G}
 
 Cho $M$ là một $A$-môđun phân bậc bị chặn dưới, và cho
 $$
@@ -601,7 +601,7 @@ $$
 $$
 Nếu $\mathrm{Tor}_1^A(A_0, M) = 0$, thì $A_0 \otimes_A \mathrm{Ker}\ s = 0$ và $s$ là đơn ánh (Bổ đề 4).
 
-#### Mệnh đề 8 {#alg-x-s8-prop-8 .statement}
+#### Mệnh đề 8 {#alg-x-s8-prop-8 .statement tag=0E1H}
 
 Cho $M$ là một $A$-môđun phân bậc bị chặn dưới.
 
@@ -658,13 +658,13 @@ $$
 
 Nhưng đồng cấu chính tắc $M_a\longrightarrow M^{(a)}/J_0M^{(a)}$ là song ánh. Suy ra rằng đồng cấu $1\otimes f:M^{(a)}/J_0M^{(a)}\longrightarrow M/J_0M$ là đơn ánh và ảnh của nó là một môđun con hạng tử trực tiếp-$A_0$ của $M/J_0M$. Khi đó từ dãy khớp (7) suy ra $\operatorname{Tor}_1^A(A_0,M')=0$ và môđun-$A_0$ $M'/J_0M'$ là phẳng vì đẳng cấu với một nhân tử trực tiếp của $M/J_0M$. Theo giả thiết quy nạp (áp dụng cho $M'$ vì nó được sinh bởi các $M'_i$ với $a<i\leq b$), $M'$ thỏa mãn điều kiện (i), do đó là phẳng. Ta suy ra từ dãy khớp (6) rằng $\operatorname{Tor}_1^A(A_0,M^{(a)})=0$, nhưng $M^{(a)}/J_0M^{(a)}$ được đồng nhất với $M_a$, là một môđun-$A_0$ phẳng (như một môđun con hạng tử trực tiếp của $M/J_0M$) ; theo điều đã được chứng minh, môđun $A$ phân bậc $M^{(a)}$ đẳng cấu với $A\otimes_{A_0}M_a$, do đó cũng thỏa mãn (i), điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 {#alg-x-s8-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s8-prop-8-cor-1 .statement tag=0E1I}
 
 Cho $M$ là một môđun $A$ phân bậc kiểu hữu hạn. Nếu môđun-$A_0$ $M/J_0M$ là xạ ảnh (tương ứng, tự do phân bậc, tương ứng, phẳng) và nếu $\operatorname{Tor}_1^A(A_0,M)=0$, thì môđun-$A$ $M$ là xạ ảnh (tương ứng, tự do phân bậc, tương ứng, phẳng).
 
-#### Hệ quả 2 {#alg-x-s8-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s8-prop-8-cor-2 .statement tag=0E1J}
 
-#### Hệ quả 3 (Định lý Syzygy của Hilbert) {#alg-x-s8-prop-8-cor-3 .statement}
+#### Hệ quả 3 (Định lý Syzygy của Hilbert) {#alg-x-s8-prop-8-cor-3 .statement tag=0E1K}
 *Giả sử rằng $A_0$ là một trường giao hoán và rằng $A$ được sinh như một $A_0$-đại số bởi $n$ phần tử thuần nhất có bậc > 0 và độc lập đại số. Với mọi môđun $a$ phân bậc $M$ bị chặn dưới (tương ứng, kiểu hữu hạn), tồn tại một dãy khớp của các môđun $a$ phân bậc và các ánh xạ thuần nhất bậc $0$*
 $$
 0 \to L_n \to L_{n-1} \to \ldots \to L_0 \to M \to 0,
@@ -673,19 +673,19 @@ trong đó các $L_i$ là tự do phân bậc và bị chặn dưới (tương �
 
 Thật vậy, $dh(A) = n$ theo Định lý 1 của X, p. 143, và Hệ quả 2 được áp dụng.
 
-#### Nhận xét {#alg-x-s8-n7-rem-1 .statement}
+#### Nhận xét {#alg-x-s8-n7-rem-1 .statement tag=0E1L}
 *Hệ quả 2 cũng áp dụng trong các trường hợp sau:
 a) $A_0$ là chính và $A = A_0[X_1, ..., X_{n-1}]$;
 b) $A_0$ là một vành Noether địa phương chính quy có chiều $r$ và $A = A_0[X_1, ..., X_n, r]$.*
 
-#### Hệ quả 4 {#alg-x-s8-prop-8-cor-4 .statement}
+#### Hệ quả 4 {#alg-x-s8-prop-8-cor-4 .statement tag=0E1M}
 *Giả sử rằng $A_0$ là nửa đơn. Cho $M$ là một $a$-môđun phân bậc bị chặn dưới và cho $n$ là một số nguyên $\geq 0$. Để $\mathrm{dp}_A(M) \leq n$, điều kiện cần và đủ là*
 $$
 \operatorname{Tor}_{n+1}^A(A_0, M) = 0.
 $$
 Nếu $\mathrm{dp}_A(M) \leq n$, thì $\operatorname{Tor}_{n+1}^A(A_0, M) = 0$ (X, p. 135, Bổ đề 1). Ngược lại, xét $\dots \to L_1 \to L_0 \to M \to 0$ là một dãy khớp của các $a$-môđun phân bậc bị chặn dưới sao cho $L_0, \dots, L_{n-1}$ là tự do phân bậc (X, p. 56, Mệnh đề 11); theo Hệ quả 3 của X, p. 131, đẳng thức $\operatorname{Tor}_{n+1}^A(A_0, M) = 0$ kéo theo $\operatorname{Tor}_1^A(A_0, K) = 0$; vì $K/J_0 K$ là một $A_0$-môđun xạ ảnh bởi vì $A_0$ là nửa đơn (X, p. 140, Mệnh đề 6), $K$ là xạ ảnh theo Mệnh đề 8 (X, p. 144), và $\mathrm{dp}_A(M) \leq n$.
 
-#### Hệ quả 5 {#alg-x-s8-prop-8-cor-5 .statement}
+#### Hệ quả 5 {#alg-x-s8-prop-8-cor-5 .statement tag=0E1N}
 
 *Giả sử vành $A_0$ nửa đơn. Nếu $\operatorname{Tor}_{n+1}^A(A_0, A_0) = 0$, ta có $\mathrm{dp}_A(M) \leq n$ đối với mọi $A$-môđun phân bậc bị chặn dưới.
 

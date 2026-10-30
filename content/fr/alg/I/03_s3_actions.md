@@ -33,14 +33,14 @@ subsections:
       pdf_page: 38
 statements: 23
 exercises: 10
-content_sha256: 5c753331d16f0c78a23dc4b65dd48fd15e2f3b77d3fb32449f05a89098a29884
+content_sha256: c4e7d8a8c72cbb9f0633132ccc90588617cbb3bfb5cc591a93b61e388bce62d0
 ---
 
 ## § 3. ACTIONS
 
 ### 1. Actions
 
-#### Définition 1 {#alg-i-s3-def-1 .statement}
+#### Définition 1 {#alg-i-s3-def-1 .statement tag=057T}
 
 Soient $\Omega$ et $E$ deux ensembles. On appelle action de $\Omega$ sur $E$ une application de $\Omega$ dans l’ensemble $E^E$ des applications de $E$ dans lui-même.
 
@@ -48,31 +48,31 @@ Soit $\alpha \mapsto f_\alpha$ une action de $\Omega$ sur E. On dit que l’appl
 
 Dans ce chapitre, nous dirons pour abréger « loi d’action » au lieu de « loi d’action à gauche ». L’élément $f_\alpha(x)$ de E (pour $\alpha \in \Omega$ et $x \in E$), est parfois appelé le transformé de x par $\alpha$ ou le composé de $\alpha$ et de x. Pour le désigner, on emploie souvent la notation multiplicative à gauche $\alpha.x$ (resp. à droite $x.\alpha$), le point pouvant être omis; le composé de $\alpha$ et de $x$ s’appelle alors le produit de $\alpha$ et de $x$ (resp. de $x$ et de $\alpha$). On emploie aussi la notation exponentielle $x^\alpha$. Dans les raisonnements des paragraphes suivants, nous utiliserons ordinairement la notation $\alpha \perp x$. Les éléments de $\Omega$ sont souvent appelés opérateurs.
 
-#### Exemple 1 {#alg-i-s3-n1-exa-1 .statement}
+#### Exemple 1 {#alg-i-s3-n1-exa-1 .statement tag=057U}
 
 Soit E un magma associatif, noté multiplicativement. L’application qui, à un entier n strictement positif, fait correspondre l’application $x \mapsto x^n$ de E dans lui-même, est une action de $\mathbf{N}^*$ sur E. Si E est un groupe, l’application qui, à un entier rationnel a, fait correspondre l’application $x \mapsto x^a$ de E dans E, est une action de $\mathbf{Z}$ sur E.
 
-#### Exemple 2 {#alg-i-s3-n1-exa-2 .statement}
+#### Exemple 2 {#alg-i-s3-n1-exa-2 .statement tag=0DDX}
 
 Soit E un magma, de loi notée $\top$. L’application qui, à un élément $x \in E$, fait correspondre l’application $A \mapsto x \top A$ de l’ensemble des parties de E dans lui-même, est une action de E sur $\mathscr{P}(E)$.
 
-#### Exemple 3 {#alg-i-s3-n1-exa-3 .statement}
+#### Exemple 3 {#alg-i-s3-n1-exa-3 .statement tag=0DDY}
 
 Soit E un ensemble. L’application identique de $E^E$ est une action de $E^E$ sur E, dite action canonique. La loi d’action correspondante est l’application $(f, x) \mapsto f(x)$ de $E^E \times E$ dans E.
 
-#### Exemple 4 {#alg-i-s3-n1-exa-4 .statement}
+#### Exemple 4 {#alg-i-s3-n1-exa-4 .statement tag=0DDZ}
 
 Soit $(\Omega_i)_{i \in I}$ une famille d’ensembles. Pour tout $i \in I$, soit $f_i : \Omega_i \to E^E$ une action de $\Omega_i$ sur E. Soit $\Omega$ la somme des $\Omega_i$ (E, II, p. 30). L’application f de $\Omega$ dans $E^E$ prolongeant les $f_i$ est une action de $\Omega$ sur E. Ceci permet de ramener la considération de familles d’actions à celle d’une seule action.
 
-#### Exemple 5 {#alg-i-s3-n1-exa-5 .statement}
+#### Exemple 5 {#alg-i-s3-n1-exa-5 .statement tag=0DE0}
 
 Etant données une action de $\Omega$ sur E de loi notée $\perp$, une partie $\Xi$ de $\Omega$ et une partie X de E, on désigne par $\Xi \perp X$ l’ensemble des $\alpha \perp x$ pour $\alpha \in \Xi$ et $x \in X$; lorsque $\Xi$ est réduite à un élément $\alpha$, on écrit généralement $\alpha \perp X$ au lieu de $\{\alpha\} \perp X$. L’application qui, à $\alpha \in \Omega$, fait correspondre l’application $X \mapsto \alpha \perp X$ est une action de $\Omega$ sur $\mathscr{P}(E)$, dite déduite de l’action donnée par extension à l’ensemble des parties.
 
-#### Exemple 6 {#alg-i-s3-n1-exa-6 .statement}
+#### Exemple 6 {#alg-i-s3-n1-exa-6 .statement tag=0DE1}
 
 Soit $\alpha \mapsto f_\alpha$ une action de $\Omega$ sur E. Soit g une application de $\Omega'$ dans $\Omega$. Alors l’application $\beta \mapsto f_{g(\beta)}$ est une action de $\Omega'$ sur E.
 
-#### Exemple 7 {#alg-i-s3-n1-exa-7 .statement}
+#### Exemple 7 {#alg-i-s3-n1-exa-7 .statement tag=0DE2}
 
 Soit $f : E \times E \to E$ une loi de composition sur un ensemble E. L’application $\gamma : x \mapsto \gamma_x$ (resp. $\delta : x \mapsto \delta_x$) (I, p. 14) qui, à un élément $x \in E$ fait correspondre la translation à gauche (resp. à droite) par $x$, est une action de E sur lui-même; on l’appelle l’action à gauche (resp. à droite) de E sur lui-même déduite de la loi donnée. Lorsque $f$ est commutative, ces deux actions coïncident.
 
@@ -97,27 +97,27 @@ quels que soient $\alpha \in \Omega$ et $x \in E$.
 
 ### 2. Parties stables pour une action. Action induite
 
-#### Définition 2 {#alg-i-s3-def-2 .statement}
+#### Définition 2 {#alg-i-s3-def-2 .statement tag=057V}
 
 *Une partie A d’un ensemble E est dite stable pour une action $\alpha \mapsto f_\alpha$ de $\Omega$ sur E si l’on a $f_\alpha(A) \subset A$ pour tout $\alpha \in \Omega$. Un élément x de E est dit invariant par un élément $\alpha$ de $\Omega$ si $f_\alpha(x) = x$.*
 
 L’intersection d’une famille de parties stables de E pour une action donnée est stable. Il existe donc une plus petite partie stable de E contenant une partie X donnée; elle est dite *engendrée* par X; elle se compose des éléments $(f_{\alpha_1} \circ f_{\alpha_2} \circ \cdots \circ f_{\alpha_n})(x)$, où $x \in X, n \geqslant 0, \alpha_i \in \Omega$ pour tout i.
 
-#### Remarque {#alg-i-s3-n2-rem-1 .statement}
+#### Remarque {#alg-i-s3-n2-rem-1 .statement tag=057W}
 
 Soit E un magma, de loi notée $\tau$. On prendra garde qu’une partie A de E stable pour l’action à gauche de E sur lui-même n’est pas nécessairement stable pour l’action à droite de E sur lui-même; une partie A de E stable pour l’action à gauche (resp. à droite) de E sur lui-même, est stable pour la loi de E, mais la réciproque est en général inexacte. Plus précisément, A est stable pour la loi de E si et seulement si l’on a $A \tau A \subset A$, alors que A est stable pour l’action à gauche (resp. à droite) de E sur lui-même si et seulement si l’on a $E \tau A \subset A$ (resp. $A \tau E \subset A$).
 
-#### Exemple {#alg-i-s3-n2-exa-1 .statement}
+#### Exemple {#alg-i-s3-n2-exa-1 .statement tag=057X}
 
 Prenons pour magma E l’ensemble $\mathbf{N}$ muni de la multiplication. L’ensemble $\{1\}$ est stable pour la loi interne de $\mathbf{N}$, mais la partie stable pour l’action de $\mathbf{N}$ sur lui-même engendrée par $\{1\}$ est $\mathbf{N}$ tout entier.
 
-#### Définition 3 {#alg-i-s3-def-3 .statement}
+#### Définition 3 {#alg-i-s3-def-3 .statement tag=057Y}
 
 *Soient $\alpha \mapsto f_\alpha$ une action de $\Omega$ sur E, A une partie stable de E. L’application qui, à un élément $\alpha \in \Omega$, fait correspondre la restriction de $f_\alpha$ à A (considérée comme application de A dans lui-même), est une action de $\Omega$ sur A dite induite par l’action donnée.*
 
 ### 3. Action quotient
 
-#### Définition 4 {#alg-i-s3-def-4 .statement}
+#### Définition 4 {#alg-i-s3-def-4 .statement tag=057Z}
 
 *Soit $\alpha \mapsto f_\alpha$ une action d’un ensemble $\Omega$ sur un ensemble E. On dit qu’une relation d’équivalence R dans E est compatible avec l’action donnée si, quels que soient les éléments x et y de E tels que $x \equiv y \pmod{R}$ et quel que soit $\alpha \in \Omega$, on a $f_\alpha(x) \equiv f_\alpha(y) \pmod{R}$. L’application qui, à un élément $\alpha \in \Omega$, associe l’application de $E/R$ dans lui-même déduite de $f_\alpha$ par passage aux quotients, est une action de $\Omega$ sur $E/R$, appelée quotient de l’action de $\Omega$ sur E.*
 
@@ -127,7 +127,7 @@ Nous laissons au lecteur le soin d’énoncer et de démontrer les analogues des
 
 ### 4. Distributivité
 
-#### Définition 5 {#alg-i-s3-def-5 .statement}
+#### Définition 5 {#alg-i-s3-def-5 .statement tag=0580}
 
 Soient $E_1, \ldots, E_n$ et F des ensembles et u une application de $E_1 \times \ldots \times E_n$ dans F. Soit $i \in \{1, n\}$. Supposons $E_i$ et F munis de structures de magmas. On dit que u est distributive relativement à la variable d’indice i si l’application partielle
 
@@ -146,11 +146,11 @@ u(a_1, \ldots, a_{i-1}, x_i \top x'_i, a_{i+1}, \ldots, a_n)
 $$
 pour $a_1 \in E_1, \ldots, a_{i-1} \in E_{i-1}, x_i \in E_i, x'_i \in E_i, a_{i+1} \in E_{i+1}, \ldots, a_n \in E_n$.
 
-#### Exemple {#alg-i-s3-n4-exa-1 .statement}
+#### Exemple {#alg-i-s3-n4-exa-1 .statement tag=0581}
 
 Soient E un monoïde (resp. un groupe), noté multiplicativement. L’application $(n, x) \mapsto x^n$ de $\mathbf{N} \times E$ (resp. $\mathbf{Z} \times E$) dans E est distributive par rapport à la première variable d’après la formule $x^{m+n} = x^m x^n$ (on munit $\mathbf{N}$ de l’addition). Si E est commutatif, cette application est distributive par rapport à la deuxième variable d’après la formule $(xy)^n = x^n y^n$.
 
-#### Proposition 1 {#alg-i-s3-prop-1 .statement}
+#### Proposition 1 {#alg-i-s3-prop-1 .statement tag=0582}
 
 Soient $E_1, E_2, \ldots, E_n$ et F des monoïdes commutatifs notés additivement et soit u une application de $E_1 \times \ldots \times E_n$ dans F, distributive par rapport à toutes les variables. Pour chaque $i \in \{1, n\}$, soient $L_i$ un ensemble fini non vide et $(x_{i,\lambda})_{\lambda \in L_i}$ une famille d’éléments de $E_i$. On pose $y_i = \sum_{\lambda \in L_i} x_{i,\lambda}$ pour $i \in \{1, n\}$. On a
 
@@ -180,13 +180,13 @@ $$
 $$
 d’après la formule (7) de I, p. 9. On déduit immédiatement (2) de (3), (4) et (5).
 
-#### Remarque {#alg-i-s3-n4-rem-1 .statement}
+#### Remarque {#alg-i-s3-n4-rem-1 .statement tag=0583}
 
 Si l’on a $u(a_1, \ldots, a_{i-1}, 0, a_{i+1}, \ldots, a_n) = 0$ pour $i \in \{1, n\}$ et $a_j \in E_j$ ($j \neq i$), alors la formule (2) reste valable pour des familles $(x_i, \lambda)_{\lambda \in L_i}$ à support fini.
 
 Un cas particulier de la déf. 5 est celui où $u$ est la loi d’action associée à une action d’un ensemble $\Omega$ sur un magma $E$. Si $u$ est distributive par rapport à la seconde variable, on dit encore que l’action de $\Omega$ sur le magma $E$ est distributive. En d’autres termes:
 
-#### Définition 6 {#alg-i-s3-def-6 .statement}
+#### Définition 6 {#alg-i-s3-def-6 .statement tag=0584}
 
 *On dit qu’une action* $\alpha \mapsto f_\alpha$ *d’un ensemble* $\Omega$ *sur un magma* $E$ *est distributive si, pour tout* $\alpha \in \Omega$, *l’application* $f_\alpha$ *est un endomorphisme du magma* $E$.
 
@@ -227,7 +227,7 @@ pour toute séquence $(\alpha_\lambda)_{\lambda \in L}$ d’éléments de $\Omeg
 
 ### 5. Distributivité d’une loi interne par rapport à une autre
 
-#### Définition 7 {#alg-i-s3-def-7 .statement}
+#### Définition 7 {#alg-i-s3-def-7 .statement tag=0585}
 
 Soient $\top$ et $\perp$ deux lois internes sur un ensemble $E$. On dit que la loi $\perp$ est distributive par rapport à la loi $\top$ si l’on a
 
@@ -247,7 +247,7 @@ $$x . (y + z) = x . y + x . z$$
 $$(13)$$
 $$(x + y) . z = x . z + y . z$$
 
-#### Exemple 1 {#alg-i-s3-n5-exa-1 .statement}
+#### Exemple 1 {#alg-i-s3-n5-exa-1 .statement tag=0586}
 
 Dans l’ensemble $\mathscr{P}(E)$ des parties d’un ensemble $E$, chacune des lois internes $\cap$ et $\cup$ est distributive par rapport à elle-même et à l’autre. Cela résulte des formules du type
 $$
@@ -257,15 +257,15 @@ A \cup (B \cap C) &= (A \cup B) \cap (A \cup C).
 \end{align*}
 $$
 
-#### Exemple 2 {#alg-i-s3-n5-exa-2 .statement}
+#### Exemple 2 {#alg-i-s3-n5-exa-2 .statement tag=0DE3}
 
 Dans $\mathbf{Z}$ (et plus généralement, dans tout ensemble totalement ordonné) chacune des lois sup et inf est distributive par rapport à l’autre et par rapport à elle-même.
 
-#### Exemple 3 {#alg-i-s3-n5-exa-3 .statement}
+#### Exemple 3 {#alg-i-s3-n5-exa-3 .statement tag=0DE4}
 
 Dans $\mathbf{Z}$ (* et plus généralement dans tout anneau *) la multiplication est distributive par rapport à l’addition.
 
-#### Exemple 4 {#alg-i-s3-n5-exa-4 .statement}
+#### Exemple 4 {#alg-i-s3-n5-exa-4 .statement tag=0DE5}
 
 Dans $\mathbf{N}$, l’addition et la multiplication sont distributives par rapport aux lois sup et inf.
 

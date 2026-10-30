@@ -24,7 +24,7 @@ subsections:
       pdf_page: 144
 statements: 17
 exercises: 13
-content_sha256: efc67622d60dde2e3802e9a9d9ac1274c0f02e798cbe9657be03362fb3fcc9dd
+content_sha256: a15178792b3c8868689d37edeac4c080857e3e1533f7a37be518dc8de65fe376
 ---
 
 ## § 3. Convolution des mesures sur les groupes.
@@ -54,7 +54,7 @@ $$
 $$
 d’après le § 1, n° 1, exemple 3. Si $G$ est commutatif, dire que $\mu_1$ et $\mu_2$ sont convolables équivaut à dire que $\mu_2$ et $\mu_1$ sont convolables, et l’on a alors $\mu_1 * \mu_2 = \mu_2 * \mu_1$. Si $G$ n’est pas commutatif, il peut arriver que $\mu_1$ et $\mu_2$ soient convolables, sans que $\mu_2$ et $\mu_1$ le soient (exerc. 12).
 
-#### Proposition 1 {#int-viii-s3-prop-1 .statement}
+#### Proposition 1 {#int-viii-s3-prop-1 .statement tag=09JB}
 
 Soient $G$ un groupe localement compact, $\lambda, \mu, \nu$ des mesures $\neq 0$ sur $G$.
 (i) Si $\lambda, \mu, \nu$ sont convolables, il en est de même de $\lambda$ et $\mu$, de $|\lambda| * |\mu|$ et $\nu$, de $\mu$ et $\nu$, de $\lambda$ et $|\mu| * |\nu|$, et l’on a
@@ -70,7 +70,7 @@ Il peut exister des mesures $\lambda, \mu, \nu$ sur $G$ telles que les produits 
 
 Soit $\rho$ une fonction $> 0$ finie semi-continue inférieurement sur $G$ telle que $\rho(st) \leq \rho(s)\rho(t)$ quels que soient $s, t$ dans $G$. On notera $\mathscr{M}^\rho(G)$ l'espace vectoriel des mesures $\lambda$ sur $G$ telles que $\rho$ soit $\lambda$-intégrable, et $||\lambda||_\rho$ (ou simplement $||\lambda||$) la norme $\int_G \rho(s)d|\lambda|(s)$ sur cet espace. Pour $\rho = 1$, on retrouve l'ensemble $\mathscr{M}^1(G)$ des mesures bornées sur $G$.
 
-#### Proposition 2 {#int-viii-s3-prop-2 .statement}
+#### Proposition 2 {#int-viii-s3-prop-2 .statement tag=09JC}
 
 (i) Deux éléments quelconques de $\mathscr{M}^\rho(G)$ sont convolables.
 
@@ -104,7 +104,7 @@ On voit que $\lambda * \mu \in \mathscr{M}^o(G)$ et que $||\lambda * \mu|| \leq 
 
 Si $\rho = 1$, la prop. 2, (i) et (ii), résulte aussi du § 1, prop. 2.
 
-#### Proposition 3 {#int-viii-s3-prop-3 .statement}
+#### Proposition 3 {#int-viii-s3-prop-3 .statement tag=09JD}
 
 *Soient $\mu_1, \ldots, \mu_n$ des mesures sur $G$. Si toutes les $\mu_i$, sauf une au plus, sont à support compact, alors les $\mu_i$ sont convolables.*
 
@@ -114,13 +114,13 @@ x_{i_0} \in S_{i_0-1}^{-1} \ldots S_1^{-1} K S_n^{-1} \ldots S_{i_0+1}^{-1}.
 $$
 Donc les $\mu_i$ sont convolables (§ 1, no 4, prop. 4).
 
-#### Proposition 4 {#int-viii-s3-prop-4 .statement}
+#### Proposition 4 {#int-viii-s3-prop-4 .statement tag=09JE}
 
 *L’application $(\lambda, \mu) \to \lambda * \mu$ (resp. $(\lambda, \mu) \to \mu * \lambda$) où $\lambda \in \mathscr{C}'(G)$, $\mu \in \mathscr{M}(G)$, définit sur $\mathscr{M}(G)$ une structure de module à gauche (resp. à droite) sur l’algèbre $\mathscr{C}'(G)$*.
 
 Ceci résulte des prop. 1 et 3.
 
-#### Proposition 5 {#int-viii-s3-prop-5 .statement}
+#### Proposition 5 {#int-viii-s3-prop-5 .statement tag=09JF}
 
 Soient $\lambda$ une mesure de Haar à gauche (resp. à droite) sur $G$, et $\mu \in \mathscr{M}^1(G)$. Alors $\mu$ et $\lambda$ (resp. $\lambda$ et $\mu$) sont convolables, et $\mu * \lambda = \| \mu \| \lambda$ (resp. $\lambda * \mu = \| \mu \| \lambda$).
 
@@ -132,7 +132,7 @@ $$
 
 donc la fonction $(x, y) \to f(xy)$ est $(\mu \otimes \lambda)$-intégrable, et son intégrale pour $\mu \otimes \lambda$ est $\lambda(f) \| \mu \|$. On raisonne de même quand $\lambda$ est une mesure de Haar à droite.
 
-#### Proposition 6 {#int-viii-s3-prop-6 .statement}
+#### Proposition 6 {#int-viii-s3-prop-6 .statement tag=09JG}
 
 Soient $\mu$ et $\nu$ deux mesures convolables sur $G$. Soit $\chi$ une représentation continue de $G$ dans $\mathbf{C}^*$. Alors $\chi . \mu$ et $\chi . \nu$ sont convolables et $(\chi . \mu) * (\chi . \nu) = \chi . (\mu * \nu)$.
 
@@ -153,7 +153,7 @@ $$
 
 d'où $(\chi . \mu) * (\chi . \nu) = \chi . (\mu * \nu)$.
 
-#### Proposition 7 {#int-viii-s3-prop-7 .statement}
+#### Proposition 7 {#int-viii-s3-prop-7 .statement tag=09JH}
 
 Soient $G$ et $G'$ deux groupes localement compacts, $u$ une représentation continue de $G$ dans $G'$, $\mu_1, \ldots, \mu_n$ des mesures sur $G$, toutes $\neq 0$. Alors les assertions suivantes sont équivalentes :
 
@@ -166,7 +166,7 @@ $$
 *_{i} u(\mu_i) = u(*_{i} \mu_i).
 $$
 
-#### Corollaire {#int-viii-s3-n1-cor-1 .statement}
+#### Corollaire {#int-viii-s3-n1-cor-1 .statement tag=09JI}
 
 Soient G un groupe localement compact, $\mu_1, \ldots, \mu_n$ des mesures sur G. Pour que la suite $(\mu_i)_{1 \leq i \leq n}$ soit convolvable, il faut et il suffit que la suite $(\check{\mu}_{n-i})_{0 \leq i \leq n-1}$ le soit, et l’on a alors $(\mu_1 * \ldots * \mu_n)^{\vee} = \check{\mu}_n * \ldots * \check{\mu}_1$.
 
@@ -190,20 +190,20 @@ $$
 $$
 d’après le § 1, no 1, exemple 3.
 
-#### Proposition 8 {#int-viii-s3-prop-8 .statement}
+#### Proposition 8 {#int-viii-s3-prop-8 .statement tag=09JJ}
 
 Soient $\mu$ une mesure sur G, $\nu$ une mesure sur X.
 (i) Si $\mu$ est à support compact, $\mu$ et $\nu$ sont convolvables.
 (ii) Si $\nu$ est à support compact, et si G opère proprement dans X, $\mu$ et $\nu$ sont convolvables.
 Ceci résulte de la prop. 4 du § 1, no 4.
 
-#### Proposition 9 {#int-viii-s3-prop-9 .statement}
+#### Proposition 9 {#int-viii-s3-prop-9 .statement tag=09JK}
 
 Pour la convolution, $\mathscr{M}^1(X)$ est un module à gauche sur $\mathscr{M}^1(G)$, $\mathscr{M}(X)$ et $\mathscr{C}'(X)$ sont des modules à gauche sur $\mathscr{C}'(G)$.
 
 Ceci résulte de la prop. 8, et du § 1, prop. 1, 3, et cor. de la prop. 5.
 
-#### Proposition 10 {#int-viii-s3-prop-10 .statement}
+#### Proposition 10 {#int-viii-s3-prop-10 .statement tag=09JL}
 
 Soient $\mu$ une mesure sur G, $\nu$ une mesure sur X, $\mu$ et $\nu$ étant convolables. Supposons de plus qu’il existe une mesure positive $\beta$ sur X telle que $\gamma(s)\nu$ soit de base $\beta$ quel que soit $s \in G$. Alors $\mu * \nu$ est de base $\beta$.
 
@@ -217,7 +217,7 @@ $$
 
 ### 3. Convolution et représentations linéaires.
 
-#### Proposition 11 {#int-viii-s3-prop-11 .statement}
+#### Proposition 11 {#int-viii-s3-prop-11 .statement tag=09JM}
 
 Soient G un groupe localement compact, E un espace localement convexe quasi-complet, U une représentation continue de G dans E.
 
@@ -241,7 +241,7 @@ d’où (i). Un raisonnement analogue s’applique dans le cas (ii).
 
 Soit toujours G un groupe localement compact, et supposons que G opère continûment à gauche dans un espace localement compact X. Ceci définit (§ 2, n° 4) une représentation linéaire continue $\gamma$ de G dans $\mathscr{M}(X)$ (muni de la topologie de la convergence compacte dans $\mathscr{K}(X)$).
 
-#### Proposition 12 {#int-viii-s3-prop-12 .statement}
+#### Proposition 12 {#int-viii-s3-prop-12 .statement tag=09JN}
 
 Si $\lambda \in \mathscr{C}'(G)$ et $\mu \in \mathscr{M}(X)$, on a
 
@@ -263,21 +263,21 @@ $$
 
 par définition de $\gamma(\lambda)$.
 
-#### Corollaire {#int-viii-s3-n3-cor-1 .statement}
+#### Corollaire {#int-viii-s3-n3-cor-1 .statement tag=09JO}
 
 L’application $(\lambda, \mu) \to \lambda * \mu$ de $\mathscr{C}'(G) \times \mathscr{M}(X)$ dans $\mathscr{M}(X)$ est hypocontinue relativement aux parties équicontinues de $\mathscr{C}'(G)$ et aux parties compactes de $\mathscr{M}(X)$ ($\mathscr{C}'(G)$ et $\mathscr{M}(X)$ étant respectivement munis de la topologie de la convergence compacte dans $\mathscr{C}(G)$ et $\mathscr{K}(X)$).
 
 En effet, $\mathscr{M}(X)$, muni de la topologie de la convergence compacte dans $\mathscr{K}(X)$, est quasi-complet. Donc l’application $(\lambda, \mu) \to \gamma(\lambda)\mu$ de $\mathscr{C}'(G) \times \mathscr{M}(X)$ dans $\mathscr{M}(X)$ est hypocontinue relativement aux parties équicontinues de $\mathscr{C}'(G)$ et aux parties compactes de $\mathscr{M}(X)$ (§ 2, n° 6). Il suffit alors d’appliquer la prop. 12.
 
-#### Remarque 1 {#int-viii-s3-n3-rem-1 .statement}
+#### Remarque 1 {#int-viii-s3-n3-rem-1 .statement tag=09JP}
 
 Soit $\lambda_0 \in \mathscr{C}'(G)$. L’application $\mu \to \lambda_0 * \mu$ de $\mathscr{M}(X)$ dans $\mathscr{M}(X)$ est vaguement continue. En effet, soit $f \in \mathscr{K}(X)$. On a $\langle \lambda_0 * \mu, f \rangle = \int f(sx)d\lambda_0(s)d\mu(x) = \langle \mu, g \rangle$ en posant $g(x) = \int f(sx)d\lambda_0(s)$. Or $g$ est continue (chap. VII, § 1, no 1, lemme 1). D’autre part, soient S le support de $\lambda_0$ et K celui de $f$. Les conditions $sx \in K$ et $s \in S$ entraînent $x \in S^{-1}K$; donc le support de $g$ est contenu dans $S^{-1}K$, de sorte que $g \in \mathscr{K}(X)$. Alors $\langle \lambda_0 * \mu, f \rangle = \langle \mu, g \rangle$ est fonction vaguement continue de $\mu$, ce qui prouve notre assertion.
 
-#### Remarque 2 {#int-viii-s3-n3-rem-2 .statement}
+#### Remarque 2 {#int-viii-s3-n3-rem-2 .statement tag=0E7A}
 
 Soit $\mu_0 \in \mathscr{M}(X)$. L’application $\lambda \to \lambda * \mu_0$ de $\mathscr{C}'(G)$ dans $\mathscr{M}(X)$ est continue pour les topologies $\sigma(\mathscr{C}'(G), \mathscr{C}(G))$ et $\sigma(\mathscr{M}(X), \mathscr{K}(X))$. En effet, soit $f \in \mathscr{K}(X)$. On a $\langle f, \lambda * \mu_0 \rangle = \langle h, \lambda \rangle$, en posant $h(s) = \int f(sx)d\mu_0(x)$, et l’on a $h \in \mathscr{C}(G)$ (chap. VII, § 1, no 1, lemme 1).
 
-#### Proposition 13 {#int-viii-s3-prop-13 .statement}
+#### Proposition 13 {#int-viii-s3-prop-13 .statement tag=09JQ}
 
 L’application $(s, \mu) \to \gamma(s)\mu$ de $G \times \mathscr{M}_+(X)$ dans $\mathscr{M}_+(X)$ est continue lorsque l’ensemble $\mathscr{M}_+(X)$ des mesures positives sur $X$ est muni de la topologie vague.
 

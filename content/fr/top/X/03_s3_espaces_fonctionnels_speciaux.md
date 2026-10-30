@@ -33,7 +33,7 @@ subsections:
       pdf_page: 279
 statements: 31
 exercises: 30
-content_sha256: 42f9204c91625e489c15d9a1054919d20a2194ed2c7578d01006c0b932807388
+content_sha256: 55ae8ce2bdc0abc1fd9236fc838ea9b743deadc7f9c0c08b9412b21626713681
 ---
 
 ## § 3. ESPACES FONCTIONNELS SPÉCIAUX
@@ -48,7 +48,7 @@ $$
 
 il est immédiat que $g_{i,A}$ est un écart sur $\mathscr{F}(X; Y)$ et que, lorsque $i$ parcourt $I$ et $A$ parcourt $\mathscr{S}$, la famille d’écarts $(g_{i,A})$ définit la structure uniforme de la $\mathscr{S}$-convergence sur $\mathscr{F}(X; Y)$. En particulier:
 
-#### Proposition 1 {#top-x-s3-prop-1 .statement}
+#### Proposition 1 {#top-x-s3-prop-1 .statement tag=0CD8}
 
 Si $Y$ est un espace uniforme métrisable, la structure uniforme de la convergence uniforme sur $\mathscr{F}(X; Y)$ est métrisable.
 
@@ -60,7 +60,7 @@ $$
 
 en général cet écart n’est pas fini, mais il est équivalent à un écart fini (IX, p. 3), et comme la structure uniforme de la convergence uniforme est séparé (X, p. 3, prop. 1), elle est métrisable.
 
-#### Corollaire {#top-x-s3-n1-cor-1 .statement}
+#### Corollaire {#top-x-s3-n1-cor-1 .statement tag=0CD9}
 
 Soient $X$ un espace topologique, $Y$ un espace uniforme métrisable; on suppose qu’il existe une suite $(K_n)$ de parties compactes de $X$ telle que toute partie compacte de $X$ soit contenue dans l’un des $K_n$. Alors, sur $\mathscr{F}(X; Y)$, la structure uniforme de la convergence compacte est métrisable.
 
@@ -76,7 +76,7 @@ $$
 
 qui sont finis par hypothèse. Lorsque $\mathscr{S} = \{X\}$, on écrit $\mathscr{B}(X; Y)$ au lieu de $\mathscr{B}_{\mathscr{S}}(X; Y)$; on dit qu’une application $u : X \to Y$ est bornée si elle appartient à $\mathscr{B}(X; Y)$, autrement dit si $u(X)$ est une partie bornée de $Y$.
 
-#### Proposition 2 {#top-x-s3-prop-2 .statement}
+#### Proposition 2 {#top-x-s3-prop-2 .statement tag=0CDA}
 
 Soient $X$ un ensemble, $Y$ un espace métrique. Dans l’espace $\mathscr{F}_u(X; Y)$, l’ensemble $\mathscr{B}(X; Y)$ des applications bornées est à la fois ouvert et fermé.
 
@@ -88,13 +88,13 @@ $$
 
 donc $\mathscr{B}(X; Y)$ est ouvert. D’autre part, si $u$ est adhérent à $\mathscr{B}(X; Y)$ dans $\mathscr{F}_u(X; Y)$, il existe une application $u_0 \in \mathscr{B}(X; Y)$ telle que $d(u(x), u_0(x)) \leq 1$ pour tout $x \in X$; donc $u$ est bornée.
 
-#### Corollaire 1 {#top-x-s3-prop-2-cor-1 .statement}
+#### Corollaire 1 {#top-x-s3-prop-2-cor-1 .statement tag=0CDB}
 
 Soient $X$ un ensemble, $Y$ un espace métrique, $\mathfrak{S}$ un ensemble de parties de $X$. Alors l’ensemble $\mathscr{B}_{\mathfrak{S}}(X; Y)$ des applications de $X$ dans $Y$ transformant tout $A \in \mathfrak{S}$ en une partie bornée de $Y$ est fermé dans $\mathscr{F}_{\mathfrak{S}}(X; Y)$. En particulier, si $Y$ est complet, $\mathscr{B}_{\mathfrak{S}}(X; Y)$ est complet pour la structure uniforme de la $\mathfrak{S}$-convergence.
 
 En effet, $\mathscr{B}_{\mathfrak{S}}(X; Y)$ est l’image réciproque de la partie $\prod_{A \in \mathfrak{S}} \mathscr{B}(A; Y)$ du produit $\prod_{A \in \mathfrak{S}} \mathscr{F}_u(A; Y)$ par l’application canonique de $\mathscr{F}_{\mathfrak{S}}(X; Y)$ dans $\prod_{A \in \mathfrak{S}} \mathscr{F}_u(X; Y)$; la première assertion résulte donc de la Remarque 3 de X, p. 3. La seconde s’en déduit, compte tenu de X, p. 7, th. 1.
 
-#### Corollaire 2 {#top-x-s3-prop-2-cor-2 .statement}
+#### Corollaire 2 {#top-x-s3-prop-2-cor-2 .statement tag=0CDC}
 
 Soient $X$ un espace topologique, $Y$ un espace métrique. Alors l’espace des applications continues bornées de $X$ dans $Y$ est à fois ouvert et fermé dans l’espace $\mathscr{C}_u(X; Y)$; il est complet si en outre $Y$ est complet.
 
@@ -114,13 +114,13 @@ $$
 $$
 notre assertion. Il est immédiat que la structure uniforme sur $\mathscr{B}(X; Y)$ définie par cette norme est la structure de la convergence uniforme. Sauf mention expresse du contraire, lorsque $\mathscr{B}(X; Y)$ sera considéré comme un espace normé, il s’agira toujours de la norme précédente.
 
-#### Proposition 3 {#top-x-s3-prop-3 .statement}
+#### Proposition 3 {#top-x-s3-prop-3 .statement tag=0CDD}
 
 Si l’espace normé $Y$ est complet, toute série $(u_n)$ d’applications bornées de $X$ dans $Y$, qui est absolument convergente dans l’espace normé $\mathscr{B}(X; Y)$ (c’est-à-dire telle que $\sum_{n=0}^{\infty} \|u_n\| < + \infty$; cf. IX, p. 36 et 37) est uniformément convergente dans $X$.
 
 En effet, comme $\mathscr{B}(X; Y)$ est complet ($X$, p. 21, cor. 1), cela résulte de IX, p. 36, prop. 12 et de la définition d’une série uniformément convergente.
 
-#### Remarque 1 {#top-x-s3-n2-rem-1 .statement}
+#### Remarque 1 {#top-x-s3-n2-rem-1 .statement tag=0CDE}
 
 Si $\sum_{n=0}^{\infty} \|u_n\| < +\infty$, on a pour tout $x \in X$,
 $$
@@ -135,7 +135,7 @@ $$
 $$
 Autrement dit, $\mathscr{B}(X; Y)$ est alors une algèbre normée sur le corps $K$.
 
-#### Proposition 4 {#top-x-s3-prop-4 .statement}
+#### Proposition 4 {#top-x-s3-prop-4 .statement tag=0CDF}
 
 *Soient* $X_i$ ($1 \leq i \leq n$) *et* $Y$ *des espaces vectoriels normés sur un corps valué non discret* $K$, *et soit* $X = \prod_{i=1}^{n} X_i$. *L’ensemble de toutes les applications multilinéaires de* $X$ *dans* $Y$ *est fermé dans l’espace* $\mathscr{F}_s(X; Y)$.
 
@@ -148,7 +148,7 @@ u(x_1, \ldots, \lambda x_i, \ldots, x_n) = \lambda u(x_1, \ldots, x_i, \ldots, x
 $$
 $(1 \leq i \leq n, x_i, x_i', x_i''$ arbitraires dans $X_i, \lambda$ arbitraire dans $K$); comme les deux membres des relations (1) sont fonctions continues de $u$ dans $\mathscr{F}_s(X; Y)$ ($X$, p. 4, *Remarque 6*), la proposition en résulte (I, p. 53, prop. 2).
 
-#### Proposition 5 {#top-x-s3-prop-5 .statement}
+#### Proposition 5 {#top-x-s3-prop-5 .statement tag=0CDG}
 
 *Sous les hypothèses de la prop.* 4, *l’ensemble* $\mathscr{L}(X_1, \ldots, X_n; Y)$ *des applications multilinéaires continues de* $X$ *dans* $Y$ *est fermé dans* $\mathscr{F}(X; Y)$ *muni de la topologie de la convergence bornée; il est complet pour la structure uniforme de la convergence bornée lorsque* $Y$ *est complet*.
 
@@ -165,7 +165,7 @@ $$
 
 Sauf mention expresse du contraire, lorsque $\mathscr{L}(X_1, \ldots, X_n; Y)$ sera considéré comme un espace normé, il s’agira toujours de la norme précédente. On peut encore dire que $\|u\|$ est le plus petit nombre $\geq 0$ vérifiant (2) pour toutes les valeurs des $x_i$.
 
-#### Proposition 6 {#top-x-s3-prop-6 .statement}
+#### Proposition 6 {#top-x-s3-prop-6 .statement tag=0CDH}
 
 *L’application multilinéaire*
 $$
@@ -175,7 +175,7 @@ $$
 
 C’est une conséquence immédiate de l’inégalité (2) (IX, p. 35, th. 1).
 
-#### Proposition 7 {#top-x-s3-prop-7 .statement}
+#### Proposition 7 {#top-x-s3-prop-7 .statement tag=0CDI}
 
 *Soient X, Y, Z trois espaces normés sur K. L’application canonique de l’espace normé $\mathscr{L}(X, Y; Z)$ dans l’espace des applications linéaires de X dans $\mathscr{L}(Y; Z)$ qui, à tout $u \in \mathscr{L}(X, Y; Z)$, fait correspondre l’application $x \mapsto u(x, .)$, est une isométrie de $\mathscr{L}(X, Y; Z)$ sur $\mathscr{L}(X; \mathscr{L}(Y; Z))$.*
 
@@ -184,7 +184,7 @@ $$
 \sup_{\|x\| \leq b} (\sup_{\|y\| \leq c} \|u(x, y)\|) = \sup_{\|x\| \leq b, \|y\| \leq c} \|u(x, y)\|.
 $$
 
-#### Proposition 8 {#top-x-s3-prop-8 .statement}
+#### Proposition 8 {#top-x-s3-prop-8 .statement tag=0CDJ}
 
 *Soient X, Y, Z trois espaces normés sur K. L’application bilinéaire $(u, v) \mapsto v \circ u$ de $\mathscr{L}(X; Y) \times \mathscr{L}(Y; Z)$ dans $\mathscr{L}(X; Z)$ est continue.*
 
@@ -197,13 +197,13 @@ car pour tout $x \in X$, $\|v(u(x))\| \leq \|v\| \cdot \|u(x)\| \leq \|v\| \cdot
 
 En particulier, sur l’ensemble $\mathscr{L}(X)$ des *endomorphismes continus* d’un espace normé $X$ sur $K$, la norme $\|u\|$ est compatible avec la structure d’*algèbre* de $\mathscr{L}(X)$ sur $K$.
 
-#### Remarque 2 {#top-x-s3-n2-rem-2 .statement}
+#### Remarque 2 {#top-x-s3-n2-rem-2 .statement tag=0CDK}
 
 L’ensemble $\mathscr{L}(\mathbf{R}^m; \mathbf{R}^n)$ des applications linéaires (nécessairement continues) de $\mathbf{R}^m$ dans $\mathbf{R}^n$ peut être identifié à l’ensemble $M_{n,m}(\mathbf{R})$ des matrices à $n$ lignes et $m$ colonnes sur $\mathbf{R}$, donc à $\mathbf{R}^{mn}$; sur $\mathscr{L}(\mathbf{R}^m; \mathbf{R}^n)$, la structure uniforme de la convergence bornée (pour la distance euclidienne sur $\mathbf{R}^m$), de la convergence compacte et de la convergence simple sont alors identifiées à la structure uniforme *additive* de $\mathbf{R}^{mn}$. En effet, prenons sur $\mathbf{R}^n$ la norme $\|x\| = \sup_i |x_i|$ pour $x = (x_i)$ et soit $(\mathbf{e}_j)$ la base canonique de $\mathbf{R}^m$; si $u$ et $v$ sont deux applications linéaires de $\mathbf{R}^m$ dans $\mathbf{R}^n$ telles que $\|u(\mathbf{e}_j) - v(\mathbf{e}_j)\| \leq \varepsilon$ pour $1 \leq j \leq m$, on a, pour les matrices $U = (\alpha_{ij})$, $V = (\beta_{ij})$ de ces applications, $|\alpha_{ij} - \beta_{ij}| \leq \varepsilon$ pour tout couple $(i, j)$; et inversement, si ces inégalités sont satisfaites, on a, pour tout point $x$ d’un cube de centre 0 et de côté $a$ dans $\mathbf{R}^m$, $\|u(x) - v(x)\| \leq ma\varepsilon$.
 
 ### 3. Propriétés de dénombrabilité des espaces de fonctions continues
 
-#### Théorème 1 {#top-x-s3-thm-1 .statement}
+#### Théorème 1 {#top-x-s3-thm-1 .statement tag=0CDL}
 
 *Soit $X$ un espace compact.*
 
@@ -217,7 +217,7 @@ b) Soit $I = \{0, 1\}$; comme $\mathscr{C}_u(X; I)$ est un sous-espace uniforme 
 
 C.Q.F.D.
 
-#### Corollaire {#top-x-s3-n3-cor-1 .statement}
+#### Corollaire {#top-x-s3-n3-cor-1 .statement tag=0CDM}
 
 *Soient $X$ un espace localement compact dont la topologie admet une base dénombrable, $Y$ un espace uniforme métrisable de type dénombrable.*
 
@@ -233,7 +233,7 @@ On notera que l’espace des fonctions numériques continues bornées dans $\mat
 
 ### 4. La topologie de la convergence compacte
 
-#### Théorème 2 {#top-x-s3-thm-2 .statement}
+#### Théorème 2 {#top-x-s3-thm-2 .statement tag=0CDN}
 
 *Soient $X$ un espace topologique, $Y$ un espace uniforme. Pour tout couple $(K, U)$ formé d’une partie compacte $K$ de $X$ et d’une partie ouverte $U$ de $Y$, soit $T(K, U)$* l’ensemble des applications continues $u : X \to Y$ telles que $u(K) \subset U$. Alors les ensembles de la forme $T(K, U)$ engendrent (I, p. 13) la topologie de la convergence compacte sur $C(X; Y)$.
 
@@ -247,7 +247,7 @@ Inversement, si $W$ est un voisinage d’un point $u_0 \in C_0(X; Y)$, montrons 
 
 Ce résultat conduit à poser la définition suivante:
 
-#### Définition 1 {#top-x-s3-def-1 .statement}
+#### Définition 1 {#top-x-s3-def-1 .statement tag=0CDO}
 
 *Soient* $X, Y$ *deux espaces topologiques* (non nécessairement uniformisables). *Pour tout couple* $(K, U)$ *formé d’une partie compacte* $K$ *de* $X$ *et d’une partie ouverte*
 
@@ -257,15 +257,15 @@ Lorsque Y est un espace uniforme, il résulte du th. 2 (X, p. 25) que cette déf
 
 Si H est une partie de $C(X; Y)$, nous dirons encore que la topologie induite sur H par celle de $C_c(X; Y)$ est la topologie de la convergence compacte.
 
-#### Exemple {#top-x-s3-n4-exa-1 .statement}
+#### Exemple {#top-x-s3-n4-exa-1 .statement tag=0CDP}
 
 Soit I l’intervalle $[0, 1]$ dans $\mathbf{R}$; pour tout espace topologique Y, l’espace $C_c(I; Y)$ est appelé l’espace des chemins dans Y; pour tout $y \in Y$, le sous-espace $\Omega_y(Y)$ de $C_c(I; Y)$ formé des chemins $u$ tels que $u(0) = u(1) = y$ est appelé l’espace des lacets (dans H) au point y.
 
-#### Remarque 1 {#top-x-s3-n4-rem-1 .statement}
+#### Remarque 1 {#top-x-s3-n4-rem-1 .statement tag=0CDQ}
 
 On dit de même que la topologie induite sur $C(X; Y)$ par la topologie produit sur $Y^X = F(X; Y)$ est la topologie de la convergence simple (Y n’étant pas nécessairement uniformisable); elle est engendrée par les ensembles de la forme $T(\{x\}, U)$ pour $x \in X$, U ouvert dans Y et est par suite moins fine que la topologie de la convergence compacte. On en déduit que si Y est séparé, l’espace $C_c(X; Y)$ est séparé (I, p. 54, corollaire).
 
-#### Remarque 2 {#top-x-s3-n4-rem-2 .statement}
+#### Remarque 2 {#top-x-s3-n4-rem-2 .statement tag=0CDR}
 
 Soient $\mathfrak{S}$ un système générateur de la topologie de Y, $\mathfrak{R}$ un ensemble de parties compactes de X ayant la propriété suivante:
 (R) Pour toute partie compacte L de X et tout voisinage V de L, il existe un nombre fini d’ensembles $K_i \in \mathfrak{R}$ tels que $L \subset \bigcup_i K_i \subset V$.
@@ -278,7 +278,7 @@ $$
 
 par définition. On peut donc remplacer tout d’abord $\mathfrak{S}$ par l’ensemble des intersections finies d’ensembles de $\mathfrak{S}$, autrement dit supposer que $\mathfrak{S}$ est une base de la topologie de Y. Par hypothèse, $u(L)$ est quasi-compact et contenu dans V, donc il existe un nombre fini d’ensembles $U_i \in \mathfrak{S}$ contenus dans V et formant un recouvrement de $u(L)$. Les ensembles $u^{-1}(U_i)$ sont ouverts dans X et forment un recouvrement de L. Pour tout $x \in L$, il y a donc un voisinage compact $N_x$ de $x$ dans L, contenu dans un des $u^{-1}(U_i)$; on peut recouvrir L par un nombre fini de ces ensembles $N_{x_j} = L_j$; pour tout j, nous désignerons par $i(j)$ un des indices i tels que $L_j \subset u^{-1}(U_t)$. Cela étant, pour chaque indice $j$, il existe d’après (R) un nombre fini d’ensembles $K_{j,k} \subset u^{-1}(U_{t(j)})$ appartenant à $\mathscr{K}$ et formant un recouvrement de $L_j$. Pour tout $v \in \bigcap_{j,k} T(K_{j,k}, U_{t(j)})$, on a $\bigcup_k v(K_{j,k}) \subset U_{t(j)}$, donc $v(L_j) \subset U_{t(j)}$, et $v(L) = \bigcup_j v(L_j) \subset \bigcup_j U_{t(j)} \subset V$, ce qui achève de prouver notre assertion.
 
-#### Théorème 3 {#top-x-s3-thm-3 .statement}
+#### Théorème 3 {#top-x-s3-thm-3 .statement tag=0CDS}
 
 *Soient X, Y, Z trois espaces topologiques, f une application de $X \times Y$ dans Z. Si f est continue, $\tilde{f}: x \mapsto f(x,.)$ est une application continue de X dans $\mathscr{C}_c(Y; Z)$. La réciproque est vraie si Y est localement compact.*
 
@@ -288,17 +288,17 @@ Réciproquement, supposons $\tilde{f}$ continue et Y localement compact, et mont
 
 C.Q.F.D.
 
-#### Corollaire 1 {#top-x-s3-thm-3-cor-1 .statement}
+#### Corollaire 1 {#top-x-s3-thm-3-cor-1 .statement tag=0CDT}
 
 *Soient X un espace localement compact, Y un espace topologique, H une partie de $\mathscr{C}(X; Y)$. Alors, sur H, la topologie de la convergence compacte est la moins fine pour laquelle l’application $(u, x) \mapsto u(x)$ de $H \times X$ dans Y est continue.*
 
 En effet, en vertu du th. 3, dire que cette application est continue signifie que l’injection canonique $H \to \mathscr{C}_c(X; Y)$ est continue.
 
-#### Remarque 3 {#top-x-s3-n4-rem-3 .statement}
+#### Remarque 3 {#top-x-s3-n4-rem-3 .statement tag=0CDU}
 
 Soient X un espace localement compact, Y un espace topologique séparé. Si $\mathscr{T}$ est une topologie sur une partie H de $\mathscr{C}(X; Y)$ telle que l’application $(u, x) \mapsto u(x)$ soit continue dans $H \times X$ et si en outre H est *compact* pour cette topologie, alors $\mathscr{T}$ est identique à la topologie de la convergence compacte : elle est en effet plus fine que cette dernière en vertu du cor. 1, et comme la topologie de la convergence compacte est séparée, ces deux topologies sont identiques. On notera que si en outre Y est *complètement régulier*, H est *équicontinu* pour toute structure uniforme compatible avec la topologie de Y (X, p. 19, cor. 3), et pour toute partie compacte K de X, l’ensemble $H(K) = \bigcup_{x \in K} H(x)$ est *compact*, étant l’image de $H \times K$ par l’application continue $(u, x) \mapsto u(x)$.
 
-#### Corollaire 2 {#top-x-s3-thm-3-cor-2 .statement}
+#### Corollaire 2 {#top-x-s3-thm-3-cor-2 .statement tag=0CDV}
 
 *Soient X, Y, Z trois espaces topologiques, X étant supposé séparé et Y localement compact. Alors, la restriction à $C(X \times Y; Z)$ de la bijection canonique $F(X \times Y; Z) \to F(X; F(Y; Z))$ (E, II, p. 31) est un homéomorphisme de $C_c(X \times Y; Z)$ sur $C_c(X; C_c(Y; Z))$.
 
@@ -314,7 +314,7 @@ Or, l’image de $T(J, T(K, U))$ par $\rho^{-1}$ n’est autre que $T(J \times K
 
 On notera que lorsque Z est en outre supposé uniformisable, le cor. 2 est une conséquence triviale de X, p. 5, prop. 2.
 
-#### Proposition 9 {#top-x-s3-prop-9 .statement}
+#### Proposition 9 {#top-x-s3-prop-9 .statement tag=0CDW}
 
 *Soient X, Y, Z trois espaces topologiques, Y étant localement compact. Alors l’application $(u, v) \mapsto v \circ u$ de $C_c(X; Y) \times C_c(Y; Z)$ dans $C_c(X; Z)$ est continue.*
 
@@ -322,7 +322,7 @@ Il faut prouver que pour toute partie compacte K de X et toute partie ouverte U 
 
 ### 5. Topologies sur les groupes d’homéomorphismes
 
-#### Proposition 10 {#top-x-s3-prop-10 .statement}
+#### Proposition 10 {#top-x-s3-prop-10 .statement tag=0CDX}
 
 Soient X un espace uniforme, H un ensemble équicontinu d’homéomorphismes de X sur lui-même. Si on munit H et $H^{-1}$ de la topologie de la convergence simple dans X, l’application $u \mapsto u^{-1}$ de $H^{-1}$ sur H est continue.
 
@@ -332,13 +332,13 @@ $$(u(y_0), u_0(y_0)) \in U,$$
 
 c’est-à-dire $(u(y_0), x_0) \in U$. On en déduit $(y_0, u^{-1}(x_0)) \in V$, c’est-à-dire $(u_0^{-1}(x_0), u^{-1}(x_0)) \in V$, ce qui achève la démonstration.
 
-#### Corollaire {#top-x-s3-n5-cor-1 .statement}
+#### Corollaire {#top-x-s3-n5-cor-1 .statement tag=0CDY}
 
 Soient X un espace uniforme, H un groupe équicontinu d’homéomorphismes de X sur lui-même. Alors la topologie de la convergence simple dans X est compatible (III, p. 1) avec la structure de groupe de H.
 
 Cela résulte de la prop. 10, ainsi que de X, p. 13, cor. 5.
 
-#### Proposition 11 {#top-x-s3-prop-11 .statement}
+#### Proposition 11 {#top-x-s3-prop-11 .statement tag=0CDZ}
 
 Soient X un espace compact, Γ le groupe de tous les homéomorphismes de X sur lui-même. Alors la topologie de la convergence uniforme dans X est compatible (III, p. 1) avec la structure de groupe de Γ.
 
@@ -348,7 +348,7 @@ Soit maintenant X un espace localement compact et soit Γ le groupe des homéomo
 
 La topologie $\mathscr{T}_\beta$ peut être caractérisée de la façon suivante:
 
-#### Proposition 12 {#top-x-s3-prop-12 .statement}
+#### Proposition 12 {#top-x-s3-prop-12 .statement tag=0CE0}
 
 *Sur le groupe $\Gamma$ des homéomorphismes d’un espace localement compact $X$, la topologie $\mathscr{T}_\beta$ est la moins fine rendant continues les deux applications $u \mapsto u$ et $u \mapsto u^{-1}$ de $\Gamma$ dans l’espace $C_c(X; X)$.*
 
@@ -362,7 +362,7 @@ entraînent $(u_0(x), u(x)) \in V$ pour tout $x \in X$. Soit $V_1$ un entourage 
 
 En général, le groupe $\Gamma$, muni de $\mathscr{T}_\beta$, n’est pas localement compact (X, p. 50, exerc. 16 b)); mais on a le critère suivant:
 
-#### Théorème 4 {#top-x-s3-thm-4 .statement}
+#### Théorème 4 {#top-x-s3-thm-4 .statement tag=0CE1}
 
 Soit G un sous-groupe du groupe Γ des homéomorphismes d’un espace localement compact X. Supposons qu’il existe, dans l’espace $C_c(X; X)$, un voisinage V de l’application identique e tel que $V \cap G = H$ soit symétrique dans G et relativement compact dans $C_c(X; X)$. Alors l’adhérence $\overline{G}$ de G dans Γ pour la topologie $\mathscr{T}_\beta$ est un groupe localement compact pour la topologie induite par $\mathscr{T}_\beta$; cette topologie induite sur $\overline{G}$ est d’ailleurs identique à la topologie de la convergence compacte, et l’adhérence $\overline{H}$ de H dans $C_c(X; X)$ est un voisinage de e dans $\overline{G}$ pour cette topologie.
 
@@ -370,7 +370,7 @@ Montrons d’abord que $\overline{H}$ est contenu dans Γ et que sur $\overline{
 
 En outre, comme sur Γ la topologie $\mathscr{T}_\beta$ est plus fine que la topologie de la convergence compacte, $\overline{H}$ est aussi l’adhérence de H pour $\mathscr{T}_\beta$; or, H est un voisinage de e dans G pour la topologie de la convergence compacte, et a fortiori pour la topologie induite par $\mathscr{T}_\beta$; on en déduit (I, p. 18, prop. 2) que $\overline{H}$ est un voisinage de e dans $\overline{G}$ pour la topologie induite par $\mathscr{T}_\beta$, ce qui prouve que $\overline{G}$ est localement compact pour cette topologie. En outre, si W est l’intérieur de V pour la topologie de la convergence compacte, $W \cap \Gamma$ est ouvert pour $\mathscr{T}_\beta$, donc $W \cap \overline{G}$ est contenu dans l’adhérence de $H = V \cap G$ pour $\mathscr{T}_\beta$ (I, p. 7, prop. 5), ce qui prouve que $\overline{H}$ est aussi un voisinage de e dans $\overline{G}$ pour la topologie de la convergence compacte. Enfin, pour tout $u_0 \in \Gamma$, les bijections réciproques $v \mapsto u_0 \circ v$ et $v \mapsto u_0^{-1} \circ v$ de $C_c(X; X)$ sur lui-même sont continues (X, p. 29, prop. 9), donc, pour $u_0 \in \overline{G}$, $u_0 \overline{H}$ est un voisinage de $u_0$ dans $\overline{G}$ pour la topologie de la convergence compacte, ce qui achève la démonstration.
 
-#### Corollaire {#top-x-s3-n5-cor-2 .statement}
+#### Corollaire {#top-x-s3-n5-cor-2 .statement tag=0CE2}
 
 Soit G un groupe d’homéomorphismes d’un espace localement compact X. Si l’adhérence $\overline{G}$ de G dans $C_c(X; X)$ est compacte, $\overline{G}$ est un groupe d’homéomorphismes de X, et la topologie de la convergence compacte est compatible avec la structure de groupe de $\overline{G}$, qui est donc un groupe compact.
 

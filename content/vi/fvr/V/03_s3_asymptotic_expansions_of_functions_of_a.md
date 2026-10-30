@@ -36,7 +36,7 @@ subsections:
       pdf_page: 250
 statements: 24
 exercises: 7
-content_sha256: 108925b47352e2e4910a2a3b4e57bca5df5e62140ebdd54c08d56b759e7b34b5
+content_sha256: 1f24d943fcf1551c753a1d827fba530c432e90e97fe559c9078f8bd76ba19c2c
 translated_from: content/en/fvr/V/03_s3_asymptotic_expansions_of_functions_of_a.md
 source_content_sha256: 150915c37d01e0a3f1c4e9cb26407c194f7f04a0d2affb9ba17af4c93ab84bbf
 translation_model: gpt-5.4
@@ -56,7 +56,7 @@ Sẽ thuận tiện nếu dùng một lối nói không chặt chẽ và gọi c
 
 ### 1. LẤY NGUYÊN CÁC QUAN HỆ SO SÁNH: **I. CÁC QUAN HỆ YẾU**
 
-#### Mệnh đề 1 {#fvr-v-s3-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-v-s3-prop-1 .statement tag=08F4}
 
 *Cho $\mathbf{f}$ là một hàm vectơ điều hòa, $g$ là một hàm điều hòa $\geqslant 0$ trên một khoảng $[a, +\infty[$, sao cho $\int_a^{+\infty} g(t)\,dt > 0$. Quan hệ $\mathbf{f} \preccurlyeq g$ khi $x$ tiến tới $+\infty$ kéo theo $\int_a^x \mathbf{f}(t)\,dt \preccurlyeq \int_a^x g(t)\,dt$. Nếu tích phân $\int_a^{+\infty} g(t)\,dt$ hội tụ thì tích phân $\int_a^{+\infty} \mathbf{f}(t)\,dt$ hội tụ tuyệt đối.*
 
@@ -74,11 +74,11 @@ $$
 $$
 với mọi $x \geqslant b$, do đó suy ra mệnh đề.
 
-#### Hệ quả 1 {#fvr-v-s3-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#fvr-v-s3-prop-1-cor-1 .statement tag=08F5}
 
 *Nếu $f$ và $g$ là các hàm điều hòa và $\geqslant 0$ trên khoảng $[a, +\infty[$, và sao cho $f \succcurlyeq g$, và nếu $\int_a^{+\infty} g(t)\,dt = +\infty$, thì $\int_a^{+\infty} f(t)\,dt = +\infty$.*
 
-#### Hệ quả 2 {#fvr-v-s3-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#fvr-v-s3-prop-1-cor-2 .statement tag=08F6}
 
 *Nếu $f$ và $g$ là $\geqslant 0$ và không đồng nhất bằng không trên $[a, +\infty[$, và sao cho $f \succeq g$, thì $\int_a^x f(t)\,dt \succeq \int_a^x g(t)\,dt$.*
 
@@ -86,13 +86,13 @@ với mọi $x \geqslant b$, do đó suy ra mệnh đề.
 
 Bằng cách chọn hàm g một cách thích hợp, ta có thể suy ra từ mệnh đề 1 của V, p. 228, và hệ quả 1 của nó, các tiêu chuẩn để quyết định xem tích phân $\int_a^{+\infty} f(t) \, dt$ của một hàm $f \geq 0$ hội tụ hay là vô hạn: chỉ cần chọn cho g một hàm mà nguyên hàm của nó đã biết. Đặc biệt, vì $x^\mu$ có nguyên hàm là $\frac{x^{\mu+1}}{\mu+1}$ khi $\mu \neq -1$, và $\log x$ khi $\mu = -1$, ta có tiêu chuẩn sau:
 
-#### Mệnh đề 2 ("tiêu chuẩn lôgarit cấp 0") {#fvr-v-s3-prop-2 .statement}
+#### Mệnh đề 2 ("tiêu chuẩn lôgarit cấp 0") {#fvr-v-s3-prop-2 .statement tag=08F7}
 
 *Một hàm điều tiết f $\geq 0$ trên một khoảng $[a, +\infty[$; nếu $f(x) \preccurlyeq x^\mu$ với một $\mu < -1$ thì tích phân $\int_a^{+\infty} f(t) \, dt$ hội tụ; nếu $f(x) \succcurlyeq x^\mu$ với một $\mu \geq -1$ thì tích phân $\int_a^{+\infty} f(t) \, dt$ là vô hạn.*
 
 Tiêu chuẩn này không kết luận được khi $1/x^{1+\alpha} \ll f(x) \ll 1/x$ với *mọi* số mũ $\alpha > 0$, như chẳng hạn khi $f(x) = 1/x(\log x)^\mu$ ($\mu > 0$). Nhưng trong trường hợp sau cùng này f có nguyên hàm là $\frac{1}{1-\mu} (\log x)^{1-\mu}$ nếu $\mu \neq 1$ và $\log \log x$ khi $\mu = 1$. Do đó:
 
-#### Mệnh đề 3 ("tiêu chuẩn lôgarit cấp 1") {#fvr-v-s3-prop-3 .statement}
+#### Mệnh đề 3 ("tiêu chuẩn lôgarit cấp 1") {#fvr-v-s3-prop-3 .statement tag=08F8}
 
 *Một hàm điều tiết f $\geq 0$ trên một khoảng $[a, +\infty[$; nếu $f(x) \preccurlyeq 1/x(\log x)^\mu$ với một $\mu > 1$ thì tích phân $\int_a^{+\infty} f(t) \, dt$ hội tụ; nếu $f(x) \succcurlyeq 1/x(\log x)^\mu$ với một $\mu \leq 1$ thì tích phân $\int_a^{+\infty} f(t) \, dt$ là vô hạn.*
 
@@ -104,7 +104,7 @@ $$
 
 với $\mu \neq 1$, và $l_{n+1}(x)$ là một nguyên hàm của $\frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) l_n(x)}$. Do đó:
 
-#### Mệnh đề 4 ("tiêu chuẩn lôgarit cấp n") {#fvr-v-s3-prop-4 .statement}
+#### Mệnh đề 4 ("tiêu chuẩn lôgarit cấp n") {#fvr-v-s3-prop-4 .statement tag=08F9}
 
 *Một hàm điều tiết f $\geq 0$ trên một khoảng $[a, +\infty[$; nếu, với một $\mu > 1$, $f(x) \preccurlyeq \frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) (l_n(x))^\mu}$, thì tích phân $\int_a^{+\infty} f(t) \, dt$ hội tụ; nếu $f(x) \succcurlyeq \frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) (l_n(x))^\mu}$ với một $\mu \leq 1$, thì tích phân $\int_a^{+\infty} f(t) \, dt$ là vô hạn.*
 
@@ -112,7 +112,7 @@ Vì vậy, mỗi tiêu chuẩn lôgarit đều áp dụng được cho các hàm
 
 Vì tính hữu dụng của nó, chúng tôi phát biểu tiêu chuẩn cấp 0 cho các tích phân $\int_{\alpha}^{a} f(t) \, dt$ trong đó $f$ là điều tiết và $\geq 0$ trên một khoảng không compact $]\alpha, a]$:
 
-#### Mệnh đề 5 ("tiêu chuẩn lôgarit cấp 0") {#fvr-v-s3-prop-5 .statement}
+#### Mệnh đề 5 ("tiêu chuẩn lôgarit cấp 0") {#fvr-v-s3-prop-5 .statement tag=08FA}
 
 *Nếu trên một lân cận của $\alpha$ ta có $f(x) \leq 1/(x-\alpha)^{\mu}$ với một $\mu < 1$ thì tích phân $\int_{\alpha}^{a} f(t) \, dt$ hội tụ; nếu $f(x) \geq 1/(x-\alpha)^{\mu}$ với một $\mu \geq 1$ thì tích phân $\int_{\alpha}^{a} f(t) \, dt$ là vô hạn.*
 
@@ -120,17 +120,17 @@ Chúng tôi để bạn đọc tự phát biểu tương tự tiêu chuẩn lôg
 
 Việc áp dụng các tiêu chuẩn lôgarit là ngay lập tức nếu người ta biết cách thu được *phần chính* của $f$ đối với một thang so sánh chứa các hàm xuất hiện trong các tiêu chuẩn ấy: nếu $f_1$ là phần chính, thì tích phân $\int_{\alpha}^{+\infty} f(t) \, dt$ hội tụ hoặc là vô hạn đồng thời với $\int_{\alpha}^{+\infty} f_1(t) \, dt$, và các tiêu chuẩn lôgarit áp dụng ngay lập tức cho tích phân sau này.
 
-#### Ví dụ 1 {#fvr-v-s3-n2-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-s3-n2-exa-1 .statement tag=08FB}
 
 Hàm $t^p(1-t)^q$ không bị chặn trên $]0, 1[$ khi $p < 0$ hoặc $q < 0$; theo tiêu chuẩn lôgarit cấp 0 áp dụng trên một lân cận của các điểm 0 và 1, tích phân $\int_{0}^{1} t^p(1-t)^q \, dt$ hội tụ khi và chỉ khi $p > -1$ và $q > -1$. Khi đó, tích phân này được gọi là *tích phân Euler loại thứ nhất* và được ký hiệu bởi $\mathbf{B}(p+1, q+1)$ (*xem.* VII, p. 312).
 
-#### Ví dụ 2 {#fvr-v-s3-n2-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-s3-n2-exa-2 .statement tag=08FC}
 
 Xét tích phân $\int_{0}^{+\infty} t^{\lambda-1} e^{-t} \, dt$. Vì $e^{-t} \sim 1$ trên một lân cận của 0, cần phải có $\lambda > 0$ để tích phân này hội tụ; điều kiện này cũng là đủ vì trên một lân cận của $+\infty$ ta có $e^{-t} \ll t^{-\mu}$ với mọi $\mu > 0$. Khi $x > 0$ tích phân này được gọi là *tích phân Euler loại thứ hai* và được ký hiệu bởi $\Gamma(x)$ (*xem.* VII, p. 311).
 
 ### 3. TÍCH PHÂN CÁC QUAN HỆ SO SÁNH: II. CÁC QUAN HỆ MẠNH
 
-#### Mệnh đề 6 {#fvr-v-s3-prop-6 .statement}
+#### Mệnh đề 6 {#fvr-v-s3-prop-6 .statement tag=08FD}
 
 *Cho $\mathbf{f}$ là một hàm vectơ điều chỉnh được, và $g$ là một hàm điều chỉnh được $\geq 0$ trên $[a, +\infty[$.*
 
@@ -176,15 +176,15 @@ Nói cách khác, có thể lấy tích phân hai vế của một quan hệ m�
 
 Chú ý rằng các mệnh đề 1 (V, p. 228) và 6 (V, p. 230) vẫn còn đúng khi $\mathfrak{F}$ là một cơ sở của bộ lọc vết của các khoảng $[t, +\infty[$ (trong đó $t > a$) trên phần bù của một tập hợp đếm được (xem I, p. 15, định lý 2).
 
-#### Ví dụ 1 {#fvr-v-s3-n3-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-s3-n3-exa-1 .statement tag=08FE}
 
 Khi áp dụng mệnh đề 6 của V, p. 230, cho quan hệ $1/x \ll x^{\alpha-1}$ với $\alpha > 0$, ta lại thu được quan hệ $\log x \ll x^{\alpha}$ với mọi $\alpha > 0$, tương đương với quan hệ $y^{1/\alpha} \ll e^y$ đã được chứng minh trong III, p. 105.
 
-#### Ví dụ 2 {#fvr-v-s3-n3-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-s3-n3-exa-2 .statement tag=08FF}
 
 Ta có $\left( \frac{e^t}{x} \right)' = \frac{e^t}{x} \left( 1 - \frac{1}{x} \right) \sim e^t / x$; vì $e^t / x$ tiến tới $+\infty$ cùng với $x$, nên từ mệnh đề 6 của V, p. 230, suy ra rằng $\int_{1}^{x} \frac{e^t}{t} \, dt \sim e^x / x$.
 
-#### Nhận xét {#fvr-v-s3-n3-rem-1 .statement}
+#### Nhận xét {#fvr-v-s3-n3-rem-1 .statement tag=08FG}
 
 Khi không giả thiết rằng $g$ luôn luôn $\geq 0$ trên một khoảng $[a, +\infty[$ (hoặc luôn luôn $\leq 0$ trên một khoảng như vậy), và $\int_{a}^{+\infty} g(t) \, dt$ không hội tụ, thì quan hệ $f \sim g$ không nhất thiết kéo theo rằng $\int_{a}^{x} f(t) \, dt \sim \int_{a}^{x} g(t) \, dt$, như được chỉ ra bởi ví dụ trong đó $g(x) = \sin x$ và $f(x) = \left( 1 + \frac{\sin x}{x} \right) \sin x$; ở đây
 
@@ -208,27 +208,27 @@ Mặt khác, có thể suy ra các quan hệ so sánh khi người ta giả thi�
 
 Ta quy ước rằng hai hàm thực so sánh được (V, p. 217) là so sánh được cấp 0.
 
-#### Mệnh đề 7 {#fvr-v-s3-prop-7 .statement}
+#### Mệnh đề 7 {#fvr-v-s3-prop-7 .statement tag=08FH}
 
 Nếu hai hàm thực $f,\ g$, so sánh được cấp 1, thì chúng so sánh được; hơn nữa, quan hệ $f \ll g$ (tương ứng, $f \sim cg$, $c$ hằng) kéo theo $f' \ll g'$ (tương ứng, $f' \sim cg'$) trừ khi $g$ tương đương với một hằng khác không.
 
 Bây giờ, vì $f'$ và $g'$ có dấu không đổi trên một khoảng $[x_0, +\infty[$, nên cả $f$ lẫn $g$ đều đơn điệu trên khoảng này, do đó tiến tới một giới hạn hữu hạn hoặc vô hạn khi $x$ tiến tới $+\infty$. Rõ ràng là $f$ và $g$ so sánh được khi $x$ tiến tới $+\infty$ nếu một trong các giới hạn ấy là hữu hạn và $\neq 0$, hoặc nếu một giới hạn là không còn giới hạn kia là vô hạn. Nếu cả $f$ và $g$ đều tiến tới 0 thì có thể viết $f(x) = -\int_x^{+\infty} f'(t) \, dt,\ g(x) = -\int_x^{+\infty} g'(t) \, dt$; vì $f'$ và $g'$ so sánh được nên điều tương tự cũng đúng với $f$ và $g$, và quan hệ so sánh giữa $f$ và $g$ là cùng một quan hệ như giữa $f'$ và $g'$, theo mệnh đề 6 (V, p. 20). Tương tự, nếu $f$ và $g$ đều có một giới hạn vô hạn thì ta có $f(x) = f(x_0) + \int_{x_0}^x f'(t) \, dt,\ g(x) = g(x_0) + \int_{x_0}^x g'(t) \, dt$; lại nữa, mệnh đề 6 (V, p. 230) cho thấy rằng $f$ và $g$ so sánh được và rằng quan hệ so sánh giữa $f$ và $g$ là cùng một quan hệ như giữa $f'$ và $g'$. Để hoàn tất chứng minh, còn lại phải xét trường hợp $g$ tiến tới $\pm \infty$ còn $f$ tiến tới một hằng; khi đó không thể có $f' \succcurlyeq g'$, vì khi ấy có thể suy ra từ mệnh đề 1 (V, p. 218) rằng tích phân $\int_{x_0}^{+\infty} g'(t) \, dt$ hội tụ; vì đã giả thiết rằng $f'$ và $g'$ so sánh được, nên phải có $f' \ll g'$.
 
-#### Hệ quả {#fvr-v-s3-n4-cor-1 .statement}
+#### Hệ quả {#fvr-v-s3-n4-cor-1 .statement tag=08FI}
 
 *Nếu hai hàm thực $f, g$, so sánh được cấp $k \geqslant 1$, thì chúng so sánh được cấp $p$ với $0 \leqslant p \leqslant k$; hơn nữa, quan hệ $f \ll g$ (tương ứng, $f \sim cg$) kéo theo $f^{(k)} \ll g^{(k)}$ (tương ứng, $f^{(k)} \sim cg^{(k)}$) trừ khi một trong các đạo hàm $g^{(p)}$ ($0 \leqslant p \leqslant k - 1$) tương đương với một hằng $\neq 0$.
 
 Thật vậy, vì $f^{(k)}$ và $g^{(k)}$ có dấu không đổi trên một khoảng $[x_0, +\infty[$, suy ra $f^{(k-1)}$ và $g^{(k-1)}$ đơn điệu trên khoảng này, nên có dấu không đổi trên một lân cận của $+\infty$; hơn nữa, mệnh đề 7 của V, p. 232, cho thấy rằng $f^{(k-1)}$ và $g^{(k-1)}$ là so sánh được, vì thế hệ quả suy ra bằng cách áp dụng đệ quy mệnh đề 7.
 
-#### Nhận xét 1 {#fvr-v-s3-n4-rem-1 .statement}
+#### Nhận xét 1 {#fvr-v-s3-n4-rem-1 .statement tag=08FJ}
 
 Hạn chế đặt trên $g$ trong mệnh đề 7 là cốt yếu. Chẳng hạn, ta có $\frac{1}{x} \ll 1 + \frac{1}{x}$ mặc dù các đạo hàm của hai vế là tương đương; tương tự, $1 + \frac{1}{x} \sim 1 + \frac{1}{x^2}$, nhưng $1/x^2 \gg 2/x^3$.
 
-#### Nhận xét 2 {#fvr-v-s3-n4-rem-2 .statement}
+#### Nhận xét 2 {#fvr-v-s3-n4-rem-2 .statement tag=08FK}
 
 Mặc dù $f$ và $g$ là so sánh được cấp $k$, một hàm $f_1$ tương đương với $f$ không nhất thiết so sánh được cấp $k$ với $g$; tuy nhiên điều đó đúng nếu giả sử rằng $f_1$ so sánh được cấp $k$ với $f$ và không một đạo hàm nào trong các đạo hàm $f^{(p)}$ ($0 \leqslant p \leqslant k - 1$) là tương đương với một hằng khác không.
 
-#### Nhận xét 3 {#fvr-v-s3-n4-rem-3 .statement}
+#### Nhận xét 3 {#fvr-v-s3-n4-rem-3 .statement tag=08FL}
 
 Nếu $f$ và $g$ là so sánh được cấp $k$ thì điều đó không nhất thiết còn đúng với $hf$ và $hg$, ngay cả đối với một hàm đơn điệu $h$ đơn giản như $h(x) = x$ (V, p. 260, bài tập 3); tương tự, $1/f$ và $1/g$ không nhất thiết so sánh được cấp $k$ (V, p. 259, bài tập 1).
 
@@ -236,7 +236,7 @@ Nếu $f$ và $g$ là so sánh được cấp $k$ thì điều đó không nhấ
 
 Cho $f$ là một hàm thực điều hòa $\neq 0$ có dấu không đổi trên một khoảng $[a, +\infty[$; mệnh đề sau cho phép thu được phần chính của nguyên hàm $\int_a^{+\infty} f(t)\,dt$ nếu $\int_a^{+\infty} f(t)\,dt$ hội tụ trong một số trường hợp, và của nguyên hàm $\int_a^x f(t)\,dt$ nếu $\int_a^{+\infty} f(t)\,dt$ là vô hạn:
 
-#### Mệnh đề 8 {#fvr-v-s3-prop-8 .statement}
+#### Mệnh đề 8 {#fvr-v-s3-prop-8 .statement tag=08FM}
 
 *Đặt* $F(x) = \int_x^{+\infty} f(t)\,dt$ *nếu* $\int_a^{+\infty} f(t)\,dt$ *hội tụ*, *và* $F(x) = \int_a^x f(t)\,dt$ *nếu* $\int_a^{+\infty} f(t)\,dt$ *là vô hạn*. *Giả sử rằng* $\log|f|$ *và* $\log x$ *là so sánh được cấp* 1.
 
@@ -276,14 +276,14 @@ $$
 
 Cho $\mathscr{E}$ là một thang so sánh (đối với $x$ thực tiến tới $+\infty$) được tạo thành từ các hàm thực khác không có dấu không đổi trên một lân cận của $+\infty$, sao cho $x \in \mathscr{E}$ và sao cho tích và thương của hai hàm trong $\mathscr{E}$ lại thuộc $\mathscr{E}$ (V, p. 221 và p. 224). Nếu một hàm điều hòa $f$ có dấu không đổi trên một lân cận của $+\infty$ có phần chính $c g$ đối với $\mathscr{E}$, thì $\int_x^{+\infty} f(t)\,dt$ (tương ứng $\int_a^x f(t)\,dt$ tùy theo trường hợp) sẽ tương đương với $c \int_x^{+\infty} g(t)\,dt$ (tương ứng $c \int_a^x g(t)\,dt$); nếu hàm $g$ thỏa mãn các giả thiết của mệnh đề 8 của V, p. 233, và nếu (khi công thức (2) của V, p. 233, áp dụng được) ta biết một phần chính của $g'$ đối với $\mathscr{E}$, thì do đó ta sẽ có một phần chính của $\int_x^{+\infty} f(t)\,dt$ (tương ứng $\int_a^x f(t)\,dt$) đối với $\mathscr{E}$.
 
-#### Ví dụ 1 {#fvr-v-s3-n5-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-s3-n5-exa-1 .statement tag=08FN}
 
 Hàm $1/\log x$ có cấp 0 đối với $x$ và thỏa mãn các điều kiện của mệnh đề 8 của V, p. 233; do đó
 $$
 \int_a^x \frac{dt}{\log t} \sim \frac{x}{\log x}.
 $$
 
-#### Ví dụ 2 {#fvr-v-s3-n5-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-s3-n5-exa-2 .statement tag=08FO}
 
 Hàm $e^{t^2}$ có cấp $+\infty$ đối với $x$ và thỏa mãn các điều kiện của mệnh đề 8, nên
 $$
@@ -292,7 +292,7 @@ $$
 
 Trong Phụ lục (V, p. 252) chúng tôi sẽ định nghĩa một tập hợp hàm mà đối với chúng mệnh đề 7 và mệnh đề 8 luôn áp dụng được.
 
-#### Nhận xét {#fvr-v-s3-n5-rem-1 .statement}
+#### Nhận xét {#fvr-v-s3-n5-rem-1 .statement tag=08FP}
 
 Mệnh đề 8 không áp dụng trực tiếp cho một hàm $f$ có cấp $-1$ đối với $x$. Nhưng khi đó có thể viết $f(x) = f_1(x)/x$, với $f_1$ có cấp 0 đối với $x$. Chẳng hạn, giả sử rằng $\int_a^{+\infty} f(t)\,dt$ là vô hạn; khi đó
 
@@ -336,7 +336,7 @@ $$
 
 Vậy tất cả quy về việc tìm các khai triển tiệm cận đối với $\mathscr{E}$ của *các nguyên hàm của những hàm thuộc* $\mathscr{E}$. Ta đã thấy cách làm, với những giả thiết nhất định trên $\mathscr{E}$, mệnh đề 8 của V, p. 233 cho phần chính của một nguyên hàm như vậy. Hơn nữa, chứng minh của mệnh đề 8 cho biểu thức của hiệu giữa hai vế của công thức (1) (tương ứng (2)) của V, p. 233, dưới dạng một nguyên hàm của hàm $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$ (tương ứng $f(x) g'(x)$ với $g = f/f'$); khi lập phần chính của nguyên hàm mới này, như một khai triển tiệm cận của vế phải của (1) (tương ứng (2)), ta thu được vế phải của khai triển cần tìm (xem V, p. 247-255).
 
-#### Ví dụ 1 {#fvr-v-s3-n6-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-s3-n6-exa-1 .statement tag=08FQ}
 
 Cho $f(x) = 1/\log x$ ($x > 1$); ta đã thấy rằng $\int_a^\lambda dt / \log t \sim x / \log x$, và hiệu $\int_a^\lambda \frac{dt}{\log t} - \frac{\lambda}{\log \lambda}$ là một nguyên hàm của $1/(\log x)^2$; có thể lại áp dụng mệnh đề 8 cho hàm này, do đó thu được $\int_a^\lambda dt / (\log t)^2 \sim x / (\log x)^2$. Bằng phép đệ quy như vậy ta thu được khai triển
 
@@ -347,7 +347,7 @@ $$
 
 Chú ý rằng, bất kể $n$ là bao nhiêu, mọi hạng của khai triển này đều tiến tới $+\infty$ khi $x$ tiến ra vô cùng.
 
-#### Ví dụ 2 {#fvr-v-s3-n6-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-s3-n6-exa-2 .statement tag=08FR}
 
 Cho $f(x) = \frac{e^x}{x^2 + 1}$; ta có thể viết $f(x) = \frac{e^x}{x^2} - \frac{e^x}{x^4} + o_1 \left( \frac{e^x}{x^4} \right)$. Mệnh đề 8 cho các khai triển
 

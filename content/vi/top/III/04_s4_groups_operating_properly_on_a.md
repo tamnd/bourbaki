@@ -36,7 +36,7 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: e84287c6e2c67f5f7ad613a5bfc387870426a3dce56d63faaaab64f08fa38302
+content_sha256: 6d720c6bd20c0227051143d00d94ad1310a25f229d8e098f7c1d7dd097f765a6
 translated_from: content/en/top/III/04_s4_groups_operating_properly_on_a.md
 source_content_sha256: 5e2dd8346a06e4cb97cfadd8d07cdc68593cb15b9e836abb31f0faba5e883e9b
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
@@ -50,7 +50,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC NHÓM TÁC ĐỘNG MỘT CÁCH THỰC SỰ LÊN MỘT KHÔNG GIAN TÔPÔ
 
-#### Định nghĩa 1 {#top-iii-s4-def-1 .statement}
+#### Định nghĩa 1 {#top-iii-s4-def-1 .statement tag=0BKR}
 
 Cho $G$ là một nhóm tôpô tác động liên tục trên một không gian tôpô $X$. Ta nói $G$ tác động một cách thực sự trên $X$ nếu ánh xạ
 
@@ -75,21 +75,21 @@ $$
 $$
 của A vào $G \times X$, nếu ánh xạ $\alpha \to (s_\alpha \cdot x_\alpha, x_\alpha)$ có giới hạn $(b, a)$ theo $\mathfrak{F}$, thì $\alpha \to s_\alpha$ có giới hạn $t \in G$ theo $\mathfrak{F}$, sao cho $t.a = b$.
 
-#### Ví dụ 1 {#top-iii-s4-n1-exa-1 .statement}
+#### Ví dụ 1 {#top-iii-s4-n1-exa-1 .statement tag=0BKS}
 
 Cho H là một nhóm con đóng của một nhóm tôpô G. Nếu G tác động một cách thực sự trên X, thì H cũng vậy, vì $H \times X$ đóng trong $G \times X$ (Chương I, § 10, no. 1, Mệnh đề 5, Hệ quả 1). Chẳng hạn, nếu lấy $X = G$, với G tác động lên chính nó bằng các phép tịnh tiến trái, thì ánh xạ $G \times X \to X \times X$ là một đồng phôi, do đó là thực sự; vậy H tác động một cách thực sự trên G bằng các phép tịnh tiến trái.
 
-#### Ví dụ 2 {#top-iii-s4-n1-exa-2 .statement}
+#### Ví dụ 2 {#top-iii-s4-n1-exa-2 .statement tag=0BKT}
 
 Nếu G tác động một cách thực sự trên X, thì nó tác động một cách thực sự trên mọi không gian con $X'$ của X là hợp của các quỹ đạo của các điểm của X (nói cách khác, $X'$ là bão hòa đối với quan hệ tương đương được xác định bởi G). Vì ảnh ngược của $X' \times X'$ trong $G \times X$ là $G \times X'$, và ta có thể áp dụng Mệnh đề 3 của Chương I, § 10, no. 1.
 
-#### Mệnh đề 1 {#top-iii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#top-iii-s4-prop-1 .statement tag=0BKU}
 
 Cho G là một nhóm tôpô tác động liên tục trên một không gian tôpô X, và cho K là một tập con quasi-compact của G. Khi đó ánh xạ $\rho : (s, x) \to s.x$ của $K \times X$ vào X là thực sự.
 
 $\rho$ phân tích thành $K \times X \to K \times X \xrightarrow{\mathrm{pr}_2} X$, trong đó $\alpha(s, x) = (s, s.x)$. $\alpha$ là một đồng phôi, vì $\alpha^{-1} : (s, y) \to (s, s^{-1}.y)$ liên tục. Vì K quasi-compact, $\mathrm{pr}_2$ là thực sự (Chương I, § 10, no. 2, Định lý 1, Hệ quả 5); do đó $\rho$ là thực sự (Chương I, § 10, no. 1, Mệnh đề 5).
 
-#### Hệ quả 1 {#top-iii-s4-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#top-iii-s4-prop-1-cor-1 .statement tag=0BKV}
 
 Nếu A là một tập con đóng (resp. compact) của X, thì K.A đóng trong X (resp. compact nếu X Hausdorff).
 
@@ -97,17 +97,17 @@ Mệnh đề về các tập đóng suy ra từ Mệnh đề 1 và sự kiện r
 
 Cần lưu ý rằng nếu L là một tập con compact của X, và F là một tập con đóng của G, thì F.L không nhất thiết đóng trong X ($§ 2$, Bài tập 29; cf. no. 5, Hệ quả của Mệnh đề 12).
 
-#### Hệ quả 2 {#top-iii-s4-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#top-iii-s4-prop-1-cor-2 .statement tag=0BKW}
 
 Nếu K là một nhóm con quasi-compact của một nhóm tôpô G, thì quan hệ tương đương $x^{-1}y \in K$ là đóng, và ánh xạ chính tắc $\varphi : G \to G/K$ là thực sự.
 
-#### Hệ quả 3 {#top-iii-s4-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#top-iii-s4-prop-1-cor-3 .statement tag=0BKX}
 
 Cho K là một nhóm con chuẩn tắc quasi-compact của một nhóm tôpô G, và cho φ là ánh xạ chính tắc G → G/K. Khi đó, với mỗi nhóm con đóng A của G, song ánh chính tắc của A/A ∩ K lên φ(A) là một đẳng cấu của các nhóm tôpô.
 
 Vì x⁻¹y ∈ K là một quan hệ tương đương đóng (Hệ quả 2), Hệ quả này suy ra từ Chương I, § 5, no. 2, Mệnh đề 4.
 
-#### Mệnh đề 2 {#top-iii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#top-iii-s4-prop-2 .statement tag=0BKY}
 
 Cho K là một nhóm compact tác động liên tục trên một không gian Hausdorff X. Khi đó:
 
@@ -117,13 +117,13 @@ c) Ánh xạ chính tắc của X lên X/K là thực sự.
 
 b) là một hệ quả của Mệnh đề 1. Còn đối với a), vì K compact, pr₂ : (s, x) → x là thực sự (Chương I, § 10, no. 2, Định lý 1, Hệ quả 5); do đó, vì X là Hausdorff, (s, x) → (x, s.x) là thực sự (Chương I, § 10, no. 1, Mệnh đề 5, Hệ quả 3). Còn phải chứng minh c). Theo Hệ quả 1 của Mệnh đề 1, ánh xạ chính tắc φ : X → X/K là đóng. Nếu Z là một không gian tôpô bất kỳ và ta cho K tác động tầm thường trên Z, thì K tác động liên tục trên X × Z và do đó ánh xạ chính tắc X × Z → (X × Z)/K là đóng. Nhưng (X × Z)/K có thể được đồng nhất một cách chính tắc với (X/K) × Z (§ 2, no. 4, Bổ đề 2 và Chương I, § 5, no. 3, Hệ quả của Mệnh đề 8); do đó ánh xạ chính tắc X × Z → (X × Z)/K có thể được đồng nhất với φ × 1, và vì nó là đóng với mọi Z, suy ra rằng φ là thực sự.
 
-#### Hệ quả 1 {#top-iii-s4-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#top-iii-s4-prop-2-cor-1 .statement tag=0BKZ}
 
 Theo các giả thiết của Mệnh đề 2, X compact (resp. địa phương compact) khi và chỉ khi X/K compact (resp. địa phương compact).
 
 Điều này suy ra từ sự kiện rằng ánh xạ chính tắc X → X/K là thực sự, theo Mệnh đề 9 của Chương I, § 10, no. 4.
 
-#### Hệ quả 2 {#top-iii-s4-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#top-iii-s4-prop-2-cor-2 .statement tag=0BL0}
 
 Cho G là một nhóm tôpô Hausdorff và K là một nhóm con compact của G. Khi đó G compact (resp. địa phương compact) khi và chỉ khi G/K compact (resp. địa phương compact).
 
@@ -131,7 +131,7 @@ Cho G là một nhóm tôpô Hausdorff và K là một nhóm con compact của G
 
 ### 2. CÁC TÍNH CHẤT CỦA CÁC NHÓM TÁC ĐỘNG MỘT CÁCH THỰC SỰ
 
-#### Mệnh đề 3 {#top-iii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#top-iii-s4-prop-3 .statement tag=0BL1}
 
 *Nếu một nhóm tôpô* $G$ *tác động thực sự trên một không gian tôpô* $X$, *thì không gian quỹ đạo* $X/G$ *là Hausdorff*. *Nếu thêm* $G$ *là Hausdorff*, *thì* $X$ *là Hausdorff*.
 
@@ -139,7 +139,7 @@ Cho $C \subset X \times X$ là đồ thị của quan hệ tương đương $R$ 
 
 Bây giờ giả sử rằng $G$ là Hausdorff. Khi đó ánh xạ $x \to (e, x)$ của $X$ vào $G \times X$ là một đẳng cấu tôpô của $X$ lên một không gian con đóng của $G \times X$, và do đó là thực sự (chương I, § 10, no. 1, Mệnh đề 2). Nếu ta hợp thành ánh xạ này với ánh xạ $(s, x) \to (x, s.x)$ của $G \times X$ vào $X \times X$, vốn là thực sự theo giả thiết, ta được một ánh xạ thực sự của $X$ vào $X \times X$, cụ thể là ánh xạ đường chéo $x \to (x, x)$. Do đó đường chéo $\Delta$ của $X \times X$ là đóng trong $X$, và vì vậy $X$ là Hausdorff.
 
-#### Mệnh đề 4 {#top-iii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#top-iii-s4-prop-4 .statement tag=0BL2}
 
 *Cho* $G$ *là một nhóm tôpô tác động thực sự trên một không gian tôpô* $X$, *và cho* $x$ *là một điểm của* $X$. *Ký hiệu* $G.x$ *là quỹ đạo của* $x$, *và ký hiệu* $K_x$ *là nhóm ổn định của* $x$. *Khi đó*:
 
@@ -153,11 +153,11 @@ d) *Quỹ đạo* $G.x$ *là đóng trong* $X$.
 
 Ảnh ngược của $\{ x \} \times X$ qua $\theta : (s, x) \to (x, s.x)$ là $G \times \{ x \}$; do đó, theo Mệnh đề 3 của chương I, § 10, no. 1, hạn chế của $\theta$ trên $G \times \{ x \}$ là một ánh xạ thực sự của $G \times \{ x \}$ vào $\{ x \} \times X$, do đó a) suy ra. Vì $K_x$ là ảnh ngược của $x$ qua $s \to s.x$, b) suy ra từ chương I, § 10, no. 2, Định lý 1. c) và d) là các hệ quả của a), theo chương I, § 10, no. 1, các Mệnh đề 2 và 5 b).
 
-#### Nhận xét {#top-iii-s4-n2-rem-1 .statement}
+#### Nhận xét {#top-iii-s4-n2-rem-1 .statement tag=0BL3}
 
 Mệnh đề 4 cho thấy rằng nếu một nhóm tôpô $G$ tác động thực sự trên một không gian thuần nhất $G/H$, thì nhóm con $H$ là giả compact (và do đó compact nếu $G$ là Hausdorff). Có thể chứng minh rằng đây cũng là một điều kiện đủ để $G$ tác động thực sự trên $G/H$ (Bài tập 3).
 
-#### Mệnh đề 5 {#top-iii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#top-iii-s4-prop-5 .statement tag=0BL4}
 
 *Cho* $G$ *(tương ứng.* $G'$) *là một nhóm tôpô tác động liên tục trên một không gian tôpô* $X$ *(tương ứng.* $X'$). *Cho* $\varphi$ *là một đồng cấu liên tục* từ $G$ vào $G'$ và $\psi$ là một ánh xạ liên tục từ $X$ vào $X'$ tương thích với $\varphi$ (§ 2, no. 4). Khi đó:
 
@@ -187,17 +187,17 @@ hội tụ theo $U$ lần lượt đến $y_0$ và $x_0$. Suy ra rằng $(s, x) 
 
 ### 3. CÁC NHÓM TÁC ĐỘNG TỰ DO TRÊN MỘT KHÔNG GIAN TÔPÔ
 
-#### Định nghĩa 2 {#top-iii-s4-def-2 .statement}
+#### Định nghĩa 2 {#top-iii-s4-def-2 .statement tag=0BL5}
 
 *Cho $G$ là một nhóm tác động trên một tập hợp $X$. Ta nói $G$ tác động tự do trên $X$ nếu nhóm ổn định của mọi phần tử của $X$ là $\{e\}$, nói cách khác nếu các quan hệ $s.x = x,\ s \in G,\ x \in X$ kéo theo $s = e$.*
 
-#### Ví dụ {#top-iii-s4-n3-exa-1 .statement}
+#### Ví dụ {#top-iii-s4-n3-exa-1 .statement tag=0BL6}
 
 Cho $G$ là một nhóm và $H$ là một nhóm con của $G$. Khi đó $H$ tác động tự do lên $G$ bởi các phép tịnh tiến (trái hoặc phải).
 
 Cho $G$ là một nhóm tác động tự do trên một tập hợp $X$, cho $R$ là quan hệ tương đương do $G$ xác định trên $X$, và cho $C \subset X \times X$ là đồ thị của $R$. Nếu $(x, y) \in C$, thì tồn tại $s \in G$ sao cho $s.x = y$; và $s$ là *duy nhất*, vì $s.x = s'.x$ kéo theo ${s'}^{-1}s.x = x$, và do đó ${s'}^{-1}s = e$ (vì $G$ tác động tự do). Nếu cho tương ứng với $(x, y) \in C$ phần tử duy nhất $s \in G$ sao cho $s.x = y$, ta định nghĩa một ánh xạ $\varphi : C \to G$, mà ta sẽ gọi là ánh xạ chính tắc của $C$ vào $G$. Với ký hiệu này:
 
-#### Mệnh đề 6 {#top-iii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#top-iii-s4-prop-6 .statement tag=0BL7}
 
 *Cho $G$ là một nhóm tôpô tác động liên tục trên một không gian tôpô $X$, và giả sử rằng $G$ tác động tự do trên $X$. Khi đó $G$ tác động đúng trên $X$ khi và chỉ khi điều kiện sau đây được thỏa mãn:*
 
@@ -207,7 +207,7 @@ Tập hợp $C$ là ảnh của ánh xạ $\theta : (s, x) \to (x, s.x)$ từ $G
 
 ### 4. CÁC NHÓM ĐỊA PHƯƠNG COMPACT TÁC ĐỘNG ĐÚNG
 
-#### Mệnh đề 7 {#top-iii-s4-prop-7 .statement}
+#### Mệnh đề 7 {#top-iii-s4-prop-7 .statement tag=0BL8}
 
 *Cho $G$ là một nhóm địa phương compact tác động liên tục trên một không gian Hausdorff $X$. Khi đó $G$ tác động riêng trên $X$ khi và chỉ khi, với mỗi cặp điểm $x, y$ của $X$, tồn tại một lân cận $V_x$ của $x$ và một lân cận $V_y$ của $y$ sao cho tập $K$ gồm mọi $s \in G$ mà với chúng $s.V_x \cap V_y \neq \emptyset$ là tương đối compact trong $G$.*
 
@@ -223,7 +223,7 @@ Nếu G là compact, điều kiện của Mệnh đề 7 được thỏa mãn m�
 
 Đặc biệt, Mệnh đề 7 chỉ ra rằng một nhóm rời rạc G, tác động liên tục trên một không gian Hausdorff X, tác động riêng trên X khi và chỉ khi, với mỗi cặp (x, y) điểm của X, tồn tại một lân cận V_x của x và một lân cận V_y của y sao cho tập các điểm s ∈ G mà với chúng s · V_x ∩ V_y ≠ ∅ là hữu hạn.
 
-#### Mệnh đề 8 {#top-iii-s4-prop-8 .statement}
+#### Mệnh đề 8 {#top-iii-s4-prop-8 .statement tag=0BL9}
 
 Cho G là một nhóm rời rạc tác động riêng trên một không gian Hausdorff X. Cho x là một điểm của X và cho K_x là nhóm ổn định của x. Khi đó:
 
@@ -235,25 +235,25 @@ Theo Mệnh đề 7, K_x là hữu hạn. Để xây dựng một tập mở U t
 
 Việc ánh xạ chính tắc U/K_x → X/G là một đồng phôi từ U/K_x lên một tập mở trong X/G suy ra từ Chương I, § 5, no. 2, Mệnh đề 4, vì U là mở và quan hệ tương đương do G xác định là mở (§ 2, no. 4, Bổ đề 2).
 
-#### Hệ quả {#top-iii-s4-n4-cor-1 .statement}
+#### Hệ quả {#top-iii-s4-n4-cor-1 .statement tag=0BLA}
 
 *Nếu giả sử thêm rằng $K_x = \{ e \}$, thì điểm $x$ có một lân cận mở $U$ sao cho hạn chế lên $U$ của ánh xạ chính tắc $X \to X/G$ là một đồng phôi của $U$ lên một tập con mở của $X/G$.*
 
 ### 5. CÁC NHÓM TÁC ĐỘNG LIÊN TỤC TRÊN MỘT KHÔNG GIAN ĐỊA PHƯƠNG COMPACT
 
-#### Mệnh đề 9 {#top-iii-s4-prop-9 .statement}
+#### Mệnh đề 9 {#top-iii-s4-prop-9 .statement tag=0BLB}
 
 *Cho $G$ là một nhóm tôpô tác động liên tục trên một không gian địa phương compact $X$. Khi đó nếu $X/G$ là Hausdorff thì nó địa phương compact.*
 
 Vì quan hệ tương đương trên $X$ do $G$ xác định là mở ($§ 2$, no. 4, Bổ đề 2), mệnh đề suy ra từ Chương I, $§ 10$, no. 4, Mệnh đề 10.
 
-#### Mệnh đề 10 {#top-iii-s4-prop-10 .statement}
+#### Mệnh đề 10 {#top-iii-s4-prop-10 .statement tag=0BLC}
 
 *Cho $G$ là một nhóm tôpô tác động liên tục trên một không gian địa phương compact $X$, và giả sử rằng $X/G$ là Hausdorff. Gọi $\varphi$ là ánh xạ chính tắc từ $X$ lên $X/G$. Khi đó nếu $K'$ là một tập con compact bất kỳ của $X/G$, thì tồn tại một tập con compact $K$ của $X$ sao cho $\varphi(K) = K'$.*
 
 Vì quan hệ tương đương do $G$ xác định là mở ($§ 2$, no. 4, Bổ đề 2), mệnh đề là một trường hợp riêng của Mệnh đề 10 của Chương I, $§ 10$, no. 4.
 
-#### Mệnh đề 11 {#top-iii-s4-prop-11 .statement}
+#### Mệnh đề 11 {#top-iii-s4-prop-11 .statement tag=0BLD}
 
 *Cho $G$ là một nhóm tôpô Hausdorff tác động riêng trên một không gian không rỗng $X$. Nếu $X$ compact (resp. địa phương compact) thì $G$ và $X/G$ cũng vậy.*
 
@@ -261,7 +261,7 @@ Theo giả thiết, ánh xạ $\theta : (s, x) \to (x, s.x)$ từ $G \times X$ v
 
 Bây giờ chúng ta sẽ đưa ra các tiêu chuẩn cho phép khẳng định rằng một nhóm tôpô Hausdorff $G$ tác động riêng trên một không gian địa phương compact $X$. Với mỗi cặp tập con $K, L$ của $X$ ta ký hiệu bởi $P(K, L)$ tập hợp mọi $s \in G$ sao cho $s.K \cap L \neq \emptyset$.
 
-#### Định lý 1 {#top-iii-s4-thm-1 .statement}
+#### Định lý 1 {#top-iii-s4-thm-1 .statement tag=0BLE}
 
 *Cho $G$ là một nhóm tôpô Hausdorff tác động liên tục trên một không gian tôpô $X$. Cho $K$ là một tập compact của $X$ và $L$ là một tập đóng của $X$. Khi đó:
 a) Tập $P(K, L)$ là đóng trong $G$.*
@@ -276,17 +276,17 @@ c) *Ngược lại, nếu X địa phương compact và nếu, với mỗi cặp
 
 Để chứng minh c): vì $K \times L$ đóng trong $X \times X$, suy ra $\overline{\theta}(K \times L)$ đóng trong $P(K, L) \times K$ và do đó compact dưới các giả thiết của c). Vì mọi tập compact của $X \times X$ đều được chứa trong một tập compact có dạng $K \times L$, suy ra ảnh ngược của mọi tập compact của $X \times X$ qua $\theta$ là compact, và vì $X \times X$ địa phương compact, điều này cho thấy $\theta$ là thực sự (Chương I, § 10, no. 3, Mệnh đề 7) [xem Chương IV, § 1, Bài tập 4c)].
 
-#### Nhận xét {#top-iii-s4-n5-rem-1 .statement}
+#### Nhận xét {#top-iii-s4-n5-rem-1 .statement tag=0BLF}
 
 Rõ ràng, ta có $P(K, L) \subset P(K \cup L, K \cup L)$; do đó để $G$ tác động thực sự trên một không gian địa phương compact $X$, điều kiện đủ là, với mỗi tập compact $K$ của $X$, tập $P(K, K)$ tương đối compact trong $G$. Đặc biệt, một nhóm *rời rạc* $G$ tác động thực sự trên một không gian địa phương compact $X$ khi và chỉ khi, với mỗi tập compact $K$ của $X$, tập các $s \in G$ sao cho $s.K \cap K \neq \emptyset$ là *hữu hạn*.
 
-#### Ví dụ {#top-iii-s4-n5-exa-1 .statement}
+#### Ví dụ {#top-iii-s4-n5-exa-1 .statement tag=0BLG}
 
 Cho $X$ là một đa tạp giải tích phức, đẳng cấu giải tích với một tập con mở bị chặn của $\mathbf{C}^n$, và cho $G$ là nhóm các tự đẳng cấu giải tích của $X$. Tôpô hội tụ compact tương thích với cấu trúc nhóm của $G$, và có thể chứng minh rằng $G$ tác động thực sự trên $X$. Đặc biệt, mọi nhóm con rời rạc của $G$ đều tác động thực sự trên $X$.
 
 Lấy ví dụ $X$ là nửa mặt phẳng trên $\mathscr{J}(z) > 0$, giải tích đẳng cấu với một đĩa mở trong $\mathbf{C}$. Khi đó $G$ là nhóm gồm mọi phép biến đổi $z \to (az + b)/(cz + d)$, trong đó $a, b, c, d$ là các số thực và $ad - bc \neq 0$. Nhóm con $H$ của $G$ gồm tất cả các phép biến đổi như vậy mà ở đó $a, b, c, d$ là các số nguyên và $ad - bc = 1$ là một nhóm con rời rạc của $G$, được gọi là *nhóm môđun*. Theo điều đã nói ở trên, nó tác động một cách thực sự trên nửa mặt phẳng trên $\mathscr{J}(z) > 0$.*
 
-#### Mệnh đề 12 {#top-iii-s4-prop-12 .statement}
+#### Mệnh đề 12 {#top-iii-s4-prop-12 .statement tag=0BLH}
 
 Cho G là một nhóm tôpô Hausdorff tác động liên tục trên một không gian tôpô X. Cho K là một tập con compact của X, và cho $\rho_K$ là ánh xạ $(s, x) \to s.x$ từ $G \times K$ vào X. Khi đó:
 
@@ -298,7 +298,7 @@ b) Nếu X compact địa phương và $\rho_K$ là thực sự với mỗi tậ
 
 Ngược lại, giả sử rằng $\rho_K$ là thực sự với mọi compact $K \subset X$. Nếu L là một tập con compact của X, thì $\rho_K^{-1}(L)$ là một tập con compact của $G \times K$, có phép chiếu vào G là $P(K, L)$; do đó $P(K, L)$ compact. Vậy nếu X compact địa phương thì từ Định lý 1 suy ra G tác động một cách thực sự trên X.
 
-#### Hệ quả {#top-iii-s4-n5-cor-1 .statement}
+#### Hệ quả {#top-iii-s4-n5-cor-1 .statement tag=0BLI}
 
 Cho G là một nhóm tôpô Hausdorff tác động một cách thực sự trên một không gian tôpô X. Nếu K là một tập con compact bất kỳ của X và nếu F là một tập con đóng bất kỳ của G, thì F.K đóng trong X.
 
@@ -306,13 +306,13 @@ Cho G là một nhóm tôpô Hausdorff tác động một cách thực sự trê
 
 ### 6. KHÔNG GIAN THUẦN NHẤT COMPACT ĐỊA PHƯƠNG
 
-#### Mệnh đề 13 {#top-iii-s4-prop-13 .statement}
+#### Mệnh đề 13 {#top-iii-s4-prop-13 .statement tag=0BLJ}
 
 Cho G là một nhóm compact địa phương và cho H là một nhóm con đóng của G. Khi đó không gian thuần nhất $G/H$ là compact địa phương và paracompact.
 
 Vì $G/H$ là Hausdorff (§ 2, no. 5, Mệnh đề 13) nên nó compact địa phương, theo Mệnh đề 9 của no. 5 áp dụng cho H tác động trên G ở bên phải. Vậy còn phải chứng minh rằng $G/H$ là paracompact. Cho V là một lân cận compact đối xứng của e trong G, và cho $G_0 = V^\infty$ là nhóm con của G sinh bởi V. $G_0$ là mở (§ 2, no. 1, Hệ quả của Mệnh đề 4) và tác động liên tục trên $G/H$ (§ 2, no. 5, Mệnh đề 12). Nếu ta có thể chứng minh rằng mỗi quỹ đạo $G_0.z \ (z \in G/H)$ là một tập con mở của $G/H$ và là một hợp đếm được của các tập compact, thì sẽ suy ra rằng $G/H$ là *tổng tôpô* của các quỹ đạo phân biệt $G_0.z$ và là
 
-#### Mệnh đề 14 {#top-iii-s4-prop-14 .statement}
+#### Mệnh đề 14 {#top-iii-s4-prop-14 .statement tag=0BLK}
 
 *Trong một nhóm compact địa phương $G$, thành phần đơn vị $C$ là giao của các nhóm con mở của $G$.*
 
@@ -320,15 +320,15 @@ $C$ là một nhóm con đóng chuẩn tắc của $G$ ($§ 2$, no. 2, Mệnh đ
 
 Ta cũng đã chứng minh:
 
-#### Hệ quả 1 {#top-iii-s4-prop-14-cor-1 .statement}
+#### Hệ quả 1 {#top-iii-s4-prop-14-cor-1 .statement tag=0BLL}
 
 *Nếu $G$ là một nhóm compact địa phương hoàn toàn không liên thông, thì mọi lân cận của $e$ trong $G$ đều chứa một nhóm con mở của $G$.*
 
-#### Hệ quả 2 {#top-iii-s4-prop-14-cor-2 .statement}
+#### Hệ quả 2 {#top-iii-s4-prop-14-cor-2 .statement tag=0BLM}
 
 *Một nhóm compact địa phương là liên thông nếu nó được sinh bởi mỗi lân cận của phần tử đơn vị.*
 
-#### Hệ quả 3 {#top-iii-s4-prop-14-cor-3 .statement}
+#### Hệ quả 3 {#top-iii-s4-prop-14-cor-3 .statement tag=0BLN}
 
 *Cho $G$ là một nhóm compact địa phương, cho $H$ là một nhóm con đóng của $G$, và cho $\varphi$ là ánh xạ chính tắc từ $G$ lên $G/H$. Khi đó các thành phần liên thông của $G/H$ là các bao đóng của các ảnh, dưới $\varphi$, của các thành phần liên thông của $G$.*
 

@@ -38,9 +38,9 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: 2be5d1e52dd4a5c5062e067bc81adb796b67728132da1e7c14b669f23f03c966
+content_sha256: 154b425a28adbe7e05ca681a4903f1d50e730981e332e522b30ebabf9bb6aa06
 translated_from: content/en/alg/V/17_s17_regular_extensions.md
-source_content_sha256: ea5161cf1b2c28cf9289420b198bd8a7545ddd5832c1cbfa8ba54113cb049ee4
+source_content_sha256: c3f351f5e813a393d1fb207cf121c6dd2bc4e8303d881b9cf4b097b0c621cb53
 translation_model: gpt-5.4
 translation_run: translate-vi-ab1b1743
 glossary_version: 34
@@ -52,7 +52,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Bổ sung về bao đóng đại số tách được tương đối
 
-#### Định lý 1 (Zariski) {#alg-v-s17-thm-1 .statement}
+#### Định lý 1 (Zariski) {#alg-v-s17-thm-1 .statement tag=06VP}
 
 — *Cho K là một trường, L là một mở rộng của K, $K_1$ là bao đóng đại số tách được tương đối của K trong L (V, p. 44), $K_2$ là bao đóng đại số tương đối của K trong L (V, p. 19) và $(X_i)_{i \in I}$ là một họ các bất định. Khi đó $K_1(X_i)_{i \in I}$ là bao đóng đại số tách được tương đối của $K(X_i)_{i \in I}$ trong $L(X_i)_{i \in I}$, và $K_2(X_i)_{i \in I}$ là bao đóng đại số tương đối của $K(X_i)_{i \in I}$ trong $L(X_i)_{i \in I}$.
 
@@ -76,7 +76,7 @@ Như vậy ta đã suy ra từ A) rằng $K_1(X_i)_{i \in I}$ là bao đóng tá
 
 ### 2. Tích tenxơ của các mở rộng
 
-#### Mệnh đề 1 {#alg-v-s17-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s17-prop-1 .statement tag=06VQ}
 
 — Cho $\Omega$ là một mở rộng của một trường $K$ và cho $L, M$ là hai mở rộng con của $\Omega$ rời nhau về mặt đại số trên $K$. Giả sử bao đóng đại số tách được tương đối của $K$ trong $L$ bằng $K$^1. Gọi $\varphi$ là đồng cấu đại số $K$ của $L \otimes_K M$ vào $\Omega$ ánh xạ $x \otimes y$ thành $xy$ với $x \in L, y \in M$, và gọi $p$ là hạt nhân của $\varphi$. Khi đó $p$ là tập hợp các phần tử lũy linh của $L \otimes_K M$ và đó là iđêan nguyên tố nhỏ nhất của $L \otimes_K M$.
 
@@ -121,7 +121,7 @@ $$
 
 và vì $\eta$ là đơn ánh nên cuối cùng ta có $a^{p^f} = 0$. Như vậy ta đã chứng minh $p$ là tập hợp tất cả các phần tử lũy linh của $L \otimes_K M$. Bây giờ mọi iđêan nguyên tố của $L \otimes_K M$ đều chứa $p$ theo Mệnh đề 2 (V, p. 118).
 
-#### Hệ quả {#alg-v-s17-n2-cor-1 .statement}
+#### Hệ quả {#alg-v-s17-n2-cor-1 .statement tag=06VR}
 
 *Cho L và M là hai mở rộng của một trường K. Giả sử bao đóng đại số tách được tương đối của K trong L bằng K. Khi đó tập hợp p các phần tử lũy linh của $L \otimes_K M$ là một iđêan nguyên tố. Hơn nữa, nếu L hoặc M tách được trên K, thì $L \otimes_K M$ là một miền nguyên.*
 
@@ -129,19 +129,19 @@ Ta có thể giả sử rằng L và M là các mở rộng con rời nhau về 
 
 ### 3. Đại số chính quy
 
-#### Định nghĩa 1 {#alg-v-s17-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s17-def-1 .statement tag=06VS}
 
 *Cho K là một trường. Một đại số A trên K được gọi là chính quy nếu $L \otimes_K A$ là một miền nguyên với mọi mở rộng L của K.*
 
 Một đại số chính quy, đặc biệt, là một miền nguyên, do đó là giao hoán.
 
-#### Mệnh đề 2 {#alg-v-s17-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s17-prop-2 .statement tag=06VT}
 
 — Cho $A$ và $B$ là hai đại số trên một trường $K$. Nếu $A$ là một miền nguyên và $B$ là chính quy thì $A \otimes_K B$ là một miền nguyên.
 
 Gọi $L$ là trường phân thức của $A$. Vì $B$ là một $K$-đại số chính quy, $L \otimes_K B$ là một miền nguyên, do đó $A \otimes_K B$ cũng vậy, vì nó đẳng cấu với một vành con của $L \otimes_K B$.
 
-#### Mệnh đề 3 {#alg-v-s17-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s17-prop-3 .statement tag=06VU}
 
 — Cho $K$ là một trường.
 a) Mọi đại số con của một $K$-đại số chính quy tự nó cũng chính quy.
@@ -154,29 +154,29 @@ Cho $A$ và $B$ là hai $K$-đại số chính quy. Cho $L$ là một mở rộn
 
 ### 4. Các mở rộng chính quy
 
-#### Định nghĩa 2 {#alg-v-s17-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s17-def-2 .statement tag=06VV}
 
 — Một mở rộng của một trường $K$ được gọi là chính quy nếu nó chính quy như một $K$-đại số.
 
-#### Mệnh đề 4 {#alg-v-s17-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s17-prop-4 .statement tag=06VW}
 
 — Cho $A$ là một đại số trên trường $K$ là một miền nguyên, và $E$ là trường phân thức của nó. Cho $L$ là một mở rộng của $K$; nếu vành $L \otimes_K A$ là một miền nguyên thì điều tương tự cũng đúng với $L \otimes_K E$.
 
 Nếu $L \otimes_K A$ là một miền nguyên, nó có thể được nhúng vào trường phân thức $F$ của nó. Viết $u(x) = x \otimes 1$ với $x \in L$ và ký hiệu bởi $v$ đồng cấu $K$ của $E$ vào $F$ mở rộng đơn cấu $y \mapsto 1 \otimes y$ của $A$ vào $F$. Theo Mệnh đề 6 (V, p. 14), các trường con $u(L)$ và $v(E)$ của $F$ độc lập tuyến tính trên $K$; do đó đồng cấu $u * v$ của $L \otimes_K E$ vào $F$ (V, p. 12) là đơn ánh. Điều này cho thấy $L \otimes_K E$ là một miền nguyên.
 
-#### Hệ quả {#alg-v-s17-n4-cor-1 .statement}
+#### Hệ quả {#alg-v-s17-n4-cor-1 .statement tag=06VX}
 
 — Để $A$ là một $K$-đại số chính quy thì điều kiện cần và đủ là trường phân thức của nó là một mở rộng chính quy của $K$.
 
 Điều kiện đó là cần theo Mệnh đề 4 và là đủ theo Mệnh đề 3, a).
 
-#### Mệnh đề 5 {#alg-v-s17-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s17-prop-5 .statement tag=06VY}
 
 — Mọi mở rộng thuần của một trường $K$ đều là chính quy.
 
 Theo hệ quả trên, chỉ cần chứng minh rằng mọi đại số đa thức $A = K[X_i]_i$ đều là một $K$-đại số chính quy. Cho $L$ là một mở rộng của $K$; vành $L \otimes_K A$ đẳng cấu với $L[X_i]_{i \in I}$ (III, p. 449, Nhận xét 2), và do đó là một miền nguyên (IV, p. 9, Mệnh đề 8).
 
-#### Mệnh đề 6 {#alg-v-s17-prop-6 .statement}
+#### Mệnh đề 6 {#alg-v-s17-prop-6 .statement tag=06VZ}
 
 — Cho L là một mở rộng của một trường K. Nếu L là chính quy, thì mọi mở rộng con của L đều chính quy. Ngược lại, nếu mọi mở rộng con sinh hữu hạn của L đều chính quy, thì L là chính quy.
 
@@ -184,13 +184,13 @@ Mệnh đề thứ nhất suy ra từ Mệnh đề 3, a).
 
 Cho M là một mở rộng của K và $\mathscr{U}$ là tập hợp tất cả các mở rộng con sinh hữu hạn của L. Với mỗi E $\in \mathscr{U}$, vành $M \otimes_K E$ có thể được đồng nhất với một vành con của $M \otimes_K L$ và do đó ta có một họ tăng có hướng các vành con của $M \otimes_K L$ mà hợp là $M \otimes_K L$. Bây giờ mệnh đề thứ hai suy ra ngay lập tức.
 
-#### Mệnh đề 7 {#alg-v-s17-prop-7 .statement}
+#### Mệnh đề 7 {#alg-v-s17-prop-7 .statement tag=06W0}
 
 — Cho L là một mở rộng của một trường K và M là một đại số trên L (ví dụ, một mở rộng của L). Nếu L là chính quy trên K và M là một đại số trên L chính quy, thì M là chính quy như một đại số trên K.
 
 Cho E là một mở rộng của K; vì L là chính quy trên K, $E \otimes_K L$ là một miền nguyên. Theo Mệnh đề 2 (V, p. 141), vành $(E \otimes_K L) \otimes_L M$ do đó là một miền nguyên và điều tương tự cũng đúng với vành $E \otimes_K M$ đẳng cấu với nó (II. p. 278, Mệnh đề 2). Vậy có kết quả.
 
-#### Mệnh đề 8 {#alg-v-s17-prop-8 .statement}
+#### Mệnh đề 8 {#alg-v-s17-prop-8 .statement tag=06W1}
 
 — Cho L và M là hai mở rộng của một trường K.
 
@@ -202,7 +202,7 @@ Mệnh đề a) suy ra từ Mệnh đề 3, c) (V, p. 141) và Hệ quả của 
 
 ### 5. Đặc trưng hóa các mở rộng chính quy
 
-#### Mệnh đề 9 {#alg-v-s17-prop-9 .statement}
+#### Mệnh đề 9 {#alg-v-s17-prop-9 .statement tag=06W2}
 
 — Cho K là một trường, $\overline{K}$ là một bao đóng đại số của K và L là một mở rộng của K. Khi đó các điều kiện sau là tương đương:
 
@@ -226,19 +226,19 @@ E $\otimes_K$ L của A là một miền nguyên và do đó là một đại s�
 
 $d) \Rightarrow a)$: Dưới các giả thiết của d) ta có $L \cap \bar{K} = K$, nên K đóng đại số tương đối trong L; hơn nữa nếu p là số mũ đặc số của K, trường $L$ độc lập tuyến tính với $K^{p^{-\infty}}$ trên $K$, do đó L tách được trên K (V, p. 123, Hệ quả 1).
 
-#### Hệ quả 1 {#alg-v-s17-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s17-prop-9-cor-1 .statement tag=06W3}
 
 — Để A là một đại số chính quy trên một trường K thì điều kiện cần và đủ là vành $\bar{K} \otimes_K A$ là một miền nguyên.
 
 Điều kiện đã nêu rõ ràng là cần thiết. Ngược lại, giả sử rằng $\bar{K} \otimes_K A$ là một miền nguyên và ký hiệu bởi E trường phân thức của A. Theo Mệnh đề 4 (V, p. 141) vành $\bar{K} \otimes_K E$ là một miền nguyên, do đó E là một mở rộng chính quy của K, theo Mệnh đề 9; theo V, p. 141, Hệ quả, ta kết luận rằng A là chính quy như một đại số trên K.
 
-#### Hệ quả 2 {#alg-v-s17-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s17-prop-9-cor-2 .statement tag=06W4}
 
 — Cho K là một trường đóng đại số. Mọi đại số trên K là một miền nguyên đều là một đại số trên K chính quy. Đặc biệt, mọi mở rộng của K đều là chính quy.
 
 Điều này suy ra từ Hệ quả 1.
 
-#### Hệ quả 3 {#alg-v-s17-prop-9-cor-3 .statement}
+#### Hệ quả 3 {#alg-v-s17-prop-9-cor-3 .statement tag=06W5}
 
 — Cho K là một trường đóng đại số. Nếu A và B là hai đại số trên K là những miền nguyên, thì $A \otimes_K B$ cũng vậy.
 
@@ -246,7 +246,7 @@ Theo Hệ quả 2, A và B là các đại số trên K chính quy, và chỉ c�
 
 ### 6. Ứng dụng cho các mở rộng hợp thành
 
-#### Mệnh đề 10 {#alg-v-s17-prop-10 .statement}
+#### Mệnh đề 10 {#alg-v-s17-prop-10 .statement tag=06W6}
 
 — Cho L và M là hai mở rộng của một trường K và $(E, u, v)$ là một mở rộng hợp thành của L và M (V, p. 12). Giả sử rằng vành $L \otimes_K M$ là một miền nguyên và các mở rộng con $u(L)$ và $v(M)$ của E là đóng đại số rời nhau trên K. Khi đó $u(L)$ và $v(M)$ độc lập tuyến tính trên K.
 
@@ -254,13 +254,13 @@ Theo Hệ quả 2, A và B là các đại số trên K chính quy, và chỉ c�
 
 Theo giả thiết, $u(L)$ và $v(M)$ rời nhau về mặt đại số trên K; do đó (V, p. 114, Mệnh đề 14), $u(L)$ và $v(K(B))$ rời nhau tuyến tính trên K. Vì vậy tồn tại một K-đồng cấu $u': L(B) \to E$ trùng với u trên L và với v trên K(B). Theo phép dựng, L và M rời nhau tuyến tính trên K trong F; theo Mệnh đề 8 (V, p. 15), các trường con $L(B)$ và $M$ của F rời nhau tuyến tính trên $K(B)$. Suy ra rằng tồn tại một K-đồng cấu $w' : M[L(B)] \to E$ trùng với $u'$ trên $L(B)$ và với $v$ trên $M$. Nhưng trường $F$ được sinh bởi $M \cup L(B)$ và $M$ là đại số trên $K(B)$; do đó ta có $M[L(B)] = F$ (V, p. 18, Hệ quả 2). Vậy ta kết luận rằng $w'$ là một K-đẳng cấu của $F$ lên $E$ mà hạn chế của nó trên $L$ (tương ứng, $M$) là $u$ (tương ứng, $v$). Điều này chứng tỏ $u(L)$ và $v(M)$ rời nhau tuyến tính trên $K$.
 
-#### Hệ quả 1 {#alg-v-s17-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s17-prop-10-cor-1 .statement tag=06W7}
 
 *Cho $\Omega$ là một mở rộng của một trường $K$ và $L$ là một mở rộng con của $\Omega$ chính quy trên $K$. Mọi mở rộng con $M$ của $\Omega$ rời nhau về mặt đại số với $L$ trên $K$ đều rời nhau tuyến tính.*
 
 Vành $L \otimes_K M$ là một miền nguyên theo định nghĩa của mở rộng chính quy, và bây giờ chỉ cần áp dụng Mệnh đề 10.
 
-#### Hệ quả 2 {#alg-v-s17-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s17-prop-10-cor-2 .statement tag=06W8}
 
 *Cho $\Omega$ là một mở rộng của một trường $K$ và $L, M$ là hai mở rộng con của $\Omega$. Giả sử rằng $L$ tách được trên $K$ và bao đóng tách được tương đối của $K$ trong $M$ bằng $K$. Nếu $L$ và $M$ rời nhau đại số trên $K$, thì chúng rời nhau tuyến tính trên $K$.*
 

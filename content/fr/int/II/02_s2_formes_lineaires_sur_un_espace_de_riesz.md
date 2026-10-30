@@ -20,7 +20,7 @@ subsections:
       pdf_page: 31
 statements: 13
 exercises: 9
-content_sha256: 63474f4f43367b1c205371ee83d30c05411c3a4de084f65d8841982483d7baa5
+content_sha256: 7d2fb78e3304221e09bcecc687cc90475ddeb2a8d3231c022ed5a7d3b84e5993
 ---
 
 ## § 2. Formes linéaires sur un espace de Riesz
@@ -29,37 +29,37 @@ content_sha256: 63474f4f43367b1c205371ee83d30c05411c3a4de084f65d8841982483d7baa5
 
 Rappelons la définition suivante (Esp. vect. top., chap. II, 2e éd., § 2, n° 5):
 
-#### Définition 1 {#int-ii-s2-def-1 .statement}
+#### Définition 1 {#int-ii-s2-def-1 .statement tag=08KI}
 
 Etant donné un espace vectoriel ordonné E, on dit qu’une forme linéaire L sur E est positive si, pour tout x $\geqslant 0$ dans E, on a $L(x) \geqslant 0$.
 
 Comme $L(y) - L(x) = L(y - x)$, il revient au même de dire que la relation $x \leqslant y$ entraîne $L(x) \leqslant L(y)$, ou encore que $L$ est une fonction croissante dans E.
 
-#### Exemple 1 {#int-ii-s2-n1-exa-1 .statement}
+#### Exemple 1 {#int-ii-s2-n1-exa-1 .statement tag=08KJ}
 
 Soient A un ensemble quelconque, E un sous-espace de l’espace $\mathbf{R}^A$ de toutes les fonctions numériques définies dans A. Pour tout élément $a \in A$, l’application $x \mapsto x(a)$ est une forme linéaire positive sur E.
 
-#### Exemple 2 {#int-ii-s2-n1-exa-2 .statement}
+#### Exemple 2 {#int-ii-s2-n1-exa-2 .statement tag=08KK}
 
 Soit $I = [a, b]$ un intervalle compact de $\mathbf{R}$, E l’espace de Riesz formé des fonctions numériques réglées dans I (Fonct. var. réelle, chap. II, §1, n° 3); l’application $x \mapsto \int_a^b x(t)\, dt$ est une forme linéaire positive sur E.
 
-#### Exemple 3 {#int-ii-s2-n1-exa-3 .statement}
+#### Exemple 3 {#int-ii-s2-n1-exa-3 .statement tag=08KL}
 
 Soient F un ensemble quelconque, $\mathscr{U}$ un ultrafiltre sur F (Top. gén., chap. I, 3e éd., § 6, n° 4), E l’espace de Riesz $\mathscr{B}(F)$ des fonctions numériques bornées dans F. Pour tout $x \in E$, $\lim_{\mathscr{U}} x(t)$ existe, car $x(\mathscr{U})$ est une base d’ultrafiltre sur l’ensemble relativement compact $x(F)$, et par suite est convergente. En outre, si $x \geqslant 0$, on a $\lim_{\mathscr{U}} x(t) \geqslant 0$ en vertu du principe de prolongement des inégalités; l’application $x \mapsto \lim_{\mathscr{U}} x$ est donc une forme linéaire positive sur E. Si on prend pour $\mathscr{U}$ l’ultrafiltre formé des ensembles contenant un élément $a \in F$, on retrouve la forme linéaire positive $x \mapsto x(a)$ (exemple 1).
 
-#### Proposition 1 {#int-ii-s2-prop-1 .statement}
+#### Proposition 1 {#int-ii-s2-prop-1 .statement tag=08KM}
 
 Soient E un espace vectoriel ordonné, L une application de E dans $\mathbf{R}$ telle que $L(x + y) = L(x) + L(y)$ et que la relation $x \geqslant 0$ entraîne $L(x) \geqslant 0$; alors, pour tout scalaire $\lambda$ et tout $x \geqslant 0$, on a $L(\lambda x) = \lambda L(x)$.
 
 Comme $L(-x) = -L(x)$ (L étant une représentation du groupe additif E dans $\mathbf{R}$), on peut se borner au cas où $\lambda \geqslant 0$. Pour tout entier $n \geqslant 0$, on a $L(nx) = nL(x)$, d’où $L((1/n)x) = (1/n)L(x)$ et par suite $L(rx) = rL(x)$ pour tout nombre rationnel $r \geqslant 0$. D’autre part $L$ est croissante dans E; si $r$ et $r'$ sont deux nombres rationnels tels que $r \leqslant \lambda \leqslant r'$, on a donc $rL(x) \leqslant L(\lambda x) \leqslant r'L(x)$; comme $rL(x)$ et $r'L(x)$ diffèrent d’aussi peu qu’on veut de $\lambda L(x)$, on a $L(\lambda x) = \lambda L(x)$.
 
-#### Proposition 2 {#int-ii-s2-prop-2 .statement}
+#### Proposition 2 {#int-ii-s2-prop-2 .statement tag=08KN}
 
 Soient E un espace vectoriel réel, C un cône convexe de sommet 0 dans E tel que $E = C - C$, $x \mapsto M(x)$ une application de C dans $\mathbf{R}$ telle que, pour $x \in C$, $y \in C$, $\lambda \geqslant 0$, $\mu \geqslant 0$, on ait $M(\lambda x + \mu y) = \lambda M(x) + \mu M(y)$. Alors il existe une forme linéaire et une seule $L$ qui prolonge $M$ à $E$.
 
 En effet, par hypothèse, tout $z \in E$ peut s’écrire $z = y - x$, où $x, y$ appartiennent à $C$; en outre, si $z = y' - x'$ avec $x' \in C, y' \in C$, on a $M(y) - M(x) = M(y') - M(x')$; en effet, de la relation $y - x = y' - x'$, on tire $y + x' = x + y'$, et par suite $M(y) + M(x') = M(x) + M(y')$. Désignons par $L(z)$ la valeur commune de $M(y) - M(x)$ pour toute expression de $z$ comme différence $y - x$ de deux éléments de $C$; on vérifie immédiatement que $L$ est une forme linéaire sur $E$ prolongeant $M$; l’unicité de $L$ résulte de ce que $C$ engendre l’espace $E$.
 
-#### Proposition 3 {#int-ii-s2-prop-3 .statement}
+#### Proposition 3 {#int-ii-s2-prop-3 .statement tag=08KO}
 
 Soient $E$ un espace vectoriel ordonné filtrant, $P$ l’ensemble des éléments $\geqslant 0$ de $E$, $x \mapsto M(x)$ une application de $P$ dans $\mathbf{R}$, à valeurs $\geqslant 0$ et telle que $M(x + y) = M(x) + M(y)$ quels que soient $x, y$ dans $P$. Il existe alors une forme linéaire positive et une seule $L$ qui prolonge $M$ à $E$.
 
@@ -69,11 +69,11 @@ Comme $E = P - P$, le même raisonnement que dans la prop. 2 prouve d’abord l�
 
 Soit $E$ un espace vectoriel ordonné filtrant. Soit $Q$ l’ensemble des formes linéaires positives sur $E$; c’est une partie du dual algébrique $E^*$ de $E$ (espace de toutes les formes linéaires sur $E$). Il est immédiat que $Q + Q \subset Q$ et $\lambda Q \subset Q$ pour tout scalaire $\lambda > 0$ (en d’autres termes, $Q$ est un cône convexe dans $E^*$). En outre, on a $Q \cap (-Q) = \{0\}$, car si $L$ et $-L$ sont toutes deux des formes linéaires positives, on a $L(x) \geqslant 0$ et $L(x) \leqslant 0$ pour tout $x \geqslant 0$, d’où $L(x) = 0$ pour tout $x \geqslant 0$, et par suite $L = 0$ (n° 1, prop. 3). L’ensemble $Q$ définit donc sur $E^*$ une relation d’ordre $L \leqslant M$, équivalente à « $M - L$ est une forme linéaire positive sur $E$ », ou encore à « pour tout $x \geqslant 0$, $L(x) \leqslant M(x)$ »; les éléments $\geqslant 0$ dans $E^*$ pour cette structure d’ordre sont les formes linéaires positives (ce qui justifie la terminologie introduite). Soit $\Omega$ le sous-espace vectoriel de $E^*$ engendré par $Q$, c’est-à-dire l’ensemble des formes linéaires sur $E$ qui sont différences de deux formes linéaires positives; nous allons donner une autre caractérisation des éléments de $\Omega$ lorsque E est un espace de Riesz.
 
-#### Définition 2 {#int-ii-s2-def-2 .statement}
+#### Définition 2 {#int-ii-s2-def-2 .statement tag=08KP}
 
 Etant donné un espace de Riesz E, on dit qu’une forme linéaire L sur E est relativement bornée si, pour tout $x \geqslant 0$ dans E, L est bornée dans l’ensemble des $y \in E$ tels que $|y| \leqslant x$.
 
-#### Théorème 1 {#int-ii-s2-thm-1 .statement}
+#### Théorème 1 {#int-ii-s2-thm-1 .statement tag=08KQ}
 
 1° Pour qu’une forme linéaire L sur un espace de Riesz E soit relativement bornée, il faut et il suffit qu’elle soit la différence de deux formes linéaires positives.
 
@@ -105,7 +105,7 @@ Reste à voir que $\Omega$ est complètement réticulé ; pour cela il suffit de
 
 Or, on a plus généralement le lemme suivant :
 
-#### Lemme 1 {#int-ii-s2-lem-1 .statement}
+#### Lemme 1 {#int-ii-s2-lem-1 .statement tag=0E5W}
 
 Soient $E$ un espace vectoriel ordonné filtrant, $E^*$ son dual, ordonné en prenant pour éléments positifs les formes linéaires positives. Soit $(u_\alpha)$ une famille filtrante croissante d’éléments de $E^*$. Si, pour tout $x \geq 0$ dans $E$, on a $\sup u_\alpha(x) < +\infty$, alors la famille $(u_\alpha)$ admet une borne supérieure $u$ dans $E^*$, et pour tout $x \geq 0$ dans $E$, on a
 
@@ -149,13 +149,13 @@ $$
 $$
 pour tout $x \in \mathbf{E}$.
 
-#### Proposition 4 {#int-ii-s2-prop-4 .statement}
+#### Proposition 4 {#int-ii-s2-prop-4 .statement tag=08KS}
 
 *Pour que deux formes linéaires positives $L, M$ sur un espace de Riesz $\mathbf{E}$ soient étrangères dans l’espace $\Omega$, il faut et il suffit que, pour tout nombre $\varepsilon > 0$ et pour tout $x \geq 0$ dans $\mathbf{E}$, il existe deux éléments $y \geq 0, z \geq 0$ de $\mathbf{E}$ tels que $x = y + z$ et $L(y) + M(z) \leq \varepsilon$.*
 
 En effet, d’après la seconde formule (3), cette condition exprime que $\inf (L, M) = 0$.
 
-#### Proposition 5 {#int-ii-s2-prop-5 .statement}
+#### Proposition 5 {#int-ii-s2-prop-5 .statement tag=08KT}
 
 *Soit $L$ une forme linéaire positive sur un espace de Riesz $\mathbf{E}$. Pour qu’une forme linéaire positive $M$ sur $\mathbf{E}$ appartienne à la bande engendrée par $L$ dans $\Omega$, il faut et il suffit que, pour tout $x \geq 0$ dans $\mathbf{E}$ et tout nombre $\varepsilon > 0$, il existe un nombre $\delta > 0$ tel que les relations $0 \leq y \leq x$ et $L(y) \leq \delta$ entraînent $M(y) \leq \varepsilon$.*
 
@@ -178,7 +178,7 @@ $$
 
 $\varepsilon$ étant arbitraire, on a $V(x) = 0$ pour tout $x \geq 0$, c’est-à-dire $V = 0$.
 
-#### Exemple {#int-ii-s2-n2-exa-1 .statement}
+#### Exemple {#int-ii-s2-n2-exa-1 .statement tag=08KU}
 
 Soit $E$ un espace de Riesz, muni d’une topologie localement convexe, compatible avec sa structure d’espace vectoriel ordonné (*Esp. vect. top.*, chap. II, 2e éd., § 2, n° 7). Soit $E'$ le dual topologique de $E$, et supposons en outre que le cône $P$ des éléments $\geq 0$ de $E$ soit *complet pour la topologie affaiblie* $\sigma(E, E')$. Alors toute forme linéaire continue $x' \in E'$ est *relativement bornée*, car on sait (*Esp. vect. top.*, chap. II, 2e éd., § 6, n° 8, cor. 2 de la prop. 1) que dans ces conditions, pour tout $x \geq 0$ dans $E$, l’ensemble des $y \in E$ tels que $|y| \leq x$ est *compact* pour $\sigma(E, E')$. On en déduit que $E$ est alors *complètement réticulé*; en effet ($§ 1$, n° 3, prop. 2) il suffit de montrer que pour tout ensemble $H \subset E$ majoré et filtrant pour $\leq$, le filtre des sections $\mathfrak{F}$ de $H$ est *convergent dans E pour la topologie* $\sigma(E, E')$ (cette dernière étant compatible avec la structure d’espace vectoriel ordonné de $E$). Par translation, on peut supposer que $H \subset P$, et il suffit donc de montrer que $\mathfrak{F}$ est un *filtre de Cauchy* pour $\sigma(E, E')$, ou encore que toute forme linéaire continue $x' \in E'$ a une limite suivant $\mathfrak{F}$. Mais cela résulte aussitôt du th. de la limite monotone si $x'$ est une forme linéaire *positive*; et comme toute forme linéaire $x' \in E'$ est différence de deux formes linéaires positives (th. 1), notre assertion est démontrée.
 

@@ -44,7 +44,7 @@ subsections:
       pdf_page: 20
 statements: 30
 exercises: 6
-content_sha256: 60c4a8d95523ab290676ce8bebad21c12d23f6ec07ff8513dfae674f21b872f5
+content_sha256: 892a984cff2102303319804cfb7dc1eb94925e548d776c58d7f88891d3e1c736
 ---
 
 ## § 1. POLYNÔMES
@@ -87,7 +87,7 @@ Soit $u = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu$ un polynôme. La com
 
 Soit E un A-module. La famille $(E \otimes P_n)_{n \in \mathbf{N}}$ est une graduation de type $\mathbf{N}$ du module $E[(X_i)_{i \in I}] = E \otimes_A A[(X_i)_{i \in I}]$ des polynômes à coefficients dans E. On étend à ce cas les conventions adoptées plus haut pour le degré des polynômes non homogènes.
 
-#### Proposition 1 {#alg-iv-s1-prop-1 .statement}
+#### Proposition 1 {#alg-iv-s1-prop-1 .statement tag=069O}
 
 *Soient u et v deux polynômes.*
 
@@ -154,13 +154,13 @@ $$
 f \circ (g \circ h) = (f \circ g) \circ h .
 $$
 
-#### Proposition 2 {#alg-iv-s1-prop-2 .statement}
+#### Proposition 2 {#alg-iv-s1-prop-2 .statement tag=069P}
 
 Soit $\mathbf{a} = (a_i)_{i \in I}$ une famille d’éléments de $\mathbf{A}$ et soit $u \in \mathbf{A}[X]$. Soit $v$ le polynôme obtenu par substitution de $X_i + a_i$ à $X_i$ pour tout $i \in I$. Le terme constant de $v$ est égal à $u(\mathbf{a})$.
 
 Le terme constant de $v$ est obtenu par la substitution de 0 à $X_i$ dans $v$ pour tout $i \in I$. La proposition résulte donc de la formule (2).
 
-#### Corollaire 1 {#alg-iv-s1-prop-2-cor-1 .statement}
+#### Corollaire 1 {#alg-iv-s1-prop-2-cor-1 .statement tag=069Q}
 
 Soit $m$ l’idéal des polynômes $u \in \mathbf{A}[X]$ tels que $u(\mathbf{a}) = 0$. Alors $m$ est engendré par les polynômes $X_i - a_i$ (pour $i \in I$).
 
@@ -170,26 +170,26 @@ v(X) = \sum_{i \in I} X_i \cdot P_i(X)
 $$
 Substituons $X_i - a_i$ à $X_i$ pour tout $i \in I$ dans l’égalité précédente ; on trouve alors une relation de la forme $u(X) = \sum_{i \in I} (X_i - a_i) \cdot P'_i(X)$, d’où le corollaire.
 
-#### Corollaire 2 {#alg-iv-s1-prop-2-cor-2 .statement}
+#### Corollaire 2 {#alg-iv-s1-prop-2-cor-2 .statement tag=069R}
 
 Soient $X = (X_i)_{i \in I}$ et $Y = (Y_i)_{i \in I}$ deux familles d’indéterminées. L’ensemble $D$ des polynômes $u \in \mathbf{A}[X, Y]$ tels que $u(X, X) = 0$ est l’idéal de $\mathbf{A}[X, Y]$ engendré par les polynômes $X_i - Y_i$ (pour $i \in I$).
 
 Ce corollaire résulte immédiatement du cor. 1 où l’on remplace $\mathbf{A}$ par $\mathbf{A}[Y]$ et $a_i$ par $Y_i$, en interprétant $\mathbf{A}[X, Y]$ comme l’anneau des polynômes en les $X_i$ à coefficients dans $\mathbf{A}[Y]$.
 
-#### Proposition 3 {#alg-iv-s1-prop-3 .statement}
+#### Proposition 3 {#alg-iv-s1-prop-3 .statement tag=069S}
 
 Soient $u \in \mathbf{A}[X]$ et $X.Z$ la famille $(X_i Z)_{i \in I}$ d’éléments de l’anneau de polynômes $\mathbf{A}[X][Z]$. Le coefficient de $Z^k$ dans $u(X.Z)$ est la composante homogène de degré $k$ de $u$, pour tout entier positif $k$.
 
 Il suffit de démontrer la prop. lorsque $u$ est un monôme, auquel cas c’est immédiat.
 
-#### Corollaire {#alg-iv-s1-n3-cor-1 .statement}
+#### Corollaire {#alg-iv-s1-n3-cor-1 .statement tag=069T}
 
 Pour qu’un polynôme $u \in \mathbf{A}[X]$ soit homogène de degré $k$, il faut et il suffit que l’on ait :
 $$
 u(X.Z) = u(X).Z^k .
 $$
 
-#### Remarque {#alg-iv-s1-n3-rem-1 .statement}
+#### Remarque {#alg-iv-s1-n3-rem-1 .statement tag=069U}
 
 Soit $x \in \mathbf{A}'$. Soit $f$ l’application $u \mapsto u(x)$ de $\mathbf{A}[X]$ dans $\mathbf{A}$. Soit $M$ un $\mathbf{A}$-module. Considérons l’homomorphisme $1 \otimes f$ de $M[X] = M \otimes_A \mathbf{A}[X]$ dans $M \otimes_A \mathbf{A} = M$. Pour tout $v \in M[X]$, on a $(1 \otimes f)(v) = v(x)$. Si $v = \sum_{\nu \in \mathbf{N}^{(I)}} e_\nu X^\nu$, on a $v(x) = \sum_{\nu \in \mathbf{N}^{(I)}} x^\nu e_\nu$.
 
@@ -229,7 +229,7 @@ $$
 
 pour tout $u \in B$. Si I est fini, $(D_i)_{i \in I}$ est une base du B-module des dérivations de B.
 
-#### Proposition 4 {#alg-iv-s1-prop-4 .statement}
+#### Proposition 4 {#alg-iv-s1-prop-4 .statement tag=069V}
 
 Soient E une A-algèbre associative, commutative et unifère, $x = (x_i)_{i \in I}$ une famille d’éléments de E, $u$ un élément de $A[(X_i)_{i \in I}]$, et $y = u(x)$. Pour toute dérivation D de E dans un E-module, on a
 
@@ -239,7 +239,7 @@ $$
 
 Il suffit de prouver la proposition quand $u$ est un monôme, et elle résulte alors de (6) et de III, p. 123, prop. 6.
 
-#### Corollaire {#alg-iv-s1-n4-cor-1 .statement}
+#### Corollaire {#alg-iv-s1-n4-cor-1 .statement tag=069W}
 
 Soient $f \in \mathbf{A}[X_1, ..., X_p]$ et $g_i \in \mathbf{A}[Y_1, ..., Y_q]$ pour $1 \leq i \leq p$. Posons $h = f(g_1, ..., g_p)$. Alors, pour $1 \leq j \leq q$, on a
 
@@ -296,7 +296,7 @@ $$
 \Delta^\rho \Delta^\sigma u = \frac{(\rho + \sigma)!}{\rho! \sigma!} \Delta^{\rho+\sigma} u.
 $$
 
-#### Proposition 5 {#alg-iv-s1-prop-5 .statement}
+#### Proposition 5 {#alg-iv-s1-prop-5 .statement tag=069X}
 
 Quels que soient $u \in A[X]$ et $\nu \in \mathbf{N}^{(I)}$, on a
 
@@ -326,7 +326,7 @@ $$u(X) = \sum_\nu \frac{1}{\nu!} (D^\nu u)(0) X^\nu .$$
 
 Les formules (15), (16), (17) s’appellent toutes trois « formule de Taylor ».
 
-#### Proposition 6 (« identité d’Euler ») {#alg-iv-s1-prop-6 .statement}
+#### Proposition 6 (« identité d’Euler ») {#alg-iv-s1-prop-6 .statement tag=069Y}
 
 Soit $u \in A[X]$ un polynôme homogène de degré $r$. On a
 
@@ -336,7 +336,7 @@ Soit $D$ l’application $A$-linéaire de $A[X]$ dans lui-même telle que $D(v) 
 
 ### 5. Diviseurs de zéro dans un anneau de polynômes
 
-#### Proposition 7 {#alg-iv-s1-prop-7 .statement}
+#### Proposition 7 {#alg-iv-s1-prop-7 .statement tag=069Z}
 
 Soient $f \in A[X]$ un polynôme non nul en une indéterminée, $\alpha$ son coefficient dominant. Si $\alpha$ est simplifiable dans $A$ (en particulier si $f$ est unitaire), on a, pour tout élément non nul $g$ de $A[X]$,
 
@@ -344,13 +344,13 @@ $$ fg \neq 0 \quad \text{et} \quad \deg(fg) = \deg f + \deg g .$$
 
 Soient $g \in A[X]$ un polynôme non nul, $\beta$ son coefficient dominant, $n = \deg f$, $p = \deg g$. Alors le coefficient de $X^{n+p}$ dans $fg$ est $\alpha \beta$ donc est non nul, d’où la proposition.
 
-#### Proposition 8 {#alg-iv-s1-prop-8 .statement}
+#### Proposition 8 {#alg-iv-s1-prop-8 .statement tag=06A0}
 
 Si $A$ est intègre, $A[(X_i)_{i \in I}]$ est intègre.
 
 Soient $u, v$ deux éléments non nuls de $A[(X_i)_{i \in I}]$. Il s’agit de prouver la relation $uv \neq 0$. Or $u$ et $v$ appartiennent à un même anneau $A[(X_j)_{j \in J}]$ où $J$ est une partie finie de $I$. On peut donc se borner au cas où $I$ est fini et égal à $\{ 1, 2, ..., p \}$. D’autre part, l’anneau $A[X_1, ..., X_p]$ est isomorphe à l’anneau des polynômes en $X_p$ à coefficients dans $A[X_1, ..., X_{p-1}]$. Par récurrence sur $p$, on est donc ramené à démontrer la proposition pour $A[X]$, et il suffit alors d’appliquer la proposition 7.
 
-#### Corollaire 1 {#alg-iv-s1-prop-8-cor-1 .statement}
+#### Corollaire 1 {#alg-iv-s1-prop-8-cor-1 .statement tag=06A1}
 
 Si $A$ est intègre, et si $u, v$ sont des éléments de $A[(X_i)_{i \in I}]$, on a $\deg(uv) = \deg u + \deg v$.
 
@@ -362,19 +362,19 @@ $$
 
 où $u_h$ (resp. $v_h$) est la composante homogène de degré $h$ de $u$ (resp. $v$). Comme $u_m \neq 0$ et $v_n \neq 0$, on a $u_m v_n \neq 0$ (prop. 8). Or $uv = u_m v_n + w$ avec $\deg w < m + n$, d’où le corollaire.
 
-#### Corollaire 2 {#alg-iv-s1-prop-8-cor-2 .statement}
+#### Corollaire 2 {#alg-iv-s1-prop-8-cor-2 .statement tag=06A2}
 
 Si $A$ est intègre, les éléments inversibles de $A[(X_i)_{i \in I}]$ sont les éléments inversibles de $A$.
 
 Cela résulte aussitôt du cor. 1.
 
-#### Proposition 9 {#alg-iv-s1-prop-9 .statement}
+#### Proposition 9 {#alg-iv-s1-prop-9 .statement tag=06A3}
 
 Soit $u \in A[(X_i)_{i \in I}]$. Pour que $u$ soit nilpotent dans l’anneau $A[(X_i)_{i \in I}]$, il faut et il suffit que tous ses coefficients soient nilpotents dans l’anneau $A$.
 
 Comme dans la démonstration de la prop. 8, on se ramène au cas des polynômes en une variable $X$. Si tous les coefficients de $u$ sont nilpotents, $u$ est nilpotent (I, p. 95, cor. 3). Supposons $u$ nilpotent non nul, et soit $n$ son degré. Nous raisonnons par récurrence sur $n$. Soit $\alpha$ le coefficient dominant de $u$. Il existe un entier $m > 0$ tel que $u^m = 0$. Le coefficient dominant de $u^m$ est $\alpha^m$, donc $\alpha^m = 0$. Alors $u - \alpha X^n$ est nilpotent (I, loc. cit.), et l’hypothèse de récurrence prouve que tous les coefficients de $u - \alpha X^n$ sont nilpotents. Ainsi, tous les coefficients de $u$ sont nilpotents.
 
-#### Remarque {#alg-iv-s1-n5-rem-1 .statement}
+#### Remarque {#alg-iv-s1-n5-rem-1 .statement tag=06A4}
 
 Soient $u$ et $v$ des éléments de $A[(X_i)_{i \in I}]$. On suppose que $A$ est intègre, que $v$ est multiple non nul de $u$, et que $v$ est homogène. Alors $u$ est homogène. En effet, soit $u' \in A[(X_i)_{i \in I}]$ tel que $v = uu'$; on a $u \neq 0, u' \neq 0$; soient
 
@@ -387,7 +387,7 @@ les décompositions de $u$ et $u'$ en composantes homogènes, avec $u_h \neq 0, 
 
 ### 6. Division euclidienne des polynômes à une indéterminée
 
-#### Proposition 10 {#alg-iv-s1-prop-10 .statement}
+#### Proposition 10 {#alg-iv-s1-prop-10 .statement tag=06A5}
 
 Soient $f$ et $g$ des éléments non nuls de $\mathbf{A}[X]$ de degrés respectifs $m$ et $n$. Soient $\alpha_0$ le coefficient dominant de $f$, et $\mu = \sup(n - m + 1, 0)$. Il existe $u, v \in \mathbf{A}[X]$ tels que
 
@@ -413,7 +413,7 @@ $$
 
 On a $(u - u_1) f = v_1 - v$ et $\deg(v_1 - v) < m$, donc $u - u_1 = 0$ (IV, p. 8, prop. 7) et par suite $v_1 - v = 0$.
 
-#### Corollaire (« division euclidienne des polynômes ») {#alg-iv-s1-n6-cor-1 .statement}
+#### Corollaire (« division euclidienne des polynômes ») {#alg-iv-s1-n6-cor-1 .statement tag=06A6}
 
 Soient $f$ un élément non nul de $\mathbf{A}[X]$ dont le coefficient dominant est inversible, et $m = \deg f$.
 
@@ -437,7 +437,7 @@ Avec les notations de (i), on dit que u est le quotient et v le reste de la divi
 
 ### 7. Divisibilité des polynômes à une indéterminée¹
 
-#### Proposition 11 {#alg-iv-s1-prop-11 .statement}
+#### Proposition 11 {#alg-iv-s1-prop-11 .statement tag=06A7}
 
 Soit K un corps commutatif.
 
@@ -449,7 +449,7 @@ Prouvons (ii), la suffisance de la condition énoncée étant claire. Le cas où
 
 Prouvons (i). Soit dans a un polynôme unitaire f de degré le plus petit possible. Étant donné g dans a, soient u et v le quotient et le reste de la division euclidienne de g par f ; alors $v = g - u f$ appartient à a et l’on a $\deg v < \deg f$; si v était non nul, il existerait un élément non nul $\lambda$ de K tel que $\lambda v$ soit unitaire, et comme $\lambda v$ appartiendrait à a, ceci contredirait la définition de f. On a donc a = (f). L’unicité d’un polynôme unitaire f tel que a = (f) résulte de (ii).
 
-#### Proposition 12 {#alg-iv-s1-prop-12 .statement}
+#### Proposition 12 {#alg-iv-s1-prop-12 .statement tag=06A8}
 
 Soient K un corps commutatif et f, g deux éléments de K[X]. Pour tout polynôme d dans K[X], les propriétés suivantes sont équivalentes :
 
@@ -469,19 +469,19 @@ Remarquons que, quels que soient les polynômes $u$ et $v$ dans $\mathbf{K}[X]$,
 
 Les autres assertions de la prop. 12 sont des conséquences immédiates de la prop. 11 appliquée à l’idéal $a = (f) + (g)$.
 
-#### Définition 1 {#alg-iv-s1-def-1 .statement}
+#### Définition 1 {#alg-iv-s1-def-1 .statement tag=06A9}
 
 Avec les notations de la prop. 12, on dit que $d$ est un plus grand commun diviseur (en abrégé $pgcd$) de $f$ et $g$. On dit que $f$ et $g$ sont étrangers, ou premiers entre eux, ou que $f$ est étranger à $g$, ou premier à $g$, lorsque 1 est un $pgcd$ de $f$ et $g$.
 
 Dire que $f$ et $g$ sont étrangers signifie donc qu’il existe des polynômes $u$ et $v$ dans $\mathbf{K}[X]$ tels que $uf + vg = 1$.
 
-#### Corollaire 1 {#alg-iv-s1-def-1-cor-1 .statement}
+#### Corollaire 1 {#alg-iv-s1-def-1-cor-1 .statement tag=06AA}
 
 Soient $d$ un $pgcd$ de $f$ et $g$, $\mathbf{K}'$ un corps commutatif contenant $\mathbf{K}$ comme sous-corps. Alors $d$ est un $pgcd$ de $f$ et $g$ considérés comme éléments de $\mathbf{K}'[X]$.
 
 Cela résulte de la prop. 12, (iii).
 
-#### Corollaire 2 {#alg-iv-s1-def-1-cor-2 .statement}
+#### Corollaire 2 {#alg-iv-s1-def-1-cor-2 .statement tag=06AB}
 
 Soit $d$ un $pgcd$ de $f$ et $g$.
 (i) Si $u \in \mathbf{K}[X]$, $du$ est un $pgcd$ de $fu$ et $gu$.
@@ -489,25 +489,25 @@ Soit $d$ un $pgcd$ de $f$ et $g$.
 
 Cela résulte de la prop. 12, (ii).
 
-#### Corollaire 3 {#alg-iv-s1-def-1-cor-3 .statement}
+#### Corollaire 3 {#alg-iv-s1-def-1-cor-3 .statement tag=06AC}
 
 Soit $w$ un diviseur commun de $f$ et $g$. Pour que $w$ soit un $pgcd$ de $f$ et $g$, il faut et il suffit que $f/w$ et $g/w$ soient étrangers.
 
 Cela résulte du cor. 2.
 
-#### Corollaire 4 {#alg-iv-s1-def-1-cor-4 .statement}
+#### Corollaire 4 {#alg-iv-s1-def-1-cor-4 .statement tag=06AD}
 
 Soient $f, g, h \in \mathbf{K}[X]$. Si $f$ divise $gh$ et est étranger à $g$, alors $f$ divise $h$.
 
 En effet, $f$ divise $gh$ et $fh$; donc $f$ divise tout $pgcd$ de $gh$ et $fh$, en particulier $h$ (cor. 2, (i)).
 
-#### Corollaire 5 {#alg-iv-s1-def-1-cor-5 .statement}
+#### Corollaire 5 {#alg-iv-s1-def-1-cor-5 .statement tag=06AE}
 
 Soient $f, g \in \mathbf{K}[X]$. Pour que $f$ et $g$ soient étrangers, il faut et il suffit que l’image canonique de $g$ dans $\mathbf{K}[X]/(f)$ soit inversible.
 
 En effet, cette condition signifie qu’il existe $u, v \in \mathbf{K}[X]$ tels que $uf + vg = 1$.
 
-#### Corollaire 6 {#alg-iv-s1-def-1-cor-6 .statement}
+#### Corollaire 6 {#alg-iv-s1-def-1-cor-6 .statement tag=06AF}
 
 Soient $f, g_1, g_2, \ldots, g_n \in \mathbf{K}[X]$. Si $f$ est étranger à $g_1, g_2, \ldots, g_n$, alors $f$ est étranger à $g_1 g_2 \cdots g_n$.
 
@@ -517,7 +517,7 @@ En effet, si $d$ est un $pgcd$ de $f$ et $g$, les racines communes à $f$ et $g$
 
 ### 8. Polynômes irréductibles
 
-#### Définition 2 {#alg-iv-s1-def-2 .statement}
+#### Définition 2 {#alg-iv-s1-def-2 .statement tag=06AG}
 
 Soit $K$ un corps commutatif. On dit que $f \in K[X]$ est irréductible si $\deg f \geq 1$, et si $f$ n’est divisible par aucun polynôme $g$ tel que $0 < \deg g < \deg f$.
 
@@ -525,7 +525,7 @@ Il revient au même de dire que $\deg f \geq 1$ et que les seuls diviseurs de $f
 
 Soient $f, g \in K[X]$. Si $f$ est irréductible, il est clair que ou bien $f$ et $g$ sont étrangers ou bien $f$ divise $g$. Si $f$ et $g$ sont irréductibles, ou bien $f$ et $g$ sont étrangers, ou bien chacun est le produit de l’autre par un scalaire $\neq 0$. En particulier, deux polynômes unitaires irréductibles distincts sont étrangers.
 
-#### Proposition 13 {#alg-iv-s1-prop-13 .statement}
+#### Proposition 13 {#alg-iv-s1-prop-13 .statement tag=06AH}
 
 Soit $\mathscr{J}$ l’ensemble des polynômes unitaires irréductibles de $K[X]$. Soient $f$ un élément non nul de $K[X]$, $\alpha$ son coefficient dominant. Il existe une famille $(v_p)_{p \in \mathscr{J}}$ à support fini d’entiers positifs, et une seule, telle que l’on ait la décomposition
 

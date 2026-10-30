@@ -62,14 +62,14 @@ subsections:
       pdf_page: 136
 statements: 32
 exercises: 16
-content_sha256: da17e67ddd692f1811c8812e3f657d4bdb2abcac80cb2aa04bd9a2e1efe428cc
+content_sha256: 9e2e678718b8b04bcfb806c30df7ec34dec70b897c7a14a41eee1a9ca40499a1
 ---
 
 ## § 8. RINGS
 
 ### 1. RINGS
 
-#### Definition 1 {#alg-i-s8-def-1 .statement}
+#### Definition 1 {#alg-i-s8-def-1 .statement tag=05H2}
 
 *A ring is a set* $\mathbf{A}$ *with two laws of composition called respectively addition and multiplication, satisfying the following axioms*:
 
@@ -141,7 +141,7 @@ $$
 $$
 where the sum extends over all sequences $(\alpha_1, \ldots, \alpha_n)$ belonging to $L_1 \times \cdots \times L_n$ and for $i = 1, \ldots, n$ the family $(x_{i,\lambda})_{\lambda \in L_i}$ of elements of the ring A is of finite support.
 
-#### Proposition 1 {#alg-i-s8-prop-1 .statement}
+#### Proposition 1 {#alg-i-s8-prop-1 .statement tag=05H3}
 
 Let A be a commutative ring and $(x_\lambda)_{\lambda \in L}$ a finite family of elements of A. For every family of positive integers $\beta = (\beta_\lambda)_{\lambda \in L}$, let $|\beta| = \sum_{\lambda \in L} \beta_\lambda$. Then
 $$
@@ -177,7 +177,7 @@ $$
 
 and formula (14) thus follows from (15).
 
-#### Corollary 1 (binomial formula) {#alg-i-s8-prop-1-cor-1 .statement}
+#### Corollary 1 (binomial formula) {#alg-i-s8-prop-1-cor-1 .statement tag=05H4}
 
 *Let x and y be two elements of a commutative ring A. Then*:
 
@@ -193,7 +193,7 @@ $$
 
 the sum extending over ordered pairs of positive integers $p, q$ with $p + q = n$. The binomial formula follows immediately from this (*Set Theory*, III, § 5, no. 8).
 
-#### Corollary 2 {#alg-i-s8-prop-1-cor-2 .statement}
+#### Corollary 2 {#alg-i-s8-prop-1-cor-2 .statement tag=05H5}
 
 *Let A be a commutative ring, X a set, $\mathbf{u} = (u_x)_{x \in X}$ and $\mathbf{v} = (v_x)_{x \in X}$ two families of elements of A. Let $\mathbf{u} + \mathbf{v}$ denote the family $(u_x + v_x)_{x \in X}$. For all $\lambda \in \mathbf{N}^{(X)}$ we write $\lambda! = \prod_{x \in X} \lambda(x)!$. Then for all $\alpha \in \mathbf{N}^{(X)}$, in the notation of § 7, no. 8,
 
@@ -209,7 +209,7 @@ $$
 
 by Corollary 1. Taking the product of these equations for $x \in X$ and using (13), we obtain the corollary.
 
-#### Proposition 2 {#alg-i-s8-prop-2 .statement}
+#### Proposition 2 {#alg-i-s8-prop-2 .statement tag=05H6}
 
 *Let $A$ be a ring, $x_1, \ldots, x_n$ elements of $A$ and $I = \{1, 2, \ldots, n\}$. For $H \subset I$, we write $x_H = \sum_{i \in H} x_i$. Then*
 
@@ -281,7 +281,7 @@ VII. *Pseudo-ring of zero square.* A pseudo-ring A is said to be of zero square 
 
 ### 4. RING HOMOMORPHISMS
 
-#### Definition 2 {#alg-i-s8-def-2 .statement}
+#### Definition 2 {#alg-i-s8-def-2 .statement tag=05H7}
 
 *Let A and B be two rings. A morphism, or homomorphism, of A into B is any mapping f of A into B satisfying the relations:*
 
@@ -295,7 +295,7 @@ The composition of two ring homomorphisms is a ring homomorphism. Let A and B be
 
 Let $f : A \to B$ be a ring homomorphism. The mapping $f$ is a homomorphism of the additive group of A into the additive group of B; in particular, $f(0) = 0$ and $f(-x) = -f(x)$ for all $x \in A$. The image under $f$ of an invertible element of A is an invertible element of B and $f$ induces a homomorphism of the multiplicative group of A into the multiplicative group of B.
 
-#### Example {#alg-i-s8-n4-exa-1 .statement}
+#### Example {#alg-i-s8-n4-exa-1 .statement tag=05H8}
 
 (1) Let A be a ring. It is immediately seen that the mapping $n \mapsto n \cdot 1$ of $\mathbf{Z}$ into A is the unique homomorphism of $\mathbf{Z}$ into A. In particular, the identity mapping of $\mathbf{Z}$ is the unique endomorphism of the ring $\mathbf{Z}$.
 
@@ -314,7 +314,7 @@ It is bijective, for the relation $x' = axa^{-1}$ is equivalent to $x = a^{-1}x'
 
 ### 5. SUBRINGS
 
-#### Definition 3 {#alg-i-s8-def-3 .statement}
+#### Definition 3 {#alg-i-s8-def-3 .statement tag=05H9}
 
 Let $A$ be a ring. A subring of $A$ is any subset $B$ of $A$ which is a subgroup of $A$ under addition, which is stable under multiplication and which contains the unit of $A$.
 
@@ -326,7 +326,7 @@ $$
 
 If $B$ is a subring of $A$, it is given the addition and multiplication induced by those on $A$, which make it into a ring. The canonical injection of $B$ into $A$ is a ring homomorphism.
 
-#### Example {#alg-i-s8-n5-exa-1 .statement}
+#### Example {#alg-i-s8-n5-exa-1 .statement tag=05HA}
 
 (1) Every subgroup of the additive group $\mathbf{Z}$ which contains 1 is equal to $\mathbf{Z}$. Thus $\mathbf{Z}$ is the only subring of $\mathbf{Z}$.
 
@@ -338,7 +338,7 @@ If $B$ is a subring of $A$, it is given the addition and multiplication induced 
 
 ### 6. IDEALS
 
-#### Definition 4 {#alg-i-s8-def-4 .statement}
+#### Definition 4 {#alg-i-s8-def-4 .statement tag=05HB}
 
 Let $A$ be a ring. A subset $a$ of $A$ is called a left (resp. right) ideal if it is a subgroup of the additive group of $A$ and the relations $a \in A, x \in a$ imply $ax \in a$ (resp. $xa \in a$). $a$ is called a two-sided ideal of $A$ if it is both a left ideal and a right ideal of $A$.
 
@@ -352,7 +352,7 @@ the relation $-a \subset a$ following from the formula $(-1).x = -x$ and $A.a \s
 
 The left ideals in the ring $A$ are just the right ideals of the opposite ring $A^0$. In a commutative ring the three species of ideals are the same; they are simply called ideals.
 
-#### Example {#alg-i-s8-n6-exa-1 .statement}
+#### Example {#alg-i-s8-n6-exa-1 .statement tag=05HC}
 
 (1) Let $A$ be a ring. The set $A$ is a two-sided ideal of $A$; so is the set consisting of 0, which is called the zero ideal and sometimes denoted by 0 or $(0)$ instead of $\{0\}$.
 
@@ -364,19 +364,19 @@ The left ideals in the ring $A$ are just the right ideals of the opposite ring $
 
 Let $a$ be a left ideal of $A$. The conditions $1 \notin a, a \neq A$ are obviously equivalent.
 
-#### Definition 5 {#alg-i-s8-def-5 .statement}
+#### Definition 5 {#alg-i-s8-def-5 .statement tag=05HD}
 
 *Let $A$ be a ring. By an abuse of language, a left ideal $a$ is said to be maximal if it is a maximal element of the set of left ideals distinct from $A$.*
 
 In other words, $a$ is maximal if $a \neq A$ and the only left ideals of $A$ containing $a$ are $a$ and $A$.
 
-#### Theorem 1 (Krull) {#alg-i-s8-thm-1 .statement}
+#### Theorem 1 (Krull) {#alg-i-s8-thm-1 .statement tag=05HE}
 
 *Let $A$ be a ring and $a$ a left ideal of $A$ distinct from $A$. There exists a maximal ideal $m$ of $A$ containing $a$.*
 
 Consider $A$ as operating on the additive group $A^+$ of $A$ by left multiplication. Then the left ideals of $A$ are the stable subgroups of $A^+$. The theorem thus follows from § 4, no. 3, Proposition 3 applied to the subset $P = \{1\}$ of $A^+$.
 
-#### Proposition 3 {#alg-i-s8-prop-3 .statement}
+#### Proposition 3 {#alg-i-s8-prop-3 .statement tag=05HF}
 
 *Let $A$ be a ring, $(x_\lambda)_{\lambda \in L}$ a family of elements of $A$ and $a$ (resp. $b$) the set of sums $\sum_{\lambda \in L} a_\lambda x_\lambda$ where $(a_\lambda)_{\lambda \in L}$ is a family with finite support of elements of $A$ (resp. $\sum_{\lambda \in L} a_\lambda x_\lambda b_\lambda$ where $(a_\lambda)_{\lambda \in L}, (b_\lambda)_{\lambda \in L}$ are families with finite support of elements of $A$). Then $a$ (resp. $b$) is the left (resp. two-sided) ideal of $A$ generated by the elements $x_\lambda$.
 
@@ -394,7 +394,7 @@ $$
 
 prove that $a$ is a left ideal. Let $a'$ be a left ideal such that $x_\lambda \in a'$ for all $\lambda \in L$ and let $(a_\lambda)_{\lambda \in L}$ be a family with finite support in $A$. Then $a_\lambda x_\lambda \in a'$ for all $\lambda \in L$, whence $\sum_{\lambda \in L} a_\lambda x_\lambda \in a'$; hence $a \subset a'$. Hence $a$ is the left ideal of $A$ generated by the $x_\lambda$. The argument for $b$ is analogous.
 
-#### Proposition 4 {#alg-i-s8-prop-4 .statement}
+#### Proposition 4 {#alg-i-s8-prop-4 .statement tag=05HG}
 
 *Let $A$ be a ring and $(a_\lambda)_{\lambda \in L}$ a family of left ideals of $A$. The left ideal generated by $\bigcup_{\lambda \in L} a_\lambda$ consists of the sums $\sum_{\lambda \in L} y_\lambda$ where $(y_\lambda)_{\lambda \in L}$ is a family with finite support such that $y_\lambda \in a_\lambda$ for all $\lambda \in L$.*
 
@@ -419,13 +419,13 @@ $$
 $$
 and the relation $(\xi + \eta)\zeta = \xi\zeta + \eta\zeta$ is established similarly.
 
-#### Definition 6 {#alg-i-s8-def-6 .statement}
+#### Definition 6 {#alg-i-s8-def-6 .statement tag=05HH}
 
 Let $A$ be a ring and $a$ a two-sided ideal of $A$. The quotient ring of $A$ by $a$, denoted by $A/a$, is the quotient set of $A$ by the equivalence relation $x \equiv y(a)$, with addition and multiplication the quotients of those on $A$.
 
 The ring $A/\{0\}$ is isomorphic to $A$ and $A/A$ is a zero ring.
 
-#### Theorem 2 {#alg-i-s8-thm-2 .statement}
+#### Theorem 2 {#alg-i-s8-thm-2 .statement tag=05HI}
 
 Let $A$ be a ring and $a$ a two-sided ideal of $A$.
 (a) The canonical mapping $\pi$ of $A$ onto $A/a$ is a ring homomorphism.
@@ -441,7 +441,7 @@ $$
 
 and $\bar{f}(\varepsilon) = f(\pi(1)) = f(1)$, hence $\bar{f}$ is a ring homomorphism.
 
-#### Theorem 3 {#alg-i-s8-thm-3 .statement}
+#### Theorem 3 {#alg-i-s8-thm-3 .statement tag=05HJ}
 
 Let $A$ and $B$ be rings and $f$ a homomorphism of $A$ into $B$.
 (a) The kernel $a$ of $f$ is a two-sided ideal of $B$.
@@ -452,7 +452,7 @@ As $f$ is a morphism of the additive group of $A$ into that of $B$, $a$ is a sub
 
 ### 8. SUBRINGS AND IDEALS IN A QUOTIENT RING
 
-#### Proposition 5 {#alg-i-s8-prop-5 .statement}
+#### Proposition 5 {#alg-i-s8-prop-5 .statement tag=05HK}
 
 Let $A$ and $A'$ be two rings, $f$ a homomorphism of $A$ into $A'$ and $a$ the kernel of $f$.
 (a) Let $B'$ be a subring of $A'$. Then $B = f^{-1}(B')$ is a subring of $A$ containing $a$. If $f$ is surjective, then $f(B) = B'$ and $f|_B$ defines when passing to the quotient an isomorphism of $B/a$ onto $B'$.
@@ -468,11 +468,11 @@ The composite morphism $g : A \to A' \to A'/b'$ considered in (c) has kernel $b$
 
 Suppose $f$ is surjective. By the above, the mapping $\theta : B' \mapsto \bar{f}(B')^{-1}$ is a mapping of $\Phi'$ into $\Phi$. Clearly the mapping $\eta : B \mapsto f(B)$ is a mapping of $\Phi$ into $\Phi'$. Then $\theta \circ \eta = \mathrm{Id}_{\Phi}, \eta \circ \theta = \mathrm{Id}_{\Phi'},$ whence (d).
 
-#### Remark {#alg-i-s8-n8-rem-1 .statement}
+#### Remark {#alg-i-s8-n8-rem-1 .statement tag=05HL}
 
 In the above notation, $\theta$ and $\eta$ are ordered set isomorphisms ($\Phi$ and $\Phi'$ being ordered by inclusion).
 
-#### Corollary {#alg-i-s8-n8-cor-1 .statement}
+#### Corollary {#alg-i-s8-n8-cor-1 .statement tag=05HM}
 
 *Let $A$ be a ring and $a$ a two-sided ideal of $A$.
 (a) Every left (resp. right, two-sided) ideal of $A/a$ can be written uniquely in the form $b/a$, where $b$ is a left (resp. right, two-sided) ideal of $A$ containing $a$.
@@ -492,7 +492,7 @@ $$
 
 (21)
 
-#### Proposition 6 {#alg-i-s8-prop-6 .statement}
+#### Proposition 6 {#alg-i-s8-prop-6 .statement tag=05HN}
 
 *Let $a, b_1, \ldots, b_n$ be two-sided ideals of $A$. If $A = a + b_i$ for all $i$, then $A = a + b_1 b_2 \ldots b_n = a + (b_1 \cap b_2 \cap \cdots \cap b_n)$.*
 
@@ -502,7 +502,7 @@ $$
 $$
 whence $A = a + b_1 b_2$.
 
-#### Proposition 7 {#alg-i-s8-prop-7 .statement}
+#### Proposition 7 {#alg-i-s8-prop-7 .statement tag=05HO}
 
 *Let $b_1, \ldots, b_n$ be two-sided ideals of $A$ such that $b_i + b_j = A$ for $i \neq j$. Then $b_1 \cap b_2 \cap \cdots \cap b_n = \sum_{\sigma \in S_n} b_{\sigma(1)} b_{\sigma(2)} \cdots b_{\sigma(n)}$. In particular, if $A$ is commutative, $b_1 \cap b_2 \cap \cdots \cap b_n = b_1 b_2 \ldots b_n$ (cf. Exercise 2).*
 
@@ -566,7 +566,7 @@ $$
 
 for $i \neq j$. If $I$ is finite, then $\sum_{i \in I} e_i = 1$, the additive group $A$ is the direct sum of the two-sided ideals $a_i$ and if $x \in A$ its component in $a_i$ is $x e_i$. The following proposition is immediately deduced.
 
-#### Proposition 8 {#alg-i-s8-prop-8 .statement}
+#### Proposition 8 {#alg-i-s8-prop-8 .statement tag=05HP}
 
 *Suppose $I$ is finite. If $b$ is a left or right ideal of $A$, $b$ is the direct sum of the $b \cap a_i$.*
 
@@ -580,17 +580,17 @@ $$
 
 where $\phi_i$ is the canonical homomorphism of $A$ onto $A/b_i$, the canonical homomorphism of $A$ into $\prod_{i \in I} (A/b_i)$.
 
-#### Proposition 9 {#alg-i-s8-prop-9 .statement}
+#### Proposition 9 {#alg-i-s8-prop-9 .statement tag=05HQ}
 
 *Let $A$ be a ring and $(b_1, \ldots, b_n)$ two-sided ideals of $A$ such that $b_i + b_j = A$ for $i \neq j$. The canonical homomorphism of $A$ into $\prod_{i=1}^n (A/b_i)$ is surjective of kernel $\bigcap_{i=1}^n b_i = \sum_{\sigma \in S_n} b_{\sigma(1)} b_{\sigma(2)} \cdots b_{\sigma(n)}.$*
 
 Clearly the kernel is $\bigcap_{i=1}^n b_i$. To prove the surjectivity, it is necessary to show that, for every family $(x_i)_{1 \leq i \leq n}$ of elements of $A$, there exists $x \in A$ such that $x \equiv x_i (b_i)$ for all $1 \leq i \leq n$. We prove this assertion by induction on the cardinal $n$ of $I$, the case $n \leq 1$ being trivial. By the induction hypothesis, there exists $y \in A$ such that $y \equiv x_i (b_i)$ for $1 \leq i \leq n-1$. We look for an $x$ of the form $y + z$ with $z \in A$. Of necessity $z \equiv 0 (b_i)$ for $i < n$, that is $z \in b = \bigcap_{i=1}^{n-1} b_i$, and on the other hand $z \equiv x_n - y (b_n)$. Now $b_n + b = A$ by no. 9, Proposition 6, whence the existence of $z$. Finally, the second expression of the kernel follows from no. 9, Proposition 7.
 
-#### Definition 7 {#alg-i-s8-def-7 .statement}
+#### Definition 7 {#alg-i-s8-def-7 .statement tag=05HR}
 
 *Let $A$ be a ring. A finite family $(b_i)_{i \in I}$ of two-sided ideals of $A$ such that the canonical homomorphism of $A$ into $\prod_{i \in I} (A/b_i)$ is an isomorphism is called a direct decomposition of $A$.*
 
-#### Proposition 10 {#alg-i-s8-prop-10 .statement}
+#### Proposition 10 {#alg-i-s8-prop-10 .statement tag=05HS}
 
 *Let $A$ be a ring, $A'$ its centre and $(b_i)_{i \in I}$ a finite family of two-sided ideals of $A$. The following conditions are equivalent:
 
@@ -618,11 +618,11 @@ Thus conditions (a), (b), (c) and (d) are equivalent. Suppose they hold. By (b) 
 
 Finally, suppose condition (e) holds. By (a) $\Rightarrow$ (b), there exists a family $(e_i)_{i \in I}$ of idempotents of $A'$ such that $e_i e_j = 0$ for $i \neq j$, $1 = \sum_{i \in I} e_i$ and $b'_i = A'(1 - e_i)$ for $i \in I$. Then $b_i = Ab'_i = A(1 - e_i)$ for $i \in I$, hence condition (b) holds.
 
-#### Remark {#alg-i-s8-n11-rem-1 .statement}
+#### Remark {#alg-i-s8-n11-rem-1 .statement tag=05HT}
 
 Let A be a ring. Let $(a_i)_{i \in I}$ be a finite family of subgroups of the additive group $A^+$ of A such that $A^+$ is the direct sum of the $a_i$. Suppose $a_i a_i \subset ai$ for $i \in I$ and $a_i a_j = \{0\}$ for $i \neq j$. Then $a_i$ is for all $i \in I$ a two-sided ideal of A. With addition and multiplication induced by those on A, $a_i$ is a ring with unit element the component of $1 \in A$ in $a_i$. If $b_i = \sum_{j \neq i} a_j$, clearly the $b_i$ satisfy condition (c) of Proposition 10 and hence $(b_i)_{i \in I}$ is a direct decomposition of A, which is said to be *defined by* $(a_i)_{i \in I}$.
 
-#### Example {#alg-i-s8-n11-exa-1 .statement}
+#### Example {#alg-i-s8-n11-exa-1 .statement tag=05HU}
 
 *Ideals and quotient rings of* $\mathbf{Z}$
 
@@ -636,7 +636,7 @@ The product of the ideals $m\mathbf{Z}$ and $n\mathbf{Z}$ is the set of $\sum_{i
 
 For every integer $n \geqslant 1$, the quotient ring $\mathbf{Z}/n\mathbf{Z}$ is called the *ring of integers modulo n*; it has n elements, which are the classes modulo n of the integers 0, 1, 2, ..., $n - 1$. For $n = 1$, we obtain the zero ring.
 
-#### Proposition 11 {#alg-i-s8-prop-11 .statement}
+#### Proposition 11 {#alg-i-s8-prop-11 .statement tag=05HV}
 
 *Let $n_1, \ldots, n_d$ be integers $\geqslant 1$ which are relatively prime in pairs and $n = n_1 \ldots n_r$. The canonical homomorphism of $\mathbf{Z}$ into the product ring $\prod_{i=1}^{r} \mathbf{Z}/n_i\mathbf{Z}$ is surjective of kernel $n\mathbf{Z}$ and defines a ring isomorphism of $\mathbf{Z}/n\mathbf{Z}$ onto $\prod_{i=1}^{r} \mathbf{Z}/n_i\mathbf{Z}$.*
 
@@ -646,7 +646,7 @@ The above results, as also those concerning decomposition into prime factors, wi
 
 ### 12. RINGS OF FRACTIONS
 
-#### Theorem 4 {#alg-i-s8-thm-4 .statement}
+#### Theorem 4 {#alg-i-s8-thm-4 .statement tag=05HW}
 
 *Let A be a commutative ring and S a subset of A. Let $A_S$ be the monoid of fractions of A (provided only with multiplication) with denominators in S (§ 2, no. 4). Let $\varepsilon : A \to A_S$ be the canonical morphism. There exists on $A_S$ one and only one addition satisfying the following conditions:
 (a) $A_S$, with this addition and its multiplication, is a commutative ring;
@@ -693,7 +693,7 @@ $$
 
 and hence $\varepsilon$ is a ring homomorphism.
 
-#### Definition 8 {#alg-i-s8-def-8 .statement}
+#### Definition 8 {#alg-i-s8-def-8 .statement tag=05HX}
 
 *The ring defined in Theorem 4 is called the ring of fractions associated with $S$, or with denominators in $S$, and is denoted by $A[S^{-1}]$.*
 
@@ -703,7 +703,7 @@ We shall return to the properties of $A[S^{-1}]$ in *Commutative Algebra*, Chapt
 
 If $S$ is the set of cancellable elements of $A$, the ring $A[S^{-1}]$ is called the total ring of fractions of $A$. $A$ is then identified with a subring of $A[S^{-1}]$ by means of the mapping $\varepsilon$, which is then injective (I, § 2, no. 4, Proposition 6).
 
-#### Theorem 5 {#alg-i-s8-thm-5 .statement}
+#### Theorem 5 {#alg-i-s8-thm-5 .statement tag=05HY}
 
 *Let $A$ be a commutative ring, $S$ a subset of $A$, $B$ a ring and $f$ a homomorphism of $A$ into $B$ such that every element of $f(S)$ is invertible. There exists one and only one $\bar{f}$ of $A[S^{-1}]$ into $B$ such that $f = \bar{f} \circ \varepsilon$.*
 

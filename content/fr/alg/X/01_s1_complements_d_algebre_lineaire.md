@@ -53,7 +53,7 @@ subsections:
       pdf_page: 28
 statements: 57
 exercises: 32
-content_sha256: 5b86281421f2b3fe1ea28f8a34e0c89f54f6f0972b453a5ccd60eb0df1bb828b
+content_sha256: 87eb99abdd9b9fce680e76e3cfb5e9bf3202566841f6e520e7bef9e173d69588
 ---
 
 ## § 1. COMPLÉMENTS D’ALGÈBRE LINÉAIRE
@@ -114,7 +114,7 @@ Par la suite, nous laisserons au lecteur le soin de formuler et de vérifier des
 
 ### 2. Le diagramme du serpent
 
-#### Proposition 1 {#alg-x-s1-prop-1 .statement}
+#### Proposition 1 {#alg-x-s1-prop-1 .statement tag=0DOU}
 
 Considérons un diagramme commutatif de A-modules
 
@@ -159,7 +159,7 @@ $$
 
 Inversement, soit $y\in\operatorname{Ker}(v'\circ g)$. Alors $g(y)\in\operatorname{Ker}(v')$, et il existe $x'\in M'$ tel que $u'(x')=g(y)$ puisque la suite $(u',v')$ est exacte. Comme $f$ est surjectif, il existe $x\in M$ tel que $f(x)=x'$, d’où $g(y)=u'(f(x))=g(u(x))$ ; on en conclut que $y-u(x)\in\operatorname{Ker}(g)$, ce qui termine la démonstration.
 
-#### Lemme 1 {#alg-x-s1-lem-1 .statement}
+#### Lemme 1 {#alg-x-s1-lem-1 .statement tag=0DOV}
 
 Considérons un diagramme commutatif de A-modules
 
@@ -221,7 +221,7 @@ $$
 
 où $i, j, k$ sont les injections canoniques, $p, q, r$ les surjections canoniques, $u_1, u_2$ (resp. $v_1, v_2$) les homomorphismes déduits de $u, u'$ (resp. $v, v'$) par le lemme 1.
 
-#### Proposition 2 {#alg-x-s1-prop-2 .statement}
+#### Proposition 2 {#alg-x-s1-prop-2 .statement tag=0DOW}
 
 Supposons que dans le diagramme commutatif (4), les suites $(u, v)$ et $(u', v')$ soient exactes. Alors :
 (i) On a $v_1 \circ u_1 = 0$; si $u'$ est injectif, la suite $(u_1, v_1)$ est exacte.
@@ -291,7 +291,7 @@ $$
 
 On a donc $q(u'(x')) = 0$, et par suite $u'(x') = g(y)$ pour un $y \in \mathbf{N}$; comme $v'(u'(x')) = 0$, on a $v'(g(y)) = 0$, donc $h(v(y)) = 0$, autrement dit $v(y) = k(z)$ pour un $z \in \mathrm{Ker}\,(h)$, et par définition $w = d(z)$, ce qui montre que la suite (*) est exacte en $\mathrm{Coker}\,(f)$. On a vu dans (i) qu’elle est exacte en $\mathrm{Ker}\,(g)$ et dans (ii) qu’elle est exacte en $\mathrm{Coker}\,(g)$, ce qui achève de prouver (iii).
 
-#### Corollaire 1 {#alg-x-s1-prop-2-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s1-prop-2-cor-1 .statement tag=0DOX}
 
 Supposons que le diagramme (4) soit commutatif et ait ses lignes exactes. Alors :
 
@@ -302,7 +302,7 @@ L’assertion (i) est conséquence de l’assertion (i) de la prop. 2 : en effet
 
 L’assertion (ii) est conséquence de l’assertion (ii) de la prop. 2 : en effet, on a $\mathrm{Coker}\,(f) = 0$ et $\mathrm{Coker}\,(h) = 0$, donc $\mathrm{Coker}\,(g) = 0$.
 
-#### Corollaire 2 {#alg-x-s1-prop-2-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s1-prop-2-cor-2 .statement tag=0DOY}
 
 Supposons que le diagramme (4) soit commutatif et ait ses lignes exactes. Dans ces conditions :
 
@@ -389,7 +389,7 @@ où $\widetilde u_3$ et $\widetilde u'_3$ ont même graphe que $u_3$ et $u'_3$, 
 
 ### 3. Modules plats
 
-#### Définition 1 {#alg-x-s1-def-1 .statement}
+#### Définition 1 {#alg-x-s1-def-1 .statement tag=0DOZ}
 
 On dit que le A-module E est plat, si pour toute suite exacte de A-modules à droite et d’homomorphismes
 
@@ -401,7 +401,7 @@ la suite d’applications $\mathbf{Z}$-linéaires
 
 est exacte.
 
-#### Proposition 3 {#alg-x-s1-prop-3 .statement}
+#### Proposition 3 {#alg-x-s1-prop-3 .statement tag=0DP0}
 
 Pour que le A-module E soit plat, il faut et il suffit que, pour tout A-homomorphisme injectif $u : M' \to M$ de A-modules à droite, l’application $u \otimes 1 : M' \otimes_A E \to M \otimes_A E$ soit injective.
 
@@ -413,7 +413,7 @@ $$
 
 et la suite (12) est exacte.
 
-#### Proposition 4 {#alg-x-s1-prop-4 .statement}
+#### Proposition 4 {#alg-x-s1-prop-4 .statement tag=0DP1}
 
 (i) Soient $(E_i)_{i \in I}$ une famille de A-modules, $E = \bigoplus_{i \in I} E_i$ leur somme directe. Pour que le A-module E soit plat, il faut et il suffit que chacun des $E_i$ le soit.
 
@@ -425,45 +425,45 @@ Soit $M' \to M \to M''$ une suite exacte de A-modules à droite.
 
 (ii) Par hypothèse, chacune des suites $M' \otimes_A E_i \to M \otimes_A E_i \to M'' \otimes_A E_i$ est exacte, donc aussi la suite $M' \otimes_A E \to M \otimes_A E \to M'' \otimes_A E$, puisque le passage à la limite inductive commute avec le produit tensoriel (II, p. 93, prop. 7) et conserve l’exactitude (II, p. 91, prop. 3).
 
-#### Exemple 1 {#alg-x-s1-n3-exa-1 .statement}
+#### Exemple 1 {#alg-x-s1-n3-exa-1 .statement tag=0DP2}
 
 Il est clair que $A_s$ est un $A$-module plat; il résulte alors de la prop. 4 (i) que tout $A$-module libre, et plus généralement tout $A$-module projectif, est plat (voir aussi II, p. 63, cor. 6).
 
 \* Inversement, tout $A$-module plat de présentation finie est projectif (no 5). \*
 
-#### Exemple 2 {#alg-x-s1-n3-exa-2 .statement}
+#### Exemple 2 {#alg-x-s1-n3-exa-2 .statement tag=0DP3}
 
 D’après la prop. 4 (ii), tout $A$-module qui est limite inductive d’un système inductif filtrant de $A$-modules libres est plat. Nous démontrerons une réciproque au no 6.
 
-#### Exemple 3 {#alg-x-s1-n3-exa-3 .statement}
+#### Exemple 3 {#alg-x-s1-n3-exa-3 .statement tag=0DP4}
 
 Si $A$ est semi-simple, tout $A$-module est projectif (VIII, § 5, no 1, prop. 1) donc plat.
 
-#### Exemple 4 {#alg-x-s1-n3-exa-4 .statement}
+#### Exemple 4 {#alg-x-s1-n3-exa-4 .statement tag=0DP5}
 
 \* Si $A$ est un anneau local artinien (non nécessairement commutatif), un $A$-module est plat si et seulement s’il est libre (AC II, § 3, no 2, cor. 2 de la prop. 5). \*
 
-#### Exemple 5 {#alg-x-s1-n3-exa-5 .statement}
+#### Exemple 5 {#alg-x-s1-n3-exa-5 .statement tag=0DP6}
 
 Si $A$ est intègre, le corps des fractions $K$ de $A$ est un $A$-module plat (II, p. 118, prop. 27).
 
-#### Exemple 6 {#alg-x-s1-n3-exa-6 .statement}
+#### Exemple 6 {#alg-x-s1-n3-exa-6 .statement tag=0DP7}
 
 \* En AC II et III, nous étudierons deux exemples importants de $A$-modules plats lorsque $A$ est commutatif : les anneaux de fractions $S^{-1} A$, et lorsque $A$ est nœthérien, les séparés complétés de $A$ pour les topologies J-adiques. \*
 
-#### Exemple 7 {#alg-x-s1-n3-exa-7 .statement}
+#### Exemple 7 {#alg-x-s1-n3-exa-7 .statement tag=0DP8}
 
 Soit $a \in A$ tel que l’application $a_A : x \mapsto ax$ de $A$ dans $A$ soit injective (« $a$ n’est pas diviseur à gauche de 0 »). Si $E$ est un $A$-module plat, alors l’homothétie $a_E$ est injective, puisque s’identifiant à $a_A \otimes 1 : A_d \otimes_A E \to A_d \otimes_A E$. En particulier, si $A$ est intègre, tout $A$-module plat est sans torsion. Inversement, si $A$ est principal, tout $A$-module sans torsion est plat : en effet, si le $A$-module $E$ est sans torsion, tout sous-module de type fini de $E$ est libre (VII, § 4, no 4, cor. 2 au th. 4), et $E$ est réunion filtrante croissante de sous-modules plats, donc est plat (prop. 4 (ii)).
 
-#### Exemple 8 {#alg-x-s1-n3-exa-8 .statement}
+#### Exemple 8 {#alg-x-s1-n3-exa-8 .statement tag=0DP9}
 
 Soient $B$ un anneau et $\rho : A \to B$ un homomorphisme. Si $E$ est un $A$-module plat, le $B$-module $E_{(B)} = B \otimes_A E$ est plat. Soit en effet $u : N' \to N$ un homomorphisme injectif de $B$-modules à droite ; alors $u \otimes_B 1_{E_{(B)}}$ s’identifie canoniquement à l’homomorphisme $u \otimes_A 1_E : N' \otimes_A E \to N \otimes_A E$, qui est injectif si $E$ est plat.
 
-#### Exemple 9 {#alg-x-s1-n3-exa-9 .statement}
+#### Exemple 9 {#alg-x-s1-n3-exa-9 .statement tag=0DPA}
 
 Supposons que $A = K[X, Y]$, où $K$ est un corps. Alors l’idéal maximal $m$ engendré par $X$ et $Y$ est un $A$-module sans torsion, mais non plat. Considérons en effet l’anneau $B = A/(Y)$, qui est isomorphe à $K[X]$, donc intègre. Le $B$-module $m_{(B)}$ est isomorphe à $m/Ym = (X, Y)/(XY, Y^2)$ dans lequel la classe de $Y$ est de torsion. Par suite, $m_{(B)}$ n’est pas un $B$-module plat, donc $m$ n’est pas plat.
 
-#### Exemple 10 {#alg-x-s1-n3-exa-10 .statement}
+#### Exemple 10 {#alg-x-s1-n3-exa-10 .statement tag=0DPB}
 
 Supposons $A$ commutatif. Soit $B$ l’algèbre $A[X_1, ..., X_n]/(P)$, où $P$ est un polynôme non nul. Pour tout idéal premier $p$ de $A$, notons $\kappa(p)$ le corps des fractions de l’anneau intègre $A/p$, $E(p)$ l’algèbre $\kappa(p)[X_1, ..., X_n]$ et $P(p)$ l’image de $P$ dans $E(p)$ par l’application canonique.
 
@@ -473,7 +473,7 @@ On peut montrer que, pour que $B$ soit un $A$-module plat, il suffit que $P(p) \
 
 Spec (A). La condition précédente signifie que ce fermé est vide, autrement dit que pour tout $p$ la sous-variété $V_p$ est une hypersurface dans $\mathbf{A}_{k(p)}^n$.
 
-#### Exemple 11 {#alg-x-s1-n3-exa-11 .statement}
+#### Exemple 11 {#alg-x-s1-n3-exa-11 .statement tag=0DPC}
 
 \* Soient S et X deux espaces analytiques complexes et $f : X \to S$ un morphisme. On dit que $f$ est plat en un point $x$ de X si $\mathscr{O}_{X,x}$, considéré comme $\mathscr{O}_{S,f(x)}$-module au moyen de l’homomorphisme $f^* : \mathscr{O}_{S,f(x)} \to \mathscr{O}_{X,x}$, est plat. L’ensemble des points de X où $f$ est plat est un ouvert de X, et la restriction de $f$ à cet ouvert est une application ouverte. Si X et S sont des variétés analytiques connexes de dimension finie, $f$ est plat (en tout point de X) si et seulement si $f(X)$ est ouvert dans S et les fibres $f^{-1}(s)$, pour $s \in f(X)$, ont toutes la même dimension. \*
 
@@ -499,7 +499,7 @@ en vertu de II, p. 58, prop. 5 et du fait que $B \otimes_A L$ est un B-module li
 
 On dit qu’une présentation (13) d’un module E est finie si les modules libres $L_0$ et $L_1$ ont des bases finies. Il est clair que si la présentation (13) est finie, il en est de même de la présentation (14). On dit que E est un A-module de présentation finie s’il admet une présentation finie.
 
-#### Proposition 5 {#alg-x-s1-prop-5 .statement}
+#### Proposition 5 {#alg-x-s1-prop-5 .statement tag=0DPD}
 
 (i) Tout module admettant une présentation finie est de type fini.
 (ii) Si A est un anneau noethérien à gauche, tout A-module de type fini admet une présentation finie.
@@ -509,7 +509,7 @@ L’assertion (i) résulte trivialement des définitions. Supposons A noethérie
 
 Enfin, supposons que E soit un module projectif de type fini ; il est alors facteur direct d’un module libre de type fini L_0 (II, p. 40, cor. 1) ; le noyau R de l’homomorphisme surjectif L_0 → E est alors isomorphe à un quotient de L_0, donc est de type fini, et on termine comme ci-dessus.
 
-#### Proposition 6 {#alg-x-s1-prop-6 .statement}
+#### Proposition 6 {#alg-x-s1-prop-6 .statement tag=0DPE}
 
 Soient A un anneau, E un A-module de présentation finie. Pour toute suite exacte
 
@@ -543,7 +543,7 @@ $$
 
 et comme v(L_1) et Coker v sont de type fini, il en est de même de F (II, p. 17, cor. 5).
 
-#### Proposition 7 {#alg-x-s1-prop-7 .statement}
+#### Proposition 7 {#alg-x-s1-prop-7 .statement tag=0DPF}
 
 Soit M un A-module. Il existe un ensemble ordonné I filtrant à droite et un système inductif de A-modules de présentation finie (M_\alpha, \varphi_{\beta\alpha}) relatif à I tel que M soit isomorphe à \lim_\alpha M_\alpha. Si M possède un système générateur de n éléments, on peut supposer qu’il en est de même des M_\alpha.
 
@@ -602,7 +602,7 @@ $$
 \tag{17}
 $$
 
-#### Proposition 8 {#alg-x-s1-prop-8 .statement}
+#### Proposition 8 {#alg-x-s1-prop-8 .statement tag=0DPG}
 
 a) *Si le A-module E est de type fini (resp. de présentation finie), l’homomorphisme canonique (16) est injectif (resp. bijectif).*
 
@@ -635,7 +635,7 @@ $$
 
 est exacte (*loc. cit.*), et comme $F$ est *plat*, la première ligne de (18) est aussi une suite exacte (X, p. 8, déf. 1). Cela étant, on sait que $v_{L_0}$ est bijectif (resp. que $v_{L_0}$ et $v_{L_1}$ sont bijectifs) (II, p. 75, prop. 2). Si on suppose seulement $v_{L_0}$ bijectif, il résulte de (18) que $v_{L_0} \circ T(w) = T'(w) \circ v_E$ est injectif, donc $v_E$ l’est aussi. Si on suppose que $v_{L_0}$ et $v_{L_1}$ sont tous deux bijectifs, on déduit du cor. 2 (ii) de X, p. 6 que $v_E$ est surjectif, et comme on vient de voir que $v_E$ est injectif, il est bijectif.
 
-#### Corollaire {#alg-x-s1-n5-cor-1 .statement}
+#### Corollaire {#alg-x-s1-n5-cor-1 .statement tag=0DPH}
 
 **Tout module plat et de présentation finie est projectif.**
 
@@ -651,7 +651,7 @@ D’après le corollaire précédent et la prop. 5 de X, p. 10, il y a identité
 
 ### 6. Structure des modules plats
 
-#### Lemme 2 {#alg-x-s1-lem-2 .statement}
+#### Lemme 2 {#alg-x-s1-lem-2 .statement tag=0DPI}
 
 **Soient I un ensemble ordonné filtrant à droite, $(E_\alpha, \varphi_{\beta\alpha})$ un système inductif d’ensembles relatif à I, E sa limite inductive et $\varphi_\alpha : E_\alpha \to E, \alpha \in I$, les applications canoniques. Soit $f : I \to I$ une application telle que $f(\alpha) > \alpha$ pour $\alpha \in I$, et supposons donnés, pour chaque $\alpha \in I$, un ensemble $L_\alpha$ et des applications $u_\alpha : E_\alpha \to L_\alpha$ et $v_\alpha : L_\alpha \to E_{f(\alpha)}$ telles que $v_\alpha \circ u'_\alpha = \varphi_{f(\alpha), \alpha}$. Soit J l’ensemble ordonné obtenu en munissant I de la relation « $\alpha \leq \beta$ si $\alpha = \beta$ ou $f(\alpha) \leq \beta$ ». Si $\alpha, \beta \in J$ avec $\alpha \leq \beta$, soit $\psi_{\beta\alpha} : L_\alpha \to L_\beta$ l’application telle que $\psi_{\beta\alpha} = \mathrm{Id}$ si $\alpha = \beta$, $\psi_{\beta\alpha} = u_\beta \circ \varphi_{\beta, f(\alpha)} \circ v_\alpha$ si $f(\alpha) \leq \beta$. Si $\alpha \in J$, soit $\psi_\alpha : L_\alpha \to E$ l’application $\varphi_{f(\alpha)} \circ v_\alpha$. Alors l’ensemble ordonné J est filtrant, $(L_\alpha, \psi_{\beta\alpha})$ est un système inductif relatif à J, $(\psi_\alpha)$ est un système inductif d’applications et l’application $\psi : \lim_{\alpha \in J} L_\alpha \to E$ déduite des $\psi_\alpha$ est bijective.
 
@@ -679,7 +679,7 @@ $$
 $$
 et $\psi$ est injective.
 
-#### Théorème 1 (D. Lazard) {#alg-x-s1-thm-1 .statement}
+#### Théorème 1 (D. Lazard) {#alg-x-s1-thm-1 .statement tag=0DPJ}
 
 Pour tout A-module E, les conditions suivantes sont équivalentes :
 (i) E est plat.
@@ -697,13 +697,13 @@ est surjectif.
 
 (X, p. 11, prop. 7). Quitte à remplacer I par le produit lexicographique I × N, avec E_{(α,n)} = E_α pour tout n, on peut supposer que I n’a pas de plus grand élément. Pour chaque α ∈ I, soient L_α un A-module libre de type fini et u_α : E_α → L_α, v'_α : L_α → E des homomorphismes tels que v'_α ∘ u_α soit l’application canonique φ_α de E_α dans E ; puisque L_α est libre de type fini et I sans plus grand élément, il existe un indice β > α et un homomorphisme v''_α : L_α → E_β tels que v'_α = φ_β ∘ v''_α ; puisque φ_β ∘ v''_α ∘ u_α = φ_β ∘ φ_β,α et que E_α est de présentation finie, il résulte de la prop. 8a) de X, p. 12, qu’il existe γ ≥ β tel que φ_{γβ} ∘ v''_α ∘ u_α = φ_{γβ} ∘ φ_{βα} = φ_{γα} ; posons γ = f(α) et soit v_α l’homomorphisme φ_{γβ} ∘ v''_α de L_α dans E_{f(α)} ; on a v_α ∘ u_α = φ_{f(α),α}. On peut alors appliquer le lemme 2, d’où (iv).
 
-#### Corollaire {#alg-x-s1-n6-cor-1 .statement}
+#### Corollaire {#alg-x-s1-n6-cor-1 .statement tag=0DPK}
 
 Supposons A commutatif. Pour tout A-module plat E, les A-modules T(E), S(E), Λ(E), T^n(E), S^n(E), Λ^n(E) sont plats.
 
 En effet, E est la limite inductive d’un système filtrant (L_j) de A-modules libres de type fini, donc T(E) (resp. S(E), etc.) est limite inductive du système filtrant des A-modules libres T(L_j) (resp. S(L_j), etc.), donc est plat (cf. III, p. 61, prop. 6, p. 62, th. 1, p. 73, prop. 8, p. 75, th. 1, p. 83, prop. 9, et p. 86, th. 1).
 
-#### Remarque {#alg-x-s1-n6-rem-1 .statement}
+#### Remarque {#alg-x-s1-n6-rem-1 .statement tag=0DPL}
 
 Considérant dans (ii) une présentation finie A_s^J \xrightarrow{c} A_s^I \to P \to 0, on obtient la condition (ii’) encore équivalente aux précédentes :
 
@@ -727,7 +727,7 @@ $$
 
 ### 7. Modules injectifs
 
-#### Définition 2 {#alg-x-s1-def-2 .statement}
+#### Définition 2 {#alg-x-s1-def-2 .statement tag=0DPM}
 
 On dit que le A-module E est injectif si, pour toute suite exacte de A-modules et d’homomorphismes
 
@@ -743,7 +743,7 @@ $$
 $$
 est exacte.
 
-#### Lemme 3 {#alg-x-s1-lem-3 .statement}
+#### Lemme 3 {#alg-x-s1-lem-3 .statement tag=0DPN}
 
 *Pour que le A-module E soit injectif, il faut et il suffit que, pour toute application A-linéaire injective $u : M' \to M$, l’application*
 
@@ -765,11 +765,11 @@ $$
 
 est exacte. Par ailleurs, on a $\operatorname{Hom}(\nu,1)=\operatorname{Hom}(p,1)\circ\operatorname{Hom}(i,1)$. Si $E$ satisfait à la condition du lemme, $\operatorname{Hom}(i,1)$ est surjectif, donc l’image de $\operatorname{Hom}(\nu,1)$ est aussi celle de $\operatorname{Hom}(p,1)$, et la suite (20) est exacte.
 
-#### Remarque {#alg-x-s1-n7-rem-1 .statement}
+#### Remarque {#alg-x-s1-n7-rem-1 .statement tag=0DPO}
 
 Soient $E$ un A-module injectif, $u : M' \to M$ et $f : M' \to E$ des homomorphismes de A-modules. Si $\operatorname{Ker}u\subset\operatorname{Ker}f$, il existe un homomorphisme $g : M \to E$ tel que $g\circ u=f$. Cela résulte en effet de ce qui précède appliqué à l’homomorphisme injectif $M'/\operatorname{Ker}u \to M$ déduit de $u$.
 
-#### Proposition 9 {#alg-x-s1-prop-9 .statement}
+#### Proposition 9 {#alg-x-s1-prop-9 .statement tag=0DPP}
 
 *Soient $(E_i)_{i\in I}$ une famille de A-modules, $E=\prod_{i\in I}E_i$ leur produit. Pour que le A-module $E$ soit injectif, il faut et il suffit que chacun des $E_i$ le soit.*
 
@@ -783,7 +783,7 @@ $$
 
 soit surjectif, il faut et il suffit que chacun des homomorphismes $\operatorname{Hom}_A(M,E_i)\to\operatorname{Hom}_A(M',E_i)$ le soit (II, p. 10, prop. 5) ; cela démontre la proposition puisque $\prod_{i\in I}\operatorname{Hom}_A(M,E_i)$ s’identifie canoniquement à $\operatorname{Hom}_A(M,E)$.
 
-#### Proposition 10 {#alg-x-s1-prop-10 .statement}
+#### Proposition 10 {#alg-x-s1-prop-10 .statement tag=0DPQ}
 
 *Soit $E$ un A-module. Pour que $E$ soit injectif, il faut et il suffit que, pour tout idéal $a$ de $A$ et tout A-homomorphisme $f : a\to E$, il existe $e\in E$ tel que*
 
@@ -809,7 +809,7 @@ pour tout $a\in a$.
 
 Inversement, supposons la condition de l’énoncé vérifiée, soient $M$ un A-module, $N$ un sous-module de $M$, $u : N\to E$ un A-homomorphisme, et prouvons qu’il existe un A-homomorphisme $\bar u : M\to E$ prolongeant $u$ (cf. *lemme* 3). Soit $\mathscr P$ l’ensemble des couples $(P,v)$ où $P$ est un sous-module de $M$ contenant $N$ et $v$ un homomorphisme de $P$ dans $E$ prolongeant $u$. L’ensemble $\mathscr P$ ordonné par la relation de prolongement est *inductif* : si $(P_j, v_j)$ est une famille totalement ordonnée d’éléments de $\mathscr{P}$, posons $Q = \cup P_j$ et soit $w : Q \to E$ l’unique application induisant $v_j$ sur $P_j$ pour tout $j$; alors $(Q, w) \in \mathscr{P}$ et $(Q, w)$ majore $(P_j, v_j)$ pour tout $j$. Soit alors $(P, v)$ un élément maximal de $\mathscr{P}$ (E, III, p. 20, th. 2); il suffit de prouver que $P = M$. Soit $x \in M$ et soit $\alpha$ l’idéal des $a \in A$ tels que $ax \in P$; posons $f(a) = v(ax)$ pour $a \in \alpha$; on obtient ainsi un $A$-homomorphisme $f : \alpha \to E$. Soit alors $e$ un élément de $E$ tel que $f(a) = ae$ pour tout $a \in \alpha$. Posons $P' = P + Ax$ et soit $v' : P' \to E$ l’unique $A$-homomorphisme tel que $v'(p + ax) = v(p) + ae$ pour $p \in P, a \in A$; alors $(P', v')$ appartient à $\mathscr{P}$ et majore $(P, v)$, donc $P' = P$, c’est-à-dire $x \in P$, ce qui achève la démonstration.
 
-#### Corollaire 1 {#alg-x-s1-prop-10-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s1-prop-10-cor-1 .statement tag=0DPR}
 
 *Si l’anneau $A$ est nœthérien à gauche, tout module somme directe de $A$-modules injectifs est injectif.*
 
@@ -821,13 +821,13 @@ $$
 
 est bijective ; soit $(u_i)$ l’image réciproque de $u$ par $\varphi$. Puisque chaque $E_i$ est injectif, et la famille $(u_i)$ à support fini, il existe un élément $(e_i)_{i \in I}$ de $E$ tel que $u_i(a) = ae_i$ pour tout $a \in \alpha$ et tout $i \in I$, donc $u(a) = a((e_i))$ pour tout $a \in \alpha$, et $E$ est injectif.
 
-#### Remarque {#alg-x-s1-n7-rem-2 .statement}
+#### Remarque {#alg-x-s1-n7-rem-2 .statement tag=0DPS}
 
 Si tout $A$-module somme directe de $A$-modules injectifs est injectif, l’anneau $A$ est nœthérien à gauche (X, p. 170, exercice 21).
 
 Supposons $A$ intègre. On dit que le $A$-module $E$ est *divisible* si l’homothétie $a_E$ est surjective pour tout élément non nul $a$ de $A$.
 
-#### Corollaire 2 {#alg-x-s1-prop-10-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s1-prop-10-cor-2 .statement tag=0DPT}
 
 *Supposons $A$ intègre.*
   *a)* *Tout $A$-module injectif est divisible.*
@@ -850,21 +850,21 @@ $$
 
 cela est clair si $a \in Ax$, d’où l’assertion dans le cas où A est principal ; si E est sans torsion et si $xa \in a$, on a $xf(a) = f(ax) = axe$, donc $f(a) = ae$ puisque $x$ est non nul si $a \neq 0$.
 
-#### Exemple 1 {#alg-x-s1-n7-exa-1 .statement}
+#### Exemple 1 {#alg-x-s1-n7-exa-1 .statement tag=0DPU}
 
 Si A est intègre, le corps des fractions K de A est un A-module injectif. Si A est principal, $K/A$ est un A-module injectif.
 
-#### Exemple 2 {#alg-x-s1-n7-exa-2 .statement}
+#### Exemple 2 {#alg-x-s1-n7-exa-2 .statement tag=0DPV}
 
 Par exemple, les $\mathbf{Z}$-modules $\mathbf{Q}$ et $\mathbf{Q}/\mathbf{Z}$ sont injectifs.
 
-#### Exemple 3 {#alg-x-s1-n7-exa-3 .statement}
+#### Exemple 3 {#alg-x-s1-n7-exa-3 .statement tag=0DPW}
 
 Soit A un anneau principal et soit $a$ un élément *non nul* de A. Alors $A/aA$ est un $A/aA$-module injectif (X, p. 170, exercice 20).
 
 ### 8. Modules cogénérateurs injectifs
 
-#### Proposition 11 {#alg-x-s1-prop-11 .statement}
+#### Proposition 11 {#alg-x-s1-prop-11 .statement tag=0DPX}
 
 *Soient B un anneau, F un B-module et P un (B, A)-bimodule. Si F est un B-module injectif et P un A-module plat, $\mathrm{Hom}_B(P, F)$ est un A-module injectif.*
 
@@ -880,30 +880,30 @@ $$
 
 où $\beta$ et $\beta'$ sont les isomorphismes canoniques de II, p. 74. Comme P est plat sur A, l’homomorphisme $1_P \otimes u : P \otimes_A M' \to P \otimes_A M$ est injectif. Comme F est injectif, $\mathrm{Hom}(1_P \otimes u, 1_F)$ est surjectif, donc aussi $\mathrm{Hom}_A(u, 1)$, ce qui prouve que $\mathrm{Hom}_F(P, F)$ est un A-module injectif (X, p. 16, lemme 3).
 
-#### Définition 3 {#alg-x-s1-def-3 .statement}
+#### Définition 3 {#alg-x-s1-def-3 .statement tag=0DPY}
 
 *On dit que le A-module E est cogénérateur si, pour tout A-module M et tout élément non nul x de M, il existe un A-homomorphisme $u : M \to E$ tel que $u(x) \neq 0$.*
 
 On dit que le A-module L est *générateur* si, pour tout A-module M et tout élément x de M, il existe un A-homomorphisme $u : L \to M$ tel que $x \in u(L)$. Par exemple, le A-module $A_s$ est générateur.
 
-#### Proposition 12 {#alg-x-s1-prop-12 .statement}
+#### Proposition 12 {#alg-x-s1-prop-12 .statement tag=0DPZ}
 
 *Soit E un A-module injectif. Pour que E soit cogénérateur, il faut et il suffit que $\mathrm{Hom}_A(S, E) \neq 0$ pour tout A-module simple S.*
 
 La condition est évidemment nécessaire. Inversement, soient M un A-module et x un élément non nul de M ; le sous-module $Ax$ de M possède un quotient simple S (VIII, § 2, no 1, prop. 3). Si $\mathrm{Hom}_A(S, E) \neq 0$, alors $\mathrm{Hom}_A(Ax, E) \neq 0$ et il existe un homomorphisme $f : Ax \to E$ tel que $f(x) \neq 0$; comme E est injectif, $f$ se prolonge en un homomorphisme $u$ de M dans E et on a $u(x) = f(x) \neq 0$.
 
-#### Exemple {#alg-x-s1-n8-exa-1 .statement}
+#### Exemple {#alg-x-s1-n8-exa-1 .statement tag=0DQ0}
 
 Le $\mathbf{Z}$-module injectif $\mathbf{Q}/\mathbf{Z}$ (X, p. 18, exemple 2) est cogénérateur.
 En effet, tout $\mathbf{Z}$-module simple est isomorphe à un module $\mathbf{Z}/p\mathbf{Z}$, $p\ne 0$, et $\operatorname{Hom}_{\mathbf{Z}}(\mathbf{Z}/p\mathbf{Z},\mathbf{Q}/\mathbf{Z})$ est non nul (il contient par exemple l’élément de $\mathbf{Z}/p\mathbf{Z}$ déduit par passage aux quotients de l’homomorphisme $x\mapsto x/p$ de $\mathbf{Z}$ dans $\mathbf{Q}$).
 
-#### Proposition 13 {#alg-x-s1-prop-13 .statement}
+#### Proposition 13 {#alg-x-s1-prop-13 .statement tag=0DQ1}
 
 Soient $B$ un anneau, $F$ un $B$-module injectif cogénérateur, $P$ un $(B,A)$-bimodule. Supposons $P$ plat sur $A$ et tel que $P\otimes_A S\ne 0$ pour tout $A$-module simple $S$ (* c’est-à-dire fidèlement plat sur $A$ au sens de AC, I, §). Alors le $A$-module $\operatorname{Hom}_B(P,F)$ est cogénérateur et injectif.
 
 En effet, $\operatorname{Hom}_B(P,F)$ est injectif d’après la prop. 11. D’autre part, pour tout $A$-module simple $S$, $\operatorname{Hom}_A(S,\operatorname{Hom}_B(P,F))$ est isomorphe à $\operatorname{Hom}_B(P\otimes_A S,F)$, donc est non nul puisque $P\otimes_A S\ne 0$ et que le $B$-module $F$ est cogénérateur ; le $A$-module $\operatorname{Hom}_B(P,F)$ est donc cogénérateur d’après la prop. 12.
 
-#### Corollaire 1 {#alg-x-s1-prop-13-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s1-prop-13-cor-1 .statement tag=0DQ2}
 
 Le $A$-module $E_A=\operatorname{Hom}_{\mathbf{Z}}(A,\mathbf{Q}/\mathbf{Z})$ est injectif et cogénérateur.
 
@@ -923,17 +923,17 @@ $$
 
 Alors :
 
-#### Corollaire 2 {#alg-x-s1-prop-13-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s1-prop-13-cor-2 .statement tag=0DQ3}
 
 Le $A$-module $I^0(M)$ est injectif et le $A$-homomorphisme $e_M:M\to I^0(M)$ est injectif.
 
 En effet, $I^0(M)$ est injectif, puisque $E_A$ est injectif (X, p. 16, prop. 9), d’autre part $e_M$ est injectif puisque $E_A$ est cogénérateur.
 
-#### Corollaire 3 {#alg-x-s1-prop-13-cor-3 .statement}
+#### Corollaire 3 {#alg-x-s1-prop-13-cor-3 .statement tag=0DQ4}
 
 Tout $A$-module est isomorphe à un sous-module d’un $A$-module injectif.
 
-#### Corollaire 4 {#alg-x-s1-prop-13-cor-4 .statement}
+#### Corollaire 4 {#alg-x-s1-prop-13-cor-4 .statement tag=0DQ5}
 
 Pour que le $A$-module $E$ soit injectif, il faut et il suffit que tout $A$-homomorphisme injectif $f:E\to F$ possède une rétraction $A$-linéaire.
 
@@ -947,7 +947,7 @@ est surjectif ; il existe donc $r\in\operatorname{Hom}_A(F,E)$ tel que $r\circ f
 
 ### 9. Enveloppes injectives
 
-#### Définition 4 {#alg-x-s1-def-4 .statement}
+#### Définition 4 {#alg-x-s1-def-4 .statement tag=0DQ6}
 
 Soit $M$ un $A$-module. Une enveloppe injective de $M$ est un couple $(I,i)$, où $I$ est un $A$-module injectif et $i:M\to I$ un homomorphisme possédant la propriété suivante :
 
@@ -955,11 +955,11 @@ Soit $M$ un $A$-module. Une enveloppe injective de $M$ est un couple $(I,i)$, o�
 
 Notons que (E) implique que i est injectif. On identifie souvent M au sous-module i(M) de I, et on dit alors que I est une enveloppe injective de M.
 
-#### Exemple 1 {#alg-x-s1-n9-exa-1 .statement}
+#### Exemple 1 {#alg-x-s1-n9-exa-1 .statement tag=0DQ7}
 
 Supposons A intègre et M sans torsion. Soient K le corps des fractions de A et i : M → K ⊗_A M l’homomorphisme canonique. Alors (K ⊗_A M, i) est une enveloppe injective de M (II, p. 116, prop. 26 et X, p. 17, cor. 2).
 
-#### Théorème 2 {#alg-x-s1-thm-2 .statement}
+#### Théorème 2 {#alg-x-s1-thm-2 .statement tag=0DQ8}
 
 Soit M un A-module.
 a) M possède des enveloppes injectives.
@@ -991,15 +991,15 @@ $$
 
 donc Ker f = 0 et f est injectif. Alors f(I) est un sous-module injectif de J, donc facteur direct; puisque j satisfait à (E), cela implique f(I) = J et f est bijectif.
 
-#### Remarque 1 {#alg-x-s1-n9-rem-1 .statement}
+#### Remarque 1 {#alg-x-s1-n9-rem-1 .statement tag=0DQ9}
 
 Soient (I, i) une enveloppe injective de M et $j : M \to J$ un homomorphisme injectif de M dans un A-module injectif J. D’après la démonstration ci-dessus, il existe un homomorphisme *injectif* $f : I \to J$ tel que $f \circ i = j$.
 
-#### Remarque 2 {#alg-x-s1-n9-rem-2 .statement}
+#### Remarque 2 {#alg-x-s1-n9-rem-2 .statement tag=0DQA}
 
 Soit (I, i) une enveloppe injective de M. Identifions M au sous-module $i(M)$ de I. Pour tout sous-module N de M, il existe un sous-module injectif de I qui est une enveloppe injective de N (appliquer la *remarque* 1 à N). Inversement, tout sous-module injectif J de I est enveloppe injective de $J \cap M$.
 
-#### Proposition 14 {#alg-x-s1-prop-14 .statement}
+#### Proposition 14 {#alg-x-s1-prop-14 .statement tag=0DQB}
 
 *Soit I un A-module injectif non nul. Les conditions suivantes sont équivalentes*:
 (i) *I est indécomposable* (VII, § 4, no 8, déf. 3);
@@ -1017,13 +1017,13 @@ Soit (I, i) une enveloppe injective de M. Identifions M au sous-module $i(M)$ de
 
 (i) $\Rightarrow$ (iv) : supposons I indécomposable. Notons d’abord que tout endomorphisme injectif $f$ de I est bijectif (puisque $f(I)$ est alors un sous-module facteur direct non nul de I). Par ailleurs, tout endomorphisme $f$ de I, dont la restriction à un sous-module E non nul de I est injective, est injectif (en effet, puisque (i) $\Rightarrow$ (iii), I est enveloppe injective de E, donc « $E \cap \mathrm{Ker}\ f = 0$ » implique « $\mathrm{Ker}\ f = 0$ »). Cela étant, soit $f$ un élément non inversible de $\mathrm{End}_A(M)$; d’après VIII, § 1, no 4, prop. 9, il s’agit de prouver que $1 - f$ est inversible. Comme $f$ n’est pas injectif, on a $\mathrm{Ker}\ f \neq 0$; comme la restriction de $1 - f$ à $\mathrm{Ker}\ f$ est injective, $1 - f$ est injectif, donc bijectif.
 
-#### Corollaire 1 {#alg-x-s1-prop-14-cor-1 .statement}
+#### Corollaire 1 {#alg-x-s1-prop-14-cor-1 .statement tag=0DQC}
 
 *La relation « I est une classe de A-modules injectifs indécomposables » est collectivisante*.
 
 En effet, d’après (iii) tout A-module injectif indécomposable est enveloppe injective d’un A-module monogène.
 
-#### Corollaire 2 {#alg-x-s1-prop-14-cor-2 .statement}
+#### Corollaire 2 {#alg-x-s1-prop-14-cor-2 .statement tag=0DQD}
 
 *Soient M un A-module, I une enveloppe injective de M. Pour que I soit indécomposable, il faut et il suffit que 0 ne soit pas intersection de deux sous-modules non nuls de M*.
 
@@ -1033,13 +1033,13 @@ $$
 I_1 \cap M \neq 0,\quad I_2 \cap M \neq 0\quad \text{et}\quad (I_1 \cap M) \cap (I_2 \cap M) = 0 .
 $$
 
-#### Exemple 2 {#alg-x-s1-n9-exa-2 .statement}
+#### Exemple 2 {#alg-x-s1-n9-exa-2 .statement tag=0DQE}
 
 Si A est commutatif et nœthérien, les A-modules injectifs indécomposables sont exactement les enveloppes injectives des modules A/p où p est un idéal premier (X, p. 171, exercice 27).
 
 ### 10. Structure des modules injectifs
 
-#### Lemme 4 {#alg-x-s1-lem-4 .statement}
+#### Lemme 4 {#alg-x-s1-lem-4 .statement tag=0DQF}
 
 Soient M un A-module nœthérien non nul, I une enveloppe injective de M. Alors I possède un sous-module injectif indécomposable.
 
@@ -1053,7 +1053,7 @@ Notons $\mathscr{I}$ l’ensemble (X, p. 21, cor. 1) des classes de A-modules in
 
 Rappelons (X, p. 17, cor. 1) que, si A est nœthérien à gauche, tout A-module somme directe de A-modules injectifs est injectif.
 
-#### Théorème 3 {#alg-x-s1-thm-3 .statement}
+#### Théorème 3 {#alg-x-s1-thm-3 .statement tag=0DQG}
 
 Soit I un A-module injectif.
 

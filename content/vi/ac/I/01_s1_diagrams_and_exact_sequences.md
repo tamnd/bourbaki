@@ -29,9 +29,9 @@ subsections:
       pdf_page: 24
 statements: 7
 exercises: 7
-content_sha256: 6d9669d751fe9c623c4b9474f04ce92c22f33a01b32d94b1b5fe68a67f1f2142
+content_sha256: c73fd86f7375723758d964c2ad9047473fb199e3c43ed96ce2f0c01ca935642e
 translated_from: content/en/ac/I/01_s1_diagrams_and_exact_sequences.md
-source_content_sha256: ec8eea6d930f3758e5415ab8701212ba69b5e375abdfa50de29daa3eeaae7951
+source_content_sha256: e122c6b77c1c3a3f195f1e5d14b8ed8bb246e933209f2cbcd2975f972a3111ae
 translation_model: gpt-5.4, gpt-5.4-mini
 translation_run: translate-vi-3b304503
 glossary_version: 34
@@ -98,7 +98,7 @@ Trong phần sau, chúng tôi để người đọc tự kiểm tra các kết q
 
 Nhắc lại định nghĩa sau đây (Đại số, Chương II, § 1, no. 4):
 
-#### Định nghĩa 1 {#ac-i-s1-def-1 .statement}
+#### Định nghĩa 1 {#ac-i-s1-def-1 .statement tag=0421}
 
 Cho $A$ là một vành, $F, G, H$ là ba $A$-môđun phải (tương ứng, trái), $f$ là một đồng cấu từ $F$ đến $G$ và $g$ là một đồng cấu từ $G$ đến $H$. Cặp có thứ tự $(f, g)$ được gọi là một dãy khớp nếu $\overline{g}^{-1}(0) = f(F)$, nghĩa là nếu hạt nhân của $g$ bằng ảnh của $f$.
 
@@ -164,7 +164,7 @@ Sau cùng nhắc lại rằng nếu $f: E \to F$ là một đồng cấu A-môđ
 
 ### 4. BIỂU ĐỒ CON RẮN
 
-#### Mệnh đề 1 {#ac-i-s1-prop-1 .statement}
+#### Mệnh đề 1 {#ac-i-s1-prop-1 .statement tag=0422}
 
 Xét một biểu đồ giao hoán của các nhóm giao hoán:
 $$
@@ -201,7 +201,7 @@ $$
 
 Ngược lại, lấy $x \in \operatorname{Ker}(v' \circ b)$. Khi đó $b(x) \in \operatorname{Ker}(v')$ và tồn tại $y' \in A'$ sao cho $u'(y') = b(x)$, vì dãy $(u', v')$ khớp. Vì a là toàn ánh, tồn tại $y \in A$ sao cho $a(y) = y'$, do đó $b(x) = u'(a(y)) = b(u(y))$; suy ra $x - u(y) \in \operatorname{Ker}(b)$, điều này hoàn tất chứng minh.
 
-#### Bổ đề 1 {#ac-i-s1-lem-1 .statement}
+#### Bổ đề 1 {#ac-i-s1-lem-1 .statement tag=0423}
 
 Xét một biểu đồ giao hoán của các nhóm giao hoán:
 
@@ -253,7 +253,7 @@ $$
 
 trong đó $i, j, k$ là các đơn ánh chính tắc, $p, q, r$ là các toàn ánh chính tắc và $u_1, u_2$ (tương ứng $v_1, v_2$) là các đồng cấu chính tắc gắn với $u, u'$ (tương ứng $v, u'$) theo Bổ đề 1. Kiểm tra ngay rằng biểu đồ này giao hoán.
 
-#### Mệnh đề 2 {#ac-i-s1-prop-2 .statement}
+#### Mệnh đề 2 {#ac-i-s1-prop-2 .statement tag=0424}
 
 *Giả sử rằng trong biểu đồ giao hoán (10) các dãy $(u, v)$ và $(u', u')$ khớp. Khi đó:*
 
@@ -305,11 +305,11 @@ và do đó $u_2 \circ d = 0$. Ngược lại, giả sử rằng một phần t�
 
 Coker(a). Ở (i) đã thấy rằng nó khớp tại Ker(b) và ở (ii) nó khớp tại Coker(b), điều đó hoàn tất chứng minh của (iii).
 
-#### Nhận xét {#ac-i-s1-n4-rem-1 .statement}
+#### Nhận xét {#ac-i-s1-n4-rem-1 .statement tag=0425}
 
 Nếu các nhóm của biểu đồ (10) đều là (chẳng hạn, phải) môđun trên một vành $\mathbf{A}$ và các đồng cấu là các đồng cấu A-môđun, thì dễ dàng kiểm tra được rằng đồng cấu d được định nghĩa trong Mệnh đề 2, (iii) cũng là một đồng cấu A-môđun: nếu $x \in \mathrm{Ker}(c)$ và $a \in A$, và $y \in B$ sao cho $v(y) = k(x)$, thì chỉ cần chú ý rằng $v(ya) = k(xa)$.
 
-#### Hệ quả 1 {#ac-i-s1-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-i-s1-prop-2-cor-1 .statement tag=0426}
 
 Giả sử rằng biểu đồ (10) là giao hoán và hai hàng là khớp. Khi đó:
 
@@ -320,7 +320,7 @@ Mệnh đề (i) là một hệ quả của mệnh đề (i) của Mệnh đề 
 
 Mệnh đề (ii) là một hệ quả của mệnh đề (ii) của Mệnh đề 2: vì $\mathrm{Coker}(a) = 0$ và $\mathrm{Coker}(c) = 0$, nên $\mathrm{Coker}(b) = 0$.
 
-#### Hệ quả 2 {#ac-i-s1-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-i-s1-prop-2-cor-2 .statement tag=0427}
 
 Giả sử rằng biểu đồ (10) là giao hoán và hai hàng là khớp. Trong các điều kiện đó:
 

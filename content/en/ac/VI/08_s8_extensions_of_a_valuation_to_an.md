@@ -41,7 +41,7 @@ subsections:
       pdf_page: 446
 statements: 36
 exercises: 21
-content_sha256: 7c77d28c820705492ab79818bd995a404139876374f3f93fc23a656ffdf2d47a
+content_sha256: cdeab4f8e3ec406096d5a84060f974fac6c1348ec20e61d5f464c6c18df5b822
 ---
 
 ## 8. EXTENSIONS OF A VALUATION TO AN ALGEBRAIC EXTENSION
@@ -54,7 +54,7 @@ m(\mathbf{A}) = m(\mathbf{A}') \cap \mathbf{K}.
 $$
 If $v'$ is a valuation associated with $\mathbf{A}'$, the restriction $v$ of $v'$ to $\mathbf{K}$ is a valuation on $\mathbf{K}$ associated with $\mathbf{A}$; the order group $\Gamma_v$ of $v$ is a subgroup of the order group $\Gamma_{v'}$ of $v'$.
 
-#### Definition 1 {#ac-vi-s8-def-1 .statement}
+#### Definition 1 {#ac-vi-s8-def-1 .statement tag=04W4}
 
 *The index* $[\mathfrak{p}_v : \Gamma_{v'}]$ *is called the ramification index of* $v'$ *over* $v$ *(or over* $\mathbf{K}$*) and denoted by* $e(v'/v)$ *(or* $e(A'/A)$, *or sometimes* $e(L/K)$*).
 
@@ -62,20 +62,20 @@ This index is a natural number or $+\infty$. If $v'_0$ is a valuation *equivalen
 
 On the other hand the residue field $\kappa(\mathbf{A})$ of $v$ is identified with a subfield of the residue field $\kappa(\mathbf{A}')$ of $v'$.
 
-#### Definition 2 {#ac-vi-s8-def-2 .statement}
+#### Definition 2 {#ac-vi-s8-def-2 .statement tag=04W5}
 
 *The degree* $[\kappa(\mathbf{A}') : \kappa(\mathbf{A})]$ *is called the residue class degree of* $v'$ *over* $v$ *(or over* $\mathbf{K}$*) and denoted by* $f(v'/v)$ *(or* $f(A'/A)$, *or sometimes* $f(L/K)$*).
 
 This degree is a natural number or $+\infty$.
 
-#### Lemma 1 {#ac-vi-s8-lem-1 .statement}
+#### Lemma 1 {#ac-vi-s8-lem-1 .statement tag=04W6}
 
 *Let* $\mathbf{K}, \mathbf{K}', \mathbf{K}''$ *be three fields such that* $K \subset K' \subset K''$, $v''$ *a valuation on* $K''$ *and* $v$ *and* $v'$ *its restriction to* $\mathbf{K}$ *and* $\mathbf{K}'$. *Then there are the relations:*
 $$(1)\quad e(v''/v) = e(v''/v') e(v'/v), \qquad f(v''/v) = f(v''/v') f(v'/v).$$
 
 This is obvious.
 
-#### Lemma 2 {#ac-vi-s8-lem-2 .statement}
+#### Lemma 2 {#ac-vi-s8-lem-2 .statement tag=04W7}
 
 Let $K$ be a field, $L$ a finite extension of $K$ of degree $n$, $v'$ a valuation on $L$ and $v$ its restriction to $K$. Then the inequality
 
@@ -113,40 +113,40 @@ $$
 
 and $v'(b_k) \geq 0, v'(z) > 0$. Whence, in $\kappa(A')$, a relation of the form $\sum_k \bar{b}_k \bar{y}_k = 0$. As $b_m = 1$, this contradicts the hypothesis made on $y_k$.
 
-#### Proposition 1 {#ac-vi-s8-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s8-prop-1 .statement tag=04W8}
 
 Let $K$ be a field, $L$ an algebraic extension of $K$, $v'$ a valuation on $L$, $v$ its restriction to $K$ and $A$ and $A'$ the rings of $v$ and $v'$. Then $\Gamma_{v'}/\Gamma_v$ is a torsion group and $\kappa(A')$ is an algebraic extension of $\kappa(A)$.
 
 Let $(L_\alpha)$ be the family of finite sub-extensions of $L$; let us write $\Gamma_\alpha = v'(L_\alpha^*)$. The group $\Gamma_{v'}$ is the union of the right directed family consisting of the $\Gamma_\alpha$; as the groups $\Gamma_\alpha/\Gamma_v$ are finite (Lemma 2), $\Gamma_{v'}/\Gamma_v$ is a torsion group. The argument is similar to prove that $\kappa(A')$ is an algebraic extension of $\kappa(A)$.
 
-#### Corollary 1 {#ac-vi-s8-prop-1-cor-1 .statement}
+#### Corollary 1 {#ac-vi-s8-prop-1-cor-1 .statement tag=04W9}
 
 *The height of $v'$ is equal to that of $v$.*
 
 This follows from Proposition 1 and the following lemma:
 
-#### Lemma 3 {#ac-vi-s8-lem-3 .statement}
+#### Lemma 3 {#ac-vi-s8-lem-3 .statement tag=04WA}
 
 *Let $G'$ be a totally ordered group, $G$ a subgroup of $G$ and $\mathscr{G}'$ (resp. $\mathscr{G}$) the set of isolated subgroups of $G'$ (resp. $G$). The mapping $H' \mapsto H' \cap G$ maps $\mathscr{G}'$ onto $\mathscr{G}$. This mapping is bijective if $G'/G$ is a torsion group.*
 
 Clearly $H' \in \mathscr{G}'$ implies $H' \cap G \in \mathscr{G}$. Now let $H \in \mathscr{G}$; let $H'$ denote the set of $x' \in G'$ such that there exists $h \in H$ satisfying $-h \leq x' \leq h$; it is immediately verified that $H'$ is an isolated subgroup of $G'$; then $H' \cap G = H$ since $H$ is isolated; hence the mapping $H' \mapsto H' \cap G$ is surjective. Suppose finally that $G'/G$ is a torsion group; let $H'_1$ and $H'_2$ be two isolated subgroups of $G'$ such that $H'_1 \cap G = H'_2 \cap G$; then, for example, $H'_1 \supset H'_2$ (cf. § 4, no. 4); then $H'_1/H'_2$ is a totally ordered group and is isomorphic to a quotient group of $H'_1/(H'_1 \cap G)$ which itself is identified with a subgroup of $G'/G$; hence $H'_1/H'_2$ is a torsion group and therefore reduces to 0.
 
-#### Corollary 2 {#ac-vi-s8-lem-3-cor-2 .statement}
+#### Corollary 2 {#ac-vi-s8-lem-3-cor-2 .statement tag=04WB}
 
 *For $v'$ to be improper (resp. of height 1), it is necessary and sufficient that $v$ be improper (resp. of height 1).*
 
-#### Corollary 3 {#ac-vi-s8-lem-3-cor-3 .statement}
+#### Corollary 3 {#ac-vi-s8-lem-3-cor-3 .statement tag=04WC}
 
 *Suppose that $L$ is a finite extension of $K$. For $v'$ to be discrete, it is necessary and sufficient that $v$ be discrete.*
 If $v'$ is discrete, $\Gamma_{v'}$ is isomorphic to a non-zero subgroup of $\mathbf{Z}$ (Corollary 2) and hence to $\mathbf{Z}$. Conversely, if $v$ is discrete, $\Gamma_v$ is isomorphic to $\mathbf{Z}$ and $\Gamma_{v'}/\Gamma_v$ is a finite group (Lemma 2); hence $\Gamma_{v'}$ is a finitely generated commutative group of rank 1 and torsion-free; consequently it is isomorphic to $\mathbf{Z}$.
 
 ### 2. EXTENSION OF A VALUATION AND COMPLETION
 
-#### Definition 3 {#ac-vi-s8-def-3 .statement}
+#### Definition 3 {#ac-vi-s8-def-3 .statement tag=04WD}
 
 *Let $K$ be afield, $v$ a valuation on $K$ and $L$ an extension of $K$. A family $(v'_i)_{i \in I}$ of valuations on $L$ which extend $v$ and such that every valuation on $L$ extending $v$ is equivalent to a unique $v'_i$ is called a complete system of extensions of $v$ to $L$.*
 
-#### Proposition 2 {#ac-vi-s8-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s8-prop-2 .statement tag=04WE}
 
 *Let $K$ be afield, $v$ a valuation on $K$, $\hat{K}$ the completion of $K$ with respect to $v$, $\hat{v}$ the continuous extension of $v$ to $\hat{K}$ and $L$ a finite extension of $K$ of degree $n$.
 (a) Let $v'$ be a valuation on $L$ extending $v$; let $\hat{L}_{v'}$ denote the completion of $L$ with respect to $v'$ and $8'$ the continuous extension of $v'$ to $\hat{L}_{v'}$; identifying $\hat{K}$ with the closure of $K$ in $\hat{L}_{v'}$,
@@ -185,13 +185,13 @@ is surjective and relation (7) have already been shown. It remains to verify tha
 
 Chapter VIII, § 8, Proposition 1). There exists a valuation w on L(m) extending $\vartheta$ (§ 3, no. 3, Proposition 5); the restriction $v'$ of w to L extends $v$. As $[L(m): \hat{K}]$ is finite, $L(m)$ is complete with respect to w ($§ 5$, no. 2, Proposition 4). Now the closure of L in $L(m)$ is a field containing $\mathbf{K}$ and L and hence is equal to $L(m)$. Consequently $L(m)$ is identified with the completion $\hat{L}_{v'}$ and m is the kernel of the canonical mapping of $\hat{K} \otimes_K L$ onto $\hat{L}_{v'}$. Now, by hypothesis, there exists an index $i$ such that $v'$ and $v'_i$ are dependent; whence $L_{v'} = L_i$ ($§ 7$, no. 2, Proposition 3). Thus $n \subset m$, which proves that $n \subset r$ and completes the proof.
 
-#### Corollary 1 {#ac-vi-s8-prop-2-cor-1 .statement}
+#### Corollary 1 {#ac-vi-s8-prop-2-cor-1 .statement tag=04WF}
 
 *If K is complete with respect to v and v is not improper, two valuations on L extending v are dependent.*
 
 This follows since $\hat{K} \otimes_K L = L$.
 
-#### Corollary 2 {#ac-vi-s8-prop-2-cor-2 .statement}
+#### Corollary 2 {#ac-vi-s8-prop-2-cor-2 .statement tag=04WG}
 
 *If $\hat{K}$ or L is separable over K, the canonical mapping*
 
@@ -203,7 +203,7 @@ $$
 
 The Jacobson radical of $\hat{K} \otimes_K L$ is then zero (*Algebra*, Chapter VIII, § 7, no. 3, Theorem 1).
 
-#### Remark {#ac-vi-s8-n2-rem-1 .statement}
+#### Remark {#ac-vi-s8-n2-rem-1 .statement tag=04WH}
 
 Proposition 2 (b) shows that every composite extension of $\hat{K}$ and L over K (*Algebra*, Chapter VIII, § 8) is isomorphic to one of the completions $\hat{L}_i$ and that these are composite extensions no two of which are isomorphic.
 
@@ -217,7 +217,7 @@ $$
 
 by Proposition 2 (formulae (6) and (7)). We shall see that this result is true in the general case. To be precise:
 
-#### Theorem 1 {#ac-vi-s8-thm-1 .statement}
+#### Theorem 1 {#ac-vi-s8-thm-1 .statement tag=04WI}
 
 *Let K be a field, v a valuation on K and L a finite extension of K of degree n. Then:*
 
@@ -285,19 +285,19 @@ $$
 
 is injective, $H \cap \Gamma_v = \{0\}$, whence $H = \{0\}$ (Lemma 3, no. 1). Then $v_i'$ and $v_j'$ are equivalent, whence $i = j$.
 
-#### Remark {#ac-vi-s8-n3-rem-1 .statement}
+#### Remark {#ac-vi-s8-n3-rem-1 .statement tag=04WJ}
 
 The intersection C of the rings $A_i'$ of the valuations $v_i'$ ($i \in I$) is the integral closure of $A$ in L (§ 1, no. 3, Corollary 3 to Theorem 3); it follows moreover from (c) and § 7, no. 1, Propositions 1 and 2 that C is a semi-local ring, that its maximal ideals are the intersections $m_i = C \cap m(A_i')$ and that $A_i' = C$, for all $i \in I$.
 
 ### 4. INITIAL RAMIFICATION INDEX
 
-#### Definition 4 {#ac-vi-s8-def-4 .statement}
+#### Definition 4 {#ac-vi-s8-def-4 .statement tag=04WK}
 
 Let G be a totally ordered commutative group and H a subgroup of G of finite index. The number of major subsets of G consisting of strictly positive elements and containing all the elements > O of H is called the initial index of H in G and denoted by $\varepsilon(G, H)$.
 
 This initial index is a natural number by virtue of the following proposition:
 
-#### Proposition 3 {#ac-vi-s8-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s8-prop-3 .statement tag=04WL}
 
 Under the hypotheses of Definition 4, if the set of strictly positive elements of G has no least element, then $\varepsilon(G, H) = 1$ for all H. If there exists a least element > O of G and $G'$ denotes the subgroup it generates, then
 
@@ -309,19 +309,19 @@ In the first case, let x be an element > 0 in G. The set of $y \in G$ such that 
 
 In the second case, let $x$ be the least element >0 of G and let $n$ be the least integer >0 such that $nx \in H$. Clearly $n = (G : (G \cap H))$. On the other hand, writing $M(y)$ for the set of $z \in G$ such that $y \leq z \ (y \in G)$, it is immediately seen that the major sets of Definition 4 are just $M(x), M(2x), \ldots, M(nx)$.
 
-#### Corollary {#ac-vi-s8-n4-cor-1 .statement}
+#### Corollary {#ac-vi-s8-n4-cor-1 .statement tag=04WM}
 
 *The initial index $\varepsilon(G, H)$ divides the index* $(G : H)$ *and is equal to it if* $G$ *is isomorphic to* $\mathbf{Z}$.
 
 In particular, $\varepsilon(G, H) \leq (G : H)$.
 
-#### Definition 5 {#ac-vi-s8-def-5 .statement}
+#### Definition 5 {#ac-vi-s8-def-5 .statement tag=04WN}
 
 *Let* $K$ *be a field, L a finite extension of* $K$, $w$ *a valuation on* $L$, $v$ *its restriction to* $K$ *and* $\Gamma_w$ *and* $\Gamma_v$ *their order groups. The initial index of* $\Gamma_v$ *in* $\Gamma_w$ *is called the initial ramification index of* $w$ *with respect to* $v$ *(or with respect to* $K$*) and denoted by* $\varepsilon(w/v)$.
 
 From the above corollary, $\varepsilon(w/v)$ divides $e(w/v)$ with equality in the case of a discrete valuation.
 
-#### Proposition 4 {#ac-vi-s8-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s8-prop-4 .statement tag=04WO}
 
 *Under the hypotheses of Definition 5, let* $A$ *and* $m$ *(resp.* $A'$ *and* $m'$) *be the ring and ideal of the valuation* $v$ *(resp.* $w$*). *Then*
 
@@ -333,7 +333,7 @@ The ideals of $A'$ containing $mA'$ and distinct from $A'$ correspond to the maj
 
 ### 5. THE RELATION $\sum_i e_i f_i = n$
 
-#### Proposition 5 {#ac-vi-s8-prop-5 .statement}
+#### Proposition 5 {#ac-vi-s8-prop-5 .statement tag=04WP}
 
 *Let* $K$ *be a field, v a valuation on* $K$, $A$ *its ring, m its ideal, L a finite extension of* $K$ *of degree* $n$, $B$ *the integral closure of* $A$ *in* $L$ *and* $(v'_i)_{1 \leq i \leq s}$ *a complete system of extensions of* $v$ *to* $L$. *Then*
 
@@ -347,7 +347,7 @@ B_{m_i}/mB_{m_i} = A_i/mA_i.
 $$
 Therefore there is a canonical isomorphism $B/mB \to \prod_{i=1}^s A_i/mA_i$, whence the result by virtue of Proposition 4 of no. 4.
 
-#### Corollary {#ac-vi-s8-n5-cor-1 .statement}
+#### Corollary {#ac-vi-s8-n5-cor-1 .statement tag=04WQ}
 
 *With the same hypotheses and notation,
 $$
@@ -355,7 +355,7 @@ $$
 $$
 We know that $\varepsilon(v'_i/v) \leq \varepsilon(v'_i/v)$ (no. 4, Corollary to Proposition 3) and $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) \leq n$ (no. 3, Theorem 1).
 
-#### Theorem 2 {#ac-vi-s8-thm-2 .statement}
+#### Theorem 2 {#ac-vi-s8-thm-2 .statement tag=04WR}
 
 *With the hypotheses and notation of Proposition 5, the following conditions are equivalent :
 (a) B is a finitely generated A-module;
@@ -367,11 +367,11 @@ The equivalence of (a) and (b) follows from Lemma 1, § 3, no. 6. Clearly (b) im
 
 In general, if M is an A-module, we shall denote by V(M) the vector space $M/mM$ over $A/m$. Hypothesis (c) means that $\dim(V(B)) = n$. Let $x_1, \ldots, x_n$ be elements of B whose canonical images in V(B) form a basis of V(B) and let L $\subset B$ be the sub-A-module which they generate. As L is torsion-free and finitely generated, it is free (§ 3, no. 6, Lemma 1). We shall see that $B = L$. Let $y \in B$; we write $M = L + Ay$; this is also a free A-module. The canonical injections $L \to M \to B$ give canonical homomorphisms $V(L) \to V(M) \to V(B)$. As the ranks of L and M are $\leq n$, so are the dimensions of V(L) and V(M). Now, by hypothesis, $V(L) \to V(B)$ is surjective and $V(B)$ is n-dimensional hence $V(L)$ and $V(M)$ are n-dimensional and $V(L) \to V(M)$ is surjective. As M is finitely generated, $L \to M$ is surjective (Chapter II, § 3, no. 2, Corollary 1 to Proposition 4), whence $L = M, y \in L$ and $B = L$. Hence B is free.
 
-#### Remark (1) {#ac-vi-s8-n5-rem-1 .statement}
+#### Remark (1) {#ac-vi-s8-n5-rem-1 .statement tag=04WS}
 
 If v is *discrete*, $\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$ (no. 4) and condition (d) reduces to $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) = n.$
 
-#### Corollary 1 {#ac-vi-s8-thm-2-cor-1 .statement}
+#### Corollary 1 {#ac-vi-s8-thm-2-cor-1 .statement tag=04WT}
 
 *With the same hypotheses and notation, suppose further that v is discrete and L separable. Then*
 
@@ -381,7 +381,7 @@ $$
 
 The integral closure B of A is then a free A-module of rank $n$, since A is a principal ideal domain (Chapter V, § 1, no. 6, Corollary 2 to Proposition 18).
 
-#### Corollary 2 {#ac-vi-s8-thm-2-cor-2 .statement}
+#### Corollary 2 {#ac-vi-s8-thm-2-cor-2 .statement tag=04WU}
 
 *Let K be a field, v a discrete valuation on K with respect to which K is complete and L a finite extension of K of degree n. Then v admits a unique (upto equivalence) extension $v'$ to L, the ring A' of $v'$ is a finitely generated free module over the ring A of v and $e(v'/v) f(v'/v) = n$.*
 
@@ -409,7 +409,7 @@ $$
 $$
 (Algebra, Chapter VIII, § 12, no. 2, formula (15)), which proves the formula of (9).
 
-#### Corollary 4 {#ac-vi-s8-thm-2-cor-4 .statement}
+#### Corollary 4 {#ac-vi-s8-thm-2-cor-4 .statement tag=04WV}
 
 *Under the hypotheses of Corollary 3, if L is a separable extension of K, each of the $\hat{L}_i$ is a separable extension of $\hat{K}$. If further L is a Galois extension of K with Galois group $\mathscr{G}$ and $\mathscr{G}_i$ denotes the decomposition group of the ideal of $v'_i$ in B (Chapter V, § 2, no. 2, Definition 2), then $\hat{L}_i$ is a Galois extension of $\hat{K}$ whose Galois group is isomorphic to $\mathscr{G}_i$.*
 
@@ -425,31 +425,31 @@ In the first place the topology defined by $v'$ on L is Hausdorff and compatible
 
 ### 6. VALUATION RINGS IN AN ALGEBRAIC EXTENSION
 
-#### Proposition 6 {#ac-vi-s8-prop-6 .statement}
+#### Proposition 6 {#ac-vi-s8-prop-6 .statement tag=04WW}
 
 Let K be a field, $v$ a valuation on K, A its ring, L an algebraic extension of K and $A'$ the integral closure of A in L. Let 23 be the set of valuation rings on L which extend $v$ and $\mathfrak{M}'$ the set of maximal ideals of $A'$. Then the mapping $V \mapsto m(V) \cap A'$ is a bijection of 23 onto $\mathfrak{M}'$ and $m' \mapsto A'_{m'}$ is the inverse bijection.
 
 Every maximal ideal $m'$ of $A'$ is such that $m' \cap A$ is the maximal ideal of A (Chapter V, § 2, no. 1, Proposition 1) and $A'_{m'}$ is dominated by a valuation ring V of L (which is therefore the ring of a valuation on L extending $v$) ($§ 1$, no. 2, Corollary to Theorem 2). The field L is the union of a directed family of sub-extensions K, of L which are finite over K and it will suffice, in order to see that $V = A'_{m'}$, to prove that $V \cap K = A'_{m'} \cap K$, for all $\alpha$. Now, if we write $A'_\alpha = A' \cap K_\alpha$, $A'_\alpha$ is the integral closure of A in K, and hence is the intersection of the rings of the valuations on K, which extend $v$ and these rings $V_\alpha$ are finite in number and are the local rings $(A'_\alpha)_{i|m_\alpha}$ of $A'_\alpha$ ($1 \leq i \leq n$), where the $m'_{i\alpha}$ are the distinct maximal ideals of $A'_\alpha$ (no. 3, Remark); but $m' \cap A'_\alpha$ is one of the $m'_{i\alpha}$ and $V \cap K_\alpha$ is therefore equal to the corresponding local ring $(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$, which completes the proof that $V = A'_{m'}$. Conversely, if $V \in \mathfrak{V}$, then $A' \subset V$ (§ 3, no. 3, Proposition 6) and, if $m' = m(V) \cap A'$, then $m' \cap A = m$, hence $m'$ is a maximal ideal of $A'$ (Chapter V, § 2, no. 1, Proposition 1) and the above argument shows that $V = A'_{m'}$.
 
-#### Proposition 7 {#ac-vi-s8-prop-7 .statement}
+#### Proposition 7 {#ac-vi-s8-prop-7 .statement tag=04WX}
 
 *Let K be a field, L a quasi-Galois extension of K and f and $f'$ places of L with values in the same field F. Suppose that the restrictions off and $f'$ to K coincide. Then there exists a K-automorphism s of L such that $f' = f \circ s$.*
 
 Let A be the ring of the place of K the common restriction off and $f'$. The rings off and $f'$ contain the integral closure $A'$ of A in L (§ 1, no. 3, Corollary 3 to Theorem 3) and hence (Chapter V, § 2, no. 3, Corollary 1 to Proposition 6) there exists a K-automorphism s of L such that the restrictions off and $f \circ s$ to $A'$ are equal; if $m'$ is the common kernel of these restrictions, $m' \cap A$ is the maximal ideal of A, hence $m'$ is a maximal ideal of $A'$ and the places $f'$ and $f \circ s$ coincide on the ring $A'_{m'}$; but by Proposition 6 the only valuation ring of L dominating $A'_{m'}$ is the ring $A'_{m'}$ itself and hence the rings of the places $f'$ and $f \circ s$ are the same.
 
-#### Corollary 1 {#ac-vi-s8-prop-7-cor-1 .statement}
+#### Corollary 1 {#ac-vi-s8-prop-7-cor-1 .statement tag=04WY}
 
 *Let K be a field, v a valuation on K, L a quasi-Galois extension of K and $v'$ and $v''$ two extensions of v to L. Then there exists a K-automorphism s of L such that $v''$ is equivalent to $v' \circ s$.*
 
 Let $f'$ and $f''$ be the places of K associated with $v'$ and $v''$; replacing them if need be by equivalent places, it may be assumed that they both take their values in the algebraic closure of the residue field of v (no. 1, Proposition 1). Then there exists a K-automorphism s of L such that $f'' = f' \circ s$ (Proposition 7); thus $v''$ is equivalent to $v' \circ s$ by virtue of the correspondence between places and valuations (§ 3, no. 3).
 
-#### Corollary 2 {#ac-vi-s8-prop-7-cor-2 .statement}
+#### Corollary 2 {#ac-vi-s8-prop-7-cor-2 .statement tag=04WZ}
 
 *Let K be a field, f a place of K (resp. v a valuation on K) and L a radicial extension of K. Then all the extensions of f (resp. v) to L are equivalent.*
 
 L is a quasi-Galois extension and its only automorphism is the identity. Corollary 2 therefore follows from Proposition 7 (resp. Corollary 1).
 
-#### Proposition 8 {#ac-vi-s8-prop-8 .statement}
+#### Proposition 8 {#ac-vi-s8-prop-8 .statement tag=04X0}
 
 *Let K be a field, v a valuation on K, L a finite quasi-Galois extension of K of degree n and $(v'_i)_{1 \leq i \leq g}$ a complete system of extensions of v to L. Then $e(v'_i/v)$ and $f(v'_i/v)$ have values e and $\mathfrak{f}$ independent of i. Then $ef g \leq n$. If the integral closure in L of the ring A of v is a finitely generated A-module, then $ef g = n$.*
 
@@ -457,7 +457,7 @@ This follows immediately from Theorems 1 (no. 3) and 2 (no. 5).
 
 ### 7. THE EXTENSION OF ABSOLUTE VALUES
 
-#### Proposition 9 {#ac-vi-s8-prop-9 .statement}
+#### Proposition 9 {#ac-vi-s8-prop-9 .statement tag=04X1}
 
 *Let K be a field, L an algebraic extension of K and $\mathfrak{f}$ an absolute value on K. Then $\mathfrak{f}$ can be extended to an absolute value on L.*
 
@@ -471,7 +471,7 @@ is an absolute value on $L$ extending $f$.
 
 Suppose now that $f$ is not ultrametric. Then $K$ is identified with a subfield of $\mathbf{C}$ such that $f(x) = |x|^s$ where $0 \leq s \leq 1$ ($§ 6$, no. 4, Theorem 2). As $\mathbf{C}$ is algebraically closed, $L$ is identified with a subfield of $\mathbf{C}$ and the absolute value $x \mapsto |x|^s$ extends $f$.
 
-#### Proposition 10 {#ac-vi-s8-prop-10 .statement}
+#### Proposition 10 {#ac-vi-s8-prop-10 .statement tag=04X2}
 
 *Let $K$ be a field, $f$ an absolute value on $K$ such that $K$ is complete and not discrete with respect to $f$ and $L$ an algebraic extension of $K$. Then $f$ can be extended uniquely to an absolute value $f'$ on $L$ and, if $L$ is of finite degree $n$, then*
 
@@ -483,7 +483,7 @@ $$
 
 The existence of $f'$ follows from Proposition 9 and its uniqueness (over every finite sub-extension of $L$ and therefore over the whole of $L$) from Lemma 2 of $§ 6$, no. 4. Let $f'$ be the unique extension off to the algebraic closure of $K$ and suppose $L$ is of finite degree $n$. We know that $N_{L/K}(x) = \prod_{i=1}^n x_i$, where each $x_i$ is a conjugate of $x$ over $K$ (*Algebra*, Chapter VIII, $§ 12$, no. 2, Proposition 4). In view of the uniqueness of $f'$, $f'(x_i) = f'(x)$ for all $i$, whence the stated formula.
 
-#### Proposition 11 {#ac-vi-s8-prop-11 .statement}
+#### Proposition 11 {#ac-vi-s8-prop-11 .statement tag=04X3}
 
 *Let $K$ be a field, $f$ a non-ultrametric absolute value on $K$, $\hat{K}$ the completion of $K$ with respect to $f$, $\hat{f}$ the continuous extension off to $\hat{K}$ and $L$ a finite extension of $K$ of degree $n$.
 
@@ -520,7 +520,7 @@ $$
 r_1 + 2r_2 = n.
 $$
 
-#### Proposition 12 {#ac-vi-s8-prop-12 .statement}
+#### Proposition 12 {#ac-vi-s8-prop-12 .statement tag=04X4}
 
 *Let K be a field, f an absolute value on K, L a quasi-Galois extension of K and $f'$ and $f''$ two extensions off to L. Then there exists a K-automorphism s of L such that $f'' = f' \circ s$.*
 

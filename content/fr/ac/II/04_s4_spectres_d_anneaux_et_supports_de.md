@@ -28,20 +28,20 @@ subsections:
       pdf_page: 130
 statements: 51
 exercises: 28
-content_sha256: 6657d52748d9704c4d9d662dba5621bc1950b1ff62dd8df78c795863e24f90ec
+content_sha256: 678dda220d49b59bf7bd1145eb9eb76980bba8ae901cda9844b9db33f6864005
 ---
 
 ## § 4. Spectres d’anneaux et supports de modules
 
 ### 1. Espaces irréductibles.
 
-#### Définition 1 {#ac-ii-s4-def-1 .statement}
+#### Définition 1 {#ac-ii-s4-def-1 .statement tag=0498}
 
 On dit qu’un espace topologique X est irréductible si toute intersection finie d’ensembles ouverts non vides de X est non vide.
 
 En considérant la famille vide d’ensembles ouverts de X, on voit qu’un espace irréductible est non vide ; pour qu’un espace topologique X soit irréductible, il faut et il suffit qu’il soit non vide et que l’intersection de deux ensembles ouverts non vides de X soit toujours non vide (ou, ce qui revient au même, que la réunion de deux ensembles fermés distincts de X soit toujours distincte de X).
 
-#### Proposition 1 {#ac-ii-s4-prop-1 .statement}
+#### Proposition 1 {#ac-ii-s4-prop-1 .statement tag=0499}
 
 Soit X un espace topologique non vide. Les conditions suivantes sont équivalentes :
 a) X est irréductible ;
@@ -54,13 +54,13 @@ Un espace séparé n’est irréductible que s’il est réduit à un seul point
 
 On dit qu’une partie E d’un espace topologique X est un ensemble irréductible si le sous-espace E de X est irréductible. Pour qu’il en soit ainsi, il faut et il suffit que, pour tout couple d’ensembles U, V ouverts dans X et rencontrant E, U ∩ V rencontre aussi E, ou (ce qui revient au même) que, pour tout couple d’ensembles F, G fermés dans X et tels que E ⊂ F ∪ G, on ait E ⊂ F ou E ⊂ G. Par récurrence sur n, on en déduit que, si (F_i)_{1 \leq i \leq n} est une famille finie d’ensembles fermés dans X, tels que E ⊂ \bigcup_{i=1}^{n} F_i, il existe un indice i tel que E ⊂ F_i.
 
-#### Proposition 2 {#ac-ii-s4-prop-2 .statement}
+#### Proposition 2 {#ac-ii-s4-prop-2 .statement tag=049A}
 
 Dans un espace topologique X, pour qu’un ensemble E soit irréductible, il faut et il suffit que son adhérence \overline{E} le soit.
 
 En effet, pour qu’un ensemble ouvert de X rencontre E, il faut et il suffit qu’il rencontre \overline{E}, et la proposition résulte des remarques précédentes.
 
-#### Proposition 3 {#ac-ii-s4-prop-3 .statement}
+#### Proposition 3 {#ac-ii-s4-prop-3 .statement tag=049B}
 
 (i) Si X est un espace irréductible, tout ensemble ouvert non vide de X est irréductible.
 
@@ -70,25 +70,25 @@ En effet, pour qu’un ensemble ouvert de X rencontre E, il faut et il suffit qu
 
 (ii) Montrons que, pour tout ensemble V ouvert dans X et non vide, on a V \cap U_\alpha \neq \emptyset pour tout \alpha \in A : il en résultera que V \cap U_\alpha est dense dans U_\alpha par hypothèse, donc que V est dense dans X, et cela prouvera que X est irréductible (prop. 1). Or il existe au moins un indice \gamma tel que V \cap U_\gamma \neq \emptyset ; comme U_\alpha \cap U_\gamma \neq \emptyset pour tout \alpha, et que V \cap U_\gamma est dense dans U_\gamma, on a U_\alpha \cap U_\gamma \cap V \neq \emptyset et a fortiori U_\alpha \cap V \neq \emptyset, ce qui achève la démonstration de (ii).
 
-#### Proposition 4 {#ac-ii-s4-prop-4 .statement}
+#### Proposition 4 {#ac-ii-s4-prop-4 .statement tag=049C}
 
 Soient X et Y deux espaces topologiques, f une application continue de X dans Y. Pour toute partie irréductible E de X, f(E) est une partie irréductible de Y.
 
 En effet, si U, V sont deux ensembles ouverts dans Y rencontrant f(E), f^{-1}(U) et f^{-1}(V) sont des ensembles ouverts dans X rencontrant E. Par suite $f^{-1}(U) \cap f^{-1}(V) = f^{-1}(U \cap V)$ rencontre E, ce qui entraîne que $U \cap V$ rencontre $f(E)$ et démontre la proposition.
 
-#### Définition 2 {#ac-ii-s4-def-2 .statement}
+#### Définition 2 {#ac-ii-s4-def-2 .statement tag=049D}
 
 On appelle composante irréductible d’un espace topologique X toute partie irréductible maximale de X.
 
 Il résulte de la prop. 2 que toute composante irréductible de X est fermée dans X.
 
-#### Proposition 5 {#ac-ii-s4-prop-5 .statement}
+#### Proposition 5 {#ac-ii-s4-prop-5 .statement tag=049E}
 
 Soit X un espace topologique. Toute partie irréductible de X est contenue dans une composante irréductible de X, et X est réunion de ses composantes irréductibles.
 
 Pour démontrer la première assertion, il suffit, en vertu du th. de Zorn, de prouver que l’ensemble $\mathfrak{J}$ des parties irréductibles de X est inductif. Soit $\mathfrak{G}$ une partie de $\mathfrak{J}$ totalement ordonnée par inclusion ; montrons que la réunion E des ensembles $F \in \mathfrak{G}$ est irréductible. Soient U, V deux ensembles ouverts dans X et rencontrant E ; comme $\mathfrak{G}$ est totalement ordonnée, il existe un ensemble $F \in \mathfrak{G}$ rencontrant U et V ; comme F est irréductible, $U \cap V$ rencontre F, donc aussi E, ce qui prouve que E est irréductible, donc que $\mathfrak{J}$ est inductif. La seconde assertion résulte de la première, car toute partie de X réduite à un seul point est irréductible.
 
-#### Corollaire {#ac-ii-s4-n1-cor-1 .statement}
+#### Corollaire {#ac-ii-s4-n1-cor-1 .statement tag=049F}
 
 Toute composante connexe d’un espace topologique X est réunion de composantes irréductibles de X.
 
@@ -96,23 +96,23 @@ En effet, tout sous-espace irréductible de X est connexe en vertu de la prop. 1
 
 On notera que deux composantes irréductibles distinctes de X peuvent avoir des points communs (exerc. 11).
 
-#### Proposition 6 {#ac-ii-s4-prop-6 .statement}
+#### Proposition 6 {#ac-ii-s4-prop-6 .statement tag=049G}
 
 Soient X un espace topologique, $(P_i)_{1 \leq i \leq n}$ un recouvrement fini de X formé d’ensembles fermés irréductibles. Alors les composantes irréductibles de X sont les éléments maximaux (pour la relation d’inclusion) de l’ensemble des $P_i$.
 
 On peut se borner au cas où les $P_i$ sont deux à deux incomparables. Si E est une partie irréductible de X, on a $E \subset \bigcup_{i=1}^{n} P_i$, donc E est contenu dans l’un des ensembles fermés $P_i$; cela prouve que les $P_i$ sont les seules parties irréductibles maximales de X.
 
-#### Corollaire {#ac-ii-s4-n1-cor-2 .statement}
+#### Corollaire {#ac-ii-s4-n1-cor-2 .statement tag=049H}
 
 Soient X un espace topologique, E un sous-espace de X n’ayant qu’un nombre fini de composantes irréductibles distinctes $Q_i$ ($1 \leq i \leq n$); alors les composantes irréductibles de l’adhérence $\overline{E}$ dans X sont les adhérences $\overline{Q_i}$ des $Q_i$ ($1 \leq i \leq n$) et on a $\overline{Q_i} \neq \overline{Q_j}$ pour $i \neq j$.
 
 En effet, $\overline{E}$ est la réunion des $\overline{Q_i}$, qui sont irréductibles (prop. 2); comme $Q_i$ est fermé dans E, on a $\overline{Q_i} \cap E = Q_i$; comme $Q_i \notin Q_j$ pour $i \neq j$, on a $\overline{Q_i} \notin \overline{Q_j}$, d’où le corollaire, en vertu de la prop. 6.
 
-#### Remarque {#ac-ii-s4-n1-rem-1 .statement}
+#### Remarque {#ac-ii-s4-n1-rem-1 .statement tag=049I}
 
 Supposons que X n’ait qu’un nombre fini de composantes irréductibles distinctes $X_i$ ($1 \leq i \leq n$); alors $U_i = \mathbf{C} \left( \bigcup_{j \neq i} X_j \right)$ est ouvert dans X et dense dans $X_i$ puisque $X_i \notin \bigcup_{j \neq i} X_j$; les $U_i$ ($1 \leq i \leq n$) sont donc des ouverts non vides de X, irréductibles (prop. 2), deux à deux disjoints, et dont la réunion est dense dans X.
 
-#### Proposition 7 {#ac-ii-s4-prop-7 .statement}
+#### Proposition 7 {#ac-ii-s4-prop-7 .statement tag=049J}
 
 Soit U une partie ouverte d’un espace topologique X. L’application $V \to \overline{V}$ (adhérence dans X) est une bijection de l’ensemble des parties irréductibles de U, fermées dans U, sur l’ensemble des parties irréductibles de X, fermées dans X et rencontrant U ; la bijection réciproque est $Z \to Z \cap U$. En particulier, cette bijection applique l’ensemble des composantes irréductibles de U sur l’ensemble des composantes irréductibles de X rencontrant U.
 
@@ -120,13 +120,13 @@ En effet, si V est fermée dans U et irréductible, $\overline{V}$ est irréduct
 
 ### 2. Espaces topologiques nœthériens
 
-#### Définition 3 {#ac-ii-s4-def-3 .statement}
+#### Définition 3 {#ac-ii-s4-def-3 .statement tag=049K}
 
 On dit qu’un espace topologique X est nœthérien si tout ensemble non vide de parties fermées de X, ordonné par inclusion, possède un élément minimal.
 
 Il revient au même de dire que tout ensemble non vide de parties ouvertes de X, ordonné par inclusion, possède un élément maximal, ou que toute suite décroissante (resp. croissante) d’ensembles fermés (resp. ouverts) est stationnaire (Ens., chap. III, § 6, no 5, prop. 6).
 
-#### Proposition 8 {#ac-ii-s4-prop-8 .statement}
+#### Proposition 8 {#ac-ii-s4-prop-8 .statement tag=049L}
 
 (i) Tout sous-espace d’un espace nœthérien est nœthérien.
 
@@ -136,7 +136,7 @@ Il revient au même de dire que tout ensemble non vide de parties ouvertes de X,
 
 (ii) Soit $(G_n)_{n \geq 0}$ une suite décroissante de parties fermées de X ; par hypothèse, chacune des suites $(G_n \cap A_i)_{n \geq 0}$ est stationnaire. Comme I est fini, il y a un entier $n_0$ tel que, pour $n \geq n_0$, on ait $G_n \cap A_i = G_{n_0} \cap A_i$ pour tout $i \in I$. Mais $G_n = \bigcup_{i \in I} (G_n \cap A_i)$, donc la suite $(G_n)$ est stationnaire, et X est nœthérien.
 
-#### Proposition 9 {#ac-ii-s4-prop-9 .statement}
+#### Proposition 9 {#ac-ii-s4-prop-9 .statement tag=049M}
 
 Pour qu’un espace topologique X soit nœthérien, il faut et il suffit que tout ensemble ouvert dans X soit quasi-compact.
 
@@ -144,13 +144,13 @@ Pour démontrer que la condition est nécessaire, il suffit, en vertu de la prop
 
 Réciproquement, supposons que tout ensemble ouvert dans X soit quasi-compact, et soit $(U_n)$ une suite croissante de parties ouvertes de X. La réunion V des $U_n$ est ouverte, donc quasi-compacte ; comme $(U_n)$ est un recouvrement ouvert de V, il y a une sous-famille finie de $(U_n)$ qui est un recouvrement de V, donc $V = U_n$ pour un indice n, ce qui prouve que la suite $(U_n)$ est stationnaire.
 
-#### Lemme 1 (« principe de récurrence nœthérienne ») {#ac-ii-s4-lem-1 .statement}
+#### Lemme 1 (« principe de récurrence nœthérienne ») {#ac-ii-s4-lem-1 .statement tag=049N}
 
 Soient E un ensemble ordonné dont toute partie non vide admet un élément minimal. Soit F une partie de E ayant la propriété suivante : si $a \in E$ est tel que la relation $x < a$ entraîne $x \in F$, alors $a \in F$. On a alors $F = E$.
 
 En effet, supposons $F \neq E$; alors $\mathscr{C}F$ aurait un élément minimal b. Par définition, on a $x \in F$ pour tout $x < b$, ce qui entraîne $b \in F$, d’où contradiction.
 
-#### Proposition 10 {#ac-ii-s4-prop-10 .statement}
+#### Proposition 10 {#ac-ii-s4-prop-10 .statement tag=049O}
 
 Si X est un espace nœthérien, l’ensemble des composantes irréductibles de X (et a fortiori l’ensemble des composantes connexes de X) est fini.
 
@@ -178,7 +178,7 @@ comme il résulte du § 2, n° 6, cor. 1 de la prop. 13.
 
 Les formules (1) à (3) montrent que les parties $V(M)$ de X satisfont aux axiomes des ensembles fermés d’une topologie (Top, gén., chap. I, 3e éd., § 1, n° 4).
 
-#### Définition 4 {#ac-ii-s4-def-4 .statement}
+#### Définition 4 {#ac-ii-s4-def-4 .statement tag=049P}
 
 Soit A un anneau. On appelle spectre premier de A et on note Spec (A) l’ensemble X des idéaux premiers de A, muni de la topologie pour laquelle les ensembles fermés sont les ensembles $V(M)$ où M parcourt $\mathfrak{P}(A)$. La topologie ainsi définie s’appelle topologie spectrale ou topologie de Zariski sur X.
 
@@ -209,7 +209,7 @@ $$
 
 pour toute famille $(Y_\lambda)_{\lambda \in L}$ de parties de $X$. En outre :
 
-#### Proposition 11 {#ac-ii-s4-prop-11 .statement}
+#### Proposition 11 {#ac-ii-s4-prop-11 .statement tag=049Q}
 
 *Soient A un anneau, a un idéal de A, Y une partie de X = Spec (A).*
 
@@ -223,49 +223,49 @@ L'assertion (i) et la première assertion de (ii) résultent des définitions et
 
 On déduit aussitôt de la prop. 11 que, si M est une partie quelconque de A et Y une partie quelconque de X, on a V(M) = V(\mathfrak{J}(V(M))) et \mathfrak{J}(Y) = \mathfrak{J}(V(\mathfrak{J}(Y))).
 
-#### Corollaire 1 {#ac-ii-s4-prop-11-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s4-prop-11-cor-1 .statement tag=049R}
 
 Pour toute famille $(Y_\lambda)_{\lambda \in L}$ de parties fermées de X, $\mathfrak{J}(\bigcap_{\lambda \in L} Y_\lambda)$ est la racine de la somme des idéaux $\mathfrak{J}(Y_\lambda)$.
 
 En effet, il résulte de la prop. 11, (iii), que $\mathfrak{J}(\bigcap_{\lambda \in L} Y_\lambda)$ est le plus petit idéal égal à sa racine et contenant tous les $\mathfrak{J}(Y_\lambda)$; cet idéal contient donc $\sum_{\lambda \in L} \mathfrak{J}(Y_\lambda)$ et par suite aussi la racine de $\sum_{\lambda \in L} \mathfrak{J}(Y_\lambda)$ (§ 2, n° 6, cor. 2 de la prop. 13), d’où le corollaire.
 
-#### Corollaire 2 {#ac-ii-s4-prop-11-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s4-prop-11-cor-2 .statement tag=049S}
 
 Désignons par $r(a)$ la racine d’un idéal a de A ; si a et b sont deux idéaux de A, la relation $V(a) \subset V(b)$ est équivalente à $b \subset r(a)$ et à $r(b) \subset r(a)$.
 
 Il est immédiat que les relations $b \subset r(a)$ et $r(b) \subset r(a)$ sont équivalentes, et comme $V(a) = V(r(a))$, le corollaire résulte aussitôt de la prop. 11 ,(iii).
 
-#### Corollaire 3 {#ac-ii-s4-prop-11-cor-3 .statement}
+#### Corollaire 3 {#ac-ii-s4-prop-11-cor-3 .statement tag=049T}
 
 Soit $(f_\lambda)_{\lambda \in L}$ une famille d’éléments de A. Pour qu’un élément $g \in A$ soit tel que $X_g \subset \bigcup_{\lambda \in L} X_{f_\lambda}$, il faut et il suffit qu’il existe un entier $n > 0$ tel que $g^n$ appartienne à l’idéal engendré par les $f_\lambda$.
 
 En effet, la relation $X_g \subset \bigcup_{\lambda \in L} X_{f_\lambda}$ équivaut à $V(g) \supset \bigcap_{\lambda \in L} V(f_\lambda)$, et il suffit d’appliquer le cor. 2.
 
-#### Corollaire 4 {#ac-ii-s4-prop-11-cor-4 .statement}
+#### Corollaire 4 {#ac-ii-s4-prop-11-cor-4 .statement tag=0CGX}
 
 Pour que deux éléments $f,\ g$ de A soient tels que $X_f = X_g$, il faut et il suffit qu’il existe deux entiers $m > 0,\ n > 0$ tels que $f^m \in Ag$ et $g^n \in Af$.
 
-#### Corollaire 5 {#ac-ii-s4-prop-11-cor-5 .statement}
+#### Corollaire 5 {#ac-ii-s4-prop-11-cor-5 .statement tag=049U}
 
 Pour que $f \in A$ soit tel que $X_f = \emptyset$, il faut et il suffit que f soit nilpotent.
 
 Cela résulte aussitôt du cor. 4.
 
-#### Corollaire 6 {#ac-ii-s4-prop-11-cor-6 .statement}
+#### Corollaire 6 {#ac-ii-s4-prop-11-cor-6 .statement tag=049V}
 
 L’adhérence d’un ensemble réduit à un point $p \in X = \mathrm{Spec}(A)$ est l’ensemble $V(p)$ des idéaux premiers contenant $p$. Pour que l’ensemble $\{ p \}$ soit fermé dans $X$ (ou, comme on dit encore par abus de langage, pour que $p$ soit un point fermé de $X$), il faut et il suffit que $p$ soit maximal.
 
-#### Corollaire 7 {#ac-ii-s4-prop-11-cor-7 .statement}
+#### Corollaire 7 {#ac-ii-s4-prop-11-cor-7 .statement tag=049W}
 
 Si $A$ est un anneau noethérien, $X = \mathrm{Spec}(A)$ est un espace noethérien.
 
-#### Proposition 12 {#ac-ii-s4-prop-12 .statement}
+#### Proposition 12 {#ac-ii-s4-prop-12 .statement tag=049X}
 
 Pour tout $f \in A$, l’ensemble ouvert $X_f$ dans $X = \mathrm{Spec}(A)$ est quasi-compact ; en particulier, l’espace $X$ est quasi-compact.
 
 Comme les $X_g$ forment une base de la topologie, il suffit de prouver que, si $(g_\lambda)_{\lambda \in L}$ est une famille d’éléments de $A$ telle que $X_f \subset \bigcup_{\lambda \in L} X_{g_\lambda}$, alors il existe une sous-famille finie $(g_\lambda)_{\lambda \in H}$ telle que $X_f \subset \bigcup_{\lambda \in H} X_{g_\lambda}$. Mais la relation $X_f \subset \bigcup_{\lambda \in L} X_{g_\lambda}$ signifie qu’il existe un entier $n > 0$ et une sous-famille finie $(g_\lambda)_{\lambda \in H}$ telle que $f^n$ appartienne à l’idéal engendré par cette sous-famille (cor. 3 de la prop. 11) ; d’où la proposition.
 
-#### Proposition 13 {#ac-ii-s4-prop-13 .statement}
+#### Proposition 13 {#ac-ii-s4-prop-13 .statement tag=049Y}
 
 Soient $A, A'$ deux anneaux, $X = \mathrm{Spec}(A), X' = \mathrm{Spec}(A')$, $h$ un homomorphisme de $A$ dans $A'$ ; l’application $^a h : p' \to \overline{h}(p')$ de $X'$ dans $X$ est continue.
 
@@ -273,17 +273,17 @@ En effet, pour $M \subset A$, l’ensemble $(^a h)^{-1}(V(M))$ est l’ensemble 
 
 On dit que $^a h$ est l’application associée à l’homomorphisme $h$.
 
-#### Remarque {#ac-ii-s4-n3-rem-1 .statement}
+#### Remarque {#ac-ii-s4-n3-rem-1 .statement tag=049Z}
 
 Si $h$ est surjective et si $a$ est son noyau, il résulte de la définition de la topologie spectrale que $^a h$ est un homéomorphisme de $X'$ sur le sous-espace fermé $V(a)$ de $X$ ; en effet, pour qu’un idéal premier $p'$ de $A'$ contienne un idéal $b'$ de $A'$, il faut et il suffit que $\overline{h}(p')$ contienne $\overline{h}(b')$ ; on voit d’abord que $^a h$ est injective en prenant b’ premier ; en outre, pour tout idéal b’ de A’, l’image par $^a h$ de V(b’) est V($\overline{h}(b')$), d’où notre assertion, les idéaux de la forme $\overline{h}(b')$ étant tous les idéaux de A contenant $\alpha$.
 
-#### Corollaire {#ac-ii-s4-n3-cor-1 .statement}
+#### Corollaire {#ac-ii-s4-n3-cor-1 .statement tag=04A0}
 
 Soient S une partie multiplicative de A, $A' = S^{-1}A$, $h$ l’homomorphisme canonique $i_A^S$; alors $^a h$ est un homéomorphisme de $X' = \mathrm{Spec}(A')$ sur le sous-espace de $X = \mathrm{Spec}(A)$ formé des idéaux premiers de A ne rencontrant pas S.
 
 En effet, soit $f' = f/s$ où $f \in A, s \in S$; on a $X_{f'} = X_{f/1}$ puisque $s/1$ est inversible dans $A'$. On sait déjà que $^a h$ est injective et que, pour tout $p' \in X'$, les relations $f/1 \in p'$ et $f \in \overline{h}(p') = ^a h(p')$ sont équivalentes, donc les conditions $p' \in X_{f/1}$ et $^a h(p') \in X_f$ sont équivalentes ; cela montre que $^a h(X_{f'})$ est égal à $X_f \cap ^a h(X')$, d’où la première assertion, puisque les $X_f$ (resp. $X_{f'}$) forment une base de la topologie de X (resp. X’). La seconde assertion résulte du § 2, n° 5, prop. 11, (ii).
 
-#### Proposition 14 {#ac-ii-s4-prop-14 .statement}
+#### Proposition 14 {#ac-ii-s4-prop-14 .statement tag=04A1}
 
 Soit A un anneau. Pour qu’une partie Y de $X = \mathrm{Spec}(A)$ soit irréductible, il faut et il suffit que l’idéal $\mathfrak{J}(Y)$ soit premier.
 
@@ -297,25 +297,25 @@ comme Y est irréductible, $V(f)$ et $V(g)$ fermés, on a $Y \subset V(f)$ ou $Y
 
 Supposons maintenant $p$ premier ; on a $\overline{Y} = V(p)$ (prop. 11, (ii)), et comme $p$ est premier, $p = \mathfrak{J}(\{p\})$, d’où $\overline{Y} = V(\mathfrak{J}(\{p\})) = \{p\}$ (prop. 11, (ii)). Comme un ensemble réduit à un point est irréductible, Y est irréductible (n° 1, prop. 2).
 
-#### Corollaire 1 {#ac-ii-s4-prop-14-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s4-prop-14-cor-1 .statement tag=04A2}
 
 Pour qu’un anneau A soit tel que $X = \mathrm{Spec}(A)$ soit irréductible, il faut et il suffit que le quotient de A par son nilradical $\mathfrak{N}$ soit intègre.
 
 En effet (prop. 11, (i)), $\mathfrak{J}(X)$ est la racine de l’idéal (0), c’est-à-dire $\mathfrak{N}$.
 
-#### Corollaire 2 {#ac-ii-s4-prop-14-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s4-prop-14-cor-2 .statement tag=04A3}
 
 L’application $p \to V(p)$ est une bijection de $X = \operatorname{Spec}(A)$ sur l’ensemble des parties fermées irréductibles de $X$; en particulier les composantes irréductibles d’une partie fermée $Y$ de $X$ sont les ensembles $V(p)$, où $p$ parcourt l’ensemble des éléments minimaux de l’ensemble des idéaux premiers de $A$ qui contiennent $\mathfrak{J}(Y)$.
 
 Comme $\mathfrak{J}(V(p)) = p$ pour tout idéal premier $p$ de $A$, et $Y = V(\mathfrak{J}(Y))$ pour toute partie fermée $Y$ de $X$, la première assertion résulte de la prop. 14 ; d’autre part, pour que $Y \supset V(p)$, il faut et il suffit que $p = \mathfrak{J}(V(p)) \supset \mathfrak{J}(Y)$ (prop. 11), d’où la seconde assertion.
 
-#### Corollaire 3 {#ac-ii-s4-prop-14-cor-3 .statement}
+#### Corollaire 3 {#ac-ii-s4-prop-14-cor-3 .statement tag=04A4}
 
 L’ensemble des idéaux premiers minimaux d’un anneau noethérien $A$ est fini.
 
 En effet, $X = \operatorname{Spec}(A)$ n’a alors qu’un nombre fini de composantes irréductibles (cor. 7 de la prop. 11 et no 2, prop. 10) et le corollaire résulte du cor. 2 précédent.
 
-#### Proposition 15 {#ac-ii-s4-prop-15 .statement}
+#### Proposition 15 {#ac-ii-s4-prop-15 .statement tag=04A5}
 
 Soient $A$ un anneau, $I$ un ensemble fini, $E$ l’ensemble des familles orthogonales $(e_i)_{i \in I}$ d’idempotents $e_i \neq 0$ de $A$, telles que $\sum_{i \in I} e_i = 1$. Pour tout $(e_i)_{i \in I} \in E$, posons $\varpi((e_i)_{i \in I}) = (V(A(1 - e_i)))_{i \in I}$, $\sigma((e_i)_{i \in I}) = (Ae_i)_{i \in I}$. Alors $\varpi$ est une bijection de $E$ sur l’ensemble $P$ des partitions $(U_i)_{i \in I}$ de $X = \operatorname{Spec}(A)$ en ensembles ouverts, et $\sigma$ est une bijection de $E$ sur l’ensemble $S$ des familles $(a_i)_{i \in I}$ d’idéaux $\neq 0$ de $A$ telles que $A$ soit somme directe des $a_i$.
 
@@ -327,7 +327,7 @@ $$
 
 par hypothèse $\prod_{i \in I} (1 - e_i) = 1 - \sum_{i \in I} e_i = 0$, d’où $\bigcup_{i \in I} Y_i = X$ (formule (1)). Comme les $Y_i$ sont fermés, ils sont aussi ouverts, d’où $\varpi(E) \subset P$. Par ailleurs, on a évidemment $A = \sum_{i \in I} Ae_i$; si $0 = \sum_{i \in I} a_i e_i$ avec $a_i \in A$, on en tire, par multiplication par $e_i$, $0 = a_i e_i^2 = a_i e_i$ pour tout $i$; ceci prouve que $\sigma(E) \subset S$.
 
-#### Lemme 2 {#ac-ii-s4-lem-2 .statement}
+#### Lemme 2 {#ac-ii-s4-lem-2 .statement tag=04A6}
 
 Si $e, f$ sont deux idempotents de $A$ tels que $Ae$ et $Af$ aient même racine, on a $e = f$.
 
@@ -341,7 +341,7 @@ Reste enfin à montrer que $\varpi$ est surjective. Soit $(U_i)_{i \in I}$ un é
 
 C. Q. F. D.
 
-#### Corollaire 1 {#ac-ii-s4-lem-2-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s4-lem-2-cor-1 .statement tag=04A7}
 
 Soient $A$ un anneau, $\mathfrak{r}$ un nilidéal de $A$, $h : A \to A/\mathfrak{r}$ l’homomorphisme canonique. Pour toute famille orthogonale finie $(e'_i)_{i \in I}$ d’idempotents de $A/\mathfrak{r}$, telle que $\sum_{i \in I} e'_i = 1$, il existe une famille orthogonale finie $(e_i)_{i \in I}$ d’idempotents de $A$ telle que $\sum_{i \in I} e_i = 1$ et $h(e_i) = e'_i$ pour tout $i \in I$.
 
@@ -351,7 +351,7 @@ a h : \operatorname{Spec}(A') \to \operatorname{Spec}(A)
 $$
 est un homéomorphisme bijectif, tout idéal premier de $A$ contenant $\mathfrak{r}$ par hypothèse. La prop. 15 montre qu’il existe dans $A$ une famille orthogonale finie $(e_i)_{i \in I}$ d’idempotents telle que $\sum_{i \in I} e_i = 1$ et que l’image par $a h$ de $V(A'(1 - e'_i))$ soit $V(A(1 - e_i))$. Mais il est clair que $V(A(1 - e_i))$ est aussi l’image par $a h$ de $V(A'(1 - h(e_i)))$; comme $1 - e'_i$ et $1 - h(e_i)$ sont des idempotents, le lemme 2 montre que $e'_i = h(e_i)$, d’où le corollaire.
 
-#### Corollaire 2 {#ac-ii-s4-lem-2-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s4-lem-2-cor-2 .statement tag=04A8}
 
 Pour que le spectre premier $X = \operatorname{Spec}(A)$ d’un anneau $A$ soit connexe, il faut et il suffit qu’il n’existe dans $A$ aucun idempotent autre que $0$ et $1$.
 
@@ -359,13 +359,13 @@ Dire en effet que $X$ n’est pas connexe signifie qu’il existe dans $X$ un en
 
 ### 4. Support d’un module
 
-#### Définition 5 {#ac-ii-s4-def-5 .statement}
+#### Définition 5 {#ac-ii-s4-def-5 .statement tag=04A9}
 
 Soient $A$ un anneau, $M$ un $A$-module. On appelle support de $M$, et on note $\operatorname{Supp}(M)$, l’ensemble des idéaux premiers $\mathfrak{p}$ de $A$ tels que $M_{\mathfrak{p}} \neq 0$.
 
 Comme tout idéal maximal de $A$ est premier, il résulte aussitôt du § 3, no 3, cor. 2 du th. 1, que, pour qu’un $A$-module $M$ soit réduit à $0$, il faut et il suffit que $\operatorname{Supp}(M) = \varnothing$.
 
-#### Exemple {#ac-ii-s4-n4-exa-1 .statement}
+#### Exemple {#ac-ii-s4-n4-exa-1 .statement tag=04AA}
 
 Soit $a$ un idéal de $A$; avec les notations du no 3, on a
 $$
@@ -374,7 +374,7 @@ $$
 En effet, si $\mathfrak{p}$ est un idéal premier de $A$ tel que $a \notin \mathfrak{p}$, on sait que $(A/a)_{\mathfrak{p}} = 0$ (§ 3, no 1, Remarque 3); si au contraire $a \subset \mathfrak{p}$, $aA_{\mathfrak{p}}$ est contenu dans l’idéal maximal $pA_p$ de $A_p$ et $(A/\alpha)_p$ est isomorphe à $A_p/\alpha A_p$, donc est $\neq 0$ ($§ 3$, n° 1, prop. 3); d’où notre assertion.
 En particulier, on a $\mathrm{Supp}(A) = \mathrm{Spec}(A)$.
 
-#### Proposition 16 {#ac-ii-s4-prop-16 .statement}
+#### Proposition 16 {#ac-ii-s4-prop-16 .statement tag=04AB}
 
 Soient $A$ un anneau, $M$ un $A$-module.
 (i) Si $N$ est un sous-module de $M$, on a
@@ -392,7 +392,7 @@ $$
 ($§ 2$, n° 4, th. 1). Pour que $M_p$ soit réduit à $0$, il faut et il suffit donc qu’il en soit ainsi de $N_p$ et de $(M/N)_p$. Autrement dit, la relation $p \notin \mathrm{Supp}(M)$ équivaut à « $p \notin \mathrm{Supp}(N)$ et $p \notin \mathrm{Supp}(M/N)$ », ce qui prouve (i).
 (ii) Pour tout idéal premier $p$ de $A$, $M_p$ est somme de la famille de sous-modules $(N_i)_p$ ($§ 2$, n° 4). Dire que $M_p \neq 0$ signifie qu’il existe $i \in I$ tel que $(N_i)_p \neq 0$, d’où (ii).
 
-#### Corollaire {#ac-ii-s4-n4-cor-1 .statement}
+#### Corollaire {#ac-ii-s4-n4-cor-1 .statement tag=04AC}
 
 Soient $A$ un anneau, $M$ un $A$-module, $(m_i)_{i \in I}$ un système de générateurs de $M$, et $a_i$ l’annulateur de $m_i$. On a alors
 $$
@@ -400,24 +400,24 @@ $$
 $$
 En effet, $\mathrm{Supp}(M) = \bigcup_{i \in I} \mathrm{Supp}(Am_i)$ en vertu de la prop. 16, (ii). D’autre part, $Am_i$ est isomorphe au $A$-module $A/a_i$, et on a vu que $\mathrm{Supp}(A/a_i) = V(a_i)$ (*Exemple ci-dessus*).
 
-#### Proposition 17 {#ac-ii-s4-prop-17 .statement}
+#### Proposition 17 {#ac-ii-s4-prop-17 .statement tag=04AD}
 
 Soient $A$ un anneau, $M$ un $A$-module, $a$ son annulateur ; si $M$ est de type fini, on a $\mathrm{Supp}(M) = V(a)$, et $\mathrm{Supp}(M)$ est donc fermé dans $\mathrm{Spec}(A)$.
 Soit $(m_i)_{1 \leq i \leq n}$ un système de générateurs de $M$, et soit $a_i$ l’annulateur de $m_i$; on a $a = \bigcap_{i=1}^n a_i$, donc $V(a) = \bigcup_{i=1}^n V(a_i)$ (n° 3, formule (3)), et la proposition résulte du cor. de la prop. 16.
 
-#### Corollaire 1 {#ac-ii-s4-prop-17-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s4-prop-17-cor-1 .statement tag=04AE}
 
 Soient $A$ un anneau, $M$ un $A$-module de type fini, $a$ un élément de $A$. Pour que $a$ appartienne à tout idéal premier du support de $M$, il faut et il suffit que l’homothétie de $M$, de rapport $a$, soit nilpotente.
 
 En effet, il résulte de la prop. 17 que l’intersection des idéaux premiers appartenant à $\mathrm{Supp}(M)$ est la racine de l’annulateur $a$ de $M$ (n° 3, prop. 11, (ii)). Dire que $a$ appartient à cette racine équivaut à dire qu’il existe une puissance $a^k \in a$, donc que $a^k M = 0$.
 
-#### Corollaire 2 {#ac-ii-s4-prop-17-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s4-prop-17-cor-2 .statement tag=04AF}
 
 Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini, $a$ un idéal de $A$. Pour que $\mathrm{Supp}(M) \subset V(a)$, il faut et il suffit qu’il existe un entier $k$ tel que $a^k M = 0$.
 
 En effet, si $b$ est l’annulateur de $M$, la relation $\mathrm{Supp}(M) \subset V(a)$ équivaut à $V(b) \subset V(a)$ d’après la prop. 17, donc à $a \subset r(b)$, où $r(b)$ est la racine de $b$ (n° 3, cor. 2 de la prop. 11). Puisque $A$ est noethérien, cette condition équivaut encore à l’existence d’un entier $k > 0$ tel que $a^k \subset b$ ($§ 2$, n° 6, prop. 15).
 
-#### Proposition 18 {#ac-ii-s4-prop-18 .statement}
+#### Proposition 18 {#ac-ii-s4-prop-18 .statement tag=04AG}
 
 Soient $M, M'$ deux modules de type fini sur un anneau $A$; on a alors
 
@@ -427,31 +427,31 @@ $$
 
 Il s’agit de prouver que, si $p$ est un idéal premier de $A$, les relations $(M \otimes_A M')_p \neq 0$ et « $M_p \neq 0$ et $M'_p \neq 0$ » sont équivalentes. Comme les $A_p$-modules $M_p \otimes_{A_p} M'_p$ et $(M \otimes_A M')_p$ sont isomorphes ($§ 2$, n° 7, prop. 18), notre assertion résulte du lemme suivant :
 
-#### Lemme 3 {#ac-ii-s4-lem-3 .statement}
+#### Lemme 3 {#ac-ii-s4-lem-3 .statement tag=04AH}
 
 Soient $B$ un anneau local, $E$ et $E'$ deux $B$-modules de type fini. Si $E \neq 0$ et $E' \neq 0$, on a $E \otimes_B E' \neq 0$.
 
 En effet, soit $k$ le corps résiduel de $B$. En vertu du $§ 3$, n° 2, prop. 4, on a $k \otimes_B E \neq 0$ et $k \otimes_B E' \neq 0$; on en déduit que $(k \otimes_B E) \otimes_k (k \otimes_B E') \neq 0$ (Alg., chap. II, 3e éd., $§ 3$, n° 7). Mais en vertu de l’associativité du produit tensoriel (loc. cit., $§ 3$, n° 8) ce produit tensoriel est isomorphe à $E \otimes_B ((k \otimes_k k) \otimes_B E') = E \otimes_B (k \otimes_B E')$ donc à $k \otimes_B (E \otimes_B E')$, d’où la conclusion.
 
-#### Corollaire {#ac-ii-s4-n4-cor-2 .statement}
+#### Corollaire {#ac-ii-s4-n4-cor-2 .statement tag=04AI}
 
 Soient M un A-module de type fini, n son annulateur. Pour tout idéal a de A, on a Supp (M/aM) = V(a) ∩ V(n) = V(a + n).
 
 En effet, M/aM = M ⊗_A (A/a), et A/a est de type fini.
 
-#### Proposition 19 {#ac-ii-s4-prop-19 .statement}
+#### Proposition 19 {#ac-ii-s4-prop-19 .statement tag=04AJ}
 
 Soient A, B deux anneaux, φ : A → B un homomorphisme, aφ : Spec(B) → Spec(A) l’application continue associée à φ (prop. 13). Pour tout A-module M, on a Supp (M_B) ⊂ aφ^{-1}(Supp (M)) ; si en outre M est de type fini, on a Supp (M_B) = aφ^{-1}(Supp (M)).
 
 Soit q un idéal premier de B et soit p = φ^{-1}(q). Supposons que q appartienne à Supp (M_B) ; on a M_B ⊗_B B_q = (M ⊗_A B) ⊗_B B_q = M ⊗_A B_q = (M ⊗_A A_p) ⊗_{A_p} B_q puisque l’homomorphisme A → B → B_q se factorise en A → A_p → B_q (§ 2, n° 1, prop. 2) ; l’hypothèse M_B ⊗_B B_q ≠ 0 entraîne donc M ⊗_A A_p ≠ 0, d’où la première assertion. Comme l’homomorphisme φ_q : A_p → B_q est local, la seconde assertion résulte du lemme suivant :
 
-#### Lemme 4 {#ac-ii-s4-lem-4 .statement}
+#### Lemme 4 {#ac-ii-s4-lem-4 .statement tag=04AK}
 
 Soient A, B deux anneaux locaux, ρ : A → B un homomorphisme local, E un A-module de type fini. Si E ≠ 0, on a E_B ≠ 0.
 
 En effet, soit m l’idéal maximal de A et soit k = A/m le corps résiduel ; l’hypothèse entraîne que B ⊗_A k = B/mB ≠ 0 ; en vertu de l’associativité du produit tensoriel, (E ⊗_A B) ⊗_A k est isomorphe à E ⊗_A (B ⊗_A k), donc aussi à E ⊗_A (k ⊗_k (B ⊗_A k)) et finalement à (E ⊗_A k) ⊗_k (B ⊗_A k) ; en vertu du § 3, n° 2, prop. 4, on a E ⊗_A k ≠ 0, donc (E ⊗_A B) ⊗_A k ≠ 0 (Alg., chap. II, 3e éd., § 3, n° 7) et a fortiori E ⊗_A B ≠ 0.
 
-#### Proposition 20 {#ac-ii-s4-prop-20 .statement}
+#### Proposition 20 {#ac-ii-s4-prop-20 .statement tag=04AL}
 
 Soient A un anneau, M un A-module de type fini. Pour tout idéal premier p ∈ Supp (M), il existe un A-homomorphisme non nul w : M → A/p.
 

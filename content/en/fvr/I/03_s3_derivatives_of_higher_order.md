@@ -21,7 +21,7 @@ subsections:
       pdf_page: 36
 statements: 8
 exercises: 18
-content_sha256: df6c54970741a00f1b9a62ec3e7836c5591326bb5afa29b74fdcfa268de3aadc
+content_sha256: 699d9104f5cbf89e2acd64f1b847b3d92cb37baff716a8c7f28471e185a92054
 ---
 
 ## § 3. DERIVATIVES OF HIGHER ORDER
@@ -40,7 +40,7 @@ $$
 
 More precisely, when one of the two terms in (1) is defined, then so is the other, and is equal to it.
 
-#### Proposition 1 {#fvr-i-s3-prop-1 .statement}
+#### Proposition 1 {#fvr-i-s3-prop-1 .statement tag=084Y}
 
 *The set of vector functions defined on an interval* $I \subset \mathbf{R}$, *taking values in a given topological vector space* $E$, *and having an* $n^{th}$ *derivative on* $I$, *is a vector space over* $\mathbf{R}$, *and* $f \mapsto D^n f$ *is a linear mapping of this space into the vector space of linear mappings from* $I$ *into* $E$.
 
@@ -55,7 +55,7 @@ $$
 
 by induction on $n$ when $f$ and $g$ have an $n^{th}$ derivative on $I$ ($a$ being constant).
 
-#### Proposition 2 ("Leibniz' formula") {#fvr-i-s3-prop-2 .statement}
+#### Proposition 2 ("Leibniz' formula") {#fvr-i-s3-prop-2 .statement tag=084Z}
 
 *Let* $E, F, G$ *be three topological vector spaces over* $\mathbf{R}$, *and* $(x, y) \mapsto [x.y]$ *a continuous bilinear mapping of* $E \times F$ *into* $G$. *If* $f$ *(resp.* $g$) *is defined on an interval* $I \subset \mathbf{R}$, *takes its values in* $E$ *(resp.* $F$) *and has an* $n^{th}$ *derivative on* $I$, *then* $[f.g]$ *has an* $n^{th}$ *derivative on* $I$, *given by the formula*
 
@@ -83,7 +83,7 @@ $$
 
 or, otherwise, that $f$ is "approximately equal" to the *linear* function $f(a) + f'(a)(x-a)$ on a neighbourhood of $a$ (*cf.* chap. V, where this concept is developed in a general manner). We shall see that the existence of the $n^{th}$ order derivative of $f$ at the point $a$ entails in the same way that $f$ is "approximately equal" to a *polynomial of degree $n$ in $x$*, with coefficients in $E$ (*Gen. Top.*, X, p. 315) on a neighbourhood of $a$. To be precise:
 
-#### Theorem 1 {#fvr-i-s3-thm-1 .statement}
+#### Theorem 1 {#fvr-i-s3-thm-1 .statement tag=0850}
 
 *If the function $f$ has an $n^{th}$ derivative at the point $a$ then*
 
@@ -117,7 +117,7 @@ where $u(x)$ approaches 0 as $x$ approaches $a$ while remaining in I; this formu
 
 When $f$ has a *derivative of order* $n + 1$ on I, one can estimate $\|r_n(x)\|$ in terms of this $n + 1^{th}$ derivative, on all of I, and not just on an unspecified neighbourhood of $a$:
 
-#### Proposition 3 {#fvr-i-s3-prop-3 .statement}
+#### Proposition 3 {#fvr-i-s3-prop-3 .statement tag=0851}
 
 *If $\|f^{(n+1)}(x)\| \leq M$ on I, then we have*
 $$
@@ -131,7 +131,7 @@ $$
 $$
 from which the formula (9) follows by the mean value theorem (I, p. 23, th. 2).
 
-#### Corollary {#fvr-i-s3-n2-cor-1 .statement}
+#### Corollary {#fvr-i-s3-n2-cor-1 .statement tag=0852}
 
 *If $f$ is a finite real function with a derivative of order* $n + 1$ *on* I, *and if* $m \leq f^{(n+1)}(x) \leq M$ *on* I, *then for all* $x \geq a$ *in* I *one has*
 $$
@@ -141,7 +141,7 @@ $$
 
 The proof proceeds in the same way, but applying th. 1 of I, p. 14.
 
-#### Remark 1 {#fvr-i-s3-n2-rem-1 .statement}
+#### Remark 1 {#fvr-i-s3-n2-rem-1 .statement tag=0853}
 
 We have already noticed in the proof of th. 1 that if $f$ has a derivative of order $n$ on I, and if
 $$
@@ -154,7 +154,7 @@ $$
 
 We say that it is obtained from the expansion (11) of $f$ by *differentiating term-by-term*.
 
-#### Remark 2 {#fvr-i-s3-n2-rem-2 .statement}
+#### Remark 2 {#fvr-i-s3-n2-rem-2 .statement tag=0854}
 
 With the same hypotheses, the coefficients $a_i$ in (11) are determined recursively by the relations
 
@@ -182,7 +182,7 @@ $$
 
 where $r_n(x^p)$ is the remainder in the expansion (*cf.* V, p. 222).
 
-#### Remark 3 {#fvr-i-s3-n2-rem-3 .statement}
+#### Remark 3 {#fvr-i-s3-n2-rem-3 .statement tag=0855}
 
 The definition of the derivative of order $n$ and the preceding results generalize immediately to functions of a complex variable; we shall not pursue this topic further here; it will be treated in detail in a later Book in this Series.
 

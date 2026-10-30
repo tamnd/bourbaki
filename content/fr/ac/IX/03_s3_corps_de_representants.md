@@ -25,7 +25,7 @@ subsections:
       pdf_page: 141
 statements: 7
 exercises: 9
-content_sha256: f87346f41fd15cf679aaa4db67e841015ffb1e15814b135f808cfb3c36b391f2
+content_sha256: 3b257c8e1d5c8aaa7bb69dcf6695b0e55782fd30b53d7e4f54e379fa51040059
 ---
 
 ## § 3. Corps de représentants
@@ -48,7 +48,7 @@ b’) Supposons que les corps $k$ et K n’aient pas même caractéristique. Alo
 
 ### 2. Un théorème de relèvement
 
-#### Proposition 1 {#ac-ix-s3-prop-1 .statement}
+#### Proposition 1 {#ac-ix-s3-prop-1 .statement tag=0CXL}
 
 Soient $k_0$ un corps, A une $k_0$-algèbre qui est un anneau local séparé et complet, K une sous-$k_0$-extension de $\kappa_A$ qui possède une base de transcendance séparante $(\xi_{\lambda})_{\lambda \in \Lambda}$ sur $k_0$ (A, V, p. 130, déf. 1). Pour tout $\lambda \in \Lambda$, soit $x_{\lambda}$ un représentant de $\xi_{\lambda}$ dans A. Il existe un unique sous-corps L de A, contenant $k_0$ et les éléments $x_{\lambda}$, et tel que l’homomorphisme canonique $\pi$ de A sur $\kappa_A$ induise un isomorphisme de L sur K.
 
@@ -58,19 +58,19 @@ a) *Existence de L* : Soit S l’ensemble des sous-corps L de A, contenant $\psi
 
 b) *Unicité de L* : Soient L et L’ deux sous-corps de A contenant $\psi(k_1)$ et tels que $\pi(L) = \pi(L') = K$. Soit $\xi \in K$, et soient $x \in L$ et $x' \in L'$ les éléments tels que $\pi(x) = \pi(x') = \xi$. Si $P \in k_1[X]$ est le polynôme minimal de $\xi$ sur $k_1$, alors $\xi$ est racine simple de P, et l’on a $P(x) = P(x') = 0$. D’après le lemme de Hensel (*loc. cit.*) on a $x = x'$. On a donc $L = L'$.
 
-#### Remarque {#ac-ix-s3-n2-rem-1 .statement}
+#### Remarque {#ac-ix-s3-n2-rem-1 .statement tag=0CXM}
 
 \* La démonstration précédente s’applique plus généralement au cas où on suppose seulement que A est un anneau local hensélien*. La démonstration d’unicité utilise l’hypothèse que l’anneau local A est séparé, mais non qu’il est complet.
 
 ### 3. Corps de représentants
 
-#### Définition 1 {#ac-ix-s3-def-1 .statement}
+#### Définition 1 {#ac-ix-s3-def-1 .statement tag=0CXN}
 
 *Soit A un anneau local. On appelle corps de représentants de A tout sous-corps K de A tel que l’homomorphisme canonique de A sur $\kappa_A$ induise un isomorphisme de K sur $\kappa_A$ (autrement dit, tel que $A = K + m_A$).*
 
 Il ne peut exister de corps de représentants de A que si A admet une caractéristique. Cette condition est suffisante lorsque A est séparé et complet. Plus précisément, on a le théorème suivant :
 
-#### Théorème 1 {#ac-ix-s3-thm-1 .statement}
+#### Théorème 1 {#ac-ix-s3-thm-1 .statement tag=0CXO}
 
 *Soit A un anneau local séparé et complet de caractéristique p.*
 
@@ -82,17 +82,17 @@ Supposons qu’on ait $p = 0$ de sorte que A est une $\mathbf{Q}$-algèbre. Tout
 
 Supposons maintenant qu’on ait $p \neq 0$. Alors on a $p1_A = 0$, et tout sous-anneau de Cohen C de A satisfait à $pC = 0$. Autrement dit, il y a identité entre les notions de corps de représentants et de sous-anneau de Cohen de A. L’assertion b) résulte alors du § 2, no 2, th. 1.
 
-#### Corollaire 1 {#ac-ix-s3-thm-1-cor-1 .statement}
+#### Corollaire 1 {#ac-ix-s3-thm-1-cor-1 .statement tag=0CXP}
 
 Soit $A$ un anneau local séparé et complet, dont le corps résiduel est une extension algébrique de $\mathbf{Q}$. Il existe alors un unique corps de représentants de $A$.
 En effet l’anneau $A$ est de caractéristique 0 (no 1).
 
-#### Corollaire 2 {#ac-ix-s3-thm-1-cor-2 .statement}
+#### Corollaire 2 {#ac-ix-s3-thm-1-cor-2 .statement tag=0CXQ}
 
 Soit $A$ un anneau local séparé et complet de caractéristique $p \neq 0$. Supposons que le corps résiduel $\kappa_A$ soit parfait. Alors il existe un unique corps de représentants de $A$, à savoir l’ensemble des représentants multiplicatifs.
 Le cor. 2 résulte aussitôt du th. 1 et de la prop. 7 du § 2, no 4.
 
-#### Théorème 2 {#ac-ix-s3-thm-2 .statement}
+#### Théorème 2 {#ac-ix-s3-thm-2 .statement tag=0CXR}
 
 Soit $A$ un anneau local noethérien complet de dimension $d$ contenant un corps. Soit $K$ un corps de représentants de $A$, et soit $m$ la dimension de l’espace vectoriel $m_A/m_A^2$ sur le corps $K$.
 a) Il existe un idéal $a$ de $K[[T_1, ..., T_m]]$ tel que la $K$-algèbre $A$ soit isomorphe à $K[[T_1, ..., T_m]]/a$.

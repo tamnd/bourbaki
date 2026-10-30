@@ -36,9 +36,9 @@ subsections:
       pdf_page: 77
 statements: 28
 exercises: 10
-content_sha256: edb655c9006c0124a4230eb30ad602737854b385d0692215bda77dbbd936bade
+content_sha256: cebd5c2ce69b001bad19dfa1e974bae06bffda700be8c73aa1c8d07dc0cab265
 translated_from: content/en/fvr/II/01_s1_primitives_and_integrals.md
-source_content_sha256: ce676b7be24a9e9f40e9596ed447132bffd5c794bd4a52cc88d3027b8f4b73a5
+source_content_sha256: 966025e49c722d33da4fca08c6c4f13c4514b7e1ed5ae715959b710f37572bbe
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-e581a0ef
 glossary_version: 34
@@ -54,7 +54,7 @@ Trừ khi có nói rõ ngược lại, trong chương này chúng ta chỉ xét 
 
 Một hàm vectơ $f$ xác định trên một khoảng $I \subset \mathbf{R}$ không thể là đạo hàm tại mọi điểm của khoảng này của một hàm vectơ $g$ (được xác định và liên tục trên $I$), trừ khi nó thỏa mãn những điều kiện khá chặt chẽ: chẳng hạn, nếu $f$ có giới hạn phải và giới hạn trái tại một điểm $x_0$ nằm trong $I$ thì $f$ phải liên tục tại điểm $x_0$, như suy ra từ mệnh đề 6 của I, p. 18; do đó, nếu lấy khoảng $[ -1 , 1 ]$ làm $I$, và lấy $f$ là hàm thực bằng $-1$ trên $[ -1 , 0[$, và bằng $+1$ trên $[0 , 1]$, thì $f$ không phải là đạo hàm của bất kỳ hàm liên tục nào trên $I$; tuy vậy, hàm $|x|$ có $f(x)$ làm đạo hàm tại mọi điểm $\neq 0$; vì thế người ta đi đến định nghĩa sau đây:
 
-#### Định nghĩa 1 {#fvr-ii-s1-def-1 .statement}
+#### Định nghĩa 1 {#fvr-ii-s1-def-1 .statement tag=0870}
 
 *Cho một hàm vectơ $f$ xác định trên một khoảng $I \subset \mathbf{R}$, ta nói rằng một hàm $g$ xác định trên $I$ là một nguyên thủy hàm của $f$ nếu $g$ liên tục trên $I$ và có đạo hàm bằng $f(x)$ tại mọi điểm $x$ thuộc phần bù (đối với $I$) của một tập con đếm được của $I$.*
 
@@ -64,7 +64,7 @@ Với định nghĩa này, ta thấy rằng hàm thực $f$ đã xét ở trên 
 
 Rõ ràng là nếu $f$ có một nguyên thủy hàm trên $I$ thì mọi nguyên thủy hàm của $f$ cũng là nguyên thủy hàm của mọi hàm bằng $f$ ngoại trừ tại các điểm của một tập con đếm được của $I$. Theo một cách nói lỏng, người ta nói đến một nguyên thủy hàm trên $I$ của một hàm $f_0$ chỉ được xác định trên phần bù (đối với $I$) của một tập con đếm được của $I$: đó sẽ là nguyên thủy hàm của mọi hàm $f$ xác định trên $I$ và bằng $f_0$ tại các điểm mà $f_0$ được xác định.
 
-#### Mệnh đề 1 {#fvr-ii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-ii-s1-prop-1 .statement tag=0871}
 
 *Cho $f$ là một hàm vectơ được định nghĩa trên $I$ với các giá trị trong $E$; nếu $f$ nhận một nguyên hàm $g$ trên $I$ thì tập hợp các nguyên hàm của $f$ trên $I$ đồng nhất với tập hợp các hàm $g + a$, trong đó $a$ là một hàm hằng với các giá trị của nó trong $E$.*
 
@@ -76,7 +76,7 @@ Người ta nói rằng các nguyên hàm của một hàm $f$ (khi chúng tồn
 
 Cho $f$ là một hàm được định nghĩa trên một khoảng tùy ý $I \subset \mathbf{R}$; để một hàm $g$ được định nghĩa trên $I$ là một nguyên hàm của $f$, điều kiện cần và đủ là hạn chế của $g$ trên mọi khoảng compact $J \subset I$ là một nguyên hàm của hạn chế của $f$ trên $J$.
 
-#### Định lý 1 {#fvr-ii-s1-thm-1 .statement}
+#### Định lý 1 {#fvr-ii-s1-thm-1 .statement tag=0872}
 
 *Cho $A$ là một tập hợp được lọc bởi một bộ lọc $\mathfrak{F}$, và $(f_\alpha)_{\alpha \in A}$ là một họ các hàm vectơ với các giá trị trong một không gian định chuẩn đầy đủ $E$ trên $\mathbf{R}$, được định nghĩa trên một khoảng $I \subset \mathbf{R}$: với mỗi $\alpha \in A$ cho $g_\alpha$ là một nguyên hàm của $f_\alpha$. Ta giả sử rằng:
 1. đối với bộ lọc $\mathfrak{F}$ các hàm $f_\alpha$ hội tụ đều trên mọi tập con compact của $I$ đến một hàm $f$;
@@ -113,11 +113,11 @@ $$
 
 với $y \in I$ và $|y - x| \leq h$, điều này hoàn tất chứng minh.
 
-#### Hệ quả 1 {#fvr-ii-s1-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#fvr-ii-s1-thm-1-cor-1 .statement tag=0873}
 
 *Tập hợp $\mathscr{H}$ các ánh xạ từ I vào E thừa nhận một nguyên thủy trên khoảng I là một không gian con vectơ đóng (và do đó đầy đủ) của không gian vectơ đầy đủ $\mathscr{F}_c(I; E)$ gồm các ánh xạ từ I vào E, được trang bị tôpô hội tụ đều trên mọi tập con compắc của I* (*Gen. Top.*, X, p. 277).
 
-#### Hệ quả 2 {#fvr-ii-s1-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#fvr-ii-s1-thm-1-cor-2 .statement tag=0874}
 
 *Cho $x_0$ là một điểm của I, và với mỗi hàm $f \in \mathscr{H}$ gọi $P(f)$ là nguyên thủy của $f$ triệt tiêu tại điểm $x_0$; ánh xạ $f \mapsto P(f)$ từ $\mathscr{H}$ vào $\mathscr{F}_c(I; E)$ là một ánh xạ tuyến tính liên tục.*
 
@@ -125,19 +125,19 @@ Hệ quả 1 của Định lý 1 cho phép ta thiết lập sự tồn tại c�
 
 ### 3. CÁC HÀM ĐIỀU CHỈNH
 
-#### Định nghĩa 2 {#fvr-ii-s1-def-2 .statement}
+#### Định nghĩa 2 {#fvr-ii-s1-def-2 .statement tag=0875}
 
 *Một ánh xạ $f$ của một khoảng $I \subset \mathbf{R}$ vào một tập hợp E được gọi là một hàm bậc thang nếu có một phân hoạch của I thành một số hữu hạn các khoảng $J_k$ sao cho $f$ là hằng trên mỗi $J_k$.*
 
 Cho $(a_i)_{0 \leq i \leq n}$ là dãy tăng ngặt được tạo thành bởi các đầu mút phân biệt của các $J_k$; vì các $J_k$ rời nhau từng đôi một nên mỗi khoảng đó hoặc thu về một điểm đơn $a_i$ hoặc là một khoảng có hai điểm liên tiếp $a_i, a_{i+1}$ làm đầu mút; hơn nữa, vì I là hợp của các $J_k$, điểm $a_0$ là đầu mút trái, và $a_n$ là đầu mút phải của I. Do đó, mọi hàm bậc thang trên I có thể được đặc trưng như là một hàm hằng trên mỗi khoảng mở ]$a_i,\ a_{i+1}[\ (0 \leq i \leq n - 1)$, trong đó $(a_i)_{0 \leq i \leq n}$ là một dãy tăng ngặt các điểm của $I$ với $a_0$ là đầu mút trái và $a_n$ là đầu mút phải của $I$.
 
-#### Mệnh đề 2 {#fvr-ii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-ii-s1-prop-2 .statement tag=0876}
 
 *Tập hợp các hàm bậc thang được xác định trên $I$, với các giá trị trong một không gian vectơ $E$ trên $\mathbf{R}$, là một không gian con vectơ $\mathscr{E}$ của không gian vectơ $\mathscr{F}(I; E)$ gồm tất cả các ánh xạ của $I$ vào $E$.*
 
 Thật vậy, cho $f$ và $g$ là hai hàm bậc thang, và $(A_i)$ và $(B_j)$ là hai phân hoạch của $I$ thành một số hữu hạn các khoảng sao cho $f$ (tương ứng $g$) là hằng trên mỗi $A_i$ (tương ứng $B_j$); với mọi số thực $\lambda, \mu$, hiển nhiên rằng $\lambda f + \mu g$ là hằng trên mỗi khoảng khác rỗng $A_i \cap B_j$, và các khoảng này tạo thành một phân hoạch của $I$.
 
-#### Hệ quả {#fvr-ii-s1-n3-cor-1 .statement}
+#### Hệ quả {#fvr-ii-s1-n3-cor-1 .statement tag=0877}
 
 *Không gian con vectơ $\mathscr{E}$ được sinh bởi các hàm đặc trưng của các khoảng.*
 
@@ -145,7 +145,7 @@ Bây giờ ta xét trường hợp $E$ là một không gian định chuẩn tr�
 
 Bây giờ ta có thể áp dụng phương pháp được nêu trong số 2.
 
-#### Định nghĩa 3 {#fvr-ii-s1-def-3 .statement}
+#### Định nghĩa 3 {#fvr-ii-s1-def-3 .statement tag=0878}
 
 *Một hàm vectơ, được xác định trên một khoảng $I$, với các giá trị trong một không gian định chuẩn đầy đủ $E$ trên $\mathbf{R}$, được gọi là một hàm điều chỉnh, nếu nó là giới hạn đều của các hàm bậc thang trên mọi tập con compact của $I$.*
 
@@ -153,13 +153,13 @@ Nói cách khác, các hàm điều hòa là các phần tử của bao đóng t
 
 Hệ quả I của II, p. 53 cho thấy:
 
-#### Định lý 2 {#fvr-ii-s1-thm-2 .statement}
+#### Định lý 2 {#fvr-ii-s1-thm-2 .statement tag=0879}
 
 *Mọi hàm điều hòa trên một khoảng $I$ đều có một nguyên hàm trên $I$.*
 
 Ta sẽ biến đổi định nghĩa 3 của II, p. 4 thành một định nghĩa tương đương khác:
 
-#### Định lý 3 {#fvr-ii-s1-thm-3 .statement}
+#### Định lý 3 {#fvr-ii-s1-thm-3 .statement tag=087A}
 
 *Một hàm vectơ $f$ xác định trên một khoảng $I$, nhận giá trị trong một không gian định chuẩn đầy đủ $E$ trên $\mathbf{R}$, là điều hòa khi và chỉ khi nó có một giới hạn phải và một giới hạn trái tại mọi điểm trong của $I$, và một giới hạn phải tại đầu mút trái của $I$ và một giới hạn trái tại đầu mút phải của $I$, khi các điểm này thuộc $I$. Tập hợp các điểm gián đoạn của $f$ trong $I$ do đó là đếm được.*
 
@@ -171,13 +171,13 @@ Vì mọi khoảng là hợp đếm được của các khoảng compact, nên c
 
 Cuối cùng, ta hãy chứng minh rằng nếu $f$ điều hòa trên $I$ thì tập hợp các điểm gián đoạn của nó là đếm được. Với mọi $n > 0$ tồn tại một hàm bậc thang $g_n$ sao cho $\|f(x) - g_n(x)\| \leq 1/n$ trên $I$; vì dãy $(g_n)$ hội tụ đều đến $f$ trên $I$, ta thấy rằng $f$ liên tục tại mọi điểm mà tất cả các $g_n$ đều liên tục (Gen. Top., X, p. 281, hệ quả 1); nhưng vì $g_n$ liên tục trừ tại các điểm của một tập hữu hạn $H_n$, suy ra $f$ liên tục tại các điểm thuộc phần bù của tập $H = \bigcup_{n} H_n$, tập này là đếm được.
 
-#### Hệ quả 1 {#fvr-ii-s1-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#fvr-ii-s1-thm-3-cor-1 .statement tag=087B}
 
 Cho $f$ là một hàm điều hòa trên $I$; tại mọi điểm của $I$, ngoại trừ đầu mút phải (tương ứng, đầu mút trái) của $I$, mọi nguyên hàm của $f$ đều có đạo hàm phải bằng $f(x+)$ (tương ứng, đạo hàm trái bằng $f(x-)$); đặc biệt, tại mọi điểm $x$ mà $f$ liên tục, $f(x)$ là đạo hàm của một trong các nguyên hàm của nó.
 
 Đây là một hệ quả ngay lập tức của định lý 3 của II, p. 54 và mệnh đề 6 của I, p. 18.
 
-#### Hệ quả 2 {#fvr-ii-s1-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#fvr-ii-s1-thm-3-cor-2 .statement tag=087C}
 
 Cho $f_i$ $(1 \leq i \leq n)$ là $n$ hàm điều hòa trên một khoảng $I$, mỗi $f_i$ nhận các giá trị trong một không gian định chuẩn đầy đủ $E_i$ trên $\mathbf{R}$ $(1 \leq i \leq n)$. Nếu $g$ là một ánh xạ liên tục từ không gian con $\prod_{i=1}^{n} \overline{f_i(I)}$ của $\prod_{i=1}^{n} E_i$ vào một không gian định chuẩn đầy đủ $F$ trên $\mathbf{R}$, thì hàm hợp thành $x \mapsto g(f_1(x), f_2(x), \ldots, f_n(x))$ là điều hòa trên $I$.
 
@@ -187,31 +187,31 @@ Do đó ta thấy rằng nếu $f$ là một hàm vectơ điều hòa trên $I$,
 
 hơn nữa, nếu $f$ và $g$ là hai hàm thực điều hòa, thì $\sup(f, g)$ và $\inf(f, g)$ là điều hòa.
 
-#### Nhận xét 1 {#fvr-ii-s1-n3-rem-1 .statement}
+#### Nhận xét 1 {#fvr-ii-s1-n3-rem-1 .statement tag=087D}
 
 Nếu $f$ là một hàm thực điều hòa trên $I$, và $g$ là một hàm vectơ điều hòa trên một khoảng chứa $f(I)$, thì hàm hợp thành $g \circ f$ không nhất thiết điều hòa ($cf.$ II, p. 79, bài tập 4).
 
 Hai trường hợp riêng của định lý 3 của II, p. 54 đặc biệt quan trọng:
 
-#### Mệnh đề 3 {#fvr-ii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-ii-s1-prop-3 .statement tag=087E}
 
 *Mọi hàm vectơ liên tục trên một khoảng $I \subset \mathbf{R}$ nhận các giá trị trong một không gian định chuẩn đầy đủ $E$ trên $\mathbf{R}$ đều điều hòa, và có một nguyên hàm trên $I$, mà tại mọi điểm nó là đạo hàm.*
 
-#### Nhận xét 2 {#fvr-ii-s1-n3-rem-2 .statement}
+#### Nhận xét 2 {#fvr-ii-s1-n3-rem-2 .statement tag=087F}
 
 Để chứng minh rằng một hàm liên tục có một nguyên hàm, ta có thể sử dụng sự kiện rằng mọi *hàm đa thức* của một biến thực (với các hệ số trong $E$) đều có một nguyên hàm; vì theo định lý Weierstrass (*Gen. Top.*, X, p. 313, prop. 3), mọi hàm liên tục đều là giới hạn đều của các đa thức trên mọi khoảng compáct, nên định lý 1 của II, p. 52 cho thấy rằng mọi hàm liên tục đều có một nguyên hàm.
 
-#### Nhận xét 3 {#fvr-ii-s1-n3-rem-3 .statement}
+#### Nhận xét 3 {#fvr-ii-s1-n3-rem-3 .statement tag=087G}
 
 Nguyên lý của nhận xét trước mở rộng được, không cần sửa đổi đáng kể, cho các hàm vectơ của một biến *phức* nhận giá trị trong một không gian định chuẩn đầy đủ trên $\mathbf{C}$. Nếu $U$ là một tập hợp mở trong $\mathbf{C}$, đồng phôi với $\mathbf{C}$, thì theo định nghĩa, một *nguyên hàm* của một hàm vectơ như vậy $f$ xác định trên $U$ là một hàm liên tục trên $U$, có đạo hàm bằng $f$ tại mọi điểm của $U$. Với định nghĩa này, định lý 1 của II, p. 52 mở rộng được mà không cần sửa đổi (người ta chứng minh, bằng cách sử dụng tính liên thông của $U$, rằng $(g_\alpha)$ hội tụ đều đối với $\mathscr{F}$ trên một lân cận của mỗi điểm của $U$, từ đó suy ra rằng $(g_\alpha)$ hội tụ đều đối với $\mathscr{F}$ trên mọi tập con compáct của $U$; chứng minh được hoàn tất bằng cách dùng mệnh đề 4 của I, p. 18). Do đó, mọi hàm là *giới hạn đều của các đa thức* trên mọi tập con compáct của $U$ đều có một nguyên hàm trên $U$; các hàm này không gì khác hơn là các hàm được gọi là *chỉnh hình* trên $U$, mà chúng ta sẽ nghiên cứu chi tiết hơn trong một Quyển sau.
 
-#### Mệnh đề 4 {#fvr-ii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-ii-s1-prop-4 .statement tag=087H}
 
 *Mọi hàm thực đơn điệu $f$ trên một khoảng $I \subset \mathbf{R}$ đều là điều hòa được, và mọi nguyên hàm của $f$ đều lồi trên $I$.*
 
 Thật vậy, $f$ thỏa mãn tiêu chuẩn của định lý 3 của *Gen. Top.*, IV, p. 350, prop. 4; phần thứ hai của mệnh đề suy ra từ hệ quả 1, từ II, p. 55, và từ mệnh đề 5 của I, p. 27.
 
-#### Nhận xét 4 {#fvr-ii-s1-n3-rem-4 .statement}
+#### Nhận xét 4 {#fvr-ii-s1-n3-rem-4 .statement tag=087I}
 
 Không nên nghĩ rằng các hàm điều hòa được trên một khoảng $I$ là những hàm duy nhất có một nguyên hàm trên $I$ ($cf.$ II, p. 80, bài tập 7 và 8).
 
@@ -223,7 +223,7 @@ $$
 $$
 trong đó các $t_i$ thuộc $[x_i,\ x_{i+1}]$ với $0 \leq i \leq n-1$. Khi đó ta có mệnh đề sau:
 
-#### Mệnh đề 5 {#fvr-ii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#fvr-ii-s1-prop-5 .statement tag=087J}
 
 *Cho $f$ là một hàm điều hòa được trên một khoảng I, $g$ là một nguyên hàm của $f$ trên I, và $[x_0,\ x]$ là một khoảng compáct được chứa trong I. Với mọi $\varepsilon > 0$ tồn tại một số $\rho > 0$ sao cho đối với mọi phân hoạch của $[x_0,\ x]$ thành các khoảng có độ dài $\leq \rho$ ta có*
 $$
@@ -255,7 +255,7 @@ $$
 $$
 không thể vượt quá $4Mm\rho$; do đó chỉ cần lấy $\rho \leq \varepsilon / 4Mm$ để thu được (1).
 
-#### Nhận xét 1 {#fvr-ii-s1-n4-rem-1 .statement}
+#### Nhận xét 1 {#fvr-ii-s1-n4-rem-1 .statement tag=087K}
 
 Khi $f$ là *liên tục* thì mệnh đề 5 có thể được chứng minh đơn giản hơn: vì $f$ liên tục đều trên $[x_0,\ x]$ nên tồn tại một $\rho > 0$ sao cho trên mọi khoảng có độ dài $\leq \rho$ được chứa trong $[x_0,\ x]$ độ dao động của $f$ là $\leq \frac{\varepsilon}{x - x_0}$; với mọi phân hoạch của $[x_0,\ x]$ thành các khoảng $[x_i,\ x_{i+1}]$ có độ dài $\leq \rho$ và mọi lựa chọn $t_i$ trong $[x_i,\ x_{i+1}]$ với $0 \leq i \leq n-1$, hàm bậc thang $f_1$ bằng $f(t_i)$ trên $[x_i,\ x_{i+1}]$ ($0 \leq i \leq n-1$), và bằng $f(x)$ tại điểm x, thỏa mãn $\| f(y) - f_1(y) \| \leq \frac{\varepsilon}{x - x_0}$ trên $[x_0, x]$; nếu $g_1$ là một nguyên hàm của $f_1$ thì ta có
 $$
@@ -273,7 +273,7 @@ Nói cách khác, phần tử $\frac{1}{x - x_0} \int_{x_0}^x f(t) dt$ là giớ
 
 Theo định nghĩa, hàm $x \mapsto \int_{x_0}^x f(t) dt$ chẳng gì khác hơn là nguyên hàm của $f$ triệt tiêu tại điểm $x_0 \in I$; người ta cũng ký hiệu nó bởi $\int_{x_0}^x f(t) dt$ hay $\int_{x_0}^x f$.
 
-#### Nhận xét 2 {#fvr-ii-s1-n4-rem-2 .statement}
+#### Nhận xét 2 {#fvr-ii-s1-n4-rem-2 .statement tag=087L}
 
 Với một hàm tùy ý $h$ được định nghĩa trên I, nhận giá trị trong E, phần tử $h(x) - h(x_0)$ cũng được viết là $h(t)\Big|_{x_0}^x$; với ký hiệu này ta thấy rằng nếu $g$ là bất kỳ nguyên hàm nào của một hàm điều hòa $f$ trên I, thì ta có
 
@@ -281,11 +281,11 @@ $$
 \int_{x_0}^x f(t) dt = g(t)\Big|_{x_0}^x.
 $$
 
-#### Nhận xét 3 {#fvr-ii-s1-n4-rem-3 .statement}
+#### Nhận xét 3 {#fvr-ii-s1-n4-rem-3 .statement tag=087M}
 
 Các biểu thức $\int_{x_0}^x f(t) dt$ và $g(t)\Big|_{x_0}^x$ là những ký hiệu viết tắt biểu diễn các dãy ký hiệu trong đó các chữ $x, x_0, f, g$, nhưng *không phải* chữ $t$, xuất hiện (*xem Lý thuyết Tập hợp*, I, p. 15); người ta nói rằng trong số các ký hiệu này $t$ là một "*biến giả*": vì thế có thể thay $t$ bằng bất kỳ biến nào khác phân biệt với $x, x_0, f$ và $g$ (và với các biến có thể có đi vào chứng minh nơi các ký hiệu này xuất hiện) mà không làm thay đổi ý nghĩa của ký hiệu thu được (người đọc có thể so sánh các ký hiệu này với những ký hiệu như $\sum_{i=1}^n x_i$, hay $\bigcup X_i$, trong đó $i$ cũng là một biến giả).
 
-#### Nhận xét 4 {#fvr-ii-s1-n4-rem-4 .statement}
+#### Nhận xét 4 {#fvr-ii-s1-n4-rem-4 .statement tag=087N}
 
 Việc xấp xỉ một tích phân bằng các tổng Riemann có liên hệ chặt chẽ với một trong những nguồn gốc lịch sử của khái niệm tích phân, bài toán *đo* diện tích. Chúng ta sẽ trở lại điểm này trong Sách về Tích phân vốn dành cho các phép tổng quát hóa của khái niệm tích phân mà bài toán này dẫn tới; trong những phép tổng quát hóa ấy, các hàm "*được tích phân*" không nhất thiết được định nghĩa trên một tập con của $\mathbf{R}$; hơn nữa, ngay cả khi xét đến các hàm thực $f$ của một biến thực mà ta có thể định nghĩa một tích phân $\int_{x_0}^x f(t)\,dt$, thì hàm $x \mapsto \int_{x_0}^x f(t)\,dt$ không phải lúc nào cũng là một nguyên hàm của $f$, và tồn tại những hàm có nguyên hàm nhưng lại không "khả tích" theo nghĩa mà chúng tôi ám chỉ.
 
@@ -366,7 +366,7 @@ Chẳng hạn, nếu lấy $f(x) = x^2$, ta thấy rằng công thức (12) quy 
 
 Để dịch định lý giá trị trung bình (I, p. 14, Định lý 1) đối với các nguyên hàm của các hàm thực điều hòa, trước hết ta nhận xét rằng một hàm thực điều hòa $f$ trên một khoảng đóng $I$ là bị chặn trên $I$; gọi $J$ là tập các điểm của $I$ tại đó $f$ là *liên tục*, và đặt $m = \inf_{x \in J} f(x)$, $M = \sup_{x \in J} f(x)$; ta biết (II, p. 54, Định lý 3) rằng $I \cap \mathbf{C}J$ là đếm được; hơn nữa, nếu $B$ là phần bù, trong $I$, của một tập con đếm được bất kỳ của $I$, và $m' = \inf_{x \in B} f(x)$, $M' = \sup_{x \in B} f(x)$, thì $m' \leq m \leq M \leq M'$: thật vậy, với mỗi điểm $x \in J$, có những điểm $y$ của B gần $x$ tùy ý, do đó $m' \leq f(y) \leq M'$; vì $f$ liên tục tại điểm $x$ nên khi cho $y$ tiến tới $x$ ($y$ vẫn thuộc B) ta thấy rằng $m' \leq f(x) \leq M'$, điều đó chứng minh mệnh đề trên. Vì thế, khi dịch định lý giá trị trung bình ta được mệnh đề sau:
 
-#### Mệnh đề 6 (định lý giá trị trung bình) {#fvr-ii-s1-prop-6 .statement}
+#### Mệnh đề 6 (định lý giá trị trung bình) {#fvr-ii-s1-prop-6 .statement tag=087O}
 
 *Cho $f$ là một hàm chỉnh thực trên một khoảng compact $l = [a, b]$; nếu $J$ là tập các điểm của I tại đó $f$ liên tục, và $m = \inf_{x \in J} f(x)$, $M = \sup_{x \in J} f(x)$, thì*
 
@@ -380,11 +380,11 @@ $$
 
 Nói cách khác, *giá trị trung bình* của hàm chỉnh $f$ trong I nằm giữa các cận của $f$ trên tập con của I mà ở đó $f$ liên tục.
 
-#### Hệ quả 1 {#fvr-ii-s1-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#fvr-ii-s1-prop-6-cor-1 .statement tag=087P}
 
 *Nếu một hàm chỉnh thực $f$ trên I sao cho $f(x) \geq 0$ tại các điểm mà $f$ liên tục, thì* $\frac{1}{b-a} \int_a^b f(t)\,dt > 0$ *trừ khi* $f(x) = 0$ *tại các điểm mà* $f$ *liên tục.*
 
-#### Hệ quả 2 {#fvr-ii-s1-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#fvr-ii-s1-prop-6-cor-2 .statement tag=087Q}
 
 *Cho $f$ và $g$ là hai hàm chỉnh thực trên I, sao cho $g(x) \geq 0$ *tại các điểm mà* $g$ *liên tục; nếu* $m$ *và* $M$ *là cận dưới lớn nhất và cận trên bé nhất của* $f$ *trên tập các điểm mà* $f$ *liên tục, thì*
 
@@ -398,7 +398,7 @@ $$
 
 Đối với các hàm vectơ, định lý giá trị trung bình (I, p. 15, Định lý 2) suy ra mệnh đề sau:
 
-#### Mệnh đề 7 {#fvr-ii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#fvr-ii-s1-prop-7 .statement tag=087R}
 
 *Cho* $\mathbf{f}$ *là một hàm vectơ chỉnh trên một khoảng compact* $I = [a, b]$, *nhận giá trị trong một không gian chuẩn đầy đủ* $E$, *và cho* $g$ *là một hàm chỉnh thực trên* $I$, *sao cho* $g(x) \geq 0$ *tại các điểm mà* $g$ *liên tục; trong trường hợp đó*
 

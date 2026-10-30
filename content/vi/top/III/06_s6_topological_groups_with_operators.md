@@ -44,7 +44,7 @@ subsections:
       pdf_page: 288
 statements: 24
 exercises: 26
-content_sha256: e2b7ff88676c740adcbc7be894d26e9453b3a36e2b6efc1283a472c8f26f012a
+content_sha256: 1666ed9f10e6ce119b1ad030b15cf97f5914463f957e8b613d4924153ecbb389
 translated_from: content/en/top/III/06_s6_topological_groups_with_operators.md
 source_content_sha256: dcb0cb1caa65d1aeec0e6b82e7da15c59c5cd47bbe0e662c7ae93d14fa42ae2e
 translation_model: gpt-5-6-mini
@@ -62,7 +62,7 @@ Trên một tập $G$, một cấu trúc nhóm với toán tử và một tôpô
 
 Nếu $H$ là một nhóm con ổn định của một nhóm tôpô $G$ với toán tử, thì tôpô cảm sinh trên $H$ bởi tôpô của $G$ là tương thích với cấu trúc nhóm với toán tử trên $H$. Hơn nữa:
 
-#### Mệnh đề 1 {#top-iii-s6-prop-1 .statement}
+#### Mệnh đề 1 {#top-iii-s6-prop-1 .statement tag=0BN2}
 
 *Nếu $H$ là một nhóm con ổn định của một nhóm tôpô $G$ với toán tử, thì bao đóng $\overline{H}$ của $H$ trong $G$ là một nhóm con ổn định của $G$.*
 
@@ -80,11 +80,11 @@ Vì việc nghiên cứu các nhóm giao hoán với toán tử là tương đư
 
 Nếu một nhóm tôpô giao hoán $E$ với toán tử (được viết theo phép cộng) là tổng trực tiếp của một họ *hữu hạn* $(M_i)_{1 \leq i \leq n}$ các nhóm con ổn định, thì song ánh chính tắc $(x_i) \to \sum_{i=1}^n x_i$ của nhóm tích $\prod_{i=1}^n M_i$ lên $E$ là *liên tục*, nhưng *không nhất thiết là một đồng phôi*.
 
-#### Định nghĩa 1 {#top-iii-s6-def-1 .statement}
+#### Định nghĩa 1 {#top-iii-s6-def-1 .statement tag=0BN3}
 
 *Cho $E$ là một nhóm tôpô giao hoán với các toán tử, và cho $(M_i)_{1 \leq i \leq n}$ là một họ hữu hạn các nhóm con ổn định của $E$, sao cho $E$ là tổng trực tiếp của các $M_i$. Khi đó $E$ được gọi là tổng trực tiếp tôpô của các $M_i$ nếu ánh xạ chính tắc $(x_i) \to \sum_{i=1}^n x_i$ của nhóm tích $\prod_{i=1}^n M_i$ lên $E$ là một đồng phôi* (và do đó là một đẳng cấu của các nhóm tôpô với các toán tử).
 
-#### Mệnh đề 2 {#top-iii-s6-prop-2 .statement}
+#### Mệnh đề 2 {#top-iii-s6-prop-2 .statement tag=0BN4}
 
 *Cho $E$ là một nhóm tôpô giao hoán với các toán tử là tổng trực tiếp của các nhóm con ổn định $M_i$ ($1 \leq i \leq n$). Cho $(p_i)_{1 \leq i \leq n}$ là họ các phép chiếu liên kết với phân tích $E = \sum_{i=1}^n M_i$. Khi đó $E$ là tổng trực tiếp tôpô của các $M_i$ khi và chỉ khi các $p_i$ là liên tục.*
 
@@ -94,7 +94,7 @@ Vì $1 = \sum_{i=1}^n P_i$ (trong đó $1$ ký hiệu cho ánh xạ đồng nh�
 
 Nếu $E$ là tổng trực tiếp tôpô của hai nhóm con ổn định $M, N$, thì $N$ được gọi là một *phần bù tôpô* của $M$ trong $E$; điều này xảy ra khi và chỉ khi ánh xạ chính tắc của $E/M$ lên là một *đẳng cấu* của các nhóm tôpô với các toán tử.
 
-#### Hệ quả {#top-iii-s6-n2-cor-1 .statement}
+#### Hệ quả {#top-iii-s6-n2-cor-1 .statement tag=0BN5}
 
 *Cho $E$ là một nhóm tôpô giao hoán với các toán tử, và cho $M$ là một nhóm con ổn định của $E$. Khi đó các điều kiện sau là tương đương:*
 
@@ -106,15 +106,15 @@ c) *Ánh xạ đồng nhất của $M$ có thể được mở rộng thành m�
 
 Từ Mệnh đề 2 suy ra rằng a) kéo theo b), và hiển nhiên rằng b) kéo theo c). Cuối cùng, nếu $p$ là một ánh xạ tuyến tính liên tục của $E$ lên $M$ mở rộng ánh xạ đồng nhất của $M$, thì $p$ là một phép chiếu liên tục, và các phép chiếu $p$ và $1 - p$ liên kết với phân tích tổng trực tiếp $E = M + N$, trong đó $N = \overline{p}(0)$.
 
-#### Nhận xét 1 {#top-iii-s6-n2-rem-1 .statement}
+#### Nhận xét 1 {#top-iii-s6-n2-rem-1 .statement tag=0BN6}
 
 Để tránh nhầm lẫn, đôi khi ta sẽ nói rằng một nhóm con ổn định của $E$ là một phần bù của $M$ (theo nghĩa của cấu trúc nhóm với các toán tử, không có tôpô) là một *phần bù đại số* của $M$.
 
-#### Nhận xét 2 {#top-iii-s6-n2-rem-2 .statement}
+#### Nhận xét 2 {#top-iii-s6-n2-rem-2 .statement tag=0BN7}
 
 Nếu một nhóm tôpô giao hoán *Hausdorff* có toán tử là tổng trực tiếp tôpô của một họ $(M_i)_{1 \leq i \leq n}$ các nhóm con ổn định, thì mỗi nhóm con $M_i$ là *đóng* trong $E$, vì $M_i$ là tập hợp tất cả các $x \in E$ sao cho $p_i(x) = x$ (Chương I, § 8, no. 1, Mệnh đề 2).
 
-#### Mệnh đề 3 {#top-iii-s6-prop-3 .statement}
+#### Mệnh đề 3 {#top-iii-s6-prop-3 .statement tag=0BN8}
 
 *Cho $E, F$ là hai nhóm tôpô giao hoán có toán tử, và cho $u$ là một ánh xạ tuyến tính liên tục từ $E$ vào $F$. Để tồn tại một ánh xạ tuyến tính liên tục $v$ từ $F$ vào $E$ sao cho $u \circ v$ là ánh xạ đồng nhất của $F$ (trong trường hợp đó $u$ được gọi là khả nghịch phải và $v$ được gọi là một *nghịch đảo phải* của $u$), điều kiện cần và đủ là $u$ là một cấu xạ ngặt (§ 2, no. 8) từ $E$ lên $F$ và $\overline{u}(0)$ có một phần bù tôpô trong $E$.*
 
@@ -122,7 +122,7 @@ Các điều kiện là *cần thiết*. Thật vậy, khi đó ta có $u(v(F)) 
 
 Các điều kiện là *đủ*. Thật vậy, nếu $\varphi$ là đồng cấu chính tắc từ E lên $E/\overline{u}^1(o)$, việc nói rằng $\overline{u}^1(o)$ có một phần bù tôpô M trong E chính là nói rằng hạn chế của $\varphi$ trên M là một đẳng cấu của M lên $E/\overline{u}^1(o)$. Mặt khác, vì $u = w \circ \varphi$, trong đó w là một đẳng cấu của $E/\overline{u}^1(o)$ lên F, ta thấy rằng hạn chế của u trên M là một đẳng cấu của M lên F, và đẳng cấu nghịch đảo v do đó thỏa mãn $u \circ v$ là ánh xạ đồng nhất của F lên chính nó.
 
-#### Mệnh đề 4 {#top-iii-s6-prop-4 .statement}
+#### Mệnh đề 4 {#top-iii-s6-prop-4 .statement tag=0BN9}
 
 *Cho E, F là hai nhóm tôpô giao hoán có toán tử, và cho u là một ánh xạ tuyến tính liên tục từ E vào F. Để tồn tại một ánh xạ tuyến tính liên tục v từ F vào E sao cho $v \circ u$ là ánh xạ đồng nhất của E lên chính nó* (trong trường hợp đó u được gọi là *khả nghịch trái* và v được gọi là một *nghịch đảo trái* của u), *điều kiện cần và đủ là u là một đẳng cấu (tôpô) của E lên u(E), và u(E) có một phần bù tôpô trong F.*
 
@@ -132,7 +132,7 @@ Các điều kiện là *cần thiết*. Thật vậy, quan hệ $v(u(x)) = x$ c
 
 ### 3. CÁC VÀNH TÔPÔ
 
-#### Định nghĩa 2 {#top-iii-s6-def-2 .statement}
+#### Định nghĩa 2 {#top-iii-s6-def-2 .statement tag=0BNA}
 
 *Một vành tôpô là một tập hợp A mang một cấu trúc vành và một tôpô thỏa mãn các tiên đề sau:*
 
@@ -144,11 +144,11 @@ Hai tiên đề đầu biểu thị rằng tôpô của A tương thích với c
 
 Nếu một cấu trúc vành và một tôpô được cho trên một tập hợp A, chúng được gọi là *tương thích* nếu chúng thỏa mãn các tiên đề (AT$_\mathrm{I}$), (AT$_\mathrm{II}$) và (AT$_\mathrm{III}$).
 
-#### Ví dụ 1 {#top-iii-s6-n3-exa-1 .statement}
+#### Ví dụ 1 {#top-iii-s6-n3-exa-1 .statement tag=0BNB}
 
 Trên mọi vành A, tôpô *rời rạc* là tương thích với cấu trúc vành. Một vành tôpô có tôpô rời rạc được gọi là một vành *rời rạc*.
 
-#### Ví dụ 2 {#top-iii-s6-n3-exa-2 .statement}
+#### Ví dụ 2 {#top-iii-s6-n3-exa-2 .statement tag=0BNC}
 
 Ta sẽ thấy trong Chương IV rằng tôpô của đường thẳng hữu tỉ Q (tương ứng đường thẳng thực R) là tương thích với cấu trúc vành của Q (tương ứng R).*
 
@@ -166,7 +166,7 @@ Từ đó ta có thể suy ra một hệ điều kiện cần và đủ mà bộ
 (AV_I). *Với mọi* $x_0 \in A$ *và mọi* $V \in \mathfrak{B}$, *tồn tại* $W \in \mathfrak{B}$ *sao cho* $x_0 W \subset V$ *và* $W x_0 \subset V$.
 (AV_{II}). *Với mọi* $V \in \mathfrak{B}$, *tồn tại* $W \in \mathfrak{B}$ *sao cho* $WW \subset V$.
 
-#### Nhận xét {#top-iii-s6-n3-rem-1 .statement}
+#### Nhận xét {#top-iii-s6-n3-rem-1 .statement tag=0BND}
 
 Trong giải tích, ta khá thường gặp các vành thỏa mãn các tiên đề (AT_I), (AT_{II}) và (AT_{III a}), nhưng không thỏa mãn (AT_{III b}). *Một ví dụ là vành các độ đo trên một nhóm compact, trong đó phép nhân là phép chập và tôpô là tôpô yếu.*
 
@@ -182,7 +182,7 @@ Cho $X$ là một không gian tôpô, và cho $f$ và $g$ là hai ánh xạ củ
 
 Nếu $H$ là một vành con của một vành tôpô $A$, thì tôpô cảm sinh trên $H$ bởi tôpô của $A$ là tương thích với cấu trúc vành của $H$. Cấu trúc vành tôpô được xác định như vậy trên $H$ được gọi là *cảm sinh* bởi cấu trúc vành của $A$.
 
-#### Mệnh đề 5 {#top-iii-s6-prop-5 .statement}
+#### Mệnh đề 5 {#top-iii-s6-prop-5 .statement tag=0BNE}
 
 *Cho $H$ là một vành con trù mật của một vành tôpô $A$, và cho $K$ là một vành con (tương ứng, iđêan trái, iđêan phải, iđêan hai phía) của $H$. Khi đó bao đóng $\overline{K}$ của $K$ trong $A$ là một vành con (tương ứng, iđêan trái, iđêan phải, iđêan hai phía) của $A$.*
 
@@ -198,7 +198,7 @@ Khi ta nói về *cấu trúc đều* của một vành tôpô, ta luôn hiểu 
 
 Cho $A$ là một vành tôpô *Hausdorff*; xét như một nhóm cộng tính, $A$ có thể được xem như một nhóm con trù mật của một nhóm *giao hoán Hausdorff đầy đủ* $\hat{A}$, được xác định sai khác bởi một đẳng cấu ($\S$ 3, no. 5, Định lý 2). Để có thể xem $A$ như một *vành con* của một *vành đầy đủ*, cần thiết phải có khả năng mở rộng hàm $xy$ bằng tính liên tục lên không gian $\hat{A} \times \hat{A}$. Khả năng của sự mở rộng này sẽ suy ra từ định lý tổng quát hơn sau đây :
 
-#### Định lý 1 {#top-iii-s6-thm-1 .statement}
+#### Định lý 1 {#top-iii-s6-thm-1 .statement tag=0BNF}
 
 Cho E, F, G là ba nhóm giao hoán Hausdorff đầy đủ; cho A là một nhóm con trù mật của E và cho B là một nhóm con trù mật của F. Nếu f là một ánh xạ song tuyến tính $\mathbf{Z}$-liên tục $\mathbf{Z}$ (*) của $A \times B$ vào G, thì f có thể được mở rộng bằng tính liên tục thành một ánh xạ song tuyến tính $\mathbf{Z}$-liên tục của $E \times F$ vào G.
 
@@ -238,7 +238,7 @@ $$
 
 ánh xạ $\mathbf{Z}$-song tuyến tính $(x, y) \to xy$, mà theo giả thiết là liên tục. Ta lại ký hiệu bởi $xy$ giá trị của hàm mở rộng trên $\hat{A} \times \hat{A}$; hàm này là một luật hợp thành trên $\hat{A}$, và nói rằng nó là $\mathbf{Z}$-song tuyến tính có nghĩa là nó phân phối về cả hai phía đối với phép cộng; và nó cũng *kết hợp*, theo nguyên lý mở rộng các đồng nhất thức. Do đó:
 
-#### Mệnh đề 6 {#top-iii-s6-prop-6 .statement}
+#### Mệnh đề 6 {#top-iii-s6-prop-6 .statement tag=0BNG}
 
 *Một vành tôpô Hausdorff* $A$ *là đẳng cấu với một vành con trù mật của một vành Hausdorff đầy đủ* $\hat{A}$, *được xác định đến một đẳng cấu* (và được gọi là *phép hoàn thành* của $A$).
 
@@ -258,7 +258,7 @@ là giao hoán ($\varphi$ và $\psi$ là các ánh xạ chính tắc); ta chỉ 
 
 ### 6. CÁC MÔĐUN TÔPÔ
 
-#### Định nghĩa 3 {#top-iii-s6-def-3 .statement}
+#### Định nghĩa 3 {#top-iii-s6-def-3 .statement tag=0BNH}
 
 *Cho một vành tôpô* $A$ *với một phần tử đơn vị, một môđun trái tôpô* $A$*-môđun là một tập hợp* $E$, *cùng với*:
 
@@ -268,15 +268,15 @@ là giao hoán ($\varphi$ và $\psi$ là các ánh xạ chính tắc); ta chỉ 
 
 Ta định nghĩa tương tự khái niệm môđun phải tôpô $A$; vì mọi môđun phải $A$ có thể được xem như một môđun trái $A^0$, trong đó $A^0$ là vành đối của $A$, và vì tôpô của $A$ tương thích với cấu trúc vành của $A^0$, nên không cần phân biệt giữa các môđun phải tôpô $A$ và các môđun trái tôpô $A^0$.
 
-#### Ví dụ 1 {#top-iii-s6-n6-exa-1 .statement}
+#### Ví dụ 1 {#top-iii-s6-n6-exa-1 .statement tag=0BNI}
 
 Một không gian vectơ tôpô trên $\mathbf{R}$ (tương ứng $\mathbf{C}$) là một môđun tôpô $\mathbf{R}$ (tương ứng $\mathbf{C}$).
 
-#### Ví dụ 2 {#top-iii-s6-n6-exa-2 .statement}
+#### Ví dụ 2 {#top-iii-s6-n6-exa-2 .statement tag=0BNJ}
 
 Cho $A$ là một vành và cho $\mathfrak{B}$ là một cơ sở lọc trên $A$ gồm các iđêan hai phía của $A$; cho $E$ là một $A$-môđun trái. Nếu ta trang bị cho $A$ tôpô (tương thích với cấu trúc vành của nó) mà $\mathfrak{B}$ là một hệ cơ bản các lân cận của $0$ (no. 3, Ví dụ 3), và cho $E$ tôpô (tương thích với cấu trúc nhóm cộng của nó) trong đó các tập hợp $aE$, khi $a$ chạy qua $\mathfrak{B}$, tạo thành một hệ cơ bản các lân cận của $0$ ($§ 1$, no. 2, Ví dụ), thì kiểm tra ngay lập tức được rằng $E$ là một $A$-môđun tôpô.
 
-#### Nhận xét {#top-iii-s6-n6-rem-1 .statement}
+#### Nhận xét {#top-iii-s6-n6-rem-1 .statement tag=0BNK}
 
 Cho một vành tôpô $A$, xét trên một $A$-môđun trái $E$, một tôpô tương thích với cấu trúc nhóm cộng của $E$. Theo đẳng thức
 $$
@@ -318,7 +318,7 @@ Các định nghĩa và các kết quả của tiết này cũng áp dụng tư�
 
 Trong phần tiếp theo, và trong các Chương IV và V, nếu $K$ là một *vành chia* thì ta sẽ ký hiệu $K^*$ là *nhóm nhân* của các phần tử khác không của $K$.
 
-#### Định nghĩa 4 {#top-iii-s6-def-4 .statement}
+#### Định nghĩa 4 {#top-iii-s6-def-4 .statement tag=0BNL}
 
 *Một vành chia tôpô là một tập hợp* $K$ *mang một cấu trúc vành chia và một tôpô tương thích với cấu trúc vành của* $K$, *và thỏa mãn thêm tiên đề sau:*
 
@@ -328,11 +328,11 @@ Trong phần tiếp theo, và trong các Chương IV và V, nếu $K$ là một 
 
 Một cấu trúc vành chia và một tôpô trên một tập hợp $K$ được gọi là *tương thích* nếu cấu trúc vành tương ứng và tôpô là tương thích, và nếu thêm vào đó tiên đề (KT) được thỏa mãn.
 
-#### Ví dụ 1 {#top-iii-s6-n7-exa-1 .statement}
+#### Ví dụ 1 {#top-iii-s6-n7-exa-1 .statement tag=0BNM}
 
 Trên mọi vành chia $K$, tôpô *rời rạc* là tương thích với cấu trúc vành chia. Một vành chia tôpô mà tôpô của nó là rời rạc được gọi là một vành chia *rời rạc*.
 
-#### Ví dụ 2 {#top-iii-s6-n7-exa-2 .statement}
+#### Ví dụ 2 {#top-iii-s6-n7-exa-2 .statement tag=0BNN}
 
 \* Tôpô của đường hữu tỉ $Q$ (tương ứng đường thẳng thực $R$) là tương thích với cấu trúc trường của $R$ (tương ứng $R$) (xem Chương IV, § 3). \*
 
@@ -361,13 +361,13 @@ Tính *cảm sinh* trên $K^*$ bởi cấu trúc đều cộng tính của $K$ n
 
 Theo Mệnh đề 6, một vành chia tôpô Hausdorff $K$ có thể được xem như một *vành con trù mật* của một *vành Hausdorff đầy đủ* $\hat{K}$. Để $\hat{K}$ là một *vành chia tôpô* thì cần thiết rằng ánh xạ
 
-#### Mệnh đề 7 {#top-iii-s6-prop-7 .statement}
+#### Mệnh đề 7 {#top-iii-s6-prop-7 .statement tag=0BNO}
 
 *Phép đầy đủ $\hat{K}$ của một vành chia tôpô Hausdorff K là một vành chia tôpô khi và chỉ khi ảnh qua ánh xạ $x \to x^{-1}$ của mọi lọc Cauchy (đối với cấu trúc cộng tính) không có điểm tụ tại 0 là một lọc Cauchy (đối với cấu trúc cộng tính).*
 
 Có những vành chia tôpô trong đó điều kiện này không được thỏa mãn và trong đó vành $\hat{K}$ có các ước không (xem Bài tập 26). Hơn nữa, ngay cả khi phép đầy đủ $\hat{K}$ là một vành chia tôpô, không có lý do *tiên nghiệm* nào để giả sử rằng các cấu trúc *nhân* của $\hat{K}$ là các cấu trúc của một *không gian đầy đủ*. Tuy nhiên, điều này sẽ đúng đối với các vành chia $K$ sao cho $\hat{K}$ là *địa phương compact* (xem Chương I, § 9, no. 7, Mệnh đề 13, và Chương III, § 3, no. 3, Mệnh đề 4) và đối với các *trường* tôpô; đối với trường hợp sau, ta có mệnh đề sau:
 
-#### Mệnh đề 8 {#top-iii-s6-prop-8 .statement}
+#### Mệnh đề 8 {#top-iii-s6-prop-8 .statement tag=0BNP}
 
 *Nếu cấu trúc đều cộng tính của một trường tôpô K là một cấu trúc của một không gian Hausdorff đầy đủ, thì cấu trúc nhân trên K* là một cấu trúc của một không gian đầy đủ.*
 

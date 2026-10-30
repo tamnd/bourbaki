@@ -40,14 +40,14 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 13
-content_sha256: 3593908544b4268ac3c0131aaec65a064ed7aef3598969d9bc652e6939baf4fc
+content_sha256: e6d9b744abb34c62818d886d27e40a745dc5749b1c99e6edf0894934f40987ea
 ---
 
 ## 3. METRIZABLE GROUPS, VALUED FIELDS, NORMED SPACES AND ALGEBRAS
 
 ### 1. METRIZABLE TOPOLOGICAL GROUPS
 
-#### Proposition 1 {#top-ix-s3-prop-1 .statement}
+#### Proposition 1 {#top-ix-s3-prop-1 .statement tag=0C3Y}
 
 The left and right uniformities of a topological group $G$ are metrizable if and only if $G$ is Hausdorff and the identity element $e$ of $G$ has a countable fundamental system of neighbourhoods.
 
@@ -57,7 +57,7 @@ A topological group $G$ is said to be *metrizable* if its topology is metrizable
 
 This result can be sharpened with the help of the following notion:
 
-#### Definition 1 {#top-ix-s3-def-1 .statement}
+#### Definition 1 {#top-ix-s3-def-1 .statement tag=0C3Z}
 
 *A metric* $d$ *on a group* $G$ *(written multiplicatively)* *is said to be left-invariant* (resp. *right-invariant*) *if we have*
 
@@ -67,7 +67,7 @@ $$
 
 *for all* $x, y, z$ *in* $G$.
 
-#### Proposition 2 {#top-ix-s3-prop-2 .statement}
+#### Proposition 2 {#top-ix-s3-prop-2 .statement tag=0C40}
 
 *The left* (resp. *right*) *uniformity of a metrizable group* $G$ *can be defined by a left-invariant* (resp. *right-invariant*) *metric on* $G$.
 
@@ -97,7 +97,7 @@ c) $|x| = 0$ if and only if $x = 0$.
 
 Conversely:
 
-#### Proposition 3 {#top-ix-s3-prop-3 .statement}
+#### Proposition 3 {#top-ix-s3-prop-3 .statement tag=0C41}
 
 *Let $G$ be an abelian group, written additively, and let $x \to |x|$ be a mapping $G \to \mathbf{R}$ which satisfies conditions a), b) and c) above. Then the function $d(x, y) = |x - y|$ is an invariant metric on $G$; the topology $\mathscr{T}$ which it defines on $G$ is compatible with the group structure of $G$, and the uniformity defined by $d$ is the same as the uniformity of the topological group obtained by endowing $G$ with the topology $\mathscr{T}$.*
 
@@ -118,7 +118,7 @@ $$
 
 For a' and b' clearly imply b'); conversely, taking $x = 0$ in b') and using c), we see that $|-y| \leq |y|$; replacing $y$ by $-y$ it follows that $|-y| = |y|$, which is a); replacing $y$ by $-y$ in b') we then get b').
 
-#### Proposition 4 {#top-ix-s3-prop-4 .statement}
+#### Proposition 4 {#top-ix-s3-prop-4 .statement tag=0C42}
 
 *If G is a metrizable group, then every Hausdorff quotient group G/H of G is metrizable. If G is also complete, then G/H is complete (*).*
 
@@ -126,7 +126,7 @@ The first part of the proposition is a consequence of the fact that the identity
 
 To show that G/H is complete if G is complete, it is enough, by § 2, no. 6, Proposition 9, to show that every Cauchy sequence $(\dot{x}_n)$ (with respect to the left uniformity of G/H) is convergent. We may assume, by passing to a subsequence of $(\dot{x}_n)$ if necessary, that for each pair of indices $p, q$ such that $p \geq n$ and $q \geq n$, we have $\dot{x}_p^{-1}\dot{x}_q \in \dot{V}_n$; this means that for each pair of points $y \in \dot{x}_p, z \in \dot{x}_q$, we have $y^{-1}z \in HV_n = V_nH$; and therefore, for each $y \in \dot{x}_p$, the intersection of $\dot{x}_q$ and the neighbourhood $yV_n$ of $y$ is not empty. Suppose then that the sequence (V_n) has been chosen so that $V_{n+1}^2 \subset V_n$, and define inductively a sequence $(x_n)$ of points of G, such that $x_n \in \dot{x}_n$ and $x_{n+1} \in x_n V_n$; this is possible by what has been said. It follows then by induction that for each $p > 0$ we have $x_{n+p} \in x_n V_n V_{n+1} \ldots V_{n+p-1} \subset x_n V_{n-1}$. The sequence $(x_n)$ is therefore a Cauchy sequence in G, so it converges to a point $a$; and it follows immediately that the canonical image $\dot{a}$ of $a$ in G/H is the limit of the sequence $(\dot{x}_n)$.
 
-#### Corollary 1 {#top-ix-s3-prop-4-cor-1 .statement}
+#### Corollary 1 {#top-ix-s3-prop-4-cor-1 .statement tag=0C43}
 
 *Let G be a complete metrizable group, let G_0 be a dense subgroup of G and let H_0 be a closed normal subgroup of G_0. If H is the closure of H_0 in G, the quotient group G_0/H_0 has a completion isomorphic to G/H.*
 
@@ -152,23 +152,23 @@ Let $H$ be a closed subgroup of $G$ and let $E = G/H$. Let $j : H \to G$ and $p 
 
 Suppose from now on that $G$ is metrizable. Then the canonical mapping of $E = GH$ into $\hat{G}\hat{H}$ is a topological isomorphism of $E$ onto a dense subgroup of the complete group $\hat{G}/\hat{H}$ (Corollary 1), and thus we may identify $\hat{G}\hat{H}$ with $\hat{E}$ and the continuous extension $\hat{p}$ of $p$ to $\hat{G}$ with the canonical mapping of $\hat{G}$ onto $\hat{G}/\hat{H}$.
 
-#### Corollary 2 {#top-ix-s3-prop-4-cor-2 .statement}
+#### Corollary 2 {#top-ix-s3-prop-4-cor-2 .statement tag=0C44}
 
 *Let $G, G'$ be two metrizable abelian topological groups; let $u : G \to G'$ be a strict morphism with kernel $N$ and image $P$. Then $\hat{u} : \hat{G} \to \hat{G}'$ is a strict morphism with kernel $\hat{N}$ and image $\hat{P}$.*
 
 Let $u = j \circ v \circ p$ be the canonical factorization of $u$, where $v$ is an isomorphism of the topological group $G/N$ onto the topological group $u(G) = P$. We have $\hat{u} = \hat{j} \circ \hat{v} \circ \hat{p}$, and we have seen that $\hat{p}$ is the canonical mapping of $\hat{G}$ onto $\hat{G}\hat{N}$, and that $\hat{j}$ is the canonical mapping of $\hat{P}$ into $\hat{G}$. On the other hand, $\hat{v}$ is an isomorphism of $\hat{G}/\hat{N}$ onto $\hat{P}$ (Chapter III, § 3, no. 4, Proposition 5), whence the result.
 
-#### Corollary 3 {#top-ix-s3-prop-4-cor-3 .statement}
+#### Corollary 3 {#top-ix-s3-prop-4-cor-3 .statement tag=0C45}
 
 *Let $G, G', G''$ be three metrizable abelian topological groups and let $u : G \to G'$ and $v : G' \to G''$ be two strict morphisms such that the sequence $G \xrightarrow{u} G' \xrightarrow{v} G''$ is exact [i.e., $u(G) = \overline{v}(0)$]. Then the sequence $\hat{G} \xrightarrow{\hat{u}} \hat{G}' \xrightarrow{\hat{v}} \hat{G}''$ is exact.*
 
 For if we put $N = u(G) = \overline{v}(0)$, it follows from Corollary 2 that $\hat{N}$ is both the image of $\hat{u}$ and the kernel of $\hat{v}$.
 
-#### Remark 1 {#top-ix-s3-n1-rem-1 .statement}
+#### Remark 1 {#top-ix-s3-n1-rem-1 .statement tag=0C46}
 
 Let $G$ be a non-Hausdorff topological group such that the Hausdorff group associated with $G$ is metrizable; equivalently, such that the identity element of $G$ has a countable fundamental system of neighbourhoods in G. The proof of Proposition 4 applies to this case without modification, H being an arbitrary normal subgroup of G, and shows that the Hausdorff group associated with G/H is metrizable, and that G/H is a complete group (in general not Hausdorff) whenever G is complete.
 
-#### Remark 2 {#top-ix-s3-n1-rem-2 .statement}
+#### Remark 2 {#top-ix-s3-n1-rem-2 .statement tag=0C47}
 
 Let d be a left-invariant metric which defines the topology of a metrizable group G, and let H be a closed normal subgroup of G. If $\dot{x}$ and $\dot{y}$ are any two points of G/H, consider the distance $d(\dot{x}, \dot{y})$ of the two closed subsets $\dot{x}, \dot{y}$ in G (§ 2, no. 2); we shall see that this function is a left-invariant metric on G/H and defines the topology of this quotient group.
 
@@ -188,7 +188,7 @@ from above; but since $hzy = z(z^{-1}hz) y$ and since $z^{-1}hz$ runs through H 
 
 ### 2. VALUED DIVISION RINGS
 
-#### Definition 2 {#top-ix-s3-def-2 .statement}
+#### Definition 2 {#top-ix-s3-def-2 .statement tag=0C48}
 
 An absolute value on a division ring K is a mapping $x \to |x|$ of K into $\mathbf{R}_+$ which satisfies the following conditions:
 
@@ -224,33 +224,33 @@ $$
 
 now if $\varepsilon > 0$ is such that $\varepsilon < |x_0|$, the relation $|x - x_0| \leq \varepsilon$ implies $|x| \geq |x_0| - \varepsilon$, whence $|x^{-1} - x_0^{-1}| \leq \varepsilon / |x_0|(|x_0| - \varepsilon)$; and this establishes the continuity of $x^{-1}$ at the point $x_0$.
 
-#### Definition 3 {#top-ix-s3-def-3 .statement}
+#### Definition 3 {#top-ix-s3-def-3 .statement tag=0C49}
 
 *A valued division ring is a division ring* $K$ *endowed with the structure defined by a given absolute value on* $K$.
 
 A valued division ring will always be considered as endowed with the topology defined by its absolute value, which makes it a *topological* division ring. If $K_0$ is a division subring of a valued division ring $K$, the restriction to $K_0$ of the absolute value on $K$ is an absolute value on $K_0$, which defines on $K_0$ the topology induced by the topology of $K$.
 
-#### Example 1 {#top-ix-s3-n2-exa-1 .statement}
+#### Example 1 {#top-ix-s3-n2-exa-1 .statement tag=0C4A}
 
 Let $K$ be an arbitrary division ring. For each $x \in K$, put $|x| = 1$ if $x \neq 0$, and $|0| = 0$. The mapping $x \to |x|$ so defined is an absolute value on $K$, called the *improper* absolute value. The topology defined by an absolute value $|x|$ on a division ring $K$ is *discrete* if and only if $|x|$ is the improper absolute value. This condition is clearly sufficient; conversely, if the topology of $K$ is discrete, $|x|$ can take no value $\alpha > 0$ other than 1; for if we had $|x_0| = \alpha < 1$, the sequence $(x_0^n)$ would consist of non-zero terms and would converge to 0; to deal with the case $\alpha > 1$, consider $x_0^{-1}$ in place of $x_0$.
 
-#### Example 2 {#top-ix-s3-n2-exa-2 .statement}
+#### Example 2 {#top-ix-s3-n2-exa-2 .statement tag=0C4B}
 
 The absolute value of a real number (Chapter IV, § 1, no. 6) satisfies axioms (VM_I), (VM_{II}) and (VM_{III}), and the topology it defines on the field $\mathbf{R}$ is the topology of the real line. On the field $\mathbf{C}$ of complex numbers (identified with $\mathbf{R}^2$) [resp. the division ring $\mathbf{H}$ of quaternions (identified with $\mathbf{R}^4$)] the Euclidean norm is again an absolute value and defines the topology of the field $\mathbf{C}$ (resp. the division ring $\mathbf{H}$) (Chapter VIII, § 1, nos. 2 and 4).
 
-#### Example 3 {#top-ix-s3-n2-exa-3 .statement}
+#### Example 3 {#top-ix-s3-n2-exa-3 .statement tag=0C4C}
 
 On a division ring $K$, a real valuation is a function $v$ defined on $K^*$ with values in $\mathbf{R}$ which satisfies the following conditions: a) if $x \in K^*$ and $y \in K^*$, then $v(xy) = v(x) + v(y)$; b) if in addition $x + y \neq 0$, then $v(x + y) \geq \inf(v(x), v(y))$. If $a$ is any real number $> 1$, we can then define an absolute value on $K$ by putting $|x| = a^{-v(x)}$ for $x \neq 0$, and $|0| = 0$. For the relation $v(xy) = v(x) + v(y)$ for $x \neq 0$ and $y \neq 0$ implies the relation $|xy| = |x|.|y|$ for these values of $x$ and $y$, and this relation is trivially true if one of $x, y$ is zero; likewise, from the relation $v(x + y) \geq \inf(v(x), v(y))$ for $x \neq 0, y \neq 0$ and $x + y \neq 0$ we deduce $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, and these inequalities are still satisfied if one of $x, y, x + y$ is zero. In particular, if $v_p(x)$ is the $p$-adic valuation on the field $\mathbf{Q}$ of rational numbers (the exponent of $p$ in the decomposition of $x$ into a product of prime factors), then the corresponding absolute value $|x|_p = p^{-v_p(x)}$ is called the $p$-adic absolute value on the field $\mathbf{Q}$ (cf. Chapter III, § 6, Exercise 23).
 
-#### Remark {#top-ix-s3-n2-rem-1 .statement}
+#### Remark {#top-ix-s3-n2-rem-1 .statement tag=0C4D}
 
 If $x$ is a root of unity in a valued division ring, then $|x| = 1$, for $x^n = 1$ implies $|x|^n = 1$ and hence $|x| = 1$. In particular, the only absolute value on a finite field is the improper absolute value, since every element $\neq 0$ of such a field is a root of unity.
 
-#### Definition 4 {#top-ix-s3-def-4 .statement}
+#### Definition 4 {#top-ix-s3-def-4 .statement tag=0C4E}
 
 Two absolute values on a division ring $K$ are said to be equivalent if they define the same topology on $K$.
 
-#### Proposition 5 {#top-ix-s3-prop-5 .statement}
+#### Proposition 5 {#top-ix-s3-prop-5 .statement tag=0C4F}
 
 Two absolute values $|x|_1, |x|_2$ on a division ring $K$, neither of which is the improper absolute value, are equivalent if and only if the relation $|x|_1 < 1$ implies $|x|_2 < 1$. There exists then a real number $\rho > 0$ such that $|x|_2 = |x|_1^\rho$ for all $x \in K$.
 
@@ -278,11 +278,11 @@ $$
 $$
 which can be expressed by saying that $v(x) = -\log |x| \ (x \neq 0)$ is a valuation on $K$.
 
-#### Remark {#top-ix-s3-n2-rem-2 .statement}
+#### Remark {#top-ix-s3-n2-rem-2 .statement tag=0C4G}
 
 The proof of Proposition 5 shows that, if the topology defined by $|x|_2$ is coarser than that defined by $|x|_1$, and if $|x|_1$ is not improper, then $|x|_1$ and $|x|_2$ are equivalent, for the relation $|x|_2 < 1$ then implies $|x|_2 < 1$. Thus the topologies defined by two absolute values on $K$, neither of which is improper, cannot be comparable without being identical.
 
-#### Proposition 6 {#top-ix-s3-prop-6 .statement}
+#### Proposition 6 {#top-ix-s3-prop-6 .statement tag=0C4H}
 
 *The completion* $\hat{K}$ *of a division ring* $K$ *endowed with an absolute value* $|x|$ *is a division ring, and the function* $|x|$ *can be extended by continuity to an absolute value on* $\hat{K}$, *which defines the topology of* $\hat{K}$.
 
@@ -298,7 +298,7 @@ and the first part of the proposition follows. The invariant metric $|x - y| = d
 
 ### 3. NORMED SPACES OVER A VALUED DIVISION RING
 
-#### Definition 5 {#top-ix-s3-def-5 .statement}
+#### Definition 5 {#top-ix-s3-def-5 .statement tag=0C4I}
 
 *If E is a (left) vector space over a non-discrete valued division ring K, a norm on E is a mapping $x \to p(x)$ of E into $\mathbf{R}_+$ which satisfies the following axioms*:
 
@@ -344,7 +344,7 @@ In a normed space E, the closed ball B with centre o and radius 1, that is the s
 
 Let E be a normed space over a non-discrete valued field $K$.
 
-#### Proposition 7 {#top-ix-s3-prop-7 .statement}
+#### Proposition 7 {#top-ix-s3-prop-7 .statement tag=0C4J}
 
 Two norms $p, q$ on a vector space $E$ are equivalent if and only if there exist two numbers $a > 0, b > 0$ such that
 
@@ -362,7 +362,7 @@ p(x) \leq \frac{1}{|t_0|^k} \leq \frac{1}{\alpha |t_0|} q(x);
 $$
 putting $a = \alpha |t_0|$ we have therefore $a . p(x) \leq q(x)$ for all $x \neq o$, and this inequality is also valid when $x = o$. Similarly we show that if the topology defined by $p$ is finer than that defined by $q$, there exists $b > 0$ such that $q(x) \leq b . p(x)$.
 
-#### Example {#top-ix-s3-n3-exa-1 .statement}
+#### Example {#top-ix-s3-n3-exa-1 .statement tag=0C4K}
 
 In the space $\mathbf{R}^n$, the three norms
 $$
@@ -374,7 +374,7 @@ $$
 \sup_{1 \leq i \leq n} |x_i| \leq \sqrt{\sum_{i=1}^n x_i^2} \leq \sum_{i=1}^n |x_i| \leq n . \sup_{1 \leq i \leq n} |x_i|.
 $$
 
-#### Proposition 8 {#top-ix-s3-prop-8 .statement}
+#### Proposition 8 {#top-ix-s3-prop-8 .statement tag=0C4L}
 
 Let $E$ be a normed space over a non-discrete valued division ring, let $p$ be the norm on $E$, and let $\hat{E}$ be the additive topological group which is the completion of the additive group $E$. Then the function $(t, x) \to tx$ can be extended by continuity to $\hat{K} \times \hat{E}$ and defines on $\hat{E}$ a vector space structure over $\hat{K}$; the norm $p$ can be extended by continuity to a norm $\bar{p}$ on $\hat{E}$ which defines the topology of $\hat{E}$.
 
@@ -384,7 +384,7 @@ When we have to consider a definite normed space structure on a vector space $E$
 
 ### 4. QUOTIENT SPACES AND PRODUCT SPACES OF NORMED SPACES
 
-#### Proposition 9 {#top-ix-s3-prop-9 .statement}
+#### Proposition 9 {#top-ix-s3-prop-9 .statement tag=0C4M}
 
 *Let $E$ be a normed space over a non-discrete valued division ring $K$, and let $H$ be a closed vector subspace of $E$. If, for each class $\dot{x} \in E/H$, we put $||\dot{x}|| = \inf_{x \in \dot{x}} ||x||$, the function $||\dot{x}||$ is a norm on the vector space $E/H$, and the topology defined by this norm is the quotient by $H$ of the topology of $E$.*
 
@@ -392,7 +392,7 @@ By Remark 2 of no. 1, $d(\dot{x}, \dot{y}) = ||\dot{x} - \dot{y}||$ is an invari
 
 The norm $||\dot{x}||$ may also be interpreted as follows: it is the distance (in $E$) *of every point* $x \in \dot{x}$ *from the subspace* $H$, for the points of $\dot{x}$ are the points $x - z$, where $z$ runs through $H$.
 
-#### Proposition 10 {#top-ix-s3-prop-10 .statement}
+#### Proposition 10 {#top-ix-s3-prop-10 .statement tag=0C4N}
 
 *Let $(E_i)_{1 \leq i \leq n}$ be a finite family of normed spaces over a non-discrete valued division ring $K$, and let $E = \prod_{i=1}^n E_i$ be the product vector space. If for each $x = (x_i) \in E$ we put $||x|| = \sup_{1 \leq i \leq n} ||x_i||$, then the function $||x||$ is a norm on $E$, and the topology it defines on $E$ is the product of the topologies of the $E_i$.
 
@@ -416,7 +416,7 @@ for $x = (x_i)_{1 \leq i \leq n}$, then the three functions $p_1, p_2, p_3$ are 
 
 ### 5. CONTINUOUS MULTILINEAR FUNCTIONS
 
-#### Theorem 1 {#top-ix-s3-thm-1 .statement}
+#### Theorem 1 {#top-ix-s3-thm-1 .statement tag=0C4O}
 
 *Let $E_i (1 \leq i \leq n)$ and $F$ be normed spaces over a non-discrete valued division ring $K$, and let $f$ be a multilinear mapping of $\prod_{i=1}^n E_i$ into $F$. Then $f$ is continuous on $\prod_{i=1}^n E_i$ if and only if there exists a real number $a > 0$ such that, for all $x_i \in E_i \ (1 \leq i \leq n)$, we have*
 
@@ -454,13 +454,13 @@ $$
 
 Since the right-hand side of this inequality is a polynomial in $r$ with zero constant term, it tends to 0 as $r$ tends to 0; hence $f$ is continuous.
 
-#### Remark {#top-ix-s3-n5-rem-1 .statement}
+#### Remark {#top-ix-s3-n5-rem-1 .statement tag=0C4P}
 
 Two of the propositions proved earlier are consequences of this theorem: the continuity of the bilinear function $tr$, by virtue of the relation $xr = t \cdot x$; and Proposition 7, by applying Theorem 1 to the identity mapping of $E$, considered as a linear mapping of the space $E$, endowed with the norm $p$ into the space $E$ endowed with the norm $q$ (or vice versa).
 
 ### 6. ABSOLUTELY SUMMABLE FAMILIES IN A NORMED SPACE
 
-#### Definition 8 {#top-ix-s3-def-8 .statement}
+#### Definition 8 {#top-ix-s3-def-8 .statement tag=0C4Q}
 
 In a normed space $E$, a family $(x_i)$ of points of $E$ is said to be absolutely summable if the family $(||x_i||)$ of norms of the $x_i$ is summable in $\mathbf{R}$.
 
@@ -474,7 +474,7 @@ $$
 
 Indeed, for each finite subset $J$ of $I$ we have $\left\| \sum_{i \in J} x_i \right\| \leq \sum_{i \in J} \|x_i\|$, and the inequality (4) follows by passing to the limit with respect to the directed set of finite subsets of $I$.
 
-#### Proposition 11 {#top-ix-s3-prop-11 .statement}
+#### Proposition 11 {#top-ix-s3-prop-11 .statement tag=0C4R}
 
 In a complete normed space E, every absolutely summable family is summable.
 
@@ -482,7 +482,7 @@ For if $(x_i)$ is an absolutely summable family in E, then for each $\varepsilon
 
 A series whose general term is $x_n$ is said to be *absolutely convergent* in E if the series whose general term is $||x_n||$ is convergent in $\mathbf{R}$, or (equivalently) if the family $(x_n)$ is absolutely summable; consequently (Chapter III, § 5, no. 7, Proposition 9):
 
-#### Corollary {#top-ix-s3-n6-cor-1 .statement}
+#### Corollary {#top-ix-s3-n6-cor-1 .statement tag=0C4S}
 
 In a complete normed space E, every absolutely convergent series is *commutatively convergent*.
 
@@ -494,7 +494,7 @@ However, we have seen in Chapter VII, § 3, no. 1, that every summable family in
 
 ### 7. NORMED ALGEBRAS OVER A VALUED FIELD
 
-#### Definition 9 {#top-ix-s3-def-9 .statement}
+#### Definition 9 {#top-ix-s3-def-9 .statement tag=0C4T}
 
 *If A is an algebra over a non-discrete valued field K, a norm $p(x)$ on A (A being considered as a vector space over K) is said to be compatible with the algebra structure of A if the topology it defines is compatible with the ring structure of A. An algebra over K, endowed with the structure defined by a norm compatible with the algebra structure, is called a normed algebra.*
 
@@ -510,15 +510,15 @@ $$
 ||x^n|| \leq ||x||^n.
 $$
 
-#### Example 1 {#top-ix-s3-n7-exa-1 .statement}
+#### Example 1 {#top-ix-s3-n7-exa-1 .statement tag=0C4U}
 
 Let $K$ be a valued division ring and let $K'$ be a subfield of the centre of $K$ such that the trace on $K'$ of the absolute value $|x|$ of $K$ is not the improper absolute value on $K'$. Then $K$, with $|x|$ as norm, is a normed algebra over $K'$.
 
-#### Example 2 {#top-ix-s3-n7-exa-2 .statement}
+#### Example 2 {#top-ix-s3-n7-exa-2 .statement tag=0C4V}
 
 Let $K$ be a non-discrete valued field and let $M_n(K)$ be the ring of square matrices of order $n$ over $K$. Regarded as a vector space over $K$, $M_n(K)$ is isomorphic to $K^{n^2}$. If for each $X = (x_{ij}) \in M_n(K)$ we define $\|X\| = \sup_{i,j} |x_{ij}|$, then $\|X\|$ is a norm on $M_n(K)$, and the topology defined by this norm is the product topology on $K^{n^2}$ (Proposition 10); from this it follows (because of the continuity of polynomials in any number of variables over $K$) that this norm is compatible with the $K$-algebra structure of $M_n(K)$.
 
-#### Example 3 {#top-ix-s3-n7-exa-3 .statement}
+#### Example 3 {#top-ix-s3-n7-exa-3 .statement tag=0C4W}
 
 The set $\mathscr{B}(X; K)$ of all functions $f$ on a set $X$ with values in a non-discrete valued field $K$, such that $x \to |f(x)|$ is bounded on $X$, is an algebra over $K$; the norm $\|f\| = \sup_{x \in X} |f(x)|$ is compatible with the ring structure of $\mathscr{B}(X; K)$, because we have $\|fg\| \leq \|f\|\cdot\|g\|$ (cf. Chapter X, § 1).
 
@@ -542,7 +542,7 @@ If $||e|| = 1$ we have $||te|| = |t|$, and we can then identify the valued field
 
 In what follows we shall be concerned only with normed algebras which have an identity element $e$, and in which the norm satisfies the inequality (5); putting $x = y = e$ in this inequality, it follows that $||e|| \geq 1$.
 
-#### Proposition 12 {#top-ix-s3-prop-12 .statement}
+#### Proposition 12 {#top-ix-s3-prop-12 .statement tag=0C4X}
 
 *If the series whose general term is $z^n$ is convergent in $A$, then $e - z$ is a unit of $A$ and we have*
 $$
@@ -558,13 +558,13 @@ If the series whose general term is $z^n$ is convergent and if $y$ is its sum, t
 
 Conversely, if $||z|| < 1$, then since $||z^{p+1}|| \leq ||z||^{p+1}$, it follows that $z^{p+1}$ tends to 0 as $p \to +\infty$; multiplying both sides (8) on the left by $(e-z)^{-1}$ and letting $p$ tend to infinity, we see that the series whose general term is $z^n$ converges and has $(e-z)^{-1}$ as its sum.
 
-#### Corollary {#top-ix-s3-n7-cor-1 .statement}
+#### Corollary {#top-ix-s3-n7-cor-1 .statement tag=0C4Y}
 
 *Let A be a complete normed algebra. Then for each $z \in A$ such that $||z|| < 1$, $e - z$ is a unit in A.*
 
 The series whose general term is $z^n$ is absolutely convergent, since $||z^n|| \leq ||z||^n$ for $n > 0$, and is therefore convergent, since A is complete (no. 6, Proposition 11).
 
-#### Proposition 13 {#top-ix-s3-prop-13 .statement}
+#### Proposition 13 {#top-ix-s3-prop-13 .statement tag=0C4Z}
 
 *Let G be the group of units of a complete normed algebra A. Then G is an open subset of A; the topology induced on G by the topology of A is compatible with the group structure of G; and G, endowed with this topology, is a complete group* (with respect to each of its two uniformities).
 
@@ -597,7 +597,7 @@ $$
 $$
 Let $a$ be a point of $M$; for each $x \in M$ we have $||x - a|| \leq \varepsilon \ ||a||$, and therefore $||x|| \leq (1 + \varepsilon)||a||$. On the other hand, there exists a set $N \subset M$ belonging to $\mathfrak{F}$ and such that $||x^{-1}y - e|| \leq \varepsilon/(1 + \varepsilon)||a||$ for all $x$ and $y$ in $N$; it follows that $||y - x|| \leq \varepsilon ||x||/(1 + \varepsilon)||a|| \leq \varepsilon$, which shows that $\mathfrak{F}$ is a Cauchy filter with respect to the additive uniformity of $A$, and therefore converges to a point $x_0$, since $A$ is complete. Since $x_0$ is the limit of $\mathfrak{F}$, we have $||x^{-1}x_0 - e|| \leq \varepsilon$ for all $x \in M$ by the principle of extension of inequalities; since $\varepsilon > 1$, it follows that $x^{-1}x_0$ is a unit in $A$; hence $x_0$ is a unit, i.e., $x_0 \in G$.
 
-#### Proposition 14 {#top-ix-s3-prop-14 .statement}
+#### Proposition 14 {#top-ix-s3-prop-14 .statement tag=0C50}
 
 *In a complete valued division ring, the multiplicative group of non-zero elements is a complete group.*
 
@@ -605,7 +605,7 @@ The proof is similar to that of Proposition 13; we have only to replace the norm
 
 Note that we cannot apply Proposition 13 directly, because a (non-commutative) valued division ring is not necessarily an algebra over a *non-discrete* valued field (the restriction of the absolute value to the centre of the division ring might be improper).
 
-#### Remark {#top-ix-s3-n7-rem-1 .statement}
+#### Remark {#top-ix-s3-n7-rem-1 .statement tag=0C51}
 
 Proposition 13 is not necessarily true for a non-complete normed algebra. For example, in the algebra $C(I; \mathbf{R})$ of all finite continuous real-valued functions on $I = [0, 1]$ [the norm being $||x|| = \sup_{t \in I} |x(t)|$], the subalgebra $P$ of all *polynomials* in $t$ (restricted to $I$) is *not* complete; if $x(t)$ is any non-constant polynomial, then $1 + \varepsilon x$ is arbitrarily close to the identity element 1 of $P$ when $\varepsilon$ is arbitrarily small, but $1 + \varepsilon x$ is not a unit *in* $P$. However, if $A$ is a non-complete normed algebra, $G$ its group of units, $\hat{A}$ the completion of $A$, then $G$ is a subgroup of the group of units of $\hat{A}$, and therefore the topology induced on $G$ by the topology of $A$ is compatible with the group structure of $G$.
 

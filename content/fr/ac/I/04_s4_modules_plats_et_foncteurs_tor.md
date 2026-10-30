@@ -11,14 +11,14 @@ pdf_pages: 0053-0055, 0066-0066
 extraction: ocr
 statements: 3
 exercises: 1
-content_sha256: 6e0fb424cf57e891b3031ba428b07482d1d4a83c9d44a019ddc74d688deaf442
+content_sha256: c9b453b3f7b38b37b0792439f6d2eef5c70318c558abb82af38615cb838f79ed
 ---
 
 ## § 4. Modules plats et foncteurs « Tor »
 
 A l’usage des lecteurs au courant de l’Algèbre homologique (*), nous allons indiquer rapidement comment la théorie des modules plats se relie à celle des foncteurs Tor.
 
-#### Proposition 1 {#ac-i-s4-prop-1 .statement}
+#### Proposition 1 {#ac-i-s4-prop-1 .statement tag=044W}
 
 Soit E un A-module à droite. Les quatre propriétés suivantes sont équivalentes :
 
@@ -69,7 +69,7 @@ $$
 $$
 montre que $\operatorname{Tor}_1^A(E', F) = 0$, donc $E'$ est plat.
 
-#### Proposition 2 {#ac-i-s4-prop-2 .statement}
+#### Proposition 2 {#ac-i-s4-prop-2 .statement tag=044X}
 
 Soient R, S deux anneaux, $\rho : R \to S$ un homomorphisme et F un R-module à gauche. Les deux propriétés suivantes sont équivalentes :
 
@@ -108,7 +108,7 @@ $$
 
 On déduit alors de (2) que $\mathrm{Tor}_1^R(\rho_*(E), F) = 0$.
 
-#### Remarque {#ac-i-s4-n0-rem-1 .statement}
+#### Remarque {#ac-i-s4-n0-rem-1 .statement tag=044Y}
 
 La proposition 2 découle aussi de l’existence de la suite exacte
 

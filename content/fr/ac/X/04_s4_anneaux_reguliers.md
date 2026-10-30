@@ -33,14 +33,14 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: 5d1bd7cb23ec2da07b1525fb7c3a149ca2b8c1850631a7e88315d0492db18876
+content_sha256: e0363ee31c7c30afeb11ad23ed65f30602d0f66e96e7aae6b5e32f8c5e5668df
 ---
 
 ## § 4. ANNEAUX RÉGULIERS
 
 ### 1. Propriétés homologiques élémentaires des anneaux locaux réguliers
 
-#### Proposition 1 {#ac-x-s4-prop-1 .statement}
+#### Proposition 1 {#ac-x-s4-prop-1 .statement tag=0D5M}
 
 Soient $A$ un anneau local noethérien régulier et $n$ sa dimension. On a $\mathrm{dh}(A) = n$ et, pour tout entier $i \geqslant 0$,
 
@@ -56,13 +56,13 @@ $$
 
 Il résulte alors du cor. 1 de la prop. 4 du n° 3, § 3 que $\mathrm{dh}(A) = n$.
 
-#### Proposition 2 {#ac-x-s4-prop-2 .statement}
+#### Proposition 2 {#ac-x-s4-prop-2 .statement tag=0D5N}
 
 Un anneau local noethérien régulier est factoriel.
 
 D’après la prop. 1, tout module de type fini sur un anneau local noethérien régulier admet une résolution projective de longueur finie par des modules projectifs de type fini, donc libres (II, § 3, n° 2, cor. 2 de la prop. 5). Il résulte alors de VII, § 4, n° 7, cor. 3 de la prop. 16 qu’un tel anneau est factoriel.
 
-#### Proposition 3 {#ac-x-s4-prop-3 .statement}
+#### Proposition 3 {#ac-x-s4-prop-3 .statement tag=0D5O}
 
 Soient $A$ un anneau local noethérien régulier et $M$ un $A$-module non nul de type fini. Sa dimension projective est finie et l’on a
 
@@ -72,27 +72,27 @@ $$
 
 En effet, $M$ est de dimension projective finie (prop. 1), et l’on a $\mathrm{prof}(A) = \dim(A)$ puisque $A$ est un anneau de Macaulay ($§ 2$, n° 5, exemple 7). On applique alors le th. 1 du § 3, n° 5.
 
-#### Corollaire 1 {#ac-x-s4-prop-3-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s4-prop-3-cor-1 .statement tag=0D5P}
 
 On a $\mathrm{dp}_A(M) \geqslant \dim(A) - \dim(M)$; pour qu’il y ait égalité, il faut et il suffit que $M$ soit macaulayen.
 
-#### Corollaire 2 {#ac-x-s4-prop-3-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s4-prop-3-cor-2 .statement tag=0D5Q}
 
 Pour que le $A$-module $M$ soit libre, il faut et il suffit qu’il soit macaulayen et de dimension $\dim(A)$, ou encore qu’il soit de profondeur $\geqslant \dim(A)$.
 
-#### Corollaire 3 {#ac-x-s4-prop-3-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s4-prop-3-cor-3 .statement tag=0D5R}
 
 Tout module réflexif de type fini sur un anneau local noethérien régulier de dimension 2 est libre.
 
 En effet, un anneau local noethérien régulier est intégralement clos (VIII, § 5, n° 2, cor. 1 du th. 1). Le corollaire 3 résulte donc du corollaire 2 et du § 1, n° 10, prop. 16.
 
-#### Corollaire 4 {#ac-x-s4-prop-3-cor-4 .statement}
+#### Corollaire 4 {#ac-x-s4-prop-3-cor-4 .statement tag=0D5S}
 
 Soit $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens. On suppose que $A$ est régulier et que $\rho$ fait de $B$ un $A$-module de type fini. On a alors $dp_A(B) \geq \dim(A) - \dim(B)$. Pour que $B$ soit un anneau de Macaulay, il faut et il suffit que l’on ait $dp_A(B) = \dim(A) - \dim(B)$. Pour que $B$ soit un anneau de Macaulay de dimension égale à $\dim(A)$, il faut et il suffit que le $A$-module $B$ soit libre.
 
 En effet, on a $\dim(B) = \dim_A(B)$ (VIII, § 2, n° 3, th. 1) ; par ailleurs, $B$ est un anneau de Macaulay si et seulement si c’est un $A$-module de Macaulay (§ 2, n° 6, prop. 8). Il suffit donc d’appliquer les corollaires 1 et 2.
 
-#### Remarque {#ac-x-s4-n1-rem-1 .statement}
+#### Remarque {#ac-x-s4-n1-rem-1 .statement tag=0D5T}
 
 Le corollaire 4 permet de caractériser les anneaux locaux de Macaulay dans plusieurs cas importants. Soit $A$ un anneau local noethérien ; c’est un anneau de Macaulay si et seulement s’il en est ainsi de $\hat{A}$ (§ 2, n° 7, cor. 4 de la prop. 9). Supposons désormais l’anneau local $A$ complet et posons $d = \dim(A)$.
 
@@ -115,7 +115,7 @@ Pour des résultats analogues dans le cas des modules, voir le § 5, n° 5.
 
 ### 2. Caractérisation homologique des anneaux noethériens réguliers
 
-#### Théorème 1 (Serre) {#ac-x-s4-thm-1 .statement}
+#### Théorème 1 (Serre) {#ac-x-s4-thm-1 .statement tag=0D5U}
 
 Pour qu’un anneau local noethérien soit régulier, il faut et il suffit que sa dimension homologique soit finie.
 
@@ -140,11 +140,11 @@ Par conséquent, si $A$ est un anneau local noethérien, il y a équivalence ent
 (ii) le $A$-module $\kappa_A$ est de dimension projective finie ;
 (iii) tout $A$-module de type fini est de dimension projective $< +\infty$.
 
-#### Définition 1 {#ac-x-s4-def-1 .statement}
+#### Définition 1 {#ac-x-s4-def-1 .statement tag=0D5V}
 
 On dit qu’un anneau $A$ est régulier s’il est noethérien et que l’anneau local $A_m$ est régulier pour tout idéal maximal $m$ de $A$.
 
-#### Proposition 4 {#ac-x-s4-prop-4 .statement}
+#### Proposition 4 {#ac-x-s4-prop-4 .statement tag=0D5W}
 
 Soit $A$ un anneau noethérien. Les conditions suivantes sont équivalentes :
 (i) $A$ est régulier ;
@@ -156,19 +156,19 @@ Soit $\mathfrak{p}$ un idéal premier de $A$; si le $A$-module $A/\mathfrak{p}$ 
 
 Prouvons que (i) implique (ii). Soit $M$ un $A$-module de type fini. Sous l’hypothèse (i), on a $\mathrm{dp}_{A_m}(M_m) \leq \mathrm{dh}(A_m) < +\infty$ pour tout idéal maximal $m$ de $A$ (n° 1, prop. 1) ; donc $M$ est de dimension projective $< +\infty$ ($§ 3$, n° 2, cor. 2 de la prop. 3), d’où (ii).
 
-#### Exemple 1 {#ac-x-s4-n2-exa-1 .statement}
+#### Exemple 1 {#ac-x-s4-n2-exa-1 .statement tag=0D5X}
 
 Si l’anneau $A$ est régulier, l’anneau de fractions $S^{-1}A$ est régulier pour toute partie multiplicative $S$ de $A$ : cela résulte par exemple de la caractérisation (iii) ci-dessus.
 
-#### Exemple 2 {#ac-x-s4-n2-exa-2 .statement}
+#### Exemple 2 {#ac-x-s4-n2-exa-2 .statement tag=0D5Y}
 
 Pour qu’un anneau soit régulier, il faut et il suffit qu’il soit isomorphe au produit d’une famille finie d’anneaux réguliers intègres ; cela résulte en effet de ce que tout anneau régulier est localement intègre ($§ 1$, n° 8), puisque les anneaux locaux réguliers sont intègres.
 
-#### Exemple 3 {#ac-x-s4-n2-exa-3 .statement}
+#### Exemple 3 {#ac-x-s4-n2-exa-3 .statement tag=0D5Z}
 
 Les anneaux réguliers intègres de dimension $\leq 1$ sont les anneaux de Dedekind (VIII, $§ 5$, n° 1, exemple 1 et VII, $§ 2$, n° 2, théorème 1).
 
-#### Corollaire 1 {#ac-x-s4-prop-4-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s4-prop-4-cor-1 .statement tag=0D60}
 
 *Soit $A$ un anneau noethérien. Les conditions suivantes sont équivalentes* :
 
@@ -187,13 +187,13 @@ $$
 
 Il existe des anneaux noethériens réguliers de dimension infinie (VIII, $§ 5$, exerc. 6).
 
-#### Corollaire 2 {#ac-x-s4-prop-4-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s4-prop-4-cor-2 .statement tag=0D61}
 
 *Un anneau régulier est normal, de Gorenstein et de Macaulay.*
 
 En effet, un anneau local régulier est intégralement clos (VIII, $§ 5$, n° 2, cor. 1 du th. 1), de Gorenstein ($§ 3$, n° 9, exemple 4) et de Macaulay ($§ 2$, n° 5, exemple 6).
 
-#### Corollaire 3 {#ac-x-s4-prop-4-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s4-prop-4-cor-3 .statement tag=0D62}
 
 *Soient $A$ un anneau noethérien, $J$ un idéal de $A$ et $\hat{A}$ le séparé complété de $A$ pour la topologie $J$-adique.*
 
@@ -203,13 +203,13 @@ b) *Si l’anneau $A$ est régulier, l’anneau $\hat{A}$ est régulier. Si l’
 
 D’après la prop. 8 de III, , n° 4, pour que l’anneau $\hat{A}$ soit régulier, il faut et il suffit qu’il en soit ainsi de $\hat{A}_m$ pour tout idéal maximal $m$ de $A$ contenant $J$. Comme les complétés des anneaux locaux $\hat{A}_m$ et $A_m$ sont isomorphes (*loc. cit.*), l’assertion a) résulte de VIII, § 5, n° 1, cor. de la prop. 1. L’assertion b) résulte de a)
 
-#### Corollaire 4 {#ac-x-s4-prop-4-cor-4 .statement}
+#### Corollaire 4 {#ac-x-s4-prop-4-cor-4 .statement tag=0D63}
 
 *Soient $A$ un anneau régulier et $P$ un $A$-module projectif de type fini. L’algèbre symétrique $S_A(P)$ est un anneau régulier.*
 
 Soient $p$ un idéal premier de $S_A(P)$ et $q$ son image réciproque dans $A$. L’anneau local $S_A(P)_p$ est un anneau de fractions de l’anneau $S_A(P)_q$, qui est isomorphe à $S_{A_q}(P_q)$ (A, III, p. 72, prop. 7); il suffit de prouver que ce dernier est régulier. Cela nous ramène au cas où $A$ est local ; mais alors $P$ est libre de type fini. D’après la prop. 1 du n° 1 et A, X, p. 143, cor. 1, on a $dh(S_A(P)) = dh(A) + rg_A(P) < +\infty$, et $S_A(P)$ est régulier d’après la prop. 4.
 
-#### Corollaire 5 {#ac-x-s4-prop-4-cor-5 .statement}
+#### Corollaire 5 {#ac-x-s4-prop-4-cor-5 .statement tag=0D64}
 
 *Soient $A$ un anneau régulier, et $(T_i)_{i \in I}$ une famille finie d’indéterminées. L’anneau de polynômes $A[(T_i)_{i \in I}]$ et l’anneau de séries formelles $A[[T_i]_{i \in I}]$ sont réguliers.*
 
@@ -217,7 +217,7 @@ Cela résulte du cor. 4 et du cor. 3 b).
 
 ### 3. Anneaux réguliers et algèbres finies
 
-#### Proposition 5 {#ac-x-s4-prop-5 .statement}
+#### Proposition 5 {#ac-x-s4-prop-5 .statement tag=0D65}
 
 *Soient $\rho : A \to B$ un homomorphisme d’anneaux noethériens et $N$ un $B$-module. On suppose que
 a) l’anneau $A$ est régulier,
@@ -230,7 +230,7 @@ Il s’agit de prouver que, pour tout idéal maximal $m$ de $A$, le $A_m$-module
 
 Soit $m$ un idéal maximal de $\mathrm{Supp}_A(N)$; posons $n = \dim(A_m)$. D’après le cor. 2 de la prop. 3 du n° 1, il suffit de prouver que $N_m$ est un $A_m$-module macaulayen de dimension $n$. Tout idéal maximal de $B_m$ est de la forme $nB_m$, où $n$ est un idéal premier de $B$ au-dessus de $m$ (V, § 2, n° 1, lemme 1 et prop. 1). Soit $p$ un idéal premier minimal de $\mathrm{Supp}_B(N)$, contenu dans $n$. La partie fermée $V(pB_n)$ de $\mathrm{Supp}_{B_n}(N_n)$ est alors de codimension nulle; le $B_n$-module $N_n$ étant macaulayen, le cor. de la prop. 2, § 2, n° 2 entraîne l’égalité $\dim_{B_n}(N_n) = \dim(B_n/pB_n)$. Mais $p$ est au-dessus d’un idéal premier minimal de $A$, contenu dans $m$, de sorte que pB_n est au-dessus d’un idéal premier minimal de A_m, qui est nul puisque l’anneau local A_m est régulier, donc intègre. L’application canonique A_m → B_n/pB_n est donc injective et il résulte de VIII, , n° 3, th. 1 que l’on a dim(B_n/pB_n) = n. La prop. 2 du § 2, n° 2 entraîne que le A_m-module N_m est macaulayen. La proposition résulte alors des relations dim_{A_m}(N_m) = dim_{B_m}(N_m) (VIII, § 2, n° 3, th. 1) et dim_{B_m}(N_m) ≥ dim_{B_n}(N_n) = n
 
-#### Corollaire {#ac-x-s4-n3-cor-1 .statement}
+#### Corollaire {#ac-x-s4-n3-cor-1 .statement tag=0D66}
 
 Soit B un anneau noethérien intègre et soit A un sous-anneau régulier de B. Supposons que le A-module B soit de type fini. Pour que l’anneau B soit de Macaulay, il faut et il suffit que le A-module B soit projectif.
 
@@ -238,7 +238,7 @@ Si l’anneau B est de Macaulay, le A-module B est projectif d’après la prop.
 
 Supposons inversement le A-module B projectif. Le A-module A est macaulayen (cor. 2 de la prop. 4) ; le A-module B est facteur direct dans un A-module libre de type fini, donc est macaulayen (§ 2, n° 1, exemple 2). On applique alors le cor. 1 de la prop. 8 du § 2, n° 6.
 
-#### Exemple {#ac-x-s4-n3-exa-1 .statement}
+#### Exemple {#ac-x-s4-n3-exa-1 .statement tag=0D67}
 
 Soit B une algèbre intègre non nulle de type fini sur un corps K. D’après VIII, § 2, n° 4, cor. 1 du th. 3, il existe une sous-algèbre A de B isomorphe à une algèbre de polynômes sur K et telle que B soit un A-module de type fini. Les propriétés suivantes sont équivalentes :
 
@@ -252,7 +252,7 @@ On dit qu’un anneau A est présentable s’il existe un anneau régulier R et 
 
 Par définition, les anneaux réguliers sont présentables.
 
-#### Proposition 6 {#ac-x-s4-prop-6 .statement}
+#### Proposition 6 {#ac-x-s4-prop-6 .statement tag=0D68}
 
 a) Tout anneau de fractions d’un anneau présentable est présentable. Toute algèbre de type fini sur un anneau présentable est un anneau présentable.
 
@@ -276,7 +276,7 @@ d) Soit $m_A$ l’idéal maximal de A ; alors $p = \rho^{-1}(m_A)$ est un idéal
 
 Puisque les corps et les anneaux de Dedekind sont réguliers, donc présentables, la proposition 6 implique que la plupart des anneaux rencontrés usuellement en géométrie algébrique sont présentables.
 
-#### Proposition 7 {#ac-x-s4-prop-7 .statement}
+#### Proposition 7 {#ac-x-s4-prop-7 .statement tag=0D69}
 
 Soit A un anneau présentable.
 
@@ -300,7 +300,7 @@ c) Cela se démontre comme la partie c) de loc. cit.
 
 ### 5. Anneaux réguliers et extensions plates
 
-#### Proposition 8 {#ac-x-s4-prop-8 .statement}
+#### Proposition 8 {#ac-x-s4-prop-8 .statement tag=0D6A}
 
 Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de B un A-module fidèlement plat.
 
@@ -322,7 +322,7 @@ $$
 
 est exacte et on a $dp_B(B \otimes_A N) = dp_B(B \otimes_A M) - 1$. L’hypothèse de récurrence appliquée à $N$ permet de conclure. Cela prouve a) ; l’assertion b) résulte de a) et de la prop. 4 du n° 2.
 
-#### Corollaire {#ac-x-s4-n5-cor-1 .statement}
+#### Corollaire {#ac-x-s4-n5-cor-1 .statement tag=0D6B}
 
 *Soit $B$ un anneau régulier intègre et soit $A$ un sous-anneau noethérien de $B$ tel que $B$ soit un $A$-module de type fini. Les conditions suivantes sont équivalentes :*
 
@@ -350,7 +350,7 @@ $$
 d\rho : \kappa_B \otimes_{\kappa_A} (\mathfrak{m}_A / \mathfrak{m}_A^2) \to \mathfrak{m}_B / \mathfrak{m}_B^2 .
 $$
 
-#### Lemme 1 {#ac-x-s4-lem-1 .statement}
+#### Lemme 1 {#ac-x-s4-lem-1 .statement tag=0D6C}
 
 *On a*
 
@@ -378,7 +378,7 @@ $$
 
 qui entraîne le lemme.
 
-#### Proposition 9 {#ac-x-s4-prop-9 .statement}
+#### Proposition 9 {#ac-x-s4-prop-9 .statement tag=0D6D}
 
 *Soit $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens. Les conditions suivantes sont équivalentes :
 
@@ -401,11 +401,11 @@ On a $\dim(B) \leq \dim(A) + \dim(\kappa_A \otimes_A B)$ (VIII, § 3, n° 4, cor
 
 Il nous suffit maintenant de prouver que lorsque les conditions équivalentes (i) et (iv) sont satisfaites, le $A$-module $B$ est plat. Soit $x$ un système de coordonnées de $A$. Puisque $d\rho$ est injective, l’image par $\rho$ de cette suite fait partie d’un système de coordonnées de $B$. Ainsi la suite $x$ est complètement sécante pour $A$ et pour $B$ (VIII, § 5, n° 3, prop. 2), et engendre l’idéal $\mathfrak{m}_A$ de $A$. D’après la remarque 3 de A, X, p. 159, le $A$-module $\mathrm{Tor}_1^A(\kappa_A, B)$ est isomorphe à $H_1(x, B)$, donc est nul ; il en résulte que $B$ est plat sur $A$ (III, § 5, n° 2, th. 1 et n° 4, prop. 2).
 
-#### Exemple {#ac-x-s4-n5-exa-1 .statement}
+#### Exemple {#ac-x-s4-n5-exa-1 .statement tag=0D6E}
 
 *Soient $X$, $Y$ deux variétés analytiques complexes, localement de dimension finie, $f$ un morphisme de $X$ dans $Y$, et $x$ un point de $X$. Considérons l’homomorphisme local $\rho : \mathscr{O}_{Y, f(x)} \to \mathscr{O}_{X, x}$ associé à $f$. L’application $d\rho$ est la transposée de l’application tangente $T_x(f) : T_x(X) \to T_{f(x)}(Y)$. Les conditions (i) à (iv) de la proposition 9 équivalent donc dans ce cas au fait que $f$ soit une submersion en $x$ (VAR, R, 5.9.1).*
 
-#### Corollaire {#ac-x-s4-n5-cor-2 .statement}
+#### Corollaire {#ac-x-s4-n5-cor-2 .statement tag=0D6F}
 
 *Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de $B$ un $A$-module plat. Si $A$ est régulier et si $\kappa(\rho^{-1}(\mathfrak{n})) \otimes_{A} B$ est régulier pour tout idéal maximal $\mathfrak{n}$ de $B$, l’anneau $B$ est régulier.
 

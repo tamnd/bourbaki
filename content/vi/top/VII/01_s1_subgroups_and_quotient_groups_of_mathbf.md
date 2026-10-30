@@ -36,7 +36,7 @@ subsections:
       pdf_page: 84
 statements: 19
 exercises: 15
-content_sha256: 65cd9338deeb3d6873040375471ca39229d801c0637623230864792dc61799fe
+content_sha256: 30a3b150576acd8cca79a0345eaf2e2e2ca525cdab4ac489c094176d894f26d7
 translated_from: content/en/top/VII/01_s1_subgroups_and_quotient_groups_of_mathbf.md
 source_content_sha256: 07826542ef19c3012458e0f7113389f19de5a79362d99c7d0a88b25808de4eb6
 translation_model: gpt-5.4-mini, gpt-5-6-mini
@@ -76,7 +76,7 @@ Nhóm thương $G/H$ là một nhóm rời rạc đẳng cấu với $\mathbf{Z}
 
 Bây giờ ta sẽ chỉ ra rằng các nhóm con rời rạc của $\mathbf{R}^n$ mà ta vừa xét là những nhóm duy nhất tồn tại.
 
-#### Mệnh đề 1 {#top-vii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#top-vii-s1-prop-1 .statement tag=0BY4}
 
 *Cho $G$ là một nhóm con rời rạc của $\mathbf{R}^n$ có hạng $p$, cho $(a_i)_{1 \leq i \leq p}$ là một hệ tự do gồm $p$ điểm của $G$, và cho $P$ là hình bình hành đóng với tâm $o$ và các vectơ cơ sở $a_i$ (Chương VI, § 1, no. 3). Khi đó tập hợp $G \cap P$ là hữu hạn và sinh ra $G$, và mọi điểm của $G$ là một tổ hợp tuyến tính của các $a_i$ với các hệ số hữu tỉ.*
 
@@ -86,7 +86,7 @@ z_m = mx - \sum_{i=1}^p [mt_i] a_i = \sum_{i=1}^p (mt_i - [mt_i]) a_i \ (*) ;
 $$
 nó thuộc $G$, và vì $0 \leq mt_i - [mt_i] < 1$, nó nằm trong $P$. Do đó, thứ nhất, $x = z_1 + \sum_{i=1}^p [t_i] a_i$, suy ra $G$ được sinh bởi $G \cap P$; và thứ hai, vì $G \cap P$ là hữu hạn, tồn tại hai số nguyên phân biệt $h, k$ sao cho $z_h = z_k$, do đó $(h - k)t_i = [ht_i] - [kt_i]$ less ($1 \leq i \leq p$), và vì vậy các $t_i$ là các số hữu tỉ.
 
-#### Hệ quả {#top-vii-s1-n1-cor-1 .statement}
+#### Hệ quả {#top-vii-s1-n1-cor-1 .statement tag=0BY5}
 
 *Cho $(a_i)_{1 \leq i \leq p}$ là một hệ tự do gồm $p$ điểm của $\mathbf{R}^n$ và cho*
 $$
@@ -102,7 +102,7 @@ Kết quả của Mệnh đề 1 có thể được phát biểu như sau: nếu
 
 Hệ quả của Mệnh đề 1, khi áp dụng cho trường hợp các $a_i$ là $n$ vectơ $e_i$ của cơ sở chính tắc của $\mathbf{R}^n$, cho ta mệnh đề sau:
 
-#### Mệnh đề 2 (Kronecker) {#top-vii-s1-prop-2 .statement}
+#### Mệnh đề 2 (Kronecker) {#top-vii-s1-prop-2 .statement tag=0BY6}
 
 *Cho $\theta_1, \theta_2, \ldots, \theta_n$ là $n$ số thực. Để với mỗi $\varepsilon > 0$, tồn tại một số nguyên $q$ và $n$ số nguyên*
 $$
@@ -114,7 +114,7 @@ $$
 $$
 *với vế trái của ít nhất một trong các bất đẳng thức này không bằng 0, thì điều kiện cần và đủ là ít nhất một trong các $\theta_i$ là vô tỉ.*
 
-#### Định lý 1 {#top-vii-s1-thm-1 .statement}
+#### Định lý 1 {#top-vii-s1-thm-1 .statement tag=0BY7}
 
 *Mọi nhóm con rời rạc $G$ của $\mathbf{R}^n$, có hạng bằng $p$, đều được sinh bởi một hệ tự do gồm $p$ điểm.*
 
@@ -134,11 +134,11 @@ $$
 
 Chứng minh dựa trên mệnh đề sau:
 
-#### Mệnh đề 3 {#top-vii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#top-vii-s1-prop-3 .statement tag=0BY8}
 
 *Mọi nhóm con đóng không rời rạc của* $\mathbf{R}^n$ *đều chứa một đường thẳng đi qua* $o$.
 
-#### Định lý 2 {#top-vii-s1-thm-2 .statement}
+#### Định lý 2 {#top-vii-s1-thm-2 .statement tag=0BY9}
 
 Cho $(x_p)_{p \in \mathbf{N}}$ là một dãy vô hạn các điểm của $G$ sao cho $x_p \neq o$ và $\lim_{p \to \infty} x_p = o$; theo giả thiết, tồn tại một dãy như vậy. Cho $P$ là một khối lập phương mở có tâm $o$, chứa các $x_p$. Ký hiệu $k_p$ là số nguyên lớn nhất $h > 0$ sao cho $hx_p \in P$ (vì $P$ là một hộp bị chặn và $x_p \neq o$, sự tồn tại của $k_p$ suy ra từ tiên đề Archimedes). Các điểm $k_p x_p$ nằm trong một tập compact $\overline{P}$, do đó dãy $(k_p x_p)_{p \in \mathbf{N}}$ có một điểm tụ $a \in \overline{P}$. Nếu $\| (k_p + 1)x_p - a \| \leq \varepsilon$, ta có
 
@@ -162,7 +162,7 @@ Nếu $G \neq V$, ta có thể nói rằng $G$ là hợp của một vô hạn �
 
 Nếu $p$ là chiều của không gian con vectơ $V$, ta có $p \leq r$, và $W \cap G$ là một nhóm rời rạc có hạng $r - p$.
 
-#### Hệ quả 1 {#top-vii-s1-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#top-vii-s1-thm-2-cor-1 .statement tag=0BYA}
 
 Có một cơ sở $(a_i)_{1 \leq i \leq n}$ của $\mathbf{R}^n$, sao cho
 $$
@@ -172,7 +172,7 @@ và sao cho G là tập hợp các điểm $\sum_{i=1}^p t_i a_i + \sum_{j=p+1}^
 
 Điều này suy ra từ Định lý 2, và Định lý 1 của mục 1 được áp dụng cho nhóm rời rạc $W \cap G$.
 
-#### Hệ quả 2 {#top-vii-s1-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#top-vii-s1-thm-2-cor-2 .statement tag=0BYB}
 
 Có một tự đẳng cấu của $\mathbf{R}^n$ ánh xạ G lên nhóm $G'$, đẳng cấu với $\mathbf{R}^p \times \mathbf{Z}^{r-p}$, là tổng trực tiếp của không gian con vectơ sinh bởi $e_1, e_2, \ldots, e_p$ và nhóm con cộng tính (rời rạc) sinh bởi $e_{p+1}, e_{p+2}, \ldots, e_r$.
 
@@ -184,7 +184,7 @@ Các điều kiện duy nhất mà những số nguyên này phải thỏa mãn 
 
 Cho G là một nhóm con tùy ý (đóng hoặc không) của $\mathbf{R}^n$. Xét tập $G^*$ các điểm $u = (u_i) \in \mathbf{R}^n$ sao cho, với mọi $x = (x_i) \in G$, số $(u|x) = \sum_{i=1}^n u_i x_i$ là một số nguyên. Ta thấy ngay rằng $G^*$ là một nhóm con của $\mathbf{R}^n$; nó được gọi là nhóm con liên kết với G (*). Nếu G và H là hai nhóm con của $\mathbf{R}^n$ sao cho $H \subset G$, thì hiển nhiên $G^* \subset H^*$.
 
-#### Mệnh đề 4 {#top-vii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#top-vii-s1-prop-4 .statement tag=0BYC}
 
 *Nhóm con $G^*$ liên kết với một nhóm con G của $\mathbf{R}^n$ là đóng, và ta có $(\overline{G})^* = G^*.$*
 
@@ -210,7 +210,7 @@ p + 1 \leq i \leq p + q;
 $$
 do đó $G^*$ là tổng trực tiếp của một không gian con vectơ $W$ có một cơ sở gồm các $a'_i$ sao cho $p + q + 1 \leq i \leq n$, và một nhóm con rời rạc sinh bởi các $a'_i$ sao cho $p + 1 \leq i \leq p + q$. Nói cách khác:
 
-#### Mệnh đề 5 {#top-vii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#top-vii-s1-prop-5 .statement tag=0BYD}
 
 *Đối với mọi nhóm con đóng* $G$ *của* $\mathbf{R}^n$,
 $$
@@ -218,17 +218,17 @@ r(G^*) = n - d(G) \quad \text{và} \quad d(G^*) = n - r(G).
 $$
 Ta áp dụng cùng lập luận cho $G^*$. Nhận thấy rằng cơ sở đối ngẫu với $(a'_i)$ là $(a_i)$, ta thấy rằng:
 
-#### Mệnh đề 6 {#top-vii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#top-vii-s1-prop-6 .statement tag=0BYE}
 
 *Đối với mọi nhóm con* $G$ *của* $\mathbf{R}^n$, *ta có* $(G^*)^* = \overline{G}$.
 
-#### Hệ quả {#top-vii-s1-n3-cor-1 .statement}
+#### Hệ quả {#top-vii-s1-n3-cor-1 .statement tag=0BYF}
 
 *Một điểm* $x$ *nằm trong bao đóng của một nhóm con* $G$ *của* $\mathbf{R}^n$ *khi và chỉ khi* $(u|x)$ *là một số nguyên đối với mọi* $u \in \mathbf{R}^n$ *sao cho* $(u|y)$ *là một số nguyên đối với mọi* $y \in G$.
 
 Ta áp dụng đặc trưng hóa này của các điểm nằm trong bao đóng của một nhóm con $G$ vào trường hợp nhóm con $G$ sinh bởi $n$ vectơ $e_j$ của cơ sở chính tắc $(1 \leq j \leq n)$ và bởi một số tùy ý $m$ điểm $a_i$ $(1 \leq i \leq m)$ của $\mathbf{R}^n$. Nói rằng $(u|e_j)$ là một số nguyên đối với $1 \leq j \leq n$ có nghĩa là $n$ tọa độ của $u$ là các số nguyên; do đó:
 
-#### Mệnh đề 7 (Kronecker) {#top-vii-s1-prop-7 .statement}
+#### Mệnh đề 7 (Kronecker) {#top-vii-s1-prop-7 .statement tag=0BYG}
 
 *Cho* $a_i = (a_{ij})$ $(1 \leq i \leq m,\ 1 \leq j \leq n)$ *là* $m$ *điểm của* $\mathbf{R}^n$ *và cho* $b = (b_j)$ $(1 \leq j \leq n)$ *là một điểm của* $\mathbf{R}^n$. *Để, với mỗi* $\varepsilon > 0$, *tồn tại* $m$ *số nguyên* $g_i$ $(1 \leq i \leq m)$ *và* $n$ *số nguyên* $p_j$ $(1 \leq j \leq n)$ *sao cho*
 $$
@@ -236,7 +236,7 @@ $$
 $$
 *thì điều kiện cần và đủ là, với mỗi dãy hữu hạn* $(r_j)$ $(1 \leq j \leq n)$ *gồm* $n$ *số nguyên sao cho* $m$ *số* $\sum_{j=1}^n a_{ij} r_j$ $(1 \leq i \leq m)$ *đều là số nguyên, thì số* $\sum_{j=1}^n b_j r_j$ *cũng phải là số nguyên*.
 
-#### Hệ quả 1 {#top-vii-s1-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#top-vii-s1-prop-7-cor-1 .statement tag=0BYH}
 
 *Để, với mỗi* $x = (x_j)$ $(1 \leq j \leq n)$ *và mỗi* $\varepsilon > 0$, *tồn tại* $m$ *số nguyên* $q_i$ $(1 \leq i \leq m)$ *và* $n$ *số nguyên* $p_j$ ($1 \leq j \leq n$) *sao cho*
 
@@ -250,7 +250,7 @@ Vì nếu $G$ *là trù mật trong* $\mathbf{R}^n$, *nghĩa là nếu* $\overli
 
 Đặc biệt $(m = 1)$:
 
-#### Hệ quả 2 {#top-vii-s1-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#top-vii-s1-prop-7-cor-2 .statement tag=0BYI}
 
 *Cho* $\theta_1, \theta_2, \ldots, \theta_n$ *là* $n$ *số thực. Để, cho trước bất kỳ* $n$ *số thực* $x_1, x_2, \ldots, x_n$ *và một số thực* $\varepsilon > 0$, *tồn tại một số nguyên* $q$ *và* $n$ *số nguyên* $p_j$ *sao cho*
 
@@ -262,7 +262,7 @@ $$
 
 Ta có thể hiểu kết quả này như sau: với mỗi số nguyên $q \in \mathbf{Z}$, đặt $x_q$ là điểm có tọa độ $q \theta_j - [q \theta_j]$ ($1 \leq j \leq n$); khi đó Hệ quả 2 cho một điều kiện cần và đủ để tập hợp các điểm $x_q$ là *trù mật* trong khối lập phương là tích của $n$ khoảng $[0, 1]$ trong các thừa số của $\mathbf{R}^n$.
 
-#### Mệnh đề 8 {#top-vii-s1-prop-8 .statement}
+#### Mệnh đề 8 {#top-vii-s1-prop-8 .statement tag=0BYJ}
 
 *Nếu $G_1, G_2$ là hai nhóm con đóng bất kỳ của $\mathbf{R}^n$, ta có*
 
@@ -282,7 +282,7 @@ $$
 (G_1 \cap G_2)^* = \overline{G_1^* + G_2^*}.
 $$
 
-#### Nhận xét {#top-vii-s1-n3-rem-1 .statement}
+#### Nhận xét {#top-vii-s1-n3-rem-1 .statement tag=0BYK}
 
 Cho $G_1, G_2$ là hai *mạng* trong $\mathbf{R}^n$ (no. 1) sao cho $G_2 \subset G_1$: khi đó (Mệnh đề 5) $G_1^*$ và $G_2^*$ là các *mạng* trong $\mathbf{R}^n$ sao cho $G_1^* \subset G_2^*$. Ta đã thấy ở no. 1 rằng tồn tại một số nguyên $m > 0$ sao cho $m G_1 \subset G_2$;
 
@@ -304,7 +304,7 @@ $$
 
 Chuyển qua các thương, $f$ cảm sinh một đẳng cấu từ $\mathbf{R}^n/H$ lên $\mathbf{R}^{n-p-q} \times T^q$ (Chương III, § 2, no. 8, Nhận xét 3); nay, $\mathbf{R}^n/H'$ đẳng cấu với $\mathbf{R}^{n-p-q} \times T^q$ (Chương III, § 2, no. 9, Hệ quả của Mệnh đề 26). Do đó:
 
-#### Mệnh đề 9 {#top-vii-s1-prop-9 .statement}
+#### Mệnh đề 9 {#top-vii-s1-prop-9 .statement tag=0BYL}
 
 *Mọi nhóm thương Hausdorff của* $\mathbf{R}^n$ *đều đẳng cấu với một nhóm tích* $\mathbf{R}^h \times T^k$ ($0 \leq h + k \leq n$).
 
@@ -312,7 +312,7 @@ Không gian tích $T^n$ (và, theo lối nói lạm dụng, nhóm tôpô $T^n$) 
 
 Hơn nữa, nếu $C$ là một khối lập phương đóng cạnh 1 trong $\mathbf{R}^n$, thì $T^n$ đồng phôi với không gian thương của $C$ theo quan hệ tương đương " $x_i \equiv y_i \pmod{1}$ ($1 \leq i \leq n$)" giữa các điểm $x = (x_i)$ và $y = (y_i)$ của $C$. Như vậy $T^n$ được tạo thành từ khối lập phương $C$ bằng "sự đồng nhất các mặt đối diện".
 
-#### Mệnh đề 10 {#top-vii-s1-prop-10 .statement}
+#### Mệnh đề 10 {#top-vii-s1-prop-10 .statement tag=0BYM}
 
 *Nhóm tôpô* $T^n$ *là đẳng cấu địa phương với* $R^n$.
 
@@ -334,7 +334,7 @@ MỆNH ĐỀ II. *Mọi nhóm con đóng của* $\mathbf{T}^n$ *đều đẳng c
 
 Đặc biệt ($n = 1$):
 
-#### Hệ quả {#top-vii-s1-n5-cor-1 .statement}
+#### Hệ quả {#top-vii-s1-n5-cor-1 .statement tag=0BYN}
 
 *Mọi nhóm con đóng của* $\mathbf{T}$, *trừ chính* $\mathbf{T}$, *là một nhóm cyclic hữu hạn.* *Mọi nhóm thương Hausdorff của* $\mathbf{T}$, *trừ* $\{0\}$, *đẳng cấu với* $\mathbf{T}$.
 

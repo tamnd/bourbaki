@@ -12,7 +12,7 @@ pdf_pages: 0123-0126
 extraction: ocr
 statements: 4
 exercises: 0
-content_sha256: e634b9a50c39d5e3d5aea9f9d92eb2f3d4729bc7239af5196d59cb462aa2ab0a
+content_sha256: 31788c5acbe5d117a647ce6a8d97f1e5b68af4c65ae21e32600efbd449e3c41e
 ---
 
 ## ANNEXE
@@ -21,7 +21,7 @@ content_sha256: e634b9a50c39d5e3d5aea9f9d92eb2f3d4729bc7239af5196d59cb462aa2ab0a
 
 La proposition suivante généralise la prop. 13 du chap. I, § 3, n° 8.
 
-#### Proposition 1 {#lie-v-a0-prop-1 .statement}
+#### Proposition 1 {#lie-v-a0-prop-1 .statement tag=0ATZ}
 
 Soient K un corps commutatif, A une K-algèbre, V et W deux A-modules à gauche qui sont des espaces vectoriels de dimension finie sur K. S’il existe une extension L de K telle que les (A \otimes_K L)-modules V \otimes_K L et W \otimes_K L soient isomorphes, alors les A-modules V et W sont isomorphes.
 
@@ -46,7 +46,7 @@ quels que soient $\lambda, i, k$. Par hypothèse, les équations linéaires homo
 
 c) *Cas général.* Soient $\Omega$ une extension algébriquement close de $L$, $K_0$ la clôture algébrique de $K$ dans $\Omega$. L’hypothèse entraîne que $V \otimes_K \Omega$ et $W \otimes_K \Omega$ sont des $(A \otimes_K \Omega)$-modules isomorphes. Comme $K_0$ est infini, la partie b) montre que $V \otimes_K K_0$ et $W \otimes_K K_0$ sont des $(A \otimes_K K_0)$-modules isomorphes. Gardant les notations de b), le système (2) admet une solution $(\xi_{ij}) \in K_0^{m^*}$ telle que $\det(\xi_{ij}) \neq 0$. Mais les $\xi_{ij}$ appartiennent à une même extension algébrique $K_1$ de degré fini de $K$. Les $(A \otimes_K K_1)$-modules $V \otimes_K K_1$ et $W \otimes_K K_1$ sont isomorphes, et on conclut à l’aide de a).
 
-#### Proposition 2 (Maschke) {#lie-v-a0-prop-2 .statement}
+#### Proposition 2 (Maschke) {#lie-v-a0-prop-2 .statement tag=0AU0}
 
 *Soient A un anneau ayant un élément unité, E un A-module à gauche, F un sous-module facteur direct, G un groupe fini d’ordre q, ρ une représentation linéaire de G dans E. On suppose que q.1 est inversible dans A et que F est stable par G. Il existe alors un supplémentaire de F dans E stable par G.*
 
@@ -68,18 +68,18 @@ $$
 
 Donc $f$ commute à $\rho(G)$, de sorte que $\operatorname{Ker} f$ est un supplémentaire de $E$ stable par $G$.
 
-#### Corollaire {#lie-v-a0-n0-cor-1 .statement}
+#### Corollaire {#lie-v-a0-n0-cor-1 .statement tag=0AU1}
 
 Soient $G$ un groupe fini d’ordre $q$, $K$ un corps commutatif dont la caractéristique ne divise pas $q$. Alors l’algèbre de $G$ relativement à $K$ est semi-simple.
 En effet, d’après la prop. 2, tout module sur cette algèbre est semi-simple.
 
-#### Proposition 3 {#lie-v-a0-prop-3 .statement}
+#### Proposition 3 {#lie-v-a0-prop-3 .statement tag=0AU2}
 
 Soient $A$ un anneau commutatif, $M$ un $A$-module, $G$ un groupe fini opérant dans $M$, et $A'$ un $A$-module. On suppose que l’ordre $q$ de $G$ est inversible dans $A$.
 Soit $M^G$ l’ensemble des éléments de $M$ invariants par $G$. Alors l’homomorphisme canonique de $M^G \otimes_A A'$ dans $M \otimes_A A'$ définit un isomorphisme de $M^G \otimes_A A'$ sur le module $(M \otimes_A A')^G$ des éléments de $M \otimes_A A'$ invariants par $G$.
 En effet, soit $Q$ le projecteur de $M$ sur $M^G$ défini par $Q(x) = q^{-1} \sum_{g \in G} g(x)$ pour tout $x \in M$. Si $i$ désigne l’injection canonique de $M^G$ dans $M$, $Q \circ i$ est l’application identique de $M^G$, donc $(Q \otimes 1_{A'}) \circ (i \otimes 1_{A'})$ est l’application identique de $M^G \otimes_A A'$. Comme $Q \otimes 1_{A'} = q^{-1} \sum_{g \in G} (g \otimes 1_{A'})$, l’image de $i \otimes 1_{A'}$ est $(M \otimes A')^G$. D’autre part, $i \otimes 1_{A'}$ est injectif d’après ce qui précède.
 
-#### Remarque {#lie-v-a0-n0-rem-1 .statement}
+#### Remarque {#lie-v-a0-n0-rem-1 .statement tag=0AU3}
 
 La proposition précédente s’applique notamment lorsque $A'$ est une $A$-algèbre. Dans ce cas, $M^G \otimes_A A'$ est un sous-$A'$-module de $M \otimes_A A'$.
 

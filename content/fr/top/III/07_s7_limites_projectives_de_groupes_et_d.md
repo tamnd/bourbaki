@@ -25,7 +25,7 @@ subsections:
       pdf_page: 247
 statements: 16
 exercises: 6
-content_sha256: c7807319adb537d56b965861ed731b38f67148ba59ad9a2cabfad494d6ae1bea
+content_sha256: 1fe2ab64ee1bc9ad4168b3960ede55783eaa7f951456e9bdeab6b4facf1294e9
 ---
 
 ## § 7. LIMITES PROJECTIVES DE GROUPES ET D’ANNEAUX TOPOLOGIQUES
@@ -55,7 +55,7 @@ donc les applications $(s, x) \mapsto g_\alpha(s.x)$ sont continues dans $E \tim
 
 L’application $h_\alpha : E/G \to E_\alpha/G_\alpha$ déduite de $f_\alpha$ et $g_\alpha$ est donc continue (III, p. 10), et il en est de même de l’application $h : E/G \to \lim_{\leftarrow} E_\alpha/G_\alpha$ déduite des $h_\alpha$ (I, p. 28).
 
-#### Proposition 1 {#top-iii-s7-prop-1 .statement}
+#### Proposition 1 {#top-iii-s7-prop-1 .statement tag=0BOG}
 
 *Les $E_\alpha$ et $G_\alpha$ étant supposés vérifier les hypothèses précédentes*:
 
@@ -67,19 +67,19 @@ Soit $x = (x_\alpha) \in E$, et pour tout $\alpha \in I$, soit $E'_\alpha = G_\a
 
 De même, l’hypothèse de b) entraîne que le système projectif des applications canoniques $v_\alpha : E_\alpha \to E_\alpha/G_\alpha$ vérifie les conditions de I, p. 65, cor. 2, *a*), donc sa limite projective $v = \lim_{\leftarrow} v_\alpha : E \to \lim_{\leftarrow} E_\alpha/G_\alpha$ est surjective et l’image réciproque par $v$ de tout point de $\lim_{\leftarrow} E_\alpha/G_\alpha$ est compacte. Comme $v$ se factorise en $E \xrightarrow{\psi} E/G \xrightarrow{h} \lim_{\leftarrow} E_\alpha/G_\alpha$, où $\psi$ est l’application canonique, on en déduit les assertions de b).
 
-#### Corollaire 1 {#top-iii-s7-prop-1-cor-1 .statement}
+#### Corollaire 1 {#top-iii-s7-prop-1-cor-1 .statement tag=0BOH}
 
 *Si les $G_\alpha$ sont compacts et les $E_\alpha$ séparés, les conclusions de a) et de b) sont valables*.
 
 En effet, les hypothèses de a) et b) sont vérifiées, tout sous-groupe fermé de $G_\alpha$ étant compact et $u_\alpha : s_\alpha \mapsto s_\alpha.x_\alpha$ étant une application continue d’un espace compact dans un espace séparé.
 
-#### Corollaire 2 {#top-iii-s7-prop-1-cor-2 .statement}
+#### Corollaire 2 {#top-iii-s7-prop-1-cor-2 .statement tag=0BOI}
 
 *Si, pour tout $\alpha \in I$, le groupe $G_\alpha$ opère transitivement dans l’espace $E_\alpha$, et si le stabilisateur de tout point de $E_\alpha$ est un sous-groupe compact de $G_\alpha$, alors $G$ opère transitivement dans $E$ et le stabilisateur de tout point de $E$ est un sous-groupe compact de $G$*.
 
 En effet, l’hypothèse de la prop. 1, a) est vérifiée, et $E'_\alpha = E_\alpha$ pour tout $\alpha$.
 
-#### Corollaire 3 {#top-iii-s7-prop-1-cor-3 .statement}
+#### Corollaire 3 {#top-iii-s7-prop-1-cor-3 .statement tag=0BOJ}
 
 *On suppose les $G_\alpha$ séparés. Pour tout $\alpha \in I$, soit $K_\alpha$ un sous-groupe compact de $G_\alpha$ et supposons que l’on ait $f_{\alpha \beta}(K_\beta) \subset K_\alpha$ pour $\alpha \leq \beta$. Alors, si $K = \lim_{\leftarrow} K_\alpha$, l’application canonique $h$ de l’espace homogène $G/K$ dans $\lim_{\leftarrow} G_\alpha / K_\alpha$ est un homéomorphisme.*
 
@@ -91,7 +91,7 @@ Soit $G$ un groupe et soit $(H_\alpha)_{\alpha \in I}$ une famille filtrante dé
 
 Supposons maintenant que $G$ soit un groupe topologique ; si on munit $G_\alpha = G / H_\alpha$ de la topologie quotient, il est clair que $(G_\alpha, f_{\alpha \beta})$ est un système projectif de groupes topologiques, et que $i : G \to \tilde{G}$ est un homomorphisme continu.
 
-#### Proposition 2 {#top-iii-s7-prop-2 .statement}
+#### Proposition 2 {#top-iii-s7-prop-2 .statement tag=0BOK}
 
 *Soient G un groupe topologique, $(H_\alpha)_{\alpha \in I}$ une famille filtrante décroissante de sous-groupes distingués de G vérifiant la condition suivante :
 
@@ -107,7 +107,7 @@ Enfin, supposons qu’il existe un $\gamma \in I$ tel que $H_\gamma$ soit comple
 
 C.Q.F.D.
 
-#### Corollaire 1 {#top-iii-s7-prop-2-cor-1 .statement}
+#### Corollaire 1 {#top-iii-s7-prop-2-cor-1 .statement tag=0BOL}
 
 Si la condition (AP) est vérifiée et si en outre les groupes (séparés) $G/H_\alpha$ sont complets, le groupe $G$ admet un groupe séparé complété, qui s’identifie à $\tilde{G}$, l’application $i : G \to \tilde{G}$ s’identifiant à l’application canonique (III, p. 25).
 
@@ -115,13 +115,13 @@ En effet, $\tilde{G}$ est alors complet (III, p. 57) et la prop. 2 montre que $i
 
 En particulier:
 
-#### Corollaire 2 {#top-iii-s7-prop-2-cor-2 .statement}
+#### Corollaire 2 {#top-iii-s7-prop-2-cor-2 .statement tag=0BOM}
 
 Soient $G$ un groupe, $(H_\alpha)$ une famille filtrante décroissante de sous-groupes distingués de $G$. Si l’on munit $G$ de la topologie de groupe pour laquelle les $H_\alpha$ forment un système fondamental de voisinages de $e$ (III, p. 5, Exemple), le groupe séparé associé à $G$ est isomorphe à $G/(\bigcap_\alpha H_\alpha) = G_1$, $G_1$ admet un groupe complété et l’application canonique $G_1 \to \tilde{G} = \lim_{\leftarrow} G/H_\alpha$ se prolonge en un isomorphisme de $\hat{G} = \hat{G}_1$ sur $\tilde{G}$.
 
 En effet, le sous-groupe $H_\alpha$ de $G$ étant ouvert, est aussi fermé (III, p. 7, corollaire) et $G/H_\alpha$ est discret (III, p. 13, prop. 18), donc les conditions du cor. 1 sont satisfaites.
 
-#### Corollaire 3 {#top-iii-s7-prop-2-cor-3 .statement}
+#### Corollaire 3 {#top-iii-s7-prop-2-cor-3 .statement tag=0EA6}
 
 Soient $G$ un groupe, $G_0$ un sous-groupe de $G$, $(H_\alpha)$ une famille filtrante décroissante de sous-groupes distingués de $G_0$. On suppose que les $H_\alpha$ forment un système fondamental de voisinages de $e$ pour une topologie séparée sur $G$, compatible avec la structure de groupe de $G$. Alors le groupe topologique $G$ ainsi défini admet un groupe complété $\hat{G}$, et l’adhérence $\overline{G_0}$ de $G_0$ dans $\hat{G}$ est canoniquement isomorphe à $\lim_{\leftarrow} G_0/H_\alpha$.
 
@@ -129,13 +129,13 @@ En effet, $G_0$ est un sous-groupe ouvert de $G$; l’application $x \mapsto x^{
 
 Dans toute la fin de ce numéro, nous supposerons que $G$ est séparé et que $(H_\alpha)$ est une famille décroissante filtrante de sous-groupes distingués compacts vérifiant la condition (AP); en vertu de la prop. 2 (III, p. 60), l’application $i : G \to \tilde{G} = \lim_{\leftarrow} G/H_\alpha$ est alors un isomorphisme de groupes topologiques, permettant d’identifier $G$ et $\tilde{G}$; nous noterons $f_\alpha$ l’application canonique $G \to G/H_\alpha$.
 
-#### Lemme 1 {#top-iii-s7-lem-1 .statement}
+#### Lemme 1 {#top-iii-s7-lem-1 .statement tag=0BON}
 
 Sous les hypothèses de la prop. 2 (III, p. 60), pour toute partie fermée $E$ de $G$, on a $E = \bigcap_\alpha EH_\alpha$.
 
 En effet, $E$ est l’intersection des ensembles $EV$, où $V$ parcourt le filtre des voisinages de $e$ (III, p. 20, formule (1)), et tout voisinage de $e$ contient un $H_\alpha$; d’où la conclusion puisque $E \subset EH_\alpha$.
 
-#### Proposition 3 {#top-iii-s7-prop-3 .statement}
+#### Proposition 3 {#top-iii-s7-prop-3 .statement tag=0BOO}
 
 On suppose G séparé, les H_α compacts et vérifiant (AP).
 
@@ -153,13 +153,13 @@ $$
 
 Enfin, la dernière assertion de b) résulte de la formule L = ∩_α f_α^{-1}(L_α), les f_α^{-1}(L_α) étant alors distingués dans G.
 
-#### Proposition 4 {#top-iii-s7-prop-4 .statement}
+#### Proposition 4 {#top-iii-s7-prop-4 .statement tag=0BOP}
 
 On suppose G séparé, les H_α compacts et vérifiant (AP). Si C_α est la composante neutre de G_α = G/H_α, la composante neutre C de G s’identifie à lim ← C_α et on a f_α(C) = C_α.
 
 La proposition résultera du lemme suivant:
 
-#### Lemme 2 {#top-iii-s7-lem-2 .statement}
+#### Lemme 2 {#top-iii-s7-lem-2 .statement tag=0BOQ}
 
 Soient G un groupe topologique séparé, H un sous-groupe distingué compact de G, φ l’application canonique G → G/H. Si C est la composante neutre de G, φ(C) est la composante neutre de G' = G/H.
 
@@ -173,13 +173,13 @@ Soit $\mathfrak{M}$ l’ensemble des sous-groupes fermés L de G tels que LH = G
 
 Or, soit F l’intersection des voisinages à la fois ouverts et fermés de e dans G; montrons que F est un sous-groupe fermé de G. En effet, comme il est évident que F est fermé, il suffit de montrer que $F^{-1}.F \subset F$. Mais si $x \in F$ et si V est un voisinage ouvert et fermé de e dans G, il en est de même de $xV$: sans quoi, e appartiendrait au complémentaire W de $xV$ dans G, qui est encore ouvert et fermé, et on aurait $x \notin W$, donc par définition $x \notin F$ contrairement à l’hypothèse. On en conclut que $xF$, intersection des $xV$ pour les voisinages ouverts et fermés V de e, contient F, autrement dit $x^{-1}F \subset F$, ce qui prouve notre assertion. Puisque G est totalement discontinu et non réduit à e, on a $F \neq G$. Mais si V est un voisinage à la fois ouvert et fermé de e dans G, VH est aussi à la fois ouvert et fermé dans G (III, p. 28, cor. 1), donc $\varphi(V)$ est à la fois ouvert et fermé dans $G/H$, ce qui implique $\varphi(V) = G/H$ en vertu de l’hypothèse. On va en conclure que $FH = G$, ce qui impliquera contradiction, et démontrera donc le lemme. En effet, pour tout $x \in G$, $xH$ rencontre tout voisinage $V$ de $e$ à la fois ouvert et fermé, donc aussi l’intersection $F$ de ces voisinages, puisque les ensembles $V \cap xH$ forment une base de filtre composée d’ensembles fermés dans l’espace compact $xH$.
 
-#### Remarque {#top-iii-s7-n2-rem-1 .statement}
+#### Remarque {#top-iii-s7-n2-rem-1 .statement tag=0EA7}
 
 Si le sous-groupe $H_\alpha$ est compact pour un $\alpha \in I$, alors $H_\beta$ est compact pour $\beta \geq \alpha$, puisque c’est un sous-groupe fermé de $H_\alpha$. Comme l’ensemble des $\beta \in I$ tels que $\beta \geq \alpha$ est cofinal à $I$, il revient essentiellement au même, pour l’étude du groupe $G$, de supposer un des $H_\alpha$ compact ou tous les $H_\alpha$ compacts.
 
 ### 3. Application aux limites projectives
 
-#### Proposition 5 {#top-iii-s7-prop-5 .statement}
+#### Proposition 5 {#top-iii-s7-prop-5 .statement tag=0BOS}
 
 Soit $(G_\alpha, f_{\alpha\beta})$ un système projectif de groupes topologiques séparés, tel que les $f_{\alpha\beta}$ soient des morphismes stricts surjectifs, de noyaux compacts. Alors, pour tout $\alpha \in I$, l’application canonique $f_\alpha$ de $G = \lim_{\leftarrow} G_\alpha$ dans $G_\alpha$ est un morphisme strict surjectif, de noyau compact.
 
@@ -193,7 +193,7 @@ ce qui prouve que $f_\alpha(V)$ est un voisinage de $e_\alpha$ dans $G_\alpha$.
 
 Si $H_\alpha = f_\alpha^{-1}(e_\alpha)$, les sous-groupes distingués compacts $H_\alpha$ de $G$ vérifient évidemment la condition (AP) de III, p. 60 et $G_\alpha$ s’identifie à $G/H_\alpha$. En particulier les prop. 3 (III, p. 62) et 4 (III, p. 62) s’appliquent à $G$ et aux $H_\alpha$.
 
-#### Corollaire 1 {#top-iii-s7-prop-5-cor-1 .statement}
+#### Corollaire 1 {#top-iii-s7-prop-5-cor-1 .statement tag=0BOT}
 
 Soient $(G_\alpha, f_{\beta\alpha})$ un système projectif de groupes topologiques vérifiant les hypothèses de la prop. 5, $(G'_\alpha, f'_{\alpha\beta})$ un système projectif de groupes topologiques, et pour chaque $\alpha$, soit $u_\alpha : G_\alpha \to G'_\alpha$ un morphisme strict surjectif, de noyau compact, les $u_\alpha$ formant un système projectif d’applications. Alors $u = \lim_{\leftarrow} u_\alpha$ est un morphisme strict de $G = \lim_{\leftarrow} G_\alpha$ sur $G' = \lim_{\leftarrow} G'_\alpha$, de noyau compact.
 
@@ -201,7 +201,7 @@ Soit $N_\alpha$ le noyau de $u_\alpha$; $L_\alpha = f_\alpha^{-1}(N_\alpha)$ est
 
 G → G/L; on peut écrire $v_\alpha = w_\alpha \circ \varphi$, où $w_\alpha$ est un morphisme strict de $G/L$ sur $G'_\alpha$, de noyau $L_\alpha / L$. Comme l’intersection des $L_\alpha / L$ est l’élément neutre de $G/L$ et que les $L_\alpha / L$ forment une base de filtre et sont compacts, cette base de filtre converge vers l’élément neutre de $G/L$ (I, p. 60, corollaire). La prop. 2 de III, p. 60 montre alors que $w = \lim_{\leftarrow} w_\alpha$ est un isomorphisme de $G/L$ sur $G'$; on en conclut que $w \circ \varphi$ est un morphisme strict de $G$ sur $G'$, de noyau $L$; mais il est clair que $u = w \circ \varphi$, ce qui démontre le corollaire.
 
-#### Corollaire 2 {#top-iii-s7-prop-5-cor-2 .statement}
+#### Corollaire 2 {#top-iii-s7-prop-5-cor-2 .statement tag=0BOU}
 
 Soit $(G_\alpha, f_{\alpha\beta})$ un système projectif de groupes topologiques vérifiant les conditions de la prop. 5, et soit $G'$ un groupe topologique dans lequel il existe un voisinage $V'$ de l’élément neutre $e'$ ne contenant aucun sous-groupe de $G'$ distinct de $\{e'\}$. Alors, pour tout homomorphisme continu $v : G \to G'$, il existe un indice $\alpha \in I$ et un homomorphisme continu $v_\alpha : G_\alpha \to G'$ tels que $v = v_\alpha \circ f_\alpha$.
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 406
 statements: 34
 exercises: 27
-content_sha256: 20b28e28c77d2e87f4b2cd1d85b6dade4c7468179f0c916ec9f4ddd2097b44f5
+content_sha256: 9798f2a69885491f713db436a4833ff226e18b3becfed322106b65f6897d576a
 ---
 
 ## § 1. INTEGRATION OF VECTOR-VALUED FUNCTIONS
@@ -53,7 +53,7 @@ Note that in this definition, the topology of $F$ intervenes only through the in
 
 If $f$ is a scalarly essentially $\mu$-integrable mapping of $T$ into $F$, the mapping $z' \mapsto \int \langle f(t), z' \rangle d\mu(t)$ is a linear form on $F'$, that is, an element of the algebraic dual ${F'}^*$.
 
-#### Definition 1 {#int-vi-s1-def-1 .statement}
+#### Definition 1 {#int-vi-s1-def-1 .statement tag=098E}
 
 *One calls* integral of $f$ with respect to $\mu$, *and denotes by* $\int f d\mu$ *or* $\int f(t) d\mu(t)$, *the element of* ${F'}^*$ *defined by*
 $$
@@ -63,23 +63,23 @@ $$
 
 If $f$ is continuous with compact support, it is scalarly integrable and Def. 1 coincides with the definition of the integral of $f$ given in Ch. III, §3, No. 1. On the other hand, if $F$ is a Banach space and $f$ is essentially integrable (Ch. V, §1, No. 3, Def. 3), then $f$ is scalarly essentially integrable and Def. 1 coincides with the definition of the integral of $f$ given in Chapter V (Ch. V, §1, No. 3 and Ch. IV, §4, No. 2, Cor. 1 of Th. 1).
 
-#### Example {#int-vi-s1-n1-exa-1 .statement}
+#### Example {#int-vi-s1-n1-exa-1 .statement tag=098F}
 
 — Let $X$ be a locally compact space, $t \mapsto \lambda_t$ a mapping of $T$ into the space $\mathscr{M}(X)$ of measures on $X$. To say that the family $t \mapsto \lambda_t$ is $\mu$-adequate means that it consists of positive measures and that the mapping $t \mapsto \lambda_t$ is scalarly essentially $\mu$-integrable and $\mu$-measurable for the topology $\sigma(\mathscr{M}(X), \mathscr{K}(X))$.\footnote{This is the definition of 'µ-adequate' in the first edition of Chapter 5 (Ch. V, 1st edn., §3, No. 1, Def. 1). In the second edition, of which the preceding chapter is a translation, the term 'µ-adequate' defines a weaker (more general) concept (Ch. V, §3, No. 1, Def. 1); more precisely, a scalarly essentially $\mu$-integrable family $t \mapsto \lambda_t$ of positive measures is $\mu$-adequate in the sense of the first edition of Chapter V if and only if it is $\mu$-adequate in the sense of the second edition and is vaguely $\mu$-measurable, that is, $\mu$-measurable for $\sigma(\mathscr{M}(X), \mathscr{K}(X))$ (Ch. V, §3, No. 1, Prop 2 b)). The two definitions are equivalent whenever the topology of $X$ has a countable base (*ibid*. Prop. 2 c)), which is the case for the applications in Chapter VI (§3); consequently for the rest of the chapter, no distinction is made between the two interpretations of 'µ-adequate', and the references to the first edition of Ch. V have been replaced by their nearest equivalent in the second edition.}
 
 integral with respect to $\mu$ is the measure that was denoted $\int \lambda_t\, d\mu(t)$ in Ch. V, §3, No. 1.
 
-#### Remark 1 {#int-vi-s1-n1-rem-1 .statement}
+#### Remark 1 {#int-vi-s1-n1-rem-1 .statement tag=098G}
 
 If F is finite-dimensional, then every scalarly essentially integrable mapping of T into F is essentially integrable (Ch. V, §1, No. 3). However, in the general case, a scalarly negligible function on a compact space T may even fail to be $\mu$-measurable (Exer. 12).
 
-#### Remark 2 {#int-vi-s1-n1-rem-2 .statement}
+#### Remark 2 {#int-vi-s1-n1-rem-2 .statement tag=098H}
 
 It is clear that the integral of f depends only on the class of f modulo the space of mappings of T into F that are scalarly locally $\mu$-negligible. Note that a scalarly locally negligible function g is not necessarily zero almost everywhere (Exer. 12). However, this is indeed the case when there exists in F' a sequence $(\mathbf{z}'_n)$ that is dense for the topology $\sigma(F', F)$: for, if $H_n$ is the locally negligible set of points $t \in T$ such that $\langle g(t), \mathbf{z}'_n \rangle \neq 0$, the union H of the $H_n$ is locally negligible and, for every $t \notin H$, one has $\langle g(t), \mathbf{z}'_n \rangle = 0$ for all n, whence $g(t) = 0$.
 
 Let u be a continuous linear mapping of F into a Hausdorff locally convex space G; its transpose $^t u$ is a linear mapping of $G'$ into $F'$, and the (algebraic) transpose $^t(^t u)$ is a linear mapping of ${F'}^*$ into ${G'}^*$ that extends u, which we shall again denote by u. With this convention:
 
-#### Proposition 1 {#int-vi-s1-prop-1 .statement}
+#### Proposition 1 {#int-vi-s1-prop-1 .statement tag=098I}
 
 — *If f is a mapping of T into F that is scalarly essentially $\mu$-integrable, then the mapping $u \circ f$ is scalarly essentially $\mu$-integrable and*
 $$
@@ -92,7 +92,7 @@ $$
 
 In particular, if f is scalarly essentially $\mu$-integrable, then it remains scalarly essentially $\mu$-integrable when the topology of F is replaced by a coarser topology.
 
-#### Proposition 2 {#int-vi-s1-prop-2 .statement}
+#### Proposition 2 {#int-vi-s1-prop-2 .statement tag=098J}
 
 — *Let f be a scalarly essentially $\mu$-integrable mapping of T into F. For every numerical function $g \geqslant 0$ that is $\mu$-measurable and bounded, the mapping $t \mapsto g(t)f(t)$ (denoted gf or fg) of T into F is scalarly essentially $\mu$-integrable, f is scalarly essentially $(g \cdot \mu)$-integrable, and*
 $$
@@ -105,7 +105,7 @@ A great many propositions about essentially integrable numerical functions may b
 
 However, to obtain statements corresponding to the theorems on 'double integrals' (Ch. V, §3, No. 3, Th. 1 and §8, No. 4, Th. 1 (Lebesgue–Fubini theorem)), it is necessary to strengthen the hypotheses (cf. Exer. 1); on applying the previously cited theorems to each of the functions $\langle \mathbf{z}', f \rangle$, where $\mathbf{z}' \in F'$, one thus obtains the following propositions:
 
-#### Proposition 3 {#int-vi-s1-prop-3 .statement}
+#### Proposition 3 {#int-vi-s1-prop-3 .statement tag=098K}
 
 — Let $X$ be a locally compact space, $t \mapsto \lambda_t$ a $\mu$-adequate$^3$ family (Ch. V, §3, No. 1, Def. 1) of positive measures on $X$, and let $\nu = \int \lambda_t d\mu(t)$. Let $f$ be a mapping of $X$ into $F$; assume that $1^\circ$ $f$ is scalarly $\nu$-integrable; $2^\circ$ there exists a locally $\mu$-negligible set $N \subset T$ such that, for every $t \notin N$, $f$ is scalarly $\lambda_t$-integrable and $\int f d\lambda_t \in F$. Then, the function $t \mapsto \int f d\lambda_t$, defined for $t \notin N$, is scalarly essentially $\mu$-integrable, and$^4$
 
@@ -113,7 +113,7 @@ $$
 \int f(x) d\nu(x) = \int d\mu(t) \int f(x) d\lambda_t(x) .
 $$
 
-#### Proposition 4 {#int-vi-s1-prop-4 .statement}
+#### Proposition 4 {#int-vi-s1-prop-4 .statement tag=098L}
 
 — Let $T$ and $T'$ be two locally compact spaces, $\mu$ (resp. $\mu'$) a positive measure on $T$ (resp. $T'$), $\nu = \mu \otimes \mu'$ the product measure on $X = T \times T'$. Let $f$ be a mapping of $X$ into $F$. Assume that: $1^\circ$ $f$ is scalarly $\nu$-integrable; $2^\circ$ there exists a locally $\mu$-negligible set $N \subset T$ such that, for every $t \notin N$, the mapping $t' \mapsto f(t, t')$ is scalarly $\mu'$-integrable, and $\int f(t, t') d\mu'(t') \in F$. Then, the function $t \mapsto \int f(t, t') d\mu'(t')$, defined for $t \notin N$, is scalarly essentially $\mu$-integrable and$^4$
 
@@ -126,19 +126,19 @@ $^4$Equality as elements of ${F'}^*$.
 
 ### 2. Properties of the integral of a scalarly essentially integrable function
 
-#### Proposition 5 {#int-vi-s1-prop-5 .statement}
+#### Proposition 5 {#int-vi-s1-prop-5 .statement tag=098M}
 
 — Let $\mu$ be a bounded positive measure on $T$, $S$ a $\mu$-measurable set carrying $\mu$ (Ch. V, §5, No. 7, Def. 4), $f$ a scalarly $\mu$-integrable (*) function with values in $F$. Let $D$ be the closed convex envelope of $f(S)$ in the space $F'$* equipped with the topology $\sigma(F', F')$. Then $\int f\, d\mu \in \mu(T)D$.
 
 Since $D$ is the intersection of the closed half-spaces containing $f(S)$ (TVS, II, §5, No. 3, Cor. 1 of Prop. 4), it suffices to prove that the relation $\langle f(t), z' \rangle \leq a$ for all $t \in S$ (where $z' \in F', a \in \mathbf{R}$) implies $\langle z', \int f\, d\mu \rangle \leq a \cdot \mu(T)$; but since $\int f\, d\mu = \int_S f\, d\mu$, this follows from Ch. IV, §4, No. 2, Cor. 1 of Th. 1.
 
-#### Corollary {#int-vi-s1-n2-cor-1 .statement}
+#### Corollary {#int-vi-s1-n2-cor-1 .statement tag=098N}
 
 — Let $\mu$ be a bounded positive measure on $T$, $S$ a $\mu$-measurable set carrying $\mu$, and $f$ a mapping of $T$ into $F$, scalarly $\mu$-measurable and such that $f(S)$ is contained in a weakly compact convex subset $A$ of $F$. Then $f$ is scalarly $\mu$-integrable, and $\int f\, d\mu \in \mu(T)A \subset F$.
 
 For every $z' \in F'$, $\langle z', f \rangle$ is $\mu$-measurable and bounded in $S$, hence integrable, which proves that $f$ is scalarly integrable. Moreover, since $A$ is compact in $F_\sigma$, it is closed in $F'$*, and the closed convex envelope of $f(S)$ in $F'$* is contained in $A$, whence the corollary.
 
-#### Proposition 6 {#int-vi-s1-prop-6 .statement}
+#### Proposition 6 {#int-vi-s1-prop-6 .statement tag=098O}
 
 — Let $f$ be a scalarly essentially $\mu$-integrable function with values in $F$, such that $\int f\, d\mu \in F$. For every lower semi-continuous semi-norm $q$ on $F$,
 
@@ -150,7 +150,7 @@ Let $D$ be the set of $z \in F$ such that $q(z) \leq 1$; $D$ is closed, convex, 
 
 Note that the numerical function $q \circ f$ need not be $\mu$-measurable (Exer. 12).
 
-#### Proposition 7 {#int-vi-s1-prop-7 .statement}
+#### Proposition 7 {#int-vi-s1-prop-7 .statement tag=098P}
 
 — Let $f$ be a mapping of $T$ into $F$, scalarly essentially $\mu$-integrable, such that for every compact subset $K$ of $T$, $f(K)$ is contained
 
@@ -180,19 +180,19 @@ $$
 
 which proves that the set of elements $\int f \varphi_K d\mu$ is a *bounded* subset of $F_\sigma$, hence also of F (TVS, IV, §1, No. 1, Prop. 1). Proposition 7 is therefore a consequence of the following lemma:
 
-#### Lemma 1 {#int-vi-s1-lem-1 .statement}
+#### Lemma 1 {#int-vi-s1-lem-1 .statement tag=098Q}
 
 *The closure in ${F'}^*$ (for the topology $\sigma({F'}^*, F')$) of every bounded subset of F is contained in the bidual $F''$.*
 
 For, a bounded subset of F is contained in the polar (in $F''$) of a neighborhood of 0 in the strong dual $F'$ of F, hence is relatively compact in $F''$ for $\sigma(F'', F')$ (TVS, III, §3, No. 5, Prop. 7 and No. 4, Cor. 2 of Prop. 4); since $\sigma(F'', F')$ is induced by $\sigma({F'}^*, F')$, the lemma is proved.
 
-#### Corollary {#int-vi-s1-n2-cor-2 .statement}
+#### Corollary {#int-vi-s1-n2-cor-2 .statement tag=098R}
 
 *Suppose F is semi-reflexive, and let f be a scalarly essentially $\mu$-integrable mapping of T into F such that, for every compact subset K of T, $f(K)$ is bounded. Then $\int f d\mu$ belongs to F.*
 
 For, every bounded subset of F is relatively weakly compact (TVS, IV, §2, No. 2, Th. 1), and $F = F''$.
 
-#### Proposition 8 {#int-vi-s1-prop-8 .statement}
+#### Proposition 8 {#int-vi-s1-prop-8 .statement tag=098S}
 
 *Let $\mu$ be a bounded positive measure on T, S a $\mu$-measurable set carrying $\mu$, f a $\mu$-measurable mapping of T into F, such that $f(S)$ is contained in a complete, bounded, balanced convex subset B of F. Then, f is scalarly $\mu$-integrable and $\int f d\mu \in \mu(T)B \subset F$.*
 
@@ -214,7 +214,7 @@ since $B$ is bounded and since the series with general term $\mu(K_n)$ is conver
 
 Let $G$ and $H$ be two Hausdorff locally convex spaces over $\mathbf{R}$, and suppose now that $F$ is the space $\mathscr{L}(G; H)$ of continuous linear mappings of $G$ into $H$, equipped with the topology of *pointwise* convergence. Every continuous linear form on $F$ may be extended to a continuous linear form on the product space $H^G$ (TVS, II, §4, No. 1, Prop. 2), hence may be written $u \mapsto \sum_{i=1}^n \langle u(a_i), b'_i \rangle$, where the $a_i$ (resp. the $b'_i$) are elements of $G$ (resp. of the dual $H'$ of $H$). To say that a mapping $U$ of $T$ into $F$ is scalarly essentially $\mu$-integrable means that, for every $a \in G$ and every $b \in H'$, the numerical function $t \mapsto \langle U(t) \cdot a, b' \rangle$ is essentially $\mu$-integrable.
 
-#### Proposition 9 {#int-vi-s1-prop-9 .statement}
+#### Proposition 9 {#int-vi-s1-prop-9 .statement tag=098T}
 
 *Let $U$ be a scalarly essentially $\mu$-integrable mapping of $T$ into $F = \mathscr{L}_s(G; H)$. In order that $\int U d\mu \in F$, it is necessary and sufficient that the following two conditions be satisfied:*
 
@@ -240,7 +240,7 @@ in other words ${}^t S \cdot \mathbf{y}' = u_{\mathbf{y}'}$. Since $S$ is contin
 
 Conversely, suppose a) and b) verified. By virtue of a), the formula (1) defines a linear mapping $S$ of $G$ into $H$, and, for every $\mathbf{y}' \in H'$, this mapping satisfies (2) (No. 1, Prop. 1); but then, condition (b) says that $S$ is continuous (TVS, II, §6, No. 4, Props. 5 and 6, and III, §3, No. 5, Prop. 7), therefore $S \in \mathscr{L}_s(G; H)$. Finally, formula (2) proves that $S = \int U\, d\mu$.
 
-#### Corollary {#int-vi-s1-n3-cor-1 .statement}
+#### Corollary {#int-vi-s1-n3-cor-1 .statement tag=098U}
 
 — *The condition b) of Prop. 9 is satisfied in each of the following two cases*:
 
@@ -268,7 +268,7 @@ $$
 |\langle x, u_{K, y'} \rangle| = \left| \int \varphi_K(t) \langle U(t) \cdot x, y' \rangle d\mu(t) \right| \leq \int |\langle U(t) \cdot x, y' \rangle| d\mu(t).
 $$
 
-#### Proposition 10 {#int-vi-s1-prop-10 .statement}
+#### Proposition 10 {#int-vi-s1-prop-10 .statement tag=098V}
 
 — *Let $U$ be a mapping of $T$ into $F = \mathscr{L}_s(G; H)$. In each of the following three cases, $U$ is scalarly essentially $\mu$-integrable and $\int U d\mu \in \mathscr{L}_s(G; H)$:*
 
@@ -290,7 +290,7 @@ In this No. we are going to consider locally convex spaces $F$ having the follow
 
 Every Fréchet space has the property (GDF) (TVS, I, §3, No. 3, Cor. 5 of Th. 1). In the Appendix, we shall see other examples of spaces having the property (GDF).
 
-#### Proposition 11 {#int-vi-s1-prop-11 .statement}
+#### Proposition 11 {#int-vi-s1-prop-11 .statement tag=098W}
 
 *Every Hausdorff locally convex space F with the property (GDF) is barreled.*
 
@@ -300,19 +300,19 @@ $$
 \langle y, x' \rangle = \lim_{\mathscr{F}} \langle \pi(z), x' \rangle = \lim_{\mathscr{F}} \langle z, x' \rangle = \langle x, x' \rangle = \langle \pi(x), x' \rangle .
 $$
 
-#### Theorem 1 {#int-vi-s1-thm-1 .statement}
+#### Theorem 1 {#int-vi-s1-thm-1 .statement tag=098X}
 
 (Gelfand–Dunford)—*Let F be a Hausdorff locally convex space having the property (GDF), $F'_s$ its weak dual. For every mapping f of T into $F'_s$ that is scalarly essentially $\mu$-integrable, the integral $\int f d\mu$ belongs to $F'$.*
 
 Recall that the dual of $F'_s$ is F (TVS, II, §6, No. 2, Prop. 3). For every $z \in F$, the numerical function $\langle z, f \rangle$ is therefore essentially $\mu$-integrable; let $\theta(z)$ be its class in $L^1(\mu)$. To show that $\int f d\mu \in F'$, one must establish that the linear form $z \mapsto \langle z, \int f d\mu \rangle$ is continuous on F; in fact, we are going to prove the following stronger result:
 
-#### Lemma 2 {#int-vi-s1-lem-2 .statement}
+#### Lemma 2 {#int-vi-s1-lem-2 .statement tag=098Y}
 
 *Let f be a mapping of T into $F'_s$, such that for every $z \in F$, the numerical function $\langle z, f \rangle$ belongs to $\overline{\mathscr{L}}^p(\mu)$ ($1 \leq p \leq +\infty$); let $\theta(z)$ be the class of this function in $L^p(\mu)$. Then $z \mapsto \theta(z)$ is a continuous linear mapping of F into $L^p(\mu)$.*
 
 By virtue of the (GDF) property, it suffices to show that for every sequence $(z_n)$ of elements of F converging to $z$, such that $(\theta(z_n))$ converges to $u \in L^p(\mu)$, one has $u = \theta(z)$. Now, replacing if necessary the sequence $(z_n)$ by a subsequence, one can suppose that the sequence of functions $\langle z_n, f \rangle$ converges locally almost everywhere to a function $h \in \overline{\mathscr{L}}^p(\mu)$, with class $u$ in $L^p(\mu)$ (Ch. IV, §3, No. 4, Th. 3 and Ch. V, §1, No. 3). Since, by hypothesis, for every $t \in T$ the sequence $(\langle z_n, f(t) \rangle)$ converges to $\langle z, f(t) \rangle$, we have $h(t) = \langle z, f(t) \rangle$ locally almost everywhere, consequently $u = \theta(z)$.
 
-#### Corollary 1 {#int-vi-s1-lem-2-cor-1 .statement}
+#### Corollary 1 {#int-vi-s1-lem-2-cor-1 .statement tag=098Z}
 
 *Let $G_i$ ($1 \leq i \leq n$) be $n$ Hausdorff locally convex spaces having the property (GDF), and let $F$ be the space of separately continuous multilinear forms on $\prod_{i=1}^n G_i$, equipped with the topology of pointwise convergence. For every mapping $f$ of $T$ into $F$ that is scalarly essentially $\mu$-integrable, one has $\int f d\mu \in F$.*
 
@@ -322,7 +322,7 @@ $$
 $$
 By Th. 1, $\int (\lambda_i(z) \circ f) d\mu \in G_i'$ for $1 \leq i \leq n$, therefore $\int f d\mu \in F$.
 
-#### Corollary 2 {#int-vi-s1-lem-2-cor-2 .statement}
+#### Corollary 2 {#int-vi-s1-lem-2-cor-2 .statement tag=0990}
 
 *Let $G$ be a Hausdorff locally convex space having the property (GDF), and $H$ a semi-reflexive space whose strong dual $H_b'$ has the property (GDF) (cf. App., No. 2, Prop. 3). Let $F$ be the space $\mathscr{L}_s(G; H)$; for every mapping $U$ of $T$ into $F$ that is scalarly essentially $\mu$-integrable, the integral $\int U d\mu$ belongs to $F$.
 
@@ -334,13 +334,13 @@ Note that Cor. 2 is applicable in particular when G is *Banach space* and H is a
 
 If a mapping f of T into a Hausdorff locally convex space F is scalarly $\mu$-measurable, it does not in general follow that f is $\mu$-measurable (Exer. 12). Nevertheless:
 
-#### Proposition 12 {#int-vi-s1-prop-12 .statement}
+#### Proposition 12 {#int-vi-s1-prop-12 .statement tag=0991}
 
 *If F is a separable, metrizable locally convex space, then every scalarly $\mu$-measurable mapping f of T into F is $\mu$-measurable.*
 
 For, F may be regarded as a subspace of a countable product $\prod_n E_n$ of Banach spaces (TVS, II, §1, No. 3, Prop. 3), and one can suppose that $\mathrm{pr}_n(F)$ is dense in $E_n$, which is therefore separable. For every n, the mapping $\mathrm{pr}_n \circ f$ is scalarly $\mu$-measurable, hence $\mu$-measurable (Ch. IV, §5, No. 5, Cor. 2 of Prop. 10), consequently f is $\mu$-measurable (Ch. IV, §5, No. 3, Th. 1).
 
-#### Proposition 13 {#int-vi-s1-prop-13 .statement}
+#### Proposition 13 {#int-vi-s1-prop-13 .statement tag=0992}
 
 *Let F be a locally convex space that is the direct limit of a sequence of separable, metrizable locally convex spaces $F_n$, F being the union of the $F_n$. Let $F'$ be the dual of F, equipped with the topology $\sigma(F', F)$. Then, every scalarly $\mu$-measurable mapping f of T into $F'$ is $\mu$-measurable.*
 
@@ -354,7 +354,7 @@ Let $T$ be a locally compact space, $F$ a quasi-complete, Hausdorff locally conv
 
 Let us now observe that the space $\mathscr{C}'(T)$ may be identified with the dual of the space $\mathscr{C}(T)$ of continuous numerical functions on $T$ (whence its notation), when $\mathscr{C}(T)$ is equipped with the topology of compact convergence (which we shall always assume in this No. and in the following one): for, it is known on the one hand (Ch. IV, §4, No. 8, Prop. 14) that the measures on $T$ that can be extended to continuous linear forms on $\mathscr{C}(T)$ are the measures with compact support, and conversely, the restriction to $\mathscr{K}(T)$ of a continuous linear form on $\mathscr{C}(T)$ is a measure (since the topology of $\mathscr{K}(T)$ is finer than the one induced by the topology of $\mathscr{C}(T)$).
 
-#### Proposition 14 {#int-vi-s1-prop-14 .statement}
+#### Proposition 14 {#int-vi-s1-prop-14 .statement tag=0993}
 
 *Let T be a locally compact space, F a quasi-complete, Hausdorff locally convex space, and f a continuous mapping of T into F. If the space $\mathscr{C}'(T)$ of measures on T with compact support is equipped with the topology of uniform convergence in the compact subsets of $\mathscr{C}(T)$, then the mapping $\lambda \mapsto \int f d\lambda$ is the unique continuous linear mapping $\tilde{f}$ of $\mathscr{C}'(T)$ into F such that $\tilde{f}(\varepsilon_t) = f(t)$ for every $t \in T$.*
 
@@ -362,7 +362,7 @@ To establish the uniqueness of the extension, it suffices to see that the point 
 
 Let us now show that $\lambda \mapsto \int f d\lambda$ is continuous. Let V be a closed, balanced convex neighborhood of 0 in F; it suffices to prove that there exists a relatively compact subset L of $\mathscr{C}(T)$ such that the relations $\lambda \in L^\circ$ and $z' \in V^\circ$ imply $|\langle \int f d\lambda, z' \rangle| \leq 1$, or again that $|\int \langle f, z' \rangle d\lambda| \leq 1$. To this end, we are going to show that as $z'$ runs over $V^\circ$, the set L of numerical functions $\langle f, z' \rangle$ is relatively compact in $\mathscr{C}(T)$. Since $V^\circ$ is bounded for $\sigma(F', F)$, the supremum of the numbers $|\langle f(t), z' \rangle|$, for $t \in T$ fixed and $z'$ running over $V^\circ$, is finite; by virtue of Ascoli’s theorem (GT, X, §2, No. 5, Cor. 2 of Th. 2), it therefore suffices to show that the set of $\langle f, z' \rangle$ ($z' \in V^\circ$) is *equicontinuous*. But, for every $t_0 \in T$ and every $\delta > 0$, there exists by hypothesis a neighborhood W of $t_0$ in T such that $f(t) - f(t_0) \in \delta V$ for all $t \in W$; it follows that $|\langle f(t), z' \rangle - \langle f(t_0), z' \rangle| \leq \delta$ for all $t \in W$ and all $z' \in V^\circ$, which completes the proof.
 
-#### Remark {#int-vi-s1-n6-rem-1 .statement}
+#### Remark {#int-vi-s1-n6-rem-1 .statement tag=0994}
 
 — 1) The mapping $t \mapsto \varepsilon_t$ is a *homeomorphism* of T into the space $\mathscr{C}'(T)$; for, if L is a compact subset of $\mathscr{C}(T)$, and $t_0 \in T$, there exists (GT, X, §2, No. 5, Cor. 3 of Th. 2) a neighborhood W of $t_0$ such that $|g(t) - g(t_0)| \leq 1$ for every $t \in W$ and every function $g \in L$, therefore $\varepsilon_t - \varepsilon_{t_0} \in L^\circ$ for $t \in W$, which proves the continuity of $t \mapsto \varepsilon_t$ (cf. Ch. IV, §4, No. 8, Prop. 15); one knows in addition that the inverse mapping is already continuous for the vague topology (Ch. III, §1, No. 9, Prop. 13), hence *a fortiori* for the topology of uniform convergence in the compact subset of $\mathscr{C}(T)$. If one then identifies T with its image in $\mathscr{C}'(T)$ via $t \mapsto \varepsilon_t$, one can say that $\lambda \mapsto \int f d\lambda$ is the unique *continuous extension* of f to a *linear* mapping.
 
@@ -372,7 +372,7 @@ Suppose now that $f(T)$ is a *bounded* subset of F. Then, for every *bounded* po
 
 (No. 2, Prop. 8). If $\lambda$ is any bounded real measure on $T$, then $\lambda^+$ and $\lambda^-$ are bounded, and one sees immediately that $\lambda \mapsto \int f\, d\lambda$, defined as above, is a *linear* mapping of the space $\mathscr{M}^1(T)$ of *bounded* measures on $T$, into the locally convex space $F$, that obviously extends the mapping $\lambda \mapsto \int f\, d\lambda$ of $\mathscr{C}'(T)$ into $F$.
 
-#### Proposition 15 {#int-vi-s1-prop-15 .statement}
+#### Proposition 15 {#int-vi-s1-prop-15 .statement tag=0995}
 
 *Let $T$ be a locally compact space, $F$ a Hausdorff locally convex space that is quasi-complete, and $f$ a continuous mapping of $T$ into $F$ such that $f(T)$ is bounded. If $\mathscr{M}^1(T)$ is equipped with its Banach space topology, then the linear mapping $\lambda \mapsto \int f\, d\lambda$ of $\mathscr{M}^1(T)$ into $F$ is continuous.*
 
@@ -384,7 +384,7 @@ Let $G$ be a Hausdorff locally convex space, $H$ a Hausdorff and quasi-complete 
 
 The supplementary condition imposed on $U$ may be expressed otherwise:
 
-#### Lemma 3 {#int-vi-s1-lem-3 .statement}
+#### Lemma 3 {#int-vi-s1-lem-3 .statement tag=0996}
 
 *Let $G, H$ be two locally convex spaces, $U$ a mapping of a locally compact space $T$ into $\mathscr{L}(G; H)$. The following conditions are equivalent:
 a) The mapping $(t, x) \mapsto U(t) \cdot x$ of $T \times G$ into $H$ is continuous.
@@ -400,7 +400,7 @@ Finally, the last assertion of the lemma follows from the fact that, on $M$, the
 
 Thus, suppose that $U$ satisfies the conditions of Lemma 3; then (if $H$ is quasi-complete) one defines, as in No. 6, a linear mapping $\lambda \mapsto \int U d\lambda$ of $\mathscr{C}'(T)$ into $F = \mathscr{L}(G; H)$. We set $U(\lambda) = \int U d\lambda$.
 
-#### Proposition 16 {#int-vi-s1-prop-16 .statement}
+#### Proposition 16 {#int-vi-s1-prop-16 .statement tag=0997}
 
 — Let $G, H$ be two Hausdorff locally convex spaces, with $H$ assumed to be quasi-complete. Let $U$ be a mapping of $T$ into $\mathscr{L}(G; H)$ such that $(t, x) \mapsto U(t) \cdot x$ is a continuous mapping of $T \times G$ into $H$. Then the bilinear mapping $(\lambda, x) \mapsto U(\lambda) \cdot x$ of $\mathscr{C}'(T) \times G$ into $H$ is hypocontinuous relative to the equicontinuous subsets of $\mathscr{C}'(T)$ and the compact subsets of $G$ (which implies that the linear mapping $\lambda \mapsto U(\lambda)$ of $\mathscr{C}'(T)$ into $F$ is continuous).
 
@@ -410,11 +410,11 @@ The continuity of $\lambda \mapsto U(t)$ as a mapping of $\mathscr{C}'(T)$ into 
 
 Let us now assume that U is a continuous mapping of T into F and, moreover, that U(T) is equicontinuous. Then, the same reasoning as above shows (since H is quasi-complete) that for every bounded positive measure μ on T, ∫ U dμ ∈ F. One can therefore define, as above, a linear mapping λ ↦ ∫ U dλ = U(λ) of M^1(T) into F that extends the analogous mapping of C'(T) into F. Moreover, for every closed, balanced, convex neighborhood V of 0 in H, there exists by hypothesis a neighborhood W of 0 in G such that for every x ∈ W and every t ∈ T, one has U(t) · x ∈ V, consequently (since V is weakly closed) ∫ (U(t) · x)dλ(t) ∈ ||λ|| · V (No. 2, Prop. 5). In other words:
 
-#### Proposition 17 {#int-vi-s1-prop-17 .statement}
+#### Proposition 17 {#int-vi-s1-prop-17 .statement tag=0998}
 
 — Let G, H be two Hausdorff locally convex spaces, with H assumed to be quasi-complete. Let U be a mapping of T into L(G; H) such that (t, x) ↦ U(t) · x is continuous on T × G, and U(T) is equicontinuous. Then, if M^1(T) is equipped with its Banach space topology, the bilinear mapping (λ, x) ↦ U(λ) · x of M^1(T) × G into H is continuous (which implies, in particular, that the linear mapping λ ↦ U(λ) of M^1(T) into L(G; H) is continuous when L(G; H) is equipped with the topology of bounded convergence).
 
-#### Proposition 18 {#int-vi-s1-prop-18 .statement}
+#### Proposition 18 {#int-vi-s1-prop-18 .statement tag=0999}
 
 — Let G_1, G_2, H_1, H_2 be four Hausdorff locally convex spaces, with H_1 and H_2 assumed to be quasi-complete. Let A : G_1 → G_2 and B : H_1 → H_2 be two continuous linear mappings. Let U_1 : T → L(G_1; H_1), U_2 : T → L(G_2; H_2) be two mappings satisfying the conditions of Prop. 16 (resp. Prop. 17), and suppose that for every t ∈ T, B ◦ U_1(t) = U_2(t) ◦ A. Then, for every measure with compact support (resp. every bounded measure) λ on T, B ◦ U_1(λ) = U_2(λ) ◦ A.
 
@@ -427,7 +427,7 @@ $$
 = \int \left( (U_2(t) \circ A) \cdot x \right) d\lambda(t) = U_2(\lambda) \cdot (A \cdot x).
 $$
 
-#### Remark 1 {#int-vi-s1-n7-rem-1 .statement}
+#### Remark 1 {#int-vi-s1-n7-rem-1 .statement tag=099A}
 
 Suppose that G and H are Banach spaces, and let U be a mapping of T into L(G; H) such that (t, x) ↦ U(t) · x is continuous on T × G. Note that this implies that the finite function t ↦ \|U(t)\| is bounded on every compact subset of T and lower semi-continuous on T, being the upper envelope of the continuous functions $t \mapsto |U(t) \cdot x|$ as $x$ runs over the ball $|x| \leq 1$ in G. Set $h(t) = \| U(t) \|$. Then, for every positive measure $\mu$ on T such that $h$ is $\mu$-integrable, we again have $\int U d\mu \in \mathscr{L}(G; H)$. For, the measure $\nu = h \cdot \mu$ is bounded by hypothesis; there therefore exists a partition of T formed by a $\nu$-negligible set N and a sequence $(K_n)$ of compact subsets. The argument made at the beginning of this No., applied to the measure $\varphi_{K_n} \cdot \mu$, shows that
 
@@ -437,7 +437,7 @@ $$
 
 and, moreover (No. 2, Prop. 6), $\| A_n \| \leq \int \varphi_{K_n} \| U \| \, d\mu \leq \nu(K_n)$. The series with general term $A_n$ is therefore absolutely convergent in the Banach space $\mathscr{L}(G; H)$, and it is immediate that its sum is $\int U \, d\mu$ and that $\| \int U \, d\mu \| \leq \int \| U \| \, d\mu$.
 
-#### Remark 2 {#int-vi-s1-n7-rem-2 .statement}
+#### Remark 2 {#int-vi-s1-n7-rem-2 .statement tag=099B}
 
 Suppose that $G = H$ is quasi-complete and that $U$ satisfies the hypotheses of Prop. 16. Let M be a dense subset of the space $\mathscr{C}'(T)$, for the weak topology $\sigma(\mathscr{C}'(T), \mathscr{C}(T))$, and let X be a closed linear subspace of H such that $U(\lambda)(X) \subset X$ for every measure $\lambda \in M$. Then also $U(t)(X) \subset X$ for every $t \in T$: indeed, for every $x \in X$ and every $x' \in H'$ orthogonal to X, by hypothesis $\langle U(\lambda) \cdot x, x' \rangle = 0$ for all $\lambda \in M$, which may be written $\int \langle U(t) \cdot x, x' \rangle \, d\mu(t) = 0$. The continuous function $t \mapsto \langle U(t) \cdot x, x' \rangle$, being orthogonal to M, is therefore 0, which yields $\langle U(t) \cdot x, x' \rangle = 0$ for every $x' \in X^\circ$, whence $U(t) \cdot x \in X$ for all $t \in T$ and $x \in X$, and this proves our assertion.
 

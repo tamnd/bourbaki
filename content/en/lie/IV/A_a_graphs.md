@@ -25,7 +25,7 @@ subsections:
       pdf_page: 42
 statements: 6
 exercises: 0
-content_sha256: eac22a0040474678cfb62df408ef3ef6cb1dc27c07113e0e6b8e5da22b5af9c4
+content_sha256: 7fa7ab5ecf248630c43ab97ab1126594432fdccc1695b2f5d4ac5a3b570217ea
 ---
 
 ## APPENDIX
@@ -33,7 +33,7 @@ content_sha256: eac22a0040474678cfb62df408ef3ef6cb1dc27c07113e0e6b8e5da22b5af9c4
 
 ### 1. DEFINITIONS
 
-#### Definition 1 {#lie-iv-a0-def-1 .statement}
+#### Definition 1 {#lie-iv-a0-def-1 .statement tag=0AOV}
 
 *A combinatorial graph (or simply a graph, if there is no risk of confusion) is a pair* $(\mathbf{A}, S)$, *where S is a set and A is a subset of $\mathfrak{P}(S)$ consisting of sets with two elements.*
 
@@ -59,7 +59,7 @@ would be a path of length $< n$ joining $a$ and $b$.
 
 The relation "there exists a path joining $a$ and $b$" between two vertices $a$ and $b$ of $\Gamma$ is an equivalence relation $R$ on the set $S$ of vertices. The equivalence classes of $R$ are called the *connected components* of $\Gamma$; and $\Gamma$ is said to be *connected* if $S$ has at most one connected component, that is if any two vertices of $\Gamma$ can be joined by at least one path.
 
-#### Proposition 1 {#lie-iv-a0-prop-1 .statement}
+#### Proposition 1 {#lie-iv-a0-prop-1 .statement tag=0AOW}
 
 *Let $\Gamma = (A, S)$ be a graph and $(S_\alpha)_{\alpha \in L}$ its family of connected components. Denote by $\Gamma_\alpha$ the full subgraph of $\Gamma$ having $S_\alpha$ as its set of vertices.*
 
@@ -76,7 +76,7 @@ The relation "there exists a path joining $a$ and $b$" between two vertices $a$ 
 
 (iv) Let $a$ be in $S'_\lambda$ and let $S_\alpha$ be the connected component of $\Gamma$ containing $a$. Then, for any $b$ in $S_\alpha$, there exists a path $(x_0, \ldots, x_n)$ joining $a$ and $b$ in $\Gamma$. If $i$ is an integer such that $0 \leq i < n$ and if $x_i \in S'_\lambda$, then $x_{i+1} \in S'_\lambda$ since $x_i$ is joined to $x_{i+1}$. It follows by induction that $x_i \in S'_\lambda$ for $0 \leq i \leq n$, and in particular that $b = x_n$ is in $S'_\lambda$. Thus, $S_\alpha \subset S'_\lambda$.
 
-#### Corollary 1 {#lie-iv-a0-prop-1-cor-1 .statement}
+#### Corollary 1 {#lie-iv-a0-prop-1-cor-1 .statement tag=0AOX}
 
 *A graph $\Gamma = (A, S)$ is connected if and only if there does not exist a partition $(S', S'')$ of $S$ into two non-empty subsets such that no element of $S'$ is joined in $\Gamma$ to any element of $S''$.*
 
@@ -84,7 +84,7 @@ Suppose that $\Gamma$ is not connected and let $S'$ be one of its connected comp
 
 Suppose now that $\Gamma$ is connected and let $(S', S'')$ be a partition with the stated property. By Prop. 1, (iv), the set $S'$ contains at least one connected component, so $S' = S$ and $S'' = \varnothing$, a contradiction.
 
-#### Corollary 2 {#lie-iv-a0-prop-1-cor-2 .statement}
+#### Corollary 2 {#lie-iv-a0-prop-1-cor-2 .statement tag=0AOY}
 
 *A subset $S'$ of $S$ is a union of connected components if and only if no vertex belonging to $S'$ is joined to any vertex belonging to $S - S'$.*
 
@@ -100,7 +100,7 @@ $$
 
 of distinct vertices of $\Gamma$ such that $n \geq 3$, $x_i$ is joined to $x_{i+1}$ for $1 \leq i < n$ and $x_n$ is joined to $x_1$. $\Gamma$ is called a *forest* if there is no circuit in $\Gamma$; every subgraph of $\Gamma$ is then also a forest. A connected forest is called a *tree*; the connected components of a forest are thus trees.
 
-#### Proposition 2 {#lie-iv-a0-prop-2 .statement}
+#### Proposition 2 {#lie-iv-a0-prop-2 .statement tag=0AOZ}
 
 *Let $\Gamma = (A, S)$ be a forest having only a finite number of vertices.*
 
@@ -122,7 +122,7 @@ $$
 
 A graph $\Gamma$ is said to be a chain of length $m \geq 0$ if it is isomorphic to $A_{m+1}$. This is equivalent to the existence in $\Gamma$ of an injective path $(x_0, \ldots, x_m)$ containing all the vertices, the vertices $x_i$ and $x_j$ not being joined if $|i - j| > 1$.
 
-#### Proposition 3 {#lie-iv-a0-prop-3 .statement}
+#### Proposition 3 {#lie-iv-a0-prop-3 .statement tag=0AP0}
 
 *A graph is a chain if and only if its number of vertices is finite and non-zero and it is a tree with no ramification point.*
 

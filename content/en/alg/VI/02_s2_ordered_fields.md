@@ -42,35 +42,35 @@ subsections:
       pdf_page: 339
 statements: 33
 exercises: 41
-content_sha256: d7f2b21361b689bf436e28262bca0874a95f69354bb19e5902c798a99a443aeb
+content_sha256: 10e2ee3ef0d0866e43d0f80ca2949c9e257a5a5b6c77401f65001eb032b1d94c
 ---
 
 ## § 2. ORDERED FIELDS
 
 ### 1. Ordered rings
 
-#### Definition 1 {#alg-vi-s2-def-1 .statement}
+#### Definition 1 {#alg-vi-s2-def-1 .statement tag=06YV}
 
 — Given a commutative ring $\mathbf{A}$, we say that an ordering on $\mathbf{A}$ is compatible with the ring structure of $\mathbf{A}$ if it is compatible with the additive group structure of $\mathbf{A}$, and if it satisfies the following axiom :
 (OR) The relations $x \geqslant 0$ and $y \geqslant 0$ imply $xy \geqslant 0$.
 The ring $\mathbf{A}$, together with such an ordering, is called an ordered ring.
 
-#### Example 1 {#alg-vi-s2-n1-exa-1 .statement}
+#### Example 1 {#alg-vi-s2-n1-exa-1 .statement tag=06YW}
 
 The rings $\mathbf{Q}$ and $\mathbf{Z}$, with the usual orderings, are ordered rings.
 
-#### Example 2 {#alg-vi-s2-n1-exa-2 .statement}
+#### Example 2 {#alg-vi-s2-n1-exa-2 .statement tag=06YX}
 
 A product of ordered rings, equipped with the product ordering, is an ordered ring. In particular the ring $\mathbf{A}^E$ of mappings from a set $E$ to an ordered ring $\mathbf{A}$ is an ordered ring.
 
-#### Example 3 {#alg-vi-s2-n1-exa-3 .statement}
+#### Example 3 {#alg-vi-s2-n1-exa-3 .statement tag=06YY}
 
 A subring of an ordered ring, with the induced ordering, is an ordered ring.
 
 In an ordered ring, the relations $x \geqslant y$ and $z \geqslant 0$ imply $xz \geqslant yz$. Indeed these inequalities are equivalent to $x - y \geqslant 0$, $z \geqslant 0$ and $(x - y)z \geqslant 0$ respectively.
 Analogously we can show that the relations $x \leqslant 0$ and $y \geqslant 0$ (resp. $y \leqslant 0$) imply $xy \leqslant 0$ (resp. $xy \geqslant 0$). These results are often invoked under the name of sign rules (two elements are said to have the same sign if they are both $\geqslant 0$ or both $\leqslant 0$). They imply that, if $\mathbf{A}$ is a totally ordered ring, then every square is positive, and in particular that every idempotent (for example the unit element) is positive.
 
-#### Example {#alg-vi-s2-n1-exa-4 .statement}
+#### Example {#alg-vi-s2-n1-exa-4 .statement tag=06YZ}
 
 There is only one totally ordered ring structure on $\mathbf{Z}$: indeed $1 > 0$, whence $n > 0$ for every natural number $n \neq 0$, by induction. In contrast there exist ordered ring structures on $\mathbf{Z}$ which are not totally ordered (see below).
 
@@ -92,25 +92,27 @@ $$
 (\mathrm{AP}_{IV}) \quad P \cup (-P) = \mathbf{A}.
 $$
 
-#### Example {#alg-vi-s2-n1-exa-5 .statement}
+#### Example {#alg-vi-s2-n1-exa-5 .statement tag=06Z0}
 
 In $\mathbf{Z}$, if we take $P$ to be the set of positive (in the usual sense) even integers, we get a ring which is not totally ordered.
 
 Recall also that, in a totally ordered abelian group, the relation $n \cdot x = 0$ (for a natural number $n \neq 0$) implies $x = 0$ (VI, p. 4); this gives us the following result.
 
-#### Proposition 1 {#alg-vi-s2-prop-1 .statement}
+#### Proposition 1 {#alg-vi-s2-prop-1 .statement tag=06Z1}
 
 — A *totally ordered ring is torsion free as a $\mathbf{Z}$-module* (II, p. 313).
 
 ### 2. Ordered fields
 
-#### Definition 2 {#alg-vi-s2-def-2 .statement}
+#### Definition 2 {#alg-vi-s2-def-2 .statement tag=06Z2}
 
 — A commutative *field, equipped with a total ordering, is called an ordered field* if *its ordering and its ring structure are compatible*.
 
 We restrict ourselves to *total* order relations on fields because the others are very « pathological » (VI, p. 38, Ex. 6).
 
-*Examples. — 1) The field $\mathbf{Q}$ of rational numbers is an ordered field.
+#### Examples {#alg-vi-s2-n2-exa-2 .statement tag=0DID}
+
+*1) The field $\mathbf{Q}$ of rational numbers is an ordered field.
 2) A subfield of an ordered field, with the induced ordering, is an ordered field.
 3) \* The field of real numbers is an ordered field. \*
 
@@ -132,7 +134,7 @@ For all $x$ and $y$ in $K$ we have $x = \operatorname{sgn}(x)|x|$ and $|xy| = |x
 
 On the other hand every ordered field is of characteristic zero (Prop. 1).
 
-#### Proposition 2 {#alg-vi-s2-prop-2 .statement}
+#### Proposition 2 {#alg-vi-s2-prop-2 .statement tag=06Z3}
 
 — *Let $A$ be a totally ordered integral domain, and let $K$ be its field of fractions. Then there exists one and only one ordering on $K$ which restricts to the given ordering on $A$ and makes $K$ an ordered field.*
 
@@ -140,13 +142,13 @@ Every $x \in K$ can be expressed in the form $x = ab^{-1}$, with $a$ and $b$ in 
 
 To show $(\mathrm{AP}_{III})$, consider an identity of the form $ab^{-1} = -cd^{-1}$, so that $ad + bc = 0$. If we assume that $a$ and $b$ have the same sign and that $c$ and $d$ have the same sign, then the sign rules show that $ad$ and $bc$ have the same sign; whence $ad = bc = 0$, so $a = c = 0$; hence $P$ does indeed satisfy $(\mathrm{AP}_{III})$.
 
-#### Example {#alg-vi-s2-n2-exa-1 .statement}
+#### Example {#alg-vi-s2-n2-exa-1 .statement tag=06Z4}
 
 — Since $Z$ admits only one totally ordered ring structure (*VI*, p. 19, *example*), the field $\mathbf{Q}$ admits only one ordering which makes it an ordered field: this is the usual ordering.
 
 ### 3. Extensions of ordered fields
 
-#### Definition 3 {#alg-vi-s2-def-3 .statement}
+#### Definition 3 {#alg-vi-s2-def-3 .statement tag=06Z5}
 
 *Let $K$ be an ordered field. An ordered extension of $K$ is a pair $(E, u)$, where $E$ is an ordered field and $u$ is an increasing homomorphism from $K$ to $E$.*
 
@@ -156,13 +158,13 @@ x \leq y \quad \text{if} \quad u(x) \leq u(y)
 $$
 is a total order relation on $K$ which gives it an ordered field structure, said to be *induced* by that of $E$. If $K$ and $E$ are ordered fields, then a homomorphism $u : K \to E$ is increasing if and only if the ordered field structure of $K$ is induced by that of $E$. We will usually identify $K$ with its image in $E$ under $u$.
 
-#### Example {#alg-vi-s2-n3-exa-1 .statement}
+#### Example {#alg-vi-s2-n3-exa-1 .statement tag=06Z6}
 
 — 1) Every ordered field $K$ is an ordered extension of $\mathbf{Q}$. Indeed $K$ is an extension of $\mathbf{Q}$, since it is of characteristic zero, and on the other hand $\mathbf{Q}$ can only be ordered in one way, as we have just seen.
 
 2) Let $K$ be an ordered field, and let $K(X)$ be the field of rational functions in one indeterminate over $K$. Let us define an ordering on the polynomial ring $K[X]$ by taking the positive elements to be $0$ and those polynomials whose leading coefficient is positive. In this way we obtain a totally ordered ring whose ordering extends that of $K$. By applying Prop. 2 we give $K(X)$ the structure of an ordered extension of $K$. *For $K = \mathbf{R}$ it can be shown that the order relation defined on $K(X)$ in this way is that of growth near $+\infty$ (cf. *VI*, p. 24, Prop. 4).*
 
-#### Theorem 1 {#alg-vi-s2-thm-1 .statement}
+#### Theorem 1 {#alg-vi-s2-thm-1 .statement tag=06Z7}
 
 *For an extension $E$ of $K$ to admit the structure of an ordered extension of $K$, the following condition is necessary and sufficient:*
 *(OE)* *The relation $p_1 x_1^2 + \ldots + p_n x_n^2 = 0$ implies*
@@ -182,7 +184,7 @@ To define P, let us consider the set $\mathscr{M}$ of subsets of E which satisfy
 
 Moreover $\mathscr{M}$ is inductive (*Set Theory*, III, p. 154, Def. 3). Thus there exists, by Th. 2 of *Set Theory*, III, p. 154, a maximal element in $\mathscr{M}$, which it remains for us to prove satisfies (AP_{IV}); now this follows from the following lemma:
 
-#### Lemma {#alg-vi-s2-n3-lem-1 .statement}
+#### Lemma {#alg-vi-s2-n3-lem-1 .statement tag=06Z8}
 
 — *Let* $P \in \mathscr{M}$ *and* $x \notin P$; *then there exists* $P' \in \mathscr{M}$ *such that* $P \subset P'$ *and* $-x \in P'$.
 
@@ -201,7 +203,7 @@ x = (s + q)^{-2}(s + q)(p + r) \in CPP \subset P,
 $$
 contrary to the hypothesis; hence $s + q = 0$, whence $p + r = 0$; since P satisfies (AP_{III}) we deduce that $s = q = r = p = 0$, which completes the proof.
 
-#### Corollary 1 (*« Artin-Schreier Theorem »*) {#alg-vi-s2-thm-1-cor-1 .statement}
+#### Corollary 1 (*« Artin-Schreier Theorem »*) {#alg-vi-s2-thm-1-cor-1 .statement tag=06Z9}
 
 — *A necessary and sufficient condition for there to exist an ordering on a commutative field* E *which makes it an ordered field, is that the relation* $x_1^2 + \ldots + x_n^2 = 0$ *imply* $x_1 = \ldots = x_n = 0$.
 
@@ -209,7 +211,7 @@ The necessity is obvious. Conversely, the stated condition implies that E is of 
 
 There does *not* exist any ordered field structure on a field E in which $-1$ is a square, in particular on an algebraically closed field.
 
-#### Corollary 2 {#alg-vi-s2-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-vi-s2-thm-1-cor-2 .statement tag=06ZA}
 
 *Let E be an extension of K admitting the structure of an ordered extension of K. For an element $x \in E$ to be positive under every such structure on E, it is necessary and sufficient that x be of the form $\sum_i p_i x_i^2$, where $x_i \in E$ and the $p_i$ are positive elements of K.*
 
@@ -219,7 +221,7 @@ The condition is obviously sufficient; it is also necessary, for (in the notatio
 
 Let K be an ordered field, and f a polynomial in K[X]. We will say that *f changes sign in K* if there exist two elements a and b in K such that $f(a) f(b) < 0$; then we say that *f changes sign between a and b*.
 
-#### Proposition 3 {#alg-vi-s2-prop-3 .statement}
+#### Proposition 3 {#alg-vi-s2-prop-3 .statement tag=06ZB}
 
 *Let K be an ordered field and f an irreducible polynomial over K which changes sign between a and b in K. Then the extension $E = K[X]/(f)$ of K admits the structure of an ordered extension.*
 
@@ -237,13 +239,13 @@ $$
 
 where $h \neq 0$ has degree at most $n - 2$. Replacing X by a and b in the above inequality, we see that $h(a) f(a) > 0$ and $h(b) f(b) > 0$. Since f changes sign between a and b by hypothesis, we conclude that $h(a) h(b) < 0$. Then we have a similar inequality for one of the irreducible factors $g(X)$ of $h(X)$: that is $g(a)\ g(b) < 0$. But $1 + \sum_i P_i f_i^2(X) \equiv 0 \pmod{g(X)}$, which shows that the field $K[X]/(g)$ cannot be an ordered extension of $K$ (Th. 1), contrary to the induction hypothesis.
 
-#### Remark {#alg-vi-s2-n4-rem-1 .statement}
+#### Remark {#alg-vi-s2-n4-rem-1 .statement tag=06ZC}
 
 There exist irreducible polynomials $f$ over an ordered field $K$ which do not change sign in $K$, but such that $K[X]/(f)$ admits the structure of an ordered extension of $K$ (cf. VI, p. 43, Ex. 26, c)).
 
 In order to apply the previous proposition we will need the following result:
 
-#### Proposition 4 {#alg-vi-s2-prop-4 .statement}
+#### Proposition 4 {#alg-vi-s2-prop-4 .statement tag=06ZD}
 
 — *Let $K$ be an ordered field and let $f \in K[X]$. There exists an interval in $K$, in the complement of which $f$ takes the same sign as its highest degree term.*
 
@@ -255,19 +257,19 @@ $$
 
 For $|x| > M$ we have $1 + a_1 x^{-1} + \ldots + a_n x^{-n} > 0$, which completes the proof of the proposition.
 
-#### Corollary 1 {#alg-vi-s2-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-vi-s2-prop-4-cor-1 .statement tag=06ZE}
 
 — *Every extension of an ordered field of odd finite degree admits the structure of an ordered extension.*
 
 Such an extension, being monogenous (V, p. 40, Th. 1), is isomorphic to $K[X]/(f)$, where $f$ is an irreducible polynomial of odd degree. Then it is enough to show that $f$ changes sign in $K$ (Prop. 3), which follows immediately from Prop. 4.
 
-#### Corollary 2 {#alg-vi-s2-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-vi-s2-prop-4-cor-2 .statement tag=06ZF}
 
 — *If $a$ is a positive element of an ordered field $K$, then every splitting field $E$ of the polynomial $X^2 - a$ admits the structure of an ordered extension of $K$.*
 
 The result is trivial if $a$ is a square in $K$. Otherwise the polynomial $f(X) = X^2 - a$ is irreducible and changes sign, since $f(0) < 0$ and $f(x)$ has the same sign as $x^2$, so positive, for $x$ in the complement of some interval of $K$. We can now complete the proof by applying Prop. 3.
 
-#### Remark {#alg-vi-s2-n4-rem-2 .statement}
+#### Remark {#alg-vi-s2-n4-rem-2 .statement tag=06ZG}
 
 When the ordered field $K$ contains the « square roots » of a positive element $a$ of $K$ (roots of the polynomial $X^2 - a$) then the notation $\sqrt{a}$ is generally reserved for the *positive* square root. If $K$ does *not* contain the square roots $b$ and $-b$ of $a$ in the field $E$, then the latter can be made an ordered extension of $K$ in *two* ways, each induced from the other *via* the $K$-automorphism which sends $b$ to $-b$; the choice of one of these orderings determines $\sqrt{a}$: it is whichever of the elements $b$ and $-b$ is positive.
 
@@ -275,17 +277,17 @@ If $a$ and $a'$ are two positive elements of $K$, whose square roots are in $K$,
 
 ### 5. Maximal ordered fields
 
-#### Definition 4 {#alg-vi-s2-def-4 .statement}
+#### Definition 4 {#alg-vi-s2-def-4 .statement tag=06ZH}
 
 — *An ordered field K is maximal if every ordered algebraic extension of K is trivial.*
 
-#### Example {#alg-vi-s2-n5-exa-1 .statement}
+#### Example {#alg-vi-s2-n5-exa-1 .statement tag=06ZI}
 
 *We will see later (Gen. Top., VIII, p. 1) that the field R of real numbers is a maximal ordered field.*
 
 The existence of maximal ordered fields is a consequence of the following theorem:
 
-#### Theorem 2 {#alg-vi-s2-thm-2 .statement}
+#### Theorem 2 {#alg-vi-s2-thm-2 .statement tag=06ZJ}
 
 — *Every ordered field K admits an ordered algebraic extension which is a maximal ordered field.*
 
@@ -293,19 +295,19 @@ One can show that this ordered extension is unique up to K-isomorphism (VI, p. 4
 
 Let $\Omega$ be an algebraic closure of K, and let $\mathfrak{N}$ be the set of pairs $(A, w)$, where $A$ is a sub-K-extension of $\Omega$, and $w$ is an ordering on $A$ making $A$ an ordered extension of $K$. Order $\mathfrak{N}$ by the relation « L is an ordered extension of M » between M and $L$. Equipped with this ordering, $\mathfrak{N}$ is an *inductive* ordered set: indeed if $(L_i)$ is a totally ordered family of elements of $\mathfrak{N}$, then the field $L = \bigcup L_i$, ordered by taking $L_1 = \bigcup (L_i)_1$, is an upper bound for the $L_i$. Then $\mathfrak{N}$ has a maximal element, by *Set Theory*, III, p. 154, Th. 2, which completes the proof.
 
-#### Proposition 5 {#alg-vi-s2-prop-5 .statement}
+#### Proposition 5 {#alg-vi-s2-prop-5 .statement tag=06ZK}
 
 — *Let K be a maximal ordered field, and let f be a polynomial in K[X] which changes sign between two elements a and b of K (with $a < b$). Then f has a root x in K such that $a < x < b$.*
 
 At least one of the irreducible factors off, say $h$, changes sign between $a$ and $b$. Then the field $K[X]/(h)$ admits the structure of an ordered extension of $K$ (VI, p. 23, Prop. 3), and $h$ has degree 1 (Def. 4). Since $h(a) h(b) < 0$, the unique root $x$ of $h$ is such that $a < x < b$, since a polynomial function of degree 1 is monotonic.
 
-#### Proposition 6 {#alg-vi-s2-prop-6 .statement}
+#### Proposition 6 {#alg-vi-s2-prop-6 .statement tag=06ZL}
 
 — *Every positive element of a maximal ordered field K has a square root in K. Every polynomial of odd degree in K[X] has at least one root in K.*
 
 This follows immediately from Cor. 2 and 1 to Prop. 4 of VI, p. 24.
 
-#### Corollary {#alg-vi-s2-n5-cor-1 .statement}
+#### Corollary {#alg-vi-s2-n5-cor-1 .statement tag=06ZM}
 
 — *On a maximal ordered field K there exists only one ordering compatible with the field structure.*
 
@@ -315,7 +317,7 @@ Indeed the positive elements of K are determined by its algebraic structure: the
 
 The property expressed by Prop. 6 of VI, p. 25 characterises maximal ordered fields. More precisely:
 
-#### Theorem 3 (Euler-Lagrange) {#alg-vi-s2-thm-3 .statement}
+#### Theorem 3 (Euler-Lagrange) {#alg-vi-s2-thm-3 .statement tag=06ZN}
 
 — Let K be an ordered field. Then the following three properties are equivalent:
 a) The field $K(i)$ is algebraically closed (where i denotes a square root of -1).
@@ -328,7 +330,7 @@ The fact that b) implies c) is nothing other than Prop. 6 of VI, p. 25.
 
 It remains for us to prove that c) implies a). That will follow from the next two propositions.
 
-#### Proposition 7 {#alg-vi-s2-prop-7 .statement}
+#### Proposition 7 {#alg-vi-s2-prop-7 .statement tag=06ZO}
 
 — Let K be an ordered field in which every positive element is a square. Then every element of $K(i)$ is a square, and every polynomial of degree 2 over $K(i)$ has a root in $K(i)$.
 
@@ -354,7 +356,7 @@ $$
 
 Let c denote the positive square root of $a^2 + b^2$; then $c \geq |a|, c \geq |b|$ and $x^2 + y^2 = c$. Whence $x^2 = (c + a)/2$ and $y^2 = (c - a)/2$. Since $c \geq |a|$ these equations are soluble in K, and if $x_0$ and $y_0$ are two solutions then $x_0^2 - y_0^2 = a$ and $2x_0y_0 = \pm b$. We obtain the desired square root by taking $x = x_0$ and $y = b/2x_0$.
 
-#### Proposition 8 {#alg-vi-s2-prop-8 .statement}
+#### Proposition 8 {#alg-vi-s2-prop-8 .statement tag=06ZP}
 
 — Let K be a commutative field (of arbitrary characteristic) and let $K'$ be a splitting field for the polynomial $X^2 + 1 \in K[X]$ (V, p. 21). Suppose:
 a) every polynomial in $K[X]$ of odd degree has a root in $K'$;
@@ -416,13 +418,13 @@ which can be written $(ab' - ba')^2 \geq 0$.
 
 Th. 3 enables us to determine all the irreducible polynomials over a maximal ordered field:
 
-#### Proposition 9 {#alg-vi-s2-prop-9 .statement}
+#### Proposition 9 {#alg-vi-s2-prop-9 .statement tag=06ZQ}
 
 — *If K is a maximal ordered field, then the only irreducible polynomials in K[X] are the first degree polynomials, and the second degree polynomials $aX^2 + bX + c$ such that $b^2 - 4ac < 0$.*
 
 Since $K(i)$ is algebraically closed, every algebraic extension of K, and hence also every irreducible polynomial over K, has degree 1 or 2. To see which second degree polynomials are irreducible, it is enough to consider the canonical form $a((X + (b/2a))^2 - (b^2 - 4ac)/4a^2)$ (cf. *VI*, p. 26, Prop. 7).
 
-#### Remark {#alg-vi-s2-n6-rem-1 .statement}
+#### Remark {#alg-vi-s2-n6-rem-1 .statement tag=06ZR}
 
 — Translating into the canonical trinomial form yields this stronger result: a necessary and sufficient condition for the polynomial $aX^2 + bX + c$ over a given ordered field K to have constant sign in K is that $b^2 - 4ac < 0$, and then the sign of the polynomial is that of $a$.
 

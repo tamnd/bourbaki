@@ -53,7 +53,7 @@ subsections:
       pdf_page: 101
 statements: 39
 exercises: 15
-content_sha256: d9e686475f5684dc2437fc172de60967de869a23384f3cbb25e55a1a48229664
+content_sha256: 79798aceca85c9672c76b11436ebeee1fb4cde357940819eeefac2582fcfeb6c
 translated_from: content/fr/ac/X/07_s7_algebres_lisses.md
 source_lang: fr
 translation_method: machine
@@ -73,7 +73,7 @@ Let $k$ be a ring, $C$ a $k$-algebra and $N$ an ideal of $C$ of square zero. Let
 
 Let $A$ be a $k$-algebra and $\varphi : A \to C/N$ a homomorphism of $k$-algebras. Endow $N$ with the structure of $A$-module deduced from $\varphi$. By a *lifting of $\varphi$* (to $C$) is meant any homomorphism of $k$-algebras $\tilde{\varphi} : A \to C$ such that $\pi \circ \tilde{\varphi} = \varphi$. Let $\tilde{\varphi}$ be such a lifting, and $\delta$ a mapping of $A$ into $N$; let $\delta + \tilde{\varphi}$ denote the mapping $x \mapsto \delta(x) + \tilde{\varphi}(x)$ of $A$ into $C$.
 
-#### Proposition 1 {#ac-x-s7-prop-1 .statement}
+#### Proposition 1 {#ac-x-s7-prop-1 .statement tag=0D8S}
 
 *If $\varphi$ admits a lifting, the mapping $(\delta, \tilde{\varphi}) \mapsto \delta + \tilde{\varphi}$ defines a simply transitive operation of the group of $k$-derivations of $A$ into $N$ on the set of liftings of $\varphi$.*
 
@@ -90,7 +90,7 @@ $$
 
 the last equality resulting from the fact that $N$ is of square zero. The proposition follows from this.
 
-#### Example {#ac-x-s7-n1-exa-1 .statement}
+#### Example {#ac-x-s7-n1-exa-1 .statement tag=0D8T}
 
 Let $B$ be a $k$-algebra, $N$ a $B$-module. Endow the $k$-module $B \oplus N$ with the structure of a $k$-algebra defined by $(b, x)(b', x') = (bb', bx' + b'x)$ (*cf.* A, III, p. 127), so that $N$ is a square-zero ideal of $B \oplus N$. Let $\varphi : A \to B$ be a homomorphism of $k$-algebras. Then the liftings of $\varphi$ to $B \oplus N$ are the mappings $x \mapsto (\varphi(x), \delta(x))$, where $\delta$ runs through the set of $k$-derivations of $A$ into $N$ (*cf. loc. cit.*, prop. 12).
 
@@ -106,7 +106,7 @@ where $\bar{d}$ is the homomorphism induced by passing to quotients from the res
 
 Let $\rho : A \to A/J^2$ and $\pi : A/J^2 \to A/J$ denote the canonical surjections. Let $v : (A/J) \otimes_A \Omega_k(A) \longrightarrow J/J^2$ be a $k$-linear mapping; to it one associates a $k$-linear mapping $H_v : A \to A/J^2$ by putting $H_v(x) = \rho(x) - v(1 \otimes dx)$. If $v$ is a retraction of $\bar{d}$, $H_v$ vanishes on J, hence induces by passing to the quotient a $k$-linear mapping $h_v : A/J \to A/J^2$. On the other hand, given a $k$-linear mapping $h : A/J \to A/J^2$, let us denote by $\psi_h : A/J \oplus J/J^2 \longrightarrow A/J^2$ the mapping $(x, y) \mapsto h(x) + y$.
 
-#### Proposition 2 {#ac-x-s7-prop-2 .statement}
+#### Proposition 2 {#ac-x-s7-prop-2 .statement tag=0D8U}
 
 Endow the $k$-module $A/J \oplus J/J^2$ with the structure of a $k$-algebra defined in the above example. The mappings $v \mapsto h_v$ and $h \mapsto \psi_h$ induce bijections between the following sets :
 
@@ -122,7 +122,7 @@ The mapping $h \mapsto \psi_h$ is a bijection of the set of $k$-linear homomorph
 
 Let $k$ be a ring and $A$ a linearly topologized $k$-algebra (III, § 4, No. 2, Def. 1).
 
-#### Definition 1 {#ac-x-s7-def-1 .statement}
+#### Definition 1 {#ac-x-s7-def-1 .statement tag=0D8V}
 
 One says that $A$ is formally smooth over $k$, or is a formally smooth $k$-algebra, if it satisfies the following condition: whatever the $k$-algebra $C$ and the square-zero ideal $N$ of $C$ may be, every continuous homomorphism from $A$ into the $k$-algebra $C/N$, endowed with the discrete topology, can be lifted to a continuous homomorphism from $A$ into the $k$-algebra $C$, endowed with the discrete topology.
 
@@ -132,7 +132,7 @@ Let $k$ be a ring, $A$ a $k$-algebra and $J$ an ideal of $A$. Endow $A$ with the
 
 We shall say that a $k$-algebra $A$ is formally smooth if it is formally smooth when endowed with the discrete topology, that is to say, the $(0)$-adic topology; it is then formally smooth for the $J$-adic topology whatever the ideal $J$ of $A$ may be.
 
-#### Remark 1 {#ac-x-s7-n2-rem-1 .statement}
+#### Remark 1 {#ac-x-s7-n2-rem-1 .statement tag=0D8W}
 
 Let $k$ be a ring, $A$ a $k$-algebra and $J$ an ideal of $A$. If the $k$-algebra $A/J$ is formally smooth (for the discrete topology), the identity mapping of $A/J$ admits a lifting to $A/J^2$; consequently the sets described in Prop. 2 are non-empty. In particular, the sequence
 
@@ -142,11 +142,11 @@ $$
 
 is exact and split.
 
-#### Remark 2 {#ac-x-s7-n2-rem-2 .statement}
+#### Remark 2 {#ac-x-s7-n2-rem-2 .statement tag=0D8X}
 
 Let $k$ be a ring, $A$ a linearly topologized formally smooth $k$-algebra, $M$ an $A$-module whose annihilator is open in $A$. Then every derivation $\delta$ of $k$ into $M$ extends to a derivation of $A$ into $M$. Indeed, put $B = A/Ann(M)$; the mapping $\lambda \mapsto (\lambda 1_B, \delta(\lambda))$ defines a ring homomorphism from $k$ into $B \oplus M$ (No. 1, Example), that is, a $k$-algebra structure on $B \oplus M$. The canonical surjection $\varphi : A \to B$ is continuous, and therefore admits a lifting $\tilde{\varphi} : A \to B \oplus M$; by loc. cit., $pr_2 \circ \tilde{\varphi}$ is a derivation of $A$ into $M$ which extends $\delta$.
 
-#### Proposition 3 {#ac-x-s7-prop-3 .statement}
+#### Proposition 3 {#ac-x-s7-prop-3 .statement tag=0D8Y}
 
 Let $k$ be a ring.
 
@@ -176,7 +176,7 @@ c) Let $i : A \to \widehat{A}$ denote the canonical homomorphism. For every ring
 
 Assertion c) of the proposition applies in particular when the topology of $A$ is the J-adic topology, where J is an ideal of finite type; the closure $\widehat{J}$ of J in $\widehat{A}$ is then equal to $JA$ and the topology of $\widehat{A}$ is the $\widehat{J}$-adic topology (III, § 2, No. 12, Cor. 2 of Prop. 16). Consequently, it is equivalent to say that A is formally smooth for the J-adic topology or that its separated completion $\widehat{A}$ is formally smooth for the J-adic topology.
 
-#### Proposition 4 {#ac-x-s7-prop-4 .statement}
+#### Proposition 4 {#ac-x-s7-prop-4 .statement tag=0D8Z}
 
 Let k be a ring, A and B $k$-algebras, J an ideal of A, K an ideal of B.
 
@@ -226,17 +226,17 @@ For every $x \in K$, we have $g(x^p) = \lambda(\varphi(x))$. Since $\lambda(\alp
 
 Let $(a_i)_{i \in I}$ be a $p$-basis of $K$ over $k(K^p)$ (A, V, p. 98, theorem 2); for every $i \in I$, choose an element $b_i$ of $C$ such that $\pi(b_i) = \varphi(a_i)$. We have $h(a_i^p) = g(a_i^p) = \lambda(\varphi(a_i)) = \lambda(\pi(b_i)) = b_i^p$ for every $i \in I$. By A, V, p. 94, remark, there exists a homomorphism of $k$-algebras $\tilde{\varphi} : K \to C$, extending $h$ and such that $\tilde{\varphi}(a_i) = b_i$ for every $i$. We have $\pi(\tilde{\varphi}(a_i)) = \pi(b_i) = \varphi(a_i)$ for every $i$ and $\pi(\tilde{\varphi}(x^p)) = \pi(h(x^p)) = \pi(g(x^p)) = \pi(\lambda(\varphi(x))) = \varphi(x^p)$ for every $x \in K$. Hence $\pi \circ \tilde{\varphi} = \varphi$, which completes the proof.
 
-#### Corollary {#ac-x-s7-n3-cor-1 .statement}
+#### Corollary {#ac-x-s7-n3-cor-1 .statement tag=0D90}
 
 Let $k$ be a field, $K$ a separable extension of $k$ and $A$ a linearly topologized $K$-algebra. If $A$ is formally smooth over $K$, it is formally smooth over $k$.
 
 This follows from the theorem and prop. 3 a) of No. 2.
 
-#### Remark 1 {#ac-x-s7-n3-rem-1 .statement}
+#### Remark 1 {#ac-x-s7-n3-rem-1 .statement tag=0D91}
 
 Let $k$ be a field. Every étale $k$-algebra (A, V, p. 28, def. 1) is formally smooth (*loc. cit.*, p. 34, th. 4, d) and No. 2, prop. 3, b)).
 
-#### Remark 2 {#ac-x-s7-n3-rem-2 .statement}
+#### Remark 2 {#ac-x-s7-n3-rem-2 .statement tag=0D92}
 
 We shall see below (cor. 2 of th. 2 of No. 5) that a field extension which is formally smooth is absolutely regular, hence separable (§ 6, No. 4, example 2).
 
@@ -244,19 +244,19 @@ We shall see below (cor. 2 of th. 2 of No. 5) that a field extension which is fo
 
 Let $k$ be a ring, $C$ a $k$-algebra, $(C_n)_{n \in \mathbf{Z}}$ a decreasing filtration of $C$, compatible with the structure of $k$-algebra and such that $C_0 = C$ (III, § 2, No. 1). Suppose that $C$ is separated and complete for the topology defined by this filtration, so that the canonical mapping $C \to \varprojlim C/C_n$ is a homeomorphism (*loc. cit.*, No. 6). Let $m$ be an integer $> 0$; denote by $\pi : C \to C/C_m$ the canonical surjection.
 
-#### Proposition 5 {#ac-x-s7-prop-5 .statement}
+#### Proposition 5 {#ac-x-s7-prop-5 .statement tag=0D93}
 
 Let $A$ be a formally smooth linearly topologized $k$-algebra. Every continuous homomorphism of $k$-algebras $\varphi : A \to C/C_m$ admits a continuous lifting to $C$.
 
 For every integer $n > m$, let us denote by $\pi_n : C/C_n \to C/C_{n-1}$ the canonical surjection. Since $C$ is identified with the projective limit of the $C/C_n$, to give a continuous lifting of $\varphi$ to $C$ amounts to the same as giving a family $(\varphi_n)_{n > m}$ of continuous homomorphisms of $k$-algebras $\varphi_n : A \to C/C_n$, satisfying $\pi_n \circ \varphi_n = \varphi_{n-1}$. This reduces us, by induction on $m$, to proving the statement when $C_{m+1} = 0$. The ideal $C_m$ is then square zero (for $2m \geq m+1$), whence the proposition since $A$ is formally smooth.
 
-#### Example {#ac-x-s7-n4-exa-1 .statement}
+#### Example {#ac-x-s7-n4-exa-1 .statement tag=0D94}
 
 Let $C$ be a $k$-algebra and $N$ a nilpotent two-sided ideal of $C$. The proposition applies to the algebra $C$ endowed with the $N$-adic filtration. If $A$ is a formally smooth linearly topologized $k$-algebra, one obtains that every continuous homomorphism of $A$ into the $k$-algebra $C/N$, endowed with the discrete topology, lifts to a continuous homomorphism of $A$ into the $k$-algebra $C$, endowed with the discrete topology.
 
 ### 5. Formally smooth quotients of algebras
 
-#### Theorem 2 {#ac-x-s7-thm-2 .statement}
+#### Theorem 2 {#ac-x-s7-thm-2 .statement tag=0D95}
 
 Let k be a ring, A a k-algebra, and J an ideal of A such that the k-algebra A/J is formally smooth. Endow A with the J-adic topology. The following conditions are equivalent:
 
@@ -292,7 +292,7 @@ It remains to prove that the homomorphism β is injective. Since the A/J-module 
 
 Finally, when A is noetherian, conditions (ii) and (iv) are equivalent (§ 5, No. 2, Th. 1).
 
-#### Corollary 1 {#ac-x-s7-thm-2-cor-1 .statement}
+#### Corollary 1 {#ac-x-s7-thm-2-cor-1 .statement tag=0D96}
 
 Let k be a field and A a noetherian local k-algebra such that the extension κ_A of k is separable. The following conditions are equivalent:
 
@@ -301,13 +301,13 @@ Let k be a field and A a noetherian local k-algebra such that the extension κ_A
 (iii) the k-algebra Λ is absolutely regular (§ 6, No. 4, Def. 1) ;
 (iv) the k-algebra Ā is isomorphic to κ_A[[T_1, ..., T_n]], with n = dim A.
 
-#### Corollary 2 {#ac-x-s7-thm-2-cor-2 .statement}
+#### Corollary 2 {#ac-x-s7-thm-2-cor-2 .statement tag=0D97}
 
 Let $k$ be a field, $A$ a noetherian $k$-algebra and $J$ an ideal of $A$ contained in the radical of $A$. Suppose that the $k$-algebra $A$ is formally smooth for the $J$-adic topology. Then it is absolutely regular.
 
 Let indeed $k'$ be a finite extension of $k$ and $A'$ the $A$-algebra $A_{(k')}$; it is a question of proving that, for every maximal ideal $m'$ of $A'$, the noetherian local ring $A'_{m'}$ is regular. Now one has $JA' \subset m'$: in fact, the inverse image of $m'$ in $A$ is a maximal ideal of $A$ (V, § 2, No. 1, prop. 1), hence contains $J$. The $k'$-algebra $A'$ is formally smooth for the $JA'$-adic topology (No. 2, prop. 4, b)), and the $k'$-algebra $A'_{m'}$ is formally smooth for the $JA'_{m'}$-adic topology (No. 2, prop. 4, a)), hence also for the $m'A'_{m'}$-adic topology. Let $k_0$ be the prime subfield of $k'$. Then $A'_{m'}$ is formally smooth over $k_0$ for the $m'A'_{m'}$-adic topology (cor. to th. 1 of No. 3); since $\kappa(m')$ is separable over $k_0$, the ring $A'_{m'}$ is regular (cor. 1).
 
-#### Corollary 3 {#ac-x-s7-thm-2-cor-3 .statement}
+#### Corollary 3 {#ac-x-s7-thm-2-cor-3 .statement tag=0D98}
 
 Let $k$ be a ring and $A$ a formally smooth $k$-algebra.
 
@@ -321,7 +321,7 @@ The $k$-algebras $A$ and $A \otimes_k A$ are formally smooth (No. 2, prop. 4, c)
 
 Let $k$ be a ring and $\rho : A \to B$ a homomorphism of $k$-algebras. From $\rho$ one deduces an $A$-linear mapping $\Omega(\rho) : \Omega_k(A) \to \Omega_k(B)$, and consequently a $B$-linear mapping $\Omega_0(\rho) : B \otimes_A \Omega_k(A) \to \Omega_k(B)$ (A, III, p. 135). Let $T = (T_i)_{i \in I}$ be a family of indeterminates, and $t = (t_i)_{i \in I}$ a family of elements of $B$; for every polynomial $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ of $A[T]$, let $d^A f(t)$ denote the element $\sum_\alpha t^\alpha \otimes dc_\alpha$ of $B \otimes_A \Omega_k(A)$.
 
-#### Lemma 1 {#ac-x-s7-lem-1 .statement}
+#### Lemma 1 {#ac-x-s7-lem-1 .statement tag=0D99}
 
 Suppose that the $A$-algebra $B$ admits a generating family $t = (t_i)_{i \in I}$, with defining relations $f_\lambda \in A[T]$ ($\lambda \in A$). The $B$-linear homomorphism
 $$
@@ -359,7 +359,7 @@ Suppose that A contains a subfield, and let P be the prime subfield of A; then $
 
 Let A be a ring of characteristic $p \neq 0$ and $(f_i)_{1 \leq i \leq n}$ a finite sequence of elements of A. Let $A_n$ denote the quotient ring of the polynomial ring $A[T_1, \ldots, T_n]$ by the ideal generated by the polynomials $T_i^p - f_i$, for $1 \leq i \leq n$.
 
-#### Lemma 2 {#ac-x-s7-lem-2 .statement}
+#### Lemma 2 {#ac-x-s7-lem-2 .statement tag=0D9A}
 
 Suppose the ring A local and noetherian. Then $A_n$ is local and noetherian. The following conditions are equivalent:
 
@@ -389,7 +389,7 @@ By lemma 1, the canonical homomorphism $A_1 \otimes_A \Omega(A) \to \Omega(A_1)$
 
 But the conjunction of (ii') and (ii'') is equivalent to (ii), which proves the lemma.
 
-#### Proposition 6 {#ac-x-s7-prop-6 .statement}
+#### Proposition 6 {#ac-x-s7-prop-6 .statement tag=0D9B}
 
 Let $k$ be a field of characteristic $p \neq 0$, $k'$ a purely inseparable extension of $k$, of finite degree and of height $\leqslant 1$, and $A$ a regular local $k$-algebra. Then $A_{(k')}$ is a local ring and the following conditions are equivalent:
 
@@ -408,7 +408,7 @@ Moreover, $(f_i)_{i \in I}$ is a $p$-base of ${k'}^p$ over $k^p$, and the ${k'}^
 
 ### 7. A criterion for formally smooth local algebras
 
-#### Proposition 7 {#ac-x-s7-prop-7 .statement}
+#### Proposition 7 {#ac-x-s7-prop-7 .statement tag=0D9C}
 
 Let $k_0$ be a ring, $k$ a $k_0$-algebra, $A$ a $k$-algebra, $m$ a maximal ideal of $A$. Suppose that $k$ and $A/m$ are formally smooth over $k_0$. In order that $A$ be formally smooth over $k$ for the $m$-adic topology, it is necessary and sufficient that the following two conditions be satisfied:
 
@@ -448,11 +448,11 @@ $$
 v(d_A(\lambda 1_A)) = h'u_r(1 \otimes d_A(\lambda 1_A)) = h'(1 \otimes d_k(\lambda)) = h(d_k(\lambda)) = \lambda 1_C - \tilde{\varphi}_0(\lambda 1_A) .
 $$
 
-#### Remark 1 {#ac-x-s7-n7-rem-1 .statement}
+#### Remark 1 {#ac-x-s7-n7-rem-1 .statement tag=0D9D}
 
 When $A$ is noetherian, condition (i) means that the local ring $A_{\mathfrak{m}}$ is regular (VIII, § 5, No. 2, Theorem 1).
 
-#### Proposition 8 {#ac-x-s7-prop-8 .statement}
+#### Proposition 8 {#ac-x-s7-prop-8 .statement tag=0D9E}
 
 *Let $k$ be a field and $A$ a noetherian local $k$-algebra. The following conditions are equivalent*:
 
@@ -470,13 +470,13 @@ $$
 
 If k is of characteristic 0, it follows from Corollary 1 of Theorem 2 (No. 5) that (iv) implies (i), whence the proposition in this case. Suppose k of characteristic $p \neq 0$ and prove (iv) ⇒ (ii). Let $k'$ be a purely inseparable extension of k, of finite degree and of height $\leq 1$. If A and $A_{(k')}$ are regular, the canonical mapping $\kappa_A \otimes_{k'} \Omega_{k^p}({k'}^p) \longrightarrow \kappa_A \otimes_A \Omega(A)$ is injective (No. 6, Prop. 6). By Theorem 1, b) of A, V, p. 97, applied to the extension k of $k^p$, the k-vector space $\Omega(k)$, which coincides with $\Omega_{k^p}(k)$, is the increasing filtered union of the subspaces $k \otimes_{{k'}^p} \Omega_{k^p}({k'}^p)$, where $k'$ runs through the set of finite purely inseparable extensions of k of height $\leq 1$ contained in a fixed algebraic closure of k. Assertion (ii) follows.
 
-#### Remark 2 {#ac-x-s7-n7-rem-2 .statement}
+#### Remark 2 {#ac-x-s7-n7-rem-2 .statement tag=0D9F}
 
 Let k be a field and A a k-algebra such that the ring $A_{(k')}$ is regular for every purely inseparable extension $k'$ of k, of finite degree and of height $\leq 1$; then A is absolutely regular. In fact, let $k'$ be such an extension; for every maximal ideal m of A, the ring $k' \otimes_k A_m$ is identified with a ring of fractions of $A_{(k')}$, and is therefore regular. By Prop. 8 above and Prop. 6 of § 6, No. 4, the algebra A is absolutely regular.
 
 ### 8. Existence of retractions for linear mappings
 
-#### Proposition 9 {#ac-x-s7-prop-9 .statement}
+#### Proposition 9 {#ac-x-s7-prop-9 .statement tag=0D9G}
 
 Let A be a ring, M a finitely generated A-module, N a projective A-module, and $u : M \to N$ an A-linear mapping.
 
@@ -533,7 +533,7 @@ the R-linear mapping induced by $\bar{d}$. If the $k$-algebra $A/J$ is formally 
 
 More generally:
 
-#### Lemma 3 {#ac-x-s7-lem-3 .statement}
+#### Lemma 3 {#ac-x-s7-lem-3 .statement tag=0D9H}
 
 Let K be an ideal of A containing J. Suppose that there exists an integer m such that $J \cap K^m$ is contained in JK (this condition is satisfied if A is noetherian). If $A/J$ is formally smooth over k for the K/J-adic topology, the mapping $\bar{d}_{A/K} : A/K \otimes_{A/J} J/J^2 \longrightarrow A/K \otimes_A \Omega_k(A)$ has an A-linear retraction.
 
@@ -543,7 +543,7 @@ The mapping $a \mapsto a1_C - \varphi(a1_{A/J})$ of A into N is then a $k$-deriv
 
 The fact that the condition on K is satisfied when the algebra A is noetherian follows from III, § 3, No. 1, Cor. 2 of Prop. 1.
 
-#### Lemma 4 {#ac-x-s7-lem-4 .statement}
+#### Lemma 4 {#ac-x-s7-lem-4 .statement tag=0D9I}
 
 Suppose that A is formally smooth over k for the J-adic topology. In order that $A/J$ be formally smooth over k, it is necessary and sufficient that the canonical mapping $\bar{d}$ have an A-linear retraction.
 
@@ -559,7 +559,7 @@ $$
 
 commutative, where the vertical arrows represent the canonical surjections. One has $v(J) \subset \mathbf{N}$, hence $v(J^2) \subset \mathbf{N}^2 = \{0\}$, and $v$ defines, by passing to quotients, a homomorphism $\bar{v} : A/J^2 \to C$ which satisfies $\rho \circ \bar{v} = u \circ \pi$. Then $\bar{v} \circ h$ is a lifting of $u$ to $C$.
 
-#### Theorem 3 {#ac-x-s7-thm-3 .statement}
+#### Theorem 3 {#ac-x-s7-thm-3 .statement tag=0D9J}
 
 Let $k$ be a ring, $A$ a formally smooth $k$-algebra, and $J$ a finitely generated ideal of $A$; put $B = A/J$.
 
@@ -600,13 +600,13 @@ is injective, whence (iii).
 
 Under the conditions of (iv), one has $m = [\kappa(q) \otimes_A J : \kappa(q)]$ (No. 9, Prop. 8). By Th. 2 of No. 5, the ideal $J_q$ is completely secant, and the sequence $((f_1)_q, \ldots, (f_m)_q)$ is completely secant for $A_q$ ($§ 1$, No. 3, Cor. 2 of Th. 1). This proves c).
 
-#### Corollary 1 {#ac-x-s7-thm-3-cor-1 .statement}
+#### Corollary 1 {#ac-x-s7-thm-3-cor-1 .statement tag=0D9K}
 
 *Let $k_0$ be a ring, $k$ a noetherian $k_0$-algebra formally smooth, and $B$ a local $k$-algebra essentially of finite type. If the $k_0$-algebra $B$ is formally smooth for the $\mathfrak{m}_B$-adic topology, it is formally smooth.*
 
 There exist an integer $n \geqslant 0$, a multiplicative subset $S$ of $k[T_1, \ldots, T_n]$, and a surjective $k$-homomorphism $S^{-1} k[T_1, \ldots, T_n] \to B$. The algebra $S^{-1} k[T_1, \ldots, T_n]$ is noetherian and formally smooth over $k$ (No. 3, Example 2 and No. 2, Prop. 4, a)), hence over $k_0$ (No. 2, Prop. 3, a)). The corollary then follows from Th. 3, c).
 
-#### Corollary 2 {#ac-x-s7-thm-3-cor-2 .statement}
+#### Corollary 2 {#ac-x-s7-thm-3-cor-2 .statement tag=0D9L}
 
 *Let $k_0$ be a ring, $k$ a noetherian $k_0$-algebra formally smooth, and $B$ a $k$-algebra essentially of finite type. The set $U$ of prime ideals $\mathfrak{p}$ of $B$ such that the $k_0$-algebra $B_{\mathfrak{p}}$ is formally smooth (for the discrete topology or the $\mathfrak{p}B_{\mathfrak{p}}$-adic topology) is open in $\operatorname{Spec}(B)$ and the following conditions are equivalent:
 
@@ -616,7 +616,7 @@ There exist an integer $n \geqslant 0$, a multiplicative subset $S$ of $k[T_1, \
 
 This follows as above from Th. 3.
 
-#### Remark 1 {#ac-x-s7-n9-rem-1 .statement}
+#### Remark 1 {#ac-x-s7-n9-rem-1 .statement tag=0D9M}
 
 Corollaries 1 and 2 apply in particular when $k_0$ is a field and one is in one of the following two cases:
 a) $B$ is an algebra essentially of finite type over a separable extension of $k_0$ (th. 1 of No. 3);
@@ -627,11 +627,11 @@ In each of these cases, it follows from cor. 2, having regard to prop. 8 of No. 
 
 Let $k_0$ be the prime subfield of $k$. The $k_0$-algebra $A$ is absolutely regular ($§ 6$, No. 4, example 1), hence formally smooth (remark 1 above). For the same reasons, to say that $A/J$ is regular is equivalent to saying that it is a formally smooth $k_0$-algebra. The first assertion therefore follows from th. 3, which also implies that the sequence $(f_1, \ldots, f_m)$ is completely secant for $A$. One then applies prop. 2 of VIII, $§ 5$, No. 3.
 
-#### Remark 2 {#ac-x-s7-n9-rem-2 .statement}
+#### Remark 2 {#ac-x-s7-n9-rem-2 .statement tag=0D9N}
 
 Under the hypotheses of cor. 3, the $A$-module $\Omega(A)$ is projective (No. 5, cor. 3 of th. 2), hence free; every derivation of $A$ into $\kappa_A$ therefore lifts to a derivation of $A$. The condition of the statement may therefore be expressed as follows: there exist a generating system $(f_1, \ldots, f_m)$ of $J$ and derivations $D_1, \ldots, D_m$ of $A$ into $\kappa_A$, such that $\det(D_j(f_i)) \neq 0$.
 
-#### Corollary 4 (Zariski) {#ac-x-s7-thm-3-cor-4 .statement}
+#### Corollary 4 (Zariski) {#ac-x-s7-thm-3-cor-4 .statement tag=0D9O}
 
 *Let $k$ be a field and $A$ a $k$-algebra essentially of finite type or a complete noetherian local ring. The set of prime ideals $\mathfrak{p}$ of $A$ such that the local ring $A_{\mathfrak{p}}$ is regular is open in $\mathrm{Spec}(A)$*.
 
@@ -639,7 +639,7 @@ It is enough to apply Remark 1, taking for $k_0$ the prime subfield of $k$.
 
 ### 10. Smooth algebras
 
-#### Lemma 5 {#ac-x-s7-lem-5 .statement}
+#### Lemma 5 {#ac-x-s7-lem-5 .statement tag=0D9P}
 
 *Let $\rho : A \to B$ be a local homomorphism of noetherian local rings. Suppose that $B$ is essentially of finite type over $A$. For the $A$-algebra $B$ to be formally smooth, it is necessary and sufficient that the $A$-module $B$ be flat and that the $\kappa_A$-algebra $\kappa_A \otimes_A B$ be absolutely regular.*
 
@@ -661,7 +661,7 @@ $$
 
 which is none other than $d_{\kappa_B}$. Thus B is formally smooth over A (th. 3).
 
-#### Theorem 4 {#ac-x-s7-thm-4 .statement}
+#### Theorem 4 {#ac-x-s7-thm-4 .statement tag=0D9Q}
 
 Let A be a noetherian ring and B an A-algebra essentially of finite type. The following conditions are equivalent:
 
@@ -695,11 +695,11 @@ deduced from the multiplication of the $\kappa(p)\text{-algebra} \ \kappa(p) \ot
 
 (iv) ⇒ (iii) : let $p$ be a prime ideal of $A$ and let $k$ be an extension of $\kappa(p)$; under the hypotheses of (iv), the ring $k \otimes_{\kappa(p)} (\kappa(p) \otimes_A B)$, which is identified with $k \otimes_A B$, is regular, whence (iii).
 
-#### Definition 2 {#ac-x-s7-def-2 .statement}
+#### Definition 2 {#ac-x-s7-def-2 .statement tag=0D9R}
 
 Let $A$ be a noetherian ring. An $A$-algebra $B$ is said to be smooth if it is essentially of finite type and if it satisfies the equivalent conditions of theorem 4.
 
-#### Proposition 10 {#ac-x-s7-prop-10 .statement}
+#### Proposition 10 {#ac-x-s7-prop-10 .statement tag=0D9S}
 
 Let $A$ be a noetherian ring.
 
@@ -711,11 +711,11 @@ c) Let $B$ and $C$ be two smooth $A$-algebras. Then the $A$-algebra $B \otimes_A
 
 This follows from Prop. 4 of No. 2 and from the analogous statements for algebras essentially of finite type (§ 6, No. 1).
 
-#### Example 1 {#ac-x-s7-n10-exa-1 .statement}
+#### Example 1 {#ac-x-s7-n10-exa-1 .statement tag=0D9T}
 
 The smooth algebras over a field $k$ are the $k$-algebras essentially of finite type and absolutely regular.
 
-#### Example 2 {#ac-x-s7-n10-exa-2 .statement}
+#### Example 2 {#ac-x-s7-n10-exa-2 .statement tag=0D9U}
 
 Let $A$ be a noetherian ring, $T = (T_i)_{i \in I}$ a finite family of indeterminates. The $A$-algebra $A[T]$ is smooth. More generally, let $F_1, \ldots, F_m$ be elements of $A[T]$, and let $B$ be the $A$-algebra $A[T]/(F_1, \ldots, F_m)$. If at every maximal ideal $n$ of $B$ the class (mod. $n$) of the matrix $\left( \frac{\partial F_j}{\partial T_i} \right)$ is of rank $m$, the $A$-algebra $B$ is smooth (Theorem 3 of No. 9).
 

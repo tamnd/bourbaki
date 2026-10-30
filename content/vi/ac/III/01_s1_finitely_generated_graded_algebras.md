@@ -29,9 +29,9 @@ subsections:
       pdf_page: 180
 statements: 13
 exercises: 3
-content_sha256: 15f8cd9e1594a60f1a1ad01ad3f76deda9bb9795e70852d02b09b26a70da971b
+content_sha256: 41bef72940c7c26678bdc3a78ed613cb6b4651ae48b6caa1d2217ded49cf1d4c
 translated_from: content/en/ac/III/01_s1_finitely_generated_graded_algebras.md
-source_content_sha256: f5a839fc9eb2de4a6348015dd8cd693291996b095c75da79331ecfb76c8dfc47
+source_content_sha256: 4ef8d10c43b0b3fc4352b08bd49dd75b1412e18ba3d610df64784225920b10c7
 translation_model: gpt-5.4
 translation_run: translate-vi-78d3ca82
 glossary_version: 34
@@ -45,7 +45,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $\mathbf{A}$ là một vành giao hoán và $\mathbf{B}$ là một $\mathbf{A}$-đại số giao hoán. Nhắc lại (Đại số, Chương IV, § 2, no. 1) rằng nếu $x = (x_i)_{i \in I}$ là một họ các phần tử của $\mathbf{B}$, thì ánh xạ $f \mapsto f(x)$ từ đại số đa thức $\mathbf{A}[X_i]_{i \in I}$ vào $\mathbf{B}$ là một đồng cấu của $\mathbf{A}[X_i]_{i \in I}$ lên đại số con của $\mathbf{B}$ sinh bởi các $x_i$, có hạt nhân $a$ là iđêan các đa thức $f$ sao cho $f(x) = 0$, được gọi là *iđêan các quan hệ đại số (với hệ số trong $\mathbf{A}$) giữa các $x_i$*.
 
-#### Định nghĩa 1 {#ac-iii-s1-def-1 .statement}
+#### Định nghĩa 1 {#ac-iii-s1-def-1 .statement tag=04D1}
 
 *Trong một đại số giao hoán $\mathbf{B}$ trên một vành giao hoán $\mathbf{A}$, một họ $(x_i)_{i \in I}$ các phần tử của $\mathbf{B}$ được gọi là tự do đại số trên $\mathbf{A}$ (hoặc các $x_i$ được gọi là độc lập đại số trên $\mathbf{A}$) nếu iđêan các quan hệ đại số giữa các $x_i$, với hệ số trong $\mathbf{A}$, thu về 0. Một họ $(x_i)$ không tự do đại số trên $\mathbf{A}$ cũng được gọi là liên hệ đại số (hoặc các phần tử của nó cũng được gọi là phụ thuộc đại số trên $\mathbf{A}$).*
 
@@ -55,7 +55,7 @@ Cho $\mathbf{A}$ là một vành giao hoán và $\mathbf{B}$ là một $\mathbf{
 
 Nói rằng một họ $(x_i)_{i \in I}$ là tự do đại số trên $A$ tương đương với nói rằng các đơn thức $\prod_i x_i^{n_i}$ theo các $x$, là *độc lập tuyến tính* trên $A$; đặc biệt các $x_i$ khi đó độc lập tuyến tính trên $A$.
 
-#### Định nghĩa 2 {#ac-iii-s1-def-2 .statement}
+#### Định nghĩa 2 {#ac-iii-s1-def-2 .statement tag=04D2}
 
 *Một đại số giao hoán* $B$ *trên một vành giao hoán* $A$ *được gọi là sinh hữu hạn nếu nó được sinh bởi một họ hữu hạn phần tử.*
 
@@ -73,7 +73,7 @@ Nếu $B$ là một $A$-đại số sinh hữu hạn và $C$ là một $B$-đạ
 
 *Nếu* $A_i = \{0\}$ *(tương ứng $M_i = \{0\}$) với* $i < 0$, $A$ *(tương ứng M)* *sẽ, để viết gọn, được gọi là một vành phân bậc* (tương ứng *môđun*) *có các bậc dương*.
 
-#### Mệnh đề 1 {#ac-iii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#ac-iii-s1-prop-1 .statement tag=04D3}
 
 *Cho* $A = \bigoplus_{i \in \mathbf{Z}} A_i$ *là một vành giao hoán phân bậc có các bậc dương, m là iđêan phân bậc* $\bigoplus_{i \geq 1} A_i$ *và* $(x_\lambda)_{\lambda \in L}$ *là một họ các phần tử thuần nhất của* $A$ *có bậc* $\geq 1$. *Các điều kiện sau là tương đương*:
 
@@ -85,7 +85,7 @@ Nếu $B$ là một $A$-đại số sinh hữu hạn và $C$ là một $B$-đạ
 
 Rõ ràng các điều kiện (b) và (c) là tương đương. Nếu chúng đúng, mọi phần tử của m đều có dạng $f((x_i))$ trong đó $f$ là một đa thức của $A_0[X_\lambda]_{\lambda \in L}$ không có số hạng hằng; khi đó $m = \sum_{\lambda \in L} A x_\lambda$, điều này chứng tỏ rằng (c) kéo theo (a). Ngược lại, giả sử rằng điều kiện (a) đúng. Gọi $A' = A_0[x_\lambda]_{\lambda \in L}$ là đại số con-A, của A được sinh bởi họ $(x_\lambda)$ và hãy chỉ ra rằng $A' = A$. Để làm điều này, chỉ cần chỉ ra rằng $A_i \subset A$ với mọi $i \geq 0$. Ta tiến hành bằng quy nạp theo $i$, tính chất là hiển nhiên đối với $i = 0$. Bây giờ lấy $y \in A$, với $i \geq 1$. Vì $y \in m$, tồn tại một họ $(a_\lambda)_{\lambda \in L}$ các phần tử của A có giá hữu hạn sao cho $y = \sum_\lambda a_\lambda x_\lambda$ và ta có thể giả sử rằng mỗi $a_\lambda$ là thuần nhất bậc $i - \deg(x_\lambda)$ (nếu cần thì thay thế nó bằng thành phần thuần nhất bậc đó của nó); vì $\deg(x_\lambda) > 0$, giả thiết quy nạp cho thấy rằng $a_\lambda \in A'$ với mọi $\lambda \in L$, do đó $y \in A'$ và $A_i \subset A'$, điều này chứng tỏ rằng (a) kéo theo (b).
 
-#### Hệ quả {#ac-iii-s1-n2-cor-1 .statement}
+#### Hệ quả {#ac-iii-s1-n2-cor-1 .statement tag=04D4}
 
 *Cho* $A = \bigoplus_{i \in \mathbf{Z}} A_i$, *là một vành giao hoán phân bậc với các bậc dương* và $m$ *là iđêan phân bậc*, $\bigoplus_{i \geq 1} A_i$.
 
@@ -109,7 +109,7 @@ $$
 
 Rõ ràng $A^{(d)}$ là một vành con phân bậc của $A$ và $M^{(d, k)}$ là một $A^{(d)}$-môđun phân bậc; hơn nữa, nếu $N$ là một môđun con phân bậc của $M$, thì $N^{(d, k)}$ là một môđun con phân bậc dưới-$A^{(d)}$ của $M^{(d, k)}$. Ta sẽ viết $M^{(d)}$ thay cho $M^{(d, 0)}$; với mỗi $d \geqslant 1$, $M$ là tổng trực tiếp của các $A^{(d)}$-môđun $M^{(d, k)}$ $(0 \leqslant k \leqslant d - 1)$.
 
-#### Mệnh đề 2 {#ac-iii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#ac-iii-s1-prop-2 .statement tag=04D5}
 
 *Cho $A = \bigoplus_{i \in \mathbf{Z}} A_i$ là một vành giao hoán phân bậc với các bậc dương và $M = \bigoplus_{i \in \mathbf{Z}} M_i$ là một $A$-môđun phân bậc. Giả sử rằng $A$ là một $A_0$-đại số sinh hữu hạn và $M$ là một $A$-môđun sinh hữu hạn. Khi đó, với mọi cặp có thứ tự $(d, k)$ các số nguyên sao cho $d \geqslant 1, 0 \leqslant k \leqslant d - 1)$:*
 
@@ -126,7 +126,7 @@ $$
 
 Áp dụng điều trên cho A-môđun phân bậc $m = \bigoplus_{i \geqslant 1} A_i$, môđun này sinh hữu hạn theo Hệ quả của Mệnh đề 1 ở no. 2; ta thấy rằng $m^{(d)}$ là một $A^{(d)}$-môđun sinh hữu hạn; do đó (no. 2, Hệ quả của Mệnh đề 1) $A^{(d)}$ là một A-đại số sinh hữu hạn.
 
-#### Bổ đề 1 {#ac-iii-s1-lem-1 .statement}
+#### Bổ đề 1 {#ac-iii-s1-lem-1 .statement tag=04D6}
 
 *Cho $A$ là một vành giao hoán phân bậc sao cho $A = A_0[A_1]$, $M$ là một A-môđun phân bậc và $(y_\lambda)_{\lambda \in L}$ là một hệ các phần tử sinh thuần nhất của $M$ sao cho $\deg(y_\lambda) \leqslant n_0$ với mọi $\lambda \in L$. Khi đó, với mọi $n \geqslant n_0$ và mọi $k \geqslant 0$, $M_{n+k} = A_k \cdot M_n$.*
 
@@ -134,7 +134,7 @@ Cho $n \geqslant n_0$ và $x \in M_n$. Vì các $y_\lambda$ sinh $M$, tồn tạ
 
 $A = A_0[A_1]$ và $\deg(a_\lambda) > 0$, mỗi $a_\lambda$ là một tổng các phần tử dạng $bb'$ với $b \in A_0, b' \in A$, do đó $x \in A_1 M_n$. Khi đó $M_{n+1} = A_1 M_n$, do đó $M_{n+k} = A_k M_n$ bằng quy nạp theo $k$.
 
-#### Bổ đề 2 {#ac-iii-s1-lem-2 .statement}
+#### Bổ đề 2 {#ac-iii-s1-lem-2 .statement tag=04D7}
 
 *Cho $A$ là một vành giao hoán phân bậc sao cho $A = A_0[A_1]$ và cho $S = \bigoplus_{i \geq 0} S_i$, là một A-đại số giao hoán phân bậc với các bậc dương, đồng thời là một A-môđun sinh hữu hạn. Khi đó tồn tại một số nguyên $n_0 \geq 0$ sao cho:*
 
@@ -143,7 +143,7 @@ $A = A_0[A_1]$ và $\deg(a_\lambda) > 0$, mỗi $a_\lambda$ là một tổng cá
 
 Theo Bổ đề 1 tồn tại một số nguyên $n_0 \geq 0$ sao cho, với $n \geq n_0$ và $k \geq 0$, $S_{n+k} = A_k S_n$, do đó a fortiori $S_{n+k} = S_k S_n$, điều này thiết lập (i). Khi đó, với $d \geq n_0$ và $m > 0$, $S_{m d} = (S_d)^m$ như suy ra bằng quy nạp theo $m$ khi áp dụng (i); điều này thiết lập (ii).
 
-#### Mệnh đề 3 {#ac-iii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#ac-iii-s1-prop-3 .statement tag=04D8}
 
 *Cho $R = \bigoplus_{i \geq 0} R_i$, là một vành giao hoán phân bậc với các bậc dương, là một $R_0$-đại số sinh hữu hạn. Tồn tại một số nguyên $e \geq 1$ sao cho $R^{(me)} = R_0[R_{me}]$ với mọi $m \geq 1$.*
 
@@ -159,13 +159,13 @@ và theo giả thiết $\sum_{j=1}^s n_j h_j \equiv 0$ (mod. $q$), do đó $\sum
 
 Cho $A = \bigoplus_{i \geq 0} A_i$ là một vành giao hoán phân bậc với các bậc *dương* và $m$ là iđêan phân bậc $\bigoplus_{i \geq 1} A_i$; ta sẽ gọi hai iđêan phân bậc $a = \bigoplus_{i \geq 0} a_i, b = \bigoplus_{i \geq 0} b_i$ của $A$ là *tương đương* nếu tồn tại một số nguyên $n_0$ sao cho $a_n = b_n$ với $n \geq n_0$ (rõ ràng đó là một quan hệ tương đương). Một iđêan phân bậc được gọi là *cốt yếu* nếu nó không tương đương với $m$.
 
-#### Mệnh đề 4 {#ac-iii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#ac-iii-s1-prop-4 .statement tag=04D9}
 
 *Cho $p = \bigoplus_{i \geq 0} p_i$ là một iđêan phân bậc của $A$; để $p$ là nguyên tố, điều kiện cần và đủ là, nếu $x \in A, \ y \in A,$ thỏa mãn $x \notin p$ và $y \notin p,$ thì $xy \notin p$.*
 
 Điều kiện này hiển nhiên là cần thiết. Ngược lại, nếu nó được thỏa mãn, thì trong vành phân bậc $A/p = \bigoplus_{i \geq 0} A_i/p_i$ tích của hai phần tử thuần nhất $\neq 0$ là $\neq 0$ và do đó $A/p$ là một miền nguyên (*Algebra*, Chương II, § 11, no. 4, Mệnh đề 7).
 
-#### Mệnh đề 5 {#ac-iii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#ac-iii-s1-prop-5 .statement tag=04DA}
 
 *Cho $a = \bigoplus_{i \geq 0} a_i$ là một iđêan phân bậc của $A$ và $n_0$ là một số nguyên $> 0$. Để tồn tại một iđêan nguyên tố phân bậc $p = \bigoplus_{i \geq 0} p_i$ sao cho $p_{n_0} = a,$ với $n \geq n_0,$ điều kiện cần và đủ là, đối với mọi cặp phần tử thuần nhất $x, y$ có bậc $\geq n_0,$ hệ thức $xy \in a$ kéo theo '"$x \in a$ hoặc $y \in a$". Nếu tồn tại $n \geq n_0$ sao cho $a_n \neq A_n,$ thì iđêan nguyên tố thỏa mãn các điều kiện trên là duy nhất.*
 
@@ -177,7 +177,7 @@ $$
 
 ta kết luận rằng $axy \notin a_{m+n+d}$ vì $xy \notin p$. Cuối cùng, nếu $n \geq n_0$ và $x \in A_n,$ thì các điều kiện $x \in a,$ và $ax \in a_{n+d}$ là tương đương theo giả thiết, và do đó $p \cap A_n = a_n$, điều này hoàn tất chứng minh về sự tồn tại của iđêan nguyên tố phân bậc $p$ giải quyết bài toán. Nếu thêm nữa $p'$ là một iđêan nguyên tố phân bậc khác của $A$ sao cho $p' \cap A_n = a_n$ với $n \geq n_0,$ thì $a \notin p'$ và $ax \in p'$ với mọi $x \in p,$ do đó $p \subset p'$ vì $p'$ là nguyên tố. Mặt khác, nếu $x$ là một phần tử thuần nhất bậc $n \geq 0$ của $p',$ thì $ax$ là thuần nhất bậc $n + d \geq n_0$ và vì thế thuộc $p' \cap A_{n+d} = a_{n+d}$, do đó theo định nghĩa ta có $x \in p$, điều này cho thấy $p' \subset p$ và cuối cùng $p' = p$.
 
-#### Mệnh đề 6 {#ac-iii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#ac-iii-s1-prop-6 .statement tag=04DB}
 
 *Cho d là một số nguyên $\geq 1$.*
 
@@ -191,13 +191,13 @@ ta kết luận rằng $axy \notin a_{m+n+d}$ vì $xy \notin p$. Cuối cùng, n
 
 Cho $A$ là một vành giao hoán phân bậc với các bậc dương và $p$ là một iđêan nguyên tố phân bậc cốt yếu của $A$. Tập $S$ các phần tử *thuần nhất* của $A$ không thuộc $p$ là tập nhân tính và do đó vành phân thức $S^{-1}A$ được phân bậc một cách chính tắc (Chương II, § 2, no. 9) (chú ý rằng nói chung trong phân bậc này sẽ có các phần tử thuần nhất $\neq 0$ có bậc âm). Ta sẽ ký hiệu bởi $A_{(p)}$ vành con của $S^{-1}A$ gồm các phần tử thuần nhất bậc 0, nói cách khác là tập các phân thức $x/s$, trong đó $x$ và $s$ là các phần tử thuần nhất cùng bậc trong $A$ và $s \notin p$. Tương tự, với mọi $A$-môđun phân bậc $M$, $S^{-1}M$ được phân bậc một cách chính tắc (*loc. cit.*) và ta sẽ ký hiệu bởi $M_{(p)}$ nhóm con các phần tử thuần nhất bậc 0, hiển nhiên là một $A_{(p)}$-môđun.
 
-#### Mệnh đề 7 {#ac-iii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#ac-iii-s1-prop-7 .statement tag=04DC}
 
 *Cho $p$ là một iđêan nguyên tố phân bậc của $A$, $d$ là một số nguyên $\geq 1$ và $p'$ là iđêan nguyên tố phân bậc $p \cap A^{(d)}$ của $A^{(d)}$; với mọi $A$-môđun phân bậc $M$, đồng cấu $(M^{(d)})_{(p')} \to M_{(p)}$ dẫn xuất từ đơn ánh chính tắc $M^{(d)} \to M$ là song ánh.*
 
 Nếu $S$ là tập hợp các phần tử thuần nhất của $A$ không thuộc $p$ và $S' = S \cap A^{(d)}$, thì đồng cấu chính tắc $\phi : {S'}^{-1}M^{(d)} \to S^{-1}M$ là một đồng cấu thuần nhất bậc 0 và nó đơn ánh, vì nếu $x \in M_{nd}$ thỏa mãn $sx = 0$ với $s \in A_n, s \notin p$, thì cũng có $s^dx = 0$ và $s^d \in A_{md}, s^d \notin p'$. Còn phải chứng minh rằng ảnh qua $\phi$ của $(M^{(d)})_{(p')}$ là toàn bộ $M_{(p)}$; nhưng nếu $x \in M_n, s \in A_n$ và $s \notin p$, thì cũng có $x/s = (xs^{d-1})/s^d$ với $xs^{d-1} \in A_{nd}, s^d \in A_n$ và $s^d \notin p'$, do đó có mệnh đề của chúng ta.
 
-#### Mệnh đề 8 {#ac-iii-s1-prop-8 .statement}
+#### Mệnh đề 8 {#ac-iii-s1-prop-8 .statement tag=04DD}
 
 *Cho $m = \bigoplus_{i \geq 1} A_i$; cho $(p^{(k)})_{1 \leq k \leq s}$ là một họ hữu hạn các iđêan nguyên tố phân bậc* của $A$ và một iđêan phân bậc $\mathfrak{a} \subset A$ sao cho $\mathfrak{a} \cap m \not\subset p^{(k)}$ với mọi $k$; khi đó tồn tại một phần tử thuần nhất $z \in \mathfrak{a} \cap m$ không thuộc bất kỳ $p^{(k)}$ nào.
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 219
 statements: 41
 exercises: 3
-content_sha256: aa1a25f21809b034285694893d76958aa34170055061e9e5e71c5c63af56953a
+content_sha256: d7699f39ec1644b116484ef30c5ca9df84de13c33a79612bcf054973c062c5c9
 ---
 
 ## § 2. OPERATIONS ON MEASURES
@@ -60,21 +60,21 @@ by *Remark 3* of §1, No. 2, so that $\nu$ is a measure.
 
 When $X$ is not $\mu$-measurable, the encumbrances $\nu^\bullet$ and $(\mu^\bullet)_X$ are not necessarily equal and the measure $\nu$ presents no interest.
 
-#### Definition 1 {#int-ix-s2-def-1 .statement}
+#### Definition 1 {#int-ix-s2-def-1 .statement tag=09OF}
 
 *Let $X$ be a $\mu$-measurable subset of $T$. The restriction of $\mu : K \mapsto \mu_K$ to the set of compact subsets of $X$ is called the measure induced by $\mu$ on the subspace $X$, and is denoted by $\mu_X$ or $\mu|X$.*
 
-#### Proposition 1 {#int-ix-s2-prop-1 .statement}
+#### Proposition 1 {#int-ix-s2-prop-1 .statement tag=09OG}
 
 *Let $X$ be a $\mu$-measurable subset of $T$. The encumbrance $(\mu_X)^\bullet$ is equal to the encumbrance $(\mu^\bullet)_X$ induced by $\mu^\bullet$ on $X$ (§1, No. 1). In other words, $(\mu_X)^\bullet(g) = \mu^\bullet(g^0)$ for every function $g \in \mathscr{F}_+(X)$.
 
 Let $f \in \mathscr{F}_+(X)$ and let $f^0$ be the extension by 0 of $f$ to $T$. One has $(\mu^\bullet)_X(f) = \mu^\bullet(f^0) = \sup_L \mu^\bullet(f^0 \varphi_L)$, where $L$ runs over the set of compact subsets of $T$ (§1, No. 2, Prop. 2); similarly $(\mu_X)^\bullet(f) = \sup_K \mu_K^\bullet(f_K) = \sup_K \mu^\bullet(f^0 \varphi_K)$, where $K$ runs over the set of compact subsets of $X$. Thus it all comes down to showing that $\mu^\bullet(f^0 \varphi_L) = \sup_K \mu^\bullet(f^0 \varphi_K)$ for every compact subset $L$ of $T$, where $K$ runs over the set of compact subsets of $L \cap X$. Now, let $(K_n)$ be an increasing sequence of compact sets contained in $L \cap X$, such that $(L \cap X) - \bigcup_n K_n$ is locally $\mu$-negligible (§1, No. 8, Prop. 11); $f^0$ being zero outside $X$, $f^0 \varphi_L$ is zero outside $L \cap X$ hence is equal locally almost everywhere to the upper envelope of the sequence $(f^0 \varphi_{K_n})$. This implies that $\mu^\bullet(f^0 \varphi_L) = \sup_n \mu^\bullet(f^0 \varphi_{K_n})$, whence the desired result.*
 
-#### Remark 1 {#int-ix-s2-n1-rem-1 .statement}
+#### Remark 1 {#int-ix-s2-n1-rem-1 .statement tag=09OH}
 
 The relation $(\mu_X)^\bullet = (\mu^\bullet)_X$ permits using the notation $\mu_X^\bullet$ without ambiguity; we shall do so henceforth. The preceding Prop. 1 and Prop. 2 of §1, No. 2 show that the measures denoted $\mu_K$ until now, for $K$ compact, are indeed induced measures in the sense of Def. 1. Similarly, if $T$ is locally compact, and if $X$ is a locally compact subspace of $T$, the above Prop. 1 and Prop. 1 of Ch. V, §7, No. 1 show that Def. 1 coincides with the definition of Ch. IV, §5, No. 7.
 
-#### Remark 2 {#int-ix-s2-n1-rem-2 .statement}
+#### Remark 2 {#int-ix-s2-n1-rem-2 .statement tag=09OI}
 
 Def. 1 may be extended to the case that $\mu$ is a complex measure on $T$. To show in this case that the premeasure $\mu_X$ is a measure, it suffices to observe that $|\mu_K| = |\mu|_K$ for every compact subset $K$ of $X$ (§1, No. 2).
 
@@ -84,7 +84,7 @@ Remark 3). — Let X be a $\mu$-measurable subset of T. By Prop. 10 of §1, No. 
 
 ### 2. Measures defined by numerical densities
 
-#### Definition 2 {#int-ix-s2-def-2 .statement}
+#### Definition 2 {#int-ix-s2-def-2 .statement tag=09OJ}
 
 *A function f defined on T, with values in $\overline{\mathbf{R}}$ or in a Banach space, is said to be locally $\mu$-integrable if f is $\mu$-measurable and every point $x \in T$ admits a neighborhood V such that $\mu^\bullet(|f|\varphi_V) < +\infty$.*
 
@@ -92,7 +92,7 @@ This definition coincides with the one given in Ch. V, §5, No. 1, in case T is 
 
 Let $f$ be a locally $\mu$-integrable positive function; the mapping $K \mapsto f_K \cdot \mu_K$ is a premeasure (Ch. V, §7, No. 1, Cor. 2 of Th. 1), which will be denoted $f \cdot \mu$.
 
-#### Proposition 2 {#int-ix-s2-prop-2 .statement}
+#### Proposition 2 {#int-ix-s2-prop-2 .statement tag=09OK}
 
 *If f is a positive locally $\mu$-integrable function, then, for every function $g \in \mathscr{F}_+(T)$, one has the relation*
 
@@ -110,19 +110,19 @@ on using the definition of $f \cdot \mu$ and Prop. 3 of Ch. V, §5, No. 3. Prop.
 
 Now let $x \in T$ and let V be a neighborhood of x such that $\mu^\bullet(f \varphi_V) < +\infty$ (Def. 2); then $(f \cdot \mu)^\bullet(V) = \mu^\bullet(f \varphi_V) < +\infty$, therefore $f \cdot \mu$ is a measure.
 
-#### Definition 3 {#int-ix-s2-def-3 .statement}
+#### Definition 3 {#int-ix-s2-def-3 .statement tag=09OL}
 
 *Let f be a locally $\mu$-integrable positive function. The measure $f \cdot \mu : K \mapsto f_K \cdot \mu_K$ is called the measure with density f with respect* to $\mu$, or the product measure of $\mu$ by the function $f$. Every measure of the form $f \cdot \mu$, where $f$ is positive and locally $\mu$-integrable, is called a measure with base $\mu$.
 
-#### Remark 1 {#int-ix-s2-n2-rem-1 .statement}
+#### Remark 1 {#int-ix-s2-n2-rem-1 .statement tag=09OM}
 
 The definition of $f \cdot \mu$ extends to the case that $f$ is a complex locally integrable function; one then has $|f \cdot \mu| = |f| \cdot \mu$, which implies at once that $f \cdot \mu$ is a measure, not just a premeasure. We retain the expression 'measures with base $\mu$' to designate the complex measures so defined.
 
-#### Remark 2 {#int-ix-s2-n2-rem-2 .statement}
+#### Remark 2 {#int-ix-s2-n2-rem-2 .statement tag=09ON}
 
 Similarly, if $\theta$ is a complex measure, $f$ is said to be locally $\theta$-integrable if it is locally $|\theta|$-integrable, and one defines the measure $f \cdot \theta : K \mapsto f_K \cdot \theta_K$. One has $|f \cdot \theta| = |f| \cdot |\theta|$ (Ch. V, §5, No. 2, Prop. 2). In this No., we shall leave aside everything concerning non-positive measures.
 
-#### Proposition 3 {#int-ix-s2-prop-3 .statement}
+#### Proposition 3 {#int-ix-s2-prop-3 .statement tag=09OO}
 
 — Let $\nu$ be a measure on T. For $\nu$ to be of the form $f \cdot \mu$, where $f$ is a locally $\mu$-integrable positive function, it is necessary and sufficient that every $\mu$-negligible compact set be $\nu$-negligible. If $f'$ is a second locally $\mu$-integrable function such that $\nu = f' \cdot \mu$, then $f = f'$ locally $\mu$-almost everywhere.
 
@@ -144,27 +144,27 @@ Remark 3). — The theory of integration with respect to a measure $\nu = f \cdo
 
 ### 3. Image of a measure
 
-#### Definition 4 {#int-ix-s2-def-4 .statement}
+#### Definition 4 {#int-ix-s2-def-4 .statement tag=09OP}
 
 Let $\pi$ be a mapping of T into a topological space X. One says that $\pi$ is $\mu$-proper if $\pi$ is $\mu$-measurable, and if every point x of X admits a neighborhood V such that $\mu^\bullet(\overline{\pi}(V)) < +\infty$.
 
-#### Remark 1 {#int-ix-s2-n3-rem-1 .statement}
+#### Remark 1 {#int-ix-s2-n3-rem-1 .statement tag=09OQ}
 
 When T and X are locally compact, this definition is equivalent to that of Ch. V, §6, No. 1.
 
-#### Remark 2 {#int-ix-s2-n3-rem-2 .statement}
+#### Remark 2 {#int-ix-s2-n3-rem-2 .statement tag=09OR}
 
 A proper continuous mapping (GT, I, §10, No. 1, Def. 1) of T into X is $\mu$-proper for every measure $\mu$. For, let $x \in X$; since $\overline{\pi}(x)$ is compact (loc. cit., No. 2, Th. 1), the set $\overline{\pi}(x)$ has an open neighborhood H such that $\mu^\bullet(H) < +\infty$. Set $V = X - \pi(T - H)$; since $\pi$ is closed, V is open in X, contains x, and satisfies $\overline{\pi}(V) \subset H$, whence $\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$.
 
-#### Remark 3 {#int-ix-s2-n3-rem-3 .statement}
+#### Remark 3 {#int-ix-s2-n3-rem-3 .statement tag=09OS}
 
 If $\mu$ is bounded, every $\mu$-measurable mapping of T into X is $\mu$-proper.
 
-#### Remark 4 {#int-ix-s2-n3-rem-4 .statement}
+#### Remark 4 {#int-ix-s2-n3-rem-4 .statement tag=09OT}
 
 If $\theta$ is a complex measure on T, $\pi$ is said to be $\theta$-proper if $\pi$ is proper for the positive measure $|\theta|$.
 
-#### Proposition 4 {#int-ix-s2-prop-4 .statement}
+#### Proposition 4 {#int-ix-s2-prop-4 .statement tag=09OU}
 
 Let $\pi$ be a $\mu$-proper mapping of T into a topological space X. There exists one and only one measure $\nu$ on X such that $\nu^\bullet$ is equal to the image encumbrance $\pi(\mu^\bullet)$ (§1, No. 1), in other words, such that $\nu^\bullet(g) = \mu^\bullet(g \circ \pi)$ for all $g \in \mathscr{F}_+(X)$.
 
@@ -184,11 +184,11 @@ $$
 
 The encumbrance $\pi(\mu^\bullet)$ is locally bounded, since $\pi$ is $\mu$-proper; the family $(\nu_\alpha)_{\alpha \in A}$ is therefore summable (§1, No. 7, Prop. 7), and its sum $\nu$ satisfies the statement.
 
-#### Definition 5 {#int-ix-s2-def-5 .statement}
+#### Definition 5 {#int-ix-s2-def-5 .statement tag=09OV}
 
 *If $\pi$ is a $\mu$-proper mapping of T into a topological space X, the unique measure $\nu$ on X such that $\nu^\bullet(g) = \mu^\bullet(g \circ \pi)$ for all $g \in \mathscr{F}_+(X)$ is called the image measure of $\mu$ under $\pi$, and is denoted $\pi(\mu)$.*.
 
-#### Example {#int-ix-s2-n3-exa-1 .statement}
+#### Example {#int-ix-s2-n3-exa-1 .statement tag=09OW}
 
 — Let K be a compact subspace of T, i the canonical injection of K into T, and $\lambda$ a measure on K; since i is continuous and $\lambda$ is bounded, i is $\lambda$-proper. Formula (3) of §1, No. 3 shows that the "measure on T defined by $\lambda$" is the image measure $i(\lambda)$.
 
@@ -198,19 +198,19 @@ $$
 \pi(\theta) = \pi(\Re(\theta)) + i \pi(\Im(\theta)).
 $$
 
-#### Proposition 5 {#int-ix-s2-prop-5 .statement}
+#### Proposition 5 {#int-ix-s2-prop-5 .statement tag=09OX}
 
 *Let $\pi$ be a $\mu$-proper mapping of T into a topological space X, and let f be a mapping of X into a topological space F (Hausdorff or not). For f to be $\pi(\mu)$-measurable, it is necessary and sufficient that $f \circ \pi$ be $\mu$-measurable.*
 
 Let us take up again the proof of Prop. 4, and commence with the special case treated at the beginning, with the same notations; g is measurable for the measure $\pi(\mu) = \nu$ if and only if $g_L$ is $\nu'$-measurable (§1, No. 5, *Example*); now, this is equivalent to saying that $g_L \circ \pi' = (g \circ \pi)_K$ is $\mu_K$-measurable (Ch. V, §6, No. 2, Prop. 3), and finally that $g \circ \pi$ is $\mu$-measurable (§1, No. 5, *Example*). Let us now pass to the general case, with the same notations as in the proof of Prop. 4; f is $\nu$-measurable if and only if f is $\nu_\alpha$-measurable for every $\alpha \in A$ (§1, No. 7, Prop. 8), hence if and only if $f \circ \pi$ is $\mu_\alpha$-measurable for every $\alpha \in A$ (the preceding special case) and finally if and only if $f \circ \pi$ is $\mu$-measurable ($§ 1$, No. 7, Prop. 8).
 
-#### Corollary {#int-ix-s2-n3-cor-1 .statement}
+#### Corollary {#int-ix-s2-n3-cor-1 .statement tag=09OY}
 
 — *Let X and Y be two topological spaces, $\pi$ a $\mu$-proper mapping of T into X, and $\pi'$ a $\pi(\mu)$-proper mapping of X into Y. The mapping $\pi'' = \pi' \circ \pi$ is then $\mu$-proper, and $\pi''(\mu) = \pi'(\pi(\mu))$ ('transitivity of images of measures').
 
 For, $\pi''$ is $\mu$-measurable (Prop. 5). Set $\mu' = \pi(\mu)$; the image encumbrance $\pi'({\mu'}^\bullet) = \pi'(\pi(\mu^\bullet))$ is obviously equal to $\pi''(\mu^\bullet)$. Since it is locally bounded, $\pi''$ is $\mu$-proper. The measures $\pi''(\mu)$ and $\pi'(\mu')$ then have the same essential upper integral, hence are equal.
 
-#### Proposition 6 {#int-ix-s2-prop-6 .statement}
+#### Proposition 6 {#int-ix-s2-prop-6 .statement tag=09OZ}
 
 — *Let $\pi$ be a $\mu$-proper mapping of T into a topological space X, and let B be a $\pi(\mu)$-measurable subset of X. Set $A = \overline{\pi^{-1}(B)}$, and denote by $\pi'$ the mapping of A into B that coincides with $\pi$ on A. The set A is then $\mu$-measurable, $\pi_A$ and $\pi'$ are $\mu_A$-proper, and*
 
@@ -226,7 +226,7 @@ $$
 
 whence $(\pi(\mu)_B)^\bullet = \pi'(\mu_A^\bullet)$. Since the encumbrance $(\pi(\mu)_B)^\bullet$ is locally bounded, the same is true of $\pi'(\mu_A^\bullet)$ and therefore $\pi'$ is $\mu_A$-proper. The measures $\pi'(\mu_A)$ and $(\pi(\mu))_B$ have the same essential upper integral, hence are equal. The other relation may be established in an analogous manner.
 
-#### Proposition 7 {#int-ix-s2-prop-7 .statement}
+#### Proposition 7 {#int-ix-s2-prop-7 .statement tag=09P0}
 
 — *Let T be a subspace of a topological space X, and let i be the injection of T into X.
 
@@ -242,7 +242,7 @@ b) Let $f$ be a positive function defined on X; setting $\mu = \lambda_T$, one h
 
 ### 4. Lifting of measures
 
-#### Proposition 8 {#int-ix-s2-prop-8 .statement}
+#### Proposition 8 {#int-ix-s2-prop-8 .statement tag=09P1}
 
 *Let $T$ and $X$ be two topological spaces, $\pi$ a mapping of $T$ into $X$.
 
@@ -258,7 +258,7 @@ $$
 
 To show that the condition is sufficient, we first treat a special case.
 
-#### Lemma 1 {#int-ix-s2-lem-1 .statement}
+#### Lemma 1 {#int-ix-s2-lem-1 .statement tag=09P2}
 
 Let U and V be two compact spaces, h a continuous mapping of U onto V. The mapping $\lambda \mapsto h(\lambda)$ of $\mathscr{M}_+(U)$ into $\mathscr{M}_+(V)$ is then surjective.
 
@@ -285,13 +285,13 @@ $$
 
 The two measures $\mu$ and $\mu'$ thus have the same essential upper integral, which implies their equality (§ 1, No. 2, Cor. of Prop. 2).
 
-#### Remark {#int-ix-s2-n4-rem-1 .statement}
+#### Remark {#int-ix-s2-n4-rem-1 .statement tag=09P3}
 
 Suppose that $\pi$ is injective. Let $\theta$ be a complex measure such that $\pi$ is $\theta$-proper and $\pi(\theta) = 0$; then $\theta = 0$. Indeed, by separating $\theta$ into its real and imaginary parts, one can reduce to the case that $\theta$ is real. We then have $\pi(\theta^+) = \pi(\theta^-)$, therefore $\theta^+ = \theta^-$ (Prop. 8), and finally $\theta = 0$.
 
 Here is an important case where condition a) of Prop. 8 is always satisfied.
 
-#### Proposition 9 {#int-ix-s2-prop-9 .statement}
+#### Proposition 9 {#int-ix-s2-prop-9 .statement tag=09P4}
 
 — *Let T be a Souslin space* (GT, IX, §6, No. 2, Def. 2), *X a Hausdorff space*, $\pi$ *a continuous mapping of T onto X*, and $\nu$ *a bounded measure on X*. *Then there exists a bounded measure $\mu$ on T such that $\pi(\mu) = \nu$*.
 
@@ -318,7 +318,7 @@ $$
 = ((\lambda_C \otimes \mu_D)_{A \times B})_K = (\lambda_A \otimes \mu_B)_K = \nu_K .
 $$
 
-#### Definition 6 {#int-ix-s2-def-6 .statement}
+#### Definition 6 {#int-ix-s2-def-6 .statement tag=09P5}
 
 *The premeasure $\nu$ defined by (3) is called the product premeasure of $\lambda$ and $\mu$, and is denoted $\lambda \otimes \mu$.*
 
@@ -326,7 +326,7 @@ This definition obviously extends to the case that $\lambda$ and $\mu$ are compl
 
 We conserve the notations of Ch. III, §4 and Ch. V, §8 relative to products of measures and to iterated integrals. In particular, if $f$ and $g$ are two functions defined respectively on $S$ and $T$, with values in $\overline{\mathbf{R}}_+$ or in $\mathbf{C}$, the function $(s, t) \mapsto f(s)g(t)$ on $S \times T$ will be denoted $f \otimes g$.
 
-#### Proposition 10 {#int-ix-s2-prop-10 .statement}
+#### Proposition 10 {#int-ix-s2-prop-10 .statement tag=09P6}
 
 *Let $\nu$ be the product premeasure of $\lambda$ and $\mu$; for every function $f \in \mathscr{F}_+(S)$ and every function $g \in \mathscr{F}_+(T)$,*
 
@@ -357,7 +357,7 @@ $$
 
 In particular, if one takes $f \in \mathscr{K}_+(K)$, $g \in \mathscr{K}_+(L)$, one sees that $\eta_{K \times L}$ has the characteristic property of the product measure $\lambda_K \otimes \mu_L$ (Ch. III, §4, No. 1, Th. 1). Therefore $\eta_{K \times L} = \nu_{K \times L}$; since every compact subset of $S \times T$ is contained in a set of the form $K \times L$, the transitivity of induced measures implies that $\eta = \nu$.
 
-#### Corollary 1 {#int-ix-s2-prop-10-cor-1 .statement}
+#### Corollary 1 {#int-ix-s2-prop-10-cor-1 .statement tag=09P7}
 
 — *If $\lambda$ and $\mu$ are measures, then $\nu$ is a measure.*
 
@@ -365,11 +365,11 @@ For, let $x = (s, t)$ be a point of $X$, and let $U$ and $V$ be neighborhoods of
 
 This result extends at once to complex measures.
 
-#### Corollary 2 {#int-ix-s2-prop-10-cor-2 .statement}
+#### Corollary 2 {#int-ix-s2-prop-10-cor-2 .statement tag=09P8}
 
 — *If $A$ is a subset of $S$ locally negligible for $\lambda$, then $A \times T$ is locally $\nu$-negligible.*
 
-#### Corollary 3 {#int-ix-s2-prop-10-cor-3 .statement}
+#### Corollary 3 {#int-ix-s2-prop-10-cor-3 .statement tag=09P9}
 
 — *Suppose that $\lambda$ (resp. $\mu$) is the sum of a summable family $(\lambda_\alpha)_{\alpha \in A}$ (resp. $(\mu_\beta)_{\beta \in B}$) of measures on $S$ (resp. $T$). The family $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ is then summable, and its sum is $\lambda \otimes \mu$.*
 
@@ -379,7 +379,7 @@ For, let $p$ be the encumbrance $\sum_{\alpha, \beta} (\lambda_\alpha \otimes \m
 
 *Throughout this No., $\lambda$ and $\mu$ denote measures on $S$ and $T$, respectively, and $\nu$ denotes the product measure $\lambda \otimes \mu$ on $S \times T$. In addition, if $f$ is a positive function on $S \times T$, for every $s \in S$ we denote by $f_s$ the function $t \mapsto f(s, t)$ on $T$, and by $I_f$ the function $s \mapsto \mu^\bullet(f_s)$ on $S$.*
 
-#### Lemma 2 {#int-ix-s2-lem-2 .statement}
+#### Lemma 2 {#int-ix-s2-lem-2 .statement tag=09PA}
 
 *Let $f$ be a $\nu$-measurable positive function on $S \times T$; for every compact subset $L$ of $T$, let $I_f^L$ be the function $s \mapsto \mu^\bullet(f_s \varphi_L)$ on $S$. Then the function $I_f^L$ is $\lambda$-measurable, and*
 
@@ -410,7 +410,7 @@ namely (6).
 
 Finally, Prop. 7 of Ch. V, §8, No. 3 implies that the restriction of $I_f^L$ to every compact subset K of S is $\lambda_K$-measurable; this is equivalent to saying that $I_f^L$ is $\lambda$-measurable.
 
-#### Proposition 11 {#int-ix-s2-prop-11 .statement}
+#### Proposition 11 {#int-ix-s2-prop-11 .statement tag=09PB}
 
 *Let f be a lower semi-continuous function $\geqslant 0$ defined on $X = S \times T$.*
 
@@ -424,7 +424,7 @@ $$
 
 The property *a)* is obvious, since the mapping $t \mapsto f(s, t)$ of T into $\overline{\mathbf{R}}$ is the composition of $f$ with the continuous mapping $t \mapsto (s, t)$ of T into X. To establish *b)*, we will make use of a lemma:
 
-#### Lemma 3 {#int-ix-s2-lem-3 .statement}
+#### Lemma 3 {#int-ix-s2-lem-3 .statement tag=09PC}
 
 — *Let X be a topological space (Hausdorff or not), f a lower semi-continuous function $\geqslant 0$ defined on X; then f is the limit of an increasing sequence $(f_n)_{n \in \mathbf{N}}$ of lower semi-continuous functions on X, such that each function $f_n$ is a linear combination, with positive coefficients, of characteristic functions of open sets.*
 
@@ -445,7 +445,7 @@ W = \bigcup_{1 \leq i \leq n} (U_i \times V_i),
 $$
 where the $U_i$ are open in $S$ and the $V_i$ are open in $T$; by the remarks made above, it will suffice to show that the characteristic function of such an open set belongs to $\mathscr{H}$. Let then $s \in S$, and let $U$ be the intersection of the family (possibly empty) formed by the open sets $U_i$ containing $s$; one sees immediately that $\varphi_W(s,t) \leq \varphi_W(s',t)$ for all $s' \in U$ and $t \in T$, whence, by integration, $I_{\varphi_W}^L(s) \leq I_{\varphi_W}^L(s')$ for all $s' \in U$. Consequently $I_{\varphi_W}^L$ is lower semi-continuous, and the proposition is established.
 
-#### Corollary 1 {#int-ix-s2-lem-3-cor-1 .statement}
+#### Corollary 1 {#int-ix-s2-lem-3-cor-1 .statement tag=09PD}
 
 *Let $f$ be a positive numerical function defined on $X = S \times T$; then*
 $$
@@ -461,11 +461,11 @@ $$
 $$
 The inequality (10) is obtained by passing to the lower envelope over $g$.
 
-#### Corollary 2 {#int-ix-s2-lem-3-cor-2 .statement}
+#### Corollary 2 {#int-ix-s2-lem-3-cor-2 .statement tag=09PE}
 
 — Let $f$ be a numerical function defined on $S \times T$ and $\nu$-negligible. Then the function $f_s : t \mapsto f(s, t)$ is $\mu$-negligible for $\lambda$-almost every $s \in S$.
 
-#### Proposition 12 {#int-ix-s2-prop-12 .statement}
+#### Proposition 12 {#int-ix-s2-prop-12 .statement tag=09PF}
 
 — Let $f$ be a $\nu$-measurable positive function defined on $X = S \times T$. Assume that $f$ is $\nu$-moderated (resp. that $\mu$ is moderated). Then:
 a) The set $N$ of $s \in S$ such that the function $f_s : t \mapsto f(s, t)$ is not $\mu$-measurable is negligible (resp. locally negligible) for $\lambda$.
@@ -485,13 +485,13 @@ Suppose that $f$ is zero outside a compact set of the form $K \times L$; then $N
 
 Suppose that $\mu$ is carried by a compact subset $L$ of $T$; then $N = N_L$ again, therefore $N$ is locally $\lambda$-negligible. Since every moderated measure is the sum of a sequence of measures with compact support ($§ 1$, No. 9, Cor. 5 of Prop. 14), this result extends at once to the case that $\mu$ is moderated, on using Prop. 8 of $§ 1$, No. 7.
 
-#### Remark {#int-ix-s2-n6-rem-1 .statement}
+#### Remark {#int-ix-s2-n6-rem-1 .statement tag=09PG}
 
 — Let $(K_\alpha)_{\alpha \in A}$ be a crushing of $S$ for $\lambda$ and let $M = S - \bigcup_{\alpha \in A} K_\alpha$; define in an analogous way $(L_\beta)_{\beta \in B}$ and $N$ for the measure $\mu$ on $T$. We denote by $S'$ the locally compact space that is the sum of the subspaces $K_\alpha$ of $S$ and the *discrete* space $M$; the space $T'$ is defined analogously, and we set $X' = S' \times T'$. The locally compact space $X'$ is the sum of the family $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ of compact subspaces of $X$ and the subspace $P = (M \times T) \cup (S \times N)$ that is a locally $\nu$-negligible subset of $X$ (one observes that $P$ is in general not a discrete space). We saw in the *Scholium* of $§ 1$, No. 8 that there exists a measure $\lambda'$ on $S'$ such that the measurable functions, the essential upper integral of positive functions, the essentially integrable functions and their integrals, are the same for $\lambda$ and $\lambda'$. We associate the measure $\mu'$ on $T'$ with $\mu$, and the measure $\nu'$ on $X'$ with $\nu$, in conformity with the cited Scholium; one sees immediately that ${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$ for $f \in \mathscr{F}_+(S)$ and $g \in \mathscr{F}_+(T)$; therefore $\nu' = \lambda' \otimes \mu'$ by Prop. 10 of No. 5. Since the topology of $X'$ is finer than that of $X$, every $\nu$-moderated function is $\nu'$-moderated. This procedure permits extending without new proof the Lebesgue–Fubini theorem (Ch. V, $§ 8$, No. 4, Th. 1) to the present situation.
 
 ### 7. A result on the disintegration of measures
 
-#### Proposition 13 {#int-ix-s2-prop-13 .statement}
+#### Proposition 13 {#int-ix-s2-prop-13 .statement tag=09PH}
 
 *Let $X$ be a topological space, $\nu$ a moderated measure on $X$, $p$ a $\nu$-proper mapping of $X$ into a topological space $T$, and $\mu = p(\nu)$. Assume that every compact subspace of $X$ is metrizable. Then there exists a mapping $t \mapsto \lambda_t$ of $T$ into $\mathscr{M}_+(X)$ having the following properties:
 
@@ -508,7 +508,7 @@ c) the set of $t \in T$ such that $\lambda_t(1) \neq 1$ is locally $\mu$-negligi
 Moreover, if $t \mapsto \lambda'_t$ is a mapping of $T$ into $\mathscr{M}_+(X)$ satisfying the conditions a) and b), the set of $t \in T$ such that $\lambda_t \neq \lambda'_t$ is locally $\mu$-negligible.
 We will need an auxiliary result:
 
-#### Lemma 4 {#int-ix-s2-lem-4 .statement}
+#### Lemma 4 {#int-ix-s2-lem-4 .statement tag=09PI}
 
 Let $X$ be a topological space, $\nu$ a measure on $X$, and $f$ a $\nu$-measurable mapping of $X$ into a topological space $F$ (Hausdorff or not). There exists a universally measurable mapping $f'$ of $X$ into $F$, equal to $f$ locally $\nu$-almost everywhere.
 
@@ -569,7 +569,7 @@ Let $f \in D$; by D), the functions $t \mapsto (\lambda_t^1)^\bullet(f)$ and $t 
 
 Q.E.D.
 
-#### Remark {#int-ix-s2-n7-rem-1 .statement}
+#### Remark {#int-ix-s2-n7-rem-1 .statement tag=09PJ}
 
 — 1) If $X$ is a Souslin space, then every compact subspace of $X$ is a Souslin space, hence is metrizable (TG, IX, Appendix I, Cor. 2 of Prop. 3),$^{(2)}$
 

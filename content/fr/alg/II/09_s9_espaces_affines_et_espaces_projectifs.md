@@ -57,14 +57,14 @@ subsections:
       pdf_page: 315
 statements: 12
 exercises: 19
-content_sha256: 1d7531690af2a3fe0e1c72b9ec9d09166704bcb341f6cfad216a6511a30de7f8
+content_sha256: 0545b16501220edbb60d8c03894c4140a3b341c7142bbd3c3a34361a06710db5
 ---
 
 ## § 9. ESPACES AFFINES ET ESPACES PROJECTIFS
 
 ### 1. Définition des espaces affines
 
-#### Définition 1 {#alg-ii-s9-def-1 .statement}
+#### Définition 1 {#alg-ii-s9-def-1 .statement tag=05VM}
 
 Étant donné un espace vectoriel à gauche (resp. à droite) T sur un corps K, on appelle espace affine attaché à T tout ensemble homogène E du groupe additif T (I, p. 56) tel que O soit le seul opérateur de T laissant invariants tous les éléments de E (c’est-à-dire que T opère fidèlement et transitivement dans E). Dans ces conditions, T s’appelle l’espace des translations de E, et ses éléments s’appellent les translations de E (ou les vecteurs libres de E).
 
@@ -93,13 +93,13 @@ et la commutativité de l’addition dans T montrent que l’on a b' − b = a' 
 
 Étant donné un point a ∈ E, l’application x ↦ x − a est une bijection de E sur T; quand on identifie E à T par cette application, on dit qu’on considère E comme espace vectoriel obtenu en prenant a pour origine dans E. Inversement, tout espace vectoriel T est canoniquement muni d’une structure d’espace affine attaché à T, à savoir la structure d’espace homogène correspondant au sous-groupe {0} de T (I, p. 59).
 
-#### Remarque {#alg-ii-s9-n1-rem-1 .statement}
+#### Remarque {#alg-ii-s9-n1-rem-1 .statement tag=05VN}
 
 Les définitions de ce n°, et une partie des résultats qui suivent, s’étendent immédiatement au cas où, au lieu d’un espace vectoriel T, on considère un groupe commutatif à opérateurs quelconque T.
 
 ### 2. Calcul barycentrique
 
-#### Proposition 1 {#alg-ii-s9-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s9-prop-1 .statement tag=05VO}
 
 Soient (x_i)_{i \in I} une famille de points d’un espace affine E, et (\lambda_i)_{i \in I} une famille d’éléments de K, de support fini, telle que $\sum_{i \in I} \lambda_i = 1$ (resp. $\sum_{i \in I} \lambda_i = 0$). Si a est un point quelconque de E, le point x ∈ E défini par
 $$
@@ -122,7 +122,7 @@ On retrouve ainsi en particulier la notation $b - a$ introduite dans II, p. 127.
 
 ### 3. Variétés linéaires affines
 
-#### Définition 2 {#alg-ii-s9-def-2 .statement}
+#### Définition 2 {#alg-ii-s9-def-2 .statement tag=05VP}
 
 Étant donné un espace affine E, on dit qu’une partie V de E est une variété linéaire affine (ou simplement une variété linéaire ou un sous-espace affine de E) *si, pour toute famille* $(x_i)_{i \in I}$ *de points de* V, *et toute famille* $(\lambda_i)_{i \in I}$ *d’éléments de* K, *de support fini et telle que* $\sum_{i \in I} \lambda_i = 1$, *le barycentre* $\sum_{i \in I} \lambda_i x_i$ *appartient à* V.
 
@@ -138,7 +138,7 @@ $$
 
 signifie que $x$ est un barycentre $\sum_{i=1}^n \lambda_i x_i + (1 - \sum_{i=1}^n \lambda_i)a$ de la famille formée des $x_i$ et de $a$. Par suite:
 
-#### Proposition 2 {#alg-ii-s9-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s9-prop-2 .statement tag=05VQ}
 
 Pour qu’une partie non vide V d’un espace affine E soit une variété linéaire, il faut et il suffit que V soit un sous-espace vectoriel pour la structure d’espace vectoriel de E obtenue en prenant un point de V comme origine.
 
@@ -156,7 +156,7 @@ On appelle codimension d’une variété linéaire V dans E la codimension de sa
 
 Deux variétés linéaires de même direction sont dites parallèles; il revient au même de dire qu’elles se déduisent l’une de l’autre par translation. Si V est une variété linéaire dans T (considéré comme espace affine), sa direction est la variété linéaire parallèle à V et contenant 0.
 
-#### Proposition 3 {#alg-ii-s9-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s9-prop-3 .statement tag=05VR}
 
 Étant donnée une famille $(a_i)_{i \in I}$ de points d’un espace affine E, l’ensemble V des barycentres $\sum_{i \in I} \lambda_i a_i \ ((\lambda_i) \text{ de support fini}, \sum_{i \in I} \lambda_i = 1)$ est une variété linéaire de E.
 
@@ -168,13 +168,13 @@ Avec les notations de la prop. 3, et en supposant la famille $(a_i)$ non vide, p
 
 On dit qu’une famille $(a_i)_{i \in I}$ de points de $E$ qui n’est pas affinement libre est *affinement liée*.
 
-#### Proposition 4 {#alg-ii-s9-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s9-prop-4 .statement tag=05VS}
 
 *Pour qu’une famille non vide $(a_i)_{i \in I}$ de points d’un espace affine $E$ soit affinement liée, il faut et il suffit qu’il existe une famille $(\lambda_i)_{i \in I}$ d’éléments non tous nuls de $\mathbf{K}$, de support fini, telle que $\sum_{i \in I} \lambda_i = 0$ et $\sum_{i \in I} \lambda_i a_i = 0$.
 
 En effet, étant donné un indice $\kappa \in I$, dire que la famille de vecteurs $(a_i - a_\kappa)$, où $i$ parcourt l’ensemble des indices $\neq \kappa$, est liée dans $T$, signifie qu’il existe une famille de scalaires $(\lambda_i)_{i \neq \kappa}$ non tous nuls, tels que $\sum_{i \neq \kappa} \lambda_i (a_i - a_\kappa) = 0$, ce qui s’écrit aussi $\sum_{i \in I} \lambda_i a_i = 0$, avec $\lambda_\kappa = - \sum_{i \neq \kappa} \lambda_i$, autrement dit $\sum_{i \in I} \lambda_i = 0$.
 
-#### Proposition 5 {#alg-ii-s9-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s9-prop-5 .statement tag=05VT}
 
 *Pour qu’une famille non vide $(a_i)_{i \in I}$ de points d’un espace affine $E$ soit affinement libre, il faut et il suffit que, quel que soit l’indice $\kappa \in I$, $a_\kappa$ n’appartienne pas à la variété linéaire engendrée par les $a_i$ d’indice $\neq \kappa$.
 
@@ -182,7 +182,7 @@ La proposition est évidente si $I$ n’a qu’un seul élément. Sinon, en pren
 
 ### 4. Applications linéaires affines
 
-#### Définition 3 {#alg-ii-s9-def-3 .statement}
+#### Définition 3 {#alg-ii-s9-def-3 .statement tag=05VU}
 
 *Étant donnés deux espaces affines $E, E'$, attachés à deux espaces vectoriels, $T, T'$ sur un même corps $\mathbf{K}$, on dit qu’une application $u$ de $E$ dans $E'$ est une application linéaire affine (ou simplement une application affine) si, quelles que soient la famille $(x_i)_{i \in I}$ de points de $E$ et la famille $(\lambda_i)_{i \in I}$ de scalaires telle que $\sum_{i \in I} \lambda_i = 1$, on a*
 
@@ -190,7 +190,7 @@ $$
 u\left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{i \in I} \lambda_i u(x_i).
 $$
 
-#### Proposition 6 {#alg-ii-s9-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s9-prop-6 .statement tag=05VV}
 
 *Soit $u$ une application affine de $E$ dans $E'$. Il existe une application linéaire $v$ et une seule de $T$ dans $T'$ telle que*
 
@@ -261,7 +261,7 @@ Comme le corps $K$ est canoniquement muni d’une structure d’espace vectoriel
 
 ### 5. Définition des espaces projectifs
 
-#### Définition 4 {#alg-ii-s9-def-4 .statement}
+#### Définition 4 {#alg-ii-s9-def-4 .statement tag=05VW}
 
 *Étant donné un espace vectoriel à gauche* (resp. *à droite*) $V$ *sur un corps* $K$, *on appelle espace projectif à gauche* (resp. *à droite*) *déduit de* $V$, *et on note* $\mathbf{P}(V)$, *le quotient du complémentaire* $V - \{0\}$ *de* $\{0\}$ *dans* $V$, *par la relation d’équivalence* $\Delta(V)$ : « *il existe* $\lambda \neq 0$ *dans* $K$ *tel que* $y = \lambda x$ (resp. $y = x \lambda$) » *entre* $x$ *et* $y$ *dans* $V - \{0\}$.
 
@@ -379,7 +379,7 @@ Comme les valeurs prises par une application linéaire sur une base $(e_i)$ de $
 
 La composée de deux applications projectives qui sont des bijections est une application projective; il en est de même de l’application réciproque d’une telle bijection. Les applications projectives bijectives d’un espace projectif $\mathbf{P}(V)$ sur lui-même forment donc un groupe, appelé groupe projectif de $\mathbf{P}(V)$, et noté $\mathbf{PGL}(V)$; on écrit $\mathbf{PGL}_n(K)$ ou $\mathbf{PGL}(n, K)$ au lieu de $\mathbf{PGL}(K_s^n)$.
 
-#### Remarque {#alg-ii-s9-n10-rem-1 .statement}
+#### Remarque {#alg-ii-s9-n10-rem-1 .statement tag=05VX}
 
 Dans un espace projectif $\mathbf{P}(V)$ sur un corps $K$, soit $H = \mathbf{P}(W)$ un hyperplan. Il existe une application linéaire bijective $f$ de $V$ sur $K_s \times W$ telle que $f(W) = W$; soit $g$ l’application projective obtenue à partir de $f$ par passage aux quotients. On a vu (II, p. 135) qu’on peut identifier le complémentaire de $\mathbf{P}(W)$ dans $\mathbf{P}(K_s \times W)$ à un espace affine, dont $W$ est l’espace des translations. Lorsqu’on identifie $\mathbf{P}(V)$ à $\mathbf{P}(K_s \times W)$ au moyen de $g$, on dit qu’on a pris $H$ pour hyperplan à l’infini dans $\mathbf{P}(V)$; le complémentaire de $H$ dans $\mathbf{P}(V)$ est alors identifié à un espace affine dont $W$ est l’espace des translations.
 

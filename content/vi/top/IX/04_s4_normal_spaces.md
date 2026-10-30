@@ -32,7 +32,7 @@ subsections:
       pdf_page: 194
 statements: 25
 exercises: 7
-content_sha256: ac063031cb265061e2d0306bc229d3f78c4dac1eb38646696a85ecf4d35436de
+content_sha256: b8c5d0ab5c68ff8a04e8aec59928e523e9f3dab30cd8c937c5fc8096871f1a5f
 translated_from: content/en/top/IX/04_s4_normal_spaces.md
 source_content_sha256: eb00915eefc2542b1cb326ffd5f62b68b64c27c30b72b3cd48135ced89e8d6d5
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
@@ -50,7 +50,7 @@ Tiên đề ($O_{IV}$) đối với các không gian đồng nhất hóa đượ
 
 Bây giờ ta sẽ nghiên cứu các không gian trong đó có thể, theo cùng một cách, phân tách hai tập đóng rời nhau bằng một hàm thực liên tục:
 
-#### Định nghĩa 1 {#top-ix-s4-def-1 .statement}
+#### Định nghĩa 1 {#top-ix-s4-def-1 .statement tag=0C5F}
 
 *Một không gian tôpô $X$ được gọi là chính quy nếu nó là Hausdorff và thỏa mãn tiên đề sau:*
 
@@ -60,7 +60,7 @@ Rõ ràng mọi không gian chính quy đều hoàn toàn chính quy; nhưng có
 
 Phát biểu của Tiên đề $(O_v)$, cũng như của $(O_{IV})$, chứa đường thẳng thực $\mathbf{R}$ như một tập hợp phụ trợ. Nhưng có một điều kiện tương đương với $(O_v)$ không chứa tập hợp phụ trợ nào:
 
-#### Định lý 1 (Urysohn) {#top-ix-s4-thm-1 .statement}
+#### Định lý 1 (Urysohn) {#top-ix-s4-thm-1 .statement tag=0C5G}
 
 *Tiên đề $(O_v)$ tương đương với điều sau:*
 
@@ -112,7 +112,7 @@ $$
 
 Định lý 1 sẽ cho phép ta chỉ ra rằng hai loại quan trọng của các không gian tôpô là chuẩn tắc. Trước hết:
 
-#### Mệnh đề 1 {#top-ix-s4-prop-1 .statement}
+#### Mệnh đề 1 {#top-ix-s4-prop-1 .statement tag=0C5H}
 
 *Một không gian compact là chuẩn tắc.*
 
@@ -120,17 +120,17 @@ Một không gian compact thỏa mãn tiên đề $(\mathrm{O}'_V)$, theo Mệnh
 
 Đối với các không gian *compact địa phương*, mỗi điểm của một không gian như vậy có một lân cận compact, là một không gian con chuẩn tắc; nhưng có những ví dụ về các không gian compact địa phương *không chuẩn tắc* (xem các Bài tập 9 và 26, và § 5, Bài tập 15).
 
-#### Mệnh đề 2 {#top-ix-s4-prop-2 .statement}
+#### Mệnh đề 2 {#top-ix-s4-prop-2 .statement tag=0C5I}
 
 *Một không gian mêtric hóa được là chuẩn tắc.*
 
 Cho $X$ là một không gian mêtric hóa được và cho $d$ là một mêtric tương thích với tôpô của $X$. Cho $A, B$ là hai tập con đóng rời nhau của $X$; vì các hàm $d(x, A)$ và $d(x, B)$ là liên tục, tập hợp $U$ (tương ứng $V$) của các điểm $x$ sao cho $d(x, A) < d(x, B)$ [tương ứng $d(x, B) < d(x, A)$] là mở; rõ ràng $A \subset U$ và $B \subset V$ và $U \cap V = \varnothing$, do đó Tiên đề $(O'_V)$ được thỏa mãn.
 
-#### Nhận xét 1 {#top-ix-s4-n1-rem-1 .statement}
+#### Nhận xét 1 {#top-ix-s4-n1-rem-1 .statement tag=0C5J}
 
 Mệnh đề 2 cho một điều kiện *cần* khác cho tính mêtric hóa được; nhưng điều kiện này, ngay cả khi kết hợp với tất cả các điều kiện cần đã cho trong § 2, cũng không cho một tập hợp các điều kiện đủ cho tính mêtric hóa được (xem Bài tập 6 và § 5, Bài tập 10).
 
-#### Nhận xét 2 {#top-ix-s4-n1-rem-2 .statement}
+#### Nhận xét 2 {#top-ix-s4-n1-rem-2 .statement tag=0C5K}
 
 Có những ví dụ về các không gian chuẩn tắc không mêtric hóa được cũng không compact địa phương (xem § 5, Bài tập 16).
 
@@ -144,7 +144,7 @@ Cuối cùng ta ghi nhận rằng *tích* của hai không gian chuẩn tắc kh
 
 Cho $X$ và $Y$ là hai không gian tôpô và cho $A \neq X$ là một tập con *đóng* của $X$. Nếu $f$ là một ánh xạ liên tục của $A$ vào $Y$, thì không phải lúc nào cũng có thể *mở rộng* $f$ thành một ánh xạ liên tục của toàn bộ $X$ vào $Y$. Khi $Y = \overline{\mathbf{R}}$, khả năng của một mở rộng như vậy được xác định bởi định lý sau:
 
-#### Định lý 2 (Urysohn) {#top-ix-s4-thm-2 .statement}
+#### Định lý 2 (Urysohn) {#top-ix-s4-thm-2 .statement tag=0C5L}
 
 *Tiên đề* $(O_V)$ *tương đương với tính chất sau*: $(O''_V)$ *Cho một tập con đóng bất kỳ* $A$ *của* $X$ *và một hàm giá trị thực liên tục bất kỳ* $f$ *(hữu hạn hoặc không)* *được xác định trên* $A$, *tồn tại một mở rộng* $g$ *của* $f$ *lên toàn bộ không gian* $X$, *là một ánh xạ liên tục của* $X$ *vào* $\overline{\mathbf{R}}$.
 
@@ -154,7 +154,7 @@ Ta hãy chứng minh chiều ngược lại rằng $(O_{V})$ suy ra $(O''_{V})$.
 
 Định nghĩa của $g_{n}$ dựa trên bổ đề sau:
 
-#### Bổ đề 1 {#top-ix-s4-lem-1 .statement}
+#### Bổ đề 1 {#top-ix-s4-lem-1 .statement tag=0C5M}
 
 *Cho $u$ là một ánh xạ liên tục của $A$ vào $[ -i, +i ]$; khi đó tồn tại một ánh xạ liên tục $v$ của $X$ vào $[ -i/3, +i/3 ]$, sao cho $|u(x) - v(x)| \leq 2/3$ với mọi $x \in A$.*
 
@@ -202,7 +202,7 @@ $$
 
 điều này chứng tỏ rằng $g$ liên tục tại $x$, và hoàn tất chứng minh của Định lý 2. (Phần cuối của chứng minh sử dụng, trong một trường hợp riêng, ý tưởng về hội tụ đều, mà ta sẽ nghiên cứu một cách tổng quát trong Chương X, no. 1.)
 
-#### Hệ quả {#top-ix-s4-n2-cor-1 .statement}
+#### Hệ quả {#top-ix-s4-n2-cor-1 .statement tag=0C5N}
 
 *Nếu $f$ là một hàm thực liên tục hữu hạn xác định trên $A$, thì tồn tại một hàm thực liên tục hữu hạn $g$ xác định trên $X$, mở rộng $f$.*
 
@@ -210,13 +210,13 @@ Trước hết xét trường hợp trong đó $f(x) \geq 0$ với mọi $x \in 
 
 Để đi tới trường hợp tổng quát, chỉ cần nhận xét rằng, nếu $f$ là hữu hạn và liên tục trên $A$, thì $f^+$ và $f^-$ cũng vậy; mở rộng $f^+$ và $f^-$ lên $X$ bằng các hàm hữu hạn liên tục $g_1$ và $g_2$ tương ứng, ta thấy rằng hàm $g_1 - g_2$ là hữu hạn và liên tục trên $X$ và mở rộng $f$.
 
-#### Nhận xét {#top-ix-s4-n2-rem-1 .statement}
+#### Nhận xét {#top-ix-s4-n2-rem-1 .statement tag=0C5O}
 
 Nếu $X$ là một không gian chuẩn tắc và nếu $A$ là một tập con đóng của $X$, cũng tồn tại một mở rộng liên tục của mọi ánh xạ liên tục $f$ của $A$ vào một *khối lập phương* $K^1$ (§ 1, no. 5) lên $X$; vì khi đó ta có $f = (f_i)_{i \in I}, f_i$ là một ánh xạ liên tục của $A$ vào khoảng compact $K$ của $\mathbf{R}$; vì tồn tại một ánh xạ liên tục $g_i : X \to K$ mở rộng $f_i$, nên ánh xạ $g = (g_i)$ là một mở rộng liên tục của $f$ lên $X$.
 
 ### 3. CÁC PHỦ MỞ HỮU HẠN ĐỊA PHƯƠNG CỦA MỘT TẬP ĐÓNG TRONG MỘT KHÔNG GIAN CHUẨN TẮC
 
-#### Định lý 3 {#top-ix-s4-thm-3 .statement}
+#### Định lý 3 {#top-ix-s4-thm-3 .statement tag=0C5P}
 
 Cho $(A_i)_{i \in I}$ là một phủ mở hữu hạn địa phương của một tập đóng $Y$ trong một không gian chuẩn tắc $X$. Khi đó tồn tại một phủ mở $(B_i)_{i \in I}$ của $Y$ sao cho $\overline{B}_i \subset A_i$ với mọi $i \in I$.
 
@@ -224,11 +224,11 @@ Hãy sắp thứ tự tốt tập chỉ số $I$ (Lý thuyết tập hợp, Chư
 
 Đặt $C = (\complement Y) \cup \left( \bigcup_{i < \gamma} B_i \right) \cup \left( \bigcup_{i > \gamma} A_i \right)$; $C$ là mở, và từ điều vừa nói ta có $\complement A_\gamma \subset C$; nhờ Tiên đề $(O''_V)$ đối với các không gian chuẩn tắc, do đó tồn tại một tập mở $V$ sao cho $\complement A_\gamma \subset \overline{V} \subset V \subset C$. Nếu ta đặt $B_\gamma = \complement \overline{V}$, ta có $\overline{B}_\gamma \subset \complement V \subset A_\gamma$ và $B_\gamma \cup C = X$, do đó các $B_i$ sao cho $i \leq \gamma$ và các $A_i$ sao cho $i > \gamma$ phủ $Y$.
 
-#### Nhận xét {#top-ix-s4-n3-rem-1 .statement}
+#### Nhận xét {#top-ix-s4-n3-rem-1 .statement tag=0C5Q}
 
 Chú ý rằng ta chỉ dùng thực tế là phủ $(A_i)$ là hữu hạn theo điểm, tức là mỗi điểm của $X$ chỉ thuộc về một số hữu hạn các tập $A_i$.
 
-#### Định nghĩa 2 {#top-ix-s4-def-2 .statement}
+#### Định nghĩa 2 {#top-ix-s4-def-2 .statement tag=0C5R}
 
 Cho $X$ là một không gian tôpô và cho $f$ là một hàm giá trị thực xác định trên $X$. Giá đỡ của $f$, ký hiệu bởi $\operatorname{Supp}(f)$, là tập đóng nhỏ nhất $S$ trong $X$ sao cho $f(x) = 0$ với mọi $x \notin S$.
 
@@ -236,13 +236,13 @@ Nói cách khác, $\operatorname{Supp}(f)$ là bao đóng trong $X$ của tập 
 
 Cho $(f_i)_{i \in I}$ là một họ các hàm giá trị thực hữu hạn trên $X$ mà các giá đỡ của chúng tạo thành một họ hữu hạn địa phương; khi đó tổng $\sum_{i \in I} f_i(x)$ được xác định với mỗi $x \in X$ (vì nó chỉ chứa hữu hạn số hạng khác không). Hàm giá trị thực hữu hạn $x \to \sum_{i \in I} f_i(x)$ được gọi là tổng của họ $(f_i)$, và được ký hiệu bởi $\sum_{i \in I} f_i$. Nếu mỗi $f_i$ đều liên tục, thì $f = \sum_{i \in I} f_i$ cũng liên tục; thật vậy, nếu $x$ là một điểm bất kỳ của $X$, thì có một lân cận $V$ của $x$ chỉ gặp một số hữu hạn các giá đỡ của các $f_i$, và do đó có một tập con hữu hạn $H$ của $I$ sao cho $f(y) = \sum_{i \in H} f_i(y)$ với mọi $y \in V$.
 
-#### Định nghĩa 3 {#top-ix-s4-def-3 .statement}
+#### Định nghĩa 3 {#top-ix-s4-def-3 .statement tag=0C5S}
 
 *Cho một họ* $(A_i)_{i \in I}$ *của các tập con của một không gian tôpô* $X$, *một họ* $(f_i)_{i \in I}$ *của các hàm giá trị thực xác định trên* $X$ *được gọi là phụ thuộc vào họ* $(A_i)_{i \in I}$ *nếu ta có* $\operatorname{Supp}(f_i) \subset A_i$ *với mỗi chỉ số* $i \in I$.
 
 *Một phân hoạch đơn vị liên tục trên* $X$ *là bất kỳ họ nào* $(f_i)_{i \in I}$ *gồm các hàm liên tục giá trị thực* $\geq 0$ *trên* $X$ *mà các giá đỡ của chúng tạo thành một họ hữu hạn địa phương và sao cho* $\sum_{i \in I} f_i(x) = 1$ *với mọi* $x \in X$.
 
-#### Mệnh đề 3 {#top-ix-s4-prop-3 .statement}
+#### Mệnh đề 3 {#top-ix-s4-prop-3 .statement tag=0C5T}
 
 *Cho bất kỳ một phủ mở hữu hạn địa phương nào* $(A_i)_{i \in I}$ *của một không gian chuẩn tắc* $X$, *tồn tại một phân hoạch đơn vị liên tục* $(f_i)_{i \in I}$ *trên* $X$, *phụ thuộc vào phủ* $(A_i)_{i \in I}$.
 
@@ -252,7 +252,7 @@ f_i(x) = \frac{g_i(x)}{\sum_{i \in I} g_i(x)}
 $$
 đối với mọi $i \in I$ và mọi $x \in X$, thì các $f_i$ tạo thành một phân hoạch đơn vị liên tục phụ thuộc vào phủ $(A_i)$.
 
-#### Hệ quả {#top-ix-s4-n3-cor-1 .statement}
+#### Hệ quả {#top-ix-s4-n3-cor-1 .statement tag=0C5U}
 
 *Cho bất kỳ một phủ mở hữu hạn địa phương* $(A_i)$ *của một tập đóng* $F$ *trong một không gian chuẩn tắc* $X$, *tồn tại một họ* $(f_i)$ *các hàm liên tục nhận giá trị thực* $\geq 0$ *trên* $X$, *phụ thuộc vào phủ* $(A_i)_{i \in I}$ *và sao cho* $\sum_{i \in I} f_i(x) = 1$ *với mọi* $x \in F$ *và* $\sum_{i \in I} f_i(x) \leq 1$ *với mọi* $x \in X$.
 
@@ -262,13 +262,13 @@ Họ các tập hợp gồm CF và các $A_i$ là một phủ mở hữu hạn �
 
 Ta nhắc lại (Chương I, § 9, no. 10) rằng một không gian tôpô $X$ được gọi là *paracompact* nếu nó là Hausdorff và nếu mọi phủ mở của $X$ đều có một tinh chỉnh mở hữu hạn địa phương.
 
-#### Mệnh đề 4 {#top-ix-s4-prop-4 .statement}
+#### Mệnh đề 4 {#top-ix-s4-prop-4 .statement tag=0C5V}
 
 *Mọi không gian paracompact đều là chuẩn tắc.*
 
 Đây là hệ quả của bổ đề sau:
 
-#### Bổ đề 2 {#top-ix-s4-lem-2 .statement}
+#### Bổ đề 2 {#top-ix-s4-lem-2 .statement tag=0C5W}
 
 *Cho $A, B$ là hai tập hợp con đóng rời nhau của một không gian paracompact $X$. Nếu với mỗi $x \in A$ có một lân cận mở $V_x$ của $x$ và một lân cận mở $W_x$ của $B$ sao cho chúng không giao nhau, thì tồn tại một lân cận mở $T$ của $A$ và một lân cận mở $U$ của $B$ sao cho chúng không giao nhau.*
 
@@ -278,7 +278,7 @@ Tạm thời giả sử bổ đề này đúng, ta có thể áp dụng nó tron
 
 Có những không gian chuẩn tắc không paracompact (Bài tập 19).
 
-#### Hệ quả 1 {#top-ix-s4-lem-2-cor-1 .statement}
+#### Hệ quả 1 {#top-ix-s4-lem-2-cor-1 .statement tag=0C5X}
 
 *Cho bất kỳ phủ mở $(A_i)_{i \in I}$ nào của một không gian paracompact $X$, tồn tại một phân hoạch đơn vị liên tục $(f_i)_{i \in I}$ trên $X$, phụ thuộc vào phủ $(A_i)$.*
 
@@ -296,7 +296,7 @@ $$
 
 và chứng minh đã hoàn tất.
 
-#### Hệ quả 2 {#top-ix-s4-lem-2-cor-2 .statement}
+#### Hệ quả 2 {#top-ix-s4-lem-2-cor-2 .statement tag=0C5Y}
 
 *Nếu $F$ là một tập con đóng của một không gian paracompact $X$, thì mọi lân cận của $F$ trong $X$ đều chứa một lân cận đóng (và do đó paracompact) của $F$.*
 
@@ -306,13 +306,13 @@ Theo Mệnh đề 16 của Chương I, § 9, no. 10, mọi không gian con đón
 
 Định lý sau đây là một kết quả mạnh hơn của Mệnh đề 2 ở no. 1:
 
-#### Định lý 4 {#top-ix-s4-thm-4 .statement}
+#### Định lý 4 {#top-ix-s4-thm-4 .statement tag=0C5Z}
 
 *Mọi không gian mêtric hóa đều paracompact.*
 
 Định lý này là hệ quả của bốn bổ đề sau đây.
 
-#### Bổ đề 3 {#top-ix-s4-lem-3 .statement}
+#### Bổ đề 3 {#top-ix-s4-lem-3 .statement tag=0C60}
 
 *Cho $\mathscr{R} = (U_\alpha)_{\alpha \in A}$ là một phủ mở của một không gian mêtric hóa X. Khi đó có một dãy $(\mathscr{G}_n)$ của các họ hữu hạn địa phương gồm các tập con mở của X, sao cho $\mathscr{S} = \bigcup_n \mathscr{S}_n$ là một phủ mở của X tinh hơn $\mathscr{R}$.
 
@@ -326,7 +326,7 @@ $$
 
 do đó $y \in U_\alpha$. Hơn nữa, với mỗi $x \in X$ hãy cho $\alpha$ là chỉ số nhỏ nhất trong $A$ sao cho $x \in U_\alpha$; khi đó tồn tại một số nguyên n sao cho $x \in F_{n\alpha}$, và theo định nghĩa của $\alpha$ suy ra $x \in G_{n\alpha}$, nên $x \in V_{n\alpha}$. Điều này cho thấy rằng nếu ta đặt $\mathfrak{S}_n = (V_{n\alpha})_{\alpha \in A}$, thì $\mathfrak{S} = \bigcup_n \mathfrak{S}_n$ là một phủ mở của $X$ tinh lọc $\mathscr{R}$; vì vậy còn phải chứng minh rằng mỗi họ $\mathfrak{S}_n$ là *hữu hạn địa phương*. Để làm điều này trước hết ta sẽ chứng minh rằng $d(G_{n\alpha}, G_{n\beta}) \geq 2^{-n-1}$ nếu $\alpha \neq \beta$. Giả sử rằng $\beta < \alpha$; khi đó nếu $x \in G_{n\alpha}$ và $y \in F_{n\beta}$ thì theo định nghĩa ta có $x \notin F_{n+1,\beta}$, do đó $d(x, X - U_\beta) < 2^{-n-1}$ và $d(y, X - U_\beta) \geq 2^{-n}$, và vì thế $d(x, y) \geq 2^{-n-1}$; vì $G_{n\beta} \subset F_{n\beta}$, mệnh đề suy ra. Từ đó suy ra ngay, dùng định nghĩa của $V_{n\alpha}$ và $V_{n\beta}$, rằng $d(V_{n\alpha}, V_{n\beta}) \geq 2^{-n-2}$. Từ bất đẳng thức sau cùng này ta suy ra rằng, với mỗi $z \in X$, quả cầu mở tâm $z$ và bán kính $2^{-n-3}$ gặp nhiều nhất một tập của họ $\mathfrak{S}_n$; do đó $\mathfrak{S}_n$ là một họ hữu hạn địa phương, và chứng minh hoàn tất.
 
-#### Bổ đề 4 {#top-ix-s4-lem-4 .statement}
+#### Bổ đề 4 {#top-ix-s4-lem-4 .statement tag=0C61}
 
 *Cho* $(\mathfrak{S}_n)$ *là một dãy các họ hữu hạn địa phương của các tập mở trong một không gian tôpô* $X$, *sao cho*
 $$
@@ -336,13 +336,13 @@ $$
 
 Cho $E_n$ là tập hợp mở trong $X$ là hợp của tất cả các tập hợp của $\mathfrak{S}_n$; cho $U_n$ ký hiệu $\bigcup_{k=1}^n E_k$ và cho $A_n$ ký hiệu $U_n - U_{n-1}$ (với $U_0 = \varnothing$). Xét tập hợp $\mathscr{B}$ gồm các tập hợp con $V \cap A_n$, trong đó $V \in \mathfrak{S}_n$ và $n$ là bất kỳ số nguyên nào; ta sẽ chứng minh rằng $\mathscr{B}$ thỏa mãn các điều kiện của bổ đề. Với mỗi $x \in X$ có một số nguyên $n$ sao cho $x \in A_n$, vì các $A_n$ tạo thành một phân hoạch của $X$; do đó $x \in E_n$ và tồn tại $V \in \mathfrak{S}_n$ sao cho $x \in V$; suy ra $x \in V \cap A_n$, và ta đã chứng minh rằng $\mathscr{B}$ là một phủ của $X$. Rõ ràng, phủ này tinh hơn $\mathfrak{S}$. Mặt khác, với mỗi $x \in X$ tồn tại một số nguyên $n$ sao cho $x \in U_n$; vì $U_n$ là mở và các $\mathfrak{S}_m$ là các họ hữu hạn địa phương, nên với mỗi $m$ tồn tại một lân cận $W_m$ của $x$, được chứa trong $U_n$, chỉ gặp một số hữu hạn các tập hợp của $\mathfrak{S}_m$; do đó lân cận $W = \bigcap_{m=1}^n W_m$ của $x$ chỉ gặp một số hữu hạn các tập hợp của $\mathscr{B}$, vì $W \cap A_p = \varnothing$ với $p > n$. Vậy $\mathscr{B}$ là hữu hạn địa phương, và Bổ đề 4 được chứng minh.
 
-#### Bổ đề 5 {#top-ix-s4-lem-5 .statement}
+#### Bổ đề 5 {#top-ix-s4-lem-5 .statement tag=0C62}
 
 *Cho* $X$ *là một không gian chính quy sao cho, với mỗi phủ mở* $\mathscr{R}$ *của* $X$, *tồn tại một phủ (không nhất thiết mở) hữu hạn địa phương* $\mathscr{U}$ *của* $X$ *tinh hơn* $\mathscr{R}$. *Khi đó với mỗi phủ mở* $\mathscr{R}$ *của* $X$ *tồn tại một phủ đóng hữu hạn địa phương* $\mathfrak{F}$ *của* $X$ *tinh hơn* $\mathscr{R}$.
 
 Let $\mathfrak{R}$ là một phủ mở bất kỳ của $X$. Với mỗi $x \in X$ có một tập mở $U \in \mathfrak{R}$ chứa $x$, và do đó (vì $X$ chính quy) có một lân cận mở $V_x$ của $x$ sao cho $\overline{V}_x \subset U$. Họ $\mathscr{B}$ được tạo bởi các $V_x$ là một phủ mở của $X$, nên theo giả thiết tồn tại một phủ hữu hạn địa phương $\mathscr{B}'$ mịn hơn $\mathscr{B}$. Gọi $\mathscr{F}$ là họ các bao đóng của các tập thuộc $\mathscr{B}$. Vì phủ $\mathscr{B}'$ được tạo bởi các $\overline{V}_x$ mịn hơn $\mathfrak{R}$, và vì $\mathscr{F}$ mịn hơn $\mathscr{B}'$, suy ra $\mathscr{F}$ là một phủ đóng của $X$ mịn hơn $\mathfrak{R}$. Nhưng $\mathscr{F}$ cũng là hữu hạn địa phương, vì nếu một tập mở không gặp một tập $B \in \mathscr{B}$, thì nó cũng không gặp bao đóng $\overline{B}$ của nó.
 
-#### Bổ đề 6 {#top-ix-s4-lem-6 .statement}
+#### Bổ đề 6 {#top-ix-s4-lem-6 .statement tag=0C63}
 
 *Cho $X$ là một không gian Hausdorff sao cho, với mọi phủ mở $\mathfrak{R}$ của $X$, tồn tại một phủ đóng hữu hạn địa phương $\mathscr{F}$ của $X$ mịn hơn $\mathfrak{R}$. Khi đó $X$ là paracompact.*
 

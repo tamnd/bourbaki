@@ -41,7 +41,7 @@ subsections:
       pdf_page: 227
 statements: 21
 exercises: 6
-content_sha256: 01f22228b8106a01c60560212e11245b497bfd6c9a07dfec728d875f6a44819c
+content_sha256: 9b3367b2502fafe55bf9d5f287ed81b07405eebf1f55d4111b70d18b1430d392
 ---
 
 ## § 5. SOMMES INFINIES DANS LES GROUPES COMMUTATIFS
@@ -52,7 +52,7 @@ Dans ce paragraphe, il n’est question que de groupes topologiques commutatifs 
 
 Soient G un groupe commutatif séparé, I un ensemble d’indices quelconque, $(x_i)_{i \in I}$ une famille de points de G, dont l’ensemble d’indices est I. A toute partie finie J de I, faisons correspondre l’élément $s_J = \sum_{i \in J} x_i$ de G, que nous appellerons somme partielle finie de la famille $(x_i)_{i \in I}$, correspondant à l’ensemble J, et qui a été défini en Algèbre (A, I, p. 13; on rappelle qu’on pose, par convention, $\sum_{i \in \emptyset} x_i = 0$). Si $\mathfrak{F}(I)$ désigne l’ensemble des parties finies de I, on définit ainsi une application $J \mapsto s_J$ de $\mathfrak{F}(I)$ dans G. Or, $\mathfrak{F}(I)$, ordonné par la relation $\subset$, est un ensemble filtrant pour cette relation (E, III, p. 12): en effet, si J et J’ sont deux éléments de $\mathfrak{F}(I)$, on a $J \subset J \cup J', J' \subset J \cup J'$, et $J \cup J'$ est encore une partie finie de I. Soit $\Phi$ le filtre des sections de l’ensemble filtrant $\mathfrak{F}(I)$.
 
-#### Définition 1 {#top-iii-s5-def-1 .statement}
+#### Définition 1 {#top-iii-s5-def-1 .statement tag=0BMB}
 
 Soit $(x_i)_{i \in I}$ une famille de points d’un groupe commutatif séparé G; soit $\mathfrak{F}(I)$ l’ensemble des parties finies de l’ensemble d’indices I; pour tout partie-finie J de I, soit $s_J$ la somme des $x_i$ tels que $i \in J$. On dit que la famille $(x_i)_{i \in I}$ est sommable si l’application $J \mapsto s_J$ a une limite suivant le filtre $\Phi$ des sections de l’ensemble $\mathfrak{F}(I)$ des parties finies de I ordonné par la relation $\subset$; cette limite est alors appelée la somme de la famille $(x_i)_{i \in I}$ et se note $\sum_{i \in I} x_i$ (ou simplement $\sum_i x_i$, et même $\sum x_i$ lorsqu’aucune confusion ne peut en résulter).
 
@@ -60,15 +60,15 @@ La déf. 1 équivaut à la suivante: la famille $(x_i)$ est sommable et a pour s
 
 Si G est noté multiplicativement, et si on pose $p_J = \prod_{i \in J} x_i$ pour toute partie finie J de I, la famille $(x_i)$ sera dite multipliable si l’application $J \mapsto p_J$ a une limite suivant le filtre $\Phi$; cette limite sera appelée le produit de la famille $(x_i)$, et notée $\prod_{i \in I} x_i$.
 
-#### Remarque 1 {#top-iii-s5-n1-rem-1 .statement}
+#### Remarque 1 {#top-iii-s5-n1-rem-1 .statement tag=0BMC}
 
 Lorsque I est fini, la déf. 1 redonne la définition ordinaire de la somme d’une famille finie. Plus généralement, si I est quelconque, et si $x_i = 0$ sauf pour les indices i appartenant à une partie finie J de I, la somme $\sum_{i \in I} x_i$ est égale à $\sum_{i \in J} x_i$, et coïncide donc avec la somme définie dans ce cas en Algèbre (A, I, p. 14).
 
-#### Remarque 2 {#top-iii-s5-n1-rem-2 .statement}
+#### Remarque 2 {#top-iii-s5-n1-rem-2 .statement tag=0BMD}
 
 La définition d’une famille sommable ne fait intervenir aucune relation d’ordre sur l’ensemble d’indices I; on peut donc dire que la notion de somme ainsi définie est commutative. De façon plus précise, on a la propriété suivante: soit $(x_i)_{i \in I}$ une famille sommable, $\varphi$ une application bijective d’un ensemble d’indices K sur l’ensemble I; si on pose $y_k = x_{\varphi(k)}$, la famille $(y_k)_{k \in K}$ est sommable et a même somme que $(x_i)$. En effet, si $s = \sum_{i \in I} x_i$, et si $\sum_{i \in J} x_i \in s + V$ pour toute partie finie J contenant la partie finie $J_0$, on aura $\sum_{k \in L} y_k \in s + V$ pour toute partie finie L de K contenant $\varphi^{-1}(J_0)$.
 
-#### Remarque 3 {#top-iii-s5-n1-rem-3 .statement}
+#### Remarque 3 {#top-iii-s5-n1-rem-3 .statement tag=0BME}
 
 La déf. 1, ainsi que les conventions et remarques qui la suivent, s’appliquent, plus généralement, à toute famille de points d’un espace topologique séparé E, muni d’une loi de monoïde commutatif.
 
@@ -78,20 +78,20 @@ Soit $(x_i)_{i \in I}$ une famille sommable dans G; pour tout voisinage V de l�
 
 Réciproquement, supposons que la famille $(x_i)$ possède cette propriété; alors l’image, par l’application $J \mapsto s_J$, du filtre $\Phi$, est une base de filtre de Cauchy dans G; en effet, soit J une partie finie contenant $J_0$, et posons $K = J \cap \complement J_0$; on a $K \cap J_0 = \varnothing$, et $s_K = s_J - s_{J_0}$, donc $s_J \in s_{J_0} + V$; si $J'$ est une seconde partie finie contenant $J_0$, on a donc $s_J - s_{J'} \in V + V$, d’où la proposition. Par suite:
 
-#### Théorème 1 (critère de Cauchy) {#top-iii-s5-thm-1 .statement}
+#### Théorème 1 (critère de Cauchy) {#top-iii-s5-thm-1 .statement tag=0BMF}
 
 Dans un groupe commutatif séparé G, pour qu’une famille $(x_i)_{i \in I}$ soit sommable, il faut que, pour tout voisinage V de l’origine, il existe une partie finie $J_0$ de I telle que, pour toute partie finie K de I ne rencontrant pas $J_0$, on ait $\sum_{i \in K} x_i \in V$. Cette condition nécessaire est aussi suffisante lorsque G est complet.
 
 D’une manière plus imagée, on peut dire qu’en ôtant de la famille $(x_i)$ un nombre fini (assez grand) de termes, toute somme partielle finie de la sous-famille restante doit être aussi voisine que l’on veut de 0.
 
 Une conséquence immédiate de la première partie du th. 1 est la proposition suivante:
-#### Proposition 1 {#top-iii-s5-prop-1 .statement}
+#### Proposition 1 {#top-iii-s5-prop-1 .statement tag=0BMG}
 
 Si la famille $(x_i)$ est sommable, tout voisinage de 0 contient tous les $x_i$, à l’exception d’une sous-famille finie (en d’autres termes, si I est infini, on a $\lim x_i = 0$ suivant le filtre des complémentaires des parties finies de I).
 
 Cette condition nécessaire pour qu’une famille $(x_i)$ soit sommable n’est nullement suffisante en général, même lorsque G est complet; on en verra de nombreux exemples par la suite (voir IV, p. 33).
 
-#### Corollaire 1 {#top-iii-s5-thm-1-cor-1 .statement}
+#### Corollaire 1 {#top-iii-s5-thm-1-cor-1 .statement tag=0EA0}
 
 Soit $(x_i)_{i \in I}$ une famille sommable dans un groupe commutatif dont l’élément neutre admet un système fondamental dénombrable de voisinages; l’ensemble des indices i tels que $x_i \neq 0$ est alors dénombrable.
 
@@ -99,19 +99,19 @@ En effet, soit $(V_n)$ un système fondamental dénombrable de voisinages de 0; 
 
 Ce corollaire n’est plus nécessairement valable lorsqu’on ne suppose pas que l’origine possède un système fondamental dénombrable de voisinages. *Considérons par exemple, le groupe produit $\mathbf{R}^\mathbf{R}$ (groupe additif des fonctions numériques finies d’une variable réelle, muni de la topologie de la convergence simple (cf. X, § 1, n° 3)) et soit $f_a$ l’élément de $\mathbf{R}^\mathbf{R}$ tel que $f_a(a) = 1, f_a(x) = 0$ pour $x \neq a$; la famille $(f_a)_{a \in \mathbf{R}}$ est sommable et a pour somme la fonction égale à 1 en tout point de $\mathbf{R}$. \* Toutefois:
 
-#### Corollaire 2 {#top-iii-s5-thm-1-cor-2 .statement}
+#### Corollaire 2 {#top-iii-s5-thm-1-cor-2 .statement tag=0EA1}
 
 Soit $G$ un groupe topologique commutatif séparé et complet, tel qu’un système fondamental de voisinages de 0 soit formé de sous-groupes de $G$ (cf. III, p. 5, Exemple); pour qu’une famille $(x_i)_{i \in I}$ de points de $G$ soit sommable, il faut et il suffit que $\lim x_i = 0$ suivant le filtre des complémentaires des parties finies de $I$.
 
 En effet, soient $V$ un voisinage de 0, $H$ un sous-groupe ouvert de $G$ contenu dans $V$; s’il existe une partie finie $J_0$ de $I$ telle que $x_i \in H$ pour tout $i \notin J_0$, on a aussi $\sum_{i \in K} x_i \in H$ pour toute partie finie $K$ de $I$ ne rencontrant pas $J_0$. Il suffit donc d’appliquer le th.1.
 
-#### Remarque {#top-iii-s5-n2-rem-1 .statement}
+#### Remarque {#top-iii-s5-n2-rem-1 .statement tag=0BMI}
 
 Lorsque $G$ est noté multiplicativement, le critère de Cauchy s’exprime de la manière suivante: pour que la famille $(x_i)_{i \in I}$ soit multipliable, il faut que, pour tout voisinage $V$ de l’unité, il existe une partie finie $J_0$ de $I$ telle que, pour toute partie finie $K$ de $I$ ne rencontrant pas $J_0$, on ait $\prod_{i \in K} x_i \in V$; cette condition est suffisante lorsque $G$ est complet. On en déduit que, si $I$ est infini et si $(x_i)$ est multipliable, on a $\lim x_i = 1$, suivant le filtre des complémentaires des parties finies de $I$; si en outre l’unité possède un système fondamental dénombrable de voisinages, l’ensemble des indices $i$ tels que $x_i \neq 1$ est dénombrable.
 
 ### 3. Sommes partielles. Associativité
 
-#### Proposition 2 {#top-iii-s5-prop-2 .statement}
+#### Proposition 2 {#top-iii-s5-prop-2 .statement tag=0BMJ}
 
 Dans un groupe complet $G$, toute sous-famille d’une famille sommable est sommable.
 
@@ -119,7 +119,7 @@ En effet, le critère de Cauchy est trivialement vérifié pour une sous-famille
 
 Si $(x_i)_{i \in I}$ est sommable, la somme $\sum_{i \in J} x_i$ est donc définie pour toute partie (finie ou non) $J$ de $I$; on l’appelle encore somme partielle de la famille $(x_i)$, correspondant à la partie $J$ de l’ensemble d’indices. L’ensemble des sommes partielles d’une famille sommable est évidemment contenu dans l’adhérence de l’ensemble des sommes partielles finies.
 
-#### Théorème 2 (associativité de la somme) {#top-iii-s5-thm-2 .statement}
+#### Théorème 2 (associativité de la somme) {#top-iii-s5-thm-2 .statement tag=0BMK}
 
 Soit $(x_i)_{i \in I}$ une famille sommable dans un groupe complet $G$, et soit $(I_\lambda)_{\lambda \in L}$ une partition quelconque de $I$; si on pose $s_\lambda = \sum_{i \in I_\lambda} x_i$, la famille $(s_\lambda)_{\lambda \in L}$ est sommable et a même somme que la famille $(x_i)_{i \in I}$.
 
@@ -163,7 +163,7 @@ De même, si le premier membre de (2) n’est pas défini, chacun des deux derni
 
 D’une manière plus imagée, on peut dire que, s’il est toujours possible d'« associer » arbitrairement les termes d’une somme, on ne peut, par contre, « dissocier » en leurs éléments ceux des termes d’une somme qui se présentent eux-mêmes comme des sommes. Cette opération est toutefois légitime lorsque ces termes « dissociables » sont en nombre fini. En effet:
 
-#### Proposition 3 {#top-iii-s5-prop-3 .statement}
+#### Proposition 3 {#top-iii-s5-prop-3 .statement tag=0BML}
 
 *Soit* $(x_i)_{i \in I}$ *une famille de points d’un groupe* $G$, *et* $(I_\lambda)_{\lambda \in L}$ *une partition finie de* $I$; *si chacune des sous-familles* $(x_i)_{i \in I_\lambda}$ *est sommable, la famille* $(x_i)_{i \in I}$ *est sommable, et on a la formule* (1).
 
@@ -171,7 +171,7 @@ Il suffit de la démontrer lorsque $L = \{1, 2\}$; on procédera ensuite par ré
 
 ### 4. Familles sommables dans un produit de groupes
 
-#### Proposition 4 {#top-iii-s5-prop-4 .statement}
+#### Proposition 4 {#top-iii-s5-prop-4 .statement tag=0BMM}
 
 *Soit* $G = \prod_{\lambda \in L} G_\lambda$ *un produit d’une famille de groupes commutatifs séparés.* *Pour qu’une famille* $(x_i)_{i \in I}$ *de points de* $G$ *soit sommable, il faut et il suffit que, pour tout* $\lambda \in L$, *la famille* $(\mathrm{pr}_\lambda x_i)_{i \in I}$ *soit sommable; si* $s_\lambda$ *est sa somme, $s = (s_\lambda)$ est la somme de la famille* $(x_i)$.
 
@@ -179,7 +179,7 @@ Cela résulte aussitôt de la condition de convergence, suivant un filtre, d’u
 
 ### 5. Image d’une famille sommable par un homomorphisme continu
 
-#### Proposition 5 {#top-iii-s5-prop-5 .statement}
+#### Proposition 5 {#top-iii-s5-prop-5 .statement tag=0BMN}
 
 *Soit* $f$ *un homomorphisme continu d’un groupe commutatif* $G$ *dans un groupe commutatif* $G'$.* *Si* $(x_i)$ *est une famille sommable dans* $G$, *($f(x_i)$) est une famille sommable dans* $G'$, *et on a*
 
@@ -194,7 +194,7 @@ f(\sum_{i \in J} x_i) = \sum_{i \in J} f(x_i),
 $$
 et l’image par $f$ d’une base de filtre convergente est une base de filtre convergente (I, p. 50, cor. 1).
 
-#### Proposition 6 {#top-iii-s5-prop-6 .statement}
+#### Proposition 6 {#top-iii-s5-prop-6 .statement tag=0BMO}
 
 Soient $(x_i), (y_i)$ deux familles sommables dans un groupe $G$, correspondant au même ensemble d’indices ; les familles $(-x_i), (nx_i)$ ($n \in \mathbf{Z}$), $(x_i + y_i)$ sont sommables, et on a
 
@@ -210,7 +210,7 @@ $$
 
 En effet, $x \mapsto -x$ et $x \mapsto nx$ sont des homomorphismes continus de $G$ dans $G$ ; d’autre part, si $(x_i)$ et $(y_i)$ sont sommables, la famille $((x_i, y_i))$ est sommable dans $G \times G$, et comme $(x, y) \mapsto x + y$ est un homomorphisme continu de $G \times G$ dans $G$, on en déduit (6).
 
-#### Remarque {#top-iii-s5-n5-rem-1 .statement}
+#### Remarque {#top-iii-s5-n5-rem-1 .statement tag=0BMP}
 
 Les prop. 4 et 5 s’appliquent encore au cas, signalé plus haut, des familles sommables dans un espace topologique $E$ muni d’une loi de monoïde commutatif il en est de même de la prop. 3 (III, p. 41) et de la formule (6) si on suppose en outre que l’application $(x, y) \mapsto x + y$ est continue dans $E \times E$.
 
@@ -232,7 +232,7 @@ Si G est complet, cette condition est aussi suffisante (critère de Cauchy pour 
 
 Si la série de terme général $x_n$ est convergente, on a en particulier $\lim_{n \to \infty} x_n = \lim_{n \to \infty} (s_n - s_{n-1}) = 0$; mais cette condition nécessaire de convergence n’est nullement suffisante en général, même lorsque G est complet (voir IV, p. 33).
 
-#### Proposition 7 {#top-iii-s5-prop-7 .statement}
+#### Proposition 7 {#top-iii-s5-prop-7 .statement tag=0BMQ}
 
 Si les séries définies par les suites $(x_n)$ et $(y_n)$ sont convergentes, il en est de même des séries définies par les suites $(-x_n)$ et $(x_n + y_n)$, et on a
 
@@ -246,7 +246,7 @@ $$
 
 C’est une conséquence évidente de la continuité de $-x$ dans G, et de $x + y$ dans $G \times G$.
 
-#### Corollaire {#top-iii-s5-n6-cor-1 .statement}
+#### Corollaire {#top-iii-s5-n6-cor-1 .statement tag=0BMR}
 
 Si $(x_n), (y_n)$ sont deux suites de points de G telles que $x_n = y_n$ sauf pour un nombre fini d’indices, et si la série de terme général $x_n$ converge, il en est de même de la série de terme général $y_n$.
 
@@ -262,7 +262,7 @@ Il importe de remarquer que, si la série définie par une suite $(x_n)_{n \in \
 
 Les prop. 4 et 5 s’étendent de même aux séries; nous laissons au lecteur le soin de les énoncer.
 
-#### Proposition 8 (associativité restreinte des séries) {#top-iii-s5-prop-8 .statement}
+#### Proposition 8 (associativité restreinte des séries) {#top-iii-s5-prop-8 .statement tag=0BMS}
 
 Soit $(k_n)$ une suite strictement croissante d’entiers $\geq 0$ avec $k_0 = 0$; si la série de terme général $x_n$ converge, et si on pose
 
@@ -278,11 +278,11 @@ Soient $(x_n)$ une suite *sommable* dans $G$, $s = \sum_{n \in \mathbf{N}} x_n$ 
 
 En outre, la structure d’*ordre* de $\mathbf{N}$ intervient de façon essentielle dans la définition d’une série convergente; si la série $(x_n)$ est convergente, et si $\sigma$ est une *permutation* de $\mathbf{N}$, la série $(x_{\sigma(n)})$ n’est pas nécessairement convergente (cf. IV, p. 60, exerc. 15).
 
-#### Définition 2 {#top-iii-s5-def-2 .statement}
+#### Définition 2 {#top-iii-s5-def-2 .statement tag=0BMT}
 
 *On dit qu’une série définie par une suite* $(x_n)$ *est commutativement convergente si, pour toute permutation* $\sigma$ *de* $\mathbf{N}$, *la série définie par la suite* $(x_{\sigma(n)})$ *est convergente*.
 
-#### Proposition 9 {#top-iii-s5-prop-9 .statement}
+#### Proposition 9 {#top-iii-s5-prop-9 .statement tag=0BMU}
 
 *Pour que la série définie par la suite* $(x_n)$ *soit commutativement convergente, il faut et il suffit que la suite* $(x_n)$ *soit sommable; pour toute permutation* $\sigma$ *de* $\mathbf{N}$, *on a alors*
 
@@ -292,7 +292,7 @@ $$
 
 La condition est évidemment suffisante. Pour voir qu’elle est nécessaire, raisonnons par l’absurde, en supposant la série $(x_n)$ commutativement convergente, mais la suite $(x_n)$ non sommable. L’image par l’application $H \mapsto s_H$ du filtre $\Phi$ ne peut alors être la base d’un filtre de Cauchy dans $G$, sans quoi ce filtre, qui a un point adhérent par hypothèse, convergerait (II, p. 14, cor. 2 de la prop. 5). Il existe donc un voisinage $V$ de $0$ tel que, pour toute partie finie $J$ de $\mathbf{N}$, il existe une partie finie $H$ de $\mathbf{N}$ ne rencontrant pas $J$ et telle que $\sum_{n \in H} x_n \notin V$. On peut alors définir, par récurrence, une *partition* de $\mathbf{N}$ en sous-ensembles *finis* $H_k$ ($k \in \mathbf{N}$) telle que $\sum_{n \in H_k} x_n \notin V$ pour une infinité d’indices $k$. Il est clair qu’il existe une permutation $\sigma$ de $\mathbf{N}$ telle que, pour tout $k$, les valeurs de $n$ telles que $\sigma(n) \in H_k$ soient consécutives. Pour une telle permutation, la série de terme général $x_{\sigma(n)}$ ne saurait être convergente, d’où la contradiction annoncée.
 
-#### Remarque {#top-iii-s5-n7-rem-1 .statement}
+#### Remarque {#top-iii-s5-n7-rem-1 .statement tag=0EA2}
 
 Soit $G$ un groupe topologique séparé et complet, tel qu’un système fondamental de voisinages de 0 soit formé de sous-groupes de G (cf. III, p. 5, Exemple); alors, pour toute suite $(x_n)$ de points de G telle que $\lim_{n \to \infty} x_n = 0$, la série définie par la suite $(x_n)$ est *commutativement convergente*, en vertu de la prop. 9 et de III, p. 39, cor. 2.
 

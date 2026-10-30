@@ -42,7 +42,7 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 41
-content_sha256: bfc4caeda11c82dd142b796a040d8c572ec399ca51c9d9ebb9c92e4b742c9d24
+content_sha256: d821e97942b895b17be8ce1e792e14c608c04537847a1c472436cfaf015e5b24
 ---
 
 ## § 6. EXTENSIONS, SOLVABLE GROUPS, NILPOTENT GROUPS
@@ -51,7 +51,7 @@ Throughout this paragraph, the group laws are, unless expressly mentioned otherw
 
 ### 1. EXTENSIONS
 
-#### Definition 1 {#alg-i-s6-def-1 .statement}
+#### Definition 1 {#alg-i-s6-def-1 .statement tag=05CQ}
 
 Let $F$ and $G$ be two groups. An extension of $G$ by $F$ is a triple $\mathscr{E} = (E, i, p)$, where $E$ is a group, $i$ an injective homomorphism of $F$ into $E$ and $p$ a surjective homomorphism of $E$ onto $G$ such that $\operatorname{Im}(i) = \operatorname{Ker}(p)$. A homomorphism $s : G \to E$ (resp. $r : E \to F$) such that $p \circ s = \operatorname{Id}_G$ (resp. $r \circ i = \operatorname{Id}_F$) is called a section (resp. retraction) of the extension $\mathscr{E}$.
 
@@ -79,7 +79,7 @@ $$
 u \uparrow \quad \text{and} \quad p' \uparrow
 $$
 
-#### Proposition 1 {#alg-i-s6-prop-1 .statement}
+#### Proposition 1 {#alg-i-s6-prop-1 .statement tag=05CR}
 
 Let $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ and $\mathscr{E}': F \xrightarrow{i'} E' \xrightarrow{p'} G$ be extensions of $G$ by $F$. If $u: E \to E'$ is a morphism of $\mathscr{E}$ into $\mathscr{E}'$, $u$ is an isomorphism of $E$ onto $E'$ and $u^{-1}$ is a morphism of $\mathscr{E}'$ into $\mathscr{E}$.
 
@@ -89,7 +89,7 @@ In other words, the extensions $\mathscr{E}$ and $\mathscr{E}'$ are *isomorphic*
 
 Let $F$ and $G$ be two groups and write $E_0 = F \times G$; let $i: F \to E_0$ be the canonical injection and $p: E_0 \to G$ be the canonical projection. Every extension of $G$ by $F$ isomorphic to the extension $\mathscr{E}_0: F \xrightarrow{i} E_0 \xrightarrow{p} G$ is called a *trivial extension*.
 
-#### Proposition 2 {#alg-i-s6-prop-2 .statement}
+#### Proposition 2 {#alg-i-s6-prop-2 .statement tag=05CS}
 
 *Let $\mathscr{E}: F \xrightarrow{i} E \xrightarrow{p} G$ be an extension of $G$ by $F$. The following conditions are equivalent*:
 
@@ -101,7 +101,7 @@ Clearly (i) implies (ii) and (iii). If (ii) holds, the mapping $(r, p): E \to F 
 
 It may be that an extension $\mathscr{E}: F \to E \to G$ is not trivial and yet the group $E$ is isomorphic to $F \times G$ (Exercise 6).
 
-#### Definition 2 {#alg-i-s6-def-2 .statement}
+#### Definition 2 {#alg-i-s6-def-2 .statement tag=05CT}
 
 *Let $F$ and $G$ be two groups and $\tau$ a homomorphism of $G$ into the automorphism group of $F$. Write $\tau(g)(f) = gf$ for $g \in G$ and $f \in F$. The set $F \times G$ with the law of composition*
 
@@ -113,7 +113,7 @@ $$
 
 The external semi-direct product of $G$ by $F$ relative to $\tau$ is denoted by $F \times_{\tau} G$.
 
-#### Proposition 3 {#alg-i-s6-prop-3 .statement}
+#### Proposition 3 {#alg-i-s6-prop-3 .statement tag=05CU}
 
 *The external semi-direct product $F \times_{\tau} G$ is a group. The mappings $i: F \to F \times_{\tau} G$ defined by $i(f) = (f, e)$, $p: F \times_{\tau} G \to G$ defined by $p(f, g) = g$, and $s: G \to F \times_{\tau} G$ defined by $s(g) = (e, g)$ are group homomorphisms. The triple $(F \times_{\tau} G, i, p)$ is an extension of $G$ by $F$ and $s$ is a section of the extension.*
 
@@ -143,7 +143,7 @@ $$
 i'(\tau(g, f)) = s'(g)i'(f)s'(g)^{-1} = \operatorname{Int}(s'(g))(i'(f)).
 $$
 
-#### Proposition 4 {#alg-i-s6-prop-4 .statement}
+#### Proposition 4 {#alg-i-s6-prop-4 .statement tag=05CV}
 
 *With the above notation, there exists one and only one isomorphism u of $\mathscr{E}_{\tau}$ onto $\mathscr{E}'$ such that $u \circ s = s'$.
 
@@ -161,19 +161,19 @@ $$
 
 Therefore, $u$ is a homomorphism of $F \times_{\tau} G$ into $E'$. Obviously $u \circ i = i'$, $p' \circ u = p$ and $u \circ s = s'$.
 
-#### Remark {#alg-i-s6-n1-rem-1 .statement}
+#### Remark {#alg-i-s6-n1-rem-1 .statement tag=05CW}
 
 The definition of the operation $\tau$ by formula (2) depends on the extension $\mathscr{E}'$ and the section $s'$. When $F$ is commutative, the operation $\tau$ does not depend on $s'$. For $\operatorname{Int}(s'(g)) | i'(F)$ depends then only on the coset of $s'(g)$ mod. $i'(F)$.
 
 More generally, let $\mathscr{E} : F \to E \to G$ be an extension of $G$ by a commutative group $F$ (it is not assumed that $\mathscr{E}$ admits a section). The group $E$ operates on $F$ by inner automorphisms, this image is trivial on the image of $F$ and hence defines an operation of $G$ on $F$. If $\mathscr{E}$ admits a section, this operation is that defined by formula (2).
 
-#### Corollary {#alg-i-s6-n1-cor-1 .statement}
+#### Corollary {#alg-i-s6-n1-cor-1 .statement tag=05CX}
 
 *Let $G$ be a group and $H$ and $K$ two subgroups of $G$ such that $H$ is normal, $H \cap K = \{e\}$ and $H.K = G$. Let $\tau$ be the operation of $K$ on $H$ by inner automorphisms of $G$. The mapping $(h, k) \mapsto hk$ is an isomorphism of $H \times_{\tau} K$ onto $G$.
 
 Under the hypotheses of this corollary, $G$ is said to be the semi-direct product of $K$ by $H$.
 
-#### Example {#alg-i-s6-n1-exa-1 .statement}
+#### Example {#alg-i-s6-n1-exa-1 .statement tag=05CY}
 
 (1) Let $G$ be a group and $E$ a homogeneous principal $G$-set; let $\Gamma$ denote the automorphism group of $G$. Let $A$ be the set of permutations $f$ of $E$ with the following property:
 There exists $\gamma \in \Gamma$ such that $f$ is a $\gamma$-morphism of $E$ into $E$ (that is, $f(gb) = \gamma(g)f(b)$ for $b \in E$ and $g \in G$).
@@ -195,7 +195,7 @@ Proposition 4 then shows that $A$ is isomorphic to the semidirect product of $\G
 
 ### 2. COMMUTATORS
 
-#### Definition 3 {#alg-i-s6-def-3 .statement}
+#### Definition 3 {#alg-i-s6-def-3 .statement tag=05CZ}
 
 Let $G$ be a group and $x$ and $y$ two elements of $G$. The element $x^{-1}y^{-1}xy$ of $G$ is called the commutator of $x$ and $y$.
 
@@ -245,7 +245,7 @@ If A and B are two subgroups of G, (A, B) denotes the subgroup generated by the 
 
 † We here reject the notational convention made in § 1, no 1 of extending a law of composition to subsets.
 
-#### Proposition 5 {#alg-i-s6-prop-5 .statement}
+#### Proposition 5 {#alg-i-s6-prop-5 .statement tag=05D0}
 
 Let $A, B, C$ be three subgroups of $G$.
 
@@ -285,29 +285,29 @@ $$
 
 whence (iii).
 
-#### Definition 4 {#alg-i-s6-def-4 .statement}
+#### Definition 4 {#alg-i-s6-def-4 .statement tag=05D1}
 
 Let $G$ be a group. The subgroup generated by the commutators of elements of $G$ is called the derived group of $G$.
 
 The derived group of $G$ is thus the subgroup $(G, G)$. It is also denoted by $D(G)$. By an abuse of language, it is sometimes called the *commutator group* of $G$ although it is in general distinct from the set of commutators of elements of $G$ (Exercise 16). $D(G) = \{e\}$ if and only if $G$ is commutative.
 
-#### Proposition 6 {#alg-i-s6-prop-6 .statement}
+#### Proposition 6 {#alg-i-s6-prop-6 .statement tag=05D2}
 
 Let $f : G \to G'$ be a group homomorphism. Then $f(D(G)) \subset D(G')$. If $f$ is surjective, the homomorphism of $D(G)$ into $D(G')$ the restriction of $f$ is surjective.
 
 The image under $f$ of a commutator of elements of $G$ is a commutator of elements of $G'$. If $f$ is surjective, the image under $f$ of the set of commutators of $G$ is the set of commutators of $G'$. The proposition thus follows from § 4, no. 3, Corollary 3 to Proposition 2.
 
-#### Corollary 1 {#alg-i-s6-prop-6-cor-1 .statement}
+#### Corollary 1 {#alg-i-s6-prop-6-cor-1 .statement tag=05D3}
 
 The derived group of a group $G$ is a characteristic subgroup of $G$. In particular it is a normal subgroup of $G$.
 
-#### Corollary 2 {#alg-i-s6-prop-6-cor-2 .statement}
+#### Corollary 2 {#alg-i-s6-prop-6-cor-2 .statement tag=05D4}
 
 Let G be a group. The quotient group G/D(G) is commutative. Let $\pi : G \to G/D(G)$ be the canonical homomorphism. Every homomorphism f of G into a commutative group G' can be expressed uniquely in the form $f = \bar{f} \circ \pi$, where $\bar{f} : G/D(G) \to G'$ is a homomorphism.
 
 Now $\pi(D(G)) = \{e\}$. As $\pi$ is surjective, it follows that $D(G/D(G)) = \{e\}$, whence the first assertion. The second follows from § 4, no. 4, Proposition 5.
 
-#### Corollary 3 {#alg-i-s6-prop-6-cor-3 .statement}
+#### Corollary 3 {#alg-i-s6-prop-6-cor-3 .statement tag=05D5}
 
 Let H be a subgroup of G. The following conditions are equivalent:
 
@@ -315,19 +315,19 @@ Let H be a subgroup of G. The following conditions are equivalent:
 (ii) H is a normal subgroup and $G/H$ is commutative.
 (ii) $\Rightarrow$ (i) by Corollary 2 and (i) $\Rightarrow$ (ii) by § 4, no. 7, Theorem 4, since every subgroup of a commutative group is normal.
 
-#### Corollary 4 {#alg-i-s6-prop-6-cor-4 .statement}
+#### Corollary 4 {#alg-i-s6-prop-6-cor-4 .statement tag=05D6}
 
 Let G be a group and X a subset of G which generates G. The group D(G) is the normal subgroup of G generated by the commutators of elements of X.
 
 Let H be the normal subgroup of G generated by the commutators of elements of X and $\phi : G \to G/H$ the canonical homomorphism. The set $\phi(X)$ generates $G/H$. The elements of $\phi(X)$ are pairwise permutable and hence H is commutative (§ 4, no. 3, Corollary 2 to Proposition 2). Hence (Corollary 3) H contains D(G). On the other hand, obviously $H \subset D(G)$.
 
-#### Remark {#alg-i-s6-n2-rem-1 .statement}
+#### Remark {#alg-i-s6-n2-rem-1 .statement tag=05D7}
 
 (1) Corollary 2 can also be expressed by saying that $G/D(G)$, together with $\pi$, is a solution of the universal mapping problem for G, relative to commutative groups and homomorphisms from G to commutative groups.
 
 (2) Under the hypotheses of Corollary 4, the subgroup generated by the commutators of elements of X is contained in D(G) but is not in general equal to D(G) (cf. Exercise 15e).
 
-#### Example {#alg-i-s6-n2-exa-1 .statement}
+#### Example {#alg-i-s6-n2-exa-1 .statement tag=05D8}
 
 (1) If G is a non-commutative simple group, then $D(G) = G$. Therefore every homomorphism of G into a commutative group is trivial.
 
@@ -337,7 +337,7 @@ Let H be the normal subgroup of G generated by the commutators of elements of X 
 
 Let G be a group, H a subgroup of G and K a normal subgroup of G. The image of H in G/K is contained in the centre of G/K if and only if $(G, H) \subset K$.
 
-#### Definition 5 {#alg-i-s6-def-5 .statement}
+#### Definition 5 {#alg-i-s6-def-5 .statement tag=05D9}
 
 Let G be a group. The lower central series of G is the sequence $(C^n(G))_{n \geq 1}$ of subgroups of G defined inductively by:
 $$
@@ -361,13 +361,13 @@ $$
 $$
 Hence $((F_{m,n}) \text{ and } (F_{m+1,n})) \Rightarrow (F_{m,n+1})$. As $(F_{m,1})$ and $(F_{1,n})$ are obvious $(F_{m,n})$ follows by induction.
 
-#### Definition 6 {#alg-i-s6-def-6 .statement}
+#### Definition 6 {#alg-i-s6-def-6 .statement tag=05DA}
 
 *A group $G$ is called nilpotent if there exists an integer $n$ such that $C^{n+1}(G) = \{e\}$. The least integer $n$ such that $C^{n+1}(G) = \{e\}$ is called the nilpotency class of a nilpotent group $G$.*
 
 If $n \in \mathbf{N}$, a group of nilpotency class $n$ is called a nilpotent group of class $n$. It is sometimes said that the nilpotency class of a group $G$ is finite if $G$ is nilpotent.
 
-#### Example {#alg-i-s6-n3-exa-1 .statement}
+#### Example {#alg-i-s6-n3-exa-1 .statement tag=05DB}
 
 (1) A group is nilpotent of class 0 (resp. $\leq 1$) if and only if it consists of the identity element (resp. is commutative).
 
@@ -377,7 +377,7 @@ If $n \in \mathbf{N}$, a group of nilpotency class $n$ is called a nilpotent gro
 
 (4) A finite product of nilpotent groups is nilpotent.
 
-#### Proposition 7 {#alg-i-s6-prop-7 .statement}
+#### Proposition 7 {#alg-i-s6-prop-7 .statement tag=05DC}
 
 *Let $G$ be a group and $n$ an integer. The following conditions are equivalent:*
 
@@ -397,11 +397,11 @@ $$
 
 More briefly: a group is nilpotent of class $\leq n$ if it can be obtained from the group $\{e\}$ by $n$ successive central extensions.
 
-#### Corollary {#alg-i-s6-n3-cor-1 .statement}
+#### Corollary {#alg-i-s6-n3-cor-1 .statement tag=05DD}
 
 *A central extension of a nilpotent group (by a necessarily commutative group) is nilpotent.*
 
-#### Proposition 8 {#alg-i-s6-prop-8 .statement}
+#### Proposition 8 {#alg-i-s6-prop-8 .statement tag=05DE}
 
 *Let $G$ be a nilpotent group of class $\leq n$ and let $H$ be a subgroup of $G$. There exists a sequence of subgroups*
 
@@ -427,19 +427,19 @@ and $(G, G^k).H$ is contained in $G^{k+1}.H = H^{k+1}$; hence $s.H^{k+1}.s^{-1} 
 
 Finally, the canonical homomorphism $G^k/G^{k+1} \to H^k/H^{k+1}$ is obviously surjective; as the first group is commutative, so is the second.
 
-#### Corollary 1 {#alg-i-s6-prop-8-cor-1 .statement}
+#### Corollary 1 {#alg-i-s6-prop-8-cor-1 .statement tag=05DF}
 
 *Let $G$ be a nilpotent group and $H$ a subgroup of $G$. If $H$ is distinct from $G$, the normalizer $N_G(H)$ of $H$ in $G$ is distinct from $H$.*
 
 Let $k$ be the largest index such that $H^k \neq H$. The group $H^k$ normalizes $H$ and is distinct from $H$.
 
-#### Corollary 2 {#alg-i-s6-prop-8-cor-2 .statement}
+#### Corollary 2 {#alg-i-s6-prop-8-cor-2 .statement tag=05DG}
 
 *Let $G$ be a nilpotent group and $H$ a subgroup of $G$. If $H$ is distinct from $G$, there exists a normal subgroup $N$ of $G$, containing $H$, distinct from $G$ and such that $G/N$ is commutative.*
 
 Let $k$ be the least index such that $H^k \neq G$. The group $H^k$ satisfies the required conditions.
 
-#### Corollary 3 {#alg-i-s6-prop-8-cor-3 .statement}
+#### Corollary 3 {#alg-i-s6-prop-8-cor-3 .statement tag=05DH}
 
 *Let G be a nilpotent group and H a subgroup of G. If G = H.(G, G), then G = H.*
 
@@ -447,7 +447,7 @@ Every subgroup N of G which contains H and such that G/N is commutative contains
 
 Corollary 3 can also be formulated thus: let X be a subset of G. For X to generate G, it is necessary and sufficient that the image of X in G/D(G) generate G/D(G).
 
-#### Corollary 4 {#alg-i-s6-prop-8-cor-4 .statement}
+#### Corollary 4 {#alg-i-s6-prop-8-cor-4 .statement tag=05DI}
 
 *Let f: G' → G be a group homomorphism. Suppose that*
 (a) *G is nilpotent.*
@@ -456,7 +456,7 @@ Corollary 3 can also be formulated thus: let X be a subset of G. For X to genera
 
 This follows from Corollary 3 applied to the subgroup H = f(G').
 
-#### Proposition 9 {#alg-i-s6-prop-9 .statement}
+#### Proposition 9 {#alg-i-s6-prop-9 .statement tag=05DJ}
 
 *Let G be a nilpotent group of class ≤ n and let N be a normal subgroup of G. There exists a series of subgroups*
 
@@ -472,13 +472,13 @@ $$
 N^k = G^k \cap N.
 $$
 
-#### Corollary 1 {#alg-i-s6-prop-9-cor-1 .statement}
+#### Corollary 1 {#alg-i-s6-prop-9-cor-1 .statement tag=05DK}
 
 *Let G be a nilpotent group, Z the centre of G and N a normal subgroup of G. If N ≠ {e}, then N ∩ Z ≠ {e}.*
 
 Let k be the largest index such that N^k ≠ {e}. The group N^k is contained in N. On the other hand, (G, N^k) ⊂ N^{k+1} = {e}; hence N^k is contained in the centre Z of G.
 
-#### Corollary 2 {#alg-i-s6-prop-9-cor-2 .statement}
+#### Corollary 2 {#alg-i-s6-prop-9-cor-2 .statement tag=05DL}
 
 *Let f be a homomorphism from a nilpotent group G to a group G'. If the restriction of f to the centre of G is injective, f is injective.*
 
@@ -486,7 +486,7 @@ This is Corollary 1 applied to Ker(f).
 
 ### 4. DERIVED SERIES, SOLVABLE GROUPS
 
-#### Definition 7 {#alg-i-s6-def-7 .statement}
+#### Definition 7 {#alg-i-s6-def-7 .statement tag=05DM}
 
 *Let G be a group. The derived series of G is the series (D^n(G))_{n \in \mathbf{N}} defined inductively by:*
 
@@ -500,13 +500,13 @@ Let $f : G \to G'$ be a group homomorphism. It is seen, by induction on n, that 
 
 Let $(G_0, G_1, \ldots)$ be a decreasing sequence of subgroups of G such that: (1) $G_0 = G$; (2) for all $i$, $G_{i+1}$ is normal in $G_i$ and $G_i/G_{i+1}$ is commutative. Then $D^i(G) \subset G_i$ for all $i$, as is seen by induction on $i$.
 
-#### Definition 8 {#alg-i-s6-def-8 .statement}
+#### Definition 8 {#alg-i-s6-def-8 .statement tag=05DN}
 
 *A group G is called solvable if there exists an integer n such that $D^n(G) = \{e\}$. If G is a solvable group, the least integer n such that $D^n(G) = \{e\}$ is called the solvability class of G.*
 
 A solvable group of solvability class $n$ is called a solvable group of class $n$. A group is sometimes said to be of finite solvability class if it is solvable.
 
-#### Example {#alg-i-s6-n4-exa-1 .statement}
+#### Example {#alg-i-s6-n4-exa-1 .statement tag=05DO}
 
 (1) A group is solvable of class 0 (resp. $\leq 1$) if and only if it is reduced to $\{e\}$ (resp. is commutative).
 
@@ -520,7 +520,7 @@ A solvable group of solvability class $n$ is called a solvable group of class $n
 
 (6) *If A is a commutative ring, the upper triangular group T(n, A) is solvable but not in general nilpotent.*
 
-#### Proposition 10 {#alg-i-s6-prop-10 .statement}
+#### Proposition 10 {#alg-i-s6-prop-10 .statement tag=05DP}
 
 *Let G be a group and n an integer. The following conditions are equivalent:*
 
@@ -542,7 +542,7 @@ For (i) $\Rightarrow$ (ii) it suffices to take $G^k$ equal to $D^k(G)$. (ii) $\R
 
 More briefly: a group is solvable of class $\leq n$ if it can be obtained by successive extensions of $n$ commutative groups.
 
-#### Corollary {#alg-i-s6-n4-cor-1 .statement}
+#### Corollary {#alg-i-s6-n4-cor-1 .statement tag=05DQ}
 
 Let $G$ be a finite group and
 $$
@@ -556,7 +556,7 @@ If the quotients of a composition series of $G$ are cyclic and hence commutative
 
 In this number and the following, the letter $p$ denotes a prime number ($§ 4$, no 10, Proposition 16).
 
-#### Definition 9 {#alg-i-s6-def-9 .statement}
+#### Definition 9 {#alg-i-s6-def-9 .statement tag=05DR}
 
 A finite group whose order is a power of $p$ is called a $p$-group.
 
@@ -568,7 +568,7 @@ An extension of a $p$-group by a $p$-group is a $p$-group.
 (2) Let $k$ be a finite field of characteristic $p$. The strict triangular group $T_1(n, k)$ is a $p$-group.
 (3) The quaternionic group $\{ \pm 1, \pm i, \pm j, \pm k \}$ is a 2-group (cf. Exercise 4).*
 
-#### Proposition 11 {#alg-i-s6-prop-11 .statement}
+#### Proposition 11 {#alg-i-s6-prop-11 .statement tag=05DS}
 
 Let $E$ be a finite set and $G$ a $p$-group operating on $E$. Let $E^G$ denote the set of $x \in E$ such that $gx = x$ for all $g \in G$ (the fixed points). Then
 $$
@@ -577,7 +577,7 @@ $$
 
 E — E^G is a disjoint union of orbits not reduced to a point. The cardinal of such an orbit is a power of $p$ distinct from $p^0 = 1$ and hence a multiple of $p$.
 
-#### Corollary {#alg-i-s6-n5-cor-1 .statement}
+#### Corollary {#alg-i-s6-n5-cor-1 .statement tag=05DT}
 
 *Let G be a p-group. If G is not reduced to e, its centre is not reduced to e.*
 
@@ -589,7 +589,7 @@ $$
 
 whence $\operatorname{Card}(Z) \neq 1$ and $Z \neq \{e\}$.
 
-#### Theorem 1 {#alg-i-s6-thm-1 .statement}
+#### Theorem 1 {#alg-i-s6-thm-1 .statement tag=05DU}
 
 *Let G be a p-group and $p^r$ its order. There exists a sequence of subgroups of G*
 
@@ -601,13 +601,13 @@ $$
 
 The theorem is true for $G = \{e\}$. We prove it by induction on $\operatorname{Card}(G)$. Let Z be the centre of G, $x \neq e$ an element of Z (Corollary to Proposition 11) and $p^s, s \neq 0,$ the order of x. Then $x^{p^s - 1}$ is an element of order $p$ and therefore Z contains a subgroup $G'$ which is cyclic of order $p$. By the induction hypothesis, the group $G' = G/G'$ has a series of subgroups $({G'}^k)_{1 \leq k \leq r}$ with the required properties. Let $\pi : G \to G'$ be the canonical homomorphism. The sequence of subgroups of G defined by $G^k = \pi^{-1}({G'}^k), 1 \leq k \leq r, G^{r+1} = \{e\}$ is a solution for $G^k/G^{k+1}$ is isomorphic to ${G'}^k/{G'}^{k+1}$ for $1 \leq k \leq r$ (§ 4, no. 7, Theorem 4).
 
-#### Corollary {#alg-i-s6-n5-cor-2 .statement}
+#### Corollary {#alg-i-s6-n5-cor-2 .statement tag=05DV}
 
 *Every p-group is nilpotent.*
 
 This follows from no. 3, Proposition 7.
 
-#### Proposition 12 {#alg-i-s6-prop-12 .statement}
+#### Proposition 12 {#alg-i-s6-prop-12 .statement tag=05DW}
 
 *Let G be a p-group and H a subgroup of G distinct from G. Then:*
 
@@ -616,13 +616,13 @@ This follows from no. 3, Proposition 7.
 
 Assertion (a) follows from no. 3, Corollary 1 to Proposition 8. We prove (b). By no. 3, Corollary 2 to Proposition 8, there exists a normal subgroup $N'$ of G containing H, distinct from G and such that $G/N'$ is commutative. Let N be a maximal subgroup distinct from G containing $N'$. Then N is normal (no. 2, Corollary 3 to Proposition 6) and $G/N$ is a simple commutative $p$-group and hence cyclic of order $p$ (§ 4, no. 10, Corollary to Proposition 20).
 
-#### Corollary {#alg-i-s6-n5-cor-3 .statement}
+#### Corollary {#alg-i-s6-n5-cor-3 .statement tag=05DX}
 
 *Let G be a p-group. Every subgroup of G of index p is normal.*
 
 ### 6. SYLOW SUBGROUPS
 
-#### Definition 10 {#alg-i-s6-def-10 .statement}
+#### Definition 10 {#alg-i-s6-def-10 .statement tag=05DY}
 
 Let G be a finite group. A Sylow p-subgroup of G is any subgroup P of G satisfying the two following conditions:
 
@@ -631,18 +631,18 @@ Let G be a finite group. A Sylow p-subgroup of G is any subgroup P of G satisfyi
 
 If the order of G is written in the form $p^r m$, where m is not a multiple of $p$, conditions (a) and (b) are equivalent to $\mathrm{Card}(P) = p^r$.
 
-#### Example {#alg-i-s6-n6-exa-1 .statement}
+#### Example {#alg-i-s6-n6-exa-1 .statement tag=05DZ}
 
 (1) In the group $\mathfrak{S}_p$ let $\zeta$ be a cycle of order $p$. The subgroup generated by $\zeta$ is a Sylow $p$-subgroup of $\mathfrak{S}_p$ for $p$ does not divide $(p - 1)!$.
 (2) *Let k be a finite field of characteristic $p$ and let n be a positive integer. The strict triangular group $T_1(n, k)$ is a Sylow $p$-subgroup of the group $\mathbf{GL}(n, k)$.*
 
-#### Theorem 2 {#alg-i-s6-thm-2 .statement}
+#### Theorem 2 {#alg-i-s6-thm-2 .statement tag=05E0}
 
 Every finite group contains a Sylow $p$-subgroup.
 
 The proof depends on the following lemma.
 
-#### Lemma {#alg-i-s6-n6-lem-1 .statement}
+#### Lemma {#alg-i-s6-n6-lem-1 .statement tag=05E1}
 
 Let $n = p^r m$, where m is an integer which is not a multiple of $p$. Then
 $$
@@ -663,17 +663,17 @@ whence, by virtue of the lemma, $\mathrm{Card}(E) \not\equiv 0 \pmod{p}$. Consid
 
 $(G:H_x) \not\equiv 0 \pmod{p}$, which means that $p^r$ divides $\mathrm{Card}(H_x)$. But $H_x$ consists of the $s \in G$ such that $sX = X$; if $x \in X$, then $H_x \subset X.x^{-1}$, whence $\mathrm{Card}(H_x) \leqslant \mathrm{Card}(X) = p^r$. Hence $\mathrm{Card}(H_x) = p^r$.
 
-#### Corollary {#alg-i-s6-n6-cor-1 .statement}
+#### Corollary {#alg-i-s6-n6-cor-1 .statement tag=05E2}
 
 *If the order of G is divisible by p, the group G contains an element of order p.*
 
 By virtue of Theorem 2, this is reduced to the case where G is a $p$-group $\neq \{e\}$; if $x \in G$ is different from e, the cyclic group generated by x is then of order $p^n$ with $n \geqslant 1$ and it therefore contains a subgroup of order $p$.
 
-#### Remark {#alg-i-s6-n6-rem-1 .statement}
+#### Remark {#alg-i-s6-n6-rem-1 .statement tag=05E3}
 
 For every prime number q dividing Card(G), let P_q be a Sylow q-subgroup of G. Then the subgroup H of G generated by the P_q is of order a multiple of Card(P_q) for each q and of order a divisor of Card(G), hence it is equal to G.
 
-#### Theorem 3 {#alg-i-s6-thm-3 .statement}
+#### Theorem 3 {#alg-i-s6-thm-3 .statement tag=05E4}
 
 *Let G be a finite group.*
 (a) *The Sylow p-subgroups of G are conjugate to one another. Their number is congruent to 1 mod. p.*
@@ -685,19 +685,19 @@ If H is a Sylow $p$-subgroup, then Card(H) = Card(P) = Card($gPg^{-1}$), whence 
 
 We now prove the second assertion of (a). Let $\mathscr{S}$ be the set of Sylow $p$-subgroups of G and let P operate on $\mathscr{S}$ by inner automorphisms. The element $P \in \mathscr{S}$ is a fixed point under this operation, we show that it is the only one. Let $Q \in \mathscr{S}$ be a fixed point; Q is a Sylow subgroup of G normalized by P and hence P is contained in the normalizer N of Q. The groups P and Q are Sylow $p$-subgroups of N; hence there exists $n \in N$ such that $P = nQn^{-1} = Q$. By no. 5, Proposition 11, Card($\mathscr{S}^P$) $\equiv$ Card($\mathscr{S}^{P^P}$) = 1 (mod. $p$).
 
-#### Corollary 1 {#alg-i-s6-thm-3-cor-1 .statement}
+#### Corollary 1 {#alg-i-s6-thm-3-cor-1 .statement tag=05E5}
 
 *Let P be a Sylow p-subgroup of G, let N be its normalizer in G and let M be a subgroup of G containing N. The normalizer of M in G is equal to M.*
 
 Let $s \in G$ be such that $sMs^{-1} = M$. The subgroup $sPs^{-1}$ of M is a Sylow $p$-subgroup of M. There thus exists $t \in M$ such that $sPs^{-1} = tPt^{-1}$; then $t^{-1}s \in N$, whence $s \in tN \subset M$.
 
-#### Corollary 2 {#alg-i-s6-thm-3-cor-2 .statement}
+#### Corollary 2 {#alg-i-s6-thm-3-cor-2 .statement tag=05E6}
 
 *Let $f : G_1 \to G_2$ be a homomorphism of finite groups. For every Sylow p-subgroup $P_1$ of $G_1$ there exists a Sylow p-subgroup $P_2$ of $G_2$ such that $f(P_1) \subset P_2$.*
 
 This follows from Theorem 3 (b) applied to the subgroup $f(P_1)$ of $G_2$.
 
-#### Corollary 3 {#alg-i-s6-thm-3-cor-3 .statement}
+#### Corollary 3 {#alg-i-s6-thm-3-cor-3 .statement tag=05E7}
 
 (a) Let $H$ be a subgroup of $G$. For every Sylow $p$-subgroup $P$ of $H$ there exists a Sylow $p$-subgroup $Q$ of $G$ such that $P = Q \cap H$.
 
@@ -707,7 +707,7 @@ This follows from Theorem 3 (b) applied to the subgroup $f(P_1)$ of $G_2$.
 
 (b) Let $P'$ be a Sylow $p$-subgroup of $H$. There exists an element $g \in G$ such that $gP'g^{-1} \subset Q$. As $H$ is normal, $P = gP'g^{-1}$ is contained in $H$ and hence in $Q \cap H$. As $Q \cap H$ is a $p$-subgroup of $H$ and $P$ is a Sylow $p$-subgroup of $H$, $P = Q \cap H$.
 
-#### Corollary 4 {#alg-i-s6-thm-3-cor-4 .statement}
+#### Corollary 4 {#alg-i-s6-thm-3-cor-4 .statement tag=05E8}
 
 Let $N$ be a normal subgroup of $G$. The image in $G/N$ of a Sylow $p$-subgroup of $G$ is a Sylow $p$-subgroup of $G/N$ and every Sylow $p$-subgroup of $G/N$ is obtained in this way.
 
@@ -715,7 +715,7 @@ Let $G' = G/N$ and $P'$ be the image in $G'$ of a Sylow $p$-subgroup $P$ of $G$.
 
 ### 7. FINITE NILPOTENT GROUPS
 
-#### Theorem 4 {#alg-i-s6-thm-4 .statement}
+#### Theorem 4 {#alg-i-s6-thm-4 .statement tag=05E9}
 
 Let $G$ be a finite group. The following conditions are equivalent:
 
@@ -728,7 +728,7 @@ Suppose (a) holds and let $P$ be a Sylow $p$-subgroup of $G$. If $N$ is the norm
 
 Suppose (c) holds and let $I$ be the set of prime numbers dividing $\mathrm{Card}(G)$. For all $p \in I$, let $P_p$ be a normal Sylow $p$-subgroup of $G$. For all $p \neq q$, $P_p \cap P_q$ is reduced to $e$ for it is both a $p$-group and a $q$-group, hence $P_p$ and $P_q$ centralize one another ($§ 4$, no. 9, Proposition 15). Let $\phi$ be the canonical homomorphism ($§ 4$, no. 9, Proposition 12) of $\prod_{p \in I} P_p$ into $G$. The homomorphism $\phi$ is surjective by the Remark of no. 6. As $\mathrm{Card}\left(\prod_{p \in I} P_p\right) = \mathrm{Card}(G)$, it follows that $\phi$ is bijective.
 
-#### Remark {#alg-i-s6-n7-rem-1 .statement}
+#### Remark {#alg-i-s6-n7-rem-1 .statement tag=05EA}
 
 (1) Let G be a finite group and $p$ a prime number. By no. 6, Theorem 3 (a) and no. 6, Theorem 2, the following conditions are equivalent:
 (i) there exists a normal Sylow $p$-subgroup of G;
@@ -739,7 +739,7 @@ Suppose (c) holds and let $I$ be the set of prime numbers dividing $\mathrm{Card
 
 (3) Applied to commutative groups, Theorem 4 gives the decomposition, of commutative finite groups as a product of primary components, which will be studied from another point of view in Chapter VII.
 
-#### Example {#alg-i-s6-n7-exa-1 .statement}
+#### Example {#alg-i-s6-n7-exa-1 .statement tag=05EB}
 
 The group $\mathfrak{S}_3$ is of order 6. It contains a normal Sylow 3-subgroup of order 3: the group $A_3$. It contains three Sylow 2-subgroups of order 2: the groups $\{e, \tau\}$, where $\tau$ is a transposition. The group $\mathfrak{S}_3$ is thus not nilpotent.
 

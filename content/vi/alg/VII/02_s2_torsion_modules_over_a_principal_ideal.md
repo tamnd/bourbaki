@@ -30,7 +30,7 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: 80f0157003e517eb006f7aa67e605f2fa8b7c12ef86a07926a8a055895f8859f
+content_sha256: deef011b93e259e56c86a1d8f3c37e9860b8d235f09a0110909736c008d01dd1
 translated_from: content/en/alg/VII/02_s2_torsion_modules_over_a_principal_ideal.md
 source_content_sha256: 78e281d15c49979fbcb148265398137859535dae478a95080b8925131e3b224f
 translation_model: gpt-5.4-mini
@@ -48,7 +48,7 @@ Cho $A$ là một vành và $(b_i)_{i \in I}$ là một phân tích trực tiế
 
 Với mọi $A$-môđun trái $M$, ký hiệu $M_i$ tập hợp các $m \in M$ sao cho $b_i m = 0$; vì $b_i$ là một iđêan hai phía, đây là một môđun con của $M$; hơn nữa, nếu $a, b \in A$ và $a - b \in b_i$, thì các phép vị tự $a_{M_i}$ và $b_{M_i}$ trùng nhau; do đó tồn tại một cấu trúc $(A/b_i)$-môđun duy nhất trên $M_i$ sao cho cấu trúc $A$-môđun của $M_i$ là cảm sinh qua đồng cấu $A \to A/b_i$.
 
-#### Mệnh đề 1 {#alg-vii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#alg-vii-s2-prop-1 .statement tag=0724}
 
 Môđun $A$-môđun $M$ là tổng trực tiếp của các môđun con $M_i$.
 
@@ -60,19 +60,19 @@ $$
 
 và các $p_i$ tạo thành một họ trực giao các phép chiếu có tổng là đồng nhất (II, p. 209, Định nghĩa 7). Theo *loc. cit.*, Mệnh đề 12, môđun M là tổng trực tiếp của các môđun con $p_i(M) = e_iM$. Ngoài ra $e_iM$ bị triệt tiêu bởi $b_i = A(1 - e_i)$; nếu $i \neq j$ và $m \in M$ thì $(1 - e_i)e_jm = e_jm$, do đó không có phần tử khác không nào của $e_jM$ bị triệt tiêu bởi $1 - e_i$, và vì thế a fortiori bởi $b_i$. Suy ra $e_iM = M_i$, và mệnh đề được chứng minh.
 
-#### Nhận xét 1 {#alg-vii-s2-n1-rem-1 .statement}
+#### Nhận xét 1 {#alg-vii-s2-n1-rem-1 .statement tag=0725}
 
 Ngược lại, cho $M'_i$ là một $(A/b_i)$-môđun với mỗi i, và xét A-môđun M, là tổng trực tiếp của các A-môđun $M'_i$; khi đó các môđun con $M_i$ được xây dựng ở trên trùng với các $M'_i$ (chỉ cần lưu ý rằng nếu $i \neq j$ thì không có phần tử khác không nào của $M'_j$ bị triệt tiêu bởi $b_i$ vì $b_i + b_j = A$). Do đó, nói một cách đại khái, việc xét một A-môđun M hay một họ $(M_i)$ các môđun trên các vành $A/b_i = A_i$ là cùng một chuyện.
 
-#### Nhận xét 2 {#alg-vii-s2-n1-rem-2 .statement}
+#### Nhận xét 2 {#alg-vii-s2-n1-rem-2 .statement tag=0726}
 
 Theo chứng minh trên, các phép chiếu của M lên các thành phần $M_i$ là các phép vị tự.
 
-#### Nhận xét 3 {#alg-vii-s2-n1-rem-3 .statement}
+#### Nhận xét 3 {#alg-vii-s2-n1-rem-3 .statement tag=0727}
 
 A-môđun M là đơn sinh khi và chỉ khi mỗi $M_i$ là đơn sinh: nếu $M = Am$, thì $M_i = A_i e_i m$; ngược lại nếu $M_i = A_i m_i$ và $m = \sum_{i \in I} m_i$, thì $M = Am$; quả vậy, nếu $n \in M$ chiếu xuống $a_i m_i$ với mỗi i, và nếu $a \in A$ đồng dư với $a_i$ mod $b_i$ với mỗi i, thì am và n có cùng ảnh trong từng $M_i$, nên trùng nhau.
 
-#### Nhận xét 4 {#alg-vii-s2-n1-rem-4 .statement}
+#### Nhận xét 4 {#alg-vii-s2-n1-rem-4 .statement tag=0728}
 
 Cho M và N là hai A-môđun, với các thành phần $(M_i)$ và $(N_i)$. Cho $u \in \mathrm{Hom}_A(M, N)$ là một ánh xạ A-tuyến tính từ M đến N; khi đó với mọi i và với mọi $m \in M_i$ ta có $u(m) \in N_i$, nên u cảm sinh một ánh xạ $A_i$-tuyến tính $u_i \in \mathrm{Hom}_{A_i}(M_i, N_i)$. Dễ kiểm tra rằng ánh xạ $u \mapsto (u_i)$ là một đẳng cấu của Z-môđun (tương ứng của A-môđun khi A giao hoán)
 
@@ -84,13 +84,13 @@ $$
 
 Cho M là một môđun trên một vành giao hoán A. Với mỗi $a \in A$ hãy ký hiệu $M(\alpha)$ là hạt nhân của tự đồng cấu $x \mapsto \alpha x$ của M. Nếu $a$ và $\beta$ là hai phần tử của A sao cho $\alpha$ chia $\beta$, thì rõ ràng $M(a) \subset M(\beta)$. Đặc biệt, khi n chạy qua tập các số nguyên $\geq 1$, các môđun con $M(\alpha^n)$ tạo thành một dãy tăng; hợp $M$, của các $M(\alpha^n)$ do đó là một môđun con của M, gồm những phần tử của M bị triệt tiêu bởi một lũy thừa nào đó của a. Với mỗi môđun con N của M, rõ ràng $N_1 = N \cap M_a$.
 
-#### Định nghĩa 1 {#alg-vii-s2-def-1 .statement}
+#### Định nghĩa 1 {#alg-vii-s2-def-1 .statement tag=0729}
 
 Cho $\pi$ là một phần tử bất khả quy của một miền iđêan chính A; một A-môđun M được gọi là rr-nguyên sơ *nếu*, với mọi $x \in M$, tồn tại một số nguyên $n \geq 1$ sao cho $\pi^n x = 0$ (nói cách khác, nếu M bằng với môđun con $M_\pi$).
 
 Rõ ràng mọi môđun đơn sinh có dạng $A/(\pi^s)$ đều là rr-nguyên sơ. Với một A-môđun M tùy ý, môđun con $M_\pi$ là rr-nguyên sơ.
 
-#### Bổ đề 1 {#alg-vii-s2-lem-1 .statement}
+#### Bổ đề 1 {#alg-vii-s2-lem-1 .statement tag=072A}
 
 Cho M là một môđun trên một miền iđêan chính A; với mọi $a \in A$ sao cho $a \neq 0$, cho $\alpha = \varepsilon \sum_{i=1}^r \pi_i^{n(i)}$ là một phân tích của $\alpha$ thành các nhân tử bất khả quy (VII, p. 4). Môđun con $N = M(a)$ gồm các phần tử của M bị a triệt tiêu là tổng trực tiếp của các môđun con $M(\pi_i^{n(i)})$, và ánh xạ gửi mỗi $x \in M(\alpha)$ tới thành phần của nó trong $M(\pi_i^{n(i)})$ có dạng $x \mapsto \gamma_i x \ (\gamma_i \in A)$. Hơn nữa
 $$
@@ -98,29 +98,29 @@ M(\pi_i^{n(i)}) = N \cap M_{\pi_i} = N_{\pi_i}
 $$
 Trước hết chú ý rằng N bị a triệt tiêu, nên có một cấu trúc $A/(\alpha)$-môđun tự nhiên. Theo Mệnh đề 4 của VII, p. 3, đồng cấu chính tắc từ $A/(\alpha)$ vào tích của các vành $A/(\pi_i^{n(i)})$ là một đẳng cấu vành; nay áp dụng Mệnh đề 1 của VII, p. 6, ta suy ra rằng N là tổng trực tiếp của các $M(\pi_i^{n(i)})$; các phép chiếu của phân tích này là các phép nhân vô hướng, theo VII, p. 7, Nhận xét 2. Sự bao hàm $M(\pi_i^{n(i)}) \subset M(\alpha) \cap M_{\pi_i}$ là hiển nhiên; ngược lại, cho $x \in M(\alpha) \cap M_{\pi_i}$. Khi đó tồn tại một lũy thừa $\pi_i^s$ của $\pi_i$ triệt tiêu x; ta có thể giả sử $s \geq n(i)$; theo đẳng thức Bezout, tồn tại $\lambda, \mu \in A$ sao cho $\pi_i^{n(i)} = \lambda \pi_i^s + pa$, do đó $\pi_i^{n(i)} x = 0$ và suy ra cuối cùng $x \in M(\pi_i^{n(i)})$.
 
-#### Bổ đề 2 {#alg-vii-s2-lem-2 .statement}
+#### Bổ đề 2 {#alg-vii-s2-lem-2 .statement tag=072B}
 
 Cho M là một môđun xoắn (II, p. 313) trên một miền nguyên A. Với mọi họ hữu hạn $(x_i)_{1 \leq i \leq n}$ các phần tử của M, tồn tại một phần tử $\gamma \neq 0$ trong A sao cho mọi $x_i$ đều thuộc $M(\gamma)$.
 Thật vậy, với mỗi chỉ số i tồn tại một phần tử $\alpha_i \neq 0$ trong A triệt tiêu $x_i$, và phần tử $\gamma = \prod_{i=1}^n \alpha_i$ sẽ thỏa mãn yêu cầu.
 
-#### Định lý 1 {#alg-vii-s2-thm-1 .statement}
+#### Định lý 1 {#alg-vii-s2-thm-1 .statement tag=072C}
 
 Cho M là một môđun xoắn trên một miền iđêan chính A; với mỗi phần tử bất khả quy $\pi$ của A, cho $M_\pi$ là môđun con của M gồm các phần tử bị triệt tiêu bởi một lũy thừa nào đó của $\pi$. Nếu P là một hệ đại diện của các phần tử bất khả quy của A, thì M là tổng trực tiếp của các môđun con $M_\pi$ với $\pi \in P$.
 Mọi phần tử $x \in M$ đều thuộc môđun con $M(\alpha)$ với một $a \neq 0$, nên theo Bổ đề 1 là một tổng của hữu hạn phần tử, mỗi phần tử lại thuộc một môđun con $M_\pi$. Mặt khác, nếu $\sum_{\pi \in P} x_\pi = \sum_{\pi \in P} y_\pi$, trong đó $x_\pi, y_\pi \in M_\pi$ với mọi $\pi \in P$, và trong đó tất cả trừ hữu hạn các $x_\pi$ và $y_\pi$ đều bằng không, thì Bổ đề 2 cho thấy tồn tại $\gamma \neq 0$ trong A sao cho tất cả các $x_\pi$ và $y_\pi$ đều thuộc cùng một môđun con $M(\gamma)$; áp dụng Bổ đề 1 cho $M(\gamma)$ cho thấy $x_\pi = y_\pi$ với mọi $\pi \in P$, điều đó hoàn tất chứng minh.
 
 Rõ ràng, nếu $\pi$ và $\pi'$ là hai phần tử bất khả quy liên kết, thì $M_\pi = M_{\pi'}$; do đó, với một môđun M cho trước, môđun con $M_\pi$ chỉ phụ thuộc vào iđêan $(\pi)$ của A; nó được gọi là thành phần rr-nguyên sơ của môđun M, và phân tích của M thành tổng trực tiếp của các $M_\pi$ được gọi là phân tích chính tắc của M thành tổng trực tiếp các thành phần rr-nguyên sơ của nó.
 
-#### Hệ quả 1 {#alg-vii-s2-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-vii-s2-thm-1-cor-1 .statement tag=072D}
 
 — *Mọi môđun con N của một môđun xoắn M đều là tổng trực tiếp của các môđun con $N \cap M_\pi$.*
 Điều này suy ra từ sự kiện rằng $N \cap M_\pi$ là thành phần π-nguyên sơ $N_\pi$ của N.
 
-#### Hệ quả 2 {#alg-vii-s2-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-vii-s2-thm-1-cor-2 .statement tag=072E}
 
 — *Môđun con N của môđun xoắn A-môđun M là một nhân tử trực tiếp khi và chỉ khi $N_\pi$ là một nhân tử trực tiếp của $M_\pi$, với mọi phần tử bất khả quy π của A.*
 Thật vậy, nếu N và N' là hai môđun con của M, thì M = N ⊕ N' khi và chỉ khi $M_\pi = N_\pi \oplus N'_\pi$ với mọi phần tử bất khả quy π của $\mathscr{A}$ (Hệ quả 1).
 
-#### Hệ quả 3 {#alg-vii-s2-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-vii-s2-thm-1-cor-3 .statement tag=072F}
 
 — *Cho N là một môđun con của môđun xoắn A-môđun M. Nếu, với mọi phần tử bất khả quy π của A, hoặc $N_\pi = 0$ hoặc $(M/N)_\pi = 0$, thì N là một nhân tử trực tiếp của M*.
 
@@ -128,7 +128,7 @@ Thật vậy, điều kiện $(M/N)_\pi = 0$ suy ra $N_\pi = M_\pi$, và Hệ qu
 
 Một A-môđun M được gọi là *nửa đơn* nếu mọi môđun con của M đều là một nhân tử trực tiếp (cf. A, VIII, § 3).
 
-#### Hệ quả 4 {#alg-vii-s2-thm-1-cor-4 .statement}
+#### Hệ quả 4 {#alg-vii-s2-thm-1-cor-4 .statement tag=072G}
 
 — *Cho A là một miền iđêan chính không phải là một trường, và cho M là một A-môđun. Khi đó M là nửa đơn khi và chỉ khi M là một môđun xoắn và $M_\pi = M(\pi)$ với mọi phần tử bất khả quy π của A*.
 
@@ -138,17 +138,17 @@ $$ Trước hết suy ra rằng M là một môđun xoắn; nếu hơn nữa $x 
 
 Ngược lại, theo Hệ quả 2 là đủ để chứng minh rằng một A-môđun M bị triệt tiêu bởi một phần tử bất khả quy π là nửa đơn; nhưng điều đó hiển nhiên, vì khi đó M có một cấu trúc tự nhiên của một không gian vectơ trên trường $\mathscr{A}/(\pi)$, và các môđun con của M chính xác là các không gian vectơ con theo cấu trúc này.
 
-#### Nhận xét 1 {#alg-vii-s2-n2-rem-1 .statement}
+#### Nhận xét 1 {#alg-vii-s2-n2-rem-1 .statement tag=072H}
 
 — Rõ ràng linh hóa tử của mọi phần tử khác 0 của một môđun nguyên sơ τ có dạng $A\pi^k$ ($k > 0$ là một số nguyên), vì nó là một iđêan chính chứa một lũy thừa của τ. Cho x là một phần tử của M; với mỗi $\pi \in P$, đặt $x_\pi$ là thành phần của x trong $M_\pi$; linh hóa tử của x là BCNN của các linh hóa tử của những $x_\pi$ khác không, nhưng theo trên thì trong trường hợp này nó bằng *tích* của các linh hóa tử của những $x_\pi$ khác không (VI, p. 16, Mệnh đề 12 (DIV)).
 
-#### Mệnh đề 2 {#alg-vii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#alg-vii-s2-prop-2 .statement tag=072I}
 
 — *Nếu M là một môđun xoắn sinh hữu hạn trên một miền iđêan chính A, thì các thành phần nguyên sơ n của M bằng không, trừ ra một số hữu hạn, và các phép chiếu của M lên các thành phần này $M_\pi$ là các phép vị tự*.
 
 Điều này suy ra ngay lập tức từ Bổ đề 1, vì theo Bổ đề 2 tồn tại $\alpha \neq 0$ trong $\mathscr{A}$ sao cho $M = M(\alpha)$.
 
-#### Nhận xét 2 {#alg-vii-s2-n2-rem-2 .statement}
+#### Nhận xét 2 {#alg-vii-s2-n2-rem-2 .statement tag=072J}
 
 — Theo VII, p. 7, Nhận xét 3, một A-môđun xoắn sinh hữu hạn là cyclic khi và chỉ khi mỗi thành phần nguyên sơ π của nó là cyclic.
 
@@ -156,7 +156,7 @@ Một trường hợp riêng quan trọng mà Định lý 1 và Mệnh đề 2 �
 
 ### 3. Ứng dụng : I. Các phân rã chính tắc của các số hữu tỉ và của các hàm hữu tỉ theo một ẩn
 
-#### Định lý 2 {#alg-vii-s2-thm-2 .statement}
+#### Định lý 2 {#alg-vii-s2-thm-2 .statement tag=072K}
 
 *Cho $A$ là một miền iđêan chính, cho $K$ là trường các phân số của nó và cho $P$ là một hệ đại diện của các phần tử bất khả quy của $A$. Với một phần tử $x \in K$, tồn tại một tập con hữu hạn $H$ của $P$, các phần tử $a_0 \in A$ và $a_p \in A$ không chia hết cho $p$ trong $A$ ($p \in H$), và các số nguyên $s(p) > 0$ ($p \in H$) sao cho*
 
@@ -220,7 +220,7 @@ $$
 \{1\} \to \mathrm{U}(2^n) \to (\mathbf{Z}/2^n\mathbf{Z})^* \to (\mathbf{Z}/4\mathbf{Z})^* \to \{1\}.
 $$
 
-#### Bổ đề 3 {#alg-vii-s2-lem-3 .statement}
+#### Bổ đề 3 {#alg-vii-s2-lem-3 .statement tag=072L}
 
 Cho x, y, k là các số nguyên với $k \geq 0$, và cho $p > 2$ là một số nguyên tố. Nếu $x \equiv 1 + py \mod p^2$ thì $x^{p^k} \equiv 1 + p^{k+1}y \mod p^{k+2}$. *Nếu* $x \equiv 1 + 4y \mod 8$ thì $x^{2^k} \equiv 1 + 2^{k+2}y \mod 2^{k+3}$.
 
@@ -243,13 +243,13 @@ $$
 $$
 do đó mệnh đề thứ hai theo quy nạp theo k.
 
-#### Mệnh đề 3 {#alg-vii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#alg-vii-s2-prop-3 .statement tag=072M}
 
 Cho $p > 2$ là một số nguyên tố và cho $n > 0$ là một số nguyên; khi đó nhóm $U(p^n)$ là cyclic cấp $p^{n-1}$; nếu $n \geq 2$ thì lớp thặng dư mod $p^n$ của một số nguyên $x$ đồng dư với 1 mod $p$ là một phần tử sinh của $U(p^n)$ khi và chỉ khi $x$ không đồng dư với 1 mod $p^2$. Cho $m > 1$ là một số nguyên; khi đó nhóm $U(2^m)$ là cyclic cấp $2^{m-2}$; nếu $m \geq 3$ thì lớp thặng dư mod $2^m$ của một số nguyên $x$ đồng dư với 1 mod 4 là một phần tử sinh của $U(2^m)$ khi và chỉ khi $x$ không đồng dư với 1 mod 8.
 
 Vì $U(p^n)$ có cấp $p^{n-1}$, cấp của mọi phần tử $u$ của $U(p^n)$ là một lũy thừa của $p$, và $u$ là một phần tử sinh của $U(p^n)$ khi và chỉ khi $u^{p^{n-2}} \neq 1$. Khi đó, nếu $u$ là lớp của $x = 1 + py$, thì $u^{p^{n-2}}$ là lớp của $1 + p^{n-1}y$, theo Bổ đề 3, do đó $u$ sinh ra $U(p^n)$ khi và chỉ khi $y \not\equiv 0 \mod p$, nói cách khác $x \not\equiv 1 \mod p^2$. Chẳng hạn, lớp $1 + p$ sinh ra $U(p^n)$. Tương tự, lớp $u$ của $x$ mod $2^n$ sinh ra $U(2^n)$ khi và chỉ khi $u^{2^{n-3}} \neq 1$, tức là $x$ không đồng dư với 1 mod 8, theo Bổ đề 3; điều này được thỏa bởi $x = 5$.
 
-#### Bổ đề 4 {#alg-vii-s2-lem-4 .statement}
+#### Bổ đề 4 {#alg-vii-s2-lem-4 .statement tag=072N}
 
 Cho $A$ là một miền iđêan chính và cho $0 \to N \to M \to P \to 0$ là một dãy khớp các $A$-môđun. Giả sử tồn tại các phần tử nguyên tố cùng nhau $a, b \in A$ sao cho $aN = 0$ và $bP = 0$. Khi đó dãy khớp tách ra. Nếu thêm vào đó $N$ và $P$ đều là môđun cyclic, thì $M$ cũng là môđun cyclic.
 
@@ -257,13 +257,13 @@ Cho $A$ là một miền iđêan chính và cho $0 \to N \to M \to P \to 0$ là 
 
 Môđun $M$ là xoắn, vì $abM = 0$. Khẳng định đầu tiên suy ra từ Hệ quả 3 của VII, p. 9. Nếu $N$ và $P$ là cyclic, thì chúng sinh hữu hạn, và do đó $M$ cũng sinh hữu hạn (II, p. 17, Hệ quả 5); vì mỗi thành phần $p$-nguyên sơ của $M$ đẳng cấu với một thành phần $p$-nguyên sơ hoặc của $N$ hoặc của $P$, suy ra từ Nhận xét 2 của VII, p. 10 rằng $M$ là cyclic.
 
-#### Định lý 3 {#alg-vii-s2-thm-3 .statement}
+#### Định lý 3 {#alg-vii-s2-thm-3 .statement tag=072O}
 
 Nếu $a = \prod p_i^{n(i)}$ là phân tích thành thừa số nguyên tố của số nguyên $a > 1$, thì nhóm $(\mathbf{Z}/a\mathbf{Z})^*$ gồm các phần tử khả nghịch của vành $\mathbf{Z}/a\mathbf{Z}$ đẳng cấu với tích của các nhóm $(\mathbf{Z}/p_i^{n(i)}\mathbf{Z})^*$. Nếu $p > 2$ là một số nguyên tố và $n \geq 1$ là một số nguyên, thì nhóm $(\mathbf{Z}/p^n\mathbf{Z})^*$ là cyclic cấp $p^n \ ^1(p - 1)$. Nhóm $(\mathbf{Z}/2\mathbf{Z})^*$ là tầm thường; với $n \geq 2$ nhóm $(\mathbf{Z}/2^n\mathbf{Z})^*$ là tích trực tiếp của nhóm cyclic cấp $2^n \ ^2$ sinh bởi lớp thặng dư của 5 mod $2^n$ và nhóm cyclic cấp 2 gồm các lớp thặng dư của 1 và $-1$ mod $2^n$.
 
 Các cấp $p^n \ ^1$ của $U(p^n)$ và $p - 1$ của $(\mathbf{Z}/p\mathbf{Z})^*$ nguyên tố cùng nhau; vì $U(p^n)$ và $(\mathbf{Z}/p\mathbf{Z})^*$ là cyclic (Mệnh đề 3 và V, p. 78, Bổ đề 1), nhóm $(\mathbf{Z}/p^n\mathbf{Z})^*$ là cyclic (áp dụng Bổ đề 4 cho dãy khớp (3)). Nếu $n \geq 2$ thì hạn chế của đồng cấu $v : (\mathbf{Z}/2^n\mathbf{Z})^* \to (\mathbf{Z}/4\mathbf{Z})^*$ lên nhóm con $(1, -1)$ là song ánh; do đó nhóm $(\mathbf{Z}/2^n\mathbf{Z})^*$ là tích trực tiếp của nhóm con này và hạt nhân $U(2^n)$ của $v$; kết quả suy ra từ Mệnh đề 3.
 
-#### Nhận xét {#alg-vii-s2-n4-rem-1 .statement}
+#### Nhận xét {#alg-vii-s2-n4-rem-1 .statement tag=072P}
 
 Cho $p > 2$ là một số nguyên tố và cho $x$ là một số nguyên đồng dư với 1 mod $p$ và không đồng dư với 1 mod $p^2$; có một dãy khớp
 

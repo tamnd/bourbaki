@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: f841f14aad3965c1a3478873c50767b2e22aa9d8062e32b53d2eda1506f514f6
+content_sha256: 1f6d4e7c65b4da7e9c1e9d90c2614ae0d814e383d80531c92d3f14844d284164
 translated_from: content/en/int/III/01_s1_measures_on_a_locally_compact_space.md
 source_content_sha256: 7a621ccaf41aa9696a8e26acf7ca61fbadd6582267dd5d90d4a9b8e5b4e6599f
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
@@ -66,7 +66,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các hàm liên tục có giá đỡ compact
 
-#### Định nghĩa 1 {#int-iii-s1-def-1 .statement}
+#### Định nghĩa 1 {#int-iii-s1-def-1 .statement tag=08L4}
 
 — Cho X là một không gian tôpô, E là hoặc $\overline{\mathbf{R}}$ hoặc một không gian vectơ trên $\mathbf{R}$, và f là một ánh xạ từ X vào E. Tập đóng nhỏ nhất S trong X sao cho $f(x) = 0$ trên $X - S$ (nói cách khác, bao đóng trong X của tập hợp mọi $x \in X$ sao cho $f(x) \neq 0$) được gọi là giá đỡ của f và được ký hiệu là Supp(f).
 
@@ -80,7 +80,7 @@ bởi các nửa chuẩn $f \mapsto \sup_{x \in K} p_n(f(x))$ (tương ứng, ch
 
 Không gian $\mathscr{K}(X; E)$ là hợp của họ tăng có hướng các không gian con $\mathscr{K}(X, K; E)$, trong đó $K$ chạy qua tập hợp các tập con compact của $X$; hơn nữa, nếu $K_1 \subset K_2$ là hai tập con compact của $X$, thì đơn ánh chính tắc $\mathscr{K}(X, K_1; E) \to \mathscr{K}(X, K_2; E)$ là liên tục đối với các tôpô đã xác định ở trên. Nếu $E$ là *lồi địa phương*, do đó ta có thể định nghĩa trên $\mathscr{K}(X; E)$ *giới hạn trực tiếp*² của các tôpô lồi địa phương của các $\mathscr{K}(X, K; E)$ (TVS, II, §4, No. 4); trừ khi nói rõ ngược lại, đây sẽ luôn luôn là tôpô đang xét khi ta xem $\mathscr{K}(X; E)$ như một không gian vectơ tôpô.
 
-#### Mệnh đề 1 {#int-iii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#int-iii-s1-prop-1 .statement tag=08L5}
 
 *Cho $X$ là một không gian compact địa phương, $E$ là một không gian Hausdorff lồi địa phương.*
 
@@ -100,7 +100,7 @@ từ X vào E sao cho $\mathrm{pr}_i \circ f'_i = f_i$ và $\mathrm{pr}_j \circ 
 
 (iii) Mỗi tập compact K của X chỉ cắt các $X_\lambda$ của một họ con hữu hạn $(X_\lambda)_{\lambda \in H}$ của $(X_\lambda)_{\lambda \in L}$, và ngay lập tức thấy rằng nếu đặt $K_\lambda = K \cap X_\lambda$ với $\lambda \in H$, thì ánh xạ $f \mapsto (f|X_\lambda)_{\lambda \in H}$ là một đẳng cấu từ $\mathscr{K}(X, K; E)$ lên $\prod_{\lambda \in H} \mathscr{K}(X_\lambda, K_\lambda; E)$. Ngược lại, với mọi hàm $f_\lambda \in \mathscr{K}(X_\lambda; E)$, gọi $f''_\lambda$ là ánh xạ từ X vào E sao cho $f''_\lambda|X_\lambda = f_\lambda$ và $f''_\lambda|X_\mu = 0$ nếu $\mu \neq \lambda$; ngay lập tức thấy rằng ánh xạ $f_\lambda \mapsto f''_\lambda$ từ $\mathscr{K}(X_\lambda; E)$ vào $\mathscr{K}(X; E)$ là liên tục. Mệnh đề (iii) suy ra từ các nhận xét này và tiêu chuẩn về tính liên tục trong các giới hạn trực tiếp (TVS, II, §4, No. 4, Prop. 5).
 
-#### Mệnh đề 2 {#int-iii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#int-iii-s1-prop-2 .statement tag=08L6}
 
 — *Cho X là một không gian địa phương compact, E là một không gian lồi địa phương Hausdorff.*
 
@@ -120,7 +120,7 @@ $X$ (không paracompact) sao cho tồn tại những tập trong $\mathscr{K}(X;
 
 Ta nhắc lại rằng, theo định lý Ascoli (GT, X, §2, No. 5, Cor. 3 of Th. 2), một tập con compact ngặt $H$ của $\mathscr{K}(X; E)$ được chứa trong $\mathscr{K}(X, K; E)$ được đặc trưng bởi các điều kiện sau đây: $1^\circ$ nó đóng; $2^\circ$ nó đồng liên tục; $3^\circ$ với mọi $x \in K$, tập $H(x)$ là tương đối compact trong $E$.
 
-#### Hệ quả {#int-iii-s1-n1-cor-1 .statement}
+#### Hệ quả {#int-iii-s1-n1-cor-1 .statement tag=08L7}
 
 *Cho $X$ là một không gian paracompact, địa phương compact; nếu $E$ là một không gian lồi địa phương quasi-đầy đủ, thì không gian $\mathscr{K}(X; E)$ là quasi-đầy đủ.*
 
@@ -128,13 +128,13 @@ Chỉ cần, theo Mệnh đề 2, (ii), chú ý rằng với mọi tập compact
 
 ### 2. Các tính chất xấp xỉ
 
-#### Bổ đề 1 {#int-iii-s1-lem-1 .statement}
+#### Bổ đề 1 {#int-iii-s1-lem-1 .statement tag=08L8}
 
 *Cho $X$ là một không gian địa phương compact, $K$ là một tập con compact của $X$, và $(V_k)_{1 \leq k \leq n}$ là một phủ hữu hạn của $K$ bởi các tập mở của $X$. Khi đó, tồn tại $n$ ánh xạ liên tục $f_k$ từ $X$ vào $[0, 1]$, sao cho giá của $f_k$ được chứa trong $V_k$ với $1 \leq k \leq n$ và sao cho $\sum_{k=1}^n f_k(x) \leq 1$ với mọi $x \in X$ và $\sum_{k=1}^n f_k(x) = 1$ với mọi $x \in K$.
 
 Thật vậy, gọi $X'$ là không gian compact thu được bằng cách thêm vào $X$ một điểm ở vô cực $\omega$ (GT, I, §9, No. 8, Đl. 4); các tập hợp $V_0 = X' - K$ và $V_k$ ($1 \leq k \leq n$) tạo thành một phủ mở của $X'$. Gọi $(f_k)_{0 \leq k \leq n}$ là một phân hoạch đơn vị liên tục phụ thuộc phủ này của $X'$ (GT, IX, §4, No. 3, Mệnh đề 3); các hàm $f_k$ với chỉ số $k \geq 1$ thỏa mãn các điều kiện của bổ đề.
 
-#### Bổ đề 2 {#int-iii-s1-lem-2 .statement}
+#### Bổ đề 2 {#int-iii-s1-lem-2 .statement tag=08L9}
 
 *Cho $X$ là một không gian địa phương compact, $K$ là một tập con compact của $X$, $E$ là một không gian lồi địa phương, $q$ là một nửa chuẩn liên tục trên $E$, và $\Phi$ là một tập hợp đồng liên tục các ánh xạ từ $X$ vào $E$ mà các giá được chứa trong $K$. Khi đó, với mọi $\varepsilon > 0$, tồn tại một phân hoạch đơn vị liên tục $(\varphi_j)_{0 \leq j \leq n}$ trên $X$ có các tính chất sau:
 (i) $\operatorname{Supp}(\varphi_j) \subset K$ với $1 \leq j \leq n$.
@@ -164,7 +164,7 @@ $$
 $$
 Hơn nữa, không gian định chuẩn được xác định như vậy là một không gian Banach (GT, X, §3, No. 2, và No. 1, Hệ quả 2 của Mệnh đề 2); tôpô được xác định bởi chuẩn này trên $\mathscr{K}(X; E)$ (nói cách khác, tôpô hội tụ đều trong $X$) thô hơn tôpô giới hạn trực tiếp trên $\mathscr{K}(X; E)$ được xác định trong No. 1.
 
-#### Mệnh đề 3 {#int-iii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#int-iii-s1-prop-3 .statement tag=08LA}
 
 — Cho $X$ là một không gian compact địa phương, $X'$ là không gian compact thu được bằng cách thêm vào $X$ một điểm ở vô cực $\omega$ (GT, I, §9, No. 8,
 
@@ -174,13 +174,13 @@ Cho $f \in C^b(X;E)$ là một hàm thuộc bao đóng của $\mathscr{K}(X;E)$;
 
 Ta sẽ ký hiệu bởi $C^0(X;E)$ không gian con của $C^b(X;E)$ tạo bởi các hàm dần tới không tại điểm ở vô cực $\omega$; do đó nó là phần bù của không gian định chuẩn $\mathscr{K}(X;E)$.
 
-#### Mệnh đề 4 {#int-iii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#int-iii-s1-prop-4 .statement tag=08LB}
 
 — Cho X là một không gian compact địa phương, E là một không gian lồi địa phương; khi đó, không gian $\mathscr{K}(X;E)$ là trù mật trong $C(X;E)$ đối với tôpô hội tụ compact.
 
 Với mỗi tập compact $K \subset X$, tồn tại một hàm $h \in \mathscr{K}(X;\mathbf{R})$ bằng 1 trên K, theo Bổ đề 1; với mỗi hàm $f \in C(X;E)$ hàm $hf$, thuộc $\mathscr{K}(X;E)$, bằng f trên K, do đó có mệnh đề của ta.
 
-#### Mệnh đề 5 {#int-iii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#int-iii-s1-prop-5 .statement tag=08LC}
 
 — Cho X là một không gian compact địa phương, E là một không gian lồi địa phương thực (tương ứng phức). Với mỗi tập con compact K của X, không gian vectơ $\mathscr{K}(X,K;\mathbf{R}) \otimes_{\mathbf{R}} E$ (tương ứng $\mathscr{K}(X,K;\mathbf{C}) \otimes_{\mathbf{C}} E$) (được đồng nhất với một tập hợp các ánh xạ từ X vào E, cf. A, II, §7, No. 7, Hệ quả của Mệnh đề 15) là trù mật trong $\mathscr{K}(X,K;E)$; không gian vectơ $\mathscr{K}(X;\mathbf{R}) \otimes_{\mathbf{R}} E$ (tương ứng $\mathscr{K}(X;\mathbf{C}) \otimes_{\mathbf{C}} E$) là trù mật trong $\mathscr{K}(X;E)$.
 
@@ -194,7 +194,7 @@ trong đó các $\varphi_j$ thuộc $\mathscr{K}(X,K;\mathbf{R})$; vì ánh xạ
 
 ### 3. Định nghĩa một độ đo
 
-#### Định nghĩa 2 {#int-iii-s1-def-2 .statement}
+#### Định nghĩa 2 {#int-iii-s1-def-2 .statement tag=08LD}
 
 — *Một dạng tuyến tính liên tục trên* $\mathscr{K}(X; \mathbf{C})$, *X một không gian compact địa phương*, *được gọi là một độ đo* (hay *độ đo phức*) *trên X*.
 
@@ -208,7 +208,7 @@ $$
 
 Tổng quát hơn:
 
-#### Mệnh đề 6 {#int-iii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#int-iii-s1-prop-6 .statement tag=08LE}
 
 — *Cho X là một không gian compact địa phương, ($K_\alpha$) là một họ các tập con compact của X mà các phần trong $\overset{\circ}{K}_\alpha$ lập thành một phủ mở của X. Đối với một dạng tuyến tính $\mu$ trên $\mathscr{K}(X; \mathbf{C})$, để là một độ đo trên X, điều kiện cần và đủ là, với mỗi $\alpha$, tồn tại một số $M_\alpha$ sao cho*
 
@@ -224,7 +224,7 @@ Ta ký hiệu bởi $\mathscr{M}(X; \mathbf{C})$, hoặc đơn giản là $\math
 
 Ta biết rằng với mọi tập hợp $\mathscr{S}$ các tập con *bị chặn* của $\mathscr{K}(X;\mathbf{C})$, có xác định trên $\mathscr{M}(X;\mathbf{C})$ tôpô $\mathscr{S}$, tôpô này lồi địa phương (TVS, III, §3, No. 1, Hệ quả của Mệnh đề 1). Ta ký hiệu không gian vectơ tôpô thu được bằng cách trang bị cho $\mathscr{M}(X;\mathbf{C})$ tôpô $\mathscr{S}$ bởi $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ hoặc $\mathscr{M}_{\mathscr{S}}(X)$.
 
-#### Mệnh đề 7 {#int-iii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#int-iii-s1-prop-7 .statement tag=08LF}
 
 *Với mọi tập hợp $\mathscr{S}$ các tập con bị chặn của $\mathscr{K}(X;\mathbf{C})$ là một phủ của $\mathscr{K}(X;\mathbf{C})$, không gian $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ là Hausdorff và gần đầy đủ.*
 
@@ -278,7 +278,7 @@ $$
 
 từ $\mathscr C(\Gamma;\mathbf C)$ vào $\mathbf C$ là một dạng tuyến tính liên tục theo định lý giá trị trung bình, do đó là một *độ đo phức trên $\Gamma$*; tích phân đối với độ đo này cũng được viết là $\int_\Gamma f(z)\,dz$, mặc dù nó không những phụ thuộc vào $\Gamma$ mà còn phụ thuộc vào $g$.
 
-#### Nhận xét {#int-iii-s1-n3-rem-1 .statement}
+#### Nhận xét {#int-iii-s1-n3-rem-1 .statement tag=08LG}
 
 Việc cho một độ đo $\mu$ trên một không gian địa phương compắc X xác định trên X (cùng với tôpô của X) một cấu trúc $\mathscr S$. Cho $X_1$ là một tập hợp thứ hai, $\varphi$ là một ánh xạ song ánh từ X lên $X_1$; phù hợp với các định nghĩa tổng quát (S, R, §8), cấu trúc $\mathscr S_1$ thu được bằng cách *chuyển* lên $X_1$ cấu trúc $\mathscr S$ của X, nhờ $\varphi$, được xác định theo cách sau. Tôpô của X được chuyển sang $X_1$ bởi $\varphi$; khi đó các hàm của $\mathscr K(X_1;\mathbf C)$ là các hàm $f$ sao cho $f\circ\varphi$ thuộc $\mathscr K(X;\mathbf C)$, và độ đo $\mu_1$ trên $X_1$ được xác định bởi $\mu_1(f)=\mu(f\circ\varphi)$.
 
@@ -290,7 +290,7 @@ $$
 
 đối với mọi hàm $f\in\mathscr K(X;\mathbf C)$; khi đó độ đo $\mu$ cũng được gọi là *bất biến dưới đồng phôi* $\sigma$.
 
-#### Ví dụ {#int-iii-s1-n3-exa-1 .statement}
+#### Ví dụ {#int-iii-s1-n3-exa-1 .statement tag=08LH}
 
 Độ đo Lebesgue trên $\mathbf{R}$ là bất biến dưới mọi phép tịnh tiến của nhóm cộng $\mathbf{R}$. Thật vậy, với mọi hàm $f \in \mathscr{K}(\mathbf{R}; \mathbf{C})$ và mọi số thực $a$, ta có
 
@@ -366,7 +366,7 @@ $$
 
 Không gian $\mathscr{K}(X; \mathbf{R})$ gồm các hàm thực liên tục trên $X$ có giá compact hiển nhiên là một *không gian Riesz* đối với quan hệ thứ tự $f \leq g$. Ta sẽ nói rằng một độ đo thực $\mu$ trên $X$ là *dương* nếu $\mu(f) \geq 0$ với mọi hàm $f \geq 0$ thuộc $\mathscr{K}(X; \mathbf{R})$; do đó nó là một dạng tuyến tính dương trên không gian Riesz $\mathscr{K}(X; \mathbf{R})$ (Ch. II, §2, No. 1, Def. 1). Ngược lại:
 
-#### Định lý 1 {#int-iii-s1-thm-1 .statement}
+#### Định lý 1 {#int-iii-s1-thm-1 .statement tag=08LI}
 
 *Mọi dạng tuyến tính dương trên không gian Riesz $\mathscr{K}(X; \mathbf{R})$ đều là một độ đo thực (dương) trên $X$.*
 
@@ -374,7 +374,7 @@ Vì, cho $\mu$ là một dạng tuyến tính dương trên $\mathscr{K}(X; \mat
 
 Ta ký hiệu bởi $\mathscr{M}_+(X)$ nón lồi nhọn của các độ đo dương trên $X$ (hay, điều quy về cùng một điều, nón các dạng tuyến tính dương trên không gian Riesz $\mathscr{K}(X; \mathbf{R})$).
 
-#### Định lý 2 {#int-iii-s1-thm-2 .statement}
+#### Định lý 2 {#int-iii-s1-thm-2 .statement tag=08LJ}
 
 *Mọi độ đo thực trên một không gian địa phương compắc $X$ đều là hiệu của hai độ đo dương.*
 
@@ -382,7 +382,7 @@ Xét theo Định lý 1 và Ch. II, §2, No. 2, Th. 1, tất cả quy về việ
 
 Do đó, không gian $\mathscr{M}(X; \mathbf{R})$ các độ đo thực trên $X$ đồng nhất với không gian các dạng tuyến tính bị chặn tương đối trên không gian Riesz $\mathscr{K}(X; \mathbf{R})$; ta nhắc lại rằng trong $\mathscr{M}(X; \mathbf{R})$, quan hệ thứ tự $\mu \leq \nu$ có nghĩa là $\nu - \mu$ là một độ đo dương, hay cũng có nghĩa là $\mu(f) \leq \nu(f)$ với mọi hàm $f \in \mathscr{K}_+(X)$.
 
-#### Định lý 3 {#int-iii-s1-thm-3 .statement}
+#### Định lý 3 {#int-iii-s1-thm-3 .statement tag=08LK}
 
 *Không gian $\mathscr{M}(X; \mathbf{R})$ các độ đo thực trên một không gian địa phương compắc $X$ là một dàn đầy đủ.*
 
@@ -484,7 +484,7 @@ Suy ra từ (14), (15) và (16) rằng
 $$(17)$$
 $$|\mathscr{R}\mu| \leq |\mu|,\quad |\mathscr{I}\mu| \leq |\mu|,\quad |\mu| \leq |\mathscr{R}\mu| + |\mathscr{I}\mu|.$$
 
-#### Mệnh đề 8 {#int-iii-s1-prop-8 .statement}
+#### Mệnh đề 8 {#int-iii-s1-prop-8 .statement tag=08LL}
 
 *Nếu $\mu$ là một độ đo trên $X$ thì, với mọi hàm $h \in \mathscr{C}(X; \mathbf{C})$,*
 
@@ -497,7 +497,7 @@ Thật vậy, nếu $f \in \mathscr{K}_+(X)$ và nếu $g \in \mathscr{K}(X; \ma
 
 Cho $X$ là một không gian compact địa phương; nếu $V$ là một không gian con tuyến tính *trù mật* của $\mathscr{K}(X; \mathbf{C})$, thì rõ ràng là hai độ đo $\mu_1, \mu_2$ trên $X$ trùng nhau trên $V$ thì bằng nhau, và mọi dạng tuyến tính trên $V$ liên tục đối với tôpô cảm sinh bởi tôpô của $\mathscr{K}(X; \mathbf{C})$ đều có thể được mở rộng (chỉ theo một cách) thành một độ đo trên $X$. Đối với các độ đo dương, một tiêu chuẩn thuận tiện là như sau:
 
-#### Mệnh đề 9 {#int-iii-s1-prop-9 .statement}
+#### Mệnh đề 9 {#int-iii-s1-prop-9 .statement tag=08LM}
 
 *Cho $V$ là một không gian con tuyến tính của $\mathscr{K}(X; \mathbf{R})$ có tính chất sau:
 (P) Với mọi tập con compact $K$ của $X$, tồn tại một hàm $f \in V$ sao cho $f \geq 0$ và $f(x) > 0$ với mọi $x \in K$.
@@ -508,7 +508,7 @@ Với mọi hàm $f \in \mathscr{K}(X; \mathbf{R})$, có giá là $K$, tồn t�
 
 Cho X là một không gian compact địa phương. Vì tôpô trên $\mathscr{K}(X; \mathbf{C})$ cảm sinh bởi tôpô của $\mathscr{C}^b(X; \mathbf{C})$ là thô hơn tôpô giới hạn trực tiếp trên $\mathscr{K}(X; \mathbf{C})$, nên một độ đo trên X không nhất thiết liên tục đối với tôpô hội tụ đều trên X.
 
-#### Định nghĩa 3 {#int-iii-s1-def-3 .statement}
+#### Định nghĩa 3 {#int-iii-s1-def-3 .statement tag=08LN}
 
 *Một độ đo trên một không gian compact địa phương X được gọi là bị chặn nếu nó liên tục trên $\mathscr{K}(X; \mathbf{C})$ đối với tôpô hội tụ đều.*
 
@@ -532,7 +532,7 @@ $$
 
 Nếu X compact, thì mọi độ đo trên X đều bị chặn.
 
-#### Ví dụ {#int-iii-s1-n8-exa-1 .statement}
+#### Ví dụ {#int-iii-s1-n8-exa-1 .statement tag=08LO}
 
 — 1) Độ đo $\varepsilon_a$ được xác định bởi một khối lượng đơn vị tại một điểm $a \in X$ là bị chặn, và $\|\varepsilon_a\| = 1$.
 
@@ -564,7 +564,7 @@ $$
 $$
 đối với mọi độ đo $\mu$ trên $X$.
 
-#### Mệnh đề 10 {#int-iii-s1-prop-10 .statement}
+#### Mệnh đề 10 {#int-iii-s1-prop-10 .statement tag=08LP}
 
 — *Đối với mọi độ đo $\mu$ trên $X$*,
 
@@ -579,11 +579,11 @@ $$
 \sup_{0 \leq f \leq 1,\ f \in \mathscr{H}(X; \mathbf{R})} \left( \sup_{|g| \leq f,\ g \in \mathscr{H}(X; \mathbf{C})} |\mu(g)| \right) = \sup_{\|g\| \leq 1,\ g \in \mathscr{H}(X; \mathbf{C})} |\mu(g)|.
 $$
 
-#### Hệ quả 1 {#int-iii-s1-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#int-iii-s1-prop-10-cor-1 .statement tag=08LQ}
 
 — *Đối với mọi độ đo $\mu$ trên $X$, các chuẩn của $\mu$ và $|\mu|$ bằng nhau; $\mu$ bị chặn khi và chỉ khi $|\mu|$ bị chặn.*
 
-#### Hệ quả 2 {#int-iii-s1-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#int-iii-s1-prop-10-cor-2 .statement tag=08LR}
 
 — *Đối với mọi độ đo $\mu$ trên một không gian compact $X$*,
 
@@ -596,7 +596,7 @@ Công thức này sẽ được tổng quát hóa trong Ch. IV, §4, No. 7.
 
 Trên một không gian *compact* $X$, đối với mọi độ đo (phức) $\mu$ trên $X$, số phức $\mu(1)$ được gọi là *khối lượng toàn phần* của $\mu$. Khi $\mu$ là *dương*, khối lượng toàn phần của nó do đó bằng chuẩn của nó. Khi $\mu$ là một độ đo dương trên một không gian *compact* $X$, có khối lượng toàn phần bằng 1, người ta cũng nói rằng giá trị $\mu(f)$ của nó đối với một hàm liên tục $f \in \mathscr{C}(X; \mathbf{C})$ là *trung bình* của $f$ đối với độ đo $\mu$.
 
-#### Hệ quả 3 {#int-iii-s1-prop-10-cor-3 .statement}
+#### Hệ quả 3 {#int-iii-s1-prop-10-cor-3 .statement tag=08LS}
 
 — Đối với mọi độ đo thực $\mu$ trên một không gian địa phương compact $X$,
 
@@ -608,18 +608,18 @@ Chỉ cần dùng công thức (22) và biểu thức (9) của $|\mu|(f)$ khi $
 
 Do đó, tập hợp các độ đo thực bị chặn là đối ngẫu của không gian chuẩn $\mathscr{K}(X; \mathbf{R})$; nó được ký hiệu là $\mathscr{M}^1(X, \mathbf{R})$, hoặc $\mathscr{M}^1(X)$ nếu không thể có sự nhầm lẫn. Đơn ánh chính tắc $\mathscr{M}^1(X, \mathbf{R}) \to \mathscr{M}^1(X; \mathbf{C})$ là một đẳng cự theo (24).
 
-#### Mệnh đề 11 {#int-iii-s1-prop-11 .statement}
+#### Mệnh đề 11 {#int-iii-s1-prop-11 .statement tag=08LT}
 
 — Nếu $\mu$ và $\nu$ là hai độ đo dương trên $X$, thì $\| \mu + \nu \| = \| \mu \| + \| \nu \|$.
 
 Thật vậy, các hàm $f \in \mathscr{K}(X; \mathbf{R})$ sao cho $0 \leq f \leq 1$ tạo thành một tập có hướng $S$ đối với quan hệ $\leq$. Do đó, đối với một độ đo dương $\mu$ trên $X$, từ (22) và định lý giới hạn đơn điệu suy ra rằng $\| \mu \| = \lim_{f \in S} \mu(f)$; kết luận của mệnh đề khi đó suy ra ngay.
 
-#### Hệ quả 1 {#int-iii-s1-prop-11-cor-1 .statement}
+#### Hệ quả 1 {#int-iii-s1-prop-11-cor-1 .statement tag=08LU}
 
 — Nếu $\mu$ và $\nu$ là hai độ đo dương trên $X$ sao cho $\mu \leq \nu$, thì $\| \mu \| \leq \| \nu \|$; đặc biệt, nếu $\nu$ bị chặn thì $\mu$ cũng vậy.
 Thật vậy, $\| \nu \| = \| \mu \| + \| \nu - \mu \|$.
 
-#### Hệ quả 2 {#int-iii-s1-prop-11-cor-2 .statement}
+#### Hệ quả 2 {#int-iii-s1-prop-11-cor-2 .statement tag=08LV}
 
 — Với mọi độ đo thực $\mu$ trên $X$,
 
@@ -629,7 +629,7 @@ $$
 
 Theo (Hệ quả 1 của Mệnh đề 10), chuẩn của $\mu$ bằng chuẩn của $|\mu| = \mu^+ + \mu^-$.
 
-#### Mệnh đề 12 {#int-iii-s1-prop-12 .statement}
+#### Mệnh đề 12 {#int-iii-s1-prop-12 .statement tag=08LW}
 
 — Nếu $\mu$ là một độ đo bị chặn trên $X$ và nếu $g$ là một ánh xạ liên tục bị chặn từ $X$ vào $\mathbf{C}$, thì độ đo $g \cdot \mu$ bị chặn và $\| g \cdot \mu \| \leq \| g \| \cdot \| \mu \|$.
 
@@ -651,13 +651,13 @@ $$
 
 với mọi hàm $f \in \mathscr{K}(X; \mathbf{R})$. Với mọi hàm $f \in \mathscr{K}(X; \mathbf{C})$, ánh xạ $\mu \mapsto \mu(f)$ là một dạng tuyến tính *liên tục đối với tôpô mờ* trên không gian $\mathscr{M}(X; \mathbf{C})$.
 
-#### Mệnh đề 13 {#int-iii-s1-prop-13 .statement}
+#### Mệnh đề 13 {#int-iii-s1-prop-13 .statement tag=08LX}
 
 *Cho X là một không gian compact địa phương và, với mọi $x \in X$, ký hiệu $\varepsilon_x$ là độ đo Dirac tại điểm x. Ánh xạ $x \mapsto \varepsilon_x$ là một đồng phôi từ X lên một không gian con của không gian $\mathscr{M}(X; \mathbf{C})$ các độ đo trên X, được trang bị tôpô mờ. Hơn nữa, nếu $X'$ ký hiệu không gian compact thu được bằng cách thêm vào X một điểm ở vô cực $\omega$, thì $\varepsilon_x$ tiến tới 0 khi x tiến tới $\omega$.*
 
 Với mọi hàm $f \in \mathscr{K}(X; \mathbf{C})$, $\langle f, \varepsilon_x \rangle = f(x)$; vì $f$ liên tục, điều này chứng tỏ rằng ánh xạ $x \mapsto \varepsilon_x$ là liên tục. Nếu $x, y$ là hai điểm phân biệt của X, thì tồn tại một hàm $f \in \mathscr{K}(X; \mathbf{C})$ sao cho $f(x) = 1, f(y) = 0$ (No. 2, Bổ đề 1), điều này chứng tỏ rằng $\varepsilon_x \neq \varepsilon_y$; do đó ánh xạ $x \mapsto \varepsilon_x$ là đơn ánh. Hơn nữa, với mọi hàm $f \in \mathscr{K}(X; \mathbf{C})$, $\langle f, \varepsilon_x \rangle$ tiến tới 0 theo định nghĩa khi $x$ tiến tới $\omega$, do đó $x \mapsto \varepsilon_x$ có thể được mở rộng liên tục lên $X' = X \cup \{ \omega \}$ bằng cách gán cho nó giá trị 0 tại điểm $\omega$. Ánh xạ mở rộng này cũng là đơn ánh, vì $\varepsilon_x \neq 0$ với mọi $x \in X$. Vậy nó là một đồng phôi của không gian compact $X'$ lên một không gian con của $\mathscr{M}(X; \mathbf{C})$, vì $\mathscr{M}(X; \mathbf{C})$ là Hausdorff đối với tôpô vague (GT, I, §9, No. 4, Hệ quả 2 của Định lý 2).
 
-#### Mệnh đề 14 {#int-iii-s1-prop-14 .statement}
+#### Mệnh đề 14 {#int-iii-s1-prop-14 .statement tag=08LY}
 
 *Trong không gian $\mathscr{M}(X; \mathbf{C})$ các độ đo trên một không gian địa phương compact X, nón $\mathscr{M}_+(X)$ các độ đo dương là đầy đủ đối với cấu trúc đều suy ra từ tôpô vague* (do đó *đóng theo tôpô vague* trong $\mathscr{M}(X; \mathbf{C})$).
 
@@ -665,13 +665,13 @@ Thật vậy, xét một bộ lọc Cauchy $\Phi$ đối với cấu trúc đề
 
 Cần lưu ý rằng chính không gian $\mathscr{M}(X; \mathbf{C})$ (hoặc $\mathscr{M}(X; \mathbf{R})$) *không nhất thiết là đầy đủ* đối với cấu trúc đều vague (TVS, II, §6, No. 7).
 
-#### Hệ quả {#int-iii-s1-n9-cor-1 .statement}
+#### Hệ quả {#int-iii-s1-n9-cor-1 .statement tag=08LZ}
 
 *Nếu A và B là hai tập con đóng theo tôpô vague của $\mathscr{M}_+(X)$, thì $A + B$ đóng theo tôpô vague trong $\mathscr{M}_+(X)$ (do đó cũng đóng trong $\mathscr{M}(X; \mathbf{C})$).*
 
 Đây thực ra là một tính chất tổng quát của các nón đầy đủ yếu, thực sự trong các không gian lồi địa phương (TVS, II, §6, No. 8, Hệ quả 2 của Mệnh đề 11).
 
-#### Mệnh đề 15 {#int-iii-s1-prop-15 .statement}
+#### Mệnh đề 15 {#int-iii-s1-prop-15 .statement tag=08M0}
 
 — Cho $H$ là một tập con của $\mathscr{M}(X; \mathbf{C})$. Các tính chất sau là tương đương:
 
@@ -686,21 +686,21 @@ Hiển nhiên là d) kéo theo a). Cuối cùng, nếu $H$ đồng liên tục t
 
 \* Ta sẽ thấy trong Ch. IV, §4, No. 6 rằng các điều kiện của Mệnh đề 15 cũng tương đương với điều kiện sau đây: với mọi tập con compact $K$ của $X$, tồn tại một hằng $M_K$ sao cho $|\mu|(K) \leq M_K$ với mọi độ đo $\mu \in H$.*
 
-#### Hệ quả 1 {#int-iii-s1-prop-15-cor-1 .statement}
+#### Hệ quả 1 {#int-iii-s1-prop-15-cor-1 .statement tag=08M1}
 
 — Cho $\nu$ là một độ đo dương trên $X$; tập hợp các độ đo $\mu$ sao cho $|\mu| \leq \nu$ là compact theo tôpô mờ.
 
-#### Hệ quả 2 {#int-iii-s1-prop-15-cor-2 .statement}
+#### Hệ quả 2 {#int-iii-s1-prop-15-cor-2 .statement tag=08M2}
 
 — Tập hợp các độ đo $\mu$ sao cho $\|\mu\| \leq a$ ($a$ là một số hữu hạn bất kỳ $> 0$) là compact theo tôpô mờ.
 
-#### Hệ quả 3 {#int-iii-s1-prop-15-cor-3 .statement}
+#### Hệ quả 3 {#int-iii-s1-prop-15-cor-3 .statement tag=08M3}
 
 — Nếu $X$ compact, tập hợp các độ đo dương $\mu$ trên $X$ sao cho $\|\mu\| = 1$ là compact theo tôpô mờ.
 
 Thật vậy, đó là giao của tập compact theo tôpô mờ (Hệ quả 2) gồm các độ đo sao cho $\|\mu\| \leq 1$ và các tập đóng đối với tôpô mờ được xác định tương ứng bởi các hệ thức $\mu \geq 0$ và $\mu(1) = 1$ (No. 8, Hệ quả 2 của Mệnh đề 10).
 
-#### Hệ quả 4 {#int-iii-s1-prop-15-cor-4 .statement}
+#### Hệ quả 4 {#int-iii-s1-prop-15-cor-4 .statement tag=08M4}
 
 — Trong không gian $\mathscr{M}(X; \mathbf{C})$, ánh xạ $\mu \mapsto \|\mu\|$ là nửa liên tục dưới đối với tôpô mờ.
 
@@ -708,7 +708,7 @@ Thật vậy, đó là giao của tập compact theo tôpô mờ (Hệ quả 2) 
 
 Cần lưu ý rằng ánh xạ $\mu \mapsto |\mu|$ từ $\mathscr{M}(X; \mathbf{C})$ vào chính nó không nhất thiết liên tục đối với tôpô mờ (Bài tập 9).
 
-#### Mệnh đề 16 {#int-iii-s1-prop-16 .statement}
+#### Mệnh đề 16 {#int-iii-s1-prop-16 .statement tag=08M5}
 
 — Cho $K$ là một tập con compact của $X$, $H$ là một tập con bị chặn đối với tôpô mờ của $\mathscr{M}(X; \mathbf{C})$; khi đó, dạng song tuyến tính $(f, \mu) \mapsto \langle f, \mu \rangle$ là liên tục trên $\mathscr{K}(X, K; \mathbf{C}) \times H$ khi $\mathscr{K}(X, K; \mathbf{C})$ được trang bị tôpô hội tụ đều và $H$ được trang bị tôpô mờ.
 
@@ -727,7 +727,7 @@ và đại lượng cuối cùng nhỏ tùy ý khi $\|f - f_0\|$ và $|\mu(f_0) 
 
 Nhắc lại rằng tôpô của *hội tụ compact* trên $\mathscr{M}(X; \mathbf{C})$ là tôpô của hội tụ đều trên các tập con compact của $\mathscr{K}(X; \mathbf{C})$. Ta sẽ gọi *tôpô của hội tụ compact chặt* trên $\mathscr{M}(X; \mathbf{C})$ là tôpô của hội tụ đều trên các tập con compact chặt (No. 1) của $\mathscr{K}(X; \mathbf{C})$.
 
-#### Mệnh đề 17 {#int-iii-s1-prop-17 .statement}
+#### Mệnh đề 17 {#int-iii-s1-prop-17 .statement tag=08M6}
 
 *Trên không gian $\mathscr{M}(X; \mathbf{C})$, xét các tôpô sau:*
 $\mathscr{T}_1$: *tôpô của hội tụ từng điểm trên một tập con toàn phần T của $\mathscr{K}(X; \mathbf{C})$;*
@@ -742,7 +742,7 @@ Một tập con bị chặn mơ hồ $H$ của $\mathscr{M}(X; \mathbf{C})$ là 
 
 Nhắc lại rằng khi $X$ là *paracompact*, tôpô của sự hội tụ compắc chặt trùng với tôpô của sự hội tụ compắc (No. 1, Prop. 2).
 
-#### Mệnh đề 18 {#int-iii-s1-prop-18 .statement}
+#### Mệnh đề 18 {#int-iii-s1-prop-18 .statement tag=08M7}
 
 *Trên nón $\mathscr{M}_+(X)$, các tôpô cảm sinh bởi các tôpô sau đây trùng nhau:*
 $\mathscr{T}_1$: *tôpô của sự hội tụ từng điểm trong một không gian con tuyến tính V của $\mathscr{K}(X; \mathbf{C})$ trù mật trong $\mathscr{K}(X; \mathbf{C})$ và thỏa mãn tính chất (P) (No. 7, Prop. 9);*
@@ -773,7 +773,7 @@ Bây giờ, như đã thấy ở trên, ánh xạ $g \mapsto gh$ là một \emph
 
 Điều phải chứng minh.
 
-#### Hệ quả {#int-iii-s1-n10-cor-1 .statement}
+#### Hệ quả {#int-iii-s1-n10-cor-1 .statement tag=08M8}
 
 — *Nếu X là paracompact thì các tôpô cảm sinh trên $\mathscr{M}_+(X)$ bởi tôpô mờ và tôpô hội tụ compáct là trùng nhau.*
 

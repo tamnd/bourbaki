@@ -28,9 +28,9 @@ subsections:
       pdf_page: 200
 statements: 16
 exercises: 4
-content_sha256: 9ec0e0174ab7ef23c3cf99deda9c629226e7f22f12aaa138e7aadc829ac948f0
+content_sha256: 800fe2331f25a8aa1a77827be7608821b38edbd6539699c6026fe5eefcbf0c2b
 translated_from: content/en/top/IX/05_s5_baire_spaces.md
-source_content_sha256: a78fb82444d16ea24a2754a196d4056a293a2226bea0b831a8a986b6b09a213a
+source_content_sha256: 3b572897191a59b0bea951cffb8413b1fee09841bf812d8d9ace5e683fa0e3ca
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-a1691418
 glossary_version: 34
@@ -42,7 +42,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. TẬP HỢP KHÔNG TRÙ MẬT
 
-#### Định nghĩa 1 {#top-ix-s5-def-1 .statement}
+#### Định nghĩa 1 {#top-ix-s5-def-1 .statement tag=0C6Y}
 
 *Một tập con $A$ của một không gian tôpô $X$ được gọi là không trù mật nếu bao đóng của nó không có điểm trong.*
 
@@ -50,23 +50,23 @@ Tương đương, $A$ không trù mật trong $X$ khi và chỉ khi phần ngoà
 
 Một tập đóng $A$ không trù mật khi và chỉ khi nó không có điểm trong; tức là, khi và chỉ khi nó trùng với biên của nó. Một tập con tùy ý $A$ không trù mật khi và chỉ khi bao đóng của $A$ không trù mật. Mọi tập con của một tập không trù mật đều không trù mật.
 
-#### Ví dụ 1 {#top-ix-s5-n1-exa-1 .statement}
+#### Ví dụ 1 {#top-ix-s5-n1-exa-1 .statement tag=0C6Z}
 
 Tập con rỗng của $X$ là không trù mật. Trong một không gian Hausdorff $X$, một tập gồm một điểm duy nhất là không trù mật khi và chỉ khi điểm đó không cô lập trong $X$. Một tập con trù mật không bao giờ không trù mật (trừ khi $X = \emptyset$).
 
-#### Ví dụ 2 {#top-ix-s5-n1-exa-2 .statement}
+#### Ví dụ 2 {#top-ix-s5-n1-exa-2 .statement tag=0C70}
 
 Biên của một tập mở hoặc một tập đóng luôn không trù mật.
 
-#### Ví dụ 3 {#top-ix-s5-n1-exa-3 .statement}
+#### Ví dụ 3 {#top-ix-s5-n1-exa-3 .statement tag=0C71}
 
 Trong không gian $\mathbf{R}^n$, mọi không gian con tuyến tính có chiều $p < n$ đều là một tập không trù mật (Chương VI, § 1, no. 4, Mệnh đề 2).
 
-#### Nhận xét {#top-ix-s5-n1-rem-1 .statement}
+#### Nhận xét {#top-ix-s5-n1-rem-1 .statement tag=0C72}
 
 Biên của một tập con tùy ý không nhất thiết phải không trù mật: chẳng hạn, nếu $A$ và $\overline{C}A$ đều là các tập trù mật, thì biên của $A$ là toàn bộ không gian.
 
-#### Mệnh đề 1 {#top-ix-s5-prop-1 .statement}
+#### Mệnh đề 1 {#top-ix-s5-prop-1 .statement tag=0C73}
 
 *Hợp của một số hữu hạn các tập không trù mật là không trù mật.*
 
@@ -80,7 +80,7 @@ là mở và không rỗng.
 
 Cho $Y$ là một không gian con của một không gian tôpô $X$. Một không gian con $A$ của $Y$ được gọi là *không trù mật tương đối đối với* $Y$ nếu $A$ là không trù mật khi được xét như một tập con của không gian tôpô $Y$.
 
-#### Mệnh đề 2 {#top-ix-s5-prop-2 .statement}
+#### Mệnh đề 2 {#top-ix-s5-prop-2 .statement tag=0C74}
 
 *Cho $Y$ là một không gian con của một không gian tôpô $X$, và cho $A$ là một tập con của $Y$. Nếu $A$ không trù mật tương đối đối với $Y$, thì $A$ không trù mật tương đối đối với $X$. Ngược lại, nếu $Y$ mở trong $X$ và $A$ không trù mật tương đối đối với $X$, thì $A$ không trù mật tương đối đối với $Y$.*
 
@@ -92,7 +92,7 @@ Phần thứ hai của Mệnh đề 2 rõ ràng không đúng nếu $Y$ không m
 
 ### 2. CÁC TẬP HỢP THƯA
 
-#### Định nghĩa 2 {#top-ix-s5-def-2 .statement}
+#### Định nghĩa 2 {#top-ix-s5-def-2 .statement tag=0C75}
 
 *Một tập con* $A$ *của một không gian tôpô* $X$ *được gọi là thưa nếu nó là hợp của một họ đếm được các tập hợp không trù mật nơi nào.*
 
@@ -108,7 +108,7 @@ Cho $Y$ là một không gian con của $X$. Một tập con $A$ của $Y$ đư�
 
 ### 3. CÁC KHÔNG GIAN BAIRE
 
-#### Định nghĩa 3 {#top-ix-s5-def-3 .statement}
+#### Định nghĩa 3 {#top-ix-s5-def-3 .statement tag=0C76}
 
 *Một không gian tôpô* $X$ *được gọi là một không gian Baire nếu nó thỏa mãn một trong hai điều kiện tương đương sau:*
 
@@ -125,7 +125,7 @@ Thật vậy, một tập hợp là thưa khi và chỉ khi nó được chứa 
 
 Điều này có nghĩa là một tập hợp thưa không thể chứa một tập hợp mở không rỗng, và do đó tương đương với (EB").
 
-#### Mệnh đề 3 {#top-ix-s5-prop-3 .statement}
+#### Mệnh đề 3 {#top-ix-s5-prop-3 .statement tag=0C77}
 
 *Mọi không gian con mở không rỗng $Y$ của một không gian Baire $X$ đều là một không gian Baire.*
 
@@ -133,19 +133,19 @@ Thật vậy, một tập hợp là thưa khi và chỉ khi nó được chứa 
 
 Theo Mệnh đề 3, mọi điểm của một không gian Baire đều có một hệ cơ sở các lân cận, mỗi lân cận trong đó là một không gian Baire. Ngược lại:
 
-#### Mệnh đề 4 {#top-ix-s5-prop-4 .statement}
+#### Mệnh đề 4 {#top-ix-s5-prop-4 .statement tag=0C78}
 
 *Nếu mọi điểm của một không gian tôpô $X$ có một lân cận là một không gian Baire, thì $X$ là một không gian Baire.*
 
 Cho $A$ là một tập mở không rỗng trong $X$, cho $x \in A$ và cho $V$ là một lân cận mở của $x$ là một không gian Baire. Nếu $A$ là tập loại thứ nhất trong $X$, thì $V \cap A$ sẽ là tập loại thứ nhất trong $V$ và mở trong $V$, điều này trái với giả thiết.
 
-#### Mệnh đề 5 {#top-ix-s5-prop-5 .statement}
+#### Mệnh đề 5 {#top-ix-s5-prop-5 .statement tag=0C79}
 
 *Trong một không gian Baire $X$, phần bù của một tập loại thứ nhất là một không gian Baire.*
 
 Cho $A$ là một tập loại thứ nhất trong $X$; khi đó phần bù $Y = \complement_A$ của nó trong $X$ là trù mật trong $X$. Cho $B$ là một tập loại thứ nhất tương đối đối với $Y$; $B$ cũng là tập loại thứ nhất tương đối đối với $X$, do đó $A \cup B$ là tập loại thứ nhất tương đối đối với $X$. Vì vậy phần bù của $A \cup B$ trong $X$, cũng là phần bù của $B$ trong $Y$, là trù mật trong $X$ và *a fortiori* trù mật trong $Y$. Do đó $Y$ là một không gian Baire.
 
-#### Định lý 1 (Baire) {#top-ix-s5-thm-1 .statement}
+#### Định lý 1 (Baire) {#top-ix-s5-thm-1 .statement tag=0C7A}
 
 (i) *Mọi không gian địa phương compact $X$ đều là một không gian Baire.* (ii) *Mọi không gian tôpô $X$ trên đó tồn tại một mêtric, tương thích với tôpô của $X$ và xác định trên $X$ cấu trúc của một không gian mêtric đầy đủ, đều là một không gian Baire.*
 
@@ -153,13 +153,13 @@ Ta sẽ chứng minh rằng tiên đề (EB) được thỏa mãn trong mỗi tr
 
 Q.E.D.
 
-#### Nhận xét {#top-ix-s5-n3-rem-1 .statement}
+#### Nhận xét {#top-ix-s5-n3-rem-1 .statement tag=0C7B}
 
 Có những không gian Baire không thuộc một trong hai loại này, đặc biệt là những không gian Baire không vừa mêtric hóa được vừa không địa phương compact (Bài tập 16); cũng có những không gian Baire mêtric hóa được nhưng không có cấu trúc không gian mêtric đầy đủ nào tương thích với tôpô của chúng (Bài tập 14).
 
 ### 4. HÀM BÁN LIÊN TỤC TRÊN MỘT KHÔNG GIAN BAIRE
 
-#### Định lý 2 {#top-ix-s5-thm-2 .statement}
+#### Định lý 2 {#top-ix-s5-thm-2 .statement tag=0C7C}
 
 Cho $X$ là một không gian Baire và $(f_\alpha)$ là một họ các hàm thực nửa liên tục dưới trên $X$ sao cho, tại mọi điểm $x$ của $X$, bao trên $\sup_\alpha f_\alpha(x)$ là hữu hạn. Khi đó mọi tập hợp mở không rỗng trong $X$ chứa một tập hợp mở không rỗng trên đó họ $(f_\alpha)$ bị chặn trên đều.
 
@@ -169,7 +169,7 @@ Cho $f = \sup_\alpha f_\alpha$ là bao trên của họ $(f_\alpha)$. Hàm $f$ l
 
 Trong các áp dụng của định lý này, nói chung các $f_\alpha$ là liên tục trên $X$.
 
-#### Nhận xét {#top-ix-s5-n4-rem-1 .statement}
+#### Nhận xét {#top-ix-s5-n4-rem-1 .statement tag=0C7D}
 
 Định lý có thể sai nếu ta không giả sử rằng $X$ là một không gian Baire. Ví dụ nếu, với mỗi số hữu tỉ $p/q$ ($p, q$ là các số nguyên nguyên tố cùng nhau, $q > 0$) ta đặt $f(p/q) = q$, ta có một hàm $f$ nửa liên tục dưới trên đường thẳng hữu tỉ $Q$ hữu hạn tại mỗi điểm (xem Chương IV, § 6, no. 2); nhưng không có tập hợp mở không rỗng nào trong $Q$ trên đó $f$ bị chặn trên.
 

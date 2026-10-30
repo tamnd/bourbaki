@@ -34,7 +34,7 @@ subsections:
       pdf_page: 573
 statements: 13
 exercises: 1
-content_sha256: 494d0487a967f8bd496c73470e7633df79505855436ae4f19e99e36f904181d6
+content_sha256: 35d7c75abeb9436ab650b86c4903e3125e8d6a5b2a7afd81b6be25b654009b6d
 ---
 
 ## § 9. NORMS AND TRACES
@@ -43,7 +43,7 @@ Throughout this paragraph, $K$ will denote a commutative ring and $A$ a unital a
 
 ### 1. NORMS AND TRACES RELATIVE TO A MODULE
 
-#### Definition 1 {#alg-iii-s9-def-1 .statement}
+#### Definition 1 {#alg-iii-s9-def-1 .statement tag=065S}
 
 Let $M$ be an $A$-module admitting a finite basis as a $K$-module. For all $a \in A$, let $a_M$ be the endomorphism $x \mapsto ax$ of the $K$-module $M$. The trace, determinant and characteristic polynomial of $a_M$ are called respectively the trace, norm and characteristic polynomial of $z$ relative to $M$.
 
@@ -95,7 +95,7 @@ If $M$ and $M'$ are two *isomorphic* $A$-modules with finite bases over $K$, the
 
 for if $f$ is an isomorphism of $M$ onto $M'$, the matrix of $a_M$ with respect to a basis $B$ of $M$ over $K$ is the same as the matrix of $a_{M'}$ with respect to the basis $f(B)$ of $M'$.
 
-#### Proposition 1 {#alg-iii-s9-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s9-prop-1 .statement tag=065T}
 
 Let $M = M_0 \supset M_1 \supset \ldots \supset M_r = \{0\}$ be a decreasing sequence of submodules of an $A$-module $M$ such that each of the $K$-modules $P_i = M_{i-1}/M_i$ ($1 \leq i \leq r$) admits a finite basis. Then the $K$-module $M$ admits a finite basis and
 
@@ -121,7 +121,7 @@ $$
 
 and the proposition follows from formulae (4), (5) and (6) of no. 1 and formula (31) of § 8, no. 6.
 
-#### Proposition 2 {#alg-iii-s9-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s9-prop-2 .statement tag=065U}
 
 Let $A, A'$ be two $K$-algebras, $M$ an $A$-module and $M'$ an $A'$-module. Suppose that $M$ and $M'$ are free $K$-modules of respective dimensions $n$ and $n'$ and consider $M \otimes_K M'$ as an $(A \otimes_K A')$-module ($§ 4$, no. 3, Example 2). Then, for $a \in A$ and $a' \in A'$,
 
@@ -139,7 +139,7 @@ Formula (16) follows from II, § 4, no. 4, formula (26) and formula (17) from §
 
 ### 3. NORM AND TRACE IN AN ALGEBRA
 
-#### Definition 2 {#alg-iii-s9-def-2 .statement}
+#### Definition 2 {#alg-iii-s9-def-2 .statement tag=065V}
 
 Let $A$ be a $K$-algebra which is a finite-dimensional free $K$-module. For every element $a \in A$, the trace (resp. norm,\footnote{† This notion should not be confused with the notion for norm in an algebra over a valued field (\emph{General Topology}), IX, § 3, no. 7.} resp. characteristic polynomial) of $a$ relative to $A$ and $K$ is the trace (resp. determinant, resp. characteristic polynomial) of the endomorphism $x \mapsto ax$ of the $K$-module $A$.
 
@@ -196,7 +196,7 @@ $$
 \mathrm{Pc}_{A/K}(a; x) = N_{A'/K'}(x - a).
 $$
 
-#### Example {#alg-iii-s9-n3-exa-1 .statement}
+#### Example {#alg-iii-s9-n3-exa-1 .statement tag=065W}
 
 (1) Let $A$ be a quadratic algebra over $K$ of type $(\alpha, \beta)$ and $(e_1, e_2)$ a basis of type $(\alpha, \beta)$ (§ 2, no. 3). For $x = \xi e_1 + \eta e_2$, $\mathrm{Tr}_{A/K}(x) = 2\xi + \beta \eta$ and $N_{A/K}(x) = \xi^2 + \beta \xi \eta - \alpha \eta^2$; these functions are therefore identical with the Cayley trace and norm of $x$ (§ 2, no. 24).
 
@@ -217,7 +217,7 @@ whence $\mathrm{Tr}_{A/\mathbf{K}}(X) = n \cdot \mathrm{Tr}(X)$ and $N_{A/\mathb
 
 ### 4. PROPERTIES OF NORMS AND TRACES IN AN ALGEBRA
 
-#### Proposition 3 {#alg-iii-s9-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s9-prop-3 .statement tag=065X}
 
 *Let A be a K-algebra admitting a finite basis. For an element $a \in A$ to be invertible, it is necessary and sufficient that its $N_{A/\mathbf{K}}(a)$ be invertible in $\mathbf{K}$.*
 
@@ -229,13 +229,13 @@ $$
 
 by formula (3) of no. 1. Conversely, if $N_{A/\mathbf{K}}(a)$ is invertible, the endomorphism $h : x \mapsto ax$ is bijective (§ 8, no. 2, Theorem 1). Then there exists $a' \in A$ such that $aa' = 1$; then $h(a'a - 1) = aa'a - a = (aa' - 1)a = 0$, whence $aa' = 1$ since $h$ is injective. Hence $a'$ is the inverse of $a$.
 
-#### Proposition 4 {#alg-iii-s9-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s9-prop-4 .statement tag=065Y}
 
 *Let A be a K-algebra admitting a finite basis. For all $a \in A$, $\mathrm{Pc}_{A/\mathbf{K}}(a; a) = 0$.*
 
 This follows immediately from the Cayley-Hamilton theorem (§ 8, no. 11, Proposition 20).
 
-#### Proposition 5 {#alg-iii-s9-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s9-prop-5 .statement tag=065Z}
 
 *Let A be a K-algebra and m a two-sided ideal of A. Suppose that $A_0 = A/m$ is a free K-module of finite dimension n, that there exists an integer $r > 0$ such that $m^r = \{0\}$ and that $m^{i-1}/m^i$ is a free $A_0$-module of finite dimension $s_i$ for $1 \leq i \leq r$. Let $s = s_1 + \cdots + s_r$ and for all $a \in A$ let $a_0$ denote the class of $a$ mod. m. Then A is a free K-module of dimension $ns$ and, for all $a \in A$,
 
@@ -254,7 +254,7 @@ N_A(a) = N_{A_0}(a)^s.
 $$
 In this formula $N_{A_0}(a)$ is defined by considering $A_0$ as a left $A$-module and it is equal to the determinant of the $K$-linear mapping $x \mapsto ax$ of $A_0$ into itself; but, as $ax = a_0x$ for $x \in A_0$, $N_{A_0}(a) = N_{A_0}(a_0)$, which completes the proof of formula (23) for the norm. The two others are shown analogously.
 
-#### Proposition 6 {#alg-iii-s9-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s9-prop-6 .statement tag=0660}
 
 *Let $A$ be a commutative $K$-algebra admitting a finite basis over $K$ and $V$ an $A$-module admitting a finite basis over $A$. Then $V$ admits a finite basis over $K$ and for every $A$-endomorphism $u$ of $V$, if $u_K$ is the mapping $u$ considered as a $K$-endomorphism of $V$,*
 $$
@@ -267,7 +267,7 @@ $$
 
 Let $(a_i)_{1 \leq i \leq m}$ be a basis of $A$ over $K$ and $(e_j)_{1 \leq j \leq n}$ a basis of $V$ over $A$; then $(a_i e_j)$ is a basis of $V$ over $K$ (II, § 1, no. 13, Proposition 25). On the other hand the third of formulae (24) can be deduced from the second applied to the endomorphism $X - \bar{u}$ of the $A[X]$-module $A[X] \otimes_A V$ (§ 8, no. 10). It will therefore suffice to show the first two formulae in (24). We shall first establish the following lemma:
 
-#### Lemma 1 {#alg-iii-s9-lem-1 .statement}
+#### Lemma 1 {#alg-iii-s9-lem-1 .statement tag=0661}
 
 *Let $X_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) be $n^2$ indeterminates, $X$ the square matrix $(X_{ij})$ of order $n$ and $D(X_{11}, \ldots, X_{nn}) \in \mathbf{Z}[X_{11}, \ldots, X_{nn}]$ the determinant $\det(X)$. On the other hand let $A$ be a commutative ring, $M_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) $n^2$ matrices of order $m$ over $A$, which are pairwise permutable, and $M$ the square matrix of order $mn$ over $A$ which can be expressed as a square matrix of matrices (II, § 10, no. 7)
 $$
@@ -344,7 +344,7 @@ $$
 $$
 and the proof of Proposition 6 is complete.
 
-#### Corollary {#alg-iii-s9-n4-cor-1 .statement}
+#### Corollary {#alg-iii-s9-n4-cor-1 .statement tag=0662}
 
 *Let A be a commutative K-algebra admitting a finite basis over K and B an A-algebra admitting a finite basis over A. Then B admits a finite basis over K, and, for all $b \in B$ ("transitivity formulae")*
 $$
@@ -356,7 +356,7 @@ $$
 (26)
 This follows immediately from Proposition 6, setting $V = B$ and $u(x) = bx$.
 
-#### Remark {#alg-iii-s9-n4-rem-1 .statement}
+#### Remark {#alg-iii-s9-n4-rem-1 .statement tag=0663}
 
 Suppose that the homomorphism $\lambda \mapsto \lambda . 1$ of K into A is injective and let K be identified with its image in A; suppose that A admits a finite basis $(e_i)_{1 \leq i \leq n}$ as a K-module. Let s be an automorphism of A such that $s(K) = K$. Let a be an element of A; then, by transporting the structure
 $$
@@ -386,7 +386,7 @@ $$
 
 ### 5. DISCRIMINANT OF AN ALGEBRA
 
-#### Definition 3 {#alg-iii-s9-def-3 .statement}
+#### Definition 3 {#alg-iii-s9-def-3 .statement tag=0664}
 
 *Let A be a K-algebra admitting a finite basis of n elements. The discriminant of a sequence $(x_1, \ldots, x_n)$ of n elements of A, with respect to K, denoted by $D_{A/\mathbf{K}}(x_1, \ldots, x_n)$, is the discriminant of the square matrix*
 $$
@@ -415,7 +415,7 @@ $$
 
 The above formula shows in particular that the discriminants of two bases of A over K differ by the square of an invertible element of K and therefore generate the same (principal) ideal of K. This ideal $\Delta_{A/K}$ is called the discriminant ideal of A over K; by formula (32) the discriminant of every sequence of n elements of A which differ only in the order of the terms have the same discriminant, for the determinant of a permutation matrix is equal to $\pm 1$.
 
-#### Example {#alg-iii-s9-n5-exa-1 .statement}
+#### Example {#alg-iii-s9-n5-exa-1 .statement tag=0665}
 
 (1) If A is a quadratic algebra of type $(\alpha, \beta)$ over K, then (in the notation of § 2, no. 3) $\operatorname{Tr}(e_1) = 2, \operatorname{Tr}(e_2) = \beta$,
 

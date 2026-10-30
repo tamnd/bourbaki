@@ -49,7 +49,7 @@ subsections:
       pdf_page: 18
 statements: 60
 exercises: 18
-content_sha256: ac5f9520e1f28092dc4cb58b4770be0f3c9e643512189d799a7ee49c24d658cb
+content_sha256: 3019b88d20723f82018894b205c568008bf296d09c0e414db3928fcfd48a4024
 translated_from: content/fr/ac/X/01_s1_profondeur.md
 source_lang: fr
 translation_method: machine
@@ -63,7 +63,7 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 ## § 1. DEPTH
 
-#### Proposition 1 {#ac-x-s1-prop-1 .statement}
+#### Proposition 1 {#ac-x-s1-prop-1 .statement tag=0D06}
 
 Let $A$ be a ring, $J$ an ideal of $A$ and $0 \to M' \to M \to M'' \to 0$ an exact sequence of $A$-modules. Put
 
@@ -85,11 +85,11 @@ b) The first nonzero module is $\operatorname{Ext}_A^p(A/J, M)$. Then $p = p'' <
 
 c) The first nonzero module is $\operatorname{Ext}_A^{p''}(A/J, M'')$. Then $p'' + 1 = p' \leqslant p$.
 
-#### Remark 5 {#ac-x-s1-rem-5 .statement}
+#### Remark 5 {#ac-x-s1-rem-5 .statement tag=0D07}
 
 Suppose that one has $p = p'$ and that the injection $u : M' \to M$ which occurs in the exact sequence of prop. 1 belongs to $J \operatorname{Hom}_A(M', M)$. *One then has* $p'' = p - 1$. In fact, the assumption implies that the mapping $\operatorname{Ext}_A^i(1_{A/J}, u)$ is zero for every integer $i$; this excludes case a) considered above.
 
-#### Proposition 2 {#ac-x-s1-prop-2 .statement}
+#### Proposition 2 {#ac-x-s1-prop-2 .statement tag=0D08}
 
 Let $A$ be a ring, $J$ an ideal of $A$, $M$ an $A$-module and $N$ an $A$-module annihilated by a power of $J$. *One has* $\operatorname{Ext}_A^i(N, M) = 0$ *for every integer* $i < \operatorname{prof}_A(J; M)$.
 
@@ -115,13 +115,13 @@ $$
 
 deduced from the exact sequence $0 \to JN \to N \to N/JN \to 0$. The two extreme modules are zero by the induction hypothesis, since $N/JN$ and $JN$ are annihilated by $J^{m-1}$. Therefore one has $\operatorname{Ext}_A^i(N, M) = 0$, which was to be proved.
 
-#### Corollary 1 {#ac-x-s1-prop-2-cor-1 .statement}
+#### Corollary 1 {#ac-x-s1-prop-2-cor-1 .statement tag=0D09}
 
 Let m be an integer > 0 and let J' be an ideal of A which contains J^m. One has prof_A(J ; M) \leq prof_A(J' ; M).
 
 In fact J^m annihilates the A-module A/J', hence Ext^i_A(A/J', M) is zero for every integer i < prof_A(J ; M) (prop. 2).
 
-#### Corollary 2 {#ac-x-s1-prop-2-cor-2 .statement}
+#### Corollary 2 {#ac-x-s1-prop-2-cor-2 .statement tag=0D0A}
 
 Suppose the ideal J to be of finite type, and let J' be an ideal of A such that V(J) \supset V(J').
 
@@ -135,7 +135,7 @@ Cor. 2 may fail when the ideal J is not of finite type (exercise 2).
 
 ### 2. Depth and Acyclicity
 
-#### Proposition 3 {#ac-x-s1-prop-3 .statement}
+#### Proposition 3 {#ac-x-s1-prop-3 .statement tag=0D0B}
 
 Let A be a ring, C a complex of A-modules bounded on the left and p an integer. Suppose that for every pair of integers (m, n) with m \geq n \geq p, the depth of the A-module C_m relative to the annihilator of H_n(C) is > m - n. Then one has H_n(C) = 0 for n \geq p.
 
@@ -153,13 +153,13 @@ $$
 
 and from the hypothesis prof_A(J ; C_n) > n - q, one obtains by induction the equality prof_A(J ; B_n(C)) = n - q + 1 for every n \geq q (loc. cit.). But this is absurd since B_n(C) is zero for n sufficiently large.
 
-#### Corollary 1 {#ac-x-s1-prop-3-cor-1 .statement}
+#### Corollary 1 {#ac-x-s1-prop-3-cor-1 .statement tag=0D0C}
 
 Let A be a ring, J an ideal of A, C a complex of A-modules bounded on the left and p an integer. Suppose that one has JH_m(C) = 0 and prof_A(J ; C_m) > m - p for m \geq p. Then one has H_n(C) = 0 for n \geq p.
 
 In fact for n \geq p the annihilator J_n of H_n(C) contains J, hence one has prof_A(J_n ; C_m) \geq prof_A(J ; C_m) (No. 1, cor. 1 of prop. 2), so that the hypothesis of the proposition is satisfied.
 
-#### Corollary 2 {#ac-x-s1-prop-3-cor-2 .statement}
+#### Corollary 2 {#ac-x-s1-prop-3-cor-2 .statement tag=0D0D}
 
 Let $A$ be a local ring, $C$ a complex of $A$-modules bounded to the left, $p$ an integer. Suppose that for $m \geq p$, $H_m(C)$ is of finite length and $C_m$ of depth $> m - p$. Then $H_n(C) = 0$ for $n \geq p$.
 
@@ -179,7 +179,7 @@ We denote by $H^\bullet(x, M)$ the homology of the complex $K^\bullet(x, M)$. Th
 
 Let $(M_\alpha)_{\alpha \in K}$ be a family of $A$-modules, and $M$ its product; the complex $K^\bullet(x, M)$ is canonically isomorphic to the product complex of the $K^\bullet(x, M_\alpha)$, so that for each integer $s$ the $A$-module $H^s(x, M)$ is identified with the product of the $H^s(x, M_\alpha)$ (A, X, p. 28, Proposition 1).
 
-#### Theorem 1 {#ac-x-s1-thm-1 .statement}
+#### Theorem 1 {#ac-x-s1-thm-1 .statement tag=0D0E}
 
 Let $A$ be a ring, $J$ an ideal of $A$, $x = (x_i)_{i \in I}$ a generating family of $J$, $M$ an $A$-module. The depth of $M$ relative to $J$ is the greatest lower bound (in $\mathbf{N} \cup \{+\infty\}$) of the integers $n$ such that $H^n(x, M) \neq 0$.
 
@@ -199,7 +199,7 @@ $$
 
 yields a surjection $H^0(x, Z^p(C)) \longrightarrow H^0(x, H^p(C))$. Since $H^p(C)$ is isomorphic to $\operatorname{Ext}_A^p(A/J, M)$, which is nonzero and annihilated by J, one has $H^0(x, H^p(C)) \neq 0$, whence $H^0(x, Z^p(C)) \neq 0$ and consequently $H^0(x, C^p) \neq 0$. But this implies $H^0(x, M) \neq 0$, contrary to the hypothesis. Hence $H^p(x, M) \neq 0$, which completes the proof.
 
-#### Corollary 1 {#ac-x-s1-thm-1-cor-1 .statement}
+#### Corollary 1 {#ac-x-s1-thm-1-cor-1 .statement tag=0D0F}
 
 *Suppose the ideal J to be of finite type and JM $\neq$ M. Then* $\operatorname{prof}_A(J; M)$ *is finite and $\leq$ Card(I)* ; *in order that it be equal to Card(I), it is necessary and sufficient that the family x be completely secant for M* (A, X, p. 157, Def. 2).
 
@@ -213,19 +213,19 @@ $$
 
 where the image of $\partial_2$ is contained in $JM^{(I)}$. By tensor product with $A/J$, one deduces from this an A-linear isomorphism of $(M/JM)^{(I)}$ onto $JM/J^2M$. Now the latter module is of finite type, since J and M are so; as $M/JM$ is not zero, it follows that the set I is finite.
 
-#### Corollary 2 {#ac-x-s1-thm-1-cor-2 .statement}
+#### Corollary 2 {#ac-x-s1-thm-1-cor-2 .statement tag=0D0G}
 
 *Let A be a local ring, J an ideal of finite type of A distinct from A, M a nonzero A-module of finite type. Put* $r = [J/m_AJ : \kappa_A]$. *One has* $\operatorname{prof}_A(J; M) \leq r$ ; *there is equality if and only if J is generated by a family completely secant for M. In this case, in order that a generating family of J be completely secant, it is necessary and sufficient that it have r elements*.
 
 By Nakayama's lemma, one has $JM \neq M$, and r is the minimal number of generators of J; Corollary 2 therefore follows from Corollary 1.
 
-#### Proposition 4 {#ac-x-s1-prop-4 .statement}
+#### Proposition 4 {#ac-x-s1-prop-4 .statement tag=0D0H}
 
 Let $\rho : A \to B$ be a ring homomorphism, $J$ an ideal of $A$ and $N$ a $B$-module. One has the equality $\operatorname{prof}_A(J; N) = \operatorname{prof}_B(JB; N)$.
 
 Let $x = (x_i)_{i \in I}$ be a generating family of $J$; the family $\rho(x) = (\rho(x_i))_{i \in I}$ generates $JB$. By construction the complex $K^\bullet(\rho(x), N)$ is equal to $K^\bullet(x, N)$. The proposition therefore follows from Theorem 1.
 
-#### Corollary {#ac-x-s1-n3-cor-1 .statement}
+#### Corollary {#ac-x-s1-n3-cor-1 .statement tag=0D0I}
 
 Let $A$ be a local ring, $a$ an ideal of $A$ distinct from $A$ and $M$ an $A$-module annihilated by $a$. One has $\operatorname{prof}_A(M) = \operatorname{prof}_{A/a}(M)$.
 
@@ -247,13 +247,13 @@ $$
 v^p : B \otimes_A H^p(x, M) \to H^p(x, B \otimes_A M)
 $$
 
-#### Lemma 1 {#ac-x-s1-lem-1 .statement}
+#### Lemma 1 {#ac-x-s1-lem-1 .statement tag=0D0J}
 
 If the $A$-module $B$ is flat, the homomorphism $v^p$ is bijective for every integer $p$.
 
 This results from A, X, p. 66, Cor. 2.
 
-#### Proposition 5 {#ac-x-s1-prop-5 .statement}
+#### Proposition 5 {#ac-x-s1-prop-5 .statement tag=0D0K}
 
 Let $A$ be a ring, $J$ an ideal of finite type of $A$ and $M$ an $A$-module. Let $\Omega$ denote the set of maximal ideals of $A$ belonging to $\operatorname{Supp}(M)$ and containing $J$. Then
 
@@ -265,7 +265,7 @@ Let $x = (x_i)_{i \in I}$ be a finite generating family of $J$. Let $p$ be a pri
 
 Let $p$ be an integer strictly less than $\operatorname{prof}_{A_m}(JA_m; M_m)$ for every $m \in \Omega$. Then $H^p(x_m, M_m) = 0$ for every maximal ideal $m$ of $A$: this results from Theorem 1 if $m \in \Omega$, from the fact that $M_m = 0$ if $m \not\in \operatorname{Supp}(M)$, and from the fact that the ideal $JA_m$, which annihilates $H^p(x_m, M_m)$ (A, X, p. 148, Cor. 2), is equal to $A_m$ if $m \not\in V(J)$. Hence $(H^p(x, M))_m = 0$ for every maximal ideal $m$ of $A$, which implies $H^p(x, M) = 0$ (II, § 3, No. 3, Cor. 2 of Theorem 1). The proposition then results from Theorem 1.
 
-#### Proposition 6 {#ac-x-s1-prop-6 .statement}
+#### Proposition 6 {#ac-x-s1-prop-6 .statement tag=0D0L}
 
 Let $A$ be a ring, $J$ an ideal of finite type of $A$ and $M$ an $A$-module. Let $B$ be a ring and $\rho : A \to B$ a ring homomorphism making $B$ into a flat $A$-module.
 
@@ -283,7 +283,7 @@ $$
 
 Now $B \otimes_A H^p(x, M)$ is isomorphic to $H^p(\rho(x), B \otimes_A M)$ (Lemma 1), hence is zero; moreover $B_n$ is faithfully flat over $A_m$ (I, § 3, No. 5, Proposition 9 and II, § 3, No. 4, Proposition 14 and Remark). Hence one has $A_m \otimes_A H^p(x, M) = 0$ and therefore $p < \operatorname{prof}_{A_m}(J_m; M_m)$ (Lemma 1 and Theorem 1). The first assertion of b) then follows from Proposition 5; the second follows from I, § 3, No. 5, Proposition 9).
 
-#### Corollary {#ac-x-s1-n3-cor-2 .statement}
+#### Corollary {#ac-x-s1-n3-cor-2 .statement tag=0D0M}
 
 Let $A$ be a noetherian ring, $J$ an ideal of $A$, $M$ a finitely generated $A$-module, $\widehat{A}$ and $\widehat{M}$ the separated completions of $A$ and $M$ for the $J$-adic topology. Then one has $\operatorname{prof}_A(J; M) = \operatorname{prof}_{\widehat{A}}(J\widehat{A}; \widehat{M})$.
 
@@ -295,7 +295,7 @@ Let $A$ be a ring, $M$ an $A$-module. Recall (A, X, p. 158) that a finite sequen
 
 In the sequel we shall consider chiefly the notion of an $M$-regular sequence in the case where the ring $A$ is local noetherian, the module $M$ is finitely generated and the elements of the sequence belong to $m_A$; the notion of an $M$-regular sequence then coincides with that of a completely secant sequence for $M$ (A, X, p. 160, cor. 1).
 
-#### Proposition 7 {#ac-x-s1-prop-7 .statement}
+#### Proposition 7 {#ac-x-s1-prop-7 .statement tag=0D0N}
 
 Let $A$ be a ring, $J$ an ideal of $A$, $M$ an $A$-module, and $(x_1, \ldots, x_r)$ an $M$-regular sequence of elements of $J$. Then
 $$
@@ -309,7 +309,7 @@ $$
 $$
 The general case follows by induction on $r$.
 
-#### Theorem 2 {#ac-x-s1-thm-2 .statement}
+#### Theorem 2 {#ac-x-s1-thm-2 .statement tag=0D0O}
 
 Let $A$ be a noetherian ring, $J$ an ideal of $A$ and $M$ a finitely generated $A$-module.
 
@@ -321,7 +321,7 @@ c) For $\operatorname{prof}_A(J; M)$ to be finite, it is necessary and sufficien
 
 Let $(x_1, \ldots, x_r)$ be an $M$-regular sequence of elements of $J$. One has $r \leqslant \operatorname{prof}_A(J; M)$ (Prop. 7); suppose that the inequality is strict. Let $N$ denote the $A$-module $M/(x_1M + \ldots + x_rM)$. One has $\operatorname{prof}_A(J; N) > 0$ (*loc. cit.*), so that there exists an element $x$ of $J$ such that the homothety $x_N$ is injective (No. 1, Remark 2), that is to say, such that the sequence $(x_1, \ldots, x_r, x)$ is $M$-regular. It follows by induction that for every integer $s$ such that $r \leqslant s \leqslant \operatorname{prof}_A(J; M)$ the sequence $(x_1, \ldots, x_r)$ can be completed to an $M$-regular sequence of length $s$, which entails assertions a) and b). Assertion c) follows from Remark 1 of No. 1 and Corollary 1 of Theorem 1 of No. 3.
 
-#### Corollary 1 {#ac-x-s1-thm-2-cor-1 .statement}
+#### Corollary 1 {#ac-x-s1-thm-2-cor-1 .statement tag=0D0P}
 
 For every $M$-regular sequence $(x_1, \ldots, x_r)$ of elements of $J$, the following properties are equivalent:
 
@@ -332,7 +332,7 @@ For every $M$-regular sequence $(x_1, \ldots, x_r)$ of elements of $J$, the foll
 
 The equivalence of (i) and (ii) follows from Theorem 2; the equivalence of (ii), (iii) and (iv) follows from Remark 2 of No. 1 applied to the $A$-module $M/(x_1M + \ldots + x_rM)$.
 
-#### Corollary 2 {#ac-x-s1-thm-2-cor-2 .statement}
+#### Corollary 2 {#ac-x-s1-thm-2-cor-2 .statement tag=0D0Q}
 
 Let $A$ be a noetherian local ring, $M$ a nonzero finitely generated $A$-module. One has
 $$
@@ -343,11 +343,11 @@ $$
 
 Let A be a noetherian ring, F a closed subset of $\mathrm{Spec}(A)$ and M an A-module. By Corollary 2 of Proposition 2 of No. 1, the element $\mathrm{prof}_A(J;M)$ of $\mathbf{N} \cup \{+\infty\}$ does not depend on the ideal J of A such that $F = V(J)$; it is called the *depth of M along F* and is denoted by $\mathrm{prof}_F(M)$.
 
-#### Remark 1 {#ac-x-s1-n5-rem-1 .statement}
+#### Remark 1 {#ac-x-s1-n5-rem-1 .statement tag=0D0R}
 
 Let r be an integer. By Proposition 2 of No. 1 and II, § 4, No. 4, Corollary 2 of Proposition 17, the inequality $\mathrm{prof}_F(M) \geqslant r$ is equivalent to the following property: for every finitely generated A-module N whose support is contained in F, one has $\mathrm{Ext}_A^i(N,M) = 0$ for $i < r$.
 
-#### Remark 2 {#ac-x-s1-n5-rem-2 .statement}
+#### Remark 2 {#ac-x-s1-n5-rem-2 .statement tag=0D0S}
 
 Suppose that the A-module M is finitely generated. By Remark 2 of No. 1 and Theorem 2 of No. 4, one has the following equivalences
 
@@ -356,7 +356,7 @@ $$
 \mathrm{prof}_F(M) < +\infty \iff \mathrm{Supp}(M) \cap F \neq \varnothing .
 $$
 
-#### Proposition 8 {#ac-x-s1-prop-8 .statement}
+#### Proposition 8 {#ac-x-s1-prop-8 .statement tag=0D0T}
 
 *Let A be a noetherian ring, F a closed subset of $\mathrm{Spec}(A)$, and M a finitely generated A-module. One has*
 
@@ -375,17 +375,17 @@ $$
 
 One then concludes by induction on the integer $\mathrm{prof}_F(M)$.
 
-#### Remark 3 {#ac-x-s1-n5-rem-3 .statement}
+#### Remark 3 {#ac-x-s1-n5-rem-3 .statement tag=0D0U}
 
 If q is a point of $\mathrm{Supp}(M)$, we therefore have $\mathrm{prof}_A(q;M) = \inf_{p \supseteq q} \mathrm{prof}_{A_p}(M_p)$. In particular, one has the inequality $\mathrm{prof}_A(q;M) \leqslant \mathrm{prof}_{A_q}(M_q)$; there is equality when q is maximal. In the general case, one may have $\mathrm{prof}_A(q;M) < \mathrm{prof}_{A_q}(M_q)$; one may also have $\mathrm{prof}_A(q;M) < \inf \mathrm{prof}_{A_m}(M_m)$ where m runs through the set of maximal ideals of A containing q. Let p, for example, be a nonmaximal prime ideal of A, containing q and distinct from q; put $M = A/p$. One has $\mathrm{prof}_A(q;M) = 0$, $\mathrm{prof}_{A_q}(M_q) = +\infty$ and $\mathrm{prof}_{A_m}(M_m) > 0$ for every maximal ideal m of A.
 
-#### Proposition 9 {#ac-x-s1-prop-9 .statement}
+#### Proposition 9 {#ac-x-s1-prop-9 .statement tag=0D0V}
 
 Let $A$ be a noetherian ring, $M$ and $N$ two A-modules of finite type, and $F$ the support of $N$. Then $\mathrm{prof}_F(M)$ is the greatest lower bound (in $N \cup \{+\infty\}$) of the set of integers $n$ such that $\mathrm{Ext}_A^n(N, M) \neq 0$.
 
 By Remark 1, one has $\mathrm{Ext}_A^i(N, M) = 0$ for every $i < \mathrm{prof}_F(M)$. It remains to prove that if $\mathrm{prof}_F(M) = n < +\infty$, one has $\mathrm{Ext}_A^n(N, M) \neq 0$. Let $J$ be the annihilator of $N$; one has $F = V(J)$, hence $\mathrm{prof}_F(M) = \mathrm{prof}_A(J; M)$. By Cor. 1 of Th. 2 (No. 4), there exists an $M$-regular sequence $(x_1, \ldots, x_n)$ of length $n$ consisting of elements of $J$, and the depth relative to $J$ of the A-module $\overline{M} = M/(x_1 M + \ldots + x_n M)$ is zero. By A, X, p. 166, Prop. 9, it is enough to prove that $\mathrm{Hom}_A(N, \overline{M})$ is nonzero. Now, by Prop. 8, there exists $p \in \mathrm{Supp}(M) \cap \mathrm{Supp}(N)$ such that $\mathrm{prof}_{A_p}(\overline{M}_p) = 0$, that is to say $\mathrm{Hom}_{A_p}(\kappa(p), \overline{M}_p) \neq 0$. Since $N_p$ is nonzero, the $\kappa(p)$-vector space $N_p \otimes_{A_p} \kappa(p)$ is nonzero (Nakayama's lemma), and so is its dual; there therefore exists a surjective $A_p$-linear mapping of $N_p$ onto $\kappa(p)$. It follows that one has $\mathrm{Hom}_{A_p}(N_p, \overline{M}_p) \neq 0$, hence $\mathrm{Hom}_A(N, \overline{M}) \neq 0$ (II, § 2, No. 7, Prop. 19), which was to be proved.
 
-#### Remark 4 {#ac-x-s1-n5-rem-4 .statement}
+#### Remark 4 {#ac-x-s1-n5-rem-4 .statement tag=0D0W}
 
 Let $A$ be a noetherian ring, $N$ a finitely generated $A$-module. The greatest lower bound in $N \cup \{+\infty\}$ of the set of integers $n$ such that $\mathrm{Ext}_A^n(N, A)$ is nonzero is sometimes called the grade of $N$, and is denoted by grade$(N)$. By Prop. 9, this is also the depth of $A$ along the support of $N$, or again (No. 4, Theorem 2) the least upper bound of the set of lengths of $A$-regular sequences of elements of the annihilator of $N$. Since for every prime ideal $p$ of $A$ the annihilator of $N_p$ is equal to $\mathrm{Ann}(N)_p$ (II, § 2, No. 4, formula (9)), we deduce from Prop. 5 of No. 3 the equality
 
@@ -397,7 +397,7 @@ where $\Omega$ denotes the set of maximal ideals of $A$.
 
 ### 6. Depth of Algebras
 
-#### Lemma 2 {#ac-x-s1-lem-2 .statement}
+#### Lemma 2 {#ac-x-s1-lem-2 .statement tag=0D0X}
 
 Let $\rho : A \to B$ be a local homomorphism of noetherian local rings, $N$ a finitely generated $B$-module and $y$ an element of $m_B$. The following two conditions are equivalent:
 
@@ -433,7 +433,7 @@ where $p$ and $i$ are the canonical homomorphisms. It follows that the homomorph
 
 Since $N$ and $N/yN$ are flat over $A$, the same is true of $\mathrm{Im}(y_N)$ (exact sequence (2)). One then deduces from exact sequence (1) that $\kappa_A \otimes_A \mathrm{Ker}(y_N)$ is isomorphic to the kernel of $1 \otimes p$, hence is zero; thus the homothety $y_N$ is injective by Nakayama's lemma.
 
-#### Proposition 10 {#ac-x-s1-prop-10 .statement}
+#### Proposition 10 {#ac-x-s1-prop-10 .statement tag=0D0Y}
 
 *Let $\rho : A \to B$ be a local homomorphism of noetherian local rings, $N$ a finitely generated B-module and $y = (y_1, \ldots, y_s)$ a sequence of elements of $m_B$. Let $\mathfrak{y}$ denote the ideal of $B$ generated by this sequence. The following conditions are equivalent:
 
@@ -450,7 +450,7 @@ This condition is equivalent to (ii) by the induction hypothesis.
 
 The last assertion follows likewise by induction on $s$ from the last assertion of lemma 2.
 
-#### Proposition 11 {#ac-x-s1-prop-11 .statement}
+#### Proposition 11 {#ac-x-s1-prop-11 .statement tag=0D0Z}
 
 *Let $\rho : A \to B$ be a local homomorphism of noetherian local rings, $M$ a finitely generated A-module and $N$ a finitely generated B-module; suppose that the A-module $N$ is flat.*
 
@@ -466,7 +466,7 @@ Let $x$ denote the ideal of A generated by the sequence $x$ and $y$ the ideal of
 
 To prove b), we may suppose that M and N are nonzero. By Nakayama's lemma, $\kappa_A \otimes_A N$ is likewise nonzero, so that $\operatorname{prof}_A(M)$ and $\operatorname{prof}_B(\kappa_A \otimes_A N)$ are finite (No. 4, Cor. 2 of Th. 2). Take maximal regular sequences $x$ and $y$; then one has $r = \operatorname{prof}_A(M)$, $s = \operatorname{prof}_B(\kappa_A \otimes_A N)$, and there exists an injective a-linear mapping $u : \kappa_A \to M/xM$ and an injective b-linear mapping $v : \kappa_B \to \kappa_A \otimes_A (N/yN)$ (No. 4, Cor. 1 of Th. 2). Since $N/yN$ is flat over A, the b-linear mapping $(u \otimes 1_{N/yN}) \circ v$ of $\kappa_B$ into $(M/xM) \otimes_A (N/yN) = (M \otimes_A N)/(\rho(x) + y)(M \otimes_A N)$ is injective. This implies the equality $\operatorname{prof}_B(M \otimes_A N) = r + s$ (*loc. cit.*).
 
-#### Remark {#ac-x-s1-n6-rem-1 .statement}
+#### Remark {#ac-x-s1-n6-rem-1 .statement tag=0D10}
 
 Recall that, under the preceding assumptions,
 
@@ -475,7 +475,7 @@ $$
 $$
 (VIII, § 3, No. 4, Prop. 7).
 
-#### Corollary {#ac-x-s1-n6-cor-1 .statement}
+#### Corollary {#ac-x-s1-n6-cor-1 .statement tag=0D11}
 
 Let $\rho : A \to B$ be a local homomorphism of noetherian local rings making B a flat A-module. One has
 
@@ -490,7 +490,7 @@ In fact the depth (resp. the dimension) of the B-module $\kappa_A \otimes_A B$ i
 
 ### 7. Upper Bounds for Depth
 
-#### Proposition 12 {#ac-x-s1-prop-12 .statement}
+#### Proposition 12 {#ac-x-s1-prop-12 .statement tag=0D12}
 
 Let A be a noetherian local ring, M a nonzero finitely generated A-module and J an ideal of A distinct from A. One has the sequence of inequalities
 
@@ -503,7 +503,7 @@ $$
 
 For every element $p$ of $\operatorname{Supp}(M) \cap V(J)$, $\operatorname{prof}_A(J; M)$ is less than or equal to $\dim_{A_p}(M_p)$ (No. 5, Prop. 8 and No. 4, Cor. 2 of Th. 2), that is to say (VIII, § 1, No. 4, Prop. 9)
 
-#### Remark 1 {#ac-x-s1-n7-rem-1 .statement}
+#### Remark 1 {#ac-x-s1-n7-rem-1 .statement tag=0D13}
 
 Consider the chain of inequalities of Prop. 12.
 
@@ -513,7 +513,7 @@ b) The equality dim(M) − dim(M/JM) = [J/m_AJ : κ_A] means that J can be gener
 
 c) *If M is Macaulay, one has prof_A(J ; M) = dim(M) − dim(M/JM) (§ 2, No. 2, cor. of Prop. 2).*
 
-#### Lemma 3 {#ac-x-s1-lem-3 .statement}
+#### Lemma 3 {#ac-x-s1-lem-3 .statement tag=0D14}
 
 Let A be a noetherian ring, p ⊂ p_1 ⊂ ... ⊂ p_{r−1} ⊂ q a saturated chain of length r of prime ideals of A, M a finitely generated Λ-module and n an integer. If the A-module Ext^n_{A_p}(κ(p), M_p) is nonzero, the same is true of Ext^{n+r}_{A_q}(κ(q), M_q).
 
@@ -531,7 +531,7 @@ $$
 
 where u is the homothety with ratio x. By Nakayama's lemma, this is not surjective, hence the A-module Ext^{n+1}_A(A/(p + xA), M) is nonzero. But the only prime ideal of A containing p + xA is m_A, so the A-module A/(p + xA) is of finite length (VIII, § 3, No. 2, Lemma 2). If Ext^{n+1}_A(κ_A, M) were zero, one would deduce from this, by induction on the length of N, that Ext^{n+1}_A(N, M) = 0 for every A-module N of finite length. This contradiction completes the proof.
 
-#### Proposition 13 {#ac-x-s1-prop-13 .statement}
+#### Proposition 13 {#ac-x-s1-prop-13 .statement tag=0D15}
 
 Let A be a noetherian ring, M a finitely generated A-module, p and q two prime ideals of Supp(M) with p ⊂ q. One has
 
@@ -545,7 +545,7 @@ Put p = \text{prof}_{A_p}(M_p), and let us prove the second inequality. It is ob
 
 $Ext_{A_q}^{p+r}(\kappa(q), M_q) \neq 0$ by lemma 3, which implies $prof_{A_q}(M_q) \leq p + r$. Since $\dim(A_q/pA_q)$ is the least upper bound of the lengths of saturated chains of prime ideals with endpoints $p$ and $q$, the first assertion is a consequence of the second.
 
-#### Corollary 1 {#ac-x-s1-prop-13-cor-1 .statement}
+#### Corollary 1 {#ac-x-s1-prop-13-cor-1 .statement tag=0D16}
 
 *One has the inequality*
 
@@ -555,7 +555,7 @@ $$
 
 This follows from prop. 13 and the inequality $\dim(M_q) \geq \dim(M_p) + \dim(A_q/pA_q)$ (VIII, § 1, No. 4, prop. 9, a) and No. 3, prop. 7, b)).
 
-#### Corollary 2 {#ac-x-s1-prop-13-cor-2 .statement}
+#### Corollary 2 {#ac-x-s1-prop-13-cor-2 .statement tag=0D17}
 
 *Let A be a local noetherian ring and M a finitely generated A-module. One has the inequality*
 
@@ -565,7 +565,7 @@ $$
 
 Let $p$ be a prime ideal associated with $M$; one has $prof_{A_p}(M_p) = 0$ (No. 1, remark 2). Prop. 13 applied to the ideals $p \subset m_A$ yields the inequality $prof_A(M) \leq \dim(A/p)$, whence the corollary.
 
-#### Remark 2 {#ac-x-s1-n7-rem-2 .statement}
+#### Remark 2 {#ac-x-s1-n7-rem-2 .statement tag=0D18}
 
 One has $\sup_{p \in \operatorname{Ass}(M)} \dim(A/p) = \dim(M)$ (VIII, § 1, No. 4, remark 2), and one recovers the inequality $prof(M) \leq \dim(M)$ for $M \neq 0$ (No. 4, cor. 2 of th. 2).
 
@@ -588,7 +588,7 @@ A noetherian ring is said to be *locally integral* if it satisfies the equivalen
 
 Suppose the ring $A$ locally integral; let $u$ be an isomorphism of $A$ onto a (finite) product $\prod_{j \in J} A_j$ of integral domains. There exists a bijection $\sigma : J \to I$ such that the mapping of $\mathrm{Spec}(\prod_{j \in J} A_j)$ into $\mathrm{Spec}(A)$ associated with $u$ defines a homeomorphism of $\mathrm{Spec}(A_j)$ onto the connected component $Y_{\sigma(j)}$ of $\mathrm{Spec}(A)$; one then deduces from $u$ an isomorphism of the canonical component $A/Ae_{\sigma(j)}$ onto $A_j$.
 
-#### Proposition 14 {#ac-x-s1-prop-14 .statement}
+#### Proposition 14 {#ac-x-s1-prop-14 .statement tag=0D19}
 
 *Let $A$ be a noetherian ring. The following conditions are equivalent:*
 
@@ -603,7 +603,7 @@ A ring $A$ is said to be *normal* if it is noetherian and satisfies the equivale
 
 ### 9. Depth and Connectedness
 
-#### Lemma 4 {#ac-x-s1-lem-4 .statement}
+#### Lemma 4 {#ac-x-s1-lem-4 .statement tag=0D1A}
 
 *Let $A$ be a noetherian ring, $F$ a closed subset of $\mathrm{Spec}(A)$, $U$ the complementary open set, and $u : M \to N$ a homomorphism of finitely generated $A$-modules.*
 
@@ -621,11 +621,11 @@ $$
 
 one deduces $\mathrm{Hom}_A(\mathrm{Coker}\,u, \mathrm{Coker}\,u) = 0$, which implies $\mathrm{Coker}\,u = 0$.
 
-#### Remark 1 {#ac-x-s1-n9-rem-1 .statement}
+#### Remark 1 {#ac-x-s1-n9-rem-1 .statement tag=0D1B}
 
 Let $A$ be a noetherian ring, $F$ a closed subset of $\mathrm{Spec}(A)$, $U$ the complementary open set. In order that $\mathrm{prof}_F(A) \geqslant 1$, it is necessary and sufficient that $\mathrm{Ass}(A) \subset U$ (remark 2, No. 5). When this condition is satisfied, each irreducible component of $\mathrm{Spec}(A)$ meets $U$, so that $U$ is dense in $\mathrm{Spec}(A)$.
 
-#### Theorem 3 (Hartshorne) {#ac-x-s1-thm-3 .statement}
+#### Theorem 3 (Hartshorne) {#ac-x-s1-thm-3 .statement tag=0D1C}
 
 Let $A$ be a noetherian ring, $F$ a closed subset of $\mathrm{Spec}(A)$ and $U$ the complementary open set. Suppose that $\mathrm{prof}_F(A) \geqslant 2$. Then, for every connected component $Y$ of $\mathrm{Spec}(A)$, the set $Y \cap \overline{U}$ is connected and dense in $Y$.
 
@@ -633,15 +633,15 @@ Suppose first that $\mathrm{Spec}(A)$ is connected. By remark 1, $U$ is dense in
 
 Let us treat the general case. Let $J$ be an ideal of $A$ such that $F = V(J)$ and let $Y$ be a connected component of $\mathrm{Spec}(A)$. By II, § 4, No. 3, Prop. 15, there exists an idempotent element $f$ of $A$ such that $Y$ is identified with the subset $\mathrm{Spec}(A_f)$ of $\mathrm{Spec}(A)$. Then $Y \cap F$ is identified with $V(J_f)$; one has $\mathrm{prof}_{A_f}(J_f, A_f) \geqslant \mathrm{prof}_A(J; A) \geqslant 2$ by Prop. 6, a) of No. 3. It follows from the first part of the proof that $Y \cap U = Y - (Y \cap F)$ is connected and dense in $Y$.
 
-#### Corollary 1 {#ac-x-s1-thm-3-cor-1 .statement}
+#### Corollary 1 {#ac-x-s1-thm-3-cor-1 .statement tag=0D1D}
 
 The mapping which associates to each connected component of $U$ its closure in $\mathrm{Spec}(A)$ is a bijection of the set of connected components of $U$ onto the set of connected components of $\mathrm{Spec}(A)$.
 
-#### Corollary 2 {#ac-x-s1-thm-3-cor-2 .statement}
+#### Corollary 2 {#ac-x-s1-thm-3-cor-2 .statement tag=0D1E}
 
 For every noetherian local ring B of depth $\geq 2$, the topological space $\operatorname{Spec}(B) - \{ m_B \}$ is connected.
 
-#### Corollary 3 {#ac-x-s1-thm-3-cor-3 .statement}
+#### Corollary 3 {#ac-x-s1-thm-3-cor-3 .statement tag=0D1F}
 
 Under the hypotheses of Theorem 3, suppose that $\operatorname{Spec}(A_p)$ is irreducible (resp. that $A_p$ is an integral domain) for every $p \in U$; then $\operatorname{Spec}(A_p)$ is irreducible (resp. $A_p$ is an integral domain) for every $p \in \operatorname{Spec}(A)$.
 
@@ -649,7 +649,7 @@ Let $(Y_i)_{i \in I}$ be the (finite) family of irreducible components of $\oper
 
 Suppose that $A_q$ is an integral domain for every $q \in U$. Let $p \in \operatorname{Spec}(A)$. Since $\operatorname{Spec}(A_p)$ is irreducible, the nilradical of $A_p$ is the unique minimal prime ideal of $A_p$; it therefore belongs to $\operatorname{Ass}(A_p)$ (IV, § 1, No. 3, Cor. 1 of Prop. 7), and consequently is equal to $qA_p$, where $q$ is a prime ideal associated with $A$ (IV, § 1, No. 2, Cor. of Prop. 5). One has $q \in U$ (Remark 1) and $qA_q \in \operatorname{Ass}(A_q)$ (loc. cit.); since $A_q$ is an integral domain, $q$ is zero, and therefore $A_p$ is an integral domain.
 
-#### Corollary 4 {#ac-x-s1-thm-3-cor-4 .statement}
+#### Corollary 4 {#ac-x-s1-thm-3-cor-4 .statement tag=0D1G}
 
 Let $A$ be a noetherian ring whose spectrum is connected. Suppose there exists an integer $d \geq 1$ such that one has $\operatorname{prof}(A_p) \geq 2$ for every prime ideal $p$ of $A$ of height $> d$.
 
@@ -665,11 +665,11 @@ Let $Z \subset \operatorname{Spec}(A)$ be a closed subset of codimension $> d$. 
 
 Let us prove b). Denote by $Z$ the union of the sets $X' \cap X''$ where $(X', X'')$ runs through the (finite) set of pairs of irreducible components of $\operatorname{Spec}(A)$ such that $\operatorname{codim}(X' \cap X'', \operatorname{Spec}(A)) > d$. By a), the set $\operatorname{Spec}(A) - Z$ is connected. All the irreducible components of $\operatorname{Spec}(A)$ meet $\operatorname{Spec}(A) - Z$; their traces on $\operatorname{Spec}(A) - Z$ are the irreducible components of $\operatorname{Spec}(A) - Z$ (II, § 4, No. 1, Prop. 7). Since $\operatorname{Spec}(A) - Z$ is connected, there exists a sequence $X_1, \ldots, X_n$ of irreducible components of $\operatorname{Spec}(A)$ such that one has $X_1 - Z = Y - Z$, $X_n - Z = Y' - Z$ and $(X_i - Z) \cap (X_{i+1} - Z) \neq \varnothing$ for $1 \leq i \leq n-1$; in other words one has $X_1 = Y$, $X_n = Z$ and $\operatorname{codim}(X_i \cap X_{i+1}) \leq d$.
 
-#### Remark 2 {#ac-x-s1-n9-rem-2 .statement}
+#### Remark 2 {#ac-x-s1-n9-rem-2 .statement tag=0D1H}
 
 *When A is a Macaulay ring, one can apply corollary with $d = 1$ (§ 2, No. 5).*
 
-#### Example (Complete intersection formed by four coordinate planes of an affine space of dimension 4) {#ac-x-s1-n9-exa-1 .statement}
+#### Example (Complete intersection formed by four coordinate planes of an affine space of dimension 4) {#ac-x-s1-n9-exa-1 .statement tag=0D1I}
 
 Let $k$ be a field. Let S denote the polynomial ring $k[T_1, T_2, T_3, T_4]$. Recall (VIII, § 2, No. 4, Theorem 3) that every maximal chain of prime ideals of S is of length 4. Let m denote the ideal of S generated by the $T_i$, a the ideal generated by $T_1T_2$ and $T_3T_4$, and $p_{ij}$, for $1 \leq i < j \leq 4$, the ideal generated by $T_i$ and $T_j$. The ideals $p_{ij}$ are prime of height 2, their sum is the maximal ideal m, and one has $a = p_{13} \cap p_{14} \cap p_{23} \cap p_{24}$.
 
@@ -686,7 +686,7 @@ b) if $\mathrm{ht}(p) \geq 1$, one has $\mathrm{prof}(A_p) \geq 1$ (No. 1, remar
 
 Conversely:
 
-#### Proposition 15 {#ac-x-s1-prop-15 .statement}
+#### Proposition 15 {#ac-x-s1-prop-15 .statement tag=0D1J}
 
 Let A be a noetherian ring satisfying the following two conditions:
 (i) for every minimal prime ideal $p$ of $A$, the ring $A_p$ is reduced;
@@ -695,13 +695,13 @@ Then A is reduced.
 
 Let $n$ denote the nilradical of A. For every minimal prime ideal $p$ of A, one has by (i) $n_p = 0$, that is, $p \not\in \mathrm{Supp}(n)$ and $a fortiori$ $p \not\in \mathrm{Ass}_A(n)$. For every $p \in \mathrm{Spec}(A)$ of height $\geq 1$, one has by (ii) $pA_p \not\in \mathrm{Ass}_{A_p}(A_p)$ and $a fortiori$ $pA_p \not\in \mathrm{Ass}_{A_p}(n_p)$, whence $p \not\in \mathrm{Ass}_A(n)$ (IV, § 1, No. 2, prop. 5). Thus the set $\mathrm{Ass}_A(n)$ is empty, which implies that $n$ is zero.
 
-#### Proposition 16 {#ac-x-s1-prop-16 .statement}
+#### Proposition 16 {#ac-x-s1-prop-16 .statement tag=0D1K}
 
 Let $A$ be an integrally closed noetherian ring, $J$ an ideal of $A$ of height $\geqslant 2$, and $M$ a reflexive $A$-module of finite type. One has $\operatorname{prof}_A(J; M) \geqslant 2$.
 
 Let us choose a finite-dimensional vector space $V$ over the field of fractions of $A$ and a lattice $N$ in $V$ isomorphic to $M$ (VII, § 4, No. 2, Remark 1). The prime ideals associated with $V/N$, being of height 1 (*loc. cit.*, Theorem 2), do not contain $J$; after Remark 2 of No. 1, this implies $\operatorname{prof}_A(J; V/N) \geqslant 1$. On the other hand, the $A$-module $V$ is divisible and torsion-free, hence injective (A, X, p. 17, Corollary 2 of Proposition 10), which implies $\operatorname{prof}_A(J; V) = +\infty$. The inequality $\operatorname{prof}_A(J; N) \geqslant 2$ then follows from Proposition 1 of No. 1.
 
-#### Corollary {#ac-x-s1-n10-cor-1 .statement}
+#### Corollary {#ac-x-s1-n10-cor-1 .statement tag=0D1L}
 
 *A noetherian local integrally closed ring of dimension $\geqslant 2$ has depth $\geqslant 2$*.
 
@@ -712,7 +712,7 @@ c) if $\operatorname{ht}(\mathfrak{p}) \geqslant 2$, one has $\operatorname{prof
 
 Conversely:
 
-#### Theorem 4 (Serre) {#ac-x-s1-thm-4 .statement}
+#### Theorem 4 (Serre) {#ac-x-s1-thm-4 .statement tag=0D1M}
 
 *Let $A$ be a noetherian ring satisfying the following conditions*:
 (i) *for every minimal prime ideal $\mathfrak{p}$ of $A$, the ring $A_{\mathfrak{p}}$ is reduced*;
@@ -723,17 +723,17 @@ Conversely:
 
 It is a question of proving that the ring $A_{\mathfrak{p}}$ is integrally closed for every $\mathfrak{p} \in \operatorname{Spec}(A)$, which we shall do by induction on $\operatorname{ht}(\mathfrak{p})$. For $\operatorname{ht}(\mathfrak{p}) \leqslant 1$ this follows from assumptions (i) and (ii). Suppose therefore that one has $\operatorname{ht}(\mathfrak{p}) \geqslant 2$ and that $A_q$ is integrally closed for every prime ideal $q$ of $A$ of height $< \operatorname{ht}(\mathfrak{p})$. By assumption (iii), one has $\operatorname{prof}(A_{\mathfrak{p}}) \geqslant 2$. By the induction hypothesis and cor. 3 of th. 3 of No. 9, applied to the ring $A_{\mathfrak{p}}$ and to the closed subset $\{\mathfrak{p}A_{\mathfrak{p}}\}$ of $\operatorname{Spec}(A_{\mathfrak{p}})$, the ring $A_{\mathfrak{p}}$ is an integral domain. Let $K$ be its field of fractions and let $B$ be a subring of $K$, containing $A_{\mathfrak{p}}$ and finite over $A_{\mathfrak{p}}$. It is a question of proving that $B$ is equal to $A_{\mathfrak{p}}$. Let us denote by $i$ the canonical injection of $A_{\mathfrak{p}}$ into $B$. Since $B$ is contained in $K$, it is a torsion-free $A_{\mathfrak{p}}$-module, hence of depth $\geqslant 1$. Moreover, for every prime ideal $q$ of $A_{\mathfrak{p}}$ distinct from $\mathfrak{p}A_{\mathfrak{p}}$, the homomorphism $i_q : (A_{\mathfrak{p}})_q \to B_q$ is bijective since $A_q$ is integrally closed. By lemma 4 of No. 9, applied to the closed subset $F = \{\mathfrak{p}A_{\mathfrak{p}}\}$ of $\operatorname{Spec}(A_{\mathfrak{p}})$, the homomorphism $i$ is bijective, which completes the proof of the theorem.
 
-#### Remark 1 {#ac-x-s1-n10-rem-1 .statement}
+#### Remark 1 {#ac-x-s1-n10-rem-1 .statement tag=0D1N}
 
 A convenient form of th. 4 is the following: let $A$ be a noetherian ring, such that for every prime ideal $p$ of $A$ the ring $A_p$ is integrally closed or of depth $\geqslant 2$; then $A$ is normal. Let us indeed verify the assumptions of th. 4. Let $p \in \mathrm{Spec}(A)$. If $\mathrm{ht}(p) \leqslant 1$, then one has $\mathrm{prof}(A_p) \leqslant 1$, hence $A_p$ is integrally closed. If $\mathrm{ht}(p) \geqslant 2$, the ring $A_p$ is either of depth $\geqslant 2$, or integrally closed, which again implies $\mathrm{prof}(A_p) \geqslant 2$ (No. 1, cor. 2 of prop. 1), whence the desired conclusion. One verifies analogously the following statement: let $A$ be a noetherian ring such that for every prime ideal $p$ of $A$, the ring $A_p$ is reduced or of depth $\geqslant 1$; then $A$ is reduced.
 
-#### Corollary 1 {#ac-x-s1-thm-4-cor-1 .statement}
+#### Corollary 1 {#ac-x-s1-thm-4-cor-1 .statement tag=0D1O}
 
 *Let $A$ be a noetherian ring, $F$ a closed subset of $\mathrm{Spec}(A)$, $U$ the complementary open set. Suppose that $\mathrm{prof}_F(A)$ is $\geqslant 2$ (resp. $\geqslant 1$) and that, for every $p \in U$, the ring $A_p$ is integrally closed (resp. reduced). Then $A$ is normal* (resp. reduced).
 
 For every $p \in F$, one has $\mathrm{prof}(A_p) \geqslant \mathrm{prof}_F(A)$ (No. 5, Prop. 8); it is therefore enough to apply the preceding remark.
 
-#### Corollary 2 {#ac-x-s1-thm-4-cor-2 .statement}
+#### Corollary 2 {#ac-x-s1-thm-4-cor-2 .statement tag=0D1P}
 
 *Let $\rho : A \to B$ be a homomorphism of noetherian rings making $B$ into a flat $A$-module.
 
@@ -747,11 +747,11 @@ b) Under the hypotheses of b), it is enough, by Remark 1, to prove that for ever
 
 1) $\mathrm{ht}(p) = 0$. Then $A_p$ is a field, equal to $\kappa(p)$; the ring $A_p \otimes_A B$ is normal by assumption. The same is true of $B_q$, which is a ring of fractions thereof.
 
-#### Remark 2 {#ac-x-s1-n10-rem-2 .statement}
+#### Remark 2 {#ac-x-s1-n10-rem-2 .statement tag=0D1Q}
 
 $\mathrm{ht}(p) = 1$ and $\mathrm{ht}(q) \leqslant 1$. Then $A_p$ is a discrete valuation ring; let $\pi$ be a uniformizing element of $A_p$. Since $B_q$ is faithfully flat over $A_p$, the element $\pi 1_{B_q}$ of $B_q$ is not a zero divisor, so that the local ring $B_q/\pi B_q$ is of dimension 0 (VIII, § 3, No. 1, Cor. 2 of Prop. 1). It is reduced, since it is a ring of fractions of the reduced ring $\kappa(p) \otimes_A B$, and consequently it is a field. Therefore $B_q$ is a discrete valuation ring (VI, § 1, No. 4, Prop. 2), hence integrally closed.
 
-#### Remark 3 {#ac-x-s1-n10-rem-3 .statement}
+#### Remark 3 {#ac-x-s1-n10-rem-3 .statement tag=0D1R}
 
 $\mathrm{ht}(p) = 1$ and $\mathrm{ht}(q) \geq 2$. Then, by the relation
 $$
@@ -762,11 +762,11 @@ $$
 \mathrm{prof}(B_q) = \mathrm{prof}(A_p) + \mathrm{prof}(\kappa(p) \otimes_A B_q) \geq 1 + 1 = 2 .
 $$
 
-#### Remark 4 {#ac-x-s1-n10-rem-4 .statement}
+#### Remark 4 {#ac-x-s1-n10-rem-4 .statement tag=0D1S}
 
 $\mathrm{ht}(p) \geq 2$. Since $A_p$ is of depth $\geq 2$ (Cor. of Prop. 16), the same is true of $B_q$ by *loc. cit*.
 
-#### Corollary 3 {#ac-x-s1-thm-4-cor-3 .statement}
+#### Corollary 3 {#ac-x-s1-thm-4-cor-3 .statement tag=0D1T}
 
 *Let $\rho : A \to B$ be a homomorphism of noetherian rings. Assume that $B$ is a flat $A$-module, that $A$ is normal, and that $\kappa(p) \otimes_A B$ is normal for every $p \in \mathrm{Spec}(A)$. Then $B$ is normal.*
 

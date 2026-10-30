@@ -34,9 +34,9 @@ subsections:
       pdf_page: 308
 statements: 13
 exercises: 7
-content_sha256: 8c6ee7647ad3e179955cff2ac486dd63f8b1b2d8f83bdc685170518a21d897df
+content_sha256: 3770cd8088a97cf47f90859ee57bfd06e45e9a5acef2ffd40c3a4202e360bc6d
 translated_from: content/en/alg/II/05_s5_extension_of_the_ring_of_scalars.md
-source_content_sha256: febcd34cae06506edd112484e71c36d0c4e9ea06b4c8287244a60b89d1e7d7bd
+source_content_sha256: 77418857e92cac7b8d57a775fbe6a401b2e7ca09da87ea0dd014ebf83b887e38
 translation_model: gpt-5.4
 translation_run: translate-vi-6f13837c
 glossary_version: 34
@@ -50,7 +50,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $A, B$ là hai vành và $\rho : A \to B$ là một đồng cấu vành; ta xét A-môđun phải $\rho^*(B_d)$ được định nghĩa bởi đồng cấu này ($§ 1$, no. 13); A-môđun này cũng có một cấu trúc B-môđun trái, cụ thể là cấu trúc của $B_s$ và, vì $b'(b\rho(a)) = (b'b)\rho(a)$ với $a \in A, b, b'$ trong $B$, hai cấu trúc môđun này trên $B$ là tương thích ($§ 1$, no. 14). Điều này cho phép ta, với mọi A-môđun trái $E$, định nghĩa một cấu trúc B-môđun trái trên tích tenxơ $\rho_*(B_d) \otimes_A E$ sao cho $\beta'(\beta \otimes x) = (\beta'\beta) \otimes x$ với $\beta, \beta'$ trong $B$ và $x \in E$ ($§ 3$, no. 3). B-môđun trái này được gọi là *dẫn xuất từ $E$ bằng cách mở rộng vành vô hướng lên $B$ bằng $\rho$* và được ký hiệu là $\rho^*(E)$ hoặc $E_{(B)}$ nếu không có sự lẫn lộn.
 
-#### Mệnh đề 1 {#alg-ii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ii-s5-prop-1 .statement tag=05QD}
 
 *Với mọi A-môđun trái $E$, ánh xạ $\phi : x \mapsto 1 \otimes x$ từ $E$ vào A-môđun $\rho_*(\rho^*(E))$ là tuyến tính trên $A$ và tập hợp $\phi(E)$ sinh ra B-môđun $\rho^*(E)$. Hơn nữa, với mọi B-môđun trái $F$ và mọi ánh xạ tuyến tính trên $A$ $f$ từ $E$ vào A-môđun $\rho_*(F)$, tồn tại một và chỉ một ánh xạ tuyến tính trên $B$ $\bar{f}$ từ $\rho^*(E)$ vào $F$ sao cho $\bar{f}(1 \otimes x) = f(x)$ với mọi $x \in E$.*
 
@@ -74,7 +74,7 @@ $$
 
 Vậy Mệnh đề 1 được chứng minh. Ánh xạ $\phi_E : E \to \rho_*(\rho^*(E))$ được gọi là *chính tắc*.
 
-#### Nhận xét {#alg-ii-s5-n1-rem-1 .statement}
+#### Nhận xét {#alg-ii-s5-n1-rem-1 .statement tag=05QE}
 
 (1) Mệnh đề 1 cho thấy rằng cặp có thứ tự gồm $E_{(B)}$ và $\phi_E$ là một nghiệm của bài toán ánh xạ phổ quát (Lý thuyết tập hợp, IV, § 3, no. 1), trong đó $\Sigma$ là loài các cấu trúc B-môđun trái (các cấu là các ánh xạ B-tuyến tính) và các ánh xạ $\alpha$ là các ánh xạ A-tuyến tính từ E vào một B-môđun.
 
@@ -82,7 +82,7 @@ Vậy Mệnh đề 1 được chứng minh. Ánh xạ $\phi_E : E \to \rho_*(\rh
 
 (3) Cho E là một A-môđun trái, $a$ là một iđêan hai phía của A và $\rho : A \to A/a$ là đồng cấu chính tắc. Theo ký hiệu của $§ 3$, no. 6, Hệ quả 2 của Mệnh đề 6, A-môđun $E/aE$ bị triệt tiêu bởi $a$ và do đó có một cách chính tắc một cấu trúc $(A/a)$-môđun trái ($§ 1$, no. 12); ngay lập tức thấy rằng ánh xạ chính tắc $\pi : \rho^*(E) \to E/aE$ được định nghĩa trong $§ 3$, no. 6, Hệ quả 2 của Mệnh đề 6 là một đẳng cấu đối với các cấu trúc $(A/a)$-môđun.
 
-#### Hệ quả {#alg-ii-s5-n1-cor-1 .statement}
+#### Hệ quả {#alg-ii-s5-n1-cor-1 .statement tag=05QF}
 
 *Cho E, E' là hai A-môđun trái; với mọi ánh xạ A-tuyến tính $u : E \to E'$, $v = l_B \otimes u$ là ánh xạ B-tuyến tính duy nhất làm cho biểu đồ*
 
@@ -109,7 +109,7 @@ $$
 
 Mở rộng vành các toán tử của một môđun là một phép toán *bắc cầu*; nói chính xác hơn:
 
-#### Mệnh đề 2 {#alg-ii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ii-s5-prop-2 .statement tag=05QG}
 
 *Cho $\rho : A \to B,\ \sigma : B \to C$ là các đồng cấu vành. Với mọi A-môđun trái E, tồn tại một và chỉ một C-đồng cấu*
 
@@ -135,7 +135,7 @@ $$
 
 Nếu $\phi, \phi'$ và $\phi''$ ký hiệu các ánh xạ chính tắc $E \to \rho^*(E), \rho^*(E \to) \sigma^*(\rho^*(E))$ và $E \to (\sigma \circ \rho)^*(E)$, thì $\phi' \circ \phi$ được đồng nhất với $\phi''$ dưới đẳng cấu chính tắc của Mệnh đề 2.
 
-#### Mệnh đề 3 {#alg-ii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ii-s5-prop-3 .statement tag=05QH}
 
 *Cho A, B là hai vành giao hoán, $\rho : A \to B$ là một đồng cấu vành và E, E' là hai A-môđun. Tồn tại một và chỉ một B-đồng cấu*
 
@@ -149,7 +149,7 @@ Vế trái của (5) có thể được viết là $(B \otimes_A E) \otimes_B (B
 
 Rõ ràng nếu S là một hệ sinh của E, thì ảnh của S dưới ánh xạ chính tắc $E \to E_{(B)}$ là một hệ sinh của $E_{(B)}$; đặc biệt, nếu E là một A-môđun hữu hạn sinh, thì $E_{(B)}$ là một B-môđun hữu hạn sinh.
 
-#### Mệnh đề 4 {#alg-ii-s5-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ii-s5-prop-4 .statement tag=05QI}
 
 *Cho E là một A-môđun có một cơ sở* $(a_\lambda)_{\lambda \in L}$; *nếu* $\phi : x \mapsto 1 \otimes x$ *là ánh xạ chính tắc của E vào* $\rho^*(E)$, *thì* $(\phi(a_\lambda))_{\lambda \in L}$ *là một cơ sở của* $\rho^*(E)$. *Nếu* $\rho$ *là đơn ánh, thì* $\phi$ *cũng vậy*.
 
@@ -161,7 +161,7 @@ $$
 
 và do đó quan hệ $\phi \left( \sum_{\lambda \in L} \xi_\lambda a_\lambda \right) = 0$ tương đương với $\rho(\xi_\lambda) = 0$ với mọi $\lambda \in L$, do đó suy ra mệnh đề thứ hai.
 
-#### Hệ quả {#alg-ii-s5-n1-cor-2 .statement}
+#### Hệ quả {#alg-ii-s5-n1-cor-2 .statement tag=05QJ}
 
 *Với mọi A-môđun xạ ảnh E, B-môđun* $\rho^*(E)$ *là xạ ảnh. Nếu hơn nữa* $\rho$ *là đơn ánh, thì ánh xạ chính tắc của E vào* $\rho^*(E)$ *là đơn ánh.*
 
@@ -205,7 +205,7 @@ $$
 bằng $\delta(l_{\rho_*(F)})$ và do đó sao cho, với mọi $y \in F$ và mọi $\beta \in B$,
 $\psi_F(\beta \otimes y) = \beta y$.
 
-#### Mệnh đề 5 {#alg-ii-s5-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ii-s5-prop-5 .statement tag=05QK}
 
 *Cho E là một A-môđun trái và F là một B-môđun trái; các ánh xạ hợp thành*
 
@@ -220,13 +220,13 @@ $$
 
 Ta cho chứng minh, chẳng hạn, cho (12); với mọi $x \in E$, ánh xạ $\rho^*(\phi_E)$ biến $1 \otimes x$ thành phần tử $1 \otimes (1 \otimes x)$ và ánh xạ $\psi_{\rho^*(E)}$ biến $1 \otimes (1 \otimes x)$ thành phần tử $1 \otimes x$; kết luận suy ra từ thực tế là các phần tử dạng $1 \otimes x$ sinh B-môđun $\rho^*(E)$; chứng minh cho (13) còn đơn giản hơn nữa.
 
-#### Hệ quả {#alg-ii-s5-n2-cor-1 .statement}
+#### Hệ quả {#alg-ii-s5-n2-cor-1 .statement tag=05QL}
 
 *Các ánh xạ $\rho^*(\phi_E)$ và $\phi_{\rho_*(F)}^*$ là đơn ánh và lần lượt đồng nhất $\rho^*(E)$ với một nhân tử trực tiếp của $\rho^*(\rho_*(\rho^*(E)))$ và $\rho_*(F)$ với một nhân tử trực tiếp của $\rho_*(\rho^*(\rho_*(F)))$.*
 
 Đây là một hệ quả của Mệnh đề 5 và § 1, no. 9, Hệ quả 2 của Mệnh đề 15.
 
-#### Mệnh đề 6 {#alg-ii-s5-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ii-s5-prop-6 .statement tag=05QM}
 
 *Cho E là một A-môđun trái và F là một B-môđun phải. Tồn tại một và chỉ một $\mathbf{Z}$-đồng cấu*
 
@@ -276,7 +276,7 @@ trong đó $r_b$ ký hiệu phép nhân bên phải bởi $b$ trong $B$.
 
 Hơn nữa, giả thiết rằng $\omega$ là một đồng cấu *trung tâm* kéo theo rằng $(bb')\rho(a) = b\rho(a))b'$ với $b,\ b'$ trong $B$ và $a \in A$; nói cách khác cấu trúc $B$-môđun *phải* của $B_d$ là *tương thích* với cấu trúc $A$-môđun của nó; do đó nó xác định trên $B \otimes_A \operatorname{Hom}_A(E, F)$ một cấu trúc $B$-*môđun* *phải* (§ 3, no. 4) và cũng trên $F_{(B)} = B \otimes_A F$, và sau cùng, vì các cấu trúc $B$-môđun trái và phải trên $F_{(B)}$ là *tương thích*, ta cũng thu được một cấu trúc $B$-*môđun* *phải* trên $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (§ 1, no. 14). Khi đó kiểm tra ngay lập tức được rằng (17) là một *đồng cấu* $B$-*môđun* *phải* đối với các cấu trúc ấy.
 
-#### Proposition 7 {#alg-ii-s5-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s5-prop-7 .statement tag=05QN}
 
 *Cho $A$ là một vành giao hoán, $B$ là một vành, $\rho : A \to B$ là một đồng cấu trung tâm và $E, F$ là hai $A$-môđun.*
 
@@ -324,7 +324,7 @@ $$
 
 là giao hoán.
 
-#### Mệnh đề 8 {#alg-ii-s5-prop-8 .statement}
+#### Mệnh đề 8 {#alg-ii-s5-prop-8 .statement tag=05QO}
 
 *Nếu một trong các A-môđun* E, $\rho_* (B_s)$ *là xạ ảnh và hữu hạn sinh, thì đồng cấu* $v_E$ *là song ánh*.
 
@@ -334,7 +334,7 @@ Giả sử đặc biệt rằng E là một A-môđun tự do sinh hữu hạn v
 
 ### 5. MỘT TIÊU CHUẨN VỀ TÍNH HỮU HẠN
 
-#### Mệnh đề 9 {#alg-ii-s5-prop-9 .statement}
+#### Mệnh đề 9 {#alg-ii-s5-prop-9 .statement tag=05QP}
 
 Cho B là một vành, A là một vành con của B và P là một A-môđun trái xạ ảnh. Khi đó, nếu $P_{(B)}$ là một B-môđun sinh hữu hạn, thì P tự nó là một A-môđun sinh hữu hạn.
 

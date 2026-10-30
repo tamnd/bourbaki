@@ -24,14 +24,14 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: b46524d6e0cb7e6bff2c2a53d394fdaa17538e41d07575f7abb24c1a7fb88a0a
+content_sha256: 3c38f8840bebf9994b9b5aec8fb919fc5ee0b58cafb2987b1fa9c66b3cc01b44
 ---
 
 ## § 5. Propriétés spéciales aux formes bilinéaires alternées
 
 ### 1. Réduction des formes bilinéaires alternées.
 
-#### Théorème 1 {#alg-ix-s5-thm-1 .statement}
+#### Théorème 1 {#alg-ix-s5-thm-1 .statement tag=0DL3}
 
 Soient $A$ un anneau (commutatif) principal, $E$ un $A$-module libre de dimension finie $n$ et $\Phi$ une forme bilinéaire alternée sur $E$. Alors il existe une base $(e_i)_{1 \leq i \leq n}$ de $E$ et un entier pair $2r \leq n$, tels que
 
@@ -63,7 +63,7 @@ $$
 
 Mais on sait (*loc. cit.*) que l’image de $f(E)$ par toute forme linéaire sur $E^*$ est contenue dans l’idéal $A\alpha_1$, autrement dit toutes les valeurs $\Phi(x, y) = \langle x, f(y) \rangle$ appartiennent à $A\alpha_1$; d’où l’existence et l’unicité de $\xi_1$ et $\xi_2$. Ainsi $P^0$ est un module libre de rang $n-2$; il existe donc, dans $P^0$, d’après l’hypothèse de récurrence, une base $(e_3, e_4, \ldots, e_n)$ satisfaisant aux conditions de l’énoncé. Pour montrer que la base $(e_1, \ldots, e_n)$ de $E$ ainsi obtenue satisfait aussi à ces conditions, il suffit de prouver que $\alpha_1$ divise $\alpha_2$; or cela résulte de ce que toutes les valeurs $\Phi(x, y)$ sont des multiples de $\alpha_1$. Il est alors clair que $e_{2r+1}, \ldots, e_n$ engendrent $E^0$. Enfin, si $(e'_i)$ est la base duale de $(e_i)$, on a $f(e_{2j-1}) = -\alpha_j e'_{2j}$ et $f(e_{2j}) = \alpha_j e'_{2j}$ pour $j = 1, \ldots, r$ et $f(e_k) = 0$ pour $k = 2r+1, \ldots, n$; les idéaux $A\alpha_1, A\alpha_1, A\alpha_2, A\alpha_2, \ldots, A\alpha_r, A\alpha_r$ sont donc les facteurs invariants de $f(E)$ par rapport à $E^*$, ce qui démontre leur unicité (chap. VII, $§ 4$, no 2, th. 1).
 
-#### Corollaire 1 {#alg-ix-s5-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-ix-s5-thm-1-cor-1 .statement tag=0DL4}
 
 *Soient $A$ un corps commutatif, $E$ un espace vectoriel de dimension finie $n$ sur $A$, et $\Phi$ une forme bilinéaire alternée sur E. Il existe alors une base $(e_i)_{1 \leq i \leq n}$ de E et un entier pair $2r \leq n$ tels que
 
@@ -75,11 +75,11 @@ En particulier $\Phi$ est de rang pair $2r$.
 
 Une base vérifiant (2) est dite base symplectique pour $\Phi$.
 
-#### Remarque {#alg-ix-s5-n1-rem-1 .statement}
+#### Remarque {#alg-ix-s5-n1-rem-1 .statement tag=0DL5}
 
 On notera que ce corollaire est aussi une conséquence immédiate de la prop. 3 du § 4, n° 2 et de son cor. 1, car avec les notations de cette proposition, on a nécessairement $H = \{0\}$ puisque $\Phi$ est alternée.
 
-#### Corollaire 2 {#alg-ix-s5-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-ix-s5-thm-1-cor-2 .statement tag=0DL6}
 
 Soient A un corps commutatif, E un espace vectoriel de dimension finie n sur A. Pour tout bivecteur $z \in \bigwedge^2 E$, il existe une base $(e_i)_{1 \leq i \leq n}$ de E telle que
 
@@ -91,7 +91,7 @@ Il suffit en effet de remarquer que z s’identifie canoniquement à une forme b
 
 En traduisant le cor. 1 en langage matriciel, on obtient :
 
-#### Corollaire 3 {#alg-ix-s5-thm-1-cor-3 .statement}
+#### Corollaire 3 {#alg-ix-s5-thm-1-cor-3 .statement tag=0DL7}
 
 Soient A un corps commutatif, R une matrice carrée alternée sur A. Le rang de R est un nombre pair $2r$, et il existe une matrice inversible P sur A telle que
 
@@ -103,7 +103,7 @@ $$
 \end{pmatrix}.
 $$
 
-#### Remarque {#alg-ix-s5-n1-rem-2 .statement}
+#### Remarque {#alg-ix-s5-n1-rem-2 .statement tag=0DL8}
 
 Si A est un anneau commutatif quelconque et R une matrice carrée alternée d’ordre impair n sur A, on a det $R = 0$. Ceci résulte du cor. 3 lorsque A est un corps. Une démonstration directe dans le cas où A est un corps de caractéristique $\neq 2$ est la suivante : comme ${}^tR = -R$, on a det $R = \det {}^tR = (-1)^n \det R$, d’où $2 \det {}^tR = 0$. Ceci étant, puisque le déterminant d’une matrice alternée $(\alpha_{ij})$ est un polynôme à coefficients entiers par rapport aux $\alpha_{ij}$ tels que $i < j$, le principe de prolongement des identités algébriques (chap. IV, § 2, no 5, Scholie) montre alors que notre assertion est vraie pour un anneau commutatif arbitraire A.
 
@@ -131,11 +131,11 @@ On a donc
 
 (6) $\bigwedge^m u = m! \mathrm{P}((\alpha_{hk})) . e.$
 
-#### Définition 1 {#alg-ix-s5-def-1 .statement}
+#### Définition 1 {#alg-ix-s5-def-1 .statement tag=0DL9}
 
 Etant donnée une matrice alternée $R = (\alpha_{ij})$ $(i, j = 1, \ldots, 2m)$ d’ordre pair $2m$ sur un anneau commutatif quelconque $A$, on appelle pfaffien de $R$, et on note $\mathrm{Pf}(R)$, l’élément $\mathrm{P}((\alpha_{hk}))$ de $A$, où $1 \leq h < k \leq 2m$.
 
-#### Exemple {#alg-ix-s5-n2-exa-1 .statement}
+#### Exemple {#alg-ix-s5-n2-exa-1 .statement tag=0DLA}
 
 Supposons :
 
@@ -143,7 +143,7 @@ $\alpha_{12} = -\alpha_{21} = \beta_1, \alpha_{34} = -\alpha_{43} = \beta_2, \ld
 
 tous les autres $\alpha_{ij}$ étant nuls (cf. th. 1). Alors le pfaffien de $R = (\alpha_{ij})$ est $\beta_1 \beta_2 \ldots \beta_m$.
 
-#### Proposition 1 {#alg-ix-s5-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s5-prop-1 .statement tag=0DLB}
 
 Soient $R$ une matrice alternée d’ordre pair $2m$ sur un anneau commutatif $A$, et $P$ une matrice carrée d’ordre $2m$ sur $A$. On a
 
@@ -155,7 +155,7 @@ $$ u = \sum_{i < j} \alpha_{ij} e_i \wedge e_j = \frac{1}{2} \sum_{1 \leq i, j \
 
 de $\bigwedge^2 \mathbf{A}^{2m}$, où $(e_i)$ désigne la base canonique de $\mathbf{A}^{2m}$; considérons ${}^t P$ comme la matrice, par rapport à la base $(e_i)$, d’un endomorphisme $f$ de $\mathbf{A}^{2m}$. Alors le bivecteur $(\bigwedge f)(u)$ est associé à la matrice ${}^t P . R . P$ puisqu’il est égal à $\frac{1}{2} \sum_{i, j, s, t} \beta_{is} \alpha_{ij} \beta_{jt} e_s \wedge e_t$. Comme l’extension $\bigwedge f$ de $f$ à l’algèbre extérieure $\bigwedge \mathbf{A}^{2m}$ est un endomorphisme de cette algèbre (chap. III, § 5, no 9), on a $\bigwedge ((\bigwedge f)(u)) = (\bigwedge f)(\bigwedge u)$; comme $\bigwedge f$ est l’homothétie de rapport $\det f$, il résulte donc de (6) et de la déf. 1, que l’on a $m! \mathrm{Pf}({}^t P . R . P) = m! (\det P) \mathrm{Pf}(R)$, d’où (7) dans le cas envisagé. Le cas général s’en déduit en remarquant que les deux membres de (7) sont des polynômes à coefficients entiers par rapport aux éléments des matrices $R$ et $P$ (chap. IV, § 2, no 5, Scholie).
 
-#### Proposition 2 {#alg-ix-s5-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s5-prop-2 .statement tag=0DLC}
 
 Pour toute matrice alternée $R$ d’ordre pair $2m$ sur un anneau commutatif $A$, on a
 $$
@@ -184,7 +184,7 @@ $$
 
 Réciproquement si une matrice carrée $A$ d’ordre $2m$ sur $A$ satisfait à (9), elle est symplectique : il suffit en effet de prouver qu’elle est inversible ; or (9) entraîne $\mathrm{Pf}(R_m) = \mathrm{Pf}({}^tA . R_m . A) = (\det A) \mathrm{Pf}(R_m)$ d’après la prop. 1 du n° 2, donc $\det A = 1$. Nous avons en même temps prouvé la proposition suivante :
 
-#### Proposition 3 {#alg-ix-s5-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s5-prop-3 .statement tag=0DLD}
 
 *Le déterminant d’une matrice symplectique est égal à 1.*
 

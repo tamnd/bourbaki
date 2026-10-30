@@ -29,7 +29,7 @@ subsections:
       pdf_page: 287
 statements: 18
 exercises: 25
-content_sha256: a36c76deae8ef6f546a84d2d5f04f7531bcdc7de271814c0812fbdd9e95ec2d3
+content_sha256: bf1440988ed2a64fa9a056d58b1ee7e3ab4622de27566ae6dcb8a7d06400ffd1
 ---
 
 ## § 4. APPROXIMATION DES FONCTIONS CONTINUES NUMÉRIQUES
@@ -54,7 +54,7 @@ $$
 
 sont uniformément continues dans $\mathscr{C} \times \mathscr{C}$.
 
-#### Proposition 1 {#top-x-s4-prop-1 .statement}
+#### Proposition 1 {#top-x-s4-prop-1 .statement tag=0EE9}
 
 Soient X un espace compact, H un ensemble de fonctions continues numériques définies dans X. Soit f une fonction numérique continue dans X, et telle que,
 
@@ -64,25 +64,25 @@ pour tout $x \in X$, il existe une fonction $u_x \in H$ telle que $u_x(x) > f(x)
 
 En effet, pour tout $x \in X$, soit $G_x$ l’ensemble ouvert des $z \in X$ tels que $u_x(z) > f(z)$ (resp. $u_x(z) < f(z)$); comme $x \in G_x$ par hypothèse, $X$ est réunion des $G_x$ lorsque $x$ parcourt $X$. Comme $X$ est compact, il existe un nombre fini de points $x_i$ ($1 \leq i \leq n$) tels que les $G_{x_i}$ forment un recouvrement de $X$; il est clair que les fonctions $f_i = u_{x_i}$ répondent à la question.
 
-#### Théorème 1 (Dini) {#top-x-s4-thm-1 .statement}
+#### Théorème 1 (Dini) {#top-x-s4-thm-1 .statement tag=0EEA}
 
 Soient $X$ un espace compact, $H$ un ensemble filtrant pour la relation $\leq$ (resp. $\geq$) de fonctions numériques continues dans $X$. Si l’enveloppe supérieure (resp. inférieure) $f$ de $H$ est finie et continue dans $X$, $f$ peut être approchée uniformément par des fonctions de $H$ (ou, ce qui revient au même, le filtre des sections de $H$ converge uniformément vers $f$ dans $X$).
 
 En effet, étant donné $\varepsilon > 0$ arbitraire, pour tout $x \in X$ il existe une fonction $u_x \in H$ telle que $u_x(x) > f(x) - \varepsilon$. D’après la prop. 1 et comme $H$ est filtrant pour la relation $\leq$, il existe $g \in H$ telle que $g(x) > f(x) - \varepsilon$ pour tout $x \in X$; comme, d’autre part, on a $g(x) \leq f(x)$ par définition, le théorème est démontré.
 
-#### Corollaire {#top-x-s4-n1-cor-1 .statement}
+#### Corollaire {#top-x-s4-n1-cor-1 .statement tag=0CEW}
 
 Soit $(u_n)$ une suite croissante (resp. décroissante) de fonctions numériques continues dans $X$. Si l’enveloppe supérieure (resp. inférieure) $f$ de la suite $(u_n)$ est finie et continue dans $X$, la suite $(u_n)$ converge uniformément vers $f$ dans $X$.
 
 Il est immédiat que la conclusion du th. 1 n’est plus nécessairement exacte si on ne suppose plus $X$ compact, comme le montre l’exemple de la suite décroissante des fonctions $x/(n + x)$ dans $\mathbf{R}_+$.
 
-#### Proposition 2 {#top-x-s4-prop-2 .statement}
+#### Proposition 2 {#top-x-s4-prop-2 .statement tag=0CEX}
 
 Soient $X$ un espace compact, $H$ un ensemble de fonctions continues numériques définies dans $X$, tel que, pour deux fonctions quelconques $u \in H, v \in H$, les fonctions $\sup(u, v)$ et $\inf(u, v)$ appartiennent à $H$. Pour qu’une fonction numérique $f$ continue dans $X$ puisse être approchée uniformément par des fonctions de $H$, il faut et il suffit que, pour tout $\varepsilon > 0$, et tout couple $(x, y)$ de points de $X$, il existe une fonction $u_{x,y} \in H$ telle que $|f(x) - u_{x,y}(x)| < \varepsilon$ et $|f(y) - u_{x,y}(y)| < \varepsilon$.
 
 La condition est évidemment nécessaire; montrons qu’elle est suffisante. Pour tout $\varepsilon > 0$, nous allons montrer qu’il existe une fonction $g \in H$ telle que $|f(z) - g(z)| < \varepsilon$ pour tout $z \in X$. Soit $x$ un point quelconque de $X$, et $H_x$ l’ensemble des fonctions $u \in H$ telles que $u(x) < f(x) + \varepsilon$. Par hypothèse, pour tout $y \in X$, la fonction $u_{x,y}$ appartient à $H_x$ et on a $u_{x,y}(y) > f(y) - \varepsilon$; d’après la prop. 1 (X, p. 33), il existe donc un nombre fini de fonctions de $H_x$ dont l’enveloppe supérieure $v_x$ est telle que $v_x(z) > f(z) - \varepsilon$ pour tout $z \in X$; d’autre part, on a, par définition de $H_x$, $v_x(x) < f(x) + \varepsilon$; enfin, $v_x$ appartient à $H$ d’après l’hypothèse. La prop. 1 montre donc qu’il existe un nombre fini de fonctions $v_{x_i}$ dont l’enveloppe inférieure $g$ est telle que $g(z) < f(z) + \varepsilon$ pour tout $z \in X$; d’autre part, comme on a $v_{x_i}(z) > f(z) - \varepsilon$ pour tout $z \in X$ et pour chaque indice $i$, on a aussi $g(z) > f(z) - \varepsilon$ pour tout $z \in X$; comme $g \in H$ d’après l’hypothèse, la proposition est démontrée.
 
-#### Remarque {#top-x-s4-n1-rem-1 .statement}
+#### Remarque {#top-x-s4-n1-rem-1 .statement tag=0CEY}
 
 Lorsque l’ensemble $H$ satisfait aux conditions de l’énoncé, il est réticulé pour la relation d’ordre $f \leq g$. Mais on notera qu’un sous-ensemble $H$ de $C$ peut être réticulé pour cette relation d’ordre sans que la borne supérieure (resp. inférieure) dans $H$ de deux fonctions $u, v$ de $H$ coïncide avec leur borne supérieure (resp. inférieure) dans $C$, c’est-à-dire avec la fonction
 $$
@@ -90,11 +90,11 @@ x \mapsto \sup(u(x), v(x)) \quad (\text{resp. } x \mapsto \inf(u(x), v(x))).
 $$
 \* Un exemple en est fourni par les applications convexes d’un intervalle compact de $\mathbf{R}$ dans $\mathbf{R}$ (cf. FVR, I, § 4, exerc. 20).*
 
-#### Corollaire {#top-x-s4-n1-cor-2 .statement}
+#### Corollaire {#top-x-s4-n1-cor-2 .statement tag=0CEZ}
 
 *On suppose que $H$ soit tel que, pour deux fonctions quelconques $u \in H$, $v \in H$, les fonctions $\sup(u, v)$ et $\inf(u, v)$ appartiennent à $H$, et en outre que, pour tout couple de points distincts $x, y$ de $X$ et tout couple de nombres réels $\alpha, \beta$, il existe une fonction $g \in H$ telle que $g(x) = \alpha$ et $g(y) = \beta$. Alors toute fonction numérique continue dans $X$ peut être approchée uniformément par des fonctions de $H$.*
 
-#### Théorème 2 (Stone) {#top-x-s4-thm-2 .statement}
+#### Théorème 2 (Stone) {#top-x-s4-thm-2 .statement tag=0CF1}
 
 *Soient $X$ un espace compact, $H$ un sous-espace vectoriel de $C(X, \mathbf{R})$ tel que: 1° les fonctions constantes appartiennent à $H$; 2° la relation $u \in H$ entraîne $|u| \in H$; 3° $H$ sépare les points de $X$ (IX, p. 9, déf. 5). Dans ces conditions, toute fonction numérique continue dans $X$ peut être approchée uniformément par des fonctions de $H$.*
 
@@ -113,7 +113,7 @@ $$
 
 où $g$ est un polynôme (resp. un polynôme sans terme constant) à coefficients réels par rapport à $n$ indéterminées ($n$ quelconque) et où les $f_i$ ($1 \leq i \leq n$) appartiennent à $\mathbf{H}$.
 
-#### Théorème 3 (Weierstrass-Stone) {#top-x-s4-thm-3 .statement}
+#### Théorème 3 (Weierstrass-Stone) {#top-x-s4-thm-3 .statement tag=0CF2}
 
 Soient $X$ un espace compact, $\mathbf{H}$ un ensemble de fonctions numériques continues dans $X$, séparant les points de $X$. Alors toute fonction numérique continue dans $X$ peut être approchée uniformément par des polynômes (à coefficients réels) par rapport aux fonctions de $\mathbf{H}$.
 
@@ -121,13 +121,13 @@ Il revient au même de dire qu’une sous-algèbre de $\mathscr{C}(X; \mathbf{R}
 
 Soit $\mathbf{H}_0$ l’ensemble des polynômes par rapport aux fonctions de $\mathbf{H}$ et $\overline{\mathbf{H}}_0$ son adhérence dans $\mathscr{C}$; pour tout polynôme $g$ à $n$ variables, à coefficients réels, $(u_1, u_2, \ldots, u_n) \mapsto g(u_1, u_2, \ldots, u_n)$ est une application continue de $\mathscr{C}^n$ dans $\mathscr{C}$, qui applique $\mathbf{H}_0^n$ dans $\mathbf{H}_0$; elle applique donc $\overline{\mathbf{H}}_0^n$ dans $\overline{\mathbf{H}}_0$ (I, p. 9, th. 1). En particulier, $\overline{\mathbf{H}}_0$ est un sous-espace vectoriel de $\mathscr{C}$, et satisfait évidemment à la première et à la troisième condition du th. 2 (X, p. 35); nous allons voir qu’il satisfait aussi à la seconde, d’où résultera que $\overline{\mathbf{H}}_0 = \mathscr{C}$. Comme toute fonction $u \in \overline{\mathbf{H}}_0$ est bornée dans $X$, il suffira de démontrer le lemme suivant:
 
-#### Lemme 1 {#top-x-s4-lem-1 .statement}
+#### Lemme 1 {#top-x-s4-lem-1 .statement tag=0CF3}
 
 Pour tout nombre $\varepsilon > 0$ et tout intervalle compact $I \subset \mathbf{R}$, il existe un polynôme $p(t)$ sans terme constant tel que $|p(t) - |t|| \leq \varepsilon$ dans $I$.
 
 Il suffit d’établir le lemme dans un intervalle de la forme $I = (-a, +a)$, et par suite, en remplaçant $t$ par $at$, dans l’intervalle $(-1, +1)$. Comme on peut écrire $|t| = \sqrt{t^2}$, le lemme 1 sera donc la conséquence du résultat suivant:
 
-#### Lemme 2 {#top-x-s4-lem-2 .statement}
+#### Lemme 2 {#top-x-s4-lem-2 .statement tag=0CF4}
 
 Soit $(p_n)$ la suite des polynômes sans terme constant définie par récurrence sur $n$ par les conditions $p_0(t) = 0$, et
 $$
@@ -159,13 +159,13 @@ C.Q.F.D.
 
 Lorsqu’on ne suppose plus X compact, la conclusion du th. 3 n’est plus nécessairement exacte. Par exemple, une fonction numérique continue, bornée et non constante dans $\mathbf{R}$, ne peut être approchée uniformément dans $\mathbf{R}$ par des polynômes (cf. X, p. 55, exerc. 6).
 
-#### Proposition 3 {#top-x-s4-prop-3 .statement}
+#### Proposition 3 {#top-x-s4-prop-3 .statement tag=0CF5}
 
 *Soient* $(\mathbf{K}_i)_{i \in I}$ *une famille d’intervalles compacts de* $\mathbf{R}$, $\mathbf{K} = \prod_{i \in I} \mathbf{K}_i$ *l’espace produit de ces intervalles, X un sous-espace compact de K. Toute fonction numérique continue dans X peut être uniformément par des polynômes par rapport aux coordonnées* $x_i = \mathrm{pr}_i x$.
 
 En effet, si $x = (x_i)$ et $y = (y_i)$ sont deux points distincts de X, il existe un indice $i$ tel que $x_i \neq y_i$, ce qui montre que la famille des fonctions continues pr_i satisfait aux conditions du th. 3.
 
-#### Proposition 4 {#top-x-s4-prop-4 .statement}
+#### Proposition 4 {#top-x-s4-prop-4 .statement tag=0CF6}
 
 *Soient* X *un espace compact, A une partie fermée de X, H un ensemble de fonctions numériques continues dans X, séparant les points de* $\mathbf{C} A$, *et tel que A soit l’intersection des ensembles* $u^{-1}(0)$, *où u parcourt* H. *Dans ces conditions, toute fonction numérique continue dans X et nulle dans A peut être approchée uniformément par des polynômes sans terme constant par rapport aux fonctions de H*.
 
@@ -175,7 +175,7 @@ Dans le cas général, considérons dans X la relation d’équivalence R dont l
 
 ### 3. Application: approximation des fonctions numériques continues définies dans un produit d’espaces compacts
 
-#### Théorème 4 {#top-x-s4-thm-4 .statement}
+#### Théorème 4 {#top-x-s4-thm-4 .statement tag=0CF7}
 
 Soient $(X_i)_{i \in I}$ une famille d’espaces compacts, $X = \prod_{i \in I} X_i$ leur produit. Toute fonction numérique continue dans $X$ peut être approchée uniformément par des sommes d’un nombre fini de fonctions de la forme $(x_i) \mapsto \prod_{\alpha \in J} u_\alpha(x_\alpha)$, où $J$ est une partie finie (quelconque) de $I$ et où, pour chaque $\alpha \in J$, $u_\alpha$ est une fonction numérique continue dans $X_\alpha$.
 
@@ -189,7 +189,7 @@ Soient $X$ un espace compact, $Y$ un espace vectoriel normé sur le corps $\math
 
 Étant donné un ensemble $H$ de fonctions numériques continues, définies dans $X$, une famille finie $(u_i)_{1 \leq i \leq n}$ de fonctions appartenant à $H$, et une famille finie $(a_i)_{1 \leq i \leq n}$ de points de $Y$, l’application $x \mapsto \sum_{i=1}^n a_i u_i(x)$ de $X$ dans $Y$ est continue; nous la désignerons par $\sum_{i=1}^n a_i u_i$, et nous dirons que c’est une combinaison linéaire de fonctions de $H$, à coefficients dans $Y$. Nous dirons encore qu’une application continue $f$ de $X$ dans $Y$ peut être approchée uniformément par des combinaisons linéaires (à coefficients dans $Y$) de fonctions de $H$, si $f$ est adhérente au sous-espace vectoriel de $C(X; Y)$ formé par l’ensemble de ces combinaisons.
 
-#### Proposition 5 {#top-x-s4-prop-5 .statement}
+#### Proposition 5 {#top-x-s4-prop-5 .statement tag=0CF8}
 
 Soient $X$ un espace compact, $Y$ un espace normé sur $\mathbf{R}$, $H$ une partie de $C(X; \mathbf{R})$. Si toute fonction numérique continue dans $X$ peut être approchée uniformément par des fonctions de $\mathbf{H}$, toute application continue $\mathbf{f}$ de $X$ dans $Y$ peut être approchée uniformément par des combinaisons linéaires (à coefficients dans $Y$) de fonctions de $\mathbf{H}$.
 
@@ -209,7 +209,7 @@ pour tout $x \in X$ ($1 \leq i \leq n$); on a donc $\| \mathbf{f}(x) - \sum_{i=1
 
 A chacune des propositions démontrées ci-dessus, où on établit qu’une certaine partie $\mathbf{H}$ de $\mathscr{C}(X; \mathbf{R})$ est partout dense, correspond donc, par la prop. 5, une proposition analogue pour les applications continues de $X$ dans un espace normé quelconque $Y$. Nous nous bornerons à expliciter la proposition qui correspond ainsi au th. 3 (X, p. 36). Étant donné un ensemble $\mathbf{H}$ de fonctions numériques définies dans $X$, appelons polynôme par rapport aux fonctions de $\mathbf{H}$, à coefficients dans $Y$, toute combinaison linéaire, à coefficients dans $Y$, de produits d’une famille finie (éventuellement vide) de fonctions de $\mathbf{H}$. Alors:
 
-#### Proposition 6 {#top-x-s4-prop-6 .statement}
+#### Proposition 6 {#top-x-s4-prop-6 .statement tag=0CF9}
 
 *Soient $X$ un espace compact, $\mathbf{H}$ un ensemble de fonctions numériques continues dans $X$, séparant les points de $X$. Dans ces conditions, toute application continue de $X$ dans un espace normé $Y$ sur $\mathbf{R}$ peut être approchée uniformément par des polynômes par rapport aux fonctions de $\mathbf{H}$, à coefficients dans $Y$.*
 
@@ -218,13 +218,13 @@ $$
 \Re f = \frac{1}{2} (f + \bar{f}) \quad \text{et} \quad \Im f = \frac{1}{2i} (f - \bar{f}).
 $$
 
-#### Corollaire 1 {#top-x-s4-prop-6-cor-1 .statement}
+#### Corollaire 1 {#top-x-s4-prop-6-cor-1 .statement tag=0EEB}
 
 *Si $X$ est une partie compacte de l’espace $\mathbf{C}^n$, toute application continue $(z_1, z_2, \ldots, z_n) \mapsto f(z_1, z_2, \ldots, z_n)$ de $X$ dans un espace normé $Y$ sur le corps $\mathbf{C}$ peut être approchée uniformément par des polynômes à coefficients dans $Y$ par rapport aux $z_k$ et aux $\overline{z}_k$.*
 
 Nous verrons plus tard qu’en général il n’est pas possible d’approcher uniformément $f$ par des polynômes (à coefficients dans $Y$) *par rapport aux seules variables* $z_k$ même si $Y = \mathbf{C}$.
 
-#### Corollaire 2 {#top-x-s4-prop-6-cor-2 .statement}
+#### Corollaire 2 {#top-x-s4-prop-6-cor-2 .statement tag=0EEC}
 
 *Soient $X$ un espace localement compact, $\mathscr{C}_0(X)$ l’algèbre normée sur $\mathbf{C}$ des applications continues de $X$ dans $\mathbf{C}$, tendant vers $0$ à l’infini. Soit $A$ une sous-algèbre de $\mathscr{C}_0(X)$, séparant les points de $X$, telle que pour tout $x \in X$, il existe $f \in A$ pour laquelle $f(x) \neq 0$, et telle que la relation $f \in A$ entraîne $\bar{f} \in A$. Alors $A$ est dense dans $\mathscr{C}_0(X)$.*
 
@@ -236,7 +236,7 @@ En vertu de la prop. 7 (X, p. 39), toute fonction $f \in \mathscr{C}_0(X)$ peut 
 
 Comme autre exemple d’application de la prop. 7, citons le résultat suivant:
 
-#### Proposition 8 {#top-x-s4-prop-8 .statement}
+#### Proposition 8 {#top-x-s4-prop-8 .statement tag=0CFD}
 
 *Soit $P$ l’ensemble des applications continues périodiques de $\mathbf{R}^m$ dans $\mathbf{C}$ dont le groupe des périodes contient $\mathbf{Z}^m$. Toute fonction appartenant à $P$ peut être approchée uniformément, dans $\mathbf{R}^m$, par des combinaisons linéaires à coefficients complexes des fonctions de la forme*
 $$

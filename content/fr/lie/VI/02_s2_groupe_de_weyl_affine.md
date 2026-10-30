@@ -32,7 +32,7 @@ subsections:
       pdf_page: 177
 statements: 17
 exercises: 5
-content_sha256: 54657bea70e567584af33764e5b954ae4fe2f0089bdb68124cfebe45d557cc87
+content_sha256: ee7a5124e7adb5f199ad4fdf55180cdf16d42cec95dca5f4fe3d7013a8021d0c
 ---
 
 ## § 2. Groupe de Weyl affine
@@ -64,11 +64,11 @@ où $s_\alpha$ est la réflexion orthogonale par rapport à l’hyperplan $L_\al
 
 La formule (1) montre que $s_{\alpha, k}$ ne dépend pas du produit scalaire choisi.
 
-#### Définition 1 {#lie-vi-s2-def-1 .statement}
+#### Définition 1 {#lie-vi-s2-def-1 .statement tag=0AWZ}
 
 On appelle groupe de Weyl affine du système de racines R et on note $W_a(R)$ (ou simplement $W_a$) le groupe de transformations affines de E engendré par les réflexions $s_{\alpha, k}$ pour $\alpha \in R$ et $k \in \mathbf{Z}$.
 
-#### Proposition 1 {#lie-vi-s2-prop-1 .statement}
+#### Proposition 1 {#lie-vi-s2-prop-1 .statement tag=0AX0}
 
 Le groupe $W_a$ est produit semi-direct de W par Q .
 
@@ -76,7 +76,7 @@ Comme W est engendré par les réflexions $s_\alpha$, il est contenu dans $W_a$.
 
 Comme W laisse stable $Q(R^\vee)$ (§ 1, no 9), le groupe de transformations affines G engendré par W et Q est le produit semi-direct de W par Q. On a $G \subset W_a$ d’après ce qui précède et $s_{\alpha, k} \in G$ quels que soient $\alpha \in \mathbf{R}$ et $k \in \mathbf{Z}$ d’après (1). On en conclut que $W_a = G$.
 
-#### Proposition 2 {#lie-vi-s2-prop-2 .statement}
+#### Proposition 2 {#lie-vi-s2-prop-2 .statement tag=0AX1}
 
 *Le groupe $W_a$, muni de la topologie discrète, opère proprement sur E et permutte entre eux les hyperplans $L_{\alpha, k}$ (pour $\alpha \in \mathbf{R}$ et $k \in \mathbf{Z}$).*
 
@@ -97,13 +97,13 @@ Notons encore que le cor. du th. 1 du chap. V, § 3, no 2 montre que les $s_{\al
 
 ### 2. Poids et points spéciaux
 
-#### Proposition 3 {#lie-vi-s2-prop-3 .statement}
+#### Proposition 3 {#lie-vi-s2-prop-3 .statement tag=0AX2}
 
 *Les points spéciaux* (chap. V, § 3, no 10, déf. 1) *de $W_a$ sont les poids de $R^\vee$*.
 
 Soit $x_0 \in E$ et soit $\alpha \in \mathbf{R}$. L’hyperplan L parallèle à Ker $\alpha$ et passant par $x_0$ a pour équation $\langle \alpha, x \rangle = \langle \alpha, x_0 \rangle$. Pour qu’il soit égal à $L_{\beta, k}$, il faut d’une part que $\alpha$ et $\beta$ soient proportionnelles, ou encore, puisque R est réduit, que $\beta = \pm \alpha$, et d’autre part que $\langle \alpha, x_0 \rangle$ soit entier. On en déduit aussitôt que $x_0$ est un point spécial de $W_a$ si et seulement si $\langle \alpha, x_0 \rangle \in \mathbf{Z}$ pour tout $\alpha \in \mathbf{R}$, c’est-à-dire si et seulement si $x_0 \in P(R^\vee)$ (§ 1, no 9).
 
-#### Corollaire {#lie-vi-s2-n2-cor-1 .statement}
+#### Corollaire {#lie-vi-s2-n2-cor-1 .statement tag=0AX3}
 
 (i) *Si $\varpi \in P(R^\vee)$, il existe une alcôve C telle que $\varpi$ soit point extrémal de $\overline{C}$.*
 
@@ -111,7 +111,7 @@ Soit $x_0 \in E$ et soit $\alpha \in \mathbf{R}$. L’hyperplan L parallèle à 
 
 Cela résulte de la prop. 3, compte tenu du cor. de la prop. 11 du chap. V, § 3, no 10 et de la prop. 12 du chap. V, § 3, no 10.
 
-#### Proposition 4 {#lie-vi-s2-prop-4 .statement}
+#### Proposition 4 {#lie-vi-s2-prop-4 .statement tag=0AX4}
 
 Soit $C'$ une chambre de $R^\vee$.
 (i) Il existe une alcôve $C$ et une seule contenue dans $C'$ et telle que $0 \in \overline{C}$.
@@ -128,7 +128,7 @@ $$
 
 la plus grande racine de $R$ (§ 1, no 8), et soit $J$ l’ensemble des $i \in I$ tels que $n_i = 1$.
 
-#### Proposition 5 {#lie-vi-s2-prop-5 .statement}
+#### Proposition 5 {#lie-vi-s2-prop-5 .statement tag=0AX5}
 
 Soit $C$ l’alcôve contenue dans $C'$ à laquelle $0$ est adhérent (prop. 4).
 (i) $C$ est l’ensemble des $x \in E$ tels que $\langle \alpha_i, x \rangle > 0$ pour tout $i \in I$ et que $\langle \tilde{\alpha}, x \rangle < 1$.
@@ -138,7 +138,7 @@ Soit $D$ l’ensemble des $x \in E$ tels que $\langle \tilde{\alpha}, x \rangle 
 
 Soit maintenant $\omega \in P(R^\vee)$. On a $\omega = \sum_i p_i \omega_i$, avec $p_i \in \mathbf{Z}$ (§ 1, no 10). Pour que $\omega \in \overline{C}'$, il faut et il suffit que les entiers $p_i$ soient tous positifs. Si $\omega \in \overline{C}'$, pour que $\omega \in \overline{C}$ il faut et il suffit que $\langle \tilde{\alpha}, \omega \rangle = \sum_i n_i p_i$ soit $\leq 1$, d’où (ii).
 
-#### Corollaire {#lie-vi-s2-n2-cor-2 .statement}
+#### Corollaire {#lie-vi-s2-n2-cor-2 .statement tag=0AX6}
 
 L’alcôve $C$ est un simplexe ouvert de sommets $0$ et les $\omega_i / n_i, i \in I$.
 Cela résulte de (i).
@@ -161,7 +161,7 @@ Soit maintenant C une alcôve de E, et soit $G_C$ le sous-groupe formé des él�
 
 Supposons que R soit irréductible, et reprenons les notations de la prop. 5 du no 2. Posons $R_0 = R$, et soit $R_i$ ($i \in I$) le système de racines engendré par les $\alpha_j$, pour $j \neq i$. Pour $i = 0$ (resp. $i \in I$), soit $w_i$ l’unique élément de $W(R_i)$ (identifié à un sous-groupe de W) qui transforme les racines positives de $R_i$ relativement à la base $(\alpha_j)_{j \neq i}$ en racines négatives (§ 1, no 6, cor. 3 de la prop. 17).
 
-#### Proposition 6 {#lie-vi-s2-prop-6 .statement}
+#### Proposition 6 {#lie-vi-s2-prop-6 .statement tag=0AX7}
 
 Pour tout $i \in J$, l’élément $\gamma_i = t(\overline{\omega}_i) w_i w_0$ appartient à $\Gamma_C$ et l’application $i \mapsto \gamma_i$ est une bijection de J sur $\Gamma_C - \{1\}$.
 
@@ -194,29 +194,29 @@ $$
 $$
 puisque $w_0(a) \in -\mathbf{C}'$ et que $w_i(\tilde{\alpha})$ est une racine positive. Les relations (2), (3) et (4) entraînent alors que $b \in \mathbf{C}$, d’où $\gamma_i \in \Gamma_C$. Il est clair que l’application $i \mapsto \gamma_i$ est injective, puisque $\gamma_i(0) = \overline{\omega}_i$. Enfin, soit $\gamma \in \Gamma_C$, avec $\gamma \neq 1$ et posons $\gamma = t w$, avec $t \in \mathbf{P}$ et $w \in W$. On a $t \neq 1$ puisque $\Gamma_C \cap W = \{1\}$. D’autre part, on a $t(0) = \gamma(0) \in \overline{\mathbf{C}} \cap \mathbf{P}(R^\vee)$ et la prop. 5 entraîne qu’il existe $i \in J$ tel que $t(0) = \overline{\omega}_i$. On a alors $\gamma_i^{-1} \gamma(0) = 0$, d’où $\gamma = \gamma_i$ puisque $\Gamma_C \cap W = \{1\}$. Ceci achève la démonstration.
 
-#### Corollaire {#lie-vi-s2-n3-cor-1 .statement}
+#### Corollaire {#lie-vi-s2-n3-cor-1 .statement tag=0AX8}
 
 Les $(\overline{\omega}_i)_{i \in J}$ forment un système de représentants dans $\mathbf{P}(R^\vee)$ des éléments non nuls de $\mathbf{P}(R^\vee)/\mathbf{Q}(R^\vee)$.
 
 En effet, si l’on identifie $\Gamma_C$ à $\mathbf{P}(R^\vee)/\mathbf{Q}(R^\vee)$, l’élément $\gamma_i$ est transformé en la classe de $\overline{\omega}_i$ mod. $\mathbf{Q}(R^\vee)$.
 
-#### Remarque 1 {#lie-vi-s2-n3-rem-1 .statement}
+#### Remarque 1 {#lie-vi-s2-n3-rem-1 .statement tag=0AX9}
 
 L’application $\gamma \mapsto \gamma(0)$ est une bijection de $\Gamma_C$ sur $\overline{\mathbf{C}} \cap \mathbf{P}(R^\vee)$.
 
-#### Remarque 2 {#lie-vi-s2-n3-rem-2 .statement}
+#### Remarque 2 {#lie-vi-s2-n3-rem-2 .statement tag=0AXA}
 
 Le groupe $G$ est aussi le normalisateur de $W_a$ dans le groupe des automorphismes de $E$ muni seulement de sa structure affine (cf. exerc. 3).
 
 ### 4. Application : ordre du groupe de Weyl
 
-#### Lemme 1 {#lie-vi-s2-lem-1 .statement}
+#### Lemme 1 {#lie-vi-s2-lem-1 .statement tag=0AXB}
 
 Soient $X$ un espace localement compact dénombrable à l’infini, $G$ un groupe discret opérant continûment et proprement dans $X$, $\mu$ une mesure $\geq 0$ sur $X$ invariante par $G$, $G'$ un sous-groupe de $G$, $U$ et $U'$ deux parties ouvertes de $X$ de mesures finies $\neq 0$. On suppose que les $sU$ pour $s \in G$ (resp. les $s'U'$ pour $s' \in G'$) sont deux à deux disjoints et que leur réunion est de complémentaire négligeable. Alors $G'$ est d’indice fini dans $G$ et l’on a $(G : G') = \mu(U')/\mu(U)$.
 
 Soit $(s_\lambda)_{\lambda \in \Lambda}$ une famille de représentants des classes à droite de $G$ suivant $G'$. Soit $U_1$ la réunion des $s_\lambda U$. Alors les $s'U_1$, pour $s' \in G'$, sont deux à deux disjoints et de réunion $M = \bigcup_{s \in G} sU$. Soit $M' = \bigcup_{s' \in G'} s'U'$. La réunion de $U'$ (resp. $U_1$) et d’une partie convenable de $X - M'$ (resp. $X - M$) est un domaine fondamental, évidemment $\mu$-mesurable, pour $G'$. D’après Intégr., chap. VII, § 2, n° 10, cor. du th. 4, on a $\mu(U') = \mu(U_1)$. Ceci prouve que Card $\Lambda = (G : G')$ est fini, et que $\mu(U') = (\text{Card } \Lambda)\mu(U)$.
 
-#### Proposition 7 {#lie-vi-s2-prop-7 .statement}
+#### Proposition 7 {#lie-vi-s2-prop-7 .statement tag=0AXC}
 
 *Supposons R irréductible. Soient B = \{ \alpha_1, \ldots, \alpha_l \} une base de R, f l’indice de connexion de R (§ 1, n° 9) et $\tilde{\alpha} = n_1 \alpha_1 + \cdots + n_l \alpha_l$ la plus grande racine de R (pour l’ordre défini par B). Alors l’ordre de W est égal à*
 
@@ -255,7 +255,7 @@ La proposition résulte alors de la comparaison des formules (5), (6) et (7).
 
 ### 5. Systèmes de racines et groupes engendrés par des réflexions
 
-#### Proposition 8 {#lie-vi-s2-prop-8 .statement}
+#### Proposition 8 {#lie-vi-s2-prop-8 .statement tag=0AXD}
 
 *Soit F un espace hilbertien réel de dimension finie l. Soient $\mathscr{H}$ un ensemble d’hyperplans affines de F et G le groupe engendré par les réflexions orthogonales $s_H$ par rapport aux hyperplans $H \in \mathscr{H}$. On suppose que les conditions du chap. V, § 3 sont vérifiées (i.e. que $g(H) \in \mathscr{H}$ pour tout $H \in \mathscr{H}$ et $g \in G$, et que G opère proprement dans F). On suppose de plus que 0 est point spécial pour G et que le groupe T des translations appartenant à G est de rang l. Il existe alors un système de racines réduit R et un seul dans $V = F^*$ tel que l’isomorphisme canonique de F sur $V^*$ transforme G en le groupe de Weyl affine $W_a$ de R.*
 
@@ -319,7 +319,7 @@ Remarque 1). — L’hypothèse que T est de rang l est en particulier vérifié
 
 Un groupe fini engendré par des réflexions n’est pas toujours le groupe de Weyl d’un système de racines. Plus précisément :
 
-#### Proposition 9 {#lie-vi-s2-prop-9 .statement}
+#### Proposition 9 {#lie-vi-s2-prop-9 .statement tag=0AXF}
 
 *Soit V un espace vectoriel réel de dimension finie l, et soit G un sous-groupe fini de $\mathbf{GL}(V)$, engendré par des réflexions et essentiel. Munissons V d’un produit scalaire invariant par G. Les conditions suivantes sont équivalentes :*
 
@@ -336,7 +336,7 @@ Un groupe fini engendré par des réflexions n’est pas toujours le groupe de W
 
 (i) $\Longrightarrow$ (iv) : supposons que $G$ laisse stable un sous-groupe discret $M$ de $V$, de rang $l$. Munissons $V$ d’un produit scalaire invariant par $G$. Pour toute réflexion $s \in G$, on a $s(x) — x \in M$ quel que soit $x \in M$, donc la droite $D_s$ orthogonale à $H_s$ rencontre $M$; soient $\alpha_s, — \alpha_s$ les générateurs du groupe cyclique $D_s \cap M$. L’ensemble $A$ des $\alpha_s$ et des $— \alpha_s$ est stable par $G$, donc engendre un sous-groupe $M'$ de $M$ stable par $G$; le groupe discret $M'$ est de rang $l$ parce que $G$ est essentiel. Soit $G'$ le groupe de transformations affines de $V$ produit semi-direct de $G$ et du groupe des translations dont les vecteurs appartiennent à $M'$. Soit $G'_1$ le sous-groupe de $G'$ engendré par les réflexions de $G'$. On va montrer que $G'_1 = G'$, ce qui achèvera la démonstration. D’abord, $G'_1 \supseteq G$ puisque $G$ est engendré par des réflexions. D’autre part, pour toute réflexion $s$ de $G$, soit $t_s$ la translation de vecteur $\alpha_s$. La transformation $s \circ t_s$ est une réflexion, et $s \circ t_s \in G'$; donc $t_s$ est un produit de deux réflexions de $G'$; ceci étant vrai pour toute réflexion $s$ de $G$, les translations dont le vecteur appartient à $M'$ sont toutes dans $G'_1$.
 
-#### Définition 2 {#lie-vi-s2-def-2 .statement}
+#### Définition 2 {#lie-vi-s2-def-2 .statement tag=0AXG}
 
 Un groupe $G$ vérifiant les conditions équivalentes de la prop. 9 est appelé un groupe cristallographique.
 

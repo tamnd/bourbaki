@@ -25,7 +25,7 @@ subsections:
       pdf_page: 96
 statements: 25
 exercises: 41
-content_sha256: 3e438a5074993d94e5c35a2ed9a42315e445e34dd1a538be54b7d454b46e705d
+content_sha256: 22d95840ffabe8b6785fd072e99b3e2c661d928808a15f7fba597b9ef08ecda5
 translated_from: content/en/evt/II/07_s7_extremal_points_and_extremal_generators.md
 source_content_sha256: ba5544881bc2d551481082f09b14e6852c10e86a0663b8e63d376fbaadf87175
 translation_model: gpt-5.4
@@ -39,7 +39,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các điểm cực biên của các tập hợp lồi compắc
 
-#### Định nghĩa 1 {#evt-ii-s7-def-1 .statement}
+#### Định nghĩa 1 {#evt-ii-s7-def-1 .statement tag=07IP}
 
 Cho $A$ là một tập hợp lồi trong một không gian afin $E$. Khi đó ta nói rằng một điểm $x \in A$ là một điểm cực biên của $A$ nếu không tồn tại một đoạn thẳng mở nào được chứa trong $A$ và chứa $x$.
 
@@ -47,7 +47,7 @@ Nói cách khác, các quan hệ $x = \lambda y + (1 - \lambda)z,\ y \in A,\ z \
 
 Nói rằng $x$ là một điểm cực biên của $A$ còn có nghĩa là $A - \{x\}$ là lồi.
 
-#### Ví dụ 1 {#evt-ii-s7-n1-exa-1 .statement}
+#### Ví dụ 1 {#evt-ii-s7-n1-exa-1 .statement tag=07IQ}
 
 Trong không gian $\mathbf{R}^n$, mọi điểm của mặt cầu $S_{n-1}$ đều là các điểm cực biên của quả cầu đóng $B_n$. Thật vậy, nếu $\sum_i y_i^2 \leq 1,\ \sum_i z_i^2 \leq 1$ và $0 < \lambda < 1$, thì quan hệ
 $$
@@ -59,7 +59,7 @@ $$
 $$
 Nhưng điều này suy ra $\sum_i (y_i - z_i)^2 = 0$, do đó $y_i = z_i$ với mọi $i$, điều đó chứng minh mệnh đề của ta.
 
-#### Ví dụ 2 {#evt-ii-s7-n1-exa-2 .statement}
+#### Ví dụ 2 {#evt-ii-s7-n1-exa-2 .statement tag=07IR}
 
 Trong không gian chuẩn $\mathscr{B}(\mathbf{N})$ của các dãy số thực bị chặn (I, p. 4), các điểm cực biên của quả cầu đơn vị là các điểm $x = (\xi_n)$ sao cho $|\xi_n| = 1$ với mọi $n$. Thật vậy, giả sử rằng ta có $|\xi_n| \leq 1$ với mọi $n$ và $|\xi_p| < 1$ đối với một chỉ số $p$. Khi đó ta có thể viết
 $$
@@ -67,11 +67,11 @@ x = \frac{1 + \xi_p}{2} y + \frac{1 - \xi_p}{2} z
 $$
 trong đó $y$ (tương ứng $z$) là điểm mà mọi tọa độ đều bằng tọa độ của $x$ có cùng chỉ số, trừ trong trường hợp chỉ số $p$ thì tọa độ bằng 1 (tương ứng $-1$). Điều này cho thấy $x$ không cực biên, vì ta có $\|y\| \leq 1$ và $\|z\| \leq 1$. Ngược lại, nếu $|\xi_n| = 1$ với mọi $n$, thì $x$ là cực biên, vì quan hệ $\xi_n = \lambda \eta_n + (1 - \lambda) \zeta_n$ với $|\eta_n| \leq 1,\ |\zeta_n| \leq 1$ và $0 < \lambda < 1$ kéo theo $\xi_n = \eta_n = \zeta_n$.
 
-#### Ví dụ 3 {#evt-ii-s7-n1-exa-3 .statement}
+#### Ví dụ 3 {#evt-ii-s7-n1-exa-3 .statement tag=07IS}
 
 Cho $u : E \to E'$ là một ánh xạ afin từ một không gian afin $E$ vào một không gian afin $E'$; cho $C \subset E,\ C' \subset E'$ là hai tập hợp lồi sao cho $u(C) \subset C'$. Nếu $x'$ là một điểm cực biên của $C'$ và $x$ là một điểm cực biên của $u^{-1}(x') \cap C$, thì $x$ là một điểm cực biên của $C$, như suy ra từ định nghĩa 1.
 
-#### Mệnh đề 1 {#evt-ii-s7-prop-1 .statement}
+#### Mệnh đề 1 {#evt-ii-s7-prop-1 .statement tag=07IT}
 
 Cho $B$ là tập hợp các điểm cực biên của $A$, trong đó $A$ là một tập hợp lồi compắc không rỗng trong một không gian lồi địa phương Hausdorff $E$, và cho $f$ là một hàm lồi xác định trên $A$ và nửa liên tục trên. Khi đó $f$ đạt cận trên của nó trong $A$ tại một điểm (ít nhất) của $B$.
 
@@ -94,25 +94,25 @@ nhưng vì $h(x) \leq \alpha, h(y) \leq \alpha$ và $h(z) = \alpha$, tất yếu
 
 Sau khi đã thiết lập các tính chất này, gọi M là tập hợp các $x \in A$ tại đó $f$ đạt cận trên của nó trên A; theo (iv), $M \in \mathscr{F}$. Mặt khác, theo (iii) và thực tế rằng các tập hợp của $\mathscr{F}$ là các tập con đóng của tập compact A, suy ra $\mathscr{F}$ là *quy nạp* đối với quan hệ thứ tự $\supset$. Theo th. 2 của S, III, § 2.4, M chứa một tập con N là một phần tử cực tiểu của $\mathscr{F}$. Ta sẽ chỉ ra rằng N chỉ gồm một điểm và điều đó sẽ hoàn tất chứng minh của mệnh đề. Vì E là một không gian lồi địa phương Hausdorff, chỉ cần chỉ ra rằng mọi dạng tuyến tính liên tục $u$ trên E đều là hằng trên N (II, p. 38, cor. 1). Bây giờ từ (iv) suy ra rằng tập $N'$ gồm các $x \in N$ tại đó $u|N$ đạt cận trên của nó trên N là sao cho $N'$ thuộc $\mathscr{F}$; vì N là cực tiểu trong $\mathscr{F}$ nên tất yếu ta có $N' = N$.
 
-#### Hệ quả {#evt-ii-s7-n1-cor-1 .statement}
+#### Hệ quả {#evt-ii-s7-n1-cor-1 .statement tag=07IU}
 
 *Cho A là một tập compact lồi trong một không gian lồi địa phương Hausdorff E. Khi đó mọi siêu phẳng tựa đóng H của A đều chứa ít nhất một điểm cực biên của A.*
 
 Thật vậy, nếu $f(x) = \alpha$ là một phương trình của H và $f(x) \leq \alpha$ trên A, thì chỉ cần áp dụng prop. 1 cho $f$.
 
-#### Định lý 1 (Krein-Milman) {#evt-ii-s7-thm-1 .statement}
+#### Định lý 1 (Krein-Milman) {#evt-ii-s7-thm-1 .statement tag=07IV}
 
 — *Trong một không gian lồi địa phương Hausdorff E, mọi tập compact lồi A là bao lồi đóng của tập hợp các điểm cực biên của nó.*
 
 Thật vậy, gọi C là bao lồi đóng của tập hợp các điểm cực biên của A; rõ ràng $C \subset A$. Để thấy rằng $A \subset C$, chỉ cần chứng minh rằng, nếu $u$ là một hàm tuyến tính afin, liên tục trên E và nếu $u(x) \geq 0$ trên C thì cũng có $u(x) \geq 0$ trên A (II, p. 39, cor. 4); nhưng điều này suy ra từ prop. 1 áp dụng cho $-u$.
 
-#### Mệnh đề 2 {#evt-ii-s7-prop-2 .statement}
+#### Mệnh đề 2 {#evt-ii-s7-prop-2 .statement tag=07IW}
 
 *Cho x là một điểm cực biên của một tập compact lồi A trong một không gian Hausdorff* lồi địa phương E. Khi đó với mọi lân cận mở V của x trong E, tồn tại một nửa không gian mở F trong E sao cho $x \in F \cap A \subset V \cap A$ (nói cách khác, các vết trên A của các nửa không gian mở chứa x lập thành một hệ cơ sở lân cận của x trong A).
 
 Với mọi nửa không gian mở D của E chứa x, tập $A \cap \overline{D}$ là một lân cận compact của x trong A, và giao của mọi lân cận như vậy chính xác là điểm x (hai điểm phân biệt bất kỳ đều có thể được tách chặt bởi một siêu phẳng đóng (II, p. 38, prop. 4). Theo prop. 1 của GT, I, § 9.2, chỉ cần chứng minh rằng các tập $A \cap \overline{D}$ lập thành một cơ sở lọc. Bây giờ nếu ta viết $L_D = A \cap (E - D)$, thì tập $L_D$ là lồi, compact và được chứa trong tập lồi $A - \{x\}$; nếu $D_1, D_2$ là hai nửa không gian mở của E chứa x, thì bao lồi B của $L_{D_1} \cup L_{D_2}$ vì thế được chứa trong $A - \{x\}$; nhưng B là một tập compact (II, p. 14, prop. 15), do đó tồn tại một siêu phẳng đóng H tách chặt x khỏi B (II, p. 38, prop. 4) và nếu nửa không gian mở được xác định bởi H và chứa x là D, thì ta có $L_{D_1} \cup L_{D_2} \subset L_D$, do đó $A \cap \overline{D} \subset (A \cap \overline{D_1}) \cap (A \cap \overline{D_2})$.
 
-#### Hệ quả {#evt-ii-s7-n1-cor-2 .statement}
+#### Hệ quả {#evt-ii-s7-n1-cor-2 .statement tag=07IX}
 
 — Trong một không gian lồi địa phương Hausdorff, cho K là một tập con compact của một tập compact lồi A. Khi đó các điều kiện sau là tương đương.
 
@@ -134,19 +134,19 @@ b) $\Rightarrow$ c). Giả sử rằng một điểm cực biên x của A khôn
 
 c) $\Rightarrow$ a). Đây là một hệ quả hiển nhiên của định lý Krein-Milman.
 
-#### Nhận xét 1 {#evt-ii-s7-n1-rem-1 .statement}
+#### Nhận xét 1 {#evt-ii-s7-n1-rem-1 .statement tag=07IY}
 
 Ngay cả khi không gian vectơ E là hữu hạn chiều thì tập hợp các điểm cực biên của một tập lồi compact cũng không nhất thiết đóng (II, p. 89, bài tập 11).
 
-#### Nhận xét 2 {#evt-ii-s7-n1-rem-2 .statement}
+#### Nhận xét 2 {#evt-ii-s7-n1-rem-2 .statement tag=07IZ}
 
 Nếu K là một tập compact trong một không gian lồi địa phương Hausdorff không đầy đủ, và A, bao lồi đóng của K, không compact, thì có thể có những điểm cực biên của A không thuộc K (II, p. 87, bài tập 2).
 
-#### Nhận xét 3 {#evt-ii-s7-n1-rem-3 .statement}
+#### Nhận xét 3 {#evt-ii-s7-n1-rem-3 .statement tag=07J0}
 
 Trong một không gian Banach E vô hạn chiều, có thể xảy ra trường hợp quả cầu đóng tâm 0 bán kính 1 không có điểm cực biên nào (II, p. 89, bài tập 14).
 
-#### Nhận xét 4 {#evt-ii-s7-n1-rem-4 .statement}
+#### Nhận xét 4 {#evt-ii-s7-n1-rem-4 .statement tag=07J1}
 
 Nếu A là một tập lồi compact trong một không gian lồi địa phương Hausdorff, thì có thể xảy ra trường hợp một điểm cực biên của A không thuộc bất kỳ siêu phẳng tựa nào của A (II, p. 78, bài tập 11). Chứng minh của định lý 1 (II, p. 56) cho thấy rằng trong mọi trường hợp A là bao lồi đóng của tập hợp các điểm cực biên của A thuộc một siêu phẳng tựa.
 
@@ -154,29 +154,29 @@ Nếu A là một tập lồi compact trong một không gian lồi địa phư�
 
 Cho C là một nón lồi có đỉnh 0 trong một không gian vectơ E; rõ ràng không có điểm nào khác của C ngoài đỉnh có thể là một điểm cực biên; đỉnh là một điểm cực biên của C khi và chỉ khi C là nhọn và thực sự.
 
-#### Định nghĩa 2 {#evt-ii-s7-def-2 .statement}
+#### Định nghĩa 2 {#evt-ii-s7-def-2 .statement tag=07J2}
 
 Cho C là một nón lồi có đỉnh 0 trong một không gian vectơ E. Ta nói rằng một nửa đường thẳng D ⊂ C xuất phát từ 0 là một phần tử sinh cực biên của C, nếu mọi đoạn mở chứa trong C, không chứa 0 và cắt D đều được chứa trong D.
 
 Điều này tương đương với việc nói rằng với mọi x ∈ D sao cho x ≠ 0, nếu y ≠ 0, y' ≠ 0 là hai điểm của C sao cho x = y + y', thì nhất thiết y ∈ D và y' ∈ D.
 
-#### Nhận xét 1 {#evt-ii-s7-n2-rem-1 .statement}
+#### Nhận xét 1 {#evt-ii-s7-n2-rem-1 .statement tag=07J3}
 
 Cho C là một nón lồi nhọn thực sự trong E, và xét trên E cấu trúc thứ tự mà đối với nó C là tập hợp các phần tử ≥ 0 (II, p. 12, mệnh đề 13); để một phần tử của E, chẳng hạn x > 0, thuộc một phần tử sinh cực biên của C, điều kiện cần và đủ là mọi phần tử y ≥ 0 bị chặn trên bởi x đều có dạng λx với 0 ≤ λ ≤ 1 : thật vậy, nói rằng y bị chặn trên bởi x có nghĩa là x = y + y' trong đó y' ∈ C, do đó suy ra kết luận.
 
-#### Mệnh đề 3 {#evt-ii-s7-prop-3 .statement}
+#### Mệnh đề 3 {#evt-ii-s7-prop-3 .statement tag=07J4}
 
 Trong một không gian vectơ E, cho C là một nón lồi có đỉnh 0, và cho x₀ ≠ 0 là một điểm của C, và D là một nửa đường thẳng chứa trong C, xuất phát từ 0 và chứa x₀. Cho H là một siêu phẳng chứa x₀ và không đi qua 0. Khi đó D là một phần tử sinh cực biên của C nếu và chỉ nếu x₀ là một điểm cực biên của H ∩ C.
 
 Điều kiện này rõ ràng là cần thiết. Ngược lại, giả sử nó được thỏa mãn; giả sử rằng tồn tại một đường thẳng D' không chứa D, đi qua x₀ và sao cho D' ∩ C chứa một đoạn mở mà x₀ thuộc vào. Cho y ≠ 0 là một vectơ chỉ phương của D'; các giả thiết suy ra rằng điểm (1 + λ)x₀ + μy thuộc C với |λ| và |μ| đủ nhỏ. Nhưng khi đó, trong mặt phẳng P được xác định bởi D và D' và mang tôpô chính tắc, x₀ là một điểm trong của P ∩ C, và suy ra đường thẳng P ∩ H chứa một đoạn mở nằm trong H ∩ C và mà x₀ thuộc vào. Điều này mâu thuẫn với giả thiết.
 
-#### Định nghĩa 3 {#evt-ii-s7-def-3 .statement}
+#### Định nghĩa 3 {#evt-ii-s7-def-3 .statement tag=07J5}
 
 Cho C là một tập lồi trong một không gian vectơ tôpô Hausdorff E. Một tập lồi compact không rỗng A của C được gọi là một mũ của C nếu phần bù C − A của A trong C là lồi.
 
 Cho C là một nón lồi nhọn có đỉnh 0 trong E và cho A là một mũ của C. Đặt B = C − A. Với mọi nửa đường thẳng đóng L ⊂ C xuất phát từ 0, các tập L ∩ A và L ∩ B là các tập lồi bù nhau trong L, hợp của chúng là L, và sao cho L ∩ A là compact. Vì L ∩ A là không rỗng đối với ít nhất một nửa đường thẳng L, ta thấy rằng 0 ∈ A, do đó L ∩ A là một đoạn đóng với một đầu mút tại 0. Nếu A tồn tại thì C là thực sự.
 
-#### Mệnh đề 4 {#evt-ii-s7-prop-4 .statement}
+#### Mệnh đề 4 {#evt-ii-s7-prop-4 .statement tag=07J6}
 
 — Cho C là một nón lồi nhọn có đỉnh 0 trong E, một không gian lồi địa phương Hausdorff.
 
@@ -195,7 +195,7 @@ $$
 
 Chỉ cần chứng minh điều sau cùng này khi x ≠ 0 và y ≠ 0; do đó ta có p(x) > 0, p(y) > 0. Cho μ, λ là hai số > 0 sao cho λ < p(x), μ < p(y), và ký hiệu phần bù của A trong C là B. Ta có x ∈ λB, y ∈ μB, do đó x + y ∈ λB + μB; theo tính lồi của B, ta có λB + μB ⊂ (λ + μ)B, do đó p(x + y) > λ + μ, điều này suy ra bất đẳng thức đã nêu ở trên.
 
-#### Hệ quả 1 {#evt-ii-s7-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s7-prop-4-cor-1 .statement tag=07J7}
 
 — Cho C là một nón lồi nhọn có đỉnh 0 trong E, một không gian lồi địa phương Hausdorff, và p là chuẩn Minkowski của A, một thiết diện của C. Khi đó các điểm cực biên của A là điểm 0, và các điểm x trên các tia sinh cực biên của C sao cho p(x) = 1.
 
@@ -205,7 +205,7 @@ $$
 x = \lambda^{-1}y = {\lambda'}^{-1}y'.
 $$
 
-#### Hệ quả 2 {#evt-ii-s7-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s7-prop-4-cor-2 .statement tag=07J8}
 
 — Mọi điểm của C thuộc về một thiết diện của C cũng thuộc bao lồi đóng của hợp các tia sinh cực biên của C.
 
@@ -215,19 +215,19 @@ $$
 
 Với mọi độ đo $v \in C$, đặt $p(v) = \sum_n \alpha_n v(X_n) \in [0, +\infty]$. Hàm p trên C thỏa mãn các điều kiện (i) và (ii) của mệnh đề 4. Nó nửa liên tục dưới đối với tôpô mơ hồ (INT, IV, 2nd ed., § 1, No. 1, prop. 4). Do đó tập A gồm các $\gamma \in C$ sao cho $p(\gamma) \leq 1$ là đóng và khác rỗng. Mặt khác, mọi tập compact của X đều được chứa trong một trong các $X_n$, vì vậy A bị chặn theo tôpô mơ hồ nên cũng compact theo tôpô mơ hồ (INT, III, 2nd ed., § 1, No. 9, prop. 15). Vậy A là một thiết diện của C chứa μ. \*
 
-#### Mệnh đề 5 {#evt-ii-s7-prop-5 .statement}
+#### Mệnh đề 5 {#evt-ii-s7-prop-5 .statement tag=07J9}
 
 Cho C là một nón lồi thực sự có đỉnh 0 trong E, một không gian yếu Hausdorff; giả sử rằng C là đầy đủ đối với cấu trúc đều cảm sinh bởi cấu trúc đều của E, và rằng tồn tại một hệ cơ bản đếm được các lân cận của 0 trong C. Khi đó C là hợp của các thiết diện của nó và là bao lồi đóng của hợp các tia sinh cực biên của nó.
 
 Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất và từ hệ quả 2 ở trên. Dùng mệnh đề 11 của II, p. 52 đưa mệnh đề này về trường hợp $E = \mathbf{R}^l$ và $C \subset \mathbf{R}_+^l$. Với mọi $\alpha \in I$, ký hiệu phép chiếu $pr_\alpha$ trong E bởi $f_\alpha$; khi đó $f_\alpha$ là một dạng tuyến tính liên tục. Mặt khác, cho $(V_n)_{n \in \mathbf{N}}$ là một hệ cơ bản đếm được các lân cận của 0 trong C. Theo định nghĩa của tôpô của E, với mỗi $n \in \mathbf{N}$, tồn tại một tập con hữu hạn $J_n$ của I và một số $\varepsilon_n > 0$ sao cho $V_n$ chứa tập $W_n$ gồm các $x \in C$ sao cho $f_\alpha(x) \leq \varepsilon_n$ với mọi $\alpha \in J_n$; đặt $J = \bigcup_{n \in \mathbf{N}} J_n$. Cho $y \neq 0$ là một điểm của C, và p là hàm $\sum_{\alpha \in J} \lambda_\alpha (f_\alpha|C)$ trong đó các $\lambda_\alpha > 0$ được chọn sao cho $p(y) = 1$; điều này là có thể, vì nếu $f_\alpha(y) = 0$ với mọi $\alpha \in J$, thì $y \in V_n$ với mọi $n$, kéo theo $y = 0$, trái với giả thiết. Bây giờ ta nhận thấy rằng với mọi $\alpha \in I$, hàm $f_\alpha|C$ liên tục tại điểm 0, do đó tồn tại một $n \in \mathbf{N}$ sao cho $f_\alpha$ bị chặn trên một $W_n$, vì thế bị chặn trên trong C bởi một tổ hợp tuyến tính của một số hữu hạn các hàm $f_\beta|C$, với $\beta \in J$. Suy ra rằng nếu A là tập các $x \in C$ sao cho $p(x) \leq 1$, thì $f_\alpha$ bị chặn trong A với mọi $\alpha \in I$. Vì p nửa liên tục dưới trong C, suy ra A là đóng và khác rỗng trong C và do đó là compact. Vì hiển nhiên p kiểm tra các điều kiện (i) và (ii) của mệnh đề 4 của II, p. 58, ta thấy rằng A là một thiết diện trong C và chứa y.
 
-#### Nhận xét 2 {#evt-ii-s7-n2-rem-2 .statement}
+#### Nhận xét 2 {#evt-ii-s7-n2-rem-2 .statement tag=07JA}
 
 Tồn tại các nón lồi thực sự đầy đủ yếu mà không có tia sinh cực biên nào (II, p. 92, bài tập 31).
 
 ### 3. Các nón lồi với đáy compact
 
-#### Mệnh đề 6 {#evt-ii-s7-prop-6 .statement}
+#### Mệnh đề 6 {#evt-ii-s7-prop-6 .statement tag=07JB}
 
 Cho E là một không gian lồi địa phương Hausdorff và K là một tập compact lồi trong E không chứa 0. Khi đó nón nhọn nhỏ nhất có đỉnh 0 chứa $K$ là một nón lồi thực sự trong $E$ và là một không gian con địa phương compact và đầy đủ của $E$; hơn nữa, tồn tại một siêu phẳng đóng $H$ trong $E$ không chứa 0 và sao cho $H$ cắt mọi nửa đường thẳng xuất phát từ 0 được chứa trong $C$ và sao cho $H \cap C$ là compact. Hơn nữa, nếu $D$ là nửa không gian chứa 0 được xác định bởi $H$, một siêu phẳng đóng có các tính chất ấy, thì $C \cap D$ là một chỏm của $C$ và $C$ là hợp của các $\lambda(C \cap D)$ với $\lambda > 0$.
 
@@ -235,11 +235,11 @@ Theo mệnh đề 4 của II, p. 38, tồn tại một siêu phẳng đóng $H$ 
 
 Cho một nón $C$ và một siêu phẳng đóng $H$ trong một không gian vectơ tôpô Hausdorff $E$, sao cho $H$ không chứa đỉnh $s$ của $C$ và $C$ là nón nhỏ nhất có đỉnh $s$ chứa $H \cap C$, thì ta gọi giao $H \cap C$ là một « đáy » của nón $C$. Mệnh đề 6 cho thấy rằng trong một không gian lồi địa phương Hausdorff $E$, nón nhỏ nhất có đỉnh 0, chứa một tập lồi compắc $K$ mà 0 không thuộc, là một nón có đáy compắc, và mọi nón lồi có một đáy compắc $S$ đều là compact địa phương và đầy đủ.
 
-#### Ví dụ 1 {#evt-ii-s7-n3-exa-1 .statement}
+#### Ví dụ 1 {#evt-ii-s7-n3-exa-1 .statement tag=07JC}
 
 Mọi nón lồi đóng thực sự trong $E$, một không gian vectơ có số chiều hữu hạn, đều có một đáy compắc. Thật vậy, theo II, p. 52, prop. 11, ta chỉ cần xét trường hợp $E = \mathbf{R}^n$ và $C = \mathbf{R}_+^n$. Nếu $(e_i)_{1 \leq i \leq n}$ là cơ sở chính tắc của $\mathbf{R}^n$, thì rõ ràng tập lồi compắc là bao lồi của các $e_i$ ($1 \leq i \leq n$) là một đáy compắc của $\mathbf{R}_+^n$.
 
-#### Ví dụ 2 {#evt-ii-s7-n3-exa-2 .statement}
+#### Ví dụ 2 {#evt-ii-s7-n3-exa-2 .statement tag=07JD}
 
 Nếu $X$ là một không gian compắc, thì nón $\mathscr{M}_+(X)$ các độ đo dương trên $X$, với tôpô vague, là một nón có đáy compắc (INT, III, 2nd ed., § 1, No. 9, cor. 3 of prop. 15). \*
 

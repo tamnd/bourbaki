@@ -32,7 +32,7 @@ subsections:
       pdf_page: 113
 statements: 24
 exercises: 9
-content_sha256: dc7d9182dd5479482a539530f747f9006ab180f435bcaeb95dbeeb786c23fe8f
+content_sha256: 77102a253e978f9d9ef381209e2d6c41521f87d3c71aa632f6ad00f10a691c2e
 ---
 
 ## § 5. Invariants dans l’algèbre symétrique
@@ -41,7 +41,7 @@ content_sha256: dc7d9182dd5479482a539530f747f9006ab180f435bcaeb95dbeeb786c23fe8f
 
 Soit K un anneau commutatif à élément unité, non réduit à 0. Soient M un K-module gradué de type $\mathbf{Z}$, $M_n$ l’ensemble des éléments de M homogènes de degré n. Supposons que chaque $M_n$ soit *libre de type fini*. Alors le rang $\mathrm{rg}_K(M_n)$ est défini pour tout $n$ (*Alg. comm.*, chap. II, § 5, no 3).
 
-#### Définition 1 {#lie-v-s5-def-1 .statement}
+#### Définition 1 {#lie-v-s5-def-1 .statement tag=0ASK}
 
 S’il existe $n_0 \in \mathbf{Z}$ tel que $M_n = 0$ pour $n \leq n_0$, la série formelle $\sum_{n \geq n_0} \mathrm{rg}_K(M_n) T^n$, qui est un élément de $\mathbf{Q}((T))$, s’appelle la série de Poincaré de $M$ et se note $P_M(T)$.
 
@@ -58,7 +58,7 @@ $$
 P_{M \otimes M'}(T) = P_M(T) P_{M'}(T).
 $$
 
-#### Proposition 1 {#lie-v-s5-prop-1 .statement}
+#### Proposition 1 {#lie-v-s5-prop-1 .statement tag=0ASL}
 
 Soit $S = \bigoplus_{n \geq 0} S_n$ une $K$-algèbre graduée commutative admettant un système générateur $(x_1, x_2, \ldots, x_m)$ formé d’éléments homogènes et algébriquement indépendants. Soit $d_i$ le degré de $x_i$, et supposons $d_i > 0$ pour tout $i$. Alors les $S_n$ sont libres de rang fini sur $K$, et l’on a
 
@@ -75,7 +75,7 @@ et il suffit d’appliquer (2).
 
 Sous les hypothèses de la prop. 1, nous dirons que $S$ est une $K$-algèbre graduée de *polynômes*.
 
-#### Corollaire {#lie-v-s5-n1-cor-1 .statement}
+#### Corollaire {#lie-v-s5-n1-cor-1 .statement tag=0ASM}
 
 Les degrés $d_i$ sont déterminés à l’ordre près par $S$.
 
@@ -89,7 +89,7 @@ $$
 P_S(T) = P_M(T)P_R(T) = (\sum_{j=1}^N T^{f_j})P_R(T).
 $$
 
-#### Proposition 2 {#lie-v-s5-prop-2 .statement}
+#### Proposition 2 {#lie-v-s5-prop-2 .statement tag=0ASN}
 
 *Conservons les notations précédentes, et supposons que S et R soient des K-algèbres graduées de polynômes.*
 
@@ -113,7 +113,7 @@ $$
 
 Faisant $T = 1$ dans cette relation, on obtient (iii).
 
-#### Remarque {#lie-v-s5-n1-rem-1 .statement}
+#### Remarque {#lie-v-s5-n1-rem-1 .statement tag=0ASO}
 
 Soient $S = K[X_1, \ldots, X_n]$ une K-algèbre graduée de polynômes, $d_i$ le degré de $X_i$ et $F(X_1, \ldots, X_n)$ un élément homogène de degré m de S. Alors on a
 
@@ -139,7 +139,7 @@ $$
 
 Pour toute algèbre graduée $A = A_0 \oplus A_1 \oplus \ldots \oplus A_n \oplus \ldots$, nous noterons $A_+$ l’idéal $\bigoplus_{n > 0} A_n$.
 
-#### Théorème 1 {#lie-v-s5-thm-1 .statement}
+#### Théorème 1 {#lie-v-s5-thm-1 .statement tag=0ASP}
 
 *Soient $K$ un corps commutatif, $V$ un espace vectoriel de dimension finie sur $K$, $S = S(V)$ l’algèbre symétrique de $V$, $G$ un groupe fini d’automorphismes de $V$, et $R$ la sous-algèbre graduée de $S$ formée des éléments invariants par $G$. On suppose que $G$ est engendré par des pseudo-réflexions ($§ 2,$ no 1 ), et que $q = \mathrm{Card}(G)$ est étranger à l’exposant caractéristique de $K$. Alors le $R$-module $S$ admet une base formée de $q$ éléments homogènes.*
 
@@ -175,15 +175,15 @@ Or $q^{-1} \sum_{g \in G} T(g_S)$ laisse fixes les éléments de $T(S)$ invarian
 
 d) Supposons $T(S) \neq 0$. Il existe dans $T(S)$ un élément homogène $u \neq 0$ de degré minimum. D’après b), $u$ est invariant par $G$. D’après c), $u = 0$. On a ainsi une contradiction, d’où $T(S) = 0$. C.Q.F.D.
 
-#### Remarque 1 {#lie-v-s5-n2-rem-1 .statement}
+#### Remarque 1 {#lie-v-s5-n2-rem-1 .statement tag=0ASQ}
 
 Il résulte d’Alg., chap. II, 3e éd., § 11, no 4, prop. 7 que, si $(z_1, z_2, \ldots, z_q)$ est une famille d’éléments homogènes de $S$ dont les images canoniques dans $S/(R_+S)$ forment une base de $S/(R_+S)$ sur $K$, alors $(z_1, z_2, \ldots, z_q)$ est une base de $S$ sur $R$.
 
-#### Remarque 2 {#lie-v-s5-n2-rem-2 .statement}
+#### Remarque 2 {#lie-v-s5-n2-rem-2 .statement tag=0ASR}
 
 Soit $g$ une pseudo-réflexion de $V$, d’ordre fini $n \geq 2$, premier à l’exposant caractéristique de $K$. D’après le théorème de Maschke (Annexe, prop. 2), on peut décomposer $V$ en $D \oplus H$, où $H$ est l’hyperplan formé des éléments de $V$ invariants par $g$, et où $D$ est une droite sur laquelle $g$ opère par multiplication par une racine primitive $n$-ème de l’unité. Lorsque $K = \mathbf{R}$, ceci n’est possible que si $n = 2$, et $g$ est alors une réflexion; dans ce cas, les groupes auxquels s’appliquent le th. 1 sont donc les groupes de Coxeter finis. (Pour $K = C$, par contre, le th. 1 s’applique à certains groupes qui ne sont pas de Coxeter) (*).
 
-#### Théorème 2 {#lie-v-s5-thm-2 .statement}
+#### Théorème 2 {#lie-v-s5-thm-2 .statement tag=0ASS}
 
 Les hypothèses et notations sont celles du théorème 1.
 
@@ -197,7 +197,7 @@ Soit $U$ un sous-espace vectoriel gradué de $S$, supplémentaire de $R_+ S$ dan
 
 ### 3. Invariants d’un groupe linéaire fini : propriétés d’anneau
 
-#### Théorème 3 {#lie-v-s5-thm-3 .statement}
+#### Théorème 3 {#lie-v-s5-thm-3 .statement tag=0AST}
 
 Les hypothèses et notations sont celles du th. 1. Dans l’ensemble des systèmes générateurs de l’idéal $R_+$ de $R$ formés d’éléments homogènes, choisissons un élément minimal $(\alpha_1, \ldots, \alpha_l)$. Soit $k_i$ le degré de $\alpha_i$. On suppose que les $k_i$ sont étrangers à l’exposant caractéristique de $K$. Alors $l = \dim V$, les $\alpha_i$ engendrent la $K$-algèbre $R$, et sont algébriquement indépendants sur $K$. En particulier, $R$ est une $K$-algèbre graduée de polynômes de degré de transcendance $l$ sur $K$.
 
@@ -207,7 +207,7 @@ L’hypothèse faite sur les $k_i$ est superflue, mais n’est pas gênante pour
 
 Le th. 3 résultera de la prop. 2 (i), du th. 1, et du lemme suivant:
 
-#### Lemme 1 {#lie-v-s5-lem-1 .statement}
+#### Lemme 1 {#lie-v-s5-lem-1 .statement tag=0ASU}
 
 Soient $K$ un corps commutatif, $S$ une $K$-algèbre graduée de polynômes, et $R$ une sous-algèbre graduée de type fini de $S$ telle que le $R$-module $S$ admette une base $(z_\lambda)_{\lambda \in \Lambda}$ formée d’éléments homogènes. Dans l’ensemble des systèmes générateurs de l’idéal $R_+$ de $R$ formés d’éléments homogènes, choisissons un élément minimal $(\alpha_1, \ldots, \alpha_s)$. On suppose que, pour tout $i$, le degré $k_i$ de $\alpha_i$ est étranger à l’exposant caractéristique $p$ de $K$. Alors les $\alpha_i$ engendrent la $K$-algèbre $R$ et sont algébriquement indépendants sur $K$.
 
@@ -293,13 +293,13 @@ $$
 
 Prenons les composantes homogènes de degré $k_i$ des deux membres. Comme $\deg y_k > 0$, on voit que $\alpha_i$ est combinaison S-linéaire des $\alpha_j$ avec $j \neq i$. Comme S est libre sur $\mathbf{R}$ et que $\alpha_1, \ldots, \alpha_s \in \mathbf{R}$, on en déduit que $\alpha_i$ est combinaison R-linéaire des $\alpha_j$ avec $j \neq i$ (*Alg. comm.*, chap. I, § 3, no 5, prop. 9 d)).
 
-#### Corollaire {#lie-v-s5-n3-cor-1 .statement}
+#### Corollaire {#lie-v-s5-n3-cor-1 .statement tag=0ASV}
 
 *Les hypothèses et notations étant celles du th. 3, le produit des degrés caractéristiques de R est Card (G)*.
 
 En effet, on a $\mathrm{rg}_R(S) = \mathrm{Card}(G)$ (formule (6), no 2). Les degrés caractéristiques de S sont égaux à 1. Alors le corollaire résulte du no 1, prop. 2 (iii).
 
-#### Lemme 2 {#lie-v-s5-lem-2 .statement}
+#### Lemme 2 {#lie-v-s5-lem-2 .statement tag=0ASW}
 
 *Soient K un corps commutatif, V un espace vectoriel de dimension finie sur K, $S = \bigoplus_{n \geq 0} S_n$ l’algèbre symétrique de V, s un endomorphisme de V, et $s^{(n)}$ le prolongement canonique de s à $S_n$. Alors, T désignant une indéterminée, on a dans $K[[T]]$
 
@@ -321,7 +321,7 @@ $$
 = (\det (1 - sT))^{-1}.
 $$
 
-#### Lemme 3 {#lie-v-s5-lem-3 .statement}
+#### Lemme 3 {#lie-v-s5-lem-3 .statement tag=0ASX}
 
 *Soient K, V et S comme dans le lemme 2, G un groupe fini d’automorphismes de V, q l’ordre de G, R la sous-algèbre graduée de S formée des éléments invariants par G. On suppose K de caractéristique 0. La série de Poincaré de R est alors*
 
@@ -337,7 +337,7 @@ $$
 
 et il suffit d’appliquer le lemme 2.
 
-#### Proposition 3 {#lie-v-s5-prop-3 .statement}
+#### Proposition 3 {#lie-v-s5-prop-3 .statement tag=0ASY}
 
 *Les hypothèses et notations étant celles du th. 3, soit $H$ l’ensemble des pseudo-réflexions appartenant à $G$ et distinctes de 1. On suppose $K$ de caractéristique 0. Alors* $\operatorname{Card}(H) = \sum_{i=1}^l (k_i - 1)$.
 
@@ -388,11 +388,11 @@ $$
 $$
 L’égalité (18) prouve alors la proposition.
 
-#### Remarque {#lie-v-s5-n3-rem-1 .statement}
+#### Remarque {#lie-v-s5-n3-rem-1 .statement tag=0ASZ}
 
 Lorsque $K = \mathbf{R}$, $G$ est un groupe de Coxeter et $H$ est l’ensemble des réflexions appartenant à $G$, on sait (§ 3) que les éléments de $H$ sont en correspondance binnivoque avec les *murs* de $V$.
 
-#### Proposition 4 {#lie-v-s5-prop-4 .statement}
+#### Proposition 4 {#lie-v-s5-prop-4 .statement tag=0AT0}
 
 Les hypothèses et notations étant celles du th. 3, on suppose $K$ de caractéristique $\neq 2$. Pour qu’on ait $-1 \in G$, il faut et il suffit que les degrés caractéristiques $k_1, \ldots, k_l$ de $\mathbf{R}$ soient tous pairs.
 
@@ -411,7 +411,7 @@ $$
 g(x) = x + f_g(x)e_g, \quad \text{quel que soit } x \in V.
 $$
 
-#### Proposition 5 {#lie-v-s5-prop-5 .statement}
+#### Proposition 5 {#lie-v-s5-prop-5 .statement tag=0AT1}
 
 (i) *Soit D l’élément $\prod_{g \in H} e_g$ de S. Les éléments de S anti-invariants par G sont les éléments de RD.*
 
@@ -445,13 +445,13 @@ d) Les parties a) et c) de la démonstration prouvent que $D$ est anti-invariant
 
 ### \*5. Compléments (*)
 
-#### Lemme 4 {#lie-v-s5-lem-4 .statement}
+#### Lemme 4 {#lie-v-s5-lem-4 .statement tag=0AT2}
 
 Soient $K$ un corps commutatif, $V$ un espace vectoriel de dimension finie sur $K$, $G$ un groupe fini d’automorphismes de $V$ d’ordre $q$ inversible dans $K$, $S$ l’algèbre symétrique de $V$, $R$ la sous-algèbre de $S$ formée des éléments invariants par $G$. Pour qu’un idéal premier $\mathfrak{P}$ de hauteur 1 de $S$ soit ramifié sur $\mathfrak{p} = \mathfrak{P} \cap R$ (Alg. comm.), il faut et il suffit qu’il existe un élément non nul $a$ de $V$ et un élément non nul $f$ de $V^*$ tels que $\mathfrak{P} = Sa$ et que la pseudo-réflexion $s_{a,f}$ appartienne à $G$. Le groupe de décomposition $G^z(\mathfrak{P})$ est alors le sous-groupe des éléments de $G$ laissant $Ka$ stable, et le groupe d’inertie $G^T(\mathfrak{P})$ est le sous-groupe cyclique $H_a$ de $G$ formé des pseudo-réflexions de $G$ de vecteur $a$. Le corps résiduel $S(\mathfrak{P})$ de $S$ en $\mathfrak{P}$ est séparable sur le corps résiduel $R(\mathfrak{p})$ de $R$ en $\mathfrak{p}$, et l’indice de ramification $e(\mathfrak{P}/\mathfrak{p})$, égal au coefficient de $\mathfrak{P}$, augmenté de 1, dans le diviseur $\operatorname{div}(\mathscr{D}_{S/R})$ de la différente, est égal à $\operatorname{Card}(H_a)$.
 
 Dire que $\mathfrak{P}$ est ramifié sur $R$ signifie que son groupe d’inertie $G^T(\mathfrak{P})$ n’est pas réduit à l’identité, autrement dit qu’il existe $g \neq 1$ dans $G$ tel que $g(z) \equiv z \pmod{\mathfrak{P}}$ pour tout $z \in S$. Comme $S$ est un anneau factoriel, $\mathfrak{P}$ est un idéal principal $Sa$, et $a$ doit diviser tous les éléments $g(z) - z$ ($z \in S$); or, pour $z \in V$, ceux-ci sont homogènes de degré 1 et non tous nuls (car $g \neq 1$); donc $a$ doit être homogène de degré 1, autrement dit $a \in V$. Il existe alors une forme linéaire $f$ sur $V$ telle que $g = s_{a,f}$. Inversement, si $g$ est une pseudo-réflexion $s_{a,f}$ distincte de 1, on a $g(z) \equiv z \pmod{Sa}$ pour tout $z \in S$, donc $g$ appartient au groupe d’inertie de l’idéal premier $\mathfrak{P} = Sa$. Ceci prouve la première assertion du lemme et les caractérisations de $G^z(\mathfrak{P})$ et $G^T(\mathfrak{P})$. On sait que le degré résiduel $[S(\mathfrak{P}) : R(\mathfrak{p})]$ divise $\operatorname{Card}(G) = q$ (Alg. comm., chap. V, § 2, no 2); comme $q$ est étranger à l’exposant caractéristique $p$ de $K$ (qui est celui aussi de $S(\mathfrak{P})$), l’extension $S(\mathfrak{P})$ de $R(\mathfrak{p})$ est séparable. L’égalité $e(\mathfrak{P}/\mathfrak{p}) = \operatorname{Card}(H_a)$ en résulte (Alg. comm.). Comme $e(\mathfrak{P}/\mathfrak{p})$ est étranger à $p$, le coefficient de $\mathfrak{P}$ dans $\operatorname{div}(\mathscr{D}_{S/R})$ est $e(\mathfrak{P}/\mathfrak{p}) - 1$ (Alg. comm.). Ceci achève la démonstration du lemme.
 
-#### Lemme 5 {#lie-v-s5-lem-5 .statement}
+#### Lemme 5 {#lie-v-s5-lem-5 .statement tag=0AT3}
 
 Soient $K$ un corps commutatif, $S$ une $K$-algèbre graduée de polynômes et $R$ une sous-algèbre graduée de $S$. Pour que $S$ soit un $R$-module libre gradué (Alg.,
 
@@ -464,7 +464,7 @@ b) si (\alpha_1, \ldots, \alpha_s) est un système générateur de la K-algèbre
 Lorsque S est un R-module de type fini, b) est conséquence de a).
 Pour la démonstration, voir Alg. comm.
 
-#### Théorème 4 {#lie-v-s5-thm-4 .statement}
+#### Théorème 4 {#lie-v-s5-thm-4 .statement tag=0AT4}
 
 Soient K un corps commutatif, V un espace vectoriel de dimension finie sur K, S l’algèbre symétrique de V, G un groupe fini d’automorphismes de V, et R la sous-algèbre de S formée des éléments invariants par G. On suppose que q = Card G est inversible dans K. Les conditions suivantes sont équivalentes :
 
@@ -482,11 +482,11 @@ $$
 
 Le fait que div(\mathscr{D}_{R'/R}) soit nul montre que div(d) = 0 (Alg. comm.), ce qui signifie que d appartient à K*. Mais d’autre part Tr_{R'/R}(Q_i Q_j) est un élément homogène de degré q_i + q_j, et d est homogène de degré 2 $\sum_i q_i$. On a donc $\sum_i q_i = 0$, i.e. $q_i = 0$ pour tout i, ce qui entraîne R’ = R, d’où G’ = G d’après la théorie de Galois. On a donc bien prouvé que G est engendré par des pseudo-réflexions. C.Q.F.D.
 
-#### Remarque 1 {#lie-v-s5-n5-rem-1 .statement}
+#### Remarque 1 {#lie-v-s5-n5-rem-1 .statement tag=0AT5}
 
 Sous les hypothèses du th. 4, les degrés caractéristiques de R ont pour produit q (formule (6) et prop. 2 (iii)), donc sont étrangers à l’exposant caractéristique de K. C’est ce qu’on avait annoncé au no 3.
 
-#### Remarque 2 {#lie-v-s5-n5-rem-2 .statement}
+#### Remarque 2 {#lie-v-s5-n5-rem-2 .statement tag=0AT6}
 
 Lorsqu’on ne suppose plus que Card (G) est inversible dans K, on a encore (ii) $\Longleftrightarrow$ (iii) (cf. lemme 5) et (ii) $\Longrightarrow$ (i) (cf. exerc. 8); l’implication (i) $\Longrightarrow$ (ii) n’est par contre plus vraie (exerc. 9).
 
@@ -498,7 +498,7 @@ $$
 
 est non diviseur de zéro dans cet anneau.
 
-#### Proposition 6 {#lie-v-s5-prop-6 .statement}
+#### Proposition 6 {#lie-v-s5-prop-6 .statement tag=0AT7}
 
 Les hypothèses et les notations sont celles du th. 4. Soit $H$ l’ensemble des pseudo-réflexions appartenant à $G$ et distinctes de 1. On suppose que $H$ engendre $G$. Pour tout $g \in H$, posons $g(x) = x + f_g(x)e_g$ avec $e_g \in V$, $f_g \in V^*$. Posons
 

@@ -64,14 +64,14 @@ subsections:
       pdf_page: 337
 statements: 38
 exercises: 17
-content_sha256: 76410c99c15d209b17769ce2ba680c239cb11617ff2dfbd57b3ff2cf866b1ca4
+content_sha256: 916521b68bf05ce75da1e2ea44336d9539b033d94e726450f70016d7b18539b4
 ---
 
 ## § 10. MATRICES
 
 ### 1. Définition des matrices
 
-#### Définition 1 {#alg-ii-s10-def-1 .statement}
+#### Définition 1 {#alg-ii-s10-def-1 .statement tag=05WH}
 
 Soient $I, K, H$ trois ensembles; on appelle matrice de type $(I, K)$ à éléments dans $H$ (ou matrice de type $(I, K)$ sur $H$) toute famille $M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K}$ d’éléments de $H$ dont l’ensemble d’indices est le produit $I \times K$. Pour tout $\iota \in I$, la famille $(m_{\iota \kappa})_{\kappa \in K}$ est appelée la ligne d’indice $\iota$ de $M$; pour tout $\kappa \in K$, la famille $(m_{\iota \kappa})_{\iota \in I}$ est appelée la colonne d’indice $\kappa$ de $M$.
 
@@ -109,7 +109,7 @@ Toute matrice sur $H$ dont l’un des ensembles d’indices $I, K$ est vide est 
 
 Une sous-famille $M' = (m_{\iota \kappa})_{(\iota, \kappa) \in J \times L}$ d’une matrice $M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times K}$ dont l’ensemble d’indices est produit d’une partie $J$ de $I$ et d’une partie $L$ de $K$, est dite sous-matrice de la matrice $M$; on dit qu’elle s’obtient en supprimant dans $M$ les lignes d’indice $\iota \notin J$ et les colonnes d’indice $\kappa \notin L$; inversement, on dit que $M$ s’obtient en bordant $M'$ par les lignes d’indice $\iota \notin J$ et les colonnes d’indice $\kappa \notin L$.
 
-#### Définition 2 {#alg-ii-s10-def-2 .statement}
+#### Définition 2 {#alg-ii-s10-def-2 .statement tag=05WI}
 
 On appelle transposée d’une matrice $M = (m_{\iota k})_{(\iota, k) \in I \times K}$ et on note ${}^t M$ la matrice $(m'_{k \iota})_{(k, \iota) \in K \times I}$ sur $\mathbf{H}$ donnée par $m'_{k \iota} = m_{\iota k}$ pour tout $(\iota, k) \in I \times K$.
 
@@ -180,7 +180,7 @@ en vertu des hypothèses faites.
 
 On note encore $MM'M''$ les deux membres de (6). On fera des conventions analogues pour les produits de plus de trois facteurs.
 
-#### Remarque {#alg-ii-s10-n2-rem-1 .statement}
+#### Remarque {#alg-ii-s10-n2-rem-1 .statement tag=05WJ}
 
 Les formules précédentes s’étendent à une situation plus générale. De façon précise:
 
@@ -238,7 +238,7 @@ $$
 {}^t(XY) = {}^tY. {}^tX.
 $$
 
-#### Proposition 1 {#alg-ii-s10-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s10-prop-1 .statement tag=05WK}
 
 Soient $A, B$ deux anneaux, $M = (m_{ik})_{(i, k) \in I \times K}$ et $M' = (m'_{ik})_{(i, k) \in I \times K}$ deux matrices à ensembles d’indices finis, sur un (A, B)-bimodule G. Supposons que pour toute unité matricielle $L = (a_i)_{i \in I}$ à une ligne, à éléments dans $A$, et toute unité matricielle $C = (b_k)_{k \in K}$ à une colonne, à éléments dans $B$, on ait $L.M.C = L.M'.C$ (les produits étant calculés suivant les lois externes du (A, B)-bimodule G); alors $M = M'$.
 
@@ -280,7 +280,7 @@ Considérons maintenant deux A-modules (à gauche ou à droite) E et F ayant des
 
 Dans la suite, nous affecterons de la lettre (D) (resp. (G)) les formules s’appliquant aux modules à droite (resp. à gauche).
 
-#### Définition 3 {#alg-ii-s10-def-3 .statement}
+#### Définition 3 {#alg-ii-s10-def-3 .statement tag=05WL}
 
 Dans chacun des deux cas précédents, on appelle matrice de u par rapport aux bases $(e_i), (f_k)$ la matrice $M(u) = (u_{ki})_{(k, i) \in K \times I}$ telle que
 $$
@@ -305,7 +305,7 @@ M(\gamma u) = \gamma M(u)
 $$
 pour tout élément $\gamma$ du centre $\Gamma$ de $A$. En d’autres termes, une fois les bases $(e_i), (f_k)$ fixées, l’application $u \mapsto M(u)$ est un isomorphisme de $\Gamma$-modules de $\mathrm{Hom}_A(E, F)$ sur une partie de l’ensemble $A^{K \times I}$, égale à $A^{K \times I}$ si $K$ est fini.
 
-#### Proposition 2 {#alg-ii-s10-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s10-prop-2 .statement tag=05WM}
 
 Supposons $I$ et $K$ finis. Pour tout élément $x \in E$, la matrice $M(u(x))$ par rapport à la base $(f_k)$ est donnée par la formule
 $$
@@ -318,7 +318,7 @@ Vérifions par exemple (17 G). Posons $x = \sum_i x_{i0} e_i$, $u(x) = \sum_k y_
 
 Lorsque $A$ est commutatif, (17 G) se ramène à (17 D) au moyen de la formule (4) de II, p. 140.
 
-#### Corollaire {#alg-ii-s10-n4-cor-1 .statement}
+#### Corollaire {#alg-ii-s10-n4-cor-1 .statement tag=05WN}
 
 Soient $E, F, G$ trois modules à droite (resp. à gauche) sur un anneau $A$, $(e_i)_{i \in I}, (f_k)_{k \in K}, (g_l)_{l \in L}$ des bases finies respectives de $E, F, G$, $u : E \to F$, $v : F \to G$ deux applications linéaires, $M(u)$ la matrice de $u$ relative aux bases $(e_i), (f_k)$, $M(v)$ la
 
@@ -343,17 +343,17 @@ par associativité; le corollaire résulte donc de la prop. 1 (II, p. 142), la m
 
 Remarque 1). — La formule (17 D) peut être considérée comme un cas particulier de (18 D). En effet, à tout $x \in E$ correspond canoniquement l’application linéaire $\theta_x : A_d \to E$ qui à tout $\alpha \in A$ fait correspondre $x\alpha$ (II, p. 36). Il est immédiat que la matrice $M(\theta_x)$ par rapport à la base 1 de $A_d$ et à la base $(e_i)$ de $E$ n’est autre que la matrice $M(x)$; de même on a $M(\theta_{u(x)}) = M(u(x))$ et on peut donc considérer que la formule (17 D) est une traduction de la relation $\theta_{u(x)} = u \circ \theta_x$.
 
-#### Proposition 3 {#alg-ii-s10-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s10-prop-3 .statement tag=05WO}
 
 Soient $E, F$ deux $A$-modules à droite (resp. à gauche), $(e_i)_{i \in I}$, $(f_k)_{k \in K}$ des bases finies de $E$ et $F$ respectivement. Pour toute application linéaire $u$ de $E$ dans $F$, soit $M(u)$ la matrice de $u$ par rapport aux bases $(e_i)$ et $(f_k)$. Alors la matrice de ${}^t u : F^* \to E^*$ par rapport aux bases duales $(f_k^*)$ et $(e_i^*)$ est égale à ${}^tM(u)$.
 
 En effet, $E$ est canoniquement identifié à son bidual $E^{**}$ et $(e_i)$ à la base duale de $(e_i^*)$; on a alors (en supposant par exemple que $E$ et $F$ soient des modules à droite) $\langle {}^t u(f_k^*), e_i \rangle = \langle f_k^*, u(e_i) \rangle$, d’où la proposition.
 
-#### Remarque 2 {#alg-ii-s10-n4-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s10-n4-rem-2 .statement tag=0DFZ}
 
 Soient $E$ et $F$ deux $A$-modules à gauche ayant des bases $(e_i)_{i \in I}$ et $(f_k)_{k \in K}$ respectivement. Pour toute application $A$-linéaire $u : E \to F$, on a, d’après (14 G), $u(e_i) = \sum_k u_{ki} f_k$; ces relations peuvent encore s’interpréter en disant que la matrice colonne $(u(e_i))_{i \in I}$ à éléments dans $F$ est égale au produit ${}^tM(u).(f_k)$, où $(f_k)_{k \in K}$ est considéré comme une matrice colonne à éléments dans $F$, et le produit est calculé pour l’application $A \times F \to F$ définissant la loi d’action du $A$-module $F$ (II, p. 140).
 
-#### Remarque 3 {#alg-ii-s10-n4-rem-3 .statement}
+#### Remarque 3 {#alg-ii-s10-n4-rem-3 .statement tag=0DG0}
 
 Soient $A, B$ deux anneaux commutatifs, $\sigma : A \to B$ un homomorphisme d’anneaux. Les notations étant celles de la prop. 3, $(e_i \otimes 1)$ et $(f_k \otimes 1)$ sont des bases respectives de $E_{(B)} = E \otimes_A B$ et $F_{(B)} = F \otimes_A B$ (II, p. 84, prop. 4); en outre, si $(e_i^*)$ et $(f_k^*)$ sont respectivement les bases duales de $(e_i)$ et $(f_k)$, alors $(e_i^* \otimes 1)$ et $(f_k^* \otimes 1)$ sont respectivement les bases duales de $(e_i \otimes 1)$ et $(f_k \otimes 1)$ (II, p. 88). Pour toute application $A$-linéaire $u : E \to F$, soient $M(u)$ et $M(u \otimes 1)$ la matrice de $u$ par rapport à $(e_i)$ et $(f_k)$ et la matrice de l’application $B$-linéaire $u \otimes 1$ par rapport à $(e_i \otimes 1)$ et $(f_k \otimes 1)$. Il résulte de II, p. 87, formule (20) que l’on a
 $$
@@ -479,7 +479,7 @@ $$
 
 car on a ici, par définition, en supposant par exemple que E et F soient des modules à droite, $\langle ^t u(f_k^*), e_i \rangle^\sigma = \langle f_k^*, u(e_i) \rangle$ lorsque $\sigma$ est noté $x \mapsto x^\sigma$.
 
-#### Remarque {#alg-ii-s10-n6-rem-1 .statement}
+#### Remarque {#alg-ii-s10-n6-rem-1 .statement tag=05WQ}
 
 Soient A un anneau, $\sigma$ un antiendomorphisme de A (II, p. 143); considérons les deux situations suivantes:
 (GD) E est un A-module à gauche, F un A-module à droite, $u$ une application $\mathbf{Z}$-linéaire de E dans F telle que $u(ax) = u(x)\sigma(a)$ pour $a \in A, x \in E$; en d’autres termes, $u$ est une application *semi-linéaire* relative à $\sigma$ du $A^0$-module à droite E dans le A-module à droite F.
@@ -497,13 +497,13 @@ les produits des deux membres étant calculés *dans* A. Cela résulte aussitôt
 
 ### 7. Matrices carrées
 
-#### Définition 4 {#alg-ii-s10-def-4 .statement}
+#### Définition 4 {#alg-ii-s10-def-4 .statement tag=05WR}
 
 *On appelle matrice carrée une matrice dont les lignes et les colonnes ont même ensemble d’indices*.
 
 On dit qu’une matrice carrée ayant $n$ lignes et $n$ colonnes est une *matrice d’ordre n*.
 
-#### Remarque {#alg-ii-s10-n7-rem-1 .statement}
+#### Remarque {#alg-ii-s10-n7-rem-1 .statement tag=05WS}
 
 On aura soin de noter qu’une matrice dont les ensembles des indices de lignes et des indices de colonnes ont *même cardinal*, mais *ne sont pas identiques*, ne doit pas être considérée comme une matrice carrée; en particulier, le produit de deux telles matrices sur un anneau *n’est pas défini*.
 
@@ -591,7 +591,7 @@ Cela étant, on dira que (32) est une *matrice diagonale* (resp. *triangulaire s
 
 ### 8. Changements de bases
 
-#### Proposition 4 {#alg-ii-s10-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s10-prop-4 .statement tag=05WT}
 
 *Soit E un A-module à droite ayant une base finie* $(e_i)_{1 \leq i \leq n}$ *de n éléments. Pour qu’une famille de n éléments* $e'_i = \sum_{j=1}^n e_j a_{ji}$ (*$1 \leq i \leq n$*) *soit une base de E, il faut et il suffit que la matrice carrée* $P = (a_{ji})$ *d’ordre n soit inversible.*
 
@@ -599,13 +599,13 @@ En effet, $P$ n’est autre que la matrice, par rapport à la base $(e_i)$, de l
 
 On dit que la matrice inversible $P$ est la *matrice de passage de la base* $(e_i)$ *à la base* $(e'_i)$. On peut aussi l’interpréter comme la matrice de l’application identique l_E par rapport aux bases (e'_i) et (e_i) (dans cet ordre); il est clair alors que la matrice de passage de la base (e'_i) à la base (e_i) est l’inverse P^{-1} de P.
 
-#### Proposition 5 {#alg-ii-s10-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s10-prop-5 .statement tag=05WU}
 
 Soient (e_i), (e'_i) deux bases de n éléments de E, P la matrice de passage de (e_i) à (e'_i). Si (e_i^*) et (e'_i^*) sont les bases duales respectives de (e_i) et (e'_i), la matrice de passage de (e_i^*) à (e'_i^*) est la contragrédiente tP^{-1} de P.
 
 En effet, la transposée de l’application identique l_E est l’application identique l_{E*}; en vertu de la prop. 3 de II, p. 145, la matrice de l_{E*}, par rapport aux bases (e'_i^*) et (e_i^*) (dans cet ordre) est la transposée de la matrice de l_E par rapport aux bases (e_i) et (e'_i) (dans cet ordre), c’est-à-dire la transposée de P^{-1}.
 
-#### Proposition 6 {#alg-ii-s10-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s10-prop-6 .statement tag=05WV}
 
 Soient E et F deux A-modules à droite, (e_i) et (e'_i) deux bases de E ayant n éléments, (f_j) et (f'_j) deux bases de F ayant m éléments, P la matrice de passage de (e_i) à (e'_i), Q la matrice de passage de (f_j) à (f'_j). Pour toute application linéaire u de E dans F, soient M(u) la matrice de u par rapport aux bases (e_i) et (f_j), M'(u) la matrice de u par rapport aux bases (e'_i) et (f'_j); on a alors
 (33 D)
@@ -614,7 +614,7 @@ M'(u) = Q^{-1} M(u) P.
 $$
 En effet, on peut écrire $u = 1_F \circ u \circ 1_E$. La formule (33) résulte aussitôt de II, p. 144, corollaire, lorsqu’on prend la matrice de l_E par rapport à (e'_i) et (e_i), celle de u par rapport à (e_i) et (f_j) et celle de 1_F par rapport à (f_j) et (f'_j).
 
-#### Corollaire 1 {#alg-ii-s10-prop-6-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s10-prop-6-cor-1 .statement tag=05WW}
 
 Si u est un endomorphisme de E, M(u) et M'(u) ses matrices par rapport aux bases (e_i) et (e'_i) respectivement, on a
 (34 D)
@@ -622,7 +622,7 @@ $$
 M'(u) = P^{-1} M(u) P.
 $$
 
-#### Corollaire 2 {#alg-ii-s10-prop-6-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s10-prop-6-cor-2 .statement tag=05WX}
 
 Si M(x) et M'(x) sont les matrices à une colonne d’un même élément $x \in E$ par rapport aux bases (e_i) et (e'_i) respectivement, on a
 (35 D)
@@ -638,7 +638,7 @@ x_i = \sum_{j=1}^n a_{ij} x'_j \qquad (1 \leq i \leq n)
 $$
 pour les éléments $x_i$ et $x'_i$ des matrices $M(x)$ et $M'(x)$ respectivement. Les formules (36 D) sont dites formules de changement de coordonnées. On observera qu’elles expriment les composantes de x relatives à l'« ancienne » base (e_i) en fonction des composantes de x relatives à la « nouvelle » base (e'_i) et des éléments de P, c’est-à-dire des composantes de la « nouvelle » base relatives à l'« ancienne » base.
 
-#### Remarque 1 {#alg-ii-s10-n8-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s10-n8-rem-1 .statement tag=05WY}
 
 Partons maintenant d’un A-module à gauche E ayant deux bases (e_i), (e'_i) de n éléments chacune; si on pose $e'_i = \sum_{j=1}^n a_{ji} e_j$ on dit encore que $P = (a_{ji})$ est la matrice de passage de (e_i) à (e'_i); c’est encore la matrice de l’automorphisme u de E tel que $u(e_i) = e'_i$, par rapport à la base $(e_i)$, et aussi la matrice de $l_E$ prise par rapport aux bases $(e'_i)$ et $(e_i)$ dans cet ordre. Les résultats précédents subsistent alors avec les seules modifications suivantes : les formules (33 D) à (36D) sont respectivement remplacées par
 
@@ -647,7 +647,7 @@ Partons maintenant d’un A-module à gauche E ayant deux bases (e_i), (e'_i) de
 (35 G) $$ ^tM(x) = ^tM'(x) . ^tP. $$
 (36 G) $$ x_i = \sum_{j=1}^n x_j' a_{ij} \quad (1 \leq i \leq n). $$
 
-#### Remarque 2 {#alg-ii-s10-n8-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s10-n8-rem-2 .statement tag=0DG1}
 
 Sous les hypothèses de II, p. 152, prop. 4, considérons un élément $x^* \in \mathbf{E}^*$; comme la matrice de passage de $(e_i^*)$ à $(e_{i'}^*)$ est $^tP^{-1}$ (II, p, 153, prop. 5) on a, pour les matrices $M(x^*)$ et $M'(x^*)$ de $x^*$ par rapport à ces deux bases respectivement,
 $$
@@ -661,7 +661,7 @@ pour les éléments $(x_i^*)$ et $(x_{i'}^*)$ des matrices $M(x^*)$ et $M'(x^*)$
 (37 G) $$ M'(x^*) = ^tP . M(x^*) $$
 (38 G) $$ x_{i'}^* = \sum_{j=1}^n a_{ji} x_j^* \quad (1 \leq i \leq n). $$
 
-#### Remarque 3 {#alg-ii-s10-n8-rem-3 .statement}
+#### Remarque 3 {#alg-ii-s10-n8-rem-3 .statement tag=0DG2}
 
 Soient A, B deux anneaux, $\sigma : A \to B$ un homomorphisme de A dans B, E un A-module à droite (resp. à gauche), $(e_i), (e_i')$ deux bases de $n$ éléments de E, F un B-module à droite (resp. à gauche), $(f_j), (f_j')$ deux bases de $m$ éléments de F, $P$ (resp. $Q$) la matrice de passage de $(e_i)$ à $(e_i')$ (resp. de $(f_j)$ à $(f_j')$).
 
@@ -674,7 +674,7 @@ La démonstration est la même que pour (33 D) et (33 G), en utilisant cette foi
 
 ### 9. Matrices équivalentes; matrices semblables
 
-#### Définition 5 {#alg-ii-s10-def-5 .statement}
+#### Définition 5 {#alg-ii-s10-def-5 .statement tag=05WZ}
 
 On dit que deux matrices $X, X'$ à $m$ lignes et $n$ colonnes sur un anneau $\mathbf{A}$ sont équivalentes s’il existe une matrice carrée inversible $P$ d’ordre $m$ et une matrice carrée inversible $Q$ d’ordre $n$ telles que
 
@@ -704,7 +704,7 @@ De même, soient $h, i$ deux éléments distincts de $\{1, m\}$, $a$ un élémen
 
 De même, si $X'$ se déduit de $X$ en multipliant à gauche la ligne d’indice $i$ de $X$ par un élément inversible $c \in \mathbf{A}$, $X'$ et $X$ sont équivalentes, car $X' = PX$ où $P$ est la matrice $\operatorname{diag}(b_h)$ avec $b_i = c$, $b_h = 1$ pour $h \neq i$.
 
-#### Définition 6 {#alg-ii-s10-def-6 .statement}
+#### Définition 6 {#alg-ii-s10-def-6 .statement tag=05X0}
 
 On dit que deux matrices carrées $X, X'$ d’ordre $n$ sur un anneau $\mathbf{A}$ sont semblables s’il existe une matrice carrée inversible $P$ d’ordre $n$ telle que
 
@@ -717,11 +717,11 @@ Il est clair que la relation « $X$ et $X'$ sont semblables » est une *relation
 
 Avec cette définition, le cor. 1 de II, p. 153 implique que lorsqu’on change de base dans un $\mathbf{A}$-module $E$ (ayant une base finie), la matrice d’un endomorphisme $u$ de $E$ par rapport à la nouvelle base est *semblable* à la matrice de $u$ par rapport à l’ancienne base.
 
-#### Remarque 1 {#alg-ii-s10-n9-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s10-n9-rem-1 .statement tag=05X1}
 
 Deux matrices carrées qui ne diffèrent que par l’ordre des lignes (ou l’ordre des colonnes) sont équivalentes, mais *non semblables* en général. On obtient une matrice semblable à une matrice carrée $X = (x_{ij})$ en effectuant *la même permutation* $\sigma^{-1}$ sur les lignes et les colonnes, c’est-à-dire en considérant la matrice $X' = (x'_{ij})$, où $x'_{ij} = x_{\sigma(i), \sigma(j)}$ pour tout couple d’indices ; en effet, si $X$ est la matrice d’un endomorphisme $u$ de $A^n_d$ par rapport à une base $(e_i)_{1 \leq i \leq n}$, $X'$ est la matrice de $u$ par rapport à la base $(e_{\sigma(i)})_{1 \leq i \leq n}$.
 
-#### Remarque 2 {#alg-ii-s10-n9-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s10-n9-rem-2 .statement tag=0DG3}
 
 Soient $X$ et $X'$ deux matrices carrées d’ordre $n$, qui s’écrivent sous forme de matrices diagonales de matrices carrées (II, p. 152, *Exemple IV*) :
 
@@ -852,11 +852,11 @@ $$
 
 en vertu de (49). Cette dernière formule prouve en outre:
 
-#### Proposition 7 {#alg-ii-s10-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s10-prop-7 .statement tag=05X2}
 
 *Soit $\mathbf{C}$ un anneau commutatif, et pour toute matrice $P \in \mathbf{M}_n(\mathbf{C})$, soit $f_P$ la forme linéaire $X \mapsto \operatorname{Tr}(PX)$ sur $\mathbf{M}_n(\mathbf{C})$; l’application $P \mapsto f_P$ est une bijection $\mathbf{C}\text{-linéaire de } \mathbf{M}_n(\mathbf{C})$ sur son dual.*
 
-#### Proposition 8 {#alg-ii-s10-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s10-prop-8 .statement tag=05X3}
 
 *Si $g$ est une forme linéaire sur le $\mathbf{C}$-module $\mathbf{M}_n(\mathbf{C})$ telle que $g(XY) = g(YX)$ quelles que soient les matrices $X, Y$ de $\mathbf{M}_n(\mathbf{C})$, il existe un scalaire $c \in \mathbf{C}$ et un seul tel que $g(X) = c \cdot \operatorname{Tr}(X)$ pour toute matrice $X \in \mathbf{M}_n(\mathbf{C})$.
 
@@ -866,7 +866,7 @@ La proposition étant triviale pour $n = 1$, on peut se borner au cas où $n \ge
 
 Les matrices finies à $m$ lignes et $n$ colonnes sur un corps $K$ correspondent biunivoquement aux applications linéaires de l’espace vectoriel à droite $E = K^n$ dans l’espace vectoriel à droite $F = K_d^m$, lorsqu’on prend les matrices de ces applications par rapport aux bases canoniques de $E$ et $F$. Par définition, le *rang* d’une telle matrice $X$ est le rang de l’application linéaire $u : E \to F$ qui lui correspond; comme ce nombre est par définition la dimension du sous-espace $u(E)$ de $F$, il revient au même (en identifiant les colonnes de $X$ aux images par $u$ de la base canonique de $E$) de donner la définition suivante:
 
-#### Définition 7 {#alg-ii-s10-def-7 .statement}
+#### Définition 7 {#alg-ii-s10-def-7 .statement tag=05X4}
 
 *Étant donnée une matrice $X$ à $m$ lignes et $n$ colonnes sur un corps $K$, on appelle rang de $X$ par rapport à $K$, et on note $\mathrm{rg}(X)$, la dimension du sous-espace de $K_d^m$ engendré par les $n$ colonnes de $X$.*
 
@@ -874,13 +874,13 @@ On peut dire aussi que le rang de $X$ est le *nombre maximum de colonnes de $X$ 
 
 Si $E$ et $F$ sont deux espaces vectoriels de dimension finie sur $K$, $u$ une application linéaire de $E$ dans $F$, le rang de la matrice $M(u)$ par rapport à deux bases quelconques est égal au rang de $u$.
 
-#### Proposition 9 {#alg-ii-s10-prop-9 .statement}
+#### Proposition 9 {#alg-ii-s10-prop-9 .statement tag=05X5}
 
 *Si les éléments d’une matrice $X$ à $m$ lignes et $n$ colonnes appartiennent à un sous-corps $K_0$ d’un corps $K$, le rang de $X$ par rapport à $K_0$ est égal au rang de $X$ par rapport à $K$.*
 
 En effet, soit $F_0$ le $K_0$-espace vectoriel à droite engendré par la base canonique du $K$-espace vectoriel à droite $F = K_d^m$; par hypothèse les colonnes de $X$ appartiennent à $F_0$. Soit $V_0$ (resp. $V$) le sous-$K_0$-espace vectoriel de $F_0$ (resp. le sous-$K$-espace vectoriel de $F$) engendré par ces colonnes. On a $V = V_0 \otimes_{K_0} K$ (II, p. 120, prop. 2), donc $\dim_K V = \dim_{K_0} V_0$.
 
-#### Proposition 10 {#alg-ii-s10-prop-10 .statement}
+#### Proposition 10 {#alg-ii-s10-prop-10 .statement tag=05X6}
 
 *Le rang d’une matrice $X$ sur un corps $K$ est égal au rang de sa transposée ${}^t X$ sur le corps opposé $K^o$.*
 
@@ -890,7 +890,7 @@ On voit donc que le rang de $X$ peut aussi être défini comme le *nombre maximu
 
 Les matrices carrées d’ordre $n$ sur un corps $K$ correspondent biunivoquement aux endomorphismes de $E = K_d^n$ et forment un anneau isomorphe à l’anneau $\mathrm{End}_K(E)$ (II, p. 150); aux automorphismes de $E$ correspondent les matrices carrées inversibles.
 
-#### Proposition 11 {#alg-ii-s10-prop-11 .statement}
+#### Proposition 11 {#alg-ii-s10-prop-11 .statement tag=05X7}
 
 *Soit $X$ une matrice carrée d’ordre $n$ sur un corps $K$. Les propriétés suivantes sont équivalentes:
 a) $X$ est inversible dans $\mathbf{M}_n(K)$.
@@ -900,7 +900,7 @@ c) $X$ est inversible à gauche dans $\mathbf{M}_n(\mathbf{K})$.
 d) $X$ est de rang $n$.
 Cela ne fait que traduire II, p. 101, corollaire.
 
-#### Proposition 12 {#alg-ii-s10-prop-12 .statement}
+#### Proposition 12 {#alg-ii-s10-prop-12 .statement tag=05X8}
 
 Pour qu’un système de $m$ équations linéaires à $n$ inconnues
 
@@ -916,7 +916,7 @@ On notera que la condition de la prop. 12 est toujours remplie lorsque $m = n$ e
 
 ### 13. Équivalence des matrices sur un corps
 
-#### Proposition 13 {#alg-ii-s10-prop-13 .statement}
+#### Proposition 13 {#alg-ii-s10-prop-13 .statement tag=05X9}
 
 Soient $E, F$ deux espaces vectoriels sur un corps $\mathbf{K}$, de dimensions finies. Si $u : E \to F$ est une application linéaire de rang $r$, il existe des bases de $E$ et $F$ telles que, par rapport à ces bases, on ait
 
@@ -928,7 +928,7 @@ Toute matrice de type $(m, n)$ sur $\mathbf{K}$ et de rang $r$ est équivalente 
 
 La seconde assertion est trivialement équivalente à la première. Pour démontrer celle-ci, soient $\dim E = n$, $\dim F = m$. Le noyau $N = \overline{u}(0)$ est de dimension $n - r$ (II, p. 101, formule (11)); soient $V$ un supplémentaire de $N$ dans $E$, $(e_i)_{1 \leq i \leq n}$ une base de $E$ telle que $(e_i)_{1 \leq i \leq r}$ soit une base de $V$ et $(e_i)_{r+1 \leq i \leq n}$ une base de $N$. Alors les $u(e_j)$ ($1 \leq j \leq r$) forment une base de $u(E)$; il existe donc une base $(f_j)_{1 \leq j \leq m}$ de $F$ telle que $f_j = u(e_j)$ pour $1 \leq j \leq r$ (II, p. 95, th. 2), et il est clair que par rapport aux bases $(e_i)$ et $(f_j)$, la matrice $M(u)$ est donnée par (55).
 
-#### Corollaire {#alg-ii-s10-n13-cor-1 .statement}
+#### Corollaire {#alg-ii-s10-n13-cor-1 .statement tag=05XA}
 
 Pour que deux matrices sur un corps, de type $(m, n)$, soient équivalentes, il faut et il suffit qu’elles aient même rang.
 
@@ -940,7 +940,7 @@ $$
 
 matrice inversible d’ordre $m$ d’après ce qu’on a vu dans II, p. 152.
 
-#### Lemme 1 {#alg-ii-s10-lem-1 .statement}
+#### Lemme 1 {#alg-ii-s10-lem-1 .statement tag=05XB}
 
 *Soit $X = (\xi_{ij})$ une matrice de type $(m, n)$ sur un anneau A. Supposons que $m \geq 2$ et qu’il existe un élément $\xi_{i1}$ de la première colonne de $X$ qui soit inversible dans A. Alors il existe deux matrices carrées inversibles $P \in \mathbf{M}_m(A)$, $Q \in \mathbf{M}_n(A)$ et une matrice Y de type $(m - 1, n - 1)$ sur A, telles que $P$ (resp. $Q$) soit produit de matrices de la forme $B_{ij}(\lambda)$ d’ordre $m$ (resp. $n$), et que l’on ait*
 
@@ -955,7 +955,7 @@ $$
 
 En effet, la matrice $B_{ij}(\lambda)X$ s’obtient en ajoutant à la ligne d’indice $i$ de $X$ la ligne d’indice $j$ multipliée à gauche par $\lambda$ (II, p. 155, *Exemple 2*); si $\xi_{i1}$ est inversible, il existe donc $\lambda \in A$ tel que pour la matrice $X' = B_{1i}(\lambda)X = (\xi'_{kl})$ on ait $\xi'_{11} = 1$; multipliant à gauche $X'$ par des matrices $B_{k1}(\mu_k)$ d’ordre $m$ convenablement choisies (pour $2 \leq k \leq m$), on obtient une matrice $X'' = (\xi''_{kl})$ telle que $\xi''_{11} = 1,\ \xi''_{k1} = 0$ pour $k \neq 1$. On multiplie ensuite *à droite* la matrice obtenue successivement par des matrices $B_{1j}(\nu_j)$ d’ordre $n$ convenables $(2 \leq j \leq n)$, et on obtient bien une matrice de la forme (57).
 
-#### Proposition 14 {#alg-ii-s10-prop-14 .statement}
+#### Proposition 14 {#alg-ii-s10-prop-14 .statement tag=05XC}
 
 *Soit $X$ une matrice de type $(m, n)$ sur un corps K. Si $X$ est de rang r, il existe deux matrices carrées inversibles $P \in \mathbf{M}_m(K)$, $Q \in \mathbf{M}_n(K)$ telles que $P$ (resp. $Q$) soit produit de matrices d’ordre $m$ (resp. $n$) de la forme $B_{ij}(\lambda)$ et que l’on ait*
 
@@ -977,17 +977,19 @@ La proposition est évidente si $X = 0$; supposons donc $X \neq 0$. Si $m = n = 
 
 La prop. 14 redonne aussitôt la prop. 13.
 
-#### Corollaire 1 {#alg-ii-s10-prop-14-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s10-prop-14-cor-1 .statement tag=05XD}
 
 *Si $X$ est une matrice carrée inversible d’ordre $n$ sur un corps $\mathbf{K}$, il existe trois matrices inversibles $P, Q, D$ d’ordre $n$ telles que $X = PDQ$, $P$ et $Q$ étant produits de matrices de la forme $B_{ij}(\lambda)$, et $D$ une matrice diagonale de la forme $D = \operatorname{diag}(1, 1, \ldots, 1, \delta)$ avec $\delta \neq 0$ (cf. II, p. 207, exerc. 13).
 
-#### Corollaire 2 {#alg-ii-s10-prop-14-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s10-prop-14-cor-2 .statement tag=05XE}
 
 *Pour tout corps $\mathbf{K}$, le groupe de matrices inversibles $\mathbf{GL}(n, \mathbf{K})$ est engendré par les matrices de permutation (II, p. 151, Exemple 2), les matrices diagonales $\operatorname{diag}(a, 1, \ldots, 1)$ ($a \neq 0$ dans $\mathbf{K}$) et les matrices $B_{12}(\lambda)$ ($\lambda \in \mathbf{K}$).
 
 On a vu (II, p. 155) que le produit à droite (resp. à gauche) d’une matrice par la matrice d’une transposition convenable échange deux colonnes (resp. deux lignes) quelconques. On en conclut que la matrice $\operatorname{diag}(1, \ldots, 1, a)$ est égale au produit de $\operatorname{diag}(a, 1, \ldots, 1)$ et de matrices de permutation, et que toute matrice $B_{ij}(\lambda)$ est égale au produit de $B_{12}(\lambda)$ et de matrices de permutation, d’où le corollaire.
 
-*Remarques. —* 1) Au chap. III, on verra que si $m = n = r$ et si $\mathbf{K}$ est *commutatif*, alors, pour tous les choix de $P$ et $Q$ satisfaisant aux conditions de la prop. 14, l’élément $\delta_r$ est toujours le même et est égal au *déterminant* de $X$ (III, p. 101).
+#### Remarques {#alg-ii-s10-n13-rem-1 .statement tag=05XF}
+
+1) Au chap. III, on verra que si $m = n = r$ et si $\mathbf{K}$ est *commutatif*, alors, pour tous les choix de $P$ et $Q$ satisfaisant aux conditions de la prop. 14, l’élément $\delta_r$ est toujours le même et est égal au *déterminant* de $X$ (III, p. 101).
 
 2) Le raisonnement de la prop. 14, légèrement modifié, montre qu’il y a une matrice de permutation $R$ telle que l’on ait (avec les mêmes conditions pour $P$)
 

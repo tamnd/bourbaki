@@ -29,9 +29,9 @@ subsections:
       pdf_page: 265
 statements: 22
 exercises: 6
-content_sha256: c7c01fa0f101acf7a7fb72e9bb2aa97b69fcabe02410e77b60fd9d1d53026f80
+content_sha256: 9b08d567a3f8fa5a624b6f3b2ee413f00625377bb1b76dc0f19cdb61556b6b6b
 translated_from: content/en/int/V/01_s1_essential_upper_integral.md
-source_content_sha256: ed3f86d415aca60dc4b5aac4b085985e62b299c49c4cf9f6e524280c4a654cc5
+source_content_sha256: d19dbe1131a1bb0064d0db8332b6983acb2090fbcf25d4ea5abb63e1585fb1b0
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-ba13410c
 glossary_version: 34
@@ -43,7 +43,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Định nghĩa của tích phân trên cốt yếu
 
-#### Định nghĩa 1 {#int-v-s1-def-1 .statement}
+#### Định nghĩa 1 {#int-v-s1-def-1 .statement tag=08ZO}
 
 Với mọi hàm $f \in \mathscr{F}_+(T)$, ta gọi tích phân trên cốt yếu của $f$ đối với $\mu$, và ký hiệu là $\mu^\bullet(f)$, là supremum, hữu hạn hoặc không, của tập hợp các số $\mu^*(f \varphi_K)$, trong đó $K$ chạy trên tập hợp các tập con compact của $T$. Với mọi tập con $A$ của $T$, ta đặt $\mu^\bullet(A) = \mu^\bullet(\varphi_A)$.
 
@@ -58,7 +58,7 @@ Có thể xảy ra $\mu^\bullet(f) \neq \mu^*(f)$; thật vậy, điều kiện 
 
 Ánh xạ $\mu^\bullet$ từ $\mathscr{F}_+(T)$ vào $\overline{\mathbf{R}}$ trùng với $\mu$ trên $\mathscr{K}_+(T)$. Suy ra rằng hai độ đo $\mu_1$ và $\mu_2$ sao cho $\mu_1^\bullet = \mu_2^\bullet$ là bằng nhau.
 
-#### Mệnh đề 1 {#int-v-s1-prop-1 .statement}
+#### Mệnh đề 1 {#int-v-s1-prop-1 .statement tag=08ZP}
 
 a) Nếu $f$ và $g$ là hai hàm số $\geq 0$ bằng nhau hầu khắp nơi địa phương, thì $\mu^\bullet(f) = \mu^\bullet(g)$.
 b) Nếu $f$ và $g$ là hai hàm số $\geq 0$ sao cho $f \leq g$, thì $\mu^\bullet(f) \leq \mu^\bullet(g)$.
@@ -75,7 +75,7 @@ $$
 
 Đẳng thức xảy ra trong quan hệ d) nếu $f$ và $g$ là đo được, theo Hệ quả 4 của Định lý 5, Ch. IV, §5, No. 6. Nói chung hơn, ta có kết quả sau:
 
-#### Mệnh đề 2 {#int-v-s1-prop-2 .statement}
+#### Mệnh đề 2 {#int-v-s1-prop-2 .statement tag=08ZQ}
 
 *Cho $f, g, h$ là ba phần tử của $\mathscr{F}_+$; nếu $g$ và $h$ đo được, thì*
 
@@ -104,13 +104,13 @@ $$
 
 điều này suy ra bất đẳng thức cần chứng minh vì $u$ là tùy ý.
 
-#### Hệ quả {#int-v-s1-n1-cor-1 .statement}
+#### Hệ quả {#int-v-s1-n1-cor-1 .statement tag=08ZR}
 
 *Cho $f$ là một hàm $\geq 0$, $(g_n)$ là một dãy các hàm đo được $\geq 0$; khi đó $\int^\bullet f \left( \sum_n g_n \right) d\mu = \sum_n \left( \int^\bullet f g_n\, d\mu \right)$.
 
 Đối với trường hợp một dãy hữu hạn, đây là một hệ quả ngay lập tức của Mệnh đề 2. Trường hợp một dãy vô hạn có thể được suy ra từ điều này bằng cách dùng Mệnh đề 1, e).
 
-#### Mệnh đề 3 {#int-v-s1-prop-3 .statement}
+#### Mệnh đề 3 {#int-v-s1-prop-3 .statement tag=08ZS}
 
 *Với mọi số hữu hạn $\alpha \geq 0$ và mọi cặp độ đo $\mu, \nu$ trên $\mathbf{T}$,
 
@@ -123,7 +123,7 @@ Hơn nữa, quan hệ $\mu \leq \nu$ suy ra $\mu^\bullet \leq \nu^\bullet$.*
 
 Chứng minh là ngay lập tức từ mệnh đề tương tự trong Ch. IV (§1, No. 3, Mệnh đề 15).
 
-#### Mệnh đề 4 {#int-v-s1-prop-4 .statement}
+#### Mệnh đề 4 {#int-v-s1-prop-4 .statement tag=08ZT}
 
 — *Với mọi hàm số* $f \geqslant 0$ *nửa liên tục dưới trên* $T$, $\mu^\bullet(f) = \mu^*(f)$.
 
@@ -131,7 +131,7 @@ Vì, cho $g$ là một hàm trong $\mathscr{K}_+(T)$ sao cho $g \leqslant f$. N�
 
 ### 2. Các hàm điều hòa và các độ đo
 
-#### Mệnh đề 5 {#int-v-s1-prop-5 .statement}
+#### Mệnh đề 5 {#int-v-s1-prop-5 .statement tag=08ZU}
 
 — *Cho* $A$ *là một tập con của* $T$; *các tính chất sau là tương đương*:
 a) *Tập hợp* $A$ *được chứa trong hợp của một dãy các tập mở* $\mu$*-nguyên*.
@@ -140,13 +140,13 @@ c) *Tập hợp* $A$ *được chứa trong hợp của một dãy các tập co
 
 Hiển nhiên là mỗi tính chất a) và c) suy ra b). Ngược lại, b) suy ra a) vì mọi tập hợp có độ đo ngoài hữu hạn đều được chứa trong một tập mở nguyên (Ch. IV, §1, No. 4, Mệnh đề 19), và b) suy ra c) vì mọi tập hợp nguyên là hợp của một dãy các tập compact và một tập không đáng kể (Ch. IV, §4, No. 6, Hệ quả 2 của Định lý 4).
 
-#### Định nghĩa 2 {#int-v-s1-def-2 .statement}
+#### Định nghĩa 2 {#int-v-s1-def-2 .statement tag=08ZV}
 
 — *Một tập con của* $T$ *được gọi là* $\mu$*-điều hòa nếu nó thỏa mãn các điều kiện tương đương của Mệnh đề 5*. *Một hàm xác định trên* $T$, *có giá trị trong một không gian vectơ hoặc trong* $\overline{\mathbf{R}}$, *được gọi là* $\mu$*-điều hòa nếu nó bằng không trên phần bù của một tập con* $\mu$*-điều hòa của* $T$. *Độ đo* $\mu$ *được gọi là điều hòa nếu* $T$ *là một tập* $\mu$*-điều hòa*.
 
 Nếu $\mu$ là một độ đo điều hòa, thì mọi hàm trên $T$ đều là $\mu$-điều hòa và mọi tập con của $T$ đều là $\mu$-điều hòa.
 
-#### Nhận xét {#int-v-s1-n2-rem-1 .statement}
+#### Nhận xét {#int-v-s1-n2-rem-1 .statement tag=08ZW}
 
 — 1) Nếu $\theta$ là một độ đo phức trên $T$, ta nói rằng một hàm $f$ là $\theta$-điều hòa (tương ứng rằng $\theta$ là điều hòa) nếu $f$ là $|\theta|$-điều hòa (tương ứng nếu $|\theta|$ là điều hòa).
 2) Mọi độ đo bị chặn đều là điều hòa; nếu $T$ là một hợp đếm được của các tập compact, thì mọi độ đo trên $T$ đều là điều hòa.
@@ -154,7 +154,7 @@ Nếu $\mu$ là một độ đo điều hòa, thì mọi hàm trên $T$ đều l
 
 4) Một hàm bằng hầu khắp nơi với một hàm điều hòa thì là điều hòa.
 
-#### Mệnh đề 6 {#int-v-s1-prop-6 .statement}
+#### Mệnh đề 6 {#int-v-s1-prop-6 .statement tag=08ZX}
 
 — *Cho $f$ là một hàm số dương xác định trên $T$ là $\mu$-đo được và $\mu$-điều hòa. Khi đó tồn tại một dãy $(h_n)_{n \in \mathbf{N}}$ các phần tử của $\mathscr{F}_+(T)$, có tổng bằng $f$, có các tính chất sau:*
 
@@ -171,7 +171,7 @@ Gọi $\mathscr{K}$ là tập hợp các tập con compact $K$ của $T$ sao cho
 
 Mệnh đề sau đây cho phép rút gọn việc nghiên cứu tích phân trên về việc nghiên cứu tích phân trên cốt yếu.
 
-#### Mệnh đề 7 {#int-v-s1-prop-7 .statement}
+#### Mệnh đề 7 {#int-v-s1-prop-7 .statement tag=08ZY}
 
 — *Cho $f$ là một phần tử của $\mathscr{F}_+(T)$.*
 1) *Nếu hàm $f$ không $\mu$-điều hòa, thì $\mu^*(f) = +\infty$.*
@@ -192,15 +192,15 @@ $$
 
 Đặt $A = \bigcup_n A_n$; thành phần thứ hai bằng $\mu^*(f \varphi_A)$ (Ch. IV, §1, No. 3, Th. 3), nghĩa là bằng $\mu^\bullet(f \varphi_A)$ (theo Mệnh đề 1, hoặc theo 2) ở trên). Vì $\mu^\bullet(f) = \mu^\bullet(f \varphi_A) + \mu^\bullet(f \varphi_{\mathbf{C}_A})$ (Mệnh đề 2), ta có $\mu^\bullet(f \varphi_{\mathbf{C}_A}) = 0$, từ đó suy ra 3).
 
-#### Hệ quả 1 {#int-v-s1-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s1-prop-7-cor-1 .statement tag=08ZZ}
 
 *Để f là không đáng kể, điều kiện cần và đủ là nó không đáng kể địa phương và bị điều hòa.*
 
-#### Hệ quả 2 {#int-v-s1-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s1-prop-7-cor-2 .statement tag=0900}
 
 *Nếu $\mu$ là một độ đo bị điều hòa (đặc biệt nếu $\mu$ bị chặn, hoặc nếu T là đếm được tại vô hạn), thì $\mu^* = \mu^\bullet$.*
 
-#### Mệnh đề 8 {#int-v-s1-prop-8 .statement}
+#### Mệnh đề 8 {#int-v-s1-prop-8 .statement tag=0901}
 
 a) *Cho H là một tập hợp các hàm $\geq 0$, nửa liên tục dưới, có hướng đối với quan hệ $\leq$; khi đó*
 
@@ -238,7 +238,7 @@ Bất đẳng thức $\mu^\bullet(\eta) \leqslant \inf_{h \in H} \mu^\bullet(h)$
 
 Cho $F$ là một không gian Banach thực; nhắc lại rằng các phần tử của các không gian $\mathscr{F}_F^p$ (Ch. IV, §3, No. 3) và $\mathscr{L}_F^p$ (Ch. IV, §3, No. 4, Định nghĩa 2) là các hàm $\mu$-bị điều hòa (Ch. IV, §5, No. 6, Bổ đề 1); với $\mathscr{N}_F$ vẫn ký hiệu không gian các ánh xạ không đáng kể của $T$ vào $F$, ta sẽ đưa vào không gian $\mathscr{N}_F^\infty$ các ánh xạ không đáng kể địa phương của $T$ vào $F$.
 
-#### Bổ đề {#int-v-s1-n3-lem-1 .statement}
+#### Bổ đề {#int-v-s1-n3-lem-1 .statement tag=0902}
 
 *Cho $g$ và $g'$ là hai ánh xạ $\mu$-bị điều hòa với các giá trị trong $F$; nếu $g$ và $g'$ bằng địa phương hầu khắp nơi với cùng một hàm $f$, thì $g = g'$ hầu khắp nơi.*
 
@@ -250,7 +250,7 @@ Tương tự, ta sẽ ký hiệu bởi $\overline{\mathscr{L}}_F^p(T, \mu)$ (ho�
 
 Không gian chuẩn hóa $\overline{\mathscr{L}}_F^p / \mathscr{N}_F^\infty$ có thể được đồng nhất một cách chính tắc với $L_F^p$; do đó $\overline{\mathscr{L}}_F^p$ là đầy đủ. Các phần tử của nó được gọi là *các hàm khả tích thiết yếu lũy thừa p*, thuật ngữ này được biện minh bởi mệnh đề sau:
 
-#### Mệnh đề 9 {#int-v-s1-prop-9 .statement}
+#### Mệnh đề 9 {#int-v-s1-prop-9 .statement tag=0903}
 
 *Đối với một ánh xạ f của T vào F thuộc $\overline{\mathscr{F}}_F^p$ (tương ứng thuộc $\overline{\mathscr{L}}_F^p$), điều kiện cần và đủ là* (tương ứng *rằng f đo được và rằng*)
 
@@ -274,11 +274,11 @@ $$
 
 Ngược lại, giả sử rằng $\mu^\bullet(|f|^p) < +\infty$; khi đó tồn tại một tập hợp điều hòa A sao cho f bằng không hầu khắp nơi một cách địa phương trong T − A (Mệnh đề 7). Hàm $f \varphi_A$, bằng f hầu khắp nơi một cách địa phương, thỏa mãn $N_p(f \varphi_A) = \overline{N}_p(f) < +\infty$, do đó nó thuộc về $\mathscr{F}_F^p$, và $f \in \overline{\mathscr{F}}_F^p$.
 
-#### Hệ quả {#int-v-s1-n3-cor-1 .statement}
+#### Hệ quả {#int-v-s1-n3-cor-1 .statement tag=0904}
 
 *Để f thuộc $\mathscr{L}_F^p$, điều kiện cần và đủ là f thuộc $\overline{\mathscr{L}}_F^p$ và là điều hòa.*
 
-#### Định nghĩa 3 {#int-v-s1-def-3 .statement}
+#### Định nghĩa 3 {#int-v-s1-def-3 .statement tag=0905}
 
 *Các phần tử của $\overline{\mathscr{L}}_F^1$ được gọi là các hàm khả tích thiết yếu với giá trị trong F. Khi hợp thành ánh xạ $\tilde{f} \mapsto \mu(f)$ của $L_F^1$ vào F với ánh xạ chính tắc của $\overline{\mathscr{L}}_F^1$ lên $L_F^1$, ta thu được một ánh xạ tuyến tính liên tục của $\overline{\mathscr{L}}_F^1$ vào F mở rộng ánh xạ $f \mapsto \int f d\mu$ của $\mathscr{L}_F^1$ vào F. Một lần nữa ký hiệu $\int f d\mu$ hoặc $\mu(f)$ là giá trị của ánh xạ này đối với $f \in \overline{\mathscr{L}}_F^1$, và phần tử này được gọi là nguyên của f đối với $\mu$.*
 
@@ -296,7 +296,7 @@ $$
 $$
 đúng đối với mọi hàm khả tích thiết yếu có giá trị trong một không gian Banach.
 
-#### Mệnh đề 10 {#int-v-s1-prop-10 .statement}
+#### Mệnh đề 10 {#int-v-s1-prop-10 .statement tag=0906}
 
 *Cho $\mathfrak{K}$ là một tập hợp trù mật theo $\mu$ của các tập con compact của $T$.*
 
@@ -335,7 +335,7 @@ Cho $\theta$ là một độ đo phức; ta đặt $\overline{\mathscr{L}}_F^p(T
 
 Kết quả sau đây sẽ được sử dụng thường xuyên trong phần tiếp theo. Trong mệnh đề này, không thể thay thế các tích phân trên cốt yếu bằng các tích phân trên thông thường (xem Bài tập 4).
 
-#### Mệnh đề 11 {#int-v-s1-prop-11 .statement}
+#### Mệnh đề 11 {#int-v-s1-prop-11 .statement tag=0907}
 
 — Cho $(\lambda_\alpha)_{\alpha \in A}$ là một họ các độ đo dương trên T, có hướng theo quan hệ $\leq$ và có supremum $\lambda$ trong $\mathscr{M}(T)$. Khi đó, với mọi hàm số $f \geq 0$,
 
@@ -357,11 +357,11 @@ $$
 = \sup_{\alpha \in A} \sup_{K \in \mathscr{K}} \lambda_\alpha^\bullet(f \varphi_K) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
-#### Hệ quả 1 {#int-v-s1-prop-11-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s1-prop-11-cor-1 .statement tag=0908}
 
 *Để một tập con N của T là địa phương $\lambda$-không đáng kể, điều kiện cần và đủ là N địa phương $\lambda_\alpha$-không đáng kể với mọi $\alpha \in A$.*
 
-#### Hệ quả 2 {#int-v-s1-prop-11-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s1-prop-11-cor-2 .statement tag=0909}
 
 *Để một ánh xạ g từ T vào một không gian tôpô G là $\lambda$-đo được, điều kiện cần và đủ là nó $\lambda_\alpha$-đo được với mọi $\alpha \in A$.*
 

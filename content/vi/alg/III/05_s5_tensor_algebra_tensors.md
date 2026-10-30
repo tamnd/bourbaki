@@ -37,9 +37,9 @@ subsections:
       pdf_page: 516
 statements: 15
 exercises: 10
-content_sha256: 9a4420af48fb3145b1b98049cab99a6b7ea7b69ae764e74e822f0baa76b7df0e
+content_sha256: 482cffb5306446acc8c8d4c4d8fdd589068818714bc4ea25530e0388374c2f13
 translated_from: content/en/alg/III/05_s5_tensor_algebra_tensors.md
-source_content_sha256: 5c03097c6701aa89319bcb1f79ac5061cb1f128e8ae0772c05c9607c5417b89e
+source_content_sha256: d99f913e6231ffa43f0356d794c4b307be8a5cb9b275a18c87c2f41e23c6d2fe
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-1c09c3b9
 glossary_version: 34
@@ -64,11 +64,11 @@ $$
 $$
 Ngay lập tức thấy rằng phép nhân được định nghĩa như vậy trên $T(M)$ là *kết hợp* và có phần tử đơn vị là phần tử đơn vị 1 của $A = T^0(M)$.
 
-#### Định nghĩa 1 {#alg-iii-s5-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s5-def-1 .statement tag=061H}
 
 Với mọi môđun $M$ trên một vành giao hoán $A$, đại số tenxơ của $M$, ký hiệu là $T(M)$, hoặc $\mathrm{Tens}(M)$, hoặc $T_A(M)$, là đại số $\bigoplus_{n \geq 0} T^n(M)$ với phép nhân được định nghĩa trong (1). Đơn ánh chính tắc $\phi : T^1(M) \to T(M)$ (II, § 1, no. 12) (cũng được ký hiệu là $\phi_M$) được gọi là đơn ánh chính tắc của $M$ vào $T(M)$.
 
-#### Mệnh đề 1 {#alg-iii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s5-prop-1 .statement tag=061I}
 
 Cho $E$ là một đại số $A$ (có đơn vị) và $f : M \to E$ là một ánh xạ A-tuyến tính. Tồn tại duy nhất một đồng cấu đại số A $g : T(M) \to E$ sao cho $f = g \circ \phi$.
 
@@ -84,7 +84,7 @@ g(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1)f(x_2)\ldots f(x_n).
 $$
 Ta cũng định nghĩa ánh xạ $g_0 : T^0(M) \to E$ bằng $\eta_E$ ($§ 1$, no. 3), nói cách khác $g_0(\alpha) = \alpha e$ với $\alpha \in A$. Gọi $g$ là ánh xạ $A$-tuyến tính duy nhất từ $T(M)$ vào $E$ mà hạn chế của nó lên $T^n(M)$ là $g_n$ ($n \geq 0$); ngay lập tức ta có $g \circ \phi = g_1 = f$ và còn phải kiểm tra rằng $g$ là một đồng cấu $A$-đại số. Theo phép dựng $g(1) = e$ và chỉ cần, nhờ tính tuyến tính, chứng minh rằng $g(uv) = g(u)g(v)$ với $u \in T^p(M)$ và $v \in T^q(M)$ ($p > 0, q > 0$); bây giờ từ các công thức (1) và (2) suy ra rằng quan hệ này đúng khi $u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$ và $v \in x_{p+1} \otimes \cdots \otimes x_{p+q}$ (trong đó các $x_i$ thuộc $E$). Do đó nó đúng với $u \in T^p(M)$ và $v \in T^q(M)$ nhờ tính tuyến tính.
 
-#### Nhận xét {#alg-iii-s5-n1-rem-1 .statement}
+#### Nhận xét {#alg-iii-s5-n1-rem-1 .statement tag=061J}
 
 Giả sử $E$ là một đại số trên $A$ phân bậc kiểu $\mathbf{Z}$, với phép phân bậc $(E_n)$, và cũng giả sử rằng
 $$
@@ -94,7 +94,7 @@ Khi đó từ (2) suy ra $g(T^p(M)) \subset E_p$ với mọi $p \geq 0$ và do �
 
 ### 2. CÁC TÍNH CHẤT HÀM TỬ CỦA ĐẠI SỐ TENXƠ
 
-#### Mệnh đề 2 {#alg-iii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-s5-prop-2 .statement tag=061K}
 
 Cho $A$ là một vành giao hoán, $M$ và $N$ là hai A-môđun và
 $$
@@ -153,7 +153,7 @@ $$
 
 do $\mathbf{T}(u)$ là một đồng cấu đại số và $\mathbf{T}^1(u) = u$; hạn chế $\mathbf{T}^0(u)$ lên A là ánh xạ đồng nhất. $\mathbf{T}^n(u)$ được gọi là lũy thừa tenxơ thứ $n$ của $u$.
 
-#### Mệnh đề 3 {#alg-iii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-s5-prop-3 .statement tag=061L}
 
 *Nếu $u : M \to N$ là một ánh xạ A-tuyến tính toàn ánh, đồng cấu $\mathbf{T}(u) : \mathbf{T}(M) \to \mathbf{T}(N)$ là toàn ánh và hạt nhân của nó là iđêan hai phía của $\mathbf{T}(M)$ sinh bởi hạt nhân $P \subset M \subset \mathbf{T}(M)$ của $u$.*
 
@@ -175,7 +175,7 @@ T(v \circ u) = T(v) \circ T(u)
 $$
 là ánh xạ đồng nhất trên $T(M)$, suy ra $T(u)$ là đơn ánh và ảnh của nó (đẳng cấu với $T(M)$) là một *nhân tử trực tiếp* của $T(N)$ (II, § 1, no. 9, Mệnh đề 15). Chính xác hơn:
 
-#### Mệnh đề 4 {#alg-iii-s5-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-s5-prop-4 .statement tag=061M}
 
 *Cho $N$ và $P$ là hai môđun con của một môđun $A$-môđun $M$ sao cho tổng của chúng $N + P$ là một nhân tử trực tiếp trong $M$ và giao của chúng $N \cap P$ là một nhân tử trực tiếp trong $N$ và trong $P$. Khi đó các đồng cấu $T(N) \to T(M)$, $T(P) \to T(M)$ và*
 $$
@@ -240,11 +240,11 @@ $$
 
 thì $x \in T(Q)$. Bây giờ định nghĩa của đồng cấu $s$ cho thấy rằng hạn chế của nó lên $T(P' \oplus Q)$ (được đồng nhất với một đại số con của $T(N' \oplus P' \oplus Q)$) là ánh xạ đồng nhất; giả thiết về $x$ do đó suy ra rằng $s(u(x)) = x$. Nhưng khi đó cũng có $v(r(x)) = x$, nói cách khác $x$ thuộc ảnh của $T(Q)$ trong $T(P' \oplus Q)$, điều cần phải chứng minh.
 
-#### Nhận xét {#alg-iii-s5-n2-rem-1 .statement}
+#### Nhận xét {#alg-iii-s5-n2-rem-1 .statement tag=061N}
 
 Đặc biệt lưu ý rằng các giả thiết của Mệnh đề 4 luôn đúng đối với các môđun con tùy ý $N, P$ của $M$ khi $A$ là một trường (II, § 7, no. 3, Mệnh đề 4). Hơn nữa, nếu $N \subset P$ và $N \neq P$, thì $T^n(N) \neq T^n(P)$ với mọi $n \geq 1$, vì nếu $R$ là một phần bù của $P$ trong $N$, thì $T^n(P) \cap T^n(R) = \{0\}$ theo (4) và $T^n(R) \neq \{0\}$.
 
-#### Hệ quả {#alg-iii-s5-n2-cor-1 .statement}
+#### Hệ quả {#alg-iii-s5-n2-cor-1 .statement tag=061O}
 
 *Cho $K$ là một trường giao hoán và $M$ là một không gian vectơ trên $K$. Với mọi phần tử $z \in T(M)$, tồn tại một không gian vectơ $N$ nhỏ nhất của $M$ sao cho $z \in T(N)$ và $N$ có hạng hữu hạn trên $K$.*
 
@@ -272,7 +272,7 @@ $$
 T(v \circ u) = T(v) \circ T(u).
 $$
 
-#### Mệnh đề 5 {#alg-iii-s5-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iii-s5-prop-5 .statement tag=061P}
 
 *Cho $A, B$ là hai vành giao hoán, $\rho : A \to B$ là một đồng cấu vành và $M$ là một $A$-môđun. Phần mở rộng chính tắc*
 
@@ -312,7 +312,7 @@ $$
 
 Cho $(A_\alpha, \phi_{\beta \alpha})$ là một hệ trực tiếp có hướng của các vành giao hoán và $(M_\alpha, f_{\beta \alpha})$ là một hệ trực tiếp của các $A_\alpha$-môđun (II, § 6, no. 2); đặt $A = \lim \rightarrow A_\alpha$ và $M = \lim \rightarrow M_\alpha$, là một $A$-môđun. Với $\alpha \leq \beta$, một đồng cấu đại số $A_\alpha$ (no. 3, công thức (8)) $f'_{\beta \alpha} = T(f_{\beta \alpha}): T_{A\alpha}(M_\alpha) \to T_{A\beta}(M_\beta)$ được dẫn xuất một cách chính tắc từ đồng cấu $A_\alpha$ $f_{\beta \alpha}: M_\alpha \to M_\beta$ và từ (9) (no. 3) suy ra rằng $(T_{A\alpha}(M_\alpha), f'_{\beta \alpha})$ là một *hệ trực tiếp của các đại số $A_\alpha$*. Mặt khác, đặt $f'_\alpha: M_\alpha \to M$ là đồng cấu $A_\alpha$ chính tắc; một đồng cấu đại số $A_\alpha$ $f'_\alpha: T_{A\alpha}(M_\alpha) \to T_A(M)$ được dẫn xuất (no. 3, công thức (8)) và cũng từ (9) (no. 3) suy ra rằng các $f'_\alpha$ tạo thành một hệ trực tiếp của các đồng cấu $A_\alpha$.
 
-#### Mệnh đề 6 {#alg-iii-s5-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iii-s5-prop-6 .statement tag=061Q}
 
 *Đồng cấu $A$* $f' = \lim \rightarrow f'_\alpha : \lim \rightarrow T_{A\alpha}(M_\alpha) \to T_A(M)$ *là một đẳng cấu đại số phân bậc*.
 
@@ -372,7 +372,7 @@ trong đó $n$ chạy qua $\mathbf{N}$ và, với mỗi $n$, $(\lambda_i)$ chạ
 
 Trước hết ta suy ra hệ quả sau:
 
-#### Định lý 1 {#alg-iii-s5-thm-1 .statement}
+#### Định lý 1 {#alg-iii-s5-thm-1 .statement tag=061R}
 
 *Cho $A$ là một vành giao hoán, $M$ là một môđun $A$ tự do và $(e_\lambda)_{\lambda \in L}$ là một cơ sở của $M$. Khi đó các phần tử $e_s = e_{\lambda_1} \otimes e_{\lambda_2} \otimes \cdots \otimes e_{\lambda_n}$, trong đó $s = (\lambda_1, \ldots, \lambda_n)$ chạy qua tập hợp tất cả các dãy hữu hạn các phần tử của $L$ và $e_\varnothing$ được dùng để chỉ phần tử đơn vị của $T(M)$, tạo thành một cơ sở của môđun $A$ $T(M)$.*
 
@@ -386,17 +386,17 @@ trong đó $st$ chỉ dãy các phần tử của $L$ nhận được bằng cá
 
 Ta thấy rằng cơ sở $(e_s)$ của $T(M)$, với luật nhân (10), đẳng cấu một cách chính tắc với *nửa đơn tự do* của tập hợp $L$ (I, § 7, no. 2), đẳng cấu này được thu được bằng cách ánh xạ mỗi từ $s$ của nửa đơn này vào phần tử $e_s$. Suy ra (§ 2, no. 7) rằng *đại số tenxơ $T(M)$ của một môđun tự do $M$, với một cơ sở có tập hợp chỉ số $L$, đẳng cấu một cách chính tắc với đại số kết hợp tự do của $L$ trên $A$*. Đặc biệt (§ 2, no. 7, Mệnh đề 7), với mọi ánh xạ $f : L \to E$ từ $L$ vào một đại số $A$ $E$, tồn tại duy nhất một đồng cấu đại số $A$ $\bar{f} : T(M) \to E$ sao cho $\bar{f}(e_\lambda) = f(\lambda)$.
 
-#### Nhận xét {#alg-iii-s5-n5-rem-1 .statement}
+#### Nhận xét {#alg-iii-s5-n5-rem-1 .statement tag=061S}
 
 Các kết quả trên cũng có thể thu được như một hệ quả của các tính chất phổ quát của đại số kết hợp tự do của đại số tenxơ, bằng cách sử dụng II, § 3, no. 7, Hệ quả 2 của Mệnh đề 7.
 
-#### Hệ quả {#alg-iii-s5-n5-cor-1 .statement}
+#### Hệ quả {#alg-iii-s5-n5-cor-1 .statement tag=061T}
 
 *Nếu $M$ là một môđun $A$ xạ ảnh, thì $T(M)$ là một môđun $A$ xạ ảnh.*
 
 $M$ là một nhân tử trực tiếp của một môđun $A$ tự do $N$ (II, § 2, no. 2, Mệnh đề 4) và do đó $T(M)$ là một nhân tử trực tiếp của $T(N)$ (no. 2); vì $T(N)$ là tự do (Định lý 1), điều này cho thấy rằng $T(M)$ là xạ ảnh (II, § 2, no. 2).
 
-#### Mệnh đề 7 {#alg-iii-s5-prop-7 .statement}
+#### Mệnh đề 7 {#alg-iii-s5-prop-7 .statement tag=061U}
 
 *Cho $\Delta$ là một nửa nhóm giao hoán, $M$ là một $A$-môđun phân bậc kiểu $\Delta$ và $(M_\alpha)_{\alpha \in \Delta}$ là sự phân bậc của nó. Với mọi cặp có thứ tự $(\alpha, n) \in \Delta \times \mathbf{N}$, đặt $T^{\alpha, n}(M)$ là tổng (trực tiếp) của các môđun con $M_{\alpha_1} \otimes M_{\alpha_2} \otimes \cdots \otimes M_{\alpha_n}$ của $T^n(M)$ sao cho $\sum_{i=1}^n \alpha_i = \alpha$; khi đó $(T^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ là sự phân bậc duy nhất kiểu $\Delta \times \mathbf{N}$ tương thích với cấu trúc đại số trên $T(M)$ và cảm sinh trên $M = T^1(M)$ sự phân bậc đã cho.*
 
@@ -540,7 +540,7 @@ $$
 $$
 và do đó các $\zeta_{\lambda \mu \nu}$ chính là các *hằng số cấu trúc* của đại số (nói chung không kết hợp) xác định trên M bởi ánh xạ song tuyến tính $\chi_M(z)$, đối với cơ sở $(e_\lambda)$ (§ 1, no. 7).
 
-#### Nhận xét 2 {#alg-iii-s5-n6-rem-2 .statement}
+#### Nhận xét 2 {#alg-iii-s5-n6-rem-2 .statement tag=061V}
 
 Cho $(e_\lambda)_{\lambda \in L}$, $(\bar{e}_\lambda)_{\lambda \in L}$ là hai cơ sở của M và P là ma trận chuyển từ $(e_\lambda)$ sang $(\bar{e}_\lambda)$. Theo những gì đã thấy trong *Ví dụ 1*, phần tử của P xuất hiện trong hàng có chỉ số $\lambda$ và cột có chỉ số $\mu$ được ký hiệu là $\alpha_\mu^\lambda$ và phần tử của ma trận đối liên hợp ${}^tP^{-1}$ xuất hiện trong hàng có chỉ số $\lambda$ và cột có chỉ số $\mu$ được ký hiệu là $\beta_\lambda^\mu$. Khi đó (theo ký hiệu đã đưa vào ở trên)
 $$

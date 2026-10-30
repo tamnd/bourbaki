@@ -53,14 +53,14 @@ subsections:
       pdf_page: 316
 statements: 52
 exercises: 31
-content_sha256: a6af753e0363e53ed203d1339626c47d280bd8e41fec91dee692edb693588182
+content_sha256: d1c0e47776f33ebac3f5f4eb44ad8e2e1b76c65670899f2de059c9d70818f487
 ---
 
 ## § 5. MEASURES DEFINED BY NUMERICAL DENSITIES
 
 ### 1. Locally integrable functions
 
-#### Proposition 1 {#int-v-s5-prop-1 .statement}
+#### Proposition 1 {#int-v-s5-prop-1 .statement tag=092D}
 
 *Let g be a function defined locally almost everywhere in T (for the positive measure $\mu$), with values in a Banach space F (resp. in $\overline{\mathbf{R}}$). The following properties are equivalent:*
 
@@ -76,7 +76,7 @@ Secondly, b) implies c), because $gh$ is then measurable, and if $L$ is the comp
 
 Finally, c) implies a). Indeed, for every $t \in T$ let $V$ be a compact neighborhood of $t$. There exists a continuous mapping $h$ of $T$ into $[0,1]$, equal to 1 on $V$ and with compact support (Ch. III, §1, No. 2, Lemma 1); by hypothesis $gh$ is integrable, therefore so is $g \varphi_V = (gh) \varphi_V$ (Ch. IV, §5, No. 6, Cor. 3 of Th. 5).
 
-#### Definition 1 {#int-v-s5-def-1 .statement}
+#### Definition 1 {#int-v-s5-def-1 .statement tag=092E}
 
 *A function* $g$, *defined locally almost everywhere in* $T$ (*for the positive measure* $\mu$), *with values in a Banach space* $F$ (*resp. in* $\overline{\mathbf{R}}$), *is said to be locally integrable for* $\mu$ (*or locally* $\mu$*-integrable*) *if it satisfies the conditions* a), b), c) *of Prop. 1.* *If* $\theta$ *is a complex measure, a function* $g$ *defined locally* $\theta$*-almost everywhere is said to be locally* $\theta$*-integrable if it is locally integrable for the positive measure* $|\theta|$.
 
@@ -113,7 +113,7 @@ $$
 
 on $\mathscr{K}(T)$ is a complex measure.
 
-#### Definition 2 {#int-v-s5-def-2 .statement}
+#### Definition 2 {#int-v-s5-def-2 .statement tag=092F}
 
 *Let $\theta$ be a complex measure, and let $u$ be a complex function (or a function with values in $\overline{\mathbf{R}}$) defined locally $\theta$-almost everywhere and locally $\theta$-integrable. The complex measure $f \mapsto \int fu\,d\theta$ on T is said to be the product of the measure $\theta$ by the function $u$, or the measure with density $u$ with respect to $\theta$, and is denoted $u \cdot \theta$.*
 
@@ -131,7 +131,7 @@ We shall henceforth restrict ourselves to the case of functions defined everywhe
 
 The following proposition permits, for the most part, reducing the case of complex measures to that of positive measures:
 
-#### Proposition 2 {#int-v-s5-prop-2 .statement}
+#### Proposition 2 {#int-v-s5-prop-2 .statement tag=092G}
 
 *Let $\theta$ be a complex measure, and $u$ a locally $\theta$-integrable complex function; then*
 
@@ -141,7 +141,7 @@ $$
 
 We begin with an auxiliary result:
 
-#### Lemma 1 {#int-v-s5-lem-1 .statement}
+#### Lemma 1 {#int-v-s5-lem-1 .statement tag=092H}
 
 — *Let $\theta$ be a complex measure, and let $f$ be an element of $\overline{\mathscr{L}}^1_C(T, \theta)$. Then*
 
@@ -190,7 +190,7 @@ $$
 
 The two measures $|u| \cdot |\theta|$ and $|u \cdot \theta|$ are therefore equal.
 
-#### Corollary {#int-v-s5-n2-cor-1 .statement}
+#### Corollary {#int-v-s5-n2-cor-1 .statement tag=092I}
 
 *Let $g_1$ and $g_2$ be two locally $\mu$-integrable numerical functions; then*
 
@@ -212,7 +212,7 @@ This follows at once from Prop. 2 and the formulas (6) of Ch. II, §1, No. 1.
 
 The remarks in No. 2 show that the results of §4 are applicable to the measure $\nu = g \cdot \mu = \int g(t) \varepsilon_t \, d\mu(t)$ (even though the measure $g(t) \varepsilon_t$ is not defined unless $g(t) \neq +\infty$). We thus obtain the following statement:
 
-#### Proposition 3 {#int-v-s5-prop-3 .statement}
+#### Proposition 3 {#int-v-s5-prop-3 .statement tag=092J}
 
 *For every numerical function $f \geqslant 0$ defined on $T$,*
 
@@ -222,37 +222,37 @@ $$
 
 This follows from Th. 1 of §4, No. 2.
 
-#### Corollary 1 {#int-v-s5-prop-3-cor-1 .statement}
+#### Corollary 1 {#int-v-s5-prop-3-cor-1 .statement tag=092K}
 
 *In order that a function $\mathbf{f}$, with values in a Banach space or in $\overline{\mathbf{R}}$, be locally negligible for the measure $u \cdot \theta$, it is necessary and sufficient that $u \mathbf{f}$ be locally negligible for $\theta$.*
 
 To say that $\mathbf{f}$ (resp. $u \mathbf{f}$) is locally negligible for $u \cdot \theta$ (resp. for $\theta$) is equivalent to saying that $|\mathbf{f}|$ (resp. $|u| \cdot |\mathbf{f}|$) is locally negligible for $|u \cdot \theta|$ (resp. for $|\theta|$). We are thus reduced, in view of Prop. 2 of No. 2, to the case that $\mathbf{f}, u, \theta$ are positive; the statement then follows at once from Prop. 3.
 
-#### Corollary 2 {#int-v-s5-prop-3-cor-2 .statement}
+#### Corollary 2 {#int-v-s5-prop-3-cor-2 .statement tag=092L}
 
 *Let $u_1$ and $u_2$ be two locally $\theta$-integrable complex functions. In order that $u_1 \cdot \theta = u_2 \cdot \theta$, it is necessary and sufficient that $u_1$ and $u_2$ be equal locally almost everywhere.*
 
 One is immediately reduced to showing that $u \cdot \theta = 0$ implies that $u(t) = 0$ locally almost everywhere; but $u \cdot \theta = 0$ means that the function 1 is locally negligible for the measure $u \cdot \theta$. One then applies Corollary 1.
 
-#### Corollary 3 {#int-v-s5-prop-3-cor-3 .statement}
+#### Corollary 3 {#int-v-s5-prop-3-cor-3 .statement tag=092M}
 
 *Let $u$ be a complex function that is locally integrable for the positive measure $\mu$. For $u \cdot \mu$ to be a positive measure, it is necessary and sufficient that $u(t) \geqslant 0$ locally almost everywhere.*
 
 For, $u \cdot \mu$ is positive if and only if $u \cdot \mu = |u \cdot \mu| = |u| \cdot \mu$ (Prop. 2), and this is equivalent to $u = |u|$ locally almost everywhere (Cor. 2).
 
-#### Proposition 4 {#int-v-s5-prop-4 .statement}
+#### Proposition 4 {#int-v-s5-prop-4 .statement tag=092N}
 
 *For a mapping $f$ of $T$ into a topological space $G$ to be measurable for the measure $u \cdot \theta$, it is necessary and sufficient that the restriction of $f$, to the $\theta$-measurable set $S$ of the $t$ such that $u(t) \neq 0$, be $\theta$-measurable.*
 
 When $u$ and $\theta$ are positive, this follows at once from Prop. 3 of §4, No. 3. The result then extends to the case that $u$ and $\theta$ are complex thanks to Prop. 2.
 
-#### Corollary {#int-v-s5-n3-cor-1 .statement}
+#### Corollary {#int-v-s5-n3-cor-1 .statement tag=092O}
 
 *Let $\mathbf{f}$ be a function defined on $T$, with values in a Banach space $F$ or in $\overline{\mathbf{R}}$. For $\mathbf{f}$ to be $(u \cdot \theta)$-measurable, it is necessary and sufficient that $u \mathbf{f}$ be $\theta$-measurable.*
 
 For, $u \mathbf{f}$ is the extension by 0 of $(u \mathbf{f})|S$ to $T$.
 
-#### Theorem 1 {#int-v-s5-thm-1 .statement}
+#### Theorem 1 {#int-v-s5-thm-1 .statement tag=092P}
 
 *Let $\mathbf{f}$ be a function defined on $T$, with values in a Banach space $F$ or in $\overline{\mathbf{R}}$. In order that $\mathbf{f}$ be essentially integrable for* the measure $\eta = u \cdot \theta$, it is necessary and sufficient that $uf$ be essentially $\theta$-integrable, in which case
 
@@ -270,11 +270,11 @@ $$
 
 The formula (6) follows immediately from this.
 
-#### Corollary {#int-v-s5-n3-cor-2 .statement}
+#### Corollary {#int-v-s5-n3-cor-2 .statement tag=092Q}
 
 For the measure $u \cdot \theta$ to be bounded, it is necessary and sufficient that $u$ be essentially $\theta$-integrable.
 
-#### Example {#int-v-s5-n3-exa-1 .statement}
+#### Example {#int-v-s5-n3-exa-1 .statement tag=092R}
 
 Let $A$ be a subset of $T$; for $\varphi_A$ to be locally $\mu$-integrable, it is necessary and sufficient that $A$ be $\mu$-measurable. Assuming the condition to be fulfilled, set $\nu = \varphi_A \cdot \mu$; for every numerical function $f \geq 0$ defined on $T$, we then have
 
@@ -296,7 +296,7 @@ and one says that $\int_A f \, d\mu$ is the *integral of* $f$ *on* $A$ (or *exte
 
 ### 4. Behavior of the product with respect to the usual operations
 
-#### Proposition 5 {#int-v-s5-prop-5 .statement}
+#### Proposition 5 {#int-v-s5-prop-5 .statement tag=092S}
 
 *Let* $(\lambda_\alpha)_{\alpha \in A}$ *be a family of positive measures on* $T$, *directed for the relation* $\leqslant$, *admitting in* $\mathscr{M}(T)$ *a supremum* $\lambda$. *For a positive numerical function* $g$ *to be locally* $\lambda$-*integrable, it is necessary and sufficient that* $g$ *be locally* $\lambda_\alpha$-*integrable for every* $\alpha \in A$ *and that the family* $(g \cdot \lambda_\alpha)$ *be bounded above in* $\mathscr{M}(T)$; *in this case,
 $$
@@ -308,7 +308,7 @@ $$
 $$
 (§ 1, No. 4, Prop. 11). This implies first of all that the first member is finite for any $h$, so that $g$ is locally $\lambda$-integrable; the symbol $\int^\bullet$ may therefore be replaced by $\int$, and the formula may be written $\int h \, d(g \cdot \lambda) = \int h \, d\lambda'$. It follows that $g \cdot \lambda = \lambda'$, and this completes the proof.
 
-#### Corollary {#int-v-s5-n4-cor-1 .statement}
+#### Corollary {#int-v-s5-n4-cor-1 .statement tag=092T}
 
 — Suppose that $\mu$ is the sum of a family $(\mu_\alpha)_{\alpha \in A}$ of measures on T. For a positive numerical function g defined on T to be locally $\mu$-integrable, it is necessary and sufficient that g be locally $\mu_\alpha$-integrable for every $\alpha \in A$ and that the family $(g \cdot \mu_\alpha)_{\alpha \in A}$ be summable. In this case,
 
@@ -318,7 +318,7 @@ $$
 
 Let $(g_\alpha)_{\alpha \in A}$ be a family of $\mu$-measurable positive functions defined on T. Let $S_\alpha$ be the set of $t \in T$ such that $g_\alpha(t) \neq 0$. We shall say that the family $(g_\alpha)$ is *locally countable* if the family $(S_\alpha)$ is locally countable (Ch. IV, §5, No. 9); this amounts to saying that, for every compact set K in T, the set of $\alpha \in A$ such that $g_\alpha|K$ is not zero is countable.
 
-#### Proposition 6 {#int-v-s5-prop-6 .statement}
+#### Proposition 6 {#int-v-s5-prop-6 .statement tag=092U}
 
 — Let $(g_\alpha)_{\alpha \in A}$ be a locally countable family of locally $\mu$-integrable positive numerical functions defined on T. In order that the function $g = \sum_{\alpha \in A} g_\alpha$ be locally $\mu$-integrable, it is necessary and sufficient that the family of measures $(g_\alpha \cdot \mu)_{\alpha \in A}$ be summable, in which case
 
@@ -328,13 +328,13 @@ $$
 
 It is clear that $g$ is $\mu$-measurable (Ch. IV, §5, No. 2, Prop. 4 and No. 4, Cor. 1 of Th. 2). For $g$ to be locally $\mu$-integrable, it is therefore necessary and sufficient that $\mu^\bullet(gf)$ be finite for every $f \in \mathscr{H}_+(T)$. Now, since the set of $\alpha \in A$ such that $g_\alpha f \neq 0$ is countable, we have $\mu^\bullet(gf) = \sum_{\alpha \in A} \mu^\bullet(g_\alpha f)$ (§1, No. 1, Cor. of Prop. 2). Set $\nu_\alpha = g_\alpha \cdot \mu$; the condition $\mu^\bullet(gf) < +\infty$ is equivalent to the condition $\sum_{\alpha \in A} \nu_\alpha(f) < +\infty$: in other words, $g$ is locally $\mu$-integrable if and only if the family $(\nu_\alpha)$ is summable. Denoting the sum of this family by $\nu$, the preceding calculation yields the equality $\nu(f) = \mu^\bullet(gf)$, which is equivalent to (8).
 
-#### Corollary {#int-v-s5-n4-cor-2 .statement}
+#### Corollary {#int-v-s5-n4-cor-2 .statement tag=092V}
 
 — Let $(g_\alpha)$ be a sequence of locally $\mu$-integrable numerical functions, such that the sequence of measures $g_n \cdot \mu$ is increasing. In order that this sequence have an upper bound in the ordered vector space $\mathscr{M}(T)$ of real measures on T, it is necessary and sufficient that the function $g = \sup g_n$ be locally $\mu$-integrable; the supremum in $\mathscr{M}(T)$ of the sequence $(g_n \cdot \mu)$ is then the measure $g \cdot \mu$.
 
 It suffices to apply Prop. 6 to the functions (positive locally almost everywhere) $g'_n = g_{n+1} - g_n$.
 
-#### Proposition 7 {#int-v-s5-prop-7 .statement}
+#### Proposition 7 {#int-v-s5-prop-7 .statement tag=092W}
 
 — Let X be a locally compact space that is countable at infinity, and let $t \mapsto \lambda_t$ be a $\mu$-adequate mapping of T into $\mathscr{M}_+(X)$.
 
@@ -352,7 +352,7 @@ $$
 
 This formula and Prop. 5 of § 3, No. 2 first show (on taking $h \in \mathscr{K}_+(X)$) that the mapping $t \mapsto g \cdot \lambda_t$ is scalarly essentially $\mu$-integrable, and that its integral is $g \cdot \nu$; in other words, the relation (9) holds. Next, let us replace $\mu$ by a positive measure $\mu' \leq \mu$, and let us take for $h$ a positive lower semi-continuous function: it follows at once from these relations that $t \mapsto g \cdot \lambda_t$ is $\mu$-adequate (§ 3, No. 1, Def. 1).
 
-#### Proposition 8 {#int-v-s5-prop-8 .statement}
+#### Proposition 8 {#int-v-s5-prop-8 .statement tag=092X}
 
 *Let $\theta$ be a complex measure on $T$, $g_1$ a locally $\theta$-integrable complex function, $\theta_1$ the measure $g_1 \cdot \theta$. For a complex function $g_2$ defined on $T$ to be locally $\theta_1$-integrable, it is necessary and sufficient that $g_2 g_1$ be locally $\theta$-integrable, in which case*
 
@@ -377,7 +377,7 @@ a formula equivalent to (10).
 
 ### 5. Characterization of measures with base $\mu$
 
-#### Theorem 2 (Lebesgue–Nikodym) {#int-v-s5-thm-2 .statement}
+#### Theorem 2 (Lebesgue–Nikodym) {#int-v-s5-thm-2 .statement tag=092Y}
 
 — *Let $\mu$ and $\nu$ be two positive measures on $T$. The following properties are equivalent:*
 
@@ -387,7 +387,7 @@ a formula equivalent to (10).
 
 It is clear that 1) implies 2) (Cor. 1 of Prop. 3), and that 2) implies 3). We are going to show that 3) implies 1). We first note that if the condition 3) is satisfied, then every set $A$ that is *universally measurable* and locally $\mu$-negligible is locally $\nu$-negligible; for, $\nu^\bullet(A) = \sup \nu(K)$, where $K$ runs over the set of compact sets contained in $A$ (§ 1, No. 3, Prop. 10, a) and Ch. IV, § 4, No. 6, Cor. 2 of Th. 4). Next, we shall establish two lemmas.
 
-#### Lemma 2 {#int-v-s5-lem-2 .statement}
+#### Lemma 2 {#int-v-s5-lem-2 .statement tag=092Z}
 
 — *Let $\alpha$ be a bounded positive measure on $T$, and $\beta$ a real measure on $T$ such that $|\beta| \leq M \alpha$, where $M$ is a positive constant. Then, there exists a real function $u$, $\alpha$-integrable, such that $\beta = u \cdot \alpha$*.
 
@@ -399,7 +399,7 @@ $$
 
 The mapping $g \mapsto \beta(g)$ is thus a continuous linear form on $\mathscr{L}^2(T, \alpha)$. The Hausdorff space associated with $\mathscr{L}^2(T, \alpha)$ being a Hilbert space, there then exists (TVS, Ch. V, § 1, No. 7, Th. 3) a real function $u \in \mathscr{L}^2(T, \alpha)$, therefore also belonging to $\mathscr{L}^1(T, \alpha)$, such that $\beta(g) = \alpha(ug)$ for every $g \in \mathscr{L}^2(T, \alpha)$. Applying this relation for $g \in \mathscr{K}(T)$, one sees that $\beta = u \cdot \alpha$.
 
-#### Lemma 3 {#int-v-s5-lem-3 .statement}
+#### Lemma 3 {#int-v-s5-lem-3 .statement tag=0930}
 
 — *Suppose that the positive measure $\nu$ is such that every $\mu$-negligible compact set is $\nu$-negligible. Let $\mathfrak{K}$ be the set of compact subsets $K$ of $T$ having the following property:*
 
@@ -422,7 +422,7 @@ $$
 
 Set $g = \sum_{\alpha \in A} g_\alpha$; since the family $(g_\alpha)$ is locally countable and the family $(\nu_\alpha)$ is summable, Proposition 6 implies that $g$ is locally $\mu$-integrable, and that $\nu = g \cdot \mu$, which establishes the theorem.
 
-#### Corollary 1 {#int-v-s5-thm-2-cor-1 .statement}
+#### Corollary 1 {#int-v-s5-thm-2-cor-1 .statement tag=0931}
 
 — Let $\mathscr{N}$ be a set of positive measures with base $\mu$, admitting a supremum $\nu$ in $\mathscr{M}(T)$; then $\nu$ is a measure with base $\mu$.
 
@@ -434,33 +434,33 @@ $$
 
 Theorem 2 therefore implies that $\nu$ is a measure with base $\mu$.
 
-#### Corollary 2 {#int-v-s5-thm-2-cor-2 .statement}
+#### Corollary 2 {#int-v-s5-thm-2-cor-2 .statement tag=0932}
 
 — Let $\nu$ be a real measure on $T$. In order that $\nu$ belong to the band generated by $\mu$ in the fully lattice-ordered space $\mathscr{M}(T)$ (Ch. II, §1, No. 5), it is necessary and sufficient that $\nu$ be a measure with base $\mu$.
 
 On considering $\nu^+$ and $\nu^-$, one is immediately reduced to the case of a positive measure $\nu$ (No. 2, Cor. of Prop. 2). Let us then set $\nu_n = \inf(n\mu, \nu)$; $\nu$ belongs to the band generated by $\mu$ if and only if $\nu = \sup_n \nu_n$ (Ch. II, §1, No. 5, Cor. of Prop. 6). Now $\nu_n$, being bounded above by $n\mu$, is a measure with base $\mu$ by Th. 2; the relation $\nu = \sup_n \nu_n$ therefore implies that $\nu$ is a measure with base $\mu$ (Cor. 1). Conversely, suppose that $\nu$ is a measure with base $\mu$: $\nu = g \cdot \mu$, where $g$ is locally $\mu$-integrable and positive. Then $\nu_n = \inf(g, n) \cdot \mu$ (Cor. of Prop. 2), and it follows at once from Lebesgue’s theorem (Ch. IV, §4, No. 3, Prop. 4) that $\nu = \sup_n \nu_n$.
 
-#### Corollary 3 {#int-v-s5-thm-2-cor-3 .statement}
+#### Corollary 3 {#int-v-s5-thm-2-cor-3 .statement tag=0933}
 
 — Let $\theta$ be a complex measure; there exists a universally measurable function $v$, with $|v| = 1$, such that $\theta = v \cdot |\theta|$, $|\theta| = \overline{v} \cdot \theta$.
 
 Write $\theta = \theta_1 - \theta_2 + i(\theta_3 - \theta_4)$, where $\theta_1 = (\Re \theta)^+$, $\theta_2 = (\Re \theta)^-$, $\theta_3 = (\Im \theta)^+$, $\theta_4 = (\Im \theta)^-$; the positive measures $\theta_i$ ($i = 1, 2, 3, 4$), being bounded above by $|\theta|$ (Ch. III, §1, No. 6, formula (17)), are measures with base $|\theta|$ by Theorem 2. It follows that there exists a locally $|\theta|$-integrable function $v$ such that $\theta = v \cdot |\theta|$. Proposition 2 then yields the relation $|\theta| = |v| \cdot |\theta|$, which implies that $|v| = 1$ locally $|\theta|$-almost everywhere (Cor. 2 of Prop. 3). Finally, by Prop. 8, $\overline{v} \cdot \theta = (v \overline{v}) \cdot |\theta| = |\theta|$. Since the function $v$ is defined only up to a locally $|\theta|$-negligible function, one can suppose that $v$ is universally measurable (§3, No. 4, Prop. 7) and that $|v| = 1$ everywhere.
 
-#### Remark 1 {#int-v-s5-n5-rem-1 .statement}
+#### Remark 1 {#int-v-s5-n5-rem-1 .statement tag=0934}
 
 Suppose that $\lambda$ is a positive measure, that $v$ is a $\lambda$-measurable function such that $|v| = 1$ locally $\lambda$-almost everywhere (which implies that $v$ is locally $\lambda$-integrable), and that $\theta = v \cdot \lambda$. Prop. 2 shows immediately that $\lambda = |\theta|$; in other words, the property of the preceding statement characterizes the positive measure $|\theta|$.
 
-#### Remark 2 {#int-v-s5-n5-rem-2 .statement}
+#### Remark 2 {#int-v-s5-n5-rem-2 .statement tag=0935}
 
 If $|\theta| \leq a \mu$, where $\mu$ is a positive measure and $a$ is a number $\geq 0$, then $\theta$ is a measure with base $\mu$.
 
-#### Corollary 4 {#int-v-s5-thm-2-cor-4 .statement}
+#### Corollary 4 {#int-v-s5-thm-2-cor-4 .statement tag=0936}
 
 — Let $\rho$ and $\theta$ be two complex measures. In order that there exist a locally $\theta$-integrable function $u$ such that $\rho = u \cdot \theta$, it is necessary and sufficient that every $\theta$-negligible compact set be $\rho$-negligible.
 
 The condition is obviously necessary. Conversely, suppose that every $\theta$-negligible compact set is $\rho$-negligible; Theorem 2 implies the existence of a locally $|\theta|$-integrable function $g$ such that $|\rho| = g \cdot |\theta|$. On the other hand, Cor. 3 implies the existence of a function $v_1$ (resp. $v_2$), of absolute value 1 and measurable for the measure $|\rho|$ (resp. $\theta$), such that $\rho = v_1 \cdot |\rho|$ (resp. $|\theta| = \overline{v_2} \cdot \theta$). Then, by Prop. 8, $\rho = u \cdot \theta$ with $u = v_1 g \overline{v_2}$.
 
-#### Corollary 5 {#int-v-s5-thm-2-cor-5 .statement}
+#### Corollary 5 {#int-v-s5-thm-2-cor-5 .statement tag=0937}
 
 — Let $\mu$ and $\nu$ be two positive measures on T. The conditions 1), 2), 3) of Th. 2 are also equivalent to the following ones:
 
@@ -488,7 +488,7 @@ We have thus proved that the conditions 4) and 6) are equivalent to the conditio
 
 It is clear that 4) implies 5). Finally, if the condition 5) is satisfied, then $\nu$ belongs to the band generated by $\mu$ (Ch. II, §2, No. 2, Prop. 5), hence has base $\mu$ (Cor. 2).
 
-#### Scholium {#int-v-s5-n5-sch-1 .statement}
+#### Scholium {#int-v-s5-n5-sch-1 .statement tag=0938}
 
 For every $\dot{f} \in L^1_{\mathrm{loc}}(\mathrm{T}, \mu; \mathbf{R})$, set $\varphi(\dot{f}) = f \cdot \mu$, where $f \in \dot{f}$; the mapping $\varphi$ is linear, increasing and injective (Cor. 2 of Prop. 3), and its image in $\mathscr{M}(T)$ is the band B generated by $\mu$ (Cor. 2 of Th. 2). The mapping $\varphi$ therefore permits identifying $L^1_{\text{loc}}(T, \mu; \mathbf{R})$ with a space of real measures on T; since all of the spaces $L^p_R(T, \mu)$ are subspaces of $L^1_{\text{loc}}(T, \mu; \mathbf{R})$, they too may be identified with subspaces of $\mathscr{M}(T)$. Analogous considerations hold for complex-valued functions and measures. Note that the mapping $\varphi$ considered above is an isomorphism of the ordered vector space structures of $L^1_{\text{loc}}$ and B, but is obviously not an isomorphism for the *topological vector space* structures of these spaces.
 
@@ -496,7 +496,7 @@ Since every band in a fully lattice-ordered space is itself a fully lattice-orde
 
 Here is an interesting consequence of Corollary 3 of Th. 2:
 
-#### Proposition 9 {#int-v-s5-prop-9 .statement}
+#### Proposition 9 {#int-v-s5-prop-9 .statement tag=0939}
 
 *Let $\theta$ be a bounded complex measure; for $\theta$ to be a positive measure, it is necessary and sufficient that $\| \theta \| = \theta(1)$.*.
 
@@ -504,7 +504,7 @@ The condition is obviously necessary. Conversely, suppose that $\| \theta \| = \
 
 ### 6. Equivalent measures
 
-#### Proposition 10 {#int-v-s5-prop-10 .statement}
+#### Proposition 10 {#int-v-s5-prop-10 .statement tag=093A}
 
 *Let $\mu$ and $\nu$ be two positive measures on T. The following conditions are equivalent:
 a) The locally negligible sets are the same for $\mu$ and $\nu$.
@@ -515,17 +515,17 @@ The conditions a) and b) are equivalent by Cor. 2 of Th. 2 of No. 5. If they are
 
 since $(1/g)g$ is defined locally almost everywhere and is locally $\mu$-integrable, $1/g$ is locally $\nu$-integrable and $(1/g) \cdot \nu = \mu$ (No. 4, Prop. 8).
 
-#### Definition 3 {#int-v-s5-def-3 .statement}
+#### Definition 3 {#int-v-s5-def-3 .statement tag=093B}
 
 *Two complex measures $\theta, \theta'$ on a locally compact space $T$ are said to be equivalent if the measures $|\theta|$ and $|\theta'|$ satisfy the conditions a), b), c) of Prop. 10.*
 
 For $\theta$ and $\theta'$ to be equivalent, it is therefore necessary and sufficient that $|\theta|$ and $|\theta'|$ be equivalent.
 
-#### Remark {#int-v-s5-n6-rem-1 .statement}
+#### Remark {#int-v-s5-n6-rem-1 .statement tag=093C}
 
 — If $\mu$ and $\nu$ are two equivalent positive measures then the measurable functions defined on $T$, with values in any topological space $G$, are *the same* for $\mu$ and $\nu$, as follows at once from Prop. 4 of No. 3.
 
-#### Proposition 11 {#int-v-s5-prop-11 .statement}
+#### Proposition 11 {#int-v-s5-prop-11 .statement tag=093D}
 
 *Let $\mu$ be a positive measure on $T$. If $T$ is countable at infinity, then there exists a continuous function $h$ such that $h(t) > 0$ for all $t \in T$ and such that the measure $\nu = h \cdot \mu$ (equivalent to $\mu$) is bounded.*
 
@@ -537,7 +537,7 @@ $$
 
 On taking for example $a_n = 2^{-n} (\int f_n \, d\mu)^{-1}$ when $\int f_n \, d\mu > 1$, and $a_n = 2^{-n}$ otherwise, we have $\sum_n a_n < +\infty$ and $\nu^*(1) < +\infty$, which proves the proposition.
 
-#### Proposition 12 {#int-v-s5-prop-12 .statement}
+#### Proposition 12 {#int-v-s5-prop-12 .statement tag=093E}
 
 *Let $(\mu_n)$ be a sequence of bounded positive measures on $T$; there exists a bounded positive measure $\mu$ on $T$ such that the relation $\mu^*(N) = 0$ is equivalent to «$\mu_n^*(N) = 0$ for every $n$»; each of the measures $\mu_n$ has base $\mu$. Moreover, if $\mu'$ is a second positive measure on $T$ having this property, then $\mu$ and $\mu'$ are equivalent.*
 
@@ -549,13 +549,13 @@ The last part of the statement follows at once from Def. 3. To prove the existen
 
 Given two real measures $\rho, \sigma$ on $T$, recall that $\rho$ and $\sigma$ are said to be alien (to each other) if $\inf(|\rho|, |\sigma|) = 0$ in $\mathscr{M}(T)$ (Ch. II, §1, No. 1). The real measures alien to a given measure are known to form a band (Ch. II, §1, No. 5, Th. 1). This definition may be extended immediately to the case of complex measures.
 
-#### Definition 4 {#int-v-s5-def-4 .statement}
+#### Definition 4 {#int-v-s5-def-4 .statement tag=093F}
 
 *One says that a complex measure $\theta$ on $T$ is concentrated on a subset $M$ of $T$, or that $M$ carries $\theta$, if $\mathbf{C}M$ is locally negligible for $\theta$.*
 
 The set $M$ carries $\theta$ if and only if it carries $|\theta|$. It is equivalent to say that $M$ carries $\theta$, or that $M$ is $\theta$-measurable and $\theta = \varphi_M \cdot \theta$. If $\theta$ is concentrated on $M$, then every measure with base $|\theta|$ is concentrated on $M$.
 
-#### Proposition 13 {#int-v-s5-prop-13 .statement}
+#### Proposition 13 {#int-v-s5-prop-13 .statement tag=093G}
 
 *In order that two complex measures $\rho$ and $\sigma$ on $T$ be alien to each other, it is necessary and sufficient that there exist in $T$ two disjoint sets $R$ and $S$ such that $\rho$ is concentrated on $R$ and $\sigma$ on $S$; $R$ and $S$ may be taken to be universally measurable.*
 
@@ -567,7 +567,7 @@ $$
 
 (No. 2, Cor. of Prop. 2). Let $A$ (resp. $B$) be the set of $t \in T$ such that $u(t) > 0$ and $v(t) = 0$ (resp. $u(t) = 0$ and $v(t) > 0$). If $\rho$ and $\sigma$ are alien, then $\inf(u, v) = 0$ locally $\lambda$-almost everywhere (No. 3, Cor. 2 of Prop. 3), so that the disjoint universally measurable sets $A$ and $B$ carry $\mu$ and $\nu$, respectively. Conversely, suppose that $\mu$ and $\nu$ are carried, respectively, by disjoint sets $R$ and $S$; $\varphi_R$ is measurable for the measure $\mu = u \cdot \lambda$, and $\mu = \varphi_R \cdot \mu$. By Prop. 8 of No. 4, the function $u' = u \varphi_R$ is $\lambda$-measurable, and $\mu = u' \cdot \lambda$. Similarly, if $v' = v \varphi_S$ then $\nu = v' \cdot \lambda$; one concludes by remarking that $\inf(u', v') = 0$ (No. 2, Cor. of Prop. 2).
 
-#### Corollary 1 {#int-v-s5-prop-13-cor-1 .statement}
+#### Corollary 1 {#int-v-s5-prop-13-cor-1 .statement tag=093H}
 
 *For every real measure $\nu$ on $T$, there exist two disjoint sets $M, N$ carrying $\nu^+$ and $\nu^-$, respectively.*
 
@@ -575,17 +575,17 @@ One must take care not to confuse the notion of support of a measure $\nu$, and 
 
 Note also that the intersection of the sets carrying $\nu$ is the set of points $t \in T$ such that $|\nu|(\{t\}) > 0$, and it can be empty (for example, in the case of Lebesgue measure); therefore, there is not in general a smallest set carrying $\nu$.
 
-#### Corollary 2 {#int-v-s5-prop-13-cor-2 .statement}
+#### Corollary 2 {#int-v-s5-prop-13-cor-2 .statement tag=093I}
 
 — Let $\rho$ and $\sigma$ be two alien complex measures, and let $\rho'$ and $\sigma'$ be two complex measures admitting densities relative to $\rho$ and $\sigma$, respectively; then $\rho'$ and $\sigma'$ are alien.
 
-#### Corollary 3 {#int-v-s5-prop-13-cor-3 .statement}
+#### Corollary 3 {#int-v-s5-prop-13-cor-3 .statement tag=093J}
 
 — Let $\rho$ and $\sigma$ be two alien complex measures; then $|\rho + \sigma| = |\rho| + |\sigma|$.
 
 Denote by $v$ (resp. $w$) a universally measurable function of absolute value 1 such that $\rho = v \cdot |\rho|$ (resp. $\sigma = w \cdot |\sigma|$) (Cor. 3 of Th. 2), and by A a universally measurable set carrying $\rho$, such that $B = \mathbf{C}A$ carries $\sigma$ (Prop. 13); then also $\rho + \sigma = (v \varphi_A + w \varphi_B) \cdot (|\rho| + |\sigma|)$. Since the function $v \varphi_A + w \varphi_B$ has absolute value equal to 1, the corollary follows from Prop. 2.
 
-#### Theorem 3 (Lebesgue) {#int-v-s5-thm-3 .statement}
+#### Theorem 3 (Lebesgue) {#int-v-s5-thm-3 .statement tag=093K}
 
 — Every complex measure $\theta$ on T may be written in one and only one way in the form $\theta = g \cdot \mu + \theta'$, where $g$ is locally $\mu$-integrable and $\theta'$ is a measure alien to $\mu$. Then $|\theta| = |g| \cdot \mu + |\theta'|$.
 
@@ -593,7 +593,7 @@ When $\theta$ is positive, this follows at once from the theorem of F. Riesz (Ch
 
 Recall (No. 5, Th. 2 and Scholium) that the space $L^1_{loc}(T, \mu; \mathbf{C})$ may be identified (by means of the mapping $g \mapsto g \cdot \mu$) with a subspace of $\mathscr{M}_\mathbf{C}(T)$. With this convention, Theorem 3 takes the following form:
 
-#### Corollary {#int-v-s5-n7-cor-1 .statement}
+#### Corollary {#int-v-s5-n7-cor-1 .statement tag=093L}
 
 — *There exists a projector p of the space $\mathscr{M}_\mathbf{C}(T)$ onto the space $L^1_{\text{loc}}(T, \mu; \mathbf{C})$, whose kernel $\overline{p}^{-1}(0)$ is the set of complex measures alien to $\mu$, such that*
 
@@ -611,7 +611,7 @@ We shall treat here only the case of the real spaces $L^p$.
 
 Recall that two numbers $p, q$ such that $1 \leq p \leq +\infty$, $1 \leq q \leq +\infty$, $1/p + 1/q = 1$ are said to be *conjugate exponents* (Ch. IV, §6, No. 4). Every function $g \in \mathscr{L}^q$ defines a continuous linear form $\theta_g$ on $L^p$, obtained by passing to the quotient starting with the linear form $f \mapsto \int fg\,d\mu$ on $\mathscr{L}^p$, and one has $N_q(g) = \| \theta_g \|$ (Ch. IV, §6, No. 4, Cor. of Prop. 3). Passing to the quotient, one thus deduces from the mapping $g \mapsto \theta_g$ an isometric linear mapping $\varphi$ of $L^q$ into the dual $(L^p)'$ of $L^p$. We are going to show that, for $1 \leq p < +\infty$, $\varphi$ maps $L^q$ *onto* $(L^p)'$, so that we may henceforth identify the Banach space $L^q$ with the Banach space $(L^p)'$ by means of the isomorphism $\varphi$. Stated in other terms:
 
-#### Theorem 4 {#int-v-s5-thm-4 .statement}
+#### Theorem 4 {#int-v-s5-thm-4 .statement tag=093M}
 
 — *Let p and q be two conjugate exponents such that $1 \leq p < +\infty$. Every continuous linear form on $\mathscr{L}^p(T, \mu)$ is of the type $f \mapsto \int fg\,d\mu$, where g is a function in $\mathscr{L}^q(T, \mu)$ whose class in $L^q$ is well-defined.*
 
@@ -627,7 +627,7 @@ Thus, there exists a locally $\mu$-integrable positive function $h_1$ such that 
 
 Let $v$ be a universally measurable (real) function of absolute value 1 such that $\nu = v \cdot |\nu|$ (Cor. 3 of Th. 2) and let $g = v h_1$; then $\nu = g \cdot \mu$, and $g$ belongs to $\mathscr{L}^q$. For every function $f \in \mathscr{K}(T)$, we have $\theta(f) = \nu(f) = \int f g d\mu$. In other words, the continuous linear forms $\theta$ and $\theta_g$ coincide on $\mathscr{K}(T)$; they are therefore equal on $\mathscr{L}^p$, since $\mathscr{K}(T)$ is dense in $\mathscr{L}^p$, and this completes the proof.
 
-#### Corollary {#int-v-s5-n8-cor-1 .statement}
+#### Corollary {#int-v-s5-n8-cor-1 .statement tag=093N}
 
 — *For every number p such that $1 < p < +\infty$, the Banach space $L^p(T, \mu)$ is reflexive.*
 
@@ -635,7 +635,7 @@ In general, the dual of $L^\infty$ is not isomorphic to $L^1$, consequently $L^1
 
 The ordered vector space $L^\infty(T, \mu)$, which is a subspace of $L^1_{loc}(T, \mu)$, is *fully lattice-ordered*; for, if $(f_\alpha)$ is a family of positive functions in $\mathscr{L}^\infty$ whose set of classes $(\dot{f}_\alpha)$ is bounded above in $L^\infty$, there exists an $a \geq 0$ such that $N_\infty(f_\alpha) \leq a$ for all $\alpha$. Since $L^1_{loc}(T, \mu)$ is fully lattice-ordered, the family $(\dot{f}_\alpha)$ admits a supremum $\dot{h}$ in $L^1_{loc}(T, \mu)$; but since $\dot{a} \geq \dot{f}_\alpha$ for every $\alpha$, we have $\dot{h} \leq \dot{a}$, consequently $N_\infty(h) \leq a$, whence our assertion.
 
-#### Proposition 14 {#int-v-s5-prop-14 .statement}
+#### Proposition 14 {#int-v-s5-prop-14 .statement tag=093O}
 
 — *In order that a positive linear form $\theta$ on $\mathscr{L}^\infty$ be of the type $f \mapsto \int f g d\mu$, where $g \in \mathscr{L}^1$, it is necessary and sufficient that,* for every increasing directed family $(f_\alpha)_{\alpha \in A}$ of positive functions in $\mathscr{L}^\infty$ whose set of classes $(\dot{f}_\alpha)_{\alpha \in A}$ is bounded above in $L^\infty$ and admits $\dot{h}$ as its supremum in this space, one have
 
@@ -647,7 +647,7 @@ Let us first show that the condition is necessary. The measure $h \cdot \mu$ is 
 
 To establish that the condition is sufficient, we shall make use of the following lemma:
 
-#### Lemma 4 {#int-v-s5-lem-4 .statement}
+#### Lemma 4 {#int-v-s5-lem-4 .statement tag=093P}
 
 1° *Let $f$ be a lower semi-continuous and bounded positive function on $T$. Then its class $\dot{f}$ in $L^\infty$ is the supremum of the set of classes $\dot{\varphi}$, where $\varphi$ runs over the set of functions in $\mathscr{K}(T)$ such that $0 \leq \varphi \leq f$.*
 
@@ -731,11 +731,11 @@ This method can be applied to the positively homogeneous function $(x_1^2 + \ldo
 
 ### 10. Diffuse measures; atomic measures
 
-#### Definition 5 {#int-v-s5-def-5 .statement}
+#### Definition 5 {#int-v-s5-def-5 .statement tag=093Q}
 
 *A measure $\theta$ on T is said to be diffuse if* $|\theta|(\{t\}) = 0$ *for every* $t \in T$.
 
-#### Example {#int-v-s5-n10-exa-1 .statement}
+#### Example {#int-v-s5-n10-exa-1 .statement tag=093R}
 
 — Lebesgue measure on $\mathbf{R}$ is diffuse (Ch. IV, §1, No. 3, *Remark* 1).
 
@@ -743,7 +743,7 @@ To say that $\theta$ is a diffuse measure on $T$ amounts to saying that every se
 
 Recall (Ch. III, §1, No. 3) that a complex measure $\rho$ on $T$ is said to be *atomic* if it is of the form $\sum_{t \in T} \alpha(t) \varepsilon_t$, where $\alpha$ is a complex function on $T$ such that $\sum_{t \in K} |\alpha(t)| < +\infty$ for every compact subset $K$ of $T$, which expresses that the family $(\alpha(t) \varepsilon_t)_{t \in T}$ is summable (§2, No. 1, Remark 2). It then follows from the remark following Cor. 3 of Th. 2 of No. 5 that $|\rho| = \sum_{t \in T} |\alpha(t)| \varepsilon_t$. The function $\alpha$ that occurs in these formulas is uniquely determined, because $\alpha(t) = \rho(\{t\})$. An atomic measure and a diffuse measure are alien to each other.
 
-#### Proposition 15 {#int-v-s5-prop-15 .statement}
+#### Proposition 15 {#int-v-s5-prop-15 .statement tag=093S}
 
 *Every complex measure $\sigma$ on $T$ may be written in one and only one way in the form $\rho + \theta$, where $\rho$ is an atomic measure and $\theta$ is a diffuse measure; one then has $|\sigma| = |\rho| + |\theta|$.*.
 

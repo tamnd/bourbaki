@@ -57,9 +57,9 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: 1453e04455499f5e0b03812976d117ee6cd12128b5c81f26846061877c3d3a8c
+content_sha256: 712ee186c9a96d5227adfc68bcc46246c4a03c98e64c987f39bd1ef708c35272
 translated_from: content/en/int/IV/04_s4_integrable_functions_and_sets.md
-source_content_sha256: 44664051c6330badb1703bb68b0318df95f32abba8294f844ad108f5cee721a2
+source_content_sha256: 66721e72e10dd21f47f9c185589d7f3417a3df9407a6866398253f6c67ed1e54
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-20725f8a
 glossary_version: 34
@@ -81,11 +81,11 @@ $$
 
 Bất đẳng thức này chứng minh rằng ánh xạ tuyến tính $f \mapsto \int f \, d\mu$ từ $\mathscr{K}_F$ vào $F$ là liên tục đối với tôpô hội tụ trung bình trong $\mathscr{K}_F$. Do đó nó có thể được mở rộng bằng tính liên tục đến toàn bộ không gian $\mathscr{L}_F^1$, và ta có thể đưa ra định nghĩa sau:
 
-#### Định nghĩa 1 {#int-iv-s4-def-1 .statement}
+#### Định nghĩa 1 {#int-iv-s4-def-1 .statement tag=08RY}
 
 *Các hàm thuộc $\mathscr{L}_F^1(X, \mu)$ được gọi là khả tích đối với độ đo $\mu$* (hoặc, một lần nữa, được gọi là $\mu$-khả tích). *Nguyên (đối với $\mu$) của hàm khả tích $f$ theo định nghĩa là giá trị tại $f$ của mở rộng bằng tính liên tục lên $\mathscr{L}_F^1$ của ánh xạ tuyến tính $g \mapsto \int g\, d\mu$ từ $\mathscr{H}_F$ vào $F$; nó lại được ký hiệu là $\mu(f)$ hoặc $\int f\, d\mu$, hoặc $\int f(x)\, d\mu(x)$ hoặc $\int f\mu$, hoặc $\int f(x)\mu(x)$.
 
-#### Ví dụ {#int-iv-s4-n1-exa-1 .statement}
+#### Ví dụ {#int-iv-s4-n1-exa-1 .statement tag=08RZ}
 
 — Cho $X$ là một không gian *rời rạc*, $\mu$ là một độ đo trên $X$, và đặt $\alpha(x) = \mu(\varphi_{\{x\}})$ đối với mọi $x \in X$. Khi đó các hàm trong $\mathscr{F}_F^1$ là *khả tích*, nói cách khác $\mathscr{L}_F^1 = \mathscr{F}_F^1$; hơn nữa, đối với mọi hàm $f \in \mathscr{L}_F^1$,
 
@@ -119,7 +119,7 @@ Vì $\mu(f)$ là liên tục trên $\mathscr{L}_F^1$ theo định nghĩa, và v�
 
 ### 2. Các tính chất của nguyên
 
-#### Mệnh đề 1 {#int-iv-s4-prop-1 .statement}
+#### Mệnh đề 1 {#int-iv-s4-prop-1 .statement tag=08S0}
 
 *Với mọi hàm số dương khả tích theo $\mu$ $f$,*
 
@@ -129,7 +129,7 @@ $$
 
 Thật vậy, $\int f\, d|\mu|$ và $N_1(f)$ là liên tục trên $\mathscr{L}^1$ và bằng nhau đối với mọi hàm liên tục $f \geqslant 0$ có giá đỡ compact; mặt khác, mọi hàm $f \geqslant 0$ trong $\mathscr{L}^1$ là giới hạn (theo nghĩa hội tụ theo trung bình) của một dãy các hàm liên tục $\geqslant 0$ có giá đỡ compact (§ 3, No. 5, Mệnh đề 11); do đó mệnh đề.
 
-#### Hệ quả 1 {#int-iv-s4-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s4-prop-1-cor-1 .statement tag=08S1}
 
 *Với mọi hàm khả tích $f \in \mathscr{L}^1_F$, $|f|$ là khả tích và*
 
@@ -141,7 +141,7 @@ Chúng ta sẽ thường xuyên dùng Mệnh đề 1 và Hệ quả 1 của nó,
 
 Ta nhắc lại rằng, để một hàm $f$ thuộc $\mathscr{L}^p_F$, điều kiện cần và đủ là hàm $|f|^{p-1} \cdot f$ thuộc $\mathscr{L}^1_F$ (§ 3, No. 8, Hệ quả 1 của ĐL. 7), tức là nó khả tích; đó là lý do của thuật ngữ 'hàm khả tích lũy thừa bậc $p$'. Hơn nữa:
 
-#### Hệ quả 2 {#int-iv-s4-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s4-prop-1-cor-2 .statement tag=08S2}
 
 *Với mọi hàm $f \in \mathscr{L}^p_F$, hàm số $|f|^p$ là khả tích và*
 
@@ -151,7 +151,7 @@ $$
 
 Điều này suy ra ngay từ việc $|f|$ thuộc $\mathscr{L}^p$ (§ 3, No. 5, Mệnh đề 11) và công thức (2).
 
-#### Mệnh đề 2 {#int-iv-s4-prop-2 .statement}
+#### Mệnh đề 2 {#int-iv-s4-prop-2 .statement tag=08S3}
 
 — Với mọi hàm khả tích $f$,
 
@@ -161,7 +161,7 @@ $$
 
 Điều này suy ra ngay từ bất đẳng thức (1) bằng cách lấy giới hạn, có xét đến (3) và tính liên tục của $N_1(f)$ trên $\mathscr{L}_F^1$.
 
-#### Định lý 1 {#int-iv-s4-thm-1 .statement}
+#### Định lý 1 {#int-iv-s4-thm-1 .statement tag=08S4}
 
 — Cho $F$ và $G$ là hai không gian Banach, $u$ là một ánh xạ tuyến tính liên tục của $F$ vào $G$. Với mọi hàm khả tích $f$ nhận giá trị trong $F$, $u \circ f$ là khả tích và
 
@@ -171,7 +171,7 @@ $$
 
 Ta đã biết rằng $u \circ f$ là khả tích (§ 3, No. 5, Định lý 4); quan hệ (6), vì đúng với mọi $f \in \mathscr{H}_F$, được mở rộng cho mọi hàm khả tích $f$ bởi nguyên lý mở rộng các đẳng thức: thật vậy, $f \mapsto u \circ f$ là liên tục đối với tôpô hội tụ theo trung bình, như suy ra từ bất đẳng thức $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
 
-#### Hệ quả 1 {#int-iv-s4-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s4-thm-1-cor-1 .statement tag=08S5}
 
 — Cho $a'$ là một dạng tuyến tính liên tục trên $F$. Nếu $f$ là một hàm khả tích với giá trị trong $F$, thì hàm số vô hướng $\langle f, a' \rangle$ là khả tích và
 
@@ -181,7 +181,7 @@ $$
 
 Ta sẽ thấy ở Ch. VI, § 1, Bài tập 7, 11 và 12 rằng có thể tồn tại các hàm $f$, với giá trị trong một không gian Banach vô hạn chiều $F$, sao cho $\langle f, a' \rangle$ khả tích với mọi dạng tuyến tính liên tục $a'$ trên $F$, mà $f$ không khả tích.
 
-#### Hệ quả 2 {#int-iv-s4-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s4-thm-1-cor-2 .statement tag=08S6}
 
 — Nếu các $a_k$ ($1 \leq k \leq n$) là các vectơ trong $F$ và các $f_k$ ($1 \leq k \leq n$) là các hàm số vô hướng khả tích, thì hàm $f = \sum_{k=1}^n a_k f_k$ là khả tích và
 
@@ -191,7 +191,7 @@ $$
 
 ### 3. Chuyển sang giới hạn trong các tích phân
 
-#### Mệnh đề 3 {#int-iv-s4-prop-3 .statement}
+#### Mệnh đề 3 {#int-iv-s4-prop-3 .statement tag=08S7}
 
 — Cho $\mathscr{B}$ là một cơ sở lọc trên $\mathscr{L}_F^1$. Giả sử tồn tại một tập compact $K \subset X$ sao cho, với mọi tập $M \in \mathscr{B}$, mọi hàm $f \in M$ đều có giá trong $K$. Trong những điều kiện này, nếu $\mathscr{B}$ hội tụ đều trên $X$ đến $f_0$, thì hàm $f_0$ khả tích và
 
@@ -201,7 +201,7 @@ $$
 
 Thật vậy, $\mathscr{B}$ hội tụ theo trung bình đến $f_0$ (§ 3, No. 3, Mệnh đề 4).
 
-#### Mệnh đề 4 {#int-iv-s4-prop-4 .statement}
+#### Mệnh đề 4 {#int-iv-s4-prop-4 .statement tag=08S8}
 
 — Cho $(f_n)$ là một dãy tăng (tương ứng giảm) các hàm số vô hướng khả tích. Để hàm bao trên (tương ứng bao dưới) $f$ của dãy khả tích, cần và đủ rằng $\sup_n \int f_n \, d|\mu| < +\infty$ (tương ứng $\inf_n \int f_n \, d|\mu| > -\infty$), trong trường hợp đó
 
@@ -211,7 +211,7 @@ $$
 
 Chúng tôi chỉ xét một dãy tăng. Dãy $g_n = f_n + f_1^-$ là tăng và gồm các hàm khả tích $\geqslant 0$; vì hàm bao trên của nó là $g = f + f_1^-$, mệnh đề suy ra từ Định lý 5 của § 3, No. 6.
 
-#### Định lý 2 {#int-iv-s4-thm-2 .statement}
+#### Định lý 2 {#int-iv-s4-thm-2 .statement tag=08S9}
 
 ==========
 
@@ -223,7 +223,7 @@ $$
 
 Định lý suy ra từ định lý của Lebesgue (§ 3, No. 7, Hệ quả của Định lý 6) vì, dưới các điều kiện của phát biểu, $f_\alpha$ hội tụ theo trung bình đến $f$ đối với $\mathfrak{F}$.
 
-#### Hệ quả 1 {#int-iv-s4-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s4-thm-2-cor-1 .statement tag=08SA}
 
 — Cho $\Omega$ là một không gian tôpô, $t_0$ là một điểm của $\Omega$ thừa nhận một hệ cơ bản đếm được các lân cận, $f$ là một ánh xạ của $X \times \Omega$ vào $F$ có các tính chất sau:
 a) với mọi $t \in \Omega$, hàm số $x \mapsto f(x, t)$ là khả tích;
@@ -233,7 +233,7 @@ c) tồn tại một lân cận U của $t_0$ và một hàm số g \geqslant 0 
 
 Dưới các điều kiện này, ánh xạ $t \mapsto \int \mathbf{f}(x,t) d\mu(x)$ của $\Omega$ vào $F$ là liên tục tại điểm $t_0$.
 
-#### Hệ quả 2 {#int-iv-s4-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s4-thm-2-cor-2 .statement tag=08SB}
 
 — Cho $(\mathbf{f}_n)$ là một dãy các hàm khả tích sao cho chuỗi có số hạng tổng quát $\mathbf{f}_n(x)$ hội tụ hầu khắp nơi; nếu tồn tại một hàm số $g \geqslant 0$ sao cho $\int^* g d|\mu| < +\infty$ và sao cho, với mọi số nguyên $n$, $\left| \sum_{k=1}^n \mathbf{f}_k(x) \right| \leqslant g(x)$ hầu khắp nơi, thì tổng $\mathbf{f}(x)$ (được xác định hầu khắp nơi) của chuỗi có số hạng tổng quát $\mathbf{f}_n(x)$ là khả tích và
 
@@ -245,7 +245,7 @@ $$
 
 ### 4. Các đặc trưng của các hàm số khả tích
 
-#### Mệnh đề 5 {#int-iv-s4-prop-5 .statement}
+#### Mệnh đề 5 {#int-iv-s4-prop-5 .statement tag=08SC}
 
 — Để một hàm số $f \geqslant 0$ (hữu hạn hoặc không), nửa liên tục dưới trên X, khả tích, điều kiện cần và đủ là $\int^* f d|\mu| < +\infty$.
 
@@ -257,7 +257,7 @@ $$
 
 nói cách khác $N_1(f - g) = |\mu|^*(f - g) = |\mu|^*(f) - |\mu|(g) \leqslant \varepsilon$, điều đó chứng tỏ rằng $f$ khả tích (§ 3, No. 4, Mệnh đề 7).
 
-#### Hệ quả 1 {#int-iv-s4-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s4-prop-5-cor-1 .statement tag=08SD}
 
 — Để một hàm số hữu hạn $f \geqslant 0$, nửa liên tục trên X, khả tích, điều kiện cần và đủ là $\int^* f d|\mu| < +\infty$.
 
@@ -265,7 +265,7 @@ nói cách khác $N_1(f - g) = |\mu|^*(f - g) = |\mu|^*(f) - |\mu|(g) \leqslant 
 
 Vì, nếu $|\mu|^*(f) < +\infty$, thì tồn tại một hàm nửa liên tục dưới $h$ sao cho $f \leqslant h$ và $|\mu|^*(h) < +\infty$; $h - f$ được xác định ở mọi nơi và nửa liên tục dưới, và $|\mu|^*(h - f) \leqslant |\mu|^*(h) < +\infty$; do đó $h - f$ khả tích, và vì $f(x) = h(x) - (h(x) - f(x))$ hầu khắp nơi, nên $f$ khả tích.
 
-#### Hệ quả 2 {#int-iv-s4-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s4-prop-5-cor-2 .statement tag=08SE}
 
 — Cho $\mathbf{H}$ là một tập khác rỗng, có hướng đối với quan hệ $\leqslant$ (resp. $\geqslant$), gồm các hàm số trị số nửa liên tục dưới (resp. nửa liên tục trên) và khả tích; nếu
 
@@ -295,19 +295,19 @@ $$
 
 ta có thể áp dụng cho chúng điều đã được chứng minh ở trên; nếu $g'$ là bao trên của các $f'$, thì $h$ và $g'$ đều hữu hạn hầu khắp nơi, do đó $h - g'$ được xác định hầu khắp nơi và bằng $g$ hầu khắp nơi; từ đó, các kết luận của hệ quả suy ra ngay trong trường hợp này.
 
-#### Hệ quả 3 {#int-iv-s4-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#int-iv-s4-prop-5-cor-3 .statement tag=08SF}
 
 — Cho $f$ là một hàm số thực bị chặn, nửa liên tục trên trên $X$ và có giá compact. Khi đó, ánh xạ $\mu \mapsto \int f\, d\mu$ là nửa liên tục trên trên $\mathscr{M}_+(X)$ đối với tôpô vague.
 
 Nếu $h$ là một hàm thuộc $\mathscr{K}_+(X)$ sao cho $|f| \leq h$ (Chương III, §1, No. 2, Bổ đề 1) thì $0 \leq f + h \leq 2h$, và vì $f + h$ là nửa liên tục trên, suy ra từ Hệ quả 1 rằng $f$ là $\mu$-khả tích với mọi độ đo $\mu$ trên $X$. Hơn nữa, $\mu(f) = \mu(h) - \mu(h - f)$ và $h - f$ là một hàm nửa liên tục dưới $\geq 0$. Vì ánh xạ $\mu \mapsto \mu(h - f)$ là nửa liên tục dưới trên $\mathscr{M}_+(X)$ đối với tôpô vague (§1, No. 1, Mệnh đề 4), điều này chứng minh hệ quả.
 
-#### Định lý 3 {#int-iv-s4-thm-3 .statement}
+#### Định lý 3 {#int-iv-s4-thm-3 .statement tag=08SG}
 
 — Để một hàm số thực $f \geq 0$ là khả tích, điều kiện cần và đủ là, với mọi $\varepsilon > 0$, tồn tại một hàm nửa liên tục trên $g \geq 0$, nhận giá trị hữu hạn và có giá compact, và một hàm khả tích nửa liên tục dưới $h$, sao cho $g \leq f \leq h$ và $\int (h - g)\, d|\mu| \leq \varepsilon$.
 
 Điều kiện này là đủ theo một tiêu chuẩn tổng quát về tính khả tích (§3, No. 4, Mệnh đề 8), Mệnh đề 5 và Hệ quả 1 của nó. Ta hãy chứng minh rằng điều kiện này là cần thiết. Nếu $f \geq 0$ là khả tích thì, với mọi $\varepsilon > 0$, tồn tại một hàm $u \geq 0$, liên tục và có giá compact, sao cho $N_1(f - u) \leq \varepsilon/4$. Theo định nghĩa của $N_1$, điều đó suy ra rằng tồn tại một hàm nửa liên tục dưới $v \geq 0$ sao cho $|\mu|^*(v) \leq \varepsilon/2$ và $|f - u| \leq v$. Do đó, $-v(x) \leq f(x) - u(x) \leq v(x)$ với mọi $x \in X$, và vì $u(x)$ hữu hạn mọi nơi, suy ra $(u(x) - v(x))^+ \leq f(x) \leq u(x) + v(x)$ với mọi $x \in X$. Hai hàm $g = (u - v)^+$ và $h = u + v$ thỏa mãn các yêu cầu.
 
-#### Hệ quả {#int-iv-s4-n4-cor-1 .statement}
+#### Hệ quả {#int-iv-s4-n4-cor-1 .statement tag=08SH}
 
 — Với mọi hàm khả tích (tương ứng khả tích và $\geq 0$) $f$, tồn tại một dãy tăng $(g_n)$ gồm các hàm nửa liên tục trên khả tích (tương ứng khả tích, có giá trị hữu hạn $\geq 0$, và có giá compact), và một dãy giảm $(h_n)$ gồm các hàm khả tích nửa liên tục dưới, sao cho:
 $1^\circ$ $g_n(x) \leq f(x) \leq h_n(x)$ với mọi $x \in X$ và mọi số nguyên $n$;
@@ -340,29 +340,29 @@ $$
 $$
 Hơn nữa, ta có thể giả sử rằng các $g'_n$ và các $h''_n$ đều hữu hạn khắp nơi; khi đó hiển nhiên các dãy $g_n = g'_n + g''_n$ và $h_n = h'_n + h''_n$ thỏa mãn các yêu cầu.
 
-#### Ví dụ {#int-iv-s4-n4-exa-1 .statement}
+#### Ví dụ {#int-iv-s4-n4-exa-1 .statement tag=08SI}
 
 Đối với mọi độ đo dương $\mu$ trên $\mathbf{R}$, mọi *hàm bậc thang* có giá compact đều khả tích theo $\mu$; vì hàm đặc trưng của một khoảng mở (resp. đóng) là nửa liên tục dưới (resp. nửa liên tục trên), và mọi hàm bậc thang đều là một tổ hợp tuyến tính của các hàm đặc trưng như thế. Suy ra rằng nếu $\mathbf{f}$ là một *hàm chỉnh* trên $\mathbf{R}$ có giá compact (FRV, II, §1, No. 3), thì $\mathbf{f}$ khả tích, vì nó là giới hạn đều của một dãy các hàm bậc thang $\mathbf{g}_n$ có giá được chứa trong một tập compact cố định (No. 3, Mệnh đề 3); hơn nữa, $\int \mathbf{f}\, d\mu = \lim_{n \to \infty} \int \mathbf{g}_n\, d\mu$.
 
 Nếu, nói riêng, lấy $\mu$ là độ đo Lebesgue, ta thấy rằng đối với mọi hàm chỉnh $\mathbf{f}$ có giá compact, tích phân $\int \mathbf{f}\, d\mu$ bằng tích phân $\int_{-\infty}^{+\infty} \mathbf{f}(x)\, dx$ được định nghĩa trong FRV, II, §2, No. 1.
 
-#### Nhận xét 1 {#int-iv-s4-n4-rem-1 .statement}
+#### Nhận xét 1 {#int-iv-s4-n4-rem-1 .statement tag=08SJ}
 
 Cho $\mathbf{f}$ là một hàm chỉnh trên $\mathbf{R}$ khả tích đối với độ đo Lebesgue $\mu$; khi đó $|\mathbf{f}|$ cũng khả tích (No. 2, Hệ quả 1 của Mệnh đề 1), và, đặt $I_n = [-n, n]$, $|\mathbf{f}|$ là bao trên của dãy tăng các hàm chỉnh $|\mathbf{f}| \varphi_{I_n}$, do đó $\int |\mathbf{f}|\, d\mu = \lim_{n \to \infty} \int_{-n}^{n} |\mathbf{f}(x)|\, dx$ theo Định lý 2 của No. 3; vì thế, tích phân $\int_{-\infty}^{+\infty} f(x) dx$ là *hội tụ tuyệt đối* (FRV, II, §2, No. 3). Hơn nữa, $\int f\, d\mu = \int_{-\infty}^{+\infty} f(x) dx$ theo Định lý 2 của No. 3. Ngược lại, giả sử rằng $\int_{-\infty}^{+\infty} f(x) dx$ hội tụ tuyệt đối; một lần nữa, theo Định lý 2 của No. 3, $\int f\, d\mu = \int_{-\infty}^{+\infty} f(x) dx$. Lưu ý rằng nếu tích phân $\int_{-\infty}^{+\infty} f(x) dx$ hội tụ nhưng không hội tụ tuyệt đối; thì $f$ *không khả tích* đối với độ đo Lebesgue.
 
-#### Nhận xét 2 {#int-iv-s4-n4-rem-2 .statement}
+#### Nhận xét 2 {#int-iv-s4-n4-rem-2 .statement tag=08SK}
 
 Áp dụng cho độ đo Lebesgue và cho các hàm chỉnh, Mệnh đề 3 của No. 3 cho lại định lý về chuyển qua giới hạn đối với các tích phân của các hàm chỉnh trên một khoảng compact (FRV, II, §3, No. 1, Mệnh đề 1); đối với *các dãy* (hay đối với các bộ lọc có một cơ sở đếm được) các hàm chỉnh, Định lý 2 của No. 3 cải thiện rất nhiều mệnh đề này vì, đối với các hàm chỉnh bị chặn đều trên một khoảng compact, nó thay thế hội tụ *từng điểm* cho hội tụ *đều* (cf. §5, No. 4, Định lý 2). Tuy nhiên, về sự chuyển qua giới hạn đối với các tích phân *hội tụ tuyệt đối* của các hàm chỉnh trên một khoảng không compact, ta nhận xét rằng các điều kiện của Định lý 2 của No. 3 kéo theo rằng các tích phân đang xét là *hội tụ đều* (theo nghĩa được định nghĩa trong FRV, II, §3, No. 2), và do đó không cải thiện các điều kiện hội tụ được cho trong Sách IV (*loc. cit.*) ngoại trừ phần liên quan đến sự hội tụ của các hàm $f_\alpha$ trên mọi khoảng compact. Cuối cùng, các điều kiện chuyển qua giới hạn được cho đối với các tích phân của các hàm chỉnh *không hội tụ tuyệt đối* vẫn nằm ngoài lý thuyết được phát triển trong chương này.
 
 ### 5. Các tập hợp khả tích
 
-#### Định nghĩa 2 {#int-iv-s4-def-2 .statement}
+#### Định nghĩa 2 {#int-iv-s4-def-2 .statement tag=08SL}
 
 *Một tập con* $A$ *của một không gian compact địa phương* $X$ *được gọi là khả tích đối với một độ đo* $\mu$ *trên* $X$ *(hay là* $\mu$*-khả tích)* *nếu hàm đặc trưng* $\varphi_A$ *của* $A$ *là khả tích.* *Số hữu hạn* $\mu(A) = \int \varphi_A\, d\mu$ *được gọi là độ đo của* $A$.
 
 Đối với mọi tập khả tích $A$, $|\mu|(A) = |\mu|^*(A)$ (No. 2, Mệnh đề 1); để một tập là *không đáng kể*, điều kiện cần và đủ là nó có *độ đo bằng không đối với* $|\mu|$.
 
-#### Mệnh đề 6 {#int-iv-s4-prop-6 .statement}
+#### Mệnh đề 6 {#int-iv-s4-prop-6 .statement tag=08SM}
 
 *Hợp của một họ hữu hạn* $(A_i)_{1 \leq i \leq n}$ *gồm các tập khả tích là khả tích,* và
 
@@ -378,7 +378,7 @@ $$
 
 Vì, nếu $A = \bigcup_{i=1}^n A_i$ thì $\varphi_A = \sup \varphi_{A_i}$, do đó (§ 3, No. 5, Hệ quả của Mệnh đề 12) nếu các $A_i$ khả tích thì $A$ cũng vậy; quan hệ (13) là một trường hợp riêng của quan hệ tương tự đối với các độ đo ngoài (§ 1, No. 4, Mệnh đề 18), khi xét tới quan hệ $|\mu|(A) = |\mu|^*(A)$; cuối cùng, nếu các $A_i$ từng đôi một rời nhau, thì $\varphi_A = \sum_{i=1}^n \varphi_{A_i}$, suy ra (14).
 
-#### Mệnh đề 7 {#int-iv-s4-prop-7 .statement}
+#### Mệnh đề 7 {#int-iv-s4-prop-7 .statement tag=08SN}
 
 1° *Nếu A và B là hai tập khả tích sao cho $B \subset A$, thì tập $C = A - B$ khả tích và*
 
@@ -390,13 +390,13 @@ $$
 
 Phần thứ nhất suy ra từ việc $\varphi_C = \varphi_A - \varphi_B$. Mặt khác, nếu $(A_n)$ là một dãy các tập khả tích và $A$ là giao của nó, thì $\varphi_A = \inf_n \varphi_{A_n}$, do đó $A$ khả tích (No. 3, Mệnh đề 4).
 
-#### Hệ quả {#int-iv-s4-n5-cor-1 .statement}
+#### Hệ quả {#int-iv-s4-n5-cor-1 .statement tag=08SO}
 
 *Nếu $(A_n)$ là một dãy giảm các tập khả tích, thì* $\mu(\bigcap_n A_n) = \lim_{n \to \infty} \mu(A_n)$.
 
 Vì, nếu $A = \bigcap_n A_n$ thì $\varphi_A$ là bao dưới của dãy giảm $(\varphi_{A_n})$ (No. 3, Mệnh đề 4).
 
-#### Mệnh đề 8 {#int-iv-s4-prop-8 .statement}
+#### Mệnh đề 8 {#int-iv-s4-prop-8 .statement tag=08SP}
 
 *Cho $(A_n)$ là một dãy tăng các tập khả tích; để hợp $A = \bigcup_n A_n$ khả tích, điều kiện cần và đủ là* $\sup_n |\mu|(A_n) < +\infty$, *trong trường hợp đó,*
 
@@ -406,7 +406,7 @@ $$
 
 Vì, các $\varphi_{A_n}$ tạo thành một dãy tăng các hàm khả tích, và $\varphi_A = \sup_n \varphi_{A_n}$; do đó, mệnh đề suy ra từ Mệnh đề 4 của No. 3.
 
-#### Hệ quả {#int-iv-s4-n5-cor-2 .statement}
+#### Hệ quả {#int-iv-s4-n5-cor-2 .statement tag=08SQ}
 
 *Cho $(A_n)$ là một dãy các tập khả tích sao cho* $\sum_{n=1}^\infty |\mu|(A_n) < +\infty$; *hợp* $A = \bigcup_n A_n$ *khả tích, và*
 
@@ -422,7 +422,7 @@ $$
 
 (§ 1, No. 4, Mệnh đề 18); do đó A khả tích (§ 3, No. 6, Hệ quả 2 của Định lý 5) và, vì $|\mu|(A) = |\mu|^*(A)$, ta quả thật có (17).
 
-#### Mệnh đề 9 {#int-iv-s4-prop-9 .statement}
+#### Mệnh đề 9 {#int-iv-s4-prop-9 .statement tag=08SR}
 
 — Cho $(A_n)$ là một dãy các tập khả tích từng đôi một rời nhau sao cho $\sum_{n=1}^\infty |\mu|(A_n) < +\infty$; khi đó
 
@@ -436,31 +436,31 @@ Quan hệ (18) cũng được diễn đạt bằng cách nói rằng độ đo $
 
 ### 6. Các tiêu chuẩn cho tính khả tích của một tập hợp
 
-#### Mệnh đề 10 {#int-iv-s4-prop-10 .statement}
+#### Mệnh đề 10 {#int-iv-s4-prop-10 .statement tag=08SS}
 
 — Để một tập $A$ mở (tương ứng, đóng) trong X khả tích, điều kiện cần và đủ là $|\mu|^*(A) < +\infty$.
 
 Vì khi đó $\varphi_A$ nửa liên tục dưới (tương ứng, nửa liên tục trên), mệnh đề suy ra từ Mệnh đề 5 của No. 4 và Hệ quả 1 của nó.
 
-#### Hệ quả 1 {#int-iv-s4-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s4-prop-10-cor-1 .statement tag=08ST}
 
 — Mọi tập compact đều khả tích; mọi tập mở tương đối compact đều khả tích.
 
-#### Hệ quả 2 {#int-iv-s4-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s4-prop-10-cor-2 .statement tag=08SU}
 
 — Với mọi độ đo dương $\mu$ trên X, $A \mapsto \mu^*(A)$ là một dung lượng trên X (xem GT, IX, §6, No. 9, Ví dụ).
 
-#### Ví dụ {#int-iv-s4-n6-exa-1 .statement}
+#### Ví dụ {#int-iv-s4-n6-exa-1 .statement tag=08SV}
 
 Đối với độ đo Lebesgue $\mu$ trên $\mathbf{R}$, từ Mệnh đề 10 suy ra rằng mọi khoảng mở bị chặn $[a, b[$ đều khả tích và có độ đo $b - a$ (\§1, No. 2, Mệnh đề 9). Vì mọi tập chỉ gồm một điểm đều là tập không đối với độ đo Lebesgue, suy ra rằng mọi khoảng có hai đầu mút $a$ và $b$ đều có cùng độ đo $b - a$.
 
-#### Mệnh đề 11 {#int-iv-s4-prop-11 .statement}
+#### Mệnh đề 11 {#int-iv-s4-prop-11 .statement tag=08SW}
 
 — Cho $\mathscr{G}$ là một tập hợp, có hướng theo quan hệ $\subset$, gồm các tập hợp mở khả tích trong $X$; để $A = \bigcup_{G \in \mathscr{G}} G$ là khả tích, cần và đủ rằng $\sup_{G \in \mathscr{G}} |\mu|(G) < +\infty$, trong trường hợp đó $\mu(A) = \lim_\mathscr{G} \mu(G)$ và $|\mu|(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$.
 
 Vì, ta biết rằng $|\mu|^*(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$ (§ 1, No. 2, Mệnh đề 7); do đó mệnh đề suy ra từ Mệnh đề 10.
 
-#### Hệ quả {#int-iv-s4-n6-cor-1 .statement}
+#### Hệ quả {#int-iv-s4-n6-cor-1 .statement tag=08SX}
 
 — Cho $\mathfrak{F}$ là một tập hợp, có hướng theo quan hệ $\supset$, gồm các tập hợp đóng khả tích trong $X$; khi đó tập hợp đóng $B = \bigcap_{H \in \mathfrak{F}} H$ là khả tích, và ta có
 $$
@@ -468,7 +468,7 @@ $$
 $$
 Vì, cho $H_0$ là một tập hợp trong $\mathfrak{F}$; vì $H_0$ khả tích, nên nó được chứa trong một tập hợp mở khả tích $U$ (§ 1, No. 4, Mệnh đề 19); các tập hợp mở $U \cap \mathbf{C}H$ lập thành một tập hợp có hướng theo quan hệ $\subset$, được chứa trong $U$, và có hợp là $U \cap \mathbf{C}B$; do đó ta được quy về Mệnh đề 11.
 
-#### Định lý 4 {#int-iv-s4-thm-4 .statement}
+#### Định lý 4 {#int-iv-s4-thm-4 .statement tag=08SY}
 
 — Để một tập hợp $A$ là khả tích, cần và đủ rằng, với mọi $\varepsilon > 0$, tồn tại một tập hợp mở khả tích $G$ và một tập compact $K$, sao cho $K \subset A \subset G$ và
 $$
@@ -487,7 +487,7 @@ $$
 $$
 điều đó hoàn tất chứng minh, vì $\delta$ là tùy ý.
 
-#### Hệ quả 1 {#int-iv-s4-thm-4-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s4-thm-4-cor-1 .statement tag=08SZ}
 
 — Để một tập $A$ khả tích, cần và đủ là, với mọi $\varepsilon > 0$, tồn tại một tập compact $K \subset A$ sao cho $|\mu|^*(A - K) \leq \varepsilon$. Khi đó $|\mu|(A)$ là cận trên đúng của tập các độ đo $|\mu|(K)$ của các tập compact $K \subset A$.
 
@@ -495,7 +495,7 @@ $$
 
 Điều kiện là đủ, vì nó nói rằng, đối với tôpô hội tụ theo trung bình, $\varphi_A$ nằm trong bao đóng của tập các hàm khả tích $\varphi_K$ ($K$ là một tập con compact tùy ý của $A$).
 
-#### Hệ quả 2 {#int-iv-s4-thm-4-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s4-thm-4-cor-2 .statement tag=08T0}
 
 — Với mọi tập khả tích $A$, tồn tại:
 
@@ -507,13 +507,13 @@ $1^\circ$ Với mọi số nguyên $n$, tồn tại một tập mở khả tích
 
 $2^\circ$ Định nghĩa các tập compact $K_n$ bằng quy nạp như sau: $K_1 \subset A$ và $|\mu|(A - K_1) \leq 1$; $K_n \subset A - \bigcup_{i=1}^{n-1} K_i$ và $|\mu|(A \cap \mathbf{C}(\bigcup_{i=1}^{n-1} K_i) \cap \mathbf{C}K_n) \leq 1/n$ đối với $n > 1$ (Th. 4); nếu $A_2$ là hợp của các $K_n$, thì $|\mu|(A_2) = |\mu|(A)$ (No. 5, Mệnh đề 8), do đó $A - A_2$ là không đáng kể.
 
-#### Hệ quả 3 {#int-iv-s4-thm-4-cor-3 .statement}
+#### Hệ quả 3 {#int-iv-s4-thm-4-cor-3 .statement tag=08T1}
 
 — Mọi tập có độ đo ngoài hữu hạn đều được chứa trong hợp của một tập không đáng kể và một họ đếm được các tập compact rời nhau từng đôi một sao cho tổng các độ đo của chúng là hữu hạn.
 
 Chỉ cần áp dụng Hệ quả 2 cho một tập mở khả tích chứa tập đã cho.
 
-#### Hệ quả 4 {#int-iv-s4-thm-4-cor-4 .statement}
+#### Hệ quả 4 {#int-iv-s4-thm-4-cor-4 .statement tag=08T2}
 
 — Với mọi tập mở $U$ trong $X$, $|\mu|^*(U)$ là cận trên đúng của các độ đo $|\mu|(K)$ của các tập compact $K \subset U$.
 
@@ -523,7 +523,7 @@ Chú ý rằng $|\mu|^*(U)$ cũng là cận trên đúng của các số đo $|\
 
 ### 7. Đặc trưng hóa các độ đo bị chặn
 
-#### Mệnh đề 12 {#int-iv-s4-prop-12 .statement}
+#### Mệnh đề 12 {#int-iv-s4-prop-12 .statement tag=08T3}
 
 — Đối với một độ đo $\mu$ trên một không gian compact địa phương $X$ để là bị chặn (Ch. III, §1, No. 8), điều kiện cần và đủ là $X$ là một tập khả tích đối với $\mu$ (hay, điều tương đương là, mọi hàm hằng hữu hạn đều khả tích); trong trường hợp này,
 
@@ -537,7 +537,7 @@ Thật vậy, ta đã thấy rằng $|\mu|^*(X) = \| \mu \|$ (§ 1, No. 2); do �
 
 Suy ra từ ĐL. 4 của No. 6 rằng nếu $\mu$ là một độ đo bị chặn thì, với mọi $\varepsilon > 0$, tồn tại một tập compact $K$ sao cho $|\mu|(CK) \leq \varepsilon$.
 
-#### Mệnh đề 13 {#int-iv-s4-prop-13 .statement}
+#### Mệnh đề 13 {#int-iv-s4-prop-13 .statement tag=08T4}
 
 — Cho $\mu$ là một độ đo bị chặn trên $X$. Cho $\mathscr{B}$ là một cơ sở lọc trên $\mathscr{L}_F^p$ có các tính chất sau:
 $1^\circ$ tồn tại một tập $M \in \mathscr{B}$ sao cho các hàm $f \in M$ bị chặn đều trên $X$;
@@ -552,7 +552,7 @@ $$
 
 Suy ra từ điều trên rằng nếu $f \in M \cap N$ thì $N_p((f - f_0)\varphi_K) \leq \varepsilon$ và $N_p((f - f_0)\varphi_{CK}) \leq 2a\varepsilon$, do đó $N_p(f - f_0) \leq (2a + 1)\varepsilon$, điều đó chứng minh mệnh đề.
 
-#### Hệ quả {#int-iv-s4-n7-cor-1 .statement}
+#### Hệ quả {#int-iv-s4-n7-cor-1 .statement tag=08T5}
 
 — Đối với một độ đo bị chặn $\mu$ trên $X$, mọi ánh xạ liên tục bị chặn $f$ của $X$ vào $F$ đều thuộc vào từng $\mathscr{L}_F^p$ ($1 \leq p < +\infty$).
 
@@ -592,7 +592,7 @@ $$
 
 Đặc biệt, nếu $f$ liên tục trên $X$ thì $f$ là $\mu$-khả tích, vì $fh \in \mathscr{K}(X; F)$ đối với mọi hàm $h \in \mathscr{K}(X; \mathbf{R})$ bằng 1 trên $S$ (Ch. III, §1, No. 2, Bổ đề 1). Chính xác hơn:
 
-#### Mệnh đề 14 {#int-iv-s4-prop-14 .statement}
+#### Mệnh đề 14 {#int-iv-s4-prop-14 .statement tag=08T6}
 
 — Cho X là một không gian địa phương compact, F là một không gian Banach không bằng 0; trang bị cho không gian $\mathscr{C}(X; F)$ gồm tất cả các ánh xạ liên tục từ X vào F tôpô của sự hội tụ compact. Đối với một độ đo $\mu$ trên X, điều kiện cần và đủ để ánh xạ tuyến tính $f \mapsto \int f d\mu$ của $\mathscr{K}(X; F)$ vào F có thể mở rộng thành một ánh xạ tuyến tính liên tục của $\mathscr{C}(X; F)$ vào F là $\operatorname{Supp}(\mu)$ compact; sự mở rộng như vậy là duy nhất và trùng với tích phân được định nghĩa ở No. 1.
 
@@ -606,25 +606,25 @@ $1^\circ$ H là đồng đều liên tục;
 
 $2^\circ$ với mọi $x \in X$, tập $H(x)$ gồm các $f(x)$, khi $f$ chạy qua H, là bị chặn trong $\mathbf{C}$.
 
-#### Mệnh đề 15 {#int-iv-s4-prop-15 .statement}
+#### Mệnh đề 15 {#int-iv-s4-prop-15 .statement tag=08T7}
 
 — Cho X là một không gian địa phương compact và, với mọi $x \in X$, cho $\varepsilon_x$ là độ đo Dirac tại điểm x. Ánh xạ $x \mapsto \varepsilon_x$ của X vào $\mathscr{C}'(X; \mathbf{C})$ liên tục đối với tôpô của sự hội tụ compact trên $\mathscr{C}'(X; \mathbf{C})$.
 
 Xét một lân cận của $\varepsilon_{x_0}$ trong $\mathscr{C}'(X; \mathbf{C})$ đối với tôpô này, mà ta có thể giả sử được xác định bằng cách lấy một số $\delta > 0$, một tập con compact H của $\mathscr{C}(X; \mathbf{C})$, và xét tập các độ đo $\mu$ trên X có giá compact sao cho $|\mu(f) - \varepsilon_{x_0}(f)| \leq \delta$ với mọi hàm $f \in H$. Vì H đều liên tục, tồn tại một lân cận U của $x_0$ trong X sao cho quan hệ $f \in H$ kéo theo $|f(x) - f(x_0)| \leq \delta$ với mọi $x \in U$, điều này cũng có thể viết là $|\varepsilon_x(f) - \varepsilon_{x_0}(f)| \leq \delta$ và chứng minh mệnh đề.(*)
 
-#### Mệnh đề 16 {#int-iv-s4-prop-16 .statement}
+#### Mệnh đề 16 {#int-iv-s4-prop-16 .statement tag=08T8}
 
 — Cho K là một tập con compact của X, L là không gian vectơ của các độ đo $\mu$ trên X có giá nằm trong K. Trên L, các tôpô cảm sinh bởi tôpô $\mathscr{T}$ của sự hội tụ compact trên $\mathscr{C}'(X; \mathbf{C})$ và tôpô $\mathscr{T}'$ của sự hội tụ compact chặt trên $\mathscr{M}(X; \mathbf{C})$ (Ch. III, §1, No. 10) trùng nhau.
 
 Hiển nhiên là trên L, tôpô cảm sinh bởi $\mathscr{T}$ mịn hơn tôpô cảm sinh bởi $\mathscr{T}'$. Ngược lại, cho H là một tập con compact của $\mathscr{C}(X; \mathbf{C})$, h là một hàm trong $\mathscr{K}(X; \mathbf{C})$ bằng 1 trên K. Hiển nhiên tập H' gồm các hàm fh, khi f chạy qua H, là compact chặt trong $\mathscr{K}(X; \mathbf{C})$, và, với mọi độ đo $\mu \in L$, $\mu(f) = \mu(fh)$ với mọi hàm $f \in H$, do đó suy ra kết luận.
 
-#### Hệ quả 1 {#int-iv-s4-prop-16-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s4-prop-16-cor-1 .statement tag=08T9}
 
 — Với mọi tập con compact K của X và mọi số $a > 0$, tập B gồm các độ đo $\mu$ trên X sao cho $\operatorname{Supp}(\mu) \subset K$ và $\| \mu \| \leq a$ là một tập con đều liên tục của $\mathscr{C}'(X; \mathbf{C})$ và compact đối với tôpô $\mathscr{T}$ của sự hội tụ compact.
 
 Thật vậy, cho H là một tập con của $\mathscr{C}(X; \mathbf{C})$ gồm các hàm bị chặn đều trên K; tồn tại một số $c > 0$ sao cho $|\mu(f)| \leq c \cdot \| \mu \| \leq ac$ với mọi hàm $f \in H$ và mọi độ đo $\mu \in B$, nhờ (22); do đó $B \subset acH^\circ$ trong đối ngẫu $\mathscr{C}'(X; \mathbf{C})$ của $\mathscr{C}(X; \mathbf{C})$, điều này chứng minh tính đều liên tục của B; thực tế là B compact đối với $\mathscr{T}$ suy ra từ thực tế là, trên B, $\mathscr{T}$ và tôpô mơ hồ cảm sinh cùng một tôpô (Mệnh đề 16 và Ch. III, §1, No. 10, Mệnh đề 17) và thực tế là B compact theo tôpô mơ hồ (Ch. III, §1, No. 9, Hệ quả 2 của Mệnh đề 15 và §2, No. 2, Mệnh đề 6).
 
-#### Hệ quả 2 {#int-iv-s4-prop-16-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s4-prop-16-cor-2 .statement tag=08TA}
 
 — Mọi độ đo có giá compact (resp. mọi độ đo dương có giá compact) $\mu$ đều nằm trong bao đóng của $\mathscr{C}'(X; \mathbf{C})$, đối với tôpô $\mathscr{T}$ của sự hội tụ compact, của tập các độ đo (resp.
 
@@ -636,15 +636,15 @@ Thật vậy, trên tập B gồm các độ đo $\nu$ sao cho $\mathrm{Supp}(\n
 
 ### 9. Các họ và các hàm tập cộng tính
 
-#### Định nghĩa 3 {#int-iv-s4-def-3 .statement}
+#### Định nghĩa 3 {#int-iv-s4-def-3 .statement tag=08TB}
 
 *Một tập hợp khác rỗng $\Phi$ gồm các tập con của một tập hợp $A$ được gọi là một clan nếu tồn tại một đại số $\mathscr{A}$ (trên $\mathbf{R}$) gồm các hàm giá trị thực xác định trên $A$, sao cho các quan hệ $M \in \Phi$ và $\varphi_M \in \mathscr{A}$ là tương đương.*
 
-#### Ví dụ {#int-iv-s4-n9-exa-1 .statement}
+#### Ví dụ {#int-iv-s4-n9-exa-1 .statement tag=08TC}
 
 Nếu $\mu$ là một độ đo trên một không gian compact địa phương $X$ thì các tổ hợp tuyến tính, với hệ số thực, của các hàm đặc trưng của các tập hợp khả tích lập thành một *đại số* $\mathscr{A}$, vì, với bất kỳ hai tập hợp khả tích nào $M, N$, hàm $\varphi_M \varphi_N = \varphi_{M \cap N}$ là khả tích (No. 5, Mệnh đề 7); do đó suy ra từ Định nghĩa 2 và 3 rằng tập hợp các tập con khả tích của $X$ là một clan.
 
-#### Mệnh đề 17 {#int-iv-s4-prop-17 .statement}
+#### Mệnh đề 17 {#int-iv-s4-prop-17 .statement tag=08TD}
 
 *Để một tập hợp khác rỗng $\Phi$ gồm các tập con của một tập hợp $A$ là một clan, cần và đủ là nó thỏa mãn điều kiện sau:*
 
@@ -658,7 +658,7 @@ $$
 
 Để chứng minh rằng nó *đủ*, trước hết ta nhận thấy rằng điều đó kéo theo: với bất kỳ hai tập hợp $M, N$ trong $\Phi$, $M \cap N$ thuộc $\Phi$ vì $M \cap N = M \cap \mathbf{C}(M \cap \mathbf{C}N)$. Đặt $\mathscr{E}(\Phi)$ là tập hợp các tổ hợp tuyến tính, với hệ số thực, của các hàm đặc trưng của các tập hợp của $\Phi$. Vì $\varphi_M \varphi_N = \varphi_{M \cap N}$, $\mathscr{E}(\Phi)$ là một đại số. Mọi việc quy về chứng minh rằng nếu $M$ là một tập con của $A$ sao cho $\varphi_M = \sum_i c_i \varphi_{M_i}$, trong đó các $M_i$ thuộc $\Phi$, thì $M \in \Phi$. Điều này sẽ suy ra từ bổ đề sau:
 
-#### Bổ đề {#int-iv-s4-n9-lem-1 .statement}
+#### Bổ đề {#int-iv-s4-n9-lem-1 .statement tag=08TE}
 
 *Cho $\Phi$ là một tập hợp khác rỗng các tập con của $A$ thỏa mãn tiên đề (CL). Cho một họ hữu hạn $(M_i)_{1 \leq i \leq n}$ các tập hợp trong $\Phi$, tồn tại một*
 
@@ -672,7 +672,7 @@ Bổ đề đã được chứng minh, mọi hàm có dạng $\sum_{i=1}^n c_i \
 
 Mỗi họ $\Phi$ các tập con của $A$ đều chứa tập con rỗng $\varnothing$ của $A$; vì tồn tại ít nhất một tập con $M \in \Phi$, do đó $M - M = \varnothing$ thuộc $\Phi$. Cũng chú ý rằng tập các tập con của $A$ chỉ gồm tập con $\varnothing$ là một họ.
 
-#### Định nghĩa 4 {#int-iv-s4-def-4 .statement}
+#### Định nghĩa 4 {#int-iv-s4-def-4 .statement tag=08TF}
 
 *Cho một họ $\Phi$ các tập con của một tập $A$, và một không gian Banach $F$, người ta gọi* hàm bậc thang² *trên các tập của $\Phi$ (hay hàm bậc thang $\Phi$), nhận giá trị trong $F$, mọi hàm có dạng* $\sum_i a_i \varphi_{M_i}$, *trong đó các $a_i$ thuộc $F$, và các $M_i$ thuộc $\Phi$.*
 
@@ -680,19 +680,19 @@ Rõ ràng tập $\mathscr{E}_F(\Phi)$ các hàm bậc thang $\Phi$ nhận giá t
 
 Theo Bổ đề, mọi hàm trong $\mathscr{E}_F(\Phi)$ đều có thể viết $f = \sum_j c_j \varphi_{N_j}$, trong đó các $N_j \in \Phi$ đôi một rời nhau; từ đó suy ra rằng $|f| = \sum_j |c_j| \varphi_{N_j}$ thuộc $\mathscr{E}(\Phi)$. Đặc biệt, $\mathscr{E}(\Phi)$ là một *không gian Riesz*, vì cận trên của hai hàm trong $\mathscr{E}(\Phi)$ thuộc $\mathscr{E}(\Phi)$.
 
-#### Nhận xét {#int-iv-s4-n9-rem-1 .statement}
+#### Nhận xét {#int-iv-s4-n9-rem-1 .statement tag=08TG}
 
 — Dễ thấy rằng Định nghĩa 4 tương đương với phát biểu sau đây: một hàm bậc thang $\Phi$ với giá trị trong $F$ là một hàm $f$ chỉ nhận một số hữu hạn giá trị và sao cho, với mọi $a \neq 0$ trong $F$, tập $f(a)^{-1}$ thuộc $\Phi$.
 
 ² Hàm bậc thang, do đó ký hiệu $\mathscr{E}(\Phi)$ trong phần sau.
 
-#### Định nghĩa 5 {#int-iv-s4-def-5 .statement}
+#### Định nghĩa 5 {#int-iv-s4-def-5 .statement tag=08TH}
 
 — *Một hàm nhận giá trị thực* $\lambda$ *xác định trên một họ* $\Phi$ *gồm các tập con của một tập hợp* $A$ *được gọi là cộng tính nếu, với mọi cặp* $M, N$ *của các tập rời nhau thuộc* $\Phi$, $\lambda(M \cup N) = \lambda(M) + \lambda(N)$.
 
 Từ định nghĩa này suy ra ngay rằng $\lambda(\varnothing) = 0$.
 
-#### Mệnh đề 18 {#int-iv-s4-prop-18 .statement}
+#### Mệnh đề 18 {#int-iv-s4-prop-18 .statement tag=08TI}
 
 — *Cho* $\lambda$ *là một hàm tập hợp cộng tính xác định trên một họ* $\Phi$. *Tồn tại một và chỉ một dạng tuyến tính* (cũng ký hiệu $\lambda$) *trên không gian vectơ* $\mathscr{E}(\Phi)$ *của các hàm bậc thang* $\Phi$* nhận giá trị thực*, *sao cho* $\lambda(\varphi_M) = \lambda(M)$ *với mọi tập hợp* $M \in \Phi$; *nếu, hơn nữa,* $\lambda(M) \geqslant 0$ *với mọi* $M \in \Phi$, *thì* $\lambda$ *là một dạng tuyến tính dương trên* $\mathscr{E}(\Phi)$.
 
@@ -708,25 +708,25 @@ mà điều này chứng minh sự tồn tại của $\lambda$. Sau cùng, giả
 
 ### 10. Xấp xỉ các hàm liên tục bởi các hàm bậc thang
 
-#### Mệnh đề 19 {#int-iv-s4-prop-19 .statement}
+#### Mệnh đề 19 {#int-iv-s4-prop-19 .statement tag=08TJ}
 
 — *Cho* $X$ *là một không gian địa phương compact,* $\Phi$ *một họ các tập con của* $X$, *chứa tập hợp các tập con compact của* $X$. *Với mọi ánh xạ liên tục* $f$ *từ* $X$ *vào một không gian Banach* $F$ *(tức là, mọi hàm liên tục, giá trị thực* $f \geqslant 0$ *trên* $X$) *có giá đỡ compact* $K$, *tồn tại một dãy* $(g_n)$ *các hàm trong* $\mathscr{E}_F(\Phi)$ *có giá đỡ được chứa trong* $K$ *(tức là một dãy* $(g_n)$ *các hàm trong* $\mathscr{E}(\Phi)$ *sao cho* 0 \leqslant g_n \leqslant f *đối với mọi* n) *hội tụ đều đến* $f$ *(tức là* $f$).
 
 Vì $f$ liên tục đều trên $K$, ta có thể phủ $K$ bởi một số hữu hạn các tập compact $M_i$ ($1 \leq i \leq m$) sao cho dao động của $f$ trên mỗi $M_i$ là $\leq 1/n$. Vì các $M_i$ và $K$ thuộc $\Phi$, tồn tại một phân hoạch của $K$ thành các tập $N_j \in \Phi$ sao cho mỗi tập $M_i \cap K$ là hợp của một số nhất định các $N_j$ (No. 9, Bổ đề). Cho $a_j$ là một phần tử của $F$ sao cho $|f(x) - a_j| \leq 1/n$ trên $N_j$. Đặt $g_n = \sum_j a_j \varphi_{N_j}$, ta có $|f - g_n| \leqslant 1/n$, do đó mệnh đề trong trường hợp này. Ta lập luận tương tự đối với một hàm liên tục giá trị thực $f$, bằng cách lấy $a_j = \inf_{x \in N_j} f(x)$ và $g_n = \sum_j a_j \varphi_{N_j}$.
 
-#### Hệ quả 1 {#int-iv-s4-prop-19-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s4-prop-19-cor-1 .statement tag=08TK}
 
 *Cho $\mu$ là một độ đo trên $X$; không gian $\mathscr{E}_F(\Phi)$ trù mật trong mỗi không gian của các không gian $\mathscr{L}_F^p$ ($1 \leq p < +\infty$).*
 
 Vì, từ Mệnh đề 19 và tiêu chuẩn hội tụ theo trung bình cho các giới hạn đều của các hàm có giá compact (§ 3, No. 3, Mệnh đề 4) suy ra rằng $\mathscr{E}_F(\Phi)$ là trù mật, đối với tôpô của sự hội tụ theo trung bình cấp $p$, trong bao đóng của không gian $\mathscr{K}_F$ gồm các hàm liên tục có giá compact, do đó suy ra hệ quả.
 
-#### Hệ quả 2 {#int-iv-s4-prop-19-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s4-prop-19-cor-2 .statement tag=08TL}
 
 *Với mọi tập con đóng $S$ của $X$, mọi hàm $f \in \mathscr{K}(X, S; \mathbf{C})$ là giới hạn đều của các tổ hợp tuyến tính $\sum_i \lambda_i \varphi_{K_i}$, trong đó các $\lambda_i$ thuộc $\mathbf{C}$ và các $K_i$ là các tập con compact của $S$.*
 
 Tập $\mathscr{A}$ gồm những tổ hợp tuyến tính như vậy là một $\mathbf{C}$-đại số. Cho $\Phi$ là tập các tập con $M$ của $X$ sao cho $\varphi_M \in \mathscr{A}$; do đó $\Phi$ là một *clan* mà mọi phần tử của nó đều là các tập con của S, chứa các tập compact của $S$, và $\mathscr{E}_C(\Phi) \subset \mathscr{A}$. Khi đó chỉ cần áp dụng Mệnh đề 19 cho không gian địa phương compact $S$ và *clan* $\Phi$.
 
-#### Hệ quả 3 {#int-iv-s4-prop-19-cor-3 .statement}
+#### Hệ quả 3 {#int-iv-s4-prop-19-cor-3 .statement tag=08TM}
 
 *Nếu $\mu$ và $\nu$ là hai độ đo trên $X$ sao cho $\mu(K) = \nu(K)$ với mọi tập con compact $K$ của $X$, thì $\mu = \nu$.*
 
@@ -750,7 +750,7 @@ Ta còn giả sử rằng hàm $\alpha$ được xác định trên $\Phi$ thỏ
 
 Lấy $N = \varnothing$ trong điều kiện (PM_{III}), suy ra $\alpha(\varnothing) = 0$; điều kiện (PM_I) khi đó cho thấy $\alpha(M) \geq 0$ với mọi $M \in \Phi$.
 
-#### Định lý 5 {#int-iv-s4-thm-5 .statement}
+#### Định lý 5 {#int-iv-s4-thm-5 .statement tag=08TN}
 
 *Cho $\Phi$ là một tập các tập con của một không gian X địa phương compact, thỏa mãn (PC_I) và (PC_{II}), và cho $\alpha$ là một hàm nhận giá trị thực, xác định trên $\Phi$, thỏa mãn các điều kiện (PM_I), (PM_{II}) và (PM_{III}). Để tồn tại một độ đo dương $\mu$ trên X sao cho các tập của $\Phi$ là $\mu$-khả tích và $\mu(M) = \alpha(M)$ với mọi $M \in \Phi$, thì cần và đủ để $\alpha$ còn thỏa mãn thêm điều kiện sau:*
 
@@ -869,7 +869,7 @@ vì $\mu(f) = \overline{\beta}(f)$, ta thấy rằng $|\mu(K) - \overline{\alpha
 
 Định lý 5 như vậy được chứng minh hoàn toàn.
 
-#### Hệ quả {#int-iv-s4-n11-cor-1 .statement}
+#### Hệ quả {#int-iv-s4-n11-cor-1 .statement tag=08TO}
 
 — *Cho X là một không gian địa phương compact với một cơ sở đếm được, $\Psi$ là tập các tập Borel của X, $\beta$ là một ánh xạ của $\Psi$ vào $[0, +\infty]$ thỏa mãn các điều kiện sau:*
 

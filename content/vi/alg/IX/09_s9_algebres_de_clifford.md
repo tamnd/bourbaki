@@ -32,7 +32,7 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: 798420593ecc49aa273cf857143e3c7eb0710dd352c94f8a20672506dcba6670
+content_sha256: 28a626af509fcb74f94c30bb100a8d30257834bf4dd245644daa8e49a266cbe6
 translated_from: content/en-mt/alg/IX/09_s9_algebres_de_clifford.md
 source_lang: en-mt
 translation_method: machine
@@ -50,7 +50,7 @@ Trong đoạn này, ta giả sử rằng vành $\mathbf{A}$ là giao hoán. Ta s
 
 ### 1. Định nghĩa và tính chất phổ quát của đại số Clifford.
 
-#### Định nghĩa 1 {#alg-ix-s9-def-1 .statement}
+#### Định nghĩa 1 {#alg-ix-s9-def-1 .statement tag=0DNB}
 
 Đại số Clifford của $Q$, ký hiệu bởi $C(Q)$, là đại số thương của đại số tenxơ $T(E)$ của môđun $E$ theo iđêan hai phía (ký hiệu bởi $I(Q)$) sinh bởi các phần tử có dạng $x \otimes x - Q(x)\cdot 1$ $(x \in E)$.
 
@@ -66,7 +66,7 @@ $$
 \rho(x)\rho(y) + \rho(y)\rho(x) = \Phi(x,\ y)\cdot 1
 $$
 
-#### Ví dụ {#alg-ix-s9-n1-exa-1 .statement}
+#### Ví dụ {#alg-ix-s9-n1-exa-1 .statement tag=0DNC}
 
 Nếu $E$ thừa nhận một cơ sở gồm một phần tử duy nhất $e$, thì $T(E)$ đẳng cấu với đại số đa thức $\mathbf{A}[X]$, và $C(Q)$ là một mở rộng bậc hai của $\mathbf{A}$, có cơ sở là $(1,\ u)$, trong đó $u$ là phần tử $u = \rho(e)$ và thỏa mãn $u^2 = Q(e)$.
 
@@ -78,7 +78,7 @@ Vì $T(E)$ là tổng trực tiếp của $T^+$ và $T^-$ và $I(Q)$ được si
 
 Đặc biệt $C^+$ là một đại số con của $C(Q)$.
 
-#### Mệnh đề 1 {#alg-ix-s9-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ix-s9-prop-1 .statement tag=0DND}
 
 *Cho f là một ánh xạ tuyến tính từ E vào một đại số D trên A sao cho $f(x)^2 = Q(x).1$ với mọi $x \in E$. Tồn tại một và chỉ một đồng cấu $\bar{f}$ từ $C(Q)$ vào D sao cho $f = \bar{f} \circ \rho_Q$.
 
@@ -98,7 +98,7 @@ Mặt khác cho $Q'$ là một dạng toàn phương trên một A-môđun $E'$ 
 
 Hãy lấy riêng $Q' = Q$ và $f$ là ánh xạ $x \to -x$; ta thấy rằng tồn tại một và chỉ một tự đẳng cấu $\alpha$ của $C(Q)$ sao cho $\alpha \circ \rho = -\rho$; nó được gọi là tự đẳng cấu chính của $C(Q)$. Hiển nhiên là $\alpha^2 = 1$, và hạn chế của $\alpha$ lên $C^+$ (resp. $C^-$) là đồng nhất (resp. ánh xạ $u \to -u$).
 
-#### Mệnh đề 2 {#alg-ix-s9-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ix-s9-prop-2 .statement tag=0DNE}
 
 Cho $A'$ là một vành giao hoán, $\varphi$ là một đồng cấu từ $A$ vào $A'$, $Q’$ là dạng toàn phương trên $E' = A' \otimes_A E$ suy ra từ $Q$ bởi mở rộng các vô hướng ($§ 3$, no 4, mệnh đề 3). Tồn tại một và chỉ một đẳng cấu $j$ từ đại số $A' \otimes_A C(Q)$ lên $C(Q')$ sao cho $j (1 \otimes \rho_Q(x)) = \rho_{Q'}(1 \otimes x)$ với mọi $x \in E$.
 
@@ -108,7 +108,7 @@ Chỉ cần chứng minh rằng đại số $C' = A' \otimes C(Q)$ và ánh xạ
 
 Trong số này ta sẽ ký hiệu bởi $e_x$ ($x \in E$) ánh xạ tuyến tính $u \to x \otimes u$ từ đại số tenxơ T(E) vào chính nó.
 
-#### Bổ đề 1 {#alg-ix-s9-lem-1 .statement}
+#### Bổ đề 1 {#alg-ix-s9-lem-1 .statement tag=0DNF}
 
 Cho $f$ là một phần tử của đối ngẫu $E^*$ của E. Tồn tại một và chỉ một ánh xạ tuyến tính $i_f$ từ T(E) vào chính nó sao cho
 $$
@@ -148,7 +148,7 @@ do đó $I(Q)$ ổn định dưới $i_f$, và khẳng định cuối cùng suy 
 
 Cho F là một dạng song tuyến tính trên E; trong phần còn lại của đoạn này, ta sẽ ký hiệu bởi $i_x^F$ ($x \in E$) ánh xạ $i_f$ tương ứng với dạng tuyến tính $f : y \to F(x, y)$ trên E.
 
-#### Bổ đề 2 {#alg-ix-s9-lem-2 .statement}
+#### Bổ đề 2 {#alg-ix-s9-lem-2 .statement tag=0DNG}
 
 Tồn tại một và chỉ một ánh xạ tuyến tính $\lambda_F$ từ $T(E)$ vào chính nó sao cho
 
@@ -185,7 +185,7 @@ $$
 
 do đó có khẳng định cuối cùng của ta.
 
-#### Bổ đề 3 {#alg-ix-s9-lem-3 .statement}
+#### Bổ đề 3 {#alg-ix-s9-lem-3 .statement tag=0DNH}
 
 Cho F và G là hai dạng song tuyến tính trên E. Ta có $\lambda_F \circ \lambda_G = \lambda_{F+G}$. Với mọi dạng song tuyến tính F trên E, $\lambda_F$ là một song ánh của $T(E)$ lên chính nó.
 
@@ -202,7 +202,7 @@ Mặt khác, nếu $F = 0$, ta có $i_x^F = 0$ với mọi $x \in E$, và do đ�
 
 ### 3. Cơ sở của đại số Clifford.
 
-#### Mệnh đề 3 {#alg-ix-s9-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ix-s9-prop-3 .statement tag=0DNI}
 
 Cho Q và Q' là hai dạng toàn phương và F là một dạng song tuyến tính trên E sao cho $Q'(x) = Q(x) + F(x, x)$ với mọi $x \in E$. Ánh xạ $\lambda_F$ biến iđêan $I(Q')$ thành iđêan $I(Q)$, và xác định một đẳng cấu (ký hiệu là $\overline{\lambda_F}$) của A-môđun $C(Q')$ lên A-môđun $C(Q)$.
 
@@ -218,7 +218,7 @@ $$
 \end{align*}
 $$
 
-#### Bổ đề 4 {#alg-ix-s9-lem-4 .statement}
+#### Bổ đề 4 {#alg-ix-s9-lem-4 .statement tag=0DNJ}
 
 Nếu dạng toàn phương $Q$ bằng không, thì $C(Q)$ không là gì khác ngoài đại số ngoài của E.
 
@@ -247,27 +247,27 @@ $$
 
 Vậy ta đã chứng minh định lý sau:
 
-#### Định lý 1 {#alg-ix-s9-thm-1 .statement}
+#### Định lý 1 {#alg-ix-s9-thm-1 .statement tag=0DNK}
 
 *Giả sử rằng $A$-môđun $E$ thừa nhận một cơ sở $(x_i)_{i \in L}$, tập hợp chỉ số $L$ được trang bị một thứ tự toàn phần. Với mọi tập con hữu hạn $H$ của $L$, đặt $x_H = \rho(x_{h_1}) \rho(x_{h_2}) \ldots \rho(x_{h_q})$, trong đó $(h_1, \ldots, h_q)$ là dãy tăng ngặt của các phần tử của $H$. Khi đó các phần tử $x_H$ tạo thành một cơ sở của $A$-môđun $C(Q)$.*
 
-#### Hệ quả 1 {#alg-ix-s9-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-ix-s9-thm-1-cor-1 .statement tag=0DNL}
 
 *Nếu $E$ là một môđun tự do chiều $n$, thì $C(Q)$ là một môđun tự do chiều $2^n$; hơn nữa, nếu $n > 0$, thì $C^+$ và $C^-$ là các môđun tự do chiều $2^{n-1}$.
 
 Điều này suy ra ngay từ các tính chất của các hệ số nhị thức.*
 
-#### Hệ quả 2 {#alg-ix-s9-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-ix-s9-thm-1-cor-2 .statement tag=0DNM}
 
 *Nếu $E$ là một môđun tự do, thì ánh xạ chính tắc $\rho$ từ $E$ vào $C(Q)$ và ánh xạ $a \to a.1$ từ $A$ vào $C(Q)$ đều là đơn ánh.*
 
-#### Hệ quả 3 {#alg-ix-s9-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-ix-s9-thm-1-cor-3 .statement tag=0DNN}
 
 *Giả sử rằng $E$ là tổng trực tiếp của hai môđun con tự do $E_1$ và $E_2$. Gọi $Q_i$ là hạn chế của $Q$ lên $E_i$ và $p_i$ là ánh xạ chính tắc từ $C(Q_i)$ vào $C(Q)$ ($i = 1, 2$). Khi đó ánh xạ tuyến tính $p$ từ $C(Q_1) \otimes C(Q_2)$ vào $C(Q)$ suy ra từ ánh xạ song tuyến tính $(a, b) \to p_1(a)p_2(b)$ từ $C(Q_1) \times C(Q_2)$ vào $C(Q)$ là một song ánh.
 
 Thực vậy, chỉ cần xét cơ sở của $E$ thu được bằng cách lấy hợp của một cơ sở của $E_1$ và một cơ sở của $E_2$.*
 
-#### Hệ quả 4 {#alg-ix-s9-thm-1-cor-4 .statement}
+#### Hệ quả 4 {#alg-ix-s9-thm-1-cor-4 .statement tag=0DNO}
 
 Các giả thiết và ký hiệu vẫn như trong Hệ quả 3, giả sử thêm rằng $E_1$ và $E_2$ trực giao, và chuyển cấu trúc đại số của $C(Q)$ lên $C(Q_1) \otimes C(Q_2)$ nhờ song ánh $p$. Nếu $a_i$ và $b_i$ là các phần tử chẵn hoặc lẻ của $C(Q_i)$ ($i = 1,\ 2$), thì $a\ (a_1 \otimes a_2)(b_1 \otimes b_2) = \varepsilon(a_1b_1) \otimes (a_2b_2)$, với $\varepsilon = 1$ trừ khi $a_2$ và $b_1$ là lẻ, trong trường hợp đó $\varepsilon = -1$.
 
@@ -289,7 +289,7 @@ Các kết luận của hệ quả 3 và 4 vẫn đúng nếu ta bỏ giả thi�
 
 Trong số này, ta sẽ giả sử rằng $A$ là một trường, rằng $E$ là một không gian vectơ hữu hạn chiều có chiều $m$ trên $A$, và rằng dạng toàn phương $Q$ là không suy biến (điều này, theo định lý 1 của § 5, no. 1, đòi hỏi $m$ phải chẵn nếu $A$ có đặc no. 2). Vì $E$ là tự do, ánh xạ chính tắc $\rho$ là đơn ánh (no. 3, hệ quả 2 của định lý 1). Từ đây về sau ta sẽ đồng nhất $E$ với ảnh của nó trong $C(Q)$.
 
-#### Định lý 2 {#alg-ix-s9-thm-2 .statement}
+#### Định lý 2 {#alg-ix-s9-thm-2 .statement tag=0DNP}
 
 Giả sử rằng chiều của $E$ là một số chẵn $m = 2r$ và rằng $Q$ là trung tính (§ 4, no. 2). Khi đó đại số $C(Q)$ là tách được (chương VIII, § 7, no. 5, định nghĩa 1) và đẳng cấu với đại số các tự đồng cấu của một không gian vectơ có chiều $2^r$ trên $A$. Hơn nữa, nếu $m > 0$, thì $C^+(Q)$ là tách được và là tổng trực tiếp của hai iđêan đẳng cấu với đại số các tự đồng cấu của một không gian vectơ có chiều $2^{r-1}$ trên $A$.
 
@@ -315,17 +315,17 @@ $$
 
 Để chứng minh mệnh đề thứ hai, đặt $S^+ = S \cap C^+$ và $S^- = S \cap C^-$; hiển nhiên $S^+$ (tương ứng $S^-$) là không gian con của S được sinh bởi các $n_H$ sao cho H có một số chẵn (tương ứng lẻ) phần tử, rằng S là tổng trực tiếp của $S^+$ và $S^-$, và rằng $s(C^+)$ giữ cho $S^+$ và $S^-$ ổn định. Do đó $s$ ánh xạ $C^+$ vào một đại số con của $\mathscr{L}(S)$, đẳng cấu với tích $\mathscr{L}(S^+) \times \mathscr{L}(S^-)$; hạn chế của $s$ lên $C^+$ là một đẳng cấu từ $C^+$ lên đại số con này, vì $s$ là đơn ánh và $C^+$ và $\mathscr{L}(S^+) \times \mathscr{L}(S^-)$ đều có chiều $2^{2r-1}$ (No. 2, Hệ quả 1 của Định lý 1). QED.
 
-#### Hệ quả {#alg-ix-s9-n4-cor-1 .statement}
+#### Hệ quả {#alg-ix-s9-n4-cor-1 .statement tag=0DNQ}
 
 *Nếu $m$ chẵn, nhưng $Q$ có chỉ số tùy ý, thì đại số $C(Q)$ là một đại số đơn tâm có chiều $2^m$. Hơn nữa, nếu $m > 0$, đại số con $C^+(Q)$ là tách được, và tâm Z của nó có chiều 2 trên A. Khi Z là một trường, Z là một mở rộng bậc hai tách được của A và $C^+(Q)$ là đơn; nếu không, Z là tích trực tiếp của hai trường đẳng cấu với A, và khi đó $C^+(Q)$ là tích trực tiếp của hai đại số con đơn có chiều $2^{m-2}$.
 
 Thật vậy, gọi $A'$ là bao đóng đại số của A, và $Q'$ là dạng toàn phương trên $E' = A' \otimes_A E$ suy ra từ Q bằng mở rộng vô hướng. Ta đã thấy rằng $C(Q')$ đẳng cấu với $A' \otimes_A C(Q)$ (mệnh đề 2), và hiển nhiên $C^+(Q')$ đẳng cấu với $A' \otimes_A C^+(Q)$. Vì $Q'$ là trung tính ($§ 4$, No. 2, Hệ quả 2 của mệnh đề 3), hệ quả là một hệ quả ngay lập tức của Định lý 2 và các định lý bảo toàn của Chương VIII, $§ 7$.
 
-#### Nhận xét 1 {#alg-ix-s9-n4-rem-1 .statement}
+#### Nhận xét 1 {#alg-ix-s9-n4-rem-1 .statement tag=0DNR}
 
 Vì đại số $C(Q)$ là đơn, nó chỉ có một lớp các biểu diễn bất khả quy; chúng được gọi là *các biểu diễn spinor*; khi ta cố định sự chú ý vào một biểu diễn trong số đó, chẳng hạn $\tau$, thì các phần tử của không gian mà trên đó $\tau$ được thực hiện được gọi là *spinor*. Nếu Q trung tính, hạn chế của $\tau$ lên $C^+(Q)$, cũng như hạn chế của $s$, là tổng của hai biểu diễn tuyệt đối bất khả quy không tương đương; các phần tử của các không gian con mà trên đó hai biểu diễn này được thực hiện được gọi là các semispinor. Trong trường hợp tổng quát, nếu $C^+(Q)$ không đơn, thì hạn chế của $\tau$ lên $C^+(Q)$, do nó trung thành, phải chứa các biểu diễn con thuộc mỗi một trong hai lớp biểu diễn bất khả quy của $C^+(Q)$, và do đó là tổng của hai biểu diễn tuyệt đối bất khả quy không tương đương, vì điều này đúng sau khi mở rộng vô hướng tới bao đóng đại số $A'$ của $A$. Mặt khác, nếu $C^+(Q)$ đơn, thì nó chỉ có một lớp biểu diễn bất khả quy, và vì thế hạn chế của $\tau$ lên $C^+(Q)$ là bất khả quy, vì nó phân tích, bằng mở rộng vô hướng tới $A'$, thành hai biểu diễn không tương đương.
 
-#### Nhận xét 2 {#alg-ix-s9-n4-rem-2 .statement}
+#### Nhận xét 2 {#alg-ix-s9-n4-rem-2 .statement tag=0DNS}
 
 Giả sử rằng $A$ có đặc số $\neq 2$, và gọi $(x_1, \ldots, x_m)$ ($m = 2r$) là một cơ sở trực giao của $E$. Đặt
 $$
@@ -337,7 +337,7 @@ z^2 = 2^{2r}(-1)^r Q(x_1) \ldots Q(x_m) = (-1)^r D
 $$
 trong đó D ký hiệu biệt thức của $\Phi$ đối với cơ sở $(x_j)$ (xem bài tập 9).
 
-#### Định lý 3 {#alg-ix-s9-thm-3 .statement}
+#### Định lý 3 {#alg-ix-s9-thm-3 .statement tag=0DNT}
 
 *Giả sử rằng chiều của $E$ là một số lẻ $m = 2r + 1$ (và do đó $A$ có đặc số $\neq 2$).*
 
@@ -349,7 +349,7 @@ Cho $x_0$ là một vectơ không đẳng hướng của $E$, và gọi $F$ là 
 
 Bây giờ lấy $(x_1, \ldots, x_{2r})$ là một cơ sở trực giao của $F$; đặt $z = x_0 x_1 \ldots x_{2r}$. Người ta kiểm tra ngay lập tức rằng $z$ giao hoán với $x_j$ với $j = 0, \ldots, 2r$, và do đó thuộc tâm của $C(Q)$. Gọi $Z$ là không gian con của $C(Q)$ được sinh bởi $1$ và $z$; đó là một đại số con của tâm của $C(Q)$ và là một mở rộng bậc hai của $A$, vì $z$ là lẻ và $z^2$ bằng vô hướng $(-1)^r Q(x_0) \ldots Q(x_{2r})$. Xét đồng cấu $\theta$ từ $Z \otimes_A C^+(Q)$ vào $C(Q)$ được xác định bởi $\theta(u \otimes v) = uv$. Vì $z \in C^-$ và khả nghịch, ánh xạ $u \to zu$ là một đẳng cấu của môđun $C^+$ lên $C^-$, điều này kéo theo rằng $\theta(Z \otimes C^+)$ chứa $C^+$ và $C^-$, và do đó trùng với $C(Q)$. Vì $Z \otimes C^+$ và $C(Q)$ có cùng chiều $2^{2r+1}$, nên $\theta$ là một đẳng cấu; điều này chứng minh $b$, xét theo các kết quả của Chương VIII, § 7.
 
-#### Nhận xét {#alg-ix-s9-n4-rem-3 .statement}
+#### Nhận xét {#alg-ix-s9-n4-rem-3 .statement tag=0DNU}
 
 Biệt thức $D$ của $\Phi$ đối với cơ sở $(x_j)_{(j=0,\ldots,2r)}$ bằng $2^{2r+1} Q(x_0) \ldots Q(x_{2r})$. Do đó $Z$ được sinh bởi $1$ và bởi phần tử lẻ $z' = 2^{r+1} z$ sao cho ${z'}^2 = (-1)^r 2D$. Vì vậy đại số $C(Q)$ là đơn khi và chỉ khi $2(-1)^r D$ không là một bình phương trong $A$.
 
@@ -357,13 +357,13 @@ Biệt thức $D$ của $\Phi$ đối với cơ sở $(x_j)_{(j=0,\ldots,2r)}$ b
 
 Trong số này, ta giả sử rằng $A$ là một trường, rằng $E$ có số chiều hữu hạn $m$, và rằng $Q$ không suy biến. Ta đồng nhất $E$ với ảnh chính tắc của nó trong $C(Q)$.
 
-#### Định nghĩa 2 {#alg-ix-s9-def-2 .statement}
+#### Định nghĩa 2 {#alg-ix-s9-def-2 .statement tag=0DNV}
 
 Nhóm Clifford của $Q$ (tương ứng, nhóm Clifford đặc biệt của $Q$) được gọi là nhóm nhân của các phần tử khả nghịch $s$ của $C(Q)$ (tương ứng, $C^+(Q)$) sao cho $sEs^{-1} = E$.
 
 Trong số này ta sẽ ký hiệu bởi $G$ và $G^+$ nhóm Clifford và nhóm Clifford đặc biệt của $Q$. Hiển nhiên là $G^+ = G \cap C^+(Q)$.
 
-#### Định lý 4 {#alg-ix-s9-thm-4 .statement}
+#### Định lý 4 {#alg-ix-s9-thm-4 .statement tag=0DNW}
 
 Đặt, với $s \in G$ và $x \in E$, $\varphi(s).x = sx s^{-1}$.
 
@@ -381,7 +381,7 @@ Thật vậy, ta có $Q(sxs^{-1}) = (sxs^{-1})^2 = sx^2 s^{-1} = Q(x)$ với $s 
 $$ xy x^{-1} = Q(x)^{-1} xy x = Q(x)^{-1} x (\Phi(x, y) - xy) = - (y - \Phi(x, y) Q(x)^{-1} x); $$
 điều này chứng minh b) (§ 6, số 4).
 
-#### Bổ đề 5 {#alg-ix-s9-lem-5 .statement}
+#### Bổ đề 5 {#alg-ix-s9-lem-5 .statement tag=0DNX}
 
 Mọi phần tử $s$ của $G$ đều có dạng $zs'$, trong đó $z$ là một phần tử khả nghịch của $Z$ và $s'$ thuộc $G \cap C^+(Q)$ hoặc thuộc $G \cap C^-(Q)$; nhóm con $G^+$ có chỉ số 2 trong $G$ khi $E \neq \{0\}$.
 
@@ -393,7 +393,7 @@ Giả sử cuối cùng rằng $A$ có đặc số $\not= 2$. Khi đó mọi ph�
 
 Nhóm con $\varphi(G^+)$ của $\mathbf{O}(Q)$, có chỉ số 2 nếu $E \not= \{0\}$, được gọi là *nhóm các phép quay* của $E$, và các phần tử của nó được gọi là *các phép quay*; nó được ký hiệu bởi $\mathbf{O}^+(Q)$. Chú ý rằng, nếu $A$ không có đặc số 2, thì ta có $\mathbf{O}^+(Q) = \mathbf{SO}(Q)$ (x. bài tập 9).
 
-#### Mệnh đề 4 {#alg-ix-s9-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ix-s9-prop-4 .statement tag=0DNY}
 
 *Cho $\beta$ là phản tự đẳng cấu chính của $C(Q)$ (n° 1). Với mọi $s \in G^+$, $\beta(s)s$ là một vô hướng. Ánh xạ $N : s \to \beta(s)s$ là một đồng cấu từ $G^+$ vào nhóm nhân $A^*$ của các phần tử khác không của $A$.*
 

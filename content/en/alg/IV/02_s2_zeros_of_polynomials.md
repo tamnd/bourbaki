@@ -26,7 +26,7 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 13
-content_sha256: a0e08ccc91a218c4cff2b2a4aa929a5874f352ba3296b6a790569494053e2507
+content_sha256: 581af5e1e6500b23403ced41ae2a03e6692f4156d4da25e5f960df6e8a7c1371
 ---
 
 ## § 2. ZEROS OF POLYNOMIALS
@@ -35,13 +35,13 @@ content_sha256: a0e08ccc91a218c4cff2b2a4aa929a5874f352ba3296b6a790569494053e2507
 
 Let $g \in A[(X_i)_{i \in I}]$ and let $E$ be a unital associative $A$-algebra. Let $x = (x_i)_{i \in I}$, be a family of pairwise permutable elements of $E$. We shall say that $x$ is a zero of $g$ in $E^l$ if $g(x) = 0$. If $f$ is a polynomial in a single indeterminate, a zero of $f$ in $E$ is also called a root of $f$ in $E$.
 
-#### Proposition 1 {#alg-iv-s2-prop-1 .statement}
+#### Proposition 1 {#alg-iv-s2-prop-1 .statement tag=06AO}
 
 — Let $f \in A[X]$ and $\alpha \in A$. The remainder of the division of $f$ by $X - \alpha$ is $f(\alpha)$. For $\alpha$ to be a root of $f$ it is necessary and sufficient that $X - \alpha$ should be a divisor of $f$ in $A[X]$.
 
 For if $u,\ v \in \mathbf{A}[X]$ are such that $f = (X - \alpha)\ u + v,\ \deg v < 1$, then $v$ is a scalar and $f(a) = (a - a)\ u(\alpha) + v = v$. This proves the first assertion and the second follows from it.
 
-#### Proposition 2 {#alg-iv-s2-prop-2 .statement}
+#### Proposition 2 {#alg-iv-s2-prop-2 .statement tag=06AP}
 
 — *Let $f \in \mathbf{A}[X]$, $a \in \mathbf{A}$, and let $h$ be an integer $\geq 0$. The following conditions are equivalent*:
 (i) $f$ is divisible by $(X - \alpha)^h$ but not by $(X - \alpha)^{h-1}$;
@@ -49,25 +49,25 @@ For if $u,\ v \in \mathbf{A}[X]$ are such that $f = (X - \alpha)\ u + v,\ \deg v
 (i) $\Rightarrow$ (ii) follows at once from Prop. 1.
 (ii) $\Rightarrow$ (i) : Suppose that $f = (X - \alpha)^h g$, where $g$ does not admit $a$ as a root. Then $f$ is divisible by $(X - \alpha)^h$; if $g_1 \in \mathbf{A}[X]$ existed such that $f = (X - \alpha)^{h+1} g_1$, then since $(X - \alpha)^n$ is not a divisor of zero in $\mathbf{A}[X]$ (IV, p. 9, Prop. 7), we have $g = (X - a)\ g_1$ and so $g(\alpha) = 0$, which is absurd.
 
-#### Proposition 3 {#alg-iv-s2-prop-3 .statement}
+#### Proposition 3 {#alg-iv-s2-prop-3 .statement tag=06AQ}
 
 — *Let $f$ be a non-zero element of $\mathbf{A}[X]$ and $a \in \mathbf{A}$. There exists just one integer $h \geq 0$ satisfying the conditions (i) and (ii) of Prop. 2.*
 This is clear for condition (i), bearing in mind the fact that iff is divisible by $(X - \alpha)^h$, then $\deg f \geq h$ (IV, p. 9, Prop. 7).
 
-#### Definition 1 {#alg-iv-s2-def-1 .statement}
+#### Definition 1 {#alg-iv-s2-def-1 .statement tag=06AR}
 
 — *With the above notation we say that $a$ is of order $h$, or multiplicity $h$ relative to $f$.*
 If $h > 0$ we also say that $a$ is a root of order $h$ or multiplicity $h$ off. A root of order 1 is called a simple root, a root of order 2 a double root,... A root of order $> 1$ is said to be multiple.
 
-#### Remark 1 {#alg-iv-s2-n1-rem-1 .statement}
+#### Remark 1 {#alg-iv-s2-n1-rem-1 .statement tag=06AS}
 
 If $f = 0$ we agree to say that $a$ has order $\geq h$ relative to $f$, whatever $a \in \mathbf{A}$ and the integer $h \geq 0$. For any $f \in \mathbf{A}[X]$ and $a \in \mathbf{A}$, to say that $a$ has order $\geq h$ relative to $f$ means that $(X - \alpha)^h$ divides $f$.
 
-#### Remark 2 {#alg-iv-s2-n1-rem-2 .statement}
+#### Remark 2 {#alg-iv-s2-n1-rem-2 .statement tag=06AT}
 
 Let $B$ be a commutative ring containing $\mathbf{A}$ as subring. Let $f \in \mathbf{A}[X]$ be non-zero and $a \in \mathbf{A}$. The order of $a$ relative to $f$ is the same, whether we consider $f$ as element of $B[X]$ or as element of $\mathbf{A}[X]$. This is clear from condition (ii) of Prop. 2.
 
-#### Proposition 4 {#alg-iv-s2-prop-4 .statement}
+#### Proposition 4 {#alg-iv-s2-prop-4 .statement tag=06AU}
 
 — *Let $f$ and $g$ be non-zero elements of $\mathbf{A}[X]$. Let $a \in \mathbf{A}$, and let the orders of $a$ relative to $f$ and $g$ be $p$ and $q$ respectively.*
 (i) *The order of $a$ relative to $f + g$ is $\geq \inf(p, q)$. It is equal to $\inf(p, q)$ if $p \neq q$*.
@@ -80,7 +80,7 @@ $$
 
 and if $p < q$, $a$ is not a root of $f_1(X) + (X - \alpha)^{q-p} g_1(X)$; this proves (i). On the other hand, we have $f(X)g(X) = (X - \alpha)^{p+q} f_1(X)g_1(X)$ and $f_1(\alpha)g_1(\alpha) \neq 0$ if $A$ is an integral domain; this proves (ii).
 
-#### Proposition 5 {#alg-iv-s2-prop-5 .statement}
+#### Proposition 5 {#alg-iv-s2-prop-5 .statement tag=06AV}
 
 *Suppose that $A$ is an integral domain. Let $f$ be a non-zero element of $A[X]$, and $\alpha_1, \ldots, \alpha_p$ pairwise distinct roots of $f$ in $A$, of orders $k_1, \ldots, k_r$. We have*
 
@@ -104,19 +104,19 @@ $$
 
 where $g(X) \in A[X]$. Clearly $\alpha_1, \ldots, \alpha_p$ are not roots of $g$.
 
-#### Theorem 1 {#alg-iv-s2-thm-1 .statement}
+#### Theorem 1 {#alg-iv-s2-thm-1 .statement tag=06AW}
 
 *Let $A$ be an integral domain. Given a non-zero element $f$ of $A[X]$, of degree $n$, then the sum of the orders of all the roots off in $A$ is $\leq n$.*
 
 This follows immediately from Prop. 5.
 
-#### Corollary {#alg-iv-s2-n1-cor-1 .statement}
+#### Corollary {#alg-iv-s2-n1-cor-1 .statement tag=06AX}
 
 *Assume that $A$ is an integral domain and let $f, g \in A[X]$, of degrees $\leq n$. If there exist $n + 1$ pairwise distinct elements $x_1, \ldots, x_{n+1}$ of $A$ such that $f(x_i) = g(x_i)$ for $1 \leq i \leq n + 1$, then $f = g$.*
 
 It suffices to apply Th. 1 to $f - g$.
 
-#### Proposition 6 (Lagrange interpolation formula) {#alg-iv-s2-prop-6 .statement}
+#### Proposition 6 (Lagrange interpolation formula) {#alg-iv-s2-prop-6 .statement tag=06AY}
 
 — *Let $K$ be a commutative field, $\alpha_1, \alpha_2, \ldots, a,$ distinct elements of $K$ and $\beta_1, \beta_2, \ldots, \beta_n$ any elements of $K$. For $i = 1, 2, \ldots, n$ we put*
 
@@ -128,13 +128,13 @@ $$
 
 The uniqueness off follows from the Cor. to Th. 1. Let $f = \beta_1 f_1 + \ldots + \beta_n f_n$, then since $f_i$ has degree $n - 1$, we have $\deg f < n$. On the other hand, $f_i(\alpha_j) = 0$ for $j \neq i$ and $f_i(\alpha_i) = 1$, hence $f(\alpha_i) = \beta_i$ for $1 \leq i \leq n$.
 
-#### Corollary {#alg-iv-s2-n1-cor-2 .statement}
+#### Corollary {#alg-iv-s2-n1-cor-2 .statement tag=06AZ}
 
 — Suppose that $\mathbf{A}$ is an integral domain. Let $f \in \mathbf{A}[X]$, of degree $< n$, and let $K$ be a subring of $\mathbf{A}$ which is a field. If there exist $n$ distinct elements $\alpha_1, \ldots, a_n$ of $\mathbf{A}$ such that $\alpha_i \in K$ and $f(\alpha_i) \in K$ for $i = 1, \ldots, n$, then $f \in K[X]$.
 
 ### 2. Differential criterion for the multiplicity of a root
 
-#### Proposition 7 {#alg-iv-s2-prop-7 .statement}
+#### Proposition 7 {#alg-iv-s2-prop-7 .statement tag=06B0}
 
 — Let $f \in \mathbf{A}[X]$ and let $a \in \mathbf{A}$ be a root off: For $a$ to be a simple root off it is necessary and sufficient that $a$ should not be a root of the derivative $Df$ of $f$.
 
@@ -142,7 +142,7 @@ By hypothesis we have $f = (X - a)\ g$, where $g \in \mathbf{A}[X]$. For $a$ to 
 
 More generally:
 
-#### Proposition 8 {#alg-iv-s2-prop-8 .statement}
+#### Proposition 8 {#alg-iv-s2-prop-8 .statement tag=06B1}
 
 — Let $f \in \mathbf{A}[X]$ and $a \in \mathbf{A}$, and suppose that $a$ has order $k \geq 1$ relative to $f$: Then $a$ has order $\geq k - 1$ relative to $Df$. If $k . 1$ is cancellable in $\mathbf{A}$, then $a$ has order $k - 1$ relative to $Df$.
 
@@ -150,7 +150,7 @@ By hypothesis there exists $g \in \mathbf{A}[X]$ such that $f = (X - a)^k g$ and
 
 Let $k$ be an integer $> 0$ such that $k . 1 = 0$ in $\mathbf{A}$. If $f(X) = X^k$, then $0$ is a root of order $k$ of $f$, and a root of arbitrarily high order of $Df$.
 
-#### Corollary {#alg-iv-s2-n2-cor-1 .statement}
+#### Corollary {#alg-iv-s2-n2-cor-1 .statement tag=06B2}
 
 — Let $f \in \mathbf{A}[X]$, $a \in \mathbf{A}$ and $p$ an integer $\geq 0$, further, suppose that $p! . 1$ is cancellable in $\mathbf{A}$. Then for $a$ to be a root of order $p$ of $f$, it is necessary and sufficient that $a$ should be a root of $f, Df, ..., D^{p-1}f$ and not a root of $D^pf$.
 
@@ -158,7 +158,7 @@ This follows from Prop. 8 by induction on $p$.
 
 ### 3. Polynomial functions on an infinite integral domain
 
-#### Proposition 9 {#alg-iv-s2-prop-9 .statement}
+#### Proposition 9 {#alg-iv-s2-prop-9 .statement tag=06B3}
 
 — Assume that $A$ is an integral domain. Let $I$ be a set, $(\mathbf{H}_i)_{i \in I}$ a family of infinite subsets of $\mathbf{A}$ and $H = \prod_{i \in I} \mathbf{H}_i \subset A'$. Iff is a non-zero element of $\mathbf{A}[(X_i)_{i \in I}]$, and $H_f$ the set of all $x \in H$ such that $f(x) \neq 0$, then $H$ and $H_f$ are equipotent.
 
@@ -178,11 +178,11 @@ H_f = H'_f \times \left( \prod_{i \in I - I'} H_i \right),
 $$
 and it suffices to apply the first part of the proof to $H'_f$.
 
-#### Corollary 1 {#alg-iv-s2-prop-9-cor-1 .statement}
+#### Corollary 1 {#alg-iv-s2-prop-9-cor-1 .statement tag=06B4}
 
 — *We keep the hypothesis and notation of Prop. 9. If l is non-empty, then $H_f$ is infinite.*
 
-#### Corollary 2 {#alg-iv-s2-prop-9-cor-2 .statement}
+#### Corollary 2 {#alg-iv-s2-prop-9-cor-2 .statement tag=06B5}
 
 — *Suppose that A is an infinite integral domain or that A is an algebra over an infinite field. For every $f \in A[(X_i)_{i \in I}]$, let $\tilde{f}: A^I \to A$ be the polynomial function defined by f (IV, p. 4). Then the mapping $f \mapsto \tilde{f}$ is injective.*
 
@@ -192,7 +192,7 @@ When A is an infinite integral domain or when A is an algebra over an infinite f
 
 Suppose that A is finite and let $f(X) = \prod_{a \in A} (X - a)$, then $f \neq 0$, but $\tilde{f} = 0$. For other examples see IV, p. 88, exercises 7 and 8.
 
-#### Theorem 2 (Principle of extension of algebraic identities) {#alg-iv-s2-thm-2 .statement}
+#### Theorem 2 (Principle of extension of algebraic identities) {#alg-iv-s2-thm-2 .statement tag=06B6}
 
 — *Suppose that A is an infinite integral domain. Let $g_1, \ldots, g_m, f$ be elements of $A[(X_i)_{i \in I}]$ and assume the following hypotheses:*
 
@@ -201,7 +201,7 @@ b) *for all* $x \in \mathbf{A}^1$ *such that* $g_1(x) \neq 0, \ldots, g_m(x) \ne
 
 For if $f \neq 0$, we have $fg_1 \ldots g_m \neq 0$ (IV, p. 9, Prop. 8), hence there exists $x \in \mathbf{A}^1$ such that $f(x)g_1(x) \ldots g_m(x) \neq 0$ (IV, p. 18, Cor. 2), which contradicts the hypothesis.
 
-#### Scholium {#alg-iv-s2-n3-sch-1 .statement}
+#### Scholium {#alg-iv-s2-n3-sch-1 .statement tag=06B7}
 
 — Let A be an integral domain and $f \in A[(X_i)_{i \in I}]$. Th. 2 provides a convenient means of proving that $f = 0$. It suffices to consider an infinite integral domain E containing A as subring; if we can show that $f((x_i)) = 0$ for all $(x_i) \in E^I$ (or even for those $(x_i) \in E^I$ at which a finite number of given non-zero polynomials do not vanish) then it follows that $f = 0$. If A itself is not infinite, we can for example take E to be the ring $A[X]$ or its field of fractions.
 

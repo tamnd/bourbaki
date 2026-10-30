@@ -29,14 +29,14 @@ subsections:
       pdf_page: 197
 statements: 11
 exercises: 14
-content_sha256: 811704fc92f6ace4ac5f0f716dc47e75d74688582d6de6259f094ceb6c50a183
+content_sha256: ef925d78c71f19fc333f5bc88ee428fed691ff41e6caa3cb74389a163eb3649f
 ---
 
 ## § 12. CORPS FINIS $^1$
 
 ### 1. Structure des corps finis
 
-#### Proposition 1 {#alg-v-s12-prop-1 .statement}
+#### Proposition 1 {#alg-v-s12-prop-1 .statement tag=06Q8}
 
 *Soit K un corps fini à q éléments.*
 
@@ -50,7 +50,7 @@ Comme $\mathbf{Z}$ est infini et K fini, l’unique homomorphisme d’anneaux $\
 
 L’assertion c) résulte du lemme 1 (V, p. 75).
 
-#### Proposition 2 {#alg-v-s12-prop-2 .statement}
+#### Proposition 2 {#alg-v-s12-prop-2 .statement tag=06Q9}
 
 *Soit K un corps fini à q éléments. Le corps K est un corps de décomposition du polynôme $X^q - X$ de $\mathbf{F}_p[X]$ et est l’ensemble des racines de ce polynôme.*
 
@@ -62,7 +62,7 @@ $$
 
 La prop. 2 résulte aussitôt de là.
 
-#### Corollaire {#alg-v-s12-n1-cor-1 .statement}
+#### Corollaire {#alg-v-s12-n1-cor-1 .statement tag=06QA}
 
 *Deux corps finis de même cardinal sont isomorphes.*
 
@@ -94,7 +94,7 @@ $$
 
 ### 2. Extensions algébriques d’un corps fini
 
-#### Proposition 3 {#alg-v-s12-prop-3 .statement}
+#### Proposition 3 {#alg-v-s12-prop-3 .statement tag=06QB}
 
 Soient $K$ un corps fini à $q$ éléments, $\Omega$ une extension algébriquement close de $K$, et $m$ un entier $\geqslant 1$.
 
@@ -110,7 +110,7 @@ Soit maintenant $L$ une sous-extension de $\Omega$, de degré $m$ sur $K$. Comme
 
 On a donc prouvé les assertions a) et b), et l’assertion c) est triviale.
 
-#### Corollaire {#alg-v-s12-n2-cor-1 .statement}
+#### Corollaire {#alg-v-s12-n2-cor-1 .statement tag=06QC}
 
 Soient $K$ un corps fini et $\Omega$ une extension algébriquement close de $K$. La fermeture algébrique $\overline{K}$ de $K$ dans $\Omega$ se compose de $0$ et des racines de l’unité et c’est une clôture algébrique de $K$.
 
@@ -118,7 +118,7 @@ On sait que $\overline{K}$ est une clôture algébrique de $K$ (V, p. 22, exempl
 
 Soit $p$ un nombre premier, et soit $\mathbf{F}_p = \mathbf{Z}/p\mathbf{Z}$ le corps à $p$ éléments. Choisissons une clôture algébrique $\Omega$ de $\mathbf{F}_p$, dont l’existence résulte du théorème de Steinitz (V, p. 22, th. 2). Soient $f$ un entier positif et $q = q^f$. D’après la prop. 3, il existe un unique sous-corps de $\Omega$, qui soit de degré $f$ sur $\mathbf{F}_p$; on le notera $\mathbf{F}_q(\Omega)$, ou par abus de notations $\mathbf{F}_q$. C’est l’unique sous-extension de $\Omega$, qui soit de degré $f$ sur $\mathbf{F}_p$. C’est l’unique sous-corps de $\Omega$ de cardinal $q$, et tout corps de cardinal $q$ est isomorphe (non canoniquement) à $\mathbf{F}_q$ (cor. de la prop. 2). On notera que $\mathbf{F}_q$ se compose des $x$ dans $\Omega$ tels que $x^q = x$, et que l’on a $\mathbf{F}_q \subset \mathbf{F}_{q'}$ si et seulement si $q'$ est une puissance de $q$.
 
-#### Proposition 4 {#alg-v-s12-prop-4 .statement}
+#### Proposition 4 {#alg-v-s12-prop-4 .statement tag=06QD}
 
 *Soient $\mathbf{K}$ un corps fini à $q$ éléments et $\mathbf{K}_m$ une extension de degré fini $m$ de $\mathbf{K}$.*
 
@@ -158,7 +158,7 @@ $$
 
 Soit $K$ un corps fini à $q$ éléments, et soit $\overline{K}$ une clôture algébrique de $K$. Pour tout entier $m \geq 1$, on note $K_m$ l’unique sous-corps de $\overline{K}$ qui est de degré $m$ sur $K$ (prop. 3). On a $\overline{K} = \bigcup_{m \geq 1} K_m$. On note par ailleurs $\sigma_q$ l’automorphisme $x \mapsto x^q$ du corps parfait $\overline{K}$; on l’appelle l’automorphisme de Frobenius de $\overline{K}$ (relativement à $K$).
 
-#### Proposition 5 {#alg-v-s12-prop-5 .statement}
+#### Proposition 5 {#alg-v-s12-prop-5 .statement tag=06QE}
 
 Il existe un unique isomorphisme de groupes topologiques $\pi_K : \hat{\mathbf{Z}} \to \mathrm{Gal}(\overline{K}/K)$ tel que $\pi_K(1) = \sigma_q$.
 
@@ -186,21 +186,21 @@ tel que $\sigma(\zeta) = \zeta^j$ pour $\sigma \in \mathrm{Gal}(R_n/K)$, $\zeta 
 
 Par ailleurs, si $f$ est le degré de $R_n$ sur K, le groupe de Galois de $R_n$ sur K est cyclique d’ordre $f$, engendré par l’automorphisme $\sigma_q : x \mapsto x^q$ (V, p. 91, prop. 4). On a aussitôt :
 
-#### Proposition 6 {#alg-v-s12-prop-6 .statement}
+#### Proposition 6 {#alg-v-s12-prop-6 .statement tag=06QF}
 
 *L’image par $\varphi_n$ de l’automorphisme de Frobenius $\sigma_q$ est la classe de $q$ mod. $n$*.
 
 Par conséquent, compte tenu de la prop. 6 de V, p. 80 :
 
-#### Corollaire {#alg-v-s12-n4-cor-1 .statement}
+#### Corollaire {#alg-v-s12-n4-cor-1 .statement tag=06QG}
 
 *Le degré de $R_n$ sur K est le plus petit entier $f \geqslant 1$ tel que $q^f \equiv 1$ mod. $n$. Pour que le polynôme cyclotomique $\Phi_n$ soit irréductible sur K, il faut et il suffit que le groupe $(\mathbf{Z}/n\mathbf{Z})^*$ soit engendré par la classe de $q$ modulo $n$*.
 
-#### Exemple 1 {#alg-v-s12-n4-exa-1 .statement}
+#### Exemple 1 {#alg-v-s12-n4-exa-1 .statement tag=06QH}
 
 Le polynôme $\Phi_3(X) = X^2 + X + 1$ est irréductible dans $F_q[X]$ si et seulement si l’on a $q \equiv 2$ mod. 3. De même, $\Phi_4(X) = X^2 + 1$ est irréductible dans $F_q[X]$ si et seulement si $q \equiv 3$ mod. 4, et pour $\Phi_5(X) = X^4 + X^3 + X^2 + X + 1$, la condition d’irréductibilité s’écrit $q \equiv 2, 3$ mod. 5.
 
-#### Exemple 2 {#alg-v-s12-n4-exa-2 .statement}
+#### Exemple 2 {#alg-v-s12-n4-exa-2 .statement tag=06QI}
 
 On a $5^2 \equiv 1$ mod. 12, donc la classe de 5 modulo 12 n’engendre pas $(\mathbf{Z}/12\mathbf{Z})^*$. Le polynôme $\Phi_{12}(X) = X^4 - X^2 + 1$ n’est donc pas irréductible dans $F_5[X]$; on a en fait
 

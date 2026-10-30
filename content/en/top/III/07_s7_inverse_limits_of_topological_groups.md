@@ -29,7 +29,7 @@ subsections:
       pdf_page: 299
 statements: 15
 exercises: 6
-content_sha256: da72beb407a42503880dae63dda66a50e3bc4b2d19533c7e937095d250c0e5cd
+content_sha256: 7ec501cdab64114d3db1a7a9418dc84f5a203ec2564d94a09a0b43191852ce4d
 ---
 
 ## 7. INVERSE LIMITS OF TOPOLOGICAL GROUPS AND RINGS
@@ -102,7 +102,7 @@ and therefore the mappings $(s.x) \to g_\alpha(s.x)$ are continuous on $X \times
 
 The mapping $h_\alpha : X/G \to X_\alpha/G_\alpha$ induced by $f_\alpha$ and $g_\alpha$ is therefore continuous (§ 2, no. 4), and so is the mapping $h : X/G \to \varprojlim X_\alpha/G_\alpha$ defined by the $h_\alpha$ (Chapter I, § 2, no. 3, Proposition 4).
 
-#### Proposition 1 {#top-iii-s7-prop-1 .statement}
+#### Proposition 1 {#top-iii-s7-prop-1 .statement tag=0BOG}
 
 *Suppose that the $X_\alpha$ and the $G_\alpha$ satisfy the above hypotheses.*
 
@@ -118,19 +118,19 @@ X \xrightarrow{\psi} X/G \xrightarrow{h} \varprojlim X_\alpha / G_\alpha,
 $$
 where $\psi$ is the canonical mapping, the assertions of b) follow.
 
-#### Corollary 1 {#top-iii-s7-prop-1-cor-1 .statement}
+#### Corollary 1 {#top-iii-s7-prop-1-cor-1 .statement tag=0BOH}
 
 *If the $G_\alpha$ are compact and the $X_\alpha$ Hausdorff, then the conclusions of a) and b) are valid.*
 
 For the hypotheses of a) and b) are satisfied, since every closed subgroup of $G_\alpha$ is compact and $u_\alpha : s_\alpha \to s_\alpha \cdot x_\alpha$ is a continuous mapping of a compact space into a Hausdorff space.
 
-#### Corollary 2 {#top-iii-s7-prop-1-cor-2 .statement}
+#### Corollary 2 {#top-iii-s7-prop-1-cor-2 .statement tag=0BOI}
 
 *If, for each $\alpha \in I$, the group $G_\alpha$ operates transitively on the space $X_\alpha$, and if the stabilizer of each point of $X_\alpha$ is a compact subgroup of $G_\alpha$, then $G$ operates transitively on $X$ and the stabilizer of each point of $X$ is a compact subgroup of $G$.*
 
 For hypothesis a) is satisfied, and $X'_\alpha = X_\alpha$ for each $\alpha$.
 
-#### Corollary 3 {#top-iii-s7-prop-1-cor-3 .statement}
+#### Corollary 3 {#top-iii-s7-prop-1-cor-3 .statement tag=0BOJ}
 
 *Suppose that the $G_\alpha$ are Hausdorff. For each $\alpha \in I$, let $K_\alpha$ be a compact subgroup of $G_\alpha$, such that $f_{\alpha \beta} (K_\beta) \subset K_\alpha$ whenever $\alpha \leq \beta$. Then, if $K = \varprojlim K_\alpha$, the canonical mapping $h$ of the homogeneous space $G/K$ into $\varprojlim G_\alpha / K_\alpha$ is a homeomorphism.*
 
@@ -147,7 +147,7 @@ Let $G$ be a group and let $(H_\alpha)_{\alpha \in I}$ be a family of normal sub
 
 Now suppose that $G$ is a *topological group*; if we give each $G_\alpha = G / H_\alpha$ the quotient topology, it is clear that $(G_\alpha, f_{\alpha \beta})$ is an inverse system of topological groups, and that $i : G \to \tilde{G}$ is a continuous homomorphism.
 
-#### Proposition 2 {#top-iii-s7-prop-2 .statement}
+#### Proposition 2 {#top-iii-s7-prop-2 .statement tag=0BOK}
 
 *Let $G$ be a topological group and let $(H_\alpha)_{\alpha \in I}$ be a family of normal subgroups of $G$ such that $H_\alpha \supset H_\beta$ whenever $\alpha \leq \beta$, and which satisfy the following condition:*
 
@@ -167,13 +167,13 @@ Finally, suppose that there is an index $\gamma \in I$ such that $H_\gamma$ is c
 
 Q.E.D.
 
-#### Corollary 1 {#top-iii-s7-prop-2-cor-1 .statement}
+#### Corollary 1 {#top-iii-s7-prop-2-cor-1 .statement tag=0BOL}
 
 *If the condition (AP) is satisfied and if in addition the (Hausdorff) groups $G/H_\alpha$ are complete, then the group $G$ has a Hausdorff completion which can be identified with $\tilde{G}$; and the mapping $i : G \to \tilde{G}$ is then identified with the canonical mapping ($§ 3$, no. 3, Proposition 5).*
 
 For $\tilde{G}$ is then complete (no. 2), and Proposition 2 shows that $i(G)$ is isomorphic with the Hausdorff group associated with $G$; since it is dense in $\tilde{G}$, the corollary follows ($§ 3$, no. 3, Proposition 5). In particular:
 
-#### Corollary 2 {#top-iii-s7-prop-2-cor-2 .statement}
+#### Corollary 2 {#top-iii-s7-prop-2-cor-2 .statement tag=0BOM}
 
 *Let $G$ be a group and let $(H_\alpha)$ be a family of normal subgroups of $G$, directed with respect to the relation $H_\alpha \supset H_\beta$. If we endow $G$ with the group topology for which the $H_\alpha$ form a fundamental system of neighbourhoods of the identity element $e$, then the Hausdorff group associated with $G$ is isomorphic to $G_1 = G / \left( \bigcap_\alpha H_\alpha \right)$; $G_1$ has a completion $\hat{G}_1 = \tilde{G}$; and the canonical mapping $G_1 \to \tilde{G} = \varprojlim G/H_\alpha$ extends to an isomorphism of $\hat{G} = \hat{G}_1$ onto $\tilde{G}$.*
 
@@ -187,13 +187,13 @@ $$
 
 is then an *isomorphism of topological groups* which permits us to identify $G$ and $\tilde{G}$. We denote by $f_\alpha$ the canonical mapping $G \to G/H_\alpha$.
 
-#### Lemma 1 {#top-iii-s7-lem-1 .statement}
+#### Lemma 1 {#top-iii-s7-lem-1 .statement tag=0BON}
 
 *Under the hypotheses of Proposition 2, if $E$ is any closed subset of $G$ we have* $E = \bigcap_\alpha E H_\alpha$.
 
 For $E$ is the intersection of the sets $EV$ where $V$ runs through the neighbourhood filter of $e$ [$\S$ 3, no. 1, formula (1)], and every neighbourhood of $e$ contains an $H_\alpha$; whence the result, since $E \subset EH_\alpha$.
 
-#### Proposition 3 {#top-iii-s7-prop-3 .statement}
+#### Proposition 3 {#top-iii-s7-prop-3 .statement tag=0BOO}
 
 *Suppose that $G$ is Hausdorff and that the $H_\alpha$ are compact and satisfy* (AP).
 
@@ -205,13 +205,13 @@ a) Since $H_\alpha$ is compact, $LH_\alpha$ is closed in $G$ ($\S$ 4, no. 1, Pro
 
 b) Let $f'_{\alpha \beta}$ be the restriction of $f_{\alpha \beta}$ to $L_\beta$ ($\alpha \leq \beta$). Then $(L_\alpha, f'_{\alpha \beta})$ is an inverse system of topological groups, whose inverse limit $L$ can be identified with the subgroup $G \cap \prod_\alpha L_\alpha$ of $G$. By hypothesis, $f'_{\alpha \beta}$ is surjective and its kernel is the compact subgroup $f_\beta(H_\alpha) \cap L_\beta$ of $L_\beta$; consequently (Chapter I, § 9, no. 6, Corollary 1 to Proposition 8) we have $L_\alpha = f_\alpha(L)$ for all $\alpha \in I$. If $L'$ is another closed subgroup of $G$ such that $f_\alpha(L') = L_\alpha$ for all $\alpha \in I$, then $L'H_\alpha = \overline{f'}_\alpha(L_\alpha)$, whence (Lemma 1) $L' = \bigcap_\alpha L'H_\alpha = \bigcap_\alpha \overline{f'}_\alpha(L_\alpha) = L$. Finally, the last assertion of b) follows from the formula $L = \bigcap_\alpha \overline{f'}_\alpha(L_\alpha)$, since the $\overline{f'}_\alpha(L_\alpha)$ are now normal subgroups of $G$.
 
-#### Proposition 4 {#top-iii-s7-prop-4 .statement}
+#### Proposition 4 {#top-iii-s7-prop-4 .statement tag=0BOP}
 
 *Suppose that $G$ is Hausdorff, the $H_\alpha$ are compact and that (AP) is satisfied. If $C_\alpha$ is the identity component of $G_\alpha = G/H_\alpha$, then the identity component $C$ of $G$ can be identified with $\varprojlim C_\alpha$, and we have $f_\alpha(C) = C_\alpha$.*
 
 The proposition is a consequence of the following lemma:
 
-#### Lemma 2 {#top-iii-s7-lem-2 .statement}
+#### Lemma 2 {#top-iii-s7-lem-2 .statement tag=0BOQ}
 
 *Let $G$ be a Hausdorff topological group and let $H$ be a compact normal subgroup of $G$, and $\varphi$ the canonical mapping $G \to G/H$. If $C$ is the identity component of $G$, then $\varphi(C)$ is the identity component of $G' = G/H$.*
 
@@ -227,13 +227,13 @@ Now let $F$ be the intersection of the neighbourhoods of the identity element wh
 
 Q.E.D.
 
-#### Remark {#top-iii-s7-n3-rem-1 .statement}
+#### Remark {#top-iii-s7-n3-rem-1 .statement tag=0BOR}
 
 If the subgroup $H_\alpha$ is compact for *some* $\alpha \in I$, then $H_\beta$ is compact for all $\beta \geq \alpha$, because it is a closed subgroup of $H_\alpha$. Since the set of all $\beta \in I$ such that $\beta \geq \alpha$ is cofinal in $I$, it makes essentially no difference, in the study of the group $G$, whether we suppose that one of the $H_\alpha$ is compact or that *all* the $H_\alpha$ are compact.
 
 ### 4. APPLICATION TO INVERSE LIMITS
 
-#### Proposition 5 {#top-iii-s7-prop-5 .statement}
+#### Proposition 5 {#top-iii-s7-prop-5 .statement tag=0BOS}
 
 *Let* $(G_\alpha, f_{\alpha\beta})$ *be an inverse system of Hausdorff topological groups such that the* $f_{\alpha\beta}$ *are surjective strict morphisms with compact kernels.* Then for each $\alpha \in I$ the canonical mapping $f_\alpha$ of $G = \varprojlim G_\alpha$ into $G_\alpha$ is a surjective strict morphism whose kernel is compact.
 
@@ -247,13 +247,13 @@ this shows that $f_\alpha(V)$ is a neighbourhood of $e_\alpha$ in $G_\alpha$.
 
 If $H_\alpha = f_\alpha^{-1}(e_\alpha)$, then each $H_\alpha$ is a compact normal subgroup of $G$; the $H_\alpha$ clearly satisfy the condition (AP) of no. 3; and $G_\alpha$ can be identified with $G/H_\alpha$. In particular Propositions 3 and 4 of no. 3 apply to $G$ and the $H_\alpha$.
 
-#### Corollary 1 {#top-iii-s7-prop-5-cor-1 .statement}
+#### Corollary 1 {#top-iii-s7-prop-5-cor-1 .statement tag=0BOT}
 
 *Let* $(G_\alpha, f_{\alpha \beta})$ *be an inverse system of topological groups which satisfies the hypotheses of Proposition 5; let* $(G'_\alpha, f'_{\alpha \beta})$ *be an inverse system of topological groups, and for each* $\alpha$ *let* $u_\alpha : G_\alpha \to G'_\alpha$ *be a surjective strict morphism with compact kernel, such that the* $u_\alpha$ *from an inverse system of mappings. Then* $u = \varprojlim u_\alpha$ *is a strict morphism of* $G = \varprojlim G_\alpha$ *onto* $G' = \varprojlim G'_\alpha$, *and its kernel is compact*.
 
 Let $N_\alpha$ be the kernel of $u_\alpha$. $L_\alpha = f_\alpha^{-1}(N_\alpha)$ is then the kernel of the surjective strict morphism $v_\alpha = u_\alpha \circ f_\alpha : G \to G'_\alpha$; since $L_\alpha / H_\alpha$ is isomorphic to $N_\alpha$ (§ 2, no. 7, Proposition 20), $L_\alpha$ is a *compact* normal subgroup of $G$ (§ 4, no. 1, Corollary 2 to Proposition 2). The kernel $L$ of $u$ is the intersection of the $L_\alpha$. Let $\varphi$ denote the canonical mapping $G \to G/L$; then we can write $v_\alpha = w_\alpha \circ \varphi$, where $w_\alpha$ is a strict morphism of $G/L$ onto $G'_\alpha$, whose kernel is $L_\alpha / L$. Since the intersection of the $L_\alpha / L$ is the identity element of $G/L$, and since the $L_\alpha / L$ form a filter base and are compact, this filter base converges to the identity element of $G/L$ (Chapter I, § 9, no. 1, Corollary to Theorem 1). Proposition 2 of no. 3 then shows that $w = \varprojlim w_\alpha$ is an *isomorphism* of $G/L$ onto $G'$; it follows that $w \circ \varphi$ is a strict morphism of $G$ onto $G'$, with kernel $L$. But it is clear that $u = w \circ \varphi$, and thus the corollary is proved.
 
-#### Corollary 2 {#top-iii-s7-prop-5-cor-2 .statement}
+#### Corollary 2 {#top-iii-s7-prop-5-cor-2 .statement tag=0BOU}
 
 *Let* $(G_\alpha, f_{\alpha \beta})$ *be an inverse system of topological groups which satisfies the conditions of Proposition 5, and let* $G'$ *be a topological group in which there is a neighbourhood* $V'$ *of the identity element* $e'$ *which contains no subgroup* of $G'$ other than $\{ e' \}$. Then if $v : G \to G'$ is any continuous homomorphism, there is an index $\alpha \in I$ and a continuous homomorphism $v_\alpha : G_\alpha \to G'$ such that $v = v_\alpha \circ f_\alpha$.
 

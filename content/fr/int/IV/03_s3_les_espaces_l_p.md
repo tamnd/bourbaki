@@ -44,7 +44,7 @@ subsections:
       pdf_page: 143
 statements: 41
 exercises: 3
-content_sha256: 9d839e4d9929782078ebf6182111203e43c8447c903e85e7dbe9a16fa0913e8f
+content_sha256: a0e715a0cd1e657784d07f8eaf8a8ef1dddd6a4d875726c48d8e5bff650555b0
 ---
 
 ## § 3. Les espaces $L^p$
@@ -53,7 +53,7 @@ content_sha256: 9d839e4d9929782078ebf6182111203e43c8447c903e85e7dbe9a16fa0913e8f
 
 Soient $X$ un espace localement compact, $\mu$ une mesure sur $X$. Dans l’ensemble des fonctions numériques *positives* (finies ou non) définies dans X, la fonction $|\mu|^*(f)$ est positive, positivement homogène, croissante et convexe (§ 1, n° 3, prop. 10, 11 et 12).
 
-#### Proposition 1 {#int-iv-s3-prop-1 .statement}
+#### Proposition 1 {#int-iv-s3-prop-1 .statement tag=08QN}
 
 Pour tout nombre réel fini $p \geq 1$ et tout couple de fonctions positives $f, g$ (finies ou non) définies dans X, on a
 $$(1)\quad (|\mu|^*((f + g)^p))^{1/p} \leq (|\mu|^*(f^p))^{1/p} + (|\mu|^*(g^p))^{1/p}$$
@@ -74,13 +74,13 @@ et $\frac{a}{a + b} + \frac{b}{a + b} = 1$.
 
 Dans tout ce qui suit, F désignera un espace vectoriel normé complet (espace de Banach) sur le corps $\mathbf{R}$ ou le corps $\mathbf{C}$ ; la norme d’un élément $z \in F$ se notera $|z|$. Etant donnée une application f d’un ensemble A dans F, on notera $|f|$ l’application $x \mapsto |f(x)|$ de A dans $\mathbf{R}_+$ (on aura soin d’observer que $|f|$ est une fonction numérique, et non un nombre).
 
-#### Définition 1 {#int-iv-s3-def-1 .statement}
+#### Définition 1 {#int-iv-s3-def-1 .statement tag=08QO}
 
 Soient X un espace localement compact, $\mu$ une mesure sur X. Pour toute application f de X dans un espace de Banach F, et tout nombre p tel que $1 \leq p < +\infty$, on désigne par $N_p(f, \mu)$, ou simplement par $N_p(f)$, le nombre positif $\left( \int^* |f|^p d|\mu| \right)^{1/p}$
 
 On notera que le nombre $N_p(f)$ peut être égal à $+\infty$.
 
-#### Proposition 2 {#int-iv-s3-prop-2 .statement}
+#### Proposition 2 {#int-iv-s3-prop-2 .statement tag=08QP}
 
 Si f et g sont deux applications de X dans F, et $\alpha$ un scalaire quelconque $\neq 0$, on a, pour $1 \leq p < +\infty$,
 
@@ -104,7 +104,7 @@ $$
 
 pour une telle fonction $f$. On voit aussitôt que les relations (3) et (4) sont encore valables pour ces fonctions lorsque $f + g$ est définie dans X et $\alpha \neq 0$. En outre :
 
-#### Théorème 1 (théorème de convexité dénombrable) {#int-iv-s3-thm-1 .statement}
+#### Théorème 1 (théorème de convexité dénombrable) {#int-iv-s3-thm-1 .statement tag=08QQ}
 
 Soit $(f_n)$ une suite de fonctions $\geq 0$ (finies ou non) définies dans X. Pour $1 \leq p < +\infty$, on a
 
@@ -115,7 +115,7 @@ $$
 
 Posons en effet $f = \sum_{n=1}^\infty f_n$; $f$ est l’enveloppe supérieure de la suite croissante des fonctions $g_n = \sum_{k=1}^n f_k$; la définition de $N_p(f)$ et le th. 3 du § 1, n° 3 montrent que $N_p(f) = \sup_n N_p(g_n)$. Mais on a $N_p(g_n) \leq \sum_{k=1}^n N_p(f_k)$ en vertu de la prop. 2, d’où l’inégalité (5).
 
-#### Proposition 3 {#int-iv-s3-prop-3 .statement}
+#### Proposition 3 {#int-iv-s3-prop-3 .statement tag=08QR}
 
 Si f et g sont deux applications équivalentes de X dans un espace de Banach F, on a $N_p(f - g) = 0$ pour $1 \leq p < +\infty$; réciproquement, si $N_p(f - g) = 0$ pour une valeur de $p \geq 1$, f et g sont équivalentes.
 
@@ -144,11 +144,11 @@ On étend aussitôt cette terminologie au cas où les fonctions $f_n$ et la fonc
 
 On notera que l’espace localement convexe $\mathscr{F}_F^p$ n’est pas séparé en général; l’adhérence de 0 dans cet espace est le sous-espace $\mathscr{N}_F$ des applications négligeables de $X$ dans $F$ (n° 1, prop. 3).
 
-#### Remarque {#int-iv-s3-n3-rem-1 .statement}
+#### Remarque {#int-iv-s3-n3-rem-1 .statement tag=08QS}
 
 Soit $F$ un espace de Banach sur le corps $\mathbf{C}$ des nombres complexes; alors, pour toute fonction $f \in \mathscr{F}_F^p$ et tout nombre complexe $\alpha$, $\alpha f$ appartient à $\mathscr{F}_F^p$, et l’on a $N_p(\alpha f) = |\alpha| N_p(f)$; en d’autres termes, $\mathscr{F}_F^p$ est aussi un espace vectoriel sur $\mathbf{C}$, et $N_p(f)$ une semi-norme sur cet espace vectoriel complexe (cf. Esp. vect. top., chap. II, 2e éd., § 1).
 
-#### Proposition 4 {#int-iv-s3-prop-4 .statement}
+#### Proposition 4 {#int-iv-s3-prop-4 .statement tag=08QT}
 
 Soit $\mathscr{B}$ une base de filtre sur $\mathscr{F}_F^p$. On suppose qu’il existe un ensemble compact $K \subset X$ tel que, pour toute partie $M \in \mathscr{B}$, toutes les applications $f \in M$ aient leur support dans $K$. Dans ces conditions, si $\mathscr{B}$ converge uniformément dans $X$ vers $f_0$, $f_0$ appartient à $\mathscr{F}_F^p$, et $\mathscr{B}$ converge en moyenne d’ordre $p$ vers $f_0$.
 
@@ -156,7 +156,7 @@ Il revient au même de dire que, sur l’ensemble des applications $f \in \maths
 
 En effet, soit $h$ une application continue de $X$ dans $[0, 1]$, à support compact, égale à 1 dans $K$ (chap. III, § 1, n° 2, lemme 1). Pour tout $\varepsilon > 0$, il existe $M \in \mathscr{B}$ tel que, pour toute application $f \in M$, on ait $|f(x) - f_0(x)| \leq \varepsilon h(x)$ pour tout $x \in X$. On en déduit $N_p(f - f_0) \leq \varepsilon N_p(h)$, d’où la proposition.
 
-#### Proposition 5 {#int-iv-s3-prop-5 .statement}
+#### Proposition 5 {#int-iv-s3-prop-5 .statement tag=08QU}
 
 L’espace localement convexe $\mathscr{F}_F^p$ est complet.
 
@@ -166,7 +166,7 @@ Comme l’espace séparé associé à $\mathscr{F}_F^p$ est un espace normé, il
 
 La prop. 5 est donc conséquence de la proposition suivante:
 
-#### Proposition 6 {#int-iv-s3-prop-6 .statement}
+#### Proposition 6 {#int-iv-s3-prop-6 .statement tag=08QV}
 
 Soit $(f_n)$ une suite de fonctions de $\mathscr{F}_F^p$, telle que $\sum_{n=1}^\infty N_p(f_n) < +\infty$. Dans ces conditions, la série de terme général $f_n(x) \in F$ est absolument convergente presque partout dans $X$. Si l’on pose $f(x) = \sum_{n=1}^\infty f_n(x)$ aux points où la série converge, et $f(x) = 0$ ailleurs, la fonction $f$ appartient à $\mathscr{F}_F^p$ et est somme de la série de terme général $f_n$ (pour la topologie de la convergence en moyenne d’ordre $p$); de façon précise, on a, pour tout $n \geq 0$,
 
@@ -193,7 +193,7 @@ Les propositions 5 et 6 sont donc complètement démontrées.
 
 L’espace vectoriel $\mathscr{K}(X; F)$ (que nous noterons simplement $\mathscr{K}_F$ si aucune confusion n’est à craindre), formé des applications continues et à support compact de $X$ dans $F$, est évidemment un sous-espace de chacun des espaces vectoriels $\mathscr{F}_F^p$.
 
-#### Définition 2 {#int-iv-s3-def-2 .statement}
+#### Définition 2 {#int-iv-s3-def-2 .statement tag=08QW}
 
 Etant donnés un espace localement compact $X$, une mesure $\mu$ sur $X$ et un espace de Banach $F$, on désigne par $\mathscr{L}_F^p(X, \mu)$ (ou simplement $\mathscr{L}_F^p(\mu)$, ou $\mathscr{L}_F^p$) l’adhérence, dans l’espace localement convexe $\mathscr{F}_F^p(X, \mu)$, de l’espace vectoriel $\mathscr{K}(X; F)$ des applications continues et à support compact de $X$ dans $F$. On note $L_F^p(X, \mu)$ (ou $L_F^p(\mu)$, ou $L_F^p$) l’espace séparé (normé) associé à $\mathscr{L}_F^p(X, \mu)$. On dit que les fonctions appartenant à $\mathscr{L}_F^p$ sont des fonctions de puissance $p$-ième intégrable (*).
 
@@ -209,23 +209,23 @@ dans X, est dite de puissance p-ième intégrable si elle est équivalente à un
 
 Les fonctions de $\mathscr{L}_F^p$ (resp. de $\mathscr{L}^p$) sont donc les fonctions de puissance p-ième intégrable qui sont définies dans X tout entier (resp. définies et finies dans X tout entier). Dans ce paragraphe et le suivant, la plupart des propositions démontrées pour les fonctions de $\mathscr{L}_F^p$ (resp. $\mathscr{L}^p$) s’étendent immédiatement aux fonctions de puissance p-ième intégrable qui ne sont pas partout définies (resp. qui ne sont pas partout définies et finies); nous laisserons le plus souvent au lecteur le soin de formuler et de démontrer ces résultats.
 
-#### Remarque 1 {#int-iv-s3-n4-rem-1 .statement}
+#### Remarque 1 {#int-iv-s3-n4-rem-1 .statement tag=08QX}
 
 Comme on l’a déjà signalé (§ 2, n° 5) les fonctions de puissance p-ième intégrable, à valeurs dans F, ne forment pas un espace vectoriel en général.
 
-#### Remarque 2 {#int-iv-s3-n4-rem-2 .statement}
+#### Remarque 2 {#int-iv-s3-n4-rem-2 .statement tag=08QY}
 
 En général, l’espace $\mathscr{F}_F^p$ est distinct du sous-espace $\mathscr{L}_F^p$ (§ 4, exerc. 8).
 
 La déf. 2 donne aussitôt le critère suivant:
 
-#### Proposition 7 {#int-iv-s3-prop-7 .statement}
+#### Proposition 7 {#int-iv-s3-prop-7 .statement tag=08QZ}
 
 Pour qu’une fonction f appartienne à $\mathscr{L}_F^p$, il faut et il suffit que, pour tout $\varepsilon > 0$, il existe une fonction g, continue et à support compact, telle que $N_p(f - g) \leq \varepsilon$.
 
 En d’autres termes, les fonctions de $\mathscr{L}_F^p$ sont les limites de suites de fonctions continues à support compact, pour la topologie de la convergence en moyenne d’ordre p.
 
-#### Proposition 8 {#int-iv-s3-prop-8 .statement}
+#### Proposition 8 {#int-iv-s3-prop-8 .statement tag=08R0}
 
 Soit f une fonction numérique (finie ou non) définie presque partout; si, pour tout $\varepsilon > 0$, il existe deux fonctions g, h de puissance p-ième intégrable, telles que $g \leq f \leq h$ presque partout et que $N_p(h - g) \leq \varepsilon$, f est de puissance p-ième intégrable.
 
@@ -239,7 +239,7 @@ la prop. 7 montre donc que f est de puissance p-ième intégrable.
 
 Comme, par définition, $\mathscr{L}_F^p$ est un sous-espace fermé de $\mathscr{F}_F^p$, et que ce dernier est complet (n° 3, prop. 5), on a le résultat suivant (Top. gén., chap. II, 3e éd., § 3, n° 4, prop. 8):
 
-#### Théorème 2 {#int-iv-s3-thm-2 .statement}
+#### Théorème 2 {#int-iv-s3-thm-2 .statement tag=08R1}
 
 L’espace $\mathscr{L}_F^p$ est complet; l’espace $\mathbf{L}_F^p$ est un espace de Banach.
 
@@ -247,7 +247,7 @@ Dans l’espace $L_F^p$, la norme $N_p(\tilde{f})$ d’une classe se note encore
 
 On peut préciser le th. 2 de la façon suivante :
 
-#### Théorème 3 {#int-iv-s3-thm-3 .statement}
+#### Théorème 3 {#int-iv-s3-thm-3 .statement tag=08R2}
 
 Soit $(f_n)$ une suite de Cauchy dans l’espace $\mathscr{L}_F^p$; il existe une suite $(f_{n_k})$ extraite de $(f_n)$, ayant les propriétés suivantes :
 1° la série de terme général $N_p(f_{n_{k+1}} - f_{n_k})$ est convergente ;
@@ -269,13 +269,13 @@ $$
 
 ce qui achève la démonstration.
 
-#### Corollaire 1 {#int-iv-s3-thm-3-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s3-thm-3-cor-1 .statement tag=08R3}
 
 Si une suite de Cauchy $(f_n)$ dans l’espace $\mathscr{L}_F^p$ est telle que la suite $(f_n(x))$ converge presque partout vers $f(x)$, $f$ est de puissance $p$-ième intégrable, et la suite $(f_n)$ converge en moyenne d’ordre $p$ vers $f$.
 
 En effet, il existe une suite $(f_{n_k})$ extraite de $(f_n)$ telle que $(f_{n_k}(x))$ converge presque partout vers $g(x)$, où $g$ est une fonction de $\mathscr{L}_F^p$ telle que $(f_n)$ converge en moyenne d’ordre $p$ vers $g$. Les hypothèses entraînent donc que $f(x) = g(x)$ presque partout, d’où le corollaire.
 
-#### Corollaire 2 {#int-iv-s3-thm-3-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s3-thm-3-cor-2 .statement tag=08R4}
 
 Soit $\mathscr{E}$ un ensemble partout dense dans $\mathscr{L}_F^p$. Pour toute fonction $f \in \mathscr{L}_F^p$, il existe une suite $(g_n)$ de fonctions de $\mathscr{E}$ possédant les propriétés suivantes :
 
@@ -285,12 +285,14 @@ Soit $\mathscr{E}$ un ensemble partout dense dans $\mathscr{L}_F^p$. Pour toute 
 
   Le cor. 2 s’applique en particulier au cas où on prend pour $\mathscr{E}$ l’espace $\mathscr{K}_F$ des *fonctions continues à support compact*.
 
-  *Remarques.* — 1) Une suite de Cauchy $(f_n)$ dans $\mathscr{L}_F^p$ peut être telle que la suite $(f_n(x))$ ne soit convergente en *aucun point de* $X$ (exerc. 1).
+#### Remarques {#int-iv-s3-n4-rem-3 .statement tag=08R5}
+
+1) Une suite de Cauchy $(f_n)$ dans $\mathscr{L}_F^p$ peut être telle que la suite $(f_n(x))$ ne soit convergente en *aucun point de* $X$ (exerc. 1).
     2) Si $f$ appartient à $\mathscr{L}_F^p$, il n’est pas toujours possible de trouver une suite $(f_n)$ de fonctions continues à support compact telle que la suite $(f_n(x))$ converge *partout* dans $X$ vers une fonction égale presque partout à $f(x)$ (§ 4, exerc. 4 c)).
 
 ### 5. Propriétés des fonctions de puissance p-ième intégrable
 
-#### Théorème 4 {#int-iv-s3-thm-4 .statement}
+#### Théorème 4 {#int-iv-s3-thm-4 .statement tag=08R7}
 
 *Soient F et G deux espaces de Banach, u une application linéaire continue de F dans G. Pour toute fonction f $\in \mathscr{L}_F^p$, la fonction composée u $\circ$ f appartient à $\mathscr{L}_G^p$*.
   En effet, soit $f \in \mathscr{L}_F^p$; pour tout $\varepsilon > 0$, il existe une fonction $g \in \mathscr{K}_F$ telle que $N_p(f - g) \leq \varepsilon$; comme on a
@@ -299,28 +301,28 @@ Soit $\mathscr{E}$ un ensemble partout dense dans $\mathscr{L}_F^p$. Pour toute 
   $$
   on a $N_p(u \circ f - u \circ g) \leq \|u\| \cdot N_p(f - g) \leq \varepsilon \|u\|$, et comme $u \circ g$ est continue et à support compact, le théorème est démontré.
 
-#### Corollaire 1 {#int-iv-s3-thm-4-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s3-thm-4-cor-1 .statement tag=08R8}
 
 *Soit a' une forme linéaire continue sur F; si f $\in \mathscr{L}_F^p$, la fonction numérique $x \mapsto \langle f(x), a' \rangle$ (qu’on note $\langle f, a' \rangle$) appartient à $\mathscr{L}^p$*.
 
-#### Corollaire 2 {#int-iv-s3-thm-4-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s3-thm-4-cor-2 .statement tag=08R9}
 
 *Etant donnés n points $a_k$ de F $(1 \leq k \leq n)$, et n fonctions numériques $f_k$ $(1 \leq k \leq n)$ appartenant à $\mathscr{L}^p$, la fonction $f = \sum_{k=1}^n a_k f_k$ appartient à $\mathscr{L}_F^p$*.
   Cela résulte de ce que l’application $t \mapsto at$ de $\mathbf{R}$ dans F est continue.
 
-#### Proposition 9 {#int-iv-s3-prop-9 .statement}
+#### Proposition 9 {#int-iv-s3-prop-9 .statement tag=08RA}
 
 Soit F un espace vectoriel de dimension n sur $\mathbf{R}$, et soit $(e_k)_{1 \leq k \leq n}$ une base de F. Pour qu’une fonction $f = \sum_{k=1}^n e_k f_k$ appartienne à $\mathscr{L}_F^p$, il faut et il suffit que chacune des fonctions numériques $f_k$ appartienne à $\mathscr{L}^p$.
 
 Cela résulte aussitôt des cor. 1 et 2 du th. 4.
 
-#### Proposition 10 {#int-iv-s3-prop-10 .statement}
+#### Proposition 10 {#int-iv-s3-prop-10 .statement tag=08RB}
 
 Dans l’espace $\mathscr{L}_F^p$, le sous-espace vectoriel formé des combinaisons linéaires (finies) $\sum_k a_k f_k$, où $a_k \in F$ et où les $f_k$ sont des fonctions numériques continues à support compact, est partout dense (pour la topologie de la convergence en moyenne d’ordre p).
 
 En effet, l’ensemble $\mathscr{K}_F$ des applications continues et à support compact de X dans F est partout dense dans $\mathscr{L}_F^p$ par définition. D’autre part, toute fonction $g \in \mathscr{K}_F$ peut être approchée uniformément par des fonctions de la forme $\sum_k a_k f_k$, où les $f_k$ sont continues et à support contenu dans un voisinage compact fixe du support de g (chap. III, § 1, n° 2, lemme 2); il en résulte (n° 3, prop. 4) que g est adhérente dans $\mathscr{L}_F^p$ à l’ensemble des $\sum_k a_k f_k$, d’où la proposition.
 
-#### Proposition 11 {#int-iv-s3-prop-11 .statement}
+#### Proposition 11 {#int-iv-s3-prop-11 .statement tag=08RC}
 
 Si une fonction $f$ appartient à $\mathscr{L}_F^p$, la fonction $|f|$ appartient à $\mathscr{L}^p$, et l’application $f \mapsto |f|$ de $\mathscr{L}_F^p$ dans $\mathscr{L}^p$ est uniformément continue (pour la topologie de la convergence en moyenne d’ordre p).
 
@@ -330,13 +332,13 @@ $$
 $$
 on a $N_p(|f| - |g|) \leq \varepsilon$, ce qui prouve que $|f| \in \mathscr{L}^p$. D’autre part, si $f_1, f_2$ sont deux fonctions de $\mathscr{L}_F^p$, on a $N_p(|f_1| - |f_2|) \leq N_p(f_1 - f_2)$, ce qui montre que $f \mapsto |f|$ est une application uniformément continue.
 
-#### Proposition 12 {#int-iv-s3-prop-12 .statement}
+#### Proposition 12 {#int-iv-s3-prop-12 .statement tag=08RD}
 
 Pour qu’une fonction numérique $f$ appartienne à $\mathscr{L}^p$, il faut et il suffit que chacune des fonctions $f^+$ et $f^-$ appartienne à $\mathscr{L}^p$.
 
 La condition est suffisante, puisque $f = f^+ - f^-$; elle est nécessaire, puisque si $f \in \mathscr{L}^p$, on a $|f| \in \mathscr{L}^p$ (prop. 11).
 
-#### Corollaire {#int-iv-s3-n5-cor-1 .statement}
+#### Corollaire {#int-iv-s3-n5-cor-1 .statement tag=08RE}
 
 L’enveloppe supérieure (resp. inférieure) d’une famille finie de fonctions de $\mathscr{L}^p$ appartient à $\mathscr{L}^p$.
 
@@ -344,7 +346,7 @@ L’enveloppe supérieure (resp. inférieure) d’une famille finie de fonctions
 
 Nous avons défini (§ 2, n° 6) une relation d’ordre $\tilde{f} \leq \tilde{g}$ dans l’ensemble $\tilde{\mathscr{F}}$ des classes d’équivalence des fonctions numériques définies et finies presque partout dans $X$; muni de cette relation d’ordre et de sa structure d’espace vectoriel, $\tilde{\mathscr{F}}$ est un espace de Riesz. Le cor. de la prop. 12 du n° 5 montre que, si $\tilde{f}$ et $\tilde{g}$ sont deux éléments du sous-espace $L^p$ de $\tilde{\mathscr{F}}$, la borne supérieure $\sup (\tilde{f}, \tilde{g})$ de $\tilde{f}$ et $\tilde{g}$ dans $\tilde{\mathscr{F}}$ (qui est la classe de chacune des fonctions $\sup(f, g)$ où $f \in \tilde{f}$ et $g \in \tilde{g}$) appartient à $L^p$; cela prouve en particulier que $L^p$, muni de la relation d’ordre induite par celle de $\tilde{\mathscr{F}}$, est un espace de Riesz.
 
-#### Proposition 13 {#int-iv-s3-prop-13 .statement}
+#### Proposition 13 {#int-iv-s3-prop-13 .statement tag=08RF}
 
 Dans l’espace de Riesz $L^p$, muni de la topologie définie par la norme $\| \tilde{f} \|_p$, l’application $\tilde{f} \mapsto |\tilde{f}|$ est uniformément continue, et l’ensemble des éléments $\tilde{f} \geq 0$ est fermé.
 
@@ -352,7 +354,7 @@ La première partie de la proposition résulte aussitôt de la prop. 11 du n° 5
 
 On voit donc que, sur $L^p$, la topologie définie par la norme $\| \tilde{f} \|_p$ est compatible avec la structure d’espace vectoriel ordonné de $L^p$ (Esp. vect. top., chap. II, 2e éd., § 2, n° 7).
 
-#### Proposition 14 {#int-iv-s3-prop-14 .statement}
+#### Proposition 14 {#int-iv-s3-prop-14 .statement tag=08RG}
 
 Soit $H$ une partie de l’espace de Riesz $L^p$, formée de classes $\geq 0$, et filtrante pour la relation $\leq$. Pour que $H$ ait une borne supérieure dans $L^p$, il faut et il suffit que
 $$
@@ -364,7 +366,7 @@ La condition est évidemment nécessaire, puisque $\tilde{f} \mapsto \| \tilde{f
 
 Pour voir que $\mathfrak{F}$ est une base de filtre de Cauchy, nous utiliserons le lemme suivant:
 
-#### Lemme {#int-iv-s3-n6-lem-1 .statement}
+#### Lemme {#int-iv-s3-n6-lem-1 .statement tag=08RH}
 
 *Si $f$ et $g$ sont deux fonctions de $\mathscr{L}^p$ telles que $0 \leq f \leq g$, on a*
 
@@ -382,7 +384,7 @@ et est alors conséquence de l’inégalité élémentaire $(g - f)^p \leq g^p -
 
 Ce lemme étant établi, pour tout $\varepsilon > 0$, il existe par hypothèse un $\tilde{f} \in \mathrm{H}$ tel que, pour tout $\tilde{g} \geq \tilde{f}$ appartenant à $\mathrm{H}$, on ait $(\|\tilde{g}\|_p)^p - (\|\tilde{f}\|_p)^p \leq \varepsilon$; on en déduit $(\|\tilde{g} - \tilde{f}\|_p)^p \leq \varepsilon$; donc, si $\tilde{g}_1$ et $\tilde{g}_2$ sont deux éléments $\geq \tilde{f}$ dans $\mathrm{H}$, on a $\|\tilde{g}_1 - \tilde{g}_2\|_p \leq 2\varepsilon^{1/p}$, ce qui prouve que $\mathfrak{F}$ est une base de filtre de Cauchy sur $L^p$, et achève la démonstration de la prop. 14.
 
-#### Corollaire 1 {#int-iv-s3-prop-14-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s3-prop-14-cor-1 .statement tag=08RI}
 
 *Si $\tilde{g}$ est la borne supérieure de $\mathrm{H}$ dans $L^p$, on a*
 
@@ -392,7 +394,7 @@ $$
 
 Cela résulte de la continuité de la norme $\|\tilde{f}\|_p$ dans $L^p$, et du th. de la limite monotone.
 
-#### Corollaire 2 {#int-iv-s3-prop-14-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s3-prop-14-cor-2 .statement tag=08RJ}
 
 *L’espace de Riesz $L^p$ est complètement réticulé.*
 
@@ -402,7 +404,7 @@ Les conclusions de la prop. 14 ne subsistent plus lorsqu’on les formule pour l
 
 On a toutefois le théorème suivant:
 
-#### Théorème 5 {#int-iv-s3-thm-5 .statement}
+#### Théorème 5 {#int-iv-s3-thm-5 .statement tag=08RK}
 
 Soit $(f_n)$ une suite croissante de fonctions $\geqslant 0$ de $\mathscr{L}^p$. Pour que l’enveloppe supérieure $f$ de cette suite soit de puissance $p$-ième intégrable, il faut et il suffit que $\sup_n N_p(f_n) < +\infty$. Alors la suite $(f_n)$ converge en moyenne d’ordre $p$ vers $f$ et l’on a
 
@@ -412,7 +414,7 @@ $$
 
 La condition étant évidemment nécessaire, tout revient à prouver qu’elle est suffisante. Or, si elle est remplie, la prop. 14 montre que la suite $(\tilde{f}_n)$ est une suite de Cauchy dans $L^p$, donc la suite $(f_n)$ est une suite de Cauchy dans $\mathscr{L}^p$; comme $f_n(x)$ tend vers $f(x)$ pour tout $x \in X$, $f$ est de puissance $p$-ième intégrable et est la limite de la suite $(f_n)$ pour la topologie de la convergence en moyenne d’ordre $p$ (n° 4, cor. 1 du th. 3). Donc $N_p(f_n)$ tend vers $N_p(f)$ puisque $N_p$ est une fonction continue sur $\mathscr{L}^p$.
 
-#### Corollaire 1 {#int-iv-s3-thm-5-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s3-thm-5-cor-1 .statement tag=08RL}
 
 Soit $(f_n)$ une suite décroissante de fonctions $\geqslant 0$ de $\mathscr{L}^p$; l’enveloppe inférieure $f$ de cette suite appartient à $\mathscr{L}^p$, la suite $(f_n)$ converge en moyenne d’ordre $p$ vers $f$, et l’on a
 
@@ -422,13 +424,13 @@ $$
 
 Les deux premières assertions résultent du th. 5 appliqué à la suite croissante et majorée des $g_n = f_1 - f_n$; le reste est ensuite évident.
 
-#### Corollaire 2 {#int-iv-s3-thm-5-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s3-thm-5-cor-2 .statement tag=08RM}
 
 Soit $(f_n)$ une suite de fonctions de $\mathscr{L}^p$. Pour que l’enveloppe supérieure $f$ de la suite $(f_n)$ soit de puissance $p$-ième intégrable, il faut et il suffit qu’il existe une fonction $g \geq 0$ telle que $\int^* g^p d|\mu| < +\infty$ et que $f_n \leq g$ pour tout $n$.
 
 La condition est évidemment nécessaire, en prenant $g = f^+$. Inversement, supposons-la vérifiée, et posons $g_n = \sup_{k \leq n} f_k$; la suite $(g_n)$ est croissante et formée de fonctions de puissance $p$-ième intégrable (n° 5, cor. de la prop. 12). La suite croissante des fonctions positives $h_n = g_n + g_1^-$ satisfait aux conditions du th. 5, puisque $N_p(h_n) \leq N_p(g + g_1^-) < +\infty$; l’enveloppe supérieure $\sup_n h_n$ est donc de puissance $p$-ième intégrable, et il en est de même de $f = \sup_n h_n - g_1^-$.
 
-#### Corollaire 3 {#int-iv-s3-thm-5-cor-3 .statement}
+#### Corollaire 3 {#int-iv-s3-thm-5-cor-3 .statement tag=08RN}
 
 Soient $A$ un ensemble dénombrable, $\mathscr{F}$ un filtre sur $A$ ayant une base dénombrable, $(f_\alpha)_{\alpha \in A}$ une famille de fonctions $\geq 0$ de $\mathscr{L}^p$. On suppose qu’il existe une fonction $g \geq 0$ telle que $N_p(g) < +\infty$ et $f_\alpha \leq g$ pour tout $\alpha \in A$; alors la fonction $\lim . \sup_{\mathscr{F}} f_\alpha$ est de puissance $p$-ième intégrable, et l’on a
 
@@ -445,7 +447,7 @@ $$
 
 ### 7. Le théorème de Lebesgue
 
-#### Théorème 6 (Lebesgue) {#int-iv-s3-thm-6 .statement}
+#### Théorème 6 (Lebesgue) {#int-iv-s3-thm-6 .statement tag=08RO}
 
 Soient $F$ un espace de Banach, $(f_n)$ une suite de fonctions de $\mathscr{L}_F^p$ telles que : 1° la suite $(f_n(x))$ converge presque partout vers une limite $f(x) \in F$; 2° il existe une fonction numérique $g \geq 0$ tel que $\int^* g^p d|\mu| < +\infty$ et $|f_n(x)| \leq g(x)$ presque partout dans X, pour tout entier n. Alors la fonction f (définie presque partout) est de puissance p-ième intégrable, et la suite (f_n) converge en moyenne d’ordre p vers f.
 
@@ -463,7 +465,7 @@ $$
 
 autrement dit, la suite $(f_n)$ est une suite de Cauchy dans $\mathscr{L}_F^p$. Le théorème résulte donc du cor. 1 du th. 3 du n° 4.
 
-#### Corollaire {#int-iv-s3-n7-cor-1 .statement}
+#### Corollaire {#int-iv-s3-n7-cor-1 .statement tag=08RP}
 
 Soit A un ensemble d’indices, filtré par un filtre $\mathfrak{F}$ ayant une base dénombrable. Si $(f_\alpha)_{\alpha \in A}$ est une famille de fonctions de $\mathscr{L}_F^p$ qui, suivant le filtre $\mathfrak{F}$, convergent simplement presque partout vers une fonction f, et si en outre il existe une fonction numérique $g \geq 0$ telle que $\int^* g^p d|\mu| < +\infty$ et $|f_\alpha(x)| \leq g(x)$ presque partout dans X pour tout $\alpha \in A$, alors la fonction f est de puissance p-ième intégrable, et $f_\alpha$ tend en moyenne d’ordre p vers f suivant le filtre $\mathfrak{F}$.
 
@@ -471,7 +473,7 @@ En effet, soit $(A_n)$ une base dénombrable décroissante de $\mathfrak{F}$, et
 
 Comme $\mathfrak{F}$ est le filtre intersection des filtres élémentaires associés à toutes les suites $(\alpha_n)$ (Top. gén., chap. I, 3e éd., § 6, n° 8, prop. 11), $\lim_{\mathfrak{F}} N_p(f - f_\alpha)$ existe et est égale à la limite commune 0 de toutes les suites $(N_p(f - f_{\alpha_n}))$.
 
-#### Remarque 1 {#int-iv-s3-n7-rem-1 .statement}
+#### Remarque 1 {#int-iv-s3-n7-rem-1 .statement tag=08RQ}
 
 Le th. 6 ne subsiste pas si on remplace l’hypothèse $|f_n| \leq g$ (avec $N_p(g) < +\infty$) par l’hypothèse plus faible $\sup_n N_p(f_n) < +\infty$. Supposons par exemple que $\mu$ soit la mesure de Lebesgue sur $\mathbf{R}$; définissons les fonctions continues $f_n$ de la manière suivante: $f_n(x) = 0$ pour $x \leq 0$ et $x \geq \frac{2}{n}$, $f_n\left(\frac{1}{n}\right) = n$, f_n étant linéaire dans les intervalles $\left(0, \frac{1}{n}\right)$ et $\left(\frac{1}{n}, \frac{2}{n}\right)$. On a
 $$
@@ -479,7 +481,7 @@ $$
 $$
 (cf. § 5, exerc. 12).
 
-#### Remarque 2 {#int-iv-s3-n7-rem-2 .statement}
+#### Remarque 2 {#int-iv-s3-n7-rem-2 .statement tag=08RR}
 
 Le cor. du th. 6 ne subsiste pas si on ne suppose plus que le filtre $\mathscr{F}$ ait une base dénombrable (cf. § 1, no 3, Remarque 1 suivant le th. 3).
 
@@ -487,7 +489,7 @@ Le cor. du th. 6 ne subsiste pas si on ne suppose plus que le filtre $\mathscr{F
 
 Pour tout nombre $\alpha > 0$, l’application $z \mapsto |z|^{\alpha - 1} . z$ est définie et continue dans le complémentaire de 0 dans $F$; en outre, comme $||z|^{\alpha - 1} . z| = |z|^{\alpha}$, cette fonction tend vers 0 avec $z$, et on peut donc la prolonger par continuité au point 0 en lui donnant la valeur 0 en ce point, même si $\alpha < 1$.
 
-#### Théorème 7 {#int-iv-s3-thm-7 .statement}
+#### Théorème 7 {#int-iv-s3-thm-7 .statement tag=08RS}
 
 Soient $p$ et $q$ deux nombres réels tels que $1 \leq p < + \infty, 1 \leq q < + \infty$. Si une fonction $f$ appartient à $\mathscr{L}_F^p$, la fonction $|f|^{(p/q) - 1} . f$ appartient à $\mathscr{L}_F^q$, et réciproquement.
 
@@ -503,11 +505,11 @@ en vertu du th. de convexité dénombrable. En outre, $g_n(x)$ tend presque part
 
 On peut montrer que l’application $f \mapsto |f|^{p/q - 1} . f$ est un homéomorphisme de $\mathscr{L}_F^p$ sur $\mathscr{L}_F^q$ (§ 6, exerc. 10).
 
-#### Corollaire 1 {#int-iv-s3-thm-7-cor-1 .statement}
+#### Corollaire 1 {#int-iv-s3-thm-7-cor-1 .statement tag=08RT}
 
 Pour qu’une fonction $f$ appartienne à $\mathscr{L}_F^p$, il faut et il suffit que la fonction $|f|^{p-1} \cdot f$ appartienne à $\mathscr{L}_F^1$.
 
-#### Corollaire 2 {#int-iv-s3-thm-7-cor-2 .statement}
+#### Corollaire 2 {#int-iv-s3-thm-7-cor-2 .statement tag=08RU}
 
 Pour qu’une fonction numérique positive $f$ appartienne à $\mathscr{L}^p$, il faut et il suffit que $f^p$ appartienne à $\mathscr{L}^1$.
 

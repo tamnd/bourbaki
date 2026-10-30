@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: 1cd699c326c4580d68df9a51a85984e379b45d7a78baf2bc3b45a823812c1ee9
+content_sha256: 5443ccec1548cc00e0c9e54b826288b48157b5ba07148ba085479cf6b1358285
 translated_from: content/fr/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md
 source_lang: fr
 translation_method: machine
@@ -58,7 +58,7 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 Let $A$ be a ring. The relation "$I$ is a class of indecomposable injective $A$-modules" is collectivizing (A, X, p. 21, Corollary 1); we denote by $\mathscr{J}(A)$ the set of classes of indecomposable injective $A$-modules.
 
-#### Proposition 1 {#ac-x-s8-prop-1 .statement}
+#### Proposition 1 {#ac-x-s8-prop-1 .statement tag=0DAA}
 
 Let $A$ be a noetherian ring. For every prime ideal $\mathfrak{p}$ of $A$, let $e_{\mathfrak{p}} : A/\mathfrak{p} \to I(\mathfrak{p})$ be an injective envelope of $A/\mathfrak{p}$ (A, X, § 1, No. 9).
 
@@ -74,23 +74,23 @@ Let $I$ be an indecomposable injective $A$-module, and let $\mathfrak{p}, \mathf
 
 We have thus defined two mappings $\mathfrak{p} \mapsto \mathrm{cl}(I(\mathfrak{p}))$ from $\mathrm{Spec}(A)$ into $\mathscr{J}(A)$ and $I \mapsto \mathfrak{p}(I)$ from $\mathscr{J}(A)$ into $\mathrm{Spec}(A)$; let us prove that these two mappings are reciprocal bijections. Let $\mathfrak{p} \in \mathrm{Spec}(A)$; then $\mathfrak{p}$ belongs to $\mathrm{Ass}(I(\mathfrak{p}))$, and is therefore the unique element of $\mathrm{Ass}(I(\mathfrak{p}))$. Let $I$ be an indecomposable injective $A$-module, and $\mathfrak{p}$ the unique element of $\mathrm{Ass}(I)$; then $I$ is an injective envelope of $A/\mathfrak{p}$ (A, X, p. 21, Prop. 14). This completes the proof of the proposition.
 
-#### Remark 1 {#ac-x-s8-n1-rem-1 .statement}
+#### Remark 1 {#ac-x-s8-n1-rem-1 .statement tag=0DAB}
 
 Let $I$ be an indecomposable injective $A$-module, and let $\mathfrak{p}$ be the unique element of $\mathrm{Ass}(I)$; by Prop. 1, $I$ contains a submodule isomorphic to $A/\mathfrak{p}$ of which it is the injective envelope. In general such a submodule is not unique, as is seen by taking $A = \mathbf{Z}$, $\mathfrak{p} = 0$, $I = \mathbf{Q}$.
 
 For each prime ideal $\mathfrak{p}$ of $A$, let us choose as above an injective envelope $(I(\mathfrak{p}), e_{\mathfrak{p}})$ of $A/\mathfrak{p}$. By A, X, p. 22, Th. 3, one has:
 
-#### Theorem 1 {#ac-x-s8-thm-1 .statement}
+#### Theorem 1 {#ac-x-s8-thm-1 .statement tag=0DAC}
 
 Let $A$ be a noetherian ring. For every injective $A$-module $I$, there exists one and only one family of cardinals $(a_{\mathfrak{p}})_{\mathfrak{p} \in \mathrm{Spec}(A)}$ such that $I$ is isomorphic to $\bigoplus_{\mathfrak{p}} I(\mathfrak{p})^{(a_{\mathfrak{p}})}$.
 
-#### Remark 2 {#ac-x-s8-n1-rem-2 .statement}
+#### Remark 2 {#ac-x-s8-n1-rem-2 .statement tag=0DAD}
 
 Let $A$ be a noetherian ring, $M$ an $A$-module, $e : M \to I$ an injective envelope of $M$. *The set Ass(M) is equal to Ass(I)*: in fact, the inclusion $Ass(M) \subset Ass(I)$ is obvious. On the other hand, if $p$ is an element of $Ass(I)$, $I$ contains a submodule $N$ isomorphic to $A/p$; since the $A$-module $e^{-1}(N)$ is nonzero, one has $Ass(e^{-1}(N)) = \{p\}$ (IV, § 1, No. 1, Prop. 1). This proves that $p$ is associated with $e^{-1}(N)$, hence with $M$, whence our assertion.
 
 Let us retain the notation of the theorem, and suppose further that $Ass(M)$ is finite. For every $q \in Ass(M)$, let $Q_q$ denote the intersection with $M$ of $\bigoplus_{p \in Ass(M) - \{q\}} I(p)^{(a_p)}$. Then $(Q_q)_{q \in Ass(M)}$ *is a reduced primary decomposition of 0 in M* (IV, § 2, No. 3, Def. 3). For indeed $\cap Q_q = 0$; since $M/Q_q$ is identified with a nonzero a-submodule of $I(q)^{(a_q)}$, we have $Ass(M/Q_q) = \{q\}$, and it is enough to apply Prop. 4 of *loc. cit*.
 
-#### Example {#ac-x-s8-n1-exa-1 .statement}
+#### Example {#ac-x-s8-n1-exa-1 .statement tag=0DAE}
 
 Let $A$ be a principal ideal domain, and let $K$ be its field of fractions. The injective $A$-modules are the divisible $A$-modules (A, X, p. 17, Cor. 2). The $A$-module $K$ is an injective envelope of $A$ (A, X, p. 20, Example 1). Let $p$ be an extremal element of $A$, and $p$ the (maximal) ideal $Ap$; let $e : A/p \longrightarrow K/A_p$ denote the homomorphism which maps the class of an element $a \in A$ to the class of $a/p$. Let us prove that $(K/A_p, e)$ *is an injective envelope of $A/p$*. The homomorphism $e$ is injective. The $A$-module $K/A_p$ is a quotient of a divisible module, hence is divisible. Let $x$ be a nonzero element of $K/A_p$; it is the class of an element $a/p^n$ of $K$, with $a \in A - \{0\}$ and $n \geqslant 1$ (A, VII, p. 10, th. 2). Then $p^{n-1}x = e(a)$, hence $e^{-1}(Ax) \neq 0$, which proves our assertion.
 
@@ -98,7 +98,7 @@ It then follows from th. 1 that *every divisible $A$-module is a direct sum of $
 
 ### 2. Structure of indecomposable injective modules
 
-#### Lemma 1 {#ac-x-s8-lem-1 .statement}
+#### Lemma 1 {#ac-x-s8-lem-1 .statement tag=0DAF}
 
 Let $A$ be a ring, $a$ an ideal of $A$, and $I$ an $A$-module. For every integer $n \geqslant 0$, let $I_n$ denote the a-submodule of $I$ consisting of the elements annihilated by $a^n$.
 
@@ -124,7 +124,7 @@ $$
 
 For $a \in \mathrm{gr}(A)$, $x \in \mathrm{gr}^\alpha(E)$, $\beta_E(x)(a)$ is by definition the component in $\mathrm{gr}^\alpha(E)_0 = E_1$ of the element $ax$ of $\mathrm{gr}^\alpha(E)$. It follows that $\beta_E$ is $\mathrm{gr}(A)$-linear when one endows $\mathrm{Hom}_{\mathrm{gr}_{A/\alpha}}(\mathrm{gr}(A), E_1)$ with the structure of $\mathrm{gr}(A)$-module defined by the formula $(bf)(a) = f(ab)$ for $a, b$ in $\mathrm{gr}(A)$ and $f$ in $\mathrm{Hom}_{\mathrm{gr}_{A/\alpha}}(\mathrm{gr}(A), E_1)$.
 
-#### Proposition 2 {#ac-x-s8-prop-2 .statement}
+#### Proposition 2 {#ac-x-s8-prop-2 .statement tag=0DAG}
 
 *Let $A$ be a noetherian ring, $\alpha$ an ideal of $A$, $E$ an $A$-module and $M$ a sub-$A$-module of $E$ annihilated by $\alpha$. The following conditions are equivalent:*
     (i) *$E$ is an injective envelope of $M$* ;
@@ -150,7 +150,7 @@ $$
 
 Since $E_1$ and $I_1$ are injective envelopes of the $A/\alpha$-module $M$, the homomorphism $\varphi_1$ is bijective; since $\beta_E$ and $\beta_I$ are bijective, it follows that $\operatorname{gr}^{a}(\varphi)$ is bijective. This implies, by induction on $n$, that $\varphi$ induces a bijection of $E_n$ onto $I_n$ for every $n \geq 1$; hence $\varphi$ is bijective, which entails (i).
 
-#### Lemma 2 {#ac-x-s8-lem-2 .statement}
+#### Lemma 2 {#ac-x-s8-lem-2 .statement tag=0DAH}
 
 *Let $A$ be a ring, $\alpha$ an ideal of finite type of $A$, and $M$ an $A$-module each element of which is annihilated by a power of $\alpha$. Let $\widehat{A}$ denote the separated completion of $A$ for the $\alpha$-adic topology.*
 
@@ -170,7 +170,7 @@ $$
 
 so that $u$ is $\widehat{A}$-linear.
 
-#### Proposition 3 {#ac-x-s8-prop-3 .statement}
+#### Proposition 3 {#ac-x-s8-prop-3 .statement tag=0DAI}
 
 *Let $A$ be a noetherian ring, $p$ a prime ideal of $A$, and $e : A/p \to I$ an injective envelope of the $A$-module $A/p$. For every integer $n \geq 0$, let $I_n$ denote the submodule of $I$ consisting of the elements annihilated by $p^n$.*
 
@@ -200,11 +200,11 @@ $$
 
 (formula (1)). The linear mapping $I_{n+1}/I_n \longrightarrow \mathrm{Hom}_{\kappa(\mathfrak{p})}(\mathfrak{p}^n A_p/\mathfrak{p}^{n+1} A_p, I_1)$ associated with it on the left identifies with $\beta_{I,-n}$, and that associated with it on the right is $\alpha'_{n+1}$. Since $\beta_{I,-n}$ is bijective by a), the same is true of $\alpha'_{n+1}$; one then deduces from the above diagram, by induction on $n$, that $\alpha_n$ is an isomorphism for every $n$. Since $I$ is the union of the $I_n$, the canonical mapping $\mathrm{End}_A(I) \to \varprojlim \mathrm{Hom}_A(I_n, I)$ is bijective; the ring homomorphism $\widehat{A_p} \to \mathrm{End}_A(I)$, which identifies with the projective limit of the mappings $\alpha_n$, is therefore bijective.
 
-#### Remark {#ac-x-s8-n2-rem-1 .statement}
+#### Remark {#ac-x-s8-n2-rem-1 .statement tag=0DAJ}
 
 It follows from the preceding proof that the annihilator of $I_n$ in $\widehat{A_p}$ (resp. in $A_p$) is $\mathfrak{p}^n \widehat{A_p}$ (resp. $\mathfrak{p}^n A_p$). Hence the annihilator of the $A$-module $I_n$ is the inverse image in $A$ of the ideal $\mathfrak{p}^n A_p$, which is sometimes denoted by $\mathfrak{p}^{(n)}$ and is called the $n$th symbolic power of the prime ideal $\mathfrak{p}$.
 
-#### Corollary {#ac-x-s8-n2-cor-1 .statement}
+#### Corollary {#ac-x-s8-n2-cor-1 .statement tag=0DAK}
 
 Let J be an injective A-module such that Ass_A(J) = {p}.
 
@@ -218,7 +218,7 @@ Indeed, J is isomorphic to an A-module I^{(c)}, where c is a suitable cardinal (
 
 In this No., we suppose that the ring A is local noetherian.
 
-#### Definition {#ac-x-s8-n3-def-1 .statement}
+#### Definition {#ac-x-s8-n3-def-1 .statement tag=0DAL}
 
 We say that an A-module I is a Matlis A-module if it is injective, if m_A is its unique associated prime ideal, and if the κ_A-vector space Hom_A(κ_A, I) is of dimension 1.
 
@@ -232,7 +232,7 @@ $$
 
 is an isomorphism. By prop. 3 of No. 2, the A-module structure of I extends to a unique $\widehat{A}$-module structure, and the canonical homomorphism $\widehat{A} \to \operatorname{End}_A(I)$ is bijective.
 
-#### Lemma 3 {#ac-x-s8-lem-3 .statement}
+#### Lemma 3 {#ac-x-s8-lem-3 .statement tag=0DAM}
 
 Let I be a Matlis A-module. Then:
 
@@ -247,7 +247,7 @@ This being so, let $M_0 \supset M_1 \supset \ldots \supset M_n \supset \ldots$ b
 
 Let $M$ be an A-module. Recall (A, VIII, § 4, No. 6) that the socle of $M$ is the sum of the simple submodules of $M$, that is to say the set of elements of $M$ annihilated by $m_A$; it is a $\kappa_A$-vector space, canonically isomorphic to $\mathrm{Hom}_A(\kappa_A, M)$.
 
-#### Lemma 4 {#ac-x-s8-lem-4 .statement}
+#### Lemma 4 {#ac-x-s8-lem-4 .statement tag=0DAN}
 
 *Let I be a Matlis A-module and M a $A$-module. The following conditions are equivalent :*
 
@@ -263,7 +263,7 @@ Let $M$ be an A-module. Recall (A, VIII, § 4, No. 6) that the socle of $M$ is t
 
 (ii) $\Rightarrow$ (iii): suppose condition (ii) satisfied; let $e : M \to J$ be an injective envelope of $M$. We have $\mathrm{Ass}(M) \subset \{m_A\}$, hence $\mathrm{Ass}(J) \subset \{m_A\}$ (No. 1, Remark 2), and $J$ is isomorphic to $I^{(c)}$ for a cardinal $c$ (No. 1, Theorem 1). Let $x$ be a nonzero element of $J$ annihilated by $m_A$; since the a-module $Ax$ is simple and its intersection with $e(M)$ is not reduced to 0, $x$ belongs to $e(M)$. Thus $e$ induces an isomorphism of the socle of $M$ onto that of $J$; consequently the socle of $M$ is of dimension $c$, which proves (iii) as well as the last assertion.
 
-#### Lemma 5 {#ac-x-s8-lem-5 .statement}
+#### Lemma 5 {#ac-x-s8-lem-5 .statement tag=0DAO}
 
 *Every artinian $\widehat{A}$-module is artinian as a $A$-module.*
 
@@ -289,7 +289,7 @@ $$
 $$
 We denote by $\widehat{\alpha}_M : \widehat{A} \otimes_A M \longrightarrow D_{\widehat{A}}(D_A(M))$ the $\widehat{A}$-linear mapping deduced from $\alpha_M$.
 
-#### Theorem 2 {#ac-x-s8-thm-2 .statement}
+#### Theorem 2 {#ac-x-s8-thm-2 .statement tag=0DAP}
 
 *Let $M$ be an $A$-module.*
 
@@ -359,7 +359,7 @@ $$
 
 one concludes by induction on the integer $\operatorname{long}_A(M)$.
 
-#### Remark {#ac-x-s8-n3-rem-1 .statement}
+#### Remark {#ac-x-s8-n3-rem-1 .statement tag=0DAQ}
 
 Suppose the ring $A$ artinian. One has $\operatorname{long}_A(I) = \operatorname{long}_A(D_A(A)) = \operatorname{long}(A)$ (Theorem 2, c)). Let $M$ be a finitely generated $A$-module; it admits an injective envelope isomorphic to $I^s$, where $s$ is the dimension of the socle of $M$ (Lemma 4). Hence one has $\operatorname{long}_A(M) \leq s \operatorname{long}(A)$; for equality to hold, it is necessary and sufficient that $M$ be injective. In particular, for the $A$-module $A$ to be injective, it is necessary and sufficient that its socle be of dimension 1; thus one recovers Lemma 1 of § 3, No. 7.
 
@@ -377,7 +377,7 @@ one has $\operatorname{long}_A(M) = \varepsilon(z_0(M))$ (*loc. cit.*, example 3
 
 Let $J$ be a Matlis $A$-module. For every $A$-module $M$, we shall denote by $D_A(M)$, or simply by $D(M)$, the $A$-module $\operatorname{Hom}_A(M, J)$. Let $\alpha_M$ be the homomorphism from $M$ into $D(D(M))$ defined by $\alpha_M(m)(f) = f(m)$ for $m \in M,\ f \in D(M)$.
 
-#### Proposition 4 {#ac-x-s8-prop-4 .statement}
+#### Proposition 4 {#ac-x-s8-prop-4 .statement tag=0DAR}
 
 For the a-module M to be of finite length, it is necessary and sufficient that D(M) be of finite length. One then has $z_0(D(M)) = z_0(M)$, $\operatorname{long}_A(M) = \operatorname{long}_A D(M)$, $\operatorname{Ann}_A(M) = \operatorname{Ann}_A(D(M))$, and the a-linear mapping $\alpha_M$ is bijective.
 
@@ -385,7 +385,7 @@ For every $m \in \Omega$, the $A_m$-module $D(M)_m$ is identified with $\operato
 
 For every $a \in A$ one has $D(a_M) = a_{D(M)}$ and consequently $\operatorname{Ann}_A(M) \subset \operatorname{Ann}_A(D(M))$. Applying this to the a-module D(M), one deduces the opposite inclusion, whence the equality $\operatorname{Ann}_A(M) = \operatorname{Ann}_A(D(M))$.
 
-#### Example {#ac-x-s8-n4-exa-1 .statement}
+#### Example {#ac-x-s8-n4-exa-1 .statement tag=0DAS}
 
 Let A be a principal ideal domain, K its field of fractions. *The A-module K/A is a Matlis module*: in fact the canonical mapping from K/A into $\prod_{m \in \Omega} K/A_m$ induces an isomorphism from K/A onto $\bigoplus_{m \in \Omega} K/A_m$ (A, VII, p. 10, th. 2); the assertion then follows from No. 1, example 1. We have moreover already proved in A, VII, § 4, No. 9 that the mapping $\alpha_M$ is bijective for every $A$-module M of finite length when the ring A is principal.
 
@@ -411,11 +411,11 @@ $$
 $$
 is an isomorphism.
 
-#### Example 1 {#ac-x-s8-n5-exa-1 .statement}
+#### Example 1 {#ac-x-s8-n5-exa-1 .statement tag=0DAT}
 
 Let $J$ be a Matlis $A$-module. Put $T(M) = \operatorname{Hom}_A(M, J)$ for every $A$-module $M$ of finite length and $T(f) = \operatorname{Hom}_A(f, 1_J)$ for every $A$-linear mapping $f$ between $A$-modules of finite length. Then conditions FD 1) to FD 5) are satisfied. We shall see below (th. 3) that every construction satisfying conditions FD 1) to FD 5) is obtained in this way.
 
-#### Example 2 {#ac-x-s8-n5-exa-2 .statement}
+#### Example 2 {#ac-x-s8-n5-exa-2 .statement tag=0DAU}
 
 Let $C$ be an injective complex of $A$-modules and $d$ an integer such that $H^i(\operatorname{Homgr}_A(\kappa_A, C))$ is zero for $i \neq d$ and is of length 1 for $i = d$. For every $A$-module $M$ of finite length, one has $H^i(\operatorname{Homgr}_A(M, C)) = 0$ for $i \neq d$; let us argue in fact by induction on the length of $M$, supposed $> 0$; there exists an exact sequence of $A$-modules $0 \to \kappa_A \to M \to N \to 0$, which gives rise to an exact sequence of complexes
 $$
@@ -425,11 +425,11 @@ and the conclusion follows from the induction hypothesis applied to $N$.
 
 Let $T(M) = H^d(\operatorname{Homgr}_A(M, C))$ for every $A$-module $M$ of finite length, and $T(f) = H^d(\operatorname{Homgr}_A(f, 1_C))$ for every $A$-linear mapping $f$ between $A$-modules of finite length; conditions FD 1) to FD 5) are satisfied.
 
-#### Example 3 {#ac-x-s8-n5-exa-3 .statement}
+#### Example 3 {#ac-x-s8-n5-exa-3 .statement tag=0DAV}
 
 Let $\Omega$ be an $A$-module and $d$ an integer $\geqslant 0$ such that $\operatorname{Ext}_A^i(\kappa_A, \Omega)$ is zero for $i \neq d$ and has length 1 for $i = d$. Set $T(M) = \operatorname{Ext}_A^d(M, \Omega)$ for every $A$-module $M$ of finite length and $T(f) = \operatorname{Ext}_A^d(f, 1_\Omega)$ for every $A$-linear mapping $f$ between $A$-modules of finite length. Then $\operatorname{Ext}_A^i(M, \Omega) = 0$ for every $A$-module $M$ of finite length and every $i \neq d$, and conditions FD 1) to FD 5) are satisfied: it is enough, in fact, to apply the preceding example to the case where $C$ is the canonical injective resolution of $\Omega$.
 
-#### Example 4 {#ac-x-s8-n5-exa-4 .statement}
+#### Example 4 {#ac-x-s8-n5-exa-4 .statement tag=0DAW}
 
 If $A$ is a Gorenstein ring, for example a regular ring, one can apply Example 3 by taking $\Omega = A$ and $d = \dim(A)$ (§ 3, No. 7, Prop. 11).
 
@@ -441,7 +441,7 @@ $$
 $$
 satisfying $\theta_M(u)(x) = T(\varphi_{M,x})(u)$ for $u \in T(M),\ x \in M$.
 
-#### Theorem 3 {#ac-x-s8-thm-3 .statement}
+#### Theorem 3 {#ac-x-s8-thm-3 .statement tag=0DAX}
 
 a) The A-module I is a Matlis module. For every integer $m \geqslant 0$, $I_m$ is the a-submodule of I consisting of the elements annihilated by $m_A^m$.
 
@@ -497,11 +497,11 @@ $$
 $$
 with kernel $I_n$. By c), $\gamma$ is the composite of the arrows $\theta_{I_{n+1}} : I_{n+1} \to \mathrm{Hom}_A(A/\mathfrak{m}_A^{n+1}, I)$ and $\mathrm{Hom}(u, 1) : \mathrm{Hom}_A(A/\mathfrak{m}_A^{n+1}, I) \to \mathrm{Hom}_A(\mathfrak{m}_A^n/\mathfrak{m}_A^{n+1}, I)$; since $\theta_{I_{n+1}}$ is the linear mapping associated with the multiplication $A/\mathfrak{m}_A^{n+1} \times I_{n+1} \to I$, the isomorphism $I_{n+1}/I_n \to \mathrm{Hom}_A(\mathfrak{m}_A^n/\mathfrak{m}_A^{n+1}, I)$ deduced from $\gamma$ coincides with $\beta$, which completes the proof.
 
-#### Example 5 {#ac-x-s8-n5-exa-5 .statement}
+#### Example 5 {#ac-x-s8-n5-exa-5 .statement tag=0DAY}
 
 Let us take up again the hypotheses and notations of Example 1. Then $T(A/\mathfrak{m}_A^n) = \mathrm{Hom}_A(A/\mathfrak{m}_A^n, J)$ is identified with the submodule $J_n$ of $J$ formed by the elements annihilated by $\mathfrak{m}_A^n$; by passing to the inductive limit one obtains a canonical isomorphism of $I$ onto $J$.
 
-#### Example 6 {#ac-x-s8-n5-exa-6 .statement}
+#### Example 6 {#ac-x-s8-n5-exa-6 .statement tag=0DAZ}
 
 Let us take up again the hypotheses and notations of Example 3. One obtains that $I = \varinjlim \mathrm{Ext}_A^d(A/\mathfrak{m}_A^n, \Omega)$ is a Matlis $A$-module. For every $A$-module of finite length $M$, there is a canonical $A$-isomorphism
 $$
@@ -513,7 +513,7 @@ In particular, if the ring $A$ is Gorenstein of dimension $d$, the $A$-module $\
 
 ### 6. Change of rings; Macaulay duality
 
-#### Proposition 5 {#ac-x-s8-prop-5 .statement}
+#### Proposition 5 {#ac-x-s8-prop-5 .statement tag=0DB0}
 
 Let $\rho : A \to B$ be a local homomorphism of noetherian local rings, such that the residual extension $\kappa_A \to \kappa_B$ induced by $\rho$ is of finite degree. Let $I_A$ be a Matlis $A$-module.
 
@@ -545,7 +545,7 @@ $$
 
 which associates to $v \in \mathrm{Hom}_A(M, I_A)$ the map $v'$ of $M$ into $\mathrm{Hom}_A(B, I_A)$ such that $v'(m)(b) = v(bm)$ (A, II, p. 74, prop. 1). In order that $v'$ take its values in $I_B$, it is necessary and sufficient that $v$ belong to $\mathrm{Hom}_A^{cont}(M, I_A)$, whence b).
 
-#### Corollary {#ac-x-s8-n6-cor-1 .statement}
+#### Corollary {#ac-x-s8-n6-cor-1 .statement tag=0DB1}
 
 a) If the $A$-algebra $B$ is finite, the $B$-module $I_B = \mathrm{Hom}_A(B, I_A)$ is a Matlis $B$-module.
 
@@ -611,7 +611,7 @@ $$
 
 is independent of the choice of the resolution $C$; it is $\mathrm{End}_A(J)$-linear. Let $p$ be an integer, $\xi \in \mathrm{Tor}_p^A(M, \mathrm{Hom}_A(P, J))$, $\lambda \in \mathrm{Ext}_A^p(M, P), J)$; if $\xi$ is represented with the aid of $\psi(C, \mathrm{Hom}_A(P, J))$ by an element $\sum c_\mu \otimes u_\mu$ of $C \otimes \mathrm{Hom}_A(P, J)$ such that $\sum d_C(c_\mu) \otimes u_\mu = 0$, and $\lambda$ with the aid of $\varphi(C, P)$ by a homomorphism $\ell : C_p \to P$ such that $\ell \circ d_C = 0$, one has $\rho(M, P)(\xi)(\lambda) = (-1)^p \sum u_\mu(\ell(c_\mu))$.
 
-#### Proposition 6 {#ac-x-s8-prop-6 .statement}
+#### Proposition 6 {#ac-x-s8-prop-6 .statement tag=0DB2}
 
 *Suppose the A-module J injective; for every A-module N, put $D(N) = \mathrm{Hom}_A(N, J)$.*
 
@@ -623,7 +623,7 @@ a) By construction, the homomorphism $\theta(M, P)$ is bijective as soon as $\la
 
 b) Choose the resolution $C$ so that each module $C_p$ is free of finite type (A, X, p. 53, Proposition 6). Then the homomorphism $\nu$ is bijective, and the same is true of $\lambda(\mathrm{Homgr}_A(C, P), J)$ since $J$ is injective; hence $\rho(M, P)$ is bijective.
 
-#### Remark 1 {#ac-x-s8-n7-rem-1 .statement}
+#### Remark 1 {#ac-x-s8-n7-rem-1 .statement tag=0DB3}
 
 For every homomorphism $f : N \to N'$ of $A$-modules, let us denote by $D(f) : D(N') \to D(N)$ the homomorphism $\mathrm{Hom}(f, 1_J)$. Let $u : M \to M'$ and $v : P \to P'$ be homomorphisms of $A$-modules. Choose projective resolutions $(C, p)$ of $M$ and $(C', p')$ of $M'$, and a morphism of complexes $\tilde{u} : C \to C'$ such that $p' \circ \tilde{u} = u \circ p$ (A, X, p. 49, Proposition 3). The diagram
 
@@ -655,7 +655,7 @@ $$
 \end{array}
 $$
 
-#### Remark 2 {#ac-x-s8-n7-rem-2 .statement}
+#### Remark 2 {#ac-x-s8-n7-rem-2 .statement tag=0DB4}
 
 Let
 

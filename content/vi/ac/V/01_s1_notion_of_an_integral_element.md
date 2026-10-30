@@ -49,9 +49,9 @@ subsections:
       pdf_page: 342
 statements: 69
 exercises: 29
-content_sha256: 498eb7899fcce74ae9ff18e9460e57571ce5004dd2b1afef9aeea81d76a9efb7
+content_sha256: 94465752c27e60f830819de754bae1f40a222f72eb753cd6946fcd96bfc9afb1
 translated_from: content/en/ac/V/01_s1_notion_of_an_integral_element.md
-source_content_sha256: 87b0370472775897aae6495616897e88a9535b1f1811f2352ce23745ea985d1e
+source_content_sha256: 7deb20eda4181c66deed788db2dd8c9dfd03ddc75e31d67d9679866d4b1220a1
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-341390b7
 glossary_version: 34
@@ -63,7 +63,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC PHẦN TỬ NGUYÊN TRÊN MỘT VÀNH
 
-#### Định lý 1 {#ac-v-s1-thm-1 .statement}
+#### Định lý 1 {#ac-v-s1-thm-1 .statement tag=04MS}
 
 Cho $\mathbf{A}$ là một vành (giao hoán), $\mathbf{R}$ là một đại số trên $\mathbf{A}$ (không nhất thiết giao hoán) và $x$ là một phần tử của $\mathbf{R}$. Các tính chất sau là tương đương:
 
@@ -92,7 +92,7 @@ Vì vành giao hoán $A[x]$ là một môđun trung thành trên chính nó, ($E
 
 Cuối cùng, sự kiện ($E_{III}$) kéo theo ($E_1$) sẽ suy ra từ bổ đề chính xác hơn sau đây:
 
-#### Bổ đề 1 {#ac-v-s1-lem-1 .statement}
+#### Bổ đề 1 {#ac-v-s1-lem-1 .statement tag=04MT}
 
 *Cho $A$ là một vành, $R$ là một đại số (không nhất thiết giao hoán) trên $A$ và $x$ là một phần tử của $R$. Cho $M$ là một môđun trung thành trên $A[x]$ là một $A$-môđun sinh hữu hạn. Nếu $q$ là một iđêan của $A$ sao cho $xM \subset qM$, thì $x$ là một nghiệm của một đa thức đơn khởi với các hệ số trong $A$ tất cả $\notin$ mà các hệ số của nó khác hệ số trội đều thuộc $q$.*
 
@@ -104,7 +104,7 @@ $$
 
 Do đó (*Đại số*, Chương III, § 8), nếu $d$ là định thức của ma trận $(q_{ij} - \delta_{ij}x)$ với các phần tử trong $A[x]$ ($\delta_{ij}$ biểu thị chỉ số Kronecker), thì $du_i = 0$ với mọi $i$ và do đó $dM = 0$; vì $M$ được giả thiết là một $A[x]$-môđun trung thành, nhất thiết $d = 0$. Điều này có nghĩa là $x$ là một nghiệm của đa thức $\det(q_{ij} - \delta_{ij}X)$ trong $A[X]$, đa thức này, sai khác một dấu, là một đa thức đơn khởi mà các hệ số khác hệ số đầu thuộc về $q$.
 
-#### Định nghĩa 1 {#ac-v-s1-def-1 .statement}
+#### Định nghĩa 1 {#ac-v-s1-def-1 .statement tag=04MU}
 
 *Cho $A$ là một vành và $R$ là một $A$-đại số (không nhất thiết giao hoán). Một phần tử $x \in R$ được gọi là nguyên trên $A$ nếu nó thỏa mãn các tính chất tương đương ($E_1$), ($E_{II}$), ($E_{III}$) của Định lý 1.*
 
@@ -112,7 +112,7 @@ Một quan hệ có dạng $P(x) = 0$, trong đó $P$ là một đa thức *đơ
 
 *Ví dụ*
 
-#### Ví dụ 1 {#ac-v-s1-n1-exa-1 .statement}
+#### Ví dụ 1 {#ac-v-s1-n1-exa-1 .statement tag=04MV}
 
 Cho $K$ là một trường (giao hoán) và $R$ là một $K$-đại số; nói rằng một phần tử $x \in R$ là nguyên trên $K$ tương đương với nói rằng $x$ là một nghiệm của một đa thức *không hằng* trong vành $K[X]$; tổng quát hóa thuật ngữ được đưa vào khi $R$ là một *mở rộng* của $K$ (*Đại số*, Chương V, § 3, no. 3), các phần tử $x \in R$ nguyên trên $K$ còn được gọi là các phần tử *đại số* của $R$ trên $K$.
 
@@ -124,17 +124,17 @@ Nhận xét
 
 (1) Cho $A'$ là vành con của $R$ (được chứa trong tâm của $R$) là ảnh của $A$ qua đồng cấu vành $A \to R$ xác định cấu trúc đại số trên $A$ của $R$. Rõ ràng là tương đương khi nói rằng một phần tử của $R$ là nguyên trên $A$ hoặc là nguyên trên $A'$.
 
-#### Ví dụ 2 {#ac-v-s1-n1-exa-2 .statement}
+#### Ví dụ 2 {#ac-v-s1-n1-exa-2 .statement tag=04MW}
 
 Cho $R'$ là một đại số con trên $A$ của $R$; các phần tử của $R'$ nguyên trên $A$ chính là các phần tử của $R$ nguyên trên $A$ và thuộc $R'$; điều này thường cho phép ta không cần chỉ rõ đại số mà một phần tử nguyên trên $A$ thuộc về, khi không thể có sự nhầm lẫn.
 
-#### Mệnh đề 1 {#ac-v-s1-prop-1 .statement}
+#### Mệnh đề 1 {#ac-v-s1-prop-1 .statement tag=04MX}
 
 *Cho $A$ là một vành, $R$ là một đại số trên $A$ (không nhất thiết giao hoán) và $x$ là một phần tử của $R$. Để $x$ nguyên trên $A$, cần và đủ rằng $A[x]$ được chứa trong một đại số con $R'$ của $R$ là một A-môđun sinh hữu hạn.*
 
 Điều kiện này hiển nhiên là cần do tính chất (E_{II}); nó cũng đủ do (E_{III}), vì $R'$ là một $A[x]$-môđun trung thành (vì nó chứa phần tử đơn vị của $R$).
 
-#### Hệ quả {#ac-v-s1-n1-cor-1 .statement}
+#### Hệ quả {#ac-v-s1-n1-cor-1 .statement tag=04MY}
 
 *Cho $A$ là một vành Noether, $R$ là một $A$-đại số (không nhất thiết giao hoán) và $x$ là một phần tử của $R$. Để $x$ nguyên trên $A$, cần và đủ rằng tồn tại một A-môđun con sinh hữu hạn của $R$ chứa $A[x]$.*
 
@@ -142,7 +142,7 @@ Cho $R'$ là một đại số con trên $A$ của $R$; các phần tử của $
 
 Giả thiết rằng $A$ là Noether không thể bỏ khỏi mệnh đề (Bài tập 2).
 
-#### Định nghĩa 2 {#ac-v-s1-def-2 .statement}
+#### Định nghĩa 2 {#ac-v-s1-def-2 .statement tag=04MZ}
 
 *Cho $A$ là một vành. Một đại số trên $A$ $R$ (không nhất thiết giao hoán) được gọi là nguyên trên $A$ nếu mọi phần tử của $R$ đều nguyên trên $A$. $R$ được gọi là hữu hạn trên $A$ nếu $R$ là một A-môđun sinh hữu hạn.*
 
@@ -150,7 +150,7 @@ Từ Mệnh đề 1 suy ra rằng mọi đại số trên $A$ hữu hạn đều
 
 *Ví dụ (4)* Nếu $M$ là một $A$-môđun sinh hữu hạn, thì đại số $\mathrm{End}_A(M)$ của các tự đồng cấu của $M$ là nguyên trên $A$ nhờ (E_{III}); đặc biệt, với mọi số nguyên $n$, đại số ma trận $M_n(A) = \mathrm{End}_A(A^n)$ là nguyên (và thậm chí hữu hạn) trên $A$.
 
-#### Mệnh đề 2 {#ac-v-s1-prop-2 .statement}
+#### Mệnh đề 2 {#ac-v-s1-prop-2 .statement tag=04N0}
 
 *Cho $A, A'$ là hai vành, $R$ là một $A$-đại số, $R$ là một $A'$-đại số (không nhất thiết giao hoán) và $f : A \to A'$ cùng $g : R \to R'$ là hai đồng cấu vành sao cho biểu đồ
 
@@ -170,33 +170,33 @@ $$
 (g(x))^n + f(a_1)(g(x))^{n-1} + \cdots + f(a_n) = 0.
 $$*
 
-#### Hệ quả 1 {#ac-v-s1-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s1-prop-2-cor-1 .statement tag=04N1}
 
 *Cho $A$ là một vành, $B$ là một $A$-đại số (giao hoán) và $C$ là một $B$-đại số (không nhất thiết giao hoán). Khi đó mọi phần tử $x \in C$ nguyên trên $A$ đều nguyên trên $B$.*
 
-#### Hệ quả 2 {#ac-v-s1-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s1-prop-2-cor-2 .statement tag=04N2}
 
 *Cho $K$ là một trường, $L$ là một mở rộng của $K$ và $x, x'$ là hai phần tử của $L$ liên hợp trên $K$ (Đại số, Chương V, § 6, no. 2). Nếu $A$ là một vành con của $K$ và $x$ nguyên trên $A$, thì $x'$ cũng nguyên trên $A$.*
 
 Tồn tại một $K$-đẳng cấu $f$ của $K(x)$ lên $K(x')$ sao cho $f(x) = x'$ và các phần tử của $A$ bất biến dưới $f$.
 
-#### Hệ quả 3 {#ac-v-s1-prop-2-cor-3 .statement}
+#### Hệ quả 3 {#ac-v-s1-prop-2-cor-3 .statement tag=04N3}
 
 *Cho $A$ là một vành, $B$ là một $A$-đại số (giao hoán) và $C$ là một $B$-đại số (không nhất thiết giao hoán). Nếu $C$ nguyên trên $A$, thì $C$ nguyên trên $B$.*
 
-#### Mệnh đề 3 {#ac-v-s1-prop-3 .statement}
+#### Mệnh đề 3 {#ac-v-s1-prop-3 .statement tag=04N4}
 
 *Cho $(R_i)_{1 \leq i \leq n}$ là một họ hữu hạn các đại số trên $A$ (không nhất thiết giao hoán) và cho $R = \prod_{i=1}^n R_i$ là tích của chúng. Để một phần tử $x = (x_i)_{1 \leq i \leq n}$ của $R$ nguyên trên $A$, điều kiện cần và đủ là mỗi $x_i$ đều nguyên trên $A$. Để $R$ nguyên trên $A$, điều kiện cần và đủ là mỗi $R_i$ đều nguyên trên $A$.*
 
 Hiển nhiên chỉ cần chứng minh mệnh đề thứ nhất. Điều kiện này là cần theo Mệnh đề 2. Ngược lại, nếu mỗi $x_i$ đều nguyên trên $A$, thì đại số con $A[x_i]$ của $R_i$ là một $A$-môđun hữu hạn sinh và do đó đại số con $\prod_{i=1}^n A[x_i]$ của $R$ cũng vậy; vì $A[x]$ được chứa trong đại số con này, nên $x$ nguyên trên $A$ theo Mệnh đề 1.
 
-#### Mệnh đề 4 {#ac-v-s1-prop-4 .statement}
+#### Mệnh đề 4 {#ac-v-s1-prop-4 .statement tag=04N5}
 
 *Cho $A$ là một vành, $R$ là một đại số trên $A$ (không nhất thiết giao hoán) và $(x_i)_{1 \leq i \leq n}$ là một họ hữu hạn các phần tử của $R$ từng đôi một giao hoán. Nếu, với mọi $i$, $x_i$ nguyên trên $A[x_1, \ldots, x_{i-1}]$ (và đặc biệt nếu mọi $x_i$ đều nguyên trên $A$), thì đại số con $A[x_1, \ldots, x_n]$ của $R$ là một $A$-môđun hữu hạn sinh.*
 
 Ta chứng minh bằng quy nạp theo $n$, mệnh đề này chỉ là (E_{II}) khi $n = 1$. Giả thiết quy nạp suy ra rằng $B = A[x_1, \ldots, x_{n-1}]$ là một A-môđun hữu hạn sinh; vì $x_n$ nguyên trên $B$, nên $B[x_n] = A[x_1, \ldots, x_n]$ là một B-môđun hữu hạn sinh và do đó cũng là một A-môđun hữu hạn sinh (Đại số, Chương II, § 1, no. 13, Mệnh đề 25).
 
-#### Hệ quả 1 {#ac-v-s1-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s1-prop-4-cor-1 .statement tag=04N6}
 
 Cho $A$ là một vành và $R$ là một A-đại số (giao hoán). Tập hợp các phần tử $\& R$ nguyên trên $A$ là một đại số con của $R$.
 
@@ -204,7 +204,7 @@ Thật vậy, nếu $x, y$ là hai phần tử của $R$ nguyên trên $A$, thì
 
 Trong một đại số không giao hoán, tổng và tích của hai phần tử nguyên trên $A$ không nhất thiết nguyên trên $A$ (Bài tập 4).
 
-#### Hệ quả 2 {#ac-v-s1-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s1-prop-4-cor-2 .statement tag=04N7}
 
 Cho $A$ là một vành, $R$ là một đại số trên A (không nhất thiết giao hoán) và $E$ là một tập hợp $\&$ phần tử $\& R$ từng đôi một giao hoán với nhau và nguyên trên $A$. Khi đó đại số con trên A $B \& R$ sinh bởi $E$ là nguyên trên $A$.
 
@@ -212,25 +212,25 @@ Mọi phần tử của $B$ đều thuộc một đại số con trên A của $
 
 Nhận xét (3) Suy ra từ Mệnh đề 4 rằng mọi đại số giao hoán trên A nguyên trên $A$ là hợp của một họ có hướng phải của các đại số con hữu hạn trên $A$.
 
-#### Mệnh đề 5 {#ac-v-s1-prop-5 .statement}
+#### Mệnh đề 5 {#ac-v-s1-prop-5 .statement tag=04N8}
 
 Cho $A$ là một vành và $A$ và $R$ là hai đại số trên A (giao hoán). Nếu $R$ là nguyên trên $A$, thì $R \otimes_A A'$ là nguyên trên $A'$.
 
 Xét một phần tử bất kỳ $x' = \sum_{i=1}^n x_i \otimes a'_i$ của $R \otimes_A A'$, trong đó các $x_i$ thuộc $R$ và các $a'_i$ thuộc $A'$; vì $x_i \otimes a'_i = (x_i \otimes 1)a'_i$ và các $x_i \otimes 1$ là nguyên trên $A'$ (Mệnh đề 2), nên $x$ cũng vậy.
 
-#### Hệ quả {#ac-v-s1-n1-cor-2 .statement}
+#### Hệ quả {#ac-v-s1-n1-cor-2 .statement tag=04N9}
 
 Cho $R$ là một vành và $A, B, C$ là các vành con $\& R$ sao cho $A \subset B$. Nếu $B$ là nguyên trên $A$, thì $C[B]$ là nguyên trên $C[A]$.
 
 $B \otimes_A C[A]$ là nguyên trên $C[A]$ theo Mệnh đề 5 và do đó ảnh chính tắc $C[B]$ của $B \otimes_A C[A]$ trong $R$ (được xem như một đại số trên A) cũng vậy theo Mệnh đề 2.
 
-#### Mệnh đề 6 {#ac-v-s1-prop-6 .statement}
+#### Mệnh đề 6 {#ac-v-s1-prop-6 .statement tag=04NA}
 
 Cho $A$ là một vành, $B$ là một đại số trên A (giao hoán) và $C$ là một đại số trên B (không nhất thiết giao hoán). Nếu $B$ là nguyên trên $A$ và $C$ là nguyên trên $B$, thì $C$ là nguyên trên $A$.
 
 Ta chỉ cần kiểm tra rằng mọi $x \in C$ đều nguyên trên $A$. Theo giả thiết tồn tại một đa thức đơn khởi $X^n + b_1 X^{n-1} + \cdots + b$, với các hệ số trong $B$ nhận $x$ làm nghiệm; khi đó $x$ là nguyên trên $B' = A[b_1, \ldots, b_n]$ và $B'[x]$ do đó là một B-môđun sinh hữu hạn. Nhưng vì $B$ nguyên trên $A$, $B'$ là một A-môđun sinh hữu hạn (Mệnh đề 4); ta kết luận rằng B'[x] cũng là một A-môđun sinh hữu hạn (Đại số, Chương 11, § 1, no. 13, Mệnh đề 25) và do đó x là nguyên trên A.
 
-#### Hệ quả {#ac-v-s1-n1-cor-3 .statement}
+#### Hệ quả {#ac-v-s1-n1-cor-3 .statement tag=04NB}
 
 *Cho A là một vành và R, R' là hai đại số trên A (giao hoán) nguyên trên A. Khi đó R $\otimes_A$ R' là nguyên trên A.*
 
@@ -238,7 +238,7 @@ $R \otimes_A R$ là nguyên trên R (Mệnh đề 5) và do đó hệ quả suy 
 
 ### 2. BAO ĐÓNG NGUYÊN CỦA MỘT VÀNH. CÁC MIỀN NGUYÊN ĐÓNG
 
-#### Định nghĩa 3 {#ac-v-s1-def-3 .statement}
+#### Định nghĩa 3 {#ac-v-s1-def-3 .statement tag=04NC}
 
 *Cho A là một vành và R là một đại số trên A (giao hoán). Đại số con-A A' của R gồm các phần tử của R nguyên trên A (no. 1, Hệ quả 1 của Mệnh đề 4) được gọi là bao đóng nguyên của A trong R. Nếu A' bằng ảnh chính tắc của A trong R, thì A được gọi là đóng nguyên trong R.*
 
@@ -248,19 +248,19 @@ Nhận xét
 
 (2) Nếu A là một trường, bao đóng nguyên $A'$ của A trong R gồm các phần tử của R đại số trên A (no. 1, Ví dụ 1); tổng quát hóa thuật ngữ được dùng cho các mở rộng trường (Đại số, Chương V, § 3, no. 3), khi đó A' còn được gọi là bao đóng đại số của trường A trong đại số R và A được gọi là đóng đại số trong R nếu $A' = A$.
 
-#### Định nghĩa 4 {#ac-v-s1-def-4 .statement}
+#### Định nghĩa 4 {#ac-v-s1-def-4 .statement tag=04ND}
 
 *Nếu A là một miền nguyên, bao đóng nguyên của A trong trường phân thức của nó được gọi là bao đóng nguyên của A. Một miền nguyên được gọi là đóng nguyên nếu nó bằng bao đóng nguyên của nó.*
 
 Chú ý rằng một miền nguyên đóng nguyên không nhất thiết đóng trong mọi vành chứa nó, như ví dụ về một trường không đóng đại số chỉ ra.
 
-#### Mệnh đề 7 {#ac-v-s1-prop-7 .statement}
+#### Mệnh đề 7 {#ac-v-s1-prop-7 .statement tag=04NE}
 
 *Cho A là một vành và R là một đại số trên A. Bao đóng nguyên A' của A trong R là một vành con đóng nguyên trong R.*
 
 Bao đóng nguyên của A' trong R là nguyên trên A theo no. 1, Mệnh đề 6; do đó nó bằng A'.
 
-#### Hệ quả {#ac-v-s1-n2-cor-1 .statement}
+#### Hệ quả {#ac-v-s1-n2-cor-1 .statement tag=04NF}
 
 *Bao đóng nguyên của một miền nguyên A là một miền nguyên đóng nguyên.*
 
@@ -268,35 +268,35 @@ Gọi K là trường phân thức của A và B là bao đóng nguyên của A.
 
 K là trường phân thức của B và chỉ cần áp dụng Mệnh đề 7 cho $R = K$.
 
-#### Mệnh đề 8 {#ac-v-s1-prop-8 .statement}
+#### Mệnh đề 8 {#ac-v-s1-prop-8 .statement tag=04NG}
 
 *Cho $R$ là một vành, $(B_\lambda)_{\lambda \in L}$ là một họ các vành con của $R$ và với mỗi $\lambda \in L$ cho $A_\lambda$ là một vành con của $B_\lambda$. Nếu mỗi $A_\lambda$ đóng nguyên trong $B_\lambda$, thì $A = \bigcap_{\lambda \in L} A_\lambda$ đóng nguyên trong $B = \bigcap_{\lambda \in L} B_\lambda$.*
 
 Điều này suy ra ngay lập tức từ Định nghĩa 3 và no. 1, Hệ quả 1 của Mệnh đề 2.
 
-#### Hệ quả {#ac-v-s1-n2-cor-2 .statement}
+#### Hệ quả {#ac-v-s1-n2-cor-2 .statement tag=04NH}
 
 *Mọi giao của một họ không rỗng các miền con đóng nguyên của một miền nguyên $A$ là một miền nguyên đóng nguyên.*
 
 Chỉ cần áp dụng Mệnh đề 8 bằng cách lấy $R$ và các $B_\lambda$ bằng trường phân thức $K$ của $A$ và nhận xét rằng một vành con của $K$ đóng nguyên trong $K$ là *a fortiori* một miền nguyên đóng nguyên vì trường phân thức của nó được chứa trong $K$.
 
-#### Mệnh đề 9 {#ac-v-s1-prop-9 .statement}
+#### Mệnh đề 9 {#ac-v-s1-prop-9 .statement tag=04NI}
 
 *Cho $A$ là một vành, $(R_i)_{1 \leq i \leq n}$ là một họ hữu hạn các đại số trên $A$ và $A'_i$ là bao đóng nguyên của $A$ trong $R_i$, $(1 \leq i \leq n)$. Khi đó bao đóng nguyên của $A$ trong $R = \prod_{i=1}^n R_i$, bằng $\prod_{i=1}^n A'_i$.*
 
 Đây là một hệ quả ngay lập tức của no. 1, Mệnh đề 3.
 
-#### Hệ quả 1 {#ac-v-s1-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s1-prop-9-cor-1 .statement tag=04NJ}
 
 *Cho $A$ là một vành Noether rút gọn, $p_i$ $(1 \leq i \leq n)$ là các iđêan nguyên tố tối tiểu phân biệt của nó, $K$, trường phân thức của miền nguyên $A/p_i$ (đẳng cấu chính tắc với vành địa phương $A_{p_i}$ (Chương IV, § 2, no. 5, Mệnh đề 10)) và $A'_i$ là bao đóng nguyên của $A$ trong $K$, $(1 \leq i \leq n)$. Khi đó đẳng cấu chính tắc của vành phân thức tổng $B$ của $A$ lên $\prod_{i=1}^n K_i$ (loc. cit.) gửi bao đóng nguyên của $A$ trong $B$ lên vành tích $\prod_{i=1}^n A'_i$.*
 
-#### Hệ quả 2 {#ac-v-s1-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s1-prop-9-cor-2 .statement tag=04NK}
 
 *Một vành Noether rút gọn là đóng nguyên trong vành phân thức của nó khi và chỉ khi nó là một hợp thành trực tiếp của các miền (Noether) đóng nguyên.*
 
 ### 3. CÁC VÍ DỤ VỀ MIỀN ĐÓNG NGUYÊN
 
-#### Mệnh đề 10 {#ac-v-s1-prop-10 .statement}
+#### Mệnh đề 10 {#ac-v-s1-prop-10 .statement tag=04NL}
 
 *Mọi miền iđêan chính đều đóng nguyên.*
 
@@ -304,13 +304,13 @@ Cho $A$ là một miền iđêan chính, $K$ là trường phân thức của n�
 
 X^n + c_1 X^{n-1} + \ldots + c_n \text{ của } A[X]. Khi đó $a^n = b(-c_1 a^{n-1} - \ldots - c_n b^{n-1})$, điều đó chứng tỏ rằng $b$ chia $a''$. Vì $a$ và $b$ nguyên tố cùng nhau, suy ra $b$ khả nghịch trong $A$ (*Đại số*, Chương VI, § 1, no. 12, Hệ quả 1 của Mệnh đề 11 (DIV)); do đó $x \in A$.
 
-#### Bổ đề 2 {#ac-v-s1-lem-2 .statement}
+#### Bổ đề 2 {#ac-v-s1-lem-2 .statement tag=04NM}
 
 *Cho R là một vành và P là một đa thức đơn khởi trong R[X]. Tồn tại một vành R' chứa R sao cho trong vành đa thức R'[X], đa thức P là một tích của các đa thức đơn khởi bậc 1.*
 
 Ta chứng minh bằng quy nạp theo bậc $n$ của P, bổ đề là hiển nhiên với $n = 0$ và $n = 1$. Vì thế giả sử $n > 1$. Cho $a$ là iđêan của $R[X]$ được sinh bởi P và cho $f$ là đồng cấu chính tắc của $R[X]$ lên $B = R[X]/a$. Vì P là đơn khởi, với mọi đa thức $Q \in R[X]$, $\deg(PQ) = \deg(P) + \deg(Q)$, do đó $a \cap R = 0$; vì thế hạn chế của $f$ lên R là đơn ánh. Đồng nhất R với vành con $f(R)$ của B qua $f$ và viết $b = f(X)$, ta thấy rằng $b$ là một nghiệm của P trong B, P được xét như một đa thức trong $B[X]$. Khi đó tồn tại một đa thức đơn khởi Q trong $B[X]$ bậc $n - 1$ sao cho $P(X) = (X - b)Q(X)$ (*Đại số*, Chương IV, § 1, no. 4, Mệnh đề 5). Theo giả thiết quy nạp tồn tại một vành $R' \supseteq B$ sao cho trong $R'[X]$ đa thức Q là một tích của các đa thức đơn khởi bậc 1; hiển nhiên trong $R'[X]$ khi đó P là một tích của các đa thức đơn khởi bậc 1.
 
-#### Mệnh đề 11 {#ac-v-s1-prop-11 .statement}
+#### Mệnh đề 11 {#ac-v-s1-prop-11 .statement tag=04NN}
 
 *Cho A là một vành, R là một A-đại số và P và Q là các đa thức đơn khởi trong R[X]. Nếu các hệ số của PQ nguyên trên A, thì các hệ số của P và Q nguyên trên A.*
 
@@ -322,7 +322,7 @@ các hệ số của P Q thuộc bao đóng nguyên $A'$ của A trong R' và do
 
 Cho A là một miền nguyên, K là trường các phân thức của nó và K' là một đại số trên K (không nhất thiết giao hoán). Cho một phần tử $x \in K'$ đại số trên K, các đa thức $P \in K[X]$ sao cho $P(x) = 0$ tạo thành một iđêan $a \neq 0$ của $K[X]$, nhất thiết chính (Đại số, Chương IV, § 1, no. 5, Mệnh đề 7). Tồn tại một đa thức đơn khởi duy nhất sinh ra a; bằng cách mở rộng thuật ngữ đã đưa vào trong Đại số, Chương V, § 3, no. 1, Định nghĩa 3, đa thức đơn khởi này sẽ được gọi là đa thức tối tiểu của x trên K.
 
-#### Hệ quả {#ac-v-s1-n3-cor-1 .statement}
+#### Hệ quả {#ac-v-s1-n3-cor-1 .statement tag=04NO}
 
 *Cho A là một miền nguyên, K là trường các phân thức của nó và x là một phần tử của một đại số trên K K* (không nhất thiết giao hoán). *Nếu x là nguyên trên A, các hệ số của đa thức tối tiểu $P$ của $x$ trên $K$ là nguyên trên $A$ (và do đó chúng thuộc $A$ nếu $A$ đóng nguyên).
 
@@ -330,7 +330,7 @@ Theo giả thiết (no. 1, Định lý 1), tồn tại một đa thức đơn kh
 
 Cho $A$ là một vành và $R$ là một đại số trên $A$ (giao hoán); đồng cấu $\phi : A \to R$ xác định cấu trúc đại số trên $A$ của $R$ có thể được mở rộng duy nhất thành một đồng cấu $A[X] \to R[X]$ của các vành đa thức trên $A$ và $R$, giữ $X$ bất biến và do đó $R[X]$ được trang bị một cấu trúc đại số trên $A[X]$ chính tắc.
 
-#### Mệnh đề 12 {#ac-v-s1-prop-12 .statement}
+#### Mệnh đề 12 {#ac-v-s1-prop-12 .statement tag=04NP}
 
 Cho $A$ là một vành, $R$ là một đại số trên $A$ và $P$ là một đa thức trong $R[X_1, \ldots, X_n]$. Để $P$ là nguyên trên $A[X_1, \ldots, X_n]$, điều kiện cần và đủ là các hệ số của $P$ là nguyên trên $A$.
 
@@ -366,29 +366,29 @@ $$
 
 của $R[X]$ cũng là đơn khởi; hơn nữa, vì các hệ số của $G_i$ thuộc về $A$, Mệnh đề 11 chỉ ra rằng $P_1$ có các hệ số nguyên trên $A$ và các hệ số của $P$ do đó chắc chắn là nguyên trên $A$.
 
-#### Mệnh đề 13 {#ac-v-s1-prop-13 .statement}
+#### Mệnh đề 13 {#ac-v-s1-prop-13 .statement tag=04NQ}
 
 Cho $A$ là một vành, $\mathbf{R}$ là một $A$-đại số và $A'$ là bao đóng nguyên của $A$ trong $\mathbf{R}$. Khi đó bao đóng nguyên của $A[X_1, \ldots, X_n]$ trong $\mathbf{R}[X_1, \ldots, X_n]$ bằng $A'[X_1, \ldots, X_n]$.
 
 Điều này suy ra từ Mệnh đề 12 và Định nghĩa 3 của no. 2.
 
-#### Hệ quả 1 {#ac-v-s1-prop-13-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s1-prop-13-cor-1 .statement tag=04NR}
 
 Cho $A$ là một miền nguyên và $A'$ là bao đóng nguyên của nó. Khi đó bao đóng nguyên của vành đa thức $A[X_1, \ldots, X_n]$ là $A'[X_1, \ldots, X_n]$.
 
 Lập luận bằng quy nạp theo $n$, bài toán được rút gọn ngay lập tức về trường hợp $n = 1$. Cho $K$ là trường các phân thức của $A$, cũng là trường các phân thức của $A'$; nếu một phần tử $P$ của trường các phân thức $K(X)$ của $A[X]$ là nguyên trên $A[X]$, nó thuộc về vành đa thức $K[X]$, vì vành sau là một miền iđêan chính (Đại số, Chương IV, § 1, no. 5, Mệnh đề 7) và do đó đóng nguyên (Mệnh đề 10); hệ quả khi đó suy ra từ Mệnh đề 13 áp dụng cho $\mathbf{R} = K$.
 
-#### Hệ quả 2 {#ac-v-s1-prop-13-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s1-prop-13-cor-2 .statement tag=04NS}
 
 Cho $A$ là một miền nguyên. Để vành đa thức $A[X_1, \ldots, X_n]$ đóng nguyên, điều kiện cần và đủ là $A$ đóng nguyên.
 
-#### Hệ quả 3 {#ac-v-s1-prop-13-cor-3 .statement}
+#### Hệ quả 3 {#ac-v-s1-prop-13-cor-3 .statement tag=04NT}
 
 Nếu $K$ là một trường, mọi đại số đa thức $K[X_1, \ldots, X_n]$ đều là một miền đóng nguyên.
 
 ### 4. CÁC MIỀN NGUYÊN ĐÓNG HOÀN TOÀN
 
-#### Định nghĩa 5 {#ac-v-s1-def-5 .statement}
+#### Định nghĩa 5 {#ac-v-s1-def-5 .statement tag=04NU}
 
 Một miền nguyên $A$ được gọi là đóng nguyên hoàn toàn nếu điều kiện sau được thỏa mãn: mọi phần tử $x$ của trường phân thức $K$ của $A$ sao cho tất cả các lũy thừa $x^n$ ($n \geqslant 0$) được chứa trong một A-môđun con sinh hữu hạn của $K$, đều thuộc về $A$.
 
@@ -396,7 +396,7 @@ Chú ý rằng giả thiết các $x^n$ được chứa trong một A-môđun co
 
 Rõ ràng một miền đóng nguyên hoàn toàn là đóng nguyên; ngược lại, Hệ quả của Mệnh đề 1 của no. 1 chỉ ra rằng một miền Noether đóng nguyên là đóng nguyên hoàn toàn. \* Mặt khác, vành của một định giá có chiều cao $\geqslant 2$ (Chương VI, § 4, no. 4) là đóng nguyên nhưng không đóng nguyên hoàn toàn. \* Nếu $(A_i)$ là một họ các miền đóng nguyên hoàn toàn có cùng trường phân thức $K$, thì $A = \bigcap_i A_i$ là đóng nguyên hoàn toàn. Thật vậy, nếu $x \in K$ là sao cho với một $d$ khác không nào đó trong $A$, $dx^n$ thuộc về $A$ với mọi $n > 0$, thì giả thiết suy ra rằng $x \in A$, với mọi $i$ và do đó $x \in A$.
 
-#### Mệnh đề 14 {#ac-v-s1-prop-14 .statement}
+#### Mệnh đề 14 {#ac-v-s1-prop-14 .statement tag=04NV}
 
 *Cho $A$ là một miền nguyên đóng nguyên hoàn toàn. Khi đó mọi vành đa thức $A[X_1, \ldots, X_n]$ (tương ứng mọi vành chuỗi lũy thừa hình thức $A[[X_1, \ldots, X_n]]$) đều đóng nguyên hoàn toàn.*
 
@@ -410,7 +410,7 @@ $$
 
 thì suy ra ngay lập tức từ giả thiết rằng cũng có $Q(P - P_1)^m \in A[X]$ (tương ứng $Q(P - P_1)^m \in A[[X]]$) với mọi $m \geq 0$. Gọi $j$ là số nguyên nhỏ nhất sao cho $b_j \neq 0$; rõ ràng trong $Q(P - P_1)^m$, số hạng có bậc nhỏ nhất với hệ số $\neq 0$ là $b_j a_i^m X^{j + mi}$ và do đó $b_j a_i^m \in A$ với mọi $m \geq 0$; nhưng vì $A$ là đóng nguyên hoàn toàn, điều này kéo theo $a_i \in A$, trái với giả thiết.
 
-#### Mệnh đề 15 {#ac-v-s1-prop-15 .statement}
+#### Mệnh đề 15 {#ac-v-s1-prop-15 .statement tag=04NW}
 
 *Cho $A$ là một vành lọc có lọc là đầy đủ và sao cho mọi iđêan chính của $A$ đều đóng đối với tôpô được xác định bởi lọc. Nếu vành phân bậc liên kết $\mathrm{gr}(A)$ (Chương III, § 2, no. 3) là một miền nguyên đóng nguyên hoàn toàn, thì $A$ là một miền nguyên đóng nguyên hoàn toàn.*
 
@@ -422,7 +422,7 @@ Giả sử khi đó rằng $b = a y + z$ trong đó $y \in A, z \in A_{q+1}$. Kh
 
 Cho $A$ là một vành, $R$ là một $A$-đại số và $S$ là một tập con nhân của $A$. Nhắc lại (chương II, § 2, no. 8) rằng $S^{-1}R$ có một cấu trúc $S^{-1}A$-đại số chính tắc.
 
-#### Mệnh đề 16 {#ac-v-s1-prop-16 .statement}
+#### Mệnh đề 16 {#ac-v-s1-prop-16 .statement tag=04NX}
 
 *Cho $A$ là một vành, $R$ là một $A$-đại số, $A'$ là đóng nguyên của $A$ trong $R$ và $S$ là một tập con nhân của $A$. Khi đó đóng nguyên của $S^{-1}A$ trong $S^{-1}R$ là $S^{-1}A'$.*
 
@@ -452,25 +452,25 @@ $$
 
 và do đó tồn tại $s' \in S$ sao cho ${s'}^n(sr^n + a_1 r^{n-1} + \ldots + a_n) = 0$; ta suy ra rằng $(s'sr)^n + s'a_1(s'sr)^{n-1} + \ldots + {s'}^ns^{n-1}a_n = 0$. Theo định nghĩa, do đó $s'sr \in A'$, do đó $r/1 \in S^{-1}A'$ và $r/t \in S^{-1}A'$.
 
-#### Hệ quả 1 {#ac-v-s1-prop-16-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s1-prop-16-cor-1 .statement tag=04NY}
 
 Cho $A$ là một miền nguyên, $A'$ là bao đóng nguyên của nó và $S$ là một tập con nhân của $A$ sao cho $0 \notin S$. Khi đó bao đóng nguyên của $S^{-1}A$ là $S^{-1}A'$.
 
 Trường phân thức $R$ của $A$ cũng là trường phân thức của $S^{-1}A$ vì $0 \notin S$ (Chương II, § 1, no. 1, Nhận xét 7); khi đó Mệnh đề 16 được áp dụng cho $R$.
 
-#### Hệ quả 2 {#ac-v-s1-prop-16-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s1-prop-16-cor-2 .statement tag=04NZ}
 
 Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó, $R$ là một đại số trên $K$ và $B$ là bao đóng nguyên của $A$ trong $R$. Các phần tử của $R$ đại số trên $K$ (no. 1, Ví dụ 1) là các phần tử có dạng $a^{-1} b$ trong đó $b \in B$ và $a \in A, a \neq 0$; nếu $L$ là bao đóng đại số của $K$ trong $R$, thì tồn tại một cơ sở của $L$ trên $K$ được chứa trong $B$.
 
 Khẳng định đầu tiên suy ra từ Mệnh đề 16 áp dụng trong trường hợp $S = A - \{0\}$. Nếu $(x_i)_{i \in I}$ là một cơ sở của $L$ trên $K$, thì với mọi $i \in I$ tồn tại một phần tử $a_i \neq 0$ của $A$ sao cho $a_i x_i \in B$; khi đó $(a_i x_i)_{i \in I}$ cũng là một cơ sở của $L$ trên $K$.
 
-#### Hệ quả 3 {#ac-v-s1-prop-16-cor-3 .statement}
+#### Hệ quả 3 {#ac-v-s1-prop-16-cor-3 .statement tag=04O0}
 
 Cho $A$ là một miền nguyên và $\Omega$ là tập hợp các iđêan cực đại của $A$. Để $A$ đóng nguyên, điều kiện cần và đủ là, với mọi $m \in \Omega$, $A_m$ đóng nguyên.
 
 Điều kiện cần suy ra từ Hệ quả 1. Điều kiện đủ, vì $A = \bigcap_{m \in \Omega} A_m$ (Chương II, § 3, no. 3, công thức (2)) và chỉ cần áp dụng Hệ quả cho Mệnh đề 8 của no. 2.
 
-#### Hệ quả 4 {#ac-v-s1-prop-16-cor-4 .statement}
+#### Hệ quả 4 {#ac-v-s1-prop-16-cor-4 .statement tag=04O1}
 
 Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó và $S$ là một tập con nhân của $A$ sao cho $0 \notin S$.
 
@@ -484,7 +484,7 @@ Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó và $
 
 Nếu $B$ là một vành con của $K$ nguyên trên $A$, linh hóa tử $f$ của $B/A$ (bằng theo định nghĩa với vành vận chuyển $A : B$ (Chương I, § 2, no. 10)) đôi khi được gọi là *vật dẫn* của $B$ trong $A$.
 
-#### Hệ quả 5 {#ac-v-s1-prop-16-cor-5 .statement}
+#### Hệ quả 5 {#ac-v-s1-prop-16-cor-5 .statement tag=04O2}
 
 *Cho $A$ là một miền nguyên, $A'$ là bao đóng nguyên của nó và $f$ là linh hóa tử của $A$-môđun $A'/A$. Giả sử rằng $A'$ là một $A$-môđun sinh hữu hạn. Các iđêan nguyên tố $p \in A$ sao cho $A_p$ không đóng nguyên là những iđêan chứa $f$.*
 
@@ -496,7 +496,7 @@ Chú ý rằng dưới các giả thiết của Hệ quả 5 $f \neq 0$ vì $A'$
 
 ### 6. CHUẨN VÀ VẾT CỦA CÁC PHẦN TỬ NGUYÊN
 
-#### Mệnh đề 17 {#ac-v-s1-prop-17 .statement}
+#### Mệnh đề 17 {#ac-v-s1-prop-17 .statement tag=04O3}
 
 *Cho $A$ là một vành, $B$ là một $A$-đại số (giao hoán) và $X$ là một ma trận vuông cấp $n$ trên $B$; các tính chất sau là tương đương:
 
@@ -518,29 +518,29 @@ $$
 
 trong $B$ giảm xuống 0, điều kiện (E_{III}) của no. 1, Định lý 1 chứng minh rằng $d$ nguyên trên $A$.
 
-#### Hệ quả 1 {#ac-v-s1-prop-17-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s1-prop-17-cor-1 .statement tag=04O4}
 
 Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó và $K'$ là một đại số $K$ hữu hạn chiều (không nhất thiết giao hoán). Nếu $x \in K'$ nguyên trên $A$, thì các hệ số của đa thức đặc trưng $Pc_{K'/K}(x; X)$ (Đại số, Chương VIII, § 12, no. 2) đều nguyên trên $A$.
 
 Nếu $z \mapsto M(z)$ là biểu diễn chính quy của đại số $K'$ (xét như một biểu diễn ma trận; xem Đại số, Chương VIII, § 13) thì $Pc_{K'/K}(x; X)$ theo định nghĩa là đa thức đặc trưng của ma trận $M(x)$; nếu $x$ nguyên trên $A$, thì ma trận $M(x)$ nguyên trên $A$ (no. 1, Mệnh đề 2) và chỉ cần áp dụng Mệnh đề 17.
 
-#### Hệ quả 2 {#ac-v-s1-prop-17-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s1-prop-17-cor-2 .statement tag=04O5}
 
 Với cùng các giả thiết và ký hiệu như trong Hệ quả 1, $Tr_{K'/K}(x)$ và $N_{K'/K}(x)$ đều nguyên trên $A$.
 
 $Tr_{K'/K}(x)$ và $N_{K'/K}(x)$, tới một dấu, là các hệ số của $Pc_{K'/K}(x; X)$ (Đại số, Chương VIII, § 12, no. 1, các phương trình (4)) và do đó đều nguyên.
 
-#### Nhận xét (1) {#ac-v-s1-n6-rem-1 .statement}
+#### Nhận xét (1) {#ac-v-s1-n6-rem-1 .statement tag=04O6}
 
 Nếu $K'$ là một đại số trung tâm đơn trên $K$ và $x \in K'$ nguyên trên $A$, thì các hệ số của đa thức đặc trưng rút gọn của $x$ (Đại số, Chương VIII, § 12, no. 3) đều nguyên trên $A$. Thật vậy, có một lũy thừa của đa thức này bằng $Pc_{K'/K}(x; X)$ (loc. cit., Mệnh đề 8) và chỉ cần áp dụng Mệnh đề 17 và no. 3, Mệnh đề 11.
 
-#### Mệnh đề 18 {#ac-v-s1-prop-18 .statement}
+#### Mệnh đề 18 {#ac-v-s1-prop-18 .statement tag=04O7}
 
 Cho $A$ là một miền nguyên đóng, $K$ là trường phân thức của nó, $K'$ là một đại số $K$ tách được hữu hạn chiều (Đại số, Chương VIII, § 7, no. 5) và $A'$ là bao đóng nguyên của $A$ trong $K'$. Khi đó $A'$ được chứa trong một $A$-môđun sinh hữu hạn.
 
 Mệnh đề sẽ suy ra từ bổ đề chính xác hơn sau đây:
 
-#### Bổ đề 3 {#ac-v-s1-lem-3 .statement}
+#### Bổ đề 3 {#ac-v-s1-lem-3 .statement tag=04O8}
 
 Dưới các giả thiết của Mệnh đề 18, cho $(w_1, ..., w_n)$ là một cơ sở của $K'$ trên $K$ nằm trong $A'$ (no. 5, Hệ quả 2 của Mệnh đề 16); khi đó tồn tại duy nhất một cơ sở $(w_1^*, ..., w_n^*)$ của $K'$ trên $K$ sao cho $Tr_{K'/K}(w_i w_j^*) = \delta_{ij}$ (chỉ số Kronecker); nếu $d = D_{K'/K}(w_1, ..., w_n)$ là biệt thức của cơ sở $(w_1, ..., w_n)$ (Đại số, Chương IX, § 2), thì $d \neq 0$ và
 
@@ -560,29 +560,29 @@ trên K' do đó không suy biến (*loc. cit.*, Mệnh đề 4); điều này c
 
 Trong hai hệ quả sau đây, các giả thiết và ký hiệu là của Mệnh đề 18.
 
-#### Hệ quả 1 {#ac-v-s1-lem-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s1-lem-3-cor-1 .statement tag=04O9}
 
 *Nếu $A$ là một vành Noether, $A$-môđun $A'$ là sinh hữu hạn và đặc biệt vành $A'$ là Noether.*
 
 $A'$ là một môđun con của một $A$-môđun sinh hữu hạn.
 
-#### Hệ quả 2 {#ac-v-s1-lem-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s1-lem-3-cor-2 .statement tag=04OA}
 
 *Nếu $A$ là một miền iđêan chính, $A'$ là một $A$-môđun tự do hạng $n$.* Khi đó, mọi môđun con của một $A$-môđun tự do đều tự do (*Đại số*, Chương VII, § 3, Định lý 1).
 
-#### Hệ quả 3 {#ac-v-s1-lem-3-cor-3 .statement}
+#### Hệ quả 3 {#ac-v-s1-lem-3-cor-3 .statement tag=04OB}
 
 *Cho $E$ là một mở rộng bậc $n$ của trường $Q$ các số hữu tỉ. Nhóm cộng của bao đóng nguyên trong $E$ của vành $Z$ các số nguyên là một nhóm giao hoán tự do hạng $n$.*
 
 $Z$ là đóng nguyên (no. 3, Mệnh đề 10) và $E$ là tách được vì $Q$ có đặc số 0. Do đó có thể áp dụng Hệ quả 2 cho trường hợp $A = Z$, $K = Q$ và $K' = E$.
 
-#### Nhận xét (2) {#ac-v-s1-n6-rem-2 .statement}
+#### Nhận xét (2) {#ac-v-s1-n6-rem-2 .statement tag=0CHU}
 
 Các kết luận của Hệ quả 1 không nhất thiết đúng nếu không giả thiết $K'$ tách được trên $K$, ngay cả khi $K'$ là một trường mở rộng của $K$ (Bài tập 20). Mặt khác, nếu $A$ là một *đại số nguyên sinh hữu hạn trên $K_0$*, trong đó $K_0$ là một *trường*, thì bao đóng nguyên của $A$ trong *bất kỳ* mở rộng nào có bậc hữu hạn của trường phân thức của $A$ là một $A$-môđun sinh hữu hạn và một vành Noether, như ta sẽ thấy ở § 3, no. 2, Định lý 2.
 
 ### 7. MỞ RỘNG VÔ HƯỚNG TRONG MỘT ĐẠI SỐ ĐÓNG NGUYÊN
 
-#### Mệnh đề 19 {#ac-v-s1-prop-19 .statement}
+#### Mệnh đề 19 {#ac-v-s1-prop-19 .statement tag=04OC}
 
 *Cho $k$ là một trường, $L$ là một mở rộng tách được của $k$ và $R$ là một $k$-đại số đóng nguyên. Nếu vành $L \otimes_k R$ là một miền nguyên, nó là đóng nguyên.*
 
@@ -615,7 +615,7 @@ và theo định nghĩa L là một mở rộng tách được hữu hạn của
 
 \* Cho V là một đa tạp đại số afin bất khả quy, $k$ là một trường định nghĩa của V và $R$ là vành các hàm chính quy trên V được xác định trên $k$; nếu R đóng nguyên, V được gọi là *chính quy trên $k$*; Mệnh đề 19 chỉ ra rằng, nếu V chính quy trên $k$, thì nó vẫn chính quy trên mọi mở rộng tách được L của $k$. \*
 
-#### Hệ quả {#ac-v-s1-n7-cor-1 .statement}
+#### Hệ quả {#ac-v-s1-n7-cor-1 .statement tag=04OD}
 
 *Cho k là một trường và R và S là hai đại số trên k đóng nguyên. Giả sử rằng vành $R \otimes_k S$ là một miền nguyên và các trường phân thức K và L của R và S tương ứng là tách được trên k. Khi đó vành $R \otimes_k S$ là một miền đóng nguyên.*
 
@@ -649,7 +649,7 @@ $$
 
 ngay lập tức suy ra rằng $j_{\mathbf{A}} : \mathbf{A} \to \mathbf{A}[X, X^{-1}]$ là một đồng cấu vành đơn ánh.
 
-#### Mệnh đề 20 {#ac-v-s1-prop-20 .statement}
+#### Mệnh đề 20 {#ac-v-s1-prop-20 .statement tag=04OE}
 
 *Cho $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} A_i$, là một vành phân bậc và $\mathbf{B}$ là một đại số con (giao hoán) phân bậc của $\mathbf{A}$. Tập hợp $\mathbf{A}'$ các phần tử của $\mathbf{B}$ nguyên trên $\mathbf{A}$ là một đại số con phân bậc của $\mathbf{B}$.
 
@@ -673,7 +673,7 @@ Giả sử bây giờ $x \in A'_i$ với $i < 0$; nhận xét ở đầu mục n
 
 Nhắc lại (Chương II, § 2, no. 9) rằng, nếu $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ là một vành phân bậc và $S$ là một tập con nhân của $\mathbf{A}$ gồm các phần tử *thuần nhất*, thì một cấu trúc vành phân bậc được xác định trên $S^{-1}\mathbf{A}$ bằng cách lấy tập $(S^{-1}\mathbf{A})_i$ các phần tử thuần nhất bậc $i$ làm tập các phần tử có dạng $a/s$, trong đó $a \in \mathbf{A}$ và $s \in S$ là thuần nhất và sao cho $\deg(a) - \deg(s) = i$
 
-#### Bổ đề 4 {#ac-v-s1-lem-4 .statement}
+#### Bổ đề 4 {#ac-v-s1-lem-4 .statement tag=04OF}
 
 Cho $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ là một miền nguyên phân bậc và $S$ là tập các phần tử thuần nhất khác $0$ của $\mathbf{A}$.
 
@@ -683,25 +683,25 @@ Cho $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ là một miền ng
 
 Các mệnh đề trong (i) suy ra ngay lập tức từ các định nghĩa và giả thiết rằng $\mathbf{A}$ là một miền nguyên, vì nếu $a/s$ và $a'/s'$ là hai phần tử thuần nhất $\neq 0$ của $S^{-1}\mathbf{A}$ có bậc $i$ và $i'$, thì $aa'/ss'$ là một phần tử thuần nhất $\neq 0$ và có bậc $i + i'$. Để chứng minh (ii), ta nhận thấy rằng vì $t$ khả nghịch trong $S^{-1}\mathbf{A}$ nên đồng cấu $f$ kéo dài một cách duy nhất thành một đồng cấu $\tilde{f}: K_0[X, X^{-1}] \to S^{-1}\mathbf{A}$ và tất yếu $\tilde{f}(X^{-1}) = t^{-1}$. Mặt khác, theo định nghĩa của $q$, mọi phần tử thuần nhất $\neq 0$ của $S^{-1}\mathbf{A}$ đều có bậc $qn \ (n \in \mathbf{Z})$ và do đó có thể viết duy nhất dưới dạng $\lambda t^n$ với $\lambda \in K_0$ (vì $S^{-1}\mathbf{A}$ là một miền nguyên); suy ra $\tilde{f}$ là song ánh. Cuối cùng, ta biết rằng $K_0[X]$ đóng nguyên (no. 3, Mệnh đề 10) và do đó $K_0[X, X^{-1}]$ cũng vậy (no. 5, Hệ quả 1 của Mệnh đề 16), điều này hoàn tất chứng minh của Bổ đề.
 
-#### Mệnh đề 21 {#ac-v-s1-prop-21 .statement}
+#### Mệnh đề 21 {#ac-v-s1-prop-21 .statement tag=04OG}
 
 Cho $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ là một miền nguyên phân bậc và $S$ là tập hợp các phần tử thuần nhất $\neq 0$ của $\mathbf{A}$. Khi đó bao đóng nguyên $\mathbf{A}'$ của $\mathbf{A}$ là một vành con phân bậc của $S^{-1}\mathbf{A}$. Nếu thêm nữa $\mathbf{A}_i = 0$ với $i < 0$, thì $\mathbf{A}'_i = 0$ với $i < 0$.
 
 Nếu $\mathbf{A} = \mathbf{A}_0$, thì mệnh đề là tầm thường. Ngược lại ta có thể áp dụng Bổ đề 4; vành $S^{-1}\mathbf{A}$ là một miền đóng nguyên và do đó $\mathbf{A} \subset S^{-1}\mathbf{A}$; vì $S^{-1}\mathbf{A}$ là phân bậc, nên $\mathbf{A}'$ cũng phân bậc theo Mệnh đề 20; mệnh đề sau cũng suy ra từ Mệnh đề 20.
 
-#### Hệ quả 1 {#ac-v-s1-prop-21-cor-1 .statement}
+#### Hệ quả 1 {#ac-v-s1-prop-21-cor-1 .statement tag=04OH}
 
 Với các giả thiết và ký hiệu của Mệnh đề 21, nếu mọi phần tử thuần nhất của $S^{-1}\mathbf{A}$ nguyên trên $\mathbf{A}$ đều thuộc $\mathbf{A}$, thì $\mathbf{A}$ là đóng nguyên.
 
 Khi đó $\mathbf{A}'_i \subset \mathbf{A}$ với mọi $i \in \mathbf{Z}$ và suy ra $\mathbf{A}' = \mathbf{A}$.
 
-#### Hệ quả 2 {#ac-v-s1-prop-21-cor-2 .statement}
+#### Hệ quả 2 {#ac-v-s1-prop-21-cor-2 .statement tag=04OI}
 
 Nếu $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ là một miền phân bậc đóng nguyên, thì miền $\mathbf{A}_0$ đóng nguyên.
 
 Trường phân thức $K_0$ của $\mathbf{A}$ được đồng nhất (theo ký hiệu của Mệnh đề 21) với một vành con của vành các phần tử thuần nhất bậc 0 của $S^{-1}A$; do đó mọi phần tử của $K_0$ nguyên trên $A$ (và *a fortiori* trên $A$) theo giả thiết đều thuộc $A$.
 
-#### Hệ quả 3 {#ac-v-s1-prop-21-cor-3 .statement}
+#### Hệ quả 3 {#ac-v-s1-prop-21-cor-3 .statement tag=04OJ}
 
 *Cho $A = \bigoplus_{i \in \mathbf{Z}} A_i$ là một miền nguyên phân bậc đóng nguyên. Khi đó, với mọi số nguyên $d > 0$, vành $A^{(d)}$ (Chương III, § 1, no. 3) là một miền nguyên đóng nguyên.*
 
@@ -713,37 +713,37 @@ Cho một vành $K$, một $K$-đại số $A$ và một nhóm $G$, ta sẽ nói
 
 Ta sẽ nói rằng $G$ là một nhóm toán tử *hữu hạn địa phương* trên $A$ nếu mọi *quỹ đạo* của $G$ trong $A$ (*Đại số*, Chương I, Sửa chữa *Fascicule* IV) đều *hữu hạn*.
 
-#### Mệnh đề 22 {#ac-v-s1-prop-22 .statement}
+#### Mệnh đề 22 {#ac-v-s1-prop-22 .statement tag=04OK}
 
 *Cho $A$ là một $K$-đại số (giao hoán) và $G$ là một nhóm toán tử hữu hạn địa phương trên $A$. Khi đó $A$ là nguyên trên đại số con $A^G$.*
 
 Với mọi $x \in A$, cho $x_i$ ($1 \leq i \leq n$) là các phần tử phân biệt của quỹ đạo của $x$ dưới tác động của $G$; với mọi $\sigma \in G$, tồn tại một phép hoán vị $\pi_\sigma$ của tập hợp $\{1, 2, \ldots, n\}$ sao cho $\sigma.x_i = x_{\pi_\sigma(i)}$ với $1 \leq i \leq n$; do đó các hàm đối xứng sơ cấp của các $x_i$ là những phần tử của $A$ bất biến dưới $G$, nói cách khác là những phần tử của $A^G$. Vì $x$ là một nghiệm của đa thức đơn khởi $\prod_{i=1}^n (X - x_i)$ và các hệ số của đa thức này thuộc $A^G$, nên $x$ là nguyên trên $A^G$.
 
-#### Định lý 2 {#ac-v-s1-thm-2 .statement}
+#### Định lý 2 {#ac-v-s1-thm-2 .statement tag=04OL}
 
 *Cho $A$ là một đại số trên $K$ sinh hữu hạn và $G$ là một nhóm hữu hạn địa phương các phép tác động trên $A$. Khi đó $A$ là một A-môđun sinh hữu hạn; nếu thêm $K$ là Noether, $A^G$ là một đại số trên $K$ sinh hữu hạn.*
 
 Gọi $(a_j)_{1 \leq j \leq m}$ là một hệ sinh của đại số trên $K$ $A$; do *a fortiori* $A = A^G[a_1, \ldots, a_l]$ và các $a_j$ là nguyên trên $A^G$ theo Mệnh đề 22, mệnh đề thứ nhất suy ra từ no. 1, Mệnh đề 4. Mệnh đề thứ hai là hệ quả của bổ đề sau:
 
-#### Bổ đề 5 {#ac-v-s1-lem-5 .statement}
+#### Bổ đề 5 {#ac-v-s1-lem-5 .statement tag=04OM}
 
 *Cho $K$ là một vành Noether, $B$ là một đại số trên $K$ sinh hữu hạn và $C$ là một đại số con trên $K$ của B sao cho B nguyên trên C. Khi đó C là một đại số trên A sinh hữu hạn.*
 
 Cho $(x_i)_{1 \leq i \leq n}$ là một hệ sinh hữu hạn của đại số trên $K$ B. Với mọi i, theo giả thiết tồn tại một đa thức đơn khởi $P_i \in C[X]$ sao cho $P_i(x_i) = 0$. Gọi C' là đại số con trên K của C sinh bởi các hệ số của các $P_i$ ($1 \leq i \leq n$); hiển nhiên các $x_i$ là nguyên trên C' và $B = C'[x_1, \ldots, x_n]$; do đó B là một môđun $C'$ sinh hữu hạn (no. 1, Mệnh đề 4). Mặt khác $C'$ là một vành Noether (Chương III, § 2, no. 10, Hệ quả 3 của Định lý 2); do đó C là một môđun $C'$ sinh hữu hạn, điều này chứng minh rằng C là một đại số trên K sinh hữu hạn.
 
-#### Nhận xét {#ac-v-s1-n9-rem-1 .statement}
+#### Nhận xét {#ac-v-s1-n9-rem-1 .statement tag=04ON}
 
 Tập các $\sigma \in G$ sao cho $\sigma a_j = a_j$ với $1 \leq j \leq m$ hiển nhiên giữ bất biến mọi phần tử của A. Nhóm con chuẩn tắc $\mathscr{H}$ của $G$ giữ bất biến mọi phần tử của A do đó có chỉ số hữu hạn trong $G$ và có thể xem A như có một nhóm hữu hạn các phép tác động $G/\mathscr{H}$; hiển nhiên $A^{G/\mathscr{H}} = A^G$.
 
 Cho S là một tập con nhân của một vành A và G là một nhóm tác động lên A và sao cho S ổn định; khi đó, với mọi $\sigma \in G$, tồn tại duy nhất một tự đồng cấu $z \mapsto q_z$ của vành $S^{-1}A$ sao cho $q_z(a/1) = (a.a)/1$ với mọi $a \in A$; nó được cho bởi công thức $\sigma.(a/s) = (\sigma.a)/(\sigma.s)$ với $a \in A$ và $s \in S$ (Chương II, § 2, no. 1, Hệ quả 2 của Mệnh đề 2); nếu $\tau$ là một phần tử khác của G, rõ ràng $q_z(\tau.z) = (\sigma\tau).z$ với mọi $z \in S^{-1}A$ và do đó nhóm G tác động lên vành $S^{-1}A$.
 
-#### Mệnh đề 23 {#ac-v-s1-prop-23 .statement}
+#### Mệnh đề 23 {#ac-v-s1-prop-23 .statement tag=04OO}
 
 Cho A là một đại số trên K, $G$ là một nhóm hữu hạn địa phương các phép tác động trên A, S là một tập con nhân của A ổn định dưới $G$ và $S^G$ là tập $S \cap A''$. Khi đó ánh xạ chính tắc từ $(S^G)^{-1}A$ đến $S^{-1}A$ (Chương II, § 2, no. 1, Hệ quả 2 của Mệnh đề 2) là một đẳng cấu đưa $(S^G)^{-1}A^G$ tới $(S^{-1}A)^G$.
 
 Với mọi $s \in S$, cho $s, s_1, \ldots, s_q$ là các phần tử phân biệt của quỹ đạo của s dưới tác động của $G$; vì $ss_1 \ldots s_q \in S^G$, mệnh đề đầu tiên suy ra từ Chương 11, § 2, no. 3, Mệnh đề 8. Đồng nhất một cách chính tắc $(S^G)^{-1}A$ với $S^{-1}A$, rõ ràng mọi phần tử của $(S^G)^{-1}A^G$ đều bất biến dưới $G$. Ngược lại, cho $a/t$ là một phần tử của $(S^G)^{-1}A$ bất biến dưới $G$ ($a \in A, t \in S^G$); nếu $a, (1 \leq j \leq m)$ là các phần tử phân biệt của quỹ đạo của $a$ dưới tác động của $G$, thì $a_j/t = a/t$ với $1 \leq j \leq m$ và do đó tồn tại $s \in S^G$ sao cho $s(a_j - a) = 0$ với $1 \leq j \leq m$; nói cách khác, sa là bất biến dưới $G$ và, vì $a/t = (sa)/(st)$, chắc chắn $a/t \in (S^G)^{-1}A^G$.
 
-#### Hệ quả {#ac-v-s1-n9-cor-1 .statement}
+#### Hệ quả {#ac-v-s1-n9-cor-1 .statement tag=04OP}
 
 Cho A là một miền nguyên, K là trường các phân thức của nó và $G$ là một nhóm hữu hạn địa phương các toán tử trên A. Khi đó $G$ tác động trên K và $K^G$ là trường các phân thức của $A^G$.
 

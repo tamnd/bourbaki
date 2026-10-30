@@ -12,14 +12,14 @@ pdf_pages: 0057-0058, 0070-0070
 extraction: ocr
 statements: 3
 exercises: 1
-content_sha256: 9fd11944f9ccd26af40fbfd7087174fd30283103e635ee58c967ecaf0bfa5f58
+content_sha256: 2e67efa01c1410cffb73e90e94fea2974820179f25619519676ed3aa28003654
 ---
 
 ## 4. FLAT MODULES AND "TOR" FUNCTORS
 
 For the benefit of readers conversant with Homological Algebra (*), we shall indicate quickly how the theory of flat modules is related to that of Tor functors.
 
-#### Proposition 1 {#ac-i-s4-prop-1 .statement}
+#### Proposition 1 {#ac-i-s4-prop-1 .statement tag=044W}
 
 Let E be a right A-module. The following four properties are equivalent:
 
@@ -69,7 +69,7 @@ $$
 
 shows that $\operatorname{Tor}_1^A(E', F) = 0$, hence E' is flat.
 
-#### Proposition 2 {#ac-i-s4-prop-2 .statement}
+#### Proposition 2 {#ac-i-s4-prop-2 .statement tag=044X}
 
 *Let R, S be two rings, $\rho : \mathbf{R} \to \mathbf{S}$ a homomorphism and F a left R-module. The following two properties are equivalent:*
 (a) $\operatorname{Tor}_1^R(\rho_*(E), F) = 0$ for every right S-module E.
@@ -107,7 +107,7 @@ $$
 
 Then it follows from (2) that $\operatorname{Tor}_1^R(\rho_*(E), F) = 0$.
 
-#### Remark {#ac-i-s4-n0-rem-1 .statement}
+#### Remark {#ac-i-s4-n0-rem-1 .statement tag=044Y}
 
 Proposition 2 also follows from the existence of the exact sequence
 

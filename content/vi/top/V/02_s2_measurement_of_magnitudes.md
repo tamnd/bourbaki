@@ -11,9 +11,9 @@ pdf_pages: 0018-0023, 0031-0031
 extraction: ocr
 statements: 5
 exercises: 2
-content_sha256: 3362f4559fbc08380244b41376518616be6497fd17d699bfebe24feff156b2e4
+content_sha256: 1f75413ba0dc6666ada73f53b6b799fb9662689a01444c3f0961773107965f86
 translated_from: content/en/top/V/02_s2_measurement_of_magnitudes.md
-source_content_sha256: b2cefe42ca2e7cd8da7c6ef7e8fa6809395ef59dc04889c406a4278d40d59ac6
+source_content_sha256: 4c0d4a053c85b93dc23047deb4096b5b7869ee2eb4c5bc580d37bfd28b4c40a9
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-66c878af
 glossary_version: 34
@@ -49,7 +49,7 @@ Nếu ta lấy E là một tập hợp các số thực $\geq 0$ chứa 0 và c�
 
 Ngược lại:
 
-#### Mệnh đề 1 {#top-v-s2-prop-1 .statement}
+#### Mệnh đề 1 {#top-v-s2-prop-1 .statement tag=0BVG}
 
 Cho E là một tập hợp có thứ tự tuyến tính với một phần tử nhỏ nhất ω; cho I là một tập con của E sao cho ω ∈ I và sao cho các quan hệ x ∈ I, y ≤ x kéo theo y ∈ I; cho (x, y) → xy là một luật hợp thành trên E, được xác định với x ∈ I và y ∈ I. Khi đó, nếu các tiên đề (GR_I), (GR_{II}), (GR_{III}) và (GR_{IV}) được thỏa mãn, tồn tại một ánh xạ tăng ngặt f từ I vào tập hợp R_+ các số thực ≥ 0, sao cho
 
@@ -120,7 +120,7 @@ nhưng $f(z) > 0$, do đó thực sự $f(x) < f(y)$.
 
 Cuối cùng, nếu $b \in I$, giao của $f(I)$ và khoảng $[0, f(b)]$ của $\mathbf{R}$ là trù mật trong khoảng này. Thật vậy, nếu $n$ là một số nguyên bất kỳ $> 0$, tồn tại $x > \omega$ sao cho $f(x) \leq 2^{-n}$ (lấy $x$ sao cho $x^{2^n} \leq a$); nếu $p$ là số nguyên nhỏ nhất sao cho $x^{p+1} > b$, ta có $(p+1)f(x) > f(b)$ và $qf(x) \leq f(b)$ với $1 \leq q \leq p$; do đó mọi khoảng được chứa trong $[0, f(b)]$ và có độ dài $> 2^{-n}$ chứa ít nhất một điểm có dạng $qf(x) = f(x^q) \in f(I)$. Chứng minh của Mệnh đề 1 do đó hoàn tất.
 
-#### Nhận xét 1 {#top-v-s2-rem-1 .statement}
+#### Nhận xét 1 {#top-v-s2-rem-1 .statement tag=0BVH}
 
 Các hệ thức $x \in I, y \in I, xy \in I, yx \in I$ kéo theo
 $$
@@ -128,7 +128,7 @@ f(xy) = f(x) + f(y) = f(yx),
 $$
 và do đó $yx = xy$ vì $f$ là tăng ngặt; nói cách khác, luật cảm sinh bởi luật hợp thành của $E$ trên một khoảng $[0, b]$ được chọn thích hợp (chẳng hạn, sao cho $b^2 \leq a$) là *giao hoán*.
 
-#### Nhận xét 2 {#top-v-s2-rem-2 .statement}
+#### Nhận xét 2 {#top-v-s2-rem-2 .statement tag=0BVI}
 
 Mọi ánh xạ $g$ của $I$ vào $\mathbf{R}_+$ thỏa mãn cùng các điều kiện như $f$ đều có dạng $x \to \lambda f(x)$ trong đó $\lambda > 0$. Thật vậy, nếu $\lambda = g(a) > 0$, các hệ thức $z^p \leq x \leq z^{p+1}, z^q \leq a \leq z^{q+1}$ kéo theo, theo giả thiết,
 $$
@@ -148,7 +148,7 @@ Ta hãy tìm các điều kiện dưới đó $f(I)$ là một *khoảng* của 
 
 Ta sẽ chỉ ra rằng các điều kiện này cũng đủ, và hơn nữa chúng cho phép ta loại bỏ tiên đề (GR_{IV}) (tiên đề Archimedes). Cụ thể hơn, ta sẽ chứng minh mệnh đề sau:
 
-#### Mệnh đề 2 {#top-v-s2-prop-2 .statement}
+#### Mệnh đề 2 {#top-v-s2-prop-2 .statement tag=0BVJ}
 
 *Nếu một tập hợp có thứ tự tuyến tính $E$ và một tập con $I$ của $E$ thỏa mãn các tiên đề (GR_I), (GR_{II}), (GR_{IIIa}) và (GR_{IVa}), thì tồn tại một ánh xạ tăng ngặt $f$ của $I$ lên một khoảng của $\mathbf{R}$, với $0$ là điểm đầu bên trái của nó, sao cho $f(\omega) = 0$ và $f(xy) = f(x) + f(y)$ bất cứ khi nào $x, y$ và $xy$ thuộc $I$.*
 
@@ -156,7 +156,7 @@ Trước hết ta chứng minh rằng tiên đề (GR_{IV}) được thỏa mãn
 
 Do đó chúng ta ở vào vị trí áp dụng Mệnh đề 1. Còn phải chứng minh rằng, nếu $\gamma = f(c)$ ($c > \omega$) là một phần tử bất kỳ của $f(I)$, và nếu $\beta$ là một số thực bất kỳ sao cho $0 < \beta < \gamma$, thì tồn tại $b \in I$ sao cho $f(b) = \beta$ (Chương IV, § 2, no. 4, Mệnh đề 1). Vì giao của $f(I)$ và $[0, \gamma]$ là trù mật trong $[0, \gamma]$, nên tồn tại một dãy tăng $(x_n)$ gồm các phần tử của $I$ sao cho $f(x_n)$ có $\beta$ làm giới hạn. Gọi $b$ là cận trên của dãy $(x_n)$ trong $I$; ta có $f(b) \geq f(x_n)$ với mọi $n$, do đó $f(b) \geq \beta$; nhưng $f(b) > \beta$ là không thể, bởi vì nếu không thì sẽ tồn tại $y \in I$ sao cho $\beta < f(y) < f(b)$, và vì $\beta$ là cận trên của dãy $(f(x_n))$, ta sẽ có $f(x_n) < f(y) < f(b)$ với mọi $n$, do đó $x_n < y < b$ với mọi $n$, điều này là vô lý. Vậy $f(b) = \beta$, và do đó Mệnh đề 2 được chứng minh.
 
-#### Nhận xét {#top-v-s2-n0-rem-3 .statement}
+#### Nhận xét {#top-v-s2-n0-rem-3 .statement tag=0BVK}
 
 Khi $I = E$, ảnh $f(I) = f(E)$ là toàn bộ $\mathbf{R}_+$, bởi vì nếu $b > \omega$, thì $b^n$ được xác định với mọi $n$, và do đó $n \cdot f(b)$ thuộc về $f(E)$ với mọi $n$; điều này suy ra rằng $f(E)$ không bị chặn trên, bởi vì $f(b) > 0$.
 

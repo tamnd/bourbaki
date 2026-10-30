@@ -52,14 +52,14 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: 00986b691c65a2a7abb7f49215452b85e68d9c52ccb2f5e7843609329b047859
+content_sha256: a5649ad91c991534fecdc842feb81de5c325d32e755f63251c2a1e0724811493
 ---
 
 ## § 1. MEASURES ON A LOCALLY COMPACT SPACE
 
 ### 1. Continuous functions with compact support
 
-#### Definition 1 {#int-iii-s1-def-1 .statement}
+#### Definition 1 {#int-iii-s1-def-1 .statement tag=08L4}
 
 — Let X be a topological space, let E be either $\overline{\mathbf{R}}$ or a vector space over $\mathbf{R}$, and let f be a mapping of X into E. The smallest closed set S in X such that $f(x) = 0$ on $X - S$ (in other words, the closure in X of the set of all $x \in X$ such that $f(x) \neq 0$) is called the support of f and is denoted Supp(f).
 
@@ -73,7 +73,7 @@ by the semi-norms $f \mapsto \sup_{x \in K} p_n(f(x))$ (resp. the norm $f \mapst
 
 The space $\mathscr{K}(X; E)$ is the union of the increasing directed family of subspaces $\mathscr{K}(X, K; E)$, where $K$ runs over the set of compact subsets of $X$; moreover, if $K_1 \subset K_2$ are two compact subsets of $X$, the canonical injection $\mathscr{K}(X, K_1; E) \to \mathscr{K}(X, K_2; E)$ is continuous for the topologies defined above. If $E$ is *locally convex*, one can therefore define on $\mathscr{K}(X; E)$ the *direct limit*² of the locally convex topologies of the $\mathscr{K}(X, K; E)$ (TVS, II, §4, No. 4); unless expressly mentioned to the contrary, this will always be the topology in question when we regard $\mathscr{K}(X; E)$ as a topological vector space.
 
-#### Proposition 1 {#int-iii-s1-prop-1 .statement}
+#### Proposition 1 {#int-iii-s1-prop-1 .statement tag=08L5}
 
 *Let $X$ be a locally compact space, $E$ a Hausdorff locally convex space.*
 
@@ -93,7 +93,7 @@ of X into E such that $\mathrm{pr}_i \circ f'_i = f_i$ and $\mathrm{pr}_j \circ 
 
 (iii) Each compact subset K of X intersects only the $X_\lambda$ of a finite sub-family $(X_\lambda)_{\lambda \in H}$ of $(X_\lambda)_{\lambda \in L}$, and it is immediate that if one sets $K_\lambda = K \cap X_\lambda$ for $\lambda \in H$, the mapping $f \mapsto (f|X_\lambda)_{\lambda \in H}$ is an isomorphism of $\mathscr{K}(X, K; E)$ onto $\prod_{\lambda \in H} \mathscr{K}(X_\lambda, K_\lambda; E)$. Conversely, for every function $f_\lambda \in \mathscr{K}(X_\lambda; E)$, let $f''_\lambda$ be the mapping of X into E such that $f''_\lambda|X_\lambda = f_\lambda$ and $f''_\lambda|X_\mu = 0$ for $\mu \neq \lambda$; it is immediate that the mapping $f_\lambda \mapsto f''_\lambda$ of $\mathscr{K}(X_\lambda; E)$ into $\mathscr{K}(X; E)$ is continuous. The assertion (iii) follows from these remarks and the criterion for continuity in direct limits (TVS, II, §4, No. 4, Prop. 5).
 
-#### Proposition 2 {#int-iii-s1-prop-2 .statement}
+#### Proposition 2 {#int-iii-s1-prop-2 .statement tag=08L6}
 
 — *Let X be a locally compact space, E a Hausdorff locally convex space.*
 
@@ -113,7 +113,7 @@ spaces $X$ (not paracompact) such that there exist sets in $\mathscr{K}(X; \math
 
 We recall that, by virtue of Ascoli’s theorem (GT, X, §2, No. 5, Cor. 3 of Th. 2), a strictly compact subset $H$ of $\mathscr{K}(X; E)$ contained in $\mathscr{K}(X, K; E)$ is characterized by the following conditions: $1^\circ$ it is closed; $2^\circ$ it is equicontinuous; $3^\circ$ for every $x \in K$, the set $H(x)$ is relatively compact in $E$.
 
-#### Corollary {#int-iii-s1-n1-cor-1 .statement}
+#### Corollary {#int-iii-s1-n1-cor-1 .statement tag=08L7}
 
 *Let $X$ be a paracompact, locally compact space; if $E$ is a quasi-complete locally convex space, then the space $\mathscr{K}(X; E)$ is quasi-complete.*
 
@@ -121,13 +121,13 @@ It suffices, by virtue of Proposition 2, (ii), to note that for every compact su
 
 ### 2. Approximation properties
 
-#### Lemma 1 {#int-iii-s1-lem-1 .statement}
+#### Lemma 1 {#int-iii-s1-lem-1 .statement tag=08L8}
 
 *Let $X$ be a locally compact space, $K$ a compact subset of $X$, and $(V_k)_{1 \leq k \leq n}$ a finite covering of $K$ by open sets of $X$. Then, there exist $n$ continuous mappings $f_k$ of $X$ into $[0, 1]$, such that the support of $f_k$ is contained in $V_k$ for $1 \leq k \leq n$ and such that $\sum_{k=1}^n f_k(x) \leq 1$ for all $x \in X$ and $\sum_{k=1}^n f_k(x) = 1$ for all $x \in K$.
 
 For, let $X'$ be the compact space obtained by adjoining to $X$ a point at infinity $\omega$ (GT, I, §9, No. 8, Th. 4); the sets $V_0 = X' - K$ and $V_k$ ($1 \leq k \leq n$) form an open covering of $X'$. Let $(f_k)_{0 \leq k \leq n}$ be a continuous partition of unity subordinate to this covering of $X'$ (GT, IX, §4, No. 3, Prop. 3); the functions $f_k$ with index $k \geq 1$ satisfy the conditions of the lemma.
 
-#### Lemma 2 {#int-iii-s1-lem-2 .statement}
+#### Lemma 2 {#int-iii-s1-lem-2 .statement tag=08L9}
 
 *Let $X$ be a locally compact space, $K$ a compact subset of $X$, $E$ a locally convex space, $q$ a continuous semi-norm on $E$, and $\Phi$ an equicontinuous set of mappings of $X$ into $E$ whose supports are contained in $K$. Then, for every $\varepsilon > 0$, there exists a continuous partition of unity $(\varphi_j)_{0 \leq j \leq n}$ on $X$ having the following properties:
 (i) $\operatorname{Supp}(\varphi_j) \subset K$ for $1 \leq j \leq n$.
@@ -157,7 +157,7 @@ $$
 $$
 Moreover, the normed space thus defined is a Banach space (GT, X, §3, No. 2, and No. 1, Cor. 2 of Prop. 2); the topology defined by this norm on $\mathscr{K}(X; E)$ (in other words, the topology of uniform convergence in $X$) is coarser than the direct limit topology on $\mathscr{K}(X; E)$ defined in No. 1.
 
-#### Proposition 3 {#int-iii-s1-prop-3 .statement}
+#### Proposition 3 {#int-iii-s1-prop-3 .statement tag=08LA}
 
 — Let $X$ be a locally compact space, $X'$ the compact space obtained by adjoining to $X$ a point at infinity $\omega$ (GT, I, §9, No. 8,
 
@@ -167,13 +167,13 @@ Let $f \in C^b(X;E)$ be a function in the closure of $\mathscr{K}(X;E)$; for eve
 
 We shall denote by $C^0(X;E)$ the subspace of $C^b(X;E)$ formed by the functions tending to zero at the point at infinity $\omega$; it is thus the completion of the normed space $\mathscr{K}(X;E)$.
 
-#### Proposition 4 {#int-iii-s1-prop-4 .statement}
+#### Proposition 4 {#int-iii-s1-prop-4 .statement tag=08LB}
 
 — Let X be a locally compact space, E a locally convex space; then, the space $\mathscr{K}(X;E)$ is dense in $C(X;E)$ for the topology of compact convergence.
 
 For every compact set $K \subset X$, there exists a function $h \in \mathscr{K}(X;\mathbf{R})$ equal to 1 on K, by Lemma 1; for every function $f \in C(X;E)$ the function $hf$, which belongs to $\mathscr{K}(X;E)$, is equal to f on K, whence our assertion.
 
-#### Proposition 5 {#int-iii-s1-prop-5 .statement}
+#### Proposition 5 {#int-iii-s1-prop-5 .statement tag=08LC}
 
 — Let X be a locally compact space, E a real (resp. complex) locally convex space. For every compact subset K of X, the vector space $\mathscr{K}(X,K;\mathbf{R}) \otimes_{\mathbf{R}} E$ (resp. $\mathscr{K}(X,K;\mathbf{C}) \otimes_{\mathbf{C}} E$) (identified with a set of mappings of X into E, cf. A, II, §7, No. 7, Cor. of Prop. 15) is dense in $\mathscr{K}(X,K;E)$; the vector space $\mathscr{K}(X;\mathbf{R}) \otimes_{\mathbf{R}} E$ (resp. $\mathscr{K}(X;\mathbf{C}) \otimes_{\mathbf{C}} E$) is dense in $\mathscr{K}(X;E)$.
 
@@ -187,7 +187,7 @@ where the $\varphi_j$ belong to $\mathscr{K}(X,K;\mathbf{R})$; since the mapping
 
 ### 3. Definition of a measure
 
-#### Definition 2 {#int-iii-s1-def-2 .statement}
+#### Definition 2 {#int-iii-s1-def-2 .statement tag=08LD}
 
 — *A continuous linear form on* $\mathscr{K}(X; \mathbf{C})$, *X a locally compact space*, *is called a measure* (or *complex measure*) *on X*.
 
@@ -201,7 +201,7 @@ $$
 
 More generally:
 
-#### Proposition 6 {#int-iii-s1-prop-6 .statement}
+#### Proposition 6 {#int-iii-s1-prop-6 .statement tag=08LE}
 
 — *Let X be a locally compact space, ($K_\alpha$) a family of compact subsets of X whose interiors $\overset{\circ}{K}_\alpha$ form an open covering of X. For a linear form $\mu$ on $\mathscr{K}(X; \mathbf{C})$ to be a measure on X, it is necessary and sufficient that, for every $\alpha$, there exist a number $M_\alpha$ such that*
 
@@ -217,7 +217,7 @@ We denote by $\mathscr{M}(X; \mathbf{C})$, or simply $\mathscr{M}(X)$ if no conf
 
 One knows that for every set $\mathscr{S}$ of *bounded* subsets of $\mathscr{K}(X;\mathbf{C})$, there is defined on $\mathscr{M}(X;\mathbf{C})$ the $\mathscr{S}$-topology, which is locally convex (TVS, III, §3, No. 1, Cor. of Prop. 1). We denote the topological vector space, obtained by equipping $\mathscr{M}(X;\mathbf{C})$ with the $\mathscr{S}$-topology, by $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ or $\mathscr{M}_{\mathscr{S}}(X)$.
 
-#### Proposition 7 {#int-iii-s1-prop-7 .statement}
+#### Proposition 7 {#int-iii-s1-prop-7 .statement tag=08LF}
 
 *For every set $\mathscr{S}$ of bounded subsets of $\mathscr{K}(X;\mathbf{C})$ that is a covering of $\mathscr{K}(X;\mathbf{C})$, the space $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ is Hausdorff and quasi-complete.*
 
@@ -271,7 +271,7 @@ $$
 
 of $\mathscr C(\Gamma;\mathbf C)$ into $\mathbf C$ is a continuous linear form by virtue of the theorem of the mean, hence is a *complex measure on $\Gamma$*; the integral relative to this measure is also written $\int_\Gamma f(z)\,dz$, even though it depends not only on $\Gamma$ but also on $g$.
 
-#### Remark {#int-iii-s1-n3-rem-1 .statement}
+#### Remark {#int-iii-s1-n3-rem-1 .statement tag=08LG}
 
 The giving of a measure $\mu$ on a locally compact space X defines on X (along with the topology of X) a structure $\mathscr S$. Let $X_1$ be a second set, $\varphi$ a bijective mapping of X onto $X_1$; in conformity with general definitions (S, R, §8), the structure $\mathscr S_1$ obtained by *transporting* to $X_1$ the structure $\mathscr S$ of X, by means of $\varphi$, is defined in the following way. The topology of X is transported to $X_1$ by $\varphi$; the functions of $\mathscr K(X_1;\mathbf C)$ are then the functions $f$ such that $f\circ\varphi$ belongs to $\mathscr K(X;\mathbf C)$, and the measure $\mu_1$ on $X_1$ is defined by $\mu_1(f)=\mu(f\circ\varphi)$.
 
@@ -283,7 +283,7 @@ $$
 
 for every function $f\in\mathscr K(X;\mathbf C)$; the measure $\mu$ is then also said to be *invariant under the homeomorphism* $\sigma$.
 
-#### Example {#int-iii-s1-n3-exa-1 .statement}
+#### Example {#int-iii-s1-n3-exa-1 .statement tag=08LH}
 
 Lebesgue measure on $\mathbf{R}$ is invariant under every translation of the additive group $\mathbf{R}$. Indeed, for every function $f \in \mathscr{K}(\mathbf{R}; \mathbf{C})$ and every real number $a$, we have
 
@@ -359,7 +359,7 @@ $$
 
 The space $\mathscr{K}(X; \mathbf{R})$ of continuous real-valued functions on $X$ with compact support is clearly a *Riesz space* for the order relation $f \leq g$. We shall say that a real measure $\mu$ on $X$ is *positive* if $\mu(f) \geq 0$ for every function $f \geq 0$ belonging to $\mathscr{K}(X; \mathbf{R})$; it is thus a positive linear form on the Riesz space $\mathscr{K}(X; \mathbf{R})$ (Ch. II, §2, No. 1, Def. 1). Conversely:
 
-#### Theorem 1 {#int-iii-s1-thm-1 .statement}
+#### Theorem 1 {#int-iii-s1-thm-1 .statement tag=08LI}
 
 *Every positive linear form on the Riesz space $\mathscr{K}(X; \mathbf{R})$ is a (positive) real measure on $X$.*
 
@@ -367,7 +367,7 @@ For, let $\mu$ be a positive linear form on $\mathscr{K}(X; \mathbf{R})$ and let
 
 We denote by $\mathscr{M}_+(X)$ the pointed convex cone of positive measures on $X$ (or, what amounts to the same thing, the cone of positive linear forms on the Riesz space $\mathscr{K}(X; \mathbf{R})$).
 
-#### Theorem 2 {#int-iii-s1-thm-2 .statement}
+#### Theorem 2 {#int-iii-s1-thm-2 .statement tag=08LJ}
 
 *Every real measure on a locally compact space $X$ is the difference of two positive measures.*
 
@@ -375,7 +375,7 @@ In view of Theorem 1 and Ch. II, §2, No. 2, Th. 1, it all comes down to proving
 
 The space $\mathscr{M}(X; \mathbf{R})$ of real measures on $X$ is thus identical with the space of relatively bounded linear forms on the Riesz space $\mathscr{K}(X; \mathbf{R})$; we recall that in $\mathscr{M}(X; \mathbf{R})$, the order relation $\mu \leq \nu$ signifies that $\nu - \mu$ is a positive measure, or also that $\mu(f) \leq \nu(f)$ for every function $f \in \mathscr{K}_+(X)$.
 
-#### Theorem 3 {#int-iii-s1-thm-3 .statement}
+#### Theorem 3 {#int-iii-s1-thm-3 .statement tag=08LK}
 
 *The space $\mathscr{M}(X; \mathbf{R})$ of real measures on a locally compact space $X$ is fully lattice-ordered.*
 
@@ -477,7 +477,7 @@ It follows from (14), (15) and (16) that
 $$(17)$$
 $$|\mathscr{R}\mu| \leq |\mu|,\quad |\mathscr{I}\mu| \leq |\mu|,\quad |\mu| \leq |\mathscr{R}\mu| + |\mathscr{I}\mu|.$$
 
-#### Proposition 8 {#int-iii-s1-prop-8 .statement}
+#### Proposition 8 {#int-iii-s1-prop-8 .statement tag=08LL}
 
 *If $\mu$ is a measure on $X$ then, for every function $h \in \mathscr{C}(X; \mathbf{C})$,*
 
@@ -490,7 +490,7 @@ For, if $f \in \mathscr{K}_+(X)$ and if $g \in \mathscr{K}(X; \mathbf{C})$ is su
 
 Let $X$ be a locally compact space; if $V$ is a *dense* linear subspace of $\mathscr{K}(X; \mathbf{C})$, it is clear that two measures $\mu_1, \mu_2$ on $X$ that coincide on $V$ are equal, and that every linear form on $V$ that is continuous for the topology induced by that of $\mathscr{K}(X; \mathbf{C})$ may be extended (in only one way) to a measure on $X$. For positive measures, a convenient criterion is the following:
 
-#### Proposition 9 {#int-iii-s1-prop-9 .statement}
+#### Proposition 9 {#int-iii-s1-prop-9 .statement tag=08LM}
 
 *Let $V$ be a linear subspace of $\mathscr{K}(X; \mathbf{R})$ having the following property:
 (P) For every compact subset $K$ of $X$, there exists a function $f \in V$ such that $f \geq 0$ and such that $f(x) > 0$ for all $x \in K$.
@@ -501,7 +501,7 @@ For every function $f \in \mathscr{K}(X; \mathbf{R})$, with support $K$, there e
 
 Let X be a locally compact space. Since the topology on $\mathscr{K}(X; \mathbf{C})$ induced by that of $\mathscr{C}^b(X; \mathbf{C})$ is coarser than the direct limit topology on $\mathscr{K}(X; \mathbf{C})$, a measure on X is not necessarily continuous for the topology of uniform convergence in X.
 
-#### Definition 3 {#int-iii-s1-def-3 .statement}
+#### Definition 3 {#int-iii-s1-def-3 .statement tag=08LN}
 
 *A measure on a locally compact space X is said to be bounded if it is continuous on $\mathscr{K}(X; \mathbf{C})$ for the topology of uniform convergence.*
 
@@ -525,7 +525,7 @@ The definition of $\|\mu\|$ by the formula (20) may be extended to every measure
 
 If X is compact, then every measure on X is bounded.
 
-#### Example {#int-iii-s1-n8-exa-1 .statement}
+#### Example {#int-iii-s1-n8-exa-1 .statement tag=08LO}
 
 — 1) The measure $\varepsilon_a$ defined by a unit mass at a point $a \in X$ is bounded, and $\|\varepsilon_a\| = 1$.
 
@@ -557,7 +557,7 @@ $$
 $$
 for every measure $\mu$ on $X$.
 
-#### Proposition 10 {#int-iii-s1-prop-10 .statement}
+#### Proposition 10 {#int-iii-s1-prop-10 .statement tag=08LP}
 
 — *For every measure $\mu$ on $X$*,
 
@@ -572,11 +572,11 @@ $$
 \sup_{0 \leq f \leq 1,\ f \in \mathscr{H}(X; \mathbf{R})} \left( \sup_{|g| \leq f,\ g \in \mathscr{H}(X; \mathbf{C})} |\mu(g)| \right) = \sup_{\|g\| \leq 1,\ g \in \mathscr{H}(X; \mathbf{C})} |\mu(g)|.
 $$
 
-#### Corollary 1 {#int-iii-s1-prop-10-cor-1 .statement}
+#### Corollary 1 {#int-iii-s1-prop-10-cor-1 .statement tag=08LQ}
 
 — *For every measure $\mu$ on $X$, the norms of $\mu$ and $|\mu|$ are equal; $\mu$ is bounded if and only if $|\mu|$ is bounded.*
 
-#### Corollary 2 {#int-iii-s1-prop-10-cor-2 .statement}
+#### Corollary 2 {#int-iii-s1-prop-10-cor-2 .statement tag=08LR}
 
 — *For every measure $\mu$ on a compact space $X$,*
 
@@ -589,7 +589,7 @@ This formula will be generalized in Ch. IV, §4, No. 7.
 
 On a *compact* space $X$, for every (complex) measure $\mu$ on $X$ the complex number $\mu(1)$ is called the *total mass* of $\mu$. When $\mu$ is *positive*, its total mass is thus equal to its norm. When $\mu$ is a positive measure on a *compact* space $X$, of total mass equal to 1, one also says that its value $\mu(f)$ for a continuous function $f \in \mathscr{C}(X; \mathbf{C})$ is the *mean* of $f$ with respect to the measure $\mu$.
 
-#### Corollary 3 {#int-iii-s1-prop-10-cor-3 .statement}
+#### Corollary 3 {#int-iii-s1-prop-10-cor-3 .statement tag=08LS}
 
 — For every real measure $\mu$ on a locally compact space $X$,
 
@@ -601,18 +601,18 @@ It suffices to make use of the formula (22) and the expression (9) for $|\mu|(f)
 
 The set of bounded real measures is therefore the dual of the normed space $\mathscr{K}(X; \mathbf{R})$; it is denoted $\mathscr{M}^1(X, \mathbf{R})$, or $\mathscr{M}^1(X)$ if no confusion can result. The canonical injection $\mathscr{M}^1(X, \mathbf{R}) \to \mathscr{M}^1(X; \mathbf{C})$ is an isometry by virtue of (24).
 
-#### Proposition 11 {#int-iii-s1-prop-11 .statement}
+#### Proposition 11 {#int-iii-s1-prop-11 .statement tag=08LT}
 
 — If $\mu$ and $\nu$ are two positive measures on $X$, then $\| \mu + \nu \| = \| \mu \| + \| \nu \|$.
 
 For, the functions $f \in \mathscr{K}(X; \mathbf{R})$ such that $0 \leq f \leq 1$ form a directed set $S$ for the relation $\leq$. For a positive measure $\mu$ on $X$, it therefore follows from (22) and the monotone limit theorem that $\| \mu \| = \lim_{f \in S} \mu(f)$; the conclusion of the proposition then follows at once.
 
-#### Corollary 1 {#int-iii-s1-prop-11-cor-1 .statement}
+#### Corollary 1 {#int-iii-s1-prop-11-cor-1 .statement tag=08LU}
 
 — If $\mu$ and $\nu$ are two positive measures on $X$ such that $\mu \leq \nu$, then $\| \mu \| \leq \| \nu \|$; in particular, if $\nu$ is bounded then so is $\mu$.
 Indeed, $\| \nu \| = \| \mu \| + \| \nu - \mu \|$.
 
-#### Corollary 2 {#int-iii-s1-prop-11-cor-2 .statement}
+#### Corollary 2 {#int-iii-s1-prop-11-cor-2 .statement tag=08LV}
 
 — For every real measure $\mu$ on $X$,
 
@@ -622,7 +622,7 @@ $$
 
 For (Cor. 1 of Prop. 10), the norm of $\mu$ is equal to that of $|\mu| = \mu^+ + \mu^-$.
 
-#### Proposition 12 {#int-iii-s1-prop-12 .statement}
+#### Proposition 12 {#int-iii-s1-prop-12 .statement tag=08LW}
 
 — If $\mu$ is a bounded measure on $X$ and if $g$ is a bounded continuous mapping of $X$ into $\mathbf{C}$, then the measure $g \cdot \mu$ is bounded and $\| g \cdot \mu \| \leq \| g \| \cdot \| \mu \|$.
 
@@ -644,13 +644,13 @@ $$
 
 for every function $f \in \mathscr{K}(X; \mathbf{R})$. For every function $f \in \mathscr{K}(X; \mathbf{C})$, the mapping $\mu \mapsto \mu(f)$ is a *vaguely continuous* linear form on the space $\mathscr{M}(X; \mathbf{C})$.
 
-#### Proposition 13 {#int-iii-s1-prop-13 .statement}
+#### Proposition 13 {#int-iii-s1-prop-13 .statement tag=08LX}
 
 *Let X be a locally compact space and, for every $x \in X$, let $\varepsilon_x$ be the Dirac measure at the point x. The mapping $x \mapsto \varepsilon_x$ is a homeomorphism of X onto a subspace of the space $\mathscr{M}(X; \mathbf{C})$ of measures on X, equipped with the vague topology. Moreover, if $X'$ denotes the compact space obtained by adjoining to X a point at infinity $\omega$, then $\varepsilon_x$ tends to 0 as x tends to $\omega$.*
 
 For every function $f \in \mathscr{K}(X; \mathbf{C})$, $\langle f, \varepsilon_x \rangle = f(x)$; since $f$ is continuous, this proves that the mapping $x \mapsto \varepsilon_x$ is continuous. If $x, y$ are two distinct points of X, there exists a function $f \in \mathscr{K}(X; \mathbf{C})$ such that $f(x) = 1, f(y) = 0$ (No. 2, Lemma 1), which proves that $\varepsilon_x \neq \varepsilon_y$; the mapping $x \mapsto \varepsilon_x$ is therefore injective. Moreover, for every function $f \in \mathscr{K}(X; \mathbf{C})$, $\langle f, \varepsilon_x \rangle$ tends to 0 by definition as $x$ tends to $\omega$, therefore $x \mapsto \varepsilon_x$ may be extended by continuity to $X' = X \cup \{ \omega \}$ by assigning to it the value 0 at the point $\omega$. This extended mapping is also injective, since $\varepsilon_x \neq 0$ for all $x \in X$. It is therefore a homeomorphism of the compact space $X'$ onto a subspace of $\mathscr{M}(X; \mathbf{C})$, since $\mathscr{M}(X; \mathbf{C})$ is Hausdorff for the vague topology (GT, I, §9, No. 4, Cor. 2 of Th. 2).
 
-#### Proposition 14 {#int-iii-s1-prop-14 .statement}
+#### Proposition 14 {#int-iii-s1-prop-14 .statement tag=08LY}
 
 *In the space $\mathscr{M}(X; \mathbf{C})$ of measures on a locally compact space X, the cone $\mathscr{M}_+(X)$ of positive measures is complete for the uniform structure deduced from the vague topology* (hence is *vaguely closed* in $\mathscr{M}(X; \mathbf{C})$).
 
@@ -658,13 +658,13 @@ For, consider a Cauchy filter $\Phi$ for the vague uniform structure on $\mathsc
 
 It should be noted that the space $\mathscr{M}(X; \mathbf{C})$ (or $\mathscr{M}(X; \mathbf{R})$) itself *is not necessarily complete* for the vague uniform structure (TVS, II, §6, No. 7).
 
-#### Corollary {#int-iii-s1-n9-cor-1 .statement}
+#### Corollary {#int-iii-s1-n9-cor-1 .statement tag=08LZ}
 
 *If A and B are two vaguely closed subsets of $\mathscr{M}_+(X)$, then $A + B$ is vaguely closed in $\mathscr{M}_+(X)$ (hence also in $\mathscr{M}(X; \mathbf{C})$).*
 
 This is in fact a general property of weakly complete, proper cones in locally convex spaces (TVS, II, §6, No. 8, Cor. 2 of Prop. 11).
 
-#### Proposition 15 {#int-iii-s1-prop-15 .statement}
+#### Proposition 15 {#int-iii-s1-prop-15 .statement tag=08M0}
 
 — Let $H$ be a subset of $\mathscr{M}(X; \mathbf{C})$. The following properties are equivalent:
 
@@ -679,21 +679,21 @@ It is clear that d) implies a). Finally, if $H$ is equicontinuous then the set o
 
 \* We shall see in Ch. IV, §4, No. 6 that the conditions of Proposition 15 are also equivalent to the condition that, for every compact subset $K$ of $X$, there exists a constant $M_K$ such that $|\mu|(K) \leq M_K$ for every measure $\mu \in H$.*
 
-#### Corollary 1 {#int-iii-s1-prop-15-cor-1 .statement}
+#### Corollary 1 {#int-iii-s1-prop-15-cor-1 .statement tag=08M1}
 
 — Let $\nu$ be a positive measure on $X$; the set of measures $\mu$ such that $|\mu| \leq \nu$ is vaguely compact.
 
-#### Corollary 2 {#int-iii-s1-prop-15-cor-2 .statement}
+#### Corollary 2 {#int-iii-s1-prop-15-cor-2 .statement tag=08M2}
 
 — The set of measures $\mu$ such that $\|\mu\| \leq a$ ($a$ any finite number $> 0$) is vaguely compact.
 
-#### Corollary 3 {#int-iii-s1-prop-15-cor-3 .statement}
+#### Corollary 3 {#int-iii-s1-prop-15-cor-3 .statement tag=08M3}
 
 — If $X$ is compact, the set of positive measures $\mu$ on $X$ such that $\|\mu\| = 1$ is vaguely compact.
 
 For, it is the intersection of the vaguely compact set (Cor. 2) of measures such that $\|\mu\| \leq 1$ and the vaguely closed sets defined respectively by the relations $\mu \geq 0$ and $\mu(1) = 1$ (No. 8, Cor. 2 of Prop. 10).
 
-#### Corollary 4 {#int-iii-s1-prop-15-cor-4 .statement}
+#### Corollary 4 {#int-iii-s1-prop-15-cor-4 .statement tag=08M4}
 
 — In the space $\mathscr{M}(X; \mathbf{C})$, the mapping $\mu \mapsto \|\mu\|$ is lower semi-continuous for the vague topology.
 
@@ -701,7 +701,7 @@ This is an immediate consequence of Corollary 2.
 
 It should be noted that the mapping $\mu \mapsto |\mu|$ of $\mathscr{M}(X; \mathbf{C})$ into itself is not necessarily continuous for the vague topology (Exer. 9).
 
-#### Proposition 16 {#int-iii-s1-prop-16 .statement}
+#### Proposition 16 {#int-iii-s1-prop-16 .statement tag=08M5}
 
 — Let $K$ be a compact subset of $X$, $H$ a vaguely bounded subset of $\mathscr{M}(X; \mathbf{C})$; then, the bilinear form $(f, \mu) \mapsto \langle f, \mu \rangle$ is continuous on $\mathscr{K}(X, K; \mathbf{C}) \times H$ when $\mathscr{K}(X, K; \mathbf{C})$ is equipped with the topology of uniform convergence and $H$ with the vague topology.
 
@@ -720,7 +720,7 @@ and the last quantity is arbitrarily small when $\|f - f_0\|$ and $|\mu(f_0) - \
 
 Recall that the topology of *compact convergence* on $\mathscr{M}(X; \mathbf{C})$ is the topology of uniform convergence in the compact subsets of $\mathscr{K}(X; \mathbf{C})$. We shall call *topology of strictly compact convergence* on $\mathscr{M}(X; \mathbf{C})$ the topology of uniform convergence in the strictly compact subsets (No. 1) of $\mathscr{K}(X; \mathbf{C})$.
 
-#### Proposition 17 {#int-iii-s1-prop-17 .statement}
+#### Proposition 17 {#int-iii-s1-prop-17 .statement tag=08M6}
 
 *On the space $\mathscr{M}(X; \mathbf{C})$, consider the following topologies:*
 $\mathscr{T}_1$: *the topology of pointwise convergence in a total subset T of $\mathscr{K}(X; \mathbf{C})$;*
@@ -735,7 +735,7 @@ A vaguely bounded subset $H$ of $\mathscr{M}(X; \mathbf{C})$ is equicontinuous (
 
 Recall that when $X$ is *paracompact*, the topology of strictly compact convergence coincides with the topology of compact convergence (No. 1, Prop. 2).
 
-#### Proposition 18 {#int-iii-s1-prop-18 .statement}
+#### Proposition 18 {#int-iii-s1-prop-18 .statement tag=08M7}
 
 *On the cone $\mathscr{M}_+(X)$, the topologies induced by the following topologies coincide:*
 $\mathscr{T}_1$: *the topology of pointwise convergence in a linear subspace V of $\mathscr{K}(X; \mathbf{C})$ that is dense in $\mathscr{K}(X; \mathbf{C})$ and satisfies the property (P) (No. 7, Prop. 9);*
@@ -766,7 +766,7 @@ Now, we saw above that the mapping $g \mapsto gh$ is an \emph{automorphism} of t
 
 Q.E.D.
 
-#### Corollary {#int-iii-s1-n10-cor-1 .statement}
+#### Corollary {#int-iii-s1-n10-cor-1 .statement tag=08M8}
 
 — *If X is paracompact then the topologies induced on $\mathscr{M}_+(X)$ by the vague topology and the topology of compact convergence coincide.*
 

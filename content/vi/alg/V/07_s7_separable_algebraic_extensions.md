@@ -50,7 +50,7 @@ subsections:
       pdf_page: 160
 statements: 39
 exercises: 5
-content_sha256: 8e9601d865c18c280cd7b5f33cb46b0168937d05636352a360dea71ff3a43924
+content_sha256: 80f134f600e187e536ec0a48d85095560723e78806f2d6e764805e7a3190e820
 translated_from: content/en/alg/V/07_s7_separable_algebraic_extensions.md
 source_content_sha256: ed1ab16b16ed7273d2bf9373cce60817c329006d872b8fe4e06cf99329181643
 translation_model: gpt-5.4
@@ -66,19 +66,19 @@ Trong toàn bộ đoạn này, $K$ kí hiệu một trường.
 
 ### 1. Mở rộng đại số tách được
 
-#### Định nghĩa 1 {#alg-v-s7-def-1 .statement}
+#### Định nghĩa 1 {#alg-v-s7-def-1 .statement tag=06K0}
 
 — *Cho E là một mở rộng đại số của K; khi đó E được gọi là tách được (trên K) nếu mọi mở rộng con F của E có bậc hữu hạn trên K đều là một đại số etale trên K* ($V$, p. 28, Định nghĩa 1).
 
 Cho E là một mở rộng bậc hữu hạn của K. Vì mọi đại số con của một đại số etale đều là etale ($V$, p. 30, Mệnh đề 3), nên việc giả thiết E là một mở rộng tách được của $K$, hay E là một đại số etale trên $K$, là như nhau.
 
-#### Mệnh đề 1 {#alg-v-s7-prop-1 .statement}
+#### Mệnh đề 1 {#alg-v-s7-prop-1 .statement tag=06K1}
 
 — *Cho E là một mở rộng đại số của K. Nếu E là tách được, thì mọi mở rộng con $E'$ của E đều tách được. Ngược lại, nếu mọi mở rộng con bậc hữu hạn của E đều tách được thì E tách được.*
 
 Điều này suy ra ngay lập tức từ Định nghĩa 1.
 
-#### Mệnh đề 2 {#alg-v-s7-prop-2 .statement}
+#### Mệnh đề 2 {#alg-v-s7-prop-2 .statement tag=06K2}
 
 — *Để một trường K là hoàn hảo thì điều kiện cần và đủ là mọi mở rộng đại số của K đều tách được.*
 
@@ -86,14 +86,14 @@ Trước hết giả sử K là hoàn hảo. Vì một trường là một vành
 
 Bây giờ giả sử rằng $K$ là một trường không hoàn hảo có đặc số $p \neq 0$. Cho $\Omega$ là một bao đóng đại số của $K$. Vì $K$ không hoàn hảo, tồn tại $b \in K$ không thuộc $K^p$; đặt $a = b^{1/p}$. Khi đó mở rộng $K(a)$ của $K$ là p-căn và có bậc hữu hạn. Theo $V$, p. 26, Mệnh đề 3, tồn tại đúng một K-đồng cấu của $K(a)$ vào $\Omega$, và vì $[K(a):K] > 1$, đại số $K(a)$ không là etale trên $K$ ($V$, p. 32, Mệnh đề 4). Nói cách khác, mở rộng $K(a)$ bậc hữu hạn của $K$ không tách được.
 
-#### Hệ quả {#alg-v-s7-n1-cor-1 .statement}
+#### Hệ quả {#alg-v-s7-n1-cor-1 .statement tag=06K3}
 
 — *Mọi mở rộng đại số của một trường có đặc số 0, hoặc của một trường hữu hạn, đều tách được.*
     Điều này suy ra từ *V*, p. 7, Mệnh đề 5.
 
 ### 2. Đa thức tách được
 
-#### Mệnh đề 3 {#alg-v-s7-prop-3 .statement}
+#### Mệnh đề 3 {#alg-v-s7-prop-3 .statement tag=06K4}
 
 — *Cho f là một đa thức khác không trong K[X] và cho Ω là một mở rộng đóng đại số của K. Các điều kiện sau là tương đương:*
     *a) Đa thức f nguyên tố cùng nhau với đạo hàm f' của nó trong K[X].*
@@ -119,17 +119,17 @@ $$
 
 *a) ⇒ e)*: Cho A là K-đại số K[X]/(f) và x là ảnh của X trong A; theo III, p. 573, Mệnh đề 22, A-môđun $\Omega_K(A)$ được sinh bởi các phần tử $dx$, dưới quan hệ duy nhất $f'(x)\ dx = 0$. Theo *V*, p. 33, Định lý 3, do đó K-đại số A là etale khi và chỉ khi $f'(x)$ là một phần tử khả nghịch trong A, điều này có nghĩa là f và $f'$ nguyên tố cùng nhau trong K[X].
 
-#### Định nghĩa 2 {#alg-v-s7-def-2 .statement}
+#### Định nghĩa 2 {#alg-v-s7-def-2 .statement tag=06K5}
 
 — *Một đa thức $f \in K[X]$ được gọi là tách được nếu nó khác không và thỏa mãn các điều kiện tương đương a), b), c), d) và e) của Mệnh đề 3.*
 
-#### Nhận xét {#alg-v-s7-n2-rem-1 .statement}
+#### Nhận xét {#alg-v-s7-n2-rem-1 .statement tag=06K6}
 
 — 1) Cho L là một mở rộng của K và f là một đa thức không hằng trong K[X]. Theo *e)* của Mệnh đề 3 và V, p. 32, Hệ quả 2, việc giả thiết f là tách được, dù được xét như phần tử của K[X] hay của L[X], là như nhau. Mặt khác, hoàn toàn có thể xảy ra trường hợp f là bất khả quy trong K[X] nhưng không bất khả quy trong L[X].
 
 2) Cho $f \in K[X]$; ta biết (IV, p. 13, Mệnh đề 13) rằng tồn tại các đa thức bất khả quy $f_1, \ldots, f_m$ trong $K[X]$ sao cho $f = f_1 \ldots f_m$. Cho $\Omega$ là một bao đóng đại số của $K$; vì một đa thức bất khả quy $g \in K[X]$ là đa thức tối tiểu trên $K$ của mỗi nghiệm của nó trong $\Omega$, nên hai đa thức bất khả quy phân biệt trong $K[X]$ không có nghiệm chung nào trong $\Omega$. Khi đó điều kiện d) của Mệnh đề 3 cho thấy rằng $f$ là tách được khi và chỉ khi các đa thức $f_1, \ldots, f_m$ đều tách được và từng đôi một phân biệt.
 
-#### Mệnh đề 4 {#alg-v-s7-prop-4 .statement}
+#### Mệnh đề 4 {#alg-v-s7-prop-4 .statement tag=06K7}
 
 — *Cho $f$ là một đa thức bất khả quy trong $K[X]$. Khi đó các điều kiện sau là tương đương*:
 
@@ -142,7 +142,7 @@ Trước hết chú ý rằng một đa thức bất khả quy trong $K[X]$ khô
 
 Sau cùng, giả sử $f \neq 0$; lấy $x$ là một nghiệm của $f$ trong một mở rộng đóng đại số $\Omega$ của $K$. Vì $f$ là đa thức tối tiểu của $x$ trên $K$ và $\deg f' < \deg f$, ta có $f'(x) \neq 0$, và do đó $x$ là một nghiệm đơn của $f$ (IV, p. 17, Mệnh đề 7). Vậy $f$ tách được và ta đã chứng minh rằng c) kéo theo a).
 
-#### Hệ quả 1 {#alg-v-s7-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s7-prop-4-cor-1 .statement tag=06K8}
 
 — *Để trường $K$ là hoàn hảo thì điều kiện cần và đủ là mọi đa thức bất khả quy của $K[X]$ đều tách được*.
 
@@ -152,7 +152,7 @@ Trước hết giả sử $K$ là hoàn hảo. Ta có $K[X^p] = K[X]^p$, nên kh
 
 Tiếp theo giả sử $K$ không hoàn hảo, do đó $K \neq K^p$. Lấy $a$ là một phần tử của $K$ không thuộc $K^p$; đa thức $X^p - a$ là bất khả quy trong $K[X]$ (V, p. 24, Bổ đề 1), và nó thuộc $K[X^p]$, nên không tách được.
 
-#### Hệ quả 2 {#alg-v-s7-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s7-prop-4-cor-2 .statement tag=06K9}
 
 — *Cho $f \in K[X]$ là một đa thức khác không. Để $f$ tách được thì điều kiện cần và đủ là tồn tại một mở rộng $L$ của $K$ là một trường hoàn hảo sao cho $f$ không có nhân tử lặp trong $L[X]$*.
 
@@ -160,11 +160,11 @@ Cho $\Omega$ là một bao đóng đại số của $K$; khi và chỉ khi $f$ l
 
 ### 3. Các phần tử đại số tách được
 
-#### Định nghĩa 3 {#alg-v-s7-def-3 .statement}
+#### Định nghĩa 3 {#alg-v-s7-def-3 .statement tag=06KA}
 
 — Cho E là một mở rộng của K. Một phần tử x của E, đại số trên K, được gọi là tách được trên K nếu mở rộng đại số K(x) của K là tách được.
 
-#### Mệnh đề 5 {#alg-v-s7-prop-5 .statement}
+#### Mệnh đề 5 {#alg-v-s7-prop-5 .statement tag=06KB}
 
 — Cho E là một mở rộng của K, x một phần tử của E đại số trên K và f là đa thức tối tiểu của x trên K. Khi đó các điều kiện sau là tương đương:
 a) x tách được trên K;
@@ -172,22 +172,22 @@ b) đa thức f là tách được;
 c) x là một nghiệm đơn của f.
 Tính tương đương của a) và b) suy ra từ Mệnh đề 3, còn của b) và c) suy ra từ các Mệnh đề 3 và 4 (xem V, p. 37 và 38).
 
-#### Hệ quả 1 {#alg-v-s7-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s7-prop-5-cor-1 .statement tag=06KC}
 
 — Nếu một phần tử x của E là một nghiệm đơn của một đa thức g của K[X], thì nó tách được trên K.
 Thật vậy, đa thức tối tiểu f của x trên K chia g trong K[X] (V, p. 16, Định lý 1), nên x là một nghiệm đơn của f.
 
-#### Hệ quả 2 {#alg-v-s7-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s7-prop-5-cor-2 .statement tag=06KD}
 
 — Nếu một phần tử x của E là đại số và tách được trên K, thì nó đại số và tách được trên mọi mở rộng K' của K được chứa trong E.
 Cho f là đa thức tối tiểu của x trên K. Khi đó x là một nghiệm đơn của f theo Mệnh đề 5, và vì f thuộc K'[X], phần tử x của E là tách được trên K' theo Hệ quả 1.
 
-#### Hệ quả 3 {#alg-v-s7-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#alg-v-s7-prop-5-cor-3 .statement tag=06KE}
 
 — Giả sử rằng K có đặc số $p \neq 0$. Để một phần tử x của E thuộc K thì điều kiện cần và đủ là nó vừa đại số tách được vừa p-căn trên K.
 Điều kiện đã nêu rõ ràng là cần thiết. Ngược lại, giả sử x là đại số tách được trên K và p-căn cấp e trên K. Vì x tách được trên K, đa thức tối tiểu f của x trên K không thuộc K[X^p] (Mệnh đề 4 và 5); vì x là p-căn cấp e trên K, ta có $f(X) = X^{p^e} - x^{p^e}$ (V, p. 24, Mệnh đề 1); do đó kết luận được rằng $e = 0$, nên $x \in K$.
 
-#### Mệnh đề 6 {#alg-v-s7-prop-6 .statement}
+#### Mệnh đề 6 {#alg-v-s7-prop-6 .statement tag=06KF}
 
 — Cho E là một mở rộng của K.
 a) Nếu E là đại số và tách được trên K, thì mọi phần tử của E đều là đại số và tách được trên K.
@@ -203,7 +203,7 @@ $$
 
 Theo giả thiết về A, các đại số $K[x_1], \ldots, K[x_m]$ là étale trên K; do đó $K[x_1] \otimes \cdots \otimes K[x_m]$ cũng vậy (V, p. 32, Hệ quả 1). Mà F đẳng cấu với một đại số con của một đại số thương của $K[x_1] \otimes \cdots \otimes K[x_m]$, nên là étale (V, p. 30, Mệnh đề 3).
 
-#### Hệ quả {#alg-v-s7-n3-cor-1 .statement}
+#### Hệ quả {#alg-v-s7-n3-cor-1 .statement tag=06KG}
 
 — *Để một mở rộng đại số E tách được trên K thì điều kiện cần và đủ là mọi phần tử của E đều là một nghiệm đơn của đa thức tối tiểu của nó trên K. Chỉ cần áp dụng các Mệnh đề 5 và 6.*
 
@@ -211,7 +211,7 @@ Theo giả thiết về A, các đại số $K[x_1], \ldots, K[x_m]$ là étale 
 
 Cho $E$ là một mở rộng của $K$; một phần tử $x$ của $E$ được gọi là *nguyên thủy* nếu $E = K[x]$. Để mở rộng $E$ có một phần tử nguyên thủy thì điều kiện cần là $[E : K]$ hữu hạn.
 
-#### Định lý 1 {#alg-v-s7-thm-1 .statement}
+#### Định lý 1 {#alg-v-s7-thm-1 .statement tag=06KH}
 
 — *Cho E là một mở rộng của K. Khi đó các điều kiện sau là tương đương:
 a) E có một phần tử nguyên thủy;
@@ -226,13 +226,13 @@ A) Nếu trường $K$ là *hữu hạn*, trường $E$ là một không gian ve
 
 B) Bây giờ giả sử rằng trường $K$ là vô hạn. Nếu b) đúng, mở rộng $E$ có bậc hữu hạn, nên b) cũng có thể được phát biểu bằng cách nói rằng $E$ chỉ có một số hữu hạn các đại số con. Khi đó, suy ra $b) \Rightarrow a)$ là một hệ quả của mệnh đề tổng quát hơn sau đây (mà giả thiết trường $K$ là vô hạn là không thể thiếu, xem V, p. 153, Bài tập 5 của § 7):
 
-#### Mệnh đề 7 {#alg-v-s7-prop-7 .statement}
+#### Mệnh đề 7 {#alg-v-s7-prop-7 .statement tag=06KI}
 
 — *Giả sử rằng $K$ là vô hạn; cho $A$ là một $K$-đại số giao hoán chỉ có một số hữu hạn các đại số con (chẳng hạn một $K$-đại số etale, $V$, p. 30, Mệnh đề 3) và cho $V$ là một không gian con vectơ của $A$ sinh ra $A$. Khi đó tồn tại $x \in V$ sao cho $A = K[x]$.*
 
 Gọi $A_1, \ldots, A_n$ là các đại số con của $A$ phân biệt với $A$. Nếu $x \notin A_1 \cup \ldots \cup A_n$, thì đại số con $K[x]$ không thể bằng bất kỳ $A_i$ nào và vì thế phải trùng với $A$. Hơn nữa, vì $V$ sinh ra $A$, nó không được chứa trong bất kỳ không gian con nào $A_i$. Vậy Mệnh đề 7 là một hệ quả của bổ đề sau đây:
 
-#### Bổ đề 1 {#alg-v-s7-lem-1 .statement}
+#### Bổ đề 1 {#alg-v-s7-lem-1 .statement tag=06KJ}
 
 *Cho $A$ là một không gian vectơ $K$, $V, A_1, \ldots, A_n$ là các không gian con của $A$. Nếu $\mathrm{Card}(K) \geq n$ và nếu $V$ không được chứa trong bất kỳ $A_i$ nào, thì $V$ không được chứa trong $A_1 \cup \ldots \cup A_n$.*
 
@@ -242,7 +242,7 @@ Lập luận bằng quy nạp theo $n$, ta chỉ cần chứng minh rằng nếu
 
 ### 5. Các tính chất ổn định của các mở rộng đại số tách được
 
-#### Mệnh đề 8 {#alg-v-s7-prop-8 .statement}
+#### Mệnh đề 8 {#alg-v-s7-prop-8 .statement tag=06KK}
 
 — *Cho $E$ là một mở rộng của $K$ và $(E_i)_{i \in I}$ là một họ các mở rộng con của $E$ sao cho $E = K \left( \bigcup_{i \in I} E_i \right)$. Nếu mỗi mở rộng $E_i$ đều là đại số và tách được trên $K$, thì $E$ cũng vậy.*
 
@@ -250,7 +250,7 @@ Lập luận bằng quy nạp theo $n$, ta chỉ cần chứng minh rằng nếu
 
 $^1$ Bạn đọc có thể tự thuyết phục mình rằng Định lý 1 không được dùng ở đâu trước chứng minh của Bổ đề 1 ở V, p. 78.
 
-#### Mệnh đề 9 {#alg-v-s7-prop-9 .statement}
+#### Mệnh đề 9 {#alg-v-s7-prop-9 .statement tag=06KL}
 
 — *Cho F là một mở rộng đại số của K và E là một mở rộng con của F. Để F tách được trên K thì điều kiện cần và đủ là F tách được trên E và E tách được trên K.*
 
@@ -258,7 +258,7 @@ Trước hết giả sử rằng F tách được trên K; khi đó E tách đư
 
 Ngược lại, giả sử rằng F tách được trên E và E tách được trên K. Ký hiệu x là một phần tử của F và $f \in E[X]$ là đa thức tối tiểu của x trên E. Vì E là đại số trên K, Định lý 2 (V, p. 18) cho thấy rằng tồn tại một mở rộng con E' của E có bậc hữu hạn trên K sao cho $f \in E'[X]$; khi đó f đồng thời là đa thức tối tiểu của x trên E và trên E', và vì x tách được trên E (V, p. 39, Mệnh đề 6) nên nó cũng tách được trên E' (V, p. 39, Mệnh đề 5). Viết $F' = E'(x)$; khi đó F tách được và có bậc hữu hạn trên E', và vì E tách được trên K nên E' tách được và có bậc hữu hạn trên K (V, p. 36, Mệnh đề 1). Vậy F tách được và có bậc hữu hạn trên K, theo V, p. 32, Hệ quả 2. Do đó (V, p. 39, Mệnh đề 6) x tách được trên K. Bây giờ ta đã chứng minh được rằng mọi phần tử của F đều tách được trên K, do đó F tách được trên K (V, p. 39, Mệnh đề 6).
 
-#### Mệnh đề 10 {#alg-v-s7-prop-10 .statement}
+#### Mệnh đề 10 {#alg-v-s7-prop-10 .statement tag=06KM}
 
 — *Cho E và K' là hai mở rộng con của cùng một mở rộng của K và đặt $E' = K'(E)$. Giả sử rằng E là đại số trên K, do đó E' là đại số trên K' (V, p. 18, Hệ quả 2).
 
@@ -272,7 +272,7 @@ Dưới giả thiết *b)*, lấy F là một mở rộng con của E có bậc 
 
 ### 6. Một tiêu chuẩn tách được
 
-#### Mệnh đề 11 {#alg-v-s7-prop-11 .statement}
+#### Mệnh đề 11 {#alg-v-s7-prop-11 .statement tag=06KN}
 
 — *Giả sử rằng K có số mũ đặc số p, và cho E là một mở rộng đại số của K, được sinh bởi một tập hợp S. Nếu E tách được trên K, thì $E = K(S^{p^n})$ với mọi số nguyên $n \geq 0$; ngược lại nếu E có bậc hữu hạn trên K và $E = K(S^p)$, thì E tách được trên K.*
 
@@ -288,26 +288,26 @@ Nếu E có bậc hữu hạn trên K, thì nó là một mở rộng tách đư
 
 Giả sử bây giờ rằng $E$ tách được và có bậc vô hạn trên $K$. Khi đó $K[E^p]$ là hợp của các vành con $K[{E'}^p]$ trong đó $E'$ chạy qua tập hợp các mở rộng con của $E$ có bậc hữu hạn trên $K$; nhưng một mở rộng như vậy $E'$ là tách được trên $K$ ($V$, p. 36, Prop. 1), do đó $E' = K[{E'}^p] \subset K[E^p]$ theo điều đã nói; sau cùng ta có $E = K[E^p]$. Bằng quy nạp theo $n \geq 0$, quan hệ $E = K[E^p]$ suy ra rằng $E = K[E^{p^n}]$.
 
-#### Hệ quả 1 {#alg-v-s7-prop-11-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s7-prop-11-cor-1 .statement tag=06KO}
 
 — *Mọi mở rộng đại số của một trường hoàn hảo đều là một trường hoàn hảo.*
 
 Cho $K$ là một trường hoàn hảo có số mũ đặc số $p$, và cho $E$ là một mở rộng đại số của $K$. Khi đó $E$ tách được trên $K$ ($V$, p. 36, Prop. 2) do đó $E = K(E^p)$ theo Prop. 11; nhưng ta có $K = K^p \subset E^p$, nên $E = K(E^p) = E^p$, và vì thế $E$ là hoàn hảo.
 
-#### Hệ quả 2 (Mac Lane) {#alg-v-s7-prop-11-cor-2 .statement}
+#### Hệ quả 2 (Mac Lane) {#alg-v-s7-prop-11-cor-2 .statement tag=06KP}
 
 — *Cho $K$ là một bao đóng đại số của $K$ và $K^{p^{-\infty}}$ là bao đóng hoàn hảo của $K$ trong $\overline{K}$. Để một mở rộng con $E$ của $\overline{K}$ tách được trên $K$ thì điều kiện cần và đủ là nó rời nhau tuyến tính với $K^{p^{-\infty}}$ trên $K$.*
 
 Ta có thể ngay lập tức rút gọn về trường hợp $[E : K]$ là hữu hạn. Cho $(x_i)_i$, là một cơ sở của $E$ trên $K$. Để $E$ rời nhau tuyến tính với $K^{p^{-\infty}}$ thì điều kiện cần và đủ là nó rời nhau tuyến tính với $K^{p^n}$ với mọi $n \geq 0$, và điều này chỉ có nghĩa là quan hệ $\sum_{i \in I} x_i a_i^{p^{-n}} = 0$ kéo theo $a_i = 0$ với mọi $i \in I$, đối với mọi họ $(a_i)_i$, các phần tử của $K$. Đến lượt mình, điều đó có nghĩa là họ $(x_i^{p^n})_{i \in I}$ là tự do trên $K$, hoặc cũng có nghĩa là nó là một cơ sở của không gian vectơ $E$ trên $K$. Nói cách khác, $E$ rời nhau tuyến tính với $K^{p^{-n}}$ khi và chỉ khi $E = K(E^{p^n})$. Bây giờ chỉ còn áp dụng Prop. 11.
 
-#### Nhận xét {#alg-v-s7-n6-rem-1 .statement}
+#### Nhận xét {#alg-v-s7-n6-rem-1 .statement tag=06KQ}
 
 — 1) Khi $E$ đại số và có bậc vô hạn trên $K$, điều kiện $E = K(E^p)$ không phải lúc nào cũng bảo đảm rằng $E$ tách được trên $K$. Chẳng hạn, nếu $K$ không hoàn hảo và $E$ là một bao đóng hoàn hảo của $K$, thì ta có $E = K(E^p)$ nhưng $E$ không phải là một mở rộng tách được của $K$ ($V$, p. 39, Hệ quả 3).
 2) Cho $E$ là một mở rộng đại số tách được của một trường $K$ có số mũ đặc số $p$. Khi đó ta có $E^p \cap K = K^p$ (Hệ quả 2); do đó nếu $E$ hoàn hảo thì $K$ cũng vậy.
 
 ### 7. Bao đóng đại số tách được tương đối
 
-#### Mệnh đề 12 {#alg-v-s7-prop-12 .statement}
+#### Mệnh đề 12 {#alg-v-s7-prop-12 .statement tag=06KR}
 
 — *Cho $E$ là một mở rộng của $K$ và $E_s$, tập hợp các phần tử của $E$ đại số và tách được trên $K$. Khi đó $E_s$, là mở rộng con lớn nhất của $E$ vừa đại số vừa tách được trên $K$.*
 
@@ -315,7 +315,7 @@ Theo Mệnh đề 6, *a*) ($V$, p. 39) mọi mở rộng con của $E$ vừa đ�
 
 Với ký hiệu của mệnh đề trước, E, được gọi là bao đóng đại số tách được tương đối của K trong E. Khi K hoàn hảo, E, là bao đóng đại số tương đối của K trong E (V, p. 36, Prop. 2).
 
-#### Mệnh đề 13 {#alg-v-s7-prop-13 .statement}
+#### Mệnh đề 13 {#alg-v-s7-prop-13 .statement tag=06KS}
 
 — Cho E là một mở rộng đại số của K và cho E,, là bao đóng đại số tách được tương đối của K trong E.
 a) E là một mở rộng căn p của E,.
@@ -327,37 +327,37 @@ Bây giờ giả sử giả thiết b) và cho $x \in E,$. Vì x tách được 
 
 Cuối cùng c) suy ra từ a) và b) cùng với Mệnh đề 12.
 
-#### Hệ quả 1 {#alg-v-s7-prop-13-cor-1 .statement}
+#### Hệ quả 1 {#alg-v-s7-prop-13-cor-1 .statement tag=06KT}
 
 — Cho E và K' là hai mở rộng của K được chứa trong cùng một mở rộng của K. Giả sử rằng E đại số trên K và ký hiệu E, là bao đóng đại số tách được tương đối của K trong E. Khi đó $K'(E_s)$ là bao đóng đại số tách được tương đối của K' trong $K'(E)$.
 
 Thật vậy, $K'(E_s)$ là một mở rộng đại số tách được của K' theo Mệnh đề 10 (V, p. 42); vì E là căn p trên E,, nên mở rộng $K'(E)$ của $K'(E_s)$ là căn p (V, p. 25, Cor.). Bây giờ chỉ cần áp dụng Mệnh đề 13.
 
-#### Hệ quả 2 {#alg-v-s7-prop-13-cor-2 .statement}
+#### Hệ quả 2 {#alg-v-s7-prop-13-cor-2 .statement tag=06KU}
 
 — Nếu E có bậc hữu hạn trên K, thì $E_s = \bigcap_{n \geq 0} K(E^{p^n})$.
 
 Với mỗi số nguyên $n \geq 0$, ký hiệu bởi F, mở rộng con $K(E^{p^n})$ của E. Dãy $(F_n)_{n \geq 0}$ các không gian con vectơ của E là giảm và E có số chiều hữu hạn trên K. Do đó tồn tại một số nguyên $m \geq 0$ sao cho $F_m = F_n$ với mọi $n \geq m$. Vì thế ta có $K(F_m^p) = F_{m+1} = F_m$, nên $F_m$ là một mở rộng tách được của K (V, p. 42, Mệnh đề 11); hiển nhiên E là căn p trên F, và do đó Mệnh đề 13 suy ra $E_s = F_m = \bigcap_{n \geq 0} F_n$.
 
-#### Nhận xét {#alg-v-s7-n7-rem-1 .statement}
+#### Nhận xét {#alg-v-s7-n7-rem-1 .statement tag=06KV}
 
 Cho E là một mở rộng đại số của K và E, là bao đóng căn p tương đối của E trong K (V, p. 25). Khi đó E, là mở rộng con lớn nhất của E căn p trên K (V, p. 25, Mệnh đề 2). Tuy nhiên, nói chung E không tách được trên E, (V, p. 152, Ex. 2); về trường hợp các mở rộng quasi-Galois, xem V, p. 76.
 
 ### 8. Bao đóng tách được của một trường
 
-#### Định nghĩa 4 {#alg-v-s7-def-4 .statement}
+#### Định nghĩa 4 {#alg-v-s7-def-4 .statement tag=06KW}
 
 — *Một trường K được gọi là đóng tách được nếu mọi mở rộng đại số tách được của K đều tầm thường.*
 
 Một trường đóng đại số thì đóng tách được. Ngược lại, nếu một trường hoàn hảo K là đóng tách được thì nó đóng đại số, vì mọi mở rộng đại số của K đều tách được (*V*, p. 3 , Prop. 2).
 
-#### Định nghĩa 5 {#alg-v-s7-def-5 .statement}
+#### Định nghĩa 5 {#alg-v-s7-def-5 .statement tag=06KX}
 
 — *Cho K là một trường. Bởi một bao đóng đại số tách được, hoặc (do lạm dụng ngôn ngữ) bao đóng tách được của K, ta hiểu là mọi mở rộng E của K vừa đại số vừa tách được trên K, và sao cho trường E là đóng tách được.*
 
 Khi K hoàn hảo, có sự đồng nhất hoàn toàn giữa các khái niệm bao đóng tách được và bao đóng đại số của K (*V*, p. 36, Prop. 2 and p. 43, Cor. 1).
 
-#### Mệnh đề 14 {#alg-v-s7-prop-14 .statement}
+#### Mệnh đề 14 {#alg-v-s7-prop-14 .statement tag=06KY}
 
 — *Cho Ω là một mở rộng đóng đại số của K.*
 
@@ -369,17 +369,17 @@ Cho F là một mở rộng đại số tách được của Ω_s ; vì Ω đón
 
 Cho E là một bao đóng tách được của K. Vì E là một mở rộng đại số của K, tồn tại một K-đồng cấu v của E vào Ω (*V*, p. 20, Đl. 1). Do đó $v(E)$ tách được và đại số trên K, suy ra $v(E) \subset \Omega_s$. Theo *V*, p. 42, Mđ. 9, $\Omega_s$ tách được trên $v(E)$ và vì trường $v(E)$ đóng tách được, ta có $v(E) = \Omega_s$. Suy ra v là một K-đẳng cấu của E lên $\Omega_s$. Khi đó *b)* là một hệ quả ngay lập tức.
 
-#### Hệ quả {#alg-v-s7-n8-cor-1 .statement}
+#### Hệ quả {#alg-v-s7-n8-cor-1 .statement tag=06KZ}
 
 — *Cho E là một mở rộng đóng tách được của K và F là một mở rộng đại số tách được của K ; khi đó tồn tại một K-đồng cấu của F vào E._
 
 Cho Ω là một bao đóng đại số của E ; ta có $\Omega_s \subset E$ và chỉ cần xét trường hợp $E = \Omega_s$. Vì F là một mở rộng đại số của K, tồn tại một K-đồng cấu u của F vào Ω (*V*, p. 20, Đl. 1). Vì trường $u(F)$ tách được trên K, ta có $u(F) \subset \Omega_s$ và u xác định một K-đồng cấu của F vào $\Omega_s = E$.
 
-#### Nhận xét 1 {#alg-v-s7-n8-rem-1 .statement}
+#### Nhận xét 1 {#alg-v-s7-n8-rem-1 .statement tag=06L0}
 
 Cho E và E' là hai bao đóng tách được của K. Nếu K không đóng tách được, tồn tại nhiều K-đẳng cấu của E lên E'. \* Thật vậy, khi đó E là một mở rộng Galois không tầm thường của K, và do đó tồn tại những K-tự đẳng cấu của E khác đồng nhất (*V*, p. 56, Đl. 1).
 
-#### Nhận xét 2 {#alg-v-s7-n8-rem-2 .statement}
+#### Nhận xét 2 {#alg-v-s7-n8-rem-2 .statement tag=06L1}
 
 \* Cho E là một mở rộng đại số và tách được của K. Nếu mọi mở rộng đại số và tách được của K đều đẳng cấu với một mở rộng con của E, thì E là một bao đóng tách được của K. Thật vậy, nếu E' là một bao đóng tách được của K, thì mỗi mở rộng E và E' đều đẳng cấu với một mở rộng con của mở rộng kia; do đó E và E' là những mở rộng đẳng cấu của K (V, p. 52, Mđ. 1, a)).
 
@@ -387,7 +387,7 @@ Cho E và E' là hai bao đóng tách được của K. Nếu K không đóng t�
 
 Cho E là một mở rộng bậc hữu hạn của K và $\Omega$ là một bao đóng đại số của K. Nhắc lại (V, p. 31) rằng bởi *bậc tách được* của E trên K, ký hiệu là $[E : K]_s$, ta hiểu số các K-đồng cấu của E vào $\Omega$.
 
-#### Mệnh đề 15 {#alg-v-s7-prop-15 .statement}
+#### Mệnh đề 15 {#alg-v-s7-prop-15 .statement tag=06L2}
 
 *Cho E, là bao đóng tách được tương đối của K trong E; khi đó* $[E : K]_s = [E_s : K]$.
 
@@ -403,7 +403,7 @@ theo Mđ. 15.
 
 Khi K có đặc số 0, thì $E = E_s$, và do đó $[E : K]_s = [E : K]$ và $[E : K]_i = 1$. Nếu K có đặc số $p \neq 0$, số $[E : K]_i$ là một lũy thừa của p vì E là p-căn trên $E_s$ (V, p. 44, Mđ. 13 và p. 26, Mđ. 4). Cần lưu ý rằng $[E : K]_i$ không nhất thiết bằng lũy thừa cao nhất của $p$ chia $[E : K]_s$, cũng không bằng bậc $[E_s : K]$ của bao đóng tương đối p-căn của E trong K (V, p. 152, Bài tập 3 và 2).
 
-#### Mệnh đề 16 {#alg-v-s7-prop-16 .statement}
+#### Mệnh đề 16 {#alg-v-s7-prop-16 .statement tag=06L3}
 
 *Cho $\Omega$ là một mở rộng của K và E, F là hai mở rộng con của $\Omega$, bậc hữu hạn trên K.*
 

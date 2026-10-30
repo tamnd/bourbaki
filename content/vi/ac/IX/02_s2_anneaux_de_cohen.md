@@ -33,7 +33,7 @@ subsections:
       pdf_page: 138
 statements: 30
 exercises: 17
-content_sha256: 13f7729b6ad0e668b73a85679f515bee6be1ae588c44dfa70d921cb9a3e8bcc3
+content_sha256: 883a4c30f9376cdeb2cc9b4267e76213a5a2023d45d2b830614a0f45a6fa4f75
 translated_from: content/en-mt/ac/IX/02_s2_anneaux_de_cohen.md
 source_lang: en-mt
 translation_method: machine
@@ -51,13 +51,13 @@ Trong suốt số này, $p$ ký hiệu một số nguyên tố.
 
 ### 1. Các $p$-vành
 
-#### Định nghĩa 1 {#ac-ix-s2-def-1 .statement}
+#### Định nghĩa 1 {#ac-ix-s2-def-1 .statement tag=0CWA}
 
 Một vành $C$ được gọi là một $p$-vành nếu iđêan $pC$ của $C$ là cực đại, và nếu $C$ tách biệt và đầy đủ đối với tôpô $pC$-adic.
 
 Cho $C$ là một vành; nếu $p1_C$ lũy linh và nếu iđêan $pC$ của $C$ là cực đại, thì $C$ là một $p$-vành, vì tôpô $pC$-adic của $C$ là rời rạc. Đặc biệt, mọi trường có đặc số $p$ đều là một $p$-vành.
 
-#### Mệnh đề 1 {#ac-ix-s2-prop-1 .statement}
+#### Mệnh đề 1 {#ac-ix-s2-prop-1 .statement tag=0CWB}
 
 Cho $C$ là một $p$-vành.
 
@@ -88,13 +88,13 @@ $$
 
 trái với giả thiết $p^{d-1} 1_C \neq 0$. Do đó các phần tử của dãy (E) từng đôi một phân biệt. Cho $a$ là một iđêan của $C$ và cho $k$ là số nguyên dương nhỏ nhất sao cho $a \supset p^k C$. Cho $x$ là một phần tử khác không của $a$; ta đã thấy rằng $x$ có dạng $p^m u$ với $m \geqslant 0$ và $u$ khả nghịch trong $C$. Suy ra $p^m C \subset a$, do đó $m \geqslant k$, và cuối cùng $x \in p^k C$. Kết luận, ta có $a = p^k C$. Khi đó dãy (E) là một dãy Jordan-Hölder của $C$-môđun $C$, có độ dài $d$.
 
-#### Hệ quả 1 {#ac-ix-s2-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-ix-s2-prop-1-cor-1 .statement tag=0CWC}
 
 Nếu $p$-vành $C$ là một miền nguyên, thì nó là một vành định giá rời rạc, hoặc một trường có đặc số $p$.
 
 Giả sử $C$ là một miền nguyên. Nếu $p 1_C$ là lũy linh, ta có $p 1_C = 0$, và $\{0\}$ là một iđêan cực đại của $C$, do đó $C$ là một trường có đặc số $p$. Nếu $p 1_C$ không lũy linh, thì $C$ là một vành định giá rời rạc theo Mệnh đề 1, c).
 
-#### Hệ quả 2 {#ac-ix-s2-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-ix-s2-prop-1-cor-2 .statement tag=0CWD}
 
 Cho $C$ là một $p$-vành và $a$ là một iđêan của $C$ phân biệt với $C$. Vành $C/a$ là một $p$-vành.
 
@@ -102,11 +102,11 @@ Có thể giả sử $a \neq \{0\}$. Khi đó tồn tại một số nguyên $i 
 
 Cho $C$ là một $p$-vành. *Độ dài của* $C$, ký hiệu là $l(C)$, là cận trên nhỏ nhất trong $\overline{\mathbf{R}}$ của tập hợp các số nguyên $n \geqslant 1$ sao cho $p^{n-1} 1_C \neq 0$. Khi $l(C)$ hữu hạn, nó là độ dài của $C$-môđun $C$, và khi $l(C)$ bằng $+ \infty$, $C$-môđun $C$ không có độ dài hữu hạn (mệnh đề 1).
 
-#### Ví dụ 1 {#ac-ix-s2-n1-exa-1 .statement}
+#### Ví dụ 1 {#ac-ix-s2-n1-exa-1 .statement tag=0CWE}
 
 Với mọi số nguyên $n \geqslant 1$, vành $\mathbf{Z}/p^n\mathbf{Z}$ là một $p$-vành có độ dài $n$. Vành $\mathbf{Z}_p$ các số nguyên $p$-adic là một $p$-vành có độ dài vô hạn.
 
-#### Ví dụ 2 {#ac-ix-s2-n1-exa-2 .statement}
+#### Ví dụ 2 {#ac-ix-s2-n1-exa-2 .statement tag=0CWF}
 
 Cho $K$ là một trường hoàn hảo có đặc số $p$. Theo mệnh đề 8 của § 1, No. 8, vành $W(K)$ các vectơ Witt là một $p$-vành có độ dài vô hạn. Ánh xạ $(a_n)_{n \in \mathbf{N}} \mapsto a_0$ cảm sinh, khi chuyển qua thương, một đẳng cấu của $W(K)/pW(K)$ lên trường $K$ (loc. cit., mệnh đề 7). Với mọi số nguyên $n \geqslant 1$, vành
 $$
@@ -114,7 +114,7 @@ W_n(K) = W(K)/p^nW(K)
 $$
 là một $p$-vành có độ dài $n$.
 
-#### Mệnh đề 2 {#ac-ix-s2-prop-2 .statement}
+#### Mệnh đề 2 {#ac-ix-s2-prop-2 .statement tag=0CWG}
 
 Cho $C$ và $C'$ là hai $p$-vành và $u$ là một đồng cấu từ $C$ vào $C'$. Gọi $v$ là đồng cấu từ $\kappa_C = C/pC$ vào $\kappa_{C'} = C'/pC'$ suy ra từ $u$ khi chuyển qua thương.
 
@@ -130,7 +130,7 @@ Vì $\kappa_C$ và $\kappa_{C'}$ là các trường, đồng cấu $v$ là đơn
 
 Cuối cùng, c) suy ra từ a) và b).
 
-#### Mệnh đề 3 {#ac-ix-s2-prop-3 .statement}
+#### Mệnh đề 3 {#ac-ix-s2-prop-3 .statement tag=0CWH}
 
 Cho $(C_n, \pi_{n,m})$ là một hệ xạ ảnh các vành theo tập chỉ số $\mathbf{N}$. Giả sử rằng $C_n$ là một vành $p$ với mọi $n \in \mathbf{N}$ và các đồng cấu $\pi_{n,m}$ là toàn ánh. Khi đó $C = \varprojlim C_n$ là một vành $p$, và với mọi $n \in \mathbf{N}$, đồng cấu chính tắc $\pi_n : C \to C_n$ là toàn ánh và cảm sinh một đẳng cấu từ $\kappa_C$ lên $\kappa_{C_n}$.
 
@@ -142,17 +142,17 @@ Cho $k$ là một số nguyên $\geqslant 1$. Ta có $p^k C \subset \varprojlim 
 
 ### 2. Các vành Cohen
 
-#### Định nghĩa 2 {#ac-ix-s2-def-2 .statement}
+#### Định nghĩa 2 {#ac-ix-s2-def-2 .statement tag=0CWI}
 
 Cho A là một vành địa phương tách biệt và đầy đủ, mà trường thặng dư có đặc số p. Một vành con Cohen của A có nghĩa là một vành con C của A là một $p$-vành sao cho $A = m_A + C$ (tức là $A/m_A = C/(m_A \cap C)$).
 
 Nếu C là một vành con Cohen của A, thì iđêan $m_A \cap C$ của C là cực đại, nên bằng $pC$. Do đó ánh xạ chính tắc của $\kappa_C = C/pC$ lên $\kappa_A = A/m_A$ là một đẳng cấu trường.
 
-#### Ví dụ {#ac-ix-s2-n2-exa-1 .statement}
+#### Ví dụ {#ac-ix-s2-n2-exa-1 .statement tag=0CWJ}
 
 Cho C là một $p$-vành. Vành các chuỗi hình thức $A = C[[T_1, ..., T_n]]$ là một vành Noether, địa phương, tách biệt và đầy đủ, mà iđêan cực đại được sinh bởi dãy $(p, T_1, ..., T_n)$. Ngay lập tức thấy rằng C là một vành con Cohen của A. Điều này áp dụng đặc biệt khi C bằng $\mathbf{Z}_p$, $\mathbf{Z}/p^n \mathbf{Z}$ hoặc một trường có đặc số $p$.
 
-#### Định lý 1 {#ac-ix-s2-thm-1 .statement}
+#### Định lý 1 {#ac-ix-s2-thm-1 .statement tag=0CWK}
 
 Cho A là một vành địa phương, tách biệt và đầy đủ, mà trường thặng dư k có đặc số p. Cho $\pi$ là ánh xạ chính tắc của A lên k, và cho S là một tập con của A, sao cho $\pi$ cảm sinh một song ánh từ S lên một $p$-cơ sở của k (A, V, p. 95).
 a) Tồn tại một và chỉ một vành con Cohen C của A chứa S.
@@ -163,7 +163,7 @@ A) Trường hợp riêng: $m_A$ lũy linh
 
 Cho n là một số nguyên dương sao cho $m_A^{n+1} = \{0\}$. Nếu $\Phi_n$ là đa thức Witt thứ n ($§ 1$, No. 1), thì ánh xạ $u : [a_0, ..., a_n] \mapsto \Phi_n(a_0, ..., a_n)$ là một đồng cấu vành từ $W_{n+1}(A)$ vào A ($§ 1$, No. 7). Cho $B_n$ là ảnh của $u$ và cho $C_n$ là vành con của A được sinh bởi $B_n \cup S$.
 
-#### Bổ đề 1 {#ac-ix-s2-lem-1 .statement}
+#### Bổ đề 1 {#ac-ix-s2-lem-1 .statement tag=0CWL}
 
 Cho $A'$ là một vành con của $A$ chứa $S$. Để $A'$ chứa $C_n$, điều kiện cần và đủ là có $A' + m_A = A$.
 
@@ -179,7 +179,7 @@ Trong tập hợp $S$ các vành con $A'$ của $A$ chứa $S$ và sao cho $A' +
 
 Ta có $C + m_A = A$ theo phép dựng và $p1_C$ là lũy linh. Hiển nhiên ta có $pC \subset C \cap m_A$ và do đó bổ đề 2 dưới đây chứng tỏ rằng $pC$ là một iđêan cực đại của $C$ và do đó $C$ là một vành Cohen của $A$.
 
-#### Bổ đề 2 {#ac-ix-s2-lem-2 .statement}
+#### Bổ đề 2 {#ac-ix-s2-lem-2 .statement tag=0CWM}
 
 Ta có $C \cap m_A \subset pC$.
 
@@ -205,13 +205,13 @@ Với mọi số nguyên $n \geqslant 0$, đặt $J_n = C \cap m_A^n$. Vì vành
 
 Cho $A'$ là một vành con đóng của $A$, chứa $S$ và sao cho $A' + m_A = A$. Vì $A'$ đóng, ta có $A' = \bigcap_{n \in \mathbf{N}} \pi_n^{-1}(\pi_n(A'))$. Ta có $\pi_n(A') \supset \pi_n(S)$ và $\pi_n(A') + m_n = A_n$, do đó $\pi_n(A') \supset C_n$ theo điều đã thấy trong A). Sau hết, ta có $\pi_n^{-1}(\pi_n(A')) \supset \pi_n^{-1}(C_n)$, do đó $A' \supset C$. Điều này chứng minh c). Suy ra tính duy nhất của một vành con Cohen như trong A).
 
-#### Nhận xét {#ac-ix-s2-n2-rem-1 .statement}
+#### Nhận xét {#ac-ix-s2-n2-rem-1 .statement tag=0CWN}
 
 Giả sử rằng $p1_A$ không lũy linh (điều này xảy ra đặc biệt khi $A$ là một vành nguyên mà trường phân thức có đặc số 0). Khi đó $C$ là một vành định giá rời rạc mà trường phân thức có đặc số 0.
 
 ### 3. Sự tồn tại và tính duy nhất của các $p$-vành
 
-#### Mệnh đề 4 {#ac-ix-s2-prop-4 .statement}
+#### Mệnh đề 4 {#ac-ix-s2-prop-4 .statement tag=0CWO}
 
 *Cho $C$ và $C'$ là hai $p$-vành sao cho $l(C) \geqslant l(C')$, và gọi $\pi$ (tương ứng $\pi'$) là đồng cấu chính tắc của $C$ (tương ứng $C'$) lên $\kappa_C$ (tương ứng $\kappa_{C'}$). Gọi $(x_\lambda)_{\lambda \in \Lambda}$ (tương ứng $(x'_\lambda)_{\lambda \in \Lambda}$) là một họ các phần tử của $C$ (tương ứng của $C'$) mà ảnh qua $\pi$ (tương ứng $\pi'$) là một $p$-cơ sở của $\kappa_C$ (tương ứng $\kappa_{C'}$). Gọi $v$ là một đẳng cấu từ $\kappa_C$ lên $\kappa_{C'}$ sao cho $v(\pi(x_\lambda)) = \pi'(x'_\lambda)$ với mọi $\lambda \in \Lambda$. Khi đó tồn tại một đồng cấu duy nhất $u$ từ $C$ vào $C'$, sao cho $v \circ \pi = \pi' \circ u$ và $u(x_\lambda) = x'_\lambda$ với mọi $\lambda \in \Lambda$. Nó là toàn ánh. Nếu $l(C) = l(C')$, thì nó là một đẳng cấu.*
 
@@ -219,21 +219,21 @@ Hãy chứng minh sự tồn tại của $u$. Gọi $A$ là vành con của $C \
 
 Hãy chứng minh tính duy nhất của $u$. Gọi $u_1$ là một đồng cấu từ C vào $C'$ sao cho $v \circ \pi = \pi' \circ u_1$ và $u_1(x_\lambda) = x'_\lambda$ với mọi $\lambda \in \Lambda$, và gọi $C_1$ là đồ thị của $u_1$. Ngay lập tức thấy rằng $C_1$ là một vành con Cohen của A, chứa $(x_\lambda, x'_\lambda)$ với mọi $\lambda \in \Lambda$, do đó $C_1 = C''$ (định lý 1 của No. 2) và cuối cùng $u_1 = u$.
 
-#### Mệnh đề 5 {#ac-ix-s2-prop-5 .statement}
+#### Mệnh đề 5 {#ac-ix-s2-prop-5 .statement tag=0CWP}
 
 Cho k là một trường có đặc số p, và cho n là một số nguyên $\geq 1$, hoặc $+ \infty$. Tồn tại một p-vành có độ dài n mà trường thặng dư đẳng cấu với k.
 
 Vành $W(k)$ các vectơ Witt với hệ số trong k là một vành địa phương nguyên phân tách đầy đủ mà trường thặng dư đẳng cấu với k ($§ 1$, no. 8, mệnh đề 8), và ta có $p \cdot 1_{W(k)} \neq 0$ (loc. cit., công thức (52)). Cho C là một vành con Cohen của $W(k)$ (no. 2, định lý 1). Khi đó C là một p-vành có độ dài $+ \infty$ mà trường thặng dư đẳng cấu với k, và, nếu n là một số nguyên $\geq 1$, thương $C/p^nC$ là một p-vành có độ dài n mà trường thặng dư đẳng cấu với k.
 
-#### Nhận xét 1 {#ac-ix-s2-n3-rem-1 .statement}
+#### Nhận xét 1 {#ac-ix-s2-n3-rem-1 .statement tag=0CWQ}
 
 Cho n là một số nguyên $\geq 1$ và S là một p-cơ sở của k. Có thể chứng minh rằng vành con của $W_n(k)$ được sinh bởi $W_n(k^{p^n})$ và bởi các phần tử $[\xi, 0, ..., 0]$ ($\xi \in S$), là một p-vành có độ dài n mà trường thặng dư đẳng cấu với k (xem p. 72, bài tập 10).
 
-#### Nhận xét 2 {#ac-ix-s2-n3-rem-2 .statement}
+#### Nhận xét 2 {#ac-ix-s2-n3-rem-2 .statement tag=0CWR}
 
 Bạn đọc sẽ tìm thấy trong Phụ lục một chứng minh của mệnh đề 5 không dùng các kết quả của $§ 1$, cũng không dùng định lý tồn tại đối với các vành con Cohen (no. 2, định lý 1).
 
-#### Hệ quả {#ac-ix-s2-n3-cor-1 .statement}
+#### Hệ quả {#ac-ix-s2-n3-cor-1 .statement tag=0CWS}
 
 Cho C là một p-vành có độ dài hữu hạn n. Tồn tại một p-vành $C'$ có độ dài vô hạn sao cho C đẳng cấu với $C'/p^nC'$.
 
@@ -241,13 +241,13 @@ Theo mệnh đề 5, tồn tại một p-vành $C'$ có độ dài vô hạn sao
 
 ### 4. Các Đại Diện Nhân Tính
 
-#### Mệnh đề 6 {#ac-ix-s2-prop-6 .statement}
+#### Mệnh đề 6 {#ac-ix-s2-prop-6 .statement tag=0CWT}
 
 Cho C là một p-vành, mà trường thặng dư k là hoàn hảo. Giả sử rằng C có độ dài hữu hạn n (tương ứng vô hạn). Tồn tại một đẳng cấu duy nhất $u : W_n(k) \to C$ (tương ứng $u : W(k) \to C$) cảm sinh, bằng cách chuyển qua các thương, ánh xạ đồng nhất của k.
 
 Vì $W_n(k)$ (tương ứng $W(k)$) là một p-vành có trường thặng dư k, và có độ dài n (tương ứng có độ dài vô hạn) (No. 1, Ví dụ 2), và vì $\varnothing$ là một p-cơ sở của trường hoàn hảo k, nên mệnh đề 6 là một trường hợp riêng của mệnh đề 4 của No. 3.
 
-#### Định lý 2 {#ac-ix-s2-thm-2 .statement}
+#### Định lý 2 {#ac-ix-s2-thm-2 .statement tag=0CWU}
 
 Cho A là một vành địa phương phân tách đầy đủ, k là trường thặng dư của nó và $\pi$ là đồng cấu chính tắc từ A lên k. Giả sử rằng k là một trường hoàn hảo có đặc số p.
 
@@ -259,7 +259,7 @@ Theo định lý 1 của no. 2, tồn tại một vành con Cohen duy nhất c�
 
 Để có một phép dựng trực tiếp của u, xem p. 70, bài tập 6.
 
-#### Mệnh đề 7 {#ac-ix-s2-prop-7 .statement}
+#### Mệnh đề 7 {#ac-ix-s2-prop-7 .statement tag=0CWV}
 
 Giữ lại các giả thiết và ký hiệu của định lý 2. Tồn tại một tập con nhân tính duy nhất S của A sao cho $\pi$ cảm sinh một song ánh từ S lên k. Để một phần tử a của A thuộc S, điều kiện cần và đủ là với mọi $n \in \mathbf{N}$, tồn tại một phần tử $a_n$ của A sao cho $a = a_n^{p^n}$. Tập S là tập các phần tử có dạng $u(x, 0, 0, ...)$.
 
@@ -288,7 +288,7 @@ Rõ ràng ánh xạ $\pi \circ \varphi$ là ánh xạ đồng nhất của $k$. 
 
 Các phần tử của S thường được gọi là các đại diện nhân tính (hay các đại diện Teichmüller) của A.
 
-#### Nhận xét 1 {#ac-ix-s2-n4-rem-1 .statement}
+#### Nhận xét 1 {#ac-ix-s2-n4-rem-1 .statement tag=0CWW}
 
 Giữ các giả thiết và ký hiệu ở trên. Ta có
 $$
@@ -301,19 +301,19 @@ u(a) = \sum_{n=0}^{\infty} p^n \varphi(a_n^{p^{-n}})
 $$
 với mọi $a = (a_n)_{n \in \mathbf{N}}$ trong $\mathbf{W}(k)$, vì $u$ là liên tục (Định lý 2, b)). Theo công thức (4), vành con Cohen duy nhất của A gồm các phần tử có dạng $\sum_{n=0}^{\infty} p^n s_n$ với $s_n \in S$ với mọi số nguyên $n \geq 0$.
 
-#### Nhận xét 2 {#ac-ix-s2-n4-rem-2 .statement}
+#### Nhận xét 2 {#ac-ix-s2-n4-rem-2 .statement tag=0CWX}
 
 Cho A là một vành địa phương tách biệt và đầy đủ, $k$ là trường thặng dư của nó và $\pi$ là đồng cấu chính tắc từ A lên $k$. Có thể chứng minh rằng tồn tại một tập con nhân tính S của A (nói chung không duy nhất) sao cho $\pi$ cảm sinh một song ánh từ S lên $k$ (xem p. 72, Bài tập 11).
 
-#### Ví dụ 1 {#ac-ix-s2-n4-exa-1 .statement}
+#### Ví dụ 1 {#ac-ix-s2-n4-exa-1 .statement tag=0CWY}
 
 Cho $k$ là một trường hoàn hảo có đặc số $p$. Các đại diện nhân tính của vành $\mathbf{W}(k)$ là các vectơ Witt $\tau(x) = (x, 0, 0, ...)$ với $x \in k$.
 
-#### Ví dụ 2 {#ac-ix-s2-n4-exa-2 .statement}
+#### Ví dụ 2 {#ac-ix-s2-n4-exa-2 .statement tag=0CWZ}
 
 Cho A là một vành địa phương nguyên, tách biệt và đầy đủ. Giả sử rằng trường thặng dư $k$ của A là hữu hạn, có $q = p^f$ phần tử, do đó là hoàn hảo và có đặc số $p$. Ta có $x^q = x$ với mọi $x \in k$, do đó $s^q = s$ với mọi đại diện nhân tính s. Suy ra rằng tập hợp các đại diện nhân tính gồm 0 và $q - 1$ căn bậc $(q - 1)$ của đơn vị trong trường phân thức của A. Nếu trường phân thức của A là compact địa phương, sự tồn tại của các đại diện nhân tính cũng suy ra từ VI, § 9, No. 2, Mệnh đề 3 (xem thêm VI, § 9, Bài tập 5).
 
-#### Ví dụ 3 {#ac-ix-s2-n4-exa-3 .statement}
+#### Ví dụ 3 {#ac-ix-s2-n4-exa-3 .statement tag=0CX0}
 
 Đặc biệt hơn, xét trường hợp $A = \mathbf{Z}_p$. Khi đó các đại diện nhân tính là 0 và các căn bậc $(p - 1)$ của đơn vị trong trường phân thức $\mathbf{Q}_p$ của $\mathbf{Z}_p$.
 
@@ -321,7 +321,7 @@ Cho A là một vành địa phương nguyên, tách biệt và đầy đủ. Gi
 
 Cho $A$ và $C$ là các vành địa phương Noether đầy đủ, và cho $u$ là một đồng cấu địa phương từ $C$ vào $A$, cảm sinh, bằng cách chuyển qua thương, một đẳng cấu của $\kappa_C$ lên $\kappa_A$. Cho $(p_1, ..., p_m)$ là một dãy sinh iđêan $m_C$ của $C$, và cho $t_1, ..., t_n$ là các phần tử của $m_A$. Đặt $B = C[[T_1, ..., T_n]]$.
 
-#### Bổ đề 3 {#ac-ix-s2-lem-3 .statement}
+#### Bổ đề 3 {#ac-ix-s2-lem-3 .statement tag=0CX1}
 
 a) Tồn tại một đồng cấu duy nhất $v : B \to A$ mở rộng $u$ và ánh xạ $T_i$ thành $t_i$ với $1 \leq i \leq n$.
 
@@ -337,7 +337,7 @@ Iđêan của $A$ được sinh bởi dãy $(u(p_1), ..., u(p_m), t_1, ..., t_n)
 
 Giả sử rằng $v(m_B)$ $A$ là một iđêan định nghĩa của $A$. Khi đó tôpô $m_B$-adic của $B$-môđun $A$ trùng với tôpô $m_A$-adic của vành $A$, và vì thế là tách. Vì $A/v(m_B)$ $A$ là một môđun hữu hạn sinh trên $B/m_B$, nên $A$ là một $B$-môđun hữu hạn sinh (III, § 2, No. 3, Ví dụ 3 và No. 9, hệ quả 1 của Mệnh đề 12). Điều này chứng minh $c$.
 
-#### Bổ đề 4 {#ac-ix-s2-lem-4 .statement}
+#### Bổ đề 4 {#ac-ix-s2-lem-4 .statement tag=0CX2}
 
 Giả sử rằng vành địa phương Noether C là chính quy, và rằng $(p_1, ..., p_m)$ là một hệ tọa độ của C (VIII, § 5, No. 1, Định nghĩa 1).
 
@@ -349,7 +349,7 @@ b) Để $v$ là đơn cấu và làm cho A thành một đại số hữu hạn
 
 Giả sử rằng dãy $(u(p_1), ..., u(p_m), t_1, ..., t_n)$ các phần tử của $m_A$ là cát tuyến. Có thể thêm vào đó (VIII, § 3, No. 2, Định lý 1) các phần tử $t_{n+1}, ..., t_{n+r}$ của $m_A$ để biến nó thành một dãy cát tuyến cực đại. Theo điều đi trước, khi đó tồn tại một đồng cấu đơn ánh $w$ của $C[[T_1, ..., T_n, T_{n+1}, ..., T_{n+r}]] = B[[T_{n+1}, ..., T_{n+r}]]$ mở rộng $v$ và ánh xạ $T_{n+j}$ tới $t_{n+j}$ với $1 \leq j \leq r$. Do đó $v$ là đơn cấu. Điều này chứng minh a).
 
-#### Định lý 3 {#ac-ix-s2-thm-3 .statement}
+#### Định lý 3 {#ac-ix-s2-thm-3 .statement tag=0CX3}
 
 Cho A là một vành địa phương, Noether và đầy đủ, có trường thặng dư k với đặc số p. Cho C là một vành p có độ dài vô hạn, mà trường thặng dư đẳng cấu với k (No. 3, Mệnh đề 5).
 

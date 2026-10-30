@@ -42,9 +42,9 @@ subsections:
       pdf_page: 273
 statements: 17
 exercises: 1
-content_sha256: c9a6a810848bbdcb2ebbdbd0ac72990ea8f2e945026cc0561e9f86e59a826ca8
+content_sha256: afc8e2044436ec5788546f76fccea836727b91f8ede7ee3ea772e9a8213da2af
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
-source_content_sha256: 6f80558fbc92e161f5d49ee0e3bc31cde68825641566b6b9033b62360094bb00
+source_content_sha256: 0afa8f8b2eeacc6c331a25088f06579b838538c263fddf5f044dbaa9e0fb2b95
 translation_model: gpt-5.4-mini, gpt-5.4
 translation_run: translate-vi-f9b66ecd
 glossary_version: 34
@@ -319,7 +319,7 @@ Cặp $(s_1,s_2\cap((\mathbf{R}\times E)\times E))$ là một thủ tục suy di
 
 Giả sử rằng $\Theta$ có cùng các tập hợp cơ sở (chính và phụ) như $\Sigma$, và cùng đặc trưng hóa điển hình. Hơn nữa, nếu tiên đề của $\Sigma$ kéo theo (trong $\mathscr{T}$) tiên đề của $\Theta$, thì rõ ràng số hạng $s$ là một thủ tục suy diễn một cấu trúc thuộc loài $\Theta$ từ một cấu trúc thuộc loài $\Sigma$. Khi đó nói rằng $\Theta$ nghèo hơn $\Sigma$, và $\Sigma$ giàu hơn $\Theta$. Khi ấy mọi cấu trúc thuộc loài $\Sigma$, trong một lý thuyết $\mathscr{T}'$ mạnh hơn $\mathscr{T}$, cũng là một cấu trúc thuộc loài $\Theta$. Chẳng hạn, loài các cấu trúc của các tập hợp được sắp thứ tự toàn phần (thu được bằng cách lấy làm tiên đề phép hội của tiên đề của các cấu trúc thứ tự (no. 4, Ví dụ 1) và quan hệ $s\cup s^{-1}=A\times A$) giàu hơn loài các cấu trúc thứ tự. \*Loài các cấu trúc nhóm giao hoán giàu hơn loài các cấu trúc nhóm. Loài các cấu trúc không gian tôpô compắc giàu hơn loài các cấu trúc tôpô, v.v. \*
 
-#### Ví dụ 4 {#ens-iv-s1-n6-exa-4 .statement}
+#### Ví dụ 4 {#ens-iv-s1-n6-exa-4 .statement tag=077U}
 
 \* Khi mỗi loài trong $\Sigma$ và $\Theta$ là loài các cấu trúc nhóm (tương ứng, cấu trúc vành), trong đại số xác định một thủ tục suy diễn gắn với mỗi cấu trúc nhóm (tương ứng, cấu trúc vành) cấu trúc nhóm (tương ứng, cấu trúc vành) trên tâm của nó. Khi $\Sigma$ là loài các cấu trúc không gian vectơ trên một trường $K$, và khi $\Theta$ là loài các cấu trúc đại số trên $K$, thì xác định các thủ tục suy diễn gắn với mọi không gian vectơ trên $K$ đại số tenxơ hoặc đại số ngoài của nó. Về sau trong chuỗi này chúng ta sẽ gặp nhiều ví dụ khác nữa. \*
 

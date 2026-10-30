@@ -41,11 +41,11 @@ subsections:
       pdf_page: 149
 statements: 34
 exercises: 22
-content_sha256: cff3d624b87dbad11133d6413c517e8370cd94f98df610a49fa7dc951b4244d8
+content_sha256: 6d74bdb0c964906f5ea150dec9ac2ece0273aef507ac0f0c9be9361def1cb040
 translated_from: content/fr/alg/X/08_s8_dimension_homologique.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 6b6ef7217185b84aafaf4ab67bc95ef54fd023c3c53ad5941fa9ffc7a938ed05
+source_content_sha256: 35d2740732b026154d5a5c2f10001f40acc29151d52a88e7e1ea5aa661616425
 translation_model: laguna-s-2.1-free, hy3-free
 translation_run: translate-en-mt-e117ae35
 glossary_version: 34
@@ -59,18 +59,18 @@ In this section, we adopt the conventions of § 5.
 
 ### 1. Projective Dimension of a Module
 
-#### Definition 1 {#alg-x-s8-def-1 .statement}
+#### Definition 1 {#alg-x-s8-def-1 .statement tag=0E0P}
 
 *Let $M$ be an $A$-module. The projective dimension of $M$, denoted by $\mathrm{dp}_A(M)$, is the greatest lower bound in $\overline{\mathbf{Z}}$ of the lengths of projective resolutions of $M$* (X, p. 48).
 
 We thus have $\mathrm{dp}_A(0) = -\infty$, $\mathrm{dp}_A(M) \geq 0$ if $M \neq 0$. For $M$ to be projective, it is necessary and sufficient that $\mathrm{dp}_A(M) \leq 0$.
 
-#### Lemma 1 {#alg-x-s8-lem-1 .statement}
+#### Lemma 1 {#alg-x-s8-lem-1 .statement tag=0E0Q}
 
 *If $\mathrm{dp}_A(M) < n < +\infty$, then $\mathrm{Ext}_A^n(M, N) = 0$ for every $A$-module $N$ and $\mathrm{Tor}_n^A(P, M) = 0$ for every righthand $A$-module $P$.
 This follows immediately from the fact that $M$ has a projective resolution of length $< n$ and from X, p. 100, Theorem 1.*
 
-#### Proposition 1 {#alg-x-s8-prop-1 .statement}
+#### Proposition 1 {#alg-x-s8-prop-1 .statement tag=0E0R}
 
 *Let $M$ be an $A$-module and $n$ an integer $\geq 0$. The following conditions are equivalent* :
 (i) $\mathrm{dp}_A(M) \leq n$ (*i.e.* (def. 1), $M$ has a projective resolution of length $\leq n$);
@@ -95,7 +95,7 @@ $$
 $$
 If (iv) holds, then $Z_{n-1}(M)$ is projective and $M$ has a projective resolution of length $\leq n$.
 
-#### Corollary 1 {#alg-x-s8-prop-1-cor-1 .statement}
+#### Corollary 1 {#alg-x-s8-prop-1-cor-1 .statement tag=0E0S}
 
 Let $(M_i)_{i \in E}$ be a family of $A$-modules. We have
 $$
@@ -105,7 +105,7 @@ This follows from the equivalence of conditions (i) and (iii) of Proposition 1 a
 
 In the following statement, we agree that $\pm \infty + 1 = \pm \infty - 1 = \pm \infty$.
 
-#### Corollary 2 {#alg-x-s8-prop-1-cor-2 .statement}
+#### Corollary 2 {#alg-x-s8-prop-1-cor-2 .statement tag=0E0T}
 
 Let
 $$
@@ -152,7 +152,7 @@ $$
 
 by the preceding exact sequence; by prop. 1, this immediately implies $\mathrm{dp}_A(M'')=\mathrm{dp}_A(M')+1$, since one of the quantities $\mathrm{dp}_A(M')$, $\mathrm{dp}_A(M'')$ is $>\mathrm{dp}_A(M)$.
 
-#### Example {#alg-x-s8-n1-exa-1 .statement}
+#### Example {#alg-x-s8-n1-exa-1 .statement tag=0E0U}
 
 Let $a$ be an element of A which is neither invertible nor a right zero divisor.
 Then $\mathrm{dp}_A(A/Aa)=1$.
@@ -165,7 +165,7 @@ $$
 
 and $a$ is invertible.
 
-#### Proposition 2 {#alg-x-s8-prop-2 .statement}
+#### Proposition 2 {#alg-x-s8-prop-2 .statement tag=0E0V}
 
 Assume A left noetherian. Let M be a finitely generated a-module and n an integer $\geq0$. The following conditions are equivalent:
 
@@ -202,7 +202,7 @@ $$
 
 By (v) and X, p. 131, cor. 3, we have $\operatorname{Tor}^A_1(A/a,K)=0$ for every finitely generated right ideal $a$ of A. By th. 2 of X, p. 74, the a-module K is flat; since it is finitely generated, hence of finite presentation (X, p. 10, prop. 5), it is projective (X, p. 13, cor.), so (1) is a projective resolution of M.
 
-#### Corollary {#alg-x-s8-n1-cor-1 .statement}
+#### Corollary {#alg-x-s8-n1-cor-1 .statement tag=0E0W}
 
 Suppose $A$ left noetherian and let $\mathscr{C}_0$ (resp. $\mathscr{C}$) be the set of classes of $A$-modules projective of finite type (resp. of $A$-modules of finite projective dimension and of finite type). Then the homomorphism of Grothendieck groups $K(\mathscr{C}_0) \to K(\mathscr{C})$ is bijective.
 
@@ -230,7 +230,7 @@ $$
 \operatorname{Tor}_n^A(P, M) \to \operatorname{Hom}_A(\operatorname{Ext}_A^n(M, A), P).
 $$
 
-#### Proposition 3 {#alg-x-s8-prop-3 .statement}
+#### Proposition 3 {#alg-x-s8-prop-3 .statement tag=0E0X}
 
 a) If $\mathrm{dp}_A(M) \leqslant n$, the canonical homomorphism (3) is injective.
 b) If $\mathrm{dp}_A(M) \leqslant n$, if $A$ is left noetherian and if $M$ is of finite type, the canonical homomorphism (3) is bijective.
@@ -290,7 +290,7 @@ is injective (resp. bijective); the diagram (5) shows that the same holds for th
 
 ### 3. Homological dimension of a ring
 
-#### Definition 2 {#alg-x-s8-def-2 .statement}
+#### Definition 2 {#alg-x-s8-def-2 .statement tag=0E0Y}
 
 We call the homological dimension of $A$ and denote by $\operatorname{dh}(A)$ the supremum in $\mathbf{Z}$ of the set of integers $n$ for which there exist two $A$-modules M and N such that $\operatorname{Ext}_A^n(M,N)\neq 0$.
 
@@ -300,7 +300,7 @@ $$
 \operatorname{dh}(K[X_1,\ldots,X_n])=n.
 $$
 
-#### Proposition 4 {#alg-x-s8-prop-4 .statement}
+#### Proposition 4 {#alg-x-s8-prop-4 .statement tag=0E0Z}
 
 Let $n$ be an integer $\geq 0$. The following conditions are equivalent:
 
@@ -342,15 +342,15 @@ of X, p. 52, we conclude that $K^{n-1}(M)$ is injective, whence (v).
 
 (v) $\Rightarrow$ (i): this follows from X, p. 100, th. 1.
 
-#### Remarque 1 {#alg-x-s8-n3-rem-1 .statement}
+#### Remarque 1 {#alg-x-s8-n3-rem-1 .statement tag=0E10}
 
 If $\mathrm{dh}(A) \leq n < +\infty$, we have $\mathrm{Tor}_{n+1}^A(P, M) = 0$ for every $A$-module $M$ and every right $A$-module $P$, since $\mathrm{dp}_A(M) \leq n$ (cf. lemma 1).
 
-#### Remarque 2 {#alg-x-s8-n3-rem-2 .statement}
+#### Remarque 2 {#alg-x-s8-n3-rem-2 .statement tag=0E11}
 
 For $\mathrm{dh}(A)$ to be finite, it is necessary and sufficient that $\mathrm{dp}_A(M)$ be finite for every nonzero $A$-module $M$. This indeed follows from the preceding and from X, p. 135, cor. 1.
 
-#### Corollaire {#alg-x-s8-n3-cor-1 .statement}
+#### Corollaire {#alg-x-s8-n3-cor-1 .statement tag=0E12}
 
 Suppose $A$ is left noetherian and let $n$ be an integer $> 0$. The following conditions are equivalent:
 
@@ -362,11 +362,11 @@ Suppose $A$ is left noetherian and let $n$ be an integer $> 0$. The following co
 
 This follows from Props. 2 and 4.
 
-#### Remark {#alg-x-s8-n3-rem-3 .statement}
+#### Remark {#alg-x-s8-n3-rem-3 .statement tag=0E13}
 
 By the equivalence of (i) and (iii), we have $\mathrm{dh}(A) = \mathrm{dh}(A^\circ)$ if $A$ is left and right noetherian. This equality is not valid in general (X, p. 204, Exercise 20).
 
-#### Proposition 5 {#alg-x-s8-prop-5 .statement}
+#### Proposition 5 {#alg-x-s8-prop-5 .statement tag=0E14}
 
 Suppose $A$ is left noetherian and of finite homological dimension and let $\mathscr{C}_0$ (resp. $\mathscr{C}$) be the set of equivalence classes of finitely generated projective a-modules (resp. of a-modules). Then the canonical homomorphism of Grothendieck groups $K(\mathscr{C}_0) \to K(\mathscr{C})$ is bijective.
 
@@ -374,7 +374,7 @@ This follows from X, p. 137, Cor.
 
 ### 4. Rings of Homological Dimension 0
 
-#### Proposition 6 {#alg-x-s8-prop-6 .statement}
+#### Proposition 6 {#alg-x-s8-prop-6 .statement tag=0E15}
 
 The following conditions are equivalent :
 (i) every a-module is projective,
@@ -390,7 +390,7 @@ By Prop. 4, we have (i) ⇔ (ii) ⇔ (iv); by Corollary 1 to Prop. 4, we have (v
 
 ### 5. Rings of Homological Dimension 1
 
-#### Proposition 7 {#alg-x-s8-prop-7 .statement}
+#### Proposition 7 {#alg-x-s8-prop-7 .statement tag=0E16}
 
 The following conditions are equivalent :
 (i) $\mathrm{dh}(A) \leq 1$,
@@ -423,11 +423,11 @@ $(ii)\Rightarrow(ii')$ : this is trivial.
 
 $(ii')\Rightarrow(ii)$ : this follows from VII, § 3, Corollary 1 to Theorem 1.
 
-#### Example {#alg-x-s8-n5-exa-1 .statement}
+#### Example {#alg-x-s8-n5-exa-1 .statement tag=0E17}
 
 If $A$ is principal, then $\operatorname{dh}(A) \leq 1$.
 
-#### Remark {#alg-x-s8-n5-rem-1 .statement}
+#### Remark {#alg-x-s8-n5-rem-1 .statement tag=0E18}
 
 If $A$ is (commutative) a domain, the preceding conditions are also equivalent to the following :
 
@@ -437,7 +437,7 @@ If $A$ is (commutative) a domain, the preceding conditions are also equivalent t
 
 Domains satisfying these conditions are called Dedekind rings (cf. X, p. 204, Exercise 12 and AC, VII, § 2, No. 2, Th. 1).
 
-#### Corollary {#alg-x-s8-n5-cor-1 .statement}
+#### Corollary {#alg-x-s8-n5-cor-1 .statement tag=0E19}
 
 Let $A$ be a ring of homological dimension $\leq 1$, $C$ a complex of projective a-modules, $\widetilde{C}$ a complex of projective right a-modules, $C'$ a complex of injective a-modules, $P$ a right a-module, $M$ a left a-module, and $n$ an integer. Then there are split exact sequences
 
@@ -461,7 +461,7 @@ Since $Z(C)$, $B(C)$, $Z(\widetilde C)$, and $B(\widetilde C)$ are projective an
 
 ### 6. Homological Dimension of Polynomial Rings
 
-#### Lemma 2 {#alg-x-s8-lem-2 .statement}
+#### Lemma 2 {#alg-x-s8-lem-2 .statement tag=0E1A}
 
 Let $\rho : A\to A'$ be a ring homomorphism, M an a-module, M′ an a′-module. If the a-module $A'_d$ is flat, one has $\mathrm{dp}_A(A'\otimes_A M)\leq\mathrm{dp}_A(M)$. If the a-module $A'_s$ is projective, one has $\mathrm{dp}_A(M')\leq\mathrm{dp}_{A'}(M')$.
 
@@ -485,7 +485,7 @@ $$
 
 where the $P'_i$ are projective ; the underlying sequence of $A$-modules is exact. Moreover each $P'_i$ is a sub-$A'$-module direct factor of a module ${A'_s}^{(1)}$, hence is a projective $A$-module ; therefore one has $\mathrm{dp}_A(M') \leq m = \mathrm{dp}_{A'}(M')$.
 
-#### Lemma 3 {#alg-x-s8-lem-3 .statement}
+#### Lemma 3 {#alg-x-s8-lem-3 .statement tag=0E1B}
 
 *Assume A commutative and let M be an a[X]-module.*
   a) *One has* $\mathrm{dp}_A(M) \leq \mathrm{dp}_{A[X]}(M) \leq \mathrm{dp}_A(M) + 1$.
@@ -537,7 +537,7 @@ $$
 
 whence c).
 
-#### Theorem 1 {#alg-x-s8-thm-1 .statement}
+#### Theorem 1 {#alg-x-s8-thm-1 .statement tag=0E1C}
 
 *Suppose $A$ commutative. Then*
 
@@ -559,7 +559,7 @@ $$
 
 therefore $dh(A) \leq dh(A[X]) - 1$.
 
-#### Corollary 1 {#alg-x-s8-thm-1-cor-1 .statement}
+#### Corollary 1 {#alg-x-s8-thm-1-cor-1 .statement tag=0E1D}
 
 *Suppose $A$ commutative. We have*
 
@@ -569,7 +569,7 @@ $$
 
 This follows from the theorem by induction on $n$.
 
-#### Corollary 2 {#alg-x-s8-thm-1-cor-2 .statement}
+#### Corollary 2 {#alg-x-s8-thm-1-cor-2 .statement tag=0E1E}
 
 *Let $K$ be a commutative field* (resp. *a principal ideal domain* *or a Dedekind ring* *which is not a field*). *Then* $dh(K[X_1, ..., X_n])$ *is equal to* $n$ (resp. $n + 1$). This follows from the fact that $dh(K) = 0$ (resp. $dh(K) = 1$).
 
@@ -577,13 +577,13 @@ This follows from the theorem by induction on $n$.
 
 In this section, we suppose that $A$ is a graded ring with degrees $\geq 0$. We denote by $(A_n)_{n \in \mathbf{Z}}$ its grading; we have therefore $A_n = 0$ for $n < 0$, $A_0$ is a subring of $A$, $J_0 = \bigoplus_{n > 0} A_n$ is a two-sided ideal of $A$ and the graded quotient ring $A/J_0$ is identified with $A_0$.
 
-#### Lemma 4 {#alg-x-s8-lem-4 .statement}
+#### Lemma 4 {#alg-x-s8-lem-4 .statement tag=0E1F}
 
 Let $M$ be a graded $A$-module bounded below (X, p. 56). If $A_0 \otimes_A M = 0$, then $M = 0$.
 
 Since $A_0 \otimes_A M$ is isomorphic to $M/J_0 M$, this is none other than ll, p. 171, prop. 6.
 
-#### Lemma 5 {#alg-x-s8-lem-5 .statement}
+#### Lemma 5 {#alg-x-s8-lem-5 .statement tag=0E1G}
 
 Let $M$ be a graded $A$-module bounded below, and let
 $$
@@ -601,7 +601,7 @@ $$
 $$
 If $\mathrm{Tor}_1^A(A_0, M) = 0$, then $A_0 \otimes_A \mathrm{Ker}\ s = 0$ and $s$ is injective (Lemma 4).
 
-#### Proposition 8 {#alg-x-s8-prop-8 .statement}
+#### Proposition 8 {#alg-x-s8-prop-8 .statement tag=0E1H}
 
 Let $M$ be a graded $A$-module bounded below.
 
@@ -658,13 +658,13 @@ $$
 
 But the canonical homomorphism $M_a\longrightarrow M^{(a)}/J_0M^{(a)}$ is bijective. It follows that the homomorphism $1\otimes f:M^{(a)}/J_0M^{(a)}\longrightarrow M/J_0M$ is injective and that its image is a direct factor sub-$A_0$-module of $M/J_0M$. It then follows from the exact sequence (7) that $\operatorname{Tor}_1^A(A_0,M')=0$ and that the $A_0$-module $M'/J_0M'$ is flat since isomorphic to a direct factor of $M/J_0M$. By the induction hypothesis (which applies to $M'$ since it is generated by the $M'_i$ for $a<i\leq b$), $M'$ satisfies condition (i), hence is flat. We then deduce from the exact sequence (6) that $\operatorname{Tor}_1^A(A_0,M^{(a)})=0$, but $M^{(a)}/J_0M^{(a)}$ is identified with $M_a$ which is a flat $A_0$-module (as a direct factor submodule of $M/J_0M$) ; by what has already been proved, the graded $A$-module $M^{(a)}$ is isomorphic to $A\otimes_{A_0}M_a$, hence also satisfies (i), which completes the proof.
 
-#### Corollary 1 {#alg-x-s8-prop-8-cor-1 .statement}
+#### Corollary 1 {#alg-x-s8-prop-8-cor-1 .statement tag=0E1I}
 
 Let $M$ be a graded $A$-module of finite type. If the $A_0$-module $M/J_0M$ is projective (resp. graded free, resp. flat) and if $\operatorname{Tor}_1^A(A_0,M)=0$, then the $A$-module $M$ is projective (resp. graded free, resp. flat).
 
-#### Corollary 2 {#alg-x-s8-prop-8-cor-2 .statement}
+#### Corollary 2 {#alg-x-s8-prop-8-cor-2 .statement tag=0E1J}
 
-#### Corollary 3 (Hilbert’s Syzygy Theorem) {#alg-x-s8-prop-8-cor-3 .statement}
+#### Corollary 3 (Hilbert’s Syzygy Theorem) {#alg-x-s8-prop-8-cor-3 .statement tag=0E1K}
 *Assume that $A_0$ is a commutative field and that $A$ is generated as an $A_0$-algebra by $n$ homogeneous elements of degrees > 0 and algebraically independent. For every graded $a$-module $M$ bounded below (resp. of finite type), there exists an exact sequence of graded $a$-modules and of degree $0$ homogeneous maps*
 $$
 0 \to L_n \to L_{n-1} \to \ldots \to L_0 \to M \to 0,
@@ -673,19 +673,19 @@ where the $L_i$ are graded free and bounded below (resp. graded free and of fini
 
 Indeed, $dh(A) = n$ by Theorem 1 of X, p. 143, and Corollary 2 is applied.
 
-#### Remark {#alg-x-s8-n7-rem-1 .statement}
+#### Remark {#alg-x-s8-n7-rem-1 .statement tag=0E1L}
 *Corollary 2 also applies in the following cases:
 a) $A_0$ is principal and $A = A_0[X_1, ..., X_{n-1}]$;
 b) $A_0$ is a regular local noetherian ring of dimension $r$ and $A = A_0[X_1, ..., X_n, r]$.*
 
-#### Corollary 4 {#alg-x-s8-prop-8-cor-4 .statement}
+#### Corollary 4 {#alg-x-s8-prop-8-cor-4 .statement tag=0E1M}
 *Assume that $A_0$ is semisimple. Let $M$ be a graded $a$-module bounded below and let $n$ be an integer $\geq 0$. In order that $\mathrm{dp}_A(M) \leq n$, it is necessary and sufficient that*
 $$
 \operatorname{Tor}_{n+1}^A(A_0, M) = 0.
 $$
 If $\mathrm{dp}_A(M) \leq n$, then $\operatorname{Tor}_{n+1}^A(A_0, M) = 0$ (X, p. 135, Lemma 1). Conversely, let $\dots \to L_1 \to L_0 \to M \to 0$ be an exact sequence of graded $a$-modules bounded below such that $L_0, \dots, L_{n-1}$ are graded free (X, p. 56, Prop. 11); according to Cor. 3 of X, p. 131, the equality $\operatorname{Tor}_{n+1}^A(A_0, M) = 0$ implies $\operatorname{Tor}_1^A(A_0, K) = 0$; since $K/J_0 K$ is a projective $A_0$-module because $A_0$ is semisimple (X, p. 140, Prop. 6), $K$ is projective by Prop. 8 (X, p. 144), and $\mathrm{dp}_A(M) \leq n$.
 
-#### Corollary 5 {#alg-x-s8-prop-8-cor-5 .statement}
+#### Corollary 5 {#alg-x-s8-prop-8-cor-5 .statement tag=0E1N}
 
 *Suppose the ring $A_0$ semisimple. If $\operatorname{Tor}_{n+1}^A(A_0, A_0) = 0$, one has $\mathrm{dp}_A(M) \leq n$ for every graded $A$-module bounded below.
 

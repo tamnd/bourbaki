@@ -42,9 +42,9 @@ subsections:
       pdf_page: 347
 statements: 17
 exercises: 5
-content_sha256: dd494d7bcd33a5449aeeb8d98706a409cfc6a9717ff546bdd03313a675077c1e
+content_sha256: 6c5dba201b898c8acc4569e640f2ed956a601b0feb6041147b446e4a61b701af
 translated_from: content/en/alg/II/08_s8_restriction_of_the_field_ofscalars_in.md
-source_content_sha256: b7ddfff3fdb23622cfdd5652b1283f65d322555654087069cf4ce0f35b45076e
+source_content_sha256: 2ed7e12b55c05b782b900415fee46ae7d943593ea0d536d23f816f7a0166f2be
 translation_model: gpt-5.4
 translation_run: translate-vi-2f9cd8fa
 glossary_version: 34
@@ -58,7 +58,7 @@ Trong suốt đoạn này, K ký hiệu một trường và K' một trường c
 
 ### 1. ĐỊNH NGHĨA CÁC CẤU TRÚC K'
 
-#### Mệnh đề 1 {#alg-ii-s8-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ii-s8-prop-1 .statement tag=05V0}
 
 Cho V là một không gian vectơ phải trên K và V' là một tập con của V là một không gian con vectơ trên K'. Các điều kiện sau là tương đương:
 
@@ -78,17 +78,17 @@ Với mọi cơ sở B' của V' trên K', tập B gồm các phần tử $v' \o
 
 Vì mọi tập con của V' tự do trên K' đều được chứa trong một cơ sở của V' trên K' (§ 7, no. 1, Định lý 2), nên (c) suy ra (e). Cuối cùng, giả sử (e) đúng; nếu B' là một cơ sở của V' trên K', thì nó là một tập con tự do của V trên K; mặt khác B' sinh V' trên K' và do đó sinh V trên K theo giả thiết; vì thế B' là một cơ sở của V trên K, điều này chứng minh rằng (e) suy ra (c).
 
-#### Định nghĩa 1 {#alg-ii-s8-def-1 .statement}
+#### Định nghĩa 1 {#alg-ii-s8-def-1 .statement tag=05V1}
 
 *Cho V là một không gian vectơ phải trên một trường K và K' là một trường con của K. Mọi không gian con vectơ trên K' V' của V thỏa mãn các điều kiện tương đương của Mệnh đề 1 được gọi là một cấu trúc K' trên V.*
 
-#### Ví dụ {#alg-ii-s8-n1-exa-1 .statement}
+#### Ví dụ {#alg-ii-s8-n1-exa-1 .statement tag=05V2}
 
 Cho B là một cơ sở của V trên K. Với *mọi* trường con K' của K, không gian con vectơ trên K' của V được sinh bởi B nhận B làm một cơ sở trên K' và do đó là một cấu trúc K' trên V. *Ví dụ, nếu K là giao hoán và V được lấy là đại số đa thức trên K K[X_1, ..., X_n], thì, với mọi trường con K' của K, K'[X_1, ..., X_n] là một cấu trúc K' trên V.*
 
 ### 2. Tính hữu tỉ đối với một không gian con
 
-#### Định nghĩa 2 {#alg-ii-s8-def-2 .statement}
+#### Định nghĩa 2 {#alg-ii-s8-def-2 .statement tag=05V3}
 
 *Cho V là một không gian vectơ phải trên K, với một cấu trúc K' V'. Một vectơ của V được gọi là hữu tỉ trên K' nếu nó thuộc V'. Một không gian con vectơ trên K W của V được gọi là hữu tỉ trên K' nếu nó được sinh (trên K) bởi các vectơ hữu tỉ trên K'._
 
@@ -98,13 +98,13 @@ Nếu W là một không gian con vectơ trên K của V mà *hữu tỉ* trên 
 
 Với mọi không gian con vectơ trên K' W' của V', ta sẽ ký hiệu bởi W'.K không gian con vectơ trên K của V gồm các tổ hợp tuyến tính của các phần tử của W' với các hệ số trong K.
 
-#### Mệnh đề 2 {#alg-ii-s8-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ii-s8-prop-2 .statement tag=05V4}
 
 *Cho V là một không gian vectơ phải trên K và V' là một cấu trúc K' trên V. Ánh xạ W' \mapsto W'.K là một song ánh từ tập hợp các không gian con vectơ trên K' của V' lên tập hợp các không gian con vectơ trên K của V là hữu tỉ trên K' và song ánh ngược là W \mapsto W \cap V'._
 
 Rõ ràng song ánh $\lambda^{-1}: V \to V' \otimes_{\mathbf{K'}} \mathbf{K}$, nghịch đảo của song ánh $\lambda$ được định nghĩa trong no. 1, Mệnh đề 1, ánh xạ mọi không gian con vectơ trên K' W' của V' lên ảnh của nó dưới đơn ánh chính tắc $x' \mapsto x' \otimes 1$ và W'.K lên W' $\otimes_{\mathbf{K'}} \mathbf{K}$; do đó các khẳng định của Mệnh đề 2 là những hệ quả của Định nghĩa 2 và § 7, no. 9, Mệnh đề 19.
 
-#### Hệ quả 1 {#alg-ii-s8-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s8-prop-2-cor-1 .statement tag=05V5}
 
 *Mọi tổng và mọi giao của các không gian con vectơ trên K của V mà hữu tỉ trên K' đều là một không gian con hữu tỉ trên K'*.
 
@@ -112,7 +112,7 @@ Mệnh đề liên quan đến các tổng là hiển nhiên. Mặt khác, nếu
 
 Một cơ sở $B$ của $V$ trên $\mathbf{K}$ được gọi là *hữu tỉ trên $\mathbf{K}'$* nếu nó gồm các vectơ hữu tỉ trên $\mathbf{K}'$.
 
-#### Hệ quả 2 {#alg-ii-s8-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s8-prop-2-cor-2 .statement tag=05V6}
 
 *Mọi cơ sở của $V$ trên $\mathbf{K}$ hữu tỉ trên $\mathbf{K}'$ đều là một cơ sở của $V'$ trên $\mathbf{K}'$.*
 
@@ -120,13 +120,13 @@ Nếu $W'$ là không gian vectơ con trên $\mathbf{K}'$ của $V'$ sinh bởi 
 
 ### 3. TÍNH HỮU TỈ ĐỐI VỚI MỘT ÁNH XẠ TUYẾN TÍNH
 
-#### Định nghĩa 3 {#alg-ii-s8-def-3 .statement}
+#### Định nghĩa 3 {#alg-ii-s8-def-3 .statement tag=05V7}
 
 *Cho $V_1, V_2$ là hai không gian vectơ phải trên $\mathbf{K}$ với các cấu trúc $\mathbf{K}'$ tương ứng là $V'_1, V'_2$. Một ánh xạ tuyến tính trên $\mathbf{K}$ $f : V_1 \to V_2$ được gọi là hữu tỉ trên $\mathbf{K}'$ nếu $f(V'_1) \subset V'_2$.*
 
 Nếu $V_3$ là một không gian vectơ phải thứ ba trên $\mathbf{K}$, với một cấu trúc $\mathbf{K}'$ $V'_3$, và nếu một ánh xạ tuyến tính trên $\mathbf{K}$ $g : V_2 \to V_3$ là hữu tỉ trên $\mathbf{K}'$, thì rõ ràng $g \circ f : V_1 \to V_3$ là hữu tỉ trên $\mathbf{K}'$.
 
-#### Mệnh đề 3 {#alg-ii-s8-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ii-s8-prop-3 .statement tag=05V8}
 
 *Cho $V_1, V_2$ là hai không gian vectơ phải trên $\mathbf{K}$ và $V'_1, V'_2$ là các cấu trúc $\mathbf{K}'$ trên $V_1, V_2$ tương ứng. $V_1$ (resp. $V_2$) được đồng nhất một cách chính tắc với $V'_1 \otimes_{\mathbf{K}'} \mathbf{K}$ (resp. $V'_2 \otimes_{\mathbf{K}'} \mathbf{K}$) (no. 1, Mệnh đề 1).
 
@@ -142,7 +142,7 @@ $$
 
 (ii) Nếu $f = f' \otimes 1_{\mathbf{K}}$, thì $f(V_1) = f(V'_1 \otimes_{\mathbf{K}'} \mathbf{K}) = f'(V'_1) \otimes_{\mathbf{K}'} \mathbf{K}$ và, vì $f'(V'_1) \subset V'_2, f(V'_1) = f'(V'_1) \cap V'_2$ (§ 7, no. 9, Mệnh đề 19); công thức $f^{-1}(V'_2) = V'_1 + \mathrm{Ker}(f)$ suy ra ngay lập tức.
 
-#### Hệ quả 1 {#alg-ii-s8-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s8-prop-3-cor-1 .statement tag=05V9}
 
 Theo ký hiệu của Mệnh đề 3, $\operatorname{Im}(f) = (\operatorname{Im}(f'))_{(\mathbf{K})}$,
 $$
@@ -152,7 +152,7 @@ $$
 
 Đây là một trường hợp riêng của § 7, no. 9, Hệ quả của Mệnh đề 18.
 
-#### Hệ quả 2 {#alg-ii-s8-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s8-prop-3-cor-2 .statement tag=05VA}
 
 Cho $f : V_1 \to V_2$ là một ánh xạ $\mathbf{K}$-tuyến tính hữu tỉ trên $\mathbf{K}'$. Với mọi không gian con vectơ-$\mathbf{K}$ $W_1$ của $V_1$ (tương ứng $W_2$ của $V_2$) hữu tỉ trên $\mathbf{K}'$, $f(W_1)$ (tương ứng $f^{-1}(W_2)$) là một không gian con vectơ-$\mathbf{K}$ của $V_2$ (tương ứng $V_1$) hữu tỉ trên $\mathbf{K}'$.
 
@@ -164,7 +164,7 @@ do đó suy ra mệnh đề liên quan đến $W_2$.
 
 Cho $V_1, V_2$ là hai không gian vectơ phải trên $\mathbf{K}$, lần lượt được trang bị các cấu trúc $\mathbf{K}'$ là $V'_1, V'_2$. Ngay lập tức thấy rằng $V'_1 \times V'_2$ là một cấu trúc $\mathbf{K}'$ trên $V_1 \times V_2$, được gọi là tích của các cấu trúc $\mathbf{K}'$ $V'_1$ và $V'_2$.
 
-#### Mệnh đề 4 {#alg-ii-s8-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ii-s8-prop-4 .statement tag=05VB}
 
 Để một ánh xạ $\mathbf{K}$-tuyến tính $f : V_1 \to V_2$ là hữu tỉ trên $\mathbf{K}'$, điều kiện cần và đủ là đồ thị $\Gamma$ của nó là hữu tỉ trên $\mathbf{K}'$ đối với cấu trúc tích $\mathbf{K}'$ trên $V_1 \times V_2$.
 
@@ -180,7 +180,7 @@ cấu trúc K' trên V và K_d. Nhờ no. 3, Mệnh đề 3, tập R' của các
 
 trong đó $\phi({x'}^*) = 1 \otimes {x'}^*$ và $\upsilon(\xi \otimes {x'}^*)$ là dạng tuyến tính $y^*$ trên V sao cho $y^*(x') = \xi \langle {x'}^*, x' \rangle$ với mọi $x' \in V'$ (§ 5, no. 4). Ta biết rằng ánh xạ này là đơn ánh (§ 7, no. 9, Propositions 20 and 19) và rõ ràng R' là một không gian con vectơ trái trên K' của V*; hơn nữa mọi tập con của R' tự do trên K' đều tự do trên K. Nhưng nói chung R' không nhất thiết sinh ra V* trên K và do đó không xác định một cấu trúc K'-trên V* (Bài tập 2). Tuy nhiên, nếu V có số chiều hữu hạn n trên K, thì V'* có chiều n trên K' và khi đó R' xác định một cách chính tắc một cấu trúc K' trên V*.
 
-#### Mệnh đề 5 {#alg-ii-s8-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ii-s8-prop-5 .statement tag=05VC}
 
 Cho V là một không gian vectơ phải trên K, V' là một cấu trúc K' trên V và W là một không gian con vectơ trên K của V. Để W hữu tỉ trên K', điều kiện cần và đủ là tồn tại một tập H \subset V^* gồm các dạng tuyến tính hữu tỉ trên K' sao cho W là trực giao của H trong V (§ 2, no. 4).
 
@@ -196,7 +196,7 @@ Cho H' là trực giao của W' trong V'*; ta biết (§ 7, no. 5, Định lý 7
 
 ### 5. ÁP DỤNG CHO CÁC HỆ TUYẾN TÍNH
 
-#### Mệnh đề 6 {#alg-ii-s8-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ii-s8-prop-6 .statement tag=05VD}
 
 (i) Cho một hệ các phương trình tuyến tính thuần nhất
 
@@ -224,7 +224,7 @@ Một vành K được gọi là (trái) *phẳng trung thành* trên một vàn
 
 Cho V là một không gian vectơ phải trên K với một cấu trúc $K'$ $V'$. Với mọi trường L sao cho $K' \subset L \subset K$, ta viết $V_L = V'.L$; rõ ràng mọi cơ sở của $V'$ trên $K'$ đều là một cơ sở của V trên K và một cơ sở của $V_L$ trên L. Do đó $V_L$ là một cấu trúc L trên V và $V'$ là một cấu trúc $K'$ trên $V_L$.
 
-#### Mệnh đề 7 {#alg-ii-s8-prop-7 .statement}
+#### Mệnh đề 7 {#alg-ii-s8-prop-7 .statement tag=05VE}
 
 (i) *Cho V là một không gian vectơ phải trên K với một cấu trúc K' V'. Với mọi vectơ $x \in V$ (tương ứng, mọi không gian con vectơ-K W của V), tập hợp các trường con L của K chứa $K'$ và sao cho $x$ (tương ứng, W) hữu tỉ trên L có một phần tử nhỏ nhất $K'(x)$ (tương ứng, $K'(W)$).*
 
@@ -236,7 +236,7 @@ Tiếp theo ta chứng minh (ii). Cho $B_1, B_2$ lần lượt là các cơ sở
 
 Sau cùng, để thiết lập mệnh đề (i) đối với một không gian con W của V, trước hết ta sẽ chứng minh bổ đề sau đây:
 
-#### Bổ đề 1 {#alg-ii-s8-lem-1 .statement}
+#### Bổ đề 1 {#alg-ii-s8-lem-1 .statement tag=05VF}
 
 *Cho V là một không gian vectơ phải trên K với một cấu trúc K' V' và W là một không gian con vectơ-K của V. Tồn tại hai không gian con vectơ-K $W_1, W_2$ của V, hữu tỉ trên K', sao cho V là tổng trực tiếp của $W_1$ và $W_2$ và, nếu V được đồng nhất với $W_1 \times W_2$, thì W là đồ thị của một ánh xạ K-tuyến tính g từ $W_1$ vào $W_2$.*
 
@@ -250,7 +250,7 @@ Với mỗi trường con L của K, gọi $\mathrm{End}_L(K)$ là vành tự đ
 
 Bây giờ, cho V là một không gian vectơ phải K với một cấu trúc-K' V'. Với mọi $\phi \in \mathrm{End}_{K'}(K)$, tồn tại một và chỉ một tự đồng cấu $\phi_v$ của $\mathbf{Z}$-môđun V sao cho $\phi_V(x'.\xi) = x'.\phi(\xi)$ với $x' \in V'$ và $\xi \in K$: thật vậy, ở no. 1, một $\mathbf{Z}$-đẳng cấu $\lambda$ từ $V' \otimes_{K'} K$ lên V đã được xác định, ánh xạ $x' \otimes \xi$ thành $x'.\xi$, và $\phi_V$ tất yếu bằng $\lambda \circ (1_{V'} \otimes \phi) \circ \lambda^{-1}$.
 
-#### Định lý 1 {#alg-ii-s8-thm-1 .statement}
+#### Định lý 1 {#alg-ii-s8-thm-1 .statement tag=05VG}
 
 *Cho $\mathscr{M}$ là một tập con của $\mathrm{End}_{K'}(K)$ và $L = \chi(\mathscr{M})$ là trường con của K là bộ tập trung hóa của $\mathscr{M}$.*
 

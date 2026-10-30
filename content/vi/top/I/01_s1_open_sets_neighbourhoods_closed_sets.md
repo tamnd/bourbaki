@@ -36,7 +36,7 @@ subsections:
       pdf_page: 29
 statements: 24
 exercises: 9
-content_sha256: 03a3b3484319d1ea8f319a34e981d584e1b5a9781e63c7e32d82d5388dde4959
+content_sha256: 7a07abf3707748ad35a9f3beb4fa22c9bef33621d9eb52d25e6d9ec395b0ab1b
 translated_from: content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md
 source_content_sha256: 69c33aa1b07c759c60eb28deb272aa6ed887332ba5d4aeb29cbf610ebb88696c
 translation_model: gpt-5.4-mini, gpt-5-mini
@@ -50,7 +50,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC TẬP MỞ
 
-#### Định nghĩa 1 {#top-i-s1-def-1 .statement}
+#### Định nghĩa 1 {#top-i-s1-def-1 .statement tag=0AZ1}
 
 *Một cấu trúc tôpô* (hay ngắn gọn hơn, *một tôpô*) *trên một tập hợp* $X$ *là một cấu trúc được cho bởi một tập hợp* $\mathscr{D}$ *gồm các tập con của* $X$, *có các tính chất sau* (gọi là *các tiên đề của cấu trúc tôpô*):
 
@@ -60,7 +60,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 *Các tập hợp của* $\mathscr{D}$ *được gọi là các tập mở của cấu trúc tôpô được xác định bởi* $\mathscr{D}$ *trên* $X$.
 
-#### Định nghĩa 2 {#top-i-s1-def-2 .statement}
+#### Định nghĩa 2 {#top-i-s1-def-2 .statement tag=0AZ2}
 
 *Một không gian tôpô là một tập hợp được trang bị một cấu trúc tôpô*.
 
@@ -76,13 +76,13 @@ Ví dụ về các tôpô. Cho bất kỳ một tập hợp $X$, tập hợp cá
 
 Một phủ $(U_i)_{i \in I}$ của một tập con $A$ của một không gian tôpô $X$ được gọi là mở nếu mọi $U_i$ đều mở trong $X$.
 
-#### Định nghĩa 3 {#top-i-s1-def-3 .statement}
+#### Định nghĩa 3 {#top-i-s1-def-3 .statement tag=0AZ3}
 
 *Một đồng phôi của một không gian tôpô $X$ lên một không gian tôpô $X'$ là một đẳng cấu của cấu trúc tôpô của $X$ lên cấu trúc của $X'$;* tức là, theo các định nghĩa chung, *một song ánh của $X$ lên $X'$ biến tập các tập con mở của $X$ thành tập các tập con mở của $X'$*.
 
 $X$ và $X'$ được nói là *đồng phôi* nếu có một đồng phôi của $X$ lên $X'$.
 
-#### Ví dụ {#top-i-s1-n1-exa-1 .statement}
+#### Ví dụ {#top-i-s1-n1-exa-1 .statement tag=0AZ4}
 
 Nếu $X$ và $X'$ là hai không gian rời rạc, bất kỳ song ánh nào của $X$ lên $X'$ đều là một đồng phôi.
 
@@ -90,13 +90,13 @@ Tiêu chuẩn sau đây suy ra ngay lập tức từ định nghĩa của một 
 
 ### 2. LÂN CẬN
 
-#### Định nghĩa 4 {#top-i-s1-def-4 .statement}
+#### Định nghĩa 4 {#top-i-s1-def-4 .statement tag=0AZ5}
 
 *Cho $X$ là một không gian tôpô và $A$ là một tập con bất kỳ của $X$. Một lân cận của $A$ là một tập con bất kỳ của $X$ chứa một tập mở chứa $A$. Các lân cận của một tập con $\{ x \}$ gồm một điểm duy nhất cũng được gọi là các lân cận của điểm $x$*.
 
 Hiển nhiên rằng mọi lân cận của một tập con $A$ của $X$ cũng là một lân cận của mỗi tập con $B \subset A$; đặc biệt, nó là một lân cận của mỗi điểm của $A$. Ngược lại, giả sử $A$ là một lân cận của mỗi điểm của một tập hợp $B$, và gọi $U$ là hợp của các tập mở được chứa trong $A$; khi đó $U \subset A$, và vì mỗi điểm của $B$ thuộc về một tập mở được chứa trong $A$, ta có $B \subset U$; nhưng $U$ là mở theo $(O_1)$, do đó $A$ là một lân cận của $B$. Đặc biệt:
 
-#### Mệnh đề 1 {#top-i-s1-prop-1 .statement}
+#### Mệnh đề 1 {#top-i-s1-prop-1 .statement tag=0AZ6}
 
 *Một tập hợp là lân cận của mỗi điểm của nó khi và chỉ khi nó là mở.*
 
@@ -120,7 +120,7 @@ Tính chất này có thể được phát biểu dưới dạng rằng *một l
 
 Bốn tính chất này của các tập $\mathfrak{B}(x)$ là *đặc trưng*. Cụ thể, ta có:
 
-#### Mệnh đề 2 {#top-i-s1-prop-2 .statement}
+#### Mệnh đề 2 {#top-i-s1-prop-2 .statement tag=0AZ7}
 
 *Nếu với mỗi phần tử $x$ của một tập $X$ ta tương ứng một tập $\mathfrak{B}(x)$ gồm các tập con của $X$ sao cho các tính chất (V_I), (V_{II}), (V_{III}) và (V_{IV}) được thỏa mãn, thì tồn tại một cấu trúc tôpô duy nhất trên $X$ sao cho, với mỗi $x \in X$, $\mathfrak{B}(x)$ là tập các lân cận của $x$ trong tôpô này.*
 
@@ -138,13 +138,13 @@ Q.E.D.
 
 Mệnh đề 2 cho thấy một tôpô trên $X$ có thể được xác định bằng các tập $\mathfrak{B}(x)$ gồm các lân cận của các điểm của $X$, chỉ với các tiên đề (V_I), (V_{II}), (V_{III}) và (V_{IV}).
 
-#### Ví dụ {#top-i-s1-n2-exa-1 .statement}
+#### Ví dụ {#top-i-s1-n2-exa-1 .statement tag=0AZ8}
 
 We có thể định nghĩa một tôpô trên tập $Q$ của các số hữu tỉ bằng cách lấy làm các tập mở mọi hợp của các khoảng mở bị chặn; tập các tập con này chắc chắn thỏa mãn (O_I), và để thấy rằng nó thỏa mãn (O_II) chỉ cần nhận xét rằng nếu giao của hai khoảng mở $]a, b[$ và $]c, d[$ không rỗng, thì nó là khoảng $]\alpha, \beta[$, trong đó $\alpha = \sup(a, c)$ và $\beta = \inf(b, d)$. Ta thu được cùng một tôpô bằng cách định nghĩa, với mỗi $x \in Q$, tập $\mathfrak{B}(x)$ các lân cận của $x$ là tập các tập con chứa một khoảng mở chứa $x$. Không gian tôpô thu được bằng cách gán tôpô này cho $Q$ được gọi là đường thẳng hữu tỉ (xem Chương IV, § 1, no. 2). Chú ý rằng trong không gian này mọi khoảng mở đều là một tập hợp mở. \* Ta có thể định nghĩa một tôpô trên tập $R$ của các số thực theo cùng cách; $R$ với tôpô này được gọi là đường thẳng thực (xem § 2, Bài tập 5 và Chương IV, § 1, no. 3). \*
 
 ### 3. HỆ THỐNG LÂN CẬN CƠ BẢN; CƠ SỞ CỦA MỘT TÔPÔ
 
-#### Định nghĩa 5 {#top-i-s1-def-5 .statement}
+#### Định nghĩa 5 {#top-i-s1-def-5 .statement tag=0AZ9}
 
 Trong một không gian tôpô $X$, một hệ cơ bản các lân cận của một điểm $x$ (tương ứng của một tập con $A$ của $X$) là bất kỳ tập $\mathfrak{G}$ các lân cận của $x$ (tương ứng của $A$) sao cho với mỗi lân cận $V$ của $x$ (tương ứng của $A$) đều có một lân cận $W \in \mathfrak{G}$ sao cho $W \subset V$.
 
@@ -154,27 +154,27 @@ Ví dụ. 1) Trong một không gian rời rạc (no. 1), riêng tập $\{ x \}$
 2) Trên đường thẳng hữu tỉ $\mathbf{Q}$, tập tất cả các khoảng mở chứa một điểm $x$ là một hệ cơ bản các lân cận của điểm này. Tập các khoảng mở $]x - 1/n, x + 1/n[$, và tập các khoảng đóng $[x - 1/n, x + 1/n]$, trong đó $n$ chạy qua mọi số nguyên $> 0$, hoặc qua bất kỳ dãy số nguyên tăng ngặt vô hạn nào > 0, cũng vậy.
 \* Có những kết quả tương tự cho đường thẳng thực. \*
 
-#### Định nghĩa 6 {#top-i-s1-def-6 .statement}
+#### Định nghĩa 6 {#top-i-s1-def-6 .statement tag=0AZA}
 
 Một cơ sở của tôpô của một không gian tôpô $X$ là bất kỳ tập $\mathfrak{B}$ nào gồm các tập con mở của $X$ sao cho mọi tập con mở của $X$ đều là hợp của các tập thuộc $\mathfrak{B}$.
 
-#### Mệnh đề 3 {#top-i-s1-prop-3 .statement}
+#### Mệnh đề 3 {#top-i-s1-prop-3 .statement tag=0AZB}
 
 Nếu $X$ là một không gian tôpô, thì để một tập $\mathfrak{B}$ gồm các tập con mở của $X$ là một cơ sở của tôpô của $X$ thì điều kiện cần và đủ là với mỗi $x \in X$ tập các $V \in \mathfrak{B}$ sao cho $x \in V$ là một hệ cơ bản các lân cận của $x$.
 
 Điều kiện này hiển nhiên là cần thiết. Ngược lại, nếu nó được thỏa mãn, thì với bất kỳ tập mở $U$ nào và bất kỳ $x \in U$ nào cũng có một tập mở $V_x \in \mathfrak{B}$ sao cho $x \in V_x \subset U$. Do đó, hợp của các tập $V_x$ với $x \in U$ bằng $U$. Điều đó hoàn tất chứng minh.
 
-#### Ví dụ 1 {#top-i-s1-n3-exa-1 .statement}
+#### Ví dụ 1 {#top-i-s1-n3-exa-1 .statement tag=0AZC}
 
 Tôpô rời rạc có cơ sở là tập các tập con của $X$ chỉ gồm một điểm.
 
-#### Ví dụ 2 {#top-i-s1-n3-exa-2 .statement}
+#### Ví dụ 2 {#top-i-s1-n3-exa-2 .statement tag=0AZD}
 
 Tập các khoảng mở bị chặn là, theo định nghĩa, một cơ sở của tôpô của đường thẳng hữu tỉ (no. 2). \* Tương tự, tập các khoảng mở bị chặn là một cơ sở của tôpô của đường thẳng thực. \*
 
 ### 4. CÁC TẬP HỢP ĐÓNG
 
-#### Định nghĩa 7 {#top-i-s1-def-7 .statement}
+#### Định nghĩa 7 {#top-i-s1-def-7 .statement tag=0AZE}
 
 Trong một không gian tôpô $X$, các phần bù của các tập mở của $X$ được gọi là các tập đóng.
 
@@ -196,7 +196,7 @@ Một *đồng phôi* $f$ của một không gian tôpô $X$ lên một không g
 
 ### 5. HỌ HỮU HẠN ĐỊA PHƯƠNG
 
-#### Định nghĩa 8 {#top-i-s1-def-8 .statement}
+#### Định nghĩa 8 {#top-i-s1-def-8 .statement tag=0AZF}
 
 *Một họ $(A_i)_{i \in I}$ các tập con của một không gian tôpô $X$ được gọi là hữu hạn địa phương nếu với mỗi $x \in X$ tồn tại một lân cận $V$ của $x$ sao cho $V \cap A_i = \varnothing$ với tất cả trừ một số hữu hạn chỉ số $i \in I$. Một tập $\mathscr{S}$ các tập con của $X$ được gọi là hữu hạn địa phương nếu họ các tập con được xác định bởi ánh xạ đồng nhất của $\mathscr{S}$ lên chính nó là hữu hạn địa phương.*
 
@@ -206,7 +206,7 @@ Mọi họ *hữu hạn* các tập con của một không gian tôpô $X$ hiể
 
 \* Ví dụ, trong $\mathbf{R}$, phủ mở tạo bởi khoảng ]\leftarrow, 1[ và các khoảng ]$n, \rightarrow[$ với mỗi số nguyên $n \geqslant 0$ là hữu hạn địa phương; và mỗi khoảng ]$n, \rightarrow[$ gặp một số vô hạn các tập của phủ này. \*
 
-#### Mệnh đề 4 {#top-i-s1-prop-4 .statement}
+#### Mệnh đề 4 {#top-i-s1-prop-4 .statement tag=0AZG}
 
 *Hợp của một họ hữu hạn địa phương các tập con đóng của một không gian tôpô $X$ là đóng trong $X$.*
 
@@ -220,13 +220,13 @@ nhưng không đóng.
 
 ### 6. NỘI, BAO ĐÓNG, BIÊN CỦA MỘT TẬP HỢP; CÁC TẬP TRÙ MẬT
 
-#### Định nghĩa 9 {#top-i-s1-def-9 .statement}
+#### Định nghĩa 9 {#top-i-s1-def-9 .statement tag=0AZH}
 
 *Trong một không gian tôpô $X$, một điểm $x$ được gọi là một điểm nội của một tập con $A$ của $X$ nếu $A$ là một lân cận của $x$. Tập các điểm nội của $A$ được gọi là nội của $A$ và được ký hiệu bởi $\dot{A}$.*
 
 Theo các Định nghĩa 9 và 4, một điểm $x$ là một điểm nội của $A$ nếu có một tập mở được chứa trong $A$ và chứa $x$; suy ra $\dot{A}$ là hợp của mọi tập mở được chứa trong $A$, và do đó là *tập mở lớn nhất được chứa trong* $A$: nói cách khác, nếu $B$ là một tập *mở* được chứa trong $A$, thì $B \subset \dot{A}$. Do đó, nếu $A$ và $B$ là hai tập con của $X$ sao cho $B \subset A$, thì $\dot{B} \subset \dot{A}$; và $A$ là một lân cận của $B$ khi và chỉ khi $B \subset \dot{A}$.
 
-#### Nhận xét {#top-i-s1-n6-rem-1 .statement}
+#### Nhận xét {#top-i-s1-n6-rem-1 .statement tag=0AZI}
 
 *Nội của một tập không rỗng có thể rỗng; đây là trường hợp của một tập gồm một điểm duy nhất không mở, chẳng hạn trên đường thẳng hữu tỉ \* (hoặc đường thẳng thực) *.*
 
@@ -241,7 +241,7 @@ $$
 
 Mọi điểm thuộc phần trong của phần bù của một tập hợp $A$ được gọi là một *điểm ở ngoài* của $A$, và tập hợp các điểm ấy được gọi là *phần ngoài* của $A$ trong $X$; vì vậy một điểm $x \in X$ là một điểm ở ngoài của $A$ được đặc trưng bởi tính chất rằng *$x$ có một lân cận không giao với* $A$.
 
-#### Định nghĩa 10 {#top-i-s1-def-10 .statement}
+#### Định nghĩa 10 {#top-i-s1-def-10 .statement tag=0AZJ}
 
 *Bao đóng của một tập con* $A$ *của một không gian tôpô* $X$ *là tập hợp tất cả các điểm* $x \in X$ *sao cho mọi lân cận của* $x$ *đều giao với* $A$, *và được ký hiệu bởi* $\overline{A}$.
 
@@ -265,7 +265,7 @@ $$
 \overline{A \cup B} = \overline{A} \cup \overline{B}.
 $$
 
-#### Mệnh đề 5 {#top-i-s1-prop-5 .statement}
+#### Mệnh đề 5 {#top-i-s1-prop-5 .statement tag=0AZK}
 
 *Cho* $A$ *là một tập mở trong* $X$; *khi đó với mọi tập con* $B$ *của* $X$ *ta có*
 
@@ -280,22 +280,22 @@ Nếu $x$ thuộc bao đóng của $A$ nhưng không thuộc $A$, thì mọi lâ
 
 Một tập đóng không có điểm cô lập được gọi là một *tập hoàn hảo*.
 
-#### Định nghĩa 11 {#top-i-s1-def-11 .statement}
+#### Định nghĩa 11 {#top-i-s1-def-11 .statement tag=0AZL}
 
 Trong một không gian tôpô $X$, một điểm $x$ được gọi là một điểm biên của một tập $A$ nếu $x$ thuộc bao đóng của $A$ và thuộc bao đóng của $\overline{CA}$. Tập các điểm biên của $A$ được gọi là biên của $A$.
 
 Do đó biên của $A$ là tập $\overline{A} \cap \overline{\overline{CA}}$, và đó là một tập đóng. Một điểm biên $x$ của $A$ được đặc trưng bởi tính chất rằng mọi lân cận của $x$ đều chứa ít nhất một điểm của $A$ và ít nhất một điểm của $\overline{CA}$; $x$ có thể thuộc hoặc không thuộc $A$. Biên của $A$ cũng chính là biên của $\overline{CA}$. Phần trong của $A$, phần ngoài của $A$ và biên của $A$ đôi một rời nhau và hợp của chúng là toàn bộ không gian $X$.
 
-#### Định nghĩa 12 {#top-i-s1-def-12 .statement}
+#### Định nghĩa 12 {#top-i-s1-def-12 .statement tag=0AZM}
 
 Một tập con $A$ của một không gian tôpô $X$ được gọi là trù mật trong $X$ (hay đơn giản là trù mật, nếu không có mơ hồ về $X$) nếu $\overline{A} = X$, tức là nếu mọi tập mở không rỗng $U$ của $X$ đều giao với $A$.
 
-#### Ví dụ {#top-i-s1-n6-exa-1 .statement}
+#### Ví dụ {#top-i-s1-n6-exa-1 .statement tag=0AZN}
 
 \* Chúng ta sẽ thấy ở Chương IV, § 1 rằng tập các số hữu tỉ và phần bù của nó trù mật trên đường thẳng thực. \*
 Trong một không gian rời rạc $X$, tập con trù mật duy nhất của $X$ là chính $X$. Mặt khác, mọi tập con không rỗng của $X$ đều trù mật trong tôpô trên $X$ mà các tập mở duy nhất là $\varnothing$ và $X$.
 
-#### Mệnh đề 6 {#top-i-s1-prop-6 .statement}
+#### Mệnh đề 6 {#top-i-s1-prop-6 .statement tag=0AZO}
 
 Nếu $\mathfrak{B}$ là một cơ sở của tôpô của một không gian tôpô $X$, thì tồn tại một tập trù mật $D$ trong $X$ sao cho $\mathrm{Card}(D) \leq \mathrm{Card}(\mathfrak{B})$.
 

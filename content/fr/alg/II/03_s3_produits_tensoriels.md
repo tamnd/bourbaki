@@ -49,7 +49,7 @@ subsections:
       pdf_page: 242
 statements: 30
 exercises: 4
-content_sha256: b27a4e0838d7ae7dc02937a6edc79938bfc1a13ec7d07f1e79b1e305be56d687
+content_sha256: d7bba7ea611ff2e466485284ce41bcf68e0ec2e6e767075c564d1ed82b8c7b3b
 ---
 
 ## § 3. PRODUITS TENSORIELS
@@ -85,7 +85,7 @@ L’application $(x, y) \mapsto x \otimes y$ de $E \times F$ dans $E \otimes_A F
 
 Montrons que le produit tensoriel $E \otimes_A F$ et l’application canonique précédente forment une solution du problème d’application universelle posé plus haut. De façon précise:
 
-#### Proposition 1 {#alg-ii-s3-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s3-prop-1 .statement tag=05OS}
 
 a) Soit $g$ une application $\mathbf{Z}$-linéaire de $E \otimes_A F$ dans un $\mathbf{Z}$-module $G$. L’application $(x, y) \mapsto f(x, y) = g(x \otimes y)$ de $E \times F$ dans $G$ est $\mathbf{Z}$-bilinéaire et vérifie les conditions (1).
 
@@ -99,19 +99,19 @@ Lorsque $A = \mathbf{Z}$, les conditions (1) sont automatiquement vérifiées po
 
 Si maintenant on revient au cas général, et si $E'$ et $F'$ désignent les $\mathbf{Z}$-modules sous-jacents à $E$ et $F$ respectivement, la remarque précédente et la déf. 1 montrent aussitôt que le $\mathbf{Z}$-module $E \otimes_A F$ peut s’identifier canoniquement au quotient du $\mathbf{Z}$-module $E' \otimes_{\mathbf{Z}} F'$ par le sous-$\mathbf{Z}$-module engendré par les éléments de la forme $(x \lambda) \otimes y - x \otimes (\lambda y)$, où $x$ parcourt $E$, $y$ parcourt $F$ et $\lambda$ parcourt $A$.
 
-#### Corollaire 1 {#alg-ii-s3-prop-1-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s3-prop-1-cor-1 .statement tag=05OT}
 
 Soient $H$ un $\mathbf{Z}$-module, $h : E \times F \to H$ une application $\mathbf{Z}$-bilinéaire vérifiant les conditions (1) et telle que $H$ soit engendré par $h(E \times F)$. Supposons que pour tout $\mathbf{Z}$-module $G$ et toute application $\mathbf{Z}$-bilinéaire $f$ de $E \times F$ dans $G$ vérifiant (1), il existe une application $\mathbf{Z}$-linéaire $g : H \to G$ telle que $f = g \circ h$. Alors, si $\varphi$ désigne l’application canonique de $E \times F$ dans $E \otimes_A F$, il existe un isomorphisme et un seul $\theta$ de $E \otimes_A F$ sur $H$ tel que $h = \theta \circ \varphi$.
 
 L’hypothèse que $h(E \times F)$ engendre $H$ entraîne en effet l’unicité de $g$; le corollaire n’est autre alors que la propriété générale d’unicité d’une solution d’un problème d’application universelle (E, IV, p. 23).
 
-#### Corollaire 2 {#alg-ii-s3-prop-1-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s3-prop-1-cor-2 .statement tag=05OU}
 
 Désignons par $E^0$ (resp. $F^0$) le module $E$ (resp. $F$) considéré comme module à gauche (resp. à droite) sur l’anneau opposé $A^0$; il existe alors un isomorphisme $\sigma : E \otimes_A F \to F^0 \otimes_{A^0} E^0$ de $\mathbf{Z}$-modules et un seul tel que l’on ait $\sigma(x \otimes y) = y \otimes x$ pour $x \in E$ et $y \in F$ (« commutativité » du produit tensoriel).
 
 En effet, par définition des structures de $A^0$-module sur $E^0$ et $F^0$, l’application $(x, y) \mapsto y \otimes x$ de $E \times F$ dans $F^0 \otimes_{A^0} E^0$ est $\mathbf{Z}$-bilinéaire et vérifie les conditions (1), d’où l’existence et l’unicité de l’application $\mathbf{Z}$-linéaire $\sigma$. On définit de même une application $\mathbf{Z}$-linéaire $\tau : F^0 \otimes_{A^0} E^0 \to E \otimes_A F$ telle que $\tau(y \otimes x) = x \otimes y$, et il est clair que $\sigma$ et $\tau$ sont des isomorphismes réciproques.
 
-#### Remarque {#alg-ii-s3-n1-rem-1 .statement}
+#### Remarque {#alg-ii-s3-n1-rem-1 .statement tag=05OV}
 
 Le produit tensoriel de modules non réduits à 0 peut se réduire à 0 : par exemple, si l’on considère les deux $\mathbf{Z}$-modules $E = \mathbf{Z}/2\mathbf{Z}$ et $F = \mathbf{Z}/3\mathbf{Z}$, on a $2x = 0$ et $3y = 0$ quels que soient $x \in E$, $y \in F$; par suite, dans $E \otimes_F F$, on a $x \otimes y = 3(x \otimes y) - 2(x \otimes y) = x \otimes (3y) - (2x) \otimes y = 0$ quels que soient $x$ et $y$ (cf. II, p. 60, cor. 4).
 
@@ -144,7 +144,7 @@ $$
 
 ### 3. Changement d’anneau
 
-#### Proposition 2 {#alg-ii-s3-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s3-prop-2 .statement tag=05OW}
 
 Soient $A, B$ deux anneaux, $\rho : B \to A$ un homomorphisme d’anneaux, $E$ (resp. $F$) un A-module à droite (resp. à gauche). Il existe alors une application $\mathbf{Z}$-linéaire et une seule
 $$
@@ -156,7 +156,7 @@ Considérons en effet l’application $(x, y) \mapsto x \otimes y$ de $\rho_*(E)
 
 L’application (6) est dite canonique.
 
-#### Corollaire {#alg-ii-s3-n3-cor-1 .statement}
+#### Corollaire {#alg-ii-s3-n3-cor-1 .statement tag=05OX}
 
 Soient $\mathfrak{J}$ un idéal bilatère de $A$, tel que $\mathfrak{J}$ soit contenu dans l’annulateur de $E$ et dans l’annulateur de $F$, de sorte que $E$ (resp. $F$) est canoniquement muni d’une structure de $(A/\mathfrak{J})$-module à droite (resp. à gauche) (II, p. 28). Alors l’homomorphisme canonique (6)
 $$
@@ -195,7 +195,7 @@ $$
 
 d’images *deux à deux permutables*; autrement dit, on a défini sur $E \otimes_A F$ une structure de $((B'_i), (B''_h); (C'_j), (C''_k))-multimodule$; c’est ce multimodule qu’on appelle encore *produit tensoriel* (relatif à A) *du* $((B'_i); A, (C'_j))-multimodule* E *et du*$(A, (B''_h); (C''_k))-multimodule* F. Ce multimodule est solution d’un problème d’application universelle analogue à celui considéré au n° 1; de façon précise:
 
-#### Proposition 3 {#alg-ii-s3-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s3-prop-3 .statement tag=05OY}
 
 *Soit G un* $((B'_i), (B''_h); (C'_j), (C''_k))-multimodule$.
 
@@ -212,7 +212,7 @@ b) Réciproquement, soit $f$ une application $\mathbf{Z}$-bilinéaire de $E \tim
 
 L’assertion a) résulte aussitôt de la définition de la structure de multimodule de $E \otimes_A F$, car on a par exemple $(x \otimes y) \nu_j' = (x \nu_j') \otimes y$. Pour prouver b), remarquons d’abord que la prop. 1 de II, p. 51 donne l’existence et l’unicité d’une application $\mathbf{Z}$-linéaire $g$ telle que $g(x \otimes y) = f(x, y)$ pour $x \in E, y \in F$; tout revient à voir que $g$ est linéaire pour les structures de *multimodule*. Comme les éléments $x \otimes y$ engendrent le $\mathbf{Z}$-module $E \otimes_A F$, il suffit de vérifier les relations $g(\mu_i'(x \otimes y)) = \mu_i' g(x \otimes y)$ et les analogues; mais cela résulte aussitôt de la formule $g(x \otimes y) = f(x, y)$ et des relations (8).
 
-#### Scholie {#alg-ii-s3-n4-sch-1 .statement}
+#### Scholie {#alg-ii-s3-n4-sch-1 .statement tag=05OZ}
 
 Un élément de $E \otimes_A F$ s’écrit en général de plusieurs manières sous la forme $\sum_i (x_i \otimes y_i)$, où $x_i \in E$ et $y_i \in F$; mais pour définir une application linéaire $g$ du multimodule $E \otimes_A F$ dans un multimodule $G$, il est *inutile* de vérifier que pour $\sum_i (x_i \otimes y_i) = \sum_j (x_j' \otimes y_j')$, on a $\sum_i g(x_i \otimes y_i) = \sum_j g(x_j' \otimes y_j')$; il suffit de se donner $g(x \otimes y)$ pour $x \in E$ et $y \in F$ et de s’assurer que $(x, y) \mapsto g(x \otimes y)$ est $\mathbf{Z}$-bilinéaire et vérifie les conditions (1) (II, p. 50) et (8).
 
@@ -220,7 +220,7 @@ Soient $E'$ un $((B_i'); A, (C_j'))$-multimodule, $F'$ un $(A, (B_h''); (C_k''))
 
 Désignant toujours par $E$ un $A$-module à droite, notons ${}_sA_d$ l’anneau $A$ considéré comme $(A, A)$-bimodule (II, p. 34, *Exemple* 1); d’après ce qui précède, le produit tensoriel $E \otimes_A ({}_sA_d)$ est muni canoniquement d’une structure de *A-module à droite* telle que $(x \otimes \lambda)\mu = x \otimes (\lambda \mu)$ pour $x \in E, \lambda \in A, \mu \in A$. L’application $(x, \lambda) \mapsto x \lambda$ de $E \times ({}_sA_d)$ dans $E$ est $\mathbf{Z}$-bilinéaire et vérifie les conditions (1) (II, p. 50) et (8) (où, dans ces dernières, les $B_i', C_j'$ et $B_h''$ sont absents, la famille $(C_k'')$ réduite à $A$); donc (II, p. 54, prop. 3), il existe une application *A-linéaire* $g$ (dite *canonique*) de $E \otimes_A ({}_sA_d)$ dans $E$ telle que $g(x \otimes \lambda) = x \lambda$ pour $x \in E, \lambda \in A$.
 
-#### Proposition 4 {#alg-ii-s3-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s3-prop-4 .statement tag=05P0}
 
 Si $E$ est un $A$-module à droite, l’application $h : x \mapsto x \otimes 1$ de $E$ dans $E \otimes_A ({}_sA_d)$ est un isomorphisme de $A$-modules à droite, dont l’isomorphisme réciproque $g$ est tel que $g(x \otimes \lambda) = x \lambda$ pour $x \in E, \lambda \in A$.
 
@@ -260,7 +260,7 @@ $$
 
 fait correspondre l’application linéaire $u \otimes v$. On notera que l’application canonique (11) *n’est pas nécessairement injective ni surjective* (II, p. 190, exerc. 2).
 
-#### Remarque 1 {#alg-ii-s3-n5-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s3-n5-rem-1 .statement tag=05P1}
 
 Soient A, B deux anneaux *commutatifs*, $\rho : B \to A$ un homomorphisme d’anneaux, E et F deux A-modules; alors l’application canonique (6) de II, p. 53 est une application B-linéaire
 
@@ -268,7 +268,7 @@ Soient A, B deux anneaux *commutatifs*, $\rho : B \to A$ un homomorphisme d’an
 \rho_*(E) \otimes_B \rho_*(F) \to \rho_*(E \otimes_A F).
 $$
 
-#### Remarque 2 {#alg-ii-s3-n5-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s3-n5-rem-2 .statement tag=0DFO}
 
 Les considérations de ce n° peuvent se généraliser au cas suivant: soient E un A-module à droite, F un A-module à gauche, C un anneau commutatif, $\rho : C \to A$ un homomorphisme de C dans A tel que $\rho(C)$ soit contenu dans le *centre* de A (cf. III, p. 6). On peut alors considérer les C-modules $\rho_*(E)$ et $\rho_*(F)$ et l’hypothèse sur $\rho$ entraîne que les structures de ces C-modules sont respectivement compatibles avec les structures de A-module de E et F (II, p. 33). Le produit tensoriel $E \otimes_A F$ est donc (en vertu de II, p. 54) muni de deux structures de C-modules telles que $\gamma(x \otimes y) = (x \rho(\gamma)) \otimes y$ et $\gamma(x \otimes y) = x \otimes (\rho(\gamma)y)$ respectivement pour $\gamma \in C, x \in E, y \in F$, et la déf. 1 (II, p. 51) montre encore que ces deux structures sont *identiques*. Si $E'$ (resp. $F'$) est un A-module à droite (resp. à gauche), $u : E \to E', v : F \to F'$ deux applications A-linéaires, alors $u \otimes v : E \otimes_A F \to E' \otimes_A F'$ est C-linéaire pour les structures de C-modules qu’on vient de définir; l’application $(u, v) \mapsto u \otimes v$:
 
@@ -282,7 +282,7 @@ est C-*bilinéaire* (pour les structures de C-module sur $\mathrm{Hom}_A(E, E')$
 \mathrm{Hom}_A(E, E') \otimes_C \mathrm{Hom}_A(F, F') \to \mathrm{Hom}_C(E \otimes_A F, E' \otimes_A F').
 $$
 
-#### Remarque 3 {#alg-ii-s3-n5-rem-3 .statement}
+#### Remarque 3 {#alg-ii-s3-n5-rem-3 .statement tag=0DFP}
 
 Soient A un anneau intègre, K son corps des fractions. Si E et F sont deux K-espaces vectoriels, l’application canonique
 
@@ -298,7 +298,7 @@ puisque G est un K-espace vectoriel.
 
 ### 6. Propriétés de $E \otimes_A F$ relatives aux suites exactes
 
-#### Proposition 5 {#alg-ii-s3-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s3-prop-5 .statement tag=05P2}
 
 Soient $E, E', E''$ des $A$-modules à droite, F un $A$-module à gauche,
 
@@ -318,7 +318,7 @@ En vertu de II, p. 53, formule (5), on a $\bar{v} \circ \bar{u} = (v \circ u) \o
 
 Soient $x'' \in E'', y \in F$; par hypothèse il existe $x \in E$ tel que $v(x) = x''$. Montrons que si $x_1, x_2$ sont deux éléments de $E$ tels que $v(x_1) = v(x_2) = x''$ et si $\varphi : E \otimes F \to M$ est l’application canonique, on a $\varphi(x_1 \otimes y) = \varphi(x_2 \otimes y)$. Il suffit de prouver que si $v(x) = 0$, on a $\varphi(x \otimes y) = 0$; cela résulte de ce que $x = u(x')$, avec $x' \in E'$, d’où $x \otimes y = u(x') \otimes y = \bar{u}(x' \otimes y) \in H$. Si à $(x'', y)$ on fait correspondre la valeur unique de $\varphi(x \otimes y)$ pour tous les $x \in E$ tels que $v(x) = x''$, on définit une application de $E'' \times F$ dans $M$; cette application est $\mathbf{Z}$-bilinéaire et vérifie les conditions (1) (II, p. 50), puisque $v(x\lambda) = x''\lambda$ et $(x\lambda) \otimes y = x \otimes (\lambda y)$ pour $x \in E$; il existe donc une application $\mathbf{Z}$-linéaire $g$ de $E'' \otimes F$ dans $M$ telle que $g(x'' \otimes y) = \varphi(x \otimes y)$, pour $y \in F, x \in E$ et $x'' = v(x)$. Cette définition prouve en outre que $f \circ g$ coïncide avec l’application identique pour les éléments de $E'' \otimes F$ de la forme $x'' \otimes y$, donc $f \circ g$ est l’application identique de $E'' \otimes F$; d’autre part, pour $x \in E$ et $y \in F$, on a $f(\varphi(x \otimes y)) = v(x) \otimes y$ par définition, donc $g(f(\varphi(x \otimes y))) = \varphi(x \otimes y)$, et comme les éléments de la forme $\varphi(x \otimes y)$ engendrent $M$, $g \circ f$ est l’application identique de $M$.
 
-#### Corollaire {#alg-ii-s3-n6-cor-1 .statement}
+#### Corollaire {#alg-ii-s3-n6-cor-1 .statement tag=05P3}
 
 Soient $F, F', F''$ des $A$-modules à gauche, $E$ un $A$-module à droite,
 
@@ -334,7 +334,7 @@ est exacte.
 
 En effet, quand on considère $E$ (resp. $F$) comme un $A^0$-module à gauche (resp. à droite), $F \otimes_{A^0} E$ s’identifie à $E \otimes_A F$, et on a des identifications analogues pour $F' \otimes_{A^0} E$ et $F'' \otimes_{A^0} E$ (II, p. 52, cor. 2); le corollaire résulte donc aussitôt de la prop. 5.
 
-#### Remarque {#alg-ii-s3-n6-rem-1 .statement}
+#### Remarque {#alg-ii-s3-n6-rem-1 .statement tag=05P4}
 
 On notera qu’en général, si $E'$ est un sous-module d’un $A$-module à droite $E$, $j : E' \to E$ l’injection canonique, l’application $j \otimes 1_F : E' \otimes F \to E \otimes F$ n’est pas nécessairement injective. Autrement dit, d’une suite exacte
 
@@ -352,7 +352,7 @@ En d’autres termes, il faut soigneusement distinguer, pour un sous-module $E'$
 
 Nous étudierons plus tard, sous le nom de modules plats, les modules $F$ tels que la suite (19) soit exacte pour toute suite exacte (18) (AC, I, § 2).
 
-#### Proposition 6 {#alg-ii-s3-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s3-prop-6 .statement tag=05P5}
 
 Si on a les deux suites exactes (14) et (16) (II, p. 58), l’homomorphisme $v \otimes t : E \otimes_A F \to E'' \otimes_A F''$ est surjectif et son noyau est égal à
 
@@ -365,7 +365,7 @@ $$ (1_E \otimes t)(z) = (u \otimes t)(a). $$
 Posons $b = z - (u \otimes 1_F)(a)$; on aura alors $(1_E \otimes t)(b) = 0$, et en vertu de (17), $b$ appartient à l’image de $1_E \otimes s$, ce qui démontre la proposition.
 
 Autrement dit:
-#### Corollaire 1 {#alg-ii-s3-prop-6-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s3-prop-6-cor-1 .statement tag=05P6}
 
 Soient E' un sous-module d’un A-module à droite E, F' un sous-module d’un A-module à gauche F, Im(E' \otimes_A F) et Im(E \otimes_A F') les sous-\mathbf{Z}-modules de E \otimes_A F, images respectives des applications canoniques E' \otimes_A F \to E \otimes_A F, E \otimes_A F' \to E \otimes_A F. On a alors un isomorphisme canonique de \mathbf{Z}-modules
 (20) $\pi : (E/E') \otimes_A (F/F') \to (E \otimes_A F)/(Im(E' \otimes_A F) + Im(E \otimes_A F'))$
@@ -373,7 +373,7 @@ tel que pour $\xi \in E/E', \eta \in F/F', \pi(\xi \otimes \eta)$ soit la classe
 
 On notera que lorsque E est un ((B'_i); A, (C'_j))-multimodule, F un (A, (B''_h); (C''_k))-multimodule, E' et F' des sous-multimodules de E et F respectivement, l’isomorphisme (20) est un isomorphisme pour les structures de ((B'_i), (B''_h); (C'_j), (C''_k))-multimodules des deux membres (II, p. 54).
 
-#### Corollaire 2 {#alg-ii-s3-prop-6-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s3-prop-6-cor-2 .statement tag=05P7}
 
 Soient a un idéal à droite de A, F un A-module à gauche, aF le sous-\mathbf{Z}-module de F engendré par les éléments de la forme $\lambda x$, où $\lambda \in a$ et $x \in F$. On a alors un isomorphisme canonique de \mathbf{Z}-modules
 (21) $\pi : (A/a) \otimes_A F \to F/aF$
@@ -381,13 +381,13 @@ tel que pour tout $\bar{\lambda} \in A/a$ et tout $x \in F$, $\pi(\bar{\lambda} 
 
 En particulier, pour A = \mathbf{Z}, on voit que pour tout entier n et tout \mathbf{Z}-module F, (\mathbf{Z}/n\mathbf{Z}) \otimes_{\mathbf{Z}} F s’identifie canoniquement au \mathbf{Z}-module quotient F/nF.
 
-#### Corollaire 3 {#alg-ii-s3-prop-6-cor-3 .statement}
+#### Corollaire 3 {#alg-ii-s3-prop-6-cor-3 .statement tag=05P8}
 
 Soient A un anneau commutatif, a un idéal de A, E et F deux A-modules, tels que a soit contenu dans l’annulateur de F. Alors les (A/a)-modules E \otimes_A F et (E/aE) \otimes_{A/a} F sont canoniquement isomorphes.
 
 En effet, F et E \otimes_A F étant annulés par a, sont canoniquement munis de structures de (A/a)-modules (II, p. 28), et si on pose E' = aE, on a Im(E' \otimes_A F) = 0; on a donc un isomorphisme canonique (20) de E \otimes_A F sur (E/aE) \otimes_A F, et ce dernier est lui-même identique à (E/aE) \otimes_{A/a} F (II, p. 35, corollaire).
 
-#### Corollaire 4 {#alg-ii-s3-prop-6-cor-4 .statement}
+#### Corollaire 4 {#alg-ii-s3-prop-6-cor-4 .statement tag=05P9}
 
 Soient a, b deux idéaux dans un anneau commutatif C; le C-module (C/a) \otimes_C (C/b) est alors canoniquement isomorphe à C/(a + b).
 
@@ -413,7 +413,7 @@ $$
 
 qui est un homomorphisme de multimodules sous les mêmes conditions que (22).
 
-#### Proposition 7 {#alg-ii-s3-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s3-prop-7 .statement tag=05PA}
 
 *L’application canonique (23) est bijective.*
 
@@ -437,7 +437,7 @@ $$
 
 est commutatif.
 
-#### Corollaire 1 {#alg-ii-s3-prop-7-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s3-prop-7-cor-1 .statement tag=05PB}
 
 *Si le A-module à gauche F admet une base $(b_\mu)_{\mu \in M}$, tout élément de $E \otimes_A F$ s’écrit d’une seule manière sous la forme $\sum_\mu (x_\mu \otimes b_\mu)$, où $x_\mu \in E$ et la famille $(x_\mu)$ a un support fini. Le $\mathbf{Z}$-module $E \otimes_A F$ est isomorphe à $E^{(M)}$ considéré comme $\mathbf{Z}$-module.*
 
@@ -447,7 +447,7 @@ Si E est un $((B_i'); A, (C_j'))$-multimodule, l’isomorphisme canonique $E \ot
 
 En particulier, si en outre E admet aussi une base $(a_\lambda)_{\lambda \in L}$, tout $z \in E \otimes_A F$ s’écrit d’une manière et d’une seule sous la forme $\sum_{\lambda, \mu} (a_\lambda \xi_{\lambda \mu}) \otimes b_\mu$, où les $\xi_{\lambda \mu}$ appartiennent à A (et forment une famille à support fini); l’application $z \mapsto (\xi_{\lambda \mu})_{(\lambda, \mu) \in L \times M}$ est un isomorphisme de $E \otimes_A F$ sur $A^{(L \times M)}$ pour les structures de $\mathbf{Z}$-module (et même les structures de module sur le *centre* de A). Plus particulièrement:
 
-#### Corollaire 2 {#alg-ii-s3-prop-7-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s3-prop-7-cor-2 .statement tag=05PC}
 
 *Si E et F sont deux modules libres sur un anneau commutatif C, et si $(a_\lambda)$ (resp. $(b_\mu)$) est une base du C-module E (resp. F), alors $(a_\lambda \otimes b_\mu)$ est une base du C-module $E \otimes_C F$.
 
@@ -455,7 +455,7 @@ Par abus de langage, on dit parfois que la base $(a_\lambda \otimes b_\mu)$ est 
 
 *Remarque 1).* — Soient E un A-module à droite libre, F un A-module à gauche libre, $(a_\lambda)_{\lambda \in L}$ une base de E, $(b_\mu)_{\mu \in M}$ une base de F. Tout élément $z \in E \otimes_A F$ s’écrit d’une seule manière $\sum_\lambda a_\lambda \otimes y_\lambda$, où $y_\lambda \in F$, et aussi d’une seule manière $\sum_\mu x_\mu \otimes b_\mu$, où $x_\mu \in E$. Si on pose $y_\lambda = \sum_\mu \eta_{\lambda \mu} b_\mu$, $x_\mu = \sum_\lambda a_\lambda \xi_{\lambda \mu}$, où les $\xi_{\lambda \mu}$ et $\eta_{\lambda \mu}$ appartiennent à A, on a $\xi_{\lambda \mu} = \eta_{\lambda \mu}$ pour tout $(\lambda, \mu)$, car $\sum_\lambda (a_\lambda \otimes (\sum_\mu \eta_{\lambda \mu} b_\mu)) = \sum_{\lambda, \mu} ((a_\lambda \eta_{\lambda \mu}) \otimes b_\mu) = \sum_\mu ((\sum_\lambda a_\lambda \eta_{\lambda \mu}) \otimes b_\mu)$.
 
-#### Corollaire 3 {#alg-ii-s3-prop-7-cor-3 .statement}
+#### Corollaire 3 {#alg-ii-s3-prop-7-cor-3 .statement tag=05PD}
 
 Soient $(E_\lambda)_{\lambda \in L}$ une famille de $A$-modules à droite, $F$ un $A$-module à gauche libre (resp. libre et de type fini). Alors l’application canonique (22)
 
@@ -469,13 +469,13 @@ En effet, si $(b_\mu)$ est une base de $F$, tout élément de $\left( \prod_{\la
 
 Pour démontrer que l’application canonique est bijective lorsque $F$ admet une base finie, on est aussitôt ramené, en vertu de la prop. 7, au cas où $F = A_s$; mais alors les deux membres s’identifient canoniquement à $\prod_{\lambda \in L} E_\lambda$ (II, p. 55, prop. 4) et après ces identifications, l’application canonique (22) devient l’identité.
 
-#### Corollaire 4 {#alg-ii-s3-prop-7-cor-4 .statement}
+#### Corollaire 4 {#alg-ii-s3-prop-7-cor-4 .statement tag=05PE}
 
 Soient $A$ un anneau sans diviseur de zéro, $E$ un $A$-module à droite libre, $F$ un $A$-module à gauche libre. Alors la relation $x \otimes y = 0$ dans $E \otimes_A F$ entraîne $x = 0$ ou $y = 0$.
 
 En effet, soient $(a_\lambda)$ une base de $E$, $(b_\mu)$ une base de $F$, et soient $x = \sum_\lambda a_\lambda \xi_\lambda$, $y = \sum_\mu \eta_\mu b_\mu$; on a $x \otimes y = \sum_{\lambda, \mu} ((a_\lambda \xi_\lambda \eta_\mu) \otimes b_\mu)$ et la relation $x \otimes y = 0$ entraîne $\xi_\lambda \eta_\mu = 0$ pour tout couple d’indices $(\lambda, \mu)$ (II, p. 62, cor. 1). Donc, si l’on a $x \neq 0$, c’est-à-dire $\xi_\lambda \neq 0$ pour un $\lambda$ au moins, on en conclut $\eta_\mu = 0$ pour tout $\mu$, d’où $y = 0$.
 
-#### Corollaire 5 {#alg-ii-s3-prop-7-cor-5 .statement}
+#### Corollaire 5 {#alg-ii-s3-prop-7-cor-5 .statement tag=05PF}
 
 Soient $E$ un $A$-module à droite, $F$ un $A$-module à gauche, $M$ un sous-module de $E$, $N$ un sous-module de $F$. Si $M$ est facteur direct de $E$ et $N$ facteur direct de $F$, l’homomorphisme canonique $M \otimes_A N \to E \otimes_A F$ est injectif, et l’image de $M \otimes_A N$ par cet homomorphisme est facteur direct du $\mathbf{Z}$-module $E \otimes_A F$.
 
@@ -483,7 +483,7 @@ Cela résulte aussitôt de la prop. 7.
 
 On notera que si $E$ est un $((B'_i); A, (C'_j))$-multimodule et $F$ un $(A, (B''_h); (C''_k))$-multimodule, $M$ et $N$ des facteurs directs dans ces multimodules, $M \otimes N$ est facteur direct du $((B'_i), (B''_h); (C'_j), (C''_k))$-multimodule $E \otimes F$.
 
-#### Corollaire 6 {#alg-ii-s3-prop-7-cor-6 .statement}
+#### Corollaire 6 {#alg-ii-s3-prop-7-cor-6 .statement tag=05PG}
 
 Soient $P$ un $A$-module à gauche projectif, $E, F$ deux $A$-modules à droite. Pour tout homomorphisme injectif $u : E \to F$, l’homomorphisme
 
@@ -497,7 +497,7 @@ En effet, il existe un $A$-module à gauche $Q$ tel que $L = P \oplus Q$ soit li
 
 il suffit donc de prouver le corollaire lorsque P est libre (II, p. 14, cor. 1). Le même raisonnement ramène au cas où $P = A_s$, qui découle aussitôt de II, p. 55, prop. 4.
 
-#### Corollaire 7 {#alg-ii-s3-prop-7-cor-7 .statement}
+#### Corollaire 7 {#alg-ii-s3-prop-7-cor-7 .statement tag=05PH}
 
 *Soit C un anneau commutatif. Si E et F sont deux C-modules projectifs, $E \otimes_C F$ est un C-module projectif.*
 
@@ -523,7 +523,7 @@ où les flèches verticales sont les isomorphismes canoniques.
 
 ### 8. Associativité du produit tensoriel.
 
-#### Proposition 8 {#alg-ii-s3-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s3-prop-8 .statement tag=05PJ}
 
 *Soient A, B deux anneaux, E un A-module à droite, F un (A, B)-bimodule, G un B-module à gauche. Alors $E \otimes_A F$ est un B-module à droite, $F \otimes_B G$ un A-module à gauche, et il existe une application $\mathbf{Z}$-linéaire et une seule*
 
@@ -773,11 +773,11 @@ qui fait correspondre $x_1 \otimes x_2 \otimes \cdots \otimes x_n$ à $x_{\pi(1)
 
 Pour $1 \leq i \leq n$, supposons que $E_i$ admette une base $(b^{(i)}_{\lambda_i})_{\lambda_i \in L_i}$; par récurrence sur $n$, il résulte de II, p. 62, cor. 2, que la famille $(b^{(1)}_{\lambda_1} \otimes b^{(2)}_{\lambda_2} \otimes \cdots \otimes b^{(n)}_{\lambda_n})$, où $(\lambda_1, ..., \lambda_n)$ parcourt $\prod_{1 \leq i \leq n} L_i$, est une base de $\bigotimes_{1 \leq i \leq n} E_i$, qu’on appelle parfois le *produit tensoriel* des bases $(b^{(i)}_{\lambda_i})$ considérées.
 
-#### Remarque 1 {#alg-ii-s3-n9-rem-1 .statement}
+#### Remarque 1 {#alg-ii-s3-n9-rem-1 .statement tag=05PK}
 
 Les considérations précédentes relatives au cas des modules sur un anneau commutatif se généralisent comme dans II, p. 57, *Remarque* 2 lorsqu’il s’agit d’un produit tensoriel $E_1 \otimes_{A_1} E_2 \otimes \cdots \otimes_{A_{n-1}} E_n$ où les anneaux $A_i$ ne sont pas nécessairement commutatifs, et où l’on a pour chaque $i$ un homomorphisme $\rho_i : C \to A_i$ d’un même anneau *commutatif* $C$ tel que: 1° $\rho_i(C)$ est contenu dans le *centre* de $A_i$; 2° pour $2 \leq i \leq n - 1$, les structures de $C$-module sur $E_i$ obtenues à l’aide des homomorphismes $\rho_{i-1}$ et $\rho_i$ *coïncident*. On obtient alors sur $E_1 \otimes_{A_1} E_2 \otimes \cdots \otimes_{A_{n-1}} E_n$ une structure de $C$*-module*, et des applications canoniques analogues à (13) (II, p. 57), que nous laissons au lecteur le soin d’expliciter.
 
-#### Remarque 2 {#alg-ii-s3-n9-rem-2 .statement}
+#### Remarque 2 {#alg-ii-s3-n9-rem-2 .statement tag=0DFQ}
 
 Soient $A, B$ deux anneaux, $E$ un $A$-module à droite, $E'$ un $A$-module à gauche, $F$ un $B$-module à droite, $F'$ un $B$-module à gauche. Les applications $\mathbf{Z}$-*bilinéaires* de $(E \otimes_A E') \times (F \otimes_B F')$ dans un $\mathbf{Z}$-module $G$ sont alors en *correspondance biunivoque* avec les applications $\mathbf{Z}$-*multilinéaires* $f$ de $E \times E' \times F \times F'$ dans $G$, satisfaisant aux conditions
 

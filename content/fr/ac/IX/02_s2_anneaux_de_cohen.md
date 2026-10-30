@@ -33,7 +33,7 @@ subsections:
       pdf_page: 138
 statements: 30
 exercises: 17
-content_sha256: 511c29706c762ba8fdab3d1f6cb000587c55f6e3242d752934b1a3e4fb436071
+content_sha256: 63e59069ffaeb7491aeb4009f8d3a480b95712b0cae81c394b8df68a9e76ac16
 ---
 
 ## § 2. ANNEAUX DE COHEN
@@ -42,13 +42,13 @@ Dans tout ce paragraphe, $p$ désigne un nombre premier.
 
 ### 1. $p$-anneaux
 
-#### Définition 1 {#ac-ix-s2-def-1 .statement}
+#### Définition 1 {#ac-ix-s2-def-1 .statement tag=0CWA}
 
 On dit qu’un anneau $C$ est un $p$-anneau si l’idéal $pC$ de $C$ est maximal, et si $C$ est séparé et complet pour la topologie $pC$-adique.
 
 Soit $C$ un anneau ; si $p1_C$ est nilpotent et si l’idéal $pC$ de $C$ est maximal, $C$ est un $p$-anneau, car la topologie $pC$-adique de $C$ est discrète. Plus particulièrement, tout corps de caractéristique $p$ est un $p$-anneau.
 
-#### Proposition 1 {#ac-ix-s2-prop-1 .statement}
+#### Proposition 1 {#ac-ix-s2-prop-1 .statement tag=0CWB}
 
 Soit $C$ un $p$-anneau.
 
@@ -79,13 +79,13 @@ $$
 
 contrairement à l’hypothèse $p^{d-1} 1_C \neq 0$. Donc les éléments de la suite (E) sont deux à deux distincts. Soit $a$ un idéal de $C$ et soit $k$ le plus petit entier positif tel que $a \supset p^k C$. Soit $x$ un élément non nul de $a$; on a vu que $x$ est de la forme $p^m u$ avec $m \geqslant 0$ et $u$ inversible dans $C$. On a donc $p^m C \subset a$, d’où $m \geqslant k$, et finalement $x \in p^k C$. En conclusion, on a $a = p^k C$. La suite (E) est alors une suite de Jordan-Hölder du $C$-module $C$, qui est de longueur $d$.
 
-#### Corollaire 1 {#ac-ix-s2-prop-1-cor-1 .statement}
+#### Corollaire 1 {#ac-ix-s2-prop-1-cor-1 .statement tag=0CWC}
 
 Si le $p$-anneau $C$ est intègre, c’est un anneau de valuation discrète, ou un corps de caractéristique $p$.
 
 Supposons $C$ intègre. Si $p 1_C$ est nilpotent, on a $p 1_C = 0$, et $\{0\}$ est un idéal maximal de $C$, donc $C$ est un corps de caractéristique $p$. Si $p 1_C$ n’est pas nilpotent, alors $C$ est un anneau de valuation discrète d’après la prop. 1, c).
 
-#### Corollaire 2 {#ac-ix-s2-prop-1-cor-2 .statement}
+#### Corollaire 2 {#ac-ix-s2-prop-1-cor-2 .statement tag=0CWD}
 
 Soient $C$ un $p$-anneau et $a$ un idéal de $C$ distinct de $C$. L’anneau $C/a$ est un $p$-anneau.
 
@@ -93,11 +93,11 @@ On peut supposer $a \neq \{0\}$. Il existe alors un entier $i \geqslant 1$ tel q
 
 Soit $C$ un $p$-anneau. On appelle *longueur de* $C$, et l’on note $l(C)$, la borne supérieure dans $\overline{\mathbf{R}}$ de l’ensemble des entiers $n \geqslant 1$ tels que $p^{n-1} 1_C \neq 0$. Lorsque $l(C)$ est finie, c’est la longueur du $C$-module $C$, et lorsque $l(C)$ est égale à $+ \infty$, le $C$-module $C$ n’est pas de longueur finie (prop. 1).
 
-#### Exemple 1 {#ac-ix-s2-n1-exa-1 .statement}
+#### Exemple 1 {#ac-ix-s2-n1-exa-1 .statement tag=0CWE}
 
 Pour tout entier $n \geqslant 1$, l’anneau $\mathbf{Z}/p^n\mathbf{Z}$ est un $p$-anneau de longueur $n$. L’anneau $\mathbf{Z}_p$ des entiers $p$-adiques est un $p$-anneau de longueur infinie.
 
-#### Exemple 2 {#ac-ix-s2-n1-exa-2 .statement}
+#### Exemple 2 {#ac-ix-s2-n1-exa-2 .statement tag=0CWF}
 
 Soit $K$ un corps parfait de caractéristique $p$. D’après la prop. 8 du § 1, no 8, l’anneau $W(K)$ des vecteurs de Witt est un $p$-anneau de longueur infinie. L’application $(a_n)_{n \in \mathbf{N}} \mapsto a_0$ induit par passage au quotient un isomorphisme de $W(K)/pW(K)$ sur le corps $K$ (loc. cit., prop. 7). Pour tout entier $n \geqslant 1$, l’anneau
 $$
@@ -105,7 +105,7 @@ W_n(K) = W(K)/p^nW(K)
 $$
 est un $p$-anneau de longueur $n$.
 
-#### Proposition 2 {#ac-ix-s2-prop-2 .statement}
+#### Proposition 2 {#ac-ix-s2-prop-2 .statement tag=0CWG}
 
 Soient $C$ et $C'$ deux $p$-anneaux et $u$ un homomorphisme de $C$ dans $C'$. Soit $v$ l’homomorphisme de $\kappa_C = C/pC$ dans $\kappa_{C'} = C'/pC'$ déduit de $u$ par passage aux quotients.
 
@@ -121,7 +121,7 @@ Comme $\kappa_C$ et $\kappa_{C'}$ sont des corps, l’homomorphisme $v$ est inje
 
 Enfin, c) résulte de a) et b).
 
-#### Proposition 3 {#ac-ix-s2-prop-3 .statement}
+#### Proposition 3 {#ac-ix-s2-prop-3 .statement tag=0CWH}
 
 Soit $(C_n, \pi_{n,m})$ un système projectif d’anneaux relatif à l’ensemble d’indices $\mathbf{N}$. On suppose que $C_n$ est un $p$-anneau pour tout $n \in \mathbf{N}$ et que les homomorphismes $\pi_{n,m}$ sont surjectifs. Alors $C = \varprojlim C_n$ est un $p$-anneau, et pour tout $n \in \mathbf{N}$, l’homomorphisme canonique $\pi_n : C \to C_n$ est surjectif et induit un isomorphisme de $\kappa_C$ sur $\kappa_{C_n}$.
 
@@ -133,17 +133,17 @@ Soit k un entier $\geqslant 1$. On a $p^k C \subset \varprojlim (p^k C_n)$ (E, I
 
 ### 2. Anneaux de Cohen
 
-#### Définition 2 {#ac-ix-s2-def-2 .statement}
+#### Définition 2 {#ac-ix-s2-def-2 .statement tag=0CWI}
 
 Soit A un anneau local séparé et complet, dont le corps résiduel est de caractéristique p. On appelle sous-anneau de Cohen de A un sous-anneau C de A qui est un $p$-anneau tel que $A = m_A + C$ (i.e. $A/m_A = C/(m_A \cap C)$).
 
 Si C est un sous-anneau de Cohen de A, l’idéal $m_A \cap C$ de C est maximal, donc égal à $pC$. L’application canonique de $\kappa_C = C/pC$ sur $\kappa_A = A/m_A$ est donc un isomorphisme de corps.
 
-#### Exemple {#ac-ix-s2-n2-exa-1 .statement}
+#### Exemple {#ac-ix-s2-n2-exa-1 .statement tag=0CWJ}
 
 Soit C un $p$-anneau. L’anneau de séries formelles $A = C[[T_1, ..., T_n]]$ est un anneau noethérien, local, séparé et complet, dont l’idéal maximal est engendré par la suite $(p, T_1, ..., T_n)$. Il est immédiat que C est un sous-anneau de Cohen de A. Ceci s’applique en particulier lorsque C est égal à $\mathbf{Z}_p$, à $\mathbf{Z}/p^n \mathbf{Z}$ ou à un corps de caractéristique $p$.
 
-#### Théorème 1 {#ac-ix-s2-thm-1 .statement}
+#### Théorème 1 {#ac-ix-s2-thm-1 .statement tag=0CWK}
 
 Soit A un anneau local, séparé et complet, dont le corps résiduel k est de caractéristique p. Soit $\pi$ l’application canonique de A sur k, et soit S une partie de A, telle que $\pi$ induise une bijection de S sur une p-base de k (A, V, p. 95).
 a) Il existe un sous-anneau de Cohen C de A contenant S, et un seul.
@@ -154,7 +154,7 @@ A) Cas particulier : $m_A$ nilpotent
 
 Soit n un entier positif tel que $m_A^{n+1} = \{0\}$. Si $\Phi_n$ est le n-ième polynôme de Witt ($§ 1$, no 1), l’application $u : [a_0, ..., a_n] \mapsto \Phi_n(a_0, ..., a_n)$ est un homomorphisme d’anneaux de $W_{n+1}(A)$ dans A ($§ 1$, no 7). Soit $B_n$ l’image de $u$ et soit $C_n$ le sous-anneau de A engendré par $B_n \cup S$.
 
-#### Lemme 1 {#ac-ix-s2-lem-1 .statement}
+#### Lemme 1 {#ac-ix-s2-lem-1 .statement tag=0CWL}
 
 Soit $A'$ un sous-anneau de $A$ contenant $S$. Pour que $A'$ contienne $C_n$, il faut et il suffit qu’on ait $A' + m_A = A$.
 
@@ -170,7 +170,7 @@ Dans l’ensemble $S$ des sous-anneaux $A'$ de $A$ contenant $S$ et tels que $A'
 
 On a $C + m_A = A$ par construction et $p1_C$ est nilpotent. On a évidemment $pC \subset C \cap m_A$ et le lemme 2 qui suit montre donc que $pC$ est un idéal maximal de $C$ et par suite que $C$ est un sous-anneau de Cohen de $A$.
 
-#### Lemme 2 {#ac-ix-s2-lem-2 .statement}
+#### Lemme 2 {#ac-ix-s2-lem-2 .statement tag=0CWM}
 
 On a $C \cap m_A \subset pC$.
 
@@ -196,13 +196,13 @@ Pour tout entier $n \geqslant 0$, posons $J_n = C \cap m_A^n$. Comme l’anneau 
 
 Soit $A'$ un sous-anneau fermé de $A$, contenant $S$ et tel que $A' + m_A = A$. Comme $A'$ est fermé, on a $A' = \bigcap_{n \in \mathbf{N}} \pi_n^{-1}(\pi_n(A'))$. On a $\pi_n(A') \supset \pi_n(S)$ et $\pi_n(A') + m_n = A_n$, d’où $\pi_n(A') \supset C_n$ d’après ce qu’on a vu en A). Finalement, on a $\pi_n^{-1}(\pi_n(A')) \supset \pi_n^{-1}(C_n)$ d’où $A' \supset C$. Ceci prouve c). On en déduit l’unicité d’un sous-anneau de Cohen comme en A).
 
-#### Remarque {#ac-ix-s2-n2-rem-1 .statement}
+#### Remarque {#ac-ix-s2-n2-rem-1 .statement tag=0CWN}
 
 Supposons que $p1_A$ ne soit pas nilpotent (ceci a lieu en particulier lorsque $A$ est un anneau intègre dont le corps des fractions est de caractéristique 0). Alors $C$ est un anneau de valuation discrète dont le corps des fractions est de caractéristique 0.
 
 ### 3. Existence et unicité des $p$-anneaux
 
-#### Proposition 4 {#ac-ix-s2-prop-4 .statement}
+#### Proposition 4 {#ac-ix-s2-prop-4 .statement tag=0CWO}
 
 *Soient $C$ et $C'$ deux $p$-anneaux tels que $l(C) \geqslant l(C')$, $\pi$ (resp. $\pi'$) l’homomorphisme canonique de $C$ (resp. $C'$) sur $\kappa_C$ (resp. $\kappa_{C'}$). Soit $(x_\lambda)_{\lambda \in \Lambda}$ (resp. $(x'_\lambda)_{\lambda \in \Lambda}$) une famille d’éléments de $C$ (resp. $C'$) dont l’image par $\pi$ (resp. $\pi'$) soit une $p$-base de $\kappa_C$ (resp. $\kappa_{C'}$). Soit $v$ un isomorphisme de $\kappa_C$ sur $\kappa_{C'}$ tel que $v(\pi(x_\lambda)) = \pi'(x'_\lambda)$ pour tout $\lambda \in \Lambda$. Il existe alors un unique homomorphisme $u$ de $C$ dans $C'$, tel que $v \circ \pi = \pi' \circ u$ et $u(x_\lambda) = x'_\lambda$ pour tout $\lambda \in \Lambda$. Il est surjectif. Si $l(C) = l(C')$, c’est un isomorphisme.*
 
@@ -210,21 +210,21 @@ Prouvons l’existence de $u$. Soit $A$ le sous-anneau de $C \times C'$ formé d
 
 Prouvons l’unicité de $u$. Soit $u_1$ un homomorphisme de C dans $C'$ tel que $v \circ \pi = \pi' \circ u_1$ et $u_1(x_\lambda) = x'_\lambda$ pour tout $\lambda \in \Lambda$, et soit $C_1$ le graphe de $u_1$. Il est immédiat que $C_1$ est un sous-anneau de Cohen de A, contenant $(x_\lambda, x'_\lambda)$ pour tout $\lambda \in \Lambda$, d’où $C_1 = C''$ (th. 1 du no 2) et finalement $u_1 = u$.
 
-#### Proposition 5 {#ac-ix-s2-prop-5 .statement}
+#### Proposition 5 {#ac-ix-s2-prop-5 .statement tag=0CWP}
 
 Soit k un corps de caractéristique p, et soit n un entier $\geq 1$, ou $+ \infty$. Il existe un p-anneau de longueur n dont le corps résiduel est isomorphe à k.
 
 L’anneau $W(k)$ des vecteurs de Witt à coefficients dans k est un anneau local intègre séparé et complet, dont le corps résiduel est isomorphe à k ($§ 1$, no 8, prop. 8), et on a $p \cdot 1_{W(k)} \neq 0$ (loc. cit., formule (52)). Soit C un sous-anneau de Cohen de $W(k)$ (no 2, th. 1). Alors C est un p-anneau de longueur $+ \infty$ dont le corps résiduel est isomorphe à k, et, si n est un entier $\geq 1$, le quotient $C/p^nC$ est un p-anneau de longueur n dont le corps résiduel est isomorphe à k.
 
-#### Remarque 1 {#ac-ix-s2-n3-rem-1 .statement}
+#### Remarque 1 {#ac-ix-s2-n3-rem-1 .statement tag=0CWQ}
 
 Soient n un entier $\geq 1$ et S une p-base de k. On peut montrer que le sous-anneau de $W_n(k)$ engendré par $W_n(k^{p^n})$ et par les éléments $[\xi, 0, ..., 0]$ ($\xi \in S$), est un p-anneau de longueur n dont le corps résiduel est isomorphe à k (cf. p. 72, exerc. 10).
 
-#### Remarque 2 {#ac-ix-s2-n3-rem-2 .statement}
+#### Remarque 2 {#ac-ix-s2-n3-rem-2 .statement tag=0CWR}
 
 Le lecteur trouvera en Appendice une démonstration de la prop. 5 qui n’utilise ni les résultats du $§ 1$, ni le théorème d’existence de sous-anneaux de Cohen (no 2, th. 1).
 
-#### Corollaire {#ac-ix-s2-n3-cor-1 .statement}
+#### Corollaire {#ac-ix-s2-n3-cor-1 .statement tag=0CWS}
 
 Soit C un p-anneau de longueur finie n. Il existe un p-anneau $C'$ de longueur infinie tel que C soit isomorphe à $C'/p^nC'$.
 
@@ -232,13 +232,13 @@ D’après la prop. 5, il existe un p-anneau $C'$ de longueur infinie tel que $\
 
 ### 4. Représentants multiplicatifs
 
-#### Proposition 6 {#ac-ix-s2-prop-6 .statement}
+#### Proposition 6 {#ac-ix-s2-prop-6 .statement tag=0CWT}
 
 Soit C un p-anneau, dont le corps résiduel k soit parfait. Supposons C de longueur finie n (resp. infinie). Il existe un unique isomorphisme $u : W_n(k) \to C$ (resp. $u : W(k) \to C$) qui induise par passage aux quotients l’application identique de k.
 
 Comme $W_n(k)$ (resp. $W(k)$) est un p-anneau de corps résiduel k, et de longueur n (resp. de longueur infinie) (n° 1, exemple 2), et que $\varnothing$ est une p-base du corps parfait k, la prop. 6 est un cas particulier de la prop. 4 du n° 3.
 
-#### Théorème 2 {#ac-ix-s2-thm-2 .statement}
+#### Théorème 2 {#ac-ix-s2-thm-2 .statement tag=0CWU}
 
 Soient A un anneau local séparé et complet, k son corps résiduel et $\pi$ l’homomorphisme canonique de A sur k. On suppose que k est un corps parfait de caractéristique p.
 
@@ -250,7 +250,7 @@ D’après le th. 1 du n° 2, il existe un unique sous-anneau de Cohen de A ; no
 
 Pour une construction directe de u, voir p. 70, exerc. 6.
 
-#### Proposition 7 {#ac-ix-s2-prop-7 .statement}
+#### Proposition 7 {#ac-ix-s2-prop-7 .statement tag=0CWV}
 
 Conservons les hypothèses et notations du th. 2. Il existe une unique partie multiplicative S de A telle que $\pi$ induise une bijection de S sur k. Pour qu’un élément a de A appartienne à S, il faut et il suffit que pour tout $n \in \mathbf{N}$, il existe un élément $a_n$ de A tel que $a = a_n^{p^n}$. L’ensemble S est l’ensemble des éléments de la forme $u(x, 0, 0, ...)$.
 
@@ -279,7 +279,7 @@ Il est clair que l’application $\pi \circ \varphi$ est l’application identiq
 
 Les éléments de S sont souvent appelés les représentants multiplicatifs (ou de Teichmüller) de A.
 
-#### Remarque 1 {#ac-ix-s2-n4-rem-1 .statement}
+#### Remarque 1 {#ac-ix-s2-n4-rem-1 .statement tag=0CWW}
 
 Conservons les hypothèses et notations précédentes. On a
 $$
@@ -292,19 +292,19 @@ u(a) = \sum_{n=0}^{\infty} p^n \varphi(a_n^{p^{-n}})
 $$
 pour tout $a = (a_n)_{n \in \mathbf{N}}$ dans $\mathbf{W}(k)$, car $u$ est continu (th. 2, b)). D’après la formule (4), l’unique sous-anneau de Cohen de A se compose des éléments de la forme $\sum_{n=0}^{\infty} p^n s_n$ avec $s_n \in S$ pour tout entier $n \geq 0$.
 
-#### Remarque 2 {#ac-ix-s2-n4-rem-2 .statement}
+#### Remarque 2 {#ac-ix-s2-n4-rem-2 .statement tag=0CWX}
 
 Soient A un anneau local séparé et complet, $k$ son corps résiduel et $\pi$ l’homomorphisme canonique de A sur $k$. On peut montrer qu’il existe une partie multiplicative S de A (non unique en général) telle que $\pi$ induise une bijection de S sur $k$ (cf. p. 72, exerc. 11).
 
-#### Exemple 1 {#ac-ix-s2-n4-exa-1 .statement}
+#### Exemple 1 {#ac-ix-s2-n4-exa-1 .statement tag=0CWY}
 
 Soit $k$ un corps parfait de caractéristique $p$. Les représentants multiplicatifs de l’anneau $\mathbf{W}(k)$ sont les vecteurs de Witt $\tau(x) = (x, 0, 0, ...)$ pour $x \in k$.
 
-#### Exemple 2 {#ac-ix-s2-n4-exa-2 .statement}
+#### Exemple 2 {#ac-ix-s2-n4-exa-2 .statement tag=0CWZ}
 
 Soit A un anneau local intègre, séparé et complet. On suppose que le corps résiduel $k$ de A est fini, à $q = p^f$ éléments, donc parfait de caractéristique $p$. On a $x^q = x$ pour tout $x \in k$, d’où $s^q = s$ pour tout représentant multiplicatif s. Il en résulte que l’ensemble des représentants multiplicatifs se compose de 0 et des $q - 1$ racines $(q - 1)$-ièmes de l’unité dans le corps des fractions de A. Si le corps des fractions de A est localement compact, l’existence des représentants multiplicatifs découle aussi de VI, § 9, n° 2, prop. 3 (cf. aussi VI, § 9, exerc. 5).
 
-#### Exemple 3 {#ac-ix-s2-n4-exa-3 .statement}
+#### Exemple 3 {#ac-ix-s2-n4-exa-3 .statement tag=0CX0}
 
 Plus particulièrement, considérons le cas $A = \mathbf{Z}_p$. Alors les représentants multiplicatifs sont 0 et les racines $(p - 1)$-ièmes de l’unité dans le corps des fractions $\mathbf{Q}_p$ de $\mathbf{Z}_p$.
 
@@ -312,7 +312,7 @@ Plus particulièrement, considérons le cas $A = \mathbf{Z}_p$. Alors les repré
 
 Soient $A$ et $C$ des anneaux locaux noethériens complets et soit $u$ un homomorphisme local de $C$ dans $A$, induisant par passage aux quotients un isomorphisme de $\kappa_C$ sur $\kappa_A$. Soit $(p_1, ..., p_m)$ une suite engendrant l’idéal $m_C$ de $C$, et soient $t_1, ..., t_n$ des éléments de $m_A$. Posons $B = C[[T_1, ..., T_n]]$.
 
-#### Lemme 3 {#ac-ix-s2-lem-3 .statement}
+#### Lemme 3 {#ac-ix-s2-lem-3 .statement tag=0CX1}
 
 a) Il existe un unique homomorphisme $v : B \to A$ qui prolonge $u$ et applique $T_i$ sur $t_i$ pour $1 \leq i \leq n$.
 
@@ -328,7 +328,7 @@ L’idéal de $A$ engendré par la suite $(u(p_1), ..., u(p_m), t_1, ..., t_n)$ 
 
 Supposons que $v(m_B)$ $A$ soit un idéal de définition de $A$. La topologie $m_B$-adique du $B$-module $A$ coïncide alors avec la topologie $m_A$-adique de l’anneau $A$, donc est séparée. Comme $A/v(m_B)$ $A$ est un module de type fini sur $B/m_B$, $A$ est un $B$-module de type fini (III, § 2, no 3, exemple 3 et no 9, cor. 1 de la prop. 12). Ceci prouve $c$.
 
-#### Lemme 4 {#ac-ix-s2-lem-4 .statement}
+#### Lemme 4 {#ac-ix-s2-lem-4 .statement tag=0CX2}
 
 Supposons que l’anneau local noethérien C soit régulier, et que $(p_1, ..., p_m)$ soit un système de coordonnées de C (VIII, § 5, no 1, déf. 1).
 
@@ -340,7 +340,7 @@ Pour que la suite $(u(p_1), ..., u(p_m), t_1, ..., t_n)$ soit une suite sécante
 
 Supposons que la suite $(u(p_1), ..., u(p_m), t_1, ..., t_n)$ d’éléments de $m_A$ soit sécante. On peut lui adjoindre (VIII, § 3, no 2, th. 1) des éléments $t_{n+1}, ..., t_{n+r}$ de $m_A$ pour en faire une suite sécante maximale. D’après ce qui précède, il existe alors un homomorphisme injectif $w$ de $C[[T_1, ..., T_n, T_{n+1}, ..., T_{n+r}]] = B[[T_{n+1}, ..., T_{n+r}]]$ qui prolonge $v$ et applique $T_{n+j}$ sur $t_{n+j}$ pour $1 \leq j \leq r$. Donc $v$ est injectif. Ceci prouve a).
 
-#### Théorème 3 {#ac-ix-s2-thm-3 .statement}
+#### Théorème 3 {#ac-ix-s2-thm-3 .statement tag=0CX3}
 
 Soit A un anneau local, noethérien et complet dont le corps résiduel k soit de caractéristique p. Soit C un p-anneau de longueur infinie, dont le corps résiduel soit isomorphe à k (no 3, prop. 5).
 

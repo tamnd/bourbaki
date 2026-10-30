@@ -48,18 +48,18 @@ subsections:
       pdf_page: 214
 statements: 48
 exercises: 19
-content_sha256: 0c5eadf3095aaa92169fe5d37a612e4248fbc5a66bdea248c4b763f9602d4b5a
+content_sha256: 29c13eb3d7cf0721a55e24e7530e1acd68312f601ca3f6f347a6bce38b4c8832
 ---
 
 ## 6. POLISH SPACES, SOUSLIN SPACES, BOREL SETS
 
 ### 1. POLISH SPACES
 
-#### Definition 1 {#top-ix-s6-def-1 .statement}
+#### Definition 1 {#top-ix-s6-def-1 .statement tag=0C88}
 
 *A topological space* $X$ *is said to be Polish if it is metrizable of countable type* ($§ 2$, no. 8) *and if there is a metric, compatible with the topology of* $X$, *with respect to which* $X$ *is complete*.
 
-#### Proposition 1 {#top-ix-s6-prop-1 .statement}
+#### Proposition 1 {#top-ix-s6-prop-1 .statement tag=0C89}
 
 a) *Every closed subspace of a Polish space is Polish*.
 b) *The product of a countable family of Polish spaces is Polish*.
@@ -73,7 +73,7 @@ $$
 
 where $y_p = a_p$ if $p \neq n$ and $y_n = x$. If $X$ is the topological sum of the $X_n$, it is clear that the mapping $f$ of $X$ into $Y$ which agrees with $f_n$ on $X_n$ for each $n$ is a homeomorphism of $X$ onto $f(X)$; also, for each $n$, $f_n(X_n)$ is closed in $Y$, and the family $(f_n(X_n))$ is locally finite because $\mathbf{N}$ is discrete; therefore $f(X) = \bigcup_n f_n(X_n)$ is closed in $Y$ (Chapter I, § 1, no. 5, Proposition 4), and thus $f(X)$ is a Polish space, by a).
 
-#### Proposition 2 {#top-ix-s6-prop-2 .statement}
+#### Proposition 2 {#top-ix-s6-prop-2 .statement tag=0C8A}
 
 Every open subspace of a Polish space is Polish.
 
@@ -83,19 +83,19 @@ t \cdot d(x, X - U) = 1;
 $$
 $V$ is closed by Proposition 3 of § 2, no. 2 and is therefore Polish (Proposition 1). Since the restriction to $V$ of the projection $\mathrm{pr}_2 : \mathbf{R} \setminus X \to X$ is a homeomorphism of $V$ onto $U$ ($§ 2,$ no. 2, Proposition 3), $U$ is a Polish subspace of $X$.
 
-#### Corollary {#top-ix-s6-n1-cor-1 .statement}
+#### Corollary {#top-ix-s6-n1-cor-1 .statement tag=0C8B}
 
 Every locally compact, metrizable space $X$ is Polish.
 
 Let $X$ be the compact space obtained by adjoining a point at infinity to $X$; $X'$ is metrizable and of countable type ($§ 2,$ no. 9, Corollary to Proposition 16), and $X$ is complete with respect to its unique uniformity (Chapter II, $§ 4,$ no. 1, Theorem 1). Hence $X$ is a Polish space; since $X$ is open in $X'$, it follows that $X$ is Polish.
 
-#### Proposition 3 {#top-ix-s6-prop-3 .statement}
+#### Proposition 3 {#top-ix-s6-prop-3 .statement tag=0C8C}
 
 Let $X$ be a Hausdorff topological space. Then the intersection of a sequence $(A_n)$ of Polish subspaces of $X$ is a Polish subspace.
 
 Let $f$ be the diagonal mapping of $X$ into $X^\mathbf{N}$ ([Set Theory, Chapter II, $§ 5,$ no. 3; recall that $f(x) = (x, x, \ldots)$ where $x_n = x$ for all $n \in \mathbf{N}$]. We shall use the following lemma:
 
-#### Lemma 1 {#top-ix-s6-lem-1 .statement}
+#### Lemma 1 {#top-ix-s6-lem-1 .statement tag=0C8D}
 
 Let $(A_n)$ be a sequence of subsets of a Hausdorff topological space $X$. Then the restriction of the diagonal mapping $f : X \to X^\mathbf{N}$ to the subspace $\bigcap_n A_n$ of $X$ is a homeomorphism of $\bigcap_n A_n$ into a closed subspace of $\prod_n A_n$.
 
@@ -103,13 +103,13 @@ This image is the intersection of $\prod_n A_n$ and the diagonal $\Delta = f(X)$
 
 With the hypotheses of Proposition 3, $\prod_n A_n$ is a Polish space (Proposition 1), hence $\bigcap_n A_n$ is Polish by Lemma 1 and Proposition 1.
 
-#### Corollary {#top-ix-s6-n1-cor-2 .statement}
+#### Corollary {#top-ix-s6-n1-cor-2 .statement tag=0C8E}
 
 The set of irrational numbers, endowed with the topology induced by that of the real line $\mathbf{R}$, is a Polish space.
 
 It is the intersection of a countable family of open sets in $\mathbf{R}$, namely the complements of sets consisting of a single rational number.
 
-#### Theorem 1 {#top-ix-s6-thm-1 .statement}
+#### Theorem 1 {#top-ix-s6-thm-1 .statement tag=0C8F}
 
 *A subspace* $Y$ *of a Polish space* $X$ *is Polish if and only if* $Y$ *is the intersection of a countable family of open sets in* $X$.
 
@@ -117,13 +117,13 @@ The sufficiency of the condition follows immediately from Propositions 2 and 3. 
 
 For each $n$, let $H_n$ be an open subset of $X$ such that $H_n \cap \overline{Y} = Y_n$, and let $(U_m)$ be a sequence of open subsets of $X$ such that $\overline{Y} = \bigcap_m U_m$ (§ 2, no. 5, Proposition 7); then $Y$ is the intersection of the countable family of open sets $(H_n \cap U_m)$.
 
-#### Corollary 1 {#top-ix-s6-thm-1-cor-1 .statement}
+#### Corollary 1 {#top-ix-s6-thm-1-cor-1 .statement tag=0C8G}
 
 *A space* $X$ *is Polish if and only if it is homeomorphic to a countable intersection of open sets in the cube* $\mathbf{I}^{\mathbf{N}}$, *where* $\mathbf{I}$ *is the interval* $[0, 1]$ *of* $\mathbf{R}$.
 
 The condition is clearly sufficient, and it is necessary because every metrizable space of countable type is homeomorphic to a subspace of $\mathbf{I}^{\mathbf{N}}$ (§ 2, no. 8, Proposition 12).
 
-#### Corollary 2 {#top-ix-s6-thm-1-cor-2 .statement}
+#### Corollary 2 {#top-ix-s6-thm-1-cor-2 .statement tag=0C8H}
 
 *Let* $X$ *and* $Y$ *be two Polish spaces and let* $f : X \to Y$ *be a continuous mapping. If* $Z$ *is a Polish subspace of* $Y$, *then* $\overline{f}^{-1}(Z)$ *is a Polish subspace of* $X$.
 
@@ -135,37 +135,37 @@ and the sets $\overline{f}^{-1}(Z_n)$ are open in $X$.
 
 ### 2. SOUSLIN SPACES
 
-#### Definition 2 {#top-ix-s6-def-2 .statement}
+#### Definition 2 {#top-ix-s6-def-2 .statement tag=0C8I}
 
 *A topological space* $X$ *is said to be a Souslin space if it is metrizable and if there exists a Polish space* $P$ *and a continuous mapping of* $P$ *onto* $X$. *A subset* $A$ *of a topological space* $X$ *is called a Souslin set if the subspace* $A$ *is a Souslin space.*
 
 Clearly every Polish space is Souslin, and the image of a Souslin space $X$ under a continuous mapping of $X$ into a metrizable space $Y$ is a Souslin space.
 
-#### Proposition 4 {#top-ix-s6-prop-4 .statement}
+#### Proposition 4 {#top-ix-s6-prop-4 .statement tag=0C8J}
 
 *Every Souslin space $X$ is of countable type.*
 
 Let $P$ be a Polish space and $f$ a continuous mapping of $P$ onto $X$. Then the image under $f$ of a countable dense subset of $P$ is a countable dense subset of $X$.
 
-#### Proposition 5 {#top-ix-s6-prop-5 .statement}
+#### Proposition 5 {#top-ix-s6-prop-5 .statement tag=0C8K}
 
 *Every closed (resp. open) subspace of a Souslin space $X$ is Souslin.*
 
 For if $f$ is a continuous mapping of a Polish space $P$ onto $X$, then the inverse image under $f$ of a closed (resp. open) subset of $X$ is a closed (resp. open) subset of $P$, hence is a Polish subspace of $P$ (no. 1, Propositions 1 and 2).
 
-#### Proposition 6 {#top-ix-s6-prop-6 .statement}
+#### Proposition 6 {#top-ix-s6-prop-6 .statement tag=0C8L}
 
 *Let $X$ be a Souslin space, let $Y$ be a Hausdorff space and let $f : X \to Y$ be a continuous mapping. Then the inverse image under $f$ of a Souslin subspace $A$ of $Y$ is a Souslin subspace of $X$.*
 
 Let $P, Q$ be Polish spaces, let $g$ be a continuous mapping of $P$ onto $X$ and let $h$ be a continuous mapping of $Q$ onto $A$. Let $R$ be the set of all $(x, y) \in P \times Q$ such that $f(g(x)) = h(y)$; $R$ is closed in $P \times Q$ and is therefore a Polish subspace of $P \times Q$ (no. 1, Proposition 1). Let $\varphi$ be the restriction to $R$ of the projection $pr_1$. Then the subspace $\overline{f}^{-1}(A)$ of $X$ is the image of $R$ under the continuous mapping $g \circ \varphi$ and is therefore a Souslin space.
 
-#### Proposition 7 {#top-ix-s6-prop-7 .statement}
+#### Proposition 7 {#top-ix-s6-prop-7 .statement tag=0C8M}
 
 *The product and the sum of a countable family of Souslin spaces are Souslin spaces.*
 
 For each integer $n$, let $X_n$ be a metrizable space, $P_n$ a Polish space, and $f_n$ a continuous mapping of $P_n$ onto $X_n$. The product (resp. sum) of the spaces $P_n$ is Polish (no. 1, Proposition 1), and the image of this space under the mapping which is the product of the $f_n$ (resp. the mapping which agrees with $f_n$ on $P_n$ for all $n$) is the product (resp. sum) of the spaces $X_n$; the latter is metrizable, and is therefore a Souslin space.
 
-#### Proposition 8 {#top-ix-s6-prop-8 .statement}
+#### Proposition 8 {#top-ix-s6-prop-8 .statement tag=0C8N}
 
 *Let $X$ be a metrizable space and let $(A_n)$ be a sequence of Souslin subspaces of $X$. Then the union and the intersection of the $A_n$ are Souslin spaces.*
 
@@ -173,7 +173,7 @@ These subspaces are certainly metrizable. The existence of the canonical map of 
 
 In general, even in a Polish space, the complement of a Souslin subspace is not necessarily Souslin (cf. Exercise 6); see, however, no. 6, Theorem 2, Corollary.
 
-#### Proposition 9 {#top-ix-s6-prop-9 .statement}
+#### Proposition 9 {#top-ix-s6-prop-9 .statement tag=0C8O}
 
 *Let X be a metrizable space, and let A be a relatively compact Souslin subspace of X. Then there exists a compact metrizable space K, a decreasing sequence $(B_n)$ of subsets of K, each of which is a countable union of compact sets, and a continuous mapping $f : K \to X$, such that $A = f\left(\bigcap_n B_n\right)$.*
 
@@ -187,7 +187,7 @@ Since each $U_n$ is a countable union of closed sets in $I^\mathbf{N}$ (§ 2, no
 
 ### 3. BOREL SETS
 
-#### Definition 3 {#top-ix-s6-def-3 .statement}
+#### Definition 3 {#top-ix-s6-def-3 .statement tag=0C8P}
 
 *Let X be a set and let $\mathfrak{L}$ be a set of subsets of X. $\mathfrak{L}$ is said to be a $\sigma$-algebra on X if the following conditions are satisfied:
 
@@ -199,39 +199,39 @@ If $\mathfrak{L}$ is a $\sigma$-algebra on X, every *countable union* of sets of
 
 The set $\mathfrak{B}(X)$ of all subsets of X is clearly a $\sigma$-algebra. Every intersection of $\sigma$-algebras on X is a $\sigma$-algebra on X. For any subset of $\mathfrak{B}(X)$, there is therefore a *smallest* $\sigma$-algebra containing $\mathfrak{F}$; it is called the $\sigma$-algebra *generated by* $\mathfrak{F}$.
 
-#### Definition 4 {#top-ix-s6-def-4 .statement}
+#### Definition 4 {#top-ix-s6-def-4 .statement tag=0C8Q}
 
 In a topological space $X$, the elements of the $\sigma$-algebra generated by the set of all closed subsets of $X$ are called Borel sets in $X$.
 
-#### Proposition 10 {#top-ix-s6-prop-10 .statement}
+#### Proposition 10 {#top-ix-s6-prop-10 .statement tag=0C8R}
 
 Let $f$ be a continuous mapping of a topological space $X$ into a topological space $Y$. Then the inverse image under $f$ of every Borel set in $Y$ is a Borel set in $X$.
 
 Let $\mathfrak{I}$ be the set of all subsets $A$ of $Y$ such that $f^{-1}(A)$ is a Borel set in $X$. It follows immediately that $\mathfrak{I}$ is a $\sigma$-algebra which contains all the closed subsets of $Y$; hence $\mathfrak{I}$ contains all Borel sets in $Y$.
 
-#### Proposition 11 {#top-ix-s6-prop-11 .statement}
+#### Proposition 11 {#top-ix-s6-prop-11 .statement tag=0C8S}
 
 In a Souslin space $X$, every Borel set is a Souslin set.
 
 Let $\mathfrak{I}$ be the set of all subsets $A$ of $X$ such that both $A$ and $\overline{A}$ are Souslin sets. By Proposition 8 of no. 2, $\mathfrak{I}$ is a $\sigma$-algebra. Every closed subset $F$ of $X$ belongs to $\mathfrak{I}$, for both $F$ and $\overline{F}$ are Souslin sets (no. 2, Proposition 5); hence $\mathfrak{I}$ contains all Borel sets of $X$ (cf. no. 6, Theorem 2, Corollary).
 
-#### Corollary {#top-ix-s6-n3-cor-1 .statement}
+#### Corollary {#top-ix-s6-n3-cor-1 .statement tag=0C8T}
 
 Let $f$ be a continuous mapping of a Souslin space $X$ into a metrizable space $Y$. If $B$ is any Borel set in $X$, then $f(B)$ is a Souslin set in $Y$.
 
 For $B$ is a Souslin space, hence so is $f(B)$ by the remark following Definition 2 (no. 2).
 
-#### Remark 1 {#top-ix-s6-n3-rem-1 .statement}
+#### Remark 1 {#top-ix-s6-n3-rem-1 .statement tag=0C8U}
 
 Even when $X$ and $Y$ are Polish spaces it is not in general true that the image of a Borel set in $X$ under a continuous mapping of $X$ into $Y$ is a Borel set in $Y$ (cf. Exercise 6; and no. 7, Theorem 3 Corollary).
 
-#### Remark 2 {#top-ix-s6-n3-rem-2 .statement}
+#### Remark 2 {#top-ix-s6-n3-rem-2 .statement tag=0C8V}
 
 Let $X$ be a topological space and let $Y$ be a Borel subset of $X$. Then the Borel sets of the space $Y$ are exactly the Borel sets of $X$ which are contained in $Y$. For (i) the Borel sets in $X$ which are contained in $Y$ form a $\sigma$-algebra on $Y$ which contains the closed sets in $Y$ and hence contains all Borel sets of $Y$; (ii) the subsets $A$ of $X$ such that $A \cap Y$ is a Borel set of $Y$ form a $\sigma$-algebra on $X$ which contains all the closed sets of $X$ and therefore contains all Borel sets of $X$.
 
 ### 4. ZERO-DIMENSIONAL SPACES AND LUSIN SPACES
 
-#### Definition 5 {#top-ix-s6-def-5 .statement}
+#### Definition 5 {#top-ix-s6-def-5 .statement tag=0C8W}
 
 A topological space is said to be zero-dimensional if it is Hausdorff and if every point has a fundamental system of neighbourhoods which are both open and closed.
 
@@ -241,13 +241,13 @@ Conversely, a locally compact totally disconnected space is zero-dimensional (Ch
 
 Every subspace of a zero-dimensional space is zero-dimensional, and topological sums and products of zero-dimensional spaces are zero-dimensional.
 
-#### Definition 6 {#top-ix-s6-def-6 .statement}
+#### Definition 6 {#top-ix-s6-def-6 .statement tag=0C8X}
 
 A topological space $X$ is a Lusin space if it is metrizable and if there exists a zero-dimensional Polish space $P$ and a continuous bijective mapping of $P$ onto $X$.
 
 Every Lusin space is clearly a Souslin space.
 
-#### Proposition 12 {#top-ix-s6-prop-12 .statement}
+#### Proposition 12 {#top-ix-s6-prop-12 .statement tag=0C8Y}
 
 A metrizable space is a Lusin space if and only if it is the image of a Polish space under a continuous bijective mapping.
 
@@ -257,7 +257,7 @@ Notice first that, if $X$ is a Lusin space, every closed (resp. open) subspace $
 
 Every countable product of Lusin spaces is a Lusin space; this follows from Proposition 1 of no. 1 and the fact that every product of zero-dimensional spaces is zero-dimensional. Every countable intersection of Lusin subspaces of a Hausdorff topological space is a Lusin subspace; this follows from the preceding remarks and from Lemma 1 of no. 1. Furthermore:
 
-#### Lemma 2 {#top-ix-s6-lem-2 .statement}
+#### Lemma 2 {#top-ix-s6-lem-2 .statement tag=0C8Z}
 
 If a metrizable space $X$ is such that there exists a countable partition $(A_n)$ of $X$ formed of Lusin subspaces, then $X$ is a Lusin space.
 
@@ -269,7 +269,7 @@ Let P be an arbitrary Polish space. By Corollary 1 to Theorem 1 (no. 1), P is ho
 
 ### 5. SIEVES
 
-#### Definition 7 {#top-ix-s6-def-7 .statement}
+#### Definition 7 {#top-ix-s6-def-7 .statement tag=0C90}
 
 A sieve is a sequence C = (C_n, p_n)_{n \geq 0} such that, for each n, C_n is a countable set and p_n is a surjection of C_{n+1} onto C_n.
 
@@ -282,7 +282,7 @@ b) for each n and each c \in C_n, \varphi_n(c) is the union of the sets \varphi_
 
 A sifting is said to be strict if in addition, for each n, the sets \varphi_n(c), as c runs through C_n, are mutually disjoint.
 
-#### Lemma 3 {#top-ix-s6-lem-3 .statement}
+#### Lemma 3 {#top-ix-s6-lem-3 .statement tag=0C91}
 
 Every metric space X of countable type possesses a sifting. If also X is zero-dimensional, then X has a strict sifting.
 
@@ -292,7 +292,7 @@ Let $X$ be a metric space of countable type. Let $C_0$ be the set of indices of 
 
 Now suppose that $X$ is a complete metric space of countable type, and consider a sifting of $X$ by a sieve $C$ and mappings $\varphi_n$. If $\gamma = (c_n)$ is a point of the space $L(C)$ associated with $C$, the sequence $(\varphi_n(c_n))$ is a decreasing sequence of closed sets in $X$ whose diameters tend to 0; the intersection of this sequence of sets consists therefore of a single point, which we denote by $f(\gamma)$. Thus we have defined a mapping $f : L(C) \to X$. If two points $\gamma, \gamma'$ of $L(C)$ have the same $i$-th coordinates for $i \leq n$, it is clear that the distance between $f(\gamma)$ and $f(\gamma')$ is $\leq 1/2^n$, and therefore $f$ is continuous, by virtue of the definition of the topology of $L(C)$. For each $x \in X$ it follows from the definition of a sifting that we can define by induction on $n$ a sequence $\gamma = (c_n)$ such that $x \in \varphi_n(c_n)$ for each $n \geq 0$, and $c_n = p_n(c_{n+1})$; hence $x = f(\gamma)$ and so $f$ is surjective. Furthermore, if the sifting is strict, the sequence $\gamma = (c_n)$ such that $x = f(\gamma)$ is unique, and so in this case $f$ is bijective. $f$ is said to be the mapping induced by the sifting considered.
 
-#### Proposition 13 {#top-ix-s6-prop-13 .statement}
+#### Proposition 13 {#top-ix-s6-prop-13 .statement tag=0C92}
 
 *If $X$ is any Lusin (resp. Souslin) space, there exists a sieve $C$ and a continuous bijection (resp. surjection) of $L(C)$ onto $X$.*
 
@@ -302,19 +302,19 @@ X is Polish and zero-dimensional (resp. Polish), and the preceding argument then
 
 ### 6. SEPARATION OF SOUSLIN SETS
 
-#### Theorem 2 {#top-ix-s6-thm-2 .statement}
+#### Theorem 2 {#top-ix-s6-thm-2 .statement tag=0C93}
 
 Let X be a metrizable space. If we are given a sequence $(X_n)$ of mutually disjoint Souslin subspaces of X, then there exists a sequence $(B_n)$ of mutually disjoint Borel sets in X such that $X_n \subset B_n$ for each n.
 
 The proof rests on two lemmas:
 
-#### Lemma 4 {#top-ix-s6-lem-4 .statement}
+#### Lemma 4 {#top-ix-s6-lem-4 .statement tag=0C94}
 
 Let $(A_n), (A'_m)$ be two sequences of subsets of a topological space X. Suppose that for each pair $(A_n, A'_m)$ there is a Borel set $B_{nm}$ of X such that $B_{nm} \supset A_n$ and $B_{nm} \cap A'_m = \emptyset$. Then there is a Borel set B of X which contains $\bigcup_n A_n$ and does not meet $\bigcup_m A'_m$.
 
 For the Borel set $B = \bigcup_n \left( \bigcap_m B_{nm} \right)$ satisfies these conditions.
 
-#### Lemma 5 {#top-ix-s6-lem-5 .statement}
+#### Lemma 5 {#top-ix-s6-lem-5 .statement tag=0C95}
 
 Let X be a Hausdorff space and let A, A' be two disjoint Souslin subspaces of X. Then there is a Borel set B of X such that $B \supset A$ and $B \cap A' = \emptyset$.
 
@@ -330,25 +330,25 @@ as follows: suppose that $c_i$ and $c'_i$ have already been defined for $i < n$,
 
 To prove Theorem 2, let $Y_n$ denote the union of the sets $X_i$ such that $i \neq n$; then $Y_n$ is a Souslin subspace of $X$ (no. 2, Proposition 8). For each index $n$ there exists a Borel set $B'_n$ which contains $X_n$ and does not meet $Y_n$, by Lemma 5. Let $B_n$ be the intersection of $B'_n$ and $\bigcap_{i < n} (X - B'_i)$. Then the $B_n$ are Borel sets, are mutually disjoint, and are such that $B_n \supset X_n$ for each $n$.
 
-#### Corollary {#top-ix-s6-n6-cor-1 .statement}
+#### Corollary {#top-ix-s6-n6-cor-1 .statement tag=0C96}
 
 *If a countable partition of a metrizable space is formed of Souslin sets, then these sets are Borel sets. In particular, every Souslin set in a metrizable space, whose complement is a Souslin set, is a Borel set.*
 
 ### 7. LUSIN SPACES AND BOREL SETS
 
-#### Theorem 3 {#top-ix-s6-thm-3 .statement}
+#### Theorem 3 {#top-ix-s6-thm-3 .statement tag=0C97}
 
 *Let $X$ be a Lusin space. Then a subspace of $X$ is a Lusin space if and only if it is a Borel set.*
 
 This theorem is a consequence of the following two lemmas:
 
-#### Lemma 6 {#top-ix-s6-lem-6 .statement}
+#### Lemma 6 {#top-ix-s6-lem-6 .statement tag=0C98}
 
 *In a Lusin space $X$, every Borel set is a Lusin subspace of $X$.*
 
 Let $\mathfrak{T}$ be the set of all subsets $A$ of $X$ such that both $A$ and $\complement A$ are Lusin subspaces of $X$. Since every closed set and every open set in $X$ is a Lusin subspace of $X$ (no. 4), $\mathfrak{T}$ contains all closed subsets of $X$, and the lemma will therefore be proved if we can show that $\mathfrak{T}$ is a $\sigma$-algebra on $X$. For this it is enough to show that if $(A_n)$ is a sequence of sets of $\mathfrak{T}$, then $\bigcap_n A_n$ and $\bigcup_n A_n$ are Lusin subspaces of $X$. Now we have seen in no. 4 that every countable intersection of Lusin subspaces is a Lusin subspace. On the other hand, if $B_n$ is the intersection of $A_n$ and $\bigcap_{i < n} \complement A_i$, it follows from the hypothesis and the preceding remark that $B_n$ is a Lusin subspace; and since $\bigcup_n A_n = \bigcup_n B_n$, the subspace $\bigcup_n A_n$ is a Lusin subspace by Lemma 2 of no. 4.
 
-#### Lemma 7 {#top-ix-s6-lem-7 .statement}
+#### Lemma 7 {#top-ix-s6-lem-7 .statement tag=0C99}
 
 *Every Lusin subspace $A$ of a metrizable space $X$ is a Borel set in $X$.*
 
@@ -366,13 +366,13 @@ Since q_i(c_i) ⊃ q_n(c) for 0 ≤ i ≤ n − 1, h_n(c) contains g_n(c); it is
 
 Let x be a point of B. Then, for each integer n, there exists a unique c ∈ C_n such that x ∈ h_n(c); let us denote this c by c_n(x). The sequence (c_n(x))_{n≥0} belongs to L(C). The decreasing sequence (g_n(c_n(x))) converges by definition to a point a ∈ A; the sequence of closures of these sets also converges to a in X, hence a fortiori so does the sequence (h_n(c_n(x))). Now x belongs to all the sets h_n(c_n(x)), therefore x = a ∈ A. Lemma 7 is thus proved, and with it Theorem 3.
 
-#### Corollary {#top-ix-s6-n7-cor-1 .statement}
+#### Corollary {#top-ix-s6-n7-cor-1 .statement tag=0C9A}
 
 *If f is a continuous injective mapping of a Lusin space (or, in particular, a Polish space) X into a metrizable space Y, then f(X) is a Borel set in Y.*
 
 ### 8. BOREL SECTIONS
 
-#### Theorem 4 {#top-ix-s6-thm-4 .statement}
+#### Theorem 4 {#top-ix-s6-thm-4 .statement tag=0C9B}
 
 *Let X be a Polish space and let R be an equivalence relation on X, such that the equivalence classes mod R are closed in X and the saturation (with respect to R) of each closed set in X is a Borel set. Then there is a Borel set in X which meets each equivalence class in exactly one point.*
 
@@ -398,13 +398,13 @@ For each integer $n$, let $S_n$ be the union of the sets $h_n(c)$, where $c$ run
 
 Let S be the intersection of the sets S_n, which is also a Borel set in X; we shall show that S meets each equivalence class H mod R in exactly one point. For each n, let c_n(H) be the unique element c \in C_n such that h_{c_n(H)} meets H; then S_n \cap H = \varphi_n(c_n(H)) \cap H, and S \cap H is the intersection of the sets \varphi_n(c_n(H)) \cap H. Since the sequence (c_n(H)) belongs to L.C., the decreasing sequence of closed sets \varphi_n(c_n(H)), whose diameter tends to 0, converges to a point x \in X, since X is complete. The intersection of the closed sets \varphi_n(c_n(H)) \cap H therefore consists of the point x alone, and the proof of Theorem 4 is complete.
 
-#### Remark {#top-ix-s6-n8-rem-1 .statement}
+#### Remark {#top-ix-s6-n8-rem-1 .statement tag=0C9C}
 
 In particular a closed equivalence relation R satisfies the hypotheses of Theorem 4. When X is a compact metrizable space, Theorem 4 therefore applies to any Hausdorff equivalence relation R, since a Hausdorff equivalence relation on a compact space is closed (Chapter I, § 10, no. 4, Proposition 8).
 
 ### 9. CAPACITABILITY OF SOUSLIN SETS
 
-#### Definition 8 {#top-ix-s6-def-8 .statement}
+#### Definition 8 {#top-ix-s6-def-8 .statement tag=0C9D}
 
 Let X be a Hausdorff topological space. A capacity on X is a mapping f of the set \mathscr{P}(X) of all subsets of X into the extended real line \overline{\mathbf{R}}, satisfying the following conditions:
 
@@ -420,18 +420,18 @@ $$
 f\left(\bigcap_n K_n\right) = \inf_n f(K_n).
 $$
 
-#### Example {#top-ix-s6-n9-exa-1 .statement}
+#### Example {#top-ix-s6-n9-exa-1 .statement tag=0C9E}
 
 \* Let \mu be a positive measure on a locally compact space X; then the corresponding outer measure \mu^* is a capacity on X.
 It can be shown that in Euclidean space \mathbf{R}^n (n \geq 3), the "Newtonian outer capacity" is a capacity in the sense of Definition 8.
 
-#### Definition 9 {#top-ix-s6-def-9 .statement}
+#### Definition 9 {#top-ix-s6-def-9 .statement tag=0C9F}
 
 Let f be a capacity on X; a subset A of X is said to be capacitable (with respect to f) if $f(A) = \sup_k f(K)$, where K runs through the set of compact subsets of A.
 
 \* For example, if f is an outer measure \mu^*, every open set is capacitable; the capacitable sets A such that \mu^*(A) < +\infty are precisely the \mu-integrable sets. \*
 
-#### Proposition 14 {#top-ix-s6-prop-14 .statement}
+#### Proposition 14 {#top-ix-s6-prop-14 .statement tag=0C9G}
 
 Let K be a compact space and let f be a capacity on K. If A is the intersection of a decreasing sequence $(A_n)$ of subsets of K, each of which is a countable union of closed sets, then A is capacitable.
 
@@ -449,13 +449,13 @@ the set C is therefore compact and contained in A.
 
 Let $B'_n = B_1 \cap B_2 \cap \cdots \cap B_n$; $(B'_n)$ is a decreasing sequence of compact subsets of K; as $C_n \subset C_i \subset B_i$ for $i < n$ we also have $C_n \subset B'_n$. By (CAIII), $f(C) = \inf_n f(B'_n)$, and since $C \subset C_n \subset B'_n$ we also have $f(C) = \inf_n f(C_n) \geq a$. This completes the proof.
 
-#### Theorem 5 {#top-ix-s6-thm-5 .statement}
+#### Theorem 5 {#top-ix-s6-thm-5 .statement tag=0C9H}
 
 Let X be a metrizable space and let Y be a relatively compact Souslin subspace of X. Then Y is capacitable with respect to every capacity f on X.
 
 We have seen (no. 2, Proposition 9) that there exists a compact space K, a decreasing sequence $(A_n)$ of subsets of K, each of which is a countable union of compact sets, and a continuous mapping $\varphi : K \to X$ such that $Y = \varphi \left( \bigcap_n A_n \right)$. By Proposition 14, $\bigcap_n A_n$ is capacitable with respect to every capacity on K. Theorem 5 is therefore a consequence of the following proposition:
 
-#### Proposition 15 {#top-ix-s6-prop-15 .statement}
+#### Proposition 15 {#top-ix-s6-prop-15 .statement tag=0C9I}
 
 Let $\varphi$ be a continuous mapping of a Hausdorff space K into a Hausdorff space X, and let f be a capacity on X. If for each subset A of K we put $g(A) = f(\varphi(A))$, then g is a capacity on K; moreover, if A is capacitable with respect to g, then $\varphi(A)$ is capacitable with respect to f.
 
@@ -463,7 +463,7 @@ It is clear that $g$ satisfies axioms $(\mathrm{CA}_I)$ and $(\mathrm{CA}_{II})$
 
 Now let $A$ be a subset of $K$ which is capacitable with respect to $g$; if $a < f(\varphi(A)) = g(A)$, then there is a compact set $C \subset A$ such that $g(C) \geq a$; thus $\varphi(C)$ is a compact set contained in $\varphi(A)$, and $f(\varphi(C)) \geq a$. This shows that $\varphi(A)$ is capacitable with respect to $f$, and completes the proof of Proposition 15 and hence of Theorem 5.
 
-#### Remark {#top-ix-s6-n9-rem-1 .statement}
+#### Remark {#top-ix-s6-n9-rem-1 .statement tag=0C9J}
 
 \* If $\mu$ is a positive measure on a locally compact metrizable space $X$, then every Souslin subset $A$ of $X$ is $\mu$-measurable. For if $K$ is any compact subset of $X$, $K \cap A$ is a relatively compact Souslin set, hence is capacitable with respect to $\mu^*$ and consequently $\mu$-integrable. Note that the complement in $X$ of a Souslin set, although not in general a Souslin set, is $\mu$-measurable *.
 

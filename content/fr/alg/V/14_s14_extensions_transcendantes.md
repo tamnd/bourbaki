@@ -41,7 +41,7 @@ subsections:
       pdf_page: 216
 statements: 51
 exercises: 20
-content_sha256: 8f8fcfbd50502d9991e793039c34c47efda5c3ea0d1d85dca2b46a7d78412a82
+content_sha256: 222069a161fd33f096380184f94a4727291719d69272dff40945a1cfe9bdc9f5
 ---
 
 ## § 14. EXTENSIONS TRANSCENDANTES
@@ -50,33 +50,33 @@ content_sha256: 8f8fcfbd50502d9991e793039c34c47efda5c3ea0d1d85dca2b46a7d78412a82
 
 Rappelons (IV, p. 4) la définition suivante :
 
-#### Définition 1 {#alg-v-s14-def-1 .statement}
+#### Définition 1 {#alg-v-s14-def-1 .statement tag=06RO}
 
 Soit E une extension d’un corps K ; on dit qu’une famille x = (x_i)_{i∈I} d’éléments de E est algébriquement libre sur K si les monômes x^α = ∏_{i∈I} x_i^{α_i} par rapport aux x_i (pour α = (α_i)_{i∈I} dans N^{(I)}) sont linéairement indépendants sur K. On dit qu’elle est algébriquement liée sur K dans le cas contraire.
 
 La définition 1 peut encore s’exprimer comme suit :
 
-#### Proposition 1 {#alg-v-s14-prop-1 .statement}
+#### Proposition 1 {#alg-v-s14-prop-1 .statement tag=06RP}
 
 Pour qu’une famille $(x_i)_{i \in I}$ d’éléments d’une extension $E$ d’un corps $K$ soit algébriquement libre sur $K$, il faut et il suffit que la relation $f((x_i)) = 0$, où $f$ est un polynôme de $K[X_i]_{i \in I}$, entraîne $f = 0$.
 
-#### Définition 2 {#alg-v-s14-def-2 .statement}
+#### Définition 2 {#alg-v-s14-def-2 .statement tag=06RQ}
 
 Soit $E$ une extension d’un corps $K$. Une famille $(x_i)_{i \in I}$ d’éléments de $E$ est appelée une base pure de $E$ (sur $K$) si elle est algébriquement libre et si l’on a $E = K(x_i)_{i \in I}$. On dit que $E$ est une extension pure de $K$ si $E$ possède une base pure.
 
 La famille vide est algébriquement libre, donc $K$ est une extension pure de lui-même. Avec les notations de la déf. 2, chaque élément $x_i$ est transcendant sur $K$; si $I$ n’est pas vide, $E$ est donc une extension transcendante de $K$.
 
-#### Proposition 2 {#alg-v-s14-prop-2 .statement}
+#### Proposition 2 {#alg-v-s14-prop-2 .statement tag=06RR}
 
 Soient $E$ et $E'$ deux corps et $u$ un isomorphisme d’un sous-corps $K$ de $E$ sur un sous-corps $K'$ de $E'$. Soit $x = (x_i)_{i \in I}$ (resp. $x' = (x'_i)_{i \in I}$) une famille d’éléments de $E$ (resp. $E'$) algébriquement libre sur $K$ (resp. $K'$). Il existe un isomorphisme $v$ de $L = K(x_i)_{i \in I}$ sur $L' = K'(x'_i)_{i \in I}$ et un seul qui induise $u$ sur $K$ et applique $x_i$ sur $x'_i$ pour tout $i \in I$.
 
 L’unicité de $v$ est claire. Posons $A = K[x_i]_{i \in I}$ et $A' = K'[x'_i]_{i \in I}$. Par hypothèse, les monômes $x^\alpha = \prod_{i \in I} x_i^{\alpha_i}$ (pour $\alpha = (\alpha_i)_{i \in I}$ dans $\mathbf{N}^{(I)}$) forment une base du $K$-espace vectoriel $A$, et l’on a une propriété analogue pour $A'$. Il existe donc un isomorphisme d’anneaux $w : A \to A'$ transformant tout élément $\sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha x^\alpha$ en $\sum_{\alpha \in \mathbf{N}^{(I)}} u(c_\alpha) {x'}^\alpha$. Comme $L$ est le corps des fractions de $A$ et $L'$ celui de $A'$, l’isomorphisme $w$ se prolonge en un isomorphisme $v$ du corps $L$ sur le corps $L'$.
 
-#### Corollaire {#alg-v-s14-n1-cor-1 .statement}
+#### Corollaire {#alg-v-s14-n1-cor-1 .statement tag=06RS}
 
 Pour qu’une extension $E$ d’un corps $K$ soit pure, il faut et il suffit que $E$ soit $K$-isomorphe à un corps de fractions rationnelles sur $K$. De manière précise, si la famille $(x_i)_{i \in I}$ est une base pure de $E$, il existe un unique $K$-isomorphisme de $K(X_i)_{i \in I}$ sur $E$ qui applique $X_i$ sur $x_i$ pour tout $i \in I$.
 
-#### Remarque {#alg-v-s14-n1-rem-1 .statement}
+#### Remarque {#alg-v-s14-n1-rem-1 .statement tag=06RT}
 
 Il est clair que, dans une extension $E$ de $K$, une famille algébriquement libre sur $K$ est formée d’éléments linéairement indépendants sur $K$ (donc deux à deux distincts); autrement dit, c’est une famille libre pour la structure d’espace vectoriel de $E$ (par rapport à $K$). Mais la réciproque est inexacte, car si $E$ est une extension algébrique de $K$, une famille non vide quelconque d’éléments de $E$ (et a fortiori une famille non vide d’éléments linéairement indépendants sur $K$) n’est jamais algébriquement libre sur $K$. Lorsqu’il y a risque de confusion, nous dirons qu’une partie d’une extension $E$ de $K$, qui est libre pour la structure d’espace vectoriel de $E$ par rapport à $K$ est linéairement libre sur $K$.
 
@@ -84,7 +84,7 @@ Soit $E$ une extension d’un corps $K$. On dit qu’une partie $S$ de $E$ est a
 
 Toute partie d'une partie algébriquement libre est algébriquement libre. En outre :
 
-#### Proposition 3 {#alg-v-s14-prop-3 .statement}
+#### Proposition 3 {#alg-v-s14-prop-3 .statement tag=06RU}
 
 *Pour qu'une famille* $(x_i)_{i \in I}$ *d'éléments d'une extension* $E$ *d'un corps* $K$ *soit algébriquement libre sur* $K$, *il faut et il suffit que toute sous-famille finie de* $(x_i)_{i \in I}$ *soit algébriquement libre sur* $K$.
 
@@ -92,7 +92,7 @@ La proposition résulte immédiatement de la déf. 1.
 
 ### 2. Bases de transcendance
 
-#### Proposition 4 {#alg-v-s14-prop-4 .statement}
+#### Proposition 4 {#alg-v-s14-prop-4 .statement tag=06RV}
 
 *Soient* $E$ *une extension d'un corps* $K$, $S$ *et* $T$ *deux parties de* $E$. *Les propriétés suivantes sont équivalentes :*
 a) $S \cup T$ *est algébriquement libre sur* $K$ *et* $S \cap T = \varnothing$.
@@ -119,11 +119,11 @@ avec $\varphi_\alpha \in K[X_1, ..., X_m]$ pour tout $\alpha = (\alpha_1, ..., \
 
 Soit $g = f(x_1, ..., x_m, Y_1, ..., Y_n)$; alors $g$ est un polynôme de l'anneau $K[S][Y_1, ..., Y_n]$, et la relation $f(x_1, ..., x_m, y_1, ..., y_n) = 0$ s'écrit $g(y_1, ..., y_n) = 0$. Comme $T$ est algébriquement libre sur $K(S)$, chacun des coefficients $\varphi_\alpha(x_1, ..., x_m)$ de $g$ est nul ; puisque $S$ est algébriquement libre sur $K$, on a $\varphi_\alpha = 0$ pour tout $\alpha \in \mathbf{N}^n$, d'où $f = 0$.
 
-#### Corollaire {#alg-v-s14-n2-cor-1 .statement}
+#### Corollaire {#alg-v-s14-n2-cor-1 .statement tag=06RW}
 
 *Soient* $E$ *une extension d'un corps* $K$ *et* $S$ *une partie de* $E$ *algébriquement libre sur K. Si $x \in E$ est transcendant sur $K(S)$, alors $S \cup \{ x \}$ est algébriquement libre sur $K$.
 
-#### Proposition 5 {#alg-v-s14-prop-5 .statement}
+#### Proposition 5 {#alg-v-s14-prop-5 .statement tag=06RX}
 
 *Soit E une extension d’un corps K. Pour qu’une partie S de E soit algébriquement libre sur K, il faut et il suffit que, pour tout $x \in S$, l’élément x soit transcendant sur le corps $K(S - \{ x \})$.*
 
@@ -131,27 +131,27 @@ La condition est nécessaire d’après la prop. 4.
 
 Pour prouver la suffisance, il suffit (prop. 3) de montrer que toute suite finie $(x_1, ..., x_n)$ d’éléments distincts de S est algébriquement libre. Or, par hypothèse, $x_i$ est transcendant sur $K(x_1, ..., x_{i-1})$ pour $1 \leq i \leq n$, et notre assertion résulte donc par récurrence sur $n$ du cor. de la prop. 4.
 
-#### Proposition 6 {#alg-v-s14-prop-6 .statement}
+#### Proposition 6 {#alg-v-s14-prop-6 .statement tag=06RY}
 
 *Soient E une extension d’un corps K et X une partie de E algébriquement libre sur K. Si $K' \subset E$ est une extension algébrique de K, alors X est algébriquement libre sur $K'$.*
 
 Raisonnons par l’absurde et supposons que X soit algébriquement liée sur $K'$. D’après la prop. 5, il existe un élément $x \in X$ algébrique sur le corps $K'(M)$, où $M = X - \{ x \}$. Comme on a $K'(M) = K(M)$ ($K'$) et que $K'$ est algébrique sur K, le cor. 2 de V, p. 18, montre que $K'(M)$ est algébrique sur $K(M)$; comme $x$ est algébrique sur $K'(M)$, il est donc algébrique sur $K(M) = K(X - \{ x \})$ d’après la prop. 3 de V, p. 18. La prop. 5 montre alors que X est algébriquement lié sur K, d’où une contradiction.
 
-#### Définition 3 {#alg-v-s14-def-3 .statement}
+#### Définition 3 {#alg-v-s14-def-3 .statement tag=06RZ}
 
 *On dit qu’une partie B d’une extension E d’un corps K est une base de transcendance de E (sur K) si B est algébriquement libre sur K, et si E est algébrique sur $K(B)$.*
 
-#### Exemple {#alg-v-s14-n2-exa-1 .statement}
+#### Exemple {#alg-v-s14-n2-exa-1 .statement tag=06S0}
 
 Une base pure est une base de transcendance. En revanche, si E est une extension pure de K, une base de transcendance de E sur K n’est pas toujours une base pure de E. Par exemple, dans $K(X)$, $\{ X^2 \}$ est une base de transcendance mais n’engendre pas $K(X)$.
 
-#### Proposition 7 {#alg-v-s14-prop-7 .statement}
+#### Proposition 7 {#alg-v-s14-prop-7 .statement tag=06S1}
 
 *Soit E une extension d’un corps K. Toute base de transcendance de E est un élément maximal de l’ensemble (ordonné par inclusion) des parties de E algébriquement libres sur K. Inversement, si S est une partie de E telle que E soit algébrique sur $K(S)$, toute partie algébriquement libre maximale de S est une base de transcendance de E.*
 
 Soient B une base de transcendance de E sur K, et $x \in E - B$. Alors $x$ est algébrique sur $K(B)$; d’après V, p. 103, prop. 4, la partie $B \cup \{ x \}$ de E n’est pas algébriquement libre sur K, d’où la première partie de la proposition. D’autre part, si E est algébrique sur $K(S)$, et B est une partie algébriquement libre maximale de S, il résulte du cor. de la prop. 4 que tout $x \in S$ est algébrique sur $K(B)$; donc (V, p. 18, cor. 1), $K(S)$ est algébrique sur $K(B)$, et par suite (V, p. 18, prop. 3), E est algébrique sur $K(B)$.
 
-#### Théorème 1 (Steinitz) {#alg-v-s14-thm-1 .statement}
+#### Théorème 1 (Steinitz) {#alg-v-s14-thm-1 .statement tag=06S2}
 
 Toute extension E d’un corps K admet une base de transcendance sur K. En d’autres termes, toute extension d’un corps K est une extension algébrique d’une extension pure de K.
 
@@ -159,13 +159,13 @@ Par contre, une extension n’est pas toujours extension pure d’une extension 
 
 Ce théorème est une conséquence du théorème plus précis suivant :
 
-#### Théorème 2 {#alg-v-s14-thm-2 .statement}
+#### Théorème 2 {#alg-v-s14-thm-2 .statement tag=06S3}
 
 Soient E une extension d’un corps K, S une partie de E telle que E soit algébrique sur K(S), et T une partie de S, algébriquement libre sur K ; il existe alors une base de transcendance B de E sur K telle que T ⊂ B ⊂ S.
 
 En effet, l’ensemble des parties algébriquement libres de S, ordonné par inclusion, est un ensemble de caractère fini (E, III, p. 34) d’après la prop. 3. D’après le th. 1 de E, III, p. 35, il admet un élément maximal B contenant T, et B est une base de transcendance de E sur K, en vertu de la prop. 7.
 
-#### Corollaire (« théorème d’échange ») {#alg-v-s14-n2-cor-2 .statement}
+#### Corollaire (« théorème d’échange ») {#alg-v-s14-n2-cor-2 .statement tag=06S4}
 
 Soient E une extension de K, S une partie de E telle que E soit algébrique sur K(S), T une partie de E algébriquement libre sur K ; il existe une partie S’ de S telle que T ∪ S’ soit une base de transcendance de E sur K et que T ∩ S’ = ∅.
 
@@ -173,7 +173,7 @@ En effet, E est algébrique sur K(T ∪ S) et l’on a T ⊂ T ∪ S.
 
 ### 3. Degré de transcendance d’une extension
 
-#### Théorème 3 {#alg-v-s14-thm-3 .statement}
+#### Théorème 3 {#alg-v-s14-thm-3 .statement tag=06S5}
 
 Soit E une extension d’un corps K. Toutes les bases de transcendance de E sur K ont même cardinal.
 
@@ -181,31 +181,31 @@ Il suffit de prouver l’inégalité Card(B) ≥ Card(B’) lorsque B et B’ so
 
 Supposons maintenant B infini. Tout x ∈ B est algébrique sur K(B’) et il existe donc une partie finie S(x) de B’ telle que x soit algébrique sur K(S(x)). Posons S = ⋃_{x∈B} S(x) d’où S ⊂ B’ ; comme B est infini, on a Card(S) ≤ Card(B) (E, III, p. 49, cor. 3). Mais tout élément de B étant algébrique sur K(S), et E étant algébrique sur K(B), on conclut que E est algébrique sur K(S) (V, p. 18, prop. 3). La prop. 7 entraîne alors S = B’, d’où l’inégalité cherchée Card(B’) ≤ Card(B).
 
-#### Définition 4 {#alg-v-s14-def-4 .statement}
+#### Définition 4 {#alg-v-s14-def-4 .statement tag=06S6}
 
 Soit E une extension d’un corps K. Le cardinal de toute base de transcendance de E sur K est appelé le degré de transcendance de E sur K, et noté deg. tr_K E.
 
 Les th. 2 et 3 et la déf. 4 entraînent les corollaires suivants, où l’on désigne par E une extension d’un corps K, de degré de transcendance fini n.
 
-#### Corollaire 1 {#alg-v-s14-def-4-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s14-def-4-cor-1 .statement tag=06S7}
 
 Soit S une partie de E telle que E soit algébrique sur K(S). On a Card(S) $\geq n$; si le cardinal de S est égal à n, alors S est algébriquement libre sur K (donc est une base de transcendance de E sur K).
 
-#### Corollaire 2 {#alg-v-s14-def-4-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s14-def-4-cor-2 .statement tag=06S8}
 
 Supposons que l’on ait $E = K(x_1, ..., x_m)$. Alors, on a $m \geq n$; si de plus on a $m = n$, alors $(x_1, ..., x_m)$ est une base pure de E sur K, et E est alors une extension pure de K.
 
-#### Corollaire 3 {#alg-v-s14-def-4-cor-3 .statement}
+#### Corollaire 3 {#alg-v-s14-def-4-cor-3 .statement tag=06S9}
 
 Toute partie de E algébriquement libre sur K a au plus n éléments, et si elle a exactement n éléments, c’est une base de transcendance de E sur K.
 
-#### Théorème 4 {#alg-v-s14-thm-4 .statement}
+#### Théorème 4 {#alg-v-s14-thm-4 .statement tag=06SA}
 
 Soient K, E et F trois corps tels que $K \subset E \subset F$. Si S est une base de transcendance de E sur K et T une base de transcendance de F sur E, alors $S \cap T$ est vide et $S \cup T$ est une base de transcendance de F sur K.
 
 En effet, F est algébrique sur E(T); de plus E(T) est algébrique sur le corps $K(S \cup T) = K(S)(T)$, puisque E est algébrique sur K(S) (V, p. 18, cor. 2); par suite (V, p. 18, prop. 3), F est algébrique sur K(S \cup T). D’autre part, T étant algébriquement libre sur E, l’est a fortiori sur K(S), donc (V, p. 103, prop. 4) $S \cup T$ est algébriquement libre sur K et $S \cap T = \varnothing$.
 
-#### Corollaire {#alg-v-s14-n3-cor-1 .statement}
+#### Corollaire {#alg-v-s14-n3-cor-1 .statement tag=06SB}
 
 Soient K, E et F trois corps tels que $K \subset E \subset F$. On a
 
@@ -215,7 +215,7 @@ $$
 
 ### 4. Prolongement d’isomorphismes
 
-#### Proposition 8 {#alg-v-s14-prop-8 .statement}
+#### Proposition 8 {#alg-v-s14-prop-8 .statement tag=06SC}
 
 Soient $\Omega$ une extension algébriquement close d’un corps K, E et F deux sous-extensions de $\Omega$, et u un K-isomorphisme de E sur F. Pour qu’il existe un K-automorphisme v de $\Omega$ prolongeant u, il faut et il suffit que $\Omega$ ait même degré de transcendance sur E et F.
 
@@ -223,23 +223,23 @@ La condition est évidemment nécessaire.
 
 Supposons donc que $\Omega$ ait même degré de transcendance par rapport à E et à F, et choisissons une base de transcendance B de $\Omega$ sur E et une base de transcendance C de $\Omega$ sur F. Comme B et C sont équipotentes, la prop. 2 (V, p. 102) montre que u se prolonge en un K-isomorphisme $u'$ de E(B) sur F(C). Comme $\Omega$ est une clôture algébrique de E(B) et de F(C), le cor. de V, p. 23, montre que $u'$ se prolonge en un automorphisme v de $\Omega$.
 
-#### Corollaire 1 {#alg-v-s14-prop-8-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s14-prop-8-cor-1 .statement tag=06SD}
 
 Soient $\Omega$ une extension algébriquement close d’un corps $K$ et $E$ une sous-extension de $\Omega$. Tout $K$-automorphisme de $E$ se prolonge en un $K$-automorphisme de $\Omega$.
 
-#### Corollaire 2 {#alg-v-s14-prop-8-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s14-prop-8-cor-2 .statement tag=06SE}
 
 Soient $\Omega$ une extension algébriquement close d’un corps $K$, $E$ et $F$ deux sous-extensions de $\Omega$ et $u$ un $K$-isomorphisme de $E$ sur $F$. Si le degré de transcendance de $E$ sur $K$ est fini (en particulier, si $E$ est algébrique sur $K$), il existe un $K$-automorphisme de $\Omega$ prolongeant $u$.
 
 Notons respectivement $n$, $d(E)$ et $d(F)$ le degré de transcendance de $E$ sur $K$, de $\Omega$ sur $E$ et de $\Omega$ sur $F$. L’existence du $K$-isomorphisme $u$ montre que le degré de transcendance de $F$ sur $K$ est égal à $n$. D’après le cor. du th. 4, le degré de transcendance de $\Omega$ sur $K$ est égal à $d(E) + n$ et aussi à $d(F) + n$. Par suite (E, III, p. 28, prop. 8), on a $d(E) = d(F)$, et l’on peut appliquer la prop. 8.
 
-#### Proposition 9 {#alg-v-s14-prop-9 .statement}
+#### Proposition 9 {#alg-v-s14-prop-9 .statement tag=06SF}
 
 Soient $K$ un corps et $\Omega$ une extension algébriquement close de $K$. On suppose que $\Omega$ n’est pas algébrique sur $K$. Alors, l’ensemble des éléments de $\Omega$ transcendants sur $K$ est infini. De plus, si $x$ et $y$ sont deux éléments de $\Omega$ transcendants sur $K$, il existe un automorphisme $u$ de $\Omega$ sur $K$ tel que $u(x) = y$.
 
 Comme $\Omega$ n’est pas algébrique sur $K$, il existe un élément $x$ de $\Omega$ transcendant sur $K$; alors les éléments $x^n$ (pour $n \in \mathbf{N}$) sont distincts et transcendants sur $K$. Supposons que $x$ et $y$ soient transcendants sur $K$; d’après la prop. 2 (V, p. 102), il existe un $K$-isomorphisme $\tilde{u}$ de $K(x)$ sur $K(y)$ tel que $\tilde{u}(x) = y$; comme $K(x)$ est de degré de transcendance 1 sur $K$, le cor. 2 de la prop. 8 montre que $\tilde{u}$ se prolonge en un $K$-automorphisme $u$ de $\Omega$.
 
-#### Proposition 10 {#alg-v-s14-prop-10 .statement}
+#### Proposition 10 {#alg-v-s14-prop-10 .statement tag=06SG}
 
 Soient $K$ un corps, $\Omega$ une extension algébriquement close de $K$ et $G$ le groupe des $K$-automorphismes de $\Omega$. Soit $x \in \Omega$.
 
@@ -257,28 +257,28 @@ Soit $L$ l’ensemble des éléments $y$ de $\Omega$ tels que $u(y) = y$ pour to
 
 ### 5. Extensions algébriquement disjointes
 
-#### Définition 5 {#alg-v-s14-def-5 .statement}
+#### Définition 5 {#alg-v-s14-def-5 .statement tag=06SH}
 
 Soient L une extension d’un corps K, E et F deux sous-extensions de L. On dit que E et F sont algébriquement disjointes (sur K) ou que E est algébriquement disjointe de F sur K si, pour toute partie A (resp. B) de E (resp. F) algébriquement libre sur K, A et B sont disjointes et $A \cup B$ est algébriquement libre sur K.
 
-#### Remarque 1 {#alg-v-s14-n5-rem-1 .statement}
+#### Remarque 1 {#alg-v-s14-n5-rem-1 .statement tag=06SI}
 
 Si E est une sous-extension de L algébrique sur K, elle est algébriquement disjointe de toute sous-extension F de L. Pour qu’une extension de K soit algébrique, il faut et il suffit qu’elle soit algébriquement disjointe d’elle-même.
 
-#### Remarque 2 {#alg-v-s14-n5-rem-2 .statement}
+#### Remarque 2 {#alg-v-s14-n5-rem-2 .statement tag=06SJ}
 
 Il se peut que E soit algébriquement disjointe de F sur K, mais non sur un sous-corps $K_0$ de K. \* Par exemple, C est algébriquement disjointe d’elle-même sur R mais non sur Q. \*
 
-#### Remarque 3 {#alg-v-s14-n5-rem-3 .statement}
+#### Remarque 3 {#alg-v-s14-n5-rem-3 .statement tag=06SK}
 
 Il est clair que si E est algébriquement disjointe de F sur K, quand on considère E et F comme des sous-extensions de L, il en est de même si on les considère comme des sous-extensions de $K(E \cup F)$, et réciproquement.
 
-#### Proposition 11 {#alg-v-s14-prop-11 .statement}
+#### Proposition 11 {#alg-v-s14-prop-11 .statement tag=06SL}
 
 Si E et F sont algébriquement disjointes sur K, alors $E \cap F$ est algébrique sur K.
 Cela résulte de la déf. 5.
 
-#### Proposition 12 {#alg-v-s14-prop-12 .statement}
+#### Proposition 12 {#alg-v-s14-prop-12 .statement tag=06SM}
 
 Soient L une extension d’un corps K, E et F des sous-extensions de L. Les conditions suivantes sont équivalentes :
 a) E et F sont algébriquement disjointes ;
@@ -292,13 +292,13 @@ b’) $\Rightarrow c$ : Supposons qu’il existe une base de transcendance C de 
 c’) $\Rightarrow a$ : cela résulte aussitôt de la prop. 4 (V, p. 103).
 On démontre de même les implications $a) \Rightarrow b) \Rightarrow c’) \Rightarrow a)$.
 
-#### Corollaire {#alg-v-s14-n5-cor-1 .statement}
+#### Corollaire {#alg-v-s14-n5-cor-1 .statement tag=06SN}
 
 Supposons que E et F soient algébriquement disjointes sur K. Soient E' la fermeture algébrique de E dans L et F' celle de F (V, p. 19). Alors E' et F' sont algébriquement disjointes sur K.
 
 Soit B une base de transcendance de E sur K ; c'est aussi une base de transcendance de E' sur K. Comme E est algébriquement disjointe de F sur K, B est algébriquement libre sur F, donc sur F' (V, p. 104, prop. 6) ; on applique alors la prop. 12.
 
-#### Proposition 13 {#alg-v-s14-prop-13 .statement}
+#### Proposition 13 {#alg-v-s14-prop-13 .statement tag=06SO}
 
 Soient L une extension d'un corps K, et E, F deux sous-extensions de L.
 
@@ -316,33 +316,33 @@ $$
 
 L'assertion b) résulte immédiatement de a) et de cette égalité.
 
-#### Proposition 14 {#alg-v-s14-prop-14 .statement}
+#### Proposition 14 {#alg-v-s14-prop-14 .statement tag=06SP}
 
 Soient L une extension d'un corps K, E et F deux sous-extensions de L et B une base de transcendance de E sur K. Pour que E et F soient algébriquement disjointes sur K, il faut et il suffit que les extensions K(B) et F soient linéairement disjointes sur K.
 
 Pour que E et F soient algébriquement disjointes sur K, il faut et il suffit que B soit une partie algébriquement libre sur F (prop. 12), c'est-à-dire que les monômes par rapport aux éléments de B soient linéairement indépendants sur F. Comme ces monômes forment une base du K-espace vectoriel K[B], il revient au même de dire que K[B] et F sont linéairement disjointes sur K. Enfin, comme K(B) est le corps des fractions de K[B], la prop. 6 de V, p. 14, montre que K[B] et F sont linéairement disjointes si et seulement s'il en est ainsi de K(B) et F.
 
-#### Corollaire 1 {#alg-v-s14-prop-14-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s14-prop-14-cor-1 .statement tag=06SQ}
 
 Si E et F sont linéairement disjointes, alors E est algébriquement disjointe de F sur K. Réciproquement, si E est une extension pure de K et si elle est algébriquement disjointe de F sur K, alors E et F sont linéairement disjointes sur K.
 
-#### Corollaire 2 {#alg-v-s14-prop-14-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s14-prop-14-cor-2 .statement tag=06SR}
 
 Toute extension pure de K est linéairement disjointe de toute extension algébrique de K ; en particulier, K est algébriquement fermé dans toute extension pure de K.
 
 ### 6. Familles algébriquement libres d’extensions
 
-#### Définition 6 {#alg-v-s14-def-6 .statement}
+#### Définition 6 {#alg-v-s14-def-6 .statement tag=06SS}
 
 Soient L une extension d’un corps K, et $(E_i)_{i \in I}$ une famille de sous-extensions de L. On dit que la famille $(E_i)_{i \in I}$ est algébriquement libre si la condition suivante est vérifiée :
 
 (AL) Soit pour tout $i \in I$ une partie $A_i$ de $E_i$ algébriquement libre sur K. On a alors $A_i \cap A_j = \varnothing$ pour $i \neq j$, et $\bigcup_{i \in I} A_i$ est algébriquement libre sur K.
 
-#### Remarque {#alg-v-s14-n6-rem-1 .statement}
+#### Remarque {#alg-v-s14-n6-rem-1 .statement tag=06ST}
 
 D’après la prop. 3 (V, p. 103), il suffit de vérifier la condition (AL) pour des parties $A_i$ finies. On en déduit le résultat suivant : si $(E_i)_{i \in I}$ est une famille algébriquement libre, il en est de même de $(E'_i)_{i \in I}$ si $E'_i$ est une sous-extension de $E_i$ pour tout $i \in I$; réciproquement, si toute famille $(E'_i)_{i \in I}$, où $E'_i$ est une sous-extension de type fini de $E_i$ pour tout $i \in I$, est algébriquement libre, alors $(E_i)_{i \in I}$ est algébriquement libre. D’autre part, pour que $(E_i)_{i \in I}$ soit algébriquement libre, il faut et il suffit que, pour toute partie finie J de I, $(E_i)_{i \in J}$ soit algébriquement libre. D’une manière imagée, on peut dire que l’indépendance algébrique des extensions est une propriété « de caractère fini ».
 
-#### Proposition 15 {#alg-v-s14-prop-15 .statement}
+#### Proposition 15 {#alg-v-s14-prop-15 .statement tag=06SU}
 
 Soit $(E_i)_{i \in I}$ une famille de sous-extensions d’une même extension L d’un corps K. Les conditions suivantes sont équivalentes :
 a) La famille $(E_i)_{i \in I}$ est algébriquement libre.
@@ -357,7 +357,7 @@ Plaçons-nous dans les hypothèses de b) et prouvons a). Il suffit de montrer qu
 
 La proposition suivante généralise la partie b) de la prop. 13 (V, p. 109).
 
-#### Proposition 16 {#alg-v-s14-prop-16 .statement}
+#### Proposition 16 {#alg-v-s14-prop-16 .statement tag=06SV}
 
 *Soit $(E_i)_{i \in I}$ une famille de sous-extensions d’une extension d’un corps $K$. Soit $E$ le corps engendré par $\bigcup_{i \in I} E_i$.*
 
@@ -373,7 +373,7 @@ Sous les hypothèses de b), $E$ est algébrique sur $K(B)$ et de degré de trans
 
 Avant d’énoncer le théorème suivant, remarquons qu’il existe des extensions algébriquement closes de $K$ de degré de transcendance arbitraire, par exemple une clôture algébrique d’un corps de fractions rationnelles convenable.
 
-#### Théorème 5 {#alg-v-s14-thm-5 .statement}
+#### Théorème 5 {#alg-v-s14-thm-5 .statement tag=06SW}
 
 *Soient $(E_i)_{i \in I}$ une famille d’extensions d’un corps $K$ et $\Omega$ une extension algébriquement close de $K$. On suppose vérifiée l’inégalité*
 
@@ -385,39 +385,39 @@ $$
 
 Pour tout $i \in I$, soit $B_i$ une base de transcendance de $E_i$ sur $K$. Soit $B$ une base de transcendance de $\Omega$ sur $K$. D’après (2), on a $\operatorname{Card} B \geq \sum_{i \in I} \operatorname{Card} B_i$ ; il existe donc une famille $(B'_i)_{i\in I}$ de parties de $B$, deux à deux disjointes, et des bijections $u_i : B_i \to B'_i$ (pour $i \in I$). D’après la prop. 2 de V, p. 102, $u_i$ se prolonge en un $K$-isomorphisme $v_i$ de $K(B_i)$ sur $K(B'_i)$; comme $\Omega$ est algébriquement close et $E_i$ algébrique sur $K(B_i)$, le cor. (V, p. 23) montre que $v_i$ se prolonge en un $K$-isomorphisme de $E_i$ sur une sous-extension $F_i$ de $\Omega$. Par construction, $B'_i$ est une base de transcendance de $F_i$ sur $K$, et la prop. 15 (V, p. 110) montre que la famille $(F_i)_{i\in I}$ de sous-extensions de $\Omega$ est algébriquement libre sur $K$.
 
-#### Corollaire 1 {#alg-v-s14-thm-5-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s14-thm-5-cor-1 .statement tag=06SX}
 
 *Soient $E$ et $\Omega$ deux extensions d’un corps $K$. On suppose que $\Omega$ est algébriquement close, de degré de transcendance au moins égal à celui de $E$. Alors $E$ est $K$-isomorphe à une sous-extension de $\Omega$*.
 
-#### Corollaire 2 {#alg-v-s14-thm-5-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s14-thm-5-cor-2 .statement tag=06SY}
 
 *Soit $\Omega$ un corps algébriquement clos de degré de transcendance infini sur son sous-corps premier. Tout corps de même caractéristique que $\Omega$ est réunion filtrante croissante de corps isomorphes à des sous-corps de $\Omega$.
 En effet, tout corps est réunion filtrante croissante de ses sous-corps de type fini sur le corps premier, et il suffit d’appliquer le cor. 1.
 
-#### Exemple {#alg-v-s14-n6-exa-1 .statement}
+#### Exemple {#alg-v-s14-n6-exa-1 .statement tag=0DI6}
 
 *Cela s’applique notamment en caractéristique 0 en prenant $\Omega = \mathbf{C}$ (« principe de Lefschetz »). \*
 
 ### 7. Extensions de type fini
 
-#### Proposition 17 {#alg-v-s14-prop-17 .statement}
+#### Proposition 17 {#alg-v-s14-prop-17 .statement tag=06SZ}
 
 *Soient $E$ une extension d’un corps $K$ et $B$ une base de transcendance de $E$ sur $K$. Pour que $E$ soit de type fini (V, p. 11, déf. 2) sur $K$, il faut et il suffit que $B$ soit finie et que le degré $[E : K(B)]$ soit fini.*
 Supposons $E$ de type fini sur $K$ et soit $S$ une partie finie de $E$ telle que $E = K(S)$. D’après le th. 2 (V, p. 105), $S$ contient une base de transcendance $B'$ de $E$ sur $K$, et celle-ci a même cardinal que $B$ (V, p. 105, th. 3). Par suite, $B$ est finie. Posons $K' = K(B)$; alors $E$ est algébrique sur $K'$ et l’on a $E = K'(S)$; comme $S$ est finie, le th. 2 de V, p. 17, montre que $[E : K']$ est fini.
 Réciproquement, supposons $B$ finie et $[E : K(B)]$ fini. Si $C$ est une base (finie) de l’espace vectoriel $E$ sur le corps $K(B)$, on a $E = K(B)(C) = K(B \cup C)$ et $E$ est une extension de type fini de $K$.
 
-#### Corollaire 1 {#alg-v-s14-prop-17-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s14-prop-17-cor-1 .statement tag=06T0}
 
 *Supposons que $E$ soit une extension de type fini de $K$, et notons $K'$ la fermeture algébrique de $K$ dans $E$ (V, p. 19). Alors $K'$ est de degré fini sur $K$.
 Soit $B$ une base de transcendance de $E$ sur $K$. D’après le cor. 2 de V, p. 110, $K'$ est linéairement disjointe de $K(B)$ sur $K$, d’où $[K' : K] = [K'(B) : K(B)] \leq [E : K(B)]$, et la finitude de $[K' : K]$ résulte de celle de $[E : K(B)]$.*
 
-#### Corollaire 2 {#alg-v-s14-prop-17-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s14-prop-17-cor-2 .statement tag=06T1}
 
 Un corps de type fini sur son sous-corps premier ne contient qu’un nombre fini de racines de l’unité.
 
 D’après le cor. 1, on est ramené à démontrer qu’un corps L qui est une extension de degré fini de son sous-corps premier ne possède qu’un nombre fini de racines de l’unité. C’est clair si L est de caractéristique $\neq 0$, puisqu’il est alors fini. Si L est de caractéristique 0, et contient une infinité de racines de l’unité, il contient des racines primitives de l’unité d’ordre arbitrairement grand ; d’après V, p. 80, th. 2, il existe donc une infinité d’entiers $n > 0$ tels que $\varphi(n) \leq [L : Q]$, ce qui est absurde (V, p. 77, formules (2) et (3)).
 
-#### Corollaire 3 {#alg-v-s14-prop-17-cor-3 .statement}
+#### Corollaire 3 {#alg-v-s14-prop-17-cor-3 .statement tag=06T2}
 
 Si E est une extension de type fini d’un corps K, toute sous-extension E’ de E est de type fini.
 

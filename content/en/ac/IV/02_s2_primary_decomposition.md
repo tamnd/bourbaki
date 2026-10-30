@@ -37,14 +37,14 @@ subsections:
       pdf_page: 299
 statements: 39
 exercises: 35
-content_sha256: 5e54164fb2351677b3509552b100c892a84931de0ab425eb7ac92344759deda0
+content_sha256: 412a1eb43c414ef74369ccfcd275c3769490e226305405794c9a0f41eee4ebea
 ---
 
 ## 2. PRIMARY DECOMPOSITION
 
 ### 1. PRIMARY S BMODULES
 
-#### Proposition 1 {#ac-iv-s2-prop-1 .statement}
+#### Proposition 1 {#ac-iv-s2-prop-1 .statement tag=04KE}
 
 Let $A$ be a Noetherian ring and $M$ an $A$-module. The following conditions are equivalent:
 (a) $\operatorname{Ass}(M)$ is reduced to a single element.
@@ -53,7 +53,7 @@ Let $A$ be a Noetherian ring and $M$ an $A$-module. The following conditions are
 
 This follows immediately from $§ 1$, no. 4, Corollary to Proposition 9 and no. 1, Corollary 2 to Proposition 2.
 
-#### Definition 1 {#ac-iv-s2-def-1 .statement}
+#### Definition 1 {#ac-iv-s2-def-1 .statement tag=04KF}
 
 *Let $A$ be a Noetherian ring, $N$ an $A$-module and $Q$ a submodule of $N$. *If* the module $M = N/Q$ satisfies the conditions of Proposition 1, $Q$ is called *p-primary with respect to* $N$ (or *in* $N$).
 
@@ -61,33 +61,33 @@ When there is no ambiguity, we shall simply say that $Q$ is "p-primary" or "prim
 
 Definition 1 applies in particular to the case $N = A$; the submodules of $N$ are then the *ideals* of $A$ and hence an ideal $q$ of $A$ is called *primary* if $\operatorname{Ass}(A/q)$ has a single element or, what amounts to the same, if $A \neq q$ and every divisor of zero in the ring $A/q$ is *nilpotent*. If $q$ is p-primary, it follows from Definition 1 that $p$ is the *radical* (Chapter II, $§ 2$, no. 6) of the ideal $q$.
 
-#### Remark {#ac-iv-s2-n1-rem-1 .statement}
+#### Remark {#ac-iv-s2-n1-rem-1 .statement tag=04KG}
 
 Let $q$ be a p-primary submodule of an $A$-module $N$. If $N/Q$ is *finitely generated*, there exists an integer $k > 0$ such that $p^k N \subset Q$ by $§ 1$, no. 4, Proposition 9.
 
 *Examples*
 
-#### Example 1 {#ac-iv-s2-n1-exa-1 .statement}
+#### Example 1 {#ac-iv-s2-n1-exa-1 .statement tag=04KH}
 
 If $p$ is a prime ideal of $A$, $p$ is p-primary ($§ 1$, no. 1, Proposition 1).
 
-#### Example 2 {#ac-iv-s2-n1-exa-2 .statement}
+#### Example 2 {#ac-iv-s2-n1-exa-2 .statement tag=04KI}
 
 Let $q$ be an ideal of $A$ such that there exists *a single* prime ideal $m$ (necessarily maximal) containing $q$; then, if $M$ is an $A$-module such that $qM \neq M$, $qM$ is *m-primary* with respect to $M$. For every element of $\operatorname{Ass}(M/qM)$ contains $q$, hence is equal to $m$ and $\operatorname{Ass}(M/qM) \neq 0$ ($§ 1$, no. 1, Corollary 1 to Proposition 2). In particular $q$ is an *m-primary* ideal in $A$.
 
-#### Example 3 {#ac-iv-s2-n1-exa-3 .statement}
+#### Example 3 {#ac-iv-s2-n1-exa-3 .statement tag=04KJ}
 
 Let $m$ be a *maximal* ideal of $A$; the m-primary ideals are then the ideals $q$ of $A$ for which there exists an integer $n \geq 1$ such that $m^n \subset q \subset m$. For if $m^n \subset q \subset m$, $m$ is the only prime ideal containing $q$ (Chapter 11, $§ 1$, no. 1, Corollary to Proposition 1) and the conclusion follows from *Example 2*; conversely, if $q$ is m-primary, $m$ is the radical of $q$ and there therefore exists $n \geq 1$ such that $m^n \subset q$ (Chapter II, $§ 2$, no. 6, Proposition 15).
 
-#### Example 4 {#ac-iv-s2-n1-exa-4 .statement}
+#### Example 4 {#ac-iv-s2-n1-exa-4 .statement tag=04KK}
 
 In a *principal ideal domain* $A$, the primary ideals are $(0)$ and the ideals of the form $Ap^n$, where $p$ is an extremal element and $n \geq 1$; this follows immediately from *Example 3*.
 
-#### Example 5 {#ac-iv-s2-n1-exa-5 .statement}
+#### Example 5 {#ac-iv-s2-n1-exa-5 .statement tag=04KL}
 
 The powers of any prime ideal are not necessarily primary ideals (Exercise 1). On the other hand, there exist primary ideals which are not powers of prime ideals (Exercise 1).
 
-#### Proposition 2 {#ac-iv-s2-prop-2 .statement}
+#### Proposition 2 {#ac-iv-s2-prop-2 .statement tag=04KM}
 
 Let M be a module over a Noetherian ring A, p a prime ideal of A and $(\mathscr{Q}_i)_{i \in I}$ a non-empty finite family of submodules of M which are p-primary with respect to M. Then $\bigcap_{i \in I} \mathscr{Q}_i$ is p-primary with respect to M.
 
@@ -99,7 +99,7 @@ $$
 
 (§ 1, no. 1, Corollary 1 to Proposition 3). Hence $\operatorname{Ass}\left(M / (\bigcap_{i \in I} \mathscr{Q}_i)\right) = \{p\}$ (§ 1, no. 1, Proposition 3 and Corollary 1 to Proposition 2).
 
-#### Proposition 3 {#ac-iv-s2-prop-3 .statement}
+#### Proposition 3 {#ac-iv-s2-prop-3 .statement tag=04KN}
 
 Let A be a Noetherian ring, S a multiplicative subset of A, p a prime ideal of A, M an A-module, N a submodule of M and $i = i_A^S$ the canonical mapping of M to $S^{-1}M$.
 
@@ -119,11 +119,11 @@ $$
 
 ### 2. THE EXISTENCE OF A PRIMARY DECOMPOSITION
 
-#### Definition 2 {#ac-iv-s2-def-2 .statement}
+#### Definition 2 {#ac-iv-s2-def-2 .statement tag=04KO}
 
 Let $A$ be a Noetherian ring, $M$ an $A$-module and $N$ a submodule of $M$. A finite family $(\mathscr{Q}_i)_{i \in I}$ of submodules of $M$ which are primary with respect to $M$ and such that $N = \bigcap_{i \in I} \mathscr{Q}_i$ is called a primary decomposition of $N$ in $M$.
 
-#### Example {#ac-iv-s2-n2-exa-1 .statement}
+#### Example {#ac-iv-s2-n2-exa-1 .statement tag=04KP}
 
 Let us take $A = \mathbf{Z}$, $M = \mathbf{Z}$, $N = n\mathbf{Z}$ for some integer $n > 0$. If $n = p_1^{\alpha_1} \cdots p_k^{\alpha_k}$ is the decomposition of $n$ into prime factors,
 $$
@@ -133,7 +133,7 @@ is a primary decomposition of $n\mathbf{Z}$ in $\mathbf{Z}$ by Example 4 of no. 
 
 By an abuse of language, the relation $N = \bigcap_{i \in I} \mathscr{Q}_i$ is called a primary decomposition of $N$ in $M$. It amounts to the same to say that $\{0\} = \bigcap_{i \in I} (\mathscr{Q}_i/N)$ is a primary decomposition of $\{0\}$ in $M/N$. If $(\mathscr{Q}_i)_{i \in I}$ is a primary decomposition of $N$ in $M$, the canonical mapping from $M/N$ to $\bigoplus_{i \in I} (M/\mathscr{Q}_i)$ is injective. Conversely let $N$ be a submodule of $M$ and $f$ an injective homomorphism from $M/N$ to a finite direct sum $P = \bigoplus_{i \in I} P_i$, where each set $\operatorname{Ass}(P_i)$ is reduced to a single element $p_i$; let $f_i$ be the homomorphism $M/N \to P_i$ obtained by taking the composition off with the projection $P \to P_i$, and let $Q_i/N$ be the kernel off.; then the $Q_i$ distinct from $M$ are primary with respect to $M$ (no. 1, Definition 1) and $N = \bigcap_{i \in I} Q_i$. Moreover, $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ by virtue of § 1, no. 1, Proposition 3.
 
-#### Theorem 1 {#ac-iv-s2-thm-1 .statement}
+#### Theorem 1 {#ac-iv-s2-thm-1 .statement tag=04KQ}
 
 Let $M$ be a finitely generated module over a Noetherian ring and let $N$ be a submodule of $M$. There exists a primary decomposition of $N$ of the form
 $$
@@ -145,7 +145,7 @@ We may replace $M$ by $M/N$ and therefore suppose that $N = 0$. By § 1, no. 4, 
 
 ### 3. UNIQUENESS PROPERTIES IN THE PRIMARY DECOMPOSITION
 
-#### Definition 3 {#ac-iv-s2-def-3 .statement}
+#### Definition 3 {#ac-iv-s2-def-3 .statement tag=04KR}
 
 Let $M$ be a module over a Noetherian ring and $N$ a submodule of $M$. A primary decomposition $N = \bigcap_{i \in I} Q_i$ of $N$ in $M$ is called reduced if the following conditions are fulfilled:
 
@@ -157,7 +157,7 @@ From every primary decomposition $N = \bigcap_{i \in I} Q_i$ of $N$ in $M$ a *re
 
 We shall see that the primary decomposition defined in the proof of Theorem 1 of no. 2 is *reduced*; this follows from the following proposition:
 
-#### Proposition 4 {#ac-iv-s2-prop-4 .statement}
+#### Proposition 4 {#ac-iv-s2-prop-4 .statement tag=04KS}
 
 *Let* $M$ *be a module over a Noetherian ring, N a submodule of M, $N = \bigcap_{i \in I} Q_i$ *a primary decomposition of N in M and, for all* $i \in I$, *let* $\{p_i\} = \operatorname{Ass}(M/Q_i)$. *For this decomposition to be reduced, it is necessary and sufficient that the* $p_i$ *be distinct and belong to* $\operatorname{Ass}(M/N)$; *then*
 
@@ -176,19 +176,19 @@ $$
 \operatorname{Ass}(Q_i/N) \subset \bigcup_{j \neq i} \{p_j\};
 $$
 
-#### Corollary {#ac-iv-s2-n3-cor-1 .statement}
+#### Corollary {#ac-iv-s2-n3-cor-1 .statement tag=04KT}
 
 Let $A$ be a Noetherian ring, $M$ an $A$-module, $N$ a submodule of $M$ and $(Q_i)_{i \in I}$ a primary decomposition of $N$ in $M$. Then $\mathrm{Card}(I) \geq \mathrm{Card}(\mathrm{Ass}(M/N))$; for $(Q_i)_{i \in I}$ to be a reduced primary decomposition, it is necessary and sufficient that $\mathrm{Card}(I) = \mathrm{Card}(\mathrm{Ass}(M/N))$.
 
 It follows from the remarks preceding Proposition 4 that there exists a reduced primary decomposition $(R_j)_{j \in J}$ of $N$ in $M$ such that $\mathrm{Card}(J) \leq \mathrm{Card}(I)$; the first assertion then follows from the second and the latter is a consequence of Proposition 4.
 
-#### Proposition 5 {#ac-iv-s2-prop-5 .statement}
+#### Proposition 5 {#ac-iv-s2-prop-5 .statement tag=04KU}
 
 Let $A$ be a Noetherian ring, $M$ an $A$-module, $N$ a submodule of $M$, $N = \bigcap_{i \in I} Q_i$ a reduced primary decomposition of $N$ in $M$ and, for all $i \in I$, let $\{p_i\} = \mathrm{Ass}(M/Q_i)$. If $p_i$ is a minimal element of $\mathrm{Ass}(M/N)$, $Q_i$ is equal to the saturation on $N$ with respect to $p_i$ (Chapter 11, § 2, no. 4) (cf. Exercise 2).
 
 We can obviously restrict our attention to the case where $N = 0$, replacing if need be $M$ by $M/N$. If $p_i$ is minimal in $\mathrm{Ass}(M)$, the set of elements of $\mathrm{Ass}(M)$ which do not meet $A - p_i$ reduces to $p_i$; the proposition then follows from formula (3) above and § 1, no. 2, Proposition 6, the kernel of the canonical mapping $M \to M_0$, being equal to the saturation of 0 with respect to $p_i$ (Chapter 11, § 2, no. 4).
 
-#### Remark {#ac-iv-s2-n3-rem-1 .statement}
+#### Remark {#ac-iv-s2-n3-rem-1 .statement tag=04KV}
 
 The prime ideals $p_i \in \mathrm{Ass}(M/N)$ which are not minimal elements of this set are sometimes called the *immersed* prime ideals associated with $M/N$; if $M/N$ is finitely generated, for $p_0 \in \mathrm{Ass}(M/N)$ to be immersed, it is necessary and sufficient that $V(p_0)$ *be not* an irreducible component of $\mathrm{Supp}(M/N)$ (Chapter II, § 4, no. 3, Corollary 2 to Proposition 14); if $(Q(p))_{p \in \mathrm{Ass}(M/N)}$ and $(Q'(p))_{p \in \mathrm{Ass}(M/N)}$ are two reduced primary decompositions of $N$ in $M$, it may be that $Q'(p_0) \neq Q(p_0)$ (Exercise 24 (c)); a *canonical* reduced primary decomposition of $N$ in $M$ may always be defined by imposing supplementary condition on the primary submodules which appear in it (Exercise 4).
 
@@ -196,7 +196,7 @@ The prime ideals $p_i \in \mathrm{Ass}(M/N)$ which are not minimal elements of t
 
 Given a submodule $N$ of a module $M$ over a Noetherian ring $A$, to simplify we shall denote by $D_I(M/N)$, in this no., the set of reduced primary decompositions of $N$ in $M$ whose indexing set is $I$ (equipotent to $\mathrm{Ass}(M/N)$).
 
-#### Proposition 6 {#ac-iv-s2-prop-6 .statement}
+#### Proposition 6 {#ac-iv-s2-prop-6 .statement tag=04KW}
 
 Let $A$ be a Noetherian ring, $M$ an $A$-module, $N$ a submodule of $M$ and $I = \mathrm{Ass}(M/N)$. Let $S$ be a multiplicative subset of $A$ and $J$ the subset of $I$ consisting of the indices i such that $S \cap p_i = \varnothing$. Let $N'$ be the saturation of $N$ with respect to $S$ in $M$. Then:
 
@@ -218,7 +218,7 @@ $$
 
 and it follows immediately from no. 3, Corollary to Proposition 4 that this primary decomposition is reduced.
 
-#### Corollary {#ac-iv-s2-n4-cor-1 .statement}
+#### Corollary {#ac-iv-s2-n4-cor-1 .statement tag=04KX}
 
 *The mappings*
 
@@ -238,7 +238,7 @@ is surjective.
 
 If an $A$-module $M$ is of finite length, we shall denote this length by $\operatorname{long}_A(M)$ or $\operatorname{long}(M)$. Recall that every Artinian ring is Noetherian (Algebra, Chapter VIII, § 6, no. 5, Corollary 3 to Proposition 12) and that every finitely generated module over an Artinian ring is of finite length (*loc. cit.*, Corollary 1 to Proposition 12). Moreover, every Artinian integral domain is a field (Algebra, Chapter VIII, § 6, no. 4, Proposition 9).
 
-#### Proposition 7 {#ac-iv-s2-prop-7 .statement}
+#### Proposition 7 {#ac-iv-s2-prop-7 .statement tag=04KY}
 
 *Let $M$ be a finitely generated module over a Noetherian ring $A$. The following properties are equivalent:*
 (a) $M$ is of finite length.
@@ -247,23 +247,23 @@ If an $A$-module $M$ is of finite length, we shall denote this length by $\opera
 
 Let $(M_i)_{0 \leq i \leq n}$ be a composition series of $M$ such that, for $0 \leq i \leq n - 1$, $M_i/M_{i+1}$ is isomorphic to $A/p_i$, where $p_i$ is prime ($§ 1$, no. 4, Theorem 1). If $M$ is of finite length, so is each of the $A$-modules $A/p_i$, which implies that each of the rings $A/p_i$ is Artinian; but as $A/p_i$ is an integral domain, it is therefore a field, in other words $p_i$ is maximal; we conclude that (a) implies (b) ($§ 1$, no. 4, Theorem 2). Condition (b) implies (c) by $§ 1$, no. 3, Proposition 7. Finally, if all the ideals of $\operatorname{Supp}(M)$ are maximal, so are the $p_i$ ($§ 1$, no. 4, Theorem 2), hence the $A/p_i$ are simple $A$-modules and $M$ is of finite length, which completes the proof.
 
-#### Corollary 1 {#ac-iv-s2-prop-7-cor-1 .statement}
+#### Corollary 1 {#ac-iv-s2-prop-7-cor-1 .statement tag=04KZ}
 
 *For every module of finite length $M$ over a Noetherian Zing $A$, $\operatorname{Ass}(M) = \operatorname{Supp}(M)$.*
 
 Every element of $\operatorname{Supp}(M)$ is then minimal in $\operatorname{Supp}(M)$ and the conclusion follows from $§ 1$, no. 3, Corollary 1 to Proposition 7.
 
-#### Corollary 2 {#ac-iv-s2-prop-7-cor-2 .statement}
+#### Corollary 2 {#ac-iv-s2-prop-7-cor-2 .statement tag=04L0}
 
 *Let $M$ be a finitely generated module over a Noetherian ring $A$ and $p$ a prime ideal of $A$. For $M_p$ to be a non-zero $A_p$-module of finite length, it is necessary and sufficient that $p$ be a minimal element of $\operatorname{Ass}(M)$.*
 
 By $§ 1$, no. 2, Corollary to Proposition 5, $\operatorname{Ass}_{A_p}(M_p)$ is the set of ideals $q_p$, where $q$ runs through the set of ideals of $\operatorname{Ass}(M)$ which are contained in $p$. On the other hand, $p_p$ is the unique maximal ideal of $A_p$; by Proposition 7, for $M_p$ to be an $A_p$-module of finite length, it is necessary and sufficient that no element of $\operatorname{Ass}(M)$ be strictly contained in $p$. On the other hand, for $M_p \neq 0$, it is necessary and sufficient by definition that $p \in \operatorname{Supp}(M)$ (Chapter 11, § 4, no. 4), that is that $p$ contain an element of $\operatorname{Ass}(M)$ ($§ 1$, no. 3, Proposition 7). This proves the corollary.
 
-#### Remark (1) {#ac-iv-s2-n5-rem-1 .statement}
+#### Remark (1) {#ac-iv-s2-n5-rem-1 .statement tag=04L1}
 
 Let $M$ be a finitely generated module over a Noetherian ring $A$; let $(M_1), \ldots$ be a composition series of $M$ such that, for $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ is isomorphic to $A/p_i$, where $p_i$ is a prime ideal of $A$ ($§ 1$, no. 4, Theorem 1). If $p$ is a minimal element of $\operatorname{Ass}(M)$, the length $\operatorname{long}_{A_p}(M_p)$ is equal to the *number of indices* $i$ such that $p_i = p$. For the $(M_i)_p$ form a composition series of $M$, and $(M_i)_p / (M_{i+1})_p$ is isomorphic to $(A/p_i)_p$ and hence to $\{0\}$ if $p_i \neq p$ (since $p$ is minimal in the set of $p_i$ by $§ 1$, no. 4, Theorem 2) and to $(A/p)_p$ which is a field, if $p_i = p$.
 
-#### Proposition 8 {#ac-iv-s2-prop-8 .statement}
+#### Proposition 8 {#ac-iv-s2-prop-8 .statement tag=04L2}
 
 *Let $M$ be a module of finite length over a Noetherian ring $A$.*
 
@@ -277,7 +277,7 @@ Let $M$ be a finitely generated module over a Noetherian ring $A$; let $(M_1), \
 
 As every element $p \in \operatorname{Ass}(M)$ is minimal in $\operatorname{Ass}(M)$ (Proposition 7), assertion (i) follows from no. 3, Proposition 5. As $M$ is finitely generated, there exists $n_0$ such that $p^n M \subset Q(p)$ for all $p \in \operatorname{Ass}(M)$ and all $n \geq n_0$ (no. 1, *Remark*); but as $p$ is a maximal ideal, $p^n M$ is $p$-primary with respect to $M$ (no. 1, *Examples 2 and 3*) and, as $\bigcap_{p \in \operatorname{Ass}(M)} p^n M = \{0\}$, it follows from (i) that necessarily $p^n M = Q(p)$ for all $p \in \operatorname{Ass}(M)$; whence (ii). As the $p^n$, for $p \in \operatorname{Ass}(M)$, are relatively prime in pairs (Chapter 11, § 1, no. 2, Proposition 3), the canonical mapping $M \to \bigoplus_{p \in \operatorname{Ass}(M)} (M/p^n M)$ is surjective (Chapter 11, § 1, no. 2, Proposition 6), whence (iv). Then $\operatorname{Ass}(Q(p)) = \operatorname{Ass}(M) - \{p\}$ and $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 3, Proposition 4); as the elements of $\operatorname{Ass}(M)$ are maximal ideals, $p$ is the only element of $\operatorname{Ass}(M)$ which does not meet $A - p$; $Q(p)$ is therefore the kernel of the canonical mapping $j : M \to M_p$ ($§ 1$, no. 2, Proposition 6). If $s \in A - p$, the homothety of $M/Q(p)$ with ratio $s$ is injective by virtue of the relation $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 1, Proposition 1); since $M/Q(p)$ is Artinian, this homothety is bijective (*Algebra*, Chapter VIII, § 1, no. 2, Lemma 3). The canonical mapping $M \to M/Q(p)$ is then written $f \circ j$, where $f : M_p \to M/Q(p)$ is an $A$-homomorphism (Chapter II, § 2, no. 2, Proposition 3); as $\operatorname{Ker}(j) = \operatorname{Ker}(f \circ j) = Q(p)$, $f$ is injective; we conclude that $j$ is surjective and $f$ bijective.
 
-#### Corollary {#ac-iv-s2-n5-cor-1 .statement}
+#### Corollary {#ac-iv-s2-n5-cor-1 .statement tag=04L3}
 
 *If M is a module of finite length over a Noetherian ring A, then*
 
@@ -293,7 +293,7 @@ $$
 
 Now, it follows from Proposition 1 of no. 1 that for all $s \in A - p$ the homothety with ratio s on $M/\mathscr{Q}(p)$ is injective; the homothety with ratio s on every submodule R of $M/\mathscr{Q}(p)$ is therefore injective and, as R is Artinian, it is bijective (*Algebra*, Chapter VIII, § 2, no. 2, Lemma 3); we conclude that the sub-A-modules of $M/\mathscr{Q}(p)$ are the images under the bijection $f : M, \to M/\mathscr{Q}(p)$ of the sub-A,-modules of M, (Chapter 11, § 2, no. 3), whence our assertion.
 
-#### Proposition 9 {#ac-iv-s2-prop-9 .statement}
+#### Proposition 9 {#ac-iv-s2-prop-9 .statement tag=04L4}
 
 *Let A be a Noetherian ring. The following conditions are equivalent :*
 (a) *A is Artinian.*
@@ -306,21 +306,21 @@ To say that A is Artinian is equivalent to saying that A is an A-module of finit
 
 Suppose they hold. As every prime ideal of A belongs to Supp(A) and every element of Supp(A) contains an element of Ass(A) ($\S$ 1, no. 3, Proposition 7), it follows from (c) that Ass(A) is the set of all prime ideals of A; then A has only a finite number of prime ideals, all of them maximal and associated with the A-module A. This obviously implies that A is semi-local; finally, we know that the Jacobson radical of an Artinian ring is nilpotent (*Algebra*, Chapter VIII, § 6, no. 4, Theorem 3).
 
-#### Remark (2) {#ac-iv-s2-n5-rem-2 .statement}
+#### Remark (2) {#ac-iv-s2-n5-rem-2 .statement tag=04L5}
 
 The conditions of Proposition 9 for a *Noetherian* ring A imply that the spectrum of A is *finite* and *discrete*, every point of Spec(A) being therefore closed (Chapter 11, § 4, no. 3, Corollary 6 to Proposition 11). Conversely, for a *Noetherian* ring A, to say that *every point* $\mathfrak{a}$ of Spec(A) *is closed* means that every prime ideal of A is maximal (*loc. cit.*.) and hence this condition is equivalent to that of Proposition 9.
 
-#### Corollary 1 {#ac-iv-s2-prop-9-cor-1 .statement}
+#### Corollary 1 {#ac-iv-s2-prop-9-cor-1 .statement tag=04L6}
 
 *Every Artinian ring A is isomorphic to the direct composition of a finite family of Artinian local rings.*
 
 It follows from Proposition 9 and Proposition 8 (iii) and (iv) that, if $(\mathfrak{m}_i)_{1 \leq i \leq n}$ is the family of maximal ideals of $A$, the canonical mapping $A \to \prod_i A_{\mathfrak{m}_i}$ is bijective.
 
-#### Remark (3) {#ac-iv-s2-n5-rem-3 .statement}
+#### Remark (3) {#ac-iv-s2-n5-rem-3 .statement tag=04L7}
 
 This corollary can also be deduced from the fact that $\operatorname{Spec}(A)$ is finite and discrete and Chapter 11, § 4, no. 3, Proposition 15.
 
-#### Corollary 2 {#ac-iv-s2-prop-9-cor-2 .statement}
+#### Corollary 2 {#ac-iv-s2-prop-9-cor-2 .statement tag=04L8}
 
 Let $A$ be a Noetherian ring and $m$ an ideal of $A$. The following conditions are equivalent:
 
@@ -329,25 +329,25 @@ Let $A$ be a Noetherian ring and $m$ an ideal of $A$. The following conditions a
 
 If (a) holds, $A$ is a Zariski ring with the $m$-adic topology (Chapter III, § 3, no. 3, Example 3); further, as by hypothesis $m$ contains a power of the Jacobson radical $r$ of $A$, every prime ideal of $A$ which contains $m$ also contains $r$ (Chapter II, § 1, no. 1, Proposition 1); it is therefore maximal, since $r$ is a finite intersection of maximal ideals (\emph{loc. cit.}); Proposition 9 then shows that $A/m$ is Artinian. Conversely, if (b) holds, every maximal ideal $p$ of $A$ contains the Jacobson radical of $A$ and hence contains $m$ (Chapter III, § 3, no. 3, Proposition 6); as $A/m$ is Artinian, the ideals $p/m$ are finite in number (Proposition 9) and hence $A$ has only a finite number of maximal ideals, which implies that it is semi-local.
 
-#### Corollary 3 {#ac-iv-s2-prop-9-cor-3 .statement}
+#### Corollary 3 {#ac-iv-s2-prop-9-cor-3 .statement tag=04L9}
 
 Let $A, A'$ be two rings and $h$ a homomorphism from $A$ to $A'$. Suppose that $A$ is semi-local and Noetherian and that $A'$ is a finitely generated $A$-module. Then the ring $A'$ is semi-local and Noetherian; if $m$ is a defining ideal of $A$, $mA'$ is a defining ideal of $A'$.
 
 We know that $A'$ is a Zariski ring with the $mA'$-adic topology (Chapter III, § 3, no. 3, Proposition 7). As $A/m$ is Artinian (Corollary 2) and $A'/mA'$ is a finitely generated $(A/m)$-module, $A'/mA'$ is an Artinian ring, hence $A'$ is semi-local and $mA'$ is a defining ideal of $A'$ (Corollary 2).
 
-#### Corollary 4 {#ac-iv-s2-prop-9-cor-4 .statement}
+#### Corollary 4 {#ac-iv-s2-prop-9-cor-4 .statement tag=04LA}
 
 Let $A$ be a complete semi-local Noetherian ring, $m$ a defining ideal of $A$, $E$ a finitely generated $A$-module and $(F_n)$ a decreasing sequence of submodules of $E$ such that $\bigcap_n F_n = 0$. Then, for all $p > 0$, there exists $n > 0$ such that $F_n \subset m^p E$.
 
 As $A$ is a Zariski ring, $E$ is Hausdorff and the $F_n$ are closed under the $m$-adic topology. On the other hand, $E$ is complete (Chapter III, § 2, no. 12, Corollary 1 to Proposition 16). Finally, $E/m^p E$ is a finitely generated module over the ring $A/m^p$, which is Artinian (Corollary 2); then $E/m^p E$ is an Artinian $(A/m^p)$-module and hence an Artinian $A$-module. The corollary then follows from Chapter III, § 2, no. 7, Proposition 8.
 
-#### Corollary 5 {#ac-iv-s2-prop-9-cor-5 .statement}
+#### Corollary 5 {#ac-iv-s2-prop-9-cor-5 .statement tag=04LB}
 
 In a complete semi-local Noetherian ring every decreasing sequence $\phi$ ideals whose intersection is 0 is a filter base which converges to 0.
 
 It is sufficient to apply Corollary 4 to the A-module $\mathbf{A}$.
 
-#### Proposition 10 {#ac-iv-s2-prop-10 .statement}
+#### Proposition 10 {#ac-iv-s2-prop-10 .statement tag=04LC}
 
 Let $A$ be a Noetherian ring and $p_1, \ldots, p_n$ the prime ideals associated with the A-module $A$, where $p_i \neq p_j$ for $i \neq j$.
 
@@ -365,13 +365,13 @@ Suppose finally that the ring $A$ is reduced. Then $\bigcap_{i=1}^n p_i = \{0\}$
 
 In this no., A and B will denote two rings and we shall consider a ring homomorphism $\rho : A \to B$ which makes $B$ into an A-algebra; recall that, for every B-module F, $\rho_*(F)$ is the commutative group F with the A-module structure defined by $a.y = \rho(a)y$ for all $a \in A, y \in F$.
 
-#### Lemma 1 {#ac-iv-s2-lem-1 .statement}
+#### Lemma 1 {#ac-iv-s2-lem-1 .statement tag=04LD}
 
 Let A be a Noetherian ring, $p$ a prime ideal of A, E an A-module whose annihilator contains a power of $p$ and such that $\operatorname{Ass}(E) = \{p\}$ and F a B-module such that $\rho_*(F)$ is a flat A-module. The condition $\mathfrak{P} \in \operatorname{Ass}_B(E \otimes_A F)$ then implies $\rho^{-1}(\mathfrak{P}) = p$.
 
 If n is such that $p^nE = 0$, then $p^nB \subset \operatorname{Ann}(E \otimes_A F)$, whence $p^nB \subset \mathfrak{P}$, which implies $p^n \subset \rho_1(\mathfrak{P})$ and therefore $p \subset \rho_1(\mathfrak{P})$ since $\rho_1(\mathfrak{P})$ is prime. Moreover, if $a \in A - p$, the homothety h with ratio a on E is injective ($§ 1$, no. 1, Corollary 2 to Proposition 2); as $h \otimes 1_F$ is the homothety $h'$ with ratio $\rho(a)$ on $E \otimes_A F$ and $\rho_*(F)$ is flat, $h'$ is injective (Chapter I, § 2, no. 2, Definition 1); this proves that $\rho(a) \notin \mathfrak{P}$, whence $\rho^{-1}(\mathfrak{P}) = p$.
 
-#### Theorem 2 {#ac-iv-s2-thm-2 .statement}
+#### Theorem 2 {#ac-iv-s2-thm-2 .statement tag=04LE}
 
 Let $\rho : A \to B$ be a ring homomorphism, E an A-module and F a B-module such that $\rho_*(F)$ is a flat A-module. Then
 
@@ -417,17 +417,17 @@ But $E_i$ is a finitely generated A-module such that $\operatorname{Ass}_A(E_i)$
 
 (iii) *General case.* The B-module $E \otimes_A F$ is the union of the submodules $E' \otimes_A F$, where $E'$ runs through the set of finitely generated submodules of the A-module E. If $\mathfrak{P}$ belongs to $\operatorname{Ass}_B(E \otimes_A F)$, then there exists a finitely generated submodule $E'$ of E such that $\mathfrak{P} \in \operatorname{Ass}_B(E' \otimes_A F)$. By (ii), there exists $p \in \operatorname{Ass}_A(E')$ such that $\mathfrak{P} \in \operatorname{Ass}_B(F/pF)$; as $\operatorname{Ass}_A(E') \subset \operatorname{Ass}_A(E)$, this completes the proof of Theorem 2.
 
-#### Corollary 1 {#ac-iv-s2-thm-2-cor-1 .statement}
+#### Corollary 1 {#ac-iv-s2-thm-2-cor-1 .statement tag=04LF}
 
 *If A is Noetherian and $\mathfrak{P} \in \operatorname{Ass}_B(E \otimes_A F)$, then $\rho^{-1}(\mathfrak{P}) \in \operatorname{Ass}_A(E)$ and $\rho^{-1}(\mathfrak{P})$ is the only prime ideal $p$ of A such that $\mathfrak{P} \in \operatorname{Ass}_B(F/pF)$.*
 
-#### Corollary 2 {#ac-iv-s2-thm-2-cor-2 .statement}
+#### Corollary 2 {#ac-iv-s2-thm-2-cor-2 .statement tag=04LG}
 
 Suppose that $A$ and $B$ are Noetherian and that $B$ is a flat $A$-module. Let $p$ be a prime ideal of $A$, $Q \subset E$ a $p$-primary submodule and $\mathfrak{P}$ a prime ideal of $B$. For $Q \otimes_A B$ to be a $q$-primary submodule of $E \otimes_A B$, it is necessary and sufficient that $pB$ be a 'p-primary ideal' of $B$.
 
 Let us apply Theorem 2 to the $A$-module $E/Q$ and the $B$-module $B$; then $\operatorname{Ass}_A(E/Q) = \{p\}$ and $(E/Q) \otimes_A B$ is isomorphic to $(E \otimes_A B)/(Q \otimes_A B)$ and hence $\operatorname{Ass}_B((E \otimes_A B)/(Q \otimes_A B)) = \operatorname{Ass}_B(B/pB)$. To say that $Q \otimes_A B$ is $\mathfrak{P}$-primary in $E \otimes_A B$ therefore means that $\operatorname{Ass}_B(B/pB)$ is reduced to $\mathfrak{P}$, whence the corollary.
 
-#### Remark {#ac-iv-s2-n6-rem-1 .statement}
+#### Remark {#ac-iv-s2-n6-rem-1 .statement tag=04LH}
 
 Suppose that $A$ and $B$ are Noetherian. Let $\mathfrak{P}$ be a prime ideal of $B$ and let $p = \overline{\rho}^{-1}(\mathfrak{P})$; let us write $S = A - p$ and let $k(p) = S^{-1}(A/p)$ be the field of fractions of $A/p$. Since $\mathfrak{P}$ contains $pB$, $\mathfrak{P}/pB$ is a prime ideal of $B/pB$. If $\rho'$ is the composite homomorphism $A \xrightarrow{\rho} B \to B/pB$, we know that $S^{-1}(B/pB)$ is identified with the ring $(\rho'(S))^{-1}(B/pB)$ and $\mathfrak{P}' = S^{-1}(\mathfrak{P}/pB)$ with an ideal of this ring (Chapter II, § 2, no. 2, Proposition 6); as $\mathfrak{P}/pB$ does not meet $\rho'(S)$, $\mathfrak{P}'$ is a prime ideal of $S^{-1}(B/pB)$ (Chapter 11, § 2, no. 5, Proposition 11); moreover there are canonical isomorphisms between $S^{-1}(B/pB)$, $S^{-1}((A/p) \otimes_A B)$ and $(S^{-1}(A/p)) \otimes_A B = k(p) \otimes_A B$; similarly $S^{-1}(F/pF)$ is canonically identified with $k(p) \otimes_A F$. This being so, under the hypotheses of Theorem 2, *in order that* $\mathfrak{P} \in \operatorname{Ass}_B(E \otimes_A F)$, *it is necessary and sufficient that* $p \in \operatorname{Ass}_A(E)$ and
 $$
@@ -439,7 +439,7 @@ $$
 $$
 are equivalent; but, as $B$ is Noetherian, this follows from § 1, no. 2, Corollary to Proposition 5 and the above identifications.
 
-#### Proposition 11 {#ac-iv-s2-prop-11 .statement}
+#### Proposition 11 {#ac-iv-s2-prop-11 .statement tag=04LI}
 
 Suppose that $A$ and $B$ are Noetherian and that $B$ is a flat $A$-module. Let $E$ be an $A$-module and $E'$ a submodule of $E$ such that, for every ideal $p \in \operatorname{Ass}_A(E/E')$, $pB$ is a prime ideal of $B$ or equal to $B$. Let $E' = \bigcap_{p \in \operatorname{Ass}(E/E')} Q(p)$ be a reduced primary decomposition of $E'$ in $E$, $Q(p)$ being $p$-primary for all $p \in \operatorname{Ass}(E/E')$.
 (i) *If* $p \in \operatorname{Ass}(E/E')$ *and* $pB = B$, *then* $Q(p) \otimes_A B = E \otimes_A B$.
@@ -464,7 +464,7 @@ E' \otimes_A B = \bigcap_{p \in \Phi} (\mathbf{Q}(p) \otimes_A B)
 $$
 is a reduced primary decomposition.
 
-#### Corollary {#ac-iv-s2-n6-cor-1 .statement}
+#### Corollary {#ac-iv-s2-n6-cor-1 .statement tag=04LJ}
 
 *Suppose that* $pB$ *is prime for all* $p \in \operatorname{Ass}_A(E/E')$. *Then, if* $p_1, \ldots, p_n$ *are the minimal elements of* $\operatorname{Ass}_A(E/E')$, *the* $p_iB$ *are minimal elements of*
 $$

@@ -33,9 +33,9 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 15
-content_sha256: 095e44e34fb22ece4f9e814f5da8857e912fda66280947a02d51e87a06e3f5f0
+content_sha256: 9177cac572b63451e6eb4b7ade9e7a5d8bba3584700b6778d75483ee70e8453b
 translated_from: content/en/alg/VII/01_s1_principal_ideal_domains.md
-source_content_sha256: f42e2230f351e1bc8e1f789cc51497f38a8dea64f679f0db66b57e2cc558e73e
+source_content_sha256: fccb95f1c743016175d920f3d9b4107ca71a6669ffca75cd9cc5695d9f404b32
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-a52a80a1
 glossary_version: 34
@@ -49,11 +49,11 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Nhắc lại (I, p. 104) rằng một iđêan của một vành giao hoán $A$ được gọi là *chính* nếu nó có dạng $(a) = Aa$ với một $a \in A$ nào đó.
 
-#### Định nghĩa 1 {#alg-vii-s1-def-1 .statement}
+#### Định nghĩa 1 {#alg-vii-s1-def-1 .statement tag=070X}
 
 *Một miền iđêan chính là một miền nguyên (I, p. 116) trong đó mọi iđêan đều là chính.*
 
-#### Ví dụ {#alg-vii-s1-n1-exa-1 .statement}
+#### Ví dụ {#alg-vii-s1-n1-exa-1 .statement tag=070Y}
 
 Vành $\mathbf{Z}$ của các số nguyên hữu tỉ là một miền iđêan chính (I, p. 111). Nếu $K$ là một trường giao hoán, thì vành đa thức $K[X]$ theo một bất định trên $K$ là một miền iđêan chính (IV, p. 11, Mđề 11); điều tương tự đúng với vành các chuỗi lũy thừa hình thức $K[[X]]$, vì mọi iđêan của vành này có dạng $(X^n)$ (IV, p. 38, Mđề 12). \* Vành các số nguyên trong một trường p-adic là một miền iđêan chính. \*
 
@@ -65,7 +65,7 @@ Vành đa thức $K[X, Y]$ theo hai bất định trên một trường $K$ khô
 
 Cho $A$ là một miền iđêan chính và cho $K$ là trường các phân thức của nó (I, p. 116); ta sẽ thấy rằng nhóm có thứ tự $\mathscr{P}^*$ của các iđêan phân thức chính (*VI*, p. 6) của $K$ là có thứ tự dàn; chính xác hơn:
 
-#### Mệnh đề 1 {#alg-vii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#alg-vii-s1-prop-1 .statement tag=070Z}
 
 *Cho $K$ là trường các phân thức của một miền iđêan chính $A$, và cho $(x_i)_{i \in I}$ là một họ các phần tử của $K$ có một mẫu số chung $b \in K^*$ (nói cách khác $bx_i \in A$ với mọi $i$). Khi đó:*
 
@@ -74,11 +74,11 @@ b) Mọi ước chung lớn nhất của $(x_i)$ đều có thể được biể
 
 Thật vậy, iđêan $\sum Abx$, của $A$ là chính, và do đó có dạng $Ad'$. Đặt $d' = bd \ (d \in K)$. Từ quan hệ $d' = \sum a_i b x_i$, ta suy ra $d = \sum a_i x_i$, trong đó $a_i \in A$. Do đó mọi ước chung của các $x_i$ đều chia hết $d$. Mặt khác, vì $bd$ là một ước chung của các $bx$, theo phép dựng, nên suy ra $d$ là một ước chung của các $x_i$.
 
-#### Nhận xét {#alg-vii-s1-n2-rem-1 .statement}
+#### Nhận xét {#alg-vii-s1-n2-rem-1 .statement tag=0710}
 
 Mệnh đề 1 áp dụng không có hạn chế nào cho một họ tùy ý $(x_i)$ các phần tử của $A$ (lấy $b = 1$), và cũng cho mọi họ hữu hạn $(x_i)$ các phần tử của $K$ (nếu $x_i = c_i b_i$ với $c_i \in A$ và $b_i \in A$, thì lấy $b$ là tích của các $b_i$).
 
-#### Hệ quả {#alg-vii-s1-n2-cor-1 .statement}
+#### Hệ quả {#alg-vii-s1-n2-cor-1 .statement tag=0711}
 
 — Cho $(x_i)$ là một họ tùy ý các phần tử của một miền iđêan chính $A$ được chứa như một vành con trong một miền nguyên $B$, và cho $d$ là một ước chung lớn nhất của họ $(x_i)$ trong $A$. Khi đó họ $(x_i)$ có các ước chung lớn nhất trong $B$, và $d$ là một trong số chúng.
 
@@ -90,13 +90,13 @@ Mệnh đề đầu tiên của Mệnh đề 1 cho thấy rằng nhóm có thứ
 
 Kết quả sau đây là một hệ quả của mệnh đề thứ hai của Mệnh đề I :
 
-#### Định lý 1 (« đồng nhất thức Bezout ») {#alg-vii-s1-thm-1 .statement}
+#### Định lý 1 (« đồng nhất thức Bezout ») {#alg-vii-s1-thm-1 .statement tag=0712}
 
 — Các phần tử $x_i \ (i \in I)$ của một miền iđêan chính $A$ là nguyên tố cùng nhau theo tập khi và chỉ khi tồn tại các phần tử $a_i \ (i \in I)$ của $A$, tất cả trừ một số hữu hạn trong chúng là không, sao cho $\sum a_i x_i = 1$.
 
 Tính cần thiết của điều kiện chỉ là Mệnh đề 1. Ngược lại, nếu $\sum a_i x_i = 1$ thì mọi ước chung của các $x_i$ đều chia hết 1, và do đó 1 là một ước chung lớn nhất của các $x_i$.
 
-#### Mệnh đề 2 {#alg-vii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#alg-vii-s1-prop-2 .statement tag=0713}
 
 — Cho $a, b, d, m$ và $p$ là các phần tử của trường phân thức $K$ của một miền iđêan chính $A$.
 a) « $d$ là một ước chung lớn nhất của $a$ và $b$ » tương đương với « $(d) = (a) + (b)$ ».
@@ -107,13 +107,13 @@ Ta đã chứng minh a) (Mệnh đề *1*). Vì các bội chung của $a$ và $
 
 Trong một miền iđêan chính $A$, tổng (tương ứng, giao) của một số hữu hạn các iđêan cũng được gọi là gcd (tương ứng, lcm) của các iđêan này.
 
-#### Mệnh đề 3 {#alg-vii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#alg-vii-s1-prop-3 .statement tag=0714}
 
 *Cho $a, b, c$ là các phần tử của trường phân thức của một miền iđêan chính $A$, và cho $d$ là một ước chung lớn nhất của $a$ và $c$; khi đó đồng dư thức $ax \equiv b \pmod{c}$ có một nghiệm $x_0 \in A$ khi và chỉ khi $d$ chia hết $b$; trong trường hợp này các phần tử $x$ của $A$ thỏa mãn $ax \equiv b \pmod{c}$ chính xác là các phần tử thỏa mãn $x \equiv x_0 \pmod{cd}$*.
 
 Nếu $ax \equiv b \pmod{c}$, với $x \in A$, thì tồn tại $y \in A$ sao cho $b = ax + cy$, do đó $d$ chia hết $b$. Ngược lại, nếu $d$ chia hết $b$ thì $b = ax_0 + cy_0$ với $x_0, y_0 \in A$ (Mệnh đề *1*), do đó $ax_0 \equiv b \pmod{c}$; hơn nữa, quan hệ $ax \equiv b \pmod{c}$ khi đó tương đương với $a(x - x_0) \equiv 0 \pmod{c}$; đặt $a = da'$ và $c = dc'$, cái sau trở thành $a'(x - x_0) \equiv 0 \pmod{c'}$. Nhưng điều này tương đương (đối với $x \in A$) với $x - x_0 \equiv 0 \pmod{c'}$, vì $a'$ và $c'$ nguyên tố cùng nhau (VI, p. 14, Mệnh đề *10* (DIV) và VI, p. 15, Hệ quả 2 của Mệnh đề 11 (DIV)).
 
-#### Mệnh đề 4 {#alg-vii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#alg-vii-s1-prop-4 .statement tag=0715}
 
 *Cho $(a_i)$, $i \leq n$ là một họ hữu hạn các phần tử từng đôi một nguyên tố cùng nhau của miền iđêan chính $A$. Khi đó đồng cấu chính tắc (I, p. 110) từ $A / \left( \prod_{r=1}^n a_r \right)$ vào tích $\prod_{r=1}^n A/(a_r)$ là một đẳng cấu của các $A$-đại số.*
 
@@ -125,11 +125,11 @@ Kết luận của Mệnh đề 4 không còn đúng nếu không giả thiết 
 
 Bây giờ ta sẽ áp dụng các kết quả của VI, p. *18*, liên quan đến phân tích thành các phần tử bất khả quy, cho các miền iđêan chính. Theo Mệnh đề 2, một phần tử $p \neq 0$ của $A$ là bất khả quy khi và chỉ khi vành $A/(p)$ là một trường (I, p. *115*, Hệ quả 1), nghĩa là khi và chỉ khi đồng dư thức $ax \equiv b \pmod{p}$ có nghiệm trong $A$ với mỗi $b \in A$ và với mỗi $a \in A$ không phải là bội của $p$.
 
-#### Định nghĩa 2 {#alg-vii-s1-def-2 .statement}
+#### Định nghĩa 2 {#alg-vii-s1-def-2 .statement tag=0716}
 
 *Cho $A$ là một miền nguyên. Một hệ đại diện của các phần tử bất khả quy của $A$ là một họ $(p_\alpha)$ gồm các phần tử bất khả quy của $A$ sao cho mỗi phần tử bất khả quy của $A$ là phần tử liên kết với đúng một $p_\alpha$.*
 
-#### Định lý 2 {#alg-vii-s1-thm-2 .statement}
+#### Định lý 2 {#alg-vii-s1-thm-2 .statement tag=0717}
 
 — Cho $\mathbf{A}$ là một miền iđêan chính và cho $(p_\alpha)$ là một hệ đại diện của các phần tử bất khả quy của $\mathbf{A}$. Khi đó mọi phần tử khác không $x$ của trường phân thức của $A$ có thể được biểu diễn duy nhất dưới dạng
 
@@ -141,7 +141,7 @@ trong đó $u$ là một phần tử khả nghịch của $\mathbf{A}$, và tron
 
 Ta sẽ sử dụng định lý về phân tích thành một tổng các phần tử bất khả quy (VI, p. 18, Định lý 2), mà mệnh đề trên chỉ là một cách phát biểu lại. Vì $\mathscr{P}^*$ là một nhóm có thứ tự dàn nên đối với chúng ta chỉ cần chứng minh rằng mọi tập hợp khác rỗng các iđêan chính của $\mathbf{A}$ đều chứa một phần tử cực đại, để kiểm tra rằng các giả thiết của định lý này thực sự được thỏa mãn; giờ đây điều này suy ra từ Bổ đề sau:
 
-#### Bổ đề 1 {#alg-vii-s1-lem-1 .statement}
+#### Bổ đề 1 {#alg-vii-s1-lem-1 .statement tag=0718}
 
 Cho $A$ là một vành sao cho mọi iđêan trái của $A$ đều sinh hữu hạn. Khi đó mọi tập hợp khác rỗng $\Phi$ các iđêan trái của $\mathbf{A}$, có thứ tự bởi quan hệ bao hàm, đều có một phần tử cực đại.
 
@@ -149,7 +149,7 @@ Theo Bổ đề Zorn (Lý thuyết tập hợp, III, p. 154, Đl. 2) chỉ cần
 
 Sau này chúng ta sẽ nghiên cứu những vành $B$, được gọi là các vành Noether, sao cho mọi tập hợp khác rỗng các iđêan của $B$ đều chứa một phần tử cực đại.
 
-#### Nhận xét {#alg-vii-s1-n3-rem-1 .statement}
+#### Nhận xét {#alg-vii-s1-n3-rem-1 .statement tag=0719}
 
 Họ $(u, (n_\alpha))$ được gọi là phân tích của $x$ thành các thừa số bất khả quy; do lạm dụng ngôn ngữ, ta cũng nói rằng công thức (1) là phân tích của $x$ thành các thừa số bất khả quy. Nếu $x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}}$ và $y = v \prod_{\alpha} p_{\alpha}^{m_{\alpha}}$ là các phân tích của $x$ và $y$ thành các thừa số bất khả quy, thì một điều kiện cần và đủ để $x$ chia hết cho $y$ là $n_{\alpha} \leq m_{\alpha}$, với mọi $\alpha$; từ đó ta suy ra các công thức
 
@@ -168,7 +168,7 @@ Như đã được chỉ ra trong tiết 1, vành $\mathbf{Z}$ các số nguyên
 
 Các số nguyên bất khả quy $> 0$ trong $\mathbf{Z}$ chính là những số mà ta đã gọi là các số nguyên tố (I, p. 50) (đôi khi được gọi là các số nguyên tố hữu tỉ); mọi phần tử bất khả quy của $\mathbf{Z}$ do đó có dạng $p$ hoặc $-p$, trong đó $p$ là một số nguyên tố, và tập hợp $P$ các số nguyên tố là một hệ các đại diện của các phần tử bất khả quy của $\mathbf{Z}$.
 
-#### Mệnh đề 5 {#alg-vii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#alg-vii-s1-prop-5 .statement tag=071A}
 
 — Tập hợp các số nguyên tố là vô hạn.
 
@@ -194,7 +194,7 @@ $$
 
 trong đó $c$ và các $a_i$ là các phần tử của $K$.
 
-#### Mệnh đề 6 {#alg-vii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#alg-vii-s1-prop-6 .statement tag=071B}
 
 Với mọi trường $K$, *tập hợp* các đa thức bất khả quy đơn khởi trong $K[X]$ là vô hạn.
 

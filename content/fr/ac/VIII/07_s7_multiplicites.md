@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 34
 exercises: 25
-content_sha256: 42696bbcbf749f725775aad697348224af7940f2d39b21f1934f1cafb77abcb6
+content_sha256: 5ef097967a4641c5bada97573c3be125a50c519e04024ac06e67ba7439933931
 ---
 
 ## § 7. MULTIPLICITÉS
@@ -50,21 +50,21 @@ $$
 
 où $\beta_n$ tend vers une limite lorsque $n$ augmente indéfiniment.
 
-#### Définition 1 {#ac-viii-s7-def-1 .statement}
+#### Définition 1 {#ac-viii-s7-def-1 .statement tag=0CS8}
 
 L’entier $e_q(M)$ s’appelle la multiplicité du A-module M relativement à l’idéal q.
 
 On le note aussi $e_q^A(M)$ lorsque l’on désire mentionner l’anneau A. Lorsque A est local d’idéal maximal m, on écrit $e(M)$ ou $e^A(M)$ pour $e_m(M)$ ou $e_m^A(M)$.
 
-#### Remarque 1 {#ac-viii-s7-n1-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s7-n1-rem-1 .statement tag=0CS9}
 
 Si q’ est un idéal de A contenu dans le radical de A et contenant q, on a $e_{q'}(M) \leqslant e_q(M)$ et, si la filtration q’-adique de M est q-bonne, on a $e_{q'}(M) = e_q(M)$ (§ 4, no 3, th. 2).
 
-#### Remarque 2 {#ac-viii-s7-n1-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s7-n1-rem-2 .statement tag=0CSA}
 
 Si M est de longueur finie, on a $e_q(M) = \operatorname{long}_A(M)$ (§ 4, no 3, remarque 3).
 
-#### Remarque 3 {#ac-viii-s7-n1-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s7-n1-rem-3 .statement tag=0CSB}
 
 Si $d > 0$, on a
 
@@ -74,7 +74,7 @@ $$
 
 où $\alpha_n$ tend vers une limite lorsque $n$ augmente indéfiniment (§ 4, no 3, corollaire au th. 2).
 
-#### Remarque 4 {#ac-viii-s7-n1-rem-4 .statement}
+#### Remarque 4 {#ac-viii-s7-n1-rem-4 .statement tag=0CSC}
 
 On peut ramener le calcul des multiplicités au cas où A est local puisque, d’après § 4, no 4, corollaire au th. 3, on a
 
@@ -90,26 +90,26 @@ $$
 
 Il résulte des remarques 2 et 3 que $e_q(M)$ ne dépend que du A/q-module gradué $\operatorname{gr}_q(M)$. Par conséquent :
 
-#### Proposition 1 {#ac-viii-s7-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s7-prop-1 .statement tag=0CSD}
 
 Soient $\hat{A}$ et $\hat{M}$ les complétés de A et M pour leurs topologies q-adiques ; alors $e_q^A(M) = e_{q\hat{A}}(\hat{M})$.
 
-#### Proposition 2 {#ac-viii-s7-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s7-prop-2 .statement tag=0CSE}
 
 Supposons A local régulier (§ 5, no 1, déf. 1) ; on a $e(A) = 1$.
 Cela résulte du th. 1 du § 5, no 2.
 
-#### Remarque 5 {#ac-viii-s7-n1-rem-5 .statement}
+#### Remarque 5 {#ac-viii-s7-n1-rem-5 .statement tag=0CSF}
 
 On peut avoir $e(A) = 1$ sans que A soit régulier (p. 104, exerc. 5). En fait, un anneau local noethérien A est régulier si et seulement si $\hat{A}$ est intègre et si l’on a $e(A) = 1$ (p. 108, exerc. 24).
 
-#### Exemple {#ac-viii-s7-n1-exa-1 .statement}
+#### Exemple {#ac-viii-s7-n1-exa-1 .statement tag=0CSG}
 
 On a par définition $e_{q,r}(M) = r^d e_q(M)$ où $d = \dim_A(M)$. Par conséquent, si A est local régulier, on a $e_{m_A^r}(A) = r^d$. Par exemple, si A est un anneau de valuation discrète, on a $e_q(A) = \operatorname{long}(A/q)$.
 
 Soient q un idéal de A contenu dans le radical de A et C(q) l’ensemble des classes des A-modules M de type fini tels que M/qM soit de longueur finie. Pour tout d ∈ $\mathbf{N}$, notons C(q)_{≤ d} la partie de C(q) formée des classes de A-modules de dimension ≤ d. On définit une application e_{q,d}: C(q)_{≤ d} → $\mathbf{Z}$ par e_{q,d}(M) = e_q(M) si dim(M) = d, e_{q,d}(M) = 0 sinon. Cette application est additive d’après la prop. 5 du , n° 3 ; on en déduit (A, VIII, § 10, n° 2) un homomorphisme, encore noté e_{q,d}, du groupe de Grothendieck K(C(q)_{≤ d}) dans $\mathbf{Z}$, qui est nul sur K(C(q)_{≤ d-1}). En raisonnant comme au § 1, n° 5, on en déduit
 
-#### Proposition 3 {#ac-viii-s7-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s7-prop-3 .statement tag=0CSH}
 
 *Soit M un A-module de type fini, de dimension d ≥ 0. Soit Φ l’ensemble des éléments minimaux p de Supp(M) tels que dim(A/p) = d. Soit q un idéal de A, contenu dans le radical de A, et tel que M/qM soit de longueur finie. On a*
 
@@ -117,7 +117,7 @@ $$
 e_q(M) = \sum_{p \in \Phi} \operatorname{long}_{A_p}(M_p).e_q(A/p).
 $$
 
-#### Corollaire {#ac-viii-s7-n1-cor-1 .statement}
+#### Corollaire {#ac-viii-s7-n1-cor-1 .statement tag=0CSI}
 
 *Supposons A semi-local et soit q un idéal de définition de A.
 a) On a $e_q(A) = \sum_p e_q(A/p)$, où p parcourt l’ensemble des idéaux premiers minimaux de A tels que $\dim(A/p) = \dim(A)$.
@@ -125,7 +125,7 @@ b) Supposons A intègre et soit M un A-module de type fini tel que $\dim_A(M) = 
 
 ### 2. Multiplicités et extensions plates
 
-#### Proposition 4 {#ac-viii-s7-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s7-prop-4 .statement tag=0CSJ}
 
 *Soit ρ : A → B un homomorphisme local d’anneaux locaux noethériens, et soit N un B-module de type fini, plat sur A, et tel que N ⊗_A κ_A soit un B-module de longueur finie. Si M est un A-module de type fini non nul et q un idéal de A distinct de A et tel que M/qM soit de longueur finie, alors (M ⊗_A N)/(qB)(M ⊗_A N) est un B-module de longueur finie, et l’on a*
 
@@ -135,7 +135,7 @@ $$
 
 Soit L un A-module de longueur finie r. Alors L possède une suite de Jordan-Hölder de longueur r, à quotients isomorphes à κ_A ; comme N est plat sur A, le B-module L ⊗_A N possède une suite de composition de longueur r, à quotients isomorphes à N ⊗_A κ_A, donc est de longueur r · long_B(N ⊗_A κ_A). Comme le B-module (M ⊗_A N)/(qB)^n(M ⊗_A N) est isomorphe à (M/q^nM) ⊗_A N pour tout n ∈ $\mathbf{N}$, la proposition résulte de la définition des multiplicités.
 
-#### Corollaire {#ac-viii-s7-n2-cor-1 .statement}
+#### Corollaire {#ac-viii-s7-n2-cor-1 .statement tag=0CSK}
 
 *On suppose que B est plat sur A et que ρ(m_A) B = m_B. Alors*
 
@@ -145,13 +145,13 @@ $$
 
 Cela s’applique notamment lorsque B est le complété \* ou l’hensélisé \* de A relativement à un idéal distinct de A, \* ou un gonflement de A, par exemple un hensélisé strict de A. \*
 
-#### Exemple {#ac-viii-s7-n2-exa-1 .statement}
+#### Exemple {#ac-viii-s7-n2-exa-1 .statement tag=0CSL}
 
 \* Soient X une variété algébrique complexe, $\mathscr{O}_{X,x}$ l’anneau local de X en un point rationnel x, $X^{an}$ l’espace analytique associé à X ; notons encore x le point de $X^{an}$ correspondant à x, et soit $\mathscr{O}_{X^{an},x}$ l’anneau local de $X^{an}$ en x. Alors $e(\mathscr{O}_{X^{an},x}) = e(\mathscr{O}_{X,x})$. \*
 
 ### 3. Multiplicités et extensions finies
 
-#### Proposition 5 {#ac-viii-s7-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s7-prop-5 .statement tag=0CSM}
 
 Supposons A semi-local et soit $\rho : A \to B$ un homomorphisme d’anneaux faisant de B un A-module de type fini. Soit N un B-module non nul de type fini et soit q un idéal de A contenu dans le radical de A, et tel que $N/qN$ soit de longueur finie. Parmi les idéaux maximaux de B (en nombre fini, d’après IV, § 2, no 5, cor. 3 à la prop. 9), notons $m_1, ..., m_r$ ceux pour lesquels on a $\dim_{B_{m_i}}(N_{m_i}) = \dim_B(N)$. Posons $B_i = B_{m_i}$ et $q_i = qB_i$ pour $1 \leq i \leq r$. Alors on a les égalités
 
@@ -173,11 +173,11 @@ $$
 
 $m$ parcourant l’ensemble des idéaux maximaux de B ; c’est en effet évident lorsque E est l’un des $B/m$, et le cas général s’en déduit, puisque E possède une suite de composition dont les quotients sont isomorphes à des $B/m$. Appliquant cette formule aux B-modules $N/q^{n+1}N$, on en déduit l’égalité cherchée par définition des multiplicités.
 
-#### Corollaire {#ac-viii-s7-n3-cor-1 .statement}
+#### Corollaire {#ac-viii-s7-n3-cor-1 .statement tag=0CSN}
 
 Si $[B/m_i : A/\rho^{-1}(m_i)] = 1$ pour tout i, on a $e_q^A(N) = e_{qB}^B(N)$.
 
-#### Lemme 1 {#ac-viii-s7-lem-1 .statement}
+#### Lemme 1 {#ac-viii-s7-lem-1 .statement tag=0CSO}
 
 Soit $\rho : A \to B$ un homomorphisme d’anneaux, et soit $p$ un idéal premier de A. Considérons les deux propriétés suivantes :
 (i) l’homomorphisme canonique $\tilde{\rho}$ de $A_p$ dans $A_p \otimes_A B$ est bijectif;
@@ -192,7 +192,7 @@ Si la condition (i) est satisfaite, il existe (V, § 2, no 1, lemme 1) un unique
 
 Inversement, supposons (ii) satisfaite, et soit $r$ l’unique idéal premier de $B$ au-dessus de $p$. Puisque $(S^{-1}B)_{S^{-1}r}$ s’identifie à $B_r$, il suffit de prouver que $S^{-1}B$ est local d’idéal maximal $S^{-1}r$, c’est-à-dire que tout idéal premier $q$ de $B$ tel que $\rho^{-1}(q) \subset p$ est contenu dans $r$. Si $p$ est minimal, on a $\rho^{-1}(q) = p$, donc $q = r$. Si $B$ est entier sur $A$, il existe d’après V, § 2, no 1, cor. 2 au th. 1, un idéal premier $r'$ de $B$ tel que $q \subset r'$ et $\rho^{-1}(r') = p$; on a nécessairement $r' = r$, donc $q \subset r$.
 
-#### Lemme 2 {#ac-viii-s7-lem-2 .statement}
+#### Lemme 2 {#ac-viii-s7-lem-2 .statement tag=0CSP}
 
 *Supposons $A$ semi-local ; soit $q$ un idéal de définition de $A$, et soit $\rho : A \to B$ un homomorphisme d’anneaux faisant de $B$ un $A$-module de type fini. Supposons que, pour tout idéal premier (nécessairement minimal) $p$ de $A$ tel que $\dim(A/p) = \dim(A)$, il existe un unique idéal premier $r$ de $B$ au-dessus de $p$ et que l’homomorphisme canonique $\rho_p : A_p \to B_r$ soit bijectif. Alors on a $\dim_A(B) = \dim(A)$ et $e_q^A(B) = e_q^A(A)$.*
 
@@ -228,19 +228,19 @@ $$
 
 d’après le lemme 1, on a $\operatorname{long}_{A_p}(A_p \otimes_A B) = 1$ pour tout $p \in \mathfrak{S}_A$, d’où $e_q^A(A) = e_q^A(B)$.
 
-#### Proposition 6 {#ac-viii-s7-prop-6 .statement}
+#### Proposition 6 {#ac-viii-s7-prop-6 .statement tag=0CSQ}
 
 *Supposons $A$ semi-local et réduit ; soit $q$ un idéal de définition de $A$; soit $A'$ l’anneau total des fractions de $A$, et soit $B$ une sous-A-algèbre finie de $A'$. Alors $B$ est semi-local et $qB$ en est un idéal de définition. Supposons que, pour tout idéal maximal m de B tel que dim(B_m) = dim(B), on ait [B/m : A/(A ∩ m)] = 1. Alors on a $e_q^A(A) = e_{q_B}^B(B)$.
 
 D’après IV, § 2, n° 5, cor. 3 de la prop. 9, B est semi-local d’idéal de définition qB. On a $e_{q_B}^B(B) = e_q^A(B)$ d’après le corollaire à la prop. 5. Comme A′ s’identifie à $\prod_p A_p$ où p parcourt l’ensemble des idéaux premiers minimaux de A (IV, § 2, n° 5, prop. 10), l’application canonique $A_p \to A_p \otimes_A B$ est bijective pour tout idéal premier minimal p de A. Il résulte alors des lemmes 1 et 2 que $e_q^A(B) = e_q^A(A)$, d’où la proposition.
 
-#### Exemple {#ac-viii-s7-n3-exa-1 .statement}
+#### Exemple {#ac-viii-s7-n3-exa-1 .statement tag=0CSR}
 
 Soit k un corps de caractéristique $\neq 2$ et prenons pour A l’anneau local $k[[X, Y]]/(X^2 + Y^2)$ de corps résiduel k. Prenons $B = k[[X, T]]/(T^2 + 1)$ où $T = Y/X$. Distinguons deux cas : si — 1 est le carré d’un élément i de k, B possède deux idéaux maximaux engendrés respectivement par {X, T + i} et {X, T − i}, ils sont de corps résiduel k, et l’on a $e_{m_A}^A(A) = e_{m_{AB}}^B(B) = 2$. Si — 1 n’est pas un carré dans k, B possède un unique idéal maximal (X) de corps résiduel $k[T]/(T^2 + 1)$, et l’on a $e_{m_A}^A(A) = 2,\ e_{m_{AB}}^B(B) = 1$.
 
 ### 4. Multiplicités et suites sécantes
 
-#### Proposition 7 {#ac-viii-s7-prop-7 .statement}
+#### Proposition 7 {#ac-viii-s7-prop-7 .statement tag=0CSS}
 
 Supposons A local. Soit s un entier $\geq 1$ et, pour $1 \leq i \leq s$, soient $\delta_i$ un entier $> 0$, $x_i$ un élément de $m_A^{\delta_i}$, et $\xi_i$ sa classe dans $m_A^{\delta_i}/m_A^{\delta_i+1}$. On suppose que $(x_1, ..., x_s)$ est une suite sécante pour A. Notons x l’idéal de A engendré par $(x_1, ..., x_s)$. Alors on a $e(A/x) \geq \delta_1 ... \delta_s \cdot e(A)$ avec égalité si $(\xi_1, ..., \xi_s)$ est une suite complètement sécante pour gr(A).
 
@@ -277,11 +277,11 @@ $$
 $$
 et l’égalité a lieu si la suite $(\xi_1, ..., \xi_s)$ est complètement sécante. On conclut par le lemme 2 du § 4, no 1.
 
-#### Remarque {#ac-viii-s7-n4-rem-1 .statement}
+#### Remarque {#ac-viii-s7-n4-rem-1 .statement tag=0CST}
 
 On peut montrer réciproquement (*cf.* p. 103, exerc. 4) que si A est régulier et $e(A/x) = \delta_1 ... \delta_s$, alors la suite $(\xi_1, ..., \xi_s)$ est complètement sécante.
 
-#### Exemple {#ac-viii-s7-n4-exa-1 .statement}
+#### Exemple {#ac-viii-s7-n4-exa-1 .statement tag=0CSU}
 
 Prenons pour A un anneau de séries formelles $k[[X_1, ..., X_n]]$ sur un corps $k$; soient $F_1, ..., F_s$ des éléments de A, à l’idéal qu’ils engendrent et B = A/a. Notons $P_1, ..., P_s \in k[X_1, ..., X_n]$ les formes initiales des séries $F_1, ..., F_s$ et $\delta_1, ..., \delta_s$ leurs degrés respectifs. Si la suite $F_1, ..., F_s$ est sécante dans A, on a $e(B) \geq \delta_1 ... \delta_s$; si la suite $P_1, ..., P_s$ est complètement sécante dans l’anneau $k[X_1, ..., X_n]$, on a $e(B) = \delta_1 ... \delta_s$.
 
@@ -291,7 +291,7 @@ Considérons par exemple l’anneau $B = k[[X, Y]]/a$, où a est engendré par $
 
 Dans ce numéro on note q un idéal de A contenu dans le radical de A, et M un A-module non nul de type fini tel que $M/qM$ soit de longueur finie.
 
-#### Proposition 8 {#ac-viii-s7-prop-8 .statement}
+#### Proposition 8 {#ac-viii-s7-prop-8 .statement tag=0CSV}
 
 Soient $\delta > 0$ un entier, x un élément de $q^\delta$, $\xi$ sa classe dans $\mathrm{gr}_\delta(A) = q^\delta/q^{\delta+1}$ et $\varphi$ la multiplication par $\xi$ dans le gr(A)-module gr(M).
 
@@ -356,7 +356,7 @@ Soit $n \geq 1$ un entier. Remplaçons $x$ par $x^n$ dans (2); on a donc
 
 Il est immédiat que les sous-modules $\operatorname{Ker} \varphi^n$ du gr(A)-module noethérien gr(M) forment une suite croissante donc stationnaire et que chacun d’eux est de longueur finie sur $A/q$. Divisant par $n \geq 1$ dans l’inégalité (3) et faisant tendre $n$ vers $+ \infty$, on trouve $e_{xA}(M) = \delta e_q(M)$ par définition de $e_{xA}(M)$.
 
-#### Lemme 3 {#ac-viii-s7-lem-3 .statement}
+#### Lemme 3 {#ac-viii-s7-lem-3 .statement tag=0CSW}
 
 Soient $R$ un anneau noethérien gradué à degrés $\geq 0$, $E$ un $R$-module gradué de type fini tel que $E_n$ soit un $R_0$-module de longueur finie pour tout $n \in \mathbf{Z}$.
 Les conditions suivantes sont équivalentes :
@@ -368,32 +368,32 @@ Les conditions suivantes sont équivalentes :
 (iii) ⇒ (i) : soit $p$ un idéal premier associé à E. Si (iii) est satisfaite, on a $p = p_0 + R_+$ où $p_0$ est un idéal premier de $R_0$, et le R-module $R/p$ est isomorphe à $R_0/p_0$. D’après IV, § 3, no 1, corollaire de la prop. 1, le $R_0$-module $R_0/p_0$ est isomorphe à un sous-module d’un des $E_k$, donc est de longueur finie. Par conséquent, $R/p$ est de longueur finie. D’après IV, § 2, no 5, prop. 7, $p$ est donc maximal. Vu l’arbitraire de $p$, le R-module E est de longueur finie (loc. cit.).
 (i) ⇒ (iii) : soit $p$ un idéal premier associé à E. Alors $p$ est gradué (IV, § 3, no 1, prop. 1) et maximal (IV, § 2, no 5, prop. 7), donc contient $R_+$ (§ 6, no 2, lemme 1).
 
-#### Proposition 9 {#ac-viii-s7-prop-9 .statement}
+#### Proposition 9 {#ac-viii-s7-prop-9 .statement tag=0CSX}
 
 Notons $p_1, ..., p_r$ ceux des idéaux premiers de l’anneau gradué $\mathrm{gr}(A) = \bigoplus_n (q^n/q^{n+1})$ qui sont associés au module gradué $\mathrm{gr}(M) = \bigoplus_n (q^n M/q^{n+1} M)$ et ne contiennent pas $\mathrm{gr}_1(A) = q/q^2$. Soient $\delta$ un entier $> 0$, $\xi$ un élément de $\mathrm{gr}_\delta(A)$, et $\varphi : \mathrm{gr}(M) \to \mathrm{gr}(M)$ l’homothétie de rapport $\xi$ dans $\mathrm{gr}(M)$. Pour que $\varphi_n$ soit injective pour tout $n$ assez grand, il faut et il suffit que $\xi$ n’appartienne à aucun des $p_i$.
 En effet, les idéaux premiers associés au $\mathrm{gr}(A)$-module $\mathrm{Ker}\, \varphi$ sont ceux des idéaux premiers associés à $\mathrm{gr}(M)$ qui contiennent $\xi$ (IV, § 1, no 1, déf. 1). D’après le lemme 3, $(\mathrm{Ker}\, \varphi)_n$ est nul pour $n$ assez grand, si et seulement si ces idéaux contiennent tous $\mathrm{gr}_+(A)$ (ou ce qui revient au même $\mathrm{gr}_1(A)$), d’où la proposition.
 
-#### Définition 2 {#ac-viii-s7-def-2 .statement}
+#### Définition 2 {#ac-viii-s7-def-2 .statement tag=0CSY}
 
 Soient A un anneau noethérien, q un idéal de A contenu dans le radical de A et M un A-module de type fini tel que $M/qM$ soit de longueur finie. Un élément x de A est dit superficiel pour M relativement à q s’il appartient à q et si, pour tout $n$ assez grand, l’application $q^n M/q^{n+1} M \to q^{n+1} M/q^{n+2} M$ induite par la multiplication par x est injective.
 
-#### Remarque 1 {#ac-viii-s7-n5-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s7-n5-rem-1 .statement tag=0CSZ}
 
 Soit $\delta$ un entier $> 0$. On dit parfois qu’un élément x de A est superficiel d’ordre $\delta$ pour M relativement à q si $x \in q^\delta$, et si, pour tout $n$ assez grand, l’application $q^n M/q^{n+1} M \to q^{n+\delta} M/q^{n+\delta+1} M$ induite par la multiplication par x est injective. Avec cette terminologie, les éléments superficiels au sens de la déf. 2 sont les éléments superficiels d’ordre 1.
 
-#### Remarque 2 {#ac-viii-s7-n5-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s7-n5-rem-2 .statement tag=0CT0}
 
 Avec les notations de la prop. 9, x est superficiel d’ordre $\delta$ si et seulement si sa classe $\xi$ dans $\mathrm{gr}_\delta(A)$ n’appartient à aucun des $p_i$.
 
-#### Remarque 3 {#ac-viii-s7-n5-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s7-n5-rem-3 .statement tag=0CT1}
 
 D’après III, § 1, no 4, prop. 8, il existe un élément homogène de $\mathrm{gr}(A)$ de degré $> 0$ qui n’appartient à aucun des $p_i$. Par conséquent, il existe un entier $\delta > 0$ et un élément superficiel d’ordre $\delta$ pour M.
 
-#### Remarque 4 {#ac-viii-s7-n5-rem-4 .statement}
+#### Remarque 4 {#ac-viii-s7-n5-rem-4 .statement tag=0CT2}
 
 Supposons A local de corps résiduel k, et considérons l’application surjective canonique $\lambda : q \to q \otimes_A k$. Elle est la composée des applications canoniques $q \to q/q^2$ et $\bar{\lambda} : q/q^2 \to q \otimes_A k$. D’après le lemme de Nakayama, chacun des sous-espaces vectoriels $V_i = \bar{\lambda}(p_i \cap (q/q^2))$ de $q \otimes_A k$ est distinct de $q \otimes_A k$; si $\alpha \in q \otimes_A k$ n’appartient à aucun des $V_i$, alors $\lambda^{-1}(\alpha)$ est formé d’éléments superficiels pour M (prop. 9). Si k est infini, la réunion des $V_i$ est distincte de $q \otimes_A k$ et il existe donc des éléments superficiels pour M.
 
-#### Théorème 1 {#ac-viii-s7-thm-1 .statement}
+#### Théorème 1 {#ac-viii-s7-thm-1 .statement tag=0CT3}
 
 Soient $A$ un anneau noethérien, $q$ un idéal de $A$ contenu dans le radical de $A$ et $M$ un $A$-module de type fini tel que $M/qM$ soit de longueur finie. Soit $x_1, ..., x_m$ une suite finie d’éléments de $q$. Posons $x = Ax_1 + \cdots + Ax_m \subset q$.
 
@@ -421,7 +421,7 @@ $$
 
 Puisque $x$ est contenu dans $q$, cela implique $e_x(M) = e_q(M)$ (n° 1, remarque 1), et achève la démonstration.
 
-#### Corollaire {#ac-viii-s7-n5-cor-1 .statement}
+#### Corollaire {#ac-viii-s7-n5-cor-1 .statement tag=0CT4}
 
 Supposons $A$ local, à corps résiduel infini, et posons $d = \dim_A(M)$. Il existe une suite $x_1, ..., x_d$ d’éléments de $q$ tels que, en posant $x = Ax_1 + \cdots + Ax_d$, on ait
 
@@ -431,7 +431,7 @@ $$
 
 Cela résulte aussitôt du théorème et de la remarque 4.
 
-#### Remarque 5 {#ac-viii-s7-n5-rem-5 .statement}
+#### Remarque 5 {#ac-viii-s7-n5-rem-5 .statement tag=0CT5}
 
 Dans la situation du corollaire précédent, on a
 

@@ -46,9 +46,9 @@ subsections:
       pdf_page: 264
 statements: 42
 exercises: 3
-content_sha256: 92bc803d41ff9e0cfe62a538078a806c3e328e4ad70c8d0e8c4d26472a1e1d18
+content_sha256: 8b296404c067e1c488a363bfd2498cc7da6e70ab3f1e0465a1e8b0c3bea8e398
 translated_from: content/en/alg/II/02_s2_modules_of_linear_mappings_duality.md
-source_content_sha256: 258255c57ca3524e48d9ff71cc97eff6aa8bc4291c0e15cf968c9c2efb97b55c
+source_content_sha256: b68d6b666aad78a9fe6c8ac80cb610da120336ed9a4c3178da2cb94e6cf08597
 translation_model: gpt-5.4
 translation_run: translate-vi-b0e91fc7
 glossary_version: 34
@@ -60,7 +60,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC TÍNH CHẤT CỦA $\mathrm{Hom}_A(E, F)$ ĐỐI VỚI CÁC DÃY KHỚP
 
-#### Định lý 1 {#alg-ii-s2-thm-1 .statement}
+#### Định lý 1 {#alg-ii-s2-thm-1 .statement tag=05MV}
 
 *Cho A là một vành, E', E, E'' là ba A-môđun và u : E' \to E, v : E \to E'' là hai đồng cấu. Để dãy*
 
@@ -80,7 +80,7 @@ Giả sử dãy (1) là khớp. Nếu $w \in \mathrm{Hom}(E'', F)$ và $\bar{v}(
 
 Ngược lại, giả sử rằng (2) là khớp với mọi A-môđun F. Vì $\bar{u} \circ \bar{v} = \operatorname{Hom}(v \circ u, 1_F) = 0, w \circ v \circ u = 0$ với mọi đồng cấu $w : E'' \to F$. Lấy $F = E''$ và $w = 1_{E''}$, trước hết ta thấy rằng $v \circ u = 0$ và do đó $u(E') \subset \operatorname{Ker}(v)$. Bây giờ lấy $F = \operatorname{Coker}(u)$ và cho $\phi : E \to F = E/u(E')$ là ánh xạ chính tắc. Khi đó $\bar{u}(\phi) = \phi \circ u = 0$ theo định nghĩa và do đó tồn tại một $\psi \in \operatorname{Hom}(E'', F)$ sao cho $\phi = \bar{v}(\psi) = \psi \circ v$; điều này hiển nhiên kéo theo $u(E') = \operatorname{Ker}(\phi) \supset \operatorname{Ker}(v)$, điều đó chứng minh rằng dãy (1) là khớp tại E. Cuối cùng, cho $\theta$ là đồng cấu chính tắc từ $E''$ lên $F = E''/v(E)$; khi đó $\bar{v}(\theta) = \theta \circ v = 0$, nên $\theta = 0$; do đó, $F = \{0\}$ và $v$ là toàn ánh. Vậy dãy (1) là khớp tại $E''$.
 
-#### Hệ quả {#alg-ii-s2-n1-cor-1 .statement}
+#### Hệ quả {#alg-ii-s2-n1-cor-1 .statement tag=05MW}
 
 *Để một ánh xạ* $A$-tuyến tính $u : E \to F$ *là toàn ánh* (tương ứng *song ánh*, tương ứng *không*), *điều kiện cần và đủ là, với mọi A-môđun G, ánh xạ* $\operatorname{Hom}(u, 1_G) : \operatorname{Hom}(F, G) \to \operatorname{Hom}(E, G)$ *là đơn ánh* (tương ứng *song ánh*, tương ứng *không*).
 
@@ -100,7 +100,7 @@ $$
 
 *không nhất thiết là khớp*, nói cách khác, đồng cấu $\bar{u}$ không nhất thiết là toàn ánh. Nếu $E'$ được đồng nhất với một môđun con của E, điều này có nghĩa là một ánh xạ tuyến tính từ $E'$ vào F không phải lúc nào cũng có thể được mở rộng thành một ánh xạ tuyến tính từ E vào F (Bài tập 11 và 12). Tuy nhiên:
 
-#### Mệnh đề 1 {#alg-ii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ii-s2-prop-1 .statement tag=05MX}
 
 *Nếu dãy khớp các ánh xạ tuyến tính*
 
@@ -128,7 +128,7 @@ việc $u' \circ u$ là đồng nhất ánh xạ kéo theo rằng $\bar{u} \circ
 
 Chú ý rằng mệnh đề thứ nhất của Mệnh đề 1 cũng có thể được xem như một trường hợp riêng của $§ 1$, no. 6, Hệ quả 1 của Mệnh đề 6, bằng cách đồng nhất một cách chính tắc $\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$ với $\mathrm{Hom}(E' \oplus E'', F)$ nhờ ánh xạ $\mathbf{Z}$-tuyến tính $\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$, trong đó $p': E' \oplus E'' \to E'$ và $p'': E' \oplus E'' \to E''$ là các phép chiếu chính tắc.
 
-#### Định lý 2 {#alg-ii-s2-thm-2 .statement}
+#### Định lý 2 {#alg-ii-s2-thm-2 .statement tag=05MY}
 
 *Cho $A$ là một vành, $F', F, F''$ là ba $A$-môđun và $u: F' \to F, v: F \to F''$ là hai đồng cấu. Để dãy*
 
@@ -154,7 +154,7 @@ $$
 
 Ngược lại, giả sử rằng dãy (6) là khớp với mọi $A$-môđun $E$. Vì $\mathrm{Hom}(1_E, v \circ u) = \bar{v} \circ \bar{u} = 0$, nên $v \circ u \circ w = 0$ với mọi đồng cấu $w: E \to F'$. Lấy $E = F'$ và $w = 1_{F'}$, trước hết suy ra rằng $v \circ u = 0$ và do đó $u(F') \subset \mathrm{Ker}(v)$. Bây giờ lấy $E = \mathrm{Ker}(v)$ và cho $\phi: E \to F$ là đơn ánh chính tắc. Khi đó $\bar{v}(\phi) = v \circ \phi = 0$ theo định nghĩa và do đó tồn tại $\psi \in \mathrm{Hom}(E, F')$ sao cho $\phi = \bar{u}(\psi) = u \circ \psi$, điều này hiển nhiên kéo theo $\mathrm{Ker}(v) \subset u(F')$ và hoàn tất chứng minh tính khớp của (5) tại $F$. Sau cùng, nếu $\theta$ là ánh xạ đồng nhất của $\mathrm{Ker}\, u$, thì $\bar{u}(\theta) = 0$, do đó $\theta = 0$ và $\mathrm{Ker}\, u = \{0\}$, điều này chứng minh tính khớp của (5) tại $F'$.
 
-#### Nhận xét {#alg-ii-s2-n1-rem-1 .statement}
+#### Nhận xét {#alg-ii-s2-n1-rem-1 .statement tag=05MZ}
 
 (1) Định lý 2 cho phép ta, với mọi môđun con $F'$ của $F$, đồng nhất Hom(E, F') với một môđun con-$\mathbf{Z}$ của Hom(E, F). Khi sự đồng nhất này được thực hiện, thì, với mọi họ $(M_\lambda)$ các môđun con của $F$
 
@@ -164,7 +164,7 @@ $$
 
 vì nếu $u \in \operatorname{Hom}(E, F)$ thuộc mỗi $\operatorname{Hom}(E, M_\lambda)$, thì, với mọi $x \in E$, $u(x) \in M_\lambda$ với mọi $\lambda$ và do đó $u$ ánh xạ E vào $\bigcap_\lambda M_\lambda$.
 
-#### Hệ quả {#alg-ii-s2-n1-cor-2 .statement}
+#### Hệ quả {#alg-ii-s2-n1-cor-2 .statement tag=05N0}
 
 *Để một ánh xạ A-tuyến tính* $u : E \to F$ *là đơn ánh, điều kiện cần và đủ là, với mọi A-môđun G, ánh xạ* $\operatorname{Hom}(1_G, u) : \operatorname{Hom}(G, E) \to \operatorname{Hom}(G, F)$ *là đơn ánh*.
 
@@ -184,7 +184,7 @@ $$
 
 *không nhất thiết là khớp*, nói cách khác $\bar{v}$ không nhất thiết là toàn ánh. Nếu $F'$ được đồng nhất với một môđun con của $F$ và $F''$ với môđun thương $F/F'$, điều này có nghĩa là một ánh xạ tuyến tính từ $E$ vào $F''$ không nhất thiết có dạng $v \circ w$, trong đó $w$ là một ánh xạ tuyến tính từ $E$ vào $F$. Tuy nhiên:
 
-#### Mệnh đề 2 {#alg-ii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ii-s2-prop-2 .statement tag=05N1}
 
 *Nếu dãy khớp*
 
@@ -216,7 +216,7 @@ Nhận xét (2). Các kết quả của số này vẫn đúng không cần sử
 
 ### 2. MÔĐUN XẠ ẢNH
 
-#### Định nghĩa 1 {#alg-ii-s2-def-1 .statement}
+#### Định nghĩa 1 {#alg-ii-s2-def-1 .statement tag=05N2}
 
 Một A-môđun P được gọi là xạ ảnh nếu, với mọi dãy khớp F' → F → F'' của các ánh xạ A-tuyến tính, dãy
 
@@ -226,7 +226,7 @@ $$
 
 là khớp.
 
-#### Mệnh đề 3 {#alg-ii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ii-s2-prop-3 .statement tag=05N3}
 
 Để tổng trực tiếp của một họ các môđun con $(M_i)$ của một A-môđun P là xạ ảnh, điều kiện cần và đủ là mỗi $M_i$ đều xạ ảnh.
 
@@ -238,13 +238,13 @@ $$
 
 được đồng nhất với $\prod_i \operatorname{Hom}(1_{M_i}, u)$ (§ 1, no. 6, Hệ quả 1 của Mệnh đề 6); do đó kết luận suy ra từ Định nghĩa 1 và § 1, no. 5, Mệnh đề 5 (ii).
 
-#### Hệ quả {#alg-ii-s2-n2-cor-1 .statement}
+#### Hệ quả {#alg-ii-s2-n2-cor-1 .statement tag=05N4}
 
 Mọi A-môđun tự do đều xạ ảnh.
 
 Theo Mệnh đề 3, chỉ cần chứng minh rằng $A_s$ là xạ ảnh, điều này suy ra ngay lập tức từ tính giao hoán của biểu đồ (50) ở § 1, no. 14.
 
-#### Mệnh đề 4 {#alg-ii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ii-s2-prop-4 .statement tag=05N5}
 
 Cho P là một A-môđun. Các tính chất sau là tương đương:
 
@@ -277,13 +277,13 @@ $$
 
 tách (§ 1, no. 9, Mệnh đề 15). Vì với mọi A-môđun M đều tồn tại một A-môđun tự do L và một dãy khớp $0 \to R \to L \to M \to 0$ (§ 1, no. 11, Mệnh đề 20), rõ ràng (d) suy ra (e). Cuối cùng (e) suy ra (a) theo Mệnh đề 3 và Hệ quả của nó.
 
-#### Hệ quả 1 {#alg-ii-s2-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s2-prop-4-cor-1 .statement tag=05N6}
 
 *Để một A-môđun là xạ ảnh và sinh hữu hạn, điều kiện cần và đủ là nó là một nhân tử trực tiếp của một A-môđun tự do có một cơ sở hữu hạn.*
 
 Điều kiện này hiển nhiên là đủ; ngược lại, một môđun xạ ảnh hữu hạn sinh E đẳng cấu với một thương của một môđun tự do F có một cơ sở hữu hạn (§ 1, no. 11) và E đẳng cấu với một nhân tử trực tiếp của F theo Mệnh đề 4 (d).
 
-#### Hệ quả 2 {#alg-ii-s2-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s2-prop-4-cor-2 .statement tag=05N7}
 
 *Cho C là một vành giao hoán và E, F là hai C-môđun xạ ảnh hữu hạn sinh; khi đó $\operatorname{Hom}_C(E, F)$ là một C-môđun xạ ảnh hữu hạn sinh.*
 
@@ -299,7 +299,7 @@ do đó suy ra hệ quả.
 
 Cho E là một A-môđun *trái*. Vì A là một song môđun (A, A), nên $\operatorname{Hom}_A(E, A_s)$ có một cấu trúc A-môđun *phải* chính tắc (§ 1, no. 14).
 
-#### Định nghĩa 2 {#alg-ii-s2-def-2 .statement}
+#### Định nghĩa 2 {#alg-ii-s2-def-2 .statement tag=05N8}
 
 *Với mọi A-môđun phải E, A-môđun phải $\operatorname{Hom}_A(E, A_s)$ được gọi là môđun đối ngẫu của E* (hay đơn giản là *đối ngẫu†* của E) *và các phần tử của nó được gọi là các dạng tuyến tính trên E*.
 
@@ -309,7 +309,7 @@ Nếu E là một A-môđun *phải*, thì tập hợp $\operatorname{Hom}_A(E, 
 
 Trong chương này, $E^*$ sẽ được dùng để ký hiệu đối ngẫu của một A-môđun (trái hoặc phải) $E$.
 
-#### Ví dụ {#alg-ii-s2-n3-exa-1 .statement}
+#### Ví dụ {#alg-ii-s2-n3-exa-1 .statement tag=05N9}
 
 *Trên không gian vectơ (đối với trường $\mathbf{R}$) các hàm liên tục nhận giá trị thực trên một khoảng $[a, b]$ của $\mathbf{R}$, ánh xạ $x \mapsto \int_a^b x(t) dt$ là một dạng tuyến tính.*
 
@@ -337,7 +337,7 @@ $$
 
 Khi A giao hoán, có thể dùng một trong hai ký hiệu.
 
-#### Mệnh đề 5 {#alg-ii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ii-s2-prop-5 .statement tag=05NA}
 
 Với mọi vành A, ánh xạ gắn với mỗi $\xi \in A$ dạng tuyến tính $\eta \mapsto \eta \xi$ trên $A_s$ là một đẳng cấu từ $A_d$ lên đối ngẫu của $A_s$.
 
@@ -357,23 +357,23 @@ $$
 
 ### 4. TRỰC GIAO
 
-#### Định nghĩa 3 {#alg-ii-s2-def-3 .statement}
+#### Định nghĩa 3 {#alg-ii-s2-def-3 .statement tag=05NB}
 
 Cho E là một A-môđun và E* là đối ngẫu của nó; một phần tử x ∈ E và một phần tử x* ∈ E* được gọi là trực giao nếu ⟨x, x*⟩ = 0.
 
 Một tập con M của E và một tập con M' của E* được gọi là các tập hợp trực giao nếu, với mọi x ∈ M, x* ∈ M', x và x* trực giao. Đặc biệt, x* ∈ E* (resp. x ∈ E) được gọi là trực giao với M (resp. M') nếu nó trực giao với mọi phần tử của M (resp. M'). Nếu x* và y* trực giao với M, thì x* + y* và x*α cũng trực giao với M với mọi α ∈ A theo (10) và (12) (no. 3), điều này biện minh cho định nghĩa sau:
 
-#### Định nghĩa 4 {#alg-ii-s2-def-4 .statement}
+#### Định nghĩa 4 {#alg-ii-s2-def-4 .statement tag=05NC}
 
 Cho một tập con M của E (resp. một tập con M' của E*), tập hợp các x* ∈ E* (resp. tập hợp các x ∈ E) trực giao với M (resp. M') được gọi là môđun con trực giao hoàn toàn với M (resp. M') (hoặc đơn giản là môđun con trực giao với M (resp. M') nếu không thể có nhầm lẫn).
 
 Theo định nghĩa của một dạng tuyến tính, môđun con của E* trực giao với E thu về 0; môđun con của E* trực giao với {0} đồng nhất với E*.
 
-#### Mệnh đề 6 {#alg-ii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ii-s2-prop-6 .statement tag=05ND}
 
 Cho M, N là hai tập con của E sao cho M ⊂ N; nếu M' và N' là các môđun con của E* trực giao tương ứng với M và N, thì N' ⊂ M'.
 
-#### Mệnh đề 7 {#alg-ii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#alg-ii-s2-prop-7 .statement tag=05NE}
 
 Cho (M_i) là một họ các tập con của E; môđun con trực giao với hợp của các M_i là giao của các môđun con M'_i trực giao tương ứng với các M_i; môđun con này cũng là môđun con trực giao với môđun con của E sinh bởi hợp của các M_i.
 
@@ -389,7 +389,7 @@ Cho E, F là hai A-môđun trái; với mọi ánh xạ tuyến tính u : E → 
 
 Nói cách khác:
 
-#### Định nghĩa 5 {#alg-ii-s2-def-5 .statement}
+#### Định nghĩa 5 {#alg-ii-s2-def-5 .statement tag=05NF}
 
 Với mọi ánh xạ tuyến tính u từ một A-môđun E vào một A-môđun F, ánh xạ tuyến tính y* ↦ y* ∘ u từ đối ngẫu F* của F vào đối ngẫu E* của E được gọi là chuyển vị của u và được ký hiệu bởi t u.
 
@@ -416,17 +416,17 @@ với $u \in \mathrm{Hom}_A(E, F)$ và $v \in \mathrm{Hom}_A(F, G)$, trong đó 
 ^t 1_E = 1_{E^*}.
 $$
 
-#### Nhận xét {#alg-ii-s2-n5-rem-1 .statement}
+#### Nhận xét {#alg-ii-s2-n5-rem-1 .statement tag=05NG}
 
 Từ (17) và (18) suy ra rằng nếu $u$ khả nghịch trái (resp. phải), thì $^t u$ khả nghịch phải (resp. trái).
 
-#### Mệnh đề 8 {#alg-ii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#alg-ii-s2-prop-8 .statement tag=05NH}
 
 *Cho $u : E \to F$ là một ánh xạ A-tuyến tính, M là một môđun con của E và $M'$ là trực giao của M trong $E^*$; trực giao của $u(M)$ trong $F^*$ là ảnh ngược $^t u^{-1}(M')$.*
 
 Điều này suy ra ngay lập tức từ (15).
 
-#### Hệ quả {#alg-ii-s2-n5-cor-1 .statement}
+#### Hệ quả {#alg-ii-s2-n5-cor-1 .statement tag=05NI}
 
 *Trực giao của ảnh $u(E)$ trong $F^*$ là hạt nhân $^t u^{-1}(0)$ của $^t u$.*
 
@@ -434,7 +434,7 @@ Trực giao của E trong $E^*$ là 0.
 
 Nếu $u : E \to F$ là một đẳng cấu, $^t u : F^* \to E^*$ là một đẳng cấu và nếu $v : F \to E$ là đẳng cấu nghịch đảo của $u$, thì $^t v$ là đẳng cấu nghịch đảo của $^t u$ (các công thức (17) và (18)).
 
-#### Định nghĩa 6 {#alg-ii-s2-def-6 .statement}
+#### Định nghĩa 6 {#alg-ii-s2-def-6 .statement tag=05NJ}
 
 *Cho một đẳng cấu u của một A-môđun E lên một A-môđun F, chuyển vị của đẳng cấu nghịch đảo của u (bằng đẳng cấu nghịch đảo của chuyển vị của u) được gọi là đẳng cấu phản biến của u và được ký hiệu bởi $\tilde{u}$.*
 
@@ -459,7 +459,7 @@ với $x \in E, y^* \in F^*$. Ta kiểm tra ngay lập tức rằng ${}^t u$ là
 
 Ta áp dụng Định lý 1 của no. 1 cho trường hợp $F = A_s$:
 
-#### Mệnh đề 9 {#alg-ii-s2-prop-9 .statement}
+#### Mệnh đề 9 {#alg-ii-s2-prop-9 .statement tag=05NK}
 
 *Cho* $E', E, E''$ *là các A-môđun và*
 
@@ -475,7 +475,7 @@ $$
 
 *là khớp.*
 
-#### Hệ quả {#alg-ii-s2-n6-cor-1 .statement}
+#### Hệ quả {#alg-ii-s2-n6-cor-1 .statement tag=05NL}
 
 *Cho M là một môđun con của một A-môđun E và $\phi : E \to E/M$ là đồng cấu chính tắc. Khi đó* ${}^t \phi$ *là một đẳng cấu của đối ngẫu của* $E/M$ *lên môđun con* $M'$ *của* $E^*$ *trực giao với* $M$.
 
@@ -483,7 +483,7 @@ Nếu $j : M \to E$ là đơn ánh chính tắc, thì theo định nghĩa hạt 
 
 Hơn nữa, theo ký hiệu của hệ quả, từ ${}^t j$ ta thu được, khi chuyển qua thương, một đồng cấu *đơn ánh* $E^*/M' \to M^*$.
 
-#### Mệnh đề 10 {#alg-ii-s2-prop-10 .statement}
+#### Mệnh đề 10 {#alg-ii-s2-prop-10 .statement tag=05NM}
 
 *Cho* $(E_i)_{i \in I}$ *là một họ A-môđun và với mọi* $i \in I$ *cho* $j_i : E_i \to E = \bigoplus_{i \in I} E_i$ *là đơn ánh chính tắc.* *Khi đó ánh xạ tích* $x^* \mapsto ({}^t j_i(x^*))$
 
@@ -499,7 +499,7 @@ $$
 
 (22)
 
-#### Hệ quả {#alg-ii-s2-n6-cor-2 .statement}
+#### Hệ quả {#alg-ii-s2-n6-cor-2 .statement tag=05NN}
 
 *Cho M, N là hai môđun con bù nhau trong một A-môđun E và $p : E \to M, q : E \to N$ là các phép chiếu tương ứng; khi đó $^tp + ^tq : M^* \oplus N^* \to E^*$ là một đẳng cấu và $^tp$ (ứng với $^tq$) là một đẳng cấu từ $M^*$ (ứng với $N^*$) lên môđun con của $E^*$ trực giao với $N$ (ứng với $M$). Hơn nữa, nếu $i : M \to E$ và $j : N \to E$ là các đơn ánh chính tắc, thì $^tp \circ ^ti$ và $^tq \circ ^tj$ là các phép chiếu $E^* \to ^tp(M^*)$, $E^* \to ^tq(N^*)$ tương ứng với phân tích của $E^*$ thành tổng trực tiếp của $^tp(M^*)$ và $^tq(N^*)$.
 
@@ -522,13 +522,13 @@ $$
 
 Đặc biệt, nếu $T$ là *hữu hạn*, thì các $e_t^*$ tạo thành một *cơ sở* của $E^*$, khi đó các $f_t$ tạo thành cơ sở chính tắc của $A_d^T$. Do đó:
 
-#### Mệnh đề 11 {#alg-ii-s2-prop-11 .statement}
+#### Mệnh đề 11 {#alg-ii-s2-prop-11 .statement tag=05NO}
 
 *Đối ngẫu của một môđun tự do có một cơ sở gồm n phần tử là một môđun tự do có một cơ sở gồm n phần tử.*
 
 Chú ý rằng đối ngẫu của một môđun tự do có một cơ sở vô hạn không nhất thiết là một môđun tự do (VII, § 3, Bài tập 10).
 
-#### Định nghĩa 7 {#alg-ii-s2-def-7 .statement}
+#### Định nghĩa 7 {#alg-ii-s2-def-7 .statement tag=05NP}
 
 *Nếu E là một môđun tự do với một cơ sở hữu hạn* $(e_t)$, *thì cơ sở* $(e_t^*)$ *của đối ngẫu E* *của E được xác định bởi các hệ thức (23) được gọi là cơ sở đối ngẫu của* $(e_t)$.
 
@@ -546,13 +546,13 @@ $$
 
 Cơ sở đối ngẫu của một cơ sở hữu hạn của một A-môđun *phải* dĩ nhiên được định nghĩa tương tự.
 
-#### Hệ quả {#alg-ii-s2-n6-cor-3 .statement}
+#### Hệ quả {#alg-ii-s2-n6-cor-3 .statement tag=05NQ}
 
 *Đối ngẫu của một môđun xạ ảnh hữu hạn sinh là một môđun xạ ảnh hữu hạn sinh.*
 
 Một A-môđun trái xạ ảnh sinh hữu hạn có thể được đồng nhất với một nhân tử trực tiếp M của một A-môđun tự do $A_s^n$ có một cơ sở hữu hạn (no. 2, Hệ quả 1 của Mệnh đề 4). Khi đó (Mệnh đề 11 và Hệ quả của Mệnh đề 10) M* đẳng cấu với một nhân tử trực tiếp của $A_d^n$, do đó có hệ quả.
 
-#### Mệnh đề 12 {#alg-ii-s2-prop-12 .statement}
+#### Mệnh đề 12 {#alg-ii-s2-prop-12 .statement tag=05NR}
 
 *Cho E là một A-môđun và* $(a_t)_{t \in T}$ *một hệ sinh của E. Các điều kiện sau là tương đương:*
 (a) *E là một A-môđun xạ ảnh.*
@@ -581,37 +581,37 @@ $$
 
 là giao hoán, như suy ra ngay lập tức từ các định nghĩa và công thức (15) cho chuyển vị của một ánh xạ tuyến tính.
 
-#### Mệnh đề 13 {#alg-ii-s2-prop-13 .statement}
+#### Mệnh đề 13 {#alg-ii-s2-prop-13 .statement tag=05NS}
 
 *Nếu E là một môđun tự do* (tương ứng, *một môđun tự do với một cơ sở hữu hạn*), *thì ánh xạ chính tắc* $c_E : E \to E^{**}$ *là đơn ánh* (tương ứng, *song ánh*).
 
 Cho $(e_t)_{t \in T}$ là một cơ sở của E và cho $(e_t^*)$ là họ các dạng tọa độ tương ứng; theo định nghĩa, nếu $x \in E$ sao cho $\tilde{x} = 0$, thì $\langle x, e_t^* \rangle = 0$ với mọi $t \in T$, nói cách khác mọi tọa độ của $x$ đều bằng không, do đó $x = 0$. Giả sử thêm rằng T là hữu hạn; vì $\langle \tilde{e}_t, e_{t'}^* \rangle = \delta_{tt'}$, $(\tilde{e}_t)$ là cơ sở đối ngẫu của $(e_t^*)$ trong $E^{**}$ và, vì $c_E$ biến một cơ sở của E thành một cơ sở của $E^{**}$, $c_E$ là song ánh (§ 1, no. 11, Hệ quả 3 của Mệnh đề 17). Hơn nữa ta đã chứng minh:
 
-#### Hệ quả 1 {#alg-ii-s2-prop-13-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s2-prop-13-cor-1 .statement tag=05NT}
 
 *Cho E là một A-môđun tự do với một cơ sở hữu hạn; với mọi cơ sở* $(e_t)$ *của E, $(c_E(e_t))$ *là cơ sở đối ngẫu của cơ sở* $(e_t^*)$ *của* $E^*$ *đối ngẫu với* $(e_t)$.
 
 Trong trường hợp này người ta nói rằng $(e_t)$ và $(e_t^*)$ là hai *cơ sở đối ngẫu của nhau*.
 
-#### Hệ quả 2 {#alg-ii-s2-prop-13-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s2-prop-13-cor-2 .statement tag=05NU}
 
 *Nếu E là một A-môđun tự do với một cơ sở hữu hạn, mọi cơ sở hữu hạn của E* là cơ sở đối ngẫu của một cơ sở của E.*
 
 Chỉ cần xét trong E** cơ sở đối ngẫu của cơ sở đã cho và đồng nhất một cách chính tắc E với E**.
 
-#### Hệ quả 3 {#alg-ii-s2-prop-13-cor-3 .statement}
+#### Hệ quả 3 {#alg-ii-s2-prop-13-cor-3 .statement tag=05NV}
 
 *Cho E, F là hai A-môđun mỗi môđun đều có một cơ sở hữu hạn, E (tương ứng, F) được đồng nhất một cách chính tắc với song đối ngẫu của nó E** (tương ứng, F**). Khi đó, với mọi ánh xạ tuyến tính u : E → F, $t^t u = u$.*
 
 Điều này suy ra ngay lập tức từ tính giao hoán của biểu đồ (27).
 
-#### Hệ quả 4 {#alg-ii-s2-prop-13-cor-4 .statement}
+#### Hệ quả 4 {#alg-ii-s2-prop-13-cor-4 .statement tag=05NW}
 
 *Nếu P là một môđun xạ ảnh (tương ứng, một môđun xạ ảnh hữu hạn sinh) thì ánh xạ chính tắc $c_P : P \to P**$ là đơn ánh (tương ứng, song ánh).*
 
 Ta sẽ dùng bổ đề sau:
 
-#### Bổ đề 1 {#alg-ii-s2-lem-1 .statement}
+#### Bổ đề 1 {#alg-ii-s2-lem-1 .statement tag=05NX}
 
 *Cho M, N là hai môđun con bù nhau trong một A-môđun E và i : M → E, j : N → E là các đơn ánh chính tắc. Khi đó biểu đồ*
 
@@ -651,7 +651,7 @@ Người ta thường nói, một cách lỏng lẻo, rằng một bài toán l�
 
 Cho một phương trình tuyến tính $u(x) = y_0$, phương trình $u(x) = 0$ được gọi là phương trình tuyến tính thuần nhất liên kết với $u(x) = y_0$.
 
-#### Mệnh đề 14 {#alg-ii-s2-prop-14 .statement}
+#### Mệnh đề 14 {#alg-ii-s2-prop-14 .statement tag=05NY}
 
 *Nếu $x_0$ là một nghiệm của phương trình tuyến tính $u(x) = y_0$, tập hợp các nghiệm của phương trình này bằng tập hợp các phần tử $x_0 + z$, trong đó $z$ chạy qua tập hợp các nghiệm của phương trình thuần nhất liên kết $u(x) = 0$.*
 
@@ -661,7 +661,7 @@ Nói cách khác, nếu phương trình $u(x) = y_0$ có ít nhất một nghi�
 
 Theo Mệnh đề 14, để một phương trình tuyến tính $u(x) = y_0$ có *chính xác một nghiệm*, điều kiện cần và đủ là nó có ít nhất một nghiệm và $\overline{u}(0) = \{0\}$ (nói cách khác, phương trình thuần nhất liên kết không có nghiệm khác không, hoặc cũng có nghĩa là $u$ là *đơn ánh*); trong trường hợp này, với *mọi* $y \in F$, phương trình $u(x) = y$ có *nhiều nhất* một nghiệm.
 
-#### Mệnh đề 15 {#alg-ii-s2-prop-15 .statement}
+#### Mệnh đề 15 {#alg-ii-s2-prop-15 .statement tag=05NZ}
 
 *Cho $u$ là một ánh xạ tuyến tính từ một môđun $E$ vào một môđun $F$. Nếu phương trình $u(x) = y_0$ có ít nhất một nghiệm, thì $y_0$ trực giao với hạt nhân của $^t u$.*
 
@@ -671,7 +671,7 @@ Nói rằng $u(x) = y_0$ có một nghiệm nghĩa là $y_0 \in u(E)$, và mện
 
 Hãy nhận xét rằng tiêu chuẩn cần để tồn tại một nghiệm của $u(x) = y_0$, được cho bởi Mệnh đề 15, là đủ khi $A$ là một trường (§ 7, no. 6, Mệnh đề 12), nhưng *không đúng trong trường hợp tổng quát* (Bài tập 10).
 
-#### Nhận xét {#alg-ii-s2-n8-rem-1 .statement}
+#### Nhận xét {#alg-ii-s2-n8-rem-1 .statement tag=05O0}
 
 (1) Cho $E$ là một $A$-môđun, $(F_i)_{i \in I}$ là một họ các $A$-môđun và với mọi $i \in I$ cho $u_i : E \to F_i$ là một ánh xạ tuyến tính. Mọi hệ phương trình tuyến tính
 $$

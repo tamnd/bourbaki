@@ -32,7 +32,7 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: 870217599282e5e143dd30a183928a6c48d60513829864bbc0da3fd3087cb2c1
+content_sha256: 7c814ee426fd4cce4ae4e0250e27a4d8439a1d773c22fdc6493efcaf9c80fbd5
 translated_from: content/en/int/VIII/01_s1_convolution.md
 source_content_sha256: 05a5c461e581e8c2e10046aed639d554454123e90cb161ea1a5ac41500577113
 translation_model: gpt-5.4
@@ -52,7 +52,7 @@ $$
 \int_Y f(y)\, d\nu(y) = \int_X f(\varphi(x)) d\mu(x).
 $$
 
-#### Định nghĩa 1 {#int-viii-s1-def-1 .statement}
+#### Định nghĩa 1 {#int-viii-s1-def-1 .statement tag=09I0}
 
 *Cho $X_1, \ldots, X_n$ là các không gian compact địa phương, $\mu_i$ là một độ đo trên $X_i$ ($1 \leq i \leq n$); đặt X là tích của các $X_i$, $\mu$ là tích của các $\mu_i$. Cho $\varphi$ là một ánh xạ từ X vào một không gian compact địa phương Y. Người ta nói rằng dãy $(\mu_i)$ là $\varphi$-khả chập, hoặc rằng $\mu_1, \ldots, \mu_n$ là $\varphi$-khả chập, nếu $\varphi$ là $\mu$-thực sự; trong trường hợp đó, ảnh $\nu = \varphi(\mu)$ của $\mu$ dưới $\varphi$ được gọi là tích chập của các $\mu_i$ đối với $\varphi$, và được ký hiệu là $*_{\varphi}(\mu_i)_{1 \leq i \leq n}$, hoặc $*_{i=1}^n \mu_i$, hoặc $\mu_1 * \mu_2 * \cdots * \mu_n$.*
 
@@ -95,7 +95,7 @@ $$
 (\mu_1 + \mu'_1) * \mu_2 * \cdots * \mu_n = \mu_1 * \mu_2 * \cdots * \mu_n + \mu'_1 * \mu_2 * \cdots * \mu_n.
 $$
 
-#### Ví dụ {#int-viii-s1-n1-exa-1 .statement}
+#### Ví dụ {#int-viii-s1-n1-exa-1 .statement tag=09I1}
 
 — 1) Với mọi $\varphi$, các độ đo $\varepsilon_{x_i}$, trong đó $x_i \in X_i$ với $1 \leq i \leq n$, luôn luôn khả chập và có tích chập là $\varepsilon_y$, với $y = \varphi(x_1, x_2, \ldots, x_n)$. Do đó, nếu mỗi $\mu_i$ đều có giá hữu hạn, thì các $\mu_i$ khả chập và $\mu_1 * \cdots * \mu_n$ có giá hữu hạn. Đặc biệt, cho $M$ là một monoid$^1$ được trang bị một tôpô compact địa phương; nếu lấy $\varphi$ là luật hợp thành trong $M$ thì các độ đo trên $M$ có giá hữu hạn tạo thành, đối với phép chập, một đại số không gì khác hơn là *đại số của monoid* $M$ (trên $\mathbf{R}$ hoặc trên $\mathbf{C}$, tùy theo người ta xét các độ đo thực hay phức) (A, III, §2, No. 6).
 
@@ -127,7 +127,7 @@ Khi đó $D(\mu * \mu') = D(\mu)D(\mu')$.
 
 Bổ đề sau đây hoàn chỉnh Mệnh đề 11 của Ch. V, §8, No. 5:²
 
-#### Bổ đề 1 {#int-viii-s1-lem-1 .statement}
+#### Bổ đề 1 {#int-viii-s1-lem-1 .statement tag=09I2}
 
 Với $1 \leq i \leq n$, gọi $X_i, Y_i$ là hai không gian compact địa phương, $\mu_i$ là một độ đo trên $X_i$, và $\varphi_i$ là một ánh xạ liên tục từ $X_i$ vào $Y_i$. Đặt $X = \prod_i X_i$, $Y = \prod_i Y_i$, $\mu = \bigotimes_i \mu_i$, và $\varphi$ là ánh xạ từ $X$ vào $Y$ bằng tích của các $\varphi_i$. Nếu $\varphi$ là $\mu$-thực sự và $\mu_i \neq 0$ với mọi $i$, thì các $\varphi_i$ là $\mu_i$-thực sự và $\varphi(\mu) = \bigotimes_i \varphi_i(\mu_i)$.
 
@@ -139,13 +139,13 @@ Ta có thể giả sử rằng các $\mu_i$ là dương và $n = 2$. Cho $f_1 \i
 
 Bổ đề sau hoàn tất Mệnh đề 4 của Ch. V, §6, No. 3.\footnote{Mệnh đề của bổ đề này thực ra là phần *b*) của Mệnh đề 4 đã dẫn, một phần đã không được đưa vào trong ấn bản thứ nhất của Ch. V.}
 
-#### Bổ đề 2 {#int-viii-s1-lem-2 .statement}
+#### Bổ đề 2 {#int-viii-s1-lem-2 .statement tag=09I3}
 
 *Giả sử T, T', T'' là ba không gian địa phương compact, $\mu$ là một độ đo trên T, $\pi$ là một ánh xạ $\mu$-đo được từ T vào T', $\pi'$ là một ánh xạ liên tục từ T' vào T'', và $\pi'' = \pi' \circ \pi$. Nếu $\pi''$ là $\mu$-thực sự, thì $\pi$ là $\mu$-thực sự, $\pi'$ là $\pi(\mu)$-thực sự, và $\pi''(\mu) = \pi'(\pi(\mu))$.*
 
 Cho K' là một tập con compắc của T'. Khi đó $K'' = \pi'(K')$ là compắc, do đó $\pi''(K'')$ là khả tích thiết yếu đối với $\mu$, do đó $\pi^{-1}(K') \subset \pi''(K'')$ là khả tích thiết yếu đối với $\mu$, vì thế $\pi$ là $\mu$-thực sự. Khi đó $\pi'$ là $\pi(\mu)$-thực sự và $\pi''(\mu) = \pi'(\pi(\mu))$ theo Ch. V, §6, No. 3, Mệnh đề 4.
 
-#### Mệnh đề 1 {#int-viii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#int-viii-s1-prop-1 .statement tag=09I4}
 
 *Cho $X_{ij}$ ($1 \leq i \leq m, 1 \leq j \leq n_i$), $Y_i$ ($1 \leq i \leq m$), và Z là các không gian compact địa phương; với mỗi i, gọi $\varphi_i$ là một ánh xạ từ $X_i = \prod_j X_{ij}$ vào $Y_i$; gọi $\varphi$ là tích của các $\varphi_i$, ánh xạ $X = \prod_i X_i$ vào $Y = \prod_i Y_i$; gọi $\psi$ là một ánh xạ từ Y vào Z.
 
@@ -177,7 +177,7 @@ $$
 $$
 Theo Bổ đề 2, $\psi$ là thực sự đối với $\bigotimes_i (*_j \mu_{ij})$. Do đó suy ra mệnh đề.
 
-#### Hệ quả {#int-viii-s1-n2-cor-1 .statement}
+#### Hệ quả {#int-viii-s1-n2-cor-1 .statement tag=09I5}
 
 — Cho $X_i, X'_i$ ($1 \leq i \leq n$), $Y, Y'$ là các không gian compact địa phương; cho $\varphi, \varphi'$ là các ánh xạ liên tục từ $X = \prod_i X_i$ vào $Y$ và từ $X' = \prod_i X'_i$ vào $Y'$, tương ứng; cho $f_i$ là các ánh xạ liên tục từ $X_i$ vào $X'_i$ ($1 \leq i \leq n$) và $g$ là một ánh xạ liên tục từ $Y$ vào $Y'$, sao cho $\varphi' \circ f = g \circ \varphi$, trong đó $f$ là ánh xạ từ $X$ vào $X'$ bằng tích của các $f_i$. Cho $\mu_i$ là các độ đo được cho tương ứng trên các $X_i$, tất cả đều $\neq 0$. Khi đó hai khẳng định sau là tương đương:
 (i) $f_i$ là $\mu_i$-thực sự với mọi $i$, và các độ đo $f_i(|\mu_i|)$ là $\varphi'$-khả chập;
@@ -197,7 +197,7 @@ $$
 
 ### 3. Trường hợp các độ đo bị chặn
 
-#### Mệnh đề 2 {#int-viii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#int-viii-s1-prop-2 .statement tag=09I6}
 
 — Cho $X_1, \ldots, X_n, Y$ là các không gian địa phương compact, $\mu_i$ là một độ đo bị chặn trên $X_i$ ($1 \leq i \leq n$), $\mu$ là tích của các $\mu_i$, $\varphi$ là một ánh xạ $\mu$-đo được từ $\prod_{i=1}^n X_i$ vào $Y$. Khi đó các $\mu_i$ là $\varphi$-khả chập và
 $$
@@ -216,7 +216,7 @@ $$
 \left\| *_{i} \mu_i \right\| \leq \left\| *_{i} \mu'_i \right\| = \prod_{i=1}^n \| \mu_i \|.
 $$
 
-#### Mệnh đề 3 {#int-viii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#int-viii-s1-prop-3 .statement tag=09I7}
 
 — Cho $X_1, \ldots, X_n, Y$ là các không gian compact địa phương, $\varphi$ là một ánh xạ liên tục từ $\prod_{i=1}^n X_i$ vào $Y$. Khi đó ánh xạ
 $$
@@ -227,13 +227,13 @@ từ $\prod_{i=1}^n \mathscr{M}^1(X_i)$ vào $\mathscr{M}^1(Y)$ là một ánh x
 
 ### 4. Các tính chất liên quan đến giá
 
-#### Mệnh đề 4 {#int-viii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#int-viii-s1-prop-4 .statement tag=09I8}
 
 — Cho $X_1, \ldots, X_n, Y$ là các không gian compact địa phương, $\mu_i$ là một độ đo trên $X_i$ ($1 \leq i \leq n$), $S_i$ là giá của nó, và $\varphi$ là một ánh xạ liên tục từ $\prod_i X_i$ vào $Y$ sao cho hạn chế của $\varphi$ trên $\prod_i S_i$ là thực sự. Khi đó các $\mu_i$ là $\varphi$-khả chập.
 
 Thật vậy, cho $K$ là một tập con compact của $Y$. Giá của $\mu = \mu_1 \otimes \cdots \otimes \mu_n$ là $S = \prod_i S_i$ (Ch. III, §4, No. 2, Prop. 2). Do đó $\overline{\varphi}(K) \cap \left( \prod_i X_i - S \right)$ là $\mu$-không đáng kể. Mặt khác, $\overline{\varphi}(K) \cap S$ là compact. Vậy $\overline{\varphi}(K)$ là $\mu$-khả tích.
 
-#### Mệnh đề 5 {#int-viii-s1-prop-5 .statement}
+#### Mệnh đề 5 {#int-viii-s1-prop-5 .statement tag=09I9}
 
 *Cho $X_1, \ldots, X_n, Y$ là các không gian compact địa phương, $\mu_i$ là một độ đo trên $X_i$ ($1 \leq i \leq n$), $\mu$ là tích của các $\mu_i$, $\varphi$ là một ánh xạ $\mu$-thực sự của $\prod_i X_i$ vào $Y$, và $S_i$ là giá của $\mu_i$.
 
@@ -243,13 +243,13 @@ b) *Nếu $\varphi$ liên tục và các $\mu_i$ là dương, thì giá của $*
 
 Đặt $S = \prod_i S_i$ là giá của $\mu$. Giá của $*_{i} \mu_i$ được chứa trong $\overline{\varphi(S)}$ theo Ch. V, §6, No. 2, Cor. 3 of Prop. 2. *Nếu $\varphi$ liên tục và các $\mu_i$ là dương, thì giá của $*_{i} \mu_i$ là $\overline{\varphi(S)}$* (*loc. cit.*, Cor. 4 of Prop. 2).
 
-#### Hệ quả {#int-viii-s1-n4-cor-1 .statement}
+#### Hệ quả {#int-viii-s1-n4-cor-1 .statement tag=09IA}
 
 *Nếu $\varphi$ liên tục và các $\mu_i$ có giá compact, thì các $\mu_i$ khả tích chập được và $*_{i} \mu_i$ có giá compact.*
 
 ### 5. Biểu thức vectơ của tích chập
 
-#### Mệnh đề 6 {#int-viii-s1-prop-6 .statement}
+#### Mệnh đề 6 {#int-viii-s1-prop-6 .statement tag=09IB}
 
 *Cho $X, Y, Z$ là các không gian địa phương compact, $\varphi$ là một ánh xạ liên tục từ $X \times Y$ vào $Z$, và $\lambda, \mu$ là các độ đo trên $X, Y$. Để $\lambda$ và $\mu$ là $\varphi$-khả chập, điều kiện cần và đủ là ánh xạ $(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$ từ $X \times Y$ vào $\mathscr{M}(Z)$ là khả tích vô hướng đối với $(\lambda \otimes \mu)$ theo tôpô $\sigma(\mathscr{M}(Z), \mathscr{H}(Z))$, khi đó*
 
@@ -265,7 +265,7 @@ $$
 
 do đó $\lambda * \mu = \int_{X \times Y} \varepsilon_{\varphi(x,y)} d\lambda(x) d\mu(y)$.
 
-#### Mệnh đề 7 {#int-viii-s1-prop-7 .statement}
+#### Mệnh đề 7 {#int-viii-s1-prop-7 .statement tag=09IC}
 
 *Cho X, Y, Z là các không gian compact địa phương, $\varphi$ là một ánh xạ liên tục từ $X \times Y$ vào Z, và $\lambda, \mu$ là các độ đo trên X, Y. Giả sử rằng với mọi $x \in X$, $\varepsilon_x$ và $\mu$ là khả chập theo $\varphi$. Để $\lambda$ và $\mu$ là khả chập theo $\varphi$, điều kiện cần và đủ là ánh xạ $x \mapsto \varepsilon_x * |\mu|$ từ X vào $\mathscr{M}(Z)$ là khả tích vô hướng theo $\lambda$ đối với tôpô $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, khi đó $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.*
 

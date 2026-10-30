@@ -24,9 +24,9 @@ subsections:
       pdf_page: 123
 statements: 9
 exercises: 5
-content_sha256: 8df2f77e143adf7b521873e9f6a8928ec1b9411dfe1875419162446a84cee9c3
+content_sha256: 21c06e497addb412e5da1eee2d348b592966737af52592bb34a8a2bc8cd4b83d
 translated_from: content/en/top/VIII/03_s3_infinite_sums_and_products_of_complex.md
-source_content_sha256: ae4b4fbbeeb49bd4c4110407841c8096fb7aa47e7ae95f9f57dd94c73c707730
+source_content_sha256: 07d4fe8c1f201c515f0cbf75d3cd066fc09084c3035b0204be862ef63ea6d88e
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-818dcaf8
 glossary_version: 34
@@ -40,7 +40,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Vì nhóm cộng của trường $\mathbf{C}$ chính là nhóm cộng của $\mathbf{R}^2$, nên không cần nghiên cứu riêng các họ khả tổng và các chuỗi trong $\mathbf{C}$, vì điều này đã được bao hàm trong lý thuyết tổng quát của Chương VII, § 3; ta để người đọc làm bài tập chuyển các kết quả của lý thuyết này sang ngôn ngữ của lý thuyết số phức. Ta chỉ phát biểu mệnh đề sau đây, là một hệ quả của Mệnh đề 3 của Chương VII, § 3, no. 1:
 
-#### Mệnh đề 1 {#top-viii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#top-viii-s3-prop-1 .statement tag=0C0I}
 
 *Nếu* $(u_\lambda)_{\lambda \in L}$ *và* $(v_\mu)_{\mu \in M}$ *là hai họ khả tổng của các số phức, thì họ* $(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times M}$ *khả tổng và ta có*
 
@@ -54,7 +54,7 @@ Ta để người đọc phát biểu kết quả tương ứng cho các quatern
 
 Trong nhóm nhân $\mathbf{C}^*$ của các số phức khác không, một họ $(z_i)_{i \in I}$ không thể khả tích trừ khi $\lim z_i = 1$ theo bộ lọc các phần bù của các tập con hữu hạn của $I$ (Chương III, § 5, no. 2, Mệnh đề 1); hơn nữa, vì mọi điểm của $\mathbf{C}^*$ đều có một hệ cơ bản đếm được các lân cận, tập các chỉ số $i$ sao cho $z_i \neq 1$ là đếm được nếu họ $(z_i)$ khả tích (Chương III, § 5, no. 2, Hệ quả của Mệnh đề 1).
 
-#### Mệnh đề 2 {#top-viii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#top-viii-s3-prop-2 .statement tag=0C0J}
 
 *Một họ* $(z_i)$ *các số phức* $z_i = r_i (\cos \theta_i + i \sin \theta_i)$ *khả tích khi và chỉ khi họ* $(r_i)$ *các giá trị tuyệt đối của các* $z_i$ *khả tích trong* $\mathbf{R}_+^*$ *và họ* $(\theta_i)$ *các biên độ của các* $z_i$ *khả tổng trong nhóm các góc* $\mathfrak{A}$.
 
@@ -64,7 +64,7 @@ Nếu ta ánh xạ mỗi góc $\theta$ vào một trong các số đo của nó 
 
 Định lý sau đây cho một tiêu chuẩn khác để một họ các số phức, được viết dưới dạng $(1 + u_i)$, khả tích trong $\mathbf{C}^*$. (Nó tổng quát hóa Định lý 4 của Chương IV, $\S$ 7, no. 4; xem thêm Chương IX, Phụ lục, no. 2, Mệnh đề 1):
 
-#### Định lý 1 {#top-viii-s3-thm-1 .statement}
+#### Định lý 1 {#top-viii-s3-thm-1 .statement tag=0C0K}
 
 *Họ* $(1 + u_i)_{i \in I}$ *khả tích trong* $\mathbf{C}^*$ *khi và chỉ khi họ* $(|u_i|)$ *khả tổng trong* $\mathbf{R}$.
 
@@ -74,7 +74,7 @@ $$
 p_J = \prod_{i \in J} (1 + a_i), \quad s_J = \sum_{i \in J} a_i, \quad \sigma_J = \sum_{i \in J} |a_i|.
 $$
 
-#### Bổ đề 1 {#top-viii-s3-lem-1 .statement}
+#### Bổ đề 1 {#top-viii-s3-lem-1 .statement tag=0C0L}
 
 *Với mỗi tập con hữu hạn* $J$ *của* $I$, *đặt* $\varphi(J) = \sup_{L \subset J} (p_L - 1)$. *Khi đó với mỗi tập con* $L$ *của* $J$ *ta có*
 
@@ -90,7 +90,7 @@ $$
 
 điều này chứng minh bổ đề.
 
-#### Bổ đề 2 {#top-viii-s3-lem-2 .statement}
+#### Bổ đề 2 {#top-viii-s3-lem-2 .statement tag=0C0M}
 
 *Nếu* $J$ *là một tập con hữu hạn của* $I$ *sao cho* $\varphi(J) < 1/4$, *thì*
 
@@ -116,19 +116,19 @@ Chứng minh trên cũng áp dụng, với những sửa đổi hiển nhiên, c
 
 Đối với một tích vô hạn các số phức khác không có nhân tử tổng quát $z_n = r_n (\cos \theta_n + i \sin \theta_n)$ hội tụ trong $\mathbf{C}^*$, điều kiện cần và đủ, từ cấu trúc của nhóm $\mathbf{C}^*$, là tích có nhân tử tổng quát $r_n$ hội tụ trong $\mathbf{R}_+^*$ và chuỗi có số hạng tổng quát $t_n$ (số đo của $\theta_n$ nằm trong ]$-\frac{1}{2}a$, $\frac{1}{2}a$]) hội tụ trong $\mathbf{R}$.
 
-#### Định nghĩa 1 {#top-viii-s3-def-1 .statement}
+#### Định nghĩa 1 {#top-viii-s3-def-1 .statement tag=0C0N}
 
 *Một tích vô hạn các số phức, có nhân tử tổng quát* $1 + u_n$, *được gọi là hội tụ tuyệt đối nếu tích có nhân tử tổng quát* $1 + |u_n|$ *hội tụ* (hoặc tương đương, nếu chuỗi có số hạng tổng quát $|u_n|$ hội tụ).
 
-#### Mệnh đề 3 {#top-viii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#top-viii-s3-prop-3 .statement tag=0C0O}
 
 *Một tích vô hạn các số phức hội tụ giao hoán khi và chỉ khi nó hội tụ tuyệt đối.*
 
-#### Nhận xét 1 {#top-viii-s3-n3-rem-1 .statement}
+#### Nhận xét 1 {#top-viii-s3-n3-rem-1 .statement tag=0C0P}
 
 Tích có nhân tử tổng quát $|1 + u_n|$ có thể hội tụ, và thực sự hội tụ tuyệt đối trong $\mathbf{R}_i^*$, mà không có sự hội tụ của tích có nhân tử tổng quát $1 + |u_n|$ (xem Bài tập 4); dĩ nhiên, điều này không thể xảy ra nếu tất cả các $u_n$ là thực và $> 0$ kể từ một chỉ số nào đó trở đi.
 
-#### Nhận xét 2 {#top-viii-s3-n3-rem-2 .statement}
+#### Nhận xét 2 {#top-viii-s3-n3-rem-2 .statement tag=0C0Q}
 
 Như đã nhận xét đối với các tích của các nhân tử $> 0$, sự hội tụ của chuỗi có số hạng tổng quát $u_n$ không phải là điều kiện cần cũng không phải là điều kiện đủ cho sự hội tụ của tích có nhân tử tổng quát $1 + u_n$.
 

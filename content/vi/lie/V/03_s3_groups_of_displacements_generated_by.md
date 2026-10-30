@@ -52,9 +52,9 @@ subsections:
       pdf_page: 104
 statements: 37
 exercises: 8
-content_sha256: 2129bb4a9db9fcbf43a1ecbedd817bfeadcbc9aa9f296aede966ce6a2f4c2d20
+content_sha256: cb69c170dcd3dbadb5a6c221e2cd81d5e8aadcb600e74e56ede220480e2f0e05
 translated_from: content/en/lie/V/03_s3_groups_of_displacements_generated_by.md
-source_content_sha256: ace6f75361817e9cf69d520ef4f96ec5f2eb709271871f39e0f0fff9b6cfb051
+source_content_sha256: 02728aeee7ef61f463bfc0d76019e202b4db8d0c85c8b58d13411941173aa716
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-19cfa37a
 glossary_version: 34
@@ -77,7 +77,7 @@ Vì E là compact địa phương, từ Nhận xét của $§ 4$, no. 5 của T�
 
 ### 1. CÁC KẾT QUẢ SƠ BỘ
 
-#### Bổ đề 1 {#lie-v-s3-lem-1 .statement}
+#### Bổ đề 1 {#lie-v-s3-lem-1 .statement tag=0AQ2}
 
 Tập hợp các siêu phẳng $\mathscr{H}$ là hữu hạn địa phương.
 
@@ -85,7 +85,7 @@ Thật vậy, cho K là một tập con compact của E. Nếu một siêu phẳ
 
 Do đó ta có thể áp dụng cho E và $\mathscr{H}$ các định nghĩa và các kết quả của $§ 1$. Ta sẽ gọi các buồng, mặt, tường, v.v. được xác định trong E bởi $\mathscr{H}$ đơn giản là các buồng, mặt, tường, v.v. tương đối với W. Mọi phép dời w ∈ W hoán vị các buồng, mặt, tường, v.v.
 
-#### Bổ đề 2 {#lie-v-s3-lem-2 .statement}
+#### Bổ đề 2 {#lie-v-s3-lem-2 .statement tag=0AQ3}
 
 Cho C là một buồng.
 (i) Với mọi x ∈ E, tồn tại một phần tử w ∈ W sao cho w(x) ∈ $\overline{C}$.
@@ -118,7 +118,7 @@ theo (1). Có b ∈ H và hai vectơ t và u sao cho a = b + t và y = b + u, ve
 
 ### 2. QUAN HỆ VỚI CÁC HỆ COXETER
 
-#### Định lý 1 {#lie-v-s3-thm-1 .statement}
+#### Định lý 1 {#lie-v-s3-thm-1 .statement tag=0AQ4}
 
 Cho $C$ là một buồng và cho $S$ là tập hợp các phản xạ đối với các tường của $C$.
 
@@ -148,7 +148,7 @@ Bổ đề 2 chỉ ra rằng W tác động bắc cầu trên tập hợp các p
 
 Cuối cùng, cho H là một siêu phẳng sao cho $s_H \in W$. Nếu H không thuộc về $\mathfrak{H}$, thì sẽ có ít nhất một phòng $C'$ gặp H (§ 1, no. 3, Mệnh đề 7). Mọi điểm của $H \cap C'$ đều bất biến dưới tác động của $s_H$, và do đó thuộc về các phòng $C'$ và $s_H(C')$; vậy $C' = s_H(C')$, điều này mâu thuẫn với (iii) vì $s_H \neq 1$.
 
-#### Hệ quả {#lie-v-s3-n2-cor-1 .statement}
+#### Hệ quả {#lie-v-s3-n2-cor-1 .statement tag=0AQ5}
 
 *Cho $\Sigma$ là một tập hợp các phép phản xạ sinh W. Khi đó mọi phép phản xạ thuộc W đều liên hợp với một phần tử của $\Sigma$.*
 
@@ -163,11 +163,11 @@ b) *Nếu $x, y \in D$ và $w \in W$ sao cho $y = w(x)$, thì $y = x$ (dù ta c�
 
 Ta sẽ chứng minh ba mệnh đề sau:
 
-#### Định lý 2 {#lie-v-s3-thm-2 .statement}
+#### Định lý 2 {#lie-v-s3-thm-2 .statement tag=0AQ6}
 
 *Với mọi buồng C, bao đóng $\overline{C}$ của C là một miền cơ bản cho tác động của W trên E.*
 
-#### Mệnh đề 1 {#lie-v-s3-prop-1 .statement}
+#### Mệnh đề 1 {#lie-v-s3-prop-1 .statement tag=0AQ7}
 
 *Cho F là một diện và C là một buồng sao cho $F \subset \overline{C}$. Cho $w \in W$. Các điều kiện sau là tương đương:*
 (i) $w(F)$ cắt F;
@@ -181,7 +181,7 @@ Ta sẽ chứng minh ba mệnh đề sau:
 
 Với mọi tập con $A$ của $E$, ký hiệu $W(A)$ là nhóm con của $W$ gồm các phần tử cố định mọi điểm của $A$.
 
-#### Mệnh đề 2 {#lie-v-s3-prop-2 .statement}
+#### Mệnh đề 2 {#lie-v-s3-prop-2 .statement tag=0AQ8}
 
 Cho $A$ là một tập con không rỗng của $E$, cho $\mathfrak{H}_A$ là tập các siêu phẳng $H \in \mathfrak{H}$ chứa $A$, cho $A'$ là giao của các $H \in \mathfrak{H}_A$, và cho $F$ là một diện của E mở trong $A'$ (§ 1, no. 3, Mệnh đề 7). Khi đó $W(A) = W(A') = W(F)$, và $W(A)$ được sinh bởi các phép phản xạ đối với các siêu phẳng trong $\mathfrak{H}_A$.
 
@@ -215,15 +215,15 @@ $$
 
 do đó có mệnh đề.
 
-#### Nhận xét 1 {#lie-v-s3-n3-rem-1 .statement}
+#### Nhận xét 1 {#lie-v-s3-n3-rem-1 .statement tag=0AQ9}
 
 Suy ra từ Định lý 2 rằng, nếu C là một phòng và F là một diện, tồn tại một diện duy nhất F' được chứa trong $\overline{C}$ được biến đổi thành F bởi một phần tử của W.
 
-#### Nhận xét 2 {#lie-v-s3-n3-rem-2 .statement}
+#### Nhận xét 2 {#lie-v-s3-n3-rem-2 .statement tag=0AQA}
 
 Suy ra từ các Mệnh đề 1 và 2 rằng, với mọi tập con không rỗng A của E, tồn tại một điểm $a \in E$ sao cho $W(A) = W(\{a\})$; hơn nữa, nhóm $W(A)$ là một nhóm Coxeter (Định lý 1).
 
-#### Nhận xét 3 {#lie-v-s3-n3-rem-3 .statement}
+#### Nhận xét 3 {#lie-v-s3-n3-rem-3 .statement tag=0AQB}
 
 Cho C là một phòng của E và S là tập hợp các phép phản xạ đối với các tường của C. Cho $w \in W$ và cho $(s_1, \ldots, s_q)$ là một phân tích rút gọn của w đối với S. Nếu $x \in \overline{C}$ được cố định bởi w, thì $s_j(x) = x$ với mọi j: điều này suy ra từ Mệnh đề 1 ở trên và Hệ quả 1 của Mệnh đề 7 của Chương IV, § 1.
 
@@ -239,7 +239,7 @@ từ S đến $S' = S(C')$, và ta có $m(f(s), f(s')) = m(s, s')$. Suy ra rằn
 
 Cho C là một phòng. Với mọi $i \in I$, ký hiệu $H_i(C)$ là tường của C sao cho $s_i(C)$ là phép phản xạ đối với $H_i(C)$ và $e_i(C)$ là vectơ đơn vị vuông góc với $H_i(C)$ nằm cùng phía của $H_i(C)$ với C. Ánh xạ $i \mapsto H_i(C)$ được gọi là họ các tường của C được đánh chỉ số một cách chính tắc.
 
-#### Mệnh đề 3 {#lie-v-s3-prop-3 .statement}
+#### Mệnh đề 3 {#lie-v-s3-prop-3 .statement tag=0AQC}
 
 Cho C là một phòng và cho $i, j \in I$ với $i \neq j$. Đặt $s_i = s_i(C), H_i = H_i(C), e_i = e_i(C)$ và định nghĩa $s_j, H_j$ và $e_j$ tương tự.
 
@@ -263,13 +263,13 @@ Gọi $W'$ là nhóm con của W sinh bởi $s_i$ và $s_j$. Với mọi $w \in 
 
 Cuối cùng, mệnh đề (iii) suy ra ngay lập tức từ (i) và (ii), vì $m_{ij} \geq 2$ với $i \neq j$.
 
-#### Nhận xét {#lie-v-s3-n4-rem-1 .statement}
+#### Nhận xét {#lie-v-s3-n4-rem-1 .statement tag=0AQD}
 
 Công thức (4) thực sự đúng với mọi $i, j \in I$: thật vậy, $\pi / m_{ij} = 0$ nếu $m_{ij} = \infty$, và nếu $i = j$ thì $m_{ij} = 1$ và $(e_i|e_j) = 1$.
 
 ### 5. HỆ CÁC VECTƠ CÓ TÍCH VÔ HƯỚNG ÂM
 
-#### Bổ đề 3 {#lie-v-s3-lem-3 .statement}
+#### Bổ đề 3 {#lie-v-s3-lem-3 .statement tag=0AQE}
 
 Cho q là một dạng toàn phương dương trên một không gian vectơ thực V và cho B là dạng song tuyến tính đối xứng liên kết với nó. Cho $a_1, \ldots, a_n$ là các phần tử của V sao cho $B(a_i, a_j) \leq 0$ với $i \neq j$.
 
@@ -290,7 +290,7 @@ $$
 $$
 suy ra rằng, với mọi dạng tuyến tính f trên V, ta có $\sum_i |c_i| f(a_i) = 0$, và do đó $c_i = 0$ với mọi i nếu ta cũng có $f(a_i) > 0$ với mọi i. Điều này chứng minh (ii).
 
-#### Bổ đề 4 {#lie-v-s3-lem-4 .statement}
+#### Bổ đề 4 {#lie-v-s3-lem-4 .statement tag=0AQF}
 
 Cho $Q = (q_{ij})$ là một ma trận vuông, đối xứng, thực cấp $n$ sao cho:
 a) $q_{ij} \leq 0$ với $i \neq j$;
@@ -305,7 +305,7 @@ Vì q là một dạng toàn phương dương, hạt nhân N của q là tập h
 
 Mặt khác, ta biết rằng các trị riêng của Q là thực (Đại số, Chap. IX, § 7, no. 3, Mệnh đề 5) và dương vì q dương. Gọi $\lambda$ là trị nhỏ nhất trong số đó. Khi đó ma trận $Q' = Q - \lambda I_n$ là ma trận của một dạng dương suy biến $q'$ và các phần tử ngoài đường chéo của $Q'$ giống như của Q. Do đó, $Q'$ thỏa các điều kiện a), b) và c) của phát biểu của bổ đề. Vì hạt nhân $N'$ của $q'$ là không gian riêng của Q ứng với trị riêng $\lambda$, mệnh đề (ii) suy ra từ (i).
 
-#### Bổ đề 5 {#lie-v-s3-lem-5 .statement}
+#### Bổ đề 5 {#lie-v-s3-lem-5 .statement tag=0AQG}
 
 Cho $e_1, \ldots, e_n$ là các vectơ sinh ra T sao cho:
 a) $(e_i|e_j) \leq 0$ với $i \neq j$;
@@ -317,7 +317,7 @@ Khi đó có hai khả năng:
 
 Đặt $q_{ij} = (e_i|e_j)$. Khi đó ma trận $Q = (q_{ij})$ thỏa các giả thiết của Bổ đề 4: các điều kiện a) và b) của Bổ đề 4 giống với các điều kiện a) và b) ở trên, và c) được thỏa vì $\sum_{i,j} q_{ij} x_i x_j = \| \sum_i x_i e_i \|_2^2$. Hạt nhân N của dạng toàn phương $q$ trên $\mathbf{R}^n$, với ma trận $Q$, là tập hợp các $(c_1, \ldots, c_n) \in \mathbf{R}^n$ sao cho $\sum_i c_i e_i = 0$. Nếu $N = \{0\}$, thì các $e_i$ phụ thuộc tuyến tính và ta ở trường hợp 1). Nếu $\dim N > 0$, Bổ đề 4 (i) cho thấy ta ở trường hợp 2).
 
-#### Bổ đề 6 {#lie-v-s3-lem-6 .statement}
+#### Bổ đề 6 {#lie-v-s3-lem-6 .statement tag=0AQH}
 
 *Cho $(e_1, \ldots, e_n)$ là một cơ sở của $T$ sao cho $(e_i|e_j) \leq 0$ với $i \neq j$.*
 
@@ -333,7 +333,7 @@ Các vectơ $-x, e_1, \ldots, e_n$ khi đó thỏa mãn các giả thiết của
 
 ### 6. CÁC ĐỊNH LÝ VỀ TÍNH HỮU HẠN
 
-#### Bổ đề 7 {#lie-v-s3-lem-7 .statement}
+#### Bổ đề 7 {#lie-v-s3-lem-7 .statement tag=0AQI}
 
 *Cho $A$ là một tập hợp các vectơ đơn vị trong $T$. Nếu tồn tại một số thực $\lambda < 1$ sao cho $(a|a') \leq \lambda$ với $a, a' \in A$ và $a \neq a'$, thì tập hợp $A$ là hữu hạn.*
 
@@ -349,7 +349,7 @@ w(x + t) = w(x) + U(w).t \quad \text{cho } t \in T \text{ và } x \in E.
 $$
 Điều này xác định một đồng cấu $U$ từ nhóm $W$ vào nhóm trực giao của $T$; hạt nhân của $U$ là tập hợp các phép tịnh tiến thuộc $W$.
 
-#### Định lý 3 {#lie-v-s3-thm-3 .statement}
+#### Định lý 3 {#lie-v-s3-thm-3 .statement tag=0AQJ}
 
 (i) *Tập hợp các tường của một phòng là hữu hạn.*
 (ii) *Tập hợp các phương của các siêu phẳng thuộc $\mathfrak{H}$ là hữu hạn.*
@@ -371,7 +371,7 @@ và tập hợp $A$ là hữu hạn theo Bổ đề 7. Do đó (ii).
 
 Bây giờ cho $w \in W$ sao cho $U(w).a = a$ với mọi $a \in A$. Khi đó $U(w).t = t$ với mọi $t$ thuộc không gian con của $T$ sinh bởi $A$. Mặt khác, nếu $t \in T$ vuông góc với $A$, ta có $U(s_H).t = t$ với mọi $H \in \mathfrak{H}$, do đó $U(w).t = t$ và cuối cùng $U(w) = 1$. Vì $U(w)(A) = A$ với mọi $w \in W$, ta suy ra rằng $U(W)$ đẳng cấu với một nhóm các phép hoán vị của tập hợp hữu hạn $A$, do đó (iii).
 
-#### Mệnh đề 4 {#lie-v-s3-prop-4 .statement}
+#### Mệnh đề 4 {#lie-v-s3-prop-4 .statement tag=0AQK}
 
 Cho $C$ là một buồng và $\mathfrak{N}$ là một tập hợp các vách của $C$. Gọi $W_{\mathfrak{N}}$ là nhóm con của $W$ sinh bởi các phép phản xạ trực giao đối với các phần tử của $\mathfrak{N}$. Với $H \in \mathfrak{N}$, ký hiệu $e_H$ là vectơ đơn vị vuông góc với $H$ ở cùng phía của $H$ với $C$. Các điều kiện sau là tương đương:
 (i) Nhóm $W_{\mathfrak{N}}$ là hữu hạn.
@@ -387,11 +387,11 @@ Giả sử tồn tại một điểm $a$ của $E$ sao cho $a \in H$ với mọi
 
 Cuối cùng, giả sử rằng họ $(e_H)_{H \in \mathfrak{N}}$ là tự do. Cho $a$ là một điểm của $E$. Với mọi siêu phẳng $H \in \mathfrak{N}$, tồn tại một số thực $c_H$ sao cho $H$ gồm các điểm $a + t$ của $E$ với $(t|e_H) = c_H$. Vì họ $(e_H)$ là tự do, tồn tại $t \in T$ sao cho $(t|e_H) = c_H$ với mọi $H \in \mathfrak{N}$, và điểm $a + t$ của $E$ thuộc mọi siêu phẳng $H \in \mathfrak{N}$. Vậy, (iv) kéo theo (iii).
 
-#### Nhận xét 1 {#lie-v-s3-n6-rem-1 .statement}
+#### Nhận xét 1 {#lie-v-s3-n6-rem-1 .statement tag=0AQL}
 
 Vì W được sinh bởi các phép phản xạ đối với các vách của buồng C, mệnh đề trước đó cho một tiêu chuẩn để W là hữu hạn. Ta sẽ trở lại câu hỏi này ở no. 9.
 
-#### Nhận xét 2 {#lie-v-s3-n6-rem-2 .statement}
+#### Nhận xét 2 {#lie-v-s3-n6-rem-2 .statement tag=0AQM}
 
 Cho F là một không gian afin thực hữu hạn chiều và G là một nhóm các tự đẳng cấu của F. Với mọi $g \in G$, ký hiệu U(g) là tự đẳng cấu của không gian các phép tịnh tiến V của F liên kết với g. Giả sử rằng ảnh U(G) là một nhóm con hữu hạn của $\mathbf{GL}(V)$; khi đó V có một tích vô hướng bất biến dưới U(G) (Tích phân, Chương VII, § 3, no. 1, Mệnh đề 1). Nếu thêm vào đó, G tác động đúng trên F khi F được trang bị tôpô rời rạc, và nếu nó được sinh bởi các phép phản xạ, ta có thể áp dụng cho G các kết quả của đoạn này.
 
@@ -403,7 +403,7 @@ Cho I là tập hợp các đỉnh của đồ thị Coxeter của W (no. 4) và
 
 Cho $T_J^0$ là không gian con của T gồm các vectơ bất biến dưới mọi phần tử của U(W_J) và cho $T_J$ là không gian con trực giao với $T_J^0$. Vì $W_J$ là một nhóm con chuẩn của W, rõ ràng rằng $T_J^0$ là bất biến dưới U(W), và do đó $T_J$ cũng vậy.
 
-#### Mệnh đề 5 {#lie-v-s3-prop-5 .statement}
+#### Mệnh đề 5 {#lie-v-s3-prop-5 .statement tag=0AQN}
 
 *Cho $J_1, \ldots, J_s$ là các tập hợp các đỉnh của các thành phần liên thông của đồ thị Coxeter của W. Với $1 \leq p \leq s$, đặt*
 
@@ -425,11 +425,11 @@ Cuối cùng, cho V là một không gian con của T_p bất biến dưới U(W
 
 Nếu không gian con $T_0$ của các vectơ trong T bất biến dưới U(W) thu về $\{0\}$, thì W được gọi là cốt yếu; nếu biểu diễn U của W trên T là bất khả quy, thì W được gọi là bất khả quy.
 
-#### Hệ quả {#lie-v-s3-n7-cor-1 .statement}
+#### Hệ quả {#lie-v-s3-n7-cor-1 .statement tag=0AQO}
 
 Giả sử rằng $W \neq \{1\}$. Khi đó W là bất khả quy khi và chỉ khi nó là cốt yếu và đồ thị Coxeter của nó liên thông.
 
-#### Nhận xét {#lie-v-s3-n7-rem-1 .statement}
+#### Nhận xét {#lie-v-s3-n7-rem-1 .statement tag=0AQP}
 
 Dưới các giả thiết của Mệnh đề 5, các không gian con $T_p$ với $0 \leq p \leq s$ là các thành phần đẳng kiểu của biểu diễn tuyến tính U của W trên T (Đại số, Chap. VIII, §3, no. 4). Suy ra (loc. cit., Mệnh đề 11) rằng mọi không gian con vectơ V của T ổn định dưới W là tổng trực tiếp của các không gian con $V \cap T_p$ với $0 \leq p \leq s$; hơn nữa (loc. cit., Mệnh đề 10), mọi tự đồng cấu giao hoán với các toán tử U(w) với $w \in W$ đều giữ ổn định từng $T_p$ với $0 \leq p \leq s$ và gây ra trên chúng một phép vị tự đối với $1 \leq p \leq s$. Đặc biệt, các dạng song tuyến tính $\Phi$ trên T bất biến dưới W là các dạng song tuyến tính được cho bởi
 
@@ -457,7 +457,7 @@ w((x_0, \ldots, x_s)) = (x_0, w_1(x_1), \ldots, w_s(x_s))
 $$
 với mọi $x_p \in E_p$ với $0 \leq p \leq s$. Nói cách khác, *tác động của $W$ trên $E = E'$ chính xác là tích của các tác động của các $W_p$ trên $E_p*$ (ta đặt $W_0 = \{1\}$). Suy ra rằng $W_p$ tác động trung thành trên $E_p$ và rằng $W_p$ *có thể được đồng nhất với một nhóm các phép dời của không gian Euclid $E_p*$ (không gian $T_p$ các phép tịnh tiến của $E_p$ tất nhiên được trang bị tích vô hướng cảm sinh bởi tích vô hướng trên $T$).
 
-#### Mệnh đề 6 {#lie-v-s3-prop-6 .statement}
+#### Mệnh đề 6 {#lie-v-s3-prop-6 .statement tag=0AQQ}
 
 (i) *Nhóm $W_p$ là một nhóm các phép dời của không gian affine Euclid $E_p$; nó được sinh bởi các phép phản xạ; được trang bị tôpô rời rạc, nó tác động đúng trên $E_p$; nó là bất khả quy.*
 
@@ -505,7 +505,7 @@ do đó, không tập hợp C_p nào là rỗng, và vì C không gặp bất k�
 
 Cho C là một phòng, cho \mathscr{M} là tập hợp các tường của C, và với H \in \mathscr{M} cho e_H là vectơ đơn vị trực giao với H nằm cùng phía của H với C.
 
-#### Mệnh đề 7 {#lie-v-s3-prop-7 .statement}
+#### Mệnh đề 7 {#lie-v-s3-prop-7 .statement tag=0AQR}
 
 Giả sử rằng nhóm W là cốt yếu và hữu hạn. Khi đó:
 (i) Tồn tại duy nhất một điểm a của E bất biến dưới W.
@@ -522,7 +522,7 @@ nên $U(w).t = t$; vì $W$ là cốt yếu, điều này suy ra rằng $t = 0$, 
 
 (iii) Cho $a$ là điểm duy nhất của $E$ bất biến dưới $W$. Vì $(e_H)_{H \in \mathscr{M}}$ là một cơ sở của $T$, và vì tích vô hướng là một dạng song tuyến tính không suy biến trên $T$, tồn tại duy nhất một cơ sở $(e'_H)_{H \in \mathscr{M}}$ của $T$ sao cho $(e_H|e'_{H'}) = \delta_{HH'}$ với $H, H'$ thuộc $\mathscr{M}$. Mọi điểm $x$ của $E$ có thể được viết duy nhất dưới dạng $x = t + a$ với $t = \sum_{H \in \mathscr{M}} \xi_H e'_H$ và các $\xi_H$ là thực. Khi đó $x$ thuộc $C$ khi và chỉ khi, với mọi siêu phẳng $H \in \mathscr{M}$, $x$ nằm cùng phía của $H$ với $e_H$, hay nói cách khác $(t|e_H) = \xi_H$ là dương ngặt. Do đó (iii).
 
-#### Mệnh đề 8 {#lie-v-s3-prop-8 .statement}
+#### Mệnh đề 8 {#lie-v-s3-prop-8 .statement tag=0AQS}
 
 *Giả sử rằng nhóm $W$ là cốt yếu, bất khả quy và vô hạn. Khi đó:*
 
@@ -540,7 +540,7 @@ Vì vectơ $t_0$ vuông góc với siêu phẳng $H_0$, tồn tại một số t
 
 Mỗi điểm của $E$ có thể được viết duy nhất dưới dạng $x = t + a_0$ với $t = \xi_1 t'_1 + \cdots + \xi_d t'_d$ và $\xi_1, \ldots, \xi_d$ thực. Điểm $x$ thuộc $C$ khi và chỉ khi nó ở cùng phía của $H_m$ như $t_m$ đối với $0 \leq m \leq d$; điều này tương đương với các bất đẳng thức $(t|t_1) > 0, \ldots, (t|t_d) > 0$, và $(t|t_0) > -c$, hay tương đương với $\xi_1 > 0, \ldots, \xi_d > 0, c_1 \xi_1 + \cdots + c_d \xi_d < c$. Vì $C$ không rỗng, $c > 0$. Đặt $a_m = a_0 + \frac{c}{c_m} t'_m$ với $1 \leq m \leq d$; khi đó buồng $C$ gồm các điểm của $E$ có dạng $a_0 + \sum_{m=1}^d \lambda_m (a_m - a_0)$ với $\lambda_1 > 0, \ldots, \lambda_d > 0$ và $\lambda_1 + \cdots + \lambda_d < 1$, nên $C$ là đơn hình mở có các đỉnh $a_0, \ldots, a_d$. Q.E.D.
 
-#### Nhận xét 1 {#lie-v-s3-n9-rem-1 .statement}
+#### Nhận xét 1 {#lie-v-s3-n9-rem-1 .statement tag=0AQT}
 
 Đồng nhất $E$ với $E_0 \times E_1 \times \cdots \times E_s$ và $W$ với $W_1 \times \cdots \times W_s$ như ở no. 8. Theo Mệnh đề 6, buồng $C$ khi đó được đồng nhất với
 
@@ -550,7 +550,7 @@ $$
 
 trong đó $C_p$ là một buồng trong $E_p$ đối với tập các siêu phẳng $\mathscr{H}_p$. Theo các Mệnh đề 7 và 8, mỗi buồng $C_1, \ldots, C_s$ là một nón đơn hình mở hoặc một đơn hình mở.
 
-#### Nhận xét 2 {#lie-v-s3-n9-rem-2 .statement}
+#### Nhận xét 2 {#lie-v-s3-n9-rem-2 .statement tag=0AQU}
 
 Giả sử rằng $W$ là bất khả quy và cốt yếu. Nếu $H$ và $H'$ là hai vách của $C$, thì $m_{HH'} = +\infty$ khi và chỉ khi $e_H = -e_{H'}$ (Mệnh đề 3). Theo các Mệnh đề 7 và 8, điều này chỉ có thể xảy ra nếu $H$ và $H'$ là hai vách duy nhất của $C$ và $E$ có chiều 1. Vậy, trường hợp duy nhất trong đó một trong các $m_{HH'}$ là vô hạn là trường hợp $E$ có chiều 1 và nhóm $W$ được sinh bởi các phép đối xứng gắn với hai điểm phân biệt (cf. § 2, no. 4).
 
@@ -560,7 +560,7 @@ Trong trường hợp tổng quát, các phần tử của ma trận Coxeter g�
 
 Cho $L$ là tập các phép tịnh tiến thuộc $W$ và cho $\Lambda$ là tập các $t \in T$ sao cho phép tịnh tiến $x \mapsto t + x$ thuộc $L$. Hiển nhiên là $\Lambda$ ổn định dưới $U(W)$ và $L$ là một nhóm con chuẩn của $W$. Vì $W$ tác động đúng đắn trên $E$, điều đó cũng đúng cho $L$, và suy ra dễ dàng rằng $\Lambda$ là một nhóm con rời rạc của $T$. Với mọi điểm $x$ của $E$, ký hiệu $W_x$ là nhóm ổn định của $x$ trong $W$.
 
-#### Mệnh đề 9 {#lie-v-s3-prop-9 .statement}
+#### Mệnh đề 9 {#lie-v-s3-prop-9 .statement tag=0AQV}
 
 Cho $a \in E$. Các điều kiện sau là tương đương:
 (i) Ta có $W = W_a.L$;
@@ -573,13 +573,13 @@ Giả sử (i) và lấy $H \in \mathfrak{H}$; khi đó $s_H \in W_a.L$ nên t�
 
 Giả sử (iii). Cho $H \in \mathfrak{H}$; lấy $H'$ như trong (iii). Khi đó $s_{H'}(a) = a$, nên $s_{H'} \in W_a$; vì $H$ song song với $H'$, phần tử $w = s_{H'} s_H$ của $W$ là một phép tịnh tiến (§ 2, no. 4, Mệnh đề 5), nên $w \in L$; do đó $s_H = s_{H'} w \in W_a . L$. Vì $W$ được sinh bởi họ $(s_H)_{H \in \mathfrak{H}}$, suy ra $W = W_a . L$ và do đó (iii) suy ra (i).
 
-#### Định nghĩa 1 {#lie-v-s3-def-1 .statement}
+#### Định nghĩa 1 {#lie-v-s3-def-1 .statement tag=0AQW}
 
 *Một điểm $a$ của $E$ được gọi là đặc biệt đối với $W$ nếu nó thỏa mãn các điều kiện tương đương trong Mệnh đề 9.*
 
 Rõ ràng tập hợp các điểm đặc biệt của $E$ là ổn định dưới tác động của $W$.
 
-#### Mệnh đề 10 {#lie-v-s3-prop-10 .statement}
+#### Mệnh đề 10 {#lie-v-s3-prop-10 .statement tag=0AQX}
 
 *Tồn tại một điểm đặc biệt đối với $W$.*
 
@@ -593,7 +593,7 @@ Hệ quả của Định lý 1 của no. 2 cho thấy mọi phép phản xạ $s
 
 Khi $W$ là hữu hạn và cốt yếu, chỉ có một điểm đặc biệt đối với $W$, đó là điểm duy nhất bất biến dưới $W$. Vì thế, việc xét các điểm đặc biệt chủ yếu là thú vị khi $W$ là vô hạn.
 
-#### Mệnh đề 11 {#lie-v-s3-prop-11 .statement}
+#### Mệnh đề 11 {#lie-v-s3-prop-11 .statement tag=0AQY}
 
 *Giả sử rằng $W$ là cốt yếu. Cho $a$ là một điểm đặc biệt đối với $W$. Các phòng đối với $W_a$ là các nón đơn mở có đỉnh $a$. Với mỗi phòng $C'$ đối với $W_a$, tồn tại duy nhất một phòng $C$ đối với $W$ được chứa trong $C'$ và sao cho $a \in \overline{C}$. Hợp của các $w'(\overline{C})$ với $w' \in W_a$ là một lân cận đóng của $a$ trong $E$. Mọi siêu phẳng biên của $C'$ đều là siêu phẳng biên của $C$. Nếu $W$ là vô hạn và bất khả quy, các siêu phẳng biên của $C$ là các siêu phẳng biên của $C'$ cùng với một siêu phẳng affine không song song với các siêu phẳng biên của $C'$.*
 
@@ -605,7 +605,7 @@ $$
 
 vì hợp của các $w'(C)$ với $w' \in W_a$ là trù mật trong $E$, nên hợp của các $U \cap w'(C) = U \cap w'(C')$ là trù mật trong $U$, và do đó hợp của các $w'(\overline{C})$ với $w' \in W_a$ chứa $U$. Cuối cùng, nếu $H$ là một vách của $C'$, tồn tại một điểm $c \in U \cap H$ và một lân cận mở $V \subset U$ của $c$ sao cho $V \cap C'$ là giao của $V$ và nửa không gian mở bị chặn bởi $H$ chứa $C'$; vì $V \cap C' = V \cap U \cap C' = V \cap U \cap C = V \cap C$, suy ra $H$ là một vách của $C$. Nếu $W$ là vô hạn và bất khả quy, $C$ là một đơn hình mở (no. 9, Mệnh đề 8) và do đó có nhiều hơn một vách so với nón đơn hình mở $C'$.
 
-#### Hệ quả {#lie-v-s3-n10-cor-1 .statement}
+#### Hệ quả {#lie-v-s3-n10-cor-1 .statement tag=0AQZ}
 
 *Giả sử rằng $W$ là cốt yếu.*
 
@@ -617,17 +617,17 @@ Mệnh đề thứ nhất suy ra từ Mệnh đề 11. Mệnh đề thứ hai su
 
 Tuy nhiên, một điểm cực biên của $\overline{C}$ không nhất thiết là một điểm đặc biệt đối với $W$ (xem Chương VI, Bảng X, Các hệ $B_2$ và $G_2$).
 
-#### Nhận xét 1 {#lie-v-s3-n10-rem-1 .statement}
+#### Nhận xét 1 {#lie-v-s3-n10-rem-1 .statement tag=0AR0}
 
 Giả sử rằng $W$ là cốt yếu, bất khả quy và vô hạn và giữ ký hiệu của Mệnh đề 11. Vì $U$ là một đẳng cấu từ $W_a$ lên $U(W)$, suy ra rằng đồ thị Coxeter của nhóm tịnh tiến $U(W)$ (được sinh bởi các phép phản xạ $U(s_H)$ với $H \in \mathfrak{H}$) có thể thu được từ đồ thị Coxeter của $W$ bằng cách bỏ đi đỉnh $i$ tương ứng với vách duy nhất của $C$ không phải là một vách của $C'$.
 
-#### Mệnh đề 12 {#lie-v-s3-prop-12 .statement}
+#### Mệnh đề 12 {#lie-v-s3-prop-12 .statement tag=0AR1}
 
 *Giả sử rằng $W$ là cốt yếu. Cho $a$ là một điểm đặc biệt, cho $L(a)$ là tập các ảnh của nó dưới nhóm các phép tịnh tiến $L$, và cho $C$ là một buồng. Khi đó $\overline{C}$ cắt $L(a)$ tại một điểm duy nhất; điểm này là một điểm cực biên của $\overline{C}$.*
 
 Tồn tại một buồng $C_1$ sao cho $a$ là một điểm cực biên của $\overline{C}_1$ (Hệ quả của Mệnh đề 11). Mọi buồng đều có dạng $C = t w'(C_1)$ với $w' \in W_a$ và $t \in L$ vì $W = W_a . L$; do đó $t w'(a) = t(a) \in L(a)$ là một điểm cực biên của $\overline{C}$. Mặt khác, $\overline{C}$ không thể chứa hai điểm phân biệt của $L(a)$ vì $\overline{C}$ là một miền cơ bản của $W$ (no. 3, Định lý 2).
 
-#### Nhận xét 2 {#lie-v-s3-n10-rem-2 .statement}
+#### Nhận xét 2 {#lie-v-s3-n10-rem-2 .statement tag=0AR2}
 
 Tập $L(a)$ được chứa trong tập hợp các điểm đặc biệt, nhưng nói chung phân biệt với nó (xem Chương VI, § 2, no. 2 và Các bảng I đến VI).
 

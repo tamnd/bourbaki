@@ -29,7 +29,7 @@ subsections:
       pdf_page: 20
 statements: 8
 exercises: 6
-content_sha256: 4c9edf4b0e2e08f5f1a2c9b0995c5f2bda68e99372e4089284ac9edb3ce18728
+content_sha256: a75d155b529ef6bf85d8c8916402783f0064d8fe47d071fe5518b02c2d80586d
 ---
 
 ## § 1. TERMES ET RELATIONS
@@ -168,7 +168,7 @@ e) Il y a un signe spécifique $s$ de poids $n$[^3] de $\mathscr{T}$, et $n$ ass
 
 On appelle termes (resp. relations) de $\mathscr{T}$ les assemblages de première espèce (resp. de deuxième espèce) figurant dans les constructions formatives de $\mathscr{T}$.
 
-#### Exemple {#ens-i-s1-n3-exa-1 .statement}
+#### Exemple {#ens-i-s1-n3-exa-1 .statement tag=077Q}
 
 \* Dans la théorie des ensembles, où $\in$ est un signe spécifique de poids 2, la suite des assemblages que voici est une construction formative:
 
@@ -197,11 +197,11 @@ $$
 
 Donc l’assemblage donné en exemple au no 1 est un terme de la théorie des ensembles.\*
 
-#### Remarque {#ens-i-s1-n3-rem-1 .statement}
+#### Remarque {#ens-i-s1-n3-rem-1 .statement tag=077R}
 
 Intuitivement, les termes sont des assemblages qui représentent des objets, les relations sont des assemblages qui représentent des assertions que l’on peut faire sur des objets. La condition a) signifie que les lettres représentent des objets. La condition b) signifie que, si $B$ est une assertion, $\neg B$, qu’on appelle la négation de $B$, est une assertion (qui se lit: non $B$). La condition c) signifie que, si $B$ et $C$ sont des assertions, $\lor BC$, qu’on appelle la disjonction de $B$ et $C$, est une assertion (qui se lit: $B$ ou $C$); ainsi $\Rightarrow BC$ est une assertion (qui se lit: « non $B$ ou $C$ », ou « $B$ implique $C$ », ou « $B$ entraîne $C$ »). La condition d) signifie que, si $B$ est une assertion et $x$ une lettre, $\tau_x(B)$ est un objet; considérons l’assertion $B$ comme exprimant une propriété de l’objet $x$; alors, s’il existe un objet possédant la propriété en question, $\tau_x(B)$ représente un objet privilégié qui possède cette propriété; sinon, $\tau_x(B)$ représente un objet dont on ne peut rien dire. Enfin, la condition e) signifie que, si $A_1,A_2,\ldots,A_n$ sont des objets, et $s$ un signe spécifique de poids $n$, $sA_1A_2\ldots A_n$ est une assertion relative aux objets $A_1,\ldots,A_n$.
 
-#### Exemple {#ens-i-s1-n3-exa-2 .statement}
+#### Exemple {#ens-i-s1-n3-exa-2 .statement tag=0E3Y}
 
 Les symboles $\varnothing$, $\mathbf{N}$, « la droite numérique », « la fonction $\Gamma$ », $f$, $g$, représentent des termes. Les symboles $\pi=\sqrt{2}+\sqrt{3}$, $\iota\in 2$, « tout corps fini est commutatif », « les zéros de $\zeta(s)$ autres que $-2,-4,-6,\ldots$ sont sur la droite $\mathscr{R}(s)=\frac12$ », représentent des relations. Le symbole « 3 et 4 » ne représente ni un terme, ni une relation.
 

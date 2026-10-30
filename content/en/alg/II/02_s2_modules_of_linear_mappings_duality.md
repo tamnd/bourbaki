@@ -46,14 +46,14 @@ subsections:
       pdf_page: 264
 statements: 42
 exercises: 26
-content_sha256: 258255c57ca3524e48d9ff71cc97eff6aa8bc4291c0e15cf968c9c2efb97b55c
+content_sha256: b68d6b666aad78a9fe6c8ac80cb610da120336ed9a4c3178da2cb94e6cf08597
 ---
 
 ## § 2. MODULES OF LINEAR MAPPINGS. DUALITY
 
 ### 1. PROPERTIES OF $\mathrm{Hom}_A(E, F)$ RELATIVE TO EXACT SEQUENCES
 
-#### Theorem 1 {#alg-ii-s2-thm-1 .statement}
+#### Theorem 1 {#alg-ii-s2-thm-1 .statement tag=05MV}
 
 *Let A be a ring, E', E, E'' three A-modules and u : E' \to E, v : E \to E'' two homomorphisms. For the sequence*
 
@@ -73,7 +73,7 @@ Suppose that sequence (1) is exact. If $w \in \mathrm{Hom}(E'', F)$ and $\bar{v}
 
 Conversely, suppose that (2) is exact for every A-module F. As $\bar{u} \circ \bar{v} = \operatorname{Hom}(v \circ u, 1_F) = 0, w \circ v \circ u = 0$ for every homomorphism $w : E'' \to F$. Taking $F = E''$ and $w = 1_{E''}$, it is seen first that $v \circ u = 0$ and hence $u(E') \subset \operatorname{Ker}(v)$. Now take $F = \operatorname{Coker}(u)$ and let $\phi : E \to F = E/u(E')$ be the canonical mapping. Then $\bar{u}(\phi) = \phi \circ u = 0$ by definition and hence there exists a $\psi \in \operatorname{Hom}(E'', F)$ such that $\phi = \bar{v}(\psi) = \psi \circ v$; this obviously implies $u(E') = \operatorname{Ker}(\phi) \supset \operatorname{Ker}(v)$, which proves that sequence (1) is exact at E. Finally, let $\theta$ be the canonical homomorphism of $E''$ onto $F = E''/v(E)$; then $\bar{v}(\theta) = \theta \circ v = 0$, hence $\theta = 0$; therefore, $F = \{0\}$ and $v$ is surjective. Sequence (1) is therefore exact at $E''$.
 
-#### Corollary {#alg-ii-s2-n1-cor-1 .statement}
+#### Corollary {#alg-ii-s2-n1-cor-1 .statement tag=05MW}
 
 *For an A-linear mapping* $u : E \to F$ *to be surjective* (resp. *bijective*, resp. *zero*), *it is necessary and sufficient that, for every A-module G, the mapping* $\operatorname{Hom}(u, 1_G) : \operatorname{Hom}(F, G) \to \operatorname{Hom}(E, G)$ *be injective* (resp. *bijective*, resp. *zero*).
 
@@ -93,7 +93,7 @@ $$
 
 *is not necessarily exact*, in other words, the homomorphism $\bar{u}$ is not necessarily surjective. If $E'$ is identified with a submodule of E, this means that a linear mapping of $E'$ into F cannot always be extended to a linear mapping of E into F (Exercises 11 and 12). However:
 
-#### Proposition 1 {#alg-ii-s2-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s2-prop-1 .statement tag=05MX}
 
 *If the exact sequence of linear mappings*
 
@@ -121,7 +121,7 @@ the fact that $u' \circ u$ is the identity implies that $\bar{u} \circ \bar{u}'$
 
 Note that the first assertion of Proposition 1 can also be considered as a special case of $§ 1$, no. 6, Corollary 1 to Proposition 6, canonically identifying $\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$ with $\mathrm{Hom}(E' \oplus E'', F)$ by means of the $\mathbf{Z}$-linear mapping $\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$, where $p': E' \oplus E'' \to E'$ and $p'': E' \oplus E'' \to E''$ are the canonical projections.
 
-#### Theorem 2 {#alg-ii-s2-thm-2 .statement}
+#### Theorem 2 {#alg-ii-s2-thm-2 .statement tag=05MY}
 
 *Let $A$ be a ring, $F', F, F''$ three $A$-modules and $u: F' \to F, v: F \to F''$ two homomorphisms. For the sequence*
 
@@ -147,7 +147,7 @@ $$
 
 Conversely, suppose that sequence (6) is exact for every $A$-module $E$. As $\mathrm{Hom}(1_E, v \circ u) = \bar{v} \circ \bar{u} = 0$, then $v \circ u \circ w = 0$ for every homomorphism $w: E \to F'$. Taking $E = F'$ and $w = 1_{F'}$, it is seen first that $v \circ u = 0$ and hence $u(F') \subset \mathrm{Ker}(v)$. Now we take $E = \mathrm{Ker}(v)$ and let $\phi: E \to F$ be the canonical injection. Then $\bar{v}(\phi) = v \circ \phi = 0$ by definition and hence there exists $\psi \in \mathrm{Hom}(E, F')$ such that $\phi = \bar{u}(\psi) = u \circ \psi$, which obviously implies $\mathrm{Ker}(v) \subset u(F')$ and completes the proof of the exactness of (5) at $F$. Finally, if $\theta$ is the identity mapping of $\mathrm{Ker}\, u$, then $\bar{u}(\theta) = 0$, hence $\theta = 0$ and $\mathrm{Ker}\, u = \{0\}$, which proves the exactness of (5) at $F'$.
 
-#### Remark {#alg-ii-s2-n1-rem-1 .statement}
+#### Remark {#alg-ii-s2-n1-rem-1 .statement tag=05MZ}
 
 (1) Theorem 2 allows us, for every submodule F' of F, to identify Hom(E, F') with a sub-$\mathbf{Z}$-module of Hom(E, F). When this identification is made, then, for every family $(M_\lambda)$ of submodules of F
 
@@ -157,7 +157,7 @@ $$
 
 for if $u \in \operatorname{Hom}(E, F)$ belongs to each of the $\operatorname{Hom}(E, M_\lambda)$, then, for all $x \in E$, $u(x) \in M_\lambda$ for all $\lambda$ and hence $u$ maps E into $\bigcap_\lambda M_\lambda$.
 
-#### Corollary {#alg-ii-s2-n1-cor-2 .statement}
+#### Corollary {#alg-ii-s2-n1-cor-2 .statement tag=05N0}
 
 *For an A-linear mapping* $u : E \to F$ *to be injective, it is necessary and sufficient that, for every A-module G, the mapping* $\operatorname{Hom}(1_G, u) : \operatorname{Hom}(G, E) \to \operatorname{Hom}(G, F)$ *be injective*.
 
@@ -177,7 +177,7 @@ $$
 
 *is not necessarily exact*, in other words $\bar{v}$ is not necessarily surjective. If $F'$ is identified with a submodule of $F$ and $F''$ with the quotient module $F/F'$, this means that a linear mapping of $E$ into $F''$ is not necessarily of the form $v \circ w$, where $w$ is a linear mapping of $E$ into $F$. However:
 
-#### Proposition 2 {#alg-ii-s2-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s2-prop-2 .statement tag=05N1}
 
 *If the exact sequence*
 
@@ -209,7 +209,7 @@ Remark (2). The results of this no. are valid without modification for all commu
 
 ### 2. PROJECTIVE MODULES
 
-#### Definition 1 {#alg-ii-s2-def-1 .statement}
+#### Definition 1 {#alg-ii-s2-def-1 .statement tag=05N2}
 
 An A-module P is called projective if, for every exact sequence F' → F → F'' of A-linear mapping, the sequence
 
@@ -219,7 +219,7 @@ $$
 
 is exact.
 
-#### Proposition 3 {#alg-ii-s2-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s2-prop-3 .statement tag=05N3}
 
 For an A-module P, the direct sum of a family of submodules (M_i), to be projective, it is necessary and sufficient that each of the M_i be projective.
 
@@ -231,13 +231,13 @@ $$
 
 is identified with $\prod_i \operatorname{Hom}(1_{M_i}, u)$ (§ 1, no. 6, Corollary 1 to Proposition 6); the conclusion thus follows from Definition 1 and § 1, no. 5, Proposition 5 (ii).
 
-#### Corollary {#alg-ii-s2-n2-cor-1 .statement}
+#### Corollary {#alg-ii-s2-n2-cor-1 .statement tag=05N4}
 
 Every free A-module is projective.
 
 It suffices by Proposition 3 to show that A_s is projective, which follows immediately from the commutativity of diagram (50) of § 1, no. 14.
 
-#### Proposition 4 {#alg-ii-s2-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s2-prop-4 .statement tag=05N5}
 
 Let P be an A-module. The following properties are equivalent:
 
@@ -270,13 +270,13 @@ $$
 
 splits (§ 1, no. 9, Proposition 15). As for every A-module M there exist a free A-module L and an exact sequence $0 \to R \to L \to M \to 0$ (§ 1, no. 11, Proposition 20), clearly (d) implies (e). Finally (e) implies (a) by virtue of Proposition 3 and its Corollary.
 
-#### Corollary 1 {#alg-ii-s2-prop-4-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s2-prop-4-cor-1 .statement tag=05N6}
 
 *For an A-module to be projective and finitely generated, it is necessary and sufficient that it be a direct factor of a free A-module with a finite basis.*
 
 The condition is obviously sufficient; conversely, a finitely generated projective module E is isomorphic to a quotient of a free module F with a finite basis (§ 1, no. 11) and E is isomorphic to a direct factor of F by virtue of Proposition 4 (d).
 
-#### Corollary 2 {#alg-ii-s2-prop-4-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s2-prop-4-cor-2 .statement tag=05N7}
 
 *Let C be a commutative ring and E, F two finitely generated projective C-modules; then $\operatorname{Hom}_C(E, F)$ is a finitely generated projective C-module.*
 
@@ -292,7 +292,7 @@ whence the corollary.
 
 Let E be a *left* A-module. As A is an (A, A)-bimodule, $\operatorname{Hom}_A(E, A_s)$ has a canonical *right* A-module structure (§ 1, no. 14).
 
-#### Definition 2 {#alg-ii-s2-def-2 .statement}
+#### Definition 2 {#alg-ii-s2-def-2 .statement tag=05N8}
 
 *For every right A-module E, the right A-module $\operatorname{Hom}_A(E, A_s)$ is called the dual module of E* (or simply the *dual†* of E) *and its elements are called the linear forms on E*.
 
@@ -302,7 +302,7 @@ If E is a *right* A-module, the set $\operatorname{Hom}_A(E, A_d)$ with its cano
 
 In this chapter, $E^*$ will be used to denote the dual of a (left or right) A-module $E$.
 
-#### Example {#alg-ii-s2-n3-exa-1 .statement}
+#### Example {#alg-ii-s2-n3-exa-1 .statement tag=05N9}
 
 *On the vector space (with respect to the field $\mathbf{R}$) of continuous real-valued functions on an interval $[a, b]$ of $\mathbf{R}$, the mapping $x \mapsto \int_a^b x(t) dt$ is a linear form.*
 
@@ -330,7 +330,7 @@ $$
 
 When A is commutative, either notation is permissible.
 
-#### Proposition 5 {#alg-ii-s2-prop-5 .statement}
+#### Proposition 5 {#alg-ii-s2-prop-5 .statement tag=05NA}
 
 For every ring A, the mapping which associates with every $\xi \in A$ the linear form $\eta \mapsto \eta \xi$ on $A_s$ is an isomorphism of $A_d$ onto the dual of $A_s$.
 
@@ -350,23 +350,23 @@ $$
 
 ### 4. ORTHOGONALITY
 
-#### Definition 3 {#alg-ii-s2-def-3 .statement}
+#### Definition 3 {#alg-ii-s2-def-3 .statement tag=05NB}
 
 Let E be an A-module and E* its dual; an element x ∈ E and an element x* ∈ E* are called orthogonal if ⟨x, x*⟩ = 0.
 
 A subset M of E and a subset M' of E* are called orthogonal sets if, for all x ∈ M, x* ∈ M', x and x* are orthogonal. In particular, x* ∈ E* (resp. x ∈ E) is called orthogonal to M (resp. M') if it is orthogonal to every element of M (resp. M'). If x* and y* are orthogonal to M, so is x* + y* and x*α for all α ∈ A by virtue of (10) and (12) (no. 3), which justifies the following definition:
 
-#### Definition 4 {#alg-ii-s2-def-4 .statement}
+#### Definition 4 {#alg-ii-s2-def-4 .statement tag=05NC}
 
 Given a subset M of E (resp. a subset M' of E*), the set of x* ∈ E* (resp. the set of x ∈ E) which are orthogonal to M (resp. M') is called the submodule totally orthogonal to M (resp. M') (or simply the submodule orthogonal to M (resp. M') if no confusion can arise).
 
 By definition of a linear form, the submodule of E* orthogonal to E is reduced to 0; the submodule of E* orthogonal to {0} is identical with E*.
 
-#### Proposition 6 {#alg-ii-s2-prop-6 .statement}
+#### Proposition 6 {#alg-ii-s2-prop-6 .statement tag=05ND}
 
 Let M, N be two subsets of E such that M ⊂ N; if M' and N' are the submodules of E* orthogonal to M and N respectively, then N' ⊂ M'.
 
-#### Proposition 7 {#alg-ii-s2-prop-7 .statement}
+#### Proposition 7 {#alg-ii-s2-prop-7 .statement tag=05NE}
 
 Let (M_i) be a family of subsets of E; the submodule orthogonal to the union of the M_i is the intersection of the submodules M'_i which are respectively orthogonal to the M_i; this submodule is also the submodule orthogonal to the submodule of E generated by the union of the M_i.
 
@@ -382,7 +382,7 @@ Let E, F be two left A-modules; for every linear mapping u : E → F, the mappin
 
 In other words:
 
-#### Definition 5 {#alg-ii-s2-def-5 .statement}
+#### Definition 5 {#alg-ii-s2-def-5 .statement tag=05NF}
 
 For every linear mapping u of an A-module E into an A-module F, the linear mapping y* ↦ y* ∘ u of the dual F* of F into the dual E* of E is called the transpose of u and is denoted by t u.
 
@@ -409,17 +409,17 @@ for $u \in \mathrm{Hom}_A(E, F)$ and $v \in \mathrm{Hom}_A(F, G)$, G being a thi
 ^t 1_E = 1_{E^*}.
 $$
 
-#### Remark {#alg-ii-s2-n5-rem-1 .statement}
+#### Remark {#alg-ii-s2-n5-rem-1 .statement tag=05NG}
 
 From (17) and (18) it follows that if $u$ is left (resp. right) invertible, $^t u$ is right (resp. left) invertible.
 
-#### Proposition 8 {#alg-ii-s2-prop-8 .statement}
+#### Proposition 8 {#alg-ii-s2-prop-8 .statement tag=05NH}
 
 *Let $u : E \to F$ be an A-linear mapping, M a submodule of E and $M'$ the orthogonal of M in $E^*$; the orthogonal of $u(M)$ in $F^*$ is the inverse image $^t u^{-1}(M')$.*
 
 This follows immediately from (15).
 
-#### Corollary {#alg-ii-s2-n5-cor-1 .statement}
+#### Corollary {#alg-ii-s2-n5-cor-1 .statement tag=05NI}
 
 *The orthogonal of the image $u(E)$ in $F^*$ is the kernel $^t u^{-1}(0)$ of $^t u$.*
 
@@ -427,7 +427,7 @@ The orthogonal of E in $E^*$ is 0.
 
 If $u : E \to F$ is an isomorphism, $^t u : F^* \to E^*$ is an isomorphism and if $v : F \to E$ is the inverse isomorphism of $u$, $^t v$ is the inverse isomorphism of $^t u$ (formulae (17) and (18)).
 
-#### Definition 6 {#alg-ii-s2-def-6 .statement}
+#### Definition 6 {#alg-ii-s2-def-6 .statement tag=05NJ}
 
 *Given an isomorphism u of an A-module E onto an A-module F, the transpose of the inverse isomorphism of u (equal to the inverse isomorphism of the transpose of u) is called the contragredient isomorphism of u and denoted by $\tilde{u}$.*
 
@@ -452,7 +452,7 @@ for $x \in E, y^* \in F^*$. It is immediately verified that ${}^t u$ is a *semi-
 
 We apply Theorem 1 of no. 1 to the case where $F = A_s$:
 
-#### Proposition 9 {#alg-ii-s2-prop-9 .statement}
+#### Proposition 9 {#alg-ii-s2-prop-9 .statement tag=05NK}
 
 *Let* $E', E, E''$ *be A-modules and*
 
@@ -468,7 +468,7 @@ $$
 
 *is exact.*
 
-#### Corollary {#alg-ii-s2-n6-cor-1 .statement}
+#### Corollary {#alg-ii-s2-n6-cor-1 .statement tag=05NL}
 
 *Let M be a submodule of an A-module E and $\phi : E \to E/M$ the canonical homomorphism. Then* ${}^t \phi$ *is an isomorphism of the dual of* $E/M$ *onto the submodule* $M'$ *of* $E^*$ *orthogonal to* $M$.
 
@@ -476,7 +476,7 @@ If $j : M \to E$ is the canonical injection, the kernel of ${}^t j$ is by defini
 
 Moreover, in the notation of the corollary, an *injective* homomorphism $E^*/M' \to M^*$ is obtained from ${}^t j$ when passing to the quotient.
 
-#### Proposition 10 {#alg-ii-s2-prop-10 .statement}
+#### Proposition 10 {#alg-ii-s2-prop-10 .statement tag=05NM}
 
 *Let* $(E_i)_{i \in I}$ *be a family of A-modules and for all* $i \in I$ *let* $j_i : E_i \to E = \bigoplus_{i \in I} E_i$ *be the canonical injection.* *Then the product mapping* $x^* \mapsto ({}^t j_i(x^*))$
 
@@ -492,7 +492,7 @@ $$
 
 (22)
 
-#### Corollary {#alg-ii-s2-n6-cor-2 .statement}
+#### Corollary {#alg-ii-s2-n6-cor-2 .statement tag=05NN}
 
 *Let M, N be two supplementary submodules in an A-module E and $p : E \to M, q : E \to N$ the corresponding projectors; then $^tp + ^tq : M^* \oplus N^* \to E^*$ is an isomorphism and $^tp$ (resp. $^tq$) is an isomorphism of $M^*$ (resp. $N^*$) onto the submodule of $E^*$ orthogonal to $N$ (resp. $M$). Moreover, if $i : M \to E$ and $j : N \to E$ are the canonical injections, $^tp \circ ^ti$ and $^tq \circ ^tj$ are the projectors $E^* \to ^tp(M^*)$, $E^* \to ^tq(N^*)$ corresponding to the decomposition of $E^*$ as the direct sum of $^tp(M^*)$ and $^tq(N^*)$.
 
@@ -515,13 +515,13 @@ It amounts to the same to say that, for all $x = \sum_{t \in T} \xi_t e_t \in E,
 
 In particular, if $T$ is *finite*, the $e_t^*$ form a *basis* of $E^*$, the $f_t$ then forming the canonical basis of $A_d^T$. Hence:
 
-#### Proposition 11 {#alg-ii-s2-prop-11 .statement}
+#### Proposition 11 {#alg-ii-s2-prop-11 .statement tag=05NO}
 
 *The dual of a free module with a basis of n elements is a free module with a basis of n elements.*
 
 Note that the dual of a free module with an infinite basis is not necessarily a free module (VII, § 3, Exercise 10).
 
-#### Definition 7 {#alg-ii-s2-def-7 .statement}
+#### Definition 7 {#alg-ii-s2-def-7 .statement tag=05NP}
 
 *If E is a free module with a finite basis* $(e_t)$, *the basis* $(e_t^*)$ *of the dual E* *of E defined by relations (23) is called the dual basis of* $(e_t)$.
 
@@ -539,13 +539,13 @@ $$
 
 The dual basis of a finite basis of a *right* A-module is of course defined similarly.
 
-#### Corollary {#alg-ii-s2-n6-cor-3 .statement}
+#### Corollary {#alg-ii-s2-n6-cor-3 .statement tag=05NQ}
 
 *The dual of a finitely generated projective module is a finitely generated projective module.*
 
 A finitely generated projective left A-module can be identified with a direct factor M of a free A-module $A_s^n$ with a finite basis (no. 2, Corollary 1 to Proposition 4). Then (Proposition 11 and Corollary to Proposition 10) M* is isomorphic to a direct factor of $A_d^n$, whence the corollary.
 
-#### Proposition 12 {#alg-ii-s2-prop-12 .statement}
+#### Proposition 12 {#alg-ii-s2-prop-12 .statement tag=05NR}
 
 *Let E be an A-module and* $(a_t)_{t \in T}$ *a generating system of E. The following conditions are equivalent:*
 (a) *E is a projective A-module.*
@@ -574,37 +574,37 @@ $$
 
 is commutative, as follows immediately from the definitions and formula (15) giving the transpose of a linear mapping.
 
-#### Proposition 13 {#alg-ii-s2-prop-13 .statement}
+#### Proposition 13 {#alg-ii-s2-prop-13 .statement tag=05NS}
 
 *If E is a free module* (resp. *a free module with a finite basis*), *the canonical mapping* $c_E : E \to E^{**}$ *is injective* (resp. *bijective*).
 
 Let $(e_t)_{t \in T}$ be a basis of E and let $(e_t^*)$ be the family of corresponding coordinate forms; by definition, if $x \in E$ is such that $\tilde{x} = 0$, then $\langle x, e_t^* \rangle = 0$ for all $t \in T$, in other words all the coordinates of $x$ are zero, hence $x = 0$. Suppose further that T is finite; since $\langle \tilde{e}_t, e_{t'}^* \rangle = \delta_{tt'}$, $(\tilde{e}_t)$ is the dual basis of $(e_t^*)$ in $E^{**}$ and, as $c_E$ transforms a basis of E into a basis of $E^{**}$, $c_E$ is bijective (§ 1, no. 11, Corollary 3 to Proposition 17). We have moreover proved:
 
-#### Corollary 1 {#alg-ii-s2-prop-13-cor-1 .statement}
+#### Corollary 1 {#alg-ii-s2-prop-13-cor-1 .statement tag=05NT}
 
 *Let E be a free A-module with a finite basis; for every basis* $(e_t)$ *of E, $(c_E(e_t))$ *is the dual basis of the basis* $(e_t^*)$ *of* $E^*$ *dual to* $(e_t)$.
 
 In this case it is said that $(e_t)$ and $(e_t^*)$ are two *dual bases of one another*.
 
-#### Corollary 2 {#alg-ii-s2-prop-13-cor-2 .statement}
+#### Corollary 2 {#alg-ii-s2-prop-13-cor-2 .statement tag=05NU}
 
 *If E is a free A-module with a finite basis, every finite basis of E* is the dual basis of a basis of E.*
 
 It suffices to consider in E** the dual basis of the given basis and canonically to identify E with E**.
 
-#### Corollary 3 {#alg-ii-s2-prop-13-cor-3 .statement}
+#### Corollary 3 {#alg-ii-s2-prop-13-cor-3 .statement tag=05NV}
 
 *Let E, F be two A-modules each with a finite basis, E (resp. F) being canonically identified with its bidual E** (resp. F**). Then, for every linear mapping u : E → F, $t^t u = u$.*
 
 This follows immediately from the commutativity of diagram (27).
 
-#### Corollary 4 {#alg-ii-s2-prop-13-cor-4 .statement}
+#### Corollary 4 {#alg-ii-s2-prop-13-cor-4 .statement tag=05NW}
 
 *If P is a projective module (resp. a finitely generated projective module) the canonical mapping $c_P : P \to P**$ is injective (resp. bijective).*
 
 We shall use the following lemma:
 
-#### Lemma 1 {#alg-ii-s2-lem-1 .statement}
+#### Lemma 1 {#alg-ii-s2-lem-1 .statement tag=05NX}
 
 *Let M, N be two supplementary submodules in an A-module E and i : M → E, j : N → E the canonical injections. Then the diagram*
 
@@ -644,7 +644,7 @@ It is often said, loosely speaking, that a problem is linear if it is equivalent
 
 Given a linear equation $u(x) = y_0$, the equation $u(x) = 0$ is called the homogeneous linear equation associated with $u(x) = y_0$.
 
-#### Proposition 14 {#alg-ii-s2-prop-14 .statement}
+#### Proposition 14 {#alg-ii-s2-prop-14 .statement tag=05NY}
 
 *If $x_0$ is a solution of the linear equation $u(x) = y_0$, the set of solutions of this equation is equal to the set of elements $x_0 + z$, where $z$ runs through the set of solutions of the associated homogeneous equation $u(x) = 0$.*
 
@@ -654,7 +654,7 @@ In other words, if the equation $u(x) = y_0$ has at least one solution $x_0$, th
 
 By virtue of Proposition 14, for a linear equation $u(x) = y_0$ to have *exactly one solution*, it is necessary and sufficient that it have at least one solution and that $\overline{u}(0) = \{0\}$ (in other words, that the associated homogeneous equation have no non-zero solution, or also that $u$ be *injective*); in this case, for *all* $y \in F$, the equation $u(x) = y$ has *at most* one solution.
 
-#### Proposition 15 {#alg-ii-s2-prop-15 .statement}
+#### Proposition 15 {#alg-ii-s2-prop-15 .statement tag=05NZ}
 
 *Let $u$ be a linear mapping of a module $E$ into a module $F$. If the equation $u(x) = y_0$ has at least one solution, $y_0$ is orthogonal to the kernel of $^t u$.*
 
@@ -664,7 +664,7 @@ To say that $u(x) = y_0$ admits a solution means that $y_0 \in u(E)$ and the pro
 
 Observe that the necessary criterion for the existence of a solution of $u(x) = y_0$, given by Proposition 15, is sufficient when $A$ is a field (§ 7, no. 6, Proposition 12), but *not in general* (Exercise 10).
 
-#### Remark {#alg-ii-s2-n8-rem-1 .statement}
+#### Remark {#alg-ii-s2-n8-rem-1 .statement tag=05O0}
 
 (1) Let $E$ be an $A$-module, $(F_i)_{i \in I}$ a family of $A$-modules and for all $i \in I$ let $u_i : E \to F_i$ be a linear mapping. Every system of linear equations
 $$

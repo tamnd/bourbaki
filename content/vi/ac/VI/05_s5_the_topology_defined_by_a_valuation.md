@@ -25,9 +25,9 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 9
-content_sha256: 261f2e0a17b67c2cdf1ec24485025cf738859d6872b58d2a5f58eadcbb2818bb
+content_sha256: 99897faaea714362b6903a0161df8e22e9d794a13959ef7bcff3b5fbdf197b30
 translated_from: content/en/ac/VI/05_s5_the_topology_defined_by_a_valuation.md
-source_content_sha256: 51d0d1c356be4ee3754a76de46725b4adc93a52b5bed90bee9ecb907621db693
+source_content_sha256: f97824efc1e49c2f3f557cc487ce4e195405a030102d3750617c5a288f2ba3cd
 translation_model: gpt-5.4
 translation_run: translate-vi-0671723b
 glossary_version: 34
@@ -41,7 +41,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho K là một trường không nhất thiết giao hoán, v là một định giá trên K và G là nhóm được sắp thứ tự toàn phần $v(K^*)$. Với mọi $a \in G$ ký hiệu V, là tập hợp các $x \in K$ sao cho $v(x) > a$; tập hợp này là một nhóm con cộng tính của K (§ 3, no. 1). Tồn tại một tôpô duy nhất $\mathscr{T}_v$ trên K mà đối với nó các V, tạo thành một hệ cơ bản các lân cận của 0 (*General Topology*, Chapter III, § 1, no. 2, Example). Để v là không thực sự, điều kiện cần và đủ là $\mathscr{T}_v$ là tôpô rời rạc.
 
-#### Bổ đề 1 {#ac-vi-s5-lem-1 .statement}
+#### Bổ đề 1 {#ac-vi-s5-lem-1 .statement tag=04UQ}
 
 *Cho $x \in K^*, y \in K^*$ và $\alpha \in G$. Nếu*
 $$
@@ -58,7 +58,7 @@ $$
 v(x^{-1} - y^{-1}) > a + 2v(y) - 2v(y) = a.
 $$
 
-#### Mệnh đề 1 {#ac-vi-s5-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s5-prop-1 .statement tag=04UR}
 
 \* Tôpô $\mathscr{T}_v$ là Hausdorff và tương thích với cấu trúc trường trên K. Ánh xạ $v : K^* \to G$ là liên tục nếu G được cho tôpô rời rạc.*
 
@@ -70,7 +70,7 @@ Các $V_v$ và các $V'_\alpha$ là những nhóm con cộng tính mở và do �
 
 Đặt $A$ là vành của $u$. Nếu $v$ là rời rạc, Mệnh đề 8 của $§ 3$, no. 6 cho thấy rằng tôpô cảm sinh bởi $\mathscr{T}_v$ trên $A$ là tôpô $m(A)$-adic. Nói chung điều này không đúng (Bài tập 4).
 
-#### Mệnh đề 2 {#ac-vi-s5-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s5-prop-2 .statement tag=04US}
 
 *Cho $K$ là một trường không nhất thiết giao hoán, $v$ là một định giá không suy biến trên $K$, $A$ là vành của $v$ và $m$ là iđêan của $v$. Để $K$ với tôpô $\mathscr{T}_v$ là địa phương compắc, điều kiện cần và đủ là các điều kiện sau được thỏa mãn:*
 
@@ -90,7 +90,7 @@ là hữu hạn; vì $v(K^*)$ được sắp thứ tự toàn phần, $P$ có m�
 
 Ngược lại, giả sử các điều kiện (i), (ii), (iii) được thỏa mãn. Ta có thể chỉ xét trường hợp $v$ được chuẩn hóa; gọi $u$ là một phần tử đều hóa đối với $v$. Khi đó $\kappa(A) = A/Au$ và vì thế $A/Au$ là hữu hạn. Vì $x \mapsto xu^n$ xác định, bằng cách lấy thương, một đẳng cấu của nhóm cộng $A/Au$ lên $Au^n/Au^{n+1}$, nên $A/Au^j$ là hữu hạn với mọi $j \geq 0$. Vì $A$ đóng trong $K$, nó là đầy đủ và do đó đẳng cấu với giới hạn ngược của các $A/Au^j$ (Tôpô đại cương, Chương 111, § 7, no. 3, Mệnh đề 2) và vì thế compact. Vì $A$ mở trong $K$, do đó thấy rằng $K$ là compact địa phương.
 
-#### Nhận xét {#ac-vi-s5-n1-rem-1 .statement}
+#### Nhận xét {#ac-vi-s5-n1-rem-1 .statement tag=04UT}
 
 Chú ý rằng trong chứng minh này chỉ cần giả sử $A$ là đầy đủ.
 
@@ -100,25 +100,25 @@ Ta sẽ thấy ở § 9 rằng một trường $K$ thỏa mãn các điều ki�
 
 Trong suốt mục này, gọi $K$ là một trường (không nhất thiết giao hoán), $v$ một định giá trên $K$ và $G$ nhóm cấp của nó. $K$ được trang bị tôpô $\mathscr{T}_v$.
 
-#### Mệnh đề 3 {#ac-vi-s5-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s5-prop-3 .statement tag=04UU}
 
 Cho $E$ là một không gian vectơ tôpô trái trên $K$ Hausdorff và có chiều 1. Giả sử rằng $v$ không tầm thường. Với mọi $x_0 \neq 0$ trong $E$, ánh xạ $a \mapsto ax_0$ từ $K_s$ lên $E$ là một đẳng cấu tôpô.
 
 Ánh xạ này là một đẳng cấu đại số liên tục. Chỉ cần chứng minh rằng nó là song liên tục. Cho $\alpha \in G$. Ta phải chứng minh rằng tồn tại một lân cận $V$ của 0 trong $E$ sao cho quan hệ $ax_0 \in V$ kéo theo $v(a) > a$. Lấy $a, \in K^*$ sao cho $v(a_0) = a$. Vì $E$ là Hausdorff, tồn tại một lân cận $W$ của 0 trong $E$ sao cho $a_0x_0 \notin W$. Vì $v$ không phải là không chính quy, tồn tại một lân cận $W'$ của 0 trong $E$ và một phần tử $\beta$ của $G$ sao cho các quan hệ $y \in W'$, $v(a) \geq \beta$ kéo theo $ay \in W$. Lấy $a, \in K^*$ sao cho $v(a_1) = -\beta$. Các quan hệ $ax_0 \in a_1^{-1}W'$ và $v(a) \leq a$ kéo theo $a_1ax_0 \in W$ và $v(a_0a^{-1}a_1^{-1}) = \alpha + \beta - v(a) \geq \beta$ và do đó $a_0x_0 = a_0a^{-1}a_1^{-1}(a_1ax_0) \in W$, điều này là vô lý; nói cách khác, quan hệ $ax, \in a_1^{-1}W$ kéo theo $v(a) > a$.
 
-#### Hệ quả {#ac-vi-s5-n2-cor-1 .statement}
+#### Hệ quả {#ac-vi-s5-n2-cor-1 .statement tag=04UV}
 
 Cho $E$ là một không gian vectơ tôpô trái trên $K$, $H$ một siêu phẳng đóng của $E$ và $D$ một không gian con vectơ 1-chiều của $E$ là một phần bù đại số của $H$. Giả sử rằng $v$ không phải là không chính quy. Khi đó $D$ là một phần bù tôpô của $H$.
 
 Có tính đến các Mệnh đề 1 và 3, chứng minh giống hệt chứng minh của Không gian Vectơ Tôpô, Chương I, § 2, Hệ quả 2 của Định lý 1.
 
-#### Mệnh đề 4 {#ac-vi-s5-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vi-s5-prop-4 .statement tag=04UW}
 
 Giả sử rằng $v$ không phải là không chính quy và $K$ là đầy đủ. Cho $E$ là một không gian vectơ tôpô trái trên $K$, Hausdorff và có số chiều hữu hạn $n$. Với mọi cơ sở $(e_i)_{1 \leq i \leq n}$ của $E$ trên $K$, ánh xạ $(a_i) \mapsto \sum_{i=1}^n a_i e_i$ từ $K^n_s$ lên $E$ là một đẳng cấu không gian vectơ tôpô.
 
 Có tính đến Mệnh đề 3 và hệ quả của nó, chứng minh giống hệt chứng minh của Không gian Vectơ Tôpô, Chương I, § 2, Định lý 2.
 
-#### Hệ quả {#ac-vi-s5-n2-cor-2 .statement}
+#### Hệ quả {#ac-vi-s5-n2-cor-2 .statement tag=04UX}
 
 Giả sử rằng $v$ không phải là không chính quy và $K$ là đầy đủ. Cho $E$ là một không gian vectơ tôpô Hausdorff trên $K$ và $F$ một không gian con vectơ hữu hạn chiều của $E$. Khi đó $F$ là đóng.
 
@@ -126,7 +126,7 @@ $F$ là đầy đủ.
 
 ### 3. PHẦN BÙ CỦA MỘT TRƯỜNG CÓ MỘT ĐỊNH GIÁ
 
-#### Mệnh đề 5 {#ac-vi-s5-prop-5 .statement}
+#### Mệnh đề 5 {#ac-vi-s5-prop-5 .statement tag=04UY}
 
 Cho $K$ là một trường không nhất thiết giao hoán, $v$ một định giá trên $K$ và $G$ nhóm $v(K^*)$ với tôpô rời rạc.
 
@@ -156,7 +156,7 @@ Bây giờ ta chứng minh (d). Cho $a \in G$ và $x \in \mathscr{S}, -\{0\}$. V
 
 Có tính đến Mệnh đề 7 của Tôpô đại cương, Chương III, § 3, no. 4, mệnh đề (c) là một hệ quả của (d). Mệnh đề (e) là một trường hợp riêng của (d). Cuối cùng, cho $x \in \hat{A}$; tồn tại $y \in A$ sao cho $\hat{v}(x - y) > 0$; khi đó $z = x - y \in \hat{m}$ và do đó $x = y + z \in A + \hat{m}$; vậy $\hat{A} = A + \hat{m}$, điều này chứng tỏ (f).
 
-#### Nhận xét {#ac-vi-s5-n3-rem-1 .statement}
+#### Nhận xét {#ac-vi-s5-n3-rem-1 .statement tag=04UZ}
 
 Với mọi $x \in \hat{K}$ không thuộc $\hat{A}$, tồn tại $x_0 \in K$ sao cho $\hat{v}(x - x_0) > 0$, $\hat{v}(x) = \hat{v}(x_0) = v(x_0) < 0$; khi đó $x_0^{-1} x \in \hat{A}$ và, vì $x_0^{-1} \in A$, ta thấy rằng, nếu đặt $S = A - \{0\}$, thì có thể viết $\hat{K} = S^{-1} \hat{A}$.
 

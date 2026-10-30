@@ -36,7 +36,7 @@ subsections:
       pdf_page: 235
 statements: 29
 exercises: 10
-content_sha256: 7593b18bd2d16490a658781763f5212185682ed185a2a70b289b4836e707fa4d
+content_sha256: 31330e7f026375003346b22a73beebdd0c8dbd912dbcb167d6b79ca72562eebc
 ---
 
 ## § 7. Barycentres
@@ -45,29 +45,29 @@ content_sha256: 7593b18bd2d16490a658781763f5212185682ed185a2a70b289b4836e707fa4d
 
 Soient $E$ un espace localement convexe séparé sur $\mathbf{R}$, $E'$ son dual, ${E'}^*$ le dual algébrique de $E'$, $E$ étant canoniquement identifié à un sous-espace vectoriel de $E'$. Soit $K$ une partie compacte de $E$; l’injection canonique de $K$ dans $E$ étant continue à support compact, pour toute mesure $\mu$ sur $K$, l’intégrale $\int x\ d\mu(x)$ est donc définie et est un élément de $E'$ (chap. III, § 3, n° 1). En outre, sur $K$, la topologie induite par la topologie faible $\sigma(E', E')$ est identique à la topologie initiale. Enfin, si $C$ est l’enveloppe convexe fermée de $K$ dans $E'$ muni de $\sigma(E', E')$, $C \cap E$ est l’enveloppe convexe fermée de $K$ dans $E$ pour la topologie initiale (ou la topologie affaiblie $\sigma(E, E')$).
 
-#### Définition 1 {#int-iv-s7-def-1 .statement}
+#### Définition 1 {#int-iv-s7-def-1 .statement tag=08YJ}
 
 Soit $K$ une partie compacte d’un espace localement convexe séparé $E$. Pour toute mesure positive $\mu$ sur $K$, de masse totale égale à 1, on appelle barycentre de $\mu$ le vecteur $b_\mu = \int x\ d\mu(x)$ (appartenant à $E'$).
 
-#### Exemple {#int-iv-s7-n1-exa-1 .statement}
+#### Exemple {#int-iv-s7-n1-exa-1 .statement tag=08YK}
 
 Soit $\mu$ une mesure discrète sur $K$, positive et de masse totale 1 ; elle est donc de la forme $\mu = \sum_{i=1}^n \lambda_i \varepsilon_{x_i}$, où les $x_i \in K$, les $\lambda_i$ sont des nombres réels tels que $\lambda_i \geq 0$ pour tout $i$ et $\sum_{i=1}^n \lambda_i = 1$. Comme $\int x\ d\varepsilon_y(x) = y$ (chap. III, § 3, n° 1, Exemple 3), on a $b_\mu = \int x\ d\mu(x) = \sum_i \lambda_i x_i$. En particulier, pour tout $x \in K$, $x$ est barycentre de la mesure $\varepsilon_x$.
 
-#### Proposition 1 {#int-iv-s7-prop-1 .statement}
+#### Proposition 1 {#int-iv-s7-prop-1 .statement tag=08YL}
 
 Soient $E$ un espace localement convexe séparé, $K$ une partie compacte de $E$, $C$ l’enveloppe convexe fermée de $K$ dans $E$. L’ensemble $C$ est alors formé des points de $E$ qui sont barycentres d’au moins une mesure positive de masse 1 sur $K$.
 Ce n’est autre que la prop. 5 du chap. III, § 3, n° 2, appliquée à l’injection canonique de $K$ dans $E$.
 
-#### Corollaire {#int-iv-s7-n1-cor-1 .statement}
+#### Corollaire {#int-iv-s7-n1-cor-1 .statement tag=08YM}
 
 Si l’enveloppe convexe fermée $C$ de $K$ dans $E$ est compacte, le barycentre de toute mesure positive de masse totale 1 sur $K$ appartient à $E$.
 En effet, $C$ est alors aussi l’enveloppe convexe fermée de $K$ dans $E'$ muni de la topologie faible $\sigma(E', E')$, et il suffit d’appliquer à l’injection canonique de $K$ dans $E$ le chap. III, § 3, n° 2, prop. 4.
 
-#### Remarque {#int-iv-s7-n1-rem-1 .statement}
+#### Remarque {#int-iv-s7-n1-rem-1 .statement tag=08YN}
 
 Le cor. de la prop. 1 s’applique en particulier lorsque K est convexe, ou lorsque E est quasi-complet.
 
-#### Proposition 2 {#int-iv-s7-prop-2 .statement}
+#### Proposition 2 {#int-iv-s7-prop-2 .statement tag=08YO}
 
 Soient K une partie convexe compacte d’un espace localement convexe séparé E, μ une mesure positive de masse 1 sur K, b_μ son barycentre. Pour toute fonction numérique convexe f ≥ 0, semi-continue inférieurement dans K, on a
 
@@ -85,7 +85,7 @@ pour tout α ; or $\int h_{\alpha}(x) d\mu(x) = c_{\alpha} + \int \langle x, z'_
 
 Lorsque μ est une mesure discrète positive sur K, de masse totale 1, la prop. 2 redonne l’inégalité qui définit les fonctions convexes dans K.
 
-#### Corollaire {#int-iv-s7-n1-cor-2 .statement}
+#### Corollaire {#int-iv-s7-n1-cor-2 .statement tag=08YP}
 
 Pour toute fonction numérique g convexe bornée et semi-continue inférieurement dans K, on a $g(b_{\mu}) \leq \int g d\mu$.
 
@@ -93,7 +93,7 @@ Il suffit de remarquer que $\inf_{x \in K} g(x) = a$ est fini et d’appliquer l
 
 ### 2. Points extrémaux et barycentres
 
-#### Proposition 3 {#int-iv-s7-prop-3 .statement}
+#### Proposition 3 {#int-iv-s7-prop-3 .statement tag=08YQ}
 
 Soient K une partie convexe compacte d’un espace localement convexe séparé E, x un point de K. Toute mesure μ sur K, positive, de masse totale 1, et admettant x pour barycentre, est vaguement adhérente à l’ensemble des mesures positives discrètes de masse totale 1, admettant x pour barycentre.
 
@@ -133,7 +133,7 @@ pour $1 \leq i \leq p$, d’où $|\mu_j(f_i) - \varepsilon_{x_j}(f_i)| \leq \del
 
 C.Q.F.D.
 
-#### Corollaire {#int-iv-s7-n2-cor-1 .statement}
+#### Corollaire {#int-iv-s7-n2-cor-1 .statement tag=08YR}
 
 Soit $K'$ une partie compacte de K telle que K soit l’enveloppe convexe fermée de K. Pour que $x \in K'$ soit point extrémal de K, il faut et il suffit que $\varepsilon_x$ soit la seule mesure positive sur $K'$, de masse totale 1, ayant $x$ pour barycentre.
 
@@ -145,7 +145,7 @@ x = \lambda x' + (1 - \lambda)x''.
 $$
 D’après la prop. 1, $x'$ (resp. $x''$) est barycentre d’une mesure positive $\mu'$ (resp. $\mu''$) de masse totale 1 sur $K'$. Alors $x$ est barycentre de $\lambda \mu' + (1 - \lambda)\mu''$. Donc $\lambda \mu' + (1 - \lambda)\mu'' = \varepsilon_x$. Donc $\mu'$ et $\mu''$ sont proportionnelles à $\varepsilon_x$, d’où $x' = x'' = x$, ce qui est absurde.
 
-#### Théorème 1 (Choquet) {#int-iv-s7-thm-1 .statement}
+#### Théorème 1 (Choquet) {#int-iv-s7-thm-1 .statement tag=08YS}
 
 Soient $E$ un espace localement convexe séparé sur $\mathbf{R}$, $K$ une partie convexe compacte et métrisable de $E$, $M$ l’ensemble des points extrémaux de $K$. L’ensemble $M$ est intersection d’une famille dénombrable de parties ouvertes de $K$, et tout point de $K$ est barycentre d’une mesure $\mu$ sur $K$ telle que $\mu(K - M) = 0$.
 
@@ -153,7 +153,7 @@ Pour démontrer la première assertion, désignons par $I$ l’intervalle $[0, 1
 
 Dans la suite de la démonstration, on désignera par $u$ une fonction numérique continue et *convexe* dans K, par $G \subset E \times \mathbf{R}$ le graphe de $u$, par S l’*enveloppe convexe fermée* de G dans $E \times \mathbf{R}$.
 
-#### Lemme 1 {#int-iv-s7-lem-1 .statement}
+#### Lemme 1 {#int-iv-s7-lem-1 .statement tag=08YT}
 
 *Soit $\bar{u}$ l’enveloppe inférieure des fonctions linéaires affines continues dans E et $\geq u$ dans K. Alors S est l’ensemble des points $(\mathbf{a}, b) \in E \times \mathbf{R}$ tels que l’on ait*
 
@@ -176,7 +176,7 @@ $$
 
 Faisons d’abord $\lambda = 0$; le fait que (4) implique (5) pour toute fonction linéaire affine continue $f$ sur E équivaut à la relation $\mathbf{a} \in K$ en vertu du th. de Hahn–Banach. En second lieu, faisons $\lambda = -1$ et remplaçons $f$ par $-f$; alors la relation $f(x) \leq u(x)$ dans K doit entraîner $f(\mathbf{a}) \leq b$. Mais comme $u$ est convexe et continue dans K, $u(\mathbf{a})$ est égal à la borne supérieure des $f(\mathbf{a})$ pour les fonctions linéaires affines continues $f$ sur E telles que $f(x) \leq u(x)$ dans K (*Esp. vect. top.*, chap. II, 2e éd., § 5, n° 3, cor. 6 de la prop. 4); on obtient donc la relation $b \geq u(\mathbf{a})$. Enfin, faisons $\lambda = 1$; dire que (4) entraîne (5) signifie alors, par définition, que $b \leq \bar{u}(\mathbf{a})$. Cela prouve le lemme, puisque la relation (4) (resp. (5)) est équivalente à celle qu’on obtient en multipliant les deux membres par un scalaire $> 0$.
 
-#### Lemme 2 {#int-iv-s7-lem-2 .statement}
+#### Lemme 2 {#int-iv-s7-lem-2 .statement tag=08YU}
 
 *Si u est strictement convexe dans K, on a $u(x) < \bar{u}(x)$ pour tout point non extrémal x de K.*
 
@@ -198,7 +198,7 @@ $$
 $$
 Mais comme $u(x) \leq \bar{u}(x)$ dans $K$, la relation (8) implique que $u(x) = \bar{u}(x)$ presque partout pour $\mu$. Compte tenu du lemme 2, on voit que le théorème 1 sera démontré une fois établi le
 
-#### Lemme 3 {#int-iv-s7-lem-3 .statement}
+#### Lemme 3 {#int-iv-s7-lem-3 .statement tag=08YV}
 
 *Soient E un espace localement convexe séparé sur R, K un partie convexe compacte métrisable de E. Il existe une fonction numérique strictement convexe dans K.*
 
@@ -206,7 +206,7 @@ En effet, l’espace de Banach $\mathscr{C}(K; \mathbf{R})$ est de type dénombr
 
 C.Q.F.D.
 
-#### Corollaire {#int-iv-s7-n2-cor-2 .statement}
+#### Corollaire {#int-iv-s7-n2-cor-2 .statement tag=08YW}
 
 Soient E un espace localement convexe séparé sur $\mathbf{R}$, C un cône convexe saillant de sommet 0 dans E, complet et métrisable pour la structure uniforme induite par la structure uniforme affaiblie de E. Soit M la réunion des génératrices extrémales de C. Pour tout $x \in C$, il existe une partie compacte K de C et une mesure $\lambda \geq 0$ de masse 1 sur K, telles que $K - (M \cap K)$ soit $\lambda$-négligeable et que le barycentre de $\lambda$ soit égal à x.
 
@@ -222,7 +222,7 @@ pour toute fonction $f \in \mathscr{H}$ et tout $x \in X$.
 
 L’application $i_{\mathscr{H}}$ de X dans $\mathscr{H}'$ est injective et continue lorsqu’on munit $\mathscr{H}'$ de la topologie faible $\sigma(\mathscr{H}', \mathscr{H})$; la seconde assertion résulte aussitôt des définitions et de (9); quant à la première, notons que si $x, x'$ sont deux points distincts de X, il existe par hypothèse une fonction $h \in \mathscr{H}$ telle que $h(x) \neq h(x')$, donc, en vertu de (9), $\langle h, i_{\mathscr{H}}(x) \rangle \neq \langle h, i_{\mathscr{H}}(x') \rangle$ et a fortiori $i_{\mathscr{H}}(x) \neq i_{\mathscr{H}}(x')$. L’image $i_{\mathscr{H}}(X)$ est donc une partie compacte de $\mathscr{H}'$ (pour la topologie faible), et $i_{\mathscr{H}}$ un homéomorphisme de X sur $i_{\mathscr{H}}(X)$.
 
-#### Proposition 4 {#int-iv-s7-prop-4 .statement}
+#### Proposition 4 {#int-iv-s7-prop-4 .statement tag=08YX}
 
 (i) L’enveloppe convexe fermée C de $i_{\mathscr{H}}(X)$ dans $\mathscr{H}'$ (pour la topologie faible $\sigma(\mathscr{H}', \mathscr{H})$) est compacte.
 
@@ -244,13 +244,13 @@ pour toute fonction $h \in \mathscr{H}$. Compte tenu de (9), l’assertion (ii) 
 
 Nous dirons qu’un point $x \in X$ vérifiant la condition (ii) de la prop. 4 est $\mathscr{H}$-extrémal ; nous désignerons par $\mathrm{Ch}_{\mathscr{H}}(X)$ (ou simplement $\mathrm{Ch}(X)$) l’ensemble de ces points, par $\check{S}_{\mathscr{H}}(X)$ (ou simplement $\check{S}(X)$) l’adhérence de $\mathrm{Ch}_{\mathscr{H}}(X)$ dans X.
 
-#### Proposition 5 {#int-iv-s7-prop-5 .statement}
+#### Proposition 5 {#int-iv-s7-prop-5 .statement tag=08YY}
 
 Toute fonction $h \in \mathscr{H}$ atteint sa borne supérieure en un point $\mathscr{H}$-extrémal au moins.
 
 Soient $x$ un point de X, $h$ une fonction de $\mathscr{H}$. La relation $h(z) \leq h(x)$ pour tout $z \in X$ s’écrit $\langle h, i_{\mathscr{H}}(z) \rangle \leq \langle h, i_{\mathscr{H}}(x) \rangle$ pour tout $z \in X$, et signifie donc que l’hyperplan faiblement fermé de $\mathscr{H}'$, d’équation $\langle h, t' \rangle = \langle h, i_{\mathscr{H}}(x) \rangle$ est un hyperplan d’appui de $i_{\mathscr{H}}(X)$. On sait (*Esp. vect. top.*, chap. II, 2e éd., § 7, n° 1, cor. 1 de la prop. 1), qu’un tel hyperplan contient un point extrémal au moins de $i_{\mathscr{H}}(X)$, et un tel point $i_{\mathscr{H}}(y)$ est l’image d’un point $\mathscr{H}$-extrémal $y$ par définition ; $h(y)$ est donc égal à la borne supérieure de $h$ dans X.
 
-#### Proposition 6 {#int-iv-s7-prop-6 .statement}
+#### Proposition 6 {#int-iv-s7-prop-6 .statement tag=08YZ}
 
 Pour tout point $x \in X$, les propriétés suivantes sont équivalentes :
 
@@ -274,7 +274,7 @@ $$
 $$
 pour tout $\varepsilon > 0$, donc $\lambda(\{x\}) = 1$. Comme $\lambda$ est positive et de masse totale 1, on a nécessairement $\lambda = \varepsilon_x$, ce qui prouve que $x$ est $\mathscr{H}$-extrémal en vertu de la prop. 4, (ii).
 
-#### Proposition 7 {#int-iv-s7-prop-7 .statement}
+#### Proposition 7 {#int-iv-s7-prop-7 .statement tag=08Z0}
 
 Soit $F$ une partie fermée de $X$. Les propriétés suivantes sont équivalentes :
 
@@ -286,7 +286,7 @@ c) Pour tout point $x \in X$, il existe une mesure positive $\mu$ de masse 1 sur
 
 Soit $G = i_{\mathscr{H}}(F)$. La condition *a*) signifie que $G$ contient l’ensemble des points extrémaux de $C$. La condition *b*) signifie que $G$ rencontre l’intersection de $i_{\mathscr{H}}(X)$ avec chacun des hyperplans d’appui fermés de $i_{\mathscr{H}}(X)$. Enfin la condition *c*) signifie que tout point de $i_{\mathscr{H}}(X)$ est barycentre d’une mesure de support contenu dans $G$; en vertu du n° 1, prop. 1, cela équivaut encore à dire que l’enveloppe convexe fermée de $i_{\mathscr{H}}(X)$ est égale à l’enveloppe convexe fermée de $G$. L’équivalence des conditions *a)*, *b)* et *c*) résulte donc d’*Esp. vect. top.*, chap. II, 2° éd., § 7, n° 1, cor. 2 de la prop. 2.
 
-#### Proposition 8 {#int-iv-s7-prop-8 .statement}
+#### Proposition 8 {#int-iv-s7-prop-8 .statement tag=08Z1}
 
 Supposons $X$ métrisable. *Alors l’ensemble* $\mathrm{Ch}_{\mathscr{H}}(X)$ *des points* $\mathscr{H}$-*extrémaux de* $X$ *est intersection d’une famille dénombrable d’ensembles ouverts dans* $X$, *et pour tout* $x \in X$, *il existe une mesure positive* $\mu$ *de masse* 1 *sur* $X$ *telle que*
 $$
@@ -298,7 +298,7 @@ C’est la traduction du th. 1 du n° 2, par transport de structure au moyen de 
 
 Un certain nombre de résultats de ce n° s’étendent lorsqu’on remplace $\mathscr{H}$ par un ensemble $\mathscr{P}$ de fonctions définies dans $X$, à valeurs dans $\mathbf{R} \cup \{+\infty\}$, semi-continues inférieurement, $\mathscr{P}$ étant supposé contenir les constantes et être tel que $\mathscr{P} + \mathscr{P} \subset \mathscr{P}$ (exerc. 2).
 
-#### Exemple {#int-iv-s7-n3-exa-1 .statement}
+#### Exemple {#int-iv-s7-n3-exa-1 .statement tag=08Z2}
 
 Prenons pour $X$ la boule unité $\|x\| \leq 1$ dans $\mathbf{R}^3$, et soit $\mathscr{H}$ un espace vectoriel de fonctions continues dans $X$, contenant les restrictions à $X$ des fonctions linéaires affines dans $\mathbf{R}^3$, et vérifiant le « principe du maximum », c’est-à-dire que pour toute fonction $h \in H$ non constante, l’ensemble des points de $X$ où $h$ atteint sa borne supérieure est contenu dans la sphère $S_2$. Il résulte alors aisément des prop. 5 et 7 que $\mathrm{Ch}_{\mathscr{H}}(X) = \tilde{S}_{\mathscr{H}}(X) = S_2$. Un exemple important d’espace vectoriel $\mathscr{H}$ vérifiant les conditions précédentes est l’ensemble des fonctions continues dans $X$ et *harmoniques* dans la boule ouverte $\|x\| < 1$. Pour ces fonctions, on démontre que la mesure positive $\mu$ de masse 1 telle que $\mathrm{Supp}(\mu) \subset S_2$ et que $h(x) = \int h \, d\mu$ pour toute $h \in \mathscr{H}$, est donnée, si $\|x\| < 1$, par la formule de Poisson
 $$
@@ -310,7 +310,7 @@ où $\sigma$ est la mesure sur $S_2$ invariante par le groupe orthogonal et tell
 
 Soient X un espace compact non vide, $\mathscr{H}$ un sous-espace vectoriel de l’espace de Banach complexe $\mathscr{C}(X; \mathbf{C})$ qui contient les constantes et sépare les points de X. L’ensemble des parties réelles $\mathscr{R}(f)$ des fonctions $f \in \mathscr{H}$ est un sous-espace vectoriel $\mathscr{H}_r$ de l’espace vectoriel réel $\mathscr{C}(X; \mathbf{R})$; pour toute $f \in \mathscr{H}$, l’ensemble $\mathscr{H}_r$ contient aussi $\mathscr{J}(f) = \mathscr{R}(-if)$; il en résulte que $\mathscr{H}_r$ sépare les points de X puisque la relation $h(x) = h(y)$ pour toute $h \in \mathscr{H}_r$ entraîne $\mathscr{R}(f(x)) = \mathscr{R}(f(y))$ et $\mathscr{J}(f(x)) = \mathscr{J}(f(y))$, donc $f(x) = f(y)$ pour toute $f \in \mathscr{H}$. Les points $\mathscr{H}_r$-extrémaux dans X sont encore appelés $\mathscr{H}$-extrémaux, et on note leur ensemble $\mathrm{Ch}_{\mathscr{H}}(X)$, et l’adhérence de ce dernier $\check{S}_{\mathscr{H}}(X)$. Les analogues des prop. 5 et 7 sont les suivantes :
 
-#### Proposition 9 {#int-iv-s7-prop-9 .statement}
+#### Proposition 9 {#int-iv-s7-prop-9 .statement tag=08Z3}
 
 Pour toute fonction $f \in \mathscr{H}$, $\mathrm{Ch}_{\mathscr{H}}(X)$ rencontre l’ensemble des points où $|f|$ atteint sa borne supérieure.
 
@@ -320,7 +320,7 @@ $$
 $$
 En vertu de la prop. 5 du n° 3 appliquée à $\mathscr{H}_r$, il existe $b \in \mathrm{Ch}_{\mathscr{H}}(X)$ où $\mathscr{R}(g(x))$ atteint sa borne supérieure 1, d’où $|g(b)| = 1$ puisque $|g(b)| \leq 1$; on en conclut que $|f(b)| = |f(a)| \geq |f(x)|$ pour tout $x \in X$.
 
-#### Proposition 10 {#int-iv-s7-prop-10 .statement}
+#### Proposition 10 {#int-iv-s7-prop-10 .statement tag=08Z4}
 
 Soit F une partie fermée de X. Les propriétés suivantes sont équivalentes :
 a) F contient $\check{S}_{\mathscr{H}}(X)$.
@@ -341,13 +341,13 @@ b^2 \geq |g - b|^2 = |g|^2 - 2b \mathscr{R}(g) + b^2
 $$
 et par suite $\mathscr{R}(g) \geq |g|^2 / 2b \geq 0$; comme $\mathscr{R}(g) = h - h(a) + \varepsilon$, et que $\varepsilon > 0$ est arbitraire, on a $h \geq h(a)$, et $h(a)$ est la borne inférieure de $h$ dans X, ce qui achève la démonstration.
 
-#### Remarque {#int-iv-s7-n4-rem-1 .statement}
+#### Remarque {#int-iv-s7-n4-rem-1 .statement tag=08Z5}
 
 Si $f$ est une fonction continue réelle, un point où $|f|$ atteint sa borne supérieure est un point où l’une des fonctions $f, -f$ atteint sa borne supérieure. Pour un espace vectoriel $\mathscr{H}$ de fonctions continues réelles vérifiant les hypothèses du n° 3, les prop. 9 et 10 sont donc des corollaires triviaux des prop. 5 et 7 respectivement.
 
 ### 5. Applications: III. Algèbres de fonctions continues
 
-#### Lemme 4 {#int-iv-s7-lem-4 .statement}
+#### Lemme 4 {#int-iv-s7-lem-4 .statement tag=08Z6}
 
 Soient X un espace compact, $\mathscr{H}$ un sous-espace vectoriel fermé de l’espace de Banach $\mathscr{C}(X; \mathbf{C})$ (resp. $\mathscr{C}(X; \mathbf{R})$). Soit a un point de X admettant un système fondamental dénombrable de voisinages; on suppose que, quels que soient les nombres c et d tels que $0 < c < d < 1$, et le voisinage ouvert U de a, il existe $f \in \mathscr{H}$ telle que
 (12) $|f| \leq 1,\quad |f(a)| \geq d,\quad |f(x)| \leq c$ pour tout $x \in X - U$.
@@ -399,7 +399,7 @@ $$
 = \sum_{j=1}^{\infty} \lambda^j = |u(a)|.
 $$
 
-#### Théorème 2 (E. Bishop) {#int-iv-s7-thm-2 .statement}
+#### Théorème 2 (E. Bishop) {#int-iv-s7-thm-2 .statement tag=08Z7}
 
 Soient X un espace compact, $\mathscr{A}$ une sous-algèbre fermée de l’algèbre de Banach complexe $\mathscr{C}(X; \mathbf{C})$. On suppose que $\mathscr{A}$ contient les constantes et sépare les points de X. Soit a un point de X ; les conditions suivantes sont équivalentes :
 
@@ -421,7 +421,7 @@ $$
 
 C.Q.F.D.
 
-#### Corollaire {#int-iv-s7-n5-cor-1 .statement}
+#### Corollaire {#int-iv-s7-n5-cor-1 .statement tag=08Z8}
 
 Supposons de plus que X soit métrisable. Alors les propriétés suivantes sont équivalentes :
 
@@ -440,7 +440,7 @@ $$
 
 Comme, dans un espace métrisable, tout point admet un système fondamental dénombrable de voisinages, l’équivalence de a) et b) résulte du th. 2. Montrons que b) entraîne c): en effet $a$ est l’unique point où $|u|$ atteint sa borne supérieure; d’autre part, c) entraîne a), car $\mathrm{Ch}_{\mathscr{A}}(X)$ rencontre, pour tout $f \in \mathscr{A}$, l’ensemble des points où $|f|$ atteint sa borne supérieure (n° 4, prop. 9). Le même raisonnement utilisant la prop. 5 du n° 3 montre que d) entraîne a). Enfin, pour voir que b) entraîne d), on peut se borner au cas où $X$ n’est pas réduit au point $a$, donc $u(a) \neq 0$; la fonction $v = u/u(a)$ appartient alors à $\mathscr{A}$, et l’on a $v(a) = 1$ et $|v(x)| < 1$ pour $x \neq a$, d’où $\Re(v(a)) = 1$ et $\Re(v(x)) < 1$ pour $x \neq a$. La fonction $\Re(v)$ n’atteignant sa borne supérieure qu’au point $a$, on a bien $a \in N$ pour tout $N \in \mathfrak{N}$.
 
-#### Exemple {#int-iv-s7-n5-exa-1 .statement}
+#### Exemple {#int-iv-s7-n5-exa-1 .statement tag=08Z9}
 
 Soit $X_1$ l’ensemble des points $(z_1, z_2) \in \mathbf{C}^2$ tels que $|z_1|^2 + |z_2|^2 \leq 1$ (boule unité dans $\mathbf{R}^4$), et soit $\mathscr{A}_1'$ l’ensemble des restrictions à $X_1$ des fonctions holomorphes, à valeurs dans $\mathbf{C}$, définies dans un voisinage de $X_1$ dans $\mathbf{C}^2$ (voisinage dépendant de la fonction considérée); soit $\mathscr{A}_1$ l’adhérence de $\mathscr{A}_1'$ dans $\mathscr{C}(X_1 ; \mathbf{C})$, qui est évidemment une sous-algèbre complexe fermée de $\mathscr{C}(X_1 ; \mathbf{C})$ et sépare les points de $X_1$. L’application du « principe du maximum » pour les fonctions holomorphes montre que $\mathrm{Ch}_{\mathscr{A}_1}(X_1)$ est la sphère $S_3$.
 
@@ -454,7 +454,7 @@ On notera toutefois que les espaces $X_1$ et $X_2$ sont homéomorphes, étant to
 
 Soient E un espace localement convexe séparé faible, C un cône convexe pointé saillant dans E. On sait que C est l’ensemble des éléments $\geqslant 0$ de E pour une relation d’ordre compatible avec la structure vectorielle de E. Quand on dira que C est réticulé, il s’agira bien entendu de l’ordre induit sur C par celui de E.
 
-#### Lemme 5 {#int-iv-s7-lem-5 .statement}
+#### Lemme 5 {#int-iv-s7-lem-5 .statement tag=08ZA}
 
 On suppose C faiblement complet. Soit $\mathscr{A}$ l’ensemble des restrictions à C des formes linéaires continues sur E. Soient $(f_\lambda)_{\lambda \in \Lambda}$ une famille finie d’éléments de $\mathscr{A}$, et $f = \sup (f_\lambda)$. Pour tout $x \in C$, on pose
 
@@ -472,7 +472,7 @@ $$
 
 où $(y_1, y_2, \ldots, y_p)$ parcourt l’ensemble des suites de p points de C telles que $y_1 + y_2 + \ldots + y_p = x$. Posons $D = C \cap (x - C)$. Comme D est compact (Esp. vect. top., chap. II, 2e éd., § 6, n° 8, cor. 2 de la prop. 11), il en est de même de l’ensemble des éléments $(y_1, \ldots, y_p)$ de $D^p$ tels que $y_1 + \ldots + y_p = x$, de sorte que la borne supérieure (19) est atteinte.
 
-#### Lemme 6 {#int-iv-s7-lem-6 .statement}
+#### Lemme 6 {#int-iv-s7-lem-6 .statement tag=08ZB}
 
 On conserve les hypothèses et les notations du lemme 5, et on suppose les $f_\lambda$ positives. La fonction $\bar{f}$ est positivement homogène, concave et semi-continue supérieurement dans C. Elle est affine si C est réticulé.
 
@@ -494,7 +494,7 @@ $$
 
 Comme $\varepsilon$ est arbitraire $> 0$, on a bien prouvé que $\bar{f}$ est convexe.
 
-#### Théorème 3 (Choquet) {#int-iv-s7-thm-3 .statement}
+#### Théorème 3 (Choquet) {#int-iv-s7-thm-3 .statement tag=08ZC}
 
 *Soient* $E$ *un espace localement convexe faible séparé*, $C$ *un cône convexe saillant faiblement complet de sommet* 0 *dans* $E$, $G$ *la réunion des génératrices extrémales de* $C$, $K$ *une partie compacte convexe de* $C$, $\lambda$ *et* $\lambda'$ *des mesures positives de masse* 1 *sur* $K$, *admettant le même barycentre*, *et telles que* $\lambda^*(K - (K \cap G)) = {\lambda'}^*(K - (K \cap G)) = 0$. *Supposons* $\mathbf{C}$ *réticulé*. *Alors, pour toute fonction* $f$ *convexe* $\geq 0$ *semi-continue inférieurement et positivement homogène sur* $C$, *on a* $\lambda^*(f|K) = {\lambda'}^*(f|K)$.
 
@@ -502,7 +502,7 @@ Soit $\mathscr{A}$ (resp. $\mathscr{A}'$) l’ensemble des restrictions à $C$ d
 
 Définissons $\bar{f}$ comme dans le lemme 5. Il est clair que $\bar{f}(y) = f(y)$ si $y \in G$. Comme $\lambda^*(K - (K \cap G)) = 0$, on a $\lambda(f|K) = \lambda(\bar{f}|K)$. D’après le lemme 6, $\bar{f}$ est affine et semi-continue supérieurement. Donc $\bar{f}|K$ est enveloppe inférieure d’un ensemble filtrant décroissant de restrictions d’éléments de $\mathscr{A}'$ à K (Esp. vect. top., chap. II, 2e éd., § 5, n° 4, prop. 6). Soit $x \in K$ le barycentre de $\lambda$. Si $g \in \mathscr{A}$, on a $\lambda(g|K) = g(x)$. Donc $\lambda(\bar{f}|K) = \bar{f}(x)$ ($§ 4$, n° 4, cor. 2 de la prop. 5). Ainsi, $\lambda(f|K) = \bar{f}(x)$, et on voit de même que $\lambda'(f|K) = \bar{f}(x)$.
 
-#### Corollaire {#int-iv-s7-n6-cor-1 .statement}
+#### Corollaire {#int-iv-s7-n6-cor-1 .statement tag=08ZD}
 
 Soient E un espace localement convexe séparé, C un cône convexe saillant de sommet 0 dans E, admettant une semelle compacte M, et G la réunion des génératrices extrémales de C. Soit $x \in M$. Si C est réticulé, il existe au plus une mesure positive $\lambda$ de masse 1 sur M, telle que $\lambda^*(M - (G \cap M)) = 0$, et admettant x pour barycentre.
 

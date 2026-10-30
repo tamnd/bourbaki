@@ -25,7 +25,7 @@ subsections:
       pdf_page: 283
 statements: 2
 exercises: 3
-content_sha256: 191b999113067fbd9cc920173cfd24ac8cd5d90b4c61976b8fe38f9841a1a7df
+content_sha256: 9643c982691016dad4da87886b03b21c47db7a88580b4d478f1263eba4cd4b2a
 ---
 
 ## § 3. LE CORPS DES NOMBRES RÉELS
@@ -44,7 +44,7 @@ il existe un entier $m > 0$ tel que, pour tout $x \in \mathscr{CV}$, $|x| \geqsl
 
 L’image par la fonction $1/x$, de tout filtre de Cauchy sur $\mathbf{Q}^*$ (relatif à la structure uniforme additive) auquel 0 n’est pas adhérent, est encore un filtre de Cauchy (pour la structure uniforme additive). Donc (III, p. 56, prop. 7):
 
-#### Proposition 1 {#top-iv-s3-prop-1 .statement}
+#### Proposition 1 {#top-iv-s3-prop-1 .statement tag=0BQF}
 
 Les fonctions xy et $1/x$, définies respectivement dans $\mathbf{Q} \times \mathbf{Q}$ et $\mathbf{Q}^*$, se prolongent par continuité à $\mathbf{R} \times \mathbf{R}$ et $\mathbf{R}^*$ respectivement, et définissent sur $\mathbf{R}$ une structure de corps topologique commutatif. Muni de cette structure, $\mathbf{R}$ est appelé le corps des nombres réels.
 
@@ -72,7 +72,7 @@ Il résulte de ce qui précède que $\mathbf{R}_+^*$ est un sous-groupe du group
 
 Le fait que le produit de deux nombres réels positifs soit positif peut encore s’exprimer en disant que $\mathbf{R}$ est un corps ordonné (A, VI, § 2); et on a vu en Algèbre (loc. cit.) que toutes les propriétés qui précèdent sont communes aux corps ordonnés.
 
-#### Proposition 2 {#top-iv-s3-prop-2 .statement}
+#### Proposition 2 {#top-iv-s3-prop-2 .statement tag=0BQG}
 
 *Le groupe multiplicatif $\mathbf{R}^*$ des nombres réels $\neq 0$ est un groupe topologique isomorphe au produit de ses sous-groupes $\mathbf{R}_+^*$ et $\mathbf{U}_0 = \{-1, +1\}$.*
 

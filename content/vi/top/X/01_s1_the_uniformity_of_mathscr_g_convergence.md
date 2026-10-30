@@ -36,9 +36,9 @@ subsections:
       pdf_page: 286
 statements: 33
 exercises: 12
-content_sha256: 2d4babca6ad15acba31a02123b6a237af22ead915ad989978ebd097452786e1a
+content_sha256: 200b7572288d87fbd8501caeb4303eace174d10ce1c28ffe3124963eb38eb56f
 translated_from: content/en/top/X/01_s1_the_uniformity_of_mathscr_g_convergence.md
-source_content_sha256: f459da45f8e6af0ecb54b75558b2fda0793b19a3926826a8dda82f7fd591ac3e
+source_content_sha256: 745807f99ebf8ccad98600e79411f1137bc903046fec07540ab638fc2319dece
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-17a8f949
 glossary_version: 34
@@ -56,7 +56,7 @@ Cho $X$ là một tập hợp và $Y$ là một không gian đồng nhất. Vớ
 
 $(B_1)$ (Chương I, § 6, no. 3); ta có $\widehat{W(V)} = W(\overline{V})$ nên $(U''_{II})$ được thỏa mãn; cuối cùng, các quan hệ "$(u(x), v(x)) \in V$ với mọi $x \in X$" và "$(v(x), w(x)) \in V$ với mọi $x \in X$" suy ra quan hệ "$(u(x), w(x)) \in \overline{V}^2$ với mọi $x \in X$"; nói cách khác, ta có $\widehat{W(V)} \subset W(\overline{V}^2)$, điều này chứng minh $(U'''_{III})$.
 
-#### Định nghĩa 1 {#top-x-s1-def-1 .statement}
+#### Định nghĩa 1 {#top-x-s1-def-1 .statement tag=0CAR}
 
 *Cấu trúc đều trên tập hợp $\mathscr{F}(X; Y)$ có một hệ cơ sở các lân cận là tập hợp các tập con $W(V)$, trong đó $V$ chạy qua tập hợp các lân cận của $Y$, được gọi là cấu trúc đều của hội tụ đều. Tôpô do nó cảm sinh được gọi là tôpô của hội tụ đều. Nếu một bộ lọc $\Phi$ trên $\mathscr{F}(X; Y)$ hội tụ đến một phần tử $u_0$ đối với tôpô này, thì $\Phi$ được nói là hội tụ đều đến $u_0$.*
 
@@ -66,7 +66,7 @@ Không gian đều thu được bằng cách trang bị cho $\mathscr{F}(X; Y)$ 
 
 ### 2. Hội tụ $\mathfrak{S}$
 
-#### Định nghĩa 2 {#top-x-s1-def-2 .statement}
+#### Định nghĩa 2 {#top-x-s1-def-2 .statement tag=0CAS}
 
 *Cho $X$ là một tập hợp, $Y$ là một không gian đều, $\mathfrak{S}$ là một tập hợp các tập con của $X$. Cấu trúc đều của hội tụ đều trong các tập hợp của $\mathfrak{S}$, hay đơn giản là cấu trúc đều của hội tụ $\mathfrak{S}$, là cấu trúc đều thô nhất trên $\mathscr{F}(X; Y)$ làm cho các ánh xạ hạn chế $u \to u|A$ của $\mathscr{F}(X, Y)$ vào các không gian đều $\mathscr{F}_u(A; Y)$ là liên tục đều, trong đó $A$ chạy qua $\mathfrak{S}$. Không gian đều thu được bằng cách trang bị cho $\mathscr{F}(X; Y)$ cấu trúc đều của hội tụ $\mathfrak{S}$ được ký hiệu là $\mathscr{F}_{\mathfrak{S}}(X; Y)$.*
 
@@ -80,13 +80,13 @@ Cho $f$ là một ánh xạ từ một không gian tôpô (tương ứng, không
 
 Cuối cùng, cho $M$ là một tập con của $\mathscr{F}_{\mathfrak{S}}(X; Y)$; khi đó $M$ là tiền compact khi và chỉ khi, với mỗi $A \in \mathfrak{S}$, tập hợp các hạn chế $u|A$ với $u \in M$ là một tập con tiền compact của $\mathscr{F}_u(A; Y)$ (Chương II, § 4, no. 2, Mệnh đề 3).
 
-#### Nhận xét 1 {#top-x-s1-n2-rem-1 .statement}
+#### Nhận xét 1 {#top-x-s1-n2-rem-1 .statement tag=0CAT}
 
 Định nghĩa tổng quát của các lân cận của một đều đặn ban đầu (Chương II, § 2, no. 3, Mệnh đề 4) cho thấy rằng một hệ cơ sở của các lân cận của $\mathscr{F}_\mathscr{S}(X; Y)$ có thể thu được như sau: với mỗi $A \in \mathscr{S}$ và mỗi lân cận $V$ của một hệ cơ sở các lân cận $\mathscr{B}$ của $Y$, gọi $W(A, V)$ là tập hợp tất cả các cặp ánh xạ $(u, v)$ từ $X$ vào $Y$ sao cho $(u(x), v(x)) \in V$ với mỗi $x \in A$; khi $A$ chạy qua $\mathscr{S}$ và $V$ chạy qua $\mathscr{B}$, các *giao hữu hạn của các tập hợp* $W(A, V)$ tạo thành một hệ cơ sở các lân cận của $\mathscr{F}_\mathscr{S}(X; Y)$.
 
 Mô tả này cho thấy ngay lập tức rằng nếu $\mathscr{S}, \mathscr{S}'$ là hai tập hợp các tập con của $X$ sao cho $\mathscr{S} \subset \mathscr{S}'$, thì đều đặn của sự hội tụ theo $\mathscr{S}'$ là *mịn hơn* đều đặn của sự hội tụ theo $\mathscr{S}$.
 
-#### Nhận xét 2 {#top-x-s1-n2-rem-2 .statement}
+#### Nhận xét 2 {#top-x-s1-n2-rem-2 .statement tag=0CAU}
 
 Tuy nhiên, đều đặn của sự hội tụ theo $\mathscr{S}$ không thay đổi khi thay thế $\mathscr{S}$ bởi tập hợp $\mathscr{S}'$ gồm tất cả các tập con của $X$ *được chứa trong các hợp hữu hạn của các tập hợp của* $\mathscr{S}$. Trong việc nghiên cứu sự hội tụ theo $\mathscr{S}$, do đó ta luôn có thể giới hạn vào trường hợp tập hợp $\mathscr{S}$ thỏa mãn hai điều kiện sau:
 
@@ -96,21 +96,21 @@ Tuy nhiên, đều đặn của sự hội tụ theo $\mathscr{S}$ không thay �
 
 Nếu thỏa mãn (F'$_2$), ta thu được một hệ cơ bản các lân cận trong $\mathscr{F}_\mathscr{S}(X; Y)$ bằng cách lấy tất cả các tập hợp $W(A, V)$, trong đó $A$ chạy qua $\mathscr{S}$ và $V$ chạy qua một hệ cơ bản các lân cận của $Y$.
 
-#### Nhận xét 3 {#top-x-s1-n2-rem-3 .statement}
+#### Nhận xét 3 {#top-x-s1-n2-rem-3 .statement tag=0CAV}
 
 Tính đều của sự hội tụ $\mathscr{S}$ là ảnh ngược, theo ánh xạ $u \to (u|A)_{A \in \mathscr{S}}$ của $\mathscr{F}(X; Y)$ vào $\prod_{A \in \mathscr{S}} \mathscr{F}_u(A; Y)$, của tính đều của không gian tích này (Chương II, § 2, no. 6, Mệnh đề 8). Nếu $\mathscr{S}$ là một *phủ* của $X$, ánh xạ này là *đơn ánh* và $\mathscr{F}_\mathscr{S}(X; Y)$ do đó đẳng cấu với không gian con đều của $\prod_{A \in \mathscr{S}} \mathscr{F}_u(A; Y)$ là ảnh của ánh xạ này.
 
-#### Mệnh đề 1 {#top-x-s1-prop-1 .statement}
+#### Mệnh đề 1 {#top-x-s1-prop-1 .statement tag=0CAW}
 
 *Nếu* $Y$ *là Hausdorff và* $\mathscr{S}$ *là một phủ của* $X$, *thì không gian* $\mathscr{F}_\mathscr{S}(X; Y)$ *là Hausdorff*.
 
 Cho $u, v$ là hai phần tử của $\mathscr{F}_\mathscr{S}(X; Y)$ sao cho $(u, v) \in W(A, V)$ với mọi lân cận $V$ của $Y$ và mọi $A \in \mathscr{S}$. Vì $Y$ là Hausdorff nên suy ra rằng $u$ và $v$ trùng nhau trên mọi tập hợp $A \in \mathscr{S}$, và vì $\mathscr{S}$ phủ $X$ nên ta phải có $u = v$.
 
-#### Nhận xét 4 {#top-x-s1-n2-rem-4 .statement}
+#### Nhận xét 4 {#top-x-s1-n2-rem-4 .statement tag=0CAX}
 
 Cho $H$ là một tập con của $\mathscr{F}(X; Y)$. Do lạm dụng ngôn ngữ, tính đều (tương ứng tôpô) cảm sinh trên $H$ bởi tính đều (tương ứng tôpô) của sự hội tụ $\mathscr{S}$ trên $\mathscr{F}(X; Y)$ được gọi là tính đều (tương ứng tôpô) của sự hội tụ $\mathscr{S}$ trên tập hợp $H$.
 
-#### Nhận xét 5 {#top-x-s1-n2-rem-5 .statement}
+#### Nhận xét 5 {#top-x-s1-n2-rem-5 .statement tag=0CAY}
 
 Cho $L$ là một tập hợp được lọc bởi một lọc $\mathfrak{S}$, và cho $\lambda \to u_\lambda$ là một ánh xạ của $L$ vào $\mathscr{F}_\mathscr{S}(X; Y)$ có giới hạn $v$ đối với $\mathfrak{S}$; khi đó ta nói rằng, *đối với lọc* $\mathfrak{S}$, *các ánh xạ* $u_\lambda$ *của* $X$ *vào* $Y$ *hội tụ đều tới* $v$ *[hoặc họ* $(u_\lambda)$ *hội tụ đều tới* $v$] *trong mỗi tập hợp của* $\mathscr{S}$. *Nếu* $L = \mathbf{N}$ *và* $\mathfrak{S}$ *là lọc Fréchet*, ta bỏ qua việc nhắc đến $\mathfrak{S}$ *trong mệnh đề này*.
 
@@ -122,7 +122,7 @@ $$
 
 ta nói rằng *chuỗi có số hạng tổng quát là* $u_n$ *là hội tụ đều trong mọi tập của* $\mathscr{G}$ *nếu dãy* $(v_n)$ *là hội tụ đều trong mọi tập của* $\mathscr{G}$. Tương tự, ta định nghĩa một *họ khả tổng đều* $(u_\lambda)_{\lambda \in L}$ của các ánh xạ từ $X$ vào $Y$ bằng cách xét các ánh xạ $x \to \sum_{\lambda \in J} n_\lambda(x)$ với mọi tập con hữu hạn $J$ của $L$ và giới hạn của các ánh xạ này trong $\mathscr{F}_\mathscr{G}(X; Y)$ đối với tập có hướng gồm các tập con hữu hạn của $L$ (Chương III, § 5, no. 1).
 
-#### Nhận xét 6 {#top-x-s1-n2-rem-6 .statement}
+#### Nhận xét 6 {#top-x-s1-n2-rem-6 .statement tag=0CAZ}
 
 Suy ra ngay từ Định nghĩa 1 và 2 rằng, với mọi $x \in \bigcup_{A \in \mathscr{G}} A$, ánh xạ $u \to u(x)$ của $\mathscr{F}_\mathscr{G}(X; Y)$ vào $Y$ là *liên tục đều*. Do đó, nói riêng, nếu $\overline{H}$ ký hiệu bao đóng của một tập con $H$ của $\mathscr{F}_\mathscr{G}(X; Y)$, ta có $\overline{H}(x) \subset \overline{H(x)}$ với mọi $x \in \bigcup_{A \in \mathscr{G}} A$ (Chương I, § 2, no. 1, Định lý 1).
 
@@ -140,7 +140,7 @@ Nếu $X$ là một không gian đều, ta có thể định nghĩa trên $\math
 
 ### 4. CÁC TÍNH CHẤT CỦA CÁC KHÔNG GIAN $\mathscr{F}_\mathscr{S}(X; Y)$
 
-#### Mệnh đề 2 {#top-x-s1-prop-2 .statement}
+#### Mệnh đề 2 {#top-x-s1-prop-2 .statement tag=0CB0}
 
 Cho $X_1, X_2$ là hai tập hợp, cho $Y$ là một không gian đều và cho $\mathscr{S}_i$ là một tập hợp các tập con của $X_i$ ($i = 1, 2$) và $\mathscr{S}_1 \times \mathscr{S}_2$ là tập hợp các tập con của $X_1 \times X_2$ có dạng $A_1 \times A_2$, trong đó $A_i \in \mathscr{S}_i, i = 1, 2$. Khi đó song ánh chính tắc
 $$
@@ -154,43 +154,43 @@ lên $\mathscr{F}_{\mathscr{S}_1}(X_1; \mathscr{F}_{\mathscr{S}_2}(X_2; Y))$.
 
 Cho $V$ là một lân cận đều của $Y$ và cho $A_i \in \mathscr{S}_i (i = 1, 2)$; khi đó suy ra ngay lập tức từ các định nghĩa rằng $W(A_1 \times A_2, V)$ được đồng nhất với $W(A_1, W(A_2, V))$ bởi song ánh chính tắc, và kết quả là ngay lập tức.
 
-#### Mệnh đề 3 {#top-x-s1-prop-3 .statement}
+#### Mệnh đề 3 {#top-x-s1-prop-3 .statement tag=0CB1}
 
 a) Cho $X$ là một tập hợp; cho $\mathscr{S}$ là một tập hợp các tập con của $X$; cho $Y, Y'$ là hai không gian đều; và cho $f : Y \to Y'$ là một ánh xạ liên tục đều. Khi đó ánh xạ $u \to f \circ u$ từ $\mathscr{F}_\mathscr{S}(X; Y)$ vào $\mathscr{F}_\mathscr{S}(X; Y')$ là liên tục đều.
 
 b) Cho $X, X'$ là hai tập hợp; cho $\mathscr{S}$ (tương ứng $\mathscr{S}'$) là một tập hợp các tập con của $X$ (tương ứng $X'$); cho $Y$ là một không gian đều; và cho $g : X' \to X$ là một ánh xạ sao cho, với mỗi $A' \in \mathscr{S}'$, $g(A')$ được chứa trong một hợp hữu hạn của các tập hợp thuộc $\mathscr{S}$. Khi đó ánh xạ $u \to u \circ g$ từ $\mathscr{F}_\mathscr{S}(X, Y)$ vào $\mathscr{F}_{\mathscr{S}'}(X'; Y)$ là đều liên tục.
 
-#### Mệnh đề 4 {#top-x-s1-prop-4 .statement}
+#### Mệnh đề 4 {#top-x-s1-prop-4 .statement tag=0CB2}
 
 Cho $X, Y$ là hai tập hợp, cho $(X_\lambda)_{\lambda \in L}$ là một họ các tập hợp và cho $(Y_\mu)_{\mu \in M}$ là một họ các không gian đều. Với mỗi $\lambda \in L$, cho $\mathscr{S}_\lambda$ là một tập hợp các tập con của $X_\lambda$, cho $g_\lambda$ là một ánh xạ từ $X_\lambda$ vào $X$, và cho $\mathscr{S}$ là tập hợp các tập con của $X$ là hợp của các tập hợp $g_\lambda(\mathscr{S}_\lambda)$. Với mỗi $\mu \in M$, cho $f_\mu$ là một ánh xạ từ $Y$ vào $Y_\mu$, và trang bị cho $Y$ cấu trúc đều thô nhất sao cho các $f_\mu$ là đều liên tục. Khi đó cấu trúc đều của sự hội tụ $\mathscr{S}$ trên $\mathscr{F}(X; Y)$ là cấu trúc đều thô nhất làm cho các ánh xạ $u \to f_\mu \circ u \circ g_\lambda$ từ $\mathscr{F}(X; Y)$ vào $\mathscr{F}_{\mathscr{S}_\lambda}(X_\lambda, Y_\mu)$ đều liên tục.
 
 Các mệnh đề này là những hệ quả ngay lập tức của mô tả một hệ cơ bản các lân cận của cấu trúc đều của sự hội tụ $\mathscr{S}$ được cho trong no. 2, Nhận xét 1; các chi tiết của các chứng minh được để cho người đọc. Mệnh đề 4 kéo theo, đặc biệt:
 
-#### Hệ quả {#top-x-s1-n4-cor-1 .statement}
+#### Hệ quả {#top-x-s1-n4-cor-1 .statement tag=0CB3}
 
 Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian đều và cho $\mathscr{S}$ là một tập hợp các tập con của $X$. Nếu ta trang bị $\prod_{i \in I} Y_i$ với cấu trúc đều tích, thì song ánh chính tắc của không gian đều $\mathscr{F}_\mathscr{S}(X, \prod_{i \in I} Y_i)$ lên không gian đều tích $\prod_{i \in I} \mathscr{F}_\mathscr{S}(X; Y_i)$ (Lý thuyết tập hợp, R, § 4, no. 13) là một đẳng cấu.
 
 ### 5. CÁC TẬP CON ĐẦY ĐỦ CỦA $\mathscr{F}_\mathscr{S}(X; Y)$
 
-#### Mệnh đề 5 {#top-x-s1-prop-5 .statement}
+#### Mệnh đề 5 {#top-x-s1-prop-5 .statement tag=0CB4}
 
 Cho $\Phi$ là một tập hợp, $Y$ là một không gian đều và $\mathscr{S}$ là một tập hợp các tập con của $X$. Khi đó một lọc $\Phi$ trên $\mathscr{F}_\mathscr{S}(X; Y)$ hội tụ đến $u_0$ khi và chỉ khi $\Phi$ là một lọc Cauchy đối với cấu trúc đều của sự hội tụ $\mathscr{S}$ và hội tụ điểm tới điểm đến $u_0$ trong $B = \bigcup_{A \in \mathscr{S}} A$.
 
 Vì cấu trúc của sự hội tụ điểm trong $B$ thô hơn cấu trúc của sự hội tụ $\mathscr{S}$, chỉ cần chỉ ra rằng với mỗi $A \in \mathscr{S}$ và mỗi lân cận đóng $V$ của $Y$, $W(A, V)$ là đóng trong $B$ đối với tôpô của sự hội tụ điểm (Chương II, § 3, no. 3, Mệnh đề 7). Bây giờ $W(A, V)$ là giao của các ảnh ngược của $V$ qua các ánh xạ $(u, v) \to (u(x), v(x))$ khi $x$ chạy qua $A$; các ánh xạ này liên tục đối với tôpô của sự hội tụ điểm (no. 2, Nhận xét 6), và kết quả suy ra.
 
-#### Hệ quả 1 {#top-x-s1-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#top-x-s1-prop-5-cor-1 .statement tag=0CB5}
 
 Một không gian con $H$ của $\mathscr{F}_\mathscr{S}(X; Y)$ là đầy đủ khi và chỉ khi, với mỗi lọ Cauchy $\Phi$ trên $H$, tồn tại $u_0 \in H$ sao cho $\Phi$ hội tụ điểm đến $u_0$ trong $B = \bigcup_{A \in \mathscr{S}} A$.
 
 Điều này suy ra ngay lập tức từ Mệnh đề 5.
 
-#### Hệ quả 2 {#top-x-s1-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#top-x-s1-prop-5-cor-2 .statement tag=0CB6}
 
 Cho $\mathscr{S}_1, \mathscr{S}_2$ là hai tập hợp các tập con của $X$, có hợp bằng nhau và sao cho $\mathscr{S}_1 \subset \mathscr{S}_2$, và cho $H$ là một tập con của $\mathscr{F}(X; Y)$. Khi đó nếu $H$ là đầy đủ đối với sự hội tụ $\mathscr{S}_1$, thì nó là đầy đủ đối với sự hội tụ $\mathscr{S}_2$.
 
 Vì mọi lọ Cauchy đối với sự hội tụ $\mathscr{G}_2$ cũng là một lọ Cauchy đối với sự hội tụ $\mathscr{G}_1$, và ta có thể áp dụng Hệ quả 1.
 
-#### Hệ quả 3 {#top-x-s1-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#top-x-s1-prop-5-cor-3 .statement tag=0CB7}
 
 *Cho $H$ là một tập con của $\mathscr{F}(X; Y)$ sao cho, với mỗi*
 $$
@@ -202,7 +202,7 @@ Cho $\Phi$ là một lọ Cauchy trên $\overline{H}$, và định nghĩa một 
 
 Đặc biệt, nếu $Y$ là đầy đủ, giả thiết của Hệ quả 3 của Mệnh đề 5 được thỏa mãn với mọi $H \subset \mathscr{F}(X; Y)$; do đó:
 
-#### Định lý 1 {#top-x-s1-thm-1 .statement}
+#### Định lý 1 {#top-x-s1-thm-1 .statement tag=0CB8}
 
 *Cho $X$ là một tập hợp, cho $\mathscr{G}$ là một tập hợp các tập con của $X$, và cho $Y$ là một không gian đều đầy đủ. Khi đó không gian đều $\mathscr{F}_{\mathscr{G}}(X; Y)$ là đầy đủ.*
 
@@ -210,7 +210,7 @@ Cho $\Phi$ là một lọ Cauchy trên $\overline{H}$, và định nghĩa một 
 
 Cho $X, Y$ là hai không gian tôpô, và ký hiệu $\mathscr{C}(X; Y)$ tập hợp tất cả các *ánh xạ liên tục từ $X$ vào $Y$*. Nếu $\mathscr{G}$ là một tập hợp các tập con của $X$ và nếu $Y$ là một không gian đều, ta ký hiệu $\mathscr{C}_{\mathscr{G}}(X; Y)$ tập $\mathscr{C}(X; Y)$ được trang bị cấu trúc đều của $\mathscr{G}$-hội tụ. Đặc biệt $\mathscr{C}_s(X; Y), \mathscr{C}_c(X; Y)$ và $\mathscr{C}_u(X; Y)$ ký hiệu tập $\mathscr{C}(X; Y)$ được trang bị lần lượt cấu trúc đều của hội tụ từng điểm, hội tụ compact và hội tụ đều.
 
-#### Mệnh đề 6 {#top-x-s1-prop-6 .statement}
+#### Mệnh đề 6 {#top-x-s1-prop-6 .statement tag=0CB9}
 
 *Cho $X$ là một không gian tôpô, $Y$ là một không gian đều và $\mathscr{G}$ là một tập hợp các tập con của $X$. Với mỗi $A \in \mathscr{G}$ và mỗi bao lân cận đóng $V$ của $Y$, các vết trên $\mathscr{C}(X; Y) \times \mathscr{C}(X; Y)$ của $W(A, V)$ và $W(\overline{A}, V)$ là như nhau.*
 
@@ -220,11 +220,11 @@ Nếu $\bar{\mathscr{G}}$ ký hiệu tập hợp các bao đóng trong $X$ của
 
 **G-hội tụ trong các không gian các ánh xạ liên tục**
 
-#### Hệ quả {#top-x-s1-n6-cor-1 .statement}
+#### Hệ quả {#top-x-s1-n6-cor-1 .statement tag=0CBA}
 
 *Cho B là một tập con *trù mật* của X. Trên $C(X; Y)$, cấu trúc hội tụ đều trùng với cấu trúc hội tụ đều trong B.*
 
-#### Mệnh đề 7 {#top-x-s1-prop-7 .statement}
+#### Mệnh đề 7 {#top-x-s1-prop-7 .statement tag=0CBB}
 
 *Cho X là một không gian tôpô, cho $\mathfrak{S}$ là một tập hợp các tập con của X và cho Y là một không gian đều. Nếu Y là Hausdorff và nếu hợp B của các tập hợp của $\mathfrak{S}$ là trù mật trong X, thì $C_{\mathfrak{S}}(X; Y)$ là Hausdorff.*
 
@@ -232,19 +232,19 @@ Vì nếu $(u, v)$ thuộc mọi tập $W(A, V)$, với $A \in \mathfrak{S}$ và
 
 Đặc biệt, trên $C(X; Y)$, tôpô hội tụ từng điểm trong một tập con *trù mật* của X là Hausdorff.
 
-#### Mệnh đề 8 {#top-x-s1-prop-8 .statement}
+#### Mệnh đề 8 {#top-x-s1-prop-8 .statement tag=0CBC}
 
 *Cho X là một tập hợp, $\mathfrak{T}$ là một bộ lọc trên X, và Y là một không gian đều. Khi đó tập H các ánh xạ $u : X \to Y$ sao cho $u(\mathfrak{T})$ là một cơ sở Cauchy trên Y là đóng trong $F_u(X; Y)$. \*
 
 Cho $u_0 : X \to Y$ thuộc bao đóng của H trong $F_u(X; Y)$. Với mỗi lân cận đối xứng V của Y, tồn tại một ánh xạ $u \in H$ sao cho $(u_0(x), u(x)) \in V$ với mọi $x \in X$; mặt khác, theo giả thiết có một tập $M \in \mathfrak{T}$ sao cho $(u(x), u(x')) \in V$ bất cứ khi nào $x$ và $x'$ thuộc M. Vì $(u_0(x), u(x)) \in V$ và $(u_0(x'), u(x')) \in V$, suy ra $(u_0(x), u_0(x')) \in V$ bất cứ khi nào $x$ và $x'$ thuộc M, và do đó $u_0(\mathfrak{T})$ là một cơ sở Cauchy trên Y.
 
-#### Hệ quả 1 {#top-x-s1-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#top-x-s1-prop-8-cor-1 .statement tag=0CBD}
 
 *Cho X là một không gian tôpô và Y là một không gian đều. Tập các ánh xạ của X vào Y liên tục tại một điểm $x_0 \in X$ là đóng trong $F_u(X; U)$. \*
 
 Nếu V là bộ lọc lân cận của $x_0$ trong X, thì $u(x_0)$ là một điểm tụ của $u(V)$; do đó $u$ liên tục tại $x_0$ khi và chỉ khi $u(V)$ là một cơ sở Cauchy trên Y (Chương II, § 3, no. 2, Mệnh đề 5, Hệ quả 2).
 
-#### Hệ quả 2 {#top-x-s1-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#top-x-s1-prop-8-cor-2 .statement tag=0CBE}
 
 *Cho X, L là hai tập hợp được lọc bởi các bộ lọc $\mathfrak{T}, \mathfrak{G}$ tương ứng, và Y là một không gian đều đầy đủ. Với mỗi $\lambda \in L$, cho $u_\lambda$ là một ánh xạ của X vào Y. Giả sử rằng (i) họ $(u_\lambda)_{\lambda \in L}$ hội tụ đều trong X (theo bộ lọc $\mathfrak{G}$) tới một ánh xạ $v : X \to Y$; (ii) với mỗi $\lambda \in L$, $u_\lambda$ có một giới hạn $y_\lambda$ theo bộ lọc $\mathfrak{T}$. Trong những điều kiện này, v có một giới hạn theo $\mathfrak{T}$, và mọi giới hạn của v theo $\mathfrak{T}$ là một giới hạn của họ $(y_\lambda)_{\lambda \in L}$ theo $\mathfrak{G}$. \*
 
@@ -252,7 +252,7 @@ Vì v nằm trong bao đóng của tập hợp các $u_\lambda$ trong $F_u(X; Y)
 
 X' = X \cup \{ \omega \} là không gian tôpô liên kết với bộ lọc $\mathscr{F}$ (Chương I, § 6, no. 5), và mở rộng $u_\lambda$ (hay $v$) thành một ánh xạ $\bar{u}_\lambda$ (hay $\bar{v}$) từ $X'$ vào $Y$ bằng cách đặt $\bar{u}_\lambda(\omega) = y_\lambda$ [hay $\bar{v}(\omega) = y$]. Khi đó các ánh xạ $\bar{u}_\lambda, \bar{v}$ liên tục trên $X'$, và $\bar{u}_\lambda$ hội tụ đều trong $X$ đến $\bar{v}$ đối với $\mathscr{G}$; vì $X$ trù mật trong $X'$, Hệ quả của Mệnh đề 6 cho thấy rằng $\bar{u}_\lambda$ hội tụ đều trong $X'$ đến $\bar{v}$, và đặc biệt là $y = \lim_{\mathscr{G}} y_\lambda$.
 
-#### Định lý 2 {#top-x-s1-thm-2 .statement}
+#### Định lý 2 {#top-x-s1-thm-2 .statement tag=0CBF}
 
 *Cho $X$ là một không gian tôpô, $Y$ là một không gian đều. Khi đó tập $C(X; Y)$ gồm các ánh xạ liên tục từ $X$ vào $Y$ là một tập con đóng của không gian $F(X; Y)$ được trang bị tôpô của sự hội tụ đều.*
 
@@ -260,19 +260,19 @@ X' = X \cup \{ \omega \} là không gian tôpô liên kết với bộ lọc $\m
 
 Kết quả này có thể diễn đạt dưới dạng rằng *giới hạn đều của các hàm liên tục là liên tục*.
 
-#### Hệ quả 1 {#top-x-s1-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#top-x-s1-thm-2-cor-1 .statement tag=0CBG}
 
 *Nếu $Y$ là một không gian đều đầy đủ, thì $C_u(X; Y)$ đầy đủ.*
 
 Vì, theo Định lý 2, $C_u(X; Y)$ là một không gian con đều đóng của không gian đều $F_u(X; Y)$, mà theo Định lý 1 của no. 5 thì đầy đủ.
 
-#### Hệ quả 2 {#top-x-s1-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#top-x-s1-thm-2-cor-2 .statement tag=0CBH}
 
 *Cho $X$ là một không gian tôpô, $\mathscr{S}$ là một tập con các tập con của $X$, và $Y$ là một không gian đều. Kí hiệu $\tilde{C}_\mathscr{S}(X; Y)$ là tập mọi ánh xạ từ $X$ vào $Y$ sao cho hạn chế của chúng trên từng tập của $\mathscr{S}$ đều liên tục. Khi đó $\tilde{C}_\mathscr{S}(X; Y)$ là một không gian con đóng của không gian đều $F_\mathscr{S}(X; Y)$ và đầy đủ nếu $Y$ đầy đủ.*
 
 Giả sử $u$ nằm trong bao đóng của $\tilde{C}_\mathscr{S}(X; Y)$ trong $F_\mathscr{S}(X; Y)$; khi đó (no. 2), với mỗi $A \in \mathscr{S}$, $u|A$ nằm trong bao đóng của $C(A; Y)$ trong $F_u(A; Y)$, và do đó liên tục theo Định lý 2.
 
-#### Hệ quả 3 {#top-x-s1-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#top-x-s1-thm-2-cor-3 .statement tag=0CBI}
 
 *Cho $X$ là một không gian tôpô, hoặc mêtric hóa được hoặc cục bộ compact, và cho $Y$ là một không gian đều. Khi đó $C(X; Y)$ là đóng trong không gian đều $F_c(X; Y)$; nếu thêm nữa $Y$ là đầy đủ, thì không gian đều $C_c(X; Y)$ là đầy đủ.*
 
@@ -280,27 +280,27 @@ Theo Hệ quả 2, chỉ cần chứng minh rằng, nếu lấy $\mathscr{S}$ l�
 
 Hãy lưu ý rằng lập luận trên áp dụng bất cứ khi nào mỗi điểm của $X$ có một *hệ cơ sở đếm được* các lân cận.
 
-#### Nhận xét 1 {#top-x-s1-n6-rem-1 .statement}
+#### Nhận xét 1 {#top-x-s1-n6-rem-1 .statement tag=0CBJ}
 
 Nói chung, tập $\mathscr{C}(X; Y)$ không đóng trong $\mathscr{F}(X; Y)$ đối với tôpô hội tụ *điểm một*: nói cách khác, một giới hạn điểm một của các hàm liên tục chưa chắc đã liên tục [Bài tập 5 a)].
 
-#### Nhận xét 2 {#top-x-s1-n6-rem-2 .statement}
+#### Nhận xét 2 {#top-x-s1-n6-rem-2 .statement tag=0CBK}
 
 Một bộ lọc trên $\mathscr{C}(X; Y)$ có thể hội tụ *điểm một* tới một hàm *liên tục* mà không hội tụ đều tới hàm này.
 
 Chẳng hạn, trên khoảng $I = [0, 1]$, hãy lấy $u_n$ là hàm giá trị thực bằng 0 khi $x = 0$ và $2/n \leq x \leq 1$, bằng 1 khi $x = 1/n$, và tuyến tính trên mỗi khoảng $[0, 1/n]$ và $[1/n, 2/n]$. Dãy $(u_n)$ hội tụ điểm một đến 0, nhưng không hội tụ đều đến 0 trong $I$ (xem Bài tập 6).
 
-#### Nhận xét 3 {#top-x-s1-n6-rem-3 .statement}
+#### Nhận xét 3 {#top-x-s1-n6-rem-3 .statement tag=0CBL}
 
 Nếu $X$ là một không gian đều, một chứng minh tương tự như của Mệnh đề 8 cho thấy tập các ánh xạ *liên tục đều* từ $X$ vào $Y$ là *đóng* trong $\mathscr{F}_u(X; Y)$.
 
-#### Nhận xét 4 {#top-x-s1-n6-rem-4 .statement}
+#### Nhận xét 4 {#top-x-s1-n6-rem-4 .statement tag=0CBM}
 
 Giả sử rằng không gian đều $Y$ mang một luật hợp thành giao hoán và kết hợp, được viết theo phép cộng, sao cho ánh xạ $(y, y') \to y + y'$ là liên tục trên $Y \times Y$. Khi đó, nếu $(u_n)$ là một dãy các ánh xạ liên tục từ $X$ vào $Y$ sao cho chuỗi có số hạng tổng quát là $u_n$ *hội tụ đều* trong $X$, thì tổng của chuỗi là liên tục trên $X$.
 
 Chúng tôi để độc giả phát biểu kết quả tương ứng cho các họ *cộng được đều* (no. 1, Nhận xét 5) của các ánh xạ liên tục.
 
-#### Mệnh đề 9 {#top-x-s1-prop-9 .statement}
+#### Mệnh đề 9 {#top-x-s1-prop-9 .statement tag=0CBN}
 
 *Cho $X$ là một không gian tôpô, $Y$ là một không gian đều. Khi đó ánh xạ $(f, x) \to f(x)$ từ $\mathscr{C}_u(X; Y) \times X$ vào $Y$ là liên tục.*
 

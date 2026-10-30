@@ -33,7 +33,7 @@ subsections:
       pdf_page: 222
 statements: 12
 exercises: 0
-content_sha256: 4804d7035cacbb4ace9277980804e6d37abc6adcfa2148c223de349010838780
+content_sha256: 3d9b799ff35080d2e9c7a2a8a27bce4a565350e9e8ca05efdfc632292adad1d0
 ---
 
 ## § 2. DÉVELOPPEMENTS ASYMPTOTIQUES
@@ -42,7 +42,7 @@ content_sha256: 4804d7035cacbb4ace9277980804e6d37abc6adcfa2148c223de349010838780
 
 Soient $E$ un ensemble filtré par un filtre de base $\mathfrak{F}$, et $K$ un corps valué non discret (le plus souvent $K = \mathbf{R}$ ou $K = \mathbf{C}$). Dans l’ensemble des fonctions de $\mathscr{H}(\mathfrak{F}, K)$ non équivalentes à 0 modulo $R_\infty$ (c’est-à-dire telles que dans tout ensemble de $\mathfrak{F}$, il existe un point au moins où la fonction ne s’annule pas), la relation « $f \ll g$ ou $f = g$ » est une relation d’ordre.
 
-#### Définition 1 {#fvr-v-s2-def-1 .statement}
+#### Définition 1 {#fvr-v-s2-def-1 .statement tag=08ES}
 
 On dit qu’une partie $\mathscr{E}$ de $\mathscr{H}(\mathfrak{F}, K)$ formée de fonctions non équivalentes à 0 modulo $R_\infty$ est une échelle de comparaison lorsque $\mathscr{E}$ est totalement ordonnée par la relation « $f \ll g$ ou $f = g$ ».
 
@@ -50,23 +50,23 @@ En d’autres termes, si $f$ et $g$ sont deux fonctions de $\mathscr{E}$, on a t
 
 Toute partie d’une échelle de comparaison est évidemment une échelle de comparaison.
 
-#### Exemple 1 {#fvr-v-s2-n1-exa-1 .statement}
+#### Exemple 1 {#fvr-v-s2-n1-exa-1 .statement tag=08ET}
 
 Pour $x$ réel tendant vers $+\infty$, l’ensemble des fonctions $x^\alpha$ ($\alpha$ nombre réel arbitraire) est une échelle de comparaison. Il en est de même des fonctions $(x-a)^\alpha$ lorsque $\mathfrak{F}$ est l’ensemble des intervalles ouverts d’origine $a$.
 
-#### Exemple 2 {#fvr-v-s2-n1-exa-2 .statement}
+#### Exemple 2 {#fvr-v-s2-n1-exa-2 .statement tag=08EU}
 
 Pour $z$ complexe tendant vers $\infty$, l’ensemble des fonctions $z^n$ ($n$ entier rationnel) est une échelle de comparaison; il en est de même des fonctions $(z-a)^n$ lorsque $\mathfrak{F}$ est la trace sur le complémentaire du point $a \in \mathbf{C}$ du filtre des voisinages de ce point.
 
-#### Exemple 3 {#fvr-v-s2-n1-exa-3 .statement}
+#### Exemple 3 {#fvr-v-s2-n1-exa-3 .statement tag=08EV}
 
 Soit F un espace normé; l’ensemble des fonctions $\|x - a\|^{\alpha}$ ($\alpha$ nombre réel arbitraire) est une échelle de comparaison lorsque $\mathfrak{F}$ est la trace sur le complémentaire de $a$ du filtre des voisinages de ce point. On notera que si $p$ et $q$ sont deux normes distinctes sur $F$, la réunion des deux échelles de comparaison formées des fonctions $(p(x-a))^{\alpha}$ et $(q(x-a))^{\alpha}$ n’est plus en général une échelle de comparaison.
 
-#### Exemple 4 {#fvr-v-s2-n1-exa-4 .statement}
+#### Exemple 4 {#fvr-v-s2-n1-exa-4 .statement tag=08EW}
 
 Pour $x$ réel tendant vers $+\infty$, l’ensemble $\mathscr{E}$ des fonctions de la forme $\exp(p(x))$, où $p(x)$ parcourt l’ensemble des polynômes sans terme constant (à coefficients réels), est une échelle de comparaison: il suffit de remarquer que le quotient de deux fonctions de $\mathscr{E}$ appartient encore à $\mathscr{E}$, et qu’une fonction $\exp(p(x))$ tend nécessairement vers 0 ou $+\infty$ si $p \neq 0$; en effet, on a alors $p(x) \sim \alpha x^n$, où $n > 0$ et $\alpha \neq 0$; si $\alpha > 0$, $p(x) > \frac{1}{2} \alpha x^n$ pour $x$ assez grand; si $\alpha < 0$, $p(x) < \frac{1}{2} \alpha x^n$ pour $x$ assez grand; dans le premier cas, $\exp(p(x))$ tend vers $+\infty$, et dans le second cas vers 0.
 
-#### Exemple 5 {#fvr-v-s2-n1-exa-5 .statement}
+#### Exemple 5 {#fvr-v-s2-n1-exa-5 .statement tag=08EX}
 
 Pour $x$ réel tendant vers $+\infty$, l’ensemble $\mathscr{E}$ des fonctions de la forme $x^{\alpha}(\log x)^{\beta}$ (définies pour $x > 1$), où $\alpha$ et $\beta$ sont des nombres réels arbitraires, est une échelle de comparaison. En effet, ici encore le quotient de deux fonctions de $\mathscr{E}$ est une fonction de $\mathscr{E}$; il suffit donc de montrer que si $\alpha$ et $\beta$ ne sont pas tous deux nuls, $x^{\alpha}(\log x)^{\beta}$ tend vers 0 ou vers $+\infty$; c’est évident si $\alpha = 0$, $\beta \neq 0$; si $\alpha > 0$, on a $(\log x)^{-\beta} \ll x^{\alpha}$, et si $\alpha < 0$, $(\log x)^{\beta} \ll x^{-\alpha}$ quel que soit $\beta$, d’où la proposition.
 
@@ -82,11 +82,11 @@ Soit $\mathscr{E}$ une échelle de comparaison formée de fonctions à valeurs d
 
 Si $f$ admet une partie principale relativement à une échelle de comparaison $\mathscr{E}$, elle admet la même partie principale relativement à toute échelle de comparaison $\mathscr{E}' \supset \mathscr{E}$.
 
-#### Exemple 1 {#fvr-v-s2-n2-exa-1 .statement}
+#### Exemple 1 {#fvr-v-s2-n2-exa-1 .statement tag=08EY}
 
 Pour x réel (resp. complexe) tendant vers +∞ (resp. vers ∞), tout polynôme $a_0 x^n + a_1 x^{n-1} + \cdots + a_n$ à coefficients dans V, tels que $a_0 \neq 0$, a pour partie principale $a_0 x^n$ par rapport à l’échelle des $x^n$ (ou de toute échelle contenant les $x^n$). On en déduit que toute fraction rationnelle $\frac{a_0 x^n + \cdots + a_m}{b_0 x^n + \cdots + b_n}$ à coefficients réels ou complexes tels que $a_0 b_0 \neq 0$, a pour partie principale $\frac{a_0}{b_0} x^{m-n}$ par rapport à la même échelle.
 
-#### Exemple 2 {#fvr-v-s2-n2-exa-2 .statement}
+#### Exemple 2 {#fvr-v-s2-n2-exa-2 .statement tag=08EZ}
 
 Une fonction peut être comparable à toutes les fonctions d’une échelle de comparaison sans admettre de partie principale par rapport à cette échelle. Par exemple, pour x réel tendant vers +∞, $\sqrt{x}$ n’a pas de partie principale par rapport à l’échelle des $x^n$, où n est entier rationnel; log x n’a pas de partie principale par rapport à l’échelle des $x^\alpha$ ($\alpha$ réel quelconque); exp($\sqrt{\log x}$) et $x^x = e^{x \log x}$ n’ont pas de partie principale par rapport à l’échelle des $x^\alpha (\log x)^{\beta}$, ni par rapport à l’échelle des exp ($p(x)$) ($p$ polynôme sans terme constant).
 
@@ -94,7 +94,7 @@ La notion de partie principale est susceptible d’une généralisation étendue
 
 D’une façon générale, supposons que l’échelle $\mathscr{E}$ soit écrite paramétriquement sous la forme $(g_\alpha)$, où $\alpha$ parcourt un ensemble d’indices A muni d’une structure d’ensemble totalement ordonné isomorphe à l’opposée de la structure d’ordre de $\mathscr{E}$: la relation $\alpha < \beta$ est donc équivalente à $g_\beta \ll g_\alpha$. Dans ces conditions:
 
-#### Définition 2 {#fvr-v-s2-def-2 .statement}
+#### Définition 2 {#fvr-v-s2-def-2 .statement tag=08F0}
 
 On dit qu’une fonction $f \in \mathscr{H}(\mathfrak{F}, V)$ admet un développement asymptotique à la précision $g_\alpha$ (relativement à l’échelle $\mathscr{E}$) s’il existe une famille $(a_\lambda)_{\lambda \leq \alpha}$ d’éléments de V, nuls sauf un nombre fini d’entre eux, tels que $f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda \ll g_\alpha$. On dit que $\sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ est un développement asymptotique de $f$ à la précision $g_\alpha$, que les $a_\lambda g_\lambda$ ($\lambda \leq \alpha$) sont les termes, les $a_\lambda$ les coefficients et la fonctions $r_\alpha = f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ le reste de ce développement.
 
@@ -161,7 +161,7 @@ $$
 $$
 et $\log (1 + h)$ se développe comme il a été dit plus haut, la fonction $\log (1 + t)$ étant indéfiniment dérivable au voisinage de 0 ; si en outre $\log g_\gamma$ admet un développement asymptotique par rapport à $\mathscr{E}$, ou par rapport à une échelle $\mathscr{E}_1 \supset \mathscr{E}$, on obtient un développement asymptotique de $\log |f|$ en faisant la somme de deux développements asymptotiques.
 
-#### Exemple {#fvr-v-s2-n4-exa-1 .statement}
+#### Exemple {#fvr-v-s2-n4-exa-1 .statement tag=08F1}
 
 On a $(1 + x)^{1/x} = \exp \left( \frac{1}{x} \log (1 + x) \right)$; lorsque $x$ tend vers $+\infty$, on a $\log (1 + x) = \log x + \log \left( 1 + \frac{1}{x} \right)$, d’où le développement asymptotique de $\frac{1}{x} \log (1 + x)$ par rapport à l’échelle des $x^\alpha (\log x)^\beta$:
 $$
@@ -179,7 +179,7 @@ par rapport à l’échelle des $x^\alpha (\log x)^\beta$.
 
 Les hypothèses et les notations restant les mêmes, le développement asymptotique de $e^t$ ne pose de nouveaux problèmes que lorsque $f \gg 1$; il faut alors distinguer deux cas, suivant que $g_\alpha \gg 1$ ou $g_\alpha \ll 1$. Dans le premier cas, la donnée du développement de $f$ ne permet pas d’obtenir une partie principale de $e^t$ relative à $\mathscr{E}$, car on ignore en général si le reste $r_\alpha$ tend vers 0, c’est-à-dire si $e^{r_\alpha}$ tend vers 1. Au contraire, si $g_\alpha \ll 1$, on a $r_\alpha \ll 1$, donc $e^t \sim \exp \left( \sum_{\lambda < \delta} a_{\lambda g_\lambda} \right)$. On peut préciser ce résultat : soit $a_{\gamma g_\gamma}$, la partie principale de $f$, et soit $\delta$ l’indice (tel que $\gamma < \delta \leq \alpha$) pour lequel $g_\delta = 1$; posons $f_1 = \sum_{\lambda < \delta} a_{\lambda g_\lambda}$, $f_2 = \sum_{\delta < \lambda \leq \alpha} a_{\lambda g_\lambda} + r_\alpha$; on a $f = f_1 + f_2$, donc $e^t = e^{f_1} e^{f_2}$, et la méthode générale exposée au début de ce no permet de former un développement asymptotique de $e^{f_2}$ (à partir du développement de Taylor de $e^t$ au point $t = 0$). On aura donc encore un développement asymptotique de $e^t$ si $e^{f_1} = \prod_{\lambda < \delta} \exp(a_{\lambda g_\lambda})$ appartient à $\mathscr{E}$, ou à une échelle $\mathscr{E}_1$ contenant $\mathscr{E}$.
 
-#### Exemple {#fvr-v-s2-n4-exa-2 .statement}
+#### Exemple {#fvr-v-s2-n4-exa-2 .statement tag=08F2}
 
 On a $x^{x^{1/x}} = \exp \left( \log x . \exp \left( \frac{1}{x} \log x \right) \right)$; lorsque $x$ tend vers $+\infty$, on a $\log x \ll x$, d’où le développement asymptotique de $\log x . \exp \left( \frac{1}{x} \log x \right)$ par rapport à l’échelle des $x^\alpha (\log x)^\beta$ :
 $$
@@ -202,7 +202,7 @@ On peut généraliser la notion de partie principale et celle de développement 
 
 Soit alors $f$ une fonction quelconque de $\mathscr{H}(\mathfrak{F}, V)$; s’il existe une fonction $g \in \mathscr{E}$ et une fonction non nulle $a \in \mathscr{C}$ telles que $f - a g \ll g$, on dira que $a g$ est une partie principale de $f$, relative à l’échelle de comparaison $\mathscr{E}$ et au domaine de coefficients $\mathscr{C}$. S’il existe une telle partie principale, elle est unique: supposons en effet qu’il existe deux telles parties principales $a_1 g_1$ et $a_2 g_2$; on ne peut avoir $g_1 \ll g_2$, car en vertu de (CO_I) on déduirait de là $a_1 g_1 \ll g_2$, et $f - a_1 g_1 \ll g_1 \ll g_2$, donc $f \ll g_2$; mais alors on aurait aussi $a_2 g_2 \ll g_2$, et par suite $a_2 \ll 1$, contrairement à l’hypothèse $a_2 \neq 0$ et à la condition (CO_{II}). On a donc nécessairement $g_1 = g_2$; des relations $f - a_1 g_1 \ll g_1$, $f - a_2 g_1 \ll g_1$, on tire alors $(a_2 - a_1) g_1 \ll g_1$ d’où $a_2 - a_1 \ll 1$, et par suite $a_2 = a_1$ en vertu de (CO_{II}) et (CO_{III}).
 
-#### Exemple {#fvr-v-s2-n4-exa-3 .statement}
+#### Exemple {#fvr-v-s2-n4-exa-3 .statement tag=0E5R}
 
 Pour $x$ réel tendant vers $+\infty$, les fonctions périodiques et bornées dans $\mathbf{R}$, ayant une même période $\tau$, satisfont aux conditions (CO_I), (CO_{II}) et (CO_{III}): en effet si $\lim_{x \to +\infty} a(x)_- = 0$, pour tout $\varepsilon > 0$ il existe $x_0$ tel que $x \geq x_0$ entraîne $|a(x)| \leq \varepsilon$; on en déduit qu’on a aussi $|a(x)| \leq \varepsilon$ pour $0 \leq x \leq \tau$, puisqu’il existe un entier $n$ tel que $x + n \tau \geq x_0$, et que $a(x) = a(x + n \tau)$; comme $\varepsilon$ est arbitraire, on a $a(x) = 0$ dans $[0, \tau]$, donc partout.
 

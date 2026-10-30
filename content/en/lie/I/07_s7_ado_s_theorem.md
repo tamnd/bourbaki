@@ -25,7 +25,7 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 3207a7414e76f6a3dc840727842917fe8becb0b28041abbb0daaf9ce7999445f
+content_sha256: 756c418e98cb289633fa81395166a73f8430efbf678bc03b436549d132075ff8
 ---
 
 ## § 7. ADO'S THEOREM
@@ -57,13 +57,13 @@ $$
 
 We shall also consider the dual representation $x \mapsto {}^t x_{U'}$ of g on ${U'}^*$. For $x \in g'$, ${}^t x_{U'}$ is the transpose of right multiplication by x in $U'$; the corresponding representation of $U'$ is therefore the coregular representation of $U'$.
 
-#### Definition 1 {#lie-i-s7-def-1 .statement}
+#### Definition 1 {#lie-i-s7-def-1 .statement tag=0A1F}
 
 Let $g$ be a Lie algebra, $g'$ a subalgebra of $g$ and $\rho'$ a representation of $g'$ on $V'$. A representation $\rho$ of $g$ on $V$ is called an extension of $\rho'$ to $g$ if there exists an injective homomorphism of the $g'$-module into the $g'$-module $V$. We also say that the $g$-module $V$ is an extension of the $g'$-module $V'$.
 
 If $\rho'$ is finite-dimensional and $g'$ is a solvable ideal of $g$, it is necessary for the existence of a finite-dimensional extension that $[g, g']$ be contained in the largest nilpotency ideal of $\rho'$ (§ 5, no. 3, Theorem 1).
 
-#### Theorem 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement}
+#### Theorem 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement tag=0A1G}
 
 Let $g = g' + h$ be a Lie algebra which is the direct sum of an ideal $g'$ and a subalgebra $h$ and $\rho'$ a finite-dimensional representation of $g'$ whose largest nilpotency ideal contains $[h, g']$.
 
@@ -92,7 +92,7 @@ We saw in no. 1 that the $g'$-module $V'$ is isomorphic to a sub-$g'$-module of 
 
 Suppose finally that for all $x \in h$ the restriction to $g'$ of $\mathrm{ad}_{\psi}x$ is nilpotent. As the elements of $h$ operate on $U'$ by derivations, there exists for all $u \in U'$ and all $x \in h$ an integer $e$ such that $(x_{U'})^e.u = 0$; the endomorphisms derived from $x_{U'}$ on $U'/{I'}^d$ and on $S$ (which are finite-dimensional spaces) are therefore nilpotent. Thus $\rho(x)$ is nilpotent for all $x \in h$. We have seen earlier that this is also true for $x \in I' \cap g'$. As $I' \cap g'$ is an ideal of $g'$ containing $[h, g']$, the sum $h + (I' \cap g')$ is also an ideal of $g$. Assertion (b) of Theorem 1 then results from the following lemma:
 
-#### Lemma 1 {#lie-i-s7-lem-1 .statement}
+#### Lemma 1 {#lie-i-s7-lem-1 .statement tag=0A1H}
 
 *Let $g = g' + h$ be a Lie algebra which is the sum of an ideal $g'$ and a subalgebra $h$. Let $\sigma$ be a finite-dimensional representation of $g$. Suppose that $\sigma(x)$ is nilpotent for all $x \in g'$ and all $x \in h$. Then $\sigma(x)$ is nilpotent for all $x \in g$.*
 
@@ -102,7 +102,7 @@ For an improvement of Theorem 1, cf. Exercise 4.
 
 ### 3. ADO'S THEOREM
 
-#### Proposition 1 {#lie-i-s7-prop-1 .statement}
+#### Proposition 1 {#lie-i-s7-prop-1 .statement tag=0A1I}
 
 *Let $g$ be a Lie algebra, $n$ its largest nilpotent ideal, $a$ a nilpotent ideal of $g$ and $\rho$ a finite-dimensional representation of $a$ such that every element of $\rho(a)$ is nilpotent. Then $\rho$ admits a finite-dimensional extension $\sigma$ to $g$ such that every element of $\sigma(n)$ is nilpotent.*
 
@@ -112,13 +112,13 @@ Let $r$ be the radical of $g$ and let $n = r_0 \subset r_1 \subset \cdots \subse
 
 Finally $g$ is the direct sum of $r$ and a subalgebra $s$ (§ 6, no. 8, Theorem 5). As $[s, r] \subset n$, it is possible (Theorem 1) to find a finite-dimensional extension $\sigma$ of $\rho''$ to $g$ such that every element of $\sigma(n)$ is nilpotent.
 
-#### Theorem 2 {#lie-i-s7-thm-2 .statement}
+#### Theorem 2 {#lie-i-s7-thm-2 .statement tag=0A1J}
 
 *Every Lie algebra has a finite-dimensional faithful linear representation.*
 
 More precisely:
 
-#### Theorem 3 (Ado) {#lie-i-s7-thm-3 .statement}
+#### Theorem 3 (Ado) {#lie-i-s7-thm-3 .statement tag=0A1K}
 
 *Let $g$ be a Lie algebra and $n$ its largest nilpotent ideal. There exists a finite-dimensional faithful representation $\varphi$ of $g$ such that every element of $\varphi(n)$ is nilpotent.*
 

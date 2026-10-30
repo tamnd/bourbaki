@@ -40,7 +40,7 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: e109f457d6fba384ea1d916efa029aec0f0c662c5d558b64df28a514e06046a9
+content_sha256: 62e388a180c290d25e3feeedfed1aafdbdb7940589f2a6eeaa63da626855fe18
 translated_from: content/en/lie/IV/02_s2_tits_systems.md
 source_content_sha256: ccce30facb7daeeb1f882ab3b15679e0177fc6be4aed4b3638cf63dca4b4ec2f
 translation_model: gpt-5-6, gpt-5-6-mini
@@ -58,7 +58,7 @@ Trong đoạn này, các chữ G, B, N, S, T, W có nghĩa được chỉ ra tro
 
 Cho G là một nhóm và B là một nhóm con của G. Nhóm $B \times B$ tác động lên G bởi $(b, b').g = bg{b'}^{-1}$ với $b, b' \in B$ và $g \in G$. Các quỹ đạo của $B \times B$ trên G là các tập hợp $BgB$ với $g \in G$, và được gọi là các lớp ghép kép của G đối với B. Chúng lập thành một phân hoạch của G; thương tương ứng được ký hiệu bởi $B \backslash G / B$. Nếu C và $C'$ là các lớp ghép kép, $CC'$ là một hợp của các lớp ghép kép.
 
-#### Định nghĩa 1 {#lie-iv-s2-def-1 .statement}
+#### Định nghĩa 1 {#lie-iv-s2-def-1 .statement tag=0AN8}
 
 Một hệ Tits là một bộ bốn $(G, B, N, S)$, trong đó G là một nhóm, B và N là hai nhóm con của G và S là một tập con của $N/(B \cap N)$, thỏa mãn các tiên đề sau:
 
@@ -71,11 +71,11 @@ Nhóm $W = N/(B \cap N)$ đôi khi được gọi là nhóm Weyl của hệ Tits
 
 5 Mọi phần tử của W là một lớp ghép modulo $B \cap N$, và do đó là một tập con của G; vì vậy các tích như $BwB$ có nghĩa. Nói chung hơn, với mọi tập con A của W, ta ký hiệu BAB là tập hợp $\bigcup_{w \in A} BwB$.
 
-#### Nhận xét 1 {#lie-iv-s2-n1-rem-1 .statement}
+#### Nhận xét 1 {#lie-iv-s2-n1-rem-1 .statement tag=0AN9}
 
 Ta sẽ thấy trong no. 5 (Hệ quả của Định lý 3) rằng, nếu $(G, B, N)$ đã cho, tồn tại nhiều nhất một tập con $S$ của $N/(B \cap N)$ sao cho $(G, B, N, S)$ là một hệ Tits.
 
-#### Nhận xét 2 {#lie-iv-s2-n1-rem-2 .statement}
+#### Nhận xét 2 {#lie-iv-s2-n1-rem-2 .statement tag=0ANA}
 
 Cho $(G, B, N, S)$ là một hệ Tits, và cho $Z$ là một nhóm con chuẩn tắc của G được chứa trong B. Cho $G' = G/Z, B' = B/Z, N' = N/(Z \cap N)$, và cho $S'$ là ảnh của S trong $N'/(B' \cap N')$. Khi đó ta thấy ngay lập tức rằng $(G', B', N', S')$ là một hệ Tits.
 
@@ -135,7 +135,7 @@ $$
 C(w).C(s).C(s) = C(w) \cup C(ws).
 $$
 
-#### Bổ đề 1 {#lie-iv-s2-lem-1 .statement}
+#### Bổ đề 1 {#lie-iv-s2-lem-1 .statement tag=0ANB}
 
 Cho $s_1, \ldots, s_q \in S$ và cho $w \in W$. Ta có
 $$
@@ -177,7 +177,7 @@ vì $B_2^- = s B_2 s$, điều này suy ra từ công thức trước bằng cá
 
 ### 3. PHÂN TÍCH CỦA G THÀNH CÁC LỚP KÉP
 
-#### Định lý 1 {#lie-iv-s2-thm-1 .statement}
+#### Định lý 1 {#lie-iv-s2-thm-1 .statement tag=0ANC}
 
 *Ta có $G = \mathrm{BWB}$. Ánh xạ $w \mapsto C(w)$ là một song ánh từ $W$ đến tập hợp $B \backslash G / B$ gồm các lớp kép của $G$ đối với $B$.*
 
@@ -211,13 +211,13 @@ $$
 
 Vì $C(sw') \subset C(s).C(w')$, cuối cùng ta có $C(w) \neq C(w')$.
 
-#### Nhận xét {#lie-iv-s2-n3-rem-1 .statement}
+#### Nhận xét {#lie-iv-s2-n3-rem-1 .statement tag=0AND}
 
 Tiên đề (T4) đã không được sử dụng trong chứng minh trước đó.
 
 ### 4. CÁC QUAN HỆ VỚI CÁC HỆ COXETER
 
-#### Định lý 2 {#lie-iv-s2-thm-2 .statement}
+#### Định lý 2 {#lie-iv-s2-thm-2 .statement tag=0ANE}
 
 Cặp $(W, S)$ là một hệ Coxeter. Hơn nữa, đối với $s \in S$ và $w \in W$, các quan hệ $C(sw) = C(s).C(w)$ và $l_S(sw) > l_S(w)$ là tương đương.
 
@@ -258,7 +258,7 @@ C(s).C(w') = C(s)w'B,
 $$
 công thức (10) cho thấy rằng $C(s)w'$ giao với $C(w')$ và *a fortiori* rằng $C(s)w's'B$ giao với $C(w')s'B$. Từ các công thức (11) và (12) suy ra rằng lớp kề kép $C(sw)$ bằng một trong các lớp kề kép $C(ws')$ và $C(w)$; vì $sw \neq w$, Đl. 1 cho phép ta kết luận rằng $sw = ws'$.
 
-#### Hệ quả 1 {#lie-iv-s2-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#lie-iv-s2-thm-2-cor-1 .statement tag=0ANF}
 
 *Cho* $w_1, \ldots, w_q \in W$ *và cho* $w = w_1 \ldots w_q$. *Nếu*
 $$
@@ -277,7 +277,7 @@ $$
 
 Nếu $u = s_2 \ldots s_q$, thì $w = s_1 u$ và $l_S(s_1 u) > l_S(u)$, do đó $C(w) = C(s_1).C(u)$ theo định lý. Công thức cần chứng minh suy ra từ điều này bằng quy nạp theo $q$.
 
-#### Hệ quả 2 {#lie-iv-s2-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#lie-iv-s2-thm-2-cor-2 .statement tag=0ANG}
 
 *Cho $w \in W$ và cho $T_w$ là tập con của $W$ liên kết với $w$ bởi thủ tục của Bổ đề 2 của § 1, no. 4. Nếu $t \in T_w$, thì*
 
@@ -309,7 +309,7 @@ $$
 C(w).C(w^{-1}) \supset C(w').C(s).C({w'}^{-1}) \supset C(t).
 $$
 
-#### Hệ quả 3 {#lie-iv-s2-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#lie-iv-s2-thm-2-cor-3 .statement tag=0ANH}
 
 *Cho $w \in W$ và cho $H_w$ là nhóm con của $G$ sinh bởi $C(w).C(w^{-1})$. Khi đó:*
 
@@ -331,7 +331,7 @@ Phần tử $t$ thuộc tập con $T_w$ của $W$ được định nghĩa trong 
 
 Vì $C(w) = C(s_1) \ldots C(s_q)$, xem Hệ quả 1, ta có $C(w) \subset H_w$, và b) suy ra.
 
-#### Ví dụ {#lie-iv-s2-n4-exa-1 .statement}
+#### Ví dụ {#lie-iv-s2-n4-exa-1 .statement tag=0ANI}
 
 Định lý 2, được áp dụng cho hệ Tits được mô tả trong no. 2, chỉ ra rằng *nhóm đối xứng* $\mathfrak{S}_n$, với tập các phép chuyển vị của các phần tử liên tiếp, *là một nhóm Coxeter*.
 
@@ -339,7 +339,7 @@ Vì $C(w) = C(s_1) \ldots C(s_q)$, xem Hệ quả 1, ta có $C(w) \subset H_w$, 
 
 Với mọi tập con X của S, ta ký hiệu bởi W_X nhóm con của W sinh bởi X (xem §1, no. 8) và bởi G_X hợp BW_XB của các lớp kép C(w), w ∈ W_X. Ta có G_∅ = B và G_S = G.
 
-#### Định lý 3 {#lie-iv-s2-thm-3 .statement}
+#### Định lý 3 {#lie-iv-s2-thm-3 .statement tag=0ANJ}
 
 a) Với mọi tập con X của S, tập hợp G_X là một nhóm con của G, sinh bởi $\bigcup_{s \in X} C(s)$.
 
@@ -355,23 +355,23 @@ Tính đơn ánh của ánh xạ X ↦ G_X suy ra từ tính đơn ánh của á
 
 Các khẳng định c) và d) suy ra từ các tính chất tương tự của W_X (§ 1, no. 8, Định lý 2).
 
-#### Hệ quả {#lie-iv-s2-n5-cor-1 .statement}
+#### Hệ quả {#lie-iv-s2-n5-cor-1 .statement tag=0ANK}
 
 Tập hợp S gồm các phần tử $w \in W$ sao cho $w \neq 1$ và $B \cup C(w)$ là một nhóm con của G.
 
 Các phần tử $w \in W$ sao cho $B \cup C(w)$ là một nhóm con của G là các phần tử mà tồn tại $X \subset S$ với $W_X = \{1, w\}$. Hơn nữa, nếu $w \neq 1$, ta tất yếu có Card(X) = 1 , nghĩa là $w \in S$.
 
-#### Nhận xét 1 {#lie-iv-s2-n5-rem-1 .statement}
+#### Nhận xét 1 {#lie-iv-s2-n5-rem-1 .statement tag=0ANL}
 
 Hệ quả trên cho thấy S được xác định bởi (G, B, N); vì lý do này, đôi khi ta cho phép mình nói rằng (G, B, N) là một hệ Tits, hoặc rằng (B, N) là một hệ Tits trong G.
 
-#### Mệnh đề 1 {#lie-iv-s2-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iv-s2-prop-1 .statement tag=0ANM}
 
 Cho X là một tập con của S và N' là một nhóm con của N có ảnh trong W bằng W_X. Khi đó, (G_X, B, N', X) là một hệ Tits.
 
 Ta có $G_X = BW_XB = BN'B$, điều này cho thấy rằng $G_X$ được sinh bởi $B \cup N'$. Việc kiểm tra các tiên đề (T1) đến (T4) là ngay lập tức.
 
-#### Mệnh đề 2 {#lie-iv-s2-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iv-s2-prop-2 .statement tag=0ANN}
 
 Cho X, Y ⊂ S và $w \in W$. Ta có
 
@@ -389,11 +389,11 @@ G_X w G_Y \subset BW_X w W_Y B.
 $$
 Bao hàm ngược lại là hiển nhiên.
 
-#### Nhận xét 2 {#lie-iv-s2-n5-rem-2 .statement}
+#### Nhận xét 2 {#lie-iv-s2-n5-rem-2 .statement tag=0ANO}
 
 Ký hiệu $G_X \backslash G / G_Y$ là tập hợp các tập con của G có dạng $G_X g G_Y$, $g \in G$; và định nghĩa $W_X \backslash W / W_Y$ tương tự. Mệnh đề trước cho thấy rằng song ánh chính tắc $w \mapsto C(w)$ từ $W$ đến $B \backslash G / B$ xác định qua phép lấy thương một *song ánh* $W_X \backslash W / W_Y \to G_X \backslash G / G_Y$.
 
-#### Mệnh đề 3 {#lie-iv-s2-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iv-s2-prop-3 .statement tag=0ANP}
 
 *Cho $X \subset S$ và $g \in G$. Quan hệ $g B g^{-1} \subset G_X$ kéo theo rằng $g \in G_X$.*
 
@@ -401,13 +401,13 @@ Cho $w \in W$ sao cho $g \in C(w)$. Vì $B$ là một nhóm con của $G_X$, gi�
 
 ### 6. CÁC NHÓM CON PARABOLIC
 
-#### Định nghĩa 2 {#lie-iv-s2-def-2 .statement}
+#### Định nghĩa 2 {#lie-iv-s2-def-2 .statement tag=0ANQ}
 
 *Một nhóm con của $G$ được gọi là parabolic nếu nó chứa một liên hợp của $B$.*
 
 Rõ ràng rằng mọi nhóm con chứa một nhóm con parabolic đều là parabolic.
 
-#### Mệnh đề 4 {#lie-iv-s2-prop-4 .statement}
+#### Mệnh đề 4 {#lie-iv-s2-prop-4 .statement tag=0ANR}
 
 *Cho $P$ là một nhóm con của $G$.*
 
@@ -428,7 +428,7 @@ $$
 
 Nếu nhóm con parabolic $P$ liên hợp với $G_X$, trong đó $X \subset S$, thì $P$ được gọi là có *kiểu X*.
 
-#### Định lý 4 {#lie-iv-s2-thm-4 .statement}
+#### Định lý 4 {#lie-iv-s2-thm-4 .statement tag=0ANS}
 
 (i) Cho $P_1$ và $P_2$ là hai nhóm con parabolic của $G$ mà giao của chúng là parabolic và cho $g \in G$ sao cho $gP_1g^{-1} \subset P_2$. Khi đó $g \in P_2$ và $P_1 \subset P_2$.
 
@@ -440,7 +440,7 @@ Nếu nhóm con parabolic $P$ liên hợp với $G_X$, trong đó $X \subset S$,
 
 Mệnh đề (i) suy ra từ các Mđ. 3 và 4, và kéo theo (ii). Dưới các giả thiết của (iii), ta có $gQ_1g^{-1} \subset Q$, điều này suy ra $g \in Q$ theo (i). Cuối cùng, (iv) suy ra từ (iii) bằng cách lấy $Q_1 = Q_2 = Q$.
 
-#### Mệnh đề 5 {#lie-iv-s2-prop-5 .statement}
+#### Mệnh đề 5 {#lie-iv-s2-prop-5 .statement tag=0ANT}
 
 Cho $P_1$ và $P_2$ là hai nhóm con parabolic của $G$. Khi đó $P_1 \cap P_2$ chứa một liên hợp của $T$.
 
@@ -460,7 +460,7 @@ $$
 
 ### 7. CÁC ĐỊNH LÝ VỀ TÍNH ĐƠN
 
-#### Bổ đề 2 {#lie-iv-s2-lem-2 .statement}
+#### Bổ đề 2 {#lie-iv-s2-lem-2 .statement tag=0ANU}
 
 Cho $H$ là một nhóm con chuẩn tắc của $G$. Tồn tại một tập con $X$ của $S$ sao cho $BH = G_X$ và sao cho mọi phần tử của $X$ giao hoán với mọi phần tử của $S - X$.
 
@@ -490,7 +490,7 @@ Tính chất sau đây của một nhóm U được sử dụng trong Đl. 5 dư
 
 Mọi nhóm giải được đều thỏa mãn (R); đặc biệt, mọi nhóm Abel đều thỏa mãn (R). Có thể chỉ ra rằng nhóm đối xứng $\mathfrak{S}_n$ thỏa mãn (R) (xem Bài tập 29).
 
-#### Định lý 5 {#lie-iv-s2-thm-5 .statement}
+#### Định lý 5 {#lie-iv-s2-thm-5 .statement tag=0ANV}
 
 *Gọi Z là giao của các liên hợp của B, gọi U là một nhóm con của B và gọi G_1 là nhóm con sinh bởi các liên hợp của U trong G. Ta đặt các giả thiết sau:*
 
@@ -536,33 +536,33 @@ $$ U/(U \cap H) \cong UH/H = G_1 H/H \cong G_1/(G_1 \cap H). $$
 
 Theo giả thiết (3), $G_1/(G_1 \cap H)$ bằng nhóm giao hoán tử của nó. Giả thiết (2) nay chỉ ra rằng nhóm $U/(U \cap H)$, đẳng cấu với $G_1/(G_1 \cap H)$, thu gọn về phần tử đơn vị. Do đó $G_1 \cap H = G_1$ và $G_1 \subset H$, điều này hoàn tất chứng minh.
 
-#### Hệ quả {#lie-iv-s2-n7-cor-1 .statement}
+#### Hệ quả {#lie-iv-s2-n7-cor-1 .statement tag=0ANW}
 
 Dưới các giả thiết của Đl. 5, nhóm $G_1/(G_1 \cap Z)$ hoặc là đơn không Abel hoặc thu gọn về phần tử đơn vị.
 
 Đl. 5 chỉ ra rằng $G_1/(G_1 \cap Z)$ là đơn hoặc thu gọn về phần tử đơn vị. Mặt khác, giả thiết (3) kéo theo rằng nó bằng nhóm giao hoán tử của nó. Suy ra hệ quả.
 
-#### Nhận xét 1 {#lie-iv-s2-n7-rem-1 .statement}
+#### Nhận xét 1 {#lie-iv-s2-n7-rem-1 .statement tag=0ANX}
 
 Các giả thiết (2), (3), (4) không được dùng trong chứng minh rằng (G', B', N', S') là một hệ Tits.
 
-#### Nhận xét 2 {#lie-iv-s2-n7-rem-2 .statement}
+#### Nhận xét 2 {#lie-iv-s2-n7-rem-2 .statement tag=0ANY}
 
 Giả sử rằng $Z \cap U = \{1\}$. Vì Z và U là chuẩn tắc trong B, suy ra mọi phần tử của Z giao hoán với mọi phần tử của U, và do đó với mọi phần tử của G_1. Theo hệ quả trước đó, suy ra $G_1 \cap Z$ là tâm của G_1.
 
-#### Nhận xét 3 {#lie-iv-s2-n7-rem-3 .statement}
+#### Nhận xét 3 {#lie-iv-s2-n7-rem-3 .statement tag=0ANZ}
 
 Giả thiết (3) được kéo theo bởi điều kiện sau:
 
 (3') U được sinh bởi các giao hoán tử $b^{-1} u^{-1} b u$ với $u \in U$ và $b \in B \cap G_1$.
 
-#### Ví dụ 1 {#lie-iv-s2-n7-exa-1 .statement}
+#### Ví dụ 1 {#lie-iv-s2-n7-exa-1 .statement tag=0AO0}
 
 Cho k là một trường, n là một số nguyên $\geqslant 0$, $G = \mathbf{GL}(n, k)$, và cho (G, B, N, S) là hệ Tits được mô tả trong no. 2. Cho U là nhóm con tam giác trên ngặt của G, tức là nhóm con của B gồm các ma trận có các phần tử đường chéo bằng 1. Điều kiện (1) trong Đl. 5 là ngay lập tức, và (2) cũng vậy vì U là giải được. Điều kiện (4) được thoả mãn nếu $n \geq 2$. Có thể chứng minh (xem *Đại số*, Ch. II, § 10, Bài tập 13) rằng (3) được thoả mãn nếu $n \geq 3$ và Card$(k) \geq 4$. Dưới các điều kiện này, ta kết luận rằng $G_1 / (G_1 \cap Z)$ là *đơn* và $G_1 \cap Z$ là tâm của $G_1$ (xem *Nhận xét* 2).
 
 Khi $k$ là giao hoán, $G_1 = \mathbf{SL}(n, k)$ (xem *Đại số*, Ch. III, § 8, no. 9).
 
-#### Ví dụ 2 {#lie-iv-s2-n7-exa-2 .statement}
+#### Ví dụ 2 {#lie-iv-s2-n7-exa-2 .statement tag=0AO1}
 
 Cho $g$ là một đại số Lie đơn trên $\mathbf{C}$, và cho $G$ là nhóm các tự đẳng cấu nội của $g$ (xem Ch. III, § 6, no. 2, Mệnh đề 2). Bằng cách sử dụng Đl. 5, ta có thể chứng minh rằng $G$ là đơn không Abel.
 

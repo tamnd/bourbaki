@@ -33,7 +33,7 @@ subsections:
       pdf_page: 52
 statements: 34
 exercises: 12
-content_sha256: 8a3e20284919ae10cbe7a7b0edf8a7928dc3eb483565302464487f21ad0e6563
+content_sha256: 2c8874c26fbf201c0618a7d7d9032b879cbd530bc1c087c29fa6d04fb0dc207a
 ---
 
 ## § 4. SÉRIES DE HILBERT-SAMUEL
@@ -48,7 +48,7 @@ $$
 
 Dans la suite de ce chapitre, on notera $A((T))$ la $A$-algèbre $B$; elle contient comme sous-algèbres l’algèbre $A[[T]]$ des séries formelles et l’algèbre $A[T, T^{-1}]$; leur intersection est l’algèbre $A[T]$ des polynômes.
 
-#### Remarque {#ac-viii-s4-n1-rem-1 .statement}
+#### Remarque {#ac-viii-s4-n1-rem-1 .statement tag=0CO0}
 
 L’anneau $A((T))$ s’identifie naturellement à l’anneau de fractions $A[[T]]_T$ de l’anneau $A[[T]]$ défini par la partie multiplicative formée des puissances de $T$.
 
@@ -63,7 +63,7 @@ $$
 
 On a $\left[ \begin{array}{c} n \\ p \end{array} \right] = \left[ \begin{array}{c} n \\ n-p \end{array} \right]$ pour $n, p \in \mathbf{Z}$.
 
-#### Lemme 1 {#ac-viii-s4-lem-1 .statement}
+#### Lemme 1 {#ac-viii-s4-lem-1 .statement tag=0CO1}
 
 *L’élément $1 - T$ de $\mathbf{Z}((T))$ est inversible. Pour tout entier $r > 0$ on a*
 
@@ -111,7 +111,7 @@ $$
 
 Si $F = \sum_{n \in \mathbf{Z}} a_n T^n$ et $G = \sum_{n \in \mathbf{Z}} b_n T^n$ sont deux éléments de $\mathbf{Z}((T))$, on note « $F \leq G$ » la relation « $a_n \leq b_n$ pour tout $n \in \mathbf{Z}$ ». C’est une relation d’ordre compatible avec la structure d’anneau de $\mathbf{Z}((T))$ (A, VI, p. 18, déf. 1). On a $(1-T)^{-1} \geq 1$. Si $Q \in \mathbf{Z}[T, T^{-1}]$ est $\geq 0$, alors l’entier $Q(1)$ est positif.
 
-#### Lemme 2 {#ac-viii-s4-lem-2 .statement}
+#### Lemme 2 {#ac-viii-s4-lem-2 .statement tag=0CO2}
 
 **a)** Soit $F$ un élément non nul de $\mathbf{Z}((T))$ tel qu’il existe $r \in \mathbf{Z}$, avec $(1-T)^r F \in \mathbf{Z}[T, T^{-1}]$; alors $F$ s’écrit de manière unique sous la forme $F = (1-T)^{-d}.Q$, où $Q \in \mathbf{Z}[T, T^{-1}]$, $Q(1) \neq 0$ et $d \in \mathbf{Z}$. Si $F \geq 0$, alors on a $Q(1) > 0$ et $d \geq 0$.
 
@@ -133,7 +133,7 @@ Soient $H_0$ un anneau, $I$ un ensemble fini et $H$ l’anneau de polynômes $H_
 
 Soit $M$ un $H$-module gradué de *type fini* dont tous les composants homogènes sont des $H_0$-modules de longueur finie ; on appelle *série de Poincaré* de $M$ l’élément $P_M$ de $\mathbf{Z}((T))$ tel que $P_M = \sum_{n \in \mathbf{Z}} \operatorname{long}_{H_0}(M_n) \cdot T^n$, et l’on pose $Q_M = P_M \cdot \prod_{i \in I} (1 - T^{d_i})$.
 
-#### Théorème 1 {#ac-viii-s4-thm-1 .statement}
+#### Théorème 1 {#ac-viii-s4-thm-1 .statement tag=0CO3}
 
 *L’élément $Q_M$ de $\mathbf{Z}((T))$ appartient à $\mathbf{Z}[T, T^{-1}]$*.
 
@@ -163,7 +163,7 @@ $$
 
 d’où la conclusion.
 
-#### Exemple 1 {#ac-viii-s4-n2-exa-1 .statement}
+#### Exemple 1 {#ac-viii-s4-n2-exa-1 .statement tag=0CO4}
 
 Supposons $H_0$ artinien et prenons $M = H$. Alors, avec les notations précédentes, on a $R = 0$ et $S = H'$, donc d’après (5), on a $Q_H = Q_{H'}$; comme on a $Q_{H_0} = \operatorname{long}(H_0)$, on en tire par récurrence $Q_H = \operatorname{long}(H_0)$, c’est-à-dire
 
@@ -173,7 +173,7 @@ $$
 
 Supposons désormais H muni de la graduation usuelle, pour laquelle $d_i = 1$ pour tout $i \in I$, et posons $r = \mathrm{Card}(I)$; on a $P_M = Q_M(T).(1 - T)^{-r}$. Posons $c_M = Q_M(1)$. Alors, d’après la formule (2) du n° 1, on a :
 
-#### Corollaire {#ac-viii-s4-n2-cor-1 .statement}
+#### Corollaire {#ac-viii-s4-n2-cor-1 .statement tag=0CO5}
 
 a) Si $r = 0$, alors on a $\mathrm{long}_{H_0}(M) = c_M$.
 
@@ -181,11 +181,11 @@ b) Si $r = 1$, alors on a $\mathrm{long}_{H_0}(M_n) = c_M$ pour $n$ assez grand.
 
 c) Si $r > 1$, alors on a $\mathrm{long}_{H_0}(M_n) = c_M \frac{n^{r-1}}{(r-1)!} + \rho_n n^{r-2}$, où $\rho_n$ tend vers une limite dans $\mathbf{R}$ lorsque $n$ augmente indéfiniment.
 
-#### Remarque 1 {#ac-viii-s4-n2-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s4-n2-rem-1 .statement tag=0CO6}
 
 L’entier $c_M$ est positif d’après le lemme 2. On peut avoir $M \neq 0$ et $c_M = 0$ (cf. prop. 2).
 
-#### Remarque 2 {#ac-viii-s4-n2-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s4-n2-rem-2 .statement tag=0CO7}
 
 Soit $0 \to M' \to M \to M'' \to 0$ une suite exacte de H-modules gradués et d’homomorphismes de degré 0 telle que M soit de type fini sur H et $M_n$ de longueur finie sur $H_0$ pour chaque $n$. Alors, pour chaque $n \in \mathbf{Z}$, on a
 $$
@@ -193,11 +193,11 @@ $$
 $$
 donc $P_M = P_{M'} + P_{M''}$, $Q_M = Q_{M'} + Q_{M''}$ et $c_M = c_{M'} + c_{M''}$.
 
-#### Remarque 3 {#ac-viii-s4-n2-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s4-n2-rem-3 .statement tag=0CO8}
 
 Soit $M(p)$ le module déduit de M par décalage de $p$ de la graduation (A, II, p. 165, exemple 3). Comme on a $M(p)_n = M_{p+n}$, on a $P_{M(p)} = T^{-p}P_M$, $Q_{M(p)} = T^{-p}Q_M$ et $c_{M(p)} = c_M$.
 
-#### Exemple 2 {#ac-viii-s4-n2-exa-2 .statement}
+#### Exemple 2 {#ac-viii-s4-n2-exa-2 .statement tag=0CO9}
 
 Supposons $H_0$ artinien, et soit M un H-module gradué libre engendré par s éléments homogènes, linéairement indépendants, de degrés respectifs $\delta_1, ..., \delta_s$. Alors M est isomorphe à $H(-\delta_1) \oplus \cdots \oplus H(-\delta_s)$. D’après les remarques 2 et 3 et l’exemple 1, on a donc
 $$
@@ -210,7 +210,7 @@ $$
 c_M = s.\mathrm{long}(H_0).
 $$
 
-#### Exemple 3 {#ac-viii-s4-n2-exa-3 .statement}
+#### Exemple 3 {#ac-viii-s4-n2-exa-3 .statement tag=0COA}
 
 Supposons toujours $H_0$ artinien ; soit M un H-module gradué, et supposons qu’il existe une suite exacte de H-modules gradués et d’homomorphismes de degré 0
 $$
@@ -224,7 +224,7 @@ $$
 c_M = \mathrm{long}(H_0).\sum_{0 \leq k \leq n} (-1)^k m(k).
 $$
 
-#### Remarque 4 {#ac-viii-s4-n2-rem-4 .statement}
+#### Remarque 4 {#ac-viii-s4-n2-rem-4 .statement tag=0COB}
 
 On peut prouver (p. 88, exerc. 4) que sous les hypothèses du th. 1, les $H_0$-modules $\mathrm{Tor}_j^H(H_0, M)$ sont de longueur finie, nuls pour $j > r$, et qu’on a
 $$
@@ -235,7 +235,7 @@ $$
 Q_M = \sum_{j=0}^r (-1)^j P_{T_j}.
 $$
 
-#### Proposition 1 {#ac-viii-s4-prop-1 .statement}
+#### Proposition 1 {#ac-viii-s4-prop-1 .statement tag=0COC}
 
 Soit $M$ un $H$-module gradué. On suppose que $M$ est engendré par $M_0$ et que $M_0$ est un $H_0$-module de longueur finie. Alors on a
 $$
@@ -261,11 +261,11 @@ $$
 Les conditions (i), (ii) et (iii) équivalent respectivement à $c_R = 0$, $P_R = 0$ et $R = 0$.
 On a donc (iii) $\Rightarrow$ (ii) $\Rightarrow$ (i) et il suffit de prouver que $c_R = 0$ implique $R = 0$. Supposons $R \neq 0$ et soit $0 = N^h \subset N^{h-1} \subset ... \subset N^0 = M_0$ une suite de Jordan-Hölder du $H_0$-module $M_0$. Soit $R^m$ l’intersection de $R$ et de l’image de $H \otimes_{H_0} N^m$ dans $H \otimes_{H_0} M_0$; il existe un entier $m$ compris entre 1 et $h$ tel que $R^m \neq R^{m-1}$. Posons $L = R^{m-1}/R^m$; on a $0 \leq c_L \leq c_R$ et il suffit de prouver que $c_L \neq 0$. Or, si $k$ est le corps quotient de $H_0$ par l’idéal maximal annulateur de $N^{m-1}/N^m$, $L$ s’identifie à un sous-module gradué non nul de $k[(X_i)_{i \in I}]$. Donc $L$ contient un sous-module isomorphe à un module décalé de $k[(X_i)_{i \in I}]$; comme $c_{k[(X_i)_{i \in I}]} = 1$, on a donc $c_L \geq 1$ (remarques 2 et 3), ce qu’on voulait démontrer.
 
-#### Remarque 5 {#ac-viii-s4-n2-rem-5 .statement}
+#### Remarque 5 {#ac-viii-s4-n2-rem-5 .statement tag=0COD}
 
 D’après A, X, p. 160, th. 1, la condition (iii) signifie que $(X_1, ..., X_r)$ est une suite complètement sécante pour le $H$-module $M$.
 
-#### Proposition 2 {#ac-viii-s4-prop-2 .statement}
+#### Proposition 2 {#ac-viii-s4-prop-2 .statement tag=0COE}
 
 Supposons que $H_0$ soit un corps, et soit $M$ un $H$-module gradué de type fini. Soit $K$ le corps des fractions de $H$. Alors $c_M$ est égal au rang du $H$-module $M$, c’est-à-dire à la dimension du $K$-espace vectoriel $M \otimes_H K$.
 
@@ -275,7 +275,7 @@ $$
 $$
 et des remarques 2 et 3, on tire $c_{H/xH} = 0$. La proposition est donc vérifiée lorsque $M$ est engendré par un élément homogène. Le cas général s’en déduit, puisque tout $H$-module gradué de type fini possède une suite de composition dont les quotients sont de la forme précédente.
 
-#### Remarque 6 {#ac-viii-s4-n2-rem-6 .statement}
+#### Remarque 6 {#ac-viii-s4-n2-rem-6 .statement tag=0COF}
 
 Sous les hypothèses de la prop. 2, on a donc $c_M = 0$ si et seulement si $M$ est un $H$-module de torsion, ou encore si et seulement si $\dim_H(M) < r$ (§ 1, no 5, exemple 4).
 
@@ -297,12 +297,12 @@ q^{n-n_1}M \subset F_n \subset q^{n-n_0}M
 $$
 (rappelons que l’on a posé $q^r = A$ pour $r \leq 0$, par convention).
 
-#### Lemme 3 {#ac-viii-s4-lem-3 .statement}
+#### Lemme 3 {#ac-viii-s4-lem-3 .statement tag=0COG}
 
 Si $F$ et $F'$ sont deux filtrations $q$-bonnes sur $M$, il existe un entier $m$ tel que $F'_n \subset F_{n-m}$ pour tout $n \in \mathbf{Z}$.
 En effet, il existe $n_2$ tel que $F'_n \subset q^{n-n_2}M$ pour tout $n$, donc $F'_n \subset F_{n-(n_2-n_1)}$ pour tout $n$.
 
-#### Lemme 4 {#ac-viii-s4-lem-4 .statement}
+#### Lemme 4 {#ac-viii-s4-lem-4 .statement tag=0COH}
 
 Soit $F$ une filtration $q$-bonne sur $M$. Si $M/qM$ est de longueur finie, $M/F_{n+1}$ et $F_n/F_{n+1}$ sont de longueur finie pour tout $n \in \mathbf{Z}$.
 Avec les notations de (7), on a $\operatorname{long}(M/F_{n+1}) \leq \operatorname{long}(M/q^{n-n_1+1}M)$ et il suffit de prouver que $q^nM/q^{n+1}M$ est de longueur finie pour tout $n$. On est donc ramené au cas de la filtration $q$-adique. Soit $(x_1, ..., x_r)$ un système générateur fini du $A$-module $q$, et soit $I$ l’ensemble fini des monômes de degré total $n$ en $r$ variables
@@ -316,7 +316,7 @@ $$
 H_{M,F} = \sum_{n \in \mathbf{Z}} \operatorname{long}_{A/q}(F_n/F_{n+1}). T^n \in \mathbf{Z}((T)).
 $$
 
-#### Définition 1 {#ac-viii-s4-def-1 .statement}
+#### Définition 1 {#ac-viii-s4-def-1 .statement tag=0COI}
 
 On appelle $H_{M,F}$ la série de Hilbert-Samuel du A-module M (relativement à la filtration q-bonne F).
 
@@ -329,7 +329,7 @@ $$
 H_{M,q} = \sum_{n \in \mathbf{Z}} \operatorname{long}_{A/q}(q^nM/q^{n+1}M). T^n .
 $$
 
-#### Proposition 3 {#ac-viii-s4-prop-3 .statement}
+#### Proposition 3 {#ac-viii-s4-prop-3 .statement tag=0COJ}
 
 a) Si F est une filtration q-bonne sur M, on a
 
@@ -342,7 +342,7 @@ b) Si F et F’ sont deux filtrations q-bonnes sur M, il existe un entier m tel 
 
 La partie a) résulte aussitôt de la définition de $H_{M,F}^{(1)}$; la partie b) résulte de a) et du lemme 3.
 
-#### Théorème 2 {#ac-viii-s4-thm-2 .statement}
+#### Théorème 2 {#ac-viii-s4-thm-2 .statement tag=0COK}
 
 Soient A un anneau noethérien, q un idéal de A, M un A-module de type fini tel que M/qM soit non nul et de longueur finie et F une filtration q-bonne sur M.
 
@@ -364,7 +364,7 @@ D’après la prop. 3, b), il existe un entier $m$ tel que $(1 - T)^{-d' - 1} R'
 D’après le lemme 2, b) du n° 1, cela implique $d' \geq d$ et, si $d' = d$, $R'(1) \geq R(1)$.
 Échangeant les rôles de $F$ et $F'$, on obtient $d = d'$ et $R(1) = R'(1)$.
 
-#### Remarque 1 {#ac-viii-s4-n3-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s4-n3-rem-1 .statement tag=0COL}
 
 Avec les notations de a), écrivons $R = \sum_{i \in \mathbf{Z}} a_i T^i$, et supposons $d > 0$.
 D’après le n° 1, la relation $H_{M,F} = (1 - T)^{-d} R$ s’écrit aussi
@@ -382,7 +382,7 @@ H_{M,F} = (1 - T)^{-d_q(M)} R , \quad R(1) = e_q(M) .
 $$
 Si $M = qM$, on pose par convention $d_q(M) = -\infty$, $e_q(M) = 0$.
 
-#### Remarque 2 {#ac-viii-s4-n3-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s4-n3-rem-2 .statement tag=0COM}
 
 Dire que $M/qM$ est de longueur finie signifie que
 $$
@@ -390,7 +390,7 @@ $$
 $$
 est formé d’idéaux maximaux (IV, § 2, n° 5, prop. 7). Nous verrons ci-dessous (n° 4, corollaire au th. 3) que $d_q(M)$ est la borne supérieure des nombres $\dim_{A_m}(M_m)$, où $m$ parcourt l’ensemble $\operatorname{Supp}(M) \cap V(q)$.
 
-#### Corollaire {#ac-viii-s4-n3-cor-1 .statement}
+#### Corollaire {#ac-viii-s4-n3-cor-1 .statement tag=0CON}
 
 *Soient $A$ un anneau noethérien, $q$ un idéal de $A$, $M$ un $A$-module de type fini tel que $M/qM$ soit de longueur finie et $F$ une filtration q-bonne sur $M$.
 a) Pour que l’on ait $d_q(M) \leq 0$, il faut et il suffit que la suite $(q^n M)$ soit stationnaire, ou encore que la suite $(F_n)$ soit stationnaire. On a alors, pour tout $n$ assez grand,
@@ -407,11 +407,11 @@ $$
 où $\rho_n$ et $\sigma_n$ tendent vers une limite lorsque $n$ augmente indéfiniment.
 Cela résulte aussitôt du th. 2 et de la formule (2) du n° 1.*
 
-#### Remarque 3 {#ac-viii-s4-n3-rem-3 .statement}
+#### Remarque 3 {#ac-viii-s4-n3-rem-3 .statement tag=0COO}
 
 Supposons q contenu dans le radical de A. Alors, d’après le lemme de Nakayama, la suite (q^nM) est stationnaire si et seulement si l’on a q^nM = 0 pour n assez grand. Il résulte alors de la partie a) du corollaire que l’on a d_q(M) \leq 0 si et seulement si M est de longueur finie et qu’on a alors e_q(M) = \operatorname{long}_A(M).
 
-#### Proposition 4 {#ac-viii-s4-prop-4 .statement}
+#### Proposition 4 {#ac-viii-s4-prop-4 .statement tag=0COP}
 
 Soient A un anneau noethérien, x_1, ..., x_r des éléments de A, x l’idéal qu’ils engendrent et M un A-module de type fini tel que M/xM soit non nul et de longueur finie.
 a) On a d_x(M) \leq r.
@@ -422,7 +422,7 @@ Soit H l’anneau de polynômes (A/x)[X_1, ..., X_r]. Munissons G = \bigoplus_n 
 
 On a donc, soit d_x(M) < r et c_G = 0, soit d_x(M) = r et c_G = e_x(M). Par ailleurs, d’après la prop. 1 du no 2, on a c_G \leq \operatorname{long}(M/xM), et il y a égalité si et seulement si l’homomorphisme canonique A/x[X_1, ..., X_r] \otimes_{A/x} M/xM \to \bigoplus_n x^nM/x^{n+1}M est bijectif. Cela entraîne la proposition, compte tenu de A, X, p. 160, th. 1.
 
-#### Proposition 5 {#ac-viii-s4-prop-5 .statement}
+#### Proposition 5 {#ac-viii-s4-prop-5 .statement tag=0COQ}
 
 Soient 0 \to M' \to M \to M'' \to 0 une suite exacte de modules de type fini sur un anneau noethérien A, et q un idéal de A.
 a) Pour que M/qM soit de longueur finie, il faut et il suffit qu’il en soit ainsi de M'/qM' et M''/qM''.
@@ -443,7 +443,7 @@ avec R, R', R'' \in \mathbf{Z}[T, T^{-1}], R(1) = e_q(M), R'(1) = e_q(M'), R''(1
 
 ### 4. Degré de la fonction de Hilbert-Samuel
 
-#### Théorème 3 {#ac-viii-s4-thm-3 .statement}
+#### Théorème 3 {#ac-viii-s4-thm-3 .statement tag=0COR}
 
 Soient $A$ un anneau local noethérien, $q$ un idéal de $A$ distinct de $A$ et $M$ un $A$-module de type fini tel que $M/qM$ soit de longueur finie. Alors l’entier $d_q(M)$ est la dimension du $A$-module $M$ ($§ 1$, no 4, déf. 8).
 
@@ -469,23 +469,23 @@ $$
 
 ce qui achève la démonstration.
 
-#### Corollaire {#ac-viii-s4-n4-cor-1 .statement}
+#### Corollaire {#ac-viii-s4-n4-cor-1 .statement tag=0COS}
 
 Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini et $q$ un idéal de $A$ tel que $M/qM$ soit de longueur finie. Alors $d_q(M)$ est la borne supérieure des dimensions $\dim_{A_m}(M_m)$, où $m$ parcourt l’ensemble fini $S = \operatorname{Supp}(M) \cap V(q)$, et $e_q(M)$ est la somme des $e_{q_m}(M_m)$ étendue à ceux des éléments $m$ de $S$ pour lesquels on a $\dim_{A_m}(M_m) = d_q(M)$.
 
 Pour chaque entier $n$, la longueur de $M/q^nM$ est la somme des $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $§ 2$, no 5, cor. 1 à la prop. 7 et corollaire à la prop. 8). Par conséquent, on a $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, d’où le corollaire.
 
-#### Remarque 1 {#ac-viii-s4-n4-rem-1 .statement}
+#### Remarque 1 {#ac-viii-s4-n4-rem-1 .statement tag=0COT}
 
 On a aussi $d_q(M) = \sup_{m \in V(q)} \dim(M_m)$, c’est-à-dire $d_q(M) = \dim(\hat{M})$, où $\hat{M}$ est le complété de $M$ pour la topologie q-adique ($§ 3$, no 4, prop. 8).
 
-#### Remarque 2 {#ac-viii-s4-n4-rem-2 .statement}
+#### Remarque 2 {#ac-viii-s4-n4-rem-2 .statement tag=0COU}
 
 Supposons q contenu dans le radical de A ; alors $\dim(\hat{M}) = \dim(M)$ (*loc. cit.*, cor. 1), donc $d(M) = \dim(M)$.
 
 ### 5. Série de Hilbert-Samuel d’un module quotient
 
-#### Lemme 5 {#ac-viii-s4-lem-5 .statement}
+#### Lemme 5 {#ac-viii-s4-lem-5 .statement tag=0COV}
 
 Soient A un anneau, M un A-module et $(P_n), (Q_n)$ deux filtrations décroissantes sur M formées de sous-modules. Supposons que l’on ait $P_n \supset Q_n$ et $\operatorname{long}_A(P_n/Q_n) < +\infty$ pour tout $n \in \mathbf{Z}$ et qu’il existe un entier $n_1$ tel que $Q_{n_1} = M$. Dans $\mathbf{Z}((T))$, on a les inégalités
 
@@ -508,7 +508,7 @@ $$
 
 Mais le A-module $(P_{n+1} \cap Q_i)/(P_{n+1} \cap Q_{i+1})$ est isomorphe à un sous-module de $(P_{i+1} \cap Q_i)/Q_{i+1}$, et l’inégalité (16) en résulte.
 
-#### Lemme 6 {#ac-viii-s4-lem-6 .statement}
+#### Lemme 6 {#ac-viii-s4-lem-6 .statement tag=0COW}
 
 Soient A un anneau, M un A-module et $(F_n)$ une filtration décroissante sur M formée de sous-modules ; on suppose qu’il existe un entier $n_1$ tel que $F_{n_1} = M$. Soient f un endomorphisme de M, $M'$ son noyau et $M''$ son conoyau. On munit $M'$ de la filtration $(F'_n)$ induite par $(F_n)$ et $M''$ de la filtration $(F''_n)$ quotient de $(F_n)$. On suppose que $F_n/F_{n+1}$ est de longueur finie pour tout $n \in \mathbf{Z}$ et qu’il existe un entier $\delta$ tel que $f(F_n) \subset F_{n+\delta}$. Soit $\varphi$ l’endomorphisme gradué de degré $\delta$ du module gradué $\mathrm{gr}(M) = \bigoplus_{n \in \mathbf{Z}} F_n/F_{n+1}$ qu’on déduit de f. Entre les éléments suivants de $\mathbf{Z}((T))$
 
@@ -554,7 +554,7 @@ Multipliant par $T^{n+\delta}$ et sommant sur $n$, on obtient
 
 et l’inégalité (18) résulte aussitôt de (20) et (21).
 
-#### Lemme 7 {#ac-viii-s4-lem-7 .statement}
+#### Lemme 7 {#ac-viii-s4-lem-7 .statement tag=0COX}
 
 Conservons les notations du lemme 6.
 
@@ -588,7 +588,7 @@ $$
 
 où $\varphi'_n = \varphi_{n-\delta}$ pour tout $n$. Cela achève de démontrer c).
 
-#### Proposition 6 {#ac-viii-s4-prop-6 .statement}
+#### Proposition 6 {#ac-viii-s4-prop-6 .statement tag=0COY}
 
 *Soient A un anneau noethérien, M un A-module de type fini et q un idéal de A tels que M/qM soit de longueur finie. Soit F une filtration q-bonne de M, et soit $\mathrm{gr}(A) = \bigoplus_{n \geq 0} (q^n/q^{n+1})$ l’anneau gradué associé à A pour la filtration q-adique.*
 

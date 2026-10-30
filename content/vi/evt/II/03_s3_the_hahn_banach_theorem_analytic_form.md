@@ -21,9 +21,9 @@ subsections:
       pdf_page: 59
 statements: 6
 exercises: 8
-content_sha256: 95fdd859e26178e8d48805c355b91c60504dfc987472c83d0c2f203cca00b758
+content_sha256: 8240a1b2e1867c744af6a5e105460f4f1847cc088a6cbfc80ac740bffd30b944
 translated_from: content/en/evt/II/03_s3_the_hahn_banach_theorem_analytic_form.md
-source_content_sha256: a5147d86c2ae43411a7a8933f6c307748cadd54639ce8c502a03286da01e0e92
+source_content_sha256: 62f888c305293cb384c8f41fb0d8824e2a25c39637bd4054f2e1ce6efe281846
 translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-4a007b50
 glossary_version: 34
@@ -35,7 +35,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Mở rộng các dạng tuyến tính dương
 
-#### Mệnh đề 1 {#evt-ii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#evt-ii-s3-prop-1 .statement tag=07DQ}
 
 — Cho E là một không gian vectơ tiền thứ tự và V là một không gian con vectơ của E sao cho mọi phần tử của E đều bị chặn trên bởi một phần tử của V. Với một dạng tuyến tính f trên V, dương đối với cấu trúc không gian vectơ tiền thứ tự của V (cảm sinh bởi cấu trúc của E), tồn tại một tập hợp không rỗng $S_f$ các dạng tuyến tính dương trên E, mỗi dạng là một mở rộng của f. Nếu $h \in S_f$ thì các giá trị $h(a)$ với $a \in E$ nằm trong khoảng $[\alpha', \alpha'']$, trong đó
 
@@ -69,7 +69,7 @@ II. Trường hợp tổng quát.
 
 Cho $\mathfrak{F}$ là tập hợp các cặp $(W, g)$ trong đó $W$ là một không gian con vectơ của $E$ chứa $V$ và $g$ là một dạng tuyến tính dương trên $W$ là một mở rộng của $f$. Ta sắp thứ tự $\mathfrak{F}$ bằng cách đặt $(W, g) \leq (W', g')$ nếu $W \subset W'$ và nếu $g'$ là một mở rộng của $g$. Rõ ràng $\mathfrak{F}$ là quy nạp và theo đl. 2 của S, III, § 2.4, tồn tại một phần tử cực đại $(W_0, g_0)$. Giả sử $W_0 \neq E$. Khi đó tồn tại một vectơ $b \notin W_0$, và, nếu đặt $W_1 = W_0 + \mathbf{R}b$, trường hợp riêng ở trên cho thấy rằng tồn tại một dạng tuyến tính dương trên $W_1$ là một mở rộng của $g_0$; điều này mâu thuẫn với giả thiết rằng $(W_0, g_0)$ là cực đại. Vậy $W_0 = E$, và phần thứ nhất của mệnh đề được chứng minh. Khi $a \in V$, mệnh đề thứ hai hiển nhiên đúng với $\alpha' = \alpha'' = f(a)$; nếu, trái lại, $a \notin V$ và đặt $V_1 = V + \mathbf{R}a$, thì mệnh đề thứ hai suy ra từ trường hợp riêng I của chứng minh.
 
-#### Hệ quả {#evt-ii-s3-n1-cor-1 .statement}
+#### Hệ quả {#evt-ii-s3-n1-cor-1 .statement tag=07DR}
 
 Trong một không gian vectơ tôpô $E$ với một cấu trúc tiền thứ tự tương thích, cho $P$ là tập hợp các phần tử $\geq 0$ trong $E$. Cho $V$ là một không gian con vectơ của $E$ chứa ít nhất một điểm trong $x_0$ của $P$. Khi đó mọi dạng tuyến tính dương trên $V$ đều có thể được mở rộng thành một dạng tuyến tính dương trên $E$.
 
@@ -79,25 +79,25 @@ Kết luận của hệ quả không nhất thiết còn đúng nếu không gi�
 
 ### 2. Định lý Hahn-Banach (dạng giải tích)
 
-#### Định lý 1 (Hahn-Banach) {#evt-ii-s3-thm-1 .statement}
+#### Định lý 1 (Hahn-Banach) {#evt-ii-s3-thm-1 .statement tag=07DS}
 
 Cho $p$ là một hàm dưới tuyến tính trên một không gian vectơ $E$. Cho $V$ là một không gian con vectơ của $E$ và $f$ là một dạng tuyến tính trên $V$ sao cho, với mọi $y \in V$, ta có $f(y) \leq p(y)$. Khi đó tồn tại một dạng tuyến tính $h$ trên $E$ là một mở rộng của $f$ và sao cho $h(x) \leq p(x)$ với $x \in E$.
 
 Tập hợp các cặp $(x, a)$ sao cho $p(x) \leq a$ là một tập con lồi $P$ của không gian vectơ $E_1 = E \times \mathbf{R}$ (II, p. 17, mệnh đề 19), và rõ ràng nó là một nón nhọn. Gọi $V_1$ là không gian con $V \times \mathbf{R}$ của $E_1$ và $g(y, a) = -f(y) + a$ với mỗi điểm $(y, a) \in V_1$. Khi đó $g$ là một dạng tuyến tính dương đối với cấu trúc tiền thứ tự trên $V_1$ được xác định bởi $P \cap V_1$; thật vậy, nếu $(y, a) \in P \cap V_1$, thì $a \geq p(y) \geq f(y)$, do đó $g(y, a) \geq 0$. Tiếp theo, lấy $(x, a) \in E_1$; ta chứng minh rằng $(x, a)$ nhỏ hơn một điểm của $V_1$ đối với tiền thứ tự được xác định bởi $P$. Nếu $(x', a') \in V_1$ thì $(x, a) \leq (x', a')$ khi và chỉ khi $p(x' - x) \leq a' - a$, lấy $a' \geq p(-x) + a$, ta thấy rằng $(0, a')$ của $V_1$ thỏa mãn các điều kiện cần có. Do đó ta có thể áp dụng mệnh đề I của II, p. 21; tồn tại một dạng tuyến tính $u$ trên $E_1$ kéo dài $g$ và dương đối với tiền thứ tự được xác định bởi $P$. Vì thế $u(0, 1) = g(0, 1) = 1$ và $u$ có dạng $u(x, a) = -h(x) + a$, trong đó $h$ là một dạng tuyến tính trên $E$ kéo dài $f$; hơn nữa, với mọi $x \in E$ và mọi $a \geq p(x)$, ta có $h(x) \leq a$, do đó $h(x) \leq p(x)$. Q.E.D.
 
-#### Hệ quả 1 {#evt-ii-s3-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#evt-ii-s3-thm-1-cor-1 .statement tag=07DT}
 
 — Cho $p$ là một nửa chuẩn trên không gian vectơ $E$. Cho $V$ là một không gian con vectơ của $E$ và $f$ là một dạng tuyến tính trên $V$ sao cho $|f(y)| \leq p(y)$ với mọi $y \in V$. Khi đó tồn tại một dạng tuyến tính $h$ xác định trên $E$ là một mở rộng của $f$ và sao cho $|h(x)| \leq p(x)$ với $x \in E$.
 
 Đối với một nửa chuẩn $q$ và một dạng tuyến tính $g$ trên $E$, quan hệ $g \leq q$ cũng chính là $|g| \leq q$. Hệ quả suy ra từ đl. 1.
 
-#### Hệ quả 2 {#evt-ii-s3-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#evt-ii-s3-thm-1-cor-2 .statement tag=07DU}
 
 — Cho $p$ là một nửa chuẩn trên không gian vectơ $E$. Với một điểm $x_0 \in E$ đã cho, tồn tại một dạng tuyến tính $f$ xác định trên $E$, sao cho $f(x_0) = p(x_0)$ và $|f(x)| \leq p(x)$ với mọi $x \in E$.
 
 Áp dụng hệ quả 1 cho không gian con vectơ $V$, sinh bởi $x_0$ và cho dạng tuyến tính $\xi x_0 \mapsto \xi p(x_0)$ được xác định trên $V$.
 
-#### Hệ quả 3 {#evt-ii-s3-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#evt-ii-s3-thm-1-cor-3 .statement tag=07DV}
 
 — Cho $V$ là một không gian con vectơ của không gian chuẩn $E$ và cho $f$ là một dạng tuyến tính liên tục trên $V$; khi đó tồn tại một dạng tuyến tính liên tục $h$ được xác định trên $E$ mở rộng $f$ và có cùng chuẩn (GT, X, § 3.2).
 

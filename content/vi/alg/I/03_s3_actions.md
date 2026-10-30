@@ -33,9 +33,9 @@ subsections:
       pdf_page: 53
 statements: 14
 exercises: 10
-content_sha256: 2d565017ff2865c7eb8b8709abedb3b3bc26908c58f4c60dc4e6c4b11f226b7f
+content_sha256: 7b1af9454ac04a2eeb1203d2beda9b0f28c7ba0e04aac21c282fecd958c1acfe
 translated_from: content/en/alg/I/03_s3_actions.md
-source_content_sha256: fefea5c72fe036c89a879762938486baeb1decc5d9be21d1053e8bc5fabd4729
+source_content_sha256: 7e8fbe4c81b4a012c8fdf0810f23488766fe66b340393425e3d9b307319fe67d
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-3445099e
 glossary_version: 34
@@ -47,7 +47,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC TÁC ĐỘNG
 
-#### Định nghĩa 1 {#alg-i-s3-def-1 .statement}
+#### Định nghĩa 1 {#alg-i-s3-def-1 .statement tag=057T}
 
 *Cho $\Omega$ và E là hai tập hợp. Một ánh xạ của $\Omega$ vào tập hợp $E^E$ các ánh xạ của E vào chính nó được gọi là một tác động của $\Omega$ trên E.*
 
@@ -59,7 +59,7 @@ Trong chương này, để rút gọn cách viết, ta sẽ nói "luật tác đ
 
 thay cho "luật tác động trái". Phần tử $f_\alpha(x)$ của E (với $\alpha \in \Omega$ và $x \in E$) đôi khi được gọi là *biến đổi* của $x$ dưới tác động của $\alpha$ hoặc *hợp thành* của $\alpha$ và $x$. Nó thường được ký hiệu bằng ký hiệu nhân trái (tương ứng. phải) $\alpha . x$ (tương ứng. $x . \alpha$), dấu chấm có thể được bỏ đi; khi đó hợp thành của $\alpha$ và $x$ được gọi là *tích* của $\alpha$ và $x$ (tương ứng. $x$ và $\alpha$). Ký hiệu lũy thừa $x^\alpha$ cũng được dùng. Trong các lập luận của các đoạn sau, nói chung ta sẽ dùng ký hiệu $\alpha \perp x$. Các phần tử của $\Omega$ thường được gọi là *toán tử*.
 
-#### Ví dụ {#alg-i-s3-n1-exa-1 .statement}
+#### Ví dụ {#alg-i-s3-n1-exa-1 .statement tag=057U}
 
 (1) Cho E là một nửa magma kết hợp được viết theo phép nhân. Ánh xạ liên kết với một số nguyên dương ngặt $n$ ánh xạ $x \mapsto x^n$ của E vào chính nó là một tác động của $\mathbf{N}^*$ trên E. Nếu E là một nhóm, ánh xạ liên kết với một số nguyên hữu tỉ $a$ ánh xạ $x \mapsto x^a$ của E vào E là một tác động của $\mathbf{Z}$ trên E.
 
@@ -93,27 +93,27 @@ với mọi $\alpha \in \Omega$ và $x \in E$.
 
 ### 2. CÁC TẬP CON ỔN ĐỊNH DƯỚI MỘT TÁC ĐỘNG. TÁC ĐỘNG CẢM SINH
 
-#### Định nghĩa 2 {#alg-i-s3-def-2 .statement}
+#### Định nghĩa 2 {#alg-i-s3-def-2 .statement tag=057V}
 
 *Một tập con $A$ của một tập hợp $E$ được gọi là ổn định dưới một tác động $\alpha \mapsto f_\alpha$ của $\Omega$ trên $E$ nếu $f_\alpha(A) \subset A$ với mọi $\alpha \in \Omega$. Một phần tử $x$ của $E$ được gọi là bất biến dưới một phần tử $\alpha$ của $\Omega$ nếu $f_\alpha(x) = x$.*
 
 Giao của một họ các tập con ổn định của $E$ dưới một tác động đã cho là ổn định. Do đó tồn tại một tập con ổn định nhỏ nhất của $E$ chứa một tập con $X$ đã cho của $E$; nó được gọi là được *sinh* bởi $X$; nó gồm các phần tử $(f_{\alpha_1} \circ f_{\alpha_2} \circ \cdots \circ f_{\alpha_n})(x)$, trong đó $x \in X, n \geq 0, \alpha_i \in \Omega$ với mọi $i$.
 
-#### Nhận xét {#alg-i-s3-n2-rem-1 .statement}
+#### Nhận xét {#alg-i-s3-n2-rem-1 .statement tag=057W}
 
 Cho $E$ là một magma với luật được ký hiệu bởi $\tau$. Cần lưu ý rằng một tập con $A$ của $E$ ổn định dưới tác động trái của $E$ trên chính nó không nhất thiết ổn định dưới tác động phải của $E$ trên chính nó; một tập con $A$ của $E$ ổn định dưới tác động trái (tương ứng phải) của $E$ trên chính nó thì ổn định dưới luật trên $E$, nhưng điều đảo lại nói chung không đúng. Chính xác hơn, $A$ ổn định dưới luật trên $E$ khi và chỉ khi $A \tau A \subset A$ trong khi $A$ ổn định dưới tác động trái (tương ứng phải) của $E$ trên chính nó khi và chỉ khi $E \tau A \subset A$ (tương ứng $A \tau E \subset A$).
 
-#### Ví dụ {#alg-i-s3-n2-exa-1 .statement}
+#### Ví dụ {#alg-i-s3-n2-exa-1 .statement tag=057X}
 
 Lấy magma $E$ là tập $\mathbf{N}$ với phép nhân. Tập $\{1\}$ là ổn định đối với luật nội tại của $\mathbf{N}$, nhưng tập con ổn định đối với tác động của $\mathbf{N}$ trên chính nó sinh bởi $\{1\}$ là toàn bộ $\mathbf{N}$.
 
-#### Định nghĩa 3 {#alg-i-s3-def-3 .statement}
+#### Định nghĩa 3 {#alg-i-s3-def-3 .statement tag=057Y}
 
 *Cho $\alpha \mapsto f_\alpha$ là một tác động của $\Omega$ trên $E$ và $A$ là một tập con ổn định của $E$. Ánh xạ gắn với một phần tử $\alpha \in \Omega$ hạn chế của $f_\alpha$ lên $A$ (được xem như một ánh xạ từ $A$ vào chính nó) là một tác động của $\Omega$ trên $A$ được gọi là cảm sinh bởi tác động đã cho.*
 
 ### 3. TÁC ĐỘNG THƯƠNG
 
-#### Định nghĩa 4 {#alg-i-s3-def-4 .statement}
+#### Định nghĩa 4 {#alg-i-s3-def-4 .statement tag=057Z}
 
 *Cho $\alpha \mapsto f_\alpha$ là một tác động của một tập hợp $\Omega$ trên một tập hợp $E$. Một quan hệ tương đương $R$ trên $E$ được gọi là tương thích với tác động đã cho nếu, với mọi phần tử $x$ và $y$ của $E$ sao cho $x \equiv y \pmod{R}$ và mọi $\alpha \in \Omega, f_\alpha(x) \equiv f_\alpha(y) \pmod{R}$. Ánh xạ gắn với một phần tử $\alpha \in \Omega$ ánh xạ của $E/R$ vào chính nó dẫn xuất từ $f_\alpha$ bằng cách chuyển qua các thương là một tác động của $\Omega$ trên $E/R$ được gọi là thương của tác động của $\Omega$ trên $E$.*
 
@@ -125,7 +125,7 @@ Chúng ta để cho độc giả phát biểu và chứng minh các mệnh đề
 
 ### 4. TÍNH PHÂN PHỐI
 
-#### Định nghĩa 5 {#alg-i-s3-def-5 .statement}
+#### Định nghĩa 5 {#alg-i-s3-def-5 .statement tag=0580}
 
 Cho $E_1, \ldots, E_n$ và F là các tập hợp và u là một ánh xạ từ $E_1 \times \cdots \times E_n$ vào F. Cho $i \in \{1, n\}$. Giả sử $E_i$ và F được cho các cấu trúc của magma. u được gọi là phân phối đối với biến chỉ số i nếu ánh xạ bộ phận
 
@@ -144,11 +144,11 @@ $$
 
 với $i = 1, 2, \ldots, n, a_1 \in E_1, \ldots, a_{i-1} \in E_{i-1}, x_i \in E_i, x'_i \in E_i, a_{i+1} \in E_{i+1}, \ldots, a_n \in E_n$.
 
-#### Ví dụ {#alg-i-s3-n4-exa-1 .statement}
+#### Ví dụ {#alg-i-s3-n4-exa-1 .statement tag=0581}
 
 Cho E là một monôit (tương ứng nhóm) được viết theo phép nhân. Ánh xạ $(n, x) \mapsto x^n$ từ $\mathbf{N} \times E$ (tương ứng $\mathbf{Z} \times E$) vào E là phân phối đối với biến thứ nhất bởi đẳng thức $x^{m+n} = x^m x^n$ (với phép cộng là luật trên $\mathbf{N}$). Nếu E là giao hoán, ánh xạ này là phân phối đối với biến thứ hai bởi đẳng thức $(xy)^n = x^n y^n$.
 
-#### Mệnh đề 1 {#alg-i-s3-prop-1 .statement}
+#### Mệnh đề 1 {#alg-i-s3-prop-1 .statement tag=0582}
 
 Cho $E_1, E_2, \ldots, E_n$ và F là các nửa nhóm giao hoán được viết cộng tính và cho u là một ánh xạ từ $E_1 \times \cdots \times E_n$ vào F, có tính phân phối đối với tất cả các biến. Với $i = 1, 2, \ldots, n$, cho $L_i$ là một tập hợp hữu hạn không rỗng và $(x_{i,\lambda})_{\lambda \in L_i}$ là một họ các phần tử của $E_i$. Đặt $y_i = \sum_{\lambda \in L_i} x_{i,\lambda}$ với $i = 1, 2, \ldots, n$. Khi đó
 
@@ -181,13 +181,13 @@ $$
 $$
 theo công thức (7) của § 1, no. 5. (2) suy ra ngay lập tức từ (3), (4) và (5).
 
-#### Nhận xét {#alg-i-s3-n4-rem-1 .statement}
+#### Nhận xét {#alg-i-s3-n4-rem-1 .statement tag=0583}
 
 Nếu $u(a_1, \ldots, a_{i-1}, 0, a_{i+1}, \ldots, a_n) = 0$ với $i = 1, 2, \ldots, n$ và $a_j \in E_j$ ($j \neq i$), thì công thức (2) vẫn đúng cho các họ $(x_i, \lambda)_{\lambda \in L_i}$ có giá hữu hạn.
 
 Một trường hợp đặc biệt của Định nghĩa 5 là trường hợp trong đó $u$ là luật tác động liên kết với tác động của một tập hợp $\Omega$ trên một magma $E$. Nếu $u$ có tính phân phối đối với biến thứ hai, cũng nói rằng tác động của $\Omega$ trên magma $E$ là phân phối. Nói cách khác:
 
-#### Định nghĩa 6 {#alg-i-s3-def-6 .statement}
+#### Định nghĩa 6 {#alg-i-s3-def-6 .statement tag=0584}
 
 *Một tác động* $\alpha \mapsto f_\alpha$ *của một tập hợp* $\Omega$ *trên một magma* $E$ *được gọi là phân phối nếu, với mọi* $\alpha \in \Omega$, *ánh xạ* $f_\alpha$ *là một tự đồng cấu của magma* $E$.
 
@@ -229,7 +229,7 @@ $$
 
 ### 5. TÍNH PHÂN PHỐI CỦA MỘT LUẬT NỘI TẠI ĐỐI VỚI MỘT LUẬT NỘI TẠI KHÁC
 
-#### Định nghĩa 7 {#alg-i-s3-def-7 .statement}
+#### Định nghĩa 7 {#alg-i-s3-def-7 .statement tag=0585}
 
 Cho $T$ và $\perp$ là hai luật nội tại trên một tập hợp E. Luật $\perp$ được gọi là phân phối được đối với luật $T$ nếu
 
@@ -254,7 +254,7 @@ $$
 (x + y) . z = x . z + y . z
 $$
 
-#### Ví dụ {#alg-i-s3-n5-exa-1 .statement}
+#### Ví dụ {#alg-i-s3-n5-exa-1 .statement tag=0586}
 
 (1) Trong tập hợp $\mathscr{P}(E)$ các tập con của một tập hợp E, mỗi luật nội tại $\cap$ và $\cup$ đều phân phối được đối với chính nó và đối với luật kia. Điều này suy ra từ các công thức dạng
 

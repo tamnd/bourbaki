@@ -49,7 +49,7 @@ subsections:
       pdf_page: 29
 statements: 20
 exercises: 27
-content_sha256: 212243def2771767e19a59c07e95d6be7548319e426eee3b17c385dd4684451e
+content_sha256: 58f1eb6f89ce2afeeacfc62b6731300e79cd58a2c1821a7f29f1c6e2d9168f15
 ---
 
 ## § 1. DEFINITION OF LIE ALGEBRAS
@@ -84,7 +84,7 @@ Let $M$ be an algebra over $K$, $K_1$ a commutative ring with unit element and $
 
 ### 2. LIE ALGEBRAS
 
-#### Definition 1 {#lie-i-s1-def-1 .statement}
+#### Definition 1 {#lie-i-s1-def-1 .statement tag=09TJ}
 
 *An algebra g over K is called a Lie algebra over K if its multiplication (denoted by $(x, y) \mapsto [x, y]$) satisfies the identities:*
 
@@ -106,11 +106,11 @@ so that the Jacobi identity can be written:
 
 Every subalgebra and every quotient algebra of a Lie algebra is a Lie algebra. Every product of Lie algebras is a Lie algebra. If $g$ is a Lie algebra, the opposite algebra $g^0$ is a Lie algebra and the mapping $x \mapsto -x$ an isomorphism of $g$ onto $g^0$, by virtue of identity (3).
 
-#### Example 1 {#lie-i-s1-n2-exa-1 .statement}
+#### Example 1 {#lie-i-s1-n2-exa-1 .statement tag=09TK}
 
 Let $L$ be an associative algebra over $K$. The bracket $[x, y] = xy - yx$ is a bilinear function of $x$ and $y$. It is easily verified that the law of composition $(x, y) \mapsto [x, y]$ on the $K$-module $L$ makes $L$ into a Lie algebra over $K$.
 
-#### Example 2 {#lie-i-s1-n2-exa-2 .statement}
+#### Example 2 {#lie-i-s1-n2-exa-2 .statement tag=09TL}
 
 In Example 1 choose $L$ to be the associative algebra of endomorphisms of a $K$-module $E$. We obtain the *Lie algebra of endomorphisms of* $E$, denoted by $gl(E)$. (If $E = K^n$, the Lie algebra $gl(E)$ is denoted by $gl(n, K)$.)
 
@@ -118,7 +118,7 @@ Every Lie subalgebra of $gl(E)$ is a Lie algebra over $K$. In particular:
 (1) If $E$ is given a (not necessarily associative) algebra structure, the derivations of $E$ form a Lie algebra over $K$.
 (2) If $E$ admits a finite basis, the endomorphisms of $E$ of zero trace form a Lie algebra over $K$ denoted by $sl(E)$ (or $sl(n, K)$ if $E = K^n$).
 
-#### Example 3 {#lie-i-s1-n2-exa-3 .statement}
+#### Example 3 {#lie-i-s1-n2-exa-3 .statement tag=09TM}
 
 The set $M_n(K)$ of square matrices of order $n$ can be considered as a Lie algebra over K canonically isomorphic to gl(n, K). Let $(E_{ij})$ be the canonical basis of $\mathbf{M}_n(K)$ (Algebra, Chapter II, § 10, no. 3). It follows easily that:
 
@@ -137,11 +137,11 @@ The Lie subalgebra of $\mathbf{M}_n(K)$ consisting of the triangular matrices (r
 
 *Example 3. Let V be an infinitely differentiable real manifold. The differential operators with infinitely differentiable real coefficients constitute an associative algebra over $\mathbf{R}$ and hence, by Example 1, a Lie algebra $\Delta$ over $\mathbf{R}$. The bracket of two infinitely differentiable vector fields on V is an infinitely differentiable vector field and hence the infinitely differentiable vector fields on V constitute a Lie subalgebra $\mathfrak{f}$ of $\Delta$. If V is a real *Lie group*, the left invariant vector fields constitute a Lie subalgebra $g$ of $\mathfrak{f}$ called the *Lie algebra* of V. The vector space $g$ is identified with the tangent space to V at $e$ (the identity element of V). Let V' be another real Lie group, $e'$ its identity element and $g'$ its Lie algebra. Every analytic homomorphism of V into V' defines a linear mapping of the tangent space to V at $e$ into the tangent space to V' at $e'$; this mapping is a homomorphism of the Lie algebra $g$ into the Lie algebra $g'$. If V is the linear group of a finite-dimensional real vector space E there exists a canonical isomorphism of $gl(E)$ onto the Lie algebra $g$ of V, under which $g$ is identified with $gl(E)$.*
 
-#### Definition 2 {#lie-i-s1-def-2 .statement}
+#### Definition 2 {#lie-i-s1-def-2 .statement tag=09TN}
 
 *Let g be a Lie algebra and x an element of g. The linear mapping $y \mapsto [x, y]$ of g into g is called the adjoint linear mapping of x and is denoted by $\operatorname{ad}_g x$ or $\operatorname{ad} x$.*
 
-#### Proposition 1 {#lie-i-s1-prop-1 .statement}
+#### Proposition 1 {#lie-i-s1-prop-1 .statement tag=09TO}
 
 *Let g be a Lie algebra. For all $x \in g$, $\operatorname{ad} x$ is a derivation. The mapping $x \mapsto \operatorname{ad} x$ is a homomorphism of the Lie algebra g into the Lie algebra $\mathfrak{d}$ of derivations of g. If $D \in \mathfrak{d}$ and $x \in g$, $[D, \operatorname{ad} x] = \operatorname{ad}(Dx)$.
 
@@ -163,15 +163,15 @@ The mapping $\operatorname{ad} x$ is also called the *inner derivation* defined 
 
 ### 3. COMMUTATIVE LIE ALGEBRAS
 
-#### Definition 3 {#lie-i-s1-def-3 .statement}
+#### Definition 3 {#lie-i-s1-def-3 .statement tag=09TP}
 
 *Two elements x, y of a Lie algebra are said to be permutable if [x, y] = 0. g is said to be commutative if any two of its elements are permutable.*
 
-#### Example 1 {#lie-i-s1-n3-exa-1 .statement}
+#### Example 1 {#lie-i-s1-n3-exa-1 .statement tag=09TQ}
 
 Let L be an associative algebra and g the Lie algebra defined by it (no. 2, Example 1). Two elements x, y are permutable in g if and only if xy = yx in L.
 
-#### Example 2 {#lie-i-s1-n3-exa-2 .statement}
+#### Example 2 {#lie-i-s1-n3-exa-2 .statement tag=09TR}
 
 *If a real Lie group G is commutative, its Lie algebra is commutative.*
 
@@ -183,17 +183,17 @@ If g is a Lie algebra, every monogenous submodule of g is a commutative Lie suba
 
 It follows from identity (3) that in a Lie algebra g there is no distinction between left ideals and right ideals, every ideal being two-sided. We therefore speak simply of ideals.
 
-#### Example {#lie-i-s1-n4-exa-1 .statement}
+#### Example {#lie-i-s1-n4-exa-1 .statement tag=09TS}
 
 *Let G be a Lie group, g its Lie algebra and H a Lie subgroup of G. Every left invariant vector field on H defines canonically a left invariant vector field on G, whence there is a canonical injection of the Lie algebra h of H into g; h is identified with a Lie subalgebra of g under this injection. If H is normal in G, the canonical image of h in g is an ideal of g.*
 
 An ideal of g is a submodule of g which is stable under the inner derivations of g.
 
-#### Definition 4 {#lie-i-s1-def-4 .statement}
+#### Definition 4 {#lie-i-s1-def-4 .statement tag=09TT}
 
 *A submodule of g which is stable under every derivation of g is called a characteristic ideal of g.*
 
-#### Proposition 2 {#lie-i-s1-prop-2 .statement}
+#### Proposition 2 {#lie-i-s1-prop-2 .statement tag=09TU}
 
 *Let g be a Lie algebra, a an ideal (resp. a characteristic ideal) of g and b a characteristic ideal of a. Then b is an ideal (resp. a characteristic ideal) of g.*
 
@@ -203,7 +203,7 @@ Let g be a Lie algebra. If a and b are ideals of g, a + b and a ∩ b are ideals
 
 Let a and b be two submodules of g. By an abuse of notation, the submodule of g generated by the elements of the form [x, y] (x ∈ a, y ∈ b) is denoted by [a, b]. We have [a, b] = [b, a] by identity (3). If z ∈ g, [z, a], or [a, z], denotes the submodule [Kz, a] = (ad z)(a).
 
-#### Proposition 3 {#lie-i-s1-prop-3 .statement}
+#### Proposition 3 {#lie-i-s1-prop-3 .statement tag=09TV}
 
 *If a and b are ideals (resp. characteristic ideals) of g, [a, b] is an ideal (resp. a characteristic ideal) of g.*
 
@@ -225,7 +225,7 @@ The *derived series* of g is the decreasing sequence $\mathscr{D}^0g, \mathscr{D
 
 The *lower central series* of g is the decreasing sequence $\mathscr{C}^1g, \mathscr{C}^2g, \ldots$ of characteristic ideals of g defined inductively as follows: (1) $\mathscr{C}^1g = g$; (2) $\mathscr{C}^{p+1}g = [g, \mathscr{C}^pg]$. Then $\mathscr{C}^2g = \mathscr{D}g$ and $\mathscr{C}^{p+1}g \supset \mathscr{D}^pg$ for all $p$, as is immediately seen by induction on $p$.
 
-#### Proposition 4 {#lie-i-s1-prop-4 .statement}
+#### Proposition 4 {#lie-i-s1-prop-4 .statement tag=09TW}
 
 *Let g and h be two Lie algebras over K and f a homomorphism of g onto h. Then $f(\mathscr{D}^pg) = \mathscr{D}^pf, f(\mathscr{C}^pg) = \mathscr{C}^ph$.*
 
@@ -235,7 +235,7 @@ f([a, b]) = [f(a), f(b)].
 $$
 The proposition is then immediate by induction on $p$.
 
-#### Corollary {#lie-i-s1-n5-cor-1 .statement}
+#### Corollary {#lie-i-s1-n5-cor-1 .statement tag=09TX}
 
 *Let g be a Lie algebra and a an ideal of g. For the Lie algebra $g/a$ to be commutative, it is necessary and sufficient that $a \supset \mathscr{D}g$.*
 
@@ -246,7 +246,7 @@ But $\mathscr{D}(g/a)$ is, by Proposition 4, the canonical image of $\mathscr{D}
 
 Let g be a Lie algebra and P a subset of g. The *centralizer* of P in g is the set of elements of g which are permutable with those of P. This centralizer is the intersection of the kernels of the ad $y$, where $y$ runs through P; it is therefore a subalgebra of g.
 
-#### Proposition 5 {#lie-i-s1-prop-5 .statement}
+#### Proposition 5 {#lie-i-s1-prop-5 .statement tag=09TY}
 
 *Let g be a Lie algebra and a an ideal (resp. a characteristic ideal) of g. The centralizer $a'$ of a in g is an ideal (resp. a characteristic ideal) of g.*
 
@@ -263,7 +263,7 @@ The ideal $\mathscr{C}_1 g$ is the centre of $g$.
 
 ### 7. EXTENSIONS
 
-#### Definition 5 {#lie-i-s1-def-5 .statement}
+#### Definition 5 {#lie-i-s1-def-5 .statement tag=09TZ}
 
 Let $a$ and $b$ be two Lie algebras over $K$. An extension of $b$ by $a$ is a sequence:
 
@@ -297,7 +297,7 @@ is commutative (that is such that $f \circ \lambda = \lambda', \mu' \circ f = \m
 
 It follows from this that the relation just defined between two extensions of $b$ by $a$ is an equivalence relation.
 
-#### Proposition 6 {#lie-i-s1-prop-6 .statement}
+#### Proposition 6 {#lie-i-s1-prop-6 .statement tag=09U0}
 
 Let
 
@@ -313,7 +313,7 @@ be an extension of $b$ by $a$ and $n$ its kernel.
 
 The assertions of (a) are immediate. On the other hand, let ν be a homomorphism of b into g such that μ ∘ ν is the identity automorphism of b. Then ν(b) is a subalgebra of g and g is the direct sum of ν(b) and $\mu^{-1}(0) = n$ (*Algebra*, Chapter VIII, § 1, no. 1).
 
-#### Definition 6 {#lie-i-s1-def-6 .statement}
+#### Definition 6 {#lie-i-s1-def-6 .statement tag=09U1}
 
 *Let*
 
@@ -416,7 +416,7 @@ When $\phi = 0$, $g$ is the product Lie algebra of $b$ and $a$. In the general c
 
 We have therefore established the following proposition:
 
-#### Proposition 7 {#lie-i-s1-prop-7 .statement}
+#### Proposition 7 {#lie-i-s1-prop-7 .statement tag=09U2}
 
 *Let $a$ and $b$ be two Lie algebras over $K$,*
 
@@ -445,11 +445,11 @@ $$
 
 *is commutative, so that the two extensions are equivalent.*
 
-#### Example 1 {#lie-i-s1-n8-exa-1 .statement}
+#### Example 1 {#lie-i-s1-n8-exa-1 .statement tag=09U3}
 
 Let $g$ be a Lie algebra over $K$ and $D$ a derivation of $g$. Let $h$ be the *commutative* Lie algebra $K$. The mapping $\lambda \mapsto \lambda D (\lambda \in K)$ is a homomorphism of $h$ into the Lie algebra of derivations of $g$. We form the corresponding semi-direct product $t$ of $h$ by $g$. Let $x_0$ be the element $(0, 1)$ of $t$. For all $x \in g$, $Dx = [x_0, x]$.
 
-#### Example 2 {#lie-i-s1-n8-exa-2 .statement}
+#### Example 2 {#lie-i-s1-n8-exa-2 .statement tag=09U4}
 
 Let $g$ be a Lie algebra over $K$, $M$ a $K$-module and $\rho$ a homomorphism of $g$ into $\mathfrak{gl}(M)$. If $M$ is considered as a commutative Lie algebra, the Lie algebra of derivations of $M$ is $\mathfrak{gl}(M)$. We can therefore form the semi-direct product $h$ of $g$ by $M$ corresponding to $\rho$.
 

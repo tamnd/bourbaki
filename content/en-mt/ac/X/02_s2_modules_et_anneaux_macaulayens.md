@@ -41,7 +41,7 @@ subsections:
       pdf_page: 33
 statements: 46
 exercises: 11
-content_sha256: 8b7a4c97f218bdf8ceab17ff903640d19155d659d7899b3e80755d18a74672b7
+content_sha256: a467e5244615935f2b3ca927b664620c98b2ef766f467c2ed983eae10e173061
 translated_from: content/fr/ac/X/02_s2_modules_et_anneaux_macaulayens.md
 source_lang: fr
 translation_method: machine
@@ -59,17 +59,17 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 Let $A$ be a noetherian ring, $M$ a finitely generated $A$-module and $p$ a prime ideal of $A$. If $p \not\in \mathrm{Supp}(M)$, one has $M_p = 0$, hence $\mathrm{prof}_{A_p}(M_p) = +\infty$ and $\dim_{A_p}(M_p) = -\infty$. If $p \in \mathrm{Supp}(M)$, one has $0 \leq \mathrm{prof}_{A_p}(M_p) \leq \dim_{A_p}(M_p) < +\infty$ ($§ 1$, No. 4, Cor. 2 of Theorem 2).
 
-#### Definition 1 {#ac-x-s2-def-1 .statement}
+#### Definition 1 {#ac-x-s2-def-1 .statement tag=0D2C}
 
 *Let $A$ be a noetherian ring and $M$ a finitely generated $A$-module. One says that $M$ is Macaulay or is a Macaulay module if, for every maximal ideal $m \in \mathrm{Supp}(M)$, one has $\mathrm{prof}_{A_m}(M_m) = \dim_{A_m}(M_m)$.*
 
 From the above, it amounts to the same thing to say that one has $\mathrm{prof}_{A_m}(M_m) \geq \dim_{A_m}(M_m)$ for every maximal ideal $m$ of $A$. Let $A$ be a noetherian local ring; in order that a nonzero finitely generated $A$-module be Macaulay, it is necessary and sufficient that its depth be equal to its dimension.
 
-#### Example 1 {#ac-x-s2-n1-exa-1 .statement}
+#### Example 1 {#ac-x-s2-n1-exa-1 .statement tag=0D2D}
 
 Every $A$-module of finite length is Macaulay.
 
-#### Example 2 {#ac-x-s2-n1-exa-2 .statement}
+#### Example 2 {#ac-x-s2-n1-exa-2 .statement tag=0D2E}
 
 Let $M'$ be a direct factor submodule of a finitely generated Macaulay $A$-module $M$. Then $M'$ is Macaulay; in fact, for every maximal ideal $m$ of $A$, the $A_m$-module $M'_m$ is a direct factor of $M_m$ and one consequently has
 $$
@@ -77,7 +77,7 @@ $$
 $$
 by Remark 4 of $§ 1$, No. 1 and VIII, $§ 1$, No. 4, Proposition 9 c).
 
-#### Example 3 {#ac-x-s2-n1-exa-3 .statement}
+#### Example 3 {#ac-x-s2-n1-exa-3 .statement tag=0D2F}
 
 Let $M$ be a finitely generated Macaulay $A$-module and $(x_1, \ldots, x_n)$ an $M$-regular sequence of elements of $A$. Then the $A$-module $\overline{M} = M/(x_1M + \cdots + x_nM)$ is Macaulay. Let indeed $m$ be a maximal ideal of $A$ belonging to the support of $\overline{M}$; one has $x_i \in m$ for every $i$ since $x_i$ annihilates $\overline{M}$, and the canonical images of the $x_i$ in $A_m$ form an $M_m$-regular sequence of elements of $mA_m$. One consequently has ($§ 1$, No. 4, Proposition 7 and VIII, $§ 3$, No. 2, Cor. of Proposition 3) the equalities
 $$
@@ -88,11 +88,11 @@ $$
 $$
 whence our assertion.
 
-#### Example 4 {#ac-x-s2-n1-exa-4 .statement}
+#### Example 4 {#ac-x-s2-n1-exa-4 .statement tag=0D2G}
 
 Let $M$ be a finitely generated $A$-module, and let $a$ be an ideal of $A$ such that $aM = 0$. In order that the $A$-module $M$ be Macaulay, it is necessary and sufficient that it be Macaulay as an $(A/a)$-module. In fact, put $B = A/a$; let $n$ be a maximal ideal of $B$ and $m$ its inverse image in $A$; then $\dim_{A_m}(M_m) = \dim_{B_n}(M_n)$ and $\mathrm{prof}_{A_m}(M_m) = \mathrm{prof}_{B_n}(M_n)$ ($§ 1$, No. 3, cor. of prop. 4).
 
-#### Proposition 1 {#ac-x-s2-prop-1 .statement}
+#### Proposition 1 {#ac-x-s2-prop-1 .statement tag=0D2H}
 
 Let $A$ be a noetherian ring, $M$ a finitely generated $A$-module, and $p$ and $q$ prime ideals of $\mathrm{Supp}(M)$ such that $p \subset q$. Suppose that $\dim_{A_q}(M_q) = \mathrm{prof}_{A_q}(M_q)$. Then one has $\dim_{A_p}(M_p) = \mathrm{prof}_{A_p}(M_p)$ and
 $$
@@ -100,7 +100,7 @@ $$
 $$
 This follows directly from cor. 1 of prop. 13 of § 1, No. 7.
 
-#### Corollary {#ac-x-s2-n1-cor-1 .statement}
+#### Corollary {#ac-x-s2-n1-cor-1 .statement tag=0D2I}
 
 Let $A$ be a noetherian ring and $M$ a finitely generated $A$-module. The following conditions are equivalent:
 (i) the $A$-module $M$ is Macaulay;
@@ -113,13 +113,13 @@ Let $A$ be a noetherian ring and $M$ a finitely generated $A$-module. The follow
 (iii) $\Rightarrow$ (iv): it is enough to take $F = V(p)$.
 (iv) $\Rightarrow$ (i): this follows from the inequalities $\mathrm{prof}_A(p; M) \leq \mathrm{prof}(M_p) \leq \dim(M_p)$, valid for every $p \in \mathrm{Supp}(M)$ ($§ 1$, No. 5, remark 3 and No. 4, cor. 2 of th. 2).
 
-#### Remark {#ac-x-s2-n1-rem-1 .statement}
+#### Remark {#ac-x-s2-n1-rem-1 .statement tag=0D2J}
 
 Let $S$ be a multiplicative subset of $A$ and $M$ a finitely generated Macaulay $A$-module. Then $S^{-1}M$ is a Macaulay $S^{-1}A$-module. In fact, let $q \in \mathrm{Spec}(S^{-1}A)$; let $i_A^S : A \to S^{-1}A$ denote the canonical homomorphism and put $p = (i_A^S)^{-1}(q)$. The ring $(S^{-1}A)_q$ is identified with $A_p$ (II, § 2, No. 5, prop. 11), and the $A_p$-module $(S^{-1}M)_q$ with the $A_p$-module $M_p$ (II, § 2, No. 7, prop. 20), which is Macaulay by the corollary.
 
 ### 2. Support of a Macaulay module
 
-#### Proposition 2 {#ac-x-s2-prop-2 .statement}
+#### Proposition 2 {#ac-x-s2-prop-2 .statement tag=0D2K}
 
 Let $A$ be a noetherian ring and $M$ a finitely generated Macaulay $A$-module.
 a) The $A$-module $M$ has no embedded associated prime ideals.\footnote{Recall (cf. IV, § 2, No. 3, remark) that an associated prime ideal of $M$ is said to be embedded if it is not a minimal element of $\mathrm{Supp}(M)$. Thus to say that $M$ has no embedded associated prime ideals means that the associated prime ideals of $M$ are the minimal elements of $\mathrm{Supp}(M)$.}
@@ -156,11 +156,11 @@ d) By b), we have $\mathrm{codim}(Y, X_1) = \mathrm{codim}(Y, \mathrm{Supp}(M)) 
 
 In particular, if there exists a finitely generated Macaulay $A$-module $M$, with support equal to $\mathrm{Spec}(A)$, the ring $A$ is catenary and consequently every ring of fractions or every quotient ring of $A$ is catenary (VIII, $\S$ 1, No. 3, remark 2).
 
-#### Remark 1 {#ac-x-s2-n2-rem-1 .statement}
+#### Remark 1 {#ac-x-s2-n2-rem-1 .statement tag=0D2L}
 
 Under the hypotheses of Prop. 2, it may happen that two irreducible components $X_1$ and $X_2$ of $\mathrm{Supp}(M)$ have an intersection $Y$ reduced to a point and that one has $\dim X_1 \neq \dim X_2$ and $\dim X_2 \neq \mathrm{codim}(Y, X_2)$ (cf. exercise 4). However, this cannot happen when the ring $A$ is local, as is shown by the following corollary.
 
-#### Corollary {#ac-x-s2-n2-cor-1 .statement}
+#### Corollary {#ac-x-s2-n2-cor-1 .statement tag=0D2M}
 
 Let $A$ be a noetherian local ring and $M$ a nonzero finitely generated Macaulay $A$-module.
 
@@ -190,13 +190,13 @@ c) This is a consequence of b).
 
 d) One has $\operatorname{prof}_A(J; M) = \operatorname{codim}(\operatorname{Supp}(M) \cap V(J), \operatorname{Supp}(M))$ by the cor. to Prop. 1 of No. 1. It then suffices to apply b) with $X = \operatorname{Supp}(M) \cap V(J) = \operatorname{Supp}(M/JM)$ (II, § 4, No. 4, cor. to Prop. 18).
 
-#### Remark 2 {#ac-x-s2-n2-rem-2 .statement}
+#### Remark 2 {#ac-x-s2-n2-rem-2 .statement tag=0D2N}
 
 Let M be a finitely generated Macaulay A-module, and $p$ an element of $\operatorname{Supp}(M)$. In view of Theorem 2 of § 1, No. 4, one has $\operatorname{prof}_A(p; M) < +\infty$, and there exists an M-regular sequence of length $\operatorname{prof}_A(p; M)$ consisting of elements of $p$. Let J denote the ideal of A generated by such a sequence; then the A-module $M/JM$ is Macaulay (No. 1, example 3) and $p$ is a minimal element of its support. In fact, $p$ contains J and therefore belong to the support of $M/JM$ (II, § 4, No. 4, cor. to Prop. 18); by Corollary 1 to Theorem 2 of § 1, No. 4, the ideal $p$ is contained in an element of $\operatorname{Ass}(M/JM)$, but every prime ideal associated with a finitely generated Macaulay module is a minimal element of its support (Prop. 2).
 
 ### 3. Macaulay modules over a local ring
 
-#### Proposition 3 {#ac-x-s2-prop-3 .statement}
+#### Proposition 3 {#ac-x-s2-prop-3 .statement tag=0D2O}
 
 Let A be a noetherian local ring, M a nonzero finitely generated A-module, and d the dimension of M. The following conditions are equivalent:
 
@@ -219,7 +219,7 @@ $$
 
 In the rest of this number we shall say that a finitely generated module M over a noetherian local ring A is pure if, for every prime ideal p associated with M, one has dim(A/p) = dim(M). This also means that M has no embedded associated prime ideals and that the irreducible components of the support of M all have the same dimension. Every Macaulay module over a noetherian local ring is pure (No. 2, Prop. 2 and its corollary).
 
-#### Lemma 1 {#ac-x-s2-lem-1 .statement}
+#### Lemma 1 {#ac-x-s2-lem-1 .statement tag=0D2P}
 
 — Let A be a noetherian local ring, M a finitely generated and pure A-module, and x an element of mA. The following conditions are equivalent:
 
@@ -230,7 +230,7 @@ One may suppose M nonzero. Assertion (i) is equivalent to the fact that x belong
 
 Let A be a noetherian local ring and M a nonzero finitely generated A-module. Recall (VIII, § 3, No. 2) that a sequence (x₁, ..., x_r) of elements of mA is said to be secant for M if one has dim(M/(x₁M + ... + x_rM)) = dim(M) − r.
 
-#### Proposition 4 {#ac-x-s2-prop-4 .statement}
+#### Proposition 4 {#ac-x-s2-prop-4 .statement tag=0D2Q}
 
 Let A be a noetherian local ring, M a nonzero finitely generated A-module, and (x₁, ..., x_r) a sequence of elements of mA secant for M. The following conditions are equivalent:
 
@@ -250,7 +250,7 @@ $$
 
 Suppose the A-module M Macaulay, and prove (ii) by induction on r. The assertion is obvious if r = 0. If r ≥ 1, the A-module N = M/(x₁M + ... + x_{r−1}M) is Macaulay by the induction hypothesis, and one has dim(N/x_rN) = dim(N) − 1 since the sequence (x₁, ..., x_r) is secant; the homothety (x_r)_N is therefore injective (Lemma 1), and N/x_rN is Macaulay (No. 1, Example 3), whence (ii).
 
-#### Theorem 1 {#ac-x-s2-thm-1 .statement}
+#### Theorem 1 {#ac-x-s2-thm-1 .statement tag=0D2R}
 
 Let A be a noetherian local ring, M a nonzero finitely generated A-module, d the dimension of M, x = (x₁, ..., x_d) a sequence of elements of mA secant for M, and J the ideal generated by it. The following conditions are equivalent:
 
@@ -273,7 +273,7 @@ The equivalence of (ii) and (iii) follows from A, X, p. 160, Cor. 1 to Th. 1. Si
 
 Let $A$ be a noetherian ring, $M$ a finitely generated A-module, and $S$ a subset of $A$. In accordance with the conventions of Chapter VIII, we shall denote by $SM$ the submodule $\sum_{s \in S} sM$ of $M$, and by $\mathscr{G}$ the ideal of $A$ generated by $S$.
 
-#### Lemma 2 {#ac-x-s2-lem-2 .statement}
+#### Lemma 2 {#ac-x-s2-lem-2 .statement tag=0D2S}
 
 Let $\overline{\mathscr{G}}$ be the image of $\mathscr{G}$ in $A/\mathrm{Ann}(M)$. One has
 $$
@@ -288,18 +288,18 @@ Let us denote by $\alpha$ the annihilator of $M$. By the cor. to Prop. 18 of II,
 
 Suppose $SM \neq M$; the inequality $\mathrm{ht}(\overline{\mathscr{G}}) \leq \mathrm{Card}(S)$ is obvious when $S$ is infinite, and follows from Prop. 4 b) of VIII, § 3, No. 3 when $S$ is finite.
 
-#### Definition 2 {#ac-x-s2-def-2 .statement}
+#### Definition 2 {#ac-x-s2-def-2 .statement tag=0D2T}
 
 Let $A$ be a noetherian ring, $M$ a finitely generated A-module, and $S$ a finite subset of $A$. One says that $S$ is strongly secant for $M$ if one has
 $$
 \mathrm{Card}(S) \leq \mathrm{codim}(\mathrm{Supp}(M/SM), \mathrm{Supp}(M)) .
 $$
 
-#### Remark 1 {#ac-x-s2-n4-rem-1 .statement}
+#### Remark 1 {#ac-x-s2-n4-rem-1 .statement tag=0D2U}
 
 Every finite subset S of A such that SM = M is strongly secant for M. When SM ≠ M, it follows from lemma 2 that, for S to be strongly secant for M, it is necessary and sufficient that one have Card(S) = codim(Supp(M/SM), Supp(M)), or again ht($\overline{\mathscr{G}}$) = Card(S).
 
-#### Remark 2 {#ac-x-s2-n4-rem-2 .statement}
+#### Remark 2 {#ac-x-s2-n4-rem-2 .statement tag=0D2V}
 
 If the ring A is local and the nonzero module M, every subset S of $m_A$ strongly secant for M is secant for M. In fact, since the $A$-module M/SM is nonzero, one has
 
@@ -309,7 +309,7 @@ $$
 
 (VIII, § 1, No. 2, Prop. 3 a)), whence our assertion.
 
-#### Proposition 5 {#ac-x-s2-prop-5 .statement}
+#### Proposition 5 {#ac-x-s2-prop-5 .statement tag=0D2W}
 
 Let A be a noetherian ring, M a finitely generated A-module, and S a finite subset of A. The following conditions are equivalent:
 
@@ -338,13 +338,13 @@ $$
 
 which implies (i) by passing to the greatest lower bound.
 
-#### Corollary {#ac-x-s2-n4-cor-1 .statement}
+#### Corollary {#ac-x-s2-n4-cor-1 .statement tag=0D2X}
 
 Let A be a noetherian ring and M a finitely generated A-module. Every M-regular sequence is strongly secant for M.
 
 Let x be an M-regular sequence, and J the ideal of A generated by it. For every prime ideal $p \in \operatorname{Supp}(M/JM)$, the image of x in $A_p$ is an $M_p$-regular sequence of elements of $pA_p$, hence a secant sequence for $M_p$ (VIII, § 3, No. 2, cor. to Prop. 3).
 
-#### Proposition 6 {#ac-x-s2-prop-6 .statement}
+#### Proposition 6 {#ac-x-s2-prop-6 .statement tag=0D2Y}
 
 Let A be a noetherian ring, M a finitely generated Macaulay A-module, and S a finite subset of A strongly secant for M. Then the A-module M/SM is Macaulay.
 
@@ -366,39 +366,39 @@ For every maximal ideal $m \in \mathrm{Supp}(M/SM)$, the image of S in $A_m$ is 
 
 ### 5. Macaulay Rings
 
-#### Definition 3 {#ac-x-s2-def-3 .statement}
+#### Definition 3 {#ac-x-s2-def-3 .statement tag=0D2Z}
 
 *One says that a ring $A$ is Macaulay, or is a Macaulay ring, if it is noetherian and the A-module $A$ is Macaulay.*
 
-#### Example 1 {#ac-x-s2-n5-exa-1 .statement}
+#### Example 1 {#ac-x-s2-n5-exa-1 .statement tag=0D30}
 
 Every artinian ring is a Macaulay ring (No. 1, Example 1).
 
-#### Example 2 {#ac-x-s2-n5-exa-2 .statement}
+#### Example 2 {#ac-x-s2-n5-exa-2 .statement tag=0D31}
 
 A Macaulay ring has no embedded associated prime ideals (No. 2, Prop. 2). Conversely, let $A$ be a noetherian ring of dimension $\leqslant 1$ which has no embedded associated prime ideals; for every nonempty finite subset strongly secant S of A, the A-module $A/SA$ is of dimension $\leqslant 0$, hence Macaulay (No. 1, Example 1); hence A is a Macaulay ring (No. 4, Theorem 2). In particular a reduced noetherian ring of dimension $\leqslant 1$ is a Macaulay ring.
 
-#### Example 3 {#ac-x-s2-n5-exa-3 .statement}
+#### Example 3 {#ac-x-s2-n5-exa-3 .statement tag=0D32}
 
 A normal noetherian ring of dimension $\leqslant 2$ is a Macaulay ring (§ 1, No. 10, text preceding Theorem 4). Conversely, let $A$ be a Macaulay ring whose local ring $A_p$ at every prime ideal $p$ of height $\leqslant 1$ is integrally closed; then A is normal (§ 1, No. 10, Theorem 4).
 
-#### Example 4 {#ac-x-s2-n5-exa-4 .statement}
+#### Example 4 {#ac-x-s2-n5-exa-4 .statement tag=0D33}
 
 If $A$ is a Macaulay ring, the same is true of $S^{-1}A$ for every multiplicative subset $S$ of $A$ (No. 1, Remark). Conversely, if the ring $A_m$ is a Macaulay ring for every maximal ideal $m$ of $A$, then the ring $A$ is Macaulay (No. 1, Def. 1).
 
-#### Example 5 {#ac-x-s2-n5-exa-5 .statement}
+#### Example 5 {#ac-x-s2-n5-exa-5 .statement tag=0D34}
 
 Let $A$ be a noetherian ring and $J$ an ideal of $A$. In order that $A/J$ be a Macaulay ring, it is necessary and sufficient that it be a Macaulay $A$-module (No. 1, Example 4).
 
-#### Example 6 {#ac-x-s2-n5-exa-6 .statement}
+#### Example 6 {#ac-x-s2-n5-exa-6 .statement tag=0D35}
 
 Let $A$ be a noetherian local ring and $J$ an ideal of $A$ generated by an $A$-regular sequence. In order that $A/J$ be a Macaulay ring, it is necessary and sufficient that $A$ be one (Example 5 and Prop. 4 of No. 3).
 
-#### Example 7 {#ac-x-s2-n5-exa-7 .statement}
+#### Example 7 {#ac-x-s2-n5-exa-7 .statement tag=0D36}
 
 For a noetherian local ring $A$ to be a Macaulay ring, it is necessary and sufficient that it possess an ideal of definition generated by an $A$-regular sequence: this follows from Prop. 3 of No. 3, and from the fact that an $A$-regular sequence of elements of $m_A$ generates an ideal of definition if and only if it is of length $\dim(A)$ (VIII, § 3, No. 2, Th. 1 and cor. to Prop. 3). In particular, every regular noetherian local ring is a Macaulay ring (VIII, § 5, No. 2, Th. 1). More generally, the quotient of a regular noetherian local ring $A$ by an ideal generated by an $A$-regular sequence is a Macaulay ring (Example 6).
 
-#### Proposition 7 {#ac-x-s2-prop-7 .statement}
+#### Proposition 7 {#ac-x-s2-prop-7 .statement tag=0D37}
 
 Let $A$ be a noetherian ring. The following conditions are equivalent:
 
@@ -424,13 +424,13 @@ The equivalence of (i), (v) and (v’) follows from Th. 1 of No. 3, and that of 
 
 ### 6. Macaulay modules and finite algebras
 
-#### Remark {#ac-x-s2-n6-rem-1 .statement}
+#### Remark {#ac-x-s2-n6-rem-1 .statement tag=0D38}
 
 Let $\rho : A \to B$ be a homomorphism of rings, and let $p \in \mathrm{Spec}(A)$. Let us denote by $\overline{B}$ the ring $\kappa(p) \otimes_A B$. It may be identified with $S^{-1}B/p(S^{-1}B)$, where $S$ is the multiplicative subset $\rho(A - p)$ of $B$; the prime ideals of $\overline{B}$ are therefore the ideals $q\overline{B}$, where $q$ is a prime ideal of $B$ containing $pB$ and not meeting $S$, in other words a prime ideal of $B$ lying over $p$. For such an ideal $q$, one has $S \subset B - q$, hence the local ring of $\overline{B}$ at $q\overline{B}$ may be identified with $B_q/pB_q$, that is to say again with $\kappa(p) \otimes_A B_q$.
 
 Analogously, if $N$ is a $B$-module, the $\overline{B}_{q\overline{B}}$-module $(\kappa(p) \otimes_A N)_{q\overline{B}}$ may be identified with $\kappa(p) \otimes_A N_q$. Suppose moreover that the $B$-module $N$ is finitely generated; by Nakayama's lemma, the condition $\kappa(p) \otimes_A N_q = 0$ is equivalent to $N_q = 0$. Thus the support of the $\overline{B}$-module $\kappa(p) \otimes_A N$ consists of the ideals $q\overline{B}$, where $q$ runs through the prime ideals of $\mathrm{Supp}_B(N)$ lying over $p$. In particular, in order that the module $\kappa(p) \otimes_A N$ be nonzero, it is necessary and sufficient that there exist a prime ideal of $\mathrm{Supp}_B(N)$ lying over $p$.
 
-#### Proposition 8 {#ac-x-s2-prop-8 .statement}
+#### Proposition 8 {#ac-x-s2-prop-8 .statement tag=0D39}
 
 Let $\rho : A \to B$ be a homomorphism of Noetherian rings and let $N$ be a $B$-module which is a finitely generated $A$-module. In order that the $A$-module $N$ be Macaulay, it is necessary and sufficient that the $B$-module $N$ be Macaulay and that, for every pair $(n, n')$ of maximal ideals of $\mathrm{Supp}_B(N)$ such that $\rho^{-1}(n) = \rho^{-1}(n')$, one has $\dim_{B_n}(N_n) = \dim_{B'_n}(N'_n)$.
 
@@ -450,19 +450,19 @@ $$
 
 (VIII, § 2, No. 3, th. 1 and § 1, No. 4, prop. 9). Since one has $\mathrm{prof}_{B_q}(N_q) \leq \dim_{B_q}(N_q)$ for every $q \in f^{-1}(m)$, the proposition follows from these equalities.
 
-#### Corollary 1 {#ac-x-s2-prop-8-cor-1 .statement}
+#### Corollary 1 {#ac-x-s2-prop-8-cor-1 .statement tag=0D3A}
 
 Let $\rho : A \to B$ be a homomorphism of Noetherian rings. If $B$ is a finite $A$-algebra and a Macaulay $A$-module, it is a Macaulay ring. If moreover $\rho$ is injective, one has $\mathrm{ht}(aB) = \mathrm{ht}(a)$ for every ideal $a$ of $A$, and $\mathrm{ht}(b) = \mathrm{ht}(\rho^{-1}(b))$ for every ideal $b$ of $B$.
 
 The first assertion results from Prop. 8. Suppose $\rho$ injective. Let $a$ be an ideal of $A$. We have $\mathrm{ht}(a) = \mathrm{prof}_A(a; B)$ since the $A$-module $B$ is Macaulay, with support equal to $\mathrm{Spec}(A)$ (No. 1, corollary to Prop. 1), $\mathrm{ht}(aB) = \mathrm{prof}_B(aB; B)$ (*loc. cit.*) and $\mathrm{prof}_A(a; B) = \mathrm{prof}_B(aB; B)$ ($§ 1$, No. 3, Prop. 4), whence $\mathrm{ht}(aB) = \mathrm{ht}(a)$. Let $b$ be an ideal of $B$. From the preceding, we have $\mathrm{ht}(\rho^{-1}(b)) = \mathrm{ht}(\rho^{-1}(b)B)$. But $\rho^{-1}(b)B$ is contained in $b$, hence of height less than $\mathrm{ht}(b)$, and we have $\mathrm{ht}(b) \leq \mathrm{ht}(\rho^{-1}(b))$ by VIII, $§ 2$, No. 3, Theorem 1, b).
 
-#### Corollary 2 {#ac-x-s2-prop-8-cor-2 .statement}
+#### Corollary 2 {#ac-x-s2-prop-8-cor-2 .statement tag=0D3B}
 
 Let $A$ be an integrally closed noetherian ring and $B$ a ring containing $A$. Suppose that $B$ is a torsion-free $A$-module, of finite type. If $B$ is a Macaulay ring, the $A$-module $B$ is Macaulay.
 
 In fact, two prime ideals of $B$ lying over the same ideal of $A$ have the same height (VIII, $§ 2$, No. 3, Theorem 2). One can therefore apply Prop. 8 with $N = B$.
 
-#### Corollary 3 {#ac-x-s2-prop-8-cor-3 .statement}
+#### Corollary 3 {#ac-x-s2-prop-8-cor-3 .statement tag=0D3C}
 
 Let $A$ be an integrally closed ring, $K$ its field of fractions, $L$ a finite $K$-algebra such that $[L : K] 1_A$ is invertible in $A$, and $B$ a sub-$A$-algebra of $L$, finite over $A$.
 
@@ -478,7 +478,7 @@ By Proposition 4 of $§ 1$, No. 3, we have $\mathrm{prof}_A(J; B) = \mathrm{prof
 
 If the ring $B$ is noetherian, the same is true of $A$: in fact, by a) we have $aB \cap A = a$ for every ideal $a$ of $A$; thus every increasing sequence $(a_n)_{n \in \mathbf{N}}$ of ideals of $A$ is stationary since the sequence $(a_nB)_{n \in \mathbf{N}}$ is stationary. Under the hypotheses of c), the $A$-module $B$ is Macaulay (Corollary 2), and the same is true of the $A$-module $A$ (No. 1, Example 2).
 
-#### Example {#ac-x-s2-n6-exa-1 .statement}
+#### Example {#ac-x-s2-n6-exa-1 .statement tag=0D3D}
 
 Corollary 3 applies in particular in the following two situations:
 
@@ -490,7 +490,7 @@ In particular, if B is a Macaulay ring, the same is true of A.
 
 ### 7. Macaulay Modules and Flat Algebras
 
-#### Proposition 9 {#ac-x-s2-prop-9 .statement}
+#### Proposition 9 {#ac-x-s2-prop-9 .statement tag=0D3E}
 
 Let ρ : A → B be a homomorphism of noetherian rings, M a finitely generated A-module and N a finitely generated B-module, flat over A. Denote by $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(A)$ the mapping associated with ρ. The following conditions are equivalent:
 
@@ -520,23 +520,23 @@ The implication (ii) ⇒ (iii) is clear; let us prove that (i) implies (ii). Sup
 
 If moreover N is faithfully flat over A, we have κ(p) ⊗_A N ≠ 0 for every p ∈ Spec(A), whence a_p(Supp_B(N)) = Spec(A) (No. 6, remark), so that (ii) implies that M is a Macaulay module.
 
-#### Corollary 1 {#ac-x-s2-prop-9-cor-1 .statement}
+#### Corollary 1 {#ac-x-s2-prop-9-cor-1 .statement tag=0D3F}
 
 Let ρ : Λ → B be a local homomorphism of noetherian local rings, M a nonzero finitely generated A-module and N a nonzero finitely generated B-module which is a flat A-module. In order that the B-module M ⊗_A N be a Macaulay module, it is necessary and sufficient that the A-module M be a Macaulay module and that the B/m_A B-module N/m_A N be a Macaulay module.
 
 In fact, N is a faithfully flat A-module since N/m_A N is nonzero (I, § 3, No. 1, definition 1).
 
-#### Corollary 2 {#ac-x-s2-prop-9-cor-2 .statement}
+#### Corollary 2 {#ac-x-s2-prop-9-cor-2 .statement tag=0D3G}
 
 Let ρ : A → B be a homomorphism of noetherian rings making B into a faithfully flat A-module and let M be a finitely generated A-module. In order that the B-module M ⊗_A B be a Macaulay module, it is necessary and sufficient that the A-module M be a Macaulay module and that κ(p) ⊗_Λ B be a Macaulay ring for every p ∈ Supp(M).
 
-#### Corollary 3 {#ac-x-s2-prop-9-cor-3 .statement}
+#### Corollary 3 {#ac-x-s2-prop-9-cor-3 .statement tag=0D3H}
 
 Let A be a noetherian ring, B a finite flat Λ-algebra, M a finitely generated Macaulay A-module. Then the B-module M ⊗_A B is a Macaulay module.
 
 In fact, for every p ∈ Spec(A), the ring κ(p) ⊗_Λ B is a finite κ(p)-algebra, hence is a Macaulay ring (No. 5, example 1), and we apply prop. 9.
 
-#### Corollary 4 {#ac-x-s2-prop-9-cor-4 .statement}
+#### Corollary 4 {#ac-x-s2-prop-9-cor-4 .statement tag=0D3I}
 
 Let A be a noetherian ring, J an ideal of A and M a finitely generated A-module. Denote by Ā and Ĝ the separated completions of A and M for the J-adic topology, and by S the multiplicative subset 1 + J of Λ. Consider the following conditions:
 
@@ -556,7 +556,7 @@ It is clear that (v) implies (iv) and that (iv) implies (i).
 
 (ii) $\Rightarrow$ (v) : The $\widehat{A}$-module $\widehat{M}$ is isomorphic to $M \otimes_A \widehat{A}$ (III, § 3, No. 4, th. 3); if it is a Macaulay module, it follows from prop. 9, (i) $\Rightarrow$ (ii) that $\kappa(p) \otimes_A \widehat{A}$ is a Macaulay ring for every $p \in \mathrm{Supp}(M)$, and that the $A$-module $M$ is a Macaulay module.
 
-#### Proposition 10 {#ac-x-s2-prop-10 .statement}
+#### Proposition 10 {#ac-x-s2-prop-10 .statement tag=0D3J}
 
 *Let $\rho : A \to B$ be a homomorphism of noetherian rings making $B$ into a flat $A$-module. The following conditions are equivalent:*
 
@@ -568,17 +568,17 @@ It is clear that (v) implies (iv) and that (iv) implies (i).
 
 This is the special case $M = A$, $N = B$ of prop. 9.
 
-#### Corollary 1 {#ac-x-s2-prop-10-cor-1 .statement}
+#### Corollary 1 {#ac-x-s2-prop-10-cor-1 .statement tag=0D3K}
 
 *Every finite flat algebra over a Macaulay ring is a Macaulay ring.*
 
-#### Corollary 2 {#ac-x-s2-prop-10-cor-2 .statement}
+#### Corollary 2 {#ac-x-s2-prop-10-cor-2 .statement tag=0D3L}
 
 *Let $A$ be a Macaulay ring and $n$ a positive integer; then $A[X_1, \ldots, X_n]$ and $A[[X_1, \ldots, X_n]]$ are Macaulay rings.*
 
 It is enough to treat the case $n = 1$. The ring $A[T]$ is noetherian (A, VIII, § 1, No. 4, cor. 1), and, for every field $k$, the ring $k[T]$ is a Macaulay ring (No. 5, example 2); consequently, the ring $A[T]$ is a Macaulay ring (prop. 10) and the ring $A[[T]]$ is a Macaulay ring (cor. 4 of prop. 9).
 
-#### Corollary 3 {#ac-x-s2-prop-10-cor-3 .statement}
+#### Corollary 3 {#ac-x-s2-prop-10-cor-3 .statement tag=0D3M}
 
 *Every algebra of finite type over a noetherian Macaulay ring is catenary.*
 

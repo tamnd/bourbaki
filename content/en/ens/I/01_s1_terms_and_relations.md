@@ -30,7 +30,7 @@ subsections:
       pdf_page: 28
 statements: 5
 exercises: 6
-content_sha256: 61e68e051b5a7487b41eb0ce12906897bb980d7a082ba6f7156b2efd9c15ed66
+content_sha256: cd4507767925ae07bcbde55aafd18fbe43b41682f9a57932503a95e444fb0094
 ---
 
 ## 1. TERMS AND RELATIONS
@@ -178,7 +178,7 @@ Some of the specific signs of a theory are called *relational*, and the others a
 
 ¶ The assemblies of the first species (resp. of the second species) which appear in the formative constructions of $\mathscr{T}$ are called terms (resp. relations) in $\mathscr{T}$.
 
-#### Example {#ens-i-s1-n3-exa-1 .statement}
+#### Example {#ens-i-s1-n3-exa-1 .statement tag=077Q}
 
 *In the theory of sets, in which $\in$ is a relational sign of weight 2, the following sequence of assemblies is a formative construction:*
 
@@ -198,11 +198,13 @@ $$
 
 Hence the assembly given as an example in no. 1 is a term in the theory of sets.*
 
-#### Remark {#ens-i-s1-n3-rem-1 .statement}
+#### Remark {#ens-i-s1-n3-rem-1 .statement tag=077R}
 
 Intuitively, terms are assemblies which represent objects, and relations are assemblies which represent assertions which can be made about these objects. Condition (a) means that the letters represent objects. Condition (b) means that if $B$ is an assertion, then $\neg B$, called the negation of $B$, is an assertion (which is read : not $B$). Condition (c) means that if $B$ and $C$ are assertions, $\vee BC$, which is called the disjunction of $B$ and $C$, is an assertion (which is read : either $B$ or $C$); thus $\neg\to BC$ is an assertion (in words : “either not $B$, or $C$”, or “$B$ implies $C$”). Condition (d) means that if $B$ is an assertion and $x$ a letter, then $\tau_x(B)$ is an object. Let us consider the assertion $B$ as expressing a property of the object $X$; then, if there exists an object which has the property in question, $\tau_x(B)$ represents a distinguished object which has this property; if not, $\tau_x(B)$ represents an object about which nothing can be said. Finally, condition (e) means that if $A_1,A_2,\ldots,A_n$ are objects, and if $s$ is a relational (resp. substantific) sign of weight $n$, then $sA_1A_2\ldots A_n$ is an assertion about the objects $A_1,\ldots,A_n$ (resp. an object depending on $A_1,\ldots,A_n$).
 
-*Examples.* The symbols $\varnothing$, $\mathbf{N}$, “the real line”, “the $\Gamma$ function”, $f\circ g$ represent terms. The symbols $\pi=\sqrt{2}+\sqrt{3}$, $1\in2$, “every finite division ring is a field”, “the zeros of $\zeta(s)$ other than $-2$, $-4$, $-6$, ... lie on the line $\mathfrak{R}(s)=1/2$” represent relations. The symbol “3 and 4” represents neither a term nor a relation.
+#### Examples {#ens-i-s1-n3-exa-2 .statement tag=0E3Y}
+
+The symbols $\varnothing$, $\mathbf{N}$, “the real line”, “the $\Gamma$ function”, $f\circ g$ represent terms. The symbols $\pi=\sqrt{2}+\sqrt{3}$, $1\in2$, “every finite division ring is a field”, “the zeros of $\zeta(s)$ other than $-2$, $-4$, $-6$, ... lie on the line $\mathfrak{R}(s)=1/2$” represent relations. The symbol “3 and 4” represents neither a term nor a relation.
 
 The initial sign of a relation is $\vee$, $\neg$, or a relational sign. The initial sign of a term is either $\tau$ or a substantific sign, provided that the term does not consist of a single letter. The latter assertion follows from the fact that a term is an assembly of the first species. If $A$ is a relation, then $A$ features in a formative construction, is not a letter, and does not begin with $\tau$, so that three cases are possible : (1) $A$ is preceded by an assembly $B$ such that $A$ is $\neg B$; (2) $A$ is preceded by two assemblies $B$ and $C$ such that $A$ is $\vee BC$; (3) $A$ is preceded by assemblies $A_1$, $A_2$, ... $A_n$ such that $A$ is $sA_1A_2 ... A_n$, $s$ being a relational sign.
 

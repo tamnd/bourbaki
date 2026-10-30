@@ -25,7 +25,7 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 10
-content_sha256: 51d0d1c356be4ee3754a76de46725b4adc93a52b5bed90bee9ecb907621db693
+content_sha256: f97824efc1e49c2f3f557cc487ce4e195405a030102d3750617c5a288f2ba3cd
 ---
 
 ## 5. THE TOPOLOGY DEFINED BY A VALUATION
@@ -34,7 +34,7 @@ content_sha256: 51d0d1c356be4ee3754a76de46725b4adc93a52b5bed90bee9ecb907621db693
 
 Let K be a not necessarily commutative field, v a valuation on K and G the totally ordered group $v(K^*)$. For all $a \in G$ let V, be the set of $x \in K$ such that $v(x) > a$; this set is an additive subgroup of K (§ 3, no. 1). There exists a unique topology $\mathscr{T}_v$ on K for which the V, form a fundamental system of neighbourhoods of 0 (*General Topology*, Chapter III, § 1, no. 2, Example). For v to be improper, it is necessary and sufficient that $\mathscr{T}_v$ be the discrete topology.
 
-#### Lemma 1 {#ac-vi-s5-lem-1 .statement}
+#### Lemma 1 {#ac-vi-s5-lem-1 .statement tag=04UQ}
 
 *Let $x \in K^*, y \in K^*$ and $\alpha \in G$. If*
 $$
@@ -51,7 +51,7 @@ $$
 v(x^{-1} - y^{-1}) > a + 2v(y) - 2v(y) = a.
 $$
 
-#### Proposition 1 {#ac-vi-s5-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s5-prop-1 .statement tag=04UR}
 
 *The topology $\mathscr{T}_v$ is Hausdorff and compatible with the field structure on K. The mapping $v : K^* \to G$ is continuous if G is given the discrete topology.*
 
@@ -63,7 +63,7 @@ The $V_v$ and the $V'_\alpha$ are open additive subgroups and therefore closed i
 
 Let $A$ be the ring of $u$. If $v$ is discrete, Proposition 8 of $§ 3$, no. 6 shows that the topology induced by $\mathscr{T}_v$ on $A$ is the $m(A)$-adic topology. This is not so in general (Exercise 4).
 
-#### Proposition 2 {#ac-vi-s5-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s5-prop-2 .statement tag=04US}
 
 *Let $K$ be a not necessarily commutative field, $v$ a non-improper valuation on $K$, $A$ the ring of $v$ and $m$ the ideal of $v$. For $K$ with the topology $\mathscr{T}_v$ to be locally compact, it is necessary and sufficient that the following conditions be fulfilled:*
 
@@ -83,7 +83,7 @@ is finite; as $v(K^*)$ is totally ordered, $P$ has a least element $y$. Then for
 
 Conversely, suppose conditions (i), (ii), (iii) hold. We may restrict our attention to the case where $v$ is normed; let $u$ be a uniformizer for $v$. Then $\kappa(A) = A/Au$ and hence $A/Au$ is finite. As $x \mapsto xu^n$ defines by taking quotients an isomorphism of the additive group $A/Au$ onto $Au^n/Au^{n+1}$, $A/Au^j$ is finite for all $j \geq 0$. As $A$ is closed in $K$, it is complete and hence isomorphic to the inverse limit of the $A/Au^j$ (General Topology, Chapter 111, § 7, no. 3, Proposition 2) and therefore compact. Since $A$ is open in $K$, it is therefore seen that $K$ is locally compact.
 
-#### Remark {#ac-vi-s5-n1-rem-1 .statement}
+#### Remark {#ac-vi-s5-n1-rem-1 .statement tag=04UT}
 
 Note that it is sufficient in this proof to suppose that $A$ is complete.
 
@@ -93,25 +93,25 @@ We shall see in § 9 that a field $K$ fulfilling the conditions of Proposition 2
 
 Throughout let $K$ be a (not necessarily commutative) field, $v$ a valuation on $K$ and $G$ its order group. $K$ is given the topology $\mathscr{T}_v$.
 
-#### Proposition 3 {#ac-vi-s5-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s5-prop-3 .statement tag=04UU}
 
 Let $E$ be a left topological vector space over $K$ which is Hausdorff and of dimension 1. Suppose that $v$ is not improper. For all $x_0 \neq 0$ in $E$, the mapping $a \mapsto ax_0$ of $K_s$ onto $E$ is a topological isomorphism.
 
 This mapping is a continuous algebraic isomorphism. It is sufficient to show that it is bicontinuous. Let $\alpha \in G$. We need to show that there exists a neighbourhood $V$ of 0 in $E$ such that the relation $ax_0 \in V$ implies $v(a) > a$. Let $a, \in K^*$ be such that $v(a_0) = a$. As $E$ is Hausdorff, there exists a neighbourhood $W$ of 0 in $E$ such that $a_0x_0 \notin W$. As $v$ is not improper, there exist a neighbourhood $W'$ of 0 in $E$ and an element $\beta$ of $G$ such that the relations $y \in W'$, $v(a) \geq \beta$ imply $ay \in W$. Let $a, \in K^*$ be such that $v(a_1) = -\beta$. The relations $ax_0 \in a_1^{-1}W'$ and $v(a) \leq a$ imply $a_1ax_0 \in W$ and $v(a_0a^{-1}a_1^{-1}) = \alpha + \beta - v(a) \geq \beta$ and hence $a_0x_0 = a_0a^{-1}a_1^{-1}(a_1ax_0) \in W$, which is absurd; in other words, the relation $ax, \in a_1^{-1}W$ implies $v(a) > a$.
 
-#### Corollary {#ac-vi-s5-n2-cor-1 .statement}
+#### Corollary {#ac-vi-s5-n2-cor-1 .statement tag=04UV}
 
 Let $E$ be a left topological vectorspace over $K$, $H$ a closed hyperplane of $E$ and $D$ a 1-dimensional vector subspace of $E$ an algebraic supplement of $H$. Suppose that $v$ is not improper. Then $D$ is a topological supplement of $H$.
 
 Taking account of Propositions 1 and 3, the proof is the same as that of Topological Vector Spaces, Chapter I, § 2, Corollary 2 to Theorem 1.
 
-#### Proposition 4 {#ac-vi-s5-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s5-prop-4 .statement tag=04UW}
 
 Suppose that $v$ is not improper and $K$ is complete. Let $E$ be a left topological vector space over $K$, which is Hausdorff and of finite dimension $n$. For every basis $(e_i)_{1 \leq i \leq n}$ of $E$ over $K$, the mapping $(a_i) \mapsto \sum_{i=1}^n a_i e_i$ of $K^n_s$ onto $E$ is a topological vector space isomorphism.
 
 Taking account of Proposition 3 and its corollary, the proof is the same as that of Topological Vector Spaces, Chapter I, § 2, Theorem 2.
 
-#### Corollary {#ac-vi-s5-n2-cor-2 .statement}
+#### Corollary {#ac-vi-s5-n2-cor-2 .statement tag=04UX}
 
 Suppose that $v$ is not improper and $K$ is complete. Let $E$ be a Hausdorff topological vector space over $K$ and $F$ a finite-dimensional vector subspace of $E$. Then $F$ is closed.
 
@@ -119,7 +119,7 @@ $F$ is complete.
 
 ### 3. THE COMPLETION OF A FIELD WITH A VALUATION
 
-#### Proposition 5 {#ac-vi-s5-prop-5 .statement}
+#### Proposition 5 {#ac-vi-s5-prop-5 .statement tag=04UY}
 
 Let $K$ be a not necessarily commutative field, $v$ a valuation on $K$ and $G$ the group $v(K^*)$ with the discrete topology.
 
@@ -149,7 +149,7 @@ We now show (d). Let $a \in G$ and $x \in \mathscr{S}, -\{0\}$. For $y$ in $V$, 
 
 Taking account of Proposition 7 of General Topology, Chapter III, § 3, no. 4, assertion (c) is a consequence of (d). Assertion (e) is a special case of (d). Finally let $x \in \hat{A}$; there exists $y \in A$ such that $\hat{v}(x - y) > 0$; then $z = x - y \in \hat{m}$ and hence $x = y + z \in A + \hat{m}$; thus $\hat{A} = A + \hat{m}$, which shows (f).
 
-#### Remark {#ac-vi-s5-n3-rem-1 .statement}
+#### Remark {#ac-vi-s5-n3-rem-1 .statement tag=04UZ}
 
 For all $x \in \hat{K}$ not belonging to $\hat{A}$, there exists $x_0 \in K$ such that $\hat{v}(x - x_0) > 0$, $\hat{v}(x) = \hat{v}(x_0) = v(x_0) < 0$; then $x_0^{-1} x \in \hat{A}$ and, as $x_0^{-1} \in A$, it is seen that, if we set $S = A - \{0\}$, it is possible to write $\hat{K} = S^{-1} \hat{A}$.
 

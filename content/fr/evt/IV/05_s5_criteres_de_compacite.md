@@ -33,7 +33,7 @@ subsections:
       pdf_page: 223
 statements: 9
 exercises: 18
-content_sha256: fedeb27b0b0cc55f57318893e1d3465bbc0190d3fd57b4cf1dabaa700fe0e79c
+content_sha256: 2bd7cdffdcc7ad1c309113891dd7d1e612eff02eb8ef9ccbd48279665e096bc5
 ---
 
 ## § 5. CRITÈRES DE COMPACITÉ
@@ -54,7 +54,7 @@ c) *de toute suite infinie de points de A, on peut extraire une suite qui conver
 
 Nous étendrons, dans ce paragraphe, ce critère à certains espaces vectoriels topologiques *non métrisables*. La proposition suivante permet dans de nombreux cas de ramener l’étude des ensembles compacts à celle des ensembles faiblement compacts.
 
-#### Proposition 1 {#evt-iv-s5-prop-1 .statement}
+#### Proposition 1 {#evt-iv-s5-prop-1 .statement tag=07VR}
 
 *Soient E un espace localement convexe séparé et A une partie de E. On note $E_\sigma$ l’espace E muni de la topologie affaiblie.*
 
@@ -70,7 +70,7 @@ Supposons que A soit précompacte dans E et contenue dans une partie compacte B 
 
 Dans ce numéro, on note X un espace *compact* et $\mathscr{C}_s(X)$ l’espace des fonctions continues sur X, à valeurs dans le corps K (égal à $\mathbf{R}$ ou $\mathbf{C}$), muni de la topologie de la convergence simple dans X.
 
-#### Proposition 2 {#evt-iv-s5-prop-2 .statement}
+#### Proposition 2 {#evt-iv-s5-prop-2 .statement tag=07VS}
 
 *Soient D une partie dense de X et A une partie de l’espace $\mathscr{C}_s(X)$. Les conditions suivantes sont équivalentes :*
 (i) *A est relativement compacte dans $\mathscr{C}_s(X)$.*
@@ -128,7 +128,7 @@ Enfin, d’après (1)$_m$, on a $|\gamma - u(a)| \geq \varepsilon$, d’où $\ga
 
 ### 3. Les théorèmes d’Eberlein et de Šmulian
 
-#### Théorème 1 (Eberlein) {#evt-iv-s5-thm-1 .statement}
+#### Théorème 1 (Eberlein) {#evt-iv-s5-thm-1 .statement tag=07VT}
 
 Soient E un espace localement convexe séparé et quasi-complet, $\mathscr{T}$ une topologie sur E compatible avec la dualité entre E et E', et A une partie de E. Pour que A soit relativement compacte pour $\mathscr{T}$, il faut et il suffit que toute suite infinie de points de A ait une valeur d’adhérence dans E pour $\mathscr{T}$.
 
@@ -146,7 +146,7 @@ Montrons maintenant que $\overline{A}$ est contenue dans E. Comme A est précomp
 
 Comme la topologie de $E_\sigma$ est induite par celle de ${E'_\sigma}^*$, la partie $\overline{A}$ de $E_\sigma$ est compacte, d’où le th. 1.
 
-#### Théorème 2 (Šmulian) {#evt-iv-s5-thm-2 .statement}
+#### Théorème 2 (Šmulian) {#evt-iv-s5-thm-2 .statement tag=07VU}
 
 Soient $E$ un espace de Fréchet et $A$ une partie de $E$. On note $E_\sigma$ l’espace $E$ muni de la topologie affaiblie. Les conditions suivantes sont équivalentes :
 
@@ -158,7 +158,7 @@ L’équivalence de (i) et (ii) résulte du th. d’Eberlein, et (iii) entraîne
 
 Montrons que (i) entraîne (iii). Supposons donc que l’adhérence $B$ de $A$ dans $E_\sigma$ soit compacte et que $(x_n)_{n \in \mathbf{N}}$ soit une suite de points de $A$. Notons $F$ le plus petit sous-espace vectoriel fermé de $E$ contenant les $x_n$; c’est un espace de Fréchet de type dénombrable. Comme $F$ est fermé dans $E_\sigma$ et que la topologie $\sigma(F, F')$ sur $F$ est induite par $\sigma(E, E')$, l’ensemble $B \cap F$ est compact pour $\sigma(F, F')$. Compte tenu des remarques de IV, p. 32, l’existence d’une suite extraite de $(x_n)_{n \in \mathbf{N}}$ convergeant pour $\sigma(E, E')$ (ou $\sigma(F, F')$, cela revient au même) est conséquence du lemme suivant :
 
-#### Lemme 1 {#evt-iv-s5-lem-1 .statement}
+#### Lemme 1 {#evt-iv-s5-lem-1 .statement tag=07VV}
 
 Soit $F$ un espace de Fréchet de type dénombrable. Toute partie $C$ de $F$ qui est compacte pour la topologie $\mathscr{T}$ induite par $\sigma(F, F')$ est métrisable pour cette topologie.
 
@@ -178,11 +178,11 @@ $$
 
 Dans ce numéro et le suivant, nous ferons usage du lemme suivant, qui est un cas particulier du th. de Lebesgue (INT, IV, 2e éd., § 4, n° 3, th. 2), compte tenu de l’interprétation des éléments de $\mathscr{C}(X)'$ comme des mesures sur X.
 
-#### Lemme 2 {#evt-iv-s5-lem-2 .statement}
+#### Lemme 2 {#evt-iv-s5-lem-2 .statement tag=07VW}
 
 Soit X un espace compact. Si une suite $(f_n)_{n \in \mathbf{N}}$ est bornée dans $\mathscr{C}(X)$ et converge simplement sur X vers une fonction continue f, on a $\mu(f) = \lim_{n \to \infty} \mu(f_n)$ pour tout $\mu$ dans $\mathscr{C}(X)'$.
 
-#### Proposition 3 {#evt-iv-s5-prop-3 .statement}
+#### Proposition 3 {#evt-iv-s5-prop-3 .statement tag=07VX}
 
 Soit X un espace compact, et soit A une partie bornée de $\mathscr{C}(X)$. Pour que A soit relativement compacte pour la topologie de la convergence simple, il faut et il suffit qu’elle soit relativement compacte pour $\sigma(\mathscr{C}(X), \mathscr{C}(X)')$.
 
@@ -190,7 +190,7 @@ La topologie de la convergence simple est séparée et moins fine que $\sigma(\m
 
 Supposons maintenant que A soit relativement compacte pour la topologie de la convergence simple. Soit $(f_n)_{n \in \mathbf{N}}$ une suite d’éléments de A. D’après la prop. 2 (IV, p. 33), il existe une suite $(f_{n_k})$ extraite de $(f_n)$ et convergeant simplement vers une fonction continue f. D’après le lemme 2, la suite bornée $(f_{n_k})$ tend vers f pour $\sigma(\mathscr{C}(X), \mathscr{C}(X)')$. Le th. de Šmulian (IV, p. 36, th. 2) montre alors que A est relativement compacte pour $\sigma(\mathscr{C}(X), \mathscr{C}(X)')$.
 
-#### Corollaire {#evt-iv-s5-n4-cor-1 .statement}
+#### Corollaire {#evt-iv-s5-n4-cor-1 .statement tag=07VY}
 
 Soient S un espace topologique et A une partie bornée de $\mathscr{C}^b(S)$. Les conditions suivantes sont équivalentes :
 
@@ -207,7 +207,7 @@ Soient X le compactifié de Stone-Čech de S (TG, IX, p. 10) et $\alpha$ l’app
 
 ### \*5. Enveloppe convexe d’un ensemble faiblement compact
 
-#### Théorème 3 (Krein) {#evt-iv-s5-thm-3 .statement}
+#### Théorème 3 (Krein) {#evt-iv-s5-thm-3 .statement tag=07VZ}
 
 Soit E un espace localement convexe séparé et quasi-complet, et soit $\mathscr{T}$ une topologie sur E compatible avec la dualité entre E et E'. Soit A une partie de E compacte pour $\mathscr{T}$. Alors l’enveloppe fermée convexe équilibrée C de A est compacte pour $\mathscr{T}$.
 

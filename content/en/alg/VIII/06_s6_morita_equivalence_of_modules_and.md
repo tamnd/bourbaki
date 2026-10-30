@@ -42,7 +42,7 @@ subsections:
       pdf_page: 128
 statements: 40
 exercises: 8
-content_sha256: 25fb547cdd0923e402adfb7298b0fc0f1bd6503c596ee2106e24c4da92314558
+content_sha256: e8ef2b43442fbc25b56375b83b63be74c37d7c8014a9723fb60c9bc369cd90cb
 ---
 
 ## § 6. MORITA EQUIVALENCE OF MODULES AND ALGEBRAS
@@ -283,7 +283,7 @@ M & \xrightarrow{u} & N.
 \end{array}
 $$
 
-#### Theorem 1 {#alg-viii-s6-thm-1 .statement}
+#### Theorem 1 {#alg-viii-s6-thm-1 .statement tag=0072}
 
 *Let A and B be k-algebras and P an $(A, B)_k$-bimodule. Denote the $(B, A)_k$-bimodule $\operatorname{Hom}_A(P, A_s)$ by $P^*$. The following properties are equivalent:
 
@@ -311,13 +311,13 @@ By Proposition 2 of VIII, p. 98, the A-module P is then projective and finitely 
 
 By interchanging the roles of A and B, we obtain the equivalence of (i) and (iii), which concludes the proof of the proposition.
 
-#### Corollary 1 {#alg-viii-s6-lem-1-cor-1 .statement}
+#### Corollary 1 {#alg-viii-s6-lem-1-cor-1 .statement tag=077O}
 
 Let A and B be Morita equivalent $k$-algebras, and let P be an invertible $(A,B)_k$-bimodule. There exists an isomorphism $\varphi$ from the center Z(A) of A to the center of B determined by the relation $\varphi (z)_P=z_P$ for every $z\in Z(A)$. The automorphisms of the $(A,B)_k$-bimodule P are the homotheties $z_P$ where $z$ is an invertible element of Z(A).
 
 Given Theorem 1, this follows from Remark 2 of VIII, p. 97.
 
-#### Corollary 2 {#alg-viii-s6-lem-1-cor-2 .statement}
+#### Corollary 2 {#alg-viii-s6-lem-1-cor-2 .statement tag=077P}
 
 Let A and B be Morita equivalent $k$-algebras, and let P be an invertible $(A,B)_k$-bimodule. Every $(B,A)_k$-bimodule inverse to P is isomorphic to the dual $P^*=$ Hom$_A(P,A)$ of P. More precisely, let Q be a $(B,A)_k$-bimodule that is an inverse of P, and let $\lambda : P\otimes_BQ\rightarrow_sA_d$ be an isomorphism of $(A,A)_k$-bimodules. There exists a unique mapping $\tau : Q\rightarrow P^*$ determined by the relation $\langle p, \tau (q)\rangle =\lambda (p\otimes q)$ for $p\in P$ and $q\in Q$, and $\tau$ is an isomorphism of $(B,A)_k$-bimodules.
 

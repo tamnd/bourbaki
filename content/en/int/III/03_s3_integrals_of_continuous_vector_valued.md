@@ -29,7 +29,7 @@ subsections:
       pdf_page: 84
 statements: 17
 exercises: 4
-content_sha256: b66320a56aff4c02286ce8fafb4d825f43e0c1a2c4513a808a564a314da65e7d
+content_sha256: fe78ffc7611951df252f5590889a4a16218a67a71377a0b79b5c7914e9bc3371
 ---
 
 ## § 3. INTEGRALS OF CONTINUOUS VECTOR-VALUED FUNCTIONS
@@ -54,7 +54,7 @@ $$
 
 It is clear that $\varphi$ is a linear form on $E'$, hence is *an element of ${E'}^*$*.
 
-#### Definition 1 {#int-iii-s3-def-1 .statement}
+#### Definition 1 {#int-iii-s3-def-1 .statement tag=08NN}
 
 *For every function $f \in \widetilde{\mathscr{K}}(X;E)$ we call integral of $f$ with respect to $\mu$, and denote by $\int f d\mu$ or $\int f(x) d\mu(x)$, or $\int f \mu$, or $\int f(x)\mu(x)$, the element of ${E'}^*$ defined by*
 
@@ -64,7 +64,7 @@ $$
 
 We note that even if $E$ is *Hausdorff* and $f \in \mathscr{K}(X;E)$, *one does not necessarily have* $\int f d\mu \in E$ (Exer. 1; cf. No. 3).
 
-#### Example {#int-iii-s3-n1-exa-1 .statement}
+#### Example {#int-iii-s3-n1-exa-1 .statement tag=08NO}
 
 — 1) Suppose that $E$ is *finite-dimensional* over $\mathbf{C}$ and Hausdorff, so that if $(e_i)_{1 \leq i \leq n}$ is a basis of $E$ then the mapping
 
@@ -100,17 +100,17 @@ $$
 
 because $\int \langle f, z' \rangle d\varepsilon_y = \langle f(y), z' \rangle$ by definition.
 
-#### Remark 1 {#int-iii-s3-n1-rem-1 .statement}
+#### Remark 1 {#int-iii-s3-n1-rem-1 .statement tag=08NP}
 
 If $E$ is a locally convex space and $N$ is the closure of $\{0\}$ in $E$, so that $E_1 = E/N$ is the Hausdorff locally convex space associated with $E$, we know that the duals $E'$ and $E'_1$ are identical; for a function $f$ to belong to $\widetilde{\mathscr{K}}(X; E)$, it is necessary and sufficient that $f_1 = \pi \circ f$ (where $\pi : E \to E_1$ is the canonical homomorphism) belong to $\widetilde{\mathscr{K}}(X; E_1)$, in which case $\int f d\mu = \int f_1 d\mu$. We may therefore limit ourselves to considering only *Hausdorff* locally convex spaces.
 
-#### Remark 2 {#int-iii-s3-n1-rem-2 .statement}
+#### Remark 2 {#int-iii-s3-n1-rem-2 .statement tag=08NQ}
 
 Let $E$ be a locally convex space *over* $\mathbf{C}$, and let $E_0$ be the locally convex space *over* $\mathbf{R}$ underlying $E$; we know that the mapping $z' \mapsto \Re z'$ which, to every continuous (complex) linear form $z'$ on $E$, makes correspond the continuous (real) linear form $z \mapsto \Re \langle z, z' \rangle$ on $E_0$, is an $\mathbf{R}$-isomorphism of the dual $E'$ onto the dual $E'_0$ of $E_0$ (TVS, II, §8, No. 1). Similarly, the algebraic dual $E'_0*$ of the real vector space $E'_0$ may be canonically identified with the real space underlying the algebraic dual $E'*$ of $E'$. It follows that if $\mu$ is a *real measure* and $f$ a mapping in $\widetilde{\mathscr{K}}(X; E)$, the formula (1) is again valid when $f$ is regarded as taking its values in $E_0$ and the canonical bilinear forms figuring in the two members as being, respectively, relative to the duality between $E'_0$ and $E'_0*$ for the first member and the duality between $E_0$ and $E'_0$ for the second.
 
 ### 2. Properties of the vectorial integral
 
-#### Proposition 1 {#int-iii-s3-prop-1 .statement}
+#### Proposition 1 {#int-iii-s3-prop-1 .statement tag=08NR}
 
 — *The mapping*
 
@@ -124,7 +124,7 @@ The proposition follows immediately from Def. 1 of No. 1.
 
 Let $u$ be a continuous linear mapping of $E$ into a locally convex space $F$; we know that the transpose $^t u$ is a linear mapping of the dual $F'$ of $F$ into the dual $E'$ of $E$; we shall denote by $^{tt} u$ the mapping ${E'}^* \to {F'}^*$, the transpose of $^t u$ (in the algebraic sense); when $E$ and $F$ are Hausdorff and are canonically identified with subspaces of ${E'}^*$ and ${F'}^*$, respectively, $^{tt} u$ extends the mapping $u$. With these notations:
 
-#### Proposition 2 {#int-iii-s3-prop-2 .statement}
+#### Proposition 2 {#int-iii-s3-prop-2 .statement tag=08NS}
 
 — Let $u$ be a continuous linear mapping of $E$ into a locally convex space $F$; for every function $f \in \widetilde{\mathscr{K}}(X;E)$, the function $u \circ f$ belongs to $\widetilde{\mathscr{K}}(X;F)$ and
 
@@ -141,7 +141,7 @@ $$
 
 whence the formula (2).
 
-#### Proposition 3 {#int-iii-s3-prop-3 .statement}
+#### Proposition 3 {#int-iii-s3-prop-3 .statement tag=08NT}
 
 — For every function $g \in \mathscr{C}(X;\mathbf{C})$ and every function $f \in \widetilde{\mathscr{K}}(X;E)$, the function $gf$ belongs to $\widetilde{\mathscr{K}}(X;E)$ and
 
@@ -158,7 +158,7 @@ $$
 
 whence (3).
 
-#### Proposition 4 {#int-iii-s3-prop-4 .statement}
+#### Proposition 4 {#int-iii-s3-prop-4 .statement tag=08NU}
 
 — Let $\mu$ be a positive measure on $X$, $S$ its support, and $f$ a function in $\widetilde{\mathscr{K}}(X;E)$. Suppose $E$ is Hausdorff, and equip the space ${E'}^*$ with the weak topology $\sigma({E'}^*, E')$.
 
@@ -190,7 +190,7 @@ $$
 
 but this follows from §2, No. 3, Cor. 3 of Prop. 8.
 
-#### Corollary {#int-iii-s3-n2-cor-1 .statement}
+#### Corollary {#int-iii-s3-n2-cor-1 .statement tag=08NV}
 
 *Let* $\mu$ *be a positive measure on* X, $f$ *a mapping belonging to* $\mathscr{K}(X;E)$, *and* D *the closed convex envelope of* f(X) *in* E'**. *There exists a number* $a > 0$ *such that* $\int f\, d\mu \in a \cdot D$.
 
@@ -198,13 +198,13 @@ but this follows from §2, No. 3, Cor. 3 of Prop. 8.
 
 Suppose first that $\mu$ is positive; by hypothesis, the support K of f is compact; if $\nu$ is the restriction of $\mu$ to a relatively compact open neighborhood of K, then $\nu$ is bounded and $\int f\, d\mu = \int f\, d\nu \in \| \nu \| \cdot D$ by Prop. 4, (ii). The second result follows from this, since any complex measure may be written as $\mu_1 - \mu_2 + i \mu_3 - i \mu_4$, where the $\mu_j$ are positive.
 
-#### Proposition 5 {#int-iii-s3-prop-5 .statement}
+#### Proposition 5 {#int-iii-s3-prop-5 .statement tag=08NW}
 
 *Suppose that the space* X *is compact, and let* f *be a continuous mapping of* X *into a Hausdorff locally convex space* E. *The closed convex envelope of* f(X) *in* E'** *(for* $\sigma(E', E')$) *is equal to the set of vectors* $\int f\, d\mu$ *for all of the positive measures* $\mu$ *on* X *of total mass* 1.
 
 Let C be the closed convex envelope of f(X) in E'**; since f(X) is compact and E'** is *complete*, C is compact. We already know (Prop. 4) that $\int f d\mu \in C$ for every measure $\mu$ belonging to the convex set $H$ of positive measures on $X$ of total mass equal to 1. On the other hand, $H$ is convex and *compact* for the vague topology (§ 1, No. 9, Cor. 3 of Prop. 15) and is the closure (for this topology) of the convex set $H_0$ of positive measures of mass 1 and *finite* support (§ 2, No. 4, Cor. 3 of Th. 1). Now, the image of $H_0$ under the mapping $\mu \mapsto \int f d\mu$ is the convex envelope $C_0$ of $f(X)$ in ${E'}^*$. On the other hand, this mapping is continuous for the vague topology on $\mathscr{M}(X; C)$ and the topology $\sigma({E'}^*, E')$ on ${E'}^*$ since $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ by definition; thus the image of $H = \overline{H_0}$ is a *compact* convex set containing $C_0$ and contained in $C$; since $C = \overline{C_0}$, this image is equal to $C$.
 
-#### Proposition 6 {#int-iii-s3-prop-6 .statement}
+#### Proposition 6 {#int-iii-s3-prop-6 .statement tag=08NX}
 
 *For every continuous mapping with compact support $f$ of $X$ into a Hausdorff locally convex space $E$, every continuous semi-norm $q$ on $E$ and every measure $\mu$ on $X$ such that $\int f d\mu \in E$,*
 
@@ -234,19 +234,19 @@ for all $x \in X$, the desired inequality follows from the inequality (13) of §
 
 ### 3. Criteria for the integral to belong to $E$
 
-#### Proposition 7 {#int-iii-s3-prop-7 .statement}
+#### Proposition 7 {#int-iii-s3-prop-7 .statement tag=08NY}
 
 *Let $E$ be a Hausdorff locally convex space, and $f \in \mathscr{K}(X; E)$. If $f(X)$ is contained in a complete convex subset $A$ of $E$, then $\int f d\mu \in E$.*
 
 Let K be the support of f, which is compact by hypothesis. Since f is zero on X − K, f(X) is equal to f(K) or to f(K) ∪ {0}, therefore is compact since f is continuous and E is Hausdorff; the closed convex envelope C of f(X) in E is then precompact (for the uniform structure induced by that of E) (TVS, II, §4, No. 1, Prop. 3). But since C is a closed subset of the complete space A, C is complete and therefore compact; a fortiori, C is compact for the weakened topology σ(E, E′); but since that topology is induced by σ(E′*, E′), C is the closed convex envelope of f(X) in E′* for the topology σ(E′*, E′); the proof is therefore concluded by the Corollary of Prop. 4 of No. 2.
 
-#### Corollary 1 {#int-iii-s3-prop-7-cor-1 .statement}
+#### Corollary 1 {#int-iii-s3-prop-7-cor-1 .statement tag=08NZ}
 
 — Let E be a Hausdorff locally convex space; for every function f ∈ $\mathscr{K}(X; E)$, $\int f d\mu$ belongs to the completion $\widehat{E}$ of E.
 
 Since the duals of E and $\widehat{E}$ are identical, it suffices to apply Prop. 7 while regarding f as taking its values in $\widehat{E}$.
 
-#### Corollary 2 {#int-iii-s3-prop-7-cor-2 .statement}
+#### Corollary 2 {#int-iii-s3-prop-7-cor-2 .statement tag=08O0}
 
 — If E is a quasi-complete Hausdorff locally convex space, then $\int f d\mu \in E$ for every function f ∈ $\mathscr{K}(X; E)$.
 
@@ -267,7 +267,7 @@ defined in FRV, II, §2, No. 1; this follows from formula (1), and from FRV, I, 
 
 ### 4. Continuity properties of the integral
 
-#### Proposition 8 {#int-iii-s3-prop-8 .statement}
+#### Proposition 8 {#int-iii-s3-prop-8 .statement tag=08O1}
 
 — Suppose that E is Hausdorff; let $\mu$ be a measure on X. The mapping $f \mapsto \int f d\mu$ of $\mathscr{K}(X;E)$ into $\widehat{E}$ (No. 3, Cor. 1 of Prop. 7) is the unique continuous linear mapping $\Phi$ such that $\Phi(g \cdot a) = \mu(g) \cdot a$ for every vector $a \in E$ and every function $g \in \mathscr{K}(X;\mathbf{C})$.
 
@@ -291,7 +291,7 @@ $$
 
 by virtue of No. 1, Example 1 and Prop. 2 of No. 2 applied to the canonical injection $\mathbf{C} \cdot a \to E$. Moreover, the subspace of $\mathscr{K}(X;E)$ formed by the linear combinations $\sum_i g_i \cdot a_i$, where $a_i \in E$ and $g_i \in \mathscr{K}(X;\mathbf{C})$, is dense in $\mathscr{K}(X;E)$ (§1, No. 2, Prop. 5), which completes the proof.
 
-#### Proposition 9 {#int-iii-s3-prop-9 .statement}
+#### Proposition 9 {#int-iii-s3-prop-9 .statement tag=08O2}
 
 — Suppose that E is Hausdorff; let $f$ be a continuous mapping of X into E with compact support. When the space $\mathscr{M}(X;\mathbf{C})$ is equipped with the topology of strictly compact convergence (§1, No. 10), the mapping $\mu \mapsto \int f d\mu$ of $\mathscr{M}(X;\mathbf{C})$ into $\widehat{E}$ is the unique continuous linear mapping $\Psi$ such that $\Psi(\varepsilon_x) = f(x)$ for all $x \in X$.
 
@@ -303,7 +303,7 @@ $$
 
 whence $\int f\, d\varepsilon_x = f(x)$. We know, moreover, that the set of point measures is total in $\mathscr{M}(X; \mathbf{C})$ for the topology of strictly compact convergence (§ 2, No. 4, Cor. 4 of Th. 1). Thus it all comes down to proving the continuity of the linear mapping $u : \mu \mapsto \int f\, d\mu$. For this, consider the linear mapping $v : z' \mapsto \langle f, z' \rangle$ of $E'$ into $\mathscr{K}(X; \mathbf{C})$, and let us show that the image under $v$ of an equicontinuous subset $H$ of $E'$ is contained in a strictly compact subset of $\mathscr{K}(X; \mathbf{C})$. For, if $K$ is the support of $f$, the functions $\langle f, z' \rangle$ for $z' \in H$ have support contained in $K$; on the other hand, these functions form an equicontinuous set, and for each $x \in X$ the set of $z'(f(x))$ is bounded; our assertion therefore follows from Ascoli’s theorem (GT, X, § 2, No. 5, Cor. 3 of Th. 2). Now, it follows from formula (1) of No. 1 that $u$ is none other than the restriction to $\mathscr{M}(X; \mathbf{C})$ of the transpose $^t v$ (in the algebraic sense); its continuity therefore follows from the foregoing (TVS, IV, § 1, No. 3, Prop. 6).
 
-#### Corollary {#int-iii-s3-n4-cor-1 .statement}
+#### Corollary {#int-iii-s3-n4-cor-1 .statement tag=08O3}
 
 — *With hypotheses and notations as in Prop. 9, the restriction of the mapping* $\mu \mapsto \int f\, d\mu$ *to the set* $\mathscr{M}_+(X)$ *of positive measures, or to a vaguely bounded subset B of* $\mathscr{M}(X; \mathbf{C})$, *is vaguely continuous.*
 

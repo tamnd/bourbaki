@@ -27,9 +27,9 @@ subsections:
       pdf_page: 639
 statements: 11
 exercises: 3
-content_sha256: 210b7d05894880600ad93fb126e7c5627f255c269a1485c720821b91f6cf9b0f
+content_sha256: 4e279d3abe81c9edf52d7167f0a9b9dc3624049f82f7e0321593960509cabcd8
 translated_from: content/en/alg/III/A_a_alternative_algebras_octonions.md
-source_content_sha256: 0651f3bed82b7df7a8e6ef9f2573f410b9f48cf8e11708f9e289377e24833536
+source_content_sha256: ae041bbfaebb6710b823bdc0661c24a1124357966f753025f28bd48ab4086bed
 translation_model: gpt-5.4
 translation_run: translate-vi-19aaef7b
 glossary_version: 34
@@ -51,7 +51,7 @@ $$
 
 (kết hợp tử của $x, y, z$); $a$ hiển nhiên là một ánh xạ A-tuyến tính theo ba biến từ $F \times F \times F$ vào $F$.
 
-#### Bổ đề 1 {#alg-iii-a0-lem-1 .statement}
+#### Bổ đề 1 {#alg-iii-a0-lem-1 .statement tag=069A}
 
 *Với mọi $p, q, r, s$ trong đại số $F$,*
 
@@ -61,7 +61,7 @@ $$
 
 Việc kiểm tra suy ra ngay lập tức từ định nghĩa (1).
 
-#### Mệnh đề 1 {#alg-iii-a0-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-a0-prop-1 .statement tag=069B}
 
 *Đối với một đại số trên A $F$, các điều kiện sau là tương đương:*
 (a) *Với mọi cặp có thứ tự các phần tử $x, y$ của $F$, đại số con sinh bởi $x$ và $y$ là kết hợp.*
@@ -72,7 +72,7 @@ Hiển nhiên (a) kéo theo (c). Ta chỉ ra rằng (c) kéo theo (b): theo đ�
 
 Để chứng minh rằng (b) kéo theo (a), ta dùng 4 bổ đề sau:
 
-#### Bổ đề 2 {#alg-iii-a0-lem-2 .statement}
+#### Bổ đề 2 {#alg-iii-a0-lem-2 .statement tag=069C}
 
 *Cho $E$ là một đại số trên A sao cho ánh xạ tuyến tính theo ba biến $(x, y, z) \mapsto a(x, y, z)$ là phản xứng, $S$ là một hệ sinh của $E$ và $U$ là một môđun con trên A của $E$ chứa $S$ và sao cho $sU \subset U$ và $Us \subset U$ với mọi $s \in S$. Khi đó $U = E$.*
 
@@ -86,7 +86,7 @@ khi chuyển qua đại số đối, tương tự ta có $u(xy) \in U$. Vậy $U
 
 Một tập con $H$ của $F$ được gọi là *kết hợp mạnh* nếu $a(u, v, w) = 0$ khi *ít nhất hai* trong các phần tử $u, v, w$ thuộc $H$.
 
-#### Bổ đề 3 {#alg-iii-a0-lem-3 .statement}
+#### Bổ đề 3 {#alg-iii-a0-lem-3 .statement tag=069D}
 
 *Giả sử ánh xạ $a$ là phản xứng. Nếu $H$ là một tập con kết hợp mạnh của $F$, thì đại số con của $F$ sinh bởi $H$ là kết hợp mạnh.*
 
@@ -102,13 +102,13 @@ a(u, vt, z) = a(u, v, tz) = 0,
 $$
 do đó $a(uv, t, z) = 0$. Dùng tính chất phản xứng của $a$, điều này cho thấy rằng $a(p, q, r) = 0$ mỗi khi ít nhất hai trong các phần tử $p, q, r$ thuộc $\mathbf{H} \cup \{uv\}$, do đó suy ra bổ đề.
 
-#### Bổ đề 4 {#alg-iii-a0-lem-4 .statement}
+#### Bổ đề 4 {#alg-iii-a0-lem-4 .statement tag=069E}
 
 *Giả sử ánh xạ $a$ là phản xứng. Khi đó, với mọi $x \in \mathbf{F}$, đại số con của $\mathbf{F}$ sinh bởi $x$ là kết hợp mạnh.*
 
 $a(u, v, w) = 0$ mỗi khi hai trong ba phần tử $u, v, w$ bằng $x$ và chỉ cần áp dụng Bổ đề 3.
 
-#### Bổ đề 5 {#alg-iii-a0-lem-5 .statement}
+#### Bổ đề 5 {#alg-iii-a0-lem-5 .statement tag=069F}
 
 *Giả sử ánh xạ $a$ là phản xứng và cho $\mathbf{X}, \mathbf{Y}$ là hai đại số con kết hợp mạnh của $\mathbf{F}$. Khi đó đại số con của $\mathbf{E}$ sinh bởi $\mathbf{X} \cup \mathbf{Y}$ là kết hợp.*
 
@@ -120,7 +120,7 @@ do $\mathbf{X}$ là kết hợp mạnh và theo định nghĩa của $Z$. Nhưng
 
 Bây giờ, để chứng minh rằng (b) kéo theo (a) trong Mệnh đề 1, chỉ cần lấy $\mathbf{X} = \{x\}$ và $\mathbf{Y} = \{y\}$, dùng Bổ đề 4.
 
-#### Định nghĩa 1 {#alg-iii-a0-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-a0-def-1 .statement tag=069G}
 
 *Một đại số $\mathbf{F}$ được gọi là thay thế nếu nó thỏa mãn các điều kiện tương đương của Mệnh đề 1.*
 
@@ -130,7 +130,7 @@ Nếu $\mathbf{F}$ là một A-đại số thay thế, mọi đại số trên $
 
 ### 2. ĐẠI SỐ THAY THẾ CAYLEY
 
-#### Mệnh đề 2 {#alg-iii-a0-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-a0-prop-2 .statement tag=069H}
 
 *Cho $\mathbf{A}$ là một vành, $\mathbf{F}$ là một đại số Cayley trên $\mathbf{A}$, e là phần tử đơn vị của nó, $s : x \mapsto \overline{x}$ là phép liên hợp của nó và $\mathbf{N} : \mathbf{F} \to \mathbf{A}$ là chuẩn Cayley của nó (§ 3, no. 4).*
 
@@ -149,7 +149,7 @@ Hiển nhiên $a(e, x, y) = 0$ với mọi $x, y$ trong F. Nếu F là thay th�
 
 Cuối cùng ta chứng minh (iii). Nếu $N(x)$ khả nghịch trong Ae và nếu ta viết $x' = N(x)^{-1}\overline{x}$, thì $xx' = x'x = e$, vì $N(x) = x\overline{x} = \overline{x}x$. Ngược lại nếu x có một nghịch đảo trái $x''$, thì $N(x'')N(x) = N(e) = e$ theo (ii) và $N(x)$ khả nghịch trong Ae; hơn nữa, vì $x' = N(x)^{-1}\overline{x}$ nằm trong đại số con sinh bởi x và e, các phần tử $x, x', x''$ thuộc đại số con kết hợp sinh bởi x, $x''$ và e và do đó $x'' = x''(xx') = (x''x)x' = x'$, do đó có mệnh đề về tính duy nhất. Các công thức $x^{-1}(xy) = x(x^{-1}y) = y$ suy ra từ sự kiện rằng $x^{-1}, x$ và y là các phần tử của đại số con sinh bởi x, y và e, đại số con này là kết hợp.
 
-#### Mệnh đề 3 {#alg-iii-a0-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-a0-prop-3 .statement tag=069I}
 
 *Cho E là một đại số Cayley trên A, γ là một phần tử của A và F là mở rộng Cayley của E xác định bởi γ và phép liên hợp của E (§ 2, no. 5, Mệnh đề 5). Để F là thay thế, điều kiện cần và đủ là E kết hợp.*
 
@@ -216,7 +216,7 @@ $$
 
 *Nếu ta lấy $\mathbf{A}$ là trường $\mathbf{R}$ các số thực, thì các octonion kiểu $(-1, 0, -1, -1)$ trên $\mathbf{R}$ được gọi là *octonion Cayley* (hay *octave*). Từ Mệnh đề 2 (ii) của no. 2 suy ra rằng mọi octonion Cayley $\neq 0$ đều *khả nghịch.**
 
-#### Mệnh đề 4 {#alg-iii-a0-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-a0-prop-4 .statement tag=069J}
 
 *Cho $F$ là một đại số octonion kiểu $(-1, 0, -1, -1)$ trên $\mathbf{A}$. Tồn tại một không gian vectơ $V$ chiều 3 trên trường hai phần tử $\mathbf{Z}/2\mathbf{Z}$ và một song ánh $\lambda \mapsto e'_\lambda$ từ $V$ lên cơ sở $(e_i)_{0 \leq i \leq 7}$ sao cho*
 $$
@@ -237,7 +237,7 @@ $$
 
 Với mọi $\lambda \in V$, khi đó ký hiệu $e'_\lambda$ là phần tử của $(e_i)_{0 \leq i \leq 7}$ sao cho $\theta(e'_\lambda) = \lambda$; khi đó $e'_0 = e_0$; hơn nữa, vì $\theta$ là một đồng cấu và quan hệ $\theta(x) = \theta(y)$ tương đương với $x = \pm y$, nên $e'_\lambda e'_\mu = \pm e'_{\lambda + \mu}$. Nếu $\lambda, \mu, \nu$ độc lập tuyến tính trên $\mathbf{Z}/2\mathbf{Z}$, thì chúng lập thành một cơ sở của $V$ và do đó mọi phần tử $e_i$ ($0 \leq i \leq 7$) đều sẽ thuộc đại số con sinh bởi $e'_\lambda, e'_\mu$ và $e'_\nu$; khi $2 \neq 0$ trong $\mathbf{A}$, đẳng thức $e'_\lambda (e'_\mu e'_\nu) = (e'_\lambda e'_\mu) e'_\nu$ vì thế là không thể có, bởi vì khi đó $F$ sẽ kết hợp và do đó $E$ sẽ giao hoán (§ 2, no. 5, Mệnh đề 5), điều này mâu thuẫn với các quan hệ (33) của § 2, no. 5. Mặt khác, nếu $\lambda, \mu, \nu$ phụ thuộc tuyến tính trong V, thì ba phần tử $e'_\lambda, e'_\mu, e'_v$ thuộc một đại số con với 2 phần tử sinh của F, vì vậy nó là kết hợp (no. 1, Mệnh đề 1); do đó có kết luận.
 
-#### Nhận xét {#alg-iii-a0-n3-rem-1 .statement}
+#### Nhận xét {#alg-iii-a0-n3-rem-1 .statement tag=069K}
 
 Vì $\bar{e}'_\lambda = -e'_\lambda$ với $\lambda \neq 0$,
 

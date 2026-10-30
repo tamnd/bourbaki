@@ -37,7 +37,7 @@ subsections:
       pdf_page: 410
 statements: 15
 exercises: 8
-content_sha256: eac77a077fa08d86e9eb2c7ac33abb91e35076f725a20abdbfd8ccfc5202708f
+content_sha256: 661a9c1d318ad1edb10eb437cb3ccfdd6ca30e46bd10a92b3387cc860e8ddedf
 translated_from: content/en/ac/VI/03_s3_valuations.md
 source_content_sha256: 4c01a96f5b56dacb5b58c422ea901ae132099e793d91ecc0e08dbd4e6531aedb
 translation_model: gpt-5.4, gpt-5.4-mini
@@ -59,7 +59,7 @@ $$
 
 với mọi $\alpha \in \Gamma$; ta kiểm tra ngay lập tức được rằng luật này là kết hợp và giao hoán và rằng quan hệ $\alpha_1 \leq \beta$ trong $\Gamma_\infty$ kéo theo $\alpha_1 + \gamma \leq \beta + \gamma$ với mọi $\gamma \in \Gamma_a$.
 
-#### Định nghĩa 1 {#ac-vi-s3-def-1 .statement}
+#### Định nghĩa 1 {#ac-vi-s3-def-1 .statement tag=04T2}
 
 *Cho $C$ là một vành (không nhất thiết giao hoán) và $\Gamma$ là một nhóm giao hoán được sắp thứ tự toàn phần viết theo lối cộng. Một định giá trên $C$ nhận giá trị trong $\Gamma$ là mọi ánh xạ $v : C \to \Gamma_\infty$ thỏa mãn các điều kiện sau:*
 
@@ -69,7 +69,7 @@ với mọi $\alpha \in \Gamma$; ta kiểm tra ngay lập tức được rằng 
 
 Nếu $C$ không có ước của không nào khác 0, thì ánh xạ duy nhất $v_0$ từ $C$ vào $\Gamma_\infty$ sao cho $v_0(x) = 0$ với $x \neq 0$ và $v_0(0) = +\infty$ là một định giá, gọi là *định giá không chính quy* trên $C$. Nếu $z \in C$ sao cho $z^n = 1$ đối với một số nguyên $n \geq 1$, thì, theo (VL_I), $nv(z) = v(z^n) = 0$ và do đó $v(z) = 0$ đối với *mọi* định giá $v$ trên $C$, vì $\Gamma$ là một nhóm được sắp thứ tự toàn phần. Đặc biệt $v(-1) = 0$, do đó $v(-x) = v(x)$ với mọi $x \in C$. Hơn nữa, từ (VL_I) suy ra rằng $v(xy) = v(yx)$ với mọi $x, y$ trong $C$. Nếu $x$ khả nghịch trong $C$, thì $v(x^{-1}) = -v(x)$.
 
-#### Mệnh đề 1 {#ac-vi-s3-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s3-prop-1 .statement tag=04T3}
 
 *Cho $v$ là một định giá trên một vành $C$ (không nhất thiết giao hoán). Với mọi phần tử $x_i \in C$ ($1 \leq i \leq n$),*
 
@@ -81,7 +81,7 @@ Hơn nữa, nếu tồn tại một chỉ số duy nhất $k$ sao cho $v(x_k) = 
 
 Quan hệ (1) suy ra từ tiên đề (VL_{II}) bằng quy nạp theo $n$. Nếu tồn tại một chỉ số duy nhất $k$ sao cho $v(x_k) = \inf_{1 \leq i \leq n} v(x_i)$, thì, viết $y = \sum_{i \neq k} x_i$ và $z = \sum_{i=1}^n x_i$, ta có $v(y) > v(x_k)$ và $v(z) \geq v(x_k)$ theo (1); nếu $v(z) > v(x_k)$, quan hệ $x_k = z - y$ sẽ cho $v(x_k) \geq \inf(v(z), v(y)) > v(x_k)$, điều này vô lý; do đó $v(z) = v(x_k)$, điều này chứng minh mệnh đề thứ hai.
 
-#### Hệ quả {#ac-vi-s3-n1-cor-1 .statement}
+#### Hệ quả {#ac-vi-s3-n1-cor-1 .statement tag=04T4}
 
 *Nếu một dãy hữu hạn các phần tử $(x_i)_{1 \leq i \leq n}$ của $C$ (với $n \geq 2$) thỏa mãn $\sum_{i=1}^n x_i = 0$, thì tồn tại ít nhất hai chỉ số phân biệt $j, k$ sao cho*
 
@@ -98,7 +98,7 @@ Nhận xét
 
 ### 2. CÁC PHÉP ĐỊNH GIÁ TRÊN MỘT TRƯỜNG
 
-#### Mệnh đề 2 {#ac-vi-s3-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s3-prop-2 .statement tag=04T5}
 
 Cho $K$ là một trường (không nhất thiết giao hoán) và $v$ là một định giá trên $K$ nhận giá trị trong $\Gamma$. Khi đó:
 (i) Với $x \neq 0$, $v(x) \neq +\infty$.
@@ -117,7 +117,7 @@ $A$ (resp. $m(A)$, $\kappa(A)$) được gọi là vành (resp. iđêan, trườ
 
 Rõ ràng U(A) là hạt nhân của đồng cấu $v : K^* \to \Gamma$ và ảnh $v(K^*)$ dưới $v$ của nhóm nhân $K^*$ là một nhóm con của nhóm cộng $\Gamma$, được gọi là nhóm cấp hoặc nhóm giá trị của $v$, do đó đẳng cấu với $K^*/U(A)$; với $x \in K$, phần tử $v(x)$ của $\Gamma_\infty$ đôi khi được gọi là giá trị hoặc cấp của $x$ đối với $v$. Hai giá trị $v, v'$ trên $K$ được gọi là tương đương nếu chúng có cùng một vành.
 
-#### Mệnh đề 3 {#ac-vi-s3-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s3-prop-3 .statement tag=04T6}
 
 *Để hai giá trị $v, v'$ trên một trường $K$ (không nhất thiết giao hoán) là tương đương, điều kiện cần và đủ là tồn tại một đẳng cấu $\lambda$ từ nhóm có thứ tự $v(K^*)$ lên nhóm có thứ tự $v'(K^*)$ sao cho $v' = A \circ v$.*
 
@@ -125,7 +125,7 @@ Giả sử $v$ và $v'$ là tương đương; theo giả thiết, vành $A$ củ
 
 Giả sử nay $K$ là một trường giao hoán; khi đó, với mọi định giá $v$ trên $K$, vành $A$ của định giá $v$ là một vành định giá của $K$ theo nghĩa của § 1, no. 2, Định nghĩa 2 (điều này biện minh cho *thuật ngữ*); điều này suy ra ngay lập tức từ Mệnh đề 2 (c) và § 1 no. 2, Định lý 1 (c). *Ngược lại*, nhắc lại rằng với mọi miền nguyên $B$ có trường phân thức là $K$ thì quan hệ chia hết $x|y$ (tương đương với $y \in Bx$) làm cho $K^*$ thành một nhóm tiền thứ tự, mà *nhóm có thứ tự liên kết* $\Gamma_B$ là thương $K^*/U(B)$ của $K^*$ theo nhóm $U(B)$ gồm các phần tử khả nghịch của $B$, các phần tử dương của nhóm này là các phần tử của $B^*/U(B)$ (trong đó $B^* = B - \{0\}$); ánh xạ $x \mapsto Bx$ xác định, bằng cách chuyển qua thương, một đẳng cấu của nhóm có thứ tự $K^*/U(B)$ lên nhóm (được sắp thứ tự bởi quan hệ $\supset$) các iđêan phân thức chính khác không của $K$ (*Đại số*, Chương VI, § 1, no. 5). Các vành $A$ có trường phân thức $K$ và sao cho nhóm $\Gamma_A = K^*/U(A)$ *được sắp thứ tự toàn phần* chính xác là các *vành định giá của K* (§ 1, no. 2, Định lý 1 (d)). Nếu $v_A$ ký hiệu *đồng cấu chính tắc* của $K^*$ lên $\Gamma_A$, thì hiển nhiên $v_A$ (được mở rộng bởi $v_A(0) = +\infty$) là một định giá (gọi là *chính tắc*) trên $K$ mà vành của nó là $A$; mọi định giá tương đương với $v_A$ có thể viết $v = \sigma \circ v_A$, trong đó $\sigma$ là một đẳng cấu của $\Gamma_A$ lên một nhóm con của nhóm mà $v$ nhận giá trị của nó (Mệnh đề 3); $\sigma \circ v_A$ được gọi là *phân tích chính tắc* của $v$.
 
-#### Mệnh đề 4 {#ac-vi-s3-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vi-s3-prop-4 .statement tag=04T7}
 
 *Cho $C$ là một miền nguyên, $K$ là trường phân thức của nó, $C^* = C - \{0\}$ và $v : C \to \Gamma_\infty$ là một định giá trên $C$. Khi đó tồn tại một định giá duy nhất $w$ trên $K$ mở rộng $v$ và $w(K^*)$ là nhóm con của $\Gamma$ sinh bởi $v(C^*)$.*
 
@@ -156,7 +156,7 @@ $$
 
 Mọi kết quả liên hệ với các vành định giá, các vị trí hoặc các định giá đều có thể được chuyển dịch thành một kết quả liên hệ với hai khái niệm kia. Như vậy Mệnh đề 4 của § 2, no. 4 cho:
 
-#### Mệnh đề 5 {#ac-vi-s3-prop-5 .statement}
+#### Mệnh đề 5 {#ac-vi-s3-prop-5 .statement tag=04T8}
 
 *Cho $K$ là một trường, $v$ là một định giá trên $K$ và $K'$ là một mở rộng của $K$. Tồn tại một định giá $v'$ trên $K'$ mà hạn chế của nó lên $K$ tương đương với $v$.*
 
@@ -166,7 +166,7 @@ Lưu ý rằng $\Gamma_{v'}$ nói chung *khác với* $\lambda(\Gamma_v)$ và l�
 
 Dịch Định lý 3 của § 1, no. 3 (hoặc Mệnh đề 6 của § 2, no. 5), ta thu được:
 
-#### Mệnh đề 6 {#ac-vi-s3-prop-6 .statement}
+#### Mệnh đề 6 {#ac-vi-s3-prop-6 .statement tag=04T9}
 
 *Cho $K$ là một trường, $A$ là một vành con của $K$ và $x$ là một phần tử của $K$. Để $x$ nguyên trên $A$, điều kiện cần và đủ là mọi định giá trên $K$ dương trên $A$ đều dương tại $x$.*
 
@@ -176,19 +176,19 @@ Từ nay trở đi, nói chung ta sẽ để cho người đọc công việc th
 
 Các ví dụ về vành định giá được cho ở § 1, no. 4 cung cấp cho ta *Ví dụ 1 đến 4* dưới đây:
 
-#### Ví dụ (1) {#ac-vi-s3-n4-exa-1 .statement}
+#### Ví dụ (1) {#ac-vi-s3-n4-exa-1 .statement tag=04TA}
 
 Mọi định giá trên một trường hữu hạn F đều là tầm thường, vì mọi phần tử của F* đều là một căn của đơn vị.
 
-#### Ví dụ (2) {#ac-vi-s3-n4-exa-2 .statement}
+#### Ví dụ (2) {#ac-vi-s3-n4-exa-2 .statement tag=04TB}
 
 Nếu K là một trường con của một trường K', thì hạn chế lên K của một định giá trên K' là một định giá trên K.
 
-#### Ví dụ (3) {#ac-vi-s3-n4-exa-3 .statement}
+#### Ví dụ (3) {#ac-vi-s3-n4-exa-3 .statement tag=04TC}
 
 Cho k là một trường và K = k((T)). Ánh xạ v gán cho mỗi chuỗi lũy thừa hình thức khác không bậc của nó (Đại số, Chương IV, § 5, no. 7) là một định giá trên K mà nhóm giá trị là Z và vành của nó là k[[T]]. Điểm tương ứng là đồng cấu chính tắc f: k[[T]] → k được mở rộng lên k((T)) bằng cách đặt f(u) = ∞ nếu u ∉ k[[T]].
 
-#### Ví dụ (4) {#ac-vi-s3-n4-exa-4 .statement}
+#### Ví dụ (4) {#ac-vi-s3-n4-exa-4 .statement tag=04TD}
 
 Cho A là một miền iđêan chính, K là trường phân thức của nó và p là một phần tử bất khả quy của A. Với x ∈ K* hãy ký hiệu v_p(x) là số mũ của p trong phân tích của x thành các phần tử bất khả quy (Đại số, Chương VII, § 1, no. 3, Định lý 2); hiển nhiên thấy rằng v_p là một định giá mà nhóm giá trị là Z và vành của nó là A_{A_p}. Theo Mệnh đề 3 của § 1, no. 4 ta do đó thu được, tới tương đương, mọi định giá trên K không tầm thường và dương trên A. Lấy A = Z ta thu lại các định giá p-adic trên Q (Tôpô đại cương, Chương IX, § 3, no. 2); những định giá này, tới tương đương, là những định giá duy nhất trên Q không tầm thường (§ 1, no. 4, Hệ quả 1 của Mệnh đề 3). Lấy A = k[X], với k là một trường, các định giá không tầm thường trên k(X) mà các hạn chế lên k là tầm thường là (tới tương đương): một mặt là các định giá v_P, với P chạy qua tập các đa thức bất khả quy đơn nhất của k[X], và mặt khác là định giá v được xác định bởi
 
@@ -198,13 +198,13 @@ $$
 
 cho P ∈ k[X] và Q ∈ k[X] (§ 1, no. 4, Hệ quả 2 của Mệnh đề 3); tất cả những định giá này hiển nhiên có Z làm nhóm giá trị và các trường thặng dư của chúng là các mở rộng đại số đơn sinh của k (Đại số, Chương V, § 3, no. 1).
 
-#### Ví dụ (5) {#ac-vi-s3-n4-exa-5 .statement}
+#### Ví dụ (5) {#ac-vi-s3-n4-exa-5 .statement tag=04TE}
 
 Ánh xạ P(X, Y) ↦ P(T, e^T) từ C[X, Y] vào C((T)) là đơn ánh (Hàm của một biến thực, Chương IV, §2, Mệnh đề 9) và do đó có thể được mở rộng thành một đẳng cấu từ C(X, Y) lên một trường con của C((T)). Hạn chế của định giá trên C((T)) được xác định trong Ví dụ 3 lên trường con này xác định một định giá trên C(X, Y) là tầm thường trên C, mà nhóm giá trị là Z và trường thặng dư của nó là C.
 
 Mệnh đề 4 của no. 2 cho phép ta xây dựng một định giá mà nhóm giá trị và trường thặng dư của nó được cho trước:
 
-#### Ví dụ (6) {#ac-vi-s3-n4-exa-6 .statement}
+#### Ví dụ (6) {#ac-vi-s3-n4-exa-6 .statement tag=04TF}
 
 Cho Γ là một nhóm được sắp thứ tự toàn phần và k là một trường. Gọi Γ_+ là monoid các phần tử dương của Γ và C là đại số của Γ_+ trên k. Theo định nghĩa, C có một cơ sở (x_\alpha)_{\alpha \in \Gamma_-} trên k mà bảng phép nhân là x_\alpha x_\beta = x_{\alpha + \beta}. Nếu $x = \sum a_\alpha x_\alpha$ là một phần tử khác không của C, ta viết $v(x) = \inf_{a_\alpha \neq 0} (a)$ và $v(0) = +\infty$; kiểm tra ngay lập tức được rằng ánh xạ $v$ từ $C$ vào $\Gamma_\infty$ thỏa mãn các điều kiện (VL_I) và (VL_{II}) của no. 1 và rằng $C$ là một miền nguyên. Gọi $K$ là trường phân thức của $C$ và $w$ là định giá trên $K$ mở rộng $v$ (Mệnh đề 4, no. 2). Vì mọi phần tử của $\Gamma$ là hiệu của hai phần tử dương, $w$ nhận $\Gamma$ làm nhóm có thứ tự. Gọi $A$ là vành của $w$ và $m$ là iđêan cực đại của nó; ta sẽ chỉ ra rằng $A$ là tổng trực tiếp của $m$ và $k$ (được đồng nhất với $k \cdot 1$), điều này sẽ chứng minh rằng trường thặng dư của $w$ đẳng cấu với $k$. Rõ ràng $m \cap k = (0)$. Mặt khác, ký hiệu bởi $p$ iđêan của $C$ sinh bởi các $x_a$ với $a > 0$, mọi phần tử $x$ có định giá 0 trong $K$ có thể viết dưới dạng $(a + y)/(b + z)$ trong đó $a \in k^*, b \in k^*, y \in p$ và $z \in p$; khi đó
 
@@ -220,13 +220,13 @@ Các phép dựng khác của các định giá dùng Mệnh đề 4 của no. 2
 
 ### 5. IĐÊAN CỦA MỘT VÀNH ĐỊNH GIÁ
 
-#### Định nghĩa 2 {#ac-vi-s3-def-2 .statement}
+#### Định nghĩa 2 {#ac-vi-s3-def-2 .statement tag=04TG}
 
 *Tập G là một tập hợp có thứ tự. Một tập con của G được gọi là chặn trên nếu các quan hệ $x \in M$ và $y \geq x$ kéo theo $y \in M$.*
 
 Cho $K$ là một trường, $v$ là một định giá trên $K$, $A$ là vành của $v$ và $G$ là nhóm có thứ tự của $v$. Với mỗi tập con trội $M \subset G$, đặt $a(M)$ là tập các $x \in K$ sao cho $v(x) \in M \cup \{+\infty\}$. Rõ ràng $a(M)$ là một A-môđun con của $K$.
 
-#### Mệnh đề 7 {#ac-vi-s3-prop-7 .statement}
+#### Mệnh đề 7 {#ac-vi-s3-prop-7 .statement tag=04TH}
 
 *Ánh xạ $M \mapsto a(M)$ là một song ánh tăng từ tập các tập con trội của $G$ lên tập các A-môđun con của $K$.*
 
@@ -239,7 +239,7 @@ Công thức (2) là dễ, vì với mọi $m \in N$, tồn tại $x \in K$ sao 
 
 khi đó $v(x) \in M(b)$ và do đó tồn tại $y \in b$ sao cho $v(x) = v(y)$; suy ra $x = uy$ với $v(u) = 0$, điều này chứng minh rằng $x \in A$ $y \subset b$ và hoàn tất chứng minh.
 
-#### Hệ quả {#ac-vi-s3-n5-cor-1 .statement}
+#### Hệ quả {#ac-vi-s3-n5-cor-1 .statement tag=04TI}
 
 Cho $G_+$ là tập các phần tử dương trong $G$. Ánh xạ $M \mapsto a(M)$ là một song ánh từ tập các tập con trội của $G_+$ lên tập các iđêan của $A$.
 
@@ -249,13 +249,13 @@ Chẳng hạn iđêan cực đại $m(A)$ bằng $a(S)$, trong đó $S$ ký hi�
 
 ### 6. CÁC ĐỊNH GIÁ RỜI RẠC
 
-#### Định nghĩa 3 {#ac-vi-s3-def-3 .statement}
+#### Định nghĩa 3 {#ac-vi-s3-def-3 .statement tag=04TJ}
 
 Cho $K$ là một trường (không nhất thiết giao hoán), $v$ một định giá trên $K$ và $\Gamma$ nhóm có thứ tự của $v$. $v$ được gọi là rời rạc nếu tồn tại một đẳng cấu (tất yếu là duy nhất) từ nhóm có thứ tự $\Gamma$ lên $\mathbf{Z}$. Gọi $\gamma$ là phần tử của $\Gamma$ tương ứng với $1$ dưới đẳng cấu này; mọi phần tử $u$ của $K$ sao cho $v(u) = \gamma$ đều được gọi là một phần tử chuẩn hóa của $v$. Một định giá rời rạc được gọi là chuẩn hóa nếu nhóm có thứ tự của nó là $\mathbf{Z}$.
 
 Ví dụ, định giá $v_p$ được xác định bởi một phần tử cực biên $p$ của một iđêan chính *hoặc miền phân tích duy nhất, là một định giá rời rạc chuẩn hóa nhận $p$ làm phần tử chuẩn hóa. Đặc biệt, nếu $k$ là một trường, $k[[T]]$ là vành của một định giá rời rạc trên $k((T))$ nhận $T$ làm phần tử chuẩn hóa. Cho $S$ là một đa tạp giải tích phức liên thông chiều 1, $K$ trường các hàm phân hình trên $S$ và $z_0$ một điểm của $S$; tập hợp các f $\in K$ giải tích tại $z_0$ là vành của một định giá rời rạc $v$; để một hàm $f \in K$ là một phần tử chuẩn hóa đối với $v$, điều kiện cần và đủ là nó giải tích và không tại $z_0$ và tồn tại một lân cận $V$ của $z_0$ trong $S$ sao cho hạn chế của f lên $V$ là một đồng cấu từ $V$ lên một lân cận của gốc trong $\mathbf{C}$. Chính ví dụ này và các tương tự khác là nguồn gốc của từ "phần tử chuẩn hóa".*
 
-#### Mệnh đề 8 {#ac-vi-s3-prop-8 .statement}
+#### Mệnh đề 8 {#ac-vi-s3-prop-8 .statement tag=04TK}
 
 Cho $K$ là một trường (không nhất thiết giao hoán), $v$ một định giá rời rạc trên $K$, $A$ vành của $v$ và $u$ một phần tử chuẩn hóa đối với $v$. Các iđêan khác không của $A$ là hai phía và có dạng $Au^n$ ($n \geq 0$).
 
@@ -267,7 +267,7 @@ $$
 
 trong đó $z, z'$ là hai phần tử khả nghịch của vành $A$; do đó suy ra mệnh đề.
 
-#### Mệnh đề 9 {#ac-vi-s3-prop-9 .statement}
+#### Mệnh đề 9 {#ac-vi-s3-prop-9 .statement tag=04TL}
 
 Cho $A$ là một miền nguyên địa phương khác với trường phân thức của nó. Các điều kiện sau là tương đương:
 (a) $A$ là vành của một định giá rời rạc.
@@ -279,7 +279,7 @@ Cho $A$ là một miền nguyên địa phương khác với trường phân th�
 
 Mệnh đề 8 cho thấy rằng (a) suy ra (b), (d) và (e). Nếu $A$ là một miền iđêan chính, thì $m(A) = Au$ và mọi iđêan khác không của $A$ đều có dạng $Au^n$ vì $A$ là địa phương (*Algebra*, chương VII, § 1, no. 3, Định lý 2); do đó $\bigcap_{n=1}^\infty m(A)^n = 0$; điều này cho thấy rằng (b) suy ra (c). Mặt khác (d) suy ra (c) (chương III, § 3, no. 2, Hệ quả của Mệnh đề 5); theo Mệnh đề 2 của § 1, no. 4, (c) suy ra (a). Vậy các điều kiện (a), (b), (c), (d) là tương đương và suy ra (e). Cuối cùng giả sử (e) đúng và ta hãy chứng minh rằng (b) đúng; chỉ cần chứng minh bổ đề sau:
 
-#### Bổ đề 1 {#ac-vi-s3-lem-1 .statement}
+#### Bổ đề 1 {#ac-vi-s3-lem-1 .statement tag=04TM}
 
 *Cho $A$ là một vành định giá. Mọi $A$-môđun xoắn tự do sinh hữu hạn đều là tự do. Mọi iđêan sinh hữu hạn $\mathfrak{a}$ của $A$ đều là chính. Mọi $A$-môđun xoắn tự do đều phẳng.*
 

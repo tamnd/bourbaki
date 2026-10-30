@@ -20,14 +20,14 @@ subsections:
       pdf_page: 225
 statements: 10
 exercises: 7
-content_sha256: 2982b284ecc8b081ca9b78c0bb642ec1d5fc8ab8ba71ce917c6c2efce76f84e4
+content_sha256: 7ec3fd1d7c679a5e1b98879c2429b22913f029d6ece41ddf3cfef60fc35a10b1
 ---
 
 ## § 8. Groupes de Lie sur $\mathbf{R}$ ou $\mathbf{Q}_p$
 
 ### 1. Morphismes continus
 
-#### Théorème 1 {#lie-iii-s8-thm-1 .statement}
+#### Théorème 1 {#lie-iii-s8-thm-1 .statement tag=0AI2}
 
 Soient $G$ et $H$ deux groupuscules de Lie sur $\mathbf{R}$ ou $\mathbf{Q}_p$. Soit $f$ un morphisme continu de $G$ dans $H$. Alors $f$ est analytique.
 
@@ -75,32 +75,32 @@ $$
 $$
 Ainsi, $h$ est linéaire continu, donc $g = h|V$ est analytique, donc $f$ est analytique dans $\varphi(V)$, donc $f$ est analytique (§ 1, n° 10).
 
-#### Corollaire 1 {#lie-iii-s8-thm-1-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s8-thm-1-cor-1 .statement tag=0AI3}
 
 Soit $G$ un groupe topologique. Il existe sur $G$ au plus une structure de variété analytique sur $\mathbf{R}$ (resp. $\mathbf{Q}_p$) compatible avec la structure de groupe et la topologie de $G$.
 Cela résulte aussitôt du th. 1.
 
-#### Définition 1 {#lie-iii-s8-def-1 .statement}
+#### Définition 1 {#lie-iii-s8-def-1 .statement tag=0AI4}
 
 On dit qu’un groupe topologique $G$ est un groupe de Lie réel (resp. $p$-adique) s’il existe sur $G$ une structure de groupe de Lie réel (resp. $p$-adique) compatible avec sa topologie.
 
 Cette structure est alors unique et on peut donc parler de la dimension d’un tel groupe. Si G et H sont deux tels groupes, tout morphisme continu de G dans H est analytique.
 
-#### Corollaire 2 {#lie-iii-s8-def-1-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s8-def-1-cor-2 .statement tag=0AI5}
 
 Soient G un groupe topologique, V un voisinage ouvert de e. On suppose V muni d’une structure de variété analytique qui en fait un groupuscule de Lie réel (resp. p-adique). Alors G est un groupe de Lie réel (resp. p-adique).
 
 Soit g ∈ G. Il existe un voisinage ouvert V’ de e dans G tel que V’ ∪ gV’g⁻¹ ⊂ V. L’application v ↦ gvvg⁻¹ de V’ dans V est un morphisme continu, donc analytique, du groupuscule de Lie V’ dans le groupuscule de Lie V. Il suffit alors d’appliquer la prop. 18 du § 1, n° 9.
 
-#### Remarque 1 {#lie-iii-s8-n1-rem-1 .statement}
+#### Remarque 1 {#lie-iii-s8-n1-rem-1 .statement tag=0AI6}
 
 Le th. 1 et ses corollaires deviennent inexact si on y remplace R (resp. Q_p) par exemple par C (exerc. 1).
 
-#### Remarque 2 {#lie-iii-s8-n1-rem-2 .statement}
+#### Remarque 2 {#lie-iii-s8-n1-rem-2 .statement tag=0E8P}
 
 Soit G un groupe topologique. On peut montrer¹ que les conditions suivantes sont équivalentes : a) G est un groupe de Lie réel de dimension finie ; b) G est localement compact et il existe un voisinage de e ne contenant aucun sous-groupe distinct de {e} ; c) il existe un voisinage ouvert de e homéomorphe à une boule ouverte d’un espace R^n. (Pour un résultat beaucoup moins difficile, cf. exerc. 6).
 
-#### Proposition 1 {#lie-iii-s8-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s8-prop-1 .statement tag=0AI7}
 
 Soient G, G’ des groupes topologiques, f un morphisme continu de G dans G’. On suppose qu’on est dans l’un des trois cas suivants :
 
@@ -117,7 +117,7 @@ Cas c. D’après le § 7, th. 4 et cor. de la prop. 8, il existe un voisinage V
 
 ### 2. Sous-groupes fermés
 
-#### Théorème 2 {#lie-iii-s8-thm-2 .statement}
+#### Théorème 2 {#lie-iii-s8-thm-2 .statement tag=0AI8}
 
 Soit G un groupe de Lie de dimension finie sur R ou Q_p. Tout sous-groupe fermé de G est un sous-groupe de Lie de G. Plus généralement, soient U un voisinage
 
@@ -150,13 +150,13 @@ Donc l’application f : λ ↦ exp λy, où $\lambda y \in \frac{1}{4} V_2$, pr
 
 Le th. 2 devient inexact si on ne suppose pas G de dimension finie (exerc. 12.)
 
-#### Corollaire 1 {#lie-iii-s8-thm-2-cor-1 .statement}
+#### Corollaire 1 {#lie-iii-s8-thm-2-cor-1 .statement tag=0AI9}
 
 Soient $G'$ un groupe localement compact, $G$ un groupe de Lie de dimension finie sur $\mathbf{R}$ (resp. $\mathbf{Q}_p$), $f$ un morphisme continu de $G'$ dans $G$. Si le noyau de $f$ est discret, $G'$ est un groupe de Lie réel (resp. $p$-adique) de dimension finie.
 
 Il existe un voisinage compact $V$ de $e$ dans $G'$ tel que $f|V$ soit un homéomorphisme de $V$ sur un sous-espace compact de $G$. Si $U$ est un voisinage ouvert de $e$ assez petit dans $G$, les hypothèses du th. 2 sont vérifiées avec $H = f(V) \cap U$. Donc $H$ est un sous-groupuscule de Lie de $G$. Soit $W$ l’image réciproque de $H$ par $f|V$. Alors $W$ est un voisinage de $e$ dans $G'$. Munissons $W$ de la structure de variété analytique transportée de celle de $H$ par $(f|W)^{-1}$. Pour tout $z \in G'$, l’application $x \mapsto f(z)x f(z)^{-1}$ de $G$ dans $G$ est analytique; donc il existe un voisinage ouvert $W'$ de $e$ dans $W$ tel que l’application $x' \mapsto zx'z^{-1}$ de $W'$ dans $W$ soit analytique. D’après la prop. 18 du § 1, n° 9, il existe sur $G'$ une structure de groupe de Lie qui induit, sur un voisinage ouvert assez petit de $e$, la même structure analytique que $W$, et donc la même topologie que la topologie initialement donnée de $G'$.
 
-#### Corollaire 2 {#lie-iii-s8-thm-2-cor-2 .statement}
+#### Corollaire 2 {#lie-iii-s8-thm-2-cor-2 .statement tag=0AIA}
 
 Soient $G$ un groupe de Lie de dimension finie sur $K$, $H$ un sous-groupe de $G$, $V$ un voisinage ouvert de $e$ dans $G$, $(M_i)_{i \in I}$ une famille de variétés analytiques sur $K$; pour tout $i \in I$, soit $f_i$ une application $K$-analytique de $V$ dans $M_i$ telle que $H \cap V = \{ x \in V | f_i(x) = f_i(e) \text{ pour tout } i \in I \}$.
 

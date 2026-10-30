@@ -12,14 +12,14 @@ pdf_pages: 0146-0148, 0176-0177
 extraction: ocr
 statements: 9
 exercises: 4
-content_sha256: 3a53fd052fc69cb2fc95ccf33e4de90716704d6ed822527ac316f332355179f8
+content_sha256: f4776b27a987428dfb608588a493b7d6b68d554bd7ac3571a6215c79f46ce4d5
 ---
 
 ## § 2. ESPACES BORNOLOGIQUES
 
 Dans ce paragraphe, E désigne un espace localement convexe, et $\mathscr{B}$ sa bornologie canonique (III, p. 3, déf. 5).
 
-#### Lemme 1 {#evt-iii-s2-lem-1 .statement}
+#### Lemme 1 {#evt-iii-s2-lem-1 .statement tag=07M8}
 
 Soient G un espace semi-normé, p sa semi-norme, et soit u une application linéaire de G dans E. Les conditions suivantes sont équivalentes :
 
@@ -29,7 +29,7 @@ Soient G un espace semi-normé, p sa semi-norme, et soit u une application liné
 
 Il est immédiat que (i) entraîne (ii) (III, p. 4, cor. 1) et que (ii) entraîne (iii). Soit maintenant V un voisinage de 0 dans E ; si $u^{-1}(V)$ n’est pas un voisinage de 0 dans G, il existe une suite $(y_n)$ de points de G – $u^{-1}(V)$ telle que $p(y_n) \leqslant \frac{1}{n^2}$. Alors la suite des $x_n = ny_n$ tend vers 0 dans G et $u(x_n) \notin nV$, ce qui entraîne que la suite $(u(x_n))$ n’est pas bornée. Par suite (iii) entraîne (i).
 
-#### Proposition 1 {#evt-iii-s2-prop-1 .statement}
+#### Proposition 1 {#evt-iii-s2-prop-1 .statement tag=07M9}
 
 Les conditions suivantes sont équivalentes :
 
@@ -47,37 +47,37 @@ Soit maintenant (E_i, u_i)_{i \in I} comme dans (ii bis), et soit u une applicat
 
 Il est immédiat que (iii) entraîne (iii bis) (III, p. 3, corollaire). Enfin, si p est une semi-norme sur E, bornée sur les parties bornées de E, la condition (iii bis) affirme que l’application identique est continue de E dans l’espace semi-normé (E, p) ; autrement dit p est continue. Ceci montre que (iii bis) entraîne (i).
 
-#### Définition 1 {#evt-iii-s2-def-1 .statement}
+#### Définition 1 {#evt-iii-s2-def-1 .statement tag=07MA}
 
 On dit qu’un espace localement convexe est bornologique s’il satisfait aux conditions équivalentes de la prop. 1.
 
-#### Exemple 1 {#evt-iii-s2-exa-1 .statement}
+#### Exemple 1 {#evt-iii-s2-exa-1 .statement tag=0E4Z}
 
 Tout espace semi-normé est bornologique.
 
-#### Exemple 2 {#evt-iii-s2-exa-2 .statement}
+#### Exemple 2 {#evt-iii-s2-exa-2 .statement tag=0E50}
 
 En particulier, tout espace localement convexe de dimension finie est bornologique.
 
-#### Exemple 3 {#evt-iii-s2-exa-3 .statement}
+#### Exemple 3 {#evt-iii-s2-exa-3 .statement tag=0E51}
 
 Compte tenu de la transitivité des topologies localement convexes finales (II, p. 30, cor. 2), on déduit aussitôt de la condition (ii bis) que si (E_i)_{i \in I} est une famille d’espaces localement convexes bornologiques et si E est muni de la topologie localement convexe la plus fine rendant continues des applications linéaires u_i : E_i → E (pour i ∈ I), alors E est bornologique. En particulier, une limite inductive, une somme directe, un espace quotient d’espaces bornologiques sont des espaces bornologiques.
 
 Par contre, un sous-espace fermé d’un espace bornologique n’est pas nécessairement bornologique (IV, p. 63, exerc. 8).
 
-#### Corollaire {#evt-iii-s2-n0-cor-1 .statement}
+#### Corollaire {#evt-iii-s2-n0-cor-1 .statement tag=07MC}
 
 Tout espace bornologique séparé et semi-complet est limite inductive d’espaces de Banach.
 
 En effet, les espaces E_A où A est borné et fermé sont alors des espaces de Banach (III, p. 8, corollaire).
 
-#### Proposition 2 {#evt-iii-s2-prop-2 .statement}
+#### Proposition 2 {#evt-iii-s2-prop-2 .statement tag=07MD}
 
 Un espace localement convexe métrisable est bornologique.
 
 Supposons E métrisable, et soit p une semi-norme sur E, bornée sur les parties bornées de E. Supposons que p ne soit pas continue et soit A l’ensemble des x ∈ E tels que p(x) < 1. Soit (V_n)_{n \geq 1} une suite décroissante formant un système fondamental de voisinages de 0 dans E. Comme p n’est pas continue, A n’est pas un voisinage de 0 ; pour tout $n > 0$, on a donc $A \not\supseteq n^{-1}V_n$ et il existe un point $x_n$ de $V_n$ tel que $n^{-1}x_n \notin A$, c’est-à-dire $p(x_n) \geq n$. La suite $(x_n)$ tend vers 0, donc est bornée (III, p. 3, corollaire) ; ceci contredit l’hypothèse sur $p$.
 
-#### Corollaire {#evt-iii-s2-n0-cor-2 .statement}
+#### Corollaire {#evt-iii-s2-n0-cor-2 .statement tag=07ME}
 
 *Tout espace de Fréchet* (II, p. 26) *est limite inductive d’espaces de Banach*.
 

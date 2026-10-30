@@ -56,7 +56,7 @@ subsections:
       pdf_page: 36
 statements: 50
 exercises: 30
-content_sha256: 1eeccef3abe3394a4d537d6aac511fcc8bf795295de5a5d875612d7779af1c11
+content_sha256: 05a01bf043a520c1344fa7ca36b7761756be40274a0f7bbed67e5e49751773bb
 ---
 
 ## § 1. Construction d'une mesure de Haar.
@@ -95,7 +95,7 @@ $$ \int_X f(x)d\mu(s^{-1}x) = \int_X f(sx)d\mu(x); $$
 
 le membre de droite se déduit de celui de gauche « en changeant x en sx ».
 
-#### Définition 1 {#int-vii-s1-def-1 .statement}
+#### Définition 1 {#int-vii-s1-def-1 .statement tag=09CY}
 
 Soit $\mu$ une mesure sur X.
 a) On dit que $\mu$ est invariante par G si $\gamma(s)\mu = \mu$ pour tout $s \in G$.
@@ -104,11 +104,11 @@ b) On dit que $\mu$ est relativement invariante par $G$ si $\gamma(s)\mu$ est pr
 
 c) On dit que $\mu$ est quasi-invariante par $G$ si $\gamma(s)\mu$ est équivalente à $\mu$ pour tout $s \in G$.
 
-#### Remarque 1 {#int-vii-s1-n1-rem-1 .statement}
+#### Remarque 1 {#int-vii-s1-n1-rem-1 .statement tag=09CZ}
 
 Supposons $\mu$ invariante. Alors $|\mu|$, $\Re \mu$, $\mathscr{I}\mu$ sont invariantes. Si $\mu$ est réelle, $\mu^+$ et $\mu^-$ sont invariantes.
 
-#### Remarque 2 {#int-vii-s1-n1-rem-2 .statement}
+#### Remarque 2 {#int-vii-s1-n1-rem-2 .statement tag=0E6Y}
 
 Supposons $\mu$ relativement invariante et non nulle. Il existe, pour tout $s \in G$, un nombre complexe $\chi(s)$ unique tel que
 
@@ -134,7 +134,7 @@ $$
 d\mu(sx) = \chi(s)d\mu(x).
 $$
 
-#### Remarque 3 {#int-vii-s1-n1-rem-3 .statement}
+#### Remarque 3 {#int-vii-s1-n1-rem-3 .statement tag=0E6Z}
 
 Comme $|\gamma(s)\mu| = \gamma(s)(|\mu|)$, dire que $\mu$ est quasi-invariante revient à dire que $|\mu|$ est quasi-invariante.
 
@@ -144,7 +144,7 @@ Pour que $\mu$ soit quasi-invariante, il faut et il suffit que l'ensemble des pa
 
 Si $\mu$ est quasi-invariante, le support de $\mu$ est invariant par G. En particulier, si G est transitif dans X, ce support est ou bien vide (si $\mu = 0$) ou bien égal à X (si $\mu \neq 0$).
 
-#### Lemme 1 {#int-vii-s1-lem-1 .statement}
+#### Lemme 1 {#int-vii-s1-lem-1 .statement tag=09D0}
 
 Soient X, Y, Z trois espaces topologiques, Y étant localement compact. Soit $(x, y) \to xy$ une application continue de $X \times Y$ dans Z, qui définit une application $x \to u_x$ de X dans $\mathscr{F}(Y; Z)$ par la relation $u_x(y) = xy$. Soient $f$ une fonction continue dans Z, à valeurs dans $\overline{\mathbf{R}}$ ou dans un espace de Banach, S le support de $f$, et $\mu$ une mesure sur Y. On suppose que, pour tout $x_0 \in X$, il existe un voisinage V de $x_0$ dans X tel que $\bigcup_{x \in V} u_x^{-1}(S)$ soit relativement compact dans Y. Alors :
 
@@ -156,7 +156,7 @@ L’assertion a) est évidente. Prouvons b). Comme la continuité est une propri
 
 Revenons maintenant aux notations antérieures.
 
-#### Proposition 1 {#int-vii-s1-prop-1 .statement}
+#### Proposition 1 {#int-vii-s1-prop-1 .statement tag=09D1}
 
 Supposons G localement compact. Soit $\mu$ une mesure relativement invariante non nulle sur X. Alors son multiplicateur $\chi$ est une fonction continue dans G.
 
@@ -249,11 +249,11 @@ $\int_G f(x)d\mu(x^{-1}) = \int_G f(x^{-1})d\mu(x).$
 
 ### 2. Le théorème d’existence et d’unicité.
 
-#### Définition 2 {#int-vii-s1-def-2 .statement}
+#### Définition 2 {#int-vii-s1-def-2 .statement tag=09D2}
 
 Soit G un groupe localement compact. On appelle mesure de Haar à gauche (resp. à droite) sur G une mesure positive non nulle sur G, invariante à gauche (resp. à droite).
 
-#### Théorème 1 {#int-vii-s1-thm-1 .statement}
+#### Théorème 1 {#int-vii-s1-thm-1 .statement tag=09D3}
 
 Sur tout groupe localement compact, il existe une mesure de Haar à gauche (resp. à droite), et, à un facteur constant près, il n’en existe qu’une.
 
@@ -358,15 +358,15 @@ $$
 
 La formule (19) s’étend par linéarité aux fonctions $f \in \mathscr{K}$ telles que $\mu(f) = 0$. On a $D(e) \neq 0$ puisque $\tilde{\nu} \neq 0$. Ceci établit bien la proportionnalité de $\mu$ et $\tilde{\nu}$.
 
-#### Corollaire {#int-vii-s1-n2-cor-1 .statement}
+#### Corollaire {#int-vii-s1-n2-cor-1 .statement tag=09D4}
 
 *Toute mesure invariante à gauche (resp. à droite) sur G est proportionnelle à une mesure de Haar à gauche (resp. à droite).*
 
-#### Exemple 1 {#int-vii-s1-n2-exa-1 .statement}
+#### Exemple 1 {#int-vii-s1-n2-exa-1 .statement tag=09D5}
 
 Sur le groupe additif $\mathbf{R}$, la mesure de Lebesgue $dx$ est une mesure de Haar (Chap. III, § 2, n° 2, *Exemple*).
 
-#### Exemple 2 {#int-vii-s1-n2-exa-2 .statement}
+#### Exemple 2 {#int-vii-s1-n2-exa-2 .statement tag=0E70}
 
 Pour toute fonction $f \in \mathscr{K}(\mathbf{R}_+^*)$, on a (*Fonct. var. réelle*, chap. II, § 1, formule (13))
 
@@ -375,7 +375,7 @@ $$
 $$
 quel que soit $t > 0$; la mesure $x^{-1} dx$ est donc une mesure de Haar sur le groupe multiplicatif $\mathbf{R}_+^*$.
 
-#### Exemple 3 {#int-vii-s1-n2-exa-3 .statement}
+#### Exemple 3 {#int-vii-s1-n2-exa-3 .statement tag=0E71}
 
 Prenons pour $G$ le tore $\mathbf{T} = \mathbf{R}/\mathbf{Z}$. Soit $\varphi$ l’application canonique de $\mathbf{R}$ sur $\mathbf{T}$. Pour $f \in \mathscr{H}(\mathbf{T})$, la fonction $f \circ \varphi$ est continue et périodique de période 1 sur $\mathbf{R}$, et l’intégrale
 $$
@@ -387,7 +387,7 @@ I(f) = \int_a^{a+1} f(e^{2\pi i t}) dt
 $$
 est une mesure de Haar sur le groupe multiplicatif $\mathbf{U}$ des nombres complexes de valeur absolue 1 (*Top. gén.*, chap. VIII, § 2, no 1).
 
-#### Proposition 2 {#int-vii-s1-prop-2 .statement}
+#### Proposition 2 {#int-vii-s1-prop-2 .statement tag=09D6}
 
 *Soient G un groupe localement compact, $\mu$ une mesure de Haar à gauche ou à droite sur G. Pour que G soit discret, il faut et il suffit que $\mu(\{e\}) > 0$. Pour que G soit compact, il faut et il suffit que $\mu^*(G) < +\infty$.*
 
@@ -401,13 +401,13 @@ donc $n \leq \mu^*(G)/\mu(V)$. On peut donc choisir dans $\mathscr{E}$ un élém
 
 Soit $\mu$ une mesure de Haar à gauche sur $G$. Pour tout $s \in G$, $\delta(s)\mu$ est encore invariante à gauche (n° 1, formule (11)), donc (th. 1) il existe un nombre unique $\Delta_G(s) > 0$ tel que $\delta(s)\mu = \Delta_G(s)\mu$. En vertu du th. 1, le nombre $\Delta_G(s)$ est indépendant du choix de $\mu$.
 
-#### Définition 3 {#int-vii-s1-def-3 .statement}
+#### Définition 3 {#int-vii-s1-def-3 .statement tag=09D7}
 
 La fonction $\Delta_G$ sur $G$ s'appelle le module de $G$. Si $\Delta_G = 1$, le groupe $G$ est dit unimodulaire.
 
 On peut dire aussi que $\mu$ est relativement invariante à droite de multiplicateur $\Delta_G$. Donc $\Delta_G$ est une représentation continue de $G$ dans $\mathbf{R}_+^*$ (n° 1, prop. 1).
 
-#### Remarque {#int-vii-s1-n3-rem-1 .statement}
+#### Remarque {#int-vii-s1-n3-rem-1 .statement tag=09D8}
 
 Si $\varphi$ est un isomorphisme de $G$ sur un groupe localement compact $G'$, on a $\Delta_{G'} \circ \varphi = \Delta_G$. En particulier :
 1) Comme $x \to x^{-1}$ est un isomorphisme de $G$ sur le groupe opposé $G^o$, on a $\Delta_{G^o} = \Delta_G^{-1}$.
@@ -503,7 +503,7 @@ $$
 
 On a des propriétés analogues pour l’intégrale essentielle.
 
-#### Proposition 3 {#int-vii-s1-prop-3 .statement}
+#### Proposition 3 {#int-vii-s1-prop-3 .statement tag=09D9}
 
 S’il existe dans G un voisinage compact V de e invariant par les automorphismes intérieurs, alors G est unimodulaire.
 
@@ -517,7 +517,7 @@ puisque $0 < \mu(V) < +\infty$.
 
 On en déduit aussitôt :
 
-#### Corollaire {#int-vii-s1-n3-cor-1 .statement}
+#### Corollaire {#int-vii-s1-n3-cor-1 .statement tag=09DA}
 
 Si G est discret, ou compact, ou commutatif, G est unimodulaire.
 
@@ -531,7 +531,7 @@ Un sous-groupe, un groupe quotient d'un groupe unimodulaire ne sont pas toujours
 
 Soient G un groupe localement compact, φ un automorphisme de G, μ une mesure de Haar à gauche sur G. Il est clair que $\varphi^{-1}(\mu)$ est encore une mesure de Haar à gauche sur G. Il existe donc (no 2, th. 1) un nombre $a > 0$ et un seul tel que $\varphi^{-1}(\mu) = a\mu$. D'après le no 2, th. 1, ce nombre est indépendant du choix de $\mu$. Remarquons que, si l'on partait d'une mesure de Haar à droite, par exemple $\Delta_G^{-1} \cdot \mu$ (no 3), on aboutirait au même scalaire $a$ : car, comme $\varphi^{-1}$ laisse $\Delta_G$ invariant (no 3, Remarque), on a $\varphi^{-1}(\Delta_G^{-1} \cdot \mu) = \Delta_G^{-1} \cdot \varphi^{-1}(\mu) = a \Delta_G^{-1} \cdot \mu$.
 
-#### Définition 4 {#int-vii-s1-def-4 .statement}
+#### Définition 4 {#int-vii-s1-def-4 .statement tag=09DB}
 
 Le nombre $a > 0$ tel que $\varphi^{-1}(\mu) = a\mu$ s'appelle le module de l'automorphisme $\varphi$ et se note $\mathrm{mod}_G \varphi$ ou simplement $\mathrm{mod} \varphi$.
 
@@ -560,7 +560,7 @@ et par suite
 
 Si G est soit discret, soit compact, sa mesure de Haar normalisée est transformée en elle-même par tout automorphisme $\varphi$ de G, comme on le voit tout de suite par transport de structure. Donc un automorphisme d'un groupe discret ou compact est de module 1.
 
-#### Proposition 4 {#int-vii-s1-prop-4 .statement}
+#### Proposition 4 {#int-vii-s1-prop-4 .statement tag=09DC}
 
 Soient G un groupe localement compact, $\Gamma$ un groupe topologique, et $\gamma \to u_\gamma$ un homomorphisme de $\Gamma$ dans le groupe $\mathscr{G}$ des automorphismes de G, tel que $(\gamma, x) \to u_\gamma(x)$ soit une application continue de $\Gamma \times G$ dans G. Alors l'application $\gamma \to \operatorname{mod}(u_\gamma)$ est une représentation continue de $\Gamma$ dans $\mathbf{R}_+^*$.
 
@@ -568,7 +568,7 @@ Cette application est évidemment une représentation (algébrique) de $\Gamma$ 
 
 ### 5. Mesure de Haar d'un produit.
 
-#### Proposition 5 {#int-vii-s1-prop-5 .statement}
+#### Proposition 5 {#int-vii-s1-prop-5 .statement tag=09DD}
 
 Soit $(G_i)_{i \in I}$ une famille de groupes localement compacts. Pour tout $i \in I$, soit $\mu_i$ une mesure de Haar à gauche (resp. à droite) sur $G_i$. On suppose qu'il existe une partie finie J de I telle que, pour tout $i \in I - J$, $G_i$ soit compact et $\mu(G_i) = 1$. Alors la mesure produit $\bigotimes_{i \in I} \mu_i$ est une mesure de Haar à gauche (resp. à droite) sur $G = \prod_{i \in I} G_i$. Si $x = (x_i) \in G$, on a
 
@@ -582,11 +582,11 @@ $$
 
 d'où $\Delta_G(x) = \prod_{i \in I} \Delta_{G_i}(x_i)$.
 
-#### Exemple 1 {#int-vii-s1-n5-exa-1 .statement}
+#### Exemple 1 {#int-vii-s1-n5-exa-1 .statement tag=09DE}
 
 La mesure de Lebesgue sur $\mathbf{R}^n$ est une mesure de Haar du groupe additif $\mathbf{R}^n$.
 
-#### Exemple 2 {#int-vii-s1-n5-exa-2 .statement}
+#### Exemple 2 {#int-vii-s1-n5-exa-2 .statement tag=0E72}
 
 L’application $(r, u) \to ru$ est un isomorphisme de $\mathbf{R}_+^* \times \mathbf{U}$ sur $\mathbf{C}^*$ (*Top. gén.*, chap. VIII, § 1, no 3). Si on identifie $\mathbf{C}^*$ à $\mathbf{R}_+^* \times \mathbf{U}$ par cet isomorphisme, et si on note $du$ une mesure de Haar de $\mathbf{U}$, $r^{-1} dr du$ est une mesure de Haar de $\mathbf{C}^*$ d’après l’exemple 2 du no 2. D’autre part, la bijection $\theta \to e^{2i\pi\theta}$ de $[0, 1[$ sur $\mathbf{U}$ transforme la mesure de Lebesgue $d\theta$ de $[0, 1[$ en une mesure de Haar sur $\mathbf{U}$ d’après l’exemple 3 du no 2. Il en résulte que, si $f \in \mathscr{H}(\mathbf{C}^*)$, l’intégrale
 
@@ -600,7 +600,7 @@ définit une mesure de Haar sur $\mathbf{C}^*$.
 
 Soit G un groupe localement compact (donc complet). Soit $(K_\alpha)_{\alpha \in A}$ une famille filtrante décroissante de sous-groupes distingués compacts de G, d’intersection $\{e\}$ (de sorte que la base de filtre formée des $K_\alpha$ converge vers $e$). Posons $G_\alpha = G/K_\alpha$; soient $\varphi_\alpha : G \to G_\alpha$ et $\varphi_{\beta \alpha} : G_\alpha \to G_\beta$ ($\alpha \geq \beta$) les homomorphismes canoniques. Alors la limite projective du système projectif $(G_\alpha, \varphi_{\beta \alpha})$ s’identifie à G et l’application canonique de cette limite projective dans $G_\alpha$ s'identifie à $\varphi_\alpha$ (*Top. Gén.*, chap. III, 3e éd., § 7, n° 3, prop. 2). Les applications $\varphi_\alpha$ et $\varphi_{\beta\alpha}$ sont propres (*loc. cit.*, § 4, n° 1, cor. 2 de la prop. 1). Ces données resteront fixées dans tout ce n°.
 
-#### Lemme 2 {#int-vii-s1-lem-2 .statement}
+#### Lemme 2 {#int-vii-s1-lem-2 .statement tag=0E73}
 
 a) *Soient* $f \in \mathscr{K}_+(G)$, *S une partie compacte de* $G$ *contenant* $\mathrm{Supp}\ f$, *U un voisinage ouvert de* $S$ *dans* $G$, *et* $\varepsilon > 0$. *Il existe un* $\alpha \in A$ *et une fonction* $g \in \mathscr{K}_+(G)$, *nulle hors de* $U$, *constante sur les classes suivant* $K_\alpha$, *telle que* $|f - g| \leq \varepsilon$.
 
@@ -610,17 +610,17 @@ Il existe un $\alpha_1 \in A$ tel que $K_{\alpha_1} S \cap K_{\alpha_1}(G - U) =
 
 Soient maintenant $\mu, \mu'$ deux mesures sur $G$ telles que $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ pour tout $\alpha \in A$. Soit $v \in \mathscr{K}(G)$ une fonction constante sur les classes suivant $K_\alpha$ pour un $\alpha \in A$, de sorte qu’on peut écrire $v = w \circ \varphi_\alpha$ avec $w \in \mathscr{K}(G_\alpha)$; on a alors $\mu(v) = (\varphi_\alpha(\mu))(w) = (\varphi_\alpha(\mu'))(w) = \mu'(v)$; on en conclut que $\mu = \mu'$ en vertu de a).
 
-#### Proposition 6 {#int-vii-s1-prop-6 .statement}
+#### Proposition 6 {#int-vii-s1-prop-6 .statement tag=09DF}
 
 *Pour tout $\alpha \in A$, soit $\mu_\alpha$ une mesure positive sur $G_\alpha$. On suppose que $\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$ pour $\alpha \geq \beta$. Il existe alors une mesure positive $\mu$ sur $G$ et une seule telle que $\varphi_\alpha(\mu) = \mu_\alpha$ pour tout $\alpha \in A$.*
 
 L’unicité résulte aussitôt du lemme 2 b). Prouvons l’existence de $\mu$. Soit V l’espace vectoriel des fonctions appartenant à $\mathscr{K}(G)$ et constantes sur les classes suivant un $K_\alpha$. D’après le lemme 2 a), V est un sous-espace vectoriel positivement riche (chap. III, § 2, no 5) de $\mathscr{K}(G)$. Soit $f \in V$. Il existe un $\alpha \in A$ tel que $f$ soit constante sur les classes suivant $K_\alpha$. Par passage au quotient, $f$ définit une fonction $f_\alpha \in \mathscr{K}(G_\alpha)$. Le nombre $\mu(f) = \mu_\alpha(f_\alpha)$ ne dépend pas du choix de $\alpha$; car soit $\beta$ un indice tel que $f$ soit constante sur les classes suivant $K_\beta$; soit $\gamma \in A$ tel que $\gamma \geq \alpha, \gamma \geq \beta$; alors $f$ définit des fonctions $f_\beta \in \mathscr{K}(G_\beta), f_\gamma \in \mathscr{K}(G_\gamma)$ telles que $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$; on a $f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$, donc $\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$, et de même $\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$, d’où notre assertion. Ceci posé, il est clair que $\mu$ est une forme linéaire sur V et que $\mu(f) \geq 0$ pour $f \geq 0$. D’après la prop. 2 du chap. III, § 2, no 5, $\mu$ se prolonge en une mesure positive, que nous noterons encore $\mu$, sur $G$. On a $\varphi_\alpha(\mu) = \mu_\alpha$ pour tout $\alpha \in A$ par construction même de $\mu$.
 
-#### Définition 5 {#int-vii-s1-def-5 .statement}
+#### Définition 5 {#int-vii-s1-def-5 .statement tag=09DG}
 
 *On dit que $\mu$ est la limite projective des $\mu_\alpha$*.
 
-#### Proposition 7 {#int-vii-s1-prop-7 .statement}
+#### Proposition 7 {#int-vii-s1-prop-7 .statement tag=09DH}
 
 *On conserve les notations de la prop. 6. Si chaque $\mu_\alpha$ est une mesure de Haar à gauche (resp. à droite) sur $G_\alpha$, alors $\mu$ est une mesure de Haar à gauche (resp. à droite) sur $G$*.
 
@@ -631,7 +631,7 @@ donc $\varphi_\alpha(\gamma(s)\mu) = \gamma(\varphi_\alpha(s))\mu_\alpha = \mu_\
 
 On suppose désormais les $K_\alpha$, non seulement compacts, mais *ouverts* dans G. Alors les $G_\alpha$ sont discrets, et $K_\alpha/K_\beta$ est, pour $\beta \geq \alpha$, un groupe compact et discret, donc fini. Le groupe G est unimodulaire (prop. 3).
 
-#### Proposition 8 {#int-vii-s1-prop-8 .statement}
+#### Proposition 8 {#int-vii-s1-prop-8 .statement tag=09DI}
 
 a) *Soient $\mu$ et $\mu'$ deux mesures positives sur G telles que, pour tout $\alpha$ et toute classe C suivant $K_\alpha$, on ait $\mu(C) = \mu'(C)$. Alors $\mu = \mu'$.*
 
@@ -645,7 +645,7 @@ $$
 $$
 Il suffit alors d'appliquer les prop. 6 et 7.
 
-#### Exemple {#int-vii-s1-n6-exa-1 .statement}
+#### Exemple {#int-vii-s1-n6-exa-1 .statement tag=09DJ}
 
 Soit $\mathbf{Q}_p$ le corps $p$-adique, complété de $\mathbf{Q}$ pour la valeur absolue $p$-adique $|x|_p = p^{-v_p(x)}$ (*Top. Gén.*, chap. IX, 2e éd., § 3, n° 2). Les éléments de $\mathbf{Q}_p$ s'appellent *nombres $p$*-*adiques*. Nous noterons encore $|x|_p$ le prolongement continu à $\mathbf{Q}_p$ de la valeur absolue $p$-adique. On a
 $$
@@ -674,13 +674,13 @@ La restriction de $\alpha$ à $\mathbf{Z}_p$ est évidemment une mesure de Haar 
 
 ### 7. Définition locale d’une mesure de Haar.
 
-#### Proposition 9 {#int-vii-s1-prop-9 .statement}
+#### Proposition 9 {#int-vii-s1-prop-9 .statement tag=09DK}
 
 Soient $G$ un groupe localement compact, $V$ une partie ouverte de $G$, $\mu$ une mesure positive non nulle sur $V$, ayant la propriété suivante : si $U$ est une partie ouverte de $V$ et si $s \in G$ est tel que $sU \subset V$, l’image de la mesure $\mu_U$, induite par $\mu$ sur $U$, par l’homéomorphisme $x \to sx$ de $U$ sur $sU$, est $\mu_{sU}$. Alors il existe sur $G$ une mesure de Haar à gauche $\alpha$ et une seule induisant $\mu$ sur $V$.
 
 Pour tout $s \in G$, soit $\mu_s$ l’image de $\mu$ par l’homéomorphisme $x \to sx$ de $V$ sur $sV$. La restriction de $\mu_s$ à $V \cap sV$ est l’image de $\mu_{s^{-1}V \cap V}$ par la restriction de $x \to sx$ à $s^{-1}V \cap V$; par hypothèse, cette image est $\mu_{V \cap sV}$. Par translation, on en conclut que $\mu_s$ et $\mu_t$ ont même restriction à $sV \cap tV$ quels que soient $s, t$. D’après la prop. 1 du chap. III, § 3, n° 1, il existe donc une mesure $\alpha$ sur $G$ induisant $\mu_s$ sur $sV$ quel que soit $s$. Il est clair que $\alpha$ est l’unique mesure de Haar à gauche sur $G$ induisant $\mu$ sur $V$.
 
-#### Corollaire {#int-vii-s1-n7-cor-1 .statement}
+#### Corollaire {#int-vii-s1-n7-cor-1 .statement tag=09DL}
 
 Soient $G, G'$ deux groupes localement compacts, $V$ (resp. $V'$) un voisinage ouvert de l’élément neutre de $G$ (resp. $G'$), $\varphi$ un isomorphisme local de $G'$ à $G$ (*Top. Gén.*, chap. III, § 1, n° 3, déf. 2) défini dans $V'$, *tel que* $\varphi(V') = V$.
 
@@ -690,13 +690,13 @@ Soit $V_1$ un voisinage ouvert de $e$ dans $G$ tel que $V_1 V_1^{-1} \subset V$.
 
 On dit que $\alpha$ se déduit de $\alpha'$ par l'isomorphisme local $\varphi$.
 
-#### Exemple {#int-vii-s1-n7-exa-1 .statement}
+#### Exemple {#int-vii-s1-n7-exa-1 .statement tag=09DM}
 
 La mesure de Haar sur $\mathbf{T}$ obtenue au no 2, Exemple 3, peut se déduire de la mesure de Lebesgue de $\mathbf{R}$ par un isomorphisme local de $\mathbf{R}$ à $\mathbf{T}$.
 
 ### 8. Mesures relativement invariantes.
 
-#### Proposition 10 {#int-vii-s1-prop-10 .statement}
+#### Proposition 10 {#int-vii-s1-prop-10 .statement tag=09DN}
 
 Soient $G$ un groupe localement compact, $\mu$ une mesure relativement invariante à gauche de multiplicateur $\chi$ sur $G$. Si $\chi_1$ est une représentation continue de $G$ dans $\mathbf{C}^*$, la mesure $\chi_1.\mu$ est relativement invariante à gauche de multiplicateur $\chi_1 \chi$.
 
@@ -707,13 +707,13 @@ $$
 = (\chi_1 \chi)(s)^{-1}(\chi_1 \cdot \mu).
 $$
 
-#### Corollaire 1 {#int-vii-s1-prop-10-cor-1 .statement}
+#### Corollaire 1 {#int-vii-s1-prop-10-cor-1 .statement tag=09DO}
 
 Soit $\mu$ une mesure de Haar à gauche sur $G$. Pour qu'une mesure non nulle $\nu$ sur $G$ soit relativement invariante à gauche, il faut et il suffit qu'elle soit de la forme $a \chi \cdot \mu$, où $a \in \mathbf{C}^*$ et où $\chi$ est une représentation continue de $G$ dans $\mathbf{C}^*$; son multiplicateur est alors $\chi$.
 
 La condition est suffisante (prop. 10). D'autre part, si $\nu$ est une mesure non nulle relativement invariante à gauche de multiplicateur $\chi$, $\chi^{-1}.\nu$ est invariante à gauche (prop. 10), donc de la forme $a\mu$ avec $a \in \mathbf{C}^*$ (n° 2, cor. du th. 1).
 
-#### Corollaire 2 {#int-vii-s1-prop-10-cor-2 .statement}
+#### Corollaire 2 {#int-vii-s1-prop-10-cor-2 .statement tag=09DP}
 
 *Toute mesure relativement invariante à gauche est relativement invariante à droite.*
 
@@ -742,7 +742,7 @@ Les notions de fonctions négligeables, localement négligeables, mesurables, lo
 
 ### 9. *Mesures quasi-invariantes.*
 
-#### Proposition 11 {#int-vii-s1-prop-11 .statement}
+#### Proposition 11 {#int-vii-s1-prop-11 .statement tag=09DQ}
 
 *Soient* $G$ *un groupe localement compact*, $\mu$ *une mesure de Haar à gauche sur* $G$. *Pour qu'une mesure* ν ≠ 0 sur G soit quasi-invariante à gauche, il faut et il suffit que ν soit équivalente à μ.
 
@@ -780,15 +780,15 @@ Appliquant la prop. 11 à G°, on voit que les mesures quasi-invariantes à droi
 
 ### 10. Corps localement compacts.
 
-#### Définition 6 {#int-vii-s1-def-6 .statement}
+#### Définition 6 {#int-vii-s1-def-6 .statement tag=09DR}
 
 Soit K un corps localement compact. Pour $a \in K^*$, on appelle module de a, et on note $\mathrm{mod}_K(a)$ ou simplement $\mathrm{mod}(a)$, le module de l’automorphisme $x \to ax$ du groupe additif $K^+$ sous-jacent à K ; on pose $\mathrm{mod}(0) = 0$.
 
-#### Exemple 1 {#int-vii-s1-n10-exa-1 .statement}
+#### Exemple 1 {#int-vii-s1-n10-exa-1 .statement tag=09DS}
 
 Soit $K = \mathbf{R}$. Si $s > 0$, on a $s \cdot (0,1) = (0,s)$; si $s < 0$, on a $s \cdot (0,1) = (s,0)$. Donc $\mathrm{mod}_\mathbf{R} t = |t|$ pour tout $t \in \mathbf{R}$.
 
-#### Exemple 2 {#int-vii-s1-n10-exa-2 .statement}
+#### Exemple 2 {#int-vii-s1-n10-exa-2 .statement tag=0E74}
 
 Soit $K = \mathbf{Q}_p$. Si $s \in \mathbf{Q}_p^*$ est tel que $|s|_p = p^{-n}$, alors $s \mathbf{Z}_p$ est l’ensemble des $x \in \mathbf{Q}_p$ tels que $|x|_p \leq p^{-n}$; donc, si on désigne par $\mu$ la mesure de Haar normalisée sur $\mathbf{Q}_p$, on a
 $$
@@ -796,13 +796,13 @@ $$
 $$
 Donc $\mathrm{mod}_{\mathbf{Q}_p} t = |t|_p$ pour tout $t \in \mathbf{Q}_p$.
 
-#### Proposition 12 {#int-vii-s1-prop-12 .statement}
+#### Proposition 12 {#int-vii-s1-prop-12 .statement tag=09DT}
 
 La fonction mod est continue dans K, et on a $\mathrm{mod}(ab) = \mathrm{mod}(a)\mathrm{mod}(b)$ quels que soient $a, b$ dans K.
 
 La dernière relation est évidente. La prop. 4 du n° 4 montre que la fonction mod est continue en tout point de $K^*$. Il ne reste qu’à démontrer sa continuité en 0. Celle-ci est évidente pour K discret ; nous supposerons donc K non discret. Soient $\alpha$ une mesure de Haar sur $K^+$ et C une partie compacte de K telle que $\alpha(C) > 0$; pour $a \in K^*$, on a $\alpha(aC) = \mathrm{mod}(a)\alpha(C)$. Comme K n’est pas discret, on a $\alpha(\{0\}) = 0$ (n° 2, prop. 2); pour tout $\varepsilon > 0$, il existe donc un voisinage ouvert U de 0 tel que $\alpha(U) \leq \varepsilon$. Comme le produit dans K est continu, on a $aC \subset U$ pour $a$ assez voisin de 0, et alors $\mathrm{mod}(a) \leq \varepsilon / \alpha(C)$.
 
-#### Proposition 13 {#int-vii-s1-prop-13 .statement}
+#### Proposition 13 {#int-vii-s1-prop-13 .statement tag=09DU}
 
 Pour tout $M > 0$, soit $V_M$ l’ensemble des $x \in K$ tels que $\mathrm{mod}(x) \leq M$. Si K est non discret, les $V_M$ forment un système fondamental de voisinages compacts de 0 dans K.
 
@@ -812,19 +812,19 @@ Comme la suite $(r^n a)_{n \geqslant 0}$ tend vers 0, il existe un plus petit en
 
 Ceci étant, comme l’intersection des $V_M$ est réduite à {0}, les $V_M$ forment un système fondamental de voisinages de 0 (*Top. Gén.*, Chap. I, 3e éd., § 9, no 2, prop. 1).
 
-#### Corollaire {#int-vii-s1-n10-cor-1 .statement}
+#### Corollaire {#int-vii-s1-n10-cor-1 .statement tag=09DV}
 
 *La topologie d’un corps localement compact non discret admet une base dénombrable*.
 
 En effet, K est réunion des ensembles compacts $V_1, V_2, \ldots$. D’autre part, K est métrisable d’après la prop. 1 de *Top. Gén.*, Chap. IX, 2e éd., § 3, no 1. Donc la topologie de K admet une base dénombrable (*loc. cit.*, § 2, cor. de la prop. 16).
 
-#### Proposition 14 {#int-vii-s1-prop-14 .statement}
+#### Proposition 14 {#int-vii-s1-prop-14 .statement tag=09DW}
 
 *Soit $\alpha$ une mesure de Haar sur $K^+$. Alors la mesure $\beta = (\mathrm{mod}_K)^{-1} \cdot \alpha$ sur $K^*$ est une mesure de Haar à gauche sur le groupe multiplicatif $K^*$.*
 
 En effet, si $b \in K^*$, l’application $a \to b^{-1}a$ de $K$ dans $K$ transforme $\alpha$ en $(\mathrm{mod}_K\ b)\alpha$, donc $(\mathrm{mod}_K)^{-1}\alpha$ en elle-même, d’où la proposition.
 
-#### Corollaire {#int-vii-s1-n10-cor-2 .statement}
+#### Corollaire {#int-vii-s1-n10-cor-2 .statement tag=09DX}
 
 *Soit $f$ une fonction définie dans $K^*$, à valeurs dans $\overline{\mathbf{R}}$ ou dans un espace de Banach. Pour que $f$ soit $\beta$-intégrable, il faut et il suffit que $(\mathrm{mod}_K)^{-1}f$ soit $\alpha$-intégrable, et on a*
 
@@ -834,7 +834,7 @@ $$
 
 Ceci résulte de la prop. 14, du cor. de la prop. 13, et du chap. V, § 5, no 3, th. 1.
 
-#### Proposition 15 {#int-vii-s1-prop-15 .statement}
+#### Proposition 15 {#int-vii-s1-prop-15 .statement tag=09DY}
 
 *Supposons $K$ commutatif. Soit $u$ un automorphisme de l’espace vectoriel $E = K^n$. Alors*
 
@@ -880,7 +880,7 @@ et d'autre part $\mathrm{mod}_K (\det u_3) = \mathrm{mod}_K(1) = 1$, d'où le r�
 
 Soient K un corps localement compact commutatif, E un espace vectoriel de dimension finie n sur K. Si $\varphi$ est un isomorphisme de l'espace vectoriel $K^n$ sur l'espace vectoriel E, $\varphi$ transforme la topologie de $K^n$ en une topologie sur E qui fait de E un espace vectoriel localement compact. Cette topologie (dite canonique) est indépendante de $\varphi$ puisque tout automorphisme de l'espace vectoriel $K^n$ est bicontinu. Sauf mention du contraire, quand on parlera de E comme d'un espace vectoriel topologique, il s'agira toujours de la topologie qu'on vient de définir. Tout automorphisme $u$ de l'espace vectoriel E est bicontinu, donc $\mathrm{mod}_E u$ est défini. Par ailleurs, si $u$ est un endomorphisme non inversible de E, on pose $\mathrm{mod}_E u = 0$. Alors :
 
-#### Corollaire 1 {#int-vii-s1-prop-15-cor-1 .statement}
+#### Corollaire 1 {#int-vii-s1-prop-15-cor-1 .statement tag=09DZ}
 
 *Soient K un corps localement compact commutatif, E un espace vectoriel de dimension finie sur K, et u un endomorphisme de l'espace vectoriel E. On a*
 $$
@@ -888,7 +888,7 @@ $$
 $$
 Si $u$ est inversible, cela résulte de la prop. 15. Si $u$ n'est pas inversible, on a $\det u = 0$, donc $\mathrm{mod}_K(\det u) = 0 = \mathrm{mod}_E u$.
 
-#### Corollaire 2 {#int-vii-s1-prop-15-cor-2 .statement}
+#### Corollaire 2 {#int-vii-s1-prop-15-cor-2 .statement tag=09E0}
 
 *Soient E un espace vectoriel réel de dimension finie n, $(e_1, e_2, \ldots, e_n)$ une base de E, P l'ensemble des $x = \sum_{i=1}^n \xi_i e_i \in E$ tels que $0 \leq \xi_i \leq 1$ pour tout i, $\mu$ l'unique mesure de Haar sur le groupe additif E telle que $\mu(P) = 1$. Soient $x_1, \ldots, x_n$ des points de E, S l’enveloppe convexe fermée dans E de l’ensemble $\{0, x_1, \ldots, x_n\}$. Si on pose $x_i = \sum_{j=1}^n \alpha_{ij} e_j$, on a
 
@@ -936,7 +936,7 @@ $$
 \mathrm{mod}_A L_a = \mathrm{mod}_K N_{A/K}(a), \quad \mathrm{mod}_A R_a = \mathrm{mod}_K N_{A^o/K}(a).
 $$
 
-#### Proposition 16 {#int-vii-s1-prop-16 .statement}
+#### Proposition 16 {#int-vii-s1-prop-16 .statement tag=09E1}
 
 Soit $\alpha$ une mesure de Haar du groupe additif de A. Les mesures
 
@@ -960,17 +960,17 @@ $$
 
 est une mesure de Haar à droite sur $A^*$.
 
-#### Proposition 17 {#int-vii-s1-prop-17 .statement}
+#### Proposition 17 {#int-vii-s1-prop-17 .statement tag=09E2}
 
 Supposons que $A$ soit un corps (localement compact). Pour tout $a \in A$, on $a \mod_A(a) = \mathrm{mod}_K N_{A/K}(a)$.
 
 C'est une traduction de la première formule (38).
 
-#### Exemple 1 {#int-vii-s1-n11-exa-1 .statement}
+#### Exemple 1 {#int-vii-s1-n11-exa-1 .statement tag=09E3}
 
 Prenons $K = \mathbf{R}$, $A = \mathbf{C}$. Compte tenu d'Alg., chap. VIII, § 12, n° 2, prop. 4, on obtient $\mathrm{mod}_C(z) = |z|^2$ pour tout $z \in \mathbf{C}$.
 
-#### Exemple 2 {#int-vii-s1-n11-exa-2 .statement}
+#### Exemple 2 {#int-vii-s1-n11-exa-2 .statement tag=0E75}
 
 Prenons $K = \mathbf{R}$, et pour $A$ le corps des quaternions $\mathbf{H}$ (Top. Gén., chap. VIII, 3e éd., § 1, n° 4). Considérons les éléments suivants de $\mathbf{M}_2(\mathbf{C})$:
 

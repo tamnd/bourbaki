@@ -60,9 +60,9 @@ subsections:
       pdf_page: 197
 statements: 79
 exercises: 24
-content_sha256: b54f2cadbd6a1fb55d8c2c3e22e4898304e3c1dd6dc150b0d3410d322c549765
+content_sha256: 7d8c16dc8e690704016a0cf06e1701d59ac145ea4eae33a506b601705ccf02f5
 translated_from: content/en/lie/VI/01_s1_root_systems.md
-source_content_sha256: 63306735a7f6d780a7b9820aded9cbd9eaac6a612cf204aee1470da429e156f4
+source_content_sha256: e928a5393f8d44d4601610a514808a5db0798a4a4348f1d6a9e230dc8b3576c6
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-078c10e9
 glossary_version: 34
@@ -76,7 +76,7 @@ Trong đoạn này, $k$ ký hiệu một trường có đặc số không. Từ 
 
 ### 1. ĐỊNH NGHĨA CỦA MỘT HỆ NGHIỆM
 
-#### Bổ đề 1 {#lie-vi-s1-lem-1 .statement}
+#### Bổ đề 1 {#lie-vi-s1-lem-1 .statement tag=0AU4}
 
 Cho $V$ là một không gian vectơ trên $k$, $R$ là một tập con hữu hạn của $V$ sinh ra $V$. Với mọi $\alpha \in R$ sao cho $\alpha \neq 0$, tồn tại nhiều nhất một phép phản xạ $s$ của $V$ sao cho $s(\alpha) = -\alpha$ và $s(R) = R$.
 
@@ -100,7 +100,7 @@ $$
 
 Lấy $n$ bằng $m$, ta thấy rằng $mf(x) = 0$ với mọi $x \in V$, do đó $f = 0$, $t = 1$ và $s = s'$.
 
-#### Định nghĩa 1 {#lie-vi-s1-def-1 .statement}
+#### Định nghĩa 1 {#lie-vi-s1-def-1 .statement tag=0AU5}
 
 Cho $V$ là một không gian vectơ trên $k$, và $R$ là một tập con của $V$. Khi đó $R$ được gọi là một hệ nghiệm trong $V$ nếu các điều kiện sau được thỏa mãn:
 
@@ -115,11 +115,11 @@ Các phần tử của R được gọi là các nghiệm (của hệ đang xét
 
 Các tự đẳng cấu của V giữ R ổn định được gọi là các tự đẳng cấu của R. Chúng tạo thành một nhóm hữu hạn ký hiệu là A(R). Nhóm con của A(R) sinh bởi các $s_{\alpha}$ được gọi là nhóm Weyl của R và được ký hiệu bởi W(R), hoặc đơn giản là W.
 
-#### Nhận xét 1 {#lie-vi-s1-n1-rem-1 .statement}
+#### Nhận xét 1 {#lie-vi-s1-n1-rem-1 .statement tag=0AU6}
 
 Cho $k'$ là một mở rộng của $k$. Đồng nhất một cách chính tắc V với một tập con của $V \otimes k'$ và $V^*$ với một tập con của $V^* \otimes k' = (V \otimes k')^*$. Khi đó, R là một hệ nghiệm trong $V \otimes k'$, và các $\alpha^{\sim}$ cũng giống như trước.
 
-#### Bổ đề 2 {#lie-vi-s1-lem-2 .statement}
+#### Bổ đề 2 {#lie-vi-s1-lem-2 .statement tag=0AU7}
 
 Cho R là một hệ nghiệm trong V. Cho $(x|y)$ là một dạng song tuyến tính đối xứng trên V, không suy biến và bất biến dưới W(R). Đồng nhất V với $V^*$ nhờ dạng này. Nếu $\alpha \in R$, thì $\alpha$ là không đẳng hướng và
 
@@ -129,21 +129,21 @@ $$
 
 Điều này suy ra từ công thức (4) của Chương V, § 2, no. 3.
 
-#### Mệnh đề 1 {#lie-vi-s1-prop-1 .statement}
+#### Mệnh đề 1 {#lie-vi-s1-prop-1 .statement tag=0AU8}
 
 Cho $V_Q$ (tương ứng $V_Q^*$) là không gian con Q-vectơ của V (tương ứng $V^*$) sinh bởi các $\alpha$ (tương ứng các $\alpha^{\sim}$). Khi đó $V_Q$ (tương ứng $V_Q^*$) là một cấu trúc Q trên V (tương ứng $V^*$) (Đại số, Chương II, § 8, no. 1). Hạn chế của dạng song tuyến tính chính tắc trên $V_Q \times V_Q^*$ của $V \times V^*$ cho một sự đồng nhất mỗi không gian $V_Q, V_Q^*$ với đối ngẫu của không gian kia. Tập hợp R là một hệ nghiệm trong $V_Q$.
 
 Nếu $k = \mathbf{R}$, tồn tại một tích vô hướng trên V bất biến dưới tác dụng của W(R) (Integration, Chap. VII, § 3, no. 1, Prop. 1); Bổ đề 2 chỉ ra rằng các $\alpha^{\sim}$ sinh $V^*$. Theo Nhận xét 1, các $\alpha^{\sim}$ lại sinh $V^*$ nếu $k = \mathbf{Q}$. Bây giờ ta xét trường hợp tổng quát. Đặt E = $V_Q$. Theo (RS_{\text{III}}), mỗi $\alpha^{\sim}$ ánh xạ E vào $\mathbf{Q}$, và do đó xác định một phần tử $\tilde{\alpha}$ của $E^*$. Điều này là ngay lập tức rằng R là một hệ nghiệm trong E, và rằng phần tử tương ứng với $\alpha$ trong $E^*$ là $\tilde{\alpha}$. Theo điều đã nói ở trên, các $\tilde{\alpha}$ sinh không gian vectơ $E^*$. Xét đồng cấu chính tắc $i : E \otimes_Q k \to V$, và chuyển vị của nó $^t i : V^* \to E^* \otimes_Q k$. Vì R sinh V, $^t i$ là đơn ánh; nhưng ảnh của $^t i$ chứa các $\tilde{\alpha}$, nên $^t i$ là toàn ánh. Từ đó ta kết luận cuối cùng rằng i và $^t i$ là các đẳng cấu. Do đó ta có thể đồng nhất V với $E \otimes k$, $V^*$ với $E^* \otimes k$, $\alpha^{\sim}$ với $\tilde{\alpha}$, và $V_Q^*$ với $E^*$. Như vậy, $V_Q$ (resp. $V_Q^*$) là một cấu trúc Q trên V (resp. $V^*$). Hạn chế xuống $V_Q \times V_Q^*$ của dạng song tuyến tính chính tắc trên $V \times V^*$ có thể được đồng nhất với dạng song tuyến tính chính tắc trên $E \times E^*$, do đó ta có mệnh đề.
 
-#### Nhận xét 2 {#lie-vi-s1-n1-rem-2 .statement}
+#### Nhận xét 2 {#lie-vi-s1-n1-rem-2 .statement tag=0AU9}
 
 Mệnh đề 1 quy việc nghiên cứu các hệ nghiệm về trường hợp $k = \mathbf{Q}$. Nhận xét 1 quy tiếp nó về việc nghiên cứu các hệ nghiệm trong không gian vectơ thực $V_{\mathbf{R}} = V_{\mathbf{Q}} \otimes_{\mathbf{Q}} \mathbf{R}$. Các nhóm Weyl liên kết với các hệ khác nhau này được đồng nhất một cách chính tắc.
 
-#### Nhận xét 3 {#lie-vi-s1-n1-rem-3 .statement}
+#### Nhận xét 3 {#lie-vi-s1-n1-rem-3 .statement tag=0AUA}
 
 Vì các $\alpha \tilde{}$ sinh $V^*$, nhóm $W(R)$, được xem như một nhóm con của $\mathbf{GL}(V_{\mathbf{R}})$, là cốt yếu (Chap. V, § 3, no. 7). Hơn nữa, Hệ quả của Định lý 1 của Chap. V, § 3, no. 2 chỉ ra rằng các phép phản xạ duy nhất thuộc $W(R)$ là các $s_{\alpha}$.
 
-#### Mệnh đề 2 {#lie-vi-s1-prop-2 .statement}
+#### Mệnh đề 2 {#lie-vi-s1-prop-2 .statement tag=0AUB}
 
 *Các $\alpha \tilde{}$ tạo thành một hệ nghiệm trong $V^*$, và $\alpha \tilde{} = \alpha$ với mọi $\alpha \in R$.*
 
@@ -155,7 +155,7 @@ Vì $s_{\alpha}(\alpha) = -\alpha$, tiên đề (RS_{II}) cho thấy rằng $-R 
 
 Đẳng thức ${}^t(s_{\alpha, \alpha \tilde{}})^{-1} = s_{\alpha \tilde{}, \alpha}$ cho thấy rằng ánh xạ $u \mapsto {}^t u^{-1}$ là một đẳng cấu từ nhóm $W(R)$ đến nhóm $W(R \tilde{})$. Ta đồng nhất hai nhóm này bằng đẳng cấu này; nói cách khác, ta xét $W(R)$ như tác động đồng thời trong $V$ và trong $V^*$. Tương tự đối với $A(R)$.
 
-#### Mệnh đề 3 {#lie-vi-s1-prop-3 .statement}
+#### Mệnh đề 3 {#lie-vi-s1-prop-3 .statement tag=0AUC}
 
 *Với $x, y \in V$, đặt*
 $$
@@ -173,7 +173,7 @@ $$
 $$
 vì ${}^t g)(R \tilde{}) = R \tilde{}$. Nếu $x, y \in V_{\mathbf{Q}}$, thì $(x|y) \in \mathbf{Q}$ theo (RS_{III}). Nếu $z \in V_{\mathbf{R}}$, thì $(z|z) = \sum_{\alpha \in R} \langle \alpha \tilde{}, z \rangle^2 \geq 0$, và $(z|z) > 0$ nếu $z \neq 0$ theo Mệnh đề 1, do đó mở rộng chính tắc của $(x|y)$ lên $V_{\mathbf{R}}$ là dương và không suy biến. Hạn chế của $(x|y)$ trên $V_{\mathbf{Q}}$ do đó là không suy biến, và vì thế dạng $(x|y)$ trên $V$ là không suy biến.
 
-#### Mệnh đề 4 {#lie-vi-s1-prop-4 .statement}
+#### Mệnh đề 4 {#lie-vi-s1-prop-4 .statement tag=0AUD}
 
 (i) *Cho $X$ là một tập con của $\mathbf{R}$, cho $V_X$ là không gian con vectơ của $V$ sinh bởi $X$, và cho $V'_X$ là không gian con vectơ của $V^*$ sinh bởi các $\alpha^-$, với $\alpha \in X$. Khi đó $V$ là tổng trực tiếp của $V_X$ và phần bù trực giao của $V'_X$; $V^*$ là tổng trực tiếp của $V'_X$ và phần bù trực giao của $V_X$, và $V'_X$ được đồng nhất với đối ngẫu của $V_X$.
 
@@ -181,7 +181,7 @@ vì ${}^t g)(R \tilde{}) = R \tilde{}$. Nếu $x, y \in V_{\mathbf{Q}}$, thì $(
 
 Theo *Nhận xét 2*, ta có thể giả sử rằng $k = \mathbf{R}$. Đồng nhất $V$ với $V^*$ bằng dạng song tuyến tính đối xứng của Mệnh đề 3. Ta có $\alpha^- = \frac{2\alpha}{(\alpha|\alpha)}$ với mọi $\alpha \in R$ (Bổ đề 2). Mọi không gian con vectơ của $V$ đều không đẳng hướng, và mệnh đề bây giờ là hiển nhiên.
 
-#### Hệ quả {#lie-vi-s1-n1-cor-1 .statement}
+#### Hệ quả {#lie-vi-s1-n1-cor-1 .statement tag=0AUE}
 
 *Cho $V_1$ là một không gian con vectơ của $V$, và cho $V_2$ là không gian con vectơ sinh bởi $R \cap V_1$. Khi đó $R \cap V_1$ là một hệ nghiệm trong $V_2$.
 
@@ -245,7 +245,7 @@ Cho V là một không gian vectơ trên $k$ là tổng trực tiếp của mộ
 
 Một hệ nghiệm R được gọi là *bất khả quy* nếu $R \neq \varnothing$ và nếu R không là tổng trực tiếp của hai hệ nghiệm khác rỗng.
 
-#### Mệnh đề 5 {#lie-vi-s1-prop-5 .statement}
+#### Mệnh đề 5 {#lie-vi-s1-prop-5 .statement tag=0AUF}
 
 *Cho V là một không gian vectơ trên k là tổng trực tiếp của các không gian vectơ* $V_1, \ldots, V_r$. *Cho R là một hệ nghiệm trong V. Đặt* $R_i = R \cap V_i$. *Ba điều kiện sau là tương đương*:
 
@@ -258,7 +258,7 @@ Một hệ nghiệm R được gọi là *bất khả quy* nếu $R \neq \varnot
 
 (ii) $\Longrightarrow$ (iii): nếu điều kiện (ii) được thỏa mãn, $R_i$ sinh ra $V_i$ với mọi $i$, do đó $R_i$ là một hệ nghiệm trong $V_i$ (Mệnh đề 4). Rõ ràng rằng R là tổng trực tiếp của các $R_i$.
 
-#### Hệ quả {#lie-vi-s1-n2-cor-1 .statement}
+#### Hệ quả {#lie-vi-s1-n2-cor-1 .statement tag=0AUG}
 
 *Cho R là một hệ nghiệm trong V. Các điều kiện sau là tương đương*:
 (i) *R là bất khả quy*;
@@ -267,7 +267,7 @@ Một hệ nghiệm R được gọi là *bất khả quy* nếu $R \neq \varnot
 (ii) $\Longleftrightarrow$ (i): điều này suy ra từ Mệnh đề 5 và Định lý Maschke (Chương V, Phụ lục, Mệnh đề 2).
 (iii) $\Longleftrightarrow$ (ii): điều này suy ra từ Mệnh đề 1 của Chương V, § 2, no. 1.
 
-#### Mệnh đề 6 {#lie-vi-s1-prop-6 .statement}
+#### Mệnh đề 6 {#lie-vi-s1-prop-6 .statement tag=0AUH}
 
 *Mọi hệ nghiệm* R *trong* V *là tổng trực tiếp của một họ* $(R_i)_{i \in I}$ *các hệ nghiệm bất khả quy và duy nhất sai khác một song ánh của tập chỉ số*.
 
@@ -275,7 +275,7 @@ Sự tồn tại của các $R_i$ được chứng minh bằng quy nạp theo Ca
 
 Các $R_i$ được gọi là *các thành phần bất khả quy* của $R$. Với mọi vô hướng khác không $\lambda_i$, hợp của các $\lambda_i R_i$ là một hệ nghiệm trong $V$, có hệ ngược là hợp của các $\lambda_i^{-1} R_i$, và có nhóm Weyl là $W(R)$.
 
-#### Mệnh đề 7 {#lie-vi-s1-prop-7 .statement}
+#### Mệnh đề 7 {#lie-vi-s1-prop-7 .statement tag=0AUI}
 
 *Cho $R$ là một hệ nghiệm trong $V$, $(R_i)$ là họ các thành phần bất khả quy của nó, $V_i$ là không gian con vectơ của $V$ được sinh bởi $R_i$, $B$ là dạng song tuyến tính đối xứng bất biến trên $V$ được xác định trong Mệnh đề 3, và $B'$ là một dạng song tuyến tính đối xứng trên $V$ bất biến dưới tác động của $W(R)$. Khi đó các $V_i$ trực giao từng đôi một đối với $B'$, và, với mọi $i$, các hạn chế của $B$ và $B'$ lên $V_i$ tỉ lệ với nhau.*
 
@@ -287,7 +287,7 @@ $$
 
 Sự kiện rằng các hạn chế của $B$ và $B'$ lên mỗi $V_i$ là tỉ lệ với nhau suy ra từ Mệnh đề 1 của Chương V, § 2, no. 1.
 
-#### Nhận xét {#lie-vi-s1-n2-rem-1 .statement}
+#### Nhận xét {#lie-vi-s1-n2-rem-1 .statement tag=0AUJ}
 
 Chọn một tích vô hướng trên $V_R$ bất biến dưới $W(R)$. Khi đó có thể nói về *độ dài* của một nghiệm và *góc* giữa hai nghiệm. Mệnh đề 7 cho thấy rằng góc này độc lập với lựa chọn tích vô hướng, cũng như tỉ số độ dài của hai nghiệm, với điều kiện chúng thuộc cùng một *thành phần* bất khả quy của $R$.
 
@@ -369,7 +369,7 @@ Do đó, số nguyên $n(\alpha, \beta)n(\beta, \alpha)$ phải nhận một tro
 
 Đặc biệt:
 
-#### Mệnh đề 8 {#lie-vi-s1-prop-8 .statement}
+#### Mệnh đề 8 {#lie-vi-s1-prop-8 .statement tag=0AUK}
 
 (i) *Nếu hai nghiệm tỉ lệ với nhau, nhân tử tỉ lệ chỉ có thể là $\pm 1, \pm \frac{1}{2}, \pm 2$.*
 
@@ -377,7 +377,7 @@ Do đó, số nguyên $n(\alpha, \beta)n(\beta, \alpha)$ phải nhận một tro
 
 Nếu một nghiệm $\alpha \in \mathbf{R}$ sao cho $\frac{1}{2}\alpha \notin \mathbf{R}$, thì $\alpha$ được gọi là một nghiệm *không thể phân chia*.
 
-#### Định lý 1 {#lie-vi-s1-thm-1 .statement}
+#### Định lý 1 {#lie-vi-s1-thm-1 .statement tag=0AUL}
 
 *Cho $\alpha, \beta$ là hai nghiệm.*
 
@@ -392,7 +392,7 @@ Nếu $n(\alpha, \beta) > 0$, các khả năng, theo danh sách ở trên, là c
 
 Điều này chứng minh (i), và (ii) suy ra bằng cách thay $\beta$ bởi $-\beta$.
 
-#### Hệ quả {#lie-vi-s1-n3-cor-1 .statement}
+#### Hệ quả {#lie-vi-s1-n3-cor-1 .statement tag=0AUM}
 
 Cho $\alpha$ và $\beta$ là hai nghiệm.
 
@@ -404,7 +404,7 @@ Các mệnh đề (i) và (ii) suy ra từ Đ.lý 1 và công thức (7) của n
 
 Có thể xảy ra $\alpha + \beta \in \mathbf{R}$, $(\alpha|\beta) = 0$ (xem Plate X, Hệ B_2). Khi $\alpha - \beta \notin \mathbf{R} \cup \{0\}$ và $\alpha + \beta \notin \mathbf{R} \cup \{0\}$, $\alpha$ và $\beta$ được gọi là *trực giao mạnh*.
 
-#### Mệnh đề 9 {#lie-vi-s1-prop-9 .statement}
+#### Mệnh đề 9 {#lie-vi-s1-prop-9 .statement tag=0AUN}
 
 Cho $\alpha$ và $\beta$ là hai nghiệm không tỷ lệ.
 
@@ -425,7 +425,7 @@ Ta có $s_{\alpha}(\beta + j\alpha) = \beta - n(\beta, \alpha)\alpha - j\alpha =
 
 Tập hợp S được gọi là chuỗi nghiệm $\alpha$ xác định bởi $\beta$, $\beta - q\alpha$ là gốc của nó, $\beta + p\alpha$ là đầu của nó, và $p + q$ là độ dài của nó.
 
-#### Hệ quả {#lie-vi-s1-n3-cor-2 .statement}
+#### Hệ quả {#lie-vi-s1-n3-cor-2 .statement tag=0AUO}
 
 Cho S là một chuỗi nghiệm $\alpha$, và $\gamma$ là gốc của S. Độ dài của S là $-n(\gamma, \alpha)$; nó bằng 0, 1, 2 hoặc 3.
 
@@ -433,7 +433,7 @@ Mệnh đề đầu tiên suy ra từ Mđ. 9, (iii), được áp dụng cho $\b
 
 Mặt khác, vì $\gamma$ không tỷ lệ với $\alpha$, danh sách được cho ở đầu số này cho thấy rằng $|n(\gamma, \alpha)| \leq 3$, do đó có hệ quả.
 
-#### Nhận xét {#lie-vi-s1-n3-rem-1 .statement}
+#### Nhận xét {#lie-vi-s1-n3-rem-1 .statement tag=0AUP}
 
 Ta giữ lại ký hiệu ở trên. Khi đó:
 
@@ -471,7 +471,7 @@ $$
 
 Ta sẽ thấy (Bản X, các hệ A₂, B₂, G₂) rằng tất cả các trường hợp này thực sự đều xảy ra.
 
-#### Mệnh đề 10 {#lie-vi-s1-prop-10 .statement}
+#### Mệnh đề 10 {#lie-vi-s1-prop-10 .statement tag=0AUQ}
 
 *Cho $\alpha, \beta$ là hai nghiệm không tỷ lệ với nhau sao cho $\beta + \alpha$ là một nghiệm. Cho $p, q$ là các số nguyên trong Mệnh đề 9. Khi đó*
 
@@ -491,7 +491,7 @@ Cho S là chuỗi nghiệm $\alpha$ xác định bởi $\beta$, $\gamma$ là g�
 
 Trong mỗi trường hợp, công thức cần chứng minh đều được thỏa mãn.
 
-#### Mệnh đề 11 {#lie-vi-s1-prop-11 .statement}
+#### Mệnh đề 11 {#lie-vi-s1-prop-11 .statement tag=0AUR}
 
 *Giả sử rằng R là bất khả quy. Cho $\alpha$ và $\beta$ là hai nghiệm sao cho $\| \alpha \| = \| \beta \|$. Tồn tại $g \in W(R)$ sao cho $g(\alpha) = \beta$.*
 
@@ -505,7 +505,7 @@ $$
 
 Một hệ nghiệm được gọi là *rút gọn* nếu mọi nghiệm của hệ là không phân chia được (no. 3).
 
-#### Mệnh đề 12 {#lie-vi-s1-prop-12 .statement}
+#### Mệnh đề 12 {#lie-vi-s1-prop-12 .statement tag=0AUS}
 
 *Giả sử rằng R là bất khả quy và rút gọn.*
 
@@ -515,7 +515,7 @@ Một hệ nghiệm được gọi là *rút gọn* nếu mọi nghiệm của h
 
 Vì R là bất khả quy, các ảnh của một nghiệm qua $W(R)$ sinh V (no. 2, Hệ quả của Mệnh đề 5). Do đó, với mọi nghiệm $\alpha, \beta$, tồn tại một nghiệm $\beta'$ sao cho $(\alpha|\beta') \neq 0$ và $(\beta'|\beta') = (\beta|\beta)$. Theo công thức (9) của no. 1 và danh sách của no. 3, $\frac{(\beta'|\beta')}{(\alpha|\alpha)}$ nhận một trong các giá trị 1, 2, $\frac{1}{2}$, 3, $\frac{1}{3}$ (nhớ rằng hệ được giả sử là rút gọn). Bằng cách nhân $(x|y)$ với một vô hướng thích hợp, ta có thể giả sử rằng $(\alpha|\alpha) = 1$ đối với một số nghiệm và các giá trị có thể khác của $(\beta|\beta)$ đối với $\beta \in R$ là 2 và 3. Các giá trị 2 và 3 không thể đồng thời đạt được, vì trong trường hợp đó sẽ tồn tại $\beta \in R, \gamma \in R$ sao cho $\frac{(\gamma|\gamma)}{(\beta|\beta)} = \frac{3}{2}$, trái với điều ta đã thấy ở trên.
 
-#### Mệnh đề 13 {#lie-vi-s1-prop-13 .statement}
+#### Mệnh đề 13 {#lie-vi-s1-prop-13 .statement tag=0AUT}
 
 *Giả sử rằng R là bất khả quy, không rút gọn và có hạng $\geq 2$.*
 
@@ -535,7 +535,7 @@ $$
 
 vì $\gamma$ và $\gamma'$ có cùng độ dài, do đó $n(\gamma, \gamma') = 0$ và $(\gamma|\gamma') = 0$.
 
-#### Mệnh đề 14 {#lie-vi-s1-prop-14 .statement}
+#### Mệnh đề 14 {#lie-vi-s1-prop-14 .statement tag=0AUU}
 
 *Giả sử rằng $R$ là bất khả quy và rút gọn, và rằng $(\alpha|\alpha)$ nhận các giá trị $\lambda$ và $2\lambda$ với $\alpha \in R$. Gọi $A$ là tập hợp các nghiệm $\alpha$ sao cho $(\alpha|\alpha) = \lambda$. Giả sử rằng mọi hai phần tử không tỉ lệ của $A$ đều vuông góc. Khi đó $R_1 = R \cup 2A$ là một hệ nghiệm bất khả quy không rút gọn và $R$ là tập hợp các nghiệm không chia hết của $R_1$.*
 
@@ -551,7 +551,7 @@ Vậy $R_1$ là một hệ nghiệm trong $V$, và các khẳng định khác l�
 
 Với mọi $\alpha \in R$, cho $L_\alpha$ là siêu phẳng của $V$ gồm các điểm bất biến dưới $s_\alpha$. Các phòng trong $V$ được xác định bởi tập hợp các $L_\alpha$ (Chương V, § 1, no. 3) được gọi là các *phòng* của $R$. Song ánh $V \to V^*$ được xác định bởi tích vô hướng $(x|y)$ đưa $\alpha$ thành $\frac{2\alpha^-}{(\alpha^-|\alpha^-)}$ với $\alpha \in R$, do đó đưa $L_\alpha$ thành $L_{\alpha^-}$, và do đó đưa các phòng của $R$ thành các phòng của $R^-$. Nếu $C$ là một phòng của $R$, thì phòng tương ứng của $R^-$ được ký hiệu là $C^-$. Theo Mệnh đề 7 của no. 2, $C^-$ chỉ phụ thuộc vào $C$ chứ không phụ thuộc vào lựa chọn của $(x|y)$.
 
-#### Định lý 2 {#lie-vi-s1-thm-2 .statement}
+#### Định lý 2 {#lie-vi-s1-thm-2 .statement tag=0AUV}
 
 (i) *Nhóm* $W(R)$ *tác động đơn bắc cầu lên tập hợp các phòng*.
 
@@ -569,31 +569,31 @@ Với mọi $\alpha \in R$, cho $L_\alpha$ là siêu phẳng của $V$ gồm cá
 
 Các mệnh đề (i) và (vii) suy ra từ Chương V, § 3, no. 2, Định lý 1. Mệnh đề (ii) suy ra từ Chương V, § 3, no. 3, Định lý 2. Mệnh đề (iv) là hiển nhiên. Nghiệm $\alpha_i$ vuông góc với $L_i$, và $\alpha_i^-$ được đồng nhất với $2\alpha_i / (\alpha_i|\alpha_i)$. Vì $W(R)$ là cốt yếu (no. 1, *Nhận xét 3*), các mệnh đề (iii), (v) và (vi) suy ra từ Chương V, § 3, no. 9, Mệnh đề 7.
 
-#### Nhận xét 1 {#lie-vi-s1-n5-rem-1 .statement}
+#### Nhận xét 1 {#lie-vi-s1-n5-rem-1 .statement tag=0AUW}
 
 Mệnh đề (vii) chỉ ra đặc biệt rằng $W(R)$ được *sinh* bởi các phép đối xứng $s_{\alpha_i}$.
 
-#### Nhận xét 2 {#lie-vi-s1-n5-rem-2 .statement}
+#### Nhận xét 2 {#lie-vi-s1-n5-rem-2 .statement tag=0AUX}
 
 Nếu $x, y \in C$, thì $(x|y) > 0$ (Chương V, § 3, no. 5, Bổ đề 6), nói cách khác góc $(x, y)$ là *nhọn*.
 
-#### Nhận xét 3 {#lie-vi-s1-n5-rem-3 .statement}
+#### Nhận xét 3 {#lie-vi-s1-n5-rem-3 .statement tag=0AUY}
 
 Gọi $m(\alpha, \beta)$ là cấp của $s_{\alpha} s_{\beta}$ ($\alpha, \beta \in B(C)$). Ma trận $(m(\alpha, \beta))$ được đồng nhất với *ma trận Coxeter* (Chương IV, § 1, no. 9) của $(W, S)$. Nếu $\alpha \neq \beta$, Mệnh đề 3 của Chương V, § 3, no. 4 chỉ ra rằng góc $(\alpha, \beta)$ bằng $\pi - \frac{\pi}{m(\alpha, \beta)}$; đặc biệt, góc này hoặc tù hoặc bằng $\pi$, và $(\alpha|\beta) \leq 0$. Bằng cách sử dụng danh sách trong no. 3, suy ra rằng $m(\alpha, \beta)$ *bằng* 2, 3, 4 *hoặc* 6.
 
-#### Định nghĩa 2 {#lie-vi-s1-def-2 .statement}
+#### Định nghĩa 2 {#lie-vi-s1-def-2 .statement tag=0AUZ}
 
 *Một tập con* $B$ *của* $R$ *được gọi là một cơ sở của* $R$ *nếu tồn tại một phòng* $C$ *của* $R$ *sao cho* $B = B(C)$. *Nếu* $C$ *là một phòng*, $B(C)$ *được gọi là cơ sở của* $R$ *được xác định bởi* $C$.
 
-#### Nhận xét 4 {#lie-vi-s1-n5-rem-4 .statement}
+#### Nhận xét 4 {#lie-vi-s1-n5-rem-4 .statement tag=0AV0}
 
 Mệnh đề (vi) của Định lý 2 chỉ ra rằng ánh xạ $C \mapsto B(C)$ là một *song ánh* từ tập hợp các phòng đến tập hợp các cơ sở. Do đó, $W(R)$ tác động *đơn bắc cầu* trên tập hợp các cơ sở.
 
-#### Nhận xét 5 {#lie-vi-s1-n5-rem-5 .statement}
+#### Nhận xét 5 {#lie-vi-s1-n5-rem-5 .statement tag=0AV1}
 
 Cho $C$ là một buồng của $R$, và cho $B$ là cơ sở tương ứng. Nếu $\alpha \in B$, đặt $\varphi(\alpha) = \alpha^-$ nếu $2\alpha \notin R$ và $\varphi(\alpha) = \frac{1}{2}\alpha^-$ nếu $2\alpha \in R$. Khi đó $\varphi(B)$ *là cơ sở của* $R^-$ *được định nghĩa bởi* $C^-$; điều này suy ra từ sự kiện rằng các siêu phẳng của $C^-$ là các $L_{\alpha^-}$, với $\alpha \in B$.
 
-#### Định nghĩa 3 {#lie-vi-s1-def-3 .statement}
+#### Định nghĩa 3 {#lie-vi-s1-def-3 .statement tag=0AV2}
 
 Cho B là một cơ sở của R. Ma trận Cartan của R (đối với B) là ma trận $(n(\alpha, \beta))_{\alpha, \beta \in B}$.
 
@@ -605,11 +605,11 @@ $$
 
 trong đó $m(\alpha, \beta)$ chỉ cấp của $s_\alpha s_\beta$ như trên. Nếu $\alpha \neq \beta$, $n(\alpha, \beta) = 0, -1, -2$ hoặc $-3$ (xem no. 3).
 
-#### Nhận xét 6 {#lie-vi-s1-n5-rem-6 .statement}
+#### Nhận xét 6 {#lie-vi-s1-n5-rem-6 .statement tag=0AV3}
 
 Ma trận Cartan $(n(\alpha, \beta))$ không nên bị nhầm lẫn với ma trận Coxeter $(m(\alpha, \beta))$. Đặc biệt chú ý rằng ma trận Cartan không nhất thiết đối xứng.
 
-#### Nhận xét 7 {#lie-vi-s1-n5-rem-7 .statement}
+#### Nhận xét 7 {#lie-vi-s1-n5-rem-7 .statement tag=0AV4}
 
 Đánh chỉ số chính tắc. Nếu B và $B'$ là hai cơ sở của R, tồn tại một phần tử duy nhất $w \in W$ sao cho $w(B) = B'$. Ta có
 
@@ -627,25 +627,25 @@ từ B đến $B'$.
 
 Các ma trận Cartan và Coxeter thực ra có thể được định nghĩa một cách chính tắc theo cách sau. Gọi X là tập hợp các cặp $(B, \alpha)$, trong đó B là một cơ sở của R và $\alpha \in B$. Nhóm W tác động một cách hiển nhiên lên X và mỗi quỹ đạo của W trên X gặp mỗi tập hợp $\{B\} \times B$ tại đúng một điểm. Nếu I là tập hợp các quỹ đạo này, mỗi cơ sở B thừa nhận một cách đánh chỉ số chính tắc $(\alpha_i)_{i \in I}$. Hơn nữa, tồn tại một ma trận duy nhất $N = (n_{ij})$ (tương ứng $M = (m_{ij})$), kiểu $I \times I$, sao cho với mọi cơ sở B, ma trận Cartan (tương ứng Coxeter) liên kết với B có thể nhận được từ N (tương ứng M) bằng cách hợp thành với phép đánh chỉ số chính tắc của B; nó được gọi là ma trận Cartan chính tắc (tương ứng ma trận Coxeter chính tắc) của R.
 
-#### Mệnh đề 15 {#lie-vi-s1-prop-15 .statement}
+#### Mệnh đề 15 {#lie-vi-s1-prop-15 .statement tag=0AV5}
 
 Cho B là một cơ sở của R và $\alpha$ là một nghiệm không phân chia. Tồn tại $\beta \in B$ và $w \in W(R)$ sao cho $\alpha = w(\beta)$.
 
 Cho C là buồng sao cho $B = B(C)$. Siêu phẳng $L_\alpha$ là một tường của một buồng $C'$ của R, và tồn tại một phần tử của $W(R)$ biến $C'$ thành C. Do đó ta quy về trường hợp $L_\alpha$ là một tường của C. Khi đó $\alpha$ tỉ lệ với một phần tử $\beta$ của R. Vì $\alpha$ và $\beta$ không phân chia, $\alpha = \pm \beta$. Nếu $\alpha = -\beta$, thì $\alpha = s_\beta(\beta)$, do đó có mệnh đề.
 
-#### Hệ quả {#lie-vi-s1-n5-cor-1 .statement}
+#### Hệ quả {#lie-vi-s1-n5-cor-1 .statement tag=0AV6}
 
 Cho $R_1$ và $R_2$ là hai hệ nghiệm rút gọn trong các không gian vectơ $V_1$ và $V_2$, và cho $B_1$ và $B_2$ là các cơ sở của $R_1$ và $R_2$. Cho $f : B_1 \to B_2$ là một song ánh biến ma trận Cartan của $R_1$ thành ma trận Cartan của $R_2$. Khi đó tồn tại một đẳng cấu $F : V_1 \to V_2$ biến $R_1$ thành $R_2$ và $\alpha$ thành $f(\alpha)$ với mọi $\alpha \in B_1$.
 
 Cho $F$ là đẳng cấu từ $V_1$ đến $V_2$ lấy $\alpha$ thành $f(\alpha)$ với mọi $\alpha \in B_1$. Khi đó $F$ biến $s_\alpha$ thành $s_{f(\alpha)}$, do đó $W(R_1)$ thành $W(R_2)$ (Đl. 2), và do đó $R_1$ thành $R_2$ (Mđ. 15).
 
-#### Mệnh đề 16 {#lie-vi-s1-prop-16 .statement}
+#### Mệnh đề 16 {#lie-vi-s1-prop-16 .statement tag=0AV7}
 
 Cho $B$ là một cơ sở của $R$, và $G$ là nhóm con của $A(R)$ gồm các phần tử giữ $B$ ổn định. Khi đó $W(R)$ là một nhóm con chuẩn của $A(R)$ và $A(R)$ là tích nửa trực tiếp của $G$ và $W(R)$.
 
 Nếu $\alpha \in R$ và $t \in A(R)$, thì $ts_\alpha t^{-1} = s_{t(\alpha)}$; vì $W(R)$ được sinh bởi các $s_\alpha$, ta thấy rằng $W(R)$ là một nhóm con chuẩn của $A(R)$. Bằng phép chuyển cấu trúc, $A(R)$ biến một cơ sở của $R$ thành một cơ sở của $R$. Vì $W(R)$ tác động bắc cầu đơn giản trên tập hợp các cơ sở, mỗi phần tử của $A(R)$ có thể được viết duy nhất dưới dạng $g_1 g_2$, trong đó $g_1 \in W(R)$ và $g_2 \in G$.
 
-#### Nhận xét 8 {#lie-vi-s1-n5-rem-8 .statement}
+#### Nhận xét 8 {#lie-vi-s1-n5-rem-8 .statement tag=0AV8}
 
 Cho $R_1, \ldots, R_p$ là các hệ nghiệm trong các không gian vectơ $V_1, \ldots, V_p$, $R$ là tổng trực tiếp của các $R_i$ trong $V = \prod_i V_i$, $C_i$ là một buồng của $R_i$, và $B_i = B(C_i)$. Ngay lập tức ta thấy rằng $C = \prod_i C_i$ là một buồng của $R$ và rằng $B(C) = \bigcup_i B_i$. Từ Đl. 2 suy ra rằng tất cả các buồng và cơ sở của $R$ đều thu được theo cách này.
 
@@ -655,7 +655,7 @@ Cho $C$ là một buồng của $R$, và cho $B(C) = \{ \alpha_1, \ldots, \alpha
 
 Các phần tử của $\overline{C}$ là $\geq 0$ đối với $C$ theo Bổ đề 6 của Ch. V, § 3, no. 5. Nhưng tập hợp các phần tử $\geq 0$ đối với $C$ nói chung là phân biệt với $\overline{C}$ (xem Plate X, các hệ $A_2, B_2, G_2$).
 
-#### Định lý 3 {#lie-vi-s1-thm-3 .statement}
+#### Định lý 3 {#lie-vi-s1-thm-3 .statement tag=0AV9}
 
 Mọi nghiệm đều là một tổ hợp tuyến tính với các hệ số nguyên cùng dấu của các phần tử của $B(C)$. Đặc biệt, mọi nghiệm đều hoặc dương hoặc âm đối với $C$.
 
@@ -667,7 +667,7 @@ R = R_+(C) \cup (-R_+(C))
 $$
 là một phân hoạch của $R$.
 
-#### Hệ quả {#lie-vi-s1-n6-cor-1 .statement}
+#### Hệ quả {#lie-vi-s1-n6-cor-1 .statement tag=0AVA}
 
 *Cho $\gamma$ là một tổ hợp tuyến tính của các nghiệm với các hệ số nguyên, và $\alpha$ là một nghiệm không phân chia được. Nếu $\gamma$ tỉ lệ với $\alpha$, thì $\gamma \in \mathbf{Z}\alpha$.*
 
@@ -689,7 +689,7 @@ U_w(\varepsilon, t) = (\varepsilon \eta(w^{-1}, t), wt w^{-1}),
 $$
 ánh xạ $w \mapsto U_w$ là một *đồng cấu* từ $W$ đến nhóm các phép hoán vị của tập hợp $\{\pm 1\} \times T$ (Chương IV, § 1, no. 4, Bổ đề 1).
 
-#### Mệnh đề 17 {#lie-vi-s1-prop-17 .statement}
+#### Mệnh đề 17 {#lie-vi-s1-prop-17 .statement tag=0AVB}
 
 *Giả sử rằng $R$ là thu gọn và cho $w \in W$ và $\alpha \in R$.*
 
@@ -738,13 +738,13 @@ hoặc, theo (i), rằng $U_w(\psi(\alpha)) = (-1, ws_\alpha w^{-1})$. Nếu th�
 
 Cuối cùng, theo (ii), $\eta(w, s_\alpha) = -1$ khi và chỉ khi một trong các nghiệm $\alpha$ và $w^{-1}(\alpha)$ là dương còn nghiệm kia là âm. Điều này tương đương với nói rằng $(\alpha|x).(w^{-1}(\alpha)|x) = (\alpha|x).(w|x) < 0$ với mọi $x \in C$, do đó có mệnh đề đầu tiên trong (iii). Mệnh đề thứ hai trong (iii) suy ra ngay lập tức.
 
-#### Hệ quả 1 {#lie-vi-s1-prop-17-cor-1 .statement}
+#### Hệ quả 1 {#lie-vi-s1-prop-17-cor-1 .statement tag=0AVC}
 
 Cho $\beta \in B(C)$. Phép đối xứng $s_\beta$ hoán vị các nghiệm dương không tỉ lệ với $\beta$.
 
 Ta rút gọn ngay lập tức về trường hợp R là rút gọn. Trong trường hợp đó, mệnh đề của ta suy ra từ (ii) và sự kiện rằng $T_{s_\beta} = s_\beta$.
 
-#### Hệ quả 2 {#lie-vi-s1-prop-17-cor-2 .statement}
+#### Hệ quả 2 {#lie-vi-s1-prop-17-cor-2 .statement tag=0AVD}
 
 Giả sử rằng R là rút gọn. Cho $w \in W$, gọi q là độ dài của $w$ đối với S (Chap. IV, § 1, no. 1), và cho $w = s_1 \ldots s_q$ là một phân tích rút gọn của $w$. Cho $\alpha_1, \ldots, \alpha_q$ là các phần tử của $B(C)$ tương ứng với $s_1, \ldots, s_q$. Đặt
 
@@ -768,13 +768,13 @@ $$
 
 Theo Hệ quả 1, điều này suy ra rằng $s_{i+1} \ldots s_q(\alpha) = \alpha_i$ và do đó $\alpha = \theta_i$. Vì vậy tập hợp X được chứa trong tập hợp các $\theta_i$. Vì $\operatorname{Card}(X) = q$, điều này chỉ có thể xảy ra nếu X bằng tập hợp các $\theta_i$ và các phần tử này từng đôi một phân biệt. Do đó có hệ quả.
 
-#### Hệ quả 3 {#lie-vi-s1-prop-17-cor-3 .statement}
+#### Hệ quả 3 {#lie-vi-s1-prop-17-cor-3 .statement tag=0AVE}
 
 *Giả sử rằng R là rút gọn. Tồn tại một phần tử dài nhất duy nhất $w_0$ trong W. Độ dài của nó bằng số các nghiệm dương và $w_0$ biến phòng C thành $-C$. Ta có $w_0^2 = 1$ và $l(ww_0) = l(w_0) - l(w)$ với mọi $w \in W$.*
 
 Hiển nhiên rằng $-C$ là một phòng. Do đó tồn tại một phần tử $w_0$ của W biến C thành $-C$. Khi đó $w_0(\alpha) < 0$ với mọi nghiệm dương $\alpha$ và hai khẳng định đầu tiên của Hệ quả 3 là các hệ quả ngay lập tức của Hệ quả 2. Ta có $w_0^2(C) = C$, nên $w_0^2 = 1$. Cuối cùng, nếu $w \in W$, độ dài $l(w)$ (tương ứng $l(ww_0)$) bằng, theo Mệnh đề 17 (iii), số các tường ngăn cách C và $w(C)$ (tương ứng $ww_0(C) = -w(C)$). Vì $w(C)$ và $-w(C)$ nằm ở hai phía đối của mỗi tường, tổng $l(w) + l(w_0)$ bằng tổng số các tường, tức là bằng $l(w_0)$.
 
-#### Mệnh đề 18 {#lie-vi-s1-prop-18 .statement}
+#### Mệnh đề 18 {#lie-vi-s1-prop-18 .statement tag=0AVF}
 
 *Cho $x \in V$. Ba tính chất sau là tương đương:
 
@@ -796,17 +796,17 @@ $$
 
 Bây giờ $s_\alpha \in T_{w^{-1}}$, và Mệnh đề 17 (ii) chỉ ra rằng $w(\alpha) < 0$. Do đó có kết quả.
 
-#### Hệ quả {#lie-vi-s1-n6-cor-2 .statement}
+#### Hệ quả {#lie-vi-s1-n6-cor-2 .statement tag=0AVG}
 
 Một phần tử $x \in C$ khi và chỉ khi $x > w(x)$ với mọi $w \in W$ sao cho $w \neq 1$.
 
-#### Mệnh đề 19 {#lie-vi-s1-prop-19 .statement}
+#### Mệnh đề 19 {#lie-vi-s1-prop-19 .statement tag=0AVH}
 
 Cho $(\beta_i)_{1 \leq i \leq n}$ là một dãy các nghiệm dương đối với phòng $C$ sao cho $\beta_1 + \beta_2 + \cdots + \beta_n$ là một nghiệm. Khi đó tồn tại một phép hoán vị $\pi \in S_n$ sao cho, với mọi $i \in \{1, 2, \ldots, n\}$, $\beta_{\pi(1)} + \beta_{\pi(2)} + \cdots + \beta_{\pi(i)}$ là một nghiệm.
 
 Ta lập luận bằng quy nạp theo $n$, mệnh đề hiển nhiên đối với $n \leq 2$. Đặt $\beta = \beta_1 + \cdots + \beta_n$. Khi đó $\sum_{i=1}^n (\beta|\beta_i) = (\beta|\beta) > 0$, do đó tồn tại một chỉ số $k$ sao cho $(\beta|\beta_k) > 0$. Nếu $\beta = \beta_k$, thì $n = 1$ vì $\beta_i > 0$ với mọi $i$. Ngược lại $\beta - \beta_k$ là một nghiệm (no. 3, Hệ quả của Định lý 1); khi đó chỉ cần áp dụng giả thiết quy nạp cho $\beta - \beta_k = \sum_{i \neq k} \beta_i$.
 
-#### Hệ quả 1 {#lie-vi-s1-prop-19-cor-1 .statement}
+#### Hệ quả 1 {#lie-vi-s1-prop-19-cor-1 .statement tag=0AVI}
 
 Cho $\alpha \in R_+(C)$. Khi đó $\alpha \in B(C)$ khi và chỉ khi $\alpha$ là tổng của hai nghiệm dương.
 
@@ -814,7 +814,7 @@ Nếu $\alpha$ là tổng của hai nghiệm dương, Định lý 3 cho thấy r
 
 Hoán vị các $\beta_k$ nếu cần, ta có thể giả sử rằng $\sum_{k=1}^{n-1}$ là một nghiệm (Mệnh đề 19), và do đó $\alpha$ là tổng của các nghiệm dương $\sum_{k=1}^{n-1} \beta_k$ và $\beta_n$.
 
-#### Hệ quả 2 {#lie-vi-s1-prop-19-cor-2 .statement}
+#### Hệ quả 2 {#lie-vi-s1-prop-19-cor-2 .statement tag=0AVJ}
 
 Cho $\varphi$ là một ánh xạ từ $R$ vào một nhóm Abel $\Gamma$ có các tính chất sau:
 
@@ -833,7 +833,7 @@ và ta có $\psi(\beta_m) = \varphi(\beta_m)$, do đó $\psi(\alpha) = \varphi(\
 
 Với mọi nghiệm $\alpha = \sum_{\beta \in B(C)} n_\beta \beta$ trong $R$, ký hiệu $Y(\alpha)$ là tập hợp các $\beta \in B(C)$ sao cho $n_\beta \neq 0$. Hơn nữa, nhận xét rằng $B(C)$ có thể được đồng nhất với tập hợp các đỉnh của đồ thị của hệ Coxeter được tạo bởi $W(R)$ và các $s_{\alpha_i}$ (xem Ch. IV, § 1, no. 9 và Ch. V, § 3, no. 2).
 
-#### Hệ quả 3 {#lie-vi-s1-prop-19-cor-3 .statement}
+#### Hệ quả 3 {#lie-vi-s1-prop-19-cor-3 .statement tag=0AVK}
 
 a) Cho $\alpha \in \mathbf{R}$. Khi đó $Y(\alpha)$ là một tập con liên thông của $B(C)$ (Ch. IV, Phụ lục).
 
@@ -845,7 +845,7 @@ Bây giờ lấy $Y$ là một tập con liên thông không rỗng của $B(C)$
 
 ### 7. CÁC TẬP HỢP ĐÓNG CỦA CÁC NGHIỆM
 
-#### Định nghĩa 4 {#lie-vi-s1-def-4 .statement}
+#### Định nghĩa 4 {#lie-vi-s1-def-4 .statement tag=0AVL}
 
 Cho $P$ là một tập con của $\mathbf{R}$.
 
@@ -855,13 +855,13 @@ Cho $P$ là một tập con của $\mathbf{R}$.
 
 (iii) $P$ được gọi là đối xứng nếu $P = -P$.
 
-#### Bổ đề 3 {#lie-vi-s1-lem-3 .statement}
+#### Bổ đề 3 {#lie-vi-s1-lem-3 .statement tag=0AVM}
 
 Cho $C$ là một phòng của $\mathbf{R}$ và $P$ là một tập con đóng của $\mathbf{R}$ chứa $R_+(C)$ (theo ký hiệu của no. 6). Đặt $\Sigma = B(C) \cap (-P)$, và gọi $Q$ là tập hợp các nghiệm là các tổ hợp tuyến tính của các phần tử của $\Sigma$ với hệ số nguyên không dương. Khi đó, $P = R_+(C) \cup Q$.
 
 Chỉ cần chứng minh rằng $P \cap (-R_+(C)) = Q$. Cho $-\alpha \in Q$. Khi đó $\alpha$ là tổng của $n$ phần tử của $\Sigma$. Ta chứng minh, bằng quy nạp theo $n$, rằng $-\alpha \in P$. Điều này hiển nhiên nếu $n = 1$. Nếu $n > 1$, thì theo Mệnh đề 19 của no. 6 ta có thể viết $\alpha = \beta + \gamma$ với $\gamma \in \Sigma$ và $\beta$ là tổng của $n - 1$ phần tử của $\Sigma$. Theo giả thiết quy nạp, $-\beta \in P$; vì $-\gamma \in P$ và vì $P$ là đóng, nên $-\alpha \in P$. Do đó, $Q \subseteq P \cap (-R_+(C))$. Ngược lại, cho $-\alpha \in P \cap (-R_+(C))$. Khi đó $\alpha$ là tổng của $p$ phần tử của $B(C)$. Ta chứng minh, bằng quy nạp theo $p$, rằng $-\alpha \in Q$. Điều này hiển nhiên nếu $p = 1$. Nếu $p > 1$, thì theo Mệnh đề 19, ta có thể viết $\alpha = \beta + \gamma$ với $\gamma \in B(C)$ và $\beta$ là một nghiệm là tổng của $p - 1$ phần tử của $B(C)$. Vì $-\gamma = \beta + (-\alpha)$ và vì $P$ là đóng, nên $-\gamma \in P$, do đó $\gamma \in \Sigma$. Hơn nữa, $-\beta = \gamma + (-\alpha)$ nên $-\beta \in P$ vì $P$ là đóng. Theo giả thiết quy nạp, $-\beta \in Q$, do đó $-\alpha = -\beta - \gamma \in Q$. Do đó, $P \cap (-R_+(C)) \subseteq Q$.
 
-#### Mệnh đề 20 {#lie-vi-s1-prop-20 .statement}
+#### Mệnh đề 20 {#lie-vi-s1-prop-20 .statement tag=0AVN}
 
 *Cho $P$ là một tập con của $R$. Các điều kiện sau là tương đương*:
 
@@ -875,7 +875,7 @@ Chỉ cần chứng minh rằng $P \cap (-R_+(C)) = Q$. Cho $-\alpha \in Q$. Khi
 
 (i) $\Longrightarrow$ (ii): giả sử rằng $P$ là parabol. Cho $C$ là một phòng sao cho $\mathrm{Card}(P \cap R_+(C))$ là lớn nhất có thể. Cho $\alpha \in B(C)$ và giả sử rằng $\alpha \in P$, sao cho $-\alpha \in P$. Với mọi $\beta \in P \cap R_+(C)$, $\beta$ không tỷ lệ với $\alpha$ (vì giả thiết $\beta = 2\alpha$ sẽ kéo theo $\alpha = 2\alpha + (-\alpha) \in P$ do $P$ đóng). Do đó $s_\alpha(\beta) \in R_+(C)$ (no. 6, Hệ quả 1 của Mệnh đề 17). Nếu đặt $C' = s_\alpha(C)$, thì $\beta = s_\alpha(s_\alpha(\beta)) \in s_\alpha(R_+(C)) = R_+(C)$, vậy $-\alpha \in P \cap R_+(C')$ và do đó $\mathrm{Card}(P \cap R_+(C')) > \mathrm{Card}(P \cap R_+(C))$. Điều này là vô lý, vì $\alpha \in P$. Do đó $B(C) \subseteq P$, và do đó $R_+(C) \subseteq P$ theo Mệnh đề 19 và do $P$ đóng.
 
-#### Hệ quả 1 {#lie-vi-s1-prop-20-cor-1 .statement}
+#### Hệ quả 1 {#lie-vi-s1-prop-20-cor-1 .statement tag=0AVO}
 
 *Cho $P$ là một tập con của $R$. Các điều kiện sau là tương đương*:
 
@@ -886,7 +886,7 @@ Chỉ cần chứng minh rằng $P \cap (-R_+(C)) = Q$. Cho $-\alpha \in Q$. Khi
 
 Nếu $P = R_+(C)$, $C$ là tập hợp các $x^* \in V^*$ sao cho $\langle x^*, x \rangle > 0$ với mọi $x \in P$, do đó $C$ có tính duy nhất.
 
-#### Hệ quả 2 {#lie-vi-s1-prop-20-cor-2 .statement}
+#### Hệ quả 2 {#lie-vi-s1-prop-20-cor-2 .statement tag=0AVP}
 
 *Giả sử rằng $V$ được trang bị cấu trúc của một không gian vectơ có thứ tự sao cho, đối với cấu trúc này, mọi nghiệm của $R$ đều là dương hoặc âm. Cho $P$ là tập hợp các nghiệm dương đối với cấu trúc này. Khi đó tồn tại duy nhất một phòng $C$ của $R$ sao cho $P = R_+(C)$*.
 
@@ -894,7 +894,7 @@ Quả thực, $P$ thỏa mãn điều kiện (ii) của Hệ quả 1.
 
 Hệ quả này đặc biệt áp dụng khi cấp đang được xét là toàn phần, khi đó điều kiện trên $R$ được thỏa mãn một cách tự động. Nhắc lại rằng một cấp như vậy có thể thu được, chẳng hạn, bằng cách chọn một cơ sở $(e_i)_{1 \leq i \leq n}$ của $V$ và lấy cấp từ điển trên $V$, sao cho $x = \sum_i \xi_i e_i$ là $\geq 0$ nếu tất cả các $\xi_i$ đều là 0, hoặc nếu $\xi_i > 0$ với chỉ số nhỏ nhất $i$ sao cho $\xi_i \neq 0$.
 
-#### Hệ quả 3 {#lie-vi-s1-prop-20-cor-3 .statement}
+#### Hệ quả 3 {#lie-vi-s1-prop-20-cor-3 .statement tag=0AVQ}
 
 *Một tập con B của R là một cơ sở của R khi và chỉ khi các điều kiện sau được thỏa mãn:*
 
@@ -910,7 +910,7 @@ $$
 
 điều này cho thấy X và $X'$ đều được sinh bởi P, và do đó trùng nhau. Nhưng các nửa đường thẳng sinh bởi các phần tử của B (tương ứng bởi $B'$) là các phần tử sinh cực biên của X (tương ứng của $X'$); vì một nửa đường thẳng như vậy chỉ chứa một nghiệm không phân chia được, nên $B = B'$.
 
-#### Hệ quả 4 {#lie-vi-s1-prop-20-cor-4 .statement}
+#### Hệ quả 4 {#lie-vi-s1-prop-20-cor-4 .statement tag=0AVR}
 
 *Cho B là một cơ sở của R, $B'$ là một tập con của B, $V'$ là không gian con vectơ của V sinh bởi $B'$, và $R' = R \cap V'$. Khi đó $B'$ là một cơ sở của hệ nghiệm $B'$.*
 
@@ -918,31 +918,31 @@ $$
 
 Ta gọi $R'$ là hệ nghiệm *sinh* bởi $B'$.
 
-#### Hệ quả 5 {#lie-vi-s1-prop-20-cor-5 .statement}
+#### Hệ quả 5 {#lie-vi-s1-prop-20-cor-5 .statement tag=0AVS}
 
 *Cho B là một cơ sở của R, $A_1, A_2, \ldots, A_r$ là các tập con của B trực giao từng đôi một, và $A = A_1 \cup A_2 \cup \cdots \cup A_r$. Khi đó mọi nghiệm $\alpha$ là một tổ hợp tuyến tính của các phần tử của A thực sự là một tổ hợp tuyến tính của các phần tử của một trong các $A_i$. Đặc biệt, nếu R là bất khả quy, không có phân hoạch nào của B thành các tập con trực giao từng đôi một.*
 
 Gọi $E_1, \ldots, E_r, E$ là các không gian con vectơ của V lần lượt sinh bởi $A_1, \ldots, A_r, A$. Theo Hệ quả 4, ta có thể giả sử rằng $E = V$. Khi đó, theo Định lý 2 (vii) của no. 5, các $E_i$ ổn định dưới tác động của $W(R)$, do đó R là hợp của các $R \cap E_i$ (no. 2, Mệnh đề 5).
 
-#### Hệ quả 6 {#lie-vi-s1-prop-20-cor-6 .statement}
+#### Hệ quả 6 {#lie-vi-s1-prop-20-cor-6 .statement tag=0AVT}
 
 *Ta chấp nhận các giả thiết và ký hiệu của Mệnh đề 20. Gọi $V_1$ là không gian con vectơ của V sinh bởi $\Sigma$. Khi đó $P \cap (-P) = Q \cup (-Q) = V_1 \cap R$ là một hệ nghiệm trong $V_1$ với cơ sở $\Sigma$.*
 
 Ta có $P \cap (-P) = (R_+(C) \cup Q) \cap ((-R_+(C)) \cup (-Q)) = Q \cup (-Q)$. Định lý 3 chứng minh rằng $Q \cup (-Q) = V_1 \cap R$. Cuối cùng, $\Sigma$ là một cơ sở của hệ nghiệm $V_1 \cap R$ theo Hệ quả 4.
 
-#### Mệnh đề 21 {#lie-vi-s1-prop-21 .statement}
+#### Mệnh đề 21 {#lie-vi-s1-prop-21 .statement tag=0AVU}
 
 *Cho C (tương ứng $C'$) là một buồng của R, $\Sigma$ (tương ứng $\Sigma'$) là một tập con của $B(C)$ (tương ứng $B(C')$), Q (tương ứng $Q'$) là tập hợp các tổ hợp tuyến tính của các phần tử của $\Sigma$ (tương ứng $\Sigma'$) với các hệ số nguyên âm, và $P = Q \cup R_+(C)$ (tương ứng $P' = Q' \cup R_+(C')$). Nếu tồn tại một phần tử của nhóm Weyl biến đổi P thành $P'$, thì tồn tại một phần tử của nhóm Weyl biến đổi C thành $C'$ và $\Sigma$ thành $\Sigma'$.
 
 Ta rút gọn ngay lập tức về trường hợp $P = P'$. Cho $V_1$ là không gian con vectơ của V sinh bởi $P \cap (-P)$. Khi đó $\Sigma$ và $\Sigma'$ là các cơ sở của hệ nghiệm $R_1 = P \cap (-P)$ trong $V_1$ (Hệ quả 6 của Mệnh đề 20). Do đó tồn tại $g_1 \in W(R_1)$ sao cho $g_1(\Sigma) = \Sigma'$. Rõ ràng $g_1$ được cảm sinh bởi một phần tử $g$ của $W(R)$ là tích của các phép đối xứng $s_\sigma$ với $\sigma \in \Sigma$. Cho $\gamma = \sum_{\beta \in B(C)} c_\beta \beta$ là một phần tử của $P - R_1$. Khi đó $c_\beta > 0$ với ít nhất một $\beta \in B(C) - \Sigma$. Hơn nữa, nếu $\sigma \in \Sigma$, thì $s_\sigma(\gamma) - \gamma \in V_1$, do đó $s_\sigma(\gamma)$ có ít nhất một tọa độ $> 0$ đối với $B(C)$ (no. 1, công thức (5)), suy ra $s_\sigma(\gamma) \in R_+(C)$ và cuối cùng $s_\sigma(\gamma) \in P - R_1$. Suy ra $P - R_1$ ổn định dưới các $s_\sigma, \sigma \in \Sigma$, và do đó dưới g, nên $g(P) = P$. Vì vậy ta quy về việc chứng minh mệnh đề trong trường hợp $P = P'$ và $\Sigma = \Sigma'$. Trong trường hợp này, $Q = Q'$, do đó $R_+(C) = P - Q = P - Q' = R_+(C')$, và vì thế $C = C'$ (Hệ quả 1 của Mệnh đề 20).
 
-#### Hệ quả {#lie-vi-s1-n7-cor-1 .statement}
+#### Hệ quả {#lie-vi-s1-n7-cor-1 .statement tag=0AVV}
 
 *Cho P, $P'$ là hai tập con parabolic của R được biến đổi thành nhau bởi một phần tử của nhóm Weyl. Nếu tồn tại một buồng C của R sao cho $R_+(C) \subseteq P$ và $R_+(C) \subseteq P'$, thì $P = P'$.
 
 Điều này suy ra từ Bổ đề 3 và Mệnh đề 21 vì phần tử duy nhất của $W(R)$ biến đổi C thành C là 1, xem no. 5, Định lý 2.
 
-#### Mệnh đề 22 {#lie-vi-s1-prop-22 .statement}
+#### Mệnh đề 22 {#lie-vi-s1-prop-22 .statement tag=0AVW}
 
 *Cho P là một tập hợp đóng của R sao cho $P \cap (-P) = \varnothing$. Khi đó tồn tại một buồng C của R sao cho $P \subseteq R_+(C)$.
 
@@ -964,7 +964,7 @@ với mọi $i$; sẽ tồn tại hai số nguyên phân biệt $i, j$ sao cho $
 
 4) Để chứng minh mệnh đề, chỉ cần (Hệ quả 2 của Mệnh đề 20) chỉ ra rằng tồn tại một cơ sở $(\alpha_k)_{1 \leq k \leq l}$ của $V$ sao cho, đối với thứ tự từ điển được xác định bởi cơ sở này, mọi phần tử của $P$ đều $> 0$. Ta tiến hành bằng quy nạp theo $l = \dim V$, và giả sử rằng mệnh đề đã được thiết lập cho mọi số chiều $< l$. Cho $\gamma \in V$ là sao cho $\gamma \neq 0$ và $(\gamma|\alpha) \geqslant 0$ với mọi $\alpha \in P$ (xem 3)). Gọi $L$ là siêu phẳng trực giao với $\gamma$, và $V'$ là không gian con của $L$ sinh bởi $R \cap L$. Khi đó $R \cap L$ là một hệ nghiệm trong $V'$ và $P \cap L$ là đóng trong $R \cap L$. Theo giả thiết quy nạp, tồn tại một cơ sở $(\beta_1, \ldots, \beta_{l'})$ của $V'$ sao cho các phần tử của $P \cap L$ là $> 0$ đối với thứ tự từ điển được xác định bởi cơ sở này. Khi đó mọi cơ sở của $V$ mà $l' + 1$ phần tử đầu tiên là $\gamma, \beta_1, \ldots, \beta_{l'}$ và các phần tử còn lại thuộc $L$ đều có tính chất cần có.
 
-#### Mệnh đề 23 {#lie-vi-s1-prop-23 .statement}
+#### Mệnh đề 23 {#lie-vi-s1-prop-23 .statement tag=0AVX}
 
 *Cho $P$ là một tập con của $R$ và $V_1$ (tương ứng $\Gamma$) là không gian con vectơ (tương ứng nhóm con) của $V$ sinh bởi $P$. Các điều kiện sau là tương đương:*
 
@@ -991,7 +991,7 @@ nên $(\beta|\alpha_i) > 0$ với một chỉ số $i$ nào đó. Nếu $\beta =
 
 Các điều kiện của Mệnh đề 23 có thể được thực hiện với $V_1 = V$ nhưng vẫn có $P \neq R$. Ví dụ, đây là trường hợp khi $R$ là một hệ kiểu $G_2$ và $P$ là một hệ kiểu $A_2$; cf. Bản X.
 
-#### Mệnh đề 24 {#lie-vi-s1-prop-24 .statement}
+#### Mệnh đề 24 {#lie-vi-s1-prop-24 .statement tag=0AVY}
 
 *Cho $R'$ là giao của $R$ với một không gian con vectơ của $V$, sao cho $R'$ là một hệ nghiệm trong không gian con vectơ $V'$ mà nó sinh ra (cf. Hệ quả của Mệnh đề 4, no. 1). Cho $B'$ là một cơ sở của $R'$.*
 
@@ -1002,7 +1002,7 @@ Mệnh đề (ii) là rõ ràng. Ta chứng minh (i). Cho $(\varepsilon_1, \vare
 
 ### 8. NGHIỆM CAO NHẤT
 
-#### Mệnh đề 25 {#lie-vi-s1-prop-25 .statement}
+#### Mệnh đề 25 {#lie-vi-s1-prop-25 .statement tag=0AVZ}
 
 *Giả sử rằng $R$ là bất khả quy. Cho $C$ là một buồng của $R$, và cho $B(C) = \{\alpha_1, \ldots, \alpha_l\}$ là cơ sở tương ứng.*
 
@@ -1029,7 +1029,7 @@ Nếu $\gamma = \alpha - \beta \in \mathbf{R}$, thì hoặc $\alpha > \beta$ ho�
 
 5) Theo 2), $\tilde{\alpha} \in \overline{C}$. Ta sẽ chứng minh rằng $(\alpha' | \alpha') \leq (\tilde{\alpha} | \tilde{\alpha})$ với mọi $\alpha' \in \mathbf{R}$. Vì $\overline{C}$ là một miền cơ bản của $W(\mathbf{R})$, ta có thể giả sử rằng $\alpha' \in \overline{C}$. Ta có $\tilde{\alpha} - \alpha' \geq 0$, do đó $(\tilde{\alpha} - \alpha' | x) \geq 0$ với mọi $x \in \overline{C}$. Đặc biệt $(\tilde{\alpha} - \alpha' | \tilde{\alpha}) \geq 0$ và $(\tilde{\alpha} - \alpha' | \alpha') \geq 0$, suy ra $(\tilde{\alpha} | \tilde{\alpha}) \geq (\alpha' | \tilde{\alpha}) \geq (\alpha' | \alpha')$. Như vậy $n(\alpha', \tilde{\alpha})$ phải bằng 0, 1 hoặc -1 nếu $\alpha'$ không tỉ lệ với $\tilde{\alpha}$. Nếu $\alpha' \geq 0$, thì $(\tilde{\alpha} | \alpha') \geq 0$ theo 2), do đó $n(\alpha', \tilde{\alpha}) \geq 0$ và $n(\alpha', \tilde{\alpha})$ phải bằng 0 hoặc 1. Q.E.D.
 
-#### Nhận xét {#lie-vi-s1-n8-rem-1 .statement}
+#### Nhận xét {#lie-vi-s1-n8-rem-1 .statement tag=0AW0}
 
 Nghiệm
 
@@ -1043,7 +1043,7 @@ Cho $l = \dim V$. Ký hiệu $Q(\mathbf{R})$ là nhóm con của $V$ sinh bởi 
 
 Tương tự, nhóm $Q(\mathbf{R}^*)$ là một nhóm con rời rạc của $V^*$ có hạng $l$.
 
-#### Mệnh đề 26 {#lie-vi-s1-prop-26 .statement}
+#### Mệnh đề 26 {#lie-vi-s1-prop-26 .statement tag=0AW1}
 
 *Tập hợp các $x \in V$ sao cho $\langle x, y^* \rangle \in \mathbf{Z}$ với mọi $y^* \in Q(\mathbf{R}^*)$ (hay, tương đương, với mọi $y^* \in \mathbf{R}^*$) là một nhóm con rời rạc $G$ của $V$ chứa $Q(\mathbf{R})$. Nếu $B'$ là một cơ sở của $\mathbf{R}^*$, thì cơ sở của $V$ đối ngẫu với $B'$ là một cơ sở của $G$*.
 
@@ -1065,7 +1065,7 @@ là các nhóm hữu hạn đối ngẫu trên $\mathbf{Q}/\mathbf{Z}$, và do �
 
 Nếu R là một tổng trực tiếp của các hệ nghiệm $R_i$, nhóm Q(R) (tương ứng P(R)) được đồng nhất một cách chính tắc với tổng trực tiếp của Q($R_i$) (tương ứng P($R_i$)).
 
-#### Mệnh đề 27 {#lie-vi-s1-prop-27 .statement}
+#### Mệnh đề 27 {#lie-vi-s1-prop-27 .statement tag=0AW2}
 
 *Cho $R_1$ là một tập con của R, $Q_1$ là nhóm con của Q(R) được sinh bởi $R_1$, và $W_1$ là nhóm con của W(R) được sinh bởi các $s_\alpha$ ($\alpha \in R_1$). Nếu $p \in P(R)$ và $w \in W_1$, thì $p - w(p) \in Q_1$.*
 
@@ -1111,13 +1111,13 @@ s_\beta(\overline{\omega}_\alpha) = \overline{\omega}_\alpha - \delta_{\alpha\be
 $$
 Nói cách khác, $\overline{\omega}_\alpha$ *vuông góc với* $\beta$ *đối với* $\beta \neq \alpha$, *và phép chiếu vuông góc của nó lên* $R\alpha$ *là* $\frac{1}{2}\alpha$. Vì $\overline{\omega}_\alpha \in \overline{C}$, $(\overline{\omega}_\alpha |\overline{\omega}_\beta) \geqslant 0$ với $\alpha, \beta \in B$, nghĩa là góc $(\overline{\omega}_\alpha, \overline{\omega}_\beta)$ là nhọn hoặc là góc vuông. Các trọng số trội là các $\overline{\omega} \in V$ sao cho $2(\overline{\omega}|\alpha)/(|\alpha|\alpha)$ là một số nguyên $\geqslant 0$ với mọi $\alpha \in B$.
 
-#### Mệnh đề 28 {#lie-vi-s1-prop-28 .statement}
+#### Mệnh đề 28 {#lie-vi-s1-prop-28 .statement tag=0AW3}
 
 *Cho* $B$ *là một cơ sở của* $R$, $B'$ *một tập con của* $B$, $V'$ *không gian con vectơ của* $V$ *sinh bởi* $B'$, $R' = R \cap V'$ *(là một hệ nghiệm trong* $V'$*),* $R'\tilde{}$ *hệ nghiệm nghịch đảo (được đồng nhất với ảnh chính tắc của* $R'$ *trong* $R'\tilde{}$), $V_1$ *phần bù trực giao của* $R'\tilde{}$ *trong* $V$, *và* $p$ *phép chiếu của* $V$ *lên* $V'$ *song song với* $V_1$. *Khi đó,* $Q(R') = Q(R) \cap V'$, $P(R') = p(P(R))$. *Tập hợp các trọng số trội của* $R'$ *là ảnh qua* $p$ *của tập hợp các trọng số trội của* $R$.
 
 Thật vậy, $Q(R)$ là nhóm con của $V$ có cơ sở $B$, $Q(R')$ là nhóm con của $V'$ có cơ sở $B'$ (no. 7, Hệ quả 4 của Mệnh đề 20), từ đó $Q(R') = Q(R) \cap V'$ là ngay lập tức. Nếu $\overline{\omega} \in P(R)$ và $\alpha \in R'$, $\langle p(\overline{\omega}), \alpha^\vee \rangle = \langle \overline{\omega}, \alpha^\vee \rangle \in \mathbf{Z}$, nên $p(\overline{\omega}) \in P(R')$, và do đó $p(P(R)) \subseteq P(R')$. Nếu $\overline{\omega}' \in P(R')$, $\overline{\omega}'$ mở rộng thành một dạng tuyến tính $\overline{\omega}$ trên $V^*$ triệt tiêu trên $(B - B')\tilde{}$; ta có $\langle \overline{\omega}, \alpha^\vee \rangle \in \mathbf{Z}$ với mọi $\alpha \in B$, nên $\overline{\omega} \in P(R)$, và $\overline{\omega}' = p(\overline{\omega})$; do đó $P(R') \subseteq p(P(R))$. Vậy $P(R') = p(P(R))$, và mệnh đề về các trọng số trội được chứng minh theo cùng cách.
 
-#### Mệnh đề 29 {#lie-vi-s1-prop-29 .statement}
+#### Mệnh đề 29 {#lie-vi-s1-prop-29 .statement tag=0AW4}
 
 *Cho* $\rho$ *là một nửa tổng của các nghiệm* $> 0$.
 
@@ -1131,7 +1131,7 @@ $$
 $$
 Suy ra, $\rho = \sum_{\beta} \overline{\omega}_\beta$, và do đó $\rho \in C$. Cuối cùng, (iii) tương đương với $\langle \rho, \alpha^\vee \rangle = 1$.
 
-#### Hệ quả {#lie-vi-s1-n10-cor-1 .statement}
+#### Hệ quả {#lie-vi-s1-n10-cor-1 .statement tag=0AW5}
 
 Gọi $\sigma$ là một nửa tổng của các phần tử $> 0$ của $R^-$ (đối với $B^-$). Với mọi $\alpha \in V$, tổng các tọa độ của $\alpha$ đối với cơ sở $B$ là $\langle \alpha, \sigma \rangle$. Nếu $\alpha \in R$, tổng này bằng $\frac{1}{2} \sum_{\beta \in R_+ (\mathbf{C})} n(\alpha, \beta)$.
 
@@ -1141,7 +1141,7 @@ Gọi $\sigma$ là một nửa tổng của các phần tử $> 0$ của $R^-$ (
 
 Cho $C$ là một ngăn của $R$, cho $\{ \alpha_1, \ldots, \alpha_l \}$ là cơ sở tương ứng của $R$, và đặt $c = s_{\alpha_1} \cdots s_{\alpha_l}$. Phần tử $c$ của $W$ được gọi là *phép biến đổi Coxeter* của $W$ xác định bởi $C$ và song ánh $i \mapsto \alpha_i$ (Ch. V, § 6, no. 1). Cấp $h$ của nó được gọi là *số Coxeter* của $W$ (hoặc của $R$).
 
-#### Mệnh đề 30 {#lie-vi-s1-prop-30 .statement}
+#### Mệnh đề 30 {#lie-vi-s1-prop-30 .statement tag=0AW6}
 
 *Giả sử rằng $R$ là bất khả quy. Cho $m$ là một số nguyên giữa 1 và $h - 1$ và nguyên tố cùng nhau với $h$. Khi đó $\exp(\frac{2i\pi m}{h})$ là một trị riêng của $c$ có bội số 1.*
 
@@ -1149,7 +1149,7 @@ Cho $C$ là một ngăn của $R$, cho $\{ \alpha_1, \ldots, \alpha_l \}$ là c�
 
 Trước hết ta chứng minh một bổ đề:
 
-#### Bổ đề 4 {#lie-vi-s1-lem-4 .statement}
+#### Bổ đề 4 {#lie-vi-s1-lem-4 .statement tag=0AW7}
 
 *Với mọi $w \in W$, đa thức đặc trưng của $w$ có các hệ số nguyên.*
 
@@ -1157,7 +1157,7 @@ Ta biết (no. 6, Định lý 3) rằng $\{ \alpha_1, \ldots, \alpha_l \}$ là m
 
 Cho $P$ là đa thức đặc trưng của $c$. Bổ đề trên cho thấy các hệ số của $P$ là các số nguyên. Theo Chap. V, § 6, no. 2, Hệ quả 2 của Mệnh đề 3, nghiệm nguyên thủy thứ $h$ của đơn vị $z = \exp(\frac{2i\pi}{h})$ là một nghiệm đơn của $P$. Do đó, mọi *liên hợp* của $z$ trên $\mathbf{Q}$ cũng là một nghiệm đơn của $P$. Nhưng ta biết (*Đại số*, Chap. V) rằng các nghiệm nguyên thủy thứ $h$ của đơn vị là liên hợp trên $\mathbf{Q}$. Vậy tất cả chúng đều là các nghiệm đơn của $P$, điều này chứng minh mệnh đề.
 
-#### Mệnh đề 31 {#lie-vi-s1-prop-31 .statement}
+#### Mệnh đề 31 {#lie-vi-s1-prop-31 .statement tag=0AW8}
 
 *Giả sử $R$ là bất khả quy và thu gọn, và đặt $\beta = n_1 \alpha_1 + \cdots + n_l \alpha_l$ là nghiệm cao nhất của $R$ (xem no. 8). Khi đó $n_1 + \cdots + n_l = h - 1$.*
 
@@ -1185,7 +1185,7 @@ $$
 
 nên $n_1 + \cdots + n_l + 1 = h$.
 
-#### Mệnh đề 32 {#lie-vi-s1-prop-32 .statement}
+#### Mệnh đề 32 {#lie-vi-s1-prop-32 .statement tag=0AW9}
 
 *Giả sử $R$ là bất khả quy, và mọi nghiệm đều có cùng độ dài. Cho $\alpha \in R$. Số phần tử của $R$ không trực giao với $\alpha$ là $4h - 6$.*
 
@@ -1210,7 +1210,7 @@ $$
 
 và số nghiệm không trực giao với $\alpha$ là $\operatorname{Card} R' + 2 = 4h - 6$.
 
-#### Mệnh đề 33 {#lie-vi-s1-prop-33 .statement}
+#### Mệnh đề 33 {#lie-vi-s1-prop-33 .statement tag=0AWA}
 
 *Giả sử $R$ là bất khả quy và thu gọn. Đặt $s_{\alpha_i} = s_i$, và cho $\Gamma$ là nhóm con của $W$ sinh bởi $c = s_1 \ldots s_l$.*
 

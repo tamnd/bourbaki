@@ -41,7 +41,7 @@ subsections:
       pdf_page: 33
 statements: 46
 exercises: 11
-content_sha256: dddc39df458f4963c9b4d57372a8fae27b78193d38b8488ec84f78c6c99f3672
+content_sha256: 58df0254ee8dfd95e1a7a43adab903da8d1cdff6789765b2f3d67e5bbb92aebd
 ---
 
 ## § 2. MODULES ET ANNEAUX MACAULAYENS
@@ -50,17 +50,17 @@ content_sha256: dddc39df458f4963c9b4d57372a8fae27b78193d38b8488ec84f78c6c99f3672
 
 Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini et $p$ un idéal premier de $A$. Si $p \not\in \mathrm{Supp}(M)$, on a $M_p = 0$, donc $\mathrm{prof}_{A_p}(M_p) = +\infty$ et $\dim_{A_p}(M_p) = -\infty$. Si $p \in \mathrm{Supp}(M)$, on a $0 \leq \mathrm{prof}_{A_p}(M_p) \leq \dim_{A_p}(M_p) < +\infty$ ($§ 1$, n° 4, cor. 2 du th. 2).
 
-#### Définition 1 {#ac-x-s2-def-1 .statement}
+#### Définition 1 {#ac-x-s2-def-1 .statement tag=0D2C}
 
 *Soient $A$ un anneau noethérien et $M$ un $A$-module de type fini. On dit que $M$ est macaulayen ou est un module de Macaulay si, pour tout idéal maximal $m \in \mathrm{Supp}(M)$, on a $\mathrm{prof}_{A_m}(M_m) = \dim_{A_m}(M_m)$.*
 
 D’après ce qui précède, il revient au même de dire qu’on a $\mathrm{prof}_{A_m}(M_m) \geq \dim_{A_m}(M_m)$ pour tout idéal maximal $m$ de $A$. Soit $A$ un anneau local noethérien ; pour qu’un $A$-module non nul de type fini soit macaulayen, il faut et il suffit que sa profondeur soit égale à sa dimension.
 
-#### Exemple 1 {#ac-x-s2-n1-exa-1 .statement}
+#### Exemple 1 {#ac-x-s2-n1-exa-1 .statement tag=0D2D}
 
 Tout $A$-module de longueur finie est macaulayen.
 
-#### Exemple 2 {#ac-x-s2-n1-exa-2 .statement}
+#### Exemple 2 {#ac-x-s2-n1-exa-2 .statement tag=0D2E}
 
 Soit $M'$ un sous-module facteur direct d’un $A$-module de type fini macaulayen $M$. Alors $M'$ est macaulayen ; en effet, pour tout idéal maximal $m$ de $A$, le $A_m$-module $M'_m$ est facteur direct de $M_m$ et on a par conséquent
 $$
@@ -68,7 +68,7 @@ $$
 $$
 d’après la remarque 4 du $§ 1$, n° 1 ct VIII, $§ 1$, n° 4, prop. 9 c).
 
-#### Exemple 3 {#ac-x-s2-n1-exa-3 .statement}
+#### Exemple 3 {#ac-x-s2-n1-exa-3 .statement tag=0D2F}
 
 Soient $M$ un $A$-module de type fini et macaulayen et $(x_1, \ldots, x_n)$ une suite $M$-régulière d’éléments de $A$. Alors le $A$-module $\overline{M} = M/(x_1M + \cdots + x_nM)$ est macaulayen. Soit en effet $m$ un idéal maximal de $A$ appartenant au support de $\overline{M}$ ; on a $x_i \in m$ pour tout $i$ puisque $x_i$ annule $\overline{M}$, et les images canoniques des $x_i$ dans $A_m$ forment une suite $M_m$-régulière d’éléments de $mA_m$. On a par conséquent ($§ 1$, n° 4, prop. 7 et VIII, $§ 3$, n° 2, cor. de la prop. 3) les égalités
 $$
@@ -79,11 +79,11 @@ $$
 $$
 d’où notre assertion.
 
-#### Exemple 4 {#ac-x-s2-n1-exa-4 .statement}
+#### Exemple 4 {#ac-x-s2-n1-exa-4 .statement tag=0D2G}
 
 Soient $M$ un $A$-module de type fini, et $a$ un idéal de $A$ tel que $aM = 0$. Pour que le $A$-module $M$ soit macaulayen, il faut et il suffit qu’il soit macaulayen comme $(A/a)$-module. En effet, posons $B = A/a$ ; soient $n$ un idéal maximal de $B$ et $m$ son image réciproque dans $A$ ; on a $\dim_{A_m}(M_m) = \dim_{B_n}(M_n)$ et $\mathrm{prof}_{A_m}(M_m) = \mathrm{prof}_{B_n}(M_n)$ ($§ 1$, n° 3, cor. de la prop. 4).
 
-#### Proposition 1 {#ac-x-s2-prop-1 .statement}
+#### Proposition 1 {#ac-x-s2-prop-1 .statement tag=0D2H}
 
 Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini, $p$ et $q$ des idéaux premiers de $\mathrm{Supp}(M)$ tels que $p \subset q$. Supposons $\dim_{A_q}(M_q) = \mathrm{prof}_{A_q}(M_q)$. On a alors $\dim_{A_p}(M_p) = \mathrm{prof}_{A_p}(M_p)$ et
 $$
@@ -91,7 +91,7 @@ $$
 $$
 Cela résulte directement du cor. 1 de la prop. 13 du § 1, n° 7.
 
-#### Corollaire {#ac-x-s2-n1-cor-1 .statement}
+#### Corollaire {#ac-x-s2-n1-cor-1 .statement tag=0D2I}
 
 Soient $A$ un anneau noethérien et $M$ un $A$-module de type fini. Les conditions suivantes sont équivalentes :
 (i) le $A$-module $M$ est macaulayen ;
@@ -104,13 +104,13 @@ Soient $A$ un anneau noethérien et $M$ un $A$-module de type fini. Les conditio
 (iii) $\Rightarrow$ (iv) : il suffit de prendre $F = V(p)$.
 (iv) $\Rightarrow$ (i) : cela résulte des inégalités $\mathrm{prof}_A(p; M) \leq \mathrm{prof}(M_p) \leq \dim(M_p)$, valables pour tout $p \in \mathrm{Supp}(M)$ ($§ 1$, n° 5, remarque 3 et n° 4, cor. 2 du th. 2).
 
-#### Remarque {#ac-x-s2-n1-rem-1 .statement}
+#### Remarque {#ac-x-s2-n1-rem-1 .statement tag=0D2J}
 
 Soient $S$ une partie multiplicative de $A$ et $M$ un $A$-module de type fini et macaulayen. Alors $S^{-1}M$ est un $S^{-1}A$-module macaulayen. En effet, soit $q \in \mathrm{Spec}(S^{-1}A)$ ; notons $i_A^S : A \to S^{-1}A$ l’homomorphisme canonique et $p = (i_A^S)^{-1}(q)$. L’anneau $(S^{-1}A)_q$ s’identifie à $A_p$ (II, § 2, n° 5, prop. 11), et le $A_p$-module $(S^{-1}M)_q$ au $A_p$-module $M_p$ (II, § 2, n° 7, prop. 20), qui est macaulayen d’après le corollaire.
 
 ### 2. Support d’un module macaulayen
 
-#### Proposition 2 {#ac-x-s2-prop-2 .statement}
+#### Proposition 2 {#ac-x-s2-prop-2 .statement tag=0D2K}
 
 Soient $A$ un anneau noethérien et $M$ un $A$-module de type fini et macaulayen.
 a) Le $A$-module $M$ n’a pas d’idéaux premiers associés immergés.\footnote{Rappelons (cf. IV, § 2, n° 3, remarque) qu’on dit qu’un idéal premier associé à $M$ est immergé s’il n’est pas un élément minimal de $\mathrm{Supp}(M)$. Dire que $M$ n’a pas d’idéaux premiers associés immergés signifie donc que les idéaux premiers associés de $M$ sont les éléments minimaux de $\mathrm{Supp}(M)$.}
@@ -147,11 +147,11 @@ d) D’après b), on a $\mathrm{codim}(Y, X_1) = \mathrm{codim}(Y, \mathrm{Supp}
 
 En particulier, s’il existe un $A$-module $M$ de type fini, macaulayen, de support égal à $\mathrm{Spec}(A)$, l’anneau $A$ est caténaire et par conséquent tout anneau de fractions ou tout anneau quotient de $A$ est caténaire (VIII, $\S$ 1, n° 3, remarque 2).
 
-#### Remarque 1 {#ac-x-s2-n2-rem-1 .statement}
+#### Remarque 1 {#ac-x-s2-n2-rem-1 .statement tag=0D2L}
 
 Sous les hypothèses de la prop. 2, il peut arriver que deux composantes irréductibles $X_1$ et $X_2$ de $\mathrm{Supp}(M)$ aient une intersection $Y$ réduite à un point et que l’on ait $\dim X_1 \neq \dim X_2$ et $\dim X_2 \neq \mathrm{codim}(Y, X_2)$ (cf. exercice 4). Cependant ceci ne peut arriver lorsque l’anneau $A$ est local, comme le montre le corollaire qui suit.
 
-#### Corollaire {#ac-x-s2-n2-cor-1 .statement}
+#### Corollaire {#ac-x-s2-n2-cor-1 .statement tag=0D2M}
 
 Soient $A$ un anneau local noethérien et $M$ un $A$-module de type fini non nul et macaulayen.
 
@@ -181,13 +181,13 @@ c) C’est une conséquence de b).
 
 d) On a $\operatorname{prof}_A(J; M) = \operatorname{codim}(\operatorname{Supp}(M) \cap V(J), \operatorname{Supp}(M))$ d’après le cor. de la prop. 1 du n° 1. Il suffit alors d’appliquer b) avec $X = \operatorname{Supp}(M) \cap V(J) = \operatorname{Supp}(M/JM)$ (II, § 4, n° 4, cor. de la prop. 18).
 
-#### Remarque 2 {#ac-x-s2-n2-rem-2 .statement}
+#### Remarque 2 {#ac-x-s2-n2-rem-2 .statement tag=0D2N}
 
 Soient M un A-module de type fini et macaulayen, et $p$ un élément de $\operatorname{Supp}(M)$. Compte tenu du th. 2 du § 1, n° 4, on a $\operatorname{prof}_A(p; M) < +\infty$, et il existe une suite M-régulière de longueur $\operatorname{prof}_A(p; M)$ formée d’éléments de $p$. Notons J l’idéal de A engendré par une telle suite ; alors le A-module $M/JM$ est macaulayen (n° 1, exemple 3) et $p$ est un élément minimal de son support. En effet, $p$ contient J donc appartient au support de $M/JM$ (II, § 4, n° 4, cor. de la prop. 18) ; d’après le corollaire 1 du théorème 2 du § 1, n° 4, l’idéal $p$ est contenu dans un élément de $\operatorname{Ass}(M/JM)$, mais tout idéal premier associé à un module de type fini macaulayen est un élément minimal de son support (prop. 2).
 
 ### 3. Modules macaulayens sur un anneau local
 
-#### Proposition 3 {#ac-x-s2-prop-3 .statement}
+#### Proposition 3 {#ac-x-s2-prop-3 .statement tag=0D2O}
 
 Soient A un anneau local noethérien, M un A-module non nul de type fini et d la dimension de M. Les conditions suivantes sont équivalentes :
 
@@ -210,7 +210,7 @@ $$
 
 Nous dirons dans la suite de ce numéro qu’un module M de type fini sur un anneau local noethérien A est pur si, pour tout idéal premier p associé à M, on a dim(A/p) = dim(M). Cela signifie aussi que M n’a pas d’idéaux premiers associés immergés et que les composantes irréductibles du support de M ont toutes la même dimension. Tout module macaulayen sur un anneau local noethérien est pur (n° 2, prop. 2 et son corollaire).
 
-#### Lemme 1 {#ac-x-s2-lem-1 .statement}
+#### Lemme 1 {#ac-x-s2-lem-1 .statement tag=0D2P}
 
 — Soient A un anneau local noethérien, M un A-module de type fini et pur, et x un élément de mA. Les conditions suivantes sont équivalentes :
 
@@ -221,7 +221,7 @@ On peut supposer M non nul. L’assertion (i) équivaut au fait que x n’appart
 
 Soient A un anneau local noethérien et M un A-module non nul de type fini. Rappelons (VIII, § 3, n° 2) qu’une suite (x₁, ..., x_r) d’éléments de mA est dite sécante pour M si l’on a dim(M/(x₁M + ... + x_rM)) = dim(M) − r.
 
-#### Proposition 4 {#ac-x-s2-prop-4 .statement}
+#### Proposition 4 {#ac-x-s2-prop-4 .statement tag=0D2Q}
 
 Soient A un anneau local noethérien, M un A-module non nul de type fini et (x₁, ..., x_r) une suite d’éléments de mA sécante pour M. Les conditions suivantes sont équivalentes :
 
@@ -241,7 +241,7 @@ $$
 
 Supposons le A-module M macaulayen et démontrons (ii) par récurrence sur r. L’assertion est évidente si r = 0. Si r ≥ 1, le A-module N = M/(x₁M + ... + x_{r−1}M) est macaulayen par l’hypothèse de récurrence et l’on a dim(N/x_rN) = dim(N) − 1 puisque la suite (x₁, ..., x_r) est sécante ; l’homothétie (x_r)_N est donc injective (lemme 1), et N/x_rN est macaulayen (n° 1, exemple 3), d’où (ii).
 
-#### Théorème 1 {#ac-x-s2-thm-1 .statement}
+#### Théorème 1 {#ac-x-s2-thm-1 .statement tag=0D2R}
 
 Soient A un anneau local noethérien, M un A-module non nul de type fini, d la dimension de M, x = (x₁, ..., x_d) une suite d’éléments de mA sécante pour M, et J l’idéal qu’elle engendre. Les conditions suivantes sont équivalentes :
 
@@ -264,7 +264,7 @@ L’équivalence de (ii) et (iii) résulte de A, X, p. 160, cor. 1 du th. 1. Le 
 
 Soient $A$ un anneau noethérien, $M$ un A-module de type fini, et $S$ une partie de $A$. Conformément aux conventions du ch. VIII nous noterons $SM$ le sous-module $\sum_{s \in S} sM$ de $M$, et $\mathscr{G}$ l’idéal de $A$ engendré par $S$.
 
-#### Lemme 2 {#ac-x-s2-lem-2 .statement}
+#### Lemme 2 {#ac-x-s2-lem-2 .statement tag=0D2S}
 
 Soit $\overline{\mathscr{G}}$ l’image de $\mathscr{G}$ dans $A/\mathrm{Ann}(M)$. On a
 $$
@@ -279,18 +279,18 @@ Notons $\alpha$ l’annulateur de $M$. D’après le cor. de la prop. 18 de II, 
 
 Supposons $SM \neq M$ ; l’inégalité $\mathrm{ht}(\overline{\mathscr{G}}) \leq \mathrm{Card}(S)$ est évidente lorsque $S$ est infinie, et résulte de la prop. 4 b) de VIII, § 3, n° 3 lorsque $S$ est finie.
 
-#### Définition 2 {#ac-x-s2-def-2 .statement}
+#### Définition 2 {#ac-x-s2-def-2 .statement tag=0D2T}
 
 Soient $A$ un anneau noethérien, $M$ un A-module de type fini, et $S$ une partie finie de $A$. On dit que $S$ est fortement sécante pour $M$ si l’on a
 $$
 \mathrm{Card}(S) \leq \mathrm{codim}(\mathrm{Supp}(M/SM), \mathrm{Supp}(M)) .
 $$
 
-#### Remarque 1 {#ac-x-s2-n4-rem-1 .statement}
+#### Remarque 1 {#ac-x-s2-n4-rem-1 .statement tag=0D2U}
 
 Toute partie finie S de A telle que SM = M est fortement sécante pour M. Lorsque SM ≠ M, il résulte du lemme 2 que pour que S soit fortement sécante pour M, il faut et il suffit qu’on ait Card(S) = codim(Supp(M/SM), Supp(M)), ou encore ht($\overline{\mathscr{G}}$) = Card(S).
 
-#### Remarque 2 {#ac-x-s2-n4-rem-2 .statement}
+#### Remarque 2 {#ac-x-s2-n4-rem-2 .statement tag=0D2V}
 
 Si l’anneau A est local et le module M non nul, toute partie S de $m_A$ fortement sécante pour M est sécante pour M. En effet, comme le $A$-module M/SM est non nul, on a
 
@@ -300,7 +300,7 @@ $$
 
 (VIII, § 1, n° 2, prop. 3 a)), d’où notre assertion.
 
-#### Proposition 5 {#ac-x-s2-prop-5 .statement}
+#### Proposition 5 {#ac-x-s2-prop-5 .statement tag=0D2W}
 
 Soient A un anneau noethérien, M un A-module de type fini, et S une partie finie de A. Les conditions suivantes sont équivalentes :
 
@@ -329,13 +329,13 @@ $$
 
 ce qui entraîne (i) par passage à la borne inférieure.
 
-#### Corollaire {#ac-x-s2-n4-cor-1 .statement}
+#### Corollaire {#ac-x-s2-n4-cor-1 .statement tag=0D2X}
 
 Soient A un anneau noethérien et M un A-module de type fini. Toute suite M-régulière est fortement sécante pour M.
 
 Soient x une suite M-régulière, et J l’idéal de A qu’elle engendre. Pour tout idéal premier $p \in \operatorname{Supp}(M/JM)$, l’image de x dans $A_p$ est une suite $M_p$-régulière d’éléments de $pA_p$, donc une suite sécante pour $M_p$ (VIII, § 3, n° 2, cor. de la prop. 3).
 
-#### Proposition 6 {#ac-x-s2-prop-6 .statement}
+#### Proposition 6 {#ac-x-s2-prop-6 .statement tag=0D2Y}
 
 Soient A un anneau noethérien, M un A-module macaulayen de type fini, et S une partie finie de A fortement sécante pour M. Alors le A-module M/SM est macaulayen.
 
@@ -357,39 +357,39 @@ Pour tout idéal maximal $m \in \mathrm{Supp}(M/SM)$, l’image de S dans $A_m$ 
 
 ### 5. Anneaux de Macaulay
 
-#### Définition 3 {#ac-x-s2-def-3 .statement}
+#### Définition 3 {#ac-x-s2-def-3 .statement tag=0D2Z}
 
 *On dit qu’un anneau $A$ est macaulayen, ou est un anneau de Macaulay, s’il est noethérien et que le A-module $A$ est macaulayen.*
 
-#### Exemple 1 {#ac-x-s2-n5-exa-1 .statement}
+#### Exemple 1 {#ac-x-s2-n5-exa-1 .statement tag=0D30}
 
 Tout anneau artinien est un anneau de Macaulay (n° 1, exemple 1).
 
-#### Exemple 2 {#ac-x-s2-n5-exa-2 .statement}
+#### Exemple 2 {#ac-x-s2-n5-exa-2 .statement tag=0D31}
 
 Un anneau de Macaulay ne possède pas d’idéaux premiers associés immergés (n° 2, prop. 2). Inversement, soit $A$ un anneau noethérien de dimension $\leqslant 1$ qui ne possède pas d’idéaux premiers associés immergés ; pour toute partie finie non vide fortement sécante S de A, le A-module $A/SA$ est de dimension $\leqslant 0$, donc macaulayen (n° 1, exemple 1) ; par suite A est un anneau de Macaulay (n° 4, th. 2). En particulier un anneau noethérien réduit de dimension $\leqslant 1$ est un anneau de Macaulay.
 
-#### Exemple 3 {#ac-x-s2-n5-exa-3 .statement}
+#### Exemple 3 {#ac-x-s2-n5-exa-3 .statement tag=0D32}
 
 Un anneau noethérien normal de dimension $\leqslant 2$ est un anneau de Macaulay ($§ 1$, n° 10, texte précédant le th. 4). Inversement, soit $A$ un anneau de Macaulay dont l’anneau local $A_p$ en tout idéal premier $p$ de hauteur $\leqslant 1$ est intégralement clos ; alors A est normal ($§ 1$, n° 10, th. 4).
 
-#### Exemple 4 {#ac-x-s2-n5-exa-4 .statement}
+#### Exemple 4 {#ac-x-s2-n5-exa-4 .statement tag=0D33}
 
 Si $A$ est un anneau de Macaulay, il en est de même de $S^{-1}A$ pour toute partie multiplicative $S$ de $A$ (n° 1, remarque). Inversement, si l’anneau $A_m$ est un anneau de Macaulay pour tout idéal maximal $m$ de $A$, alors l’anneau $A$ est de Macaulay (n° 1, déf. 1).
 
-#### Exemple 5 {#ac-x-s2-n5-exa-5 .statement}
+#### Exemple 5 {#ac-x-s2-n5-exa-5 .statement tag=0D34}
 
 Soient $A$ un anneau noethérien et $J$ un idéal de $A$. Pour que $A/J$ soit un anneau de Macaulay, il faut et il suffit que ce soit un $A$-module macaulayen (n° 1, exemple 4).
 
-#### Exemple 6 {#ac-x-s2-n5-exa-6 .statement}
+#### Exemple 6 {#ac-x-s2-n5-exa-6 .statement tag=0D35}
 
 Soient $A$ un anneau local noethérien et $J$ un idéal de $A$ engendré par une suite $A$-régulière. Pour que $A/J$ soit un anneau de Macaulay, il faut et il suffit que $A$ en soit un (exemple 5 et prop. 4 du n° 3).
 
-#### Exemple 7 {#ac-x-s2-n5-exa-7 .statement}
+#### Exemple 7 {#ac-x-s2-n5-exa-7 .statement tag=0D36}
 
 Pour qu’un anneau local noethérien $A$ soit de Macaulay, il faut et il suffit qu’il possède un idéal de définition engendré par une suite $A$-régulière : cela résulte de la prop. 3 du n° 3, et du fait qu’une suite $A$-régulière d’éléments de $m_A$ engendre un idéal de définition si et seulement si elle est de longueur $\dim(A)$ (VIII, § 3, n° 2, th. 1 et cor. de la prop. 3). En particulier, tout anneau local noethérien régulier est un anneau de Macaulay (VIII, § 5, n° 2, th. 1). Plus généralement, le quotient d’un anneau local noethérien régulier $A$ par un idéal engendré par une suite $A$-régulière est un anneau de Macaulay (exemple 6).
 
-#### Proposition 7 {#ac-x-s2-prop-7 .statement}
+#### Proposition 7 {#ac-x-s2-prop-7 .statement tag=0D37}
 
 Soit $A$ un anneau noethérien. Les conditions suivantes sont équivalentes :
 
@@ -415,13 +415,13 @@ L’équivalence de (i), (v) et (v’) résulte du th. 1 du n° 3, et celle de (
 
 ### 6. Modules macaulayens et algèbres finies
 
-#### Remarque {#ac-x-s2-n6-rem-1 .statement}
+#### Remarque {#ac-x-s2-n6-rem-1 .statement tag=0D38}
 
 Soit $\rho : A \to B$ un homomorphisme d’anneaux, et soit $p \in \mathrm{Spec}(A)$. Notons $\overline{B}$ l’anneau $\kappa(p) \otimes_A B$. Il s’identifie à $S^{-1}B/p(S^{-1}B)$, où $S$ est la partie multiplicative $\rho(A - p)$ de $B$; les idéaux premiers de $\overline{B}$ sont donc les idéaux $q\overline{B}$, où $q$ est un idéal premier de $B$ qui contient $pB$ et ne rencontre pas $S$, autrement dit un idéal premier de $B$ au-dessus de $p$. Pour un tel idéal $q$, on a $S \subset B - q$, donc l’anneau local de $\overline{B}$ en $q\overline{B}$ s’identifie à $B_q/pB_q$, c’est-à-dire encore à $\kappa(p) \otimes_A B_q$.
 
 De même, si $N$ est un $B$-module, le $\overline{B}_{q\overline{B}}$-module $(\kappa(p) \otimes_A N)_{q\overline{B}}$ s’identifie à $\kappa(p) \otimes_A N_q$. Supposons de plus que le $B$-module $N$ soit de type fini ; d’après le lemme de Nakayama, la condition $\kappa(p) \otimes_A N_q = 0$ équivaut à $N_q = 0$. Ainsi le support du $\overline{B}$-module $\kappa(p) \otimes_A N$ est formé des idéaux $q\overline{B}$, où $q$ parcourt les idéaux premiers de $\mathrm{Supp}_B(N)$ au-dessus de $p$. En particulier, pour que le module $\kappa(p) \otimes_A N$ soit non nul, il faut et il suffit qu’il existe un idéal premier de $\mathrm{Supp}_B(N)$ au-dessus de $p$.
 
-#### Proposition 8 {#ac-x-s2-prop-8 .statement}
+#### Proposition 8 {#ac-x-s2-prop-8 .statement tag=0D39}
 
 Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens et soit $N$ un $B$-module qui est un $A$-module de type fini. Pour que le $A$-module $N$ soit macaulayen, il faut et il suffit que le $B$-module $N$ soit macaulayen et que, pour tout couple $(n, n')$ d’idéaux maximaux de $\mathrm{Supp}_B(N)$ tel que $\rho^{-1}(n) = \rho^{-1}(n')$, on ait $\dim_{B_n}(N_n) = \dim_{B'_n}(N'_n)$.
 
@@ -441,19 +441,19 @@ $$
 
 (VIII, § 2, n° 3, th. 1 et § 1, n° 4, prop. 9). Comme on a $\mathrm{prof}_{B_q}(N_q) \leq \dim_{B_q}(N_q)$ pour tout $q \in f^{-1}(m)$, la proposition résulte de ces égalités.
 
-#### Corollaire 1 {#ac-x-s2-prop-8-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s2-prop-8-cor-1 .statement tag=0D3A}
 
 Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens. Si $B$ est une $A$-algèbre finie et un $A$-module macaulayen, c’est un anneau de Macaulay. Si de plus $\rho$ est injectif, on a $\mathrm{ht}(aB) = \mathrm{ht}(a)$ pour tout idéal $a$ de $A$, et $\mathrm{ht}(b) = \mathrm{ht}(\rho^{-1}(b))$ pour tout idéal $b$ de $B$.
 
 La première assertion résulte de la prop. 8. Supposons $\rho$ injectif. Soit $a$ un idéal de $A$. On a $\mathrm{ht}(a) = \mathrm{prof}_A(a; B)$ puisque le $A$-module $B$ est macaulayen, de support égal à $\mathrm{Spec}(A)$ (n° 1, cor. de la prop. 1), $\mathrm{ht}(aB) = \mathrm{prof}_B(aB; B)$ (*loc. cit.*) et $\mathrm{prof}_A(a; B) = \mathrm{prof}_B(aB; B)$ ($§ 1$, n° 3, prop. 4), d’où $\mathrm{ht}(aB) = \mathrm{ht}(a)$. Soit $b$ un idéal de $B$. D’après ce qui précède, on a $\mathrm{ht}(\rho^{-1}(b)) = \mathrm{ht}(\rho^{-1}(b)B)$. Mais $\rho^{-1}(b)B$ est contenu dans $b$, donc de hauteur inférieure à $\mathrm{ht}(b)$ et on a $\mathrm{ht}(b) \leq \mathrm{ht}(\rho^{-1}(b))$ d’après VIII, $§ 2$, n° 3, th. 1, b).
 
-#### Corollaire 2 {#ac-x-s2-prop-8-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s2-prop-8-cor-2 .statement tag=0D3B}
 
 Soient $A$ un anneau noethérien intégralement clos et $B$ un anneau contenant $A$. On suppose que $B$ est un $A$-module sans torsion, de type fini. Si $B$ est un anneau de Macaulay, le $A$-module $B$ est macaulayen.
 
 En effet, deux idéaux premiers de $B$ qui sont au-dessus du même idéal de $A$ ont la même hauteur (VIII, $§ 2$, n° 3, th. 2). On peut donc appliquer la prop. 8 avec $N = B$.
 
-#### Corollaire 3 {#ac-x-s2-prop-8-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s2-prop-8-cor-3 .statement tag=0D3C}
 
 Soient $A$ un anneau intégralement clos, $K$ son corps des fractions, $L$ une $K$-algèbre finie telle que $[L : K] 1_A$ soit inversible dans $A$, et $B$ une sous-$A$-algèbre de $L$, finie sur $A$.
 
@@ -469,7 +469,7 @@ D’après la prop. 4 du $§ 1$, n° 3, on a $\mathrm{prof}_A(J; B) = \mathrm{pr
 
 Si l’anneau $B$ est noethérien, il en est de même de $A$ : en effet, on a d’après a) $aB \cap A = a$ pour tout idéal $a$ de $A$; ainsi toute suite croissante $(a_n)_{n \in \mathbf{N}}$ d’idéaux de $A$ est stationnaire puisque la suite $(a_nB)_{n \in \mathbf{N}}$ est stationnaire. Sous les hypothèses de c), le $A$-module $B$ est macaulayen (cor. 2), et il en est de même du $A$-module $A$ (n° 1, exemple 2).
 
-#### Exemple {#ac-x-s2-n6-exa-1 .statement}
+#### Exemple {#ac-x-s2-n6-exa-1 .statement tag=0D3D}
 
 Le corollaire 3 s’applique notamment dans les deux situations suivantes :
 
@@ -481,7 +481,7 @@ En particulier, si B est un anneau de Macaulay, il en est de même de A.
 
 ### 7. Modules macaulayens et algèbres plates
 
-#### Proposition 9 {#ac-x-s2-prop-9 .statement}
+#### Proposition 9 {#ac-x-s2-prop-9 .statement tag=0D3E}
 
 Soient ρ : A → B un homomorphisme d’anneaux noethériens, M un A-module de type fini et N un B-module de type fini, plat sur A. Notons $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(A)$ l’application associée à ρ. Les conditions suivantes sont équivalentes :
 
@@ -511,23 +511,23 @@ L’implication (ii) ⇒ (iii) est claire ; prouvons que (i) implique (ii). Supp
 
 Si de plus N est fidèlement plat sur A, on a κ(p) ⊗_A N ≠ 0 pour tout p ∈ Spec(A), d’où a_p(Supp_B(N)) = Spec(A) (n° 6, remarque), de sorte que (ii) implique que M est macaulayen.
 
-#### Corollaire 1 {#ac-x-s2-prop-9-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s2-prop-9-cor-1 .statement tag=0D3F}
 
 Soient ρ : Λ → B un homomorphisme local d’anneaux locaux noethériens, M un A-module non nul de type fini et N un B-module non nul de type fini qui est un A-module plat. Pour que le B-module M ⊗_A N soit macaulayen, il faut et il suffit que le A-module M soit macaulayen et que le B/m_A B-module N/m_A N soit macaulayen.
 
 En effet, N est un A-module fidèlement plat puisque N/m_A N est non nul (I, § 3, n° 1, définition 1).
 
-#### Corollaire 2 {#ac-x-s2-prop-9-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s2-prop-9-cor-2 .statement tag=0D3G}
 
 Soit ρ : A → B un homomorphisme d’anneaux noethériens faisant de B un A-module fidèlement plat et soit M un A-module de type fini. Pour que le B-module M ⊗_A B soit macaulayen, il faut et il suffit que le A-module M soit macaulayen et que κ(p) ⊗_Λ B soit un anneau de Macaulay pour tout p ∈ Supp(M).
 
-#### Corollaire 3 {#ac-x-s2-prop-9-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s2-prop-9-cor-3 .statement tag=0D3H}
 
 Soient A un anneau noethérien, B une Λ-algèbre finie et plate, M un A-module de type fini et macaulayen. Le B-module M ⊗_A B est macaulayen.
 
 En effet, pour tout p ∈ Spec(A), l’anneau κ(p) ⊗_Λ B est une κ(p)-algèbre finie, donc est de Macaulay (n° 5, exemple 1), et on applique la prop. 9.
 
-#### Corollaire 4 {#ac-x-s2-prop-9-cor-4 .statement}
+#### Corollaire 4 {#ac-x-s2-prop-9-cor-4 .statement tag=0D3I}
 
 Soient A un anneau noethérien, J un idéal de A et M un A-module de type fini. Notons Ā et Ĝ les séparés complétés de A et M pour la topologie J-adique, et S la partie multiplicative 1 + J de Λ. Considérons les conditions suivantes :
 
@@ -549,7 +549,7 @@ Il est clair que (v) implique (iv) et que (iv) implique (i).
 
 (ii) $\Rightarrow$ (v) : Le $\widehat{A}$-module $\widehat{M}$ est isomorphe à $M \otimes_A \widehat{A}$ (III, § 3, n° 4, th. 3) ; s’il est macaulayen, il résulte de la prop. 9, (i) $\Rightarrow$ (ii) que $\kappa(p) \otimes_A \widehat{A}$ est un anneau de Macaulay pour tout $p \in \mathrm{Supp}(M)$, et que le $A$-module $M$ est macaulayen.
 
-#### Proposition 10 {#ac-x-s2-prop-10 .statement}
+#### Proposition 10 {#ac-x-s2-prop-10 .statement tag=0D3J}
 
 *Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de $B$ un $A$-module plat. Les conditions suivantes sont équivalentes :*
 
@@ -561,17 +561,17 @@ Il est clair que (v) implique (iv) et que (iv) implique (i).
 
 C’est le cas particulier $M = A$, $N = B$ de la prop. 9.
 
-#### Corollaire 1 {#ac-x-s2-prop-10-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s2-prop-10-cor-1 .statement tag=0D3K}
 
 *Toute algèbre finie et plate sur un anneau de Macaulay est un anneau de Macaulay.*
 
-#### Corollaire 2 {#ac-x-s2-prop-10-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s2-prop-10-cor-2 .statement tag=0D3L}
 
 *Soient $A$ un anneau de Macaulay et $n$ un entier positif ; alors $A[X_1, \ldots, X_n]$ et $A[[X_1, \ldots, X_n]]$ sont des anneaux de Macaulay.*
 
 Il suffit de traiter le cas $n = 1$. L’anneau $A[T]$ est noethérien (A, VIII, § 1, n° 4, cor. 1), et, pour tout corps $k$, l’anneau $k[T]$ est un anneau de Macaulay (n° 5, exemple 2) ; par conséquent, l’anneau $A[T]$ est de Macaulay (prop. 10) et l’anneau $A[[T]]$ est de Macaulay (cor. 4 de la prop. 9).
 
-#### Corollaire 3 {#ac-x-s2-prop-10-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s2-prop-10-cor-3 .statement tag=0D3M}
 
 *Toute algèbre de type fini sur un anneau noethérien de Macaulay est caténaire.*
 

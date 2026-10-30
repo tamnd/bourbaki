@@ -13,7 +13,7 @@ pdf_pages: 0194-0195, 0225-0225
 extraction: ocr
 statements: 1
 exercises: 2
-content_sha256: 035e755d266fe3a54e74dc905de768808e16a07832a5d5f8c3e45b46b8b2c762
+content_sha256: c54ffb7970e587f4343ab39ca3824bf23f6f7cf1e3a847c72dd475d033916502
 ---
 
 ## APPENDIX
@@ -24,7 +24,7 @@ Let n be an integer $\geq 1$. If n is divisible by the square of a prime number,
 
 Recall that given two integers $n_1 \geq 1, n_2 \geq 1$, we write $n_1 | n_2$ if $n_1$ divides $n_2$.
 
-#### Proposition {#lie-ii-a0-n0-prop-1 .statement}
+#### Proposition {#lie-ii-a0-n0-prop-1 .statement tag=0A73}
 
 (i) *The function $\mu$ is the unique mapping of $\mathbf{N}^*$ into $\mathbf{Z}$ such that $\mu(1) = 1$ and*
 $$

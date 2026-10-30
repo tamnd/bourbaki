@@ -48,7 +48,7 @@ subsections:
       pdf_page: 214
 statements: 48
 exercises: 1
-content_sha256: 787783b0f3759c07ef3858ec9e60e82200088c70ece781a3a0aad5bde2364c35
+content_sha256: 3f5f0375db531bf24ba0f2a6c29ff952529459d764ce5e89a53e8dafa01018d0
 translated_from: content/en/top/IX/06_s6_polish_spaces_souslin_spaces_borel_sets.md
 source_content_sha256: 69f92cd78f330694f81aad84eec3ecfd43d27d5eacabcc416871a1736cb0f341
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
@@ -62,11 +62,11 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC KHÔNG GIAN POLISH
 
-#### Định nghĩa 1 {#top-ix-s6-def-1 .statement}
+#### Định nghĩa 1 {#top-ix-s6-def-1 .statement tag=0C88}
 
 *Một không gian tôpô* $X$ *được gọi là Polish nếu nó mêtric hóa được kiểu đếm được* ($§ 2$, no. 8) *và nếu tồn tại một mêtric tương thích với tôpô của* $X$, *đối với mêtric đó* $X$ *là đầy đủ*.
 
-#### Mệnh đề 1 {#top-ix-s6-prop-1 .statement}
+#### Mệnh đề 1 {#top-ix-s6-prop-1 .statement tag=0C89}
 
 a) *Mọi không gian con đóng của một không gian Polish đều là Polish*.
 b) *Tích của một họ đếm được các không gian Polish là Polish*.
@@ -80,7 +80,7 @@ $$
 
 trong đó $y_p = a_p$ nếu $p \neq n$ và $y_n = x$. Nếu $X$ là tổng tôpô của các $X_n$, hiển nhiên rằng ánh xạ $f$ từ $X$ vào $Y$ trùng với $f_n$ trên $X_n$ với mỗi $n$ là một đồng phôi của $X$ lên $f(X)$; ngoài ra, với mỗi $n$, $f_n(X_n)$ là đóng trong $Y$, và họ $(f_n(X_n))$ là hữu hạn địa phương vì $\mathbf{N}$ là rời rạc; do đó $f(X) = \bigcup_n f_n(X_n)$ là đóng trong $Y$ (Chương I, § 1, no. 5, Mệnh đề 4), và vì thế $f(X)$ là một không gian Polish, theo a).
 
-#### Mệnh đề 2 {#top-ix-s6-prop-2 .statement}
+#### Mệnh đề 2 {#top-ix-s6-prop-2 .statement tag=0C8A}
 
 Mọi không gian con mở của một không gian Polish đều là Polish.
 
@@ -90,19 +90,19 @@ t \cdot d(x, X - U) = 1;
 $$
 $V$ là đóng theo Mệnh đề 3 của § 2, no. 2 và do đó là Polish (Mệnh đề 1). Vì hạn chế trên $V$ của phép chiếu $\mathrm{pr}_2 : \mathbf{R} \setminus X \to X$ là một đồng phôi của $V$ lên $U$ ($§ 2,$ no. 2, Mệnh đề 3), nên $U$ là một không gian con Polish của $X$.
 
-#### Hệ quả {#top-ix-s6-n1-cor-1 .statement}
+#### Hệ quả {#top-ix-s6-n1-cor-1 .statement tag=0C8B}
 
 Mọi không gian mêtric hóa được địa phương compact $X$ đều là Polish.
 
 Cho $X$ là không gian compact thu được bằng cách ghép thêm một điểm ở vô tận vào $X$; $X'$ là mêtric được và có kiểu đếm được ($§ 2,$ no. 9, Hệ quả của Mệnh đề 16), và $X$ là đầy đủ đối với tôpô đều duy nhất của nó (chương II, $§ 4,$ no. 1, Định lý 1). Do đó $X$ là một không gian Polish; vì $X$ là mở trong $X'$, suy ra $X$ là Polish.
 
-#### Mệnh đề 3 {#top-ix-s6-prop-3 .statement}
+#### Mệnh đề 3 {#top-ix-s6-prop-3 .statement tag=0C8C}
 
 Cho $X$ là một không gian tôpô Hausdorff. Khi đó giao của một dãy $(A_n)$ các không gian con Polish của $X$ là một không gian con Polish.
 
 Cho $f$ là ánh xạ đường chéo của $X$ vào $X^\mathbf{N}$ ([Lý thuyết tập hợp, chương II, $§ 5,$ no. 3; hãy nhớ rằng $f(x) = (x, x, \ldots)$ trong đó $x_n = x$ với mọi $n \in \mathbf{N}$]. Ta sẽ sử dụng bổ đề sau:
 
-#### Bổ đề 1 {#top-ix-s6-lem-1 .statement}
+#### Bổ đề 1 {#top-ix-s6-lem-1 .statement tag=0C8D}
 
 Cho $(A_n)$ là một dãy các tập con của một không gian tôpô Hausdorff $X$. Khi đó hạn chế của ánh xạ đường chéo $f : X \to X^\mathbf{N}$ lên không gian con $\bigcap_n A_n$ của $X$ là một đồng phôi của $\bigcap_n A_n$ vào một không gian con đóng của $\prod_n A_n$.
 
@@ -110,13 +110,13 @@ Cho $(A_n)$ là một dãy các tập con của một không gian tôpô Hausdor
 
 Với các giả thiết của Mệnh đề 3, $\prod_n A_n$ là một không gian Polish (Mệnh đề 1), do đó $\bigcap_n A_n$ là Polish theo Bổ đề 1 và Mệnh đề 1.
 
-#### Hệ quả {#top-ix-s6-n1-cor-2 .statement}
+#### Hệ quả {#top-ix-s6-n1-cor-2 .statement tag=0C8E}
 
 Tập hợp các số vô tỉ, được trang bị tôpô cảm sinh bởi tôpô của đường thẳng thực $\mathbf{R}$, là một không gian Polish.
 
 Nó là giao của một họ đếm được các tập mở trong $\mathbf{R}$, cụ thể là các phần bù của các tập hợp gồm một số hữu tỉ duy nhất.
 
-#### Định lý 1 {#top-ix-s6-thm-1 .statement}
+#### Định lý 1 {#top-ix-s6-thm-1 .statement tag=0C8F}
 
 *Một không gian con* $Y$ *của một không gian Polish* $X$ *là Polish khi và chỉ khi* $Y$ *là giao của một họ đếm được các tập mở trong* $X$.
 
@@ -124,13 +124,13 @@ Sự đủ của điều kiện suy ra ngay lập tức từ các Mệnh đề 2
 
 Với mỗi $n$, cho $H_n$ là một tập con mở của $X$ sao cho $H_n \cap \overline{Y} = Y_n$, và cho $(U_m)$ là một dãy các tập con mở của $X$ sao cho $\overline{Y} = \bigcap_m U_m$ (§ 2, no. 5, Mệnh đề 7); khi đó $Y$ là giao của họ đếm được các tập mở $(H_n \cap U_m)$.
 
-#### Hệ quả 1 {#top-ix-s6-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#top-ix-s6-thm-1-cor-1 .statement tag=0C8G}
 
 *Một không gian* $X$ *là Polish khi và chỉ khi nó đồng phôi với một giao đếm được của các tập mở trong lập phương* $\mathbf{I}^{\mathbf{N}}$, *trong đó* $\mathbf{I}$ *là khoảng* $[0, 1]$ *của* $\mathbf{R}$.
 
 Điều kiện rõ ràng là đủ, và nó là cần thiết vì mọi không gian mêtric hóa được kiểu đếm được đều đồng phôi với một không gian con của $\mathbf{I}^{\mathbf{N}}$ (§ 2, no. 8, Mệnh đề 12).
 
-#### Hệ quả 2 {#top-ix-s6-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#top-ix-s6-thm-1-cor-2 .statement tag=0C8H}
 
 *Cho* $X$ *và* $Y$ *là hai không gian Polish và cho* $f : X \to Y$ *là một ánh xạ liên tục. Nếu* $Z$ *là một không gian con Polish của* $Y$, *thì* $\overline{f}^{-1}(Z)$ *là một không gian con Polish của* $X$.
 
@@ -142,37 +142,37 @@ và các tập hợp $\overline{f}^{-1}(Z_n)$ là mở trong $X$.
 
 ### 2. CÁC KHÔNG GIAN SOUSLIN
 
-#### Định nghĩa 2 {#top-ix-s6-def-2 .statement}
+#### Định nghĩa 2 {#top-ix-s6-def-2 .statement tag=0C8I}
 
 *Một không gian tôpô* $X$ *được gọi là một không gian Souslin nếu nó mêtric hóa được và nếu tồn tại một không gian Polish* $P$ *và một ánh xạ liên tục từ* $P$ *lên* $X$. *Một tập con* $A$ *của một không gian tôpô* $X$ *được gọi là một tập Souslin nếu không gian con* $A$ *là một không gian Souslin.*
 
 Rõ ràng mọi không gian Polish đều là Souslin, và ảnh của một không gian Souslin $X$ qua một ánh xạ liên tục của $X$ vào một không gian mêtric hóa $Y$ là một không gian Souslin.
 
-#### Mệnh đề 4 {#top-ix-s6-prop-4 .statement}
+#### Mệnh đề 4 {#top-ix-s6-prop-4 .statement tag=0C8J}
 
 *Mọi không gian Souslin $X$ đều có kiểu đếm được.*
 
 Cho $P$ là một không gian Polish và $f$ là một ánh xạ liên tục của $P$ lên $X$. Khi đó ảnh qua $f$ của một tập con trù mật đếm được của $P$ là một tập con trù mật đếm được của $X$.
 
-#### Mệnh đề 5 {#top-ix-s6-prop-5 .statement}
+#### Mệnh đề 5 {#top-ix-s6-prop-5 .statement tag=0C8K}
 
 *Mọi không gian con đóng (resp. mở) của một không gian Souslin $X$ đều là Souslin.*
 
 Vì nếu $f$ là một ánh xạ liên tục của một không gian Polish $P$ lên $X$, thì ảnh ngược qua $f$ của một tập con đóng (resp. mở) của $X$ là một tập con đóng (resp. mở) của $P$, do đó là một không gian con Polish của $P$ (no. 1, Mệnh đề 1 và 2).
 
-#### Mệnh đề 6 {#top-ix-s6-prop-6 .statement}
+#### Mệnh đề 6 {#top-ix-s6-prop-6 .statement tag=0C8L}
 
 *Cho $X$ là một không gian Souslin, cho $Y$ là một không gian Hausdorff và cho $f : X \to Y$ là một ánh xạ liên tục. Khi đó ảnh ngược qua $f$ của một không gian con Souslin $A$ của $Y$ là một không gian con Souslin của $X$.*
 
 Cho $P, Q$ là các không gian Polish, cho $g$ là một ánh xạ liên tục của $P$ lên $X$ và cho $h$ là một ánh xạ liên tục của $Q$ lên $A$. Cho $R$ là tập hợp của tất cả các $(x, y) \in P \times Q$ sao cho $f(g(x)) = h(y)$; $R$ là đóng trong $P \times Q$ và do đó là một không gian con Polish của $P \times Q$ (no. 1, Mệnh đề 1). Cho $\varphi$ là hạn chế vào $R$ của phép chiếu $pr_1$. Khi đó không gian con $\overline{f}^{-1}(A)$ của $X$ là ảnh của $R$ qua ánh xạ liên tục $g \circ \varphi$ và do đó là một không gian Souslin.
 
-#### Mệnh đề 7 {#top-ix-s6-prop-7 .statement}
+#### Mệnh đề 7 {#top-ix-s6-prop-7 .statement tag=0C8M}
 
 *Tích và tổng của một họ đếm được các không gian Souslin là các không gian Souslin.*
 
 Với mỗi số nguyên $n$, cho $X_n$ là một không gian mêtric hóa, $P_n$ là một không gian Polish, và $f_n$ là một ánh xạ liên tục của $P_n$ lên $X_n$. Tích (resp. tổng) của các không gian $P_n$ là Polish (no. 1, Mệnh đề 1), và ảnh của không gian này qua ánh xạ là tích của các $f_n$ (resp. ánh xạ trùng với $f_n$ trên $P_n$ với mọi $n$) là tích (resp. tổng) của các không gian $X_n$; không gian sau là mêtric hóa được, và do đó là một không gian Souslin.
 
-#### Mệnh đề 8 {#top-ix-s6-prop-8 .statement}
+#### Mệnh đề 8 {#top-ix-s6-prop-8 .statement tag=0C8N}
 
 *Cho $X$ là một không gian khả metric và cho $(A_n)$ là một dãy các không gian con Souslin của $X$. Khi đó hợp và giao của các $A_n$ là các không gian Souslin.*
 
@@ -180,7 +180,7 @@ Các không gian con này chắc chắn là khả metric. Sự tồn tại của
 
 Nói chung, ngay cả trong một không gian Polish, phần bù của một không gian con Souslin không nhất thiết là Souslin (xem Bài tập 6); xem, tuy nhiên, no. 6, Hệ quả của Định lý 2.
 
-#### Mệnh đề 9 {#top-ix-s6-prop-9 .statement}
+#### Mệnh đề 9 {#top-ix-s6-prop-9 .statement tag=0C8O}
 
 *Cho $X$ là một không gian khả metric, và cho $A$ là một không gian con Souslin tương đối compact của $X$. Khi đó tồn tại một không gian khả metric compact $K$, một dãy giảm $(B_n)$ các tập con của $K$, mỗi tập là một hợp đếm được của các tập compact, và một ánh xạ liên tục $f : K \to X$, sao cho $A = f\left(\bigcap_n B_n\right)$. \*
 
@@ -194,7 +194,7 @@ Vì mỗi $U_n$ là một hợp đếm được của các tập đóng trong $I
 
 ### 3. CÁC TẬP BOREL
 
-#### Định nghĩa 3 {#top-ix-s6-def-3 .statement}
+#### Định nghĩa 3 {#top-ix-s6-def-3 .statement tag=0C8P}
 
 *Cho $X$ là một tập hợp và cho $\mathfrak{L}$ là một tập các tập con của $X$. $\mathfrak{L}$ được gọi là một $\sigma$-đại số trên $X$ nếu các điều kiện sau được thỏa mãn:
 
@@ -206,39 +206,39 @@ Nếu $\mathfrak{L}$ là một $\sigma$-đại số trên $X$, thì mọi *hợp
 
 Tập $\mathfrak{B}(X)$ gồm tất cả các tập con của $X$ hiển nhiên là một $\sigma$-đại số. Mọi giao của các $\sigma$-đại số trên $X$ đều là một $\sigma$-đại số trên $X$. Vì thế, đối với bất kỳ tập con nào của $\mathfrak{B}(X)$, luôn tồn tại một $\sigma$-đại số *nhỏ nhất* chứa $\mathfrak{F}$; nó được gọi là $\sigma$-đại số *được sinh bởi* $\mathfrak{F}$.*
 
-#### Định nghĩa 4 {#top-ix-s6-def-4 .statement}
+#### Định nghĩa 4 {#top-ix-s6-def-4 .statement tag=0C8Q}
 
 Trong một không gian tôpô $X$, các phần tử của $\sigma$-đại số được sinh bởi tập hợp mọi tập con đóng của $X$ được gọi là các tập Borel trong $X$.
 
-#### Mệnh đề 10 {#top-ix-s6-prop-10 .statement}
+#### Mệnh đề 10 {#top-ix-s6-prop-10 .statement tag=0C8R}
 
 Cho $f$ là một ánh xạ liên tục từ một không gian tôpô $X$ vào một không gian tôpô $Y$. Khi đó ảnh ngược qua $f$ của mọi tập Borel trong $Y$ là một tập Borel trong $X$.
 
 Cho $\mathfrak{I}$ là tập hợp tất cả các tập con $A$ của $Y$ sao cho $f^{-1}(A)$ là một tập hợp Borel trong $X$. Suy ra ngay lập tức rằng $\mathfrak{I}$ là một $\sigma$-đại số chứa tất cả các tập con đóng của $Y$; do đó $\mathfrak{I}$ chứa tất cả các tập hợp Borel trong $Y$.
 
-#### Mệnh đề 11 {#top-ix-s6-prop-11 .statement}
+#### Mệnh đề 11 {#top-ix-s6-prop-11 .statement tag=0C8S}
 
 Trong một không gian Souslin $X$, mọi tập hợp Borel đều là một tập hợp Souslin.
 
 Cho $\mathfrak{I}$ là tập hợp tất cả các tập con $A$ của $X$ sao cho cả $A$ và $\overline{A}$ đều là các tập hợp Souslin. Theo Mệnh đề 8 của no. 2, $\mathfrak{I}$ là một $\sigma$-đại số. Mọi tập con đóng $F$ của $X$ đều thuộc $\mathfrak{I}$, vì cả $F$ và $\overline{F}$ đều là các tập hợp Souslin (no. 2, Mệnh đề 5); do đó $\mathfrak{I}$ chứa tất cả các tập hợp Borel của $X$ (cf. no. 6, Định lý 2, Hệ quả).
 
-#### Hệ quả {#top-ix-s6-n3-cor-1 .statement}
+#### Hệ quả {#top-ix-s6-n3-cor-1 .statement tag=0C8T}
 
 Cho $f$ là một ánh xạ liên tục từ một không gian Souslin $X$ vào một không gian mêtric $Y$. Nếu $B$ là một tập hợp Borel bất kỳ trong $X$, thì $f(B)$ là một tập hợp Souslin trong $Y$.
 
 Vì $B$ là một không gian Souslin, nên $f(B)$ cũng vậy theo nhận xét sau Định nghĩa 2 (no. 2).
 
-#### Nhận xét 1 {#top-ix-s6-n3-rem-1 .statement}
+#### Nhận xét 1 {#top-ix-s6-n3-rem-1 .statement tag=0C8U}
 
 Ngay cả khi $X$ và $Y$ là các không gian Polish, nói chung không đúng rằng ảnh của một tập hợp Borel trong $X$ qua một ánh xạ liên tục từ $X$ vào $Y$ là một tập hợp Borel trong $Y$ (cf. Bài tập 6; và no. 7, Định lý 3 Hệ quả).
 
-#### Nhận xét 2 {#top-ix-s6-n3-rem-2 .statement}
+#### Nhận xét 2 {#top-ix-s6-n3-rem-2 .statement tag=0C8V}
 
 Cho $X$ là một không gian tôpô và cho $Y$ là một tập con Borel của $X$. Khi đó các tập hợp Borel của không gian $Y$ chính xác là các tập hợp Borel của $X$ được chứa trong $Y$. Vì (i) các tập hợp Borel trong $X$ được chứa trong $Y$ tạo thành một $\sigma$-đại số trên $Y$ chứa các tập hợp đóng trong $Y$ và do đó chứa tất cả các tập hợp Borel của $Y$; (ii) các tập con $A$ của $X$ sao cho $A \cap Y$ là một tập hợp Borel của $Y$ tạo thành một $\sigma$-đại số trên $X$ chứa tất cả các tập hợp đóng của $X$ và do đó chứa tất cả các tập hợp Borel của $X$.
 
 ### 4. CÁC KHÔNG GIAN KHÔNG CHIỀU VÀ CÁC KHÔNG GIAN LUSIN
 
-#### Định nghĩa 5 {#top-ix-s6-def-5 .statement}
+#### Định nghĩa 5 {#top-ix-s6-def-5 .statement tag=0C8W}
 
 Một không gian tôpô được gọi là không chiều nếu nó là Hausdorff và nếu mọi điểm đều có một hệ cơ bản các lân cận vừa mở vừa đóng.
 
@@ -248,13 +248,13 @@ Ngược lại, một không gian địa phương compact hoàn toàn rời rạ
 
 Mọi không gian con của một không gian không chiều đều không chiều, và các tổng tôpô và tích tôpô của các không gian không chiều đều không chiều.
 
-#### Định nghĩa 6 {#top-ix-s6-def-6 .statement}
+#### Định nghĩa 6 {#top-ix-s6-def-6 .statement tag=0C8X}
 
 Một không gian tôpô $X$ là một không gian Lusin nếu nó là mêtric hóa được và nếu tồn tại một không gian Polish không chiều $P$ và một ánh xạ song ánh liên tục của $P$ lên $X$.
 
 Mọi không gian Lusin rõ ràng là một không gian Souslin.
 
-#### Mệnh đề 12 {#top-ix-s6-prop-12 .statement}
+#### Mệnh đề 12 {#top-ix-s6-prop-12 .statement tag=0C8Y}
 
 Một không gian mêtric hóa được là một không gian Lusin nếu và chỉ nếu nó là ảnh của một không gian Polish dưới một ánh xạ song ánh liên tục.
 
@@ -264,7 +264,7 @@ Trước hết hãy chú ý rằng, nếu $X$ là một không gian Lusin, thì 
 
 Mọi tích đếm được của các không gian Lusin đều là một không gian Lusin; điều này suy ra từ Mệnh đề 1 của no. 1 và thực tế rằng mọi tích của các không gian không chiều đều không chiều. Mọi giao đếm được của các không gian con Lusin của một không gian tôpô Hausdorff đều là một không gian con Lusin; điều này suy ra từ những nhận xét trên và từ Bổ đề 1 của no. 1. Hơn nữa:
 
-#### Bổ đề 2 {#top-ix-s6-lem-2 .statement}
+#### Bổ đề 2 {#top-ix-s6-lem-2 .statement tag=0C8Z}
 
 Nếu một không gian mêtric hóa được $X$ sao cho tồn tại một phân hoạch đếm được $(A_n)$ của $X$ gồm các không gian con Lusin, thì $X$ là một không gian Lusin.
 
@@ -276,7 +276,7 @@ Hãy cho $P$ là một không gian Polish tùy ý. Theo Hệ quả 1 của Đị
 
 ### 5. SÀNG
 
-#### Định nghĩa 7 {#top-ix-s6-def-7 .statement}
+#### Định nghĩa 7 {#top-ix-s6-def-7 .statement tag=0C90}
 
 Một sàng là một dãy C = (C_n, p_n)_{n \geq 0} sao cho, với mỗi n, C_n là một tập hợp đếm được và p_n là một toàn ánh của C_{n+1} lên C_n.
 
@@ -289,7 +289,7 @@ b) với mỗi n và mỗi c \in C_n, \varphi_n(c) là hợp của các tập h�
 
 Một sự sàng lọc được gọi là ngặt nếu thêm vào đó, với mỗi n, các tập hợp \varphi_n(c), khi c chạy qua C_n, rời nhau đôi một.
 
-#### Bổ đề 3 {#top-ix-s6-lem-3 .statement}
+#### Bổ đề 3 {#top-ix-s6-lem-3 .statement tag=0C91}
 
 Mọi không gian mêtric X kiểu đếm được đều có một sự sàng lọc. Nếu thêm vào đó X không chiều, thì X có một sự sàng lọc ngặt.
 
@@ -299,7 +299,7 @@ Cho $X$ là một không gian mêtric kiểu đếm được. Cho $C_0$ là tậ
 
 Bây giờ giả sử rằng $X$ là một không gian mêtric đầy đủ thuộc kiểu đếm được, và xét một sự sàng lọc của $X$ bởi một sàng lọc $C$ và các ánh xạ $\varphi_n$. Nếu $\gamma = (c_n)$ là một điểm của không gian $L(C)$ liên kết với $C$, dãy $(\varphi_n(c_n))$ là một dãy giảm các tập đóng trong $X$ có đường kính tiến tới 0; giao của dãy các tập này do đó chỉ gồm một điểm duy nhất, mà ta ký hiệu là $f(\gamma)$. Như vậy ta đã xác định một ánh xạ $f : L(C) \to X$. Nếu hai điểm $\gamma, \gamma'$ của $L(C)$ có cùng các tọa độ thứ $i$ đối với $i \leq n$, thì hiển nhiên khoảng cách giữa $f(\gamma)$ và $f(\gamma')$ là $\leq 1/2^n$, và do đó $f$ liên tục, nhờ vào định nghĩa của topo của $L(C)$. Với mỗi $x \in X$, từ định nghĩa của một sự sàng lọc suy ra rằng ta có thể xác định bằng quy nạp theo $n$ một dãy $\gamma = (c_n)$ sao cho $x \in \varphi_n(c_n)$ với mỗi $n \geq 0$, và $c_n = p_n(c_{n+1})$; do đó $x = f(\gamma)$ và vì vậy $f$ là toàn ánh. Hơn nữa, nếu sự sàng lọc là chặt, dãy $\gamma = (c_n)$ sao cho $x = f(\gamma)$ là duy nhất, và trong trường hợp này $f$ là song ánh. $f$ được gọi là ánh xạ cảm sinh bởi sự sàng lọc được xét.
 
-#### Mệnh đề 13 {#top-ix-s6-prop-13 .statement}
+#### Mệnh đề 13 {#top-ix-s6-prop-13 .statement tag=0C92}
 
 *Nếu $X$ là một không gian Lusin (tương ứng, Souslin) bất kỳ, thì tồn tại một sieve $C$ và một song ánh liên tục (tương ứng, toàn ánh liên tục) từ $L(C)$ lên $X$.*
 
@@ -309,19 +309,19 @@ X là Polish và chiều không (tương ứng, Polish), và lập luận ở tr
 
 ### 6. SỰ PHÂN LY CỦA CÁC TẬP SOUSLIN
 
-#### Định lý 2 {#top-ix-s6-thm-2 .statement}
+#### Định lý 2 {#top-ix-s6-thm-2 .statement tag=0C93}
 
 Cho X là một không gian mêtric. Nếu ta được cho một dãy $(X_n)$ gồm các không gian con Souslin rời nhau từng đôi một của X, thì tồn tại một dãy $(B_n)$ gồm các tập Borel rời nhau từng đôi một trong X sao cho $X_n \subset B_n$ với mỗi n.
 
 Chứng minh dựa trên hai bổ đề sau:
 
-#### Bổ đề 4 {#top-ix-s6-lem-4 .statement}
+#### Bổ đề 4 {#top-ix-s6-lem-4 .statement tag=0C94}
 
 Cho $(A_n), (A'_m)$ là hai dãy các tập con của một không gian tôpô X. Giả sử rằng với mỗi cặp $(A_n, A'_m)$ có một tập Borel $B_{nm}$ của X sao cho $B_{nm} \supset A_n$ và $B_{nm} \cap A'_m = \emptyset$. Khi đó tồn tại một tập Borel B của X chứa $\bigcup_n A_n$ và không gặp $\bigcup_m A'_m$.
 
 Thật vậy, tập Borel $B = \bigcup_n \left( \bigcap_m B_{nm} \right)$ thỏa các điều kiện này.
 
-#### Bổ đề 5 {#top-ix-s6-lem-5 .statement}
+#### Bổ đề 5 {#top-ix-s6-lem-5 .statement tag=0C95}
 
 Cho X là một không gian Hausdorff và cho A, A' là hai không gian con Souslin rời nhau của X. Khi đó tồn tại một tập Borel B của X sao cho $B \supset A$ và $B \cap A' = \emptyset$.
 
@@ -337,25 +337,25 @@ như sau: giả sử rằng $c_i$ và $c'_i$ đã được định nghĩa cho $i
 
 Để chứng minh Định lý 2, đặt $Y_n$ là hợp của các tập hợp $X_i$ sao cho $i \neq n$; khi đó $Y_n$ là một không gian con Souslin của $X$ (no. 2, Mệnh đề 8). Với mỗi chỉ số $n$, tồn tại một tập hợp Borel $B'_n$ chứa $X_n$ và không giao với $Y_n$, theo Bổ đề 5. Đặt $B_n$ là giao của $B'_n$ và $\bigcap_{i < n} (X - B'_i)$. Khi đó các $B_n$ là các tập hợp Borel, đôi một rời nhau, và sao cho $B_n \supset X_n$ với mọi $n$.
 
-#### Hệ quả {#top-ix-s6-n6-cor-1 .statement}
+#### Hệ quả {#top-ix-s6-n6-cor-1 .statement tag=0C96}
 
 *Nếu một phân hoạch đếm được của một không gian khả métr hóa gồm các tập hợp Souslin, thì các tập hợp này là các tập hợp Borel. Đặc biệt, mọi tập hợp Souslin trong một không gian khả métr hóa, mà phần bù của nó là một tập hợp Souslin, đều là một tập hợp Borel.*
 
 ### 7. CÁC KHÔNG GIAN LUSIN VÀ CÁC TẬP HỢP BOREL
 
-#### Định lý 3 {#top-ix-s6-thm-3 .statement}
+#### Định lý 3 {#top-ix-s6-thm-3 .statement tag=0C97}
 
 *Cho $X$ là một không gian Lusin. Khi đó một không gian con của $X$ là một không gian Lusin khi và chỉ khi nó là một tập hợp Borel.*
 
 Định lý này là hệ quả của hai bổ đề sau:
 
-#### Bổ đề 6 {#top-ix-s6-lem-6 .statement}
+#### Bổ đề 6 {#top-ix-s6-lem-6 .statement tag=0C98}
 
 *Trong một không gian Lusin $X$, mọi tập hợp Borel đều là một không gian con Lusin của $X$.*
 
 Đặt $\mathfrak{T}$ là tập hợp tất cả các tập con $A$ của $X$ sao cho cả $A$ và $\complement A$ đều là các không gian con Lusin của $X$. Vì mọi tập hợp đóng và mọi tập hợp mở trong $X$ đều là một không gian con Lusin của $X$ (no. 4), nên $\mathfrak{T}$ chứa mọi tập hợp con đóng của $X$, và do đó bổ đề sẽ được chứng minh nếu ta chỉ ra rằng $\mathfrak{T}$ là một $\sigma$-đại số trên $X$. Để làm điều này, chỉ cần chỉ ra rằng nếu $(A_n)$ là một dãy các tập hợp thuộc $\mathfrak{T}$, thì $\bigcap_n A_n$ và $\bigcup_n A_n$ là các không gian con Lusin của $X$. Bây giờ ta đã thấy ở no. 4 rằng mọi giao đếm được của các không gian con Lusin đều là một không gian con Lusin. Mặt khác, nếu $B_n$ là giao của $A_n$ và $\bigcap_{i < n} \complement A_i$, thì từ giả thiết và nhận xét trước đó suy ra rằng $B_n$ là một không gian con Lusin; và vì $\bigcup_n A_n = \bigcup_n B_n$, nên không gian con $\bigcup_n A_n$ là một không gian con Lusin theo Bổ đề 2 của no. 4.
 
-#### Bổ đề 7 {#top-ix-s6-lem-7 .statement}
+#### Bổ đề 7 {#top-ix-s6-lem-7 .statement tag=0C99}
 
 *Mọi không gian con Lusin $A$ của một không gian khả métr hóa $X$ đều là một tập hợp Borel trong $X$.*
 
@@ -371,13 +371,13 @@ Vì $q_i(c_i) \supset q_n(c)$ với $0 \le i \le n - 1$, nên $h_n(c)$ chứa $g
 
 Lấy $x$ là một điểm của $B$. Khi đó, với mỗi số nguyên $n$, tồn tại duy nhất $c \in C_n$ sao cho $x \in h_n(c)$; ta ký hiệu $c$ này là $c_n(x)$. Dãy $(c_n(x))_{n\ge0}$ thuộc $L(C)$. Dãy giảm $(g_n(c_n(x)))$ hội tụ theo định nghĩa đến một điểm $a \in A$; dãy các bao đóng của các tập hợp này cũng hội tụ đến $a$ trong $X$, nên a fortiori dãy $(h_n(c_n(x)))$ cũng vậy. Nay $x$ thuộc tất cả các tập hợp $h_n(c_n(x))$, do đó $x = a \in A$. Bổ đề 7 vì thế được chứng minh, và cùng với nó là Định lý 3.
 
-#### Hệ quả {#top-ix-s6-n7-cor-1 .statement}
+#### Hệ quả {#top-ix-s6-n7-cor-1 .statement tag=0C9A}
 
 *Nếu $f$ là một ánh xạ đơn ánh liên tục của một không gian Lusin (hoặc, nói riêng, một không gian Polish) $X$ vào một không gian khả métr hóa $Y$, thì $f(X)$ là một tập hợp Borel trong $Y$.*
 
 ### 8. CÁC PHẦN CẮT BOREL
 
-#### Định lý 4 {#top-ix-s6-thm-4 .statement}
+#### Định lý 4 {#top-ix-s6-thm-4 .statement tag=0C9B}
 
 *Cho $X$ là một không gian Polish và cho $R$ là một quan hệ tương đương trên $X$, sao cho các lớp tương đương modulo $R$ là đóng trong $X$ và bao hòa (theo $R$) của mỗi tập hợp đóng trong $X$ là một tập hợp Borel. Khi đó tồn tại một tập hợp Borel trong $X$ giao với mỗi lớp tương đương đúng một điểm.*
 
@@ -403,13 +403,13 @@ Với mỗi số nguyên $n$, ký hiệu $S_n$ là hợp của các tập $h_n(c
 
 Đặt $S$ là giao của các tập $S_n$, vốn cũng là một tập Borel trong $X$; ta sẽ chứng minh rằng $S$ cắt mỗi lớp tương đương $H$ mod $R$ tại đúng một điểm. Với mỗi $n$, đặt $c_n(H)$ là phần tử duy nhất $c \in C_n$ sao cho $h_{c_n(H)}$ giao với $H$; khi đó $S_n \cap H = \varphi_n(c_n(H)) \cap H$, và $S \cap H$ là giao của các tập $\varphi_n(c_n(H)) \cap H$. Vì dãy $(c_n(H))$ thuộc L.C., dãy giảm của các tập đóng $\varphi_n(c_n(H))$, có đường kính tiến tới $0$, hội tụ đến một điểm $x \in X$, vì $X$ là đầy đủ. Do đó giao của các tập đóng $\varphi_n(c_n(H)) \cap H$ chỉ gồm điểm $x$, và chứng minh của Định lý 4 là hoàn tất.
 
-#### Nhận xét {#top-ix-s6-n8-rem-1 .statement}
+#### Nhận xét {#top-ix-s6-n8-rem-1 .statement tag=0C9C}
 
 Đặc biệt, một quan hệ tương đương đóng $R$ thỏa mãn các giả thiết của Định lý 4. Khi $X$ là một không gian compact khả mêtric, Định lý 4 do đó áp dụng cho mọi quan hệ tương đương Hausdorff $R$, vì một quan hệ tương đương Hausdorff trên một không gian compact là đóng (Chương I, § 10, no. 4, Mệnh đề 8).
 
 ### 9. TÍNH KHẢ DUNG CỦA CÁC TẬP SOUSLIN
 
-#### Định nghĩa 8 {#top-ix-s6-def-8 .statement}
+#### Định nghĩa 8 {#top-ix-s6-def-8 .statement tag=0C9D}
 
 Cho $X$ là một không gian tôpô Hausdorff. Một capacity trên $X$ là một ánh xạ $f$ của tập $\mathscr{P}(X)$ gồm mọi tập con của $X$ vào đường thẳng thực mở rộng $\overline{\mathbf{R}}$, thỏa mãn các điều kiện sau:
 
@@ -425,18 +425,18 @@ $$
 f\left(\bigcap_n K_n\right) = \inf_n f(K_n).
 $$
 
-#### Ví dụ {#top-ix-s6-n9-exa-1 .statement}
+#### Ví dụ {#top-ix-s6-n9-exa-1 .statement tag=0C9E}
 
 \* Cho $\mu$ là một độ đo dương trên một không gian địa phương compact $X$; khi đó độ đo ngoài tương ứng $\mu^*$ là một capacity trên $X$.
 Có thể chứng minh rằng trong không gian Euclid $\mathbf{R}^n$ $(n \geq 3)$, "Newtonian outer capacity" là một capacity theo nghĩa của Định nghĩa 8.
 
-#### Định nghĩa 9 {#top-ix-s6-def-9 .statement}
+#### Định nghĩa 9 {#top-ix-s6-def-9 .statement tag=0C9F}
 
 Cho $f$ là một capacity trên $X$; một tập con $A$ của $X$ được gọi là khả dung (đối với $f$) nếu $f(A) = \sup_k f(K)$, trong đó $K$ chạy qua tập các tập con compact của $A$.
 
 \* Ví dụ, nếu $f$ là một độ đo ngoài $\mu^*$, thì mọi tập mở đều khả dung; các tập khả dung $A$ sao cho $\mu^*(A) < +\infty$ chính xác là các tập $\mu$-khả tích. \*
 
-#### Mệnh đề 14 {#top-ix-s6-prop-14 .statement}
+#### Mệnh đề 14 {#top-ix-s6-prop-14 .statement tag=0C9G}
 
 Cho $K$ là một không gian compact và cho $f$ là một dung lượng trên $K$. Nếu $A$ là giao của một dãy giảm $(A_n)$ các tập con của $K$, mỗi tập là một hợp đếm được của các tập đóng, thì $A$ là dung lượng được.
 
@@ -454,13 +454,13 @@ do đó tập hợp $C$ là compact và được chứa trong $A$.
 
 Đặt $B'_n = B_1 \cap B_2 \cap \cdots \cap B_n$; $(B'_n)$ là một dãy giảm các tập con compact của $K$; vì $C_n \subset C_i \subset B_i$ với $i < n$ nên ta cũng có $C_n \subset B'_n$. Theo (CAIII), $f(C) = \inf_n f(B'_n)$, và vì $C \subset C_n \subset B'_n$ nên ta cũng có $f(C) = \inf_n f(C_n) \geq a$. Điều này hoàn tất chứng minh.
 
-#### Định lý 5 {#top-ix-s6-thm-5 .statement}
+#### Định lý 5 {#top-ix-s6-thm-5 .statement tag=0C9H}
 
 Cho $X$ là một không gian mêtric hóa được và cho $Y$ là một không gian con Souslin tương đối compact của $X$. Khi đó $Y$ là dung lượng được đối với mọi dung lượng $f$ trên $X$.
 
 Ta đã thấy (no. 2, Mệnh đề 9) rằng tồn tại một không gian compact $K$, một dãy giảm $(A_n)$ các tập con của $K$, mỗi tập là một hợp đếm được của các tập compact, và một ánh xạ liên tục $\varphi : K \to X$ sao cho $Y = \varphi \left( \bigcap_n A_n \right)$. Theo Mệnh đề 14, $\bigcap_n A_n$ là dung lượng được đối với mọi dung lượng trên $K$. Định lý 5 vì thế là một hệ quả của mệnh đề sau:
 
-#### Mệnh đề 15 {#top-ix-s6-prop-15 .statement}
+#### Mệnh đề 15 {#top-ix-s6-prop-15 .statement tag=0C9I}
 
 Cho $\varphi$ là một ánh xạ liên tục của một không gian Hausdorff $K$ vào một không gian Hausdorff $X$, và cho $f$ là một dung lượng trên $X$. Nếu với mỗi tập con $A$ của $K$ ta đặt $g(A) = f(\varphi(A))$, thì g là một dung lượng trên $K$; hơn nữa, nếu $A$ là dung lượng được đối với g, thì $\varphi(A)$ là dung lượng được đối với $f$.
 
@@ -468,7 +468,7 @@ Rõ ràng $g$ thỏa mãn các tiên đề $(\mathrm{CA}_I)$ và $(\mathrm{CA}_{
 
 Bây giờ cho $A$ là một tập con của $K$ là khả tích đối với $g$; nếu $a < f(\varphi(A)) = g(A)$, thì tồn tại một tập compact $C \subset A$ sao cho $g(C) \geq a$; do đó $\varphi(C)$ là một tập compact chứa trong $\varphi(A)$, và $f(\varphi(C)) \geq a$. Điều này cho thấy rằng $\varphi(A)$ là capacitable đối với $f$, và hoàn tất chứng minh của Mệnh đề 15 và do đó của Định lý 5.
 
-#### Nhận xét {#top-ix-s6-n9-rem-1 .statement}
+#### Nhận xét {#top-ix-s6-n9-rem-1 .statement tag=0C9J}
 
 \* Nếu $\mu$ là một độ đo dương trên một không gian địa phương compact metrizable $X$, thì mọi tập Souslin $A$ của $X$ đều là $\mu$-đo được. Vì nếu $K$ là bất kỳ tập con compact nào của $X$, $K \cap A$ là một tập Souslin tương đối compact, nên là capacitable đối với $\mu^*$ và do đó $\mu$-khả tích. Lưu ý rằng phần bù trong $X$ của một tập Souslin, tuy nói chung không phải là một tập Souslin, nhưng là $\mu$-đo được *.
 

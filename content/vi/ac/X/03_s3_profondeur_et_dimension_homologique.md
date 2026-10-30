@@ -44,7 +44,7 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: 2406de0720fc1000c19fd72ee4aad557f4a75f977e2d5b049d11f961e3c77523
+content_sha256: b169b59b7ebc04cdf947c333654b38a60655a83b32aa4625b0c7eec071fb4a43
 translated_from: content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md
 source_lang: en-mt
 translation_method: machine
@@ -62,13 +62,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho A là một vành, M là một A-môđun. Nhắc lại (A, X, p. 134, Định nghĩa 1) rằng chiều xạ ảnh của M, ký hiệu là dp_A(M), là cận dưới lớn nhất (trong $\overline{\mathbf{Z}}$) của tập các độ dài của những phân giải xạ ảnh của M. Ta có dp_A(0) = -∞ và dp_A(M) ≥ 0 nếu M khác không. Để M là xạ ảnh, điều kiện cần và đủ là dp_A(M) ≤ 0.
 
-#### Ví dụ {#ac-x-s3-n1-exa-1 .statement}
+#### Ví dụ {#ac-x-s3-n1-exa-1 .statement tag=0D3Y}
 
 Cho J là một iđêan của A được sinh bởi một dãy A-chính quy $x = (x_1, \ldots, x_r)$. Ta có dp_A(A/J) ≤ r. Thật vậy, điều này hiển nhiên nếu A là không; trong trường hợp ngược lại, phức Koszul $K_\bullet(x, A)$ là một phân giải tự do của A/J có độ dài r (loc. cit., p. 159, Nhận xét 3). Hơn nữa, với mọi A-môđun N, các A-môđun Ext_A^r(A/J, N) và N/JN là đẳng cấu (loc. cit.); do đó, để có dp_A(A/J) = r, điều kiện cần và đủ là J phân biệt với A (loc. cit., p. 134, Mệnh đề 1).
 
 Tương tự, người ta định nghĩa chiều nội xạ của M, ký hiệu là di_A(M), là cận dưới lớn nhất của tập các độ dài của những phân giải nội xạ của M. Ta có di_A(0) = -∞, và di_A(M) ≥ 0 nếu M ≠ 0. Để M là nội xạ, điều kiện cần và đủ là di_A(M) ≤ 0.
 
-#### Mệnh đề 1 {#ac-x-s3-prop-1 .statement}
+#### Mệnh đề 1 {#ac-x-s3-prop-1 .statement tag=0D3Z}
 
 Cho A là một vành, M là một A-môđun và n là một số nguyên ≥ 0. Các điều kiện sau là tương đương:
 
@@ -98,7 +98,7 @@ Nhắc lại (A, X, p. 138, Định nghĩa 2) rằng chiều đồng điều c�
 
 ### 2. Địa phương hóa của chiều đồng điều
 
-#### Mệnh đề 2 {#ac-x-s3-prop-2 .statement}
+#### Mệnh đề 2 {#ac-x-s3-prop-2 .statement tag=0D40}
 
 Cho $A$ là một vành, $M$ và $N$ là các $A$-môđun, $i$ là một số nguyên và $S$ là một tập con nhân tính của $A$. Ta có một đẳng cấu chính tắc của các $S^{-1}A$-môđun
 
@@ -114,7 +114,7 @@ $$
 
 Vì A-môđun $S^{-1}A$ là phẳng, điều này suy ra từ A, X, p. 110, Mệnh đề 9 và p. 111, Mệnh đề 10.
 
-#### Hệ quả {#ac-x-s3-n2-cor-1 .statement}
+#### Hệ quả {#ac-x-s3-n2-cor-1 .statement tag=0D41}
 
 Cho $A$ là một vành, $M$ và $N$ là các $A$-môđun, $i$ là một số nguyên.
 
@@ -126,7 +126,7 @@ Nếu $p$ là một iđêan nguyên tố của $A$ không thuộc $\mathrm{Supp}
 
 Để một môđun hữu hạn sinh trên một vành Noether có độ dài hữu hạn, điều kiện cần và đủ là giá của nó gồm các iđêan cực đại (IV, § 2, No. 5, Mệnh đề 7). Dưới giả thiết b), các A-môđun $\mathrm{Tor}_i^A(M, N)$ và $\mathrm{Ext}_A^i(M, N)$ là hữu hạn sinh (A, X, p. 108, Hệ quả) ; do đó mệnh đề b) suy ra từ a).
 
-#### Mệnh đề 3 {#ac-x-s3-prop-3 .statement}
+#### Mệnh đề 3 {#ac-x-s3-prop-3 .statement tag=0D42}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun hữu hạn sinh, và $N$ là một $A$-môđun.
 
@@ -148,20 +148,20 @@ P_{n-1} \xrightarrow{d_{n-1}} P_{n-2} \longrightarrow \ldots \longrightarrow P_0
 $$
 trong đó các P_i là tự do kiểu hữu hạn (A, X, p. 53, Mệnh đề 6). Đặt P = Ker d_{n-1} ; đây là một môđun trình bày hữu hạn. A_p-môđun P_p là xạ ảnh (A, X, p. 134, Mệnh đề 1), do đó tự do (II, § 3, No. 2, Hệ quả 2 của Mệnh đề 5). Theo II, § 5, No. 1, Hệ quả của Mệnh đề 2, tồn tại một phần tử f của A - p sao cho A_f-môđun P_f là tự do; khi đó A_q-môđun P_q là tự do với mọi phần tử q của tập mở U của Spec(A) tạo bởi các iđêan nguyên tố không chứa f . Điều này chứng minh b).
 
-#### Hệ quả 1 {#ac-x-s3-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s3-prop-3-cor-1 .statement tag=0D43}
 
 Với mọi tập hợp nhân S của A , ta có
 $$
 \mathrm{dp}_{S^{-1}A}(S^{-1}M) \leq \mathrm{dp}_A(M) \quad , \quad \mathrm{di}_{S^{-1}A}(S^{-1}N) \leq \mathrm{di}_A(N) \quad , \quad \mathrm{dh}(S^{-1}A) \leq \mathrm{dh}(A) .
 $$
 
-#### Hệ quả 2 {#ac-x-s3-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s3-prop-3-cor-2 .statement tag=0D44}
 
 Nếu ta có dp_{A_m}(M_m) < +\infty với mọi iđêan cực đại m của Supp(M) , thì ta có dp_A(M) < +\infty .
 
 Thật vậy, không gian con X của Supp(M) tạo bởi các iđêan cực đại là quasi-compact (II, § 4, No. 2, Mệnh đề 8 và 9 và No. 3, Hệ quả 7 của Mệnh đề 11) ; ánh xạ m \mapsto dp_{A_m}(M_m) từ X vào \overline{\mathbf{R}} là nửa liên tục trên (Mệnh đề 3), do đó bị chặn (TG, IV, p. 30, Hệ quả của Định lý 3).
 
-#### Nhận xét {#ac-x-s3-n2-rem-1 .statement}
+#### Nhận xét {#ac-x-s3-n2-rem-1 .statement tag=0D45}
 
 Cho A là một vành Noether chính quy có chiều vô hạn (VIII, § 5, Bài tập 6 c)). Ta sẽ thấy dưới đây (No. 7, Định lý 2 và § 4, No. 1, Mệnh đề 1) rằng ta có di_{A_m}(A_m) = dh(A_m) < +\infty với mọi iđêan cực đại m của A ; do đó Mệnh đề 3 kéo theo di_A(A) = dh(A) = +\infty . Vì thế, các ánh xạ p \mapsto di_{A_p}(N_p) và p \mapsto dh(A_p) nói chung không nửa liên tục trên.
 
@@ -177,7 +177,7 @@ của M là một giải xạ ảnh tối thiểu nếu mỗi môđun L_i đều
 
 (A, X, p. 103, Ví dụ 3). Mọi A-môđun hữu hạn sinh đều thừa nhận một giải như vậy (A, X, p. 56, Mệnh đề 10).
 
-#### Mệnh đề 4 {#ac-x-s3-prop-4 .statement}
+#### Mệnh đề 4 {#ac-x-s3-prop-4 .statement tag=0D46}
 
 *Cho A là một vành địa phương Noether, M là một A-môđun hữu hạn sinh, và n là một số nguyên $\geq 0$. Các điều kiện sau là tương đương* :
 
@@ -188,7 +188,7 @@ của M là một giải xạ ảnh tối thiểu nếu mỗi môđun L_i đều
 
 Các khẳng định (i) $\Rightarrow$ (ii) và (i) $\Rightarrow$ (iii) là ngay lập tức (A, X, p. 100, Định lý 1). Cho L là một giải xạ ảnh tối thiểu của M ; nếu (ii) hoặc (iii) được thỏa mãn, ta có $L_n = 0$ theo (1). Vì mọi giải xạ ảnh tối thiểu của M đều đẳng cấu với L (A, X, p. 54, Mệnh đề 8), suy ra (iv). Hệ quả (iv) $\Rightarrow$ (i) là tầm thường.
 
-#### Hệ quả 1 {#ac-x-s3-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s3-prop-4-cor-1 .statement tag=0D47}
 
 *Cho A là một vành địa phương Noether và n là một số nguyên $\geq 0$. Các điều kiện sau là tương đương* :
 
@@ -200,15 +200,15 @@ Các khẳng định (i) $\Rightarrow$ (ii) và (i) $\Rightarrow$ (iii) là ngay
 
 Hiển nhiên là (i) kéo theo (ii), và (ii) kéo theo (iii) và (iv). Theo Mệnh đề 4 áp dụng cho A-môđun $\kappa_A$, mỗi điều kiện (iii) và (iv) đều kéo theo (v). Ta hãy chứng minh rằng (v) kéo theo (i) : nếu $\operatorname{dp}_A(\kappa_A) < n$, ta có $\operatorname{Tor}_n^A(M, \kappa_A) = 0$ với mọi A-môđun M ; do đó mọi A-môđun hữu hạn sinh đều có chiều xạ ảnh $< n$ (Mệnh đề 4), điều này kéo theo $\operatorname{dh}(A) < n$ (A, X, p. 138, Mệnh đề 4).
 
-#### Hệ quả 2 {#ac-x-s3-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s3-prop-4-cor-2 .statement tag=0D48}
 
 *Ta có* $\operatorname{dh}(A) = \operatorname{dp}_A(\kappa_A)$.
 
-#### Nhận xét 1 {#ac-x-s3-n3-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s3-n3-rem-1 .statement tag=0D49}
 
 Cho A là một vành địa phương. A-môđun $\operatorname{Tor}_1^A(\kappa_A, \kappa_A)$ đẳng cấu với $\mathfrak{m}_A / \mathfrak{m}_A^2$ (A, X, p. 72, Ví dụ). Do đó khi A là Noether, để $\operatorname{Tor}_1^A(\kappa_A, \kappa_A)$ bằng không, điều kiện cần và đủ là $\mathfrak{m}_A$ bằng không, nghĩa là A là một trường. Vì vậy Hệ quả 1 kéo theo rằng một vành địa phương Noether có chiều đồng điều 0 là một trường.
 
-#### Nhận xét 2 {#ac-x-s3-n3-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s3-n3-rem-2 .statement tag=0D4A}
 
 Cho A là một vành địa phương Noether, M là một A-môđun hữu hạn sinh có chiều xạ ảnh hữu hạn $n$, N là một A-môđun hữu hạn sinh khác không. *A-môđun* $\operatorname{Ext}_A^n(M, N)$ *là khác không*: thật vậy, gọi L là một phân giải xạ ảnh cực tiểu của M, và d là vi phân của nó. Ta có một dãy khớp
 
@@ -224,13 +224,13 @@ $$
 
 vế này là khác không theo Mệnh đề 4 và bổ đề Nakayama. Do đó, chiều xạ ảnh của M là số nguyên lớn nhất $i$ sao cho $\mathrm{Ext}_A^i(M, N)$ khác không.
 
-#### Nhận xét 3 {#ac-x-s3-n3-rem-3 .statement}
+#### Nhận xét 3 {#ac-x-s3-n3-rem-3 .statement tag=0D4B}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun hữu hạn sinh có chiều xạ ảnh hữu hạn, $N$ là một $A$-môđun hữu hạn sinh mà giá của nó bằng $\mathrm{Spec}(A)$. Theo nhận xét trước và các Mệnh đề 2 và 3 của No. 2, chiều xạ ảnh $n$ của $M$ là số nguyên lớn nhất $i$ sao cho $\mathrm{Ext}_A^i(M, N)$ khác không; giá của $A$-môđun $\mathrm{Ext}_A^n(M, N)$ là tập hợp các phần tử $p$ của $\mathrm{Spec}(A)$ sao cho $\mathrm{dp}_{A_p}(M_p) = n$.
 
 Có thể tồn tại những $A$-môđun hữu hạn sinh $M$ có chiều xạ ảnh $+\infty$, thỏa mãn $\mathrm{Ext}_A^i(M, A) = 0$ với $i$ đủ lớn: *đó chẳng hạn là trường hợp của $A$-môđun $\kappa_A$ khi $A$ là một vành địa phương Gorenstein không chính quy*.
 
-#### Mệnh đề 5 {#ac-x-s3-prop-5 .statement}
+#### Mệnh đề 5 {#ac-x-s3-prop-5 .statement tag=0D4C}
 
 *Cho $A$ là một vành Noether, $M$ là một $A$-môđun hữu hạn sinh và $n$ là một số nguyên $\geqslant 0$. Các điều kiện sau là tương đương :
 
@@ -242,7 +242,7 @@ Có thể tồn tại những $A$-môđun hữu hạn sinh $M$ có chiều xạ 
 (ii) $\Rightarrow$ (iii) : điều này suy ra từ Mệnh đề 2 của No. 2.
 (iii) $\Rightarrow$ (i) : theo Mệnh đề 4, điều kiện (iii) kéo theo bất đẳng thức $\mathrm{dp}_{A_m}(M_m) < n$ với mọi iđêan cực đại $m$ của $A$, và kết luận theo Mệnh đề 3.
 
-#### Nhận xét 4 {#ac-x-s3-n3-rem-4 .statement}
+#### Nhận xét 4 {#ac-x-s3-n3-rem-4 .statement tag=0D4D}
 
 Cho $A$ là một vành Noether và $n$ là một số nguyên $\geqslant 0$. Nếu $m$ và $m'$ là hai iđêan cực đại phân biệt của $A$, các $A$-môđun $\mathrm{Ext}_A^n(A/m, A/m')$ và $\mathrm{Tor}_n^A(A/m, A/m')$ bị triệt tiêu bởi $m + m'$, do đó bằng không. Bằng một chứng minh tương tự như chứng minh của Hệ quả 1 của Mệnh đề 4, từ Mệnh đề 5 người ta suy ra tính tương đương của các điều kiện sau:
 
@@ -254,7 +254,7 @@ Cho $A$ là một vành Noether và $n$ là một số nguyên $\geqslant 0$. N�
 
 Đặc biệt, ta có $\mathrm{dh}(A) = \sup_m \mathrm{dp}_A(A/m)$, trong đó $m$ chạy qua tập hợp các iđêan cực đại của $A$.
 
-#### Mệnh đề 6 {#ac-x-s3-prop-6 .statement}
+#### Mệnh đề 6 {#ac-x-s3-prop-6 .statement tag=0D4E}
 
 Cho $A$ là một vành Noether, $N$ là một $A$-môđun, $n$ là một số nguyên $\geqslant 0$. Các điều kiện sau là tương đương:
 
@@ -302,7 +302,7 @@ $$
 $$
 Khi đó suy ra từ Bổ đề 3 của § 1, No. 7 rằng ta có $\mathrm{Ext}_{A_{\mathfrak{p}}}^{n}(\kappa(\mathfrak{p}), N_{\mathfrak{p}}) = 0$, điều này chứng minh (iii).
 
-#### Nhận xét 5 {#ac-x-s3-n3-rem-5 .statement}
+#### Nhận xét 5 {#ac-x-s3-n3-rem-5 .statement tag=0D4F}
 
 Cho $N$ là một $A$-môđun sinh hữu hạn; điều kiện $\mathrm{Ext}_{A}^{n}(A/\mathfrak{m}, N) = 0$ với mọi iđêan cực đại $\mathfrak{m}$ của $A$ không nhất thiết kéo theo $\mathrm{di}_{A}(N) < n$. Chẳng hạn, nếu vành $A$ là địa phương và không phải là một vành Gorenstein (No. 7, Định nghĩa 1), thì ta có $\mathrm{Ext}_{A}^{n}(A/\mathfrak{m}, A) = 0$ với $n < \mathrm{prof}(A)$ nhưng $\mathrm{di}_{A}(A) = +\infty$.
 
@@ -394,7 +394,7 @@ $$
 
 (6)
 
-#### Mệnh đề 7 {#ac-x-s3-prop-7 .statement}
+#### Mệnh đề 7 {#ac-x-s3-prop-7 .statement tag=0D4G}
 
 *Cho $A$ là một vành, $x$ là một phần tử giản ước được của $A$, $M$ là một $A$-môđun sao cho phép vị tự $x_M$ là đơn ánh, $N$ là một $A$-môđun bị triệt tiêu bởi $x$, $n$ là một số nguyên. Các đồng cấu chính tắc của các $(A/xA)$-môđun*
 
@@ -410,7 +410,7 @@ $$
 
 *suy ra từ các dãy khớp (4), (5) và (6) là các đẳng cấu.*
 
-#### Hệ quả {#ac-x-s3-n4-cor-1 .statement}
+#### Hệ quả {#ac-x-s3-n4-cor-1 .statement tag=0D4H}
 
 Cho $A$ là một vành địa phương Noether, $M$ là một $A$-môđun sinh hữu hạn và $J$ là một iđêan của $A$ sinh bởi một dãy $(x_1, \ldots, x_r)$ các phần tử của $m_A$ vừa là $A$-chính quy vừa là $M$-chính quy. Khi đó $\mathrm{dp}_{A/J}(M/JM) = \mathrm{dp}_A(M)$ và $\mathrm{di}_{A/J}(M/JM) = \mathrm{di}_A(M) - r$.
 
@@ -418,7 +418,7 @@ Chỉ cần xét trường hợp $r = 1$. Đặt $x = x_1$. Các $A$-môđun $\m
 
 ### 5. Chiều sâu và chiều xạ ảnh
 
-#### Định lý 1 (Auslander-Buchsbaum) {#ac-x-s3-thm-1 .statement}
+#### Định lý 1 (Auslander-Buchsbaum) {#ac-x-s3-thm-1 .statement tag=0D4I}
 
 Cho $A$ là một vành địa phương Noether và $M$ là một $A$-môđun sinh hữu hạn có chiều xạ ảnh hữu hạn. Khi đó có đẳng thức
 
@@ -446,7 +446,7 @@ $$
 
 trong đó $L$ là một $A$-môđun tự do sinh hữu hạn. Khi đó ta có $\mathrm{prof}_A(L) = \mathrm{prof}(A)$ (§ 1, No. 1, nhận xét 4), $\mathrm{dp}_A(N) = \mathrm{dp}_A(M) - 1$ (A, X, p. 135, hệ quả 2 c)), do đó $\mathrm{prof}_A(N) = \mathrm{prof}(A) - \mathrm{dp}_A(N)$ (giả thiết quy nạp), và đặc biệt $\mathrm{prof}_A(N) < \mathrm{prof}_A(L)$. Theo mệnh đề 1 của § 1, No. 1, khi đó ta có $\mathrm{prof}_A(M) = \mathrm{prof}_A(N) - 1$, điều này hoàn tất chứng minh.
 
-#### Nhận xét {#ac-x-s3-n5-rem-1 .statement}
+#### Nhận xét {#ac-x-s3-n5-rem-1 .statement tag=0D4J}
 
 Xét theo hệ quả 2 của mệnh đề 4 (No. 3), định lý 1 áp dụng cho $A$-môđun $\kappa_A$ kéo theo rằng xảy ra một trong hai trường hợp sau:
 
@@ -455,7 +455,7 @@ Xét theo hệ quả 2 của mệnh đề 4 (No. 3), định lý 1 áp dụng ch
 
 Ta sẽ thấy sau này (§ 4, No. 2) rằng (ii) đặc trưng các vành địa phương chính quy.
 
-#### Hệ quả 1 {#ac-x-s3-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s3-thm-1-cor-1 .statement tag=0D4K}
 
 Giữ các giả thiết của định lý 1.
 
@@ -467,13 +467,13 @@ a) Thực vậy, “ $\operatorname{prof}_A(M) = 0$ ” tương đương với �
 
 b) Thực vậy, “ $dp_A(M) = 0$ ” tương đương với “ $M$ tự do ”.
 
-#### Hệ quả 2 {#ac-x-s3-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s3-thm-1-cor-2 .statement tag=0D4L}
 
 Giữ các giả thiết của định lý 1 và giả sử thêm rằng $A$ là một vành Macaulay. Khi đó $dp_A(M)$ là tổng của hai số nguyên dương $\dim(A) - \dim_A(M)$ và $\dim_A(M) - \operatorname{prof}(M)$.
 
 Đặc biệt, khi đó $dp_A(M)$ lớn hơn $\dim(A) - \dim_A(M)$, và có đẳng thức khi và chỉ khi $M$ là Cohen-Macaulay.
 
-#### Hệ quả 3 {#ac-x-s3-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s3-thm-1-cor-3 .statement tag=0D4M}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun sinh hữu hạn có chiều xạ ảnh hữu hạn, $i$ là một số nguyên $\geq 0$, $N$ là một $A$-môđun sinh hữu hạn, và $F$ là giá đỡ của $A$-môđun $\operatorname{Ext}_A^i(M, N)$ (resp. $\operatorname{Tor}_i^A(M, N)$). Khi đó $\operatorname{prof}_F(A) \geq i$.
 
@@ -485,7 +485,7 @@ $$
 
 Với thuật ngữ của $§ 1$, No. 5, nhận xét 4, kết luận của hệ quả 3 có nghĩa là các môđun $\operatorname{Ext}_A^i(M, N)$ và $\operatorname{Tor}_i^A(M, N)$ có grade $\geq i$. Điều đó suy ra rằng đối chiều của giá của chúng trong $\operatorname{Spec}(A)$ là $\geq i$ ($§ 1$, No. 7, mệnh đề 12).
 
-#### Hệ quả 4 {#ac-x-s3-thm-1-cor-4 .statement}
+#### Hệ quả 4 {#ac-x-s3-thm-1-cor-4 .statement tag=0D4N}
 
 Cho $A$ là một vành Macaulay Noether và $M$ là một $A$-môđun sinh hữu hạn có chiều xạ ảnh hữu hạn.
 
@@ -527,13 +527,13 @@ c) Cho $U$ là tập hợp các phần tử $p$ của $\operatorname{Spec}(A)$ s
 
 ### 6. Độ sâu và chiều đơn ánh
 
-#### Mệnh đề 8 {#ac-x-s3-prop-8 .statement}
+#### Mệnh đề 8 {#ac-x-s3-prop-8 .statement tag=0D4O}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun sinh hữu hạn. Khi đó $\dim_A(M) \leq \operatorname{di}_A(M)$.
 
 Cho $r$ là một số nguyên dương nhỏ hơn $\dim_A(M)$. Tồn tại một chuỗi bão hòa các iđêan nguyên tố $p \subset p_1 \subset \ldots \subset p_{r-1} \subset q$ sao cho $p$ là một phần tử cực tiểu của giá của $M$; khi đó $A_p$-môđun $M_p$ có độ dài hữu hạn, nên $\operatorname{Hom}_{A_p}(\kappa(p), M_p) \neq 0$, do đó $\operatorname{Ext}^r_{A_q}(\kappa(q), M_q) \neq 0$ (§ 1, No. 7, Bổ đề 3), điều này kéo theo $\operatorname{di}_A(M) \geq r$ (No. 3, Mệnh đề 6).
 
-#### Mệnh đề 9 {#ac-x-s3-prop-9 .statement}
+#### Mệnh đề 9 {#ac-x-s3-prop-9 .statement tag=0D4P}
 
 Cho $A$ là một vành địa phương Noether và $M$ là một $A$-môđun khác không sinh hữu hạn có chiều đơn ánh hữu hạn. Khi đó $\operatorname{di}_A(M) = \operatorname{prof}(A)$.
 
@@ -553,13 +553,13 @@ vì $\operatorname{Ext}^{r+1}_A(N', M) = 0$ và $\operatorname{Ext}^r_A(\kappa_A
 
 ### 7. Các vành Gorenstein
 
-#### Định nghĩa 1 {#ac-x-s3-def-1 .statement}
+#### Định nghĩa 1 {#ac-x-s3-def-1 .statement tag=0D4Q}
 
 Một vành $A$ được gọi là một vành Gorenstein nếu nó là Noether và nếu $A_m$-môđun $A_m$ có chiều đơn ánh hữu hạn đối với mọi iđêan cực đại $m$ của $A$.
 
 Để một vành địa phương Noether $A$ là một vành Gorenstein, điều kiện cần và đủ là $\mathrm{di}_A(A)$ hữu hạn; để một vành Noether $A$ là một vành Gorenstein, điều kiện cần và đủ là điều này đúng với $A_m$ đối với mọi iđêan cực đại $m$ của $A$.
 
-#### Mệnh đề 10 {#ac-x-s3-prop-10 .statement}
+#### Mệnh đề 10 {#ac-x-s3-prop-10 .statement tag=0D4R}
 
 Cho $A$ là một vành Gorenstein; khi đó $A$ là một vành Macaulay, và thỏa mãn $\mathrm{di}_A(A) = \dim(A)$.
 
@@ -575,27 +575,27 @@ suy ra $A$ là một vành Macaulay, và $\mathrm{di}_A(A) = \dim(A)$ khi chuy�
 
 Do đó các vành Noether $A$ sao cho $\mathrm{di}_A(A)$ hữu hạn là các vành Gorenstein hữu hạn chiều (Prop. 3 of No. 2), và các vành Noether sao cho $A$-môđun $A$ là đơn ánh là các vành Gorenstein Artin.
 
-#### Ví dụ 1 {#ac-x-s3-n7-exa-1 .statement}
+#### Ví dụ 1 {#ac-x-s3-n7-exa-1 .statement tag=0D4S}
 
 Đối với mọi tập con nhân $S$ của một vành Gorenstein $A$, vành phân thức $S^{-1}A$ là một vành Gorenstein: thật vậy, cho $q$ là một iđêan cực đại của $S^{-1}A$; nó có dạng $S^{-1}p$, trong đó $p$ là một iđêan nguyên tố của $A$ không giao với $S$. Cho $m$ là một iđêan cực đại của $A$ chứa $p$; khi đó vành $B = (S^{-1}A)_q$ đẳng cấu với $A_p$ (II, § 2, No. 5, Prop. 11), do đó đẳng cấu với một vành phân thức của $A_m$, và vì thế thỏa mãn $\mathrm{di}_B(B) < +\infty$ (No. 2, Cor. 1 of Prop. 3).
 
-#### Ví dụ 2 {#ac-x-s3-n7-exa-2 .statement}
+#### Ví dụ 2 {#ac-x-s3-n7-exa-2 .statement tag=0D4T}
 
 Cho $A$ là một vành Gorenstein và cho $J$ là một iđêan của $A$, được sinh bởi một dãy $A$-chính quy $x$. Vành thương $A/J$ là một vành Gorenstein: thật vậy, đối với mọi iđêan cực đại $m$ của $A$ chứa $J$, ảnh của dãy $x$ trong $A_m$ là $A_m$-chính quy và sinh iđêan $J_m$, do đó $A_m/J_m$ là một vành Gorenstein theo Cor. of Prop. 7 (No. 4).
 
-#### Ví dụ 3 {#ac-x-s3-n7-exa-3 .statement}
+#### Ví dụ 3 {#ac-x-s3-n7-exa-3 .statement tag=0D4U}
 
 Cho $A$ là một vành địa phương Noether, $J$ là một iđêan của $A$ được sinh bởi một dãy $A$-chính quy gồm các phần tử của $m_A$. Nếu $A/J$ là một vành Gorenstein, thì điều tương tự cũng đúng với $A$ (No. 4, Cor. of Prop. 7).
 
-#### Ví dụ 4 {#ac-x-s3-n7-exa-4 .statement}
+#### Ví dụ 4 {#ac-x-s3-n7-exa-4 .statement tag=0D4V}
 
 Cho $A$ là một vành địa phương Noether chính quy; khi đó $A$ là một vành Gorenstein. Thật vậy, gọi $x$ là một hệ tọa độ của $A$ (VIII, § 5, No. 1, Def. 1). Dãy $x$ là $A$-chính quy (*loc. cit.*, No. 2, định lý 1) và sinh iđêan $m_A$; do đó có thể áp dụng Ví dụ 3.
 
-#### Ví dụ 5 {#ac-x-s3-n7-exa-5 .statement}
+#### Ví dụ 5 {#ac-x-s3-n7-exa-5 .statement tag=0D4W}
 
 Mọi vành thương của một miền iđêan chính đều là một vành Gorenstein (Ví dụ 2). Đặc biệt, mọi đại số đơn sinh trên một trường đều là một vành Gorenstein.
 
-#### Bổ đề 1 {#ac-x-s3-lem-1 .statement}
+#### Bổ đề 1 {#ac-x-s3-lem-1 .statement tag=0D4X}
 
 Cho $A$ là một vành địa phương Artin. Các điều kiện sau là tương đương:
 
@@ -615,7 +615,7 @@ $$
 
 do đó có $\mathrm{long}_A(\mathrm{Hom}_A(m_A, A)) \leqslant \mathrm{long}_A(m_A) = \mathrm{long}(A) - 1 = \mathrm{long}_A(\mathrm{Im}\, \alpha)$. Do đó $\alpha$ là toàn ánh, $\mathrm{Ext}_A^1(\kappa_A, A)$ bằng không và A-môđun $A$ là đơn ánh (No. 3, Prop. 4).
 
-#### Bổ đề 2 {#ac-x-s3-lem-2 .statement}
+#### Bổ đề 2 {#ac-x-s3-lem-2 .statement tag=0D4Y}
 
 Cho $A$ là một vành địa phương Noether sao cho $\mathrm{di}_A(A) = +\infty$. Khi đó $\mathrm{Ext}_A^i(\kappa_A, A) \neq 0$ với mọi số nguyên $i \geqslant \dim(A)$.
 
@@ -623,7 +623,7 @@ Ta lập luận bằng quy nạp theo $\dim(A)$. Khi $\dim(A) = 0$, $m_A$ là i�
 
 Còn lại ta phải xét trường hợp $\mathrm{di}_A(A)$ là vô hạn nhưng chiều đơn ánh của $A_p$ là hữu hạn với mọi iđêan nguyên tố $p$ của $A$ phân biệt với $m_A$. Với một iđêan như thế, trong trường hợp này, theo Mệnh đề 10, $\mathrm{di}_{A_p}(A_p) = \dim(A_p) < \dim(A)$, do đó $\mathrm{Ext}_{A_p}^i(\kappa(p), A_p) = 0$ với $i \geqslant \dim(A)$. Vì $\mathrm{di}_A(A)$ là vô hạn, Mệnh đề 6 của No. 3 khi đó cho thấy $\mathrm{Ext}_A^i(\kappa_A, A) \neq 0$ với mọi số nguyên $i \geqslant \dim(A)$.
 
-#### Định lý 2 (Bass) {#ac-x-s3-thm-2 .statement}
+#### Định lý 2 (Bass) {#ac-x-s3-thm-2 .statement tag=0D4Z}
 
 Cho $A$ là một vành địa phương Noether; đặt $d = \dim(A)$. Gọi $x = (x_1, \ldots, x_d)$ là một dãy cát tuyến cực đại gồm các phần tử của $m_A$, và $x$ là iđêan mà nó sinh ra. Các điều kiện sau là tương đương:
 
@@ -640,13 +640,13 @@ Hãy chứng minh rằng (i) kéo theo (v): nếu $A$ là một vành Gorenstein
 
 Sau cùng hãy chứng minh rằng (vi) kéo theo (i): dưới giả thiết (vi), vành $A/x$ là một vành Gorenstein (bổ đề 1), do đó $A$ là một vành Gorenstein (ví dụ 3).
 
-#### Hệ quả {#ac-x-s3-n7-cor-1 .statement}
+#### Hệ quả {#ac-x-s3-n7-cor-1 .statement tag=0D50}
 
 *Cho $A$ là một vành địa phương Noether có chiều d. $A$-môđun $\operatorname{Ext}^d_A(\kappa_A, A)$ khác không.*
 
 Điều này suy ra từ định lý 2 nếu $A$ là một vành Gorenstein, và từ bổ đề 2 trong trường hợp ngược lại.
 
-#### Mệnh đề 11 {#ac-x-s3-prop-11 .statement}
+#### Mệnh đề 11 {#ac-x-s3-prop-11 .statement tag=0D51}
 
 *Cho $A$ là một vành Noether. Các điều kiện sau là tương đương:*
 
@@ -660,7 +660,7 @@ Sau cùng hãy chứng minh rằng (vi) kéo theo (i): dưới giả thiết (vi
 
 ### 8. Vành Gorenstein và Đại số Phẳng
 
-#### Mệnh đề 12 {#ac-x-s3-prop-12 .statement}
+#### Mệnh đề 12 {#ac-x-s3-prop-12 .statement tag=0D52}
 
 Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether, khiến $B$ trở thành một A-môđun phẳng. Các điều kiện sau là tương đương:
 
@@ -681,7 +681,7 @@ và khi đó mệnh đề suy ra từ bổ đề 1 của No. 7.
 
 Hãy chuyển sang trường hợp tổng quát. Nếu trong mệnh đề thay từ "Gorenstein" bằng từ "Macaulay", thì mệnh đề là một trường hợp riêng của Mệnh đề 10 của § 2, No. 7. Do đó ta có thể giả sử rằng các vành $A$, $B$ và $C = \kappa_A \otimes_A B$ là Macaulay. $B$-môđun $C$ là Macaulay (§ 2, No. 1, Ví dụ 4). Đặt $r = \dim(A)$, $s = \dim(C)$. Tồn tại một dãy $A$-chính quy $(x_1, \ldots, x_r)$ gồm các phần tử của $m_A$ và một dãy $(y_1, \ldots, y_s)$ gồm các phần tử của $m_B)$ là chính quy đối với $B$-môđun $C$ (§ 2, No. 3, Mệnh đề 3); gọi $x$ là iđêan của $A$ và $\mathfrak{y}$ là iđêan của $B$ tương ứng do chúng sinh ra. Dãy $(y_1, \ldots, y_s, \rho(x_1), \ldots, \rho(x_r))$ là $B$-chính quy (§ 1, No. 6, Mệnh đề 11), và $A$-môđun $B/\mathfrak{y}$ là phẳng (*loc. cit.*, Mệnh đề 10). Do đó đồng cấu từ $A/x$ vào $B/(xB + \mathfrak{y})$ suy ra từ $\rho$ khi chuyển qua các thương làm cho $B/(xB + \mathfrak{y})$ thành một $(A/x)$-môđun phẳng, và vành $\kappa_{A/x} \otimes_{A/x} B/(xB + \mathfrak{y})$ đẳng cấu với $C/\mathfrak{y}C$. Vì thế mệnh đề suy ra từ phần đầu của chứng minh, có kể đến Ví dụ 3 của No. 7.
 
-#### Hệ quả 1 {#ac-x-s3-prop-12-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s3-prop-12-cor-1 .statement tag=0D53}
 
 Cho $\rho : A \to B$ là một đồng cấu của các vành Noether làm cho $B$ thành một $A$-môđun phẳng. Các điều kiện sau là tương đương:
 
@@ -700,7 +700,7 @@ Cho $q$ là một iđêan nguyên tố của $B$; đặt $p = \rho^{-1}(q)$. Và
 
 Nếu $B$ là một A-môđun phẳng trung thành, ánh xạ $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(A)$ là toàn ánh (II, § 2, No. 5, hệ quả 4 của mệnh đề 11), do đó suy ra khẳng định cuối cùng.
 
-#### Hệ quả 2 {#ac-x-s3-prop-12-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s3-prop-12-cor-2 .statement tag=0D54}
 
 Cho $A$ là một vành Noether, $J$ là một iđêan của $A$, $\hat{A}$ là bổ toàn tách của $A$ đối với tôpô $J$-adic. Xét các điều kiện sau:
 
@@ -713,7 +713,7 @@ Các điều kiện từ (ii) đến (iv) là tương đương, và được suy
 
 Hệ quả này được suy ra từ hệ quả 1 theo cùng cách như hệ quả 4 của mệnh đề 9 ở § 2, No. 7, đã được suy ra: trong chứng minh chỉ cần thay thế từ "Macaulay" bằng từ "Gorenstein".
 
-#### Hệ quả 3 {#ac-x-s3-prop-12-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s3-prop-12-cor-3 .statement tag=0D55}
 
 Cho $A$ là một vành Gorenstein và $(T_i)_{i \in I}$ là một họ hữu hạn các bất định. Các vành $A[(T_i)_{i \in I}]$ và $A[[T_i]_{i \in I}]$ là các vành Gorenstein.
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 297
 statements: 21
 exercises: 3
-content_sha256: 8c9ce9569ea1b772d017d57a28bb04fd4c98fb2f5fba900679add6fbd29a5f76
+content_sha256: a52bcad1a6959ac07961aaa087da7bf80b69c5bdaa56b2dca964d198e3ea00e8
 translated_from: content/en/fvr/VI/01_s1_generalized_taylor_expansions.md
 source_content_sha256: 0001fab43420fc721b2091717a772409bf8d8ed8a052f67cffccc1674b37f714
 translation_model: gpt-5.4
@@ -71,7 +71,7 @@ Như một ví dụ về các sự mở rộng này, ta dẫn ra toán tử đ�
 
 Với mọi đa thức $f \in K[X]$ ta ký hiệu bởi $T_Y(f)$ đa thức $f(X + Y)$ trong K[X,Y]; ánh xạ $T_Y$ là một ánh xạ K-tuyến tính từ K[X] vào K[X,Y], gọi là một toán tử tịnh tiến.
 
-#### Định nghĩa 1 {#fvr-vi-s1-def-1 .statement}
+#### Định nghĩa 1 {#fvr-vi-s1-def-1 .statement tag=08HO}
 
 *Ta nói rằng một toán tử U trên K[X] là một toán tử hợp thành nếu nó giao hoán với toán tử tịnh tiến, nghĩa là, nếu $U_X T_Y = T_Y U$.*
 
@@ -85,21 +85,21 @@ $$
 
 (1)
 
-#### Ví dụ 1 {#fvr-vi-s1-n1-exa-1 .statement}
+#### Ví dụ 1 {#fvr-vi-s1-n1-exa-1 .statement tag=08HP}
 
 Với mọi $\lambda \in K$ toán tử gán cho mỗi đa thức $f(X)$ đa thức $f(X + \lambda)$ là một toán tử hợp thành.
 
-#### Ví dụ 2 {#fvr-vi-s1-n1-exa-2 .statement}
+#### Ví dụ 2 {#fvr-vi-s1-n1-exa-2 .statement tag=08HQ}
 
 Đạo hàm D trên K[X] là một toán tử hợp thành (*xem* mệnh đề 1).
 
-#### Nhận xét {#fvr-vi-s1-n1-rem-1 .statement}
+#### Nhận xét {#fvr-vi-s1-n1-rem-1 .statement tag=08HR}
 
 Vì K là một trường vô hạn nên toán tử U trên K[X] là một toán tử hợp thành khi và chỉ khi với mọi đa thức $f \in K[X]$ và mọi phần tử $\alpha \in K$ ta có, đặt $g = U(f)$, rằng $g(X + \alpha) = U(f(X + \alpha))$. (Alg., IV. 16, hệ quả).
 
 Rõ ràng mọi tổ hợp tuyến tính của các toán tử hợp thành, với các hệ số trong K, đều là một toán tử hợp thành; điều tương tự cũng đúng đối với hợp thành của hai toán tử hợp thành. Nói cách khác, các toán tử hợp thành tạo thành một đại số con $\Gamma$ của đại số các nội cấu của không gian vectơ K[X].
 
-#### Mệnh đề 1 {#fvr-vi-s1-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-vi-s1-prop-1 .statement tag=08HS}
 
 *Điều kiện cần và đủ để một toán tử U trên K[X] là một toán tử hợp thành là nó giao hoán với đạo hàm D trên K[X].*
 
@@ -147,17 +147,17 @@ Công thức này có thể được giải thích bằng ngôn ngữ tôpô nh�
 
 Công thức (3) cho thấy rằng với mọi *chuỗi hình thức* $u(S) = \sum_{k=0}^{\infty} \alpha_k S^k$ theo một ẩn trên K (*Alg.*, IV. 41), ta có thể gắn với nó toán tử hợp thành $U = \sum_{k=0}^{\infty} \alpha_k D^k$, mà về sau ta sẽ ký hiệu là $u(D)$. Nhận xét này có thể được làm sáng tỏ theo cách sau:
 
-#### Định lý 1 {#fvr-vi-s1-thm-1 .statement}
+#### Định lý 1 {#fvr-vi-s1-thm-1 .statement tag=08HT}
 
 *Ánh xạ gán cho mỗi chuỗi hình thức* $u(S) = \sum_{k=0}^{\infty} \alpha_k S^k$ *theo một ẩn trên* K *toán tử hợp thành* $u(D) = \sum_{k=0}^{\infty} \alpha_k D^k$ *trên* $K[X]$ *là một đẳng cấu của đại số* $K[[S]]$ *các chuỗi hình thức lên đại số* $\Gamma$ *các toán tử hợp thành.*
 
 Người ta kiểm tra ngay lập tức rằng ánh xạ này là một đồng cấu. Còn phải thấy rằng nó là đơn ánh, nói cách khác, rằng quan hệ $\sum_{k=0}^{\infty} \alpha_k D^k = 0$ kéo theo $\alpha_k = 0$ với mọi $k$; mà $h! \alpha_h$ là số hạng hằng trong đa thức thu được bằng cách áp dụng $\sum_{k=0}^{\infty} \alpha_k D^k$ cho $X^h$, do đó định lý.
 
-#### Hệ quả {#fvr-vi-s1-n1-cor-1 .statement}
+#### Hệ quả {#fvr-vi-s1-n1-cor-1 .statement tag=08HU}
 
 *Đại số $\Gamma$ các toán tử hợp thành trong $K[X]$ là giao hoán.*
 
-#### Ví dụ {#fvr-vi-s1-n1-exa-3 .statement}
+#### Ví dụ {#fvr-vi-s1-n1-exa-3 .statement tag=08HV}
 
 Nếu $U$ là toán tử gán cho mỗi đa thức $f(X)$ đa thức $f(X + \lambda)$ (trong đó $\lambda \in K$), thì ta có $U_0(X^k) = \lambda^k$, và do đó $U = \sum_{k=0}^{\infty} \frac{1}{k!} (\lambda D)^k$. Theo phép loại suy với khai triển chuỗi của $e^{\lambda}$ (III, p. 105), ta viết $e^S$ hoặc $\exp(S)$ cho chuỗi hình thức $\sum_{n=0}^{\infty} \frac{1}{n!} S^n$ trong vành $K[[S]]$; vì thế có thể viết $U = e^{\lambda D}$. Thay thế trường $K$ bằng trường phân thức hữu tỉ $K(Y)$ trong lập luận này, ta cũng thấy tương tự rằng *toán tử tịnh tiến* $T_Y$ có thể được viết dưới dạng $e^{YD}$.
 
@@ -179,7 +179,7 @@ $$
 $$
 điều này biện minh cho ký hiệu mà chúng ta đã đưa vào.
 
-#### Chú giải {#fvr-vi-s1-n1-sch-1 .statement}
+#### Chú giải {#fvr-vi-s1-n1-sch-1 .statement tag=08HW}
 
 Đẳng cấu của đại số $K[[S]]$ các chuỗi hình thức với đại số $\Gamma$ các toán tử hợp thành trên $K[X]$ đôi khi cho phép chứng minh các mệnh đề về chuỗi hình thức một cách đơn giản nhất bằng cách chứng minh chúng cho các toán tử hợp thành tương ứng (*cf.* VI, p. 274, prop. 6).
 
@@ -187,13 +187,13 @@ $$
 
 Cho một toán tử hợp thành $U = \sum_{k=0}^{\infty} \alpha_k D^k \neq 0$ và gọi $p$ là số nguyên nhỏ nhất trong các số nguyên $k$ sao cho $\alpha_k \neq 0$; ta sẽ nói rằng $p$ là *cấp* của toán tử $U$.
 
-#### Mệnh đề 2 {#fvr-vi-s1-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-vi-s1-prop-2 .statement tag=08HX}
 
 Mọi toán tử hợp thành cấp 0 đều khả nghịch trong đại số $\Gamma$ các toán tử hợp thành trên $\mathbf{K}[X]$.
 
 Thật vậy, một chuỗi hình thức $\sum_{k=0}^{\infty} \alpha_k S^k$ sao cho $\alpha_0 \neq 0$ là khả nghịch trong vành $\mathbf{K}[[S]]$ (Alg., IV. 41); do đó mệnh đề suy ra từ đ.l. 1 của VI, p. 271.
 
-#### Mệnh đề 3 {#fvr-vi-s1-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-vi-s1-prop-3 .statement tag=08HY}
 
 Cho $U$ là một toán tử hợp thành cấp $p$; khi đó $U(f) = 0$ với mọi đa thức $f$ bậc $< p$; với mọi đa thức $f \neq 0$ bậc $n \geq p$, $U(f)$ là một đa thức $\neq 0$ bậc $n - p$.
 
@@ -201,7 +201,7 @@ Cho $U$ là một toán tử hợp thành cấp $p$; khi đó $U(f) = 0$ với m
 
 Rõ ràng là mọi toán tử $U$ cấp $p$ đều có thể được viết theo một cách duy nhất dưới dạng $U = D^p V = V D^p$, trong đó $V$ là một toán tử cấp 0 (và do đó khả nghịch).
 
-#### Định nghĩa 2 {#fvr-vi-s1-def-2 .statement}
+#### Định nghĩa 2 {#fvr-vi-s1-def-2 .statement tag=08HZ}
 
 Cho $U = D^p V$ là một toán tử hợp thành cấp $p$ trên $\mathbf{K}[X]$. Đa thức $u_n(X) = V^{-1}(X^n)$ được gọi là đa thức Appell chỉ số $n$ gắn với toán tử $U$.
 
@@ -216,7 +216,7 @@ $$
 u_n(0) = \beta_n.
 $$
 
-#### Mệnh đề 4 {#fvr-vi-s1-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-vi-s1-prop-4 .statement tag=08I0}
 
 Các đa thức Appell gắn với $U$ thỏa mãn các hệ thức
 $$
@@ -244,7 +244,7 @@ $$
 UV^{-1} = D^p. \tag{12}
 $$
 
-#### Mệnh đề 5 {#fvr-vi-s1-prop-5 .statement}
+#### Mệnh đề 5 {#fvr-vi-s1-prop-5 .statement tag=08I1}
 
 *Với mọi đa thức $f \in K[X]$ và mọi toán tử hợp thành cấp $p$ ta có*
 
@@ -264,7 +264,7 @@ công thức Taylor và theo Định nghĩa 2 của VI, p. 273; chỉ cần áp 
 
 Cho E là vành các *chuỗi hình thức* theo một phần tử bất định S, với các hệ số trong vành đa thức $K[X]$ (*Alg.*, IV. 41); nói cách khác, vành các chuỗi hình thức $g(X, S) = \sum_{n=0}^{\infty} \alpha_n(X) S^n$ trong đó các $\alpha_n$ thuộc $K[X]$. Với mọi toán tử $U$ trên $K[X]$ ta xác định một ánh xạ $U_X$ từ E vào chính nó bằng cách đặt $U_X(g(X, S)) = \sum_{n=0}^{\infty} U(\alpha_n) S^n$. Rõ ràng E là một môđun trên vành $K[[S]]$ các chuỗi hình thức theo S với hệ số trong $K$; do tính tuyến tính của $U$ trên $K[X]$, ta kiểm tra ngay lập tức được rằng với mọi phần tử $\theta \in K[[S]]$ và mọi $g \in E$ ta có $U_X(\theta g) = \theta U_X(g)$; nói cách khác, $U_X$ là một ánh xạ tuyến tính của môđun E vào chính nó.
 
-#### Mệnh đề 6 {#fvr-vi-s1-prop-6 .statement}
+#### Mệnh đề 6 {#fvr-vi-s1-prop-6 .statement tag=08I2}
 
 *Cho $U = D^p V = u(D)$ là một toán tử hợp thành cấp $p$ trên $K[X]$, trong đó $u(S)$ là một chuỗi lũy thừa hình thức cấp $p$ trong $K[[S]]$. Khi đó*
 
@@ -399,7 +399,7 @@ $$
 
 trong đó $\xi$ là một biến *giả* trong lối ký hiệu phiếm hàm của số hạng ở vế phải (*xem* II, p. 58). Với mọi $a \geqslant 0$, toán tử gán cho mỗi hàm $f \in E$ hạn chế trên I của hàm $x \mapsto f(x + a)$ được gọi là *toán tử tịnh tiến theo a*.
 
-#### Định nghĩa 3 {#fvr-vi-s1-def-3 .statement}
+#### Định nghĩa 3 {#fvr-vi-s1-def-3 .statement tag=08I3}
 
 *Ta nói rằng một toán tử U trên E là một toán tử hợp thành nếu, với mọi $a \geqslant 0$, nó hoán vị được với toán tử tịnh tiến theo a*.
 
@@ -421,7 +421,7 @@ Nếu $f$ là một đa thức, ta có $f(\xi + x) = \sum_{k=0}^{\infty} \frac{1
 
 Ta lại viết $u_n$ để chỉ các đa thức Appell gắn với toán tử $U$. Với khai triển Taylor suy rộng của một đa thức (VI, p. 274, công thức (13)) tương ứng một kết quả sau đây đối với các hàm tổng quát hơn:
 
-#### Định lý 2 {#fvr-vi-s1-thm-2 .statement}
+#### Định lý 2 {#fvr-vi-s1-thm-2 .statement tag=08I4}
 
 *Cho f là một hàm có đạo hàm bậc $(n + 1)^{th}$ liên tục trên I, và thuộc, cùng với mọi đạo hàm $f^{(m)}$ của nó đối với $1 \leq m \leq n$, vào E. Nếu U là một toán tử hợp thành cấp $p \leq n$ trên E thì ta có, với $x \geq 0$ và $h \geq 0$*
 
@@ -494,7 +494,7 @@ $$
 \frac{\lambda^n e^{\lambda x}}{u(\lambda)} = \sum_{n=0}^\infty u_n(x) \frac{\lambda^n}{n!}.
 $$
 
-#### Nhận xét {#fvr-vi-s1-n6-rem-1 .statement}
+#### Nhận xét {#fvr-vi-s1-n6-rem-1 .statement tag=08I5}
 
 Có thể dùng công thức (33) (tương ứng (34)) để tính các $\beta_n$ (tương ứng các $u_n(x)$) bằng cách dùng bổ đề sau về các chuỗi nguyên:
 
@@ -505,7 +505,7 @@ Có thể dùng công thức (33) (tương ứng (34)) để tính các $\beta_n
 
 Nếu, bằng một thủ tục nào đó, ta có thể tìm được một chuỗi nguyên hội tụ tới $\lambda^p / u(\lambda)$ trên một lân cận của $0$, thì các hệ số của chuỗi này tất yếu bằng các $\beta_n / n!$. Đó là thủ tục mà ta sẽ áp dụng trong các ví dụ sau đây.
 
-#### Ví dụ 1 {#fvr-vi-s1-n6-exa-1 .statement}
+#### Ví dụ 1 {#fvr-vi-s1-n6-exa-1 .statement tag=08I6}
 
 Nếu $U$ là ánh xạ đồng nhất thì ta có $u(\lambda) = 1$ và toán tử $U$ rõ ràng là kỳ dị; vì $u_n(x) = x^n$ nên công thức (27) của VI, p. 278, có thể viết thành, đặt $\xi = \xi - \eta$
 
@@ -515,7 +515,7 @@ $$
 
 nghĩa là, nó quy về công thức Taylor (II, p. 62).
 
-#### Ví dụ 2 {#fvr-vi-s1-n6-exa-2 .statement}
+#### Ví dụ 2 {#fvr-vi-s1-n6-exa-2 .statement tag=08I7}
 
 Ta lấy cho $U$ toán tử hợp thành mà với mọi hàm $f$ xác định trên $\mathbf{R}_+$, gắn với nó hàm $x \mapsto f(x + 1) - f(x)$; khi đó
 
@@ -543,7 +543,7 @@ $$
 
 (36)
 
-#### Ví dụ 3 {#fvr-vi-s1-n6-exa-3 .statement}
+#### Ví dụ 3 {#fvr-vi-s1-n6-exa-3 .statement tag=08I8}
 
 Cho E là không gian vectơ các hàm $f$ xác định và liên tục trên $\mathbf{R}$, và sao cho nguyên $\int_{-\infty}^{+\infty} f(x + \xi) e^{-\xi^2/2} d\xi$ hội tụ với mọi $x \geq 0$. Toán tử U xác định bởi
 

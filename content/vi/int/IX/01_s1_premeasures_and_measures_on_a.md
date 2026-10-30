@@ -52,9 +52,9 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: cead97b31663598d992afff2a5c524b979202fc92c5562d1a01c17d27aeced3b
+content_sha256: 1eed09f5a4128b592413e934ce75a84cdd24aba7986d77d04a4264b86f2fec15
 translated_from: content/en/int/IX/01_s1_premeasures_and_measures_on_a.md
-source_content_sha256: 9def8ab1f124d61a4573dcf64e25627940e31a5690f91afe3c4981c332244b6f
+source_content_sha256: 317fc43050baeab2bc8c0cb022963528cc65340ba4a1f70e587dec5228ab5967
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-3557822e
 glossary_version: 34
@@ -66,7 +66,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các định lượng
 
-#### Định nghĩa 1 {#int-ix-s1-def-1 .statement}
+#### Định nghĩa 1 {#int-ix-s1-def-1 .statement tag=09MO}
 
 — Cho T là một tập hợp. Người ta gọi một định lượng trên T bất kỳ ánh xạ p của $\mathscr{F}_+(T)$ vào $\overline{\mathbf{R}}_+$ thỏa các tính chất sau:
 a) Nếu f và g là hai phần tử của $\mathscr{F}_+$ sao cho $f \leq g$, thì $p(f) \leq p(g)$.
@@ -86,7 +86,7 @@ $$
 
 Chẳng hạn, cho T là một không gian địa phương compact, $\mu$ là một độ đo dương trên T; khi đó $\mu^*$ và $\mu^\bullet$ là các định lượng trên T. Điều này suy ra từ các Mệnh đề 10, 11, 12 và Định lý 3 của Ch. IV, §1, No. 3 đối với $\mu^*$, và từ Mệnh đề 1 của Ch. V, §1, No. 1 đối với $\mu^\bullet$.
 
-#### Mệnh đề 1 {#int-ix-s1-prop-1 .statement}
+#### Mệnh đề 1 {#int-ix-s1-prop-1 .statement tag=09MP}
 
 *Cho $(p_\alpha)_{\alpha \in A}$ là một họ các định lượng trên T. Khi đó tổng và bao trên của họ $(p_\alpha)$ (trong $\mathscr{F}_+(\mathscr{F}_+(T))$) là các định lượng.*
 
@@ -96,7 +96,7 @@ $$
 p(f) = \sup_\alpha p_\alpha(f) = \sup_\alpha \sup_n p_\alpha(f_n) = \sup_n \sup_\alpha p_\alpha(f_n) = \sup_n p(f_n).
 $$
 
-#### Định nghĩa 2 {#int-ix-s1-def-2 .statement}
+#### Định nghĩa 2 {#int-ix-s1-def-2 .statement tag=09MQ}
 
 *Cho p là một định lượng trên một tập hợp T. Người ta nói rằng p là *bị chặn* nếu $p(T) < +\infty$. Nếu T là một không gian tôpô, p được gọi là *địa phương bị chặn* nếu mọi $x \in T$ đều có một lân cận V sao cho $p(V) < +\infty$.*
 
@@ -114,7 +114,7 @@ $$
 
 Cho $p$ là một định lượng trên một tập hợp $T$; p được gọi là *tập trung* trên một tập con $A$ của $T$ nếu $p(T - A) = 0$.
 
-#### Bổ đề 1 {#int-ix-s1-lem-1 .statement}
+#### Bổ đề 1 {#int-ix-s1-lem-1 .statement tag=09MR}
 
 — *Nếu định lượng $p$ tập trung trên $A \subset T$, thì $p(f) = p(f \varphi_A)$ với mọi $f \in \mathscr{F}_+(T)$.*
 
@@ -130,7 +130,7 @@ do đó $p(f \varphi_B) = 0$ theo các tính chất $a), b), d)$ của Định n
 
 Cho $T$ là một không gian tôpô, và cho $\mathfrak{K}$ là tập hợp các tập con compact của $T$, được sắp thứ tự bởi phép bao hàm. Với mọi $K \in \mathfrak{K}$, đặt $\mathscr{M}(K; \mathbf{C})$ là tập hợp các độ đo phức trên $K$. Với mọi cặp $(K, L)$ gồm các phần tử của $\mathfrak{K}$ sao cho $K \subset L$, hãy gọi $\iota_{KL}$ là ánh xạ từ $\mathscr{M}(L; \mathbf{C})$ vào $\mathscr{M}(K; \mathbf{C})$ gán cho mỗi độ đo $\mu$ trên $L$ độ đo $\mu_K$ cảm sinh bởi $\mu$ trên $K$ (Ch. IV, §5, No. 7, Định nghĩa 4). Khi đó $\iota_{KM} = \iota_{KL} \circ \iota_{LM}$ khi $K$, $L$ và $M$ là các tập con compact của $T$ sao cho $K \subset L \subset M$; điều này suy ra từ tính bắc cầu của các độ đo cảm sinh (Ch. V, §7, No. 2, Mệnh đề 4). Các phần tử của *giới hạn ngược* của họ $(\mathscr{M}(K; \mathbf{C}))_{K \in \mathfrak{K}}$ đối với các ánh xạ $\iota_{KL}$ sẽ được gọi là *tiền độ đo* trên $T$. Nói cách khác:
 
-#### Định nghĩa 3 {#int-ix-s1-def-3 .statement}
+#### Định nghĩa 3 {#int-ix-s1-def-3 .statement tag=09MS}
 
 *Một ánh xạ trên một không gian tôpô $T$ được gọi là tiền độ đo nếu nó gán cho mỗi tập con compact $K$ của $T$ một độ đo $w_K$ trên $K$, và có tính chất sau đây:
 
@@ -148,7 +148,7 @@ $$
 
 với mọi tập con compact K của T.
 
-#### Định nghĩa 4 {#int-ix-s1-def-4 .statement}
+#### Định nghĩa 4 {#int-ix-s1-def-4 .statement tag=09MT}
 
 *Cho w là một tiền độ đo dương trên T. Ta sẽ đặt, với mọi hàm $f \in \mathscr{F}_+(T)$,*
 
@@ -163,7 +163,7 @@ Với mỗi tập compact K, gọi $p^K$ là ảnh tải của tải $(w_K)^\bul
 
 *Nhận xét 1).* — Nếu v và w là hai tiền độ đo dương, thì $(v + w)^\bullet = v^\bullet + w^\bullet$ (Ch. V, §1, No. 1, Mệnh đề 3). Nếu v và w là hai tiền độ đo phức, thì $|v + w|^\bullet \leq |v|^\bullet + |w|^\bullet$.
 
-#### Mệnh đề 2 {#int-ix-s1-prop-2 .statement}
+#### Mệnh đề 2 {#int-ix-s1-prop-2 .statement tag=09MU}
 
 *a) Cho w là một tiền độ đo dương. Với mọi tập con compact K của T, tải $(w^\bullet)_K$ cảm sinh bởi $w^\bullet$ trên K bằng $(w_K)^\bullet$. Với mọi hàm $f \in \mathscr{F}_+(T)$, ta có các hệ thức $(w_K)^\bullet(f_K) = w^\bullet(f_{\varphi_K})$ và*
 
@@ -199,7 +199,7 @@ Ta hãy chuyển sang $b$: độ đo $w_K$ xét trong 1) là duy nhất (Ch. V, 
 
 Vì độ đo cảm sinh $(w^\bullet)_K$ bằng $(w_K)^\bullet$, nên không có mơ hồ khi chỉ viết $w_K^\bullet$. Từ nay chúng tôi sẽ dùng ký hiệu này.
 
-#### Hệ quả {#int-ix-s1-n2-cor-1 .statement}
+#### Hệ quả {#int-ix-s1-n2-cor-1 .statement tag=09MV}
 
 — *Cho $v$ và $w$ là hai tiền độ đo dương trên $T$, sao cho $v^\bullet(L) = w^\bullet(L)$ với mọi tập compact $L$ của $T$; khi đó $v = w$. Nói riêng, quan hệ $v^\bullet = w^\bullet$ suy ra $v = w$.*
 
@@ -211,7 +211,7 @@ $$
 
 theo Mệnh đề 2; do đó $w_K = v_K$ (Ch. IV, §4, No. 10, Hệ quả 3 của Mệnh đề 19), và cuối cùng $w = v$ theo định nghĩa của tiền độ đo.
 
-#### Định nghĩa 5 {#int-ix-s1-def-5 .statement}
+#### Định nghĩa 5 {#int-ix-s1-def-5 .statement tag=09MW}
 
 — *Cho $w$ là một tiền độ đo trên một không gian tôpô $T$. Người ta nói rằng $w$ là một độ đo (tương ứng, một độ đo bị chặn) nếu độ đo $|w|^\bullet$ là địa phương bị chặn (tương ứng, bị chặn) (xem No. 1, Định nghĩa 2)*.
 
@@ -219,11 +219,11 @@ Tập hợp các độ đo phức trên $T$ hiển nhiên là một không gian 
 
 Nếu $w$ là một độ đo phức, thì phần thực và phần ảo của nó là các độ đo thực. Nếu $w$ là một độ đo thực, thì $w^+$ và $w^-$ là các độ đo dương. Mọi độ đo phức (tương ứng thực) do đó là một tổ hợp tuyến tính (tương ứng hiệu) của các độ đo dương.
 
-#### Nhận xét 2 {#int-ix-s1-n2-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s1-n2-rem-2 .statement tag=09MX}
 
 Nếu $T$ là *địa phương compact*, thì mọi tiền độ đo $w$ trên $T$ đều là một độ đo. Thật vậy, mỗi $x \in T$ nhận được một lân cận compact $K$, và $|w|^*(K) = \|w_K\| < +\infty$, nên gánh nặng $|w|^*$ là bị chặn địa phương.
 
-#### Nhận xét 3 {#int-ix-s1-n2-rem-3 .statement}
+#### Nhận xét 3 {#int-ix-s1-n2-rem-3 .statement tag=09MY}
 
 Với mọi tập con Borel $A$ của $T$ (đặc biệt với $A = T$) và mọi độ đo dương $\mu$ trên $T$, số $\mu^*(A)$ là cận trên đúng của các độ đo $\mu^*(K)$ với $K$ chạy trên các tập con compact của $A$. Thật vậy, với mọi tập con compact $K$ của $A$, ta có $\mu^*(K) \leq \mu^*(A)$; mặt khác, nếu $\mathfrak{K}$ là tập hợp các tập con compact của $T$, thì
 
@@ -235,13 +235,13 @@ theo Hệ quả 1 của ĐL. 4 của Ch. IV, §4, No. 6.
 
 ### 3. Các ví dụ về độ đo
 
-#### Ví dụ 1 {#int-ix-s1-n3-exa-1 .statement}
+#### Ví dụ 1 {#int-ix-s1-n3-exa-1 .statement tag=09MZ}
 
 — *Độ đo trên một không gian địa phương compact.*
 
 Mệnh đề sau cho thấy lý thuyết của chương này bao hàm lý thuyết của Ch. IV. Trong phát biểu, từ 'measure' và ký hiệu $\mathscr{M}(T; \mathbf{C})$ được hiểu theo nghĩa của các chương trước.
 
-#### Mệnh đề 3 {#int-ix-s1-prop-3 .statement}
+#### Mệnh đề 3 {#int-ix-s1-prop-3 .statement tag=09N0}
 
 *Cho $T$ là một không gian địa phương compact, và cho $\mu$ là một độ đo trên $T$. Kí hiệu $W(\mu)$ là ánh xạ gán cho mỗi tập con compact $K$ của $T$ độ đo cảm sinh $\mu_K$. Khi đó $W(\mu)$ là một tiền độ đo trên $T$, ta có $W(|\mu|) = |W(\mu)|$, và ánh xạ tuyến tính $W : \mu \mapsto W(\mu)$ là một song ánh từ không gian $\mathscr{M}(T; \mathbf{C})$ lên không gian $\mathscr{P}(T; \mathbf{C})$ của các tiền độ đo trên $T$. Hơn nữa, nếu $\mu$ dương thì $\mu^* = (W(\mu))^*$.*
 
@@ -265,11 +265,11 @@ với mọi $f \in \mathscr{F}_+(T)$ (Ch. V, §1, Định nghĩa 1 và §7, Mệ
 
 Khi $T$ là *compact địa phương*, từ nay về sau ta sẽ *đồng nhất* các không gian $\mathscr{M}(T; \mathbf{C})$ và $\mathscr{P}(T; \mathbf{C})$ bằng song ánh $W$.
 
-#### Ví dụ 2 {#int-ix-s1-n3-exa-2 .statement}
+#### Ví dụ 2 {#int-ix-s1-n3-exa-2 .statement tag=09N1}
 
 — *Các độ đo có giá đỡ compact trên một không gian tôpô.*
 
-#### Bổ đề 2 {#int-ix-s1-lem-2 .statement}
+#### Bổ đề 2 {#int-ix-s1-lem-2 .statement tag=09N2}
 
 — *Cho $T$ là một không gian tôpô, $L$ là một tập con compact của $T$, và $\lambda$ là một độ đo dương trên $L$. Tồn tại duy nhất một độ đo dương $\mu$ trên $T$ sao cho, với mọi hàm $f \in \mathscr{F}_+(T)$,*
 
@@ -290,7 +290,7 @@ Q.E.D.
 
 Ta sẽ nói rằng $\mu$ là độ đo trên T *được xác định* bởi $\lambda$. Đặc biệt, với mọi điểm $x$ của T, ta có thể định nghĩa độ đo $\varepsilon_x$; nó được đặc trưng bởi $(\varepsilon_x)^*(f) = f(x)$ với $f \in \mathscr{F}_+(T)$.
 
-#### Nhận xét {#int-ix-s1-n3-rem-1 .statement}
+#### Nhận xét {#int-ix-s1-n3-rem-1 .statement tag=09N3}
 
 — 1) Khi T là địa phương compact, $\mu$ là ảnh của $\lambda$ qua đơn ánh của L vào T. Chúng ta sẽ thấy ở §2, No. 3, *Ví dụ*, khi các độ đo ảnh đã được xét, rằng cách hiểu này vẫn đúng cho các không gian tùy ý.
 2) Chúng ta cũng sẽ thấy rằng các độ đo được định nghĩa trong *Ví dụ* 2 là các độ đo dương trên T với giá đỡ compact (No. 6, *Nhận xét* 2)).
@@ -301,18 +301,18 @@ Nhiều kết quả trong các tiểu mục sau có thể được mở rộng c
 
 ### 4. Các tập hợp và hàm không đáng kể địa phương
 
-#### Định nghĩa 6 {#int-ix-s1-def-6 .statement}
+#### Định nghĩa 6 {#int-ix-s1-def-6 .statement tag=09N4}
 
 *Một hàm* $f \in \mathscr{F}_+$ *(hoặc một tập con* A *của* T) *được gọi là không đáng kể địa phương đối với độ đo* $\mu$ *nếu* $\mu^*(f) = 0$ *(hoặc* $\mu^*(A) = 0$). *Người ta nói rằng* $\mu$ *tập trung trên một tập con* A *của* T *nếu* T − A *là không đáng kể theo* $\mu$ *ở địa phương*.
 
-#### Nhận xét {#int-ix-s1-n4-rem-1 .statement}
+#### Nhận xét {#int-ix-s1-n4-rem-1 .statement tag=09N5}
 
 — 1) Các khái niệm như trên, khi T là địa phương compact, trùng với các khái niệm thông thường.
 2) Sau khi chúng ta đã định nghĩa các tập hợp *không đáng kể*, ta sẽ thấy rằng các tập hợp không đáng kể địa phương thật sự là những tập mà mầm của chúng, tại mọi điểm của T, là mầm của một tập không đáng kể (No. 9, Hệ quả 2 của Mệnh đề 14).
 3) Cũng như trong Chs. IV và V, cụm từ 'hầu khắp nơi địa phương' sẽ đồng nghĩa với 'trừ trên một tập không đáng kể địa phương'.
 4) Nếu $\theta$ là một độ đo phức, ta sẽ nói rằng một hàm (hoặc một tập con của T) là không đáng kể địa phương đối với $\theta$ nếu nó như vậy đối với độ đo dương $|\theta|$.
 
-#### Ví dụ {#int-ix-s1-n4-exa-1 .statement}
+#### Ví dụ {#int-ix-s1-n4-exa-1 .statement tag=09N6}
 
 — Cho L là một tập con compact của T, $\lambda$ là một độ đo trên L, và $\mu$ là độ đo trên T được xác định bởi $\lambda$ (No. 3, *Ví dụ* 2). Công thức (3) suy ra ngay rằng một hàm $f \in \mathscr{F}_+(T)$ là không đáng kể địa phương đối với $\mu$ nếu và chỉ nếu $f_L$ là không đáng kể đối với $\lambda$.
 
@@ -326,7 +326,7 @@ Suy ra ngay từ công thức (1) rằng một hàm $f \in \mathscr{F}_+(T)$ là
 
 ### 5. Các tập hợp và hàm đo được
 
-#### Định nghĩa 7 {#int-ix-s1-def-7 .statement}
+#### Định nghĩa 7 {#int-ix-s1-def-7 .statement tag=09N7}
 
 *Một hàm* $f$ *được xác định trên* $T$, *có giá trị trong một không gian tôpô* $F$ (*Hausdorff hay không*) *được gọi là đo được đối với độ đo* $\mu$ *(hoặc là* $\mu$*-đo được) nếu, với mọi tập con compact* $K$ *của* $T$, *hàm* $f_K$ *là* $\mu_K$*-đo được*.
 
@@ -336,13 +336,13 @@ Một tập con $A$ của $T$ được gọi là đo được nếu hàm đặc 
 
 Nếu $\theta$ là một độ đo phức trên $T$, thì một hàm $f$ (resp. một tập con của $T$) được gọi là $\theta$-đo được nếu nó đo được đối với độ đo dương $|\theta|$. Các kết quả dưới đây có thể được mở rộng cho các độ đo phức.
 
-#### Ví dụ {#int-ix-s1-n5-exa-1 .statement}
+#### Ví dụ {#int-ix-s1-n5-exa-1 .statement tag=09N8}
 
 — Cho $L$ là một tập con compact của $T$, $\lambda$ là một độ đo trên $L$, và $\mu$ là độ đo trên $T$ được xác định bởi $\lambda$ (No. 3, *Ví dụ 2*). Một hàm $f$ xác định trên $T$ là $\mu$-đo được khi và chỉ khi $f_L$ là $\lambda$-đo được. Vì điều kiện này là hiển nhiên cần. Ngược lại, nếu điều kiện ấy được thỏa mãn, thì tồn tại một phân hoạch của $L$ thành một tập $\lambda$-không đáng kể $N$ và một dãy $(L_n)$ các tập compact, sao cho $f_{L_n}$ liên tục với mọi $n$. Nếu $K$ là một tập con compact của $T$, thì tập $K - \bigcup^n (K \cap L_n)$ có giao với $L$ là $\lambda$-không đáng kể, do đó tập này là $\mu$-không đáng kể theo công thức (3) của No. 3, và hạn chế của $f$ trên $K \cap L_n$ là liên tục với mọi $n$.
 
 Định nghĩa 7 cho phép mở rộng, không cần một chứng minh mới, một số kết quả về các hàm đo được sang trường hợp các không gian không compact địa phương. Sau đây là một số kết quả trong đó, và ta sẽ dùng chúng về sau mà không viện dẫn thêm: các tập mở và các tập đóng của $T$ là $\mu$-đo được; các tập $\mu$-đo được lập thành một tribe (Ch. IV, §5, No. 4, Hệ quả 2 của ĐL. 2), chứa các tập Borel của T (loc. cit., Hệ quả 3), và các tập Souslin (Ch. IV, §5, No. 1, Hệ quả 2 của Mệnh đề 3)(1). Các phép đại số thông thường trên các hàm số bảo toàn tính đo được (Ch. IV, §5, No. 3), cũng như các phép lấy giới hạn đếm được (loc. cit., No. 4, ĐL. 2 và Hệ quả 1). Tính chất sau đây đáng được nêu rõ hơn:
 
-#### Mệnh đề 4 {#int-ix-s1-prop-4 .statement}
+#### Mệnh đề 4 {#int-ix-s1-prop-4 .statement tag=09N9}
 
 — Cho $f$ là một hàm dương và $(g_n)_{n \geq 1}$ là một dãy các hàm dương $\mu$-đo được trên T. Đặt $g = \sum_{n \geq 1} g_n$, ta có
 
@@ -364,7 +364,7 @@ $$
 
 Bây giờ, $fg$ là giới hạn của dãy tăng $(fh_n)_{n \geq 1}$, do đó $\mu^\bullet(fg) = \lim_{n \to \infty} \mu^\bullet(fh_n)$; công thức trên suy ra ngay (4).
 
-#### Hệ quả {#int-ix-s1-n5-cor-1 .statement}
+#### Hệ quả {#int-ix-s1-n5-cor-1 .statement tag=09NA}
 
 — Cho $(A_n)$ là một dãy các tập con đo được rời nhau từng đôi một, có hợp là A. Với mọi tập con B của T,
 
@@ -382,7 +382,7 @@ Trong số các tính chất của các hàm đo được hoặc các tập đo 
 
 ### 6. Các họ có hướng; giá của một độ đo
 
-#### Mệnh đề 5 {#int-ix-s1-prop-5 .statement}
+#### Mệnh đề 5 {#int-ix-s1-prop-5 .statement tag=09NB}
 
 **a)** *Cho H là một tập có hướng tăng các hàm $\geqslant 0$ nửa liên tục dưới trên mọi tập con compact của T. Khi đó*
 
@@ -418,7 +418,7 @@ $$
 
 Do đó vế trái của (6) $\geqslant$ vế phải; bất đẳng thức ngược lại là hiển nhiên, mệnh đề được chứng minh.
 
-#### Hệ quả {#int-ix-s1-n6-cor-1 .statement}
+#### Hệ quả {#int-ix-s1-n6-cor-1 .statement tag=09NC}
 
 — a) Cho $(U_\alpha)_{\alpha \in I}$ là một họ có hướng tăng các tập con mở của $T$, với hợp $U$. Khi đó $\mu^\bullet(U) = \sup_{\alpha \in I} \mu^\bullet(U_\alpha)$.
 
@@ -426,17 +426,17 @@ b) Cho $(F_\alpha)_{\alpha \in I}$ là một họ có hướng giảm các tập
 
 Theo hệ quả trên, tồn tại một tập mở không đáng kể địa phương lớn nhất; điều này biện minh cho định nghĩa sau:
 
-#### Định nghĩa 8 {#int-ix-s1-def-8 .statement}
+#### Định nghĩa 8 {#int-ix-s1-def-8 .statement tag=09ND}
 
 — *Giá của một số đo $\mu$ trên $T$ được định nghĩa là phần bù của tập mở lớn nhất không đáng kể địa phương theo $\mu$ trong $T$*.
 
 Giá của $\mu$ được ký hiệu $\operatorname{Supp}(\mu)$.
 
-#### Nhận xét 1 {#int-ix-s1-n6-rem-1 .statement}
+#### Nhận xét 1 {#int-ix-s1-n6-rem-1 .statement tag=09NE}
 
 Nếu $\mu$ là một số đo phức, giá của $\mu$ được định nghĩa là giá của số đo dương $|\mu|$; nó lại là phần bù của tập mở lớn nhất không đáng kể địa phương theo $\mu$.
 
-#### Nhận xét 2 {#int-ix-s1-n6-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s1-n6-rem-2 .statement tag=09NF}
 
 Hãy chứng minh rằng các số đo được đưa vào trong *Ví dụ 2* của No. 3 là các số đo có giá compact trong $T$. Cho $\mu$ là một số đo dương trên $T$ có giá là một tập compact $K$, và cho $\nu$ là số đo được xác định bởi $\mu_K$ (theo nghĩa của No. 3). Cho $f \in \mathscr{F}_+(T)$; khi đó
 
@@ -454,7 +454,7 @@ do đó $\mu^\bullet = \nu^\bullet$, và cuối cùng $\mu = \nu$. Ngược lạ
 
 ### 7. Bao trên và tổng của các số đo
 
-#### Mệnh đề 6 {#int-ix-s1-prop-6 .statement}
+#### Mệnh đề 6 {#int-ix-s1-prop-6 .statement tag=09NG}
 
 — *Cho $(\lambda_\alpha)_{\alpha \in A}$ là một họ tăng có hướng các độ đo trên $T$, và đặt $p = \sup_\alpha \lambda_\alpha^\bullet$. Để họ $(\lambda_\alpha)$ bị chặn trên trong $\mathscr{M}(T)$, điều kiện cần và đủ là bao $p$ địa phương bị chặn. Khi đó họ $(\lambda_\alpha)$ có một cận trên đúng $\lambda$ trong $\mathscr{M}(T)$, và $\lambda^\bullet = p$. Với mọi tập compact $K$, độ đo $\lambda_K$ là cận trên đúng của các độ đo $(\lambda_\alpha)_K$ trong $\mathscr{M}(K)$*.
 
@@ -466,13 +466,13 @@ $$
 
 Mặt khác, cho K là một tập compact; bao $p_K$ bằng với bao trên của các bao $(\lambda_\alpha^\bullet)_K$ và nó bị chặn vì $p$ địa phương bị chặn. Do đó các độ đo $(\lambda_\alpha)_K$ có một cận trên đúng $\lambda_K$ trong $\mathscr{M}(K)$, và $\lambda_K^\bullet = p_K$ (Ch. V, §1, No. 4, Mệnh đề 11). Vì vậy điều kiện 1) của Mệnh đề 2 b) của No. 2 được thỏa mãn, do đó tồn tại một độ đo $\lambda$ trên T sao cho $\lambda^\bullet = p$; rõ ràng $\lambda$ là cận trên đúng của các độ đo $\lambda_\alpha$.
 
-#### Định nghĩa 9 {#int-ix-s1-def-9 .statement}
+#### Định nghĩa 9 {#int-ix-s1-def-9 .statement tag=09NH}
 
 *Cho $(\mu_i)_{i \in I}$ là một họ các độ đo trên T. Cho A là tập các tập con hữu hạn của I; với mọi $\alpha \in A$ đặt $\lambda_\alpha = \sum_{i \in \alpha} \mu_i$. Nếu họ $(\lambda_\alpha)$ có một cận trên đúng $\mu$ trong $\mathscr{M}(T)$, thì họ $(\mu_i)$ được gọi là cộng được, $\mu$ được gọi là tổng của họ $(\mu_i)$, và ta viết $\mu = \sum_{i \in I} \mu_i$.*
 
 Định nghĩa này mở rộng định nghĩa ở Ch. V, §2, No. 1.
 
-#### Mệnh đề 7 {#int-ix-s1-prop-7 .statement}
+#### Mệnh đề 7 {#int-ix-s1-prop-7 .statement tag=09NI}
 
 *Để họ $(\mu_i)_{i \in I}$ cộng được, với tổng $\mu$, điều kiện cần và đủ là bao $p = \sum_{i \in I} \mu_i^\bullet$ địa phương bị chặn, trong trường hợp đó $p = \mu^\bullet$. Với mọi tập con compact K của T, họ $((\mu_i)_K)_{i \in I}$ khi đó cộng được trong $\mathscr{M}(K)$, và $\mu_K = \sum_{i \in I} (\mu_i)_K$.*
 
@@ -480,17 +480,17 @@ Với các ký hiệu như ở ĐN. 9, $\lambda_\alpha^\bullet = \sum_{i \in \al
 
 Quan hệ $\mu_K = \sum_{i \in I} (\mu_i)_K$ và Mệnh đề 2 của Ch. V, §2, No. 2 suy ra kết quả sau:
 
-#### Mệnh đề 8 {#int-ix-s1-prop-8 .statement}
+#### Mệnh đề 8 {#int-ix-s1-prop-8 .statement tag=09NJ}
 
 *Cho $\mu$ là tổng của một họ cộng được $(\mu_i)_{i \in I}$ các độ đo trên T. Để một ánh xạ f từ T vào một không gian tôpô F (Hausdorff hay không) là $\mu$-đo được, điều kiện cần và đủ là f là $\mu_i$-đo được với mọi $i \in I$.*
 
 ### 8. Các phép nghiền
 
-#### Định nghĩa 10 {#int-ix-s1-def-10 .statement}
+#### Định nghĩa 10 {#int-ix-s1-def-10 .statement tag=09NK}
 
 *Người ta gọi một phép nghiền của T đối với $\mu$, hay một $\mu$-phép nghiền, bất kỳ họ đếm được địa phương $(K_\alpha)_{\alpha \in A}$ gồm các tập con compact rời nhau từng đôi một của T sao cho tập $N = T - \bigcup_{\alpha \in A} K_\alpha$ là địa phương $\mu$-không đáng kể.*
 
-#### Mệnh đề 9 {#int-ix-s1-prop-9 .statement}
+#### Mệnh đề 9 {#int-ix-s1-prop-9 .statement tag=09NL}
 
 *a) Tồn tại một phân hoạch $(K_\alpha)_{\alpha \in A}$ của T đối với $\mu$.
 b) Cho $(K_\alpha)_{\alpha \in A}$ là một phân hoạch của T đối với $\mu$. Nếu $\mu_\alpha$ là độ đo trên T được xác định bởi $\mu_{K_\alpha}$ (No. 3, Ví dụ 2), thì họ $(\mu_\alpha)_{\alpha \in A}$ là có thể cộng được,* tổng của nó bằng $\mu$, và, với mọi hàm $f \in \mathscr{F}_+(T)$,
@@ -535,13 +535,13 @@ C) Tính khả đo:
 
 Như trong Mệnh đề 14 của Ch. IV, §5, No. 9, ta có thể yêu cầu các tập compact $K_\alpha$ thuộc về một tập hợp trù mật theo $\mu$ của các tập con compact của T, đã cho trước. Ta chỉ cần kết quả sau đây, và sẽ chứng minh trực tiếp:
 
-#### Mệnh đề 10 {#int-ix-s1-prop-10 .statement}
+#### Mệnh đề 10 {#int-ix-s1-prop-10 .statement tag=09NM}
 
 — *Nếu g là một ánh xạ $\mu$-đo được nhận giá trị trong một không gian tôpô G (Hausdorff hay không), thì tồn tại một $\mu$-phân hoạch $(L_\beta)_{\beta \in B}$ của T sao cho các hạn chế $g_{L_\beta}$ đều liên tục với mọi $\beta \in B$.*
 
 Xét một $\mu$-phân hoạch $(K_\alpha)_{\alpha \in A}$ của T. Vì ánh xạ $g$ là đo được, với mỗi $\alpha \in A$ tồn tại một phân hoạch của $K_\alpha$ thành một dãy $(K_{\alpha n})$ các tập compact và một tập không đáng kể địa phương $N_\alpha$, sao cho hạn chế của $g$ lên từng tập $K_{\alpha n}$ là liên tục. Khi đó họ $(K_{\alpha n})_{(\alpha, n) \in A \times \mathbf{N}}$ là phân hoạch cần tìm. Thật vậy, nó là địa phương đếm được, và tập $N' = N \cup (\bigcup_\alpha N_\alpha)$ là không đáng kể địa phương, vì một tập compact cắt nhiều nhất một vô hạn đếm được các tập $N_\alpha$.
 
-#### Chú giải {#int-ix-s1-n8-sch-1 .statement}
+#### Chú giải {#int-ix-s1-n8-sch-1 .statement tag=09NN}
 
 — Cho $(K_\alpha)_{\alpha \in A}$ là một phân hoạch của T, và đặt $N = T - \bigcup_\alpha K_\alpha$. Ký hiệu $T'$ là không gian địa phương compact thu được bằng cách trang bị cho $T'$ tôpô tổng của các tôpô của các không gian con $K_\alpha$ và bất kỳ tôpô địa phương compact nào trên $N$ (trừ khi được nói rõ ngược lại, $N$ sẽ luôn được trang bị tôpô rời rạc). Với mỗi $\alpha \in A$, đặt $i_\alpha$ là đơn ánh chính tắc của $K_\alpha$ vào $T'$, và đặt $\mu'_\alpha$ là đo trên $T'$ là ảnh của $\mu_{K_\alpha}$ qua $i_\alpha$. Họ $(\mu'_\alpha)$ là khả tổng: vì, nếu $f$ là một hàm liên tục trên $T'$ có giá compact, thì $\operatorname{Supp}(f)$ chỉ cắt $K_\alpha$ đối với một số hữu hạn chỉ số $\alpha$. Đặt $\mu' = \sum_{\alpha \in A} \mu'_\alpha$. Tập $N$ là không đáng kể địa phương đối với $\mu'$, vì nó như thế đối với từng $\mu'_\alpha$ (Mệnh đề 9), nên họ $(K_\alpha)_{\alpha \in A}$ là một $\mu'$-phân hoạch của $T'$; nay, đo cảm sinh bởi $\mu'$ trên $K_\alpha$ hiển nhiên là $\mu_{K_\alpha}$ và công thức (7), áp dụng cho $\mu$ và cho $\mu'$, cho thấy rằng $\mu^\bullet = {\mu'}^\bullet$. Tương tự, khẳng định cuối cùng của mệnh đề của Mệnh đề 9, áp dụng cho $\mu$ và cho $\mu'$, cho thấy rằng *các ánh xạ đo được là như nhau đối với hai đo $\mu$ và $\mu'$*.
 
@@ -549,7 +549,7 @@ Hai tính chất này cho phép quy hầu như toàn bộ lý thuyết tích ph�
 
 Sau đây là một ứng dụng khác của khái niệm phân hoạch:
 
-#### Mệnh đề 11 {#int-ix-s1-prop-11 .statement}
+#### Mệnh đề 11 {#int-ix-s1-prop-11 .statement tag=09NO}
 
 *Cho $X$ là một tập con $\mu$-đo được của $T$. Tồn tại một họ địa phương đếm được $(L_\alpha)_{\alpha \in A}$ gồm các tập con compact của $X$, từng đôi một rời nhau, sao cho $X - \bigcup_{\alpha \in A} L_\alpha$ là địa phương $\mu$-không đáng kể. Nếu, ngoài ra, $X$ là hợp của một dãy $(X_n)$ các tập hợp đo được sao cho $\mu^\bullet(X_n) < +\infty$, thì tập $B$ các $\alpha \in A$ sao cho $\mu^\bullet(L_\alpha) \neq 0$ là đếm được, và $X - \bigcup_{\beta \in B} L_\beta$ là địa phương $\mu$-không đáng kể.*
 
@@ -557,7 +557,7 @@ Cho $f$ là hàm đặc trưng của $X$, và cho $(K_\alpha)_{\alpha \in A}$ l�
 
 ### 9. Tích phân trên
 
-#### Định nghĩa 11 {#int-ix-s1-def-11 .statement}
+#### Định nghĩa 11 {#int-ix-s1-def-11 .statement tag=09NP}
 
 *Với mọi hàm $f \in \mathscr{F}_+(T)$, người ta định nghĩa tích phân trên của $f$ (đối với độ đo $\mu$) là số dương hữu hạn hoặc vô hạn*
 
@@ -571,39 +571,39 @@ Các ký hiệu $\int^* f(t) d\mu(t)$ và $\int^* f d\mu$ cũng được dùng. 
 
 Một hàm $f$ có giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$ sao cho $\mu^*(|f|) = 0$ được gọi là *không đáng kể*; một tập $A \subset T$ được gọi là không đáng kể nếu $\varphi_A$ là không đáng kể, tức là nếu $\mu^*(A) = 0$. Cụm từ *hầu khắp nơi* được đưa vào như ở Ch. IV, §2, No. 3.
 
-#### Mệnh đề 12 {#int-ix-s1-prop-12 .statement}
+#### Mệnh đề 12 {#int-ix-s1-prop-12 .statement tag=09NQ}
 
 *Hàm $\mu^*$ là một gánh nặng trên $T$.*
 
 Các tính chất $a), b), c)$ của Định nghĩa 1 của No. 1 là hiển nhiên. Chứng minh của tính chất d) giống hệt chứng minh của Định lý 3 của Ch. IV, §1, No. 3, khi xét đến các Mệnh đề 4 và 5 *a)*.
 
-#### Hệ quả {#int-ix-s1-n9-cor-1 .statement}
+#### Hệ quả {#int-ix-s1-n9-cor-1 .statement tag=09NR}
 
 *Một hàm $f$, với giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$, là không đáng kể khi và chỉ khi $f(t) = 0$ hầu khắp nơi.*
 
 Ta ngay lập tức quy về trường hợp của một hàm dương. Chứng minh khi đó giống hệt chứng minh của Định lý 1 của Ch. IV, §2, No. 3.
 
-#### Mệnh đề 13 {#int-ix-s1-prop-13 .statement}
+#### Mệnh đề 13 {#int-ix-s1-prop-13 .statement tag=09NS}
 
 *Với mọi tập con $A$ của $T$, $\mu^*(A)$ là cận dưới đúng của các độ đo ngoài của các tập mở chứa $A$.*
 
 Chứng minh giống hệt chứng minh của Mệnh đề 19 của Ch. IV, §1, No. 4.
 
-#### Định nghĩa 12 {#int-ix-s1-def-12 .statement}
+#### Định nghĩa 12 {#int-ix-s1-def-12 .statement tag=09NT}
 
 *Cho $f$ là một hàm được định nghĩa trên $T$, với giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$. Người ta nói rằng $f$ là điều độ đối với độ đo $\mu$, hay $\mu$-điều độ, nếu $f$ bằng không trên phần bù của một hợp đếm được các tập mở khả tích. Một tập con $A$ của $T$ được gọi là điều độ nếu hàm $\varphi_A$ là điều độ. Độ đo $\mu$ được gọi là điều độ nếu hàm $1$ là $\mu$-điều độ.*
 
 Chẳng hạn, vì bao trùm $\mu^\bullet$ bị chặn địa phương, mọi tập con compact $K$ của $T$ đều được chứa trong một tập mở $V$ sao cho $\mu^\bullet(V) < +\infty$; do đó một hàm bằng không ở ngoài một tập compact là điều độ. Một hàm không đáng kể là điều độ. Các nhận xét theo sau Định nghĩa 2 của Ch. V, §1, No. 2 có thể ngay lập tức được mở rộng sang bối cảnh hiện tại. Đặc biệt, tổng của một dãy các hàm dương điều độ là điều độ.
 
-#### Nhận xét 1 {#int-ix-s1-n9-rem-1 .statement}
+#### Nhận xét 1 {#int-ix-s1-n9-rem-1 .statement tag=09NU}
 
 Trên một không gian Lindelöf $T$ (TG, IX, Phụ lục I, Định nghĩa 1),¹ và đặc biệt trên một không gian Souslin (ở đó, hệ quả của Mệnh đề 1), mọi độ đo đều điều độ. Thật vậy, các tập mở có độ đo hữu hạn tạo thành một phủ của $T$, từ đó có thể trích ra một phủ đếm được của $T$.
 
-#### Nhận xét 2 {#int-ix-s1-n9-rem-2 .statement}
+#### Nhận xét 2 {#int-ix-s1-n9-rem-2 .statement tag=09NV}
 
 Tuy nhiên, hãy lưu ý rằng sự tồn tại của một dãy các tập Borel có độ đo hữu hạn đối với $\mu$, có hợp là $T$, không nhất thiết suy ra sự tồn tại của một dãy các tập mở có độ đo hữu hạn có hợp là $T$ (nói cách khác, không suy ra rằng $\mu$ là điều độ). Xem Bài tập 8.
 
-#### Mệnh đề 14 {#int-ix-s1-prop-14 .statement}
+#### Mệnh đề 14 {#int-ix-s1-prop-14 .statement tag=09NW}
 
 Cho $f \in \mathscr{F}_+(T)$. Nếu $f$ là $\mu$-điều độ, thì $\mu^*(f) = \mu^\bullet(f)$; nếu $f$ không $\mu$-điều độ, thì $\mu^*(f) = +\infty$.
 
@@ -631,29 +631,29 @@ $$
 \mu_i^*(g) \leq \mu_i^*(k) = \lambda^*(k_L) \leq \lambda^*(f_L) + c = \mu_i^*(f) + c.
 $$
 
-#### Hệ quả 1 {#int-ix-s1-prop-14-cor-1 .statement}
+#### Hệ quả 1 {#int-ix-s1-prop-14-cor-1 .statement tag=09NX}
 
 *Để một hàm không đáng kể, cần và đủ là nó địa phương không đáng kể và điều tiết.*
 
-#### Hệ quả 2 {#int-ix-s1-prop-14-cor-2 .statement}
+#### Hệ quả 2 {#int-ix-s1-prop-14-cor-2 .statement tag=09NY}
 
 *Để một hàm $f$ địa phương không đáng kể, cần và đủ là mọi $x \in T$ đều có một lân cận V sao cho $f \varphi_V$ không đáng kể.*
 
 Thật vậy, nếu tính chất này được thỏa mãn, thì $f \varphi_K$ không đáng kể đối với mọi tập compact K, và do đó $f$ là địa phương không đáng kể (No. 2, Mệnh đề 2). Ngược lại, giả sử $f$ là địa phương không đáng kể, và cho $x$ là một điểm của T; $x$ có một lân cận mở V có số đo hữu hạn. Khi ấy hàm $f \varphi_V$ là địa phương không đáng kể và điều tiết, nên không đáng kể.
 
-#### Hệ quả 3 {#int-ix-s1-prop-14-cor-3 .statement}
+#### Hệ quả 3 {#int-ix-s1-prop-14-cor-3 .statement tag=09NZ}
 
 *Cho $f$ là một hàm điều tiết xác định trên T. Tồn tại một dãy $(K_n)$ các tập compact từng đôi một rời nhau, và một tập H không đáng kể, sao cho $f = f \varphi_H + \sum_n f \varphi_{K_n}$.*
 
 Thật vậy, cho G là một tập là hợp đếm được của các tập mở khả tích, sao cho $f$ bằng không ngoài G; khi đó G là hợp của một dãy $(K_n)$ các tập compact từng đôi một rời nhau và một tập H địa phương không đáng kể (No. 8, Mệnh đề 11); nhưng H là điều tiết, do đó không đáng kể.
 
-#### Hệ quả 4 {#int-ix-s1-prop-14-cor-4 .statement}
+#### Hệ quả 4 {#int-ix-s1-prop-14-cor-4 .statement tag=09O0}
 
 *Nếu $\mu$ và $\nu$ là hai độ đo trên T sao cho $\mu^* = \nu^*$, thì $\mu = \nu$.*
 
 Vì, đẳng thức $\mu^* = \nu^*$ suy ra rằng $\mu^*(f) = \nu^*(f)$ đối với mọi hàm dương $f$ được điều hòa đối với $\mu$ và $\nu$, do đó đối với mọi hàm dương có giá đỡ compact; suy ra $\mu^* = \nu^*$ (No. 2, Mệnh đề 2), rồi $\mu = \nu$ (No. 2, Hệ quả của Mệnh đề 2).
 
-#### Hệ quả 5 {#int-ix-s1-prop-14-cor-5 .statement}
+#### Hệ quả 5 {#int-ix-s1-prop-14-cor-5 .statement tag=09O1}
 
 *Nếu $\mu$ là một độ đo được điều hòa trên T, thì tồn tại một dãy $(\mu_n)_{n \in \mathbf{N}}$ các độ đo có giá đỡ compact sao cho $\mu = \sum_{n \in \mathbf{N}} \mu_n$.*
 
@@ -667,7 +667,7 @@ Suy ra $\mu = \sum_{n \in \mathbf{N}} \mu_n$ (No. 7, Mệnh đề 7).
 
 ### 10. Lý thuyết tích phân
 
-#### Định nghĩa 13 {#int-ix-s1-def-13 .statement}
+#### Định nghĩa 13 {#int-ix-s1-def-13 .statement tag=09O2}
 
 — *Cho* $p \in [1, +\infty[$; *người ta ký hiệu bởi* $\overline{\mathscr{L}}^p(T, \mu)$ *(tương ứng* $\overline{\mathscr{L}}_F^p(T, \mu)$ *nếu F là một không gian Banach) tập hợp các ánh xạ* $\mathbf{f}$ *từ T vào* $\overline{\mathbf{R}}$ *(tương ứng vào F) sao cho chúng đo được theo $\mu$ và thỏa mãn* $\mu^\bullet(|\mathbf{f}|^p) < +\infty$. *Người ta ký hiệu bởi* $\mathscr{L}^p(T, \mu)$ *(tương ứng* $\mathscr{L}_F^p(T, \mu)$*) tập hợp các phần tử được điều hòa theo $\mu$ của* $\overline{\mathscr{L}}^p(T, \mu)$ *(tương ứng* $\overline{\mathscr{L}}_F^p(T, \mu)$*).*
 
@@ -695,7 +695,7 @@ f = \sum_{\alpha \in A} f_\alpha + g,
 $$
 trong đó $f_\alpha$ là, với mọi $\alpha$, phần mở rộng bởi 0 của một hàm liên tục trên $K_\alpha$, trong đó $f_\alpha = 0$ trừ một số hữu hạn chỉ số, và trong đó g là địa phương $\mu$-không đáng kể. Do đó ta có kết quả sau:
 
-#### Mệnh đề 15 {#int-ix-s1-prop-15 .statement}
+#### Mệnh đề 15 {#int-ix-s1-prop-15 .statement tag=09O3}
 
 *Tập các hàm f nhận giá trị trong F, sao cho Supp(f) là compact và sao cho hạn chế của f lên Supp(f) là liên tục, trù mật trong $\overline{\mathscr{L}}_F^p(\mu)$ và trong $\mathscr{L}_F^p(\mu)$, với $1 \leq p < +\infty$.*
 
@@ -703,7 +703,7 @@ Chú ý rằng các hàm này *không phải là* các hàm liên tục *trên* 
 
 Ta chuyển sang định nghĩa của nguyên.
 
-#### Mệnh đề 16 {#int-ix-s1-prop-16 .statement}
+#### Mệnh đề 16 {#int-ix-s1-prop-16 .statement tag=09O4}
 
 *Tồn tại duy nhất một ánh xạ tuyến tính liên tục $f \mapsto \int f d\mu$, từ không gian $\overline{\mathscr{L}}_F^1(\mu)$ vào F, có tính chất sau:
 Nếu f có dạng $t \mapsto g(t)a$, với $a \in F$, và g là một hàm dương, hữu hạn, $\mu$-đo được và thỏa mãn $\mu^*(g) < +\infty$, thì $\int f d\mu = \mu^*(g) \cdot a$.*

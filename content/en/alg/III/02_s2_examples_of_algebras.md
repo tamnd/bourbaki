@@ -58,7 +58,7 @@ subsections:
       pdf_page: 479
 statements: 17
 exercises: 25
-content_sha256: 5a84acf9f107bad7d60ffaca486e8438e91a0e75355de3f0446a4594085e9abd
+content_sha256: 523c00d5d47e83c328fe974b4b99f51c3c18998f5e378badbbbbd303ed1feec8
 ---
 
 ## § 2. EXAMPLES OF ALGEBRAS
@@ -101,7 +101,7 @@ It can be shown that every unital A-algebra which admits a basis of two elements
 
 If a basis $(e_1, e_2)$ of an A-algebra has multiplication table (2), it is called a basis of type $(\alpha, \beta)$. By an abuse of language, a quadratic algebra is said to be of type $(\alpha, \beta)$ when it has a basis of type $(\alpha, \beta)$.
 
-#### Proposition 1 {#alg-iii-s2-prop-1 .statement}
+#### Proposition 1 {#alg-iii-s2-prop-1 .statement tag=05YX}
 
 *A quadratic algebra E is associative and commutative.*
 
@@ -121,7 +121,7 @@ $$
 
 for all invertible $\delta \in A$ and all $\gamma \in A$. In particular, if $E$ is of type $(\alpha, 2\beta')$, $i$ is also of type $(\alpha + {\beta'}^2, 0)$ as is seen by taking $\gamma = -\beta'$ and $\delta = 1$.
 
-#### Proposition 2 {#alg-iii-s2-prop-2 .statement}
+#### Proposition 2 {#alg-iii-s2-prop-2 .statement tag=05YY}
 
 *Let $E$ be a quadratic $A$-algebra and $e$ its unit element. For all $u \in E$, let $T(u)$ be the trace of the endomorphism $m_u : x \mapsto ux$ of the free $A$-module $E$ (II, § 4, no. 3). Then the mapping $s$ defined by $s(u) = T(u).e - u$ is an automorphism of the algebra $E$ and $s^2(u) = u$ for all $u \in E$.*
 
@@ -173,7 +173,7 @@ $$
 
 The following proposition gives the structure of quadratic algebras over a commutative field:
 
-#### Proposition 3 {#alg-iii-s2-prop-3 .statement}
+#### Proposition 3 {#alg-iii-s2-prop-3 .statement tag=05YZ}
 
 *Let E be a quadratic A-algebra of type* $(\alpha, \beta)$.
 
@@ -201,7 +201,7 @@ A quadratic A-algebra of type $(0, 0)$ is also called an *algebra of dual number
 
 ### 4. CAYLEY ALGEBRAS
 
-#### Definition 1 {#alg-iii-s2-def-1 .statement}
+#### Definition 1 {#alg-iii-s2-def-1 .statement tag=05Z0}
 
 *A Cayley algebra over* A *is an ordered pair* (E, s), *where* E *is an algebra over* A *with a unit element* e *and* s *is an antiautomorphism of* E *such that*
 
@@ -244,7 +244,7 @@ $$
 
 for all $u \in E$.
 
-#### Proposition 4 {#alg-iii-s2-prop-4 .statement}
+#### Proposition 4 {#alg-iii-s2-prop-4 .statement tag=05Z1}
 
 *Let E be an A-algebra and s and s' antiautomorphisms of E such that (E, s) and (E, s') are Cayley algebras. If E admits a basis containing the unit element e, then s' = s.*
 
@@ -339,7 +339,7 @@ $$
 t((x, y)) = (\bar{x}, -y) \quad (x \in E, y \in E).
 $$
 
-#### Proposition 5 {#alg-iii-s2-prop-5 .statement}
+#### Proposition 5 {#alg-iii-s2-prop-5 .statement tag=05Z2}
 
 (i) *The ordered pair $(F, t)$ is a Cayley algebra over $A$*.
 
@@ -396,7 +396,7 @@ $$
 
 The Cayley algebra $(\mathbf{F}, t)$ is called the *Cayley extension of* $(\mathbf{E}, s)$ *defined by* $\gamma$.
 
-#### Example {#alg-iii-s2-n5-exa-1 .statement}
+#### Example {#alg-iii-s2-n5-exa-1 .statement tag=05Z3}
 
 (1) If we take $\mathbf{E} = \mathbf{A}$ (and hence $s = 1_A$), the algebra $\mathbf{F}$ is a *quadratic A-algebra* with basis $(e, j)$ where $j^2 = \gamma e$.
 
@@ -488,7 +488,7 @@ When A \neq \{0\}, S is sometimes identified with its image under the injection 
 
 Let B be another commutative ring and $\rho : A \to B$ a ring homomorphism; consider the algebras E = A^{(S)} and E' = B^{(S)} of the same magma S over A and B and let $(e_s)_{s \in S}$ and $(e'_s)_{s \in S}$ be their respective canonical bases. The algebra B^{(S)} is canonically identified, under the A-linear mapping j such that $j(e_s \otimes 1) = e'_s$ for all $s \in S$, with the algebra A^{(S)} \otimes_A B obtained from A^{(S)} by extending the ring of scalars to B (II, § 1, no. 11, Corollary 3 to Proposition 17).
 
-#### Proposition 6 {#alg-iii-s2-prop-6 .statement}
+#### Proposition 6 {#alg-iii-s2-prop-6 .statement tag=05Z4}
 
 *Let S be a magma, F an A-algebra and f a homomorphism of*
 
@@ -508,7 +508,7 @@ Let $\bar{f}: A^{(S)} \to F$ be the unique A-module homomorphism such that $\bar
 
 Proposition 6 expresses the fact that the ordered pair consisting of $A^{(S)}$ and the canonical mapping $s \mapsto e_s$ is a solution of the universal mapping problem (Set Theory, IV, § 3, no. 1) where $\Sigma$ is the species of A-algebra structure and the $\alpha$-mappings the homomorphisms of S into an A-algebra with only its multiplicative law.
 
-#### Corollary {#alg-iii-s2-n6-cor-1 .statement}
+#### Corollary {#alg-iii-s2-n6-cor-1 .statement tag=05Z5}
 
 Let S, S' be two magmas and $g: S \to S'$ a homomorphism. Then there exists one and only one A-algebra homomorphism $u: A^{(S)} \to A^{(S')}$ rendering commutative the diagram
 
@@ -526,7 +526,7 @@ It suffices to apply Proposition 6 taking $f$ to be the composite mapping $S \xr
 
 In particular, if T is a stable subset of the magma S (I, § 1, no. 4), the set of elements $\sum_{s \in T} \alpha_s e_s$ of $A^{(S)}$ is a subalgebra of $A^{(S)}$ canonically isomorphic to the algebra $A^{(T)}$ and sometimes identified with the latter.
 
-#### Example {#alg-iii-s2-n6-exa-1 .statement}
+#### Example {#alg-iii-s2-n6-exa-1 .statement tag=05Z6}
 
 Let V be an A-module and S a monoid which operates on V on the left; this means (I, § 5, no. 1) that there is given a mapping $(s, x) \mapsto s.x$ of S into V such that $s.(x + y) = s.x + s.y, s.(\alpha x) = \alpha(s.x)$ and $s.(t.x) = (st).x$ for $s, t$ in S, $x, y$ in V and $\alpha \in A$ and, denoting by e the identity element of S, e.x = x for x ∈ V. Writing f(s)(x) = s.x, f is a homomorphism of S into the algebra End_A(V) (with only its multiplicative law), mapping the identity element e to the unit element l_V. Applying Proposition 6, an A-algebra homomorphism $\bar{f}: A^{(S)} \to \mathrm{End}_A(V)$ is obtained, which gives the underlying group of V a left module structure over $A^{(S)}$.
 
@@ -542,7 +542,7 @@ Then applying the method described above, a left $\mathbf{Z}^{(Mo(\Omega))}$-mod
 
 ### 7. FREE ALGEBRAS
 
-#### Definition 2 {#alg-iii-s2-def-2 .statement}
+#### Definition 2 {#alg-iii-s2-def-2 .statement tag=05Z7}
 
 *Let I be a set; let M(I) (resp. Mo(I), resp. $\mathbf{N}^{(I)}$) denote the free magma (resp. free monoid, resp. free commutative monoid) derived from I. The algebra of M(I) (resp. Mo(I), resp. $\mathbf{N}^{(I)}$) over A is called the free algebra (resp. free associative algebra, resp. free commutative associative algebra (or, by an abuse of language, free commutative algebra)) of the set I over the ring A.*
 
@@ -550,13 +550,13 @@ We shall denote the free algebra (resp. free associative algebra, resp. free com
 
 As Mo(I) and $\mathbf{N}^{(I)}$ each have an identity element, Libas_A(I) and Libasc_A(I) are unital associative algebras and further Libasc_A(I) is commutative. If e is the unit element of Libas_A(I) (resp. Libasc_A(I)), the mapping $\alpha \mapsto \alpha e$ is an isomorphism of A onto a subring of the centre of Libas_A(I) (resp. Libasc_A(I)), which is identified with A (no. 1).
 
-#### Proposition 7 {#alg-iii-s2-prop-7 .statement}
+#### Proposition 7 {#alg-iii-s2-prop-7 .statement tag=05Z8}
 
 *Let I be a set and F an algebra (resp. unital associative algebra, resp. unital commutative associative algebra) over A. For every mapping $f : I \to F$, there exists one and only one homomorphism (resp. unital homomorphism) $\bar{f}$ of Lib_A(I) (resp. Libas_A(I), resp. Libasc_A(I)) into F such that $\bar{f}(X_i) = f(i)$ for all $i \in I$.*
 
 Let $F_m$ be the magma (resp. monoid) obtained by giving the set F its multiplicative law of composition. There is one and only one homomorphism (resp. unital homomorphism) $g$ of M(I) (resp. Mo(I), resp. $\mathbf{N}^{(I)}$) into $F_m$ such that $g(i) = f(i)$ for all $i \in I$ (I, § 7, nos. 1, 2 and 7); Proposition 7 then follows from no. 6, Proposition 6.
 
-#### Remark {#alg-iii-s2-n7-rem-1 .statement}
+#### Remark {#alg-iii-s2-n7-rem-1 .statement tag=05Z9}
 
 (1) We shall later define an isomorphism of Libas_A(I) onto the tensor algebra of the free module $A^{(I)}$ (§ 5, no. 5) and also an isomorphism of Libasc_A(I) onto the symmetric algebra of $A^{(I)}$ (§ 6, no. 6).
 
@@ -595,7 +595,7 @@ These remarks justify the following abuse of language: instead of saying "*$((x_
 
 Let H be a set; we shall say that an element S of $\mathrm{Lib}_A(H)$ is a *universal* relator for an A-algebra F is $S((x_h)_{h \in H}) = 0$ for *every* family $(x_h)_{h \in H}$ of elements of F with H as indexing set.
 
-#### Example {#alg-iii-s2-n8-exa-1 .statement}
+#### Example {#alg-iii-s2-n8-exa-1 .statement tag=05ZA}
 
 (1) Take $H = \{1, 2, 3\}$; the algebras which admit
 $$
@@ -613,7 +613,7 @@ Let I be a set; let a family $(S_k)_{k \in K}$ of elements of Lib_A(H) be given 
 
 Considerations analogous to the above can be applied to associative algebras (resp. commutative associative algebras), taking account of the following remarks. When the context gives sufficient indication that the algebras considered are unital algebras, by an abuse of language, a family of elements $(x_i)_{i \in I}$ of an algebra $F$, such that the subalgebra generated by the $x_i$ ($i \in I$) and the unit element is equal to $F$, is often called a generating system of $F$. Then let $F$ be a unital associative algebra over $A$ and let $(x_i)_{i \in I}$ be a family of elements of $F$; by virtue of no. 7, Proposition 7, there exists a unique unital homomorphism $f : \mathrm{Libas}_A(I) \to F$ such that $f(X_i) = x_i$ for all $i \in I$; if $U \in \mathrm{Libas}_A(I)$, $f(U)$ is also called the element of $F$ derived from $U$ by substituting the elements $x_i$ for the indeterminates $X_i$ and it is also denoted by $U((x_i)_{i \in I})$. Then the notions of relator, presentation and universal relator go over immediately to associative algebras; it suffices simply to replace $\mathrm{Lib}_A(I)$ throughout by $\mathrm{Libas}_A(I)$. *The universal unital associative algebra defined by the generating system I related by the family of relators* $(R_j)_{j \in J}$ is the quotient algebra of $\mathrm{Libas}_A(I)$ by the two-sided ideal generated by the family $(R_j)$. The universal unital associative algebra generated by the generating system $I$, corresponding to a family of universal relators is defined similarly. We leave to the reader the task of stating the analogous definitions relative to commutative associative algebras with $\mathrm{Libasc}_A(I)$ substituted for $\mathrm{Libas}_A(I)$.
 
-#### Example 3 {#alg-iii-s2-n8-exa-3 .statement}
+#### Example 3 {#alg-iii-s2-n8-exa-3 .statement tag=05ZB}
 
 Let $L'$ be the universal unital associative algebra generated by $I$ and subject to the identities $uv - vu = 0$ for every family of two elements of $L'$. It is seen, as in *Example 2*, that $L'$ is canonically isomorphic to $\mathrm{Libasc}_A(I)$.
 
@@ -640,7 +640,7 @@ $$
 0 \longrightarrow a \longrightarrow A[(X_i)_{i \in I}] \xrightarrow{h} A[(x_i)_{i \in I}] \longrightarrow 0.
 $$
 
-#### Proposition 8 {#alg-iii-s2-prop-8 .statement}
+#### Proposition 8 {#alg-iii-s2-prop-8 .statement tag=05ZC}
 
 *Let $A[(X_i)_{i \in I}]$ be a polynomial algebra, $J$ a subset of $I$ and $K$ the complement of $J$ in $I$. Writing $A' = A[(X_j)_{j \in J}]$ and denoting by $X'_k$ ($k \in K$) the* indeterminates in the polynomial algebra Libasc_{A'}(K) = A'[(X'_k)_{k \in K}], there exists a unique ring isomorphism of A'[(X'_k)_{k \in K}] onto A[(X_i)_{i \in I}] which coincides with the identity on A' and maps X'_k to X_k for all k \in K.
 
@@ -648,7 +648,7 @@ Clearly A[(X_i)_{i \in I}] is an A'-algebra generated by the X_k for k \in K. On
 
 The isomorphism described in Proposition 8 is often used to identify the elements of A[(X_i)_{i \in I}] with polynomials with coefficients in A' = A[(X_j)_{j \in J}]. If u is an element $\neq 0$ of A[(X_i)_{i \in I}], its total degree considered as an element of A'[(X_k)_{k \in K}] is also called its degree with respect to the X_i of index i \in K.
 
-#### Remark {#alg-iii-s2-n9-rem-1 .statement}
+#### Remark {#alg-iii-s2-n9-rem-1 .statement tag=05ZD}
 
 Let I and J be two sets and (P_j)_{j \in J} a family of elements of $\mathbf{Z}[(X_i)_{i \in I}]$; if Q is an element of $\mathbf{Z}[(X_j)_{j \in J}]$ such that $Q((P_j)_{j \in J}) = 0$, then, for every family $(b_i)_{i \in I}$ of pairwise permutable elements of a ring B,
 $$

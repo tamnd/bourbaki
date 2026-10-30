@@ -28,9 +28,9 @@ subsections:
       pdf_page: 33
 statements: 21
 exercises: 14
-content_sha256: de5d7daeae452b32cadded1948313c1199530610312b64bc1aae4615697bb579
+content_sha256: cdde7e7f810b1e7a13503b86b4fa3293ce861b759d7fae6340b0b13c18b5da01
 translated_from: content/en/fvr/I/02_s2_the_mean_value_theorem.md
-source_content_sha256: b3b7f9d38f4a2886f4332338a1ca2047871b449272d4a73cbe30a131219c1587
+source_content_sha256: cd3afa585ab839f9102101bc5e9f950b6b2590f43edbec61f3394622431f01ca
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-2283b08e
 glossary_version: 34
@@ -44,13 +44,13 @@ Các giả thiết và kết luận được chứng minh trong § 1 có tính c
 
 ### 1. ĐỊNH LÝ ROLLE
 
-#### Mệnh đề 1 ("định lý Rolle") {#fvr-i-s2-prop-1 .statement}
+#### Mệnh đề 1 ("định lý Rolle") {#fvr-i-s2-prop-1 .statement tag=083Z}
 
 Cho $f$ là một hàm thực, hữu hạn và liên tục trên một khoảng đóng $I = [a, b]$ (trong đó $a < b$), có đạo hàm (hữu hạn hay không) tại mọi điểm của ]$a, b$[, và sao cho $f(a) = f(b)$. Khi đó tồn tại một điểm $c$ của ]$a, b$[ sao cho $f'(c) = 0$.
 
 Mệnh đề là hiển nhiên nếu $f$ là hằng: nếu không, chẳng hạn $f$ nhận những giá trị $> f(a)$, và do đó đạt cận trên nhỏ nhất của nó tại một điểm $c$ nằm bên trong I (Gen. Top., IV, p. 359, th. 1). Vì $f$ đạt cực đại địa phương tại điểm này nên ta có $f'(c) = 0$ (I, p. 20, prop. 7).
 
-#### Hệ quả {#fvr-i-s2-n1-cor-1 .statement}
+#### Hệ quả {#fvr-i-s2-n1-cor-1 .statement tag=0840}
 
 Cho $f$ là một hàm thực, hữu hạn và liên tục trên $[a, b]$ (với $a < b$), và có đạo hàm (hữu hạn hay không) tại mọi điểm. Khi đó tồn tại một điểm $c$ của ]$a, b$[ sao cho $f(b) - f(a) = f'(c)(b - a)$.
 
@@ -62,7 +62,7 @@ Hệ quả này có nghĩa là có một điểm $M_c = (c, f(c))$ trên đồ t
 
 Kết quả quan trọng sau đây là một hệ quả của hệ quả của mệnh đề 1: nếu ta có $m \leq f'(x) \leq M$ trên ]$a, b$[, thì cũng có $m \leq \frac{f(b) - f(a)}{b - a} \leq M$. Nói cách khác, một *chặn đối với đạo hàm của* $f'$ trên toàn bộ khoảng có các đầu mút $a, b$ kéo theo *cùng chặn đó* đối với $\frac{f(b) - f(a)}{b - a}$ (tỉ số của "số gia" của hàm số với "số gia" của biến trên khoảng). Chúng tôi sẽ phát biểu chính xác hơn kết quả cơ bản này, và tổng quát hóa nó, trong phần tiếp theo.
 
-#### Mệnh đề 2 {#fvr-i-s2-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-i-s2-prop-2 .statement tag=0841}
 
 *Cho* $f$ *là một hàm thực hữu hạn và liên tục trên khoảng đóng bị chặn* $I = [a, b]$ *(trong đó* $a < b$*) và có đạo hàm phải* (hữu hạn hay không) *tại mọi điểm của phần bù tương đối trong* $[a, b)$ *của một tập con đếm được* $A$ *của khoảng này. Nếu* $f'_d(x) \geq 0$ *tại mọi điểm của* $[a, b[$ *không thuộc* $A$, *thì ta có* $f(b) \geq f(a)$; *nếu hơn nữa,* $f'_d(x) > 0$ *tại ít nhất một điểm của* $[a, b[$, *thì* $f(b) > f(a)$.
 
@@ -112,19 +112,19 @@ Vì $\varepsilon > 0$ là tùy ý nên từ (2) ta suy ra rằng $f(b) \geq f(a)
 
 Bây giờ ta nhận xét rằng kết quả này áp dụng cho một khoảng $[x, y]$ với $a \leq x < y \leq b$ chứng minh rằng $f$ là *tăng* trên I; nếu có $f(b) = f(a)$ thì có thể suy ra rằng $f$ là *hằng* trên I, và khi đó $f'_d(x) = 0$ tại mọi điểm của $[a, b[$; phần thứ hai suy ra từ điều này.
 
-#### Hệ quả {#fvr-i-s2-n2-cor-1 .statement}
+#### Hệ quả {#fvr-i-s2-n2-cor-1 .statement tag=0842}
 
 *Cho $f$ là một hàm thực liên tục hữu hạn trên $[a, b]$ (trong đó $a < b$) và có đạo hàm phải tại mọi điểm của phần bù trong $[a, b[$ của một tập con đếm được $A$ của khoảng này. Để $f$ tăng trên I thì điều kiện cần và đủ là $f'_d(x) \geq 0$ tại mọi điểm của $[a, b[$ không thuộc $A$; để $f$ tăng ngặt thì điều kiện cần và đủ là điều kiện trước đó được thỏa mãn, và thêm nữa tập hợp các điểm $x$ mà tại đó $f'_d(x) > 0$ là trù mật trong $[a, b]$.*
 
-#### Nhận xét 1 {#fvr-i-s2-n2-rem-1 .statement}
+#### Nhận xét 1 {#fvr-i-s2-n2-rem-1 .statement tag=0843}
 
 Mệnh đề 2 vẫn đúng khi thay khoảng $[a, b[$ bằng ]$a, b$ và các từ "đạo hàm phải" bằng "đạo hàm trái".
 
-#### Nhận xét 2 {#fvr-i-s2-n2-rem-2 .statement}
+#### Nhận xét 2 {#fvr-i-s2-n2-rem-2 .statement tag=0844}
 
 Giả thiết về *tính liên tục* của $f$ trên khoảng đóng I (chứ không chỉ *liên tục phải* $^4$ tại mọi điểm của $[a, b[$) là cốt yếu để mệnh đề 2 đúng (*xem* I, p. 36, bài tập 8 ).
 
-#### Nhận xét 3 {#fvr-i-s2-n2-rem-3 .statement}
+#### Nhận xét 3 {#fvr-i-s2-n2-rem-3 .statement tag=0845}
 
 Không thể bảo đảm kết luận của mệnh đề 2 nếu ta chỉ giả sử rằng tập hợp $A$ các điểm "ngoại lệ" là không đâu trù mật trong I, nhưng không đếm được (*xem* I, p. 37, bài tập 3).
 
@@ -150,11 +150,11 @@ trừ khi ta có $f(x) = Mg(x) + k$, hoặc $f(x) = mg(x) + k$ ($k$ hằng) vớ
 
 Chỉ cần áp dụng mệnh đề 2 cho các hàm $Mg - f$ và $f - mg$, mà dưới các giả thiết của chúng ta, có đạo hàm phải dương trừ tại các điểm của một tập con đếm được của I.
 
-#### Nhận xét {#fvr-i-s2-n2-rem-4 .statement}
+#### Nhận xét {#fvr-i-s2-n2-rem-4 .statement tag=0846}
 
 Định lý 1 không còn đúng nếu cho phép $f'_d$ và $g'$ đồng thời vô hạn trên một tập con không đếm được của I (xem I, p. 37, bài tập 3).
 
-#### Hệ quả {#fvr-i-s2-n2-cor-2 .statement}
+#### Hệ quả {#fvr-i-s2-n2-cor-2 .statement tag=0847}
 
 Cho $f$ là một hàm hữu hạn liên tục trên $[a,\ b]$ (trong đó $a < b$) và có đạo hàm phải (hữu hạn hay không) tại mọi điểm của phần bù tương đối B trong $[a,\ b[$ của một tập con đếm được của khoảng này. Nếu $m$ và $M$ là các cận dưới lớn nhất và cận trên nhỏ nhất của $f'_d$ trên B thì ta có
 
@@ -170,13 +170,13 @@ $$
 
 Các bất đẳng thức (5) là hệ quả của (4) khi $m$ và $M$ hữu hạn; trường hợp một trong hai số đó là vô hạn thì tầm thường.
 
-#### Nhận xét {#fvr-i-s2-n2-rem-5 .statement}
+#### Nhận xét {#fvr-i-s2-n2-rem-5 .statement tag=0848}
 
 Các bất đẳng thức (5) chứng minh rằng một hàm liên tục không thể có đạo hàm phải bằng $+\infty$ tại mọi điểm của một khoảng (x. I, p. 38, bài tập 6).
 
 ### 3. ĐỊNH LÝ GIÁ TRỊ TRUNG BÌNH CHO CÁC HÀM VECTƠ
 
-#### Định lý 2 {#fvr-i-s2-thm-2 .statement}
+#### Định lý 2 {#fvr-i-s2-thm-2 .statement tag=0849}
 
 Cho $f$ là một hàm vectơ được xác định và liên tục trên một khoảng đóng bị chặn $I = [a,\ b]$ của $\mathbf{R}$ (với $a < b$) và nhận giá trị trong một không gian định chuẩn E trên $\mathbf{R}$; cho $g$ là một hàm thực tăng liên tục trên I. Giả sử rằng $f$ và $g$ có đạo hàm phải tại mọi điểm của phần bù tương đối trong $[a,\ b[$ của một tập con đếm được A của khoảng này (cho phép $g'_r(x)$ là vô hạn tại một số điểm $x \notin A$), và giả sử rằng tại mỗi điểm ấy ta có
 
@@ -262,23 +262,23 @@ $$
 
 Q.E.D.
 
-#### Nhận xét 1 {#fvr-i-s2-n3-rem-1 .statement}
+#### Nhận xét 1 {#fvr-i-s2-n3-rem-1 .statement tag=084A}
 
 Ở đây cũng vậy, trong mệnh đề của định lý 2 người ta có thể thay khoảng $[a, b[$ bằng ]$a, b]$ và "đạo hàm phải" bằng "đạo hàm trái".
 
-#### Nhận xét 2 {#fvr-i-s2-n3-rem-2 .statement}
+#### Nhận xét 2 {#fvr-i-s2-n3-rem-2 .statement tag=084B}
 
 Ta sẽ chỉ ra về sau cách đồng nhất trường hợp đẳng thức trong (7), và cũng cách tổng quát hóa định lý 2 cho trường hợp E là một không gian lồi địa phương tùy ý, với sự trợ giúp của một phương pháp chứng minh khác cho phép suy ra định lý 2 từ định lý 1.
 
-#### Hệ quả {#fvr-i-s2-n3-cor-1 .statement}
+#### Hệ quả {#fvr-i-s2-n3-cor-1 .statement tag=084C}
 
 Để một hàm vectơ liên tục trên một khoảng $I \subset \mathbf{R}$, nhận giá trị trong một không gian định chuẩn E trên $\mathbf{R}$, là hằng trên I, thì đủ là nó có đạo hàm phải không tại mọi điểm của phần bù (tương đối đối với I) của một tập con đếm được của I.
 
-#### Nhận xét {#fvr-i-s2-n3-rem-3 .statement}
+#### Nhận xét {#fvr-i-s2-n3-rem-3 .statement tag=084D}
 
 Các chứng minh của định lý 1 và 2 dựa một cách cốt yếu trên các tính chất tôpô đặc biệt của trường $\mathbf{R}$; người ta có thể cho các ví dụ về các trường định giá K mà đối với chúng tồn tại những ánh xạ tuyến tính không hằng từ K vào chính nó có đạo hàm không tại mọi điểm (x. I, p. 37, bài tập 2).
 
-#### Mệnh đề 3 {#fvr-i-s2-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-i-s2-prop-3 .statement tag=084E}
 
 Cho $f$ là một hàm vectơ nhận giá trị trong một không gian chuẩn E trên $\mathbf{R}$, được xác định và liên tục trên một khoảng $I \subset \mathbf{R}$, và khả vi phải trên phần bù B (đối với I) của một tập con đếm được của I; khi đó với mọi điểm $x_0 \in B, x \in I, y \in I$, ta có (chẳng hạn giả sử rằng $x < y$)
 
@@ -296,19 +296,19 @@ và $g$ bằng hàm tuyến tính có đạo hàm là $\sup_{z \in B, x < z < y}
 
 Định lý 2 mở rộng cho các hàm vectơ của một biến phức:
 
-#### Mệnh đề 4 {#fvr-i-s2-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-i-s2-prop-4 .statement tag=084F}
 
 *Cho $f$ là một hàm khả vi liên tục của một biến phức xác định trên một tập con mở lồi $A$ của trường $\mathbf{C}$, với giá trị trong một không gian định chuẩn $E$ trên trường $\mathbf{C}$. Nếu ta có $\|f'(z)\| \leq m$ với mọi $z \in A$, thì ta có $\|f(b) - f(a)\| \leq m |b - a|$ đối với mọi cặp điểm $a, b$ của $A$.*
 
 Ta đặt $g(t) = \frac{1}{b - a} f(a + t(b - a))$ với $0 \leq t \leq 1$; do $g'(t) = f'(a + t(b - a))$, áp dụng đl. 2 cho hàm $g$ suy ra mệnh đề ngay lập tức.
 
-#### Hệ quả {#fvr-i-s2-n3-cor-2 .statement}
+#### Hệ quả {#fvr-i-s2-n3-cor-2 .statement tag=084G}
 
 *Một hàm vectơ $f$ của một biến phức, được xác định và liên tục trên một tập mở $A \subset \mathbf{C}$, và nhận giá trị trong một không gian định chuẩn trên $\mathbf{C}$, là hằng nếu nó có đạo hàm bằng không tại mọi điểm của $A$.*
 
 Thật vậy, gọi $a$ là một điểm tùy ý của $A$; tập $B$ gồm các điểm $z$ của $A$ mà tại đó $f(z) = f(a)$ là *đóng* vì $f$ liên tục; nó cũng *mở*, như được chứng minh bằng cách áp dụng mệnh đề 4 (với $m = 0$) cho một lân cận mở lồi, được chứa trong $A$, của một điểm tùy ý của $B$; do đó nó đồng nhất với $A$.
 
-#### Mệnh đề 5 {#fvr-i-s2-prop-5 .statement}
+#### Mệnh đề 5 {#fvr-i-s2-prop-5 .statement tag=084H}
 
 *Cho $f$ là một hàm vectơ của một biến phức, được xác định, liên tục và khả vi trên một tập hợp mở lồi $A \subset \mathbf{C}$, nhận giá trị trong một không gian định chuẩn trên trường $\mathbf{C}$; khi đó, với mọi điểm $x_0, x$ và $y$ trong $A$, ta có*
 $$
@@ -324,7 +324,7 @@ trên khoảng $[0, 1]$.
 
 ### 4. TÍNH LIÊN TỤC CỦA CÁC ĐẠO HÀM
 
-#### Mệnh đề 6 {#fvr-i-s2-prop-6 .statement}
+#### Mệnh đề 6 {#fvr-i-s2-prop-6 .statement tag=084I}
 
 *Cho $I$ là một khoảng mở trong $\mathbf{R}$, cho $x_0$ là một trong các đầu mút của $I$, và $f$ là một hàm vectơ xác định và liên tục trên $I$, nhận giá trị trong một không gian định chuẩn đầy đủ $E$ trên $\mathbf{R}$; giả sử rằng $f$ có đạo hàm phải tại các điểm của phần bù $B$ trong $I$ của một tập con đếm được của $I$. Khi đó điều kiện cần và đủ để $f'_d(x)$ có giới hạn khi $x$ tiến tới $x_0$ mà vẫn thuộc $B$ và $\neq x_0$ là $\frac{f(y) - f(x)}{y - x}$ có giới hạn $c$ khi $(x, y)$ tiến tới $(x_0, x_0)$ với điều kiện $x \in I, y \in I, x \neq x_0, y \neq x_0$ và $x \neq y$. Trong các điều kiện đó, $f$ được kéo dài bằng liên tục tới điểm $x_0$, đạo hàm phải $f'_d(x)$ tiến tới $c$ khi $x$ tiến tới $x_0$ (mà vẫn thuộc B), và hàm $f$ đã được kéo dài (xác định trên $I \cup \{x_0\}$) có đạo hàm tại $x_0$ bằng $c$.*
 
@@ -366,7 +366,7 @@ $$
 
 điều đó chứng tỏ rằng $c$ là đạo hàm tại điểm $x_0$ của hàm $f$ được mở rộng bằng liên tục lên $I \cup \{x_0\}$.
 
-#### Nhận xét {#fvr-i-s2-n4-rem-1 .statement}
+#### Nhận xét {#fvr-i-s2-n4-rem-1 .statement tag=084J}
 
 Một lập luận tương tự, dựa trên đl. 1, cho thấy rằng nếu $f$ là một hàm thực sao cho $f'_d(x)$ tiến tới $+\infty$ tại điểm $x_0$ thì tỷ số
 

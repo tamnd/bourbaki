@@ -40,7 +40,7 @@ subsections:
       pdf_page: 170
 statements: 42
 exercises: 28
-content_sha256: 09b528b0c4aea3f9ed35798949bef7f65c256ac2dd6afac60df085b3dbc9beea
+content_sha256: 6e473a53bfd408f871ff4c878f668ee61235c9f3d793adbc39919c6f58199ee3
 ---
 
 ## § 4. Convolution des mesures et des fonctions.
@@ -66,7 +66,7 @@ Rappelons (§ 2, n° 5) que, si $\chi$ est continue et si $\beta$ est de support
 
 Soit $f$ une fonction complexe localement $\beta$-intégrable sur $X$, et soit $\mu$ une mesure sur $G$. Pour tout $s \in G$, la mesure $\gamma(s)(f.\beta)$ est de base $\beta$ puisque $\beta$ est quasi-invariante. Donc, si $\mu$ et $f.\beta$ sont convolables, $\mu * (f.\beta)$ est de base $\beta$ (§ 3, n° 2, prop. 10).
 
-#### Définition 1 {#int-viii-s4-def-1 .statement}
+#### Définition 1 {#int-viii-s4-def-1 .statement tag=09K4}
 
 Si $\mu$ et $f.\beta$ sont convolables, on dit que $\mu$ et $f$ sont convolables relativement à $\beta$. Toute densité de $\mu * (f.\beta)$ par rapport à $\beta$ s'appelle un produit de convolution de $\mu$ et $f$ relativement à $\beta$ et se note $\mu *_{\beta} f$.
 
@@ -89,7 +89,7 @@ $$
 
 localement $\beta$-presque partout.
 
-#### Lemme 1 {#int-viii-s4-lem-1 .statement}
+#### Lemme 1 {#int-viii-s4-lem-1 .statement tag=09K5}
 
 Soit $\mu$ une mesure sur $G$. Alors $\chi$ est localement $(\mu \otimes \beta)$-intégrable, et l'image de $\mu \otimes \beta$ par l'homéomorphisme $(s, x) \to (s, s^{-1}x)$ de $G \times X$ sur $G \times X$ est $\chi \cdot (\mu \otimes \beta)$.
 
@@ -110,7 +110,7 @@ $$
 
 Ceci prouve à la fois les deux assertions du lemme 1.
 
-#### Proposition 1 {#int-viii-s4-prop-1 .statement}
+#### Proposition 1 {#int-viii-s4-prop-1 .statement tag=09K6}
 
 *Soient $\mu$ une mesure sur $G$, $f$ une fonction complexe localement $\beta$-intégrable sur $X$. Supposons que la fonction $s \to f(s^{-1}x)\chi(s^{-1}, x)$ soit essentiellement $\mu$-intégrable sauf pour un ensemble localement $\beta$-négligeable de valeurs de $x$, et que la fonction $x \to \int |f(s^{-1}x)|\chi(s^{-1}, x)d|\mu|(s)$, définie localement presque partout pour $\beta$, soit localement $\beta$-intégrable. Alors $\mu$ et $f$ sont convolables.*
 
@@ -137,7 +137,7 @@ $$
 $$
 en désignant par S le support de h. D'où la proposition.
 
-#### Proposition 2 {#int-viii-s4-prop-2 .statement}
+#### Proposition 2 {#int-viii-s4-prop-2 .statement tag=09K7}
 
 Soient $\mu$ une mesure sur G, $f$ une fonction complexe localement $\beta$-intégrable sur X. On suppose vérifiée l'une des conditions suivantes :
 (i) $f$ et $\chi$ sont continues ;
@@ -173,7 +173,7 @@ $$
 
 est essentiellement $(\mu \otimes \beta)$-intégrable, et nulle hors d'une réunion dénombrable d'ensembles compacts, donc $(\mu \otimes \beta)$-intégrable. Comme $\mu = \varphi_S.\mu$, le raisonnement se termine comme précédemment.
 
-#### Remarque {#int-viii-s4-n1-rem-1 .statement}
+#### Remarque {#int-viii-s4-n1-rem-1 .statement tag=09K8}
 
 L'hypothèse (iii) de la prop. 2 est satisfaite notamment quand $\mu$ est bornée. En effet, pour tout $n > 0$, il existe alors une partie compacte $K_n$ de G telle que
 
@@ -187,7 +187,7 @@ $$
 
 Dans les prop. 3 et 4, $\mathscr{C}'(G)$ et $\mathscr{M}(G)$ sont munis de la topologie de la convergence compacte dans $\mathscr{C}(G)$ et $\mathscr{K}(G)$ respectivement.
 
-#### Proposition 3 {#int-viii-s4-prop-3 .statement}
+#### Proposition 3 {#int-viii-s4-prop-3 .statement tag=09K9}
 
 Supposons $\chi$ continue. Soient $\mu \in \mathscr{C}'(G)$ et $f \in \mathscr{C}(X)$. Alors :
 
@@ -211,7 +211,7 @@ $$
 
 Ceci, joint à la prop. 2, et au § 2, n° 6, prouve (ii). Enfin, si $f \in \mathscr{K}(X)$, $\mu * (f.\beta)$ est à support compact (§ 3, n° 2, prop. 9), donc $\mu *_{\beta} f \in \mathscr{K}(X)$. Considérons la représentation continue $U$ de $G$ dans le complété $\mathscr{K}(X)^{\hat{}}$ obtenue en prolongeant par continuité les opérateurs $\gamma_x(s)$ continus dans $\mathscr{K}(X)$ (§ 2, n° 1, Remarque 3). Soit $S$ le support de $\mu$. Les fonctions $\gamma_x(s)f$, pour $s \in S$, ont leur support contenu dans un ensemble compact fixe $K$. L’ensemble $\mathscr{K}(X, K)$ est un sous-espace vectoriel complet de $\mathscr{K}(X)$. Donc $U(\mu)f \in \mathscr{K}(X)$. On voit alors comme précédemment que $U(\mu)f = \mu *_{\beta} f$, et (iii) résulte encore du § 2, n° 6.
 
-#### Proposition 4 {#int-viii-s4-prop-4 .statement}
+#### Proposition 4 {#int-viii-s4-prop-4 .statement tag=09KA}
 
 Supposons que $G$ opère proprement dans $X$ et que $\chi$ soit continue. Soient $\mu \in \mathscr{M}(G)$ et $f \in \mathscr{K}(X)$.
 
@@ -230,7 +230,7 @@ $$
 
 Par suite $\int f(s^{-1}x)\chi(s^{-1}, x)d\mu(s)$ est fonction continue de $x$ et définit un produit de convolution $\mu *^\beta f \in \mathscr{C}(X)$. De plus, l’application $\mu \to \varphi \cdot \mu$ de $M(G)$ dans $\mathscr{C}'(G)$ est continue pour les topologies de la convergence compacte. La prop. 3 (iii) entraîne donc que l’application $(\mu, f) \to \mu *^\beta f$ de $M(G) \times \mathscr{K}(X, L)$ dans $\mathscr{C}(X)$ est, pour toute partie compacte $L$ de $X$, hypocontinue relativement aux parties compactes de $\mathscr{K}(X, L)$. En particulier, l’application $(\mu, f) \to \mu *^\beta f$ de $M(G) \times \mathscr{K}(X)$ dans $\mathscr{C}(X)$ est séparément continue. Comme $\mathscr{K}(X)$ est tonnelé, cette application est hypocontinue relativement aux parties bornées de $M(G)$ (*Esp. vect. top.*, chap. III, § 4, no 2, prop. 6).
 
-#### Remarque 1 {#int-viii-s4-n2-rem-1 .statement}
+#### Remarque 1 {#int-viii-s4-n2-rem-1 .statement tag=09KB}
 
 Sous les hypothèses de la prop. 4, l’application $\mu \to \mu *^\beta f$ de $M_+(G)$ dans $\mathscr{C}(X)$ est continue lorsqu’on munit $M_+(G)$ de la topologie *vague*, pour toute $f \in \mathscr{K}(X)$. En effet, soient $K$ une partie compacte de $X$, $S$ le support (compact) de $f$; comme $G$ opère proprement dans $X$, l’ensemble des $s \in G$ pour lesquels il existe $x \in K$ tel que $s^{-1}x \in S$ est une partie compacte $L$ de $G$ (*Top. gén.*, chap. III, 3e éd., § 4, no 5, th. 1). Soient $\varepsilon$ un nombre $> 0$, $\varphi$ une fonction de $\mathscr{K}_+(G)$ égale à 1 dans l’ensemble compact $L$, $\mu_0$ un élément de $M_+(G)$; l’ensemble $W_0$ des mesures $\mu \in M_+(G)$ telles que
 
@@ -262,7 +262,7 @@ $$
 $$
 et comme $\varepsilon$ est arbitraire, cela démontre notre assertion.
 
-#### Proposition 5 {#int-viii-s4-prop-5 .statement}
+#### Proposition 5 {#int-viii-s4-prop-5 .statement tag=09KC}
 
 *Supposons $\chi$ continue et chaque fonction $\chi(s, .)$ bornée.*
 (i) *La fonction $s \to \rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$ sur $G$ est semi-continue inférieurement $> 0$ et vérifie $\rho(st) \leq \rho(s)\rho(t)$ quels que soient $s, t$ dans $G$.*
@@ -310,7 +310,7 @@ $$
 $$
 donc $\gamma_x(\mu)f$ est le produit de convolution $\mu *^\beta f$ défini par (3).
 
-#### Proposition 6 {#int-viii-s4-prop-6 .statement}
+#### Proposition 6 {#int-viii-s4-prop-6 .statement tag=09KD}
 
 *Supposons $\chi$ continue et chaque fonction $\chi(s, .)$ bornée. Soit $\rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$. Soient $p$ et $q$ deux exposants conjugués ($1 \leq p < +\infty$). Soient $\mu \in \mathscr{M}^{p^{1/q}}(G)$ et $f \in L^p(X, \beta)$. Alors :
 
@@ -347,13 +347,13 @@ $$
 
 Si $X$ est dénombrable à l’infini, cette manière d’écrire est d’ailleurs entièrement justifiée.
 
-#### Corollaire {#int-viii-s4-n2-cor-1 .statement}
+#### Corollaire {#int-viii-s4-n2-cor-1 .statement tag=09KE}
 
 Sous les hypothèses de la prop. 6, l’application $(\mu, f) \to \mu *_{\beta} f$ définit sur $L^p(X, \beta)$ une structure de module à gauche sur $\mathscr{M}^{\rho^{1/q}}(G)$ ($1 \leq p \leq +\infty$).
 
 Ceci résulte des prop. 5 et 6 et de l’associativité du produit de convolution.
 
-#### Remarque 2 {#int-viii-s4-n2-rem-2 .statement}
+#### Remarque 2 {#int-viii-s4-n2-rem-2 .statement tag=09KF}
 
 Soit $X$ un espace localement compact sur lequel un groupe localement compact $G$ opère à droite continûment par $(x,s) \to xs$. Soit $\beta$ une mesure positive sur $X$. Soit $\chi$ une fonction $> 0$ sur $G \times X$, mesurable pour toute mesure sur $G \times X$, et telle que, pour tout $s \in G$, on ait $\delta(s)\beta = \chi(s, .).\beta$. Soit $f$ une fonction localement $\beta$-intégrable sur $X$ et soit $\mu$ une mesure sur $G$. Si $f.\beta$ et $\mu$ sont convolables (pour l’application $(x, s) \to xs$ de $X \times G$ dans $X$), $(f.\beta) * \mu$ est de base $\beta$. On dit alors que $f$ et $\mu$ sont convolables relativement à $\beta$; toute densité de $(f.\beta) * \mu$ par rapport à $\beta$ s'appelle un produit de convolution de $f$ et $\mu$ relativement à $\beta$ et se note $f *_{\beta} \mu$ ou simplement $f * \mu$.
 
@@ -381,7 +381,7 @@ $$
 
 Revenons aux hypothèses et aux notations du début du n° 1, mais supposons de plus que $\beta$ soit *relativement invariante de multiplicateur* $\chi$; $\chi$ est donc une fonction continue sur $G$.
 
-#### Proposition 7 {#int-viii-s4-prop-7 .statement}
+#### Proposition 7 {#int-viii-s4-prop-7 .statement tag=09KG}
 
 *Soient $f$ une fonction localement $\beta$-intégrable sur $X$, $\nu$ une mesure sur $X$ et $\mu$ une mesure sur $G$. On suppose que :*
 
@@ -404,19 +404,19 @@ $$
 \end{align*}
 $$
 
-#### Exemple 1 {#int-viii-s4-n3-exa-1 .statement}
+#### Exemple 1 {#int-viii-s4-n3-exa-1 .statement tag=09KH}
 
 On peut prendre $f \in \mathscr{C}(X)$, $\nu \in \mathscr{C}'(X)$ et $\mu \in \mathscr{C}'(G)$ d’après la prop. 3, et le cor. de la prop. 5 du § 1, n° 4. La formule (7) signifie alors que l’endomorphisme $\nu \to (\chi . \tilde{\mu}) * \nu$ de $\mathscr{C}'(X)$ est le transposé de l’endomorphisme $f \to \mu * f$ de $\mathscr{C}(X)$.
 
-#### Exemple 2 {#int-viii-s4-n3-exa-2 .statement}
+#### Exemple 2 {#int-viii-s4-n3-exa-2 .statement tag=09KJ}
 
 On peut prendre $f \in \mathscr{K}(X)$, $\nu \in \mathscr{M}(X)$ et $\mu \in \mathscr{C}'(G)$ d’après la prop. 3, la prop. 8 du § 3, n° 2, et la remarque que le support de la fonction continue $g(s, x)$ rencontre le support de $\mu \otimes \nu$ suivant un ensemble compact. La formule (7) signifie alors que l’endomorphisme $\nu \to (\chi . \tilde{\mu}) * \nu$ de $\mathscr{M}(X)$ est le transposé de l’endomorphisme $f \to \mu * f$ de $\mathscr{K}(X)$.
 
-#### Exemple 3 {#int-viii-s4-n3-exa-3 .statement}
+#### Exemple 3 {#int-viii-s4-n3-exa-3 .statement tag=0E7B}
 
 Si G opère proprement dans X, on peut prendre $f \in \mathscr{K}(X)$, $\nu \in \mathscr{C}'(X)$ et $\mu \in \mathscr{M}(G)$ d’après la prop. 4, la prop. 8 du § 3, n° 2, et la même remarque que dans l’Exemple 2.
 
-#### Proposition 8 {#int-viii-s4-prop-8 .statement}
+#### Proposition 8 {#int-viii-s4-prop-8 .statement tag=09KI}
 
 Soient $f$ et $g$ deux fonctions localement $\beta$-intégrables sur $X$ et soit $\mu \in \mathscr{M}(G)$. On suppose que :
 
@@ -470,15 +470,15 @@ $$
 
 Ceci démontre la proposition.
 
-#### Exemple 4 {#int-viii-s4-n3-exa-4 .statement}
+#### Exemple 4 {#int-viii-s4-n3-exa-4 .statement tag=0E7C}
 
 On peut prendre $f \in \mathscr{C}(X),\ g \in \mathscr{K}(X)$ et $\mu \in \mathscr{C}'(G)$ (avec $\psi = 1$).
 
-#### Exemple 5 {#int-viii-s4-n3-exa-5 .statement}
+#### Exemple 5 {#int-viii-s4-n3-exa-5 .statement tag=0E7D}
 
 Si G opère proprement sur X, on peut prendre $f \in \mathscr{K}(X),\ g \in \mathscr{K}(X)$ et $\mu \in \mathscr{M}(G)$ (avec $\psi = 1$).
 
-#### Exemple 6 {#int-viii-s4-n3-exa-6 .statement}
+#### Exemple 6 {#int-viii-s4-n3-exa-6 .statement tag=0E7E}
 
 On peut prendre $f \in L^p(X, \beta),\ g \in L^q(X, \beta)$ et $\mu \in \mathscr{M}^o(G)$ avec $1 \leq p < +\infty,\ \frac{1}{p} + \frac{1}{q} = 1,\ \rho = \chi^{-1/q}$. Les conditions (i) et (ii) sont satisfaites d'après les prop. 5 et 6. Démontrons (iii). On a vu que $\mu$ était portée par un ensemble S réunion dénombrable d'ensembles compacts. On prendra pour $\psi$ la fonction caractéristique de S. La fonction $h$ est $(\mu \otimes \beta)$-mesurable : en effet la fonction $(s, x) \to g(x)\chi(s^{-1})\psi(s)$ l'est, ainsi que la fonction $(s, x) \to f(s^{-1}x)$ d'après le lemme 1. De plus, $g$ étant nulle hors d'une réunion dénombrable d'ensembles $\beta$-intégrables, $h$ est nulle hors d'une réunion dénombrable d'ensembles $(\mu \otimes \beta)$-intégrables. On a alors (chap. V, § 8, no 1, prop. 4):
 
@@ -567,13 +567,13 @@ $$
 f *^\beta g = (f.\beta) *^\beta g = f *^\beta (g.\beta).
 $$
 
-#### Proposition 9 {#int-viii-s4-prop-9 .statement}
+#### Proposition 9 {#int-viii-s4-prop-9 .statement tag=09KK}
 
 *Soient $f, g$ dans $\mathscr{L}(G)$. Supposons que la fonction $s \to g(s^{-1}x)f(s)\chi(s^{-1})$ soit essentiellement $\beta$-intégrable sauf pour un ensemble localement $\beta$-négligeable de valeurs de $x$, et que la fonction $x \to \int |g(s^{-1}x)f(s)|\chi(s^{-1})d\beta(s)$, définie localement $\beta$-presque partout, soit localement $\beta$-intégrable. Alors $f$ et $g$ sont convolables.*
 
 Ceci résulte de la prop. 1 du n° 1.
 
-#### Proposition 10 {#int-viii-s4-prop-10 .statement}
+#### Proposition 10 {#int-viii-s4-prop-10 .statement tag=09KL}
 
 *Soient $f, g$ dans $\mathscr{L}(G)$. On suppose que l’une de ces deux fonctions est continue ou nulle dans le complémentaire d’une réunion dénombrable d’ensembles compacts. Si $f$* et $g$ sont convolables, la fonction $f * g$ est donnée localement $\beta$-presque partout par
 
@@ -596,13 +596,13 @@ $$
 (f * g)(e) = (g * f)(e) = \int f(s)g(s^{-1})d\beta(s).
 $$
 
-#### Proposition 11 {#int-viii-s4-prop-11 .statement}
+#### Proposition 11 {#int-viii-s4-prop-11 .statement tag=09KM}
 
 Soient $f, g$ dans $\mathscr{L}(G)$. On suppose que l'une des fonctions $f, g$ est continue et que l'une des fonctions $f, g$ est à support compact. Alors $f$ et $g$ sont convolables. La formule (15) définit pour tout $x \in G$ un produit $f * g$ qui est continu. Si $f \in \mathscr{H}(G)$ et $g \in \mathscr{H}(G)$, on a $f * g \in \mathscr{H}(G)$.
 
 Ceci résulte des prop. 3 et 4 du n° 2.
 
-#### Proposition 12 {#int-viii-s4-prop-12 .statement}
+#### Proposition 12 {#int-viii-s4-prop-12 .statement tag=09KN}
 
 Soient $p$ et $q$ deux exposants conjugués ($1 \leq p \leq +\infty$). Si $f\chi^{-1/q} \in L^1(G, \beta)$ et $g \in L^p(G, \beta)$, $f$ et $g$ sont convolables, $f * g$ est égale localement $\beta$-presque partout à une fonction de $L^p(G, \beta)$, et on a
 $$
@@ -615,13 +615,13 @@ $$
 
 Ceci résulte des prop. 5 et 6 du n° 2 et des remarques du n° 4.
 
-#### Proposition 13 {#int-viii-s4-prop-13 .statement}
+#### Proposition 13 {#int-viii-s4-prop-13 .statement tag=09KO}
 
 Si $f\chi^{-1} \in L^1(G, \beta)$ et $g \in \mathscr{K}(G)$, ou si $f \in \mathscr{K}(G)$ et $g{\chi'}^{-1} \in L^1(G, \beta)$, $f$ et $g$ sont convolables, et (15) définit pour tout $x \in G$ un produit $f * g$ qui appartient à $\mathscr{K}(G)$.
 
 Cela résulte de la prop. 5 du n° 2 et des remarques du n° 4.
 
-#### Proposition 14 {#int-viii-s4-prop-14 .statement}
+#### Proposition 14 {#int-viii-s4-prop-14 .statement tag=09KP}
 
 Si $f\chi^{-1} \in L^1(G, \beta)$ et $g \in L^\infty(G, \beta)$, la formule (15) définit pour tout $x \in G$ un produit $f * g$ qui est borné et uniformément continu pour la structure uniforme droite de $G$.
 
@@ -637,7 +637,7 @@ $$
 
 et la dernière intégrale est arbitrairement petite pourvu que $x'x^{-1}$ soit dans un voisinage convenable de $e$ (§ 2, n° 5, prop. 8).
 
-#### Proposition 15 {#int-viii-s4-prop-15 .statement}
+#### Proposition 15 {#int-viii-s4-prop-15 .statement tag=09KQ}
 
 Soient $p$ et $q$ deux exposants conjugués $(1 < p < +\infty)$. Supposons $\beta$ invariante à gauche. Soient $f \in L^p(G, \beta)$, $g \in L^q(G, \tilde{\beta})$. Alors $f$ et $g$ sont convolables. La formule (15) définit, pour tout $x \in G$, un produit $f * g$ qui appartient à $\mathscr{K}(G)$, et qui est tel que $\|f * g\|_\infty \leq \|f\|_p\|\tilde{g}\|_q$.
 
@@ -659,7 +659,7 @@ $$
 
 Pour $f, g$ dans $\mathscr{K}(G)$, on a $f * g \in \mathscr{K}(G)$ (prop. 11) ; donc, pour $f \in L^p(G, \beta)$ et $g \in L^q(G, \bar{\beta})$, le produit $f * g$ fourni par (15) est limite uniforme de fonctions de $\mathscr{K}(G)$, donc appartient à $\overline{\mathscr{K}(G)}$.
 
-#### Corollaire {#int-viii-s4-n5-cor-1 .statement}
+#### Corollaire {#int-viii-s4-n5-cor-1 .statement tag=09KR}
 
 *Soient $f \in L^2(G, \beta)$, $g \in L^2(G, \beta)$. Alors $f$ et $\overline{g}$ sont convolables. L'une des convolées $f * \overline{g}$ appartient à $\overline{\mathscr{K}(G)}$ et sa valeur en $e$ est $\int_G f(s) \overline{g(s)} d\beta(s)$.*
 
@@ -673,7 +673,7 @@ $$
 
 pour $f \in L^\rho(G, \beta)$, cette identification est compatible avec les normes, donc $L^\rho(G, \beta)$ apparaît comme une sous-algèbre normée complète de $\mathscr{M}^\rho(G)$. C'est même un idéal bilatère de $\mathscr{M}^\rho(G)$ d'après la prop. 10 du § 3, no 2. (Pour $\rho = 1$, on retrouve une des assertions du no 4). En particulier, $L^1(G, \beta)$ s'identifie à un idéal bilatère fermé de $\mathscr{M}^1(G)$.
 
-#### Proposition 16 {#int-viii-s4-prop-16 .statement}
+#### Proposition 16 {#int-viii-s4-prop-16 .statement tag=09KS}
 
 *Soit $U$ une représentation continue de $G$ dans un espace de Banach $E$. Posons $\rho(s) = \|U(s)\|$ pour tout $s \in G$. Pour toute $f \in L^\rho(G, \beta)$, posons $U(f) = U(f.\beta)$. Alors $f \to U(f)$ est une représentation linéaire de l'algèbre $L^\rho(G, \beta)$ dans $E$, telle que $\|U(f)\| \leq \|f\|_\rho$.*
 
@@ -681,7 +681,7 @@ Ceci résulte du § 2, no 6, et du § 3, no 3, prop. 11.
 
 ### 6. Applications.
 
-#### Proposition 17 {#int-viii-s4-prop-17 .statement}
+#### Proposition 17 {#int-viii-s4-prop-17 .statement tag=09KT}
 
 Soient G un groupe localement compact, A une partie de G, mesurable et non localement négligeable pour une mesure de Haar. Alors A.A^{-1} est un voisinage de e.
 
@@ -693,19 +693,19 @@ $$
 
 Donc, pour $x \in V$, on a $B \cap xB \neq \emptyset$, d'où $x \in B.B^{-1}$. Donc $V \subset B.B^{-1} \subset A.A^{-1}$.
 
-#### Corollaire 1 {#int-viii-s4-prop-17-cor-1 .statement}
+#### Corollaire 1 {#int-viii-s4-prop-17-cor-1 .statement tag=09KU}
 
 Soit H un sous-groupe de G mesurable pour une mesure de Haar $\beta$. Alors H est, soit ouvert, soit localement $\beta$-négligeable.
 
 Car $H = H.H^{-1}$, donc, si H n'est pas localement $\beta$-négligeable, H contient un voisinage de e (prop. 17) et est par suite ouvert (Top. Gén., chap. III, 3e éd., § 2, no 1, cor. de la prop. 4).
 
-#### Corollaire 2 {#int-viii-s4-prop-17-cor-2 .statement}
+#### Corollaire 2 {#int-viii-s4-prop-17-cor-2 .statement tag=09KV}
 
 Soit L une partie de G stable pour la multiplication et dont le complémentaire est localement négligeable pour une mesure de Haar $\beta$. Alors $L = G$.
 
 En effet, $L^{-1}$ et $L \cap L^{-1}$ sont de complémentaires localement $\beta$-négligeables. Or $L \cap L^{-1}$ est un sous-groupe, donc est ouvert (cor. 1) et par suite fermé. Donc $G - (L \cap L^{-1})$, qui est ouvert et localement $\beta$-négligeable, est vide. Donc $G = L \cap L^{-1}$.
 
-#### Proposition 18 {#int-viii-s4-prop-18 .statement}
+#### Proposition 18 {#int-viii-s4-prop-18 .statement tag=09KW}
 
 Soient G un groupe localement compact, $\Gamma$ un ensemble muni d'une multiplication $(u, v) \to uv$ et d'une topologie séparée telles que :
 1) la topologie de $\Gamma$ est invariante par les translations ;
@@ -715,13 +715,13 @@ Soit $f : G \to \Gamma$ une application de $G$ dans $\Gamma$ telle que $f(xy) = 
 
 Posons $g(x) = f(x^{-1})$ pour $x \in G$. Comme $f$ et $g$ sont $\beta$-mesurables, il existe une partie compacte $K$ non $\beta$-négligeable de $G$ telle que les restrictions de $f$ et $g$ à $K$ soient continues. L’application $(x, y) \to f(xy^{-1}) = f(x)g(y)$ de $K \times K$ dans $\Gamma$ est continue parce que la multiplication de $\Gamma$ est continue sur $f(K) \times g(K)$; or cette application s’écrit $\varphi \circ \psi$, où $\psi$ est l’application $(x, y) \to xy^{-1}$ de $K \times K$ sur $K.K^{-1}$, et où $\varphi$ est la restriction de $f$ à $K.K^{-1}$. Soit $R$ la relation d’équivalence définie sur $K \times K$ par $\psi$. L’application $\psi'$ de $(K \times K)/R$ sur $K.K^{-1}$ déduite de $\psi$ par passage au quotient est continue, donc $(K \times K)/R$ est séparé et $\psi'$ est un homéomorphisme. Comme $\varphi \circ \psi$ est continue, on voit que la restriction de $f$ à $K.K^{-1}$ est continue. Or $K.K^{-1}$ est un voisinage de $e$ (prop. 17), donc $f$ est continue en $e$. Pour tout $x_0 \in G$, on a $f(x_0x) = f(x_0)f(x)$, donc $f$ est continue en $x_0$ parce que la topologie de $\Gamma$ est invariante par translations.
 
-#### Corollaire 1 {#int-viii-s4-prop-18-cor-1 .statement}
+#### Corollaire 1 {#int-viii-s4-prop-18-cor-1 .statement tag=09KX}
 
 Soient $G$ un groupe localement compact, $\beta$ une mesure de Haar de $G$, $E$ un espace localement convexe tonnelé séparé, $U$ une représentation linéaire de $G$ dans $E$, telle que $U(s) \in \mathscr{L}(E; E)$ pour tout $s \in G$, $\beta$-mesurable quand on munit $\mathscr{L}(E; E)$ de la topologie de la convergence simple. Alors $U$ est une représentation linéaire continue.
 
 Soit $\Gamma$ le groupe des automorphismes de $E$, muni de la topologie de la convergence simple. Cette topologie est séparée et invariante par translations. Soit $K$ une partie compacte de $\Gamma$. Alors $K$ est bornée dans $\mathscr{L}(E; E)$ muni de la topologie de la convergence simple, donc équicontinue ($Esp.\ vect.\ top.$, chap. III, § 3, n° 6, th. 2); donc l’application $(u, v) \to v \circ u$ de $K \times K$ dans $\mathscr{L}(E; E)$ est continue ($loc.\ cit.$, § 4, cor. 1 de la prop. 9). Donc, pour tout $x \in E$, l’application $s \to U(s)x$ de $G$ dans $E$ est continue (prop. 18). Comme $E$ est tonnelé, $U$ est continue ($§\ 2,\ n°\ 1,\ prop.\ 1$).
 
-#### Corollaire 2 {#int-viii-s4-prop-18-cor-2 .statement}
+#### Corollaire 2 {#int-viii-s4-prop-18-cor-2 .statement tag=09KY}
 
 Soient G un groupe localement compact, $\beta$ une mesure de Haar sur G, E un espace de Banach de type dénombrable, U une représentation linéaire de G dans E, telle que $U(s) \in \mathscr{L}(E; E)$ pour tout $s \in G$. Soit $(a_m)$ une suite totale dans E, et soit $(a'_n)$ une suite partout dense dans la boule unité B' du dual E' de E, munie de la topologie faible. On suppose que les fonctions $s \to \langle U(s)a_m, a'_n \rangle$ sur G sont $\beta$-mesurables. Alors U est une représentation linéaire continue.
 
@@ -737,7 +737,7 @@ est donc limite d’une suite de fonctions $\beta$-mesurables d’où notre asse
 
 ### 7. Régularisation.
 
-#### Proposition 19 {#int-viii-s4-prop-19 .statement}
+#### Proposition 19 {#int-viii-s4-prop-19 .statement tag=09KZ}
 
 Soient G un groupe localement compact, $\beta$ une mesure positive $\neq 0$ relativement invariante sur G, $\mathscr{B}$ une base du filtre des voisinages de e dans G, formée de voisinages compacts. Pour tout $V \in \mathscr{B}$, soit $f_V$ une fonction continue $\geqslant 0$ sur $G$, de support contenu dans $V$, et telle que $\int f_V d\beta = 1$.
 
@@ -751,15 +751,15 @@ la limite étant prise suivant le filtre des sections de $\mathscr{B}$.
 
 Pour la topologie de la convergence compacte sur $\mathscr{C}(G)$, $f_V \cdot \beta$ tend vers $\varepsilon_e$ suivant le filtre des sections de $\mathscr{B}$ ($§ 2$, no 7, cor. 1 du lemme 4). Donc $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ dans $\mathscr{M}(G)$ muni de la topologie de la convergence compacte sur $\mathscr{K}(G)$ ($§ 3$, no 3, cor. de la prop. 12).
 
-#### Remarque 1 {#int-viii-s4-n7-rem-1 .statement}
+#### Remarque 1 {#int-viii-s4-n7-rem-1 .statement tag=09L0}
 
 On voit donc que toute mesure sur $G$ est limite de mesures admettant une densité continue par rapport à toute mesure de Haar (pour la topologie indiquée dans la prop. 19 et $a fortiori$ pour la topologie vague).
 
-#### Remarque 2 {#int-viii-s4-n7-rem-2 .statement}
+#### Remarque 2 {#int-viii-s4-n7-rem-2 .statement tag=09L1}
 
 Si $G$ est métrisable, on peut prendre pour $\mathscr{B}$ une suite $(V_n)$ de voisinages. Alors $\mu$ est limite de la suite des mesures $(\mu * f_{V_n}) \cdot \beta$ à densités continues. *Si $G$ est un groupe de Lie réel, on peut prendre les $f_{V_n}$ indéfiniment différentiables ; nous verrons plus tard qu’alors les densités $\mu * f_{V_n}$ sont indéfiniment différentiables.*
 
-#### Proposition 20 {#int-viii-s4-prop-20 .statement}
+#### Proposition 20 {#int-viii-s4-prop-20 .statement tag=09L2}
 
 On conserve les hypothèses et les notations de la prop. 19. Soient $p \in [1, +\infty]$, et $g \in L^p(G, \beta)$. On a
 
@@ -771,17 +771,17 @@ au sens de la norme $N_p$, la limite étant prise suivant le filtre des sections
 
 Il suffit d’appliquer la prop. 6 (iii), et le $§ 2$, no 7, cor. 3 du lemme 4.
 
-#### Remarque 3 {#int-viii-s4-n7-rem-3 .statement}
+#### Remarque 3 {#int-viii-s4-n7-rem-3 .statement tag=09L3}
 
 D’après la prop. 15, les fonctions $g * f_V$, $f_V * g$ appartiennent à $\overline{\mathscr{K}}(G)$.
 
-#### Corollaire {#int-viii-s4-n7-cor-1 .statement}
+#### Corollaire {#int-viii-s4-n7-cor-1 .statement tag=09L4}
 
 Soit W un sous-espace vectoriel fermé de $L^1(G, \beta)$. Pour que W soit un idéal à gauche (resp. à droite) de $L^1(G, \beta)$, il faut et il suffit que W soit invariant par les translations à gauche (resp. à droite) de G.
 
 Supposons que W soit un idéal à gauche. Soient $s \in G$ et $g \in W$. On a $\varepsilon_s * g = \lim_{\nu} f_\nu * (\varepsilon_s * g) = \lim_{\nu} (f_\nu * \varepsilon_s) * g$, et $(f_\nu * \varepsilon_s) * g \in W$, donc $\varepsilon_s * g \in W$, donc $\gamma(s)g \in W$. Réciproquement, si W est invariant par les translations à gauche, on a $\mu *^\beta g \in W$ pour $\mu \in \mathscr{M}^1(G)$ et $g \in W$, donc W est a fortiori un idéal à gauche de $L^1(G, \beta)$. On raisonne de même pour les idéaux à droite.
 
-#### Exemple {#int-viii-s4-n7-exa-1 .statement}
+#### Exemple {#int-viii-s4-n7-exa-1 .statement tag=09L5}
 
 On prend $G = \mathbf{R}$. Définissons une fonction $F_n \in \mathscr{K}(\mathbf{R})$ par
 $$

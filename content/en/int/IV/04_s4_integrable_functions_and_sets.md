@@ -57,7 +57,7 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: 44664051c6330badb1703bb68b0318df95f32abba8294f844ad108f5cee721a2
+content_sha256: 66721e72e10dd21f47f9c185589d7f3417a3df9407a6866398253f6c67ed1e54
 ---
 
 ## § 4. INTEGRABLE FUNCTIONS AND SETS
@@ -74,11 +74,11 @@ $$
 
 This inequality proves that the linear mapping $f \mapsto \int f \, d\mu$ of $\mathscr{K}_F$ into $F$ is continuous for the topology of convergence in mean in $\mathscr{K}_F$. It can therefore be extended by continuity to the entire space $\mathscr{L}_F^1$, and we may make the following definition:
 
-#### Definition 1 {#int-iv-s4-def-1 .statement}
+#### Definition 1 {#int-iv-s4-def-1 .statement tag=08RY}
 
 *The functions belonging to $\mathscr{L}_F^1(X, \mu)$ are said to be integrable with respect to the measure $\mu$* (or, again, that they are $\mu$-integrable). *The integral (with respect to $\mu$) of the integrable function $f$ is by definition the value at $f$ of the extension by continuity to $\mathscr{L}_F^1$ of the linear mapping $g \mapsto \int g\, d\mu$ of $\mathscr{H}_F$ into $F$; it is again denoted $\mu(f)$ or $\int f\, d\mu$, or $\int f(x)\, d\mu(x)$ or $\int f\mu$, or $\int f(x)\mu(x)$.
 
-#### Example {#int-iv-s4-n1-exa-1 .statement}
+#### Example {#int-iv-s4-n1-exa-1 .statement tag=08RZ}
 
 — Let $X$ be a *discrete* space, $\mu$ a measure on $X$, and set $\alpha(x) = \mu(\varphi_{\{x\}})$ for every $x \in X$. The functions in $\mathscr{F}_F^1$ are then *integrable*, in other words $\mathscr{L}_F^1 = \mathscr{F}_F^1$; moreover, for every function $f \in \mathscr{L}_F^1$,
 
@@ -112,7 +112,7 @@ Since $\mu(f)$ is continuous on $\mathscr{L}_F^1$ by definition, and since it ta
 
 ### 2. Properties of the integral
 
-#### Proposition 1 {#int-iv-s4-prop-1 .statement}
+#### Proposition 1 {#int-iv-s4-prop-1 .statement tag=08S0}
 
 *For every positive $\mu$-integrable numerical function $f$,*
 
@@ -122,7 +122,7 @@ $$
 
 For, $\int f\, d|\mu|$ and $N_1(f)$ are continuous on $\mathscr{L}^1$ and are equal for every continuous function $f \geqslant 0$ with compact support; on the other hand, every function $f \geqslant 0$ in $\mathscr{L}^1$ is the limit (in the sense of convergence in mean) of a sequence of continuous functions $\geqslant 0$ with compact support (§ 3, No. 5, Prop. 11); whence the proposition.
 
-#### Corollary 1 {#int-iv-s4-prop-1-cor-1 .statement}
+#### Corollary 1 {#int-iv-s4-prop-1-cor-1 .statement tag=08S1}
 
 *For every integrable function $f \in \mathscr{L}^1_F$, $|f|$ is integrable and*
 
@@ -134,7 +134,7 @@ We shall make frequent use of Prop. 1 and its Cor. 1, on replacing $\int^* f\, d
 
 We recall that, for a function $f$ to belong to $\mathscr{L}^p_F$, it is necessary and sufficient that the function $|f|^{p-1} \cdot f$ belong to $\mathscr{L}^1_F$ (§ 3, No. 8, Cor. 1 of Th. 7), that is, that it be integrable; this is the reason for the terminology 'p-th power integrable function'. Moreover:
 
-#### Corollary 2 {#int-iv-s4-prop-1-cor-2 .statement}
+#### Corollary 2 {#int-iv-s4-prop-1-cor-2 .statement tag=08S2}
 
 *For every function $f \in \mathscr{L}^p_F$, the numerical function $|f|^p$ is integrable and*
 
@@ -144,7 +144,7 @@ $$
 
 This follows at once from the fact that $|f|$ belongs to $\mathscr{L}^p$ (§ 3, No. 5, Prop. 11) and formula (2).
 
-#### Proposition 2 {#int-iv-s4-prop-2 .statement}
+#### Proposition 2 {#int-iv-s4-prop-2 .statement tag=08S3}
 
 — For every integrable function $f$,
 
@@ -154,7 +154,7 @@ $$
 
 This follows at once from the inequality (1) by passage to the limit, on taking into account (3) and the continuity of $N_1(f)$ on $\mathscr{L}_F^1$.
 
-#### Theorem 1 {#int-iv-s4-thm-1 .statement}
+#### Theorem 1 {#int-iv-s4-thm-1 .statement tag=08S4}
 
 — Let $F$ and $G$ be two Banach spaces, $u$ a continuous linear mapping of $F$ into $G$. For every integrable function $f$ with values in $F$, $u \circ f$ is integrable and
 
@@ -164,7 +164,7 @@ $$
 
 We already know that $u \circ f$ is integrable (§ 3, No. 5, Th. 4); the relation (6), being valid for every $f \in \mathscr{H}_F$, extends to every integrable function $f$ by the principle of extension of identities: for, $f \mapsto u \circ f$ is continuous for the topology of convergence in mean, as follows from the inequality $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
 
-#### Corollary 1 {#int-iv-s4-thm-1-cor-1 .statement}
+#### Corollary 1 {#int-iv-s4-thm-1-cor-1 .statement tag=08S5}
 
 — Let $a'$ be a continuous linear form on $F$. If $f$ is an integrable function with values in $F$, then the numerical function $\langle f, a' \rangle$ is integrable and
 
@@ -174,7 +174,7 @@ $$
 
 We shall see in Ch. VI, § 1, Exers. 7, 11 and 12 that there can exist functions $f$, with values in an infinite-dimensional Banach space $F$, such that $\langle f, a' \rangle$ is integrable for every continuous linear form $a'$ on $F$, without $f$ being integrable.
 
-#### Corollary 2 {#int-iv-s4-thm-1-cor-2 .statement}
+#### Corollary 2 {#int-iv-s4-thm-1-cor-2 .statement tag=08S6}
 
 — If the $a_k$ ($1 \leq k \leq n$) are vectors in $F$ and the $f_k$ ($1 \leq k \leq n$) are integrable numerical functions, then the function $f = \sum_{k=1}^n a_k f_k$ is integrable and
 
@@ -184,7 +184,7 @@ $$
 
 ### 3. Passage to the limit in integrals
 
-#### Proposition 3 {#int-iv-s4-prop-3 .statement}
+#### Proposition 3 {#int-iv-s4-prop-3 .statement tag=08S7}
 
 — Let $\mathscr{B}$ be a filter base on $\mathscr{L}_F^1$. Assume that there exists a compact set $K \subset X$ such that, for every set $M \in \mathscr{B}$, all of the functions $f \in M$ have their support in $K$. Under these conditions, if $\mathscr{B}$ converges uniformly on $X$ to $f_0$, then the function $f_0$ is integrable and
 
@@ -194,7 +194,7 @@ $$
 
 For, $\mathscr{B}$ converges in mean to $f_0$ (§ 3, No. 3, Prop. 4).
 
-#### Proposition 4 {#int-iv-s4-prop-4 .statement}
+#### Proposition 4 {#int-iv-s4-prop-4 .statement tag=08S8}
 
 — Let $(f_n)$ be an increasing (resp. decreasing) sequence of integrable numerical functions. For the upper (resp. lower) envelope $f$ of the sequence to be integrable, it is necessary and sufficient that $\sup_n \int f_n \, d|\mu| < +\infty$ (resp. $\inf_n \int f_n \, d|\mu| > -\infty$), in which case
 
@@ -204,7 +204,7 @@ $$
 
 We limit ourselves to considering an increasing sequence. The sequence $g_n = f_n + f_1^-$ is increasing and consists of integrable functions $\geqslant 0$; since its upper envelope is $g = f + f_1^-$, the proposition follows from Th. 5 of § 3, No. 6.
 
-#### Theorem 2 {#int-iv-s4-thm-2 .statement}
+#### Theorem 2 {#int-iv-s4-thm-2 .statement tag=08S9}
 
 — Let $A$ be a set of indices, filtered by a filter $\mathfrak{F}$ with a countable base. Let $(f_\alpha)_{\alpha \in A}$ be a family of integrable functions that, with respect to the filter $\mathfrak{F}$, converge pointwise almost everywhere to a function $f$; if there exists a numerical function $g \geqslant 0$ such that $\int^* g \, d|\mu| < +\infty$ and such that $|f_\alpha(x)| \leqslant g(x)$ almost everywhere in $X$ for each $\alpha \in A$, then the function $f$ is integrable and
 
@@ -214,7 +214,7 @@ $$
 
 The theorem follows from Lebesgue’s theorem (§ 3, No. 7, Cor. of Th. 6) since, under the conditions of the statement, $f_\alpha$ converges in mean to $f$ with respect to $\mathfrak{F}$.
 
-#### Corollary 1 {#int-iv-s4-thm-2-cor-1 .statement}
+#### Corollary 1 {#int-iv-s4-thm-2-cor-1 .statement tag=08SA}
 
 — Let $\Omega$ be a topological space, $t_0$ a point of $\Omega$ admitting a countable fundamental system of neighborhoods, $f$ a mapping of $X \times \Omega$ into $F$ having the following properties:
 a) for every $t \in \Omega$, the function $x \mapsto f(x, t)$ is integrable;
@@ -224,7 +224,7 @@ c) there exist a neighborhood U of t_0 and a numerical function g \geqslant 0 de
 
 Under these conditions, the mapping $t \mapsto \int \mathbf{f}(x,t) d\mu(x)$ of $\Omega$ into F is continuous at the point $t_0$.
 
-#### Corollary 2 {#int-iv-s4-thm-2-cor-2 .statement}
+#### Corollary 2 {#int-iv-s4-thm-2-cor-2 .statement tag=08SB}
 
 — Let $(\mathbf{f}_n)$ be a sequence of integrable functions such that the series with general term $\mathbf{f}_n(x)$ converges almost everywhere; if there exists a function $g \geqslant 0$ such that $\int^* g d|\mu| < +\infty$ and such that, for every integer $n$, $\left| \sum_{k=1}^n \mathbf{f}_k(x) \right| \leqslant g(x)$ almost everywhere, then the sum $\mathbf{f}(x)$ (defined almost everywhere) of the series with general term $\mathbf{f}_n(x)$ is integrable and
 
@@ -236,7 +236,7 @@ $$
 
 ### 4. Characterizations of integrable numerical functions
 
-#### Proposition 5 {#int-iv-s4-prop-5 .statement}
+#### Proposition 5 {#int-iv-s4-prop-5 .statement tag=08SC}
 
 — For a numerical function $f \geqslant 0$ (finite or not), lower semi-continuous on X, to be integrable, it is necessary and sufficient that $\int^* f d|\mu| < +\infty$.
 
@@ -248,13 +248,13 @@ $$
 
 in other words $N_1(f - g) = |\mu|^*(f - g) = |\mu|^*(f) - |\mu|(g) \leqslant \varepsilon$, which proves that $f$ is integrable (§ 3, No. 4, Prop. 7).
 
-#### Corollary 1 {#int-iv-s4-prop-5-cor-1 .statement}
+#### Corollary 1 {#int-iv-s4-prop-5-cor-1 .statement tag=08SD}
 
 — For a finite numerical function $f \geqslant 0$, upper semi-continuous on X, to be integrable, it is necessary and sufficient that $\int^* f d|\mu| < +\infty$.
 
 For, if $|\mu|^*(f) < +\infty$, then there exists a lower semi-continuous function $h$ such that $f \leqslant h$ and $|\mu|^*(h) < +\infty$; $h - f$ is everywhere defined and lower semi-continuous, and $|\mu|^*(h - f) \leqslant |\mu|^*(h) < +\infty$; therefore $h - f$ is integrable, and since $f(x) = h(x) - (h(x) - f(x))$ almost everywhere, $f$ is integrable.
 
-#### Corollary 2 {#int-iv-s4-prop-5-cor-2 .statement}
+#### Corollary 2 {#int-iv-s4-prop-5-cor-2 .statement tag=08SE}
 
 — Let $\mathbf{H}$ be a nonempty set, directed for the relation $\leqslant$ (resp. $\geqslant$), of lower (resp. upper) semi-continuous and integrable numerical functions; if
 
@@ -284,19 +284,19 @@ $$
 
 we can apply to them what has been proved above; if $g'$ is the upper envelope of the $f'$, then $h$ and $g'$ are finite almost everywhere, therefore $h - g'$ is defined almost everywhere and is equal to $g$ almost everywhere; from this, the conclusions of the corollary follow at once in this case.
 
-#### Corollary 3 {#int-iv-s4-prop-5-cor-3 .statement}
+#### Corollary 3 {#int-iv-s4-prop-5-cor-3 .statement tag=08SF}
 
 — Let $f$ be a bounded numerical function, upper semi-continuous on $X$ and with compact support. Then, the mapping $\mu \mapsto \int f\, d\mu$ is upper semi-continuous on $\mathscr{M}_+(X)$ for the vague topology.
 
 If $h$ is a function in $\mathscr{K}_+(X)$ such that $|f| \leq h$ (Ch. III, §1, No. 2, Lemma 1) then $0 \leq f + h \leq 2h$, and since $f + h$ is upper semi-continuous, it follows from Cor. 1 that $f$ is $\mu$-integrable for every measure $\mu$ on $X$. Moreover, $\mu(f) = \mu(h) - \mu(h - f)$ and $h - f$ is a lower semi-continuous function $\geq 0$. Since the mapping $\mu \mapsto \mu(h - f)$ is lower semi-continuous on $\mathscr{M}_+(X)$ for the vague topology (§1, No. 1, Prop. 4), this proves the corollary.
 
-#### Theorem 3 {#int-iv-s4-thm-3 .statement}
+#### Theorem 3 {#int-iv-s4-thm-3 .statement tag=08SG}
 
 — For a numerical function $f \geq 0$ to be integrable, it is necessary and sufficient that, for every $\varepsilon > 0$, there exist an upper semi-continuous function $g \geq 0$, with finite values and compact support, and a lower semi-continuous integrable function $h$, such that $g \leq f \leq h$ and $\int (h - g)\, d|\mu| \leq \varepsilon$.
 
 The condition is sufficient by a general criterion for integrability (§3, No. 4, Prop. 8), Prop. 5 and its Corollary 1. Let us show that the condition is necessary. If $f \geq 0$ is integrable then, for every $\varepsilon > 0$, there exists a function $u \geq 0$, continuous and with compact support, such that $N_1(f - u) \leq \varepsilon/4$. By the definition of $N_1$, this implies that there exists a lower semi-continuous function $v \geq 0$ such that $|\mu|^*(v) \leq \varepsilon/2$ and $|f - u| \leq v$. Thus, $-v(x) \leq f(x) - u(x) \leq v(x)$ for all $x \in X$, and since $u(x)$ is everywhere finite, it follows that $(u(x) - v(x))^+ \leq f(x) \leq u(x) + v(x)$ for all $x \in X$. The functions $g = (u - v)^+$ and $h = u + v$ meet the requirements.
 
-#### Corollary {#int-iv-s4-n4-cor-1 .statement}
+#### Corollary {#int-iv-s4-n4-cor-1 .statement tag=08SH}
 
 — For every integrable (resp. integrable and $\geq 0$) numerical function $f$, there exist an increasing sequence $(g_n)$ of upper semi-continuous functions that are integrable (resp. integrable, with finite values $\geq 0$, and with compact support), and a decreasing sequence $(h_n)$ of lower semi-continuous integrable functions, such that:
 $1^\circ$ $g_n(x) \leq f(x) \leq h_n(x)$ for all $x \in X$ and every integer $n$;
@@ -329,29 +329,29 @@ $$
 $$
 Moreover, we can suppose that the $g'_n$ and the $h''_n$ are everywhere finite; it is then clear that the sequences $g_n = g'_n + g''_n$ and $h_n = h'_n + h''_n$ meet the requirements.
 
-#### Example {#int-iv-s4-n4-exa-1 .statement}
+#### Example {#int-iv-s4-n4-exa-1 .statement tag=08SI}
 
 For every positive measure $\mu$ on $\mathbf{R}$, every *step function* with compact support is $\mu$-integrable; for, the characteristic function of an open (resp. closed) interval is lower (resp. upper) semi-continuous, and every step function is a linear combination of such characteristic functions. It follows that if $\mathbf{f}$ is a *regulated* function on $\mathbf{R}$ with compact support (FRV, II, §1, No. 3), then $\mathbf{f}$ is integrable, because it is the uniform limit of a sequence of step functions $\mathbf{g}_n$ with support contained in a fixed compact set (No. 3, Prop. 3); moreover, $\int \mathbf{f}\, d\mu = \lim_{n \to \infty} \int \mathbf{g}_n\, d\mu$.
 
 If, in particular, $\mu$ is taken to be Lebesgue measure, one sees that for every regulated function $\mathbf{f}$ with compact support, the integral $\int \mathbf{f}\, d\mu$ is equal to the integral $\int_{-\infty}^{+\infty} \mathbf{f}(x)\, dx$ defined in FRV, II, §2, No. 1.
 
-#### Remark 1 {#int-iv-s4-n4-rem-1 .statement}
+#### Remark 1 {#int-iv-s4-n4-rem-1 .statement tag=08SJ}
 
 Let $\mathbf{f}$ be a regulated function on $\mathbf{R}$ that is integrable with respect to Lebesgue measure $\mu$; then $|\mathbf{f}|$ is also integrable (No. 2, Cor. 1 of Prop. 1), and, setting $I_n = [-n, n]$, $|\mathbf{f}|$ is the upper envelope of the increasing sequence of regulated functions $|\mathbf{f}| \varphi_{I_n}$, therefore $\int |\mathbf{f}|\, d\mu = \lim_{n \to \infty} \int_{-n}^{n} |\mathbf{f}(x)|\, dx$ by Th. 2 of No. 3; thus, the integral $\int_{-\infty}^{+\infty} f(x) dx$ is *absolutely convergent* (FRV, II, §2, No. 3). Moreover, $\int f\, d\mu = \int_{-\infty}^{+\infty} f(x) dx$ by Th. 2 of No. 3. Conversely, suppose that $\int_{-\infty}^{+\infty} f(x) dx$ is absolutely convergent; again, by Th. 2 of No. 3, $\int f\, d\mu = \int_{-\infty}^{+\infty} f(x) dx$. Note that if the integral $\int_{-\infty}^{+\infty} f(x) dx$ is convergent but not absolutely convergent; then $f$ *is not integrable* with respect to Lebesgue measure.
 
-#### Remark 2 {#int-iv-s4-n4-rem-2 .statement}
+#### Remark 2 {#int-iv-s4-n4-rem-2 .statement tag=08SK}
 
 Applied to Lebesgue measure and to regulated functions, Prop. 3 of No. 3 yields anew the theorem on passage to the limit for integrals of regulated functions on a compact interval (FRV, II, §3, No. 1, Prop. 1); for *sequences* (or for filters with a countable base) of regulated functions, Th. 2 of No. 3 greatly improves on this proposition since, for uniformly bounded regulated functions on a compact interval, it substitutes *pointwise* convergence for *uniform* convergence (cf. §5, No. 4, Th. 2). However, as regards the passage to the limit for *absolutely convergent* integrals of regulated functions on a noncompact interval, we note that the conditions of Th. 2 of No. 3 imply that the integrals under consideration are *uniformly convergent* (in the sense defined in FRV, II, §3, No. 2), and thus do not improve on the conditions for convergence given in Book IV (*loc. cit.*) except as concerns the convergence of the functions $f_\alpha$ on every compact interval. Finally, the conditions for passing to the limit given for *non absolutely convergent* integrals of regulated functions remain outside the theory developed in this chapter.
 
 ### 5. Integrable sets
 
-#### Definition 2 {#int-iv-s4-def-2 .statement}
+#### Definition 2 {#int-iv-s4-def-2 .statement tag=08SL}
 
 *A subset* $A$ *of a locally compact space* $X$ *is said to be integrable with respect to a measure* $\mu$ *on* $X$ *(or, that it is* $\mu$*-integrable)* *if the characteristic function* $\varphi_A$ *of* $A$ *is integrable.* *The finite number* $\mu(A) = \int \varphi_A\, d\mu$ *is called the measure of* $A$.
 
 For every integrable set $A$, $|\mu|(A) = |\mu|^*(A)$ (No. 2, Prop. 1); for a set to be *negligible*, it is necessary and sufficient that it be of *measure zero with respect to* $|\mu|$.
 
-#### Proposition 6 {#int-iv-s4-prop-6 .statement}
+#### Proposition 6 {#int-iv-s4-prop-6 .statement tag=08SM}
 
 *The union of a finite family* $(A_i)_{1 \leq i \leq n}$ *of integrable sets is integrable,* and
 
@@ -367,7 +367,7 @@ $$
 
 For, if $A = \bigcup_{i=1}^n A_i$ then $\varphi_A = \sup \varphi_{A_i}$, therefore (§ 3, No. 5, Cor. of Prop. 12) if the $A_i$ are integrable then so is $A$; the relation (13) is a special case of the analogous relation for outer measures (§ 1, No. 4, Prop. 18), on taking account of the relation $|\mu|(A) = |\mu|^*(A)$; finally, if the $A_i$ are pairwise disjoint, then $\varphi_A = \sum_{i=1}^n \varphi_{A_i}$, whence (14).
 
-#### Proposition 7 {#int-iv-s4-prop-7 .statement}
+#### Proposition 7 {#int-iv-s4-prop-7 .statement tag=08SN}
 
 1° *If A and B are two integrable sets such that $B \subset A$, then the set $C = A - B$ is integrable and*
 
@@ -379,13 +379,13 @@ $$
 
 The first part follows from the fact that $\varphi_C = \varphi_A - \varphi_B$. On the other hand, if $(A_n)$ is a sequence of integrable sets and $A$ is its intersection, then $\varphi_A = \inf_n \varphi_{A_n}$, therefore $A$ is integrable (No. 3, Prop. 4).
 
-#### Corollary {#int-iv-s4-n5-cor-1 .statement}
+#### Corollary {#int-iv-s4-n5-cor-1 .statement tag=08SO}
 
 *If $(A_n)$ is a decreasing sequence of integrable sets, then* $\mu(\bigcap_n A_n) = \lim_{n \to \infty} \mu(A_n)$.
 
 For, if $A = \bigcap_n A_n$ then $\varphi_A$ is the lower envelope of the decreasing sequence $(\varphi_{A_n})$ (No. 3, Prop. 4).
 
-#### Proposition 8 {#int-iv-s4-prop-8 .statement}
+#### Proposition 8 {#int-iv-s4-prop-8 .statement tag=08SP}
 
 *Let $(A_n)$ be an increasing sequence of integrable sets; for the union $A = \bigcup_n A_n$ to be integrable, it is necessary and sufficient that* $\sup_n |\mu|(A_n) < +\infty$, *in which case,*
 
@@ -395,7 +395,7 @@ $$
 
 For, the $\varphi_{A_n}$ form an increasing sequence of integrable functions, and $\varphi_A = \sup_n \varphi_{A_n}$; thus, the proposition follows from Prop. 4 of No. 3.
 
-#### Corollary {#int-iv-s4-n5-cor-2 .statement}
+#### Corollary {#int-iv-s4-n5-cor-2 .statement tag=08SQ}
 
 *Let $(A_n)$ be a sequence of integrable sets such that* $\sum_{n=1}^\infty |\mu|(A_n) < +\infty$; *the union* $A = \bigcup_n A_n$ *is integrable, and*
 
@@ -411,7 +411,7 @@ $$
 
 (§1, No. 4, Prop. 18); therefore A is integrable (§3, No. 6, Cor. 2 of Th. 5) and, since $|\mu|(A) = |\mu|^*(A)$, we indeed have (17).
 
-#### Proposition 9 {#int-iv-s4-prop-9 .statement}
+#### Proposition 9 {#int-iv-s4-prop-9 .statement tag=08SR}
 
 — Let $(A_n)$ be a sequence of pairwise disjoint integrable sets such that $\sum_{n=1}^\infty |\mu|(A_n) < +\infty$; then
 
@@ -425,31 +425,31 @@ The relation (18) is also expressed by saying that the measure $\mu$ is complete
 
 ### 6. Criteria for the integrability of a set
 
-#### Proposition 10 {#int-iv-s4-prop-10 .statement}
+#### Proposition 10 {#int-iv-s4-prop-10 .statement tag=08SS}
 
 — For an open (resp. closed) set $A$ in $X$ to be integrable, it is necessary and sufficient that $|\mu|^*(A) < +\infty$.
 
 Since $\varphi_A$ is then lower (resp. upper) semi-continuous, the proposition follows from Prop. 5 of No. 4 and its Corollary 1.
 
-#### Corollary 1 {#int-iv-s4-prop-10-cor-1 .statement}
+#### Corollary 1 {#int-iv-s4-prop-10-cor-1 .statement tag=08ST}
 
 — Every compact set is integrable; every relatively compact open set is integrable.
 
-#### Corollary 2 {#int-iv-s4-prop-10-cor-2 .statement}
+#### Corollary 2 {#int-iv-s4-prop-10-cor-2 .statement tag=08SU}
 
 — For every positive measure $\mu$ on $X$, $A \mapsto \mu^*(A)$ is a capacity on $X$ (cf. GT, IX, §6, No. 9, Example).
 
-#### Example {#int-iv-s4-n6-exa-1 .statement}
+#### Example {#int-iv-s4-n6-exa-1 .statement tag=08SV}
 
 For Lebesgue measure $\mu$ on $\mathbf{R}$, it follows from Prop. 10 that every bounded open interval $[a, b[$ is integrable and has measure $b - a$ (\§1, No. 2, Prop. 9). Since every set reducing to a point is negligible for Lebesgue measure, it follows that all of the intervals with endpoints $a$ and $b$ have the same measure $b - a$.
 
-#### Proposition 11 {#int-iv-s4-prop-11 .statement}
+#### Proposition 11 {#int-iv-s4-prop-11 .statement tag=08SW}
 
 — Let $\mathscr{G}$ be a set, directed for the relation $\subset$, of integrable open sets in $X$; for $A = \bigcup_{G \in \mathscr{G}} G$ to be integrable, it is necessary and sufficient that $\sup_{G \in \mathscr{G}} |\mu|(G) < +\infty$, in which case $\mu(A) = \lim_\mathscr{G} \mu(G)$ and $|\mu|(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$.
 
 For, one knows that $|\mu|^*(A) = \sup_{G \in \mathscr{G}} |\mu|(G)$ (\§1, No. 2, Prop. 7); the proposition therefore follows from Prop. 10.
 
-#### Corollary {#int-iv-s4-n6-cor-1 .statement}
+#### Corollary {#int-iv-s4-n6-cor-1 .statement tag=08SX}
 
 — Let $\mathfrak{F}$ be a set, directed for the relation $\supset$, of integrable closed sets in $X$; then the closed set $B = \bigcap_{H \in \mathfrak{F}} H$ is integrable, and one has
 $$
@@ -457,7 +457,7 @@ $$
 $$
 For, let $H_0$ be a set in $\mathfrak{F}$; since $H_0$ is integrable, it is contained in an integrable open set $U$ (§ 1, No. 4, Prop. 19); the open sets $U \cap \mathbf{C}H$ form a set directed for the relation $\subset$, are contained in $U$, and have union $U \cap \mathbf{C}B$; we are thus reduced to Prop. 11.
 
-#### Theorem 4 {#int-iv-s4-thm-4 .statement}
+#### Theorem 4 {#int-iv-s4-thm-4 .statement tag=08SY}
 
 — For a set $A$ to be integrable, it is necessary and sufficient that, for every $\varepsilon > 0$, there exist an integrable open set $G$ and a compact set $K$, such that $K \subset A \subset G$ and
 $$
@@ -476,7 +476,7 @@ $$
 $$
 which completes the proof, since $\delta$ is arbitrary.
 
-#### Corollary 1 {#int-iv-s4-thm-4-cor-1 .statement}
+#### Corollary 1 {#int-iv-s4-thm-4-cor-1 .statement tag=08SZ}
 
 — For a set $A$ to be integrable, it is necessary and sufficient that, for every $\varepsilon > 0$, there exist a compact set $K \subset A$ such that $|\mu|^*(A - K) \leq \varepsilon$. The measure $|\mu|(A)$ is then the supremum of the set of measures $|\mu|(K)$ of the compact sets $K \subset A$.
 
@@ -484,7 +484,7 @@ The condition is necessary, because if $G$ and $K$ satisfy the conditions of The
 
 The condition is sufficient, because it says that, for the topology of convergence in mean, $\varphi_A$ is in the closure of the set of integrable functions $\varphi_K$ ($K$ an arbitrary compact subset of $A$).
 
-#### Corollary 2 {#int-iv-s4-thm-4-cor-2 .statement}
+#### Corollary 2 {#int-iv-s4-thm-4-cor-2 .statement tag=08T0}
 
 — For every integrable set $A$, there exist:
 
@@ -496,13 +496,13 @@ $1^\circ$ For every integer $n$, there exists an integrable open set $G_n \supse
 
 $2^\circ$ Let us define compact sets $K_n$ inductively as follows: $K_1 \subset A$ and $|\mu|(A - K_1) \leq 1$; $K_n \subset A - \bigcup_{i=1}^{n-1} K_i$ and $|\mu|(A \cap \mathbf{C}(\bigcup_{i=1}^{n-1} K_i) \cap \mathbf{C}K_n) \leq 1/n$ for $n > 1$ (Th. 4); if $A_2$ is the union of the $K_n$, then $|\mu|(A_2) = |\mu|(A)$ (No. 5, Prop. 8), therefore $A - A_2$ is negligible.
 
-#### Corollary 3 {#int-iv-s4-thm-4-cor-3 .statement}
+#### Corollary 3 {#int-iv-s4-thm-4-cor-3 .statement tag=08T1}
 
 — Every set of finite outer measure is contained in the union of a negligible set and a countable family of pairwise disjoint compact sets the sum of whose measures is finite.
 
 It suffices to apply Corollary 2 to an integrable open set containing the given set.
 
-#### Corollary 4 {#int-iv-s4-thm-4-cor-4 .statement}
+#### Corollary 4 {#int-iv-s4-thm-4-cor-4 .statement tag=08T2}
 
 — For every open set $U$ in $X$, $|\mu|^*(U)$ is the supremum of the measures $|\mu|(K)$ of the compact sets $K \subset U$.
 
@@ -512,7 +512,7 @@ Note that $|\mu|^*(U)$ is also the supremum of the measures $|\mu|(G)$ of the re
 
 ### 7. Characterization of bounded measures
 
-#### Proposition 12 {#int-iv-s4-prop-12 .statement}
+#### Proposition 12 {#int-iv-s4-prop-12 .statement tag=08T3}
 
 — For a measure $\mu$ on a locally compact space $X$ to be bounded (Ch. III, §1, No. 8), it is necessary and sufficient that $X$ be an integrable set with respect to $\mu$ (or, what comes to the same thing, that every finite constant function be integrable); in this case,
 
@@ -526,7 +526,7 @@ For every bounded measure $\mu$, we again say that $\mu(X)$ is the total mass of
 
 It follows from Th. 4 of No. 6 that if $\mu$ is a bounded measure then, for every $\varepsilon > 0$, there exists a compact set $K$ such that $|\mu|(CK) \leq \varepsilon$.
 
-#### Proposition 13 {#int-iv-s4-prop-13 .statement}
+#### Proposition 13 {#int-iv-s4-prop-13 .statement tag=08T4}
 
 — Let $\mu$ be a bounded measure on $X$. Let $\mathscr{B}$ be a filter base on $\mathscr{L}_F^p$ having the following properties:
 $1^\circ$ there exists a set $M \in \mathscr{B}$ such that the functions $f \in M$ are uniformly bounded on $X$;
@@ -541,7 +541,7 @@ $$
 
 it follows from the foregoing that if $f \in M \cap N$ then $N_p((f - f_0)\varphi_K) \leq \varepsilon$ and $N_p((f - f_0)\varphi_{CK}) \leq 2a\varepsilon$, whence $N_p(f - f_0) \leq (2a + 1)\varepsilon$, which proves the proposition.
 
-#### Corollary {#int-iv-s4-n7-cor-1 .statement}
+#### Corollary {#int-iv-s4-n7-cor-1 .statement tag=08T5}
 
 — For a bounded measure $\mu$ on $X$, every bounded continuous mapping $f$ of $X$ into $F$ belongs to each of the $\mathscr{L}_F^p$ ($1 \leq p < +\infty$).
 
@@ -581,7 +581,7 @@ $$
 
 In particular, if $f$ is continuous on $X$ then $f$ is $\mu$-integrable, since $fh \in \mathscr{K}(X; F)$ for every function $h \in \mathscr{K}(X; \mathbf{R})$ equal to 1 on $S$ (Ch. III, §1, No. 2, Lemma 1). More precisely:
 
-#### Proposition 14 {#int-iv-s4-prop-14 .statement}
+#### Proposition 14 {#int-iv-s4-prop-14 .statement tag=08T6}
 
 — Let X be a locally compact space, F a Banach space not reduced to 0; equip the space $\mathscr{C}(X; F)$ of all continuous mappings of X into F with the topology of compact convergence. For a measure $\mu$ on X to be such that the linear mapping $f \mapsto \int f d\mu$ of $\mathscr{K}(X; F)$ into F is extendible to a continuous linear mapping of $\mathscr{C}(X; F)$ into F, it is necessary and sufficient that $\operatorname{Supp}(\mu)$ be compact; such an extension is unique and coincides with the integral defined in No. 1.
 
@@ -595,25 +595,25 @@ $1^\circ$ H is equicontinuous;
 
 $2^\circ$ for every $x \in X$, the set $H(x)$ of the $f(x)$, where $f$ runs over H, is bounded in $\mathbf{C}$.
 
-#### Proposition 15 {#int-iv-s4-prop-15 .statement}
+#### Proposition 15 {#int-iv-s4-prop-15 .statement tag=08T7}
 
 — Let X be a locally compact space and, for every $x \in X$, let $\varepsilon_x$ be the Dirac measure at the point x. The mapping $x \mapsto \varepsilon_x$ of X into $\mathscr{C}'(X; \mathbf{C})$ is continuous for the topology of compact convergence on $\mathscr{C}'(X; \mathbf{C})$.
 
 Consider a neighborhood of $\varepsilon_{x_0}$ in $\mathscr{C}'(X; \mathbf{C})$ for this topology, which we can suppose to be defined by taking a number $\delta > 0$, a compact subset H of $\mathscr{C}(X; \mathbf{C})$, and considering the set of measures $\mu$ on X with compact support such that $|\mu(f) - \varepsilon_{x_0}(f)| \leq \delta$ for every function $f \in H$. Since H is equicontinuous, there exists a neighborhood U of $x_0$ in X such that the relation $f \in H$ implies $|f(x) - f(x_0)| \leq \delta$ for all $x \in U$, which may also be written $|\varepsilon_x(f) - \varepsilon_{x_0}(f)| \leq \delta$ and proves the proposition.(*)
 
-#### Proposition 16 {#int-iv-s4-prop-16 .statement}
+#### Proposition 16 {#int-iv-s4-prop-16 .statement tag=08T8}
 
 — Let K be a compact subset of X, L the vector space of measures $\mu$ on X with support contained in K. On L, the topologies induced by the topology $\mathscr{T}$ of compact convergence on $\mathscr{C}'(X; \mathbf{C})$ and the topology $\mathscr{T}'$ of strictly compact convergence on $\mathscr{M}(X; \mathbf{C})$ (Ch. III, §1, No. 10) coincide.
 
 It is clear that on L, the topology induced by $\mathscr{T}$ is finer than the topology induced by $\mathscr{T}'$. Conversely, let H be a compact subset of $\mathscr{C}(X; \mathbf{C})$, h a function in $\mathscr{K}(X; \mathbf{C})$ equal to 1 on K. It is clear that the set H' of functions $fh$, where $f$ runs over H, is strictly compact in $\mathscr{K}(X; \mathbf{C})$, and, for every measure $\mu \in L$, $\mu(f) = \mu(fh)$ for every function $f \in H$, whence the conclusion.
 
-#### Corollary 1 {#int-iv-s4-prop-16-cor-1 .statement}
+#### Corollary 1 {#int-iv-s4-prop-16-cor-1 .statement tag=08T9}
 
 — For every compact subset K of X and every number $a > 0$, the set B of measures $\mu$ on X such that $\operatorname{Supp}(\mu) \subset K$ and $\| \mu \| \leq a$ is an equicontinuous subset of $\mathscr{C}'(X; \mathbf{C})$ that is compact for the topology $\mathscr{T}$ of compact convergence.
 
 For, let H be a subset of $\mathscr{C}(X; \mathbf{C})$ consisting of functions that are uniformly bounded on K; there exists a number $c > 0$ such that $|\mu(f)| \leq c \cdot \| \mu \| \leq ac$ for every function $f \in H$ and every measure $\mu \in B$, by virtue of (22); therefore $B \subset acH^\circ$ in the dual $\mathscr{C}'(X; \mathbf{C})$ of $\mathscr{C}(X; \mathbf{C})$, which proves the equicontinuity of B; the fact that B is compact for $\mathscr{T}$ follows from the fact that, on B, $\mathscr{T}$ and the vague topology induce the same topology (Prop. 16 and Ch. III, §1, No. 10, Prop. 17) and the fact that B is vaguely compact (Ch. III, §1, No. 9, Cor. 2 of Prop. 15 and §2, No. 2, Prop. 6).
 
-#### Corollary 2 {#int-iv-s4-prop-16-cor-2 .statement}
+#### Corollary 2 {#int-iv-s4-prop-16-cor-2 .statement tag=08TA}
 
 — Every measure with compact support (resp. every positive measure with compact support) $\mu$ is in the closure in $\mathscr{C}'(X; \mathbf{C})$, for the topology $\mathscr{T}$ of compact convergence, of the set of measures (resp.
 
@@ -625,15 +625,15 @@ For, on the set B of measures $\nu$ such that $\mathrm{Supp}(\nu) \subset \mathr
 
 ### 9. Clans and additive set functions
 
-#### Definition 3 {#int-iv-s4-def-3 .statement}
+#### Definition 3 {#int-iv-s4-def-3 .statement tag=08TB}
 
 *A nonempty set $\Phi$ of subsets of a set $A$ is said to be a clan if there exists an algebra $\mathscr{A}$ (over $\mathbf{R}$) consisting of real-valued functions defined on $A$, such that the relations $M \in \Phi$ and $\varphi_M \in \mathscr{A}$ are equivalent.*
 
-#### Example {#int-iv-s4-n9-exa-1 .statement}
+#### Example {#int-iv-s4-n9-exa-1 .statement tag=08TC}
 
 If $\mu$ is a measure on a locally compact space $X$ then the linear combinations, with real coefficients, of the characteristic functions of integrable sets form an *algebra* $\mathscr{A}$, because, for any two integrable sets $M, N$, the function $\varphi_M \varphi_N = \varphi_{M \cap N}$ is integrable (No. 5, Prop. 7); it then follows from Defs. 2 and 3 that the set of integrable subsets of $X$ is a clan.
 
-#### Proposition 17 {#int-iv-s4-prop-17 .statement}
+#### Proposition 17 {#int-iv-s4-prop-17 .statement tag=08TD}
 
 *In order that a nonempty set $\Phi$ of subsets of a set $A$ be a clan, it is necessary and sufficient that it satisfy the following condition:*
 
@@ -647,7 +647,7 @@ $$
 
 To show that it is *sufficient*, we first observe that it implies that, for any two sets $M, N$ in $\Phi$, $M \cap N$ belongs to $\Phi$ since $M \cap N = M \cap \mathbf{C}(M \cap \mathbf{C}N)$. Let $\mathscr{E}(\Phi)$ be the set of linear combinations, with real coefficients, of the characteristic functions of the sets of $\Phi$. Since $\varphi_M \varphi_N = \varphi_{M \cap N}$, $\mathscr{E}(\Phi)$ is an algebra. Everything comes down to showing that if $M$ is a subset of $A$ such that $\varphi_M = \sum_i c_i \varphi_{M_i}$, where the $M_i$ belong to $\Phi$, then $M \in \Phi$. This will result from the following lemma:
 
-#### Lemma {#int-iv-s4-n9-lem-1 .statement}
+#### Lemma {#int-iv-s4-n9-lem-1 .statement tag=08TE}
 
 *Let $\Phi$ be a nonempty set of subsets of $A$ satisfying the axiom (CL). Given a finite family $(M_i)_{1 \leq i \leq n}$ of sets in $\Phi$, there exists a*
 
@@ -661,7 +661,7 @@ The lemma established, every function of the form $\sum_{i=1}^n c_i \varphi_{M_i
 
 Every clan $\Phi$ of subsets of $A$ contains the empty subset $\varnothing$ of $A$; for, there exists at least one subset $M \in \Phi$, therefore $M - M = \varnothing$ belongs to $\Phi$. Note also that the set of subsets of $A$ consisting of the single subset $\varnothing$ is a clan.
 
-#### Definition 4 {#int-iv-s4-def-4 .statement}
+#### Definition 4 {#int-iv-s4-def-4 .statement tag=08TF}
 
 *Given a clan $\Phi$ of subsets of a set $A$, and a Banach space $F$, one calls step function*² *over the sets of $\Phi$ (or $\Phi$-step function), with values in $F$, every function of the form* $\sum_i a_i \varphi_{M_i}$, *where the $a_i$ belong to $F$, and the $M_i$ to $\Phi$.*
 
@@ -669,19 +669,19 @@ It is clear that the set $\mathscr{E}_F(\Phi)$ of $\Phi$-step functions with val
 
 By the Lemma, every function in $\mathscr{E}_F(\Phi)$ may be written $f = \sum_j c_j \varphi_{N_j}$, where the $N_j \in \Phi$ are pairwise disjoint; from this it follows that $|f| = \sum_j |c_j| \varphi_{N_j}$ belongs to $\mathscr{E}(\Phi)$. In particular, $\mathscr{E}(\Phi)$ is a *Riesz space*, since the upper envelope of two functions in $\mathscr{E}(\Phi)$ belongs to $\mathscr{E}(\Phi)$.
 
-#### Remark {#int-iv-s4-n9-rem-1 .statement}
+#### Remark {#int-iv-s4-n9-rem-1 .statement tag=08TG}
 
 — It is easily seen that Def. 4 is equivalent to the following: a $\Phi$-step function with values in $F$ is a function $f$ that takes on only a finite number of values and which is such that, for every $a \neq 0$ in $F$, the set $f(a)^{-1}$ belongs to $\Phi$.
 
 ² Fonction étagée, whence the notation $\mathscr{E}(\Phi)$ in what follows.
 
-#### Definition 5 {#int-iv-s4-def-5 .statement}
+#### Definition 5 {#int-iv-s4-def-5 .statement tag=08TH}
 
 — *A real-valued function* $\lambda$ *defined on a clan* $\Phi$ *of subsets of a set* $A$ *is said to be additive if, for every pair* $M, N$ *of disjoint sets belonging to* $\Phi$, $\lambda(M \cup N) = \lambda(M) + \lambda(N)$.
 
 It follows in particular from this definition that $\lambda(\varnothing) = 0$.
 
-#### Proposition 18 {#int-iv-s4-prop-18 .statement}
+#### Proposition 18 {#int-iv-s4-prop-18 .statement tag=08TI}
 
 — *Let* $\lambda$ *be an additive set function defined on a clan* $\Phi$. *There exists one and only one linear form* (again denoted $\lambda$) *on the vector space* $\mathscr{E}(\Phi)$ *of real-valued* $\Phi$*-step functions*, *such that* $\lambda(\varphi_M) = \lambda(M)$ *for every set* $M \in \Phi$; *if, moreover,* $\lambda(M) \geqslant 0$ *for every* $M \in \Phi$, *then* $\lambda$ *is a positive linear form on* $\mathscr{E}(\Phi)$.
 
@@ -697,25 +697,25 @@ which proves the existence of $\lambda$. Finally, suppose that $\lambda(M) \geqs
 
 ### 10. Approximation of continuous functions by step functions
 
-#### Proposition 19 {#int-iv-s4-prop-19 .statement}
+#### Proposition 19 {#int-iv-s4-prop-19 .statement tag=08TJ}
 
 — *Let* $X$ *be a locally compact space,* $\Phi$ *a clan of subsets of* $X$, *containing the set of compact subsets of* $X$. *For every continuous mapping* $f$ *of* $X$ *into a Banach space* $F$ *(resp. every continuous, real-valued function* $f \geqslant 0$ *on* $X$) *with compact support* $K$, *there exists a sequence* $(g_n)$ *of functions in* $\mathscr{E}_F(\Phi)$ *with support contained in* $K$ *(resp. a sequence* $(g_n)$ *of functions in* $\mathscr{E}(\Phi)$ *such that* $0 \leqslant g_n \leqslant f$ *for every* $n$) *that converges uniformly to* $f$ *(resp. $f$).
 
 Since $f$ is uniformly continuous on $K$, one can cover $K$ by a finite number of compact sets $M_i$ ($1 \leq i \leq m$) such that the oscillation of $f$ on each $M_i$ is $\leq 1/n$. Since the $M_i$ and $K$ belong to $\Phi$, there exists a partition of $K$ into sets $N_j \in \Phi$ such that each of the sets $M_i \cap K$ is the union of a certain number of the $N_j$ (No. 9, Lemma). Let $a_j$ be an element of $F$ such that $|f(x) - a_j| \leq 1/n$ on $N_j$. Setting $g_n = \sum_j a_j \varphi_{N_j}$, we have $|f - g_n| \leq 1/n$, whence the proposition in this case. One argues similarly for a continuous real-valued function $f$, on taking $a_j = \inf_{x \in N_j} f(x)$ and $g_n = \sum_j a_j \varphi_{N_j}$.
 
-#### Corollary 1 {#int-iv-s4-prop-19-cor-1 .statement}
+#### Corollary 1 {#int-iv-s4-prop-19-cor-1 .statement tag=08TK}
 
 *Let $\mu$ be a measure on $X$; the space $\mathscr{E}_F(\Phi)$ is dense in each of the spaces $\mathscr{L}_F^p$ ($1 \leq p < +\infty$).*
 
 For, it follows from Prop. 19 and the criterion for convergence in mean for uniform limits of functions with compact support (§ 3, No. 3, Prop. 4) that $\mathscr{E}_F(\Phi)$ is dense, for the topology of convergence in mean of order $p$, in the closure of the space $\mathscr{K}_F$ of continuous functions with compact support, whence the corollary.
 
-#### Corollary 2 {#int-iv-s4-prop-19-cor-2 .statement}
+#### Corollary 2 {#int-iv-s4-prop-19-cor-2 .statement tag=08TL}
 
 *For every closed subset $S$ of $X$, every function $f \in \mathscr{K}(X, S; \mathbf{C})$ is the uniform limit of linear combinations $\sum_i \lambda_i \varphi_{K_i}$, where the $\lambda_i$ belong to $\mathbf{C}$ and the $K_i$ are compact subsets of $S$.*
 
 The set $\mathscr{A}$ of such linear combinations is a $\mathbf{C}$-algebra. Let $\Phi$ be the set of subsets $M$ of $X$ such that $\varphi_M \in \mathscr{A}$; $\Phi$ is thus a *clan* all of whose elements are subsets of $S$, containing the compact subsets of $S$, and $\mathscr{E}_C(\Phi) \subset \mathscr{A}$. It then suffices to apply Prop. 19 to the locally compact space $S$ and the clan $\Phi$.
 
-#### Corollary 3 {#int-iv-s4-prop-19-cor-3 .statement}
+#### Corollary 3 {#int-iv-s4-prop-19-cor-3 .statement tag=08TM}
 
 *If $\mu$ and $\nu$ are two measures on $X$ such that $\mu(K) = \nu(K)$ for every compact subset $K$ of $X$, then $\mu = \nu$.*
 
@@ -739,7 +739,7 @@ We shall assume in addition that the function $\alpha$ defined on $\Phi$ satisfi
 
 On taking $N = \varnothing$ in the condition (PM_{III}), one deduces that $\alpha(\varnothing) = 0$; the condition (PM_I) then shows that $\alpha(M) \geq 0$ for every $M \in \Phi$.
 
-#### Theorem 5 {#int-iv-s4-thm-5 .statement}
+#### Theorem 5 {#int-iv-s4-thm-5 .statement tag=08TN}
 
 *Let $\Phi$ be a set of subsets of a locally compact space X, satisfying (PC_I) and (PC_{II}), and let $\alpha$ be a real-valued function, defined on $\Phi$, satisfying the conditions (PM_I), (PM_{II}) and (PM_{III}). In order that there exist a positive measure $\mu$ on X such that the sets of $\Phi$ are $\mu$-integrable and $\mu(M) = \alpha(M)$ for all $M \in \Phi$, it is necessary and sufficient that $\alpha$ satisfy in addition the following condition:*
 
@@ -858,7 +858,7 @@ The characterization of the open sets belonging to $\overline{\Phi}$, combined w
 
 Theorem 5 is thus completely proved.
 
-#### Corollary {#int-iv-s4-n11-cor-1 .statement}
+#### Corollary {#int-iv-s4-n11-cor-1 .statement tag=08TO}
 
 — *Let X be a locally compact space with a countable base, $\Psi$ the set of Borel sets of X, $\beta$ a mapping of $\Psi$ into $[0, +\infty]$ satisfying the following conditions:*
 

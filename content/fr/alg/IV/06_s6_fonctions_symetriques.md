@@ -40,7 +40,7 @@ subsections:
       pdf_page: 83
 statements: 46
 exercises: 15
-content_sha256: 6d66b0eb03ca63d2e8662adbc21749977c68da55041682a8f717b48a726d78f2
+content_sha256: 3daae1130c1757f1f0b474bd45019050f1be53705f554a41b85741e9f42a5513
 ---
 
 ## § 6. FONCTIONS SYMÉTRIQUES
@@ -80,7 +80,7 @@ $$
 (4) \quad \prod_{i=1}^n (X - X_i) = \sum_{k=0}^n (-1)^{n-k} s_{n-k} X^k .
 $$
 
-#### Théorème 1 {#alg-iv-s6-thm-1 .statement}
+#### Théorème 1 {#alg-iv-s6-thm-1 .statement tag=06EE}
 
 *Posons* $E = A[X_1, ..., X_n]$ *et* $S = A[X_1, ..., X_n]^{\text{sym}}$.
 
@@ -245,7 +245,7 @@ $$
 
 est commutatif.
 
-#### Proposition 1 {#alg-iv-s6-prop-1 .statement}
+#### Proposition 1 {#alg-iv-s6-prop-1 .statement tag=06EF}
 
 Pour tout couple d’entiers positifs k, n, soit S_k^{(n)} le A-module formé des polynômes symétriques en X_1, ..., X_n, homogènes de degré k. Si l’entier m satisfait à 0 ≤ k ≤ m ≤ n, l’application f ↦ f(X_1, ..., X_m, 0, ..., 0) est un isomorphisme de S_k^{(n)} sur S_k^{(m)}.
 
@@ -255,7 +255,7 @@ $$
 $$
 entraîne $\alpha(j) = 0$ pour $k < j \leq n$, d’où notre assertion.
 
-#### Exemple 3 {#alg-iv-s6-n1-exa-3 .statement}
+#### Exemple 3 {#alg-iv-s6-n1-exa-3 .statement tag=06EG}
 
 D’après l’exemple 2 de IV, p. 60, et la prop. 1 ci-dessus, on a donc
 $$
@@ -269,7 +269,7 @@ $$
 X_1^3 = s_{1,1}^3.
 $$
 
-#### Remarque {#alg-iv-s6-n1-rem-1 .statement}
+#### Remarque {#alg-iv-s6-n1-rem-1 .statement tag=06EH}
 
 Soient n et k deux entiers positifs. On note $\Delta_{k,n}$ l’ensemble des éléments de longueur k dans $\mathbf{N}^n$; de plus, on munit $\Delta_{k,n}$ de la relation d’ordre, notée $\alpha \leq \beta$, induite par l’ordre lexicographique sur $\mathbf{N}^n$ (E, III, p. 23), et l’on définit une action du groupe $\mathfrak{S}_n$ sur $\mathbf{N}^n$ par $(\sigma \alpha)(i) = \alpha(\sigma^{-1}(i))$ pour $\sigma \in \mathfrak{S}_n, \alpha \in \mathbf{N}^n$ et $1 \leq i \leq n$. Par ailleurs, notons $D_k$ l’ensemble des éléments $\alpha = (\alpha(1), ..., \alpha(k))$ de $\mathbf{N}^k$ tels que
 $$
@@ -299,7 +299,7 @@ On peut montrer (cf. IV, p. 94, exerc. 13) que la matrice $C = (c_{\alpha \beta}
 
 Supposons maintenant qu’on ait $n < k$ et identifions $\mathbf{N}^n$ à une partie de $\mathbf{N}^k$ par l’application $(\alpha(1), \ldots, \alpha(n)) \mapsto (\alpha(1), \ldots, \alpha(n), 0, \ldots, 0)$. Pour tout $\alpha$ dans $D_k \cap \mathbf{N}^n$, on note encore $0(\alpha)$ l’orbite de $\alpha$ dans $\Delta_{k,n}$ pour l’opération de $\mathfrak{S}_n$, et l’on définit $M(\alpha)$ par (11). On définit encore $S(\alpha)$ par la formule (12). Alors les familles $(M(\alpha))_{\alpha \in D_k \cap \mathbf{N}^n}$ et $(S(\alpha))_{\alpha \in D_k \cap \mathbf{N}^n}$ sont des bases du A-module $S_k^{(n)}$. D’après la formule (9) de IV, p. 60, on a une formule analogue à (13), où l’on remplace $D_k$ par $D_k \cap \mathbf{N}^n$, avec les mêmes entiers $c_{\alpha \beta}$.
 
-#### Exemple 4 {#alg-iv-s6-n1-exa-4 .statement}
+#### Exemple 4 {#alg-iv-s6-n1-exa-4 .statement tag=06EI}
 
 D’après l’exemple 3 de IV, p. 61, on a
 
@@ -319,7 +319,7 @@ pour $n = 2$.
 
 Soient $K$ un corps commutatif, $X_1, X_2, \ldots, X_n$ des indéterminées. Pour tout $\sigma \in \mathfrak{S}_n$, nous avons défini au no 1 (IV, p. 57) un automorphisme $\varphi_\sigma$ de $K[X_1, X_2, \ldots, X_n]$. Cet automorphisme se prolonge de manière unique en un automorphisme $\psi_\sigma$ du corps $K(X_1, \ldots, X_n)$, et $\sigma \mapsto \psi_\sigma$ est un homomorphisme injectif de $\mathfrak{S}_n$ dans le groupe des automorphismes de $K(X_1, \ldots, X_n)$. Pour tout $f \in K(X_1, \ldots, X_n)$, on a $(\psi_\sigma f)(X_1, \ldots, X_n) = f(X_{\sigma(1)}, \ldots, X_{\sigma(n)})$. Les fractions rationnelles $f$ telles que $\psi_\sigma(f) = f$ pour tout $\sigma \in \mathfrak{S}_n$ sont appelées fractions rationnelles symétriques. L’ensemble des fractions rationnelles symétriques en $X_1, \ldots, X_n$ est un sous-corps de $K(X_1, \ldots, X_n)$.
 
-#### Proposition 2 {#alg-iv-s6-prop-2 .statement}
+#### Proposition 2 {#alg-iv-s6-prop-2 .statement tag=06EJ}
 
 Le corps des fractions rationnelles symétriques en $X_1, \ldots, X_n$ est le corps des fractions de l’anneau des polynômes symétriques en $X_1, \ldots, X_n$.
 
@@ -327,7 +327,7 @@ Soit $f \in K(X_1, \ldots, X_n)$ une fraction rationnelle symétrique.
 
 Soient $u_1, v_1$ deux éléments de $K[X_1, ..., X_n]$ tels que $f = \frac{u_1}{v_1}$. Posons $v = \prod_{\sigma \in S_n} \psi_\sigma(v_1) \in K[X_1, ..., X_n]$, et $u = vf \in K[X_1, ..., X_n]$. Alors $v$ est symétrique, donc $u$ est symétrique puisque $f$ l’est, et l’on a $f = \frac{u}{v}$, d’où la proposition.
 
-#### Corollaire {#alg-iv-s6-n2-cor-1 .statement}
+#### Corollaire {#alg-iv-s6-n2-cor-1 .statement tag=06EK}
 
 *Soient $s_1, s_2, ..., s_n$ les polynômes symétriques élémentaires en $X_1, ..., X_n$. Pour toute fraction rationnelle $g \in K(S_1, S_2, ..., S_n)$, la suite $(s_1, s_2, ..., s_n)$ est substituable dans $g$, et l’application $g \mapsto g(s_1, s_2, ..., s_n)$ est un isomorphisme de $K(S_1, S_2, ..., S_n)$ sur le corps des fractions rationnelles symétriques en $X_1, ..., X_n$.*
 Cela résulte de la prop. 2 et du th. 1 de IV, p. 58.
@@ -358,7 +358,7 @@ $$
 
 tel que $\varphi_I(S_k) = s_k$ pour tout entier $k \geq 1$.
 
-#### Théorème 2 {#alg-iv-s6-thm-2 .statement}
+#### Théorème 2 {#alg-iv-s6-thm-2 .statement tag=06EL}
 
 **a)** *Si I est un ensemble fini à n éléments, $\varphi_1$ induit un isomorphisme bicontinu de $A[[S_1, ..., S_n]]$ sur $A[[X]]^{sym}$.*
 
@@ -366,14 +366,14 @@ tel que $\varphi_I(S_k) = s_k$ pour tout entier $k \geq 1$.
 
 Dans le cas a), on pose $B = A[[S_1, ..., S_n]]$ et on munit cette algèbre de la topologie induite par celle de $A[[S]]$; on note aussi $\psi_1$ la restriction de $\varphi_1$ à B. Dans le cas b), on pose $B = A[[S]]$ et $\psi_1 = \varphi_1$. On munit l’algèbre de polynômes $A[S]$ de la graduation de type $\mathbf{N}$ pour laquelle $S_k$ est de poids $k$ pour tout entier $k \geqslant 1$.
 
-#### Lemme 1 {#alg-iv-s6-lem-1 .statement}
+#### Lemme 1 {#alg-iv-s6-lem-1 .statement tag=06EM}
 
 *Soient J une partie finie de I, r un entier tel que Card J $\geqslant r$, et f une série formelle symétrique homogène de degré r en les $X_i$ ($i \in I$). Soit $\overline{f}$ la série formelle obtenue en substituant 0 à $X_i$ pour tout i dans I — J. Si $\overline{f} = 0$, on a $f = 0$.
 
 Posons $f = \sum_{|\alpha|=r} a_\alpha X^\alpha$ (où $|\alpha|$ est la longueur $\sum_{i \in I} \alpha_i$ du multiindice $\alpha = (\alpha_i)_{i \in I}$).
 Soit $\alpha$ un multiindice de longueur $r$, et soit J’ le support de $\alpha$ (ensemble des $i \in I$ tels que $\alpha_i \neq 0$). On a Card J’ $\leqslant r$, donc il existe une permutation $\sigma \in \mathfrak{S}_I$ telle que $\sigma(J') \subset J$. Posons $\beta_i = \alpha_{\sigma^{-1}(i)}$ pour $i \in I$. Le monôme $X^\beta = \prod_{i \in I} X_{\sigma(i)}^{\alpha_i}$ ne dépend que des indéterminées $X_j$ ($j \in J$), d’où $a_\beta = 0$ d’après l’hypothèse $\overline{f} = 0$. Comme $f$ est symétrique, on a $a_\alpha = a_\beta$. Vu l’arbitraire de $\alpha$, on a donc $f = 0$.
 
-#### Lemme 2 {#alg-iv-s6-lem-2 .statement}
+#### Lemme 2 {#alg-iv-s6-lem-2 .statement tag=06EN}
 
 *Soit f une série formelle symétrique homogène de degré r en les $X_i$ ($i \in I$). Il existe un unique polynôme $P \in B \cap A[S]$, isobare de poids r, tel que $f = \psi_1(P)$.
 
@@ -381,7 +381,7 @@ Le cas où I est fini résulte du th. 1 (IV, p. 58).
 
 Supposons I infini et choisissons une partie finie J de I à r éléments. Reprenons les notations du lemme 1. Remarquons que tout polynôme isobare de poids r en les $S_n$ ($n \geqslant 1$) ne dépend que de $S_1, ..., S_r$, et que $\overline{s}_1, ..., \overline{s}_r$ sont les polynômes symétriques élémentaires en les r indéterminées $X_j$ ($j \in J$). Si P est un polynôme isobare de poids r en les $S_n$, et $h = f - \psi_1(P)$, on a $\overline{h} = \overline{f} - P(\overline{s}_1, ..., \overline{s}_r)$, et le lemme 1 montre que la relation $f = \psi_1(P)$ équivaut à $\overline{f} = P(\overline{s}_1, ..., \overline{s}_r)$. D’après le th. 1 (IV, p. 58), il existe un unique polynôme $P \in A[S]$ isobare de poids r tel que $\overline{f} = P(\overline{s}_1, ..., \overline{s}_r)$, d’où le lemme.
 
-#### Lemme 3 {#alg-iv-s6-lem-3 .statement}
+#### Lemme 3 {#alg-iv-s6-lem-3 .statement tag=06EO}
 
 *Pour tout entier $m \geqslant 0$, soit $c_m$ l’idéal de l’algèbre $A[[X]]^{sym}$ formé des séries formelles symétriques d’ordre $\geqslant m$. La suite $(c_m)_{m \geqslant 0}$ est un système fondamental de voisinages de 0 dans $A[[X]]^{sym}$.
 
@@ -409,7 +409,7 @@ $$
 
 C’est une série formelle symétrique homogène de degré $k$.
 
-#### Lemme 4 (« Relations de Newton ») {#alg-iv-s6-lem-4 .statement}
+#### Lemme 4 (« Relations de Newton ») {#alg-iv-s6-lem-4 .statement tag=06EP}
 
 Pour tout entier $d \geq 1$, on a
 
@@ -437,7 +437,7 @@ $$
 
 et le lemme 4 en résulte par comparaison des composantes homogènes de degré $d$.
 
-#### Remarque {#alg-iv-s6-n4-rem-1 .statement}
+#### Remarque {#alg-iv-s6-n4-rem-1 .statement tag=06EQ}
 
 Avec les notations de la démonstration précédente, on a
 
@@ -492,7 +492,7 @@ $$
 
 tel que $\lambda_1(P_k) = p_k$ pour tout entier $k \geq 1$ (IV, p. 27). Si l’on munit $P_k$ du poids $k$, $\lambda_1$ transforme un polynôme isobare de poids $n$ en les $P_k$ en une série formelle homogène de degré $n$ en les $X_i$.
 
-#### Proposition 3 {#alg-iv-s6-prop-3 .statement}
+#### Proposition 3 {#alg-iv-s6-prop-3 .statement tag=06ER}
 
 **a)** *Si I est un ensemble fini à n éléments et si $n!.1$ est inversible dans $A$, $\lambda_1$ induit un isomorphisme bicontinu de $A[[P_1, ..., P_n]]$ sur $A[[X]]^{sym}$.
 
@@ -506,7 +506,7 @@ p_k = (-1)^{k+1} k s_k + g_k(s_1, ..., s_n) \quad (1 \leq k \leq n) .
 $$
 Comme $k!.1$ est inversible dans $A$, le lemme 2 de IV, p. 33, prouve l’existence d’un automorphisme $T$ de la $A$-algèbre topologique $A[[X]]^{sym}$ qui transforme $s_k$ en $p_k$ pour $1 \leq k \leq n$. La prop. 3, a) résulte aussitôt de là.
 
-#### Corollaire {#alg-iv-s6-n4-cor-1 .statement}
+#### Corollaire {#alg-iv-s6-n4-cor-1 .statement tag=06ES}
 
 **Soient $\xi_1, ..., \xi_n, \eta_1, ..., \eta_n$ des éléments de $A$. On suppose que $A$ est intègre.
 
@@ -547,7 +547,7 @@ $$
 
 où l’idéal $a$ est engendré par les polynômes $s_k + (-1)^{k+1} a_k$ pour $1 \leq k \leq n$, et $x_i$ est la classe de $X_i$ modulo $a$ pour $1 \leq i \leq n$. La relation (24) équivaut encore à $f(X) = \prod_{i=1}^n (X - x_i)$. Lorsqu’il y aura un risque d’ambiguïté, on écrira $x_{1,f}, \ldots, x_{n,f}$ pour $x_1, \ldots, x_n$ respectivement.
 
-#### Proposition 4 {#alg-iv-s6-prop-4 .statement}
+#### Proposition 4 {#alg-iv-s6-prop-4 .statement tag=06ET}
 
 *Soient B un anneau commutatif, ρ un homomorphisme de A dans B, et $\xi_1, \ldots, \xi_n$ des éléments de B. On suppose que l’on a la relation $^\rho f(X) = \prod_{i=1}^n (X - \xi_i)$ dans B[X]. Il existe alors un homomorphisme d’anneaux $u : E_f \to B$ et un seul tel que $\rho(a) = u(a.1)$ pour tout $a \in A$ et $u(x_i) = \xi_i$ pour $1 \leq i \leq n$.
 
@@ -561,7 +561,7 @@ dans B. Comme les relations (24) définissent une présentation de $E_f$, la pro
 
 La prop. 4 justifie le nom d’« algèbre de décomposition universelle de $f$ » pour $E_f$. La relation $f(X) = \prod_{i=1}^n (X - x_{i,f})$ s’appelle la « décomposition universelle de $f$ ». Soit $\sigma \in S_n$ une permutation ; comme on a $f(X) = \prod_{i=1}^n (X - x_{\sigma(i),f})$, il existe un automorphisme $t_\sigma$ de la A-algèbre $E_f$, caractérisé par $t_\sigma(x_{i,f}) = x_{\sigma(i),f}$ pour $1 \leq i \leq n$. On a $t_{\sigma \tau} = t_\sigma \circ t_\tau$ pour $\sigma, \tau$ dans $S_n$, d’où une action du groupe $S_n$ sur la A-algèbre $E_f$.
 
-#### Proposition 5 {#alg-iv-s6-prop-5 .statement}
+#### Proposition 5 {#alg-iv-s6-prop-5 .statement tag=06EU}
 
 *Dans l’algèbre de décomposition universelle $E_f$, la famille des monômes $x_1^{\nu(1)} \ldots x_n^{\nu(n)}$, tels que $0 \leq \nu(i) < i$ pour $1 \leq i \leq n$, est une base du A-module $E_f$. En particulier, $E_f$ est un A-module libre de rang $n!$.
 
@@ -579,12 +579,12 @@ $$
 
 d’où la prop. 5 puisque $E_f = B/a$.
 
-#### Corollaire {#alg-iv-s6-n5-cor-1 .statement}
+#### Corollaire {#alg-iv-s6-n5-cor-1 .statement tag=06EV}
 
 *L’homomorphisme canonique de $A$ dans l’algèbre de décomposition universelle du polynôme unitaire $f \in A[X]$ est injectif.*
 En effet, l’élément unité de $E_f$ appartient à une base du $A$-module $E_f$.
 
-#### Proposition 6 {#alg-iv-s6-prop-6 .statement}
+#### Proposition 6 {#alg-iv-s6-prop-6 .statement tag=06EW}
 
 *Soit $f \in A[X]$ un polynôme unitaire de degré $n$. Soit $P$ un polynôme symétrique en $X_1, \ldots, X_n$ à coefficients dans $A$. Il existe un élément $a$ de $A$, et un seul, possédant la propriété suivante :*
 (FS) *Quels que soient l’homomorphisme d’anneaux $\rho : A \to B$ et la décomposition $\rho f(X) = \prod_{i=1}^n (X - \xi_i)$ dans $B[X]$, on a $\rho(a) = P(\xi_1, \ldots, \xi_n)$.*
@@ -609,11 +609,11 @@ Ceci prouve l’existence d’un élément $a$ satisfaisant à (FS). L’unicit�
 
 Avec les notations de la prop. 6, on posera parfois $a = P^*(f)$. Voici quelques exemples.
 
-#### Exemple 1 {#alg-iv-s6-n5-exa-1 .statement}
+#### Exemple 1 {#alg-iv-s6-n5-exa-1 .statement tag=0DHL}
 
 Si $P = s_k$, on a $P^*(f) = (-1)^k a_k$.
 
-#### Exemple 2 {#alg-iv-s6-n5-exa-2 .statement}
+#### Exemple 2 {#alg-iv-s6-n5-exa-2 .statement tag=0DHM}
 
 \* Soit $g$ un polynôme dans $\mathbf{A}[X]$; posons
 
@@ -623,11 +623,11 @@ $$
 
 Alors $P^*(f)$ n’est autre que le résultant $\operatorname{res}(f, g)$ d’après le cor. 1 de IV, p. 75.
 
-#### Exemple 3 {#alg-iv-s6-n5-exa-3 .statement}
+#### Exemple 3 {#alg-iv-s6-n5-exa-3 .statement tag=0DHN}
 
 Posons $\Delta(X_1, \ldots, X_n) = \prod_{i < j} (X_i - X_j)^2$. Alors $\Delta^*(f)$ n’est autre que le discriminant du polynôme unitaire $f$ (IV, p. 77, formule (46)).
 
-#### Exemple 4 {#alg-iv-s6-n5-exa-4 .statement}
+#### Exemple 4 {#alg-iv-s6-n5-exa-4 .statement tag=0DHO}
 
 Posons $P(X_1, \ldots, X_n) = X_1^k + \cdots + X_n^k$; introduisons par ailleurs l’algèbre $E = \mathbf{A}[X]/(f)$ et notons $x$ l’image de $X$ dans $E$. Rappelons que le $\mathbf{A}$-module $E$ est libre, de base $(1, x, \ldots, x^{n-1})$ (IV, p. 10, corollaire). Montrons que l’on a
 
@@ -729,13 +729,13 @@ t_0 & t_1 & t_2 & u_1 & u_2 \\
 \end{pmatrix}.
 $$
 
-#### Définition 1 {#alg-iv-s6-def-1 .statement}
+#### Définition 1 {#alg-iv-s6-def-1 .statement tag=06EX}
 
 Avec les notations ci-dessus, le déterminant de la matrice $M(f, g, p, q)$ s’appelle le résultant du couple $(f, g)$ pour les degrés $p$ et $q$, ou simplement le résultant de $f$ et $g$ si $p = \deg f$ et $q = \deg g$.
 
 Ce résultant se note $\operatorname{res}_{p,q}(f, g)$ ou simplement $\operatorname{res}(f, g)$ lorsque $p = \deg f, q = \deg g$.
 
-#### Exemple 1 {#alg-iv-s6-n6-exa-1 .statement}
+#### Exemple 1 {#alg-iv-s6-n6-exa-1 .statement tag=06EY}
 
 Soient $\lambda, \mu$ dans $\mathbf{A}$. On a les formules
 $$
@@ -746,28 +746,28 @@ $$
 $$
 de démonstration immédiate.
 
-#### Exemple 2 {#alg-iv-s6-n6-exa-2 .statement}
+#### Exemple 2 {#alg-iv-s6-n6-exa-2 .statement tag=06EZ}
 
 Lorsque $p = q = 1$, on a
 $$
 \operatorname{res}_{1,1}(t_1 X + t_0, u_1 X + u_0) = t_1 u_0 - t_0 u_1 .
 $$
 
-#### Remarque 1 {#alg-iv-s6-n6-rem-1 .statement}
+#### Remarque 1 {#alg-iv-s6-n6-rem-1 .statement tag=06F0}
 
 La matrice $M(g, f, q, p)$ se déduit de $M(f, g, p, q)$ par $pq$ transpositions de colonnes, d’où
 $$
 \operatorname{res}_{q,p}(g, f) = (-1)^{pq} \operatorname{res}_{p,q}(f, g) .
 $$
 
-#### Remarque 2 {#alg-iv-s6-n6-rem-2 .statement}
+#### Remarque 2 {#alg-iv-s6-n6-rem-2 .statement tag=06F1}
 
 Soit $\rho : \mathbf{A} \to \mathbf{B}$ un homomorphisme d’anneaux. La définition 1 entraîne aussitôt la formule
 $$
 \operatorname{res}_{p,q}(\rho f, \rho g) = \rho(\operatorname{res}_{p,q}(f, g)) .
 $$
 
-#### Remarque 3 {#alg-iv-s6-n6-rem-3 .statement}
+#### Remarque 3 {#alg-iv-s6-n6-rem-3 .statement tag=06F2}
 
 Soient $\lambda, \mu$ dans $\mathbf{A}$. On a
 $$
@@ -775,7 +775,7 @@ $$
 $$
 (28)
 
-#### Remarque 4 {#alg-iv-s6-n6-rem-4 .statement}
+#### Remarque 4 {#alg-iv-s6-n6-rem-4 .statement tag=06F3}
 
 Supposons qu’on ait $p + q \geqslant 1$. D’après III, p. 99, formule (28), l’image de $\varphi$ contient le polynôme constant $\operatorname{res}_{p,q}(f, g)$. Il existe donc un couple de polynômes $(u, v)$, avec $u \in S_q,\ v \in S_p$, tel que
 $$
@@ -787,7 +787,7 @@ $$
 $$
 Ce couple $(u, v)$ est unique lorsque $\operatorname{res}_{p,q}(f, g)$ est simplifiable dans $\mathbf{A}$ : en effet, $\varphi$ est alors injective (III, p. 91, prop. 3).
 
-#### Remarque 5 {#alg-iv-s6-n6-rem-5 .statement}
+#### Remarque 5 {#alg-iv-s6-n6-rem-5 .statement tag=06F4}
 
 Supposons $p \geqslant q$. Soit $h \in \mathbf{A}[X]$ un polynôme de degré $\leqslant p - q$. Montrons que l’on a
 $$
@@ -801,7 +801,7 @@ La matrice de $\omega$ par rapport à la base $B_1$ est triangulaire inférieure
 
 Supposons $f$ unitaire de degré $p$; posons $E = A[X]/(f)$ et notons $x$ l’image canonique de $X$ dans $E$. On sait (IV, p. 10) que $E$ est un $A$-module libre, de base $(1, x, ..., x^{p-1})$. On peut donc définir la norme $N_{E/A}(u)$ de tout élément $u$ de $E$ (III, p. 110, déf. 2).
 
-#### Proposition 7 {#alg-iv-s6-prop-7 .statement}
+#### Proposition 7 {#alg-iv-s6-prop-7 .statement tag=06F5}
 
 *Supposons $f$ unitaire de degré $p$. Avec les notations précédentes, on a*¹
 
@@ -825,7 +825,7 @@ $$
 
 pour tout couple $(u, v)$ dans $S_q \times S_p$. Or, on a $A[X] = S_{p+q} + (f)$ et $fS_q = S_{p+q} \cap (f)$, donc l’injection canonique de $S_{p+q}$ dans $A[X]$ définit par passage aux quotients un isomorphisme $\gamma$ de $S_{p+q}/fS_q$ sur $E$. Soit $\psi$ la multiplication par $g(x)$ dans $E$. La formule (31) montre que $\varphi'$ induit l’identité sur $fS_q$ et $\gamma^{-1}\psi\gamma$ sur $S_{p+q}/fS_q$. On a donc $\det \varphi' = \det \psi$, d’où la formule (30) puisque $\det \varphi' = \operatorname{res}_{p,q}(f, g)$ et $\det \psi = N_{E/A}(g(x))$ par définition.
 
-#### Corollaire 1 {#alg-iv-s6-prop-7-cor-1 .statement}
+#### Corollaire 1 {#alg-iv-s6-prop-7-cor-1 .statement tag=06F6}
 
 *Soit $f \in A[X]$ un polynôme unitaire. Pour tout polynôme $g \in A[X]$, les conditions suivantes sont équivalentes :*
 (i) res$(f, g)$ *est inversible dans* $A$;
@@ -834,7 +834,7 @@ pour tout couple $(u, v)$ dans $S_q \times S_p$. Or, on a $A[X] = S_{p+q} + (f)$
 
 L’équivalence de (i) et (iii) résulte de la prop. 3 de III, p. 111, et de la prop. 7; celle de (ii) et (iii) est triviale.
 
-#### Corollaire 2 {#alg-iv-s6-prop-7-cor-2 .statement}
+#### Corollaire 2 {#alg-iv-s6-prop-7-cor-2 .statement tag=06F7}
 
 *Supposons que* $A$ *soit un corps. Soient* $f, g$ *dans* $A[X]$. *Les conditions suivantes sont équivalentes lorsque* $f$ *et* $g$ *sont non nuls :*
 (i) *on a* $\operatorname{res}(f, g) \neq 0$;
@@ -846,7 +846,7 @@ L’équivalence de (i) et (iii) résulte de la prop. 3 de III, p. 111, et de la
 On se ramène aussitôt au cas où $f$ est unitaire (IV, p. 72, remarque 3).
 L’équivalence de (i) et (ii) n’est qu’une traduction du cor. 1 d’après la déf. 1 de IV, p. 12 ; l’équivalence de (ii) et (iii) n’est autre que le cor. 7 de IV, p. 12.
 
-#### Corollaire 3 {#alg-iv-s6-prop-7-cor-3 .statement}
+#### Corollaire 3 {#alg-iv-s6-prop-7-cor-3 .statement tag=06F8}
 
 Pour tout $\lambda \in \mathbf{A}$, on a
 
@@ -862,7 +862,7 @@ $$
 
 Supposons maintenant $f$ et $g$ unitaires. On note F la A-algèbre $\mathbf{A}[X, Y]/(f(X), g(Y))$ et $x$ (resp. $y$) l’image canonique de X (resp. Y) dans F.
 
-#### Proposition 8 {#alg-iv-s6-prop-8 .statement}
+#### Proposition 8 {#alg-iv-s6-prop-8 .statement tag=06F9}
 
 Supposons $f$ et $g$ unitaires de degrés respectifs $p$ et $q$. Avec les notations précédentes, le A-module F est libre de base $(x^i y^j)_{0 \leq i < p, 0 \leq j < q}$, et l’on a
 
@@ -884,7 +884,7 @@ $$
 N_{F/A}(x - y) = N_{E/A}(g(x)) = \operatorname{res}(f, g) .
 $$
 
-#### Proposition 9 {#alg-iv-s6-prop-9 .statement}
+#### Proposition 9 {#alg-iv-s6-prop-9 .statement tag=06FA}
 
 Soient $p_1$ et $q_1$ des entiers positifs et $f_1, g_1$ des polynômes dans $\mathbf{A}[X]$ tels que $\deg f_1 \leq p_1$, $\deg g_1 \leq q_1$. On a
 
@@ -897,7 +897,7 @@ $$
 
 On a $\operatorname{res}_{p,q}(f, g) = (-1)^{pq} \operatorname{res}_{q,p}(g, f)$ (IV, p. 72) ; il suffit donc de prouver la formule (35). De même, la remarque 3 (loc. cit.) montre que si la formule (35) est établie pour un polynôme $f$, elle l’est pour tous les polynômes de la forme $\lambda f$ avec $\lambda \in \mathbf{A}$. Enfin, lorsque $f$ est unitaire de degré $p$, la formule (35) résulte de la prop. 7 (IV, p. 73), en vertu de la formule $N_{E/A}(ab) = N_{E/A}(a) \cdot N_{E/A}(b)$. De tout ceci, on conclut que la formule (35) est vraie lorsque le coefficient $t_p$ de $X^p$ dans $f$ est *inversible*.
 
-#### Lemme 5 {#alg-iv-s6-lem-5 .statement}
+#### Lemme 5 {#alg-iv-s6-lem-5 .statement tag=06FB}
 
 *Soit t un élément de A. Il existe un anneau commutatif C contenant A comme sous-anneau, un sous-anneau B de C contenant A, un élément $\tau$ de B, inversible dans C, et un homomorphisme d’anneaux $\rho : B \to A$ tel que $\rho(\tau) = t$ et que la restriction de $\rho$ à A soit égale à $\mathrm{Id}_A$.
 
@@ -917,7 +917,7 @@ $$
 
 d’après ce qui précède. On ne change pas les résultants si l’on considère F, $g$ et $g_1$ comme des polynômes de $B[X]$. Comme on a $^\rho F = f, ^\rho g = g, ^\rho g_1 = g_1$, la formule (35) résulte de (38) et de la remarque 2 (IV, p. 72).
 
-#### Corollaire 1 {#alg-iv-s6-lem-5-cor-1 .statement}
+#### Corollaire 1 {#alg-iv-s6-lem-5-cor-1 .statement tag=06FC}
 
 (i) *Soient $\lambda, \alpha_1, \ldots, \alpha_p$ des éléments de A et supposons que l’on ait $f(X) = \lambda(X - \alpha_1) \ldots (X - \alpha_p)$. On a*
 
@@ -933,7 +933,7 @@ $$
 
 L’assertion (i) résulte aussitôt des formules (28), (32) et (36). L’assertion (ii) résulte aussitôt de (i).
 
-#### Corollaire 2 {#alg-iv-s6-lem-5-cor-2 .statement}
+#### Corollaire 2 {#alg-iv-s6-lem-5-cor-2 .statement tag=06FD}
 
 *Pour tout entier $r \geq 0$, on a*
 
@@ -957,7 +957,7 @@ $$
 
 Cette remarque s’applique en particulier à la décomposition universelle de $f$ (IV, p. 68), et comme $\rho$ est alors injectif, cela fournit un moyen de calcul de $\operatorname{res}(f, g)$.
 
-#### Exemple 3 {#alg-iv-s6-n6-exa-3 .statement}
+#### Exemple 3 {#alg-iv-s6-n6-exa-3 .statement tag=06FE}
 
 Prouvons la formule
 
@@ -995,7 +995,7 @@ d’où le résultat annoncé.
 
 ### 7. Discriminant
 
-#### Définition 2 {#alg-iv-s6-def-2 .statement}
+#### Définition 2 {#alg-iv-s6-def-2 .statement tag=06FF}
 
 *Soient $f$ un polynôme unitaire de $A[X]$ et $m$ son degré. Notons $E$ la $A$-algèbre $A[X]/(f)$ et $x$ l’image canonique de $X$ dans $E$. On appelle discriminant de $f$, et l’on note dis(f), le discriminant $D_{E/A}(1, x, ..., x^{m-1})$ de la base $(1, x, ..., x^{m-1})$ de la A-algèbre E.
 
@@ -1005,11 +1005,11 @@ $$
 \text{dis}(f) = \det(p_{i+j})_{0 \leq i,j < m}.
 $$
 
-#### Exemple 1 {#alg-iv-s6-n7-exa-1 .statement}
+#### Exemple 1 {#alg-iv-s6-n7-exa-1 .statement tag=0DHP}
 
 Si $f$ est un polynôme unitaire de degré 0 ou 1, on a $\text{dis}(f) = 1$ d’après (45).
 
-#### Exemple 2 {#alg-iv-s6-n7-exa-2 .statement}
+#### Exemple 2 {#alg-iv-s6-n7-exa-2 .statement tag=0DHQ}
 
 Soit $f(X) = X^2 + \alpha X + \beta$ un polynôme unitaire de degré 2. Les relations de Newton s’écrivent sous la forme (IV, p. 70)
 
@@ -1064,7 +1064,7 @@ $$
 \text{res}(f, Df) = \text{res}(Df, f) = (-1)^{m(m-1)/2} \text{dis}(f) .
 $$
 
-#### Proposition 10 {#alg-iv-s6-prop-10 .statement}
+#### Proposition 10 {#alg-iv-s6-prop-10 .statement tag=06FG}
 
 Soit $m \geqslant 1$. Il existe un unique polynôme $\Delta \in \mathbf{Z}[A_1, ..., A_m]$ avec la propriété suivante : quels que soient l’anneau commutatif $A$ et le polynôme unitaire $f = X^m + \sum_{i=1}^m a_i X^{m-i}$ dans $A[X]$, on a
 $$
@@ -1121,7 +1121,7 @@ $$
 
 Lorsque $m = \deg f$, on écrit simplement $\operatorname{dis}(f)$ pour $\operatorname{dis}_m(f)$; si $f$ est unitaire, $\operatorname{dis}(f)$ coïncide avec le discriminant défini dans la déf. 2, d’après les formules (48), (51) et (52).
 
-#### Proposition 11 {#alg-iv-s6-prop-11 .statement}
+#### Proposition 11 {#alg-iv-s6-prop-11 .statement tag=06FH}
 
 *Soit $f$ dans $\mathbf{A}[X]$ de degré $\leq m$.*
 
@@ -1163,7 +1163,7 @@ $$
 
 (IV, p. 72), on passe de là au cas où $a_0$ est inversible dans $\mathbf{A}$. Le cas général résulte alors de la prop. 11, (i) et du lemme 5 (IV, p. 75).
 
-#### Corollaire 1 {#alg-iv-s6-prop-11-cor-1 .statement}
+#### Corollaire 1 {#alg-iv-s6-prop-11-cor-1 .statement tag=06FI}
 
 *Soit $g \in \mathbf{A}[X]$ et soit $n$ un entier positif tel que $\deg g \leq n$. On a*
 
@@ -1193,7 +1193,7 @@ $$
 
 En élevant cette relation au carré, on obtient (57) d’après (40) et (46).
 
-#### Corollaire 2 {#alg-iv-s6-prop-11-cor-2 .statement}
+#### Corollaire 2 {#alg-iv-s6-prop-11-cor-2 .statement tag=06FJ}
 
 *Si $a_0$ est le coefficient de $X^m$ dans $f$, on a*
 
@@ -1203,16 +1203,16 @@ $$
 
 Cela résulte du cor. 1, où l’on fait $n = 1, g = 1$, d’après la formule $\operatorname{res}_{m,1}(f, 1) = a_0$ (IV, p. 72, exemple 1).
 
-#### Corollaire 3 {#alg-iv-s6-prop-11-cor-3 .statement}
+#### Corollaire 3 {#alg-iv-s6-prop-11-cor-3 .statement tag=06FK}
 
 *Supposons que $A$ soit un corps. Soit $f$ un polynôme non constant de $A[X]$. Pour que $f$ et $Df$ soient étrangers, il faut et il suffit que l’on ait $\operatorname{dis}(f) \neq 0$.*
 Cela résulte de la prop. 11, (iii) et du cor. 2 de IV, p. 73.
 
-#### Remarque {#alg-iv-s6-n7-rem-1 .statement}
+#### Remarque {#alg-iv-s6-n7-rem-1 .statement tag=06FL}
 
 Une double application du cor. 2 ci-dessus montre que l’on a $\operatorname{dis}_m(f) = 0$ pour tout polynôme $f$ de degré $\leq m - 2$.
 
-#### Exemple 3 {#alg-iv-s6-n7-exa-3 .statement}
+#### Exemple 3 {#alg-iv-s6-n7-exa-3 .statement tag=06FM}
 
 Soit $m = 2$. D’après l’exemple 2 (IV, p. 77), on a $\Delta(A_1, A_2) = A_1^2 - 4A_2$, d’où $\tilde{\Delta}(A_0, A_1, A_2) = A_1^2 - 4A_0A_2$. Autrement dit, on a
 
@@ -1220,7 +1220,7 @@ $$
 \operatorname{dis}_2(a_0X^2 + a_1X + a_2) = a_1^2 - 4a_0a_2.
 $$
 
-#### Exemple 4 {#alg-iv-s6-n7-exa-4 .statement}
+#### Exemple 4 {#alg-iv-s6-n7-exa-4 .statement tag=06FN}
 
 Considérons le polynôme
 

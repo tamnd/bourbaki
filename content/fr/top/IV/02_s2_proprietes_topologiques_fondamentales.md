@@ -37,7 +37,7 @@ subsections:
       pdf_page: 280
 statements: 13
 exercises: 22
-content_sha256: 6a3029f6b034c5ffe9bc85b0e9c6fb8a58d1f1b0ee66458de35acfc37a2db233
+content_sha256: f08a92b11cd48812d718ab14bac7f45bc1dab1eb312c2c831b7df5d5290f00c3
 ---
 
 ## § 2. PROPRIÉTÉS TOPOLOGIQUES FONDAMENTALES DE LA DROITE NUMÉRIQUE
@@ -46,19 +46,19 @@ content_sha256: 6a3029f6b034c5ffe9bc85b0e9c6fb8a58d1f1b0ee66458de35acfc37a2db233
 
 Les propriétés topologiques de la droite numérique, que nous allons exposer dans ce paragraphe, découlent du théorème suivant:
 
-#### Théorème 1 {#top-iv-s2-thm-1 .statement}
+#### Théorème 1 {#top-iv-s2-thm-1 .statement tag=0BPF}
 
 *Quels que soient les nombres réels $x > 0$ et $y > 0$, il existe un entier $n > 0$ tel que $y < nx$.*
 
 En effet, il existe deux nombres rationnels $p/q, r/s$ tels que $0 < p/q < x$ et $y < r/s$, puisque les intervalles ouverts $]0, x[$ et $]y, \to[$ ne sont pas vides (IV, p. 4, prop. 4); il suffit de prendre $n$ tel que $nps > qr$.
 
-#### Remarque {#top-iv-s2-n1-rem-1 .statement}
+#### Remarque {#top-iv-s2-n1-rem-1 .statement tag=0BPG}
 
 On trouvera dans V, § 2 une construction axiomatique de la théorie des nombres réels dans laquelle l’énoncé ci-dessus figure en tant qu’axiome; pour plus de détails sur cet axiome, voir la Note historique du chap. IV.
 
 ### 2. Parties compactes de $\mathbf{R}$
 
-#### Théorème 2 (Borel–Lebesgue) {#top-iv-s2-thm-2 .statement}
+#### Théorème 2 (Borel–Lebesgue) {#top-iv-s2-thm-2 .statement tag=0BPH}
 
 *Pour qu’une partie de la droite numérique $\mathbf{R}$ soit compacte, il faut et il suffit qu’elle soit fermée et bornée.*
 
@@ -66,15 +66,15 @@ On trouvera dans V, § 2 une construction axiomatique de la théorie des nombres
 
 2) La condition est *suffisante*. Il suffit de montrer que tout intervalle $(-a, a)$ ($a > 0$) est *compact*; comme cet intervalle est un ensemble fermé dans un espace uniforme complet, il suffira de voir que, pour tout $b > 0$, on peut recouvrir $(-a, +a)$ par un nombre *fini* d’intervalles de la forme $[x - b, x + b]$ (II, p. 30, corollaire). Or, soit $n$ un entier $> 0$ tel que $a < nb$; si $x \in (-a, +a)$ et si $m$ est le plus grand entier (positif ou négatif) tel que $mb \leq x$, on a $-n \leq m \leq n$ et $mb \leq x \leq (m+1)b$; donc les $2n+1$ intervalles $((k-1)b, (k+1)b)$ ($-n \leq k \leq n$) forment un recouvrement du type voulu.
 
-#### Corollaire 1 {#top-iv-s2-thm-1-cor-1 .statement}
+#### Corollaire 1 {#top-iv-s2-thm-1-cor-1 .statement tag=0EA8}
 
 *Pour qu’une partie de la droite numérique $\mathbf{R}$ soit relativement compacte, il faut et il suffit qu’elle soit bornée.*
 
-#### Corollaire 2 {#top-iv-s2-thm-1-cor-2 .statement}
+#### Corollaire 2 {#top-iv-s2-thm-1-cor-2 .statement tag=0EA9}
 
 *La droite numérique est un espace localement compact et non compact.*
 
-#### Remarque {#top-iv-s2-n2-rem-1 .statement}
+#### Remarque {#top-iv-s2-n2-rem-1 .statement tag=0BPK}
 
 Le th. 2 est souvent cité sous le nom de « théorème de Heine–Borel »; voir les Notes historiques des chap. II et IV.
 
@@ -82,7 +82,7 @@ Le th. 2 est souvent cité sous le nom de « théorème de Heine–Borel »; voi
 
 Rappelons (E, III, p. 10) que la *borne supérieure* (resp. *inférieure*) d’une partie $A$ d’un ensemble ordonné $E$ est (lorsqu’elle existe) *le plus petit majorant* (resp. *le plus grand minorant*) de $A$.
 
-#### Théorème 3 {#top-iv-s2-thm-3 .statement}
+#### Théorème 3 {#top-iv-s2-thm-3 .statement tag=0BPL}
 
 *Toute partie majorée* (resp. *minorée*) *et non vide de la droite numérique a une borne supérieure* (resp. *inférieure*).
 
@@ -98,7 +98,7 @@ La borne supérieure d’un ensemble *fermé* (majoré et non vide) appartient �
 
 ### 4. Caractérisation des intervalles
 
-#### Proposition 1 {#top-iv-s2-prop-1 .statement}
+#### Proposition 1 {#top-iv-s2-prop-1 .statement tag=0BPM}
 
 *Pour qu’une partie non vide $A$ de $\mathbf{R}$ soit un intervalle, il faut et il suffit que, quels que soient les points $a, b$ de $A$ tels que $a < b$, l’intervalle fermé $[a, b]$ soit contenu dans $A$.*
 
@@ -106,7 +106,7 @@ La condition est évidemment nécessaire. Réciproquement, supposons-la vérifi�
 
 ### 5. Parties connexes de $\mathbf{R}$
 
-#### Théorème 4 {#top-iv-s2-thm-4 .statement}
+#### Théorème 4 {#top-iv-s2-thm-4 .statement tag=0BPN}
 
 Pour qu’une partie A de $\mathbf{R}$ soit connexe, il faut et il suffit que A soit un intervalle.
 
@@ -116,17 +116,17 @@ Pour qu’une partie A de $\mathbf{R}$ soit connexe, il faut et il suffit que A 
 
 Si maintenant I est un intervalle quelconque non réduit à un point, et $a$ et $b$ deux points de I tels que $a < b$, l’intervalle $(a, b)$ est contenu dans I et est connexe, donc I est connexe.
 
-#### Corollaire 1 {#top-iv-s2-thm-4-cor-1 .statement}
+#### Corollaire 1 {#top-iv-s2-thm-4-cor-1 .statement tag=0BPO}
 
 La droite numérique est un espace connexe et localement connexe.
 
-#### Corollaire 2 {#top-iv-s2-thm-4-cor-2 .statement}
+#### Corollaire 2 {#top-iv-s2-thm-4-cor-2 .statement tag=0BPP}
 
 Les seules parties compactes et connexes de $\mathbf{R}$ sont les intervalles fermés bornés.
 
 D’après le th. 4, une partie de $\mathbf{R}$ ne contenant aucun intervalle non réduit à un point est totalement discontinue; il en est ainsi, en particulier, de l’ensemble $\mathbf{Q}$ des nombres rationnels, puisque l’ensemble $\mathbf{C}\mathbf{Q}$ des nombres irrationnels est partout dense.
 
-#### Proposition 2 {#top-iv-s2-prop-2 .statement}
+#### Proposition 2 {#top-iv-s2-prop-2 .statement tag=0BPQ}
 
 Tout ensemble ouvert non vide dans $\mathbf{R}$ est la réunion d’une famille dénombrable d’intervalles ouverts, sans point commun deux à deux.
 
@@ -134,7 +134,7 @@ Soit A un ensemble ouvert non vide dans $\mathbf{R}$; comme $\mathbf{R}$ est loc
 
 Tout ensemble fermé dans $\mathbf{R}$ est donc le complémentaire de la réunion d’une suite (finie ou infinie) $(I_n)$ d’intervalles ouverts sans point commun deux à deux; ces intervalles sont dits intervalles contigus à l’ensemble fermé considéré. Réciproquement, si on se donne une telle suite d’intervalles, le complémentaire de leur réunion est un ensemble fermé auquel ces intervalles sont contigus.
 
-#### Exemple {#top-iv-s2-n5-exa-1 .statement}
+#### Exemple {#top-iv-s2-n5-exa-1 .statement tag=0BPR}
 
 Définissons par récurrence, une famille dénombrable $(I_{n,p})$ d’intervalles ouverts, deux à deux sans point commun, de la manière suivante:
 
@@ -148,7 +148,7 @@ Si $K'$ est le complémentaire de la réunion des $I_{n,p}$ l’ensemble fermé 
 
 ### 6. Homéomorphismes d’un intervalle sur un intervalle
 
-#### Théorème 5 {#top-iv-s2-thm-5 .statement}
+#### Théorème 5 {#top-iv-s2-thm-5 .statement tag=0BPS}
 
 Soit $I$ un intervalle de $\mathbf{R}$; pour qu’une application $f$ de $I$ dans $\mathbf{R}$ soit un homéomorphisme de $I$ sur $f(I)$, il faut et il suffit que $f$ soit strictement monotone et continue dans $I$; $f(I)$ est alors un intervalle de $\mathbf{R}$.
 
@@ -158,7 +158,7 @@ On en déduit que, si $x$ et $y$ sont deux points de I tels que $x < y$, on a $f
 
 $2^\circ$ La condition est *suffisante*. Supposons $f$ continue et strictement monotone (par exemple, strictement croissante) dans I; $f(I)$ est connexe, donc est un intervalle, et comme $f$ est strictement croissante, $f$ est une application bijective de I sur $f(I)$. En outre, l’image par $f$ d’un intervalle ouvert *dans* I est un intervalle ouvert *dans* $f(I)$; donc (IV, p. 5, prop. 5), $f$ est un homéomorphisme de I sur $f(I)$.
 
-#### Remarque {#top-iv-s2-n6-rem-1 .statement}
+#### Remarque {#top-iv-s2-n6-rem-1 .statement tag=0BPT}
 
 La première partie de la démonstration précédente établit en fait qu’une application *continue* et *injective* de I dans $\mathbf{R}$ est *strictement monotone*; d’après la seconde partie, on voit que *toute application injective et continue* $f$ *d’un intervalle* I *dans* $\mathbf{R}$ *est un homéomorphisme de* I *sur* $f(I)$.
 

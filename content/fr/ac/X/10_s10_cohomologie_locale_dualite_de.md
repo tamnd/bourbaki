@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: baf7c2e804ae1d53041db342de4e47ab6a14855fb6f08d49c744e4f7fc3ccbcd
+content_sha256: 6a077db32ae0c331f10cb4f052a815bd21f1c98aa8e0a67091983ff95bf1db2a
 ---
 
 ## § 10. COHOMOLOGIE LOCALE, DUALITÉ DE GROTHENDIECK
@@ -37,7 +37,7 @@ Soit $M$ un $A$-module. Associons à tout idéal de définition $a$ de $A$ le $A
 
 Les idéaux $m_A^n$ pour $n \geq 1$ forment une partie cofinale de $\mathscr{D}$ ; on a donc un isomorphisme canonique de modules gradués $\varprojlim_n \mathrm{Ext}_A(A/m_A^n, M) \longrightarrow H_A(M)$. Par suite tout élément de $H_A(M)$ est annulé par une puissance de $m_A$.
 
-#### Remarque 1 {#ac-x-s10-n1-rem-1 .statement}
+#### Remarque 1 {#ac-x-s10-n1-rem-1 .statement tag=0DCM}
 
 Soient $X$ l’espace topologique $\mathrm{Spec}(A)$, $\mathscr{O}_X$ le faisceau d’anneaux structural et $\widetilde{M}$ le $\mathscr{O}_X$-module associé à $M$. Le $A$-module gradué $H_A(M)$ s’identifie au module $H_{\{m_A\}}(X, \widetilde{M})$ de cohomologie à support dans le point fermé $m_A$ de $X$.
 
@@ -57,19 +57,19 @@ $$
 
 Soit M un A-module. Pour tout idéal $\alpha$ de A, le A-module $\mathrm{Hom}_A(A/\alpha, M)$ s’identifie canoniquement au sous-module de M formé des éléments annulés par $\alpha$. Ainsi $H_A^0(M)$ s’identifie au sous-module de M formé des éléments $m$ qui sont annulés par une puissance de $\mathfrak{m}_A$, c’est-à-dire tels que $\mathrm{long}_A(Am) < +\infty$. On a en particulier $H_A^0(M) = M$ lorsque M est artinien.
 
-#### Exemple 1 {#ac-x-s10-n1-exa-1 .statement}
+#### Exemple 1 {#ac-x-s10-n1-exa-1 .statement tag=0DCN}
 
 Si M est injectif, le A-module $H_A^i(M)$ est nul pour $i > 0$ et injectif pour $i = 0$ (§ 8, n° 2, lemme 1, c)).
 
-#### Exemple 2 {#ac-x-s10-n1-exa-2 .statement}
+#### Exemple 2 {#ac-x-s10-n1-exa-2 .statement tag=0DCO}
 
 Si $H_A^0(M) = M$ (par exemple si M est artinien), $H_A^i(M)$ est nul pour $i > 0$. Soit en effet (I, e) une enveloppe injective de M. Le sous-module $H_A^0(I)$ de I est injectif (exemple 1) et contient $e(M)$, donc est égal à I. Posons $N = \mathrm{Coker}\,e$ et considérons la suite exacte $0 \to M \xrightarrow{e} I \xrightarrow{p} N \to 0$. Comme $I = H_A^0(I)$, on a $N = H_A^0(N)$ et l’homomorphisme $H_A^0(p)$ est surjectif. Puisque $H_A^i(I)$ est nul pour $i > 0$ (exemple 1), $H_A^1(M)$ est nul et $H_A^i(M)$ est isomorphe à $H_A^{i-1}(N)$ pour $i > 1$; on conclut en raisonnant par récurrence sur l’entier $i$.
 
-#### Exemple 3 {#ac-x-s10-n1-exa-3 .statement}
+#### Exemple 3 {#ac-x-s10-n1-exa-3 .statement tag=0DCP}
 
 Soit $\Omega$ un A-module dualisant. Pour $i \neq \dim(A)$, on a $\mathrm{Ext}_A^i(A/\alpha, \Omega) = 0$ pour tout idéal de définition $\alpha$ de A (§ 8, n° 5, exemple 3), d’où $H_A^i(\Omega) = 0$; pour $i = \dim(A)$, le A-module $H_A^i(\Omega)$, qui est isomorphe à $\varprojlim \mathrm{Ext}_A^i(A/\mathfrak{m}_A^n, \Omega)$, est un A-module de Matlis (*loc. cit.*, exemple 6).
 
-#### Exemple 4 {#ac-x-s10-n1-exa-4 .statement}
+#### Exemple 4 {#ac-x-s10-n1-exa-4 .statement tag=0DCQ}
 
 Soit A un anneau local noethérien intègre ; notons K son corps des fractions, et supposons $A \neq K$. C’est un A-module injectif (A, X, p. 18, exemple 1), de sorte que le module $H_A(K)$ est nul (exemple 1). De la suite exacte $0 \to A \to K \to K/A \to 0$, on tire pour tout $i$ un isomorphisme $H_A^i(K/A) \to H_A^{i+1}(A)$.
 
@@ -81,7 +81,7 @@ $$
 
 un isomorphisme $H_A^i((K/A) \otimes_A M) \to H_A^{i+1}(M)$.
 
-#### Exemple 5 {#ac-x-s10-n1-exa-5 .statement}
+#### Exemple 5 {#ac-x-s10-n1-exa-5 .statement tag=0DCR}
 
 Conservons les hypothèses de l’exemple précédent et supposons de plus $\dim(A) = 1$. Soit N un A-module de torsion ; comme tout idéal non nul de A distinct de A est un idéal de définition (VIII, § 1, n° 3, prop. 6, e)), on a $H_A^0(N) = N$, et par suite $H_A^i(N) = 0$ pour $i > 0$ (exemple 2).
 
@@ -97,7 +97,7 @@ $$
 H_A^0(M) \to T(M) , \qquad H_A^1(M) \to (K/A) \otimes_A M .
 $$
 
-#### Proposition 1 {#ac-x-s10-prop-1 .statement}
+#### Proposition 1 {#ac-x-s10-prop-1 .statement tag=0DCS}
 
 Soient $A$ un anneau local noethérien et $M$ un $A$-module de type fini.
 
@@ -131,11 +131,11 @@ On a $\operatorname{prof}(M/xM) = \operatorname{prof}(M) - 1$ (§ 1, n° 4, prop
 
 On peut montrer que le module $H_A^{\dim(M)}(M)$ est non nul lorsque $M$ est non nul (exerc. 4 ; cf. n° 3, cor. du th. 2).
 
-#### Corollaire {#ac-x-s10-n1-cor-1 .statement}
+#### Corollaire {#ac-x-s10-n1-cor-1 .statement tag=0DCT}
 
 **Soit $M$ un $A$-module macaulayen, non nul et de type fini. Le $A$-module $H_A^i(M)$ est nul pour $i \neq \dim(M)$ et non nul pour $i = \dim(M)$.**
 
-#### Remarque 2 {#ac-x-s10-n1-rem-2 .statement}
+#### Remarque 2 {#ac-x-s10-n1-rem-2 .statement tag=0DCU}
 
 Pour tout idéal de définition $\alpha$ de $A$, le $A$-module $\mathrm{Ext}_A(A/\alpha, M)$ est annulé par $\alpha$, et $A/\alpha$ s’identifie à $\widehat{A}/\alpha \widehat{A}$; par conséquent, le $A$-module gradué $\mathrm{Ext}_A(A/\alpha, M)$ s’identifie à $\widehat{A} \otimes_A \mathrm{Ext}_A(A/\alpha, M)$, donc aussi à $\mathrm{Ext}_{\widehat{A}}(\widehat{A}/\alpha \widehat{A}, \widehat{A} \otimes_A M)$ (A, X, p. 111, prop. 10). L’ensemble des idéaux $\alpha \widehat{A}$, pour $\alpha \in \mathscr{D}$, contient les puissances de $m_{\widehat{A}}$, donc est cofinal dans l’ensemble des idéaux de définition de $\widehat{A}$; on déduit donc de ce qui précède un isomorphisme canonique de $A$-modules gradués
 
@@ -204,7 +204,7 @@ $$
 
 Pour $M = A$, $\tau^d(A)$ est l’isomorphisme canonique de $A \otimes_A H_A^d(A)$ sur $H_A^d(A)$.
 
-#### Remarque 1 {#ac-x-s10-n2-rem-1 .statement}
+#### Remarque 1 {#ac-x-s10-n2-rem-1 .statement tag=0DCV}
 
 Soit $f : M \to N$ un homomorphisme de A-modules. En utilisant A, X, p. 103, prop. 2, on prouve que les diagrammes suivants sont commutatifs :
 
@@ -216,7 +216,7 @@ $$
 \end{array}
 $$
 
-#### Remarque 2 {#ac-x-s10-n2-rem-2 .statement}
+#### Remarque 2 {#ac-x-s10-n2-rem-2 .statement tag=0DCW}
 
 Soit
 $$
@@ -232,7 +232,7 @@ $$
 \end{array}
 $$
 
-#### Remarque 3 {#ac-x-s10-n2-rem-3 .statement}
+#### Remarque 3 {#ac-x-s10-n2-rem-3 .statement tag=0DCX}
 
 Considérons l’isomorphisme
 $$
@@ -250,7 +250,7 @@ On suppose toujours que A est un anneau de Macaulay local, de dimension d. Soit 
 
 Considérons l’isomorphisme $\tau^d(\Omega) : \Omega \otimes H_A^d(A) \to H_A^d(\Omega)$ (n° 2). On en déduit un homomorphisme $\omega : H_A^d(A) \to \mathrm{Hom}_A(\Omega, H_A^d(\Omega))$ qui associe à un élément $u$ de $H_A^d(A)$ l’homomorphisme $x \mapsto H_A^d(f_x)(u)$ (remarque 3 ci-dessus).
 
-#### Proposition 2 {#ac-x-s10-prop-2 .statement}
+#### Proposition 2 {#ac-x-s10-prop-2 .statement tag=0DCY}
 
 *Soit A un anneau de Macaulay local, de dimension d*, et soit $\Omega$ *un A-module dualisant*. *L’homomorphisme* $\omega : H_A^d(A) \to D(\Omega)$ *est bijectif*.
 
@@ -279,7 +279,7 @@ où $f_x$ est l’homomorphisme déduit de $f_x$ par passage aux quotients. Il e
 
 Identifions le bidual de Matlis $D(D(\Omega))$ à $\widehat{\Omega}$ par l’isomorphisme $\widehat{\alpha}_\Omega$ (§ 8, n° 3, th. 2, b)).
 
-#### Corollaire {#ac-x-s10-n3-cor-1 .statement}
+#### Corollaire {#ac-x-s10-n3-cor-1 .statement tag=0DCZ}
 
 *L’homomorphisme* $D(\omega) : \widehat{\Omega} \to D(H^d_A(A))$ *est un isomorphisme*.
 
@@ -301,7 +301,7 @@ $$
 \delta^i(M) : \mathrm{Ext}_A^{d-i}(M, \widehat{\Omega}) \longrightarrow D(H^i_A(M)) .
 $$
 
-#### Théorème 1 (Dualité de Grothendieck) {#ac-x-s10-thm-1 .statement}
+#### Théorème 1 (Dualité de Grothendieck) {#ac-x-s10-thm-1 .statement tag=0DD0}
 
 Soit $A$ un anneau de Macaulay local, de dimension $d$, et soit $\Omega$ un $A$-module dualisant.
 
@@ -321,17 +321,17 @@ est un isomorphisme de $\widehat{A}$-modules.
 
 Cela résulte de la prop. 6 du § 8, n° 7.
 
-#### Corollaire {#ac-x-s10-n3-cor-2 .statement}
+#### Corollaire {#ac-x-s10-n3-cor-2 .statement tag=0DD1}
 
 Soient $A$ un anneau de Macaulay local, $M$ un $A$-module non nul de type fini, de dimension $e$. Le $A$-module $H_A^e(M)$ est non nul.
 
 Grâce à la remarque 2 du n° 1, on peut supposer que l’anneau local $A$ est complet. Dans ce cas $A$ possède un module dualisant $\Omega$ ($§ 9$, n° 3, cor. 3 de la prop. 6) ; si $H_A^e(M)$ est nul, il en est de même de son dual de Matlis $\mathrm{Ext}_A^{d-e}(M, \Omega)$, ce qui contredit la prop. 3, b) du $§ 9$, n° 1.
 
-#### Remarque 1 {#ac-x-s10-n3-rem-1 .statement}
+#### Remarque 1 {#ac-x-s10-n3-rem-1 .statement tag=0DD2}
 
 Lorsque le $A$-module $M$ est de type fini, le $\widehat{A}$-module $\mathrm{Ext}_A^{d-i}(M, \widehat{\Omega})$ s’identifie à $\widehat{A} \otimes_A \mathrm{Ext}_A^{d-i}(M, \Omega)$ ($A$, X, p. 108, prop. 7, c)), et $\delta^i(M)$ peut aussi s’obtenir en composant $D(\gamma^i(M))$ avec l’isomorphisme de bidualité.
 
-#### Remarque 2 {#ac-x-s10-n3-rem-2 .statement}
+#### Remarque 2 {#ac-x-s10-n3-rem-2 .statement tag=0DD3}
 
 Soit $u : M \to M'$ un homomorphisme de $A$-modules. D’après la remarque 1 du n° 2 et celle du $§ 8$, n° 7, les diagrammes suivants sont commutatifs :
 
@@ -351,7 +351,7 @@ $$
 \end{array}
 $$
 
-#### Remarque 3 {#ac-x-s10-n3-rem-3 .statement}
+#### Remarque 3 {#ac-x-s10-n3-rem-3 .statement tag=0DD4}
 
 Soit
 
@@ -376,7 +376,7 @@ $$
 \end{array}
 $$
 
-#### Exemple {#ac-x-s10-n3-exa-1 .statement}
+#### Exemple {#ac-x-s10-n3-exa-1 .statement tag=0DD5}
 
 Soit $A$ un anneau local noethérien intègre de dimension 1 ; notons $K$ son corps des fractions. Soit $\Omega$ un $A$-module dualisant, et soit $M$ un $A$-module de type fini. Les $A$-modules $H_A^0(M)$ et $H_A^1(M)$ s’identifient canoniquement à $T(M)$ et $(K/A) \otimes_A M$ (n° 1, exemple 5). Avec ces identifications, les isomorphismes de dualité
 

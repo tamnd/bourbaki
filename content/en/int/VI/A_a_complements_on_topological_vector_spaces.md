@@ -21,7 +21,7 @@ subsections:
       pdf_page: 445
 statements: 6
 exercises: 0
-content_sha256: fa681336d1c7c3ce37804fe10a6c5f646652b8a98de152b669f16c59e6f5d371
+content_sha256: 02f42b389f24a36ddcc58d04da30cbfa4dd5961e3192d18701403d3e92f17929
 ---
 
 ## APPENDIX
@@ -63,13 +63,13 @@ Now let $E, F$ be two Hausdorff locally convex spaces, $E', F'$ their respective
 
 Let $\mathscr{B}(E, F)$ be the space of continuous bilinear forms on $E \times F$ ($E$ and $F$ being equipped with their original topologies); then $\mathscr{B}(E, F) \subset \mathscr{B}(E, F)$.
 
-#### Proposition 1 {#int-vi-a0-prop-1 .statement}
+#### Proposition 1 {#int-vi-a0-prop-1 .statement tag=09CS}
 
 *For a bilinear form $\Phi \in \mathscr{B}(E, F)$ to belong to $\mathscr{B}(E, F)$, it is necessary and sufficient that there exist a neighborhood of 0 in $E$ whose image under ${}^l \Phi$ is an equicontinuous subset of $F'$.*
 
 For, to say that $\Phi$ is continuous means that there exists a balanced convex neighborhood $V$ (resp. $W$) of 0 in $E$ (resp. $F$) such that $|\Phi(x, y)| \leq 1$ for $x \in V$, $y \in W$; this may be written $|\langle {}^l \Phi(x), y \rangle| \leq 1$ for $x \in V$, $y \in W$, or also ${}^l \Phi(V) \subset W^\circ$; whence the proposition, taking into account the fact that every equicontinuous subset of $F'$ is contained in the polar of a neighborhood of 0 in $F$.
 
-#### Corollary {#int-vi-a0-n1-cor-1 .statement}
+#### Corollary {#int-vi-a0-n1-cor-1 .statement tag=09CT}
 
 *If $\Phi$ is a continuous bilinear form on $E \times F$, then ${}^l \Phi$ is a continuous linear mapping of $E$ into the strong dual $F'_b$ of $F$. If, moreover, $E$ and $F$ are normed spaces, then $\|{}^l \Phi\| = \|\Phi\|$.*
 
@@ -88,23 +88,23 @@ Interchanging the roles of E and F, one obtains results analogous to Prop. 1 and
 
 We already know that every Fréchet space has the property (GDF) (TVS, I, §3, No. 3, Cor. 5 of Th. 1).
 
-#### Proposition 2 {#int-vi-a0-prop-2 .statement}
+#### Proposition 2 {#int-vi-a0-prop-2 .statement tag=09CU}
 
 — Let E be a vector space, $(F_\alpha)_{\alpha \in A}$ a family of locally compact spaces having the property (GDF), and for each $\alpha \in A$ let $h_\alpha$ be a linear mapping of $F_\alpha$ into E. If E is equipped with the finest locally convex topology that makes the $h_\alpha$ continuous, then E has the property (GDF).
 
 Let $u$ be a linear mapping of E into a Banach space B, such that every limit in $E \times B$ of every convergent sequence of points of the graph $\Gamma$ of $u$ also belongs to $\Gamma$. It suffices to show that, for every $\alpha \in A$, $u \circ h_\alpha$ is continuous on $F_\alpha$ (TVS, II, §4, No. 4, Prop. 5). Now, let $(x_n)$ be a sequence of elements of $F_\alpha$ having a limit $a$ and such that the sequence $\left(u(h_\alpha(x_n))\right)$ has a limit $b \in B$. Since $h_\alpha$ is continuous, $h_\alpha(a)$ is a limit of the sequence $(h_\alpha(x_n))$ in E; therefore by hypothesis $b = u(h_\alpha(a))$ and, since $F_\alpha$ has the property (GDF), $u \circ h_\alpha$ is continuous.
 
-#### Corollary {#int-vi-a0-n2-cor-1 .statement}
+#### Corollary {#int-vi-a0-n2-cor-1 .statement tag=09CV}
 
 — Every quotient space of a locally convex space having the property (GDF) has the property (GDF).
 
-#### Proposition 3 {#int-vi-a0-prop-3 .statement}
+#### Proposition 3 {#int-vi-a0-prop-3 .statement tag=09CW}
 
 — The strong dual of a reflexive Fréchet space has the property (GDF).
 
 This is a consequence of Prop. 2 and the following lemma (or TVS, IV, §3, No. 4, Prop. 4):
 
-#### Lemma {#int-vi-a0-n2-lem-1 .statement}
+#### Lemma {#int-vi-a0-n2-lem-1 .statement tag=09CX}
 
 Let F be a Fréchet space, $F'$ its strong dual, $F''$ its bidual. If every subset of $F''$, bounded for $\sigma(F'', F')$, is contained in the closure (for $\sigma(F'', F')$) of a bounded subset of F, then $F'$ is the direct limit of a sequence of Banach spaces.
 

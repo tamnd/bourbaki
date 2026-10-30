@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 51
 exercises: 43
-content_sha256: e189272a705191de34897ddd1038f7605af4a058065773c68ab4e7a1370e1429
+content_sha256: a0e92c270cc61535db50016db128351dc2a69eca0c0c5a5f6017a665abb322f1
 ---
 
 ## § 2. CONVEX SETS
@@ -66,21 +66,21 @@ content_sha256: e189272a705191de34897ddd1038f7605af4a058065773c68ab4e7a1370e1429
 
 For any two points $x, y$ of an affine space $E$, the set of points $\lambda x + \mu y$ where $\lambda \geq 0, \mu \geq 0, \lambda + \mu = 1$ is called the closed segment with end points $x$ and $y$; it reduces to a point when $x = y$. The complement of $x$ in this segment is called the segment with end points $x, y$ which is open at $x$ and closed at $y$; it is empty if $x = y$. Finally the complement of $\{ x, y \}$ in the closed segment with end points $x, y$ is called the open segment with end points $x, y$; it is empty when $x = y$.
 
-#### Definition 1 {#evt-ii-s2-def-1 .statement}
+#### Definition 1 {#evt-ii-s2-def-1 .statement tag=07B4}
 
 — A subset $A$ of an affine space $E$ is convex if, for every two points $x, y$ of $A$, the closed segment with end points $x, y$ is contained in $A$.
 
 As $(1 - \lambda) a + \lambda x = a + \lambda (x - a)$, this definition is equivalent to the following: the set $A$ is convex if, for every point $a \in A$, the transform of $A$ by a homothety of centre $a$ and ratio $\lambda$ where $0 < \lambda < 1$, is contained in $A$ (in other words, $A$ is stable for these homotheties).
 
-#### Example 1 {#evt-ii-s2-n1-exa-1 .statement}
+#### Example 1 {#evt-ii-s2-n1-exa-1 .statement tag=07B5}
 
 Every linear affine variety of $E$ (and in particular the empty set) is convex.
 
-#### Example 2 {#evt-ii-s2-n1-exa-2 .statement}
+#### Example 2 {#evt-ii-s2-n1-exa-2 .statement tag=07B6}
 
 The only non-empty convex sets in $\mathbf{R}$ are the intervals (GT, IV, § 2.4, prop. 1).
 
-#### Example 3 {#evt-ii-s2-n1-exa-3 .statement}
+#### Example 3 {#evt-ii-s2-n1-exa-3 .statement tag=07B7}
 
 Let $E$ be a vector space and $\|x\|$ a norm on $E$; the unit ball $B$, formed by the points $x$
 
@@ -89,17 +89,17 @@ $$
 \|\lambda x + (1 - \lambda) y\| \leq \lambda \|x\| + (1 - \lambda) \|y\| \leq \lambda + (1 - \lambda) = 1 .
 $$
 
-#### Remark {#evt-ii-s2-n1-rem-1 .statement}
+#### Remark {#evt-ii-s2-n1-rem-1 .statement tag=07B8}
 
 — Let $A$ be a convex subset of a vector space $E$; for any scalars $\alpha > 0$ and $\beta > 0$ we have $\alpha A + \beta A = (\alpha + \beta) A$. In other words, for any $x \in A, y \in A$, there exists $z \in A$ such that $(\alpha + \beta) z = \alpha x + \beta y$; in fact this relation can be written $z = \frac{\alpha}{\alpha + \beta} x + \frac{\beta}{\alpha + \beta} y$ and we have $\frac{\alpha}{\alpha + \beta} > 0, \frac{\beta}{\alpha + \beta} > 0$ and $\frac{\alpha}{\alpha + \beta} + \frac{\beta}{\alpha + \beta} = 1$, from which the assertion follows, on using def. 1.
 
-#### Proposition 1 {#evt-ii-s2-prop-1 .statement}
+#### Proposition 1 {#evt-ii-s2-prop-1 .statement tag=07B9}
 
 *Let $(x_i)$ be a family of points of a convex subset $A$; every barycentre $\sum_i \lambda_i x_i$ of the $x_i$ formed using positive masses $\lambda_i$ (such that $\sum_i \lambda_i = 1$ and $\lambda_i = 0$ except for finitely many of the indices, cf. A, II, § 9.3) belongs to $A$.*
 
 Clearly we need only consider the case when the indices are $1, 2, ..., p$ and $\lambda_i > 0$ for each $i$; the proposition is trivial if $p = 1$; we prove the result by induction on $p$. Put $\mu = \sum_{i=1}^{p-1} \lambda_i > 0$, and $y = \sum_{i=1}^{p-1} \frac{\lambda_i}{\mu} x_i$; the induction hypothesis implies that $y \in A$. Now as $\lambda_p = 1 - \mu$ and $\sum_{i=1}^p \lambda_i x_i = \mu y + (1 - \mu) x_p$, its follows from def. 1 that $\sum_{i=1}^p \lambda_i x_i$ belongs to $A$.
 
-#### Proposition 2 {#evt-ii-s2-prop-2 .statement}
+#### Proposition 2 {#evt-ii-s2-prop-2 .statement tag=07BA}
 
 *Let $E$ and $F$ be two affine spaces and $f$ be an affine linear mapping of $E$ in $F$; then the image of a convex subset of $E$ under $f$, and the inverse image of a convex subset of $F$ under $f$ are both convex.*
 
@@ -107,7 +107,7 @@ The image under $f$ of the closed segment with end points $x, y$ is the closed s
 
 In particular the image of a convex set under a homothety or a translation is a convex set.
 
-#### Proposition 3 {#evt-ii-s2-prop-3 .statement}
+#### Proposition 3 {#evt-ii-s2-prop-3 .statement tag=07BB}
 
 *In the affine space $E$, let $H$ be a hyperplane defined by the relation $g(x) = 0$, where $g$ is a non-constant affine function on $E$. Then the half-spaces defined by the relations $g(x) \geq 0, g(x) \leq 0, g(x) > 0, g(x) < 0$ are convex.*
 
@@ -115,7 +115,7 @@ For these are the inverse images under $g$ of intervals of $\mathbf{R}$ and thus
 
 With the notations of prop. 3 the points of a subset $M$ of an affine space are *on the same side* (resp. *strictly on the same side*) of the hyperplane $H$ if $M$ is contained in one of the half-spaces defined by $g(x) \geq 0, g(x) \leq 0$ (resp. $g(x) > 0$ or $g(x) < 0$).
 
-#### Proposition 4 {#evt-ii-s2-prop-4 .statement}
+#### Proposition 4 {#evt-ii-s2-prop-4 .statement tag=07BC}
 
 *The points of $A$, a convex subset of an affine space $E$ are strictly on the same side of a hyperplane $H$ if, and only if, $A$ does not meet $H$.*
 
@@ -123,25 +123,25 @@ Clearly the condition is necessary. Conversely suppose that it is satisfied and 
 
 ### 2. Intersections of convex sets. Products of convex sets
 
-#### Proposition 5 {#evt-ii-s2-prop-5 .statement}
+#### Proposition 5 {#evt-ii-s2-prop-5 .statement tag=07BD}
 
 — *The intersection of any family of convex subsets of an affine space* E *is convex*.
 
 The proposition follows immediately from def. 1 of II, p. 7.
 
-#### Proposition 6 {#evt-ii-s2-prop-6 .statement}
+#### Proposition 6 {#evt-ii-s2-prop-6 .statement tag=07BE}
 
 — *Let* $(E_i)_{i \in I}$ *be a family of vector spaces, and for each* $i \in I$, *let* $A_i$ *be a non-empty subset of* $E_i$. *Then the set* $A = \prod_{i \in I} A_i$ *is convex in* $E = \prod_{i \in I} E_i$, *if, and only if, for all* $i \in I$, *the set* $A_i$ *is convex in* $E_i$.
 
 In fact, each projection $\mathrm{pr}_i$ is a linear mapping and we have $A_i = \mathrm{pr}_i A$ and $A = \bigcap_{i \in I} \mathrm{pr}_i^{-1}(A_i)$; the proposition follows from props. 2 and 5 above.
 
-#### Corollary {#evt-ii-s2-n2-cor-1 .statement}
+#### Corollary {#evt-ii-s2-n2-cor-1 .statement tag=07BF}
 
 — *In the space* $\mathbf{R}^n$ *every parallelootope* (GT, VI, § 1.3) *is a convex subset*.
 
 For it is the image under an affine linear mapping of a rectangular parallelepiped, and this last is convex by prop. 6.
 
-#### Proposition 7 {#evt-ii-s2-prop-7 .statement}
+#### Proposition 7 {#evt-ii-s2-prop-7 .statement tag=07BG}
 
 — *Let* A *and* B *be two convex subsets of the vector space* E. *For any real numbers* $\alpha, \beta$ *the set* $\alpha A + \beta B$ *(set of points of the form* $\alpha x + \beta y$, *where* $x$ *varies in* A, *and* $y$ *in* B*) is convex*.
 
@@ -149,11 +149,11 @@ For $\alpha A + \beta B$ is the image of the convex subset $A \times B$ of $E \t
 
 ### 3. Convex envelope of a set
 
-#### Definition 2 {#evt-ii-s2-def-2 .statement}
+#### Definition 2 {#evt-ii-s2-def-2 .statement tag=07BH}
 
 — *Given a subset* A *of an affine space* E, *we call the intersection of all convex sets containing* A, *the convex envelope of* A, *that is to say* (II, p. 9, prop. 5) *it is the smallest convex set containing* A.
 
-#### Proposition 8 {#evt-ii-s2-prop-8 .statement}
+#### Proposition 8 {#evt-ii-s2-prop-8 .statement tag=07BI}
 
 — *For any family* $(A_i)_{i \in I}$ *of convex subsets of an affine space* E, *the convex envelope of* $\bigcup_{i \in I} A_i$ *is precisely the set of linear combinations* $\sum_{i \in I} \lambda_i x_i$, *where* $x_i \in A_i, \lambda_i \geq 0$ *for all* $i \in I$ ($\lambda_i = 0$ *except for finitely many indices*) *and* $\sum_{i \in I} \lambda_i = 1$.
 
@@ -163,7 +163,7 @@ $$ z_i = \gamma_i^{-1}(\alpha\lambda_i x_i + (1 - \alpha) \mu_i y_i) $$
 
 belongs to A_i for all i ∈ J; but $\sum_{i\in J} \gamma_i = \alpha \sum_{i\in I} \lambda_i + (1 - \alpha) \sum_{i\in I} \mu_i = 1$, and we see that $ax + (1 - \alpha) y \in C$. The proposition is proved.
 
-#### Corollary 1 {#evt-ii-s2-prop-8-cor-1 .statement}
+#### Corollary 1 {#evt-ii-s2-prop-8-cor-1 .statement tag=07BJ}
 
 *The convex envelope of a subset A of E is identical with the set of linear combinations $\sum_i \lambda_i x_i$, where $(x_i)$ is any finite family of points of A, the numbers $\lambda_i > 0, \text{ for all } i$ and $\sum_i \lambda_i = 1$.*
 
@@ -171,7 +171,7 @@ The dimension of the affine linear variety (A, II, § 9.3) generated by the conv
 
 Let E be a vector space. The convex envelope C, of the balanced envelope of a set A in E is called the *balanced convex envelope* (or the *symmetric convex envelope*) of A; clearly it is the smallest symmetric convex set that contains A; it is also the convex envelope of $A \cup (-A)$, since every point of the balanced envelope of A belongs to a segment with extremities a and −a where $a \in A$. The set C coincides with the set of linear combinations $\sum_i \lambda_i x_i$ where $x_i \in A$ and $\sum_i |\lambda_i| \leq 1$; for it is clear that this set of points is convex and contains A and −A; it is sufficient to prove that it is contained in C, and for this we need consider only those linear combinations for which $\mu = \sum_i |\lambda_i| > 0$; we can then write $\sum_i \lambda_i x_i = \mu \cdot \sum_i \alpha_i y_i$ with $\alpha_i = \lambda_i/\mu$ and $y_i = x_i$, if $\lambda_i \geq 0$; and $\alpha_i = -\lambda_i/\mu$; $y_i = -x_i$ if $\lambda_i < 0$; clearly $\sum_i \alpha_i = 1$, and our assertion is proved.
 
-#### Corollary 2 {#evt-ii-s2-prop-8-cor-2 .statement}
+#### Corollary 2 {#evt-ii-s2-prop-8-cor-2 .statement tag=07BK}
 
 *Let f be an affine linear mapping of the affine space E in the affine space F; for each subset A of E, the convex envelope of f(A) is the image under f of the convex envelope of A.*
 
@@ -179,7 +179,7 @@ There is a similar statement for linear mappings and balanced convex envelopes.
 
 ### 4. Convex cones
 
-#### Definition 3 {#evt-ii-s2-def-3 .statement}
+#### Definition 3 {#evt-ii-s2-def-3 .statement tag=07BL}
 
 *A subset C of an affine space E is a cone with vertex x_0 if C is invariant for all homotheties of centre x_0 and ratio > 0.*
 
@@ -189,25 +189,25 @@ A cone C of vertex 0 is said to be *pointed* if $0 \in C$, and *non-pointed* oth
 
 If C is a non-pointed *convex* cone, then $C \cup \{0\}$ is a pointed convex cone. However, if C is a pointed convex cone, $C - \{0\}$ is not necessarily convex. We say that a pointed convex cone is *proper* if it does not contain any line passing through 0. Then
 
-#### Proposition 9 {#evt-ii-s2-prop-9 .statement}
+#### Proposition 9 {#evt-ii-s2-prop-9 .statement tag=07BM}
 
 *A pointed convex cone C is proper if and only if the non-pointed cone $C'$, which is the complement of 0 in C, is convex.*
 
 If C contains a line through 0 then clearly $C'$ is not convex. Suppose now that C is proper and let x, y be two points of $C'$. The closed segment with end points x, y is contained in C; if it contains 0 then $\lambda x + (1 - \lambda) y = 0$ for some $\lambda$ with $0 < \lambda < 1$, therefore $x = \mu y$ with $\mu < 0$. Thus C contains the line through 0 and x, contrary to hypothesis.
 
-#### Proposition 10 {#evt-ii-s2-prop-10 .statement}
+#### Proposition 10 {#evt-ii-s2-prop-10 .statement tag=07BN}
 
 *A subset C of E is a convex cone if and only if $C + C \subset C$ and $\lambda C \subset C$ for all $\lambda > 0$.*
 
 For the condition $\lambda C \subset C$ for all $\lambda > 0$ characterises the cones. If C is convex we have $C + C = \frac{1}{2}C + \frac{1}{2}C = C$ (II, p. 8, *Remark*). Conversely, if the cone C is such that $C + C \subset C$, then for $0 < \lambda < 1$, we have $\lambda C + (1 - \lambda) C = C + C \subset C$, which shows that C is convex.
 
-#### Corollary 1 {#evt-ii-s2-prop-10-cor-1 .statement}
+#### Corollary 1 {#evt-ii-s2-prop-10-cor-1 .statement tag=07BO}
 
 *If C is a non-empty convex cone, the vector space generated by C is the set $C - C$ (the set of points $x - y$ where x, y vary in C).*
 
 For, if $V = C - C$, then V is non empty, we have $\lambda V = V$ for all $\lambda \neq 0$, and $V + V = C + C - (C + C) \subset C - C = V$, which shows that V is a vector subspace. Finally every vector subspace that contains C also contains V.
 
-#### Corollary 2 {#evt-ii-s2-prop-10-cor-2 .statement}
+#### Corollary 2 {#evt-ii-s2-prop-10-cor-2 .statement tag=07BP}
 
 *If C is a pointed convex cone, the largest vector subspace contained in C is the set $C \cap (-C)$.*
 
@@ -219,25 +219,25 @@ which shows that W is a vector subspace. Clearly every vector subspace contained
 
 Obviously, if $f$ is a linear mapping of E in a vector space F, then $f(C)$, the image of a convex cone C in E, is a convex cone in F. Every intersection of convex cones (with vertex 0) in E is a convex cone. For every subset A of E the intersection of convex cones containing A (these exist, E itself is one such cone) is the smallest convex cone that contains A; it is called the convex cone *generated* by A.
 
-#### Proposition 11 {#evt-ii-s2-prop-11 .statement}
+#### Proposition 11 {#evt-ii-s2-prop-11 .statement tag=07BQ}
 
 *Let $(C_i)_{i \in I}$ be a family of convex cones in E; the convex cone generated by the union of the $C_i$ is identical with the set of points $\sum_{i \in J} x_i$, where J is any finite subset of I and $x_i \in C_i$ for all $i \in J$.*
 
 In fact, it is obvious that C, the set of such points, is a convex cone containing the union of the $C_i$, and that it is contained in any convex cone which contains this union.
 
-#### Corollary {#evt-ii-s2-n4-cor-1 .statement}
+#### Corollary {#evt-ii-s2-n4-cor-1 .statement tag=07BR}
 
 — *For any subset A of E, the convex cone generated by A, is identical with the set of linear combinations* $\sum_{i \in J} \lambda_i x_i$, *where* $(x_i)_{i \in J}$ *is any finite non-empty family of points of A, and where* $\lambda_i > 0$ *for all* $i \in J$.
 
 It is sufficient to see that, if a convex cone contains a point $x \neq 0$ of A then it also contains the half-line $C_x$ of the points $\lambda x$ where $\lambda$ varies in the set of positive numbers and that $C_x$ is a convex cone.
 
-#### Proposition 12 {#evt-ii-s2-prop-12 .statement}
+#### Proposition 12 {#evt-ii-s2-prop-12 .statement tag=07BS}
 
 — *If A is a convex set in E, then the convex cone generated by A is identical with* $C = \bigcup_{\lambda > 0} \lambda A$.
 
 The set C is clearly a cone; it is sufficient to show that C is convex. Let $\lambda x, \mu y$ be two points of C ($\lambda > 0, \mu > 0, x \in A, y \in A$). Let $\alpha, \beta$ be two numbers $> 0$ such that $\alpha + \beta = 1$. Then $\alpha \lambda x + \beta \mu y = (\alpha \lambda + \beta \mu) z$, with $z \in A$, and $\alpha \lambda + \beta \mu > 0$; hence $\alpha \lambda x + \beta \mu y \in C$.
 
-#### Remark {#evt-ii-s2-n4-rem-1 .statement}
+#### Remark {#evt-ii-s2-n4-rem-1 .statement tag=07BT}
 
 — 1) With the hypotheses of prop. 12, if $0 \notin A$, then the cone C is non-pointed, thus $C \cup \{0\}$ is *proper*.
 
@@ -255,11 +255,11 @@ The vector space E, carrying these two structures, is called a *preordered vecto
 
 Note that axiom (EO$_I$) means that the preorder structure and the additive group structure of E are compatible, that is to say, E carrying these two structures, is a *preordered group* (A, VI, p. 3).
 
-#### Example {#evt-ii-s2-n5-exa-1 .statement}
+#### Example {#evt-ii-s2-n5-exa-1 .statement tag=07BU}
 
 — On the space $E = \mathbf{R}^A$ of all finite real-valued functions defined over A, the relation of order given by « for all $t \in A$, $x(t) \leqslant y(t)$ » is compatible with the vector space structure of E.
 
-#### Proposition 13 {#evt-ii-s2-prop-13 .statement}
+#### Proposition 13 {#evt-ii-s2-prop-13 .statement tag=07BV}
 
 — (i) *The set P, of elements* $\geqslant 0$, *of a preordered vector space E, is a pointed convex cone*.
 
@@ -273,7 +273,7 @@ Note that axiom (EO$_I$) means that the preorder structure and the additive grou
 
 (iii) To say that P is proper means that $P \cap (-P) = \{0\}$ (II, p. 11, cor. 2), hence that $y - x \in P$ is an order relation.
 
-#### Example {#evt-ii-s2-n5-exa-2 .statement}
+#### Example {#evt-ii-s2-n5-exa-2 .statement tag=07BW}
 
 \* Let H be a real Hilbert space; in the vector space $\mathscr{L}(H)$ of continuous endomorphisms of H, the positive hermitian endomorphisms form a proper pointed convex cone; this cone, therefore, defines an order structure compatible with the vector space structure of $\mathscr{L}(H)$ and for which the relation $A \leqslant B$ means that $B - A$ is a positive hermitian endomorphism. \*
 
@@ -283,13 +283,13 @@ A linear form $f$ on a preordered vector space E is said to be positive if $x \g
 
 ### 6. Convex cones in topological vector spaces
 
-#### Proposition 14 {#evt-ii-s2-prop-14 .statement}
+#### Proposition 14 {#evt-ii-s2-prop-14 .statement tag=07BX}
 
 In a topological vector space E, the closure of a convex set (resp. of a convex cone) is a convex set (resp. a convex cone with the same vertex).
 
 For, let A be a convex set; the mapping $(x, y) \mapsto \lambda x + (1 - \lambda) y$, where $0 < \lambda < 1$, is continuous in $E \times E$ and maps $A \times A$ in A; thus (GT, I, § 2.1, th. 1) it maps $\overline{A} \times \overline{A}$ in $\overline{A}$, which shows that $\overline{A}$ is convex. Similarly, if C is a convex cone with vertex 0 then $\overline{C} + \overline{C} \subset \overline{C}$ and $\lambda \overline{C} \subset \overline{C}$ for all $\lambda > 0$.
 
-#### Definition 4 {#evt-ii-s2-def-4 .statement}
+#### Definition 4 {#evt-ii-s2-def-4 .statement tag=07BY}
 
 For any set A of a topological vector space E, the intersection of all the closed convex sets containing A is called the convex closed envelope of A; it is the smallest convex closed set containing A.
 
@@ -297,23 +297,23 @@ From prop. 14, the convex closed envelope of A is the closure of the convex enve
 
 Similarly we call the smallest symmetric, convex, closed set that contains A, the symmetric convex closed envelope (or the balanced convex closed envelope) of A; it is the closure of the symmetric convex envelope of A (II, p. 10); it is also the symmetric convex closed envelope of $\overline{A}$.
 
-#### Proposition 15 {#evt-ii-s2-prop-15 .statement}
+#### Proposition 15 {#evt-ii-s2-prop-15 .statement tag=07BZ}
 
 — Let $A_i$ ($1 \leq i \leq n$) be a finite number of compact convex sets in a Hausdorff topological vector space E. Then the convex envelope of the union of the $A_i$ is compact (and is, therefore, the same as the convex closed envelope of this union).
 
 Let B be the compact set in $\mathbf{R}^n$ defined by the points $(\lambda_1, \lambda_2, ..., \lambda_n)$ where $\lambda_i \geq 0$ ($1 \leq i \leq n$), and $\sum_{i=1}^n \lambda_i = 1$. Define a continuous mapping of $B \times \prod_{i=1}^n A_i \subset \mathbf{R}^n \times E^n$ in E by the formula $(\lambda_1, \lambda_2, ..., \lambda_n, x_1, x_2, ..., x_n) \mapsto \sum_{i=1}^n \lambda_i x_i$. The convex envelope C of $\bigcup_{i=1}^n A_i$ is the image of $B \times \prod_{i=1}^n A_i$ under this mapping; as $B \times \prod_{i=1}^n A_i$ is compact and E is Hausdorff, it follows that C is compact.
 
-#### Corollary 1 {#evt-ii-s2-prop-15-cor-1 .statement}
+#### Corollary 1 {#evt-ii-s2-prop-15-cor-1 .statement tag=07C0}
 
 — In a Hausdorff topological vector space the convex envelope of a finite set is compact.
 
-#### Corollary 2 {#evt-ii-s2-prop-15-cor-2 .statement}
+#### Corollary 2 {#evt-ii-s2-prop-15-cor-2 .statement tag=07C1}
 
 — In a topological vector space E, the convex envelope of a finite set is precompact.
 
 In fact, let j be the canonical mapping of E in its Hausdorff completion $\hat{E}$; if C is the convex envelope of A, then $j(C)$ is the convex envelope of the finite set $j(A)$ in $\hat{E}$, hence $j(C)$ is compact (cor. 1) and therefore C is precompact (GT, II, § 4.2).
 
-#### Proposition 16 {#evt-ii-s2-prop-16 .statement}
+#### Proposition 16 {#evt-ii-s2-prop-16 .statement tag=07C2}
 
 — Let A be a convex subset, with at least one interior point $x_0$, of a topological vector space E. For any point $x \in \overline{A}$, every point of the open segment with end points $x_0, x$ lies in the interior of A.
 
@@ -325,13 +325,13 @@ $$
 
 hence $y - f(z) = \frac{\lambda}{\lambda - 1} (z - f(z))$, so that y is transformed into z by the homothety g, of centre $f(z)$ and ratio $\mu = \lambda / (\lambda - 1)$; since $0 < \mu < 1$, g transforms V into a neighbourhood of 0 contained in A. The proposition is proved.
 
-#### Corollary 1 {#evt-ii-s2-prop-16-cor-1 .statement}
+#### Corollary 1 {#evt-ii-s2-prop-16-cor-1 .statement tag=07C3}
 
 — The interior $\overset{\circ}{A}$ of a convex set $\overline{A}$, is itself a convex set; if $\overset{\circ}{A}$ is not empty, then it coincides with the interior of $\overline{A}$, and $\overline{A}$ is a convex set that coincides with the closure of $\overset{\circ}{A}$.
 
 It follows from prop. 16, that if $\overset{\circ}{A}$ is not empty, then it is a convex set and every point of $\overline{A}$ is a cluster point of $\overset{\circ}{A}$. Next we show that every interior point of $\overline{A}$ belongs to $\overset{\circ}{A}$. Let x be an interior point of $\overline{A}$ and suppose, for definiteness that $x = 0$. Let V be a symmetric neighbourhood of 0 that is contained in $\overline{A}$ and let $y \in \overset{\circ}{A} \cap V$; now $-y \in \overline{A}$, and therefore, by prop. 16, we see that $0 \in \overset{\circ}{A}$, if $y \neq 0$; this is obviously true if $y = 0$.
 
-#### Corollary 2 {#evt-ii-s2-prop-16-cor-2 .statement}
+#### Corollary 2 {#evt-ii-s2-prop-16-cor-2 .statement tag=07C4}
 
 — *The interior* $\dot{C}$ *of a convex cone* C, *is itself a convex cone; if* $\dot{C}$ *is not empty then it coincides with the interior of* $\overline{C}$, *and* $\overline{C}$ *is a pointed convex cone that coincides with the closure of* $\dot{C}$.
 
@@ -339,19 +339,19 @@ Since homotheties of ratio $> 0$ and centre 0 transform C into itself, they do t
 
 Let H be a closed hyperplane in the topological vector space E over $\mathbf{R}$; it has an equation of the form $f(x) = \alpha$, where $f$ is a continuous linear form that is not identically zero in E (I, p. 13, th. 1). The closed half spaces defined respectively by $f(x) \leqslant \alpha$ and $f(x) \geqslant \alpha$ are therefore *closed* convex sets; their complements defined respectively by $f(x) > \alpha$ and $f(x) < \alpha$, are *open* convex sets. We say that these half-spaces are the closed (resp. open) half spaces *determined* by H.
 
-#### Proposition 17 {#evt-ii-s2-prop-17 .statement}
+#### Proposition 17 {#evt-ii-s2-prop-17 .statement tag=07C5}
 
 — *In a topological vector space* E, *let* A *be a set with at least one interior point, and such that all its points lie on the same side of an hyperplane* H. *Then* H *is closed, the interior points of* A *lie strictly on the same side of* H, *and the cluster points of* A *lie on the same side of* H. *In particular open (resp. closed) half spaces are determined by closed hyperplanes*.
 
 In fact suppose that H contains the origin and that $f(x) = 0$ is an equation of H; suppose, for definiteness, that $f(x) \geqslant 0$ for all $x \in A$. The half space formed by the points y such that $f(y) > -1$ contains at least one interior point, and, by translation, the same is true of the half space of points y such that $f(y) > 0$; this shows that H is closed (I, p. 11, corollary). Then we know that $f$ is a strict morphism of E on $\mathbf{R}$ (I, p. 13, corollary), therefore $f(\dot{A})$ is an open set in $\mathbf{R}$. This set cannot contain 0 or it would contain numbers $< 0$ contrary to hypothesis; it is thus contained in the open interval $]0, +\infty[$. On the other hand, the half space of those y for which $f(y) \geqslant 0$ is closed and contains A, therefore it contains $\overline{A}$.
 
-#### Corollary {#evt-ii-s2-n6-cor-1 .statement}
+#### Corollary {#evt-ii-s2-n6-cor-1 .statement tag=07C6}
 
 — *Let* P *be a pointed convex cone, with at least one interior point, of the topological vector space* E. *Then each linear form* f *that is not identically zero on* E, *and is positive for the preorder structure defined by* P (II, p. 13), *is necessarily continuous*. *Further, if* x *is interior to* P *then* $f(x) > 0$ *and if* x *is a cluster point of* P *then* $f(x) \geqslant 0$.
 
 Apply prop. 17 to the case $A = P$ where H is the hyperplane with the equation $f(x) = 0$.
 
-#### Remark {#evt-ii-s2-n6-rem-1 .statement}
+#### Remark {#evt-ii-s2-n6-rem-1 .statement tag=07C7}
 
 In a topological vector space E, every convex set C is connected. In fact, if $a \in C$, then C is a union of segments with end point a and closed at a; these are connected and the result follows from GT, I, § 11.1, prop. 2.
 
@@ -363,7 +363,7 @@ Let E be an ordered vector space. A topology on E is *compatible* with the order
 
 An ordered vector space E with a compatible topology is called an ordered topological vector space.
 
-#### Example {#evt-ii-s2-n7-exa-1 .statement}
+#### Example {#evt-ii-s2-n7-exa-1 .statement tag=07C8}
 
 The space $\mathbf{R}^n$ with its usual topology and the order structure that is the product of the order structure of its factors is an ordered topological vector space. On the other hand, for $n \geq 2$, when $\mathbf{R}^n$ carries the lexicographical order (S, III, § 2.6), the usual topology is not compatible with the ordered vector space structure of $\mathbf{R}^n$.
 
@@ -371,7 +371,7 @@ Let A be a set; the vector space $\mathscr{B}(A ; \mathbf{R})$ of real valued bo
 
 In an ordered topological vector space E, the set of elements $x \leq 0$ is closed; since translations are homeomorphisms, we deduce that, for all $a \in E$, the set of elements $x \geq a$ (resp. $x \leq a$) is closed. Since $\{0\}$ is the intersection of the sets $x \geq 0$ and $x \leq 0$, it follows that $\{0\}$ is closed and that E is Hausdorff.
 
-#### Proposition 18 {#evt-ii-s2-prop-18 .statement}
+#### Proposition 18 {#evt-ii-s2-prop-18 .statement tag=07C9}
 
 In an ordered topological vector space E, let H be a set directed by the relation $\leq$. If the section filter of H has a limit in E, then this limit is the upper bound of H.
 
@@ -379,7 +379,7 @@ For, let $b = \lim_{x \in H} x$; for every $y \in H$, the set of $x \in H$ such 
 
 ### 8. Convex functions
 
-#### Definition 5 {#evt-ii-s2-def-5 .statement}
+#### Definition 5 {#evt-ii-s2-def-5 .statement tag=07CA}
 
 Let X be a convex subset of the affine space E. A real-valued finite function, defined over X is convex (resp. strictly convex) if for any two distinct points x, y of X and any real number $\lambda, 0 < \lambda < 1$, we have:
 
@@ -396,7 +396,7 @@ $$
 
 When $E = \mathbf{R}$, this definition of convex function is the same as that in FVR, I, p. 32. Further, f is convex (resp. strictly convex) in X if, and only if, for every affine line $D \subset E$, the restriction of f to $X \cap D$ is convex (resp. strictly convex) in $X \cap D$.
 
-#### Example {#evt-ii-s2-n8-exa-1 .statement}
+#### Example {#evt-ii-s2-n8-exa-1 .statement tag=07CB}
 
 If f is an affine linear function on E, then f and $f^2$ are convex functions on E; this is obvious for f since
 $$
@@ -423,7 +423,7 @@ $$
 
 A mapping of $X$ in $\mathbf{R}$ is *affine* if it is both convex and concave (*cf.* II, p. 78, exerc. 11).
 
-#### Proposition 19 {#evt-ii-s2-prop-19 .statement}
+#### Proposition 19 {#evt-ii-s2-prop-19 .statement tag=07CC}
 
 *Let $X$ be a convex set of the affine space $E$; and let $f$ be a real-valued function defined over $X$. Denote the set of points $(x, a) \in E \times \mathbf{R}$ for which $x \in X$ and $f(x) \leqslant a$ (resp. $x \in X$ and $f(x) < a$) by $F$ (resp. $F'$). Then the following conditions are equivalent*:
 
@@ -449,13 +449,13 @@ $$
 
 provided $a \geqslant f(x)$ and $b \geqslant f(y)$; hence (1) follows and $f$ is convex.
 
-#### Corollary {#evt-ii-s2-n8-cor-1 .statement}
+#### Corollary {#evt-ii-s2-n8-cor-1 .statement tag=07CD}
 
 *If $f$ is convex in $X$, then for all $\alpha \in \mathbf{R}$, the set of $x \in X$ such that $f(x) \leqslant \alpha$ (resp. $f(x) < \alpha$) is convex*.
 
 In fact, it is the projection on $E$ of the intersection of $F$ (resp. $F'$) and the hyperplane $E \times \{\alpha\}$ in $E \times \mathbf{R}$.
 
-#### Proposition 20 {#evt-ii-s2-prop-20 .statement}
+#### Proposition 20 {#evt-ii-s2-prop-20 .statement tag=07CE}
 
 *Let $f$ be a convex function, defined over a convex set $X$ of the affine* space E. Then for every family $(x_i)_{1 \leq i \leq p}$ of $p$ points of X and every family $(\lambda_i)_{1 \leq i \leq p}$ of $p$ real numbers, all $\geq 0$, such that $\sum_{i=1}^p \lambda_i = 1$, we have:
 
@@ -488,7 +488,7 @@ Finally if H is a set of convex functions defined over X, and $\mathfrak{F}$ is 
 
 ### 10. Convex functions over an open convex set
 
-#### Proposition 21 {#evt-ii-s2-prop-21 .statement}
+#### Proposition 21 {#evt-ii-s2-prop-21 .statement tag=07CF}
 
 Let $f$ be a convex function, defined over the non-empty open convex set X in the topological vector space E. Then $f$ is continuous if, and only if, it is bounded above when restricted to some non-empty open subset U of X.
 
@@ -502,7 +502,7 @@ $$
 
 Thus $f$ is bounded above in a neighbourhood of $y$ and hence, by the first part, is continuous at $y$. The proposition is proved.
 
-#### Corollary {#evt-ii-s2-n10-cor-1 .statement}
+#### Corollary {#evt-ii-s2-n10-cor-1 .statement tag=07CG}
 
 *Every convex function f defined over an open convex set X in $\mathbf{R}^n$ is continuous in X.*
 
@@ -544,7 +544,7 @@ If $p$ is a sub-linear function defined on E; then, by II, § 2.8, corollary, fo
 
 There is a partial converse of this result:
 
-#### Proposition 22 {#evt-ii-s2-prop-22 .statement}
+#### Proposition 22 {#evt-ii-s2-prop-22 .statement tag=07CH}
 
 *Let A be a convex set, containing 0, in the vector space E. For all $x \in E$, put*
 
@@ -565,7 +565,7 @@ Since the relations $x \in \rho A$ and $\lambda x \in \lambda \rho A$ are equiva
 
 The function $p_A$ defined by (7) is called the *gauge* of the convex set A. If A is absorbent and symmetric, then $p_A$ is a semi-norm.
 
-#### Proposition 23 {#evt-ii-s2-prop-23 .statement}
+#### Proposition 23 {#evt-ii-s2-prop-23 .statement tag=07CI}
 
 *Let E be a topological vector space. If A is an open convex set which contains 0, then $p_A$ is finite and continuous, and $A = W(p_A, 1)$. If A is a closed convex set containing 0, then $p_A$ is lower semi-continuous and $A = V(p_A, 1)$.*
 

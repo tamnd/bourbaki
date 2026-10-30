@@ -41,7 +41,7 @@ subsections:
       pdf_page: 212
 statements: 13
 exercises: 1
-content_sha256: ff781257cfd1745e9945d1fd13baf58f43ab8a0880cfa3d3f4dee03fff4b6456
+content_sha256: 34707444265fc0c28ebfc3dc922b2a7ee4bdbc156b1e23b97c350fbc29f0daf5
 ---
 
 ## § 1. STRUCTURES ET ISOMORPHISMES
@@ -327,7 +327,7 @@ Le couple $(s_1, s_2 \cap ((\mathbf{R} \times E) \times E))$ est un procédé de
 
 Supposons que $\Theta$ ait mêmes ensembles de base (principaux et auxiliaires) que $\Sigma$, et même caractérisation typique. Si en outre l'axiome de $\Sigma$ implique (dans $\mathscr{T}$) celui de $\Theta$, il est clair que le terme $s$ est un procédé de déduction d'une structure d'espèce $\Theta$ à partir d'une structure d'espèce $\Sigma$. On dit alors que $\Theta$ est moins riche que $\Sigma$, ou que $\Sigma$ est plus riche que $\Theta$. Toute structure d'espèce $\Sigma$, dans une théorie $\mathscr{T}'$ plus forte que $\mathscr{T}$, est aussi alors une structure d'espèce $\Theta$. Par exemple, l'espèce de structure d'ensemble totalement ordonné (obtenu en prenant pour axiome la conjonction de l'axiome des structures d'ordre (IV, p. 4, Exemple 1) et de la relation $s \cup s^{-1} = A \times A$) est plus riche que l'espèce de structure d'ordre.* L'espèce de structure de groupe commutatif est plus riche que l'espèce de structure de groupe. L'espèce de structure d'espace compact est plus riche que l'espèce de structure topologique, etc.*
 
-#### Exemple 4 {#ens-iv-s1-n6-exa-4 .statement}
+#### Exemple 4 {#ens-iv-s1-n6-exa-4 .statement tag=077U}
 
 \* Si $\Sigma$ et $\Theta$ sont toutes deux l'espèce de structure de groupe (resp. d'anneau), on définit en Algèbre (A, I, § 1, no 5) un procédé de déduction associant à toute structure de groupe (resp. d'anneau) la structure de groupe (resp. d'anneau) sur son centre. Si $\Sigma$ est l'espèce de structure d'espace vectoriel sur un corps commutatif K, $\Theta$ l'espèce de structure d'algèbre sur K, on définit en A, III, §§ 5 et 7, des procédés de déduction associant à tout espace vectoriel sur K son algèbre tensorielle ou son algèbre extérieure. On rencontrera de nombreux autres exemples par la suite.*
 
@@ -361,7 +361,9 @@ CST7. Soient $\mathscr{S}, \mathscr{S}'$ deux structures d’espèce $\Sigma$ su
 
 Pratiquement, on ne fera pas de distinction entre les théories $\mathscr{T}_\Sigma$ et $\mathscr{T}_\Theta$ de deux espèces de structures équivalentes.
 
-*Exemples. — 1)* *Soit $\Sigma$ l’espèce de structure de groupe commutatif (A, I, § 4, n° 2); elle comporte un seul ensemble de base (principal) $A$, et sa structure générique une seule lettre $F$; la caractérisation typique de $\Sigma$ est $F \in \mathfrak{B}((A \times A) \times A)$, et nous désignerons par $R \{ A, F \}$ l’axiome de $\Sigma$. Cet axiome implique en particulier que $F$ est un graphe fonctionnel (la « loi de composition » du groupe, cf. IV, p. 5, Exemple 2). On définit alors dans $\mathscr{T}_\Sigma$ (où $\mathscr{T}$ désigne la théorie des ensembles) un terme $M \{ A, F \}$, qui est un graphe fonctionnel dans $\mathfrak{B}((\mathbf{Z} \times A) \times A)$ et vérifie la relation suivant $B \{ M, A, F \}$:
+#### Exemples {#ens-iv-s1-n7-exa-1 .statement tag=03VI}
+
+*1)* *Soit $\Sigma$ l’espèce de structure de groupe commutatif (A, I, § 4, n° 2); elle comporte un seul ensemble de base (principal) $A$, et sa structure générique une seule lettre $F$; la caractérisation typique de $\Sigma$ est $F \in \mathfrak{B}((A \times A) \times A)$, et nous désignerons par $R \{ A, F \}$ l’axiome de $\Sigma$. Cet axiome implique en particulier que $F$ est un graphe fonctionnel (la « loi de composition » du groupe, cf. IV, p. 5, Exemple 2). On définit alors dans $\mathscr{T}_\Sigma$ (où $\mathscr{T}$ désigne la théorie des ensembles) un terme $M \{ A, F \}$, qui est un graphe fonctionnel dans $\mathfrak{B}((\mathbf{Z} \times A) \times A)$ et vérifie la relation suivant $B \{ M, A, F \}$:
 
 $$
 (\forall x)(\forall y)(\forall n)((x \in A \text{ et } y \in A \text{ et } n \in \mathbf{Z}) \Rightarrow (M(n, F(x, y)) = F(M(n, x), M(n, y))))

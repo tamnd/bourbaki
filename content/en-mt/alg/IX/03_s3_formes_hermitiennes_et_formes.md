@@ -28,11 +28,11 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: c2e1a0818cf45dbd7fbda6778dd989be679bf94ab46e130978309556a8a15891
+content_sha256: 528cbab588da851af5cc252aeab84c950a36d7dff514f6ae0d110eebfcbc81ca
 translated_from: content/fr/alg/IX/03_s3_formes_hermitiennes_et_formes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: d403918d1bfc289038d25d604d0e37b9e93386e58d50159f155da6b9777440ac
+source_content_sha256: b863434c266d34eb55965215585f7c9a1c320f01724f9f62b8ebf7698ade9e8b
 translation_model: gpt-5-mini, gpt-5-6-mini
 translation_run: translate-en-mt-8fe7369c
 glossary_version: 34
@@ -46,7 +46,7 @@ In all that follows in this Chapter, unless expressly stated otherwise, $A$ deno
 
 ### 1. Hermitian and $\varepsilon$-hermitian forms.
 
-#### Definition 1 {#alg-ix-s3-def-1 .statement}
+#### Definition 1 {#alg-ix-s3-def-1 .statement tag=0DKC}
 
 Let $\varepsilon$ be an element of the center of A. A sesquilinear form $\Phi$ on E such that one has $\Phi(x, y) = \varepsilon \overline{\Phi(y, x)}$ whatever $x$ and $y$ in E may be is called an $\varepsilon$-hermitian form. A 1-hermitian form (resp. (−1)-hermitian) is called hermitian (resp. antihermitian).
 
@@ -64,7 +64,7 @@ $$
 
 In particular, when A is a field, the elements $\alpha$ of the center of A such that $\overline{\alpha} = \alpha$ form a subfield K of A, and the $\varepsilon$-hermitian forms on E (for J) form a vector space over K.
 
-#### Remark 1 {#alg-ix-s3-n1-rem-1 .statement}
+#### Remark 1 {#alg-ix-s3-n1-rem-1 .statement tag=0DKD}
 
 If $\Phi$ is an $\varepsilon$-hermitian form on E, one has $\Phi(x, y) = \varepsilon \overline{\Phi(x, y)} \overline{\varepsilon}$ whatever $x, y$ in E may be. Hence, if $\Phi$ takes invertible values, one has $\varepsilon \overline{\varepsilon} = 1$.
 2) If there exists an invertible element $i$ of the center of A such that $\overline{i} = i \varepsilon$, then, for $\Phi$ to be $\varepsilon$-hermitian, it is necessary and sufficient that $i \Phi$ be hermitian.
@@ -125,7 +125,7 @@ $$
 
 whatever $x \in E_0$ and $x' \in E'_0$ may be.
 
-#### Proposition 1 {#alg-ix-s3-prop-1 .statement}
+#### Proposition 1 {#alg-ix-s3-prop-1 .statement tag=0DKF}
 
 Let $\Phi_1$ (resp. $\Phi_2$) be a K-bilinear form on $E_0 \times E'_0$, invariant under $j$ and $j'$. The mapping which to $\Phi_1$ (resp. $\Phi_2$) associates the mapping $\Phi$ of $E \times E'$ into $A$ defined by
 
@@ -154,14 +154,14 @@ It follows immediately that, for $\Phi$ to be sesquilinear, it is necessary and 
 
 It follows from this that, for a sesquilinear form $\Phi = \Phi_1 + i \Phi_2$ to be zero, it is necessary and sufficient that $\Phi_1$ (resp. $\Phi_2$) be zero. Now, if $E = E'$, one has $\Phi(y, x) = \Phi_1(y, x) + i \Phi_2(y, x)$ and $\overline{\Phi(x, y)} = \Phi_1(x, y) - i \Phi_2(x, y)$; for these two expressions to be equal, in other words for $\Phi$ to be hermitian, it is necessary and sufficient therefore that $\Phi_1$ be symmetric (resp. that $\Phi_2$ be antisymmetric).
 
-#### Remark 1 {#alg-ix-s3-n3-rem-1 .statement}
+#### Remark 1 {#alg-ix-s3-n3-rem-1 .statement tag=0DKG}
 
 The formulas (7) and (8) show that, if $x \in E$, in order that $\Phi(x, x') = 0$ for all $x' \in E'$, it is necessary and sufficient that $\Phi_1(x, x') = 0$ (resp. $\Phi_2(x, x') = 0$) for all $x' \in E'$.
 2) The adjoint of an endomorphism $u$ of $E$ with respect to $\Phi$ ($§ 1$, n° 8) is the same as the adjoint of $u$ (considered as an endomorphism of $E_0$) with respect to $\Phi_1$ (resp. $\Phi_2$).
 
 ### 4. Quadratic forms.
 
-#### Definition 2 {#alg-ix-s3-def-2 .statement}
+#### Definition 2 {#alg-ix-s3-def-2 .statement tag=0DKI}
 
 We suppose that the ring $A$ is commutative. We say that a mapping $Q$ of $E$ into $A$ is a quadratic form on $E$ if
 1) $Q(\alpha x) = \alpha^2 Q(x)$ for $\alpha \in A$ and $x \in E$;
@@ -187,7 +187,7 @@ For every bilinear form $f$ on $E \times E$, we define a quadratic form $Q$ by p
 
 In the case of a free module, we have in addition the following result:
 
-#### Proposition 2 {#alg-ix-s3-prop-2 .statement}
+#### Proposition 2 {#alg-ix-s3-prop-2 .statement tag=0DKJ}
 
 Suppose that $A$ is commutative and that $E$ admits a basis $(e_i)_{i \in I}$. Then, for every quadratic form $Q$ on $E$, there exists a bilinear form $f$ on $E \times E$ such that $Q(x) = f(x, x)$ for every $x \in E$. For every family $(b_{ij})_{(i,j) \in I \times I}$ of scalars such that $b_{ij} = b_{ji}$ for $(i, j) \in I \times I$, there exists one and only one quadratic form $Q$ such that
 
@@ -217,7 +217,7 @@ $\Phi(x, y) = 0$ for $x \in E$ and $y \in F$. In other words, if we call the ker
 
 It is immediately seen that the kernel of the quadratic module $|E/N$ is $\{0\}$.
 
-#### Proposition 3 {#alg-ix-s3-prop-3 .statement}
+#### Proposition 3 {#alg-ix-s3-prop-3 .statement tag=0DKK}
 
 *Let $h$ be a homomorphism of $A$ into a commutative ring $A'$. For every quadratic form $Q$ on the $A$-module $E$, there exists one and only one quadratic form $Q'$ on the $A'$-module $A' \otimes_A E$ (chap. III, 2nd ed., App. II, No. 10) such that one has*
 $$

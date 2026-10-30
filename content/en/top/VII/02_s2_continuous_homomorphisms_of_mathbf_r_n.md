@@ -28,7 +28,7 @@ subsections:
       pdf_page: 88
 statements: 10
 exercises: 7
-content_sha256: 8bac6f5f085612cbe2e567dc3d0ccfcfe4773748f05ca5e249aabb38593a949e
+content_sha256: 3f006ad7fa82d9c7e014ebfbbac1ca9f11dfb28040f438d97d56329bb57b038d
 ---
 
 ## 2. CONTINUOUS HOMOMORPHISMS OF $\mathbf{R}^n$ AND ITS QUOTIENT GROUPS
@@ -37,7 +37,7 @@ content_sha256: 8bac6f5f085612cbe2e567dc3d0ccfcfe4773748f05ca5e249aabb38593a949e
 
 Every linear mapping (cf. Chapter VI, § i, no. 3) of $\mathbf{R}^m$ into $\mathbf{R}^n$ is evidently a continuous homomorphism of the additive group $\mathbf{R}^m$ into the additive group $\mathbf{R}^n$. Conversely:
 
-#### Proposition 1 {#top-vii-s2-prop-1 .statement}
+#### Proposition 1 {#top-vii-s2-prop-1 .statement tag=0BZ3}
 
 *Every continuous homomorphism* $f$ *of the additive group* $\mathbf{R}^m$ *into the additive group* $\mathbf{R}^n$ *is a linear mapping of* $\mathbf{R}^m$ *into* $\mathbf{R}^n$.
 
@@ -47,7 +47,7 @@ It is enough to show that $f(tx) = tf(x)$ for all $x \in \mathbf{R}^n$ and all $
 
 Proposition 6 of Chapter V, § i, no. 4 may be generalized to all the groups $\mathbf{R}^n$.
 
-#### Proposition 2 {#top-vii-s2-prop-2 .statement}
+#### Proposition 2 {#top-vii-s2-prop-2 .statement tag=0BZ4}
 
 *Let* $A$ *be a parallelopte in* $\mathbf{R}^n$ *which contains* $o$; *and let* $f$ *be a continuous mapping of* $A$ *into a topological group* $G$ *(written multiplicatively)* *such that* $f(x + y) = f(x)f(y)$ *for each pair of points* $x, y$ *such that* $x \in A,\ y \in A$ *and* $x + y \in A$. *Then there exists a unique continuous homomorphism of* $\mathbf{R}^n$ *into* $G$ *which extends* $f$.
 
@@ -73,7 +73,7 @@ $$
 
 whenever $t, t'$ and $t + t'$ all belong to $A_i$. By Proposition 6 of Chapter V, § 1, no. 4, there exists a continuous homomorphism $\bar{f}_i$ of $\mathbf{R}$ into $G$ which extends $f_i$. Since $\mathbf{R}^n$ is the direct sum of the subgroups $D_i$, we can define a homomorphism $\bar{f}$ of $\mathbf{R}^n$ into the abelian group $G_1$ by the rule $\bar{f}(x) = \prod_{i=1}^n \bar{f}_i(t_i)$ where $x = \sum_{i=1}^n t_i a_i$; $\bar{f}$ is an extension of $f$ since, if $x \in A$, all the components $x_i$ of $x$ on the lines $D_i$ also belong to $A$, by reason of the choice of the $a_i$; moreover, $\bar{f}$ is continuous on $\mathbf{R}^n$, because it is continuous on each of the lines $D_i$, and $x_i$ is a linear function of $x$ (and therefore continuous).
 
-#### Corollary 1 {#top-vii-s2-prop-2-cor-1 .statement}
+#### Corollary 1 {#top-vii-s2-prop-2-cor-1 .statement tag=0BZ5}
 
 *Let $V$ be a neighbourhood of $o$ in $\mathbf{R}^n$ and let $f$ be a continuous mapping of $V$ into a topological group $G$ such that*
 
@@ -87,13 +87,13 @@ Take $W$ to be an open box with centre $o$, contained in $V$, and apply Proposit
 
 We shall see later that this property of $\mathbf{R}^n$ extends to a larger class of topological groups, the "simply connected" groups.
 
-#### Corollary 2 {#top-vii-s2-prop-2-cor-2 .statement}
+#### Corollary 2 {#top-vii-s2-prop-2-cor-2 .statement tag=0BZ6}
 
 *Let $f$ be a local isomorphism of $\mathbf{R}^n$ with a topological group $G$. Then there exists a unique strict morphism of $\mathbf{R}^n$ onto an open subgroup of $G$ which agrees with $f$ at all the points of some neighbourhood of $o$.*
 
 Let $\overline{f}$ be the continuous homomorphism of $\mathbf{R}^n$ into $G$ which agrees with $f$ at all points of a neighbourhood of $o$; $\overline{f}(\mathbf{R}^n)$ contains, by hypothesis, a neighbourhood of the identity element of $G$ and therefore (Chapter III, § 2, no. 1, Corollary to Proposition 4) is an open subgroup of $G$; moreover $\overline{f}$ is a strict morphism of $\mathbf{R}^n$ onto $\overline{f}(\mathbf{R}^n)$, by Chapter III, § 2, no. 8, Proposition 24.
 
-#### Theorem 1 {#top-vii-s2-thm-1 .statement}
+#### Theorem 1 {#top-vii-s2-thm-1 .statement tag=0BZ7}
 
 *Every connected group $G$ which is locally isomorphic to $\mathbf{R}^n$ is isomorphic to a group $\mathbf{R}^p \times \mathbf{T}^{n-p}$ ($0 \leqslant p \leqslant n$).*
 
@@ -101,7 +101,7 @@ A suitably chosen local isomorphism $f$ of $\mathbf{R}^n$ with $G$ extends to a 
 
 ### 3. CONTINUOUS HOMOMORPHISMS OF $\mathbf{R}^m$ INTO $\mathbf{T}^n$
 
-#### Proposition 3 {#top-vii-s2-prop-3 .statement}
+#### Proposition 3 {#top-vii-s2-prop-3 .statement tag=0BZ8}
 
 *Every continuous homomorphism of $\mathbf{R}^m$ into $\mathbf{T}^n$ is of the form $x \to \varphi(u(x))$, where $\varphi$ is the canonical homomorphism of $\mathbf{R}^n$ onto $\mathbf{T}^n$ (identified with $\mathbf{R}^n/\mathbf{Z}^n$) and $u$ is a linear mapping of $\mathbf{R}^m$ into $\mathbf{R}^n$.*
 
@@ -113,13 +113,13 @@ $$
 
 restricted to $V'$, is a continuous mapping of $V'$ into $\mathbf{R}^n$ such that $\psi(f(x+y)) = \psi(f(x)) + \psi(f(y))$ for each pair of points $x, y$ in $\mathbf{R}^m$ such that $x \in V', y \in V'$ and $x + y \in V'$; hence (no. 2, Corollary 1 to Proposition 2) this mapping coincides with a well-determined continuous homomorphism $u$ of $\mathbf{R}^m$ into $\mathbf{R}^n$ at all points of a neighbourhood $W$ of o in $\mathbf{R}^m$. By Proposition 1 (no. 1) $u$ is a linear mapping of $\mathbf{R}^m$ into $\mathbf{R}^n$; for all $x \in W$ we have therefore $f(x) = \varphi(u(x))$, which completes the proof.
 
-#### Remark {#top-vii-s2-n3-rem-1 .statement}
+#### Remark {#top-vii-s2-n3-rem-1 .statement tag=0BZ9}
 
 The same argument shows, more generally, that if $\varphi$ is a strict morphism of $\mathbf{R}^n$ into a group $G$, whose restriction to a suitable neighbourhood of o is a local isomorphism of $\mathbf{R}^n$ with $G$, then every continuous homomorphism of $\mathbf{R}^n$ into $G$ is of the form $x \mapsto \varphi(u(x))$, where $u$ is a linear mapping of $\mathbf{R}^m$ into $\mathbf{R}^n$.
 
 In the case $m = n = 1$, Proposition 3 gives:
 
-#### Proposition 4 {#top-vii-s2-prop-4 .statement}
+#### Proposition 4 {#top-vii-s2-prop-4 .statement tag=0BZA}
 
 *If $\varphi$ is the canonical homomorphism of $\mathbf{R}$ onto $\mathbf{T}$, every continuous homomorphism of $\mathbf{R}$ into $\mathbf{T}$ is of the form $x \mapsto \varphi(ax)$ where $a \in \mathbf{R}$; and it is a strict morphism of $\mathbf{R}$ onto $\mathbf{T}$ if $a \neq 0$.*
 
@@ -141,13 +141,13 @@ contrary to hypothesis. This condition implies that $p \geq n$. The image $u(\ma
 
 If we apply this argument to the case $p = n$, we have the following proposition:
 
-#### Proposition 5 {#top-vii-s2-prop-5 .statement}
+#### Proposition 5 {#top-vii-s2-prop-5 .statement tag=0BZB}
 
 *Every isomorphism of the topological group $\mathbf{T}^n$ onto one of its subgroups is an automorphism of $\mathbf{T}^n$ which is obtained by passing to the quotient from a linear mapping $u$ of $\mathbf{R}^n$ onto itself which, restricted to $\mathbf{Z}^n$, is an automorphism of $\mathbf{Z}^n$.*
 
 Equivalently (§ 1, no. 1), if $u(e_i) = \sum_{j=1}^n a_{ij} e_j$, the $a_{ij}$ must be integers such that $\det(a_{ij}) = \pm 1$. In particular, for $n = 1$:
 
-#### Proposition 6 {#top-vii-s2-prop-6 .statement}
+#### Proposition 6 {#top-vii-s2-prop-6 .statement tag=0BZC}
 
 *The only isomorphisms of the topological group $\mathbf{T}$ onto one of its subgroups are the identity mapping and the symmetry $x \to -x$.*
 

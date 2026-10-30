@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: 980b7df83420d2d1ee1769dbefbebd683a8dee8d0e805b08b5ff0431c7ab5204
+content_sha256: 45d8737e9e6d14b7c8b309a0a8643acf152b34e6df76209e0a2009b4d8551550
 translated_from: content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md
 source_lang: en-mt
 translation_method: machine
@@ -46,7 +46,7 @@ Trong toàn bộ phần sau của Chương này, trừ khi nói rõ ngược l�
 
 ### 1. Các dạng Hermit và $\varepsilon$-Hermit.
 
-#### Định nghĩa 1 {#alg-ix-s3-def-1 .statement}
+#### Định nghĩa 1 {#alg-ix-s3-def-1 .statement tag=0DKC}
 
 Cho $\varepsilon$ là một phần tử của tâm của A. Một dạng nửa song tuyến tính $\Phi$ trên E sao cho ta có $\Phi(x, y) = \varepsilon \overline{\Phi(y, x)}$ với mọi $x$ và $y$ trong E được gọi là một dạng $\varepsilon$-Hermit. Một dạng 1-Hermit (tương ứng, (−1)-Hermit) được gọi là Hermit (tương ứng, phản Hermit).
 
@@ -64,7 +64,7 @@ $$
 
 Đặc biệt, khi A là một trường, các phần tử $\alpha$ của tâm của A sao cho $\overline{\alpha} = \alpha$ tạo thành một trường con K của A, và các dạng $\varepsilon$-Hermit trên E (đối với J) tạo thành một không gian vectơ trên K.
 
-#### Nhận xét 1 {#alg-ix-s3-n1-rem-1 .statement}
+#### Nhận xét 1 {#alg-ix-s3-n1-rem-1 .statement tag=0DKD}
 
 Nếu $\Phi$ là một dạng $\varepsilon$-Hermit trên E, ta có $\Phi(x, y) = \varepsilon \overline{\Phi(x, y)} \overline{\varepsilon}$ với mọi $x, y$ trong E. Do đó, nếu $\Phi$ nhận các giá trị khả nghịch, ta có $\varepsilon \overline{\varepsilon} = 1$.
 2) Nếu tồn tại một phần tử khả nghịch $i$ của tâm của A sao cho $\overline{i} = i \varepsilon$, thì để $\Phi$ là $\varepsilon$-Hermit, điều kiện cần và đủ là $i \Phi$ là Hermit.
@@ -125,7 +125,7 @@ $$
 
 với mọi $x \in E_0$ và $x' \in E'_0$.
 
-#### Mệnh đề 1 {#alg-ix-s3-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ix-s3-prop-1 .statement tag=0DKF}
 
 Cho $\Phi_1$ (tương ứng $\Phi_2$) là một dạng song tuyến tính trên K trên $E_0 \times E'_0$, bất biến dưới $j$ và $j'$. Ánh xạ liên kết với $\Phi_1$ (tương ứng $\Phi_2$) ánh xạ $\Phi$ từ $E \times E'$ vào $A$ được xác định bởi
 
@@ -154,14 +154,14 @@ Suy ra ngay lập tức rằng, để $\Phi$ là sesquilinear, điều kiện c�
 
 Từ đó suy ra rằng, để một dạng sesquilinear $\Phi = \Phi_1 + i \Phi_2$ bằng không, điều kiện cần và đủ là $\Phi_1$ (tương ứng $\Phi_2$) bằng không. Bây giờ, nếu $E = E'$, ta có $\Phi(y, x) = \Phi_1(y, x) + i \Phi_2(y, x)$ và $\overline{\Phi(x, y)} = \Phi_1(x, y) - i \Phi_2(x, y)$; để hai biểu thức này bằng nhau, nói cách khác để $\Phi$ là Hermit, do đó điều kiện cần và đủ là $\Phi_1$ đối xứng (tương ứng là $\Phi_2$ phản đối xứng).
 
-#### Nhận xét 1 {#alg-ix-s3-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-ix-s3-n3-rem-1 .statement tag=0DKG}
 
 Các công thức (7) và (8) cho thấy rằng, nếu $x \in E$, để có $\Phi(x, x') = 0$ với mọi $x' \in E'$, điều kiện cần và đủ là $\Phi_1(x, x') = 0$ (tương ứng $\Phi_2(x, x') = 0$) với mọi $x' \in E'$.
 2) Liên hợp của một tự đồng cấu $u$ của $E$ đối với $\Phi$ ($§ 1$, n° 8) cũng chính là liên hợp của $u$ (được xét như một tự đồng cấu của $E_0$) đối với $\Phi_1$ (tương ứng $\Phi_2$).
 
 ### 4. Các dạng toàn phương.
 
-#### Định nghĩa 2 {#alg-ix-s3-def-2 .statement}
+#### Định nghĩa 2 {#alg-ix-s3-def-2 .statement tag=0DKI}
 
 Giả sử rằng vành $A$ là giao hoán. Ta nói rằng một ánh xạ $Q$ từ $E$ vào $A$ là một dạng toàn phương trên $E$ nếu
 1) $Q(\alpha x) = \alpha^2 Q(x)$ với $\alpha \in A$ và $x \in E$;
@@ -187,7 +187,7 @@ Với mọi dạng song tuyến tính $f$ trên $E \times E$, ta định nghĩa 
 
 Trong trường hợp của một môđun tự do, ta còn có kết quả sau đây:
 
-#### Mệnh đề 2 {#alg-ix-s3-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ix-s3-prop-2 .statement tag=0DKJ}
 
 Giả sử $A$ là giao hoán và $E$ thừa nhận một cơ sở $(e_i)_{i \in I}$. Khi đó, với mọi dạng toàn phương $Q$ trên $E$, tồn tại một dạng song tuyến tính $f$ trên $E \times E$ sao cho $Q(x) = f(x, x)$ với mọi $x \in E$. Với mọi họ $(b_{ij})_{(i,j) \in I \times I}$ các vô hướng sao cho $b_{ij} = b_{ji}$ với $(i, j) \in I \times I$, tồn tại một và chỉ một dạng toàn phương $Q$ sao cho
 
@@ -217,7 +217,7 @@ $\Phi(x, y) = 0$ với $x \in E$ và $y \in F$. Nói cách khác, nếu ta gọi
 
 Ta thấy ngay lập tức rằng hạt nhân của môđun toàn phương $|E/N$ là $\{0\}$.
 
-#### Mệnh đề 3 {#alg-ix-s3-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ix-s3-prop-3 .statement tag=0DKK}
 
 *Cho $h$ là một đồng cấu của $A$ vào một vành giao hoán $A'$. Với mọi dạng toàn phương $Q$ trên $A$-môđun $E$, tồn tại một và chỉ một dạng toàn phương $Q'$ trên $A'$-môđun $A' \otimes_A E$ (chương III, in lần thứ 2, Phụ lục II, No. 10) sao cho ta có*
 $$

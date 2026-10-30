@@ -20,7 +20,7 @@ subsections:
       pdf_page: 92
 statements: 9
 exercises: 2
-content_sha256: f3c3a1cc01aaaaa91057b78d85cd78c4d47e652ca66e4d3031cca1dd5ab749b5
+content_sha256: 469c822cd0058ba2bb0510721ee43c3d335b871a5db27467e63bfe955b6c2715
 ---
 
 ## 3. INFINITE SUMS IN THE GROUPS $\mathbf{R}^n$
@@ -29,7 +29,7 @@ content_sha256: f3c3a1cc01aaaaa91057b78d85cd78c4d47e652ca66e4d3031cca1dd5ab749b5
 
 Since every point of $\mathbf{R}^n$ has a *countable* fundamental system of neighbourhoods, a family $(x_t)$ of points of the additive group $\mathbf{R}^n$ is summable only if the set of indices $t$ such that $X_t \neq 0$ is *countable* (Chapter III, § 5, no. 2, Corollary to Proposition 1); hence, essentially, the study of summable families in $\mathbf{R}^n$ is reduced to that of summable sequences. Nevertheless, for the same reasons as were given in Chapter IV, , in connection with summable families in $\mathbf{R}$, we shall not impose any restriction, in what follows, on the cardinal of the index set
 
-#### Proposition 1 {#top-vii-s3-prop-1 .statement}
+#### Proposition 1 {#top-vii-s3-prop-1 .statement tag=0BZK}
 
 *A family* $(x_i)_{i \in I}$ *of points* $x_i = (x_{i,k})_{1 \leq k \leq n}$ *of* $\mathbf{R}^n$ *is summable if and only if each of the* $n$ *families* $(x_{i,k})_{i \in I}$ *of real numbers is summable in* $\mathbf{R}$.
 
@@ -37,7 +37,7 @@ This follows from Chapter III, § 5, no. 4, Proposition 4.
 
 The condition of Proposition 1 may be transformed as follows:
 
-#### Theorem 1 {#top-vii-s3-thm-1 .statement}
+#### Theorem 1 {#top-vii-s3-thm-1 .statement tag=0BZL}
 
 *A family* $(x_i)_{i \in I}$ *of points of* $\mathbf{R}^n$ *is summable if and only if the family* $(||x_i||)$ *of Euclidean norms of the* $x_i$ *is summable in* $\mathbf{R}$.
 
@@ -51,7 +51,7 @@ and the comparison principle (Chapter IV, § 7, no. 1, Theorem 2).
 
 One can also proceed somewhat differently, by first establishing the following proposition:
 
-#### Proposition 2 {#top-vii-s3-prop-2 .statement}
+#### Proposition 2 {#top-vii-s3-prop-2 .statement tag=0BZM}
 
 *If* $(x_i)_{i \in I}$ *is any finite family of points in* $\mathbf{R}^n$, *then*
 
@@ -89,13 +89,13 @@ $$
 
 which comes by passing to the limit from the analogous inequality for finite partial sums.
 
-#### Corollary {#top-vii-s3-n1-cor-1 .statement}
+#### Corollary {#top-vii-s3-n1-cor-1 .statement tag=0BZN}
 
 *A family* $(x_i)$ *of points of* $\mathbf{R}^n$ *is summable if and only if the set of finite partial sums of the family is bounded in* $\mathbf{R}^n$.
 
 By Theorem 1 and the triangle inequality, this condition is necessary; it is sufficient by the inequality (1) and Theorem 1.
 
-#### Proposition 3 {#top-vii-s3-prop-3 .statement}
+#### Proposition 3 {#top-vii-s3-prop-3 .statement tag=0BZO}
 
 *Let* $(x_\lambda)_{\lambda \in L}$ *be a summable family of points of* $\mathbf{R}^m$, $(y_\mu)_{\mu \in M}$ *a summable family of points of* $\mathbf{R}^n$, *and let* $f$ *be a bilinear mapping of* $\mathbf{R}^m \times \mathbf{R}^n$ *into* $\mathbf{R}^p$. *Then the family* $(f(x_\lambda, y_\mu))_{(\lambda, \mu) \in L \times M}$ *is summable and we have*
 
@@ -113,7 +113,7 @@ and therefore we are brought back to the case $f(x, y) = x_i y_j$, and in this c
 
 By specializing the function $f$ we obtain in particular the following corollaries:
 
-#### Corollary 1 {#top-vii-s3-prop-3-cor-1 .statement}
+#### Corollary 1 {#top-vii-s3-prop-3-cor-1 .statement tag=0BZP}
 
 *If* $(a_\lambda)_{\lambda \in L}$ *is a summable family of real numbers and if* $(x_\mu)_{\mu \in M}$ *is a summable family of points of* $\mathbf{R}^n$, *then the family* $(a_\lambda x_\mu)_{(\lambda, \mu) \in L \times M}$ *is summable and we have*
 
@@ -121,7 +121,7 @@ $$
 \sum_{(\lambda, \mu) \in L \times M} a_\lambda x_\mu = \left( \sum_{\lambda \in L} a_\lambda \right) \left( \sum_{\mu \in M} x_\mu \right).
 $$
 
-#### Corollary 2 {#top-vii-s3-prop-3-cor-2 .statement}
+#### Corollary 2 {#top-vii-s3-prop-3-cor-2 .statement tag=0BZQ}
 
 *If* $(x_\lambda)_{\lambda \in L}$ *and* $(y_\mu)_{\mu \in M}$ *are two summable families of points of* $\mathbf{R}^n$, *then the family* $(x_\lambda | y_\mu)$ *(cf. Chapter VI, § 2, no. 2)* *is summable in* $\mathbf{R}$, *and we have*
 
@@ -133,11 +133,11 @@ $$
 
 A series whose general term is $x_m = (x_{mi})_{1 \leq i \leq n}$ converges in $\mathbf{R}^n$ if and only if each of the $n$ series $(x_{mi})_{m \in \mathbf{N}}$ converges in $\mathbf{R}$.
 
-#### Definition 1 {#top-vii-s3-def-1 .statement}
+#### Definition 1 {#top-vii-s3-def-1 .statement tag=0BZR}
 
 *A series of points of* $\mathbf{R}^n$ *is said to be absolutely convergent if the series of Euclidean norms of its terms is convergent.*
 
-#### Proposition 4 {#top-vii-s3-prop-4 .statement}
+#### Proposition 4 {#top-vii-s3-prop-4 .statement tag=0BZS}
 
 *A series of points of* $\mathbf{R}^n$ *is commutatively convergent if and only if it is absolutely convergent.*
 

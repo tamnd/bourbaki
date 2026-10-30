@@ -21,14 +21,14 @@ subsections:
       pdf_page: 308
 statements: 34
 exercises: 41
-content_sha256: 713de6c64caf6084b7be6fbb996c784a841d5ce92e388020561012f1d99b1c25
+content_sha256: 5685264a2c34a50533ffa6e16dd248b4ece6c7dfb66e4d0f2411a26fdb6357b5
 ---
 
 ## § 2. CORPS ORDONNÉS
 
 ### 1. Anneaux ordonnés
 
-#### Définition 1 {#alg-vi-s2-def-1 .statement}
+#### Définition 1 {#alg-vi-s2-def-1 .statement tag=06YV}
 
 Étant donné un anneau commutatif A, on dit qu’une structure d’ordre sur A est compatible avec la structure d’anneau de A si elle est compatible avec la structure de groupe additif de A, et si elle vérifie l’axiome suivant :
 
@@ -36,15 +36,15 @@ content_sha256: 713de6c64caf6084b7be6fbb996c784a841d5ce92e388020561012f1d99b1c25
 
 L’anneau A, muni d’une telle structure d’ordre, est appelé un anneau ordonné.
 
-#### Exemple 1 {#alg-vi-s2-n1-exa-1 .statement}
+#### Exemple 1 {#alg-vi-s2-n1-exa-1 .statement tag=06YW}
 
 Les anneaux $\mathbf{Q}$ et $\mathbf{Z}$, ordonnés par l’ordre usuel, sont des anneaux ordonnés.
 
-#### Exemple 2 {#alg-vi-s2-n1-exa-2 .statement}
+#### Exemple 2 {#alg-vi-s2-n1-exa-2 .statement tag=06YX}
 
 Un produit d’anneaux ordonnés, muni de la structure d’ordre produit, est un anneau ordonné. En particulier, l’anneau $A^E$ des applications d’un ensemble E dans un anneau ordonné A est un anneau ordonné.
 
-#### Exemple 3 {#alg-vi-s2-n1-exa-3 .statement}
+#### Exemple 3 {#alg-vi-s2-n1-exa-3 .statement tag=06YY}
 
 Un sous-anneau d’un anneau ordonné, ordonné par l’ordre induit, est un anneau ordonné.
 
@@ -52,7 +52,7 @@ Dans un anneau ordonné, les relations $x \geq y$ et $z \geq 0$ entraînent $xz 
 
 On démontre de façon analogue que les relations $x \leq 0$ et $y \geq 0$ (resp. $y \leq 0$) entraînent $xy \leq 0$ (resp. $xy \geq 0$). Ces résultats sont souvent invoqués sous le nom de règles des signes (deux éléments étant dits de même signe s’ils sont tous deux $\geq 0$ ou tous deux $\leq 0$). Ils entraînent que, si A est un anneau totalement ordonné, tout carré est positif, et, en particulier, que tout idempotent (par exemple l’élément unité) est positif.
 
-#### Exemple {#alg-vi-s2-n1-exa-4 .statement}
+#### Exemple {#alg-vi-s2-n1-exa-4 .statement tag=06YZ}
 
 Sur $\mathbf{Z}$ il n’y a qu’une seule structure d’anneau totalement ordonné : en effet on a $1 > 0$, d’où $n > 0$, par récurrence, pour tout entier naturel $n \neq 0$. Il existe par contre sur $\mathbf{Z}$ des structures d’anneau ordonné, mais non totalement ordonné (*cf.* ci-dessous).
 
@@ -74,19 +74,19 @@ $$
 \mathrm{AP}_{IV} \qquad P \cup (-P) = A.
 $$
 
-#### Exemple {#alg-vi-s2-n1-exa-5 .statement}
+#### Exemple {#alg-vi-s2-n1-exa-5 .statement tag=06Z0}
 
 Si, dans $\mathbf{Z}$, on prend pour $P$ l’ensemble des entiers positifs (au sens usuel) et pairs, on obtient une structure d’anneau *non* totalement ordonné.
 
 Rappelons encore que, dans un groupe abélien totalement ordonné, la relation $n.x = 0$ (pour un entier naturel $n \neq 0$) entraîne $x = 0$ (VI, p. 4); cela nous donne le résultat suivant :
 
-#### Proposition 1 {#alg-vi-s2-prop-1 .statement}
+#### Proposition 1 {#alg-vi-s2-prop-1 .statement tag=06Z1}
 
 *Un anneau totalement ordonné est un $\mathbf{Z}$-module sans torsion* (II, p. 115).
 
 ### 2. Corps ordonnés
 
-#### Définition 2 {#alg-vi-s2-def-2 .statement}
+#### Définition 2 {#alg-vi-s2-def-2 .statement tag=06Z2}
 
 *Un corps commutatif, muni d’une structure d’ordre total, est appelé un corps ordonné si sa structure d’ordre et sa structure d’anneau sont compatibles*.
 
@@ -114,7 +114,7 @@ Pour tout $x$ et tout $y$ dans $K$, on a $x = \operatorname{sgn}(x) |x|$ et $|xy
 
 D’autre part tout corps ordonné est de caractéristique nulle (prop. 1).
 
-#### Proposition 2 {#alg-vi-s2-prop-2 .statement}
+#### Proposition 2 {#alg-vi-s2-prop-2 .statement tag=06Z3}
 
 *Soit $A$ un anneau intègre totalement ordonné, et soit $K$ son corps des fractions. Il existe sur $K$ une structure d’ordre et une seule, induisant sur $A$ la structure d’ordre donnée, et pour laquelle $K$ est un corps ordonné.*
 
@@ -122,13 +122,13 @@ Tout $x \in K$ s’écrit sous la forme $x = ab^{-1}$, avec $a$ et $b$ dans $A$ 
 
 Pour (AP$_III$), considérons une égalité de la forme $ab^{-1} = -cd^{-1}$, d’où $ad + bc = 0$. Si l’on suppose que $a$ et $b$ sont de même signe, ainsi que $c$ et $d$, la règle des signes montre que $ad$ et $bc$ sont de même signe ; d’où $ad = bc = 0$, et $a = c = 0$ ; donc $P$ vérifie bien (AP$_III$).
 
-#### Exemple {#alg-vi-s2-n2-exa-3 .statement}
+#### Exemple {#alg-vi-s2-n2-exa-3 .statement tag=0DIC}
 
 Puisque $\mathbf{Z}$ n’admet qu’une seule structure d’anneau totalement ordonné (VI, p. 19, exemple), le corps $\mathbf{Q}$ n’admet qu’une seule structure d’ordre qui en fasse un corps ordonné ; cette structure est la structure usuelle.
 
 3. **Extensions de corps ordonnés**
 
-#### Définition 3 {#alg-vi-s2-def-3 .statement}
+#### Définition 3 {#alg-vi-s2-def-3 .statement tag=06Z5}
 
 *Soit $K$ un corps ordonné. Une extension ordonnée de $K$ est un couple $(E, u)$, où $E$ est un corps ordonné et $u$ un homomorphisme croissant de $K$ dans $E$.
 
@@ -140,16 +140,16 @@ $$
 
 est une relation d’ordre total sur $K$ qui le munit d’une structure de corps ordonné, dite *induite* par celle de $E$. Si $K$ et $E$ sont deux corps ordonnés, un homomorphisme $u : K \to E$ est croissant si et seulement si la structure de corps ordonné de $K$ est induite par celle de $E$. Nous identifierons le plus souvent $K$ à son image dans $E$ par $u$.
 
-#### Exemple 1 {#alg-vi-s2-n2-exa-1 .statement}
+#### Exemple 1 {#alg-vi-s2-n2-exa-1 .statement tag=06Z4}
 
 Tout corps ordonné K est extension ordonnée de Q. En effet, K, étant de caractéristique nulle, est extension de Q, et d’autre part Q ne peut être ordonné que d’une seule manière, comme nous venons de le voir.
 
-#### Exemple 2 {#alg-vi-s2-n2-exa-2 .statement}
+#### Exemple 2 {#alg-vi-s2-n2-exa-2 .statement tag=0DID}
 
 Soient K un corps ordonné, et K(X) le corps des fractions rationnelles en une indéterminée sur K. Définissons une structure d’ordre sur l’anneau de polynômes K[X] en prenant pour éléments positifs 0 et les polynômes dont le coefficient dominant est positif. On obtient ainsi un anneau totalement ordonné dont l’ordre prolonge celui de K. En appliquant la prop. 2, on définit sur K(X) une structure d’extension ordonnée de K.
 \* Pour K = R, on peut montrer que la relation d’ordre ainsi définie sur K(X) est celle de la croissance au voisinage de +∞ (cf. VI, p. 23, prop. 4). \*
 
-#### Théorème 1 {#alg-vi-s2-thm-1 .statement}
+#### Théorème 1 {#alg-vi-s2-thm-1 .statement tag=06Z7}
 
 Pour qu’une extension E d’un corps ordonné K admette une structure d’extension ordonnée de K, il faut et il suffit qu’elle vérifie la condition suivante :
 
@@ -170,7 +170,7 @@ Pour définir P, considérons l’ensemble $M$ des parties de E, qui vérifient 
 
 De plus $M$ est inductif (E, III, p. 20, déf. 3). Il existe alors, d’après le th. 2 de E, III, p. 20, un élément maximal de $M$, dont il nous reste à montrer qu’il satisfait à (AP_{IV}); or ceci résulte du lemme suivant :
 
-#### Lemme {#alg-vi-s2-n2-lem-1 .statement}
+#### Lemme {#alg-vi-s2-n2-lem-1 .statement tag=0DIE}
 
 Soient $P \in M$ et $x \notin P$; il existe alors $P' \in M$ tel que $P \subset P'$ et que $-x \in P'$
 
@@ -190,7 +190,7 @@ $$
 
 d’où (AP₂). Vérifions enfin (AP₃) : supposons que nous ayons une égalité de la forme $p - xq = -(r - xs)$ où $p, q, r, s$ appartiennent à $P$; on en déduit la relation $x(s + q) = p + r$; si $(s + q) \neq 0$, on a $x = (s + q)^{-2}(s + q)(p + r) \in CPP \subset P$ contrairement à l’hypothèse ; on a donc $s + q = 0$, d’où $p + r = 0$; comme $P$ vérifie (AP₃) on en déduit $s = q = r = p = 0$, ce qui achève la démonstration.
 
-#### Corollaire 1 (« Théorème d’Artin-Schreier ») {#alg-vi-s2-thm-1-cor-1 .statement}
+#### Corollaire 1 (« Théorème d’Artin-Schreier ») {#alg-vi-s2-thm-1-cor-1 .statement tag=06Z9}
 
 *Pour qu’il existe sur un corps commutatif* E *une structure d’ordre qui en fasse un corps ordonné, il faut et il suffit que la relation* $x_1^2 + \cdots + x_n^2 = 0$ *entraîne* $x_1 = \cdots = x_n = 0$.
 
@@ -198,7 +198,7 @@ La nécessité est évidente. Réciproquement la condition énoncée entraîne q
 
 Il n’existe *pas* de structure de corps ordonné sur un corps E où $-1$ est un carré, et, en particulier, sur un corps algébriquement clos.
 
-#### Corollaire 2 {#alg-vi-s2-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-vi-s2-thm-1-cor-2 .statement tag=06ZA}
 
 *Soit* E *une extension de* K *admettant une structure d’extension ordonnée de* K. *Pour qu’un élément* $x \in E$ *soit positif pour toutes les structures d’extension ordonnée de* K *sur* E, *il faut et il suffit que* $x$ *soit de la forme* $\sum_i p_i x_i^2$, *où* $x_i \in E$ *et où les* $p_i$ *sont des éléments positifs de* K.
 
@@ -208,7 +208,7 @@ La condition est évidemment suffisante ; elle est aussi nécessaire, car (avec 
 
 Soient K un corps ordonné, et $f$ un polynôme de $K[X]$. Nous dirons que $f$ change de signe dans K s’il existe deux éléments $a$ et $b$ de K tels que $f(a)\ f(b) < 0$; on dit alors que $f$ change de signe entre $a$ et $b$.
 
-#### Proposition 3 {#alg-vi-s2-prop-3 .statement}
+#### Proposition 3 {#alg-vi-s2-prop-3 .statement tag=06ZB}
 
 *Soient* K *un corps ordonné et* $f$ *un polynôme irréductible sur* K *et changeant de signe entre* a *et* b *dans* K. *L’extension* E = $K[X]/(f)$ *de* K *admet alors une structure d’extension ordonnée*.
 
@@ -226,13 +226,13 @@ $$
 
 où $h \neq 0$ est au plus de degré $n - 2$. En remplaçant dans l’égalité précédente $X$ par $a$ et $b$, on voit que $h(a) \ f(a) > 0$ et $h(b) \ f(b) > 0$. Comme $f$ change de signe entre $a$ et $b$ par hypothèse, on en conclut que $h(a) \ h(b) < 0$. On a alors une inégalité de même nature pour un des facteurs irréductibles $g(X)$ de $h(X) : g(a) \ g(b) < 0$. Mais l’on a $1 + \sum_i p_i f_i^2(X) \equiv 0$ (mod. $g(X)$), ce qui montre que le corps $K[X]/(g)$ n’admet pas de structure d’extension ordonnée de $K$ (th. 1), contrairement à l’hypothèse de récurrence.
 
-#### Remarque {#alg-vi-s2-n2-rem-1 .statement}
+#### Remarque {#alg-vi-s2-n2-rem-1 .statement tag=0DIF}
 
 Il existe des polynômes irréductibles $f$ sur un corps ordonné $K$ qui ne changent pas de signe dans $K$, mais qui sont tels que $K[X]/(f)$ admette une structure d’extension ordonnée de $K$ (*cf.* VI, p. 41, exerc. 26, *c*).
 
 Pour appliquer la proposition précédente, nous aurons besoin du résultat suivant :
 
-#### Proposition 4 {#alg-vi-s2-prop-4 .statement}
+#### Proposition 4 {#alg-vi-s2-prop-4 .statement tag=06ZD}
 
 *Soient $K$ un corps ordonné et $f \in K[X]$. Il existe un intervalle de $K$ dans le complémentaire duquel $f$ a même signe que son terme de plus haut degré.*
 
@@ -244,19 +244,19 @@ $$
 
 Pour $|x| > M$, on a $1 + a_1 x^{-1} + \cdots + a_n x^{-n} > 0$, ce qui démontre la proposition.
 
-#### Corollaire 1 {#alg-vi-s2-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-vi-s2-prop-4-cor-1 .statement tag=06ZE}
 
 *Toute extension de degré fini impair d’un corps ordonné admet une structure d’extension ordonnée.*
 
 Une telle extension étant monogène (V, p. 39, th. 1) est isomorphe à $K[X]/(f)$ où $f$ est un polynôme irréductible de degré impair. Il suffit alors de montrer que $f$ change de signe dans $K$ (prop. 3), ce qui résulte aussitôt de la prop. 4.
 
-#### Corollaire 2 {#alg-vi-s2-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-vi-s2-prop-4-cor-2 .statement tag=06ZF}
 
 *Si $a$ est un élément positif d’un corps ordonné $K$, tout corps de décomposition $E$ du polynôme $X^2 - a$ admet une structure d’extension ordonnée de $K$.*
 
 Le résultat est trivial si $a$ est un carré dans $K$. Sinon le polynôme $f(X) = X^2 - a$ est irréductible et change de signe, puisque $f(0) < 0$, et que $f(x)$ est du signe de $x^2$, donc $> 0$, pour $x$ dans le complémentaire d’un certain intervalle de $K$. Il suffit alors d’appliquer la prop. 3.
 
-#### Remarque {#alg-vi-s2-n2-rem-2 .statement}
+#### Remarque {#alg-vi-s2-n2-rem-2 .statement tag=0DIG}
 
 Lorsque le corps ordonné K contient les « racines carrées » d’un élément positif a de K (racines du polynôme $X^2 - a$), on réserve en général la notation $\sqrt{a}$ à celle de ces racines qui est positive. Si K ne contient pas les racines carrées b et – b de a dans le corps E, ce dernier admet deux structures d’extension ordonnée de K, se déduisant l’une de l’autre par le K-automorphisme défini par $b \mapsto -b$; le choix d’une de ces structures d’ordre détermine alors $\sqrt{a}$: c’est celui des éléments b et – b qui est positif.
 
@@ -264,17 +264,17 @@ Si a et a’ sont deux éléments positifs de K, dont les racines carrées sont 
 
 5. Corps ordonnés maximaux
 
-#### Définition 4 {#alg-vi-s2-def-4 .statement}
+#### Définition 4 {#alg-vi-s2-def-4 .statement tag=06ZH}
 
 Un corps ordonné K est dit maximal si toute extension algébrique ordonnée de K est triviale.
 
-#### Exemple {#alg-vi-s2-n2-exa-4 .statement}
+#### Exemple {#alg-vi-s2-n2-exa-4 .statement tag=0DIH}
 
 \* On verra plus tard (TG, VIII, p. 1) que le corps R des nombres réels est un corps ordonné maximal. \*
 
 L’existence de corps ordonnés maximaux résulte du théorème suivant :
 
-#### Théorème 2 {#alg-vi-s2-thm-2 .statement}
+#### Théorème 2 {#alg-vi-s2-thm-2 .statement tag=06ZJ}
 
 Tout corps ordonné K admet une extension algébrique ordonnée qui est un corps ordonné maximal.
 
@@ -282,19 +282,19 @@ On peut montrer que cette extension ordonnée est bien déterminée à un K-isom
 
 Soit $\Omega$ une clôture algébrique de K, et soit $\mathfrak{N}$ l’ensemble des couples (A, $w$), où A est une sous-K-extension de $\Omega$, et $w$ une structure d’extension ordonnée sur l’extension A de K. Ordonnons $\mathfrak{N}$ par la relation « L est une extension ordonnée de M » entre M et L. Muni de cette structure d’ordre, $\mathfrak{N}$ est un ensemble ordonné inductif : en effet, si $(L_i)$ est une famille totalement ordonnée d’éléments de $\mathfrak{N}$, le corps $L = \bigcup_i L_i$ ordonné en prenant $L_+ = \bigcup_i (L_i)_+$ est un majorant des $L_i$. En vertu de E III, p. 20, th. 2, $\mathfrak{N}$ possède un élément maximal qui répond à la question.
 
-#### Proposition 5 {#alg-vi-s2-prop-5 .statement}
+#### Proposition 5 {#alg-vi-s2-prop-5 .statement tag=06ZK}
 
 Soient K un corps ordonné maximal, et f un polynôme de K[X] changeant de signe entre deux éléments a et b de K (avec $a < b$). Alors f admet une racine x dans K, telle que $a < x < b$.
 
 L’un au moins des facteurs irréductibles de f change de signe entre a et b, soit h. Le corps K[X]/(h) admet alors (VI, p. 22, prop. 3) une structure d’extension ordonnée de K, et h est de degré 1 (déf. 4). Comme $h(a)\ h(b) < 0$, l’unique racine x de h est telle que $a < x < b$ puisqu’une fonction polynôme de degré 1 est monotone.
 
-#### Proposition 6 {#alg-vi-s2-prop-6 .statement}
+#### Proposition 6 {#alg-vi-s2-prop-6 .statement tag=06ZL}
 
 Tout élément positif d’un corps ordonné maximal K a une racine carrée dans K. Tout polynôme de degré impair de K[X] a au moins une racine dans K.
 
 Ceci résulte aussitôt des cor. 2 et 1 de la prop. 4 de VI, p. 23.
 
-#### Corollaire {#alg-vi-s2-n2-cor-1 .statement}
+#### Corollaire {#alg-vi-s2-n2-cor-1 .statement tag=0DII}
 
 Sur un corps ordonné maximal K, il n’existe qu’une seule structure d’ordre compatible avec la structure de corps.
 
@@ -304,7 +304,7 @@ En effet les éléments positifs de K sont déterminés par la structure algébr
 
 La propriété exprimée par la prop. 6 de VI, p. 24 caractérise les corps ordonnés maximaux. De façon plus précise :
 
-#### Théorème 3 (Euler-Lagrange) {#alg-vi-s2-thm-3 .statement}
+#### Théorème 3 (Euler-Lagrange) {#alg-vi-s2-thm-3 .statement tag=06ZN}
 
 Soit K un corps ordonné. Les trois propriétés suivantes sont équivalentes :
 a) Le corps K(i) est algébriquement clos (i désignant une racine carrée de − 1).
@@ -317,7 +317,7 @@ Le fait que b) implique c) n’est autre que la prop. 6 de VI, p. 24.
 
 Il nous reste à démontrer que c) entraîne a). Cela va résulter des deux propositions suivantes.
 
-#### Proposition 7 {#alg-vi-s2-prop-7 .statement}
+#### Proposition 7 {#alg-vi-s2-prop-7 .statement tag=06ZO}
 
 Soit K un corps ordonné dans lequel tout élément positif est un carré. Alors tout élément de K(i) est un carré, et tout polynôme du second degré sur K(i) a une racine dans K(i).
 
@@ -343,7 +343,7 @@ $$
 
 Désignons par $c$ la racine positive de $a^2 + b^2$; on a $c \geq |a|,\ c \geq |b|$ et $x^2 + y^2 = c$. D’où $x^2 = (c + a)/2$ et $y^2 = (c - a)/2$. Comme $c \geq |a|$, ces équations sont résolubles dans K, et, si $x_0$ et $y_0$ en sont des solutions, on a $x_0^2 - y_0^2 = a$, et $2x_0y_0 = \pm b$. En prenant $x = x_0$ et $y = b/2x_0$, on obtient une racine carrée cherchée.
 
-#### Proposition 8 {#alg-vi-s2-prop-8 .statement}
+#### Proposition 8 {#alg-vi-s2-prop-8 .statement tag=06ZP}
 
 Soient $K$ un corps commutatif (de caractéristique quelconque) et $K'$ un corps de décomposition du polynôme $X^2 + 1 \in K[X]$ (V, p. 20). On suppose que :
 a) tout polynôme de $K[X]$, de degré impair, a une racine dans $K'$;
@@ -400,13 +400,13 @@ qui s’écrit elle-même $(ab' - ba')^2 \geq 0$.
 
 Le th. 3 nous permet de déterminer tous les polynômes irréductibles sur un corps ordonné maximal :
 
-#### Proposition 9 {#alg-vi-s2-prop-9 .statement}
+#### Proposition 9 {#alg-vi-s2-prop-9 .statement tag=06ZQ}
 
 *Si $K$ est un corps ordonné maximal, les seuls polynômes irréductibles de $K[X]$ sont les polynômes du premier degré, et les polynômes du second degré $aX^2 + bX + c$ tels que $b^2 - 4ac < 0$.*
 
 Comme $K(i)$ est algébriquement clos, toute extension algébrique de $K$ est de degré 1 ou 2, donc aussi tout polynôme irréductible sur $K$. Pour voir quels sont les polynômes du second degré qui sont irréductibles, il suffit de considérer la forme canonique $a((X + (b/2a))^2 - (b^2 - 4ac)/4a^2)$ (*cf.* VI, p. 25, prop. 7).
 
-#### Remarque {#alg-vi-s2-n2-rem-3 .statement}
+#### Remarque {#alg-vi-s2-n2-rem-3 .statement tag=0DIJ}
 
 La mise sous forme canonique des trinômes donne le résultat plus fort que voici : étant donné un corps ordonné $K$, pour que le polynôme $aX^2 + bX + c$ ait un signe constant dans $K$, il faut et il suffit que $b^2 - 4ac < 0$, et le signe du polynôme est alors celui de $a$.
 

@@ -33,9 +33,9 @@ subsections:
       pdf_page: 179
 statements: 14
 exercises: 3
-content_sha256: dcf9c5accb65bef082fd6d96e219e78e0c1158a452d7c71b6258cb3e010544fe
+content_sha256: 008fe2b447ed40174f3f26206651612a70964f6774b94ac7bc75ec91c260d365
 translated_from: content/en/lie/II/06_s6_the_hausdorff_series.md
-source_content_sha256: 4537414ee283053f649e5ef02bb3c111565980460e26252851700301be18970c
+source_content_sha256: 415bac69237edc26c3196e7b8c6ae4c55426a40b051a938d4b7c3803c5c86eba
 translation_model: gpt-5.4
 translation_run: translate-vi-55539167
 glossary_version: 34
@@ -67,7 +67,7 @@ $$
 
 Khi đó $\log y \in m$ và ánh xạ $\log : 1 + m \to m$ được gọi là *ánh xạ logarit* của $A$.
 
-#### Mệnh đề 1 {#lie-ii-s6-prop-1 .statement}
+#### Mệnh đề 1 {#lie-ii-s6-prop-1 .statement tag=0A61}
 
 *Ánh xạ mũ là một đồng phôi từ $m$ lên $1 + m$ và ánh xạ logarit là đồng phôi nghịch đảo.*
 
@@ -99,7 +99,7 @@ $$
 
 với $x$ trong $m$, do đó có mệnh đề.
 
-#### Nhận xét {#lie-ii-s6-n1-rem-1 .statement}
+#### Nhận xét {#lie-ii-s6-n1-rem-1 .statement tag=0A62}
 
 (1) Nếu $x \in m, y \in m$ và $x$ và $y$ giao hoán với nhau, thì
 
@@ -129,7 +129,7 @@ Ta suy ra từ các quan hệ $e(l(X)) = l(e(X)) = X$ rằng ánh xạ $a \mapst
 
 Cho X là một tập hợp. Ta dùng ký hiệu của § 5, no. 1 và 2. Đại số Lie tự do L(X) được đồng nhất với ảnh chính tắc của nó trong A(X) (§ 3, no. 1, Định lý 1). Ta ký hiệu bởi $\hat{L}(X)$ bao đóng của L(X) trong $\hat{A}(X)$, tức là tập hợp các phần tử của $\hat{A}(X)$ có dạng $a = \sum_{n \geq 1} a_n$ sao cho $a_n \in L^n(X)$ với mọi $n \geq 0$; đó là một đại số Lie con được lọc của $\hat{A}(X)$.
 
-#### Định lý 1 {#lie-ii-s6-thm-1 .statement}
+#### Định lý 1 {#lie-ii-s6-thm-1 .statement tag=0A63}
 
 *Hạn chế của ánh xạ mũ của $\hat{A}(X)$ lên $\hat{L}(X)$ là một song ánh từ $\hat{L}(X)$ lên một nhóm con đóng của nhóm Magnus $\Gamma(X)$.*
 
@@ -179,7 +179,7 @@ $$
 
 Do đó $a$ thỏa mãn (3) khi và chỉ khi $b$ thỏa mãn (4), điều này chứng minh định lý.
 
-#### Nhận xét {#lie-ii-s6-n2-rem-1 .statement}
+#### Nhận xét {#lie-ii-s6-n2-rem-1 .statement tag=0A64}
 
 Chứng minh trên cho thấy $\exp(\hat{\mathbf{L}})$ là nhóm con $\Delta$ của $\Gamma$ gồm các $b$ thỏa mãn (4).
 
@@ -197,7 +197,7 @@ Với mọi số nguyên $m \geq 1$ ta ký hiệu bởi $\hat{\mathbf{L}}_m$ t�
 
 ### 3. CHUỖI LŨY THỪA HÌNH THỨC LIE
 
-#### Bổ đề 1 {#lie-ii-s6-lem-1 .statement}
+#### Bổ đề 1 {#lie-ii-s6-lem-1 .statement tag=0A65}
 
 *Cho $\mathfrak{g}$ là một đại số Lie được lọc (§ 4, no. 1), $(\mathfrak{g}_\alpha)_{\alpha \in \mathbf{R}}$ là lọc của nó và cho $\alpha \in \mathbf{R}$. Cho P là một đa thức Lie thuần nhất bậc n theo các bất định $(\Gamma_i)_{i \in I}$ (§ 2, no. 4). Khi đó $P((a_i)) \in \mathfrak{g}_{n\alpha}$ với mọi họ $(a_i)_{i \in I}$ các phần tử của $\mathfrak{g}_\alpha$*.
 
@@ -207,7 +207,7 @@ Một *chuỗi lũy thừa hình thức Lie*† (với các hệ số trong $K$)
 
 Giả sử rằng $I$ là *hữu hạn*. Cho $g$ là một đại số Lie lọc Hausdorff đầy đủ sao cho $g = \bigcup_{\alpha > 0} g_\alpha$; cho $t = (t_i)_{i \in I}$ là một họ các phần tử của $g$.
 
-#### Mệnh đề 2 {#lie-ii-s6-prop-2 .statement}
+#### Mệnh đề 2 {#lie-ii-s6-prop-2 .statement tag=0A66}
 
 *Đồng cấu* $f_t : L(I) \to g$ *sao cho* $f_t(T_i) = t_i$ (§ 2, no. 4) *có thể được mở rộng bằng tính liên tục thành một và chỉ một đồng cấu liên tục* $\hat{f}_t$ *từ* $\hat{L}(I)$ *vào* $g$.
 
@@ -238,7 +238,7 @@ Cho $u = \sum_{\nu \in \mathbf{N}^{I}} u_\nu \in \hat{L}(I)$, trong đó $u_\nu 
 
 Cho {U, V} là một tập hợp có hai phần tử.
 
-#### Định nghĩa 1 {#lie-ii-s6-def-1 .statement}
+#### Định nghĩa 1 {#lie-ii-s6-def-1 .statement tag=0A67}
 
 *Phần tử* $H = U \circledast V = \log(\exp U \cdot \exp V)$ (no. 2) *của đại số Lie* $\hat{L}_\mathbf{Q}(\{U, V\})$ *được gọi là chuỗi Hausdorff theo các bất định* U *và* V.
 
@@ -248,7 +248,7 @@ $$
 H = \sum_{n \geq 0} H_n = \sum_{r, s \geq 0} H_{r,s}, \quad H_n = \sum_{r+s=n \atop r, s \geq 0} H_{r,s}.
 $$
 
-#### Định lý 2 {#lie-ii-s6-thm-2 .statement}
+#### Định lý 2 {#lie-ii-s6-thm-2 .statement tag=0A68}
 
 *Nếu r và s là hai số nguyên dương sao cho* $r + s \geq 1$, *thì* $H_{r,s} = H'_{r,s} + H''_{r,s}$, *trong đó*
 
@@ -293,7 +293,7 @@ $$
 
 khi $r_m \geqslant 1$ và $s_m = 0$. Hơn nữa, hiển nhiên là $(\mathrm{ad}\ t)^{p-1}.t = 0$ nếu $p \geqslant 2$ và $(\mathrm{ad}\ t)^0.t = t$. Do đó hai vế của (12) bằng không khi $s_m \geqslant 2$ và hai vế của (13) bằng không khi $r_m \geqslant 2$. Khi đó định lý suy ra vì $H'_{r,s}$ là tổng của các hạng tử kiểu (12) và $H''_{r,s}$ là tổng của các hạng tử kiểu (13).
 
-#### Nhận xét {#lie-ii-s6-n4-rem-1 .statement}
+#### Nhận xét {#lie-ii-s6-n4-rem-1 .statement tag=0A69}
 
 (1) Ta đã định nghĩa (§ 3, no. 2, Nhận xét) một phép chiếu $Q$ của $A(X)$ lên $L(X)$ sao cho $Q(a^m) = 0$ với $a \in L(X)$ và $m \geqslant 2$ và $Q(1) = 0$. Khi đó $H = Q(\exp H) = Q(\exp U.\exp V)$, do đó ngay lập tức
 
@@ -327,7 +327,7 @@ Vì $K$ là một trường chứa $\mathbf{Q}$, chuỗi Hausdorff có thể đ�
 
 Đặc biệt, cho $A$ là một đại số kết hợp có đơn vị lọc Hausdorff đầy đủ. Ta viết $m = \bigcup_{\alpha > 0} A_\alpha$ và $m_\alpha = A_\alpha \cap m$ với $\alpha \in \mathbf{R}$; do đó $m_\alpha = A_\alpha$ với $\alpha > 0$ và $m_\alpha = m$ với $\alpha \leqslant 0$. Với ngoặc $[a, b] = ab - ba$, $m$ là một đại số Lie lọc Hausdorff đầy đủ, mà điều trên có thể được áp dụng. Với ký hiệu này, ta có kết quả sau đây, kết thúc Mệnh đề 1 của no. 1.
 
-#### Mệnh đề 3 {#lie-ii-s6-prop-3 .statement}
+#### Mệnh đề 3 {#lie-ii-s6-prop-3 .statement tag=0A6A}
 
 *Nếu $a \in m, b \in m$, thì $\exp H(a, b) = \exp a . \exp b$.*
 
@@ -339,14 +339,14 @@ $$
 $$
 có tính đến *Nhận xét 3* của no. 1.
 
-#### Nhận xét 1 {#lie-ii-s6-n5-rem-1 .statement}
+#### Nhận xét 1 {#lie-ii-s6-n5-rem-1 .statement tag=0A6B}
 
 Nếu $a$ và $b$ giao hoán, thì $H_{r,s}(a, b) = 0$ với $r + s \geq 2$, vì mọi đa thức Lie thuần nhất bậc $\geq 2$ đều bằng không tại $(a, b)$. Khi đó $H(a, b) = a + b$ và Mệnh đề 3 cho lại công thức
 $$
 \exp(a + b) = \exp a . \exp b.
 $$
 
-#### Mệnh đề 4 {#lie-ii-s6-prop-4 .statement}
+#### Mệnh đề 4 {#lie-ii-s6-prop-4 .statement tag=0A6C}
 
 *Cho $g$ là một đại số Lie lọc Hausdorff đầy đủ sao cho $g = \bigcup_{\alpha > 0} g_\alpha$. Ánh xạ $(a, b) \mapsto H(a, b)$ là một luật nhóm trên $g$ tương thích với tôpô trên $g$, đối với nó $0$ là phần tử đơn vị và $-a$ là nghịch đảo của $a$ với mọi $a \in g$.*
 
@@ -370,7 +370,7 @@ $$
 $$
 Điều này thiết lập các quan hệ (18) đến (20).
 
-#### Nhận xét {#lie-ii-s6-n5-rem-2 .statement}
+#### Nhận xét {#lie-ii-s6-n5-rem-2 .statement tag=0A6D}
 
 (2) Lấy $g$ là đại số Lie $\hat{L}(X)$. Luật nhóm đưa vào trong mệnh đề trên trùng với luật được xác định ở no. 2. Nói cách khác,
 $$
@@ -380,7 +380,7 @@ do đó luật nhóm Hausdorff được cho bởi chuỗi Hausdorff.
 
 (3) Cho $g$ là một đại số Lie với phép lọc nguyên ($\mathscr{C}^n g$) được xác định bởi chuỗi trung tâm dưới. Giả sử tồn tại $m \geq 1$ sao cho $\mathscr{C}^m g = \{0\}$. Với tôpô suy ra từ phép lọc $(\mathscr{C}^n g)_{n \geq 1}$, đại số Lie $g$ là Hausdorff, đầy đủ và thậm chí rời rạc. Khi đó $P(a_1, \ldots, a_r) = 0$ với $a_1, \ldots, a_r$ trong $g$ và với mọi đa thức Lie thuần nhất $P$ có bậc $\geq m$; đặc biệt, $H_{r,s}(a, b) = 0$ với $r + s \geq m$ và chuỗi $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ chỉ có một số hữu hạn số hạng khác không. Khi đó luật nhóm $(a, b) \mapsto H(a, b)$ trên $g$ là một ánh xạ đa thức (§ 2, no. 4).
 
-#### Mệnh đề 5 {#lie-ii-s6-prop-5 .statement}
+#### Mệnh đề 5 {#lie-ii-s6-prop-5 .statement tag=0A6E}
 
 *Cho $K_{r,s}$ là thành phần của $H(U + V, -U)$ có đa bậc $(r, s)$. Khi đó*
 $$

@@ -12,14 +12,14 @@ pdf_pages: 0143-0145, 0172-0173
 extraction: ocr
 statements: 6
 exercises: 4
-content_sha256: c9b75a7d07661743ad6632e76701373f969d94167d8df709d5750d9911b44db5
+content_sha256: 40a687273614f4755635004c7de82956200bd4dc25c1f116ef776c135c6ae0d1
 ---
 
 ## § 2. BORNOLOGICAL SPACES
 
 In this paragraph, E denotes a locally convex space, and $\mathscr{B}$ its canonical bornology (III, p. 3, def. 5).
 
-#### Lemma 1 {#evt-iii-s2-lem-1 .statement}
+#### Lemma 1 {#evt-iii-s2-lem-1 .statement tag=07M8}
 
 — *Let G be a semi-normed space, p its semi-norm, and u a linear mapping from G into E. The following conditions are equivalent* :
 
@@ -29,7 +29,7 @@ In this paragraph, E denotes a locally convex space, and $\mathscr{B}$ its canon
 
 It is immediate that (i) implies (ii) (III, p. 4, cor. 1) and that (ii) implies (iii). Let V be a neighbourhood of 0 in E ; if $u^{-1}(V)$ is not a neighbourhood of 0 in G, then there exists a sequence $(y_n)$ of points of $G - u^{-1}(V)$ such that $p(y_n) \leq \frac{1}{n^2}$. Hence the sequence $x_n = n y_n$ tends to 0 in G and $u(x_n) \notin nV$, which implies that the sequence $(u(x_n))$ is not bounded. Therefore (iii) implies (i).
 
-#### Proposition 1 {#evt-iii-s2-prop-1 .statement}
+#### Proposition 1 {#evt-iii-s2-prop-1 .statement tag=07M9}
 
 *The following conditions are equivalent* :
 (i) *Every semi-norm on E which is bounded on bounded subsets of E is continuous*.
@@ -46,11 +46,11 @@ Now let (E_i, u_i)_{i \in I} be as in (ii') and let u be a linear mapping from E
 
 It is immediate that (iii) implies (iii') (III, p. 3, cor.) Finally, if p is a semi-norm on E, which is bounded on bounded subsets of E, the condition (iii') asserts that the identity map is continuous from E into the semi-normed space (E, p); in other words, p is continuous. This proves that (iii') implies (i).
 
-#### Definition 1 {#evt-iii-s2-def-1 .statement}
+#### Definition 1 {#evt-iii-s2-def-1 .statement tag=07MA}
 
 *A locally convex space is said to be bornological if it satisfies the equivalent conditions of prop. 1.*
 
-#### Example {#evt-iii-s2-n0-exa-1 .statement}
+#### Example {#evt-iii-s2-n0-exa-1 .statement tag=07MB}
 
 — 1) Every semi-normed space is bornological.
 2) In particular, every finite dimensional locally convex space is bornological.
@@ -58,19 +58,19 @@ It is immediate that (iii) implies (iii') (III, p. 3, cor.) Finally, if p is a s
 
 On the other hand, a closed subspace of a bornological space is not necessarily bornological (IV, p. 63, exerc. 8).
 
-#### Corollary {#evt-iii-s2-n0-cor-1 .statement}
+#### Corollary {#evt-iii-s2-n0-cor-1 .statement tag=07MC}
 
 *Every Hausdorff and semi-complete bornological space is an inductive limit of Banach spaces.*
 
 In fact, the spaces E_A, where A is closed and bounded are Banach spaces (III, p. 8, corollary).
 
-#### Proposition 2 {#evt-iii-s2-prop-2 .statement}
+#### Proposition 2 {#evt-iii-s2-prop-2 .statement tag=07MD}
 
 *A locally convex metrizable space is bornological.*
 
 Suppose E is metrizable, and p a semi-norm on E which is bounded on bounded subsets of E, but which is not continuous. Let A be the set of all $x \in E$ such that $p(x) < 1$. Let $(V_n)_{n \geq 1}$ be a decreasing sequence forming a fundamental system of neighbourhoods of 0 in E. Since p is not continuous, A is not a neighbourhood of 0; hence for every $n > 0$, we have $A \not\supseteq n^{-1} V_n$ and there exists a point $x_n$ in $V_n$, such that $n^{-1} x_n \notin A$, that is, $p(x_n) \geq n$. The sequence $(x_n)$ tends to 0, hence is bounded (III, p. 3, corollary); this contradicts the hypothesis on p.
 
-#### Corollary {#evt-iii-s2-n0-cor-2 .statement}
+#### Corollary {#evt-iii-s2-n0-cor-2 .statement tag=07ME}
 
 — *Every Fréchet space* (II, p. 24) *is the inductive limit of Banach spaces*.
 

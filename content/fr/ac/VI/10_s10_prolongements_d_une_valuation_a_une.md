@@ -24,14 +24,14 @@ subsections:
       pdf_page: 161
 statements: 14
 exercises: 2
-content_sha256: 30e8e7d895f59745f16988b4ec29b0f8b0c7b1e3584eeb9eff5cc2742a32f312
+content_sha256: c3a1279ecdab759ffa981ba142d1081898068d1bedf8a87ef4f3357b634aa7fb
 ---
 
 ## § 10. Prolongements d’une valuation à une extension transcendante.
 
 ### 1. Cas d’une extension transcendante monogène.
 
-#### Lemme 1 {#ac-vi-s10-lem-1 .statement}
+#### Lemme 1 {#ac-vi-s10-lem-1 .statement tag=04Y5}
 
 Soient $K$ un corps, $v$ une valuation de $K$, $\Gamma$ son groupe des ordres, $\Gamma'$ un groupe totalement ordonné contenant $\Gamma$, et $\xi$ un élément de $\Gamma'$. Il existe une valuation $w$ et une seule de $K(X)$ telle que, pour $P = \sum_j a_j X^j$ ($a_j \in K$), on ait $w(P) = \inf_j (v(a_j) + j\xi)$.
 
@@ -75,7 +75,7 @@ w(PQ) = \alpha + \beta = w(P) + w(Q).
 $$
 C.Q.F.D.
 
-#### Proposition 1 {#ac-vi-s10-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s10-prop-1 .statement tag=04Y6}
 
 Soient K un corps, $v$ une valuation de K, $\Gamma$ son groupe des ordres, $\Gamma'$ un groupe totalement ordonné contenant $\Gamma$, et $\xi$ un élément de $\Gamma'$ tel que les relations $n\xi \in \Gamma, n \in \mathbf{Z}$, entraînent $n = 0$. Il existe alors une valuation $w$ et une seule de K(X) à valeurs dans $\Gamma'$ et prolongeant $v$, telle que $w(X) = \xi$. Le corps résiduel de $w$ est égal à celui de $v$, et son groupe des ordres est le sous-groupe $\Gamma + \mathbf{Z}\xi$ de $\Gamma'$.
 
@@ -83,7 +83,7 @@ Démontrons d’abord l’unicité de $w$. Soit $P = \sum_j a_j X^j$ un élémen
 
 Enfin l’existence de $w$ résulte du lemme 1.
 
-#### Proposition 2 {#ac-vi-s10-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s10-prop-2 .statement tag=04Y7}
 
 Soient K un corps, $v$ une valuation de K, $\Gamma$ son groupe des ordres, et k son corps résiduel. Il existe une valuation $w$ et une seule de K(X) prolongeant $v$, telle que $w(X) = 0$ et que l’image t de X dans le corps résiduel k’ de w soit transcendante sur k. Le groupe des ordres de w est égal à celui de v, et son corps résiduel est k(t).
 
@@ -102,13 +102,13 @@ f(R) = f(c)(\sum_j f(a_j)t^j)/(\sum_j f(b_j)t^j),
 $$
 ce qui démontre notre assertion.
 
-#### Remarque {#ac-vi-s10-n1-rem-1 .statement}
+#### Remarque {#ac-vi-s10-n1-rem-1 .statement tag=04Y8}
 
 Il ne faudrait pas croire que les deux types de prolongements de v à K(X) que nous venons de rencontrer soient les seuls ; il peut exister un troisième type de prolongement, où $\Gamma'/\Gamma$ est un groupe de torsion, et $k'$ une extension algébrique (non nécessairement de degré fini) de $k$. Ce troisième type n’est pas nécessairement fourni par le procédé décrit dans le lemme 1 (cf. , exerc. 1)
 
 ### 2. Rang rationnel d’un groupe commutatif.
 
-#### Définition 1 {#ac-vi-s10-def-1 .statement}
+#### Définition 1 {#ac-vi-s10-def-1 .statement tag=04Y9}
 
 On appelle rang rationnel d’un groupe commutatif $G$ la dimension du $\mathbf{Q}$-espace vectoriel $G \otimes_{\mathbf{Z}} \mathbf{Q}$.
 
@@ -120,7 +120,7 @@ $$
 r(G) = r(G') + r(G/G').
 $$
 
-#### Proposition 3 {#ac-vi-s10-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s10-prop-3 .statement tag=04YA}
 
 Soient $G$ un groupe commutatif totalement ordonné, et $H$ un sous-groupe de $G$. Si l’on note $h(G)$ et $h(H)$ les hauteurs de $G$ et $H$ ($§ 4$, no 4), on a l’inégalité
 
@@ -154,12 +154,12 @@ D’où, d’après (4), $r(G/H) \geq r(G_{n-1}/H) + 1$. En portant dans (8), on
 
 b) On a $H \cap G_{n-1} \neq H$. Comme $H \cap G_{n-1}$ est un sous-groupe isolé de $H$, on en conclut que $h(H) \geq h(H \cap G_{n-1}) + 1$. D’autre part on a évidemment $r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$. En portant dans (7), on obtient encore (6).
 
-#### Corollaire {#ac-vi-s10-n2-cor-1 .statement}
+#### Corollaire {#ac-vi-s10-n2-cor-1 .statement tag=04YB}
 
 *Pour tout groupe commutatif totalement ordonné* $G$, *on a* $h(G) \leq r(G)$.
 On fait $H = \{0\}$ dans la prop. 3.
 
-#### Proposition 4 {#ac-vi-s10-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s10-prop-4 .statement tag=04YC}
 
 *Soit* $G$ *un groupe commutatif totalement ordonné*. *On suppose que* $G$ *est de type fini, et qu’on a* $h(G) = r(G)$. *Alors* $G$ *est isomorphe à* $\mathbf{Z}^{r(G)}$ *ordonné lexicographiquement*.
 
@@ -167,7 +167,7 @@ Posons $r = r(G) = h(G)$. Si $r = 0$, on a $G = \{0\}$. Si $r = 1$, la structure
 
 Supposons maintenant qu’on ait $r \geq 2$, et raisonnons par récurrence sur $r$. Soit $H$ un sous-groupe isolé de $G$, de hauteur $r - 1$. On a $r(H) + r(G/H) = r$ (formule (4)), $r(H) \geq h(H) = r - 1$ et $r(G/H) \geq h(G/H) = 1$ (cor. de la prop. 3), d’où $r(H) = r - 1$ et $r(G/H) = 1$. L’hypothèse de récurrence montre que $H$ est isomorphe à $\mathbf{Z}^{r-1}$ ordonné lexicographiquement, et le cas $r = 1$ montre que $G/H$ est isomorphe à $\mathbf{Z}$. Comme $\mathbf{Z}$ est un $\mathbf{Z}$-module libre, $H$ est un *facteur direct* dans $G$ (*Alg.*, chap. II, 3e éd., § 1, no 11, prop. 21). Le lemme suivant montre alors que $G$ est isomorphe (non canoniquement) au produit lexicographique $H \times (G/H)$, ce qui achève la démonstration.
 
-#### Lemme 2 {#ac-vi-s10-lem-2 .statement}
+#### Lemme 2 {#ac-vi-s10-lem-2 .statement tag=04YD}
 
 *Soit* $H$ *un sous-groupe isolé d’un groupe commutatif totalement ordonné* $G$. *Si* $H$ *est facteur direct dans* $G$, *le groupe ordonné* $G$ *est isomorphe au groupe* $(G/H) \times H$ *ordonné lexicographiquement*.
 
@@ -185,7 +185,7 @@ $$
 
 si les membres de droite sont finis ; sinon, nous conviendrons de poser $d(K'/K) = +\infty$ (resp. $s(v'/v) = +\infty,\ r(v'/v) = +\infty$).
 
-#### Théorème 1 {#ac-vi-s10-thm-1 .statement}
+#### Théorème 1 {#ac-vi-s10-thm-1 .statement tag=04YE}
 
 *Soient $x_1, \ldots, x_s$ des éléments de l’anneau de $v'$ dont les images canoniques $\overline{x}_i$ dans $k'$ soient algébriquement indépendantes sur $k$, et $y_1, \ldots, y_r$ des éléments de $K'$ tels que les images canoniques des $v'(y_j)$ dans $\Gamma'/\Gamma$ soient linéairement indépendantes sur $\mathbf{Z}$. Alors les $r+s$ éléments $x_1, \ldots, x_s, y_1, \ldots, y_r$ de $K'$ sont algébriquement indépendants sur $K$; la restriction de $v'$ à $K(x_1, \ldots, x_s, y_1, \ldots, y_r)$ admet $k(\overline{x}_1, \ldots, \overline{x}_s)$ pour corps résiduel, et $\Gamma + \mathbf{Z}v'(y_1) + \cdots + \mathbf{Z}v'(y_r)$ pour groupe des ordres.*
 
@@ -197,7 +197,7 @@ b) On a un élément $y$ de $K'$ tel que les relations $nv'(y) \in \Gamma$ et $n
 
 Or la prop. 1 du § 8, no 1 montre que $x$ (resp. $y$) ne peut être algébrique sur $K$. Les autres assertions de a) (resp. b)) s’en déduisent aussitôt en vertu de la prop. 2 (resp. prop. 1) du no 1.
 
-#### Corollaire 1 {#ac-vi-s10-thm-1-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s10-thm-1-cor-1 .statement tag=04YF}
 
 *On a l’inégalité*
 
@@ -211,7 +211,7 @@ Soient $r$ et $s$ des entiers naturels tels que $r \leq r(v'/v)$ et $s \leq s(v'
 
 Si $K'$ est une extension de type fini de $K$, $d(K'/K)$ est fini, donc $s(v'/v)$ et $r(v'/v)$ sont aussi finis; notons-les $s$ et $r$. Il existe des éléments $x_1, \ldots, x_s, y_1, \ldots, y_r$ de $K'$ qui vérifient les hypothèses du th. 1. Si $r + s = d(K'/K)$, ces éléments forment une base de transcendance de $K'$ sur $K$, et $K'$ est donc une extension algébrique de degré fini de $K'' = K(x_1, \ldots, y_r)$. Soient $\Gamma''$ et $k''$ le groupe des ordres et le corps résiduel de la restriction de $v'$ à $K''$. D’après le th. 1, $\Gamma''/\Gamma$ est un $\mathbf{Z}$-module de type fini, et $k''$ est une extension pure de type fini de $k$. D’autre part, comme $K'$ est une extension algébrique de degré fini de $K''$, $\Gamma'/\Gamma''$ est un groupe fini, et $k'$ est une extension algébrique de degré fini de $k''$ ($§ 8$, no 1, lemme 2). Ceci démontre le corollaire 1.
 
-#### Corollaire 2 {#ac-vi-s10-thm-1-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s10-thm-1-cor-2 .statement tag=04YG}
 
 *Soient $h$ et $h'$ les hauteurs de $v$ et $v'$. On a alors*
 
@@ -221,13 +221,13 @@ $$
 
 En effet, d’après la prop. 3, on a $h' \leq r(v'/v) + h$.
 
-#### Corollaire 3 {#ac-vi-s10-thm-1-cor-3 .statement}
+#### Corollaire 3 {#ac-vi-s10-thm-1-cor-3 .statement tag=04YH}
 
 *Supposons que $K'$ soit une extension de type fini de $K$, que $\Gamma$ soit isomorphe à $\mathbf{Z}^h$ (ordonné lexicographiquement), et qu’il y ait égalité dans la formule (10). Alors $\Gamma'$ est isomorphe à $\mathbf{Z}^{h'}$ (ordonné lexicographiquement), et $k'$ est une extension de type fini de $k$.*
 
 S’il y a égalité dans (10), il y a égalité dans (9), d’où le fait que $k'$ est une extension de type fini de $k$, et que $\Gamma'$ est un $\mathbf{Z}$-module de type fini. De plus, en comparant (9) et (10), on voit que $h' - h = r(\Gamma'/\Gamma)$, d’où $h' = r(\Gamma')$, et la prop. 4 (n° 2) montre alors que $\Gamma'$ est isomorphe à $\mathbf{Z}^{h'}$ ordonné lexicographiquement.
 
-#### Corollaire 4 {#ac-vi-s10-thm-1-cor-4 .statement}
+#### Corollaire 4 {#ac-vi-s10-thm-1-cor-4 .statement tag=04YI}
 
 Supposons que $v$ soit impropre (auquel cas $k = K$). On a alors
 

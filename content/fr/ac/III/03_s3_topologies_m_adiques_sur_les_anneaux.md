@@ -32,7 +32,7 @@ subsections:
       pdf_page: 246
 statements: 37
 exercises: 27
-content_sha256: 6c88e29ea3ef0282f83eec6fe311d6273d538f1140250360167f6edd01f49540
+content_sha256: c08204d5969c77030e01faba3201abd6cfe535b9361f1dc2885bd0c182b1a75d
 ---
 
 ## § 3. Topologies $m$-adiques sur les anneaux nœthériens.
@@ -54,7 +54,7 @@ $$
 A_m X^m (E_n \otimes_A A X^n) \subset (A_m E_n \otimes_A A X^{m+n}) \subset E_{m+n} \otimes_A A X^{m+n}.
 $$
 
-#### Définition 1 {#ac-iii-s3-def-1 .statement}
+#### Définition 1 {#ac-iii-s3-def-1 .statement tag=04FX}
 
 Soient $A$ un anneau commutatif, $m$ un idéal de $A$, $E$ un $A$-module, $(E_n)$ une filtration sur le groupe additif $E$, formée de sous-modules de $E$. On dit que la filtration $(E_n)$ est $m$-bonne si :
 1° $m E_n \subset E_{n+1}$ pour tout $n \in \mathbf{Z}$;
@@ -62,7 +62,7 @@ Soient $A$ un anneau commutatif, $m$ un idéal de $A$, $E$ un $A$-module, $(E_n)
 
 On a alors, par récurrence sur $q$, $m^q E_n = E_{n+q}$ pour $n \geq n_0$, $q \geq 1$. On notera que la condition $1^\circ$ signifie que la filtration $(E_n)$ est compatible avec la structure de $A$-module de $E$, quand on munit $A$ de la filtration $m$-adique. Il est clair que sur tout $A$-module $E$, la filtration $m$-adique est $m$-bonne. Si une filtration sur un $A$-module $E$ est $m$-bonne, la filtration quotient sur tout module quotient de $E$ est $m$-bonne.
 
-#### Théorème 1 {#ac-iii-s3-thm-1 .statement}
+#### Théorème 1 {#ac-iii-s3-thm-1 .statement tag=04FY}
 
 *Soient $A$ un anneau commutatif, $m$ un idéal de $A$, $E$ un $A$-module, $(E_n)$ une filtration du groupe additif $E$, formée de sous-$A$-modules de type fini. On suppose que $m E_n \subset E_{n+1}$ pour tout $n$. Soit $A'$ la sous-algèbre graduée $\sum_{n \geq 0} m^n X^n$ de $A[X]$, $E'$ le $A'$-module gradué $\sum_{n \geq 0} E_n \otimes_A A X^n$. Les deux conditions suivantes sont équivalentes :
 
@@ -82,19 +82,19 @@ d’où $E_n = m E_{n-1}$ pour $n > n_0$.
 
 C. Q. F. D.
 
-#### Lemme 1 {#ac-iii-s3-lem-1 .statement}
+#### Lemme 1 {#ac-iii-s3-lem-1 .statement tag=04FZ}
 
 Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$. Alors le sous-anneau $A' = \sum_{n \geq 0} m^n X^n$ de $A[X]$ est noethérien.
 
 En effet $A'$ est une $A$-algèbre engendrée par $mX$; comme $A$ est noethérien, $mX$ est un $A$-module de type fini, et la conclusion résulte donc du § 2, no 10, cor. 3 du th. 2.
 
-#### Proposition 1 {#ac-iii-s3-prop-1 .statement}
+#### Proposition 1 {#ac-iii-s3-prop-1 .statement tag=04G0}
 
 Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$; on munit $A$ de la filtration $m$-adique. Soient $E, F$ deux $A$-modules filtrés, $j : F \to E$ un homomorphisme injectif compatible avec les filtrations. Si $E$ est de type fini et si sa filtration est $m$-bonne, alors $F$ est de type fini et sa filtration est $m$-bonne.
 
 Comme $F$ est isomorphe à un sous-module de $E$, il est de type fini puisque $A$ est noethérien et $E$ de type fini. Soient $(E_n), (F_n)$ les filtrations respectives de $E$ et $F$, qui sont formées de sous-modules de type fini ; gardons les notations du lemme 1 et posons $E' = \sum_{n \geq 0} E_n \otimes_A AX^n, \quad F' = \sum_{n \geq 0} F_n \otimes_A AX^n$; comme par hypothèse $F_n$ est isomorphe à un sous-module de $E_n$, on voit que $F'$ est isomorphe à un sous-module de $E'$. En vertu du th. 1, $E'$ est un $A'$-module de type fini, donc il en est de même de $F'$ puisque $A'$ est noethérien (lemme 1). D'où la conclusion en vertu du th. 1.
 
-#### Corollaire 1 (lemme d’Artin-Rees) {#ac-iii-s3-prop-1-cor-1 .statement}
+#### Corollaire 1 (lemme d’Artin-Rees) {#ac-iii-s3-prop-1-cor-1 .statement tag=04G1}
 
 Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$, $E$ un $A$-module de type fini, $F$ un sous-module de $E$. La filtration induite sur $F$ par la filtration $m$-adique de $E$ est $m$-bonne.
 
@@ -104,13 +104,13 @@ m((m^n E) \cap F) = (m^{n+1} E) \cap F
 $$
 pour tout $n \geq n_0$.
 
-#### Corollaire 2 {#ac-iii-s3-prop-1-cor-2 .statement}
+#### Corollaire 2 {#ac-iii-s3-prop-1-cor-2 .statement tag=04G2}
 
 Soient $A$ un anneau commutatif noethérien, $a, b$ deux idéaux de $A$. Il existe un entier $h > 0$ tel que $a^h \cap b \subset ab$.
 
 En effet, il existe $n$ tel que $a^{n+1} \cap b = a(a^n \cap b) \subset ab$ en vertu du cor. 1 appliqué à $E = A, F = b$.
 
-#### Corollaire 3 {#ac-iii-s3-prop-1-cor-3 .statement}
+#### Corollaire 3 {#ac-iii-s3-prop-1-cor-3 .statement tag=04G3}
 
 Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$, $x$ un élément de $A$ non diviseur de $0$. Il existe un entier $k > 0$ tel que, pour tout $n \geq k$, la relation $xy \in m^n$ entraîne $y \in m^{n-k}$.
 
@@ -121,19 +121,19 @@ $$
 (2) \quad m^n : Ax \subset m^{n-k}.
 $$
 
-#### Corollaire 4 {#ac-iii-s3-prop-1-cor-4 .statement}
+#### Corollaire 4 {#ac-iii-s3-prop-1-cor-4 .statement tag=04G4}
 
 Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$, $E$ un $A$-module de type fini, $(E_n)$ et $(E'_n)$ deux filtrations formées de sous-modules de $E$. On suppose que les filtrations $(E_n)$ et $(E'_n)$ sont compatibles avec la structure de $A$-module de $E$, quand on munit $A$ de la filtration $m$-adique. Si la filtration $(E_n)$ est $m$-bonne et si $E'_n \subset E_n$ pour tout $n \in \mathbf{Z}$, la filtration $(E'_n)$ est $m$-bonne.
 
 C’est un cas particulier de la prop. 1.
 
-#### Lemme 2 {#ac-iii-s3-lem-2 .statement}
+#### Lemme 2 {#ac-iii-s3-lem-2 .statement tag=04G5}
 
 Soient $A, B$ deux anneaux commutatifs noethériens, $\varphi : A \to B$ un homomorphisme d’anneaux, $E$ un $A$-module de type fini, $F$ un $B$-module de type fini. Alors $\mathrm{Hom}_A(E, \varphi_*(F))$ est un $B$-module de type fini.
 
 En effet, il existe par hypothèse un $A$-homomorphisme surjectif $\varphi : A^n \to E$; l’application $u \to u \circ \varphi$ de $\mathrm{Hom}_A(E, \varphi_*(F))$ dans $\mathrm{Hom}_A(A^n, \varphi_*(F))$ est donc injective, et comme $B$ est noethérien, il suffit de prouver que $\mathrm{Hom}_A(A^n, \varphi_*(F))$ est un $B$-module de type fini ; ce qui est immédiat puisqu’il est isomorphe à $F^n$.
 
-#### Proposition 2 {#ac-iii-s3-prop-2 .statement}
+#### Proposition 2 {#ac-iii-s3-prop-2 .statement tag=04G6}
 
 Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$, $E, F$ deux $A$-modules de type fini. Si $(F_n)$ est une filtration $m$-bonne sur $F$, les sous-modules $\mathrm{Hom}_A(E, F_n)$ forment une filtration $m$-bonne du $A$-module $\mathrm{Hom}_A(E, F)$.
 
@@ -149,7 +149,7 @@ $$
 
 il est clair que $v$ est compatible avec les filtrations ($\operatorname{Hom}_A(E, F_n)$) et ($\operatorname{Hom}_A(A^r, F_n)$). Comme $\operatorname{Hom}_A(E, F)$ et $\operatorname{Hom}_A(A^r, F)$ sont de type fini (lemme 2), il suffit, en vertu de la prop. 1, de montrer que la filtration ($\operatorname{Hom}_A(A^r, F_n)$) est m-bonne ; mais cela est immédiat en vertu de l’existence de l’isomorphisme canonique $\operatorname{Hom}_A(A^r, F_n) \to F_n^r$ et du fait que la relation $mF_n = F_{n+1}$ entraîne $m(F_n^r) = (mF_n)^r = F_{n+1}^r$ (*Alg.*, chap. II, 3e éd., § 3, no 7, *Remarque*).
 
-#### Proposition 3 {#ac-iii-s3-prop-3 .statement}
+#### Proposition 3 {#ac-iii-s3-prop-3 .statement tag=04G7}
 
 *Soient A un anneau noethérien, m un idéal de A tel que A soit séparé et complet pour la topologie m-adique. Soit E un A-module filtré sur l’anneau filtré A, la filtration (E_n) de E étant telle que E_0 = E, et que E soit séparé pour la topologie définie par (E_n). Alors les conditions suivantes sont équivalentes* :
 
@@ -171,41 +171,41 @@ l’hypothèse c) entraîne que l’image de mE_n dans gr_{n+1}(E) = E_{n+1}/E_{
 
 ### 2. Topologies $m$-adiques sur les anneaux noethériens.
 
-#### Proposition 4 {#ac-iii-s3-prop-4 .statement}
+#### Proposition 4 {#ac-iii-s3-prop-4 .statement tag=04G8}
 
 Soient A un anneau commutatif noethérien, $m$ un idéal de A, E un A-module de type fini. Toutes les filtrations $m$-bonnes sur E définissent la même topologie (savoir la topologie $m$-adique).
 
 Soit $(E_n)$ une filtration $m$-bonne sur E. Comme cette filtration est exhaustive, tout élément de E appartient à un des $E_n$, et comme E est de type fini et les $E_n$ des A-modules, il existe un entier $n_1$ tel que $E_{n_1} = E$. Soit d’autre part $n_0$ tel que $mE_n = E_{n+1}$ pour $n \geq n_0$; pour $n > n_0 - n_1$, on a donc $m^n E \subset E_{n+n_1} = m^{n+n_1-n_0} E_{n_0} \subset m^{n+n_1-n_0} E$, ce qui démontre la proposition.
 
-#### Théorème 2 (Krull) {#ac-iii-s3-thm-2 .statement}
+#### Théorème 2 (Krull) {#ac-iii-s3-thm-2 .statement tag=04G9}
 
 Soient A un anneau commutatif noethérien, $m$ un idéal de A, E un A-module de type fini, F un sous-module de E. Alors la topologie $m$-adique de F est induite par la topologie $m$-adique de E.
 
 En effet, il résulte du no 1, prop. 1, que la filtration induite sur F par la filtration $m$-adique de E est $m$-bonne, et la conclusion découle alors de la prop. 4.
 
-#### Corollaire {#ac-iii-s3-n2-cor-1 .statement}
+#### Corollaire {#ac-iii-s3-n2-cor-1 .statement tag=04GA}
 
 Soient A un anneau commutatif noethérien, $m$ un idéal de A, E un A-module, F un A-module de type fini. Toute application A-linéaire $u : E \to F$ est un morphisme strict (Top. gén., chap. III, 3e éd., § 2, no 8) pour les topologies $m$-adiques.
 
 En effet, comme $u(m^n E) = m^n u(E)$, $u$ est un morphisme strict de E sur $u(E)$ pour les topologies $m$-adiques sur ces deux modules, et la topologie $m$-adique sur $u(E)$ est induite par la topologie $m$-adique sur F en vertu du th. 2.
 
-#### Proposition 5 {#ac-iii-s3-prop-5 .statement}
+#### Proposition 5 {#ac-iii-s3-prop-5 .statement tag=04GB}
 
 Soient A un anneau commutatif nœthérien, m un idéal de A, E un A-module de type fini. L’adhérence $\bigcap_{n=1}^{\infty} m^n E$ de $\{0\}$ dans E pour la topologie m-adique est l’ensemble des $x \in E$ pour lesquels il existe un élément $m \in m$ tel que $(1 - m)x = 0$.
 
 En effet, si $x = mx$ avec $m \in m$, on a $x = m^n x \in m^n E$ pour tout entier $n \geq 0$, donc $x \in F = \bigcap_{n=0}^{\infty} m^n E$. Inversement, si $x \in F$, $Ax$ est contenu dans l’intersection des voisinages de 0 dans E ; il résulte alors du th. 2 que la topologie m-adique sur $Ax$, qui est induite par celle de E, est la topologie la moins fine ; comme $mx$ est par définition un voisinage de 0 pour cette topologie, on a $mx = Ax$, donc il existe $m \in m$ tel que $x = mx$.
 
-#### Corollaire (Krull) {#ac-iii-s3-n2-cor-2 .statement}
+#### Corollaire (Krull) {#ac-iii-s3-n2-cor-2 .statement tag=04GC}
 
 Soient A un anneau commutatif nœthérien, m un idéal de A. L’idéal $\bigcap_{n=1}^{\infty} m^n$ est l’ensemble des éléments $x \in A$ pour lesquels il existe un $m \in m$ tel que $(1 - m)x = 0$. En particulier, pour que $\bigcap_{n=1}^{\infty} m^n = \{0\}$, il faut et il suffit qu’aucun élément de $1 + m$ ne soit diviseur de zéro dans A.
 
 Il suffit d’appliquer la prop. 5 à $E = A_s$.
 
-#### Remarque {#ac-iii-s3-n2-rem-1 .statement}
+#### Remarque {#ac-iii-s3-n2-rem-1 .statement tag=04GD}
 
 L’hypothèse que A est nœthérien est essentielle dans ce corollaire. Par exemple, soit A l’anneau des applications indéfiniment différentiables de $\mathbf{R}$ dans lui-même, et soit m l’idéal (maximal) de A formé des fonctions $f$ telles que $f(0) = 0$. Il est immédiat que $\bigcap_{n=0}^{\infty} m^n$ est l’ensemble des fonctions $f$ telles que $f^{(n)}(0) = 0$ pour tout $n \geq 0$, et il existe de telles fonctions telles que $f(x) \neq 0$ pour tout $x \neq 0$, par exemple la fonction $f$ définie par $f(x) = e^{-1/x^2}$ pour $x \neq 0$ et $f(0) = 0$.
 
-#### Définition 1 {#ac-iii-s3-def-1-bis .statement}
+#### Définition 1 {#ac-iii-s3-def-1-bis .statement tag=04GE}
 
 Soit $A$ un anneau topologique. Si un idéal bilatère $m$ de $A$ est tel que la topologie donnée sur $A$ soit la topologie $m$-adique, on dit que $m$ est un idéal de définition de la topologie de $A$.
 
@@ -213,7 +213,7 @@ Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$, $t$ sa racine
 
 ### 3. Anneaux de Zariski.
 
-#### Proposition 6 {#ac-iii-s3-prop-6 .statement}
+#### Proposition 6 {#ac-iii-s3-prop-6 .statement tag=04GF}
 
 Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$. Les propriétés suivantes sont équivalentes :
 a) $m$ est contenu dans le radical de $A$.
@@ -227,7 +227,7 @@ Prouvons que b) entraîne c). Supposons b) vérifiée. Soient $E$ un $A$-module 
 
 Il est clair que c) implique d). Démontrons enfin que d) implique a). Il résulte de d) que pour tout idéal maximal $a$ de $A$, le $A$-module $A/a$ est séparé pour la topologie $m$-adique. Cela entraîne $m(A/a) \neq A/a$, sinon la topologie $m$-adique de $A/a$ serait la topologie la moins fine, et $A/a$ serait réduit à 0, ce qui est absurde puisque $A/a$ est un corps. L'image canonique de $m$ dans $A/a$ est donc un idéal de $A/a$ distinct de $A/a$, donc est réduite à 0; on a par suite $m \subset a$, ce qui montre que $m$ est contenu dans le radical de $A$.
 
-#### Définition 2 {#ac-iii-s3-def-2 .statement}
+#### Définition 2 {#ac-iii-s3-def-2 .statement tag=04GG}
 
 On dit qu’un anneau topologique $A$ est un anneau de Zariski s’il est commutatif et nœthérien et s’il existe un idéal de définition $m$ pour la topologie de $A$, satisfaisant aux conditions équivalentes de la prop. 6.
 
@@ -239,7 +239,7 @@ Exemples d’anneaux de Zariski. — 1) Soient $A$ un anneau commutatif nœthér
 
 3) Soient $A$ un anneau semi-local nœthérien, $r$ son radical. Alors $A$, muni de la topologie $r$-adique, est un anneau de Zariski. C’est toujours de cette topologie qu’il sera question (sauf mention expresse du contraire) quand on considérera un anneau semi-local nœthérien comme un anneau topologique.
 
-#### Proposition 7 {#ac-iii-s3-prop-7 .statement}
+#### Proposition 7 {#ac-iii-s3-prop-7 .statement tag=04GK}
 
 Soient $A, A'$ deux anneaux commutatifs, $h : A \to A'$ un homomorphisme d’anneaux. On suppose que $A$ est nœthérien et que $A'$ est un $A$-module de type fini (pour la structure de module définie par $h$). Soit $m$ un idéal de $A$, et soit $m' = mA'$. Alors :
 
@@ -269,7 +269,7 @@ $$
 
 est commutatif. Enfin, il résulte du § 2, n° 12, prop. 16 que si E est de type fini, l'homomorphisme $\alpha_E$ est surjectif.
 
-#### Théorème 3 {#ac-iii-s3-thm-3 .statement}
+#### Théorème 3 {#ac-iii-s3-thm-3 .statement tag=04GL}
 
 Soient A un anneau commutatif noethérien, m un idéal de A, E, F, G trois A-modules de type fini. Alors :
 (i) Si $E \xrightarrow{u} F \xrightarrow{v} G$ est une suite exacte d'applications A-linéaires, la suite $\hat{E} \xrightarrow{\hat{u}} \hat{F} \xrightarrow{\hat{v}} \hat{G}$ qu'on en déduit par passage aux séparés complétés (pour les topologies m-adiques) est exacte.
@@ -300,7 +300,7 @@ C. Q. F. D.
 
 Sous les conditions du th. 3, on identifie souvent $\hat{A} \otimes_A E$ à $\hat{E}$ au moyen de l’application canonique $\alpha_E$. Si $u : E \to F$ est un homomorphisme de $A$-modules de type fini, $\hat{u} : \hat{E} \to \hat{F}$ se trouve alors identifié à $1 \otimes u$ en vertu de la commutativité du diagramme (4).
 
-#### Corollaire 1 {#ac-iii-s3-thm-3-cor-1 .statement}
+#### Corollaire 1 {#ac-iii-s3-thm-3-cor-1 .statement tag=04GM}
 
 *Soient A un anneau commutatif noethérien, m un idéal de A, E un A-module de type fini, F et G deux sous-modules de E. Munissons A, E, F et G des topologies m-adiques, et soit i l’application canonique de E dans $\hat{E}$. On a alors*:
 
@@ -318,13 +318,13 @@ $$
 \hat{c} = \hat{A}i(ab) = \hat{A}i(a)i(b) = \hat{a}\hat{b}.
 $$
 
-#### Corollaire 2 {#ac-iii-s3-thm-3-cor-2 .statement}
+#### Corollaire 2 {#ac-iii-s3-thm-3-cor-2 .statement tag=04GN}
 
 *Soient A un anneau commutatif noethérien, m un idéal de A, $\hat{A}$ le séparé complété de A pour la topologie m-adique. Si un élément $a \in A$ est non diviseur de 0 dans A, son image canonique $a'$ dans $\hat{A}$ est non diviseur de 0 dans $\hat{A}$.
 
 Comme $\hat{A}$ est un A-module plat, le corollaire est un cas particulier du chap. I, § 2, no 4, prop. 3, (i).
 
-#### Corollaire 3 {#ac-iii-s3-thm-3-cor-3 .statement}
+#### Corollaire 3 {#ac-iii-s3-thm-3-cor-3 .statement tag=04GO}
 
 *Si A est un anneau commutatif noethérien, l’anneau de séries formelles $A[[X_1, ..., X_n]]$ est un A-module plat.
 
@@ -334,7 +334,7 @@ B = A[X_1, ..., X_n]
 $$
 pour la topologie m-adique, où m est l’ensemble des polynômes sans terme constant ($§ 2,$ no 12, *Exemple 1*); comme B est noethérien ($§ 2,$ no 10, cor. 2 du th. 2), $A[[X_1, ..., X_n]]$ est un B-module plat en vertu du th. 3, et comme B est un A-module libre, $A[[X_1, ..., X_n]]$ est un A-module plat (chap. I, § 2, no 7, cor. 3 de la prop. 8).
 
-#### Proposition 8 {#ac-iii-s3-prop-8 .statement}
+#### Proposition 8 {#ac-iii-s3-prop-8 .statement tag=04GP}
 
 *Soient A un anneau commutatif noethérien, m un idéal de A, $\hat{A}$ le séparé complété de A pour la topologie m-adique, j l’application canonique de A dans $\hat{A}$. Alors :
 (i) $\hat{A}$ est un anneau de Zariski et $\hat{m} = \hat{A}.j(m)$ est un idéal de définition de $\hat{A}$.
@@ -361,7 +361,7 @@ où $h$ et $h'$ sont déduits de $j$ et $j'$ respectivement, et où les flèches
 
 C. Q. F. D.
 
-#### Corollaire {#ac-iii-s3-n4-cor-1 .statement}
+#### Corollaire {#ac-iii-s3-n4-cor-1 .statement tag=04GQ}
 
 Soient $A$ un anneau local (resp. semi-local) noethérien, $m$ son radical. Alors $\hat{A}$ est un anneau local (resp. semi-local) noethérien dont le radical est $\hat{m}$.
 
@@ -369,7 +369,7 @@ En effet, $\hat{A}$ est noethérien en vertu de la prop. 8, (i), et le reste ré
 
 ### 5. Complété d’un anneau de Zariski.
 
-#### Proposition 9 {#ac-iii-s3-prop-9 .statement}
+#### Proposition 9 {#ac-iii-s3-prop-9 .statement tag=04GR}
 
 Soient $A$ un anneau commutatif noethérien, $m$ un idéal de $A$; munissons $A$ de la topologie $m$-adique. Pour que $\hat{A}$ soit un $A$-module fidèlement plat, il faut et il suffit que $A$ soit un anneau de Zariski.
 
@@ -377,13 +377,13 @@ En effet, pour tout $A$-module de type fini $M$, l’application canonique $M \t
 
 Si $A$ est un anneau de Zariski et si $E$ est un $A$-module de type fini on peut (en vertu de la prop. 9) identifier $E$ à une partie de $\hat{E}$ au moyen de l’application canonique $j_e : E \to \hat{E}$. Avec cette identification :
 
-#### Corollaire 1 {#ac-iii-s3-prop-9-cor-1 .statement}
+#### Corollaire 1 {#ac-iii-s3-prop-9-cor-1 .statement tag=04GS}
 
 Soient $A$ un anneau de Zariski, $E$ un $A$-module de type fini, $F$ un sous-module de $E$. Alors $F = \hat{F} \cap E = (\hat{A}F) \cap E$.
 
 C’est un cas particulier du chap. I, § 3, no 5, prop. 10, (ii), et résulte aussi d’ailleurs du no 3, prop. 6.
 
-#### Corollaire 2 {#ac-iii-s3-prop-9-cor-2 .statement}
+#### Corollaire 2 {#ac-iii-s3-prop-9-cor-2 .statement tag=04GT}
 
 Soient $A$ un anneau de Zariski, $E$ un $A$-module de type fini. Si $\hat{E}$ est un $\hat{A}$-module libre, $E$ est un $A$-module libre.
 
@@ -393,18 +393,18 @@ l’application canonique $j_E : E \to \hat{E}$ définit une bijection $i_{j_E} 
 
 Par ailleurs, soit $\varphi : m \otimes_A E \to E$ l’homomorphisme canonique; comme $(m \otimes_A E) \otimes_A \hat{A}$ s’identifie canoniquement à $\hat{m} \otimes_{\hat{A}} \hat{E}$ et $E \otimes_A \hat{A}$ à $\hat{E}$ (no 4, th. 3), l’hypothèse que $\hat{E}$ est un $\hat{A}$-module libre entraîne que l’homomorphisme $\varphi \otimes 1 : \hat{m} \otimes_{\hat{A}} \hat{E} \to \hat{E}$ est injectif. Comme $\hat{A}$ est un $A$-module fidèlement plat (prop. 9), on en conclut que $\varphi$ est injectif (chap. I, § 3, no 1, prop. 2) et les conditions d’application du critère précité sont bien remplies.
 
-#### Corollaire 3 {#ac-iii-s3-prop-9-cor-3 .statement}
+#### Corollaire 3 {#ac-iii-s3-prop-9-cor-3 .statement tag=04GU}
 
 Soient $A$ un anneau de Zariski tel que $\hat{A}$ soit intègre, $a$ un idéal de $A$. Si l’idéal $a\hat{A}$ de $\hat{A}$ est principal, $a$ est principal.
 C’est un cas particulier du cor. 2.
 
-#### Corollaire 4 {#ac-iii-s3-prop-9-cor-4 .statement}
+#### Corollaire 4 {#ac-iii-s3-prop-9-cor-4 .statement tag=04GV}
 
 Soient $A$ un anneau de Zariski tel que $\hat{A}$ soit intègre, $L$ le corps des fractions de $\hat{A}$, $K \subset L$ le corps des fractions de $A$; on a $\hat{A} \cap K = A$.
 
 Il est clair que $A \subset \hat{A} \cap K$; d’autre part, si $x \in \hat{A} \cap K$, on a $\hat{A}x \subset \hat{A}$, donc comme $\hat{A}x = \hat{A} \otimes_A (Ax)$ (no 4, th. 3) on a $\hat{A} \otimes_A ((Ax + A)/A) = 0$. Comme $\hat{A}$ est un $A$-module fidèlement plat (prop. 9), on en déduit $Ax \subset A$, d’où $x \in A$.
 
-#### Corollaire 5 {#ac-iii-s3-prop-9-cor-5 .statement}
+#### Corollaire 5 {#ac-iii-s3-prop-9-cor-5 .statement tag=04GW}
 
 Soient $A$ un anneau commutatif nœthérien, $E, F$ deux $A$-modules de type fini, $u : E \to F$ un $A$-homomorphisme. Pour tout idéal maximal $m$ de $A$, notons $A(m)$ (resp. $E(m)$, $F(m)$) le séparé complété de $A$ (resp. $E, F$) pour la topologie $m$-adique, par $u(m) : E(m) \to F(m)$ l’homomorphisme correspondant à $u$. Pour que $u$ soit injectif (resp. surjectif, bijectif, nul), il faut et il suffit que $u(m)$ le soit pour tout idéal maximal $m$ de $A$.
 
@@ -420,13 +420,13 @@ $$
 
 où les flèches horizontales de gauche proviennent de l’associativité du produit tensoriel et des isomorphismes $E_m \to E \otimes_A A_m$, $F_m \to F \otimes_A A_m$; comme $E$ et $F$ sont des $A$-modules de type fini, il résulte du no 4, th. 3, que les lignes horizontales de ce diagramme sont formées d’isomorphismes ; tout revient donc à montrer qu’il est équivalent que $u_m$ soit injectif (resp. surjectif, bijectif, nul) et que $u_m \otimes 1$ le soit. Mais cela résulte du fait que $\hat{A}_m$ (donc aussi $A(m)$) est un $A_m$-module fidèlement plat d’après la prop. 9 (chap. I, § 3, no 1, prop. 1 et 2).
 
-#### Proposition 10 {#ac-iii-s3-prop-10 .statement}
+#### Proposition 10 {#ac-iii-s3-prop-10 .statement tag=04GX}
 
 *Soient $A, B$ deux anneaux de Zariski, $\hat{A}, \hat{B}$ leurs complétés, $f : A \to B$ un homomorphisme continu d’anneaux, $\hat{f} : \hat{A} \to \hat{B}$ l’homomorphisme déduit de $f$ par passage aux complétés ; si $\hat{f}$ est bijectif, le $A$-module $B$ est fidèlement plat.*
 
 Comme $A$ et $B$ sont séparés, l’hypothèse que $\hat{f}$ est bijectif entraîne d’abord que $f$ est injectif. Identifiant (algébriquement) $A$ à $f(A)$ au moyen de $f$ et $\hat{A}$ à $\hat{B}$ au moyen de $\hat{f}$, on a donc les inclusions $A \subset B \subset \hat{A} = \hat{B}$; on sait que $\hat{A}$ est un $A$-module fidèlement plat et un $B$-module fidèlement plat (prop. 9); on en conclut que $B$ est un $A$-module fidèlement plat (chap. I, § 3, no 4, Remarque 2).
 
-#### Proposition 11 {#ac-iii-s3-prop-11 .statement}
+#### Proposition 11 {#ac-iii-s3-prop-11 .statement tag=04GY}
 
 *Soient $A$ un anneau local noethérien, $m$ son idéal maximal, $\hat{A}$ son complété $m$-adique, $B$ un anneau tel que $A \subset B \subset \hat{A}$. Supposons que $B$ soit un anneau local noethérien dont l’idéal maximal $\mathfrak{n}$ vérifie la relation $\mathfrak{n} = mB$. On a alors*
 
@@ -446,11 +446,11 @@ $$
 
 où $p$ est l'idéal maximal formé des polynômes sans terme constant, et $\hat{A}$ est l'anneau de séries formelles $K[[X_1, ..., X_n]]$*
 
-#### Remarque {#ac-iii-s3-n5-rem-1 .statement}
+#### Remarque {#ac-iii-s3-n5-rem-1 .statement tag=04GZ}
 
 Un anneau local B tel que $A \subset B \subset \hat{A}$, dont l'idéal maximal $n$ est égal à $mB$ et dont la topologie $n$-adique est induite par la topologie $\hat{m}$-adique de $\hat{A}$, n'est pas nécessairement noethérien (exerc. 14).
 
-#### Proposition 12 {#ac-iii-s3-prop-12 .statement}
+#### Proposition 12 {#ac-iii-s3-prop-12 .statement tag=04H0}
 
 Soient A un anneau commutatif noethérien, $m$ un idéal de A, S la partie multiplicative $1 + m$ de A, E un A-module de type fini. Dans ces conditions :
 

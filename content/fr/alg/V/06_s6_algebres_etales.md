@@ -41,7 +41,7 @@ subsections:
       pdf_page: 137
 statements: 20
 exercises: 2
-content_sha256: fbf2c9f9cdef16161c0aea94d3854ca972eb289ad761d1948e5e34e4f8655f7e
+content_sha256: 2ad16cbaf9e2ae81ea08646a75d2713da6170a2441a66526abe3f3a59d147079
 ---
 
 ## § 6. ALGÈBRES ÉTALES
@@ -58,7 +58,7 @@ pour $x \in V, \alpha \in L$ et $f, g$ dans Hom_K(V, L). Soient $V_{(L)} = L \ot
 
 (2) $$ [\mathrm{Hom}_K(V, L) : L ] = [V : K] . $$
 
-#### Théorème 1 {#alg-v-s6-thm-1 .statement}
+#### Théorème 1 {#alg-v-s6-thm-1 .statement tag=06JB}
 
 Soient L une extension d’un corps K et A une algèbre sur K ; soit $\mathscr{H}$ l’ensemble des homomorphismes de K-algèbres de A dans L. Alors $\mathscr{H}$ est une partie libre de l’espace vectoriel $\mathrm{Hom}_K(A, L)$ sur L.
 
@@ -70,20 +70,20 @@ $$
 
 d’où $\sum_{i=1}^{n-1} \alpha_i [u_i(x) - u_n(x)] \cdot u_i = 0$. D’après l’hypothèse de récurrence, les éléments $u_1, \ldots, u_{n-1}$ de $\mathscr{H}$ sont linéairement indépendants, d’où $\alpha_i [u_i(x) - u_n(x)] = 0$ pour $1 \leqslant i \leqslant n-1$ et pour tout $x$ dans A. Les $u_i$ étant distincts, cela implique $\alpha_i = 0$ pour $i \neq n$, donc $\alpha_n u_n = 0$, d’où $\alpha_n = \alpha_n u_n(1) = 0$ (en notant 1 l’élément unité de A). On a donc prouvé que $\alpha_1, \ldots, \alpha_{n-1}, \alpha_n$ sont nuls, d’où le théorème.
 
-#### Corollaire 1 {#alg-v-s6-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s6-thm-1-cor-1 .statement tag=06JC}
 
 Soient $\Gamma$ un monoïde, L un corps et X l’ensemble des homomorphismes de $\Gamma$ dans le monoïde multiplicatif de L. Alors X est une partie libre du L-espace vectoriel $L^\Gamma$ des applications de $\Gamma$ dans L.
 
 Soient A l’algèbre du monoïde $\Gamma$ à coefficients dans L et $(e_\gamma)_{\gamma \in \Gamma}$ la base canonique de A sur L (III, p. 19). Pour toute application L-linéaire $u$ de A dans L, posons $\tilde{u}(\gamma) = u(e_\gamma)$ (pour $\gamma \in \Gamma$) ; alors, l’application $u \mapsto \tilde{u}$ est un isomorphisme de L-espaces vectoriels de $\mathrm{Hom}_L(A; L)$ sur $L^\Gamma$, qui applique sur X l’ensemble des homomorphismes de L-algèbres de A dans L. Il suffit alors d’appliquer le th. 1 avec $K = L$.
 
-#### Corollaire 2 (Théorème de Dedekind) {#alg-v-s6-thm-1-cor-2 .statement}
+#### Corollaire 2 (Théorème de Dedekind) {#alg-v-s6-thm-1-cor-2 .statement tag=06JD}
 
 *Soient E et L deux extensions de K. L’ensemble des K-homomorphismes de E dans L est libre sur L. Si E est de degré fini sur K, le nombre des K-homomorphismes de E dans L est au plus égal à [E : K].*
 La dernière assertion se déduit de la première en tenant compte de la formule (2).
 
 ### 2. Indépendance algébrique des homomorphismes
 
-#### Théorème 2 {#alg-v-s6-thm-2 .statement}
+#### Théorème 2 {#alg-v-s6-thm-2 .statement tag=06JE}
 
 *Soient K un corps infini, L une extension de K et A une algèbre sur K. Soient $u_1, ..., u_n$ des K-homomorphismes d’algèbres distincts de A dans L et f un polynôme de $L[X_1, ..., X_n]$. Si l’on a $f(u_1(x), ..., u_n(x)) = 0$ pour tout $x \in A$, on a $f = 0$.
 Soit B l’ensemble des éléments de $L^n$ de la forme $(u_1(x), ..., u_n(x))$ avec $x \in A$. D’après le théorème 1, il n’existe pas de suite $(\alpha_1, ..., \alpha_n)$ d’éléments non tous nuls de L telle que $\sum_{i=1}^n \alpha_i u_i(x) = 0$ pour tout $x \in A$; par suite (II, p. 104, th. 7), B engendre l’espace vectoriel $L^n$ sur L. Il existe donc des éléments $a_1, ..., a_n$ de A tels que la matrice $(u_i(a_j))_{1 \leq i,j \leq n}$ soit inversible.
@@ -105,7 +105,7 @@ Le théorème 2 n’a pas d’analogue pour les corps finis. Soient en effet K u
 
 ### 3. Algèbres diagonalisables et algèbres étales
 
-#### Définition 1 {#alg-v-s6-def-1 .statement}
+#### Définition 1 {#alg-v-s6-def-1 .statement tag=06JF}
 
 Soit $A$ une algèbre sur $K$. On dit que $A$ est diagonalisable s’il existe un entier $n \geqslant 0$ tel que $A$ soit isomorphe à l’algèbre produit $K^n$. On dit que $A$ est diagonalisée par une extension $L$ de $K$ si l’algèbre $A_{(L)}$ sur $L$ déduite de $A$ par extension des scalaires est diagonalisable. On dit que $A$ est étale s’il existe une extension de $K$ qui diagonalise $A$.
 
@@ -125,7 +125,7 @@ et $1 = \varepsilon_1 + \cdots + \varepsilon_n$.
 
 Toute algèbre étale sur $K$ est commutative et de degré fini sur $K$.
 
-#### Proposition 1 {#alg-v-s6-prop-1 .statement}
+#### Proposition 1 {#alg-v-s6-prop-1 .statement tag=06JG}
 
 Soit $A$ une algèbre de degré fini $n$ sur le corps $K$. Les conditions suivantes sont équivalentes :
 
@@ -140,13 +140,13 @@ Supposons b) vérifiée, et soit $M$ un $A$-module ; alors les homothéties $(e_
 
 Inversement, supposons d) vérifiée et considérons le $A$-module $A_s$. Il existe alors une base $(f_i)$ du $K$-espace vectoriel $A$ tel que $Af_i = Kf_i$ pour $i = 1, \ldots, n$. Quitte à remplacer chaque $f_i$ par un multiple scalaire convenable, on peut supposer que $1 = f_1 + \cdots + f_n$. Si $i \neq j$, $f_i f_j$ appartient à $Af_i \cap Af_j = Kf_i \cap Kf_j$, donc est nul. Alors $f_i = f_i f_1 + \cdots + f_i f_n = f_i^2$, d’où b).
 
-#### Corollaire {#alg-v-s6-n3-cor-1 .statement}
+#### Corollaire {#alg-v-s6-n3-cor-1 .statement tag=06JH}
 
 Soient L une extension de K et $\mathscr{H}$ l’ensemble des homomorphismes d’algèbres de A dans L. On a Card $\mathscr{H} \leq [A : K]$, avec égalité si et seulement si A est diagonalisée par L. Si A est diagonalisée par L, alors $\mathscr{H}$ est une base du L-espace vectoriel $\mathrm{Hom}_K(A, L)$.
 
 L’espace vectoriel $\mathrm{Hom}_K(A, L)$ sur L est de dimension $[A : K]$ d’après la formule (2) et $\mathscr{H}$ est une partie libre de $\mathrm{Hom}_K(A, L)$ d’après le th. 1 (V, p. 26). On a donc Card $\mathscr{H} \leq [A : K]$ avec égalité si et seulement si $\mathscr{H}$ est une base de $\mathrm{Hom}_K(A, L)$. Il existe un isomorphisme de L-espaces vectoriels, soit $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, caractérisé par $u(x) = (\pi u)(1 \otimes x)$ pour $x \in A$, et $\pi$ applique $\mathscr{H}$ sur l’ensemble $\mathscr{H}_L$ des homomorphismes de L-algèbres de $A_{(L)}$ dans L. Enfin, l’équivalence de a) et c) dans la prop. 1 montre que l’algèbre $A_{(L)}$ sur L est diagonalisable si et seulement si $\mathscr{H}_L$ engendre l’espace vectoriel $A_{(L)}^*$ sur L. Ceci prouve le corollaire.
 
-#### Proposition 2 {#alg-v-s6-prop-2 .statement}
+#### Proposition 2 {#alg-v-s6-prop-2 .statement tag=06JI}
 
 Soient A une algèbre sur K et $\Omega$ une extension algébriquement close de K. Les assertions suivantes sont équivalentes :
 a) L’algèbre A est étale.
@@ -159,7 +159,7 @@ Comme toute extension de degré fini de K est isomorphe à une sous-extension de
 
 ### 4. Sous-algèbres d’une algèbre étale
 
-#### Proposition 3 {#alg-v-s6-prop-3 .statement}
+#### Proposition 3 {#alg-v-s6-prop-3 .statement tag=06JJ}
 
 Soit A une algèbre étale sur K. Il n’existe qu’un nombre fini de sous-algèbres et d’idéaux de A. De plus, toute extension de K qui diagonalise A diagonalise toute sous-algèbre et toute algèbre quotient de A, et en particulier ces algèbres sont étales.
 
@@ -173,7 +173,7 @@ Pour toute partie I de {1, 2, ..., n}, soit $a_I$ le sous-espace vectoriel de $K
 
 Il reste à prouver que tout idéal $a$ de $K^n$ est de la forme $a_I$. Soit I l’ensemble des entiers $i$ tels que $1 \leq i \leq n$ et $\varepsilon_i \in a$; on a $a_I \subset a$. Soit $x = x_1 \varepsilon_1 + \cdots + x_n \varepsilon_n$ un élément de $a$ (avec $x_1, ..., x_n$ dans $K$) et soit $i$ dans $\{1, 2, ..., n\} - I$. On a $x_i \varepsilon_i = x \varepsilon_i \in a$ et $\varepsilon_i \notin a$, d’où $x_i = 0$. On a donc $x = \sum_{i \in I} x_i \varepsilon_i$, d’où $x \in a_I$. On a prouvé l’inclusion $a \subset a_I$, d’où finalement $a = a_I$.
 
-#### Corollaire {#alg-v-s6-n4-cor-1 .statement}
+#### Corollaire {#alg-v-s6-n4-cor-1 .statement tag=06JK}
 
 *Soient $A_1, ..., A_m$ des algèbres sur $K$, et $A = A_1 \times \cdots \times A_m$. Pour que $A$ soit étale, il faut et il suffit que $A_1, ..., A_m$ soient étales.*
 
@@ -183,7 +183,7 @@ Supposons A étale ; chacune des algèbres $A_1, ..., A_m$ est isomorphe à un q
 
 Soit A une algèbre commutative de degré fini $n$ sur K. Pour toute extension L de K, le nombre $h(L)$ des homomorphismes d’algèbres de A dans L est fini et majoré par $n$ (V, p. 29, cor.).
 
-#### Lemme 1 {#alg-v-s6-lem-1 .statement}
+#### Lemme 1 {#alg-v-s6-lem-1 .statement tag=06JL}
 
 *Soit $\Omega$ une clôture algébrique de K. On a $h(L) \leq h(\Omega)$ pour toute extension L de K, avec égalité si L est algébriquement clos.*
 
@@ -215,19 +215,19 @@ $$
 
 En effet, soit $S$ (resp. $T$) l’ensemble des $K$-homomorphismes de $K'$ (resp. $A'$) dans une clôture algébrique $L$ de $K$; pour tout $\sigma \in S$, notons $T_\sigma$ l’ensemble des éléments $f$ de $T$ tels que $f(\alpha . 1) = \sigma(\alpha)$ pour tout $\alpha \in K'$. Alors la famille $(T_\sigma)_{\sigma \in S}$ est une partition de $T$, et l’on a Card $S = [K' : K]_s$; or, pour tout $\sigma \in S$, l’ensemble $T_\sigma$ se compose des $K'$-homomorphismes de $A'$ dans l’extension algébriquement close $(L, \sigma)$ de $K'$, d’où Card $T_\sigma = [A' : K']_s$. On a ainsi prouvé (9).
 
-#### Proposition 4 {#alg-v-s6-prop-4 .statement}
+#### Proposition 4 {#alg-v-s6-prop-4 .statement tag=06JM}
 
 *Soit $A$ une algèbre commutative de degré fini sur $K$. On a* $[A : K]_s \leq [A : K]$, *avec égalité si et seulement si* $A$ *est étale*.
 
 Soient $\Omega$ une clôture algébrique de $K$ et $\mathscr{H}$ l’ensemble des homomorphismes d’algèbres de $A$ dans $\Omega$. On a Card $\mathscr{H} = [A : K]_s$, et $A$ est étale si et seulement si $A$ est diagonalisée par l’extension $\Omega$ de $K$ (V, p. 29, prop. 2). La prop. 4 résulte alors du cor. de V, p. 29.
 
-#### Corollaire 1 {#alg-v-s6-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s6-prop-4-cor-1 .statement tag=06JN}
 
 *Soient $A$ et $B$ deux algèbres commutatives sur $K$, de degrés finis non nuls. Pour que l’algèbre $C = A \otimes_K B$ soit étale, il faut et il suffit que* $A$ *et* $B$ *soient étales*.
 
 On a $[C : K] = [A : K] \cdot [B : K]$ et la formule analogue (7) pour les degrés séparables. De plus, on a $[A : K]_s \leq [A : K]$ et des formules analogues pour $B$ et $C$. Il en résulte qu’on a $[C : K] = [C : K]_s$ si et seulement si l’on a à la fois $[A : K] = [A : K]_s$ et $[B : K] = [B : K]_s$; il suffit alors d’appliquer la prop. 4.
 
-#### Corollaire 2 {#alg-v-s6-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s6-prop-4-cor-2 .statement tag=06JO}
 
 *Soit $K'$ une extension de $K$.*
     *a)* *Pour qu’une $K$-algèbre $A$ soit étale, il faut et il suffit que la $K'$-algèbre $A_{(K')}$ soit étale.*
@@ -236,21 +236,21 @@ On a $[C : K] = [A : K] \cdot [B : K]$ et la formule analogue (7) pour les degr�
 
 ### 6. Caractérisation différentielle des algèbres étales
 
-#### Théorème 3 {#alg-v-s6-thm-3 .statement}
+#### Théorème 3 {#alg-v-s6-thm-3 .statement tag=06JP}
 
 *Soit $A$ une algèbre commutative de degré fini sur $K$. Pour que $A$ soit étale, il faut et il suffit que le module $\Omega_K(A)$ des $K$-différentielles de $A$ soit réduit à 0.*
     *A)* Soit $L$ une clôture algébrique de $K$ (V, p. 22, th. 2). Pour que $A$ soit étale, il faut et il suffit que l’algèbre $A_{(L)}$ sur $L$ soit diagonalisable (V, p. 29, prop. 2). De plus, le $A$-module $\Omega_L(A_{(L)})$ est isomorphe à $\Omega_K(A) \otimes_A A_{(L)}$ (III, p. 136, prop. 20), donc à $\Omega_K(A) \otimes_K L$ d’après l’associativité du produit tensoriel ; par suite, $\Omega_K(A) = 0$ équivaut à $\Omega_L(A_{(L)}) = 0$. Pour prouver le th. 3, il suffit donc de considérer le cas où $K$ est algébriquement clos et de montrer que l’algèbre $A$ est diagonalisable si et seulement si l’on a $\Omega_K(A) = 0$.
     *B)* Supposons $A$ diagonalisable ; alors (V, p. 28, prop. 1), l’espace vectoriel $A$ est engendré par les idempotents de $A$. L’assertion $\Omega_K(A) = 0$ résulte alors du lemme suivant :
-#### Lemme 2 {#alg-v-s6-lem-2 .statement}
+#### Lemme 2 {#alg-v-s6-lem-2 .statement tag=06JQ}
 
 *Soient $A$ une algèbre commutative sur $K$ et $e$ un idempotent de $A$. On a $de = 0$ dans $\Omega_K(A)$.*
     De la relation $e = e^2$, on déduit $de = 2e.de$; par multiplication par $e$, on en déduit $e.de = 2e^2.de = 2e.de$, d’où $e.de = 0$. Finalement, on a $de = 2e.de = 0$.
     *C)* Nous démontrerons d’abord deux lemmes :
-#### Lemme 3 {#alg-v-s6-lem-3 .statement}
+#### Lemme 3 {#alg-v-s6-lem-3 .statement tag=06JR}
 
 *Soit $A$ une algèbre commutative de degré fini sur le corps algébriquement clos $K$, telle que $\Omega_K(A) = 0$. On a $m = m^2$ pour tout idéal maximal $m$ de $A$.*
     L’algèbre $A/m$ est une extension de degré fini du corps algébriquement clos $K$, d’où $[A/m : K] = 1$. Pour tout $a \in A$, il existe donc un unique scalaire $\lambda$ tel que $a - \lambda.1$ appartienne à $m$; notons $D(a)$ la classe de $a - \lambda.1$ modulo $m^2$. Il est immédiat que $D$ est une $K$-dérivation de $A$ dans le $A$-module $m/m^2$. La propriété universelle de $\Omega_K(A)$ (III, p. 134) et l’hypothèse $\Omega_K(A) = 0$ entraînent $D = 0$, d’où $m/m^2 = 0$ et finalement $m = m^2$.
-#### Lemme 4 {#alg-v-s6-lem-4 .statement}
+#### Lemme 4 {#alg-v-s6-lem-4 .statement tag=06JS}
 
 *Soit $A$ un anneau commutatif et soit $a$ un idéal de type fini de $A$ tel que $a = a^2$. Il existe un idempotent $e$ de $A$ tel que $a = Ae$.*
 
@@ -260,7 +260,7 @@ Ces lemmes étant prouvés, montrons par récurrence sur le degré de $A$ que $A
 
 ### 7. Algèbres réduites et algèbres étalées
 
-#### Définition 2 {#alg-v-s6-def-2 .statement}
+#### Définition 2 {#alg-v-s6-def-2 .statement tag=06JT}
 
 Soit $A$ un anneau commutatif. On dit que $A$ est réduit si tout élément nilpotent (I, p. 93) de $A$ est nul.
 
@@ -268,7 +268,7 @@ Si $A$ est un corps, ou un anneau intègre, ou un produit d’anneaux réduits, 
 
 On dit qu’une algèbre commutative est réduite si l’anneau sous-jacent est réduit.
 
-#### Proposition 5 {#alg-v-s6-prop-5 .statement}
+#### Proposition 5 {#alg-v-s6-prop-5 .statement tag=06JU}
 
 Soit $A$ une algèbre commutative de degré fini sur $K$. Pour que $A$ soit réduite, il faut et il suffit qu’il existe des extensions $L_1, \ldots, L_n$ de degré fini de $K$ telles que $A$ soit $K$-isomorphe à $L_1 \times \cdots \times L_n$.
 
@@ -278,7 +278,7 @@ Réciproquement, supposons $A$ réduite ; en raisonnant par récurrence sur le d
 
 Supposons désormais que $A$ soit réduite et ne soit pas un corps. Parmi les idéaux de $A$ différents de 0 et de $A$, soit $a$ un idéal dont la dimension comme $K$-espace vectoriel soit minimale. Pour tout $x \neq 0$ dans $a$, on a $x^2 \neq 0$, car $A$ est réduite, d’où $a^2 \neq \{0\}$. On a $a^2 \subset a$ et le caractère minimal de $a$ entraîne $a^2 = a$. D’après le lemme 4, il existe un idempotent $e$ tel que $a = Ae$, et l’on a $e \neq 0, e \neq 1$ car $a$ est distinct de 0 et $A$.
 
-#### Théorème 4 {#alg-v-s6-thm-4 .statement}
+#### Théorème 4 {#alg-v-s6-thm-4 .statement tag=06JV}
 
 Soit $A$ une algèbre commutative de degré fini $A$ sur $K$. Les assertions suivantes sont équivalentes :
 
@@ -292,7 +292,7 @@ A) Démontrons d’abord l’équivalence de a), b) et c).
 Supposons $A$ étale et soit $L$ une extension de $K$. Soit $\Omega$ un surcorps algébriquement clos de $L$ (V, p. 22, th. 2). Alors, $L \otimes_K A$ est isomorphe à un sous-anneau de $\Omega \otimes_K A$ et ce dernier est isomorphe à un anneau $\Omega^n$ d’après la prop. 2 (V, p. 29). Par suite, l’anneau $L \otimes_K A$ est réduit.
 On a donc prouvé que a) entraîne b), et c) est un cas particulier de b). Plaçons-nous dans les hypothèses de c). Pour que la $K$-algèbre $A$ soit étale, il faut et il suffit que la $P$-algèbre $A_{(P)}$ soit étale (V, p. 32, cor. 2). L’algèbre $A$ est donc étale d’après le lemme suivant :
 
-#### Lemme 5 {#alg-v-s6-lem-5 .statement}
+#### Lemme 5 {#alg-v-s6-lem-5 .statement tag=06JW}
 
 Soit $B$ une algèbre réduite, de degré fini sur le corps parfait $P$. Alors $B$ est étale.
 D’après la prop. 5, il existe des extensions $L_1, ..., L_n$ de $P$ telles que $B$ soit isomorphe à l’algèbre $L_1 \times \cdots \times L_n$. Comme un produit fini d’algèbres étales est étale (V, p. 30, cor.), il suffit d’examiner le cas où $B$ est une extension de $P$. D’après le th. 3 (V, p. 32), il suffit de prouver que l’on a $dx = 0$ dans $\Omega_P(B)$ pour tout $x \in B$.
@@ -302,7 +302,7 @@ On a donc $f' \neq 0$ et comme le degré de $f'$ est strictement plus petit que 
 *B*) Supposons que $A$ soit étale ; d’après l’équivalence de a) et b), l’algèbre $A$ est réduite, et il existe donc des extensions $L_1, ..., L_n$ de $K$ telles que $A$ soit isomorphe à l’algèbre $L_1 \times \cdots \times L_n$ (prop. 5). Comme $A$ est étale, chacune des extensions $L_i$ est une algèbre étale (V, p. 30, cor.), donc est par définition une extension algébrique séparable de $K$.
 L’implication $d) \Rightarrow a)$ résulte de V, p. 30, cor. \*
 
-#### Corollaire {#alg-v-s6-n7-cor-1 .statement}
+#### Corollaire {#alg-v-s6-n7-cor-1 .statement tag=06JX}
 
 Supposons $K$ de caractéristique $p \neq 0$. Pour que $A$ soit étale, il faut et il suffit que l’on ait $A = K[A^p]$. Pour toute base $(a_i)_{i \in I}$ de $A$ sur $K$, la famille $(a_i^p)_{i \in I}$ est alors une base de $A$ sur $K$.
 

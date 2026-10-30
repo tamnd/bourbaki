@@ -28,7 +28,7 @@ subsections:
       pdf_page: 42
 statements: 15
 exercises: 0
-content_sha256: 83678c8f7fc574f7471865862952da621d2b8f8beb62f3a4985f21ca91b65111
+content_sha256: 99701b6427e2fc51eea6f3f407ebff4fb20d627e99dfd31c75d611b17f9e8d84
 ---
 
 ## § 1. SEMI-NORMS
@@ -37,7 +37,7 @@ Throughout this paragraph, $\mathbf{K}$ denotes a non-discrete valued division r
 
 ### 1. Definition of semi-norms
 
-#### Definition 1 {#evt-ii-s1-def-1 .statement}
+#### Definition 1 {#evt-ii-s1-def-1 .statement tag=07AP}
 
 Let E be a left vector space over $\mathbf{K}$. A mapping $p$ of E in $\mathbf{R}_+ = \{ 0, + \infty \}$, is called a semi-norm on E if it satisfies the following axioms :
 (SN_I) If $x \in \mathrm{E}$ and $\lambda \in \mathbf{K}$ then $p(\lambda x) = |\lambda| \, p(x)$.
@@ -48,15 +48,15 @@ $$
 |p(x) - p(y)| \leq p(x - y) .
 $$
 
-#### Example 1 {#evt-ii-s1-n1-exa-1 .statement}
+#### Example 1 {#evt-ii-s1-n1-exa-1 .statement tag=07AQ}
 
 A norm on E is a semi-norm $p$ such that the relation $p(x) = 0$ implies that $x = 0$ (I, p. 3).
 
-#### Example 2 {#evt-ii-s1-n1-exa-2 .statement}
+#### Example 2 {#evt-ii-s1-n1-exa-2 .statement tag=07AR}
 
 For every linear form $f$ on E, the function $x \mapsto |f(x)|$ is a semi-norm on E.
 
-#### Example 3 {#evt-ii-s1-n1-exa-3 .statement}
+#### Example 3 {#evt-ii-s1-n1-exa-3 .statement tag=07AS}
 
 If $p_i (1 \leq i \leq n)$ is a finite set of semi-norms on E, then clearly $p'(x) = \sup_{1 \leq i \leq n} p_i(x)$
 and $p''(x) = \sum_{i=1}^n \alpha_i p_i(x)$ (where the $\alpha_i$ are $\geq 0$) are both semi-norms on E.
@@ -69,7 +69,7 @@ Clearly an ultra-semi-norm is a semi-norm.
 
 To say that the absolute value on K is *ultrametric* (CA, VI, § 6.2) means that it is an ultra-semi-norm on the left vector space $K_s$, which is not identically zero.
 
-#### Proposition 1 {#evt-ii-s1-prop-1 .statement}
+#### Proposition 1 {#evt-ii-s1-prop-1 .statement tag=07AT}
 
 *Let E be a left topological vector space over K and let p be a semi-norm on E. The following conditions are equivalent :*
   *a)* *p is continuous in E.*
@@ -81,7 +81,7 @@ To say that the absolute value on K is *ultrametric* (CA, VI, § 6.2) means that
 
 In fact, the implications c) $\Rightarrow$ a) $\Rightarrow$ b) $\Rightarrow$ d) $\Rightarrow$ e) $\Rightarrow$ f) $\Rightarrow$ c) follow immediately from (SN$_I$) and inequality (1).
 
-#### Corollary {#evt-ii-s1-n1-cor-1 .statement}
+#### Corollary {#evt-ii-s1-n1-cor-1 .statement tag=07AU}
 
 *If p is a continuous semi-norm on E and q is a semi-norm such that $q \leq p$, then q is continuous in E.*
 
@@ -97,7 +97,7 @@ Let $E$ be a topological vector space over $K$: a system of semi-norms on $E$, s
 
 Let $E$ be a vector space over $K$, with the topology defined by a set of semi-norms $\Gamma$. For every semi-norm $p$, we have $p(x - z) \leq p(x - y) + p(y - z)$, which shows that the function $(x, y) \mapsto p(x - y)$ is a *pseudometric* on $E$ (GT, IX, § 1.1): it follows from the definitions that, when $p$ varies in $\Gamma$, the set of these pseudometrics defines the uniform structure of the topological vector space $E$.
 
-#### Remark {#evt-ii-s1-n2-rem-1 .statement}
+#### Remark {#evt-ii-s1-n2-rem-1 .statement tag=07AV}
 
 — 1) The topology defined by a *finite* set of semi-norms $p_i$ ($1 \leq i \leq n$) on $E$, can be defined by the *single* semi-norm $p = \sup_{1 \leq i \leq n} p_i$. But a topology defined by an infinite set of semi-norms cannot, in general, be defined by a single semi-norm (III, p. 37, exerc. 2).
 
@@ -107,7 +107,7 @@ Let $E$ be a vector space over $K$, with the topology defined by a set of semi-n
 
 4) Even if $K = \mathbf{R}$, the topology of a topological vector space over $K$ cannot always be defined by a set of semi-norms (*cf.* II, p. 24, corollary).
 
-#### Example {#evt-ii-s1-n2-exa-1 .statement}
+#### Example {#evt-ii-s1-n2-exa-1 .statement tag=07AW}
 
 — Let $\mathscr{C}^\infty(\mathbf{R})$ be the vector space over $\mathbf{R}$ of real valued functions that are infinitely differentiable in $\mathbf{R}$. For every function and every pair of integers $n \geq 0$, $m \geq 1$, put
 
@@ -117,7 +117,7 @@ $$
 
 with $f^{(0)} = f$. Obviously the $p_{n,m}$ are semi-norms on $\mathscr{C}^\infty(\mathbf{R})$. In order that the functions $f_\alpha$ tend to 0 (following a filter $\mathfrak{F}$ on the set of indices) in $\mathscr{C}^\infty(\mathbf{R})$ for the topology $\mathscr{T}$ defined by the semi-norms $p_{n,m}$, it is necessary and sufficient that for all integers $n \geq 0$, the functions $f_\alpha^{(n)}$ tend to 0 (following $\mathfrak{F}$) *uniformly on every compact subset of* $\mathbf{R}$. We say that $\mathscr{T}$ is the *topology of compact convergence for the functions* $f \in \mathscr{C}^\infty(\mathbf{R})$ *and all their derivatives* (*cf.* III, p. 9).
 
-#### Proposition 2 {#evt-ii-s1-prop-2 .statement}
+#### Proposition 2 {#evt-ii-s1-prop-2 .statement tag=07AX}
 
 *On a vector space* $E$, *let* $\mathscr{T}$ *be the topology defined by a set of semi-norms* $\Gamma$.
 
@@ -173,7 +173,7 @@ If the $p_i$ are ultra-semi-norms, then so are the $p_i \circ f_i$.
 
 Let $E$ be a vector space over $K$, with the topology $\mathscr{T}$ defined by a family of semi-norms $(p_i)_{i \in I}$; for every $i \in I$, let $\mathscr{T}_i$ be the topology defined by the single semi-norm $p_i$, and denote by $E_i$ the space obtained from $E$ using the topology $\mathscr{T}_i$. Then the topology $\mathscr{T}$ is the inverse image by the diagonal mapping $\Delta : E \to \prod_{i \in I} E_i$ of the product topology on $\prod_{i \in I} E_i$ (I, p. 9, prop. 7). For each $i \in I$, write $N_i$ for the closure of $\{0\}$ in $E_i$, and by $F_i = E_i / N_i$, the *normed* space defined by the norm $p_i$ corresponding to $p_i$ (II, p. 4, formula (3)); if $\phi_i : E_i \to F_i$ is the canonical mapping and $\phi : (x_i) \mapsto (\phi_i(x_i))$ the product mapping, we know that the product topology on $\prod_{i \in I} E_i$ is the inverse image by $\phi$ of the product topology on $\prod_{i \in I} F_i$ (GT, II, § 3.9, prop. 18). The topology $\mathscr{T}$ is, therefore, the inverse image under the composite mapping $\phi \circ \Delta$ of the product topology on $\prod_{i \in I} F_i$. In particular, if $\mathscr{T}$ is *Hausdorff* then it follows from II, p. 3, prop. 2 that the mapping $\phi \circ \Delta$ is *injective*, therefore:
 
-#### Proposition 3 {#evt-ii-s1-prop-3 .statement}
+#### Proposition 3 {#evt-ii-s1-prop-3 .statement tag=07AY}
 
 *Every Hausdorff topological vector space* $E$ *over* $K$, *whose topology is defined by a set of semi-norms, is isomorphic to a sub-space of a product of Banach spaces*.
 
@@ -181,7 +181,7 @@ If, further, the topology of $E$ is defined by an *enumerable* set of semi-norms
 
 ### 4. Equicontinuity criteria of multilinear mappings for topologies defined by semi-norms
 
-#### Proposition 4 {#evt-ii-s1-prop-4 .statement}
+#### Proposition 4 {#evt-ii-s1-prop-4 .statement tag=07AZ}
 
 *Let* $E_i$ ($1 \leq i \leq n$) *and* $F$ *be topological vector spaces over* $K$; *we suppose that, for every* $i$, *the topology of* $E_i$ *is defined by a directed set of semi-norms* $\Gamma_i$, *and that the topology of* $F$ *is defined by a set of semi-norms* $\Gamma$. *Then a set* $H$, *of* multilinear mappings of $\prod_{i=1}^n E_i$ in F is equicontinuous if, and only if, for each semi-norm $q \in \Gamma$, and each index i, there exists a semi-norm $p_i \in \Gamma_i$, and a number $a > 0$, such that for each function $u \in \mathbf{H}$ and point $(x_i) \in \prod_{i=1}^n E_i$,
 
@@ -205,7 +205,7 @@ $$
 
 Q.E.D.
 
-#### Corollary {#evt-ii-s1-n4-cor-1 .statement}
+#### Corollary {#evt-ii-s1-n4-cor-1 .statement tag=07B0}
 
 — *The set H is equicontinuous if, and only if, for every semi-norm $q \in \Gamma$, there exists a neighbourhood of 0 in $\prod_{i=1}^n E_i$, in which the functions $q \circ u$, for $u \in \mathbf{H}$, are uniformly bounded.*
 
@@ -213,7 +213,7 @@ The condition is evidently necessary, and the demonstration of prop. 4 shows tha
 
 We state explicitly the particular case of prop. 4 for linear mappings.
 
-#### Proposition 5 {#evt-ii-s1-prop-5 .statement}
+#### Proposition 5 {#evt-ii-s1-prop-5 .statement tag=07B1}
 
 — *Let E, F be two topological vector spaces over a non-discrete valued division ring K; suppose that the topology of E (resp. F) is defined by a set of semi-norms $\Gamma$ (resp. $\Gamma'$). Let H be a set of linear mappings of E in F. The following conditions are equivalent :*
     a) H is equicontinuous.
@@ -226,12 +226,12 @@ $$
 
 c) For every semi-norm $q \in \Gamma'$, the mapping $\sup_{u \in H} (q \circ u)$ is a continuous semi-norm on $E$.
 
-#### Corollary 1 {#evt-ii-s1-prop-5-cor-1 .statement}
+#### Corollary 1 {#evt-ii-s1-prop-5-cor-1 .statement tag=07B2}
 
 — Suppose that $\mathscr{T}, \mathscr{T}'$ are two topologies on a vector space $E$ over $K$ defined, respectively, by two sets of semi-norms $\Gamma$ and $\Gamma'$. $\mathscr{T}$ is finer than $\mathscr{T}'$ if, and only if, for every semi-norm $q \in \Gamma'$, there exists a finite family $(p_i)_{1 \leq i \leq n}$ of semi-norms belonging to $\Gamma$ and a number $a > 0$ such that, for all $x \in E$, we have $q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$.
 
 In fact this shows that the identity mapping of $E$ with topology $\mathscr{T}$, on $E$ with topology $\mathscr{T}'$, is continuous.
 
-#### Corollary 2 {#evt-ii-s1-prop-5-cor-2 .statement}
+#### Corollary 2 {#evt-ii-s1-prop-5-cor-2 .statement tag=07B3}
 
 — Suppose that the topology $\mathscr{T}$ of a topological vector space $E$ over $K$ is defined by a directed set of semi-norms $\Gamma$; for each semi-norm $p \in \Gamma$, let $E_p$ be the space obtained from $E$ using the topology defined by $p$. The set $E'$ of linear forms on $E$ that are continuous for $\mathscr{T}$ is the union of the sets $E'_p$, where $E'_p$ is the set of continuous linear forms in $E_p$ ($p \in \Gamma$).

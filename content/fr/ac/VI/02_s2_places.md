@@ -32,14 +32,14 @@ subsections:
       pdf_page: 96
 statements: 9
 exercises: 6
-content_sha256: 218e027bf76a43494ac26de109ecb2f983966827186cb5f4dc44eaafd7fb0388
+content_sha256: 420c8e597eda53df03aebddd31afda9d97dd086e1000c3985c0275910b9886c3
 ---
 
 ## § 2. Places
 
 ### 1. Notion de morphisme pour les lois de composition non partout définies
 
-#### Définition 1 {#ac-vi-s2-def-1 .statement}
+#### Définition 1 {#ac-vi-s2-def-1 .statement tag=04SN}
 
 Soient $E$ et $E'$ deux ensembles munis chacun d’une loi de composition interne notée $(x, y) \to x * y$, non nécessairement partout définie. On dit qu’une application $f : E \to E'$ est un morphisme si, quels que soient $x, y$ dans $E$ tels que $f(x) * f(y)$ soit défini, le composé $x * y$ est aussi défini et l’on a:
 
@@ -51,7 +51,7 @@ Plus brièvement, on peut dire que la formule (1) doit être vérifiée chaque f
 
 La notion de morphisme est distincte de celle de représentation (Alg., chap. I, § 1, no 1), où l’on exige que la formule (1) soit vérifiée chaque fois que le membre de gauche a un sens. Bien entendu, les deux notions coïncident pour les lois de composition partout définies.
 
-#### Définition 2 {#ac-vi-s2-def-2 .statement}
+#### Définition 2 {#ac-vi-s2-def-2 .statement tag=04SO}
 
 Soient $E$ et $E'$ deux ensembles, munis chacun d’une famille de lois de composition internes $(x, y) \to x *_{\alpha} y$, $\alpha \in I$. On dit qu’une application $f : E \to E'$ est un morphisme si c’est un morphisme pour chacune des lois de composition $(x, y) \to x *_{\alpha} y$.
 
@@ -72,7 +72,7 @@ Les seuls composés non définis sont donc les composés $\infty + \infty, \inft
 
 L’ensemble $\widetilde{K}$, dit corps projectif associé à $K$, peut être identifié à la droite projective $P_1(K)$ (loc. cit.).
 
-#### Définition 3 {#ac-vi-s2-def-3 .statement}
+#### Définition 3 {#ac-vi-s2-def-3 .statement tag=04SP}
 
 Soient $K$ et $L$ deux corps. On appelle place de $K$ à valeurs dans $L$ tout morphisme $f$ de $\widetilde{K}$ dans $\widetilde{L}$ (pour l’addition et la multiplication) tel que $f(1) = 1$.
 
@@ -125,7 +125,7 @@ Soit $f$ un isomorphisme d’un corps K sur un sous-corps d’un corps L; prolon
 
 ### 3. Places et anneaux de valuation
 
-#### Proposition 1 {#ac-vi-s2-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s2-prop-1 .statement tag=04SQ}
 
 Soient K un corps, A un anneau de valuation pour K, et $\kappa(A)$ le corps résiduel de A. Prolongeons l’application canonique de A sur $\kappa(A)$ en une application $h_A : \widetilde{K} \to (\kappa(A)) \sim$ par la formule $h_A(x) = \infty$ si $x \notin A$. L’application $h_A$ ainsi définie est une place de K dont le corps des valeurs est $\kappa(A)$.
 
@@ -143,7 +143,7 @@ Montrons enfin que $h_A$ est un morphisme pour la multiplication. Soient $x \in 
 
 Si $j$ est un isomorphisme de $\kappa(A)$ sur un sous-corps d’un corps $L$, $j \circ h_A : \overline{K} \to \overline{L}$ est une place de $K$ à valeurs dans $L$. Ce procédé fournit en fait toutes les places de $K$. De façon plus précise :
 
-#### Proposition 2 {#ac-vi-s2-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s2-prop-2 .statement tag=04SR}
 
 *Soient $K$ et $L$ deux corps, et $f$ une place de $K$ à valeurs dans $L$. Il existe alors un anneau de valuation $A$ pour $K$ et un isomorphisme $j$ de $\kappa(A)$ sur un sous-corps de $L$ tels que $f = j \circ h_A$; ces conditions déterminent $A$ et $j$ de manière unique. L’anneau $A$ est l’ensemble des $x \in K$ tels que $f(x) \neq \infty$, et $m(A)$ est l’ensemble des $x \in K$ tels que $f(x) = 0$.
 
@@ -165,11 +165,11 @@ Exemples de places. — 1) Soit K un corps. L’application identique de K est u
 
 ### 4. Extension des places
 
-#### Proposition 3 {#ac-vi-s2-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s2-prop-3 .statement tag=04SS}
 
 Soient K un corps, S un sous-anneau de K, et $f$ un homomorphisme de S dans un corps algébriquement clos L. Il existe alors une place de K à valeurs dans L qui prolonge $f$.
 
-#### Proposition 4 {#ac-vi-s2-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s2-prop-4 .statement tag=04ST}
 
 Soient K un corps, f une place de K à valeurs dans un corps L, et K' une extension de K. Il existe alors une extension L' de L et une place f' de K' à valeurs dans L' qui prolonge f. Si x_1, ..., x_n sont des éléments de K' algébriquement indépendants sur K, et a_1, ..., a_n des éléments quelconques de L, on peut choisir f' de manière que f'(x_i) = a_i pour 1 \leq i \leq n.
 
@@ -177,13 +177,13 @@ Soient V l’anneau de f, g la restriction de f à V, et g' le prolongement de g
 
 ### 5. Caractérisation des éléments entiers au moyen des places
 
-#### Proposition 5 {#ac-vi-s2-prop-5 .statement}
+#### Proposition 5 {#ac-vi-s2-prop-5 .statement tag=04SU}
 
 Soient K un corps, S un sous-anneau de K, h un homomorphisme de S dans un corps, et p le noyau de h. Pour qu’un élément x de K soit entier sur l’anneau local S_p, il faut et il suffit que toute place de K prolongeant h soit finie en x.
 
 Si f est une place de K prolongeant h, f est finie sur S_p et nulle sur pS_p, donc l’anneau de la place f domine S_p. Réciproquement, si V est un anneau de valuation pour K qui domine S_p, V est l’anneau d’une place f dont la restriction à S est un homomorphisme ayant même noyau que h; remplaçant f par une place équivalente, on voit que V est l’anneau d’une place de K qui prolonge h. Dire que toute place de K prolongeant h est finie en x équivaut à dire que x appartient à tous les anneaux de valuation pour K qui dominent S_p. La proposition résulte alors du th. 3 du § 1, n° 3.
 
-#### Proposition 6 {#ac-vi-s2-prop-6 .statement}
+#### Proposition 6 {#ac-vi-s2-prop-6 .statement tag=04SV}
 
 Soient K un corps, S un sous-anneau de K. Pour qu’un élément x de K soit entier sur S, il faut et il suffit que toute place de K finie sur S soit finie en x.
 

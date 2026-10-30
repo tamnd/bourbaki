@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: 8fe8db8458fe828dd3653c324448e85c840f15ac303f01fb0927670c5830816a
+content_sha256: 5c8ec0e8ea81c177c54bcdd8d372f342f3a7a0e3c8e4f537b86778bbb94f4608
 translated_from: content/en/ac/III/02_s2_general_results_on_filtered_rings_and.md
 source_content_sha256: bb5c0ba3ec8f46dd3e98a66f30d020781e123ced6ca57aff1c0910309f89a6c6
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -79,7 +79,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC VÀNH VÀ MÔĐUN LỌC
 
-#### Định nghĩa 1 {#ac-iii-s2-def-1 .statement}
+#### Định nghĩa 1 {#ac-iii-s2-def-1 .statement tag=04DH}
 
 Một dãy tăng (tương ứng, giảm) $(G_n)_{n \in \mathbf{Z}}$ của các nhóm con của một nhóm $G$ được gọi là một lọc tăng (tương ứng, lọc giảm) trên $G$.
 Một nhóm cùng với một lọc được gọi là một nhóm lọc.
@@ -88,7 +88,7 @@ Nếu $(G_n)_{n \in \mathbf{Z}}$ là một lọc tăng (tương ứng, giảm) t
 
 Cho một lọc giảm $(G_n)_{n \in \mathbf{Z}}$ trên một nhóm $G$, rõ ràng $\bigcap_{n \in \mathbf{Z}} G_n$ và $\bigcup_{n \in \mathbf{Z}} G_n$ là các nhóm con của $G$; lọc này được gọi là tách được nếu $\bigcup_{n \in \mathbf{Z}} G_n$ được thu gọn về phần tử đơn vị và đầy đủ nếu $\bigcup_{n \in \mathbf{Z}} G_n = G$.
 
-#### Định nghĩa 2 {#ac-iii-s2-def-2 .statement}
+#### Định nghĩa 2 {#ac-iii-s2-def-2 .statement tag=04DI}
 
 Cho một vành $A$, một lọc $(A_n)_{n \in \mathbf{Z}}$ trên nhóm cộng $A$ được gọi là tương thích với cấu trúc vành trên $A$ nếu
 
@@ -107,7 +107,7 @@ Các điều kiện (1) và (2) chỉ ra rằng $A_n$ là một vành con của 
 
 Một trường hợp riêng quan trọng là trường hợp trong đó $A_n = A$; khi đó $A_n = A$ với $n \leq 0$ và tất cả các $A_n$ đều là các iđêan hai phía của $A$.
 
-#### Định nghĩa 3 {#ac-iii-s2-def-3 .statement}
+#### Định nghĩa 3 {#ac-iii-s2-def-3 .statement tag=04DJ}
 
 Cho $A$ là một vành lọc, $(A_n)_{n \in \mathbf{Z}}$ là lọc của nó và $E$ là một $A$-môđun. Một lọc $(E_n)_{n \in \mathbf{Z}}$ trên $E$ được gọi là tương thích với cấu trúc môđun của nó trên vành lọc $A$ nếu
 $$
@@ -229,11 +229,11 @@ Nếu trước hết áp dụng định nghĩa này cho trường hợp $E = A_0
 
 *Ví dụ*
 
-#### Ví dụ 1 {#ac-iii-s2-n3-exa-1 .statement}
+#### Ví dụ 1 {#ac-iii-s2-n3-exa-1 .statement tag=04DK}
 
 Cho A là một vành giao hoán và $t$ là một phần tử của A không phải là ước của 0. Hãy trang bị cho A *lọc* *adic theo (t)* (no. 1, *Ví dụ 3*). Khi đó vành phân bậc liên kết $\mathrm{gr}(A)$ đẳng cấu chính tắc với *vành đa thức* $(A/(t))[X]$. Thật vậy, $\mathrm{gr}_n(A) = 0$ với $n < 0$ và theo định nghĩa vành $\mathrm{gr}_0(A)$ là vành $A/(t)$. Bây giờ ta chú ý rằng, do giả thiết đặt trên $t$, quan hệ $at^n \equiv 0$ (mod. $t^{n+1}$) tương đương với $a \equiv 0$ (mod. $t$); nếu $\tau$ là ảnh chính tắc của $t$ trong $\mathrm{gr}_1(A)$, thì mọi phần tử của $\mathrm{gr}_n(A)$ khi đó có thể được viết duy nhất dưới dạng $\alpha \tau^n$ với $\alpha \in \mathrm{gr}_0(A)$; do đó có mệnh đề của ta.
 
-#### Ví dụ 2 {#ac-iii-s2-n3-exa-2 .statement}
+#### Ví dụ 2 {#ac-iii-s2-n3-exa-2 .statement tag=04DL}
 
 Cho $K$ là một vành giao hoán, $A$ là vành các chuỗi lũy thừa hình thức
 
@@ -245,7 +245,7 @@ $$
 
 *(loc. cit., no. 2)* đều có thể được viết thành $\displaystyle\sum_{k=1}^{s}u_kM_k$, trong đó các $u_k$ thuộc $m$; ta **thấy** rằng $m^n$ là tập hợp các chuỗi lũy thừa hình thức $u$ sao cho $\omega(u)\geq n$, điều này cho thấy rằng $\omega$ là *hàm cấp* của lọc adic theo $m$. Khi đó rõ ràng, với mọi chuỗi lũy thừa hình thức $u\in m^n$, tồn tại duy nhất một *đa thức thuần nhất* bậc $n$ theo các $X_i$ đồng dư với $u$ mod. $m^{n+1}$, cụ thể là tổng các số hạng bậc $n$ của $u$; ta kết luận rằng $\operatorname{gr}(A)$ đẳng cấu chính tắc với *vành đa thức* $K[X_1,\ldots,X_r]$.
 
-#### Ví dụ 3 {#ac-iii-s2-n3-exa-3 .statement}
+#### Ví dụ 3 {#ac-iii-s2-n3-exa-3 .statement tag=04DM}
 
 Nói chung hơn, cho $A$ là một vành giao hoán, $b$ một iđêan của $A$ và $A$ được trang bị lọc $b$-adic. Nếu viết $B=\operatorname{gr}_0(A)$, $F=\operatorname{gr}_1(A)=b/b^2$, ta biết (*Đại số, Chương III*) rằng ánh xạ đồng nhất của $B$-môđun $F$ lên chính nó có thể được mở rộng duy nhất thành một đồng cấu $u$ từ *đại số đối xứng* $S(F)$ của $F$ đến $B$-đại số $\operatorname{gr}(A)$; suy ra từ định nghĩa của $\operatorname{gr}(A)$ rằng $u$ là một *đồng cấu toàn ánh của các đại số phân bậc*; với $n\geq1$, mọi phần tử của $\operatorname{gr}_n(A)$ là một tổng của các lớp mod $b^{n+1}$ của các phần tử có dạng $y=x_1x_2\cdots x_n$, trong đó $x_i\in b$ $(1\leq i\leq n)$; nếu $\xi_i$ là lớp của $x_i$ mod. $b^2$, rõ ràng lớp của $y$ mod. $b^{n+1}$ là phần tử $u(\xi_1)\cdots u(\xi_n)$, do đó có mệnh đề của chúng ta. Đặc biệt, mọi hệ sinh của $B$-môđun $F$ là một hệ sinh của $B$-đại số $\operatorname{gr}(A)$.
 
@@ -265,13 +265,13 @@ $$
 
 được gọi là *chính tắc*.
 
-#### Ví dụ 4 {#ac-iii-s2-n3-exa-4 .statement}
+#### Ví dụ 4 {#ac-iii-s2-n3-exa-4 .statement tag=04DN}
 
 Cho $K$ là một vành giao hoán, $\mathfrak g$ là một đại số Lie trên $K$ và $U$ là đại số bao phủ của $\mathfrak g$. Một *lọc tăng* $(U_n)_{n\in\mathbf{Z}}$ được xác định trên $U$ bằng cách lấy $U_n=\{0\}$ đối với $n<0$ và ký hiệu bởi $U_n$, với $n\geq0$, tập hợp các phần tử của $U$ có thể được biểu diễn thành một tổng các tích của nhiều nhất $n$ phần tử của $\mathfrak g$, khi đó
 
 U_0 = K và gr(U) là một đại số giao hoán trên K (Các nhóm Lie và các đại số Lie, Chương I, § 2, no. 6). Ánh xạ chính tắc của g vào gr_1(U) = U_1/U_0 có thể được mở rộng duy nhất thành một đồng cấu h của đại số đối xứng $S(g)$ của K-môđun g vào đại số trên K gr(U); đồng cấu h là toàn ánh và, nếu K-môđun g là tự do, h là song ánh (sđd., no. 7, Định lý 1).
 
-#### Ví dụ 5 {#ac-iii-s2-n3-exa-5 .statement}
+#### Ví dụ 5 {#ac-iii-s2-n3-exa-5 .statement tag=04DO}
 
 Cho A là một vành phân bậc kiểu $\mathbf{Z}$ và E là một A-môđun phân bậc kiểu $\mathbf{Z}$; ký hiệu $A_{(i)}$ (tương ứng $E_{(i)}$) là nhóm con của các phần tử thuần nhất bậc i của A (tương ứng E). Cho A và E các lọc liên kết với các phân bậc của chúng (no. 1, Ví dụ 1) và ký hiệu A' và E' là vành có lọc và A-môđun có lọc thu được như vậy. Khi đó ngay lập tức thấy rằng ánh xạ tuyến tính trên Z $A \to \mathrm{gr}(A')$ biến một phần tử của $A_{(n)}$ thành ảnh chính tắc của nó trong
 $$
@@ -279,7 +279,7 @@ $$
 $$
 là một đẳng cấu vành phân bậc. Một đẳng cấu A-môđun phân bậc chính tắc $E \to \mathrm{gr}(E')$ được xác định tương tự.
 
-#### Mệnh đề 1 {#ac-iii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#ac-iii-s2-prop-1 .statement tag=04DP}
 
 Cho A là một vành có lọc, $(A_n)_{n \in \mathbf{Z}}$ là lọc của nó và v là hàm bậc của nó. Giả sử rằng $\mathrm{gr}(A)$ là một vành không có ước của không. Khi đó, với mọi cặp có thứ tự của các phần tử a, b của vành $B = \bigcup_{n \in \mathbf{Z}} A_n$, $v(ab) = v(a) + v(b)$.
 
@@ -288,14 +288,14 @@ $$
 v(ab) = v(a) + v(b).
 $$
 
-#### Hệ quả {#ac-iii-s2-n3-cor-1 .statement}
+#### Hệ quả {#ac-iii-s2-n3-cor-1 .statement tag=04DQ}
 
 Cho A là một vành có lọc và $(A_n)_{n \in \mathbf{Z}}$ là lọc của nó; đặt $B = \bigcup_{n \in \mathbf{Z}} A_n$, $n = \bigcap_{n \in \mathbf{Z}} A_n$. Nếu vành $\mathrm{gr}(A)$ không có các ước của không, thì vành $B/n$ cũng không có các ước của không.
 Nếu a và b là các phần tử của B không thuộc n, thì $v(a) \neq +\infty$ và $v(b) \neq +\infty$, do đó $v(ab) \neq +\infty$ và vì vậy $ab \notin n$.
 
 Chú ý rằng vành A có thể là một miền nguyên và lọc (A,,) đầy đủ và tách mà không có $\mathrm{gr}(A)$ là một miền nguyên (Bài tập 2).
 
-#### Nhận xét {#ac-iii-s2-n3-rem-1 .statement}
+#### Nhận xét {#ac-iii-s2-n3-rem-1 .statement tag=04DR}
 
 Cho G là một nhóm không nhất thiết giao hoán với một lọc $(G_n)_{n \in \mathbf{Z}}$ sao cho $G_{n+1}$ là chuẩn trong G, với mọi $n \in \mathbf{Z}$; lại đặt $\mathrm{gr}_n(G) = G_n/G_{n+1}$. Tích hạn chế của họ $(\mathrm{gr}_n(G))_{n \in \mathbf{Z}}$, nghĩa là nhóm con của tích $\prod_{n \in \mathbf{Z}} \mathrm{gr}_n(G)$ gồm các phần tử $(\xi_n)$ mà tất cả các thành phần của chúng, trừ nhiều nhất một số hữu hạn, đều bằng phần tử đơn vị, cũng được gọi là nhóm phân bậc liên kết với G và được ký hiệu bởi $\mathrm{gr}(G)$.
 
@@ -308,7 +308,7 @@ $$
 \operatorname{gr}(h' \circ h) = \operatorname{gr}(h') \circ \operatorname{gr}(h)
 $$
 
-#### Mệnh đề 2 {#ac-iii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#ac-iii-s2-prop-2 .statement tag=04DS}
 
 Cho G là một nhóm giao hoán có lọc và H là một nhóm con của G; cho H cấu trúc lọc cảm sinh và G/H cấu trúc lọc thương. Nếu j : H → G là đơn ánh chính tắc và p : G → G/H là toàn cấu chính tắc, thì j và p tương thích với các cấu trúc lọc và dãy
 
@@ -394,7 +394,7 @@ Vì vậy $d$ là một *giả khoảng cách* trên G, bất biến qua các ph
 
 Cho một vành tôpô A, nhắc lại rằng một *A-môđun tôpô trái* là một A-môđun E được trang bị một tôpô tương thích với cấu trúc nhóm cộng của nó và sao cho ánh xạ $(a, x) \mapsto ax$ từ $A \times E$ vào E là liên tục (*General Topology*, Chapter III, § 6, no. 6).
 
-#### Mệnh đề 3 {#ac-iii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#ac-iii-s2-prop-3 .statement tag=04DT}
 
 *Cho A là một vành lọc, (A,) là lọc của nó, B là vành con $\bigcup_{n \in \mathbf{Z}} A_n$ của A, E là một B-môđun lọc, (E_n) là lọc của nó, và F là B-môđun con $\bigcup_{n \in \mathbf{Z}} E_n$ của E. Khi đó ánh xạ $(a, x) \mapsto ax$ từ $B \times F$ vào F là liên tục.*
 
@@ -412,7 +412,7 @@ $$
 
 Vậy, với một số nguyên $n$ cho trước, ta có $ax - a_0x_0 \in E_n$ miễn là $i \geq n - s, j \geq n - r$ và $i + j \geq n$, tức là miễn là $i$ và $j$ đủ lớn.
 
-#### Hệ quả {#ac-iii-s2-n5-cor-1 .statement}
+#### Hệ quả {#ac-iii-s2-n5-cor-1 .statement tag=04DU}
 
 *B là một vành tôpô và B-môđun F là một B-môđun tôpô.*
 
@@ -420,7 +420,7 @@ Khẳng định thứ nhất thu được bằng cách áp dụng Mệnh đề 3
 
 Đặc biệt, ta thấy rằng một vành lọc A mà lọc của nó là *phủ hết* là một vành tôpô; nếu đúng như vậy thì mọi A-môđun lọc mà lọc của nó là *phủ hết* đều là một A-môđun tôpô.
 
-#### Mệnh đề 4 {#ac-iii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#ac-iii-s2-prop-4 .statement tag=04DV}
 
 *Cho A là một vành giao hoán được lọc bởi một lọc phủ hết (A,) và p là một iđêan của A. Giả sử rằng iđêan $\operatorname{gr}(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})$ của vành $\operatorname{gr}(A)$ là nguyên tố. Khi đó bao đóng của p trong A là một iđêan nguyên tố.*
 
@@ -432,7 +432,7 @@ Cho $m'$ là một iđêan hai phía khác của $A$; để tôpô $m'$-adic tr�
 
 ### 6. MÔĐUN LỌC ĐẦY ĐỦ
 
-#### Mệnh đề 5 {#ac-iii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#ac-iii-s2-prop-5 .statement tag=04DW}
 
 *Cho $G$ là một nhóm được lọc mà phép lọc $(G_n)$ gồm các nhóm con bất biến của $G$. Các điều kiện sau là tương đương:*
 
@@ -458,15 +458,15 @@ Cho $H$ là một nhóm lọc khác mà bộ lọc $(H_r)$ gồm các nhóm con 
 
 *Các ví dụ về nhóm lọc và vành lọc đầy đủ*
 
-#### Ví dụ 1 {#ac-iii-s2-n6-exa-1 .statement}
+#### Ví dụ 1 {#ac-iii-s2-n6-exa-1 .statement tag=04DX}
 
 Cho $G$ là một nhóm lọc đầy đủ. Mọi nhóm con *đóng* của $G$, với bộ lọc cảm sinh, đều đầy đủ (*General Topology*, Chapter II, § 3, no. 4, Proposition 8). Mọi nhóm thương của $G$, với bộ lọc thương, đều đầy đủ (*General Topology*, Chapter IX, § 3, no. 1, *Remark* 1).
 
-#### Ví dụ 2 {#ac-iii-s2-n6-exa-2 .statement}
+#### Ví dụ 2 {#ac-iii-s2-n6-exa-2 .statement tag=04DY}
 
 Cho $A$ là một vành giao hoán được lọc mà bộ lọc của nó được ký hiệu bởi $(a_n)_{n \in \mathbf{Z}}$; gọi $A'$ là vành các chuỗi lũy thừa hình thức $A[[X_1, \ldots, X_s]]$. Với mọi $e = (e_1, \ldots, e_s) \in \mathbf{N}^s$, ta đặt $|e| = \sum_{i=1}^s e_i$, $X^e = \prod_{i=1}^s X_i^{e_i}$ sao cho mọi phần tử $P \in A'$ đều có thể được viết một cách duy nhất dưới dạng $P = \sum_{e \in \mathbf{N}^s} \alpha_{e,P} X^e$ trong đó $\alpha_{e,P} \in A$. Với mọi $n \in \mathbf{Z}$, gọi $a'_n$ là tập hợp các $P \in A'$ sao cho $\alpha_{e,P} \in a_{n-|e|}$ với mọi $e \in \mathbf{N}^s$; ta chứng minh rằng $a'_n$ là một *iđêan* của $A'$. Rõ ràng $a'_n$ là một nhóm con cộng tính của $A'$; mặt khác, nếu $P \in a'_n$ và $Q \in A'$, thì, với mọi $e \in \mathbf{N}^s$, $\alpha_{e,PQ} = \sum_{e'+e''=e} \alpha_{e',Q}\alpha_{e'',P}$; vì quan hệ $e' + e'' = e$ kéo theo $|e''| \leq |e|$, suy ra $PQ \in a'_n$. Hơn nữa, nếu $Q \in a'_m$, thì, với $e' + e'' = e$, $\alpha_{e',Q}\alpha_{e'',P} \in a_{m-|e'|}a_{n-|e''|} \subset a_{m+n-|e|}$, điều đó chứng tỏ rằng $(a'_n)_{n \in \mathbf{Z}}$ là một *bộ lọc* tương thích với cấu trúc vành trên $A'$ (vì hiển nhiên $1 \in a'_0$). Về sau, khi nói đến $A'$ như một vành được lọc, ta sẽ hiểu, trừ khi có nói rõ ngược lại, là với bộ lọc (ah). Rõ ràng $\bigcap_{n \in \mathbf{Z}} a'_n$ là tập hợp các chuỗi lũy thừa hình thức mà mọi hệ số của chúng đều thuộc $\bigcap_{n \in \mathbf{Z}} a_n$; do đó, nếu $A$ là Hausdorff thì $A'$ cũng vậy. Nếu $a_0 = A$, thì $a'_0 = A'$.
 
-#### Mệnh đề 6 {#ac-iii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#ac-iii-s2-prop-6 .statement tag=04DZ}
 
 *Với các ký hiệu trên, giả sử rằng $a_0 = A$ và gọi $h$ là ánh xạ $P \mapsto (\alpha_{e,P})_{e \in \mathbf{N}^s}$. Khi đó $h$ là một đẳng cấu của nhóm tôpô cộng tính $A$ lên nhóm tôpô cộng tính $A^{\mathbf{N}^s}$. Vành đa thức $A[X_1, \ldots, X_s]$ là trù mật trong $A'$; nếu $A$ là đầy đủ, thì $A'$ cũng vậy.*
 
@@ -476,7 +476,7 @@ Hơn nữa, với $n$ và $E$ được xác định như trên, $h(P - \sum_{e \
 
 Cho $m$ là một iđêan của $A$ và giả sử rằng $(a_i)$ là lọc $m$-adic; khi đó, nếu $n$ là iđêan của $A'$ sinh bởi $m$ và các $X_i$ ($1 \leq i \leq s$), thì lọc $(a_i)$ là lọc $n$-adic. Vì rõ ràng, với mọi $k \geq 0$, $n^k$ được sinh bởi các phần tử $aX^e$ sao cho $a \in m^{k-|e|}$ với mọi $e \in \mathbf{N}^s$ sao cho $|e| \leq k$, do đó $n^k \subset a \&$. Ta hãy chứng minh ngược lại rằng $a'_k \subset n^k$. Với mọi $P \in a'_k$, $P = P' + P''$, trong đó $P' = \sum_{|e| < k} \alpha_{e,P}X^e$, $P'' = \sum_{|e| \geq k} \alpha_{e,P}X^e$. Rõ ràng có thể viết $P'' = \sum_{|e|=k} X^e Q_e$, trong đó các $Q_e$ là các phần tử của $A'$, do đó $P'' \in n^k$; mặt khác, rõ ràng $\alpha_{e,P}X^e \in n^k$ với mọi $e \in \mathbf{N}^s$, do đó $P' \in n^k$. Vậy $n^k = a'_k$.
 
-#### Hệ quả {#ac-iii-s2-n6-cor-1 .statement}
+#### Hệ quả {#ac-iii-s2-n6-cor-1 .statement tag=04E0}
 
 *Cho $A$ là một vành giao hoán,
 
@@ -492,7 +492,7 @@ Chỉ cần áp dụng điều vừa nói cho trường hợp $m = \{0\}$.
 
 Nhắc lại rằng, nếu E là một A-môđun, một tập con afin (hay một đa tạp tuyến tính afin) của E là bất kỳ tập con F nào rỗng hoặc có dạng $a + M$, trong đó $a \in E$ và M là một môđun con của E được gọi là phương của F (Đại số, Chương II, § 9, số 1 và 3).
 
-#### Mệnh đề 7 {#ac-iii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#ac-iii-s2-prop-7 .statement tag=04E1}
 
 Cho A là một vành được lọc, E là một A-môđun được lọc và $(E_n)$ là phép lọc của E; giả sử rằng $E_0 = E$, rằng các $E_n$ là các môđun con của E, rằng các A-môđun $E/E_n$ là Artin và cuối cùng rằng nhóm tôpô E là Hausdorff và đầy đủ. Khi đó giao của một dãy giảm các tập con afin đóng khác rỗng của E là khác rỗng.
 
@@ -500,7 +500,7 @@ Ta đã thấy ở no. 6 rằng, vì E là Hausdorff và đầy đủ, nó đư�
 
 Vì $E/E_0 = 0$, ta sẽ lấy $x_0 = 0$. Giả sử rằng các $x_i$ đã được xác định với $0 \leq i \leq n - 1$ và cho $W'_{p,n}$ là tập hợp các phần tử của $W_{p,n}$ mà ảnh chính tắc của chúng trong $E/E_{n-1}$ là $x_{n-1}$; vì $x_{n-1} \in W_{p,n-1}$ và $W_{p,n-1}$ là ảnh chính tắc của $W_{p,n}$, $W'_{p,n}$ là khác rỗng và hiển nhiên là một tập con afin của $E/E_n$; hơn nữa dãy $(W'_{p,n})_{p \in \mathbf{N}}$ là giảm. Vì $E/E_n$ là Artin, dãy này là dừng (nếu không thì dãy các môđun con của $E/E_n$ là các phương của các $W'_{p,n}$ sẽ giảm nghiêm ngặt, điều này là vô lý). Khi đó chỉ cần lấy $x_n$ là một phần tử của $\bigcap_{p \in \mathbf{N}} W'_{p,n}$ và phép dựng của $(x_n)$ khi đó có thể được thực hiện bằng quy nạp.
 
-#### Mệnh đề 8 {#ac-iii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#ac-iii-s2-prop-8 .statement tag=04E2}
 
 Giả sử rằng A và E thỏa mãn các giả thiết của Mệnh đề 7. Cho $(F_p)$ là một dãy giảm các môđun con đóng của E sao cho $\bigcap F_p = 0$. Khi đó, với mọi lân cận V của 0 trong E, tồn tại $p$ sao cho $F_p \subset V$ (nói cách khác, cơ sở của bộ lọc $(F_p)$ hội tụ về 0).
 
@@ -510,7 +510,7 @@ khi đó suy ra từ Mệnh đề 7 rằng tồn tại một phần tử y thu�
 
 ### 8. SỰ NÂNG CỦA CÁC ĐỒNG CẤU CỦA CÁC MÔĐUN PHÂN BẬC LIÊN KẾT
 
-#### Định lý 1 {#ac-iii-s2-thm-1 .statement}
+#### Định lý 1 {#ac-iii-s2-thm-1 .statement tag=04E3}
 
 Cho X, Y là hai nhóm lọc mà các lọc của chúng $(X_n), (Y_n)$ gồm các nhóm con chuẩn tắc; gọi $u : X \to Y$ là một đồng cấu tương thích với các lọc.
 
@@ -536,7 +536,7 @@ $$
 
 $X_n$ đóng trong X và do đó đầy đủ, dãy này có ít nhất một giới hạn x trong $X_n$. Nhờ tính liên tục của u, $u(x)$ là giới hạn duy nhất của dãy (u(x_k)) trong Y, vì Y là Hausdorff. Nhưng các hệ thức u(x_k) \equiv y (\text{mod. } Y_{n+k+1}) cho thấy rằng y cũng là một giới hạn của dãy này, do đó $u(x) = y$ và cũng đã chứng minh được rằng $u(X_n) = Y_n$.
 
-#### Hệ quả 1 {#ac-iii-s2-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-iii-s2-thm-1-cor-1 .statement tag=04E4}
 
 *Giả sử rằng X là Hausdorff và bộ lọc của nó là vét cạn. Khi đó, nếu gr(u) là đơn ánh, thì u là đơn ánh.*
 
@@ -546,7 +546,7 @@ $$
 $$
 theo giả thiết, do đó hệ quả được chứng minh.
 
-#### Hệ quả 2 {#ac-iii-s2-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-iii-s2-thm-1-cor-2 .statement tag=04E5}
 
 *Giả sử rằng một trong các giả thiết sau được thỏa mãn :*
 $(\alpha)$ *X là đầy đủ, Y là Hausdorff và bộ lọc của nó là vét cạn;*
@@ -555,7 +555,7 @@ $(\beta)$ *Y là rời rạc và bộ lọc của nó là vét cạn.*
 
 Trong trường hợp này $Y = \bigcup_n Y_n = \bigcup_n u(X_n) \subset u(X)$.
 
-#### Hệ quả 3 {#ac-iii-s2-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#ac-iii-s2-thm-1-cor-3 .statement tag=04E6}
 
 *Giả sử rằng X và Y là Hausdorff, các bộ lọc của X và Y đều vét cạn và X đầy đủ. Khi đó, nếu gr(u) là song ánh, thì u là song ánh.*
 
@@ -566,7 +566,7 @@ $$
 $$
 *là song ánh*.
 
-#### Mệnh đề 9 {#ac-iii-s2-prop-9 .statement}
+#### Mệnh đề 9 {#ac-iii-s2-prop-9 .statement tag=04E7}
 
 *Cho A là một vành địa phương, m iđêan cực đại của nó, M, N là hai A-môđun và u : N \to M một A-đồng cấu. Trang bị cho M và N các bộ lọc m-adic và giả sử rằng: (1) M thỏa mãn tính chất (GR); (2) \operatorname{gr}_0(u) : \operatorname{gr}_0(N) \to \operatorname{gr}_0(M) là đơn ánh. Khi đó \operatorname{gr}(u) : \operatorname{gr}(N) \to \operatorname{gr}(M) là đơn ánh, N và P = \operatorname{Coker}(u) thỏa mãn tính chất (GR) và $m^n N = \bar{u}^{-1}(m^n M)$ với mọi số nguyên $n > 0$.*
 
@@ -593,7 +593,7 @@ $$
 
 hàng dưới là khớp (no. 4, Mệnh đề 2) và hàng trên cũng vậy theo Mệnh đề 2 của no. 4 và thực tế rằng $\mathrm{gr}_0(A)$ là một trường. Hơn nữa, $\mathrm{gr}(j)$ là đơn ánh (no. 4, Mệnh đề 2) và do đó $\mathrm{gr}_0(j)$ là đơn ánh. Phần đầu của lập luận áp dụng cho $j$ cho thấy rằng $\gamma_{N'}$ là song ánh; vì $\gamma_M$ cũng song ánh theo giả thiết, ta kết luận rằng $\gamma_P$ là song ánh (Chương I, § 1, no. 4, Hệ quả 2 của Mệnh đề 2).
 
-#### Hệ quả {#ac-iii-s2-n8-cor-1 .statement}
+#### Hệ quả {#ac-iii-s2-n8-cor-1 .statement tag=04E8}
 
 Dưới các giả thiết của Mệnh đề 9, nếu ta còn giả sử rằng $N$ là Hausdorff đối với lọc $m$-adic, thì $u$ là đơn ánh.
 
@@ -608,7 +608,7 @@ khi đó $P$ là một $A$-môđun phẳng. Điều này suy ra từ việc $\ga
 
 Cho $A$ là một vành giao hoán có lọc, $(A_n)_{n \in \mathbf{Z}}$ là lọc của nó và $C$ là một vành con của $A$, sao cho $C \cap A_1 = \{0\}$. Hạn chế lên $C$ của ánh xạ chính tắc $A_0 \to A_0/A_1 = \mathrm{gr}_0(A)$ khi đó là đơn ánh, điều này cho phép ta đồng nhất $C$ với một môđun con của $\mathrm{gr}_0(A)$; đây là điều mà ta thường sẽ làm trong các trường hợp tương tự. Nếu $A_1 \neq A$, và $K$ là một trường con bất kỳ của $A$, thì $K \cap A_1 = (0)$ vì $K \cap A_1$ là một iđêan của $K$ không chứa 1; khi đó $K$ có thể được đồng nhất với một trường con của $\mathrm{gr}_0(A)$.
 
-#### Mệnh đề 10 {#ac-iii-s2-prop-10 .statement}
+#### Mệnh đề 10 {#ac-iii-s2-prop-10 .statement tag=04E9}
 
 Cho $A$ là một vành giao hoán có lọc và $(A_n)$ là lọc của nó; giả sử rằng tồn tại một vành con $C$ của $A_0$ sao cho $C \cap A_n = \{0\}$ và $C$ được đồng nhất với một vành con của $\mathrm{gr}_0(A)$. Cho $(x_i)_{1 \leq i \leq q}$ là một họ hữu hạn các phần tử của $A$; giả sử rằng $x_i \in A_n$, với $1 \leq i \leq q$ và gọi $\xi_i$ là lớp của $x_i$ trong $\mathrm{gr}_{n_i}(A)$ với $1 \leq i \leq q$.
 
@@ -624,7 +624,7 @@ $$
 
 là đơn ánh; vì bộ lọc trên $A'$ là đầy đủ và tách biệt, có thể áp dụng Hệ quả 1 của Định lý 1 ở no. 8 và $u$ là đơn ánh, điều đó chứng minh kết luận của (i). Tương tự, giả thiết (ii) trên (\&) có nghĩa là $\mathrm{gr}(u)$ là toàn ánh; vì $A$ là rời rạc và bộ lọc của nó là đầy đủ, có thể áp dụng Hệ quả 2 của Định lý 1 ở no. 8 và $u$ là toàn ánh, điều đó chứng minh kết luận của (ii).
 
-#### Mệnh đề 11 {#ac-iii-s2-prop-11 .statement}
+#### Mệnh đề 11 {#ac-iii-s2-prop-11 .statement tag=04EA}
 
 Cho $A$ là một vành giao hoán lọc đầy đủ Hausdorff, $C$ một vành con của $A_0$ sao cho $C \cap A_n = 0$ và $(x_i)_{1 \leq i \leq q}$ một họ hữu hạn các phần tử của $A$ sao cho $x_i \in A_{n_i}$ với $n_i > 0$ đối với $1 \leq i \leq q$; gọi $\xi_i$ là lớp của $x_i$ trong $\mathrm{gr}_{n_i}(A)$ đối với $1 \leq i \leq q$.
 
@@ -644,7 +644,7 @@ là trù mật trong $A''$; hơn nữa, đồng cấu $u$ được xác định 
 
 Kết luận của (ii) (tương ứng, của (iii)) của mệnh đề đôi khi được diễn đạt bằng cách nói rằng họ $(x_i)$ là tự do hình thức trên $C$ (tương ứng, một hệ sinh hình thức của $A$).
 
-#### Mệnh đề 12 {#ac-iii-s2-prop-12 .statement}
+#### Mệnh đề 12 {#ac-iii-s2-prop-12 .statement tag=04EB}
 
 Cho $A$ là một vành được lọc, $E$ một $A$-môđun được lọc, và $(A_n)$ và $(E_n)$ là các lọc tương ứng trên $A$ và $E$. Giả sử rằng $A$ là đầy đủ và lọc $(E_n)$ là cạn và phân ly. Cho $(x_i)_{i \in I}$ là một họ hữu hạn các phần tử của $E$, và với mỗi $i \in I$ cho $n(i)$ là một số nguyên sao cho $x_i \in E_{n(i)}$; sau cùng, cho $\xi_i$ là lớp của $x_i$ trong $\mathrm{gr}_{n(i)}(E)$. Khi đó, nếu $(\xi_i)$ là một hệ sinh của $\mathrm{gr}(A)$-môđun $\mathrm{gr}(E)$, thì $(x_i)$ là một hệ sinh của $A$-môđun $E$.
 
@@ -656,19 +656,19 @@ $$
 
 là toàn ánh, hay cũng có nghĩa là, với mọi $x \in E_n$, tồn tại một họ $(a_i)$ sao cho $a_i \in A_{n-n(i)}$ với mọi $i \in I$ và $x \equiv \sum_{i \in I} a_i x_i \pmod{E_{n+1}}$. Gọi $\xi$ là lớp của $x$ trong $\mathrm{gr}_n(E)$; vì các $\xi_i$ sinh $\mathrm{gr}(A)$-môđun $\mathrm{gr}(E)$, tồn tại các $\alpha_i \in \mathrm{gr}(A)$ sao cho $\xi = \sum_{i \in I} \alpha_i \xi_i$ và ta có thể giả sử rằng $\alpha_i \in \mathrm{gr}_{n-n(i)}(A)$ bằng cách thay thế, nếu cần, $\alpha_i$ bởi thành phần thuần nhất bậc $n - n(i)$ của nó. Khi đó $\alpha_i$ là ảnh của một phần tử $a_i \in A_{n-n(i)}$ và họ $(a_i)$ có tính chất cần thiết.
 
-#### Hệ quả 1 {#ac-iii-s2-prop-12-cor-1 .statement}
+#### Hệ quả 1 {#ac-iii-s2-prop-12-cor-1 .statement tag=04EC}
 
 Cho $A$ là một vành lọc đầy đủ và $E$ là một $A$-môđun lọc mà lọc của nó là vét cạn và phân cách. Nếu $\mathrm{gr}(E)$ là một $\mathrm{gr}(A)$-môđun sinh hữu hạn (tương ứng Noether), thì $E$ là một $A$-môđun sinh hữu hạn (tương ứng Noether).
 
 Nếu $\mathrm{gr}(E)$ sinh hữu hạn, thì có một hệ hữu hạn các phần tử sinh thuần nhất và Mệnh đề 12 cho thấy rằng $E$ sinh hữu hạn. Bây giờ giả sử rằng $\mathrm{gr}(E)$ là Noether và gọi $F$ là một môđun con của $E$; lọc cảm sinh trên $F$ bởi lọc của $E$ là vét cạn và phân cách, và $\mathrm{gr}(F)$ được đồng nhất với một môđun con gr(A) của gr(E) (no. 4, Mệnh đề 2), do đó theo giả thiết nó sinh hữu hạn; ta kết luận rằng F là một A-môđun hữu hạn sinh và vì thế E là Noether.
 
-#### Hệ quả 2 {#ac-iii-s2-prop-12-cor-2 .statement}
+#### Hệ quả 2 {#ac-iii-s2-prop-12-cor-2 .statement tag=04ED}
 
 Cho A là một vành lọc Hausdorff đầy đủ mà lọc của nó là vét cạn. Nếu gr(A) là một vành Noether trái, thì A cũng vậy.
 
 Chỉ cần áp dụng Hệ quả 1 với E = A.
 
-#### Hệ quả 3 {#ac-iii-s2-prop-12-cor-3 .statement}
+#### Hệ quả 3 {#ac-iii-s2-prop-12-cor-3 .statement tag=04EE}
 
 Cho A là một vành lọc đầy đủ, (A,) là lọc của nó, E là một A-môđun lọc Hausdorff, (E_n) là lọc của nó và F là một môđun con sinh hữu hạn của E; giả sử rằng A_∞ = A và E_0 = E.
 
@@ -684,7 +684,7 @@ $$
 
 do đó (ii).
 
-#### Mệnh đề 13 {#ac-iii-s2-prop-13 .statement}
+#### Mệnh đề 13 {#ac-iii-s2-prop-13 .statement tag=04EF}
 
 Cho A là một vành, m là một iđêan hai phía của A được chứa trong căn Jacobson của A và E là một A-môđun. Cho A và E các lọc m-adic (no. 1, Ví dụ 3). Giả sử rằng một trong các điều kiện sau được thỏa mãn:
 (a) E là một A-môđun hữu hạn sinh và A là Hausdorff;
@@ -708,13 +708,13 @@ $$
 
 ### 10. ÁP DỤNG: CÁC VÍ DỤ VỀ VÀNH NOETHER
 
-#### Bổ đề 1 {#ac-iii-s2-lem-1 .statement}
+#### Bổ đề 1 {#ac-iii-s2-lem-1 .statement tag=04EG}
 
 Cho A là một vành phân bậc kiểu $\mathbf{Z}$, với phân bậc $(A_n)$ sao cho $A_n = 0$ với mọi $n < 0$ hoặc $A_n = 0$ với mọi $n > 0$. Cho M là một A-môđun phân bậc kiểu $\mathbf{Z}$. Để M là một A-môđun Noether, điều kiện cần và đủ là mọi môđun con phân bậc của M đều sinh hữu hạn.
 
 Vì $n \mapsto -n$ là một tự đẳng cấu của nhóm $\mathbf{Z}$, ta có thể chỉ xét trường hợp $A_n = 0$ với mọi $n > 0$. Gọi A' và M' là vành A và môđun M được trang bị các lọc liên kết với các phân bậc tương ứng của chúng (no. 1, Ví dụ 1), các lọc này là đầy đủ và tách biệt; giả thiết trên A kéo theo rằng A' là rời rạc và do đó đầy đủ. Nếu E là một môđun con-A của M, thì A'-môđun có lọc E' nhận được bằng cách trang bị cho E lọc cảm sinh là Hausdorff và lọc của nó là đầy đủ; hơn nữa $\operatorname{gr}(E')$ được đồng nhất với một môđun con phân bậc-A của $M = \operatorname{gr}(M')$ và do đó sinh hữu hạn theo giả thiết. Khi đó kết luận suy ra từ Hệ quả 1 của Mệnh đề 12 ở no. 9.
 
-#### Định lý 2 {#ac-iii-s2-thm-2 .statement}
+#### Định lý 2 {#ac-iii-s2-thm-2 .statement tag=04EH}
 
 Cho A là một vành phân bậc kiểu $\mathbf{N}$, M là một A-môđun phân bậc kiểu $\mathbf{N}$ và $(A_n)$ và $(M_n)$ là các phân bậc tương ứng của chúng. Giả sử tồn tại một phần tử $a \in A_0$ sao cho $A_n = A_0 a^n$ và $M_n = a^n M_0$ với mọi $n > 0$. Khi đó, nếu M, là một $A_0$-môđun Noether, thì M là một A-môđun Noether.
 
@@ -743,35 +743,35 @@ $$
 
 điều này hoàn tất chứng minh (x. Bài tập 10).
 
-#### Hệ quả 1 (Định lý Hilbert) {#ac-iii-s2-thm-2-cor-1 .statement}
+#### Hệ quả 1 (Định lý Hilbert) {#ac-iii-s2-thm-2-cor-1 .statement tag=04EI}
 
 *Với mọi vành giao hoán Noether C, vành đa thức C[X] là Noether* (x. Bài tập 10).
 
-#### Hệ quả 2 {#ac-iii-s2-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-iii-s2-thm-2-cor-2 .statement tag=04EJ}
 
 *Với mọi vành giao hoán Noether C và mọi số nguyên $n > 0$, vành đa thức C[X_1, ..., X_n] là Noether.*
 
 Điều này suy ra từ Hệ quả 1 bằng quy nạp theo $n$.
 
-#### Hệ quả 3 {#ac-iii-s2-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#ac-iii-s2-thm-2-cor-3 .statement tag=04EK}
 
 *Nếu C là một vành giao hoán Noether thì mọi C-đại số giao hoán sinh hữu hạn đều là một vành Noether.*
 
 Một đại số như vậy đẳng cấu với một thương của đại số đa thức C[X_1, ..., X_n] (§ 1, no. 1).
 
-#### Hệ quả 4 {#ac-iii-s2-thm-2-cor-4 .statement}
+#### Hệ quả 4 {#ac-iii-s2-thm-2-cor-4 .statement tag=04EL}
 
 *Cho A là một vành giao hoán phân bậc kiểu $\mathbf{N}$ và gọi $(A_n)$ là phân bậc của nó. Để A là Noether, điều kiện cần và đủ là $A_n$ là Noether và A là một A,-đại số sinh hữu hạn.*
 
 Điều kiện này là đủ theo Hệ quả 3. Ngược lại, giả sử A là Noether; khi đó $m = \sum_{n \geq 1} A_n$, là một iđêan của A, sinh hữu hạn; suy ra A là một A,-đại số sinh hữu hạn (§ 1, no. 2, Hệ quả của Mệnh đề 1); mặt khác $A_n$, đẳng cấu với $A/m$, là một vành Noether.
 
-#### Hệ quả 5 {#ac-iii-s2-thm-2-cor-5 .statement}
+#### Hệ quả 5 {#ac-iii-s2-thm-2-cor-5 .statement tag=04EM}
 
 *Cho A là một vành giao hoán và m một iđêan của A sao cho $A/m$ là Noether, $m/m^2$ là một $(A/m)$-môđun sinh hữu hạn và A là Hausdorff và đầy đủ đối với tôpô m-adic. Khi đó gr(A) và A là Noether.*
 
 gr(A) là một $(A/m)$-môđun sinh bởi $m/m^2$ (no. 3, Ví dụ 3) và do đó vành gr(A) là Noether theo Hệ quả 3. Từ đó suy ra chính A cũng là Noether (no. 9, Hệ quả 2 của Mệnh đề 12).
 
-#### Hệ quả 6 {#ac-iii-s2-thm-2-cor-6 .statement}
+#### Hệ quả 6 {#ac-iii-s2-thm-2-cor-6 .statement tag=04EN}
 
 Với mọi vành giao hoán Noether C và mọi số nguyên n > 0, vành các chuỗi lũy thừa hình thức $\mathbf{C}[[X_1, \ldots, X_n]]$ là Noether.
 
@@ -799,7 +799,7 @@ $$
 
 đặc biệt là $(n_{0j})^{j+1} = 0$. Ngược lại:
 
-#### Mệnh đề 14 {#ac-iii-s2-prop-14 .statement}
+#### Mệnh đề 14 {#ac-iii-s2-prop-14 .statement tag=04EO}
 
 Cho $(A_i, h_{ij})$ là một hệ ngược các vành giao hoán rời rạc, có tập chỉ số là $\mathbf{N}$, và gọi $(M_i, u_{ij})$ là một hệ ngược các môđun trên hệ ngược các vành $(A_i, h_{ij})$. Gọi $n_j$ là hạt nhân của $h_{0j}: A \to A$, và đặt $A = \lim A_i$, $M = \lim M_i$. Giả sử rằng
 
@@ -862,7 +862,7 @@ Hơn nữa $m_1 = h_1(n_1)$, do đó $a \subset m_1$ và vì thế $a^i \subset 
 
 $N_i \subset m_i M' + N_{i+1}$; mặt khác hiển nhiên $m_i M \subset N_i$ và do đó $N_i = m_i M' + N_{i+1}$ với mọi $i \geq 0$; khi đó từ Hệ quả 3 của Mệnh đề 12 ở no. 9 suy ra $M' = M$, điều này kết thúc chứng minh.
 
-#### Hệ quả 1 {#ac-iii-s2-prop-14-cor-1 .statement}
+#### Hệ quả 1 {#ac-iii-s2-prop-14-cor-1 .statement tag=04EP}
 
 *Với ký hiệu và các giả thiết của Mệnh đề 14, giả sử thêm rằng $M_0$ là một $A$-môđun sinh hữu hạn và iđêan $n_1$ của $A$, là sinh hữu hạn. Gọi $m_1$ là hạt nhân của $h_1$; khi đó các tôpô trên $A$ và $M$ lần lượt là các tôpô $m_1$-adic trên vành này và môđun này; chính xác hơn, với mọi $i \geq 0$, các hạt nhân của $h_i$ và $u_i$ lần lượt là $m_1^{i+1}$ và $m_1^{i+1} M$; hơn nữa $m_1 / m_1^2$ là một $A$-môđun sinh hữu hạn.*
 
@@ -874,7 +874,7 @@ $$
 
 Vì $a$ và $M$ là các $A$-môđun sinh hữu hạn, nên $a^i M$ cũng vậy. Áp dụng Hệ quả 3 của Mệnh đề 12 ở no. 9 cho môđun $N_i$ với bộ lọc $(N_{ij})_{j \in \mathbf{Z}}$ xác định bởi $N_{ij} = N_i$, nếu $j < 0$, $N_{ij} = N_{i+j}$ nếu $j \geq 0$, ta thu được $N_i = a^i M$, do đó $N_i \subset m_1^i M$. Nhưng cũng có $m_1^i M \subset m_i M \subset N_i$, do đó $N_i = m_1^i M$. Áp dụng điều này cho trường hợp $M = A$, $u_{ij} = h_{ij}$, ta được $m_i = m_1^i$. Hơn nữa, $m_1 = a + m_1^2$ theo (17), điều này chứng minh khẳng định cuối cùng của hệ quả.
 
-#### Hệ quả 2 {#ac-iii-s2-prop-14-cor-2 .statement}
+#### Hệ quả 2 {#ac-iii-s2-prop-14-cor-2 .statement tag=04EQ}
 
 *Dưới các giả thiết của Hệ quả 1, để $A$ là Noether, điều kiện cần và đủ là $A$, cũng vậy.*
 
@@ -928,7 +928,7 @@ $$
 
 nói cách khác:
 
-#### Mệnh đề 15 {#ac-iii-s2-prop-15 .statement}
+#### Mệnh đề 15 {#ac-iii-s2-prop-15 .statement tag=04ER}
 
 Cho $A$ là một vành lọc và $E$ một $A$-môđun lọc, các lọc tương ứng $(A_n), (E_n)$ của $A$ và $E$ là vét cạn. Khi đó $(\hat{A}_n)$ là một lọc tương thích với cấu trúc vành trên $\hat{A}$ và $(\hat{E}_n)$ là một lọc tương thích với cấu trúc môđun trên $\hat{E}$ đối với vành lọc $\hat{A}$; hơn nữa các lọc này là vét cạn và lần lượt định nghĩa các tôpô trên $\hat{A}$ và $\hat{E}$. Sau cùng, các ánh xạ chính tắc $\operatorname{gr}(A) \to \operatorname{gr}(\hat{A})$ và $\operatorname{gr}(E) \to \operatorname{gr}(\hat{E})$ của các $\mathbf{Z}$-môđun phân bậc lần lượt là một đẳng cấu vành phân bậc và một đẳng cấu $\operatorname{gr}(A)$-môđun phân bậc.
 
@@ -936,7 +936,7 @@ Trong phần sau, với mọi không gian đều $X$, $j_X$ sẽ ký hiệu ánh
 
 Chương II, § 3, no. 7, Mệnh đề 12). Cũng nhắc lại rằng, với mọi ánh xạ liên tục đều $f : X \to Y$, $\hat{f}$ ký hiệu ánh xạ liên tục đều từ $\hat{X}$ vào $\hat{Y}$ sao cho $\hat{f} \circ j_X = j_Y \circ f$ (loc. cit., Mệnh đề 15); nếu $X$ là một không gian con đều của $Y$ và $\mathscr{E}$ là đơn ánh chính tắc, thì $\hat{X}$ được đồng nhất với một không gian con đều của $\hat{Y}$ và $\hat{f}$ là đơn ánh chính tắc của $X$ vào $\hat{Y}$ (loc. cit., no. 9. Hệ quả 1 của Mệnh đề 18).
 
-#### Bổ đề 2 {#ac-iii-s2-lem-2 .statement}
+#### Bổ đề 2 {#ac-iii-s2-lem-2 .statement tag=04ES}
 
 *Cho $X \xrightarrow{f} Y \xrightarrow{g} Z$ là một dãy khớp các cấu xạ ngặt của các nhóm tôpô (Đại số, Chương II, § 1, no. 4, Nhận xét). Giả sử rằng $X, Y, Z$ thừa nhận các nhóm hoàn bị Hausdorff và các phần tử đơn vị $\mathscr{E} X, Y, Z$ thừa nhận các hệ cơ bản đếm được của lân cận. Khi đó $\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$ là một dãy khớp các cấu xạ ngặt.*
 
@@ -956,7 +956,7 @@ $$
 
 là một tập mở trong $X$ không giao với $N$; vì $f$ là một cấu xạ ngặt toàn ánh, $V = f(U)$ là một tập mở trong $Y$ không chứa phần tử đơn vị $e'$ của $Y$ và do đó không giao với bao đóng của $e'$; khi đó $j_Y(V)$ không chứa phần tử đơn vị của $Y_0$. Nhưng $j_Y(V) = f_0(X_0 - \overline{N}_0)$ và do đó $N'_0 \subset \overline{N}_0$, điều này hoàn thành chứng minh của Bổ đề 2.
 
-#### Mệnh đề 16 {#ac-iii-s2-prop-16 .statement}
+#### Mệnh đề 16 {#ac-iii-s2-prop-16 .statement tag=04ET}
 
 *Cho $A$ là một vành lọc, ($A,$) bộ lọc của nó, $E$ một $A$-môđun và ($E_n$) bộ lọc trên $E$ dẫn xuất từ bộ lọc trên $A$ gồm các $E_n = A_n E$. Giả sử rằng bộ lọc ($A,$) là đầy đủ và môđun $E$ là sinh hữu hạn. Nếu $i : E \to \hat{E}$ là ánh xạ chính tắc, thì, với mọi $n \in \mathbf{Z}$,*
 $$
@@ -966,13 +966,13 @@ $$
 
 Đẳng thức $A_n E = E_n$ kéo theo, do tính liên tục của phép toán ngoài trên $A$-môđun $8, \hat{A}_n \hat{E} \subset 8$, và hiển nhiên $\hat{A}_n \hat{E} \supset \hat{A}_n i(E)$. Theo giả thiết tồn tại một đồng cấu toàn ánh $u : L \to E$, với $L = A_s^I$, trong đó $I$ là một tập hợp hữu hạn; trang bị cho $L$ bộ lọc tích, gồm các $L_n = A_n^I$, xác định trên $L$ tôpô tích; khi đó $\hat{L} = \hat{A}_s^I$ và $\hat{L}_n = \hat{A}_n^I$ (*General Topology*, Chương II, § 3, no. 9, Hệ quả 2 của Mệnh đề 18). Gọi $j : L \to \hat{L}$ là ánh xạ chính tắc và $(e_i)_{i \in I}$ là cơ sở chính tắc của $L$; để một phần tử $\sum_{i \in I} a_{ij}(e_i)$ (trong đó $a_i \in \hat{A}$ với mọi $i \in I$) thuộc $\hat{L}_n$, điều kiện cần và đủ là $a_i \in \hat{A}_n$ với mọi $i$; do đó $\hat{L}_n = \hat{A}_n . j(L)$. Như vậy, theo định nghĩa $u(\hat{L}_n) = A_n E = E_n$ và vì thế $u$ là một *cấu xạ ngặt* từ $L$ lên $E$ (*General Topology*, Chương III, § 2, no. 8, Mệnh đề 24). Khi đó Bổ đề 2 cho thấy rằng $\hat{u} : \hat{L} \to \hat{E}$ là một *cấu xạ ngặt toàn ánh*. Vì $\hat{L}_n$ là một nhóm con mở của $\hat{L}$, nên $\hat{u}(\hat{L}_n)$ là một nhóm con mở (và do đó đóng) của $\hat{E}$; nhưng $\hat{u}(\hat{L}_n) = \hat{A}_n \hat{u}(j(L)) = \hat{A}_n i(E)$ và, vì $i(E_n) \subset A_n i(E) \subset \hat{A}_n i(E)$, cuối cùng $\hat{E}_n \subset \hat{A}_n i(E) \subset \hat{A}_n \hat{E} \subset \hat{E}_n$ và do đó $\hat{E}_n = \hat{A}_n \hat{E} = \hat{A}_n i(E)$; đặt $n = 0$, ta thu được công thức thứ hai của (25).
 
-#### Hệ quả 1 {#ac-iii-s2-prop-16-cor-1 .statement}
+#### Hệ quả 1 {#ac-iii-s2-prop-16-cor-1 .statement tag=04EU}
 
 *Trong các điều kiện của Mệnh đề 16, nếu $A$ đầy đủ thì $E$ cũng vậy.*
 
 Vì khi đó ánh xạ chính tắc $A \to \hat{A}$ là toàn ánh (no. 6, Mệnh đề 5), nên $\hat{E} = i(E)$ theo (25), và kết luận suy ra từ Mệnh đề 5 của no. 6.
 
-#### Hệ quả 2 {#ac-iii-s2-prop-16-cor-2 .statement}
+#### Hệ quả 2 {#ac-iii-s2-prop-16-cor-2 .statement tag=04EV}
 
 *Cho $A$ là một vành giao hoán, $m$ là một iđêan sinh hữu hạn của $A$ và $\hat{A}$ là bổ sung Hausdorff của $A$ đối với tôpô $m$-adic. Khi đó $\hat{m}^n = (\hat{m})^n = m^n . \hat{A}$ với mọi số nguyên $n > 0$ và tôpô trên $\hat{A}$ là tôpô $\hat{m}$-adic.*
 
@@ -1002,7 +1002,7 @@ Mọi phần tử của $\mathbf{Z}/n^k \mathbf{Z}$ đều có một đại di�
 
 ### 13. BỔ SUNG HAUSDORFF CỦA MỘT VÀNH NỬA ĐỊA PHƯƠNG
 
-#### Mệnh đề 17 {#ac-iii-s2-prop-17 .statement}
+#### Mệnh đề 17 {#ac-iii-s2-prop-17 .statement tag=04EW}
 
 Cho $A$ là một vành giao hoán và $(m_{\lambda})_{\lambda \in L}$ là một họ các iđêan của $A$, khác $A$, sao cho $m_{\lambda}$ và $m_{\mu}$ nguyên tố cùng nhau với $\lambda \neq \mu$. Với mọi họ $s = (s(\lambda))_{\lambda \in L}$ các số nguyên $\geq 0$, có giá hữu hạn, đặt $a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$ (bằng tích của các $m_{\lambda}^{s(\lambda)}$ ứng với những $\lambda$ sao cho $s(\lambda) \neq 0$; xem Chương 11, § 1, no. 2, các Mệnh đề 3 và 5); các $a_s$ tạo thành một hệ cơ bản các lân cận của 0 đối với một tôpô $\mathscr{T}$ tương thích với cấu trúc vành trên $A$; gọi $\hat{A}$ là bổ sung Hausdorff của $A$ đối với tôpô này. Mặt khác, với mọi $\lambda \in L$, gọi $A_{\lambda}$ là vành $A$ với tôpô $m_{\lambda}$-adic và gọi $\hat{A}_{\lambda}$ là bổ sung Hausdorff của nó. Nếu $u : A \to \prod_{\lambda \in L} A_{\lambda}$ ký hiệu đồng cấu đường chéo, thì $u$ liên tục và đồng cấu tương ứng $\hat{u} :$
 
@@ -1014,7 +1014,7 @@ $$
 
 Mệnh đề thứ nhất suy ra từ Tôpô đại cương, Chương III, § 6, no. 3, Ví dụ 3. Đặt $B = \prod_{\lambda \in L} A_{\lambda}$; vì tôpô trên $A$ mịn hơn từng tôpô $m_{\lambda}$-adic, các ánh xạ $\mathrm{pr}_{\lambda} \circ u$ là liên tục và do đó $u$ là liên tục. Mặt khác, $u(a_s)$ là giao của đường chéo $A$ của $B$ với tập mở $\bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$ của $B$; suy ra $u$ là một cấu xạ ngặt từ nhóm cộng $A$ vào $B$ có ảnh là $A$. Bây giờ $\Delta$ là trù mật trong $B$. Thật vậy, cho $b = (a_{\lambda})_{\lambda \in L}$ là một phần tử của $B$; mọi lân cận của $b$ trong $B$ đều chứa một tập có dạng $b + V$, trong đó $V = \bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$ đối với một họ $s = (s(\lambda))_{\lambda \in L}$ có giá hữu hạn gồm các số nguyên $\geq 0$. Vì các $m_{\lambda}^{s(\lambda)}$ đôi một nguyên tố cùng nhau (Chương II, § 1, no. 2, Mệnh đề 3), tồn tại $x \in A$ sao cho $x \equiv a_{\lambda} \pmod{m_{\lambda}^{s(\lambda)}}$ với mọi $\lambda$ (loc. cit., Mệnh đề 5), và do đó $(b + V) \cap A \neq \varnothing$. Khi đó bổ sung Hausdorff của nhóm $B/\Delta$ là $\{0\}$; áp dụng Bổ đề 2 của no. 12 cho các dãy khớp $0 \to A \xrightarrow{u} B, A \xrightarrow{u} B \to B/\Delta$, ta thấy rằng $\hat{u}$ là một đẳng cấu từ $\hat{A}$ lên $\hat{B}$.
 
-#### Hệ quả {#ac-iii-s2-n13-cor-1 .statement}
+#### Hệ quả {#ac-iii-s2-n13-cor-1 .statement tag=04EX}
 
 Cho $A$ là một miền iđêan chính và $P$ là một hệ đại diện các phần tử cực biên của $A$ (Đại số, Chương VII, § 1, no. 3). Tôpô trên $A$ mà đối với nó các iđêan $\neq 0$ của $\mathbf{A}$ tạo thành một hệ cơ bản các lân cận của 0, tương thích với cấu trúc vành trên $\mathbf{A}$, là Hausdorff và bổ sung của $\mathbf{A}$ theo tôpô này đẳng cấu chính tắc với tích các bổ sung của $\mathbf{A}$ đối với các tôpô $x$-adic, khi $x$ chạy qua $P$.
 
@@ -1028,7 +1028,7 @@ Nhận xét
 
 (2) Mọi iđêan đóng $a$ của $\prod_{\lambda \in L} \hat{A}_\lambda$ đồng nhất với tích của các hình chiếu của nó $a_\lambda = \mathrm{pr}_\lambda(a)$, là các iđêan đóng trong các $A_\lambda$; vì $\hat{A}_\lambda$ được đồng nhất một cách chính tắc với một iđêan đóng $A'_\lambda$ của $\prod_{\lambda} \hat{A}_\lambda$ và $a_\lambda$ với $a \cap A'_\lambda$ (Đại số, Chương I, §8, no. 10, Mệnh đề 6), tổng của các $a_\lambda$ là trù mật trong tích $\prod_\lambda a_\lambda$ (Tôpô đại cương, Chương III, §2, no. 9, Mệnh đề 25) và tích sau là đóng trong $\prod_\lambda \hat{A}_\lambda$, do đó có mệnh đề của chúng ta.
 
-#### Mệnh đề 18 {#ac-iii-s2-prop-18 .statement}
+#### Mệnh đề 18 {#ac-iii-s2-prop-18 .statement tag=04EY}
 
 Cho $\mathbf{A}$ là một vành giao hoán, $(m_i)_{1 \leq i \leq q}$ là một họ hữu hạn các iđêan cực đại phân biệt của $\mathbf{A}$, t là iđêan tích $m_1 m_2 \ldots m_q = m_1 \cap m_2 \cap \ldots \cap m_q$ và $S$ là tập con nhân $\bigcap_{i=1}^q (\mathbf{A} - m_i)$. Trang bị cho $\mathbf{A}$ tôpô $r$-adic, cho vành $B = S^{-1} \mathbf{A}$ tôpô $rB$-adic và cho mỗi vành địa phương $A_n$ tôpô $(m_i A_{m_i})$-adic. Cho $u : \mathbf{A} \to B$, $v_i : B \to A_{m_i}$ là đồng cấu chính tắc (Chương II, §2, no.1, Hệ quả 2 của Mệnh đề 2) và $v$ là đồng cấu $(v_i) : B \to \prod_{i=1}^q A_n$. Các đồng cấu $u$ và $v$ là liên tục và các đồng cấu tương ứng $\hat{u} : \hat{\mathbf{A}} \to$ và $\hat{v} : \hat{B} \to \prod_{n} (A_n)^*$ là các đẳng cấu tôpô của vành.
 
@@ -1053,13 +1053,13 @@ suy ra từ $u_i$ bằng cách lấy thương là một đẳng cấu (Chương 
 
 Nhận xét (3). Ta thấy rằng một miền nguyên $A$ có thể có tính chất là hoàn thành Hausdorff $\hat{A}$ của nó thừa nhận các ước của không khác không.
 
-#### Mệnh đề 19 {#ac-iii-s2-prop-19 .statement}
+#### Mệnh đề 19 {#ac-iii-s2-prop-19 .statement tag=04EZ}
 
 Cho $A$ là một vành giao hoán và $m$ là một iđêan cực đại của $A$. Hoàn thành Hausdorff $\hat{A}$ của $A$ đối với tôpô $m$-adic là một vành địa phương mà iđêan cực đại là $m$.
 
 Nếu $a = \bigcap_{k \geq 1} m^k$, thì $\hat{A}$ là hoàn thành của vành Hausdorff $A/a$ liên kết với $A$ và, vì $m/a$ là cực đại trong $A/a$, ta có thể giả sử rằng $A$ là Hausdorff đối với tôpô $m$-adic. Vì $A/m$ và $\hat{A}/\hat{m}$ là các vành đẳng cấu (no. 12, công thức (21)), nên $m$ là cực đại trong $\hat{A}$. Vì tôpô trên $\hat{A}$ được xác định bởi bộ lọc $(m^n)^*$ (no. 12), mệnh đề sẽ là một hệ quả của bổ đề sau:
 
-#### Bổ đề 3 {#ac-iii-s2-lem-3 .statement}
+#### Bổ đề 3 {#ac-iii-s2-lem-3 .statement tag=04F0}
 
 Cho $A$ là một vành tôpô Hausdorff đầy đủ, trong đó tồn tại một hệ cơ bản $\mathscr{G}$ các lân cận của 0 gồm các nhóm con cộng tính của $A$.
 (i) Với mọi $x \in A$ sao cho $\lim_{n \to m} x^n = 0$, $1 - x$ là khả nghịch trong $A$ và nghịch đảo của nó bằng $\sum_{n=0}^\infty x^n$.
@@ -1085,7 +1085,7 @@ Sau khi thiết lập bổ đề này, chỉ cần áp dụng nó cho vành tôp
 
 Nếu ta lấy $\mathbf{A} = \mathbf{Z}$, mọi iđêan cực đại của $\mathbf{Z}$ đều có dạng $p\mathbf{Z}$ trong đó $p$ là nguyên tố. Khi đó vành các số $p$-adic $\mathbf{Z}_p$ là một vành địa phương mà iđêan cực đại là $p\mathbf{Z}_p$ (Hệ quả 2 của Mệnh đề 16) và trường thặng dư của nó đẳng cấu với $\mathbf{Z}/p\mathbf{Z} = \mathbf{F}_p$, còn $\mathbf{Z}_{(p)}$ với tôpô $p\mathbf{Z}_{(p)}$-adic được đồng nhất với một vành con tôpô của $\mathbf{Z}$, chứa $\mathbf{Z}$.
 
-#### Hệ quả {#ac-iii-s2-n13-cor-2 .statement}
+#### Hệ quả {#ac-iii-s2-n13-cor-2 .statement tag=04F1}
 
 Cho $\mathbf{A}$ là một vành nửa địa phương (Chương II, § 3, no. 5), $m_i$ là các iđêan cực đại phân biệt của nó $(1 \leq i \leq q)$ và
 

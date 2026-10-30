@@ -40,7 +40,7 @@ subsections:
       pdf_page: 64
 statements: 33
 exercises: 13
-content_sha256: 78bad4a38482e70f1807c8254be6bb91f40f65b5862b61785479b797aa2efcfe
+content_sha256: 6c3f63bec652fbfee787f1a0032f9f9f24dbf7adea25511a55692feb12ed6c0f
 ---
 
 ## § 5. Mesures sur les espaces complètement réguliers
@@ -51,7 +51,7 @@ content_sha256: 78bad4a38482e70f1807c8254be6bb91f40f65b5862b61785479b797aa2efcfe
 
 Rappelons (*Top. gén.*, chap. IX, 3e éd., § 1, n° 5, déf. 4) qu'un espace topologique T est dit *complètement régulier* s'il est uniformisable et séparé. Cela équivaut à dire (*loc. cit.*, prop. 3) que T est homéomorphe à un sous-espace d'un espace compact. Si T est complètement régulier, toute fonction semi-continue inférieurement positive f sur T est l'enveloppe supérieure de l'ensemble filtrant croissant des éléments de $C^b_+(T)$ majorés par f, toute fonction semi-continue supérieurement positive et bornée g est l'enveloppe inférieure de l'ensemble filtrant décroissant des éléments de $C^b_+(T)$ qui majorent g (*loc. cit.*, § 1, n° 7, prop. 7). Nous aurons aussi besoin du lemme suivant:
 
-#### Lemme 1 {#int-ix-s5-n1-lem-1 .statement}
+#### Lemme 1 {#int-ix-s5-n1-lem-1 .statement tag=09QV}
 
 *Soient T un espace complètement régulier, K une partie compacte de T et U une partie ouverte de T contenant K.*
 
@@ -61,7 +61,7 @@ b) Soit $f$ une fonction continue définie sur $K$ à valeurs dans un intervalle
 
 Il suffit de traiter le cas où $T$ est un sous-espace d’un espace compact $X$. Soit $V$ une partie ouverte de $X$ tel que $V \cap T = U$; désignons par $V'$ un ensemble ouvert dans $X$ contenant $K$ tel que $\overline{V}' \subset V$, par $g$ une fonction continue sur $X$, à valeurs dans $I$ (resp. dans $\mathbf{C}$) prolongeant $f$ et nulle sur $X - V$ (*Top. gén.*, chap. IX, 3\textsuperscript{e} éd., § 4, n° 1, prop. 1). On satisfait à *a*) en prenant $U' = V' \cap T$, et à *b*) en prenant pour $f'$ la restriction de $g$ à $T$.
 
-#### Proposition 1 {#int-ix-s5-prop-1 .statement}
+#### Proposition 1 {#int-ix-s5-prop-1 .statement tag=09QW}
 
 *Soit $T$ un espace complètement régulier.*
 
@@ -97,21 +97,21 @@ $$
 
 On a évidemment $|g| \leq h \leq f$, et $g = j$ dans K, donc $||\theta_K(j)|| - |\theta(g)|| = ||\theta(j^0)| - |\theta(g)|| \leq |\theta|^\bullet(|j^0 - g|) \leq M. |\theta|^\bullet(U - K) \leq b - a$, et par conséquent $|\theta(g)| > a$. Montrons d'autre part que g est une fonction continue: comme a est assujetti seulement à la condition $a < |\theta|^\bullet(f)$, cela entraînera que le second membre de (2) majore le premier, d'où la proposition. Or soit F (resp. F') l'ensemble des $t \in T$ tels que $|k(t)| \leq h(t)$ (resp. $|k(t)| \geq h(t)$). Ces ensembles étant fermés, et leur réunion étant T, il nous suffit de montrer que $g_F$ et $g_{F'}$ sont continues: or cette propriété est évidente pour $g_F = k_F$, et elle l'est pour $g_{F'}$ aux points où $k(t) \neq 0$; d'autre part, si $t \in F'$ est tel que $k(t) = 0$, on a aussi $h(t) = 0$, et l'inégalité $|g| \leq h$ entraîne que g est continue au point t.
 
-#### Remarque 1 {#int-ix-s5-n1-rem-1 .statement}
+#### Remarque 1 {#int-ix-s5-n1-rem-1 .statement tag=09QX}
 
 Soit f une fonction semi-continue inférieurement positive, et soit $J_f$ l'ensemble des fonctions continues bornées positives *nulles hors d'un ouvert* $\mu$-intégrable et majorées par f. On peut montrer que f est l'enveloppe supérieure de $J_f$ et que $\mu^\bullet(f) = \sup_{g \in J_f} \mu(g)$.
 
-#### Remarque 2 {#int-ix-s5-n1-rem-2 .statement}
+#### Remarque 2 {#int-ix-s5-n1-rem-2 .statement tag=09QY}
 
 Si la mesure $\mu$ est bornée, la formule $\mu^\bullet(f) = \inf_{g \in S_f} \mu(g)$ est évidemment valable pour toute fonction f, semi-continue supérieurement, positive et bornée.
 
-#### Proposition 2 {#int-ix-s5-prop-2 .statement}
+#### Proposition 2 {#int-ix-s5-prop-2 .statement tag=09QZ}
 
 Soient $\eta$ et $\eta'$ deux mesures complexes sur un espace complètement régulier T, telles que l'on ait $\eta(f) = \eta'(f)$ pour toute fonction $f \in C^b(T)$, intégrable pour $|\eta|$ et $|\eta'|$. On a alors $\eta = \eta'$.
 
 Reprenons la démonstration de la seconde partie de la proposition 1, en posant $\theta = \eta - \eta'$. Nous pouvons imposer à l'ouvert U d'être intégrable pour $|\eta|$ et $|\eta'|$. La fonction g est alors intégrable pour ces deux mesures, et la relation $\theta(g) = 0$ entraîne $a < 0$; on a donc $|\theta|^\bullet(f) = 0$ pour toute fonction f semi-continue inférieurement positive, d'où finalement $|\theta| = 0$, en prenant $f = +\infty$.
 
-#### Proposition 3 {#int-ix-s5-prop-3 .statement}
+#### Proposition 3 {#int-ix-s5-prop-3 .statement tag=09R0}
 
 Soit $\mu$ une mesure positive sur un espace complètement régulier T, et soit $p \in [1, +\infty[$. L'espace $\mathscr{H}$ des fonctions $f \in C^b(T)$, dont le support est contenu dans un ouvert $\mu$-intégrable, est dense dans $L^p(\mu)$.
 
@@ -119,7 +119,7 @@ D'après la prop. 15 du § 1, n° 10, il nous suffit de montrer que si K est com
 
 Remarque 3). — On a un énoncé analogue pour les fonctions à valeurs dans un espace de Banach F : le sous-espace $\mathscr{H} \otimes F$ de $C^b(T; F)$ est dense dans $\mathscr{L}_F^p(\mu)$.
 
-#### Proposition 4 {#int-ix-s5-prop-4 .statement}
+#### Proposition 4 {#int-ix-s5-prop-4 .statement tag=09R1}
 
 Pour qu'une mesure complexe bornée $\theta$ sur un espace complètement régulier T soit positive, il faut et il suffit qu'on ait $\theta(f) \geq 0$ pour toute fonction $f \in C^b_+(T)$.
 
@@ -127,7 +127,7 @@ La nécessité est évidente. Pour établir la suffisance, reprenons la démonst
 
 ### 2. Mesures bornées et formes linéaires sur $C^b(T)$
 
-#### Proposition 5 {#int-ix-s5-prop-5 .statement}
+#### Proposition 5 {#int-ix-s5-prop-5 .statement tag=09R2}
 
 Soient T un espace complètement régulier, et I une forme linéaire complexe continue sur l'espace normé $C^b(T; \mathbf{C})$. Pour qu'il existe une mesure complexe bornée $\theta$ sur T telle que $\theta(f) = I(f)$ pour tout $f \in C^b(T; \mathbf{C})$, il faut et il suffit que la condition suivante soit vérifiée :
 (M) Pour tout nombre $\varepsilon > 0$, il existe une partie compacte K de T telle que les relations $g \in C^b(T, \mathbf{C}), |g| \leq 1, g_K = 0$ entraînent $|I(g)| \leq \varepsilon$.
@@ -143,7 +143,7 @@ $$
 
 Soit $(K_n)_{n \geq 1}$ une suite de parties compactes de T, telle que chaque $K_n$ satisfasse à (M) pour $\varepsilon = 1/n$, et soit $S = \bigcup_n K_n$; S est borélien dans X, contenu dans T, et on a $|\nu|^*(X - T) \leq |\nu|^*(X - S) \leq |\nu|^*(X - K_n) \leq 1/n$ pour tout n, de sorte que T est $\nu$-mesurable et que $\nu$ est concentrée sur T. Soit $f$ une fonction continue et bornée sur T; comme X est le compactifié de Stone–Čech de T, f se prolonge par continuité en une fonction g ∈ C^b(X; \mathbf{C}). Soit alors μ la mesure induite par ν sur T; on a $\mu(f) = \nu(f^0)^{(1)}$. Comme ν est concentrée sur T, les fonctions $f^0$ et g sont égales ν-presque partout, et on a donc $\mu(f) = \nu(g) = \mathrm{I}(g_T) = \mathrm{I}(f)$, ce qui achève la démonstration.
 
-#### Corollaire {#int-ix-s5-n2-cor-1 .statement}
+#### Corollaire {#int-ix-s5-n2-cor-1 .statement tag=09R3}
 
 Avec les notations de la prop. 5, supposons qu’il existe une mesure positive bornée μ sur T telle que $|\mathrm{I}(f)| \leq \mu(|f|)$ pour tout $f \in C^b(T; \mathbf{C})$; alors il existe une mesure complexe θ sur T telle que $\theta(f) = \mathrm{I}(f)$ pour tout $f \in C^b(T; \mathbf{C})$.
 
@@ -151,7 +151,7 @@ Avec les notations de la prop. 5, supposons qu’il existe une mesure positive b
 
 Soit T un espace complètement régulier; la forme bilinéaire $(f, \mu) \mapsto \int f(t) d\mu(t)$ sur $C^b(T) \times M^b(T)$ met ces deux espaces en dualité séparante. Il est clair en effet que la dualité est séparante en $C^b(T)$ du fait que les mesures $\varepsilon_x$ ($x \in T$) appartiennent à $M^b(T)$; elle est séparante en $M^b(T)$ d’après la prop. 2 du n° 1.
 
-#### Définition 1 {#int-ix-s5-def-1 .statement}
+#### Définition 1 {#int-ix-s5-def-1 .statement tag=09R4}
 
 La topologie faible sur $M^b(T)$ associée à la dualité précédente entre $C^b(T)$ et $M^b(T)$ est appelée la topologie de la convergence étroite (ou la topologie étroite) sur $M^b(T)$.
 
@@ -163,19 +163,19 @@ $$
 \lim_{\mu} \mu(f) = \lambda(f) \quad \text{suivant } \mathfrak{F} \text{ pour toute } f \in C^b_+(T).
 $$
 
-#### Remarque 1 {#int-ix-s5-n3-rem-1 .statement}
+#### Remarque 1 {#int-ix-s5-n3-rem-1 .statement tag=09R5}
 
 Si T est localement compact, la topologie étroite est plus fine que la topologie induite sur $M^b(T)$ par la topologie vague, et ces deux topologies ne coïncident que si T est compact. En effet, si T n’est pas compact, l’application $t \mapsto \varepsilon_t$ converge vaguement vers 0 suivant le filtre des complémentaires des parties relativement compactes de T, mais ne converge pas étroitement vers 0, car la fonction 1 appartient à $C^b(T)$ (pour les relations entre convergence vague et convergence étroite, voir la prop. 9).
 
-#### Remarque 2 {#int-ix-s5-n3-rem-2 .statement}
+#### Remarque 2 {#int-ix-s5-n3-rem-2 .statement tag=09R6}
 
 Il résulte aussitôt de la prop. 4 que $M^b_+(T)$ est fermé dans $M^b(T)$.
 
-#### Remarque 3 {#int-ix-s5-n3-rem-3 .statement}
+#### Remarque 3 {#int-ix-s5-n3-rem-3 .statement tag=09R7}
 
 Si T est complètement régulier, l’application $t \mapsto \varepsilon_t$ de T dans $M^b(T)$ est un homéomorphisme (Top. gén., chap. IX, 3e éd., § 1, n° 5).
 
-#### Proposition 6 {#int-ix-s5-prop-6 .statement}
+#### Proposition 6 {#int-ix-s5-prop-6 .statement tag=09R8}
 
 Soit T un espace complètement régulier.
 a) Soit f une fonction numérique $\geq 0$ semi-continue inférieurement définie dans T; la fonction $\mu \mapsto |\mu|^*(f)$ est alors semi-continue inférieurement dans $M^b(T)$.
@@ -186,7 +186,7 @@ b) Soit $f$ une fonction semi-continue supérieurement et bornée définie dans 
 
 On voit en effet, d’après la prop. 1, b) du n° 1, que $\mu \mapsto |\mu|^*(f)$ est l’enveloppe supérieure d’une famille de fonctions de la forme $\mu \mapsto |\mu(g)|$ avec $g \in \mathscr{C}^b(T)$, donc continues pour la topologie étroite. Ceci établit a). Pour prouver b), il suffit de choisir une constante $C$ majorant $f$, et d’écrire $\mu(f) = \mu(C) - \mu(C - f)$; la fonction $\mu \mapsto \mu(C)$ est continue, et la fonction $\mu \mapsto \mu(C - f)$ est semi-continue inférieurement dans $\mathscr{M}_+^b(T)$ d’après ce qui précède.
 
-#### Proposition 7 {#int-ix-s5-prop-7 .statement}
+#### Proposition 7 {#int-ix-s5-prop-7 .statement tag=09R9}
 
 Soit $T$ un espace complètement régulier. Soit $\mu$ une mesure positive bornée sur $T$, et soit $f$ une fonction positive bornée sur $T$, telle que l’ensemble des points de $T$ où $f$ n’est pas continue soit localement $\mu$-négligeable. L’application $\lambda \mapsto \lambda^*(f)$ de $\mathscr{M}_+^b(T)$ dans $\mathbf{R}$ est alors continue au point $\mu$.
 
@@ -201,7 +201,7 @@ $$
 
 On conclut en remarquant que $\mu^*(f') = \mu^*(f'')$, car $f'$ et $f''$ sont égales localement $\mu$-presque partout.
 
-#### Proposition 8 {#int-ix-s5-prop-8 .statement}
+#### Proposition 8 {#int-ix-s5-prop-8 .statement tag=09RA}
 
 Soient $X$ un espace complètement régulier, $T$ un sous-espace de $X$, i l’injection canonique de $T$ dans $X$. Désignons par $W$ l’ensemble des mesures positives bornées sur $X$ concentrées sur $T$, muni de la topologie induite par $\mathscr{M}^b(X)$. L’application $\mu \mapsto i(\mu)$ de $\mathscr{M}_+^b(T)$ dans $\mathscr{M}^b(X)$ est alors un homéomorphisme de $\mathscr{M}_+^b(T)$ sur $W$.
 
@@ -228,7 +228,7 @@ Mais on peut remplacer $f'$ et $f''$ par $f^0$ dans ces deux formules, puisque l
 
 L'énoncé de la prop. 8 ne vaut que pour des mesures *positives*: l’application $\mu \mapsto i(\mu)$ de $\mathscr{M}^b(T)$ dans $\mathscr{M}^b(X)$ est injective et continue, mais n’est en général pas un homéomorphisme de $\mathscr{M}^b(T)$ sur son image. Prenons par exemple $X = \mathbf{R}, T = \mathbf{R} - \{0\}$; les mesures $\lambda_t = \varepsilon_t - \varepsilon_{-t}$ ($t > 0$) convergent étroitement vers 0 dans $X$ lorsque $t$ tend vers 0, mais ne convergent pas étroitement vers 0 dans $T$ (la fonction caractéristique de ]0, $+\infty[$ appartient à $\mathscr{C}^b(T)$) (cf. cependant le cor. du th. 1 du n° 5).
 
-#### Proposition 9 {#int-ix-s5-prop-9 .statement}
+#### Proposition 9 {#int-ix-s5-prop-9 .statement tag=09RB}
 
 *Soit T un espace localement compact, et soit $\mathfrak{F}$ un filtre sur $\mathscr{M}^b_+(T)$ qui converge vaguement vers une mesure bornée $\mu$. Pour que $\mathfrak{F}$ converge étroitement vers $\mu$, il faut et il suffit que l’on ait $\lim_{\lambda} \lambda(1) = \mu(1)$ suivant $\mathfrak{F}$.*
 
@@ -242,7 +242,7 @@ pour des fonctions $g \in \mathscr{C}^b(X)$ qui forment un ensemble total dans $
 
 Remarquons d’abord que, si $T$ est complètement régulier, $\mathscr{M}^b(T)$ est un espace vectoriel topologique séparé, donc complètement régulier. Par suite, $\mathscr{M}_+^b(T)$ est complètement régulier.
 
-#### Proposition 10 {#int-ix-s5-prop-10 .statement}
+#### Proposition 10 {#int-ix-s5-prop-10 .statement tag=09RC}
 
 *Soit T un espace polonais; l’espace $\mathscr{M}_+^b(T)$ est alors polonais pour la topologie étroite.*
 
@@ -250,13 +250,13 @@ Nous commencerons par traiter le cas où T est polonais et *compact*. L’ensemb
 
 Passons au cas où T est polonais; on peut supposer que T est l’intersection d’une suite décroissante $(G_n)$ d’ouverts dans un espace compact métrisable X (*Top. gén.*, chap. IX, 3e éd., § 6, n° 1, cor. 1 du th. 1); l’espace $\mathscr{M}_+^b(T)$ est alors homéomorphe au sous-espace W de $\mathscr{M}_+^b(X)$ constitué par les mesures concentrées sur T (n° 3, prop. 8), et il nous suffit de montrer que W est l’intersection d’une suite d’ouverts dans l’espace polonais $\mathscr{M}_+^b(X)$ (*loc. cit.*, cor. 1 du th. 1). Or, soit $W_n$ l’ensemble des mesures $\mu \in \mathscr{M}_+^b(X)$ concentrées sur $G_n$; l’application $h_n : \mu \mapsto \mu^*(X - G_n)$ sur $\mathscr{M}_+^b(X)$ est semi-continue supérieurement (n° 3, prop. 6), et l’ensemble $A_k^n$ des mesures $\mu \in \mathscr{M}_+^b(X)$ telles que $h_n(\mu) < 1/k$ est donc ouvert pour tout $k \geq 1$ et tout $n \in \mathbf{N}$. On achève alors la démonstration en remarquant que $W = \bigcap_n W_n = \bigcap_{n, k} A_k^n$.
 
-#### Corollaire 1 {#int-ix-s5-prop-10-cor-1 .statement}
+#### Corollaire 1 {#int-ix-s5-prop-10-cor-1 .statement tag=09RD}
 
 *Si T est un espace métrisable de type dénombrable, $\mathscr{M}_+^b(T)$ est métrisable de type dénombrable pour la topologie étroite.*
 
 En effet, soit $\hat{T}$ le complété de T pour une métrique définissant la topologie de T; l’espace $\hat{T}$ est polonais, et $\mathscr{M}_+^b(\hat{T})$ est homéomorphe au sous-espace de l’espace polonais $\mathscr{M}_+^b(\hat{T})$, constitué par les mesures concentrées sur T (n° 3, prop. 8). Or tout sous-espace d’un espace polonais est métrisable de type dénombrable (*Top. gén.*, chap. IX, 3e éd., § 2, n° 8, cor. de la prop. 11).
 
-#### Corollaire 2 {#int-ix-s5-prop-10-cor-2 .statement}
+#### Corollaire 2 {#int-ix-s5-prop-10-cor-2 .statement tag=09RE}
 
 *Si T est un espace souslinien (resp. lusinien) complètement régulier, l’espace $\mathscr{M}_+^b(T)$ est souslinien (resp. lusinien).*
 
@@ -266,7 +266,7 @@ Soit T un espace souslinien complètement régulier (rappelons qu’il suffit po
 
 ### 5. Critère de compacité pour la convergence étroite
 
-#### Définition 2 {#int-ix-s5-def-2 .statement}
+#### Définition 2 {#int-ix-s5-def-2 .statement tag=09RF}
 
 *Soit T un espace topologique, et soit H une partie de $\mathscr{M}^b(T)$; on dit que H satisfait à la condition de Prokhorov si*
 a) *on a* $\sup_{\mu \in H} |\mu|(1) < +\infty;$
@@ -278,7 +278,7 @@ $$
 
 On peut montrer que, si T est complètement régulier, l’ensemble des conditions a) et b) est équivalent à la condition suivante: il existe une fonction réelle $f \geq 1$ sur T, telle que l’ensemble des points t de T satisfaisant à $f(t) \leq c$ soit compact pour tout $c \in \mathbf{R}_+$ (ce qui entraîne en particulier que $f$ est semi-continue inférieurement), et telle que l’on ait $\sup_{\mu \in H} |\mu|(f) < +\infty$. De plus, lorsque T est localement compact, on obtient un énoncé équivalent en imposant à $f$ d’être continue (cf. exerc. 10).
 
-#### Proposition 11 {#int-ix-s5-prop-11 .statement}
+#### Proposition 11 {#int-ix-s5-prop-11 .statement tag=09RG}
 
 *Soit T un espace complètement régulier, et soit H une partie de $\mathscr{M}^b(T)$ qui satisfait à la condition de Prokhorov; son adhérence $\overline{H}$ dans $\mathscr{M}^b(T)$ satisfait alors à la condition de Prokhorov.*
 
@@ -286,7 +286,7 @@ En effet, les fonctions $\mu \mapsto |\mu|^\bullet(1), \mu \mapsto |\mu|^\bullet
 
 L’intérêt de la condition de Prokhorov vient du théorème suivant, dont on étudiera la réciproque plus loin (th. 2).
 
-#### Théorème 1 (Prokhorov) {#int-ix-s5-thm-1 .statement}
+#### Théorème 1 (Prokhorov) {#int-ix-s5-thm-1 .statement tag=09RH}
 
 *Soit T un espace complètement régulier, et soit H une partie de $\mathscr{M}^b(T)$ qui satisfait à la condition de Prokhorov; H est alors relativement compacte dans $\mathscr{M}^b(T)$ pour la topologie étroite.*
 
@@ -300,7 +300,7 @@ comme $\varepsilon > 0$ est arbitraire, le théorème est établi dans le cas pa
 
 Passons au cas général; pour toute mesure $\mu$ sur T, posons $a_1(\mu) = \Re(\mu)^+$, $a_2(\mu) = \Re(\mu)^-$, $a_3(\mu) = \Im(\mu)^+$, $a_4(\mu) = \Im(\mu)^-$; comme on a $\mu = a_1(\mu) - a_2(\mu) + ia_3(\mu) - ia_4(\mu)$, il suffit de montrer que les applications $a_j$ ($j = 1, 2, 3, 4$) convergent étroitement suivant U. Mais l’ensemble $H_j$ des mesures $a_j(\mu)$, où $\mu$ parcourt H, satisfait à la condition de Prokhorov en vertu de la relation $|a_j(\mu)| \leq |\mu|$, et il est contenu dans $\mathscr{M}_+^b(T)$; il est donc relativement compact dans $\mathscr{M}_+^b(T)$ d’après le cas particulier, et le théorème en résulte aussitôt.
 
-#### Corollaire {#int-ix-s5-n5-cor-1 .statement}
+#### Corollaire {#int-ix-s5-n5-cor-1 .statement tag=09RI}
 
 *Soit T un sous-espace d’un espace complètement régulier X, et soit H une partie de $\mathscr{M}_+^b(T)$, qui satisfait à la condition de Prokhorov. Si i désigne l’injection canonique de T dans X, la restriction à H de l’application $\mu \mapsto i(\mu)$ de $\mathscr{M}_+^b(T)$ dans $\mathscr{M}_+^b(X)$ est un homéomorphisme de H sur son image.*
 
@@ -308,7 +308,7 @@ Il suffit de traiter le cas où H est fermée (prop. 11), donc compacte; cela r�
 
 Rappelons que ce résultat vaut aussi pour une partie quelconque de $\mathscr{M}_+^b(T)$ (n° 3, prop. 8).
 
-#### Théorème 2 {#int-ix-s5-thm-2 .statement}
+#### Théorème 2 {#int-ix-s5-thm-2 .statement tag=09RJ}
 
 *Soit T un espace localement compact, ou un espace polonais, et soit H une partie relativement compacte de $\mathscr{M}_+^b(T)$; H satisfait alors à la condition de Prokhorov.*
 
@@ -324,7 +324,7 @@ La condition de Prokhorov est donc vérifiée.
 
 ### 6. Convergence étroite des mesures et convergence compacte des fonctions
 
-#### Proposition 12 {#int-ix-s5-prop-12 .statement}
+#### Proposition 12 {#int-ix-s5-prop-12 .statement tag=09RK}
 
 Soit $T$ un espace complètement régulier, et soit $B$ la boule unité de l’espace normé $\mathscr{C}^b(T, \mathbf{C})$. Soit $I$ une forme linéaire sur $\mathscr{C}^b(T, \mathbf{C})$. Pour qu’il existe une mesure complexe bornée $\theta$ sur $T$ telle que $I(f) = \theta(f)$ pour tout $f \in \mathscr{C}^b(T, \mathbf{C})$, il faut et il suffit que la restriction de $I$ à $B$ soit continue pour la topologie de la convergence compacte. La mesure $\theta$ est alors unique.
 
@@ -336,7 +336,7 @@ car $|g - f|$ est majorée par $\varepsilon$ sur $K$ et par $2$ sur $T - K$.
 
 Réciproquement, considérons une forme linéaire $I$ sur $\mathscr{C}^b(T, \mathbf{C})$, dont la restriction à $B$ soit continue pour la topologie de la convergence compacte. Pour tout nombre $\varepsilon > 0$, il existe alors un nombre $a > 0$ et une partie compacte $K$ de $T$ tels que les relations $f \in B, \sup_{x \in K} |f(x)| \leq a$ entraînent $|I(f)| \leq \varepsilon$. La prop. 5 du n° 2 entraîne alors l’existence d’une mesure complexe bornée $\theta$, unique, telle que $I(f) = \theta(f)$ pour tout $f \in \mathscr{C}^b(T, \mathbf{C})$.
 
-#### Proposition 13 {#int-ix-s5-prop-13 .statement}
+#### Proposition 13 {#int-ix-s5-prop-13 .statement tag=09RL}
 
 Soient $T$ un espace localement compact, et $H$ une partie bornée de l’espace normé $\mathscr{C}^b(T, \mathbf{C})$. L’application $(\mu, f) \mapsto \mu(f)$ de $\mathscr{M}_+^b(T) \times H$ dans $\mathbf{C}$ est alors continue lorsqu’on munit $\mathscr{M}_+^b(T)$ de la topologie étroite, et $H$ de la topologie de la convergence compacte.
 
@@ -358,11 +358,11 @@ $$
 $$
 Ceci prouve la continuité de l’application $(\lambda, g) \mapsto \lambda(g)$ au point $(\mu, f)$ de $\mathscr{M}_+^b(T) \times H$.
 
-#### Remarque {#int-ix-s5-n6-rem-1 .statement}
+#### Remarque {#int-ix-s5-n6-rem-1 .statement tag=09RM}
 
 Soient T un espace complètement régulier, M une partie de $\mathscr{M}^b(T)$ qui satisfait à la condition de Prokhorov, H une partie bornée de $C^b(T)$. Un raisonnement très voisin de celui qui vient d’être fait permet de prouver que l’application $(\lambda, g) \mapsto \lambda(g)$ de $M \times H$ dans $\mathbf{C}$ est continue lorsqu’on munit M de la topologie étroite et H de la topologie de la convergence compacte.
 
-#### Corollaire {#int-ix-s5-n6-cor-1 .statement}
+#### Corollaire {#int-ix-s5-n6-cor-1 .statement tag=09RN}
 
 Soient T un espace complètement régulier, X un espace topologique, f une fonction à valeurs complexes définie dans $T \times X$, continue et bornée. Pour toute mesure bornée $\mu$ sur T, soit $F_\mu$ la fonction sur X définie par $F_\mu(x) = \int_T f(t, x) \, d\mu(t)$ pour tout $x \in X$.
 a) La fonction $F_\mu$ est continue et bornée pour toute mesure bornée $\mu$.
@@ -389,7 +389,7 @@ $$
 
 D’après le th. 3 de Top. gén., 2e éd., chap. X, § 3, n° 4, l’application $(m, \chi) \mapsto \chi(m)$ de $M \times X$ dans $\mathbf{C}$ est continue et bornée. Le corollaire de la prop. 13 du n° 6 entraîne alors le résultat suivant:
 
-#### Proposition 14 {#int-ix-s5-prop-14 .statement}
+#### Proposition 14 {#int-ix-s5-prop-14 .statement tag=09RO}
 
 *Pour toute mesure complexe bornée $\mu$ sur $M$, la fonction $\mathscr{L}\mu$ sur $X$ est continue et bornée. Si l’on munit $\mathscr{M}_+^b(M)$ de la topologie étroite et $\mathscr{C}^b(X; \mathbf{C})$ de la topologie de la convergence compacte, l’application $\mu \mapsto \mathscr{L}\mu$ de $\mathscr{M}_+^b(M)$ dans $\mathscr{C}^b(X; \mathbf{C})$ est continue.*
 
@@ -397,7 +397,7 @@ L’ensemble des caractères de $M$ qui tendent vers 0 à l’infini sera noté 
 
 Supposons de plus que $M$ soit un groupe commutatif non compact. Soit $f$ une fonction dans $M$ qui tend vers 0 à l’infini; il en est alors de même de la fonction $x \mapsto f(x)f(-x)$ dans $M$, alors que tout caractère $\chi$ de $M$ satisfait à $\chi(x)\chi(-x) = \chi(0) = 1$. Il en résulte que $X_0$ est vide, et que $X$ ne contient aucun sous-monoïde plein. Le théorème 3 ci-dessous ne s’applique donc pas aux groupes localement compacts, mais non compacts.
 
-#### Théorème 3 {#int-ix-s5-thm-3 .statement}
+#### Théorème 3 {#int-ix-s5-thm-3 .statement tag=09RP}
 
 *Soit $S$ un sous-monoïde plein de $X$.
 a) Si $\mu$ et $\mu'$ sont deux mesures complexes bornées sur $M$, telles que $\mathscr{L}\mu$ et $\mathscr{L}\mu'$ aient même restriction à $S \cap X_0$, on a $\mu = \mu'$.
@@ -416,7 +416,7 @@ Plaçons-nous sous les hypothèses de b). Le nombre $\Phi(1) = \lim_{\lambda, \m
 
 Passons enfin à c). Comme les fonctions $\Phi$ et $\mathscr{L}\mu$ sont continues au point $1 \in S$, égales dans $S \cap X_0$, et comme 1 est adhérent à $S \cap X_0$, on a $\Phi(1) = \mathscr{L}\mu(1)$. Autrement dit, on a $\lim_{\lambda, \mathfrak{F}} \lambda(1) = \mu(1)$. La prop. 9 du n° 3 montre alors que $\mu$ est limite étroite du filtre $\mathfrak{F}$. Tout élément de $S$ étant une fonction continue bornée sur $M$, cela entraîne $\Phi(s) = \lim_{\lambda, \mathfrak{F}} \lambda(s) = \mu(s) = \mathscr{L}\mu(s)$ pour tout $s \in S$.
 
-#### Corollaire {#int-ix-s5-n7-cor-1 .statement}
+#### Corollaire {#int-ix-s5-n7-cor-1 .statement tag=09RQ}
 
 Soit $S$ un sous-monoïde plein de $X$, tel que 1 soit adhérent à $S \cap X_0$. Soit $L$ le sous-ensemble de $C^b(S; \mathbf{C})$ constitué par les restrictions à $S$ des transformées de Laplace des mesures $\lambda \in \mathscr{M}_+^b(M)$.
 
@@ -434,7 +434,7 @@ On prendra garde que $L$ n’est pas fermé dans l’ensemble de toutes les fonc
 
 Toute mesure $\mu$ sur $\mathbf{N}$ s’écrit de manière unique sous la forme $\mu = \sum_{n \in \mathbf{N}} u_n \cdot \varepsilon_n$ et $\mu$ est bornée si et seulement si $\sum_n |u_n| < +\infty$; on a alors $\mathscr{L}\mu(z) = \sum_{n \in \mathbf{N}} u_n z^n$ pour $z \in D$. Cette fonction est continue sur $D$; il est d’usage de l’appeler la *fonction génératrice* de la suite sommable $(u_n)_{n \in \mathbf{N}}$. Transcrit dans ce langage, le th. 3 nous donne le résultat suivant (compte tenu de la prop. 9 du n° 3):
 
-#### Proposition 15 {#int-ix-s5-prop-15 .statement}
+#### Proposition 15 {#int-ix-s5-prop-15 .statement tag=09RR}
 
 *Soit $A$ un ensemble muni d’un filtre $\mathfrak{F}$. Pour tout $\alpha \in A$, soit $(u_{\alpha, n})_{n \in \mathbf{N}}$ une suite sommable de nombres positifs, et soit $\Phi_\alpha$ la fonction définie dans l’intervalle ]$0, 1$] de $\mathbf{R}$ par $\Phi_\alpha(x) = \sum_{n \in \mathbf{N}} u_{\alpha, n} x^n$. Pour qu’il existe une suite sommable $(u_n)_{n \in \mathbf{N}}$ de nombres positifs telle que l’on ait*
 
@@ -448,7 +448,7 @@ On a des résultats analogues en prenant pour $M$ le monoïde $\mathbf{N}^n$, o�
 
 *Exemple 2).* — Prenons pour $M$ l’ensemble $\mathbf{R}_+$, muni de la loi d’addition et de la topologie usuelle. Soit $P$ l’ensemble des nombres complexes $z$ de partie réelle positive, muni de la topologie induite par $\mathbf{C}$ et de la loi induite par l’addition dans $\mathbf{C}$. Pour tout $p \in P$, désignons alors par $f(p)$ le caractère $x \mapsto e^{-px}$ de $\mathbf{R}_+$; il est aisé de vérifier que $f$ est un isomorphisme de la structure de monoïde topologique de $P$ sur celle de $X$; nous identifierons $X$ à $P$ au moyen de $f$. Il est clair que $\mathbf{R}_+$ est un sous-monoïde plein de $P$, et le th. 3 nous donne le résultat suivant.
 
-#### Proposition 16 {#int-ix-s5-prop-16 .statement}
+#### Proposition 16 {#int-ix-s5-prop-16 .statement tag=09RS}
 
 *Soit $A$ un ensemble muni d’un filtre $\mathscr{F}$. Pour tout $\alpha \in A$, soit $\mu_\alpha$ une mesure positive bornée sur $\mathbf{R}_+$, et soit $\Phi_\alpha$ la fonction définie sur $\mathbf{R}_+$ par $\Phi_\alpha(p) = \int_0^{+\infty} e^{-px} d\mu_\alpha(x)$. Pour que l’application $\alpha \mapsto \mu_\alpha$ converge étroitement suivant $\mathscr{F}$ vers une mesure positive bornée $\mu$, il faut et il suffit que $\Phi_\alpha$ converge simplement dans $\mathbf{R}_+$, suivant $\mathscr{F}$, vers une fonction $\Phi$ continue au point 0. On a dans ce cas $\Phi(p) = \int_0^{+\infty} e^{-px} d\mu(x)$ pour tout $p \in \mathbf{R}_+$.*
 

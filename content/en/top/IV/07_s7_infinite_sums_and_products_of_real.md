@@ -37,7 +37,7 @@ subsections:
       pdf_page: 376
 statements: 20
 exercises: 22
-content_sha256: d12e61abaa0776c3c22cc180ebafa3f47bdea5f60a24d2473807cbb0c4c47432
+content_sha256: 455d0ffdcd364c6ed9f0b7d02c710c2c2c96a2ff460df4ccbbd8a2f0e2e71d59
 ---
 
 ## 7. INFINITE SUMS AND PRODUCTS OF REAL NUMBERS
@@ -46,17 +46,19 @@ Since every point of $\mathbf{R}$ has a *countable* fundamental system of neighb
 
 ### 1. FAMILIES OF POSITIVE FINITE NUMBERS SUMMABLE IN $\mathbf{R}$
 
-#### Theorem 1 {#top-iv-s7-thm-1 .statement}
+#### Theorem 1 {#top-iv-s7-thm-1 .statement tag=0BT9}
 
 *A family* $(x_i)$ *of finite real numbers* $\geqslant 0$ *is summable in* $\mathbf{R}$ *if and only if the set of partial finite sums of the family is bounded above in* $\mathbf{R}$. *If so, the least upper bound of this set is the sum of the family* $(x_i)$.
 
 For each finite subset $H$ of the index set $I$, let $s_H = \sum_{i \in H} x_i$; since the $x_i$ are $\geqslant 0$, the relation $H \subset H'$ implies $s_H \leqslant s_{H'}$. In other words, the mapping $H \to s_H$ is an *increasing* function on the directed set $\mathfrak{F}(I)$ of finite subsets of $I$; therefore (§ 5, no. 2, Corollary to Theorem 2) it has a finite limit if and only if it is *bounded above*.
 
-#### Remark {#top-iv-s7-n1-rem-1 .statement}
+#### Remark {#top-iv-s7-n1-rem-1 .statement tag=0BTA}
 
 Let $(H_\lambda)$ be a family of finite subsets of $I$ such that, for each finite subset $H$ of $I$, there is an index $\lambda$ such that $H \subset H_\lambda$; then $(x_i)$ is summable if and only if the family of the $s_{H_\lambda}$ is *bounded above* in $\mathbf{R}$. In particular, let $(x_n)$ be a sequence of finite real numbers $\geqslant 0$, and for each integer $n$ let $s_n = \sum_{p=0}^n x_p$; then the sequence $(x_n)$ is summable in $\mathbf{R}$ if and only if, for *one sequence* of strictly increasing integers $(n_k)$, the partial sequence $(s_{n_k})$ is *bounded above* in $\mathbf{R}$.
 
-*Examples.* 1) For each number $q$ such that $0 \leqslant q < 1$, the sequence $(q^n)$ ("geometric progression of ratio $q$") is summable in $\mathbf{R}$, since
+#### Examples {#top-iv-s7-n1-exa-4 .statement tag=0EAD}
+
+1) For each number $q$ such that $0 \leqslant q < 1$, the sequence $(q^n)$ ("geometric progression of ratio $q$") is summable in $\mathbf{R}$, since
 $$
 s_n = \frac{1 - q^{n+1}}{1 - q} \leqslant \frac{1}{1 - q}
 $$
@@ -88,7 +90,7 @@ so that the criterion of Theorem 1 is not satisfied.
 
 5) Let $(I_n)$ be a sequence of mutually disjoint non-empty open intervals, all contained in an interval of finite length $l$. The sum of the lengths of a finite number of intervals of this family is $\leq l$ ($§ 1$, no. 5) and therefore the family of lengths of the $I_n$ is summable in $\mathbf{R}$, and its sum is $\leq l$.
 
-#### Theorem 2 (Principle of comparison) {#top-iv-s7-thm-2 .statement}
+#### Theorem 2 (Principle of comparison) {#top-iv-s7-thm-2 .statement tag=0BTB}
 
 *Let* $(x_i)_{i \in I}$ *and* $(y_i)_{i \in I}$ *be two families of finite real numbers* $\geq 0$, *such that* $x_i \leq y_i$ *for all* $i$. *If* $(y_i)$ *is summable in* $\mathbf{R}$ *then so is* $(x_i)$, *and we have* $\sum_i x_i \leq \sum_i y_i$; *if in addition there is an index* $x$ *such that* $x_x < y_x$, *then* $\sum_i x_i < \sum_i y_i$.
 
@@ -103,7 +105,7 @@ $$
 
 This theorem provides the most commonly used criterion for deciding whether or not a sequence $(x_n)$ of real numbers $\geq 0$ is summable in $\mathbf{R}$: we try to *compare* the given sequence with a simpler sequence $(y_n)$ of which we already know whether it is summable or not. If there exists a finite number $a > 0$ such that $x_n \leq a y_n$ for all $n$ from a certain point onwards, and if $(y_n)$ is summable, then $(x_n)$ is summable; if on the other hand there is a finite number $b > 0$ such that $x_n \geq b y_n$ for all $n$ from a certain point onwards, and if $(y_n)$ is not summable in $\mathbf{R}$, then $(x_n)$ is not summable in $\mathbf{R}$. We shall see in a later volume how such comparison sequences may be obtained in the cases which arise most frequently.
 
-#### Example 1 {#top-iv-s7-n1-exa-1 .statement}
+#### Example 1 {#top-iv-s7-n1-exa-1 .statement tag=0BTC}
 
 Let $a$ be a finite real number $> 0$, and consider the sequence $\left( \frac{a^n}{n!} \right)$; let $n_0$ be the smallest integer such that $a < n_0$. Then for each $n \geq n_0$ we have
 $$
@@ -111,7 +113,7 @@ $$
 $$
 since $q = \frac{a}{n_0} < 1$, the sequence $(q^{n-n_0})$ is summable, and therefore so is the sequence $\left( \frac{a^n}{n!} \right)$.
 
-#### Example 2 {#top-iv-s7-n1-exa-2 .statement}
+#### Example 2 {#top-iv-s7-n1-exa-2 .statement tag=0BTD}
 
 Let $(a_n)$ be a summable sequence of positive numbers. Since
 $$
@@ -119,7 +121,7 @@ $$
 $$
 there exists an integer $n_0$ such that $a_n \leq 1$ whenever $n \geq n_0$. Consequently, for each $n \geq n_0$ we have $a_n^2 \leq a_n$, and therefore the sequence $(a_n^2)$ is summable in $\mathbf{R}$. So is the sequence $(a_n^p)$ for each integer $p > 1$.
 
-#### Example 3 {#top-iv-s7-n1-exa-3 .statement}
+#### Example 3 {#top-iv-s7-n1-exa-3 .statement tag=0BTE}
 
 Let $a$ and $b$ be two numbers $< 1$; then
 $$
@@ -127,7 +129,7 @@ $$
 $$
 and hence the family $\left( \frac{1}{a^m + b^n} \right)$ is summable in $\mathbf{R}$.
 
-#### Corollary {#top-iv-s7-n1-cor-1 .statement}
+#### Corollary {#top-iv-s7-n1-cor-1 .statement tag=0BTF}
 
 *Let* $(x_i)_{i \in I}$ *be a summable family of finite numbers* $\geq 0$ *in* $\mathbf{R}$. *If* $H$ *is any subset of* $I$, *we have*
 $$
@@ -137,7 +139,7 @@ $$
 
 ### 2. FAMILIES OF FINITE NUMBERS OF ARBITRARY SIGN SUMMABLE IN $\mathbf{R}$
 
-#### Theorem 3 {#top-iv-s7-thm-3 .statement}
+#### Theorem 3 {#top-iv-s7-thm-3 .statement tag=0BTG}
 
 *Let* $(x_i)_{i \in I}$ *be a family of finite real numbers; then the following statements are equivalent*:
 
@@ -153,7 +155,7 @@ We recall (Chapter III, § 5, no. 5, Proposition 6) that if $(x_i)$ and $(y_i)$ 
 
 ### 3. PRODUCT OF TWO INFINITE SUMS
 
-#### Proposition 1 {#top-iv-s7-prop-1 .statement}
+#### Proposition 1 {#top-iv-s7-prop-1 .statement tag=0BTH}
 
 *If the families* $(x_\lambda)_{\lambda \in L}$ *and* $(y_\mu)_{\mu \in M}$ *of finite real numbers are summable in* $\mathbf{R}$, *then so is the family* $(x_\lambda y_\mu)_{(\lambda, \mu) \in L \times M}$ *and we have*
 
@@ -176,10 +178,10 @@ hence the result.
 
 In the multiplicative group $\mathbf{R}^*$ of finite non-zero real numbers, a family $(x_i)_{i \in I}$ can be multipliable only if $\lim x_i = 1$ with respect to the filter of complements of finite subsets of $I$ (Chapter III, § 5, no. 2, Proposition 1). In particular there can be only a *finite* number of indices $i$ such that $x_i < 0$. We may therefore limit ourselves to considering only families $x_i$ all of whose terms are strictly positive; it is then convenient to put $x_i = 1 + u_i$, where the $u_i$ are subject to the inequalities $-1 < u_i < +\infty$ for all $i$. Since each point of $\mathbf{R}^*$ has a countable fundamental system of neighbourhoods, the set of indices $i$ such that $u_i \neq 0$ is countable, if the family $(1 + u_i)$ is multipliable in $\mathbf{R}^*$.
 
-#### Theorem 4 {#top-iv-s7-thm-4 .statement}
+#### Theorem 4 {#top-iv-s7-thm-4 .statement tag=0BTI}
 
 *The family* $(1 + u_i)$ *is multipliable in* $\mathbf{R}^*$ *if and only if the family* $(u_i)$ *is summable in* $\mathbf{R}$.
-#### Lemma (i) {#top-iv-s7-n4-lem-1 .statement}
+#### Lemma (i) {#top-iv-s7-n4-lem-1 .statement tag=0BTJ}
 
 *If* $(a_i)_{1 \leq i \leq p}$ *is a finite sequence of numbers* $> 0$, *then*
 $$
@@ -227,7 +229,7 @@ In Chapter V (§ 4), the topological study of the group $\mathbf{R}^*$ will enab
 
 On the interval $[0, + \infty]$ of $\overline{\mathbf{R}}$, addition is an associative and commutative law of composition (§ 4, no. 3); hence the notion of a *summable* family of numbers in this interval is defined (Chapter III, § 5, no. 1, Remark 3).
 
-#### Proposition 2 {#top-iv-s7-prop-2 .statement}
+#### Proposition 2 {#top-iv-s7-prop-2 .statement tag=0BTK}
 
 *Every family* $(x_i)$ *of real numbers* $\geq 0$ *is summable in* $\overline{\mathbf{R}}$.
 
@@ -237,19 +239,19 @@ The same reasoning shows that every family of real numbers $\leq 0$ is summable 
 
 Similarly, multiplication is an associative and commutative law of composition on each of the intervals $[0, 1]$ and $[1, + \infty]$ of $\overline{\mathbf{R}}$, and therefore the notion of a multipliable family is defined on each of these intervals.
 
-#### Proposition 3 {#top-iv-s7-prop-3 .statement}
+#### Proposition 3 {#top-iv-s7-prop-3 .statement tag=0BTL}
 
 Every family $(1 + u_i)$ [resp. $(1 - u_i)$] of numbers $\geq 1$ (resp. $\geq 0$ and $\leq 1$) is multipliable in $\overline{\mathbf{R}}$.
 
 Same proof as for Proposition 2.
 
-#### Corollary {#top-iv-s7-n5-cor-1 .statement}
+#### Corollary {#top-iv-s7-n5-cor-1 .statement tag=0BTM}
 
 The product $\prod (1 + u_i)$ [resp. $\prod (1 - u_i)$] of numbers $\geq 1$ (resp. $> 0$ and $\leq 1$) is equal to $+ \infty$ (resp. 0) if and only if $\sum u_i = + \infty$.
 
 For if $\sum u_i$ is finite then $\prod (1 + u_i)$ and $\prod (1 - u_i)$ are in $\mathbf{R}^*$, and conversely (no. 4, Theorem 4).
 
-#### Remark {#top-iv-s7-n5-rem-1 .statement}
+#### Remark {#top-iv-s7-n5-rem-1 .statement tag=0BTN}
 
 The theorem of associativity (Chapter III, § 5, no. 3, Theorem 2) remains valid when G is replaced by $\overline{\mathbf{R}}$ and the $x_i$ are assumed to be $\geq 0$. This is clear if $\sum_{i \in I} x_i$ is finite. Suppose, on the contrary, that $\sum_{i \in I} x_i = + \infty$. Then for each finite $a > 0$ there is a finite subset H of I such that $\sum_{i \in H} x_i \geq a$. Let K be a finite subset of L such that $H \subset \bigcup_{\lambda \in K} I_\lambda$; then since $s_\lambda \geq \sum_{i \in I_\lambda \cap H} x_i$ for all $\lambda \in K$, we have
 $$
@@ -261,11 +263,11 @@ which shows that $\sum_{\lambda \in L} s_\lambda = + \infty$. We leave to the re
 
 A series of finite real numbers is simply said to be convergent if it is convergent in $\mathbf{R}$.
 
-#### Definition 1 {#top-iv-s7-def-1 .statement}
+#### Definition 1 {#top-iv-s7-def-1 .statement tag=0BTO}
 
 A series of finite real numbers is said to be absolutely convergent if the series of absolute values of its terms is convergent.
 
-#### Proposition 4 {#top-iv-s7-prop-4 .statement}
+#### Proposition 4 {#top-iv-s7-prop-4 .statement tag=0BTP}
 
 A series of finite real numbers is commutatively convergent if and only if it is absolutely convergent.
 
@@ -279,7 +281,7 @@ $$
 
 As we have already remarked in Chapter III, § 5, a series of real numbers can be convergent without being commutatively convergent, that is, without being absolutely convergent.
 
-#### Example {#top-iv-s7-n6-exa-1 .statement}
+#### Example {#top-iv-s7-n6-exa-1 .statement tag=0BTQ}
 
 *Alternating series.* A series defined by a sequence $(u_n)$ of finite real numbers is called *alternating* if $u_n = (-1)^n v_n$, where $v_n \geq 0$ for all $n$. Let us show that a *sufficient* condition for the convergence of such a series is that the *sequence* $(v_n)$ *decreases and has* 0 *as its limit*. For if $s_n$ denotes
 $$
@@ -309,11 +311,11 @@ It should be noted that, if we suppose the series $(v_n)$ to be convergent but n
 
 An infinite product of finite non-zero real numbers is said simply to be convergent if it is convergent in $\mathbf{R}^*$; its value is then a finite non-zero real number.
 
-#### Definition 2 {#top-iv-s7-def-2 .statement}
+#### Definition 2 {#top-iv-s7-def-2 .statement tag=0BTR}
 
 *An infinite product whose general factor is $1 + u_n$ is said to be absolutely convergent if the product whose general factor is $1 + |u_n|$ is convergent.*
 
-#### Proposition 5 {#top-iv-s7-prop-5 .statement}
+#### Proposition 5 {#top-iv-s7-prop-5 .statement tag=0BTS}
 
 *An infinite product of finite real numbers is commutatively convergent if and only if it is absolutely convergent.*
 
@@ -323,7 +325,7 @@ Moreover, the product whose general factor is $1 + u_n$ is *absolutely convergen
 
 A product of non-zero real numbers can be convergent without being commutatively convergent, i.e. without being absolutely convergent.
 
-#### Example {#top-iv-s7-n6-exa-2 .statement}
+#### Example {#top-iv-s7-n6-exa-2 .statement tag=0BTT}
 
 If we take $u_{2n-1} = -1/n$ and $u_{2n} = 1/n$ for $n \geq 2$, the product $(1 + u_n)$ is not absolutely convergent, since the series $(u_n)$ is not absolutely convergent; but since
 

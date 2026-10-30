@@ -21,7 +21,7 @@ subsections:
       pdf_page: 75
 statements: 6
 exercises: 0
-content_sha256: e96571d89064f38b59db9859d5e3e825e324fc8128b4b8b18452b0c599eb28c5
+content_sha256: ff318e8c42842ae19cc74bc9c4e9a01d06af24cabf2f09dab4e18160c2f71a87
 ---
 
 ## APPENDICE
@@ -66,13 +66,13 @@ Soient maintenant $E, F$ deux espaces localement convexes séparés, $E', F'$ le
 
 Soit $\mathscr{B}(E, F)$ l’espace des formes bilinéaires continues sur $E \times F$ ($E$ et $F$ étant munis de leurs topologies initiales) ; on a $\mathscr{B}(E, F) \subset \mathscr{B}(E, F)$.
 
-#### Proposition 1 {#int-vi-a0-prop-1 .statement}
+#### Proposition 1 {#int-vi-a0-prop-1 .statement tag=09CS}
 
 *Pour qu’une forme bilinéaire* $\Phi \in \mathscr{B}(E, F)$ *appartienne à* $\mathscr{B}(E, F)$, *il faut et il suffit qu’il existe un voisinage de* 0 *dans* $E$ *dont l’image par* ${}^t\Phi$ *soit une partie équicontinue de* $F'$.
 
 En effet, dire que $\Phi$ est continue signifie qu’il existe un voisinage convexe équilibré $V$ (resp. $W$) de 0 dans $E$ (resp. $F$) tels que $|\Phi(x, y)| \leq 1$ pour $x \in V,\ y \in W$; cela s’écrit $|\langle {}^t\Phi(x), y \rangle| \leq 1$, pour $x \in V$ et $y \in W$, ou encore $l'\Phi(V) \subset W^0$; d'où la proposition, compte tenu du fait que toute partie équicontinue de $F'$ est contenue dans le polaire d'un voisinage de 0 dans $F$.
 
-#### Corollaire {#int-vi-a0-n1-cor-1 .statement}
+#### Corollaire {#int-vi-a0-n1-cor-1 .statement tag=09CT}
 
 *Si $\Phi$ est une forme bilinéaire continue dans $E \times F$, $l'\Phi$ est une application linéaire continue de $E$ dans le dual fort $F'_b$ de $F$. Si en outre $E$ et $F$ sont normés, on a $\|l'\Phi\| = \|\Phi\|$.*
 
@@ -93,23 +93,23 @@ En échangeant les rôles de $E$ et $F$, on obtient des résultats analogues à 
 
 Nous savons déjà que tout espace de Fréchet possède la propriété (GDF) (*Esp. vect. top.*, chap. I, § 3, no 3, cor. 5 du th. 1).
 
-#### Proposition 2 {#int-vi-a0-prop-2 .statement}
+#### Proposition 2 {#int-vi-a0-prop-2 .statement tag=09CU}
 
 *Soient $E$ un espace vectoriel, $(F_\alpha)_{\alpha \in \Lambda}$ une famille d’espaces localement convexes possédant la propriété (GDF), et pour chaque $\alpha \in \Lambda$, soit $h_\alpha$ une application linéaire de $F_\alpha$ dans $E$. Si on munit $E$ de la topologie localement convexe la plus fine rendant continues les $h_\alpha$, $E$ possède la propriété (GDF).*
 
 Soit $u$ une application linéaire de $E$ dans un espace de Banach $B$, telle que toute limite dans $E \times B$ de toute suite convergente de points du graphe $\Gamma$ de $u$ appartienne encore à $\Gamma$. Il suffit de montrer que, pour tout $\alpha \in \Lambda$, $u \circ h_\alpha$ est continue dans $F_\alpha$ (*Esp. vect. top.*, chap. II, § 2, no 2, cor. de la prop. 1). Or, soit $(x_n)$ une suite d’éléments de $F_\alpha$ ayant une limite $a$ et telle que la suite $(u(h_\alpha(x_n)))$ ait une limite $b \in B$. Comme $h_\alpha$ est continue, $h_\alpha(a)$ est une limite de la suite $(h_\alpha(x_n))$ dans $E$; par hypothèse, on a donc $b = u(h_\alpha(a))$, et comme $F_\alpha$ possède la propriété (GDF), $u \circ h_\alpha$ est continue.
 
-#### Corollaire {#int-vi-a0-n2-cor-1 .statement}
+#### Corollaire {#int-vi-a0-n2-cor-1 .statement tag=09CV}
 
 *Tout espace quotient d’un espace localement convexe possédant la propriété* (GDF) *possède la propriété* (GDF).
 
-#### Proposition 3 {#int-vi-a0-prop-3 .statement}
+#### Proposition 3 {#int-vi-a0-prop-3 .statement tag=09CW}
 
 *Le dual fort d’un espace de Fréchet réflexif possède la propriété* (GDF).
 
 C’est une conséquence de la prop. 2 et du lemme suivant :
 
-#### Lemme 1 {#int-vi-a0-lem-1 .statement}
+#### Lemme 1 {#int-vi-a0-lem-1 .statement tag=0E6X}
 
 *Soient F un espace de Fréchet, F' son dual fort, F'' son bidual. Si toute partie de F'', bornée pour $\sigma(F'', F')$, est contenue dans l’adhérence (pour $\sigma(F'', F')$) d’une partie bornée de F, alors F' est limite inductive d’une suite d’espaces de Banach.*
 

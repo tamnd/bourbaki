@@ -25,9 +25,9 @@ subsections:
       pdf_page: 305
 statements: 6
 exercises: 3
-content_sha256: 2d1d9b9c6fd9c9cc902ea0144d488877b0b38f3c3d44ab4a82242be40b885713
+content_sha256: 203fe00a3b993d7c00e31f5560bc6955f3e72c5751fa4e2955034e9884d79644
 translated_from: content/en/ac/IV/03_s3_primary_decomposition_in_graded_modules.md
-source_content_sha256: 77da47eff4a9cd348b9b5750f0406855ff25790acc8bc710348c578033c3e472
+source_content_sha256: 44d441232ef2de6c8b1ed43a9b9091b103360b9960ee00be0b5d251f8b5a5aff
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-5035aace
 glossary_version: 34
@@ -39,7 +39,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC IĐÊAN NGUYÊN TỐ LIÊN KẾT VỚI MỘT MÔĐUN PHÂN BẬC
 
-#### Mệnh đề 1 {#ac-iv-s3-prop-1 .statement}
+#### Mệnh đề 1 {#ac-iv-s3-prop-1 .statement tag=04MJ}
 
 Cho $A$ là một nhóm giao hoán xoắn tự do, $A$ là một vành phân bậc kiểu $A$ và $M$ là một $A$-môđun phân bậc kiểu $A$. Mọi iđêan nguyên tố liên kết với $M$ đều phân bậc và là linh hóa tử của một phần tử thuần nhất của $M$.
 
@@ -53,13 +53,13 @@ ta kết luận rằng $a_m x_j$ là một tổ hợp tuyến tính của các $
 
 Ta chứng minh rằng $p$ là linh hóa tử của một phần tử thuần nhất của $M$. Ta viết $b_n = \operatorname{Ann}(x_{i(n)})$ với $1 \leq n \leq r$. Với mọi phần tử thuần nhất $b$ của $p$ và mọi $n$, thành phần thuần nhất của $bx$ có bậc $i(n) + \deg(b)$ là $bx_{i(n)}$, do đó $bx_{i(n)} = 0$ và vì thế $b \in 6$; vì $p$ được sinh bởi các phần tử thuần nhất của nó, $p \subset 6$. Mặt khác, rõ ràng $\bigcap_{n=1}^r 6_n \subset \operatorname{Ann}(x) = p$; vì $p$ là nguyên tố, tồn tại một $n$ sao cho $b_n \subset p$ (Chương 11, § 1, no. 1, Mệnh đề 1), do đó $b_n = P = \operatorname{Ann}(x_{i(n)})$, điều này hoàn thành chứng minh.
 
-#### Hệ quả {#ac-iv-s3-n1-cor-1 .statement}
+#### Hệ quả {#ac-iv-s3-n1-cor-1 .statement tag=04MK}
 
 Với mọi iđêan nguyên tố $p$ (tất yếu là phân bậc) liên kết với một $A$-môđun phân bậc $M$, tồn tại một chỉ số $k \in A$ sao cho $A$-môđun phân bậc $(A/p)(k)$ nhận được từ $A$-môđun phân bậc $A/p$ bằng cách làm giảm các bậc đi $k$ (Đại số, Chương II, § 11, no. 2) là đẳng cấu với một môđun con phân bậc của $M$.
 
 Với ký hiệu của chứng minh Mệnh đề 1, xét đồng cấu nhận được, bằng cách lấy thương, từ đồng cấu $a \mapsto ax_{i(n)}$ của $A$ vào $M$; đồng cấu sau là một đồng cấu phân bậc có bậc $i(n)$ và do đó nó cho, khi lấy thương, một đồng cấu phân bậc song ánh có bậc $i(n)$ từ $A/p$ lên một môđun con phân bậc của $M$.
 
-#### Mệnh đề 2 {#ac-iv-s3-prop-2 .statement}
+#### Mệnh đề 2 {#ac-iv-s3-prop-2 .statement tag=04ML}
 
 *Cho $A$ là một nhóm giao hoán không xoắn, $A$ là một vành Noether phân bậc kiểu $A$ và $M$ là một $A$-môđun phân bậc sinh hữu hạn kiểu $A$. Tồn tại một chuỗi hợp thành $(\mathbf{M}_i)_{0 \leq i \leq n}$ gồm các môđun con phân bậc của $M$ sao cho với $0 \leq i \leq n - 1$ môđun phân bậc $\mathbf{M}_i / \mathbf{M}_{i+1}$ là đẳng cấu với một môđun phân bậc dịch chuyển $(A/p_i)(k_i)$, trong đó $p_i$ là một iđêan nguyên tố phân bậc của $A$ và $k_i \in A$.*
 
@@ -67,13 +67,13 @@ Chỉ cần lần lại lập luận của § 1, no. 4, Định lý 1, trong d�
 
 ### 2. CÁC MÔĐUN CON NGUYÊN SƠ TƯƠNG ỨNG VỚI CÁC IĐÊAN NGUYÊN TỐ PHÂN BẬC
 
-#### Mệnh đề 3 {#ac-iv-s3-prop-3 .statement}
+#### Mệnh đề 3 {#ac-iv-s3-prop-3 .statement tag=04MM}
 
 *Cho $A$ là một nhóm giao hoán không xoắn, $A$ là một vành Noether phân bậc kiểu $A$, $p$ là một iđêan phân bậc của $A$ và $M$ là một $A$-môđun phân bậc kiểu $A$ không rút gọn về $0$. Giả sử rằng với mọi phần tử thuần nhất $a$ của $p$, phép vị tự tỉ số $a$ trên $M$ là gần lũy linh và với mọi phần tử thuần nhất $b$ của $A - p$, phép vị tự tỉ số $b$ trên $M$ là đơn ánh. Khi đó $p$ là nguyên tố và môđun con $\{0\}$ của $M$ là $p$-nguyên sơ.*
 
 Chỉ cần chứng minh rằng $\operatorname{Ass}(M) = \{p\}$ (§ 2, no. 1, Mệnh đề 1). Cho $q$ là một iđêan nguyên tố liên kết với $M$; nó là một iđêan phân bậc và là linh hóa tử của một phần tử thuần nhất $x \neq 0$ của $M$ (no. 1, Mệnh đề 1). Với mọi phần tử thuần nhất $a$ của $q$, $ax = 0$ và do đó phép vị tự tỉ số $a$ trên $M$ không là đơn ánh, do đó $a \in p$. Ngược lại, cho $b$ là một phần tử thuần nhất của $p$; tồn tại một số nguyên $n > 0$ sao cho $b^n x = 0$, do đó $b^n \in \operatorname{Ann}(x) = q$ và, vì $q$ là nguyên tố, $b \in q$. Vì $p$ và $q$ được sinh bởi các phần tử thuần nhất tương ứng của chúng, $p = q$, điều này chứng minh rằng $\operatorname{Ass}(M) \subset \{p\}$. Vì $M \neq \{0\}, \operatorname{Ass}(M) \# \varnothing$ (§ 1, no. 1, Hệ quả 1 của Mệnh đề 2), do đó $\operatorname{Ass}(M) = \{p\}$.
 
-#### Mệnh đề 4 {#ac-iv-s3-prop-4 .statement}
+#### Mệnh đề 4 {#ac-iv-s3-prop-4 .statement tag=04MN}
 
 *Cho $A$ là một nhóm giao hoán không xoắn, $A$ là một vành Noether phân bậc kiểu $A$ và $M$ là một $A$-môđun phân bậc kiểu $A$. Cho $p$ là một iđêan nguyên tố của $A$ và $N$, một môđun con của $M$ là $p$-nguyên sơ đối với $M$.
 
@@ -87,7 +87,7 @@ Bây giờ xét một phần tử thuần nhất $b$ của $A - p'$; khi đó $b
 
 ### 3. PHÂN TÍCH NGUYÊN SƠ TRONG CÁC MÔĐUN PHÂN BẬC
 
-#### Mệnh đề 5 {#ac-iv-s3-prop-5 .statement}
+#### Mệnh đề 5 {#ac-iv-s3-prop-5 .statement tag=04MO}
 
 Cho $A$ là một nhóm giao hoán không xoắn, $A$ là một vành Noether phân bậc kiểu $A$, $M$ là một $A$-môđun phân bậc kiểu $M$, $N$ là một môđun con phân bậc của $M$ và $N = \bigcap_{i \in I} Q_i$ là một phân tích nguyên sơ của $N$ trong $M$.
 

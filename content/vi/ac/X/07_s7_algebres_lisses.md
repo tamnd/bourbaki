@@ -53,7 +53,7 @@ subsections:
       pdf_page: 101
 statements: 39
 exercises: 15
-content_sha256: b30f3e8ef47bf99324c621ee24a84e4846523239167c5290d6cdee389e8668d7
+content_sha256: 4d1c949dc2195b47638690705612878915224ff15621ed6d7d3d921be5dd3149
 translated_from: content/en-mt/ac/X/07_s7_algebres_lisses.md
 source_lang: en-mt
 translation_method: machine
@@ -73,7 +73,7 @@ Cho $k$ là một vành, $C$ là một $k$-đại số và $N$ là một iđêan
 
 Cho $A$ là một $k$-đại số và $\varphi : A \to C/N$ là một đồng cấu các $k$-đại số. Trang bị cho $N$ cấu trúc $A$-môđun suy ra từ $\varphi$. Một *phép nâng của $\varphi$* (lên $C$) được hiểu là mọi đồng cấu các $k$-đại số $\tilde{\varphi} : A \to C$ sao cho $\pi \circ \tilde{\varphi} = \varphi$. Cho $\tilde{\varphi}$ là một phép nâng như vậy, và $\delta$ là một ánh xạ từ $A$ vào $N$; gọi $\delta + \tilde{\varphi}$ là ánh xạ $x \mapsto \delta(x) + \tilde{\varphi}(x)$ từ $A$ vào $C$.
 
-#### Mệnh đề 1 {#ac-x-s7-prop-1 .statement}
+#### Mệnh đề 1 {#ac-x-s7-prop-1 .statement tag=0D8S}
 
 *Nếu $\varphi$ thừa nhận một phép nâng, thì ánh xạ $(\delta, \tilde{\varphi}) \mapsto \delta + \tilde{\varphi}$ xác định một phép toán đơn bắc cầu của nhóm các $k$-đạo hàm từ $A$ vào $N$ trên tập hợp các phép nâng của $\varphi$.*
 
@@ -90,7 +90,7 @@ $$
 
 đẳng thức cuối cùng thu được từ sự kiện rằng $N$ có bình phương bằng không. Mệnh đề được suy ra từ đó.
 
-#### Ví dụ {#ac-x-s7-n1-exa-1 .statement}
+#### Ví dụ {#ac-x-s7-n1-exa-1 .statement tag=0D8T}
 
 Cho $B$ là một $k$-đại số, $N$ là một $B$-môđun. Trang bị cho $k$-môđun $B \oplus N$ một cấu trúc $k$-đại số được xác định bởi $(b, x)(b', x') = (bb', bx' + b'x)$ (*xem* A, III, p. 127), sao cho $N$ là một iđêan bình phương-không của $B \oplus N$. Cho $\varphi : A \to B$ là một đồng cấu các $k$-đại số. Khi đó các phép nâng của $\varphi$ lên $B \oplus N$ là các ánh xạ $x \mapsto (\varphi(x), \delta(x))$, trong đó $\delta$ chạy qua tập hợp các $k$-đạo hàm từ $A$ vào $N$ (*xem loc. cit.*, mệnh đề 12).
 
@@ -106,7 +106,7 @@ trong đó $\bar{d}$ là đồng cấu cảm sinh, bằng cách chuyển qua th�
 
 Kí hiệu $\rho : A \to A/J^2$ và $\pi : A/J^2 \to A/J$ là các toàn cấu chính tắc. Cho $v : (A/J) \otimes_A \Omega_k(A) \longrightarrow J/J^2$ là một ánh xạ $k$-tuyến tính; với nó ta kết hợp một ánh xạ $k$-tuyến tính $H_v : A \to A/J^2$ bằng cách đặt $H_v(x) = \rho(x) - v(1 \otimes dx)$. Nếu $v$ là một phân rã của $\bar{d}$, thì $H_v$ triệt tiêu trên J, do đó cảm sinh, bằng cách chuyển qua thương, một ánh xạ $k$-tuyến tính $h_v : A/J \to A/J^2$. Mặt khác, với một ánh xạ $k$-tuyến tính $h : A/J \to A/J^2$ đã cho, kí hiệu $\psi_h : A/J \oplus J/J^2 \longrightarrow A/J^2$ là ánh xạ $(x, y) \mapsto h(x) + y$.
 
-#### Mệnh đề 2 {#ac-x-s7-prop-2 .statement}
+#### Mệnh đề 2 {#ac-x-s7-prop-2 .statement tag=0D8U}
 
 Trang bị cho $k$-môđun $A/J \oplus J/J^2$ cấu trúc của một $k$-đại số được xác định như trong ví dụ trên. Các ánh xạ $v \mapsto h_v$ và $h \mapsto \psi_h$ cảm sinh các song ánh giữa các tập hợp sau :
 
@@ -122,7 +122,7 @@ Trang bị cho $k$-môđun $A/J \oplus J/J^2$ cấu trúc của một $k$-đại
 
 Cho $k$ là một vành và $A$ là một $k$-đại số tôpô tuyến tính (III, § 4, No. 2, Def. 1).
 
-#### Định nghĩa 1 {#ac-x-s7-def-1 .statement}
+#### Định nghĩa 1 {#ac-x-s7-def-1 .statement tag=0D8V}
 
 Người ta nói rằng $A$ là trơn hình thức trên $k$, hay là một $k$-đại số trơn hình thức, nếu nó thỏa mãn điều kiện sau: với mọi $k$-đại số $C$ và mọi iđêan bình phương-không $N$ của $C$, mọi đồng cấu liên tục từ $A$ vào $k$-đại số $C/N$, được trang bị tôpô rời rạc, đều có thể nâng lên thành một đồng cấu liên tục từ $A$ vào $k$-đại số $C$, được trang bị tôpô rời rạc.
 
@@ -132,7 +132,7 @@ Cho $k$ là một vành, $A$ là một $k$-đại số và $J$ là một iđêan
 
 Ta sẽ nói rằng một $k$-đại số $A$ là trơn hình thức nếu nó trơn hình thức khi được trang bị tôpô rời rạc, nghĩa là tôpô $(0)$-adic; khi đó nó là trơn hình thức đối với tôpô $J$-adic, bất kể iđêan $J$ của $A$ là gì.
 
-#### Nhận xét 1 {#ac-x-s7-n2-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s7-n2-rem-1 .statement tag=0D8W}
 
 Cho $k$ là một vành, $A$ là một $k$-đại số và $J$ là một iđêan của $A$. Nếu $k$-đại số $A/J$ là trơn hình thức (đối với tôpô rời rạc), thì ánh xạ đồng nhất của $A/J$ chấp nhận một phép nâng lên $A/J^2$; do đó các tập hợp được mô tả trong Mệnh đề 2 là không rỗng. Đặc biệt, dãy
 
@@ -142,11 +142,11 @@ $$
 
 là khớp và tách.
 
-#### Nhận xét 2 {#ac-x-s7-n2-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s7-n2-rem-2 .statement tag=0D8X}
 
 Cho $k$ là một vành, $A$ là một $k$-đại số được tôpô hóa tuyến tính hình thức trơn, $M$ là một A-môđun mà linh hóa tử của nó là mở trong $A$. Khi đó mọi đạo hàm $\delta$ từ $k$ vào $M$ đều kéo dài được thành một đạo hàm từ $A$ vào $M$. Thật vậy, đặt $B = A/Ann(M)$; ánh xạ $\lambda \mapsto (\lambda 1_B, \delta(\lambda))$ xác định một đồng cấu vành từ $k$ vào $B \oplus M$ (No. 1, Ví dụ), tức là một cấu trúc $k$-đại số trên $B \oplus M$. Toàn cấu chính tắc $\varphi : A \to B$ là liên tục, và do đó nhận được một nâng $\tilde{\varphi} : A \to B \oplus M$; theo loc. cit., $pr_2 \circ \tilde{\varphi}$ là một đạo hàm từ $A$ vào $M$ kéo dài $\delta$.
 
-#### Mệnh đề 3 {#ac-x-s7-prop-3 .statement}
+#### Mệnh đề 3 {#ac-x-s7-prop-3 .statement tag=0D8Y}
 
 Cho $k$ là một vành.
 
@@ -176,7 +176,7 @@ c) Gọi $i : A \to \widehat{A}$ là đồng cấu chính tắc. Với mọi và
 
 Mệnh đề c) của mệnh đề áp dụng đặc biệt khi tôpô của $A$ là tôpô J-adic, trong đó J là một iđêan kiểu hữu hạn; bao đóng $\widehat{J}$ của J trong $\widehat{A}$ khi đó bằng $JA$ và tôpô của $\widehat{A}$ là tôpô $\widehat{J}$-adic (III, § 2, No. 12, Hệ quả 2 of Prop. 16). Do đó, nói rằng A là trơn hình thức đối với tôpô J-adic hay rằng hoàn thành tách của nó $\widehat{A}$ là trơn hình thức đối với tôpô J-adic là tương đương.
 
-#### Mệnh đề 4 {#ac-x-s7-prop-4 .statement}
+#### Mệnh đề 4 {#ac-x-s7-prop-4 .statement tag=0D8Z}
 
 Cho k là một vành, A và B các $k$-đại số, J một iđêan của A, K một iđêan của B.
 
@@ -226,17 +226,17 @@ Với mọi $x \in K$, ta có $g(x^p) = \lambda(\varphi(x))$. Vì $\lambda(\alph
 
 Cho $(a_i)_{i \in I}$ là một $p$-cơ sở của $K$ trên $k(K^p)$ (A, V, p. 98, định lý 2); với mọi $i \in I$, chọn một phần tử $b_i$ của $C$ sao cho $\pi(b_i) = \varphi(a_i)$. Ta có $h(a_i^p) = g(a_i^p) = \lambda(\varphi(a_i)) = \lambda(\pi(b_i)) = b_i^p$ với mọi $i \in I$. Theo A, V, p. 94, nhận xét, tồn tại một đồng cấu các $k$-đại số $\tilde{\varphi} : K \to C$, mở rộng $h$ và sao cho $\tilde{\varphi}(a_i) = b_i$ với mọi $i$. Ta có $\pi(\tilde{\varphi}(a_i)) = \pi(b_i) = \varphi(a_i)$ với mọi $i$ và $\pi(\tilde{\varphi}(x^p)) = \pi(h(x^p)) = \pi(g(x^p)) = \pi(\lambda(\varphi(x))) = \varphi(x^p)$ với mọi $x \in K$. Do đó $\pi \circ \tilde{\varphi} = \varphi$, điều này kết thúc chứng minh.
 
-#### Hệ quả {#ac-x-s7-n3-cor-1 .statement}
+#### Hệ quả {#ac-x-s7-n3-cor-1 .statement tag=0D90}
 
 Cho $k$ là một trường, $K$ là một mở rộng tách được của $k$ và $A$ là một $K$-đại số tôpô tuyến tính. Nếu $A$ trơn hình thức trên $K$ thì nó trơn hình thức trên $k$.
 
 Điều này suy ra từ định lý và mệnh đề 3 a) của No. 2.
 
-#### Nhận xét 1 {#ac-x-s7-n3-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s7-n3-rem-1 .statement tag=0D91}
 
 Cho $k$ là một trường. Mọi $k$-đại số étale (A, V, p. 28, def. 1) đều trơn hình thức (*loc. cit.*, p. 34, th. 4, d) và No. 2, prop. 3, b)).
 
-#### Nhận xét 2 {#ac-x-s7-n3-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s7-n3-rem-2 .statement tag=0D92}
 
 Ta sẽ thấy dưới đây (hệ quả 2 của định lý 2 của No. 5) rằng một mở rộng trường trơn hình thức thì chính quy tuyệt đối, do đó tách được (§ 6, No. 4, ví dụ 2).
 
@@ -244,19 +244,19 @@ Ta sẽ thấy dưới đây (hệ quả 2 của định lý 2 của No. 5) rằ
 
 Cho $k$ là một vành, $C$ là một $k$-đại số, $(C_n)_{n \in \mathbf{Z}}$ là một lọc giảm của $C$, tương thích với cấu trúc $k$-đại số và sao cho $C_0 = C$ (III, § 2, No. 1). Giả sử rằng $C$ tách biệt và đầy đủ đối với tôpô xác định bởi lọc này, để ánh xạ chính tắc $C \to \varprojlim C/C_n$ là một đồng phôi (*loc. cit.*, No. 6). Cho $m$ là một số nguyên $> 0$; ký hiệu bởi $\pi : C \to C/C_m$ toàn cấu chính tắc.
 
-#### Mệnh đề 5 {#ac-x-s7-prop-5 .statement}
+#### Mệnh đề 5 {#ac-x-s7-prop-5 .statement tag=0D93}
 
 Cho $A$ là một đại số trên $k$ tôpô tuyến tính trơn hình thức. Mọi đồng cấu liên tục của các đại số trên $k$ $\varphi : A \to C/C_m$ đều có một nâng liên tục lên $C$.
 
 Với mọi số nguyên $n > m$, ký hiệu $\pi_n : C/C_n \to C/C_{n-1}$ là toàn cấu chính tắc. Vì $C$ được đồng nhất với giới hạn xạ ảnh của các $C/C_n$, việc cho một nâng liên tục của $\varphi$ lên $C$ tương đương với việc cho một họ $(\varphi_n)_{n > m}$ các đồng cấu liên tục của các đại số trên $k$ $\varphi_n : A \to C/C_n$, thỏa mãn $\pi_n \circ \varphi_n = \varphi_{n-1}$. Điều này đưa ta, bằng quy nạp theo $m$, về việc chứng minh mệnh đề khi $C_{m+1} = 0$. Khi đó iđêan $C_m$ có bình phương bằng không (vì $2m \geq m+1$), do đó có mệnh đề này vì $A$ là trơn hình thức.
 
-#### Ví dụ {#ac-x-s7-n4-exa-1 .statement}
+#### Ví dụ {#ac-x-s7-n4-exa-1 .statement tag=0D94}
 
 Cho $C$ là một đại số trên $k$ và $N$ là một iđêan hai phía lũy linh của $C$. Mệnh đề áp dụng được cho đại số $C$ được trang bị lọc $N$-adic. Nếu $A$ là một đại số trên $k$ tôpô tuyến tính trơn hình thức, suy ra rằng mọi đồng cấu liên tục của $A$ vào đại số trên $k$ $C/N$, được trang bị tôpô rời rạc, đều nâng được thành một đồng cấu liên tục của $A$ vào đại số trên $k$ $C$, được trang bị tôpô rời rạc.
 
 ### 5. Thương trơn hình thức của các đại số
 
-#### Định lý 2 {#ac-x-s7-thm-2 .statement}
+#### Định lý 2 {#ac-x-s7-thm-2 .statement tag=0D95}
 
 Cho k là một vành, A là một đại số trên k, và J là một iđêan của A sao cho đại số trên k A/J là trơn hình thức. Trang bị cho A tôpô J-adic. Các điều kiện sau là tương đương:
 
@@ -292,7 +292,7 @@ Còn phải chứng minh rằng đồng cấu β là đơn ánh. Vì A/J-môđun
 
 Sau cùng, khi A là Noether, các điều kiện (ii) và (iv) là tương đương (§ 5, No. 2, Định lý 1).
 
-#### Hệ quả 1 {#ac-x-s7-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s7-thm-2-cor-1 .statement tag=0D96}
 
 Cho k là một trường và A là một đại số địa phương Noether trên k sao cho mở rộng κ_A của k là tách được. Các điều kiện sau là tương đương:
 
@@ -301,13 +301,13 @@ Cho k là một trường và A là một đại số địa phương Noether tr
 (iii) đại số trên k Λ là tuyệt đối chính quy (§ 6, No. 4, Định nghĩa 1) ;
 (iv) đại số trên k Ā đẳng cấu với κ_A[[T_1, ..., T_n]], với n = dim A.
 
-#### Hệ quả 2 {#ac-x-s7-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s7-thm-2-cor-2 .statement tag=0D97}
 
 Cho $k$ là một trường, $A$ là một $k$-đại số Noether và $J$ là một iđêan của $A$ được chứa trong căn của $A$. Giả sử rằng $k$-đại số $A$ là trơn hình thức đối với tôpô $J$-adic. Khi đó nó là chính quy tuyệt đối.
 
 Thật vậy, cho $k'$ là một mở rộng hữu hạn của $k$ và $A'$ là $A$-đại số $A_{(k')}$; cần chứng minh rằng, với mọi iđêan cực đại $m'$ của $A'$, vành địa phương Noether $A'_{m'}$ là chính quy. Mà ta có $JA' \subset m'$: thật vậy, ảnh ngược của $m'$ trong $A$ là một iđêan cực đại của $A$ (V, § 2, No. 1, prop. 1), nên chứa $J$. $k'$-đại số $A'$ là trơn hình thức đối với tôpô $JA'$-adic (No. 2, prop. 4, b)), và $k'$-đại số $A'_{m'}$ là trơn hình thức đối với tôpô $JA'_{m'}$-adic (No. 2, prop. 4, a)), do đó cũng trơn hình thức đối với tôpô $m'A'_{m'}$-adic. Cho $k_0$ là trường con nguyên tố của $k'$. Khi đó $A'_{m'}$ là trơn hình thức trên $k_0$ đối với tôpô $m'A'_{m'}$-adic (hệ quả của đ. lý 1 ở No. 3); vì $\kappa(m')$ tách được trên $k_0$, vành $A'_{m'}$ là chính quy (hệ quả 1).
 
-#### Hệ quả 3 {#ac-x-s7-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#ac-x-s7-thm-2-cor-3 .statement tag=0D98}
 
 Cho $k$ là một vành và $A$ là một $k$-đại số trơn hình thức.
 
@@ -321,7 +321,7 @@ Các $k$-đại số $A$ và $A \otimes_k A$ là trơn hình thức (No. 2, prop
 
 Cho $k$ là một vành và $\rho : A \to B$ là một đồng cấu của các $k$-đại số. Từ $\rho$ suy ra một ánh xạ $A$-tuyến tính $\Omega(\rho) : \Omega_k(A) \to \Omega_k(B)$, và do đó một ánh xạ $B$-tuyến tính $\Omega_0(\rho) : B \otimes_A \Omega_k(A) \to \Omega_k(B)$ (A, III, p. 135). Cho $T = (T_i)_{i \in I}$ là một họ các bất định, và $t = (t_i)_{i \in I}$ là một họ các phần tử của $B$; với mọi đa thức $f = \sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha T^\alpha$ của $A[T]$, ký hiệu $d^A f(t)$ là phần tử $\sum_\alpha t^\alpha \otimes dc_\alpha$ của $B \otimes_A \Omega_k(A)$.
 
-#### Bổ đề 1 {#ac-x-s7-lem-1 .statement}
+#### Bổ đề 1 {#ac-x-s7-lem-1 .statement tag=0D99}
 
 Giả sử rằng $B$-đại số $A$ thừa nhận một họ sinh $t = (t_i)_{i \in I}$, với các quan hệ xác định $f_\lambda \in A[T]$ ($\lambda \in A$). Đồng cấu $B$-tuyến tính
 $$
@@ -359,7 +359,7 @@ Giả sử rằng A chứa một trường con, và cho P là trường con nguy
 
 Cho A là một vành có đặc số $p \neq 0$ và $(f_i)_{1 \leq i \leq n}$ một dãy hữu hạn các phần tử của A. Ký hiệu $A_n$ là vành thương của vành đa thức $A[T_1, \ldots, T_n]$ theo iđêan sinh bởi các đa thức $T_i^p - f_i$, với $1 \leq i \leq n$.
 
-#### Bổ đề 2 {#ac-x-s7-lem-2 .statement}
+#### Bổ đề 2 {#ac-x-s7-lem-2 .statement tag=0D9A}
 
 Giả sử vành A là địa phương và Noether. Khi đó $A_n$ là địa phương và Noether. Các điều kiện sau là tương đương:
 
@@ -389,7 +389,7 @@ Theo bổ đề 1, đồng cấu chính tắc $A_1 \otimes_A \Omega(A) \to \Omeg
 
 Nhưng phép hội của (ii') và (ii'') tương đương với (ii), điều đó chứng minh bổ đề.
 
-#### Mệnh đề 6 {#ac-x-s7-prop-6 .statement}
+#### Mệnh đề 6 {#ac-x-s7-prop-6 .statement tag=0D9B}
 
 Cho $k$ là một trường có đặc số $p \neq 0$, $k'$ là một mở rộng thuần túy không khả phân của $k$, bậc hữu hạn và chiều cao $\leqslant 1$, và $A$ là một $k$-đại số địa phương chính quy. Khi đó $A_{(k')}$ là một vành địa phương và các điều kiện sau là tương đương:
 
@@ -408,7 +408,7 @@ Hơn nữa, $(f_i)_{i \in I}$ là một $p$-cơ sở của ${k'}^p$ trên $k^p$,
 
 ### 7. Một tiêu chuẩn cho các đại số địa phương trơn hình thức
 
-#### Mệnh đề 7 {#ac-x-s7-prop-7 .statement}
+#### Mệnh đề 7 {#ac-x-s7-prop-7 .statement tag=0D9C}
 
 Cho $k_0$ là một vành, $k$ là một $k_0$-đại số, $A$ là một $k$-đại số, $m$ là một iđêan cực đại của $A$. Giả sử rằng $k$ và $A/m$ là trơn hình thức trên $k_0$. Để $A$ là trơn hình thức trên $k$ đối với tôpô $m$-adic, điều kiện cần và đủ là hai điều kiện sau được thỏa mãn:
 
@@ -448,11 +448,11 @@ $$
 v(d_A(\lambda 1_A)) = h'u_r(1 \otimes d_A(\lambda 1_A)) = h'(1 \otimes d_k(\lambda)) = h(d_k(\lambda)) = \lambda 1_C - \tilde{\varphi}_0(\lambda 1_A) .
 $$
 
-#### Nhận xét 1 {#ac-x-s7-n7-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s7-n7-rem-1 .statement tag=0D9D}
 
 Khi $A$ là Noether, điều kiện (i) có nghĩa là vành địa phương $A_{\mathfrak{m}}$ là chính quy (VIII, § 5, No. 2, Định lý 1).
 
-#### Mệnh đề 8 {#ac-x-s7-prop-8 .statement}
+#### Mệnh đề 8 {#ac-x-s7-prop-8 .statement tag=0D9E}
 
 *Cho $k$ là một trường và $A$ là một đại số địa phương Noether trên $k$. Các điều kiện sau là tương đương*:
 
@@ -470,13 +470,13 @@ $$
 
 Nếu k có đặc số 0, từ Hệ quả 1 của Định lý 2 (No. 5) suy ra rằng (iv) kéo theo (i), do đó có mệnh đề trong trường hợp này. Giả sử k có đặc số $p \neq 0$ và chứng minh (iv) ⇒ (ii). Cho $k'$ là một mở rộng thuần bất khả phân của k, có bậc hữu hạn và chiều cao $\leq 1$. Nếu A và $A_{(k')}$ là chính quy, thì ánh xạ chính tắc $\kappa_A \otimes_{k'} \Omega_{k^p}({k'}^p) \longrightarrow \kappa_A \otimes_A \Omega(A)$ là đơn ánh (No. 6, Mđ. 6). Theo Định lý 1, b) của A, V, p. 97, áp dụng cho mở rộng k của $k^p$, không gian vectơ trên k $\Omega(k)$, trùng với $\Omega_{k^p}(k)$, là hợp lọc tăng của các không gian con $k \otimes_{{k'}^p} \Omega_{k^p}({k'}^p)$, trong đó $k'$ chạy qua tập hợp các mở rộng thuần bất khả phân hữu hạn của k có chiều cao $\leq 1$ được chứa trong một bao đóng đại số cố định của k. Mệnh đề (ii) được suy ra.
 
-#### Nhận xét 2 {#ac-x-s7-n7-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s7-n7-rem-2 .statement tag=0D9F}
 
 Cho k là một trường và A là một đại số trên k sao cho vành $A_{(k')}$ là chính quy với mọi mở rộng thuần bất khả phân $k'$ của k, có bậc hữu hạn và chiều cao $\leq 1$; khi đó A là chính quy tuyệt đối. Thật vậy, cho $k'$ là một mở rộng như thế; với mọi iđêan cực đại m của A, vành $k' \otimes_k A_m$ được đồng nhất với một vành phân thức của $A_{(k')}$, nên do đó là chính quy. Theo Mđ. 8 ở trên và Mđ. 6 của § 6, No. 4, đại số A là chính quy tuyệt đối.
 
 ### 8. Sự tồn tại của các phép rút đối với các ánh xạ tuyến tính
 
-#### Mệnh đề 9 {#ac-x-s7-prop-9 .statement}
+#### Mệnh đề 9 {#ac-x-s7-prop-9 .statement tag=0D9G}
 
 Cho A là một vành, M là một A-môđun hữu hạn sinh, N là một A-môđun xạ ảnh, và $u : M \to N$ là một ánh xạ A-tuyến tính.
 
@@ -531,7 +531,7 @@ $$
 
 Tổng quát hơn:
 
-#### Bổ đề 3 {#ac-x-s7-lem-3 .statement}
+#### Bổ đề 3 {#ac-x-s7-lem-3 .statement tag=0D9H}
 
 Cho K là một iđêan của A chứa J. Giả sử rằng tồn tại một số nguyên m sao cho $J \cap K^m$ được chứa trong JK (điều kiện này được thỏa mãn nếu A là Noether). Nếu $A/J$ là trơn hình thức trên k đối với tôpô K/J-adic, thì ánh xạ $\bar{d}_{A/K} : A/K \otimes_{A/J} J/J^2 \longrightarrow A/K \otimes_A \Omega_k(A)$ có một phép rút lại A-tuyến tính.
 
@@ -541,7 +541,7 @@ Khi đó ánh xạ $a \mapsto a1_C - \varphi(a1_{A/J})$ từ A vào N là một 
 
 Việc điều kiện trên K được thỏa mãn khi đại số A là Noether suy ra từ III, § 3, No. 1, Hệ quả 2 của Mệnh đề 1.
 
-#### Bổ đề 4 {#ac-x-s7-lem-4 .statement}
+#### Bổ đề 4 {#ac-x-s7-lem-4 .statement tag=0D9I}
 
 Giả sử rằng A là trơn hình thức trên k đối với tôpô J-adic. Để $A/J$ là trơn hình thức trên k, điều kiện cần và đủ là ánh xạ chính tắc $\bar{d}$ có một phép rút lại A-tuyến tính.
 
@@ -557,7 +557,7 @@ $$
 
 giao hoán, trong đó các mũi tên thẳng đứng biểu thị các toàn cấu chính tắc. Ta có $v(J) \subset \mathbf{N}$, nên $v(J^2) \subset \mathbf{N}^2 = \{0\}$, và $v$ xác định, bằng cách chuyển qua các thương, một đồng cấu $\bar{v} : A/J^2 \to C$ thỏa mãn $\rho \circ \bar{v} = u \circ \pi$. Khi đó $\bar{v} \circ h$ là một phép nâng của $u$ lên $C$.
 
-#### Định lý 3 {#ac-x-s7-thm-3 .statement}
+#### Định lý 3 {#ac-x-s7-thm-3 .statement tag=0D9J}
 
 Cho $k$ là một vành, $A$ là một $k$-đại số trơn hình thức, và $J$ là một iđêan sinh hữu hạn của $A$; đặt $B = A/J$.
 
@@ -598,13 +598,13 @@ là đơn ánh, do đó có (iii).
 
 Dưới các điều kiện của (iv), ta có $m = [\kappa(q) \otimes_A J : \kappa(q)]$ (No. 9, Mệnh đề 8). Theo Định lý 2 của No. 5, iđêan $J_q$ là hoàn toàn cát tuyến, và dãy $((f_1)_q, \ldots, (f_m)_q)$ là hoàn toàn cát tuyến đối với $A_q$ ($§ 1$, No. 3, Hệ quả 2 của Định lý 1). Điều đó chứng minh c).
 
-#### Hệ quả 1 {#ac-x-s7-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#ac-x-s7-thm-3-cor-1 .statement tag=0D9K}
 
 *Cho $k_0$ là một vành, $k$ là một $k_0$-đại số Noether trơn hình thức, và $B$ là một $k$-đại số địa phương essenxiellement hữu hạn kiểu. Nếu $k_0$-đại số $B$ là trơn hình thức đối với tôpô $\mathfrak{m}_B$-adic, thì nó là trơn hình thức.*
 
 Tồn tại một số nguyên $n \geqslant 0$, một tập con nhân tính $S$ của $k[T_1, \ldots, T_n]$, và một $k$-đồng cấu toàn ánh $S^{-1} k[T_1, \ldots, T_n] \to B$. Đại số $S^{-1} k[T_1, \ldots, T_n]$ là Noether và trơn hình thức trên $k$ (No. 3, Ví dụ 2 và No. 2, Mệnh đề 4, a)), do đó trên $k_0$ (No. 2, Mệnh đề 3, a)). Khi đó hệ quả suy ra từ Định lý 3, c).
 
-#### Hệ quả 2 {#ac-x-s7-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#ac-x-s7-thm-3-cor-2 .statement tag=0D9L}
 
 *Cho $k_0$ là một vành, $k$ là một $k_0$-đại số Noether trơn hình thức, và $B$ là một $k$-đại số essenxiellement hữu hạn kiểu. Tập $U$ các iđêan nguyên tố $\mathfrak{p}$ của $B$ sao cho $k_0$-đại số $B_{\mathfrak{p}}$ là trơn hình thức (đối với tôpô rời rạc hoặc tôpô $\mathfrak{p}B_{\mathfrak{p}}$-adic) là mở trong $\operatorname{Spec}(B)$ và các điều kiện sau là tương đương:
 
@@ -614,7 +614,7 @@ Tồn tại một số nguyên $n \geqslant 0$, một tập con nhân tính $S$ 
 
 Điều này suy ra như trên từ Định lý 3.
 
-#### Nhận xét 1 {#ac-x-s7-n9-rem-1 .statement}
+#### Nhận xét 1 {#ac-x-s7-n9-rem-1 .statement tag=0D9M}
 
 Các hệ quả 1 và 2 áp dụng đặc biệt khi $k_0$ là một trường và ta ở trong một trong hai trường hợp sau:
 a) $B$ là một đại số về cơ bản thuộc kiểu hữu hạn trên một mở rộng tách được của $k_0$ (định lý 1 của No. 3);
@@ -625,11 +625,11 @@ Trong mỗi trường hợp ấy, suy ra từ hệ quả 2, có lưu ý đến m
 
 Cho $k_0$ là trường con nguyên tố của $k$. $k_0$-đại số $A$ là chính quy tuyệt đối ($§ 6$, No. 4, ví dụ 1), do đó trơn hình thức (nhận xét 1 ở trên). Vì những lý do như vậy, nói rằng $A/J$ là chính quy tương đương với nói rằng nó là một $k_0$-đại số trơn hình thức. Do đó khẳng định thứ nhất suy ra từ định lý 3, định lý này cũng kéo theo rằng dãy $(f_1, \ldots, f_m)$ là hoàn toàn cát tuyến đối với $A$. Khi đó ta áp dụng mệnh đề 2 của VIII, $§ 5$, No. 3.
 
-#### Nhận xét 2 {#ac-x-s7-n9-rem-2 .statement}
+#### Nhận xét 2 {#ac-x-s7-n9-rem-2 .statement tag=0D9N}
 
 Dưới các giả thiết của hệ quả 3, $A$-môđun $\Omega(A)$ là xạ ảnh (No. 5, hệ quả 3 của định lý 2), do đó tự do; vì vậy mọi đạo hàm của $A$ vào $\kappa_A$ đều nâng được thành một đạo hàm của $A$. Vì thế điều kiện của mệnh đề có thể được phát biểu như sau: tồn tại một hệ sinh $(f_1, \ldots, f_m)$ của $J$ và các đạo hàm $D_1, \ldots, D_m$ của $A$ vào $\kappa_A$, sao cho $\det(D_j(f_i)) \neq 0$.
 
-#### Hệ quả 4 (Zariski) {#ac-x-s7-thm-3-cor-4 .statement}
+#### Hệ quả 4 (Zariski) {#ac-x-s7-thm-3-cor-4 .statement tag=0D9O}
 
 *Cho $k$ là một trường và $A$ là một $k$-đại số về cơ bản thuộc kiểu hữu hạn hoặc một vành địa phương Noether đầy đủ. Tập hợp các iđêan nguyên tố $\mathfrak{p}$ của $A$ sao cho vành địa phương $A_{\mathfrak{p}}$ là chính quy là mở trong $\mathrm{Spec}(A)$*.
 
@@ -637,7 +637,7 @@ Chỉ cần áp dụng Nhận xét 1, lấy cho $k_0$ trường con nguyên tố
 
 ### 10. Đại số trơn
 
-#### Bổ đề 5 {#ac-x-s7-lem-5 .statement}
+#### Bổ đề 5 {#ac-x-s7-lem-5 .statement tag=0D9P}
 
 *Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether. Giả sử rằng $B$ là về bản chất kiểu hữu hạn trên $A$. Để $B$-đại số $B$ là trơn hình thức trên $A$, điều kiện cần và đủ là $B$-môđun $B$ phẳng và $\kappa_A$-đại số $\kappa_A \otimes_A B$ là chính quy tuyệt đối.*
 
@@ -659,7 +659,7 @@ $$
 
 không là gì khác ngoài $d_{\kappa_B}$. Vậy B là trơn hình thức trên A (định lý 3).
 
-#### Định lý 4 {#ac-x-s7-thm-4 .statement}
+#### Định lý 4 {#ac-x-s7-thm-4 .statement tag=0D9Q}
 
 Cho A là một vành Noether và B là một đại số trên A thuộc kiểu hữu hạn về bản chất. Các điều kiện sau là tương đương:
 
@@ -693,11 +693,11 @@ suy ra từ phép nhân của $\kappa(p)\text{-đại số} \ \kappa(p) \otimes_
 
 (iv) ⇒ (iii) : cho $p$ là một iđêan nguyên tố của $A$ và cho $k$ là một mở rộng của $\kappa(p)$; dưới các giả thiết của (iv), vành $k \otimes_{\kappa(p)} (\kappa(p) \otimes_A B)$, được đồng nhất với $k \otimes_A B$, là chính quy, do đó có (iii).
 
-#### Định nghĩa 2 {#ac-x-s7-def-2 .statement}
+#### Định nghĩa 2 {#ac-x-s7-def-2 .statement tag=0D9R}
 
 Cho $A$ là một vành Noether. Một đại số trên $A$ $B$ được gọi là trơn nếu nó thuộc kiểu hữu hạn về bản chất và nếu nó thỏa mãn các điều kiện tương đương của định lý 4.
 
-#### Mệnh đề 10 {#ac-x-s7-prop-10 .statement}
+#### Mệnh đề 10 {#ac-x-s7-prop-10 .statement tag=0D9S}
 
 Cho $A$ là một vành Noether.
 
@@ -709,11 +709,11 @@ c) Cho $B$ và $C$ là hai $A$-đại số trơn. Khi đó $A$-đại số $B \o
 
 Điều này suy ra từ Mệnh đề 4 của No. 2 và từ các mệnh đề tương tự đối với các đại số cốt yếu kiểu hữu hạn (§ 6, No. 1).
 
-#### Ví dụ 1 {#ac-x-s7-n10-exa-1 .statement}
+#### Ví dụ 1 {#ac-x-s7-n10-exa-1 .statement tag=0D9T}
 
 Các đại số trơn trên một trường $k$ là các $k$-đại số cốt yếu kiểu hữu hạn và chính quy tuyệt đối.
 
-#### Ví dụ 2 {#ac-x-s7-n10-exa-2 .statement}
+#### Ví dụ 2 {#ac-x-s7-n10-exa-2 .statement tag=0D9U}
 
 Cho $A$ là một vành Noether, $T = (T_i)_{i \in I}$ là một họ hữu hạn các ẩn. $A$-đại số $A[T]$ là trơn. Tổng quát hơn, cho $F_1, \ldots, F_m$ là các phần tử của $A[T]$, và cho $B$ là $A$-đại số $A[T]/(F_1, \ldots, F_m)$. Nếu tại mọi iđêan cực đại $n$ của $B$, lớp (mod. $n$) của ma trận $\left( \frac{\partial F_j}{\partial T_i} \right)$ có hạng $m$, thì $A$-đại số $B$ là trơn (Định lý 3 của No. 9).
 

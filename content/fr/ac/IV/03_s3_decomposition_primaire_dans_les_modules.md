@@ -24,14 +24,14 @@ subsections:
       pdf_page: 335
 statements: 6
 exercises: 3
-content_sha256: b716f6cf2dd0bf60045addebda4ba042705d015e4eb20af7db7214000c6f8fa1
+content_sha256: 05803a9e7f455a1b805d54475730e93c4b593234031a738145213c838bcc34f7
 ---
 
 ## § 3. Décomposition primaire dans les modules gradués
 
 ### 1. Idéaux premiers associés à un module gradué.
 
-#### Proposition 1 {#ac-iv-s3-prop-1 .statement}
+#### Proposition 1 {#ac-iv-s3-prop-1 .statement tag=04MJ}
 
 Soient $\Delta$ un groupe commutatif sans torsion, $A$ un anneau gradué de type $\Delta$, $M$ un $A$-module gradué de type $\Delta$. Tout idéal premier associé à $M$ est gradué, et est l’annulateur d’un élément homogène de $M$.
 
@@ -41,13 +41,13 @@ Raisonnons par récurrence sur le nombre des indices $i$ tels que $a_i \neq 0$. 
 
 Montrons maintenant que $\mathfrak{p}$ est l’annulateur d’un élément homogène de M. Posons $b_n = \operatorname{Ann}(x_{i(n)})$ pour $1 \leq n \leq r$. Pour tout élément homogène $b$ de $\mathfrak{p}$ et tout $n$, la composante homogène de $bx$ de degré $i(n) + \deg(b)$ est $bx_{i(n)}$, donc $bx_{i(n)} = 0$ et par suite $b \in b_n$ ; comme $\mathfrak{p}$ est engendré par ses éléments homogènes, on a $\mathfrak{p} \subset b_n$. D’autre part, il est clair que $\bigcap_{n=1}^r b_n \subset \operatorname{Ann}(x) = \mathfrak{p}$; comme $\mathfrak{p}$ est premier, il existe un $n$ tel que $b_n \subset \mathfrak{p}$ (chap. II, § 1, no 1, prop. 1), d’où $b_n = \mathfrak{p} = \operatorname{Ann}(x_{i(n)})$, ce qui achève la démonstration.
 
-#### Corollaire {#ac-iv-s3-n1-cor-1 .statement}
+#### Corollaire {#ac-iv-s3-n1-cor-1 .statement tag=04MK}
 
 Pour tout idéal premier (nécessairement gradué) $\mathfrak{p}$ associé à un A-module gradué M, il existe un indice $k \in \Delta$ tel que le A-module gradué $(A/\mathfrak{p})(k)$ obtenu par décalage des degrés de $k$ à partir du A-module gradué $A/\mathfrak{p}$ (Alg., chap. II, 3e éd., § 11, no 2) soit isomorphe à un sous-module gradué de M.
 
 Avec les notations de la démonstration de la prop. 1, considérons en effet l’homomorphisme déduit par passage au quotient de l’homomorphisme $a \to ax_{i(n)}$ de A dans M ; ce dernier est un homomorphisme gradué de degré $i(n)$, donc il donne par passage au quotient un homomorphisme bijectif gradué de degré $i(n)$ de $A/\mathfrak{p}$ sur un sous-module gradué de M.
 
-#### Proposition 2 {#ac-iv-s3-prop-2 .statement}
+#### Proposition 2 {#ac-iv-s3-prop-2 .statement tag=04ML}
 
 Soient $\Delta$ un groupe commutatif sans torsion, $A$ un anneau noethérien gradué de type $\Delta$, $M$ un $A$-module de type fini, gradué de type $\Delta$. Il existe une suite de composition $(M_i)_{0 \leq i \leq n}$ formée de sous-modules gradués de $M$ telle que, pour $0 \leq i \leq n - 1$, le module gradué $M_i / M_{i+1}$ soit isomorphe à un module gradué décalé $(A/p_i)(k_i)$, où $p_i$ est un idéal premier gradué de $A$ et $k_i \in \Delta$.
 
@@ -55,13 +55,13 @@ Il suffit de reprendre le raisonnement du § 1, no 4, th. 1, en prenant cette fo
 
 ### 2. Sous-modules primaires correspondant aux idéaux premiers gradués.
 
-#### Proposition 3 {#ac-iv-s3-prop-3 .statement}
+#### Proposition 3 {#ac-iv-s3-prop-3 .statement tag=04MM}
 
 Soient $\Delta$ un groupe commutatif sans torsion, $A$ un anneau noethérien gradué de type $\Delta$, $p$ un idéal gradué de $A$, $M$ un $A$-module gradué de type $\Delta$, non réduit à 0. On suppose que pour tout élément homogène $a$ de $p$, l’homothétie de rapport $a$ dans $M$ est presque nilpotente et que pour tout élément homogène $b$ de $A - p$, l’homothétie de rapport $b$ dans $M$ est injective. Alors $p$ est premier et le sous-module $\{0\}$ de $M$ est $p$-primaire.
 
 Il suffit de montrer que $\operatorname{Ass}(M) = \{p\}$ (§ 2, no 1, prop. 1). Soit $q$ un idéal premier associé à $M$; c’est un idéal gradué, et il est l’annulateur d’un élément homogène $x \neq 0$ de $M$ (no 1, prop. 1). Pour tout élément homogène $a$ de $q$, on a $ax = 0$, donc l’homothétie de rapport $a$ dans $M$ n’est pas injective, d’où $a \in p$. Inversement, soit $b$ un élément homogène de $p$; il existe un entier $n > 0$ tel que $b^n x = 0$, d’où $b^n \in \operatorname{Ann}(x) = q$, et comme $q$ est premier, $b \in q$. Comme $p$ et $q$ sont engendrés par leurs éléments homogènes respectifs, on a $p = q$, ce qui prouve que $\operatorname{Ass}(M) \subset \{p\}$. Comme $M \neq \{0\}$, on a $\operatorname{Ass}(M) \neq \emptyset$ (§ 1, no 1, cor. 1 de la prop. 2), d’où $\operatorname{Ass}(M) = \{p\}$.
 
-#### Proposition 4 {#ac-iv-s3-prop-4 .statement}
+#### Proposition 4 {#ac-iv-s3-prop-4 .statement tag=04MN}
 
 Soient $\Delta$ un groupe commutatif sans torsion, $A$ un anneau noethérien gradué de type $\Delta$, $M$ un $A$-module gradué de type $\Delta$. Soient $p$ un idéal premier de $A$, $N$ un sous-module de $M$, $p$-primaire par rapport à $M$.
 
@@ -75,7 +75,7 @@ Considérons maintenant un élément homogène $b$ de $A - p'$; on a $b \notin p
 
 ### 3. Décomposition primaire dans les modules gradués.
 
-#### Proposition 5 {#ac-iv-s3-prop-5 .statement}
+#### Proposition 5 {#ac-iv-s3-prop-5 .statement tag=04MO}
 
 Soient $\Delta$ un groupe commutatif sans torsion, $A$ un anneau noethérien gradué de type $\Delta$, $M$ un $A$-module gradué de type $\Delta$, $N$ un sous-module gradué de $M$, et soit $N = \bigcap_{i \in I} Q_i$ une décomposition primaire de $N$ dans $M$.
 

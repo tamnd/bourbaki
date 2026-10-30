@@ -32,7 +32,7 @@ subsections:
       pdf_page: 55
 statements: 20
 exercises: 6
-content_sha256: 0d92e84e802983765e8f3b3fdccb9d0dc4441e4f20dca5389691fcbcdc412ec5
+content_sha256: 9d859aafb5ea6654b490706c3544223baf84c9db5e31364565588f0e6fa0bfd1
 ---
 
 ## § 6. La série de Hausdorff
@@ -59,7 +59,7 @@ $$
 
 On a $\log y \in m$, et l’application $\log : 1 + m \to m$ est dite *application logarithme* de $A$.
 
-#### Proposition 1 {#lie-ii-s6-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s6-prop-1 .statement tag=0A61}
 
 *L’application exponentielle est un homéomorphisme de $m$ sur $1 + m$ et l’application logarithme en est l’homéomorphisme réciproque*.
 
@@ -85,15 +85,15 @@ $$
 
 pour $x$ dans $m$, d’où la proposition.
 
-#### Remarque 1 {#lie-ii-s6-n1-rem-1 .statement}
+#### Remarque 1 {#lie-ii-s6-n1-rem-1 .statement tag=0A62}
 
 Si $x \in m, y \in m$ et si $x$ et $y$ commutent, on a $\exp(x + y) = \exp(x) \exp(y)$, la famille $\left( \frac{x^i}{i!} \cdot \frac{y^j}{j!} \right)_{i,j \in \mathbf{N}}$ étant sommable (cf. A, IV, § 6, n° 9, prop. 11).
 
-#### Remarque 2 {#lie-ii-s6-n1-rem-2 .statement}
+#### Remarque 2 {#lie-ii-s6-n1-rem-2 .statement tag=0E84}
 
 Comme les séries $e$ et $l$ sont sans terme constant et que $A_\alpha$ est un idéal fermé de $A$, on a $\exp A_\alpha \subset 1 + A_\alpha$ et $\log(1 + A_\alpha) \subset A_\alpha$ d’où $\exp A_\alpha = 1 + A_\alpha$ et $\log (1 + A_\alpha) = A_\alpha$ pour $\alpha > 0$.
 
-#### Remarque 3 {#lie-ii-s6-n1-rem-3 .statement}
+#### Remarque 3 {#lie-ii-s6-n1-rem-3 .statement tag=0E85}
 
 Soient $B$ une algèbre associative unifière filtrée, séparée et complète, et $n = \bigcup_{\alpha > 0} B_\alpha$. Soit $f$ un homomorphisme unifière continu de $A$ dans $B$ tel que $f(m) \subset n$. On a $f(\exp x) = \exp f(x)$ pour $x \in m$ et $f(\log y) = \log f(y)$ pour $y \in 1 + m$; démontrons par exemple la première de ces formules:
 
@@ -101,7 +101,7 @@ $$
 f(\exp x) = \sum_{n \geq 0} f(x^n)/n! = \sum_{n \geq 0} f(x)^n/n! = \exp f(x).
 $$
 
-#### Remarque 4 {#lie-ii-s6-n1-rem-4 .statement}
+#### Remarque 4 {#lie-ii-s6-n1-rem-4 .statement tag=0E86}
 
 Soit $E$ une algèbre associative unifière. Si $a$ est un élément nilpotent de $E$, la famille $\left( \frac{a^n}{n!} \right)_{n \in \mathbf{N}}$ est à support fini et on pose $\exp a = \sum_{n \geq 0} a^n/n!$. On dit qu’un élément $b$ est unipotent si $b - 1$ est nilpotent; on pose alors $\log b = \sum_{n \geq 1} (-1)^{n-1}(b - 1)^n/n$. On déduit des relations $e(l(X)) = l(e(X)) = X$ que l’application $a \mapsto \exp a$ est une bijection de l’ensemble des éléments nilpotents de $E$ sur l’ensemble des éléments unipotents de $E$, et que $b \mapsto \log b$ en est l’application réciproque.
 
@@ -109,7 +109,7 @@ Soit $E$ une algèbre associative unifière. Si $a$ est un élément nilpotent d
 
 Soit $X$ un ensemble. Reprenons les notations du § 5, n°s 1 et 2. On identifie l’algèbre de Lie libre $L(X)$ à son image canonique dans $A(X)$ (§ 3, n° 1, th. 1). On notera $\hat{L}(X)$ l’adhérence de $L(X)$ dans $\hat{A}(X)$, c’est-à-dire l’ensemble des éléments de $\hat{A}(X)$ de la forme $a = \sum_{n \geq 1} a_n$ tels que $a_n \in L^n(X)$ pour tout $n \geq 0$; c’est une sous-algèbre de Lie filtrée de $\hat{A}(X)$.
 
-#### Théorème 1 {#lie-ii-s6-thm-1 .statement}
+#### Théorème 1 {#lie-ii-s6-thm-1 .statement tag=0A63}
 
 La restriction de l’application exponentielle de $\hat{A}(X)$ à $\hat{L}(X)$ est une bijection de $\hat{L}(X)$ sur un sous-groupe fermé du groupe de Magnus $\Gamma(X)$.
 
@@ -145,7 +145,7 @@ $$
 $$
 Par suite, $a$ satisfait à (3) si et seulement si $b$ satisfait à (4), ce qui démontre le théorème.
 
-#### Remarque {#lie-ii-s6-n2-rem-1 .statement}
+#### Remarque {#lie-ii-s6-n2-rem-1 .statement tag=0A64}
 
 La démonstration précédente montre que exp(\hat{L}) est le sous-groupe $\Delta$ de $\Gamma$ formé des $b$ satisfaisant à (4).
 
@@ -161,7 +161,7 @@ Pour tout entier $m \geq 1$, on note $\hat{L}_m$ l’ensemble des éléments d�
 
 ### 3. Séries formelles de Lie
 
-#### Lemme 1 {#lie-ii-s6-lem-1 .statement}
+#### Lemme 1 {#lie-ii-s6-lem-1 .statement tag=0A65}
 
 Soient $g$ une algèbre de Lie filtrée (§ 4, no 1), $(g_\alpha)_{\alpha \in \mathbf{R}}$ sa filtration, et soit $\alpha \in \mathbf{R}$. Soit P un polynôme de Lie homogène de degré $n$ en les indéterminées $(T_i)_{i \in I}$ (§ 2, no 4). On a $P((a_i)) \in g_{n\alpha}$ pour toute famille $(a_i)_{i \in I}$ d’éléments de $g_\alpha$.
 
@@ -171,7 +171,7 @@ On appelle série formelle de Lie$^1$ (à coefficients dans $K$) en les indéter
 
 Supposons I fini. Soit $g$ une algèbre de Lie filtrée séparée et complète, telle que $g = \bigcup_{\alpha > 0} g_\alpha$; soit $t = (t_i)_{i \in I}$ une famille d’éléments de $g$.
 
-#### Proposition 2 {#lie-ii-s6-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s6-prop-2 .statement tag=0A66}
 
 L’homomorphisme $f_t : L(I) \to g$ tel que $f_t(T_i) = t_i$ (§ 2, no 4) se prolonge par continuité en un homomorphisme continu, et un seul, $f_t$ de $\hat{L}(I)$ dans $g$.
 
@@ -209,7 +209,7 @@ Soit $u = \sum_{v \in \mathbf{N}^I} u_v \in \hat{\mathbf{L}}(\mathbf{I})$, avec 
 
 Soit $\{U, V\}$ un ensemble à deux éléments.
 
-#### Définition 1 {#lie-ii-s6-def-1 .statement}
+#### Définition 1 {#lie-ii-s6-def-1 .statement tag=0A67}
 
 L’élément $H = U \mathbin{\&} V = \log(\exp U . \exp V)$ (n° 2) de l’algèbre de Lie $\hat{\mathbf{L}}_q(\{U, V\})$ s’appelle la série de Hausdorff en les indéterminées $U$ et $V$.
 
@@ -219,7 +219,7 @@ $$
 H = \sum_{n \geq 0} H_n = \sum_{r,s \geq 0} H_{r,s} \qquad H_n = \sum_{\substack{r+s=n \\ r,s \geq 0}} H_{r,s}.
 $$
 
-#### Théorème 2 {#lie-ii-s6-thm-2 .statement}
+#### Théorème 2 {#lie-ii-s6-thm-2 .statement tag=0A68}
 
 Si r et s sont deux entiers positifs, tels que $r + s \geqslant 1$, on a $\mathbf{H}_{r,s} = \mathbf{H}'_{r,s} + \mathbf{H}''_{r,s}$ avec
 
@@ -246,7 +246,7 @@ lorsque $r_m \geqslant 1$ et $s_m = 0$. De plus, on a évidemment $(\mathrm{ad}\
 
 C.Q.F.D.
 
-#### Remarque 1 {#lie-ii-s6-n4-rem-1 .statement}
+#### Remarque 1 {#lie-ii-s6-n4-rem-1 .statement tag=0A69}
 
 On a défini (§ 3, n° 2, Remarque) un projecteur Q de A(X) sur L(X) tel que Q(a^m) = 0 pour $a \in L(X)$ et $m \geq 2$, et Q(1) = 0. On a alors $H = Q(\exp H) = Q(\exp U \cdot \exp V)$, d’où immédiatement
 
@@ -254,7 +254,7 @@ $$
 H_{r,s} = Q \left( \frac{U^r}{r!} \frac{V^s}{s!} \right) \quad \text{pour } r + s \geq 1.
 $$
 
-#### Remarque 2 {#lie-ii-s6-n4-rem-2 .statement}
+#### Remarque 2 {#lie-ii-s6-n4-rem-2 .statement tag=0E87}
 
 On a
 
@@ -264,7 +264,7 @@ H(U, V) \equiv U + V + \frac{1}{2}[U, V] + \frac{1}{12}[U, [U, V]] \\
 $$
 modulo $\sum_{n \geq 5} L^n(\{U, V\})$.
 
-#### Remarque 3 {#lie-ii-s6-n4-rem-3 .statement}
+#### Remarque 3 {#lie-ii-s6-n4-rem-3 .statement tag=0E88}
 
 On a $H_{0,n} = H_{n,0} = 0$ pour tout entier $n \neq 1$, d’où
 
@@ -284,7 +284,7 @@ Comme K est un corps contenant $\mathbf{Q}$, la série de Hausdorff peut être c
 
 En particulier, soit A une algèbre associative unifière, filtrée, séparée et complète. Posons $m = \bigcup_{\alpha > 0} A_\alpha$ et $m_\alpha = A_\alpha \cap m$ pour $\alpha \in \mathbf{R}$; on a donc $m_\alpha = A_\alpha$ pour $\alpha > 0$ et $m_\alpha = m$ pour $\alpha \leq 0$. Pour le crochet $[a, b] = ab - ba$, m est une algèbre de Lie filtrée, séparée et complète, à laquelle on peut appliquer ce qui précède. Avec ces notations, on a le résultat suivant, qui complète la prop. 1 du n° 1.
 
-#### Proposition 3 {#lie-ii-s6-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s6-prop-3 .statement tag=0A6A}
 
 Si $a \in m, b \in m$, on a $\exp H(a, b) = \exp a \cdot \exp b$.
 
@@ -292,11 +292,11 @@ Soient $a, b$ dans $m$; il existe $\alpha > 0$ tel que $a \in A_\alpha$ et $b \i
 
 La restriction de $\theta$ à $\hat{L}(\{U, V\})$ est un homomorphisme continu d’algèbres de Lie de $\hat{L}(\{U, V\})$ dans m qui applique U (resp. V) sur $a$ (resp. $b$). D’après la formule (6) du n° 3, on a donc $\theta(H) = H(a, b)$. Il suffit alors d’appliquer l’homomorphisme continu $\theta$ aux deux membres de la relation $\exp H(U, V) = \exp U \cdot \exp V$ en tenant compte de la Remarque 3 du n° 1.
 
-#### Remarque 1 {#lie-ii-s6-n5-rem-1 .statement}
+#### Remarque 1 {#lie-ii-s6-n5-rem-1 .statement tag=0A6B}
 
 Si $a$ et $b$ commutent, on a $H_{r,s}(a,b) = 0$ pour $r + s \geq 2$, car tout polynôme de Lie homogène de degré $\geq 2$ est nul en $(a,b)$. On a donc $H(a,b) = a + b$, et la prop. 3 redonne la formule $\exp(a + b) = \exp a . \exp b$.
 
-#### Proposition 4 {#lie-ii-s6-prop-4 .statement}
+#### Proposition 4 {#lie-ii-s6-prop-4 .statement tag=0A6C}
 
 Soit $g$ une algèbre de Lie filtrée, séparée et complète, telle que $g = \bigcup_{\alpha > 0} g_\alpha$.
 
@@ -328,7 +328,7 @@ $$
 
 Ceci établit les relations (18) à (20).
 
-#### Remarque 2 {#lie-ii-s6-n5-rem-2 .statement}
+#### Remarque 2 {#lie-ii-s6-n5-rem-2 .statement tag=0A6D}
 
 Prenons pour $g$ l’algèbre de Lie $\hat{L}(X)$. La loi de groupe introduite dans la proposition précédente coïncide avec la loi définie au n° 2. En d’autres termes, on a
 
@@ -338,14 +338,14 @@ $$
 
 la loi du groupe de Hausdorff est donc donnée par la série de Hausdorff.
 
-#### Remarque 3 {#lie-ii-s6-n5-rem-3 .statement}
+#### Remarque 3 {#lie-ii-s6-n5-rem-3 .statement tag=0E89}
 
 Soit $g$ une algèbre de Lie munie de la filtration entière $(\mathscr{C}^n g)$ définie par la suite centrale descendante. Supposons qu’il existe un $m \geq 1$ tel que $\mathscr{C}^m g = \{0\}$. Pour la topologie déduite de la filtration $(\mathscr{C}^n g)_{n \geq 1}$, l’algèbre de Lie $g$ est séparée, complète, et même discrète. On a $P(a_1, \ldots, a_r) = 0$ pour $a_1, \ldots, a_r$ dans $g$ et pour tout polynôme de Lie $P$ homogène de degré $\geq m$; en particulier, on a $H_{r,s}(a, b) = 0$ pour $r + s \geq m$, et la série $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ n’a qu’un nombre fini de termes non nuls. La loi de groupe $(a, b) \mapsto H(a, b)$ sur $g$ est alors une application polynomiale (§ 2, n° 4).
 
 § 5
 LA SÉRIE DE HAUSDORFF
 
-#### Proposition 5 {#lie-ii-s6-prop-5 .statement}
+#### Proposition 5 {#lie-ii-s6-prop-5 .statement tag=0A6E}
 
 Soit $K_{r,s}$ la composante de multidegré $(r, s)$ de $H(U + V, -U)$. On a
 

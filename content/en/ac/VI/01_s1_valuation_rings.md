@@ -29,18 +29,18 @@ subsections:
       pdf_page: 397
 statements: 15
 exercises: 9
-content_sha256: c62b29615ede5109ece47eee7c51082ef7d0895d588bd15ce4b8c6aa4a539227
+content_sha256: 4be9d8f7039b4d494391e430e87dbd619d54a3c9a43b0816d5138e002b649b77
 ---
 
 ## 1. VALUATION RINGS
 
 ### 1. THE RELATION OF DOMINATION BETWEEN LOCAL RINGS
 
-#### Definition 1 {#ac-vi-s1-def-1 .statement}
+#### Definition 1 {#ac-vi-s1-def-1 .statement tag=04RZ}
 
 Let $A$ and $B$ be two local rings. $B$ is said to dominate $A$ if $A$ is a subring of $B$ and $m(A) = A \cap m(B)$.
 
-#### Proposition 1 {#ac-vi-s1-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s1-prop-1 .statement tag=04S0}
 
 Let $A$ and $B$ be local rings such that $A$ is a subring of $B$. The following conditions are equivalent:
 (a) $m(A) \subset m(B)$;
@@ -59,7 +59,7 @@ Examples
 
 ### 2. VALUATION RINGS
 
-#### Theorem 1 {#ac-vi-s1-thm-1 .statement}
+#### Theorem 1 {#ac-vi-s1-thm-1 .statement tag=04S1}
 
 *Let K be a field and V a subring of K. The following conditions are equivalent*:
 (a) *V is a maximal element of the set of local subrings of K, this set being ordered by the relation "B dominates A" between A and B.*
@@ -76,7 +76,7 @@ Suppose that (a) holds. Then $V$ is a local ring. Let $L$ be an algebraic closur
 
 Suppose (b) holds. Let $L$ be an algebraically closed field and $h$ a homomorphism from $V$ to $L$; suppose that $h$ is maximal in the set of homomorphisms from subrings of $K$ to $L$; let $p$ be the kernel of $h$. The elements of $h(V - p)$ being invertible in $L$, $h$ can be extended to a homomorphism from $V_p$ to $L$ (Chapter II, § 2, no. 1, Proposition 1); hence $V = V_p$, which shows that $V$ is a local ring and that $p$ is its maximal ideal. Let $x$ be a non-zero element of $K$; we must show that one at least of the elements $x, x^{-1}$ belongs to $V$, that is, by virtue of the maximal character of $h$, that $h$ can be extended to $V[x]$ or $V[x^{-1}]$. If $x$ is integral over $V$, this follows from Chapter V, § 2, no. 1, Corollary 4 to Theorem 1. If $x$ is not integral over $V$, we shall use the following lemma:
 
-#### Lemma 1 {#ac-vi-s1-lem-1 .statement}
+#### Lemma 1 {#ac-vi-s1-lem-1 .statement tag=04S2}
 
 Let $A$ be a subring of a ring $B$ and $x$ an element of $B$ not integral over $A$; then the ring of fractions $B$, (Chapter II, § 5, no. 1) *is not reduced to O* and there exists in the subring $A[1/x]$ of $B$, maximal ideals containing $1/x$; moreover, if $\mathfrak{M}$ is any of these maximal ideals, the inverse image of $\mathfrak{M}$ in $A$ *is* a maximal ideal.
 
@@ -110,17 +110,17 @@ Suppose that (d) holds. Let $a$ and $b$ be ideals of $V$ such that $a \notin b$.
 
 Suppose finally that (e) holds. As $V$ has a maximal ideal, it has only one and is therefore a local ring. Let $V'$ be a local subring of $K$ dominating $V$ and let $x$ be a non-zero element of $V'$, we write $x = ab^{-1}$ where $a \in V, b \in V$. One of the ideals $Va, Vb$ is contained in the other. *If Va \subset Vb*, then $x \in V$. *If Vb \subset Va*, then $x^{-1} \in V$; as the ideal $V' m(V)$ does not contain 1 (no. 1, Proposition 1), $x^{-1} \notin m(V)$, whence again $x \in V$ since $V$ is local. Every element of $V'$ therefore belongs to $V$; we conclude that (a) holds.
 
-#### Definition 2 {#ac-vi-s1-def-2 .statement}
+#### Definition 2 {#ac-vi-s1-def-2 .statement tag=04S3}
 
 *In the notation of Theorem 1, $V$ is called a valuation ring for the field $K$ if the equivalent conditions (a), (b), (c), (d), (e) hold. A ring is called a valuation ring if it is an integral domain and it is a valuation ring for its field of fractions.*
 
-#### Theorem 2 {#ac-vi-s1-thm-2 .statement}
+#### Theorem 2 {#ac-vi-s1-thm-2 .statement tag=04S4}
 
 *Let $K$ be a field and $h$ a homomorphism from a subring $A$ of $K$ to an algebraically closed field $L$. Then there exist a valuation ring $V$ for $K$ and a homomorphism $h'$ from $V$ to $L$ such that $V$ contains $A$, $h'$ extends $h$ and ${h'}^{-1}(O) = m(V)$.*
 
 Let $\mathfrak{S}$ be the set of homomorphisms of subrings of $K$ to $L$, ordered by the relation of extension. This set is inductive; for if $(h_\alpha)_{\alpha \in I}$ is a non-empty totally ordered family of elements of $\mathfrak{S}$ and $B$, is the defining ring of $h_\alpha$, the $B_\alpha$ form a totally ordered family of subrings of $K$ and their union $B$ is therefore a subring of $K$; there therefore exists a unique mapping $\bar{h}$ from $B$ to $L$ which extends the $h_\alpha$ (*Set Theory*, Chapter II, § 4, no. 6, Proposition 7) and it is immediately seen that $\bar{h}$ is a homomorphism from $B$ to $L$. Zorn's Lemma then shows that there exists a maximal element $h'$ of $\mathfrak{S}$ which extends $h$. The defining ring $V$ of $h'$ is a valuation ring of $K$ (Theorem 1); if $p$ is the kernel of $h'$, $h'$ can be extended to a homomorphism from $V_p$ to $L$ (Chapter II, § 2, no. 1, Proposition 1), whence $V_p = V$ and $p = m(V)$.
 
-#### Corollary {#ac-vi-s1-n2-cor-1 .statement}
+#### Corollary {#ac-vi-s1-n2-cor-1 .statement tag=04S5}
 
 *Every local subring $A$ of a field $K$ is dominated by at least one valuation ring of $K$.*
 
@@ -128,23 +128,23 @@ Apply Theorem 2 to the canonical homomorphism $h$ from $A$ to an algebraic closu
 
 ### 3. CHARACTERIZATION OF INTEGRAL ELEMENTS
 
-#### Theorem 3 {#ac-vi-s1-thm-3 .statement}
+#### Theorem 3 {#ac-vi-s1-thm-3 .statement tag=04S6}
 
 *Let $A$ be a subring of a field $K$. The integral closure $A'$ of $A$ in $K$ is the intersection of the valuation rings of $K$ which contain $A$; if $A$ is local, $A'$ is the intersection of the valuation rings of $K$ which dominate $A$.*
 
 Let $x$ be an element of $A'$ and $V$ a valuation ring of $K$ containing $A$; as $x$ is integral over $V$, there exists a prime ideal $p'$ of $V[x]$ such that $p' \cap V = m(V)$ (Chapter V, § 2, no. 1, Theorem 1); clearly then the local ring $(V[x])_{p'}$ dominates $V$ and hence is equal to it; whence $x \in V$. Conversely let $y$ be an element of $K$ which is not integral over $A$; then there exists a maximal ideal 2.2 of $A[y^{-1}]$ which contains $y^{-1}$ (no. 2, Lemma 1); there exists also a valuation ring $V$ of $K$ which dominates $(A[y^{-1}])_m$ (no. 2, Corollary to Theorem 2); as $y^{-1} \in m(V)$, $y \notin V$. Further $2.2 \cap A$ is a maximal ideal of $A$ (no. 2, Lemma 1); hence, if $A$ is local, $2.2 \cap A = m(A)$ and $V$ dominates $A$.
 
-#### Corollary 1 {#ac-vi-s1-thm-3-cor-1 .statement}
+#### Corollary 1 {#ac-vi-s1-thm-3-cor-1 .statement tag=04S7}
 
 Every valuation ring is integrally closed.
 
-#### Corollary 2 {#ac-vi-s1-thm-3-cor-2 .statement}
+#### Corollary 2 {#ac-vi-s1-thm-3-cor-2 .statement tag=04S8}
 
 For an integral domain to be integrally closed, it is necessary and sufficient that it be the intersection of a family of valuation rings of its field of fractions.
 
 In the case of a Noetherian ring, Corollary 2 can be made more precise (Chapter VII, § 1, no. 3, Corollary to Theorem 1).
 
-#### Corollary 3 {#ac-vi-s1-thm-3-cor-3 .statement}
+#### Corollary 3 {#ac-vi-s1-thm-3-cor-3 .statement tag=04S9}
 
 Let K be a field, K' an extension of K and A a valuation ring of K. The integral closure of A in K' is the intersection of the valuation rings V' of K such that V' $\cap K = A$.
 
@@ -158,7 +158,7 @@ Theorem 1 (c) show that, if V' is a valuation ring of K', V' $\cap K$ is a valua
 
 (3) The following proposition provides numerous examples of valuation rings:
 
-#### Proposition 2 {#ac-vi-s1-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s1-prop-2 .statement tag=04SA}
 
 Let A be a local ring whose maximal ideal is a principal ideal Ap. If $\bigcap_{n=1}^{\infty} Ap^n = (0)$ (for example if A is Noetherian, cf. Chapter III, § 3, no. 2, Corollary to Proposition 5), the only ideals of A are (0) and the Ap^n; then either p is nilpotent or A is a valuation ring.
 
@@ -182,19 +182,19 @@ $B_{BF}$ is a valuation ring (cf. Chapter VII, § 3, no. 5). \*
 
 The ring of formal power series $K[[T]]$ in one indeterminate over a field $K$ is a Noetherian local integral domain whose maximal ideal is principal; it is therefore a valuation ring. On the other hand the ring $K[[T_1, T_2]]$ of formal power series in two indeterminates, which is a Noetherian local integral domain is not a valuation ring, for neither of the elements $T_1, T_2$ is a multiple of the other.
 
-#### Proposition 3 {#ac-vi-s1-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s1-prop-3 .statement tag=04SB}
 
 *Let $A$ be a principal ideal domain and $K$ its field of fractions. The valuation rings of $K$ containing $A$ and distinct from $K$ are the rings of the form $A_{Ap}$, where $p$ is an extremal element of $A$.
 
 Clearly $A_{Ap}$ ($p$ extremal) is a valuation ring containing $A$ and distinct from $K$ (Proposition 2). Conversely, let $V$ be a valuation ring distinct from $K$ and containing $A$. As $V \neq K$, $m(V)$ contains an element $x \neq 0$; writing $x = a/b$ where $a \in A$ and $b \in A$, it is seen that $A \cap m(V)$ contains the non-zero element $a$. As $A \cap m(V)$ is prime, it is of the form $Ap$ where $p$ is extremal in $A$. Then $A_{Ap} \subset V, pA_{Ap} \subset m(V)$, so that $V$ dominates $A_{Ap}$; as $A_{Ap}$ is a valuation ring of $K$ (Proposition 2), $V = A_{Ap}$.
 
-#### Corollary 1 {#ac-vi-s1-prop-3-cor-1 .statement}
+#### Corollary 1 {#ac-vi-s1-prop-3-cor-1 .statement tag=04SC}
 
 *Every valuation ring of the field $\mathbf{Q}$ and distinct from $\mathbf{Q}$ is of the form $\mathbf{Z}_{(p)}$ where $p$ is a prime number.
 
 Every subring of $\mathbf{Q}$ contains $\mathbf{Z}$.
 
-#### Corollary 2 {#ac-vi-s1-prop-3-cor-2 .statement}
+#### Corollary 2 {#ac-vi-s1-prop-3-cor-2 .statement tag=04SD}
 
 *Let $K$ be a field, $K(X)$ the field of rational functions in one indeterminate over $K$ and $V$ a valuation ring of $K(X)$ containing $K$ and distinct from $K(X)$. If $X \in V$, there exists an irreducible polynomial $P \in K[X]$ such that $V = (K[X])_{(P)}$; otherwise $V$ is the local ring of $K[X^{-1}]$ at the prime ideal $X^{-1}K[X^{-1}]$ (in other words $V$ is composed of the fractions $A/B$, where $A \in K[X]$ and $B \in K[X]$, such that $\deg(A) \leq \deg(B)$).
 

@@ -48,46 +48,46 @@ subsections:
       pdf_page: 98
 statements: 66
 exercises: 27
-content_sha256: 9642cb0e537e778a7b5c71bb698bbc328367edeae5b12e987be7f16a83ade9ce
+content_sha256: d81bfd9c0fafebe62bd4cefb29c47bdee64d1f776aaea221f192c160bcb4e820
 ---
 
 ## § 2. Anneaux et modules de fractions
 
 ### 1. Définition des anneaux de fractions.
 
-#### Définition 1 {#ac-ii-s2-def-1 .statement}
+#### Définition 1 {#ac-ii-s2-def-1 .statement tag=045K}
 
 Soit A un anneau. On dit qu’une partie S de A est multiplicative si tout produit fini d’éléments de S appartient à S.
 
 Il revient au même de dire que $1 \in S$ et que le produit de deux éléments de S appartient à S.
 
-#### Exemple 1 {#ac-ii-s2-n1-exa-1 .statement}
+#### Exemple 1 {#ac-ii-s2-n1-exa-1 .statement tag=0CG8}
 
 Pour tout $a \in A$, l’ensemble des $a^n$, pour $n \in \mathbf{N}$, est une partie multiplicative de A.
 
-#### Exemple 2 {#ac-ii-s2-n1-exa-2 .statement}
+#### Exemple 2 {#ac-ii-s2-n1-exa-2 .statement tag=0CG9}
 
 Soit $p$ un idéal de A. Pour que $A - p$ soit une partie multiplicative de A, il faut et il suffit que $p$ soit premier.
 
-#### Exemple 3 {#ac-ii-s2-n1-exa-3 .statement}
+#### Exemple 3 {#ac-ii-s2-n1-exa-3 .statement tag=0CGA}
 
 L’ensemble des éléments de A non diviseurs de zéro est une partie multiplicative de A.
 
-#### Exemple 4 {#ac-ii-s2-n1-exa-4 .statement}
+#### Exemple 4 {#ac-ii-s2-n1-exa-4 .statement tag=0CGB}
 
 Si S et T sont deux parties multiplicatives de A, l’ensemble ST des produits $st$, où $s \in S$ et $t \in T$, est une partie multiplicative.
 
-#### Exemple 5 {#ac-ii-s2-n1-exa-5 .statement}
+#### Exemple 5 {#ac-ii-s2-n1-exa-5 .statement tag=0CGC}
 
 Soit $\mathscr{S}$ un ensemble filtrant (pour la relation $\subset$) de parties multiplicatives de A. Alors $T = \bigcup_{S \in \mathscr{S}} S$ est une partie multiplicative de A, car deux éléments quelconques de T appartiennent à une même partie $S \in \mathscr{S}$, donc leur produit appartient à T.
 
-#### Exemple 6 {#ac-ii-s2-n1-exa-6 .statement}
+#### Exemple 6 {#ac-ii-s2-n1-exa-6 .statement tag=0CGD}
 
 Toute intersection de parties multiplicatives de A est une partie multiplicative.
 
 Pour toute partie S d’un anneau A, il existe des parties multiplicatives de A contenant S, par exemple A lui-même. L’intersection de toutes ces parties est la plus petite partie multiplicative de A contenant S ; on dit qu’elle est engendrée par S. Il est immédiat que c’est l’ensemble formé de tous les produits finis d’éléments de S.
 
-#### Proposition 1 {#ac-ii-s2-prop-1 .statement}
+#### Proposition 1 {#ac-ii-s2-prop-1 .statement tag=045L}
 
 Soient A un anneau, S une partie de A. Il existe un anneau A’ et un homomorphisme h de A dans A’ ayant les propriétés suivantes :
 
@@ -112,7 +112,7 @@ En effet, si $a/s = a'/s'$, il existe $t \in \overline{S}$ tel que $t(sa' - s'a)
 
 C. Q. F. D.
 
-#### Définition 2 {#ac-ii-s2-def-2 .statement}
+#### Définition 2 {#ac-ii-s2-def-2 .statement tag=045M}
 
 Soient $A$ un anneau, $S$ une partie de $A$, $\overline{S}$ la partie multiplicative engendrée par $S$. On appelle anneau de fractions de $A$ défini par $S$ et on désigne par $A[S^{-1}]$ l’ensemble quotient de $A \times \overline{S}$ par la relation d’équivalence (1), muni de la structure d’anneau définie par
 $$
@@ -122,29 +122,29 @@ pour $a, b$ dans $A$, $s, t$ dans $\overline{S}$. On appelle application canoniq
 
 Dans ce chapitre, nous noterons le plus souvent $i_A^S$ cette application canonique ; la démonstration de la prop. 1 montre que le couple $(A[S^{-1}], i_A^S)$ vérifie les conditions de l’énoncé de cette proposition.
 
-#### Remarque 1 {#ac-ii-s2-n1-rem-1 .statement}
+#### Remarque 1 {#ac-ii-s2-n1-rem-1 .statement tag=0CGE}
 
 Il est clair que l’on a $A[\overline{S}^{-1}] = A[S^{-1}]$.
 
-#### Remarque 2 {#ac-ii-s2-n1-rem-2 .statement}
+#### Remarque 2 {#ac-ii-s2-n1-rem-2 .statement tag=0CGF}
 
 Deux éléments de $A[S^{-1}]$ peuvent toujours s’écrire sous la forme $a/s$ et $a'/s$ ($a, a'$ dans $A, s \in \overline{S}$) avec le même « dénominateur » $s$, car si $b/t$ et $b'/t'$ sont deux éléments de $A[S^{-1}]$, on a $b/t = bt'/tt'$ et $b'/t' = b't/tt'$.
 
-#### Remarque 3 {#ac-ii-s2-n1-rem-3 .statement}
+#### Remarque 3 {#ac-ii-s2-n1-rem-3 .statement tag=0CGG}
 
 Le noyau de $i_A^S$ est l’ensemble des $a \in A$ tels qu’il existe $s \in \overline{S}$ vérifiant $sa = 0$; pour que $i_A^S$ soit injectif, il faut et il suffit que $S$ ne contienne aucun diviseur de zéro dans $A$.
 
-#### Remarque 4 {#ac-ii-s2-n1-rem-4 .statement}
+#### Remarque 4 {#ac-ii-s2-n1-rem-4 .statement tag=0CGH}
 
 S’il existe dans $S$ un élément nilpotent, on a $0 \in \overline{S}$, et l’anneau $A[S^{-1}]$ est réduit à $0$; cela résulte aussitôt de la déf. 2.
 
-#### Remarque 5 {#ac-ii-s2-n1-rem-5 .statement}
+#### Remarque 5 {#ac-ii-s2-n1-rem-5 .statement tag=0CGI}
 
 Pour que $i_A^S$ soit une application bijective, il faut et il suffit que tout élément $s \in S$ soit inversible dans $A$ : la condition est évidemment nécessaire, puisque $s/1$ est inversible dans $A[S^{-1}]$; elle est suffisante, car pour tout $t \in \overline{S}$, $t$ est alors inversible dans $A$ et on a $a/t = at^{-1}/1$ dans $A[S^{-1}]$; donc $i_A^S$ est surjective, et on a vu en outre dans la Remarque 3 qu’elle est injective. On identifie alors $A$ et $A[S^{-1}]$ au moyen de $i_A^S$.
 
 Exemple 7). — Si $R$ est l’ensemble des éléments non diviseurs de $0$ dans $A$, l’anneau $A[R^{-1}]$ n’est autre que ce que nous avons appelé l’anneau des fractions de $A$ (Alg., chap. I, § 9, no 4); pour éviter toute confusion, nous l’appellerons souvent l’anneau total des fractions de $A$. En particulier, si $A$ est intègre, $A[R^{-1}]$ est le corps des fractions de $A$ (loc. cit.).
 
-#### Proposition 2 {#ac-ii-s2-prop-2 .statement}
+#### Proposition 2 {#ac-ii-s2-prop-2 .statement tag=045N}
 
 Soient $A, B$ deux anneaux, $S$ une partie de $A$, $T$ une partie de $B$, $f$ un homomorphisme de $A$ dans $B$ tel que $f(S) \subset T$. Il existe un homomorphisme $f'$ et un seul de $A[S^{-1}]$ dans $B[T^{-1}]$ tel que $f'(a/1) = f(a)/1$ pour tout $a \in A$.
 
@@ -171,13 +171,13 @@ Supposons que $T$ soit contenue dans la partie multiplicative engendrée par $f(
 
 Remarque 6). — Si les éléments de $T$ sont inversibles dans $B$, $B[T^{-1}]$ s’identifie à $B$ au moyen de l’isomorphisme $i_B^T$, et $f'$ devient alors identique à l’unique homomorphisme $u'$ de $A[S^{-1}]$ dans $B$ tel que $u' \circ i_A^S = f$.
 
-#### Corollaire 1 {#ac-ii-s2-prop-2-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s2-prop-2-cor-1 .statement tag=045O}
 
 Soient $A$ un anneau, $S$ une partie de $A$, $u$ un homomorphisme injectif de $A$ dans un anneau $B$ tel que les éléments de $u(S)$ soient inversibles dans $B$. L’unique homomorphisme $u'$ de $A[S^{-1}]$ dans $B$ tel que $u' \circ i_A^S = u$ est alors injectif.
 
 C’est une conséquence immédiate de la prop. 2 et de la Remarque 6.
 
-#### Corollaire 2 {#ac-ii-s2-prop-2-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s2-prop-2-cor-2 .statement tag=045P}
 
 Soient $A$ un anneau, $S$ et $T$ deux parties de $A$ telles que $S \subset T$. Il existe un homomorphisme $i_A^{T,S}$ et un seul de $A[S^{-1}]$ dans $A[T^{-1}]$ tel que $i_A^T = i_A^{T,S} \circ i_A^S$.
 
@@ -185,7 +185,7 @@ Pour tout $a \in A$, $i_{A}^{T,s}$ applique donc l’élément $a/s$ de $A[S^{-1
 
 Remarque 7). — On notera que si $i_{A}^{T}$ est injectif, il en est de même de $i_{A}^{T,s}$ (cor. 1). C’est ce qui se produit si T est l’ensemble R des éléments non diviseurs de 0 de A ; on peut alors identifier $A[S^{-1}]$ au sous-anneau de l’anneau total des fractions $A[R^{-1}]$ engendré par A et par les inverses dans $A[R^{-1}]$ des éléments de S.
 
-#### Corollaire 3 {#ac-ii-s2-prop-2-cor-3 .statement}
+#### Corollaire 3 {#ac-ii-s2-prop-2-cor-3 .statement tag=045Q}
 
 Soient A, B, C trois anneaux, S (resp. T, U) une partie multiplicative de A (resp. B, C), $f : A \to B$, $g : B \to C$ deux homomorphismes, $h : A \to C$ l’homomorphisme composé $g \circ f$; on suppose que $f(S) \subset T$, $g(T) \subset U$. Soient $f' : A[S^{-1}] \to B[T^{-1}]$, $g' : B[T^{-1}] \to C[U^{-1}]$, $h' : A[S^{-1}] \to C[U^{-1}]$ les homomorphismes correspondant à $f$, $g$, $h$; alors $h' = g' \circ f'$.
 
@@ -193,7 +193,7 @@ Cela résulte aussitôt des définitions.
 
 En particulier, si S, T, U sont trois parties multiplicatives de A telles que $S \subset T \subset U$, on a $i_{A}^{U,s} = i_{A}^{U,T} \circ i_{A}^{T,s}$.
 
-#### Corollaire 4 {#ac-ii-s2-prop-2-cor-4 .statement}
+#### Corollaire 4 {#ac-ii-s2-prop-2-cor-4 .statement tag=045R}
 
 Soient S une partie d’un anneau A, B un sous-anneau de $A[S^{-1}]$ contenant $i_{A}^{S}(A)$, S’ l’ensemble $i_{A}^{S}(S)$. Soit j l’injection canonique de B dans $A[S^{-1}]$; l’unique homomorphisme g de $B[{S'}^{-1}]$ dans $A[S^{-1}]$ tel que $g \circ i_{B}^{S'} = j$ est un isomorphisme.
 
@@ -209,7 +209,7 @@ Si A est intègre et $0 \notin S$, $S^{-1}A$ est toujours identifié à un sous-
 
 L’homomorphisme canonique $i_A^s : A \to A[S^{-1}]$ défini au no 1 permet de considérer tout $A[S^{-1}]$-module comme un $A$-module.
 
-#### Proposition 3 {#ac-ii-s2-prop-3 .statement}
+#### Proposition 3 {#ac-ii-s2-prop-3 .statement tag=045S}
 
 Soient $A$ un anneau, $S$ une partie de $A$, $M$ un $A$-module, $M'$ le $A$-module $M \otimes_A A[S^{-1}]$, $f$ le $A$-homomorphisme canonique $x \to x \otimes 1$ de $M$ dans $M'$. Alors :
 
@@ -225,17 +225,17 @@ Inversement, si $N$ est un $A[S^{-1}]$-module, et si on le considère comme $A$-
 
 Cela étant, l’énoncé de la prop. 3 n’est autre que la caractérisation du module obtenu à partir de $M$ par *extension des scalaires à $A[S^{-1}]$*, compte tenu de l’interprétation précédente (*Alg.*, chap. II, 3e éd., § 5, no 1, *Remarque 1*).
 
-#### Définition 3 {#ac-ii-s2-def-3 .statement}
+#### Définition 3 {#ac-ii-s2-def-3 .statement tag=045T}
 
 *Soient $A$ un anneau, $S$ une partie de $A$, $\overline{S}$ la partie multiplicative de $A$ engendrée par $S$, $M$ un $A$-module. On appelle module des fractions de $M$ défini par $S$ et on note $M[S^{-1}]$ ou $\overline{S}^{-1}M$ le $A[S^{-1}]$-module $M \otimes_A A[S^{-1}]$.*
 
 Dans ce chapitre, nous noterons le plus souvent $i_M^S$ l’application canonique $m \to m \otimes 1$ de $M$ dans $M[S^{-1}]$.
 
-#### Remarque 1 {#ac-ii-s2-n2-rem-1 .statement}
+#### Remarque 1 {#ac-ii-s2-n2-rem-1 .statement tag=0CGJ}
 
 Il est clair que l’on a $M[\overline{S}^{-1}] = M[S^{-1}]$.
 
-#### Remarque 2 {#ac-ii-s2-n2-rem-2 .statement}
+#### Remarque 2 {#ac-ii-s2-n2-rem-2 .statement tag=0CGK}
 
 Pour $m \in M$ et $s \in \overline{S}$, on écrit encore $m/s$ l’élément $m \otimes (1/s)$ de $M[S^{-1}]$. Tout élément de $M[S^{-1}]$ est de cette forme, car un tel élément s’écrit $\sum_i m_i \otimes (a_i/s)$ avec $m_i \in M, a_i \in A, s \in S$ (no 1, *Remarque 2*) et on a $m_i \otimes (a_i/s) = (a_i m_i) \otimes (1/s)$, donc $\sum_i m_i \otimes (a_i/s) = m \otimes (1/s)$ avec $m = \sum_i a_i m_i$. On a
 $$
@@ -246,27 +246,27 @@ $$
 $$
 pour $m, m'$ dans $M, a \in A, s, s'$ dans $S$.
 
-#### Remarque 3 {#ac-ii-s2-n2-rem-3 .statement}
+#### Remarque 3 {#ac-ii-s2-n2-rem-3 .statement tag=0CGL}
 
 Lorsque S est le complémentaire d’un idéal premier p de A, on écrit M_p au lieu de S^{-1}M.
 
-#### Remarque 4 {#ac-ii-s2-n2-rem-4 .statement}
+#### Remarque 4 {#ac-ii-s2-n2-rem-4 .statement tag=0CGM}
 
 Soit M un A[S^{-1}]-module ; lorsque M est considéré canoniquement comme un A-module, i_M^s est une application bijective, car le couple formé de M et de l’application identique 1_M est aussi trivialement solution du problème d’application universelle résolu par M[S^{-1}] et i_M^s. On identifie alors M et M[S^{-1}].
 
-#### Proposition 4 {#ac-ii-s2-prop-4 .statement}
+#### Proposition 4 {#ac-ii-s2-prop-4 .statement tag=045U}
 
 Soient S une partie multiplicative de A, M un A-module. Pour que m/s = 0 (m \in M, s \in S), il faut et il suffit qu’il existe s' \in S tel que s'm = 0.
 
 Si s' \in S est tel que s'm = 0, il est clair que m/s = (s'm)/(s's) = 0. Inversement, supposons que m/s = 0. Comme 1/s est inversible dans S^{-1}A, on a m/1 = 0. Pour tout sous-A-module P de S^{-1}A contenant 1, notons \beta(P, m) l’image de (m, 1) par l’application canonique de M \times P dans M \otimes_A P ; on a donc \beta(S^{-1}A, m) = 0. On sait (Alg., chap. II, 3e éd., § 6, no 7, cor. 4 de la prop. 12) qu’il existe un sous-module P de type fini de S^{-1}A contenant 1 et tel que \beta(P, m) = 0. Pour tout t \in S, désignons par A_t l’ensemble des a/t pour a \in A ; comme P est de type fini, il existe un t \in S tel que P \subset A_t (no 1, Remarque 2), d’où \beta(A_t, m) = 0. L’application a \to a/t de A dans A_t est surjective ; soit B son noyau. Elle définit une application surjective h : M \otimes_A A \to M \otimes_A A_t, dont le noyau est BM (M étant identifié à M \otimes A) ; on a \beta(A_t, m) = h(tm) et par suite tm se met sous la forme \sum_{i=1}^r b_i m_i avec b_i \in B, m_i \in M (1 \leq i \leq r). Comme b_i/t = 0 pour 1 \leq i \leq r, il existe un t' \in S tel que t'b_i = 0 pour 1 \leq i \leq r, d’où t'tm = 0, ce qui démontre la prop. 4.
 
-#### Corollaire 1 {#ac-ii-s2-prop-4-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s2-prop-4-cor-1 .statement tag=045V}
 
 Pour que m/s = m'/s' dans S^{-1}M, il faut et il suffit qu’il existe t \in S tel que t(s'm - sm') = 0.
 
 En effet (m/s) - (m'/s') = (s'm - sm')/ss'.
 
-#### Corollaire 2 {#ac-ii-s2-prop-4-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s2-prop-4-cor-2 .statement tag=045W}
 
 Soit M un A-module de type fini. Pour que S^{-1}M = 0, il faut et il suffit qu’il existe s \in S tel que sM = 0.
 
@@ -274,13 +274,13 @@ Sans hypothèse sur M, il est clair que la relation sM = 0 pour un s \in S entra
 
 $S^{-1}M = 0$, et soit $(m_i)_{1 \leq i \leq n}$ un système de générateurs de $M$; les $m_i/1$ engendrent le $S^{-1}A$-module $S^{-1}M$, donc dire que $S^{-1}M = 0$ revient à dire que $m_i/1 = 0$ pour $1 \leq i \leq n$; en vertu de la prop. 4, il y a des $s_i \in S$ tels que $s_i m_i = 0$, et en prenant $s = s_1 s_2 \ldots s_n \in S$, on a $s m_i = 0$ pour tout $i$, donc $sM = 0$.
 
-#### Corollaire 3 {#ac-ii-s2-prop-4-cor-3 .statement}
+#### Corollaire 3 {#ac-ii-s2-prop-4-cor-3 .statement tag=045X}
 
 *Soit M un A-module de type fini. Pour qu’un idéal a de A soit tel que aM = M, il faut et il suffit qu’il existe a ∈ a tel que $(1 + a)M = 0$.*
 
 Il est clair que la relation $(1 + a)M = 0$ entraîne $M = aM$. Pour démontrer la réciproque, nous utiliserons le lemme suivant :
 
-#### Lemme 1 {#ac-ii-s2-lem-1 .statement}
+#### Lemme 1 {#ac-ii-s2-lem-1 .statement tag=045Y}
 
 *Pour tout idéal a de A, l’ensemble S des éléments $1 + a$ pour $a \in a$, est une partie multiplicative de A, et l’ensemble $a'$ des éléments de $S^{-1}A$ de la forme $a/s$, où $a \in a$ et $s \in S$, est un idéal contenu dans le radical de $S^{-1}A$.*
 
@@ -288,7 +288,7 @@ La première assertion est évidente, ainsi que le fait que $a'$ est un idéal d
 
 Cela étant, si on pose $N = S^{-1}M$, il est clair que N est un $S^{-1}A$-module de type fini ; si $aM = M$, on a $a'N = N$ et on en conclut que $N = 0$ par le lemme de Nakayama (*Alg.*, chap. VIII, § 6, no 3, cor. de la prop. 6) ; le corollaire résulte alors du cor. 2.
 
-#### Proposition 5 {#ac-ii-s2-prop-5 .statement}
+#### Proposition 5 {#ac-ii-s2-prop-5 .statement tag=045Z}
 
 *Soient A, B deux anneaux, S une partie multiplicative de A, T une partie multiplicative de B, et f un homomorphisme de A dans B tel que $f(S) \subset T$. Soient M un A-module, N un B-module, et u une application A-linéaire de M dans N. Il existe alors une application $S^{-1}A$-linéaire $u'$ et une seule de $S^{-1}M$ dans $T^{-1}N$ telle que $u'(m/1) = u(m)/1$ pour tout $m \in M$.
 
@@ -310,7 +310,7 @@ le premier membre étant l’application A-linéaire $S^{-1}M \to T^{-1}N$ assoc
 
 Remarque 5). — Si, dans la prop. 5, on prend $B = A$, $T = S$ et $f = 1_A$, on voit aussitôt que $u'$ n’est autre que l’application $u \otimes 1 : M \otimes S^{-1}A \to N \otimes S^{-1}A$. Nous la noterons désormais $S^{-1}u$; lorsque S est le complémentaire d’un idéal premier p de A, nous écrirons $u_p$ au lieu de $S^{-1}u$.
 
-#### Proposition 6 {#ac-ii-s2-prop-6 .statement}
+#### Proposition 6 {#ac-ii-s2-prop-6 .statement tag=0460}
 
 Soient $f$ un homomorphisme d’un anneau A dans un anneau B, S une partie multiplicative de A. Il existe une application j et une seule de $(f(S))^{-1}B$ dans $S^{-1}B$ (où B est considéré comme A-module au moyen de f) telle que $j(b/f(s)) = b/s$ pour $b \in B$, $s \in S$. Si $f' : S^{-1}A \to (f(S))^{-1}B$ est l’homomorphisme d’anneaux associé à f (no 1, prop. 2), on a $j \circ f' = S^{-1}f$. L’application j est un isomorphisme de la structure de $S^{-1}A$-module de $(f(S))^{-1}B$, définie par $f'$, sur celle de $S^{-1}B$, et aussi de la structure de B-module de $(f(S))^{-1}B$ sur celle de $S^{-1}B$ (résultant de la définition $S^{-1}B = (S^{-1}A) \otimes_A B$).
 
@@ -332,7 +332,7 @@ $$
 
 est commutatif.
 
-#### Proposition 7 {#ac-ii-s2-prop-7 .statement}
+#### Proposition 7 {#ac-ii-s2-prop-7 .statement tag=0461}
 
 Soient $A$ un anneau, $S, T$ deux parties multiplicatives de $A$. Posons $T' = i_A^s(T)$.
 
@@ -370,7 +370,7 @@ Comme les images par u des éléments de ST dans T'^{-1}(S^{-1}A) sont inversibl
 
 (ii) La démonstration est tout à fait analogue à celle de (i), en utilisant cette fois le n° 2, prop. 3, et elle est laissée au lecteur.
 
-#### Proposition 8 {#ac-ii-s2-prop-8 .statement}
+#### Proposition 8 {#ac-ii-s2-prop-8 .statement tag=0462}
 
 Soient A un anneau, S, T deux parties multiplicatives de A telles que S ⊂ T. Les propriétés suivantes sont équivalentes :
 
@@ -388,7 +388,7 @@ S^{-1}A contenant t/1 (Alg., chap. I, § 8, no 7, th. 2), et $p = (i_A^{S})^{-1}
 
 On déduit de la prop. 8 que parmi les parties multiplicatives T de A, contenant S et vérifiant les conditions équivalentes de la prop. 8, il y en a une plus grande, formée de tous les éléments de A qui divisent un élément de S (cf. exerc. 1).
 
-#### Proposition 9 {#ac-ii-s2-prop-9 .statement}
+#### Proposition 9 {#ac-ii-s2-prop-9 .statement tag=0463}
 
 Soient I un ensemble préordonné filtrant croissant, $(S_\alpha)_{\alpha \in I}$ une famille croissante de parties multiplicatives d’un anneau A, $S = \bigcup_{\alpha \in I} S_\alpha$. Posons $\rho_{\beta \alpha} = i_A^{S_\beta, S_\alpha}$ pour $\alpha \leq \beta$, $\rho_\alpha = i_A^{S_\alpha, S_\alpha}$. Alors $(S_\alpha^{-1}A, \rho_{\beta \alpha})$ est un système inductif d’anneaux, et si, pour tout $\alpha \in I$, $\rho'_\alpha$ est l’application canonique de $S_\alpha^{-1}A$ dans $\lim \rightarrow S_\alpha^{-1}A$, il existe un isomorphisme j et un seul de $\lim \rightarrow S_\alpha^{-1}A$ sur $S^{-1}A$ tel que $j \circ \rho'_\alpha = \rho_\alpha$ pour tout $\alpha \in I$.
 
@@ -402,7 +402,7 @@ h \circ j \circ \rho'_\alpha \circ i_A^{S_\alpha} = h \circ \rho_\alpha \circ i_
 $$
 d’où $h \circ j \circ \rho'_\alpha = \rho'_\alpha$ pour tout $\alpha \in I$; il en résulte que $h \circ j$ est l’automorphisme identique de $A'$, et par suite $j$ est un isomorphisme.
 
-#### Corollaire {#ac-ii-s2-n3-cor-1 .statement}
+#### Corollaire {#ac-ii-s2-n3-cor-1 .statement tag=0464}
 
 Les hypothèses étant celles de la prop. 9, soit M un A-module. Posons $f_{\beta \alpha} = i_M^{s_{\beta}, s_{\alpha}}$ pour $\alpha \leq \beta$, $f_{\alpha} = i_M^{s_{\alpha}, s_{\alpha}}$ pour tout $\alpha \in I$, et soit $f'_\alpha$ l’application canonique de $S_\alpha^{-1}M$ dans $\lim \rightarrow S_\alpha^{-1}M$; il existe alors un $S^{-1}A$-isomorphisme g de $S^{-1}M$ sur $\lim \rightarrow S_\alpha^{-1}M$ tel que $g \circ f_\alpha = f'_\alpha$ pour tout $\alpha \in I$.
 
@@ -426,7 +426,7 @@ $$
 
 Notons enfin que, si un A-module M est somme d’une famille $(N_i)_{i \in I}$ de sous-modules, $S^{-1}M$ est somme de la famille des sous-$S^{-1}A$-modules engendrée par les $i_M^S(N_i)$. Il en résulte que si M est un A-module de type fini (resp. de présentation finie), $S^{-1}M = S^{-1}A \otimes_A M$ est un $S^{-1}A$-module de type fini (resp. de présentation finie).
 
-#### Théorème 1 {#ac-ii-s2-thm-1 .statement}
+#### Théorème 1 {#ac-ii-s2-thm-1 .statement tag=0465}
 
 L’anneau $S^{-1}A$ est un A-module plat (chap. I, § 2, no 3, déf. 2).
 
@@ -450,7 +450,7 @@ $$
 
 (chap. I, § 2, n° 10, cor. 2 de la prop. 12).
 
-#### Proposition 10 {#ac-ii-s2-prop-10 .statement}
+#### Proposition 10 {#ac-ii-s2-prop-10 .statement tag=0466}
 
 Soit M un A-module. Pour tout sous-module N’ du $S^{-1}A$-module $S^{-1}M$, soit $\varphi(N')$ l’image réciproque de N’ par $i_M^S$. Alors :
 (i) On a $S^{-1}\varphi(N') = N'$.
@@ -477,17 +477,17 @@ $$
 
 Lorsque $S$ est le complémentaire dans $A$ d'un idéal premier $p$, on dit encore que $\varphi(S^{-1}N)$ est le saturé de $N$ dans $M$ pour $p$.
 
-#### Corollaire 1 {#ac-ii-s2-prop-10-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s2-prop-10-cor-1 .statement tag=0467}
 
 Soient $N_1, N_2$ deux sous-modules d'un $A$-module $M$. Pour que $S^{-1}N_1 \subset S^{-1}N_2$, il faut et il suffit que le saturé de $N_1$ pour $S$ soit contenu dans celui de $N_2$.
 
-#### Corollaire 2 {#ac-ii-s2-prop-10-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s2-prop-10-cor-2 .statement tag=0468}
 
 Si $M$ est un $A$-module noethérien (resp. artinien), $S^{-1}M$ est un $S^{-1}A$-module noethérien (resp. artinien). En particulier, si l'anneau $A$ est noethérien (resp. artinien), il en est de même de l'anneau $S^{-1}A$.
 
 ### 5. Idéaux dans un anneau de fractions.
 
-#### Proposition 11 {#ac-ii-s2-prop-11 .statement}
+#### Proposition 11 {#ac-ii-s2-prop-11 .statement tag=0469}
 
 Soient $A$ un anneau, $S$ une partie multiplicative de $A$. Pour tout idéal $b'$ de $S^{-1}A$, soit $b = (i_A^S)^{-1}(b')$, de sorte que $b' = S^{-1}b$.
 
@@ -507,29 +507,29 @@ C. Q. F. D.
 
 L'isomorphisme défini dans (iii) est dit canonique. Lorsque A est intègre, les isomorphismes canoniques de A_q et de (S^{-1}A)_{q'} sur des sous-anneaux du corps des fractions K de A ont même image.
 
-#### Remarque {#ac-ii-s2-n5-rem-1 .statement}
+#### Remarque {#ac-ii-s2-n5-rem-1 .statement tag=046A}
 
 Pour qu'un idéal a de A soit tel que S^{-1}a = S^{-1}A (ou, ce qui revient au même en vertu du n° 4, th. 1, que S^{-1}(A/a)=0), il faut et il suffit que a ∩ S ≠ Ø, comme il résulte aussitôt des définitions.
 
-#### Corollaire 1 {#ac-ii-s2-prop-11-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s2-prop-11-cor-1 .statement tag=046B}
 
 Soient A un anneau, S une partie multiplicative de A. Tout idéal p de A, maximal parmi ceux qui sont disjoints de S, est premier.
 
 En effet, en vertu de la prop. 11, l'hypothèse sur p signifie que p = (i_A^S)^{-1}(m'), où m' est un idéal maximal de S^{-1}A ; comme m' est premier, il en est de même de p.
 
-#### Corollaire 2 {#ac-ii-s2-prop-11-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s2-prop-11-cor-2 .statement tag=046C}
 
 Soient A un anneau, S une partie multiplicative de A. Pour tout idéal a de A ne rencontrant pas S, il existe un idéal premier contenant a et ne rencontrant pas S.
 
 En effet, on a S^{-1}a ≠ S^{-1}A (Remarque), donc il existe un idéal maximal de S^{-1}A contenant S^{-1}a (Alg., chap. I, § 8, n° 7, th. 2) et le corollaire résulte de la prop. 11, (ii).
 
-#### Corollaire 3 {#ac-ii-s2-prop-11-cor-3 .statement}
+#### Corollaire 3 {#ac-ii-s2-prop-11-cor-3 .statement tag=046D}
 
 Soient A, B deux anneaux, ρ un homomorphisme de A dans B, et p un idéal premier de A. Pour qu'il existe un idéal premier p' de B tel que ρ^{-1}(p') = p, il faut et il suffit que ρ^{-1}(B_ρ(p)) = p.
 
 S'il existe un idéal p' de B tel que ρ^{-1}(p') = p, on a ρ(p) ⊂ p', d'où $B_\rho(p) \subset p'$ et $\rho^{-1}(B_\rho(p)) \subset \rho^{-1}(p') \subset p$; comme l'inclusion opposée est évidente, on a bien $\rho^{-1}(B_\rho(p)) = p$. Inversement, supposons que l'on ait $\rho^{-1}(B_\rho(p)) = p$, et considérons la partie multiplicative $S = \rho(A - p)$ de $B$; l'hypothèse montre que $S \cap B_\rho(p) = \emptyset$; en vertu du cor. 2, il existe un idéal premier $p'$ de $B$ contenant $B_\rho(p)$ et disjoint de $S$; alors $\rho^{-1}(p')$ contient $p$ et ne peut contenir aucun élément de $A - p$, donc est égal à $p$.
 
-#### Corollaire 4 {#ac-ii-s2-prop-11-cor-4 .statement}
+#### Corollaire 4 {#ac-ii-s2-prop-11-cor-4 .statement tag=046E}
 
 *Soient A et B deux anneaux, $\rho$ un homomorphisme de A dans B.*
 
@@ -541,7 +541,7 @@ S'il existe un idéal p' de B tel que ρ^{-1}(p') = p, on a ρ(p) ⊂ p', d'où 
 
 (ii) Il suffit de montrer que pour tout idéal maximal $m$ de A, il existe un idéal maximal $m'$ de B tel que $\rho^{-1}(m') = m$ (chap. I, § 3, no 5, prop. 9, e)). Or il existe par hypothèse un idéal $q$ de B tel que $\rho^{-1}(q) = m$; comme $q \neq B$, il existe un idéal maximal $m'$ de B contenant $q$, et par suite $\rho^{-1}(m') \supset m$; mais comme $\rho^{-1}(m')$ ne peut contenir 1, on a $\rho^{-1}(m') = m$.
 
-#### Corollaire 5 {#ac-ii-s2-prop-11-cor-5 .statement}
+#### Corollaire 5 {#ac-ii-s2-prop-11-cor-5 .statement tag=046F}
 
 *Soient A un anneau, S une partie multiplicative de A, B un anneau tel que $i_A^S(A) \subset B \subset S^{-1}A$. Soit q un idéal premier de B tel que l'idéal premier $p = (i_A^S)^{-1}(q)$ de A ne rencontre pas S, et soit $p'$ l'idéal premier $S^{-1}p$ de $S^{-1}A$. On a alors $p' \cap B = q$.*
 
@@ -553,7 +553,7 @@ Avec les notations du cor. 5, on a des isomorphismes canoniques de $A_p$ et de $
 
 Dans un anneau (commutatif) $A$, l’ensemble des éléments nilpotents est un idéal, car si $x, y$ sont des éléments de $A$ tels que $x^m = y^n = 0$, on a $(x + y)^{m+n} = 0$ en vertu de la formule du binôme.
 
-#### Définition 4 {#ac-ii-s2-def-4 .statement}
+#### Définition 4 {#ac-ii-s2-def-4 .statement tag=046G}
 
 On appelle nilradical d’un anneau (commutatif) $A$ l’idéal des éléments nilpotents de $A$. On appelle racine d’un idéal $a$ de $A$ l’image réciproque, par l’application canonique $A \to A/a$, du nilradical de $A/a$.
 
@@ -564,33 +564,33 @@ Le nilradical d’un anneau $A$ est contenu dans son radical ($Alg.$, chap. VIII
 
 Nous dirons qu’un idéal premier $p$ d’un anneau $A$ est un idéal premier minimal s’il est minimal dans l’ensemble des idéaux premiers de $A$, ordonné par inclusion.
 
-#### Proposition 12 {#ac-ii-s2-prop-12 .statement}
+#### Proposition 12 {#ac-ii-s2-prop-12 .statement tag=046H}
 
 Soient $p$ un idéal premier minimal d’un anneau $A$. Pour tout $x \in p$, il existe un $s \in A - p$ et un entier $k > 0$ tels que $sx^k = 0$.
 
 En effet, l’ensemble $S$ des éléments de la forme $sx^k$ ($k$ entier $\geqslant 0$, $s \in A - p$) est une partie multiplicative de $A$. Si on avait $0 \in S$, il existerait un idéal premier $p'$ disjoint de $S$ (no 5, cor. 2 de la prop. 11). On aurait alors $p' \subset p$ et $p' \neq p$ puisque $x \notin p'$, contrairement à l’hypothèse que $p$ est minimal.
 
-#### Proposition 13 {#ac-ii-s2-prop-13 .statement}
+#### Proposition 13 {#ac-ii-s2-prop-13 .statement tag=046I}
 
 Le nilradical d’un anneau $A$ est l’intersection de tous les idéaux premiers de $A$, et c’est aussi l’intersection des idéaux premiers minimaux de $A$.
 
 Il est clair que, si $x \in A$ est nilpotent, il est contenu dans tout idéal premier de $A$ (§ 1, n° 1, déf. 1). Inversement, soit $x$ un élément non nilpotent de $A$; l’ensemble $S$ des $x^k$ ($k$ entier $\geqslant 0$) est alors une partie multiplicative de $A$ ne contenant pas $0$, donc il existe un idéal premier $p$ de $A$ ne rencontrant pas $S$ (n° 5, cor. 2 de la prop. 11), et $a fortiori$ $x \notin p$; ceci établit la première assertion. Pour démontrer la seconde, il suffit de prouver le
 
-#### Lemme 2 {#ac-ii-s2-lem-2 .statement}
+#### Lemme 2 {#ac-ii-s2-lem-2 .statement tag=046J}
 
 Tout idéal premier $p$ d’un anneau $A$ contient un idéal premier minimal de $A$.
 
 Il suffit, en vertu du th. de Zorn, de montrer que l’ensemble $P$ des idéaux premiers, ordonné par la relation $\supset$, est *inductif*. Or, si $G$ est une partie totalement ordonnée non vide de $P$, l’intersection $p_0$ des idéaux $p \in G$ est encore un idéal premier : en effet, si $x \notin p_0$ et $y \notin p_0$, il existe un idéal $p \in G$ tel que $x \notin p$ et $y \notin p$, d’où $xy \notin p$ et $a fortiori$ $xy \notin p_0$.
 
-#### Remarque {#ac-ii-s2-n6-rem-1 .statement}
+#### Remarque {#ac-ii-s2-n6-rem-1 .statement tag=046K}
 
 Au § 4, n° 3, cor. 3 de la prop. 14, nous montrerons que dans un anneau *noethérien* l’ensemble des idéaux premiers minimaux est *fini* ; nous verrons en outre plus tard que toute suite décroissante d’idéaux premiers dans un anneau noethérien est *stationnaire*.
 
-#### Corollaire 1 {#ac-ii-s2-lem-2-cor-1 .statement}
+#### Corollaire 1 {#ac-ii-s2-lem-2-cor-1 .statement tag=046L}
 
 La racine d’un idéal $a$ d’un anneau $A$ est l’intersection des idéaux premiers contenant $a$, et c’est aussi l’intersection des éléments minimaux de cet ensemble d’idéaux premiers.
 
-#### Corollaire 2 {#ac-ii-s2-lem-2-cor-2 .statement}
+#### Corollaire 2 {#ac-ii-s2-lem-2-cor-2 .statement tag=046M}
 
 Pour tout idéal $a$ d’un anneau $A$, notons $r(a)$ la racine de $a$. Alors, pour deux idéaux $a, b$ de $A$, on a
 $$
@@ -600,23 +600,23 @@ en particulier, si $a \subset b$, on a $r(a) \subset r(b)$.
 
 En effet, pour qu’un idéal premier contienne $a \cap b$ (ou $ab$), il faut et il suffit qu’il contienne l’un des idéaux $a, b$ ($§ 1$, no 1, prop. 1).
 
-#### Proposition 14 {#ac-ii-s2-prop-14 .statement}
+#### Proposition 14 {#ac-ii-s2-prop-14 .statement tag=046N}
 
 *Pour que deux idéaux $a, b$ d’un anneau $A$ soient étrangers, il faut et il suffit que leurs racines $r(a)$ et $r(b)$ le soient.*
 
 La nécessité de la condition est évidente puisque $a \subset r(a)$ et $b \subset r(b)$; la condition est suffisante en vertu du $§ 1$, no 2, prop. 3.
 
-#### Proposition 15 {#ac-ii-s2-prop-15 .statement}
+#### Proposition 15 {#ac-ii-s2-prop-15 .statement tag=046O}
 
 *Dans un anneau $A$, soient $a$ un idéal et $b$ un idéal de type fini contenu dans la racine de $a$. Alors il existe un entier $k > 0$ tel que $b^k \subset a$.*
 
 Soit $(b_i)_{1 \leq i \leq n}$ un système de générateurs de $b$. Par hypothèse, il existe un entier $h$ tel que $b_i^h \in a$ pour $1 \leq i \leq n$. Quand on développe un produit de $nh$ éléments dont chacun est combinaison linéaire des $b_i$ à coefficients dans $A$, chaque terme est multiple d’un produit de $nh$ facteurs dont chacun est égal à un $b_i$; parmi ces facteurs, $h$ au moins correspondent à un même indice $i$, donc le produit appartient à $a$, et le nombre $k = nh$ répond à la question.
 
-#### Corollaire {#ac-ii-s2-n6-cor-1 .statement}
+#### Corollaire {#ac-ii-s2-n6-cor-1 .statement tag=046P}
 
 *Dans un anneau noethérien, le nilradical est un idéal nilpotent.*
 
-#### Proposition 16 {#ac-ii-s2-prop-16 .statement}
+#### Proposition 16 {#ac-ii-s2-prop-16 .statement tag=046Q}
 
 *Soient $B$ un anneau, $A$ un sous-anneau de $B$. Pour tout idéal premier minimal $p$ de $A$, il existe un idéal premier minimal $q$ de $B$ tel que $q \cap A = p$.*
 
@@ -628,13 +628,13 @@ $$
 
 donc $r \cap A \subset p$, et comme $p$ est minimal, $r \cap A = p$; en outre $r$ est premier dans $B$; si $q$ est un idéal premier minimal de $B$ contenu dans r (lemme 1), on a a fortiori q ∩ A ⊂ p, donc q ∩ A = p puisque p est minimal.
 
-#### Définition 5 {#ac-ii-s2-def-5 .statement}
+#### Définition 5 {#ac-ii-s2-def-5 .statement tag=046R}
 
 On dit qu’un anneau A est réduit si son nilradical est réduit à 0, autrement dit si aucun élément ≠ 0 de A n’est nilpotent.
 
 Si $\mathfrak{N}$ est le nilradical d’un anneau A, $A/\mathfrak{N}$ est réduit, car si la classe mod. $\mathfrak{N}$ d’un élément $x \in A$ est nilpotente dans $A/\mathfrak{N}$, cela signifie que $x^h \in \mathfrak{N}$ pour un entier h, donc $x^{hk} = 0$ pour un entier k, et $x \in \mathfrak{N}$.
 
-#### Proposition 17 {#ac-ii-s2-prop-17 .statement}
+#### Proposition 17 {#ac-ii-s2-prop-17 .statement tag=046S}
 
 Soient A un anneau, $\mathfrak{N}$ son nilradical. Pour toute partie multiplicative S de A, $S^{-1}\mathfrak{N}$ est le nilradical de $S^{-1}A$. En particulier, si A est réduit, $S^{-1}A$ est réduit.
 
@@ -642,7 +642,7 @@ En effet, si $x \in A$, $s \in S$ sont tels que $(x/s)^n = x^n/s^n = 0$, il exis
 
 ### 7. Modules de fractions de produits tensoriels et de modules d’homomorphismes.
 
-#### Proposition 18 {#ac-ii-s2-prop-18 .statement}
+#### Proposition 18 {#ac-ii-s2-prop-18 .statement tag=046T}
 
 Soient A un anneau, S une partie multiplicative de A.
 
@@ -664,15 +664,15 @@ $$
 
 Pour prouver (ii), notons d’abord que dans M’ et N’, considérés comme A-modules, les homothéties produites par les éléments s ∈ S sont bijectives, donc on a M’ = S^{-1}M’ et N’ = S^{-1}N’ (n° 2, Remarque 4) et de même S^{-1}(M’ \otimes_A N’) = M’ \otimes_A N’ ; (ii) est alors un cas particulier de (i).
 
-#### Corollaire {#ac-ii-s2-n7-cor-1 .statement}
+#### Corollaire {#ac-ii-s2-n7-cor-1 .statement tag=046U}
 
 Soient M un A-module, a un idéal de A. Les sous-S^{-1}A-modules (S^{-1}a)(S^{-1}M), a(S^{-1}M), (S^{-1}a)j(M) (où j : M → S^{-1}M est l’application canonique) et S^{-1}(aM) de S^{-1}M sont identiques. En particulier, si a et b sont deux idéaux de A, on a (S^{-1}a)(S^{-1}b) = a(S^{-1}b) = (S^{-1}a)b = S^{-1}(ab).
 
-#### Remarque {#ac-ii-s2-n7-rem-1 .statement}
+#### Remarque {#ac-ii-s2-n7-rem-1 .statement tag=046V}
 
 Soient M, N, P trois A-modules, f : M × N → P une application A-bilinéaire, S^{-1}f : (S^{-1}M) × (S^{-1}N) → S^{-1}P l’application S^{-1}A-bilinéaire obtenue à partir de f par extension à S^{-1}A de l’anneau des scalaires (Alg., chap. IX, § 1, n° 4, prop. 1). Soient i : M → S^{-1}M, j : N → S^{-1}N les homomorphismes canoniques ; il est immédiat que, si Q est le sous-A-module de P engendré par f(M × N), S^{-1}Q est le sous-S^{-1}A-module de S^{-1}P engendré par (S^{-1}f)(i(M) × j(N)).
 
-#### Proposition 19 {#ac-ii-s2-prop-19 .statement}
+#### Proposition 19 {#ac-ii-s2-prop-19 .statement tag=046W}
 
 Soient A un anneau, S une partie multiplicative de A.
 
@@ -694,7 +694,7 @@ est bijective.
 
 Comme S^{-1}A est un A-module plat, (i) est un cas particulier du chap. I, § 2, n° 10, prop. 11. D’autre part, on a déjà remarqué que tout A-homomorphisme de S^{-1}A-modules est nécessairement un S^{-1}A-homomorphisme, au cours de la démonstration de la prop. 3 du n° 2 ; d’où (ii).
 
-#### Proposition 20 {#ac-ii-s2-prop-20 .statement}
+#### Proposition 20 {#ac-ii-s2-prop-20 .statement tag=046X}
 
 Soient $A, A'$ deux anneaux, $\rho : A \to A'$ un homomorphisme, $S$ une partie multiplicative de $A$, $S' = \rho(S)$, $\rho' : S^{-1}A \to {S'}^{-1}A'$ l’homomorphisme correspondant à $\rho$ (n° 1, prop. 2).
 
@@ -736,7 +736,7 @@ $$
 
 avec $A_i A_j \subset A_{i+j}$ et $A_i M_j \subset M_{i+j}$ quels que soient $i, j$ dans $\Delta$. Soit S une partie multiplicative de A *dont tous les éléments sont homogènes*. Pour tout $i \in \Delta$, nous poserons $S_i = S \cap A_i$, et nous noterons $(S^{-1}M)_i$ l’ensemble des éléments $m'$ de $S^{-1}M$ pour lesquels il existe des éléments $j, k$ de $\Delta$, un élément $m \in M_j$ et un élément $s \in S_k$ tels que $j - k = i$ et $m' = m/s$. Si $(m'_q)_{1 \leq q \leq r}$ est une famille finie d’éléments de $S^{-1}M$ telle que $m'_q \in (S^{-1}M)_{j(q)}$, il existe des éléments $j(q) \in \Delta$ et $k \in \Delta$, des éléments $m_q \in M_{j(q)}$ ($1 \leq q \leq r$) et $s \in S_k$ tels que $m'_q = m_q/s$ pour $1 \leq q \leq r$ (n° 1, *Remarque* 2).
 
-#### Proposition 21 {#ac-ii-s2-prop-21 .statement}
+#### Proposition 21 {#ac-ii-s2-prop-21 .statement tag=046Y}
 
 *L’anneau* $S^{-1}A$ *muni de la famille* $((S^{-1}A)_i)$ *est un anneau gradué*, et $S^{-1}M$ *muni de la famille* $((S^{-1}M)_i)$ *est un module gradué sur l’anneau gradué* $S^{-1}A$. *Les applications canoniques* $i^S_A$ *et* $i^S_M$ *sont homogènes de degré* 0.
 
@@ -744,7 +744,7 @@ Soient $m \in M_j$, $s \in S_k$, $m' \in M_{j'}$, $s' \in S_{k'}$, et supposons 
 
 On vérifie immédiatement que, si $a \in (S^{-1}A)_i$ et $x \in (S^{-1}M)_j$, on a $ax \in (S^{-1}M)_{i+j}$. Appliquant ce résultat au cas où $M = A$, on voit d’abord que $S^{-1}A$ est un anneau gradué par les $(S^{-1}A)_i$; on voit ensuite que $S^{-1}M$ est un module gradué sur $S^{-1}A$. Enfin, comme $1 \in A_0$, $i_A^S$ et $i_M^S$ sont homogènes de degré 0.
 
-#### Proposition 22 {#ac-ii-s2-prop-22 .statement}
+#### Proposition 22 {#ac-ii-s2-prop-22 .statement tag=046Z}
 
 *Soient A (resp. B) un anneau gradué de type Δ, M (resp. N) un module gradué sur l’anneau gradué A (resp. B), S (resp. T) une partie multiplicative de A (resp. B) dont tous les éléments sont homogènes, $f : A \to B$ un homomorphisme homogène de degré 0 tel que $f(S) \subset T$, $u : M \to N$ une application A-linéaire qui est homogène de degré k. Alors l’homomorphisme $f' : S^{-1}A \to T^{-1}B$ déduit de $f$ (no 1, prop. 2) est homogène et de degré 0, et l’application $(S^{-1}A)$-linéaire $u' : S^{-1}M \to T^{-1}N$ déduite de $f$ et $u$ (no 2, prop. 5) est homogène et de degré k.*
 

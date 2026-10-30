@@ -21,14 +21,14 @@ subsections:
       pdf_page: 177
 statements: 14
 exercises: 5
-content_sha256: df8b1b37f395ac3c5d1008e4d4fc570f5c2a15ab4b3d31df11f6bf3e7fb02c5b
+content_sha256: 0fd087b92f4bcb3cb8327201790fedf19f1e8b4d6d6fa498400dbc46a4cbcd83
 ---
 
 ## 1. UNIFORM SPACES
 
 ### 1. DEFINITION OF A UNIFORM STRUCTURE
 
-#### Definition 1 {#top-ii-s1-def-1 .statement}
+#### Definition 1 {#top-ii-s1-def-1 .statement tag=0BCY}
 
 *A uniform structure* (or *uniformity*) *on a set* $X$ *is a structure given by a set* $\mathfrak{U}$ *of subsets of* $X \times X$ *which satisfies axioms* $(\mathrm{F}_1)$ *and* $(\mathrm{F}_{\mathrm{II}})$ *of Chapter I, § 6, no. 1 and also satisfies the following axioms*:
 
@@ -44,13 +44,13 @@ The sets of $\mathfrak{U}$ are called entourages of the uniformity defined on $X
 
 If $V$ is an entourage of a uniformity on $X$, we may express the relation $(x, x') \in V$ by saying that "$x$ and $x'$ are $V$-close".
 
-#### Remark 1 {#top-ii-s1-n1-rem-1 .statement}
+#### Remark 1 {#top-ii-s1-n1-rem-1 .statement tag=0BCZ}
 
 To make the language more expressive we may use the expressions "$x$ is close enough to $y$" and "$x$ and $y$ are as close as we please" in some statements. For example, we shall say that a relation
 
 R $\{ x, y \}$ is true whenever $x$ and $y$ are close enough if there is an entourage $V$ such that the relation $(x, y) \in V$ implies $R \{ x, y \}$.
 
-#### Remark 2 {#top-ii-s1-n1-rem-2 .statement}
+#### Remark 2 {#top-ii-s1-n1-rem-2 .statement tag=0BD0}
 
 The conjunction of axioms (U_{II}) and (U_{III}) is equivalent (assuming the other axioms of uniform structures) to the following axiom:
 
@@ -60,11 +60,11 @@ Clearly (U_{II}) and (U_{III}) imply (U_a). Conversely, if (U_a) is satisfied we
 
 Throughout this chapter we shall write $\overline{V}^2$ instead of $V \circ V$, and in general $\overline{V}^{n-1} = \overline{V} \circ V = V \circ \overline{V}^{n-1}$, for each integer $n > 1$ and each subset $V$ of $X \times X$.
 
-#### Remark 3 {#top-ii-s1-n1-rem-3 .statement}
+#### Remark 3 {#top-ii-s1-n1-rem-3 .statement tag=0BD1}
 
 If $X$ is not empty, then axiom (U_I) implies that no set of $\mathfrak{U}$ is empty, and therefore $\mathfrak{U}$ is a filter on $X \times X$. There is only one uniformity on the empty set, namely $\mathfrak{U} = \{ \emptyset \}$.
 
-#### Definition 2 {#top-ii-s1-def-2 .statement}
+#### Definition 2 {#top-ii-s1-def-2 .statement tag=0BD2}
 
 A fundamental system of entourages of a uniformity is any set $\mathfrak{B}$ of entourages such that every entourage contains a set belonging to $\mathfrak{B}$.
 
@@ -94,7 +94,7 @@ For example, if $X$ and $X'$ are two equipotent sets, then every bijection of $X
 
 ### 2. TOPOLOGY OF A UNIFORM SPACE
 
-#### Proposition 1 {#top-ii-s1-prop-1 .statement}
+#### Proposition 1 {#top-ii-s1-prop-1 .statement tag=0BD3}
 
 *Let $X$ be a set endowed with a uniform structure $U$, and for each $x \in X$ let $\mathfrak{B}(x)$ be the set of subsets $V(x)$ of $X (*)$, where $V$ runs through the set of entourages of $U$. Then there is a unique topology on $X$ such that, for each $x \in X$, $\mathfrak{B}(x)$ is the neighbourhood filter of $x$ in this topology.*
 
@@ -104,15 +104,15 @@ We have to show that the $\mathfrak{B}(x)$ satisfy conditions (V_I), (V_{II}), (
 
 these conditions follows immediately from the fact that the entourages of $\mathfrak{U}$ satisfy $(\mathbf{F}_I),\ (\mathbf{F}_{II})$ and $(\mathbf{U}_I)$. As to $(\mathbf{V}_{IV})$, let $V$ be an entourage of $\mathfrak{U}$, $W$ an entourage of $\mathfrak{U}$ such that $\dot{W} \subset V$; then if $(x, y) \in W$ and $(y, z) \in W$ we have $(x, z) \in V$, so that $W(y) \subset V(x)$ for all $y \in W(x)$, and therefore $V(x) \in \mathfrak{B}(y)$ for all $y \in W(x)$. This completes the proof.
 
-#### Definition 3 {#top-ii-s1-def-3 .statement}
+#### Definition 3 {#top-ii-s1-def-3 .statement tag=0BD4}
 
 *The topology defined in Proposition 1 is called the topology induced by the uniform structure $\mathfrak{U}$.*
 
-#### Example 1 {#top-ii-s1-n2-exa-1 .statement}
+#### Example 1 {#top-ii-s1-n2-exa-1 .statement tag=0BD5}
 
 The topology induced by the additive uniformity on the set of real numbers is the topology of the real line (Chapter I, § 1, no. 2); similarly the topology induced by the additive uniformity on the set of rational numbers is the topology of the rational line.*
 
-#### Example 2 {#top-ii-s1-n2-exa-2 .statement}
+#### Example 2 {#top-ii-s1-n2-exa-2 .statement tag=0BD6}
 
 On any set $X$, the topology induced by the discrete uniformity (no. 1, Example 2) is the discrete topology.
 
@@ -123,7 +123,7 @@ If $X$ and $X'$ are two uniform spaces, any isomorphism $f$ of the uniform struc
 In other words, *distinct* uniformities on the same set $X$ can induce the same topology. *For example, on ]0, +∞[, the *additive* and the *multiplicative* uniformities (which are distinct : Chapter III, § 6, Exercise 17) induce the same topology.*
 For another example see § 2, no. 2, Remark 1.
 
-#### Proposition 2 {#top-ii-s1-prop-2 .statement}
+#### Proposition 2 {#top-ii-s1-prop-2 .statement tag=0BD7}
 
 *Let $X$ be a uniform space. For every symmetric entourage $V$ of $X$ and every subset $M$ of $X \times X$, $VMV$ is a neighbourhood of $M$ in the product space $X \times X$, and the closure of $M$ in this space is given by the formula*
 
@@ -135,7 +135,7 @@ $$
 
 Let $V$ be a symmetric entourage of $X$. The relation $(x, y) \in VMV$ means that there is an element $(p, q)$ of $M$ such that $(x, p) \in V$ and $(q, y) \in V$: in other words ($V$ being symmetric) $x \in V(p)$ and $y \in V(q)$, that is $(x, y) \in V(p) \times V(q)$. Since $V(p) \times X(q)$ is a neighbourhood of $(p, q)$ in $X \times X$, the first part of the proposition is proved. The relations $(x, p) \in V, (y, q) \in V$ can also be written $p \in V(x), q \in V(y)$ or $(p, q) \in V(x) \times V(y)$. As $V$ runs through $\mathscr{S}$, the sets $V(x) \times V(y)$ form a fundamental system of neighbourhoods of $(x, y)$ in $X \times X$; for if $U, U'$ are any two entourages there is always a symmetric entourage $V \subset U \cap U'$, so that $V(x) \times V(y) \subset U(x) \times U'(y)$. Hence $V(x) \times V(y)$ meets $M$ for each $V \in \mathscr{S}$ if and only if $(x, y) \in \overline{M}$, and formula (1) follows.
 
-#### Corollary 1 {#top-ii-s1-prop-2-cor-1 .statement}
+#### Corollary 1 {#top-ii-s1-prop-2-cor-1 .statement tag=0BD8}
 
 *If $A$ is any subset of $X$ and $V$ is any symmetric entourage of $X$, then $V(A)$ is a neighbourhood of $A$ in $X$, and*
 
@@ -153,19 +153,19 @@ If $V$ is an entourage which is *open* in $X \times X$, then $V(x)$ is open in $
 
 It should also be remarked that as $V$ runs through the set of entourages of $X$, the sets $V(A)$ do not necessarily form a fundamental system of neighbourhoods of $A$ in $X$ (Exercise 2).
 
-#### Corollary 2 {#top-ii-s1-prop-2-cor-2 .statement}
+#### Corollary 2 {#top-ii-s1-prop-2-cor-2 .statement tag=0BD9}
 
 *The interiors (resp. the closures) of the entourages of $X$ in $X \times X$ form a fundamental system of entourages of $X$.*
 
 If $V$ is any entourage of $X$, there is a symmetric entourage $W$ such that $W \subset V$; since $W$ is a neighbourhood of $W$ (Proposition 2), the interior of $V$ in $X \times X$ contains $W$ and is therefore an entourage. Furthermore, we have $W \subset W \subset W \subset V$ by Proposition 2, and hence $V$ contains the closure of an entourage.
 
-#### Corollary 3 {#top-ii-s1-prop-2-cor-3 .statement}
+#### Corollary 3 {#top-ii-s1-prop-2-cor-3 .statement tag=0BDA}
 
 *Every uniform space satisfies axiom* $(O_{III})$.
 
 If $x$ is any point of $X$ and $V$ runs through the entourages of $X$ which are closed in $X \times X$, then the sets $V(x)$ form a fundamental system of neighbourhoods of $x$ in $X$ by Corollary 2, and they are closed in $X$ (Chapter I, , no. 2, Corollary to Proposition 4)
 
-#### Proposition 3 {#top-ii-s1-prop-3 .statement}
+#### Proposition 3 {#top-ii-s1-prop-3 .statement tag=0BDB}
 
 *A uniform space $X$ is Hausdorff if and only if the intersection of all the entourages of its uniform structure is the diagonal $\Delta$ of $X \times X$. Every Hausdorff uniform space is regular.*
 

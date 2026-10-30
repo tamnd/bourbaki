@@ -33,7 +33,7 @@ subsections:
       pdf_page: 40
 statements: 37
 exercises: 7
-content_sha256: 0d716e15f00c53e5bd66f59621fabb55362025269f9d77af9ca3bbe9c983b305
+content_sha256: 7de51e252d8f70235f53675a6348d1aad725aed5f8c5171d5ae73b7723e106f7
 translated_from: content/en-mt/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md
 source_lang: en-mt
 translation_method: machine
@@ -49,7 +49,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Chiều của một vành thương
 
-#### Mệnh đề 1 {#ac-viii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#ac-viii-s3-prop-1 .statement tag=0CMQ}
 
 Cho $A$ là một miền nguyên Noether, $x$ là một phần tử khác không của $A$ và $p$ là một phần tử cực tiểu trong tập hợp các iđêan nguyên tố của $A$ chứa $x$. Khi đó $p$ có chiều cao 1.
 
@@ -73,7 +73,7 @@ $$
 
 Vì vành $A_q$ là địa phương và Noether, ta có $\bigcap_{n \geq 0} (qA_q)^n = \{0\}$ (III, § 3, no 2, hệ quả của mệnh đề 5) do đó $(qA_q)^{n_0} = \{0\}$ và cuối cùng iđêan nguyên tố $qA_q$ của $A_q$ thu về 0. Vậy $q = \{0\}$, điều này chứng minh rằng $p$ có chiều cao 1.
 
-#### Mệnh đề 2 {#ac-viii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#ac-viii-s3-prop-2 .statement tag=0CMR}
 
 Cho $A$ là một vành Noether, $m$ là một số nguyên dương và $a$ là một iđêan được chứa trong căn của $A$ và được sinh bởi $m$ phần tử. Ta có
 
@@ -89,7 +89,7 @@ $$
 
 đối với mọi phần tử $x$ của căn của $A$, nghĩa là chứng minh rằng ta có $\dim(A/xA) \geq n - 1$ đối với mọi chuỗi $p_0 \subset ... \subset p_n$ các iđêan nguyên tố của $A$, có độ dài $n \geqslant 1$, và sao cho $x \in p_n$. Chỉ cần xây dựng một chuỗi $q_1 \subset ... \subset q_n$ các iđêan nguyên tố của $A$, với $x \in q_1$ và điều này suy ra từ bổ đề sau:
 
-#### Bổ đề 1 {#ac-viii-s3-lem-1 .statement}
+#### Bổ đề 1 {#ac-viii-s3-lem-1 .statement tag=0CMS}
 
 Cho $A$ là một vành Noether, $p_0 \subset ... \subset p_n$ một chuỗi các iđêan nguyên tố của $A$ có độ dài $n \geqslant 1$, và $x$ là một phần tử của $p_n$. Tồn tại một chuỗi $p'_0 \subset ... \subset p'_n$ với $p'_0 = p_0$, $p'_n = p_n$ và $x \in p'_1$.
 
@@ -99,7 +99,7 @@ p'_0 \subset p'_1 \subset ... \subset p'_{n-1} \subset p'_n
 $$
 thỏa mãn các điều kiện cần có.
 
-#### Hệ quả 1 {#ac-viii-s3-lem-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-viii-s3-lem-1-cor-1 .statement tag=0CMT}
 
 a) Mọi vành địa phương Noether đều hữu hạn chiều. Nói chung hơn, mọi vành nửa địa phương Noether khác không (II, § 3, No. 5, def. 4) đều hữu hạn chiều.
 b) Cho $A$ là một vành Noether. Mọi iđêan của $A$, phân biệt với $A$, đều có chiều cao hữu hạn.
@@ -109,7 +109,7 @@ a) Cho $A$ là một vành Noether nửa địa phương khác không và $a$ l�
 b) Cho $a \neq A$ là một iđêan của $A$, và cho $m$ là một iđêan cực đại của $A$ chứa $a$. Ta có $0 \leqslant \mathrm{ht}(a) \leqslant \dim(A_m)$ theo Mệnh đề 7 của $§ 1$, No. 3, và $A_m$ là một vành Noether địa phương. Do đó $\mathrm{ht}(a)$ là hữu hạn theo a).
 c) Mọi dãy giảm nghiêm ngặt hữu hạn $(p_i)_{0 \leqslant i \leqslant n}$ các iđêan nguyên tố của $A$ xác định một chuỗi $p_n \subset ... \subset p_0$, do đó $n \leqslant \dim(A_{p_0}) < + \infty$. Vậy không thể tồn tại một dãy giảm nghiêm ngặt vô hạn các iđêan nguyên tố của $A$, do đó c).
 
-#### Hệ quả 2 {#ac-viii-s3-lem-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-viii-s3-lem-1-cor-2 .statement tag=0CMU}
 
 Cho $A$ là một vành Noether địa phương.
 a) Cho $x \in m_A$. Khi đó $\dim(A/xA)$ bằng $\dim(A)$ hoặc bằng $\dim(A) - 1$. Để có $\dim(A/xA) = \dim(A) - 1$, điều kiện cần và đủ là $x$ không thuộc iđêan nguyên tố cực tiểu nào $p$ của $A$ sao cho $\dim(A/p) = \dim(A)$, và điều kiện đủ là $x$ không là một ước của không trong $A$.
@@ -144,7 +144,7 @@ $$
 $$
 khi $S$ là hữu hạn, điều này suy ra từ Mệnh đề 2 của No. 1 và các công thức (6) và (7) ở trên, còn trường hợp $S$ là vô hạn thì là tầm thường.
 
-#### Định nghĩa 1 {#ac-viii-s3-def-1 .statement}
+#### Định nghĩa 1 {#ac-viii-s3-def-1 .statement tag=0CMV}
 
 Cho $A$ là một vành địa phương Noether, $M$ là một $A$-môđun sinh hữu hạn khác không và $S$ là một tập con của iđêan cực đại $m_A$ của $A$. Ta nói rằng $S$ là cát tuyến đối với $M$ nếu ta có
 
@@ -166,7 +166,7 @@ $$
 \dim_A(M/xM) = \dim_A(M) - 1 .
 $$
 
-#### Nhận xét 1 {#ac-viii-s3-n2-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s3-n2-rem-1 .statement tag=0CMW}
 
 Từ các công thức (6) và (7) suy ra rằng S là cát tuyến đối với M khi và chỉ khi nó là cát tuyến đối với $A/\alpha$, trong đó $\alpha$ là linh hóa tử của M.
 2) Cho S và S’ là hai tập con rời nhau của $m_A$. Để $S \cup S'$ là cát tuyến đối với M, điều kiện cần và đủ là S cát tuyến đối với M và S’ cát tuyến đối với $M' = M/SM$. Điều này suy ra từ bất đẳng thức (8) và công thức
@@ -177,12 +177,12 @@ $$
 $$
 3) Cho $x \in m_A$ và $n \geq 1$ là một số nguyên. Ngay lập tức thấy rằng các môđun $M/xM$ và $M/x^nM$ có cùng giá, do đó có cùng chiều. Do đó, x là cát tuyến đối với M khi và chỉ khi $x^n$ là cát tuyến đối với M. Từ điều này và Nhận xét 2, suy ra ngay lập tức kết quả sau: cho $x_1, ..., x_r$ là các phần tử của $m_A$ và $n_1, ..., n_r$ là các số nguyên $> 0$; khi đó dãy $(x_1, ..., x_r)$ là cát tuyến đối với M khi và chỉ khi dãy $(x_1^{n_1}, ..., x_r^{n_r})$ là cát tuyến đối với M.
 
-#### Mệnh đề 3 {#ac-viii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#ac-viii-s3-prop-3 .statement tag=0CMZ}
 
 Cho A là một vành địa phương Noether và M là một A-môđun hữu hạn khác không. Để một phần tử x của $m_A$ là cát tuyến đối với M, điều kiện cần và đủ là nó không thuộc phần tử cực tiểu nào $p$ của $\mathrm{Supp}(M)$ sao cho $\dim(A/p) = \dim_A(M)$, và điều kiện đủ là phép vị tự $x_M$ có tỉ số x trong M là đơn ánh.
 Cho $\alpha$ là linh hóa tử của M. Nói rằng x là cát tuyến đối với M có nghĩa là x là cát tuyến đối với $A/\alpha$; giá của M gồm các iđêan nguyên tố $p$ của A sao cho $\alpha \subset p$; và nếu $x_M$ là đơn ánh, thì ảnh của x trong $A/\alpha$ không phải là một ước của 0 trong $A/\alpha$. Khi đó Mệnh đề 3 suy ra từ Hệ quả 2 của Mệnh đề 2 của No. 1 áp dụng cho vành $A/\alpha$.
 
-#### Hệ quả {#ac-viii-s3-n2-cor-1 .statement}
+#### Hệ quả {#ac-viii-s3-n2-cor-1 .statement tag=0CN0}
 
 Mọi dãy các phần tử của $m_A$ hoàn toàn cát tuyến đối với M (A, X, p. 157, Định nghĩa 2) đều là cát tuyến đối với M.
 Cho $(x_1, ..., x_r)$ là một dãy các phần tử của $m_A$ hoàn toàn cát tuyến đối với M. Đặt $M_0 = M$ và bằng quy nạp $M_i = M_{i-1}/x_i M_{i-1}$ với $1 \leq i \leq r$. Theo Hệ quả 1 của A, X, p. 160, phép vị tự có tỉ số $x_i$ trong $M_{i-1}$ là đơn ánh, do đó $\dim_A(M_i) = \dim_A(M_{i-1}) - 1$ (với $1 \leq i \leq r$) (Mệnh đề 3). Vì vậy ta có
@@ -191,11 +191,11 @@ $$
 $$
 do đó dãy $(x_1, ..., x_r)$ là cát tuyến đối với M.
 
-#### Nhận xét 4 {#ac-viii-s3-n2-rem-4 .statement}
+#### Nhận xét 4 {#ac-viii-s3-n2-rem-4 .statement tag=0CN1}
 
 Nói chung không đúng rằng một dãy cát tuyến đối với M thì hoàn toàn cát tuyến đối với M (p. 87, Bài tập 6). Chúng tôi sẽ nghiên cứu sau các môđun trên một vành địa phương Noether mà đối với chúng mọi dãy cát tuyến đều hoàn toàn cát tuyến.
 
-#### Định lý 1 {#ac-viii-s3-thm-1 .statement}
+#### Định lý 1 {#ac-viii-s3-thm-1 .statement tag=0CN2}
 
 Cho $A$ là một vành địa phương Noether, $M$ là một $A$-môđun hữu hạn khác không và $S$ là một tập con của iđêan cực đại $m_A$ của $A$.
 
@@ -215,7 +215,7 @@ Mệnh đề b) suy ra từ việc lực lượng của mọi tập con của $m
 
 Theo a), mọi tập con cát tuyến đối với $M$ có lực lượng bằng $\dim_A(M)$ đều là cực đại. Còn phải chứng minh rằng, nếu $S$ cát tuyến đối với $M$ và nếu $\mathrm{Card}(S) < \dim_A(M)$, thì $S$ không cực đại. Gọi $a$ là linh hóa tử của $M$, và $B$ là vành địa phương Noether $A/(a + SA)$. Theo hệ quả 2 của mệnh đề 2 của No. 1, tồn tại một phần tử $x$ của $m_A$ sao cho $\dim(B/xB) = \dim(B) - 1$; do đó $x \notin S$. Theo nhận xét 2, tập con $S \cup \{x\}$ của $m_A$ là cát tuyến đối với $A/a$, nên cũng cát tuyến đối với $M$ theo nhận xét 1.
 
-#### Hệ quả {#ac-viii-s3-n2-cor-2 .statement}
+#### Hệ quả {#ac-viii-s3-n2-cor-2 .statement tag=0CN3}
 
 Chiều của $M$ là số nhỏ nhất trong các số nguyên $d \geqslant 0$ sao cho tồn tại một dãy $(x_1, ..., x_d)$ các phần tử của $m_A$ mà A-môđun $M / \sum_{i=1}^d x_i M$ có độ dài hữu hạn.
 
@@ -223,7 +223,7 @@ Vì $\varnothing$ là một tập con cát tuyến đối với $M$, Định lý
 
 Nhắc lại rằng (III, § 3, No. 2, Định nghĩa 1) một iđêan $q$ của một vành địa phương Noether $A$ là một iđêan xác định của $A$ nếu các tôpô $q$-adic và $m_A$-adic của $A$ trùng nhau.
 
-#### Bổ đề 2 {#ac-viii-s3-lem-2 .statement}
+#### Bổ đề 2 {#ac-viii-s3-lem-2 .statement tag=0CN4}
 
 Cho $A$ là một vành địa phương Noether và $q$ một iđêan của $A$. Các điều kiện sau là tương đương:
 
@@ -237,7 +237,7 @@ Thật vậy, tính tương đương của (i), (ii) và (iv) đã được ch�
 
 Hệ quả của Định lý 1 do đó cho phép phát biểu chú giải sau đây:
 
-#### Chú giải {#ac-viii-s3-n2-sch-1 .statement}
+#### Chú giải {#ac-viii-s3-n2-sch-1 .statement tag=0CN5}
 
 Chiều của một vành địa phương Noether A là số nhỏ nhất trong các số nguyên d ≥ 0 sao cho tồn tại một iđêan xác định của A được sinh bởi d phần tử.
 
@@ -245,7 +245,7 @@ Chiều của một vành địa phương Noether A là số nhỏ nhất trong 
 
 Cho A là một vành Noether, V = Spec(A) phổ của nó. Trong số này, mọi tập con có dạng $^1 V(x)$ với $x \in A$ được gọi là một siêu mặt trong V.
 
-#### Mệnh đề 4 {#ac-viii-s3-prop-4 .statement}
+#### Mệnh đề 4 {#ac-viii-s3-prop-4 .statement tag=0CN6}
 
 Cho X là một tập con đóng của V, và $H_1, ..., H_m$ là các siêu mặt trong V. Đặt $X' = X \cap H_1 \cap ... \cap H_m$.
 
@@ -280,7 +280,7 @@ Nếu Z là một thành phần bất khả quy của X', ta có $\operatorname{
 
 Ngược lại, giả sử rằng ta có codim(Z, X) $\leq m$, nghĩa là dim(B) $\leq m$. Vì mọi phần tử của $A_p$ là tích của một phần tử khả nghịch của $A_p$ với ảnh của một phần tử của A, chú giải của No. 2 chứng minh sự tồn tại của các phần tử $x'_1, ..., x'_m$ của A mà các ảnh của chúng trong B sinh một iđêan xác định của B. Đặt $H'_i = V(x'_i)$ với $1 \leq i \leq m$. Hiển nhiên là Z là một thành phần bất khả quy của $X \cap H'_1 \cap ... \cap H'_m$.
 
-#### Hệ quả 1 {#ac-viii-s3-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#ac-viii-s3-prop-4-cor-1 .statement tag=0CN7}
 
 Cho H là một siêu mặt khác rỗng trong V. Đối chiều của H trong V bằng 0 hoặc 1.
 
@@ -300,7 +300,7 @@ $$
 
 trong đó Z chạy trên tập hợp các thành phần bất khả quy của H. Hệ quả 1 suy ra ngay từ các nhận xét này.
 
-#### Hệ quả 2 {#ac-viii-s3-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#ac-viii-s3-prop-4-cor-2 .statement tag=0CN8}
 
 Cho X là một tập con đóng bất khả quy của V và H là một siêu mặt trong V. Chỉ có thể xảy ra ba trường hợp:
 
@@ -310,25 +310,25 @@ Cho X là một tập con đóng bất khả quy của V và H là một siêu m
 
 Giả sử $X' = X \cap H$ khác rỗng và khác X; mọi thành phần bất khả quy Z của $X'$ đều phân biệt với X và thỏa mãn $\operatorname{codim}(Z, X) \leq 1$ theo Mệnh đề 4, b). Hệ quả 2 suy ra ngay từ điều này.
 
-#### Hệ quả 3 {#ac-viii-s3-prop-4-cor-3 .statement}
+#### Hệ quả 3 {#ac-viii-s3-prop-4-cor-3 .statement tag=0CN9}
 
 Nếu A là phân tích duy nhất (VII, § 3, No. 3, Mệnh đề 2), thì các iđêan nguyên tố có chiều cao 1 của A là các iđêan chính được sinh bởi các phần tử extremal của A. Nếu hơn nữa A là địa phương, ta có $\dim(A/p) = \dim(A) - 1$ với mọi iđêan nguyên tố $p$ có chiều cao 1 của A.
 
 Cho x là một phần tử cực biên của A. Khi đó Ax là một iđêan nguyên tố vì x là cực biên, có chiều cao 1 vì A là một miền nguyên (No. 1, Prop. 1). Cho p là một iđêan nguyên tố chiều cao 1 của A. Khi đó $V(p)$ là một thành phần bất khả quy của một siêu mặt $V(Ax)$ với một x thích hợp (Prop. 4, c)). Cho $x = \prod_i y_i^{n_i}$ là một phân tích của x thành một tích các phần tử cực biên sao cho $y_i$ và $y_j$ nguyên tố cùng nhau nếu $i \neq j$. Các thành phần bất khả quy của $V(Ax)$ là các $V(Ay_i)$. Do đó $p = Ay_i$ với một i thích hợp. Khẳng định cuối cùng suy ra từ Hệ quả 2 của Prop. 2 của No. 1.
 
-#### Nhận xét 1 {#ac-viii-s3-n3-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s3-n3-rem-1 .statement tag=0CNA}
 
 Giả sử A là một miền nguyên địa phương Noether chiều d; cho x là một phần tử khác không của m_A và đặt H = V(x). Theo Hệ quả 2 của Prop. 4, mọi thành phần bất khả quy của H đều có đối chiều 1 trong X, do đó có chiều $\leq d - 1$ ($§ 1$, No. 2, Prop. 3). Theo Hệ quả 2 của Prop. 2 của No. 1, H có chiều $d - 1$, và vì vậy một trong các thành phần ấy có chiều $d - 1$; tất cả đều như vậy nếu A là catenary. Tuy nhiên, nói chung có thể xảy ra rằng tồn tại một thành phần bất khả quy của H có chiều < $d - 1$ (x. p. 87, Exerc. 7).
 
-#### Nhận xét 2 {#ac-viii-s3-n3-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s3-n3-rem-2 .statement tag=0CNB}
 
 Cho $x_1, ..., x_n$ là các phần tử của A, và đặt $H_i = V(x_i)$ với $1 \leq i \leq n$. Giả sử tồn tại một A-môđun kiểu hữu hạn M có giá đỡ $V = \mathrm{Spec}(A)$, sao cho $(x_1, ..., x_n)$ là một dãy cát tuyến hoàn toàn đối với M. Khi đó mọi thành phần bất khả quy của $H_1 \cap ... \cap H_n$ đều có đối chiều n trong V: điều này suy ra dễ dàng từ hệ quả của Prop. 3 của No. 2.
 
-#### Nhận xét 3 {#ac-viii-s3-n3-rem-3 .statement}
+#### Nhận xét 3 {#ac-viii-s3-n3-rem-3 .statement tag=0CNC}
 
 Nếu iđêan $\alpha$ của vành Noether A được sinh bởi m phần tử, thì ta có $\mathrm{ht}(\alpha) \leq m$. Điều này suy ra ngay từ Prop. 4.
 
-#### Mệnh đề 5 {#ac-viii-s3-prop-5 .statement}
+#### Mệnh đề 5 {#ac-viii-s3-prop-5 .statement tag=0CND}
 
 Cho A là một vành Noether và $p \subset q$ là một dây chuyền không bão hòa các iđêan nguyên tố của A. Tập hợp E các iđêan nguyên tố r của A sao cho $p \subset r \subset q$ là một dây chuyền thì là vô hạn. Ta có $\bigcup_{r \in E} r = q$ và $\bigcap_{r \in E} r = p$.
 
@@ -338,7 +338,7 @@ Theo Bổ đề 1 của No. 1, ta có $q = \bigcup_{r \in E} r$, và Prop. 2 c�
 
 Cho $y \neq 0$ là một phần tử của $\bigcap_{r \in E} r$. Chiều cao của q là hữu hạn (No. 1, Cor. 1 of Prop. 2), và ta có $\mathrm{ht}(q) \geq 2$ theo giả thiết. Do đó tồn tại một iđêan nguyên tố $q' \subset q$ có chiều cao 2. Phần đầu của chứng minh áp dụng cho $q'$ cho thấy tập E’ các iđêan nguyên tố chiều cao 1 được chứa trong $q'$ là vô hạn; theo giả thiết, mỗi iđêan ấy đều chứa y. Bây giờ vành địa phương Noether $B = A_{q'}/yA_{q'}$ có chiều 1 theo Hệ quả 2 của Prop. 2 của No. 1. Với mọi $r \in E'$, iđêan nguyên tố $r/yA_{q'}$ của B do đó là cực tiểu; do đó, vành Noether B có vô số iđêan nguyên tố cực tiểu, điều này vô lý (II, $§ 4$, No. 3, Cor. 3 of Prop. 14). Vậy $\bigcap_{r \in E} r = \{0\}$.
 
-#### Mệnh đề 6 {#ac-viii-s3-prop-6 .statement}
+#### Mệnh đề 6 {#ac-viii-s3-prop-6 .statement tag=0CNE}
 
 Cho A là một vành Noether có chiều $\geq 2$, và h là một số nguyên sao cho $0 < h < \dim(A)$.
 
@@ -354,7 +354,7 @@ Tồn tại các vành nguyên không Noether có chiều 2 mà chỉ có một 
 
 ### 4. Thay đổi vành
 
-#### Mệnh đề 7 {#ac-viii-s3-prop-7 .statement}
+#### Mệnh đề 7 {#ac-viii-s3-prop-7 .statement tag=0CNF}
 
 Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether, $M$ là một $A$-môđun sinh hữu hạn và $N$ là một $B$-môđun sinh hữu hạn. Đặt $\overline{B} = B \otimes_A \kappa_A = B/\rho(m_A).B$ và $\overline{N} = N \otimes_B \overline{B} = N/\rho(m_A).N$. Ta có
 
@@ -407,7 +407,7 @@ $$
 
 và vì vành $B'/\rho'(\mathfrak{m}_{A'}).B'$ đẳng cấu với $B/(b + \rho(\mathfrak{m}_A).B)$, mệnh đề của ta suy ra từ các công thức (13), (14) và (15).
 
-#### Hệ quả 1 {#ac-viii-s3-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#ac-viii-s3-prop-7-cor-1 .statement tag=0CNG}
 
 *Cho $\rho : A \to B$ là một đồng cấu địa phương của các vành địa phương Noether.*
 
@@ -442,7 +442,7 @@ $$
 
 vì $B'/\rho(\mathfrak{m}_{A'}).B'$ đẳng cấu với $\overline{B}$. Mệnh đề cần chứng minh suy ra ngay từ các công thức (17), (18) và (19).
 
-#### Hệ quả 2 {#ac-viii-s3-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#ac-viii-s3-prop-7-cor-2 .statement tag=0CNH}
 
 *Cho $\rho : A \to B$ là một đồng cấu của các vành Noether. Khi đó*
 
@@ -452,7 +452,7 @@ $$
 
 Gọi $q$ là một iđêan nguyên tố của $B$ và $p = \rho^{-1}(q)$. Theo Hệ quả 1, ta có $\dim(B_q) \leq \dim(A_p) + \dim(B_q \otimes_A \kappa(p))$. Suy ra (Mệnh đề 6, *b*) của § 1, No. 3) ta có bất đẳng thức $\dim(B_q) \leq \dim(A) + \dim(B \otimes_A \kappa(p))$, và kết luận nhờ Mệnh đề 8 của § 1, No. 3.
 
-#### Hệ quả 3 {#ac-viii-s3-prop-7-cor-3 .statement}
+#### Hệ quả 3 {#ac-viii-s3-prop-7-cor-3 .statement tag=0CNI}
 
 Cho $A$ là một vành Noether và $n$ là một số nguyên $\geqslant 0$. Khi đó ta có
 
@@ -462,7 +462,7 @@ $$
 
 Đặt $B = A[X_1, ..., X_n]$. Với mọi iđêan nguyên tố $p$ của $A$, vành $B \otimes_A \kappa(p)$ là một vành đa thức theo $n$ biến trên một trường, nên có chiều $n$ ($§ 2$, No. 4, Hệ quả 1 của Định lý 3). Theo Hệ quả 2, ta có $\dim(B) \leqslant \dim(A) + n$; bất đẳng thức ngược lại suy ra từ Ví dụ 4 của $§ 1$, No. 3.
 
-#### Hệ quả 4 {#ac-viii-s3-prop-7-cor-4 .statement}
+#### Hệ quả 4 {#ac-viii-s3-prop-7-cor-4 .statement tag=0CNJ}
 
 Cho $\rho : A \to B$ là một đồng cấu của các vành Noether, và $a$ là một iđêan của $A$. Ta có bất đẳng thức
 
@@ -482,7 +482,7 @@ $$
 
 do đó có hệ quả.
 
-#### Mệnh đề 8 {#ac-viii-s3-prop-8 .statement}
+#### Mệnh đề 8 {#ac-viii-s3-prop-8 .statement tag=0CNK}
 
 Cho $A$ là một vành Noether, $a$ là một iđêan của $A$, $M$ là một $A$-môđun sinh hữu hạn, $\hat{A}$ và $\hat{M}$ lần lượt là các hoàn thành tách của $A$ và $M$ đối với tôpô $a$-adic.
 
@@ -494,17 +494,17 @@ a) Vì $\hat{A}/\hat{m}$ được đồng nhất với $A/m$, nên $\hat{m}$ là
 
 b) Theo Mệnh đề 8 của III, $§ 3$, No. 4, ánh xạ $m \mapsto \hat{m}$ là một song ánh từ tập hợp các iđêan cực đại của $A$ chứa $a$ lên tập hợp các iđêan cực đại của $\hat{A}$. Mệnh đề b) suy ra từ điều này và từ Mệnh đề 9 của $§ 1$, No. 4.
 
-#### Hệ quả 1 {#ac-viii-s3-prop-8-cor-1 .statement}
+#### Hệ quả 1 {#ac-viii-s3-prop-8-cor-1 .statement tag=0CNL}
 
 Cho $A$ là một vành Zariski (III, $§ 3$, No. 3, Định nghĩa 2). Với mọi $A$-môđun $M$ kiểu hữu hạn, ta có $\dim_{\hat{A}}(\hat{M}) = \dim_A(M)$.
 
 Thật vậy, tôpô của $A$ là tôpô $a$-adic, trong đó $a$ là một iđêan được chứa trong căn của $A$ (*loc. cit.*), tức là được chứa trong mọi iđêan cực đại $m$ của $A$. Do đó chỉ cần áp dụng mệnh đề b) của Mệnh đề 8.
 
-#### Hệ quả 2 {#ac-viii-s3-prop-8-cor-2 .statement}
+#### Hệ quả 2 {#ac-viii-s3-prop-8-cor-2 .statement tag=0CNM}
 
 Cho $A$ là một vành Noether, $a$ là một iđêan của $A$, và $\hat{A}$ là bổ sung tách của $A$ đối với tôpô $a$-adic. Ta có $\dim(\hat{A}) \leqslant \dim(A)$, với đẳng thức khi $A$ là địa phương và $a$ phân biệt với $A$.
 
-#### Hệ quả 3 {#ac-viii-s3-prop-8-cor-3 .statement}
+#### Hệ quả 3 {#ac-viii-s3-prop-8-cor-3 .statement tag=0CNN}
 
 Cho $A$ là một vành Noether và $n$ là một số nguyên $\geqslant 0$. Ta có
 
@@ -532,17 +532,17 @@ $$
 
 theo Ví dụ 4 của $§ 1$, No. 3.
 
-#### Nhận xét 1 {#ac-viii-s3-n4-rem-1 .statement}
+#### Nhận xét 1 {#ac-viii-s3-n4-rem-1 .statement tag=0CNO}
 
 Cho $A$ là một vành Noether và $a$ là một iđêan của $A$. Giả sử rằng $A$ tách biệt và đầy đủ đối với tôpô $a$-adic, và xét vành $R = A \{ X_1, ..., X_n \}$ các chuỗi lũy thừa hình thức hạn chế (III, $§ 4$, No. 2, Định nghĩa 2). Khi đó $\dim(R) = \dim(A) + n$. Thật vậy, $R$ là đầy đủ hóa của vành $B = A[X_1, ..., X_n]$ đối với tôpô $aB$-adic, do đó $\dim(R) \leqslant \dim(A[X_1, ..., X_n]) = \dim(A) + n$. Bất đẳng thức ngược lại được chứng minh như trong trường hợp các chuỗi lũy thừa hình thức.
 
-#### Nhận xét 2 {#ac-viii-s3-n4-rem-2 .statement}
+#### Nhận xét 2 {#ac-viii-s3-n4-rem-2 .statement tag=0CNP}
 
 Cho $A$ là một vành địa phương Noether, được đồng nhất với một vành con của đầy đủ hóa $\hat{A}$ của nó, và $B$ là một vành con của $\hat{A}$ chứa $A$. Giả sử rằng $B$ là địa phương Noether và ta có $m_A B = m_B$. Khi đó đơn ánh chính tắc từ $A$ vào $B$ kéo dài thành một đẳng cấu từ $\hat{A}$ lên đầy đủ hóa $\hat{B}$ của $B$ (III, $§ 3$, No. 5, Mệnh đề 11), do đó $\dim(B) = \dim(A)$ (Hệ quả 2 của Mệnh đề 8). Điều này đặc biệt áp dụng cho tình huống sau. \* Cho $k$ là một trường định giá đầy đủ không rời rạc, $A$ là vành địa phương của vành đa thức $k[X_1, ..., X_n]$ tại iđêan nguyên tố sinh bởi $X_1, ..., X_n$, và $B$ là vành các chuỗi lũy thừa hội tụ theo $X_1, ..., X_n$ với hệ số trong $k$. Khi đó các giả thiết trên được thỏa mãn, và do đó ta có $\dim(B) = n$.*
 
 ### 5. Phép dựng các dãy chính quy
 
-#### Mệnh đề 9 {#ac-viii-s3-prop-9 .statement}
+#### Mệnh đề 9 {#ac-viii-s3-prop-9 .statement tag=0CNQ}
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun sinh hữu hạn, $a$ là một tập con của $A$ ổn định đối với phép cộng và phép nhân, $q_1, ..., q_m$ là các iđêan nguyên tố của $A$ không chứa $a$, và $r \geq 1$ là một số nguyên sao cho
 
@@ -585,7 +585,7 @@ $$
 
 do đó $X' = \operatorname{Supp}(N)$.
 
-#### Hệ quả 1 {#ac-viii-s3-prop-9-cor-1 .statement}
+#### Hệ quả 1 {#ac-viii-s3-prop-9-cor-1 .statement tag=0CNR}
 
 *Cho A là một vành Noether, M là một A-môđun hữu hạn sinh, $p_1, ..., p_n, q_1, ..., q_m$ là các iđêan nguyên tố của A và r là một số nguyên $\geqslant 1$. Giả sử rằng ta có $p_i \not\subset q_j$ với $1 \leqslant i \leqslant n$ và $1 \leqslant j \leqslant m$, và $\dim_{A_{p_i}}(M_{p_i}) \geqslant r$ với $1 \leqslant i \leqslant n$. Khi đó tồn tại một dãy $(x_1, ..., x_r)$ các phần tử của A thuộc mọi $p_i$ và không thuộc $q_j$ nào, sao cho, với $1 \leqslant i \leqslant n$, các ảnh của $x_1, ..., x_r$ trong $A_{p_i}$ tạo thành một dãy cát tuyến của môđun $M_{p_i}$.
 
@@ -598,7 +598,7 @@ $$
 
 (§ 1, No. 4, Mệnh đề 9), và áp dụng Mệnh đề 9.
 
-#### Hệ quả 2 {#ac-viii-s3-prop-9-cor-2 .statement}
+#### Hệ quả 2 {#ac-viii-s3-prop-9-cor-2 .statement tag=0CNS}
 
 *Cho A là một vành địa phương Noether, M là một A-môđun hữu hạn sinh khác không và $\alpha$ là một tập con của $m_A$, ổn định đối với phép cộng và phép nhân và sao cho $\operatorname{long}(M/\alpha M) < +\infty$. Tồn tại một tập con của $\alpha$ là một tập con cát tuyến cực đại của M.*
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 172
 statements: 2
 exercises: 0
-content_sha256: 49d62faf8a62896ba40f633416bd1a6df0c969ab6a34c77313b4b4b7b2b78af7
+content_sha256: df2b40d352c286a485d063991b792f3d66c96b7983d7244a798bca7ab66e06c8
 translated_from: content/en-mt/var/2/14_s14_operateurs_differentiels.md
 source_lang: en-mt
 translation_method: machine
@@ -184,7 +184,7 @@ $$
 
 Khi $E_1, \ldots, E_n$ và $F$ đều bằng $K_X$, người ta nói rằng $H$ là một toán tử $n$-vi phân vô hướng (hoặc đa vi phân).
 
-#### Ví dụ {#var-2-s14-n1-exa-1 .statement}
+#### Ví dụ {#var-2-s14-n1-exa-1 .statement tag=0EEL}
 
 Cho $J$ là một tập hợp hữu hạn, và $X$ là một tập mở của $K^J$. Cho $H$ là một toán tử $n$-vi phân vô hướng cấp $\leq k$ trên $X$. Tồn tại một họ duy nhất các hàm vô hướng
 $$
@@ -400,7 +400,7 @@ $$
 
 Đặc biệt, với các giả thiết và ký hiệu của 14.3.2, và $f$ là một hàm thuộc lớp $C^{h'}$ trên $X$ với $2k\leq h'$, ta có $^{t}(D\circ f)=f\circ{}^{t}D$.
 
-#### Ví dụ {#var-2-s14-n3-exa-1 .statement}
+#### Ví dụ {#var-2-s14-n3-exa-1 .statement tag=0EEM}
 
 Cho $X$ là một tập con mở của $K^n$, cho $\xi^1,\ldots,\xi^n$ là các hàm tọa độ trên $X$, và đồng nhất $\Omega$ với $K_X$ bằng khung $\omega=d\xi^1\wedge\cdots\wedge d\xi^n$. Nếu $E=F=K_X$, ta có
 

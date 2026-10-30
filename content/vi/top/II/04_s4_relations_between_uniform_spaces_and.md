@@ -28,7 +28,7 @@ subsections:
       pdf_page: 210
 statements: 24
 exercises: 23
-content_sha256: 8915ca18e0d2678fa8ef7712d717f2beb689238af1880e167e13086981606bbc
+content_sha256: 57df1e5456c70c1d0835d58d3a2ea6999ca2e6085accdb1fbc105e062a24ce97
 translated_from: content/en/top/II/04_s4_relations_between_uniform_spaces_and.md
 source_content_sha256: b8bf5d2de7d5a3ecb1c58ea701febd425b67ad98c2510195b01f49e3b03e2101
 translation_model: gpt-5.4, gpt-5-6-mini
@@ -42,7 +42,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CẤU TRÚC ĐỀU CỦA CÁC KHÔNG GIAN COMPACT
 
-#### Định nghĩa 1 {#top-ii-s4-def-1 .statement}
+#### Định nghĩa 1 {#top-ii-s4-def-1 .statement tag=0BFX}
 
 *Một cấu trúc đều trên một không gian tôpô $X$ được gọi là tương thích với tôpô của $X$ nếu tôpô sau trùng với tôpô do cấu trúc đều cảm sinh.*
 
@@ -52,7 +52,7 @@ Có những không gian tôpô không đều hóa được, chẳng hạn mọi 
 
 Chúng tôi sẽ không đưa ra một câu trả lời đầy đủ cho câu hỏi này trước Chương IX, $§ 1$. Trong tiết này chúng tôi chỉ khảo sát một trường hợp riêng quan trọng, đó là trường hợp $X$ compact. Khi đó ta có định lý sau:
 
-#### Định lý 1 {#top-ii-s4-thm-1 .statement}
+#### Định lý 1 {#top-ii-s4-thm-1 .statement tag=0BFY}
 
 *Trên một không gian compact $X$ có đúng một cấu trúc đều tương thích với tôpô của $X$; các entourage của cấu trúc đều này là tất cả các lân cận của đường chéo $\Delta$ trong $X \times X$. Hơn nữa, $X$ được trang bị cấu trúc đều này là một không gian đều đầy đủ.*
 
@@ -70,7 +70,7 @@ $$
 
 Từ các định nghĩa này suy ra ngay lập tức rằng nếu $(u, v) \in W$ và $u \in V_1$ (resp. $u \in U_1$), thì tất phải có $v \in U_1$ (resp. $v \in U_1 \cup U_3 = \mathscr{C}V_2$); do đó lân cận $V_1 \times V_2$ của $(x, y)$ trong $X \times X$ không giao với $\hat{W}$, và ta được một mâu thuẫn. Điều này kết thúc chứng minh.
 
-#### Nhận xét 1 {#top-ii-s4-n1-rem-1 .statement}
+#### Nhận xét 1 {#top-ii-s4-n1-rem-1 .statement tag=0BFZ}
 
 Với mọi *phủ mở hữu hạn* $\mathscr{R} = (U_i)_{1 \leq i \leq n}$ của $X$, tập hợp
 
@@ -82,17 +82,17 @@ là một lân cận của $\Delta$ trong $X \times X$, và các tập hợp nà
 
 Vì lý do này, cấu trúc đều duy nhất trên $X$ thường được gọi là *cấu trúc đều của các phủ mở hữu hạn* (xem Chương IX, § 4, Bài tập 17).
 
-#### Hệ quả 1 {#top-ii-s4-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#top-ii-s4-thm-1-cor-1 .statement tag=0BG0}
 
 *Mọi không gian con của một không gian compac đều có thể trang bị một cấu trúc đều.*
 
-#### Hệ quả 2 {#top-ii-s4-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#top-ii-s4-thm-1-cor-2 .statement tag=0BG1}
 
 *Mọi không gian compact địa phương đều có thể trang bị một cấu trúc đều.*
 
 Thật vậy, theo định lý của Alexandroff (Chương I, § 9, no. 8, Định lý 4), một không gian compact địa phương là đồng phôi với một không gian con của một không gian compac.
 
-#### Nhận xét 2 {#top-ii-s4-n1-rem-2 .statement}
+#### Nhận xét 2 {#top-ii-s4-n1-rem-2 .statement tag=0BG2}
 
 Có thể xảy ra rằng có nhiều cấu trúc đều phân biệt cùng tương thích với tôpô của một không gian compact địa phương.
 
@@ -100,7 +100,7 @@ Ví dụ, ta đã thấy rằng trên một không gian rời rạc vô hạn c�
 
 Tuy nhiên, không phải tính duy nhất của cấu trúc đều tương thích với tôpô của một không gian có thể trang bị cấu trúc đều là một tính chất đặc trưng cho các không gian compac; có những không gian compact địa phương không compac nhưng có cấu trúc đều duy nhất (Bài tập 4).
 
-#### Định lý 2 {#top-ii-s4-thm-2 .statement}
+#### Định lý 2 {#top-ii-s4-thm-2 .statement tag=0BG3}
 
 Mọi ánh xạ liên tục $f$ từ một không gian compac $X$ vào một không gian đều $X'$ đều liên tục đều.
 
@@ -108,23 +108,23 @@ Mọi ánh xạ liên tục $f$ từ một không gian compac $X$ vào một kh�
 
 Dưới các giả thiết của Định lý 2, hạn chế của $f$ lên mọi không gian con $A$ của $X$ là liên tục đều; do đó (§ 3, no. 6, Định lý 2):
 
-#### Hệ quả {#top-ii-s4-n1-cor-1 .statement}
+#### Hệ quả {#top-ii-s4-n1-cor-1 .statement tag=0BG4}
 
 Cho $A$ là một không gian con trù mật của một không gian compact $X$, và cho $f$ là một ánh xạ từ $A$ vào một không gian đều Hausdorff đầy đủ $X'$. Khi đó $f$ có thể được mở rộng liên tục ra toàn bộ $X$ khi và chỉ khi $f$ là liên tục đều.
 
 ### 2. TÍNH COMPACT CỦA CÁC KHÔNG GIAN ĐỀU
 
-#### Định nghĩa 2 {#top-ii-s4-def-2 .statement}
+#### Định nghĩa 2 {#top-ii-s4-def-2 .statement tag=0BG5}
 
 Một không gian đều $X$ được gọi là tiền compact nếu hoàn thành Hausdorff $\hat{X}$ của nó là compact. Một tập con $A$ của một không gian đều $X$ được gọi là một tập con tiền compact nếu không gian con đều $A$ của $X$ là tiền compact.
 
 Do đó một tập con $A$ của một không gian đều $X$ là tiền compắc nếu và chỉ nếu bao đóng của $i(A)$ trong $\hat{X}$ là compắc ($i : X \to \hat{X}$ là ánh xạ chính tắc) (§ 3, no. 9, Mệnh đề 18, Hệ quả 1).
 
-#### Ví dụ {#top-ii-s4-n2-exa-1 .statement}
+#### Ví dụ {#top-ii-s4-n2-exa-1 .statement tag=0BG6}
 
 Trong mọi không gian đều $X$, tập hợp các điểm của một dãy Cauchy $(x_n)$ là tiền compắc. Vì các ảnh của các $x_n$ trong $\hat{X}$ lại tạo thành một dãy Cauchy, ta có thể giả sử rằng $X$ là Hausdorff; khi đó bao đóng trong $\hat{X}$ của tập hợp các điểm $x_n$ gồm các điểm $x_n$ và $\lim_{n \to \infty} x_n$ và do đó là compắc (Chương I, § 9, no. 3, Ví dụ 2).
 
-#### Định lý 3 {#top-ii-s4-thm-3 .statement}
+#### Định lý 3 {#top-ii-s4-thm-3 .statement tag=0BG7}
 
 Một không gian đều $X$ là tiền compact nếu và chỉ nếu, với mỗi lân cận $V$ của $X$, tồn tại một phủ hữu hạn của $X$ bởi các tập hợp $V$-nhỏ.
 
@@ -138,33 +138,33 @@ Mặt khác, vì $C_j \times C_j \subset U$, và $U$ đóng trong $\hat{X} \time
 
 Điều phải chứng minh.
 
-#### Hệ quả {#top-ii-s4-n2-cor-1 .statement}
+#### Hệ quả {#top-ii-s4-n2-cor-1 .statement tag=0BG8}
 
 *Một không gian đều $X$ là compact nếu và chỉ nếu nó là Hausdorff và đầy đủ và có thể được phủ bởi một số hữu hạn các tập $V$-nhỏ, trong đó $V$ là một entourage bất kỳ của $X$.*
 
 Điều này suy ra từ Định lý 3 và Định lý 1 của no. 1.
 
-#### Nhận xét 1 {#top-ii-s4-n2-rem-1 .statement}
+#### Nhận xét 1 {#top-ii-s4-n2-rem-1 .statement tag=0BG9}
 
 Một không gian *giả compact* không Hausdorff không nhất thiết là đều hóa được, vì nó không cần thỏa mãn tiên đề $(O_{III})$ (xem Chương I, § 9, no. 2); chẳng hạn, phần lớn các không gian giả compact không Hausdorff xuất hiện trong hình học đại số đều không thỏa mãn tiên đề $(O_{III})$ (xem Bài tập 2).
 
-#### Mệnh đề 1 {#top-ii-s4-prop-1 .statement}
+#### Mệnh đề 1 {#top-ii-s4-prop-1 .statement tag=0BGA}
 
 *Trong một không gian đều, mọi tập con của một tập tiền compact, mọi hợp hữu hạn của các tập tiền compact và bao đóng của mọi tập tiền compact đều là tiền compact.*
 
 Hai khẳng định đầu là những hệ quả ngay lập tức của Định lý 3. Cho $X$ là một không gian đều, $A$ là một tập con tiền compact của $X$, và gọi $i : X \to \hat{X}$ là ánh xạ chính tắc. $i(\overline{A})$ được chứa trong bao đóng của $i(A)$ trong $\hat{X}$ (Chương I, § 2, no. 1, Định lý 1), do đó bao đóng của $i(\overline{A})$ trong $\hat{X}$ được chứa trong một tập compact và vì vậy là compact.
 
-#### Nhận xét 2 {#top-ii-s4-n2-rem-2 .statement}
+#### Nhận xét 2 {#top-ii-s4-n2-rem-2 .statement tag=0BGB}
 
 Trong một không gian đều $X$, một tập hợp $A$ *tương đối compact* là *tiền compact*, vì $A$ được chứa trong một tập compact. Mặt khác, ngay cả khi $X$ là Hausdorff, một tập hợp tiền compact *không nhất thiết là tương đối compact* trong $X$, như được chỉ ra bởi trường hợp mà chính $X$ là tiền compact nhưng không compact.
 
-#### Mệnh đề 2 {#top-ii-s4-prop-2 .statement}
+#### Mệnh đề 2 {#top-ii-s4-prop-2 .statement tag=0BGC}
 
 *Cho $f : X \to Y$ là một ánh xạ liên tục đều. Nếu $A$ là một tập con tiền compact bất kỳ của $X$, thì $f(A)$ là một tập con tiền compact của $Y$.*
 
 Vì nếu $i : X \to \hat{X}$ và $j : Y \to \hat{Y}$ là các ánh xạ chính tắc, thì ta có $j(f(A)) = \hat{f}(i(A))$ (§ 3, no. 7, Mệnh đề 15) và do đó $j(f(A))$ là tương đối compact trong $\hat{Y}$ (Chương I, § 9, no. 4, Định lý 2, Hệ quả 1).
 
-#### Mệnh đề 3 {#top-ii-s4-prop-3 .statement}
+#### Mệnh đề 3 {#top-ii-s4-prop-3 .statement tag=0BGD}
 
 *Cho $X$ là một tập hợp, cho $(Y_\lambda)_{\lambda \in L}$ là một họ các không gian đều, và với mỗi $\lambda \in L$ cho $f_\lambda$ là một ánh xạ của $X$ vào $Y_\lambda$. Trang bị cho $X$ cấu trúc đều thô nhất sao cho các $f_\lambda$ là liên tục đều. Khi đó một tập con $A$ của $X$ là tiền compắc nếu và chỉ nếu $f_\lambda(A)$ là một tập con tiền compắc của $Y_\lambda$ với mỗi $\lambda \in L$.*
 
@@ -174,13 +174,13 @@ Vì nếu $i : X \to \hat{X}$ và $j : Y \to \hat{Y}$ là các ánh xạ chính 
 
 Mệnh đề sau đây đối với một không gian đều tùy ý là một dạng sắc bén hơn của Mệnh đề 2 của Chương I, § 9, no. 2 đối với các không gian compắc.
 
-#### Mệnh đề 4 {#top-ii-s4-prop-4 .statement}
+#### Mệnh đề 4 {#top-ii-s4-prop-4 .statement tag=0BGE}
 
 *Trong một không gian đều $X$, cho $A$ là một tập compact và $B$ là một tập đóng sao cho $A \cap B = \varnothing$. Khi đó tồn tại một lân cận đều $V$ của $X$ sao cho $V(A)$ và $V(B)$ không giao nhau.*
 
 Nếu mệnh đề là sai, thì không một tập hợp nào trong các tập hợp $A \cap \overline{V}(B)$, với $V$ chạy qua tập hợp các entourage đối xứng của $X$, là rỗng; do đó các tập hợp ấy sẽ tạo thành một cơ sở bộ lọc trên $A$, cơ sở này sẽ có một điểm bám $x_0 \in A$. Vậy đối với mỗi entourage đối xứng $V$ của $X$, $\overline{V}(x_0)$ sẽ giao với $B$ và do đó, vì $B$ là đóng, ta sẽ có $x_0 \in B$, trái với giả thiết.
 
-#### Hệ quả {#top-ii-s4-n3-cor-1 .statement}
+#### Hệ quả {#top-ii-s4-n3-cor-1 .statement tag=0BGF}
 
 *Cho $A$ là một tập compact trong một không gian đều $X$; khi đó, khi $V$ chạy qua tập các entourage của $X$, các tập $V(A)$ tạo thành một hệ cơ bản các lân cận của $A$.*
 
@@ -188,19 +188,19 @@ Cho $U$ là một lân cận mở bất kỳ của $A$, khi đó $B = \complemen
 
 ### 4. CÁC TẬP LIÊN THÔNG TRONG MỘT KHÔNG GIAN COMPACT
 
-#### Định nghĩa 3 {#top-ii-s4-def-3 .statement}
+#### Định nghĩa 3 {#top-ii-s4-def-3 .statement tag=0BGG}
 
 *Cho $V$ là một entourage đối xứng của một không gian đều $X$. Một dãy hữu hạn $(x_i)_{0 \leq i \leq n}$ các điểm của $X$ được gọi là một $V$-chain nếu $x_i$ và $x_{i+1}$ là $V$-gần nhau với $0 \leq i < n$. Các điểm $x_0$ và $x_n$ được gọi là các đầu mút của $V$-chain, và người ta nói chúng được nối với nhau bởi $V$-chain.*
 
 Cho một entourage đối xứng $V$, quan hệ "có một $V$-chain nối $x$ với $y$" là một quan hệ tương đương giữa $x$ và $y$ trong $X$. Gọi $A_{x, v}$ là lớp tương đương của $x$ đối với quan hệ này, tức là tập hợp mọi $y \in X$ có thể được nối với $x$ bởi một $V$-chain. Rõ ràng nếu $y \in A_{x, v}$ thì $V(y) \subset A_{x, v}$; do đó $A_{x, v}$ là mở trong $X$; và phần bù của $A_{x, v}$, vì là hợp của các lớp tương đương, cũng mở. Vậy:
 
-#### Mệnh đề 5 {#top-ii-s4-prop-5 .statement}
+#### Mệnh đề 5 {#top-ii-s4-prop-5 .statement tag=0BGH}
 
 *Trong một không gian đều $X$, tập hợp $A_{x, v}$ các điểm có thể được nối bằng một xích $V$ tới một điểm đã cho $x$ vừa mở vừa đóng trong $X$.*
 
 Với mỗi $x \in X$, gọi $A_x$ là giao của các tập hợp $A_{x, v}$ khi $V$ chạy qua tập hợp các entourage đối xứng của $X$; $A_x$ là lớp tương đương của $x$ đối với quan hệ tương đương "với mọi entourage đối xứng $V$, tồn tại một $V$-dây chuyền nối $x$ với $y$".
 
-#### Mệnh đề 6 {#top-ii-s4-prop-6 .statement}
+#### Mệnh đề 6 {#top-ii-s4-prop-6 .statement tag=0BGI}
 
 *Trong một không gian compact $X$, thành phần của $x$, tập hợp $A_x$, và giao của các lân cận của $x$ vừa mở vừa đóng, cả ba đều trùng nhau.*
 
@@ -210,7 +210,7 @@ Giả sử $A_x$ không liên thông. Vì $A_x$ là *đóng*, tồn tại hai t�
 
 Cho $W$ là một entourage *mở* sao cho $\hat{W} \subset U$, và cho $H$ là tập hợp *đóng* là phần bù của $W(B) \cup W(C)$ trong $X$. Chẳng hạn giả sử rằng $x \in B$, và cho $y$ là một điểm của $C$. Khi đó đối với mỗi entourage đối xứng $V \subset W$ ta thấy ngay lập tức, bằng quy nạp theo $i$, rằng mọi $V$-chain $(x_i)_{0 \leq i \leq n}$ nối $x$ với $y$ trong $X$ đều phải có một điểm trong $H$, theo lựa chọn $W$. Vì theo giả thiết $x$ và $y$ có thể được nối bởi một $V$-chain với mỗi entourage đối xứng $V$, ta thấy rằng $H \cap A_{x, v}$ là không rỗng nếu $V \subset W$. Mặt khác, nếu $V' \subset V$ thì rõ ràng $A_{x, v'} \subset A_{x, v}$; do đó suy ra rằng, khi $V$ chạy qua tập hợp các entourage đối xứng của $X$, các tập hợp $H \cap A_{x, v}$ lập thành một cơ sở lọc gồm các tập hợp *đóng* trong không gian compact $H$. Vậy mọi tập hợp ấy đều có một điểm chung và do đó $H$ cắt $A_x$; nhưng điều này mâu thuẫn với định nghĩa của $H$.
 
-#### Hệ quả {#top-ii-s4-n4-cor-1 .statement}
+#### Hệ quả {#top-ii-s4-n4-cor-1 .statement tag=0BGJ}
 
 *Cho X là một không gian địa phương compact và K là một thành phần compact của X. Khi đó các lân cận của K vừa mở vừa đóng tạo thành một hệ cơ sở lân cận của K.*
 
@@ -218,7 +218,7 @@ Cho V là một lân cận mở tương đối compact của K trong X (Chương
 
 Giả sử điều đó không đúng: khi đó các giao của F với các tập con của \overline{V} chứa K và vừa mở vừa đóng trong \overline{V} tạo thành một cơ sở bộ lọc gồm các tập hợp đóng trong F; F compact, nên các tập hợp ấy có một điểm chung y ∈ F. Nhưng điều này là vô lý; vì \overline{V} compact, K là một thành phần của \overline{V}, và theo Mệnh đề 6, giao của các tập hợp chứa K và vừa mở vừa đóng trong \overline{V} chính là K. Hệ quả do đó được chứng minh.
 
-#### Mệnh đề 7 {#top-ii-s4-prop-7 .statement}
+#### Mệnh đề 7 {#top-ii-s4-prop-7 .statement tag=0BGK}
 
 *Cho X là một không gian compact và R là quan hệ tương đương trên X mà các lớp là các thành phần của X. Khi đó không gian thương X/R là compact và hoàn toàn không liên thông.*
 

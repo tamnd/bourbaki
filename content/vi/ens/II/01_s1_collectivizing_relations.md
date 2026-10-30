@@ -42,7 +42,7 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: 706905b2a9309784fd3a14093770441a86988d9963823209635fe4f045e3b0ac
+content_sha256: 43e6fc2d20bee8956a61226c1a5c4976d13009d41c5708243b7487334e4a18d7
 translated_from: content/en/ens/II/01_s1_collectivizing_relations.md
 source_content_sha256: 15e4c05cbeaa37f947e4dd88b319dfea58ef5aed00b479f31e5cbe9ae7b53342
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4

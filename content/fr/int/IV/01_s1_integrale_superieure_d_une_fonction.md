@@ -28,7 +28,7 @@ subsections:
       pdf_page: 119
 statements: 35
 exercises: 8
-content_sha256: bc246f0af134d98172e8167a60c54de5dc4e35a0339988da381d42846d6a67ff
+content_sha256: 354db21f6567f4ecc6e06ecba1166e29ebd520366bc1844b547b3585ed4e8990
 ---
 
 ## § 1. Intégrale supérieure d’une fonction positive
@@ -39,13 +39,13 @@ Soient X un espace localement compact, $\mu$ une mesure positive sur X ; on sait
 
 Nous désignerons par $\mathscr{I}_+(X)$ (ou simplement $\mathscr{I}_+$) l’ensemble des fonctions numériques positives, finies ou non, et semi-continues inférieurement dans X. Rappelons que la somme d’une famille quelconque de fonctions de $\mathscr{I}_+$ appartient à $\mathscr{I}_+$; le produit d’une fonction de $\mathscr{I}_+$ par un nombre fini $\alpha > 0$ appartient à $\mathscr{I}_+$; l’enveloppe supérieure d’une famille quelconque de fonctions de $\mathscr{I}_+$ et l’enveloppe inférieure d’une famille finie de fonctions de $\mathscr{I}_+$ appartiennent aussi à $\mathscr{I}_+$ (Top. gén., chap. IV, § 6, n° 2, prop. 2 et th. 4). Nous utiliserons en outre le lemme suivant :
 
-#### Lemme 1 {#int-iv-s1-lem-1 .statement}
+#### Lemme 1 {#int-iv-s1-lem-1 .statement tag=0E64}
 
 Toute fonction $f \in \mathscr{I}_+$ est l’enveloppe supérieure de l’ensemble (filtrant pour la relation $\leqslant$) des fonctions $g \in \mathscr{K}_+$ telles que $g \leqslant f$.
 
 En effet, pour tout $x \in X$ tel que $f(x) > 0$, et pour tout nombre réel fini $a$ tel que $0 < a < f(x)$, il existe par hypothèse un voisinage compact V de x tel que $f(y) \geq a$ dans V; d’autre part, il existe une fonction $g \in \mathscr{K}_+$, de support contenu dans V, égale à $a$ au point $x$ et $\leq a$ dans V (*Top. gén.*, chap. IX, § 1, n° 5, th. 2); on a donc $0 \leq g \leq f$ et $g(x) \geq a$, ce qui démontre le lemme.
 
-#### Définition 1 {#int-iv-s1-def-1 .statement}
+#### Définition 1 {#int-iv-s1-def-1 .statement tag=08P3}
 
 *Etant donnée une mesure positive $\mu$ sur X, on appelle intégrale supérieure d’une fonction $f \in \mathscr{J}_+$ (par rapport à $\mu$) le nombre positif (fini ou égal à $+\infty$)
 
@@ -55,7 +55,7 @@ $$
 
 Pour toute fonction $f \in \mathscr{K}_+$, il est clair que $\mu^*(f) = \mu(f)$, autrement dit $\mu^*$ est un prolongement de $\mu$ à $\mathscr{J}_+$.
 
-#### Exemple {#int-iv-s1-n1-exa-1 .statement}
+#### Exemple {#int-iv-s1-n1-exa-1 .statement tag=08P4}
 
 Soient X un espace *discret*, $\mu$ une mesure positive sur X, et posons $\alpha(x) = \mu(\varphi_{\{x\}})$ pour tout $x \in X$. Toute fonction numérique $f$ définie dans X est alors continue; pour une telle fonction $f \geq 0$, on a $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$, en convenant de poser $\alpha(x)f(x) = 0$ lorsque $\alpha(x) = 0$ et $f(x) = +\infty$. En effet, on a
 
@@ -64,7 +64,7 @@ $$
 $$
 où M parcourt l’ensemble des parties finies de X. S’il existe $x_0 \in X$ tel que $f(x_0) = +\infty$ et $\alpha(x_0) > 0$, on a $\sum_{x \in M} \alpha(x)f(x) = +\infty$ dès que $x_0 \in M$, et d’autre part, pour tout entier $n > 0$, on a $f \geq n \cdot \varphi_{\{x_0\}}$, donc $\mu^*(f) \geq n \alpha(x_0)$, et par suite $\mu^*(f) = +\infty$. Si au contraire $\alpha(x) = 0$ en tous les points où $f(x) = +\infty$, la fonction g égale à $f$ aux points $x \in M$ où $\alpha(x) > 0$, à 0 ailleurs, appartient à $\mathscr{K}_+$, et l’on a, en vertu des conventions faites, $\mu(g) = \sum_{x \in M} \alpha(x)f(x)$, ce qui prouve encore la relation $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$.
 
-#### Proposition 1 {#int-iv-s1-prop-1 .statement}
+#### Proposition 1 {#int-iv-s1-prop-1 .statement tag=08P5}
 
 *Pour tout nombre réel fini $\alpha > 0$ et toute fonction $f \in \mathscr{J}_+$, on a*
 
@@ -73,13 +73,13 @@ $$
 \mu^*(\alpha f) = \alpha \mu^*(f).
 $$
 
-#### Proposition 2 {#int-iv-s1-prop-2 .statement}
+#### Proposition 2 {#int-iv-s1-prop-2 .statement tag=08P6}
 
 *Sur l’ensemble $\mathscr{J}_+$, la fonction $\mu^*$ est croissante.*
 
 Les démonstrations sont immédiates à partir de la déf. 1.
 
-#### Théorème 1 {#int-iv-s1-thm-1 .statement}
+#### Théorème 1 {#int-iv-s1-thm-1 .statement tag=08P7}
 
 *Soit H un ensemble non vide de fonctions de $\mathscr{J}_+$, filtrant pour la relation $\leq$. Pour toute mesure positive $\mu$ sur X, on a
 
@@ -103,7 +103,7 @@ $$
 
 d’où l’on déduit aussitôt que $\mu(\psi) \leq \sup_{g \in H} \mu^*(g)$. Nous avons donc prouvé que $\mu^*(f) = \sup_{g \in H} \mu^*(g)$; la relation $\mu^*(f) = \lim_{g \in H} \mu^*(g)$ est alors une conséquence du théorème de la limite monotone (*Top. gén.*, chap. IV, § 5, n° 2, th. 2).
 
-#### Théorème 2 {#int-iv-s1-thm-2 .statement}
+#### Théorème 2 {#int-iv-s1-thm-2 .statement tag=08P8}
 
 *Si $f_1$ et $f_2$ sont deux fonctions de $\mathscr{J}_+$, on a*
 
@@ -125,7 +125,7 @@ $$
 
 (Top. gén., chap. IV, § 5, n° 7, cor. 2 de la prop. 12), le théorème est démontré.
 
-#### Proposition 3 {#int-iv-s1-prop-3 .statement}
+#### Proposition 3 {#int-iv-s1-prop-3 .statement tag=08P9}
 
 *Pour toute famille* $(f_i)_{i \in I}$ *de fonctions de* $\mathscr{I}_+$, *on a*
 
@@ -135,7 +135,7 @@ $$
 
 En effet, pour toute partie finie $J$ de $I$, il résulte du th. 2 (par récurrence sur le nombre d’éléments de $J$) que $\mu^*\left( \sum_{i \in J} f_i \right) = \sum_{i \in J} \mu^*(f_i)$; lorsque $J$ parcourt l’ensemble des parties finies de $I$, les fonctions $g_J = \sum_{i \in J} f_i$ appartiennent à $\mathscr{I}_+$ et forment un ensemble filtrant pour la relation $\leq$, dont l’enveloppe supérieure est la fonction $\sum_{i \in I} f_i$; la proposition résulte donc du th. 1.
 
-#### Proposition 4 {#int-iv-s1-prop-4 .statement}
+#### Proposition 4 {#int-iv-s1-prop-4 .statement tag=08PA}
 
 *Soit* $f$ *une fonction de* $\mathscr{I}_+$. *L’application* $\mu \mapsto \mu^*(f)$ *de l’ensemble* $\mathscr{M}_+(X)$ *des mesures positives sur* $X$, *dans la droite achevée* $\bar{\mathbf{R}}$, *est semi-continue inférieurement pour la topologie vague sur* $\mathscr{M}_+(X)$ *(chap. III, § 1, n° 9)*.
 
@@ -145,13 +145,13 @@ En effet, cette application est par définition l’enveloppe supérieure des ap
 
 Etant donné un ensemble *ouvert* $G \subset X$, sa fonction caractéristique $\varphi_G$ est *semi-continue inférieurement* dans $X$ (*Top. gén.*, chap. IV, § 6, n° 2, cor. de la prop. 1). On peut donc poser la définition suivante:
 
-#### Définition 2 {#int-iv-s1-def-2 .statement}
+#### Définition 2 {#int-iv-s1-def-2 .statement tag=08PB}
 
 Etant donnée une mesure positive $\mu$ sur $X$, pour tout ensemble ouvert $G \subset X$, on appelle mesure extérieure de $G$, et l’on note $\mu^*(G)$, l’intégrale supérieure $\mu^*(\varphi_G)$.
 
 La mesure extérieure d’un ensemble ouvert $G$ est donc un nombre $\geqslant 0$, fini ou égal à $+\infty$. On a $\mu^*(\emptyset) = 0$. En outre $\mu^*(X) = \| \mu \|$, comme le montre la formule (23) du chap. III, § 1, n° 8.
 
-#### Proposition 5 {#int-iv-s1-prop-5 .statement}
+#### Proposition 5 {#int-iv-s1-prop-5 .statement tag=08PC}
 
 La mesure extérieure d’un ensemble ouvert relativement compact $G$ est finie.
 
@@ -161,13 +161,13 @@ $$
 $$
 Un ensemble ouvert de mesure extérieure finie n’est pas toujours relativement compact (exerc. 3).
 
-#### Proposition 6 {#int-iv-s1-prop-6 .statement}
+#### Proposition 6 {#int-iv-s1-prop-6 .statement tag=08PD}
 
 Si $G_1$ et $G_2$ sont deux ensembles ouverts tels que $G_1 \subset G_2$, on a $\mu^*(G_1) \leqslant \mu^*(G_2)$.
 
 En effet, la relation $G_1 \subset G_2$ équivaut à $\varphi_{G_1} \leqslant \varphi_{G_2}$.
 
-#### Proposition 7 {#int-iv-s1-prop-7 .statement}
+#### Proposition 7 {#int-iv-s1-prop-7 .statement tag=08PE}
 
 Soit $\mathfrak{G}$ un ensemble de parties ouvertes de $X$, filtrant pour la relation $\subset$; on a
 $$
@@ -175,7 +175,7 @@ $$
 $$
 En effet, les fonctions $\varphi_G$ forment un ensemble filtrant (pour $\leqslant$) dans $\mathscr{J}_+$ et leur enveloppe supérieure est la fonction caractéristique de la réunion des ensembles $G \in \mathfrak{G}$; la proposition est donc une conséquence du th. 1.
 
-#### Proposition 8 {#int-iv-s1-prop-8 .statement}
+#### Proposition 8 {#int-iv-s1-prop-8 .statement tag=08PF}
 
 Soit $(G_i)_{i \in I}$ une famille quelconque d’ensembles ouverts; on a
 $$
@@ -187,7 +187,7 @@ $$
 $$
 En effet, si $G = \bigcup_{i \in I} G_i$, on a $\varphi_G = \sup_{i \in I} \varphi_{G_i} \leqslant \sum_{i \in I} \varphi_{G_i}$; lorsque les $G_i$ sont deux à deux sans point commun, $\varphi_G = \sum_{i \in I} \varphi_{G_i}$; la proposition est donc conséquence du th. 1 et de la prop. 3.
 
-#### Exemple {#int-iv-s1-n2-exa-1 .statement}
+#### Exemple {#int-iv-s1-n2-exa-1 .statement tag=08PG}
 
 Prenons $X = \mathbf{R}$, et soit $\mu$ la mesure de Lebesgue sur $\mathbf{R}$ (chap. III, § 1, n° 3); nous allons déterminer la mesure extérieure d’un intervalle ouvert $G = ]a, b[$ ($-\infty \leq a < b \leq +\infty$). Supposons d’abord $a$ et $b$ finis. Pour toute fonction de $f$ de $\mathscr{K}_+$ telle que $f \leq \varphi_G$, on a, d’après le th. de la moyenne,
 
@@ -211,7 +211,7 @@ $$
 
 (prop. 8); autrement dit:
 
-#### Proposition 9 {#int-iv-s1-prop-9 .statement}
+#### Proposition 9 {#int-iv-s1-prop-9 .statement tag=08PH}
 
 Pour la mesure de Lebesgue sur $\mathbf{R}$, la mesure extérieure d’un ensemble ouvert dans $\mathbf{R}$ est égale à la somme des longueurs de ses composantes connexes.
 
@@ -221,7 +221,7 @@ On notera en particulier que si $G$ est un ensemble ouvert dans $\mathbf{R}$ tel
 
 Pour toute fonction numérique $f \geq 0$ (finie ou non) définie dans $X$, il existe des fonctions $h \in \mathscr{J}_+$ telles que $f \leq h$, ne serait-ce que la constante $+\infty$.
 
-#### Définition 3 {#int-iv-s1-def-3 .statement}
+#### Définition 3 {#int-iv-s1-def-3 .statement tag=08PI}
 
 Soit $\mu$ une mesure positive sur $X$; pour toute fonction numérique $f \geq 0$ (finie ou non) définie dans $X$, on appelle intégrale supérieure de $f$ (par rapport à $\mu$) le nombre positif (fini ou égal à $+\infty$)
 
@@ -233,15 +233,15 @@ Lorsque $f \in \mathscr{I}_+$, le nombre $\mu^*(f)$ ainsi défini est égal à l
 
 Au lieu de la notation $\mu^*(f)$, nous utiliserons aussi les notations $\int^* f d\mu$, $\int^* f(x) d\mu(x)$, $\int^* f\mu$ et $\int^* f(x)\mu(x)$.
 
-#### Exemple {#int-iv-s1-n3-exa-1 .statement}
+#### Exemple {#int-iv-s1-n3-exa-1 .statement tag=08PJ}
 
 Si $X$ est un espace discret, $\mu$ une mesure positive sur $X$ et si l’on pose $\alpha(x) = \mu(\varphi_{\{x\}})$, on a $\mu^*(f) = \sum_{x \in X} \alpha(x)f(x)$ pour toute fonction numérique $f \geq 0$ définie dans $X$, puisqu’une telle fonction est continue (n° 1, Exemple).
 
-#### Proposition 10 {#int-iv-s1-prop-10 .statement}
+#### Proposition 10 {#int-iv-s1-prop-10 .statement tag=08PK}
 
 Si $f$ et $g$ sont deux fonctions numériques $\geq 0$ définies dans $X$ et telles que $f \leq g$, on a $\mu^*(f) \leq \mu^*(g)$.
 
-#### Proposition 11 {#int-iv-s1-prop-11 .statement}
+#### Proposition 11 {#int-iv-s1-prop-11 .statement tag=08PL}
 
 Pour tout nombre réel fini $\alpha > 0$ et toute fonction numérique $f \geq 0$ définie dans $X$, on a
 
@@ -249,7 +249,7 @@ $$
 \mu^*(\alpha f) = \alpha \mu^*(f).
 $$
 
-#### Proposition 12 {#int-iv-s1-prop-12 .statement}
+#### Proposition 12 {#int-iv-s1-prop-12 .statement tag=08PM}
 
 Si $f_1$ et $f_2$ sont deux fonctions numériques $\geq 0$ définies dans $X$, on a
 
@@ -273,7 +273,7 @@ ce qui n’est autre que l’inégalité (9).
 
 Les prop. 10, 11 et 12 expriment que $\mu^*$ est une fonction croissante, positivement homogène et convexe dans l’ensemble des fonctions numériques $\geq 0$ définies dans $X$ (chap. I, n° 1). On notera que si $f_1$ et $f_2$ sont deux fonctions positives quelconques, les deux membres de (9) ne sont pas nécessairement égaux (§ 4, exerc. 8 d)); nous donnerons au § 5, n° 6 des conditions moyennant lesquelles l’égalité a lieu.
 
-#### Théorème 3 {#int-iv-s1-thm-3 .statement}
+#### Théorème 3 {#int-iv-s1-thm-3 .statement tag=08PN}
 
 Pour toute suite croissante $(f_n)$ de fonctions numériques $\geqslant 0$ définies dans E, on a
 
@@ -309,7 +309,7 @@ $$
 
 C.Q.F.D.
 
-#### Corollaire {#int-iv-s1-n3-cor-1 .statement}
+#### Corollaire {#int-iv-s1-n3-cor-1 .statement tag=08PO}
 
 Soit $\mathfrak{F}$ un ensemble de fonctions numériques $\geqslant 0$, filtrant pour la relation $\leqslant$ et tel qu’il existe une partie cofinale dénombrable $\mathfrak{G}$ de $\mathfrak{F}$ (Ens., chap. III, § 1, n° 7); on a
 $$
@@ -317,15 +317,15 @@ $$
 $$
 En effet, il existe une suite croissante de fonctions de $\mathfrak{G}$ ayant même enveloppe supérieure que $\mathfrak{F}$: si $(f_n)$ est la suite des fonctions de $\mathfrak{G}$, rangées dans un ordre quelconque, soit $(f_{n_k})$ une suite partielle définie par récurrence par les conditions $n_1 = 1$, $f_{n_{k+1}} \geqslant \sup(f_{n_k}, f_k)$; il est clair que cette suite partielle a les propriétés indiquées.
 
-#### Remarque 1 {#int-iv-s1-n3-rem-1 .statement}
+#### Remarque 1 {#int-iv-s1-n3-rem-1 .statement tag=08PP}
 
 La relation (11) ne subsiste plus nécessairement lorsque $\mathfrak{F}$ est un ensemble filtrant non dénombrable de fonctions $\geqslant 0$ non semi-continues inférieurement. Prenons par exemple $X = \mathbf{R}$, $\mu$ étant la mesure de Lebesgue sur $\mathbf{R}$, et considérons l’ensemble filtrant (pour $\leqslant$) $\mathfrak{F}$ des fonctions caractéristiques $\varphi_M$ de toutes les parties finies $M$ de $\mathbf{R}$. On a $\mu^*(\varphi_M) = 0$ quel que soit l’ensemble fini $M$, car un point est contenu dans un intervalle ouvert de longueur arbitrairement petite, et la fonction caractéristique d’un ensemble réduit à un point a donc une intégrale supérieure nulle, en vertu de la déf. 3 et de la prop. 9 du n° 2. Mais l’enveloppe supérieure de $\mathfrak{F}$ est la fonction constante égale à 1 et l’on a $\mu^*(1) = +\infty$.
 
-#### Remarque 2 {#int-iv-s1-n3-rem-2 .statement}
+#### Remarque 2 {#int-iv-s1-n3-rem-2 .statement tag=0E65}
 
 On observera que pour une suite décroissante $(f_n)$ de fonctions $\geqslant 0$, on n’a pas nécessairement $\mu^*(\inf_n f_n) = \inf_n \mu^*(f_n)$, même si $\mu^*(f_n) < +\infty$ pour tout $n$ (cf. § 4, exerc. 8 c)).
 
-#### Proposition 13 {#int-iv-s1-prop-13 .statement}
+#### Proposition 13 {#int-iv-s1-prop-13 .statement tag=08PQ}
 
 Pour tout suite $(f_n)$ de fonctions numériques $\geqslant 0$, définies dans $X$, on a
 $$
@@ -337,7 +337,7 @@ $$
 $$
 Au § 5, n° 6, nous donnerons des conditions moyennant lesquelles les deux membres de (12) sont égaux.
 
-#### Proposition 14 (lemme de Fatou) {#int-iv-s1-prop-14 .statement}
+#### Proposition 14 (lemme de Fatou) {#int-iv-s1-prop-14 .statement tag=08PR}
 
 Pour toute suite $(f_n)$ de fonctions numériques $\geqslant 0$, on a
 $$
@@ -353,13 +353,13 @@ $$
 \mu^*(\lim . \inf f_n) \leq \sup_{n \to \infty} (\inf_{p \geq 0} \mu^*(f_{n+p})) = \lim . \inf_{n \to \infty} \mu^*(f_n).
 $$
 
-#### Corollaire {#int-iv-s1-n3-cor-2 .statement}
+#### Corollaire {#int-iv-s1-n3-cor-2 .statement tag=08PS}
 
 Soit $(f_n)$ une suite de fonctions numériques $\geq 0$ telle que, pour tout $x \in X$, $\lim_{n \to \infty} f_n(x) = +\infty$. Si la mesure $\mu$ n’est pas nulle, on a $\lim_{n \to \infty} \mu^*(f_n) = +\infty$.
 
 En effet, si $f_0$ est la fonction constante égale à $+\infty$, $f_0$ est l’enveloppe supérieure de toutes les fonctions de $\mathscr{K}_+$, et comme $\mu \neq 0$, on a $\mu^*(f_0) > 0$; mais comme $f_0 = \alpha f_0$ pour tout $\alpha > 0$, on a nécessairement $\mu^*(f_0) = +\infty$ (prop. 11). L’inégalité (13) montre alors que $\mu^*(f_n)$ tend vers $+\infty$ avec $n$.
 
-#### Proposition 15 {#int-iv-s1-prop-15 .statement}
+#### Proposition 15 {#int-iv-s1-prop-15 .statement tag=08PT}
 
 Pour tout scalaire $\alpha > 0$ et tout couple de mesures positives $\mu, \nu$ sur $X$, on a
 $$
@@ -374,29 +374,29 @@ Démontrons la relation (15). Posons $\lambda = \mu + \nu$; on a donc $\lambda(f
 
 ### 4. Mesure extérieure d’un ensemble quelconque
 
-#### Définition 4 {#int-iv-s1-def-4 .statement}
+#### Définition 4 {#int-iv-s1-def-4 .statement tag=08PU}
 
 Soit $\mu$ une mesure positive sur $X$; pour toute partie $A$ de $X$, on appelle mesure extérieure de $A$ (pour la mesure $\mu$), et on note $\mu^*(A)$, l’intégrale supérieure $\mu^*(\varphi_A)$.
 
 La mesure extérieure d’un ensemble est donc un nombre $\geq 0$, fini ou égal à $+\infty$, qui coïncide pour les ensembles ouverts avec la mesure extérieure définie dans la déf. 2 du n° 2.
 
-#### Proposition 16 {#int-iv-s1-prop-16 .statement}
+#### Proposition 16 {#int-iv-s1-prop-16 .statement tag=08PV}
 
 *Si A et B sont deux parties de X telles que $A \subset B$, on a $\mu^*(A) \leq \mu^*(B)$.*
 
-#### Corollaire {#int-iv-s1-n4-cor-1 .statement}
+#### Corollaire {#int-iv-s1-n4-cor-1 .statement tag=08PW}
 
 *Tout ensemble relativement compact dans X est de mesure extérieure finie.*
 En effet, un tel ensemble est contenu dans un ensemble ouvert relativement compact (*Top. gén.*, chap. I, 3e éd., § 9, n° 7, prop. 10), dont la mesure extérieure est finie (n° 2, prop. 5).
 
-#### Proposition 17 {#int-iv-s1-prop-17 .statement}
+#### Proposition 17 {#int-iv-s1-prop-17 .statement tag=08PX}
 
 *Si $(A_n)$ est une suite croissante de parties de X, on a*
 $$
 \mu^*\left( \bigcup_n A_n \right) = \sup_n \mu^*(A_n).
 $$
 
-#### Proposition 18 {#int-iv-s1-prop-18 .statement}
+#### Proposition 18 {#int-iv-s1-prop-18 .statement tag=08PY}
 
 *Pour toute suite $(A_n)$ de parties de X, on a*
 $$
@@ -404,7 +404,7 @@ $$
 $$
 Ces propositions sont les traductions des prop. 10 et 13 et du th. 3 du n° 3 pour les fonctions caractéristiques d’ensembles.
 
-#### Proposition 19 {#int-iv-s1-prop-19 .statement}
+#### Proposition 19 {#int-iv-s1-prop-19 .statement tag=08PZ}
 
 *Pour toute partie A de X, $\mu^*(A)$ est la borne inférieure des mesures extérieures des ensembles ouverts contenant A.*
 La proposition est évidente si $\mu^*(A) = +\infty$. Dans le cas contraire, pour tout $\varepsilon$ tel que $0 < \varepsilon < 1$, il existe une fonction $f \in \mathscr{J}_+$ telle que $\varphi_A \leq f$ et $\mu^*(A) \leq \mu^*(f) \leq \mu^*(A) + \varepsilon$. Soit G l’ensemble des $x \in X$ tels que $f(x) > 1 - \varepsilon$. Comme $f$ est semi-continue inférieurement, G est ouvert (*Top. gén.*, chap. IV, § 6, n° 2, prop. 1) et contient A ; on a d’autre part $f \geq (1 - \varepsilon)\varphi_G$, d’où

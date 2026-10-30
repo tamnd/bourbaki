@@ -34,7 +34,7 @@ subsections:
       pdf_page: 573
 statements: 13
 exercises: 1
-content_sha256: ca5fe22ef0535fe2b3766b705e5c240049c39e0b6b259d5cf5fa35fdd9613329
+content_sha256: fe4a6859699da2166c35751c2bc6e99767d9b7b95f11a46d6ef28779b46d7e13
 translated_from: content/en/alg/III/09_s9_norms_and_traces.md
 source_content_sha256: 8434084d69552b8f7b8ee7ec79fb769815bf1868b7a0b4a9cde2013668383c85
 translation_model: gpt-5.4
@@ -50,7 +50,7 @@ Trong suốt tiết này, $K$ sẽ ký hiệu một vành giao hoán và $A$ m�
 
 ### 1. CHUẨN VÀ VẾT ĐỐI VỚI MỘT MÔĐUN
 
-#### Định nghĩa 1 {#alg-iii-s9-def-1 .statement}
+#### Định nghĩa 1 {#alg-iii-s9-def-1 .statement tag=065S}
 
 Cho $M$ là một $A$-môđun có một cơ sở hữu hạn như một $K$-môđun. Với mọi $a \in A$, gọi $a_M$ là tự đồng cấu $x \mapsto ax$ của $K$-môđun $M$. Vết, định thức và đa thức đặc trưng của $a_M$ lần lượt được gọi là vết, chuẩn và đa thức đặc trưng của $z$ đối với $M$.
 
@@ -102,7 +102,7 @@ Nếu $M$ và $M'$ là hai $A$-môđun *đẳng cấu* có các cơ sở hữu h
 
 vì nếu $f$ là một đẳng cấu từ $M$ lên $M'$, thì ma trận của $a_M$ đối với một cơ sở $B$ của $M$ trên $K$ cũng chính là ma trận của $a_{M'}$ đối với cơ sở $f(B)$ của $M'$.
 
-#### Mệnh đề 1 {#alg-iii-s9-prop-1 .statement}
+#### Mệnh đề 1 {#alg-iii-s9-prop-1 .statement tag=065T}
 
 Cho $M = M_0 \supset M_1 \supset \ldots \supset M_r = \{0\}$ là một dãy giảm các môđun con của một $A$-môđun $M$ sao cho mỗi $K$-môđun $P_i = M_{i-1}/M_i$ ($1 \leq i \leq r$) đều có một cơ sở hữu hạn. Khi đó $K$-môđun $M$ có một cơ sở hữu hạn và
 
@@ -128,7 +128,7 @@ $$
 
 và mệnh đề suy ra từ các công thức (4), (5) và (6) của no. 1 và công thức (31) của § 8, no. 6.
 
-#### Mệnh đề 2 {#alg-iii-s9-prop-2 .statement}
+#### Mệnh đề 2 {#alg-iii-s9-prop-2 .statement tag=065U}
 
 Cho $A, A'$ là hai $K$-đại số, $M$ là một $A$-môđun và $M'$ là một $A'$-môđun. Giả sử rằng $M$ và $M'$ là các $K$-môđun tự do có các chiều tương ứng là $n$ và $n'$ và xét $M \otimes_K M'$ như một $(A \otimes_K A')$-môđun ($§ 4$, no. 3, Ví dụ 2). Khi đó, với $a \in A$ và $a' \in A'$,
 
@@ -146,7 +146,7 @@ Công thức (16) suy ra từ II, § 4, no. 4, công thức (26), và công th�
 
 ### 3. CHUẨN VÀ VẾT TRONG MỘT ĐẠI SỐ
 
-#### Định nghĩa 2 {#alg-iii-s9-def-2 .statement}
+#### Định nghĩa 2 {#alg-iii-s9-def-2 .statement tag=065V}
 
 Cho $A$ là một $K$-đại số là một $K$-môđun tự do hữu hạn chiều. Với mọi phần tử $a \in A$, vết (tương ứng là chuẩn,\footnote{† Khái niệm này không nên bị nhầm lẫn với khái niệm chuẩn trong một đại số trên một trường có trị (\emph{Tôpô đại cương}), IX, § 3, no. 7.} tương ứng là đa thức đặc trưng) của $a$ đối với $A$ và $K$ là vết (tương ứng là định thức, tương ứng là đa thức đặc trưng) của tự đồng cấu $x \mapsto ax$ của $K$-môđun $A$.
 
@@ -203,7 +203,7 @@ $$
 \mathrm{Pc}_{A/K}(a; x) = N_{A'/K'}(x - a).
 $$
 
-#### Ví dụ {#alg-iii-s9-n3-exa-1 .statement}
+#### Ví dụ {#alg-iii-s9-n3-exa-1 .statement tag=065W}
 
 (1) Cho $A$ là một đại số bậc hai trên $K$ kiểu $(\alpha, \beta)$ và $(e_1, e_2)$ một cơ sở kiểu $(\alpha, \beta)$ (§ 2, no. 3). Với $x = \xi e_1 + \eta e_2$, $\mathrm{Tr}_{A/K}(x) = 2\xi + \beta \eta$ và $N_{A/K}(x) = \xi^2 + \beta \xi \eta - \alpha \eta^2$; do đó các hàm này đồng nhất với vết Cayley và chuẩn Cayley của $x$ (§ 2, no. 24).
 
@@ -224,7 +224,7 @@ do đó $\mathrm{Tr}_{A/\mathbf{K}}(X) = n \cdot \mathrm{Tr}(X)$ và $N_{A/\math
 
 ### 4. TÍNH CHẤT CỦA CÁC CHUẨN VÀ CÁC VẾT TRONG MỘT ĐẠI SỐ
 
-#### Mệnh đề 3 {#alg-iii-s9-prop-3 .statement}
+#### Mệnh đề 3 {#alg-iii-s9-prop-3 .statement tag=065X}
 
 *Cho A là một đại số trên K thừa nhận một cơ sở hữu hạn. Để một phần tử $a \in A$ khả nghịch thì điều kiện cần và đủ là $N_{A/\mathbf{K}}(a)$ của nó khả nghịch trong $\mathbf{K}$.*
 
@@ -236,13 +236,13 @@ $$
 
 theo công thức (3) của no. 1. Ngược lại, nếu $N_{A/\mathbf{K}}(a)$ khả nghịch, thì tự đồng cấu $h : x \mapsto ax$ là song ánh (§ 8, no. 2, Định lý 1). Khi đó tồn tại $a' \in A$ sao cho $aa' = 1$; khi đó $h(a'a - 1) = aa'a - a = (aa' - 1)a = 0$, do đó $aa' = 1$ vì $h$ là đơn ánh. Vậy $a'$ là nghịch đảo của $a$.
 
-#### Mệnh đề 4 {#alg-iii-s9-prop-4 .statement}
+#### Mệnh đề 4 {#alg-iii-s9-prop-4 .statement tag=065Y}
 
 *Cho A là một đại số trên K có một cơ sở hữu hạn. Với mọi $a \in A$, $\mathrm{Pc}_{A/\mathbf{K}}(a; a) = 0$.*
 
 Điều này suy ra ngay lập tức từ định lý Cayley-Hamilton (§ 8, no. 11, Mệnh đề 20).
 
-#### Mệnh đề 5 {#alg-iii-s9-prop-5 .statement}
+#### Mệnh đề 5 {#alg-iii-s9-prop-5 .statement tag=065Z}
 
 *Cho A là một đại số trên K và m một iđêan hai phía của A. Giả sử rằng $A_0 = A/m$ là một K-môđun tự do có số chiều hữu hạn n, rằng tồn tại một số nguyên $r > 0$ sao cho $m^r = \{0\}$ và rằng $m^{i-1}/m^i$ là một $A_0$-môđun tự do có số chiều hữu hạn $s_i$ với $1 \leq i \leq r$. Đặt $s = s_1 + \cdots + s_r$ và với mọi $a \in A$ ký hiệu $a_0$ là lớp của $a$ mod. m. Khi đó A là một K-môđun tự do có chiều $ns$ và, với mọi $a \in A$,
 
@@ -261,7 +261,7 @@ N_A(a) = N_{A_0}(a)^s.
 $$
 Trong công thức này, $N_{A_0}(a)$ được định nghĩa bằng cách coi $A_0$ như một $A$-môđun trái và nó bằng định thức của ánh xạ $K$-tuyến tính $x \mapsto ax$ từ $A_0$ vào chính nó; nhưng, vì $ax = a_0x$ với $x \in A_0$, nên $N_{A_0}(a) = N_{A_0}(a_0)$, điều này hoàn tất chứng minh công thức (23) đối với chuẩn. Hai công thức kia được chứng minh tương tự.
 
-#### Mệnh đề 6 {#alg-iii-s9-prop-6 .statement}
+#### Mệnh đề 6 {#alg-iii-s9-prop-6 .statement tag=0660}
 
 *Cho $A$ là một $K$-đại số giao hoán có một cơ sở hữu hạn trên $K$ và $V$ là một $A$-môđun có một cơ sở hữu hạn trên $A$. Khi đó $V$ có một cơ sở hữu hạn trên $K$ và với mọi $A$-tự đồng cấu $u$ của $V$, nếu $u_K$ là ánh xạ $u$ được xét như một $K$-tự đồng cấu của $V$,*
 $$
@@ -274,7 +274,7 @@ $$
 
 Cho $(a_i)_{1 \leq i \leq m}$ là một cơ sở của $A$ trên $K$ và $(e_j)_{1 \leq j \leq n}$ là một cơ sở của $V$ trên $A$; khi đó $(a_i e_j)$ là một cơ sở của $V$ trên $K$ (II, § 1, no. 13, Mệnh đề 25). Mặt khác công thức thứ ba trong các công thức (24) có thể được suy ra từ công thức thứ hai áp dụng cho tự đồng cấu $X - \bar{u}$ của $A[X]$-môđun $A[X] \otimes_A V$ (§ 8, no. 10). Vì vậy chỉ cần chứng minh hai công thức đầu trong (24). Trước hết ta sẽ thiết lập bổ đề sau:
 
-#### Bổ đề 1 {#alg-iii-s9-lem-1 .statement}
+#### Bổ đề 1 {#alg-iii-s9-lem-1 .statement tag=0661}
 
 *Cho $X_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) là $n^2$ bất định, $X$ là ma trận bình phương $(X_{ij})$ cấp $n$ và $D(X_{11}, \ldots, X_{nn}) \in \mathbf{Z}[X_{11}, \ldots, X_{nn}]$ là định thức $\det(X)$. Mặt khác cho $A$ là một vành giao hoán, $M_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) là $n^2$ ma trận cấp $m$ trên $A$, từng đôi một giao hoán được, và $M$ là ma trận bình phương cấp $mn$ trên $A$ có thể được biểu diễn thành một ma trận bình phương các ma trận (II, § 10, no. 7)
 $$
@@ -351,7 +351,7 @@ $$
 $$
 và chứng minh của Mệnh đề 6 là đầy đủ.
 
-#### Hệ quả {#alg-iii-s9-n4-cor-1 .statement}
+#### Hệ quả {#alg-iii-s9-n4-cor-1 .statement tag=0662}
 
 *Cho A là một đại số giao hoán trên K có một cơ sở hữu hạn trên K và B là một đại số trên A có một cơ sở hữu hạn trên A. Khi đó B có một cơ sở hữu hạn trên K, và, với mọi $b \in B$ ("các công thức bắc cầu")*
 $$
@@ -363,7 +363,7 @@ $$
 (26)
 Điều này suy ra ngay lập tức từ Mệnh đề 6, bằng cách đặt $V = B$ và $u(x) = bx$.
 
-#### Nhận xét {#alg-iii-s9-n4-rem-1 .statement}
+#### Nhận xét {#alg-iii-s9-n4-rem-1 .statement tag=0663}
 
 Giả sử rằng đồng cấu $\lambda \mapsto \lambda . 1$ của K vào A là đơn ánh và đồng nhất K với ảnh của nó trong A; giả sử rằng A có một cơ sở hữu hạn $(e_i)_{1 \leq i \leq n}$ như một K-môđun. Cho s là một tự đẳng cấu của A sao cho $s(K) = K$. Cho a là một phần tử của A; khi đó, bằng cách chuyển cấu trúc
 $$
@@ -393,7 +393,7 @@ $$
 
 ### 5. BIỆT THỨC CỦA MỘT ĐẠI SỐ
 
-#### Định nghĩa 3 {#alg-iii-s9-def-3 .statement}
+#### Định nghĩa 3 {#alg-iii-s9-def-3 .statement tag=0664}
 
 *Cho A là một đại số trên K có một cơ sở hữu hạn gồm n phần tử. Biệt thức của một dãy $(x_1, \ldots, x_n)$ gồm n phần tử của A, đối với K, ký hiệu là $D_{A/\mathbf{K}}(x_1, \ldots, x_n)$, là biệt thức của ma trận vuông*
 $$
@@ -422,7 +422,7 @@ $$
 
 Công thức trên cho thấy riêng rằng các biệt thức của hai cơ sở của A trên K sai khác nhau bởi bình phương của một phần tử khả nghịch của K và vì thế sinh ra cùng một iđêan (chính) của K. Iđêan này $\Delta_{A/K}$ được gọi là iđêan biệt thức của A trên K; theo công thức (32) biệt thức của mọi dãy gồm n phần tử của A chỉ sai khác nhau ở thứ tự các số hạng đều có cùng biệt thức, vì định thức của một ma trận hoán vị bằng $\pm 1$.
 
-#### Ví dụ {#alg-iii-s9-n5-exa-1 .statement}
+#### Ví dụ {#alg-iii-s9-n5-exa-1 .statement tag=0665}
 
 (1) Nếu A là một đại số bậc hai kiểu $(\alpha, \beta)$ trên K, thì (theo ký hiệu của § 2, no. 3) $\operatorname{Tr}(e_1) = 2, \operatorname{Tr}(e_2) = \beta$,
 

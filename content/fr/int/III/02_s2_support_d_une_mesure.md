@@ -32,7 +32,7 @@ subsections:
       pdf_page: 77
 statements: 29
 exercises: 5
-content_sha256: 0e54dd5706aa9008f2efb2680634484083edcb74eb8ce0ee657e8f77c178fcd2
+content_sha256: 15430f2ace06c27c59f8e5e10af57e602b1ee5ff89d2600516781b9b9b7d5dfa
 ---
 
 ## § 2. Support d’une mesure
@@ -55,7 +55,7 @@ est une mesure sur $Y$, car toute fonction de $\mathscr{K}(Y; \mathbf{C})$ est n
 
 On a toutefois la proposition suivante :
 
-#### Proposition 1 {#int-iii-s2-prop-1 .statement}
+#### Proposition 1 {#int-iii-s2-prop-1 .statement tag=08MR}
 
 *Soit* $(Y_\alpha)_{\alpha \in A}$ *un recouvrement ouvert de* $X$, *et supposons donnée, sur chaque sous-espace* $Y_\alpha$, *une mesure* $\mu_\alpha$, *de sorte que pour tout couple* $(\alpha, \beta)$, *les restrictions de* $\mu_\alpha$ *et de* $\mu_\beta$ *à* $Y_\alpha \cap Y_\beta$ *soient identiques. Dans ces conditions, il existe une mesure* $\mu$ *et une seule sur* $X$ *dont la restriction à* $Y_\alpha$ *soit égale à* $\mu_\alpha$ *pour tout indice* $\alpha$.
 
@@ -92,7 +92,7 @@ Mais comme le support de $f g_i h_j$ est contenu dans $Y_{\alpha_i} \cap Y_{\bet
 
 Il reste à voir que $\mu$ est une mesure sur $X$; or, tout point de $X$ admet un voisinage compact contenu dans un des $Y_\alpha$; la conclusion résulte donc aussitôt de la définition de $\mu$ et de la prop. 6 du n° 3 du § 1.
 
-#### Corollaire (principe de localisation) {#int-iii-s2-n1-cor-1 .statement}
+#### Corollaire (principe de localisation) {#int-iii-s2-n1-cor-1 .statement tag=08MS}
 
 Soient $\mu$ et $\nu$ deux mesures sur $X$, et soit $(Y_\alpha)$ une famille d’ensembles ouverts de $X$ telle que, pour tout $\alpha$, les restrictions à $Y_\alpha$ de $\mu$ et $\nu$ soient égales; alors les restrictions de $\mu$ et $\nu$ à $Y = \bigcup_\alpha Y_\alpha$ sont égales.
 
@@ -100,25 +100,25 @@ Soient $\mu$ et $\nu$ deux mesures sur $X$, et soit $(Y_\alpha)$ une famille d�
 
 Soit $\mu$ une mesure sur un espace localement compact $X$, et soit $\mathscr{G}$ l’ensemble des ensembles ouverts $U \subset X$ tels que la restriction de $\mu$ à $U$ soit nulle; il résulte aussitôt du principe de localisation (n° 1, cor. de la prop. 1) que, si $U_0$ est la réunion des ensembles $U \in \mathscr{G}$, $U_0$ appartient lui-même à $\mathscr{G}$, et est par suite le plus grand des ensembles de $\mathscr{G}$.
 
-#### Définition 1 {#int-iii-s2-def-1 .statement}
+#### Définition 1 {#int-iii-s2-def-1 .statement tag=08MT}
 
 On appelle support d’une mesure $\mu$ sur un espace localement compact $X$ et on note $\operatorname{Supp}(\mu)$ l’ensemble fermé complémentaire du plus grand des ensembles ouverts de $X$ dans lesquels la restriction de $\mu$ est nulle.
 
 Dire qu’un point $x \in X$ n’appartient pas au support de $\mu$ signifie qu’il existe un voisinage ouvert $V$ de $x$ tel que la restriction de $\mu$ à V soit nulle ; dire que $x$ appartient au support de $\mu$ signifie donc que pour tout voisinage $V$ de $x$, il existe une fonction $f \in \mathscr{H}(X; \mathbf{C})$, dont le support est contenu dans $V$, et qui est telle que $\mu(f) \neq 0$.
 
-#### Exemple 1 {#int-iii-s2-n2-exa-1 .statement}
+#### Exemple 1 {#int-iii-s2-n2-exa-1 .statement tag=08MU}
 
 Pour qu’une mesure sur $X$ soit *nulle*, il faut et il suffit que son support soit *vide*.
 
-#### Exemple 2 {#int-iii-s2-n2-exa-2 .statement}
+#### Exemple 2 {#int-iii-s2-n2-exa-2 .statement tag=0E5Z}
 
 Le support de la mesure de Lebesgue sur $\mathbf{R}$ est la droite $\mathbf{R}$ tout entière ; en effet, il n’est pas vide et est invariant par toute translation.
 
-#### Exemple 3 {#int-iii-s2-n2-exa-3 .statement}
+#### Exemple 3 {#int-iii-s2-n2-exa-3 .statement tag=0E60}
 
 Sur l’intervalle $X = \{0, 1\}$ de $\mathbf{R}$, considérons un ensemble dénombrable partout dense, rangé en une suite $(a_n)$, et soit $\mu$ la mesure définie par la masse $2^{-n}$ placée au point $a_n$ pour tout $n \geq 0$ (§ 1, n° 3, Exemple 1). Le support de $\mu$ est $X$ tout entier ; en effet, soient $x$ un point quelconque de $X$, $V$ un voisinage de $x$, $f$ une fonction numérique continue et $> 0$ dans $X$, égale à 1 au point $x$, et dont le support est contenu dans $V$ (§ 1, n° 2, lemme 1) ; l’ensemble des $y \in V$ tels que $f(y) > 0$ est ouvert dans $X$, donc contient un point $a_n$, et par suite $\mu(f) \geq f(a_n)2^{-n} > 0$.
 
-#### Proposition 2 {#int-iii-s2-prop-2 .statement}
+#### Proposition 2 {#int-iii-s2-prop-2 .statement tag=08MV}
 
 *Le support d’une mesure $\mu$ est identique au support de la mesure $|\mu|$ ; si $\mu$ est réelle, son support est réunion des supports des mesures $\mu^+$ et $\mu^-$*.
 
@@ -126,13 +126,13 @@ En effet, si la restriction de $\mu$ à un ouvert $U$ est nulle, il en est de m�
 
 On notera que les supports de $\mu^+$ et $\mu^-$ peuvent être non vides et *identiques* (cf. chap. V, § 5, exerc. 6).
 
-#### Proposition 3 {#int-iii-s2-prop-3 .statement}
+#### Proposition 3 {#int-iii-s2-prop-3 .statement tag=08MW}
 
 *Si $\mu$ et $\nu$ sont deux mesures sur un espace localement compact $X$, telles que $|\mu| \leq |\nu|$, on a $\mathrm{Supp}(\mu) \subset \mathrm{Supp}(\nu)$*.
 
 En effet, si la restriction de $\nu$ à un ensemble ouvert est nulle, il en est de même de celle de $\mu$.
 
-#### Proposition 4 {#int-iii-s2-prop-4 .statement}
+#### Proposition 4 {#int-iii-s2-prop-4 .statement tag=08MX}
 
 *Le support de la somme de deux mesures est contenu dans la réunion de leurs supports*.
 
@@ -144,13 +144,13 @@ $$
 \lambda(f) = \mu(f) + \nu(f) > 0.
 $$
 
-#### Proposition 5 {#int-iii-s2-prop-5 .statement}
+#### Proposition 5 {#int-iii-s2-prop-5 .statement tag=08MY}
 
 Le support de la restriction d’une mesure $\mu$ à un ensemble ouvert $U$ est la trace sur $U$ du support de $\mu$.
 
 La proposition est évidente à partir des définitions.
 
-#### Proposition 6 {#int-iii-s2-prop-6 .statement}
+#### Proposition 6 {#int-iii-s2-prop-6 .statement tag=08MZ}
 
 L’ensemble des mesures sur un espace localement compact $X$, dont le support est contenu dans un ensemble fermé $F$, est un sous-espace vectoriel vaguement fermé de $\mathscr{M}(X; \mathbf{C})$.
 
@@ -158,7 +158,7 @@ En effet, c’est l’intersection des hyperplans vaguement fermés d’équatio
 
 Supposons $X$ non compact : étant donné un filtre $\Phi$ sur l’espace $\mathscr{M}(X; \mathbf{C})$ des mesures sur $X$, nous dirons que le support d’une mesure $\mu$ s’éloigne indéfiniment suivant $\Phi$ si, pour toute partie compacte $K$ de $X$, il existe un ensemble $M \in \Phi$ tel que, pour toute mesure $\mu \in M$, on ait $\operatorname{Supp}(\mu) \cap K = \emptyset$.
 
-#### Proposition 7 {#int-iii-s2-prop-7 .statement}
+#### Proposition 7 {#int-iii-s2-prop-7 .statement tag=08N0}
 
 Si $\Phi$ est un filtre sur $\mathscr{M}(X; \mathbf{C})$ tel que le support de $\mu$ s’éloigne indéfiniment suivant $\Phi$, $\mu$ converge vaguement vers 0 suivant $\Phi$.
 
@@ -168,7 +168,7 @@ En effet, soit $f$ une fonction quelconque de $\mathscr{K}(X; \mathbf{C})$, et s
 
 Par définition, si le support d’une fonction $f \in \mathscr{K}(X; \mathbf{C})$ ne rencontre pas le support d’une mesure $\mu$, on a $\mu(f) = 0$; mais on a la propriété plus précise suivante:
 
-#### Proposition 8 {#int-iii-s2-prop-8 .statement}
+#### Proposition 8 {#int-iii-s2-prop-8 .statement tag=08N1}
 
 Soit $\mu$ une mesure sur un espace localement compact $X$. Pour toute fonction $f \in \mathscr{K}(X; \mathbf{C})$ qui est nulle dans $\operatorname{Supp}(\mu)$, on a $\mu(f) = 0$.
 
@@ -178,11 +178,11 @@ $$
 $$
 et par suite $|\mu(f)| = |\mu(f - fh)| \leq 2M_K \varepsilon$; comme $\varepsilon$ est arbitraire, on a $\mu(f) = 0$.
 
-#### Corollaire 1 {#int-iii-s2-prop-8-cor-1 .statement}
+#### Corollaire 1 {#int-iii-s2-prop-8-cor-1 .statement tag=08N2}
 
 *Si deux fonctions $f, g$ de $\mathscr{K}(X; \mathbf{C})$ sont égales dans $\mathrm{Supp}\ (\mu)$, on a $\mu(f) = \mu(g)$.*
 
-#### Corollaire 2 {#int-iii-s2-prop-8-cor-2 .statement}
+#### Corollaire 2 {#int-iii-s2-prop-8-cor-2 .statement tag=08N3}
 
 *Soit $\mu$ une mesure positive sur $X$; si
 $$
@@ -191,7 +191,7 @@ $$
 est telle que $f(x) \geq 0$ dans $\mathrm{Supp}\ (\mu)$, on a $\mu(f) \geq 0$.
 En effet, on a $f = |f|$ dans $S$, donc $\mu(f) = \mu(|f|) \geq 0$ par le cor. 1.*
 
-#### Corollaire 3 {#int-iii-s2-prop-8-cor-3 .statement}
+#### Corollaire 3 {#int-iii-s2-prop-8-cor-3 .statement tag=08N4}
 
 *Soit $\mu$ une mesure bornée sur $X$; si $f \in \mathscr{K}(X; \mathbf{C})$ est telle que $|f(x)| \leq a$ dans $\mathrm{Supp}\ (\mu)$, on a $|\mu(f)| \leq a \|\mu\|$.
 En effet, on a $\mathrm{Supp}\ (|\mu|) = \mathrm{Supp}\ (\mu)$, et si $h$ est une application continue de $X$ dans $\{0, 1\}$ égale à 1 dans $\mathrm{Supp}\ (f)$ et à support compact, on a $|f(x)| \leq ah(x)$ dans $\mathrm{Supp}\ (\mu)$, donc
@@ -200,12 +200,12 @@ $$
 $$
 en vertu du cor. 2; la conclusion résulte alors de la formule (13) du n° 6.*
 
-#### Proposition 9 {#int-iii-s2-prop-9 .statement}
+#### Proposition 9 {#int-iii-s2-prop-9 .statement tag=08N5}
 
 *Soit $\mu$ une mesure positive sur $X$; si $f$ est une fonction de $\mathscr{K}_+(X)$ telle que $\mu(f) = 0$, $f$ est nulle dans $\mathrm{Supp}\ (\mu)$.
 Soit $x$ un point de $X$ tel que $f(x) > 0$; montrons que $x$ n’appartient pas à $\mathrm{Supp}(\mu)$. En effet, il existe alors un voisinage compact $V$ de $x$ et un nombre $a > 0$ tels que $f(y) \geq a$ dans $V$. Soit alors $g$ une fonction continue $\geq 0$ à support dans $V$, et montrons que $\mu(g) = 0$; en effet, si l’on pose $b = \|g\|$, on a $g \leq bf/a$, d’où $\mu(g) \leq b\mu(f)/a = 0$.*
 
-#### Proposition 10 {#int-iii-s2-prop-10 .statement}
+#### Proposition 10 {#int-iii-s2-prop-10 .statement tag=08N6}
 
 *Soit $\mu$ une mesure sur un espace localement compact $X$; pour toute fonction $g \in \mathscr{C}(X; \mathbf{C})$, le support de la mesure $g.\mu$ est l’adhérence $T$ de l’ensemble des points $x \in \mathrm{Supp}\ (\mu)$ tels que $g(x) \neq 0$.*
 
@@ -215,11 +215,11 @@ Inversement, supposons que la restriction de $g.\mu$ à un voisinage ouvert $W$ 
 
 On notera que $T$ est contenu dans l’intersection du support $S$ de $\mu$ et du support de $g$, sans être nécessairement égal à cette intersection. Par exemple, si $X = \mathbf{R}$, si $\mu$ est la mesure de Dirac au point 0 et si $g(x) = x$, on a $g.\mu = 0$ bien que l’intersection des supports de $g$ et de $\mu$ soit réduite au point 0, donc non vide.
 
-#### Corollaire {#int-iii-s2-n3-cor-1 .statement}
+#### Corollaire {#int-iii-s2-n3-cor-1 .statement tag=08N7}
 
 Pour que la mesure $g.\mu$ soit nulle, il faut et il suffit que $g$ soit nulle dans le support de $\mu$.
 
-#### Proposition 11 {#int-iii-s2-prop-11 .statement}
+#### Proposition 11 {#int-iii-s2-prop-11 .statement tag=08N8}
 
 Toute mesure à support compact est bornée.
 
@@ -227,7 +227,7 @@ En effet, $|\mu|$ est aussi une mesure à support compact, donc on peut se borne
 
 ### 4. Mesures ponctuelles. Mesures à support fini
 
-#### Proposition 12 {#int-iii-s2-prop-12 .statement}
+#### Proposition 12 {#int-iii-s2-prop-12 .statement tag=08N9}
 
 Soient $a_i$ ($1 \leq i \leq n$) des points distincts dans un espace localement compact $X$. Toute mesure sur $X$ dont le support est contenu dans l’ensemble des $a_i$ est une combinaison linéaire des mesures $\varepsilon_{a_i}$ ($1 \leq i \leq n$).
 
@@ -235,13 +235,13 @@ En effet, une telle mesure $\mu$ est nulle pour toute fonction $f \in \mathscr{K
 
 En particulier, toute mesure dont le support est vide ou réduit à un seul point x est de la forme $\alpha \varepsilon_x$, où $\alpha$ est un nombre complexe; on dit qu’une telle mesure est une mesure ponctuelle; toute mesure dont le support est fini est donc une somme de mesures ponctuelles.
 
-#### Théorème 1 {#int-iii-s2-thm-1 .statement}
+#### Théorème 1 {#int-iii-s2-thm-1 .statement tag=08NA}
 
 Toute mesure $\mu$ sur un espace localement compact $X$ est vaguement adhérente à l’espace vectoriel $V$ des mesures dont le support est fini et contenu dans $\mathrm{Supp}(\mu)$.
 
 Il suffit de prouver que $\mu$ est orthogonale au sous-espace $V^o$ de $\mathscr{K}(X; \mathbf{C})$ orthogonal à $V$ (Esp. vect. top., chap. II, 2e éd., § 6, n° 3, cor. 2 du th. 1), c’est-à-dire que les relations $\langle f, \varepsilon_a \rangle = 0$, où $a$ parcourt le support de $\mu$, entraînent $\langle f, \mu \rangle = 0$; mais cela n’est autre que la prop. 8 du n° 3.
 
-#### Corollaire 1 {#int-iii-s2-thm-1-cor-1 .statement}
+#### Corollaire 1 {#int-iii-s2-thm-1-cor-1 .statement tag=08NB}
 
 Toute mesure bornée $\mu$ sur $X$ est vaguement adhérente à l’ensemble convexe $A$ des mesures dont le support est fini et contenu dans celui de $\mu$, et dont la norme est $\leq \| \mu \|$. En outre, si $v$ tend vaguement vers $\mu$ en restant dans $A$, $\| v \|$ tend vers $\| \mu \|$.
 
@@ -253,7 +253,7 @@ $$
 $$
 puisque la fonction $v \mapsto \| v \|$ est semi-continue inférieurement pour la topologie vague (§ 1, n° 9, cor. 4 de la prop. 15), et la conclusion résulte de ce que $\| v \| \leq \| \mu \|$ pour $v \in A$ par définition.
 
-#### Corollaire 2 {#int-iii-s2-thm-1-cor-2 .statement}
+#### Corollaire 2 {#int-iii-s2-thm-1-cor-2 .statement tag=08NC}
 
 Toute mesure bornée $\mu$ sur $X$ est vaguement adhérente à l’ensemble des mesures dont le support est fini et contenu dans celui de $\mu$ et dont la norme est égale à $\| \mu \|$.
 
@@ -263,19 +263,19 @@ $$
 \|\mu\| \geq \|v_0\| \geq (1 - \varepsilon)\|\mu\|. \text{ Si l'on pose } v = (\|\mu\|/\|v_0\|)v_0, \text{ on a } \|v\| = \|\mu\|, \text{ et } \|v - v_0\| \leq \|\mu\|; \text{ dès que } \varepsilon \text{ est assez petit, on a donc } v - \mu \in V + V, \text{ d'où la conclusion.}
 $$
 
-#### Corollaire 3 {#int-iii-s2-thm-1-cor-3 .statement}
+#### Corollaire 3 {#int-iii-s2-thm-1-cor-3 .statement tag=08ND}
 
 *Toute mesure bornée positive* $\mu$ *sur* $X$ *est vaguement adhérente à l’ensemble convexe des mesures positives dont le support est fini et contenu dans celui de* $\mu$, *et dont la norme est égale à* $\|\mu\|$.
 
 Le même raisonnement que dans le cor. 2 montre qu’on peut se borner à prouver que $\mu$ est vaguement adhérente à l’ensemble convexe $B$ formé des mesures positives de support fini contenu dans $\mathrm{Supp}(\mu)$ et de norme $\leq \|\mu\|$. Il suffit encore d’établir que $\mu$ appartient à l’ensemble polaire de l’ensemble $B^0$, polaire de $B$ *dans* $\mathscr{K}(X; \mathbf{R})$ (*Esp. vect. top.*, chap. II, 2e éd., § 6, n° 3, th. 1); mais cela signifie que pour $f \in \mathscr{K}(X; \mathbf{R})$ les relations $\langle f, \varepsilon_a \rangle \leq 1/\|\mu\|$ pour tout $a \in \mathrm{Supp}(\mu)$ entraînent $\langle f, \mu \rangle \leq 1$, ce qui est une conséquence du n° 3, cor. 2 de la prop. 8.
 
-#### Corollaire 4 {#int-iii-s2-thm-1-cor-4 .statement}
+#### Corollaire 4 {#int-iii-s2-thm-1-cor-4 .statement tag=08NE}
 
 *Dans l’espace* $\mathscr{M}(X; \mathbf{C})$, *l’ensemble des mesures ponctuelles est total pour la topologie de la convergence strictement compacte* (§ 1, n° 10).
 
 En effet, sur le cône $\mathscr{M}_+(X)$, la topologie de la convergence strictement compacte est identique à la topologie vague (§ 1, n° 10, prop. 18), et toute mesure sur $X$ s’écrit $\mu_1 - \mu_2 + i\mu_3 - i\mu_4$, où les $\mu_j$ ($1 \leq j \leq 4$) sont des mesures positives; la conclusion résulte donc du th. 1.
 
-#### Proposition 13 {#int-iii-s2-prop-13 .statement}
+#### Proposition 13 {#int-iii-s2-prop-13 .statement tag=08NF}
 
 *Soit* $\mu$ *une mesure sur un espace localement compact* $X$. *Pour qu’un point* $x_0$ *appartienne à* $\mathrm{Supp}(\mu)$, *il faut et il suffit que la mesure ponctuelle* $\varepsilon_{x_0}$ *soit vaguement adhérente à l’ensemble des mesures* $g.\mu$, *où* $g$ *parcourt l’ensemble des fonctions continues à support compact telles que* $\|g.\mu\| \leq 1$.
 
@@ -303,7 +303,7 @@ $$
 \| g \cdot \mu \| = \| (g_0 h) \cdot \mu \| \leq \| g_0 \cdot \mu \| = 1.
 $$
 
-#### Corollaire {#int-iii-s2-n4-cor-1 .statement}
+#### Corollaire {#int-iii-s2-n4-cor-1 .statement tag=08NG}
 
 Soit $\mu$ une mesure sur X. Pour qu’une mesure $\nu$ sur X soit vaguement adhérente à l’ensemble des mesures $g \cdot \mu$, où $g$ parcourt $\mathscr{K}(X; \mathbf{C})$, il faut et il suffit que $\mathrm{Supp}(\nu) \subset \mathrm{Supp}(\mu)$.
 
@@ -311,7 +311,7 @@ En effet, $\mathrm{Supp}(g \cdot \mu) \subset \mathrm{Supp}(\mu)$ en vertu du n�
 
 ### 5. Mesures discrètes
 
-#### Proposition 14 {#int-iii-s2-prop-14 .statement}
+#### Proposition 14 {#int-iii-s2-prop-14 .statement tag=08NH}
 
 Pour qu’une mesure $\mu$ sur un espace localement compact X soit une mesure discrète (§ 1, n° 3, Exemple 1), il faut et il suffit que $\mathrm{Supp}(\mu)$ soit un sous-espace fermé discret de X.
 

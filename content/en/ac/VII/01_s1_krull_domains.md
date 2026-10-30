@@ -53,14 +53,14 @@ subsections:
       pdf_page: 507
 statements: 41
 exercises: 32
-content_sha256: 6b7972d8e378eddd7fd22bebff59ee438915cf2f7a89a11b5050d0be4189077f
+content_sha256: c7f552328385d94715aa4fc98b5c4522cc8ad73080a081dd41bebfb79b236ea5
 ---
 
 ## 1. KRULL DOMAINS
 
 ### 1. DMSORIAL IDEALS OF AN INTEGRAL DOMAIN
 
-#### Definition 1 {#ac-vii-s1-def-1 .statement}
+#### Definition 1 {#ac-vii-s1-def-1 .statement tag=04YL}
 
 Let $A$ be an integral domain and $K$ its field of fractions. Every sub-A-module $a$ of $K$ such that there exists an element $d \neq 0$ in $A$ for which $da \subset A$ is called a fractional ideal $\mathfrak{d}$ of $A$ (or of $K$, by an abuse of language).
 
@@ -70,7 +70,7 @@ We denote by $I(A)$ the set of non-zero fractional ideals of $A$. Given two elem
 
 For all $a \in I(A)$ there exists by hypothesis some $d \neq 0$ in A such that $a \subset Ad - 1$; the intersection $\tilde{a}$ of the fractional principal ideals containing a is therefore an element of I(A). Clearly the relation $a \prec b$ is equivalent to the relation $\tilde{a} \supset 6$; the relation $a \supset b$ therefore implies $a \prec b$. For two elements $a, b$ of I(A) to be equivalent modulo R, it is necessary and sufficient that $\tilde{a} = 6$.
 
-#### Definition 2 {#ac-vii-s1-def-2 .statement}
+#### Definition 2 {#ac-vii-s1-def-2 .statement tag=04YM}
 
 *Every element a of I(A) such that $a = \tilde{a}$ is called a divisorial fractional ideal of A.*
 
@@ -84,7 +84,7 @@ $$
 (1) \quad b : a = \bigcap_{x \in a, x \neq 0} b x^{-1}.
 $$
 
-#### Proposition 1 {#ac-vii-s1-prop-1 .statement}
+#### Proposition 1 {#ac-vii-s1-prop-1 .statement tag=04YN}
 
 (a) *If b is a divisorial ideal and $a \in I(A)$, $b : a$ is divisorial.*
 
@@ -103,11 +103,11 @@ $$
 Therefore $A : a = A : (A : (A : a))$ and it follows from (b) that $\operatorname{div} a = \operatorname{div}(A : (A : a))$
 As $A : (A : a)$ is divisorial by (a), certainly $6 = A : (A : a)$, which proves (c).
 
-#### Remark {#ac-vii-s1-n1-rem-1 .statement}
+#### Remark {#ac-vii-s1-n1-rem-1 .statement tag=04YO}
 
 In the course of the above proof it has been proved that $A : a = A : (A : (A : a))$ for every ideal $a \in I(A)$, which is a special case of *Set Theory*, Chapter 111, § 1, no. 5, Proposition 2.
 
-#### Proposition 2 {#ac-vii-s1-prop-2 .statement}
+#### Proposition 2 {#ac-vii-s1-prop-2 .statement tag=04YP}
 
 (i) *In $D(A)$ every non-empty set bounded above admits a least upper bound. More precisely, if $(a_i)$ is a non-empty family of elements of $I(A)$ which is bounded above, then*
 $$
@@ -125,7 +125,7 @@ Now let $(6_i)$ be a non-empty family of elements of $I(A)$ which is bounded bel
 
 Finally, to prove (iii) it is sufficient by (i) and (ii) to prove that, if $a, b$ are in $I(A)$, the set $\{a, b\}$ is bounded both above and below in $I(A)$; now it is bounded above by $a \cap b$ (which is distinct from $(0)$). It is bounded below by $a + b$, for $a + b \in I(A)$: if $d$ and $d'$ are non-zero elements of $A$ such that $da \subset A$ and $d'b \subset A$, then $dd'(a + b) \subset A$.
 
-#### Corollary {#ac-vii-s1-n1-cor-1 .statement}
+#### Corollary {#ac-vii-s1-n1-cor-1 .statement tag=04YQ}
 
 *If $x, y$ and $x + y$ are in $K^*$, then $\operatorname{div}(x + y) \geq \inf(\operatorname{div}(x), \operatorname{div}(y))$.*
 
@@ -133,7 +133,7 @@ $A(x + y) \subset Ax + Ay$ and hence $\operatorname{div}(x + y) \geq \operatorna
 
 ### 2. THE MONOID STRUCTURE ON D(A)
 
-#### Proposition 3 {#ac-vii-s1-prop-3 .statement}
+#### Proposition 3 {#ac-vii-s1-prop-3 .statement tag=04YR}
 
 Let $a, a', b, b'$ be elements of $I(A)$. The relations $a > a'$ and $b > b'$ imply $ab > a'b'$.
 
@@ -160,7 +160,7 @@ For two elements $x, y$ of $K^*$, the relation $\text{div}(x) = \text{div}(y)$ i
 
 is therefore an equivalence relation since the relation $P = Q + \text{div}(x)$ is equivalent to $Q = P + \text{div}(x^{-1})$; if $P$ and $Q$ are congruent modulo $S$, they are called *equivalent divisors* of $A$. Clearly moreover the relation $S$ is compatible with the law of the monoid $D(A)$ and the latter therefore defines, by taking quotients, a monoid structure on $D(A)/S$; this monoid is called the *divisor class monoid of A*.
 
-#### Proposition 4 {#ac-vii-s1-prop-4 .statement}
+#### Proposition 4 {#ac-vii-s1-prop-4 .statement tag=04YS}
 
 Let $a, b$ be two divisorial fractional ideals of $A$. The following properties are equivalent:
 (a) $\text{div } a$ and $\text{div } b$ are equivalent divisors;
@@ -170,7 +170,7 @@ If $\operatorname{div} b = \operatorname{div} a + \operatorname{div}(x)$ for som
 
 Let $a$ be an invertible fractional ideal (Chapter II, § 5, no. 6); then $a = A : (A : a)$ (*loc. cit.*, Proposition 10) and hence $a$ is *divisorial* (no. 1, Proposition 1). The group $J(A)$ of invertible fractional ideals is therefore identified with a subgroup of the monoid $D(A)$ and the canonical image of $J(A)$ in $D(A)/S$ with the group of classes of *projective* $A$-modules of *rank* 1 (Chapter II, § 5, no. 7, Corollary 2 to Proposition 12 and *Remark* 1).
 
-#### Theorem 1 {#ac-vii-s1-thm-1 .statement}
+#### Theorem 1 {#ac-vii-s1-thm-1 .statement tag=04YT}
 
 *Let $A$ be an integral domain. For the monoid $D(A)$ of divisors of $A$ to be a group, it is necessary and sufficient that $A$ be completely integrally closed.*
 
@@ -180,7 +180,7 @@ Conversely, suppose that $A$ is completely integrally closed. Let $a$ be a divis
 
 Note that, if $A$ is completely integrally closed (and even Noetherian), a divisorial ideal of $A$ is not necessarily invertible, in other words, in general $J(A) \neq D(A)$ (Exercise 2 and § 3, no. 2, Proposition 1).
 
-#### Corollary {#ac-vii-s1-n2-cor-1 .statement}
+#### Corollary {#ac-vii-s1-n2-cor-1 .statement tag=04YU}
 
 *Let $A$ be a completely integrally closed domain and $a$ a divisorial fractional ideal of $A$. Then, for every fractional ideal $b \neq 0$ of $A$, $\operatorname{div}(a : b) = \operatorname{div} a - \operatorname{div} b$*
 
@@ -199,7 +199,7 @@ $$
 
 ### 3. KRULL DOMAINS
 
-#### Definition 3 {#ac-vii-s1-def-3 .statement}
+#### Definition 3 {#ac-vii-s1-def-3 .statement tag=04YV}
 
 A n integral domain $A$ is called a Krull domain if there exists a family $(v_i)_{i \in I}$ of valuations on the field of fractions $K$ of $A$ with the following properties:
 (AK$_I$) the valuations $v_i$ are discrete;
@@ -214,7 +214,7 @@ Examples
 (3) Let $F$ be a field and $(R_i)_{1 \leq i \leq n}$ a finite family of subrings of $F$ which are Krull domains. Then their intersection $S = \bigcap_{j=1}^n R_j$, is a Krull domain. For $1 \leq j \leq n$ let $(v_{j,t})_{t \in I_j}$ be a family of valuations on the field of fractions of $R_j$, satisfying (AK$_I$), (AK$_{II}$), (AK$_{III}$) (where $A$ is replaced by $R_j$). Let $w_{j,t}$ denote the restriction of $v_{j,t}$ to the field of fractionsof $S$. Then the family $(v_{j,t})_{1 \leq j \leq n, t \in I_j}$ obviously satisfies (AK$_{II}$) (where $A$ is replaced by $S$) and also (AK$_{III}$) since the set of indices$j$ is finite. The valuations $w_{j,t}$ are either discrete or improper. By retaining only those which are discrete, a family is obtained which obviously satisfies (AK$_I$), (AK$_{II}$) and (AK$_{,,}$) (where $A$ is replaced by $S$). Hence $S$ is certainly a Krull domain.
 (4) In particular, if $A$ is a Krull domain and $K'$ a subfield of the field of fractions $K$ of $A$, $K' \cap A$ is a Krull domain.
 
-#### Theorem 2 {#ac-vii-s1-thm-2 .statement}
+#### Theorem 2 {#ac-vii-s1-thm-2 .statement tag=04YW}
 
 Let $A$ be an integral domain. For $A$ to be a Krull domain, it is necessary and sufficient that the twofollowing conditions be satisfied:
 (a) $A$ is completely integrally closed;
@@ -247,7 +247,7 @@ There exist $x, y$ in $K^*$ such that $Ax \subset a \subset Ay$. By properties (
 
 We have therefore shown the following lemma:
 
-#### Lemma 1 {#ac-vii-s1-lem-1 .statement}
+#### Lemma 1 {#ac-vii-s1-lem-1 .statement tag=04YX}
 
 *If $A$ is a Krull domain and $(v_t)_t$, is a family of normed valuations on $K$ satisfying (AK$_I$), (AK$_{II}$) and (AK$_{III}$), the mapping $a \mapsto (v_t(a))_{t \in I}$ is a decreasing injective mapping of the set of divisorial integer ideals of $A$ (ordered by $\subset$) to the set of positive elements & the ordered group the direct sum $\mathbf{Z}^{(I)}$.*
 
@@ -277,7 +277,7 @@ $$
 
 for $x, y$ and $x + y$ in $K^*$, we deduce that the $v_P$ are *discrete valuations* on $K$. In order that $x \in A$, it is necessary and sufficient that $\text{div}(x) \geq 0$, that is that $v_P(x) \geq 0$ for all $P \in P(A)$. Thus the $v_P$ satisfy conditions (AK$_1$) and (AK$_{11}$) and obviously also (AK$_{III}$).
 
-#### Corollary {#ac-vii-s1-n3-cor-1 .statement}
+#### Corollary {#ac-vii-s1-n3-cor-1 .statement tag=04YY}
 
 *For a Noetherian ring to be a Krull domain, it is necessary and sufficient that it be an integrally closed domain.*
 
@@ -291,37 +291,37 @@ Let $A$ be a Krull domain and $K$ its field of fractions. The valuations defined
 
 We have remarked in the course of the proof of Theorem 2 that the valuations $v_P$ satisfy properties (AK$_1$), (AK$_2$) and (AK$_{III}$) of Definition 3. Moreover, these discrete valuations $v_P$ are *normed*: for every extremal divisor $P \in P(A)$, $P < 2P$ and hence, if $a$ and $b$ are the divisorial ideals corresponding to $P$ and $2P$, then $a \supseteq b$ and $a \neq b$; for $x \in a - b$, $\text{div}(x) \geq P$ and $\text{div}(x) \not\geq 2P$, whence $v_P(x) = 1$, which proves our assertion.
 
-#### Proposition 5 {#ac-vii-s1-prop-5 .statement}
+#### Proposition 5 {#ac-vii-s1-prop-5 .statement tag=04YZ}
 
 *Let $A$ be a Krull domain, $K$ its field of fractions and $(v_P)_{P \in P(A)}$ the family of its essential valuations. Let $(n_P)_{P \in P(A)}$ be a family of rational integers which are zero except for a finite number of indices. Then the set of $x \in K$ such that $v_P(x) \geq n_P$ for all $P \in P(A)$ is the divisorial ideal $a$ of $A$ such that $\text{div } a = \sum_{P \in P(A)} n_P \cdot P$.*
 
 Let $x \in K^*$. In order that $x \in a$, it is necessary and sufficient that $Ax \subset a$, hence that $\text{div}(x) \geq \text{div } a$ and hence, by (4), that $v_P(x) \geq n_P$ for all $P \in P(A)$.
 
-#### Proposition 6 {#ac-vii-s1-prop-6 .statement}
+#### Proposition 6 {#ac-vii-s1-prop-6 .statement tag=04Z0}
 
 Let $A$ be a Krull domain, $K$ its field of fractions, $(v_t)_{t \in I}$ a family of valuations on $K$ with the properties of Definition 3 and $A$, the ring of $v_t$. Let $S$ be a multiplicative subset of $A$ not containing $0$ and $J$ the set of indices $t \in I$ such that $v_t$ is zero on $S$. Then $S^{-1}A = \bigcap_{t \in J} A_t$; in particular $S^{-1}A$ is a Krull domain.
 
 We write $B = \bigcap_{t \in J} A_t$. Then $S^{-1} \subset B$ and $A \subset B$ and hence $S^{-1}A \subset B$. Conversely, let $x \in B$. Let $J'$ denote the finite set of indices $t$ such that $v_t(x) < 0$. If $t \in J'$, then $x \notin A_t$, hence $t \notin J$ and hence there exists $s_t \in S$ such that $v_t(s_t) > 0$. Let $n(t)$ be an integer $> 0$ such that $v_t(s_t^{n(t)}x) \geq 0$; we write $s = \prod_{t \in J'} s_t^{n(t)}$. Then $v_t(sx) \geq 0$ for all $t \in I$ and hence $sx \in A$ and $x \in S^{-1}A$. Thus $B = S^{-1}A$.
 
-#### Corollary 1 {#ac-vii-s1-prop-6-cor-1 .statement}
+#### Corollary 1 {#ac-vii-s1-prop-6-cor-1 .statement tag=04Z1}
 
 Let $P$ be an extremal divisor of $A$ and $p$ the corresponding divisorial ideal. Then $p$ is prime, the ring of $v_P$ is $A$, and the residue field of $v_P$ is identified with the field of fractions of $A/p$.
 
 Let $S = A - p$. By Proposition 5, $v_P$ is zero on $S$ and $> 0$ on $p$. Hence $p$ is the intersection of $A$ and the ideal of $v_P$ and is therefore prime. On the other hand, for every extremal divisor $Q \neq P$, $Q \not\subset P$ and hence the divisorial ideal $q$ corresponding to $Q$ is not contained in $p$; thus $q \cap S \neq \varnothing$ and hence, by Proposition 5, $v_Q$ is not zero on $S$. This being so, the corollary follows from Proposition 6 and Chapter II, § 3, no. 1, Proposition 3.
 
-#### Corollary 2 {#ac-vii-s1-prop-6-cor-2 .statement}
+#### Corollary 2 {#ac-vii-s1-prop-6-cor-2 .statement tag=04Z2}
 
 Let $A$ be a Krull domain, $K$ its field of fractions and $(v_t)_{t \in I}$ a family of valuations with the properties of Definition 3. Then every essential valuation of $A$ is equivalent to one of the $v_t$.
 
 Let $P$ be an extremal divisor of $A$ and $p$ the corresponding divisorial ideal. By Corollary 1, Proposition 5, Lemma 1 and assertion (1) in the proof of Theorem 2, no. 3, there exists $t \in I$ such that the ring $A_t$ of $v_t$ contains the ring $A$, of $v_P$. As $v_t$ and $v_P$ are of height 1, they are therefore equivalent (Chapter VI, § 4, no. 5, Proposition 6).
 
-#### Proposition 7 {#ac-vii-s1-prop-7 .statement}
+#### Proposition 7 {#ac-vii-s1-prop-7 .statement tag=04Z3}
 
 Let $A$ be a Krull domain, $(v_P)_{P \in P(A)}$ the family of its essential valuations and $a \in I(A)$. Then the coefficient of $P$ in $\operatorname{div} a$ is $\inf_{y \in a} (v_P(y))$. If $p$ is the divisorial prime ideal corresponding to the extremal divisor $P$, then $aA_p = \tilde{a}A_p$.
 
 As $a = \sum_{y \in a} Ax$, Proposition 2 (b) (no. 1) shows that $\operatorname{div}(a) = \inf_{x \in a} (\operatorname{div}(Ax))$, whence our first assertion. The second follows immediately, since $\operatorname{div} \tilde{a} = \operatorname{div} a$ and $A_p$ is the ring of the discrete valuation $v_P$.
 
-#### Proposition 8 {#ac-vii-s1-prop-8 .statement}
+#### Proposition 8 {#ac-vii-s1-prop-8 .statement tag=04Z4}
 
 Let $A$ be an integrally closed Noetherian domain.
 (a) Let $P$ be an extremal divisor of $A$ and $p$ the corresponding divisorial prime ideal;
@@ -336,13 +336,13 @@ By Corollary 1 to Proposition 6, the relation $x \in p^n A_p = (pA_p)^n$ is equi
 
 As the essential valuations of a Krull domain are discrete and normed, no two of them are equivalent and hence they are independent (Chapter VI, § 7, no. 2). Corollary 2 to the approximation theorem (loc. cit., Theorem 1) may therefore be applied to them: given some $n_i \in \mathbf{Z}$ and some essential valuations $v_i$ finite in number and distinct, there exists $x \in K$ such that $v_i(x) = n_i$ for all $i$. But here there is a more precise result:
 
-#### Proposition 9 {#ac-vii-s1-prop-9 .statement}
+#### Proposition 9 {#ac-vii-s1-prop-9 .statement tag=04Z5}
 
 Let $v_1, \ldots, v_r$ be distinct essential valuations of a Krull domain $A$ and $n_1, \ldots, n_r$ rational integers. There exists an element $x$ of the field of fractions $K$ of $A$ such $v_i(x) = n_i$ for $1 \leq i \leq r$ and $v(x) \geq 0$ for every essential valuation $v$ of $A$ distinct from $v_1, \ldots, v_r$.
 
 Let $p_1, \ldots, p_r$ be the divisorial ideals of $A$ corresponding to the valuations $v_1, \ldots, v_r$. There exists $y \in K$ such that $v_i(y) = n_i$ for $1 \leq i \leq r$ (Chapter VI, § 7, no. 2, Corollary 1 to Theorem 1). The essential valuations $w_1, \ldots, w_s$ of $A$ distinct from the $v_i$ for which the integer $w_j(y) = -m_j$ is $< 0$ are finite in number; let $q_1, \ldots, q_s$ be the corresponding ideals. There exists no inclusion relation between $p_1, \ldots, p_r, q_1, \ldots, q_s$ since these ideals correspond to extremal divisors and these ideals are prime (Corollary 1 to Proposition 6). Hence the integral ideal $a = q_1^{m_1} \ldots q_s^{m_s}$ is contained in none of the $p_i$ (Chapter 11, § 1, no. 1, Proposition 1) and is therefore not contained in their union (loc. cit., Proposition 2). Therefore there exists $z \in a$ such that $z \notin p_i$ for $1 \leq i \leq r$; then $v_1(z) = \cdots = v_r(z) = 0$ and $w_j(z) \geq m_j$ for $1 \leq j \leq s$; hence the element $x = yz$ solves the problem.
 
-#### Corollary 1 {#ac-vii-s1-prop-9-cor-1 .statement}
+#### Corollary 1 {#ac-vii-s1-prop-9-cor-1 .statement tag=04Z6}
 
 Let $\mathbf{A}$ be a Krull domain, $\mathbf{K}$ its field of fractions and $\mathbf{a}, \mathbf{b}$ and $c$ three divisorial fractional ideals of $\mathbf{A}$ such that $\mathbf{a} \subset \mathbf{b}$. There exists $x \in \mathbf{K}$ such that $\mathbf{a} = \mathbf{b} \cap x\mathbf{c}$.
 
@@ -352,7 +352,7 @@ v_t(x^{-1}) + m_t \geq p_t
 $$
 for $t \in I - \mathbf{J}$. Then, for all $t \in I$, $m_t = \sup(n_t, v_t(x) + p_t)$. Whence $\mathbf{a} = \mathbf{b} \cap x\mathbf{c}$.
 
-#### Corollary 2 {#ac-vii-s1-prop-9-cor-2 .statement}
+#### Corollary 2 {#ac-vii-s1-prop-9-cor-2 .statement tag=04Z7}
 
 Let $\mathbf{A}$ be a Krull domain. For a fractional ideal $\mathbf{a}$ of $\mathbf{A}$ to be divisorial, it is necessary and sufficient that it be the intersection of two fractional principal ideals.
 
@@ -360,7 +360,7 @@ The sufficiency is obvious (no. 1, Definition 2). The necessity follows from Cor
 
 ### 6. PRIME IDEALS OF HEIGHT 1 IN A KRULL DOMAIN
 
-#### Definition 4 {#ac-vii-s1-def-4 .statement}
+#### Definition 4 {#ac-vii-s1-def-4 .statement tag=04Z8}
 
 Let $\mathbf{A}$ be an integral domain. A prime ideal $\mathfrak{p}$ of $\mathbf{A}$ is said to be of height 1 if it is minimal among the non-zero prime ideals of $\mathbf{A}$.
 
@@ -368,25 +368,25 @@ We shall also say that the ideal $(0)$ is of height 0; a prime ideal of height $
 
 We shall define below, in a general way, the height of a prime ideal.
 
-#### Theorem 3 {#ac-vii-s1-thm-3 .statement}
+#### Theorem 3 {#ac-vii-s1-thm-3 .statement tag=04Z9}
 
 Let $\mathbf{A}$ be a Krull domain and $\mathfrak{p}$ an integral ideal of $\mathbf{A}$. For $\mathfrak{p}$ to be the divisorial ideal corresponding to an extremal divisor, it is necessary and sufficient that $\mathfrak{p}$ be a prime ideal of height 1.
 
 If $\mathfrak{p}$ is the divisorial ideal corresponding to an extremal divisor, we know (no. 4, Corollary 1 to Proposition 6) that $\mathfrak{p}$ is prime and that $\mathbf{A}_\mathfrak{p}$ is a discrete valuation ring; as $\mathbf{A}_\mathfrak{p}$ has no prime ideals other than $(0)$ and $\mathfrak{p}\mathbf{A}_\mathfrak{p}$, $(0)$ and $\mathfrak{p}$ are the only prime ideals of $\mathbf{A}$ contained in $\mathfrak{p}$ (Chapter II, § 3, no. 1, Proposition 3); hence $\mathfrak{p}$ is of height 1. Conversely, we shall show first that every prime ideal $\mathfrak{p} \neq (0)$ of $\mathbf{A}$ contains a divisorial prime ideal $\mathfrak{q}$ corresponding to an extremal divisor: for, as $\mathbf{A}_\mathfrak{p} \neq K$, $\mathbf{A}_\mathfrak{p}$ is the intersection of a non-empty family $(\mathbf{A}_t)$ of essential valuation rings (no. 4, Proposition 6); each $\mathbf{A}_t$ is of the form $\mathbf{A}_{\mathfrak{q}_t}$ (no. 4, Corollary 1 to Proposition 6) and from $\mathbf{A}_\mathfrak{p} \subset \mathbf{A}_{\mathfrak{q}_t}$ we deduce that $\mathfrak{q}_t \subset \mathfrak{p}$. Thus, if $\mathfrak{p}$ is of height 1, then $\mathfrak{p} = \mathfrak{q}$, which shows that $\mathfrak{p}$ is the divisorial ideal corresponding to an extremal divisor.
 
-#### Corollary 1 {#ac-vii-s1-thm-3-cor-1 .statement}
+#### Corollary 1 {#ac-vii-s1-thm-3-cor-1 .statement tag=04ZA}
 
 In a Krull domain every non-zero prime ideal m contains a prime ideal of height 1. If m is not of height 1, then div m = 0 and A : m = A.
 
 The first assertion has already been seen in the course of the proof of Theorem 3. If m is not of height 1 and p is a prime ideal of height 1 contained in m, then p ⊂ m̃ and p ≠ m̃; as div p is extremal, necessarily div m = div m̃ = 0; hence div(A : m) = 0 and, as A : m is divisorial (no. 1, Proposition 1), A : m = A.
 
-#### Corollary 2 {#ac-vii-s1-thm-3-cor-2 .statement}
+#### Corollary 2 {#ac-vii-s1-thm-3-cor-2 .statement tag=04ZB}
 
 Let A be a Krull domain, K its field of fractions, v a valuation on K which is positive on A and p the set of x ∈ A such that v(x) > 0. If the prime ideal p is of height 1, v is equivalent to an essential valuation of A.
 
 Let B be the ring of v and m its ideal. Then m ∩ A = p and hence A_p ⊂ B. Now A_p is a discrete valuation ring (Theorem 3 and Corollary 1 to Proposition 6). As p ≠ (0), B ≠ K and hence B = A, (Chapter VI, § 4, no. 5, Proposition 6).
 
-#### Theorem 4 {#ac-vii-s1-thm-4 .statement}
+#### Theorem 4 {#ac-vii-s1-thm-4 .statement tag=04ZC}
 
 Let A be an integral domain and M the set of its prime ideals of height 1. For A to be a Krull domain, it is necessary and sufficient that the following Properties are satisfied:
 (i) For all p ∈ M, A, is a discrete valuation ring.
@@ -396,7 +396,7 @@ Moreover, the valuations corresponding to the A_p for p ∈ M are the essential 
 
 The conditions are trivially sufficient. Their necessity follows immediately from Theorem 3 of no. 4, Corollary I to Proposition 6 and the fact that the essential valuations of A satisfy the conditions of Definition 3 of no. 3.
 
-#### Proposition 10 {#ac-vii-s1-prop-10 .statement}
+#### Proposition 10 {#ac-vii-s1-prop-10 .statement tag=04ZD}
 
 Let A be an integrallyclosed Noetherian domain and a an integral ideal of A. The following conditions are equivalent:
 (a) a is divisorial;
@@ -406,7 +406,7 @@ Recall that, if a = $\bigcap^n q_i$ is a reduced primary decomposition of a and 
 
 ### 7. APPLICATION: NEW CHARACTERIZATIONS OF DISCRETE VALUATION RINGS
 
-#### Proposition 11 {#ac-vii-s1-prop-11 .statement}
+#### Proposition 11 {#ac-vii-s1-prop-11 .statement tag=04ZE}
 
 Let $\mathbf{A}$ be a local Krull domain (in particular an integrally closed local Noetherian domain) and $m$ its maximal ideal. The following conditions are equivalent:
 (a) $\mathbf{A}$ is discrete valuation ring;
@@ -419,7 +419,7 @@ As every non-zero ideal of a discrete valuation ring is principal (Chapter VI, �
 
 ### 8. THE INTEGRAL CLOSURE OF A KRULL DOMAIN IN A FINITE EXTENSION OF ITS FIELD OF FRACTIONS
 
-#### Proposition 12 {#ac-vii-s1-prop-12 .statement}
+#### Proposition 12 {#ac-vii-s1-prop-12 .statement tag=04ZF}
 
 Let $\mathbf{A}$ be a Krull domain, $K$ its field of fractions, $K'$ a finite extension of $K$ and $\mathbf{A}'$ the integral closure of $\mathbf{A}$ in $K'$. Then $\mathbf{A}'$ is a Krull domain. The essential valuations of $\mathbf{A}'$ are the normed discrete valuations on $K'$ which are equivalent to the extensions of the essential valuations of $\mathbf{A}$.
 
@@ -429,7 +429,7 @@ where $a_i \in \mathbf{A}$ and $a_s \neq 0$; if $v_i(x) > 0$, then $v_i(a_0) > 0
 
 It remains to show that the $v_i$ are equivalent to essential valuations of $A'$ (no. 4, Corollary 2 to Proposition 6), that is (no. 6, Corollary 2 to Theorem 3) that the prime ideal $p_i$, consisting of the $x \in A'$ such that $v_i(x) > 0$, is of height 1. If this were not so, there would exist a prime ideal $q$ of $A'$ such that $(0) \subset q \subset p_i$ distinct from $(0)$ and $p_i$; then $(0) \subset q \cap A \subset p_i \cap A$ and $q \cap A$ would be distinct from $(0)$ and $p_i \cap A$ (Chapter V, §2, no. 1, Corollary 1 to Proposition 1); the prime ideal $p_i \cap A$ would therefore not be of height 1, which contradicts the fact that it corresponds to an essential valuation of $A$.
 
-#### Corollary {#ac-vii-s1-n8-cor-1 .statement}
+#### Corollary {#ac-vii-s1-n8-cor-1 .statement tag=04ZG}
 
 *Let $p$ (resp. $p'$) be a prime ideal of $A$ (resp. $A'$) of height 1 and $v$ (resp. $u'$) the essential valuation of $A$ (resp. $A'$) corresponding to it. For $p'$ to lie above $p$, it is necessary and sufficient that the restriction of $v'$ to $K$ be equivalent to $v$.*
 
@@ -437,7 +437,7 @@ The valuation $v'$ is equivalent to the extension of an essential valuation $w$ 
 
 ### 9. POLYNOMIAL RINGS OVER A KRULL DOMAIN
 
-#### Proposition 13 {#ac-vii-s1-prop-13 .statement}
+#### Proposition 13 {#ac-vii-s1-prop-13 .statement tag=04ZH}
 
 *Let $A$ be a Krull domain and $X_1, X_n, \ldots, X_n$ indeterminates. The ring $A[X_1, \ldots, X_n]$ is a Krull domain.*
 
@@ -451,7 +451,7 @@ for $\sum_j a_j X^j \in K[X]$ (Chapter VI, §10, no. 1, Lemma 1). Clearly the $u
 
 To show the proposition, it therefore suffices to show that $A[X]$ is the intersection of the rings of the valuations $v_f$ and $\bar{w}$. Now the intersection of the rings of the valuations $v_f$ is $K[X]$. On the other hand, for $\sum_j a_j X^j \in K[X]$, the relation $\bar{w}\left( \sum_j a_j X^j \right) \geq 0$ is equivalent to " $w(a_j) \geq 0$ for all $j$"; hence the relation " $\bar{w}\left( \sum_j a_j X^j \right) \geq 0$ for every valuation $\bar{w}'$" is equivalent to " $w(a_j) \geq 0$ for all $j$ and every essential valuation $w$ of $A$." This proves our assertion.
 
-#### Remark {#ac-vii-s1-n9-rem-1 .statement}
+#### Remark {#ac-vii-s1-n9-rem-1 .statement tag=04ZI}
 
 The valuations $v_f$ and $\bar{w}$ introduced in the proof of Proposition 13 are the essential valuations of $A[X]$. It will be sufficient for us to show that, if $V$ is the set of valuations $v_f$ ($f$ irreducible) and $\bar{w}$ (w essential), then, for all $v' \in V$, there exists an element $g \in K(X)$ which is not in $A[X]$ and such that $v''(g) \geq 0$ for all the valuations $v'' \in V$ distinct from $v'$; this will prove that $V - \{v'\}$ does not satisfy (AK$_{II}$) and the conclusion will follow therefore from no. 4, Corollary 2 to Proposition 6. Suppose first that $v'$ is of the form $\bar{w}$: then we may take $g$ to be an element $b \in K$ such that $w(b) < 0, w'(b) \geq 0$ for the essential valuations $w'$ of $A$ distinct from $w$, for then $v_f(b) = 0$ for every irreducible monic polynomial $f$ in $K[X]$; the existence of an element $b$ satisfying the above conditions follows from no. 5, Proposition 9. Suppose secondly that $v'$ is of the form $v_f$ for an irreducible monic polynomial $f \in K[X]$ of degree $m$; then we may take $g = a/f$ where $a \in A$. For $v_h(g) \geq 0$ for every irreducible monic polynomial $h \neq f$ in $K[X]$; it remains to choose $a \in A$ such that, for every essential valuation $w$ of $A$, $w(a)$ is at least equal to the greatest lower bound of the elements $w(c_i)$, where the $c_i$ are the coefficients of $f$ ($1 \leq i \leq m$); now the existence of such an $a \in A$ follows from (AK$_{III}$) and no. 5, Proposition 9.
 
@@ -465,7 +465,7 @@ The latter are characterized by the fact that their intersection with $A$ is red
 
 Let $A$ be a Krull domain. Recall that the group $D(A)$ of divisors of $A$ is the free commutative group generated by the set $P(A)$ of its extremal elements (no. 3, Theorem 2) and that $P(A)$ is identified with the set of prime ideals of $A$ of height 1 (no. 6); for $p \in P(A)$ we shall denote by $v_p$ the normed essential valuation corresponding to $p$ (no. 4); recall that the ring of $v_p$ is $A_p$ (no. 4, Corollary 1 to Proposition 6). We shall denote by $F(A)$ the subgroup of $D(A)$ consisting of the principal divisors and by $C(A) = D(A)/F(A)$ the divisor class group of $A$ (no. 2).
 
-#### Proposition 14 {#ac-vii-s1-prop-14 .statement}
+#### Proposition 14 {#ac-vii-s1-prop-14 .statement tag=04ZJ}
 
 Let $A$ be a Krull domain and $B$ a Krull domain containing $A$. Suppose that the following condition holds:
 
@@ -519,7 +519,7 @@ The condition (PDE) is fulfilled in the two following cases:
 
 (2) B is aflat A-module. More precisely:
 
-#### Proposition 15 {#ac-vii-s1-prop-15 .statement}
+#### Proposition 15 {#ac-vii-s1-prop-15 .statement tag=04ZK}
 
 Let A and B be Krull domains such that B contains A and is aflat A-module. Then:
 (a) condition (PDE) of Proposition 14 is fulfilled;
@@ -544,19 +544,19 @@ $$
 \end{align*}
 $$
 
-#### Corollary {#ac-vii-s1-n10-cor-1 .statement}
+#### Corollary {#ac-vii-s1-n10-cor-1 .statement tag=04ZL}
 
 Let A be a local Krull domain and B a discrete valuation ring such that B dominates A and is aflat A-module. Then A is a field or a discrete valuation ring.
 
 Let $\mathfrak{m}$ be the maximal ideal of B. By (PDE), $\mathfrak{m} \cap A$ is zero or of height 1. As it is, by hypothesis the maximal ideal of A, our assertion follows from Proposition 11 of no. 7.
 
-#### Remark {#ac-vii-s1-n10-rem-1 .statement}
+#### Remark {#ac-vii-s1-n10-rem-1 .statement tag=04ZM}
 
 In the former of the two above cases, the mapping $i : D(A) \to D(B)$ is injective: as the elements of $P(B)$ form a basis of $D(B)$ and two distinct ideals of $P(A)$ cannot be the traces on A of the same ideal of $P(B)$, it amounts to verifying that $i(p) \neq 0$ for all $p \in P(A)$; now, this follows from Chapter V, § 2, no. 1, Theorem 1. It is similarly seen that, if B is a faithfully flat A-module, $i$ is injective (Chapter II, § 2, no. 5, Corollary 4 to Proposition 11).
 
 In what follows, we propose to study the canonical homomorphism $\tilde{i}$ from $C(A)$ to $C(B)$ for certain ordered pairs of Krull domains A, B.
 
-#### Proposition 16 {#ac-vii-s1-prop-16 .statement}
+#### Proposition 16 {#ac-vii-s1-prop-16 .statement tag=04ZN}
 
 Let A be a Zariski ring such that its completion $\hat{A}$ is a Krull domain. Then A is a Krull domain and the canonical homomorphism $\tilde{i}$ from $C(A)$ to $C(\hat{A})$ (which is defined since A is a flat A-module; cf. Chapter III, § 3, no. 4, Theorem 3) is injective.
 
@@ -572,13 +572,13 @@ for if an element of $D(S^{-1}A)$ is equal to $\operatorname{div}_{S^{-1}A}(x/s)
 
 Suppose now that S is generated by a family of elements $(p_i)_{i \in I}$ of A such that the principal ideals $Ap_i$ are all prime. Then, if $p$ is a prime ideal of A of height 1 such that $p \cap S \neq \varnothing$, $p$ contains a product of powers of the $p_i$, and therefore one of the $p_i$, say $p_\alpha$; as $Ap_\alpha$ is non-zero and prime and $p$ is of height 1, it follows that $p = Ap_\alpha$. In the above notation, therefore $G \subset F(A)$ and (5) shows that the kernel of $\bar{i}$ is zero. We have therefore shown the following result:
 
-#### Proposition 17 {#ac-vii-s1-prop-17 .statement}
+#### Proposition 17 {#ac-vii-s1-prop-17 .statement tag=04ZO}
 
 *Let $A$ be a Krull domain and $S$ a multiplicative subset of $A$ not containing $0$. Then the canonical homomorphism $\bar{i}$ from $C(A)$ to $C(S^{-1}A)$ is surjective. If further $S$ is generated by a family of elements $p_i$ such that the principal ideals $Ap_i$ are all prime, then $\bar{i}$ is bijective.*
 
 As a second application of formula (5), consider the following situation: let $R$ be a Krull domain; take $A$ to be the polynomial ring $A = R[X]$ (no. 9, Proposition 13) and $S$ to be the set $R - (0)$ of non-zero constant polynomials of $A$. The prime ideals $p$ of $A$ of height 1 such that $p \cap S \neq \varnothing$ are those of the form $p_0A$, where $p_0$ is a prime ideal of $R$ of height 1 (no. 9, *Remark*). Hence, in the notation introduced above, $G$ is identified with $D(R)$ by identifying $\mathrm{div}_A(p_0A)$ with $\mathrm{div}_R(p_0)$. On the other hand $G \cap F(A)$ is identified with $F(R)$: for if an ideal $a$, of $R$ generates a principal ideal $a_0A = f(X)A$ in $A = R[X]$, then $f(0) \in a_0A$ since $a_0A$ is a graded ideal of the ring $A$ (graded by the usual degree of polynomials) and hence $f(0) \in a$; further, for $a \in a_0A$, $a = f(X)g(X)$ where $g(X) \in R$, whence, comparing terms of degree 0, $a = f(0)g(0)$; it follows that $a$ is the principal ideal of $R$ generated by $f(0)$. Finally, denoting by $K$ the field of fractions of $R$, $S^{-1}A$ is identified with the polynomials ring $K[X]$, which is a principal ideal domain; hence $C(S^{-1}A) = (0)$. Thus, by (5), $C(A) = \mathrm{Ker}(\bar{i})$ is identified with $C(R)$ and we have proved the following result:
 
-#### Proposition 18 {#ac-vii-s1-prop-18 .statement}
+#### Proposition 18 {#ac-vii-s1-prop-18 .statement tag=04ZP}
 
 *Let $R$ be a Krull domain and $A$ the polynomial ring $R[X]$. The canonical homomorphism of $C(R)$ to $C(R[X])$ is bijective.*
 

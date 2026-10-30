@@ -37,9 +37,9 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: 0cc4a011cf90df70c7c954a5ab2abc7963ad037156c1a1c0793fa4929863d939
+content_sha256: c710c9a8ff1e25d0f1edda09691aaa0c87f205c5204bed44abeecbe280126445
 translated_from: content/en/int/VIII/05_s5_the_space_of_closed_subgroups.md
-source_content_sha256: 01870d0b77fcb1c4a2b7e865b1bb359c7cdf4ab495746a2c27d2b9cb17aef38e
+source_content_sha256: 0d59b39eb609eb19a1cde4e7e71ffe935476923daecf7a76ec5c3f620241a549
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-1ea08f37
 glossary_version: 34
@@ -53,7 +53,7 @@ Trong toàn tiết này, G ký hiệu một nhóm địa phương compact và $\
 
 ### 1. Không gian các độ đo Haar trên các nhóm con đóng của G
 
-#### Bổ đề 1 {#int-viii-s5-lem-1 .statement}
+#### Bổ đề 1 {#int-viii-s5-lem-1 .statement tag=09LY}
 
 Cho $\alpha$ là một độ đo dương $\neq 0$ trên G, S là giá đỡ của nó; hai điều kiện sau tương đương:
 a) S là một nhóm con đóng của G và độ đo cảm sinh bởi $\alpha$ trên S là một độ đo Haar phải trên S.
@@ -63,17 +63,17 @@ Rõ ràng a) suy ra b); ngược lại, quan hệ b) suy ra rằng $Sx = S$ vớ
 
 Trong phần còn lại của tiết này, ta ký hiệu bằng $\Gamma$ tập hợp các độ đo dương $\neq 0$ trên G thỏa mãn các điều kiện của Bổ đề 1, và với mọi $\alpha \in \Gamma$ ta ký hiệu bằng $H_\alpha$ nhóm con đóng của G là giá đỡ của $\alpha$.
 
-#### Mệnh đề 1 {#int-viii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#int-viii-s5-prop-1 .statement tag=09LZ}
 
 Tập hợp $\Gamma$ là đóng trong không gian $\mathscr{M}_+(G) - \{0\}$ với tôpô mơ hồ.
 Trước hết ta chứng minh các bổ đề sau:
 
-#### Bổ đề 2 {#int-viii-s5-lem-2 .statement}
+#### Bổ đề 2 {#int-viii-s5-lem-2 .statement tag=09M0}
 
 Cho X là một không gian địa phương compact và với mọi độ đo $\alpha \in \mathscr{M}_+(X) - \{0\}$, ký hiệu $S_\alpha$ là giá đỡ của $\alpha$. Cho $\Phi$ là một bộ lọc trên $\mathscr{M}_+(X) - \{0\}$ hội tụ mơ hồ đến một độ đo $\alpha_0 \neq 0$. Khi đó, với mọi lân cận V của một điểm s thuộc giá đỡ của $\alpha_0$, tồn tại một tập $M \in \Phi$ sao cho, với mọi $\alpha \in M$, ta có $V \cap S_\alpha \neq \varnothing$.
 Thật vậy, nếu $\varphi \in \mathscr{K}_+(X)$ là một hàm có giá đỡ chứa trong V và sao cho $\int \varphi(x) d\alpha_0(x) > 0$, thì theo định nghĩa tồn tại một tập $M \in \Phi$ sao cho $\int \varphi(x) d\alpha(x) > 0$ với mọi $\alpha \in M$, điều này suy ra $V \cap S_\alpha \neq \varnothing$.
 
-#### Bổ đề 3 {#int-viii-s5-lem-3 .statement}
+#### Bổ đề 3 {#int-viii-s5-lem-3 .statement tag=09M1}
 
 Cho E là một tập được lọc bởi một bộ lọc $\Phi$, và cho $\xi \mapsto \alpha(\xi)$ là một ánh xạ từ E vào $\Gamma$ hội tụ mơ hồ đối với $\Phi$ tới một độ đo $\alpha_0 \neq 0$. Mặt khác, cho $\xi \mapsto t_\xi$ là một ánh xạ từ E vào G sao cho $t_\xi \in H_{\alpha(\xi)}$ với mọi $\xi \in E$. Nếu s là một điểm tụ của ánh xạ $\xi \mapsto t_\xi$ đối với $\Phi$, thì $\delta(s)\alpha_0 = \alpha_0$.
 
@@ -81,7 +81,7 @@ Nếu cần, thay $\Phi$ bằng một bộ lọc mịn hơn, ta có thể giả 
 
 Để chứng minh Mệnh đề 1, theo Bổ đề 1, chỉ cần chỉ ra rằng nếu một bộ lọc $\Psi$ trên $\Gamma$ hội tụ một cách mơ hồ đến một độ đo $\alpha_0 \neq 0$ và nếu $s$ thuộc giá đỡ của $\alpha_0$, thì $\delta(s)\alpha_0 = \alpha_0$. Thật vậy, với mọi lân cận $V$ của $s$ trong $G$, tồn tại một $M \in \Psi$ sao cho, với mọi $\alpha \in M$, ta có $V \cap H_\alpha \neq \varnothing$, theo Bổ đề 2. Với mọi lân cận $V$ của $s$ và mọi $\alpha \in \Gamma$, hãy lấy $t_{V,\alpha}$ là một điểm của $V \cap H_\alpha$ nếu $V \cap H_\alpha \neq \varnothing$, và là bất kỳ điểm nào của $H_\alpha$ trong trường hợp ngược lại; nếu $\Theta$ là bộ lọc tiết diện của bộ lọc các lân cận của $s$, và $\Phi$ là bộ lọc tích $\Theta \times \Psi$, thì theo điều trên, $s$ là một điểm tụ của $(V, \alpha) \mapsto t_{V,\alpha}$ đối với $\Phi$. Mặt khác, vì ánh xạ $(V, \alpha) \mapsto \alpha$ có giới hạn $\alpha_0$ đối với $\Phi$, mệnh đề suy ra từ Bổ đề 3.
 
-#### Mệnh đề 2 {#int-viii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#int-viii-s5-prop-2 .statement tag=09M2}
 
 — Cho $\varphi$ là một hàm trong $\mathscr{K}_+(G)$ sao cho $\varphi(e) > 0$. Khi đó tập $\Gamma_\varphi$ các độ đo $\alpha \in \Gamma$ sao cho $\int \varphi(x)\,d\alpha(x) = 1$ là compact theo tôpô mơ hồ.
 
@@ -91,7 +91,7 @@ Vx = Vv^{-1}h \subset V^2h \subset Uh,
 $$
 và vì $\delta(h)\alpha = \alpha$, suy ra rằng $\alpha(Vx) \leq \alpha(Uh) = \alpha(U) \leq c$. Bây giờ lấy $(x_i)_{1 \leq i \leq n}$ là một dãy các điểm của $K$ sao cho các $Vx_i$ tạo thành một phủ của $K$; suy ra từ điều trên rằng $\alpha(K) \leq \sum_{i=1}^n \alpha(Vx_i) \leq nc$ với mọi $\alpha \in \Gamma_\varphi$; Q.E.D.
 
-#### Mệnh đề 3 {#int-viii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#int-viii-s5-prop-3 .statement tag=09M3}
 
 — *Dưới các giả thiết của Mệnh đề 2, ánh xạ* $\alpha \mapsto \left( \langle \varphi, \alpha \rangle, \frac{\alpha}{\langle \varphi, \alpha \rangle} \right)$ *là một đồng phôi từ* $\Gamma$ *lên không gian tích* $\mathbf{R}_+^* \times \Gamma_\varphi$.
 
@@ -115,7 +115,7 @@ $$
 
 trong đó $\dot{x} = \pi_\alpha(x)$ là ảnh chính tắc của $x \in G$ trong $Q_\alpha$.
 
-#### Mệnh đề 4 {#int-viii-s5-prop-4 .statement}
+#### Mệnh đề 4 {#int-viii-s5-prop-4 .statement tag=09M4}
 
 — *Cho* $\Gamma^0$ *là tập các độ đo* $\alpha \in \Gamma$ *sao cho* $H_\alpha$ *là đơn môđula, và với mọi* $\alpha \in \Gamma^0$ *đặt* $\mu_\alpha = \mu / \alpha$; *khi đó ánh xạ* $\alpha \mapsto \| \mu_\alpha \|$ *từ* $\Gamma^0$ *vào* $\overline{\mathbf{R}}$ *là nửa liên tục dưới đối với tôpô mơ hồ*.
 
@@ -147,7 +147,7 @@ Suy ra kết luận từ thực tế rằng ánh xạ $\alpha \mapsto f * \alpha
 
 Nhắc lại rằng nếu, với một độ đo $\alpha \in \Gamma^0$, $\|\mu_\alpha\|$ là hữu hạn, thì G tất yếu là đơn môđula (Ch. VII, §2, No. 6, Hệ quả 3 của Th. 3).
 
-#### Mệnh đề 5 {#int-viii-s5-prop-5 .statement}
+#### Mệnh đề 5 {#int-viii-s5-prop-5 .statement tag=09M5}
 
 *Cho g là một hàm số dương khả tích theo $\mu$ và cho $\Gamma^0(g)$ là tập các độ đo $\alpha \in \Gamma^0$ sao cho $\int^* g(xs)\, d\alpha(s) \geq 1$ với mọi $x \in G$. Khi đó ánh xạ $\alpha \mapsto \|\mu_\alpha\|$ của $\Gamma^0(g)$ vào $\overline{\mathbf{R}}$ là liên tục theo tôpô mơ hồ.*
 
@@ -195,7 +195,7 @@ $$
 $$
 khi $\beta \in U_\varepsilon$, và điều đó hoàn tất chứng minh.
 
-#### Hệ quả 1 {#int-viii-s5-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#int-viii-s5-prop-5-cor-1 .statement tag=09M6}
 
 — Cho $K$ là một tập con compact của $G$, $V$ là một lân cận compact đối xứng của $e$ trong $G$, $c$ là một số thực $> 0$. Hạn chế của ánh xạ $\alpha \mapsto \| \mu_\alpha \|$ lên tập các $\alpha \in \Gamma^0$ sao cho $G = KH_\alpha$ và $\alpha(V) \geq c$ là liên tục theo tôpô mơ hồ.
 
@@ -206,7 +206,7 @@ $$
 
 cho $\alpha$ thỏa mãn các điều kiện của mệnh đề; hơn nữa, vì $\pi_\alpha(K) = Q_\alpha$, nên $\alpha \in \Gamma^0(g)$, do đó suy ra hệ quả.
 
-#### Hệ quả 2 {#int-viii-s5-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#int-viii-s5-prop-5-cor-2 .statement tag=09M7}
 
 *Cho A là một tập con $\mu$-khả tích của G. Sự hạn chế của ánh xạ $\alpha \mapsto \| \mu_\alpha \|$ lên tập $N_A$ của các độ đo Haar chuẩn hóa của các nhóm con rời rạc H của G sao cho $G = AH$, là liên tục mơ hồ.*
 
@@ -222,7 +222,7 @@ và vì $\pi_\alpha(A) = Q_\alpha$, nên $N_A \subset \Gamma^0(\varphi_A)$, và 
 
 Ký hiệu $\Sigma$ là tập hợp các *nhóm con đóng* của G; nếu gán cho mỗi độ đo $\alpha \in \Gamma$ nhóm con $H_\alpha$ là giá đỡ của $\alpha$, ta thu được một ánh xạ (gọi là chính tắc) từ $\Gamma$ vào $\Sigma$, ánh xạ này rõ ràng là toàn ánh và cho phép xác định một cách chính tắc $\Sigma$ với tập hợp các quỹ đạo của nhóm các phép vị tự trong $\Gamma$ với tỉ số $> 0$. Tập $\Sigma$, được trang bị tôpô thương của tôpô mơ hồ trên $\Gamma$, được gọi là *không gian các nhóm con đóng* của G.
 
-#### Định lý 1 {#int-viii-s5-thm-1 .statement}
+#### Định lý 1 {#int-viii-s5-thm-1 .statement tag=09M8}
 
 *Cho G là một nhóm địa phương compact. Không gian $\Sigma$ của các nhóm con đóng của G là compact. Hơn nữa, ta có các tính chất sau:*
 
@@ -236,7 +236,7 @@ Suy ra từ Mệnh đề 3 của No. 1 rằng $\Sigma$ đẳng cấu tôpô vớ
 
 Tính chất (ii) sẽ là hệ quả của mệnh đề sau:
 
-#### Mệnh đề 6 {#int-viii-s5-prop-6 .statement}
+#### Mệnh đề 6 {#int-viii-s5-prop-6 .statement tag=09M9}
 
 *Giả sử rằng nhóm địa phương compact G được sinh bởi một lân cận compact của e. Khi đó tập $\Gamma_c^0$ của các độ đo $\alpha \in \Gamma^0$* sao cho $G/H_\alpha$ là compact là mở trong $\Gamma^0$, và sự hạn chế lên $\Gamma_c^0$ của ánh xạ $\alpha \mapsto \| \mu_\alpha \|$ là liên tục mơ hồ.
 
@@ -262,7 +262,7 @@ từ đó suy ra, bằng quy nạp theo $n$, rằng $L^n K \subset KH_\beta$ v�
 
 Sau cùng, (iii) sẽ là hệ quả của mệnh đề sau:
 
-#### Mệnh đề 7 {#int-viii-s5-prop-7 .statement}
+#### Mệnh đề 7 {#int-viii-s5-prop-7 .statement tag=09MA}
 
 *Cho $N \subset \Gamma^0$ là không gian con gồm các độ đo Haar chuẩn hóa trên các nhóm con rời rạc của G, và với mọi lân cận mở tương đối compact U của e trong G, cho $N_U$ là tập con của N gồm các $\alpha$ sao cho $H_\alpha \cap U = \{e\}$. Khi đó:
 a) $N_U$ là compact.
@@ -279,13 +279,13 @@ $$
 
 Bây giờ, nếu $A$ là compact (resp. open and relatively compact) trong $G$, thì ánh xạ $\alpha \mapsto \alpha(A)$ của $\mathscr{M}_+(G)$ vào $\mathbf{R}$ là nửa liên tục trên (resp. nửa liên tục dưới) đối với tôpô mơ hồ (Ch. IV, §4, No. 4, Hệ quả 3 của Mệnh đề 5 và loc. cit., §1, No. 1, Mệnh đề 4); do đó ta thấy rằng $N_U$ là một tập con đóng của $\Gamma^0$. Hơn nữa, cho $\varphi \in \mathscr{K}_+(G)$ là một hàm sao cho $\varphi(e) = 1$ và $\varphi(x) = 0$ trên $G - U$; hiển nhiên là $\int \varphi(x) d\alpha(x) = 1$ với mọi $\alpha \in N_U$; Mệnh đề 2 của No. 1 do đó cho thấy rằng $N_U$ là một tập compact, điều này chứng minh a). Mặt khác, hãy cho $V$ là một lân cận mở compact tương đối của $e$ trong $G$ sao cho $\overline{V} \subset U$, và cho $\varphi \in \mathscr{K}_+(G)$, với giá được chứa trong $U$ và sao cho $\varphi(x) = 1$ trên $V$. Khi đó $\alpha(\varphi) = 1$ với $\alpha \in N_U$, do đó tồn tại một lân cận $W$ của $\alpha$ trong $N$ sao cho $\beta(\varphi) < 2$ với $\beta \in W$; khi đó hiển nhiên là $W \subset N_V$, do đó $N_V$ là một lân cận của $N_U$. Vì các $N_U$ phủ $N$, điều này chứng minh b). Cuối cùng, mọi tập con compact $M$ của $N$ đều được chứa trong một hợp hữu hạn các tập $N_{U_i}$ ($1 \leq i \leq n$), và vì $\bigcup_i N_{U_i} \subset N_U$, với $U = \bigcap_i U_i$, điều này chứng minh c).
 
-#### Hệ quả {#int-viii-s5-n3-cor-1 .statement}
+#### Hệ quả {#int-viii-s5-n3-cor-1 .statement tag=09MB}
 
 — *Không gian con* $N$ *của* $\Gamma^0$ *là compact địa phương*.
 
 ### 4. Trường hợp các nhóm không có các nhóm con hữu hạn tùy ý nhỏ
 
-#### Định lý 2 {#int-viii-s5-thm-2 .statement}
+#### Định lý 2 {#int-viii-s5-thm-2 .statement tag=09MC}
 
 — *Cho* $G$ *là một nhóm compact địa phương thỏa mãn điều kiện sau*:
 (L) *Tồn tại một lân cận của* $e$ *trong* $G$ *chứa không có nhóm con hữu hạn nào của* $G$ *không thu gọn về* $e$.
@@ -298,13 +298,13 @@ Ta có $D_c = D \cap \Sigma_c^0$, do đó (iii) là hệ quả của (i), và Đ
 
 Với các ký hiệu của No. 3, Mệnh đề 7, để chứng minh (i) và (ii), chỉ cần chứng minh rằng:
 
-#### Mệnh đề 8 {#int-viii-s5-prop-8 .statement}
+#### Mệnh đề 8 {#int-viii-s5-prop-8 .statement tag=09MD}
 
 *Song ánh chính tắc của N lên D là một đồng phôi.*
 
 Bây giờ, nếu $\Gamma_d$ là tập các độ đo Haar trên các nhóm con rời rạc của $G$, thì $D$ đồng phôi một cách chính tắc với không gian các quỹ đạo của nhóm các phép đồng dạng trong $\Gamma_d$ với tỉ số $> 0$ (GT, I, §5, No. 2, Prop. 4). Vì vậy chỉ cần chứng minh rằng ánh xạ chính tắc $\alpha \mapsto (\alpha(\{e\}), \alpha/\alpha(\{e\}))$ của $\Gamma_d$ lên $\mathbf{R}_+^* \times \mathbf{N}$ là một *đồng phôi*, điều này sẽ suy ra từ bổ đề sau:
 
-#### Bổ đề 4 {#int-viii-s5-lem-4 .statement}
+#### Bổ đề 4 {#int-viii-s5-lem-4 .statement tag=09ME}
 
 *Nếu nhóm* G *thỏa mãn điều kiện (L), thì ánh xạ* $\alpha \mapsto \alpha(\{e\})$ *của* $\Gamma_d$ *vào* $\mathbf{R}_+^*$ *là liên tục mơ hồ.*
 
@@ -336,7 +336,7 @@ Nói một cách hình tượng, một nhóm $G$ thỏa mãn điều kiện (L) 
 
 Cho $G$ là một nhóm địa phương compact, $N \subset \Gamma^0$ là không gian con của các độ đo Haar chuẩn hóa trên các nhóm con rời rạc của $G$, và $N_c$ là tập con của $N$ tương ứng với các nhóm con rời rạc $H$ của $G$ sao cho $G/H$ là *compact*; do đó $N_c = N \cap \Gamma_c^0$ theo ký hiệu của No. 3, Prop. 6; và nếu nhóm $G$ được sinh bởi một lân cận compact của $e$, thì từ No. 3, Prop. 6 suy ra rằng $N_c$ là *mở* trong $N$ (do đó là *địa phương compact* theo No. 3, Cor. của Prop. 7) và rằng hạn chế của ánh xạ $\alpha \mapsto \| \mu_\alpha \|$ lên $N_c$ là *liên tục mơ hồ*.
 
-#### Mệnh đề 9 {#int-viii-s5-prop-9 .statement}
+#### Mệnh đề 9 {#int-viii-s5-prop-9 .statement tag=09MF}
 
 *Cho $G$ là một nhóm Abel địa phương compact, được sinh bởi một lân cận compact của $e$. Để một tập con $A$ của $N_c$ là tương đối compact trong $N_c$, điều kiện cần và đủ là nó thỏa mãn hai điều kiện sau:*
 
@@ -346,7 +346,7 @@ Cho $G$ là một nhóm địa phương compact, $N \subset \Gamma^0$ là không
 
 Nếu $A \subset N_c$ tương đối compact trong $N_c$ thì nó *a fortiori* cũng vậy trong $N$, và do đó tính cần thiết của các điều kiện (i) và (ii) suy ra từ No. 3, Props. 6 và 7 (không giả thiết $G$ là Abel). Ngược lại, giả sử rằng $A \subset N_c$ thỏa mãn các điều kiện này; nếu $\overline{A}$ là bao đóng của $A$ *trong* $N$, thì $\overline{A}$ compact nhờ No. 3, Prop. 7; hơn nữa, vì $\alpha \mapsto \| \mu_\alpha \|$ là nửa liên tục dưới trên $\Gamma^0$ đối với tôpô mơ hồ (No. 2, Prop. 4), điều kiện (ii) suy ra rằng ta cũng có $\| \mu_\alpha \| \leq k$ với mọi $\alpha \in \overline{A}$. Bây giờ, vì $G$ là Abel, $\mu_\alpha = \mu/\alpha$ là một độ đo Haar trên nhóm $G/H_\alpha$, và do đó $G/H_\alpha$ compact với mọi $\alpha \in \overline{A}$ (Ch. VII, §1, No. 2, Prop. 2). Điều này có nghĩa là $\overline{A} \subset N_c$, do đó $A$ tương đối compact trong $N_c$.
 
-#### Hệ quả {#int-viii-s5-n5-cor-1 .statement}
+#### Hệ quả {#int-viii-s5-n5-cor-1 .statement tag=09MG}
 
 *Cho $G$ là một nhóm Abel địa phương compact, được sinh bởi một lân cận compact của $e$ và thỏa mãn điều kiện (L) của No. 4.*
 
@@ -358,7 +358,7 @@ Cho $D_c$ là tập hợp các nhóm con rời rạc $H$ của $G$ sao cho $G/H$
 
 Xét đến Mệnh đề 9, điều này suy ra ngay từ sự kiện rằng $D_c$ là ảnh của $N_c$ qua song ánh chính tắc của $N$ lên $D$, và từ sự kiện rằng, dưới các giả thiết đã nêu, song ánh này là một đồng phôi (No. 4, Mệnh đề 8).
 
-#### Ví dụ {#int-viii-s5-n5-exa-1 .statement}
+#### Ví dụ {#int-viii-s5-n5-exa-1 .statement tag=09MH}
 
 Ta lấy $G = \mathbf{R}^n$ và lấy $\mu$ là độ đo Lebesgue; mọi giả thiết của Hệ quả của Mệnh đề 9 đều được thỏa mãn. Các nhóm con rời rạc $H$ của $G$ sao cho $G/H$ là compact chẳng gì khác ngoài các nhóm con rời rạc bậc $n$ (GT, VII, §1, No. 1, Định lý 1); một nhóm con như vậy $H$ được sinh bởi một cơ sở $(a_i)_{1 \leq i \leq n}$ của $\mathbf{R}^n$, và
 

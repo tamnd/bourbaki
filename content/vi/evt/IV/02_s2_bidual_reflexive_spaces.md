@@ -33,7 +33,7 @@ subsections:
       pdf_page: 200
 statements: 32
 exercises: 24
-content_sha256: 98889c12d8001a85c6e85af1ea931dbca4662df68e9cac853549eadf74410c14
+content_sha256: 6f9ce8750ba181711fd56390c4ee406478a0240cfc3e4247dbe46d0fe3c4d696
 translated_from: content/en/evt/IV/02_s2_bidual_reflexive_spaces.md
 source_content_sha256: 100347bb76aeb1a74d77db710e313c800f25ad6922ba64027dad8c5885bc1738
 translation_model: gpt-5.4
@@ -47,13 +47,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Song đối ngẫu thứ hai
 
-#### Định nghĩa 1 {#evt-iv-s2-def-1 .statement}
+#### Định nghĩa 1 {#evt-iv-s2-def-1 .statement tag=07S8}
 
 — *Cho $E$ là một không gian lồi địa phương và $E'_b$ là đối ngẫu mạnh của nó. Đối ngẫu của không gian lồi địa phương $E'_b$ được gọi là song đối ngẫu thứ hai của $E$ và được ký hiệu là $E''$.*
 
 Với mọi $x \in E$, gọi $\tilde{x}$ là dạng tuyến tính $x' \mapsto \langle x, x' \rangle$ trên $E'$; nó liên tục đối với tôpô yếu $\sigma(E', E)$, do đó, *a fortiori*, đối với tôpô mạnh trên $E'$; vì thế $\tilde{x} \in E''$ với mọi $x \in E$. Ánh xạ $c_E : x \mapsto \tilde{x}$ từ $E$ vào $E''$ là một ánh xạ tuyến tính, được gọi là *chính tắc*.
 
-#### Mệnh đề 1 {#evt-iv-s2-prop-1 .statement}
+#### Mệnh đề 1 {#evt-iv-s2-prop-1 .statement tag=07S9}
 
 — *Hạt nhân của $c_E : E \to E''$ là bao đóng của 0 trong $E$. Nếu $E$ là Hausdorff, $c_E$ là đơn ánh.*
 
@@ -67,31 +67,31 @@ TVS IV.15
 
 Tôpô mạnh trên $E''$ là tôpô $\mathscr{S}$, trong đó $\mathscr{S}$ là họ tất cả các tập con bị chặn mạnh của $E'$. Vì mọi tập con đẳng liên tục của $E'$ đều bị chặn mạnh (III, p. 22, prop. 9), nên tôpô ban đầu trên $E$ yếu hơn tôpô thu được bằng cách lấy ảnh ngược qua $c_E$ của tôpô mạnh trên $E''$; nó có thể thực sự yếu hơn (IV, p. 52, exerc. 1). Tuy nhiên:
 
-#### Mệnh đề 2 {#evt-iv-s2-prop-2 .statement}
+#### Mệnh đề 2 {#evt-iv-s2-prop-2 .statement tag=07SA}
 
 — Giả sử rằng không gian $E$ là bornological hoặc barrelled. Tôpô ban đầu trên $E$ là ảnh ngược qua $c_E$ của tôpô mạnh trên $E''$.
 
 Thật vậy, mọi tập con của $E'$ bị chặn mạnh đều là đẳng liên tục (III, p. 22, prop. 10 and III, p. 24).
 
-#### Mệnh đề 3 {#evt-iv-s2-prop-3 .statement}
+#### Mệnh đề 3 {#evt-iv-s2-prop-3 .statement tag=07SB}
 
 — Cho $E$ là một không gian lồi địa phương Hausdorff. Để đối ngẫu mạnh $E'_b$ của $E$ là barrelled, điều kiện cần và đủ là mọi tập con của $E''$ bị chặn đối với $\sigma(E'', E')$ đều được chứa trong bao đóng, đối với $\sigma(E'', E')$, của một tập con bị chặn của $E$.
 
 Các tập con đẳng liên tục của $E''$ là các tập con được chứa trong cực kép (đối với đối ngẫu giữa $E''$ và $E'$) của một tập con bị chặn của không gian con $E$ của $E''$. Khi đó chỉ cần áp dụng định lý về các cực kép (II, p. 45, cor. 3) và định nghĩa của một không gian barrelled (III, p. 24).
 
-#### Nhận xét {#evt-iv-s2-n1-rem-1 .statement}
+#### Nhận xét {#evt-iv-s2-n1-rem-1 .statement tag=07SC}
 
 Cho $E$ là một không gian lồi địa phương Hausdorff, $E'$ là đối ngẫu của nó và $E''$ là đối ngẫu kép của nó. Ta có $E \subset E'' \subset {E'}^*$, trong đó ${E'}^*$ là đối ngẫu đại số của $E'$. Nếu $B$ là một tập con bị chặn của $E$, bao đóng $\overline{B}$ của nó trong ${E'}^*$ được trang bị $\sigma({E'}^*, E')$ được chứa trong $E''$: thật vậy, cực $U = B^\circ$ của $B$ trong $E'$ là một lân cận của 0 trong $E'_b$, và ta có $\overline{B} \subset U^\circ \subset E''$.
 
 ### 2. Các không gian bán phản xạ
 
-#### Định nghĩa 2 {#evt-iv-s2-def-2 .statement}
+#### Định nghĩa 2 {#evt-iv-s2-def-2 .statement tag=07SD}
 
 — Cho $E$ là một không gian lồi địa phương. Ta nói rằng $E$ là bán phản xạ nếu ánh xạ chính tắc $c_E$ từ $E$ vào $E''$ là song ánh.
 
 Điều này kéo theo rằng $E$ là Hausdorff, và rằng mọi dạng tuyến tính trên $E'$, liên tục đối với tôpô mạnh $\beta(E', E)$, đều có dạng $x' \mapsto \langle x, x' \rangle$ với $x \in E$, tức là liên tục đối với tôpô yếu $\sigma(E', E)$.
 
-#### Định lý 1 {#evt-iv-s2-thm-1 .statement}
+#### Định lý 1 {#evt-iv-s2-thm-1 .statement tag=07SE}
 
 — Một không gian lồi địa phương Hausdorff là bán phản xạ khi và chỉ khi mọi tập con bị chặn của $E$ đều tương đối compact đối với tôpô yếu $\sigma(E, E')$. Nếu $E$ là bán phản xạ, đối ngẫu mạnh $E'_b$ của $E$ là thùng.
 
@@ -99,39 +99,39 @@ Khẳng định thứ hai suy ra từ mệnh đề 3 (IV, p. 15), và từ sự 
 
 Nói rằng $E$ là bán phản xạ có nghĩa là tôpô trên $E'_b$ tương thích với đối ngẫu giữa $E$ và $E'$, nói cách khác, theo định lý của Mackey (IV, p. 2, đ. lý 1), tôpô trên $E'_b$ thô hơn $\tau(E', E)$ (và thực ra đồng nhất với nó); theo định nghĩa (IV, p. 2), điều đó có nghĩa là mọi tập con đóng, lồi và bị chặn của $E$ đều compact đối với $\sigma(E, E')$, và điều này tương đương với việc nói rằng mọi tập con bị chặn của E đều tương đối compact đối với $\sigma(E, E')$, vì bao lồi đóng của một tập con bị chặn của E là bị chặn (III, p. 3, mệnh đề 1).
 
-#### Hệ quả {#evt-iv-s2-n2-cor-1 .statement}
+#### Hệ quả {#evt-iv-s2-n2-cor-1 .statement tag=07SF}
 
 — *Cho E là một không gian lồi địa phương bán phản xạ. Mọi không gian con vectơ đóng M của E đều bán phản xạ; hơn nữa, tôpô mạnh trên $E'/M^\circ$ (được xét như đối ngẫu của M) là tôpô thương của tôpô mạnh trên E'.*
 
 Cho B là một tập con bị chặn của M. Vì B bị chặn trong E, và tôpô yếu $\sigma(M, M')$ trên M được cảm sinh bởi $\sigma(E, E')$ (IV, p. 10, mệnh đề 11), bao đóng của B trong M được trang bị $\sigma(M, M')$ là compact. Do đó, theo đ. lý 1, M là bán phản xạ. Khẳng định cuối cùng của hệ quả suy ra từ mệnh đề 10 của IV, p. 9, áp dụng cho tập $\mathscr{S}$ gồm tất cả các tập con đóng, lồi và bị chặn của E.
 
-#### Nhận xét 1 {#evt-iv-s2-n2-rem-1 .statement}
+#### Nhận xét 1 {#evt-iv-s2-n2-rem-1 .statement tag=07SG}
 
 Giả sử E là bán phản xạ. Mọi tập con của E lồi, đóng và bị chặn đối với tôpô ban đầu đều compact đối với tôpô $\sigma(E, E')$ (IV, p. 1, mệnh đề 1). *Mặt khác, mặt cầu đơn vị (với phương trình $\|x\| = 1$) của một không gian Hilbert vô hạn chiều E thì đóng và bị chặn đối với tôpô ban đầu, nhưng không đóng đối với tôpô yếu, ngay cả khi E là bán phản xạ. \*
 
-#### Nhận xét 2 {#evt-iv-s2-n2-rem-2 .statement}
+#### Nhận xét 2 {#evt-iv-s2-n2-rem-2 .statement tag=07SH}
 
 Theo nhận xét 3 của IV, p. 5, ta có thể phát biểu lại đ. lý 1 như sau: *không gian Hausdorff E là bán phản xạ khi và chỉ khi nó gần đầy đủ đối với tôpô yếu của nó.* Nếu nó là bán phản xạ, thì nó *gần đầy đủ đối với tôpô ban đầu của nó* (IV, p. 5, Nhận xét 2).
 
-#### Nhận xét 3 {#evt-iv-s2-n2-rem-3 .statement}
+#### Nhận xét 3 {#evt-iv-s2-n2-rem-3 .statement tag=07SI}
 
 Dưới các giả thiết của hệ quả trên, không gian E/M không nhất thiết là bán phản xạ (IV, p. 63, bài tập 10).
 
 ### 3. Các không gian phản xạ
 
-#### Định nghĩa 3 {#evt-iv-s2-def-3 .statement}
+#### Định nghĩa 3 {#evt-iv-s2-def-3 .statement tag=07SJ}
 
 — *Một không gian lồi địa phương E được gọi là phản xạ nếu ánh xạ chính tắc $c_E$ từ E vào $E''$ là một đẳng cấu không gian vectơ tôpô từ E lên đối ngẫu mạnh của $E'_b$.*
 
 Đặc biệt, một không gian phản xạ là bán phản xạ, do đó Hausdorff.
 
-#### Mệnh đề 4 {#evt-iv-s2-prop-4 .statement}
+#### Mệnh đề 4 {#evt-iv-s2-prop-4 .statement tag=07SK}
 
 — *Đối ngẫu mạnh của một không gian phản xạ là phản xạ.*
 
 Điều này suy ra ngay lập tức từ đ. nghĩa 3.
 
-#### Định lý 2 {#evt-iv-s2-thm-2 .statement}
+#### Định lý 2 {#evt-iv-s2-thm-2 .statement tag=07SL}
 
 — *Điều kiện cần và đủ để một không gian lồi địa phương Hausdorff E là phản xạ là nó thùng và mọi tập con bị chặn của E đều tương đối compact đối với tôpô yếu $\sigma(E, E')$.*
 
@@ -139,13 +139,13 @@ Theo đ. lý 1 (IV, p. 15), điều này cũng có nghĩa là E *là phản xạ
 
 Nếu E là phản xạ, thì $E'_b$ là phản xạ (mệnh đề 4) và do đó E là thùng (IV, p. 15, đ. lý 1). Ngược lại, nếu E là bán phản xạ và thùng, thì $c_E$ là một song ánh và là song liên tục theo IV, p. 15, mệnh đề 2, do đó E là phản xạ.
 
-#### Nhận xét 1 {#evt-iv-s2-n3-rem-1 .statement}
+#### Nhận xét 1 {#evt-iv-s2-n3-rem-1 .statement tag=07SM}
 
 Cho E là một không gian Hilbert thực vô hạn chiều. Gọi F là không gian E được trang bị tôpô yếu. Các không gian E và F có cùng đối ngẫu E', và E là một không gian Banach phản xạ (V, p. 17). Do đó, F là *bán phản xạ*.
 
 Tuy nhiên, tôpô mạnh và tôpô yếu trên E là phân biệt, do đó F *không phản xạ*.
 
-#### Nhận xét 2 {#evt-iv-s2-n3-rem-2 .statement}
+#### Nhận xét 2 {#evt-iv-s2-n3-rem-2 .statement tag=07SN}
 
 Cho E là một không gian phản xạ và M là một không gian con vectơ đóng của E. Có thể xảy ra rằng cả M lẫn E/M đều không là các không gian phản xạ (IV, p. 63, bài tập 10). \* Đối với trường hợp các không gian định chuẩn, xem mệnh đề 7 của IV, p. 17. \*
 
@@ -166,31 +166,31 @@ $$
 
 Theo mệnh đề 8, (i) của IV, p. 7, ánh xạ tuyến tính chính tắc $c_E : E \to E''$ là một đẳng cự. Từ đây về sau, *ta sẽ đồng nhất E với một không gian con định chuẩn của đối ngẫu kép E'' của nó*.
 
-#### Mệnh đề 5 {#evt-iv-s2-prop-5 .statement}
+#### Mệnh đề 5 {#evt-iv-s2-prop-5 .statement tag=07SO}
 
 — *Cho E là một không gian chuẩn, E' là đối ngẫu của nó và E'' là song đối ngẫu của nó. Quả cầu đơn vị (đóng) trong E'' là bao đóng của quả cầu đơn vị B trong E đối với tôpô yếu $\sigma(E'', E')$.*
 
 Theo các công thức (1) và (2), quả cầu đơn vị trong E'' là lưỡng cực $B^{\circ \circ}$ của B. Khi đó mệnh đề 5 suy ra từ định lý lưỡng cực (II, p. 45, hệ quả 3).
 
-#### Nhận xét {#evt-iv-s2-n4-rem-1 .statement}
+#### Nhận xét {#evt-iv-s2-n4-rem-1 .statement tag=07SP}
 
 — Một không gian Banach E là đóng trong song đối ngẫu E'' của nó đối với tôpô mạnh, nhưng lại trù mật đối với tôpô yếu (mệnh đề 5).
 
 Để một không gian chuẩn là *phản xạ*, điều kiện cần và đủ là nó *nửa phản xạ*; thật vậy, tôpô ban đầu của E luôn luôn được cảm sinh bởi tôpô mạnh của E''. Khi đó định lý 1 (IV, p. 15) cho kết quả sau :
 
-#### Mệnh đề 6 {#evt-iv-s2-prop-6 .statement}
+#### Mệnh đề 6 {#evt-iv-s2-prop-6 .statement tag=07SQ}
 
 — *Để một không gian chuẩn E là phản xạ, điều kiện cần và đủ là quả cầu đơn vị trong E compắc đối với tôpô yếu $\sigma(E, E')$.*
 
 Ta nhận thấy rằng một không gian chuẩn phản xạ là đầy đủ nên là một không gian Banach, và đối ngẫu của nó là một không gian Banach phản xạ theo mệnh đề 4 của IV, p. 16.
 
-#### Mệnh đề 7 {#evt-iv-s2-prop-7 .statement}
+#### Mệnh đề 7 {#evt-iv-s2-prop-7 .statement tag=07SR}
 
 — *Cho E là một không gian Banach phản xạ và M là một không gian con vectơ đóng của E. Khi đó M và E/M là các không gian Banach phản xạ.*
 
 Cho E' là đối ngẫu của E và $M^\circ$ là trực giao của M trong E'. Với tư cách là một không gian chuẩn, ta có thể đồng nhất không gian $E'/M^\circ$ với đối ngẫu $M'$ của M (IV, p. 9, mệnh đề 10). Vì M là nửa phản xạ (IV, p. 16, hệ quả), nên nó là phản xạ, do đó $E'/M^\circ$ cũng vậy; tương tự $M^\circ$ là phản xạ, và cả đối ngẫu của nó $E/M^{\circ \circ} = E/M$ cũng phản xạ.
 
-#### Ví dụ {#evt-iv-s2-n4-exa-1 .statement}
+#### Ví dụ {#evt-iv-s2-n4-exa-1 .statement tag=07SS}
 
 — 1) Ký hiệu $\ell^\infty(\mathbf{N})$ là không gian Banach của các dãy bị chặn $x = (x_n)_{n \in \mathbf{N}}$ các vô hướng, với chuẩn
 
@@ -217,29 +217,29 @@ với mọi $\mathbf{x} \in c_0(\mathbf{N})$ và $\mathbf{x}' \in \ell^1(\mathbf
 
 ### 5. Các không gian Montel
 
-#### Định nghĩa 4 {#evt-iv-s2-def-4 .statement}
+#### Định nghĩa 4 {#evt-iv-s2-def-4 .statement tag=07ST}
 
 *Một không gian lồi địa phương Hausdorff và thùng trong đó mọi tập con bị chặn đều compắc tương đối được gọi là một không gian Montel.*
 
-#### Ví dụ 1 {#evt-iv-s2-n5-exa-1 .statement}
+#### Ví dụ 1 {#evt-iv-s2-n5-exa-1 .statement tag=07SU}
 
 Mọi không gian Hausdorff hữu hạn chiều đều là một không gian Montel. Một không gian chuẩn là một không gian Montel thì compắc địa phương, do đó hữu hạn chiều (I, p. 15, định lý 3).
 
-#### Ví dụ 2 {#evt-iv-s2-n5-exa-2 .statement}
+#### Ví dụ 2 {#evt-iv-s2-n5-exa-2 .statement tag=07SV}
 
 Với các ký hiệu và giả thiết của mệnh đề 7 ở III, p. 6, không gian E, là giới hạn quy nạp của các không gian Banach, là thùng (III, p. 25); hơn nữa, mọi tập con bị chặn của E đều compắc tương đối (III, p. 6, mệnh đề 7). Nói cách khác, E là một không gian Montel. Đặc biệt, các không gian Gevrey (III, p. 10) là các không gian Montel. \* Điều này đúng cho không gian $\mathscr{H}(K)$ gồm các mầm của các hàm giải tích trong một lân cận của một tập con compắc K của $\mathbf{C}^n$ (III, p. 10).*
 
-#### Ví dụ 3 {#evt-iv-s2-n5-exa-3 .statement}
+#### Ví dụ 3 {#evt-iv-s2-n5-exa-3 .statement tag=07SW}
 
 Mọi giới hạn quy nạp ngặt E của một dãy $(E_n)$ các không gian Montel (II, p. 33) sao cho $E_n$ đóng trong $E_{n+1}$ với mọi n, đều là một không gian Montel; thật vậy, E là Hausdorff (II, p. 32, mệnh đề 9 (i)), thùng (III, p. 25, hệ quả 3) và mọi tập con bị chặn của E đều được chứa trong một trong các $E_n$ (III, p. 5, mệnh đề 6) nên compắc tương đối trong $E_n$, và do đó cũng compắc tương đối trong E.
 
-#### Ví dụ 4 {#evt-iv-s2-n5-exa-4 .statement}
+#### Ví dụ 4 {#evt-iv-s2-n5-exa-4 .statement tag=07SX}
 
 Cho U là một tập mở trong $\mathbf{R}^n$ và cho $\mathscr{C}^\infty(U)$ là không gian Fréchet của các hàm khả vi vô hạn trên U (III, p. 9). Ta sẽ chứng minh rằng đây là một không gian Montel. Vì $\mathscr{C}^\infty(U)$ là một không gian Fréchet, nó là thùng (III, p. 25, hệ quả). Cho B là một tập con bị chặn của $\mathscr{C}^\infty(U)$ và cho K là một tập con compắc của U. Với mọi $\alpha \in \mathbf{N}^n$ cho $H_{\alpha, K}$ là tập hợp các hạn chế trên K của các hàm $\partial^\alpha f$, khi $f$ chạy qua B. Cho $\alpha \in \mathbf{N}^n$; với mọi $\beta \in \mathbf{N}^n$ sao cho $|\beta| = |\alpha| + 1$, tập $H_{\alpha, K}$ bị chặn trong $\mathscr{C}(K)$ vì B bị chặn trong $\mathscr{C}^\infty(U)$; theo VAR, R., No. 2.2.3, tập $H_{\alpha, K}$ là đồng liên tục, nên (GT, X, § 2, No. 5) compắc tương đối trong $\mathscr{C}(K)$. Nhưng tôpô của $\mathscr{C}^\infty(U)$ là tôpô yếu nhất trong các tôpô mà đối với chúng mọi ánh xạ $f \mapsto \partial^\alpha f|K$ từ $\mathscr{C}^\infty(U)$ vào $\mathscr{C}(K)$ đều liên tục, do đó B compắc tương đối trong $\mathscr{C}^\infty(U)$ (GT, I, § 4, No. 1, mệnh đề 3 and § 9, No. 5, hệ quả).
 
 Tương tự, *không gian $\mathscr{C}_0^\infty(U)$ của tất cả các hàm khả vi vô hạn có giá compact trong U* (III, p. 9) *là một không gian Montel*. Thật vậy, $\mathscr{C}_0^\infty(U)$ là giới hạn quy nạp ngặt của một dãy $\mathscr{C}_{H_n}^\infty(U)$ các không gian Fréchet (III, p. 9), và chỉ cần thấy rằng mỗi không gian $\mathscr{C}_{H_n}^\infty(U)$ là một không gian Montel (*Ví dụ 3*). Nhưng một tập con bị chặn và đóng của $\mathscr{C}_0^\infty(U)$ thì đóng và bị chặn trong $\mathscr{C}^\infty(U)$, nên compact trong $\mathscr{C}^\infty(U)$, và do đó trong $\mathscr{C}_{H_n}^\infty(U)$. \*
 
-#### Mệnh đề 8 {#evt-iv-s2-prop-8 .statement}
+#### Mệnh đề 8 {#evt-iv-s2-prop-8 .statement tag=07SY}
 
 *Cho E là một không gian Montel và $\mathfrak{T}$ một bộ lọc trên E, hội tụ về một điểm $x_0$ trong E đối với tôpô yếu. Nếu $\mathfrak{T}$ có một cơ sở đếm được, hoặc chứa một tập bị chặn, thì $\mathfrak{T}$ cũng hội tụ về $x_0$ đối với tôpô ban đầu.*
 
@@ -249,13 +249,13 @@ Tiếp theo giả sử rằng $\mathfrak{T}$ có một cơ sở đếm được.
 
 *Mọi không gian Montel đều phản xạ*: điều này suy ra từ đn. 4 và từ đl. 2 của IV, p. 16. Hơn nữa:
 
-#### Mệnh đề 9 {#evt-iv-s2-prop-9 .statement}
+#### Mệnh đề 9 {#evt-iv-s2-prop-9 .statement tag=07SZ}
 
 *Đối ngẫu mạnh của một không gian Montel là một không gian Montel.*
 
 Cho E là một không gian Montel và $E'_b$ là đối ngẫu mạnh của nó. Vì E phản xạ, $E'_b$ là không gian thùng (IV, p. 15, đl. 1). Vì mọi tập con bị chặn của E đều tương đối compact, tôpô mạnh trên $E'$ trùng với tôpô hội tụ compact. Gọi B là một tập con bị chặn của $E'_b$; nó bị chặn đối với tôpô yếu $\sigma(E', E)$, nên là đẳng liên tục vì E là không gian thùng. Khi đó định lý Ascoli (GT, X, § 2, No. 4, hệ quả và § 2, No. 5, hệ quả 1) kéo theo rằng bao đóng của B đối với $\sigma(E', E)$ là compact đối với tôpô hội tụ compact; do đó B là tương đối compact trong $E'_b$.
 
-#### Mệnh đề 10 {#evt-iv-s2-prop-10 .statement}
+#### Mệnh đề 10 {#evt-iv-s2-prop-10 .statement tag=07T0}
 
 *Mọi không gian Montel khả mêtric đều thỏa mãn tiên đề đếm được thứ nhất.*
 
@@ -263,7 +263,7 @@ Cho E là một không gian Montel khả mêtric. Ta biết (II, p. 5) rằng E 
 
 Ta lập luận bằng *phản chứng*. Chẳng hạn giả sử rằng $F_0$ không thỏa mãn tiên đề đếm được thứ nhất. Gọi $B_0$ là quả cầu đơn vị (đóng) trong $F_0$; đây là một không gian mêtric không thỏa mãn tiên đề đếm được thứ nhất. Ta sẽ dùng bổ đề sau:
 
-#### Bổ đề 1 {#evt-iv-s2-lem-1 .statement}
+#### Bổ đề 1 {#evt-iv-s2-lem-1 .statement tag=07T1}
 
 *Giả sử không gian mêtric X không thỏa mãn tiên đề đếm được thứ nhất. Khi đó tồn tại một số thực $\varepsilon > 0$ và một tập con không đếm được A trong X sao cho $d(x, y) \geq \varepsilon$ với mọi $x, y$ phân biệt trong A.*
 
@@ -275,7 +275,7 @@ Với mỗi số nguyên $n \geq 1$, gọi $\mathfrak{F}_n$ là tập hợp (đ�
 
 Theo bổ đề 1, áp dụng cho $B_0$, tồn tại một tập con không đếm được $A_0$ của $F_0$ và một số $\varepsilon > 0$ sao cho $\|x\| \leq 1$ và $\|x - y\| \geq \varepsilon$ với các $x, y$ phân biệt trong $A_0$. Ta có $\mathrm{pr}_0(E) = F_0$ và do đó tồn tại một tập con A của E sao cho $\mathrm{pr}_0$ cảm sinh một song ánh từ A lên $A_0$.
 
-#### Bổ đề 2 {#evt-iv-s2-lem-2 .statement}
+#### Bổ đề 2 {#evt-iv-s2-lem-2 .statement tag=07T2}
 
 *Tồn tại một dãy $(x_m)_{m \geq 0}$ gồm các phần tử phân biệt của A, bị chặn trong E.*
 
@@ -298,7 +298,7 @@ Ta có $x_m \in C_m$, và do đó $x_m \in C_n$ khi $m \geq n$. Vậy phép chi�
 
 Với các ký hiệu của bổ đề 2, dãy bị chặn $(x_m)_{m \geq 0}$ có một điểm giới hạn $y$ trong E. Do đó dãy $(\mathrm{pr}_0(x_m))_{m \geq 0}$ có một điểm giới hạn $\mathrm{pr}_0(y)$ trong $F_0$, nhưng điều này mâu thuẫn với phép dựng của $A_0$.
 
-#### Hệ quả {#evt-iv-s2-n5-cor-1 .statement}
+#### Hệ quả {#evt-iv-s2-n5-cor-1 .statement tag=07T3}
 
 — Cho E là một không gian Montel mêtric hóa được. Khi đó tồn tại một tập hợp trù mật đếm được trong đối ngẫu mạnh của E.
 

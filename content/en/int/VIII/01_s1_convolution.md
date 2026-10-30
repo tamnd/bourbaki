@@ -32,7 +32,7 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: c3123595600507d1dcd535d2ba519b7f886a472216d8ed1124633da152f2decc
+content_sha256: cafcb1e20437900405f17cddf757448f37ab32581cc26e5e2a03bda1d34c2c66
 ---
 
 ## § 1. CONVOLUTION
@@ -45,7 +45,7 @@ $$
 \int_Y f(y)\, d\nu(y) = \int_X f(\varphi(x)) d\mu(x).
 $$
 
-#### Definition 1 {#int-viii-s1-def-1 .statement}
+#### Definition 1 {#int-viii-s1-def-1 .statement tag=09I0}
 
 *Let $X_1, \ldots, X_n$ be locally compact spaces, $\mu_i$ a measure on $X_i$ ($1 \leq i \leq n$); let X be the product of the $X_i$, $\mu$ that of the $\mu_i$. Let $\varphi$ be a mapping of X into a locally compact space Y. One says that the sequence $(\mu_i)$ is $\varphi$-convolvable, or that $\mu_1, \ldots, \mu_n$ are $\varphi$-convolvable, if $\varphi$ is $\mu$-proper; in this case, the image $\nu = \varphi(\mu)$ of $\mu$ under $\varphi$ is called the convolution product of the $\mu_i$ for $\varphi$, and is denoted $*_{\varphi}(\mu_i)_{1 \leq i \leq n}$, or $*_{i=1}^n \mu_i$, or $\mu_1 * \mu_2 * \cdots * \mu_n$.
 
@@ -88,7 +88,7 @@ $$
 (\mu_1 + \mu'_1) * \mu_2 * \cdots * \mu_n = \mu_1 * \mu_2 * \cdots * \mu_n + \mu'_1 * \mu_2 * \cdots * \mu_n.
 $$
 
-#### Example {#int-viii-s1-n1-exa-1 .statement}
+#### Example {#int-viii-s1-n1-exa-1 .statement tag=09I1}
 
 — 1) For any $\varphi$, the measures $\varepsilon_{x_i}$, where $x_i \in X_i$ for $1 \leq i \leq n$, are always convolvable and have convolution product $\varepsilon_y$, with $y = \varphi(x_1, x_2, \ldots, x_n)$. Consequently, if each of the $\mu_i$ has finite support, then the $\mu_i$ are convolvable and $\mu_1 * \cdots * \mu_n$ has finite support. In particular, let $M$ be a monoid$^1$ equipped with a locally compact topology; if one takes $\varphi$ to be the law of composition in $M$ then the measures on $M$ with finite support form, for convolution, an algebra that is none other than the *algebra of the monoid* $M$ (over $\mathbf{R}$ or over $\mathbf{C}$, according as one considers real or complex measures) (A, III, §2, No. 6).
 
@@ -120,7 +120,7 @@ Then $D(\mu * \mu') = D(\mu)D(\mu')$.
 
 The following lemma completes Prop. 11 of Ch. V, §8, No. 5:²
 
-#### Lemma 1 {#int-viii-s1-lem-1 .statement}
+#### Lemma 1 {#int-viii-s1-lem-1 .statement tag=09I2}
 
 For $1 \leq i \leq n$, let $X_i, Y_i$ be two locally compact spaces, $\mu_i$ a measure on $X_i$, and $\varphi_i$ a continuous mapping of $X_i$ into $Y_i$. Let $X = \prod_i X_i$, $Y = \prod_i Y_i$, $\mu = \bigotimes_i \mu_i$, and $\varphi$ the mapping of $X$ into $Y$ that is the product of the $\varphi_i$. If $\varphi$ is $\mu$-proper and $\mu_i \neq 0$ for each $i$, then the $\varphi_i$ are $\mu_i$-proper and $\varphi(\mu) = \bigotimes_i \varphi_i(\mu_i)$.
 
@@ -132,13 +132,13 @@ which proves that $\varphi_1$ is $\mu_1$-proper. One argues similarly for $\varp
 
 The following lemma completes Prop. 4 of Ch. V, §6, No. 3.\footnote{The assertion of this lemma is in fact part *b*) of the cited Prop. 4, a part that was not included in the first edition of Ch. V.}
 
-#### Lemma 2 {#int-viii-s1-lem-2 .statement}
+#### Lemma 2 {#int-viii-s1-lem-2 .statement tag=09I3}
 
 *Let T, T', T'' be three locally compact spaces, $\mu$ a measure on T, $\pi$ a $\mu$-measurable mapping of T into T', $\pi'$ a continuous mapping of T' into T'', and $\pi'' = \pi' \circ \pi$. If $\pi''$ is $\mu$-proper, then $\pi$ is $\mu$-proper, $\pi'$ is $\pi(\mu)$-proper, and $\pi''(\mu) = \pi'(\pi(\mu))$.
 
 Let K' be a compact subset of T'. Then $K'' = \pi'(K')$ is compact, therefore $\pi''(K'')$ is essentially $\mu$-integrable, therefore $\pi^{-1}(K') \subset \pi''(K'')$ is essentially $\mu$-integrable, thus $\pi$ is $\mu$-proper. Then $\pi'$ is $\pi(\mu)$-proper and $\pi''(\mu) = \pi'(\pi(\mu))$ by Ch. V, §6, No. 3, Prop. 4.
 
-#### Proposition 1 {#int-viii-s1-prop-1 .statement}
+#### Proposition 1 {#int-viii-s1-prop-1 .statement tag=09I4}
 
 *Let $X_{ij}$ ($1 \leq i \leq m, 1 \leq j \leq n_i$), $Y_i$ ($1 \leq i \leq m$), and Z be locally compact spaces; for each i, let $\varphi_i$ be a mapping of $X_i = \prod_j X_{ij}$ into $Y_i$; let $\varphi$ be the product of the $\varphi_i$, mapping $X = \prod_i X_i$ into $Y = \prod_i Y_i$; let $\psi$ be a mapping of Y into Z.
 
@@ -170,7 +170,7 @@ $$
 $$
 By Lemma 2, $\psi$ is proper for $\bigotimes_i (*_j \mu_{ij})$. Whence the proposition.
 
-#### Corollary {#int-viii-s1-n2-cor-1 .statement}
+#### Corollary {#int-viii-s1-n2-cor-1 .statement tag=09I5}
 
 — Let $X_i, X'_i$ ($1 \leq i \leq n$), $Y, Y'$ be locally compact spaces; let $\varphi, \varphi'$ be continuous mappings of $X = \prod_i X_i$ into $Y$ and of $X' = \prod_i X'_i$ into $Y'$, respectively; let $f_i$ be continuous mappings of $X_i$ into $X'_i$ ($1 \leq i \leq n$) and $g$ a continuous mapping of $Y$ into $Y'$, such that $\varphi' \circ f = g \circ \varphi$, $f$ being the mapping of $X$ into $X'$ that is the product of the $f_i$. Let $\mu_i$ be measures given respectively on the $X_i$, all $\neq 0$. Then the following two assertions are equivalent:
 (i) $f_i$ is $\mu_i$-proper for all $i$, and the measures $f_i(|\mu_i|)$ are $\varphi'$-convolvable;
@@ -190,7 +190,7 @@ $$
 
 ### 3. The case of bounded measures
 
-#### Proposition 2 {#int-viii-s1-prop-2 .statement}
+#### Proposition 2 {#int-viii-s1-prop-2 .statement tag=09I6}
 
 — Let $X_1, \ldots, X_n, Y$ be locally compact spaces, $\mu_i$ a bounded measure on $X_i$ ($1 \leq i \leq n$), $\mu$ the product of the $\mu_i$, $\varphi$ a $\mu$-measurable mapping of $\prod_{i=1}^n X_i$ into $Y$. Then the $\mu_i$ are $\varphi$-convolvable and
 $$
@@ -209,7 +209,7 @@ $$
 \left\| *_{i} \mu_i \right\| \leq \left\| *_{i} \mu'_i \right\| = \prod_{i=1}^n \| \mu_i \|.
 $$
 
-#### Proposition 3 {#int-viii-s1-prop-3 .statement}
+#### Proposition 3 {#int-viii-s1-prop-3 .statement tag=09I7}
 
 — Let $X_1, \ldots, X_n, Y$ be locally compact spaces, $\varphi$ a continuous mapping of $\prod_{i=1}^n X_i$ into $Y$. Then the mapping
 $$
@@ -220,13 +220,13 @@ This follows from Prop. 2 and what has been said in No. 1.
 
 ### 4. Properties concerning supports
 
-#### Proposition 4 {#int-viii-s1-prop-4 .statement}
+#### Proposition 4 {#int-viii-s1-prop-4 .statement tag=09I8}
 
 — Let $X_1, \ldots, X_n, Y$ be locally compact spaces, $\mu_i$ a measure on $X_i$ ($1 \leq i \leq n$), $S_i$ its support, and $\varphi$ a continuous mapping of $\prod_i X_i$ into $Y$ such that the restriction of $\varphi$ to $\prod_i S_i$ is proper. Then the $\mu_i$ are $\varphi$-convolvable.
 
 For, let $K$ be a compact subset of $Y$. The support of $\mu = \mu_1 \otimes \cdots \otimes \mu_n$ is $S = \prod_i S_i$ (Ch. III, §4, No. 2, Prop. 2). Therefore $\overline{\varphi}(K) \cap \left( \prod_i X_i - S \right)$ is $\mu$-negligible. On the other hand, $\overline{\varphi}(K) \cap S$ is compact. Therefore $\overline{\varphi}(K)$ is $\mu$-integrable.
 
-#### Proposition 5 {#int-viii-s1-prop-5 .statement}
+#### Proposition 5 {#int-viii-s1-prop-5 .statement tag=09I9}
 
 *Let $X_1, \ldots, X_n, Y$ be locally compact spaces, $\mu_i$ a measure on $X_i$ ($1 \leq i \leq n$), $\mu$ the product of the $\mu_i$, $\varphi$ a $\mu$-proper mapping of $\prod_i X_i$ into $Y$, and $S_i$ the support of $\mu_i$.
 
@@ -236,13 +236,13 @@ b) *If $\varphi$ is continuous and the $\mu_i$ are positive, then the support of
 
 Let $S = \prod_i S_i$ be the support of $\mu$. The support of $*_{i} \mu_i$ is contained in $\overline{\varphi(S)}$ by Ch. V, §6, No. 2, Cor. 3 of Prop. 2. *If $\varphi$ is continuous and the $\mu_i$ are positive, then the support of $*_{i} \mu_i$ is $\overline{\varphi(S)}$* (*loc. cit.*, Cor. 4 of Prop. 2).
 
-#### Corollary {#int-viii-s1-n4-cor-1 .statement}
+#### Corollary {#int-viii-s1-n4-cor-1 .statement tag=09IA}
 
 *If $\varphi$ is continuous and the $\mu_i$ have compact support, then the $\mu_i$ are convolvable and $*_{i} \mu_i$ has compact support.*
 
 ### 5. Vectorial expression of the convolution product
 
-#### Proposition 6 {#int-viii-s1-prop-6 .statement}
+#### Proposition 6 {#int-viii-s1-prop-6 .statement tag=09IB}
 
 *Let $X, Y, Z$ be locally compact spaces, $\varphi$ a continuous mapping of $X \times Y$ into $Z$, and $\lambda, \mu$ measures on $X, Y$. For $\lambda$ and $\mu$ to be $\varphi$-convolvable, it is necessary and sufficient that the mapping $(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$ of $X \times Y$ into $\mathscr{M}(Z)$ be scalarly $(\lambda \otimes \mu)$-integrable for the topology $\sigma(\mathscr{M}(Z), \mathscr{H}(Z))$, in which case*
 
@@ -258,7 +258,7 @@ $$
 
 whence $\lambda * \mu = \int_{X \times Y} \varepsilon_{\varphi(x,y)} d\lambda(x) d\mu(y)$.
 
-#### Proposition 7 {#int-viii-s1-prop-7 .statement}
+#### Proposition 7 {#int-viii-s1-prop-7 .statement tag=09IC}
 
 *Let X, Y, Z be locally compact spaces, $\varphi$ a continuous mapping of $X \times Y$ into Z, and $\lambda, \mu$ measures on X, Y. Assume that for every $x \in X$, $\varepsilon_x$ and $\mu$ are $\varphi$-convolvable. For $\lambda$ and $\mu$ to be $\varphi$-convolvable, it is necessary and sufficient that the mapping $x \mapsto \varepsilon_x * |\mu|$ of X into $\mathscr{M}(Z)$ be scalarly $\lambda$-integrable for the topology $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$, in which case $\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.*
 

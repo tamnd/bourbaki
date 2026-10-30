@@ -61,9 +61,9 @@ subsections:
       pdf_page: 193
 statements: 79
 exercises: 30
-content_sha256: 5f90839b48e4fe802873946b4061196e0a3dd3ab07fdbb3a2bc76337f73f1540
+content_sha256: 7b40e1fe599e946929283bc6df364ac718debb5fac815242abaf911cedb2643a
 translated_from: content/en/int/IV/05_s5_measurable_functions_and_sets.md
-source_content_sha256: a884e01bc9079fb672558918f88286f16f20cd9512c50a20e27c6df3e8959c1e
+source_content_sha256: 3b5e810e086ae5ed0fb3b0f106b25333088c6f327ee0cfc196e61afb7abd9879
 translation_model: gpt-5.4
 translation_run: translate-vi-67b4b1df
 glossary_version: 34
@@ -75,7 +75,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Định nghĩa các hàm và tập hợp đo được
 
-#### Định nghĩa 1 {#int-iv-s5-def-1 .statement}
+#### Định nghĩa 1 {#int-iv-s5-def-1 .statement tag=08UC}
 
 *Cho $X$ là một không gian địa phương compact, $\mu$ là một độ đo trên $X$. Một ánh xạ $f$ từ $X$ vào một không gian tôpô $F$ được gọi là đo được đối với độ đo $\mu$ (hoặc là $\mu$-đo được) nếu, với mọi tập con compact $K$ của $X$, tồn tại một tập hợp không đáng kể đối với $\mu$ là $N \subset K$ và một phân hoạch của $K - N$ tạo thành bởi một dãy (hữu hạn hoặc vô hạn) $(K_n)$ các tập hợp compact, sao cho hạn chế của $f$ trên mỗi $K_n$ là liên tục.*
 
@@ -85,19 +85,19 @@ Chú ý rằng nếu $\mu$ và $\nu$ là hai độ đo trên $X$ sao cho mọi t
 
 Định nghĩa 1 có thể được chuyển thành tiêu chuẩn sau đây:
 
-#### Mệnh đề 1 {#int-iv-s5-prop-1 .statement}
+#### Mệnh đề 1 {#int-iv-s5-prop-1 .statement tag=08UD}
 
 *Để một ánh xạ $f$ từ $X$ vào $F$ là đo được, điều kiện cần và đủ là, với mọi tập hợp compact $K \subset X$ và mọi số $\varepsilon > 0$, tồn tại một tập hợp compact $K_1 \subset K$ sao cho $|\mu|(K - K_1) \leq \varepsilon$ và hạn chế của $f$ trên $K_1$ là liên tục.*
 
 Nếu điều kiện này được thỏa mãn, ta có thể định nghĩa đệ quy một dãy các tập hợp compact rời nhau từng đôi một $K_n \subset K$ sao cho $|\mu|(K - \bigcup_{i=1}^n K_i) \leq 1/n$ và sao cho hạn chế của $f$ trên mỗi $K_n$ là liên tục ($§ 4$, No. 6, Th. 4); phần bù trong $K$ của hợp các $K_n$ khi đó là không đáng kể ($§ 4$, No. 5, Cor. of Prop. 7), do đó $f$ là đo được. Ngược lại, giả sử tồn tại một tập hợp không đáng kể $N \subset K$ và một phân hoạch $(K_n)$ của $K - N$ tạo thành bởi các tập hợp compact sao cho hạn chế của $f$ trên mỗi $K_n$ là liên tục; với mọi $\varepsilon > 0$ tồn tại một số nguyên $n$ sao cho, nếu $H = \bigcup_{i=1}^n K_i$, thì $|\mu|(K - H) \leq \varepsilon$ (§ 4, No. 5, Cor. of Prop. 7); tập hợp $H$ là compact, các $K_i$ ($1 \leq i \leq n$) tạo thành một phân hoạch hữu hạn của $H$ thành các tập hợp compact, và hạn chế của $f$ trên mỗi $K_i$ là liên tục; do đó hạn chế của $f$ trên $H$ là liên tục.
 
-#### Mệnh đề 2 {#int-iv-s5-prop-2 .statement}
+#### Mệnh đề 2 {#int-iv-s5-prop-2 .statement tag=08UE}
 
 *Cho* $(F_n)$ *là một dãy các không gian tôpô và, với mỗi* $n$, *cho* $f_n$ *là một ánh xạ đo được của* $X$ *vào* $F_n$. *Với mọi tập compact* $K \subset X$ *và mọi* $\varepsilon > 0$, *tồn tại một tập compact* $K_0 \subset K$ *sao cho* $|\mu|(K - K_0) \leq \varepsilon$ *và hạn chế trên* $K_0$ *của mỗi hàm* $f_n$ *là liên tục*.
 
 Với mỗi số nguyên $n \geq 1$ tồn tại một tập compact $K_n \subset K$ sao cho $|\mu|(K - K_n) \leq \varepsilon / 2^n$ và hạn chế của $f_n$ trên $K_n$ là liên tục. Tập hợp $K_0 = \bigcap_{n=1}^\infty K_n$ là compact, các hạn chế trên $K_0$ của tất cả các hàm $f_n$ đều liên tục và, vì $K - K_0$ được chứa trong hợp của các $K - K_n$, ta có $|\mu|(K - K_0) \leq \sum_{n=1}^\infty \varepsilon / 2^n = \varepsilon$.
 
-#### Định nghĩa 2 {#int-iv-s5-def-2 .statement}
+#### Định nghĩa 2 {#int-iv-s5-def-2 .statement tag=08UF}
 
 *Một tập con* $A$ *của* $X$ *được gọi là đo được nếu hàm đặc số* $\varphi_A$ *của nó là đo được*.
 
@@ -105,19 +105,19 @@ Xét theo Định nghĩa 1, nói rằng một tập đo được $A$ là một t
 
 Định nghĩa này cho ngay tiêu chuẩn sau:
 
-#### Mệnh đề 3 {#int-iv-s5-prop-3 .statement}
+#### Mệnh đề 3 {#int-iv-s5-prop-3 .statement tag=08UG}
 
 *Để một tập* $A$ *là đo được, điều kiện cần và đủ là, với mọi tập compact* $K$, $A \cap K$ *là khả tích*.
 
 Điều kiện là cần, vì hợp của một dãy các tập khả tích $A_n$ là khả tích khi $\sum_n |\mu|(A_n)$ là hữu hạn (§ 4, No. 5, Hệ quả của Mệnh đề 8). Điều kiện là đủ vì, với mọi tập khả tích $B$, tồn tại một tập không đáng kể $N \subset B$ và một phân hoạch của $B - N$ thành một dãy các tập compact (§ 4, No. 6, Hệ quả 2 của Định lý 4).
 
-#### Hệ quả 1 {#int-iv-s5-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s5-prop-3-cor-1 .statement tag=08UH}
 
 *Các tập mở và các tập đóng là đo được*.
 
 Đặc biệt, toàn bộ không gian $X$ là đo được.
 
-#### Hệ quả 2 {#int-iv-s5-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s5-prop-3-cor-2 .statement tag=08UI}
 
 — *Nếu X là khả mêtric, thì mọi tập con Souslin A của X* (GT, IX, §6, No. 2) *đều là μ-đo được đối với mọi độ đo μ trên X*.
 
@@ -131,7 +131,7 @@ Khi đó $|\mu|^*(U - K) = |\mu|(U) - |\mu|(K) \leq 2\varepsilon$, do đó $|\mu
 
 ### 2. Nguyên lý địa phương hóa. Các tập địa phương không đáng kể
 
-#### Mệnh đề 4 (Nguyên lý địa phương hóa) {#int-iv-s5-prop-4 .statement}
+#### Mệnh đề 4 (Nguyên lý địa phương hóa) {#int-iv-s5-prop-4 .statement tag=08UJ}
 
 — *Cho f là một ánh xạ của X vào một không gian tôpô F. Giả sử rằng với mọi $x \in X$, tồn tại một lân cận khả tích $V_x$ của x và một ánh xạ đo được $g_x$ của X vào F sao cho $f(y) = g_x(y)$ hầu khắp trên $V_x$. Khi đó f là đo được.*
 
@@ -139,31 +139,31 @@ Cho K là một tập compact; tồn tại một số hữu hạn các điểm $
 
 Do đó khái niệm hàm đo được là một khái niệm có đặc trưng địa phương.
 
-#### Định nghĩa 3 {#int-iv-s5-def-3 .statement}
+#### Định nghĩa 3 {#int-iv-s5-def-3 .statement tag=08UK}
 
 — *Một tập hợp $A \subset X$ được gọi là không đáng kể địa phương (đối với độ đo $\mu$) nếu, với mọi $x \in X$, tồn tại một lân cận $V$ của $x$ sao cho $V \cap A$ là không đáng kể.*
 
 Theo nguyên lý địa phương hóa, mọi tập không đáng kể địa phương đều *đo được*. Các tính chất của các tập không đáng kể (§2) cho thấy rằng mọi tập con của một tập không đáng kể địa phương đều không đáng kể địa phương, và mọi hợp đếm được của các tập không đáng kể địa phương đều không đáng kể địa phương.
 
-#### Mệnh đề 5 {#int-iv-s5-prop-5 .statement}
+#### Mệnh đề 5 {#int-iv-s5-prop-5 .statement tag=08UL}
 
 — *Để một tập A là không đáng kể địa phương, điều kiện cần và đủ là, với mọi tập compact K, $A \cap K$ là không đáng kể.*
 
 Điều kiện này hiển nhiên là đủ vì mọi điểm của X đều có một lân cận compact. Nó là cần, vì nếu, với mọi $x \in K$, tồn tại một lân cận $V_x$ của $x$ sao cho $A \cap V_x$ là không đáng kể, thì tồn tại một số hữu hạn các điểm $x_i \in K$ sao cho các $V_{x_i}$ tạo thành một phủ của K, và $A \cap K$ được chứa trong hợp của các tập không đáng kể $A \cap V_{x_i}$.
 
-#### Hệ quả 1 {#int-iv-s5-prop-5-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s5-prop-5-cor-1 .statement tag=08UM}
 
 — *Để một tập A là không đáng kể, điều kiện cần và đủ là nó không đáng kể địa phương và có độ đo ngoài hữu hạn.*
 
 Điều kiện này hiển nhiên là cần. Ngược lại, nếu nó được thỏa mãn thì A được chứa trong một tập mở khả tích G, là hợp của một tập không đáng kể N và một dãy $(K_n)$ các tập compact (§ 4, No. 6, Hệ quả 2 của Định lý 4); vì $A \cap N$ và các tập $A \cap K_n$ là không đáng kể, hợp của chúng là A cũng vậy.
 
-#### Hệ quả 2 {#int-iv-s5-prop-5-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s5-prop-5-cor-2 .statement tag=08UN}
 
 — *Mọi tập mở không đáng kể địa phương đều không đáng kể* (và do đó được chứa trong phần bù của giá của $\mu$).
 
 Thật vậy, độ đo ngoài của một tập mở G là cận trên đúng của các độ đo $|\mu|(K)$ của các tập compact $K \subset G$ (§ 4, No. 6, Hệ quả 4 của Định lý 4); nếu G không đáng kể địa phương thì $|\mu|(K) = 0$ với mọi tập compact K được chứa trong G, do đó $|\mu|^*(G) = 0$.
 
-#### Hệ quả 3 {#int-iv-s5-prop-5-cor-3 .statement}
+#### Hệ quả 3 {#int-iv-s5-prop-5-cor-3 .statement tag=08UO}
 
 — *Trong một không gian compact địa phương X đếm được ở vô cực, mọi tập không đáng kể địa phương đều không đáng kể.*
 
@@ -171,7 +171,7 @@ Vì X là hợp của một dãy $(K_n)$ các tập compact, mọi tập không 
 
 Có thể cho các ví dụ về những không gian compact địa phương không đếm được ở vô cực, và về những độ đo trên một không gian như vậy X sao cho tồn tại những tập trong X không đáng kể địa phương nhưng không không đáng kể (§ 1, Exer. 5).
 
-#### Hệ quả 4 {#int-iv-s5-prop-5-cor-4 .statement}
+#### Hệ quả 4 {#int-iv-s5-prop-5-cor-4 .statement tag=08UP}
 
 — *Cho f là một ánh xạ từ X vào một không gian tôpô F. Nếu tập N các điểm gián đoạn của f là không đáng kể địa phương, thì f là đo được.*
 
@@ -179,56 +179,56 @@ Với mọi tập compact $K \subset X$, $K \cap N$ là không đáng kể (Mệ
 
 Nếu $P\{x\}$ là một tính chất, thì theo định nghĩa, tính chất « *P\{x\} địa phương hầu khắp mọi nơi (đối với $\mu$)* » tương đương với tính chất « *tập hợp các x sao cho* (x $\in$ X và không $P\{x\}$) *là địa phương không đáng kể (đối với độ đo* $\mu$) ». Nếu F là một tập hợp bất kỳ, quan hệ «$f(x) = g(x)$ địa phương hầu khắp mọi nơi» là một quan hệ tương đương trong tập hợp các ánh xạ từ X vào F. Đặc biệt, nếu F là một không gian vectơ, một ánh xạ $f$ từ X vào F sao cho f(x) = $0\text{ hầu khắp mọi nơi địa phương được gọi là } \textit{địa phương không đáng kể}$. Chúng tôi để cho người đọc tự thiết lập đối với các khái niệm này phần lớn các tính chất tương ứng với những tính chất đã được liệt kê trong §2, Số. 4, 5 và 6 đối với các hàm bằng nhau hầu khắp mọi nơi. Chúng tôi sẽ chỉ giới hạn ở việc nhận thấy rằng nếu hai ánh xạ \emph{liên tục} $f, g$ từ X vào một không gian tôpô Hausdorff F bằng nhau \emph{địa phương hầu khắp mọi nơi}, thì chúng bằng nhau \emph{hầu khắp mọi nơi} theo Hệ quả 2 của Mệnh đề 5 (do đó bằng nhau tại mọi điểm thuộc giá của $\mu$ (§ 2, Số 4, Mệnh đề 9)); tuy nhiên, chúng tôi phát biểu tường minh mệnh đề sau đây, là một hệ quả ngay lập tức của nguyên lý địa phương hóa:
 
-#### Mệnh đề 6 {#int-iv-s5-prop-6 .statement}
+#### Mệnh đề 6 {#int-iv-s5-prop-6 .statement tag=08UQ}
 
 *Cho $f$ là một ánh xạ đo được từ X vào một không gian tôpô F. Mọi ánh xạ từ X vào F bằng với $f$ địa phương hầu khắp mọi nơi đều đo được.*
 
 ### 3. Các tính chất sơ cấp của các hàm đo được
 
-#### Định lý 1 {#int-iv-s5-thm-1 .statement}
+#### Định lý 1 {#int-iv-s5-thm-1 .statement tag=08UR}
 
 *Cho X là một không gian compact địa phương, $\mu$ một độ đo trên X, $(F_n)$ một dãy các không gian tôpô, $F = \prod_n F_n$ là tích của chúng. Với mỗi chỉ số n, cho $f_n$ là một ánh xạ đo được từ X vào $F_n$, và đặt $f(x) = (f_n(x)) \in F$; khi đó, với mọi ánh xạ liên tục u từ $f(X)$ vào một không gian tôpô G, hàm $x \mapsto u(f(x))$ là đo được.*
 
 Với mọi tập con compact K của X và mọi số $\varepsilon > 0$, tồn tại một tập compact $K_1 \subset K$ sao cho $|\mu|(K - K_1) \leq \varepsilon$ và sao cho các hạn chế trên $K_1$ của tất cả các hàm $f_n$ đều liên tục (No. 1, Prop. 2); hiển nhiên là $u \circ f$ liên tục trên $K_1$, do đó suy ra định lý.
 
-#### Nhận xét {#int-iv-s5-n3-rem-1 .statement}
+#### Nhận xét {#int-iv-s5-n3-rem-1 .statement tag=08US}
 
 — 1) Định lý không mở rộng được cho một tích \emph{tùy ý} các không gian tôpô (Exer. 1).
 2) Nếu $f$ là một ánh xạ liên tục từ X vào chính nó, và $g$ là một ánh xạ đo được từ X vào F, thì $g \circ f$ không nhất thiết đo được (Exer. 2).
 
-#### Hệ quả 1 {#int-iv-s5-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s5-thm-1-cor-1 .statement tag=08UT}
 
 *Bao trên và bao dưới của một số hữu hạn các hàm số đo được (hữu hạn hay không) là đo được.*
 Thật vậy, $\sup(u, v)$ và $\inf(u, v)$ liên tục trên $\overline{\mathbf{R}} \times \overline{\mathbf{R}}$.
 
-#### Hệ quả 2 {#int-iv-s5-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s5-thm-1-cor-2 .statement tag=08UU}
 
 *Để một hàm số $f$ (hữu hạn hay không) là đo được, điều kiện cần và đủ là $f^+$ và $f^-$ đo được.*
 Điều kiện là cần theo Hệ quả 1; nó là đủ vì ảnh A của X trong $\overline{\mathbf{R}} \times \overline{\mathbf{R}}$ dưới ánh xạ $x \mapsto (f^+(x), f^-(x))$ không chứa các điểm $(+\infty, +\infty)$ và $(-\infty, -\infty)$, do đó ánh xạ $(u, v) \mapsto u - v$ liên tục trên A.
 
-#### Hệ quả 3 {#int-iv-s5-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#int-iv-s5-thm-1-cor-3 .statement tag=08UV}
 
 — *Nếu f và g là hai ánh xạ đo được từ X vào một không gian vectơ tôpô F, thì f + g và αf là đo được (α là một vô hướng tùy ý).*
 
 Như vậy tập hợp các ánh xạ đo được từ X vào một không gian vectơ tôpô F là một không gian vectơ.
 
-#### Hệ quả 4 {#int-iv-s5-thm-1-cor-4 .statement}
+#### Hệ quả 4 {#int-iv-s5-thm-1-cor-4 .statement tag=08UW}
 
 — *Cho F là một không gian vectơ chiều n trên R và $(e_k)_{1 \leq k \leq n}$ là một cơ sở của F. Để một hàm $f = \sum_{k=1}^{n} e_k f_k$ là đo được, điều kiện cần và đủ là mỗi hàm số $f_k$ đều đo được.*
 
-#### Hệ quả 5 {#int-iv-s5-thm-1-cor-5 .statement}
+#### Hệ quả 5 {#int-iv-s5-thm-1-cor-5 .statement tag=08UX}
 
 — *Cho F, G, H là ba không gian vectơ tôpô, và cho (u, v) \to [u \cdot v] là một ánh xạ song tuyến tính liên tục từ F \times G vào H. Nếu f là một ánh xạ đo được từ X vào F, và g là một ánh xạ đo được từ X vào G, thì [f \cdot g] là một ánh xạ đo được từ X vào H.*
 
 Đặc biệt, nếu f là một ánh xạ đo được từ X vào một không gian định chuẩn thực (resp. phức) F, và g là một ánh xạ đo được từ X vào R (resp. C), thì gf là đo được. Nếu F là một *đại số định chuẩn* và f, g là hai ánh xạ đo được từ X vào F, thì fg là đo được.
 
-#### Hệ quả 6 {#int-iv-s5-thm-1-cor-6 .statement}
+#### Hệ quả 6 {#int-iv-s5-thm-1-cor-6 .statement tag=08UY}
 
 — *Nếu f là một ánh xạ đo được từ X vào một không gian định chuẩn F, thì hàm số |f| là đo được.*
 
 ### 4. Giới hạn của các hàm đo được
 
-#### Định lý 2 (Egoroff) {#int-iv-s5-thm-2 .statement}
+#### Định lý 2 (Egoroff) {#int-iv-s5-thm-2 .statement tag=08UZ}
 
 — *Cho X là một không gian compact địa phương, μ một độ đo trên X, A một tập hợp đếm được, $\mathfrak{F}$ một bộ lọc trên A có một cơ sở đếm được, và $(f_\alpha)_{\alpha \in A}$ một họ các ánh xạ đo được từ X vào một không gian khả mêtric F. Giả sử rằng $\lim_{\mathfrak{F}} f_\alpha(x) = f(x)$ tồn tại trên phần bù của một tập con địa phương không đáng kể N của X. Trong các điều kiện đó,
 1° hàm f (được mở rộng lên N theo một cách bất kỳ) là đo được;
@@ -244,13 +244,13 @@ $$
 
 Các kết luận của Th. 2 không nhất thiết còn đúng nếu $F$ không khả mêtric hóa (Exer. 1). Nếu $F$ khả mêtric hóa, và tập hợp $A$ không đếm được nhưng bộ lọc $\mathfrak{F}$ có một cơ sở đếm được, thì kết luận thứ nhất của Th. 2 lại vẫn đúng; thật vậy, nếu $(A_n)$ là một cơ sở đếm được của $\mathfrak{F}$ và $\alpha_n$ là một phần tử của $A_n$, thì $f$ là giới hạn của dãy $(f_{\alpha_n})$ địa phương hầu khắp mọi nơi, nên là đo được; tuy nhiên, kết luận thứ hai của Th. 2 không còn nhất thiết đúng nữa (x. Exer. 4).
 
-#### Hệ quả 1 {#int-iv-s5-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s5-thm-2-cor-1 .statement tag=08V0}
 
 — *Cho* $(f_n)$ *là một dãy các hàm số (hữu hạn hoặc không)*. *Nếu các* $f_n$ *đo được, thì các hàm* $\sup_n f_n$, $\inf_n f_n$, $\limsup_{n \to \infty} f_n$ *và* $\liminf_{n \to \infty} f_n$ *đều đo được*.
 
 Thật vậy, đường thẳng thực mở rộng $\overline{\mathbf{R}}$, do đồng phôi với một khoảng compact của $\mathbf{R}$, là khả mêtric. Hàm $\sup_n f_n$ là giới hạn từng điểm của dãy tăng các hàm $g_n = \sup(f_1, f_2, \ldots, f_n)$, các hàm này đo được (No. 3, Hệ quả 1 của Định lý 1); tương tự, $\limsup_{n \to \infty} f_n$ là giới hạn từng điểm của dãy giảm các hàm $h_n = \sup_{p \geq 0} f_{n+p}$, trong đó mỗi hàm đều đo được theo điều vừa nói trên. Sau cùng, vì $\inf_n f_n = -\sup(-f_n)$ và $\liminf_{n \to \infty} f_n = -\limsup_{n \to \infty} (-f_n)$, các hàm này đo được.
 
-#### Hệ quả 2 {#int-iv-s5-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s5-thm-2-cor-2 .statement tag=08V1}
 
 — *Các tập hợp đo được trong* $X$ *lập thành một bộ lạc* (GT, IX, §6, No. 3).
 
@@ -264,7 +264,7 @@ $$
 
 Đặc biệt, vì các tập mở là đo được:
 
-#### Hệ quả 3 {#int-iv-s5-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#int-iv-s5-thm-2-cor-3 .statement tag=08V2}
 
 *Các tập Borel trong X* (GT, IX, §6, No. 3, Định nghĩa 4) *đều $\mu$-đo được đối với mọi độ đo $\mu$ trên X*.
 
@@ -272,31 +272,31 @@ $$
 
 Khi F là một không gian vectơ tôpô, mọi hàm thang trên các tập hợp đo được (§4, No. 9, Định nghĩa 4), nhận giá trị trong F, hiển nhiên là đo được (No. 3, Hệ quả 3 của Định lý 1); một hàm như vậy $f$ chỉ nhận một số hữu hạn giá trị, và với mọi $y \in F$, $f^{-1}(y)$ là đo được. Nói chung, cho F là một không gian tôpô bất kỳ, $f$ là một ánh xạ từ X vào F chỉ nhận một số hữu hạn giá trị phân biệt $a_i$ ($1 \leq i \leq m$); nếu các tập hợp $A_i = f^{-1}(a_i)$ đo được, thì hàm $f$ đo được. Thật vậy, với mọi tập compact K và với mỗi tập hợp $A_i \cap K$, tồn tại một tập hợp không đáng kể $N_i \subset A_i \cap K$ và một phân hoạch của $A_i \cap K \cap C N_i$ được tạo thành bởi một dãy $(K_{in})$ các tập compact; vì K là hợp của các tập hợp $A_i \cap K$ và hạn chế của $f$ trên mỗi $K_{in}$ là hằng, do đó liên tục, nên $f$ đo được. Do lạm dụng ngôn ngữ, ta sẽ nói rằng một ánh xạ $f$ từ X vào F là một *hàm thang đo được* nếu nó chỉ nhận một số hữu hạn giá trị và nếu, với mọi $y \in F$, $f^{-1}(y)$ đo được.
 
-#### Định lý 3 {#int-iv-s5-thm-3 .statement}
+#### Định lý 3 {#int-iv-s5-thm-3 .statement tag=08V3}
 
 *Để một ánh xạ $f$ từ X vào một không gian khả mêtric F là đo được, điều kiện cần và đủ là, với mọi tập compact $K \subset X$, tồn tại một dãy $(g_n)$ các hàm thang đo được, nhận giá trị trong F, sao cho $g_n(x)$ tiến tới $f(x)$ với hầu khắp mọi $x \in K$*.
 
 Điều kiện là đủ theo định lý Egoroff và nguyên lý địa phương hóa. Hãy chứng minh rằng nó là cần thiết: theo giả thiết, tồn tại một tập không đáng kể $N \subset K$ và một phân hoạch $(K_m)$ của $K - N$ gồm các tập compact sao cho hạn chế của $f$ trên mỗi $K_m$ là liên tục. Để định nghĩa dãy $(g_n)$, chỉ cần tiến hành theo cách sau: lấy $d$ là một metric tương thích với tôpô của F; với mỗi $K_i$ có chỉ số $i \leq n$, tồn tại một phân hoạch hữu hạn của $K_i$ thành các tập khả tích $A_{ij}$ ($1 \leq j \leq q_i$) đủ nhỏ để độ dao động của $f$ trên mỗi $A_{ij}$ là $\leq 1/n$ (§ 4, No. 9, Bổ đề); lấy $g_n$ là hằng trên mỗi $A_{ij}$, bằng một trong các giá trị của $f$ trong tập hợp này (với $1 \leq i \leq n,\ 1 \leq j \leq q_i$), và bằng một phần tử cố định $a \in \mathbf{F}$ tại mọi điểm của $X$ không thuộc bất kỳ $A_{ij}$ nào. Rõ ràng dãy $(g_n(x))$ hội tụ về $f(x)$ tại mọi điểm của $K$ không thuộc $N$.
 
-#### Hệ quả 1 {#int-iv-s5-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s5-thm-3-cor-1 .statement tag=08V4}
 
 *Cho $f$ là một ánh xạ đo được từ $X$ vào một không gian Banach $F$; với mọi tập compact $K \subset X$, tồn tại một dãy $(g_n)$ các hàm bậc thang đo được, có giá đỡ được chứa trong $K$, sao cho $|g_n(x)| \leq |f(x)|$ với mọi $x \in X$ và sao cho $g_n(x)$ tiến tới $f(x)$ với hầu khắp mọi $x \in K$.*
 
 Với các ký hiệu như trong chứng minh của Định lý 3, và ký hiệu bởi $a_{ij}$ một trong các giá trị của $f$ trong $A_{ij}$, chỉ cần lấy, làm giá trị của $g_n$ trong $A_{ij}$, điểm 0 nếu $|a_{ij}| \leq 1/n$ và điểm $a_{ij}(1 - 1/(n|a_{ij}|))$ trong trường hợp ngược lại; sau cùng, đặt $g_n(x) = 0$ trên phần bù của hợp các $A_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq q_i$).
 
-#### Hệ quả 2 {#int-iv-s5-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s5-thm-3-cor-2 .statement tag=08V5}
 
 *Cho $X$ là một không gian địa phương compact đếm được ở vô cực. Nếu $f$ là một ánh xạ đo được từ $X$ vào một không gian khả mêtric $F$, thì tồn tại một dãy $(g_n)$ các hàm bậc thang đo được, nhận giá trị trong $F$, sao cho $g_n(x)$ tiến tới $f(x)$ với hầu khắp mọi $x \in X$.*
 
 Nếu $X$ là hợp của một dãy tăng $(A_n)$ các tập compact, thì các tập $A_n - A_{n-1}$ khác rỗng tạo thành một phân hoạch của $X$ thành các tập hợp khả tích; do đó, tồn tại một tập không đáng kể $N \subset X$ và một phân hoạch của $\mathbf{C}N$ gồm một dãy $(K_n)$ các tập compact sao cho hạn chế của $f$ trên mỗi $K_n$ là liên tục; khi đó có thể kết thúc chứng minh như trong Đl. 3 mà không cần sửa đổi.
 
-#### Mệnh đề 7 {#int-iv-s5-prop-7 .statement}
+#### Mệnh đề 7 {#int-iv-s5-prop-7 .statement tag=08V6}
 
 *Cho $f$ là một ánh xạ đo được từ $X$ vào một không gian tôpô $F$; ảnh ngược theo $f$ của mọi tập đóng (tương ứng, mở) trong $F$ đều đo được.*
 
 Chỉ cần thực hiện chứng minh đối với ảnh ngược $^{-1}f(A)$ của một tập đóng $A$ trong $F$. Cho $K$ là một tập con compact của $X$; tồn tại một tập không đáng kể $N \subset K$ và một phân hoạch $(K_n)$ của $K - N$ gồm các tập compact sao cho hạn chế của $f$ trên mỗi $K_n$ là liên tục. Khi đó giao $K_n \cap ^{-1}f(A)$ là ảnh ngược của tập đóng $A$ theo hạn chế của $f$ trên $K_n$; vì vậy nó là một tập đóng trong $K_n$, nên compact. Do đó tập $K \cap ^{-1}f(A)$ là hợp của tập không đáng kể $N \cap ^{-1}f(A)$ và các tập compact $K_n \cap ^{-1}f(A)$, điều này chứng minh rằng $^{-1}f(A)$ là đo được.
 
-#### Định lý 4 {#int-iv-s5-thm-4 .statement}
+#### Định lý 4 {#int-iv-s5-thm-4 .statement tag=08V7}
 
 — Cho F là một không gian khả mêtric hóa và d là một mêtric trên F tương thích với tôpô. Để một ánh xạ f từ X vào F là đo được, điều kiện cần và đủ là nó thỏa mãn hai điều kiện sau:
 a) ảnh ngược theo f của mọi quả cầu đóng của F là đo được;
@@ -312,21 +312,21 @@ $$
 
 các tập $B_{n,p}$ là đo được, và những tập khác rỗng tạo thành một phân hoạch của $K - N$. Gọi $g_{m,p}$ là hàm bằng $a_i$ trên tập $B_{i,p}$ với $1 \leq i \leq m$ và bằng một hằng $b \in F$ trên phần bù của hợp của các tập ấy; $g_{m,p}$ là một hàm bậc thang đo được; khi $m$ tiến ra vô hạn, $g_{m,p}$ hội tụ điểm đến hàm $f_p$ bằng $a_n$ trên $B_{n,p}$ ($n \geq 1$) và bằng $b$ trên $N \cup C K$, do đó (Định lý 2) $f_p$ là đo được. Khi $p$ tiến ra vô hạn, $f_p(x)$ tiến đến $f(x)$ với mọi $x \in K - N$, và đến $b$ với $x \in N \cup C K$; vì thế giới hạn của các $f_p$ là đo được, và nguyên lý địa phương hóa chứng minh rằng bản thân $f$ là đo được.
 
-#### Nhận xét 1 {#int-iv-s5-n5-rem-1 .statement}
+#### Nhận xét 1 {#int-iv-s5-n5-rem-1 .statement tag=08V8}
 
 Chỉ riêng điều kiện a) không đủ để $f$ đo được (Bài tập 7).
 
-#### Nhận xét 2 {#int-iv-s5-n5-rem-2 .statement}
+#### Nhận xét 2 {#int-iv-s5-n5-rem-2 .statement tag=08V9}
 
 Nếu tôpô của F có một cơ sở đếm được thì điều kiện b) của Định lý 4 tự động được thỏa mãn đối với mọi ánh xạ từ X vào F. Hơn nữa, chứng minh cho thấy rằng chỉ cần giả thiết các ảnh ngược qua $f$ của các quả cầu đóng có bán kính hữu tỉ, với tâm thuộc một tập con đếm được trù mật của F, là các tập hợp đo được.
 
-#### Nhận xét 3 {#int-iv-s5-n5-rem-3 .statement}
+#### Nhận xét 3 {#int-iv-s5-n5-rem-3 .statement tag=08VA}
 
 Giả thiết a) có thể được thay bằng điều kiện rằng ảnh ngược qua $f$ của mọi quả cầu mở của F đều đo được.
 
 Trường hợp các hàm số (hữu hạn hoặc không) đáng được nói riêng:
 
-#### Mệnh đề 8 {#int-iv-s5-prop-8 .statement}
+#### Mệnh đề 8 {#int-iv-s5-prop-8 .statement tag=08VB}
 
 — Cho D là một tập con đếm được trù mật của $\mathbf{R}$. Để một hàm số $f$ (hữu hạn hoặc không) là đo được, điều kiện đủ (và cần) là với mọi $a \in D$, tập hợp các $x \in X$ sao cho $f(x) \geq a$ là đo được.
 
@@ -334,7 +334,7 @@ Thật vậy, nếu như vậy thì, với mọi $b \in \overline{\mathbf{R}}$, 
 
 Tương tự, người ta có thể chứng minh rằng chỉ cần với mọi $a \in \mathrm{D}$, tập hợp các $x$ sao cho $f(x) > a$ là đo được.
 
-#### Hệ quả {#int-iv-s5-n5-cor-1 .statement}
+#### Hệ quả {#int-iv-s5-n5-cor-1 .statement tag=08VC}
 
 — *Mọi hàm nửa liên tục dưới* (ứng với *nửa liên tục trên*) *đều đo được*.
 
@@ -342,13 +342,13 @@ Thật vậy, nếu $f$ là nửa liên tục dưới, thì tập hợp các $x 
 
 Khi F khả mêtric và *compact*, Mệnh đề 7 cho phép làm sắc bén hơn Định lý 3 như sau:
 
-#### Mệnh đề 9 {#int-iv-s5-prop-9 .statement}
+#### Mệnh đề 9 {#int-iv-s5-prop-9 .statement tag=08VD}
 
 — *Nếu F là một không gian compact khả mêtric, thì mọi ánh xạ đo được $f$ từ X vào F đều là giới hạn đều (trên toàn bộ X) của một dãy các hàm bậc thang đo được*.
 
 Gọi $d$ là một metric tương thích với tôpô của F. Với mỗi số nguyên dương $n$ tồn tại một số *hữu hạn* các điểm $a_k \in \mathrm{F}$ sao cho các quả cầu đóng $B_k$ tâm $a_k$ và bán kính $1/n$ tạo thành một phủ của F; do đó các tập hợp $A_k = f^{-1}(B_k)$ là đo được (Mệnh đề 7) và tạo thành một phủ của X. Do đó (§ 4, No. 9, Bổ đề) tồn tại một phân hoạch $(C_i)$ của X thành một số hữu hạn các tập hợp đo được sao cho mỗi $A_k$ là hợp của một số $C_i$ nào đó. Gọi $c_i$ là một điểm của $C_i$ và gọi $g_n$ là hàm bậc thang đo được bằng $f(c_i)$ trên $C_i$ (với mỗi chỉ số $i$). Hiển nhiên là $d(f(x), g_n(x)) \leqslant 2/n$ với mọi $x \in \mathrm{X}$.
 
-#### Mệnh đề 10 {#int-iv-s5-prop-10 .statement}
+#### Mệnh đề 10 {#int-iv-s5-prop-10 .statement tag=08VE}
 
 — *Cho F là một không gian Banach tách được, F' là đối ngẫu của nó, và $(\mathbf{a}'_n)$ là một dãy trù mật yếu trong quả cầu đơn vị của F' (TVS, III, § 3, No. 4, Hệ quả 2 của Mệnh đề 6).*¹ *Để một ánh xạ f từ X vào F là đo được, điều kiện cần và đủ là với mọi n hàm vô hướng $x \mapsto \langle \mathbf{f}(x), \mathbf{a}'_n \rangle$ là đo được*.
 
@@ -370,7 +370,7 @@ $$
 
 vì các tập hợp này là đo được theo giả thiết, $A$ là đo được.
 
-#### Hệ quả 1 {#int-iv-s5-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s5-prop-10-cor-1 .statement tag=08VF}
 
 *Cho F là một không gian Banach. Để một ánh xạ f từ X vào F là đo được, điều kiện cần và đủ là nó thỏa mãn hai điều kiện sau:*
 
@@ -380,13 +380,13 @@ b) *với mọi tập compact $K \subset X$, tồn tại một tập con đếm 
 
 Tính cần thiết của các điều kiện suy ra từ No. 3, Định lý 1, và Định lý 4. Để chứng minh rằng các điều kiện là đủ, ở đây cũng chỉ cần kiểm tra điều kiện a) của Định lý 4. Với các ký hiệu như trong chứng minh của Mệnh đề 10, ta có thể (do b)) giả sử, sau khi sửa đổi $f$ nếu cần trên một tập không đáng kể, rằng $f(K) \subset \overline{H}$, trong đó $H$ là một tập con đếm được của $F$. Nếu $V$ là không gian con tuyến tính đóng của $F$ được sinh bởi tập hợp $H \cup \{a\}$, thì $V$ là một không gian Banach tách được và mọi dạng tuyến tính liên tục trên $V$ đều là hạn chế của một dạng $a' \in F'$; cùng một lập luận như trong Mệnh đề 10 khi đó cho thấy rằng $K \cap f^{-1}(B)$ là đo được.
 
-#### Hệ quả 2 {#int-iv-s5-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s5-prop-10-cor-2 .statement tag=08VG}
 
 *Cho F là một không gian lồi địa phương vừa khả mêtric vừa tách được, và gọi $F'$ là đối ngẫu của nó. Để một ánh xạ f từ X vào F là đo được, điều kiện cần và đủ là với mọi $a' \in F'$, hàm vô hướng $x \mapsto \langle f(x), a' \rangle$ là đo được.*
 
 Ta có thể xem F như một không gian con của một tích đếm được $\prod_n E_n$ của các không gian Banach (TVS, II, §4, No. 3), và ta có thể giả sử rằng $\operatorname{pr}_n(F)$ là trù mật trong $E_n$, do đó $E_n$ là tách được. Với mọi $n$, ánh xạ $\operatorname{pr}_n \circ f$ khi đó là đo được theo Mệnh đề 10, do đó $f$ là đo được theo No. 3, Định lý 1.
 
-#### Mệnh đề 11 {#int-iv-s5-prop-11 .statement}
+#### Mệnh đề 11 {#int-iv-s5-prop-11 .statement tag=08VH}
 
 *Cho F là một không gian lồi địa phương là giới hạn trực tiếp của một dãy các không gian lồi địa phương khả mêtric tách được $F_n$, F là hợp của các $F_n$. Cho $F'$ là đối ngẫu của F, được trang bị tôpô yếu $\sigma(F', F)$. Để một ánh xạ f từ X vào $F'$ là đo được, điều kiện cần và đủ là, với mọi $a \in F$, hàm vô hướng $x \mapsto \langle a, f(x) \rangle$ là đo được.*
 
@@ -396,7 +396,7 @@ Hãy chuyển sang trường hợp tổng quát. Nếu $z'$ là một dạng tuy
 
 ### 6. Các tiêu chuẩn về tính khả tích
 
-#### Định lý 5 {#int-iv-s5-thm-5 .statement}
+#### Định lý 5 {#int-iv-s5-thm-5 .statement tag=08VI}
 
 — Để một ánh xạ f từ X vào một không gian Banach F là khả tích lũy thừa bậc p ($1 \leq p < +\infty$), điều kiện cần và đủ là f đo được và $N_p(f)$ là hữu hạn.
 
@@ -404,7 +404,7 @@ Hãy chuyển sang trường hợp tổng quát. Nếu $z'$ là một dạng tuy
 
 Để chứng minh rằng các điều kiện là đủ, trước hết ta thiết lập một bổ đề:
 
-#### Bổ đề 1 {#int-iv-s5-lem-1 .statement}
+#### Bổ đề 1 {#int-iv-s5-lem-1 .statement tag=08VJ}
 
 *Cho g là một hàm nhận giá trị trong F, sao cho N_p(g) < +\infty* (nói cách khác, một hàm trong $\mathscr{F}_F^p$). *Tập hợp A các điểm x \in X sao cho g(x) \neq 0 được chứa trong hợp của một tập không đáng kể và một dãy các tập compact.*
 
@@ -416,17 +416,17 @@ Trong trường hợp tổng quát, từ Bổ đề 1 suy ra rằng tồn tại 
 
 Cần chú ý rằng một hàm *địa phương không đáng kể nhưng không không đáng kể* thì không khả tích; do đó, một hàm bằng *địa phương hầu khắp nơi* với một hàm khả tích không nhất thiết là khả tích.
 
-#### Hệ quả 1 {#int-iv-s5-lem-1-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s5-lem-1-cor-1 .statement tag=08VK}
 
 *Để một tập hợp là khả tích, điều kiện cần và đủ là nó đo được và có độ đo ngoài hữu hạn.*
 
-#### Hệ quả 2 {#int-iv-s5-lem-1-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s5-lem-1-cor-2 .statement tag=08VL}
 
 *Cho $(F_n)$ là một dãy các không gian tôpô; với mọi chỉ số n, gọi $f_n$ là một ánh xạ đo được từ X vào $F_n$ và đặt $f(x) = (f_n(x)) \in F = \prod_n F_n$; sau cùng, gọi u là một ánh xạ liên tục từ $f(X)$ vào một không gian Banach G. Để hàm $g(x) = u(f(x))$ khả tích, điều kiện cần và đủ là $N_1(g) < +\infty$.*
 
 Thật vậy, g là đo được (No. 3, Định lý 1).
 
-#### Hệ quả 3 {#int-iv-s5-lem-1-cor-3 .statement}
+#### Hệ quả 3 {#int-iv-s5-lem-1-cor-3 .statement tag=08VM}
 
 *Với mọi hàm khả tích f và mọi tập hợp đo được A, hàm $f \varphi_A$ là khả tích.*
 
@@ -434,7 +434,7 @@ Thật vậy, từ Định lý 5 và No. 3, Hệ quả 5 của Định lý 1 suy
 
 Ta viết $\int_A f d\mu = \int f \varphi_A d\mu$ (hoặc $\int_A f \mu$) với mọi hàm khả tích $f$ và mọi tập hợp đo được $A$. Ta cũng viết $\int^* f d|\mu|$ (hoặc $\int^*_A f |\mu|$) thay cho $\int^* f \varphi_A d|\mu|$ với mọi hàm số (hữu hạn hoặc không) $f \geqslant 0$ (đặt $f(x)\varphi_A(x) = 0$ nếu $f(x) = +\infty$ và $\varphi_A(x) = 0$).
 
-#### Hệ quả 4 {#int-iv-s5-lem-1-cor-4 .statement}
+#### Hệ quả 4 {#int-iv-s5-lem-1-cor-4 .statement tag=08VN}
 
 *Với mọi dãy* $(f_n)$ *các hàm đo được* $\geqslant 0$ *trên* $X$,
 
@@ -450,7 +450,7 @@ $$
 
 Điều này chỉ là tính cộng của tích phân khi $f$ và $g$ khả tích. Trong trường hợp ngược lại, nếu chẳng hạn $f$ không khả tích, thì $\int^* f d|\mu| = +\infty$ theo Th. 5; *a fortiori*, $\int^*(f + g) d|\mu| = +\infty$.
 
-#### Hệ quả 5 {#int-iv-s5-lem-1-cor-5 .statement}
+#### Hệ quả 5 {#int-iv-s5-lem-1-cor-5 .statement tag=08VO}
 
 *Với mọi dãy* $(A_n)$ *gồm các tập hợp đo được rời nhau từng đôi một*,
 
@@ -464,7 +464,7 @@ $$
 
 Cho $X$ là một không gian compact địa phương, $\mu$ một độ đo trên $X$, và $Y$ là một *không gian con compact địa phương* của $X$. Vì $Y$ là giao của một tập hợp mở và một tập hợp đóng trong $X$ (GT, I, §9, No. 7, Mệnh đề 12), nên nó là $\mu$-đo được (No. 1, Hệ quả của Mệnh đề 3). Với mọi hàm $g \in \mathscr{H}(Y; \mathbf{C})$, gọi $g'$ là hàm, xác định trên toàn bộ $X$, bằng $g$ trên $Y$ và bằng 0 trên $X - Y$; ta sẽ chỉ ra rằng $g'$ là $\mu$-*khả tích*. Ta có thể hạn chế vào trường hợp $g$ là hàm thực và $\geqslant 0$ (viết $g$ như một tổ hợp tuyến tính của các hàm như vậy); vì $g'$ bị chặn và có giá compact, chỉ cần chỉ ra rằng $g'$ là $\mu$-đo được (No. 6, Th. 5); nhưng điều này suy ra từ việc $g'$ là nửa liên tục trên trên $X$ (No. 5, Hệ quả của Mệnh đề 8). Do đó ta có thể đưa ra định nghĩa sau đây:
 
-#### Định nghĩa 4 {#int-iv-s5-def-4 .statement}
+#### Định nghĩa 4 {#int-iv-s5-def-4 .statement tag=08VP}
 
 — *Cho Y là một không gian con compact địa phương của một không gian compact địa phương X, ta gọi độ đo cảm sinh trên Y bởi một độ đo $\mu$ trên X, và ký hiệu là $\mu_Y$ hoặc $\mu|Y$, là độ đo được xác định bởi công thức*
 
@@ -474,7 +474,7 @@ $$
 
 *đối với mọi hàm $g \in \mathscr{K}(Y; \mathbf{C})$, trong đó $g'$ ký hiệu hàm bằng $g$ trên $Y$ và bằng 0 trên $X - Y$.*
 
-#### Ví dụ {#int-iv-s5-n7-exa-1 .statement}
+#### Ví dụ {#int-iv-s5-n7-exa-1 .statement tag=08VQ}
 
 — Cho $\mu$ là độ đo Lebesgue trên $\mathbf{R}$, I là *bất kỳ* khoảng nào trong $\mathbf{R}$; I là một không gian con compact địa phương của $\mathbf{R}$, và độ đo cảm sinh bởi $\mu$ trên I là dạng tuyến tính
 
@@ -488,7 +488,7 @@ Khi Y là một không gian con *mở* của X, Định nghĩa 4 trùng với đ
 
 Ta sẽ nghiên cứu chi tiết phép tích phân đối với một độ đo cảm sinh trong Ch. V, §7, và cho đến lúc đó ta sẽ chỉ cần những kết quả sau đây:
 
-#### Bổ đề 2 {#int-iv-s5-lem-2 .statement}
+#### Bổ đề 2 {#int-iv-s5-lem-2 .statement tag=08VR}
 
 — *Cho $\mu$ là một độ đo dương trên X, và cho K là một tập con compact của X.*
 
@@ -510,7 +510,7 @@ theo (1).
 
 (iii) Với mọi tập mở U trong K cắt S, theo giả thiết $\mu_K(U \cap S) \neq 0$, do đó $\mu(U \cap S) \neq 0$ theo (i), và vì $U \cap S$ là mở trong S, nên $\mu_S(U \cap S) \neq 0$ theo (i); vì mọi tập mở khác rỗng trong S đều có dạng $U \cap S$, trong đó U là mở trong K, điều này chứng tỏ rằng $\operatorname{Supp}(\mu_S) = S$.
 
-#### Bổ đề 3 {#int-iv-s5-lem-3 .statement}
+#### Bổ đề 3 {#int-iv-s5-lem-3 .statement tag=08VS}
 
 *Cho Y là một không gian con địa phương compact của X; với mọi độ đo $\mu$ trên X, $|\mu_Y| = |\mu|_Y$.*
 
@@ -548,7 +548,7 @@ và vì $\varepsilon$ là tùy ý, $|\mu|_Y(f) \leq |\mu_Y|(f)$, điều này ho
 
 ### 8. Các họ các tập compact $\mu$-trù mật
 
-#### Mệnh đề 12 {#int-iv-s5-prop-12 .statement}
+#### Mệnh đề 12 {#int-iv-s5-prop-12 .statement tag=08VT}
 
 — Cho $\mu$ là một độ đo trên một không gian compact địa phương $X$, $A$ là một tập con $\mu$-đo được của $X$, và $\mathscr{K}$ là một tập hợp các tập con compact của $A$ thỏa mãn các điều kiện sau:
 (PLI) Mọi tập con đóng (do đó compact) của một tập hợp thuộc $\mathscr{K}$ đều thuộc $\mathscr{K}$.
@@ -569,7 +569,7 @@ $$
 
 Nhưng $L_n \cup H$ thuộc $\mathscr{K}$ theo (PLII), và điều này mâu thuẫn với định nghĩa của $\alpha$.
 
-#### Định nghĩa 6 {#int-iv-s5-def-6 .statement}
+#### Định nghĩa 6 {#int-iv-s5-def-6 .statement tag=08VU}
 
 — Cho $A$ là một tập con $\mu$-đo được của $X$. Một tập hợp $\mathscr{K}$ các tập con compac của $A$ được gọi là $\mu$-trù mật trong $A$ nếu nó thỏa mãn các điều kiện (PLI), (PLII), $a), b), c), d)$ của Mệnh đề 12.
 
@@ -577,13 +577,13 @@ Tập hợp các tập con compac của $A$ là $\mu$-trù mật trong $A$.
 
 Khi $A = X$, ta sẽ nói đơn giản ' tập hợp $\mu$-trù mật' thay cho 'tập hợp $\mu$-trù mật trong $X$'. Nếu $X - A$ địa phương $\mu$-không đáng kể, thì mọi tập hợp các tập con compac của $A$ mà $\mu$-trù mật trong $A$ cũng đều $\mu$-trù mật trong $X$.
 
-#### Nhận xét {#int-iv-s5-n8-rem-1 .statement}
+#### Nhận xét {#int-iv-s5-n8-rem-1 .statement tag=08VV}
 
 — Giả sử rằng $A$ là hợp của một dãy $(L_n)$ các tập compact và một tập hợp $\mu$-không đáng kể (resp. địa phương $\mu$-không đáng kể), và gọi $\mathscr{K}$ là một tập hợp các tập con compact $\mu$-trù mật trong $A$. Áp dụng cho mỗi $L_n$ tính chất *c*) của mệnh đề của Mệnh đề 12, ta thấy rằng $A$ là hợp của một dãy các tập compact *thuộc* $\mathscr{K}$ và một tập hợp $\mu$-không đáng kể (resp. địa phương $\mu$-không đáng kể).
 
 Nếu $K$ là một tập con compact của $X$, thì nói rằng một tập hợp các tập con compact của $K$ là $\mu$-trù mật trong $K$ hay là nó $\mu_K$-*trù mật* trong $K$ cũng như nhau; điều này suy ra từ các Bổ đề 2 và 3 của No. 7 và điều kiện *b*) của Mệnh đề 12.
 
-#### Mệnh đề 13 {#int-iv-s5-prop-13 .statement}
+#### Mệnh đề 13 {#int-iv-s5-prop-13 .statement tag=08VW}
 
 *Cho $A$ là một tập con $\mu$-đo được của $X$, $\mathscr{K}$ là một tập hợp các tập con compact $\mu$-trù mật trong $A$. Gọi $\mathfrak{H}$ là một tập hợp các tập con compact của $A$ thỏa mãn (PL$_I$) và (PL$_{II}$) và sao cho, với mọi $K \in \mathscr{K}$, tập hợp các $H \in \mathfrak{H}$ sao cho $H \subset K$ là $\mu_K$-*trù mật* (hay, điều này cũng tương đương, $\mu$-*trù mật*) trong $K$. Khi đó $\mathfrak{H}$ là $\mu$-trù mật trong $A$.*
 
@@ -591,7 +591,7 @@ Thật vậy, cho $L$ là một tập con compact của $A$. Với mọi $\varep
 
 ### 9. Các phân hoạch đếm được địa phương
 
-#### Định nghĩa 7 {#int-iv-s5-def-7 .statement}
+#### Định nghĩa 7 {#int-iv-s5-def-7 .statement tag=08VX}
 
 *Một tập hợp $\mathfrak{A}$ các tập con của một không gian tôpô $T$ được gọi là *đếm được địa phương* nếu, với mọi $t \in T$, tồn tại một lân cận $V$ của $t$ sao cho tập hợp các $A \in \mathfrak{A}$ cắt $V$ là đếm được.*
 
@@ -599,7 +599,7 @@ Nếu tập hợp $\mathfrak{A}$ các tập con của $T$ là đếm được đ
 
 Định nghĩa 7 cho thấy *hợp* của một tập đếm được địa phương các tập con $\mu$-đo được (tương ứng, địa phương $\mu$-không đáng kể) của một không gian compact địa phương là $\mu$-đo được (tương ứng, địa phương $\mu$-không đáng kể) (No. 1, Mệnh đề 3 và No. 2, Mệnh đề 5).
 
-#### Mệnh đề 14 {#int-iv-s5-prop-14 .statement}
+#### Mệnh đề 14 {#int-iv-s5-prop-14 .statement tag=08VY}
 
 *Cho $X$ là một không gian compact địa phương, $\mu$ là một độ đo trên $X$, $A$ là một tập con $\mu$-đo được của $X$, và $\mathscr{K}$ là một tập hợp các tập con compact của $A$ mà $\mu$-trù mật trong $A$. Tồn tại một tập đếm được địa phương $\mathfrak{H} \subset \mathscr{K}$, gồm các tập đôi một rời nhau, sao cho $A - \bigcup_{K \in \mathfrak{H}} K$ là địa phương $\mu$-không đáng kể và sao cho, với mọi $K \in \mathfrak{H}$, giá của $\mu_K$ là toàn bộ $K$.*
 
@@ -619,7 +619,7 @@ và vì $|\mu|(K \cap V) > 0$ đối với mọi $K \in \mathfrak{H}_V$, nên $\
 
 ### 10. Các ánh xạ đo được xác định trên một tập con đo được
 
-#### Mệnh đề 15 {#int-iv-s5-prop-15 .statement}
+#### Mệnh đề 15 {#int-iv-s5-prop-15 .statement tag=08VZ}
 
 *Cho $X$ là một không gian compact địa phương, $\mu$ một độ đo trên $X$, $A$ một tập con $\mu$-đo được của $X$, và $f$ một ánh xạ từ $A$ vào một không gian tôpô $F$. Các điều kiện sau là tương đương:
 
@@ -639,25 +639,25 @@ $$
 
 Mặt khác, tồn tại một tập hợp $H \in \mathscr{H}$ được chứa trong $P$ sao cho $|\mu|(P - H) \leq \varepsilon/2$; khi đó hạn chế của $g$ lên tập compact $K = H \cup Q$ là liên tục ($g$ hằng trên $Q$) và $|\mu|(L - K) \leq \varepsilon$, điều này hoàn tất chứng minh.
 
-#### Định nghĩa 8 {#int-iv-s5-def-8 .statement}
+#### Định nghĩa 8 {#int-iv-s5-def-8 .statement tag=08W0}
 
 *Cho $X$ là một không gian compact địa phương, $\mu$ là một độ đo trên $X$, và $A$ là một tập con $\mu$-đo được của $X$. Một ánh xạ $f$ từ $A$ vào một không gian tôpô $F$ được gọi là $\mu$-đo được nếu nó thỏa mãn các điều kiện tương đương của Mệnh đề 15.*
 
 Nếu $A$ là địa phương $\mu$-không đáng kể, thì *mọi* ánh xạ từ $A$ vào $F$ do đó đều là $\mu$-đo được.
 
-#### Hệ quả 1 {#int-iv-s5-def-8-cor-1 .statement}
+#### Hệ quả 1 {#int-iv-s5-def-8-cor-1 .statement tag=08W1}
 
 *Cho $X$ là một không gian compact địa phương, $\mu$ là một độ đo trên $X$, $A$ là một tập con $\mu$-đo được của $X$, và $f$ là một ánh xạ $\mu$-đo được từ $A$ vào một không gian tôpô $F$. Cho $\mathscr{K}$ là một tập hợp các tập con compact của $X$, $\mu$-trù mật trong $X$. Khi đó, tồn tại một phân hoạch của $A$ gồm một tập địa phương không đáng kể $N$ và một họ đếm được địa phương $(K_\lambda)_{\lambda \in L}$ các tập hợp $K_\lambda \in \mathscr{K}$, sao cho $f|K_\lambda$ liên tục với mọi $\lambda \in L$.
 
 Theo No. 9, Mệnh đề 14, chỉ cần chứng minh rằng tập hợp $\mathscr{H} \subset \mathscr{K}$ các tập con $K \in \mathscr{K}$ sao cho $K \subset A$ và $f|K$ liên tục, là $\mu$-trù mật trong $A$. Bây giờ, suy ra ngay từ Mệnh đề 1 của No. 1 và điều kiện d) của Mệnh đề 15 rằng, với mọi tập con compact $K_0$ của $A$ và mọi $\varepsilon > 0$, tồn tại một tập con $K \subset K_0$ thuộc $\mathscr{K}$ sao cho $|\mu|(K_0 - K) \leq \varepsilon$ và $f|K$ liên tục; do đó kết luận suy ra từ Mệnh đề 12 của No. 8.
 
-#### Hệ quả 2 {#int-iv-s5-def-8-cor-2 .statement}
+#### Hệ quả 2 {#int-iv-s5-def-8-cor-2 .statement tag=08W2}
 
 *Cho $K$ là một không gian con compact của $X$; để một ánh xạ $f$ từ $K$ vào một không gian tôpô $F$ là $\mu$-đo được, điều cần và đủ là nó $\mu_K$-đo được.*
 
 Theo Bổ đề 2 của No. 7, điều này suy ra ngay từ Mệnh đề 1 của No. 1 và điều kiện a) của Mệnh đề 15.
 
-#### Mệnh đề 16 {#int-iv-s5-prop-16 .statement}
+#### Mệnh đề 16 {#int-iv-s5-prop-16 .statement tag=08W3}
 
 *Cho $\mathfrak{A}$ là một tập hợp đếm được địa phương các tập con $\mu$-đo được của $X$ và đặt $B = \bigcup_{A \in \mathfrak{A}} A$. Để một ánh xạ $f$ từ $B$ vào một không gian tôpô $F$ là $\mu$-đo được, điều cần và đủ là hạn chế của $f$ trên mọi $A \in \mathfrak{A}$ là $\mu$-đo được.*
 
@@ -685,7 +685,7 @@ $$
 
 Chú ý rằng khi $K$ chạy qua một hệ $\mu$-trù mật $\mathfrak{K}$ các tập con *compact* của $A$, thì các tập hợp $W(V, K, \delta)$ cũng tạo thành một hệ cơ bản các lân cận đều cho cấu trúc đều nói trên: thật vậy, với mọi tập hợp khả tích $B \subset A$, tồn tại một tập compact $K \in \mathfrak{K}$ được chứa trong $B$ sao cho $|\mu|(B - K) \leq \delta$, và do đó $W(V, K, \delta) \subset W(V, B, 2\delta)$.
 
-#### Định nghĩa 9 {#int-iv-s5-def-9 .statement}
+#### Định nghĩa 9 {#int-iv-s5-def-9 .statement tag=08W4}
 
 *Cấu trúc đều trên $\mathscr{S}(A, \mu; F)$ mà trong đó các $W(V, B, \delta)$ tạo thành một hệ cơ bản các lân cận đều được gọi là cấu trúc đều của sự hội tụ theo độ đo trong $A$.*.
 
@@ -695,7 +695,7 @@ Giả sử $F$ là *Hausdorff*; khi đó, với mọi tập $B \subset A$ là $\
 
 Từ đó suy ra rằng nếu $F$ là Hausdorff, thì giao của *mọi* lân cận của $\mathscr{S}(A, \mu; F)$ là tập các cặp $(f, g)$ sao cho $f(x) = g(x)$ *hầu khắp địa phương trên $A$*. Vậy không gian đều Hausdorff liên kết với $\mathscr{S}(A, \mu; F)$, mà ta sẽ ký hiệu là $S(A, \mu; F)$ hoặc $S_F(A, \mu)$ (hoặc cả $S_F(\mu)$ hay $S_F$ khi $A = X$), do đó gồm các *lớp tương đương* đối với quan hệ « $f(x) = g(x)$ hầu khắp địa phương trên $A$ » trong tập $\mathscr{S}(A, \mu; F)$.
 
-#### Mệnh đề 17 {#int-iv-s5-prop-17 .statement}
+#### Mệnh đề 17 {#int-iv-s5-prop-17 .statement tag=08W5}
 
 — Cho $(A_\lambda)_{\lambda \in L}$ là một họ đếm được địa phương các tập con $\mu$-đo được của $A$, rời nhau từng đôi một và sao cho $A - \bigcup_{\lambda \in L} A_\lambda$ là $\mu$-không đáng kể địa phương. Nếu, với mọi lớp $f \in S(A, \mu; F)$ và mọi $\lambda \in L$, $f_\lambda$ ký hiệu lớp của hạn chế trên $A_\lambda$ của một hàm bất kỳ trong lớp $f$, thì ánh xạ $\psi : f \mapsto (f_\lambda)_{\lambda \in L}$ là một đẳng cấu của không gian đều $S(A, \mu; F)$ lên không gian đều tích $\prod_{\lambda \in L} S(A_\lambda, \mu; F)$.
 
@@ -707,13 +707,13 @@ $$
 
 Ảnh của $T$ dưới $\psi \times \psi$ khi đó được chứa trong ảnh chính tắc của tích $\prod_{\lambda \in H} W(V, B \cap A_\lambda, \delta)$. Mặt khác, nếu $m$ là số phần tử của $H$, thì ảnh của $T$ dưới $\psi \times \psi$ chứa ảnh chính tắc của lân cận $\prod_{\lambda \in H} W(V, A_\lambda, \delta/2m)$, điều này chứng minh mệnh đề.
 
-#### Mệnh đề 18 {#int-iv-s5-prop-18 .statement}
+#### Mệnh đề 18 {#int-iv-s5-prop-18 .statement tag=08W6}
 
 — *Nếu $F$ khả mêtric, và $A$ là hợp của một tập hợp địa phương $\mu$-không đáng kể và một dãy $(A_n)$ các tập hợp $\mu$-khả tích, thì không gian $S(A, \mu; F)$ là khả mêtric.*
 
 Vì mỗi $A_n$ là hợp của một tập hợp không đáng kể và một dãy các tập compact, ta có thể giả sử rằng các $A_n$ đã là *compact* và từng đôi một rời nhau. Khi đó Mệnh đề 17 cho phép ta giả sử rằng $A$ là compact. Nếu $(V_n)$ là một hệ cơ bản đếm được các lân cận của $F$, thì hiển nhiên các $W(V_n, A, 1/n)$ tạo thành một hệ cơ bản các lân cận của $S(A, \mu; F)$ khi $n$ chạy qua $\mathbf{N}$, do đó suy ra mệnh đề.
 
-#### Bổ đề 4 {#int-iv-s5-lem-4 .statement}
+#### Bổ đề 4 {#int-iv-s5-lem-4 .statement tag=08W7}
 
 — *Cho $F$ là một không gian đều khả mêtric, và cho $B \subset A$ là một hợp đếm được của các tập hợp $\mu$-khả tích. Khi đó, với mọi dãy Cauchy $(f_n)$ trong $S(A, \mu; F)$, tồn tại một dãy con $(f_{n_k})$ của $(f_n)$ sao cho $(f_{n_k}(x))$ là một dãy Cauchy trong $F$ với hầu khắp mọi $x \in B$.*
 
@@ -729,7 +729,7 @@ và, với mọi $x \in B - M_m$, ta có $d(f_{mn}(x), f_{m,n+p}(x)) \leq 1/2^{m
 
 Nếu bây giờ $B$ là hợp của một dãy $(B_m)$ các tập hợp khả tích, ta có thể định nghĩa đệ quy một dãy kép $(g_{mn})$ sao cho $g_{0n} = f_n$, $(g_{mn})_{n \geq 0}$ là một dãy con của $(g_{m-1,n})_{n \geq 0}$ với mọi $m > 0$, và sao cho dãy $(g_{mn}(x))_{n \geq 0}$ là một dãy Cauchy trong $B_m - P_m$, trong đó $P_m$ là không đáng kể. Đặt $h_n = g_{nn}$ với mọi $n \geq 0$, để rồi, với mọi $m$, dãy $(h_n)_{n \geq m}$ là một dãy con của $(g_{mn})_{n \geq 0}$; khi đó dãy $(h_n(x))_{n \geq 0}$ là một dãy Cauchy trong $F$ với mọi $x \in B - P$, trong đó $P = \bigcup_{m=0}^{\infty} P_m$ là không đáng kể.
 
-#### Mệnh đề 19 {#int-iv-s5-prop-19 .statement}
+#### Mệnh đề 19 {#int-iv-s5-prop-19 .statement tag=08W8}
 
 *Nếu không gian đều $F$ là mêtrizable và đầy đủ, thì không gian đều $S(A, \mu; F)$ là đầy đủ.*
 
@@ -737,7 +737,7 @@ Tồn tại một họ địa phương đếm được $(K_{\lambda})_{\lambda \
 
 Q.E.D.
 
-#### Hệ quả {#int-iv-s5-n11-cor-1 .statement}
+#### Hệ quả {#int-iv-s5-n11-cor-1 .statement tag=08W9}
 
 — Cho F là một không gian đều có thể mêtric hóa.
 
@@ -749,7 +749,7 @@ Q.E.D.
 
 (ii) Theo Bổ đề 4, tồn tại một dãy con $(f_{n_k})$ của $(f_n)$ sao cho $(f_{n_k}(x))$ là một dãy Cauchy trong F với mọi $x \in B - N$, ở đây N là không đáng kể; gọi $f'(x) \in \widehat{F}$ là giới hạn của dãy này với $x \in B - N$. Hiển nhiên $f'$ là một ánh xạ $\mu$-đo được từ $B - N$ vào $\widehat{F}$, và dãy $(f_n)$ hội tụ theo độ đo tới $f'$ trong $B - N$ theo (i); do đó $f'$ bằng $f$ hầu khắp trong B.
 
-#### Mệnh đề 20 {#int-iv-s5-prop-20 .statement}
+#### Mệnh đề 20 {#int-iv-s5-prop-20 .statement tag=08WA}
 
 — Cho F là một không gian Banach, được trang bị cấu trúc đều xác định bởi chuẩn của nó.
 
@@ -771,12 +771,12 @@ do đó $|\mu|^*(C) \leq \delta$, điều này chứng minh (iii).
 
 (ii) Theo (iii), chẳng hạn chỉ cần chỉ ra rằng $\mathscr{L}_F^1$ trù mật trong $\mathscr{S}_F$, vì theo định nghĩa $\mathscr{H}(X; F)$ là trù mật trong $\mathscr{L}_F^1$ đối với tôpô hội tụ trung bình. Bây giờ, gọi $f$ là một phần tử bất kỳ của $\mathscr{S}_F$ và $T(B, \delta)$ là một lân cận của 0 trong không gian này; ta thấy như trong (i) rằng tồn tại một tập con khả tích $C$ của $B$ sao cho $|\mu|(C) \leq \delta$ và sao cho $f$ là *bị chặn* trên $B - C$; khi đó ký hiệu bởi $g$ hàm bằng $f$ trên $B - C$ và bằng 0 trên $X - (B - C)$, suy ra từ No. 6, Th. 5 rằng $g$ là khả tích, và hiển nhiên $f - g \in T(B, \delta)$.
 
-#### Nhận xét {#int-iv-s5-n11-rem-1 .statement}
+#### Nhận xét {#int-iv-s5-n11-rem-1 .statement tag=08WB}
 
 — 1) Không gian vectơ tôpô $\mathscr{S}(X, \mu; F)$ không nhất thiết lồi địa phương (Bài tập 24).
 2) Tôpô cảm sinh trên tập hợp các $f$ sao cho $N_p(f) \leq 1$ bởi tôpô hội tụ theo độ đo có thể thực sự thô hơn tôpô cảm sinh trên tập hợp này bởi tôpô hội tụ trong trung bình cấp $p$ (Bài tập 22). Tuy nhiên, xem Mệnh đề 21 dưới đây.
 
-#### Định nghĩa 10 {#int-iv-s5-def-10 .statement}
+#### Định nghĩa 10 {#int-iv-s5-def-10 .statement tag=08WC}
 
 *Cho $X$ là một không gian địa phương compact, $\mu$ là một độ đo trên $X$, $F$ là một không gian Banach, và $p \in [1, +\infty[$. Một tập con $H$ của $\mathscr{L}_F^p(X, \mu)$ được gọi là đồng khả tích cấp $p$ (đối với $\mu$) nếu nó thỏa mãn các điều kiện sau:*
 
@@ -790,11 +790,11 @@ $$
 
 Khi $p = 1$ ta nói 'đồng khả tích' thay cho 'đồng khả tích cấp 1'.
 
-#### Nhận xét {#int-iv-s5-n11-rem-2 .statement}
+#### Nhận xét {#int-iv-s5-n11-rem-2 .statement tag=08WD}
 
 — Giả sử $\mu$ bị chặn. Với mọi $a > 0$, tập hợp các ánh xạ đo được từ $X$ vào $F$ sao cho $|f(x)| \leq a$ hầu khắp nơi là đồng khả tích cấp $p$, và điều này đúng với mọi $p \in [1, +\infty[$.
 
-#### Mệnh đề 21 {#int-iv-s5-prop-21 .statement}
+#### Mệnh đề 21 {#int-iv-s5-prop-21 .statement tag=08WE}
 
 *Cho $H$ là một tập con của $\mathscr{L}_F^p(X, \mu)$ đồng khả tích cấp $p$. Trên $H$, cấu trúc đều của hội tụ theo độ đo bằng cấu trúc đều cảm sinh bởi cấu trúc đều của $\mathscr{L}_F^p(X, \mu)$.*
 
@@ -829,7 +829,7 @@ Vậy, cấu trúc đều của hội tụ theo độ đo trên $H$ mịn hơn c
 
 ### 12. Một tính chất của hội tụ mơ hồ
 
-#### Bổ đề 5 {#int-iv-s5-lem-5 .statement}
+#### Bổ đề 5 {#int-iv-s5-lem-5 .statement tag=08WF}
 
 *Cho $X$ là một không gian địa phương compact, $\mu$ là một độ đo dương bị chặn trên $X$, $F$ là một không gian Banach, và $f$ là một hàm bị chặn trên $X$ nhận giá trị trong $F$. Các điều kiện sau là tương đương:*
 
@@ -853,7 +853,7 @@ Khi đó $2M \geq l \geq k$ trên X, và $l = k$ trên $X - N'$, nghĩa là, h�
 
 (ii) $\Rightarrow$ (i). Giả sử rằng điều kiện (ii) được thỏa mãn. Với mọi $x \in X$ gọi $\omega(x)$ là dao động của f tại x (GT, IX, § 2, No. 3). Cho $\varepsilon > 0$. Tồn tại $a_1, \ldots, a_n, g_1, \ldots, g_n, h$ có các tính chất của (ii). Với mọi $x \in X$, $\omega(x)$ là dao động của $f - g_1 a_1 - \cdots - g_n a_n$ tại x, do đó $\omega(x) \leq 2h(x)$. Vì thế $\int \omega \, d\mu \leq 2\varepsilon$. Do đó, tập hợp $A_\varepsilon$ các $x \in X$ sao cho $\omega(x) \geq \sqrt{\varepsilon}$ thỏa mãn $\mu(A_\varepsilon) \leq 2\sqrt{\varepsilon}$. Điều này chứng tỏ rằng $\mu(N) \leq 2\sqrt{\varepsilon}$, do đó $\mu(N) = 0$.
 
-#### Mệnh đề 22 {#int-iv-s5-prop-22 .statement}
+#### Mệnh đề 22 {#int-iv-s5-prop-22 .statement tag=08WG}
 
 — *Cho F là một không gian Banach, X một không gian compact địa phương, $\mathscr{E}$ tập hợp các độ đo dương bị chặn trên X, $\mu$ một phần tử của $\mathscr{E}$, và $\mathscr{B}$ một cơ sở lọc trên $\mathscr{E}$. Giả sử rằng $\mathscr{B}$ hội tụ mơ hồ về $\mu$ và rằng $\| \nu \|$ hội tụ về $\| \mu \|$ đối với $\mathscr{B}$. Cho f là một ánh xạ từ X vào F thỏa mãn các điều kiện sau:
 
@@ -890,11 +890,11 @@ $$
 $$
 điều này chứng tỏ mệnh đề.
 
-#### Nhận xét {#int-iv-s5-n12-rem-1 .statement}
+#### Nhận xét {#int-iv-s5-n12-rem-1 .statement tag=08WH}
 
 Các điều kiện (i) và (ii) của Mệnh đề 22 được thỏa mãn nếu $f$ liên tục và bị chặn.
 
-#### Ví dụ {#int-iv-s5-n12-exa-1 .statement}
+#### Ví dụ {#int-iv-s5-n12-exa-1 .statement tag=08WI}
 
 Lấy $X$ là không gian compact $\mathbf{U}$ gồm các số phức có giá trị tuyệt đối bằng 1. Đặt $\mu(f) = \int_0^1 f(e^{2i\pi t}) \, dt$ với mọi $f \in \mathscr{H}(\mathbf{U})$, ta định nghĩa được một độ đo dương có khối lượng 1 trên $\mathbf{U}$. Mặt khác, cho $\theta$ là một số thực; với mọi số nguyên $n \geq 0$, gọi $\nu_n$ là khối lượng đơn vị đặt tại điểm $e^{2i\pi n \theta}$ của $\mathbf{U}$, và đặt
 $$

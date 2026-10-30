@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: 8d6680a92da30b29008e59b6ace8c7ebafae73d98276e958c7168a33ae805c6f
+content_sha256: 60d5e547afee72e21cafe8eb3d735f5f4cb0924a9ea8b47b56688fe7de85d8d1
 translated_from: content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md
 source_lang: fr
 translation_method: machine
@@ -46,7 +46,7 @@ Let $M$ be an $A$-module. To every ideal of definition $a$ of $A$ let us associa
 
 The ideals $m_A^n$ for $n \geq 1$ form a cofinal subset of $\mathscr{D}$; hence there is a canonical isomorphism of graded modules $\varprojlim_n \mathrm{Ext}_A(A/m_A^n, M) \longrightarrow H_A(M)$. It follows that every element of $H_A(M)$ is annihilated by a power of $m_A$.
 
-#### Remark 1 {#ac-x-s10-n1-rem-1 .statement}
+#### Remark 1 {#ac-x-s10-n1-rem-1 .statement tag=0DCM}
 
 Let $X$ be the topological space $\mathrm{Spec}(A)$, $\mathscr{O}_X$ the structural sheaf of rings and $\widetilde{M}$ the $\mathscr{O}_X$-module associated with $M$. The graded $A$-module $H_A(M)$ is identified with the module $H_{\{m_A\}}(X, \widetilde{M})$ of cohomology with support in the closed point $m_A$ of $X$.
 
@@ -66,19 +66,19 @@ $$
 
 Let M be an a-module. For every ideal $\alpha$ of A, the A-module $\mathrm{Hom}_A(A/\alpha, M)$ is canonically identified with the submodule of M consisting of the elements annihilated by $\alpha$. Thus $H_A^0(M)$ is identified with the submodule of M consisting of the elements $m$ which are annihilated by a power of $\mathfrak{m}_A$, that is to say such that $\mathrm{long}_A(Am) < +\infty$. In particular one has $H_A^0(M) = M$ when M is artinian.
 
-#### Example 1 {#ac-x-s10-n1-exa-1 .statement}
+#### Example 1 {#ac-x-s10-n1-exa-1 .statement tag=0DCN}
 
 If M is injective, the A-module $H_A^i(M)$ is zero for $i > 0$ and injective for $i = 0$ (§ 8, No. 2, lemma 1, c)).
 
-#### Example 2 {#ac-x-s10-n1-exa-2 .statement}
+#### Example 2 {#ac-x-s10-n1-exa-2 .statement tag=0DCO}
 
 If $H_A^0(M) = M$ (for example if M is artinian), $H_A^i(M)$ is zero for $i > 0$. Let in fact (I, e) be an injective envelope of M. The submodule $H_A^0(I)$ of I is injective (example 1) and contains $e(M)$, hence is equal to I. Put $N = \mathrm{Coker}\,e$ and consider the exact sequence $0 \to M \xrightarrow{e} I \xrightarrow{p} N \to 0$. Since $I = H_A^0(I)$, one has $N = H_A^0(N)$ and the homomorphism $H_A^0(p)$ is surjective. Since $H_A^i(I)$ is zero for $i > 0$ (example 1), $H_A^1(M)$ is zero and $H_A^i(M)$ is isomorphic to $H_A^{i-1}(N)$ for $i > 1$; one concludes by reasoning by induction on the integer $i$.
 
-#### Example 3 {#ac-x-s10-n1-exa-3 .statement}
+#### Example 3 {#ac-x-s10-n1-exa-3 .statement tag=0DCP}
 
 Let $\Omega$ be a dualizing A-module. For $i \neq \dim(A)$, one has $\mathrm{Ext}_A^i(A/\alpha, \Omega) = 0$ for every ideal of definition $\alpha$ of A (§ 8, No. 5, example 3), whence $H_A^i(\Omega) = 0$; for $i = \dim(A)$, the A-module $H_A^i(\Omega)$, which is isomorphic to $\varprojlim \mathrm{Ext}_A^i(A/\mathfrak{m}_A^n, \Omega)$, is a Matlis module (*loc. cit.*, example 6).
 
-#### Example 4 {#ac-x-s10-n1-exa-4 .statement}
+#### Example 4 {#ac-x-s10-n1-exa-4 .statement tag=0DCQ}
 
 Let A be a noetherian local integral ring; let K denote its field of fractions, and suppose that $A \neq K$. It is an injective A-module (A, X, p. 18, example 1), so that the module $H_A(K)$ is zero (example 1). From the exact sequence $0 \to A \to K \to K/A \to 0$, one obtains for every $i$ an isomorphism $H_A^i(K/A) \to H_A^{i+1}(A)$.
 
@@ -90,7 +90,7 @@ $$
 
 an isomorphism $H_A^i((K/A) \otimes_A M) \to H_A^{i+1}(M)$.
 
-#### Example 5 {#ac-x-s10-n1-exa-5 .statement}
+#### Example 5 {#ac-x-s10-n1-exa-5 .statement tag=0DCR}
 
 Let us retain the hypotheses of the preceding example and suppose moreover that $\dim(A) = 1$. Let N be a torsion A-module; since every nonzero ideal of A distinct from A is an ideal of definition (VIII, § 1, No. 3, prop. 6, e)), one has $H_A^0(N) = N$, and consequently $H_A^i(N) = 0$ for $i > 0$ (example 2).
 
@@ -106,7 +106,7 @@ $$
 H_A^0(M) \to T(M) , \qquad H_A^1(M) \to (K/A) \otimes_A M .
 $$
 
-#### Proposition 1 {#ac-x-s10-prop-1 .statement}
+#### Proposition 1 {#ac-x-s10-prop-1 .statement tag=0DCS}
 
 Let $A$ be a noetherian local ring and $M$ a finitely generated $A$-module.
 
@@ -140,11 +140,11 @@ We have $\operatorname{prof}(M/xM) = \operatorname{prof}(M) - 1$ (§ 1, No. 4, p
 
 It can be shown that the module $H_A^{\dim(M)}(M)$ is nonzero when $M$ is nonzero (exerc. 4; cf. No. 3, cor. of th. 2).
 
-#### Corollary {#ac-x-s10-n1-cor-1 .statement}
+#### Corollary {#ac-x-s10-n1-cor-1 .statement tag=0DCT}
 
 **Let $M$ be a nonzero Macaulay $A$-module of finite type. The $A$-module $H_A^i(M)$ is zero for $i \neq \dim(M)$ and nonzero for $i = \dim(M)$.**
 
-#### Remark 2 {#ac-x-s10-n1-rem-2 .statement}
+#### Remark 2 {#ac-x-s10-n1-rem-2 .statement tag=0DCU}
 
 For every ideal of definition $\alpha$ of $A$, the $A$-module $\mathrm{Ext}_A(A/\alpha, M)$ is annihilated by $\alpha$, and $A/\alpha$ identifies with $\widehat{A}/\alpha \widehat{A}$; consequently, the graded $A$-module $\mathrm{Ext}_A(A/\alpha, M)$ identifies with $\widehat{A} \otimes_A \mathrm{Ext}_A(A/\alpha, M)$, hence also with $\mathrm{Ext}_{\widehat{A}}(\widehat{A}/\alpha \widehat{A}, \widehat{A} \otimes_A M)$ (A, X, p. 111, prop. 10). The set of ideals $\alpha \widehat{A}$, for $\alpha \in \mathscr{D}$, contains the powers of $m_{\widehat{A}}$, hence is cofinal in the set of ideals of definition of $\widehat{A}$; we therefore deduce from the foregoing a canonical isomorphism of graded $A$-modules
 
@@ -213,7 +213,7 @@ $$
 
 For $M = A$, $\tau^d(A)$ is the canonical isomorphism of $A \otimes_A H_A^d(A)$ onto $H_A^d(A)$.
 
-#### Remark 1 {#ac-x-s10-n2-rem-1 .statement}
+#### Remark 1 {#ac-x-s10-n2-rem-1 .statement tag=0DCV}
 
 Let $f : M \to N$ be a homomorphism of a-modules. Using A, X, p. 103, prop. 2, one proves that the following diagrams are commutative:
 
@@ -225,7 +225,7 @@ $$
 \end{array}
 $$
 
-#### Remark 2 {#ac-x-s10-n2-rem-2 .statement}
+#### Remark 2 {#ac-x-s10-n2-rem-2 .statement tag=0DCW}
 
 Let
 $$
@@ -241,7 +241,7 @@ $$
 \end{array}
 $$
 
-#### Remark 3 {#ac-x-s10-n2-rem-3 .statement}
+#### Remark 3 {#ac-x-s10-n2-rem-3 .statement tag=0DCX}
 
 Consider the isomorphism
 $$
@@ -259,7 +259,7 @@ We still suppose that A is a local Macaulay ring, of dimension d. Let $\Omega$ b
 
 Consider the isomorphism $\tau^d(\Omega) : \Omega \otimes H_A^d(A) \to H_A^d(\Omega)$ (No. 2). From it one deduces a homomorphism $\omega : H_A^d(A) \to \mathrm{Hom}_A(\Omega, H_A^d(\Omega))$ which associates to an element $u$ of $H_A^d(A)$ the homomorphism $x \mapsto H_A^d(f_x)(u)$ (remark 3 above).
 
-#### Proposition 2 {#ac-x-s10-prop-2 .statement}
+#### Proposition 2 {#ac-x-s10-prop-2 .statement tag=0DCY}
 
 *Let A be a local Macaulay ring, of dimension d*, and let $\Omega$ *be a dualizing A-module*. *The homomorphism* $\omega : H_A^d(A) \to D(\Omega)$ *is bijective*.
 
@@ -288,7 +288,7 @@ where $f_x$ is the homomorphism deduced from $f_x$ by passing to quotients. It f
 
 Let us identify the Matlis bidual $D(D(\Omega))$ with $\widehat{\Omega}$ by the isomorphism $\widehat{\alpha}_\Omega$ (§ 8, No. 3, th. 2, b)).
 
-#### Corollary {#ac-x-s10-n3-cor-1 .statement}
+#### Corollary {#ac-x-s10-n3-cor-1 .statement tag=0DCZ}
 
 *The homomorphism* $D(\omega) : \widehat{\Omega} \to D(H^d_A(A))$ *is an isomorphism*.
 
@@ -310,7 +310,7 @@ $$
 \delta^i(M) : \mathrm{Ext}_A^{d-i}(M, \widehat{\Omega}) \longrightarrow D(H^i_A(M)) .
 $$
 
-#### Theorem 1 (Grothendieck Duality) {#ac-x-s10-thm-1 .statement}
+#### Theorem 1 (Grothendieck Duality) {#ac-x-s10-thm-1 .statement tag=0DD0}
 
 Let $A$ be a local Macaulay ring, of dimension $d$, and let $\Omega$ be a dualizing $A$-module.
 
@@ -330,17 +330,17 @@ is an isomorphism of $\widehat{A}$-modules.
 
 This follows from prop. 6 of § 8, No. 7.
 
-#### Corollary {#ac-x-s10-n3-cor-2 .statement}
+#### Corollary {#ac-x-s10-n3-cor-2 .statement tag=0DD1}
 
 Let $A$ be a local Macaulay ring, and $M$ a nonzero finitely generated $A$-module, of dimension $e$. The $A$-module $H_A^e(M)$ is nonzero.
 
 By Remark 2 of No. 1, one may suppose that the local ring $A$ is complete. In this case $A$ has a dualizing module $\Omega$ ($§ 9$, No. 3, Corollary 3 of Proposition 6); if $H_A^e(M)$ is zero, the same is true of its Matlis dual $\mathrm{Ext}_A^{d-e}(M, \Omega)$, which contradicts Proposition 3, b) of $§ 9$, No. 1.
 
-#### Remark 1 {#ac-x-s10-n3-rem-1 .statement}
+#### Remark 1 {#ac-x-s10-n3-rem-1 .statement tag=0DD2}
 
 When the $A$-module $M$ is finitely generated, the $\widehat{A}$-module $\mathrm{Ext}_A^{d-i}(M, \widehat{\Omega})$ is identified with $\widehat{A} \otimes_A \mathrm{Ext}_A^{d-i}(M, \Omega)$ ($A$, X, p. 108, Proposition 7, c)), and $\delta^i(M)$ can also be obtained by composing $D(\gamma^i(M))$ with the biduality isomorphism.
 
-#### Remark 2 {#ac-x-s10-n3-rem-2 .statement}
+#### Remark 2 {#ac-x-s10-n3-rem-2 .statement tag=0DD3}
 
 Let $u : M \to M'$ be a homomorphism of $A$-modules. By Remark 1 of No. 2 and that of $§ 8$, No. 7, the following diagrams are commutative:
 
@@ -360,7 +360,7 @@ $$
 \end{array}
 $$
 
-#### Remark 3 {#ac-x-s10-n3-rem-3 .statement}
+#### Remark 3 {#ac-x-s10-n3-rem-3 .statement tag=0DD4}
 
 Let
 
@@ -385,7 +385,7 @@ $$
 \end{array}
 $$
 
-#### Example {#ac-x-s10-n3-exa-1 .statement}
+#### Example {#ac-x-s10-n3-exa-1 .statement tag=0DD5}
 
 Let $A$ be an integral noetherian local ring of dimension 1; let $K$ denote its field of fractions. Let $\Omega$ be a dualizing $A$-module, and let $M$ be a finitely generated $A$-module. The $A$-modules $H_A^0(M)$ and $H_A^1(M)$ are canonically identified with $T(M)$ and $(K/A) \otimes_A M$ (No. 1, Example 5). With these identifications, the duality isomorphisms
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 123
 statements: 13
 exercises: 2
-content_sha256: 22d023c287c71c604ac61a41b662a1dd82484b39b1939d9a175a42a6888a7c00
+content_sha256: 3f095b19584551d90074510817694d1615aa4b4344f6473680f52104c3d24448
 ---
 
 ## § 6. Valeurs absolues.
@@ -51,7 +51,7 @@ Nous noterons $\mathscr{V}(K)$ l’ensemble des applications $f$ de $K$ dans $\m
 
 On remarquera que si $f \in \mathscr{V}(K)$, on a, en faisant $x = 1, y = 0$ dans $(\mathrm{U}_A)$, $1 = f(1) \leqslant A \cdot \sup(f(1), f(0)) = A$.
 
-#### Proposition 1 {#ac-vi-s6-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s6-prop-1 .statement tag=04VA}
 
 Pour qu’une application $f$ de $K$ dans $\mathbf{R}_+$ vérifiant $(\mathrm{VA}_I)$ et $(\mathrm{VA}_{II})$ appartienne à $\mathscr{V}(K)$, il faut et il suffit que $f(1 + x)$ soit borné dans l’ensemble des $x \in K$ tels que $f(x) \leqslant 1$.
 En effet, si $f$ vérifie $(\mathrm{U}_A)$, on a $f(1 + x) \leqslant A$ si $f(x) \leqslant 1$.
@@ -61,7 +61,7 @@ f(x + y) \leqslant Af(x) \leqslant A \cdot \sup(f(x), f(y)).
 $$
 Si $f$ est une valeur absolue sur $K$, on a $f(n.1) \leqslant n$ par récurrence sur l’entier $n > 0$ à partir de $(\mathrm{VA}_{III})$; réciproquement :
 
-#### Proposition 2 {#ac-vi-s6-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s6-prop-2 .statement tag=04VB}
 
 Soit $f$ une application de $K$ dans $\mathbf{R}_+$ appartenant à $\mathscr{V}(K)$; s’il existe $C > 0$ tel que $f(n.1) \leqslant C.n$ pour tout entier $n > 0$, $f$ est une valeur absolue sur $K$.
 Par récurrence sur $r > 0$, on déduit de $(\mathrm{U}_A)$ la relation
@@ -82,7 +82,7 @@ $$
 
 Faisant tendre $r$ vers $+\infty$, il vient $f(1 + x) \leq 1 + f(x)$ pour tout $x \in K$; appliquant cette inégalité en remplaçant $x$ par $xy^{-1}$ (pour $y \neq 0$) et tenant compte de (VA$_{\text{II}}$), on obtient la relation (VA$_{\text{III}}$), ce qui prouve la proposition.
 
-#### Corollaire 1 {#ac-vi-s6-prop-2-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s6-prop-2-cor-1 .statement tag=04VC}
 
 Pour qu’une application $f$ de $K$ dans $\mathbf{R}_+$ soit une valeur absolue, il faut et il suffit qu’elle vérifie les conditions (VA$_{\text{I}}$), (VA$_{\text{II}}$) et (U$_2$).
 
@@ -92,7 +92,7 @@ f(x + y) \leq f(x) + f(y) \leq 2 \sup(f(x), f(y)).
 $$
 Inversement, supposons que $f$ vérifie (VA$_{\text{I}}$), (VA$_{\text{II}}$) et (U$_2$); pour tout entier $n > 0$, soit $r$ le plus petit entier tel que $2^r \geq n$; si dans (1) on remplace $A$ par 2, les $x_i$ d’indice $i \leq n$ par 1 et les $x_i$ d’indice $i > n$ par 0, on obtient $f(n.1) \leq 2^r < 2n$; on peut alors appliquer la prop. 2 avec $C = 2$, donc $f$ est une valeur absolue.
 
-#### Corollaire 2 {#ac-vi-s6-prop-2-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s6-prop-2-cor-2 .statement tag=04VD}
 
 Pour qu’une application $f$ de $K$ dans $\mathbf{R}_+$ appartienne à $\mathscr{V}(K)$, il faut et il suffit qu’elle soit de la forme $g^t$, où $t > 0$ et $g$ est une valeur absolue sur $K$.
 
@@ -102,7 +102,7 @@ En effet, dire que $f$ vérifie (U$_A$) équivaut à dire que $f^s$ vérifie (U$
 
 On dit qu’une application $f$ de $K$ dans $\mathbf{R}_+$ est une valeur absolue ultramétrique si elle vérifie les conditions (VA$_{\text{I}}$), (VA$_{\text{II}}$) et (U$_1$) (ce qui entraîne évidemment que $f$ est une valeur absolue).
 
-#### Proposition 3 {#ac-vi-s6-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s6-prop-3 .statement tag=04VE}
 
 Soit $f$ une application de $K$ dans $\mathbf{R}_+$. Les propriétés suivantes sont équivalentes:
 
@@ -115,7 +115,7 @@ c) $f$ appartient à $\mathscr{V}(K)$ et l’on a $f(n.1) \leq 1$ pour tout enti
 d) Pour tout $s > 0$, $f^s$ est une valeur absolue.
 Pour tout nombre réel $c$ tel que $0 < c < 1$, l’application $t \to c^t$ est un isomorphisme du groupe ordonné $\mathbf{R}$ (muni de l’ordre opposé à l’ordre usuel) sur le groupe ordonné $\mathbf{R}_+^*$; cela montre l’équivalence de a) et b). Il est clair que a) implique $c);$ c) entraîne d), car on déduit de c) que $(f(n.1))^s \leqslant 1 \leqslant n$ pour tout entier $n > 0$ et la prop. 2 du no 1 montre que $f^s$ est une valeur absolue. Enfin d) entraîne a): en effet, si $f^s$ est une valeur absolue, elle vérifie $(\mathrm{U}_2)$, donc $f$ vérifie $\mathrm{U}_{2^{1/s}}$ pour tout $s > 0$, et par suite aussi $(\mathrm{U}_1)$ en faisant tendre $s$ vers $+ \infty$.
 
-#### Corollaire {#ac-vi-s6-n2-cor-1 .statement}
+#### Corollaire {#ac-vi-s6-n2-cor-1 .statement tag=04VF}
 
 *Si K est un corps (non nécessairement commutatif) de caractéristique $p > 0$, toute fonction de $\mathscr{V}(K)$ est une valeur absolue ultramétrique.*
 
@@ -129,7 +129,7 @@ $$
 
 ### 3. *Valeurs absolues sur Q*
 
-#### Proposition 4 {#ac-vi-s6-prop-4 .statement}
+#### Proposition 4 {#ac-vi-s6-prop-4 .statement tag=04VG}
 
 *Soit $f$ une application de $\mathbf{Q}$ dans $\mathbf{R}_+$ appartenant à $\mathscr{V}(\mathbf{Q})$. Alors*:
 
@@ -194,7 +194,7 @@ C.Q.F.D.
 
 ### 4. Structure des corps munis d’une valeur absolue non ultramétrique
 
-#### Théorème 1 (Gelfand-Mazur) {#ac-vi-s6-thm-1 .statement}
+#### Théorème 1 (Gelfand-Mazur) {#ac-vi-s6-thm-1 .statement tag=04VH}
 
 Soit $K$ une algèbre sur le corps $\mathbf{R}$ ayant les deux propriétés suivantes:
 
@@ -285,7 +285,7 @@ C) Troisième cas : K est non commutatif.
 
 Soient Z le centre de K, $x$ un élément de K non dans Z; le sous-corps $Z(x)$ de K est commutatif et la norme induite par celle de K est compatible avec la structure de R-algèbre de $Z(x)$; comme $Z \neq Z(x)$ et que Z et $Z(x)$ sont des R-algèbres isomorphes à $\mathbf{R}$ ou à $\mathbf{C}$ en vertu de A) et B), Z est nécessairement isomorphe à $\mathbf{R}$ et $Z(x)$ à $\mathbf{C}$. Pour tout $x \in K$, $Z(x)$ est donc de rang $\leq 2$ sur Z. Or on a le lemme suivant :
 
-#### Lemme 1 {#ac-vi-s6-lem-1 .statement}
+#### Lemme 1 {#ac-vi-s6-lem-1 .statement tag=04VI}
 
 Soit D un corps de centre L, tel que pour tout $x \in D$, $L(x)$ soit une extension de L de degré $\leq m$. Alors le rang de D sur L est $\leq m^2$.
 
@@ -304,7 +304,7 @@ C.Q.F.D.
 Remarque 1). — Indiquons le principe d’une démonstration plus courte du th. de Gelfand-Mazur, valable lorsque, au lieu de $2^o$, on suppose seulement qu’il existe sur K une topologie localement convexe séparée compatible avec sa structure de corps : on se ramène (comme dans les cas B) et C)) au cas où K est une algèbre commutative sur $\mathbf{C}$; si $x \in K - \mathbf{C}.1$, on considère comme plus haut l’application $z \to (x - z.1)^{-1}$ de $\mathbf{C}$ dans K, qui est continue et dérivable dans $\mathbf{C}$. Pour tout élément $x'$ du dual $K'$ de l’espace localement convexe K, $z \to \langle (x - z.1)^{-1}, x' \rangle$ est donc une fonction entière et bornée dans $\mathbf{C}$, donc constante en vertu du th. de Liouville, et l’on conclut, comme dans la partie A) de la démonstration du th. 1, que cela implique nécessairement $\langle (x - z.1)^{-1}, x' \rangle = 0$ pour tout $z \in \mathbf{C}$ et tout $x' \in K'$; le th. de Hahn-Banach montre que cette conclusion est absurde, puisque $(x - z.1)^{-1} \neq 0$. On notera que le raisonnement de la partie A) de la démonstration du th. 1 ne diffère du précédent qu’en apparence, car ce raisonnement n’est en fait qu’un cas particulier de celui qui sert à prouver le principe du maximum pour les fonctions analytiques, la sommation sur les racines de l’unité et le passage à la limite équivalant au calcul de l’intégrale $\int_{\gamma} \frac{F(z + t)}{t} dt$ le long d’un cercle de centre 0,
 et l’utilisation de la formule de Cauchy étant ici évitée grâce à la forme particulière de la fonction F.
 
-#### Théorème 2 (Ostrowski) {#ac-vi-s6-thm-2 .statement}
+#### Théorème 2 (Ostrowski) {#ac-vi-s6-thm-2 .statement tag=04VJ}
 
 Soient K un corps (non nécessairement commutatif), f un élément de $\mathscr{V}(K)$ qui n’est pas une valeur absolue ultramétrique. Il existe alors un nombre réel $s > 0$ et un seul et un isomorphisme j de K sur un sous-corps partout dense de l’un des corps $\mathbf{R}, \mathbf{C}$ ou $\mathbf{H}$, tels que $f(x) = |j(x)|^s$ pour tout $x \in K (*)$. Pour que f soit une valeur absolue sur K, il faut et il suffit que $s \leq 1$.
 
@@ -314,7 +314,7 @@ Pour $x \in \mathbf{Q}$ et $y \in K$, on a $g(xy) = |x|g(y)$, donc g est une nor
 
 (*) Sur $\mathbf{H}$, on pose $|z|^2 = z.\overline{z} = \overline{z}.z$, $\overline{z}$ étant le quaternion conjugué de z.
 
-#### Lemme 2 {#ac-vi-s6-lem-2 .statement}
+#### Lemme 2 {#ac-vi-s6-lem-2 .statement tag=04VK}
 
 Soient $L$ un corps (non nécessairement commutatif), $K$ un sous-corps de $L$ tel que $L$ soit un espace vectoriel à gauche de dimension finie sur $K$. Soient $g$ une valeur absolue sur $L$, $f$ sa restriction à $K$. Si $K$ est complet et non discret pour $f$, $L$ est complet pour $g$; si en outre $g'$ est une seconde valeur absolue sur $L$ ayant la même restriction $f$ à $K$, on a $g' = g$.
 
@@ -324,11 +324,11 @@ Revenant à la démonstration du th. 2, on voit que si l’on note $j$ la restri
 
 Notons enfin que si $f$ est une valeur absolue sur $K$, $h$ est une valeur absolue sur $\mathbf{Q}$ et l’on a $s \leq 1$ en vertu du no 3, prop. 4; réciproquement, si $s \leq 1$, $f = g^s$ est une valeur absolue sur $K$ puisqu’il en est ainsi de $g$ (*Top. gén.*, chap. IX, § 3, no 2); cela prouve la dernière assertion de l’énoncé. C.Q.F.D.
 
-#### Remarque 2 {#ac-vi-s6-n4-rem-2 .statement}
+#### Remarque 2 {#ac-vi-s6-n4-rem-2 .statement tag=0CIC}
 
 Si $K$ est un corps et une algèbre normée sur $\mathbf{R}$, la norme n’est pas nécessairement une valeur absolue sur $K$; par exemple, $\xi + i\eta \to |\xi| + |\eta|$ est une norme sur $\mathbf{C}$ compatible avec sa structure d’algèbre sur $\mathbf{R}$.
 
-#### Remarque 3 {#ac-vi-s6-n4-rem-3 .statement}
+#### Remarque 3 {#ac-vi-s6-n4-rem-3 .statement tag=0CID}
 
 Pour une démonstration du cas C) du th. 1 qui n’utilise pas les résultats généraux d'*Alg.*, chap. VIII, voir exerc. 2.
 

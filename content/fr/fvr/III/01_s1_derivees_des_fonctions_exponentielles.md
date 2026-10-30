@@ -48,7 +48,7 @@ subsections:
       pdf_page: 102
 statements: 8
 exercises: 39
-content_sha256: 113abb1b0a85b36eecfe0305e43b8fe888c550fe2530cd1bc77ac158b436e2b1
+content_sha256: 9e6d9192fcffa9bd6c6b7e6240f2f87102e949989885959d089cc131e0964aa4
 ---
 
 ## § 1. DÉRIVÉES DES FONCTIONS EXPONENTIELLES ET CIRCULAIRES
@@ -59,7 +59,7 @@ On sait que tout homomorphisme continu du groupe additif $\mathbf{R}$ dans le gr
 
 Nous allons voir que la fonction $f(x) = a^x$ a pour tout $x \in \mathbf{R}$ une dérivée de la forme $e \cdot a^x$ (où on a évidemment $e = f'(0)$). Cela résulte du théorème général suivant:
 
-#### Théorème 1 {#fvr-iii-s1-thm-1 .statement}
+#### Théorème 1 {#fvr-iii-s1-thm-1 .statement tag=089Q}
 
 *Soit E une algèbre normée complète sur le corps $\mathbf{R}$, ayant un élément unité $e$, et soit $\mathbf{f}$ un homomorphisme continu du groupe additif $\mathbf{R}$ dans le groupe multiplicatif $G$ des éléments inversibles de $E$. L’application $\mathbf{f}$ est dérivable en tout point $x \in \mathbf{R}$, et on a*
 
@@ -81,7 +81,7 @@ D’où $f'(x) = g'(x)b^{-1} = f(x)c$, où $c = (f(a) - e)b^{-1}$, et on a évid
 
 Réciproquement, on peut démontrer, soit directement (III, p. 24, exerc. 1), soit à l’aide de la théorie des équations différentielles linéaires (IV, p. 29) que toute application dérivable $f$ de $\mathbf{R}$ dans une algèbre normée complète E, telle que $f'(x) = f(x)c$ et $f(0) = e$, est un homomorphisme du groupe additif $\mathbf{R}$ dans le groupe multiplicatif G.
 
-#### Proposition 1 {#fvr-iii-s1-prop-1 .statement}
+#### Proposition 1 {#fvr-iii-s1-prop-1 .statement tag=089R}
 
 Pour tout nombre $a > 0$ et $\neq 1$, la fonction exponentielle $a^x$ admet en tout point $x \in \mathbf{R}$ une dérivée égale à $(\log_e a)a^x$ où $e$ est un nombre $> 1$ (indépendant de $a$).
 
@@ -101,7 +101,7 @@ ce qui prouve que $e^x$ est strictement croissante, et par suite que $e > 1$.
 
 Au § 2 (III, p. 15), nous verrons comment on peut calculer des valeurs aussi approchées qu’on veut du nombre $e$.
 
-#### Définition 1 {#fvr-iii-s1-def-1 .statement}
+#### Définition 1 {#fvr-iii-s1-def-1 .statement tag=089S}
 
 Les logarithmes de base $e$ sont appelés logarithmes népériens (ou logarithmes naturels).
 
@@ -113,7 +113,7 @@ Cette relation montre que $a^x$ a des dérivées de tout ordre, et qu’on a
 
 En particulier, pour tout $a > 0$ et $\neq 1$, on a $D^2(a^x) > 0$ pour tout $x \in \mathbf{R}$, et par suite $a^x$ est strictement convexe dans $\mathbf{R}$ (I, p. 39, corollaire). On en déduit la proposition suivante:
 
-#### Proposition 2 (« inégalité de la moyenne géométrique ») {#fvr-iii-s1-prop-2 .statement}
+#### Proposition 2 (« inégalité de la moyenne géométrique ») {#fvr-iii-s1-prop-2 .statement tag=089T}
 
 *Quels que soient les nombres* $z_i > 0$ ($1 \leq i \leq n$) *et les nombres* $p_i > 0$ *tels que* $\sum_{i=1}^n p_i = 1$, *on a*
 (6) $z_1^{p_1}z_2^{p_2}\ldots z_n^{p_n} \leq p_1z_1 + p_2z_2 + \cdots + p_nz_n.$
@@ -147,7 +147,7 @@ D(x^\alpha) = \alpha x^{\alpha-1} \quad (\alpha \text{ réel quelconque, } x > 0
 $$
 déjà démontrée par une autre voie (II, p. 19).
 
-#### Exemple {#fvr-iii-s1-n2-exa-1 .statement}
+#### Exemple {#fvr-iii-s1-n2-exa-1 .statement tag=089U}
 
 Si $u$ est une fonction $\neq 0$ dans un intervalle $I$, $v$ une fonction numérique quelconque, on a $\log(|u|^v) = v \log |u|$, donc si $u$ et $v$ sont dérivables
 $$
@@ -158,7 +158,7 @@ $$
 
 On a défini, en Topologie générale (TG, VIII, p. 8) l’homomorphisme continu $x \mapsto \mathbf{e}(x)$ du groupe additif $\mathbf{R}$ sur le groupe multiplicatif $\mathbf{U}$ des nombres complexes de valeur absolue 1; c’est une fonction périodique de période principale 1, et on a $\mathbf{e}(\frac{1}{4}) = i$. On sait (*loc. cit.*) que tout homomorphisme continu de $\mathbf{R}$ sur $\mathbf{U}$ est de la forme $x \mapsto \mathbf{e}(x/a)$, et qu’on pose $\cos_a x = \Re(\mathbf{e}(x/a))$, $\sin_a x = \Im(\mathbf{e}(x/a))$ (*fonctions trigonométriques*, ou *fonctions circulaires*, de base $a$); ces dernières fonctions sont des applications continues de $\mathbf{R}$ dans $[-1, +1]$, admettant $a$ pour période principale. On a $\sin_a(x + a/4) = \cos_a x$, $\cos_a(x + a/4) = -\sin_a x$, et la fonction $\sin_a x$ est croissante dans l’intervalle $[-a/4, a/4]$.
 
-#### Proposition 3 {#fvr-iii-s1-prop-3 .statement}
+#### Proposition 3 {#fvr-iii-s1-prop-3 .statement tag=089V}
 
 *La fonction $\mathbf{e}(x)$ admet en tout point de $\mathbf{R}$ une dérivée égale à $2\pi i \mathbf{e}(x)$, où $\pi$ est une constante $> 0$.*
 
@@ -291,7 +291,7 @@ $$
 $$
 Cette propriété rapproche encore $f_0$ de la fonction $e^x$, qui est d’ailleurs la restriction de $f_0$ à l’axe réel; pour cette raison, on pose la définition suivante:
 
-#### Définition 2 {#fvr-iii-s1-def-2 .statement}
+#### Définition 2 {#fvr-iii-s1-def-2 .statement tag=089W}
 
 On appelle exponentielle complexe l’homomorphisme $x + iy \mapsto e^x e(y/2\pi)$ de $\mathbf{C}$ sur $\mathbf{C}^*$; sa valeur pour un nombre complexe quelconque $z$ se note $e^z$ ou $\exp z$.
 
@@ -329,7 +329,7 @@ $$
 D(e^{az}) = ae^{az}.
 $$
 
-#### Remarque {#fvr-iii-s1-n6-rem-1 .statement}
+#### Remarque {#fvr-iii-s1-n6-rem-1 .statement tag=089X}
 
 Si, dans la formule (27), on restreint la fonction $e^{ax}$ (a complexe) à l’axe réel, on obtient encore, pour $x$ réel
 $$
@@ -351,7 +351,7 @@ $$
 
 En vertu des formules d’Euler, on peut d’autre part exprimer toute puissance entière positive de $\cos x$ ou de $\sin x$ comme combinaison linéaire d’exponentielles $e^{px}$ ($p$ entier positif ou négatif). D’après la formule (28), on pourra donc exprimer par une combinaison linéaire de fonctions de la forme $x^n e^{ax} \cos \lambda x$ et $x^n e^{ax} \sin \mu x$, une primitive d’une fonction de la forme $x^n e^{ax} (\cos \beta x)^r (\sin \gamma x)^s$ ($n, p, r, s$ entiers, $\alpha, \beta, \gamma, \lambda, \mu$ réels).
 
-#### Exemple {#fvr-iii-s1-n6-exa-1 .statement}
+#### Exemple {#fvr-iii-s1-n6-exa-1 .statement tag=089Y}
 
 On a
 $$
@@ -529,7 +529,7 @@ $$
 \operatorname{Arg}\operatorname{th}x = \frac{1}{2} \log \frac{1 + x}{1 - x}.
 $$
 
-#### Remarque {#fvr-iii-s1-n9-rem-1 .statement}
+#### Remarque {#fvr-iii-s1-n9-rem-1 .statement tag=089Z}
 
 Pour $z$ complexe, on écrit aussi parfois
 $$

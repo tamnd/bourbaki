@@ -48,7 +48,7 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: 1bcfdfb873a3cf744c19dcfacd6180d5390348c3859d9d9730fd1bd014ae0faa
+content_sha256: ce6d1f0a8daccc8c1f841f0e10af39424f11f7d0cf2813ff6b8ec5759e42aea5
 translated_from: content/en/lie/V/04_s4_the_geometric_representation_of_a.md
 source_content_sha256: b37e57ba0e6700d5644218e6cb51eb2aa578040de72fb7f9df614a11c81b3ddd
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini, gpt-5-6
@@ -101,7 +101,7 @@ Vì $e_s$ không đẳng phương đối với $B_M$, không gian E là tổng t
 
 Trong số này, ta ký hiệu bởi $s$ và $s'$ hai phần tử của $S$ sao cho $s \neq s'$. Đặt $m = m(s, s')$ và ký hiệu $E_{s,s'}$ là mặt phẳng $\mathbf{R}e_s \oplus \mathbf{R}e_{s'}$.
 
-#### Mệnh đề 1 {#lie-v-s4-prop-1 .statement}
+#### Mệnh đề 1 {#lie-v-s4-prop-1 .statement tag=0ARB}
 
 *Hạn chế của $B_M$ lên $E_{s,s'}$ là dương, và nó không suy biến khi và chỉ khi $m$ là hữu hạn.*
 
@@ -136,7 +136,7 @@ Bây giờ, các hạn chế $\overline{\sigma}_s$ và $\overline{\sigma}_{s'}$ 
 
 Bây giờ ta quay trở lại E:
 
-#### Mệnh đề 2 {#lie-v-s4-prop-2 .statement}
+#### Mệnh đề 2 {#lie-v-s4-prop-2 .statement tag=0ARC}
 
 *Nhóm con của $\mathbf{GL}(E)$ sinh bởi $\sigma_s$ và $\sigma_{s'}$ là một nhóm dihedral có cấp $2m(s, s')$*.
 
@@ -148,7 +148,7 @@ Ta giữ lại ký hiệu của các số trước. Cho $W^- = W(M)$ là nhóm �
 
 $$(g_s g_{s'})^{m(s, s')} = 1,\quad \text{cho } s, s' \in S,\ m(s, s') \neq +\infty.$$
 
-#### Mệnh đề 3 {#lie-v-s4-prop-3 .statement}
+#### Mệnh đề 3 {#lie-v-s4-prop-3 .statement tag=0ARD}
 
 *Tồn tại một đồng cấu duy nhất*
 
@@ -158,11 +158,11 @@ $$\sigma : W \to \mathbf{GL}(E)$$
 
 Để chứng minh sự tồn tại và tính duy nhất của $\sigma$, chỉ cần chỉ ra rằng $(\sigma_s \sigma_{s'})^{m(s, s')} = 1$ nếu $m(s, s') \neq +\infty$. Bây giờ, nếu $s = s'$, điều này suy ra từ sự kiện rằng $\sigma_s$ có cấp 2; nếu $s \neq s'$, điều này suy ra từ điều đã chứng minh trong no. 2. Cuối cùng, vì các phép phản xạ $\sigma_s$ bảo toàn $B_M$, nên các phần tử của $\sigma(W)$ cũng vậy.
 
-#### Nhận xét 1 {#lie-v-s4-n3-rem-1 .statement}
+#### Nhận xét 1 {#lie-v-s4-n3-rem-1 .statement tag=0ARE}
 
 Ta sẽ thấy trong no. 4 rằng $\sigma$ là *đơn ánh*; do đó nhóm W có thể được đồng nhất với nhóm con của $\mathbf{GL}(E)$ sinh bởi các $\sigma_s$.
 
-#### Mệnh đề 4 {#lie-v-s4-prop-4 .statement}
+#### Mệnh đề 4 {#lie-v-s4-prop-4 .statement tag=0ARF}
 
 *a)* *Ánh xạ* $s \mapsto g_s$ *từ* $S$ *vào* $W$ *là đơn ánh*.
 
@@ -182,13 +182,13 @@ Theo *a)*, $S$ có thể được *đồng nhất* với một tập con của $
 
 ¹ Điều này có nghĩa là, nếu $L_S$ ký hiệu nhóm tự do trên $S$, thì $W$ là thương của $L_S$ bởi nhóm con chuẩn nhỏ nhất của $L_S$ chứa các phần tử $(ss')^{m(s, s')}$, với $m(s, s') \neq +\infty$.
 
-#### Hệ quả {#lie-v-s4-n3-cor-1 .statement}
+#### Hệ quả {#lie-v-s4-n3-cor-1 .statement tag=0ARG}
 
 *Cặp* (W, S) *là một hệ Coxeter với ma trận M*.
 
 Đây đơn giản là nội dung của các tính chất b) và c), cùng với định nghĩa của W.
 
-#### Nhận xét 2 {#lie-v-s4-n3-rem-2 .statement}
+#### Nhận xét 2 {#lie-v-s4-n3-rem-2 .statement tag=0ARH}
 
 Như vậy ta đã chứng minh rằng *mọi ma trận Coxeter tương ứng với một nhóm Coxeter*.
 
@@ -210,25 +210,25 @@ Nếu x* ∈ E* và w ∈ W, ta ký hiệu bởi w(x*) phép biến đổi của
 
 Nếu s ∈ S, ký hiệu A_s là tập hợp các x* ∈ E* sao cho x*(e_s) > 0. Gọi C là giao của các A_s, s ∈ S. Khi S là *hữu hạn*, C là một *nón đơn hình mở* trong E* (§ 1, no. 6).
 
-#### Định lý 1 (Tits) {#lie-v-s4-thm-1 .statement}
+#### Định lý 1 (Tits) {#lie-v-s4-thm-1 .statement tag=0ARI}
 
 *Nếu* w ∈ W *và* C ∩ w(C) ≠ ∅, *thì* w = 1*.
 
 Ta chỉ ra ngay lập tức một số hệ quả của định lý này:
 
-#### Hệ quả 1 {#lie-v-s4-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-v-s4-thm-1-cor-1 .statement tag=0ARJ}
 
 *Nhóm* W *tác động đơn bắc cầu trên tập hợp các* w(C) *với* w ∈ W.
 
 Điều này là rõ ràng.
 
-#### Hệ quả 2 {#lie-v-s4-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-v-s4-thm-1-cor-2 .statement tag=0ARK}
 
 *Các biểu diễn* σ *và* σ* *là đơn ánh*.
 
 Thật vậy, nếu σ*(w) = 1, thì w(C) = C, do đó w = 1 theo định lý. Tính đơn ánh của σ suy ra từ tính đơn ánh của σ*.
 
-#### Hệ quả 3 {#lie-v-s4-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#lie-v-s4-thm-1-cor-3 .statement tag=0ARL}
 
 *Nếu S là hữu hạn, σ(W) là một nhóm con rời rạc của* \mathbf{GL}(E) *được trang bị cấu trúc nhóm Lie chính tắc của nó; tương tự, σ*(W) là một nhóm con rời rạc của* \mathbf{GL}(E^*) *.*
 
@@ -269,7 +269,7 @@ w'(C) \subset u(A_s \cap A_{s'}) \quad \text{và} \quad l(w') = l(u) + l(u^{-1}w
 $$
 Ta có $w(C) = s'w'(C) \subset s'u(A_s \cap A_{s'})$.
 
-#### Bổ đề 1 {#lie-v-s4-lem-1 .statement}
+#### Bổ đề 1 {#lie-v-s4-lem-1 .statement tag=0ARM}
 
 Cho $s, s' \in S$, với $s \neq s'$, và cho $v \in W_{s,s'}$. Khi đó $v(A_s \cap A_{s'})$ được chứa trong hoặc $A_s$ hoặc trong $s(A_s)$, và trong trường hợp thứ hai $l(sv) = l(v) - 1$.
 
@@ -364,7 +364,7 @@ Ta có $C_X \subset \overline{C}$, $C_\varnothing = C$ và $C_S = \{0\}$. Các t
 
 Mặt khác, hãy nhớ lại (Chap. IV, §1, no. 8) rằng $W_X$ ký hiệu nhóm con của $W$ sinh bởi $X$. Rõ ràng $w(x^*) = x^*$ với $w \in W_X$ và $x^* \in C_X$.
 
-#### Mệnh đề 5 {#lie-v-s4-prop-5 .statement}
+#### Mệnh đề 5 {#lie-v-s4-prop-5 .statement tag=0ARN}
 
 *Cho $X, X' \subset S$ và $w, w' \in W$. Nếu $w(C_X) \cap w'(C_{X'}) \neq \varnothing$, thì $X = X'$, $wW_X = w'W_{X'}$ và $w(C_X) = w'(C_{X'})$.*
 
@@ -382,13 +382,13 @@ $$
 
 Do đó, quan hệ $C_{X'} \cap w(C_X) \neq \varnothing$ suy ra một mặt rằng $C_{X'} \cap H_s \neq \varnothing$, và do đó $s \in X'$, và mặt khác rằng $C_{X'} \cap sw(C_X) \neq \varnothing$. Giả thiết quy nạp khi đó suy ra rằng $X = X'$ và $swW_X = W_{X'} = W_X$, do đó $sw \in W_X$ và $w \in W_X$ vì $s \in W_X$. Suy ra rằng $wW_X = W_{X'}$ và rằng $w(C_X) = C_X = C_{X'}$.
 
-#### Hệ quả {#lie-v-s4-n6-cor-1 .statement}
+#### Hệ quả {#lie-v-s4-n6-cor-1 .statement tag=0ARO}
 
 *Cho $X$ là một tập con của $S$ và $x^*$ là một phần tử của $C_X$. Bộ ổn định của $x^*$ trong $W$ là $W_X$.*
 
 Bây giờ cho $U$ là hợp của các $w(\overline{C})$ với $w \in W$, và cho $\mathscr{F}$ là tập hợp các tập con của $U$ có dạng $w(C_X)$, với $X \subset S$ và $w \in W$. Theo điều trên, $\mathscr{F}$ là một *phân hoạch* của $U$.
 
-#### Mệnh đề 6 {#lie-v-s4-prop-6 .statement}
+#### Mệnh đề 6 {#lie-v-s4-prop-6 .statement tag=0ARP}
 
 (i) *Nón U là lồi*.
 
@@ -410,7 +410,7 @@ cũng vậy, vì $[x^*z^*] \subset \overline{C}$.
 
 Ta giữ lại ký hiệu của các số trước đó, và giả sử rằng S là *hữu hạn*.
 
-#### Mệnh đề 7 {#lie-v-s4-prop-7 .statement}
+#### Mệnh đề 7 {#lie-v-s4-prop-7 .statement tag=0ARQ}
 
 *Giả sử rằng* $(W, S)$ *là bất khả quy* (Chương IV, §1, no. 9). *Cho* $E^0$ *là không gian con của* E *vuông góc với* E *đối với* $B_M$. *Nhóm* W *tác động tầm thường trên* $E^0$, *và mọi không gian con của* E *phân biệt với* E *và ổn định dưới tác động của* W *đều được chứa trong* $E^0$.
 
@@ -418,7 +418,7 @@ Nếu $x \in E^0$, thì $\sigma_s(x) = x - 2B_M(e_s, x)e_s = x$ với mọi $s \
 
 Cho $E'$ là một không gian con của E ổn định dưới W. Cho $s, s' \in S$ là hai phần tử được *liên kết* trong đồ thị $\Gamma$ của $(W, S)$ (Chương IV, §1, no. 9); nhắc lại rằng điều này có nghĩa là $m(s, s') \geq 3$. Giả sử rằng $e_s \in E'$. Khi đó $\sigma_{s'}(e_s) \in E'$ và vì hệ số của $e_{s'}$ trong $\sigma_{s'}(e_s)$ là khác không, ta có $e_{s'} \in E'$. Vì $\Gamma$ là liên thông, suy ra rằng, nếu $E'$ chứa một trong các $e_s$ thì nó chứa tất cả chúng và trùng với E. Ngoại trừ trường hợp này, từ Mệnh đề 3 của §2, no. 2 suy ra rằng, với mọi $s \in S$, $E'$ được chứa trong siêu phẳng $H_s$ vuông góc với $e_s$. Vì giao của các $H_s$ bằng $E^0$, điều này chứng minh mệnh đề.
 
-#### Hệ quả {#lie-v-s4-n7-cor-1 .statement}
+#### Hệ quả {#lie-v-s4-n7-cor-1 .statement tag=0ARR}
 
 *Giả sử rằng* $(W, S)$ *là bất khả quy. Khi đó*:
     a) *Nếu* $B_M$ *không suy biến, W-môđun* $E$ *là đơn tuyệt đối*.
@@ -432,7 +432,7 @@ Trong trường hợp *b)*, $E^0 \neq 0$, $E \neq E^0$ (vì $B_M \neq 0$), và M
 
 Ta giữ lại ký hiệu của các no. trước, và giả sử rằng $S$ là hữu hạn.
 
-#### Định lý 2 {#lie-v-s4-thm-2 .statement}
+#### Định lý 2 {#lie-v-s4-thm-2 .statement tag=0ARS}
 
 *Các tính chất sau là tương đương*:
     (1) $W$ *là hữu hạn*.
@@ -444,13 +444,13 @@ Ta giữ lại ký hiệu của các no. trước, và giả sử rằng $S$ là
 
 Kết quả sau đây đã được thiết lập trong quá trình chứng minh:
 
-#### Hệ quả {#lie-v-s4-n8-cor-1 .statement}
+#### Hệ quả {#lie-v-s4-n8-cor-1 .statement tag=0ART}
 
 *Nếu* $(W, S)$ *là bất khả quy và hữu hạn, thì E là một W-môđun tuyệt đối đơn*.
 
 Tiêu chuẩn hữu hạn do Đl. 2 cung cấp cho phép phân loại mọi nhóm Coxeter *hữu hạn* (xem Ch. VI, $§ 4$). Ở đây ta chỉ xét kết quả sơ bộ sau:
 
-#### Mệnh đề 8 {#lie-v-s4-prop-8 .statement}
+#### Mệnh đề 8 {#lie-v-s4-prop-8 .statement tag=0ARU}
 
 *Nếu* $W$ *là hữu hạn, đồ thị của* $(W, S)$ *là một rừng* (Ch. IV, Phụ lục).
 
@@ -468,7 +468,7 @@ B_M(x, x) \leq n - n = 0,
 $$
 mâu thuẫn với sự kiện $B_M$ dương không suy biến.
 
-#### Hệ quả {#lie-v-s4-n8-cor-2 .statement}
+#### Hệ quả {#lie-v-s4-n8-cor-2 .statement tag=0ARV}
 
 *Nếu* $(W, S)$ *là bất khả quy và hữu hạn, đồ thị của nó là một cây*.
 
@@ -478,7 +478,7 @@ Thật vậy, một rừng liên thông là một cây.
 
 Trước hết cho $(W, S)$ là một nhóm Coxeter hữu hạn. Ký hiệu $(x|y)$ là dạng $B_M(x, y)$; theo Định lý 2, đây là một tích vô hướng trên $E$. Với mọi $s \in S$, cho $H_s$ là siêu phẳng liên kết với phép phản xạ trực giao $\sigma_s$, và cho $\mathfrak{H}$ là họ các siêu phẳng $w(H_s)$, với $s \in S$, $w \in W$. Cho $C_0$ là tập hợp các $x \in E$ sao cho $(x|e_s) > 0$ với mọi $s \in S$. Cuối cùng, đồng nhất $W$ (bằng cách dùng $\sigma$) với một nhóm con của nhóm trực giao $\mathbf{O}(E)$ của không gian $E$.
 
-#### Mệnh đề 9 {#lie-v-s4-prop-9 .statement}
+#### Mệnh đề 9 {#lie-v-s4-prop-9 .statement tag=0ARW}
 
 *Với các ký hiệu trước đó*, $W$ *là nhóm con của* $\mathbf{O}(E)$ *sinh bởi các phép phản xạ đối với các siêu phẳng của* $\mathfrak{H}$. *Nó là một nhóm cốt yếu* ($§ 3$, no. 7) *và* $C_0$ *là một phòng của* $E$ *đối với* $\mathfrak{H}$.
 
@@ -509,7 +509,7 @@ và rằng các $e_s$ tạo thành một cơ sở của $E$. *Biểu diễn tự
 
 Trong số này, ta giả sử rằng $S$ là hữu hạn, rằng $(W, S)$ là bất khả quy, và rằng dạng $B_M$ là dương và suy biến.
 
-#### Bổ đề 2 {#lie-v-s4-lem-2 .statement}
+#### Bổ đề 2 {#lie-v-s4-lem-2 .statement tag=0ARX}
 
 *Phần bù trực giao $E^0$ của $E$ đối với $B_M$ có chiều 1; nó được sinh bởi một phần tử $v = \sum_{s \in S} v_s e_s$ với $v_s > 0$ đối với mọi $s$.*
 
@@ -519,7 +519,7 @@ Cho $v = \sum_s v_s e_s$ là vectơ thỏa mãn các điều kiện của Bổ �
 
 Cho $G$ là nhóm con của $\mathbf{GL}(E)$ gồm các tự đẳng cấu giữ $v$ và $B_M$ bất biến; nếu $g \in G$, ánh xạ đối ngẫu ${}^t g^{-1}$ giữ $A$ và $T$ ổn định, và qua hạn chế lên $A$ xác định một *phép dời hình* $i(g)$ của $A$ (xem § 3). Hiển nhiên điều này cho một *đẳng cấu* từ $G$ đến nhóm các phép dời hình của $A$. Hơn nữa, nhóm ổn định $G_a$ của một điểm $a$ của $A$ có thể được đồng nhất với nhóm trực giao của không gian Hilbert $T$ và do đó compact. Mặt khác, $G$ là một nhóm địa phương compact đếm được ở vô cùng và $A$ là một không gian Baire: suy ra (Tích phân, Ch. VII, Phụ lục, Bổ đề 2) rằng ánh xạ $\psi : g \mapsto g(a)$ xác định một đồng phôi từ $G/G_a$ đến $A$. Do đó $G$ tác động đúng trên $A$ (Tôpô tổng quát, Ch. III, § 4, no. 2, Mệnh đề 5). Vì $W$ là một nhóm con của $G$, nó có thể được đồng nhất với một nhóm các phép dời hình của $A$. Ta sẽ chứng minh rằng nhóm này thỏa mãn các giả thiết của § 3. Chính xác hơn:
 
-#### Mệnh đề 10 {#lie-v-s4-prop-10 .statement}
+#### Mệnh đề 10 {#lie-v-s4-prop-10 .statement tag=0ARY}
 
 *Nhóm $W$ được trang bị tôpô rời rạc tác động đúng trên $A$; nó được sinh bởi các phép phản xạ trực giao; nó là vô hạn, bất khả quy và cốt yếu* (§ 3, no. 7). *Giao $C \cap A$ là một buồng của $A$ đối với $W$. Nếu $L_s$ ký hiệu siêu phẳng của $A$ được tạo bởi giao của $A$ với siêu phẳng của $E*$ trực giao với $e_s$, thì các $L_s$ với $s \in S$ là các vách của $C \cap A$. Nếu $\varepsilon_s$ là vectơ đơn vị của $T$ trực giao với $L_s$ và nằm cùng phía với $L_s$ như $C \cap A$, thì $(\varepsilon_s|\varepsilon_t) = -\cos(\pi/m(s,t))$ (với $s, t \in S$) và ma trận Coxeter của W (§ 3, no. 4) được đồng nhất với $M$.*
 
@@ -563,7 +563,7 @@ Không gian affine Euclid $A$, khi được trang bị nhóm $W$, được gọi
 
 Mệnh đề 10 có mệnh đề đảo:
 
-#### Mệnh đề 11 {#lie-v-s4-prop-11 .statement}
+#### Mệnh đề 11 {#lie-v-s4-prop-11 .statement tag=0ARZ}
 
 *Cho $W$ là một nhóm các phép dời hình của một không gian affine Euclid $A$, thỏa mãn các giả thiết của § 3. Giả sử rằng $W$ là vô hạn, cốt yếu và bất khả quy. Khi đó dạng $B_M$ gắn với ma trận Coxeter $M$ của $W$ là dương suy biến và tồn tại duy nhất một đẳng cấu từ không gian affine $A_M$ liên kết với $M$ đến $A$, giao hoán với tác động của $W$. Đẳng cấu này biến tích vô hướng của $A_M$ thành một bội của tích vô hướng của $A$.*
 

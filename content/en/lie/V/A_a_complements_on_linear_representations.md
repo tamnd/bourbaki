@@ -12,7 +12,7 @@ pdf_pages: 0142-0144
 extraction: ocr
 statements: 5
 exercises: 0
-content_sha256: 2d81808297b20691a264d3c19e5287310c7cbd4047624c58677e442a1bae2da2
+content_sha256: 10a851bfe0a82fc5cdd717550427141554add5045f831510966ac7b21ab52629
 ---
 
 ## APPENDIX
@@ -20,7 +20,7 @@ content_sha256: 2d81808297b20691a264d3c19e5287310c7cbd4047624c58677e442a1bae2da2
 
 The following proposition generalizes Prop. 13 of Chap. 1, § 3, no. 8.
 
-#### Proposition 1 {#lie-v-a0-prop-1 .statement}
+#### Proposition 1 {#lie-v-a0-prop-1 .statement tag=0ATZ}
 
 Let K be a commutative field, A a K-algebra, and V and W two left A-modules that are finite dimensional vector spaces over K. If there exists an extension L of K such that the (A \otimes_K L)-modules V \otimes_K L and W \otimes_K L are isomorphic, then the A-modules V and W are isomorphic.
 
@@ -42,7 +42,7 @@ for all $\lambda, i, k$. By assumption, the homogeneous linear equations (2) hav
 
 c) *General Case*. Let $\Omega$ be an algebraically closed extension of $L$, and $K_0$ the algebraic closure of $K$ in $\Omega$. The assumption implies that $V \otimes_K \Omega$ and $W \otimes_K \Omega$ are isomorphic $(A \otimes_K \Omega)$-modules. Since $K_0$ is infinite, part b) shows that $V \otimes_K K_0$ and $W \otimes_K K_0$ are isomorphic $(A \otimes_K K_0)$-modules. Retaining the notation in b), the system (2) admits a solution $(\xi_{ij}) \in K_0^{m^2}$ such that $\det(\xi_{ij}) \neq 0$. But the $\xi_{ij}$ all belong to some algebraic extension $K_1$ of finite degree over $K$. The $(A \otimes_K K_1)$-modules $V \otimes_K K_1$ and $W \otimes_K K_1$ are isomorphic, and the proof is completed by using a).
 
-#### Proposition 2 (Maschke) {#lie-v-a0-prop-2 .statement}
+#### Proposition 2 (Maschke) {#lie-v-a0-prop-2 .statement tag=0AU0}
 
 *Let A be a ring with unit element, E a left A-module, F a direct summand of E, G a group of finite order q, and $\rho$ a linear representation of G on E. Assume that q.1 is invertible in A and that F is stable under G. Then there exists a complement of F in E that is stable under G.*
 
@@ -60,18 +60,18 @@ $$
 $$
 Thus $f$ commutes with $\rho(G)$, so $\ker(f)$ is a complement of $F$ stable under $G$.
 
-#### Corollary {#lie-v-a0-n0-cor-1 .statement}
+#### Corollary {#lie-v-a0-n0-cor-1 .statement tag=0AU1}
 
 *Let G be a finite group of order q, and K a commutative field whose characteristic does not divide q. Then the group algebra of G over K is semi-simple.*
 
 Indeed, by Prop. 2, every module over this algebra is semi-simple.
 
-#### Proposition 3 {#lie-v-a0-prop-3 .statement}
+#### Proposition 3 {#lie-v-a0-prop-3 .statement tag=0AU2}
 
 Let $A$ be a commutative ring, $M$ an $A$-module, $G$ a finite group acting on $M$, and $A'$ an $A$-module. Assume that the order $q$ of $G$ is invertible in $A$. Let $M^G$ be the set of elements of $M$ invariant under $G$. Then the canonical homomorphism from $M^G \otimes_A A'$ to $M \otimes_A A'$ defines an isomorphism from $M^G \otimes_A A'$ onto the module $(M \otimes_A A')^G$ of elements of $M \otimes_A A'$ invariant under $G$.
 
 Indeed, let $Q$ be the projection of $M$ onto $M^G$ defined by $Q(x) = q^{-1} \sum_{g \in G} g(x)$ for all $x \in M$. If $i$ denotes the canonical injection of $M^G$ into $M$, $Q \circ i$ is the identity map of $M^G$, so $(Q \otimes 1_{A'}) \circ (i \otimes 1_{A'})$ is the identity map of $M^G \otimes_A A'$. Since $Q \otimes 1_{A'} = q^{-1} \sum_{g \in G} (g \otimes 1_{A'})$, the image of $i \otimes 1_{A'}$ is $(M \otimes A')^G$. On the other hand, $i \otimes 1_{A'}$ is injective by what has been said before.
 
-#### Remark {#lie-v-a0-n0-rem-1 .statement}
+#### Remark {#lie-v-a0-n0-rem-1 .statement tag=0AU3}
 
 The preceding proposition applies in particular when $A'$ is an $A$-algebra. In that case, $M^G \otimes_A A'$ is an $A'$-submodule of $M \otimes_A A'$.

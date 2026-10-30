@@ -37,7 +37,7 @@ subsections:
       pdf_page: 25
 statements: 16
 exercises: 9
-content_sha256: f156906ab45f523a2763c0321207bb28876a97d37c8b94130bebac4e4b693e6e
+content_sha256: 87faf381b795b4accb4c91f29ef1547fa93c647b6a6a6975744acaa5057340e0
 ---
 
 ## § 3. FORMES COMPACTES DES ALGÈBRES DE LIE SEMI-SIMPLES COMPLEXES
@@ -91,7 +91,7 @@ B(H, X_\alpha) = 0,\quad B(X_\alpha, X_\beta) = 0 \text{ si } \alpha + \beta \ne
 $$
 (VIII, § 2, n° 2, prop. 1 et n° 4, lemme 3).
 
-#### Proposition 2 {#lie-ix-s3-prop-2 .statement}
+#### Proposition 2 {#lie-ix-s3-prop-2 .statement tag=01JG}
 
 **a)** *Le sous-espace vectoriel réel $\mathfrak{a}_0 = \mathfrak{h}_0 + \sum_{\alpha \in \mathbf{R}} \mathbf{R} X_\alpha$ de $\mathfrak{a}$ est une forme réelle de $\mathfrak{a}$, dont $\mathfrak{h}_0$ est une sous-algèbre de Cartan. Le couple $(\mathfrak{a}_0, \mathfrak{h}_0)$ est une algèbre de Lie réelle semi-simple déployée, dont $(X_\alpha)$ est un système de Chevalley.*
 

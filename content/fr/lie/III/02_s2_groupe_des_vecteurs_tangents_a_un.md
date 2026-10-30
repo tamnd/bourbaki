@@ -24,7 +24,7 @@ subsections:
       pdf_page: 122
 statements: 10
 exercises: 0
-content_sha256: 5186896165c8ae840179bf7bde31c469637f5ed2b6dc25a7efb09e7de7018152
+content_sha256: 3c213779d71364bb347dde278c4b24b4cb9f06de506b2e0d49de446efd539c05
 ---
 
 ## § 2. Groupe des vecteurs tangents à un groupe de Lie
@@ -64,7 +64,7 @@ $$
 
 quels que soient $x, y$ dans $X$; autrement dit, la section nulle $x \mapsto 0_x$ de $T(X)$ est compatible avec les lois $m$ et $T(m)$.
 
-#### Proposition 1 {#lie-iii-s2-prop-1 .statement}
+#### Proposition 1 {#lie-iii-s2-prop-1 .statement tag=0A8Y}
 
 *Soient $X$ une variété de classe $C^r$, et $m$ une loi de composition de classe $C^r$ sur $X$. Si $m$ est associative (resp. commutative), alors $T(m)$ est associative (resp. commutative).*
 
@@ -82,7 +82,7 @@ $$
 
 Mais $T(s)$ est l’application $(u, v) \mapsto (v, u)$ de $T(X) \times T(X)$ dans $T(X) \times T(X)$. Donc $T(m)$ est commutative.
 
-#### Proposition 2 {#lie-iii-s2-prop-2 .statement}
+#### Proposition 2 {#lie-iii-s2-prop-2 .statement tag=0A8Z}
 
 *Soient $X$ une variété de classe $C^r$, $m$ une loi de composition de classe $C^r$ sur $X$, $e$ un élément neutre pour $m$.
 (i) Le vecteur $0_e$ est élément neutre pour $T(m)$.
@@ -103,7 +103,7 @@ $$
 
 pour tout $u \in T(U)$, d’où (iii).
 
-#### Proposition 3 {#lie-iii-s2-prop-3 .statement}
+#### Proposition 3 {#lie-iii-s2-prop-3 .statement tag=0A90}
 
 *Soient $X_1, X_2, \ldots, X_p, Y$ des variétés de classe $C^r$, $i$ un entier de $[1, p]$, $m_i$ (resp. $n$) une loi de composition de classe $C^r$ sur $X_i$ (resp. $Y$), $u$ une application de classe $C^r$ de $X_1 \times X_2 \times \cdots \times X_p$ dans $Y$. Si $u$ est distributive relativement à la variable d’indice $i$, alors $T(u)$ est distributive relativement à la variable d’indice $i$.*
 
@@ -111,13 +111,13 @@ La démonstration est analogue à celle de la prop. 1.
 
 ### 2. Groupe des vecteurs tangents à un groupe de Lie
 
-#### Proposition 4 {#lie-iii-s2-prop-4 .statement}
+#### Proposition 4 {#lie-iii-s2-prop-4 .statement tag=0A91}
 
 Soit $G$ un groupe de Lie. Alors $T(G)$, muni de la loi de composition tangente à la multiplication de $G$, est un groupe de Lie. L’élément neutre de $T(G)$ est le vecteur $0_e$.
 
 Cela résulte des prop. 1 et 2.
 
-#### Proposition 5 {#lie-iii-s2-prop-5 .statement}
+#### Proposition 5 {#lie-iii-s2-prop-5 .statement tag=0A92}
 
 Soient $G$ et $H$ des groupes de Lie, $f$ un morphisme de $G$ dans $H$. Alors $T(f)$ est un morphisme du groupe de Lie $T(G)$ dans le groupe de Lie $T(H)$.
 
@@ -129,13 +129,13 @@ $$
 
 ce qui exprime que $T(f)$ est un homomorphisme de groupes.
 
-#### Corollaire {#lie-iii-s2-n2-cor-1 .statement}
+#### Corollaire {#lie-iii-s2-n2-cor-1 .statement tag=0A93}
 
 Soient $G_1, \ldots, G_n$ des groupes de Lie. L’isomorphisme canonique de la variété $T(G_1 \times \cdots \times G_n)$ sur la variété $T(G_1) \times \cdots \times T(G_n)$ est un isomorphisme de groupes de Lie.
 
 En effet, $\mathrm{pr}_i$ est un morphisme de $G_1 \times \cdots \times G_n$ dans $G_i$, donc $T(\mathrm{pr}_i)$ est un morphisme de $T(G_1 \times \cdots \times G_n)$ dans $T(G_i)$.
 
-#### Proposition 6 {#lie-iii-s2-prop-6 .statement}
+#### Proposition 6 {#lie-iii-s2-prop-6 .statement tag=0A94}
 
 Soit $G$ un groupe de Lie.
 
@@ -153,7 +153,7 @@ C.Q.F.D.
 
 Soient $u \in T(G)$ et $g \in G$. D’après (3) et (4), les produits $ug, gu$ calculés dans le groupe $T(G)$ sont les images de $u$ par $T(\delta(g^{-1})), T(\gamma(g))$. Il résulte du § 1, cor. 2 de la prop. 17, que l’application $(g, u) \mapsto gu$ de $G \times T_e(G)$ dans $T(G)$ est un isomorphisme du fibré vectoriel trivial $G \times T_e(G)$ de base $G$ sur le fibré vectoriel $T(G)$. L’isomorphisme réciproque s’appelle la trivialisation gauche de $T(G)$. En considérant l’application $(g, u) \mapsto ug$, on définit de même la trivialisation droite de $T(G)$.
 
-#### Proposition 7 {#lie-iii-s2-prop-7 .statement}
+#### Proposition 7 {#lie-iii-s2-prop-7 .statement tag=0A95}
 
 Soient G un groupe de Lie, M une variété de classe C^r, f et g des applications de classe C^r de M dans G, de sorte que fg est une application de classe C^r de M dans G. Soient m \in M, x = f(m), y = g(m), u \in T_m(M). On a
 $$
@@ -165,7 +165,7 @@ T(f, g)(u) = (T(f)u, T(g)u),
 $$
 donc $T(fg)u = T(f)u.T(g)u$. Il suffit alors d’appliquer (1) où l’on remplace f par m.
 
-#### Corollaire {#lie-iii-s2-n2-cor-2 .statement}
+#### Corollaire {#lie-iii-s2-n2-cor-2 .statement tag=0A96}
 
 Soit $n \in \mathbf{Z}$. L’application tangente en e à l’application $g \mapsto g^n$ de G dans G est l’application $x \mapsto nx$ de $T_e(G)$ dans $T_e(G)$.
 
@@ -185,7 +185,7 @@ $$
 $$
 Ce qui précède s’applique au cas d’un groupe de Lie opérant dans lui-même par translations à gauche (resp. à droite). La loi d’opération correspondante de T(G) dans T(G) est définie par les translations à gauche (resp. à droite) du groupe de Lie T(G). Les formules (7), (8), (9) sont donc valables dans T(G).
 
-#### Proposition 8 {#lie-iii-s2-prop-8 .statement}
+#### Proposition 8 {#lie-iii-s2-prop-8 .statement tag=0A97}
 
 Soient $G_1$ et $G_2$ des groupes de Lie, $X_1$ et $X_2$ des variétés de classe C^r, $f_i$ une loi d’opération à gauche de classe C^r de $G_i$ dans $X_i$ ($i = 1, 2$). Soient $\varphi$ un morphism de $G_1$ dans $G_2$, $\psi$ un $\varphi$-morphisme de $X_1$ dans $X_2$. Alors $T(\psi)$ est un $T(\varphi)$-morphisme de $T(X_1)$ dans $T(X_2)$.
 

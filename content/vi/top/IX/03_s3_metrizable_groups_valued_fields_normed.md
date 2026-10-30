@@ -40,9 +40,9 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 4
-content_sha256: 9ee71d17725a6c21f423f8719871cead7685d9e80af922870e9fb351f060f738
+content_sha256: 5086573c0be7c369cb206200b3a54486bee8f365d0e1d90d7574039d42ae9712
 translated_from: content/en/top/IX/03_s3_metrizable_groups_valued_fields_normed.md
-source_content_sha256: 3593908544b4268ac3c0131aaec65a064ed7aef3598969d9bc652e6939baf4fc
+source_content_sha256: e6d9b744abb34c62818d886d27e40a745dc5749b1c99e6edf0894934f40987ea
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-45e66895
 glossary_version: 34
@@ -54,7 +54,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC NHÓM TÔPÔ CÓ METRIC
 
-#### Mệnh đề 1 {#top-ix-s3-prop-1 .statement}
+#### Mệnh đề 1 {#top-ix-s3-prop-1 .statement tag=0C3Y}
 
 Các uniformity trái và phải của một nhóm tôpô $G$ là có metric khi và chỉ khi $G$ là Hausdorff và phần tử đơn vị $e$ của $G$ có một hệ cơ bản đếm được các lân cận.
 
@@ -64,7 +64,7 @@ Một nhóm tôpô $G$ được gọi là *có metric* nếu tôpô của nó c�
 
 Kết quả này có thể được làm mạnh hơn nhờ khái niệm sau đây:
 
-#### Định nghĩa 1 {#top-ix-s3-def-1 .statement}
+#### Định nghĩa 1 {#top-ix-s3-def-1 .statement tag=0C3Z}
 
 *Một metric* $d$ *trên một nhóm* $G$ *(viết theo phép nhân)* *được gọi là bất biến trái* (resp. *bất biến phải*) *nếu ta có*
 
@@ -74,7 +74,7 @@ $$
 
 *đối với mọi* $x, y, z$ *trong* $G$.
 
-#### Mệnh đề 2 {#top-ix-s3-prop-2 .statement}
+#### Mệnh đề 2 {#top-ix-s3-prop-2 .statement tag=0C40}
 
 *Uniformity trái* (resp. *phải*) *của một nhóm có metric* $G$ *có thể được xác định bởi một metric bất biến trái* (resp. *bất biến phải*) *trên* $G$.
 
@@ -104,7 +104,7 @@ c) $|x| = 0$ khi và chỉ khi $x = 0$.
 
 Ngược lại:
 
-#### Mệnh đề 3 {#top-ix-s3-prop-3 .statement}
+#### Mệnh đề 3 {#top-ix-s3-prop-3 .statement tag=0C41}
 
 *Cho $G$ là một nhóm Abel, được viết theo phép cộng, và cho $x \to |x|$ là một ánh xạ $G \to \mathbf{R}$ thỏa mãn các điều kiện a), b) và c) ở trên. Khi đó hàm $d(x, y) = |x - y|$ là một mêtric bất biến trên $G$; tôpô $\mathscr{T}$ mà nó xác định trên $G$ tương thích với cấu trúc nhóm của $G$, và cấu trúc đều xác định bởi $d$ trùng với cấu trúc đều của nhóm tôpô thu được bằng cách trang bị cho $G$ tôpô $\mathscr{T}$.*
 
@@ -125,7 +125,7 @@ $$
 
 Vì a' và b' rõ ràng kéo theo b'); ngược lại, lấy $x = 0$ trong b') và sử dụng c), ta thấy rằng $|-y| \leq |y|$; thay thế $y$ bởi $-y$ ta suy ra $|-y| = |y|$, đó là a); thay thế $y$ bởi $-y$ trong b') khi đó ta được b').
 
-#### Mệnh đề 4 {#top-ix-s3-prop-4 .statement}
+#### Mệnh đề 4 {#top-ix-s3-prop-4 .statement tag=0C42}
 
 *Nếu G là một nhóm mêtric hóa được, thì mọi nhóm thương Hausdorff G/H của G đều mêtric hóa được. Nếu G cũng đầy đủ, thì G/H đầy đủ (*).*
 
@@ -133,7 +133,7 @@ Phần đầu của mệnh đề là một hệ quả của sự kiện rằng p
 
 Để chỉ ra rằng G/H là đầy đủ nếu G là đầy đủ, theo § 2, no. 6, Mệnh đề 9, chỉ cần chỉ ra rằng mọi dãy Cauchy $(\dot{x}_n)$ (đối với đồng đều trái của G/H) đều hội tụ. Ta có thể giả sử, bằng cách chuyển qua một dãy con của $(\dot{x}_n)$ nếu cần, rằng với mỗi cặp chỉ số $p, q$ sao cho $p \geq n$ và $q \geq n$, ta có $\dot{x}_p^{-1}\dot{x}_q \in \dot{V}_n$; điều này có nghĩa là với mỗi cặp điểm $y \in \dot{x}_p, z \in \dot{x}_q$, ta có $y^{-1}z \in HV_n = V_nH$; và do đó, với mỗi $y \in \dot{x}_p$, giao của $\dot{x}_q$ và lân cận $yV_n$ của $y$ là không rỗng. Khi đó giả sử rằng dãy (V_n) đã được chọn sao cho $V_{n+1}^2 \subset V_n$, và định nghĩa quy nạp một dãy $(x_n)$ các điểm của G, sao cho $x_n \in \dot{x}_n$ và $x_{n+1} \in x_n V_n$; điều này có thể thực hiện được theo điều đã nói. Suy ra theo quy nạp rằng với mỗi $p > 0$ ta có $x_{n+p} \in x_n V_n V_{n+1} \ldots V_{n+p-1} \subset x_n V_{n-1}$. Do đó dãy $(x_n)$ là một dãy Cauchy trong G, nên nó hội tụ đến một điểm $a$; và suy ra ngay lập tức rằng ảnh chính tắc $\dot{a}$ của $a$ trong G/H là giới hạn của dãy $(\dot{x}_n)$.
 
-#### Hệ quả 1 {#top-ix-s3-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#top-ix-s3-prop-4-cor-1 .statement tag=0C43}
 
 *Cho G là một nhóm tôpô mêtric đầy đủ, cho G_0 là một nhóm con trù mật của G và cho H_0 là một nhóm con chuẩn đóng của G_0. Nếu H là bao đóng của H_0 trong G, thì nhóm thương G_0/H_0 có một phép đầy đủ đẳng cấu với G/H.*
 
@@ -159,23 +159,23 @@ Cho $H$ là một nhóm con đóng của $G$ và cho $E = G/H$. Gọi $j : H \to
 
 Giả sử từ nay $G$ là mêtric hóa được. Khi đó ánh xạ chính tắc của $E = GH$ vào $\hat{G}\hat{H}$ là một đẳng cấu tôpô của $E$ lên một nhóm con trù mật của nhóm đầy đủ $\hat{G}/\hat{H}$ (Hệ quả 1), và do đó ta có thể đồng nhất $\hat{G}\hat{H}$ với $\hat{E}$ và mở rộng liên tục $\hat{p}$ của $p$ lên $\hat{G}$ với ánh xạ chính tắc của $\hat{G}$ lên $\hat{G}/\hat{H}$.
 
-#### Hệ quả 2 {#top-ix-s3-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#top-ix-s3-prop-4-cor-2 .statement tag=0C44}
 
 *Cho $G, G'$ là hai nhóm tôpô Abel mêtric hóa được; cho $u : G \to G'$ là một cấu xạ ngặt có hạt nhân $N$ và ảnh $P$. Khi đó $\hat{u} : \hat{G} \to \hat{G}'$ là một cấu xạ ngặt có hạt nhân $\hat{N}$ và ảnh $\hat{P}$.*
 
 Cho $u = j \circ v \circ p$ là phân tích nhân tử chính tắc của $u$, trong đó $v$ là một đẳng cấu của nhóm tôpô $G/N$ lên nhóm tôpô $u(G) = P$. Ta có $\hat{u} = \hat{j} \circ \hat{v} \circ \hat{p}$, và ta đã thấy rằng $\hat{p}$ là ánh xạ chính tắc của $\hat{G}$ lên $\hat{G}\hat{N}$, và rằng $\hat{j}$ là ánh xạ chính tắc của $\hat{P}$ vào $\hat{G}$. Mặt khác, $\hat{v}$ là một đẳng cấu của $\hat{G}/\hat{N}$ lên $\hat{P}$ (Chương III, § 3, no. 4, Mệnh đề 5), do đó có kết quả.
 
-#### Hệ quả 3 {#top-ix-s3-prop-4-cor-3 .statement}
+#### Hệ quả 3 {#top-ix-s3-prop-4-cor-3 .statement tag=0C45}
 
 *Cho $G, G', G''$ là ba nhóm tôpô Abel mêtric hóa được và cho $u : G \to G'$ và $v : G' \to G''$ là hai cấu xạ ngặt sao cho dãy $G \xrightarrow{u} G' \xrightarrow{v} G''$ là khớp [tức là, $u(G) = \overline{v}(0)$]. Khi đó dãy $\hat{G} \xrightarrow{\hat{u}} \hat{G}' \xrightarrow{\hat{v}} \hat{G}''$ là khớp.*
 
 Thật vậy, nếu đặt $N = u(G) = \overline{v}(0)$, thì từ Hệ quả 2 suy ra $\hat{N}$ vừa là ảnh của $\hat{u}$ vừa là hạt nhân của $\hat{v}$.
 
-#### Nhận xét 1 {#top-ix-s3-n1-rem-1 .statement}
+#### Nhận xét 1 {#top-ix-s3-n1-rem-1 .statement tag=0C46}
 
 Cho $G$ là một nhóm tôpô không Hausdorff sao cho nhóm Hausdorff liên kết với $G$ là mêtric hóa được; tương đương với việc phần tử đơn vị của $G$ có một hệ cơ bản đếm được các lân cận trong G. Chứng minh của Mệnh đề 4 áp dụng cho trường hợp này mà không cần sửa đổi, H là một nhóm con chuẩn tùy ý của G, và chỉ ra rằng nhóm Hausdorff liên kết với G/H là mêtric hóa được, và rằng G/H là một nhóm đầy đủ (nói chung không Hausdorff) bất cứ khi nào G là đầy đủ.
 
-#### Nhận xét 2 {#top-ix-s3-n1-rem-2 .statement}
+#### Nhận xét 2 {#top-ix-s3-n1-rem-2 .statement tag=0C47}
 
 Cho d là một mêtric bất biến trái xác định tôpô của một nhóm mêtric hóa được G, và cho H là một nhóm con chuẩn đóng của G. Nếu $\dot{x}$ và $\dot{y}$ là hai điểm tùy ý của G/H, xét khoảng cách $d(\dot{x}, \dot{y})$ của hai tập con đóng $\dot{x}, \dot{y}$ trong G (§ 2, no. 2); ta sẽ thấy rằng hàm này là một mêtric bất biến trái trên G/H và xác định tôpô của nhóm thương này.
 
@@ -195,7 +195,7 @@ như trên; nhưng vì $hzy = z(z^{-1}hz) y$ và vì $z^{-1}hz$ chạy qua H khi
 
 ### 2. CÁC VÀNH CHIA CÓ GIÁ TRỊ
 
-#### Định nghĩa 2 {#top-ix-s3-def-2 .statement}
+#### Định nghĩa 2 {#top-ix-s3-def-2 .statement tag=0C48}
 
 *Một giá trị tuyệt đối trên một vành chia* K *là một ánh xạ* $x \to |x|$ *của* K *vào* $\mathbf{R}_+$ *thỏa mãn các điều kiện sau:*
 
@@ -231,33 +231,33 @@ $$
 
 bây giờ nếu $\varepsilon > 0$ sao cho $\varepsilon < |x_0|$, thì quan hệ $|x - x_0| \leq \varepsilon$ suy ra $|x| \geq |x_0| - \varepsilon$, do đó $|x^{-1} - x_0^{-1}| \leq \varepsilon / |x_0|(|x_0| - \varepsilon)$; và điều này thiết lập tính liên tục của $x^{-1}$ tại điểm $x_0$.
 
-#### Định nghĩa 3 {#top-ix-s3-def-3 .statement}
+#### Định nghĩa 3 {#top-ix-s3-def-3 .statement tag=0C49}
 
 *Một vành chia có giá trị là một vành chia* $K$ *được trang bị cấu trúc được xác định bởi một giá trị tuyệt đối cho trước trên* $K$.
 
 Một vành chia có giá trị sẽ luôn được xem là được trang bị tôpô xác định bởi giá trị tuyệt đối của nó, điều này làm cho nó trở thành một vành chia *tôpô*. Nếu $K_0$ là một vành chia con của một vành chia có giá trị $K$, hạn chế lên $K_0$ của giá trị tuyệt đối trên $K$ là một giá trị tuyệt đối trên $K_0$, xác định trên $K_0$ tôpô cảm sinh bởi tôpô của $K$.
 
-#### Ví dụ 1 {#top-ix-s3-n2-exa-1 .statement}
+#### Ví dụ 1 {#top-ix-s3-n2-exa-1 .statement tag=0C4A}
 
 Cho $K$ là một vành chia tùy ý. Với mỗi $x \in K$, đặt $|x| = 1$ nếu $x \neq 0$, và $|0| = 0$. Ánh xạ $x \to |x|$ được xác định như vậy là một giá trị tuyệt đối trên $K$, được gọi là giá trị tuyệt đối *không chính quy*. Tôpô xác định bởi một giá trị tuyệt đối $|x|$ trên một vành chia $K$ là *rời rạc* khi và chỉ khi $|x|$ là giá trị tuyệt đối không chính quy. Điều kiện này rõ ràng là đủ; ngược lại, nếu tôpô của $K$ là rời rạc, $|x|$ không thể nhận giá trị $\alpha > 0$ nào khác ngoài 1; vì nếu ta có $|x_0| = \alpha < 1$, dãy $(x_0^n)$ sẽ gồm các số hạng khác không và sẽ hội tụ về 0; để xử lý trường hợp $\alpha > 1$, xét $x_0^{-1}$ thay cho $x_0$.
 
-#### Ví dụ 2 {#top-ix-s3-n2-exa-2 .statement}
+#### Ví dụ 2 {#top-ix-s3-n2-exa-2 .statement tag=0C4B}
 
 Giá trị tuyệt đối của một số thực (Chương IV, § 1, no. 6) thỏa mãn các tiên đề (VM_I), (VM_{II}) và (VM_{III}), và tôpô mà nó xác định trên trường $\mathbf{R}$ là tôpô của đường thẳng thực. Trên trường $\mathbf{C}$ của các số phức (được đồng nhất với $\mathbf{R}^2$) [tương ứng vành chia $\mathbf{H}$ của các quaternion (được đồng nhất với $\mathbf{R}^4$)] chuẩn Euclid lại là một giá trị tuyệt đối và xác định tôpô của trường $\mathbf{C}$ (tương ứng vành chia $\mathbf{H}$) (Chương VIII, § 1, các số 2 và 4).
 
-#### Ví dụ 3 {#top-ix-s3-n2-exa-3 .statement}
+#### Ví dụ 3 {#top-ix-s3-n2-exa-3 .statement tag=0C4C}
 
 Trên một vành chia $K$, một định giá thực là một hàm $v$ xác định trên $K^*$ với các giá trị trong $\mathbf{R}$ thỏa mãn các điều kiện sau: a) nếu $x \in K^*$ và $y \in K^*$, thì $v(xy) = v(x) + v(y)$; b) nếu ngoài ra $x + y \neq 0$, thì $v(x + y) \geq \inf(v(x), v(y))$. Nếu $a$ là một số thực $> 1$, ta có thể khi đó định nghĩa một giá trị tuyệt đối trên $K$ bằng cách đặt $|x| = a^{-v(x)}$ với $x \neq 0$, và $|0| = 0$. Vì quan hệ $v(xy) = v(x) + v(y)$ với $x \neq 0$ và $y \neq 0$ suy ra quan hệ $|xy| = |x|.|y|$ đối với các giá trị này của $x$ và $y$, và quan hệ này hiển nhiên đúng nếu một trong $x, y$ bằng không; tương tự, từ quan hệ $v(x + y) \geq \inf(v(x), v(y))$ với $x \neq 0, y \neq 0$ và $x + y \neq 0$ ta suy ra $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, và các bất đẳng thức này vẫn được thỏa mãn nếu một trong $x, y, x + y$ bằng không. Đặc biệt, nếu $v_p(x)$ là định giá $p$-adic trên trường $\mathbf{Q}$ của các số hữu tỉ (số mũ của $p$ trong phân tích của $x$ thành tích của các thừa số nguyên tố), thì giá trị tuyệt đối tương ứng $|x|_p = p^{-v_p(x)}$ được gọi là giá trị tuyệt đối $p$-adic trên trường $\mathbf{Q}$ (xem Chương III, § 6, Bài tập 23).
 
-#### Nhận xét {#top-ix-s3-n2-rem-1 .statement}
+#### Nhận xét {#top-ix-s3-n2-rem-1 .statement tag=0C4D}
 
 Nếu $x$ là một nghiệm đơn vị trong một vành chia có định giá, thì $|x| = 1$, vì $x^n = 1$ suy ra $|x|^n = 1$ và do đó $|x| = 1$. Đặc biệt, giá trị tuyệt đối duy nhất trên một trường hữu hạn là giá trị tuyệt đối không đúng, vì mọi phần tử $\neq 0$ của một trường như vậy đều là một nghiệm đơn vị.
 
-#### Định nghĩa 4 {#top-ix-s3-def-4 .statement}
+#### Định nghĩa 4 {#top-ix-s3-def-4 .statement tag=0C4E}
 
 Hai giá trị tuyệt đối trên một vành chia $K$ được gọi là tương đương nếu chúng định nghĩa cùng một tôpô trên $K$.
 
-#### Mệnh đề 5 {#top-ix-s3-prop-5 .statement}
+#### Mệnh đề 5 {#top-ix-s3-prop-5 .statement tag=0C4F}
 
 Hai giá trị tuyệt đối $|x|_1, |x|_2$ trên một vành chia $K$, không cái nào là giá trị tuyệt đối không đúng, là tương đương khi và chỉ khi quan hệ $|x|_1 < 1$ kéo theo $|x|_2 < 1$. Khi đó tồn tại một số thực $\rho > 0$ sao cho $|x|_2 = |x|_1^\rho$ với mọi $x \in K$.
 
@@ -285,11 +285,11 @@ $$
 $$
 điều này có thể được diễn đạt bằng cách nói rằng $v(x) = -\log |x| \ (x \neq 0)$ là một định giá trên $K$.
 
-#### Nhận xét {#top-ix-s3-n2-rem-2 .statement}
+#### Nhận xét {#top-ix-s3-n2-rem-2 .statement tag=0C4G}
 
 Chứng minh của Mệnh đề 5 cho thấy rằng, nếu tôpô xác định bởi $|x|_2$ thô hơn tôpô xác định bởi $|x|_1$, và nếu $|x|_1$ không là không chính quy, thì $|x|_1$ và $|x|_2$ là tương đương, vì khi đó quan hệ $|x|_2 < 1$ suy ra $|x|_2 < 1$. Do đó, các tôpô xác định bởi hai giá trị tuyệt đối trên $K$, không cái nào trong chúng là không chính quy, không thể so sánh được mà không đồng nhất.
 
-#### Mệnh đề 6 {#top-ix-s3-prop-6 .statement}
+#### Mệnh đề 6 {#top-ix-s3-prop-6 .statement tag=0C4H}
 
 *Phần hoàn thành* $\hat{K}$ *của một vành chia* $K$ *được trang bị một giá trị tuyệt đối* $|x|$ *là một vành chia, và hàm* $|x|$ *có thể được mở rộng bởi tính liên tục thành một giá trị tuyệt đối trên* $\hat{K}$, *xác định tôpô của* $\hat{K}$.
 
@@ -305,7 +305,7 @@ và phần đầu tiên của mệnh đề được suy ra. Mêtric bất biến
 
 ### 3. KHÔNG GIAN CHUẨN TRÊN MỘT VÀNH CHIA CÓ GIÁ TRỊ
 
-#### Định nghĩa 5 {#top-ix-s3-def-5 .statement}
+#### Định nghĩa 5 {#top-ix-s3-def-5 .statement tag=0C4I}
 
 *Nếu E là một không gian vectơ (trái) trên một vành chia có giá trị không rời rạc K, một chuẩn trên E là một ánh xạ $x \to p(x)$ từ E vào $\mathbf{R}_+$ thỏa mãn các tiên đề sau*:
 
@@ -351,7 +351,7 @@ Trong một không gian chuẩn E, quả cầu đóng B có tâm o và bán kín
 
 Cho E là một không gian chuẩn trên một trường có giá trị không rời rạc $K$.
 
-#### Mệnh đề 7 {#top-ix-s3-prop-7 .statement}
+#### Mệnh đề 7 {#top-ix-s3-prop-7 .statement tag=0C4J}
 
 Hai chuẩn $p, q$ trên một không gian vectơ $E$ là tương đương khi và chỉ khi tồn tại hai số $a > 0, b > 0$ sao cho
 
@@ -369,7 +369,7 @@ p(x) \leq \frac{1}{|t_0|^k} \leq \frac{1}{\alpha |t_0|} q(x);
 $$
 đặt $a = \alpha |t_0|$ ta có do đó $a . p(x) \leq q(x)$ với mọi $x \neq o$, và bất đẳng thức này cũng đúng khi $x = o$. Tương tự ta chứng minh rằng nếu tôpô xác định bởi $p$ mịn hơn tôpô xác định bởi $q$, thì tồn tại $b > 0$ sao cho $q(x) \leq b . p(x)$.
 
-#### Ví dụ {#top-ix-s3-n3-exa-1 .statement}
+#### Ví dụ {#top-ix-s3-n3-exa-1 .statement tag=0C4K}
 
 Trong không gian $\mathbf{R}^n$, ba chuẩn
 $$
@@ -381,7 +381,7 @@ $$
 \sup_{1 \leq i \leq n} |x_i| \leq \sqrt{\sum_{i=1}^n x_i^2} \leq \sum_{i=1}^n |x_i| \leq n . \sup_{1 \leq i \leq n} |x_i|.
 $$
 
-#### Mệnh đề 8 {#top-ix-s3-prop-8 .statement}
+#### Mệnh đề 8 {#top-ix-s3-prop-8 .statement tag=0C4L}
 
 Cho $E$ là một không gian chuẩn trên một vành chia định giá không rời rạc, cho $p$ là chuẩn trên $E$, và cho $\hat{E}$ là nhóm tôpô cộng tính là sự hoàn thành của nhóm cộng $E$. Khi đó hàm $(t, x) \to tx$ có thể được mở rộng bởi tính liên tục đến $\hat{K} \times \hat{E}$ và xác định trên $\hat{E}$ một cấu trúc không gian vectơ trên $\hat{K}$; chuẩn $p$ có thể được mở rộng bởi tính liên tục thành một chuẩn $\bar{p}$ trên $\hat{E}$ xác định tôpô của $\hat{E}$.
 
@@ -391,7 +391,7 @@ Khi cần xét một cấu trúc không gian định chuẩn xác định trên 
 
 ### 4. CÁC KHÔNG GIAN THƯƠNG VÀ CÁC KHÔNG GIAN TÍCH CỦA CÁC KHÔNG GIAN ĐỊNH CHUẨN
 
-#### Mệnh đề 9 {#top-ix-s3-prop-9 .statement}
+#### Mệnh đề 9 {#top-ix-s3-prop-9 .statement tag=0C4M}
 
 *Cho $E$ là một không gian định chuẩn trên một vành chia có giá trị không rời rạc $K$, và cho $H$ là một không gian con vectơ đóng của $E$. Nếu, với mỗi lớp $\dot{x} \in E/H$, ta đặt $||\dot{x}|| = \inf_{x \in \dot{x}} ||x||$, thì hàm $||\dot{x}||$ là một chuẩn trên không gian vectơ $E/H$, và tôpô được xác định bởi chuẩn này là thương theo $H$ của tôpô của $E$.*
 
@@ -399,7 +399,7 @@ Theo Nhận xét 2 của no. 1, $d(\dot{x}, \dot{y}) = ||\dot{x} - \dot{y}||$ l�
 
 Chuẩn $||\dot{x}||$ cũng có thể được hiểu như sau: đó là khoảng cách (trong $E$) *của mọi điểm* $x \in \dot{x}$ *tới không gian con* $H$, vì các điểm của $\dot{x}$ là các điểm $x - z$, trong đó $z$ chạy qua $H$.
 
-#### Mệnh đề 10 {#top-ix-s3-prop-10 .statement}
+#### Mệnh đề 10 {#top-ix-s3-prop-10 .statement tag=0C4N}
 
 *Cho $(E_i)_{1 \leq i \leq n}$ là một họ hữu hạn các không gian định chuẩn trên một vành chia có giá trị không rời rạc $K$, và cho $E = \prod_{i=1}^n E_i$ là không gian vectơ tích. Nếu với mỗi $x = (x_i) \in E$ ta đặt $||x|| = \sup_{1 \leq i \leq n} ||x_i||$, thì hàm $||x||$ là một chuẩn trên $E$, và tôpô mà nó xác định trên $E$ là tích của các tôpô của các $E_i$.
 
@@ -423,7 +423,7 @@ với $x = (x_i)_{1 \leq i \leq n}$, thì ba hàm $p_1, p_2, p_3$ là các chu�
 
 ### 5. CÁC HÀM ĐA TUYẾN TÍNH LIÊN TỤC
 
-#### Định lý 1 {#top-ix-s3-thm-1 .statement}
+#### Định lý 1 {#top-ix-s3-thm-1 .statement tag=0C4O}
 
 *Cho $E_i (1 \leq i \leq n)$ và $F$ là các không gian có chuẩn trên một vành chia có giá trị không rời rạc $K$, và cho $f$ là một ánh xạ đa tuyến tính từ $\prod_{i=1}^n E_i$ vào $F$. Khi đó $f$ liên tục trên $\prod_{i=1}^n E_i$ khi và chỉ khi tồn tại một số thực $a > 0$ sao cho, với mọi $x_i \in E_i \ (1 \leq i \leq n)$, ta có*
 
@@ -461,13 +461,13 @@ $$
 
 Vì vế phải của bất đẳng thức này là một đa thức theo $r$ có số hạng hằng bằng không, nó tiến tới 0 khi $r$ tiến tới 0; do đó $f$ là liên tục.
 
-#### Nhận xét {#top-ix-s3-n5-rem-1 .statement}
+#### Nhận xét {#top-ix-s3-n5-rem-1 .statement tag=0C4P}
 
 Hai trong số các mệnh đề đã được chứng minh trước đó là hệ quả của định lý này: tính liên tục của hàm song tuyến tính $tr$, do quan hệ $xr = t \cdot x$; và Mệnh đề 7, bằng cách áp dụng Định lý 1 cho ánh xạ đồng nhất của $E$, được xem như một ánh xạ tuyến tính từ không gian $E$, được trang bị chuẩn $p$, vào không gian $E$ được trang bị chuẩn $q$ (hoặc ngược lại).
 
 ### 6. CÁC HỌ KHẢ TỔNG TUYỆT ĐỐI TRONG MỘT KHÔNG GIAN CHUẨN
 
-#### Định nghĩa 8 {#top-ix-s3-def-8 .statement}
+#### Định nghĩa 8 {#top-ix-s3-def-8 .statement tag=0C4Q}
 
 Trong một không gian chuẩn $E$, một họ $(x_i)$ các điểm của $E$ được gọi là khả tổng tuyệt đối nếu họ $(||x_i||)$ các chuẩn của các $x_i$ là khả tổng trong $\mathbf{R}$.
 
@@ -481,7 +481,7 @@ $$
 
 Thật vậy, đối với mỗi tập con hữu hạn $J$ của $I$ ta có $\left\| \sum_{i \in J} x_i \right\| \leq \sum_{i \in J} \|x_i\|$, và bất đẳng thức (4) suy ra bằng cách chuyển qua giới hạn đối với tập có hướng gồm các tập con hữu hạn của $I$.
 
-#### Mệnh đề 11 {#top-ix-s3-prop-11 .statement}
+#### Mệnh đề 11 {#top-ix-s3-prop-11 .statement tag=0C4R}
 
 Trong một không gian chuẩn đầy đủ E, mọi họ khả tổng tuyệt đối đều khả tổng.
 
@@ -489,7 +489,7 @@ Thật vậy, nếu $(x_i)$ là một họ khả tổng tuyệt đối trong E, 
 
 Một chuỗi mà số hạng tổng quát là $x_n$ được gọi là *hội tụ tuyệt đối* trong E nếu chuỗi mà số hạng tổng quát là $||x_n||$ hội tụ trong $\mathbf{R}$, hoặc (tương đương) nếu họ $(x_n)$ là khả tổng tuyệt đối; do đó (Chương III, § 5, no. 7, Mệnh đề 9):
 
-#### Hệ quả {#top-ix-s3-n6-cor-1 .statement}
+#### Hệ quả {#top-ix-s3-n6-cor-1 .statement tag=0C4S}
 
 Trong một không gian chuẩn đầy đủ E, mọi chuỗi hội tụ tuyệt đối đều *hội tụ giao hoán*.
 
@@ -501,7 +501,7 @@ Tuy nhiên, ta đã thấy trong Chương VII, § 3, no. 1, rằng mọi họ kh
 
 ### 7. CÁC ĐẠI SỐ CHUẨN TRÊN MỘT TRƯỜNG CÓ GIÁ TRỊ
 
-#### Định nghĩa 9 {#top-ix-s3-def-9 .statement}
+#### Định nghĩa 9 {#top-ix-s3-def-9 .statement tag=0C4T}
 
 *Nếu A là một đại số trên một trường K có giá trị không rời rạc, một chuẩn $p(x)$ trên A (A được xem như một không gian vectơ trên K) được gọi là tương thích với cấu trúc đại số của A nếu tôpô mà nó xác định là tương thích với cấu trúc vành của A. Một đại số trên K, được trang bị cấu trúc được xác định bởi một chuẩn tương thích với cấu trúc đại số, được gọi là một đại số chuẩn.*
 
@@ -517,15 +517,15 @@ $$
 ||x^n|| \leq ||x||^n.
 $$
 
-#### Ví dụ 1 {#top-ix-s3-n7-exa-1 .statement}
+#### Ví dụ 1 {#top-ix-s3-n7-exa-1 .statement tag=0C4U}
 
 Cho $K$ là một vành chia định giá và cho $K'$ là một trường con của tâm của $K$ sao cho vết trên $K'$ của giá trị tuyệt đối $|x|$ của $K$ không phải là giá trị tuyệt đối không đúng trên $K'$. Khi đó $K$, với $|x|$ làm chuẩn, là một đại số chuẩn trên $K'$.
 
-#### Ví dụ 2 {#top-ix-s3-n7-exa-2 .statement}
+#### Ví dụ 2 {#top-ix-s3-n7-exa-2 .statement tag=0C4V}
 
 Cho $K$ là một trường định giá không rời rạc và cho $M_n(K)$ là vành các ma trận vuông cấp $n$ trên $K$. Được xem như một không gian vectơ trên $K$, $M_n(K)$ là đẳng cấu với $K^{n^2}$. Nếu với mỗi $X = (x_{ij}) \in M_n(K)$ ta định nghĩa $\|X\| = \sup_{i,j} |x_{ij}|$, thì $\|X\|$ là một chuẩn trên $M_n(K)$, và tôpô được định nghĩa bởi chuẩn này là tôpô tích trên $K^{n^2}$ (Mệnh đề 10); từ đó suy ra (do tính liên tục của các đa thức với một số bất kỳ các biến trên $K$) rằng chuẩn này tương thích với cấu trúc đại số-$K$ của $M_n(K)$.
 
-#### Ví dụ 3 {#top-ix-s3-n7-exa-3 .statement}
+#### Ví dụ 3 {#top-ix-s3-n7-exa-3 .statement tag=0C4W}
 
 Tập hợp $\mathscr{B}(X; K)$ gồm tất cả các hàm $f$ trên một tập hợp $X$ với các giá trị trong một trường định giá không rời rạc $K$, sao cho $x \to |f(x)|$ bị chặn trên $X$, là một đại số trên $K$; chuẩn $\|f\| = \sup_{x \in X} |f(x)|$ tương thích với cấu trúc vành của $\mathscr{B}(X; K)$, vì ta có $\|fg\| \leq \|f\|\cdot\|g\|$ (xem Chương X, § 1).
 
@@ -549,7 +549,7 @@ Nếu $||e|| = 1$ thì ta có $||te|| = |t|$, và khi đó ta có thể đồng 
 
 Trong phần tiếp theo, ta sẽ chỉ xét các đại số định chuẩn có một phần tử đơn vị $e$, và trong đó chuẩn thỏa bất đẳng thức (5); thay $x = y = e$ vào bất đẳng thức này, suy ra $||e|| \geq 1$.
 
-#### Mệnh đề 12 {#top-ix-s3-prop-12 .statement}
+#### Mệnh đề 12 {#top-ix-s3-prop-12 .statement tag=0C4X}
 
 *Nếu chuỗi có số hạng tổng quát là $z^n$ hội tụ trong $A$, thì $e - z$ là một phần tử khả nghịch của $A$ và ta có*
 $$
@@ -565,13 +565,13 @@ Nếu chuỗi có số hạng tổng quát là $z^n$ hội tụ và nếu $y$ l�
 
 Ngược lại, nếu $||z|| < 1$, thì vì $||z^{p+1}|| \leq ||z||^{p+1}$, suy ra $z^{p+1}$ tiến tới 0 khi $p \to +\infty$; nhân cả hai vế của (8) bên trái với $(e-z)^{-1}$ và cho $p$ tiến tới vô cùng, ta thấy rằng chuỗi có số hạng tổng quát là $z^n$ hội tụ và có $(e-z)^{-1}$ làm tổng của nó.
 
-#### Hệ quả {#top-ix-s3-n7-cor-1 .statement}
+#### Hệ quả {#top-ix-s3-n7-cor-1 .statement tag=0C4Y}
 
 *Cho A là một đại số chuẩn đầy đủ. Khi đó với mỗi $z \in A$ thỏa $||z|| < 1$, $e - z$ là một phần tử khả nghịch trong A.*
 
 Chuỗi có số hạng tổng quát là $z^n$ hội tụ tuyệt đối, vì $||z^n|| \leq ||z||^n$ với $n > 0$, và do đó hội tụ, vì A đầy đủ (no. 6, Mệnh đề 11).
 
-#### Mệnh đề 13 {#top-ix-s3-prop-13 .statement}
+#### Mệnh đề 13 {#top-ix-s3-prop-13 .statement tag=0C4Z}
 
 *Cho G là nhóm các phần tử khả nghịch của một đại số chuẩn đầy đủ A. Khi đó G là một tập mở của A; tôpô cảm sinh trên G bởi tôpô của A tương thích với cấu trúc nhóm của G; và G, được trang bị tôpô này, là một nhóm đầy đủ* (đối với mỗi một trong hai cấu trúc đều của nó).
 
@@ -604,7 +604,7 @@ $$
 $$
 Lấy $a$ là một điểm của $M$; với mỗi $x \in M$ ta có $||x - a|| \leq \varepsilon \ ||a||$, và do đó $||x|| \leq (1 + \varepsilon)||a||$. Mặt khác, tồn tại một tập $N \subset M$ thuộc $\mathfrak{F}$ và sao cho $||x^{-1}y - e|| \leq \varepsilon/(1 + \varepsilon)||a||$ với mọi $x$ và $y$ trong $N$; suy ra $||y - x|| \leq \varepsilon ||x||/(1 + \varepsilon)||a|| \leq \varepsilon$, điều này cho thấy rằng $\mathfrak{F}$ là một bộ lọc Cauchy đối với cấu trúc đều cộng tính của $A$, và do đó hội tụ đến một điểm $x_0$, vì $A$ là đầy đủ. Vì $x_0$ là giới hạn của $\mathfrak{F}$, ta có $||x^{-1}x_0 - e|| \leq \varepsilon$ với mọi $x \in M$ theo nguyên lý mở rộng các bất đẳng thức; vì $\varepsilon > 1$, suy ra $x^{-1}x_0$ là một phần tử khả nghịch trong $A$; do đó $x_0$ là một phần tử khả nghịch, tức là $x_0 \in G$.
 
-#### Mệnh đề 14 {#top-ix-s3-prop-14 .statement}
+#### Mệnh đề 14 {#top-ix-s3-prop-14 .statement tag=0C50}
 
 *Trong một vành chia có giá trị đầy đủ, nhóm nhân của các phần tử khác 0 là một nhóm đầy đủ.*
 
@@ -612,7 +612,7 @@ Chứng minh giống như của Mệnh đề 13; ta chỉ cần thay chuẩn c�
 
 Chú ý rằng ta không thể áp dụng trực tiếp Mệnh đề 13, vì một vành chia có giá trị (không giao hoán) không nhất thiết là một đại số trên một trường có giá trị *không rời rạc* (sự hạn chế của giá trị tuyệt đối lên tâm của vành chia có thể không thích hợp).
 
-#### Nhận xét {#top-ix-s3-n7-rem-1 .statement}
+#### Nhận xét {#top-ix-s3-n7-rem-1 .statement tag=0C51}
 
 Mệnh đề 13 không nhất thiết đúng đối với một đại số chuẩn không đầy đủ. Chẳng hạn, trong đại số $C(I; \mathbf{R})$ của tất cả các hàm liên tục thực giá trị hữu hạn trên $I = [0, 1]$ [chuẩn là $||x|| = \sup_{t \in I} |x(t)|$], đại số con $P$ của tất cả các *đa thức* theo $t$ (hạn chế lên $I$) *không* đầy đủ; nếu $x(t)$ là một đa thức không hằng bất kỳ, thì $1 + \varepsilon x$ ở gần tùy ý phần tử đơn vị 1 của $P$ khi $\varepsilon$ là tùy ý nhỏ, nhưng $1 + \varepsilon x$ không phải là một phần tử khả nghịch *trong* $P$. Tuy nhiên, nếu $A$ là một đại số chuẩn không đầy đủ, $G$ là nhóm các phần tử khả nghịch của nó, $\hat{A}$ là sự đầy đủ hóa của $A$, thì $G$ là một nhóm con của nhóm các phần tử khả nghịch của $\hat{A}$, và do đó tôpô cảm sinh trên $G$ bởi tôpô của $A$ tương thích với cấu trúc nhóm của $G$.
 

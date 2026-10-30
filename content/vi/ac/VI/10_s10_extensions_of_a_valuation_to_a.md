@@ -25,9 +25,9 @@ subsections:
       pdf_page: 456
 statements: 14
 exercises: 2
-content_sha256: 0feda9fa8613a79d8478c32d496a3932f293f8b29c609e229eab54dc93a3d9a8
+content_sha256: 02b08b272923ad9bcb8d4f5c259a831ac4df5474f53325979c3fbbb744795b62
 translated_from: content/en/ac/VI/10_s10_extensions_of_a_valuation_to_a.md
-source_content_sha256: 34f40a243b26113b5ca170f44a53946190e03c0c9c5132625229fb3ca220d4f2
+source_content_sha256: d3545f7135c1b975d777e05ac5e9cc067935aed03dd234e1d2fffc43e8d3d49f
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-aaf67f5f
 glossary_version: 34
@@ -39,7 +39,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. TRƯỜNG HỢP CỦA MỘT MỞ RỘNG SIÊU VIỆT ĐƠN SINH
 
-#### Bổ đề 1 {#ac-vi-s10-lem-1 .statement}
+#### Bổ đề 1 {#ac-vi-s10-lem-1 .statement tag=04Y5}
 
 Cho $K$ là *một trường*, $v$ là một định giá trên $K$, $\Gamma$ là nhóm cấp *của nó*, $\Gamma'$ là một nhóm được sắp thứ tự toàn phần chứa $\Gamma$ và $\xi$ là *một phần tử của* $\Gamma'$. Tồn tại *một* định giá duy nhất w *trên* $K(X)$ *sao cho*, *với* $P = \sum_j a_j X^j$ ($a_j \in K$), $w(P) = \inf_j (v(a_j) + j\xi)$.
 
@@ -85,7 +85,7 @@ $$
 w(PQ) = \alpha + \beta = w(P) + w(Q).
 $$
 
-#### Mệnh đề 1 {#ac-vi-s10-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s10-prop-1 .statement tag=04Y6}
 
 Cho $K$ là *một trường*, $v$ *một định giá trên* $K$, $\Gamma$ *nhóm có thứ tự của nó*, $\Gamma'$ *một nhóm được sắp thứ tự toàn phần chứa* $\Gamma$ *và* $\xi$ *một phần tử của* $\Gamma'$ *sao cho các hệ thức* $n\xi \in \Gamma, n \in \mathbf{Z}$ *suy ra* $n = 0$. Khi đó tồn tại *một* định giá duy nhất w *trên* $K(X)$ *nhận giá trị trong* $\Gamma'$ *và mở rộng* $v$ *sao cho* $w(X) = \xi$. *Trường thặng dư của* w *bằng trường thặng dư của* $v$ *và nhóm có thứ tự của nó là nhóm con* $\Gamma + \mathbf{Z}\xi$ *của* $\Gamma'$.
 
@@ -97,7 +97,7 @@ trong đó $b \in K^*, n \in \mathbf{Z}, u' \in K(X)$ và $w(u') > 0$; khi đó 
 
 Cuối cùng sự tồn tại của $w$ suy ra từ Bổ đề 1.
 
-#### Mệnh đề 2 {#ac-vi-s10-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s10-prop-2 .statement tag=04Y7}
 
 *Cho $K$ là một trường, $v$ là một định giá trên $K$, $\Gamma$ là nhóm cấp của nó và $k$ là trường thặng dư của nó. Tồn tại một định giá duy nhất $w$ trên $K(X)$ mở rộng $v$ sao cho $w(X) = 0$ và ảnh $t$ của $X$ trong trường thặng dư $k'$ của $w$ là siêu việt trên $k$. Nhóm cấp của $w$ bằng nhóm cấp của $v$ và trường thặng dư của nó là $k(t)$.*
 
@@ -116,13 +116,13 @@ $$
 
 điều đó chứng minh mệnh đề của chúng ta.
 
-#### Nhận xét {#ac-vi-s10-n1-rem-1 .statement}
+#### Nhận xét {#ac-vi-s10-n1-rem-1 .statement tag=04Y8}
 
 Không nên nghĩ rằng hai kiểu mở rộng của v lên K(X) mà ta vừa gặp là những kiểu duy nhất; có thể tồn tại một kiểu mở rộng thứ ba, trong đó $\Gamma'/\Gamma$ là một nhóm xoắn và $k'$ là một mở rộng đại số (không nhất thiết hữu hạn) của $k$. Kiểu thứ ba này không nhất thiết thu được bằng thủ tục mô tả trong Bổ đề 1 (x. § 3, Bài tập 1).
 
 ### 2. HẠNG HỮU TỈ CỦA MỘT NHÓM GIAO HOÁN
 
-#### Định nghĩa 1 {#ac-vi-s10-def-1 .statement}
+#### Định nghĩa 1 {#ac-vi-s10-def-1 .statement tag=04Y9}
 
 *Hạng hữu tỉ của một nhóm giao hoán G là chiều của không gian vectơ trên Q* $G \otimes_{\mathbf{Z}} \mathbf{Q}$.
 
@@ -134,7 +134,7 @@ $$
 r(G) = r(G') + r(G/G').
 $$
 
-#### Mệnh đề 3 {#ac-vi-s10-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s10-prop-3 .statement tag=04YA}
 
 *Cho G là một nhóm giao hoán được sắp thứ tự toàn phần và H là một nhóm con của G. Nếu $h(G)$ và $h(H)$ ký hiệu các chiều cao của G và H* ($§ 4$, no. 4), *thì bất đẳng thức*
 
@@ -168,11 +168,11 @@ Bây giờ $G/G_{n-1}$ là một nhóm có thứ tự toàn phần không quy v�
 
 (b) $H \cap G_{n-1} \neq H$. Vì $H \cap G_{n-1}$ là một nhóm con cô lập của $H$, ta kết luận rằng $h(H) > h(H \cap G_{n-1}) + 1$. Mặt khác, hiển nhiên $r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$. Thay vào (7), ta lại thu được (6).
 
-#### Hệ quả {#ac-vi-s10-n2-cor-1 .statement}
+#### Hệ quả {#ac-vi-s10-n2-cor-1 .statement tag=04YB}
 
 *Với mọi nhóm giao hoán được sắp thứ tự toàn phần G, $h(G) \leq r(G)$.* Ta đặt $H = (0)$ trong Mệnh đề 3.
 
-#### Mệnh đề 4 {#ac-vi-s10-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vi-s10-prop-4 .statement tag=04YC}
 
 *Cho G là một nhóm giao hoán được sắp thứ tự toàn phần. Giả sử rằng G sinh hữu hạn và $h(G) = r(G)$. Khi đó G đẳng cấu với $\mathbf{Z}^{r(G)}$ được sắp theo thứ tự từ điển.*
 
@@ -180,7 +180,7 @@ Hãy viết $r = r(G) = h(G)$. Nếu $r = 0$, thì $G = (0)$. Nếu $r = 1$, c�
 
 Bây giờ giả sử rằng $r \geq 2$ và lập luận bằng quy nạp theo $r$. Cho H là một nhóm con cô lập của G có chiều cao $r - 1$. Khi đó $r(H) + r(G/H) = r$ (công thức (4)), $r(H) \geq h(H) = r - 1$ và $r(G/H) \geq h(G/H) = 1$ (Hệ quả của Mệnh đề 3), do đó $r(H) = r - 1$ và $r(G/H) = 1$. Giả thiết quy nạp cho thấy H đẳng cấu với $\mathbf{Z}^{r-1}$ được sắp theo thứ tự từ điển và trường hợp $r = 1$ cho thấy $G/H$ đẳng cấu với Z. Vì Z là một Z-môđun tự do, H là một *nhân tử trực tiếp* của G (*Đại số*, Chương 11, § 1, no. 11, Mệnh đề 21). Bổ đề sau đây khi đó cho thấy G đẳng cấu (không một cách chính tắc) với tích từ điển $H \times (G/H)$, điều này hoàn tất chứng minh.
 
-#### Bổ đề 2 {#ac-vi-s10-lem-2 .statement}
+#### Bổ đề 2 {#ac-vi-s10-lem-2 .statement tag=04YD}
 
 *Cho H là một nhóm con cô lập của một nhóm giao hoán được sắp thứ tự toàn phần G. Nếu H là một nhân tử trực tiếp của G, thì nhóm có thứ tự G đẳng cấu với nhóm $(G/H) \times H$ được sắp theo thứ tự từ điển.*
 
@@ -202,7 +202,7 @@ $$
 
 nếu các vế phải là hữu hạn; nếu không, ta sẽ quy ước rằng $d(K'/K) = +\infty$ (tương ứng $s(v'/v) = +\infty, r(v'/v) = +\infty$).
 
-#### Định lý 1 {#ac-vi-s10-thm-1 .statement}
+#### Định lý 1 {#ac-vi-s10-thm-1 .statement tag=04YE}
 
 *Cho $x_1, \ldots, x,$ là các phần tử của vành của $v'$ mà các ảnh chính tắc $\overline{x}_i$ của chúng trong $k'$ là độc lập đại số trên $k$ và $y_1, \ldots, y_r$ là các phần tử của $K'$ sao cho các ảnh chính tắc của các $v'(y_j)$ trong $\Gamma'/\Gamma$ là độc lập tuyến tính trên $\mathbf{Z}$. Khi đó $r+s$ phần tử $x_1, \ldots, x, y_1, \ldots, y_r$ của $K'$ là độc lập đại số trên $K$; hạn chế của $v'$ lên $K(x_1, \ldots, x, y_1, \ldots, y_r)$ nhận $k(\overline{x}_1, \ldots, \overline{x}_s)$ làm trường thặng dư và*
 
@@ -220,7 +220,7 @@ Mệnh đề của chúng ta là hiển nhiên nếu $r+s = 0$. Ta lập luận 
 
 Bây giờ Mệnh đề 1 của § 8, no. 1 cho thấy rằng $x$ (resp. $y$) không thể là đại số trên $K$. Các mệnh đề khác của (a) (resp. (b)) suy ra ngay lập tức từ Mệnh đề 2 (resp. Mệnh đề 1) của no. 1.
 
-#### Hệ quả 1 {#ac-vi-s10-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s10-thm-1-cor-1 .statement tag=04YF}
 
 *Bất đẳng thức*
 
@@ -238,7 +238,7 @@ Vì thế chúng độc lập đại số trên $K$, điều đó cho thấy b�
 
 Nếu $K'$ là một mở rộng sinh hữu hạn của $K$, $d(K'/K)$ là hữu hạn, do đó $s(v'/v)$ và $r(v'/v)$ cũng hữu hạn; ta ký hiệu chúng lần lượt là $s$ và $r$. Có các phần tử $x_1, \ldots, x_s, y_1, \ldots, y_r$ của $K'$ thỏa mãn các giả thiết của Định lý 1. Nếu $r + s = d(K'/K)$, các phần tử này tạo thành một cơ sở siêu việt của $K'$ trên $K$ và do đó $K'$ là một mở rộng đại số hữu hạn của $K'' = K(x_1, \ldots, y_r)$. Gọi $\Gamma''$ và $k''$ là nhóm cấp và trường thặng dư của hạn chế của $v'$ lên $K''$. Theo Định lý 1, $\Gamma''/\Gamma$ là một $\mathbf{Z}$-môđun sinh hữu hạn và $k''$ là một mở rộng thuần sinh hữu hạn của $k$. Mặt khác, vì $K'$ là một mở rộng đại số hữu hạn của $K$, $\Gamma'/\Gamma$ là một nhóm hữu hạn và $k'$ là một mở rộng đại số hữu hạn của $k''$ (§ 8, no. 1, Bổ đề 2). Điều này chứng minh hệ quả.
 
-#### Hệ quả 2 {#ac-vi-s10-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s10-thm-1-cor-2 .statement tag=04YG}
 
 *Cho h và h' là các chiều cao của v và v'. Khi đó*
 $$
@@ -246,13 +246,13 @@ s(v'/v) + h' \leq d(K'/K) + h.
 $$
 Theo Mệnh đề 3, $h' \leq r(v'/v) + h$.
 
-#### Hệ quả 3 {#ac-vi-s10-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#ac-vi-s10-thm-1-cor-3 .statement tag=04YH}
 
 *Giả sử rằng $K'$ là một mở rộng sinh hữu hạn của $K$, rằng $\Gamma$ đẳng cấu với $\mathbf{Z}^{h'}$ (có thứ tự theo từ điển) và có đẳng thức trong công thức (10). Khi đó $\Gamma'$ đẳng cấu với $\mathbf{Z}^{h'}$ (có thứ tự theo từ điển) và $k'$ là một mở rộng sinh hữu hạn của $k$.*
 
 Nếu có đẳng thức trong (10), có đẳng thức trong (9), do đó có việc $k'$ là một mở rộng sinh hữu hạn của $k$ và $\Gamma''$ là một $\mathbf{Z}$-môđun sinh hữu hạn. Hơn nữa, so sánh (9) và (10), ta thấy rằng $h' - h = r(\Gamma'/\Gamma)$, do đó $h' = r(\Gamma')$ và khi đó Mệnh đề 4 (no. 2) cho thấy rằng $\Gamma'$ đẳng cấu với $\mathbf{Z}^{h'}$ có thứ tự theo từ điển.
 
-#### Hệ quả 4 {#ac-vi-s10-thm-1-cor-4 .statement}
+#### Hệ quả 4 {#ac-vi-s10-thm-1-cor-4 .statement tag=04YI}
 
 *Giả sử rằng v là không đúng (trong trường hợp đó $k = K$). Khi đó*
 $$

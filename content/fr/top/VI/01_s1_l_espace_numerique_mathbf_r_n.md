@@ -36,24 +36,24 @@ subsections:
       pdf_page: 34
 statements: 10
 exercises: 13
-content_sha256: 6c8b00eea805e2e9590c224ec25f0716f7940b73fa91717b3d62f1569d54110c
+content_sha256: bc384c020cf46de2b82c9b1611bc142392ffc54b34c052642c1da18676cded09
 ---
 
 ## § 1. L’ESPACE NUMÉRIQUE $\mathbf{R}^n$
 
 ### 1. Topologie de $\mathbf{R}^n$
 
-#### Définition 1 {#top-vi-s1-def-1 .statement}
+#### Définition 1 {#top-vi-s1-def-1 .statement tag=0BW3}
 
 On appelle espace numérique à n dimensions ou de dimension n (plan numérique lorsque $n = 2$), et on note $\mathbf{R}^n$, l’espace topologique produit de n espaces identiques à la droite numérique $\mathbf{R}$.
 
-#### Remarque {#top-vi-s1-n1-rem-1 .statement}
+#### Remarque {#top-vi-s1-n1-rem-1 .statement tag=0BW4}
 
 L’espace $\mathbf{R}^0$ est réduit à un point.
 
 On sait (E, III, p. 49, cor. 1) que, si E est un ensemble infini, $E^n$ est équipotent à E pour tout entier $n > 0$; donc, pour $n > 0$, $\mathbf{R}^n$ est équipotent à $\mathbf{R}$, autrement dit, *a la puissance du continu* (cf. VI, p. 21, exerc. 1 et 2).
 
-#### Définition 2 {#top-vi-s1-def-2 .statement}
+#### Définition 2 {#top-vi-s1-def-2 .statement tag=0BW5}
 
 On appelle pavé ouvert (resp. pavé fermé) de $\mathbf{R}^n$ toute partie de $\mathbf{R}^n$ qui est le produit de n intervalles ouverts (resp. de n intervalles fermés) de $\mathbf{R}$.
 
@@ -71,11 +71,11 @@ Si A est un ensemble ouvert non vide dans $\mathbf{R}^n$, ses composantes connex
 
 Cherchons la condition pour qu’une partie A de $\mathbf{R}^n$ soit relativement compacte; d’après le th. de Tychonoff (I, p. 63, th. 3), il faut et il suffit que les projections de A sur les espaces facteurs de $\mathbf{R}^n$ soient relativement compactes; d’après le th. de Borel-Lebesgue (IV, p. 6, th. 2), cela équivaut à dire que ces projections sont des parties bornées de $\mathbf{R}$; lorsqu’il en est ainsi, on dit que A est une partie bornée de $\mathbf{R}^n$; donc:
 
-#### Proposition 1 {#top-vi-s1-prop-1 .statement}
+#### Proposition 1 {#top-vi-s1-prop-1 .statement tag=0BW6}
 
 *Pour qu’une partie A de $\mathbf{R}^n$ soit relativement compacte, il faut et il suffit qu’elle soit bornée.*
 
-#### Corollaire {#top-vi-s1-n1-cor-1 .statement}
+#### Corollaire {#top-vi-s1-n1-cor-1 .statement tag=0BW7}
 
 *L’espace $\mathbf{R}^n$ est localement compact, et, pour $n \geq 1$, non compact.*
 
@@ -111,7 +111,7 @@ Soit $(\mathbf{a}_i)_{1 \leq i \leq n}$ un système libre de $n$ vecteurs de $\m
 
 Soit $P \in \mathbf{R}[X_1, \ldots, X_n]$ un polynôme à $n$ indéterminées à coefficients réels. La fonction polynomiale associée à $P$ est l’application $f : \mathbf{R}^n \to \mathbf{R}$ qui, à tout vecteur $\mathbf{x} = (x_i) \in \mathbf{R}^n$, fait correspondre le nombre réel $P(x_1, \ldots, x_n)$ (cf. A, IV, §2, no 3). Comme $\mathbf{R}$ est infini, à deux polynômes distincts sont associées deux fonctions polynomiales distinctes (A, IV, §2, no 5, prop. 9).
 
-#### Proposition 2 {#top-vi-s1-prop-2 .statement}
+#### Proposition 2 {#top-vi-s1-prop-2 .statement tag=0BW8}
 
 Soit $f : \mathbf{R}^n \to \mathbf{R}$ une fonction polynomiale. L’application $f$ est continue. Si $f$ n’est pas identiquement nulle, le complémentaire de l’ensemble $f^{-1}(0)$ est un ouvert dense de $\mathbf{R}^n$.
 
@@ -121,7 +121,7 @@ L’application $f$ est continue d’après III, p. 47; l’ensemble $f^{-1}(0)$
 
 Etant donnée une variété linéaire affine non vide $V$ de $\mathbf{R}^n$, de dimension $p$, il existe une application affine $f$ de $\mathbf{R}^n$ sur lui-même, qui transforme $V$ en le sous-espace vectoriel $V'$ engendré par $e_1, \ldots, e_p$ (A, II, p. 129). Comme $V'$ est un pavé fermé et est homéomorphe à $\mathbf{R}^p$, on en conclut:
 
-#### Proposition 3 {#top-vi-s1-prop-3 .statement}
+#### Proposition 3 {#top-vi-s1-prop-3 .statement tag=0BW9}
 
 Toute variété linéaire affine non vide de dimension $p$ de $\mathbf{R}^n$ est un ensemble fermé dans $\mathbf{R}^n$, homéomorphe à $\mathbf{R}^p$.
 
@@ -139,7 +139,7 @@ Une droite passant par deux points distincts $x$ et $y$ admet aussi la représen
 
 Si $x \neq y$, on appelle de même (par abus de langage) segment ouvert d’extrémités $x, y$, l’ensemble des points $u x + v y$ tels que $u > 0, v > 0, u + v = 1$; c’est un ensemble homéomorphe à l’intervalle ouvert ]$0, 1[$ (donc à $\mathbf{R}$ lui-même). Enfin, on appelle parfois segment ouvert en $x$, fermé en $y$, la réunion de $y$ et du segment ouvert d’extrémités $x, y$; c’est un ensemble homéomorphe à l’intervalle $[0, 1[$. Tous les segments d’extrémités $x, y$ sont connexes et ont pour adhérence le segment fermé de mêmes extrémités.
 
-#### Proposition 4 {#top-vi-s1-prop-4 .statement}
+#### Proposition 4 {#top-vi-s1-prop-4 .statement tag=0BWB}
 
 *Dans $\mathbf{R}^n$, le complémentaire d’une variété linéaire affine $V$ de dimension $p < n$ est un ouvert dense. Si $p < n - 1$, il est connexe. Si $p = n - 1$, il a deux composantes connexes, homéomorphes à $\mathbf{R}^n$*.
 
@@ -158,7 +158,7 @@ Nous verrons ultérieurement que la topologie ainsi définie peut être aussi ca
 
 Si maintenant $A$ est une *algèbre* de dimension finie $n$ sur le corps $\mathbf{R}$, la topologie précédente sur $A$ (considéré comme espace vectoriel à $n$ dimensions sur $\mathbf{R}$) est non seulement compatible avec la structure de groupe additif de $A$, mais aussi avec sa structure d'*anneau*. Cela résulte de la proposition plus générale suivante:
 
-#### Proposition 5 {#top-vi-s1-prop-5 .statement}
+#### Proposition 5 {#top-vi-s1-prop-5 .statement tag=0BWC}
 
 *Soient* $E$, $F$, $G$ *trois espaces vectoriels de dimensions finies sur le corps* $\mathbf{R}$; *toute application bilinéaire*¹ $f$ *de* $E \times F$ *dans* $G$ *est continue*.
 
@@ -168,7 +168,7 @@ En effet, on peut supposer que $E = \mathbf{R}^m$, $F = \mathbf{R}^n$, $G = \mat
 
 Comme exemple important d’espace vectoriel sur $\mathbf{R}$, citons l’espace $\mathbf{M}_{m, n}(\mathbf{R})$ des *matrices à m lignes et n colonnes* dont les éléments appartiennent à $\mathbf{R}$; c’est un espace de dimension $mn$ sur $\mathbf{R}$, donc homéomorphe à $\mathbf{R}^{mn}$. D’après la prop. 5 de VI, p. 6, le *produit* $X \cdot Y$ de deux matrices $X \in \mathbf{M}_{m, n}(\mathbf{R})$, $Y \in \mathbf{M}_{n, p}(\mathbf{R})$ est fonction continue de $(X, Y)$. En particulier, la topologie de l’espace $\mathbf{M}_n(\mathbf{R})$ des matrices *carrées* d’ordre $n$ (cf. A, II, p. 149) est compatible avec la structure d’anneau sur $\mathbf{M}_n(\mathbf{R})$. En outre:
 
-#### Proposition 6 {#top-vi-s1-prop-6 .statement}
+#### Proposition 6 {#top-vi-s1-prop-6 .statement tag=0BWD}
 
 *Dans l’anneau* $\mathbf{M}_n(\mathbf{R})$, *le groupe* $\mathbf{GL}_n(\mathbf{R})$ *des matrices inversibles* est un ensemble ouvert dense, et la topologie induite sur cet ensemble est compatible avec sa structure de groupe.
 

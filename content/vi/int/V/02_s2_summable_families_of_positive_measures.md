@@ -25,9 +25,9 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 4
-content_sha256: 8a3d93f6e059de3455aeade9880b01842555cd5ad8cd5a90dc5e473a2350e1c8
+content_sha256: ab96ab625d5184c88623e1518ff6eaa748dd15719d10d3a02838b5bca91742bb
 translated_from: content/en/int/V/02_s2_summable_families_of_positive_measures.md
-source_content_sha256: 730cfcb70644db90795e20bf6902026aa0227cd8eb96e17932cb562cdb07b859
+source_content_sha256: ec7d58f4d9ead5ad76e61a986e1e25bc88d93ca5a6598bf0f04e740c0b11cee4
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-2189d355
 glossary_version: 34
@@ -56,11 +56,11 @@ với mọi tập compact $K \subset X$.
 
 Thật vậy, (2) suy ra (1) vì $f \leq \|f\| \cdot \varphi_S$, trong đó S ký hiệu giá đỡ compact của $f$. Ngược lại, nếu K là một tập compact, tồn tại một hàm $f \in \mathscr{K}_+(X)$ sao cho $\varphi_K \leq f$ (Chương III, §1, No. 2, Bổ đề 1), và suy ra rằng (1) suy ra (2).
 
-#### Nhận xét 1 {#int-v-s2-n1-rem-1 .statement}
+#### Nhận xét 1 {#int-v-s2-n1-rem-1 .statement tag=090G}
 
 Ngay lập tức thấy rằng, khi họ $(\lambda_\alpha)_{\alpha \in A}$ khả tổng, tổng của nó là cận trên đúng trong $\mathscr{M}_+(X)$ của các tổng riêng hữu hạn $\sum_{\alpha \in J} \lambda_\alpha$, trong đó J chạy qua tập hợp các tập con hữu hạn của A.
 
-#### Nhận xét 2 {#int-v-s2-n1-rem-2 .statement}
+#### Nhận xét 2 {#int-v-s2-n1-rem-2 .statement tag=090H}
 
 Cho $(\theta_\alpha)_{\alpha \in A}$ là một họ các độ đo phức trên X; họ $(\theta_\alpha)$ được gọi là *khả tổng* nếu họ $(|\theta_\alpha|)$ của các độ đo dương khả tổng; *điều này chưa đủ* để họ $(\theta_\alpha)$ khả tổng trong không gian vectơ $\mathscr{M}(X; \mathbf{C})$ được trang bị tôpô mơ hồ (xem Bài tập 3).
 
@@ -68,7 +68,7 @@ Cho $(\theta_\alpha)_{\alpha \in A}$ là một họ các độ đo phức trên 
 
 *Trong suốt số này,* X ký hiệu một không gian địa phương compact, $(\lambda_\alpha)_{\alpha \in A}$ một họ khả tổng các độ đo dương trên X, và $\nu$ là độ đo $\sum_{\alpha \in A} \lambda_\alpha$.
 
-#### Mệnh đề 1 {#int-v-s2-prop-1 .statement}
+#### Mệnh đề 1 {#int-v-s2-prop-1 .statement tag=090I}
 
 — *Cho f là một hàm số lượng dương xác định trên X. Khi đó*
 $$
@@ -77,18 +77,18 @@ $$
 
 Điều này suy ra ngay từ Nhận xét 1, Mđ. 11 của §1, No. 3 và Mđ. 3 của §1, No. 1.
 
-#### Hệ quả 1 {#int-v-s2-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s2-prop-1-cor-1 .statement tag=090J}
 
 — *Với mọi tập con compact (tương ứng mở và tương đối compact) M của X,
 $$
 \nu(M) = \sum_{\alpha \in A} \lambda_\alpha(M).
 $$*
 
-#### Hệ quả 2 {#int-v-s2-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s2-prop-1-cor-2 .statement tag=090K}
 
 — *Để một tập con N của X là địa phương $\nu$-không đáng kể, cần và đủ rằng, với mọi $\alpha \in A$, N là địa phương $\lambda_\alpha$-không đáng kể.*
 
-#### Hệ quả 3 {#int-v-s2-prop-1-cor-3 .statement}
+#### Hệ quả 3 {#int-v-s2-prop-1-cor-3 .statement tag=090L}
 
 — *Với mọi hàm $f \in \mathscr{F}_+(X)$,
 $$
@@ -99,13 +99,13 @@ Bất đẳng thức là hiển nhiên nếu $f$ không $\nu$-điều tiết, v�
 
 Có thể xảy ra rằng hai vế của (4) không bằng nhau, ngay cả khi A đếm được và mỗi của $\lambda_\alpha$ là một độ đo điểm ($§ 1$, Bài tập 4 a)).
 
-#### Mệnh đề 2 {#int-v-s2-prop-2 .statement}
+#### Mệnh đề 2 {#int-v-s2-prop-2 .statement tag=090M}
 
 — *Cho $f$ là một ánh xạ từ $X$ vào một không gian tôpô $G$. Để $f$ là $\nu$-đo được, cần và đủ là $f$ là $\lambda_\alpha$-đo được với mọi $\alpha \in A$.*
 
 Điều này suy ra ngay từ Hệ quả 2 của Mệnh đề 11 của $§ 1$.
 
-#### Mệnh đề 3 {#int-v-s2-prop-3 .statement}
+#### Mệnh đề 3 {#int-v-s2-prop-3 .statement tag=090N}
 
 — *Để một ánh xạ $f$ từ $X$ vào một không gian Banach $F$ là khả tích thiết yếu theo $\nu$, cần và đủ là $f$ khả tích thiết yếu theo $\lambda_\alpha$ với mọi $\alpha \in A$ và*
 
@@ -129,13 +129,13 @@ suy ra rằng họ $(\int f \, d\lambda_\alpha)$ là khả tổng tuyệt đối
 
 Mệnh đề 3 cũng có thể được suy ra từ định lý tổng quát về tích phân sẽ được chứng minh ở §3 (No. 3, Định lý 1).
 
-#### Hệ quả 1 {#int-v-s2-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s2-prop-3-cor-1 .statement tag=090O}
 
 — Giả sử rằng $f$ là $\nu$-khả tích; khi đó $f$ là $\lambda_\alpha$-khả tích với mọi $\alpha \in A$, và công thức (6) đúng. Ngược lại, nếu tập hợp $A$ là hữu hạn và $f$ là $\lambda_\alpha$-khả tích với mọi $\alpha \in A$, thì hàm $f$ là $\nu$-khả tích.
 
 Nếu $f$ khả tích theo $\nu$, thì $f$ khả tích thực chất theo $\nu$ và $\nu$-điều độ (§ 1, No. 3, Cor. of Prop. 9); $f$ do đó khả tích thực chất theo $\lambda_\alpha$ và $\lambda_\alpha$-điều độ, suy ra $\lambda_\alpha$-khả tích, với mọi $\alpha \in A$. Ngược lại, nếu $A$ là hữu hạn và nếu $f$ là $\lambda_\alpha$-khả tích với mọi $\alpha \in A$, thì $f$ khả tích thực chất theo $\nu$ theo Prop. 3, và chỉ cần kiểm tra rằng $\nu^*(|f|) < +\infty$; điều này suy ra ngay từ quan hệ $\nu^* = \sum_{\alpha \in A} \lambda_\alpha^*$ (Ch. IV, §1, No. 3, Prop. 15).
 
-#### Hệ quả 2 {#int-v-s2-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s2-prop-3-cor-2 .statement tag=090P}
 
 — Cho $\theta$ là một độ đo phức trên $X$; đặt $\theta_1 = (\Re \theta)^+$, $\theta_2 = (\Re \theta)^-$, $\theta_3 = (\Im \theta)^+$, $\theta_4 = (\Im \theta)^-$. Để một ánh xạ $f$ của $X$ vào một không gian tôpô $G$ (tương ứng vào một không gian Banach $F$) là đo được (tương ứng khả tích thực chất, khả tích) đối với độ đo $\theta$, điều kiện cần và đủ là nó đo được (tương ứng khả tích thực chất, khả tích) đối với từng độ đo $\theta_i$ ($i = 1, 2, 3, 4$).
 
@@ -143,7 +143,7 @@ Nếu $f$ là đo được (tương ứng khả tích thực chất, khả tích
 
 ### 3. Phân tích một độ đo thành tổng các độ đo có giá đỡ compact
 
-#### Mệnh đề 4 {#int-v-s2-prop-4 .statement}
+#### Mệnh đề 4 {#int-v-s2-prop-4 .statement tag=090Q}
 
 — Cho $\mu$ là một độ đo dương trên một không gian compact địa phương $T$, và cho $\mathfrak{K}$ là một tập trù mật theo $\mu$ gồm các tập con compact của $T$. Tồn tại một họ khả tổng $(\mu_\alpha)_{\alpha \in A}$ gồm các độ đo dương trên $T$ sao cho $\mu = \sum_{\alpha \in A} \mu_\alpha$, và sao cho các giá đỡ của các độ đo $\mu_\alpha$ thuộc $\mathfrak{K}$ và tạo thành một họ đếm được địa phương gồm các tập compact rời nhau từng đôi một.
 
@@ -166,7 +166,7 @@ $$
 $$
 Điều đó hoàn tất chứng minh của trường hợp tổng quát. Nếu $\mu$ là điều độ, thì tập $T$ là $\mu$-điều độ và do đó $T$ là hợp của một dãy $(L_n)$ các tập compact và một tập không đáng kể (§ 1, No. 2, Mệnh đề 5); cho $A'$ là tập đếm được gồm các $\alpha \in A$ sao cho $K_\alpha$ cắt một trong các $L_n$. Khi đó $\mu_\alpha = 0$ với $\alpha \notin A'$, và câu cuối cùng của mệnh đề suy ra ngay lập tức.
 
-#### Nhận xét {#int-v-s2-n3-rem-1 .statement}
+#### Nhận xét {#int-v-s2-n3-rem-1 .statement tag=090R}
 
 Một độ đo dương có thể là tổng của một dãy các độ đo có giá đỡ compact, mà không điều độ (xem Bài tập 4 a) của § 1).
 

@@ -53,9 +53,9 @@ subsections:
       pdf_page: 316
 statements: 52
 exercises: 31
-content_sha256: fb87c6e60145d7b4b71c7496c3f182bb1184a4f74cee896a13b1fc640f7767a9
+content_sha256: 24c8afb4f2851a9c442aa2272a52a6038cb7a7d07f2c5addc6972b3b30238e58
 translated_from: content/en/int/V/05_s5_measures_defined_by_numerical_densities.md
-source_content_sha256: a6af753e0363e53ed203d1339626c47d280bd8e41fec91dee692edb693588182
+source_content_sha256: d1c0e47776f33ebac3f5f4eb44ad8e2e1b76c65670899f2de059c9d70818f487
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-57dece11
 glossary_version: 34
@@ -67,7 +67,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các hàm khả tích địa phương
 
-#### Mệnh đề 1 {#int-v-s5-prop-1 .statement}
+#### Mệnh đề 1 {#int-v-s5-prop-1 .statement tag=092D}
 
 *Cho $g$ là một hàm được định nghĩa địa phương hầu khắp nơi trong $T$ (đối với độ đo dương $\mu$), với giá trị trong một không gian Banach $F$ (resp. in $\overline{\mathbf{R}}$). Các tính chất sau là tương đương:*
 
@@ -83,7 +83,7 @@ Mặt khác, b) suy ra c), vì khi đó $gh$ là đo được, và nếu $L$ là
 
 Cuối cùng, c) suy ra a). Thật vậy, với mọi $t \in T$ hãy lấy $V$ là một lân cận compact của $t$. Tồn tại một ánh xạ liên tục $h$ của $T$ vào $[0,1]$, bằng 1 trên $V$ và có giá compact (Ch. III, §1, No. 2, Bổ đề 1); theo giả thiết $gh$ khả tích, do đó $g \varphi_V = (gh) \varphi_V$ cũng khả tích (Ch. IV, §5, No. 6, Hệ quả 3 của Định lý 5).
 
-#### Định nghĩa 1 {#int-v-s5-def-1 .statement}
+#### Định nghĩa 1 {#int-v-s5-def-1 .statement tag=092E}
 
 *Một hàm* $g$, *được định nghĩa địa phương hầu khắp nơi trong* $T$ *(đối với độ đo dương* $\mu$*), *với giá trị trong một không gian Banach* $F$ *(resp. in* $\overline{\mathbf{R}}$*), *được gọi là khả tích địa phương đối với* $\mu$ *(hay khả tích địa phương theo* $\mu$*) nếu nó thỏa mãn các điều kiện* a), b), c) *của Mệnh đề 1.* *Nếu* $\theta$ *là một độ đo phức, một hàm* $g$ *được định nghĩa địa phương* $\theta$*-hầu khắp nơi được gọi là khả tích địa phương theo* $\theta$ *nếu nó khả tích địa phương đối với độ đo dương* $|\theta|$.
 
@@ -120,7 +120,7 @@ $$
 
 trên $\mathscr{K}(T)$ là một phép đo phức.
 
-#### Định nghĩa 2 {#int-v-s5-def-2 .statement}
+#### Định nghĩa 2 {#int-v-s5-def-2 .statement tag=092F}
 
 *Cho $\theta$ là một phép đo phức, và cho $u$ là một hàm phức (hay một hàm nhận giá trị trong $\overline{\mathbf{R}}$) được xác định địa phương $\theta$-hầu khắp nơi và địa phương $\theta$-khả tích. Phép đo phức $f \mapsto \int fu\,d\theta$ trên T được gọi là tích của phép đo $\theta$ với hàm $u$, hay là phép đo với mật độ $u$ đối với $\theta$, và được ký hiệu $u \cdot \theta$.*
 
@@ -138,7 +138,7 @@ Từ nay về sau ta sẽ chỉ xét trường hợp các hàm được định 
 
 Mệnh đề sau cho phép, trong phần lớn các trường hợp, rút về trường hợp các phép đo dương từ trường hợp các phép đo phức:
 
-#### Mệnh đề 2 {#int-v-s5-prop-2 .statement}
+#### Mệnh đề 2 {#int-v-s5-prop-2 .statement tag=092G}
 
 *Cho $\theta$ là một phép đo phức, và $u$ là một hàm phức địa phương $\theta$-khả tích; khi đó*
 
@@ -148,7 +148,7 @@ $$
 
 Ta bắt đầu với một kết quả phụ trợ:
 
-#### Bổ đề 1 {#int-v-s5-lem-1 .statement}
+#### Bổ đề 1 {#int-v-s5-lem-1 .statement tag=092H}
 
 — *Cho $\theta$ là một phép đo phức, và cho $f$ là một phần tử của $\overline{\mathscr{L}}^1_C(T, \theta)$. Khi đó*
 
@@ -197,7 +197,7 @@ $$
 
 Hai độ đo $|u| \cdot |\theta|$ và $|u \cdot \theta|$ vì thế bằng nhau.
 
-#### Hệ quả {#int-v-s5-n2-cor-1 .statement}
+#### Hệ quả {#int-v-s5-n2-cor-1 .statement tag=092I}
 
 *Cho $g_1$ và $g_2$ là hai hàm số thực địa phương $\mu$-tích phân; khi đó*
 
@@ -219,7 +219,7 @@ $$
 
 Những nhận xét ở No. 2 cho thấy các kết quả của §4 áp dụng được cho độ đo $\nu = g \cdot \mu = \int g(t) \varepsilon_t \, d\mu(t)$ (mặc dù độ đo $g(t) \varepsilon_t$ không được xác định trừ khi $g(t) \neq +\infty$). Ta do đó thu được mệnh đề sau:
 
-#### Mệnh đề 3 {#int-v-s5-prop-3 .statement}
+#### Mệnh đề 3 {#int-v-s5-prop-3 .statement tag=092J}
 
 *Với mọi hàm số trị số $f \geqslant 0$ xác định trên $T$,*
 
@@ -229,37 +229,37 @@ $$
 
 Điều này suy ra từ Định lý 1 của §4, No. 2.
 
-#### Hệ quả 1 {#int-v-s5-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s5-prop-3-cor-1 .statement tag=092K}
 
 *Để một hàm số $\mathbf{f}$, với giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$, là không đáng kể địa phương đối với độ đo $u \cdot \theta$, cần và đủ rằng $u \mathbf{f}$ là không đáng kể địa phương đối với $\theta$. \*
 
 Nói rằng $\mathbf{f}$ (tương ứng $u \mathbf{f}$) là không đáng kể địa phương đối với $u \cdot \theta$ (tương ứng đối với $\theta$) là tương đương với nói rằng $|\mathbf{f}|$ (tương ứng $|u| \cdot |\mathbf{f}|$) là không đáng kể địa phương đối với $|u \cdot \theta|$ (tương ứng đối với $|\theta|$). Do đó, theo Mệnh đề 2 của No. 2, ta quy về trường hợp $\mathbf{f}, u, \theta$ là dương; mệnh đề khi đó suy ra ngay từ Mệnh đề 3.
 
-#### Hệ quả 2 {#int-v-s5-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s5-prop-3-cor-2 .statement tag=092L}
 
 *Cho $u_1$ và $u_2$ là hai hàm phức khả tích địa phương theo $\theta$. Để $u_1 \cdot \theta = u_2 \cdot \theta$, cần và đủ rằng $u_1$ và $u_2$ bằng nhau hầu khắp nơi địa phương.*
 
 Ta ngay lập tức quy về việc chứng minh rằng $u \cdot \theta = 0$ kéo theo rằng $u(t) = 0$ hầu khắp nơi địa phương; nhưng $u \cdot \theta = 0$ có nghĩa là hàm 1 là không đáng kể địa phương đối với độ đo $u \cdot \theta$. Khi đó áp dụng Hệ quả 1.
 
-#### Hệ quả 3 {#int-v-s5-prop-3-cor-3 .statement}
+#### Hệ quả 3 {#int-v-s5-prop-3-cor-3 .statement tag=092M}
 
 *Cho $u$ là một hàm phức khả tích địa phương đối với độ đo dương $\mu$. Để $u \cdot \mu$ là một độ đo dương, cần và đủ rằng $u(t) \geqslant 0$ hầu khắp nơi địa phương.*
 
 Vì, $u \cdot \mu$ là dương khi và chỉ khi $u \cdot \mu = |u \cdot \mu| = |u| \cdot \mu$ (Mệnh đề 2), và điều này tương đương với $u = |u|$ hầu khắp nơi địa phương (Hệ quả 2).
 
-#### Mệnh đề 4 {#int-v-s5-prop-4 .statement}
+#### Mệnh đề 4 {#int-v-s5-prop-4 .statement tag=092N}
 
 *Để một ánh xạ $f$ của $T$ vào một không gian tôpô $G$ là đo được đối với độ đo $u \cdot \theta$, cần và đủ rằng hạn chế của $f$, trên tập $\theta$-đo được $S$ của các $t$ sao cho $u(t) \neq 0$, là $\theta$-đo được.*
 
 Khi $u$ và $\theta$ là dương, điều này suy ra ngay từ Mệnh đề 3 của §4, No. 3. Kết quả sau đó mở rộng sang trường hợp $u$ và $\theta$ là phức nhờ Mệnh đề 2.
 
-#### Hệ quả {#int-v-s5-n3-cor-1 .statement}
+#### Hệ quả {#int-v-s5-n3-cor-1 .statement tag=092O}
 
 *Cho $\mathbf{f}$ là một hàm số xác định trên $T$, với giá trị trong một không gian Banach $F$ hoặc trong $\overline{\mathbf{R}}$. Để $\mathbf{f}$ là $(u \cdot \theta)$-đo được, cần và đủ rằng $u \mathbf{f}$ là $\theta$-đo được.*
 
 Vì, $u \mathbf{f}$ là mở rộng bởi 0 của $(u \mathbf{f})|S$ lên $T$.
 
-#### Định lý 1 {#int-v-s5-thm-1 .statement}
+#### Định lý 1 {#int-v-s5-thm-1 .statement tag=092P}
 
 *Cho $\mathbf{f}$ là một hàm xác định trên $T$, với giá trị trong một không gian Banach $F$ hoặc trong $\overline{\mathbf{R}}$. Để $\mathbf{f}$ khả tích hầu khắp nơi đối với* độ đo $\eta = u \cdot \theta$, cần và đủ rằng $uf$ khả tích hầu khắp nơi theo $\theta$, trong trường hợp đó
 
@@ -277,11 +277,11 @@ $$
 
 Công thức (6) suy ra ngay từ đây.
 
-#### Hệ quả {#int-v-s5-n3-cor-2 .statement}
+#### Hệ quả {#int-v-s5-n3-cor-2 .statement tag=092Q}
 
 Để độ đo $u \cdot \theta$ bị chặn, cần và đủ rằng $u$ khả tích hầu khắp nơi theo $\theta$.
 
-#### Ví dụ {#int-v-s5-n3-exa-1 .statement}
+#### Ví dụ {#int-v-s5-n3-exa-1 .statement tag=092R}
 
 Cho $A$ là một tập con của $T$; để $\varphi_A$ khả tích địa phương theo $\mu$, cần và đủ rằng $A$ là $\mu$-đo được. Giả sử điều kiện đó được thỏa mãn, đặt $\nu = \varphi_A \cdot \mu$; với mọi hàm số $f \geq 0$ xác định trên $T$, ta có
 
@@ -297,7 +297,7 @@ $$
 
 ### 4. Sự tương thích của tích đối với các phép toán thông thường
 
-#### Mệnh đề 5 {#int-v-s5-prop-5 .statement}
+#### Mệnh đề 5 {#int-v-s5-prop-5 .statement tag=092S}
 
 một biểu thức cũng được ký hiệu bởi $\int_A f \, d\mu$. Chú ý rằng nếu hai ánh xạ từ $T$ vào $G$ (tương ứng $F, \overline{\mathbf{R}}$) trùng nhau trên $A$, thì để một trong hai ánh xạ ấy là $\nu$-đo được (tương ứng khả tích thiết yếu theo $\nu$), điều kiện cần và đủ là ánh xạ kia cũng như vậy. Nếu bây giờ $g$ là một ánh xạ vào $G$ của một tập con tùy ý $B \supset A$ của $T$, ta nói rằng $g$ là $\mu$-đo được *trên* $A$ nếu một mở rộng tùy ý lên $T$ của hạn chế của $g$ lên $A$ là $\nu$-đo được, điều này tương đương với việc nói rằng hạn chế của $g$ lên $A$ là $\mu$-đo được. Một ánh xạ $f$ của $B$ vào một không gian Banach $F$, hoặc vào $\overline{\mathbf{R}}$, được gọi là *khả tích một cách thiết yếu* theo $\mu$ *trên* $A$ nếu một mở rộng $\overline{f}$ lên $T$ của hạn chế của $f$ lên $A$ là khả tích một cách thiết yếu theo $\nu$; khi đó ta đặt
 $$
@@ -315,7 +315,7 @@ $$
 $$
 (§ 1, No. 4, Mệnh đề 11). Điều này trước hết suy ra rằng thành phần thứ nhất là hữu hạn với mọi $h$, do đó $g$ địa phương khả tích theo $\lambda$; vì vậy ký hiệu $\int^\bullet$ có thể được thay bằng $\int$, và công thức có thể viết là $\int h \, d(g \cdot \lambda) = \int h \, d\lambda'$. Suy ra $g \cdot \lambda = \lambda'$, và điều đó hoàn tất chứng minh.
 
-#### Hệ quả {#int-v-s5-n4-cor-1 .statement}
+#### Hệ quả {#int-v-s5-n4-cor-1 .statement tag=092T}
 
 — Giả sử rằng $\mu$ là tổng của một họ $(\mu_\alpha)_{\alpha \in A}$ các độ đo trên T. Để một hàm số trị dương g xác định trên T địa phương khả tích theo $\mu$, cần và đủ rằng g địa phương khả tích theo $\mu_\alpha$ với mọi $\alpha \in A$ và rằng họ $(g \cdot \mu_\alpha)_{\alpha \in A}$ là khả tổng. Trong trường hợp này,
 
@@ -325,7 +325,7 @@ $$
 
 Cho $(g_\alpha)_{\alpha \in A}$ là một họ các hàm số trị dương $\mu$-đo được xác định trên T. Gọi $S_\alpha$ là tập hợp các $t \in T$ sao cho $g_\alpha(t) \neq 0$. Ta sẽ nói rằng họ $(g_\alpha)$ là *địa phương đếm được* nếu họ $(S_\alpha)$ là địa phương đếm được (Ch. IV, §5, No. 9); điều đó tương đương với việc nói rằng, với mọi tập compact K trong T, tập các $\alpha \in A$ sao cho $g_\alpha|K$ không đồng nhất bằng không là đếm được.
 
-#### Mệnh đề 6 {#int-v-s5-prop-6 .statement}
+#### Mệnh đề 6 {#int-v-s5-prop-6 .statement tag=092U}
 
 — Cho $(g_\alpha)_{\alpha \in A}$ là một họ đếm được địa phương các hàm số trị dương địa phương khả tích theo $\mu$ xác định trên T. Để hàm $g = \sum_{\alpha \in A} g_\alpha$ địa phương khả tích theo $\mu$, cần và đủ rằng họ các độ đo $(g_\alpha \cdot \mu)_{\alpha \in A}$ là khả tổng, trong trường hợp đó
 
@@ -335,13 +335,13 @@ $$
 
 It là rõ ràng rằng $g$ là $\mu$-đo được (Chương IV, §5, No. 2, Mệnh đề 4 và No. 4, Hệ quả 1 của Định lý 2). Để $g$ khả tích địa phương theo $\mu$, do đó cần và đủ rằng $\mu^\bullet(gf)$ hữu hạn với mọi $f \in \mathscr{H}_+(T)$. Bây giờ, vì tập các $\alpha \in A$ sao cho $g_\alpha f \neq 0$ là đếm được, ta có $\mu^\bullet(gf) = \sum_{\alpha \in A} \mu^\bullet(g_\alpha f)$ (§1, No. 1, Hệ quả của Mệnh đề 2). Đặt $\nu_\alpha = g_\alpha \cdot \mu$; điều kiện $\mu^\bullet(gf) < +\infty$ tương đương với điều kiện $\sum_{\alpha \in A} \nu_\alpha(f) < +\infty$: nói cách khác, $g$ khả tích địa phương theo $\mu$ khi và chỉ khi họ $(\nu_\alpha)$ khả tổng. Ký hiệu tổng của họ này là $\nu$, phép tính trên cho đẳng thức $\nu(f) = \mu^\bullet(gf)$, đẳng thức này tương đương với (8).
 
-#### Hệ quả {#int-v-s5-n4-cor-2 .statement}
+#### Hệ quả {#int-v-s5-n4-cor-2 .statement tag=092V}
 
 — Cho $(g_\alpha)$ là một dãy các hàm số thực khả tích địa phương theo $\mu$, sao cho dãy các độ đo $g_n \cdot \mu$ là tăng. Để dãy này có một cận trên trong không gian vectơ có thứ tự $\mathscr{M}(T)$ của các độ đo thực trên T, cần và đủ rằng hàm số $g = \sup g_n$ khả tích địa phương theo $\mu$; khi đó cận trên đúng trong $\mathscr{M}(T)$ của dãy $(g_n \cdot \mu)$ là độ đo $g \cdot \mu$.
 
 Chỉ cần áp dụng Mệnh đề 6 cho các hàm số (dương địa phương hầu khắp nơi) $g'_n = g_{n+1} - g_n$.
 
-#### Mệnh đề 7 {#int-v-s5-prop-7 .statement}
+#### Mệnh đề 7 {#int-v-s5-prop-7 .statement tag=092W}
 
 — Cho X là một không gian compact địa phương đếm được ở vô cùng, và cho $t \mapsto \lambda_t$ là một ánh xạ $\mu$-thích hợp của T vào $\mathscr{M}_+(X)$.
 
@@ -359,7 +359,7 @@ $$
 
 Công thức này và Mệnh đề 5 của § 3, Số 2 trước hết chỉ ra (khi lấy $h \in \mathscr{K}_+(X)$) rằng ánh xạ $t \mapsto g \cdot \lambda_t$ là khả tích thiết yếu theo vô hướng đối với $\mu$, và tích phân của nó là $g \cdot \nu$; nói cách khác, hệ thức (9) đúng. Tiếp theo, thay $\mu$ bởi một độ đo dương $\mu' \leq \mu$, và lấy $h$ là một hàm nửa liên tục dưới dương: từ các hệ thức này suy ra ngay rằng $t \mapsto g \cdot \lambda_t$ là $\mu$-thích đáng (§ 3, Số 1, Định nghĩa 1).
 
-#### Mệnh đề 8 {#int-v-s5-prop-8 .statement}
+#### Mệnh đề 8 {#int-v-s5-prop-8 .statement tag=092X}
 
 *Cho $\theta$ là một độ đo phức trên $T$, $g_1$ là một hàm phức khả tích địa phương theo $\theta$, $\theta_1$ là độ đo $g_1 \cdot \theta$. Để một hàm phức $g_2$ xác định trên $T$ khả tích địa phương theo $\theta_1$, cần và đủ rằng $g_2 g_1$ khả tích địa phương theo $\theta$, trong trường hợp đó*
 
@@ -384,7 +384,7 @@ một công thức tương đương với (10).
 
 ### 5. Đặc trưng hóa các độ đo với cơ sở $\mu$
 
-#### Định lý 2 (Lebesgue–Nikodym) {#int-v-s5-thm-2 .statement}
+#### Định lý 2 (Lebesgue–Nikodym) {#int-v-s5-thm-2 .statement tag=092Y}
 
 — *Cho $\mu$ và $\nu$ là hai độ đo dương trên $T$. Các tính chất sau là tương đương:*
 
@@ -394,7 +394,7 @@ một công thức tương đương với (10).
 
 Rõ ràng 1) kéo theo 2) (Hệ quả 1 của Mệnh đề 3), và 2) kéo theo 3). Ta sẽ chứng minh rằng 3) kéo theo 1). Trước hết ta nhận xét rằng nếu điều kiện 3) được thỏa mãn thì mọi tập $A$ vừa *khả đo được mọi nơi* vừa địa phương $\mu$-không đáng kể đều địa phương $\nu$-không đáng kể; thật vậy, $\nu^\bullet(A) = \sup \nu(K)$, trong đó $K$ chạy qua tập hợp các tập compact được chứa trong $A$ (§ 1, No. 3, Mệnh đề 10, a) và Ch. IV, § 4, No. 6, Hệ quả 2 của Định lý 4). Tiếp theo, ta sẽ thiết lập hai bổ đề.
 
-#### Bổ đề 2 {#int-v-s5-lem-2 .statement}
+#### Bổ đề 2 {#int-v-s5-lem-2 .statement tag=092Z}
 
 — *Cho $\alpha$ là một độ đo dương bị chặn trên $T$, và $\beta$ là một độ đo thực trên $T$ sao cho $|\beta| \leq M \alpha$, trong đó $M$ là một hằng số dương. Khi đó, tồn tại một hàm thực $u$, khả tích theo $\alpha$, sao cho $\beta = u \cdot \alpha$*.
 
@@ -406,7 +406,7 @@ $$
 
 Ánh xạ $g \mapsto \beta(g)$ do đó là một dạng tuyến tính liên tục trên $\mathscr{L}^2(T, \alpha)$. Vì không gian Hausdorff gắn với $\mathscr{L}^2(T, \alpha)$ là một không gian Hilbert, nên tồn tại (TVS, Ch. V, § 1, No. 7, Định lý 3) một hàm thực $u \in \mathscr{L}^2(T, \alpha)$, do đó cũng thuộc $\mathscr{L}^1(T, \alpha)$, sao cho $\beta(g) = \alpha(ug)$ với mọi $g \in \mathscr{L}^2(T, \alpha)$. Áp dụng quan hệ này cho $g \in \mathscr{K}(T)$, ta thấy rằng $\beta = u \cdot \alpha$.
 
-#### Bổ đề 3 {#int-v-s5-lem-3 .statement}
+#### Bổ đề 3 {#int-v-s5-lem-3 .statement tag=0930}
 
 — *Giả sử độ đo dương $\nu$ sao cho mọi tập compact $\mu$-không đáng kể đều $\nu$-không đáng kể. Gọi $\mathfrak{K}$ là tập hợp các tập compact $K$ của $T$ có tính chất sau:*
 
@@ -429,7 +429,7 @@ $$
 
 Tập hợp $g = \sum_{\alpha \in A} g_\alpha$; vì họ $(g_\alpha)$ là địa phương đếm được và họ $(\nu_\alpha)$ là khả tổng, Mệnh đề 6 suy ra rằng $g$ là địa phương $\mu$-khả tích, và rằng $\nu = g \cdot \mu$, điều đó chứng minh định lý.
 
-#### Hệ quả 1 {#int-v-s5-thm-2-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s5-thm-2-cor-1 .statement tag=0931}
 
 — Cho $\mathscr{N}$ là một tập các độ đo dương có cơ sở $\mu$, có supremum $\nu$ trong $\mathscr{M}(T)$; khi đó $\nu$ là một độ đo có cơ sở $\mu$.
 
@@ -441,33 +441,33 @@ $$
 
 Do đó Định lý 2 suy ra rằng $\nu$ là một độ đo có cơ sở $\mu$.
 
-#### Hệ quả 2 {#int-v-s5-thm-2-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s5-thm-2-cor-2 .statement tag=0932}
 
 — Cho $\nu$ là một độ đo thực trên $T$. Để $\nu$ thuộc vào dải được sinh bởi $\mu$ trong không gian có thứ tự theo dàn đầy đủ $\mathscr{M}(T)$ (Ch. II, §1, No. 5), điều kiện cần và đủ là $\nu$ là một độ đo có cơ sở $\mu$.
 
 Xét $\nu^+$ và $\nu^-$, ta ngay lập tức quy về trường hợp một độ đo dương $\nu$ (No. 2, Hệ quả của Mệnh đề 2). Khi đó đặt $\nu_n = \inf(n\mu, \nu)$; $\nu$ thuộc vào dải được sinh bởi $\mu$ khi và chỉ khi $\nu = \sup_n \nu_n$ (Ch. II, §1, No. 5, Hệ quả của Mệnh đề 6). Bây giờ $\nu_n$, vì bị chặn trên bởi $n\mu$, là một độ đo có cơ sở $\mu$ theo Định lý 2; do đó quan hệ $\nu = \sup_n \nu_n$ suy ra rằng $\nu$ là một độ đo có cơ sở $\mu$ (Hệ quả 1). Ngược lại, giả sử rằng $\nu$ là một độ đo có cơ sở $\mu$: $\nu = g \cdot \mu$, trong đó $g$ là địa phương $\mu$-khả tích và dương. Khi đó $\nu_n = \inf(g, n) \cdot \mu$ (Hệ quả của Mệnh đề 2), và từ định lý của Lebesgue (Ch. IV, §4, No. 3, Mệnh đề 4) suy ra ngay rằng $\nu = \sup_n \nu_n$.
 
-#### Hệ quả 3 {#int-v-s5-thm-2-cor-3 .statement}
+#### Hệ quả 3 {#int-v-s5-thm-2-cor-3 .statement tag=0933}
 
 — Cho $\theta$ là một độ đo phức; tồn tại một hàm đo được phổ quát $v$, với $|v| = 1$, sao cho $\theta = v \cdot |\theta|$, $|\theta| = \overline{v} \cdot \theta$.
 
 Viết $\theta = \theta_1 - \theta_2 + i(\theta_3 - \theta_4)$, trong đó $\theta_1 = (\Re \theta)^+$, $\theta_2 = (\Re \theta)^-$, $\theta_3 = (\Im \theta)^+$, $\theta_4 = (\Im \theta)^-$; các độ đo dương $\theta_i$ ($i = 1, 2, 3, 4$), bị chặn trên bởi $|\theta|$ (Ch. III, §1, No. 6, công thức (17)), là các độ đo có cơ sở $|\theta|$ theo Định lý 2. Suy ra tồn tại một hàm địa phương $|\theta|$-khả tích $v$ sao cho $\theta = v \cdot |\theta|$. Mệnh đề 2 khi đó cho hệ thức $|\theta| = |v| \cdot |\theta|$, điều này suy ra rằng $|v| = 1$ địa phương $|\theta|$-hầu khắp nơi (Hệ quả 2 của Mệnh đề 3). Cuối cùng, theo Mệnh đề 8, $\overline{v} \cdot \theta = (v \overline{v}) \cdot |\theta| = |\theta|$. Vì hàm $v$ chỉ được xác định tới một hàm địa phương $|\theta|$-không đáng kể, ta có thể giả sử rằng $v$ là đo được phổ dụng (§3, No. 4, Mệnh đề 7) và rằng $|v| = 1$ mọi nơi.
 
-#### Nhận xét 1 {#int-v-s5-n5-rem-1 .statement}
+#### Nhận xét 1 {#int-v-s5-n5-rem-1 .statement tag=0934}
 
 Giả sử rằng $\lambda$ là một độ đo dương, rằng $v$ là một hàm đo được theo $\lambda$ sao cho $|v| = 1$ địa phương $\lambda$-hầu khắp nơi (điều này suy ra rằng $v$ là địa phương $\lambda$-khả tích), và rằng $\theta = v \cdot \lambda$. Mệnh đề 2 cho thấy ngay lập tức rằng $\lambda = |\theta|$; nói cách khác, tính chất của mệnh đề trước đặc trưng cho độ đo dương $|\theta|$.
 
-#### Nhận xét 2 {#int-v-s5-n5-rem-2 .statement}
+#### Nhận xét 2 {#int-v-s5-n5-rem-2 .statement tag=0935}
 
 Nếu $|\theta| \leq a \mu$, trong đó $\mu$ là một độ đo dương và $a$ là một số $\geq 0$, thì $\theta$ là một độ đo có cơ sở $\mu$.
 
-#### Hệ quả 4 {#int-v-s5-thm-2-cor-4 .statement}
+#### Hệ quả 4 {#int-v-s5-thm-2-cor-4 .statement tag=0936}
 
 — Cho $\rho$ và $\theta$ là hai độ đo phức. Để tồn tại một hàm địa phương $\theta$-khả tích $u$ sao cho $\rho = u \cdot \theta$, điều kiện cần và đủ là mọi tập compact $\theta$-không đáng kể đều là $\rho$-không đáng kể.
 
 Điều kiện này hiển nhiên là cần. Chiều ngược lại, giả sử rằng mọi tập compact $\theta$-không đáng kể đều là $\rho$-không đáng kể; Định lý 2 suy ra sự tồn tại của một hàm địa phương $|\theta|$-khả tích $g$ sao cho $|\rho| = g \cdot |\theta|$. Mặt khác, Hệ quả 3 suy ra sự tồn tại của một hàm $v_1$ (tương ứng $v_2$), có giá trị tuyệt đối bằng 1 và đo được đối với độ đo $|\rho|$ (tương ứng $\theta$), sao cho $\rho = v_1 \cdot |\rho|$ (tương ứng $|\theta| = \overline{v_2} \cdot \theta$). Khi đó, theo Mệnh đề 8, $\rho = u \cdot \theta$ với $u = v_1 g \overline{v_2}$.
 
-#### Hệ quả 5 {#int-v-s5-thm-2-cor-5 .statement}
+#### Hệ quả 5 {#int-v-s5-thm-2-cor-5 .statement tag=0937}
 
 — Cho $\mu$ và $\nu$ là hai độ đo dương trên T. Các điều kiện 1), 2), 3) của Định lý 2 cũng tương đương với các điều kiện sau:
 
@@ -495,7 +495,7 @@ Vậy ta đã chứng minh rằng các điều kiện 4) và 6) tương đương
 
 Hiển nhiên 4) suy ra 5). Sau cùng, nếu điều kiện 5) được thỏa mãn, thì $\nu$ thuộc dải được sinh bởi $\mu$ (Ch. II, §2, No. 2, Mệnh đề 5), do đó có cơ sở $\mu$ (Hệ quả 2).
 
-#### Chú giải {#int-v-s5-n5-sch-1 .statement}
+#### Chú giải {#int-v-s5-n5-sch-1 .statement tag=0938}
 
 Với mọi $\dot{f} \in L^1_{\mathrm{loc}}(\mathrm{T}, \mu; \mathbf{R})$, đặt $\varphi(\dot{f}) = f \cdot \mu$, trong đó $f \in \dot{f}$; ánh xạ $\varphi$ là tuyến tính, tăng và đơn ánh (Hệ quả 2 của Mệnh đề 3), và ảnh của nó trong $\mathscr{M}(T)$ là dải B được sinh bởi $\mu$ (Hệ quả 2 của Định lý 2). Do đó ánh xạ $\varphi$ cho phép đồng nhất $L^1_{\text{loc}}(T, \mu; \mathbf{R})$ với một không gian các độ đo thực trên T; vì mọi không gian $L^p_R(T, \mu)$ đều là các không gian con của $L^1_{\text{loc}}(T, \mu; \mathbf{R})$, chúng cũng có thể được đồng nhất với các không gian con của $\mathscr{M}(T)$. Những xét đoán tương tự đúng cho các hàm và độ đo phức. Chú ý rằng ánh xạ $\varphi$ xét ở trên là một đẳng cấu của cấu trúc không gian vectơ có thứ tự của $L^1_{\text{loc}}$ và B, nhưng hiển nhiên không phải là một đẳng cấu đối với các cấu trúc *không gian vectơ tôpô* của các không gian này.
 
@@ -503,7 +503,7 @@ Vì mỗi dải trong một không gian hoàn toàn có thứ tự dàn tự nó
 
 Sau đây là một hệ quả thú vị của Hệ quả 3 của Định lý 2:
 
-#### Mệnh đề 9 {#int-v-s5-prop-9 .statement}
+#### Mệnh đề 9 {#int-v-s5-prop-9 .statement tag=0939}
 
 *Cho $\theta$ là một độ đo phức bị chặn; để $\theta$ là một độ đo dương, điều kiện cần và đủ là $\| \theta \| = \theta(1)$.*.
 
@@ -511,7 +511,7 @@ Sau đây là một hệ quả thú vị của Hệ quả 3 của Định lý 2:
 
 ### 6. Các độ đo tương đương
 
-#### Mệnh đề 10 {#int-v-s5-prop-10 .statement}
+#### Mệnh đề 10 {#int-v-s5-prop-10 .statement tag=093A}
 
 *Cho $\mu$ và $\nu$ là hai độ đo dương trên T. Các điều kiện sau là tương đương:
 a) Các tập hợp không đáng kể địa phương là như nhau đối với $\mu$ và $\nu$.
@@ -522,17 +522,17 @@ Các điều kiện a) và b) tương đương theo Hệ quả 2 của Định l
 
 vì $(1/g)g$ được xác định hầu khắp nơi địa phương và khả tích địa phương theo $\mu$, nên $1/g$ khả tích địa phương theo $\nu$ và $(1/g) \cdot \nu = \mu$ (No. 4, Mệnh đề 8).
 
-#### Định nghĩa 3 {#int-v-s5-def-3 .statement}
+#### Định nghĩa 3 {#int-v-s5-def-3 .statement tag=093B}
 
 *Hai độ đo phức $\theta, \theta'$ trên một không gian compact địa phương $T$ được gọi là tương đương nếu các độ đo $|\theta|$ và $|\theta'|$ thỏa mãn các điều kiện a), b), c) của Mệnh đề 10.*
 
 Vì thế, để $\theta$ và $\theta'$ tương đương thì điều kiện cần và đủ là $|\theta|$ và $|\theta'|$ tương đương.
 
-#### Nhận xét {#int-v-s5-n6-rem-1 .statement}
+#### Nhận xét {#int-v-s5-n6-rem-1 .statement tag=093C}
 
 — Nếu $\mu$ và $\nu$ là hai độ đo dương tương đương thì các hàm khả đo được xác định trên $T$, nhận giá trị trong bất kỳ không gian tôpô nào $G$, là *giống nhau* đối với $\mu$ và $\nu$, như suy ra ngay từ Mệnh đề 4 của No. 3.
 
-#### Mệnh đề 11 {#int-v-s5-prop-11 .statement}
+#### Mệnh đề 11 {#int-v-s5-prop-11 .statement tag=093D}
 
 *Cho $\mu$ là một độ đo dương trên $T$. Nếu $T$ đếm được ở vô cực, thì tồn tại một hàm liên tục $h$ sao cho $h(t) > 0$ với mọi $t \in T$ và sao cho độ đo $\nu = h \cdot \mu$ (tương đương với $\mu$) bị chặn.*
 
@@ -544,7 +544,7 @@ $$
 
 Lấy chẳng hạn $a_n = 2^{-n} (\int f_n \, d\mu)^{-1}$ khi $\int f_n \, d\mu > 1$, và $a_n = 2^{-n}$ trong trường hợp ngược lại, ta có $\sum_n a_n < +\infty$ và $\nu^*(1) < +\infty$, điều đó chứng minh mệnh đề.
 
-#### Mệnh đề 12 {#int-v-s5-prop-12 .statement}
+#### Mệnh đề 12 {#int-v-s5-prop-12 .statement tag=093E}
 
 *Cho $(\mu_n)$ là một dãy các độ đo dương bị chặn trên $T$; tồn tại một độ đo dương bị chặn $\mu$ trên $T$ sao cho quan hệ $\mu^*(N) = 0$ tương đương với «$\mu_n^*(N) = 0$ với mọi $n$»; mỗi độ đo $\mu_n$ có cơ sở là $\mu$. Hơn nữa, nếu $\mu'$ là một độ đo dương thứ hai trên $T$ có tính chất này, thì $\mu$ và $\mu'$ tương đương.*
 
@@ -556,13 +556,13 @@ Phần cuối của mệnh đề suy ra ngay từ Định nghĩa 3. Để chứn
 
 Cho hai độ đo thực $\rho, \sigma$ trên $T$, nhắc lại rằng $\rho$ và $\sigma$ được gọi là xa lạ với nhau nếu $\inf(|\rho|, |\sigma|) = 0$ trong $\mathscr{M}(T)$ (Ch. II, §1, No. 1). Các độ đo thực xa lạ với một độ đo cho trước được biết là tạo thành một dải (Ch. II, §1, No. 5, Định lý 1). Định nghĩa này có thể được mở rộng ngay lập tức sang trường hợp các độ đo phức.
 
-#### Định nghĩa 4 {#int-v-s5-def-4 .statement}
+#### Định nghĩa 4 {#int-v-s5-def-4 .statement tag=093F}
 
 *Người ta nói rằng một độ đo phức $\theta$ trên $T$ được tập trung trên một tập con $M$ của $T$, hay rằng $M$ mang $\theta$, nếu $\mathbf{C}M$ là địa phương không đáng kể đối với $\theta$.*
 
 Tập $M$ mang $\theta$ khi và chỉ khi nó mang $|\theta|$. Tương đương với việc nói rằng $M$ mang $\theta$, hay rằng $M$ là $\theta$-đo được và $\theta = \varphi_M \cdot \theta$. Nếu $\theta$ được tập trung trên $M$, thì mọi độ đo có cơ sở $|\theta|$ đều được tập trung trên $M$.
 
-#### Mệnh đề 13 {#int-v-s5-prop-13 .statement}
+#### Mệnh đề 13 {#int-v-s5-prop-13 .statement tag=093G}
 
 *Để hai độ đo phức $\rho$ và $\sigma$ trên $T$ xa lạ với nhau, điều kiện cần và đủ là tồn tại trong $T$ hai tập rời nhau $R$ và $S$ sao cho $\rho$ được tập trung trên $R$ và $\sigma$ trên $S$; $R$ và $S$ có thể được chọn là đo được phổ dụng.*
 
@@ -574,7 +574,7 @@ $$
 
 (No. 2, Hệ quả của Mệnh đề 2). Cho $A$ (tương ứng $B$) là tập hợp các $t \in T$ sao cho $u(t) > 0$ và $v(t) = 0$ (tương ứng $u(t) = 0$ và $v(t) > 0$). Nếu $\rho$ và $\sigma$ rời nhau, thì $\inf(u, v) = 0$ hầu khắp nơi địa phương theo $\lambda$ (No. 3, Hệ quả 2 của Mệnh đề 3), do đó các tập hợp đo được theo mọi rời nhau $A$ và $B$ mang $\mu$ và $\nu$, tương ứng. Ngược lại, giả sử rằng $\mu$ và $\nu$ lần lượt được mang bởi các tập hợp rời nhau $R$ và $S$; $\varphi_R$ là đo được đối với độ đo $\mu = u \cdot \lambda$, và $\mu = \varphi_R \cdot \mu$. Theo Mệnh đề 8 của No. 4, hàm $u' = u \varphi_R$ là $\lambda$-đo được, và $\mu = u' \cdot \lambda$. Tương tự, nếu $v' = v \varphi_S$ thì $\nu = v' \cdot \lambda$; suy ra bằng cách nhận thấy rằng $\inf(u', v') = 0$ (No. 2, Hệ quả của Mệnh đề 2).
 
-#### Hệ quả 1 {#int-v-s5-prop-13-cor-1 .statement}
+#### Hệ quả 1 {#int-v-s5-prop-13-cor-1 .statement tag=093H}
 
 *Với mọi độ đo thực $\nu$ trên $T$, tồn tại hai tập hợp rời nhau $M, N$ mang $\nu^+$ và $\nu^-$, tương ứng.*
 
@@ -582,17 +582,17 @@ Cần cẩn thận để không nhầm lẫn khái niệm giá đỡ của một
 
 Cũng chú ý rằng giao của các tập hợp mang $\nu$ là tập hợp các điểm $t \in T$ sao cho $|\nu|(\{t\}) > 0$, và nó có thể rỗng (ví dụ, trong trường hợp độ đo Lebesgue); do đó, nói chung không có một tập hợp nhỏ nhất mang $\nu$.
 
-#### Hệ quả 2 {#int-v-s5-prop-13-cor-2 .statement}
+#### Hệ quả 2 {#int-v-s5-prop-13-cor-2 .statement tag=093I}
 
 — Cho $\rho$ và $\sigma$ là hai độ đo phức rời nhau, và cho $\rho'$ và $\sigma'$ là hai độ đo phức có mật độ tương ứng đối với $\rho$ và $\sigma$; khi đó $\rho'$ và $\sigma'$ rời nhau.
 
-#### Hệ quả 3 {#int-v-s5-prop-13-cor-3 .statement}
+#### Hệ quả 3 {#int-v-s5-prop-13-cor-3 .statement tag=093J}
 
 — Cho $\rho$ và $\sigma$ là hai độ đo phức rời nhau; khi đó $|\rho + \sigma| = |\rho| + |\sigma|$.
 
 Ký hiệu bởi $v$ (tương ứng $w$) một hàm khả đo được một cách phổ quát có giá trị tuyệt đối bằng 1 sao cho $\rho = v \cdot |\rho|$ (tương ứng $\sigma = w \cdot |\sigma|$) (Hệ quả 3 của Định lý 2), và bởi A một tập hợp khả đo được một cách phổ quát mang $\rho$, sao cho $B = \mathbf{C}A$ mang $\sigma$ (Mệnh đề 13); khi đó cũng có $\rho + \sigma = (v \varphi_A + w \varphi_B) \cdot (|\rho| + |\sigma|)$. Vì hàm $v \varphi_A + w \varphi_B$ có giá trị tuyệt đối bằng 1, nên hệ quả suy ra từ Mệnh đề 2.
 
-#### Định lý 3 (Lebesgue) {#int-v-s5-thm-3 .statement}
+#### Định lý 3 (Lebesgue) {#int-v-s5-thm-3 .statement tag=093K}
 
 — Mỗi độ đo phức $\theta$ trên T có thể được viết theo một và chỉ một cách dưới dạng $\theta = g \cdot \mu + \theta'$, trong đó $g$ là địa phương $\mu$-khả tích và $\theta'$ là một độ đo rời nhau với $\mu$. Khi đó $|\theta| = |g| \cdot \mu + |\theta'|$.
 
@@ -600,7 +600,7 @@ Khi $\theta$ dương, điều này suy ra ngay từ định lý của F. Riesz (
 
 Nhắc lại (No. 5, Th. 2 và Chú giải) rằng không gian $L^1_{loc}(T, \mu; \mathbf{C})$ có thể được đồng nhất (nhờ ánh xạ $g \mapsto g \cdot \mu$) với một không gian con của $\mathscr{M}_\mathbf{C}(T)$. Với quy ước này, Định lý 3 có dạng sau:
 
-#### Hệ quả {#int-v-s5-n7-cor-1 .statement}
+#### Hệ quả {#int-v-s5-n7-cor-1 .statement tag=093L}
 
 — *Tồn tại một phép chiếu p của không gian $\mathscr{M}_\mathbf{C}(T)$ lên không gian $L^1_{\text{loc}}(T, \mu; \mathbf{C})$, có hạt nhân $\overline{p}^{-1}(0)$ là tập hợp các độ đo phức ngoại lai đối với $\mu$, sao cho*
 
@@ -618,7 +618,7 @@ Nếu $p$ được hạn chế trên tập các độ đo bị chặn, ta thu đ
 
 Nhắc lại rằng hai số $p, q$ sao cho $1 \leq p \leq +\infty$, $1 \leq q \leq +\infty$, $1/p + 1/q = 1$ được gọi là *số mũ liên hợp* (Ch. IV, §6, No. 4). Mỗi hàm $g \in \mathscr{L}^q$ xác định một dạng tuyến tính liên tục $\theta_g$ trên $L^p$, thu được bằng cách chuyển qua thương bắt đầu từ dạng tuyến tính $f \mapsto \int fg\,d\mu$ trên $\mathscr{L}^p$, và ta có $N_q(g) = \| \theta_g \|$ (Ch. IV, §6, No. 4, Hệ quả của Mệnh đề 3). Chuyển qua thương, do đó từ ánh xạ $g \mapsto \theta_g$ ta suy ra một ánh xạ tuyến tính đẳng cự $\varphi$ của $L^q$ vào đối ngẫu $(L^p)'$ của $L^p$. Ta sẽ chứng minh rằng, với $1 \leq p < +\infty$, $\varphi$ ánh xạ $L^q$ *lên* $(L^p)'$, do đó về sau ta có thể đồng nhất không gian Banach $L^q$ với không gian Banach $(L^p)'$ nhờ đẳng cấu $\varphi$. Phát biểu theo cách khác:
 
-#### Định lý 4 {#int-v-s5-thm-4 .statement}
+#### Định lý 4 {#int-v-s5-thm-4 .statement tag=093M}
 
 — *Cho p và q là hai số mũ liên hợp sao cho $1 \leq p < +\infty$. Mỗi dạng tuyến tính liên tục trên $\mathscr{L}^p(T, \mu)$ đều có dạng $f \mapsto \int fg\,d\mu$, trong đó g là một hàm trong $\mathscr{L}^q(T, \mu)$ mà lớp của nó trong $L^q$ được xác định.*
 
@@ -634,7 +634,7 @@ Do đó, tồn tại một hàm dương $h_1$ khả tích địa phương theo $
 
 Cho $v$ là một hàm thực đo được mọi nơi có giá trị tuyệt đối bằng 1 sao cho $\nu = v \cdot |\nu|$ (Hệ quả 3 của Định lý 2) và cho $g = v h_1$; khi đó $\nu = g \cdot \mu$, và $g$ thuộc $\mathscr{L}^q$. Với mọi hàm $f \in \mathscr{K}(T)$, ta có $\theta(f) = \nu(f) = \int f g d\mu$. Nói cách khác, các dạng tuyến tính liên tục $\theta$ và $\theta_g$ trùng nhau trên $\mathscr{K}(T)$; do đó chúng bằng nhau trên $\mathscr{L}^p$, vì $\mathscr{K}(T)$ trù mật trong $\mathscr{L}^p$, và điều này hoàn tất chứng minh.
 
-#### Hệ quả {#int-v-s5-n8-cor-1 .statement}
+#### Hệ quả {#int-v-s5-n8-cor-1 .statement tag=093N}
 
 — *Với mọi số p sao cho $1 < p < +\infty$, không gian Banach $L^p(T, \mu)$ là phản xạ.*
 
@@ -642,7 +642,7 @@ Nói chung, đối ngẫu của $L^\infty$ không đẳng cấu với $L^1$, do 
 
 Không gian vectơ có thứ tự $L^\infty(T, \mu)$, là một không gian con của $L^1_{loc}(T, \mu)$, được sắp theo dàn đầy đủ; thật vậy, nếu $(f_\alpha)$ là một họ các hàm dương trong $\mathscr{L}^\infty$ mà tập hợp các lớp $(\dot{f}_\alpha)$ của nó bị chặn trên trong $L^\infty$, thì tồn tại một $a \geq 0$ sao cho $N_\infty(f_\alpha) \leq a$ với mọi $\alpha$. Vì $L^1_{loc}(T, \mu)$ được sắp theo dàn đầy đủ, họ $(\dot{f}_\alpha)$ có một cận trên đúng $\dot{h}$ trong $L^1_{loc}(T, \mu)$; nhưng vì $\dot{a} \geq \dot{f}_\alpha$ với mọi $\alpha$, ta có $\dot{h} \leq \dot{a}$, do đó $N_\infty(h) \leq a$, suy ra mệnh đề đã nêu.
 
-#### Mệnh đề 14 {#int-v-s5-prop-14 .statement}
+#### Mệnh đề 14 {#int-v-s5-prop-14 .statement tag=093O}
 
 — *Để cho một dạng tuyến tính dương $\theta$ trên $\mathscr{L}^\infty$ có dạng $f \mapsto \int f g d\mu$, với $g \in \mathscr{L}^1$, thì cần và đủ rằng, với mọi họ có hướng tăng $(f_\alpha)_{\alpha \in A}$ các hàm dương trong $\mathscr{L}^\infty$ mà tập hợp các lớp $(\dot{f}_\alpha)_{\alpha \in A}$ của nó bị chặn trên trong $L^\infty$ và có $\dot{h}$ làm cận trên đúng trong không gian này, ta có*
 
@@ -654,7 +654,7 @@ Trước hết ta chứng minh rằng điều kiện là cần thiết. Độ đ
 
 Để chứng minh rằng điều kiện là đủ, ta sẽ dùng bổ đề sau:
 
-#### Bổ đề 4 {#int-v-s5-lem-4 .statement}
+#### Bổ đề 4 {#int-v-s5-lem-4 .statement tag=093P}
 
 1° *Cho $f$ là một hàm nửa liên tục dưới và bị chặn, không âm trên $T$. Khi đó lớp $\dot{f}$ của nó trong $L^\infty$ là cận trên đúng của tập các lớp $\dot{\varphi}$, trong đó $\varphi$ chạy qua tập các hàm trong $\mathscr{K}(T)$ thỏa mãn $0 \leq \varphi \leq f$.*
 
@@ -738,11 +738,11 @@ Phương pháp này có thể áp dụng cho hàm số vô hướng thuần nh�
 
 ### 10. Các độ đo phân tán; các độ đo nguyên tử
 
-#### Định nghĩa 5 {#int-v-s5-def-5 .statement}
+#### Định nghĩa 5 {#int-v-s5-def-5 .statement tag=093Q}
 
 *Một độ đo $\theta$ trên T được gọi là phân tán nếu* $|\theta|(\{t\}) = 0$ *với mọi* $t \in T$.
 
-#### Ví dụ {#int-v-s5-n10-exa-1 .statement}
+#### Ví dụ {#int-v-s5-n10-exa-1 .statement tag=093R}
 
 — Độ đo Lebesgue trên $\mathbf{R}$ là phân tán (Ch. IV, §1, No. 3, *Nhận xét* 1).
 
@@ -750,7 +750,7 @@ Nói rằng $\theta$ là một độ đo phân tán trên $T$ tức là nói r�
 
 Nhắc lại (Ch. III, §1, No. 3) rằng một độ đo phức $\rho$ trên $T$ được gọi là *nguyên tử* nếu nó có dạng $\sum_{t \in T} \alpha(t) \varepsilon_t$, trong đó $\alpha$ là một hàm phức trên $T$ sao cho $\sum_{t \in K} |\alpha(t)| < +\infty$ với mọi tập con compact $K$ của $T$, điều đó biểu thị rằng họ $(\alpha(t) \varepsilon_t)_{t \in T}$ là khả tổng (§2, No. 1, Nhận xét 2). Khi đó suy ra từ nhận xét theo sau Hệ quả 3 của Mệnh đề 2 của No. 5 rằng $|\rho| = \sum_{t \in T} |\alpha(t)| \varepsilon_t$. Hàm $\alpha$ xuất hiện trong các công thức này được xác định duy nhất, vì $\alpha(t) = \rho(\{t\})$. Một độ đo nguyên tử và một độ đo phân tán xung khắc với nhau.
 
-#### Mệnh đề 15 {#int-v-s5-prop-15 .statement}
+#### Mệnh đề 15 {#int-v-s5-prop-15 .statement tag=093S}
 
 *Mọi độ đo phức $\sigma$ trên $T$ đều có thể viết một cách duy nhất dưới dạng $\rho + \theta$, trong đó $\rho$ là một độ đo nguyên tử và $\theta$ là một độ đo phân tán; khi đó ta có $|\sigma| = |\rho| + |\theta|$.*.
 

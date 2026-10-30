@@ -24,9 +24,9 @@ subsections:
       pdf_page: 325
 statements: 8
 exercises: 6
-content_sha256: c98650d5483dbd8b3f745ae95069a67fb46774b16577bd05b841c560f18502cf
+content_sha256: 42a44972e8facb3196459d01abf194207efb2ea05abf6091336069d0a376fd6e
 translated_from: content/en/fvr/VII/01_s1_the_gamma_function_in_the_real_domain.md
-source_content_sha256: b96aff8e476c3a1bd226a1e82711f8860c8fc7b03fe7bf814d522b07d1765caa
+source_content_sha256: c14b2d3b10b39cdfef4ea9acb546a2878e81232b29d6cdb8928fc7269171f7f2
 translation_model: gpt-5.4
 translation_run: translate-vi-f4ac4aa2
 glossary_version: 34
@@ -78,7 +78,7 @@ trên khoảng này.
 
 Nếu $g_1$ là một nghiệm liên tục thứ hai của (3) trên ]0, +∞[, và nếu $h = g_1 - g$, thì ta có $h(x+1) - h(x) = 0$ với mọi $x > 0$; nói cách khác, $h$ là một hàm tuần hoàn liên tục có chu kỳ 1, được xác định trên ]0, +∞[; ngược lại, với mọi $h$ có tính chất này, $g + h$ là một nghiệm liên tục của (3).
 
-#### Mệnh đề 1 {#fvr-vii-s1-prop-1 .statement}
+#### Mệnh đề 1 {#fvr-vii-s1-prop-1 .statement tag=08IX}
 
 *Tồn tại một và chỉ một hàm lồi* $g$ *được xác định trên* ]0, +∞[ *thỏa mãn phương trình* (3) *và nhận giá trị 0 tại* $x = 1$.
 
@@ -145,7 +145,7 @@ g(x+1) = -\log(x+1) + x \log 2 + \sum_{n=3}^{\infty} u_n(x) = \log x + g(x);
 $$
 nói cách khác, $g$ thỏa mãn phương trình (3) của VII, p. 306.
 
-#### Định nghĩa 1 {#fvr-vii-s1-def-1 .statement}
+#### Định nghĩa 1 {#fvr-vii-s1-def-1 .statement tag=08IY}
 
 *Ta ký hiệu bởi* $\Gamma(x)$ *hàm* $> 0$ *được xác định trên khoảng* $]0, +\infty[$, *thỏa mãn phương trình*
 $$
@@ -156,7 +156,7 @@ $$
 
 ### 2. CÁC TÍNH CHẤT CỦA HÀM GAMMA
 
-#### Mệnh đề 2 {#fvr-vii-s1-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-vii-s1-prop-2 .statement tag=08IZ}
 
 *Với mọi* $x > 0$ *ta có*
 $$
@@ -247,7 +247,7 @@ và do đó $\Gamma''(x)$ có cùng dấu với $\Gamma(x)$; vì thế $\Gamma$ 
 
 Hiển nhiên là *tích* của hai hàm lồi theo lôgarit trên $I$ cũng lồi theo lôgarit trên $I$. Hơn nữa:
 
-#### Bổ đề 1 {#fvr-vii-s1-lem-1 .statement}
+#### Bổ đề 1 {#fvr-vii-s1-lem-1 .statement tag=08J0}
 
 *Cho $f$ và $g$ là hai hàm số $> 0$ và khả vi hai lần trên một khoảng mở $I$. Nếu $f$ và $g$ là các hàm lồi theo lôgarit trên $I$, thì $f + g$ lồi theo lôgarit trên $I$.*
 
@@ -259,7 +259,7 @@ $$
 
 trên $\mathbf{R}^2$ thì cả $(a + a')x^2 + 2(b + b')xy + (c + c')y^2 \geq 0$ cũng vậy trên $\mathbf{R}^2$.
 
-#### Bổ đề 2 {#fvr-vii-s1-lem-2 .statement}
+#### Bổ đề 2 {#fvr-vii-s1-lem-2 .statement tag=08J1}
 
 Cho $f$ là một hàm thực hữu hạn, $> 0$, được xác định và liên tục trên tích $I \times J$ của hai khoảng mở của $\mathbf{R}$, và sao cho, với mọi $t \in J$ hàm $x \mapsto f(x, t)$ là lồi lôgarit và khả vi hai lần trên $I$. Dưới các giả thiết đó, nếu nguyên $g(x) = \int_J f(x, t) dt$ hội tụ với mọi $x \in I$, thì $g$ là lồi lôgarit trên $I$.
 
@@ -275,13 +275,13 @@ Mặt khác, $g$ là giới hạn điểm của các $g_K$ theo tập có hướ
 
 Có thể dễ dàng chỉ ra rằng các bổ đề 1 và 2 vẫn đúng ngay cả khi không giả thiết rằng các hàm khả vi hai lần (VII, p. 327, bài tập 5).
 
-#### Bổ đề 3 {#fvr-vii-s1-lem-3 .statement}
+#### Bổ đề 3 {#fvr-vii-s1-lem-3 .statement tag=08J2}
 
 Cho $\varphi$ là một hàm liên tục và $> 0$ trên một khoảng mở $J$ được chứa trong $[0, +\infty[$. Nếu $I$ là một khoảng mở sao cho nguyên $g(x) = \int_J t^{x-1} \varphi(t) dt$ hội tụ với mọi $x \in I$, thì $g$ lồi lôgarit trên $I$.
 
 Thật vậy, $\log t^{x-1} = (x-1) \log t$ là một hàm của $x$ lồi và khả vi hai lần với mọi $t > 0$, nên bổ đề 2 áp dụng được.
 
-#### Mệnh đề 3 {#fvr-vii-s1-prop-3 .statement}
+#### Mệnh đề 3 {#fvr-vii-s1-prop-3 .statement tag=08J3}
 
 Với mọi $x > 0$
 
@@ -329,7 +329,7 @@ $$
 \Gamma \left( \frac{3}{2} \right) = \frac{1}{2} \Gamma \left( \frac{1}{2} \right) = \int_0^\infty e^{-t^2} \, dt.
 $$
 
-#### Mệnh đề 4 {#fvr-vii-s1-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-vii-s1-prop-4 .statement tag=08J4}
 
 *Với $x > 0$ và $y > 0$ tích phân*
 

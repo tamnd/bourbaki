@@ -28,7 +28,7 @@ subsections:
       pdf_page: 48
 statements: 12
 exercises: 13
-content_sha256: 3b83149e3e57fb51a7a0ee1c20b1a71de3ebc196deeb88d41acbfe2b056d2573
+content_sha256: a782e1c3f639976183f49d786a4ce82493366e142659214046bd4d37a7e18f82
 ---
 
 ## 2. EUCLIDEAN DISTANCE; BALLS AND SPHERES
@@ -109,7 +109,7 @@ $$
 $$
 which is a consequence of (1), we infer that $d(x, y)$ is uniformly continuous on $\mathbf{R}^n \times \mathbf{R}^n$; consequently the norm $\|x\| = d(0, x)$ is uniformly continuous on $\mathbf{R}^n$.
 
-#### Definition 1 {#top-vi-s2-def-1 .statement}
+#### Definition 1 {#top-vi-s2-def-1 .statement tag=0BWR}
 
 Given a point $x_0 \in \mathbf{R}^n$ and a real number $r > 0$, the open (resp. closed) Euclidean ball of $n$ dimensions with centre $x_0$ and radius $r$ is the set of all points $x \in \mathbf{R}^n$ such that $d(x_0, x) < r$ [resp. $d(x_0, x) \leq r$]; the Euclidean sphere of $n - 1$ dimensions with centre $x_0$ and radius $r$ is the set of all $x \in \mathbf{R}^n$ such that $d(x_0, x) = r$.
 
@@ -117,7 +117,7 @@ When there is no risk of confusion we say simply "ball" (resp. "sphere") for "Eu
 
 From what has been said, the balls (open or closed) with centre $x_0$ (or just those with radii $1/p$, where $p$ runs through the set of integers $> 0$) form a fundamental system of neighbourhoods of the point $x_0$.
 
-#### Proposition 1 {#top-vi-s2-prop-1 .statement}
+#### Proposition 1 {#top-vi-s2-prop-1 .statement tag=0BWS}
 
 Every open (resp. closed) ball of $\mathbf{R}^n$ is an open (resp. compact) set. The closure of an open ball is the closed ball with the same centre and the same radius; the interior of a closed ball is the open ball with the same centre and the same radius.
 
@@ -127,13 +127,13 @@ d(x_0, z) = (1 + t)r > r,
 $$
 and $d(x, z) = tr$ is as small as we please; hence $x$ is not an interior point of the closed ball with centre $x_0$ and radius $r$.
 
-#### Corollary {#top-vi-s2-n3-cor-1 .statement}
+#### Corollary {#top-vi-s2-n3-cor-1 .statement tag=0BWT}
 
 Every Euclidean sphere is a compact set and is the frontier of the open and closed balls with the same centre and the same radius.
 
 The mapping $x \to \frac{1}{r}(x - x_0)$ transforms the sphere (resp. open ball, closed ball) with centre $x_0$ and radius $r$ into the sphere (resp. open ball, closed ball) with centre $o$ and radius $1$; this sphere is denoted by $S_{n-1}$ and is called the unit sphere in $\mathbf{R}^n$. Likewise, the closed ball with centre $o$ and radius $1$ is denoted by $B_n$ and is called the unit ball in $\mathbf{R}^n$. The topological study of a sphere of $(n - 1)$ dimensions (resp. a closed ball of $n$ dimensions) is thus reduced to that of $S_{n-1}$ (resp. $B_n$). For the open balls, we have the following proposition:
 
-#### Proposition 2 {#top-vi-s2-prop-2 .statement}
+#### Proposition 2 {#top-vi-s2-prop-2 .statement tag=0BWU}
 
 Every $n$-dimensional open ball is homeomorphic to $\mathbf{R}^n$.
 
@@ -141,7 +141,7 @@ For the mapping $x \to \frac{x}{1 + ||x||}$ is continuous on $\mathbf{R}^n$ and 
 
 Let $\mathbf{R}_n^*$ denote the complement of $o$ in $\mathbf{R}^n$.
 
-#### Proposition 3 {#top-vi-s2-prop-3 .statement}
+#### Proposition 3 {#top-vi-s2-prop-3 .statement tag=0BWV}
 
 The space $\mathbf{R}_n^*$ is homeomorphic to the product of $S_{n-1}$ and the space $\mathbf{R}_+^*$ of real numbers $> 0$.
 
@@ -149,19 +149,19 @@ For every point $x \neq o$ can be written uniquely in the form $tz$, where $t > 
 
 The mapping $x \to x/||x||$ is called the *central projection* of $\mathbf{R}_n^*$ onto $S_{n-1}$. One defines in the same way the *central projection* of the complement of a point $a$ onto a sphere with centre $a$.
 
-#### Corollary 1 {#top-vi-s2-prop-3-cor-1 .statement}
+#### Corollary 1 {#top-vi-s2-prop-3-cor-1 .statement tag=0BWW}
 
 *The sphere* $S_{n-1}$ *is homeomorphic to the quotient of* $\mathbf{R}_n^*$ *by the equivalence relation whose classes are the open rays with origin* $o$.
 
 These classes can also be defined as the *classes of intransitivity*, other than $\{ o \}$, of the group of homotheties of ratio $> 0$.
 
-#### Corollary 2 {#top-vi-s2-prop-3-cor-2 .statement}
+#### Corollary 2 {#top-vi-s2-prop-3-cor-2 .statement tag=0BWX}
 
 *The space* $\mathbf{R}_n^*$ *is homeomorphic to* $\mathbf{R} \times S_{n-1}$.
 
 For $\mathbf{R}_+^* = ]0, +\infty[$ is homeomorphic to $\mathbf{R}$ (Chapter IV, § 4, no. 1, Proposition 1).
 
-#### Remark {#top-vi-s2-n3-rem-1 .statement}
+#### Remark {#top-vi-s2-n3-rem-1 .statement tag=0BWY}
 
 These propositions are not peculiar to Euclidean balls, but can be extended to a whole category of compact neighbourhoods of $o$ in $\mathbf{R}^n$ (see Exercise 12).
 
@@ -187,25 +187,25 @@ Figure 3.
 
 If we denote by $A$ the complement of $\{ e_n \}$ in $S_{n-1}$, these formulas show that we have thus defined a homeomorphism of $A$ onto the hyperplane $H$. This homeomorphism is called the stereographic projection of $A$ onto $H$, or (by abuse of language) the stereographic projection of $S_{n-1}$ onto $H$; $e_n$ is the vertex of the projection, $H$ the hyperplane of projection. More generally, if $H'$ is any hyperplane passing through $o$ (a diametral hyperplane of $B_n$) and if $a$ is one of the points of intersection of $S_{n-1}$ and the line orthogonal to $H'$ passing through $o$, we can define in the same way the stereographic projection with vertex $a$ onto the hyperplane of projection $H'$; in any case this projection can be brought back to the preceding one by an orthogonal transformation which transforms $H'$ into $H$ and $a$ into $e_n$.
 
-#### Proposition 4 {#top-vi-s2-prop-4 .statement}
+#### Proposition 4 {#top-vi-s2-prop-4 .statement tag=0BWZ}
 
 *If $n > 1$, the Euclidean sphere $S_{n-1}$ is homeomorphic to the space $\mathbf{R}^{n-1}$ made compact by adjoining a "point at infinity"*(Chapter I, § 9, no. 8, Theorem 4).
 
 For the stereographic projection defines a homeomorphism of the complement of a point in $S_{n-1}$ onto a hyperplane of $\mathbf{R}^n$, which is homeomorphic to $\mathbf{R}^{n-1}$.
 
-#### Corollary 1 {#top-vi-s2-prop-4-cor-1 .statement}
+#### Corollary 1 {#top-vi-s2-prop-4-cor-1 .statement tag=0BX0}
 
 *The sphere $S_n$ is homeomorphic to the quotient space of the ball $B_n$ obtained by identifying all the points of the sphere $S_{n-1}$*.
 
 The ball $B_n$ is a regular space (Chapter I, § 8, no. 4); hence the quotient space $F$ of $B_n$ obtained by identifying all the points of $S_{n-1}$ is *Hausdorff* (Chapter I, § 8, no. 6, Proposition 15). Since $B_n$ is compact, so is $F$, and $F$ is therefore homeomorphic to an open ball of $n$ dimensions made compact by adjoining a point at infinity, by Alexandroff's theorem (Chapter I, § 9, no. 8, Theorem 4). The result therefore follows from Propositions 2 and 4.
 
-#### Corollary 2 {#top-vi-s2-prop-4-cor-2 .statement}
+#### Corollary 2 {#top-vi-s2-prop-4-cor-2 .statement tag=0BX1}
 
 *The circle $S_1$ is homeomorphic to the torus $T$*.
 
 In Chapter VIII, § 2, no. 1, we shall obtain this result again as a consequence of a more precise theorem.
 
-#### Proposition 5 {#top-vi-s2-prop-5 .statement}
+#### Proposition 5 {#top-vi-s2-prop-5 .statement tag=0BX2}
 
 *If $n > 1$, the Euclidean sphere $S_{n-1}$ is connected and locally connected, and every point of it has an open neighbourhood homeomorphic to $\mathbf{R}^{n-1}$.*
 

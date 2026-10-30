@@ -53,7 +53,7 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 27
-content_sha256: 8fe03c3f5b6cea3701d070ac512ded117c1bc41304800a37609294fa64057f25
+content_sha256: f78c02d6746badeb5841481f1c8cf6849e885db53fc5c1bf28fc919724113c17
 ---
 
 ## § 2. VECTORIAL MEASURES
@@ -62,19 +62,19 @@ content_sha256: 8fe03c3f5b6cea3701d070ac512ded117c1bc41304800a37609294fa64057f25
 
 The definition of a measure given in Ch. III, §1, No. 3 may be generalized as follows:
 
-#### Definition 1 {#int-vi-s2-def-1 .statement}
+#### Definition 1 {#int-vi-s2-def-1 .statement tag=09A3}
 
 *Let F be a Hausdorff locally convex space over R. One calls vectorial measure on T with values in F every continuous linear mapping of the space $\mathscr{K}(T)$ into F.*
 
 Def. 1 may also be expressed as follows: a vectorial measure on T with values in F is a linear mapping m of $\mathscr{K}(T)$ into F such that, for every compact subset K of T, the restriction of m to $\mathscr{K}(T, K)$ is continuous for the topology of uniform convergence. If $f \in \mathscr{K}(T)$, one also writes $\int f dm$ or $\int f(t)\,dm(t)$ instead of $m(f)$. The measures with values in $\mathbf{R}$ are sometimes called *real* measures (Ch. III, §1, No. 5) or *scalar* measures on T.
 
-#### Example {#int-vi-s2-n1-exa-1 .statement}
+#### Example {#int-vi-s2-n1-exa-1 .statement tag=09A4}
 
 — 1) The identity mapping of $\mathscr{K}(T)$ is a vectorial measure on T with values in $\mathscr{K}(T)$.
 
 2) *Let H be a complex Hilbert space, $\mathscr{L}(H)$ the normed algebra of continuous endomorphisms of H. Let A be a subalgebra of $\mathscr{L}(H)$, commutative, closed, self-adjoint and containing the identity; one shows that there exist a compact space X and an isomorphism of the normed algebra A onto the algebra $\mathscr{K}_\mathbf{C}(X) = \mathscr{C}_\mathbf{C}(X)$ of continuous complex functions on X, equipped with the norm $\|f\| = \sup_{x \in X} |f(x)|$. The inverse isomorphism, restricted to $\mathscr{K}(X)$, is a vectorial measure m on X, with values in $\mathscr{L}(H)$, such that $m(fg) = m(f)m(g)$.*_
 
-#### Remark {#int-vi-s2-n1-rem-1 .statement}
+#### Remark {#int-vi-s2-n1-rem-1 .statement tag=09A5}
 
 — 1) For a linear mapping m of $\mathscr{K}(T)$ into F to be a vectorial measure, it is necessary and sufficient that, for every compact subset K of T, the image under m of the unit ball $\|f\| \leq 1$ of $\mathscr{K}(T, K)$ be *bounded* in F. The notion of vectorial measure with values in F is therefore the same for all the Hausdorff locally convex topologies on F that admit the same bounded sets, and in particular for all the topologies compatible with the duality between F and F' (TVS, IV, §1, No. 1, Prop. 1).
 
@@ -88,7 +88,7 @@ Def. 1 may also be expressed as follows: a vectorial measure on T with values in
 
 Let $m$ be a vectorial measure on $T$, with values in $F$. For every $z' \in F'$, the mapping $z' \circ m$ is a scalar measure on $T$, depending linearly on $z'$. If $f$ is a numerical function defined on $T$, we shall say, by an abuse of language, that the pair $(f, m)$ has the property $P$ if, for every $z' \in F'$, the pair $(f, |z' \circ m|)$ has the property $P$. For example, we shall say that $f$ is *essentially integrable for* $m$ if, for every $z' \in F'$, the function $f$ is essentially integrable for $|z' \circ m|$. It comes to the same to say that $f$ is essentially integrable for each of the measures $(z' \circ m)^+$ and $(z' \circ m)^-$ (Ch. V, §2, No. 2, Cor. 2 of Prop. 3).
 
-#### Proposition 1 {#int-vi-s2-prop-1 .statement}
+#### Proposition 1 {#int-vi-s2-prop-1 .statement tag=09A6}
 
 *Let $m$ be a vectorial measure on $T$ with values in $F$, $f$ a numerical function on $T$ that is essentially integrable for $m$. The mapping*
 $$
@@ -98,7 +98,7 @@ $$
 
 Denoting this mapping by $\Phi$, it is immediate that $\Phi(\lambda z') = \lambda \Phi(z')$ for all $\lambda \in \mathbf{R}$. Everything comes down to showing that $\Phi(y' + z') = \Phi(y') + \Phi(z')$. Set $\mu = |y' \circ m| + |z' \circ m|$; by the Lebesgue–Nikodym theorem, one can then write $y' \circ m = g \cdot \mu$ and $z' \circ m = h \cdot \mu$, where $g$ and $h$ are two bounded and locally $\mu$-integrable numerical functions (Ch. V, §5, No. 5, Th. 2); moreover, $(y' \circ m)^+ = g^+ \cdot \mu$ and $(y' \circ m)^- = g^- \cdot \mu$, and the analogous relations hold with $y'$ replaced by $z'$ (resp. $y' + z'$) and $g$ by $h$ (resp. $g + h$). This being so, it is immediate that $f$ is essentially $\mu$-integrable (Ch. V, §2, No. 2, Cor. 1 of Prop. 3), and the relation to be proved reduces to $(g + h)^+ - (g + h)^- = (g^+ - g^-) + (h^+ - h^-)$, which is obvious.
 
-#### Definition 2 {#int-vi-s2-def-2 .statement}
+#### Definition 2 {#int-vi-s2-def-2 .statement tag=09A7}
 
 *Let $m$ be a vectorial measure on $T$ with values in $F$, $f$ a numerical function on $T$ that is essentially integrable for $m$. One calls integral of $f$ with respect to $m$, and denotes by $m(f)$ or $\int f \, dm$ or again $\int f(t) \, dm(t)$, the element of ${F'}^*$ defined by*
 
@@ -116,13 +116,13 @@ $$
 
 It is clear that the set of finite numerical functions essentially integrable for $m$ is a vector space over $\mathbf{R}$; we shall denote by $\mathscr{L}(m)$ this space equipped with the coarsest locally convex topology making continuous all of the linear forms $f \mapsto \int f d(z' \circ m)$, where $z'$ runs over $F'$. Note that in general the locally convex space $\mathscr{L}(m)$ is *not Hausdorff*.
 
-#### Example {#int-vi-s2-n2-exa-1 .statement}
+#### Example {#int-vi-s2-n2-exa-1 .statement tag=09A8}
 
 — Let us take for $m$ the identity mapping of $\mathscr{K}(T)$ onto itself. Since the dual of $\mathscr{K}(T)$ is the space $\mathscr{M}(T)$ of scalar measures on $T$, the functions $f \in \mathscr{L}(m)$ are those that are essentially integrable for *every* scalar measure $\mu$ (cf. Exer. 1), and the integral $\int f dm$ is the linear form $\mu \mapsto \int f d\mu$ on $\mathscr{M}(T)$. One cannot have $\int f d\mu = 0$ for every measure $\mu \in \mathscr{M}(T)$ unless $f = 0$, as one sees on taking $\mu = \varepsilon_t$, where $t$ is arbitrary in $T$; in other words, the mapping $f \mapsto \int f dm$ is an *injection* of $\mathscr{L}(m)$ into the algebraic dual of $\mathscr{M}(T)$, which extends the identity mapping of $\mathscr{K}(T)$. The relation $\int f dm \in F = \mathscr{K}(T)$ is therefore equivalent to $f \in \mathscr{K}(T)$.
 
 Let $u$ be a continuous linear mapping of $F$ into a Hausdorff locally convex space $G$, and let us denote again by $u$ its extension by bitransposition to a linear mapping of ${F'}^*$ into ${G'}^*$ (§ 1, No. 1). With this convention:
 
-#### Proposition 2 {#int-vi-s2-prop-2 .statement}
+#### Proposition 2 {#int-vi-s2-prop-2 .statement tag=09A9}
 
 *Every numerical function* $f$ *essentially integrable for* $m$ *is essentially integrable for* $u \circ m$, *and* $\int f d(u \circ m) = u(\int f dm)$.
 
@@ -130,13 +130,13 @@ The proposition is obvious, in view of the equality $y' \circ u \circ m = {}^t u
 
 In general, if $f \in \mathscr{L}(m)$, the integral $\int f dm$ belongs to ${F'}^*$ but not to $F$ (see the above *Example*). However:
 
-#### Proposition 3 {#int-vi-s2-prop-3 .statement}
+#### Proposition 3 {#int-vi-s2-prop-3 .statement tag=09AA}
 
 *If the image under* $m$ *of the set of* $f \in \mathscr{K}(T)$ *such that* $\sup_{t \in T} |f(t)| \leq 1$ *is weakly relatively compact in* $F$, *then* $\int f dm \in F$ *for every bounded numerical function* $f$ *essentially integrable for* $m$.
 
 Let $A$ be the set of $f \in \mathscr{L}(m)$ such that $\sup_{t \in T} |f(t)| \leq 1$, and let $B = A \cap \mathscr{K}(T)$; by hypothesis, $m(B)$ is weakly relatively compact in $F$, therefore it suffices to show that $m(A)$ is contained in the closure (in ${F'}^*$) of $m(B)$ for the topology $\sigma({F'}^*, F')$; since $m(B)$ is convex and balanced, it suffices to prove that the polar of $m(B)$ in $F'$ is contained in that of $m(A)$ (TVS, II, §6, No. 3, Th. 1). Now, for a linear form $z' \in F'$ to belong to $(m(B))^\circ$, it is necessary and sufficient that $|\langle z', m(g)\rangle| = |\int g d(z'\circ m)| \leq 1$ for every function $g \in B$, which signifies that the scalar measure $|z'\circ m|$ is bounded and of norm $\leq 1$ (Ch. III, §1, No. 8); but by (2) the latter condition implies that $|\langle z', m(f)\rangle| \leq 1$ for every function $f \in A$, whence $z' \in (m(A))^\circ$.
 
-#### Corollary 1 {#int-vi-s2-prop-3-cor-1 .statement}
+#### Corollary 1 {#int-vi-s2-prop-3-cor-1 .statement tag=09AB}
 
 *If, for every compact subset K of T, the image under m of the set of $f \in \mathscr{H}(T, K)$ such that $\sup_{t \in T} |f(t)| \leq 1$ is weakly relatively compact in F, then $\int f dm \in F$ for every function $f \in \mathscr{L}(m)$ that is bounded and has compact support, and $\int f dm \in F''$ for every function $f \in \mathscr{L}(m)$.*
 
@@ -144,7 +144,7 @@ The first assertion may be deduced immediately from Prop. 3: if $f$ is bounded a
 
 Now let $f$ be any element of $\mathscr{L}(m)$; for every compact subset K of T and every integer $n > 0$, let $f_{n,K}$ be the numerical function on T defined as follows: if $t \notin K$, $f_{n,K}(t) = 0$; if $t \in K$ and $|f(t)| \leq n$, $f_{n,K}(t) = f(t)$; finally, if $t \in K$ and $|f(t)| > n$, $f_{n,K}(t) = nf(t)/|f(t)|$. It is clear that for every $t \in T$, $f(t)$ is the limit of $f_{n,K}(t)$ with respect to the product filter of the Fréchet filter by the section filter of the (increasing directed) ordered set of compact subsets of T. Since $|f_{n,K}| \leq |f|$, it follows from Lebesgue’s theorem and Prop. 10 of Ch. V, §1, No. 3, applied to each scalar measure $|z'\circ m|$, that $f_{n,K}$ converges to $f$ in $\mathscr{L}(m)$ with respect to the preceding filter. Consequently, the integral $\int f dm$ is in the closure in ${F'}^*$ (for the topology $\sigma({F'}^*, F')$) of the set M of $m(f_{n,K})$. But the first part of the corollary shows that $M \subset F$, and, on the other hand, for every $z' \in F'$ one has $|\langle z', m(f_{n,K})\rangle| \leq \int |f| d|z'\circ m|$, which shows that M is bounded in $F_\sigma$, hence also in F (TVS, IV, §1, No. 1, Prop. 1). Lemma 1 of §1, No. 2 therefore shows that $\int f dm \in F''$.
 
-#### Corollary 2 {#int-vi-s2-prop-3-cor-2 .statement}
+#### Corollary 2 {#int-vi-s2-prop-3-cor-2 .statement tag=09AC}
 
 *If F is semi-reflexive, then $\int f dm \in F$ for every numerical function $f$ essentially integrable for $m$.*
 
@@ -157,7 +157,7 @@ $$
 q(x) = \sup_{z' \in A'_q} |\langle x, z' \rangle|.
 $$
 
-#### Definition 3 {#int-vi-s2-def-3 .statement}
+#### Definition 3 {#int-vi-s2-def-3 .statement tag=09AD}
 
 *Let $m$ be a vectorial measure on $T$ with values in $F$. If $q$ is a lower semi-continuous semi-norm on $F$, $m$ is said to be *q-majorizable* if there exists a positive measure $\mu$ such that $|z' \circ m| \leq \mu$ for every $z' \in A'_q$; the supremum of the measures $|z' \circ m|$ as $z'$ runs over $A'_q$ (Ch. III, §2, No. 4, Th. 3) is then denoted $q(m)$. One says that $m$ is *majorizable* if it is *q-majorizable* for every continuous semi-norm $q$ on $F$.
 
@@ -170,7 +170,7 @@ When $F$ is a normed space, with norm denoted $|x|$, to say that $m$ is majoriza
 
 If $F = \mathbf{R}$, the measure $|m|$ corresponding to the Euclidean norm $|x|$ on $\mathbf{R}$ coincides with the measure denoted by $|m|$ in Ch. III, §1, No. 5.
 
-#### Proposition 4 {#int-vi-s2-prop-4 .statement}
+#### Proposition 4 {#int-vi-s2-prop-4 .statement tag=09AE}
 
 *Let* $(F_i)_{1 \leq i \leq n}$ *be a finite family of Hausdorff locally convex spaces, $F = \prod_{i=1}^n F_i$ their product, $q_i$ ($1 \leq i \leq n$) *a lower semi-continuous semi-norm* on $F_i$, *and* $q$ *the semi-norm on* $F$ *defined by* $q(x_1, \ldots, x_n) = \sum_{i=1}^n q_i(x_i)$. *If* $m_i$ ($1 \leq i \leq n$) *is a vectorial measure on* $T$ *with values in* $F_i$ *that is* $q_i$*-majorizable*, *then the measure* $m = (m_1, \ldots, m_n)$ *with values in* $F$ *is* *q-majorizable*.
 
@@ -182,11 +182,11 @@ for every $z' \in A'_q$, which proves the proposition.
 
 $^1$ Majorées.
 
-#### Corollary {#int-vi-s2-n3-cor-1 .statement}
+#### Corollary {#int-vi-s2-n3-cor-1 .statement tag=09AF}
 
 — *If the space F is finite-dimensional, then every vectorial measure m with values in F is majorizable. In order that a numerical function be essentially integrable for m, it is necessary and sufficient that it be essentially integrable for |m|* (where |x| denotes any norm on F).
 
-#### Proposition 5 {#int-vi-s2-prop-5 .statement}
+#### Proposition 5 {#int-vi-s2-prop-5 .statement tag=09AG}
 
 — *Let q be a lower semi-continuous semi-norm on F. Let m be a q-majorizable measure, and let f be a function essentially integrable for m and such that $\int f dm \in F$. Then*
 
@@ -202,13 +202,13 @@ $$
 
 by virtue of (1) and the relation $|z' \circ m| \leq q(m)$ for $z' \in A'_q$.
 
-#### Proposition 6 {#int-vi-s2-prop-6 .statement}
+#### Proposition 6 {#int-vi-s2-prop-6 .statement tag=09AH}
 
 — *Let F be a quasi-complete, Hausdorff locally convex space, m a majorizable measure on T with values in F. If f is a numerical function essentially integrable for all of the measures q(m) (where q runs over the set of continuous semi-norms on F), then f is essentially integrable for m, and $\int f dm \in F$.
 
 We shall make use of the following auxiliary result. Let $(\mu_\iota)_{\iota \in I}$ be an increasing directed family of positive measures on T. Let us denote by $\mathscr{L}^1((\mu_\iota)_{\iota \in I})$ the vector space of finite numerical functions on T, essentially $\mu_\iota$-integrable for every $\iota \in I$, equipped with the topology defined by the semi-norms $f \mapsto \mu_\iota(|f|)$ ($\iota \in I$). Let $\mathscr{L}_0$ be the linear subspace of $\mathscr{L}^1((\mu_\iota)_{\iota \in I})$ generated by the products $g \varphi_K$, where g runs over the set of continuous finite numerical functions on T, and K over the set of compact subsets of T.
 
-#### Lemma 1 {#int-vi-s2-lem-1 .statement}
+#### Lemma 1 {#int-vi-s2-lem-1 .statement tag=09AI}
 
 — *When $\mathscr{L}_0$ and $\mathscr{K}(T)$ are equipped with the topology induced by that of $\mathscr{L}^1((\mu_\iota)_{\iota \in I})$:
 a) each element of $\mathscr{L}_0$ is in the closure of some bounded subset of $\mathscr{K}(T)$;
@@ -222,7 +222,7 @@ Let us now prove Prop. 6: for every function $g \in \mathscr{K}(T)$ and every co
 
 ### 4. Vectorial measures with base $\mu$
 
-#### Definition 4 {#int-vi-s2-def-4 .statement}
+#### Definition 4 {#int-vi-s2-def-4 .statement tag=09AJ}
 
 *Let $\mu$ be a positive measure on T. A vectorial measure $m$ on T, with values in F, is said to be a measure with base $\mu$ if there exists a mapping $f$ of T into F, scalarly locally $\mu$-integrable, such that $m(g) = \int gf\,d\mu$ for every function $g \in \mathscr{K}(T)$. One then says that $f$ is a density of $m$ with respect to $\mu$, and one writes $m = f \cdot \mu$.*
 
@@ -230,13 +230,13 @@ It is immediate that if $f_1$ and $f_2$ are two densities of $m$ with respect to
 
 Let $m$ be a measure with base $\mu$, of density $f$. For a numerical function $g$ to be essentially integrable for $m$, it is necessary and sufficient that $gf$ be scalarly essentially $\mu$-integrable (Ch. V, §5, No. 3, Th. 1).
 
-#### Proposition 7 {#int-vi-s2-prop-7 .statement}
+#### Proposition 7 {#int-vi-s2-prop-7 .statement tag=09AK}
 
 — Let $f$ be a mapping scalarly locally integrable with respect to a positive measure $\mu$ on $T$, such that, for every function $g \in \mathscr{K}(T)$, one has $\int gf\,d\mu \in F$. Then the mapping $g \mapsto \int gf\,d\mu$ of $\mathscr{K}(T)$ into $F$ is a vectorial measure on $T$, with base $\mu$ and density $f$ with respect to $\mu$.
 
 For (No. 1, Remark 3), it suffices to show that, setting $m(g) = \int gf\,d\mu$, $z' \circ m$ is a scalar measure for every $z' \in F'$. But since $z'(m(g)) = \int g\langle z', f \rangle\,d\mu$, one has $z' \circ m = \langle z', f \rangle \cdot \mu$, whence our assertion.
 
-#### Proposition 8 {#int-vi-s2-prop-8 .statement}
+#### Proposition 8 {#int-vi-s2-prop-8 .statement tag=09AL}
 
 — Let $\mu$ be a positive measure on $T$, $m$ a measure on $T$ with values in $F$, with base $\mu$ and density $f$ with respect to $\mu$. Let $q$ be a lower semi-continuous semi-norm on $F$.
 
@@ -254,17 +254,17 @@ whence our assertion (Ch. II, §2, No. 2). Let $\nu_U$ be the supremum of this f
 
 b) Since the measures $\lambda_J$ have base $\mu$, so does their supremum $q(m)$ (Ch. V, §5, No. 5, Th. 2). If $f$ is $\mu$-measurable for the topology $\sigma(F, F')$ on $F$, it follows at once from the definitions that the mapping $g : t \mapsto (g_J(t))_{J \in \mathfrak{F}}$ of $T$ into the product space $\mathbf{R}^\mathfrak{F}$ is $\mu$-measurable. The restriction of $q \circ f = \sup_{J \in \mathfrak{F}} g_J$ to every compact subset of $T$ on which $g$ is continuous is lower semi-continuous; consequently $q \circ f$ is $\mu$-measurable (Ch. IV, §5, No. 5, Cor. of Prop. 8 and No. 10, Prop. 15). Let $K$ be a compact subset of T; it admits a partition consisting of a $\mu$-negligible set and a sequence $(K_n)$ of compact sets on which $g$ is continuous. Then $\int_{K_n}^*(q \circ f)\, d\mu = \sup_J \int_{K_n} g_J\, d\mu \leq \int_{K_n} dq(m)$ for all $n$ (Ch. IV, §1, No. 1, Th. 1 and Ch. V, §7, No. 1, Prop. 1), whence $\int_K^*(q \circ f)\, d\mu = \sum_n \int_{K_n}^*(q \circ f)\, d\mu \leq \int_K dq(m)$. But this proves that $q \circ f$ is locally $\mu$-integrable and that $\lambda_J \leq (q \circ f) \cdot \mu \leq q(m)$ for all $J \in \mathscr{F}$; whence, by definition, $q(m) = (q \circ f) \cdot \mu$.
 
-#### Remark {#int-vi-s2-n4-rem-1 .statement}
+#### Remark {#int-vi-s2-n4-rem-1 .statement tag=09AM}
 
 Suppose that there exists in $A_q'$ a countable subset D that is dense for $\sigma(F', F)$; then, the function $q \circ f$ is always $\mu$-measurable, because $q(f(t)) = \sup_{z' \in D} |\langle z', f(t) \rangle|$ (Ch. IV, §5, No. 4, Cor. 1 of Th. 2). Then, for every compact subset K of T, $\int_K^*(q \circ f)\, d\mu = \sup_J \int_K g_J\, d\mu$, where J runs over the countable directed set of finite subsets of D (Ch. IV, §1, No. 1, Cor. of Th. 3); thus, one sees that in this case the condition that $\int_K^*(q \circ f)\, d\mu < +\infty$ for every compact subset K of T is necessary and sufficient for m to be $q$-majorizable.
 
-#### Proposition 9 {#int-vi-s2-prop-9 .statement}
+#### Proposition 9 {#int-vi-s2-prop-9 .statement tag=09AN}
 
 — *Let F be a finite-dimensional Banach space. Every measure m on T with values in F is a measure with base $|m|$. If $m = f \cdot |m|$, then $|f(t)| = 1$ locally almost everywhere for $|m|$. For m to have base $\mu$, it is necessary and sufficient that $|m|$ have base $\mu$, and if $m = g \cdot \mu$ then $|m| = |g| \cdot \mu$.
 
 Let $(e_i)_{1 \leq i \leq n}$ and $(e'_i)_{1 \leq i \leq n}$ be dual bases of F and F' (A, II, §2, No. 6) with $|e'_i| = 1$ for all i. Then $|e'_i \circ m| \leq |m|$ for every index i, therefore (Ch. V, §5, No. 5, Th. 2) $e'_i \circ m = h_i \cdot |m|$, where $h_i$ is bounded and $|m|$-measurable. Setting $h = \sum_{i=1}^n h_i \cdot e_i$, we therefore have $m = h \cdot |m|$. If $m = f \cdot |m|$, Prop. 8 shows that $|m| = |f| \cdot |m|$, whence $|f(t)| = 1$ locally almost everywhere for $|m|$ (Ch. V, §5, No. 3, Cor. 2 of Prop. 3). The final assertion follows at once from Prop. 8.
 
-#### Remark {#int-vi-s2-n4-rem-2 .statement}
+#### Remark {#int-vi-s2-n4-rem-2 .statement tag=09AO}
 
 If $z = \sum_{i=1}^n z_i e_i$ then $\psi(z_1, \ldots, z_n) = |z|$ is a positively homogeneous continuous function on $\mathbf{R}^n$. Setting $\mu_i = e'_i \circ m = h_i \cdot |m|$, by definition (Ch. V, §5, No. 9) $\psi(\mu_1, \ldots, \mu_n) = \psi(h_1, \ldots, h_n) \cdot |m| = |h| \cdot |m| = |m|$.
 
@@ -272,7 +272,7 @@ If $z = \sum_{i=1}^n z_i e_i$ then $\psi(z_1, \ldots, z_n) = |z|$ is a positivel
 
 Let $\mu$ be a positive measure on T. A vectorial measure m on T, with values in F, is said to be *scalarly of base* $\mu$ (or to have base $\mu$ scalarly) if, for every $z' \in F'$, the scalar measure $z' \circ m$ has base $\mu$. If a vectorial measure $m$ with values in $F$ has base $\mu$, then it has base $\mu$ scalarly: for, if $m = f \cdot \mu$ then $z' \circ m = \langle z', f \rangle \cdot \mu$ for every $z' \in F'$. But there exist vectorial measures that are scalarly of base $\mu$ without having base $\mu$ (Exer. 17), and, on the other hand, there exist vectorial measures that are not scalarly of base $\nu$ for any positive measure $\nu$; note however that every *majorizable* measure $m$ with values in a *normed* space is scalarly of base $|m|$, by virtue of the Lebesgue–Nikodym theorem.
 
-#### Example {#int-vi-s2-n5-exa-1 .statement}
+#### Example {#int-vi-s2-n5-exa-1 .statement tag=09AP}
 
 — Let us take for $m$ the identity mapping of $\mathscr{H}(T)$. To say that $m$ is scalarly of base $\mu$ means that every real measure on $T$ has base $\mu$. In particular, the point measure $\varepsilon_t$ ($t \in T$) must have base $\mu$, which requires that $\mu(\{t\}) > 0$ for every $t \in T$, and implies in particular that every compact subset of $T$ is *countable*.
 
@@ -282,13 +282,13 @@ Let $\pi$ be the canonical mapping of $\mathscr{L}^\infty(\mu)$ onto $L^\infty(\
 
 One proves that if $\mu$ is Lebesgue measure on $\mathbf{R}^n$, the entire space $L^\infty(\mathbf{R}^n, \mu)$ has the lifting property (Exer. 18).
 
-#### Lemma 2 {#int-vi-s2-lem-2 .statement}
+#### Lemma 2 {#int-vi-s2-lem-2 .statement tag=09AQ}
 
 *Every separable subspace* $G$ *of the Banach space* $L^\infty(T, \mu)$ *has the lifting property*.
 
 By the hypothesis, there exists a countable dense subset $H$ of $G$ that is a linear subspace with respect to the field $\mathbf{Q}$ of rational numbers; let $(h_n)$ be a (countable) basis of $H$ over $\mathbf{Q}$. For every integer $n$, let $h'_n$ be an element of $\mathscr{L}^\infty$ such that $\pi(h'_n) = h_n$, and let $\rho'$ be the $\mathbf{Q}$-linear mapping of $H$ into $\mathscr{L}^\infty$ defined by $\rho'(h_n) = h'_n$; it is clear that $\pi \circ \rho'$ is the identity on $H$. Moreover, for every $h \in H$ one has $|\rho'(h)(t)| \leq N_\infty(h)$ except at the points $t$ of a locally negligible set $A(h)$. Let $A$ be the union of the $A(h)$ for $h \in H$, which is also locally negligible. For every $h \in H$, denote by $\rho(h)$ the function $h'' \in \mathscr{L}^\infty$ such that $h''(t) = \rho'(h)(t)$ if $t \notin A$, and $h''(t) = 0$ if $t \in A$. It is clear that $\rho$ is a $\mathbf{Q}$-linear mapping of $H$ into the subspace $\mathscr{B}$ of bounded functions in $\mathscr{L}^\infty$, such that $\pi \circ \rho$ is the identity on $H$ and such that $|\rho(h)(t)| \leq N_\infty(h)$ for all $h \in H$ and $t \in T$. Since $\mathscr{B}$ is a Banach space for the norm $\|f\| = \sup_{t \in T} |f(t)|$ (Ch. IV, §5, No. 4, Th. 2), $\rho$ may be extended to a continuous $\mathbf{R}$-linear mapping, again denoted $\rho$, of $G$ into $\mathscr{B}$, which is obviously a lifting of $G$.
 
-#### Definition 5 {#int-vi-s2-def-5 .statement}
+#### Definition 5 {#int-vi-s2-def-5 .statement tag=09AR}
 
 — Let F be a Hausdorff locally convex space, $F'_s$ its dual equipped with the topology $\sigma(F', F)$. We denote by $\mathscr{L}_{F'_s}^\infty$ the vector space of mappings $f$ of T into $F'_s$, such that $f$ is scalarly $\mu$-measurable and is equal scalarly locally almost everywhere (for $\mu$) to a mapping of T into an equicontinuous subset of $F'$. We denote by $L_{F'_s}^\infty$ the quotient space of $\mathscr{L}_{F'_s}^\infty$ by the space of scalarly locally $\mu$-negligible mappings of T into $F'_s$.
 
@@ -296,19 +296,19 @@ When F satisfies the hypotheses of §1, No. 5, Prop. 13, the functions in $\math
 
 When F is a separable normed space, the elements of $\mathscr{L}_{F'_s}^\infty$ are the mappings $f$ of T into $F'_s$ such that $f$ is scalarly $\mu$-measurable and $|f|$ is bounded in measure; one can then define a normed space structure on the space $L_{F'_s}^\infty$, by equipping it with the norm $N_\infty$ (Ch. IV, §6, No. 3).
 
-#### Lemma 3 {#int-vi-s2-lem-3 .statement}
+#### Lemma 3 {#int-vi-s2-lem-3 .statement tag=09AS}
 
 Let F be a Hausdorff locally convex space, $f$ an element of $\mathscr{L}_{F'_s}^\infty$. For every $z \in F$, one has $\langle z, f \rangle \in \mathscr{L}^\infty$, and the linear mapping $z \mapsto \pi(\langle z, f \rangle)$ of F into $L^\infty$ is continuous; if, moreover, F is a normed space, then $N_\infty(\langle z, f \rangle) \leq |z| \cdot \sup_{t \in T} |f(t)|$.
 
 It is clear by definition that $\langle z, f \rangle$ is $\mu$-measurable and bounded in measure; replacing if necessary $f$ by a function belonging to the same class of $L_{F'_s}^\infty$, we can suppose in addition that $f(T) \subset V^\circ$, where V is a balanced convex neighborhood of 0 in F (which does not modify $\langle z, f \rangle$ except on a locally negligible set, depending on $z$). Then the relation $z \in V$ implies that $|\langle z, f(t) \rangle| \leq 1$ for all $t \in T$, which proves the continuity of $z \mapsto \pi(\langle z, f \rangle)$. The final assertion is obvious.
 
-#### Lemma 4 {#int-vi-s2-lem-4 .statement}
+#### Lemma 4 {#int-vi-s2-lem-4 .statement tag=09AT}
 
 Let F be a Hausdorff locally convex space, $f$ an element of $\mathscr{L}_{F'_s}^\infty$. For every numerical function $g \in \overline{\mathscr{L}}^1$, the function $gf$ is scalarly essentially $\mu$-integrable and $\int gf\, d\mu \in F'$.
 
 For every $z \in F$, $\langle z, f \rangle$ belongs to $\mathscr{L}^\infty$, whence the first assertion. One can suppose moreover, without modifying $\int gf\, d\mu$, that $f(T) \subset V^\circ$, where V is a balanced convex neighborhood of 0 in F. Then the relation $z \in V$ implies $|\langle z, f(t) \rangle| \leq 1$ for all $t \in T$, whence $|\langle z, \int gf\, d\mu \rangle| = |\int \langle z, f \rangle g\, d\mu| \leq \overline{N}_1(g)$, which proves that $\int gf\, d\mu \in F'$.
 
-#### Theorem 1 {#int-vi-s2-thm-1 .statement}
+#### Theorem 1 {#int-vi-s2-thm-1 .statement tag=09AU}
 
 — Let F be a Hausdorff locally convex space that contains a countable dense subset. For every function $f \in \mathscr{L}_{F'_s}^\infty$ and every $z \in F$, let $v_f(z) = \pi(\langle z, f \rangle) \in L^\infty$; the mapping $f \mapsto v_f$ defines, by passage to the quotient, a linear bijection of $L_{F'}^\infty$ onto the space $\mathscr{L}(F; L^\infty)$ of continuous linear mappings of $F$ into $L^\infty$. *If $F$ is a normed space, this bijection is an isometry.*
 
@@ -328,29 +328,29 @@ $$
 
 But on the other hand (Lemma 3), $N_\infty(u(z)) \leq |z| \cdot \sup_{t \in T} |f(t)|$, and this inequality continues to hold when $f$ is modified arbitrarily on a locally negligible set. It follows that $\|u\| = N_\infty(|f|)$.
 
-#### Corollary 1 {#int-vi-s2-thm-1-cor-1 .statement}
+#### Corollary 1 {#int-vi-s2-thm-1-cor-1 .statement tag=09AV}
 
 *Let $F$ be a Hausdorff locally convex space containing a countable dense subset. For every function $f \in \mathscr{L}_{F'}^\infty$, every $z \in F$ and every function $g \in \mathscr{L}^1$, let $\Phi_f(z, \tilde{g}) = \int \langle z, f(t) \rangle g(t)\, d\mu(t)$. The mapping $f \mapsto \Phi_f$ defines, by passage to the quotient, a linear bijection of $L_{F'}^\infty$ onto the space $\mathscr{B}(F, L^1)$ of continuous bilinear forms on $F \times L^1$. *If $F$ is a normed space, this bijection is an isometry.*
 
 One can suppose that $f(T)$ is an equicontinuous subset of $F'$. It is then clear that $\Phi_f$ is separately continuous, and, with the notations of Th. 1 and the Appendix, one has (taking into account the fact that $L^\infty$ is the dual of $L^1$ (Ch. V, §5, No. 8, Th. 4)) $^l \Phi_f = v_f$. The corollary then follows from Th. 1 above and from the Appendix, No. 1, Prop. 1 and its corollary.
 
-#### Corollary 2 (Dunford–Pettis theorem) {#int-vi-s2-thm-1-cor-2 .statement}
+#### Corollary 2 (Dunford–Pettis theorem) {#int-vi-s2-thm-1-cor-2 .statement tag=09AW}
 
 — *Let $F$ be a Hausdorff locally convex space containing a countable dense subset. For every function $f \in \mathscr{L}_{F'}^\infty$ and every function $g \in \mathscr{L}^1$, let $w_f(\tilde{g}) = \int gf\, d\mu \in F'$ (Lemma 4). The mapping $f \mapsto w_f$ defines, by passage to the quotient, a linear bijection* of $L_{F_s}^\infty$ onto the space $\mathscr{R}(L^1, F')$ of linear mappings $u$ of $L^1$ into $F'$ such that the image under $u$ of the unit ball of $L^1$ is an equicontinuous subset of $F'$. *If $F$ is a normed space (in which case $\mathscr{R}(L^1, F')$ is the space of continuous linear mappings of $L^1$ into the strong dual of $F$), the bijection $f \mapsto w_f$ is an isometry.*
 
 Taking into account the fact that $L^\infty$ is the dual of $L^1$, this follows from the preceding corollary and from the Appendix, No. 1, Prop. 1 and its corollary.
 
-#### Remark {#int-vi-s2-n5-rem-1 .statement}
+#### Remark {#int-vi-s2-n5-rem-1 .statement tag=09AX}
 
 — It is clear that the mappings $u \in \mathscr{R}(L^1, F')$ are continuous for every $\mathscr{G}$-topology on $F'$ ($\mathscr{G}$ a covering of $F$ by bounded subsets). Conversely, if $F$ is assumed moreover to be *barreled*, then every continuous linear mapping of $L^1$ into $F'$ equipped with an $\mathscr{G}$-topology transforms the unit ball of $L^1$ into a bounded subset of $F'$, which is therefore equicontinuous (TVS, III, §4, No. 2, Th. 1).
 
-#### Corollary 3 {#int-vi-s2-thm-1-cor-3 .statement}
+#### Corollary 3 {#int-vi-s2-thm-1-cor-3 .statement tag=09AY}
 
 *Let $F$ be a Hausdorff locally convex space containing a countable dense subset, $m$ a vectorial measure on $T$ with values in the weak dual $F'$ of $F$. If the image under $m$ of the set $B$ of functions $g$ in $\mathscr{K}(T)$ such that $\mu(|g|) \leq 1$ is contained in a closed and convex equicontinuous subset $H'$ of $F'$, then $m$ has base $\mu$ and there exists a density $f$ of $m$ with respect to $\mu$ such that $f(t) \in H'$ for all $t \in T$.*
 
 The hypothesis implies that $m$ is continuous when $\mathscr{K}(T)$ is equipped with the topology induced by that of $\mathscr{L}^1(\mu)$ (defined by the semi-norm $N_1$); it may therefore be extended to a continuous linear mapping $u$ of $\mathscr{L}^1(\mu)$ into the completion $G$ of the weak dual of $F$; but since $H'$ is a compact subset of $G$ and the image under $u$ of the set $\overline{B}$ of $f \in \mathscr{L}^1$ such that $N_1(f) \leq 1$ is contained in the closure of $H'$ in $G$, one has $u(\overline{B}) \subset H'$, therefore $u$ maps $\mathscr{L}^1$ into $F'$. Since the relation $N_1(f) \leq \varepsilon$ implies that $u(f) \in \varepsilon H'$, one has $u(g) = 0$ if $g$ is $\mu$-negligible, and Cor. 2 may therefore be applied to the mapping of $L^1$ into $F'$ obtained from $u$ by passing to the quotient; whence the corollary.
 
-#### Corollary 4 {#int-vi-s2-thm-1-cor-4 .statement}
+#### Corollary 4 {#int-vi-s2-thm-1-cor-4 .statement tag=09AZ}
 
 *Let $F$ be a separable normed space, and $m$ a measure on $T$ with values in the strong dual $F'$, majorizable for the norm of $F'$. Then $m$ is a measure with base $|m|$, and if $m = f \cdot |m|$ then $|f(t)| = 1$ locally almost everywhere for $|m|$.*
 
@@ -360,7 +360,7 @@ If this corollary is applied to the case that $F$ if finite-dimensional, one rec
 
 ### 6. Dual of the space $L^1_F$ (F a separable Banach space)
 
-#### Proposition 10 {#int-vi-s2-prop-10 .statement}
+#### Proposition 10 {#int-vi-s2-prop-10 .statement tag=09B0}
 
 — *Let F be a separable Banach space. For every function $f \in \overline{\mathscr{L}}^1_F$ and every function $g \in \mathscr{L}_{F'_s}^\infty$, the numerical function $\langle f, g \rangle : t \mapsto \langle f(t), g(t) \rangle$ is essentially $\mu$-integrable, and*
 
@@ -388,7 +388,7 @@ By Cor. 1 of Th. 1 of No. 5, there exists a mapping $g$ of T into $F'$, belongin
 
 ### 7. Integration of a vector-valued function with respect to a vectorial measure
 
-#### Proposition 11 {#int-vi-s2-prop-11 .statement}
+#### Proposition 11 {#int-vi-s2-prop-11 .statement tag=09B1}
 
 — *Let* $F, G, H$ *be three Banach spaces*, $\Phi$ *a continuous bilinear mapping of* $F \times G$ *into* $H$. *Let* $m$ *be a majorizable vectorial measure on* $T$, *with values in* $G$. *Then there exists one and only one continuous linear mapping* $I_{\Phi,m}$ *of* $\overline{\mathscr{L}}^1_F(|m|)$ *into* $H$ *such that, for every* $z \in F$ *and every numerical function* $h$ *integrable for* $|m|$, *one has* $I_{\Phi,m}(hz) = \Phi(z, \int h dm)$. *Moreover,
 
@@ -410,7 +410,7 @@ One says that $I_{\Phi,m}(f)$ is the integral of $f$ *with respect to* $m$ (rela
 
 With the notations of No. 6, the integral $\int \langle f, g \rangle\,d\mu$ is none other than $I_{\Phi,m}(f)$ with $\Phi(x,x') = \langle x, x' \rangle$ and $m = g \cdot \mu$.
 
-#### Corollary {#int-vi-s2-n7-cor-1 .statement}
+#### Corollary {#int-vi-s2-n7-cor-1 .statement tag=09B2}
 
 *If* $m$ *and* $m'$ *are two majorizable measures on* $T$, *with values in* $G$, *then* $I_{\Phi,m+m'} = I_{\Phi,m} + I_{\Phi,m'}$ *and* $I_{\Phi,\lambda m} = \lambda I_{\Phi,m}$ *for every scalar* $\lambda$.
 
@@ -422,7 +422,7 @@ $$
 
 The function $f$ is $(|m| + |m'|)$-integrable (Ch. V, §2, No. 2, Cor. 1 of Prop. 3), hence *a fortiori* $(|m + m'|)$-integrable, and the first member of (6) is indeed meaningful. To show (6), it suffices to do so for $f$ a step function over the $(|m| + |m'|)$-integrable sets, since the set of these functions is dense in $\mathscr{L}_F^1(|m| + |m'|)$ and the two members of (6) are continuous in the latter space, by virtue of (4). But for $f = a \varphi_X$, where $X$ is $(|m| + |m'|)$-integrable, the two members of (6) reduce to $\Phi(a, \int \varphi_X\,dm) + \Phi(a, \int \varphi_X\,dm')$, whence the corollary.
 
-#### Remark {#int-vi-s2-n7-rem-1 .statement}
+#### Remark {#int-vi-s2-n7-rem-1 .statement tag=09B3}
 
 — When $m$ is of the form $b\mu$, where $b \in G$ and $\mu$ is a real measure on $T$,
 
@@ -434,7 +434,7 @@ for every function $f \in \mathscr{L}_F^1(\mu)$, because both members are contin
 
 ### 8. Complex measures
 
-#### Definition 6 {#int-vi-s2-def-6 .statement}
+#### Definition 6 {#int-vi-s2-def-6 .statement tag=09B4}
 
 *One calls complex measure on* $T$ *every continuous linear form on the complex vector space* $\mathscr{K}_C(T)$.\footnote{Cf. Ch. III, §1, No. 3, Def. 2.}
 
@@ -491,7 +491,7 @@ $$
 \int \overline{f}\, d\overline{m} = \overline{\int f\, dm}.
 $$
 
-#### Proposition 12 {#int-vi-s2-prop-12 .statement}
+#### Proposition 12 {#int-vi-s2-prop-12 .statement tag=09B5}
 
 *Let m be a complex measure on T, p and q conjugate exponents (Ch. IV, §6, No. 4). The bilinear form $(f,g) \mapsto \int fg\, dm$ is defined and continuous on the product $\mathscr{L}_C^p(m) \times \mathscr{L}_C^q(m)$; the inequality $|\int fg\, dm| \leq N_p(f)N_q(g)$ holds, and $N_q(g)$ is the norm of the continuous linear form on $\mathscr{L}_C^p(m)$ deduced from the linear form $f \mapsto \int fg\, dm$ by passage to the quotient.
 
@@ -509,7 +509,7 @@ $$
 
 One says that $m$ is *bounded* if $\|m\| < +\infty$; it comes to the same to say that $m$ is continuous on $\mathscr{H}_C(T)$ equipped with the topology of uniform convergence, hence can be extended to a continuous linear form (of norm $\|m\|$) on the Banach space $\mathscr{H}_C(T)$ of continuous complex functions tending to 0 at infinity.
 
-#### Lemma 5 {#int-vi-s2-lem-5 .statement}
+#### Lemma 5 {#int-vi-s2-lem-5 .statement tag=09B6}
 
 *Let m be a complex measure on T, f an m-integrable complex function. Then $\int |f|\, d|m| = \sup |\int fh\, dm|$, as h runs over the set of functions in $\mathscr{H}_C(T)$ such that $|h(t)| \leq 1$ for all $t \in T$*.
 
@@ -521,7 +521,7 @@ $$
 $$
 which proves the lemma.
 
-#### Proposition 13 {#int-vi-s2-prop-13 .statement}
+#### Proposition 13 {#int-vi-s2-prop-13 .statement tag=09B7}
 
 — *Let m be a complex measure, and $\mu = |m|$. For m to be bounded, it is necessary and sufficient that $\mu$ be bounded, in which case $\|m\| = \|\mu\|$.*
 
@@ -535,7 +535,7 @@ $$
 $$
 therefore $\mu$ is bounded and $\|\mu\| \leq \|m\|$. Whence the proposition.
 
-#### Corollary {#int-vi-s2-n9-cor-1 .statement}
+#### Corollary {#int-vi-s2-n9-cor-1 .statement tag=09B8}
 
 — *Let m be a bounded complex measure. Every function $f \in \mathscr{L}_\mathbf{F}^\infty(m)$ is then m-integrable, and $\left| \int f \, dm \right| \leq N_\infty(f)\|m\|$.*
 

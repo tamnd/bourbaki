@@ -25,11 +25,11 @@ subsections:
       pdf_page: 141
 statements: 7
 exercises: 9
-content_sha256: 6c19e36e8e9fe2a14bd3f138891e6c1cece185efb7ead4bcf2d5736981b90781
+content_sha256: c334a3ec5cb9d8c00008031d1b97b96ee7bc7558538f1bc57761c39eef2f8c11
 translated_from: content/fr/ac/IX/03_s3_corps_de_representants.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: f87346f41fd15cf679aaa4db67e841015ffb1e15814b135f808cfb3c36b391f2
+source_content_sha256: 3b257c8e1d5c8aaa7bb69dcf6695b0e55782fd30b53d7e4f54e379fa51040059
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-en-mt-42a1da81
 glossary_version: 34
@@ -57,7 +57,7 @@ b’) Suppose that the fields $k$ and K do not have the same characteristic. The
 
 ### 2. A lifting theorem
 
-#### Proposition 1 {#ac-ix-s3-prop-1 .statement}
+#### Proposition 1 {#ac-ix-s3-prop-1 .statement tag=0CXL}
 
 Let $k_0$ be a field, A a $k_0$-algebra which is a separated and complete local ring, K a sub-$k_0$-extension of $\kappa_A$ which possesses a separating transcendence basis $(\xi_{\lambda})_{\lambda \in \Lambda}$ over $k_0$ (A, V, p. 130, déf. 1). For every $\lambda \in \Lambda$, let $x_{\lambda}$ be a representative of $\xi_{\lambda}$ in A. There exists a unique subfield L of A, containing $k_0$ and the elements $x_{\lambda}$, and such that the canonical homomorphism $\pi$ from A onto $\kappa_A$ induces an isomorphism of L onto K.
 
@@ -67,19 +67,19 @@ a) *Existence of L*: Let S be the set of subfields L of A, containing $\psi(k_1)
 
 b) *Uniqueness of L*: Let L and L’ be two subfields of A containing $\psi(k_1)$ and such that $\pi(L) = \pi(L') = K$. Let $\xi \in K$, and let $x \in L$ and $x' \in L'$ be the elements such that $\pi(x) = \pi(x') = \xi$. If $P \in k_1[X]$ is the minimal polynomial of $\xi$ over $k_1$, then $\xi$ is a simple root of P, and one has $P(x) = P(x') = 0$. By Hensel's lemma (*loc. cit.*) one has $x = x'$. Therefore $L = L'$.
 
-#### Remark {#ac-ix-s3-n2-rem-1 .statement}
+#### Remark {#ac-ix-s3-n2-rem-1 .statement tag=0CXM}
 
 \* The preceding proof applies more generally to the case where one assumes only that A is a henselian local ring*. The proof of uniqueness uses the hypothesis that the local ring A is separated, but not that it is complete.
 
 ### 3. Fields of representatives
 
-#### Definition 1 {#ac-ix-s3-def-1 .statement}
+#### Definition 1 {#ac-ix-s3-def-1 .statement tag=0CXN}
 
 *Let A be a local ring. A field of representatives of A is any subfield K of A such that the canonical homomorphism of A onto $\kappa_A$ induces an isomorphism of K onto $\kappa_A$ (in other words, such that $A = K + m_A$).*
 
 There can exist a field of representatives of A only if A has a characteristic. This condition is sufficient when A is separated and complete. More precisely, one has the following theorem:
 
-#### Theorem 1 {#ac-ix-s3-thm-1 .statement}
+#### Theorem 1 {#ac-ix-s3-thm-1 .statement tag=0CXO}
 
 *Let A be a separated and complete local ring of characteristic p.*
 
@@ -91,17 +91,17 @@ Assume that one has $p = 0$, so that A is a $\mathbf{Q}$-algebra. Every transcen
 
 Assume now that one has $p \neq 0$. Then one has $p1_A = 0$, and every Cohen subring C of A satisfies $pC = 0$. In other words, there is identity between the notions of field of representatives and of Cohen subring of A. Assertion b) then follows from § 2, no. 2, th. 1.
 
-#### Corollary 1 {#ac-ix-s3-thm-1-cor-1 .statement}
+#### Corollary 1 {#ac-ix-s3-thm-1-cor-1 .statement tag=0CXP}
 
 Let $A$ be a separated and complete local ring, whose residue field is an algebraic extension of $\mathbf{Q}$. Then there exists a unique field of representatives of $A$.
 In fact the ring $A$ is of characteristic 0 (no. 1).
 
-#### Corollary 2 {#ac-ix-s3-thm-1-cor-2 .statement}
+#### Corollary 2 {#ac-ix-s3-thm-1-cor-2 .statement tag=0CXQ}
 
 Let $A$ be a separated and complete local ring of characteristic $p \neq 0$. Assume that the residue field $\kappa_A$ is perfect. Then there exists a unique field of representatives of $A$, namely the set of multiplicative representatives.
 Cor. 2 follows immediately from th. 1 and prop. 7 of § 2, no. 4.
 
-#### Theorem 2 {#ac-ix-s3-thm-2 .statement}
+#### Theorem 2 {#ac-ix-s3-thm-2 .statement tag=0CXR}
 
 Let $A$ be a complete noetherian local ring of dimension $d$ containing a field. Let $K$ be a coefficient field of $A$, and let $m$ be the dimension of the vector space $m_A/m_A^2$ over the field $K$.
 a) There exists an ideal $a$ of $K[[T_1, ..., T_m]]$ such that the $K$-algebra $A$ is isomorphic to $K[[T_1, ..., T_m]]/a$.

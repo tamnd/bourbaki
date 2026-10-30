@@ -53,9 +53,9 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: cf92c028be05b9195d635b9f2f3540820528a2515d0e3a61b4fac27cae6abb3d
+content_sha256: 7d36b67047a4cc57aefc343683e3a9911837ab060f6b25c7696105b58e878876
 translated_from: content/en/int/VII/02_s2_quotient_of_a_space_by_a_group.md
-source_content_sha256: 3aabe8a9f84764ceec630f987422af79ccf2772ed683c26819c59b116cd6b62c
+source_content_sha256: d9ff9314ec23606af6278353311f4d40b921e4f3cdc62b45c0636a8821d2e713
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-bacf869e
 glossary_version: 34
@@ -71,7 +71,7 @@ Cho X là một không gian compact địa phương mà một nhóm compact đ�
 
 Cho $\chi$ là một biểu diễn liên tục của H trong $\mathbf{R}_+^*$. Nếu một hàm g trên X thỏa mãn $g(x\xi) = \chi(\xi)g(x)$ với mọi $x \in X$ và $\xi \in H$, thì giá đỡ S của nó là bất biến dưới H nên có thể viết $\pi^{-1}(\pi(S))$. Ta sẽ kí hiệu $\mathscr{K}^\chi(X)$ là không gian Riesz tạo bởi các hàm liên tục nhận giá trị thực g trên X thỏa mãn $g(x\xi) = \chi(\xi)g(x)$ ($x \in X, \xi \in H$) và có giá đỡ là phần bão hòa của một tập con compact của X; ta kí hiệu $\mathscr{K}_+^\chi(X)$ là tập các phần tử $\geqslant 0$ của $\mathscr{K}^\chi(X)$. Đặc biệt, $\mathscr{K}^1(X)$ chẳng qua là tập hợp các hàm liên tục trên X, hằng trên các quỹ đạo, có giá đỡ là phần bão hòa của một tập con compact.
 
-#### Mệnh đề 1 {#int-vii-s2-prop-1 .statement}
+#### Mệnh đề 1 {#int-vii-s2-prop-1 .statement tag=09EY}
 
 *Cho f là một hàm liên tục nhận giá trị thực trên X mà giá đỡ S của nó có giao compact với phần bão hòa của mọi tập con compact của X.*
 
@@ -106,13 +106,13 @@ $$
 = \chi(\eta)\Delta_{\mathbf{H}}(\eta)^{-1} \int_{\mathbf{H}} f(x\xi)\chi(\xi)^{-1}\,d\beta(\xi).
 $$
 
-#### Mệnh đề 2 {#int-vii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#int-vii-s2-prop-2 .statement tag=09EZ}
 
 *Ánh xạ* $f \mapsto f^{\chi}$ *từ* $\mathscr{K}(X)$ *vào* $\mathscr{K}^{\chi}(X)$ *là tuyến tính, và ảnh của* $\mathscr{K}(X)$ *(resp. $\mathscr{K}_{+}(X)$) là* $\mathscr{K}^{\chi}(X)$ *(resp. $\mathscr{K}_{+}^{\chi}(X)$).*
 
 Tính tuyến tính là hiển nhiên. Rõ ràng là $f^{\chi} \geqslant 0$ nếu $f \geqslant 0$. Khi đó chỉ cần áp dụng bổ đề sau:
 
-#### Bổ đề 1 {#int-vii-s2-lem-1 .statement}
+#### Bổ đề 1 {#int-vii-s2-lem-1 .statement tag=09F0}
 
 — *Cho* $K$ *là một tập con compact của* $X$, *u là một hàm của* $\mathscr{K}_{+}(X)$ *với* $u(x) > 0$ *với* $x \in K$. *Cho* $g \in \mathscr{K}^{\chi}(X)$ *sao cho* $\operatorname{Supp} g \subset KH$.
 a) *Ta có* $\inf_{x \in KH} u^{1}(x) > 0$.
@@ -123,7 +123,7 @@ Mệnh đề b) suy ra ngay từ đó. Cuối cùng, $(uh)^{\chi} = u^{1}h$ theo
 
 Cho I là một dạng tuyến tính tương đối bị chặn (Ch. II, §2, No. 2) trên $\mathscr{K}^{\chi}(X)$. Khi đó $f \mapsto I(f^{\chi})$ là một dạng tuyến tính tương đối bị chặn trên $\mathscr{K}(X)$, tức là một *độ đo* $\mu_{I}$ trên $X$. Ánh xạ $I \mapsto \mu_{I}$ là đơn ánh theo Mệnh đề 2. Các độ đo $\mu_{I}$ trên $X$ thu được như vậy có thể đặc trưng như sau:
 
-#### Mệnh đề 3 {#int-vii-s2-prop-3 .statement}
+#### Mệnh đề 3 {#int-vii-s2-prop-3 .statement tag=09F1}
 
 *Cho* $\mu$ *là một độ đo trên* $X$. *Các điều kiện sau là tương đương:*
 
@@ -191,7 +191,7 @@ Không được quên rằng định nghĩa của $f^b$ phụ thuộc vào lựa
 
 Nếu $f \in \mathscr{K}(X)$, thì $f^b \in \mathscr{K}(X/H)$. Ánh xạ $f \mapsto f^b$ từ $\mathscr{K}(X)$ vào $\mathscr{K}(X/H)$ là tuyến tính, và ảnh của $\mathscr{K}(X)$ (tương ứng $\mathscr{K}_+(X)$) là $\mathscr{K}(X/H)$ (tương ứng $\mathscr{K}_+(X/H)$).
 
-#### Nhận xét 1 {#int-vii-s2-n2-rem-1 .statement}
+#### Nhận xét 1 {#int-vii-s2-n2-rem-1 .statement tag=09F2}
 
 — Ta sẽ chứng minh rằng ánh xạ $f \mapsto f^b$ là một *cấu xạ ngặt* (GT, III, §2, No. 8) từ $\mathscr{K}(X)$ lên $\mathscr{K}(X/H)$.
 
@@ -204,7 +204,7 @@ $\gamma)$ ánh xạ của $E$ vào $\mathscr{K}(X)$ mà, với mỗi hàm $h \in
 
 c) Điều này đã được thiết lập, nếu $V$ là một lân cận lồi của 0 trong $\mathscr{K}(X)$, thì $V \cap \mathscr{K}(X, K)$ là một lân cận lồi của 0 trong $\mathscr{K}(X, K)$, do đó $V^b \cap \mathscr{K}(X/H, K')$ là một lân cận lồi của 0 trong $\mathscr{K}(X/H, K')$ theo b), do đó $V^b$ là một lân cận của 0 trong $\mathscr{K}(X/H)$ (TVS, II, §4, No. 4). Điều này hoàn tất chứng minh.
 
-#### Mệnh đề 4 {#int-vii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#int-vii-s2-prop-4 .statement tag=09F3}
 
 a) *Cho $\lambda$ là một độ đo trên $X/H$. Tồn tại một và chỉ một độ đo $\lambda^\#$ trên $X$ sao cho*
 $$
@@ -216,7 +216,7 @@ b) *Ngược lại, cho $\mu$ là một độ đo trên $X$ sao cho $\delta(\xi)
 
 Đây là trường hợp riêng của No. 1, Mệnh đề 3.
 
-#### Định nghĩa 1 {#int-vii-s2-def-1 .statement}
+#### Định nghĩa 1 {#int-vii-s2-def-1 .statement tag=09F4}
 
 *Với các giả thiết và ký hiệu như trong Mệnh đề 4, $\lambda$ được gọi là thương của $\mu$ theo $\beta$ và được ký hiệu bởi $\frac{\mu}{\beta}$ hoặc $\mu/\beta$.*
 
@@ -228,7 +228,7 @@ $$
 $$
 Điều này bao hàm một sự lạm dụng ký hiệu, vì tích phân $\int_H f(x\xi) d\beta(\xi)$ được xem như một hàm của $\dot{x}$ chứ không phải của $x$; cách viết này sẽ được dùng thường xuyên về sau miễn là không thể xảy ra nhầm lẫn.
 
-#### Nhận xét 2 {#int-vii-s2-n2-rem-2 .statement}
+#### Nhận xét 2 {#int-vii-s2-n2-rem-2 .statement tag=09F5}
 
 — Cho E là một không gian vectơ lồi địa phương và cho m là một độ đo vectơ trên $X/H$ với giá trị trong E. Khi đó ánh xạ $f \mapsto m(f^b)$ từ $\mathscr{K}(X)$ vào E là một độ đo vectơ trên X, với giá trị trong E, mà ta cũng sẽ ký hiệu là $m^\#$. Ánh xạ $m \mapsto m^\#$ lại là một *đẳng cấu* của $\mathscr{L}(\mathscr{K}(X/H); E)$ lên một không gian con tuyến tính A của $\mathscr{L}(\mathscr{K}(X); E)$ (khi các không gian này được trang bị tôpô hội tụ điểm). Hơn nữa, vì ánh xạ $f \mapsto f^b$ là một cấu xạ ngặt toàn ánh, nên không gian con A chính là tập hợp các độ đo vectơ n trên X mà bằng không trên hạt nhân N của ánh xạ $f \mapsto f^b$. Để $n \in A$, do đó cần và đủ rằng các độ đo vô hướng $z' \circ n$ bằng không trên N với mọi $z' \in E'$. Từ Mệnh đề 3 suy ra rằng $n \in A$ khi và chỉ khi $\delta(\xi)n = \Delta_H(\xi)n$ với mọi $\xi \in H$.
 
@@ -246,7 +246,7 @@ $$
 (\varepsilon_u)^\# = \beta_u.
 $$
 
-#### Bổ đề 2 {#int-vii-s2-lem-2 .statement}
+#### Bổ đề 2 {#int-vii-s2-lem-2 .statement tag=09F6}
 
 *Cho $f$ là một hàm trên X, nhận giá trị trong một không gian tôpô.*
 
@@ -272,7 +272,7 @@ $$
 
 $^1$ Theo nghĩa của lần xuất bản thứ nhất của Ch. V, do đó *a fortiori* theo nghĩa của lần thứ hai (cf. chú thích cho Ví dụ của Ch. VI, §1, No. 1).
 
-#### Mệnh đề 5 {#int-vii-s2-prop-5 .statement}
+#### Mệnh đề 5 {#int-vii-s2-prop-5 .statement tag=09F7}
 
 — Cho $\lambda$ là một độ đo dương trên $X/H$.
 
@@ -310,7 +310,7 @@ $$
 
 Xét đến Bổ đề 2, các khẳng định a), b) và c) suy ra từ Ch. V, §3, Mệnh đề 4, Mệnh đề 5 và Định lý 1 (trừ (13), điều này suy ra từ (12) vì hiển nhiên là $|f^b| \leq |f|^b$); d) suy ra từ b).
 
-#### Mệnh đề 6 {#int-vii-s2-prop-6 .statement}
+#### Mệnh đề 6 {#int-vii-s2-prop-6 .statement tag=09F8}
 
 — Cho $\lambda$ là một độ đo dương trên $X/H$.
 
@@ -348,19 +348,19 @@ $$
 
 do đó $h \circ \pi$ là địa phương $\lambda^\#$-khả tích.
 
-#### Hệ quả 1 {#int-vii-s2-prop-6-cor-1 .statement}
+#### Hệ quả 1 {#int-vii-s2-prop-6-cor-1 .statement tag=09F9}
 
 — Cho $\lambda, \lambda'$ là hai độ đo dương trên X/H. Để $\lambda'$ có cơ sở $\lambda$, cần và đủ rằng ${\lambda'}^\#$ có cơ sở $\lambda^\#$. Để $\lambda$ và $\lambda'$ tương đương, cần và đủ rằng $\lambda^\#$ và ${\lambda'}^\#$ tương đương.
 
 Mệnh đề đầu suy ra từ Mệnh đề 6, a) và c). Mệnh đề thứ hai suy ra từ mệnh đề đầu.
 
-#### Hệ quả 2 {#int-vii-s2-prop-6-cor-2 .statement}
+#### Hệ quả 2 {#int-vii-s2-prop-6-cor-2 .statement tag=09FA}
 
 — Cho $\lambda$ là một độ đo dương trên $X/H$, và $f$ là một hàm số trị số đo được theo $\lambda^\#$ trên $X$. Giả sử rằng, với mọi $\xi \in H$, $\delta(\xi)f = f$ địa phương $\lambda^\#$-hầu khắp nơi. Khi đó, tồn tại một hàm $\lambda$-đo được $g$ trên $X/H$ sao cho $f = g \circ \pi$ địa phương $\lambda^\#$-hầu khắp nơi.
 
 Thay $f$ bằng $f/(1+|f|)$, ta quy về trường hợp $f$ bị chặn, do đó khả tích địa phương theo $\lambda^\#$. Đặt $\mu = f \cdot \lambda^\#$. Giả thiết về $f$ suy ra rằng $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ với mọi $\xi \in H$. Khi đó tồn tại (Mệnh đề 4) một độ đo $\lambda'$ trên $X/H$ sao cho $\mu = {\lambda'}^\#$. Theo Hệ quả 1, tồn tại một hàm khả tích địa phương theo $\lambda$ $g$ trên $X/H$ sao cho $\lambda' = g \cdot \lambda$. Theo Mệnh đề 6, $f \cdot \lambda^\# = {\lambda'}^\# = (g \circ \pi) \cdot \lambda^\#$, do đó $f = g \circ \pi$ địa phương $\lambda^\#$-hầu khắp nơi.
 
-#### Hệ quả 3 {#int-vii-s2-prop-6-cor-3 .statement}
+#### Hệ quả 3 {#int-vii-s2-prop-6-cor-3 .statement tag=09FB}
 
 — a) Cho $(\lambda_\iota)_{\iota \in I}$ là một họ các độ đo thực trên $X/H$. Để họ $(\lambda_\iota)$ bị chặn trên trong $\mathscr{M}(X/H)$, điều kiện cần và đủ là họ $(\lambda_\iota^\#)$ bị chặn trên trong $\mathscr{M}(X)$, trong trường hợp đó
 
@@ -386,11 +386,11 @@ $$
 
 điều đó hoàn tất chứng minh của a). Mệnh đề b) sau đó suy ra ngay vì, chẳng hạn, $\lambda^+$ chẳng qua là $\sup(\lambda, 0)$. Để chứng minh c), chỉ cần nhận xét rằng $|\lambda| = \sup \mathscr{R}(\alpha \lambda)$ trên các số phức $\alpha$ có giá trị tuyệt đối bằng 1, và mặt khác rằng $\mathscr{R}(\mu^\#) = (\mathscr{R}\mu)^\#$ với mọi $\mu \in \mathscr{M}(X/H)$.
 
-#### Nhận xét 1 {#int-vii-s2-n3-rem-1 .statement}
+#### Nhận xét 1 {#int-vii-s2-n3-rem-1 .statement tag=09FC}
 
 Mệnh đề 6 a) có thể phát biểu bằng cách nói rằng $\lambda$ là một độ đo *ảnh giả* của $\lambda^\#$ theo $\pi$ (Ch. VI, §3, No. 2, Định nghĩa 1).
 
-#### Nhận xét 2 {#int-vii-s2-n3-rem-2 .statement}
+#### Nhận xét 2 {#int-vii-s2-n3-rem-2 .statement tag=09FD}
 
 Giả sử $H$ là *compact* và $\beta$ được chuẩn hóa. Phần bão hòa của mọi tập con compact của $X$ là compact. Do đó, nếu $f \in \mathscr{K}(X/H)$ thì $f \circ \pi \in \mathscr{K}(X)$; và, với mọi độ đo dương $\lambda$ trên $X/H$, Mệnh đề 5 c) cho
 
@@ -400,11 +400,11 @@ $$
 
 Nói cách khác, $\lambda$ là *ảnh* của $\lambda^\#$ theo $\pi$.
 
-#### Nhận xét 3 {#int-vii-s2-n3-rem-3 .statement}
+#### Nhận xét 3 {#int-vii-s2-n3-rem-3 .statement tag=09FE}
 
 Hệ quả 3 c) của Mệnh đề 6 cho thấy ngay rằng các kết quả của tiểu mục này vẫn đúng trong trường hợp các độ đo phức (trừ những kết quả liên quan đến tích phân trên).
 
-#### Nhận xét 4 {#int-vii-s2-n3-rem-4 .statement}
+#### Nhận xét 4 {#int-vii-s2-n3-rem-4 .statement tag=09FF}
 
 Cho $m$ là một độ đo vectơ trên $X/H$ nhận giá trị trong $E$, và cho $q$ là một nửa chuẩn nửa liên tục dưới trên $E$. Để $m$ là *q-trội được* (Ch. VI, §2, No. 3, Định nghĩa 3), điều kiện cần và đủ là $m^\#$ cũng như vậy, trong trường hợp đó $q(m^\#) = q(m)^\#$. Điều này suy ra ngay từ các định nghĩa và Hệ quả 3 a).
 
@@ -416,7 +416,7 @@ Cuối cùng, nếu $m$ có cơ sở $\mu$, với mật độ $f$ đối với $
 
 Nếu $X/H$ là paracompact, trước hết ta sẽ thấy rằng các không gian vectơ $\mathscr{K}^\chi(X)$, với $\chi$ biến, đều *đẳng cấu* với nhau, và đặc biệt đẳng cấu với $\mathscr{K}^1(X)$.
 
-#### Mệnh đề 7 {#int-vii-s2-prop-7 .statement}
+#### Mệnh đề 7 {#int-vii-s2-prop-7 .statement tag=09FG}
 
 *Giả sử $X/H$ paracompact. Cho $\chi$ là một biểu diễn liên tục của $H$ trong $\mathbf{R}_+^*$.*
 
@@ -426,21 +426,21 @@ b) *Ánh xạ $g \mapsto g/r$ là một đẳng cấu của không gian vectơ $
 
 Ta áp dụng Mệnh đề 1 của No. 1 bằng cách lấy $f$ là một hàm $\geqslant 0$ không đồng nhất bằng không trên bất kỳ quỹ đạo nào (điều này có thể làm được nhờ Bổ đề 1 của Phụ lục 1); khi đó $r = f^\chi$ thỏa mãn các tính chất của a). Khẳng định b) hiển nhiên.
 
-#### Mệnh đề 8 {#int-vii-s2-prop-8 .statement}
+#### Mệnh đề 8 {#int-vii-s2-prop-8 .statement tag=09FH}
 
 *Giả sử $X/H$ paracompact. Tồn tại trên $X$ một hàm liên tục $h \geqslant 0$, có hỗ trợ có giao compact với* bao hòa của mọi tập con compact của X, và sao cho $h^b = 1$. Với một hàm như vậy, ta có $g = (h \cdot (g \circ \pi))^b$ với mọi hàm liên tục $g$ trên $X/H$.
 
 Ta áp dụng Mệnh đề 1 của No. 1, với $\chi = 1$, bằng cách lấy cho $f$ một hàm $\geqslant 0$ không đồng nhất bằng không trên bất kỳ quỹ đạo nào. Ta có $f^1(x) > 0$ tại mọi điểm $x$ của $X$. Đặt $h = f/f^1$. Khi đó $h^1 = f^1/f^1 = 1$, do đó $h^b = 1$. Suy ra rằng nếu $g$ là một hàm liên tục trên $X/H$, thì $(h \cdot (g \circ \pi))^b = h^b \cdot g = g$.
 
-#### Nhận xét 1 {#int-vii-s2-n4-rem-1 .statement}
+#### Nhận xét 1 {#int-vii-s2-n4-rem-1 .statement tag=09FI}
 
 Đặc biệt, cho $X$ là một không gian địa phương compact trên đó một nhóm rời rạc $D$ tác động liên tục và đúng đắn bên phải; giả sử $X/D$ là paracompact. Khi đó, tồn tại một hàm liên tục $h \geqslant 0$ trên $X$ có hỗ trợ có giao compact với bao hòa của mọi tập con compact của $X$, và sao cho $\sum_{d \in D} h(xd) = 1$ với mọi $x \in X$ (mọi số hạng của tổng đều bằng không trừ hữu hạn số hạng).
 
-#### Nhận xét 2 {#int-vii-s2-n4-rem-2 .statement}
+#### Nhận xét 2 {#int-vii-s2-n4-rem-2 .statement tag=09FJ}
 
 Ta giữ các giả thiết và ký hiệu của Mệnh đề 8. Ánh xạ $g \mapsto h \cdot (g \circ \pi)$ là một ánh xạ liên tục của $\mathscr{K}(X/H)$ vào $\mathscr{K}(X)$, là một nghịch đảo phải của ánh xạ $f \mapsto f^b$. Do đó, mọi tập con bị chặn (tương ứng compact) của $\mathscr{K}(X/H)$ là ảnh của một tập con bị chặn (tương ứng compact) của $\mathscr{K}(X)$. Từ đó, suy ra ngay rằng ánh xạ $\lambda \mapsto \lambda^\#$ lại là một đẳng cấu của $\mathscr{M}(X/H)$ lên một không gian con tuyến tính đóng của $\mathscr{M}(X)$ khi các không gian này được trang bị tôpô hội tụ bị chặn (tương ứng compact).
 
-#### Mệnh đề 9 {#int-vii-s2-prop-9 .statement}
+#### Mệnh đề 9 {#int-vii-s2-prop-9 .statement tag=09FK}
 
 — *Ta giữ các giả thiết và ký hiệu của Mệnh đề 8.* Cho $\lambda$ là một độ đo dương trên $X/H$.
 
@@ -466,7 +466,7 @@ $$
 $$
 trong đó $M = \sup |f|$; do đó $h \cdot ((kf) \circ \pi)$ là $\lambda^\#$-khả tích, suy ra $kf$ là $\lambda$-khả tích, theo điều đã chứng minh ở trên; điều này chứng tỏ rằng $k$ thật sự là $\lambda$-khả tích địa phương.
 
-#### Hệ quả {#int-vii-s2-n4-cor-1 .statement}
+#### Hệ quả {#int-vii-s2-n4-cor-1 .statement tag=09FL}
 
 — *Ánh xạ tuyến tính liên tục* $f \mapsto f^b$ *từ* $L^1(X, \lambda^\#)$ *vào* $L^1(X/H, \lambda)$ *được xác định bởi Mệnh đề 5 là toàn ánh*.
 
@@ -474,13 +474,13 @@ Trước hết giả sử $X/H$ là paracompact và cho $h$ là một hàm trên
 
 Trong trường hợp tổng quát, cho $u \in L^1(X/H, \lambda)$. Tồn tại một hàm $f \in \mathscr{L}^1(X/H, \lambda)$ có lớp $u$ và bằng không ngoài một hợp đếm được các tập compact $K_n$. Định nghĩa theo quy nạp một dãy các tập mở tương đối compact $U_n$ của $X/H$ sao cho $U_{n+1} \supset K_n \cup \overline{U}_n$, và cho $V$ là hợp của các $U_n$. Khi đó $V$ là một tập con mở của $X/H$, một hợp đếm được các tập con compact $\overline{U}_n$, do đó là paracompact (GT, I, § 9, No. 10, ĐL. 5). Đặt $Y = \overline{\pi}^{-1}(V)$ và ký hiệu $\lambda_V$ (resp. $\lambda_Y^\#$) là độ đo cảm sinh bởi $\lambda$ (resp. $\lambda^\#$) trên $V$ (resp. $Y$). Rõ ràng $Y/H$ có thể được đồng nhất với $V$ (GT, I, § 3, Mệnh đề 10) và rằng $\lambda_Y^\#$ có thể được đồng nhất với $(\lambda_V)^\#$. Hơn nữa, $f$ bằng không ngoài $V$ và thuộc $\mathscr{L}^1(V, \lambda_V)$. Do đó, tồn tại $g \in \mathscr{L}^1(Y, \lambda_Y^\#)$ sao cho $g^b = f$ hầu khắp nơi trên $V$. Mở rộng $g$ bằng 0 trên $X - Y$, ta thu được một hàm $g_1 \in \mathscr{L}^1(X, \lambda^\#)$, và rõ ràng lớp của $g_1^b$ trong $L^1(X/H, \lambda)$ không gì khác hơn là $u$.
 
-#### Nhận xét 3 {#int-vii-s2-n4-rem-3 .statement}
+#### Nhận xét 3 {#int-vii-s2-n4-rem-3 .statement tag=09FM}
 
 — Giả sử $X/H$ paracompact, và ta giữ các ký hiệu của Mệnh đề 9. Khi đó ánh xạ $k \mapsto h \cdot (k \circ \pi)$ từ $L^1(X/H, \lambda)$ vào $L^1(X, \lambda^\#)$ là *đẳng cự* theo (14) và là một *nghịch đảo phải* của ánh xạ $f \mapsto f^b$ từ $L^1(X, \lambda^\#)$ lên $L^1(X/H, \lambda)$.
 
 ### 5. Các độ đo quasi-bất biến trên một không gian thuần nhất
 
-#### Bổ đề 3 {#int-vii-s2-lem-3 .statement}
+#### Bổ đề 3 {#int-vii-s2-lem-3 .statement tag=09FN}
 
 — *Cho G là một nhóm compact địa phương, $\mu$ là một độ đo Haar trái trên G, $\nu$ và $\nu'$ là hai độ đo quasi-bất biến khác không trên G. Nếu, với mọi $s \in G$, các mật độ của $\gamma(s)\nu$ đối với $\nu$ và của $\gamma(s)\nu'$* đối với $\nu'$ bằng nhau địa phương $\mu$-hầu khắp nơi, thì $\nu$ và $\nu'$ tỷ lệ với nhau.
 
@@ -512,7 +512,7 @@ $$
 
 do đó có công thức (15), suy ra công thức (16).
 
-#### Bổ đề 4 {#int-vii-s2-lem-4 .statement}
+#### Bổ đề 4 {#int-vii-s2-lem-4 .statement tag=09FO}
 
 Cho $\lambda$ là một độ đo $\neq 0$ trên $G/H$, và $\mu$ là một độ đo Haar trái trên $G$. Các tính chất sau là tương đương:
 a) $\lambda$ là gần bất biến dưới $G$;
@@ -546,7 +546,7 @@ do đó (17).
 
 Tính tương đương của a) và b) trước hết suy ra kết quả duy nhất đã nêu, và thậm chí một kết quả chính xác hơn:
 
-#### Định lý 1 {#int-vii-s2-thm-1 .statement}
+#### Định lý 1 {#int-vii-s2-thm-1 .statement tag=09FP}
 
 *Cho $G$ là một nhóm địa phương compact, $H$ là một nhóm con đóng của $G$.*
 
@@ -560,7 +560,7 @@ Mặt khác, Bổ đề 4 rút việc tìm các độ đo gần bất biến kh�
 
 độ đo Haar và có dạng $\lambda^\#$. Về chủ đề này, ta có bổ đề sau:
 
-#### Bổ đề 5 {#int-vii-s2-lem-5 .statement}
+#### Bổ đề 5 {#int-vii-s2-lem-5 .statement tag=09FQ}
 
 *Cho $\mu$ là một độ đo Haar trái trên $G$, và $\rho$ là một hàm khả tích địa phương theo $\mu$. Để $\rho \cdot \mu$ có dạng $\lambda^\#$, điều kiện cần và đủ là, với mọi $\xi \in H$,*
 
@@ -580,7 +580,7 @@ suy ra bổ đề.
 
 Ta có thể bây giờ thiết lập kết quả tồn tại đã nêu, và thậm chí còn một kết quả chính xác hơn:
 
-#### Định lý 2 {#int-vii-s2-thm-2 .statement}
+#### Định lý 2 {#int-vii-s2-thm-2 .statement tag=09FR}
 
 *Cho $G$ là một nhóm địa phương compact, $H$ là một nhóm con đóng của $G$, $\mu$ là một độ đo Haar trái trên $G$, và $\beta$ là một độ đo Haar trái trên $H$.
 
@@ -610,11 +610,11 @@ a) suy ra từ Mệnh đề 7.
 b) suy ra từ các Bổ đề 5 và 4.
 c) suy ra từ (17).
 
-#### Nhận xét 1 {#int-vii-s2-n5-rem-1 .statement}
+#### Nhận xét 1 {#int-vii-s2-n5-rem-1 .statement tag=09FS}
 
 Từ Nhận xét 1 của No. 3 suy ra rằng các độ đo gần bất biến khác không trên $G/H$ chẳng qua là các ảnh giả dưới $\pi$ của một độ đo Haar trên $G$.
 
-#### Nhận xét 2 {#int-vii-s2-n5-rem-2 .statement}
+#### Nhận xét 2 {#int-vii-s2-n5-rem-2 .statement tag=09FT}
 
 Nếu $G$ là một nhóm Lie, ta sẽ thấy sau này rằng hàm $\rho$ của Định lý 2 có thể được chọn là khả vi vô hạn.*
 
@@ -647,7 +647,7 @@ $$
 
 Cho G lại là một nhóm địa phương compact, H là một nhóm con đóng, $\beta$ là một độ đo Haar trái trên H.
 
-#### Bổ đề 6 {#int-vii-s2-lem-6 .statement}
+#### Bổ đề 6 {#int-vii-s2-lem-6 .statement tag=09FU}
 
 Cho $\lambda$ là một độ đo trên $G/H$, $\chi$ là một biểu diễn liên tục của G trong $\mathbf{C}^*$. Các tính chất sau là tương đương:
 a) $\lambda$ là bất biến tương đối trên $G/H$ với nhân tử $\chi$;
@@ -668,7 +668,7 @@ $$
 
 Do đó a) tương đương với b). Sự tương đương của b) và c) suy ra từ §1, No. 8, Hệ quả 1 của Mệnh đề 10.
 
-#### Định lý 3 {#int-vii-s2-thm-3 .statement}
+#### Định lý 3 {#int-vii-s2-thm-3 .statement tag=09FV}
 
 Cho G là một nhóm địa phương compact, H là một nhóm con đóng của G, $\mu$ (tương ứng $\beta$) là một độ đo Haar trái trên G (tương ứng H), $\chi$ là một biểu diễn liên tục của G trong $\mathbf{C}^*$.
 
@@ -686,17 +686,17 @@ với mọi $\xi \in H$. Do đó a). Mệnh đề b) suy ra ngay từ Bổ đề
 
 Ta sẽ thấy ở §3 (No. 3, Ví dụ 4) vài ví dụ rất đơn giản mà ở đó biểu diễn $\xi \mapsto \Delta_H(\xi)/\Delta_G(\xi)$ không thể được mở rộng thành một biểu diễn liên tục của G trong $\mathbf{C}^*$. Trong trường hợp này, do đó không tồn tại bất kỳ độ đo phức khác không nào trên $G/H$ bất biến tương đối dưới G.
 
-#### Hệ quả 1 {#int-vii-s2-thm-3-cor-1 .statement}
+#### Hệ quả 1 {#int-vii-s2-thm-3-cor-1 .statement tag=09FW}
 
 Để trên $G/H$ tồn tại một độ đo dương khác không bất biến tương đối dưới G, điều kiện cần và đủ là tồn tại một biểu diễn liên tục của $G$ trong $\mathbf{R}_+^*$ mở rộng biểu diễn $\xi \mapsto \Delta_H(\xi)/\Delta_G(\xi)$.
 
 Chú ý rằng điều kiện này được thỏa mãn khi $H$ đơn môđula.
 
-#### Hệ quả 2 {#int-vii-s2-thm-3-cor-2 .statement}
+#### Hệ quả 2 {#int-vii-s2-thm-3-cor-2 .statement tag=09FX}
 
 — Để trên $G/H$ tồn tại một độ đo dương khác không bất biến dưới $G$, điều kiện cần và đủ là $\Delta_G$ trùng nhau với $\Delta_H$ trên $H$.
 
-#### Hệ quả 3 {#int-vii-s2-thm-3-cor-3 .statement}
+#### Hệ quả 3 {#int-vii-s2-thm-3-cor-3 .statement tag=09FY}
 
 — Giả sử rằng $H$ đơn môđula và rằng trên $G/H$ tồn tại một độ đo dương bị chặn khác không $\nu$ bất biến tương đối dưới $G$. Khi đó $\nu$ bất biến, và $G$ đơn môđula.
 
@@ -704,7 +704,7 @@ Cho $\chi$ là nhân tử của $\nu$. Với mọi $s \in G$, $\nu$ và $\gamma(
 
 ### 7. Độ đo Haar trên một nhóm thương
 
-#### Mệnh đề 10 {#int-vii-s2-prop-10 .statement}
+#### Mệnh đề 10 {#int-vii-s2-prop-10 .statement tag=09FZ}
 
 — Cho $G$ là một nhóm compact địa phương, $G'$ một nhóm con chuẩn đóng, $G''$ là nhóm $G/G'$, $\pi$ là ánh xạ chính tắc của $G$ lên $G/G'$, và $\alpha, \alpha', \alpha''$ là các độ đo Haar trái trên $G, G', G''$.
 
@@ -720,7 +720,7 @@ c) Hạt nhân của biểu diễn $\Delta_G$ của $G$ trong $\mathbf{R}_+^*$ l
 
 Áp dụng Định lý 3 của No. 6 với $\chi = 1$ (và biết rằng ở đây, tồn tại một độ đo trên $G/G'$ bất biến dưới $G$, tức là $\alpha''$), ta thu được a) và b); c) suy ra ngay từ b).
 
-#### Mệnh đề 11 {#int-vii-s2-prop-11 .statement}
+#### Mệnh đề 11 {#int-vii-s2-prop-11 .statement tag=09G0}
 
 — Ta giữ các ký hiệu của Mệnh đề 10. Cho $u$ là một tự đẳng cấu của $G$ sao cho $u(G') = G'$. Ký hiệu $u'$ là hạn chế của $u$ lên $G'$, và $u''$ là tự đẳng cấu của $G''$ suy ra từ $u$ bằng cách đi qua các thương. Khi đó
 
@@ -737,7 +737,7 @@ $$
 $$
 do đó mệnh đề.
 
-#### Hệ quả {#int-vii-s2-n7-cor-1 .statement}
+#### Hệ quả {#int-vii-s2-n7-cor-1 .statement tag=09G1}
 
 — *Với mọi* $x \in G$,
 $$
@@ -759,7 +759,7 @@ với $\xi \in H$; khi đó ta có thể lập các độ đo $\mu/\beta$ trên 
 
 Ánh xạ $(x, \xi) \mapsto \pi'(x\xi)$ của $X \times H$ vào $X/H'$ là *liên tục*; vì $\pi'(x\xi) = \pi'(x\xi\xi')$ với mọi $\xi' \in H'$ nên ánh xạ này xác định, khi qua thương, một ánh xạ *liên tục* của $X \times (H/H')$ vào $X/H'$; do đó, với mỗi $x$ cố định trong $X$, một ánh xạ bộ phận $\omega_x$ của $H/H'$ vào $X/H'$, suy ra khi qua thương từ ánh xạ $\psi_x : \xi \mapsto x\xi$ của H vào X. Chú ý rằng $\psi_{x\xi} = \psi_x \circ \gamma_H(\xi)$, do đó $\omega_{x\xi} = \omega_x \circ \gamma_{H/H'}(\xi)$ với mọi $\xi \in H$.
 
-#### Bổ đề 7 {#int-vii-s2-lem-7 .statement}
+#### Bổ đề 7 {#int-vii-s2-lem-7 .statement tag=09G2}
 
 *Cho K là một tập con compact của X/H', và L là một tập con compact của X. Khi đó $\bigcup_{x \in L} \omega_x^{-1}(K)$ là tương đối compact trong H/H'._
 
@@ -783,7 +783,7 @@ $$
 
 Ta có các tính chất tương tự đối với tính đo được, tích phân trên và tích phân thiết yếu.
 
-#### Mệnh đề 12 {#int-vii-s2-prop-12 .statement}
+#### Mệnh đề 12 {#int-vii-s2-prop-12 .statement tag=09G3}
 
 — *Với các ký hiệu trên*,
 
@@ -826,7 +826,7 @@ $$
 
 điều này chứng minh mệnh đề.
 
-#### Hệ quả 1 {#int-vii-s2-prop-12-cor-1 .statement}
+#### Hệ quả 1 {#int-vii-s2-prop-12-cor-1 .statement tag=09G4}
 
 — a) *Cho f là một hàm trên X/H', với giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$, khả tích đối với $\mu/\beta'$. Tồn tại một tập con N không đáng kể theo $(\mu/\beta)$ của X/H có tính chất sau: nếu $x \in X$ sao cho $\pi(x) \notin N$, thì hàm $f \circ \omega_x$ trên H/H', tức là hàm $\dot{\xi} \mapsto f(\pi'(x\xi))$, khả tích đối với $\beta/\beta'$. Nguyên $\int_{H/H'} f(\pi'(x\xi)) d(\beta/\beta')(\dot{\xi})$ chỉ phụ thuộc vào $\dot{x} = \pi(x)$, và là một hàm khả tích theo $(\mu/\beta)$ của $\dot{x}$; và*
 
@@ -852,7 +852,7 @@ $$
 \int_{X/H}^* d(\mu/\beta)(\dot{x}) \int_{H/H'}^* |f(\pi'(x\xi))| d(\beta/\beta')(\dot{\xi}) < +\infty.
 $$
 
-#### Hệ quả 2 {#int-vii-s2-prop-12-cor-2 .statement}
+#### Hệ quả 2 {#int-vii-s2-prop-12-cor-2 .statement tag=09G5}
 
 — Cho $G$ là một nhóm compact địa phương, $A$ và $B$ là các nhóm con đóng của $G$ sao cho $A \supset B$. Giả sử rằng tồn tại, trên không gian thuần nhất $G/B$ của các lớp ghép trái theo $B$, một độ đo dương khác không $\alpha$ bất biến dưới $G$ và bị chặn.
 
@@ -872,7 +872,7 @@ Cho $G$ là một nhóm compact địa phương, $X$ và $Y$ là hai nhóm con �
 
 Nhóm $X \times Y$ tác động liên tục lên $G$ bên trái, theo luật $(x, y) \cdot s = x s y^{-1}$ ($x \in X, y \in Y, s \in G$). Đặt $Z = X \cap Y$. Nhóm ổn định của $e$ trong $X \times Y$ là nhóm con $Z_0$ của $X \times Y$ gồm các cặp $(z, z)$, với $z \in Z$, một nhóm con đẳng cấu chính tắc với $Z$. Do đó tập $\Omega$ có thể được đồng nhất với không gian thuần nhất $(X \times Y)/Z_0$ của các lớp ghép trái; chính xác hơn, ánh xạ $(x, y) \mapsto xy^{-1}$ của $X \times Y$ lên $\Omega$ xác định, khi qua thương, một song ánh liên tục từ $(X \times Y)/Z_0$ lên $\Omega$. Ta sẽ giả sử rằng ánh xạ này *là một đồng phôi*. (Điều này đặc biệt đúng nếu $G$ đếm được tại vô cùng: xem Phụ lục I.)
 
-#### Mệnh đề 13 {#int-vii-s2-prop-13 .statement}
+#### Mệnh đề 13 {#int-vii-s2-prop-13 .statement tag=09G6}
 
 — *Giả sử thêm rằng $Z$ là compact. Cho $\mu_G, \mu_X, \mu_Y$ là các độ đo Haar trái trên $G$, $X$, $Y$, và $\Lambda$ là sự hạn chế của $\Delta_G$ lên $Y$. Khi đó sự hạn chế $\mu$ của $\mu_G$ lên $\Omega$ là, đến một thừa số hằng, ảnh của $\mu_X \otimes (\Lambda^{-1} \cdot \mu_Y)$ qua ánh xạ $(x, y) \mapsto xy^{-1}$ của $X \times Y$ lên $\Omega$ (một ánh xạ thực sự).
 
@@ -884,7 +884,7 @@ $$
 
 Nhận diện $\Omega$ với không gian thuần nhất $(X \times Y)/Z_0$ và chọn một độ đo Haar thích hợp trên $Z_0$, ta thấy rằng $\mu^\#$ là tích của độ đo Haar trái của $X \times Y$, tức là $\mu_X \otimes \mu_Y$, với hàm $(x, y) \mapsto \Delta_G(y)^{-1}$ (No. 6, Bổ đề 6). Mặt khác $\mu$ là, tới một nhân tử hằng, ảnh của $\mu^\#$ dưới ánh xạ chính tắc từ $X \times Y$ lên $\Omega$ (No. 3, Nhận xét 2).
 
-#### Hệ quả {#int-vii-s2-n9-cor-1 .statement}
+#### Hệ quả {#int-vii-s2-n9-cor-1 .statement tag=09G7}
 
 — *Cho f là một hàm xác định trên $\Omega$, nhận giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$. Để f khả tích theo $\mu$, cần và đủ rằng hàm $(x, y) \mapsto f(xy) \Delta_G(y) \Delta_Y(y)^{-1}$ khả tích theo $(\mu_X \otimes \mu_Y)$; trong trường hợp đó*
 
@@ -896,7 +896,7 @@ trong đó $a$ là một hằng $> 0$ không phụ thuộc vào f.
 
 Theo Mệnh đề 13, và Chương V, §4, No. 4, Định lý 2, để f khả tích theo $\mu$, cần và đủ rằng hàm $(x, y) \mapsto f(xy^{-1})$ khả tích đối với $\mu_X \otimes (\Lambda^{-1} \cdot \mu_Y)$, hoặc cũng vậy rằng hàm $(x, y) \mapsto f(xy^{-1}) \Delta_G(y)^{-1}$ khả tích đối với $\mu_X \otimes \mu_Y$, hoặc cũng vậy rằng hàm $(x, y) \mapsto f(xy) \Delta_G(y) \Delta_Y(y)^{-1}$ khả tích đối với $\mu_X \otimes \mu_Y$. Công thức (23) suy ra từ một lập luận tương tự.
 
-#### Mệnh đề 14 {#int-vii-s2-prop-14 .statement}
+#### Mệnh đề 14 {#int-vii-s2-prop-14 .statement tag=09G8}
 
 — Giả sử các điều kiện của Mệnh đề 13 được thỏa mãn và, ngoài ra, Y là chuẩn tắc.
 
@@ -929,7 +929,7 @@ $$
 
 do đó b).
 
-#### Nhận xét {#int-vii-s2-n9-rem-1 .statement}
+#### Nhận xét {#int-vii-s2-n9-rem-1 .statement tag=09G9}
 
 Mệnh đề 14 áp dụng, đặc biệt, khi G là tích nửa trực tiếp tôpô của X bởi Y (GT, III, §2, No. 10). Trong trường hợp này, $Z = \{e\}$ và $\Omega = G$. Vì $yx = xi_x(y)$ với $x \in X,\ y \in Y$, độ đo $\mu_G$ cũng là, tới một nhân tử hằng, ảnh của $(\operatorname{mod}\ i_x)\mu_X \otimes \mu_Y$ dưới ánh xạ $(x, y) \mapsto yx$ của $X \times Y$ vào G.
 
@@ -937,11 +937,11 @@ Mệnh đề 14 áp dụng, đặc biệt, khi G là tích nửa trực tiếp t
 
 Cho X là một không gian compact địa phương, H là một nhóm rời rạc tác động liên tục và đúng trên X ở phía phải. Cho $\pi$ là ánh xạ chính tắc của X lên $X/H$. Với mọi $x \in X$, ta ký hiệu $H_x$ là nhóm ổn định của $x$ trong H; đây là một nhóm con hữu hạn của H (GT, III, §4, No. 2, Mệnh đề 4); cấp của nó sẽ được ký hiệu là $n(x)$. Với mọi $s \in H,\ H_{xs} = s^{-1}H_x s$, do đó $n(xs) = n(x)$. Tồn tại một lân cận mở U của x sao cho $U \cap Us = \varnothing$ đối với $s \notin H_x$ (loc. cit., No. 4, chứng minh của Mệnh đề 8); với $y \in U$, ta có $H_y \subset H_x$; vì thế hàm $n$ trên X là nửa liên tục trên. Khi X đếm được ở vô cực, H là đếm được; thật vậy, cho $(K_1, K_2, \ldots)$ là một phủ của X bởi một dãy các tập con compact, và cho $x_0 \in X$; tập hợp các $s \in H$ sao cho $x_0 s \in K_i$ là hữu hạn (*loc. cit.*, No. 5, Định lý 1), do đó có mệnh đề của chúng tôi.
 
-#### Định nghĩa 2 {#int-vii-s2-def-2 .statement}
+#### Định nghĩa 2 {#int-vii-s2-def-2 .statement tag=09GA}
 
 *Cho $F \subset X$. Ta nói rằng $F$ là một miền cơ bản (cho $H$) nếu hạn chế của $\pi$ lên $F$ là một song ánh của $F$ lên $X/H$* (nói cách khác, $F$ là một *hệ đại diện* cho quan hệ tương đương do H xác định).
 
-#### Bổ đề 8 {#int-vii-s2-lem-8 .statement}
+#### Bổ đề 8 {#int-vii-s2-lem-8 .statement tag=09GB}
 
 — *Cho $F$ là một miền cơ bản. Với mọi $x \in X$,*
 $$
@@ -955,7 +955,7 @@ $$
 $$
 do đó (24).
 
-#### Mệnh đề 15 {#int-vii-s2-prop-15 .statement}
+#### Mệnh đề 15 {#int-vii-s2-prop-15 .statement tag=09GC}
 
 *Giả sử rằng X đếm được ở vô cực. Cho $\mu$ là một độ đo $\geq 0$ trên X. Cho F là một miền cơ bản sao cho $Fs$ là $\mu$-đo được với mọi $s \in H$. Cho f là một hàm khả tích theo $\mu$ trên X, với giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$. Khi đó họ của các*
 $$
@@ -972,7 +972,7 @@ $$
 $$
 theo Bổ đề 8. Bổ đề 8 cũng chứng minh rằng $\sum_{s \in A} n^{-1} f \varphi_{Fs}$ hội tụ điểm tới $f$ đối với tập có hướng tăng của các tập con hữu hạn của H. Mệnh đề 15 suy ra từ Ch. IV, §4, No. 3, Định lý 2.
 
-#### Định lý 4 {#int-vii-s2-thm-4 .statement}
+#### Định lý 4 {#int-vii-s2-thm-4 .statement tag=09GD}
 
 *Cho X là một không gian compact địa phương đếm được ở vô cực, H là một nhóm rời rạc tác động liên tục và đúng trên X ở phía phải, $\pi$ là ánh xạ chính tắc của X lên X/H, $\mu$ là một độ đo dương trên X bất biến dưới H, $\beta$ là độ đo Haar chuẩn hóa của H, và $\lambda = \mu/\beta$. Cho F là một miền cơ bản đo được theo $\mu$.
 
@@ -1004,7 +1004,7 @@ $$
 
 Điều đó chứng minh a). Mệnh đề b) được chứng minh tương tự. Mệnh đề c) có thể suy ra từ a) và từ Ch. V, §4, Mệnh đề 3 và Định lý 2.
 
-#### Hệ quả {#int-vii-s2-n10-cor-1 .statement}
+#### Hệ quả {#int-vii-s2-n10-cor-1 .statement tag=09GE}
 
 - Chúng ta giữ các giả thiết và ký hiệu của Định lý 4. Cho F' là một miền cơ sở thứ hai đo được theo μ. Cho u là một hàm trên X, nhận giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$, bất biến theo H. Giả sử u khả tích theo μ trên F. Khi đó u khả tích theo μ trên F' và
 

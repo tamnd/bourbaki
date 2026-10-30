@@ -36,7 +36,7 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: 1c0c393dccfb13721b5448d42d9995dd58b7135d4ae2dcb70f1b5eea478f01a2
+content_sha256: 0f246f55d48c4da0d38c2c4b667b49ee6d3136e873ec22d954a47b6749c530df
 translated_from: content/en-mt/alg/IX/06_s6_proprietes_speciales_aux_formes.md
 source_lang: en-mt
 translation_method: machine
@@ -52,7 +52,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các cơ sở trực giao.
 
-#### Định nghĩa 1 {#alg-ix-s6-def-1 .statement}
+#### Định nghĩa 1 {#alg-ix-s6-def-1 .statement tag=0DLE}
 
 Cho $\Phi$ là một dạng Hermit trên $E$. Một cơ sở $(e_i)$ của $E$ được gọi là trực giao đối với $\Phi$ nếu hai phần tử bất kỳ của cơ sở này là trực giao đối với $\Phi$.
 
@@ -63,13 +63,13 @@ $$
 \Phi(\sum_i \xi_i e_i, \sum_i \eta_i e_i) = \sum_i \xi_i \alpha_i \overline{\eta_i}.
 $$
 
-#### Bổ đề 1 {#alg-ix-s6-lem-1 .statement}
+#### Bổ đề 1 {#alg-ix-s6-lem-1 .statement tag=0DLF}
 
 Giả sử rằng $A$ là một trường và $\Phi$ là một dạng Hermit $\neq 0$ trên $E$. Nếu mọi vectơ của $E$ đều đẳng hướng, $A$ là một trường giao hoán có đặc số 2, phản tự đẳng cấu $J$ là đồng nhất và $\Phi$ là phản xứng.
 
 Thật vậy, bằng cách khai triển $\Phi(x + y, x + y) = 0$, xét đến các giả thiết $\Phi(x, x) = \Phi(y, y) = 0$, ta thu được quan hệ $\Phi(x, y) = -\overline{\Phi(x, y)}$ với $x, y$ tùy ý trong $E$. Vì $\Phi$ là $\neq 0$, tồn tại $x, y$ trong $E$ sao cho $\Phi(x, y) = 1$. Viết rằng $\Phi(\lambda x, y) = -\Phi(\lambda x, y)$, ta thu được $\overline{\lambda} = -\lambda$ với mọi $\lambda \in A$. Trước hết lấy $\lambda = 1$, ta thấy rằng $A$ có đặc số 2; khi đó quan hệ $\overline{\lambda} = -\lambda$ chỉ ra rằng $J$ là đồng nhất, do đó $A$ là giao hoán và $\Phi$ là phản xứng.
 
-#### Định lý 1 {#alg-ix-s6-thm-1 .statement}
+#### Định lý 1 {#alg-ix-s6-thm-1 .statement tag=0DLG}
 
 Giả sử rằng $A$ là một trường và $E$ là một không gian vectơ hữu hạn chiều có chiều $n$ trên $A$. Khi đó, với mọi dạng Hermit $\Phi$ trên $E$, $E$ có một cơ sở trực giao, trừ khi đồng thời thỏa mãn các điều kiện sau:
 
@@ -79,17 +79,17 @@ Ta lập luận bằng quy nạp theo $n$, kết quả là hiển nhiên đối 
 
 Khi (C) thỏa mãn, hiển nhiên không có cơ sở trực giao nào đối với $\Phi$.
 
-#### Hệ quả 1 {#alg-ix-s6-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-ix-s6-thm-1-cor-1 .statement tag=0DLH}
 
 *Các ký hiệu là những ký hiệu của định lý 1, giả sử thêm rằng (C) không thỏa mãn, rằng $\Phi$ không suy biến và rằng, với mọi $x \in \mathbf{E}$, tồn tại $\rho \in \mathbf{A}$ sao cho $\Phi(x, x) = \rho \bar{\rho}$. Khi đó $\mathbf{E}$ có một cơ sở trực chuẩn đối với $\Phi$*.
 
 Quả vậy, giả sử $(e_i)$ ($i = 1, \ldots, n$) là một cơ sở trực giao của $\mathbf{E}$. Đặt $\Phi(e_i, e_i) = \alpha_i$. Ta có $\alpha_i \neq 0$ với $i = 1, \ldots, n$ vì $\Phi$ không suy biến. Theo giả thiết, tồn tại các phần tử $\beta_i$ của $\mathbf{A}$ sao cho $\alpha_i = \beta_i \overline{\beta_i}$ với $i = 1, \ldots, n$; ta có $\beta_i \neq 0$. Khi đặt $f_i = \beta_i^{-1} e_i$, ta có $\Phi(f_i, f_i) = \beta_i^{-1} \alpha_i \overline{\beta_i^{-1}} = 1$ với mọi $i$, và $\Phi(f_i, f_j) = 0$ với $i \neq j$. Do đó $(f_i)$ là một cơ sở trực chuẩn.
 
-#### Nhận xét {#alg-ix-s6-n1-rem-1 .statement}
+#### Nhận xét {#alg-ix-s6-n1-rem-1 .statement tag=0DLI}
 
 Giả thiết cuối cùng của hệ quả được thỏa mãn khi $\mathbf{J}$ là đồng nhất, và mọi phần tử của $\mathbf{A}$ là bình phương của một phần tử của $\mathbf{A}$ (chẳng hạn khi $\mathbf{A}$ đóng đại số).
 
-#### Hệ quả 2 {#alg-ix-s6-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-ix-s6-thm-1-cor-2 .statement tag=0DLJ}
 
 *Cho $\mathbf{A}$ là một trường và $R$ là một ma trận Hermit cấp $n$ và hạng $r$ trên $\mathbf{A}$. Khi điều kiện sau đây không được thỏa mãn:
 
@@ -109,7 +109,7 @@ $$
 
 trong đó $\overline{\alpha}_i = \alpha_i \neq 0$ với $i = 1, \ldots, r$.
 
-#### Mệnh đề 1 {#alg-ix-s6-prop-1 .statement}
+#### Mệnh đề 1 {#alg-ix-s6-prop-1 .statement tag=0DLK}
 
 *Giả sử $A$ là một trường giao hoán. Cho $\Phi$ là một dạng Hermit trên $E$, và cho $(x_n)$ ($n = 1, 2, \ldots$) là một dãy (hữu hạn hoặc vô hạn) các vectơ độc lập tuyến tính của $E$ sao cho, với mọi $n$, không gian con $E_n = Ax_1 + \cdots + Ax_n$ là không đẳng hướng. Cho $D_{jn}$ ($j \leq n$) là phần bù đại số của $\Phi(x_j, x_n)$ trong ma trận $(\Phi(x_s, x_t))_{(s,t=1,\ldots,n)}$. Khi đó $D_{nn} \neq 0$ với mọi $n$. Đặt*
 
@@ -142,7 +142,7 @@ $$
 
 Với ký hiệu của mệnh đề 1, ta nói rằng dãy $(e_n)$ thu được từ dãy $(x_n)$ bằng quy trình trực giao hóa Gram-Schmidt.
 
-#### Mệnh đề 2 {#alg-ix-s6-prop-2 .statement}
+#### Mệnh đề 2 {#alg-ix-s6-prop-2 .statement tag=0DLL}
 
 Cho $\Phi$ là một dạng Hermit trên $E$, và cho $(e_i)$ $(i = 1, \ldots, n)$ là một cơ sở trực giao (tương ứng, trực chuẩn) của $E$ đối với $\Phi$. Khi đó, với mọi $p \geqslant 0$, cơ sở của $\bigotimes^p E$ được tạo bởi các $e_{i_1} \otimes \cdots \otimes e_{i_p}$ và cơ sở $(e_H)$ của $\wedge^p E$ (trong đó $H$ chạy qua tập hợp các phần có $p$ phần tử của $\{1, n\}$; cf. chap. III, § 5, no. 6) là trực giao (tương ứng, trực chuẩn) đối với các mở rộng của $\Phi$ lên $\bigotimes^p E$ và $\wedge^p E$ tương ứng ($§ 1$, no. 9). Hơn nữa, nếu các ánh xạ liên kết với $\Phi$ là song ánh, cơ sở $(e'_i)$ của $E^*$ đối ngẫu với $(e_i)$ là trực giao (tương ứng, trực chuẩn) đối với dạng nghịch đảo $\widehat{\Phi}$ của $\Phi$ ($§ 1$, no. 7).
 
@@ -172,7 +172,7 @@ $$
 
 và, vì A là giao hoán, đó là một điều kiện cần và đủ để $U$ là một ma trận trực giao.
 
-#### Mệnh đề 3 {#alg-ix-s6-prop-3 .statement}
+#### Mệnh đề 3 {#alg-ix-s6-prop-3 .statement tag=0DLM}
 
 *Giả sử rằng A là một trường giao hoán và rằng E có số chiều hữu hạn $> 0$. Cho $\Phi$ là một dạng Hermit không suy biến trên E. Ánh xạ $u \to \det u$ là một đồng cấu của nhóm unita $\mathbf{U}(\Phi)$ liên kết với $\Phi$ lên nhóm con nhân H của A tạo bởi các phần tử $\rho$ sao cho $\rho \overline{\rho} = 1$ (nhóm con thu gọn thành $\{1, -1\}$ khi J là đơn vị).*
 
@@ -188,7 +188,7 @@ Nếu $E = A^n$ và $\Phi$ là dạng mà ma trận của nó đối với cơ s
 
 Trong suốt No. này, ta giả sử rằng vô hướng 2 là khả nghịch trong $A$ (chẳng hạn, rằng $A$ là một trường có đặc số $\neq 2$), và rằng $\Phi$ là một dạng Hermit không suy biến trên $E$. Ta ký hiệu nghịch đảo của 2 bởi $\frac{1}{2}$.
 
-#### Bổ đề 2 {#alg-ix-s6-lem-2 .statement}
+#### Bổ đề 2 {#alg-ix-s6-lem-2 .statement tag=0DLN}
 
 Để một tự đồng cấu $u$ của $E$ thỏa mãn $u^2 = 1$, điều kiện cần và đủ là $\frac{1}{2}(1 - u)$ là một phép chiếu trong $E$; khi đó $u$ là hiệu của hai phép chiếu $\frac{1}{2}(1 + u)$ và $\frac{1}{2}(1 - u)$.
 
@@ -196,7 +196,7 @@ Thật vậy, trong vành $\mathscr{L}(E)$, quan hệ $\left( \frac{1}{2}(1 - u)
 
 Một tự đồng cấu $u$ của $E$ sao cho $u^2 = 1$ (khi đó tất nhiên là một tự đẳng cấu của $E$ bằng với nghịch đảo của nó) được gọi là một phép đối hợp. Đặt $\varphi = \frac{1}{2}(1 - u)$, $U^- = \varphi(E)$, $U^+ = \varphi^{-1}(0)$ ($= \omega(E)$ khi đặt $\omega = \frac{1}{2}(1 + u)$); ta biết rằng $E$ là tổng trực tiếp của $U^+$ và $U^-$ (Chương VIII, § 1, No. 1), và ta có $u(x) = x$ trong $U^+$, $u(x) = -x$ trong $U^-$. Khi $A$ là một trường và $E$ là hữu hạn chiều, suy ra, vì $A$ có đặc số $\neq 2$, rằng các vectơ riêng duy nhất $\neq 0$ của $u$ là các phần tử ≠ 0 trong U^+ hoặc trong U^-; chúng tương ứng lần lượt với các giá trị riêng + 1 và -1.
 
-#### Mệnh đề 4 {#alg-ix-s6-prop-4 .statement}
+#### Mệnh đề 4 {#alg-ix-s6-prop-4 .statement tag=0DLO}
 
 Cho u ∈ GL(E) là một phép đối hợp. Các tính chất sau là tương đương:
 a) u thuộc nhóm unita liên kết với Φ ;
@@ -207,7 +207,7 @@ c) u = u*.
 Thật vậy, với x ∈ U^+ và y ∈ U^-, quan hệ $\Phi(u(x), u(y)) = \Phi(x, y)$
 cho $2\Phi(x, y) = 0$, do đó a) kéo theo b). Ngược lại, hiển nhiên ta có $\Phi(u(x), u(y)) = \Phi(x, y)$ khi x và y cùng thuộc U^+ hoặc cùng thuộc U^-, và, theo b), quan hệ này vẫn đúng khi một trong hai phần tử thuộc U^+ và phần tử kia thuộc U^-; vì E là tổng trực tiếp của U^+ và U^-, ta thấy rằng b) kéo theo a). Cuối cùng, khi E là một không gian vectơ hữu hạn chiều, tự đồng cấu liên hợp u* được xác định vì Φ không suy biến; quan hệ a) tương đương với $uu^* = 1$ (§ 1, No. 8, hệ quả của mệnh đề 8); vì $u^2 = 1$ theo giả thiết, a) và c) là tương đương.
 
-#### Hệ quả 1 {#alg-ix-s6-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-ix-s6-prop-4-cor-1 .statement tag=0DLP}
 
 Giả sử rằng A là một trường và rằng E là hữu hạn chiều. Ánh xạ $u \to \frac{1}{2}(1 + u)(E)$ là một song ánh từ tập hợp các phép đối hợp u thuộc nhóm unita liên kết với Φ lên tập hợp các không gian con không đẳng hướng của E; không gian con U^+ tương ứng với u là tập hợp các phần tử của E bất biến dưới u.
 
@@ -215,7 +215,7 @@ Theo mệnh đề 4, chỉ cần chứng minh rằng mọi không gian con khôn
 
 Ta nói rằng phép đối hợp $u$ được xác định như vậy là phép đối xứng đối với không gian con không đẳng hướng M.
 
-#### Hệ quả 2 {#alg-ix-s6-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-ix-s6-prop-4-cor-2 .statement tag=0DLQ}
 
 Giả sử rằng $\mathbf{A}$ là một trường và rằng $\mathbf{E}$ là hữu hạn chiều. Để một phép chiếu $\nu$ trong $\mathbf{E}$ có tính chất rằng $\nu(\mathbf{E})$ và $\nu(0)$ trực giao (và do đó không đẳng hướng), điều kiện cần và đủ là $\nu = \nu^*$.
 
@@ -241,7 +241,7 @@ $$
 
 Cần lưu ý rằng vế cuối của (6) vẫn có nghĩa khi $\mathbf{A}$ là một trường có đặc số 2, và $a$ là một vectơ không suy biến của $\mathbf{E}$; ta kiểm tra ngay lập tức rằng khi đó vẫn có $Q(u(x)) = Q(x)$ với mọi $x \in \mathbf{E}$, nói cách khác $u \in \mathbf{O}(Q)$. Phép đối hợp $u$ được xác định như vậy lại được gọi là phép đối xứng đối với siêu phẳng vuông góc với $a$ (xem Bài tập 28).
 
-#### Mệnh đề 5 {#alg-ix-s6-prop-5 .statement}
+#### Mệnh đề 5 {#alg-ix-s6-prop-5 .statement tag=0DLR}
 
 Giả sử không gian vectơ $\mathbf{E}$ có số chiều hữu hạn n. Nhóm trực giao $\mathbf{O}(Q)$ liên kết với $Q$ khi đó được sinh bởi các phép đối xứng đối với các siêu phẳng không đẳng hướng của $\mathbf{E}$.
 
@@ -292,7 +292,7 @@ Cho A là một trường giao hoán và Q là một dạng toàn phương $\neq
 
 ### 6. Hình học Hermit.
 
-#### Định nghĩa 2 {#alg-ix-s6-def-2 .statement}
+#### Định nghĩa 2 {#alg-ix-s6-def-2 .statement tag=0DLS}
 
 Cho A là một trường, L là một không gian affine trên A và T là không gian các phép tịnh tiến của L (Chương II, ấn bản thứ 2, Phụ lục II). Nếu T được trang bị một dạng Hermit không suy biến $\Phi$, thì L được gọi là một không gian Hermit trên A, và $\Phi$ là dạng metric của L.
 
@@ -304,7 +304,7 @@ Hai đa tạp tuyến tính của L được gọi là trực giao nếu các ph
 
 Cho V là một đa tạp tuyến tính trong L, và $x$ là một điểm của L. Tập hợp các điểm $y$ của L sao cho $y - x$ trực giao với V là một đa tạp tuyến tính W đi qua $x$; W được gọi là đa tạp trực giao toàn phần (hoặc, đơn giản hơn, đa tạp trực giao) với V đi qua x. Nếu L có số chiều hữu hạn, chiều của W bằng đối chiều của V. Hơn nữa, nếu V không đẳng hướng, các phương của V và W là bù nhau (§ 4, No. 1, hệ quả của mệnh đề 1); khi đó W cắt V tại một điểm duy nhất $x_1$; lấy một gốc trong V, ta thấy ngay rằng, với V cố định, ánh xạ $x \to x_1$ là một ánh xạ tuyến tính lũy đẳng affine; nó được gọi là phép chiếu trực giao của L lên V; ánh xạ tuyến tính liên kết với nó (Chương II, ấn bản thứ 2, Phụ lục II, No. 4) là phép chiếu trực giao của T lên phương của V (No. 3).
 
-#### Định nghĩa 3 {#alg-ix-s6-def-3 .statement}
+#### Định nghĩa 3 {#alg-ix-s6-def-3 .statement tag=0DLT}
 
 Cho L là một không gian Hermit trên một trường A, T là không gian các phép tịnh tiến của L. Một phép dịch chuyển (tương ứng phép đồng dạng) của L là một song ánh affine $u$ của L lên L sao cho ánh xạ tuyến tính $\varphi$ liên kết với $u$ trong T (Chương II, ấn bản thứ 2, Phụ lục II, No. 4) là unita (tương ứng là một phép đồng dạng).
 
@@ -312,7 +312,7 @@ Nhóm các phép tịnh tiến là một nhóm con chuẩn tắc của nhóm aff
 
 Cho $u$ là một phép vị tự trong L, $\varphi$ là phép vị tự liên kết trong T. Nhân tử của $\varphi$ cũng được gọi là nhân tử của $u$ (No. 5). Nếu nhân tử này được ký hiệu bởi $\alpha(u)$, ánh xạ $u \to \alpha(u)$ là một đồng cấu của nhóm các phép vị tự của L vào nhóm nhân của các phần tử khả nghịch của tâm của A; hạt nhân của nó là nhóm các phép tịnh tiến, do đó là một nhóm con chuẩn tắc của nhóm các phép vị tự. Khi A giao hoán và L có số chiều hữu hạn, giữa định thức det $u$ (bằng theo định nghĩa với det $\varphi$) và $\alpha(u)$ có cùng các quan hệ như trong No. 5. Các phép tịnh tiến $u$ sao cho det $u = 1$ tạo thành một nhóm con chuẩn tắc của nhóm các phép tịnh tiến; nhóm con này có chỉ số 2 nếu A là một trường giao hoán có đặc số $\neq 2$ và J là đồng nhất.
 
-#### Mệnh đề 6 {#alg-ix-s6-prop-6 .statement}
+#### Mệnh đề 6 {#alg-ix-s6-prop-6 .statement tag=0DLU}
 
 *Cho L là một không gian Hermit hữu hạn chiều trên A, có dạng metric có chỉ số 0. Mọi phép vị tự u của L, với nhân tử $\mu \neq 1$, khi đó nhận đúng một điểm bất động.*
 

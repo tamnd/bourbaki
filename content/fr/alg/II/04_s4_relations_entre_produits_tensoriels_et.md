@@ -29,7 +29,7 @@ subsections:
       pdf_page: 256
 statements: 15
 exercises: 9
-content_sha256: 842e7d7a56be95f40e0af26c55e8df269080f7d1ff3b15f1df5758a7197aabfe
+content_sha256: 62f99cd917f2475d97fa1a824b30c8a129857ec93ac3746567c05038c1ecd7a6
 ---
 
 ## § 4. RELATIONS ENTRE PRODUITS TENSORIELS ET MODULES D’HOMOMORPHISMES
@@ -82,7 +82,7 @@ pour $x \in E, y \in F, \gamma \in C$.
 
 On a donc établi le résultat suivant (avec les notations introduites ci-dessus) :
 
-#### Proposition 1 {#alg-ii-s4-prop-1 .statement}
+#### Proposition 1 {#alg-ii-s4-prop-1 .statement tag=05PP}
 
 a) *Soient E un (B, A)-bimodule, F un A-module à gauche, G un B-module à gauche. Pour toute application $g \in \mathrm{Hom}_B(E \otimes_A F, G)$, soit $g'$ l’application de F dans $\mathrm{Hom}_B(E, G)$ définie par $(g'(y))(x) = g(x \otimes y)$ pour $x \in E, y \in F$. L’application $g \mapsto g'$ est un isomorphisme*
 
@@ -106,7 +106,7 @@ $$
 
 sont canoniquement isomorphes au $\Gamma$-module des applications $\Gamma$-*bilinéaires* de $E \times F$ dans G qui vérifient (1) (II, p. 73). Plus particulièrement :
 
-#### Corollaire {#alg-ii-s4-n0-cor-1 .statement}
+#### Corollaire {#alg-ii-s4-n0-cor-1 .statement tag=0DFR}
 
 *Si C est un anneau commutatif, E, F, G trois C-modules, alors les C-modules*
 
@@ -131,7 +131,7 @@ Pour cela, considérons, pour tout $y \in F$ et tout $u \in \operatorname{Hom}_A
 
 On vérifie aussitôt que si E est un $(A, (C'_i); (D'_j))$-multimodule, F un $(B, (C''_h); (D''_k))$-multimodule, G un $(A, (C'''_l); B, (D'''_m))$-multimodule, l’application (7) est un homomorphisme de $((D'_j), (C''_h), (C'''_l); (C'_i), (D''_k), (D'''_m))$-multimodules.
 
-#### Proposition 2 {#alg-ii-s4-prop-2 .statement}
+#### Proposition 2 {#alg-ii-s4-prop-2 .statement tag=05PR}
 
 (i) *Lorsque F est un B-module projectif* (resp. *projectif de type fini*), *l’homomorphisme canonique* (7) *est injectif* (resp. *bijectif*).
 
@@ -139,7 +139,7 @@ On vérifie aussitôt que si E est un $(A, (C'_i); (D'_j))$-multimodule, F un $(
 
 (i) Fixons E et G, et pour tout B-module à gauche F, posons $T(F) = \operatorname{Hom}_A(E, G) \otimes_B F$, $T'(F) = \operatorname{Hom}_A(E, G \otimes_B F)$; pour tout homomorphisme $u : F \to F'$ de B-modules à gauche, posons $T(u) = 1 \otimes u$ (1 désignant ici l’application identique de $\operatorname{Hom}_A(E, G)$), $T'(u) = \operatorname{Hom}(1_E, 1_G \otimes u)$; écrivons d’autre part $\nu_F$ au lieu de $\nu$. On a alors les lemmes suivants:
 
-#### Lemme 1 {#alg-ii-s4-lem-1 .statement}
+#### Lemme 1 {#alg-ii-s4-lem-1 .statement tag=05PS}
 
 *Pour tout homomorphisme* $u : F \to F'$, *le diagramme*
 
@@ -156,7 +156,7 @@ $$
 
 La vérification est immédiate.
 
-#### Lemme 2 {#alg-ii-s4-lem-2 .statement}
+#### Lemme 2 {#alg-ii-s4-lem-2 .statement tag=05PT}
 
 *Soient M, N deux sous-modules supplémentaires dans F, et soient i : M \to F, j : N \to F les injections canoniques. Le diagramme*
 
@@ -173,7 +173,7 @@ $$
 
 La commutativité résulte du lemme 1; les autres assertions, de II, p. 13, cor. 2 et de II, p. 61, prop. 7.
 
-#### Lemme 3 {#alg-ii-s4-lem-3 .statement}
+#### Lemme 3 {#alg-ii-s4-lem-3 .statement tag=05PU}
 
 Sous les hypothèses du lemme 2, pour que $\nu_F$ soit injective (resp. surjective), il faut et il suffit que $\nu_M$ et $\nu_N$ le soient.
 
@@ -183,7 +183,7 @@ Cela étant, le lemme 3, joint à II, p. 39, prop. 4, montre qu’il suffit de c
 
 (ii) Pour démontrer la proposition lorsque E est projectif et de type fini, fixons cette fois F et G, et posons, pour tout A-module à gauche E, $T(E) = \mathrm{Hom}_A(E, G) \otimes_B F$, $T'(E) = \mathrm{Hom}_A(E, G \otimes_B F)$, et pour tout homomorphisme $v : E \to E'$ de A-modules à gauche, $T(v) = \mathrm{Hom}(v, 1_G) \otimes 1_F$, $T'(v) = \mathrm{Hom}(v, 1_G \otimes 1_F)$; écrivons d’autre part $\nu_E$ au lieu de $\nu$. On a alors les deux lemmes:
 
-#### Lemme 4 {#alg-ii-s4-lem-4 .statement}
+#### Lemme 4 {#alg-ii-s4-lem-4 .statement tag=05PV}
 
 Pour tout homomorphisme $v : E \to E'$, le diagramme
 
@@ -199,7 +199,7 @@ $$
 
 est commutatif.
 
-#### Lemme 5 {#alg-ii-s4-lem-5 .statement}
+#### Lemme 5 {#alg-ii-s4-lem-5 .statement tag=05PW}
 
 Soient M et N deux sous-modules supplémentaires dans E, et soient $p : E \to M$, $q : E \to N$ les projections canoniques. Le diagramme
 
@@ -241,7 +241,7 @@ $$
 
 soit tel que $1_E$ *appartienne à l’image de* $\theta_E$.
 
-#### Corollaire {#alg-ii-s4-n2-cor-1 .statement}
+#### Corollaire {#alg-ii-s4-n2-cor-1 .statement tag=05PX}
 
 (i) *Lorsque* $F$ *est un module projectif* (resp. *projectif de type fini*), *l’homomorphisme canonique* (11) *est injectif* (resp. *bijectif*).
 
@@ -302,7 +302,7 @@ $$
 $$
 pour $u, v$ dans $\operatorname{End}_C(E)$ et $\gamma \in C$. En outre:
 
-#### Proposition 3 {#alg-ii-s4-prop-3 .statement}
+#### Proposition 3 {#alg-ii-s4-prop-3 .statement tag=05PY}
 
 *Soient $C$ un anneau commutatif, $E, F$ deux $C$-modules projectifs de type fini, $u : E \to F$ et $v : F \to E$ deux applications linéaires; on a alors*
 $$
@@ -315,7 +315,7 @@ $$
 $$
 dans $C$ sont $C$-bilinéaires; il suffit donc de vérifier (20) lorsque $u$ est de la forme $x \mapsto \langle x, a^*\rangle b$ et $v$ de la forme $y \mapsto \langle y, b^*\rangle a$, avec $a \in E, a^* \in E^*, b \in F, b^* \in F^*$. Mais alors $v \circ u$ est l’application $x \mapsto \langle x, a^*\rangle \langle b, b^*\rangle a$ et $u \circ v$ l’application $y \mapsto \langle y, b^*\rangle \langle a, a^*\rangle b$. La formule (17) montre que les valeurs des deux membres de (20) sont égales à $\langle a, a^*\rangle \langle b, b^*\rangle$.
 
-#### Corollaire {#alg-ii-s4-n3-cor-1 .statement}
+#### Corollaire {#alg-ii-s4-n3-cor-1 .statement tag=05PZ}
 
 *Si $u_1, \ldots, u_p$ sont des endomorphismes de $E$, on a*
 $$
@@ -338,7 +338,7 @@ $$
 Soient $C$ un anneau *commutatif*, $E_1, E_2, F_1, F_2$ quatre $C$-modules; on a défini dans II, p. 57, formule (13), un homomorphisme canonique de $C$-modules
 $$(21)\quad \lambda : \mathrm{Hom}(E_1, F_1) \otimes \mathrm{Hom}(E_2, F_2) \to \mathrm{Hom}(E_1 \otimes E_2, F_1 \otimes F_2).$$
 
-#### Proposition 4 {#alg-ii-s4-prop-4 .statement}
+#### Proposition 4 {#alg-ii-s4-prop-4 .statement tag=05Q0}
 
 *Lorsque l’un des couples $(E_1, E_2), (E_1, F_1), (E_2, F_2)$ est formé de $C$-modules projectifs de type fini, l’homomorphisme canonique (21) est bijectif*.
 
@@ -396,11 +396,11 @@ $$
 
 est *commutatif*.
 
-#### Corollaire 1 {#alg-ii-s4-prop-4-cor-1 .statement}
+#### Corollaire 1 {#alg-ii-s4-prop-4-cor-1 .statement tag=05Q1}
 
 *Si l’un des modules E, F est projectif et de type fini, l’homomorphisme canonique (23) est bijectif.*
 
-#### Corollaire 2 {#alg-ii-s4-prop-4-cor-2 .statement}
+#### Corollaire 2 {#alg-ii-s4-prop-4-cor-2 .statement tag=05Q2}
 
 *Soient E_1, E_2 deux C-modules projectifs de type fini, u_1 un endomorphisme de E_1, u_2 un endomorphisme de E_2; on a alors*
 
@@ -416,7 +416,7 @@ $$
 
 $x_1^* \otimes x_2^*$ étant canoniquement identifié par $\mu$ à un élément de $(E_1 \otimes E_2)^*$. Comme $\langle y_1 \otimes y_2, x_1^* \otimes x_2^* \rangle = \langle y_1, x_1^* \rangle \langle y_2, x_2^* \rangle$, la formule (26) résulte dans ce cas de (17) (II, p. 78).
 
-#### Remarque {#alg-ii-s4-n4-rem-1 .statement}
+#### Remarque {#alg-ii-s4-n4-rem-1 .statement tag=05Q3}
 
 Si $E, F, G$ sont trois $C$-modules quelconques, on vérifie aussitôt que le diagramme
 

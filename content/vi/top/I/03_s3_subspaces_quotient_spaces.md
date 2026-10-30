@@ -36,9 +36,9 @@ subsections:
       pdf_page: 48
 statements: 24
 exercises: 16
-content_sha256: 0e35618dc36551879b63884ab9316801ce880598ecf6fe5fb144b3db1dc65a65
+content_sha256: e3f1f68f2c4afd2d56deb3c382017e5af67c8108a7cdc028905a9e3dcc0d9537
 translated_from: content/en/top/I/03_s3_subspaces_quotient_spaces.md
-source_content_sha256: 701b57c60837dd6273a85b4fc7d1f2929f10f7b5759a0443b9c7c174a16071c5
+source_content_sha256: 49505713ae8eafd390ab9e7460fda1c5af09d0a5526d97705cb0bdc2a371a4da
 translation_model: gpt-5.4
 translation_run: translate-vi-254c0b55
 glossary_version: 34
@@ -52,11 +52,11 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho $A$ là một tập con của một không gian tôpô $X$. Ta đã định nghĩa *tôpô cảm sinh* trên $A$ bởi tôpô của $X$ là ảnh ngược của tôpô sau qua đơn ánh chính tắc $A \to X$ (§ 2, no. 3, Ví dụ 1). Một định nghĩa tương đương như sau:
 
-#### Định nghĩa 1 {#top-i-s3-def-1 .statement}
+#### Định nghĩa 1 {#top-i-s3-def-1 .statement tag=0B13}
 
 Cho $A$ là một tập con của một không gian tôpô $X$. Tôpô cảm sinh trên $A$ bởi tôpô của $X$ là tôpô trong đó các tập mở là các giao với $A$ của các tập mở của $X$. Tập hợp $A$ với tôpô này được gọi là một không gian con của $X$.
 
-#### Ví dụ {#top-i-s3-n1-exa-1 .statement}
+#### Ví dụ {#top-i-s3-n1-exa-1 .statement tag=0B14}
 
 Tôpô cảm sinh trên tập hợp $\mathbf{Z}$ các số nguyên bởi tôpô của đường thẳng hữu tỉ là tôpô rời rạc, vì giao của $\mathbf{Z}$ với khoảng mở $]n - 1/2, n + 1/2[$ là tập hợp $\{ n \}$.
 
@@ -70,25 +70,25 @@ Các tập hợp đóng trong $A$ là các giao với $A$ của những tập h�
 
 Các lân cận của một điểm $x \in A$ tương đối với $A$ là các giao với $A$ của những lân cận của $x$ tương đối với $X$. Mọi lân cận của $x$ tương đối với $A$ đều là một lân cận của $x$ tương đối với $X$ khi và chỉ khi $A$ là một lân cận của $x$ trong $X$.
 
-#### Mệnh đề 1 {#top-i-s3-prop-1 .statement}
+#### Mệnh đề 1 {#top-i-s3-prop-1 .statement tag=0B15}
 
 Nếu $A$ và $B$ là hai tập con của một không gian tôpô $X$, và $B \subset A$, thì bao đóng của $B$ trong không gian con $A$ là giao với $A$ của bao đóng $\overline{B}$ của $B$ trong $X$.
 
 Nếu $x \in A$, mọi lân cận của $x$ trong $A$ đều có dạng $V \cap A$, trong đó $V$ là một lân cận của $x$ trong $X$. Vì $V \cap B = (V \cap A) \cap B$, suy ra $x$ thuộc bao đóng của $B$ đối với $A$ khi và chỉ khi $x$ thuộc bao đóng của $B$ đối với $X$.
 
-#### Hệ quả {#top-i-s3-n1-cor-1 .statement}
+#### Hệ quả {#top-i-s3-n1-cor-1 .statement tag=0B16}
 
 Một tập con $B$ của $A$ là trù mật trong $A$ khi và chỉ khi $\overline{B} = \overline{A}$ trong $X$ (tức là khi và chỉ khi $A \subset \overline{B}$).
 
 Suy ra rằng nếu $A, B, C$ là ba tập con của $X$ sao cho $A \supset B \supset C$, và nếu $B$ trù mật trong $A$, và $C$ trù mật trong $B$, thì $C$ trù mật trong $A$ (*tính bắc cầu* của mật độ), vì ta có $\overline{A} = \overline{B} = \overline{C}$ trong $X$.
 
-#### Mệnh đề 2 {#top-i-s3-prop-2 .statement}
+#### Mệnh đề 2 {#top-i-s3-prop-2 .statement tag=0B17}
 
 *Cho $A$ là một tập con trù mật của một không gian tôpô $X$; khi đó, với mỗi $x \in A$ và mỗi lân cận $V$ của $x$ đối với $A$, bao đóng $\overline{V}$ của $V$ trong $X$ là một lân cận của $x$ trong $X$.*
 
 Vì $V$ chứa $U \cap A$, trong đó $U$ là một tập con mở của $X$ chứa $x$, nên $\overline{V}$ chứa $U \cap \overline{A} = U$ (§ 1, no. 6, Mệnh đề 5).
 
-#### Mệnh đề 3 {#top-i-s3-prop-3 .statement}
+#### Mệnh đề 3 {#top-i-s3-prop-3 .statement tag=0B18}
 
 *Cho $(A_i)_{i \in I}$ là một họ các tập con của một không gian tôpô $X$, sao cho một trong các tính chất sau được thỏa mãn:
 a) Các phần trong của các $A_i$ phủ $X$.
@@ -100,7 +100,7 @@ Rõ ràng nếu $B$ là mở (tương ứng, đóng) trong $X$, thì $B \cap A_i
 
 Bây giờ giả sử rằng b) được thỏa mãn; lại do tính đối ngẫu, ta chỉ cần xét trường hợp trong đó mỗi $B \cap A_i$ là *đóng* trong $A_i$, và do đó đóng trong $X$. Vì họ $(B \cap A_i)$ là hữu hạn địa phương và $B = \bigcup_i (B \cap A_i)$, nên theo § 1, no. 5, Mệnh đề 4 suy ra $B$ là đóng trong $X$.
 
-#### Nhận xét {#top-i-s3-n1-rem-1 .statement}
+#### Nhận xét {#top-i-s3-n1-rem-1 .statement tag=0B19}
 
 Cho $(U_i)_{i \in I}$ là một phủ *mở* của một không gian tôpô $X$, và với mỗi $i \in I$ cho $\mathfrak{B}_i$ là một *cơ sở* của tôpô của không gian con $U_i$ của $X$; khi đó hiển nhiên là $\mathfrak{B} = \bigcup_{i \in I} \mathfrak{B}_i$ là một *cơ sở* của tôpô của $X$.
 
@@ -114,7 +114,7 @@ Cần lưu ý rằng $f|A$ có thể liên tục mà $f$ lại không liên tụ
 
 Nếu $A$ là một lân cận trong $X$ của một điểm $x \in A$, và nếu $f : X \to Y$ sao cho $f|A$ liên tục tại $x$, thì $f$ liên tục tại $x$; vì mỗi lân cận của $x$ trong $A$ là một lân cận của $x$ trong $X$ (đặc trưng *địa phương* của tính liên tục).
 
-#### Mệnh đề 4 {#top-i-s3-prop-4 .statement}
+#### Mệnh đề 4 {#top-i-s3-prop-4 .statement tag=0B1A}
 
 *Cho* $(A_i)_{i \in I}$ *là một họ các tập con của một không gian tôpô* $X$ *mà các phần trong của chúng phủ* $X$, *hoặc tạo thành một phủ đóng hữu hạn địa phương của* $X$. *Cho* $f$ *là một ánh xạ từ* $X$ *vào một không gian tôpô* $X'$. *Nếu hạn chế của* $f$ *trên mỗi không gian con* $A_i$ *là liên tục, thì* $f$ *là liên tục.*
 
@@ -122,15 +122,15 @@ Thật vậy, nếu $F'$ là một tập con đóng của $X'$ và nếu $F = \o
 
 ### 3. KHÔNG GIAN CON ĐÓNG ĐỊA PHƯƠNG
 
-#### Định nghĩa 2 {#top-i-s3-def-2 .statement}
+#### Định nghĩa 2 {#top-i-s3-def-2 .statement tag=0B1B}
 
 *Một tập con* $L$ *của một không gian tôpô* $X$ *được gọi là địa phương đóng tại một điểm* $x \in L$ *nếu tồn tại một lân cận* $V$ *của* $x$ *trong* $X$ *sao cho* $L \cap V$ *là một tập con đóng của không gian con* $V$. *L được gọi là địa phương đóng trong* $X$ *nếu nó địa phương đóng tại mỗi* $x \in L$.
 
-#### Nhận xét {#top-i-s3-n3-rem-1 .statement}
+#### Nhận xét {#top-i-s3-n3-rem-1 .statement tag=0B1C}
 
 Cho $F$ là một tập con của $X$ sao cho *với mỗi điểm* $x$ *của* $X$ *đều có một lân cận* $V$ *của* $x$ *sao cho* $V \cap F$ *đóng trong không gian con* $V$; *khi đó suy ra từ Mệnh đề 3 của no. 1 rằng* $F$ *đóng trong* $X$. *Mặt khác, Mệnh đề 5 dưới đây cho thấy rằng nói chung có những tập hợp đóng địa phương mà không đóng trong* $X$.
 
-#### Mệnh đề 5 {#top-i-s3-prop-5 .statement}
+#### Mệnh đề 5 {#top-i-s3-prop-5 .statement tag=0B1D}
 
 *Đối với một tập con* $L$ *của một không gian tôpô* $X$, *các tính chất sau là tương đương*:
 
@@ -142,7 +142,7 @@ c) $L$ là mở trong bao đóng của nó $\overline{L}$ trong $X$.
 
 Nếu $L$ đóng địa phương, thì với mỗi $x \in L$, tồn tại một lân cận mở $V_x$ của $x$ trong $X$ sao cho $L \cap V_x$ đóng trong $V_x$; $U = \bigcup_{x \in L} V_x$ mở trong $X$, và Mệnh đề 3 của no. 1 cho thấy rằng $L$ đóng trong $U$; do đó a) suy ra b). Nếu $L = U \cap F$, trong đó $U$ mở và $F$ đóng trong $X$, thì ta có $L \subset F$; vì thế $L \subset U \cap L \subset U \cap F = L$, điều này cho thấy $L = U \cap L$ mở trong $L$, nên b) suy ra c). Sau cùng, nếu $L = U \cap L$, trong đó $U$ mở trong $X$, thì $L$ đóng trong $U$, do đó đóng địa phương, và vì vậy c) suy ra a).
 
-#### Hệ quả {#top-i-s3-n3-cor-1 .statement}
+#### Hệ quả {#top-i-s3-n3-cor-1 .statement tag=0B1E}
 
 *Cho $f : X \to X'$ là một ánh xạ liên tục và $L'$ là một tập con đóng địa phương của $X'$; khi đó $f^{-1}(L')$ là đóng địa phương trong $X$*.
 
@@ -150,7 +150,7 @@ Nếu $L$ đóng địa phương, thì với mỗi $x \in L$, tồn tại một 
 
 ### 4. CÁC KHÔNG GIAN THƯƠNG
 
-#### Định nghĩa 3 {#top-i-s3-def-3 .statement}
+#### Định nghĩa 3 {#top-i-s3-def-3 .statement tag=0B1F}
 
 *Cho $X$ là một không gian tôpô, $R$ là một quan hệ tương đương trên $X$. Không gian thương của $X$ theo $R$ là tập thương $X/R$ được trang bị tôpô là thương của tôpô của $X$ theo quan hệ $R$ (§ 2, no. 4, Ví dụ 1)*.
 
@@ -158,7 +158,7 @@ Trừ khi có nói rõ điều trái lại, mỗi khi ta nói về $X/R$ như m�
 
 Gọi $\varphi$ là ánh xạ chính tắc $X \to X/R$. Theo định nghĩa (§ 2, no. 4, Mệnh đề 6 và hệ quả của nó), các tập mở (tương ứng, đóng) trong $X/R$ là các tập $A$ sao cho $\varphi^{-1}(A)$ mở (tương ứng, đóng) trong $X$; nói cách khác, các tập mở (tương ứng, đóng) trong $X/R$ tương ứng một-một với các tập con mở (tương ứng, đóng) của $X$ bão hòa đối với $R$ và là các ảnh chính tắc của các tập con ấy.
 
-#### Mệnh đề 6 {#top-i-s3-prop-6 .statement}
+#### Mệnh đề 6 {#top-i-s3-prop-6 .statement tag=0B1G}
 
 *Cho $X$ là một không gian tôpô, $R$ là một quan hệ tương đương trên $X$, $\varphi$ là ánh xạ chính tắc từ $X$ lên $X/R$; khi đó một ánh xạ $f$ từ $X/R$ vào một không gian tôpô $Y$ là liên tục khi và chỉ khi $f \circ \varphi$ liên tục trên $X$*.
 
@@ -166,17 +166,17 @@ Gọi $\varphi$ là ánh xạ chính tắc $X \to X/R$. Theo định nghĩa (§ 
 
 Mệnh đề 6 cho thấy rằng có một sự tương ứng một-một giữa các ánh xạ liên tục của $X/R$ vào $Y$ và các ánh xạ liên tục của $X$ vào $Y$ *hằng trên mỗi lớp tương đương mod $R$*.
 
-#### Ví dụ {#top-i-s3-n4-exa-1 .statement}
+#### Ví dụ {#top-i-s3-n4-exa-1 .statement tag=0B1H}
 
 *Xét quan hệ tương đương $x \equiv y \pmod{1}$ trên đường thẳng thực $\mathbf{R}$; không gian thương của $\mathbf{R}$ theo quan hệ này được gọi là *xuyến một chiều* và được ký hiệu bởi $T$. Lớp tương đương của một điểm $x \in \mathbf{R}$ gồm tất cả các điểm $x + n$, trong đó $n$ chạy qua tập hợp $\mathbf{Z}$ các số nguyên. Theo Mệnh đề 6 có một sự tương ứng một-một giữa các hàm liên tục trên $T$ và các hàm liên tục trên $\mathbf{R}$ mà *tuần hoàn* với chu kỳ 1. Chúng ta sẽ trở lại ví dụ quan trọng này trong Chương V, § 1.*
 
-#### Hệ quả {#top-i-s3-n4-cor-1 .statement}
+#### Hệ quả {#top-i-s3-n4-cor-1 .statement tag=0B1I}
 
 *Cho $X, Y$ là hai không gian tôpô, $R$ (tương ứng $S$) là một quan hệ tương đương trên $X$ (tương ứng $Y$), và cho $f : X \to Y$ là một ánh xạ liên tục tương thích với các quan hệ tương đương $R$ và $S$ (Lý thuyết tập hợp R, § 5, no. 8); khi đó ánh xạ $g : X/R \to Y/S$ cảm sinh bởi $f$ (Lý thuyết tập hợp R, § 5, no. 8) là liên tục.*
 
 Đây là một trường hợp riêng của một tính chất tổng quát của các cấu trúc thương (Lý thuyết tập hợp, Chương IV, § 2, no. 6, tiêu chuẩn CST 20).
 
-#### Mệnh đề 7 (Tính bắc cầu của các không gian thương) {#top-i-s3-prop-7 .statement}
+#### Mệnh đề 7 (Tính bắc cầu của các không gian thương) {#top-i-s3-prop-7 .statement tag=0B1J}
 
 *Cho $R$ và $S$ là hai quan hệ tương đương trên một không gian tôpô $X$ sao cho $R$ kéo theo $S$, và gọi $S/R$ là quan hệ tương đương thương trên không gian thương $X/R$ (Lý thuyết tập hợp R, § 5, no. 9). Khi đó song ánh chính tắc $(X/R)/(S/R) \to X/S$ là một đồng phôi.*
 
@@ -192,7 +192,7 @@ $$
 
 trong đó $\varphi$ là ánh xạ chính tắc (toàn ánh) của $X$ lên không gian thương $X/R$, $\psi$ là đơn ánh chính tắc của không gian con $f(X)$ vào $Y$, và $g$ là song ánh liên kết với $f$ (Lý thuyết tập hợp R, § 5, no. 3). Người ta thấy ngay lập tức rằng $g$ là liên tục (theo Mệnh đề 6 của no. 4); đây cũng là một trường hợp riêng của một kết quả tổng quát về các cấu trúc thương. (Xem Lý thuyết tập hợp, Chương IV, § 2, no. 6). Nhưng song ánh $g$ *không nhất thiết là một đồng phôi*.
 
-#### Mệnh đề 8 {#top-i-s3-prop-8 .statement}
+#### Mệnh đề 8 {#top-i-s3-prop-8 .statement tag=0B1K}
 
 Cho $f = \psi \circ g \circ \varphi$ là phân tích chính tắc của một ánh xạ liên tục $f : X \to Y$, và gọi $R$ là quan hệ tương đương
 $$
@@ -205,7 +205,7 @@ c) Ảnh qua $f$ của mọi tập đóng bão hòa đối với $R$ là một t
 
 Vì điều kiện b) [tương ứng c)] biểu thị rằng ảnh dưới $g$ của mọi tập mở (tương ứng đóng) trong $X/R$ là một tập mở (tương ứng đóng) trong $f(X)$.
 
-#### Ví dụ {#top-i-s3-n5-exa-1 .statement}
+#### Ví dụ {#top-i-s3-n5-exa-1 .statement tag=0B1L}
 
 Cho $X$ là một không gian tôpô, $(X_i)_{i \in I}$ là một phủ của $X$, $Y$ là tổng của các không gian con $X_i$ của $X$; khi đó có một phân hoạch $(Y_i)_{i \in I}$ của $Y$ thành các không gian con vừa mở vừa đóng, và với mỗi $i \in I$ có một đồng phôi $f_i : Y_i \to X_i$. Gọi $f : Y \to X$ là ánh xạ liên tục trùng với $f_i$ trên $Y_i$ với mỗi $i \in I$, và gọi $R$ là quan hệ tương đương $f(x) = f(y)$; do đó không gian thương $Y/R$ được nhận bằng cách "dán lại với nhau" các $Y_i$ (§ 2, no. 5). Xét song ánh $g : Y/R \to X$ liên kết với $f$; nói chung $g$ không phải là một đồng phôi, như được chỉ ra bởi ví dụ trong đó mỗi $X_i$ chỉ gồm một điểm và $X$ không rời rạc. Tuy nhiên, nếu các phần trong của các $X_i$ phủ $X$, hoặc nếu $(X_i)$ là một phủ đóng hữu hạn địa phương của $X$, thì $g$ là một đồng phôi: thật vậy, nếu $U$ là một tập con mở bất kỳ của $Y$ bão hòa đối với $R$, thì với mỗi $i \in I$ tập hợp
 $$
@@ -215,7 +215,7 @@ là mở trong $X_i$, và mệnh đề suy ra từ Mệnh đề 3 của no. 1.
 
 Mệnh đề sau cho một điều kiện đủ đơn giản để $g$ là một phép đồng phôi:
 
-#### Mệnh đề 9 {#top-i-s3-prop-9 .statement}
+#### Mệnh đề 9 {#top-i-s3-prop-9 .statement tag=0B1M}
 
 Cho $f : X \to Y$ là một toàn ánh liên tục, và gọi $R$ là quan hệ tương đương $f(x) = f(y)$. Nếu tồn tại một tiết diện liên tục $s : Y \to X$ liên kết với $f$ (Lý thuyết tập hợp, Chương II, § 3, no. 8, Định nghĩa 11), thì ánh xạ $g : X/R \to Y$ liên kết với $f$ là một phép đồng phôi, và $s$ là một phép đồng phôi của $Y$ lên không gian con $s(Y)$ của $X$.
 
@@ -242,7 +242,7 @@ A & \xrightarrow{\varphi} & A/R_A \xrightarrow{h} f(A) \xrightarrow{\psi} X/R. \
 \end{array}
 $$
 
-#### Mệnh đề 10 {#top-i-s3-prop-10 .statement}
+#### Mệnh đề 10 {#top-i-s3-prop-10 .statement tag=0B1N}
 
 *Song ánh chính tắc* $h : A/R_A \to f(A)$ *là liên tục*. *Hơn nữa, ba mệnh đề sau là tương đương*:
 
@@ -258,19 +258,19 @@ Phần thứ nhất của mệnh đề là hệ quả ngay lập tức (no. 5). 
 
 của X, bão hòa đối với R; và ngược lại, nếu B là giao với A của một tập con mở (tương ứng, đóng) D bão hòa đối với R, thì $f(B)$ là giao của $f(A)$ và $f(D)$, là tập mở (tương ứng, đóng) trong $X/R$.
 
-#### Hệ quả 1 {#top-i-s3-prop-10-cor-1 .statement}
+#### Hệ quả 1 {#top-i-s3-prop-10-cor-1 .statement tag=0B1O}
 
 *Nếu A là một tập con mở (tương ứng, đóng) của X bão hòa đối với R, thì ánh xạ chính tắc $h : A/R_A \to f(A)$ là một đồng phôi.*
 
 Thật vậy, nếu A mở (tương ứng, đóng) trong X và bão hòa đối với R, và nếu $B \subset A$ mở (tương ứng, đóng) trong A và bão hòa đối với $R_A$, thì B mở (tương ứng, đóng) trong X và bão hòa đối với R.
 
-#### Hệ quả 2 {#top-i-s3-prop-10-cor-2 .statement}
+#### Hệ quả 2 {#top-i-s3-prop-10-cor-2 .statement tag=0B1P}
 
 *Nếu tồn tại một ánh xạ liên tục $u : X \to A$ sao cho $u(x)$ đồng dư với $x$ mod R với mọi $x \in X$, thì $f(A) = X/R$ và ánh xạ chính tắc $h : A/R_A \to X/R$ là một đồng phôi.*
 
 Vì mỗi lớp tương đương mod R đều gặp A, ảnh chính tắc của $A/R_A$ trong $X/R$ là toàn bộ $X/R$; mặt khác, nếu U là mở trong A và bão hòa đối với $R_A$, thì theo giả thiết $\bar{u}^1(U)$ là tập hợp thu được bằng cách bão hòa U đối với R; vì $u$ liên tục, $\bar{u}^1(U)$ là mở trong X (§ 2, no. 1, Định lý 1). Hệ quả suy ra từ sự kiện này nhờ Mệnh đề 10.
 
-#### Ví dụ {#top-i-s3-n6-exa-1 .statement}
+#### Ví dụ {#top-i-s3-n6-exa-1 .statement tag=0B1Q}
 
 Gọi R là quan hệ tương đương $x \equiv y \pmod{1}$ trên đường thẳng thực $\mathbf{R}$ (no. 4, Ví dụ) và gọi A là khoảng đóng $[0, 1]$; A chứa ít nhất một điểm của mỗi lớp tương đương mod R. Ánh xạ chính tắc từ $A/R_A$ lên xuyến T là một đồng phôi; thật vậy, nếu F là đóng trong A (và do đó trong R), thì để bão hòa F đối với quan hệ R, ta phải lấy hợp của các tập hợp đóng $F + n$ (với mọi $n \in \mathbf{Z}$), rõ ràng chúng tạo thành một họ hữu hạn địa phương, nên hợp của chúng là đóng (§ 1, no. 5, Mệnh đề 4); mệnh đề suy ra từ đó. Ta nhận xét rằng $A/R_A$ thu được bằng cách đồng nhất hóa các điểm 0 và 1 trong A. \*
 

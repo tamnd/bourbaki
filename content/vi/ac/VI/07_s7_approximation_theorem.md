@@ -25,7 +25,7 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: 21f2b322a8dae3e1cdb95e227bb848251fc67bc2e902348f5a69699e583fa872
+content_sha256: fa115446b1f5d791886bcd03e492191d5406cb8cd13908175723816e16c20e69
 translated_from: content/en/ac/VI/07_s7_approximation_theorem.md
 source_content_sha256: e86e2f4df23e67929d05a5c7fb9439871e542e8948249e33754e6cdbddf47125
 translation_model: gpt-5-6, gpt-5-6-mini
@@ -39,13 +39,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. GIAO CỦA MỘT SỐ HỮU HẠN CÁC VÀNH ĐỊNH GIÁ
 
-#### Mệnh đề 1 {#ac-vi-s7-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vi-s7-prop-1 .statement tag=04VN}
 
 Cho $K$ là một trường, $(\mathbf{A}_i)_{1 \leq i \leq n}$ là một họ hữu hạn các vành định giá của $K$ và $B = \bigcap_{i=1}^n \mathbf{A}_i$. Ta viết $p_i = B \cap m(\mathbf{A}_i)$. Khi đó $A_i = B_{p_i}$ với mọi $i$ và trường phân thức của $B$ là $K$.
 
 Rõ ràng $B_{p_i} \subset A_i$. Để chứng minh bao hàm đảo lại, ta cần bổ đề sau:
 
-#### Bổ đề 1 {#ac-vi-s7-lem-1 .statement}
+#### Bổ đề 1 {#ac-vi-s7-lem-1 .statement tag=04VO}
 
 Cho $v_i$ ($1 \leq i \leq n$) là các định giá trên trường $K$ và $x \in K^*$. Khi đó tồn tại một đa thứcf $(X)$ có dạng
 
@@ -70,25 +70,25 @@ $$
 
 (vì $k \geq 2$). Do đó bổ đề.
 
-#### Mệnh đề 2 {#ac-vi-s7-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vi-s7-prop-2 .statement tag=04VP}
 
 Với các giả thiết của Mệnh đề 1, giả sử thêm rằng $\mathbf{A}_i \not\subset \mathbf{A}_j$ với $i \neq j$. Khi đó các $p_i$ là các iđêan cực đại phân biệt của $B$ và mọi iđêan cực đại của $B$ đều bằng một trong các $p_i$.
 
 Nếu $p_i \subset p_j$ với $i \neq j$, thì $\mathbf{A}_i = B_{p_i} \supset B_{p_j} = \mathbf{A}_j$. Khi đó chỉ cần áp dụng Chương II, § 3, no. 5, Hệ quả của Mệnh đề 17.
 
-#### Hệ quả 1 {#ac-vi-s7-prop-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s7-prop-2-cor-1 .statement tag=04VQ}
 
 Giả sử rằng $A_i \not\subset A_j$ với $i \neq j$. Với mọi họ các phần tử $a_i \in A_i$ ($1 \leq i \leq n$), tồn tại $x \in B$ sao cho $x \equiv a_i \pmod{m(A_i)}$ với $1 \leq i \leq n$.
 
 Vì các $p_i$ là các iđêan cực đại của $B$, $A_i/m(A_i) = B_{p_i}/p_iB_{p_i} = B/p_i$ và do đó có thể giả sử rằng $a_i \in B$ với mọi $i$. Hệ quả suy ra từ sự kiện rằng ánh xạ chính tắc từ $B$ đến $\prod_{i=1}^n (B/p_i)$ là toàn ánh (Chương 11, § 1, no. 2, Mệnh đề 5).
 
-#### Hệ quả 2 {#ac-vi-s7-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s7-prop-2-cor-2 .statement tag=04VR}
 
 Giả sử rằng $A_i \not\subset A_j$ với $i \neq j$. Tồn tại các phần tử $x_i$ ($1 \leq i \leq n$) của $K$ sao cho $v_i(x_i) = 0$ và $v_j(x_i) > 0$ với $i \neq j$.
 
 Với mỗi chỉ số $i$ áp dụng Hệ quả 1 cho họ $(a_i)$ sao cho $a_i = 1$ và $a_j = 0$ với $j \neq i$.
 
-#### Hệ quả 3 {#ac-vi-s7-prop-2-cor-3 .statement}
+#### Hệ quả 3 {#ac-vi-s7-prop-2-cor-3 .statement tag=04VS}
 
 Mọi vành định giá của $K$ chứa $B$ đều chứa một trong các $A_i$.
 
@@ -103,13 +103,13 @@ $$
 
 ### 2. CÁC ĐỊNH GIÁ ĐỘC LẬP
 
-#### Định nghĩa 1 {#ac-vi-s7-def-1 .statement}
+#### Định nghĩa 1 {#ac-vi-s7-def-1 .statement tag=04VT}
 
 Cho $A$ và $A'$ là hai vành định giá của cùng một trường $K$. $A$ và $A'$ được gọi là độc lập nếu $K$ là vành sinh bởi $A$ và $A'$. Hai định giá trên $K$ được gọi là độc lập nếu các vành của chúng độc lập và phụ thuộc trong trường hợp ngược lại.
 
 Một định giá không đúng trên $K$ độc lập với mọi định giá trên $K$. Để hai định giá có cấp 1 trên $K$ độc lập, điều kiện cần và đủ là chúng không tương đương (§ 4, no. 5, Mệnh đề 6 (c)).
 
-#### Định lý 1 (Định lý xấp xỉ cho các định giá) {#ac-vi-s7-thm-1 .statement}
+#### Định lý 1 (Định lý xấp xỉ cho các định giá) {#ac-vi-s7-thm-1 .statement tag=04VU}
 
 Cho $v_i$ ($1 \leq i \leq n$) là các định giá trên một trường $K$ độc lập từng đôi một và $\Gamma_i$ là nhóm cấp của $v_i$. Cho $a_i \in K$ và $\alpha_i \in \Gamma_i$ ($1 \leq i \leq n$). Khi đó tồn tại $x \in K$ sao cho $v_i(x - a_i) \geq \alpha_i$ với mọi $i$
 
@@ -121,7 +121,7 @@ Giả sử tồn tại $i, j$ sao cho $q_i \subset \mathfrak{p}_j$ và $i \neq j
 
 Còn lại là chứng minh rằng $p$ là nguyên tố. Điều này suy ra từ bổ đề sau:
 
-#### Bổ đề 2 {#ac-vi-s7-lem-2 .statement}
+#### Bổ đề 2 {#ac-vi-s7-lem-2 .statement tag=04VV}
 
 *Cho A là một vành định giá và b là một iđêan của A phân biệt với A. Khi đó căn c của b là một iđêan nguyên tố.*
 
@@ -133,17 +133,17 @@ $$
 
 do đó $x^{2n} \in b$ và $x \in c$.
 
-#### Hệ quả 1 {#ac-vi-s7-lem-2-cor-1 .statement}
+#### Hệ quả 1 {#ac-vi-s7-lem-2-cor-1 .statement tag=04VW}
 
 *Với mọi họ các phần tử $\gamma_i \in \Gamma_i$ ($1 \leq i \leq n$), tồn tại $x \in K$ sao cho $v_i(x) = \gamma_i$ ($1 \leq i \leq n$).
 
 Ta có thể giả sử rằng $A_i \neq K$ với mọi $i$. Khi đó, với mọi $i$, tồn tại một $a_i \in K$ sao cho $v_i(a_i) = \gamma_i$ và một $a_r \in \Gamma_r$ sao cho $\gamma_i < a_r$. Ta áp dụng Định lý 1 cho các phần tử $a_i$ này: tồn tại $x \in K$ sao cho $v_i(x - a_i) > v_i(a_i)$; do đó, vì $x = a_i + (x - a_i)$, $v_i(x) = v_i(a_i) = \gamma_i$ ($§ 3$, no. 1, Mệnh đề 1).
 
-#### Hệ quả 2 {#ac-vi-s7-lem-2-cor-2 .statement}
+#### Hệ quả 2 {#ac-vi-s7-lem-2-cor-2 .statement tag=04VX}
 
 *Gọi $\mathscr{T}_i$ là tôpô được định nghĩa trên $K$ bởi $v_i$; trang bị cho $K^n$ tôpô tích của các $\mathscr{T}_i$. Nếu các $v_i$ không suy biến, đường chéo của $K^n$ là trù mật trong $K^n$.
 
-#### Mệnh đề 3 {#ac-vi-s7-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vi-s7-prop-3 .statement tag=04VY}
 
 *Cho $v$ và $v'$ là hai định giá không suy biến trên cùng một trường $K$. Để $v$ và $v'$ định nghĩa cùng một tôpô trên $K$, điều kiện cần và đủ là chúng phụ thuộc.
 
@@ -155,7 +155,7 @@ Nhận xét
 (1) Mệnh đề 3 cho thấy quan hệ '"$v$ và $v'$ phụ thuộc"' là một quan hệ tương đương.
 (2) Xét đến các quan hệ giữa các định giá cấp 1 và các giá trị tuyệt đối siêu mêtric ($§ 6$, no. 2), Mệnh đề 3 cũng suy ra, trong trường hợp các định giá cấp 1, từ đặc trưng hóa các giá trị tuyệt đối tương đương (General Topology, Chương IX, $§ 3$, no. 2, Mệnh đề 5).
 
-#### Mệnh đề 4 {#ac-vi-s7-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vi-s7-prop-4 .statement tag=04VZ}
 
 *Cho $v_1, \ldots, v_n$ ($n \geq 2$) là các định giá từng đôi một phụ thuộc trên cùng một trường $K$. Khi đó các vành $A_1, \ldots, A_n$ của $v_1, \ldots, v,$ sinh ra một vành con $\delta \ K$ phân biệt với $K$.*
 
@@ -163,7 +163,7 @@ Với $n = 2$, Mệnh đề 4 suy ra từ Định nghĩa 1. Giả sử mệnh đ
 
 ### 3. TRƯỜNG HỢP CÁC GIÁ TRỊ TUYỆT ĐỐI
 
-#### Định lý 2 (Định lý xấp xỉ đối với các giá trị tuyệt đối) {#ac-vi-s7-thm-2 .statement}
+#### Định lý 2 (Định lý xấp xỉ đối với các giá trị tuyệt đối) {#ac-vi-s7-thm-2 .statement tag=04W0}
 
 *Cho $f_i$ ($1 \leq i \leq n$) là các giá trị tuyệt đối trên cùng một trường $K$ không bất chính và không có hai giá trị nào tương đương. Cho $a, \ (1 \leq i \leq n)$ là các phần tử của $K$ và $\varepsilon$ là một số thực $> 0$. Khi đó tồn tại $x \in K$ sao cho $f_i(x - a_i) \leq \varepsilon$ với mọi $i$.*
 

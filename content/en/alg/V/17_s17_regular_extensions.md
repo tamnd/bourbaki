@@ -38,14 +38,14 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: ea5161cf1b2c28cf9289420b198bd8a7545ddd5832c1cbfa8ba54113cb049ee4
+content_sha256: c3f351f5e813a393d1fb207cf121c6dd2bc4e8303d881b9cf4b097b0c621cb53
 ---
 
 ## § 17. REGULAR EXTENSIONS
 
 ### 1. Complements on the relative separable algebraic closure
 
-#### Theorem 1 (Zariski) {#alg-v-s17-thm-1 .statement}
+#### Theorem 1 (Zariski) {#alg-v-s17-thm-1 .statement tag=06VP}
 
 — *Let K be a field, L an extension of K, $K_1$ the relative separable algebraic closure of K in L (V, p. 44), $K_2$ the relative algebraic closure of K in L (V, p. 19) and $(X_i)_{i \in I}$ a family of indeterminates. Then $K_1(X_i)_{i \in I}$ is the relative separable algebraic closure of $K(X_i)_{i \in I}$ in $L(X_i)_{i \in I}$, and $K_2(X_i)_{i \in I}$ is the relative algebraic closure of $K(X_i)_{i \in I}$ in $L(X_i)_{i \in I}$.
 
@@ -69,7 +69,7 @@ We have thus deduced from A) that $K_1(X_i)_{i \in I}$ is the relative separable
 
 ### 2. The tensor product of extensions
 
-#### Proposition 1 {#alg-v-s17-prop-1 .statement}
+#### Proposition 1 {#alg-v-s17-prop-1 .statement tag=06VQ}
 
 — Let $\Omega$ be an extension of a field $K$ and let $L, M$ be two subextensions of $\Omega$ which are algebraically disjoint over $K$. Suppose that the relative separable algebraic closure of $K$ in $L$ is equal to $K$^1. Let $\varphi$ be the $K$-algebra homomorphism of $L \otimes_K M$ into $\Omega$ mapping $x \otimes y$ to $xy$ for $x \in L, y \in M$, and let $p$ be the kernel of $\varphi$. Then $p$ is the set of nilpotent elements of $L \otimes_K M$ and this is the smallest prime ideal of $L \otimes_K M$.
 
@@ -114,7 +114,7 @@ $$
 
 and since $\eta$ is injective we finally have $a^{p^f} = 0$. We have thus shown $p$ to be the set of all nilpotent elements of $L \otimes_K M$. Now every prime ideal of $L \otimes_K M$ contains $p$ by Prop. 2 (V, p. 118).
 
-#### Corollary {#alg-v-s17-n2-cor-1 .statement}
+#### Corollary {#alg-v-s17-n2-cor-1 .statement tag=06VR}
 
 *Let L and M be two extensions of a field K. Suppose that the relative separable algebraic closure of K in L is equal to K. Then the set p of nilpotent elements of $L \otimes_K M$ is a prime ideal. If moreover L or M is separable over K, then $L \otimes_K M$ is an integral domain.*
 
@@ -122,19 +122,19 @@ We may assume that L and M are algebraically disjoint subextensions of an extens
 
 ### 3. Regular algebras
 
-#### Definition 1 {#alg-v-s17-def-1 .statement}
+#### Definition 1 {#alg-v-s17-def-1 .statement tag=06VS}
 
 *Let K be a field. An algebra A over K is said to be regular if $L \otimes_K A$ is an integral domain for every extension L of K.*
 
 A regular algebra is in particular an integral domain, hence commutative.
 
-#### Proposition 2 {#alg-v-s17-prop-2 .statement}
+#### Proposition 2 {#alg-v-s17-prop-2 .statement tag=06VT}
 
 — Let $A$ and $B$ be two algebras over a field $K$. If $A$ is an integral domain and $B$ is regular then $A \otimes_K B$ is an integral domain.
 
 Let $L$ be the field of fractions of $A$. Since $B$ is a regular $K$-algebra, $L \otimes_K B$ is an integral domain, hence so is $A \otimes_K B$, since it is isomorphic to a subring of $L \otimes_K B$.
 
-#### Proposition 3 {#alg-v-s17-prop-3 .statement}
+#### Proposition 3 {#alg-v-s17-prop-3 .statement tag=06VU}
 
 — Let $K$ be a field.
 a) Every subalgebra of a regular $K$-algebra is itself regular.
@@ -147,29 +147,29 @@ Let $A$ and $B$ be two regular $K$-algebras. Let $L$ be an extension of $K$. Sin
 
 ### 4. Regular extensions
 
-#### Definition 2 {#alg-v-s17-def-2 .statement}
+#### Definition 2 {#alg-v-s17-def-2 .statement tag=06VV}
 
 — An extension of a field $K$ is said to be regular if it is regular as $K$-algebra.
 
-#### Proposition 4 {#alg-v-s17-prop-4 .statement}
+#### Proposition 4 {#alg-v-s17-prop-4 .statement tag=06VW}
 
 — Let $A$ be an algebra over field $K$ which is an integral domain, and $E$ its field of fractions. Let $L$ be an extension of $K$; if the ring $L \otimes_K A$ is an integral domain the same is true of $L \otimes_K E$.
 
 If $L \otimes_K A$ is an integral domain, it may be embedded in its field of fractions $F$. Write $u(x) = x \otimes 1$ for $x \in L$ and denote by $v$ the $K$-homomorphism of $E$ into $F$ which extends the injective homomorphism $y \mapsto 1 \otimes y$ of $A$ into $F$. By Prop. 6 (V, p. 14) the subfields $u(L)$ and $v(E)$ of $F$ are linearly disjoint over $K$; therefore the homomorphism $u * v$ of $L \otimes_K E$ into $F$ (V, p. 12) is injective. This shows $L \otimes_K E$ to be an integral domain.
 
-#### Corollary {#alg-v-s17-n4-cor-1 .statement}
+#### Corollary {#alg-v-s17-n4-cor-1 .statement tag=06VX}
 
 — For $A$ to be a regular $K$-algebra it is necessary and sufficient that its field of fractions should be a regular extension of $K$.
 
 The condition is necessary by Prop. 4 and sufficient by Prop. 3, a).
 
-#### Proposition 5 {#alg-v-s17-prop-5 .statement}
+#### Proposition 5 {#alg-v-s17-prop-5 .statement tag=06VY}
 
 — Every pure extension of a field $K$ is regular.
 
 By the preceding corollary it is enough to prove that every polynomial algebra $A = K[X_i]_i$, is a regular $K$-algebra. Let $L$ be an extension of $K$; the ring $L \otimes_K A$ is isomorphic to $L[X_i]_{i \in I}$ (III, p. 449, Remark 2), and hence an integral domain (IV, p. 9, Prop. 8).
 
-#### Proposition 6 {#alg-v-s17-prop-6 .statement}
+#### Proposition 6 {#alg-v-s17-prop-6 .statement tag=06VZ}
 
 — Let L be an extension of a field K. If L is regular, then every subextension of L is regular. Conversely, if every finitely generated subextension of L is regular, then L is regular.
 
@@ -177,13 +177,13 @@ The first assertion follows from Prop. 3, a).
 
 Let M be an extension of K and let $\mathscr{U}$ be the set of all finitely generated subextensions of L. For each E $\in \mathscr{U}$, the ring $M \otimes_K E$ may be identified with a subring of $M \otimes_K L$ and we thus have an increasing directed family of subrings of $M \otimes_K L$ whose union is $M \otimes_K L$. Now the second assertion follows immediately.
 
-#### Proposition 7 {#alg-v-s17-prop-7 .statement}
+#### Proposition 7 {#alg-v-s17-prop-7 .statement tag=06W0}
 
 — Let L be an extension of a field K and M an L-algebra (for example, an extension of L). If L is regular over K and M is a regular L-algebra, then M is regular as K-algebra.
 
 Let E be an extension of K; since L is regular over K, $E \otimes_K L$ is an integral domain. By Prop. 2 (V, p. 141) the ring $(E \otimes_K L) \otimes_L M$ is thus an integral domain and the same is true of the ring $E \otimes_K M$ isomorphic to it (II. p. 278, Prop. 2). Hence the result.
 
-#### Proposition 8 {#alg-v-s17-prop-8 .statement}
+#### Proposition 8 {#alg-v-s17-prop-8 .statement tag=06W1}
 
 — Let L and M be two extensions of a field K.
 
@@ -195,7 +195,7 @@ Assertion a) follows from Prop. 3, c) (V, p. 141) and the Cor. of V, p. 141; Ass
 
 ### 5. Characterization of regular extensions
 
-#### Proposition 9 {#alg-v-s17-prop-9 .statement}
+#### Proposition 9 {#alg-v-s17-prop-9 .statement tag=06W2}
 
 — Let K be a field, $\overline{K}$ an algebraic closure of K and L an extension of K. Then the following conditions are equivalent:
 
@@ -219,19 +219,19 @@ E $\otimes_K$ L of A is an integral domain and hence is an algebra of finite deg
 
 $d) \Rightarrow a)$: Under the hypotheses of d) we have $L \cap \bar{K} = K$, so K is relatively algebraically closed in L; further if p is the characteristic exponent of K, the field $L$ is linearly disjoint from $K^{p^{-\infty}}$ over $K$, hence L is separable over K (V, p. 123, Cor. 1).
 
-#### Corollary 1 {#alg-v-s17-prop-9-cor-1 .statement}
+#### Corollary 1 {#alg-v-s17-prop-9-cor-1 .statement tag=06W3}
 
 — Let A be an algebra over a field K. For A to be a regular K-algebra it is necessary and sufficient for the ring $\bar{K} \otimes_K A$ to be an integral domain.
 
 The stated condition is clearly necessary. Conversely, assume that $\bar{K} \otimes_K A$ is an integral domain and denote by E the field of fractions of A. By Prop. 4 (V, p. 141) the ring $\bar{K} \otimes_K E$ is an integral domain, hence E is a regular extension of K, by Prop. 9; by V, p. 141, Cor., we conclude that A is regular as K-algebra.
 
-#### Corollary 2 {#alg-v-s17-prop-9-cor-2 .statement}
+#### Corollary 2 {#alg-v-s17-prop-9-cor-2 .statement tag=06W4}
 
 — Let K be an algebraically closed field. Every K-algebra which is an integral domain is a regular K-algebra. In particular, every extension of K is regular.
 
 This follows from Cor. 1.
 
-#### Corollary 3 {#alg-v-s17-prop-9-cor-3 .statement}
+#### Corollary 3 {#alg-v-s17-prop-9-cor-3 .statement tag=06W5}
 
 — Let K be an algebraically closed field. If A and B are two K-algebras which are integral domains, then the same is true of $A \otimes_K B$.
 
@@ -239,7 +239,7 @@ By Cor. 2, A and B are regular K-algebras, and it suffices to apply Prop. 2 (V, 
 
 ### 6. Application to composite extensions
 
-#### Proposition 10 {#alg-v-s17-prop-10 .statement}
+#### Proposition 10 {#alg-v-s17-prop-10 .statement tag=06W6}
 
 — Let L and M be two extensions of a field K and $(E, u, v)$ a composite extension of L and M (V, p. 12). Suppose that the ring $L \otimes_K M$ is an integral domain and that the subextensions $u(L)$ and $v(M)$ of E are algebraically disjoint over K. Then $u(L)$ and $v(M)$ are linearly disjoint over K.
 
@@ -247,13 +247,13 @@ Put $w = u * v$ (V, p. 12), denote by F the field of fractions of the integral d
 
 By hypothesis $u(L)$ and $v(M)$ are algebraically disjoint over K; therefore (V, p. 114, Prop. 14), $u(L)$ and $v(K(B))$ are linearly disjoint over K. Thus there exists a K-homomorphism $u': L(B) \to E$ which agrees with u on L and with v ou K(B). By construction L and M are linearly disjoint over K in F; by Prop. 8 (V, p. 15) the subfields $L(B)$ and $M$ of F are linearly disjoint over $K(B)$. It follows that there exists a K-homomorphism $w' : M[L(B)] \to E$ which agrees with $u'$ on $L(B)$ and with $v$ on $M$. But the field $F$ is generated by $M \cup L(B)$ and $M$ is algebraic over $K(B)$; we thus have $M[L(B)] = F$ (V, p. 18, Cor. 2). Hence we conclude that $w'$ is a K-isomorphism of $F$ onto $E$ whose restriction to $L$ (resp. $M$) is $u$ (resp. $v$). This shows $u(L)$ and $v(M)$ to be linearly disjoint over $K$.
 
-#### Corollary 1 {#alg-v-s17-prop-10-cor-1 .statement}
+#### Corollary 1 {#alg-v-s17-prop-10-cor-1 .statement tag=06W7}
 
 *Let $\Omega$ be an extension of a field $K$ and $L$ a subextension of $\Omega$ which is regular over $K$. Every subextension $M$ of $\Omega$ which is algebraically disjoint from $L$ over $K$ is linearly disjoint.*
 
 The ring $L \otimes_K M$ is an integral domain by definition of regular extension and it suffices now to apply Prop. 10.
 
-#### Corollary 2 {#alg-v-s17-prop-10-cor-2 .statement}
+#### Corollary 2 {#alg-v-s17-prop-10-cor-2 .statement tag=06W8}
 
 *Let $\Omega$ be an extension of a field $K$ and $L, M$ two subextensions of $\Omega$. Suppose that $L$ is separable over $K$ and that the relative separable closure of $K$ in $M$ is equal to $K$. If $L$ and $M$ are algebraically disjoint over $K$, then they are linearly disjoint over $K$.*
 

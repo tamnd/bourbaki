@@ -24,7 +24,7 @@ subsections:
       pdf_page: 154
 statements: 10
 exercises: 5
-content_sha256: 7f3698c0bc10ec62cf64129e06e103c90a16b71001c1dd658b12a8fa9951c4f2
+content_sha256: 34bc41d016a37b13e3e783889fb50995ea7a37808a759e27cd346c3c434f8d65
 ---
 
 ## § 9. Application : corps localement compacts.
@@ -33,14 +33,14 @@ content_sha256: 7f3698c0bc10ec62cf64129e06e103c90a16b71001c1dd658b12a8fa9951c4f2
 
 Soit K un corps localement compact (non nécessairement commutatif). Rappelons que l’on a défini (Intégr., chap. VII, no 10, déf. 6) la fonction mod (ou mod_K) sur K comme suit : on a mod_K(0) = 0 et pour x ≠ 0 dans K, le nombre mod_K(x) est le module de l’automorphisme y → xy du groupe additif de K
 
-#### Proposition 1 {#ac-vi-s9-prop-1 .statement}
+#### Proposition 1 {#ac-vi-s9-prop-1 .statement tag=04XQ}
 
 Si K est un corps localement compact, la fonction mod_K appartient à $\mathscr{V}(K)$ (§ 6, no 1). En outre :
 (i) Si s > 0 est tel que $(\mathrm{mod}_K)^s = g$ soit une valeur absolue, alors g définit la topologie de K.
 (ii) Si K est non discret et si mod_K est une valeur absolue ultramétrique, il existe une valuation discrète normée $v$ sur K, dont l’anneau est compact et le corps résiduel fini à q éléments, de sorte que $\mathrm{mod}_K = q^{-v}$. La topologie de K est définie par $v$.
 Cela résulte du § 6, no 1, prop. 1, du § 5, no 1, prop. 2 et d’Intégr., chap. VII, § 1, no 10, prop. 12 et 13.
 
-#### Proposition 2 {#ac-vi-s9-prop-2 .statement}
+#### Proposition 2 {#ac-vi-s9-prop-2 .statement tag=04XR}
 
 Soient K, K' deux corps localement compacts (non nécessairement commutatifs) tels que K soit un sous-corps topologique de K' et que K soit non discret. Alors :
 (i) K' est un espace vectoriel à gauche (resp. à droite) de dimension finie sur K.
@@ -50,12 +50,12 @@ $$
 $$
 En effet, comme K est un corps valué complet non discret, l’assertion (i) résulte de Esp. vect. top., chap. I, § 2, no 4, th. 3; l’assertion (ii) n’est autre que Intégr., chap. VII, § 1, no 11, prop. 17.
 
-#### Corollaire 1 {#ac-vi-s9-prop-2-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s9-prop-2-cor-1 .statement tag=04XS}
 
 Tout corps localement compact dont le centre est non discret est de rang fini sur son centre.
 En effet, le centre Z d’un corps localement compact K est fermé dans K, donc localement compact.
 
-#### Corollaire 2 {#ac-vi-s9-prop-2-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s9-prop-2-cor-2 .statement tag=04XT}
 
 Soient K' un corps localement compact et K un sous-corps fermé de K' (non nécessairement commutatifs). Si K' est un espace vectoriel à gauche (resp. à droite) de dimension finie n sur K, on a
 $$
@@ -65,13 +65,13 @@ En effet, de façon générale, on sait que dans un espace vectoriel (à gauche 
 
 ### 2. Existence de représentants.
 
-#### Proposition 3 {#ac-vi-s9-prop-3 .statement}
+#### Proposition 3 {#ac-vi-s9-prop-3 .statement tag=04XU}
 
 Soit $K$ un corps (non nécessairement commutatif) localement compact non discret dont la topologie soit définie par une valuation discrète $v$; soient $A$ l’anneau et $m$ l’idéal de $v$, et posons $\mathrm{Card}(A/m) = q = p^f$ (p premier). Alors, il existe un système de représentants $S$ de $A/m$ dans $A$ et une uniformisante $u$ pour $v$, tels que $0 \in S$, que $S^* = S \cap K^*$ soit un sous-groupe cyclique de $K^*$ et que $u^{-1}Su = S$. En outre, tout élément de $A$ s’écrit d’une seule manière sous la forme $\sum_{i=0}^\infty s_i u^i$, où $s_i \in S$.
 
 Nous utiliserons le lemme suivant :
 
-#### Lemme 1 {#ac-vi-s9-lem-1 .statement}
+#### Lemme 1 {#ac-vi-s9-lem-1 .statement tag=04XV}
 
 Soient $x, y$ deux éléments permutables de $A$ tels que $x - y \in m^j (j \geq 1)$; alors $x^{p^n} - y^{p^n} \in m^{j+n}$ pour tout entier $n \geq 0$.
 
@@ -98,7 +98,7 @@ Enfin, pour tout $x \in A$ il existe une suite $(s_i) \quad (i \in \mathbf{N})$ 
 
 Les complétés $\mathbf{R}$ et $\mathbf{Q}_p$ du corps $\mathbf{Q}$ pour les valeurs absolues non impropres sur $\mathbf{Q}$ ($p$ premier quelconque) sont localement compacts. D’autre part, pour toute puissance $q = p^f$ d’un nombre premier $p$, le corps $\mathbf{F}_q((T))$ des séries formelles sur le corps fini $\mathbf{F}_q$, muni de la valuation définie au § 3, n° 4, Exemple 3, est localement compact : en effet l’idéal maximal de l’anneau de valuation $\mathbf{F}_q[[T]]$ est engendré par $T$; on sait que cet anneau est complet pour la topologie (T)-adique (chap. III, § 2, n° 6, prop. 6) et comme le corps résiduel $\mathbf{F}_q$ est fini, la prop. 2 du § 5, n° 1, prouve notre assertion. Inversement :
 
-#### Théorème 1 {#ac-vi-s9-thm-1 .statement}
+#### Théorème 1 {#ac-vi-s9-thm-1 .statement tag=04XW}
 
 Soit $K$ un corps (non nécessairement commutatif) localement compact non discret.
 
@@ -132,17 +132,17 @@ $$
 
 est un homomorphisme bijectif de l’anneau F_q[[T]] sur l’anneau A, d’où aussitôt la conclusion.
 
-#### Corollaire 1 {#ac-vi-s9-thm-1-cor-1 .statement}
+#### Corollaire 1 {#ac-vi-s9-thm-1-cor-1 .statement tag=04XX}
 
 Tout corps localement compact non discret est de rang fini sur son centre.
 
-#### Corollaire 2 {#ac-vi-s9-thm-1-cor-2 .statement}
+#### Corollaire 2 {#ac-vi-s9-thm-1-cor-2 .statement tag=04XY}
 
 Tout corps localement compact est connexe ou totalement discontinu; s’il est connexe, il est isomorphe à $\mathbf{R}, \mathbf{C}$ ou $\mathbf{H}$.
 
 En effet, si la topologie d’un corps $K$ est définie par une valeur absolue ultramétrique, $K$ est totalement discontinu pour cette topologie.
 
-#### Remarque {#ac-vi-s9-n3-rem-1 .statement}
+#### Remarque {#ac-vi-s9-n3-rem-1 .statement tag=04XZ}
 
 Soit $s$ un entier $> 0$; le sous-corps $F_q((T^s)) = L$ de $K = F_q((T))$ est fermé dans $K$ et l’on a $e(K/L) = s$ et $f(K/L) = 1$. On voit donc qu’il y a des sous-corps fermés non discrets $L$ de $K$ tels que $e(K/L)$ (et $a fortiori$ le degré $[K : L]$) soit arbitrairement grand (contrairement à ce qui se passe pour les corps localement compacts de caractéristique 0, où tout sous-corps localement compact $L$ d’un tel corps $K$ contient nécessairement $\mathbf{R}$ ou $\mathbf{Q}_p$ et où par suite $[K : L]$ est borné).
 

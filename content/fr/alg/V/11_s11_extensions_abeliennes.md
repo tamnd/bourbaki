@@ -49,7 +49,7 @@ subsections:
       pdf_page: 191
 statements: 46
 exercises: 23
-content_sha256: 6172953cd766561f91fc7cf0af9c39ae5d4c5a8b7820b611ba04c2b40195ebed
+content_sha256: 28da74065c63e6fb47df9875ccf41b0482861012c1c5d76cf530aa964cc7ad5a
 ---
 
 ## § 11. EXTENSIONS ABÉLIENNES
@@ -58,19 +58,19 @@ Dans tout ce paragraphe, on note $K$ un corps.
 
 ### 1. Extensions abéliennes et clôture abélienne
 
-#### Définition 1 {#alg-v-s11-def-1 .statement}
+#### Définition 1 {#alg-v-s11-def-1 .statement tag=06OC}
 
 On dit qu’une extension $E$ de $K$ est abélienne si elle est galoisienne et si son groupe de Galois est commutatif.
 
 Comme tout sous-groupe d’un groupe commutatif est distingué, le cor. 4 de V, p. 66, montre que toute sous-extension d’une extension abélienne est abélienne.
 
-#### Proposition 1 {#alg-v-s11-prop-1 .statement}
+#### Proposition 1 {#alg-v-s11-prop-1 .statement tag=06OD}
 
 Soient E une extension galoisienne de K, et Γ son groupe de Galois. Soit Δ le groupe dérivé de Γ (I, p. 67, déf. 4) et soit F le corps des invariants de Δ. Pour qu’une sous-extension L de E soit abélienne sur K, il faut et il suffit qu’elle soit contenue dans F.
 
 Notons d’abord que F est aussi le corps des invariants de l’adhérence $\overline{\Delta}$ de Δ dans Γ, et que $\overline{\Delta}$ est un sous-groupe distingué fermé de Γ. D’après V, p. 66, cor. 4, F est donc une extension galoisienne de K. De plus, le groupe de Galois de F sur K est isomorphe à $\Gamma / \overline{\Delta}$, donc est commutatif. Toute sous-extension de F est donc abélienne. Réciproquement, soit L une extension abélienne de K contenue dans E, et soit Π le groupe de Galois de E sur L. Comme L est galoisienne, Π est un sous-groupe distingué de Γ et le groupe de Galois de L sur K est isomorphe à $\Gamma / \Pi$ (V, p. 66, cor. 4). Par suite, $\Gamma / \Pi$ est commutatif et Π contient Δ ; d’où $L \subset F$.
 
-#### Corollaire {#alg-v-s11-n1-cor-1 .statement}
+#### Corollaire {#alg-v-s11-n1-cor-1 .statement tag=06OE}
 
 Soit E une extension de K, et soit $(E_i)_{i \in I}$ une famille de sous-extensions de E, telle que $E = K(\bigcup_{i \in I} E_i)$. On suppose que chacune des extensions $E_i$ est abélienne ; il en est alors de même de E.
 
@@ -80,7 +80,7 @@ On dit qu’une extension E de K est une clôture abélienne de K si c’est une
 
 ### 2. Racines de l’unité
 
-#### Définition 2 {#alg-v-s11-def-2 .statement}
+#### Définition 2 {#alg-v-s11-def-2 .statement tag=06OF}
 
 On dit qu’un élément $\zeta$ de K est une racine de l’unité s’il existe un entier $n > 0$ tel que $\zeta^n = 1$; pour tout entier $n > 0$ tel que $\zeta^n = 1$, on dit que $\zeta$ est racine n-ième de l’unité.
 
@@ -92,19 +92,19 @@ Supposons que $K$ soit de caractéristique non nulle $p$ et soit $r \geq 0$ un e
 
 On notera qu’un corps peut ne contenir aucune racine $n$-ième de l’unité autre que 1 : c’est le cas par exemple des corps premiers $\mathbf{Q}$ et $\mathbf{F}_2$ pour tout entier $n$ impair.
 
-#### Théorème 1 {#alg-v-s11-thm-1 .statement}
+#### Théorème 1 {#alg-v-s11-thm-1 .statement tag=06OG}
 
 Soit $p$ l’exposant caractéristique de $K$ et soit $n > 0$ un entier. Le groupe $\mu_n(K)$ des racines $n$-ièmes de l’unité dans $K$ est cyclique et son ordre divise $n$. Lorsque $K$ est algébriquement clos et que $n$ est premier à $p$, le groupe $\mu_n(K)$ est cyclique d’ordre $n$.
 
 Il suffit de prouver la première assertion du théorème, qui résulte du lemme plus précis suivant :
 
-#### Lemme 1 {#alg-v-s11-lem-1 .statement}
+#### Lemme 1 {#alg-v-s11-lem-1 .statement tag=06OH}
 
 Soit $G$ un sous-groupe fini de $K^*$, d’ordre $m$. Alors $G$ est cyclique et l’on a $G = \mu_m(K)$.
 
 Considérons $G$ comme un $\mathbf{Z}$-module ; on a $mx = 0$ pour tout $x \in G$, donc l’annulateur de $G$ est un idéal de la forme $r\mathbf{Z}$ où l’entier $r \geq 1$ divise $m$. On a donc $G \subset \mu_r(K)$. D’après le lemme 4 (V, p. 71) appliqué à $A = \mathbf{Z}$ et $M = G$, il existe un élément $x$ de $G$ d’ordre $r$ ; soit $G'$ le sous-groupe cyclique de $G$ engendré par $x$. On a $G' \subset \mu_r(K)$, Card $G' = r$ et Card $\mu_r(K) \leq r$ ; on a, par suite, $G' = \mu_r(K) \supset G$ et $G$ est cyclique d’ordre $r$, égal à $\mu_r(K)$. Comme $G$ est d’ordre $m$, on a $m = r$, d’où le lemme 1.
 
-#### Proposition 2 {#alg-v-s11-prop-2 .statement}
+#### Proposition 2 {#alg-v-s11-prop-2 .statement tag=06OI}
 
 Supposons que $K$ soit algébriquement clos, et soit $p$ son exposant caractéristique. Il existe un isomorphisme de $\mu_\infty(K)$ sur le groupe $\mathbf{Q}/\mathbf{Z}[1/p]$.
 
@@ -114,15 +114,15 @@ Soit $(\nu_n)_{n \geq 1}$ la suite strictement croissante formée de tous les en
 
 Par ailleurs, soit $\beta_n$ la classe modulo $\mathbf{Z}[1/p]$ de $1/\lambda_n$, et soit $H'_n$ le sous-groupe cyclique de $\mathbf{Q}/\mathbf{Z}[1/p]$ engendré par $\beta_n$. Il est immédiat qu’on a $\beta_n = v_{n+1} \beta_{n+1}$ et $H'_n$ est d’ordre $\lambda_n$, car $\lambda_n$ n’est pas divisible par $p$ si $p \neq 1$. Il existe donc pour tout $n \geq 1$ un isomorphisme $\varphi_n : H_n \to H'_n$ tel que $\varphi_n(\alpha_n) = \beta_n$ et les relations $\alpha_n = \alpha_{n+1}^{v_n + 1}$, $\beta_n = v_{n+1} \beta_{n+1}$ montrent que $\varphi_{n+1}$ prolonge $\varphi_n$. Finalement, il existe un unique isomorphisme $\varphi$ de $\mu_\infty(K)$ sur $\mathbf{Q}/\mathbf{Z}[1/p]$ prolongeant les isomorphismes $\varphi_n$, c’est-à-dire tel que $\varphi(\alpha_n) = \beta_n$ pour tout $n \geq 1$.
 
-#### Remarque 1 {#alg-v-s11-n2-rem-1 .statement}
+#### Remarque 1 {#alg-v-s11-n2-rem-1 .statement tag=06OJ}
 
 Lorsque K est un corps algébriquement clos de caractéristique 0, le groupe $\mu_\infty(K)$ est donc isomorphe (non canoniquement) à $\mathbf{Q}/\mathbf{Z}$. \* Lorsque K est le corps $\mathbf{C}$ des nombres complexes, on peut expliciter un tel isomorphisme ; en effet, l’application $x \mapsto e^{2\pi i x}$ est un homomorphisme de $\mathbf{Q}$ dans $\mathbf{C}^*$ de noyau $\mathbf{Z}$ et d’image $\mu_\infty(\mathbf{C})$; elle définit donc par passage au quotient un isomorphisme de $\mathbf{Q}/\mathbf{Z}$ sur $\mu_\infty(\mathbf{C})$. \*
 
-#### Remarque 2 {#alg-v-s11-n2-rem-2 .statement}
+#### Remarque 2 {#alg-v-s11-n2-rem-2 .statement tag=06OK}
 
 On peut prouver (cf. V, p. 156, exerc. 21) le résultat suivant : soient G et H deux groupes commutatifs dont tout élément est d’ordre fini. On suppose que, pour tout entier $n \geq 1$, l’équation $nx = 0$ a le même nombre de solutions, supposé fini, dans G que dans H. Les groupes G et H sont alors isomorphes. Ceci fournit une nouvelle démonstration de la prop. 2.
 
-#### Remarque 3 {#alg-v-s11-n2-rem-3 .statement}
+#### Remarque 3 {#alg-v-s11-n2-rem-3 .statement tag=06OL}
 
 Pour tout nombre premier $l$, posons $\mu_{l^\infty}(K) = \bigcup_{n \geq 0} \mu_{l^n}(K)$. Lorsque $l$ est la caractéristique $p$ de K, on a $\mu_{p^\infty}(K) = \{ 1 \}$. On déduit de I, p. 76, théorème 4, que $\mu_\infty(K)$ est somme directe des sous-groupes $\mu_{l^\infty}(K)$ où $l$ parcourt l’ensemble des nombres premiers distincts de $p$. Pour un nombre premier $l$ donné, deux cas seulement sont possibles : ou bien $\mu_{l^\infty}(K)$ est fini et alors $\mu_{l^\infty}(K)$ est isomorphe à $\mathbf{Z}/l^n\mathbf{Z}$ pour un $n$ convenable (th. 1), ou bien $\mu_{l^\infty}(K)$ est infini et alors $\mu_{l^\infty}(K)$ est isomorphe à $\mathbf{Z}[l^{-1}]/\mathbf{Z}$ (cf. remarque 2).
 
@@ -130,7 +130,7 @@ Pour tout nombre premier $l$, posons $\mu_{l^\infty}(K) = \bigcup_{n \geq 0} \mu
 
 Soit $n \geq 1$ un entier. On appelle indicateur d’Euler de $n$, et l’on note $\varphi(n)$, le nombre des éléments inversibles de l’anneau $\mathbf{Z}/n\mathbf{Z}$ des entiers modulo $n$. D’après la proposition suivante, $\varphi(n)$ est aussi le nombre des entiers $k$ premiers à $n$ et tels que $0 \leq k < n$.
 
-#### Proposition 3 {#alg-v-s11-prop-3 .statement}
+#### Proposition 3 {#alg-v-s11-prop-3 .statement tag=06OM}
 
 Soient $k$ et $n \geq 1$ deux entiers. Les assertions suivantes sont équivalentes :
 a) la classe de $k$ modulo $n$ est inversible dans l’anneau $\mathbf{Z}/n\mathbf{Z}$;
@@ -138,12 +138,12 @@ b) la classe de $k$ modulo $n$ engendre le groupe cyclique $\mathbf{Z}/n\mathbf{
 c) les entiers $k$ et $n$ sont premiers entre eux (I, p. 106).
 Chacune des conditions a) et b) signifie qu’il existe un entier $x$ tel que $kx \equiv 1 \mod n$, c’est-à-dire qu’il existe deux entiers $x$ et $y$ tels que $kx + ny = 1$. Cette dernière condition signifie que $k$ et $n$ sont premiers entre eux.
 
-#### Corollaire 1 {#alg-v-s11-prop-3-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s11-prop-3-cor-1 .statement tag=06ON}
 
 Soit $G$ un groupe cyclique d’ordre $n$ et soit $d$ un diviseur de $n$. Le nombre des éléments d’ordre $d$ de $G$ est égal à $\varphi(d)$. En particulier, $\varphi(n)$ est le nombre des générateurs de $G$.
 Comme le groupe $G$ est isomorphe à $\mathbf{Z}/n\mathbf{Z}$, le nombre des générateurs de $G$ est égal à $\varphi(n)$ d’après la prop. 3. Soit $g$ un générateur de $G$; alors les éléments $h$ de $G$ tels que $h^d = 1$ constituent le sous-groupe H de G engendré par $g^{n/d}$; ce groupe est cyclique d’ordre $d$, et les éléments d’ordre $d$ de G sont les générateurs de H, donc leur nombre est égal à $\varphi(d)$.
 
-#### Corollaire 2 {#alg-v-s11-prop-3-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s11-prop-3-cor-2 .statement tag=06OO}
 
 Pour tout entier $n \geqslant 1$, on a
 
@@ -173,7 +173,7 @@ où $p$ parcourt l’ensemble des diviseurs premiers de $n$.
 
 On dit qu’une racine $n$-ième de l’unité est primitive si elle est d’ordre $n$; s’il existe une telle racine $\zeta$, le groupe $\mu_n(\mathbf{K})$ est d’ordre $n$ et il est engendré par $\zeta$. \* Par exemple, les racines primitives $n$-ièmes de l’unité dans $\mathbf{C}$ sont les nombres $e^{2\pi i k/n}$ avec $0 \leqslant k < n$ et $k$ premier à $n$. \* Le cor. 1 de la prop. 3 entraîne le résultat suivant.
 
-#### Proposition 4 {#alg-v-s11-prop-4 .statement}
+#### Proposition 4 {#alg-v-s11-prop-4 .statement tag=06OP}
 
 Soit $n \geqslant 1$ un entier ; on suppose qu’il existe $n$ racines $n$-ièmes de l’unité dans $\mathbf{K}$ (ce qui a lieu par exemple si $\mathbf{K}$ est séparablement clos et $n.1_\mathbf{K} \neq 0$). Le nombre des racines primitives $n$-ièmes de l’unité dans $\mathbf{K}$ est égal à $\varphi(n)$.
 
@@ -191,7 +191,7 @@ R_n(K) = K(\mu_n(K_s))
 $$
 est une extension cyclotomique de niveau $n$ de K. On peut considérer $\mu_n(K_s)$ comme un module libre de rang 1 sur l’anneau $\mathbf{Z}/n\mathbf{Z}$, et tout élément $\sigma$ de Gal$(K_s/K)$ induit un automorphisme de $\mu_n(K_s)$; il existe par suite un homomorphisme $\chi_n : \mathrm{Gal}(K_s/K) \to (\mathbf{Z}/n\mathbf{Z})^*$ caractérisé par la formule $u(\zeta) = \zeta^j$ pour toute racine n-ième de l’unité $\zeta$ dans $K_s$, tout $u$ dans Gal$(K_s/K)$ et tout entier $j$ dans la classe $\chi_n(u)$ modulo $n$. Comme on a $R_n(K) = K(\mu_n(K_s))$, le noyau de $\chi_n$ est le sous-groupe Gal$(K_s/R_n(K))$ de Gal$(K_s/K)$; par suite, on a $\chi_n = \varphi_n \circ \psi_n$ où $\psi_n$ est l’homomorphisme de restriction de Gal$(K_s/K)$ sur Gal$(R_n(K)/K)$ et $\varphi_n$ un homomorphisme injectif de Gal$(R_n(K)/K)$ dans $(\mathbf{Z}/n\mathbf{Z})^*$. En particulier, on a le résultat suivant :
 
-#### Proposition 5 {#alg-v-s11-prop-5 .statement}
+#### Proposition 5 {#alg-v-s11-prop-5 .statement tag=06OQ}
 
 *Pour tout entier $n \geq 1$ premier à $p$, l’extension $R_n(K)$ de $K$ est abélienne de degré fini, son groupe de Galois est isomorphe à un sous-groupe de $(\mathbf{Z}/n\mathbf{Z})^*$ et son degré divise l’ordre $\varphi(n)$ de $(\mathbf{Z}/n\mathbf{Z})^*$*.
 
@@ -201,7 +201,7 @@ $$
 $$
 où $S_n$ est l’ensemble des racines primitives $n$-ièmes de l’unité dans $\overline{\mathbf{Q}}$. Le polynôme $\Phi_n$ est de degré $\varphi(n)$ (prop. 4). Il est clair que $\Phi_n(X)$ est invariant par tout automorphisme de $\overline{\mathbf{Q}}$, donc appartient à $\mathbf{Q}[X]$. Comme tout élément $\zeta$ de $S_n$ est racine du polynôme $X^n - 1$, le polynôme $\Phi_n(X)$ divise $X^n - 1$, et le lemme suivant montre que $\Phi_n(X)$ est un polynôme unitaire à coefficients *entiers*.
 
-#### Lemme 2 {#alg-v-s11-lem-2 .statement}
+#### Lemme 2 {#alg-v-s11-lem-2 .statement tag=06OR}
 
 *Soient $f, g$ et $h$ des polynômes unitaires de $\mathbf{Q}[X]$ tels que $f = gh$. Si $f$ est à coefficients entiers, il en est de même de $g$ et $h$*.
 
@@ -259,7 +259,7 @@ $$
 
 Les cas $n = 6$ et $n = 10$ se traitent de manière analogue.
 
-#### Remarque {#alg-v-s11-n4-rem-1 .statement}
+#### Remarque {#alg-v-s11-n4-rem-1 .statement tag=06OS}
 
 \* Pour tout entier $n > 0$, on définit $\mu(n)$ de la façon suivante : si $n$ est divisible par le carré d’un nombre premier, on a $\mu(n) = 0$; sinon, on a $\mu(n) = (-1)^h$ si $n$ est le produit de $h$ nombres premiers distincts (« fonction de Möbius »). On peut montrer qu’on a
 
@@ -279,19 +279,19 @@ où $(p_1, \ldots, p_h)$ parcourt l’ensemble des suites strictement croissante
 
 Soit $p$ l’exposant caractéristique de $K$ et soit $n \geq 1$ un entier premier à $p$. Notons $\Phi_n \in K[X]$ l’image du polynôme à coefficients entiers $\Phi_n$ par l’unique homomorphisme de $\mathbf{Z}[X]$ dans $K[X]$ qui applique $X$ sur $X$.
 
-#### Lemme 3 {#alg-v-s11-lem-3 .statement}
+#### Lemme 3 {#alg-v-s11-lem-3 .statement tag=06OT}
 
 *Les racines de $\Phi_n$ dans $K_s$ sont les racines primitives $n$-ièmes de l’unité.*
 
 Notons $S_n$ l’ensemble des racines de $\Phi_n$ dans $K_s$. D’après la formule (6), l’ensemble $\mu_n(K_s)$ est réunion des $S_d$ pour $d$ divisant $n$. Toute racine primitive $n$-ième de l’unité appartient donc à $S_n$, et le lemme résulte de la prop. 4 (V, p. 77).
 
-#### Proposition 6 {#alg-v-s11-prop-6 .statement}
+#### Proposition 6 {#alg-v-s11-prop-6 .statement tag=06OU}
 
 *Soit $p$ l’exposant caractéristique de $K$ et soit $n \geq 1$ un entier premier à $p$. Pour que le polynôme $\Phi_n(X)$ soit irréductible dans $K[X]$, il faut et il suffit que l’homomorphisme $\chi_n : \mathrm{Gal}(K_s/K) \to (\mathbf{Z}/n\mathbf{Z})^*$ soit surjectif.*
 
 D’après le lemme 3, on a $R_n(K) = K(\zeta)$ pour toute racine $\zeta$ de $\Phi_n(X)$ et par suite $\Phi_n(X)$ est irréductible dans $K[X]$ si et seulement si le degré $\varphi(n)$ de $\Phi_n(X)$ est égal à $[R_n(K) : K]$. Par ailleurs, le groupe de Galois de $R_n(K)$ sur $K$ est d’ordre $[R_n(K) : K]$ et il est isomorphe au sous-groupe de $(\mathbf{Z}/n\mathbf{Z})^*$ image de $\chi_n$. La prop. 6 résulte alors de ce que $(\mathbf{Z}/n\mathbf{Z})^*$ est d’ordre $\varphi(n)$.
 
-#### Théorème 2 (Gauss) {#alg-v-s11-thm-2 .statement}
+#### Théorème 2 (Gauss) {#alg-v-s11-thm-2 .statement tag=06OV}
 
 — *Soient $\overline{\mathbf{Q}}$ une clôture algébrique de $\mathbf{Q}$ et $n \geq 1$ un entier.*
   a) *Le polynôme cyclotomique $\Phi_n(X)$ est irréductible dans $\mathbf{Q}[X]$.*
@@ -308,32 +308,32 @@ On peut montrer que, pour toute extension abélienne E de degré fini sur $\math
 
 ### 6. Extensions cycliques
 
-#### Définition 3 {#alg-v-s11-def-3 .statement}
+#### Définition 3 {#alg-v-s11-def-3 .statement tag=06OW}
 
 On dit qu’une extension E de K est cyclique, si elle est galoisienne et si son groupe de Galois est cyclique.
 
-#### Exemple 1 {#alg-v-s11-n6-exa-1 .statement}
+#### Exemple 1 {#alg-v-s11-n6-exa-1 .statement tag=0DI2}
 
 Toute extension galoisienne de degré premier est cyclique, car tout groupe fini G d’ordre premier $p$ est cyclique (en effet, tout élément $x \neq 1$ de G est d’ordre $p$, donc engendre G).
 
-#### Exemple 2 {#alg-v-s11-n6-exa-2 .statement}
+#### Exemple 2 {#alg-v-s11-n6-exa-2 .statement tag=0DI3}
 
 Soit $F(X) = X^2 + aX + b$ un polynôme irréductible dans $K[X]$. Le seul cas où $F(X)$ n’est pas séparable est celui où K est de caractéristique 2 et $a = 0$. On écarte désormais ce cas ; soit E une extension de K engendrée par une racine $x$ de $F(X)$. On a $[E : K] = 2$, et $F(X) = (X - x)(X + a + x)$, donc E est une extension galoisienne de K. Le groupe de Galois de E par rapport à K est d’ordre 2, donc cyclique.
 
-#### Exemple 3 {#alg-v-s11-n6-exa-3 .statement}
+#### Exemple 3 {#alg-v-s11-n6-exa-3 .statement tag=0DI4}
 
 Soient F un corps et $\sigma$ un automorphisme d’ordre fini $n$. Le corps E des invariants de $\sigma$ est aussi le corps des invariants du groupe cyclique d’ordre $n$ engendré par $\sigma$, et par suite (V, p. 64, th. 3), F est une extension cyclique de degré $n$ de E.
 
 On sait (I, p. 48) que tout sous-groupe et tout groupe quotient d’un groupe cyclique est cyclique. Par suite (V, p. 66, cor. 4), si E est une extension cyclique d’un corps K, de degré $n$, toute sous-extension F de E est cyclique sur K, et E est cyclique sur F. Pour tout diviseur $d$ de $n$, il existe un unique sous-corps F de degré $d$ sur K contenu dans E : en effet, dans un groupe cyclique d’ordre $n$, il existe un unique sous-groupe d’indice $d$.
 
-#### Théorème 3 (Hilbert) {#alg-v-s11-thm-3 .statement}
+#### Théorème 3 (Hilbert) {#alg-v-s11-thm-3 .statement tag=06OX}
 
 Soit E une extension cyclique de K, et soit $\sigma$ un générateur du groupe de Galois $\Gamma$ de E sur K.
 a) Pour qu’un élément $x \in E$ soit tel que $N_{E/K}(x) = 1$, il faut et il suffit qu’il existe $y \in E^*$ tel que $x = y/\sigma(y)$; tout $y_1 \in E^*$ tel que $x = y_1/\sigma(y_1)$ est alors de la forme $\lambda y$, avec $\lambda \in K^*$.
 b) Pour qu’un élément $x \in E$ soit tel que $\mathrm{Tr}_{E/K}(x) = 0$, il faut et il suffit qu’il existe $z \in E$ tel que $x = z - \sigma(z)$; tout $z_1 \in E$ tel que $x = z_1 - \sigma(z_1)$ est alors de la forme $z + \mu$, avec $\mu \in K$.
 
 Prouvons d’abord un lemme.
-#### Lemme 4 {#alg-v-s11-lem-4 .statement}
+#### Lemme 4 {#alg-v-s11-lem-4 .statement tag=06OY}
 
 Soient $\Gamma$ un groupe cyclique d’ordre $n$, $\sigma$ un générateur de $\Gamma$ et M un groupe commutatif sur lequel opère $\Gamma$ de façon que $\gamma.(m + m') = \gamma.m + \gamma.m'$ pour tous $\gamma \in \Gamma, m, m' \in M$. Soit $Z$ l’ensemble des applications $f$ de $\Gamma$ dans $M$ satisfaisant à la relation
 
@@ -367,19 +367,19 @@ Dans ce numéro, on note $n$ un entier $> 0$ et $T$ un groupe cyclique d’ordre
 
 Pour tout groupe $G$, notons $\operatorname{Hom}(G, T)$ le groupe des homomorphismes de $G$ dans $T$; c’est un groupe commutatif annulé par $n$.
 
-#### Proposition 7 {#alg-v-s11-prop-7 .statement}
+#### Proposition 7 {#alg-v-s11-prop-7 .statement tag=06OZ}
 
 *Soient $G$ un groupe commutatif annulé par $n$ et $H$ un sous-groupe de $G$. L’homomorphisme de restriction $\operatorname{Hom}(G, T) \to \operatorname{Hom}(H, T)$ est surjectif.*
 
 Soit en effet $f : H \to T$ un homomorphisme et prouvons qu’il existe un homomorphisme de $G$ dans $T$ prolongeant $f$. Supposons d’abord $G$ cyclique, engendré par un élément $g$ d’ordre $r$ divisant $n$; notons $t$ un générateur de $T$. Il existe un diviseur $s$ de $r$ tel que $H$ soit engendré par $g^s$ (I, p. 48, prop. 19), et l’on a, pour tout $x \in \mathbf{Z}, f(g^{sx}) = t^{ax}$, où $a$ est un entier tel que $n$ divise $ar/s$. Alors $a/s = (ar/ns)(n/r)$ est entier et l’homomorphisme $g^x \mapsto t^{(a/s)x},\ x \in \mathbf{Z}$, de $G$ dans $T$ prolonge $f$. Dans le cas général, considérons l’ensemble des couples $(H', f')$, où $H'$ est un sous-groupe de $G$ contenant $H$ et $f'$ un homomorphisme de $H'$ dans $T$ prolongeant $f$, et ordonnons-le par la relation $(H', f') \leq (H'', f'')$ si $H' \subset H''$ et si la restriction de $f''$ à $H'$ est $f'$. D’après E, III, p. 20, déf. 3 et th. 2, cet ensemble possède un élément maximal $(H_1, f_1)$, et il suffit de prouver que $H_1 = G$; dans le cas contraire, il existe $g \in G,\ g \notin H_1$, et il suffit de prouver que $f_1$ peut se prolonger en un homomorphisme dans $T$ du sous-groupe de $G$ engendré par $H_1$ et $g$. Or, si $C$ désigne le groupe cyclique engendré par $g$, la restriction de $f_1$ à $C \cap H_1$ se prolonge en un homomorphisme $f_2$ de $C$ dans $T$ et l’homomorphisme $xy \mapsto f_1(x)f_2(y),\ x \in H_1,\ y \in C$, de $H_1C$ dans $T$ répond à la question.
 
-#### Corollaire 1 {#alg-v-s11-prop-7-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s11-prop-7-cor-1 .statement tag=06P0}
 
 *Si $G$ est un groupe commutatif annulé par $n$, et si $G \neq \{1\}$, alors $\mathrm{Hom}(G, T) \neq \{1\}$*.
 
 En effet, il suffit de remarquer que si $H$ est un sous-groupe cyclique de $G$ distinct de $\{1\}$, on a $\mathrm{Hom}(H, T) \neq \{1\}$, et d’appliquer la prop. 7.
 
-#### Corollaire 2 {#alg-v-s11-prop-7-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s11-prop-7-cor-2 .statement tag=06P1}
 
 *Si $G$ est un groupe commutatif fini annulé par $n$, les groupes $G$ et $\mathrm{Hom}(G, T)$ ont même ordre*.
 
@@ -411,7 +411,7 @@ $$
 
 par $s_f(g)(h) = d_f(h)(g) = f(g, h)$ (cf. II, p. 74, cor. à la prop. 1, lorsque G et H sont commutatifs).
 
-#### Proposition 8 {#alg-v-s11-prop-8 .statement}
+#### Proposition 8 {#alg-v-s11-prop-8 .statement tag=06P2}
 
 *Supposons G et H commutatifs et annulés par n. Si $s_f$ est bijectif et H fini, alors $d_f$ est bijectif et l’on a $\mathrm{Card}(G) = \mathrm{Card}(H)$.*
 
@@ -425,13 +425,13 @@ On dit qu’une extension L de K est *abélienne d’exposant divisant n* si ell
 
 Soit A une partie de $K^*$ ; on note $K(A^{1/n})$ la sous-extension de $\Omega$ engendrée par les $\theta \in \Omega$ tels que $\theta^n \in A$.
 
-#### Lemme 5 {#alg-v-s11-lem-5 .statement}
+#### Lemme 5 {#alg-v-s11-lem-5 .statement tag=06P3}
 
 *$K(A^{1/n})$ est une extension abélienne de K d’exposant divisant n.*
 
 Comme les polynômes $X^n - a, a \in A$, sont séparables sur K, $L = K(A^{1/n})$ est une extension séparable, donc galoisienne, de K. Soit $\sigma \in \mathrm{Gal}(L/K)$ et soit $\theta \in \Omega$ tel que $\theta^n \in A$. On a $\sigma(\theta)^n = \theta^n$ ; il existe donc $\zeta \in \mu_n(\Omega) = \mu_n(K)$ tel que $\sigma(\theta) = \zeta \theta$ : cela implique $\sigma^n(\theta) = \zeta^n \theta = \theta$, d’où $\sigma^n = 1$. Si $\sigma'$ est un autre élément de $\mathrm{Gal}(L/K)$, il existe $\zeta' \in \mu_n(K)$ tel que $\sigma'(\theta) = \zeta' \theta$, d’où $\sigma' \sigma(\theta) = \zeta \zeta' \theta = \sigma \sigma'(\theta)$, et $\sigma' \sigma = \sigma \sigma'$.
 
-#### Lemme 6 {#alg-v-s11-lem-6 .statement}
+#### Lemme 6 {#alg-v-s11-lem-6 .statement tag=06P4}
 
 *Soit L une extension galoisienne de K. Il existe une unique application $(\sigma, a) \mapsto \langle \sigma, a \rangle$ de $\mathrm{Gal}(L/K) \times ((L^n \cap K^*)/K^{*n})$ dans $\mu_n(K)$ telle que pour tout $\sigma \in \mathrm{Gal}(L/K)$ et tout élément $\theta \in L^*$ tel que $\theta^n \in K$, on ait, notant $\overline{\theta}^n$ la classe de $\theta^n$ mod. $K^{*n}$ :
 
@@ -454,7 +454,7 @@ $$
 
 les homomorphismes déduits de l’application bimultiplicative précédente (V, p. 83).
 
-#### Proposition 9 {#alg-v-s11-prop-9 .statement}
+#### Proposition 9 {#alg-v-s11-prop-9 .statement tag=06P5}
 
 *Pour toute extension galoisienne de degré fini L de K, l’homomorphisme k_L est bijectif.*
 
@@ -464,13 +464,13 @@ f(\sigma \tau) = f(\sigma) f(\tau) = f(\sigma) \cdot \sigma f(\tau) , \quad f(\s
 $$
 D’après V, p. 63, cor. 1, il existe $\theta \in L^*$ tel que $f(\sigma) = \sigma(\theta)/\theta$ pour tout $\sigma \in \operatorname{Gal}(L/K)$; comme $f(\sigma)^n = 1$, on a $\sigma(\theta^n) = \theta^n$ pour tout $\sigma \in \operatorname{Gal}(L/K)$, donc $\theta^n \in K^*$; si $a$ est la classe de $\theta^n$ mod. $K^{*n}$, on a par définition $f(\sigma) = \langle \sigma, a \rangle$ pour $\sigma \in \operatorname{Gal}(L/K)$, donc $f = k_L(a)$.
 
-#### Corollaire {#alg-v-s11-n8-cor-1 .statement}
+#### Corollaire {#alg-v-s11-n8-cor-1 .statement tag=06P6}
 
 *Si L est une extension galoisienne de K, l’homomorphisme k_L est injectif et son image est le groupe $\operatorname{Hom}_c(\operatorname{Gal}(L/K), \mu_n(K))$ des homomorphismes continus du groupe topologique $\operatorname{Gal}(L/K)$ dans le groupe discret $\mu_n(K)$.
 
 Cela résulte aussitôt de ce qui précède, du fait que L est réunion filtrante croissante de sous-extensions galoisiennes $L_i$ de degré fini, et de ce qu’un homomorphisme de $\operatorname{Gal}(L/K)$ dans $\mu_n(K)$ est continu si et seulement s’il se factorise par un des quotients $\operatorname{Gal}(L_i/K)$ de $\operatorname{Gal}(L/K)$.
 
-#### Théorème 4 {#alg-v-s11-thm-4 .statement}
+#### Théorème 4 {#alg-v-s11-thm-4 .statement tag=06P7}
 
 *a) L’application $H \mapsto K(H^{1/n})$ est une bijection croissante de l’ensemble des sous-groupes de $K^*$ contenant $K^{*n}$ sur l’ensemble des sous-extensions abéliennes d’exposant divisant n de $\Omega$. L’application réciproque est $L \mapsto L^n \cap K^*$.
 b) Pour tout sous-groupe H de $K^*$ contenant $K^{*n}$, l’homomorphisme
@@ -503,23 +503,23 @@ Si l’on identifie $\operatorname{Hom}(H_L/K^{*n}, \mu_n(K))$ à Gal(L/K) grâc
 
 D) Démontrons c). Si $a, b \in H$, on a $\theta_a \theta_b / \theta_{ab} \in K$. Il en résulte que le sous-espace vectoriel de $K(H^{1/n})$ engendré par les $\theta_a$ est stable par multiplication, donc coïncide avec $K(H^{1/n})$. Il nous reste donc à démontrer que les $\theta_a$ sont linéairement indépendants ; pour ce faire, on peut évidemment supposer que $H/K^{*n}$ est fini ; alors $[K(H^{1/n}) : K] = (\operatorname{Gal}(K(H^{1/n})/K) : \{1\}) = (H : K^{*n})$ d’après b) et le cor. 2 de V, p. 83 ; comme les $\theta_a$ sont au nombre de $(H : K^{*n})$ et engendrent le K-espace vectoriel $K(H^{1/n})$, ils sont linéairement indépendants.
 
-#### Exemple 1 {#alg-v-s11-n8-exa-1 .statement}
+#### Exemple 1 {#alg-v-s11-n8-exa-1 .statement tag=06P8}
 
 Il existe une plus grande extension abélienne d’exposant divisant n de K contenue dans $\Omega$; elle s’obtient en adjoignant à K les racines n-ièmes de tous ses éléments ; son groupe de Galois s’identifie à $\operatorname{Hom}(K^*/K^{*n}, \mu_n(K))$, donc aussi à $\operatorname{Hom}(K^*, \mu_n(K))$.
 
-#### Exemple 2 {#alg-v-s11-n8-exa-2 .statement}
+#### Exemple 2 {#alg-v-s11-n8-exa-2 .statement tag=06P9}
 
 \* Prenons $K = \mathbf{Q}$ et $n = 2$. Alors $\mathbf{Q}^*/\mathbf{Q}^{*2}$ est un $\mathbf{F}_2$-espace vectoriel admettant pour base la réunion de $\{-1\}$ et de l’ensemble des nombres premiers. La plus grande extension abélienne d’exposant 2 de $\mathbf{Q}$ contenue dans $\mathbf{C}$ est donc le sous-corps $\mathbf{Q}(i, \sqrt{2}, \sqrt{3}, \sqrt{5}, ...)$ de $\mathbf{C}$. Son groupe de Galois est formé de tous les automorphismes obtenus en multipliant de façon indépendante chacun des éléments $i, \sqrt{2}, \sqrt{3}, \sqrt{5}$, etc., par $\pm 1$.
 
-#### Exemple 3 {#alg-v-s11-n8-exa-3 .statement}
+#### Exemple 3 {#alg-v-s11-n8-exa-3 .statement tag=06PA}
 
 Soit L une extension cyclique de K de degré n ; alors le groupe $(L^n \cap K^*)/K^{*n}$ est cyclique d’ordre n. Si $a \in K^*$ est tel que la classe de $a$ mod. $K^{*n}$ est un générateur de ce groupe, alors L est K-isomorphe à K[X]/(X^n - a), et le groupe Gal(L/K) est formé des n automorphismes transformant X en les $\zeta X$, $\zeta \in \mu_n(K)$.
 
-#### Exemple 4 {#alg-v-s11-n8-exa-4 .statement}
+#### Exemple 4 {#alg-v-s11-n8-exa-4 .statement tag=06PB}
 
 Inversement, soit $a \in K^*$, et soit r le plus petit entier > 0 tel que $a^r \in K^{*n}$; alors le sous-corps L de $\Omega$ engendré par les racines du polynôme $X^n - a$ est une extension cyclique de K de degré r. En particulier, $X^n - a$ est irréductible si et seulement si $r = n$.
 
-#### Remarque {#alg-v-s11-n8-rem-1 .statement}
+#### Remarque {#alg-v-s11-n8-rem-1 .statement tag=06PC}
 
 Soit $a \in K^*$ et soit r le plus petit entier > 0 tel que $a^r \in K^n$. Soit B l’ensemble des racines dans K du polynôme $X^{n/r} - a$; alors on a
 
@@ -539,13 +539,13 @@ $$
 
 D’après V, p. 89, le noyau de $\rho$ est le sous-corps premier $F_p$ de K. Pour toute partie A de K, notons $K(\rho^{-1}(A))$ la sous-extension de $\Omega$ engendrée par les $x \in \Omega$ tels que $\rho(x) \in A$.
 
-#### Lemme 7 {#alg-v-s11-lem-7 .statement}
+#### Lemme 7 {#alg-v-s11-lem-7 .statement tag=06PD}
 
 $K(\rho^{-1}(A))$ est une extension abélienne de K d’exposant divisant p.
 
 Comme les polynômes $\rho - a = X^p - X - a, \ a \in A,$ sont séparables sur K, l’extension $L = K(\rho^{-1}(A))$ est galoisienne. Soit $\sigma \in \mathrm{Gal}(L/K)$ et soit $x \in \rho^{-1}(A)$; on a $\rho(\sigma(x)) = \rho(x)$, donc $\sigma(x) - x \in F_p$, c’est-à-dire $\sigma(x) = x + i, \ i \in F_p$. Cela implique $\sigma^p(x) = x + pi = x$, donc $\sigma^p = 1$; de même, si $\sigma' \in \mathrm{Gal}(L/K)$ et si $\sigma'(x) = x + j$, on a $\sigma \circ \sigma'(x) = x + i + j = \sigma' \circ \sigma(x)$, donc $\sigma \circ \sigma' = \sigma' \circ \sigma$.
 
-#### Lemme 8 {#alg-v-s11-lem-8 .statement}
+#### Lemme 8 {#alg-v-s11-lem-8 .statement tag=06PE}
 
 Soit L une extension galoisienne de K. Il existe une unique application $(\sigma, a) \mapsto [\sigma, a]$ de $\mathrm{Gal}(L/K) \times ((\rho(L) \cap K)/\rho(K))$ dans $F_p$ telle que, pour tout $\sigma \in \mathrm{Gal}(L/K)$ et tout élément x de L tel que $\rho(x) \in K$, on ait, notant $\overline{\rho(x)}$ la classe de $\rho(x)$ mod. $\rho(K)$
 
@@ -566,7 +566,7 @@ a'_L : \mathrm{Gal}(L/K) \to \mathrm{Hom}((\mathfrak{p}(L) \cap K)/\mathfrak{p}(
 $$
 les homomorphismes déduits de l’application $\mathbf{Z}$-bilinéaire précédente (V, p. 83).
 
-#### Proposition 10 {#alg-v-s11-prop-10 .statement}
+#### Proposition 10 {#alg-v-s11-prop-10 .statement tag=06PF}
 
 *Pour toute extension galoisienne de degré fini $L$ de $K$, l’homomorphisme $a_L$ est bijectif.*
 
@@ -576,12 +576,12 @@ f(\sigma \tau) = f(\sigma) + \sigma(f(\tau)) , \quad f(\sigma) \in \mathbf{F}_p 
 $$
 D’après V, p. 63, cor. 2, il existe $x \in L$ tel que $f(\sigma) = \sigma(x) - x$ pour tout $\sigma \in \mathrm{Gal}(L/K)$. Comme $f(\sigma) \in \mathbf{F}_p$, on a $p(\sigma(x)) = p(x)$, donc $\sigma(p(x)) = p(x)$ pour tout $\sigma \in \mathrm{Gal}(L/K)$ et $p(x) \in K$. Si $a$ est la classe de $p(x)$ mod. $p(K)$, on a $f(\sigma) = [\sigma, a]$, donc $f = a_L(a)$.
 
-#### Corollaire {#alg-v-s11-n9-cor-1 .statement}
+#### Corollaire {#alg-v-s11-n9-cor-1 .statement tag=06PG}
 
 *Si $L$ est une extension galoisienne de $K$, l’homomorphisme $a_L$ est injectif et son image est le groupe $\mathrm{Hom}_c(\mathrm{Gal}(L/K), \mathbf{F}_p)$ des homomorphismes continus du groupe topologique $\mathrm{Gal}(L/K)$ dans le groupe discret $\mathbf{F}_p$.*
 Cela se démontre comme le cor. de la prop. 9 de V, p. 85.
 
-#### Théorème 5 {#alg-v-s11-thm-5 .statement}
+#### Théorème 5 {#alg-v-s11-thm-5 .statement tag=06PH}
 
 *a) L’application $A \mapsto K(p^{-1}(A))$ est une bijection de l’ensemble des sous-groupes de $K$ contenant $p(K)$ sur l’ensemble des sous-extensions abéliennes d’exposant divisant $p$ de $\Omega$. L’application réciproque est $L \mapsto \mathfrak{p}(L) \cap K$.
 b) Pour tout sous-groupe $A$ de $K$ contenant $p(K)$, l’homomorphisme
@@ -596,15 +596,15 @@ $$
 $$
 Le th. 5 se démontre comme le th. 4 (V, p. 85), *mutatis mutandis*.
 
-#### Exemple 1 {#alg-v-s11-n9-exa-1 .statement}
+#### Exemple 1 {#alg-v-s11-n9-exa-1 .statement tag=06PI}
 
 Il existe une plus grande extension abélienne de $K$ d’exposant divisant $p$ contenue dans $\Omega$; c’est $K(p^{-1}(K))$; son groupe de Galois s’identifie à $\mathrm{Hom}(K/p(K), \mathbf{F}_p)$.
 
-#### Exemple 2 {#alg-v-s11-n9-exa-2 .statement}
+#### Exemple 2 {#alg-v-s11-n9-exa-2 .statement tag=06PJ}
 
 Soit L une extension cyclique de K de degré $p$; alors le groupe $(\mathfrak{p}(L) \cap K)/\mathfrak{p}(K)$ est cyclique d’ordre $p$. Si $a \in K$ est tel que la classe de $a$ mod. $\mathfrak{p}(K)$ est un générateur de ce groupe, alors L est K-isomorphe à $K[X]/(X^p - X - a)$, et le groupe de Galois $\mathrm{Gal}(L/K)$ est formé des $p$ automorphismes transformant $X$ en $X + i, i \in \mathbf{F}_p$.
 
-#### Exemple 3 {#alg-v-s11-n9-exa-3 .statement}
+#### Exemple 3 {#alg-v-s11-n9-exa-3 .statement tag=06PK}
 
 Inversement, si $a \in K - \mathfrak{p}(K)$, alors le polynôme $X^p - X - a$ est irréductible et le sous-corps L de $\Omega$ engendré par ses racines est une extension cyclique de K de degré $p$. Si $a \in \mathfrak{p}(K)$, alors $X^p - X - a = \prod_{\alpha \in \mathfrak{p}^{-1}(a)} (X - \alpha)$.
 

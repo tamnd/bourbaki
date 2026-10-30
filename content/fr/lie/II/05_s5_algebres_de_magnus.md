@@ -32,7 +32,7 @@ subsections:
       pdf_page: 48
 statements: 14
 exercises: 12
-content_sha256: 6994d1fcef1279c0e7cff0c45ff4c40d2c5fa008b3fcaaed2d058d386707fb02
+content_sha256: 8ddcdeaf965f4bdf261592310750d374afbf9ee729a881469ce7c370aa7b29cd
 ---
 
 ## § 5. Algèbres de Magnus
@@ -57,7 +57,7 @@ Pour tout entier $m \geq 0$, on note $\hat{A}_m(X)$ l’idéal formé des série
 
 On dit que $\hat{A}(X)$ est l’algèbre de Magnus de l’ensemble $X$ à coefficients dans $K$. Si une ambiguïté sur $K$ est possible on écrira $\hat{A}_K(X)$.
 
-#### Proposition 1 {#lie-ii-s5-prop-1 .statement}
+#### Proposition 1 {#lie-ii-s5-prop-1 .statement tag=0A5B}
 
 Soit $B$ une algèbre associative unifère, munie d’une filtration réelle $(B_\alpha)_{\alpha \in \mathbf{R}}$ pour laquelle $B$ est séparée et complète ($§ 4$, n°s 1 et 2). Soit $f$ une application de $X$ dans $B$, telle qu’il existe $\lambda > 0$ pour lequel $f(X) \subset B_\lambda$. Alors $f$ se prolonge d’une manière et d’une seule en un homomorphisme unifère continu $\hat{f}$ de $\hat{A}(X)$ dans $B$.
 
@@ -75,7 +75,7 @@ pour tout $v \in \hat{\mathbf{A}}(Y)$.
 
 Pour tout $a = (a_n)_{n \geq 0}$ dans $\hat{\mathbf{A}}(X)$, l’élément $a_0$ de $K$ sera appelé le terme constant de $a$, et noté $\varepsilon(a)$. La formule (1) montre que $\varepsilon$ est un homomorphisme d’algèbre de $\hat{\mathbf{A}}(X)$ dans $K$.
 
-#### Lemme 1 {#lie-ii-s5-lem-1 .statement}
+#### Lemme 1 {#lie-ii-s5-lem-1 .statement tag=0A5C}
 
 Pour qu’un élément $a$ de $\hat{\mathbf{A}}(X)$ soit inversible, il faut et il suffit que son terme constant soit inversible dans $K$.
 
@@ -85,13 +85,13 @@ L’ensemble des éléments de $\hat{\mathbf{A}}(X)$ de terme constant 1 est don
 
 ### 3. Groupe de Magnus et groupe libre
 
-#### Théorème 1 {#lie-ii-s5-thm-1 .statement}
+#### Théorème 1 {#lie-ii-s5-thm-1 .statement tag=0A5D}
 
 Soit $r$ une application de $X$ dans $\hat{\mathbf{A}}(X)$ telle que $\omega(r(x)) \geq 2$ pour tout $x \in X$. L’unique homomorphisme $g$ du groupe libre $F(X)$ dans le groupe de Magnus $\Gamma(X)$, tel que $g(x) = 1 + x + r(x)$ pour tout $x \in X$, est injectif.
 
 Démontrons d’abord trois lemmes.
 
-#### Lemme 2 {#lie-ii-s5-lem-2 .statement}
+#### Lemme 2 {#lie-ii-s5-lem-2 .statement tag=0A5E}
 
 Soit $n$ un entier rationnel non nul. Dans l’anneau de séries formelles $\mathbf{K}[[t]]$, on pose $(1 + t)^n = \sum_{j \geq 0} c_{j,n} t^j$. Il existe un entier $j \geq 1$ tel que $c_{j,n} \neq 0$.
 
@@ -99,7 +99,7 @@ Si $n > 0$, on a $c_{n,n} = 1$ d’après la formule du binôme.
 
 Supposons $n < 0$ et posons $m = -n$. Si l’on avait $c_{j,n} = 0$ pour tout $j \geq 1$, on aurait $(1 + t)^n = 1$, d’où en prenant l’inverse, $(1 + t)^m = 1$, ce qui est contraire à la formule $c_{m,m} = 1$.
 
-#### Lemme 3 {#lie-ii-s5-lem-3 .statement}
+#### Lemme 3 {#lie-ii-s5-lem-3 .statement tag=0A5F}
 
 Soient $x_1, \ldots, x_s$ des éléments de $X$, tels que $s \geq 1$ et $x_i \neq x_{i+1}$ pour $1 \leq i \leq s-1$; soient $n_1, \ldots, n_s$ des entiers rationnels non nuls. Alors l’élément $\prod_{i=1}^s (1 + x_i)^{n_i}$ de $\hat{\mathbf{A}}(X)$ est $\neq 1$.
 
@@ -113,7 +113,7 @@ $$
 
 D’après le lemme 2, il existe des entiers $a_i > 0$ tels que $c_{a_i,n_i} \neq 0$ ($1 \leq i \leq s$). D’après A, I, p. 84, prop. 6, aucun monôme $x_1^{b_1} \cdots x_s^{b_s}$ tel que $b_i \geq 0$ et $(b_1, \ldots, b_s) \neq (a_1, \ldots, a_s)$ ne peut être égal à $x_1^{a_1} \cdots x_s^{a_s}$. Il s’ensuit que le coefficient de $x_1^{a_1} \cdots x_s^{a_s}$ dans $\prod_{i=1}^s (1 + x_i)^{n_i}$ est $c_{a_1,n_1} \cdots c_{a_s,n_s} \neq 0$, ce qui entraîne le résultat.
 
-#### Lemme 4 {#lie-ii-s5-lem-4 .statement}
+#### Lemme 4 {#lie-ii-s5-lem-4 .statement tag=0A5G}
 
 Soit $\sigma$ l’endomorphisme continu de $\hat{\mathbf{A}}(X)$ tel que $\sigma(x) = x + r(x)$ pour $x \in X$ (no 1, prop. 1). Alors $\sigma$ est un automorphisme et $\sigma(\hat{\mathbf{A}}_m(X)) = \hat{\mathbf{A}}_m(X)$ pour tout $m \in \mathbf{N}$.
 
@@ -143,11 +143,11 @@ donc $g(w) \neq 1$ d’après les lemmes 3 et 4.
 
 Nous allons démontrer les deux théorèmes suivants:
 
-#### Théorème 2 {#lie-ii-s5-thm-2 .statement}
+#### Théorème 2 {#lie-ii-s5-thm-2 .statement tag=0A5H}
 
 On suppose que dans l’anneau K, la relation $n \cdot 1 = 0$ entraîne $n = 0$ pour tout entier $n$. Soit $r$ une application de $X$ dans $\hat{A}(X)$ telle que $\omega(r(x)) \geq 2$ pour $x \in X$, et soit $g$ l’homomorphisme de $F(X)$ dans le groupe de Magnus $\Gamma(X)$ tel que $g(x) = 1 + x + r(x)$ pour $x \in X$. Pour tout $n \geq 1$, $C^n F(X)$ est l’image réciproque par $g$ du sous-groupe $1 + \hat{A}_n(X)$ de $\Gamma(X)$.
 
-#### Théorème 3 {#lie-ii-s5-thm-3 .statement}
+#### Théorème 3 {#lie-ii-s5-thm-3 .statement tag=0A5I}
 
 Pour tout $x \in X$, soit $c(x)$ l’image canonique de $x$ dans $F(X)/(F(X), F(X))$. Soit $g$ la $\mathbf{Z}$-algèbre de Lie graduée associée à la filtration $(C^n F(X))_{n \geq 1}$ de $F(X)$ (§ 4, n° 6). L’unique homomorphisme de la $\mathbf{Z}$-algèbre de Lie libre $L_Z(X)$ dans $g$ qui prolonge $c$ est un isomorphisme.
 
@@ -192,7 +192,7 @@ $$
 
 On a $C^1 = F = F^1$; si $C^n = F^n$, on a $C^n \cap F^{n+1} = F^{n+1}$ d’où $C^{n+1} = F^{n+1}$, ce qui démontre le th. 2 par récurrence sur $n \geq 1$.
 
-#### Corollaire {#lie-ii-s5-n4-cor-1 .statement}
+#### Corollaire {#lie-ii-s5-n4-cor-1 .statement tag=0A5J}
 
 *On a*
 
@@ -206,7 +206,7 @@ $$
 \bigcap_{n \geq 1} C^n F(X) = \bigcap_{n \geq 1} g^{-1}(1 + \hat{A}_n(X)) = g^{-1}\left(\bigcap_{n \geq 1} (1 + \hat{A}_n(X))\right) = g^{-1}(1) = \{e\}.
 $$
 
-#### Remarque {#lie-ii-s5-n4-rem-1 .statement}
+#### Remarque {#lie-ii-s5-n4-rem-1 .statement tag=0A5K}
 
 Soit $H$ un ensemble de Hall relatif à $X$ (§ 2, n° 10). Soit $M$ le magma défini par la loi de composition $(x, y) \mapsto (x, y) = x^{-1}y^{-1}xy$ sur $F(X)$, et soit $\varphi$ l’homomorphisme de $M(X)$ dans $M$ dont la restriction à $X$ est l’identité. Les éléments de $\varphi(H)$ s’appellent les *commutateurs basiques* de $F(X)$ associés à l’ensemble de Hall $H$. Pour tout entier $n \geq 1$, soit $H_n$ la partie de $H$ formée des éléments de longueur $n$; on sait (§ 2, n° 11, th. 1) que l’application canonique de $H_n$ dans $L_\mathbf{Z}(X)$ est une base du groupe abélien $L^n_\mathbf{Z}(X)$. De plus, on a $\varphi(H_n) \subset C^n$; pour tout $m \in H_n$, notons $\varphi_n(m)$ la classe mod. $C^{n+1}$ de $\varphi(m) \in C^n$. Le th. 3 montre alors que $\varphi_n$ est une bijection de $H_n$ sur une base du groupe abélien $C^n/C^{n+1}$. On déduit aussitôt de là que, pour tout $w \in F(X)$, et tout $i \geq 1$, il existe un élément unique $\alpha_i$ de $\mathbf{Z}^{(H_i)}$ tel que, pour tout $n \geq 1$, on ait
 
@@ -216,7 +216,7 @@ $$
 
 où le produit est calculé suivant l’ordre total donné sur $H$.
 
-#### Exemple {#lie-ii-s5-n4-exa-1 .statement}
+#### Exemple {#lie-ii-s5-n4-exa-1 .statement tag=0A5L}
 
 Supposons que $X$ soit un ensemble à deux éléments $x, y$ et prenons $H_1 = \{x, y\}, H_2 = \{xy\}$. Tout élément $w$ de $F(X)$ peut donc s’écrire
 
@@ -234,19 +234,19 @@ $$
 
 Dans ce $n^\circ$, on note $p$ un nombre premier et l’on suppose $K = \mathbf{F}_p$. Soit $\gamma$ l’homomorphisme de $F(X)$ dans $\Gamma(X)$ défini par $\gamma(x) = 1 + x$ pour $x$ dans $X$; posons $F_n^{(p)}(X) = \gamma^{-1}(1 + \hat{A}_n(X))$. La suite $(F_n^{(p)}(X))_{n \geq 1}$ est une filtration centrale entière sur $F(X)$, qui est séparée car $\gamma$ est injectif ($n^\circ 3$, th. 1). On l’appelle la $p$-filtration de $F(X)$.
 
-#### Proposition 2 {#lie-ii-s5-prop-2 .statement}
+#### Proposition 2 {#lie-ii-s5-prop-2 .statement tag=0A5M}
 
 *Supposons $X$ fini. Pour tout entier $n \geq 1$, le groupe $F(X)/F_n^{(p)}(X)$ est un $p$-groupe fini de classe de nilpotence $\leq n$.*
 
 Raisonnant par récurrence sur $n$, il suffit de prouver que $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ est un $p$-groupe commutatif fini pour tout $n \geq 1$. Pour tout $w \in F_n^{(p)}(X)$, l’élément $\gamma(w) - 1$ de $\hat{A}(X)$ est d’ordre $\geq n$; on note $\delta_n(w)$ la composante homogène de degré $n$ de $\gamma(w) - 1$. L’application $\delta_n : F_n^{(p)}(X) \to A^n(X)$ est un homomorphisme de noyau $F_{n+1}^{(p)}(X)$ ($§ 4$, $n^\circ 5$, prop. 3), donc $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ est isomorphe à un sous-groupe de $A^n(X)$. Puisque $X$ est fini, $A^n(X)$ est un espace vectoriel de dimension finie sur $\mathbf{F}_p$, donc un $p$-groupe commutatif fini et il en est de même de $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$.
 
-#### Proposition 3 {#lie-ii-s5-prop-3 .statement}
+#### Proposition 3 {#lie-ii-s5-prop-3 .statement tag=0A5N}
 
 *Pour tout $w \neq 1$ dans $F(X)$, il existe un $p$-groupe fini $G$ et un homomorphisme $f$ de $F(X)$ dans $G$ tel que $f(w) \neq 1$.*
 
 Il existe des éléments $x_1, \ldots, x_r$ de $X$ et des entiers $n_1, \ldots, n_r$ tels que $w = x_1^{n_1} \ldots x_r^{n_r}$. Soit $Y = \{x_1, \ldots, x_r\}$. L’injection canonique de $Y$ dans $X$ se prolonge en un homomorphisme $\alpha : F(Y) \to F(X)$; par ailleurs, soit $\beta$ l’homomorphisme de $F(X)$ dans $F(Y)$ dont la restriction à $Y$ est l’identité et qui applique $X - Y$ dans $\{1\}$. On a $\beta(\alpha(y)) = y$ pour $y \in Y$, donc $\beta \circ \alpha$ est l’automorphisme identique de $F(Y)$. Il existe évidemment $w'$ dans $F(Y)$ tel que $w = \alpha(w')$; alors $\beta(w) = w' \neq 1$; or on a $\bigcap_{n \geq 1} F_n^{(p)}(Y) = \{1\}$ et il existe donc un entier $n \geq 1$ tel que $\beta(w) \notin F_n^{(p)}(Y)$. D’après la prop. 2, le groupe $G = F(Y)/F_n^{(p)}(Y)$ est un $p$-groupe fini. Si $f$ est le composé de $\beta$ et de l’homomorphisme canonique de $F(Y)$ sur $G$, on a $f(w) \neq 1$.
 
-#### Corollaire {#lie-ii-s5-n5-cor-1 .statement}
+#### Corollaire {#lie-ii-s5-n5-cor-1 .statement tag=0A5O}
 
 *L’intersection des sous-groupes distingués d’indice fini de $F(X)$ est réduite à $\{1\}$*.
 

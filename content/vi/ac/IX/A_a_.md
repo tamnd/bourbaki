@@ -26,7 +26,7 @@ subsections:
       pdf_page: 153
 statements: 13
 exercises: 6
-content_sha256: 528bd946d8318b65d39cd9b84ebb33859929a4accd36582c1b2e25cec7a2c23b
+content_sha256: 43f5d2b42408a9d0ca078536631381083ee63e0d1b64266413b55e54bafab337
 translated_from: content/en-mt/ac/IX/A_a_.md
 source_lang: en-mt
 translation_method: machine
@@ -44,7 +44,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho I là một tập hợp tiền thứ tự lọc phải khác rỗng và cho $(A_\alpha, \varphi_{\beta\alpha})$ là một hệ quy nạp của các vành đối với I. Giả sử rằng, với mọi $\alpha \in I$, vành $A_\alpha$ là địa phương, với iđêan cực đại $m_\alpha$, rằng các đồng cấu $\varphi_{\beta\alpha}$ là địa phương và phẳng, và rằng ta có $\varphi_{\beta\alpha}(m_\alpha)$ $A_\beta = m_\beta$ với $\beta \geq \alpha$. Ký hiệu A là giới hạn quy nạp của các $A_\alpha$, và với mọi $\alpha \in I$, ký hiệu $\varphi_\alpha : A_\alpha \to A$ là đồng cấu chính tắc.
 
-#### Mệnh đề 1 {#ac-ix-a0-prop-1 .statement}
+#### Mệnh đề 1 {#ac-ix-a0-prop-1 .statement tag=0CZN}
 
 a) Vành A là địa phương, với iđêan cực đại $m = \lim \overrightarrow{m_\alpha}$. Với mọi $\alpha \in I$, đồng cấu $\varphi_\alpha$ là địa phương và phẳng, và ta có $\varphi_\alpha(m_\alpha)$ $A = m$.
 
@@ -60,13 +60,13 @@ Cho A là một vành địa phương.
 
 Ta ký hiệu bởi A]X[ vành địa phương của vành đa thức A[X] tại iđêan nguyên tố $m_A A[X]$. Nó là một vành địa phương với iđêan cực đại $m_A A[X]$, đồng cấu chính tắc $A \to A[X]$ là địa phương và phẳng, và trường thặng dư của $A[X]$ là mở rộng thuần của $\kappa_A$ sinh bởi lớp của $X$.
 
-#### Bổ đề 1 {#ac-ix-a0-lem-1 .statement}
+#### Bổ đề 1 {#ac-ix-a0-lem-1 .statement tag=0CZO}
 
 Cho $P \in A[X]$ là một đa thức đơn khởi mà ảnh $\overline{P}$ của nó trong $\kappa_A[X]$ là bất khả quy. Khi đó đại số $A$-đại số $B = A[X]/(P)$ là địa phương và hữu hạn trên A, với iđêan cực đại $m_A B$, đồng cấu chính tắc $\rho : A \to B$ là địa phương và phẳng, mở rộng thặng dư $\kappa_A \to \kappa_B$ là đại số và được sinh bởi lớp $x$ của $X$, và đa thức tối tiểu của $x$ trên $\kappa_A$ là $\overline{P}$.
 
 Vì đa thức $P$ là đơn khởi, $A$-môđun $B$ là tự do kiểu hữu hạn (A, IV, p. 10). Vành $B/m_A B$ được đồng nhất với $\kappa_A[X]/(\overline{P})$, và do đó là một trường; suy ra iđêan $m_A B$ là cực đại. Cho $q$ là một iđêan cực đại của $B$; khi đó iđêan $\rho^{-1}(q)$ là cực đại (V, § 2, no 1, mệnh đề 1); do đó ta có $\rho^{-1}(q) = m_A$, do đó $q \supset m_A B$ và cuối cùng $q = m_A B$. Vậy vành $B$ là địa phương. Bổ đề 1 suy ra ngay.
 
-#### Định nghĩa 1 {#ac-ix-a0-def-1 .statement}
+#### Định nghĩa 1 {#ac-ix-a0-def-1 .statement tag=0CZP}
 
 Cho $A$ là một vành địa phương. Một $A$-đại số $B$ được gọi là một mở rộng sơ cấp của $A$ nếu $B$ đẳng cấu với $A$-đại số $A[X]$, hoặc nếu tồn tại một đa thức đơn khởi $P$ trong $A[X]$, có ảnh trong $\kappa_A[X]$ là bất khả quy, sao cho $B$ đẳng cấu với $A$-đại số $A[X]/(P)$.
 
@@ -80,7 +80,7 @@ c) Ta có $m_B = m_A B$. Đặc biệt, nếu $A$ là một trường, điều t
 
 d) Nếu $A$ là Noether, thì điều tương tự cũng đúng với $B$.
 
-#### Định nghĩa 2 {#ac-ix-a0-def-2 .statement}
+#### Định nghĩa 2 {#ac-ix-a0-def-2 .statement tag=0CZQ}
 
 Cho $A$ là một vành địa phương. Một $A$-đại số $B$ được gọi là một mở rộng của $A$ nếu tồn tại một tập được sắp tốt $\Lambda$ có một phần tử lớn nhất $\omega$, và một họ tăng $(B_\lambda)_{\lambda \in \Lambda}$ các đại số con của $B$ thỏa mãn các điều kiện sau:
 
@@ -92,19 +92,19 @@ c) Cho $\nu \neq \alpha$ trong $\Lambda$ và cho $S_\nu$ là tập hợp các $\
 
 Cho $B$ là một vành và $\rho : A \to B$ là một đồng cấu vành. Ta nói rằng $\rho$ là một phép phình (tương ứng một phép phình sơ cấp) nếu $A$-đại số xác định bởi $\rho$ có tính chất này. Khi đó, $\rho$ là đơn ánh.
 
-#### Ví dụ 1 {#ac-ix-a0-n2-exa-1 .statement}
+#### Ví dụ 1 {#ac-ix-a0-n2-exa-1 .statement tag=0CZR}
 
 Mọi mở rộng trường đều là một phép phình. Thật vậy, cho K là một mở rộng của một trường k. Ta trang bị cho K một cách sắp thứ tự tốt mà 0 là phần tử lớn nhất, và với $\lambda \in K$, cho $K_\lambda$ là mở rộng con-$k$ của K sinh bởi các phần tử $\beta$ của K sao cho $\beta < \lambda$. Việc kiểm tra các điều kiện a), b), c), đối với $k, K$ và họ $(K_\lambda)_{\lambda \in K}$, là ngay lập tức.
 
-#### Ví dụ 2 {#ac-ix-a0-n2-exa-2 .statement}
+#### Ví dụ 2 {#ac-ix-a0-n2-exa-2 .statement tag=0CZS}
 
 Cho A là một vành địa phương, và I là một tập hợp các chỉ số. Ký hiệu bởi $A[(X_i)_{i \in I}]$ vành địa phương của vành đa thức $A[(X_i)_{i \in I}]$ tại iđêan nguyên tố $m_A A[(X_i)_{i \in I}]$. $A[(X_i)_{i \in I}]$-đại số là một phép phình của A. Thật vậy, trang bị cho tập hợp I một cách sắp thứ tự tốt; cho $\Lambda$ là tập được sắp thứ tự tốt thu được bằng cách thêm vào I một phần tử lớn nhất $\omega$. Với $i \in I$, đồng nhất $A[(X_j)_{j < i}]$ với một đại số con $B_i$ của $B = A[(X_i)_{i \in I}]$, và đặt $B_\omega = B$. Họ $(B_\lambda)_{\lambda \in \Lambda}$ thỏa mãn các điều kiện a), b), c).
 
-#### Nhận xét {#ac-ix-a0-n2-rem-1 .statement}
+#### Nhận xét {#ac-ix-a0-n2-rem-1 .statement tag=0CZT}
 
 Với ký hiệu của Định nghĩa 2, vành $B_\mu$ là một phép phình của $B_\lambda$ khi $\lambda \leq \mu$.
 
-#### Mệnh đề 2 {#ac-ix-a0-prop-2 .statement}
+#### Mệnh đề 2 {#ac-ix-a0-prop-2 .statement tag=0CZU}
 
 Cho A là một vành địa phương và B là một phép phình của A.
 
@@ -138,19 +138,19 @@ $$
 
 với mọi $n \in \mathbf{N}$, các chuỗi Hilbert-Samuel của A và B bằng nhau.
 
-#### Hệ quả {#ac-ix-a0-n2-cor-1 .statement}
+#### Hệ quả {#ac-ix-a0-n2-cor-1 .statement tag=0CZV}
 
 Giả sử rằng A là Noether.
 a) Ta có dim(A) = dim(B).
 b) Giả sử rằng A là chính quy, và cho $(x_1, ..., x_n)$ là một hệ tọa độ của A. Khi đó B là chính quy và dãy $(x_1 1_B, ..., x_n 1_B)$ là một hệ tọa độ của B.
 Điều này suy ra từ Mệnh đề 1 của VIII, § 5, No. 1.
 
-#### Mệnh đề 3 {#ac-ix-a0-prop-3 .statement}
+#### Mệnh đề 3 {#ac-ix-a0-prop-3 .statement tag=0CZW}
 
 Cho A, B, C là ba vành địa phương và $u : A \to B, v : B \to C$ là hai phép thổi phồng. Khi đó $v \circ u$ là một phép thổi phồng.
 Cho $(B_\lambda)_{\lambda \in \Lambda}$ và $(C_\mu)_{\mu \in M}$ là các họ các đại số con trên A của B và các đại số con trên B của C tương ứng, có các tính chất a), b), c) của Định nghĩa 2. Trên tập hợp N là tổng của $\Lambda$ và M, xét quan hệ thứ tự cảm sinh trên $\Lambda$ và M các cấp đã cho và sao cho có $\lambda < \mu$ với $\lambda \in \Lambda, \mu \in M$. Đây là một quan hệ thứ tự tốt. Với $\lambda \in \Lambda \subset N$, đặt $C_\lambda = v(B_\lambda)$. Khi đó họ $(C_v)_{v \in N}$ thỏa mãn các điều kiện a), b), c) của Định nghĩa 1 đối với đại số trên A C.
 
-#### Định lý 1 {#ac-ix-a0-thm-1 .statement}
+#### Định lý 1 {#ac-ix-a0-thm-1 .statement tag=0CZX}
 
 Cho $f : A \to A'$ là một đồng cấu địa phương toàn ánh của các vành địa phương và cho $B'$ là một phép phình của $A'$. Tồn tại một phép phình B của A và một đẳng cấu các đại số trên A của $B \otimes_A A'$ lên $B'$.
 A) Giả sử rằng $B'$ là một phép phình sơ cấp của $A'$. Ta phân biệt hai trường hợp:
@@ -166,7 +166,7 @@ và lấy cho $i_{v\lambda}$, khi $\lambda \in S_{v}$, đồng cấu $i_{v\mu} \
 
 Sau đó, ta đặt $B = \tilde{B}_{\omega}$ và, với mọi $\lambda \in \Lambda$, ký hiệu $B_{\lambda}$ là ảnh của $\tilde{B}_{\lambda}$ qua đơn ánh chính tắc $\tilde{B}_{\lambda} \to B$. Họ $(B_{\lambda})_{\lambda \in \Lambda}$ thỏa mãn các điều kiện a), b), c) của Định nghĩa 2, và B là một phép phình của A. Mặt khác, đồng cấu $u_{\omega}$ là một đẳng cấu A' của $B \otimes_{A} A'$ lên B'.
 
-#### Hệ quả {#ac-ix-a0-n2-cor-2 .statement}
+#### Hệ quả {#ac-ix-a0-n2-cor-2 .statement tag=0CZY}
 
 Cho A là một vành địa phương và K là một mở rộng của trường thặng dư của nó $\kappa_{A}$. Khi đó tồn tại một vành địa phương B và một phép phình $A \to B$ sao cho đại số-$\kappa_{A}$ $\kappa_{B}$ là đẳng cấu với K.
 
@@ -174,7 +174,7 @@ Thật vậy, đồng cấu $\kappa_{A} \to K$ là một phép phình (Ví dụ 
 
 ### 3. Sự tồn tại của các $p$-vành
 
-#### Mệnh đề 4 {#ac-ix-a0-prop-4 .statement}
+#### Mệnh đề 4 {#ac-ix-a0-prop-4 .statement tag=0CZZ}
 
 Cho p là một số nguyên tố, k là một trường có đặc số p, và cho n là một số nguyên $\geq 1$, hoặc $+ \infty$. Khi đó tồn tại một $p$-vành ($\S$ 2, No. 1, Định nghĩa 1) có độ dài n mà trường thặng dư là đẳng cấu với k.
 

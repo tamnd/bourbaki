@@ -53,7 +53,7 @@ subsections:
       pdf_page: 171
 statements: 35
 exercises: 10
-content_sha256: 3f24aec3f6935aa2116317db1e5631f6ab93a6075b00ee0efd74f6b291f40c08
+content_sha256: faf9d78ea858c1156e12d96abe814ea9b96ad01649dd53395efac5c2eb51e6f7
 translated_from: content/en-mt/alg/X/09_s9_complexes_de_koszul.md
 source_lang: en-mt
 translation_method: machine
@@ -79,7 +79,7 @@ $$
 
 với $e_1, \ldots, e_n$ trong $L$. Theo III, p. 164 và 165, ánh xạ $d_u : \Lambda(L) \to \Lambda(L)$ là một phép phản vi phân bậc $(-1)$ và có bình phương bằng không. Đó là phép phản vi phân duy nhất của $A$-đại số $\Lambda(L)$ mở rộng $u : \Lambda^1(L) \to \Lambda^0(L)$.
 
-#### Định nghĩa 1 {#alg-x-s9-def-1 .statement}
+#### Định nghĩa 1 {#alg-x-s9-def-1 .statement tag=0E2G}
 
 Phức $(\Lambda(L), d_u)$ được ký hiệu bởi $\mathbf{K}^A(u)$ hoặc $\mathbf{K}(u)$.
 
@@ -111,25 +111,25 @@ $$
 \end{aligned}
 $$
 
-#### Bổ đề 1 {#alg-x-s9-lem-1 .statement}
+#### Bổ đề 1 {#alg-x-s9-lem-1 .statement tag=0E2H}
 
 Nếu phức $C$ bằng không ở bên phải (tương ứng ở bên trái), thì $\mathbf{K}^A(u, C)$ (tương ứng $\mathbf{K}^*_A(u, c)$) bằng không ở bên phải (tương ứng ở bên trái), và $\gamma_0$ (tương ứng $\lambda^0$) là song ánh.
 
 Điều này suy ra từ X, p. 62, mệnh đề 1 và p. 82, mệnh đề 1.
 
-#### Mệnh đề 1 {#alg-x-s9-prop-1 .statement}
+#### Mệnh đề 1 {#alg-x-s9-prop-1 .statement tag=0E2I}
 
 Cho $x \in L$; ký hiệu bởi $R_x : y \mapsto x \wedge y$ phép nhân trái bởi $x$ trong đại số $\Lambda(L)$. Khi đó $d_u \circ R_x + R_x \circ d_u = u(x) \cdot 1_{\Lambda(L)} = u(x)_{\Lambda(L)}$.
 
 Thật vậy $(d_u \circ R_x + R_x \circ d_u)(y) = d_u(x \wedge y) + x \wedge d_u(y)$; vì $d_u$ là một phép phản vi phân, $d_u(x \wedge y) + x \wedge d_u(y) = d_u(x) \wedge y = u(x) \cdot y$.
 
-#### Hệ quả 1 {#alg-x-s9-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s9-prop-1-cor-1 .statement tag=0E2J}
 
 Nếu $u$ là toàn ánh, $K(u)$ đồng luân với không (X, p. 34) cũng như $K^A(u, C)$ và $K_A^*(u, C)$ với mọi phức $C$.
 
 Thật vậy, tồn tại $x \in L$ sao cho $u(x) = 1$. Khi đó $K(u)$ đồng luân với không theo mệnh đề 1, và do đó $K^A(u, C)$ (X, p. 64, mệnh đề 3) và $K_A^*(u, C)$ (X, p. 83, mệnh đề 3) cũng vậy.
 
-#### Hệ quả 2 {#alg-x-s9-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s9-prop-1-cor-2 .statement tag=0E2K}
 
 Cho $C$ là một phức, Ann (C) là linh hóa tử của nó. Khi đó $q + \mathrm{Ann}(C)$ linh hóa $H^A(u, C)$ và $H_A^*(u, C)$.
 
@@ -143,7 +143,7 @@ tương ứng.
 
 Nếu $L$ là xạ ảnh và $K(u)$ không chu trình ở các bậc > 0, thì các đồng cấu (2) và (3) ở trên là song ánh và đối ứng nhau (X, p. 102, mệnh đề 1).
 
-#### Mệnh đề 2 {#alg-x-s9-prop-2 .statement}
+#### Mệnh đề 2 {#alg-x-s9-prop-2 .statement tag=0E2L}
 
 Cho $(L_i)_{i \in I}$ là một họ các $A$-môđun, trong đó tập hợp $I$ là hữu hạn và được sắp thứ tự toàn phần. Cho $u$ là một dạng tuyến tính trên $\bigoplus_{i \in I} L_i$, $u_i$ là hạn chế của nó lên $L_i$.
 
@@ -226,7 +226,7 @@ Chuyển qua đồng điều, do đó ta có các đẳng cấu *chính tắc*
 H^A_r(u, C) \to H^{n-r}_A(u, C \otimes_A \Lambda^n L) , \qquad r \in \mathbf{Z} .
 $$
 
-#### Nhận xét {#alg-x-s9-n1-rem-1 .statement}
+#### Nhận xét {#alg-x-s9-n1-rem-1 .statement tag=0EEQ}
 
 *1)* \* Điều trên vẫn đúng khi $L$ là xạ ảnh hạng $n$. \*
 
@@ -359,7 +359,7 @@ $$
 
 là một đẳng cấu của các phức A-môđun (điều này suy ra từ mệnh đề 2 của X, p. 148 hoặc từ công thức (9) ở trên).
 
-#### Mệnh đề 3 {#alg-x-s9-prop-3 .statement}
+#### Mệnh đề 3 {#alg-x-s9-prop-3 .statement tag=0E2M}
 
 *Nếu A-môđun L là phẳng, các dãy $(\mathscr{E}_n)$ ở trên là khớp với $n > 0$.*
 
@@ -393,15 +393,15 @@ $$
 
 là một đẳng cấu của các phức, mệnh đề suy ra từ X, p. 28, mệnh đề 1.
 
-#### Nhận xét 1 {#alg-x-s9-n3-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s9-n3-rem-1 .statement tag=0E2N}
 
 Ta sẽ thấy ở dưới (X, p. 158, ví dụ) một chứng minh khác của phần *c)* ở trên.
 
-#### Nhận xét 2 {#alg-x-s9-n3-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s9-n3-rem-2 .statement tag=0E2O}
 
 Nếu A là một $\mathbf{Q}$-đại số, kết luận của mệnh đề 3 vẫn đúng mà không cần giả thiết nào trên L (*cf.* X, p. 206, bài tập 1).
 
-#### Nhận xét 3 {#alg-x-s9-n3-rem-3 .statement}
+#### Nhận xét 3 {#alg-x-s9-n3-rem-3 .statement tag=0E2P}
 
 Cho G là một nhóm và $\rho : G \to \mathbf{GL}(L)$ một biểu diễn tuyến tính của G trong một A-môđun phẳng L. Khi đó các $(\mathscr{E}_n)$ là các dãy khớp của các biểu diễn tuyến tính. Giả sử L xạ ảnh sinh hữu hạn, và ký hiệu $R_A(G)$ là vành biểu diễn của G trong các A-môđun xạ ảnh sinh hữu hạn. Từ mệnh đề 3 suy ra rằng trong R_A(G) ta có các hệ thức
 
@@ -464,7 +464,7 @@ h(m) = \sum_J h_J(m) ,
 $$
 trong đó $J$ chạy qua các tập con của $I$ có $p$ phần tử.
 
-#### Bổ đề 2 {#alg-x-s9-lem-2 .statement}
+#### Bổ đề 2 {#alg-x-s9-lem-2 .statement tag=0E2Q}
 
 *Nếu K-môđun $L_0$ là tự do với cơ sở $(e_i)_{i \in I}$, thì các ánh xạ K-tuyến tính g và h là song ánh.*
 Điều này suy ra từ III, p. 79, đ. l. 1.
@@ -503,7 +503,7 @@ $$
 \theta_*: K_*(x, M) \to K_A^*(u, M).
 $$
 
-#### Nhận xét {#alg-x-s9-n4-rem-1 .statement}
+#### Nhận xét {#alg-x-s9-n4-rem-1 .statement tag=0E2R}
 
 Ngược lại, cho B là một $k$-đại số, L là một B-môđun tự do với cơ sở $(e_i)_{i \in I}$, và M là một B-môđun. Việc cho một dạng tuyến tính $u : L \to B$ tương đương với việc cho một họ $x = (x_i)_{i \in I}$ các phần tử của B, theo quan hệ $x_i = u(e_i)$. Khi đó phức nền của các $k$-môđun của $K_B^*(u, M)$ (resp. $K^B(u, M)$) được đồng nhất, bởi đẳng cấu $\theta^*$ (resp. $\theta_*$), với phức Koszul $K^*(x, M)$ (resp. $K_*(x, M)$). Chẳng hạn $K^B(u)$ được đồng nhất với $K^*(x, B)$.
 
@@ -539,7 +539,7 @@ $$
 
 nếu $(\alpha_1, ..., \alpha_p, \beta_1, ..., \beta_{n-p})$ là một phép hoán vị *chẵn* của $\{ 1, ..., n \}$. Ta cũng nhận xét rằng khi $I = \{ 1, ..., n \}$, ta có thể đồng nhất $C_1^p(M)$ với tập hợp các họ $m(\alpha_1, ..., \alpha_p)$ các phần tử của M trong đó $\alpha_1 < \alpha_2 < ... < \alpha_p$; công thức (12) vẫn đúng, cũng như quan hệ (13).
 
-#### Ví dụ {#alg-x-s9-n4-exa-1 .statement}
+#### Ví dụ {#alg-x-s9-n4-exa-1 .statement tag=0E2S}
 
 Lấy $M = k[T_1, ..., T_n]$; phức Koszul $K (\partial/\partial T, M)$ liên kết với dãy các nội cấu $(\partial/\partial T_1, ..., \partial/\partial T_n)$ được đồng nhất với phức de Rham của $k[x_1, ..., x_n]$ trên $k$ (X, p. 44): với $m \in C_{\{1,...,n\}}^p(M)$, ta gắn dạng vi phân
 
@@ -566,7 +566,7 @@ $$
 H_1(x, M) \to \mathrm{Hom}_A(A/xA, M) \leftarrow H^0(x, M).
 $$
 
-#### Bổ đề 3 {#alg-x-s9-lem-3 .statement}
+#### Bổ đề 3 {#alg-x-s9-lem-3 .statement tag=0E2T}
 
 Cho $K$ là một phức sao cho $K_i = 0$ với $i \neq 0, 1$, và cho $C$ là một phức và $p$ là một số nguyên.
 
@@ -628,7 +628,7 @@ do đó suy ra a).
 
 Áp dụng Bổ đề 3, a) cho phức $K(u)$, và dùng các đẳng cấu giao hoán, ta thu được:
 
-#### Mệnh đề 4 {#alg-x-s9-prop-4 .statement}
+#### Mệnh đề 4 {#alg-x-s9-prop-4 .statement tag=0E2U}
 
 *Với mọi phức $C$, có các dãy khớp .*
 
@@ -636,11 +636,11 @@ $$
 0\longrightarrow A/xA\otimes_A H_p(C)\longrightarrow H_p(x,C)\longrightarrow \operatorname{Hom}_A(A/xA,H_{p-1}(C))\longrightarrow 0.
 $$
 
-#### Hệ quả 1 {#alg-x-s9-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s9-prop-4-cor-1 .statement tag=0E2V}
 
 *Để có $H_p(x,C)=0$, điều kiện cần và đủ là phép vị tự tỉ số $x$ trong $H_p(C)$ là toàn ánh và phép vị tự tỉ số $x$ trong $H_{p-1}(C)$ là đơn ánh.*
 
-#### Hệ quả 2 {#alg-x-s9-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s9-prop-4-cor-2 .statement tag=0E2W}
 
 *Cho $x=(x_1,\ldots,x_n)$ là một dãy các phần tử của $A$, $M$ là một $A$-môđun, $x'$ là dãy $(x_1,\ldots,x_{n-1})$. Ta có các dãy khớp*
 
@@ -648,7 +648,7 @@ $$
 0\longrightarrow A/x_nA\otimes_A H_p(x',M)\longrightarrow H_p(x,M)\longrightarrow \operatorname{Hom}_A(A/x_nA,H_{p-1}(x',M))\longrightarrow 0.
 $$
 
-#### Hệ quả 3 {#alg-x-s9-prop-4-cor-3 .statement}
+#### Hệ quả 3 {#alg-x-s9-prop-4-cor-3 .statement tag=0E2X}
 
 *Để $H_i(x,M)$ bằng không với mọi $i>0$, điều kiện cần và đủ là phép vị tự tỉ số $x_n$ trong $H_i(x',M)$ là song ánh với $i>0$, và phép vị tự tỉ số $x_n$ trong $M/(x')M$ là đơn ánh.*
 
@@ -656,7 +656,7 @@ $$
 
 Cho $A$ là một vành, $M$ là một $A$-môđun, $x=(x_i)_{i\in I}$ là một họ các phần tử của $A$.
 
-#### Định nghĩa 2 {#alg-x-s9-def-2 .statement}
+#### Định nghĩa 2 {#alg-x-s9-def-2 .statement tag=0E2Y}
 
 *Họ $x$ được gọi là hoàn toàn cắt ngang đối với $M$ nếu ta có $H_i(x,M)=0$ với $i>0$.*
 
@@ -664,7 +664,7 @@ Nếu $I$ là hữu hạn, thì điều đó tương đương (X, p. 150) với 
 
 Mệnh đề sau cho phép đưa ra các ví dụ về các họ hoàn toàn cắt ngang.
 
-#### Mệnh đề 5 {#alg-x-s9-prop-5 .statement}
+#### Mệnh đề 5 {#alg-x-s9-prop-5 .statement tag=0E2Z}
 
 *Cho $x=(x_1,\ldots,x_n)$ là một dãy các phần tử của $A$. Nếu với $i=1,\ldots,n$, phép vị tự tỉ số $x_i$ trong $A$-môđun $M/(x_1M+\cdots+x_{i-1}M)$ là đơn ánh, thì dãy $x$ là hoàn toàn cắt đối với $M$.*
 
@@ -672,12 +672,12 @@ Một dãy thỏa mãn các điều kiện của mệnh đề được gọi là
 
 Ta hãy chứng minh mệnh đề bằng quy nạp theo $n$, trường hợp $n = 0$ là ngay lập tức. Đặt $x' = (x_1, ..., x_{n-1})$; nếu dãy $x$ là M-chính quy, thì dãy $x'$ là M-chính quy và phép nhân bởi $x_n$ trong $M/(x')M$ là đơn ánh; theo giả thiết quy nạp, ta có $H_i(x', M) = 0$ với $i > 0$; khi đó suy ra từ hệ quả 3 của X, p. 157, rằng $H_i(x, M) = 0$ với $i > 0$.
 
-#### Ví dụ {#alg-x-s9-n6-exa-1 .statement}
+#### Ví dụ {#alg-x-s9-n6-exa-1 .statement tag=0E30}
 
 Cho $k$ là một vành; lấy $A = k[X_1, ..., X_n]$ và $x = (X_1, ..., X_n)$. Dãy $x$ là A-chính quy và mệnh đề lại cho tính không chu trình ở các bậc $> 0$ của phức $S_k(k^n) \otimes_k \Lambda_k(k^n)$ (xem X, p. 152, mệnh đề 3).
 Tương tự, trong vành các chuỗi hình thức $\hat{A} = k[[X_1, ..., X_n]]$, dãy $(X_1, ..., X_n)$ là $\hat{A}$-chính quy, do đó hoàn toàn cắt đối với $\hat{A}$.
 
-#### Mệnh đề 6 {#alg-x-s9-prop-6 .statement}
+#### Mệnh đề 6 {#alg-x-s9-prop-6 .statement tag=0E31}
 
 a) Nếu $\sum_{i \in I} x_i A = A$, họ $(x_i)_{i \in I}$ là hoàn toàn cắt đối với M.
 b) Cho $x = (x_1, ..., x_n)$ là một dãy các phần tử của A. Cho $(a_{ij}) \in \mathrm{GL}_n(A)$; đặt
@@ -690,11 +690,11 @@ Mệnh đề a) suy ra từ hệ quả 1, p. 148.
 Ta hãy chứng minh b). Cho $f : A^n \to A^n$ là đẳng cấu được xác định bởi ma trận $^t(a_{ij})$; suy ra từ X, p. 151, rằng $1_M \otimes \Lambda(f)$ là một đẳng cấu của phức $K.(y, M)$ lên phức $K.(x, M)$, do đó b).
 Để chứng minh c), hiển nhiên chỉ cần chứng minh rằng nếu $k$ là một số nguyên $\geqslant 1$, thì dãy $(x_1, ..., x_{n-1}, x_n^k)$ là hoàn toàn cắt đối với M khi và chỉ khi dãy $x$ cũng có tính chất đó. Đặt $x' = (x_1, ..., x_{n-1})$; theo hệ quả 3, p. 157, điều kiện thứ nhất (tương ứng điều kiện thứ hai) có nghĩa là phép vị tự tỉ số $x_n^k$ (tương ứng $x_n$) là song ánh trong $H_i(x', M)$ với $i \geqslant 1$ và đơn ánh trong $M/(x')M$. Hai điều kiện này rõ ràng là tương đương, do đó c).
 
-#### Nhận xét 1 {#alg-x-s9-n6-rem-1 .statement}
+#### Nhận xét 1 {#alg-x-s9-n6-rem-1 .statement tag=0E32}
 
 Mệnh đề tương tự như c) đối với các dãy chính quy là đúng (X, p. 207, bài tập 5).
 
-#### Mệnh đề 7 {#alg-x-s9-prop-7 .statement}
+#### Mệnh đề 7 {#alg-x-s9-prop-7 .statement tag=0E33}
 
 a) Cho N là một A-môđun phẳng. Nếu họ x là hoàn toàn cắt đối với M, thì nó cũng vậy đối với $M \otimes_A N$.
 
@@ -710,11 +710,11 @@ $$
 
 mệnh đề b) suy ra từ dãy đồng điều khớp liên kết.
 
-#### Nhận xét 2 {#alg-x-s9-n6-rem-2 .statement}
+#### Nhận xét 2 {#alg-x-s9-n6-rem-2 .statement tag=0E34}
 
 Các mệnh đề tương tự với a) và b) đối với các dãy chính quy là ngay lập tức.
 
-#### Nhận xét 3 {#alg-x-s9-n6-rem-3 .statement}
+#### Nhận xét 3 {#alg-x-s9-n6-rem-3 .statement tag=0E35}
 
 Nếu họ $x$ là hoàn toàn cắt ngang đối với $A$, phức $K.(x, A)$ xác định một phân giải tự do của $A$-môđun $A/x$, với $x = \sum_{i \in I} x_i A$; do đó với mọi số nguyên $i \geqslant 0$ và với mọi $A$-môđun $M$ có các đẳng cấu
 
@@ -722,7 +722,7 @@ $$
 \text{Ext}_A^{n-i}(A/x, M) \to H^{n-i}(x, M) \to H_i(x, M) \to \operatorname{Tor}_i^A(A/x, M) .
 $$
 
-#### Nhận xét 4 {#alg-x-s9-n6-rem-4 .statement}
+#### Nhận xét 4 {#alg-x-s9-n6-rem-4 .statement tag=0E36}
 
 Ta nói rằng dãy $x = (x_1, ..., x_n)$ là $M$-đối chính quy nếu (ký hiệu bởi $(x_i)_M$ phép vị tự tỉ số $x_i$ trong $M$) phép vị tự tỉ số $x_i$ trong môđun
 
@@ -762,7 +762,7 @@ $$
 
 Các đồng cấu $a_M^x, \alpha_M^x$ và $\beta_M^x$ đều toàn ánh.
 
-#### Định lý 1 {#alg-x-s9-thm-1 .statement}
+#### Định lý 1 {#alg-x-s9-thm-1 .statement tag=0E37}
 
 Xét các điều kiện sau:
 (i) Dãy $x$ là M-chính quy (X, p. 158).
@@ -775,23 +775,23 @@ Khi đó ta có các kéo theo (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) $\Left
 
 Định lý sẽ được chứng minh trong các No 8 và 9.
 
-#### Hệ quả 1 {#alg-x-s9-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#alg-x-s9-thm-1-cor-1 .statement tag=0E38}
 
 *Nếu A là Noether, nếu A-môđun M là kiểu hữu hạn và nếu các $x_i$ thuộc căn của A, thì các điều kiện từ (i) đến (v) của định lý là tương đương.
 Thật vậy, trên mỗi môđun $M/(x_1 M + \cdots + x_{i-1} M)$ tôpô $x$-adic là tách (AC III, § 3, No. 3, mệnh đề 6).
 
-#### Hệ quả 2 {#alg-x-s9-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#alg-x-s9-thm-1-cor-2 .statement tag=0E39}
 
 Giả sử A là một vành phân bậc với các bậc dương, M là một A-môđun phân bậc bị chặn dưới, và các $x_i$ là những phần tử thuần nhất bậc > 0 của A. Khi đó các điều kiện từ (i) đến (v) của định lý là tương đương.
 Thật vậy, tôpô $x$-adic là tách đối với mọi A-môđun phân bậc N bị chặn dưới, vì nếu $N_n = 0$ với $n < n_0$ thì ta có $x^a N \subset \sum_{j \geq n_0 + a} N_j$ với mọi $a \geq 0$.
 
-#### Hệ quả 3 {#alg-x-s9-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#alg-x-s9-thm-1-cor-3 .statement tag=0E3A}
 
 Giả sử các môđun $M/(x_1M+\cdots+x_{i-1}M)$ là tách đối với tôpô $\mathfrak{x}$-adic $(1\leq i\leq n)$ ; gọi p là một số nguyên nằm giữa $1$ và $n$. Để dãy $\mathfrak{x}$ hoàn toàn cát tuyến đối với $M$, điều kiện cần và đủ là dãy $(x_1,\ldots,x_p)$ hoàn toàn cát tuyến đối với $M$ và dãy $(x_{p+1},\ldots,x_n)$ hoàn toàn cát tuyến đối với $M/(x_1M+\cdots+x_pM)$.
 
 Thật vậy hệ quả là hiển nhiên nếu trong phát biểu người ta thay “các dãy hoàn toàn cát tuyến” bằng “các dãy chính quy”; nhưng ở đây hai khái niệm này trùng nhau theo định lý.
 
-#### Nhận xét {#alg-x-s9-n7-rem-1 .statement}
+#### Nhận xét {#alg-x-s9-n7-rem-1 .statement tag=0E3B}
 
 Cho $\mathfrak{x}=(x_1,\ldots,x_n)$ là một dãy các phần tử của $A$ sao cho $H_1(\mathfrak{x},A)=0$; khi đó hạt nhân của đồng cấu toàn ánh $u:A^n\to\mathfrak{x}$ sao cho
 $$
@@ -814,7 +814,7 @@ Hệ quả (i) $\Rightarrow$ (ii) đã được chứng minh (X, p. 157, mệnh 
 
 Để chứng minh rằng (iii) suy ra (iv), ta sẽ dùng bổ đề sau:
 
-#### Bổ đề 4 {#alg-x-s9-lem-4 .statement}
+#### Bổ đề 4 {#alg-x-s9-lem-4 .statement tag=0E3C}
 
 Cho $A_0$ là vành $\mathbf{Z}[T_1,\ldots,T_n]$, và cho $u:A_0[X_1,\ldots,X_n]\to A_0[U]$ là đồng cấu của các $A_0$-đại số sao cho $u(X_i)=T_iU$. Hạt nhân của $u$ là iđêan $\mathfrak{d}_0$ của $A_0[X_1,\ldots,X_n]$ sinh bởi các phần tử $(T_iX_j-T_jX_i)$ với $1\leq i<j\leq n$. Nếu $t$ là iđêan của $A_0$ sinh bởi $(T_1,\ldots,T_n)$, thì $u$ cảm sinh một đẳng cấu
 $$
@@ -1015,7 +1015,7 @@ $$
 $$
 trong đó $\mathbf{K}^0(x, M)$ đã được đồng nhất với $M$ và trong đó $q$ ánh xạ mỗi phần tử $m \in \mathbf{K}^n(x, M)$ vào lớp trong $M/(x)M$ của $m(1, 2, \ldots, n) \in M$.
 
-#### Mệnh đề 8 {#alg-x-s9-prop-8 .statement}
+#### Mệnh đề 8 {#alg-x-s9-prop-8 .statement tag=0E3D}
 
 *Giả sử dãy x là chính quy đối với M. Phần tử của $\mathrm{Ext}_A^n(M/(x)M, M)$ liên kết với dãy khớp (23) là $(-1)^{n(n+1)/2} \theta_x$.*
 Với $i = 0, 1, \ldots, n$, định nghĩa một ánh xạ A-tuyến tính
@@ -1036,7 +1036,7 @@ a^{i+1} \circ \partial^i = (-1)^i \overline{x}_{i+1} \circ a^i .
 $$
 Theo X, p. 120, hệ quả 1 và 2, phần tử của $\mathrm{Ext}_A^n(M/(x)M, M)$ liên kết với (23) bằng $\prod_{i=1}^n (-1)^i \cdot \theta_x$, do đó có mệnh đề.
 
-#### Hệ quả {#alg-x-s9-n10-cor-1 .statement}
+#### Hệ quả {#alg-x-s9-n10-cor-1 .statement tag=0E3E}
 
 *Giả sử hơn nữa rằng các môđun $M/(x_1 M + \cdots + x_{i-1} M)$ là tách biệt đối với tôpô (x)-adic, và cho $(a_{ij}) \in \mathrm{GL}_n(A)$. Đặt*
 $$
@@ -1045,7 +1045,7 @@ $$
 *Khi đó dãy y là chính quy đối với M, và ta có $\theta_y = \det(a_{ij})^{-1} \theta_x$.*
 Thật vậy, dãy y là chính quy đối với M theo Mệnh đề 6 (X, p. 158) và Định lý 1 (X, p. 160); khẳng định cuối cùng suy ra từ Mệnh đề 8, và từ Mệnh đề 4 của X, p. 119.
 
-#### Mệnh đề 9 {#alg-x-s9-prop-9 .statement}
+#### Mệnh đề 9 {#alg-x-s9-prop-9 .statement tag=0E3F}
 
 *Giả sử dãy x là chính quy đối với M. Nếu N là một A-môđun sao cho $(x)N = 0$, thì ta có $\mathrm{Ext}_A^i(N, M) = 0$ với $i < n$, và ánh xạ $\alpha \mapsto \theta_x \circ \alpha$* từ Hom_A (N, M/(x) M) vào Ext^n_A (N, M) (nó cũng là đồng cấu nối lặp liên kết với (19), xem X, p. 127, Hệ quả 3) là song ánh.
 

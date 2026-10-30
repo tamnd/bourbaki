@@ -29,37 +29,37 @@ subsections:
       pdf_page: 176
 statements: 18
 exercises: 31
-content_sha256: 82312583010308ade3c3bcfbc326230bf52291a350f24aaa88c23efb5f29bb08
+content_sha256: ee84e6b0f631f16e0c396c80d4ec6579afe4c9ce8a2587f441b369dc2b1359e0
 ---
 
 ## § 5. ESPACES DE BAIRE
 
 ### 1. Ensembles rares
 
-#### Définition 1 {#top-ix-s5-def-1 .statement}
+#### Définition 1 {#top-ix-s5-def-1 .statement tag=0C6Y}
 
 On dit qu’une partie $A$ d’un espace topologique $X$ est rare si son adhérence n’a pas de point intérieur.
 
 Il revient au même de dire que l’extérieur de $A$ est partout dense dans $X$.
 Pour qu’un ensemble fermé $A$ soit rare, il faut et il suffit qu’il n’ait pas de point intérieur, ou, ce qui revient au même, qu’il soit identique à sa frontière. Pour qu’un ensemble quelconque soit rare, il faut et il suffit que son adhérence soit rare. Toute partie d’un ensemble rare est un ensemble rare.
 
-#### Exemple 1 {#top-ix-s5-n1-exa-1 .statement}
+#### Exemple 1 {#top-ix-s5-n1-exa-1 .statement tag=0C6Z}
 
 La partie vide de $X$ est un ensemble rare. Dans un espace séparé, pour qu’un ensemble réduit à un point soit rare, il faut et il suffit que ce point ne soit pas isolé dans $X$. Un ensemble partout dense dans un espace non vide n’est jamais rare.
 
-#### Exemple 2 {#top-ix-s5-n1-exa-2 .statement}
+#### Exemple 2 {#top-ix-s5-n1-exa-2 .statement tag=0C70}
 
 La frontière d’un ensemble fermé, ou d’un ensemble ouvert, est toujours un ensemble rare.
 
-#### Exemple 3 {#top-ix-s5-n1-exa-3 .statement}
+#### Exemple 3 {#top-ix-s5-n1-exa-3 .statement tag=0C71}
 
 Dans l’espace numérique $\mathbf{R}^n$, toute variété linéaire affine de dimension $p < n$ est un ensemble rare (VI, p. 4, prop. 2).
 
-#### Remarque {#top-ix-s5-n1-rem-1 .statement}
+#### Remarque {#top-ix-s5-n1-rem-1 .statement tag=0C72}
 
 La frontière d’un ensemble quelconque n’est pas nécessairement un ensemble rare; par exemple, si $A$ et $\complement A$ sont tous deux partout denses, la frontière de $A$ est identique à l’espace $X$ tout entier.
 
-#### Proposition 1 {#top-ix-s5-prop-1 .statement}
+#### Proposition 1 {#top-ix-s5-prop-1 .statement tag=0C73}
 
 La réunion d’une famille localement finie d’ensembles rares est un ensemble rare.
 
@@ -67,7 +67,7 @@ La famille des adhérences des ensembles d’une famille localement finie étant
 
 Soit $Y$ un sous-espace de l’espace topologique $X$. Une partie $A$ de $Y$ est dite rare relativement à $Y$ si $A$ est un ensemble rare quand on le considère comme partie de l’espace topologique $Y$.
 
-#### Proposition 2 {#top-ix-s5-prop-2 .statement}
+#### Proposition 2 {#top-ix-s5-prop-2 .statement tag=0C74}
 
 *Soient $Y$ un sous-espace de $X$, et $A$ une partie de $Y$; si $A$ est rare relativement à $Y$, $A$ est rare relativement à $X$. Inversement, si $Y$ est ouvert dans $X$, et si $A$ est rare relativement à $X$, il est rare relativement à $Y$.*
 
@@ -79,7 +79,7 @@ La seconde partie de la prop. 2 est évidemment inexacte lorsque $Y$ n’est pas
 
 ### 2. Ensembles maigres
 
-#### Définition 2 {#top-ix-s5-def-2 .statement}
+#### Définition 2 {#top-ix-s5-def-2 .statement tag=0C75}
 
 *On dit qu’une partie $A$ d’un espace topologique $X$ est maigre si elle est réunion d’une famille dénombrable d’ensembles rares.*
 
@@ -95,7 +95,7 @@ Soit Y un sous-espace de X ; on dit qu’une partie A de Y est maigre relativeme
 
 ### 3. Espaces de Baire
 
-#### Définition 3 {#top-ix-s5-def-3 .statement}
+#### Définition 3 {#top-ix-s5-def-3 .statement tag=0C76}
 
 On dit qu’un espace topologique X est un espace de Baire si l’une des deux conditions suivantes (qui sont équivalentes) est remplie :
 (EB) Toute intersection dénombrable d’ensembles ouverts partout denses dans X est partout dense dans X.
@@ -107,7 +107,7 @@ En effet, pour qu’un ensemble soit maigre, il faut et il suffit qu’il soit c
 (EB''') Le complémentaire d’un ensemble maigre dans X est partout dense.
 Cela signifie en effet qu’aucun ensemble maigre ne peut contenir d’ensemble ouvert non vide, et est donc équivalent à (EB''').
 
-#### Proposition 3 {#top-ix-s5-prop-3 .statement}
+#### Proposition 3 {#top-ix-s5-prop-3 .statement tag=0C77}
 
 Tout sous-espace ouvert Y d’un espace de Baire X est un espace de Baire.
 
@@ -115,30 +115,30 @@ Cela résulte de (EB'') puisque tout ensemble ouvert (resp. maigre) dans Y est o
 
 D’après cette proposition, tout point d’un espace de Baire admet un système fondamental de voisinages dont chacun est un espace de Baire. Réciproquement :
 
-#### Proposition 4 {#top-ix-s5-prop-4 .statement}
+#### Proposition 4 {#top-ix-s5-prop-4 .statement tag=0C78}
 
 Si tout point d’un espace topologique X possède un voisinage qui est un espace de Baire, X est un espace de Baire.
 
 En effet, soient A un ensemble ouvert non vide dans X, x un point de A, V un voisinage ouvert de x qui soit un espace de Baire ; si A était maigre dans X, V ∩ A serait maigre dans V et ouvert dans V, contrairement à l’hypothèse.
 
-#### Proposition 5 {#top-ix-s5-prop-5 .statement}
+#### Proposition 5 {#top-ix-s5-prop-5 .statement tag=0C79}
 
 Dans un espace de Baire X, le complémentaire d’un ensemble maigre est un espace de Baire.
 
 En effet, soit A un ensemble maigre dans X ; son complémentaire Y = C A par rapport à X est partout dense dans X. Soit B un ensemble maigre relativement à Y ; B est aussi maigre relativement à X, donc A ∪ B est maigre relativement à X. Le complémentaire de A ∪ B relativement à X, qui est aussi le complémentaire de B relativement à Y, est donc partout dense dans X, et a fortiori dans Y, ce qui démontre la proposition.
 
-#### Théorème 1 (Baire) {#top-ix-s5-thm-1 .statement}
+#### Théorème 1 (Baire) {#top-ix-s5-thm-1 .statement tag=0C7A}
 
 1° Tout espace localement compact X est un espace de Baire.
     2° Tout espace topologique X sur lequel existe une distance, compatible avec la topologie de X, et définissant sur X une structure d’espace métrique complet, est un espace de Baire.
 
 Nous allons montrer que dans chacun des deux cas l’axiome (EB) est vérifié. Soit (A_n) une suite d’ensembles ouverts partout denses dans X, et soit G un ensemble ouvert non vide quelconque. On peut définir par récurrence une suite (G_n) d’ensembles ouverts non vides tels que G_1 = G et G_{n+1} \subset G_n \cap A_n; en effet, G_n n’étant pas vide par hypothèse, G_n \cap A_n est un ensemble ouvert non vide; comme X est régulier dans les deux cas envisagés, il existe un ensemble ouvert non vide G_{n+1} tel que \overline{G}_{n+1} \subset G_n \cap A_n. Cela étant l’ensemble $G \cap \bigcap_{n=1}^{\infty} A_n$ contient l’intersection des G_n, et cette dernière est identique à l’intersection des \overline{G}_n; tout revient à montrer que les ensembles \overline{G}_n ont une intersection non vide. Or, lorsque X est localement compact, on peut supposer \overline{G}_2 compact; dans l’espace compact \overline{G}_2, les \overline{G}_n (n \geq 2) forment une suite décroissante d’ensembles fermés non vides, et ont donc au moins un point commun d’après l’axiome (C''). Lorsque X est un espace métrique complet (pour une distance compatible avec sa topologie), on peut supposer \overline{G}_n choisi de sorte que son diamètre (relatif à cette distance) tende vers 0 lorsque n croît indéfiniment; les \overline{G}_n forment alors une base de filtre de Cauchy qui converge vers un point appartenant nécessairement à leur intersection.
 
-#### Remarque {#top-ix-s5-n3-rem-1 .statement}
+#### Remarque {#top-ix-s5-n3-rem-1 .statement tag=0C7B}
 
 Il y a des espaces de Baire qui ne rentrent dans aucune des deux catégories précédentes, en particulier des espaces de Baire qui ne sont ni métrisables, ni localement compacts (IX, p. 113, exerc. 15); il y a aussi des espaces de Baire métrisables, mais pour lesquels il n’existe aucune structure d’espace métrique complet compatible avec leur topologie (IX, p. 113, exerc. 13).
 
-#### Proposition 6 {#top-ix-s5-prop-6 .statement}
+#### Proposition 6 {#top-ix-s5-prop-6 .statement tag=0ECI}
 
 Soient G un groupe localement compact dénombrable à l’infini, M un espace de Baire séparé. Supposons que G opère à gauche continûment et transitivement dans M. Pour tout x \in M, soit H_x le stabilisateur de x dans G, de sorte que l’application s \mapsto s.x de G dans M définit par passage au quotient une bijection continue $\varphi_x : G/H_x \to M$ (III, p. 12). Alors $\varphi_x$ est un homéomorphisme de G/H_x sur M (autrement dit (III, p. 12), M est un espace homogène topologique de G).
 
@@ -150,7 +150,7 @@ $$
 
 (III, p. 9, lemme 1) de sorte que V . x_0 est un voisinage de x_0 dans M.
 
-#### Corollaire {#top-ix-s5-n3-cor-1 .statement}
+#### Corollaire {#top-ix-s5-n3-cor-1 .statement tag=0ECJ}
 
 Soient G un groupe localement compact dénombrable à l’infini, G’ un groupe topologique séparé dont l’espace sous-jacent est un espace de Baire, f : G \to G’ un homomorphisme continu surjectif. Alors f est un morphisme strict surjectif (autrement dit, si H est le noyau de f, la bijection continue G/H \to G’ déduite de f est un isomorphisme de groupes topologiques).
 
@@ -158,7 +158,7 @@ En effet, on peut considérer G’ comme un espace où G opère continûment et 
 
 ### 4. Fonctions semi-continues dans un espace de Baire
 
-#### Théorème 2 {#top-ix-s5-thm-2 .statement}
+#### Théorème 2 {#top-ix-s5-thm-2 .statement tag=0C7C}
 
 Soit X un espace de Baire, et soit (f_\alpha) une famille de fonctions numériques semi-continues inférieurement dans X, telles qu’en tout point x \in X, l’enveloppe supérieure \sup_\alpha f_\alpha(x) soit finie. Dans ces conditions, tout ensemble ouvert non vide contient un sous-ensemble ouvert non vide dans lequel la famille (f_\alpha) est uniformément majorée.
 
@@ -168,7 +168,7 @@ Soit f = \sup_\alpha f_\alpha l’enveloppe supérieure de la famille (f_\alpha)
 
 Les applications les plus fréquentes de ce théorème se rapportent au cas où les f_\alpha sont continues dans X.
 
-#### Remarque {#top-ix-s5-n4-rem-1 .statement}
+#### Remarque {#top-ix-s5-n4-rem-1 .statement tag=0C7D}
 
 La conclusion du théorème peut être inexacte lorsqu’on ne suppose pas que X soit un espace de Baire. Par exemple, si pour tout nombre rationnel irréductible p/q, on pose f(p/q) = q, on définit sur la droite rationnelle \mathbf{Q} une fonction semi-continue inférieurement et finie en tout point (cf. IV, p. 29); mais il n’existe aucun ensemble ouvert non vide de \mathbf{Q} dans lequel f soit majorée.
 

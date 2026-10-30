@@ -25,9 +25,9 @@ subsections:
       pdf_page: 42
 statements: 6
 exercises: 0
-content_sha256: 4853ee9340ab9b11e2c135d73fe1a91dfe0af274b213a577c6d705eaa5476caa
+content_sha256: 56d9509a26c2ca56d92d6343fbc5e173000db0de837f31c7ac0d0202c5ae0113
 translated_from: content/en/lie/IV/A_a_graphs.md
-source_content_sha256: eac22a0040474678cfb62df408ef3ef6cb1dc27c07113e0e6b8e5da22b5af9c4
+source_content_sha256: 7fa7ab5ecf248630c43ab97ab1126594432fdccc1695b2f5d4ac5a3b570217ea
 translation_model: gpt-5.4
 translation_run: translate-vi-23269868
 glossary_version: 34
@@ -40,7 +40,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA
 
-#### Định nghĩa 1 {#lie-iv-a0-def-1 .statement}
+#### Định nghĩa 1 {#lie-iv-a0-def-1 .statement tag=0AOV}
 
 *Một đồ thị tổ hợp (hay đơn giản là một đồ thị, nếu không có nguy cơ nhầm lẫn) là một cặp* $(\mathbf{A}, S)$, *trong đó S là một tập hợp và A là một tập con của $\mathfrak{P}(S)$ gồm các tập hợp có hai phần tử.*
 
@@ -66,7 +66,7 @@ sẽ là một đường đi có độ dài $< n$ nối $a$ và $b$.
 
 Quan hệ "tồn tại một đường đi nối $a$ và $b$" giữa hai đỉnh $a$ và $b$ của $\Gamma$ là một quan hệ tương đương $R$ trên tập hợp $S$ các đỉnh. Các lớp tương đương của $R$ được gọi là các *thành phần liên thông* của $\Gamma$; và $\Gamma$ được gọi là *liên thông* nếu $S$ có nhiều nhất một thành phần liên thông, nghĩa là nếu bất kỳ hai đỉnh nào của $\Gamma$ đều có thể được nối với nhau bằng ít nhất một đường đi.
 
-#### Mệnh đề 1 {#lie-iv-a0-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iv-a0-prop-1 .statement tag=0AOW}
 
 *Cho $\Gamma = (A, S)$ là một đồ thị và $(S_\alpha)_{\alpha \in L}$ là họ các thành phần liên thông của nó. Ký hiệu bởi $\Gamma_\alpha$ đồ thị con đầy đủ của $\Gamma$ có $S_\alpha$ làm tập hợp các đỉnh của nó.*
 
@@ -83,7 +83,7 @@ Quan hệ "tồn tại một đường đi nối $a$ và $b$" giữa hai đỉnh
 
 (iv) Cho $a$ thuộc $S'_\lambda$ và gọi $S_\alpha$ là thành phần liên thông của $\Gamma$ chứa $a$. Khi đó, với mọi $b$ thuộc $S_\alpha$, tồn tại một đường đi $(x_0, \ldots, x_n)$ nối $a$ với $b$ trong $\Gamma$. Nếu $i$ là một số nguyên sao cho $0 \leq i < n$ và nếu $x_i \in S'_\lambda$, thì $x_{i+1} \in S'_\lambda$ vì $x_i$ được nối với $x_{i+1}$. Suy ra bằng quy nạp rằng $x_i \in S'_\lambda$ với $0 \leq i \leq n$, và đặc biệt là $b = x_n$ thuộc $S'_\lambda$. Vậy, $S_\alpha \subset S'_\lambda$.
 
-#### Hệ quả 1 {#lie-iv-a0-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-iv-a0-prop-1-cor-1 .statement tag=0AOX}
 
 *Một đồ thị $\Gamma = (A, S)$ là liên thông nếu và chỉ nếu không tồn tại một phân hoạch $(S', S'')$ của $S$ thành hai tập hợp con không rỗng sao cho không có phần tử nào của $S'$ được nối trong $\Gamma$ với bất kỳ phần tử nào của $S''$.*
 
@@ -91,7 +91,7 @@ Giả sử rằng $\Gamma$ không liên thông và gọi $S'$ là một trong c�
 
 Giả sử bây giờ rằng $\Gamma$ là liên thông và cho $(S', S'')$ là một phân hoạch có tính chất đã nêu. Theo Mệnh đề 1, (iv), tập hợp $S'$ chứa ít nhất một thành phần liên thông, nên $S' = S$ và $S'' = \varnothing$, mâu thuẫn.
 
-#### Hệ quả 2 {#lie-iv-a0-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-iv-a0-prop-1-cor-2 .statement tag=0AOY}
 
 *Một tập con $S'$ của $S$ là một hợp các thành phần liên thông khi và chỉ khi không có đỉnh nào thuộc $S'$ được nối với một đỉnh nào thuộc $S - S'$.*
 
@@ -107,7 +107,7 @@ $$
 
 của các đỉnh phân biệt của $\Gamma$ sao cho $n \geq 3$, $x_i$ được nối với $x_{i+1}$ với $1 \leq i < n$ và $x_n$ được nối với $x_1$. $\Gamma$ được gọi là một *rừng* nếu không có chu trình nào trong $\Gamma$; khi đó mọi đồ thị con của $\Gamma$ cũng là một rừng. Một rừng liên thông được gọi là một *cây*; do đó các thành phần liên thông của một rừng là các cây.
 
-#### Mệnh đề 2 {#lie-iv-a0-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iv-a0-prop-2 .statement tag=0AOZ}
 
 *Cho $\Gamma = (A, S)$ là một rừng chỉ có một số hữu hạn đỉnh.*
 
@@ -129,7 +129,7 @@ $$
 
 Một đồ thị $\Gamma$ được gọi là một chuỗi độ dài $m \geq 0$ nếu nó đẳng cấu với $A_{m+1}$. Điều này tương đương với sự tồn tại trong $\Gamma$ của một đường đi đơn ánh $(x_0, \ldots, x_m)$ chứa tất cả các đỉnh, trong đó các đỉnh $x_i$ và $x_j$ không được nối với nhau nếu $|i - j| > 1$.
 
-#### Mệnh đề 3 {#lie-iv-a0-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iv-a0-prop-3 .statement tag=0AP0}
 
 *Một đồ thị là một chuỗi khi và chỉ khi số đỉnh của nó là hữu hạn và khác không, và nó là một cây không có điểm phân nhánh.*
 

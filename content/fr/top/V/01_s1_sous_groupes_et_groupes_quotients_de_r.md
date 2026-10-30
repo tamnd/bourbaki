@@ -28,14 +28,14 @@ subsections:
       pdf_page: 10
 statements: 13
 exercises: 3
-content_sha256: aff9b8586066f9061c025ffbfc4d3d79fe587c27f300e1e028b40a65c384d5cf
+content_sha256: 56b7d078e04a9f8e8dbd34d44bfd475e305b76e8b57c1de1beef8393324bb92d
 ---
 
 ## § 1. SOUS-GROUPES ET GROUPES QUOTIENTS DE $\mathbf{R}$
 
 ### 1. Sous-groupes fermés de $\mathbf{R}$
 
-#### Proposition 1 {#top-v-s1-prop-1 .statement}
+#### Proposition 1 {#top-v-s1-prop-1 .statement tag=0BV0}
 
 Tout sous-groupe fermé du groupe additif $\mathbf{R}$, distinct de $\mathbf{R}$ et de $\{0\}$, est un groupe discret de la forme $a.\mathbf{Z}$, où $a > 0$ (autrement dit, est formé des multiples entiers de $a$).
 
@@ -47,41 +47,41 @@ Tout sous-groupe fermé distinct de $\mathbf{R}$ est donc discret. Reste à mont
 
 Tout groupe quotient séparé de $\mathbf{R}$ est de la forme $\mathbf{R}/H$, où $H$ est un sous-groupe fermé de $\mathbf{R}$ (III, p. 13, prop. 18); donc, d’après la prop. 1 de V, p. 1:
 
-#### Proposition 2 {#top-v-s1-prop-2 .statement}
+#### Proposition 2 {#top-v-s1-prop-2 .statement tag=0BV1}
 
 Les groupes quotients séparés de $\mathbf{R}$, non réduits à l’élément neutre, sont les groupes $\mathbf{R}/a\mathbf{Z}$ ($a \geq 0$).
 
 Si $a$ et $b$ sont des nombres $> 0$, l’automorphisme $x \mapsto (b/a)x$ de $\mathbf{R}$ transforme $a\mathbf{Z}$ en $b\mathbf{Z}$; donc (III, p. 17, Remarque 3) les groupes quotients $\mathbf{R}/a\mathbf{Z}$ et $\mathbf{R}/b\mathbf{Z}$ sont isomorphes; en d’autres termes:
 
-#### Proposition 3 {#top-v-s1-prop-3 .statement}
+#### Proposition 3 {#top-v-s1-prop-3 .statement tag=0BV2}
 
 Tout groupe quotient séparé de $\mathbf{R}$, distinct de $\mathbf{R}$ et non réduit à l’élément neutre, est isomorphe au groupe $\mathbf{R}/\mathbf{Z}$.
 
-#### Définition 1 {#top-v-s1-def-1 .statement}
+#### Définition 1 {#top-v-s1-def-1 .statement tag=0BV3}
 
 Le groupe topologique $\mathbf{R}/a\mathbf{Z}$ ($a > 0$) est appelé groupe additif des nombres réels modulo $a$. On désigne par $\mathbf{T}$ le groupe topologique $\mathbf{R}/\mathbf{Z}$; en tant qu’espace topologique, $\mathbf{T}$ est appelé tore à une dimension (par abus de langage, on appelle aussi « tore à une dimension » le groupe topologique $\mathbf{T}$).
 
-#### Remarque 1 {#top-v-s1-n2-rem-1 .statement}
+#### Remarque 1 {#top-v-s1-n2-rem-1 .statement tag=0BV4}
 
 La relation $x \equiv y$ (mod. $a\mathbf{Z}$) s’écrit plus souvent $x \equiv y$ (mod. $a$) ou simplement $x \equiv y$ ($a$), et se lit « $x$ et $y$ sont congrus modulo $a$ »; elle signifie donc que $x - y$ est un multiple entier de $a$. Lorsque $a$ est entier, la relation induite sur $\mathbf{Z}$ par cette relation d’équivalence n’est autre que la congruence modulo $a$ (A, I, p. 46), ce qui justifie la notation précédente.
 
-#### Remarque 2 {#top-v-s1-n2-rem-2 .statement}
+#### Remarque 2 {#top-v-s1-n2-rem-2 .statement tag=0BV5}
 
 Comme nous le verrons dans VI, p. 12, l’espace topologique $\mathbf{T}$ est homéomorphe au cercle $x^2 + y^2 = 1$ du plan numérique $\mathbf{R}^2$; le produit $\mathbf{T}^2$ est homéomorphe à un tore de révolution dans $\mathbf{R}^3$ (VII, p. 22, exerc. 15); d’où le nom de « tore à une dimension » employé pour désigner $\mathbf{T}$ (au chap. VII, p. 9, nous appellerons de même $\mathbf{T}^n$ le « tore à $n$ dimensions »).*.
 
-#### Proposition 4 {#top-v-s1-prop-4 .statement}
+#### Proposition 4 {#top-v-s1-prop-4 .statement tag=0BV6}
 
 Le tore $\mathbf{T}$ est un espace homéomorphe à l’espace quotient d’un intervalle fermé quelconque $[a, a + 1]$ de $\mathbf{R}$, obtenu en identifiant les extrémités de cet intervalle; il est compact, connexe et localement connexe.
 
 En effet, tout $x \in \mathbf{R}$ est congru (mod. 1) à un nombre de l’intervalle $[a, a + 1]$, savoir $x - [x - a]$; donc $\mathbf{T}$ est image de cet intervalle par l’application canonique $\varphi$ de $\mathbf{R}$ sur $\mathbf{R}/\mathbf{Z}$, et par suite est compact et connexe (I, p. 62, th. 2 et I, p. 82, prop. 4). D’autre part, deux éléments distincts de l’intervalle $[a, a + 1]$ ne peuvent être congrus (mod. 1) que si ce sont les extrémités; de la compacité de $\mathbf{T}$, on conclut donc que $\mathbf{T}$ est homéomorphe à l’espace quotient de $[a, a + 1]$ obtenu en identifiant ses extrémités (I, p. 63, cor. 4 et I, p. 78, prop. 8). Enfin, comme $\mathbf{Z}$ est un sous-groupe discret de $\mathbf{R}$, $\mathbf{T} = \mathbf{R}/\mathbf{Z}$ est localement isomorphe à $\mathbf{R}$ (III, p. 13, prop. 19), et en particulier localement connexe (ce qui est aussi conséquence de I, p. 85, prop. 12).
 
-#### Remarque {#top-v-s1-n2-rem-3 .statement}
+#### Remarque {#top-v-s1-n2-rem-3 .statement tag=0BV7}
 
 On observera que l’application canonique $\varphi$ de $\mathbf{R}$ sur $\mathbf{T} = \mathbf{R}/\mathbf{Z}$, restreinte à l’intervalle semi-ouvert $[a, a + 1[$, est une application bijective et continue de cet intervalle sur $\mathbf{T}$; son application réciproque est continue en tout point de $\mathbf{T}$ distinct de $\varphi(a)$, discontinue au point $\varphi(a)$. On identifie parfois l’espace $\mathbf{T}$ avec l’intervalle $[a, a + 1[$, muni de la topologie image réciproque par $\varphi$ de celle de $\mathbf{T}$ (I, p. 13); cette topologie est bien entendu distincte de la topologie induite sur $[a, a + 1[$ par celle de $\mathbf{R}$.
 
 ### 3. Homomorphismes continus de $\mathbf{R}$ dans lui-même
 
-#### Proposition 5 {#top-v-s1-prop-5 .statement}
+#### Proposition 5 {#top-v-s1-prop-5 .statement tag=0BV8}
 
 Tout homomorphisme continu $f$ du groupe topologique $\mathbf{R}$ dans lui-même est de la forme $x \mapsto ax$, où $a \in \mathbf{R}$; c’est un automorphisme du groupe topologique $\mathbf{R}$ si $a \neq 0$.
 
@@ -95,7 +95,7 @@ En particulier, si $a = f(1)$, on a $f(t) = at$, d’où la proposition.
 
 Le groupe des automorphismes du groupe topologique $\mathbf{R}$ est donc isomorphe au groupe multiplicatif $\mathbf{R}^*$ des nombres réels non nuls.
 
-#### Corollaire {#top-v-s1-n3-cor-1 .statement}
+#### Corollaire {#top-v-s1-n3-cor-1 .statement tag=0BV9}
 
 Soit $G$ un groupe topologique isomorphe à $\mathbf{R}$; pour tout $a \in G$, il existe un homomorphisme continu et un seul $f_a$ de $\mathbf{R}$ dans $G$, tel que $f_a(1) = a$; cet homomorphisme est un isomorphisme de $\mathbf{R}$ sur $G$ si $a$ est distinct de l’élément neutre de $G$.
 
@@ -113,7 +113,7 @@ En particulier, un isomorphisme local d’un groupe topologique $G$ à un groupe
 
 Le groupe topologique $\mathbf{R}$ jouit à cet égard de la propriété suivante:
 
-#### Proposition 6 {#top-v-s1-prop-6 .statement}
+#### Proposition 6 {#top-v-s1-prop-6 .statement tag=0BVA}
 
 Soit $I$ un intervalle de $\mathbf{R}$, contenant $0$ et non réduit à ce point; soit $f$ une application continue de $I$ dans un groupe topologique $G$ (noté multiplicativement), telle que $f(x + y) = f(x)f(y)$ pour tout couple de points $x, y$ tels que $x \in I, y \in I$ et $x + y \in I$. Il existe un homomorphisme continu et un seul de $\mathbf{R}$ dans $G$ qui prolonge $f$.
 
@@ -139,13 +139,13 @@ $$
 
 La relation $f_1(x+y) = f_1(x)f_1(y)$ reste alors valable quels que soient $x \in \mathbf{R}$, $y \in \mathbf{R}$; c’est immédiat pour $x < 0$ et $y < 0$; pour $x \geq 0, y < 0, x+y \geq 0$, on a $f_1(x) = f_1(x+y)f_1(-y)$, d’où la propriété annoncée; de même pour $x \geq 0, y < 0, x+y < 0$, car on a alors $f_1(-y) = f_1(-x-y)f_1(x)$; démonstrations analogues pour $x < 0$ et $y \geq 0$. On voit donc que $f_1$ est un homomorphisme de $\mathbf{R}$ dans G; on a par suite $f_1(0) = e$ (élément neutre de G), et comme $f_1$ est une fonction continue par rapport à $J$, elle a au point 0 une limite à droite égale à $e$; comme $f_1(-x) = (f_1(x))^{-1}$, $f_1$ a aussi au point 0 une limite à gauche égale à $e$; elle est donc continue en 0, ce qui achève la démonstration.
 
-#### Corollaire {#top-v-s1-n4-cor-1 .statement}
+#### Corollaire {#top-v-s1-n4-cor-1 .statement tag=0BVB}
 
 *Soit $f$ un isomorphisme local de $\mathbf{R}$ à un groupe topologique $G$; il existe un morphisme strict et un seul de $\mathbf{R}$ sur un sous-groupe ouvert de $G$, qui coïncide avec $f$ en tous les points d’un voisinage de 0.*
 
 En effet, soit $\bar{f}$ l’homomorphisme continu de $\mathbf{R}$ dans G qui coïncide avec $f$ en tous les points d’un intervalle ouvert I contenant 0 et contenu dans l’ensemble où est défini $f$; $\bar{f}(\mathbf{R})$ contient par hypothèse un voisinage de l’élément neutre de G, donc (III, p. 7, corollaire) est un sous-groupe ouvert de G; en outre, $\bar{f}$ est un morphisme strict de $\mathbf{R}$ sur $\bar{f}(\mathbf{R})$, d’après III, p. 16, prop. 24.
 
-#### Proposition 7 {#top-v-s1-prop-7 .statement}
+#### Proposition 7 {#top-v-s1-prop-7 .statement tag=0BVC}
 
 Tout groupe topologique connexe G, localement isomorphe à $\mathbf{R}$, est isomorphe à $\mathbf{R}$ ou à $\mathbf{T}$.
 

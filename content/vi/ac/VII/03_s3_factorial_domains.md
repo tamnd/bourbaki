@@ -49,7 +49,7 @@ subsections:
       pdf_page: 529
 statements: 19
 exercises: 0
-content_sha256: 69d3adf5a5121d8b97570154b58e927254651ceb823068b63e81be6f5e88e9d6
+content_sha256: fd70d7eedab3a0b4578271d518eaa9476ebc3444da17805aa830d45647a85181
 translated_from: content/en/ac/VII/03_s3_factorial_domains.md
 source_content_sha256: bc2182508bf62fc103152e4d37640a9f7378fda6a660ef2c9aebfd20d6b3c750
 translation_model: gpt-5.4
@@ -63,7 +63,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA MIỀN FACTORIAL
 
-#### Định nghĩa 1 {#ac-vii-s3-def-1 .statement}
+#### Định nghĩa 1 {#ac-vii-s3-def-1 .statement tag=051N}
 
 Một miền Krull mà mọi iđêan ước của nó đều là chính được gọi là một miền factorial (hay miền phân tích duy nhất).
 
@@ -80,7 +80,7 @@ Cho một vành $A$, ta cần xét điều kiện sau:
 
 (M) Mọi họ không rỗng các iđêan chính nguyên của $A$ đều có một phần tử cực đại.
 
-#### Định lý 1 {#ac-vii-s3-thm-1 .statement}
+#### Định lý 1 {#ac-vii-s3-thm-1 .statement tag=051O}
 
 Cho $A$ là một miền nguyên. Các điều kiện sau là tương đương:
 (a) $A$ là factorial;
@@ -103,7 +103,7 @@ Ta chứng minh rằng (b) kéo theo (e). Nếu (b) đúng, có một đẳng c�
 
 Sau cùng ta chứng minh rằng (e) kéo theo (a). Gọi a là một iđêan ước của A. Tồn tại các iđêan nguyên tố $p_i$ của A có chiều cao 1 sao cho $\operatorname{div} a = \sum_i n_i \operatorname{div} p_i$ trong đó $n_i \in \mathbf{Z}$. Nếu (e) đúng, $p_i$ có dạng $Ap_i$, do đó $\operatorname{div} a = \operatorname{div} \left( \prod_i Ap_i^{n_i} \right)$ và vì thế $a = \prod_i Ap_i^{n_i}$ vì a là iđêan ước.
 
-#### Mệnh đề 1 {#ac-vii-s3-prop-1 .statement}
+#### Mệnh đề 1 {#ac-vii-s3-prop-1 .statement tag=051P}
 
 *Nếu A là một miền Krull. Nếu mọi iđêan ước của A đều khả nghịch, thì, với mọi iđêan cực đại m của A, $A_m$ là factorial. Đảo lại là đúng nếu còn giả thiết thêm rằng mọi iđêan ước của A đều sinh hữu hạn (đặc biệt nếu A là Noether).*
 
@@ -113,7 +113,7 @@ Giả sử rằng mọi iđêan ước của $A$ đều khả nghịch; vì $A_{
 
 Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó và $U$ là nhóm nhân các phần tử khả nghịch của $A$. Nhắc lại (Đại số, Chương VI, $§ 1$, no. 5) rằng có một đẳng cấu chính tắc từ $K^*/U$ lên nhóm $\mathscr{P}^*$ các iđêan chính phân thức khác không của $A$. Khi đó điều kiện (b) của Định lý 1 có thể được diễn đạt như sau:
 
-#### Mệnh đề 2 {#ac-vii-s3-prop-2 .statement}
+#### Mệnh đề 2 {#ac-vii-s3-prop-2 .statement tag=051Q}
 
 *Cho $A$ là một miền nguyên. Điều kiện cần và đủ để $A$ là phân tích duy nhất là tồn tại một tập con $P$ của $A$ sao cho mọi $a \in A - \{0\}$ đều có thể viết duy nhất dưới dạng $a = u \prod_{p \in P} p^{n(p)}$, trong đó $u \in U$ và các $n(p)$ là những số nguyên dương bằng không trừ một số hữu hạn phần tử.*
 
@@ -137,7 +137,7 @@ Với mọi $p \in P$, ánh xạ $a \mapsto n(p)$ là một định giá rời r
 
 ### 4. VÀNH PHÂN THỨC CỦA MỘT MIỀN GIAI THỪA
 
-#### Mệnh đề 3 {#ac-vii-s3-prop-3 .statement}
+#### Mệnh đề 3 {#ac-vii-s3-prop-3 .statement tag=051R}
 
 *Cho A là một miền Krull và S là một tập con nhân của A không chứa 0.*
 
@@ -150,7 +150,7 @@ Với mọi $p \in P$, ánh xạ $a \mapsto n(p)$ là một định giá rời r
 
 Cho A là một miền giai thừa, K là trường phân thức của nó và $f$ là một phần tử khác không của $K[X]$; một phần tử c của $K^*$ sẽ được gọi là một *nội dung* của $f$ nếu nó là một ước chung lớn nhất của các hệ số của $f$. Cho $\nu$ là một định giá trên K cốt yếu đối với A và $\bar{\nu}$ là mở rộng chính tắc của nó lên $K[X]$ (được định nghĩa bởi $\bar{\nu}\left(\sum a_i X^i\right) = \inf \nu(a_i)$; xem Chương VI, § 10, no. 1, Mệnh đề 2); khi đó $\bar{\nu}(f) = \nu(c)$.
 
-#### Bổ đề 1 (Gauss) {#ac-vii-s3-lem-1 .statement}
+#### Bổ đề 1 (Gauss) {#ac-vii-s3-lem-1 .statement tag=051S}
 
 *Cho $f, f'$ là các phần tử khác không của $K[X]$ và c, $c'$ là các nội dung của $f, f'$. Khi đó $cc'$ là một nội dung của $ff'$.*
 
@@ -160,7 +160,7 @@ $$
 $$
 Do đó $cc'd^{-1}$ là một phần tử khả nghịch của A.
 
-#### Định lý 2 {#ac-vii-s3-thm-2 .statement}
+#### Định lý 2 {#ac-vii-s3-thm-2 .statement tag=051T}
 
 *Cho A là một miền giai thừa, K là trường phân thức của nó, $(p_\lambda)$ là một hệ đại diện các phần tử cực biên của A và $(P_\lambda)$ là một hệ đại diện các đa thức bất khả quy của $K[X]$, mỗi $P_\lambda$ có 1 làm nội dung. Khi đó:*
 (i) *$A[X]$ là một miền giai thừa;*
@@ -187,7 +187,7 @@ Chú ý rằng định lý này chứng minh rằng mọi phần tử của $A$ 
 
 Ta cũng có thể sử dụng Mệnh đề 18 của § 1, no. 10 để chỉ ra rằng $A[X]$ *là* một miền giai thừa khi và chỉ khi $A$ là một miền giai thừa.
 
-#### Hệ quả {#ac-vii-s3-n5-cor-1 .statement}
+#### Hệ quả {#ac-vii-s3-n5-cor-1 .statement tag=051U}
 
 *Nếu $A$ là một miền giai thừa thì miền $A[X_1, \ldots, X_n]$ là giai thừa.*
 
@@ -197,19 +197,19 @@ Hệ quả này có thể được mở rộng cho trường hợp một họ v�
 
 ### 6. MIỀN GIAI THỪA VÀ VÀNH ZARISKI
 
-#### Mệnh đề 4 {#ac-vii-s3-prop-4 .statement}
+#### Mệnh đề 4 {#ac-vii-s3-prop-4 .statement tag=051V}
 
 *Nếu $A$ là một vành Zariski và $\hat{A}$ là vành hoàn thành của nó. Nếu $\hat{A}$ là một miền phân tích duy nhất, thì $A$ là một miền phân tích duy nhất.*
 
 Điều này suy ra từ no. 1, Định nghĩa 1 và § 1, no. 10, Mệnh đề 16.
 
-#### Hệ quả {#ac-vii-s3-n6-cor-1 .statement}
+#### Hệ quả {#ac-vii-s3-n6-cor-1 .statement tag=051W}
 
 *Nếu vành hoàn thành của một vành địa phương Noether $A$ là một miền phân tích duy nhất, thì $A$ là một miền phân tích duy nhất.*
 
 ### 7. CÁC ĐIỀU CHUẨN BỊ VỀ TỰ ĐỒNG CẤU CỦA CÁC VÀNH CHUỖI LŨY THỪA HÌNH THỨC
 
-#### Bổ đề 2 {#ac-vii-s3-lem-2 .statement}
+#### Bổ đề 2 {#ac-vii-s3-lem-2 .statement tag=051X}
 
 *Cho $f(X_1, X_2, \ldots, X_n)$ là một chuỗi lũy thừa hình thức $\neq 0$ với hệ số trong một vành $E$. Tồn tại các số nguyên $u(i) \geqslant 1$ ($1 \leqslant i \leqslant n - 1$) sao cho*
 
@@ -245,7 +245,7 @@ Trong vành $E[[X_1, \ldots, X]]$, gọi $a$ là iđêan của các chuỗi lũy
 
 Ta lấy $w_1 = X_1 + X_n^{u(1)}, \ldots, w_{n-1} = X_{n-1} + X_n^{u(n-1)}, w_n = X_n$, trong đó các $u(i)$ là những số nguyên $\geq 1$. Gọi $s'$ là tự đồng cấu của $E[[X_1, \ldots, X_n]]$ biến $X_1$ thành $X_1 - X_n^{u(1)}, \ldots, X_{n-1}$ thành $X_{n-1} - X_n^{u(n-1)}$ và $X_n$ thành $X_n$. Khi đó $s'(s(X_i)) = X_i$ với $1 \leq i \leq n$ và do đó $s' \circ s$ là tự đẳng cấu đồng nhất; tương tự đối với $s \circ s'$. Vậy $s$ là một *tự đẳng cấu*.
 
-#### Bổ đề 3 {#ac-vii-s3-lem-3 .statement}
+#### Bổ đề 3 {#ac-vii-s3-lem-3 .statement tag=051Y}
 
 *Cho $f$ là một phần tử khác không của $E[[X_1, \ldots, X_n]]$. Tồn tại những số nguyên $u(i) \geq 1 (1 \leq i \leq n-1)$ sao cho tự đẳng cấu $s$ của $E$ được xác định bởi*
 $$
@@ -269,7 +269,7 @@ $$
 $$
 trong đó $\bar{a}_i$ chỉ ảnh chính tắc của $a_i$ trong $k$. Chuỗi $\tilde{f}$ sẽ được gọi là *chuỗi rút gọn* của f; nếu $\tilde{f} \neq 0$, cấp của $\tilde{f}$ (nghĩa là số nguyên nhỏ nhất $s$ sao cho $a_s \notin m$) sẽ được gọi là *cấp rút gọn* của f.
 
-#### Mệnh đề 5 {#ac-vii-s3-prop-5 .statement}
+#### Mệnh đề 5 {#ac-vii-s3-prop-5 .statement tag=051Z}
 
 *Cho $f \in B$ là một chuỗi mà chuỗi rút gọn của nó khác không. Gọi $s$ là cấp rút gọn của nó và $M$ là A-môđun con của $B$ có cơ sở $\{1, X, \ldots, X^{s-1}\}$. Khi đó $B$ là tổng trực tiếp của $M$ và $f$ không là một ước của không trong $B$.*
 
@@ -317,13 +317,13 @@ r \in fg^{-1}q + M \subset fB + M.
 $$
 Ta cũng có thể dùng các kết quả của Chương III, § 2 để chứng minh quan hệ $B = fB + M$ (xem Bài tập 12). Phương pháp được theo ở đây có ưu điểm là áp dụng được cho các chuỗi hội tụ.
 
-#### Hệ quả {#ac-vii-s3-n8-cor-1 .statement}
+#### Hệ quả {#ac-vii-s3-n8-cor-1 .statement tag=0520}
 
 *Với các giả thiết và ký hiệu của Mệnh đề 5, giả sử rằng $s \geq 1$, sao cho $f \in Bm + BX$. Khi đó đồng cấu A-môđun $h$ từ $B' = A[[T]]$ vào $B = A[[X]]$ sao cho $h(T) = f$ (Chương III, § 2, no. 9, Mệnh đề 11 (a)) xác định trên B một cấu trúc $B'$-môđun tự do nhận $\{1, X, \ldots, X^{s-1}\}$ làm cơ sở. Đặc biệt $h$ là đơn ánh.*
 
 Cho $B'$-môđun B được trang bị lọc (T)-adic, gồm các $f^n B$ với $n \geq 0$ (Chương 111, § 2, no. 1). Khi đó $B/fB$ là một môđun tự do trên vành $A = B'/TB'$ và các ảnh của $X^i$ ($0 \leq i \leq s-1$) trong A-môđun này tạo thành một cơ sở của nó (Mệnh đề 5); hơn nữa vì $f$ không là một ước của không trong B (Mệnh đề 5), $Bf^n/Bf^{n+1}$ cũng là một $(B'/TB')$-môđun tự do hạng s, nên điều kiện (GR) của Chương 111, § 2, no. 8 được thỏa mãn (thay thế A bởi B' và M bởi B). Mặt khác, vì B' là Hausdorff và đầy đủ đối với lọc (T)-adic và gr(B) là một gr(B')-môđun sinh hữu hạn theo điều trên, trước hết suy ra (Chương III, § 2, no. 9, Hệ quả 1 của Mệnh đề 12) rằng B là một B' môđun sinh hữu hạn. Mệnh đề thứ nhất của hệ quả khi đó suy ra từ Chương III, § 2, no. 9, Mệnh đề 13. Mệnh đề thứ hai suy ra ngay lập tức từ đó.
 
-#### Định nghĩa 2 {#ac-vii-s3-def-2 .statement}
+#### Định nghĩa 2 {#ac-vii-s3-def-2 .statement tag=0521}
 
 *Một đa thức* $F \in \mathbf{A}[X]$ *được gọi là phân biệt nếu nó có dạng*
 $$
@@ -333,7 +333,7 @@ $$
 
 Chú ý rằng tích của hai đa thức phân biệt là một đa thức phân biệt.
 
-#### Mệnh đề 6 (Định lý chuẩn bị) {#ac-vii-s3-prop-6 .statement}
+#### Mệnh đề 6 (Định lý chuẩn bị) {#ac-vii-s3-prop-6 .statement tag=0522}
 
 *Cho* $f \in B$ *là một chuỗi mà chuỗi rút gọn của nó khác không và* $s$ *là cấp rút gọn của nó. Khi đó tồn tại một cặp có thứ tự duy nhất* $(u, F)$ *sao cho* $u$ *là một phần tử khả nghịch của* $B$, $F$ *là một đa thức phân biệt bậc* $s$ *và* $f = uF$.
 
@@ -343,13 +343,13 @@ X^s + \bar{g}_0 + \bar{g}_1 X + \cdots + \bar{g}_{s-1} X^{s-1} = \bar{f} \bar{v}
 $$
 vì $\bar{f}$ có cấp $s$, nên $\bar{g}_i = 0$ với mọi $i$ và $\bar{v}$ có cấp 0, do đó $v$ là khả nghịch.
 
-#### Mệnh đề 7 {#ac-vii-s3-prop-7 .statement}
+#### Mệnh đề 7 {#ac-vii-s3-prop-7 .statement tag=0523}
 
 *Cho* $F$ *là một đa thức phân biệt và* $g, h$ *là hai chuỗi lũy thừa hình thức của* $B$ *sao cho* $F = gh$. *Khi đó tồn tại một phần tử khả nghịch* $u$ *của* $B$ *sao cho* $ug$ *và* $u^{-1}h$ *là các đa thức phân biệt và* $F = (ug)(u^{-1}h)$.
 
 Thật vậy, các chuỗi rút gọn của $g$ và $h$ đều $\neq 0$; do đó, theo Mệnh đề 6, tồn tại các phần tử khả nghịch $u, v$ của $B$ sao cho $ug$ và $vh$ là các đa thức phân biệt. Khi đó $uvF = (ug)(vh)$ là một đa thức phân biệt và $uv$ là khả nghịch. Chuyển qua các chuỗi rút gọn, thấy ngay lập tức rằng $F$ và $uvF$ có cùng cấp rút gọn, nghĩa là cùng bậc. Mệnh đề về tính duy nhất trong Mệnh đề 6 vì thế cho thấy rằng $F = uvF$, do đó $uv = 1$.
 
-#### Hệ quả {#ac-vii-s3-n8-cor-2 .statement}
+#### Hệ quả {#ac-vii-s3-n8-cor-2 .statement tag=0524}
 
 *Giả sử thêm rằng* $\mathbf{A}$ *là một miền nguyên và* $F$ *là một đa thức phân biệt bậc* $s$. *Để* $F$ *là extremal trong* $\mathbf{A}[X]$, *điều kiện cần và đủ là nó là extremal trong* $B = \mathbf{A}[[X]]$.
 
@@ -359,7 +359,7 @@ Ngược lại, nếu F không là phần tử extremal trong $A[[X]]$, thì $F 
 
 ### 9. TÍNH PHÂN TÍCH DUY NHẤT CỦA CÁC VÀNH CHUỖI LŨY THỪA HÌNH THỨC
 
-#### Mệnh đề 8 {#ac-vii-s3-prop-8 .statement}
+#### Mệnh đề 8 {#ac-vii-s3-prop-8 .statement tag=0525}
 
 Cho C là một vành, hoặc là một trường, hoặc là một vành định giá rời rạc. Khi đó miền các chuỗi lũy thừa hình thức $C[[X_1, \ldots, X_n]]$ là phân tích duy nhất.
 

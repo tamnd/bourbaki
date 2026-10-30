@@ -33,9 +33,9 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: ae1743a288f14fb7581cb8db725fea40ebe0e5148fe47dfdced3a4b93ebea6eb
+content_sha256: c37dc92b8032602fe6b35dd1cfa564440a0c047325a11090fd677d2a2e916f89
 translated_from: content/en/evt/IV/05_s5_compactness_criteria.md
-source_content_sha256: d0fa9c5aaf380d170b95bfb213aa9e6f15e5cda38e4b3be72f8be11f79b9b7d4
+source_content_sha256: 109a4d05718fd73c2e0104fdb772994f028706b89a9a4001b0f091a0d03c8b4b
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-659a8e67
 glossary_version: 34
@@ -60,7 +60,7 @@ c) từ mọi dãy vô hạn các điểm của A, ta có thể trích xuất m�
 
 Trong mục này, ta sẽ mở rộng tiêu chuẩn này đến một số không gian vectơ tôpô không mêtric hóa được. Mệnh đề sau cho phép ta rút gọn việc nghiên cứu các tập compact về việc nghiên cứu các tập compact yếu trong một số trường hợp.
 
-#### Mệnh đề 1 {#evt-iv-s5-prop-1 .statement}
+#### Mệnh đề 1 {#evt-iv-s5-prop-1 .statement tag=07VR}
 
 — Cho E là một không gian lồi địa phương Hausdorff, và A là một tập con của E. Ký hiệu $E_\sigma$ là không gian E với tôpô yếu hơn.
 a) Nếu mọi dãy vô hạn các điểm của A đều có một điểm giới hạn trong E, thì A là tiềncompact trong E.
@@ -76,7 +76,7 @@ Bây giờ giả sử rằng A tiềncompact trong E và được chứa trong m
 
 Trong mục này, X ký hiệu một không gian *compact* và $\mathscr{C}_s(X)$ là không gian các hàm liên tục trên X, nhận các giá trị trong trường K (bằng $\mathbf{R}$ hoặc $\mathbf{C}$). Không gian $\mathscr{C}_s(X)$ được trang bị tôpô hội tụ đơn giản trên X.
 
-#### Mệnh đề 2 {#evt-iv-s5-prop-2 .statement}
+#### Mệnh đề 2 {#evt-iv-s5-prop-2 .statement tag=07VS}
 
 *Cho D là một tập con trù mật của X và A là một tập con của không gian $\mathscr{C}_s(X)$. Các điều kiện sau là tương đương :*
 (i) *A là compact tương đối trong $\mathscr{C}_s(X)$.*
@@ -128,7 +128,7 @@ Cuối cùng, từ (1)$_m$, ta được $|\gamma - u(a)| \geq \varepsilon$, và 
 
 ### 3. Các định lý Eberlein và Šmulian
 
-#### Định lý 1 (Eberlein) {#evt-iv-s5-thm-1 .statement}
+#### Định lý 1 (Eberlein) {#evt-iv-s5-thm-1 .statement tag=07VT}
 
 — *Cho E là một không gian lồi địa phương Hausdorff và đầy đủ giả, $\mathscr{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và E' và A là một tập con của E. Để A tương đối compact đối với $\mathscr{T}$, điều kiện cần và đủ là mọi dãy vô hạn các điểm của A đều có một điểm giới hạn trong E đối với $\mathscr{T}$.*
 
@@ -146,7 +146,7 @@ Cho $(x'_i)_{i \in I}$ là một cơ sở của không gian vectơ E' trên trư
 
 Vì tôpô của $E_\sigma$ được cảm sinh bởi tôpô của ${E'_\sigma}^*$, tập con $\overline{A}$ của $E_\sigma$ là compact, và đ.l. 1 được chứng minh.
 
-#### Định lý 2 (Šmulian) {#evt-iv-s5-thm-2 .statement}
+#### Định lý 2 (Šmulian) {#evt-iv-s5-thm-2 .statement tag=07VU}
 
 — *Cho E là một không gian Fréchet và A là một tập con của E. Gọi $E_\sigma$ là không gian E được trang bị tôpô yếu hơn. Các điều kiện sau là tương đương* :
 
@@ -158,7 +158,7 @@ Tính tương đương của (i) và (ii) suy ra từ định lý Eberlein, và 
 
 Chúng tôi sẽ chứng minh rằng (i) kéo theo (iii). Giả sử bao đóng B của A trong $E_\sigma$ là compact và $(x_n)_{n \in \mathbf{N}}$ là một dãy các điểm của A. Ký hiệu F là không gian con vectơ đóng nhỏ nhất của E chứa các $x_n$, đó là một không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất. Vì F đóng trong $E_\sigma$ và tôpô $\sigma(F, F')$ trên F được cảm sinh bởi $\sigma(E, E')$, tập $B \cap F$ là compact đối với $\sigma(F, F')$. Theo các nhận xét ở IV, p. 32, sự tồn tại của một dãy trích từ $(x_n)_{n \in \mathbf{N}}$ hội tụ đối với $\sigma(E, E')$ (hay, điều này cũng thế, đối với $\sigma(F, F')$) là một hệ quả của bổ đề sau:
 
-#### Bổ đề 1 {#evt-iv-s5-lem-1 .statement}
+#### Bổ đề 1 {#evt-iv-s5-lem-1 .statement tag=07VV}
 
 — *Cho F là một không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất. Mọi tập con C của F compact đối với tôpô $\mathscr{T}$ cảm sinh bởi $\sigma(F, F')$ đều khả mê đối với tôpô này.*
 
@@ -178,11 +178,11 @@ $$
 
 Trong tiết diện này và tiết diện tiếp theo, chúng tôi sẽ dùng bổ đề sau, là một trường hợp riêng của định lý Lebesgue (INT, IV, 2nd ed. § 4, No. 3, th. 2) do cách diễn giải các phần tử của $\mathscr{C}(X)'$ như những độ đo trên X.
 
-#### Bổ đề 2 {#evt-iv-s5-lem-2 .statement}
+#### Bổ đề 2 {#evt-iv-s5-lem-2 .statement tag=07VW}
 
 Cho X là một không gian compact. Nếu một dãy $(f_n)_{n \in \mathbf{N}}$ bị chặn trong $C(X)$ và hội tụ đơn điểm trên X tới một hàm liên tục f, thì $\mu(f) = \lim_{n \to \infty} \mu(f_n)$ với mọi $\mu$ trong $C(X)'$.
 
-#### Mệnh đề 3 {#evt-iv-s5-prop-3 .statement}
+#### Mệnh đề 3 {#evt-iv-s5-prop-3 .statement tag=07VX}
 
 Cho X là một không gian compact, và A là một tập con bị chặn của $C(X)$. Để A compact tương đối đối với tôpô hội tụ đơn điểm, điều kiện cần và đủ là A compact tương đối đối với $\sigma(C(X), C(X)')$.
 
@@ -190,7 +190,7 @@ Tôpô hội tụ đơn điểm là Hausdorff và thô hơn $\sigma(C(X), C(X)')
 
 Bây giờ giả sử rằng A compact tương đối đối với tôpô hội tụ đơn điểm. Cho $(f_n)_{n \in \mathbf{N}}$ là một dãy các phần tử của A. Theo mệnh đề 2 (IV, p. 33), tồn tại một dãy $(f_{n_k})$ trích từ $(f_n)$ và hội tụ đơn điểm tới một hàm liên tục f. Theo bổ đề 2, dãy bị chặn $(f_{n_k})$ tiến tới f đối với $\sigma(C(X), C(X)')$. Khi đó định lý của Šmulian (IV, p. 36, th. 2) cho thấy rằng A compact tương đối đối với $\sigma(C(X), C(X)')$.
 
-#### Hệ quả {#evt-iv-s5-n4-cor-1 .statement}
+#### Hệ quả {#evt-iv-s5-n4-cor-1 .statement tag=07VY}
 
 Cho S là một không gian tôpô và A là một tập con bị chặn của $C^b(S)$. Các điều kiện sau là tương đương :
 (i) A compact tương đối đối với $\sigma(C^b(S), C^b(S'))$;
@@ -204,7 +204,7 @@ Cho X là compact hóa Stone-Čech của S (GT, IX, § 1, No. 6) và $\alpha$ l�
 
 ### \*5. Bao lồi của một tập compact yếu
 
-#### Định lý 3 (Krein) {#evt-iv-s5-thm-3 .statement}
+#### Định lý 3 (Krein) {#evt-iv-s5-thm-3 .statement tag=07VZ}
 
 Cho E là một không gian lồi địa phương Hausdorff và gần đầy đủ, và cho $\mathscr{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và E'. Cho A là một tập con của E compact đối với $\mathscr{T}$. Khi đó bao lồi cân bằng đóng C của A là compact đối với $\mathscr{T}$.
 

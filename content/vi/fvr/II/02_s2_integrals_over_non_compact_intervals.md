@@ -24,9 +24,9 @@ subsections:
       pdf_page: 82
 statements: 9
 exercises: 9
-content_sha256: b1075a587ba04c4908dd07e546eb06b21e20a6956c1b54aaa334086288e73025
+content_sha256: fea1aba6f3cff737b5e384fb2459c1f452aeb6e680c0f3da423b7052da451d7e
 translated_from: content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md
-source_content_sha256: c881c36ec5ea7370c5059147e2a0654f1e10dbdf7b324df291c68bf94faa7276
+source_content_sha256: c9b52ed8d14396c752cf882b9999823a887d9dfcc853a8cd546dc7a96f2d2721
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-7cdd6941
 glossary_version: 34
@@ -44,7 +44,7 @@ Chúng tôi sẽ tự giới hạn vào trường hợp sau: tồn tại một d
 
 Nếu $f$ có một nguyên hàm $g$ (theo nghĩa đã được nói chính xác ở trên), và nếu $c$ là một điểm của khoảng $[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$, thì theo giả thiết, với mỗi $x$ trong khoảng này, ta có $g(x) - g(c) = \int_c^x f(t)\,dt$; vì $g$ liên tục trên $I$ theo giả thiết, suy ra $\int_c^x f(t)\,dt$ tiến tới một giới hạn trong $E$ khi $x$ tiến tới $c_i$ từ bên phải và khi $x$ tiến tới $c_{i+1}$ từ bên trái. Ngược lại, giả sử rằng các điều kiện này được thỏa mãn với mọi $t$, và gọi $g_i$ là một nguyên hàm của $f$ trên khoảng $[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$; ta chú ý ngay lập tức rằng hàm $g$, được xác định trên phần bù trong $I$ của tập hợp các $c_i$, bởi điều kiện nó bằng $g_i(x) + \sum_{k=1}^i (g_{k-1}(c_k-) - g_k(c_k+))$ trên $[c_i,\ c_{i+1}[$ với $0 \leq i \leq n - 1$, là liên tục tại mọi điểm của $I$ phân biệt với các $c_i$ và có một giới hạn tại mỗi điểm đó; do đó nó có thể được kéo dài bằng tính liên tục tới mỗi điểm ấy, và hàm được kéo dài hiển nhiên là một nguyên hàm của $f$ trên $I$. Hơn nữa, rõ ràng rằng mọi nguyên hàm khác của $f$ đều có dạng $g + a$ ($a$ là một phần tử của $E$).
 
-#### Định nghĩa 1 {#fvr-ii-s2-def-1 .statement}
+#### Định nghĩa 1 {#fvr-ii-s2-def-1 .statement tag=088F}
 
 *Người ta nói rằng một hàm vectơ* $f$, *từng khúc điều hòa trên một khoảng* $[a,\ b[$ *của* $\overline{\mathbf{R}}$, *có một nguyên trên khoảng này nếu* $f$ *có một nguyên hàm trên* $[a,\ b[$*; nếu* $g$ *là một trong các nguyên hàm của* $f$ *trên* $[a,\ b[$*, và nếu* $x_0$ *và* $x$ *là hai điểm bất kỳ của* $[a,\ b[$*, thì người ta gọi phần tử* $g(x) - g(x_0)$ *là nguyên của* $f$ *từ* $x_0$ *đến* $x$, *và ký hiệu nó bởi* $\int_{x_0}^x f(t)\,dt$.
 
@@ -52,7 +52,7 @@ Khái niệm này rõ ràng phù hợp với khái niệm đã được định 
 
 Các nhận xét đứng trước định nghĩa 1 cho thấy rằng để $f$ có một tích phân trên $[a,\ b[$ thì điều kiện cần và đủ là hạn chế của nó trên mỗi khoảng $[c_i,\ c_{i+1}[$ đều thừa nhận một tích phân trên khoảng này. Nói cách khác, ta quy về trường hợp $f$ là điều hòa trên một khoảng *không compắc* $I \subset \mathbf{R}$, có các đầu mút $a,\ b$ ($a < b$), và trong đó: 1 hoặc ít nhất một trong các số $a,\ b$ là vô hạn; 2 hoặc $f$ không điều hòa trên một khoảng compắc chứa ít nhất một trong các điểm $a,\ b$ (hai giả thuyết này không loại trừ lẫn nhau). Để $f$ có một tích phân trên $I$ thì điều kiện cần và đủ là tích phân $\int_a^x f(t)\,dt$ tiến tới một giới hạn khi điểm $(x,\ y)$ tiến tới $(a,\ b) \in \overline{\mathbf{R}}^2$ đồng thời vẫn thuộc $I \times I$: và giới hạn này chính là $\int_a^b f(t)\,dt$ theo định nghĩa 1. Do một sự lạm dụng ngôn ngữ, thay vì nói rằng $f$ có một tích phân trên $I$, người ta nói rằng tích phân $\int_a^b f(t)\,dt$ là *hội tụ* (hoặc *hội tụ*).
 
-#### Ví dụ {#fvr-ii-s2-n1-exa-1 .statement}
+#### Ví dụ {#fvr-ii-s2-n1-exa-1 .statement tag=088G}
 
 i) Tích phân $\int_1^{+\infty} dt/t^2$ hội tụ và bằng 1, vì
 $$
@@ -86,13 +86,13 @@ $$
 
 để $f$ chấp nhận được một tích phân trên $I$ thì điều kiện cần và đủ là ánh xạ $J \mapsto \int_J f(t) \, dt$ có một giới hạn đối với tập có hướng $\mathfrak{K}(I)$; khi đó giới hạn này là tích phân $\int_a^b f(t) \, dt$, mà ta lại ký hiệu bởi $\int_I f(t) \, dt$.
 
-#### Mệnh đề 1 (Tiêu chuẩn Cauchy cho các tích phân) {#fvr-ii-s2-prop-1 .statement}
+#### Mệnh đề 1 (Tiêu chuẩn Cauchy cho các tích phân) {#fvr-ii-s2-prop-1 .statement tag=088H}
 
 *Cho $f$ là một hàm điều chỉnh trên một khoảng $I \subset \mathbf{R}$ có các đầu mút $a$ và $b$ ($a < b$). Để tích phân $\int_a^b f(t) \, dt$ tồn tại, điều kiện cần và đủ là với mọi $\varepsilon > 0$, tồn tại một đoạn compact $J_0 = [\alpha, \beta]$ được chứa trong $I$, sao cho với mọi đoạn compact $K = [x, y]$ được chứa trong $I$ và không có điểm trong nào chung với $J_0$, ta có $\| \int_K f(t) \, dt \| \leq \varepsilon$.*
 
 Thật vậy, vì $E$ là đầy đủ nên tiêu chuẩn Cauchy cho thấy rằng để tích phân $\int_I f(t) \, dt$ hội tụ thì điều kiện cần và đủ là với mọi $\varepsilon > 0$ tồn tại một khoảng compact $J_0 = [\alpha, \beta]$ sao cho với mọi khoảng compact $J$ thỏa mãn $J_0 \subset J \subset I$ ta có $\| \int_J f(t) \, dt - \int_{J_0} f(t) \, dt \| \leq \varepsilon$. Mệnh đề sẽ suy ra từ bổ đề sau:
 
-#### Bổ đề {#fvr-ii-s2-n1-lem-1 .statement}
+#### Bổ đề {#fvr-ii-s2-n1-lem-1 .statement tag=088I}
 
 *Cho $J_0 = [\alpha, \beta]$ là một khoảng compact được chứa trong $I$. Để có $\| \int_J f(t) \, dt - \int_{J'} f(t) \, dt \| \leq \varepsilon$ với mọi cặp khoảng compact $J, J'$ được chứa trong $I$ và chứa $J'$ thì cần phải có $\| \int_K f(t) \, dt \| \leq \varepsilon$, và đủ là có $\| \int_K f(t) \, dt \| \leq \varepsilon / 2$, với mọi khoảng compact $K$ được chứa trong $I$ và không có điểm trong nào chung với $J_0$.*
 
@@ -114,7 +114,7 @@ $$
 x \leq \alpha \leq \beta \leq y \quad \text{và} \quad z \leq \alpha \leq \beta \leq t.
 $$
 
-#### Ví dụ {#fvr-ii-s2-n1-exa-2 .statement}
+#### Ví dụ {#fvr-ii-s2-n1-exa-2 .statement tag=088J}
 
 Nếu khoảng I là *bị chặn*, và nếu $f$ *bị chặn* trên I, thì tích phân $\int_I f(t)\,dt$ luôn luôn tồn tại, vì, theo định lý giá trị trung bình, ta có, với $y \leq \alpha \leq \beta \leq z$,
 $$
@@ -126,7 +126,7 @@ Có thể chú ý rằng trong trường hợp này một nguyên hàm của $f$
 
 ### 2. TÍCH PHÂN CỦA CÁC HÀM DƯƠNG TRÊN MỘT KHOẢNG KHÔNG COMPACT
 
-#### Mệnh đề 2 {#fvr-ii-s2-prop-2 .statement}
+#### Mệnh đề 2 {#fvr-ii-s2-prop-2 .statement tag=088K}
 
 *Cho $f$ là một hàm điều chỉnh thực $\geq 0$ trên một khoảng $I \subset \mathbf{R}$ có các đầu mút $a$ và $b$ ($a < b$). Để tích phân $\int_a^b f(t)\,dt$ tồn tại thì điều kiện cần và đủ là tập hợp các số $\int_J f(t)\,dt$ bị chặn trên khi J chạy qua tập hợp các khoảng compact được chứa trong I; khi đó tích phân $\int_a^b f(t)\,dt$ là cận trên bé nhất của tập hợp các $\int_J f(t)\,dt$.*
 
@@ -152,11 +152,11 @@ Mệnh đề này cung cấp phương tiện được dùng thường xuyên nh�
 
 ### 3. TÍCH PHÂN HỘI TỤ TUYỆT ĐỐI
 
-#### Định nghĩa 2 {#fvr-ii-s2-def-2 .statement}
+#### Định nghĩa 2 {#fvr-ii-s2-def-2 .statement tag=088L}
 
 *Người ta nói rằng tích phân của một hàm điều chỉnh $\mathbf{f}$ trên một khoảng $I \subset \mathbf{R}$ là hội tụ tuyệt đối nếu tích phân của hàm dương $\| \mathbf{f}(x) \|$ là hội tụ.*
 
-#### Mệnh đề 4 {#fvr-ii-s2-prop-4 .statement}
+#### Mệnh đề 4 {#fvr-ii-s2-prop-4 .statement tag=088M}
 
 *Nếu tích phân của $\mathbf{f}$ trên $I$ hội tụ tuyệt đối thì nó hội tụ, và ta có*
 
@@ -172,7 +172,7 @@ $$
 
 Nếu tích phân của hàm dương $\| \mathbf{f}(x) \|$ là hội tụ, thì với mọi $\varepsilon > 0$ tồn tại một khoảng compact $[\alpha,\ \beta]$ được chứa trong $I$, sao cho, với mọi khoảng compact $[\lambda,\ \gamma]$ được chứa trong $I$ và không có điểm trong nào chung với $[\alpha,\ \beta]$, ta có $\int_{\lambda}^{\gamma} \| \mathbf{f}(t) \, dt \| \leq \varepsilon$ (II, p. 65, mệnh đề 1); suy ra rằng $\left| \int_{\lambda}^{\gamma} \mathbf{f}(t)\,dt \right| \leq \varepsilon$, điều này chứng tỏ sự hội tụ của tích phân trên $I$ (II, p. 16, mệnh đề 1); khi chuyển qua giới hạn trong (3) ta suy ra bất đẳng thức (2).
 
-#### Hệ quả {#fvr-ii-s2-n3-cor-1 .statement}
+#### Hệ quả {#fvr-ii-s2-n3-cor-1 .statement tag=088N}
 
 *Cho $E, F, G$ là ba không gian định chuẩn đầy đủ trên $\mathbf{R}$, và $(x, y) \mapsto x.y$ là một ánh xạ song tuyến tính liên tục từ $E \times F$ vào $G$. Cho $\mathbf{f}, \mathbf{g}$ là hai hàm điều chỉnh trên $I$, nhận giá trị trong $E$ và $F$ tương ứng. Nếu $\mathbf{f}$ bị chặn trên $I$ và nếu* tích phân của g hội tụ tuyệt đối trên I, thì tích phân của [f, g] hội tụ tuyệt đối.
 
@@ -182,7 +182,7 @@ $$
 \left\| \int_I [f(t).g(t)] \, dt \right\| \leq h k \int_I \| g(t) \| \, dt.
 $$
 
-#### Nhận xét {#fvr-ii-s2-n3-rem-1 .statement}
+#### Nhận xét {#fvr-ii-s2-n3-rem-1 .statement tag=088O}
 
 Một tích phân có thể hội tụ mà không hội tụ tuyệt đối; điều này được chỉ ra bởi Ví dụ 3 của II, p. 64, trong đó chuỗi có số hạng tổng quát $u_n$ là hội tụ mà không hội tụ tuyệt đối.
 

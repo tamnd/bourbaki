@@ -30,7 +30,7 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: 0d4d0127bd0f36cbd3c2a6be311c933fe5929eadbf69e81319cc08695d227e44
+content_sha256: 65beb1cc0241071c6af8fd096affc82c43f56e17f2bdbff1369f0068bc5d019e
 ---
 
 ## § 9. CONJUGATE ELEMENTS AND QUASI-GALOIS EXTENSIONS
@@ -39,7 +39,7 @@ Throughout this paragraph K denotes a field and $\Omega$ an algebraic closure of
 
 ### 1. Extension of isomorphisms
 
-#### Proposition 1 {#alg-v-s9-prop-1 .statement}
+#### Proposition 1 {#alg-v-s9-prop-1 .statement tag=06LK}
 
 — Let E be an extension of K contained in $\Omega$ and u a K-homomorphism of E into $\Omega$.
 
@@ -53,7 +53,7 @@ It is clear that $\Omega$ is an algebraic closure of E and of $u(E)$; therefore 
 
 ### 2. Conjugate extensions. Conjugate elements
 
-#### Definition 1 {#alg-v-s9-def-1 .statement}
+#### Definition 1 {#alg-v-s9-def-1 .statement tag=06LL}
 
 — Let E and F be two extensions of K contained in $\Omega$. We shall say that E and F are conjugate (in $\Omega$) if there exists a K-automorphism u of $\Omega$ such that $u(E) = F$. Two elements x and y of $\Omega$ are said to be conjugate over K if there exists a K-automorphism u of $\Omega$ such that $u(x) = y$.
 
@@ -61,7 +61,7 @@ Let E and F be two extensions of K contained in $\Omega$. By Prop. 1, E and F ar
 
 The relation « x and y are conjugate over K » is an equivalence relation in $\Omega$; -the equivalence classes are called the conjugacy classes in $\Omega$; they are the orbits in $\Omega$ of the group of all K-automorphisms of $\Omega$.
 
-#### Proposition 2 {#alg-v-s9-prop-2 .statement}
+#### Proposition 2 {#alg-v-s9-prop-2 .statement tag=06LM}
 
 — Let x and y be two elements of $\Omega$. Then the following conditions are equivalent:
 
@@ -83,17 +83,17 @@ Suppose now that $x$ and $y$ have the same minimal polynomial $f$ over $K$. Ther
 
 Finally, under the hypothesis b), Prop. 1 implies the existence of a $K$-automorphism $u$ of $\Omega$ extending $v$; we then have $u(x) = y$, hence $x$ and $y$ are conjugate over $K$, so b) implies a).
 
-#### Corollary 1 {#alg-v-s9-prop-2-cor-1 .statement}
+#### Corollary 1 {#alg-v-s9-prop-2-cor-1 .statement tag=06LN}
 
 — *Let $x$ be an element of $\Omega$ of degree $n$ over $K$, and let $f$ be the minimal polynomial of $x$ over $K$. The conjugates of $x$ over $K$ are-the roots off in $\Omega$ and their number is at most equal to $n$.*
 
-#### Corollary 2 {#alg-v-s9-prop-2-cor-2 .statement}
+#### Corollary 2 {#alg-v-s9-prop-2-cor-2 .statement tag=06LO}
 
 — *Let $x$ be an element of $\Omega$ of degree $n$ over $K$. For $x$ to be separable over $K$ it is necessary and sufficient that $x$ should have $n$ conjugates in $\Omega$; when this is so, all the conjugates of $x$ over $K$ are separable over $K$.
 
 Let $f$ be the minimal polynomial of $x$ over $K$; its roots are the conjugates of $x$ over $K$, and each of these roots admits $f$ as minimal polynomial over $K$. Now $x$ is separable over $K$ if and only if the polynomial $f$ is separable ($V$, p. 39, Prop. 5), that is, if $f$ has $n$ distinct roots in $\Omega$. Cor. 2 follows from this.*
 
-#### Corollary 3 {#alg-v-s9-prop-2-cor-3 .statement}
+#### Corollary 3 {#alg-v-s9-prop-2-cor-3 .statement tag=06LP}
 
 — *Let $G$ be the group of $K$-automorphisms of $\Omega$. The set of invariants of $G$ in $\Omega$ is the relative p-radical closure of $K$ in $\Omega$ ($V$, p. 25).
 
@@ -103,13 +103,13 @@ Let $p$ be the characteristic exponent and let $x \in \Omega$. By $V$, p. 44, Pr
 
 ### 3. Quasi-Galois extensions
 
-#### Definition 2 {#alg-v-s9-def-2 .statement}
+#### Definition 2 {#alg-v-s9-def-2 .statement tag=06LQ}
 
 — *Let $E$ be an extension of $K$. Then $E$ is said to be quasi-Galois or normal (over $K$), if it is algebraic and if every irreducible polynomial of $K[X]$ which has at least one root in $E$, splits into a product of polynomials of degree 1 (distinct or not) in $E[X]$.
 
 If $E$ is an algebraic closure of $K$, it is a quasi-Galois extension of $K$; for the condition (AC) of Prop. 1 ($V$, p. 19) asserts that every non-constant polynomial in $E[X]$ is a product of polynomials of degree 1.*
 
-#### Proposition 3 {#alg-v-s9-prop-3 .statement}
+#### Proposition 3 {#alg-v-s9-prop-3 .statement tag=06LR}
 
 — Let E be an extension of K contained in $\Omega$. Then the following conditions are equivalent:
 a) E is a quasi-Galois extension of K.
@@ -124,45 +124,45 @@ By definition a quasi-Galois extension is the splitting field of the family of m
 
 The definition of conjugate elements shows that c) implies b). Finally assume that b) holds; let $f$ be a monic irreducible polynomial in $K[X]$ having at least one root $x$ in E; since $\Omega$ is algebraically closed, there exist elements $a_k$ of $\Omega$ ($1 \leq k \leq n$) such that $f(x) = \prod_{k=1}^n (X - a_k)$ and since the $a_k$ are the conjugates of x over K (V, p. 53, Cor. 1), they belong to E by hypothesis. So we have shown that b) implies a).
 
-#### Corollary 1 {#alg-v-s9-prop-3-cor-1 .statement}
+#### Corollary 1 {#alg-v-s9-prop-3-cor-1 .statement tag=06LS}
 
 — For an extension E of K contained in $\Omega$ to be quasi-Galois it is necessary and sufficient that it should be identical to all its conjugates over K.
 
 This follows from Prop. 1, a) (V, p. 52) and the equivalence of the conditions a) and c) of Prop. 3.
 
-#### Corollary 2 {#alg-v-s9-prop-3-cor-2 .statement}
+#### Corollary 2 {#alg-v-s9-prop-3-cor-2 .statement tag=06LT}
 
 — Let E and F be two algebraic extensions of K such that $E \subset F$. If F is quasi-Galois over K, then it is quasi-Galois over E.
 
 We may assume that $F \subset \Omega$. Let $u$ be an E-automorphism of $\Omega$. Since $u$ is a K-automorphism of $\Omega$ and F is quasi-Galois over K, we have $u(F) = F$, therefore F is quasi-Galois over E.
 
-#### Corollary 3 {#alg-v-s9-prop-3-cor-3 .statement}
+#### Corollary 3 {#alg-v-s9-prop-3-cor-3 .statement tag=06LU}
 
 — Let N be a quasi-Galois extension of K contained in $\Omega$, and E a subextension of N. Let $u$ be a K-homomorphism of E into $\Omega$; then $u(E) \subset N$ and there exists a K-automorphism $v$ of N which induces $u$ on E.
 
 Let $w$ be a K-automorphism of $\Omega$ extending $u$ (V, p. 52, Prop. 1); since N is quasi-Galois over K, we have $w(N) = N$, whence $w(E) \subset N$ and so $w$ induces a K-automorphism $v$ of N.
 
-#### Corollary 4 {#alg-v-s9-prop-3-cor-4 .statement}
+#### Corollary 4 {#alg-v-s9-prop-3-cor-4 .statement tag=06LV}
 
 — Let $E'$ be an extension of K and E, $K'$ two subextensions of $E'$. Suppose that E is quasi-Galois over K and $E' = K'(E)$; then $E'$ is quasi-Galois over $K'$.
 
 Let $(f_i)_{i \in I}$ be a family of non-constant polynomials in $K[X]$ whose splitting field over $K$ is $E$. Then it is clear that $E'$ is the splitting field of the family $(f_i)_{i \in I}$ over $K'$, so it is quasi-Galois over $K'$.
 
-#### Remark 1 {#alg-v-s9-n3-rem-1 .statement}
+#### Remark 1 {#alg-v-s9-n3-rem-1 .statement tag=06LW}
 
 Let $F$ be an extension of $K$ and $E$ a subextension of $F$, and suppose that $E$ is quasi-Galois over $K$. Let us show that every $K$-automorphism $u$ of $F$ leaves $E$ invariant. For let $x \in E$ and $f$ the minimal polynomial of $x$ over $K$. Since $E$ is quasi-Galois over $K$, there exist $a_1, \ldots, a_n \in E$ such that $f(X) = \Pi(X - a_i)$; we have $f(u(x)) = u(f(x)) = 0$, hence $u(x)$ is one of the $a_i$ and so belongs to $E$. We have proved $u(E) \subset E$, and now $u(E) = E$ follows by V, p. 52, Prop. 1.
 
-#### Remark 2 {#alg-v-s9-n3-rem-2 .statement}
+#### Remark 2 {#alg-v-s9-n3-rem-2 .statement tag=06LX}
 
 Suppose that $E$ is a quasi-Galois extension of $K$ and $F$ a quasi-Galois extension of $E$; it is not always the case that $F$ is quasi-Galois over $K$ (V, p. 153, Ex. 1). The reason is the following: let $u$ be a $K$-automorphism of $\Omega$; we have $u(E) = E$, but if $f$ is the minimal polynomial over $E$ of an element $x$ of $F$, it is not necessarily invariant under $u$; therefore $u(x)$ is not necessarily conjugate to $x$ over $E$, and so need not necessarily belong to $F$. In that case $F$ and $u(F)$ are two distinct quasi-Galois extensions of $E$ which are $K$-isomorphic but not $E$-isomorphic.
 
-#### Remark 3 {#alg-v-s9-n3-rem-3 .statement}
+#### Remark 3 {#alg-v-s9-n3-rem-3 .statement tag=06LY}
 
 Let $E$ be an algebraic extension of $K$ and $x, y$ two elements of $E$. If there exists a $K$-automorphism of $E$ which maps $x$ to $y$ then $x$ and $y$ have the same minimal polynomial over $K$ and so are conjugate over $K$ by Prop. 2 (V, p. 52). The converse holds if $E$ is quasi-Galois, because every $K$-automorphism of $\Omega$ induces a $K$-automorphism of $E$. The hypothesis that $E$ be quasi-Galois is not superfluous as the following example shows: \* let $K = \mathbf{Q}$ and $\Omega$ the field of all algebraic numbers; put $E = \Omega \cap \mathbf{R}$. It may be shown (V, p. 153, Ex. 2) that every automorphism of $E$ is the identity mapping and that $\sqrt{2}$ and $-\sqrt{2}$ are elements of $E$ conjugate over $\mathbf{Q}$. \*
 
 ### 4. The quasi-Galois extension generated by a set
 
-#### Proposition 4 {#alg-v-s9-prop-4 .statement}
+#### Proposition 4 {#alg-v-s9-prop-4 .statement tag=06LZ}
 
 — Let $(N_i)_{i \in I}$ be a family of quasi-Galois extensions of $K$ contained in $\Omega$. Let $N = \bigcap_{i \in I} N_i$ and $M = K\left( \bigcup_{i \in I} N_i \right)$; then the extensions $N$ and $M$ of $K$ are quasi-Galois.
 
@@ -172,16 +172,16 @@ Let $A$ be a set of elements of $\Omega$, and let $B$ be the set of elements of 
 
 The next proposition follows directly from the preceding remarks.
 
-#### Proposition 5 {#alg-v-s9-prop-5 .statement}
+#### Proposition 5 {#alg-v-s9-prop-5 .statement tag=06M0}
 
 — Let E be an extension of K contained in $\Omega$ and N the quasi-Galois extension generated by E. If A is a subset of $\Omega$ such that $E = K(A)$ then $N = K(B)$, where B is the set of elements of $\Omega$ which are conjugate to an element of A.
 
-#### Corollary 1 {#alg-v-s9-prop-5-cor-1 .statement}
+#### Corollary 1 {#alg-v-s9-prop-5-cor-1 .statement tag=06M1}
 
 — If E is an extension of finite degree of K, then the quasi-Galois extension N of K generated by E is of finite degree over K.
 For we have $E = K(A)$ where A is finite, hence the set B of conjugates of elements of A is finite, whence the corollary follows by Th. 2 (V, p. 18).
 
-#### Corollary 2 {#alg-v-s9-prop-5-cor-2 .statement}
+#### Corollary 2 {#alg-v-s9-prop-5-cor-2 .statement tag=06M2}
 
 — Every quasi-Galois extension N of K is the union of quasi-Galois subextensions of N of finite degree over K.
 Let $x \in N$ and let $N_x$ be the quasi-Galois extension of K generated by $\{x\}$. Since $K(x)$ is of finite degree over K, the same is true of $N_x$ (Cor. 1) and we have $x \in N_x$.

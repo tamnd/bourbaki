@@ -61,14 +61,14 @@ subsections:
       pdf_page: 117
 statements: 40
 exercises: 16
-content_sha256: c1cf787be6101666de84cd5a43abcb94f72966453d71281ba1ec3c9890f55ea5
+content_sha256: 6a7f16fc423586c773b7544ac1abce55f90b8f129bc2c37e2c1dbe367875f65c
 ---
 
 ## § 8. ANNEAUX
 
 ### 1. Anneaux
 
-#### Définition 1 {#alg-i-s8-def-1 .statement}
+#### Définition 1 {#alg-i-s8-def-1 .statement tag=05H2}
 
 On appelle anneau un ensemble $\mathbf{A}$ muni de deux lois de composition appelées respectivement addition et multiplication, satisfaisant aux axiomes suivants:
 
@@ -134,7 +134,7 @@ $$
 $$
 somme étendue à toutes les suites $(\alpha_1, \ldots, \alpha_n)$ appartenant à $L_1 \times \cdots \times L_n$; on suppose que pour $i = 1, \ldots, n$, la famille $(x_{i, \lambda})_{\lambda \in L_i}$ d’éléments de l’anneau A est à support *fini*.
 
-#### Proposition 1 {#alg-i-s8-prop-1 .statement}
+#### Proposition 1 {#alg-i-s8-prop-1 .statement tag=05H3}
 
 *Soient A un anneau commutatif et* $(x_\lambda)_{\lambda \in L}$ *une famille finie d’éléments de A. Pour toute famille d’entiers positifs* $\beta = (\beta_\lambda)_{\lambda \in L}$, *posons* $|\beta| = \sum_{\lambda \in L} \beta_\lambda$. *On a*
 $$
@@ -167,7 +167,7 @@ $$
 
 et la formule (14) résulte donc de (15).
 
-#### Corollaire 1 (formule du binôme) {#alg-i-s8-prop-1-cor-1 .statement}
+#### Corollaire 1 (formule du binôme) {#alg-i-s8-prop-1-cor-1 .statement tag=05H4}
 
 Soient $x$ et $y$ deux éléments d’un anneau commutatif $A$. On a :
 
@@ -183,7 +183,7 @@ $$
 
 la sommation étant étendue aux couples d’entiers positifs $p, q$ avec $p + q = n$. La formule du binôme résulte immédiatement de là (E, III, p. 42).
 
-#### Corollaire 2 {#alg-i-s8-prop-1-cor-2 .statement}
+#### Corollaire 2 {#alg-i-s8-prop-1-cor-2 .statement tag=05H5}
 
 Soient $A$ un anneau commutatif, $X$ un ensemble, $\mathbf{u} = (u_x)_{x \in X}$ et $\mathbf{v} = (v_x)_{x \in X}$ deux familles d’éléments de $A$. Notons $\mathbf{u} + \mathbf{v}$ la famille $(u_x + v_x)_{x \in X}$.
 
@@ -201,13 +201,13 @@ $$
 
 d’après le cor. 1. En faisant le produit de ces égalités pour $x \in X$, et en tenant compte de (13) (I, p. 93), on obtient le corollaire.
 
-#### Corollaire 3 {#alg-i-s8-prop-1-cor-3 .statement}
+#### Corollaire 3 {#alg-i-s8-prop-1-cor-3 .statement tag=0DEU}
 
 Soient A un anneau, x et y des éléments nilpotents et permutables de A. Alors $x + y$ est nilpotent.
 
 On se ramène aussitôt au cas où A est commutatif. Si $x^n = 0$ et $y^n = 0$, le cor. 1 entraîne que $(x + y)^{2n-1} = 0$.
 
-#### Proposition 2 {#alg-i-s8-prop-2 .statement}
+#### Proposition 2 {#alg-i-s8-prop-2 .statement tag=05H6}
 
 Soient A un anneau, $x_1, \ldots, x_n$ des éléments de A, et $I = \{1, 2, \ldots, n\}$.
 
@@ -294,7 +294,7 @@ VII. *Pseudo-anneau de carré nul.* Un pseudo-anneau $A$ est dit de carré nul s
 
 ### 4. Homomorphismes d’anneaux
 
-#### Définition 2 {#alg-i-s8-def-2 .statement}
+#### Définition 2 {#alg-i-s8-def-2 .statement tag=05H7}
 
 *Soient* $A$ *et* $B$ *deux anneaux*. *On appelle morphisme, ou homomorphisme, de* $A$ *dans* $B$ *toute application* $f$ *de* $A$ *dans* $B$ *satisfaisant aux relations*:
 
@@ -307,13 +307,13 @@ Le composé de deux homomorphismes d’anneaux est un homomorphisme d’anneaux.
 
 Soit $f : A \to B$ un homomorphisme d’anneaux. L’application $f$ est un homomorphisme du groupe additif de $A$ dans le groupe additif de $B$; en particulier, on a $f(0) = 0$ et $f(-x) = -f(x)$ pour tout $x \in A$. L’image par $f$ d’un élément inversible de $A$ est un élément inversible de $B$, et la restriction de $f$ au groupe multiplicatif de $A$ est un homomorphisme de ce groupe dans le groupe multiplicatif de $B$.
 
-#### Exemple 1 {#alg-i-s8-n4-exa-1 .statement}
+#### Exemple 1 {#alg-i-s8-n4-exa-1 .statement tag=05H8}
 
 Soit $A$ un anneau. On voit immédiatement que l’application $n \mapsto n.1$ de $\mathbf{Z}$ dans $A$ est l’unique homomorphisme de $\mathbf{Z}$ dans $A$. En particulier, l’application identique de $\mathbf{Z}$ est l’unique endomorphisme de l’anneau $\mathbf{Z}$.
 
 Prenons en particulier pour $A$ l’anneau des endomorphismes du groupe additif $\mathbf{Z}$ (I, p. 96, *Exemple VI*). L’application $n \mapsto n.1$ de $\mathbf{Z}$ dans $A$ est un isomorphisme de $\mathbf{Z}$ sur $A$ d’après la construction même de la multiplication dans $\mathbf{Z}$ (I, p. 22).
 
-#### Exemple 2 {#alg-i-s8-n4-exa-2 .statement}
+#### Exemple 2 {#alg-i-s8-n4-exa-2 .statement tag=0DEV}
 
 Soit $a$ un élément inversible d’un anneau $A$. L’application $x \mapsto axa^{-1}$ est un endomorphisme de $A$ car on a
 $$
@@ -326,7 +326,7 @@ Elle est bijective, car la relation $x' = axa^{-1}$ équivaut à $x = a^{-1}x'a$
 
 ### 5. Sous-anneaux
 
-#### Définition 3 {#alg-i-s8-def-3 .statement}
+#### Définition 3 {#alg-i-s8-def-3 .statement tag=05H9}
 
 *Soit* $A$ *un anneau*. *On appelle sous-anneau de* $A$ *toute partie* $B$ *de* $A$ *qui est un sous-groupe de* $A$ *pour l’addition, qui est stable pour la multiplication et contient l’unité de* $A$.
 
@@ -338,25 +338,25 @@ $$
 
 Si $B$ est un sous-anneau de $A$, on le munit de l’addition et de la multiplication induites par celles de $A$, qui en font un anneau. L’injection canonique de $B$ dans $A$ est un homomorphisme d’anneaux.
 
-#### Exemple 1 {#alg-i-s8-n5-exa-1 .statement}
+#### Exemple 1 {#alg-i-s8-n5-exa-1 .statement tag=05HA}
 
 Tout sous-groupe du groupe additif $\mathbf{Z}$ qui contient 1 est égal à $\mathbf{Z}$. Donc $\mathbf{Z}$ est le seul sous-anneau de $\mathbf{Z}$.
 
-#### Exemple 2 {#alg-i-s8-n5-exa-2 .statement}
+#### Exemple 2 {#alg-i-s8-n5-exa-2 .statement tag=0DEW}
 
 Soient $A$ un anneau et $(A_t)_{t \in I}$ une famille de sous-anneaux de $A$; il est immédiat que $\bigcap_{t \in I} A_t$ est un sous-anneau de $A$. En particulier, l’intersection de tous les sous-anneaux de $A$ contenant une partie $X$ de $A$ est un sous-anneau qui est appelé le *sous-anneau de $A$ engendré par $X$*.
 
-#### Exemple 3 {#alg-i-s8-n5-exa-3 .statement}
+#### Exemple 3 {#alg-i-s8-n5-exa-3 .statement tag=0DEX}
 
 Soit $X$ une partie d’un anneau $A$. Le commutant de $X$ dans $A$ est un sous-anneau de $A$. En particulier, le centre de $A$ est un sous-anneau de $A$.
 
-#### Exemple 4 {#alg-i-s8-n5-exa-4 .statement}
+#### Exemple 4 {#alg-i-s8-n5-exa-4 .statement tag=0DEY}
 
 Soit $G$ un groupe commutatif à opérateurs; on note $\Omega$ l’ensemble d’opérateurs et $\alpha \mapsto f_\alpha$ l’action de $\Omega$ sur $G$. Soit $E$ l’anneau des endomorphismes du groupe sans opérateurs $G$ et $F$ l’ensemble des endomorphismes du groupe à opérateurs $G$. Par définition, $F$ se compose des endomorphismes $\varphi$ de $G$ tels que $\varphi \cdot f_\alpha = f_\alpha \cdot \varphi$ pour tout $\alpha \in \Omega$. Par suite, $F$ est un sous-anneau de l’anneau $E$. On appelle $F$ *l’anneau des endomorphismes du groupe à opérateurs $G$* (cf. II, p. 5). Soit $F_1$ le sous-anneau de $E$ engendré par les $f_\alpha$. Alors $F$ est le commutant de $F_1$ dans $E$.
 
 ### 6. Idéaux
 
-#### Définition 4 {#alg-i-s8-def-4 .statement}
+#### Définition 4 {#alg-i-s8-def-4 .statement tag=05HB}
 
 *Soit $A$ un anneau. On dit qu’une partie $a$ de $A$ est un idéal à gauche (resp. à droite) si $a$ est un sous-groupe du groupe additif de $A$ et si les relations $a \in A, x \in a$ entraînent $ax \in a$ (resp. $xa \in a$). On dit que $a$ est un idéal bilatère de $A$ si $a$ est à la fois un idéal à gauche et un idéal à droite de $A$.*
 
@@ -370,33 +370,33 @@ la relation $-a \subset a$ résultant de la formule $(-1).x = -x$ et de $A.a \su
 
 Les idéaux à gauche dans l’anneau $A$ sont les idéaux à droite dans l’anneau opposé $A^0$. Dans un anneau commutatif, les trois espèces d’idéaux se confondent; on les appelle simplement *idéaux*.
 
-#### Exemple 1 {#alg-i-s8-n6-exa-1 .statement}
+#### Exemple 1 {#alg-i-s8-n6-exa-1 .statement tag=05HC}
 
 Soit $A$ un anneau. L’ensemble $A$ est un idéal bilatère de $A$; il en est de même de l’ensemble réduit à 0, qu’on appelle l’idéal *nul* et qu’on écrit parfois 0 ou (0) au lieu de {0}.
 
-#### Exemple 2 {#alg-i-s8-n6-exa-2 .statement}
+#### Exemple 2 {#alg-i-s8-n6-exa-2 .statement tag=0DEZ}
 
 Pour tout élément $a$ de $A$, l’ensemble $A.a$ des multiples à gauche de $a$ est un idéal à gauche; de même l’ensemble $a.A$ est un idéal à droite. Lorsque $a$ est dans le centre de $A$, on a $A.a = a.A$; cet idéal s’appelle *l’idéal principal* engendré par $a$ et se note $(a)$. On a $(a) = A$ si et seulement si $a$ est inversible.
 
-#### Exemple 3 {#alg-i-s8-n6-exa-3 .statement}
+#### Exemple 3 {#alg-i-s8-n6-exa-3 .statement tag=0DF0}
 
 Soit $M$ une partie de $A$. L’ensemble des éléments $x \in A$ tels que $xy = 0$ pour tout $y \in M$ est un idéal à gauche de $A$ qu’on appelle l’*annulateur à gauche* de $M$. On définit de manière analogue l’annulateur à droite de $M$.
 
-#### Exemple 4 {#alg-i-s8-n6-exa-4 .statement}
+#### Exemple 4 {#alg-i-s8-n6-exa-4 .statement tag=0DF1}
 
 Toute intersection d’idéaux à gauche (resp. à droite, bilatères) de $A$ est un idéal à gauche (resp. à droite, bilatère). Etant donnée une partie $X$ de $A$, il existe donc un plus petit idéal à gauche (resp. à droite, bilatère) contenant $X$; on l’appelle l’idéal à gauche (resp. à droite, bilatère) *engendré par* $X$.
 
 Soit $a$ un idéal à gauche de $A$. Les conditions $1 \notin a, a \neq A$ sont évidemment équivalentes.
 
-#### Définition 5 {#alg-i-s8-def-5 .statement}
+#### Définition 5 {#alg-i-s8-def-5 .statement tag=05HD}
 
 *Soit $A$ un anneau. On dit, par abus de langage, qu’un idéal à gauche $a$ est maximal s’il est un élément maximal de l’ensemble des idéaux à gauche distincts de $A$.* Autrement dit, $a$ est maximal si $a \neq A$ et si les seuls idéaux à gauche de $A$ contenant $a$ sont $a$ et $A$.
 
-#### Théorème 1 (Krull) {#alg-i-s8-thm-1 .statement}
+#### Théorème 1 (Krull) {#alg-i-s8-thm-1 .statement tag=05HE}
 
 *Soient $A$ un anneau et $a$ un idéal à gauche de $A$ distinct de $A$. Il existe un idéal à gauche maximal $m$ de $A$ contenant $a$.* Considérons $A$ comme opérant dans le groupe additif $A^+$ de $A$ par multiplication à gauche. Alors les idéaux à gauche de $A$ sont les sous-groupes stables de $A^+$. Le théorème résulte donc de I, p. 33, prop. 3, appliquée à la partie $P = \{1\}$ de $A^+$.
 
-#### Proposition 3 {#alg-i-s8-prop-3 .statement}
+#### Proposition 3 {#alg-i-s8-prop-3 .statement tag=05HF}
 
 *Soient $A$ un anneau, $(x_\lambda)_{\lambda \in L}$ une famille d’éléments de $A$, $a$ (resp. $b$) l’ensemble des sommes $\sum_{\lambda \in L} a_\lambda x_\lambda$ où $(a_\lambda)_{\lambda \in L}$ est une famille à support fini d’éléments de $A$ (resp. $\sum_{\lambda \in L} a_\lambda x_\lambda b_\lambda$ où $(a_\lambda)_{\lambda \in L}$, $(b_\lambda)_{\lambda \in L}$ sont des familles à support fini d’éléments de $A$). Alors $a$ (resp. $b$) est l’idéal à gauche (resp. bilatère) de $A$ engendré par l’ensemble des $x_\lambda$.
 
@@ -414,7 +414,7 @@ $$
 
 prouvent que $a$ est un idéal à gauche. Soit $a'$ un idéal à gauche tel que $x_\lambda \in a'$ pour tout $\lambda \in L$, et soit $(a_\lambda)_{\lambda \in L}$ une famille à support fini dans $A$. On a $a_\lambda x_\lambda \in a'$ pour tout $\lambda \in L$, d’où $\sum_{\lambda \in L} a_\lambda x_\lambda \in a'$; on a donc $a \subset a'$. Donc $a$ est l’idéal à gauche de $A$ engendré par les $x_\lambda$. On raisonne de façon analogue pour $b$.
 
-#### Proposition 4 {#alg-i-s8-prop-4 .statement}
+#### Proposition 4 {#alg-i-s8-prop-4 .statement tag=05HG}
 
 Soient $A$ un anneau et $(a_\lambda)_{\lambda \in L}$ une famille d’idéaux à gauche de $A$. L’idéal à gauche engendré par $\bigcup_{\lambda \in L} a_\lambda$ se compose des sommes $\sum_{\lambda \in L} y_\lambda$, où $(y_\lambda)_{\lambda \in L}$ est une famille à support fini telle que $y_\lambda \in a_\lambda$ pour tout $\lambda \in L$.
 
@@ -436,13 +436,13 @@ $$
 $$
 et l’on établit de manière analogue la relation $(\xi + \eta)\zeta = \xi\zeta + \eta\zeta$.
 
-#### Définition 6 {#alg-i-s8-def-6 .statement}
+#### Définition 6 {#alg-i-s8-def-6 .statement tag=05HH}
 
 Soient $A$ un anneau et $a$ un idéal bilatère de $A$. On appelle anneau quotient de $A$ par $a$ et l'on note $A/a$ l'ensemble quotient de $A$ par la relation d'équivalence $x \equiv y$ ($a$), muni de l'addition et de la multiplication quotients de celles de $A$.
 
 L'anneau $A/\{0\}$ est isomorphe à $A$, et $A/A$ est un anneau nul.
 
-#### Théorème 2 {#alg-i-s8-thm-2 .statement}
+#### Théorème 2 {#alg-i-s8-thm-2 .statement tag=05HI}
 
 Soient $A$ un anneau et $a$ un idéal bilatère de $A$.
 a) L'application canonique $\pi$ de $A$ sur $A/a$ est un homomorphisme d'anneaux.
@@ -458,7 +458,7 @@ $$
 
 et $\bar{f}(\varepsilon) = \bar{f}(\pi(1)) = f(1) = 1$, donc $\bar{f}$ est un homomorphisme d'anneaux.
 
-#### Théorème 3 {#alg-i-s8-thm-3 .statement}
+#### Théorème 3 {#alg-i-s8-thm-3 .statement tag=05HJ}
 
 Soient $A$ et $B$ des anneaux, $f$ un homomorphisme de $A$ dans $B$.
 a) Le noyau $a$ de $f$ est un idéal bilatère de $A$.
@@ -469,7 +469,7 @@ Comme $f$ est un morphisme du groupe additif de $A$ dans celui de $B$, $a$ est u
 
 ### 8. Sous-anneaux et idéaux dans un anneau quotient
 
-#### Proposition 5 {#alg-i-s8-prop-5 .statement}
+#### Proposition 5 {#alg-i-s8-prop-5 .statement tag=05HK}
 
 Soient $A$ et $A'$ deux anneaux, $f$ un homomorphisme de $A$ dans $A'$, et $a$ le noyau de $f$.
 a) Soit $B'$ un sous-anneau de $A'$. Alors $B = f^{-1}(B')$ est un sous-anneau de $A$ contenant $a$. Si $f$ est surjectif, on a $f(B) = B'$, et $f|B$ définit par passage au quotient un isomorphisme de $B/a$ sur $B'$.
@@ -484,11 +484,11 @@ Le morphisme composé $g : A \to A' \to A'/b'$ considéré en c) a pour noyau $b
 
 Supposons $f$ surjectif. D’après ce qui précède, l’application $\theta : B' \mapsto f^{-1}(B')$ est une application de $\Phi'$ dans $\Phi$. Il est clair que l’application $\eta : B \mapsto f(B)$ est une application de $\Phi$ dans $\Phi'$. On a $\theta \circ \eta = \mathrm{Id}_{\Phi}, \eta \circ \theta = \mathrm{Id}_{\Phi'},$ d’où d).
 
-#### Remarque {#alg-i-s8-n8-rem-1 .statement}
+#### Remarque {#alg-i-s8-n8-rem-1 .statement tag=05HL}
 
 Avec les notations précédentes, $\theta$ et $\eta$ sont des isomorphismes d’ensembles ordonnés ($\Phi$ et $\Phi'$ étant ordonnés par inclusion).
 
-#### Corollaire {#alg-i-s8-n8-cor-1 .statement}
+#### Corollaire {#alg-i-s8-n8-cor-1 .statement tag=05HM}
 
 Soient $A$ un anneau, $a$ un idéal bilatère de $A$.
 
@@ -508,7 +508,7 @@ ab \subset a \cap b.
 $$
 (21)
 
-#### Proposition 6 {#alg-i-s8-prop-6 .statement}
+#### Proposition 6 {#alg-i-s8-prop-6 .statement tag=05HN}
 
 Soient $a, b_1, \ldots, b_n$ des idéaux bilatères de $A$. Si $A = a + b_i$ pour tout $i$, on a $A = a + b_1 b_2 \ldots b_n = a + (b_1 \cap b_2 \cap \cdots \cap b_n)$.
 
@@ -518,7 +518,7 @@ $$
 $$
 d’où $A = a + b_1 b_2$.
 
-#### Proposition 7 {#alg-i-s8-prop-7 .statement}
+#### Proposition 7 {#alg-i-s8-prop-7 .statement tag=05HO}
 
 Soient $b_1, \ldots, b_n$ des idéaux bilatères de $A$, tels que $b_i + b_j = A$ pour i ≠ j. Alors $b_1 \cap b_2 \cap \cdots \cap b_n = \sum_{\sigma \in S_n} b_{\sigma(1)} b_{\sigma(2)} \cdots b_{\sigma(n)}$. En particulier, si A est commutatif, $b_1 \cap b_2 \cap \cdots \cap b_n = b_1 b_2 \cdots b_n$ (cf. I, p. 151, exerc. 2).
 
@@ -568,7 +568,7 @@ le noyau $a_J$ de $\eta_{I-J}$ est égal à l’image de $\varepsilon_J$. On a $
 
 Posons $e_{\{i\}} = e_i$ et $a_i = a_{\{i\}} = e_i A = A e_i$ pour tout $i \in I$. On a $e_i^2 = e_i$, $e_i e_j = e_j e_i = 0$ pour $i \neq j$. Si $I$ est fini, on a $\sum_{i \in I} e_i = 1$, le groupe additif $A$ est somme directe des idéaux bilatères $a_i$, et, si $x \in A$, sa composante dans $a_i$ est $x e_i$. On en déduit aussitôt la proposition suivante:
 
-#### Proposition 8 {#alg-i-s8-prop-8 .statement}
+#### Proposition 8 {#alg-i-s8-prop-8 .statement tag=05HP}
 
 *Supposons I fini. Si b est un idéal à gauche ou à droite de A, b est somme directe des b ∩ a_i.*
 
@@ -582,17 +582,17 @@ $$
 
 où $\varphi_i$ est l’homomorphisme canonique de $A$ sur $A/b_i$.
 
-#### Proposition 9 {#alg-i-s8-prop-9 .statement}
+#### Proposition 9 {#alg-i-s8-prop-9 .statement tag=05HQ}
 
 *Soient A un anneau, $b_1, \ldots, b_n$ des idéaux bilatères de A tels que $b_i + b_j = A$ pour $i \neq j$. L’homomorphisme canonique de A dans $\prod_{i=1}^n (A/b_i)$ est surjectif, de noyau $\bigcap_{i=1}^n b_i = \sum_{\sigma \in S_n} b_{\sigma(1)} b_{\sigma(2)} \cdots b_{\sigma(n)}$.*
 
 Il est clair que le noyau est $\bigcap_{i=1}^{n} b_i$. Pour prouver la surjectivité, il faut montrer que, pour toute famille $(x_i)_{1 \leq i \leq n}$ d’éléments de $A$, il existe $x \in A$ tel que $x \equiv x_i \ (b_i)$ pour $1 \leq i \leq n$. Prouvons cette assertion par récurrence sur $n$, le cas $n \leq 1$ étant trivial. D’après l’hypothèse de récurrence, il existe $y \in A$ tel que $y \equiv x_i \ (b_i)$ pour $1 \leq i \leq n - 1$. Cherchons $x$ sous la forme $y + z$ avec $z \in A$. On doit avoir $z \equiv 0 \ (b_i)$ pour $i < n$, c’est-à-dire $z \in b = \bigcap_{i=1}^{n-1} b_i$, et d’autre part $z \equiv x_n - y \ (b_n)$. Or $b_n + b = A$ d’après I, p. 102, prop. 6, d’où l’existence de $z$. Enfin, la deuxième expression du noyau résulte de I, p. 102, prop. 7.
 
-#### Définition 7 {#alg-i-s8-def-7 .statement}
+#### Définition 7 {#alg-i-s8-def-7 .statement tag=05HR}
 
 Soit $A$ un anneau. On appelle décomposition directe de $A$ une famille finie $(b_i)_{i \in I}$ d’idéaux bilatères de $A$ telle que l’homomorphisme canonique de $A$ dans $\prod_{i \in I} (A/b_i)$ soit un isomorphisme.
 
-#### Proposition 10 {#alg-i-s8-prop-10 .statement}
+#### Proposition 10 {#alg-i-s8-prop-10 .statement tag=05HS}
 
 Soient $A$ un anneau, $A'$ son centre, $(b_i)_{i \in I}$ une famille finie d’idéaux bilatères de $A$. Les conditions suivantes sont équivalentes:
 
@@ -620,13 +620,13 @@ Ainsi, les conditions a), b), c) et d) sont équivalentes. Supposons-les vérifi
 
 Enfin, supposons la condition e) vérifiée. Puisque a) $\Rightarrow$ b), il existe une famille (e_i)_{i \in I} d’idempotents de A’ tels que $e_i e_j = 0$ pour $i \neq j$, $1 = \sum_{i \in I} e_i$, et $b'_i = A'(1 - e_i)$ pour $i \in I$. Alors $b_i = Ab'_i = A(1 - e_i)$ pour $i \in I$, donc la condition b) est vérifiée.
 
-#### Remarque {#alg-i-s8-n11-rem-1 .statement}
+#### Remarque {#alg-i-s8-n11-rem-1 .statement tag=05HT}
 
 Soit A un anneau. Soit $(a_i)_{i \in I}$ une famille finie de sous-groupes du groupe additif $A^+$ de A, telle que $A^+$ soit somme directe des $a_i$. Supposons $a_i a_i \subset a_i$ pour $i \in I$, et $a_i a_j = \{0\}$ pour $i \neq j$. Alors $a_i$ est, pour tout $i \in I$, un idéal bilatère de A. Muni de l’addition et de la multiplication induites par celles de A, $a_i$ est un anneau admettant pour élément unité la composante de $1 \in A$ dans $a_i$.
 
 Si $b_i = \sum_{j \neq i} a_j$, il est clair que les $b_i$ vérifient la condition c) de la prop. 10, donc $(b_i)_{i \in I}$ est une décomposition directe de A, qui est dite définie par $(a_i)_{i \in I}$.
 
-#### Exemple {#alg-i-s8-n11-exa-1 .statement}
+#### Exemple {#alg-i-s8-n11-exa-1 .statement tag=05HU}
 
 Idéaux et anneaux quotients de $\mathbf{Z}$
 Un idéal de $\mathbf{Z}$ est un sous-groupe additif de $\mathbf{Z}$, donc de la forme $n.\mathbf{Z}$ avec $n \geqslant 0$; réciproquement, pour tout entier $n \geqslant 0$, l’ensemble $n.\mathbf{Z}$ est un idéal, l’idéal principal $(n)$. Donc tout idéal de $\mathbf{Z}$ est principal, et se représente de manière unique sous la forme $n\mathbf{Z}$ avec $n \geqslant 0$. L’idéal (1) est égal à $\mathbf{Z}$, l’idéal (0) est réduit à 0, et les idéaux distincts de $\mathbf{Z}$ et $\{0\}$ sont donc de la forme $n\mathbf{Z}$ avec $n > 1$. Si $m \geqslant 1$ et $n \geqslant 1$, on a $m\mathbf{Z} \supset n\mathbf{Z}$ si et seulement si $n \in m.\mathbf{Z}$, c’est-à-dire si $m$ divise $n$. Par suite, pour que l’idéal $n\mathbf{Z}$ soit maximal, il faut et il suffit qu’il n’existe aucun entier $m > 1$ distinct de $n$ divisant $n$; autrement dit, les idéaux maximaux de $\mathbf{Z}$ sont les idéaux de la forme $p\mathbf{Z}$ où $p$ est un nombre premier (I, p. 48, déf. 16).
@@ -639,7 +639,7 @@ Le produit des idéaux $m\mathbf{Z}$ et $n\mathbf{Z}$ est l’ensemble des $\sum
 
 Pour tout entier $n \geqslant 1$, l’anneau quotient $\mathbf{Z}/n\mathbf{Z}$ s’appelle l’anneau des entiers modulo $n$; il a $n$ éléments, qui sont les classes modulo $n$ des entiers $0, 1, 2, \ldots, n-1$. Pour $n = 1$, on obtient un anneau nul.
 
-#### Proposition 11 {#alg-i-s8-prop-11 .statement}
+#### Proposition 11 {#alg-i-s8-prop-11 .statement tag=05HV}
 
 Soient $n_1, \ldots, n_r$ des entiers $\geqslant 1$, étrangers deux à deux, et $n = n_1 \ldots n_r$. L’homomorphisme canonique de $\mathbf{Z}$ dans l’anneau produit $\prod_{i=1}^r (\mathbf{Z}/n_i\mathbf{Z})$ est surjectif, de noyau $n\mathbf{Z}$, et définit un isomorphisme d’anneaux de $\mathbf{Z}/n\mathbf{Z}$ sur $\prod_{i=1}^r (\mathbf{Z}/n_i\mathbf{Z})$.
 
@@ -649,7 +649,7 @@ Les résultats précédents, ainsi que ceux relatifs à la décomposition en fac
 
 ### 12. Anneaux de fractions
 
-#### Théorème 4 {#alg-i-s8-thm-4 .statement}
+#### Théorème 4 {#alg-i-s8-thm-4 .statement tag=05HW}
 
 Soient $A$ un anneau commutatif et $S$ une partie de $A$. Soit $A_S$ le monoïde des fractions de $A$ (muni de la seule multiplication) à dénominateurs dans $S$ (I, p. 17). Soit $\varepsilon : A \to A_S$ le morphisme canonique. Il existe sur $A_S$ une addition et une seule satisfaisant aux conditions suivantes:
 a) $A_S$, muni de cette addition et de sa multiplication, est un anneau commutatif;
@@ -674,7 +674,7 @@ On vérifie facilement que l’addition dans $A_S$ est associative et commutativ
 $$\varepsilon(a + b) = (a + b)/1 = a/1 + b/1 = \varepsilon(a) + \varepsilon(b)$$
 donc $\varepsilon$ est un homomorphisme d’anneaux.
 
-#### Définition 8 {#alg-i-s8-def-8 .statement}
+#### Définition 8 {#alg-i-s8-def-8 .statement tag=05HX}
 
 L’anneau défini au th. 4 s’appelle l’anneau des fractions de A associé à S, ou à dénominateurs dans S, et se note $A[S^{-1}]$.
 
@@ -682,7 +682,7 @@ Le zéro $A[S^{-1}]$ est 0/1, l’unité de $A[S^{-1}]$ est 1/1.
 On reviendra sur les propriétés de $A[S^{-1}]$ en Alg. comm., chap. II, § 2.
 Si S est l’ensemble des éléments simplifiables de A, l’anneau $A[S^{-1}]$ s’appelle l’anneau total des fractions de A. On identifie alors A à un sous-anneau de A $[S^{-1}]$ grâce à l’application $\varepsilon$, qui est alors injective (I, p. 18, prop. 6).
 
-#### Théorème 5 {#alg-i-s8-thm-5 .statement}
+#### Théorème 5 {#alg-i-s8-thm-5 .statement tag=05HY}
 
 Soient A un anneau commutatif, S une partie de A, B un anneau, f un homomorphisme de A dans B tel que tout élément de $f(S)$ soit inversible. Il existe un homomorphisme $\bar{f}$ de $A[S^{-1}]$ dans B et un seul tel que $f = \bar{f} \circ \varepsilon$.
 

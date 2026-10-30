@@ -28,7 +28,7 @@ subsections:
       pdf_page: 90
 statements: 13
 exercises: 5
-content_sha256: 9487a2874b28dd22071133041d4c2d1612bf82eda8b1c5906aa81830d5ea0414
+content_sha256: c6b17bc7be92bcf68ec9f1d626a375b64312ae744f0e54d337171310d9953fac
 ---
 
 ## § 1. NOMBRES COMPLEXES; QUATERNIONS
@@ -37,23 +37,23 @@ content_sha256: 9487a2874b28dd22071133041d4c2d1612bf82eda8b1c5906aa81830d5ea0414
 
 Le polynôme $X^2 + 1$ n’a pas de racine dans $\mathbf{R}$, puisqu’on a $x^2 + 1 \geqslant 1$ quel que soit $x \in \mathbf{R}$; il est donc irréductible dans $\mathbf{R}$. C’est là d’ailleurs un cas particulier du résultat analogue qui s’applique à tout corps ordonné (A, VI, § 2).
 
-#### Définition 1 {#top-viii-s1-def-1 .statement}
+#### Définition 1 {#top-viii-s1-def-1 .statement tag=0BZV}
 
 On appelle corps des nombres complexes, et on désigne par $\mathbf{C}$, le corps (commutatif) $\mathbf{R}[X]/(X^2 + 1)$; on désigne par $i$ l’image canonique de $X$ dans $\mathbf{C}$, de sorte que $\mathbf{C}$ est obtenu par adjonction algébrique au corps $\mathbf{R}$ de la racine $i$ du polynôme $X^2 + 1$; les éléments de $\mathbf{C}$ sont appelés nombres complexes.
 
 Du point de vue algébrique, l’intérêt du corps $\mathbf{C}$ provient du théorème fondamental suivant:
 
-#### Théorème 1 (théorème de d’Alembert-Gauss) {#top-viii-s1-thm-1 .statement}
+#### Théorème 1 (théorème de d’Alembert-Gauss) {#top-viii-s1-thm-1 .statement tag=0BZW}
 
 Le corps $\mathbf{C}$ des nombres complexes est algébriquement clos.
 
 Pour le démontrer, il suffit (A, VI, § 2, n° 6, th. 3) d’établir que: 1° tout élément $\geqslant 0$ a une racine carrée dans $\mathbf{R}$; 2° tout polynôme de degré impair à coefficients dans $\mathbf{R}$ possède au moins une racine dans $\mathbf{R}$. Nous avons déjà démontré la première de ces propositions (IV, p. 12). D’autre part, si $f(X) = a_0 X^n + a_1 X^1 + \cdots + a_n$ est un polynôme de degré $n$ impair ($a_0 \neq 0$) à coefficients réels, on peut écrire pour $x \neq 0$, $f(x) = a_0 x^n g(x)$, où $g(x) = 1 + a_1 / a_0 x + \cdots + a_n / a_0 x^n$ tend vers $+1$ lorsque $x$ tend vers $+\infty$ ou $-\infty$. Il existe donc un nombre $a > 0$ tel que $f(a)$ ait le signe de $a_0$ et $f(-a)$ le signe de $-a_0$; d’après le th. de Bolzano (IV, p. 28, th. 2), $f$ a au moins une racine dans $(-a, a)$.
 
-#### Remarque 1 {#top-viii-s1-n1-rem-1 .statement}
+#### Remarque 1 {#top-viii-s1-n1-rem-1 .statement tag=0BZX}
 
 On peut démontrer le th. I sans utiliser la théorie des corps ordonnés, en se servant des propriétés de la topologie du corps $\mathbf{C}$, qui va être définie ci-dessous (VIII, p. 3): voir VIII, p. 22, exerc. 2, et aussi la partie de ce Traité consacrée à la Topologie algébrique, où le théorème de d’Alembert-Gauss sera démontré comme conséquence de résultats sur le degré d’application.
 
-#### Remarque 2 {#top-viii-s1-n1-rem-2 .statement}
+#### Remarque 2 {#top-viii-s1-n1-rem-2 .statement tag=0BZY}
 
 Comme $\mathbf{C}$ est de degré 2 par rapport à $\mathbf{R}$, on voit que $\mathbf{C}$ est, à isomorphisme près, la seule extension algébrique de $\mathbf{R}$ distincte de $\mathbf{R}$, et qu’il n’existe pas de corps contenu dans $\mathbf{C}$ et contenant $\mathbf{R}$, distinct de $\mathbf{R}$ et de $\mathbf{C}$.
 
@@ -131,7 +131,7 @@ $$
 
 On sait (III, p. 55) que la topologie induite sur le groupe multiplicatif $\mathbf{C}^*$ des nombres complexes $\neq 0$ est compatible avec la structure de groupe de $\mathbf{C}^*$; comme $\mathbf{C}^*$ est ouvert dans $\mathbf{C}$, $\mathbf{C}^*$ est un groupe topologique *localement compact* (I, p. 66, prop. 13), donc *complet* (pour la structure uniforme multiplicative, bien entendu; cf. III, p. 56, prop. 8). Le groupe multiplicatif $\mathbf{R}_+^*$ des nombres réels $> 0$ est un *sous-groupe fermé* de $\mathbf{C}^*$. Un autre sous-groupe est formé de l’ensemble $\mathbf{U}$ des nombres complexes *de valeur absolue égale à* 1, qui est identifié avec le *cercle unité* $\mathbf{S}_1$ de $\mathbf{R}^2$, et est par suite un groupe *compact*. En outre:
 
-#### Proposition 1 {#top-viii-s1-prop-1 .statement}
+#### Proposition 1 {#top-viii-s1-prop-1 .statement tag=0BZZ}
 
 *Le groupe topologique* $\mathbf{C}^*$ *est le produit direct de ses sous-groupes* $\mathbf{R}_+^*$ *et* $\mathbf{U}$.
 
@@ -165,7 +165,7 @@ Nous obtenons ainsi un troisième exemple de corps topologique localement compac
 
 L’ensemble des quaternions de norme 1, identique à la sphère $\mathbf{S}_3$, est un sous-groupe compact du groupe multiplicatif $\mathbf{H}^*$ des quaternions non nuls.
 
-#### Proposition 2 {#top-viii-s1-prop-2 .statement}
+#### Proposition 2 {#top-viii-s1-prop-2 .statement tag=0C00}
 
 *Le groupe topologique $\mathbf{H}^*$ des quaternions $\neq 0$ est le produit direct de ses sous-groupes $\mathbf{R}_+^*$ et $\mathbf{S}_3$.*
 
@@ -173,7 +173,7 @@ En effet, l’application $(t, \mathbf{z}) \mapsto t\mathbf{z}$ de $\mathbf{R}_+
 
 Si $\mathbf{x} = z_0 + z_1 j \in \mathbf{H}$, avec $z_0, z_1$ dans $\mathbf{C}$, on a $N(\mathbf{x}) = z_0 \overline{z}_0 + z_1 \overline{z}_1$. Il s’ensuit que $N$ est une forme hermitienne positive non dégénérée sur le $\mathbf{C}$-espace vectoriel $\mathbf{H}$ (A, IX, §7, n° 1); notons $\mathbf{SU}(N)$ le groupe spécial unitaire correspondant. Si on identifie $\mathbf{H}$ à $\mathbf{C}^2$ à l’aide de la base $(1, j)$, le groupe $\mathbf{SU}(N)$ s’identifie alors au groupe $\mathbf{SU}(2, \mathbf{C})$.
 
-#### Proposition 3 {#top-viii-s1-prop-3 .statement}
+#### Proposition 3 {#top-viii-s1-prop-3 .statement tag=0EAZ}
 
 *L’application qui associe à chaque $\mathbf{q} \in \mathbf{S}_3$ l’endomorphisme*
 $$
@@ -195,7 +195,7 @@ $$
 
 Soit $q \in \mathbf{H}^*$ et $x \in \mathbf{H}$; d’après A, III, p. 16, formule (17), on a $T(qxq^{-1}) = T(x)$, de sorte que $qxq^{-1}$ est pur lorsque $x$ l’est.
 
-#### Proposition 4 {#top-viii-s1-prop-4 .statement}
+#### Proposition 4 {#top-viii-s1-prop-4 .statement tag=0EB0}
 
 *L’application qui associe à chaque $q \in S_3$ l’endomorphisme $x \mapsto qxq^{-1} = q x \bar{q}$ de l’espace $\mathbf{H}_0$ des quaternions purs est un homomorphisme surjectif du groupe $S_3$ sur le groupe spécial orthogonal $\mathbf{SO}(N_0)$; son noyau est formé des quaternions $1$ et $-1$.*
 
@@ -209,25 +209,25 @@ $$
 
 comme $b_q(i) = i$, cela implique $u = b_q$. *Traitons maintenant le cas général.* On a $u(i)^2 = -1$, et $i$ et $u(i)$ engendrent deux sous-corps isomorphes de $\mathbf{H}$. D’après le théorème de Skolem-Noether (A, VIII, §10, n° 1, th. 1), il existe $q \in \mathbf{H}^*$ tel que $u(i) = qi\bar{q}^{-1}$; remplaçant $q$ par $q/|q|$, on peut supposer $q \in S_3$. D’après ce qui précède, il existe $q' \in S_3$ tel que $b_{q'}^{-1} \circ u = b_{q'}$, donc $u = b_{qq'}$, ce qui achève la démonstration.
 
-#### Corollaire {#top-viii-s1-n4-cor-1 .statement}
+#### Corollaire {#top-viii-s1-n4-cor-1 .statement tag=0EB1}
 
 *L’application qui associe à chaque $(q, q') \in S_3 \times S_3$ l’endomorphisme $x \mapsto qx{q'}^{-1} = qx\bar{q}'$ du $\mathbf{R}$-espace vectoriel $\mathbf{H}$ est un homomorphisme surjectif du groupe produit $S_3 \times S_3$ sur le groupe spécial orthogonal $\mathbf{SO}(4, \mathbf{R})$ de la forme quadratique $N$; son noyau est formé des couples $(1, 1)$ et $(-1, -1)$.*
 
 Soit $(q, q') \in S_3 \times S_3$; posons $c_{q,q'}(x) = qx{q'}^{-1}$ pour $x \in \mathbf{H}$. On voit comme ci-dessus que $(q, q') \mapsto c_{q,q'}$ est un homomorphisme du groupe produit $S_3 \times S_3$ dans le groupe spécial orthogonal $\mathbf{SO}(N)$. Si $c_{q,q'} = 1$, on a en particulier $c_{q,q'}(1) = 1$, donc $q = q'$, et la restriction de $c_{q,q'}$ à $\mathbf{H}_0$ est l’endomorphisme $b_q$; on a $b_q = 1$, donc $q = 1$ ou $q = -1$. Il reste à prouver que tout élément $u$ de $\mathbf{SO}(N)$ est de la forme $c_{q,q'}$. Supposons d’abord que $u(1) = 1$; alors $u$ laisse stable l’orthogonal $\mathbf{H}_0$ de 1 et induit sur $\mathbf{H}_0$ un élément de $\mathbf{SO}(N_0)$; d’après la proposition 4, il existe donc $q \in S_3$ tel que $u = c_{q,q}$. Dans le cas général, posons $v = c_{1,u(1)^{-1}} \circ u$; on a $v(1) = 1$; il existe donc $q \in S_3$ tel que $v = c_{q,q}$, et on a $u = c_{q,u(1)q}$.
 
-#### Remarque 1 {#top-viii-s1-n4-rem-1 .statement}
+#### Remarque 1 {#top-viii-s1-n4-rem-1 .statement tag=0C01}
 
 A l’aide des relations $\| x + y \| \leq \| x \| + \| y \|$ et $\| xy \| = \| x \| . \| y \|$, on peut démontrer directement, comme plus haut pour le corps des nombres complexes, que la topologie de $\mathbf{R}^4$ est compatible avec la structure de corps de $\mathbf{H}$ (cf. IX, p. 28).
 
-#### Remarque 2 {#top-viii-s1-n4-rem-2 .statement}
+#### Remarque 2 {#top-viii-s1-n4-rem-2 .statement tag=0C02}
 
 Sur les sphères $S_0, S_1$ et $S_3$, il existe, d’après ce qui précède, une structure de groupe compatible avec leur topologie. Inversement, on peut montrer que tout groupe topologique homéomorphe à une sphère $S_n$ est isomorphe à l’un des groupes topologiques $S_0, S_1$ ou $S_3$.
 
-#### Remarque 3 {#top-viii-s1-n4-rem-3 .statement}
+#### Remarque 3 {#top-viii-s1-n4-rem-3 .statement tag=0C03}
 
 Tout point du groupe $S_3$ possède un voisinage homéomorphe à $\mathbf{R}^3$ (VI, p. 11, cor. 2), mais $S_3$ n’est pas localement isomorphe au groupe $\mathbf{R}^3$, sans quoi, étant connexe, il serait commutatif (VII, p. 13, th. 1), ce qui n’est pas le cas puisque $i$ et $j$ appartiennent à $S_3$ et que $ij \neq ji$.
 
-#### Remarque 4 {#top-viii-s1-n4-rem-4 .statement}
+#### Remarque 4 {#top-viii-s1-n4-rem-4 .statement tag=0EB2}
 
 Si l’on munit les groupes $\mathbf{SU}(N), \mathbf{SO}(N_0)$ et $\mathbf{SO}(N)$ des topologies induites par celle du groupe linéaire $\mathbf{GL}(4, \mathbf{R})$, et les groupes
 $$

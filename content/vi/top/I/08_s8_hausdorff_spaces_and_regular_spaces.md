@@ -36,7 +36,7 @@ subsections:
       pdf_page: 88
 statements: 30
 exercises: 24
-content_sha256: a64ba6b812745caf3adaf4fa7fcce77e41ed70c42898bf60c8d0586804767747
+content_sha256: d5906fc05cd0dee79ad96cd2184067ebd46415ffd9ea7df8306fd3f4b461725b
 translated_from: content/en/top/I/08_s8_hausdorff_spaces_and_regular_spaces.md
 source_content_sha256: f1786c8e71990c5b477a3226adfcfe52fdd3cc7520408bdd42e9767c604fb35d
 translation_model: gpt-5.4
@@ -50,7 +50,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. KHÔNG GIAN HAUSDORFF
 
-#### Mệnh đề 1 {#top-i-s8-prop-1 .statement}
+#### Mệnh đề 1 {#top-i-s8-prop-1 .statement tag=0B65}
 
 Cho $X$ là một không gian tôpô. Khi đó các mệnh đề sau là tương đương:
 
@@ -90,13 +90,13 @@ $$
 V \cap W = \varnothing.
 $$
 
-#### Định nghĩa 1 {#top-i-s8-def-1 .statement}
+#### Định nghĩa 1 {#top-i-s8-def-1 .statement tag=0B66}
 
 *Một không gian tôpô thỏa mãn các điều kiện của Mệnh đề 1 được gọi là một không gian Hausdorff hay tách biệt; tôpô của một không gian như vậy được gọi là một tôpô Hausdorff.*
 
 Tiên đề (H) là *tiên đề Hausdorff*.
 
-#### Ví dụ {#top-i-s8-n1-exa-1 .statement}
+#### Ví dụ {#top-i-s8-n1-exa-1 .statement tag=0B67}
 
 Mọi không gian rời rạc đều là Hausdorff. Đường thẳng hữu tỉ $Q$ là Hausdorff, vì nếu $x, y$ là hai số hữu tỉ sao cho $x < y$ thì tồn tại một số hữu tỉ $z$ sao cho $x < z < y$, và các lân cận ]$\leftarrow, z[$ của $x$ và ]$z, \rightarrow[$ của $y$ không giao nhau.
 
@@ -104,25 +104,25 @@ Một tập hợp $X$ có ít nhất hai điểm và được trang bị tôpô 
 
 Cho $f : X \to Y$ là một ánh xạ từ một tập hợp $X$ vào một không gian *Hausdorff* $Y$; khi đó suy ra ngay lập tức từ Mệnh đề 1 rằng $f$ có thể có *nhiều nhất một giới hạn* đối với một bộ lọc $\mathfrak{F}$ trên $X$, và nếu $f$ có $y$ là một giới hạn đối với $\mathfrak{F}$, thì $y$ là *điểm tụ duy nhất* của $f$ đối với $\mathfrak{F}$.
 
-#### Mệnh đề 2 {#top-i-s8-prop-2 .statement}
+#### Mệnh đề 2 {#top-i-s8-prop-2 .statement tag=0B68}
 
 *Cho $f, g$ là hai ánh xạ liên tục từ một không gian tôpô $X$ vào một không gian Hausdorff $Y$; khi đó tập hợp tất cả các $x \in X$ sao cho $f(x) = g(x)$ là đóng trong $X$.*
 
 Vì tập hợp này là ảnh ngược của đường chéo của $Y \times Y$ dưới ánh xạ $x \mapsto (f(x), g(x))$, ánh xạ này liên tục (§ 4, no. 1, Mệnh đề 1). Do đó kết quả suy ra từ (Hii) và § 2, no. 1, Định lý 1.
 
-#### Hệ quả 1 (Nguyên lý mở rộng các đồng nhất thức) {#top-i-s8-prop-2-cor-1 .statement}
+#### Hệ quả 1 (Nguyên lý mở rộng các đồng nhất thức) {#top-i-s8-prop-2-cor-1 .statement tag=0B69}
 
 *Cho $f, g$ là hai ánh xạ liên tục từ một không gian tôpô $X$ vào một không gian Hausdorff $Y$. Nếu $f(x) = g(x)$ tại mọi điểm của một tập con trù mật của $X$, thì $f = g$.*
 
 Nói cách khác, một ánh xạ liên tục từ $X$ vào $Y$ (Hausdorff) được xác định duy nhất bởi các giá trị của nó tại mọi điểm của một tập con trù mật của $X$.
 
-#### Hệ quả 2 {#top-i-s8-prop-2-cor-2 .statement}
+#### Hệ quả 2 {#top-i-s8-prop-2-cor-2 .statement tag=0B6A}
 
 *Nếu $f$ là một ánh xạ liên tục từ một không gian tôpô $X$ vào một không gian Hausdorff $Y$, thì đồ thị của $f$ là đóng trong $X \times Y$.*
 
 Thật vậy, đồ thị này là tập hợp mọi $(x, y) \in X \times Y$ sao cho $f(x) = y$, và hai ánh xạ $(x, y) \to y$ và $(x, y) \to f(x)$ là liên tục.
 
-#### Mệnh đề 3 {#top-i-s8-prop-3 .statement}
+#### Mệnh đề 3 {#top-i-s8-prop-3 .statement tag=0B6B}
 
 *Cho $(x_i)_{1 \leq i \leq n}$ là một họ hữu hạn các điểm phân biệt của một không gian Hausdorff $X$; khi đó mỗi $x_i$ có một lân cận $V_i$ trong $X$ sao cho các $V_i$ ($1 \leq i \leq n$) đôi một rời nhau.*
 
@@ -132,23 +132,23 @@ V_n = \bigcap_{i=1}^{n-1} U_i,
 $$
 thì các điều kiện của mệnh đề được thỏa mãn.
 
-#### Hệ quả {#top-i-s8-n1-cor-1 .statement}
+#### Hệ quả {#top-i-s8-n1-cor-1 .statement tag=0B6C}
 
 *Mọi không gian Hausdorff hữu hạn đều rời rạc.*
 
-#### Mệnh đề 4 {#top-i-s8-prop-4 .statement}
+#### Mệnh đề 4 {#top-i-s8-prop-4 .statement tag=0B6D}
 
 *Mọi tập con hữu hạn của một không gian Hausdorff đều đóng.*
 
 Vì mọi tập con gồm một điểm đều đóng theo tiên đề (H\textsuperscript{i}).
 
-#### Mệnh đề 5 {#top-i-s8-prop-5 .statement}
+#### Mệnh đề 5 {#top-i-s8-prop-5 .statement tag=0B6E}
 
 *Cho $X$ là một không gian tôpô và giả sử rằng với mỗi cặp điểm phân biệt $x, y$ của $X$ đều có một ánh xạ liên tục $f$ từ $X$ vào một không gian Hausdorff $X'$ sao cho $f(x) \neq f(y)$. Khi đó $X$ là Hausdorff.*
 
 Cho $V'$ và $W'$ lần lượt là các lân cận rời nhau của $f(x)$ và $f(y)$ trong $X'$; khi đó $\overline{f}^{-1}(V')$ và $\overline{f}^{-1}(W')$ là các lân cận rời nhau lần lượt của $x$ và $y$ trong $X$.
 
-#### Hệ quả {#top-i-s8-n1-cor-2 .statement}
+#### Hệ quả {#top-i-s8-n1-cor-2 .statement tag=0B6F}
 
 *Mọi tôpô mịn hơn một tôpô Hausdorff đều là Hausdorff.*
 
@@ -156,7 +156,7 @@ Cho $V'$ và $W'$ lần lượt là các lân cận rời nhau của $f(x)$ và 
 
 *Một không gian con $A$ của một không gian Hausdorff $X$ là Hausdorff*, như ta thấy khi áp dụng Mệnh đề 5 của no. 1 cho đơn ánh chính tắc $A \to X$. Ngược lại, ta có
 
-#### Mệnh đề 6 {#top-i-s8-prop-6 .statement}
+#### Mệnh đề 6 {#top-i-s8-prop-6 .statement tag=0B6G}
 
 *Một không gian tôpô $X$ là Hausdorff nếu mỗi điểm của $X$ có một lân cận đóng là một không gian con Hausdorff của $X$.*
 
@@ -164,19 +164,19 @@ Cho $x \in X$ và cho $V$ là một lân cận đóng của $x$ trong $X$ sao ch
 
 Tồn tại các không gian *không Hausdorff* mà trong đó mỗi điểm đều có một lân cận Hausdorff (Bài tập 7).
 
-#### Mệnh đề 7 {#top-i-s8-prop-7 .statement}
+#### Mệnh đề 7 {#top-i-s8-prop-7 .statement tag=0B6H}
 
 *Mọi tích của các không gian Hausdorff đều là Hausdorff. Ngược lại, nếu một tích của các không gian khác rỗng là Hausdorff, thì mỗi nhân tử là một không gian Hausdorff.*
 
 Cho $X = \prod_{i \in I} X_i$ là một tích các không gian tôpô. Khi đó nếu $x, y$ là hai điểm phân biệt của $X$, ta có $\operatorname{pr}_i x \neq \operatorname{pr}_i y$ đối với một chỉ số $i$, và Mệnh đề 5 của no. 1 cho thấy rằng $X$ là Hausdorff nếu các $X_i$ là Hausdorff. Ngược lại, nếu $X$ là Hausdorff và các $X_i$ là không rỗng, thì mỗi $X_i$ đẳng cấu đồng phôi với một không gian con của $X$ (§ 4, no. 2, Mệnh đề 4) và do đó là Hausdorff.
 
-#### Hệ quả 1 {#top-i-s8-prop-7-cor-1 .statement}
+#### Hệ quả 1 {#top-i-s8-prop-7-cor-1 .statement tag=0B6I}
 
 *Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô Hausdorff, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Trang bị cho $X$ tôpô thô nhất $\mathfrak{T}$ sao cho các $f_i$ đều liên tục. Khi đó, điều kiện cần và đủ để $X$ là Hausdorff là với mỗi cặp điểm phân biệt $x, y$ của $X$ ta có $f_i(x) \neq f_i(y)$ đối với một chỉ số $i \in I$ nào đó.*
 
 Điều kiện là đủ do Mệnh đề 5 của no. 1. Ngược lại, giả sử $X$ là Hausdorff; đặt $Y = \prod_{i \in I} Y_i$ và $f = (f_i)_{i \in I}$ là ánh xạ $x \to (f_i(x))$. Theo Mệnh đề 7 ở trên, $Y$ là Hausdorff, và theo Mệnh đề 3 của § 4, no. 1, $\mathfrak{T}$ là ảnh ngược theo $f$ của tôpô của $Y$. Nếu $f(x) = f(y)$ với hai điểm phân biệt $x, y$ của $X$ thì hiển nhiên mọi tập mở (trong tôpô $\mathfrak{T}$) chứa $x$ cũng chứa $y$, trái với giả thiết rằng $X$ là Hausdorff.
 
-#### Hệ quả 2 {#top-i-s8-prop-7-cor-2 .statement}
+#### Hệ quả 2 {#top-i-s8-prop-7-cor-2 .statement tag=0B6J}
 
 *Cho $(X_\alpha, f_{\alpha \beta})$ là một hệ ngược các không gian tôpô. Nếu các $X_\alpha$ là Hausdorff, thì $X = \varprojlim X_\alpha$ là Hausdorff và là một không gian con đóng của $\prod_\alpha X_\alpha$.
 
@@ -190,7 +190,7 @@ Hãy tìm các điều kiện để một không gian thương $X/R$ là *Hausdo
 
 Định nghĩa của các tập mở trong $X/R$ dẫn đến điều kiện cần và đủ sau đây: $X/R$ là Hausdorff khi và chỉ khi mọi cặp lớp tương đương phân biệt trong $X$ đều được chứa trong các tập mở bão hòa rời nhau của $X$. Chúng tôi sẽ đưa ra những điều kiện khác dùng được thuận tiện hơn.
 
-#### Mệnh đề 8 {#top-i-s8-prop-8 .statement}
+#### Mệnh đề 8 {#top-i-s8-prop-8 .statement tag=0B6K}
 
 *Điều kiện cần để không gian thương $X/R$ là Hausdorff là đồ thị $C$ của $R$ đóng trong $X \times X$. Nếu quan hệ tương đương $R$ là mở, thì điều kiện này cũng đủ.*
 
@@ -202,11 +202,11 @@ Nếu $R$ không mở, thì có những ví dụ trong đó $C$ là đóng nhưn
 
 Đặc biệt:
 
-#### Mệnh đề 9 {#top-i-s8-prop-9 .statement}
+#### Mệnh đề 9 {#top-i-s8-prop-9 .statement tag=0B6L}
 
 *Nếu $f$ là một ánh xạ liên tục từ một không gian tôpô $X$ vào một không gian Hausdorff $X'$, và nếu $R$ là quan hệ tương đương $f(x) = f(y)$, thì không gian thương $X/R$ là Hausdorff.*
 
-#### Mệnh đề 10 {#top-i-s8-prop-10 .statement}
+#### Mệnh đề 10 {#top-i-s8-prop-10 .statement tag=0B6M}
 
 *Nếu $X$ là một không gian Hausdorff, và nếu $X$ có một tiết diện liên tục $s$ đối với quan hệ tương đương $R$, thì $X/R$ là Hausdorff và $s(X/R)$ đóng trong $X$.*
 
@@ -214,7 +214,7 @@ Theo ($§ 3$, no. 5), $X/R$ đồng phôi với không gian con $s(X/R)$ của $
 
 ### 4. KHÔNG GIAN CHÍNH QUY
 
-#### Mệnh đề 11 {#top-i-s8-prop-11 .statement}
+#### Mệnh đề 11 {#top-i-s8-prop-11 .statement tag=0B6N}
 
 Các tính chất sau của một không gian tôpô $X$ là tương đương:
 
@@ -226,39 +226,39 @@ Các tính chất sau của một không gian tôpô $X$ là tương đương:
 
 (O'_{III}) \Longrightarrow (O_{III}): Nếu $W$ là một lân cận mở của $x \in X$, thì tồn tại một lân cận $U$ của $x$ và một lân cận $V$ của $C_W$ rời nhau, và do đó $\overline{U} \subset W$.
 
-#### Định nghĩa 2 {#top-i-s8-def-2 .statement}
+#### Định nghĩa 2 {#top-i-s8-def-2 .statement tag=0B6O}
 
 Một không gian tôpô được gọi là chính quy nếu nó là Hausdorff và thỏa mãn tiên đề (O_{III}); khi đó tôpô của nó được gọi là chính quy.
 
 Một không gian rời rạc là chính quy. \* Ta sẽ thấy ở § 9 rằng mọi không gian compact địa phương (đặc biệt đường thẳng thực $\mathbf{R}$) đều chính quy. \*
 
-#### Mệnh đề 12 {#top-i-s8-prop-12 .statement}
+#### Mệnh đề 12 {#top-i-s8-prop-12 .statement tag=0B6P}
 
 Mọi không gian con của một không gian chính quy đều chính quy.
 
 Cho $A$ là một không gian con của một không gian chính quy $X$. Vì $X$ là Hausdorff, nên $A$ cũng vậy (no. 2); mặt khác, mọi lân cận của một điểm $x \in A$ đối với $A$ đều có dạng $V \cap A$, trong đó $V$ là một lân cận của $x$ trong $X$. Vì $X$ là chính quy nên tồn tại một lân cận $W$ của $x$ trong $X$ vừa đóng trong $X$ vừa được chứa trong $V$; khi đó $W \cap A$ là một lân cận của $x$ trong $A$, đóng trong $A$ và được chứa trong $V \cap A$. Do đó suy ra kết quả. Ngược lại:
 
-#### Mệnh đề 13 {#top-i-s8-prop-13 .statement}
+#### Mệnh đề 13 {#top-i-s8-prop-13 .statement tag=0B6Q}
 
 Nếu mọi điểm $x$ của một không gian tôpô $X$ đều có một lân cận đóng là một không gian con chính quy của $X$, thì $X$ là chính quy.
 
 $X$ là Hausdorff theo Mệnh đề 6 của no. 2. Cho $x$ là một điểm bất kỳ của $X$ và cho $V$ là một lân cận đóng chính quy của $x$. Nếu $U$ là một lân cận bất kỳ của $x$ được chứa trong $V$, thì $U$ là một lân cận của $x$ tương đối đối với $V$; do đó theo giả thiết tồn tại một lân cận $W$ của $x$ trong $V$ vừa đóng trong $V$ vừa được chứa trong $U$. Nhưng $W$ là một lân cận của $x$ trong $X$ vì $V$ là một lân cận của $x$ trong $X$, và $W$ đóng trong $X$ vì $V$ đóng trong $X$.
 
-#### Nhận xét 1 {#top-i-s8-n4-rem-1 .statement}
+#### Nhận xét 1 {#top-i-s8-n4-rem-1 .statement tag=0B6R}
 
 Có những ví dụ về các không gian không Hausdorff trong đó mọi điểm đều có một lân cận chính quy (Bài tập 7).
 
-#### Nhận xét 2 {#top-i-s8-n4-rem-2 .statement}
+#### Nhận xét 2 {#top-i-s8-n4-rem-2 .statement tag=0B6S}
 
 Có những không gian Hausdorff nhưng không chính quy (Bài tập 20).
 
-#### Nhận xét 3 {#top-i-s8-n4-rem-3 .statement}
+#### Nhận xét 3 {#top-i-s8-n4-rem-3 .statement tag=0B6T}
 
 Một tôpô mịn hơn một tôpô chính quy không nhất thiết là chính quy (Bài tập 20).
 
 ### 5. MỞ RỘNG BẰNG TÍNH LIÊN TỤC; GIỚI HẠN KÉP
 
-#### Định lý 1 {#top-i-s8-thm-1 .statement}
+#### Định lý 1 {#top-i-s8-thm-1 .statement tag=0B6U}
 
 Cho X là một không gian tôpô, A là một tập con trù mật của X, f : A → Y là một ánh xạ từ A vào một không gian chính quy Y. Điều kiện cần và đủ để f mở rộng thành một ánh xạ liên tục $\overline{f} : X \to Y$ là, với mỗi $x \in X$, $f(y)$ tiến tới một giới hạn trong Y khi y tiến tới x mà vẫn thuộc A. Khi đó, mở rộng liên tục $\overline{f}$ của f lên X là duy nhất.
 
@@ -280,7 +280,7 @@ với mỗi $z \in V$, và từ đó suy ra $\overline{f}(z) \in \overline{f}(V 
 
 Trong mệnh đề của Định lý 1, giả thiết rằng Y là chính quy không thể được làm yếu đi nếu không đặt thêm những điều kiện hạn chế đối với X, A hoặc f (Bài tập 19).
 
-#### Hệ quả {#top-i-s8-n5-cor-1 .statement}
+#### Hệ quả {#top-i-s8-n5-cor-1 .statement tag=0B6V}
 
 Cho $\mathfrak{F}_1$ là một bộ lọc trên một tập hợp $X_1$, và $\mathfrak{F}_2$ là một bộ lọc trên một tập hợp $X_2$; cho $\mathfrak{F}_1 \times \mathfrak{F}_2$ là bộ lọc tích (§ 6, no. 7) trên $X = X_1 \times X_2$, và cho f là một ánh xạ từ X vào một không gian chính quy Y. Giả sử rằng
 a) $\lim_{\mathfrak{F}_1 \times \mathfrak{F}_2} f$ tồn tại.
@@ -293,19 +293,19 @@ Cho $X'_1 = X_1 \cup \{\omega_1\}$ (tương ứng $X'_2 = X_2 \cup \{\omega_2\}$
 
 ### 6. QUAN HỆ TƯƠNG ĐƯƠNG TRÊN MỘT KHÔNG GIAN CHÍNH QUY
 
-#### Mệnh đề 14 {#top-i-s8-prop-14 .statement}
+#### Mệnh đề 14 {#top-i-s8-prop-14 .statement tag=0B6W}
 
 *Cho* $X$ *là một không gian chính quy*, $R$ *là một quan hệ tương đương đóng trên* $X$. *Khi đó đồ thị* $C$ *của* $R$ *trong* $X \times X$ *là đóng*.
 
 Cho $(a, b)$ là một điểm của $X \times X$ thuộc phần đóng của $C$, và cho $V$ (tương ứng, $W$) là một lân cận *đóng* của $a$ (tương ứng, một lân cận của $b$) trong $X$; khi đó tồn tại một điểm $(x, y) \in C \cap (V \times W)$. Vì $x \in V$, nên $y$ thuộc bão hòa $S$ của $V$ đối với $R$; do đó mỗi lân cận $W$ của $b$ đều giao với $S$. Theo giả thiết, $S$ là *đóng*, và vì vậy $b \in S$. Bây giờ cho $B$ là bão hòa của $\{b\}$ đối với $R$, khi đó mỗi lân cận đóng $V$ của $a$ đều giao với $B$; vì theo giả thiết $B$ là *đóng* và $X$ là *chính quy*, suy ra $a \in B$ và do đó $(a, b) \in C$. Điều này kết thúc chứng minh.
 
-#### Hệ quả {#top-i-s8-n6-cor-1 .statement}
+#### Hệ quả {#top-i-s8-n6-cor-1 .statement tag=0B6X}
 
 *Trên một không gian chính quy, mọi quan hệ tương đương vừa mở vừa đóng đều là Hausdorff*.
 
 Điều này suy ra từ Mệnh đề 14 và Mệnh đề 8 của no. 3.
 
-#### Mệnh đề 15 {#top-i-s8-prop-15 .statement}
+#### Mệnh đề 15 {#top-i-s8-prop-15 .statement tag=0B6Y}
 
 *Cho* $X$ *là một không gian chính quy*, $F$ *một tập con đóng của* $X$, $R$ *là quan hệ tương đương trên* $X$ *thu được bằng cách đồng nhất tất cả các điểm của* $F$ *[nói cách khác, quan hệ tương đương mà các lớp tương đương của nó là* $F$ *(nếu* $F \neq \emptyset$*) và các tập* $\{x\}$ *với* $x \in CF$*]. Khi đó không gian thương* $X/R$ *là Hausdorff*.
 

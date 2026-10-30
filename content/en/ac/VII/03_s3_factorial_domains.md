@@ -49,14 +49,14 @@ subsections:
       pdf_page: 529
 statements: 19
 exercises: 27
-content_sha256: 373127c6d25887f7ff9117aa817c4966df5a0420e4cbfd62cf2a07d951d4e4fb
+content_sha256: 7c78792af87db965faba28fa907fb71b383afe818bec0650262706d6b261062c
 ---
 
 ## 3. FACTORIAL DOMAINS
 
 ### 1. DEFINITION OF FACTORIAL DOMAINS
 
-#### Definition 1 {#ac-vii-s3-def-1 .statement}
+#### Definition 1 {#ac-vii-s3-def-1 .statement tag=051N}
 
 A Krull domain all of whose divisorial ideals are principal is called a factorial (or unique factorization) domain.
 
@@ -73,7 +73,7 @@ Given a ring $A$, we need to consider the following condition:
 
 (M) Every non-empty family of integral principal ideals of $A$ has a maximal element.
 
-#### Theorem 1 {#ac-vii-s3-thm-1 .statement}
+#### Theorem 1 {#ac-vii-s3-thm-1 .statement tag=051O}
 
 Let $A$ be an integral domain. The following conditions are equivalent:
 (a) $A$ is factorial;
@@ -96,7 +96,7 @@ We show that (b) implies (e). If (b) holds, there is an isomorphism of $\mathscr
 
 Finally we show that (e) implies (a). Let a be a divisorial ideal of A. There exist prime ideals $p_i$ of A of height 1 such that $\operatorname{div} a = \sum_i n_i \operatorname{div} p_i$ where $n_i \in \mathbf{Z}$. If (e) holds, $p_i$ is of the form $Ap_i$, whence $\operatorname{div} a = \operatorname{div} \left( \prod_i Ap_i^{n_i} \right)$ and hence $a = \prod_i Ap_i^{n_i}$ since a is divisorial.
 
-#### Proposition 1 {#ac-vii-s3-prop-1 .statement}
+#### Proposition 1 {#ac-vii-s3-prop-1 .statement tag=051P}
 
 *Let A be a Krull domain. If every divisorial ideal of A is invertible, then, for every maximal ideal m of A, $A_m$ is factorial. The converse is true if it is also assumed that every divisorial ideal of A is finitely generated (in particular if A is Noetherian).*
 
@@ -106,7 +106,7 @@ Suppose that every divisorial ideal of $A$ is invertible; as $A_{,,}$ is a Krull
 
 Let $A$ be an integral domain, $K$ its field of fractions and $U$ the multiplicative group of invertible elements of $A$. Recall (Algebra, Chapter VI, $§ 1$, no. 5) that there is a canonical isomorphism of $K^*/U$ onto the group $\mathscr{P}^*$ of non-zero fractional principal ideals of $A$. Condition (b) of Theorem 1 may then be translated as follows:
 
-#### Proposition 2 {#ac-vii-s3-prop-2 .statement}
+#### Proposition 2 {#ac-vii-s3-prop-2 .statement tag=051Q}
 
 *Let $A$ be an integral domain. For $A$ to be factorial, it is necessary and sufficient that there exist a subset $P$ of $A$ such that every $a \in A - \{0\}$ may be written uniquely in the form $a = u \prod_{p \in P} p^{n(p)}$, where $u \in U$ and the $n(p)$ are positive integers which are zero except for a finite number of them.*
 
@@ -130,7 +130,7 @@ For all $p \in P$, the mapping $a \mapsto n(p)$ is a discrete valuation $v_p$ on
 
 ### 4. RINGS OF FRACTIONS OF A FACTORIAL DOMAIN
 
-#### Proposition 3 {#ac-vii-s3-prop-3 .statement}
+#### Proposition 3 {#ac-vii-s3-prop-3 .statement tag=051R}
 
 *Let A be a Krull domain and S a multiplicative subset of A not containing 0.*
 
@@ -143,7 +143,7 @@ This follows immediately from Definition 1 of no. 1 and § 1, no. 10, Propositio
 
 Let A be a factorial domain, K its field of fractions and $f$ a non-zero element of $K[X]$; an element c of $K^*$ will be called a *content* of $f$ if it is a g.c.d. of the coefficients off. Let $\nu$ be a valuation on K which is essential for A and $\bar{\nu}$ its canonical extension to $K[X]$ (defined by $\bar{\nu}\left(\sum a_i X^i\right) = \inf \nu(a_i)$; cf. Chapter VI, § 10, no. 1, Proposition 2); then $\bar{\nu}(f) = \nu(c)$.
 
-#### Lemma 1 (Gauss) {#ac-vii-s3-lem-1 .statement}
+#### Lemma 1 (Gauss) {#ac-vii-s3-lem-1 .statement tag=051S}
 
 *Let $f, f'$ be non-zero elements of $K[X]$ and c, $c'$ contents off, $f', f'$. Then $cc'$ is a content of $ff'$.*
 
@@ -153,7 +153,7 @@ $$
 $$
 Hence $cc'd^{-1}$ is an invertible element of A.
 
-#### Theorem 2 {#ac-vii-s3-thm-2 .statement}
+#### Theorem 2 {#ac-vii-s3-thm-2 .statement tag=051T}
 
 *Let A be a factorial domain, K its field of fractions, $(p_\lambda)$ a representative system of extremal elements of A and $(P_\lambda)$ a representative system of irreducible polynomials of $K[X]$, each $P_\lambda$ having 1 as a content. Then:*
 (i) *A[X] is a factorial domain;*
@@ -180,7 +180,7 @@ Note that this theorem proves that every element of $A$ admits the *same* decomp
 
 We may also use Proposition 18 of § 1, no. 10 to show that $A[X]$ *is* a factorial domain if and only if $A$ is a factorial domain.
 
-#### Corollary {#ac-vii-s3-n5-cor-1 .statement}
+#### Corollary {#ac-vii-s3-n5-cor-1 .statement tag=051U}
 
 *If $A$ is a factorial domain, the domain $A[X_1, \ldots, X_n]$ is factorial.*
 
@@ -190,19 +190,19 @@ This corollary may be extended to the case of an infinite family of indeterminat
 
 ### 6. FACTORIAL DOMAINS AND ZARISKI RINGS
 
-#### Proposition 4 {#ac-vii-s3-prop-4 .statement}
+#### Proposition 4 {#ac-vii-s3-prop-4 .statement tag=051V}
 
 *Let $A$ be a Zariski ring and $\hat{A}$ its completion. If $\hat{A}$ is a factorial domain, $A$ is a factorial domain.*
 
 This follows from no. 1, Definition 1 and § 1, no. 10, Proposition 16.
 
-#### Corollary {#ac-vii-s3-n6-cor-1 .statement}
+#### Corollary {#ac-vii-s3-n6-cor-1 .statement tag=051W}
 
 *If the completion of a Noetherian local ring $A$ is a factorial domain, $A$ is a factorial domain.*
 
 ### 7. PRELIMINARIES ON AUTOMORPHISMS OF RINGS OF FORMAL POWER SERIES
 
-#### Lemma 2 {#ac-vii-s3-lem-2 .statement}
+#### Lemma 2 {#ac-vii-s3-lem-2 .statement tag=051X}
 
 *Let $f(X_1, X_2, \ldots, X_n)$ be a formal power series $\neq 0$ with coefficients in a ring $E$. There exist integers $u(i) \geqslant 1$ ($1 \leqslant i \leqslant n - 1$) such that*
 
@@ -238,7 +238,7 @@ In the ring $E[[X_1, \ldots, X_n]]$, let $a$ be the ideal of formal power series
 
 We take $w_1 = X_1 + X_n^{u(1)}, \ldots, w_{n-1} = X_{n-1} + X_n^{u(n-1)}, w_n = X_n$, where the $u(i)$ are integers $\geq 1$. Let $s'$ be the endomorphism of $E[[X_1, \ldots, X_n]]$ which maps $X_1$ to $X_1 - X_n^{u(1)}, \ldots, X_{n-1}$ to $X_{n-1} - X_n^{u(n-1)}$ and $X_n$ to $X_n$. Then $s'(s(X_i)) = X_i$ for $1 \leq i \leq n$ and hence $s' \circ s$ is the identity automorphism; similarly for $s \circ s'$. Hence $s$ is an *automorphism*.
 
-#### Lemma 3 {#ac-vii-s3-lem-3 .statement}
+#### Lemma 3 {#ac-vii-s3-lem-3 .statement tag=051Y}
 
 *Let $f$ be a non-zero element of $E[[X_1, \ldots, X_n]]$. There exist integers $u(i) \geq 1 (1 \leq i \leq n-1)$ such that the automorphism $s$ of $E$ defined by*
 $$
@@ -262,7 +262,7 @@ $$
 $$
 where $\bar{a}_i$ denotes the canonical image of $a_i$ in $k$. The series $\tilde{f}$ will be called the *reduced series* off; if $\tilde{f} \neq 0$, the order of $\tilde{f}$ (that is the least integer $s$ such that $a_s \notin m$) will be called the *reduced order* off.
 
-#### Proposition 5 {#ac-vii-s3-prop-5 .statement}
+#### Proposition 5 {#ac-vii-s3-prop-5 .statement tag=051Z}
 
 *Let $f \in B$ be a series whose reduced series is non-zero. Let $s$ denote its reduced order and $M$ the sub-A-module of $B$ with basis $\{1, X, \ldots, X^{s-1}\}$. Then $B$ is the direct sum of $M$ and $f$ is not a divisor of zero in $B$.*
 
@@ -310,13 +310,13 @@ r \in fg^{-1}q + M \subset fB + M.
 $$
 We may also use the results of Chapter III, § 2 to show the relation $B = fB + M$ (cf. Exercise 12). The method followed here has the advantage of being applicable to convergent series.
 
-#### Corollary {#ac-vii-s3-n8-cor-1 .statement}
+#### Corollary {#ac-vii-s3-n8-cor-1 .statement tag=0520}
 
 *With the hypotheses and notation of Proposition 5, suppose that $s \geq 1$, so that $f \in Bm + BX$. Then the A-homomorphism $h$ of $B' = A[[T]]$ to $B = A[[X]]$ such that $h(T) = f$ (Chapter III, § 2, no. 9, Proposition 11 (a)) defines on B a free $B'$-module structure admitting $\{1, X, \ldots, X^{s-1}\}$ as basis. In particular $h$ is injective.*
 
 Let the $B'$-module B be given the (T)-adic filtration, which consists of the $f^n B$ for $n \geq 0$ (Chapter 111, § 2, no. 1). Then $B/fB$ is a free module over the ring $A = B'/TB'$ and the images of the $X^i$ ($0 \leq i \leq s-1$) in this A-module form a basis of it (Proposition 5); as moreover $f$ is not a divisor of zero in B (Proposition 5), $Bf^n/Bf^{n+1}$ is also a free $(B'/TB')$-module of rank s, so that condition (GR) of Chapter 111, § 2, no. 8 is satisfied (replacing A by B' and M by B). On the other hand, since B' is Hausdorff and complete with respect to the (T)-adic filtration and gr(B) is a finitely generated gr(B')-module by the above, it is seen first (Chapter III, § 2, no. 9, Corollary 1 to Proposition 12) that B is a finitely generated B' module. The first assertion of the corollary then follows from Chapter III, § 2, no. 9, Proposition 13. The second follows immediately from it.
 
-#### Definition 2 {#ac-vii-s3-def-2 .statement}
+#### Definition 2 {#ac-vii-s3-def-2 .statement tag=0521}
 
 *A polynomial* $F \in \mathbf{A}[X]$ *is called distinguished if it is of the form*
 $$
@@ -326,7 +326,7 @@ $$
 
 Note that the product of two distinguished polynomials is a distinguished polynomial.
 
-#### Proposition 6 (Preparation Theorem) {#ac-vii-s3-prop-6 .statement}
+#### Proposition 6 (Preparation Theorem) {#ac-vii-s3-prop-6 .statement tag=0522}
 
 *Let* $f \in B$ *be a series whose reduced series is not zero and* $s$ *its reduced order. Then there exists a unique ordered pair* $(u, F)$ *such that* $u$ *is an invertible element of* $B$, $F$ *a distinguished polynomial of degree* $s$ *and* $f = uF$.
 
@@ -336,13 +336,13 @@ X^s + \bar{g}_0 + \bar{g}_1 X + \cdots + \bar{g}_{s-1} X^{s-1} = \bar{f} \bar{v}
 $$
 since $\bar{f}$ is of order $s$, $\bar{g}_i = 0$ for all $i$ and $\bar{v}$ is of order 0, hence $v$ is invertible.
 
-#### Proposition 7 {#ac-vii-s3-prop-7 .statement}
+#### Proposition 7 {#ac-vii-s3-prop-7 .statement tag=0523}
 
 *Let* $F$ *be a distinguished polynomial and* $g, h$ *two formal power series of* $B$ *such that* $F = gh$. *Then there exists an invertible element* $u$ *of* $B$ *such that* $ug$ *and* $u^{-1}h$ *are distinguished polynomials and* $F = (ug)(u^{-1}h)$.
 
 In fact, the reduced series of $g$ and $h$ are $\neq 0$; hence, by Proposition 6, there exist invertible elements $u, v$ of $B$ such that $ug$ and $vh$ are distinguished polynomials. Then $uvF = (ug)(vh)$ is a distinguished polynomial and $uv$ is invertible. Passing to the reduced series, it is seen immediately that $F$ and $uvF$ have the same reduced order, that is the same degree. The uniqueness assertion in Proposition 6 therefore shows that $F = uvF$, whence $uv = 1$.
 
-#### Corollary {#ac-vii-s3-n8-cor-2 .statement}
+#### Corollary {#ac-vii-s3-n8-cor-2 .statement tag=0524}
 
 *Suppose further that* $\mathbf{A}$ *is an integral domain and* $F$ *a distinguished polynomial of degree* $s$. *For* $F$ *to be extremal in* $\mathbf{A}[X]$, *it is necessary and sufficient that it be extremal in* $B = \mathbf{A}[[X]]$.
 
@@ -352,7 +352,7 @@ Conversely, if F is not extremal in $A[[X]]$, then $F = gh$, where neither g nor
 
 ### 9. FACTORIALITY OF RINGS OF FORMAL POWER SERIES
 
-#### Proposition 8 {#ac-vii-s3-prop-8 .statement}
+#### Proposition 8 {#ac-vii-s3-prop-8 .statement tag=0525}
 
 Let C be a ring which is either a field or a discrete valuation ring. Then the domain of formal power series $C[[X_1, \ldots, X_n]]$ is factorial.
 

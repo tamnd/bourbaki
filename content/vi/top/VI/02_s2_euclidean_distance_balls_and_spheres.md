@@ -28,9 +28,9 @@ subsections:
       pdf_page: 48
 statements: 12
 exercises: 13
-content_sha256: dae38c14b09571e970de11cd063d014dc8f69949f17bae779df16249e015d126
+content_sha256: dc4028ea55ee0a16f1a96e0ca9fdc55d7d66d23169031a64eaf2483aa961535c
 translated_from: content/en/top/VI/02_s2_euclidean_distance_balls_and_spheres.md
-source_content_sha256: 3b83149e3e57fb51a7a0ee1c20b1a71de3ebc196deeb88d41acbfe2b056d2573
+source_content_sha256: a782e1c3f639976183f49d786a4ce82493366e142659214046bd4d37a7e18f82
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-499bfda2
 glossary_version: 34
@@ -116,7 +116,7 @@ $$
 $$
 là hệ quả của (1), ta suy ra rằng $d(x, y)$ là liên tục đều trên $\mathbf{R}^n \times \mathbf{R}^n$; do đó chuẩn $\|x\| = d(0, x)$ là liên tục đều trên $\mathbf{R}^n$.
 
-#### Định nghĩa 1 {#top-vi-s2-def-1 .statement}
+#### Định nghĩa 1 {#top-vi-s2-def-1 .statement tag=0BWR}
 
 Cho một điểm $x_0 \in \mathbf{R}^n$ và một số thực $r > 0$, quả cầu Euclid mở (resp. đóng) có $n$ chiều với tâm $x_0$ và bán kính $r$ là tập hợp tất cả các điểm $x \in \mathbf{R}^n$ sao cho $d(x_0, x) < r$ [resp. $d(x_0, x) \leq r$]; mặt cầu Euclid $n - 1$ chiều với tâm $x_0$ và bán kính $r$ là tập hợp tất cả $x \in \mathbf{R}^n$ sao cho $d(x_0, x) = r$.
 
@@ -124,7 +124,7 @@ Khi không có nguy cơ nhầm lẫn, ta chỉ nói "quả cầu" (resp. "mặt 
 
 Từ những điều đã nói, các quả cầu (mở hay đóng) có tâm $x_0$ (hoặc chỉ những quả cầu có bán kính $1/p$, trong đó $p$ chạy qua tập các số nguyên $> 0$) tạo thành một hệ cơ bản các lân cận của điểm $x_0$.
 
-#### Mệnh đề 1 {#top-vi-s2-prop-1 .statement}
+#### Mệnh đề 1 {#top-vi-s2-prop-1 .statement tag=0BWS}
 
 Mọi quả cầu mở (resp. đóng) của $\mathbf{R}^n$ đều là một tập hợp mở (resp. compact). Bao đóng của một quả cầu mở là quả cầu đóng có cùng tâm và cùng bán kính; phần trong của một quả cầu đóng là quả cầu mở có cùng tâm và cùng bán kính.
 
@@ -134,13 +134,13 @@ d(x_0, z) = (1 + t)r > r,
 $$
 và $d(x, z) = tr$ nhỏ tùy ý; do đó $x$ không phải là một điểm trong của quả cầu đóng có tâm $x_0$ và bán kính $r$.
 
-#### Hệ quả {#top-vi-s2-n3-cor-1 .statement}
+#### Hệ quả {#top-vi-s2-n3-cor-1 .statement tag=0BWT}
 
 Mọi mặt cầu Euclid đều là một tập compact và là biên của các quả cầu mở và đóng có cùng tâm và cùng bán kính.
 
 Ánh xạ $x \to \frac{1}{r}(x - x_0)$ biến mặt cầu (resp. quả cầu mở, quả cầu đóng) có tâm $x_0$ và bán kính $r$ thành mặt cầu (resp. quả cầu mở, quả cầu đóng) có tâm $o$ và bán kính $1$; mặt cầu này được ký hiệu bởi $S_{n-1}$ và được gọi là mặt cầu đơn vị trong $\mathbf{R}^n$. Tương tự, quả cầu đóng có tâm $o$ và bán kính $1$ được ký hiệu bởi $B_n$ và được gọi là quả cầu đơn vị trong $\mathbf{R}^n$. Do đó, việc khảo sát tôpô của một mặt cầu có $(n - 1)$ chiều (resp. một quả cầu đóng có $n$ chiều) được quy về việc khảo sát $S_{n-1}$ (resp. $B_n$). Đối với các quả cầu mở, ta có mệnh đề sau:
 
-#### Mệnh đề 2 {#top-vi-s2-prop-2 .statement}
+#### Mệnh đề 2 {#top-vi-s2-prop-2 .statement tag=0BWU}
 
 Mọi quả cầu mở $n$-chiều đều đồng phôi với $\mathbf{R}^n$.
 
@@ -148,7 +148,7 @@ Thật vậy, ánh xạ $x \to \frac{x}{1 + ||x||}$ liên tục trên $\mathbf{R
 
 Ký hiệu $\mathbf{R}_n^*$ là phần bù của $o$ trong $\mathbf{R}^n$.
 
-#### Mệnh đề 3 {#top-vi-s2-prop-3 .statement}
+#### Mệnh đề 3 {#top-vi-s2-prop-3 .statement tag=0BWV}
 
 Không gian $\mathbf{R}_n^*$ đồng phôi với tích của $S_{n-1}$ và không gian $\mathbf{R}_+^*$ của các số thực $> 0$.
 
@@ -156,19 +156,19 @@ Mọi điểm $x \neq o$ đều có thể được viết duy nhất dưới d�
 
 Đánh xạ $x \to x/||x||$ được gọi là *phép chiếu tâm* của $\mathbf{R}_n^*$ lên $S_{n-1}$. Người ta cũng định nghĩa theo cùng một cách *phép chiếu tâm* của phần bù của một điểm $a$ lên một mặt cầu tâm $a$.
 
-#### Hệ quả 1 {#top-vi-s2-prop-3-cor-1 .statement}
+#### Hệ quả 1 {#top-vi-s2-prop-3-cor-1 .statement tag=0BWW}
 
 *Mặt cầu* $S_{n-1}$ *đồng phôi với thương của* $\mathbf{R}_n^*$ *theo quan hệ tương đương mà các lớp là các tia mở có gốc* $o$.
 
 Những lớp này cũng có thể được định nghĩa là các *lớp quỹ đạo*, khác $\{ o \}$, của nhóm các phép vị tự tỉ số $> 0$.
 
-#### Hệ quả 2 {#top-vi-s2-prop-3-cor-2 .statement}
+#### Hệ quả 2 {#top-vi-s2-prop-3-cor-2 .statement tag=0BWX}
 
 *Không gian* $\mathbf{R}_n^*$ *đồng phôi với* $\mathbf{R} \times S_{n-1}$.
 
 Vì $\mathbf{R}_+^* = ]0, +\infty[$ đồng phôi với $\mathbf{R}$ (Chương IV, § 4, No. 1, Mệnh đề 1).
 
-#### Nhận xét {#top-vi-s2-n3-rem-1 .statement}
+#### Nhận xét {#top-vi-s2-n3-rem-1 .statement tag=0BWY}
 
 Những mệnh đề này không chỉ riêng đối với các quả cầu Euclid, mà còn có thể được mở rộng cho cả một lớp các lân cận compact của $o$ trong $\mathbf{R}^n$ (xem Bài tập 12).
 
@@ -196,25 +196,25 @@ Hình 3.
 
 Nếu ký hiệu bởi $A$ phần bù của $\{ e_n \}$ trong $S_{n-1}$, thì các công thức này cho thấy như vậy ta đã xác định một đồng phôi của $A$ lên siêu phẳng $H$. Đồng phôi này được gọi là phép chiếu lập thể của $A$ lên $H$, hay (theo lối nói quen) của $S_{n-1}$ lên $H$; $e_n$ là đỉnh của phép chiếu, $H$ là siêu phẳng chiếu. Tổng quát hơn, nếu $H'$ là bất kỳ siêu phẳng nào đi qua $o$ (một siêu phẳng đường kính của $B_n$) và nếu $a$ là một trong các điểm giao của $S_{n-1}$ với đường thẳng vuông góc với $H'$ đi qua $o$, ta có thể định nghĩa theo cùng cách phép chiếu lập thể với đỉnh $a$ lên siêu phẳng chiếu $H'$; trong mọi trường hợp, phép chiếu này có thể được đưa về phép chiếu trước đó bằng một phép biến đổi trực giao biến $H'$ thành $H$ và $a$ thành $e_n$.
 
-#### Mệnh đề 4 {#top-vi-s2-prop-4 .statement}
+#### Mệnh đề 4 {#top-vi-s2-prop-4 .statement tag=0BWZ}
 
 *Nếu $n > 1$, hình cầu Euclid $S_{n-1}$ đồng phôi với không gian $\mathbf{R}^{n-1}$ được làm compact bằng cách ghép thêm một "điểm ở vô cực"*(Chương I, § 9, no. 8, Định lý 4).
 
 Vì phép chiếu lập thể xác định một đồng phôi của phần bù của một điểm trong $S_{n-1}$ lên một siêu phẳng của $\mathbf{R}^n$, mà siêu phẳng ấy đồng phôi với $\mathbf{R}^{n-1}$.
 
-#### Hệ quả 1 {#top-vi-s2-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#top-vi-s2-prop-4-cor-1 .statement tag=0BX0}
 
 *Hình cầu $S_n$ đồng phôi với không gian thương của quả cầu $B_n$ thu được bằng cách đồng nhất tất cả các điểm của hình cầu $S_{n-1}$*.
 
 Quả cầu $B_n$ là một không gian chính quy (Chương I, § 8, no. 4); do đó không gian thương $F$ của $B_n$ thu được bằng cách đồng nhất tất cả các điểm của $S_{n-1}$ là *Hausdorff* (Chương I, § 8, no. 6, Mệnh đề 15). Vì $B_n$ compact, nên $F$ cũng compact, và do đó $F$ đồng phôi với một quả cầu mở $n$ chiều được làm compact bằng cách ghép thêm một điểm ở vô cực, theo định lý của Alexandroff (Chương I, § 9, no. 8, Định lý 4). Kết quả vì thế suy ra từ Mệnh đề 2 và 4.
 
-#### Hệ quả 2 {#top-vi-s2-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#top-vi-s2-prop-4-cor-2 .statement tag=0BX1}
 
 *Đường tròn $S_1$ đồng phôi với xuyến $T$*.
 
 Trong Chương VIII, § 2, no. 1, ta sẽ lại thu được kết quả này như một hệ quả của một định lý chính xác hơn.
 
-#### Mệnh đề 5 {#top-vi-s2-prop-5 .statement}
+#### Mệnh đề 5 {#top-vi-s2-prop-5 .statement tag=0BX2}
 
 *Nếu $n > 1$, hình cầu Euclid $S_{n-1}$ liên thông và liên thông địa phương, và mọi điểm của nó đều có một lân cận mở đồng phôi với $\mathbf{R}^{n-1}$.*
 

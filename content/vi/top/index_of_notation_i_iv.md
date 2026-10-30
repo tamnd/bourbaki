@@ -12,7 +12,7 @@ pdf_pages: 0425-0426
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: af019532fd6a888ed9c25c79fa4c558356637891058167b17d2c7e331bee4e1f
+content_sha256: 1dd394cbfebfd45274be284d20c323d718fa9d44316b957af570f95b442ccb96
 translated_from: content/en/top/index_of_notation_i_iv.md
 source_content_sha256: afdc09f22d573b905c8e7b7ec2b7df3cd50b116ab6b06bc92cb4b26823dea181
 translation_model: gpt-5-6-mini

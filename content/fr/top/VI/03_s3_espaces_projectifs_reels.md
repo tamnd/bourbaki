@@ -37,7 +37,7 @@ subsections:
       pdf_page: 47
 statements: 12
 exercises: 11
-content_sha256: b1503459557945e980e161dffa3a02902fe2ed024069911159c065b37425bac6
+content_sha256: d297057bf1afe3d1c9f0897ddaa657541936bfca5d65dadac90b1a0d7e2a4cfe
 ---
 
 ## § 3. ESPACES PROJECTIFS RÉELS
@@ -46,13 +46,13 @@ Nous aurons constamment à faire usage, dans ce paragraphe, des notions et résu
 
 Soient E un espace topologique, R une relation d’équivalence dans E, A une partie de E, $R_A$ la relation d’équivalence induite sur A par R; soit enfin $f$ l’application canonique de E sur E/R. Avec ces notations:
 
-#### Lemme 1 {#top-vi-s3-lem-1 .statement}
+#### Lemme 1 {#top-vi-s3-lem-1 .statement tag=0BXG}
 
 *Si tout ensemble ouvert (resp. fermé) dans A et saturé pour $R_A$ est la trace sur A d’un ensemble ouvert (resp. fermé) dans E et saturé pour R, l’espace quotient $A/R_A$ est homéomorphe au sous-espace $f(A)$ de E/R. Il en est ainsi en particulier si A est ouvert ou fermé dans E et saturé pour R.*
 
 Cela résulte de la prop. 10 de I, p. 23.
 
-#### Lemme 2 {#top-vi-s3-lem-2 .statement}
+#### Lemme 2 {#top-vi-s3-lem-2 .statement tag=0BXH}
 
 *S’il existe une application continue $g$ de E sur A, telle que, pour tout $x \in E$, $g(x)$ appartienne à la classe d’équivalence de $x$, l’espace $A/R_A$ est homéomorphe à E/R.*
 
@@ -66,7 +66,7 @@ On appelle variété linéaire projective à p dimensions de $\mathbf{P}_n(K)$ (
 
 Lorsque K est le corps $\mathbf{R}$ des nombres réels, on peut munir les espaces projectifs correspondants de topologies dont nous allons faire l’étude.
 
-#### Définition 1 {#top-vi-s3-def-1 .statement}
+#### Définition 1 {#top-vi-s3-def-1 .statement tag=0BXI}
 
 On appelle espace projectif réel à n dimensions l’espace projectif $\mathbf{P}_n(\mathbf{R})$ muni de la topologie quotient de celle de $\mathbf{R}_{n+1}^*$ par la relation d’équivalence $\Delta_n(\mathbf{R})$.
 
@@ -74,7 +74,7 @@ L’espace projectif $\mathbf{P}_1(\mathbf{R})$ s’appelle droite projective r�
 
 Lorsque aucune confusion ne sera possible, nous écrirons $\mathbf{P}_n$ et $\Delta_n$ au lieu de $\mathbf{P}_n(\mathbf{R})$ et $\Delta_n(\mathbf{R})$.
 
-#### Proposition 1 {#top-vi-s3-prop-1 .statement}
+#### Proposition 1 {#top-vi-s3-prop-1 .statement tag=0BXJ}
 
 L’espace projectif $\mathbf{P}_n$ est séparé.
 
@@ -82,13 +82,13 @@ Montrons d’abord que la relation $\Delta_n$ est ouverte (I, p. 31); soit A un 
 
 D’après la prop. 8 de I, p. 55, la prop. 1 sera démontrée si on prouve que la partie M de $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$, définie par la relation $\Delta_n$, est fermée. Or, soit $(\mathbf{x}, \mathbf{y})$ un point de $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ adhérent à M; si $\mathbf{x} = (x_i)$, il existe une coordonnée $x_i \neq 0$; il existe donc un voisinage V de $(\mathbf{x}, \mathbf{y})$ tel que pour tout point $(\mathbf{x}', \mathbf{y}') \in M \cap V$ la coordonnée $x'_i$ d’indice i de $\mathbf{x}'$ soit $\neq 0$; lorsque $(\mathbf{x}', \mathbf{y}')$ tend vers $(\mathbf{x}, \mathbf{y})$ en restant dans M, $y'_i {x'}^{-1}_i$ tend vers $t = y_i x^{-1}_i$; comme $\mathbf{y}' = (y'_i {x'}^{-1}_i) \mathbf{x}'$, on voit, en passant à la limite, que $\mathbf{y} = t \mathbf{x}$, ce qui prouve que $(\mathbf{x}, \mathbf{y}) \in M$.
 
-#### Proposition 2 {#top-vi-s3-prop-2 .statement}
+#### Proposition 2 {#top-vi-s3-prop-2 .statement tag=0BXK}
 
 L’espace projectif $\mathbf{P}_n$ est un espace compact et connexe, homéomorphe à l’espace quotient de la sphère $\mathbf{S}_n$ par la relation d’équivalence induite sur cette sphère par $\Delta_n$.
 
 Soit $\Delta'_n$ la relation d’équivalence induite sur $S_n$ par $\Delta_n$ (les classes d’équivalence pour $\Delta'_n$ sont les couples de points opposés de $S_n$). L’application $x \mapsto x / \|x\|$ de $\mathbf{R}_{n+1}^*$ sur $S_n$ est continue; donc (VI, p. 12, lemme 2) $P_n$ est homéomorphe à $S_n / \Delta'_n$. Comme, pour $n \neq 0$, $S_n$ est compact et connexe, tout espace quotient séparé de $S_n$ est aussi compact et connexe (cor. 1, I, p. 63, et I, p. 82, prop. 6). Enfin $P_0$ n’a qu’un point.
 
-#### Proposition 3 {#top-vi-s3-prop-3 .statement}
+#### Proposition 3 {#top-vi-s3-prop-3 .statement tag=0BXL}
 
 *Pour $n \geqslant 0$, l’espace projectif $P_n$ est homéomorphe à l’espace quotient de la boule $B_n$ obtenu en identifiant chaque point de $S_{n-1}$ à son opposé.*
 
@@ -104,7 +104,7 @@ Soit $E$ un espace vectoriel de dimension $n + 1$ sur $\mathbf{R}$; à chaque ba
 
 Rappelons aussi que, si $V$ et $V'$ sont deux variétés linéaires projectives à $p$ dimensions de $\mathbf{P}_n$, il existe une transformation linéaire projective de $\mathbf{P}_n$ transformant V en $V'$. En particulier, si $p \geqslant 0$, il existe une transformation linéaire projective transformant V en l’image canonique du sous-espace engendré par $e_0, e_1, \ldots, e_p$ $W'$ à $p + 1$ dimensions (privé du point 0) de $\mathbf{R}^{n+1}$. Si on identifie $W'$ à $\mathbf{R}_{p+1}^*$, la relation induite sur $W'$ par $\Delta_n$ n’est autre que $\Delta_p$; comme $W'$ est fermée et saturée pour $\Delta_n$, le lemme 1 (VI, p. 12) montre que $V'$ est homéomorphe à $\mathbf{P}_p$ et fermée dans $\mathbf{P}_n$; en outre, si $p < n$, son complémentaire dans $\mathbf{P}_n$ est dense (VI, p. 5, prop. 4). Donc:
 
-#### Proposition 4 {#top-vi-s3-prop-4 .statement}
+#### Proposition 4 {#top-vi-s3-prop-4 .statement tag=0BXM}
 
 *Toute variété linéaire projective à p dimensions de l’espace projectif $\mathbf{P}_n$ est un ensemble fermé dans $\mathbf{P}_n$, homéomorphe à $\mathbf{P}_p$; si $p < n$, son complémentaire est dense dans $\mathbf{P}_n$.*
 
@@ -114,7 +114,7 @@ $$
 $$
 où les $a_i$ ne sont pas tous nuls (« équation » de l’hyperplan).
 
-#### Proposition 5 {#top-vi-s3-prop-5 .statement}
+#### Proposition 5 {#top-vi-s3-prop-5 .statement tag=0BXN}
 
 *Dans l’espace projectif $\mathbf{P}_n$ (pour $n \geqslant 0$), le complémentaire d’un hyperplan projectif $H$ est homéomorphe à $\mathbf{R}^n$.*
 
@@ -126,7 +126,7 @@ Figure 4
 
 ainsi une application continue g de A sur B, telle que $g(x)$ soit le seul point de B congru à $x$ suivant $\Theta$; il en résulte que B est homéomorphe à $A/\Theta$ (VI, p. 12, lemme 2), donc à C; comme B est homéomorphe à $\mathbf{R}^n$, la proposition est démontrée.
 
-#### Corollaire {#top-vi-s3-n2-cor-1 .statement}
+#### Corollaire {#top-vi-s3-n2-cor-1 .statement tag=0BXO}
 
 Tout point de $\mathbf{P}_n$ possède un voisinage ouvert homéomorphe à $\mathbf{R}^n$.
 
@@ -170,7 +170,7 @@ Par contre, on ne peut en général prolonger par continuité à l’espace $\ma
 
 Nous allons supposer dans ce qui suit que $K$ est le corps $\mathbf{R}$, et nous omettrons l’indication du corps dans les notations précédentes. On peut définir sur $P_{n, p}$ une topologie par un procédé qui généralise la définition de la topologie des espaces projectifs réels. En effet, $L_{n+1, p+1}$ est contenu dans l’espace $M_{p+1, n+1}$ des matrices à $p + 1$ lignes et $n + 1$ colonnes, à éléments réels; nous munirons $L_{n+1, p+1}$ de la topologie induite par celle de cet espace de matrices (VI, p. 6).
 
-#### Définition 2 {#top-vi-s3-def-2 .statement}
+#### Définition 2 {#top-vi-s3-def-2 .statement tag=0BXP}
 
 *On appelle espace des variétés linéaires projectives à $p \geq 0$ dimensions de l’espace projectif réel $P_n$, l’espace $P_{n, p}$ quotient de l’espace topologique $L_{n+1, p+1}$ par la relation d’équivalence $\Delta_{n, p}$.*
 
@@ -178,19 +178,19 @@ Soit $f : \mathbf{R}^{n+1} \to \mathbf{R}^{m+1}$ une application linéaire *inje
 
 En particulier, tout automorphisme $f \in \mathbf{GL}(n+1, \mathbf{R})$ induit un homéomorphisme de $P_{n, p}$ sur lui-même; comme on l’a déjà remarqué (VI, p. 15), l’opération de $\mathbf{GL}(n+1, \mathbf{R})$ sur $P_{n, p}$ ainsi définie est *transitive*.
 
-#### Proposition 6 {#top-vi-s3-prop-6 .statement}
+#### Proposition 6 {#top-vi-s3-prop-6 .statement tag=0BXQ}
 
 *Soit $V$ une variété linéaire projective de dimension $n - p - 1$ de $P_n$; la partie $U_V$ de $P_{n, p}$ formée des éléments dont l’intersection avec $V$ est vide, est un ouvert dense de $P_{n, p}$, homéomorphe à $\mathbf{R}^{(p+1)(n-p)}$.*
 
 D’après ce qui précède, on peut supposer que $V$ est la variété linéaire projective définie par les équations $x_{n-p} = 0, \ldots, x_n = 0$. L’image réciproque de $U_V$ dans $L_{n+1, p+1}$ est l’ensemble des suites $(x_0, \ldots, x_p)$ d’éléments de $\mathbf{R}^{n+1}$ qui, avec $e_{p+1}, \ldots, e_n$, forment une base de $\mathbf{R}^{n+1}$, c’est-à-dire, vu les identifications faites, l’ensemble $U'$ des matrices $X$ à $p + 1$ lignes et $n + 1$ colonnes telles que la matrice carrée formée des $p + 1$ premières colonnes de $X$ soit inversible. D’après la prop. 2 de VI, p. 4, $U'$ est un ouvert dense de $L_{n+1, p+1}$, donc $U_V$ un ouvert dense de $P_{n, p}$ (lemme 1, p. 12). A toute matrice $X \in U'$, faisons correspondre la matrice carrée inversible $f(X)$ formée de ses $p + 1$ premières colonnes et la matrice $g(X) = f(X)^{-1}X$. Soit $A$ la partie de $U'$ formée des $X \in U'$ telles que $f(X) = I$; alors $A$ est homéomorphe à $\mathbf{R}^{(p+1)(n-p)}$, l’application $g : U' \to A$ est continue, et, pour $X \in U'$, $g(X)$ est l’unique élément de $A$ équalent à $X$ modulo $\Delta_{n,p}$. Appliquant le lemme 2, on en déduit que $U_V$ est homéomorphe à $A$, ce qui achève la démonstration.
 
-#### Corollaire {#top-vi-s3-n5-cor-1 .statement}
+#### Corollaire {#top-vi-s3-n5-cor-1 .statement tag=0EAM}
 
 *L’espace $P_{n,p}$ est un espace connexe et localement connexe, dont tout point possède un voisinage homéomorphe à $\mathbf{R}^{(p+1)(n-p)}$*.
 
 Cela résulte de la proposition et du fait que les $U_V$ recouvrent $P_{n,p}$.
 
-#### Proposition 7 {#top-vi-s3-prop-7 .statement}
+#### Proposition 7 {#top-vi-s3-prop-7 .statement tag=0BXR}
 
 *L’espace $P_{n,p}$ est compact*.
 
@@ -214,7 +214,7 @@ Elles forment donc un ensemble *fermé* dans $M_{p+1,n+1}$, et comme on tire de 
 
 Rappelons (A, III, p. 172) qu’on définit une application injective de $P_{n,p}$ dans $\mathbf{P}(\Lambda^{p+1}(\mathbf{R}^{n+1}))$ de la manière suivante: si $V \in P_{n,p}$ est l’image du système libre $(\mathbf{x}_0, \ldots, \mathbf{x}_p)$ de $\mathbf{R}^{n+1}$, on lui associe l’image canonique dans $\mathbf{P}(\Lambda^{p+1}(\mathbf{R}^{n+1}))$ du $(p+1)$-vecteur $\mathbf{x}_0 \wedge \cdots \wedge \mathbf{x}_p$. L’image de cette application est notée $G_{n+1,p+1}$ et appelée *grassmannienne* d’indices $n+1, p+1$; on la munit de la topologie induite par celle de $\mathbf{P}(\Lambda^{p+1}(\mathbf{R}^{n+1}))$ (VI, p. 13). L’application définie ci-dessus de $\mathbf{P}_{n,p}$ dans $\mathbf{G}_{n+1,p+1}$ est continue et bijective; comme $\mathbf{P}_{n,p}$ est compact et $\mathbf{G}_{n-1,p+1}$ séparé, on déduit alors de I, p. 63, cor. 2 au th. 2:
 
-#### Proposition 8 {#top-vi-s3-prop-8 .statement}
+#### Proposition 8 {#top-vi-s3-prop-8 .statement tag=0BXS}
 
 *La grassmannienne* $\mathbf{G}_{n+1,p+1}$ *est homéomorphe à l’espace* $\mathbf{P}_{n,p}$.
 

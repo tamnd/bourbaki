@@ -36,7 +36,7 @@ subsections:
       pdf_page: 111
 statements: 23
 exercises: 5
-content_sha256: ccabb795b6367ecb44790665aeebfb201ca49fe627c8152ddc6c60376751cafb
+content_sha256: 2dcbc2a0a7ebea05aa9fad077eae375ca2170a59b466abaf8f67de0147da5431
 ---
 
 ## § 1. CORPS PREMIERS. CARACTÉRISTIQUE
@@ -45,7 +45,7 @@ content_sha256: ccabb795b6367ecb44790665aeebfb201ca49fe627c8152ddc6c60376751cafb
 
 Le corps des fractions de l’anneau $\mathbf{Z}$ des entiers rationnels s’appelle le corps des nombres rationnels et se note $\mathbf{Q}$ (I, p. 111). Pour tout nombre premier $p$, l’anneau quotient $\mathbf{Z}/(p)$ est un corps fini $^1$ à $p$ éléments, noté $\mathbf{F}_p$ dans la suite. Le corps $\mathbf{Q}$ est infini car il contient $\mathbf{Z}$, et n’est donc isomorphe à aucun des corps $\mathbf{F}_p$. Si $p$ et $p'$ sont deux nombres premiers distincts, les corps $\mathbf{F}_p$ et $\mathbf{F}_{p'}$ ont des cardinaux distincts, et ne sont donc pas isomorphes.
 
-#### Définition 1 {#alg-v-s1-def-1 .statement}
+#### Définition 1 {#alg-v-s1-def-1 .statement tag=06G3}
 
 On dit qu’un corps est premier s’il est isomorphe, soit à $\mathbf{Q}$, soit à l’un des corps $\mathbf{F}_p$.
 
@@ -55,17 +55,17 @@ $^1$ On dit par abus de langage qu’un anneau ou un corps est fini si l’ensem
 
 dans $A$, l’ensemble des $x \in P$ tels que $f(x) = f'(x)$ est un sous-corps de $P$; on a donc $f = f'$ d’après ce qui précède. En particulier, le seul endomorphisme d’un corps premier est l’application identique.
 
-#### Théorème 1 {#alg-v-s1-thm-1 .statement}
+#### Théorème 1 {#alg-v-s1-thm-1 .statement tag=06G4}
 
 *Soit $A$ un anneau ; on suppose qu’il existe un sous-corps de $A$. Alors $A$ possède un unique sous-corps $P$ qui soit un corps premier. De plus, $P$ est contenu dans le centre de $A$ et dans tout sous-corps de $A$.
 
 Soient $K$ un sous-corps de $A$, $C$ le centre de $A$. Posons $K' = K \cap C$; alors $K'$ est un sous-corps de $A$. Soient $f$ l’unique homomorphisme de $\mathbf{Z}$ dans $A$ et $p$ son noyau. Tout sous-anneau de $A$, et en particulier $K'$, contient $f(\mathbf{Z})$; par suite, l’idéal $p$ est premier (I, p. 111). Si $p = (0)$, l’homomorphisme $f$ de $\mathbf{Z}$ dans $K'$ est injectif ; il se prolonge donc (I, p. 110) en un isomorphisme $\bar{f}$ de $\mathbf{Q}$ sur un sous-corps $P$ de $K'$. Si $p \neq (0)$, il existe un entier strictement positif $p$ tel que $p = (p)$ (I, p. 106) ; si l’on avait $p = ab$ avec $a > 1$ et $b > 1$, on aurait $a \notin p$, $b \notin p$ et $ab \in p$ contrairement au fait que $p$ est premier. Le nombre $p$ est donc premier et $f$ définit par passage au quotient un isomorphisme $\bar{f}$ du corps $F_p = \mathbf{Z}/p$ sur un sous-corps $P$ de $K'$. Dans les deux cas, $P$ est un sous-corps de $A$ contenu dans le centre $C$ de $A$, et c’est un corps premier. Soit $L$ un sous-corps de $A$; alors $P \cap L$ est un sous-corps de $P$, et comme $P$ est premier, on a $P \cap L = P$, d’où $P \subset L$. Si $P'$ est un sous-corps de $A$ et un corps premier, on a $P \subset P'$ par ce qui précède, d’où $P = P'$ car $P'$ est premier.
 
-#### Corollaire 1 {#alg-v-s1-thm-1-cor-1 .statement}
+#### Corollaire 1 {#alg-v-s1-thm-1-cor-1 .statement tag=06G5}
 
 *Soit $K$ un corps. Il existe un unique sous-corps de $K$ qui soit un corps premier. C’est le plus petit des sous-corps de $K$.
 
-#### Corollaire 2 {#alg-v-s1-thm-1-cor-2 .statement}
+#### Corollaire 2 {#alg-v-s1-thm-1-cor-2 .statement tag=06G6}
 
 *Pour qu’un corps soit premier, il faut et il suffit qu’il ne contienne aucun sous-corps distinct de lui-même.
 
@@ -80,7 +80,7 @@ b) la caractéristique de $A$ est un nombre premier $p$, et $P$ est isomorphe à
 
 Si la caractéristique de $A$ est égale à 0, il existe un unique homomorphisme d’anneaux de $\mathbf{Q}$ dans $A$; son image est le sous-corps premier de $A$, contenu dans le centre de $A$. Il existe par conséquent une unique structure de $\mathbf{Q}$-algèbre sur $A$ compatible avec sa structure d’anneau. Lorsque la caractéristique de $A$ est un nombre premier $p$, on a des propriétés analogues où l’on remplace le corps $\overline{\mathbf{Q}}$ par le corps $\mathbf{F}_p$.
 
-#### Proposition 1 {#alg-v-s1-prop-1 .statement}
+#### Proposition 1 {#alg-v-s1-prop-1 .statement tag=06G7}
 
 *Soit A un anneau non réduit à 0.*
 
@@ -92,23 +92,23 @@ Soit $f$ l’unique homomorphisme de $\mathbf{Z}$ dans A ; on a $n.x = f(n)\ x$ 
 
 Prenons pour A un corps *non nécessairement commutatif*. Le centre de A est un corps (commutatif). Par suite, la caractéristique et le sous-corps premier de A sont définis.
 
-#### Remarque 1 {#alg-v-s1-n2-rem-1 .statement}
+#### Remarque 1 {#alg-v-s1-n2-rem-1 .statement tag=06G8}
 
 Soient A et A’ deux anneaux non réduits à 0. On suppose que la caractéristique de A est définie, et qu’il existe un homomorphisme $u$ de A dans A’. L’image par $u$ du sous-corps premier P de A est un sous-corps P’ de A’, isomorphe à P, donc premier. Par suite, la caractéristique de A’ est définie, et elle est égale à celle de A. Si A et A’ sont de caractéristique 0 (resp. $p \neq 0$), l’application $u$ est un homomorphisme d’algèbres sur le corps $\mathbf{Q}$ (resp. $\mathbf{F}_p$).
 
-#### Remarque 2 {#alg-v-s1-n2-rem-2 .statement}
+#### Remarque 2 {#alg-v-s1-n2-rem-2 .statement tag=06G9}
 
 La remarque 1 montre que si A est un anneau de caractéristique 0 (resp. $p \neq 0$), il en est de même de tout anneau A’ contenant A comme sous-anneau, ou du quotient de A par un idéal bilatère $a \neq A$. En particulier, si K est un corps, tout sous-corps de K et tout surcorps de K ont la même caractéristique que K.
 
-#### Remarque 3 {#alg-v-s1-n2-rem-3 .statement}
+#### Remarque 3 {#alg-v-s1-n2-rem-3 .statement tag=06GA}
 
 Soit A une algèbre non réduite à 0 sur un corps K. Comme l’application $\lambda \mapsto \lambda .1$ de K dans A est un homomorphisme d’anneaux, la remarque 1 montre que la caractéristique de A est définie et qu’elle est égale à celle de K.
 
-#### Remarque 4 {#alg-v-s1-n2-rem-4 .statement}
+#### Remarque 4 {#alg-v-s1-n2-rem-4 .statement tag=06GB}
 
 Le corps $\mathbf{Q}$ étant infini, tout anneau de caractéristique 0 est infini ; par suite tout corps fini a une caractéristique non nulle.
 
-#### Remarque 5 {#alg-v-s1-n2-rem-5 .statement}
+#### Remarque 5 {#alg-v-s1-n2-rem-5 .statement tag=06GC}
 
 Soit A un anneau non réduit à 0, dont le groupe additif soit un $\mathbf{Z}$-module sans torsion, et posons $B = \mathbf{Q} \otimes_{\mathbf{Z}} A$. L’application $x \mapsto 1 \otimes x$ de A dans B est injective (II, p. 116), donc A est isomorphe à un sous-anneau d’un anneau de caractéristique 0.
 
@@ -116,7 +116,7 @@ Soit A un anneau non réduit à 0, dont le groupe additif soit un $\mathbf{Z}$-m
 
 *Dans ce numéro et le suivant, on note p un nombre premier.*
 
-#### Théorème 2 {#alg-v-s1-thm-2 .statement}
+#### Théorème 2 {#alg-v-s1-thm-2 .statement tag=06GD}
 
 *Soit A un anneau commutatif de caractéristique p. L’application $a \mapsto a^p$ est un endomorphisme de l’anneau A, c’est-à-dire qu’on a les relations*
 
@@ -128,7 +128,7 @@ Soit A un anneau non réduit à 0, dont le groupe additif soit un $\mathbf{Z}$-m
 
 La formule (2) résulte de la commutativité de A. Pour prouver (1), nous utiliserons la formule du binôme $(a + b)^p = a^p + b^p + \sum_{i=1}^{p-1} \binom{p}{i} a^i b^{p-i}$; comme on a $p.x = 0$ pour tout $x \in A$, il suffit d’établir le lemme suivant :
 
-#### Lemme 1 {#alg-v-s1-lem-1 .statement}
+#### Lemme 1 {#alg-v-s1-lem-1 .statement tag=06GE}
 
 Soient $p$ un nombre premier et $i$ un entier compris entre 1 et $p - 1$. Le coefficient binômial $\binom{p}{i}$ est un entier divisible par $p$.
 
@@ -150,7 +150,7 @@ $$
 
 Pour toute partie S de A, on note $S^{p^f}$ l’ensemble des éléments de A de la forme $x^{p^f}$ avec $x \in S$¹. En particulier, si K est un sous-anneau de A, l’ensemble $K^{p^f}$ est un sous-anneau de A. Si K est un sous-anneau de A et S une partie de A, on note K[S] le sous-anneau de A engendré par $K \cup S$; lorsque A est un corps, on note K(S) le corps des fractions de K[S], c’est-à-dire le sous-corps de A engendré par K \cup S.
 
-#### Proposition 2 {#alg-v-s1-prop-2 .statement}
+#### Proposition 2 {#alg-v-s1-prop-2 .statement tag=06GF}
 
 Soient A un anneau commutatif de caractéristique $p$, K un sous-anneau de A, S une partie de A, et $f$ un entier positif.
 a) On a $K[S]^{p^f} = K^{p^f}[S^{p^f}]$, et si A est un corps, on a $K(S)^{p^f} = K^{p^f}(S^{p^f})$.
@@ -166,7 +166,7 @@ Il est clair que la famille $(a_i^{p^f})_{i \in I}$ engendre le $K^{p^f}$-module
 
 ### 4. Anneaux parfaits de caractéristique $p$
 
-#### Définition 2 {#alg-v-s1-def-2 .statement}
+#### Définition 2 {#alg-v-s1-def-2 .statement tag=06GG}
 
 On dit qu’un anneau $A$ de caractéristique $p \neq 0$ est parfait s’il est commutatif et si l’application $a \mapsto a^p$ est bijective.
 
@@ -174,7 +174,7 @@ Si l’anneau $A$ est parfait de caractéristique $p$, l’application $a \mapst
 
 Soit $A$ un anneau commutatif de caractéristique $p$. Pour tout entier $f \geqslant 0$, notons $n_f$ le noyau de l’endomorphisme $a \mapsto a^{p^f}$ de l’anneau $A$. Alors $(n_f)_{f \geqslant 0}$ est une suite croissante d’idéaux de $A$; comme tout entier positif est majoré par une puissance de $p$, l’idéal $n = \bigcup_{f \geqslant 0} n_f$ se compose des éléments nilpotents de $A$. En particulier, si $A$ est parfait, tout élément nilpotent de $A$ est nul.
 
-#### Définition 3 {#alg-v-s1-def-3 .statement}
+#### Définition 3 {#alg-v-s1-def-3 .statement tag=06GH}
 
 Soit $A$ un anneau commutatif de caractéristique $p \neq 0$. On appelle clôture parfaite de $A$ un couple $(\hat{A}, u)$ où $\hat{A}$ est un anneau parfait de caractéristique $p$ et $u$ un homomorphisme de $A$ dans $\hat{A}$ satisfaisant à la propriété universelle suivante :
 
@@ -182,7 +182,7 @@ Soit $A$ un anneau commutatif de caractéristique $p \neq 0$. On appelle clôtur
 
 La propriété universelle (CP) entraîne aussitôt l’unicité de la clôture parfaite au sens suivant : si $(\hat{A}, u)$ et $(\hat{A}', u')$ sont deux clôtures parfaites de $A$, il existe un isomorphisme $h$ de $\hat{A}$ sur $\hat{A}'$, et un seul, tel que $u' = h \circ u$ (cf. E, IV, p. 23). Nous démontrons maintenant l’existence d’une clôture parfaite :
 
-#### Théorème 3 {#alg-v-s1-thm-3 .statement}
+#### Théorème 3 {#alg-v-s1-thm-3 .statement tag=06GI}
 
 Soit $A$ un anneau commutatif de caractéristique $p \neq 0$. Il existe une clôture parfaite $(\hat{A}, u)$ de $A$. De plus, le noyau de $u$ est l’ensemble des éléments nilpotents de $A$, et pour tout $x \in \hat{A}$, il existe un entier $n \geqslant 0$ tel que $x^{p^n} \in u(A)$.
 
@@ -196,7 +196,7 @@ h(x)^{p^n} = h(u(a)) = v(a) = h'(u(a)) = h'(x)^{p^n},
 $$
 et comme $B$ est parfait, on a $h(x) = h'(x)$. On a donc $h' = h$, et ceci achève de prouver que $(\hat{A}, u)$ est une clôture parfaite de $A$.
 
-#### Proposition 3 {#alg-v-s1-prop-3 .statement}
+#### Proposition 3 {#alg-v-s1-prop-3 .statement tag=06GJ}
 
 *Soient B un anneau parfait de caractéristique p et A un sous-anneau de B. Posons $A^{p^{-\infty}} = \bigcup_{f \geq 0} A^{p^{-f}}$ et notons j l’injection canonique de A dans $A^{p^{-\infty}}$. Alors $A^{p^{-\infty}}$ est le plus petit sous-anneau parfait de B contenant A, et $(A^{p^{-\infty}}, j)$ est une clôture parfaite de A.*
 
@@ -208,7 +208,7 @@ Soit $v$ un homomorphisme de $A$ dans un anneau parfait $B'$ de caractéristique
 
 Soit K un corps. On appelle *exposant caractéristique* de K l’entier égal à 1 si K est de caractéristique 0, et à la caractéristique de K si celle-ci est non nulle.
 
-#### Proposition 4 {#alg-v-s1-prop-4 .statement}
+#### Proposition 4 {#alg-v-s1-prop-4 .statement tag=06GK}
 
 *Soit K un corps d’exposant caractéristique q. Pour tout entier* f \geqslant 0, l’application x \mapsto x^{q^f} est un isomorphisme de K sur un de ses sous-corps (noté K^{q^f}).
 
@@ -216,7 +216,7 @@ Cela résulte du th. 2 lorsque q \neq 1 et c’est trivial lorsque q = 1.
 
 On étend de même la prop. 2 au cas où A est un corps d’exposant caractéristique q, le cas q = 1 étant trivial.
 
-#### Définition 4 {#alg-v-s1-def-4 .statement}
+#### Définition 4 {#alg-v-s1-def-4 .statement tag=06GL}
 
 On dit qu’un corps K d’exposant caractéristique q est parfait si l’on a K^q = K. On dit que K est imparfait si l’on a K^q \neq K.
 
@@ -224,7 +224,7 @@ D’après cette définition, un corps est parfait s’il est de caractéristiqu
 
 Soit K un corps de caractéristique 0 ; l’exposant caractéristique q de K est égal à 1. Par convention, les notations x^{q^{-f}} et S^{q^{-f}} désignent respectivement x et S (pour un élément x de K et une partie S de K). En particulier, on pose K^{q^{-\infty}} = K, et l’on convient que la clôture parfaite de K est K.
 
-#### Proposition 5 {#alg-v-s1-prop-5 .statement}
+#### Proposition 5 {#alg-v-s1-prop-5 .statement tag=06GM}
 
 Si K est un corps de caractéristique 0, ou fini, \* ou algébriquement clos *, il est parfait. En particulier, tout corps premier est parfait.
 
@@ -234,7 +234,7 @@ Soient K_0 un corps de caractéristique p \neq 0 et K = K_0(X) le corps des frac
 
 ### 6. Caractérisation des polynômes à différentielle nulle
 
-#### Proposition 6 {#alg-v-s1-prop-6 .statement}
+#### Proposition 6 {#alg-v-s1-prop-6 .statement tag=06GN}
 
 Soient K un anneau commutatif, A l’algèbre de polynômes K[X_i]_{i \in I} et S l’ensemble des éléments F de A tels que dF = 0.
 a) Si K est un anneau de caractéristique 0, on a S = K.
@@ -266,11 +266,11 @@ a) Si $K$ est de caractéristique 0, on a $nF_n = 0$ pour tout $n \geq 1$ d’o�
 
 b) Si $K$ est de caractéristique $p \neq 0$, alors $A$ est une algèbre sur le corps $F_p$, et la relation $nF_n = 0$ entraîne $F_n = 0$ pour tout entier $n$ non divisible par $p$. On a donc $F = \sum_{m=0}^\infty F_{mp} X_i^{mp}$, d’où $F \in T$.
 
-#### Remarque {#alg-v-s1-n6-rem-1 .statement}
+#### Remarque {#alg-v-s1-n6-rem-1 .statement tag=06GO}
 
 On a encore $S = K$ si le groupe additif de $K$ est sans torsion ; cela résulte de la démonstration donnée ci-dessus ou de la remarque 5 de V, p. 3.
 
-#### Corollaire {#alg-v-s1-n6-cor-1 .statement}
+#### Corollaire {#alg-v-s1-n6-cor-1 .statement tag=06GP}
 
 Soient $K$ un corps et $F(X)$ un polynôme à coefficients dans $K$, dont la dérivée $F'(X)$ soit nulle.
 

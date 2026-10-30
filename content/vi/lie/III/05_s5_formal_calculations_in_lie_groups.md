@@ -28,9 +28,9 @@ subsections:
       pdf_page: 321
 statements: 5
 exercises: 2
-content_sha256: d1d19e24cf4ed8d66580726ee75b119d30fde466bcd457e46f663230736b5b44
+content_sha256: 07480662829e0fde7e2f6012d89559a538e650d2c7dbcf118297538c6948b544
 translated_from: content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md
-source_content_sha256: 4018c4beb2ee03f8be21f730d567b35b84d29744806b1d273615632c7f2274ba
+source_content_sha256: 11ac709b8f3f88dc9c56e0725f4895fcc0f9592e0b472ff993cd89dad5d027d2
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-09d05e9d
 glossary_version: 34
@@ -150,7 +150,7 @@ $$
 [x, y] = B(x, y) - B(y, x).
 $$
 
-#### Mệnh đề 1 {#lie-iii-s5-prop-1 .statement}
+#### Mệnh đề 1 {#lie-iii-s5-prop-1 .statement tag=0AE1}
 
 (i) $$ x^{[-1]} \equiv -x + B(x, x) \mod \deg 3 $$
 (ii) $$ x.y.x^{[-1]} \equiv y + [x, y] \mod \deg 3 $$
@@ -227,7 +227,7 @@ vế phải là một chuỗi nguyên hội tụ theo biến $x \in \mathbf{K}^n
 
 Nếu $t \in \mathbf{K}$, tất cả các ánh xạ lũy thừa bậc t của G đều có cùng một khai triển thành chuỗi nguyên quanh gốc, vì hai ánh xạ bất kỳ trong số chúng trùng nhau trên một lân cận của 0. Ta ký hiệu khai triển này dưới dạng chuỗi nguyên bởi $x^{[t]}$.
 
-#### Mệnh đề 2 {#lie-iii-s5-prop-2 .statement}
+#### Mệnh đề 2 {#lie-iii-s5-prop-2 .statement tag=0AE2}
 
 (i) $\psi_j \equiv 0 \mod \deg j$.
 (ii) *Nếu $t \in \mathbf{K}$, thì*
@@ -286,7 +286,7 @@ Sau đó ta viết $x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$ với m
 
 Vì $x^{[t]} = x^{[t]'}$ với $t$ là một số nguyên $\geq 0$, suy ra $x^{[t]} = x^{[t]'}$ với mọi $t \in \mathbf{K}$.
 
-#### Nhận xét {#lie-iii-s5-n3-rem-1 .statement}
+#### Nhận xét {#lie-iii-s5-n3-rem-1 .statement tag=0AE3}
 
 (1) Ta viết điều kiện (ii) của Mệnh đề 2 với t là một số nguyên $\geqslant 0$:
 
@@ -347,7 +347,7 @@ E(tX) = (E(X))^{[t]}, \quad L(X^{[t]}) = tL(X)
 $$
 với $t \in K$.
 
-#### Mệnh đề 3 {#lie-iii-s5-prop-3 .statement}
+#### Mệnh đề 3 {#lie-iii-s5-prop-3 .statement tag=0AE4}
 
 (27)
 $$
@@ -401,7 +401,7 @@ $$
 = \sum_{m \geq 0} \frac{1}{m!} \psi_{m,m}(x) \quad \text{theo (26).}
 $$
 
-#### Mệnh đề 4 {#lie-iii-s5-prop-4 .statement}
+#### Mệnh đề 4 {#lie-iii-s5-prop-4 .statement tag=0AE5}
 
 *Để biểu đồ của G được chính tắc, điều kiện cần và đủ là $\psi_j = 0$ với $j \geq 2$.*
 

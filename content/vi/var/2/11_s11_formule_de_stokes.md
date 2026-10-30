@@ -28,7 +28,7 @@ subsections:
       pdf_page: 139
 statements: 1
 exercises: 0
-content_sha256: fe1d36ac7b27ad3dd7a298870f87147c6c3ebcc6a984b9a60cff421436dbeb6e
+content_sha256: 0ca4219c72d6ab8fe929f93854f6ef114ea04841db14ffc1d418a25a83f19159
 translated_from: content/en-mt/var/2/11_s11_formule_de_stokes.md
 source_lang: en-mt
 translation_method: machine
@@ -75,7 +75,7 @@ Trong No. này, cho $X$ là một đa tạp tách được, thuần nhất lớp
 
 11.2.1. Cho $x \in \partial A$ và cho $\xi$ là một định hướng của $T_x(\partial A)$; ta ký hiệu $\tilde{i}_x(\xi)$ là định hướng của $T_x(X)$ chứa các phần tử $v \wedge u$, trong đó $v$ là một vectơ hướng hoàn toàn ra ngoài đối với $A$ tại $x$ (11.1.4) và $u$ là một phần tử khác không của $\wedge^{n-1} T_x(\partial A)$ thuộc định hướng $\xi$. Ánh xạ $\tilde{i}_x$ là một song ánh của $\mathrm{Or}(T_x(\partial A))$ lên $\mathrm{Or}(T_x(X))$. Các ánh xạ $\tilde{i}_x$ với $x \in \partial A$ xác định một cấu xạ $\tilde{i} : \tilde{\partial A} \to \tilde{X}$ là một *định hướng* của $i$ (10.2.5). Nếu $\xi$ là một định hướng của $X$, thì định hướng của $\partial A$ liên kết với $\xi$ bởi $\tilde{i}$ (10.2.5) được gọi là *được xác định bởi* $\xi$.
 
-#### Ví dụ {#var-2-s11-n2-exa-1 .statement}
+#### Ví dụ {#var-2-s11-n2-exa-1 .statement tag=0EEJ}
 
 Khi $X = \mathbf{R}^n$, $\xi$ là định hướng thông thường của $\mathbf{R}^n$ và $A$ là một quả cầu đóng bán kính $> 0$, định hướng của mặt cầu $\partial A$ được xác định bởi $\xi$ là định hướng chính tắc (10.2.8, b)).
 

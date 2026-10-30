@@ -32,9 +32,9 @@ subsections:
       pdf_page: 241
 statements: 12
 exercises: 0
-content_sha256: b3e3a58d01ddae2feb86bec4c2112bbf4441a01a8f6b60a5abeda25ff2ac6c2e
+content_sha256: 3ed7e0ec0c3abd57df0e68bbccb4f177a716f3346581a69d83719f0a2418266b
 translated_from: content/en/fvr/V/02_s2_asymptotic_expansions.md
-source_content_sha256: 05a689b700a4dd803c1309538a663bb9a8d1ffb6549df0a07023c0ede84bcdcc
+source_content_sha256: 3913fa9ae08c74aef17f721c054e1ae91ca2d4d4ef6bc764fb678147ac681601
 translation_model: gpt-5.4
 translation_run: translate-vi-bc8cfeda
 glossary_version: 34
@@ -48,7 +48,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Cho E là một tập hợp được lọc bởi một bộ lọc có cơ sở $\mathfrak{F}$, và K là một trường định giá không rời rạc (thường nhất là $K = \mathbf{R}$ hoặc $K = \mathbf{C}$). Trên tập hợp các hàm trong $\mathscr{H}(\mathfrak{F}, K)$ không tương đương với 0 modulo $R_\infty$ (nghĩa là, những hàm mà trong mọi tập hợp thuộc $\mathfrak{F}$ đều có ít nhất một điểm tại đó hàm không triệt tiêu), quan hệ " $f \ll g$ or $f = g$" là một quan hệ thứ tự.
 
-#### Định nghĩa 1 {#fvr-v-s2-def-1 .statement}
+#### Định nghĩa 1 {#fvr-v-s2-def-1 .statement tag=08ES}
 
 *Người ta nói rằng một tập con $\mathscr{E}$ của $\mathscr{H}(\mathfrak{F}, K)$, gồm các hàm không tương đương với 0 modulo $R_\infty$, là một thang so sánh khi $\mathscr{E}$ được sắp thứ tự toàn phần bởi quan hệ " $f \ll g$ or $f = g$".*
 
@@ -56,23 +56,23 @@ Nói cách khác, nếu $f$ và $g$ là các hàm trong $\mathscr{E}$ thì một
 
 Mọi tập con của một thang so sánh rõ ràng cũng là một thang so sánh.
 
-#### Ví dụ 1 {#fvr-v-s2-n1-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-s2-n1-exa-1 .statement tag=08ET}
 
 Với $x$ thực và tiến tới $+\infty$ thì tập hợp các hàm $x^\alpha$ ($\alpha$ là một số thực tùy ý) là một thang so sánh. Điều tương tự cũng đúng đối với các hàm $(x-a)^\alpha$ khi $\mathfrak{F}$ là tập hợp các khoảng mở có đầu mút trái là $a$.
 
-#### Ví dụ 2 {#fvr-v-s2-n1-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-s2-n1-exa-2 .statement tag=08EU}
 
 Với $z$ phức và tiến tới $\infty$ thì tập hợp các hàm $z^n$ ($n$ là một số nguyên) là một thang so sánh; các hàm $(z-a)^n$ cũng vậy khi $\mathfrak{F}$ là vết trên phần bù của điểm $a \in \mathbf{C}$ của bộ lọc các lân cận của điểm này.
 
-#### Ví dụ 3 {#fvr-v-s2-n1-exa-3 .statement}
+#### Ví dụ 3 {#fvr-v-s2-n1-exa-3 .statement tag=08EV}
 
 Cho F là một không gian chuẩn; họ các hàm $\|x-\mathbf{a}\|^\alpha$ ($\alpha$ là một số thực tùy ý) là một thang so sánh khi $\mathfrak{F}$ là vết trên phần bù của $\mathbf{a}$ của bộ lọc các lân cận của điểm này. Chú ý rằng nếu $p$ và $q$ là hai chuẩn phân biệt trên F, thì hợp của hai thang so sánh $(p(x-\mathbf{a}))^\alpha$ và $(q(x-\mathbf{a}))^\alpha$ nói chung không phải là một thang so sánh.
 
-#### Ví dụ 4 {#fvr-v-s2-n1-exa-4 .statement}
+#### Ví dụ 4 {#fvr-v-s2-n1-exa-4 .statement tag=08EW}
 
 Khi $x$ thực tiến tới $+\infty$, họ $\mathscr{E}$ các hàm có dạng $\exp(p(x))$, trong đó $p$ chạy qua tập hợp các *đa thức không có hằng số* (với hệ số thực), là một thang so sánh: chỉ cần nhận xét rằng thương của hai hàm trong $\mathscr{E}$ lại thuộc $\mathscr{E}$, và một hàm $\exp(p(x))$ ắt phải tiến tới 0 hoặc $+\infty$ nếu $p \neq 0$; quả thật, $p(x) \sim \alpha x^n$ với $n > 0$ và $\alpha \neq 0$; nếu $\alpha > 0$ thì $p(x) > \frac{1}{2} \alpha x^n$ với $x$ đủ lớn; nếu $\alpha < 0$ thì $p(x) < \frac{1}{2} \alpha x^n$ với $x$ đủ lớn; trong trường hợp thứ nhất $\exp(p(x))$ tiến tới $+\infty$, trong trường hợp thứ hai tiến tới 0.
 
-#### Ví dụ 5 {#fvr-v-s2-n1-exa-5 .statement}
+#### Ví dụ 5 {#fvr-v-s2-n1-exa-5 .statement tag=08EX}
 
 Khi $x$ thực tiến tới $+\infty$, tập hợp $\mathscr{E}$ các hàm dạng $x^\alpha (\log x)^\beta$ (được xác định với $x > 1$), trong đó $\alpha$ và $\beta$ là các số thực tùy ý, là một thang so sánh. Thật vậy, ở đây nữa thương của hai hàm trong $\mathscr{E}$ là một hàm trong $\mathscr{E}$; chỉ cần chỉ ra rằng nếu $\alpha$ và $\beta$ không đồng thời bằng không thì $x^\alpha (\log x)^\beta$ tiến tới 0 hoặc $+\infty$; điều này là hiển nhiên nếu $\alpha = 0, \beta \neq 0$; nếu $\alpha > 0$ thì ta có $(\log x)^{-\beta} \ll x^\alpha$, và nếu $\alpha < 0$ thì ta có $(\log x)^\beta \ll x^{-\alpha}$ với mọi $\beta$, do đó mệnh đề.
 
@@ -88,11 +88,11 @@ Cho $\mathscr{E}$ là một thang so sánh được tạo bởi các hàm có gi
 
 Nếu $\mathbf{f}$ có một phần chính đối với một thang so sánh $\mathscr{E}$ thì nó có *cùng* phần chính đó đối với mọi thang so sánh $\mathscr{E}' \supset \mathscr{E}$.
 
-#### Ví dụ 1 {#fvr-v-s2-n2-exa-1 .statement}
+#### Ví dụ 1 {#fvr-v-s2-n2-exa-1 .statement tag=08EY}
 
 Với $x$ thực (resp. phức) tiến tới $+\infty$ (resp. $\infty$), mọi đa thức $a_0 x^n + a_1 x^{n-1} + \ldots + a_n$ với các hệ số trong V, sao cho $a_0 \neq 0$, đều có phần chính là $a_0 x^n$ đối với thang $x^n$ (hoặc bất kỳ thang nào chứa các $x^n$). Suy ra mọi phân thức hữu tỉ $\frac{a_0 x^n + \cdots + a_m}{b_0 x^n + \cdots + b_n}$ với các hệ số thực hoặc phức sao cho $a_0 b_0 \neq 0$ đều có phần chính là $\frac{a_0}{b_0} x^n$ đối với cùng thang đó.
 
-#### Ví dụ 2 {#fvr-v-s2-n2-exa-2 .statement}
+#### Ví dụ 2 {#fvr-v-s2-n2-exa-2 .statement tag=08EZ}
 
 Một hàm có thể so sánh được với mọi hàm của một thang mà vẫn không có phần chính đối với thang ấy. Ví dụ, khi $x$ thực tiến tới $+\infty$, $\sqrt{x}$ không có phần chính đối với thang $x^n$ trong đó $n$ là một số nguyên hữu tỉ; $\log x$ không có phần chính đối với thang các $x^\alpha$ ($\alpha$ thực tùy ý); $\exp(\sqrt{\log x})$ và $x' = e^{x \log x}$ không có phần chính đối với thang các $x^\alpha (\log x)^\beta$, cũng không đối với thang các $\exp(p(x))$ ($p$ là một đa thức không có số hạng hằng).
 
@@ -100,7 +100,7 @@ Khái niệm phần chính cho phép phép tổng quát hóa rộng rãi. Giả 
 
 Nói chung hơn, giả sử rằng thang $\mathscr{E}$ được viết dưới dạng tham số $(g_\alpha)$ trong đó $\alpha$ chạy qua một tập hợp chỉ số $A$ được trang bị một cấu trúc được sắp thứ tự toàn phần đẳng cấu với cấu trúc có thứ tự *đối* của $\mathscr{E}$: do đó quan hệ $\alpha < \beta$ là tương đương với $g_\beta \ll g_\alpha$. Trong những hoàn cảnh này:
 
-#### Định nghĩa 2 {#fvr-v-s2-def-2 .statement}
+#### Định nghĩa 2 {#fvr-v-s2-def-2 .statement tag=08F0}
 
 *Ta nói rằng một hàm* $f \in \mathscr{H}(\mathfrak{F}, V)$ *có một khai triển tiệm cận đến cấp chính xác* $g_\alpha$ *(đối với thang* $\mathscr{E}$*) *nếu tồn tại một họ* $(a_\lambda)_{\lambda \leq \alpha}$ *các phần tử của* $V$, *mà tất cả trừ một số hữu hạn đều bằng* $0$, *sao cho* $f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda \ll g_\alpha$. *Ta nói rằng* $\sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ *là một khai triển tiệm cận của* $f$ *đến cấp chính xác* $g_\alpha$, *rằng các* $a_\lambda g_\lambda$ ($\lambda \leq \alpha$) *là các số hạng của nó, các* $a_\lambda$ *là các hệ số của nó, và hàm* $r_\alpha = f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ *là số dư của khai triển này*.
 
@@ -166,7 +166,7 @@ $$
 $$
 và $\log (1 + h)$ có thể được khai triển, như đã nói ở trên, vì hàm $\log (1 + t)$ khả vi vô hạn trên một lân cận của 0; hơn nữa, nếu $\log g_\gamma$ thừa nhận một khai triển tiệm cận đối với $\mathscr{E}$, hoặc đối với một thang $\mathscr{E}_1 \supset \mathscr{E}$, thì bằng cách cộng hai khai triển tiệm cận ấy, ta thu được một khai triển tiệm cận của $\log |f|$.
 
-#### Ví dụ {#fvr-v-s2-n4-exa-1 .statement}
+#### Ví dụ {#fvr-v-s2-n4-exa-1 .statement tag=08F1}
 
 Ta có $(1 + x)^{1/x} = \exp \left( \frac{1}{x} \log (1 + x) \right)$: khi $x$ tiến tới $+\infty$ thì $\log (1 + x) = \log x + \log \left( 1 + \frac{1}{x} \right)$, do đó khai triển tiệm cận của $\frac{1}{x} \log (1 + x)$ theo thang các $x^\alpha (\log x)^\beta$ là:
 $$
@@ -188,7 +188,7 @@ theo thang $x^\alpha (\log x)^\beta$ bằng các phương pháp đã giải thí
 
 Giữ nguyên các giả thiết và ký hiệu, khai triển tiệm cận của $e^f$ không đặt ra vấn đề mới nào ngoại trừ khi $f \gg 1$; khi đó phải phân biệt hai trường hợp, tùy theo $g_\alpha \gg 1$ hay $g_\alpha \ll 1$. Trong trường hợp thứ nhất, việc cho một khai triển của $f$ không cho phép thu được một phần chính của $e^f$ đối với $\mathscr{E}$, vì nói chung ta không biết số dư $r_\alpha$ có tiến tới 0 hay không, tức là liệu $e^{r_\alpha}$ có tiến tới 1 hay không. Trái lại, nếu $g_\alpha \ll 1$ thì $r_\sigma \ll 1$ và do đó $e^f \sim \exp \left( \sum_{\lambda \leq \alpha} a_\lambda g_\lambda \right)$. Có thể làm chính xác hơn kết quả này: gọi $a_\gamma g_\gamma$ là phần chính của $f$ và gọi $\delta$ là chỉ số (sao cho $\gamma < \delta \leq \alpha$) mà với nó $g_\delta = 1$; đặt $f_1 = \sum_{\lambda \leq \delta} a_\lambda g_\lambda$, $f_2 = \sum_{\delta < \lambda \leq \alpha} a_\lambda g_\lambda + r_\alpha$; ta có $f = f_1 + f_2$, nên $e^f = e^{f_1} e^{f_2}$, và phương pháp tổng quát đã được giải thích ở đầu tiểu mục này cho phép lập một khai triển tiệm cận của $e^{f_2}$ (xuất phát từ khai triển Taylor của $e^t$ tại điểm $t = 0$). Khi đó ta sẽ có một khai triển tiệm cận của $e^f$ nếu $e^{f_1} = \prod_{\lambda \leq \delta} \exp(a_\lambda g_\lambda)$ thuộc $\mathscr{E}$, hoặc thuộc một thang $\mathscr{E}_1$ chứa $\mathscr{E}$.
 
-#### Ví dụ {#fvr-v-s2-n4-exa-2 .statement}
+#### Ví dụ {#fvr-v-s2-n4-exa-2 .statement tag=08F2}
 
 Ta có $x^{1/1} = \exp \left( \log x \cdot \exp \left( \frac{1}{x} \log x \right) \right)$; khi $x$ tiến tới $+\infty$ thì $\log x \ll x$, do đó khai triển tiệm cận của $\log x \cdot \exp \left( \frac{1}{x} \log x \right)$ đối với thang $x^\alpha (\log x)^\beta$ là:
 
@@ -212,7 +212,7 @@ Có thể tổng quát hóa khái niệm phần chính, cũng như khái niệm 
 
 Bây giờ, cho $f$ là một hàm bất kỳ trong $\mathscr{H}(\mathfrak{F}, V)$; nếu tồn tại một hàm $g \in \mathscr{E}$ và một hàm khác không $a \in C$ sao cho $f - ag \ll g$ thì ta sẽ nói rằng $ag$ là một phần chính của $f$, đối với thang so sánh $\mathscr{E}$ và miền hệ số $C$. Nếu một phần chính như vậy tồn tại, thì nó là duy nhất: thật vậy, giả sử có hai phần chính $a_1 g_1$ và $a_2 g_2$; không thể có $g_1 \ll g_2$ vì từ (CO₁) người ta có thể suy ra rằng $a_1 g_1 \ll g_2$ và $f - a_1 g_1 \ll g_1 \ll g_2$, do đó $f \ll g_2$; nhưng khi đó cũng sẽ có $a_2 g_2 \ll g_2$ và do đó $a_2 \ll 1$ mâu thuẫn với giả thiết $a_2 \neq 0$ và (CO₂). Vậy phải có $g_1 = g_2$; từ các hệ thức $f - a_1 g_1 \ll g_1, f - a_2 g_1 \ll g_1$ suy ra rằng $(a_2 - a_1)g_1 \ll g_1$ do đó $a_2 - a_1 \ll 1$, và do đó $a_2 = a_1$, theo (CO₂) và (CO₃).
 
-#### Ví dụ {#fvr-v-s2-n5-exa-1 .statement}
+#### Ví dụ {#fvr-v-s2-n5-exa-1 .statement tag=08F3}
 
 Khi $x$ thực tiến tới $+\infty$ thì các hàm tuần hoàn bị chặn trên $\mathbf{R}$, có cùng chu kỳ $\tau$, thỏa mãn các điều kiện (CO₁), (CO₂) và (CO₃): nếu $\lim_{x \to +\infty} a(x) = 0$ thì với mọi $\varepsilon > 0$ tồn tại một $x_0$ sao cho $|a(x)| \leq \varepsilon$ với mọi $x \geq x_0$; suy ra $|a(x)| \leq \varepsilon$ cũng đúng với $0 \leq x \leq \tau$, vì tồn tại một số nguyên $n$ sao cho $x + n\tau \geq x_0$, và sao cho $a(x) = a(x + n\tau)$; vì $\varepsilon$ là tùy ý nên ta có $a(x) = 0$ trên $[0, \tau]$, do đó ở mọi nơi.
 

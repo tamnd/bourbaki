@@ -25,7 +25,7 @@ subsections:
       pdf_page: 334
 statements: 6
 exercises: 6
-content_sha256: c140260390c34f80ae37eab1c3dc10a97230a90dffb6d1d544762f7f3add163c
+content_sha256: 1c81174cbd47bb500a623e0c569e0a38286f1c72eeae4b3d0069a0e65ec296a4
 ---
 
 ## § 2. THE GAMMA FUNCTION IN THE COMPLEX DOMAIN
@@ -115,7 +115,7 @@ $$
 
 taking account of the functional equation (4) of VII, p. 315, one then sees that:
 
-#### Proposition 1 {#fvr-vii-s2-prop-1 .statement}
+#### Proposition 1 {#fvr-vii-s2-prop-1 .statement tag=08JB}
 
 For every complex $z$ one has
 
@@ -125,7 +125,7 @@ $$
 
 (the complements' relation).
 
-#### Corollary {#fvr-vii-s2-n2-cor-1 .statement}
+#### Corollary {#fvr-vii-s2-n2-cor-1 .statement tag=08JC}
 
 For every real $t$ one has
 
@@ -198,7 +198,7 @@ f(0) = \sqrt{\pi^{p-1} / \prod_{k=1}^{p-1} \sin \frac{k\pi}{p}}
 $$
 and since the product on the right-hand side is equal to $p/2^{p-1}$ (VI, p. 284, cor. 1) one sees finally that:
 
-#### Proposition 2 {#fvr-vii-s2-prop-2 .statement}
+#### Proposition 2 {#fvr-vii-s2-prop-2 .statement tag=08JD}
 
 *For every complex number* $z$ *not an integer* $\leqslant 0$ *and for every integer* $p > 0$ *one has*
 $$
@@ -206,7 +206,7 @@ $$
 $$
 *(Legendre-Gauss multiplication formula)*.
 
-#### Proposition 3 {#fvr-vii-s2-prop-3 .statement}
+#### Proposition 3 {#fvr-vii-s2-prop-3 .statement tag=08JE}
 
 *For every real* $x > 0$ *one has*
 $$
@@ -342,7 +342,7 @@ $$
 
 from which one deduces easily that $\delta = \frac{1}{2} \log 2\pi$. Finally one has the following result:
 
-#### Proposition 4 {#fvr-vii-s2-prop-4 .statement}
+#### Proposition 4 {#fvr-vii-s2-prop-4 .statement tag=08JF}
 
 *Along the filter $\mathfrak{F}$ one has (for every integer $p \geqslant 1$) the asymptotic expansion*
 
@@ -353,7 +353,7 @@ $$
 
 *(Stirling’s expansion)*.
 
-#### Corollary {#fvr-vii-s2-n3-cor-1 .statement}
+#### Corollary {#fvr-vii-s2-n3-cor-1 .statement tag=08JG}
 
 *Along the filter $\mathfrak{F}$ one has*
 
@@ -401,7 +401,7 @@ $$
 
 The same argument leads to the following analogous proposition:
 
-#### Proposition 5 {#fvr-vii-s2-prop-5 .statement}
+#### Proposition 5 {#fvr-vii-s2-prop-5 .statement tag=08JH}
 
 Along the filter $\mathfrak{F}$ one has (for every integer $p \geqslant 1$), the asymptotic expansion
 

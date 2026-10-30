@@ -32,9 +32,9 @@ subsections:
       pdf_page: 60
 statements: 18
 exercises: 27
-content_sha256: e0cf474fc978a5dec2d70762a134b2ae7ebe3ca727fc76078e0d7dff9489add2
+content_sha256: f383c06fe293025c422c1fa40a924ea7a41246f2dba9fd8005d6e325ccd2f9d9
 translated_from: content/en/lie/I/04_s4_nilpotent_lie_algebras.md
-source_content_sha256: bef3eeafe13af0c47229143600305c1cdb410b97ca96cc305d8ed095ac5bb3cd
+source_content_sha256: 9f6dbd6648d7739560a7db8789c8dcacb1593afb46758c4bce763121741c6605
 translation_model: gpt-5.4
 translation_run: translate-vi-c10151d9
 glossary_version: 34
@@ -48,13 +48,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA ĐẠI SỐ LIE LŨY LINH
 
-#### Định nghĩa 1 {#lie-i-s4-def-1 .statement}
+#### Định nghĩa 1 {#lie-i-s4-def-1 .statement tag=09WS}
 
 *Một đại số Lie $g$ được gọi là lũy linh nếu tồn tại một dãy hữu hạn giảm các iđêan $(g_i)_{1 \leq i \leq p}$ của $g$ với $g_0 = g, g_p = \{0\}$, sao cho* $[g, g_i] \subset g_{i+1}$ *với* $0 \leq i < p$.
 
 Một đại số Lie giao hoán là lũy linh.
 
-#### Mệnh đề 1 {#lie-i-s4-prop-1 .statement}
+#### Mệnh đề 1 {#lie-i-s4-prop-1 .statement tag=09WT}
 
 *Cho $g$ là một đại số Lie. Các điều kiện sau là tương đương:*
 (a) $g$ *là lũy linh;*
@@ -77,23 +77,23 @@ i_0 < i_1 < \cdots < i_p
 $$
 với $g_0 = \mathfrak{h}_{i_0}, g_1 = \mathfrak{h}_{i_1}, \ldots, g_p = \mathfrak{h}_{i_p}$; khi đó, vì $[g, \mathfrak{h}_{i_k}] \subset \mathfrak{h}_{i_{k+1}}$ nên các $\mathfrak{h}_i$ là các iđêan và $[g, \mathfrak{h}_i] \subset \mathfrak{h}_{i+1}$ với mọi $i$. Do đó các điều kiện (a) và (e) là tương đương.
 
-#### Hệ quả 1 {#lie-i-s4-prop-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s4-prop-1-cor-1 .statement tag=09WU}
 
 *Tâm của một đại số Lie lũy linh khác không là khác không.*
 
-#### Hệ quả 2 {#lie-i-s4-prop-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-i-s4-prop-1-cor-2 .statement tag=09WV}
 
 *Dạng Killing của một đại số Lie lũy linh là không.*
 Với mọi $x$ và $y$ trong một đại số Lie lũy linh, $\operatorname{ad} x \circ \operatorname{ad} y$ là lũy linh và do đó có vết bằng không.
 
-#### Mệnh đề 2 {#lie-i-s4-prop-2 .statement}
+#### Mệnh đề 2 {#lie-i-s4-prop-2 .statement tag=09WW}
 
 *Các đại số con, các đại số thương và các mở rộng trung tâm của một đại số Lie lũy linh đều là lũy linh. Một tích hữu hạn các đại số Lie lũy linh là một đại số Lie lũy linh.*
 Cho $g$ là một đại số Lie, $g'$ là một đại số con của $g$, $\mathfrak{h}$ là một iđêan của $g$, $\mathfrak{k} = g/\mathfrak{h}$ và $\phi$ là ánh xạ chính tắc từ $g$ lên $\mathfrak{k}$. Nếu $g$ là lũy linh, thì $\mathscr{C}^k g = \{0\}$ với một số nguyên $k$, do đó $\mathscr{C}^k g' \subset \mathscr{C}^k g = \{0\}$ và $\mathscr{C}^k \mathfrak{k} = \phi(\mathscr{C}^k g) = \{0\}$, và vì thế $g'$ và $\mathfrak{k}$ đều lũy linh. Nếu $\mathfrak{k}$ lũy linh và $\mathfrak{h}$ được chứa trong tâm của $g$, thì $\mathscr{C}^k \mathfrak{k} = \{0\}$ với một số nguyên $k$, do đó $\mathscr{C}^k g \subset \mathfrak{h}$ và vì vậy $\mathscr{C}^{k+1} g \subset [\mathfrak{h}, g] = \{0\}$, nên $g$ là lũy linh. Sau cùng, mệnh đề liên quan đến các tích suy ra chẳng hạn từ mệnh đề (a) $\Leftrightarrow$ (d) của Mệnh đề 1.
 
 Định nghĩa 1 và Mệnh đề 2 cho thấy rằng các đại số Lie lũy linh chính xác là các đại số thu được từ các đại số Lie giao hoán bằng một dãy các mở rộng trung tâm.
 
-#### Mệnh đề 3 {#lie-i-s4-prop-3 .statement}
+#### Mệnh đề 3 {#lie-i-s4-prop-3 .statement tag=09WX}
 
 *Cho $g$ là một đại số Lie lũy linh và $\mathfrak{h}$ là một đại số con của $g$ phân biệt với $g$. Chuẩn hóa tử của $\mathfrak{h}$ trong $g$ phân biệt với $\mathfrak{h}$.*
 Cho $k$ là số nguyên lớn nhất sao cho $\mathscr{C}^k g + \mathfrak{h} \neq \mathfrak{h}$. Khi đó
@@ -104,12 +104,12 @@ và do đó chuẩn hóa tử của $\mathfrak{h}$ trong $g$ chứa $\mathscr{C}
 
 ### 2. ĐỊNH LÝ ENGEL
 
-#### Bổ đề 1 {#lie-i-s4-lem-1 .statement}
+#### Bổ đề 1 {#lie-i-s4-lem-1 .statement tag=09WY}
 
 *Cho $V$ là một không gian vectơ trên $\mathbf{K}$. Nếu $x$ là một tự đồng cấu lũy linh của $V$, thì ánh xạ $y \mapsto [x, y]$ của $\mathscr{L}(V)$ vào $\mathscr{L}(V)$ là lũy linh.*
 Nếu $f$ ký hiệu ánh xạ này, thì $f^m(y)$ là một tổng các hạng tử có dạng $\pm x^i y x^j$ với $i + j = m$. Nếu $x^k = 0$, thì $f^{2k-1}(y) = 0$ với mọi $y$.
 
-#### Định lý 1 (Engel) {#lie-i-s4-thm-1 .statement}
+#### Định lý 1 (Engel) {#lie-i-s4-thm-1 .statement tag=09WZ}
 
 *Cho $V$ là một không gian vectơ trên $\mathbf{K}$ và $g$ là một đại số con hữu hạn chiều của $\mathfrak{gl}(V)$ mà các phần tử của nó là các nội cấu lũy linh của $V$. Nếu $V \neq \{0\}$, tồn tại $u \neq 0$ trong $V$ sao cho $x.u = 0$ với mọi $x \in g$.*
 
@@ -119,37 +119,37 @@ Cho $h$ là một đại số Lie con của $g$ có chiều $m < n$. Nếu $x \i
 
 Ta kết luận (bằng cách lặp bắt đầu từ $h = \{0\}$) rằng $g$ có một iđêan $h$ chiều $n-1$. Lấy $a \in g,\ a \notin h$. Ta lại dùng giả thiết quy nạp: các $u \in V$ sao cho $x.u = 0$ với mọi $x \in h$ tạo thành một không gian con vectơ khác không U của V. Không gian con này ổn định dưới tác dụng của $a$ (§ 3, no. 5, Mệnh đề 5). Vì $a$ là một tự đồng cấu lũy linh của V, tồn tại một phần tử khác không của U bị triệt tiêu bởi $a$ và do đó bởi mọi phần tử của $g$.
 
-#### Hệ quả 1 {#lie-i-s4-thm-1-cor-1 .statement}
+#### Hệ quả 1 {#lie-i-s4-thm-1-cor-1 .statement tag=09X0}
 
 *Để một đại số Lie g là lũy linh, điều kiện cần và đủ là, với mọi $x \in g$, $\mathrm{ad}\ x$ là lũy linh.*
 
 Điều kiện này là cần thiết (Mệnh đề 1). Giả sử rằng tính đủ của nó đã được chứng minh đối với các đại số Lie chiều $< n$ ($n \neq 0$). Cho $g$ là một đại số Lie $n$-chiều sao cho, với mọi $x \in g$, $\mathrm{ad}\ x$ là lũy linh. Định lý 1, áp dụng cho tập hợp các $\mathrm{ad}\ x\ (x \in g)$, chứng minh rằng tâm $c$ của $g$ là khác không. Khi đó $g$ là một mở rộng trung tâm của đại số Lie $g/c$, đại số này là lũy linh theo giả thiết quy nạp của chúng ta. Chứng minh được hoàn tất bằng cách áp dụng Mệnh đề 2.
 
-#### Hệ quả 2 {#lie-i-s4-thm-1-cor-2 .statement}
+#### Hệ quả 2 {#lie-i-s4-thm-1-cor-2 .statement tag=09X1}
 
 *Cho g là một đại số Lie và h là một iđêan của g. Giả sử rằng $g/h$ là lũy linh và rằng, với mọi $x \in g$, hạn chế của $\mathrm{ad}\ x$ trên h là lũy linh. Khi đó g là lũy linh.*
 
 Cho $x \in g$. Vì $g/h$ là lũy linh, tồn tại một số nguyên $k$ sao cho $(\mathrm{ad}\ x)^k(g) \subset h$. Theo giả thiết tồn tại một số nguyên $k'$ sao cho $(\mathrm{ad}\ x)^{k'}(h) = \{0\}$. Do đó $(\mathrm{ad}\ x)^{k+k'}(g) = \{0\}$. Vậy Hệ quả 2 là một hệ quả của Hệ quả 1.
 
-#### Hệ quả 3 {#lie-i-s4-thm-1-cor-3 .statement}
+#### Hệ quả 3 {#lie-i-s4-thm-1-cor-3 .statement tag=09X2}
 
 *Cho V là một không gian vectơ và g là một đại số con hữu hạn chiều của $\mathfrak{gl}(V)$ mà các phần tử của nó là những nội đồng cấu lũy linh của V. Khi đó g là một đại số Lie lũy linh.*
 
 Điều này suy ra ngay lập tức từ Bổ đề 1 và Hệ quả 1.
 
-#### Ví dụ {#lie-i-s4-n2-exa-1 .statement}
+#### Ví dụ {#lie-i-s4-n2-exa-1 .statement tag=09X3}
 
 Đại số $\mathfrak{n}(n, K)$ (§ 1, no. 2, Ví dụ 2 (3)) là lũy linh.
 
 ### 3. IĐÊAN LŨY LINH LỚN NHẤT CỦA MỘT BIỂU DIỄN
 
-#### Bổ đề 2 {#lie-i-s4-lem-2 .statement}
+#### Bổ đề 2 {#lie-i-s4-lem-2 .statement tag=09X4}
 
 *Cho g là một đại số Lie, a là một iđêan của g và M là một g-môđun đơn. Nếu, với mọi $x \in a,\ x_M$ là lũy linh, thì $x_M = 0$ với mọi $x \in a$.*
 
 Cho N là không gian con của M gồm các $m \in M$ sao cho $x_M.m = 0$ với mọi $x \in a$. Theo Định lý 1, $N \neq \{0\}$. Mặt khác, với mọi $y \in g$, N ổn định dưới $y_M$ (§ 3, no. 5, Mệnh đề 5). Do đó $N = M$, điều này chứng minh bổ đề.
 
-#### Bổ đề 3 {#lie-i-s4-lem-3 .statement}
+#### Bổ đề 3 {#lie-i-s4-lem-3 .statement tag=09X5}
 
 *Cho g là một đại số Lie, a là một iđêan của g, M là một g-môđun có số chiều hữu hạn trên*
 
@@ -172,7 +172,7 @@ Nếu các điều kiện này được thỏa mãn, $a$ trực giao với $g$ �
 
 Cuối cùng, giả sử các điều kiện (a), (b) và (c) được thỏa mãn. Lấy $x \in a$ và $y \in g$. Ta vừa thấy rằng $y_M x_M$ là lũy linh và do đó $\operatorname{Tr}(y_M x_M) = 0$, điều này chứng minh khẳng định cuối cùng của bổ đề.
 
-#### Mệnh đề 4 {#lie-i-s4-prop-4 .statement}
+#### Mệnh đề 4 {#lie-i-s4-prop-4 .statement tag=09X6}
 
 Cho $g$ là một đại số Lie, $M$ là một $g$-môđun có số chiều hữu hạn trên $K$ và $A$ là đại số kết hợp được sinh bởi 1 và tập hợp các $x_M$ ($x \in g$).
 
@@ -186,7 +186,7 @@ Cho $g$ là một đại số Lie, $M$ là một $g$-môđun có số chiều h�
 
 Tập hợp các $x \in g$ sao cho $x_M$ thuộc căn Jacobson của $A$ hiển nhiên là một iđêan của $g$. Khi đó mệnh đề suy ra ngay lập tức từ Bổ đề 3.
 
-#### Định nghĩa 2 {#lie-i-s4-def-2 .statement}
+#### Định nghĩa 2 {#lie-i-s4-def-2 .statement tag=09X7}
 
 Iđêan $n$ của Mệnh đề 4 được gọi là iđêan lũy linh lớn nhất đối với $g$-môđun $M$ hoặc iđêan lũy linh lớn nhất của biểu diễn tương ứng.
 
@@ -194,7 +194,7 @@ Rõ ràng $n$ chứa hạt nhân của biểu diễn này. Nó bằng hạt nhâ
 
 Ta cũng chú ý rằng một trường hợp riêng của Bổ đề 3 ngay lập tức cho kết quả sau:
 
-#### Mệnh đề 5 {#lie-i-s4-prop-5 .statement}
+#### Mệnh đề 5 {#lie-i-s4-prop-5 .statement tag=09X8}
 
 Cho $V$ là một không gian vectơ có số chiều hữu hạn $n$ trên $K$ và $g$ là một đại số Lie con của $gl(V)$ mà các phần tử của nó là những nội cấu lũy linh của $V$. Khi đó tồn tại một dãy giảm các không gian vectơ con $V_0, V_1, \ldots, V_n$ của $V$, có các chiều $n, n-1, \ldots, 0$, sao cho $x(V_i) \subset V_{i+1}$ với mọi $x \in g$ và $i = 0, 1, \ldots, n-1$.
 
@@ -202,7 +202,7 @@ Cho $V$ là một không gian vectơ có số chiều hữu hạn $n$ trên $K$ 
 
 Cho $g$ là một đại số Lie và $a$ là một iđêan của $g$. Để $a$ là lũy linh, điều kiện cần và đủ là, với mọi $x \in a$, $\operatorname{ad}_g x$ là lũy linh; điều kiện này hiển nhiên là đủ và là cần, vì nếu $a$ là lũy linh và $x \in a$, thì $\operatorname{ad}_a x$ là lũy linh và $\operatorname{ad}_g x$ ánh xạ $g$ vào $a$, do đó $\operatorname{ad}_g x$ là lũy linh. Khi đó Mệnh đề 4 áp dụng cho biểu diễn kề của $g$ cho kết quả sau:
 
-#### Mệnh đề 6 {#lie-i-s4-prop-6 .statement}
+#### Mệnh đề 6 {#lie-i-s4-prop-6 .statement tag=09X9}
 
 Cho $g$ là một đại số Lie và $E$ là đại số con kết hợp của $\mathscr{L}(g)$ được sinh bởi 1 và các $\operatorname{ad}_g x$ ($x \in g$). Gọi $R$ là căn Jacobson của $E$.
 (a) Tập hợp $n$ gồm các $y \in g$ sao cho $\operatorname{ad}_g y \in R$ là iđêan lũy linh lớn nhất của $g$.

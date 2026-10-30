@@ -29,7 +29,7 @@ subsections:
       pdf_page: 127
 statements: 5
 exercises: 2
-content_sha256: cd4ebcd580756750a371bafeb1a9e2b804c75724354b5aa0193b9a1b9afda980
+content_sha256: c4a85a3ac7d30d4233f4f1c38b7c265ea0874369039fd3e49b6692627f21e829
 ---
 
 ## § 10. LIMITES PROJECTIVES ET INDUCTIVES
@@ -38,7 +38,7 @@ Dans tout ce paragraphe, on désigne par $I$ un ensemble préordonné non vide, 
 
 ### 1. Systèmes projectifs de magmas
 
-#### Définition 1 {#alg-i-s10-def-1 .statement}
+#### Définition 1 {#alg-i-s10-def-1 .statement tag=05JH}
 
 *On appelle système projectif de magmas relatif à l’ensemble d’indices $I$ un système projectif d’ensembles* $(\mathbf{E}_\alpha, f_{\alpha\beta})$ *relatif à $I$, chaque* $\mathbf{E}_\alpha$ *étant muni d’une structure de magma et chaque* $f_{\alpha\beta}$ *étant un homomorphisme de magmas*.
 
@@ -74,7 +74,7 @@ On laisse au lecteur le soin de définir la limite projective d’un système pr
 
 Dans ce n° et le suivant, on suppose I filtrant à droite.
 
-#### Définition 2 {#alg-i-s10-def-2 .statement}
+#### Définition 2 {#alg-i-s10-def-2 .statement tag=05JI}
 
 On appelle système inductif de magmas relatif à l’ensemble d’indices I un système inductif d’ensembles $(E_\alpha, f_{\beta \alpha})$ relatif à I, chaque $E_\alpha$ étant muni d’une structure de magma et chaque $f_{\beta \alpha}$ étant un homomorphisme de magmas.
 
@@ -95,7 +95,7 @@ $$
 
 Si $x_\alpha, y_\alpha$ dans $E_\alpha$ sont tels que $f_\alpha(x_\alpha) = f_\alpha(y_\alpha)$, il existe un $\beta \geq \alpha$ tel que $f_{\beta \alpha}(x_\alpha) = f_{\beta \alpha}(y_\alpha)$.
 
-#### Proposition 1 {#alg-i-s10-prop-1 .statement}
+#### Proposition 1 {#alg-i-s10-prop-1 .statement tag=05JJ}
 
 Il existe sur E une structure de magma et une seule pour laquelle les applications $f_\alpha : E_\alpha \to E$ sont des homomorphismes. Si les magmas $E_\alpha$ sont associatifs (resp. commutatifs), il en est de même de E. Si les magmas $E_\alpha$ et les homomorphismes $f_{\beta \alpha}$ sont unifères, il en est de même du magma E et des homomorphismes $f_\alpha$.
 
@@ -132,7 +132,7 @@ C. Q. F. D.
 
 On dit que le magma E est la limite inductive des magmas $E_\alpha$.
 
-#### Proposition 2 {#alg-i-s10-prop-2 .statement}
+#### Proposition 2 {#alg-i-s10-prop-2 .statement tag=05JK}
 
 *Soit* $(E_\alpha, f_{\beta \alpha})$ *un système inductif de magmas et soient* E *sa limite inductive*, $f_\alpha : E_\alpha \to E$ *les homomorphismes canoniques*. *On suppose donnés un magma* F *et une famille d’homomorphismes* $u_\alpha : E_\alpha \to F$ *tels que* $u_\alpha = u_\beta \circ f_{\beta \alpha}$ *pour* $\alpha \leq \beta$. *Il existe un homomorphisme* $u : E \to F$ *et un seul tel que* $u_\alpha = u \circ f_\alpha$ *pour tout* $\alpha \in I$. *Si les magmas* $E_\alpha$ *et* F *et les homomorphismes* $f_{\beta \alpha}$ *et* $u_\alpha$ *sont unifères, l’homomorphisme* u *est unifère*.
 
@@ -167,7 +167,7 @@ et de manière analogue, on prouve la relation $x(y + z) = xy + xz$. Autrement d
 
 On dit que l’anneau $A$ est limite inductive des anneaux $A_\alpha$. La prop. 2 (I, p. 115) s’étend immédiatement au cas des anneaux.
 
-#### Proposition 3 {#alg-i-s10-prop-3 .statement}
+#### Proposition 3 {#alg-i-s10-prop-3 .statement tag=05JL}
 
 a) Si les $A_\alpha$ sont non nuls, $A$ est non nul.
 b) Si les $A_\alpha$ sont intègres, $A$ est intègre.

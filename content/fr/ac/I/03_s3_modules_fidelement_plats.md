@@ -40,14 +40,14 @@ subsections:
       pdf_page: 52
 statements: 23
 exercises: 10
-content_sha256: 9edb4c4e17a8308db85046cda9e270f06927c583b1c3cb7be040f2f9e76ca748
+content_sha256: 1b4aa1455dac0ebc14e942c0fcaf84e22c314b06b437fa84c86104c722e29eed
 ---
 
 ## § 3. Modules fidèlement plats
 
 ### 1. **Définition des modules fidèlement plats.**
 
-#### Proposition 1 {#ac-i-s3-prop-1 .statement}
+#### Proposition 1 {#ac-i-s3-prop-1 .statement tag=0444}
 
 *Soit E un A-module à droite. Les quatre propriétés suivantes sont équivalentes :*
 
@@ -104,38 +104,38 @@ Démontrons enfin l’équivalence de $b$ et $d$. Si $b$ est vérifiée, on a $E
 
 C. Q. F. D.
 
-#### Définition 1 {#ac-i-s3-def-1 .statement}
+#### Définition 1 {#ac-i-s3-def-1 .statement tag=0445}
 
 On dit qu’un A-module à droite E est fidèlement plat s’il vérifie les quatre propriétés équivalentes de la prop. 1.
 
 On définit de même les A-modules à gauche fidèlement plats ; il est clair que pour qu’un A-module à gauche E soit fidèlement plat, il faut et il suffit que E, considéré comme A^0-module à droite, soit fidèlement plat.
 
-#### Remarque {#ac-i-s3-n1-rem-1 .statement}
+#### Remarque {#ac-i-s3-n1-rem-1 .statement tag=0446}
 
 Si E est un A-module fidèlement plat, E est un A-module fidèle : en effet, si un élément a ∈ A est tel que xa = 0 pour tout x ∈ E, l’homothétie h : b → ba dans A est telle que 1_E ⊗ h = 0 ; d’où h = 0 par la propriété c) de la prop. 1, c’est-à-dire a = 0 puisque A possède un élément unité.
 
-#### Exemple 1 {#ac-i-s3-n1-exa-1 .statement}
+#### Exemple 1 {#ac-i-s3-n1-exa-1 .statement tag=0CG3}
 
 La somme directe d’un module plat et d’un module fidèlement plat est un module fidèlement plat en vertu de la propriété d) de la prop. 1 et du § 2, n° 3, prop. 2.
 
-#### Exemple 2 {#ac-i-s3-n1-exa-2 .statement}
+#### Exemple 2 {#ac-i-s3-n1-exa-2 .statement tag=0CG4}
 
 Comme A_s est fidèlement plat en vertu du critère d) de la prop. 1 et du § 2, n° 4, Exemple 1, il résulte de 1) que tout module libre non réduit à 0 est fidèlement plat. Par contre, il existe des facteurs directs non nuls de modules libres (autrement dit, des modules projectifs non nuls) qui sont fidèles et ne sont pas fidèlement plats (exerc. 2).
 
-#### Exemple 3 {#ac-i-s3-n1-exa-3 .statement}
+#### Exemple 3 {#ac-i-s3-n1-exa-3 .statement tag=0CG5}
 
 Soit A un anneau principal. Pour qu’un A-module E soit fidèlement plat, il faut et il suffit qu’il soit sans torsion et que E ≠ Ep pour tout élément extrémal (Alg., chap. VII, § 1, n° 3) p de A ; cela résulte aussitôt du § 2, n° 4, prop. 3 et du critère d) de la prop. 1.
 
-#### Exemple 4 {#ac-i-s3-n1-exa-4 .statement}
+#### Exemple 4 {#ac-i-s3-n1-exa-4 .statement tag=0CG6}
 
 L’exemple 3) montre que le $\mathbf{Z}$-module $\mathbf{Q}$ est un module plat et fidèle, mais non fidèlement plat.
 
-#### Proposition 2 {#ac-i-s3-prop-2 .statement}
+#### Proposition 2 {#ac-i-s3-prop-2 .statement tag=0447}
 
 Soient E un A-module à droite fidèlement plat, et u : N' → N un homomorphisme de A-modules à gauche. Pour que u soit injectif (resp. surjectif, bijectif), il faut et il suffit que $1_E \otimes u : E \otimes_A N' \to E \otimes_A N$ le soit.
 C'est une conséquence immédiate du critère a) de la prop. 1.
 
-#### Proposition 3 {#ac-i-s3-prop-3 .statement}
+#### Proposition 3 {#ac-i-s3-prop-3 .statement tag=0448}
 
 Soit $0 \to E' \to E \to E'' \to 0$ une suite exacte de A-modules à droite. On suppose que E' et E'' sont plats, et que l'un d'eux est fidèlement plat. Alors E est fidèlement plat.
 On sait déjà que E est plat (§ 2, n° 5, prop. 5). On va vérifier que E possède la propriété b) de la prop. 1. Soit N un A-module à gauche. Comme E'' est plat, on a la suite exacte
@@ -146,7 +146,7 @@ $$
 
 ### 2. Produit tensoriel de modules fidèlement plats.
 
-#### Proposition 4 {#ac-i-s3-prop-4 .statement}
+#### Proposition 4 {#ac-i-s3-prop-4 .statement tag=0449}
 
 Soient R, S deux anneaux, E un R-module à droite, F un (R, S)-bimodule. On suppose que E est fidèlement plat. Alors, pour que F soit un S-module plat (resp. fidèlement plat), il faut et il suffit que $E \otimes_R F$ le soit.
 1° Si F est plat, $E \otimes_R F$ est plat (§ 2, n° 7, prop. 8).
@@ -154,7 +154,7 @@ Soient R, S deux anneaux, E un R-module à droite, F un (R, S)-bimodule. On supp
 3° Supposons F fidèlement plat, et soit N un S-module à gauche tel que $E \otimes_R F \otimes_S N = 0$. Puisque E est fidèlement plat, cela entraîne $F \otimes_S N = 0$, d'où $N = 0$ puisque F est fidèlement plat ; cela prouve que $E \otimes_R F$ est fidèlement plat.
 4° Supposons $E \otimes_R F$ fidèlement plat, et soit N un S-module à gauche tel que $F \otimes_S N = 0$. On a $E \otimes_R F \otimes_S N = 0$, d'où $N = 0$, ce qui montre que F est fidèlement plat.
 
-#### Corollaire {#ac-i-s3-n2-cor-1 .statement}
+#### Corollaire {#ac-i-s3-n2-cor-1 .statement tag=044A}
 
 Soient C un anneau commutatif, E et F deux C-modules fidèlement plats. Alors le C-module $E \otimes_C F$ est fidèlement plat.
 
@@ -162,19 +162,19 @@ On applique la prop. 4 avec $R = S = C$.
 
 ### 3. Changement d’anneau.
 
-#### Proposition 5 {#ac-i-s3-prop-5 .statement}
+#### Proposition 5 {#ac-i-s3-prop-5 .statement tag=044B}
 
 Soit $\rho$ un homomorphisme d’un anneau A dans un anneau B. Si E est un A-module à droite fidèlement plat, le B-module à droite $\rho^*(E) = E_{(B)} = E \otimes_A B$ est fidèlement plat.
 
 On applique la prop. 4 du n° 2 avec $R = A, S = F = B$, en remarquant que le B-module $B_d$ est fidèlement plat.
 
-#### Corollaire {#ac-i-s3-n3-cor-1 .statement}
+#### Corollaire {#ac-i-s3-n3-cor-1 .statement tag=044C}
 
 Si E est un A-module à droite fidèlement plat, et si $a$ est un idéal bilatère de A, le $(A/a)$-module à droite $E/Ea$ est fidèlement plat.
 
 On applique la prop. 5 avec $B = A/a$, $\rho$ étant l’homomorphisme canonique.
 
-#### Proposition 6 {#ac-i-s3-prop-6 .statement}
+#### Proposition 6 {#ac-i-s3-prop-6 .statement tag=044D}
 
 Soient A un anneau commutatif, B une algèbre sur A, $\rho : a \to a.1$ l’homomorphisme canonique de A dans B. Supposons que B soit un A-module fidèlement plat. Alors, pour qu’un A-module E soit plat (resp. fidèlement plat), il faut et il suffit que le B-module à droite $E_{(B)} = E \otimes_A B$ soit plat (resp. fidèlement plat).
 
@@ -196,13 +196,13 @@ C. Q. F. D.
 
 ### 4. Restriction des scalaires.
 
-#### Proposition 7 {#ac-i-s3-prop-7 .statement}
+#### Proposition 7 {#ac-i-s3-prop-7 .statement tag=044E}
 
 Soient A, B deux anneaux, $\rho$ un homomorphisme de A dans B. Soit E un B-module à droite fidèlement plat. Pour que $\rho_*(E)$ soit un A-module à droite plat (resp. fidèlement plat), il faut et il suffit que B soit un A-module à droite plat (resp. fidèlement plat).
 
 On applique la prop. 4 du n° 2, en remplaçant R, S, E, F respectivement par B, A, E, B, la structure de A-module à droite de B étant définie par $\rho$ ; on voit ainsi que B est un A-module plat (resp. fidèlement plat) si et seulement si $E \otimes_B B = \rho_*(E)$ est un A-module plat (resp. fidèlement plat).
 
-#### Remarque {#ac-i-s3-n4-rem-1 .statement}
+#### Remarque {#ac-i-s3-n4-rem-1 .statement tag=0CG7}
 
 1° La prop. 7 montre que pour que B soit un A-module fidèlement plat, il suffit qu’il existe un B-module fidèlement plat qui soit aussi un A-module fidèlement plat.
 
@@ -210,7 +210,7 @@ On applique la prop. 4 du n° 2, en remplaçant R, S, E, F respectivement par B,
 
 ### 5. Anneaux fidèlement plats.
 
-#### Proposition 8 {#ac-i-s3-prop-8 .statement}
+#### Proposition 8 {#ac-i-s3-prop-8 .statement tag=044F}
 
 Soient A, B deux anneaux, $\rho$ un homomorphisme de A dans B. On suppose qu’il existe un B-module à droite E tel que $\rho_*(E)$ soit un A-module fidèlement plat. Alors :
 
@@ -236,7 +236,7 @@ Enfin, si $m$ est un idéal à gauche maximal de A, on a $\rho^{-1}(Bm) = m$ en 
 
 Lorsque A et B vérifient les conditions de la prop. 8, on identifie d’ordinaire A à un sous-anneau de B au moyen de $\rho$.
 
-#### Corollaire {#ac-i-s3-n5-cor-1 .statement}
+#### Corollaire {#ac-i-s3-n5-cor-1 .statement tag=044G}
 
 Sous les hypothèses de la prop. 8, si B est noethérien (resp. artinien) à gauche, il en est de même de A.
 
@@ -246,7 +246,7 @@ En effet, si $(a_n)$ était une suite croissante (resp. décroissante) non stati
 
 La prop. 8 s’applique notamment lorsque B est lui-même un A-module fidèlement plat. Mais on a dans ce cas la proposition plus précise suivante :
 
-#### Proposition 9 {#ac-i-s3-prop-9 .statement}
+#### Proposition 9 {#ac-i-s3-prop-9 .statement tag=044H}
 
 *Soient A, B deux anneaux, $\rho$ un homomorphisme de A dans B. Les cinq propriétés suivantes sont équivalentes :*
 
@@ -278,7 +278,7 @@ f) B est un A-module plat, et pour tout idéal premier $p$ de A, il existe un id
 
 Sous les conditions de la prop. 9, identifions A à un sous-anneau de B au moyen de $\rho$. La relation $\rho^{-1}(Ba) = a$ s’écrit alors $A \cap Ba = a$. D’autre part, si F est un A-module à gauche, on identifie F à son image dans $B \otimes_A F$ par l’application canonique $x \to 1 \otimes x$; si X est un sous-groupe additif de F, on note alors BX le sous-B-module à gauche de $B \otimes_A F$ engendré par X. Avec ces notations, on a :
 
-#### Proposition 10 {#ac-i-s3-prop-10 .statement}
+#### Proposition 10 {#ac-i-s3-prop-10 .statement tag=044I}
 
 Soient B un anneau et A un sous-anneau de B tel que B soit un A-module à droite fidèlement plat. Soient F un A-module à gauche, F', F'' deux sous-modules de F. Alors :
 (i) L’application canonique $B \otimes_A F' \to B \otimes_A F$ induit un isomorphisme de $B \otimes_A F'$ sur $BF'$.
@@ -290,7 +290,7 @@ En effet, comme B est un A-module à droite plat, l’application canonique $B \
 
 ### 6. Anneaux fidèlement plats et conditions de finitude.
 
-#### Proposition 11 {#ac-i-s3-prop-11 .statement}
+#### Proposition 11 {#ac-i-s3-prop-11 .statement tag=044J}
 
 Soient B un anneau et A un sous-anneau de B tel que B soit un A-module à droite fidèlement plat. Pour qu’un
 
@@ -300,7 +300,7 @@ A-module à gauche F soit de type fini (resp. de présentation finie), il faut e
 
 2° Si F admet une présentation finie, il en est de même de $B \otimes_A F$ sans hypothèse sur B (§ 2, n° 8). Reste à prouver que si $B \otimes_A F$ admet une présentation finie, il en est de même de F. On sait déjà par 1° que F est de type fini, donc il existe un homomorphisme surjectif $u : L \to F$, où L est un A-module libre de type fini. Soit R le noyau de u, de sorte que $B \otimes_A R$ s’identifie au noyau de l’homomorphisme surjectif $1_B \otimes u : B \otimes_A L \to B \otimes_A F$ (§ 2, n° 3, Remarque 2). Comme $B \otimes_A F$ admet une présentation finie par hypothèse, on en conclut (§ 2, n° 8, lemme 9) que $B \otimes_A R$ est de type fini ; il résulte alors de 1° que R est un A-module de type fini, et par suite F admet une présentation finie.
 
-#### Proposition 12 {#ac-i-s3-prop-12 .statement}
+#### Proposition 12 {#ac-i-s3-prop-12 .statement tag=044K}
 
 Soient B un anneau et A un sous-anneau commutatif du centre de B tel que B soit un A-module fidèlement plat. Pour qu’un A-module F soit projectif et de type fini, il faut et il suffit que $B \otimes_A F$ soit un B-module à gauche projectif de type fini.
 
@@ -337,7 +337,7 @@ y_k = x_k + \sum_{j=1}^p b_j z_{jk} \quad (1 \leq k \leq n)
 $$
 où $(x_k)$ est une solution de (3) formée d’éléments de A, les $b_j$ appartiennent à B et chacun des $(z_{jk})_{1 \leq k \leq n}$ est une solution du système linéaire homogène associé à (3), formée d’éléments de A.
 
-#### Proposition 13 {#ac-i-s3-prop-13 .statement}
+#### Proposition 13 {#ac-i-s3-prop-13 .statement tag=044L}
 
 Soit A un sous-anneau d’un anneau B. Pour que le couple (A, B) vérifie la propriété d’extension linéaire, il faut et il suffit que B soit un A-module à droite fidèlement plat.
 

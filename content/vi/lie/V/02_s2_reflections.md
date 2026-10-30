@@ -32,9 +32,9 @@ subsections:
       pdf_page: 87
 statements: 16
 exercises: 3
-content_sha256: d34399eac38f145bdb2dbd2756f9a7247998436c98ad012d647804b79027f359
+content_sha256: a1d03a47160a0d712dd53f1e88fcec276610a4a5419dfdf830e0e964f7a616be
 translated_from: content/en/lie/V/02_s2_reflections.md
-source_content_sha256: 39c7ebc3b044da26c284dd6d790d3e5d350ccc31db5ffb0f9a476cf4c313cf2e
+source_content_sha256: 20ad7df5949cc7ad56e714010f088695fe6bb28788d70b393710f3d5f45836d3
 translation_model: gpt-5.4
 translation_run: translate-vi-5abdde5a
 glossary_version: 34
@@ -48,7 +48,7 @@ Trong đoạn này, K ký hiệu một trường giao hoán, được giả thi�
 
 ### 1. GIẢ PHẢN XẠ
 
-#### Định nghĩa 1 {#lie-v-s2-def-1 .statement}
+#### Định nghĩa 1 {#lie-v-s2-def-1 .statement tag=0APJ}
 
 Một tự đồng cấu s của không gian vectơ V được gọi là một giả phản xạ nếu $1 - s$ có hạng 1.
 
@@ -68,7 +68,7 @@ $$
 
 Nếu a là một vectơ khác không, một *giả-phản xạ với vectơ a* là mọi giả-phản xạ s sao cho a thuộc ảnh của $1 - s$. *Siêu phẳng của một giả-phản xạ s* là hạt nhân của $1 - s$, tập hợp các vectơ x sao cho $s(x) = x$.
 
-#### Mệnh đề 1 {#lie-v-s2-prop-1 .statement}
+#### Mệnh đề 1 {#lie-v-s2-prop-1 .statement tag=0APK}
 
 Cho G là một nhóm và $\rho$ là một biểu diễn tuyến tính bất khả quy của G trên một không gian vectơ V; giả sử rằng tồn tại một phần tử g của G sao cho $\rho(g)$ là một giả-phản xạ.
 
@@ -99,7 +99,7 @@ do đó $u(\rho(g)(x)) = \rho(g)(u(x))$ vì B không suy biến. Theo (i), tồn
 
 Nhớ rằng từ nay về sau, trừ khi có nói rõ ngược lại, trường K được giả thiết có đặc số khác 2. Một phép đối xứng trong V là một giả-phản xạ s sao cho $s^2 = 1$; nếu s là một phép đối xứng, ta ký hiệu bởi $V_s^+$ hạt nhân của $s - 1$ và bởi $V_s^-$ hạt nhân của $s + 1$.
 
-#### Mệnh đề 2 {#lie-v-s2-prop-2 .statement}
+#### Mệnh đề 2 {#lie-v-s2-prop-2 .statement tag=0APL}
 
 Cho s là một tự đồng cấu của V.
 
@@ -111,13 +111,13 @@ Cho s là một tự đồng cấu của V.
 
 (ii) Dưới các giả thiết đã nêu, mọi phần tử của V đều có thể được viết duy nhất dưới dạng $v = x + y$ với $x \in H$ và $y \in D$, và ta có $s(v) = x - y$; mệnh đề (ii) suy ra ngay lập tức từ điều này.
 
-#### Hệ quả {#lie-v-s2-n2-cor-1 .statement}
+#### Hệ quả {#lie-v-s2-n2-cor-1 .statement tag=0APM}
 
 *Nếu V là hữu hạn chiều, mọi phép phản xạ đều có định thức bằng −1.*
 
 Cho s là một phép phản xạ trong V. Mệnh đề 2, (i) cho thấy rằng tồn tại một cơ sở $(e_1, \ldots, e_n)$ của V sao cho $s(e_1) = e_1, \ldots, s(e_{n-1}) = e_{n-1}$ và $s(e_n) = -e_n$, do đó $\det(s) = -1$.
 
-#### Mệnh đề 3 {#lie-v-s2-prop-3 .statement}
+#### Mệnh đề 3 {#lie-v-s2-prop-3 .statement tag=0APN}
 
 *Cho s là một phép phản xạ trong V.*
 
@@ -129,7 +129,7 @@ Cho s là một phép phản xạ trong V. Mệnh đề 2, (i) cho thấy rằng
 
 (ii) Trước hết giả sử rằng $u$ giao hoán với $s$. Nếu $x$ là một vectơ sao cho $s(x) = \varepsilon.x$ (trong đó $\varepsilon = \pm 1$), thì $s(u(x)) = u(s(x)) = \varepsilon.u(x)$, vậy $V_s^+$ và $V_s^-$ ổn định dưới $u$. Ngược lại, giả sử rằng $V_s^+$ và $V_s^-$ ổn định dưới $u$; hiển nhiên $us - su$ triệt tiêu trên $V_s^+$ và trên $V_s^-$, và vì V là tổng trực tiếp của $V_s^+$ và $V_s^-$, nên ta có $us - su = 0$.
 
-#### Hệ quả {#lie-v-s2-n2-cor-2 .statement}
+#### Hệ quả {#lie-v-s2-n2-cor-2 .statement tag=0APO}
 
 *Hai phép phản xạ phân biệt s và u giao hoán với nhau khi và chỉ khi $V_s^- \subset V_u^+$ và $V_u^- \subset V_s^+$.*
 
@@ -141,7 +141,7 @@ a) Ta có $V_u^- \subset V_s^-$: vì cả hai đều có chiều bằng 1, nên 
 
 b) Ta có $V_s^- \subset V_u^+$: do đó ảnh của $1 - s$ được chứa trong hạt nhân của $1 - u$, nên $(1 - u).(1 - s) = 0$. Vì $s$ và $u$ giao hoán, ta có $(1 - s).(1 - u) = 0$, nói cách khác $V_u^- \subset V_s^+$.
 
-#### Nhận xét {#lie-v-s2-n2-rem-1 .statement}
+#### Nhận xét {#lie-v-s2-n2-rem-1 .statement tag=0APP}
 
 Cho $a \neq 0$ thuộc V và cho $a^*$ là một dạng tuyến tính khác không trên V: từ công thức (1) suy ra rằng
 
@@ -161,7 +161,7 @@ $$
 
 theo Đại số, Chương IX, § 6, no. 4, công thức (6). Phép phản xạ s cũng được gọi là phép phản xạ trực giao đối với H.
 
-#### Mệnh đề 4 {#lie-v-s2-prop-4 .statement}
+#### Mệnh đề 4 {#lie-v-s2-prop-4 .statement tag=0APQ}
 
 Giả sử rằng V hữu hạn chiều. Cho B là một dạng song tuyến tính đối xứng không suy biến trên V, X là một không gian con của V và $X^0$ là phần bù trực giao của X đối với B; sau cùng, cho s là phép phản xạ trực giao đối với một siêu phẳng không đẳng hướng H của V. Các điều kiện sau là tương đương:
 
@@ -183,7 +183,7 @@ $$
 s_H(h + v) = h - v.
 $$
 
-#### Mệnh đề 5 {#lie-v-s2-prop-5 .statement}
+#### Mệnh đề 5 {#lie-v-s2-prop-5 .statement tag=0APR}
 
 *Cho $H$ và $H'$ là hai siêu phẳng song song, không đẳng hướng của $E$. Tồn tại một vectơ duy nhất $v \in V$ trực giao với $H$ và sao cho $H' = H + v$. Phép dời hình $s_{H'} s_H$ là phép tịnh tiến theo vectơ $2v$.
 
@@ -195,13 +195,13 @@ $$
 
 điều này cho thấy rằng $s_{H'} s_H$ là phép tịnh tiến theo vectơ $2v$.
 
-#### Hệ quả {#lie-v-s2-n4-cor-1 .statement}
+#### Hệ quả {#lie-v-s2-n4-cor-1 .statement tag=0APS}
 
 *Cho $H$ và $H'$ là hai siêu phẳng phân biệt, song song, không đẳng hướng. Nếu $K$ có đặc số không (tương ứng $p > 0$, với $p \neq 2$), nhóm các phép dời hình của $E$ sinh bởi $s_H$ và $s_{H'}$ là một nhóm nhị diện vô hạn (tương ứng một nhóm nhị diện cấp $2p$).
 
 Thật vậy, theo Mệnh đề 2 của Chương IV, § 1, no. 2, chỉ cần chỉ ra rằng $s_{H'} s_H$ có cấp vô hạn (tương ứng cấp $2p$), điều này là hiển nhiên.
 
-#### Nhận xét {#lie-v-s2-n4-rem-1 .statement}
+#### Nhận xét {#lie-v-s2-n4-rem-1 .statement tag=0APT}
 
 Ta giữ ký hiệu của Mệnh đề 5 và giả sử thêm rằng $K = \mathbf{R}$. Đặt $s = s_H$ và $s' = s_{H'}$. Gọi $H_n$ là siêu phẳng $H + n.v$ và gọi $C_n$ là tập hợp các điểm của $E$ có dạng $a + \xi.v$ với $a \in H$ và $n < \xi < n + 1$. Các $C_n$ là những tập hợp mở liên thông tạo thành một phân hoạch của $E - \bigcup_n H_n$. Do đó chúng là các *buồng* được xác định bởi hệ $\mathfrak{H} = (H_n)_{n \in \mathbf{Z}}$ trong $E$. Phép tịnh tiến $(s's)^n$ biến buồng $C = C_0$ thành buồng $C_{2n}$, và vì $s(C_0) = C_{-1}$, ta có $(s's)^n s(C) = C_{2n-1}$. Suy ra rằng *nhóm nhị diện W sinh bởi s và s' hoán vị các buồng C_n một cách đơn bắc cầu*. Hơn nữa, như bây giờ ta sẽ chỉ ra, *nếu các buồng C và w(C) nằm ở hai phía đối của H* (với $w \in W$), *thì ta có l(sw) = l(w) - 1* (các độ dài được lấy đối với $S = \{s, s'\}$ (Ch. IV, § 1, no. 1)). Thật vậy, khi đó ta có $w(C) = C_n$ với một số $n < 0$. Nếu $n = -2k$, thì $w = (ss')^k$ và $sw = (s's)^{k-1}s'$, do đó $l(w) = 2k$ và $l(sw) = 2k - 1$ (Ch. IV, § 1, no. 2, Nhận xét). Nếu $n = -2k - 1$, thì $w = (ss')^k s$ và $sw = (s's)^k$, do đó $l(w) = 2k + 1$ và $l(sw) = 2k$.
 
@@ -209,7 +209,7 @@ Ta giữ ký hiệu của Mệnh đề 5 và giả sử thêm rằng $K = \mathb
 
 Trong số này, $V$ ký hiệu một không gian vectơ thực chiều 2, được trang bị một *tích vô hướng* (tức là một dạng song tuyến tính đối xứng, dương, *không suy biến*) và một *định hướng*. Các số đo góc sẽ được lấy theo cơ sở $2\pi$; do đó số đo chính của một góc giữa các nửa đường thẳng (tương ứng, các đường thẳng) là một số thực $\theta$ sao cho $0 \leq \theta < 2\pi$ (tương ứng $0 \leq \theta < \pi$) (*Tôpô đại cương*, Chương VIII, § 2, no. 3 và no. 6). Theo lối nói lạm dụng, với mọi số thực $\theta$, ta sẽ dùng $\theta$ để chỉ một góc có số đo là $\theta$ và ký hiệu bởi $\rho_\theta$ phép quay góc $\theta$ (*Đại số*, Chương IX, § 10, no. 3).
 
-#### Mệnh đề 6 {#lie-v-s2-prop-6 .statement}
+#### Mệnh đề 6 {#lie-v-s2-prop-6 .statement tag=0APU}
 
 *Cho s là phép đối xứng trực giao đối với một đường thẳng D của V. Nếu $\Delta$ và $\Delta'$ là hai nửa đường thẳng gốc O (tương ứng, hai đường thẳng đi qua gốc O) của V, ta có*
 
@@ -219,7 +219,7 @@ $$
 
 Cho $u$ là một phép quay biến đổi $\Delta$ thành $\Delta'$. Vì $su$ là một phép biến đổi trực giao của V có định thức bằng $-1$, nên nó là một phép đối xứng và do đó $(su)^2 = 1$. Do đó, $u^{-1} = sus^{-1}$ biến đổi $s(\Delta)$ thành $s(\Delta')$, suy ra mệnh đề.
 
-#### Hệ quả {#lie-v-s2-n5-cor-1 .statement}
+#### Hệ quả {#lie-v-s2-n5-cor-1 .statement tag=0APV}
 
 *Cho D và D' là hai đường thẳng của V và $\theta$ là một số đo của góc $(\widehat{D}, \widehat{D'})$. Khi đó $s_{D'} s_D = \rho_{2\theta}$.
 
@@ -241,13 +241,13 @@ $$
 $$
 và gọi s và $s'$ là các phép đối xứng trực giao đối với các đường thẳng D và D' chứa $\Delta$ và $\Delta'$. Gọi $\theta$ là số đo chính của góc $(\widehat{D}, \widehat{D'})$. Nếu $\theta \in \pi \mathbf{Q}$, ký hiệu bởi m số nguyên nhỏ nhất $\geq 1$ sao cho $m\theta \in \pi \mathbf{Z}$. Nếu $\theta \notin \pi \mathbf{Q}$, đặt $m = \infty$. Gọi W là nhóm sinh bởi s và $s'$.
 
-#### Mệnh đề 7 {#lie-v-s2-prop-7 .statement}
+#### Mệnh đề 7 {#lie-v-s2-prop-7 .statement tag=0APW}
 
 *Nhóm W là điêđrơ* (Ch. IV, § 1, no. 2) *có cấp $2m$. Nó gồm các phép quay $\rho_{2n\theta}$ và các tích $\rho_{2n\theta} s$ với $n \in \mathbf{Z}$. Các biến đổi của D và D' bởi các phần tử của W là các biến đổi của D bởi các phép quay $\rho_{n\theta}$ với $n \in \mathbf{Z}$.
 
 Hệ quả của Mệnh đề 6 cho thấy rằng $s's$ có cấp m, điều này cho khẳng định đầu tiên. Như vậy các phần tử của W có dạng $(s's)^n = \rho_{2n\theta}$ hoặc $(s's)^n s = \rho_{2n\theta} s$; khẳng định cuối cùng suy ra từ đó, vì $D' = \rho_\theta(D)$.
 
-#### Hệ quả {#lie-v-s2-n5-cor-2 .statement}
+#### Hệ quả {#lie-v-s2-n5-cor-2 .statement tag=0APX}
 
 *Cho C là miền góc mở tạo thành bởi hợp của các nửa đường thẳng mở $\Delta_1$ xuất phát từ gốc tọa độ và sao cho $0 < (\widehat{\Delta}, \widehat{\Delta_1}) < \theta$. Khi đó* không có biến đổi nào của D hoặc D' bởi một phần tử của W cắt C khi và chỉ khi m là hữu hạn và
 
@@ -257,7 +257,7 @@ $$
 
 Nếu $m = \infty$, ảnh của tập hợp $n \theta$ ($n \in \mathbf{Z}$) trù mật trong $\mathbf{R}/2\pi \mathbf{Z}$ (Tôpô đại cương, Chương VII, § 1, Mệnh đề 11); do đó hợp của các ảnh của D bởi các phần tử của W là trù mật trong V và cắt C. Nếu m là hữu hạn và nếu $\theta = k \pi / m$ với $1 < k < m$, trong đó các số nguyên k và m nguyên tố cùng nhau, thì tồn tại một số nguyên h sao cho $hk \equiv 1$ mod. m; khi đó $(D, \rho_{h \theta}(D)) \equiv \pi / m$ (mod. $\pi$), và $\rho_{h \theta}(D)$ cắt C. Điều đó chứng tỏ điều kiện là cần thiết. Đảo lại là ngay lập tức.
 
-#### Nhận xét {#lie-v-s2-n5-rem-1 .statement}
+#### Nhận xét {#lie-v-s2-n5-rem-1 .statement tag=0APY}
 
 Giả sử rằng m là hữu hạn và rằng $\theta = \pi / m$. Nếu $n \in \mathbf{Z}$, gọi $C_n$ là hợp của các nửa đường thẳng mở $\Delta_1$ xuất phát từ 0 sao cho
 
